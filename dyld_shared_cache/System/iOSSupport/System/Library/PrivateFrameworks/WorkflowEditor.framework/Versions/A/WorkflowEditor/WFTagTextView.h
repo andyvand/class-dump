@@ -16,15 +16,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void)1B0@ù
-× ;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *placeholder;

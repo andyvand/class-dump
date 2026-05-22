@@ -15,9 +15,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (_Bool);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsBiometry;

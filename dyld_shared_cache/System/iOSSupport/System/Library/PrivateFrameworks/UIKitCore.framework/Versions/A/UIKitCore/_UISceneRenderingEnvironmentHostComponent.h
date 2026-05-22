@@ -16,19 +16,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)R;
-- (void);
 - (_Bool);
-- (long long)eAllControls;
-- (void)P;
 - (void);
-- (void)sageAutoDisplay"b1"navigationBarHidingEnabled"b1"dimTableViewOnEmptySearchString"b1"isRotatingWithPopover"b1"cancelButtonManagementDisabled"b1"allowDisablingNavigationBarHiding"b1"showsResultsForEmptyField"b1"searchBarCanBeHoisted"b1"animatingSearchResultsDisappearance"b1"navigationBarShadowWasHidden"b1"hoistingSearchBar"b1};
-- (void)stsImageWhenDisabled;
-- (void)ntAlphaDistanceThreshold;
-- (id)(é`éÈé;
-- (void)c;
-- (void)upportedOrientations;
-- (id)ta source snapshot (%ld);
+- (_Bool);
+- (long long);
+- (void);
+- (void)0@ù
+× ;
+- (id)ÑeÐ1Â0@ù
+× ;
+- (void)er:(id)arg1;
+- (void)tBehaviorConfiguration;
+- (id)¸ª;
+- (void)X;
+- (void)nerNode<_UICollectionViewRTreeElement>:(id)arg1:commonInit() [T = _UICollectionViewRTreeElement] /* Error: Ran out of types for this method. */;
+- (void)TextItemTagAttribute;
 
 // Remaining properties
 @property(nonatomic) long long activeAppearance;

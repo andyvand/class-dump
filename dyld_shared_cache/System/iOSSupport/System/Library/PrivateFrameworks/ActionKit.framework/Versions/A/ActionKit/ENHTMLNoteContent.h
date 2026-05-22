@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)cludeBusinessLinkedNotebooks;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *html; // @synthesize html=_html;

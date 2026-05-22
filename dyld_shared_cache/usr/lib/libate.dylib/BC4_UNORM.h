@@ -4,5 +4,5 @@
 
 class BC4_UNORM {
 public: // (access info unavailable from symbols alone)
-    DecodeFromIndex(unsigned long) const;
+    auto DecodeFromIndex(unsigned long) const;
 };

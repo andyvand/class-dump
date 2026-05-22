@@ -7,7 +7,8 @@
 @class FCContentArchive, FCContentManifest;
 
 @protocol FCContentArchivable
-- (FCContentManifest *);
+- (FCContentArchive *);
+- (FCContentManifest *);
 
 // Remaining properties
 @property(readonly, nonatomic) FCContentArchive *contentArchive;

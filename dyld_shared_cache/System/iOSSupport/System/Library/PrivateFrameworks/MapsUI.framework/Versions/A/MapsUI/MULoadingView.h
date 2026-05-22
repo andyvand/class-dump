@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
+- (void);
+- (void)ewModel;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

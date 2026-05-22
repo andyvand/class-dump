@@ -22,14 +22,14 @@
     MISSING_TYPE *transportControls;
     MISSING_TYPE *hostedContent;
     MISSING_TYPE *banner;
-    MISSING_TYPE *queue;
     MISSING_TYPE *debug;
     MISSING_TYPE *trackSections;
+    MISSING_TYPE *appIntents;
     MISSING_TYPE *windowProperties;
-    MISSING_TYPE *activeScrubPosition;
+    MISSING_TYPE *activeScrubPositionSubject;
     MISSING_TYPE *pendingTransition;
-    MISSING_TYPE *isLive;
-    MISSING_TYPE *isPlaying;
+    MISSING_TYPE *_isLive;
+    MISSING_TYPE *_isPlaying;
     MISSING_TYPE *volumeControl;
 }
 

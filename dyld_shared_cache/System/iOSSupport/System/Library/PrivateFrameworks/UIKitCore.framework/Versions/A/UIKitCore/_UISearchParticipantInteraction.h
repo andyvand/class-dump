@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)nderers: /* Error: Ran out of types for this method. */;
-- (id)tion:legacyImpl:serviceViewControllerDeputyInterface:connectionHandler: /* Error: Ran out of types for this method. */;
-- (void),N,V_constrainedAxes;
-- (void)anningGestureRecognizerInProgress;
-- (void)rAssertion>",&,N,V_inputModeSelectorAssertion;
-- (void)rning a fractional height for UICollectionViewTableLayout rows will result in layout issues in the collection view. Please ensure that row heights are integral values. This message will only be logged once.;
+- (void);
+- (void);
+- (id);
+- (id)MaxDAngle:,V_manualPageCurlMaxDAngle /* Error: Ran out of types for this method. */;
+- (void)ocument %@ is deallocating even though it is currently registered as a file presenter.;
+- (void)ÿ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <BSInvalidatable> _searchParticipantToken; // @synthesize _searchParticipantToken=__searchParticipantToken;

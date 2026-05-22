@@ -4,16 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @protocol UIImagePickerCameraViewController
-- (void)`;
-- (_Bool);
-- (void)`;
-- (struct CGAffineTransform)s:participantIDs: /* Error: Ran out of types for this method. */;
-- (UIView *)upID:displayName:lastKnownToBeHybrid:mergeDisplayNames:participantIDs: /* Error: Ran out of types for this method. */;
-- (long long):chatIdentifier:chatStyle:groupID:displayName:lastKnownToBeHybrid:mergeDisplayNames:participantIDs: /* Error: Ran out of types for this method. */;
-- (long long)onCentricIDForChatWithGUID:chatIdentifier:chatStyle:groupID:displayName:lastKnownToBeHybrid:mergeDisplayNames:participantIDs: /* Error: Ran out of types for this method. */;
-- (long long)onCentricGroupedChatsCache;
 @end
 

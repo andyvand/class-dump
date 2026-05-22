@@ -24,11 +24,11 @@
 - (_Bool);
 - (unsigned char);
 - (_Bool);
-- (struct CGImage *);
-- (void);
-- (struct CGSize);
-- (id);
 - (_Bool);
+- (struct CGImage *);
+- (struct CGSize);
+- (void);
+- (id)intReference.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

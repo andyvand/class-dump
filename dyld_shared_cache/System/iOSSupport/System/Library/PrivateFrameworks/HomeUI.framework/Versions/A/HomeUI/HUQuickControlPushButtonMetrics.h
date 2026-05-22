@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)entifier;
 
 // Remaining properties
 @property(readonly, nonatomic) HUIntrinsicSizeDescriptor *sizeDescriptor; // @synthesize sizeDescriptor=_sizeDescriptor;

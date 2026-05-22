@@ -34,9 +34,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;

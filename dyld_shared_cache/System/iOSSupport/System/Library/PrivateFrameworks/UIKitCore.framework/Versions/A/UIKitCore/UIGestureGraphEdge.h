@@ -16,16 +16,15 @@ __attribute__((visibility("hidden")))
     UIGestureGraphNode *_targetNode;
 }
 
-- (id)M;
 - (id);
-- (id)>",W,N;
-- (_Bool)eDataSource getTransportablePlaybackSessionRepresentationWithCompletion completion was released without being called.;
 - (id);
-- (id)5º;
-- (void);
-- (_Bool)ÔÁq°!xFùñÄÐ1¢!0@ù
-× ;
-- (id)cusLinearMovementDebugView;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id)S_setHidEvent:,V_hidEvent /* Error: Ran out of types for this method. */;
+- (void)è h;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isDirected) _Bool directed; // @synthesize directed=_directed;

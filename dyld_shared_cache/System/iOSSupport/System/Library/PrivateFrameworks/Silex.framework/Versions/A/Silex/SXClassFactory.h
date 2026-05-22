@@ -8,12 +8,12 @@
 {
 }
 
-+ (Class);
-+ (void);
-+ (void);
 + (void);
 + (CDUnknownBlockType);
-+ (void)tIsPresentingFullscreen: /* Error: Ran out of types for this method. */;
++ (void);
++ (void);
++ (Class);
++ (void)tring",R,N,V_offerIdentifier;
 
 @end
 

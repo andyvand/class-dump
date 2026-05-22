@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     PDFPageLayerEffectPrivate *_private;
 }
 
-+ (id)backRequest"24@"NSError"32;
-+ (id)on"16@"AFRequestInfo"24@?<v@?B>32;
-+ (id)@0:(id)arg1 8@"AFConnection"16@"NSString"24@?<v@?B>32;
-+ (id)String"24;
-+ (id)2;
-+ (id)v48@0:(id)arg1 8@"AFConnection"16@"NSString"24@"NSURL"32@?<v@?B>40;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (_Bool);
 - (void);
 - (id);
@@ -26,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)ntDrawing;
 - (id);
-- (void)t;
-- (id)/PrivateFrameworks/CoreSuggestions.framework/Versions/A/CoreSuggestions;
+- (void);
+- (id);
+- (void);
 
 @end
 

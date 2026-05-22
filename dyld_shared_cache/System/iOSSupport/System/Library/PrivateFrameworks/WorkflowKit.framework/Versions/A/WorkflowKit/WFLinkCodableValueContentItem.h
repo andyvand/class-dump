@@ -19,8 +19,8 @@
 + (id);
 + (id);
 + (id);
-+ (id)orks;
-+ (_Bool)WFFontSize);
++ (id);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -30,12 +30,12 @@
 - (Class);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (Class);
 - (id);
 - (Class);
+- (id);
+- (void);
+- (Class)unarchving serverChangeTokenData:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)X-Callback URL (WFXCallbackURL);
 
 // Remaining properties
 @property(readonly, nonatomic) LNCodableValue *codableValue;

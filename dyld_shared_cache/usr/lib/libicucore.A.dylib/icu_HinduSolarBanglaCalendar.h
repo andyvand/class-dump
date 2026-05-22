@@ -5,14 +5,14 @@
 class icu::HinduSolarBanglaCalendar {
 public: // (access info unavailable from symbols alone)
     HinduSolarBanglaCalendar(icu::Locale const&, UErrorCode&);
-    clone() const;
-    getDayTransition(int) const;
-    getDynamicClassID() const;
-    getLookupTable() const;
-    getLookupTableBaseYear() const;
-    getLookupTableLength() const;
-    getStaticClassID();
-    getType() const;
-    getYearOffset() const;
+    auto clone() const;
+    auto getDayTransition(int) const;
+    auto getDynamicClassID() const;
+    auto getLookupTable() const;
+    auto getLookupTableBaseYear() const;
+    auto getLookupTableLength() const;
+    auto getStaticClassID();
+    auto getType() const;
+    auto getYearOffset() const;
     ~HinduSolarBanglaCalendar();
 };

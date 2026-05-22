@@ -23,48 +23,48 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _contentEdgeInsets;
 }
 
-- (void)t:forAttachmentRegularTextWithZoomController: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (double)rating preview:%@ /* Error: Ran out of types for this method. */;
-- (double)tions;
-- (id)eration is %@;
-- (id)access ICTintColorForICFilterType for ICFilterTypeUnknown.;
-- (id)bject for share %@ recordID %@;
-- (id)ing to get root record for %@, but we don't have a server record. This likely won't work.;
-- (struct UIEdgeInsets)ccount:(unsigned long long)arg1 %@};
-- (void)hment:(unsigned long long)arg1 %{private}@ at %@;
-- (id)to use for your protected notes.;
-- (double).moc-change-controller-object-ids-serial-queue;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (double);
+- (double);
 - (id);
-- (void);
-- (void)PV	;
+- (id);
+- (id);
+- (id);
 - (struct UIEdgeInsets);
 - (void);
 - (id);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)/System/iOSSupport/System/Library/Frameworks/EventKitUI.framework/Versions/A/EventKitUI;
-- (id);
+- (void);
 - (unsigned long long);
 - (id);
-- (id)*;
-- (void);
-- (id)0@ù
+- (id)ûð!ÜCùÑ°1Â0@ù
 × ;
-- (id)ewControllerTransitioningDelegate;
-- (id)Xáûÿÿÿ;
-- (void)nchorPoint;
-- (_Bool)y in the nav controller hierarchy. This shouldn't be possible. Dropping.;
+- (void)ntifierMap:(unsigned long long)arg1;
+- (_Bool)imation: /* Error: Ran out of types for this method. */;
+- (id)ndicates collaboration context. Do not stage plugin as text attachment.;
+- (id)%@, data:(id)arg1 %lu;
+- (void)ÿ%;
+- (id);
+- (id);
+- (id)}2(0;
 
 // Remaining properties
 @property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;

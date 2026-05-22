@@ -12,21 +12,21 @@
     NSUUID *_personManagerUUID;
 }
 
-+ (id)Ü@;
-+ (_Bool)>;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)SObject<OS_dispatch_queue>",&;
-- (id)@Nil identifier;
+- (void)Ý;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

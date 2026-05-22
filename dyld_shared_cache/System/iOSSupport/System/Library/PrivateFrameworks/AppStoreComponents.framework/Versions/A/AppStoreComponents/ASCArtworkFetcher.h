@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) ASCTaskCoordinator *fetchCoordinator; // @synthesize fetchCoordinator=_fetchCoordinator;

@@ -23,13 +23,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

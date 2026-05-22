@@ -15,10 +15,10 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ddWalletKeySupressionAssertionReleaseMessage;
++ (_Bool);
 - (id);
 - (id);
-- (id)entRooms;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

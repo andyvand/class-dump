@@ -25,10 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)P;
-- (void)÷ÿñ°;
+- (id);
+- (void);
+- (void)x/ëÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *allAttachments;

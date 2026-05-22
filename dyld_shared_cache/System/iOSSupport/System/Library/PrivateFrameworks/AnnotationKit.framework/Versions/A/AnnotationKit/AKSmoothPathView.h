@@ -36,12 +36,12 @@
     struct CGRect _singleDotRect;
 }
 
-+ (id);
++ (id);
 - (MISSING_TYPE *);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void)0;
+- (void);
 - (id);
 - (struct CGRect);
 - (double);
@@ -60,16 +60,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (double);
 - (double);
-- (double);
+- (double);
+- (double);
 - (double);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -87,7 +87,7 @@
 - (struct CGContext *);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool);
 - (double);
 - (void);
 - (void);
@@ -97,26 +97,25 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void)eDeleteBlock;
-- (id);
-- (id);
 - (id);
 - (void);
-- (id)h;
-- (id)Available;
+- (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (void)0@ù
-× ;
-- (void)on:(struct CGRect)arg1 animated: /* Error: Ran out of types for this method. */;
-- (double)oolTagForCHRecognitionResult: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (double);
+- (void);
+- (void)tations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool applyModelBaseScaleFactorToStroke; // @synthesize applyModelBaseScaleFactorToStroke=_applyModelBaseScaleFactorToStroke;

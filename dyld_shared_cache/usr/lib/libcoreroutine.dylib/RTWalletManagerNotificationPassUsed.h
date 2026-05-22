@@ -16,9 +16,9 @@
 }
 
 - (id);
-- (void);
-- (long long)a stale listener %p != %p;
-- (id);
+- (long long);
+- (id)name, %@, location, <%f, %f>;
+- (void)ion, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;

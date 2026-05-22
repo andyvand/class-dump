@@ -22,10 +22,10 @@
 - (int);
 - (id);
 - (void);
-- (void);
 - (id);
 - (struct CGColorSpace *);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;

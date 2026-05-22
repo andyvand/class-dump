@@ -5,6 +5,6 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)ition;
++ (_Bool)eDetector;
 @end
 

@@ -20,12 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)0@ù
-× ;
-- (void)ncelButton:animated: /* Error: Ran out of types for this method. */;
-- (void)extFields;
-- (unsigned long long)è°þÿ;
-- (void)iewservice.session.extension;
+- (unsigned long long)Forced"b1"badgeVisible"b1"shouldRestoreTextLabelAfterSystemTextSizeChange"b1"shouldRestoreDetailTextLabelAfterSystemTextSizeChange"b1"shouldRestoreEditableTextFieldAfterSystemTextSizeChange"b1"tableViewHasBeenExplicitlySet"b1"ignoresMultipleSelectionDuringEditing"b1"hasEverUsedRoundedGroups"b1"preserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
+- (void)ideCompletions:(unsigned long long)arg1;
+- (void)t: /* Error: Ran out of types for this method. */;
+- (void)>",R,N;
+- (void)Ý¨;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *prevPoints; // @synthesize prevPoints=_prevPoints;

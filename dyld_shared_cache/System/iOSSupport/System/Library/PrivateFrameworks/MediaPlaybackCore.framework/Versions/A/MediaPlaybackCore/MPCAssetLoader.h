@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (_Bool);
-- (id)ents;
 - (double);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (void)%{public}@ - Records creation successful at %{public}@;
 
 // Remaining properties
 @property(retain, nonatomic) MPCPlayerItemConfigurator *configurator; // @synthesize configurator=_configurator;

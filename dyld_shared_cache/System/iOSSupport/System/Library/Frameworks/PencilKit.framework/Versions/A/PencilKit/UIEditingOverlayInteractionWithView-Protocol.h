@@ -5,6 +5,5 @@
 //
 
 @protocol UIEditingOverlayInteractionWithView
-- (void);
 @end
 

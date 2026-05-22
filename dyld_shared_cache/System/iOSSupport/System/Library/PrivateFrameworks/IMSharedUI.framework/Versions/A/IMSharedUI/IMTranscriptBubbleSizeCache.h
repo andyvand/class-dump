@@ -11,15 +11,15 @@
     NSMutableArray *_sizeCache;
 }
 
-- (struct CGSize)B;
+- (struct CGSize);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)h;
 - (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSMutableArray *sizeCache; // @synthesize sizeCache=_sizeCache;

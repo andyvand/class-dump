@@ -13,8 +13,8 @@
     MISSING_TYPE *searchCategory;
 }
 
-- (void);
 - (id);
+- (void)V_subtitle;
 
 @end
 

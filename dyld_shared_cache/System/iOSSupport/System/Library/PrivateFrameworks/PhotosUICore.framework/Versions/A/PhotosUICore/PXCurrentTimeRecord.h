@@ -14,12 +14,11 @@
 
 - (id);
 - (id);
-- (_Bool);
+- (id);
 - (CDStruct_1b6d18a9);
-- (id)¡w°!Fùq|°1b0@ù
-× ;
-- (CDStruct_1b6d18a9)tForExport(forAdamID:photoLibrary:) /* Error: Ran out of types for this method. */;
-- (float);
+- (_Bool);
+- (CDStruct_1b6d18a9)ngAsset;
+- (float)îÅÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;

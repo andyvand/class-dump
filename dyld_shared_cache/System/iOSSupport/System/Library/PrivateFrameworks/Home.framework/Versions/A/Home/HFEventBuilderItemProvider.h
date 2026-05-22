@@ -37,10 +37,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (unsigned long long);
 - (id);
-- (id), Added:%@ Removed:%@ Existing:%@> /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *eventBuilderItems; // @synthesize eventBuilderItems=_eventBuilderItems;

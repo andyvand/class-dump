@@ -13,18 +13,17 @@
     double _tEnd;
 }
 
-+ (_Bool);
++ (_Bool);
 - (double);
 - (double);
 - (id);
 - (id);
-- (void);
-- (unsigned long long))!ʚ
-;
+- (id);
+- (unsigned long long);
 - (_Bool);
+- (void);
 - (id);
-- (id)e;
-- (void)G;
+- (void)enColumnCount;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

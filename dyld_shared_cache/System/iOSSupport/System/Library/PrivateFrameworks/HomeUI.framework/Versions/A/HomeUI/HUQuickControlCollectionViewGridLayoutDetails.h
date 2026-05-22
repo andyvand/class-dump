@@ -23,12 +23,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (struct CGRect)_ñwySDyANSay[5yGGGGªwy4ySgGGtG;
+- (void)come;
+- (struct CGRect);
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;

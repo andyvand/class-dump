@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIWindow;
 @protocol UIInteractionEffect;
 
 @protocol UIInteraction_Private
 
 @optional
-- (void)ddGestureRecognizersFromContainer:(UIWindow *)arg1 toTouch:(UIWindow *)arg2 forContinuation: /* Error: Ran out of types for this method. */;
-- (void)o;
-- (id <UIInteractionEffect>);
+- (void)Ð!LFùñ]Ð1Â0@ù
+× ;
+- (id <UIInteractionEffect>)ØAR0í¿03¤F;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIInteractionEffect> interactionEffect;

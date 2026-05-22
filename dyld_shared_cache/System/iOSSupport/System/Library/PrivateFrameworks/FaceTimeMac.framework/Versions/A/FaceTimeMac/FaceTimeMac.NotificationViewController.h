@@ -11,10 +11,10 @@
     MISSING_TYPE *viewModel;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 
 @end

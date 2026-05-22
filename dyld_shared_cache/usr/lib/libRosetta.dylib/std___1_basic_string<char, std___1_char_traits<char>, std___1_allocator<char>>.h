@@ -4,7 +4,7 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
-    append(char const*);
-    append(char const*, unsigned long);
+    auto __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
+    auto append(char const*);
+    auto append(char const*, unsigned long);
 };

@@ -4,6 +4,6 @@
 
 class mach_o::ChainedFixupPointerOnDisk::Generic64 {
 public: // (access info unavailable from symbols alone)
-    signExtendedAddend() const;
-    unpackedTarget() const;
+    auto signExtendedAddend() const;
+    auto unpackedTarget() const;
 };

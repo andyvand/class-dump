@@ -8,7 +8,9 @@
 @protocol HUQuickControlItemUpdating;
 
 @protocol HUQuickControlItemHosting
-- (id <HUQuickControlItemUpdating>)ionItemListModuleController;
+- (id <HUQuickControlItemUpdating>)!±!¼@ùð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *controlItems;

@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)task request;
 + (id);
-- (void)Name:(id)arg1;
++ (id);
+- (void)raction;
 
 @end
 

@@ -7,7 +7,7 @@ public: // (access info unavailable from symbols alone)
     Image(dyld4::RuntimeState*, lsl::Allocator&, lsl::SharedPtr<dyld4::Atlas::Mapper>&, dyld4::Loader const*);
     Image(lsl::Allocator&, dyld4::FileRecord&&, lsl::SharedPtr<dyld4::Atlas::Mapper>&, dyld4::Atlas::SafePointer);
     Image(lsl::Allocator&, dyld4::FileRecord&&, lsl::SharedPtr<dyld4::Atlas::Mapper>&, dyld4::Atlas::SafePointer, lsl::UUID const&);
-    ml() const;
-    swap(dyld4::Atlas::Image&);
-    uuid() const;
+    auto ml() const;
+    auto swap(dyld4::Atlas::Image&);
+    auto uuid() const;
 };

@@ -29,65 +29,59 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)ctiveManagedUsers;
-- (id)OneTimePassword;
+- (id);
+- (void);
 - (struct NSDirectionalEdgeInsets);
 - (id);
-- (id)stConcrete.putState->mr_nitems == 1;
-- (id)quest body buffer;
 - (struct CGPoint);
+- (struct CGRect);
+- (struct CGRect);
 - (id);
-- (id),N,V_mItemCountLabel;
-- (id)|;
 - (id);
+- (id);
+- (id);
+- (id);
+- (struct CGRect);
+- (id);
+- (id);
+- (struct CGSize);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (_Bool);
-- (struct CGSize);
-- (void);
+- (id)× ;
+- (id)× ;
+- (struct CGSize)× ;
 - (id);
-- (void)æa¬;
-- (struct CGPoint);
-- (id)Ó8/º;
-- (id)º;
-- (void)0@ù
+- (void)1Â0@ù
 × ;
-- (id)1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)r!Eù±Åð1¢!0@ù
-× ;
-- (id);
-- (struct CGRect)Ôyð!$Gù±ÎÐ1¢!0@ù
-× ;
-- (id)@40@0:8@16B24B28B32B36 /* Error: Ran out of types for this method. */;
-- (id)6{CGSize=dd}24q40;
-- (_Bool)ntroller:(id)arg1 didChangeAccessoryVisibility:(unsigned long long)arg2;
-- (unsigned long long)eAccessibilityCompareForItemGeometry;
-- (id)tonConfiguration;
-- (void)adcrumb:(id)arg1;
-- (struct CGSize)mated:(id)arg1 completion:(unsigned long long)arg2;
-- (struct CGRect)rInset;
-- (void)rapper: /* Error: Ran out of types for this method. */;
-- (void)PadVariantGeometries:(struct CGRect)arg1 rowLimit: /* Error: Ran out of types for this method. */;
-- (id)reviewInteractionStateRecognizer;
-- (id)4Ø;
-- (long long)	;
-- (struct CGRect)X;
-- (_Bool)²úÿ4ê3;
-- (id)unt;
-- (void)t;
-- (id);
-- (void)IKBTreePropertyTogglePrefix;
-- (struct CGSize)already been configured;
+- (void)"NSIndexPath"16@"UITableViewDropProposal"24@"<UIDropSession>"32;
+- (id)llViewDidScrollSPI"b1"delegateSelectionFollowsFocusForItemAtIndexPath"b1"delegateCanPerformPrimaryActionForItemAtIndexPath"b1"delegatePerformPrimaryActionForItemAtIndexPath"b1"delegateIndexPathForContentOffsetPreservationSPI"b1"delegateTypeSelectStringForItemAtIndexPath"b1"delegateUpdateTypeSelectResultForCell"b1"dataSourceNumberOfSections"b1"dataSourceViewForSupplementaryElement"b1"dataSourceCanMoveItemAtIndexPathSPI"b1"dataSourceMoveItemAtIndexPathSPI"b1"dataSourceSectionIndexTitlesSPI"b1"dataSourceSectionIndexTitlesTrimmedToCountSPI"b1"dataSourceIndexPathForSectionIndexSPI"b1"dataSourceCanMoveItemAtIndexPath"b1"dataSourceMoveItemAtIndexPath"b1"dataSourceIndexTitles"b1"dataSourceIndexPathForIndex"b1"dataSourceWasNonNil"b1"dataSourceIsDiffableDataSource"b1"dataSourceCanEditItemAtIndexPath"b1"prefetchDataSourcePrefetchItemsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForItemsAtIndexPaths"b1"prefetchDataSourceWasNonNil"b1"reloadSkippedDuringSuspension"b1"scheduledUpdateVisibleCells"b1"scheduledUpdateVisibleCellLayoutAttributes"b1"allowsSelection"b1"allowsMultipleSelection"b1"allowsSelectionDuringEditing"b1"allowsUserInitiatedMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"allowsBandSelectionForMultipleSelection"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"displaysHorizontalIndexTitleBar"b1"fadeCellsForBoundsChange"b1"updatingLayout"b1"needsReload"b1"reloading"b1"skipLayoutDuringSnapshotting"b1"layoutInvalidatedSinceLastCellUpdate"b1"doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"ignoreBatchUpdatesAndFallBackToReloadData"b1"updatingVisibleCells"b1"backgroundColorSet"b1"preRotationBoundsSet"b1"updateFocusAfterItemAnimations"b1"remembersLastFocusedIndexPath"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"creatingViewFromPreferredFocusedView"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"editing"b1"clientSetDerivesVisibleBoundsFromContainingScrollView"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
+- (void)onThread:(struct NSDirectionalEdgeInsets)arg1 withObject:waitUntilDone: /* Error: Ran out of types for this method. */;
+- (id)aryAttributes;
+- (void)vior;
+- (void)_switchToggleBlock;
+- (id)rdExclusivityIdentifier;
+- (_Bool)Infos;
+- (id)lÒ;
+- (id) ôÑ<+ ôÑpa´ôÑ­ÌôÑ³õÑ0Ð0õÑhàPõÑ õÑD¼õÑ¤Ä<öÑøÈ¤öÑÈÍðöÑ¤-°÷ÑØeÐ÷Ñ¼pì÷Ñ¼r$øÑdøÑl¶øÑ  øÑL´øÑäAùÑ¨OhúÑ°TúÑ®ØúÑèµðúÑ0Â0ûÑÆDûÑ´ÚXûÑóxûÑTþ¬ûÑp!ÈûÑMðüÑôZLýÑèiýÑ ÌýÑ;
+- (id)upported code path for UIScene-based application.;
+- (void)tion;
+- (id)on type:%ld
+ /* Error: Ran out of types for this method. */;
+- (struct CGSize)E9CF9A7668188D4FLLP;
+- (id)ABt;
 - (void);
-- (struct CGSize)k:@çû©ñÒM1@çû©ñÒ-;@nÀÊ0@5^ºIB1@ /Ý$6@#Ûù~j<@V-3@nÀÊ@°rhí¼6@7A`åÐ@ã¥Ä Ð4@î|?5^º÷?¶óýÔxé@òÒMbØ4@î|?5^ú5@^ºI«@d;ßO75@?5^ºI@mçû©ñ5@ÙÎ÷S@þÔxé&±6@bX9´H@¸ëQ87@Clç{-@ÁÊ¡E¶ó#@òÒMbØA@ /Ý$"@®GázÄB@9´Èv¾_&@lçû©AC@ÙÎ÷Ó;@yé&1,4@ð§ÆK7I1@+ÙÎ@çû©ñÒí2@=
-×£pý5@Ý$Cù?B`åÐ"Û3@5^ºIó?A`åÐâ4@Å °rh@shí|_8@¸ëQ¸@=
-×£p=:@nÀ$@Âõ(\@
-×£p=ZA@¸ëQ¸@ /* Error: Ran out of types for this method. */;
-- (void)ÐÐ`];
-- (void)òã;
-- (id)µmXvg;
+- (struct CGPoint)];
+- (void)\^;
+- (id);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (struct CGSize)Td;
+- (unsigned long long)e;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UICollectionLayoutAuxillaryHosting> auxillaryHost; // @synthesize auxillaryHost=_auxillaryHost;

@@ -4,5 +4,5 @@
 
 class INTColor {
 public: // (access info unavailable from symbols alone)
-    SignExtend(LDRColorA const&);
+    auto SignExtend(LDRColorA const&);
 };

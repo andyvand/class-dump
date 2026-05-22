@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)h;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSArray *groupMembers; // @synthesize groupMembers=_groupMembers;

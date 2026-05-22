@@ -7,15 +7,15 @@
 @class NSMapTable;
 
 @protocol _UIOLAPropertySource
-- (_Bool),V_maxUndoLimit;
-- (void)!¨Gù1Ï°1¢!0@ù
+- (void)!¨@ù±d°1Â0@ù
 × ;
-- (_Bool)initWithAttributedName:image:target:selector: /* Error: Ran out of types for this method. */;
-- (void)gingDistanceScaled;
-- (void);
-- (void)8Ðÿÿÿ;
-- (long long)rollerAdaptiveColumnButton;
-- (double)ÁÒ([;
+- (long long)ndidateViewOffset: /* Error: Ran out of types for this method. */;
+- (double)ù;
+- (void)on-nil trait change handler to register;
+- (_Bool)ility (%ld);
+- (NSMapTable *)ringRef, CFErrorRef *);
+- (void)please use UIAlertController!;
+- (void)À°þÿÿÿÿ;
 
 // Remaining properties
 @property(nonatomic, setter=_setItemFittingSizeChanged:) _Bool _itemFittingSizeChanged;

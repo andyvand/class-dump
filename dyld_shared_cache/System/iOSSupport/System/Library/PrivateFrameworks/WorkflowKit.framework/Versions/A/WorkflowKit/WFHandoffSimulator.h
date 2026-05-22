@@ -11,7 +11,7 @@
 + (id);
 + (id);
 + (void);
-+ (void)°myl¬Ö0%EÉ;
++ (void);
 + (void);
 + (id);
 + (id);

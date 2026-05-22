@@ -8,11 +8,11 @@
 {
 }
 
-+ (Class)finalAssetPath %@;
++ (Class);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-- (id)mSafeArea;
+- (id);
 
 @end
 

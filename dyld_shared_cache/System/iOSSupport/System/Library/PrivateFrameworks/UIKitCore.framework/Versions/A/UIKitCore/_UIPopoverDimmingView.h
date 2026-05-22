@@ -18,22 +18,22 @@ __attribute__((visibility("hidden")))
     UIView *_transitionContainerView;
 }
 
-- (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (id)1¢!0@ù
+- (void);
+- (void)!´Dù]ð1Â0@ù
 × ;
-- (void)mMenuPreview";
-- (void)ingContentSizingViewIfNotSelf;
-- (void)d,N,V_minDurationBetweenHypotheses;
-- (id)þýÿ¶¥üÿ;
-- (_Bool)tions;
-- (_Bool)gnoringModifiers:(id)arg1 %@, type:(struct CGPoint)arg2 %@, repeating:%d, keyCode:0x%.4lX, timestamp:%lf, modifierFlags:%lX> /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void)tting:(id)arg1;
+- (id)s;
+- (void)4;
+- (id)= %p; ignoring invalid preferred attributes. Preferred attrs:%@; original attrs:%@. /* Error: Ran out of types for this method. */;
+- (void)e:(id)arg1 delayEndInputSession:]_block_invoke_3 /* Error: Ran out of types for this method. */;
+- (_Bool)V13AsyncLoadable_px1TAcDPRts_XP;
+- (void);
+- (_Bool)ÌA\;
+- (void)´×þ±È;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIPassthroughScrollInteraction *_passthroughScrollInteraction; // @synthesize _passthroughScrollInteraction;

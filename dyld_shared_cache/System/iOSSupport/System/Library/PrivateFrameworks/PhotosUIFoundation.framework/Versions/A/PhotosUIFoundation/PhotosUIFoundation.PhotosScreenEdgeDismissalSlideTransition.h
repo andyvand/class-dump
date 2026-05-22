@@ -11,9 +11,9 @@
     MISSING_TYPE *foregroundViewLateralInset;
 }
 
+- (double);
 - (id);
-- (void)ItemListR3QzSayq_GIeghno_;
-- (double)PXSimpleIndexPathIsNull(toIndexPath);
+- (void);
 
 @end
 

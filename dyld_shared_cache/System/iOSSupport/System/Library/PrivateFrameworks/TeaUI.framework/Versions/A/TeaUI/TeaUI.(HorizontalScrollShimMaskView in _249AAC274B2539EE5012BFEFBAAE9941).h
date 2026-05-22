@@ -14,10 +14,10 @@
     MISSING_TYPE *rightMaskView;
 }
 
-- (void);
-- (id)Value;
+- (id);
 - (void);
 - (id);
+- (void)Ø9þÿ;
 
 @end
 

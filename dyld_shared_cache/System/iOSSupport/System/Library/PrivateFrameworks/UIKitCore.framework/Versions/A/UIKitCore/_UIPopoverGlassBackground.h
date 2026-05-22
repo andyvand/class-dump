@@ -19,15 +19,14 @@
 - (id);
 - (id);
 - (void);
-- (void)system workload reporting activity;
-- (void)entifiers:(id)arg1 %s typeIdentifier:%s options:%ld /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ask: /* Error: Ran out of types for this method. */;
-- (id){;
-- (void)Ä1¢!0@ù
-× ;
+- (void);
+- (void);
 - (id);
-- (id)ei;
+- (id);
+- (id)ITableViewCellContentMirror;
+- (void)Ù;
+- (id)úq;
 
 // Remaining properties
 @property(nonatomic, retain) UITraitCollection *_traitCollectionForGlassContent; // @synthesize _traitCollectionForGlassContent;

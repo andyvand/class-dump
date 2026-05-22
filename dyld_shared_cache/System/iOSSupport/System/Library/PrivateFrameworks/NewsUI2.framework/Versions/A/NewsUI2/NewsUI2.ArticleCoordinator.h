@@ -19,6 +19,7 @@
     MISSING_TYPE *issue;
     MISSING_TYPE *commandCenter;
     MISSING_TYPE *contentSizeManager;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *startContentSizeCategory;
     MISSING_TYPE *activeIssueViewingSession;
     MISSING_TYPE *urlReferralData;

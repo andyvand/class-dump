@@ -16,7 +16,7 @@
 
 - (double);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -24,8 +24,8 @@
 - (double);
 - (void);
 - (void);
-- (double);
 - (id);
+- (double);
 - (double);
 
 // Remaining properties

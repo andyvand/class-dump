@@ -7,9 +7,9 @@
 @protocol BEResponderEditActions
 
 @optional
-- (void)};
-- (void);
-- (void)pe:(id)arg1;
-- (void)ÄqÎÿU\ÀqÎÿ]\¼qÎÿ=\¸qÎÿ;
+- (void)!;
+- (void)tteToPosition:(id)arg1;
+- (void)wingReplaySupport;
+- (void)ÿøb¤,ÏÿøbÔ0Ðÿ;
 @end
 

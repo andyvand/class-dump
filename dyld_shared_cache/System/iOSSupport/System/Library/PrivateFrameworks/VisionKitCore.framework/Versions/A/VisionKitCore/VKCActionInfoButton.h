@@ -52,24 +52,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
 - (long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)Ô¡3!@ùMÐ1B0@ù
-× ;
-- (id)Ô ;
-- (void)eyPathsForValuesAffectingAlpha;
+- (void)N,V_path;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allUnfilteredElements; // @synthesize allUnfilteredElements=_allUnfilteredElements;

@@ -4,9 +4,11 @@
 
 class icu::UnicodeFilter {
 public: // (access info unavailable from symbols alone)
-    getStaticClassID();
-    matches(icu::Replaceable const&, int&, int, signed char);
-    setData(icu::TransliterationRuleData const*);
-    toMatcher() const;
+    auto getStaticClassID();
+    auto matches(icu::Replaceable const&, int&, int, signed char);
+    auto setData(icu::TransliterationRuleData const*);
+    auto toMatcher() const;
+    non-virtual thunk to matches(icu::Replaceable const&, int&, int, signed char);
+    non-virtual thunk to ~UnicodeFilter();
     ~UnicodeFilter();
 };

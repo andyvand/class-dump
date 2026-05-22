@@ -14,16 +14,16 @@
     id <AKNoteEditorViewControllerDelegate> _delegate;
 }
 
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void)gestion:(id)arg1;
 
 // Remaining properties
 @property(retain) AKPopupAnnotation *annotation; // @synthesize annotation=_annotation;

@@ -12,10 +12,10 @@
     MISSING_TYPE *headerLabel;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

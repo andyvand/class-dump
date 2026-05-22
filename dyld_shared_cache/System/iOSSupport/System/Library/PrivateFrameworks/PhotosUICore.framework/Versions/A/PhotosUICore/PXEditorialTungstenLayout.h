@@ -12,9 +12,11 @@
 - (id);
 - (id);
 - (id);
-- (void)Èþ;
-- (id);
-- (long long)_3;
+- (void)!èDù1FÐ1â
+0@ù
+× ;
+- (id)ase;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;

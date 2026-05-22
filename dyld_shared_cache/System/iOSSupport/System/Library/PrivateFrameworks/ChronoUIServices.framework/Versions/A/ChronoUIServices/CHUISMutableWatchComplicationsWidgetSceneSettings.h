@@ -12,19 +12,19 @@
 {
 }
 
-- (void);
 - (_Bool);
 - (void);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
 - (struct CGPoint);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long)contentQr7SwiftUI21_ViewModifier_ContentVyAFG_tF;
+- (void);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint bezelContentCenter;

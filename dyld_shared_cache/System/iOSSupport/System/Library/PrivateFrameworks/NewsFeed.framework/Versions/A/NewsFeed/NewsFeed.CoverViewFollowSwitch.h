@@ -14,10 +14,11 @@
     MISSING_TYPE *toggleState;
 }
 
-- (void);
 - (id);
-- (void)estFlag;
-- (id);
+- (id)0@ù
+× ;
+- (void)ÈÀ	PÈ$É;
+- (void)yK:TZ /* Error: Ran out of types for this method. */;
 
 @end
 

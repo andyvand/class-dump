@@ -4,8 +4,8 @@
 
 class icu::FieldPosition {
 public: // (access info unavailable from symbols alone)
-    clone() const;
-    getDynamicClassID() const;
-    getStaticClassID();
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
     ~FieldPosition();
 };

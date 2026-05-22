@@ -5,6 +5,6 @@
 //
 
 @protocol UINSIntegerTraitDefinition
-+ (long long)nAnimation;
++ (long long)ssingKeyboardInputMode;
 @end
 

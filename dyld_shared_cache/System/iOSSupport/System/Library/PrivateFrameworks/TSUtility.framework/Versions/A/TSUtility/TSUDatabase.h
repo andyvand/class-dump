@@ -24,13 +24,13 @@
 - (_Bool);
 - (id);
 - (struct sqlite3 *);
-- (_Bool);
-- (void);
-- (_Bool)!;
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 

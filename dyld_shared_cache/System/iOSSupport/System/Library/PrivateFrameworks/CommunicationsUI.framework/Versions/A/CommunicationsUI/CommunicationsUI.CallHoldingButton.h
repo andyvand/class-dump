@@ -12,11 +12,11 @@
     MISSING_TYPE *$__lazy_storage_$_icon;
 }
 
-- (id);
-- (void);
 - (void);
 - (id);
-- (_Bool)÷eGGGGVìdyÐcyA4__AXtGGGGúbySbGG_Ä HQo_;
+- (_Bool);
+- (id);
+- (void)IPopoverPresentationController"16N^{CGRect={CGPoint=dd}{CGSize=dd}}24N^@32;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled;

@@ -13,11 +13,11 @@
     MISSING_TYPE *horizontalSpacing;
 }
 
+- (struct CGSize);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (struct CGSize)AEyAEy)ù;
+- (void)q¢G;
 
 @end
 

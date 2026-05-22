@@ -25,14 +25,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)entsNotStartedIcon;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) GKPlayerPickerContext *context; // @synthesize context=_context;

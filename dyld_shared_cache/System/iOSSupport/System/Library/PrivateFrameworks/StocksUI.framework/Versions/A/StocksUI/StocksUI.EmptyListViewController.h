@@ -14,12 +14,13 @@
     MISSING_TYPE *emptyListView;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)VþÿÄXþÿøXþÿZþÿÀ[þÿ;
+- (void)¨]
+;
 
 @end
 

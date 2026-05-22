@@ -70,6 +70,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -77,15 +78,134 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)@ù
-× ;
-- (void);
-- (id)s' failed. ApplyEffect input color must not be null;
-- (void)w?;
-- (void)¬¾·(S>ku?Ü9?Ä¾A1>äx?ðÁ7?¥1Ú½Bµ>áz?ü6?oª½¸Zç=|?}v4?§Xu½S%ª=b1~?}ì2?ì½ÁàZ=I? 1?ES¼ªEÄ<µâ?ÜJ/?´*<ú²»ú?ÏÕÆA²òK½öøCbÛ";~AØõK½_#'C)ì";q?ËôK½HÅAE/#;Ð¸?SM½O/A%;æ­¢>)Q½³Æ@Ñ,;8R>u¯S½w}@Ä
-7;º>=[½ã1@%L;sì=+¢f½É@n;(Ô³=sÚS½[xØ?Lz;ºÙ=Á\½®¸?\;Ö=h½ê¢?{/¾;×Ü=wy½´?ìjò;Þ9=I½½üp?â<<Wê=¦¶½àÙ?GI<R¢=&ä£½úy?å+<Ä{®=Hú´½/Üq?¾g¤<¢¼=`êÇ½?rk?$Ï<9&Ë=HPÜ½o d?Õé;
-- (void)C(;
+- (void)\;
+- (void)ationFactor[3] = tessLevelOuter[3];
+    quadFactors.insideTessellationFactor[0] = tessLevelInner[0];
+    quadFactors.insideTessellationFactor[1] = tessLevelInner[1];
+}
+
+//----------------------------------------------------------
+// Patches.GregoryBasis.Vertex
+//----------------------------------------------------------
+
+void OsdComputePerPatchVertex(
+	int3 patchParam, 
+	unsigned ID, 
+	unsigned PrimitiveID, 
+	unsigned ControlID,
+	threadgroup PatchVertexType* patchVertices,
+	OsdPatchParamBufferSet osdBuffers
+	)
+{
+	//Does nothing, all transforms are in the PTVS
+
+    OSD_USER_VARYING_PER_VERTEX(patchVertices[ID], osdBuffers.perPatchVertexBuffer[ControlID]);
+}
+
+//----------------------------------------------------------
+// Patches.GregoryBasis.Domain
+//----------------------------------------------------------
+
+#define USE_128BIT_GREGORY_BASIS_INDICES_READ 1
+
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex ds_gregory_basis_patches(
+
+#if USE_STAGE_IN
+                     PerPatchVertexGregoryBasis patch,
+#else
+                     const device OsdInputVertexType* patch,
+                     const device unsigned* patchIndices,
+#endif
+                     int3 patchParam,
+                     float2 UV
+                     )
+{
+    OsdPatchVertex output;
+    float3 P = float3(0,0,0), dPu = float3(0,0,0), dPv = float3(0,0,0);
+    float3 N = float3(0,0,0), dNu = float3(0,0,0), dNv = float3(0,0,0);
+ 
+#if USE_STAGE_IN
+    float3 cv[20];
+    for(int i = 0; i < 20; i++)
+        cv[i] = patch[i].position;
+#else   
+#if USE_128BIT_GREGORY_BASIS_INDICES_READ
+    float3 cv[20];
+    for(int i = 0; i < 5; i++) {
+        int4 indices = ((device int4*)patchIndices)[i];
+        
+        int n = i * 4;
+        cv[n + 0] = (patch + indices[0])->position;
+        cv[n + 1] = (patch + indices[1])->position;
+        cv[n + 2] = (patch + indices[2])->position;
+        cv[n + 3] = (patch + indices[3])->position;
+    }
+#else
+    float3 cv[20];
+    for (int i = 0; i < 20; ++i) {
+        cv[i] = patch[patchIndices[i]].position;
+    }
+#endif
+#endif
+    
+    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
+    
+    output.position = P;
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+    
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+#if USE_STAGE_IN
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[5], patch[15], patch[10], output);
+#else
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[patchIndices[0]], patch[patchIndices[5]], patch[patchIndices[15]], patch[patchIndices[10]], output);
+#endif
+    
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+	OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_basis_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+		osdBuffers.vertexBuffer,
+		osdBuffers.indexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+		osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord
+		);
+}
+
+;
+- (void)t;
+- (void)è;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

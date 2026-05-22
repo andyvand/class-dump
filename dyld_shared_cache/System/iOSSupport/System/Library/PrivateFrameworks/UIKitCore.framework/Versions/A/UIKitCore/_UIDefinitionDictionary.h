@@ -22,23 +22,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)IDsIfNeeded:transfersToSync: /* Error: Ran out of types for this method. */;
-- (_Bool)updateTemporaryTransferGUIDsIfNeeded:transfersToSync: /* Error: Ran out of types for this method. */;
-- (_Bool)poraryTransferGUIDsIfNeeded: /* Error: Ran out of types for this method. */;
-- (id)erForAVConferenceListenersSupportingService:(id)arg1;
+- (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id)geTag %@ error %@;
 - (id);
-- (void)n";
+- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
-- (id)q,?,N,VsmartDashesType;
 - (id);
+- (void)#;
+- (id)Ëc;
+- (_Bool);
 
 // Remaining properties
 @property _Bool activated; // @synthesize activated=_activated;

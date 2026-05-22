@@ -4,6 +4,6 @@
 
 class lsl::Vector<dyld4::InterposeTupleSpecific> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
 };

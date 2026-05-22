@@ -18,11 +18,11 @@
     MISSING_TYPE *indexPath;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityCustomActions;

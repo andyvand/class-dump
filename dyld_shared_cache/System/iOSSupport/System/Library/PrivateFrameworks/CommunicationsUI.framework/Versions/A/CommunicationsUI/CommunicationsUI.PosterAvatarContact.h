@@ -8,12 +8,19 @@
 
 @interface CommunicationsUI.PosterAvatarContact
 {
-    MISSING_TYPE *contact;
-    MISSING_TYPE *highResolutionPosterSnapshot;
+    MISSING_TYPE *_contact;
+    MISSING_TYPE *_highResolutionPosterSnapshot;
+    MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (id);
+- (long long);
+- (_Bool);
+- (void)á!Ð!Aùñ(°1B50@ù
+× ;
+
+// Remaining properties
+@property(nonatomic, readonly) long long hash;
 
 @end
 

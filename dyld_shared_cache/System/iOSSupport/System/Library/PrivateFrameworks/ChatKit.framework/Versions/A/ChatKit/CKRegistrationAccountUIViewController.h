@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _completionBlock;
 }
 
-- (void);
-- (void)0d¨ÜH¼ÄøD 4¡p¡@¢T£µ@µ@¶x· Á8Â@ÄPÆ|ÉìÉ|Ê;
-- (CDUnknownBlockType)nStandaloneWindow;
+- (CDUnknownBlockType)dia object object from item at url:%@ /* Error: Ran out of types for this method. */;
+- (void)p;
+- (void)+;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

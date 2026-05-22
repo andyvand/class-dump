@@ -21,9 +21,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
 - (long long);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isLike) _Bool like; // @synthesize like=_like;

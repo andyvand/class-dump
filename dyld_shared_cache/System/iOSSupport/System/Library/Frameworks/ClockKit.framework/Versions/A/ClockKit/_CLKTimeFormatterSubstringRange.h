@@ -11,9 +11,9 @@
 
 + (id);
 - (id);
-- (void);
 - (id);
 - (struct _NSRange);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;

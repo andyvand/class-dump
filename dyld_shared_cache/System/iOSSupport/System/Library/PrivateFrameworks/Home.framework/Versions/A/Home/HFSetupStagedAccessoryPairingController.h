@@ -35,16 +35,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)DayRules;
-- (unsigned long long)ix;
-- (id)textProtocol) hf_updateValue:forContextType:] /* Error: Ran out of types for this method. */;
-- (id)l.accessibility.interaction.touchAccommodations.ignoreRepeat;
+- (id)
+× ;
+- (void)àÅ;
+- (id)h for keyPath '%@'; this is a bug!  This adapter watches keypaths:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

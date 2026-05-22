@@ -21,16 +21,16 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _baseContentInsets;
 }
 
-+ (_Bool)InExpandedPreview: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
-- (void);
 - (void);
-- (struct CGPoint)Transfer:(struct CGPoint)arg1 withMessageGUID:(struct CGRect)arg2;
-- (void)st;
-- (struct UIEdgeInsets)earchableItemsWithIdentifiers:acknowledgementHandler: /* Error: Ran out of types for this method. */;
-- (void)emLocked;
-- (void)L;
-- (struct CGPoint)<;
+- (void);
+- (struct CGPoint);
+- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -38,32 +38,32 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (struct CGPoint)h the same caller id. clearing caller ID settings for current account;
-- (void)device:(struct CGPoint)arg1 %@;
-- (id):(id)arg1 %@;
-- (struct CGPoint)mmand:%@, %@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (void);
 - (id);
+- (struct CGPoint);
 - (void);
-- (long long);
-- (void)sonID AND LENGTH(mini_sinf) > 1 AND url_expiration_date > @now;
-- (void);
-- (void)·þº;
-- (void)
-× ;
-- (void)È°1¢!0@ù
-× ;
-- (void)ceConnectionListener"16@"BSServiceConnection<BSServiceConnectionHost>"24@"<BSXPCDecoding>"32;
-- (void)eRecognizer:(id)arg1;
-- (void)eUserActivity:(id)arg1;
-- (void)aryAction;
-- (unsigned long long)rViewController:preservingViewController: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)od application:shouldRestoreApplicationState:is deprecated. Please replace the use of application:shouldRestoreApplicationState:with application:shouldRestoreSecureApplicationState: /* Error: Ran out of types for this method. */;
-- (id)Z<þÿ;
 - (unsigned long long);
-- (void)4ÿ;
-- (void)wE^;
-- (void)9(;
+- (void);
+- (id)0@ù
+× ;
+- (id)!xCùqf1Â0@ù
+× ;
+- (void)onSeparatorInsets:(id)arg1;
+- (void)ment:(id)arg1 finalUnlockHandler:(id)arg2;
+- (void)exPath:(id)arg1;
+- (void)FirstMouse:(long long)arg1;
+- (long long)taValue:forKey: /* Error: Ran out of types for this method. */;
+- (void)gAxis;
+- (void)ks:(id)arg1;
+- (unsigned long long);
+- (void)al to 0.0;
+- (void)lly;
+- (id)boseLogging;
+- (void);
+- (void);
+- (void)q;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets baseContentInsets; // @synthesize baseContentInsets=_baseContentInsets;

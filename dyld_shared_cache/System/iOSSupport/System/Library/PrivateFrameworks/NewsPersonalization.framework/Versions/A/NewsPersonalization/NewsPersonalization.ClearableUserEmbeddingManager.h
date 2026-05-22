@@ -11,9 +11,9 @@
     MISSING_TYPE *userEmbeddingManager;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

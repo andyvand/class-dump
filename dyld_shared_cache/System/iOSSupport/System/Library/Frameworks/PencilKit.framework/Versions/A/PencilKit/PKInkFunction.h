@@ -31,8 +31,8 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long)C;
-- (id)!%;
+- (unsigned long long);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -46,10 +46,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)(;
 - (unsigned long long);
-- (id)$;
+- (void)Èg;
 - (unsigned long long);
 
 // Remaining properties

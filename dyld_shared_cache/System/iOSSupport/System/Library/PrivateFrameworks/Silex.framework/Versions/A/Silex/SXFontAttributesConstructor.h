@@ -14,11 +14,11 @@
 
 - (long long);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)?<v@?@"<TSKSearchReference>">32;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

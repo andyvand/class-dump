@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection;
-
 @protocol APSConnectionDelegate
-- (void)ined exceeding persistence mirroring manager's memory threshold for generating diagnostic files.;
+- (void)ifier;
 
 @optional
-- (void)(CFAllocatorRef, FigTransportStreamID, CFDictionaryRef, APTransportStreamSendBackingProviderRef *);
-- (void)ransportStreamSendBackingProviderCreateWithStreamID(CFAllocatorRef, FigTransportStreamID, CFDictionaryRef, APTransportStreamSendBackingProviderRef *);
-- (void)ndBackingProviderCreateWithStreamID;
-- (void)faultsSessionWorkoutMonitorLatestWorkoutAutoPauseDate;
-- (void)HorizontalUncertainty:(APSConnection *)arg1 ];
-- (void)nvalid parameter not satisfying:(APSConnection *)arg1 bestPoiInferredMapItem;
+- (void)1Â0@ù
+× ;
+- (void)outState, %@, LC FSM inState, %@, LC FSM outState, %@, points left, %lu, %@;
+- (void)Data Submission not allowed on this device.;
+- (void)e;
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (unsigned long long);
 - (void);
@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void)uttonAccessibility_super;
+- (void);
 
 @end
 

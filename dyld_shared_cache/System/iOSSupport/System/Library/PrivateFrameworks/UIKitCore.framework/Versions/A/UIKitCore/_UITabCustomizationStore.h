@@ -23,10 +23,9 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_displayOrdersByIdentifier;
 }
 
-+ (id)mmand %@);
++ (id);
 + (void);
 + (id);
-- (void)ncesWithAttribute;
 - (void);
 - (void);
 - (void);
@@ -35,7 +34,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
+- (void);
+- (double);
 - (long long);
 - (void);
 - (_Bool);
@@ -46,24 +46,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id)v;
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)achabilityRequest";
-- (void)ceReachabilityResult";
-- (unsigned long long)rver:(id)arg1 name:object: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
-- (void)ndler with NSURLSessionResponseCancel;
-- (id);
 - (void);
 - (void);
-- (void)ctor=dd}16@32;
-- (id)pectiveTransform: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (id)1Â0@ù
+× ;
+- (id)Á	!Bùf1Â0@ù
+× ;
+- (void)ingSessionRequest"b1"_configurationIsDirty"b1"_userInfoIsDirty"b1"_userInfoIsCurrent"b1"_internalUserInfoIsDirty"b1"_internalUserInfoIsCurrent"b1"_isInternal"b1};
+- (id)ôÛþ;
+- (void)16;
+- (void)utoFillUI;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *allGroupIdentifiers; // @synthesize allGroupIdentifiers=_allGroupIdentifiers;

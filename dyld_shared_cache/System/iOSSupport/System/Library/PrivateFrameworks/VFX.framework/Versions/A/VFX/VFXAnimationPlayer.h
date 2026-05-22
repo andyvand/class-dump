@@ -76,1143 +76,1307 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (float);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id);
-- (void)À3T66;
-- (float)n.
-
-    float3 vv0 = (cp[0] + cp[2] + cp[8] + cp[10]) * 0.015625 +
-    (cp[1] + cp[4] + cp[6] + cp[9]) * 0.09375 + cp[5] * 0.5625;
-    float3 ev01 = (cp[1] + cp[2] + cp[9] + cp[10]) * 0.0625 +
-    (cp[5] + cp[6]) * 0.375;
-
-    float3 vv1 = (cp[1] + cp[3] + cp[9] + cp[11]) * 0.015625 +
-    (cp[2] + cp[5] + cp[7] + cp[10]) * 0.09375 + cp[6] * 0.5625;
-    float3 ev12 = (cp[5] + cp[7] + cp[9] + cp[11]) * 0.0625 +
-    (cp[6] + cp[10]) * 0.375;
-
-    float3 vv2 = (cp[5] + cp[7] + cp[13] + cp[15]) * 0.015625 +
-    (cp[6] + cp[9] + cp[11] + cp[14]) * 0.09375 + cp[10] * 0.5625;
-    float3 ev23 = (cp[5] + cp[6] + cp[13] + cp[14]) * 0.0625 +
-    (cp[9] + cp[10]) * 0.375;
-
-    float3 vv3 = (cp[4] + cp[6] + cp[12] + cp[14]) * 0.015625 +
-    (cp[5] + cp[8] + cp[10] + cp[13]) * 0.09375 + cp[9] * 0.5625;
-    float3 ev03 = (cp[4] + cp[6] + cp[8] + cp[10]) * 0.0625 +
-    (cp[5] + cp[9]) * 0.375;
-
-    tessOuterLo = float4(0,0,0,0);
-    tessOuterHi = float4(0,0,0,0);
-
-    int transitionMask = OsdGetPatchTransitionMask(patchParam);
-
-    if ((transitionMask & 8) != 0) {
-        tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv0, ev03);
-        tessOuterHi[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv3, ev03);
-    } else {
-        tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp[5], cp[9]);
-    }
-    if ((transitionMask & 1) != 0) {
-        tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv0, ev01);
-        tessOuterHi[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv1, ev01);
-    } else {
-        tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp[5], cp[6]);
-    }
-    if ((transitionMask & 2) != 0) {
-        tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv1, ev12);
-        tessOuterHi[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv2, ev12);
-    } else {
-        tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp[6], cp[10]);
-    }
-    if ((transitionMask & 4) != 0) {
-        tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv3, ev23);
-        tessOuterHi[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv2, ev23);
-    } else {
-        tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp[9], cp[10]);
-    }
-}
-
-static float3 miniMul(float4x4 a, float3 b)
-{
-    float3 r;
-    r.x = a[0][0] * b[0] + a[1][0] * b[1] + a[2][0] * b[2] + a[3][0];
-    r.y = a[0][1] * b[0] + a[1][1] * b[1] + a[2][1] * b[2] + a[3][1];
-    r.z = a[0][2] * b[0] + a[1][2] * b[1] + a[2][2] * b[2] + a[3][2];
-    return r;
-}
-
-static void OsdGetTessLevelsLimitPoints(const float OsdTessLevel, const float4x4 OsdProjectionMatrix, const float4x4 OsdModelViewMatrix,
-                            device OsdPerPatchVertexBezier* cpBezier,
-                            int3 patchParam, thread float4& tessOuterLo, thread float4& tessOuterHi)
-{
-    // Each edge of a transition patch is adjacent to one or two patches
-    // at the next refined level of subdivision. When the patch control
-    // points have been converted to the Bezier basis, the control points
-    // at the four corners are on the limit surface (since a Bezier patch
-    // interpolates its corner control points). We can compute an adaptive
-    // tessellation level for transition edges on the limit surface by
-    // evaluating a limit position at the mid point of each transition edge.
-
-    tessOuterLo = float4(0,0,0,0);
-    tessOuterHi = float4(0,0,0,0);
-
-    int transitionMask = OsdGetPatchTransitionMask(patchParam);
-
-#if OSD_PATCH_ENABLE_SINGLE_CREASE
-    // PERFOMANCE:we just need to pick the correct corner points from P, P1, P2
-    float3 p0 = OsdEvalBezier(cpBezier, patchParam, float2(0.0, 0.0));
-    float3 p3 = OsdEvalBezier(cpBezier, patchParam, float2(1.0, 0.0));
-    float3 p12 = OsdEvalBezier(cpBezier, patchParam, float2(0.0, 1.0));
-    float3 p15 = OsdEvalBezier(cpBezier, patchParam, float2(1.0, 1.0));
-
-    p0 = miniMul(OsdModelViewMatrix, p0);
-    p3 = miniMul(OsdModelViewMatrix, p3);
-    p12 = miniMul(OsdModelViewMatrix, p12);
-    p15 = miniMul(OsdModelViewMatrix, p15);
-
-    thread float3 * tPt;
-    float3 ev;
-
-    if ((transitionMask & 8) != 0) { // EVO3
-        ev = OsdEvalBezier(cpBezier, patchParam, float2(0.0, 0.5));
-
-        ev = miniMul(OsdModelViewMatrix, ev);
-
-        tPt = &ev;
-        tessOuterHi[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p12, ev);
-    } else {
-        tPt = &p12;
-    }
-    tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p0, *tPt);
-    
-    if ((transitionMask & 1) != 0) { // EV01
-        ev = OsdEvalBezier(cpBezier, patchParam, float2(0.5, 0.0));
-
-        ev = miniMul(OsdModelViewMatrix, ev);
-
-        tPt = &ev;
-        tessOuterHi[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p3, ev);
-    } else {
-        tPt = &p3;
-    }
-    tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p0, *tPt);
-    
-    if ((transitionMask & 2) != 0) { // EV12
-        ev = OsdEvalBezier(cpBezier, patchParam, float2(1.0, 0.5));
-
-        ev = miniMul(OsdModelViewMatrix, ev);
-
-        tPt = &ev;
-        tessOuterHi[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p15, ev);
-    } else {
-        tPt = &p15;
-    }
-    tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p3, *tPt);
-    
-    if ((transitionMask & 4) != 0) { // EV23
-        ev = OsdEvalBezier(cpBezier, patchParam, float2(0.5, 1.0));
-
-        ev = miniMul(OsdModelViewMatrix, ev);
-
-        tPt = &ev;
-        tessOuterHi[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p15, ev);
-    } else {
-        tPt = &p15;
-    }
-    tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p12, *tPt);
-
-#else // OSD_PATCH_ENABLE_SINGLE_CREASE
-    float3 p0 = OsdEvalBezier(cpBezier, patchParam, float2(0.0, 0.5));
-    float3 p3 = OsdEvalBezier(cpBezier, patchParam, float2(0.5, 0.0));
-    float3 p12 = OsdEvalBezier(cpBezier, patchParam, float2(1.0, 0.5));
-    float3 p15 = OsdEvalBezier(cpBezier, patchParam, float2(0.5, 1.0));
-
-    p0 = miniMul(OsdModelViewMatrix, p0);
-    p3 = miniMul(OsdModelViewMatrix, p3);
-    p12 = miniMul(OsdModelViewMatrix, p12);
-    p15 = miniMul(OsdModelViewMatrix, p15);
-
-    float3 c00 = miniMul(OsdModelViewMatrix, float3(cpBezier[0].P));
-    float3 c12 = miniMul(OsdModelViewMatrix, float3(cpBezier[12].P));
-    float3 c03 = miniMul(OsdModelViewMatrix, float3(cpBezier[3].P));
-    float3 c15 = miniMul(OsdModelViewMatrix, float3(cpBezier[15].P));
-    
-
-
-    if ((transitionMask & 8) != 0) {
-        tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c00, p0);
-        tessOuterHi[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c12, p0);
-    } else {
-        tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c00, c12);
-    }
-    if ((transitionMask & 1) != 0) {
-        tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c00, p3);
-        tessOuterHi[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c03, p3);
-    } else {
-        tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c00, c03);
-    }
-    if ((transitionMask & 2) != 0) {
-        tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c03, p12);
-        tessOuterHi[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c15, p12);
-    } else {
-        tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c03, c15);
-    }
-    if ((transitionMask & 4) != 0) {
-        tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c12, p15);
-        tessOuterHi[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c15, p15);
-    } else {
-        tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c12, c15);
-    }
+- (float);
+- (void);
+- (void)eserveTopology:(float)arg1 error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);            
+    float2 emissionTexcoord;    
+    float4 selfIllumination;            
+    float2 selfIlluminationTexcoord;    
+    float4 multiply;            
+    float2 multiplyTexcoord;    
+    float4 transparent;         
+    float2 transparentTexcoord; 
+    float4 reflective;          
+    float  metalness;           
+    float2 metalnessTexcoord;   
+    float  roughness;           
+    float2 roughnessTexcoord;   
+    float  rawRoughness;        
+    float clearCoat;            
+    float2 clearCoatTexcoord;   
+    float clearCoatRoughness;   
+    float2 clearCoatRoughnessTexcoord;
+    float3 clearCoatNormal;     
+    float2 clearCoatNormalTexcoord;
+#ifdef USE_SUBSURFACE
+    float subsurface;
+    float2 subsurfaceTexcoord;
+    float3 subsurfaceRadius;
+    float2 subsurfaceRadiusTexcoord;
 #endif
-}
-
-static void OsdGetTessLevelsUniform(const float OsdTessLevel, int3 patchParam,
-                        thread float4& tessLevelOuter, thread float2& tessLevelInner,
-                        thread float4& tessOuterLo, thread float4& tessOuterHi)
-{
-    OsdGetTessLevelsUniform(OsdTessLevel, patchParam, tessOuterLo, tessOuterHi);
-    OsdComputeTessLevels(tessOuterLo, tessOuterHi, tessLevelOuter, tessLevelInner);
-}
-
-static void OsdGetTessLevelsAdaptiveRefinedPoints(const float OsdTessLevel, const float4x4 OsdProjectionMatrix, const float4x4 OsdModelViewMatrix,
-                                      float3 cpRefined[16], int3 patchParam,
-                                      thread float4& tessLevelOuter, thread float2& tessLevelInner,
-                                      thread float4& tessOuterLo, thread float4& tessOuterHi)
-{
-    OsdGetTessLevelsRefinedPoints(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cpRefined, patchParam, tessOuterLo, tessOuterHi);
-
-    OsdComputeTessLevels(tessOuterLo, tessOuterHi,
-                         tessLevelOuter, tessLevelInner);
-}
-
-static void OsdGetTessLevelsAdaptiveLimitPoints(const float OsdTessLevel, const float4x4 OsdProjectionMatrix, const float4x4 OsdModelViewMatrix,
-                                    device OsdPerPatchVertexBezier* cpBezier,
-                                    int3 patchParam,
-                                    thread float4& tessLevelOuter, thread float2& tessLevelInner,
-                                    thread float4& tessOuterLo, thread float4& tessOuterHi)
-{
-    OsdGetTessLevelsLimitPoints(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cpBezier, patchParam, tessOuterLo, tessOuterHi);
-
-    OsdComputeTessLevels(tessOuterLo, tessOuterHi,
-                         tessLevelOuter, tessLevelInner);
-}
-
-static void OsdGetTessLevels(const float OsdTessLevel, const float4x4 OsdProjectionMatrix, const float4x4 OsdModelViewMatrix,
-                 float3 cp0, float3 cp1, float3 cp2, float3 cp3,
-                 int3 patchParam,
-                 thread float4& tessLevelOuter, thread float2& tessLevelInner)
-{
-    float4 tessOuterLo = float4(0,0,0,0);
-    float4 tessOuterHi = float4(0,0,0,0);
-
-    cp0 = mul(OsdModelViewMatrix, float4(cp0, 1.0)).xyz;
-    cp1 = mul(OsdModelViewMatrix, float4(cp1, 1.0)).xyz;
-    cp2 = mul(OsdModelViewMatrix, float4(cp2, 1.0)).xyz;
-    cp3 = mul(OsdModelViewMatrix, float4(cp3, 1.0)).xyz;
-
-#if OSD_ENABLE_SCREENSPACE_TESSELLATION
-    tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp0, cp1);
-    tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp0, cp3);
-    tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp2, cp3);
-    tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp1, cp2);
-    tessOuterHi = float4(0,0,0,0);
-#else //OSD_ENABLE_SCREENSPACE_TESSELLATION
-    OsdGetTessLevelsUniform(OsdTessLevel, patchParam, tessOuterLo, tessOuterHi);
-#endif //OSD_ENABLE_SCREENSPACE_TESSELLATION
-
-    OsdComputeTessLevels(tessOuterLo, tessOuterHi,
-                         tessLevelOuter, tessLevelInner);
-}
-
-#if OSD_FRACTIONAL_EVEN_SPACING || OSD_FRACTIONAL_ODD_SPACING
-static float OsdGetTessFractionalSplit(float t, float level, float levelUp)
-{
-    // Fractional tessellation of an edge will produce n segments where n
-    // is the tessellation level of the edge (level) rounded up to the
-    // nearest even or odd integer (levelUp). There will be n-2 segments of
-    // equal length (dx1) and two additional segments of equal length (dx0)
-    // that are typically shorter than the other segments. The two additional
-    // segments should be placed symmetrically on opposite sides of the
-    // edge (offset).
-
-#if OSD_FRACTIONAL_EVEN_SPACING
-    if (level <= 2) return t;
-
-    float base = pow(2.0,floor(log2(levelUp)));
-    float offset = 1.0/(int(2*base-levelUp)/2 & int(base/2-1));
-
-#elif OSD_FRACTIONAL_ODD_SPACING
-    if (level <= 1) return t;
-    float base = pow(2.0,floor(log2(levelUp)));
-    float offset = 1.0/(((int(2*base-levelUp)/2+1) & int(base/2-1))+1);
-#endif //OSD_FRACTIONAL_ODD_SPACING
-
-    float dx0 = (1.0 - (levelUp-level)/2) / levelUp;
-    float dx1 = (1.0 - 2.0*dx0) / (levelUp - 2.0*ceil(dx0));
-
-    if (t < 0.5) {
-        float x = levelUp/2 - round(t*levelUp);
-        return 0.5 - (x*dx1 + int(x*offset > 1) * (dx0 - dx1));
-    } else if (t > 0.5) {
-        float x = round(t*levelUp) - levelUp/2;
-        return 0.5 + (x*dx1 + int(x*offset > 1) * (dx0 - dx1));
-    } else {
-        return t;
-    }
-}
-#endif //OSD_FRACTIONAL_EVEN_SPACING || OSD_FRACTIONAL_ODD_SPACING
-
-static float OsdGetTessTransitionSplit(float t, float lo, float hi )
-{
-#if OSD_FRACTIONAL_EVEN_SPACING
-  float loRoundUp = OsdRoundUpEven(lo);
-  float hiRoundUp = OsdRoundUpEven(hi);
-
-  // Convert the parametric t into a segment index along the combined edge.
-  float ti = round(t * (loRoundUp + hiRoundUp));
-
-  if (ti <= loRoundUp) {
-      float t0 = ti / loRoundUp;
-      return OsdGetTessFractionalSplit(t0, lo, loRoundUp) * 0.5;
-   } else {
-      float t1 = (ti - loRoundUp) / hiRoundUp;
-      return OsdGetTessFractionalSplit(t1, hi, hiRoundUp) * 0.5 + 0.5;
-    }
-
-#elif OSD_FRACTIONAL_ODD_SPACING
-  float loRoundUp = OsdRoundUpOdd(lo);
-  float hiRoundUp = OsdRoundUpOdd(hi);
-
-  // Convert the parametric t into a segment index along the combined edge.
-  // The +1 below is to account for the extra segment produced by the
-  // tessellator since the sum of two odd tess levels will be rounded
-  // up by one to the next odd integer tess level.
-  float ti = (t * (loRoundUp + hiRoundUp + 1));
-
-  OSD_UV_CORRECTION
-
-  ti = round(ti);
-
-  if (ti <= loRoundUp) {
-      float t0 = ti / loRoundUp;
-      return OsdGetTessFractionalSplit(t0, lo, loRoundUp) * 0.5;
-  } else if (ti > (loRoundUp+1)) {
-      float t1 = (ti - (loRoundUp+1)) / hiRoundUp;
-      return OsdGetTessFractionalSplit(t1, hi, hiRoundUp) * 0.5 + 0.5;
-  } else {
-      return 0.5;
-  }
-
-#else //OSD_FRACTIONAL_ODD_SPACING
-  // Convert the parametric t into a segment index along the combined edge.
-  float ti = round(t * (lo + hi));
-
-  if (ti <= lo) {
-      return (ti / lo) * 0.5;
-  } else {
-      return ((ti - lo) / hi) * 0.5 + 0.5;
-  }
-#endif //OSD_FRACTIONAL_ODD_SPACING
-}
-
-static float2 OsdGetTessParameterization(float2 uv, float4 tessOuterLo, float4 tessOuterHi)
-{
-    float2 UV = uv;
-	if (UV.x == 0 && tessOuterHi[0] > 0)
-	{
-		UV.y = OsdGetTessTransitionSplit(UV.y, tessOuterLo[0], tessOuterHi[0]);
-	} 
-	else if (UV.y == 0 && tessOuterHi[1] > 0)
-	{
-		UV.x = OsdGetTessTransitionSplit(UV.x, tessOuterLo[1], tessOuterHi[1]);
-	} 
-	else if (UV.x == 1 && tessOuterHi[2] > 0)
-	{
-		UV.y = OsdGetTessTransitionSplit(UV.y, tessOuterLo[2], tessOuterHi[2]);
-	} 
-	else if (UV.y == 1 && tessOuterHi[3] > 0)
-	{
-		UV.x = OsdGetTessTransitionSplit(UV.x, tessOuterLo[3], tessOuterHi[3]);
-	}
-
-    return UV;
-}
-
-
-
-static int4 OsdGetPatchCoord(int3 patchParam)
-{
-    int faceId = OsdGetPatchFaceId(patchParam);
-    int faceLevel = OsdGetPatchFaceLevel(patchParam);
-    int2 faceUV = OsdGetPatchFaceUV(patchParam);
-    return int4(faceUV.x, faceUV.y, faceLevel, faceId);
-}
-
-static float4 OsdInterpolatePatchCoord(float2 localUV, int3 patchParam)
-{
-    int4 perPrimPatchCoord = OsdGetPatchCoord(patchParam);
-    int faceId = perPrimPatchCoord.w;
-    int faceLevel = perPrimPatchCoord.z;
-    float2 faceUV = float2(perPrimPatchCoord.x, perPrimPatchCoord.y);
-    float2 uv = localUV/faceLevel + faceUV/faceLevel;
-    // add 0.5 to integer values for more robust interpolation
-    return float4(uv.x, uv.y, faceLevel+0.5, faceId+0.5);
-}
-
-
-// ----------------------------------------------------------------------------
-// GregoryBasis
-// ----------------------------------------------------------------------------
-
-
-static void OsdComputePerPatchVertexGregoryBasis(int3 patchParam, int ID, float3 cv,
-                                     device OsdPerPatchVertexGregoryBasis& result)
-{
-    result.P = cv;
-}
-
-// Regular BSpline to Bezier
-constant float4x4 Q(
-                    float4(1.f/6.f, 4.f/6.f, 1.f/6.f, 0.f),
-                    float4(0.f,     4.f/6.f, 2.f/6.f, 0.f),
-                    float4(0.f,     2.f/6.f, 4.f/6.f, 0.f),
-                    float4(0.f,     1.f/6.f, 4.f/6.f, 1.f/6.f)
-                    );
-
-// Infinitely Sharp (boundary)
-constant float4x4 Mi(
-                     float4(1.f/6.f, 4.f/6.f, 1.f/6.f, 0.f),
-                     float4(0.f,     4.f/6.f, 2.f/6.f, 0.f),
-                     float4(0.f,     2.f/6.f, 4.f/6.f, 0.f),
-                     float4(0.f,     0.f,     1.f,     0.f)
-                     );
-
-    
-static float4x4 OsdComputeMs2(float sharpness, float factor)
-{
-    float s = exp2(sharpness);
-    float s2 = s*s;
-    float s3 = s2*s;
-    float sx6 = s*6.0;
-    float sx6m2 = sx6 - 2;
-    float sfrac1 = 1-s;
-    float ssub1 = s-1;
-    float ssub1_2 = ssub1 * ssub1;
-    float div6 = 1.0/6.0;
-    
-    float4x4 m(
-               float4(0, s + 1 + 3*s2 - s3, 7*s - 2 - 6*s2 + 2*s3,    sfrac1 * ssub1_2),
-               float4(0,      1 + 2*s + s2,         sx6m2 - 2*s2,             ssub1_2),
-               float4(0,               1+s,                sx6m2,              sfrac1),
-               float4(0,                 1,                sx6m2,                 1));
-    
-    m *= factor * (1/sx6);
-    
-    m[0][0] = div6 * factor;
-    
-    return m;
-}
-
-
-
-// ----------------------------------------------------------------------------
-// BSpline
-// ----------------------------------------------------------------------------
-
-
-// convert BSpline cv to Bezier cv
-template<typename VertexType> //VertexType should be some type that implements float3 VertexType::GetPosition()
-static void OsdComputePerPatchVertexBSpline(int3 patchParam, unsigned ID, threadgroup VertexType* cv, device OsdPerPatchVertexBezier& result)
-{
-    int i = ID%4;
-    int j = ID/4;
-  
-#if OSD_PATCH_ENABLE_SINGLE_CREASE
-
-    float3 P  = float3(0,0,0); // 0 to 1-2^(-Sf)
-    float3 P1 = float3(0,0,0); // 1-2^(-Sf) to 1-2^(-Sc)
-    float3 P2 = float3(0,0,0); // 1-2^(-Sc) to 1
-    float sharpness = OsdGetPatchSharpness(patchParam);
-
-    int boundaryMask = OsdGetPatchBoundaryMask(patchParam);
-
-    if (sharpness > 0 && (boundaryMask & 15))
-    {
-        float Sf = floor(sharpness);
-        float Sc = ceil(sharpness);
-        float Sr = fract(sharpness);
-
-        float4x4 Mj = OsdComputeMs2(Sf, 1-Sr);
-        float4x4 Ms = Mj;
-        Mj += (Sr * Mi);
-        Ms += OsdComputeMs2(Sc, Sr);
-
-#if USE_PTVS_SHARPNESS
-#else
-        float s0 = 1 - exp2(-Sf);
-        float s1 = 1 - exp2(-Sc);
-        result.vSegments = float2(s0, s1);
+#ifdef USE_TRANSMISSION
+    float transmission;
+    float2 transmissionTexcoord;
+    float3 transmissionColor;
+    float2 transmissionColorTexcoord;
 #endif
-        
-        bool isBoundary[2];
-        isBoundary[0] = (((boundaryMask & 8) != 0) || ((boundaryMask & 2) != 0)) ? true :false;
-        isBoundary[1] = (((boundaryMask & 4) != 0) || ((boundaryMask & 1) != 0)) ? true :false;
-        bool needsFlip[2];
-        needsFlip[0] = (boundaryMask & 8) ? true :false;
-        needsFlip[1] = (boundaryMask & 1) ? true :false;
-        float3 Hi[4], Hj[4], Hs[4];
-        
-        if (isBoundary[0])
-        {
-            int t[4] = {0,1,2,3};
-            int ti = i, step = 1, start = 0;
-            if (needsFlip[0]) {
-                t[0] = 3; t[1] = 2; t[2] = 1; t[3] = 0;
-                ti = 3-i;
-                start = 3; step = -1;
-            }
-            for (int l=0; l<4; ++l) {
-                Hi[l] = Hj[l] = Hs[l] = float3(0,0,0);
-                for (int k=0, tk = start; k<4; ++k, tk+=step) {
-                    float3 p = cv[l*4 + k].GetPosition();
-                    Hi[l] += Mi[ti][tk] * p;
-                    Hj[l] += Mj[ti][tk] * p;
-                    Hs[l] += Ms[ti][tk] * p;
-                }
-            }
-        }
-        else
-        {
-            for (int l=0; l<4; ++l) {
-                Hi[l] = Hj[l] = Hs[l] = float3(0,0,0);
-                for (int k=0; k<4; ++k) {
-                    float3 p = cv[l*4 + k].GetPosition();
-                    float3 val = Q[i][k] * p;
-                    Hi[l] += val;
-                    Hj[l] += val;
-                    Hs[l] += val;
-                }
-            }
-        }
-        {
-            int t[4] = {0,1,2,3};
-            int tj = j, step = 1, start = 0;
-            if (needsFlip[1]) {
-                t[0] = 3; t[1] = 2; t[2] = 1; t[3] = 0;
-                tj = 3-j;
-                start = 3; step = -1;
-            }
-            for (int k=0, tk = start; k<4; ++k, tk+=step) {
-                if (isBoundary[1])
-                {
-                    P  += Mi[tj][tk]*Hi[k];
-                    P1 += Mj[tj][tk]*Hj[k];
-                    P2 += Ms[tj][tk]*Hs[k];
-                }
-                else
-                {
-                    P  += Q[j][k]*Hi[k];
-                    P1 += Q[j][k]*Hj[k];
-                    P2 += Q[j][k]*Hs[k];
-                }
-            }
-        }
-
-#if CFX_OPTIMIZE_OPENSUBDIV_STORAGE
-    result.P  = half3(P);
-    result.P1 = half3(P1);
-    result.P2 = half3(P2);
-#else
-    result.P  = P;
-    result.P1 = P1;
-    result.P2 = P2;
-#endif //CFX_OPTIMIZE_OPENSUBDIV_STORAGE
-    } else {
-#if USE_PTVS_SHARPNESS
-#else
-#if CFX_OPTIMIZE_OPENSUBDIV_STORAGE
-        result.vSegments = half2(0, 0);
-#else
-        result.vSegments = float2(0, 0);
-#endif //CFX_OPTIMIZE_OPENSUBDIV_STORAGE
+    float shininess;            
+    float fresnel;              
+    float ambientOcclusion;     
+    float2 ambientOcclusionTexcoord;   
+    float3 _normalTS;           
+    float3 _clearCoatNormalTS;  
+#ifdef USE_SURFACE_EXTRA_DECL
+    __SurfaceExtraDecl__
 #endif
-
-        OsdComputeBSplineBoundaryPoints(cv, patchParam);
-
-    float3 Hi[4];
-    for (int l=0; l<4; ++l) {
-        Hi[l] = float3(0,0,0);
-        for (int k=0; k<4; ++k) {
-            Hi[l] += Q[i][k] * cv[l*4 + k].GetPosition();
-        }
-    }
-    for (int k=0; k<4; ++k) {
-        P += Q[j][k]*Hi[k];
-    }
-        
-#if CFX_OPTIMIZE_OPENSUBDIV_STORAGE
-    result.P  = half3(P);
-    result.P1 = half3(P);
-    result.P2 = half3(P);
-#else
-    result.P  = P;
-    result.P1 = P;
-    result.P2 = P;
-#endif //CFX_OPTIMIZE_OPENSUBDIV_STORAGE
-}
-#else
-    OsdComputeBSplineBoundaryPoints(cv, patchParam);
-
-    float3 H[4];
-    for (int l=0; l<4; ++l) {
-        H[l] = float3(0,0,0);
-        for(int k=0; k<4; ++k) {
-            H[l] += Q[i][k] * (cv + l*4 + k)->GetPosition();
-        }
-    }
-
-    {
-        float3 P = float3(0,0,0);
-        for (int k=0; k<4; ++k){
-            P += Q[j][k]*H[k];
-        }
-#if CFX_OPTIMIZE_OPENSUBDIV_STORAGE
-        result.P = half3(P);
-#else
-        result.P = P;
-#endif
-    }
-#endif
-}
-
-template<typename PerPatchVertexBezier>
-static void OsdEvalPatchBezier(int3 patchParam, float2 UV,
-                   PerPatchVertexBezier cv,
-                   thread float3& P, thread float3& dPu, thread float3& dPv,
-                   thread float3& N, thread float3& dNu, thread float3& dNv,
-                   thread float2& vSegments)
-{
-#if OSD_COMPUTE_NORMAL_DERIVATIVES
-    float B[4], D[4], C[4];
-    float3 BUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)},
-    DUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)},
-    CUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)};
-    OsdUnivar4x4(UV.x, B, D, C);
-#else
-    float B[4], D[4];
-    float3 BUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)},
-    DUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)};
-    OsdUnivar4x4(UV.x, B, D);
-#endif
-
-    // ----------------------------------------------------------------
-#if OSD_PATCH_ENABLE_SINGLE_CREASE
-#if USE_PTVS_SHARPNESS
-    float sharpness = OsdGetPatchSharpness(patchParam);
-    float Sf = floor(sharpness);
-    float Sc = ceil(sharpness);
-    float s0 = 1 - exp2(-Sf);
-    float s1 = 1 - exp2(-Sc);
-
-    vSegments = float2(s0, s1);
-#else //USE_PTVS_SHARPNESS
-    vSegments = cv[0].vSegments;
-#endif //USE_PTVS_SHARPNESS
-
-    float s = OsdGetPatchSingleCreaseSegmentParameter(patchParam, UV);
-
-    for (int i=0; i<4; ++i) {
-        for (int j=0; j<4; ++j) {
-            int k = 4*i + j;
-
-            float3 A = (s <= vSegments.x) ? float3(cv[k].P)
-            :((s <= vSegments.y) ?  float3(cv[k].P1)
-                 :float3(cv[k].P2));
-
-            BUCP[i] += A * B[j];
-            DUCP[i] += A * D[j];
-#if OSD_COMPUTE_NORMAL_DERIVATIVES
-            CUCP[i] += A * C[j];
-#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
-        }
-    }
-#else //OSD_PATCH_ENABLE_SINGLE_CREASE
-    // ----------------------------------------------------------------
-    for (int i=0; i<4; ++i) {
-        for (int j=0; j<4; ++j) {
-            float3 A = float3(cv[4*i + j].P);
-            BUCP[i] += A * B[j];
-            DUCP[i] += A * D[j];
-#if OSD_COMPUTE_NORMAL_DERIVATIVES
-            CUCP[i] += A * C[j];
-#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
-        }
-    }
-#endif //OSD_PATCH_ENABLE_SINGLE_CREASE
-    // ----------------------------------------------------------------
-
-#if OSD_COMPUTE_NORMAL_DERIVATIVES
-    // used for weingarten term
-    OsdUnivar4x4(UV.y, B, D, C);
-
-    P = B[0] * BUCP[0];
-    dPu = B[0] * DUCP[0];
-    dPv = D[0] * BUCP[0];
-
-    float3 dUU = B[0] * CUCP[0];
-    float3 dVV = C[0] * BUCP[0];
-    float3 dUV = D[0] * DUCP[0];
-
-    for (int k=1; k<4; ++k) {
-        P   += B[k] * BUCP[k];
-        dPu += B[k] * DUCP[k];
-        dPv += D[k] * BUCP[k];
-
-        dUU += B[k] * CUCP[k];
-        dVV += C[k] * BUCP[k];
-        dUV += D[k] * DUCP[k];
-    }
-
-    int level = OsdGetPatchFaceLevel(patchParam);
-    dPu *= 3 * level;
-    dPv *= 3 * level;
-    dUU *= 6 * level;
-    dVV *= 6 * level;
-    dUV *= 9 * level;
-
-    float3 n = cross(dPu, dPv);
-    float ln = 1.0 / length(n);
-    N = ln * n;
-
-    float E = dot(dPu, dPu);
-    float F = dot(dPu, dPv);
-    float G = dot(dPv, dPv);
-    float e = dot(N, dUU);
-    float f = dot(N, dUV);
-    float g = dot(N, dVV);
-    float EGFF = 1.0 / (E*G - F*F);
-
-    dNu = (f*F-e*G) * EGFF * dPu + (e*F-f*E) * EGFF * dPv;
-    dNv = (g*F-f*G) * EGFF * dPu + (f*F-g*E) * EGFF * dPv;
-
-    float powrn = 1.0 / powr(dot(n,n), 1.5);
-
-    dNu = dNu * ln - n * (dot(dNu,n) * powrn);
-    dNv = dNv * ln - n * (dot(dNv,n) * powrn);
-#else //OSD_COMPUTE_NORMAL_DERIVATIVES
-    OsdUnivar4x4(UV.y, B, D);
-
-    P = B[0] * BUCP[0];
-    dPu = B[0] * DUCP[0];
-    dPv = D[0] * BUCP[0];
-
-    for (int k=1; k<4; ++k) {
-        P   += B[k] * BUCP[k];
-        dPu += B[k] * DUCP[k];
-        dPv += D[k] * BUCP[k];
-    }
-    int level = OsdGetPatchFaceLevel(patchParam);
-    dPu *= 3 * level;
-    dPv *= 3 * level;
-
-    N = normalize(cross(dPu, dPv));
-    dNu = float3(0,0,0);
-    dNv = float3(0,0,0);
-#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
-}
-
-// compute single-crease patch matrix
-static float4x4 OsdComputeMs(float sharpness)
-{
-    float s = exp2(sharpness);
-    float s2 = s*s;
-    float s3 = s2*s;
-
-    float4x4 m(
-        float4(0, s + 1 + 3*s2 - s3, 7*s - 2 - 6*s2 + 2*s3, (1-s)*(s-1)*(s-1)),
-        float4(0,       (1+s)*(1+s),        6*s - 2 - 2*s2,       (s-1)*(s-1)),
-        float4(0,               1+s,               6*s - 2,               1-s),
-        float4(0,                 1,               6*s - 2,                 1));
-
-    m[0] /= (s*6.0);
-    m[1] /= (s*6.0);
-    m[2] /= (s*6.0);
-    m[3] /= (s*6.0);
-
-    m[0][0] = 1.0/6.0;
-
-    return m;
-}
-
-// flip matrix orientation
-static float4x4 OsdFlipMatrix(float4x4 m)
-{
-    return float4x4(float4(m[3][3], m[3][2], m[3][1], m[3][0]),
-                    float4(m[2][3], m[2][2], m[2][1], m[2][0]),
-                    float4(m[1][3], m[1][2], m[1][1], m[1][0]),
-                    float4(m[0][3], m[0][2], m[0][1], m[0][0]));
-}
-
-static void OsdFlipMatrix(threadgroup float * src, threadgroup float * dst)
-{
-    for (int i = 0; i < 16; i++) dst[i] = src[15-i];
-}
-
-
-// ----------------------------------------------------------------------------
-// Legacy Gregory
-// ----------------------------------------------------------------------------
-#if OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
-
-#if OSD_MAX_VALENCE<=10
-constant float ef[7] = {
-    0.813008, 0.500000, 0.363636, 0.287505,
-    0.238692, 0.204549, 0.179211
 };
-#else
-constant float ef[27] = {
-    0.812816, 0.500000, 0.363644, 0.287514,
-    0.238688, 0.204544, 0.179229, 0.159657,
-    0.144042, 0.131276, 0.120632, 0.111614,
-    0.103872, 0.09715, 0.0912559, 0.0860444,
-    0.0814022, 0.0772401, 0.0734867, 0.0700842,
-    0.0669851, 0.0641504, 0.0615475, 0.0591488,
-    0.0569311, 0.0548745, 0.0529621
+
+
+
+struct VFXShaderLight {
+    float4 intensity;
+    float3 direction;
+
+    float  _att;
+    float3 _spotDirection;
+    float  _distance;
 };
+
+enum VFXShadingModel
+{
+    VFXShadingModelConstant,
+    VFXShadingModelPhong,
+    VFXShadingModelNone,
+    VFXShadingModelPhysicallyBased,
+    VFXShadingModelShadowOnly,
+
+    VFXShadingModelCustom 
+};
+
+#define PROBES_NORMALIZATION 0
+#define PROBES_OUTER_BLENDING 1
+
+struct VFXShaderLightingContribution
+{
+    float3 ambient;
+    float3 diffuse;
+    float3 specular;
+    float3 modulate;
+
+#ifdef USE_SHADOWONLY
+    float shadowFactor;
 #endif
 
-static float cosfn(int n, int j) {
-    return cospi((2.0f * j)/float(n));
-}
+#if PROBES_NORMALIZATION
+    float4 probesWeightedSum; 
+#else
+    float  probeRadianceRemainingFactor;
+#endif
 
-static float sinfn(int n, int j) {
-    return sinpi((2.0f * j)/float(n));
-}
+    thread VFXShaderSurface& surface;
 
-#ifndef OSD_MAX_VALENCE
-#define OSD_MAX_VALENCE 4
+#ifdef USE_PER_VERTEX_LIGHTING
+    commonprofile_io out;
+#else
+    commonprofile_io in;
+#endif
+
+#ifdef USE_PBR
+    struct {
+        float3 albedo;
+        float3 envDiffuse;
+        float3 envSpecular;
+        float3 reflectance;
+        float3 probeReflectance;
+#ifndef USE_PBR_LAMBERTIAN_REFLECTION
+        float2 diffuseHammonFactors;
+#endif
+#ifdef USE_PBR_TRANSPARENCY
+        float  transparency;
+#endif
+        float  NoV;
+        float  selfIlluminationOcclusion;
+#ifdef USE_CLEARCOAT
+        float  NoVClearCoat;
+        float3 probeReflectanceClearCoat;
+#endif
+    } pbr;
+#endif
+    
+    VFXShaderLightingContribution(thread VFXShaderSurface& iSurface, commonprofile_io io):(id)arg1 surface(iSurface)
+#ifdef USE_PER_VERTEX_LIGHTING
+    ,out(io)
+#else
+    ,in(io)
+#endif
+    {
+        ambient = 0.f;
+        diffuse = 0.f;
+        specular = 0.f;
+#ifdef USE_SHADOWONLY
+        shadowFactor = 1.f;
+#endif
+
+#if PROBES_NORMALIZATION
+#if PROBES_OUTER_BLENDING
+        probesWeightedSum = float4(0.f);
+#else
+        probesWeightedSum = float4(0.f, 0.f, 0.f, 0.000001f); 
+#endif
+#else
+        probeRadianceRemainingFactor = 1.f;
+#endif
+
+#ifdef USE_MODULATE
+        modulate = 1.f;
+#else
+        modulate = 0.f;
+#endif
+    }
+
+#ifdef USE_PBR
+    void prepareForPBR(texture2d<float, access::sample> specularDFGDiffuseHammonTexture, float occ)
+    {
+        pbr.envDiffuse = 0.f;
+        pbr.envSpecular = 0.f;
+        pbr.selfIlluminationOcclusion = occ;
+      
+        pbr.albedo = surface.diffuse.rgb;
+#ifdef USE_PBR_TRANSPARENCY
+  #ifdef DIFFUSE_PREMULTIPLIED
+        
+        pbr.transparency = 1.f;
+  #else
+        pbr.transparency = surface.diffuse.a;
+  #endif
+  #ifdef USE_TRANSPARENCY
+    #ifdef USE_PER_VERTEX_LIGHTING
+        pbr.transparency *= out.transparency;
+    #else
+        pbr.transparency *= in.transparency;
+    #endif
+  #endif
+  #ifdef USE_TRANSPARENT
+        pbr.transparency *= surface.transparent.a;
+  #endif
+        pbr.albedo *= pbr.transparency;
+  #ifdef DIFFUSE_PREMULTIPLIED
+        
+        
+        pbr.transparency *= surface.diffuse.a;
+  #endif
+#endif
+        
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        pbr.NoV = abs(dot(n, v));
+        
+        float roughness = surface.roughness;
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        float2 specularDFG = specularDFGDiffuseHammonTexture.sample(vfx_lighting::linearSampler, float2(pbr.NoV, roughness)).rg;
+#else
+#ifdef USE_RE_RADIANCE_IRRADIANCE_MAP_SAMPLING
+        float4 env = specularDFGDiffuseHammonTexture.sample(vfx_lighting::linearSampler, float2(roughness, 1.0f - pbr.NoV));
+#else
+        float4 env = specularDFGDiffuseHammonTexture.sample(vfx_lighting::linearSampler, float2(pbr.NoV, roughness));
+#endif
+        float2 specularDFG = env.xy;
+        pbr.diffuseHammonFactors = env.zw;
+#endif
+        
+        pbr.reflectance = mix(PBR_F0_NON_METALLIC, pbr.albedo, surface.metalness);
+        pbr.probeReflectance = pbr.reflectance * specularDFG.r + specularDFG.g;
+                                
+#ifdef USE_CLEARCOAT
+        pbr.NoVClearCoat = abs(dot(surface.clearCoatNormal, v));
+        float2 DFGClearCoat = specularDFGDiffuseHammonTexture.sample(vfx_lighting::linearSampler, float2(pbr.NoVClearCoat, surface.clearCoatRoughness)).rg;
+        pbr.probeReflectanceClearCoat = 0.04 * DFGClearCoat.r + DFGClearCoat.g;
+#endif
+    }
 #endif
 
 
-template<typename OsdVertexBuffer>
-static float3 OsdReadVertex(int vertexIndex, OsdVertexBuffer osdVertexBuffer)
-{
-    int index = (vertexIndex /*+ OsdBaseVertex()*/);
-    return osdVertexBuffer[index].position;
-}
-
-template<typename OsdValenceBuffer>
-static int OsdReadVertexValence(int vertexID, OsdValenceBuffer osdValenceBuffer)
-{
-    int index = int(vertexID * (2 * OSD_MAX_VALENCE + 1));
-    return osdValenceBuffer[index];
-}
-
-template<typename OsdValenceBuffer>
-static int OsdReadVertexIndex(int vertexID, int valenceVertex, OsdValenceBuffer osdValenceBuffer)
-{
-    int index = int(vertexID * (2 * OSD_MAX_VALENCE + 1) + 1 + valenceVertex);
-    return osdValenceBuffer[index];
-}
-
-template<typename OsdQuadOffsetBuffer>
-static int OsdReadQuadOffset(int primitiveID, int offsetVertex, OsdQuadOffsetBuffer osdQuadOffsetBuffer)
-{
-    int index = int(4*primitiveID + offsetVertex);
-    return osdQuadOffsetBuffer[index];
-}
-
-
-static void OsdComputePerVertexGregory(unsigned vID, float3 P, threadgroup OsdPerVertexGregory& v, OsdPatchParamBufferSet osdBuffers)
-{
-    v.clipFlag = short3(0,0,0);
-
-    int ivalence = OsdReadVertexValence(vID, osdBuffers.valenceBuffer);
-    v.valence = ivalence;
-    int valence = abs(ivalence);
-
-    float3 f[OSD_MAX_VALENCE];
-    float3 pos = P;
-    float3 opos = float3(0,0,0);
-
-#if OSD_PATCH_GREGORY_BOUNDARY
-    v.org = pos;
-    int boundaryEdgeNeighbors[2];
-    int currNeighbor = 0;
-    int ibefore = 0;
-    int zerothNeighbor = 0;
+#ifdef USE_LIGHT_MODIFIER
+    __LightModifierExtraDecl__
 #endif
 
-    for (int i=0; i<valence; ++i) {
-        int im = (i+valence-1)%valence;
-        int ip = (i+1)%valence;
+    float4 debug_pixel(float2 fragmentPosition)
+    {
+        const int width = 64;
+        switch (int(fragmentPosition.x + fragmentPosition.y ) / width) {
+            case 0:return float4(surface.view, 1.f);
+            case 1:return float4(surface.position, 1.f);
+            case 2:return float4(surface.normal, 1.f);
+            case 3:return float4(surface.geometryNormal, 1.f);
+            case 4:return float4(float3(surface.ambientOcclusion), 1.f);
+            case 5:return surface.diffuse;
+            case 6:return float4(float3(surface.metalness), 1.f);
+            case 7:return float4(float3(surface.roughness), 1.f);
+            case 8:return float4(ambient, 1.f);
+            case 9:return float4(diffuse, 1.f);
+            default:return float4(specular, 1.f);
+        }
+    }
 
-        int idx_neighbor = OsdReadVertexIndex(vID, 2*i, osdBuffers.valenceBuffer);
+    
 
-#if OSD_PATCH_GREGORY_BOUNDARY
-        bool isBoundaryNeighbor = false;
-        int valenceNeighbor = OsdReadVertexValence(idx_neighbor, osdBuffers.valenceBuffer);
+    static inline float3 lambert_diffuse(float3 l, float3 n, float3 color, float intensity) {
+        return color * (intensity * saturate(dot(n, l)));
+    }
 
-        if (valenceNeighbor < 0) {
-            isBoundaryNeighbor = true;
-            if (currNeighbor<2) {
-                boundaryEdgeNeighbors[currNeighbor] = idx_neighbor;
-            }
-            currNeighbor++;
-            if (currNeighbor == 1) {
-                ibefore = i;
-                zerothNeighbor = i;
-            } else {
-                if (i-ibefore == 1) {
-                    int tmp = boundaryEdgeNeighbors[0];
-                    boundaryEdgeNeighbors[0] = boundaryEdgeNeighbors[1];
-                    boundaryEdgeNeighbors[1] = tmp;
-                    zerothNeighbor = i;
-                }
-            }
+    void phong(float3 l, float3 color, float intensity)
+    {
+        float3 D = lambert_diffuse(l, surface.normal, color, intensity);
+        diffuse += D;
+
+        float3 r = reflect(-l, surface.normal);
+        specular += powr(saturate(dot(r, surface.view)), surface.shininess) * D;
+    }
+
+#ifdef USE_PBR
+    void physicallyBased(float3 l, float3 color, float intensity)
+    {
+        float3 n         = surface.normal;
+        float3 v         = surface.view;
+        float  roughness = surface.roughness;
+        float  alpha     = roughness * roughness;
+
+        float3 h = normalize(l + v);
+
+        float NoL = saturate(dot(n, l));
+        float NoH = saturate(dot(n, h));
+        float LoH = saturate(dot(l, h));
+        
+        float D   = vfx_brdf_D(alpha, NoH);
+        float3 F  = vfx_brdf_F_opt(pbr.reflectance, LoH);
+        float Vis = vfx_brdf_V(alpha, NoL, pbr.NoV);
+
+        
+        diffuse  += color * (NoL * M_1_PI_F * intensity);
+        specular += color * F * (NoL * D * Vis * intensity);
+        
+        #ifdef USE_CLEARCOAT
+            n = surface.clearCoatNormal;
+
+            roughness = max(surface.clearCoatRoughness, 0.089f);
+            alpha = roughness * roughness; 
+        
+            
+            
+            float NoH_coat = saturate(dot(n, h));
+            float NoL_coat = saturate(dot(n, l));
+            D   = vfx_brdf_D(alpha, NoH_coat);
+            F   = vfx_brdf_F_opt(0.04, LoH) * surface.clearCoat;
+            Vis = vfx_brdf_V(alpha, NoL_coat, saturate(dot(n,v)));
+        
+            float attenuation = 1.0 - F.r;
+            specular *=  (attenuation * attenuation);
+            specular += color * F * ( NoL_coat * D * Vis * intensity);
+        #endif
+    }
+#endif
+
+    void custom(float3 _l, float3 _color, float _intensity)
+    {
+#ifdef USE_LIGHT_MODIFIER
+        thread VFXShaderLightingContribution &_lightingContribution = *this;
+        thread VFXShaderSurface& _surface = surface;
+        VFXShaderLight _light = {.direction = _l, .intensity = float4(_color, 1.f), ._att = _intensity };
+        
+        __DoLightModifier__
+        
+#endif
+    }
+
+    void shade(float3 l, float3 color, float intensity)
+    {
+#ifdef LIGHTING_MODEL
+        switch (LIGHTING_MODEL) {
+#ifdef USE_SHADOWONLY
+            case VFXShadingModelShadowOnly:shadowFactor *= intensity; break;
+#endif
+            case VFXShadingModelPhong:phong(l, color, intensity); break;
+#ifdef USE_PBR
+            case VFXShadingModelPhysicallyBased:physicallyBased(l, color, intensity); break;
+#endif
+            case VFXShadingModelCustom:custom(l, color, intensity); break;
+            default:break; 
         }
 #endif
-
-        float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
-
-        int idx_diagonal = OsdReadVertexIndex(vID, 2*i + 1, osdBuffers.valenceBuffer);
-        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
-
-        int idx_neighbor_p = OsdReadVertexIndex(vID, 2*ip, osdBuffers.valenceBuffer);
-        float3 neighbor_p = OsdReadVertex(idx_neighbor_p, osdBuffers.vertexBuffer);
-
-        int idx_neighbor_m = OsdReadVertexIndex(vID, 2*im, osdBuffers.valenceBuffer);
-        float3 neighbor_m = OsdReadVertex(idx_neighbor_m, osdBuffers.vertexBuffer);
-
-        int idx_diagonal_m = OsdReadVertexIndex(vID, 2*im + 1, osdBuffers.valenceBuffer);
-        float3 diagonal_m = OsdReadVertex(idx_diagonal_m, osdBuffers.vertexBuffer);
-
-        f[i] = (pos * float(valence) + (neighbor_p + neighbor)*2.0f + diagonal) / (float(valence)+5.0f);
-
-        opos += f[i];
-        v.r[i] = (neighbor_p-neighbor_m)/3.0f + (diagonal - diagonal_m)/6.0f;
     }
 
-    opos /= valence;
-    v.P = float4(opos, 1.0f).xyz;
-
-    float3 e;
-    v.e0 = float3(0,0,0);
-    v.e1 = float3(0,0,0);
-
-    for(int i=0; i<valence; ++i) {
-        int im = (i + valence -1) % valence;
-        e = 0.5f * (f[i] + f[im]);
-        v.e0 += cosfn(valence, i)*e;
-        v.e1 += sinfn(valence, i)*e;
-    }
-    v.e0 *= ef[valence - 3];
-    v.e1 *= ef[valence - 3];
-
-#if OSD_PATCH_GREGORY_BOUNDARY
-    v.zerothNeighbor = zerothNeighbor;
-    if (currNeighbor == 1) {
-        boundaryEdgeNeighbors[1] = boundaryEdgeNeighbors[0];
+    
+    
+    
+    float pbr_dist_attenuation_alternate(float3 l, float cutoff) {
+        
+        float radius = 0.1f; 
+        float factor = 1.f / (1.f + length(l)/radius);
+        float attenuation = saturate(factor * factor); 
+        return saturate((attenuation - cutoff) / (1.f - cutoff));
     }
 
-    if (ivalence < 0) {
-        if (valence > 2) {
-            v.P = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
-                   OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
-                   4.0f * pos)/6.0f;
+    float pbr_dist_attenuation(float3 l, float inv_square_radius) {
+        float sqr_dist = length_squared(l);
+        float atten = 1.f / max(sqr_dist, 0.0001f);
+
+        
+        float factor = saturate(1.f - vfx::sq(sqr_dist * inv_square_radius));
+        return atten * factor * factor;
+    }
+
+    float non_pbr_dist_attenuation(float3 l, float4 att)
+    {
+        return powr(saturate(length(l) * att.x + att.y), att.z);
+    }
+
+    float dist_attenuation(float3 unnormalized_l, vfx_light light)
+    {
+#ifdef USE_PBR
+        return pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors.w);
+        
+        
+#else
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        return non_pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors);
+#endif
+    }
+
+    float spot_attenuation(float3 l, vfx_light light)
+    {
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        
+        return saturate(dot(l, light.dir) * light.parameters.spot.scaleBias.x + light.parameters.spot.scaleBias.y);
+    }
+
+    void shade_modulate(float3 l, float4 color, float intensity)
+    {
+        constexpr half3 white = half3(1.h);
+        
+        modulate *= float3(mix(white, half3(color.rgb), half(color.a * intensity)));
+    }
+
+#ifdef USE_GOBO
+    float3 gobo(float3 pos, vfx_light light, texture2d<half> goboTexture, sampler goboSampler)
+    {
+        half3 g = texture2DProj(goboTexture, goboSampler, (light.shadowMatrix * float4(pos, 1.f))).rgb;
+        return light.color.rgb * float3(mix(1.h, g, half(light.color.a)));
+    }
+#endif
+
+    float shadow_hard(float3 pos, vfx_light light, depth2d<float> shadowMap)
+    {
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float4 tile = light.tiles[0];
+#else
+        float4 tile = {0.0, 0.0, 1.0, 1.0};
+#endif
+        float shadow = ComputeShadow(vfx_shadow_sampler, pos, light.shadowMatrix, shadowMap, tile);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    
+    float shadow_soft_dynamic(float3 pos, vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float4 tile = light.tiles[0];
+#else
+        float4 tile = {0.0, 0.0, 1.0, 1.0};
+#endif
+        float4 lightScreen = transformViewPosInShadowSpace(pos, light.shadowMatrix);
+        lightScreen.xyz /= lightScreen.w;
+        float shadow = ComputeSoftShadow(vfx_shadow_sampler, lightScreen.xyz, shadowMap, shadowKernel, light.shadowSampleCount, light.shadowRadius, tile);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow_soft(float3 pos, vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int shadowSampleCount)
+    {
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float4 tile = light.tiles[0];
+#else
+        float4 tile = {0.0, 0.0, 1.0, 1.0};
+#endif
+        float4 lightScreen = transformViewPosInShadowSpace(pos, light.shadowMatrix);
+        lightScreen.xyz /= lightScreen.w;
+        float shadow = ComputeSoftShadow(vfx_shadow_sampler, lightScreen.xyz, shadowMap, shadowKernel, shadowSampleCount, light.shadowRadius, tile);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow_pcf_grid(float3 pos, vfx_light light, depth2d<float> shadowMap, int shadowSampleCount)
+    {
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float4 tile = light.tiles[0];
+#else
+        float4 tile = {0.0, 0.0, 1.0, 1.0};
+#endif
+        float shadow = ComputeSoftShadowGrid(vfx_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowSampleCount, tile);
+        return 1.f - shadow * light.color.a; 
+    }
+
+
+ushort getCubeFace(float3 dir)
+{
+    
+    float3 absDir = abs(dir);
+    float maxAxis = max(absDir.x, max(absDir.y, absDir.z));
+    if (absDir.z == maxAxis) {
+        
+        return dir.z > 0.0f ? 4 :5;
+    } else if (absDir.y == maxAxis) {
+        
+        return dir.y > 0.0f ? 2 :3;
+    } else {
+        
+        
+        return dir.x > 0.0f ? 0 :1;
+    }
+}
+
+
+float4x4 getFaceRotation(ushort face) {
+    float4 xAxis(1.0, 0.0, 0.0, 0.0);
+    float4 yAxis(0.0, 1.0, 0.0, 0.0);
+    float4 zAxis(0.0, 0.0, 1.0, 0.0);
+    float4 zero (0.0, 0.0, 0.0, 1.0);
+    switch (face) {
+        case 0:return float4x4(-zAxis, yAxis,  xAxis, zero); 
+        case 1:return float4x4( zAxis, yAxis, -xAxis, zero); 
+        case 2:return float4x4( xAxis,-zAxis,  yAxis, zero); 
+        case 3:return float4x4( xAxis, zAxis, -yAxis, zero); 
+        case 4:return float4x4(-xAxis, yAxis, -zAxis, zero); 
+        default:return float4x4( xAxis, yAxis,  zAxis, zero); 
+    }
+}
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+    float shadow_omni(float3 pos_vs, float3 nrm_vs, vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+#else
+    float shadow_omni(float3 pos_vs, float3 nrm_vs, vfx_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+#endif
+    {
+        
+#define USE_TANGENT_SAMPLING 0
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+        float  depthBias = light.parameters.omni.depthBias;
+#else
+        float2 scaleBias = light.parameters.omni.shadowScaleBias.xy;
+        float  depthBias = light.parameters.omni.shadowScaleBias.z;
+#endif
+
+        
+        pos_vs += nrm_vs * depthBias;
+
+        
+        float4 pos_ls = (light.shadowMatrix * float4(pos_vs, 1.f));
+
+#if !CFX_USE_ATLAS_FOR_SHADOW_MAP
+        
+        float z_lin = vfx::reduce_max(abs(pos_ls));
+
+        
+        
+        
+        
+        float z_ndc = (z_lin * scaleBias.x + scaleBias.y) / z_lin - depthBias;
+#endif
+
+        
+        float shadow;
+        if (sampleCount <= 1) {
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+            ushort face = getCubeFace(normalize(pos_ls.xyz));
+            float4 tile = light.tiles[face];
+            shadow = ComputeShadow(vfx_shadow_sampler, (getFaceRotation(face) * pos_ls).xyz, light.parameters.omni.projection, shadowMap, tile);
+#else
+            shadow = shadowMap.sample_compare(vfx_shadow_sampler, pos_ls.xyz, z_ndc);
+#endif
         } else {
-            v.P = pos;
+
+            
+            float filteringSizeFactor = light.shadowRadius;
+
+#if USE_TANGENT_SAMPLING
+            float3 tgt_x, tgt_y;
+            vfx::orthogonal_basis(pos_ls, tgt_x, tgt_y);
+#else
+            float3 nrm_ls = (light.shadowMatrix * float4(nrm_vs, 0.f)).xyz;
+#endif
+
+            
+            float totalAccum = 0.0;
+            for(int i=0; i < sampleCount; i++){
+
+#if USE_TANGENT_SAMPLING
+                float2 scale = shadowKernel[i].xy * filteringSizeFactor * 2.f;
+                float3 smp_ls = pos_ls.xyz + tgt_x * scale.x + tgt_y * scale.y;
+#else
+                float3 smp_ls = pos_ls.xyz + vfx::randomHemisphereDir(nrm_ls, shadowKernel[i].xy * 0.5 + 0.5) * filteringSizeFactor;
+#endif
+
+                
+                
+                
+
+
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+                ushort face = getCubeFace(normalize(smp_ls.xyz));
+                float4 tile = light.tiles[face];
+                totalAccum += ComputeShadow(vfx_shadow_sampler, (getFaceRotation(face) * float4(smp_ls, 1.0)).xyz, light.parameters.omni.projection, shadowMap, tile);
+#else
+                totalAccum += shadowMap.sample_compare(vfx_shadow_sampler, smp_ls, z_ndc);
+#endif
+
+            }
+            shadow = totalAccum / float(sampleCount);
         }
 
-        v.e0 = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) -
-                OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer))/6.0;
+        return 1.f - shadow * light.color.a; 
+    }
 
-        float k = float(float(valence) - 1.0f);    //k is the number of faces
-        float c = cospi(1.0/k);
-        float s = sinpi(1.0/k);
-        float gamma = -(4.0f*s)/(3.0f*k+c);
-        float alpha_0k = -((1.0f+2.0f*c)*sqrt(1.0f+c))/((3.0f*k+c)*sqrt(1.0f-c));
-        float beta_0 = s/(3.0f*k + c);
-
-        int idx_diagonal = OsdReadVertexIndex(vID, 2*zerothNeighbor + 1, osdBuffers.valenceBuffer);
-        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
-
-        v.e1 = gamma * pos +
-            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
-            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
-            beta_0 * diagonal;
-
-        for (int x=1; x<valence - 1; ++x) {
-            int curri = ((x + zerothNeighbor)%valence);
-            float alpha = (4.0f*sinpi((float(x))/k))/(3.0f*k+c);
-            float beta = (sinpi((float(x))/k) + sinpi((float(x+1))/k))/(3.0f*k+c);
-
-            int idx_neighbor = OsdReadVertexIndex(vID, 2*curri, osdBuffers.valenceBuffer);
-            float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
-
-            idx_diagonal = OsdReadVertexIndex(vID, 2*curri + 1, osdBuffers.valenceBuffer);
-            diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
-
-            v.e1 += alpha * neighbor + beta * diagonal;
-        }
-
-        v.e1 /= 3.0f;
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+    float shadow_cascaded(float3 pos, constant vfx_light& light, depth2d<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount)
+    {
+        float shadow = ComputeCascadedShadow(vfx_shadow_sampler, pos, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius, light.tiles).a;
+        return 1.f - shadow * light.color.a; 
+    }
+#else
+    float shadow_cascaded(float3 pos, constant vfx_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount)
+    {
+        float shadow = ComputeCascadedShadow(vfx_shadow_sampler, pos, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius).a;
+        return 1.f - shadow * light.color.a; 
     }
 #endif
-}
 
-static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsigned primitiveID,
-                                threadgroup OsdPerVertexGregory* v,
-                                device OsdPerPatchVertexGregory& result,
-                                OsdPatchParamBufferSet osdBuffers)
-{
-    result.P = v[ID].P;
+    
 
-    int i = ID;
-    int ip = (i+1)%4;
-    int im = (i+3)%4;
-    int valence = abs(v[i].valence);
-    int n = valence;
-
-    int start = OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) & 0xff;
-    int prev = (OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
-
-    int start_m = OsdReadQuadOffset(primitiveID, im, osdBuffers.quadOffsetBuffer) & 0xff;
-    int prev_p = (OsdReadQuadOffset(primitiveID, ip, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
-
-    int np = abs(v[ip].valence);
-    int nm = abs(v[im].valence);
-
-    // Control Vertices based on :// "Approximating Subdivision Surfaces with Gregory Patches
-    //  for Hardware Tessellation"
-    // Loop, Schaefer, Ni, Castano (ACM ToG Siggraph Asia 2009)
-    //
-    //  P3         e3-      e2+         P2
-    //     O--------O--------O--------O
-    //     |        |        |        |
-    //     |        |        |        |
-    //     |        | f3-    | f2+    |
-    //     |        O        O        |
-    // e3+ O------O            O------O e2-
-    //     |     f3+          f2-     |
-    //     |                          |
-    //     |                          |
-    //     |      f0-         f1+     |
-    // e0- O------O            O------O e1+
-    //     |        O        O        |
-    //     |        | f0+    | f1-    |
-    //     |        |        |        |
-    //     |        |        |        |
-    //     O--------O--------O--------O
-    //  P0         e0+      e1-         P1
-    //
-
-#if OSD_PATCH_GREGORY_BOUNDARY
-    float3 Em_ip;
-    if (v[ip].valence < -2) {
-        int j = (np + prev_p - v[ip].zerothNeighbor) % np;
-        Em_ip = v[ip].P + cospi(j/float(np-1))*v[ip].e0 + sinpi(j/float(np-1))*v[ip].e1;
-    } else {
-        Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    void add_directional(vfx_light light)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        shade(light.dir, light.color.rgb, intensity);
     }
 
-    float3 Ep_im;
-    if (v[im].valence < -2) {
-        int j = (nm + start_m - v[im].zerothNeighbor) % nm;
-        Ep_im = v[im].P + cospi(j/float(nm-1))*v[im].e0 + sinpi(j/float(nm-1))*v[im].e1;
-    } else {
-        Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+#ifdef USE_GOBO
+    void add_directional_gobo(vfx_light light, texture2d<half> goboTexture, sampler goboSampler)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+#endif
+
+    
+    void add_directional_hard_shadows(vfx_light light, depth2d<float> shadowMap)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        intensity *= shadow_hard(surface.position, light, shadowMap);
+        shade(light.dir, light.color.rgb, intensity);
     }
 
-    if (v[i].valence < 0) {
-        n = (n-1)*2;
+    
+    void add_directional_soft_shadows_dynamic(vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        intensity *= shadow_soft_dynamic(surface.position, light, shadowMap, shadowKernel);
+        shade(light.dir, light.color.rgb, intensity);
     }
-    if (v[im].valence < 0) {
-        nm = (nm-1)*2;
+
+    void add_directional_soft_shadows(vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        intensity *= shadow_soft(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
     }
-    if (v[ip].valence < 0) {
-        np = (np-1)*2;
+
+    void add_directional_pcf_grid_shadows(vfx_light light, depth2d<float> shadowMap, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        intensity *= shadow_pcf_grid(surface.position, light, shadowMap, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
     }
 
-    if (v[i].valence > 2) {
-        result.Ep = v[i].P + (v[i].e0*cosfn(n, start) + v[i].e1*sinfn(n, start));
-        result.Em = v[i].P + (v[i].e0*cosfn(n, prev) +  v[i].e1*sinfn(n, prev));
+    
 
-        float s1=3-2*cosfn(n,1)-cosfn(np,1);
-        float s2=2*cosfn(n,1);
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+    void add_directional_cascaded_shadows(constant vfx_light& light, depth2d<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount, bool debugCascades)
+#else
+    void add_directional_cascaded_shadows(constant vfx_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount, bool debugCascades)
+#endif
+    {
+#ifdef USE_PBR
+        float intensity = PBR_INTENSITY_FACTOR;
+#else
+        float intensity = 1.0f;
+#endif
+        if (debugCascades) {
 
-        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
-        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
-        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+            float4 shadowDebug = ComputeCascadedShadow(vfx_shadow_sampler, surface.position, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius, light.tiles);
+#else
+            float4 shadowDebug = ComputeCascadedShadow(vfx_shadow_sampler, surface.position, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius);
+#endif
+            intensity *= (1.f - shadowDebug.a);
+            shade(light.dir, light.color.rgb, intensity);
+            diffuse.rgb = mix(diffuse.rgb, shadowDebug.rgb, light.color.a);
+        } else {
+            intensity *= shadow_cascaded(surface.position, light, shadowMaps, cascadeCount, blendCascade, shadowKernel, sampleCount);
+            shade(light.dir, light.color.rgb, intensity);
+        }
+    }
 
-    } else if (v[i].valence < -2) {
-        int j = (valence + start - v[i].zerothNeighbor) % valence;
+    
 
-        result.Ep = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
-        j = (valence + prev - v[i].zerothNeighbor) % valence;
-        result.Em = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+    void add_omni(vfx_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light) * BoostFactor);
+    }
 
-        float3 Rp = ((-2.0f * v[i].org - 1.0f * v[im].org) + (2.0f * v[ip].org + 1.0f * v[(i+2)%4].org))/3.0f;
-        float3 Rm = ((-2.0f * v[i].org - 1.0f * v[ip].org) + (2.0f * v[im].org + 1.0f * v[(i+2)%4].org))/3.0f;
+#if CFX_USE_ATLAS_FOR_SHADOW_MAP
+    void add_omni_soft_shadows(vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+#else
+    void add_omni_soft_shadows(vfx_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+#endif
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;
+        intensity *= shadow_omni(surface.position, surface.normal, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
 
-        float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
-        float s2 = 2*cosfn(n,1);
+    void add_local_omni(vfx_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light) * BoostFactor);
+    }
 
-        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
-        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
-        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+    
 
-        if (v[im].valence < 0) {
-            s1 = 3-2*cosfn(n,1)-cosfn(np,1);
-            result.Fp = result.Fm = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
-        } else if (v[ip].valence < 0) {
-            s1 = 3.0f-2.0f*cospi(2.0f/n)-cospi(2.0f/nm);
-            result.Fm = result.Fp = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+    void add_spot(vfx_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+#ifdef USE_GOBO
+    void add_spot_gobo(vfx_light light, texture2d<half> goboTexture, sampler goboSampler)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;
+        intensity      *= spot_attenuation(l, light);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+
+        
+        
+        
+              shade(l, light.color.rgb, intensity);
+        
+    }
+#endif
+
+    void add_local_spot(vfx_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+    void add_spot_soft_shadows(vfx_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light) * BoostFactor;;
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow_soft(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+    
+#ifdef USE_GOBO
+    void add_spot_gobo_soft_shadows(vfx_light light,
+                                    depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount,
+                                    texture2d<half> goboTexture, sampler goboSampler)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        shade(l, light.color.rgb, intensity);
+    }
+#endif
+
+    
+
+#ifdef USE_PBR
+
+    
+
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+    void add_local_probe(vfx_light light, texturecube_array<half> probeTextureArray)
+#else
+    void add_local_probe(vfx_light light, texture2d_array<half> probeTextureArray)
+#endif
+    {
+#if !PROBES_NORMALIZATION
+        if (probeRadianceRemainingFactor <= 0.f)
+            return;
+#endif
+
+        bool parallaxCorrection = light.parameters.probe.parallaxCorrection;
+        int    probeIndex       = light.parameters.probe.index;
+        float3 probeExtents     = light.parameters.probe.halfExtents.xyz;
+        float  blendDist        = light.parameters.probe.halfExtents.w;
+        float3 probeOffset      = light.parameters.probe.offset;
+        float3 parallaxExtents  = light.parameters.probe.parallaxExtents;
+        float3 parallaxCenter   = light.parameters.probe.parallaxCenter;
+
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+
+        float3 specDir = vfx::mat4_mult_float3(light.shadowMatrix, r);
+
+        
+        float3 pos_ls = (light.shadowMatrix * float4(surface.position, 1.f)).xyz;
+
+        
+        float3 d = abs(pos_ls) - probeExtents;
+#if PROBES_OUTER_BLENDING
+        if (any(d > blendDist))
+#else
+        if (any(d > 0.f))
+#endif
+        {
+            return;
         }
 
-    } else if (v[i].valence == -2) {
-        result.Ep = (2.0f * v[i].org + v[ip].org)/3.0f;
-        result.Em = (2.0f * v[i].org + v[im].org)/3.0f;
-        result.Fp = result.Fm = (4.0f * v[i].org + v[(i+2)%n].org + 2.0f * v[ip].org + 2.0f * v[im].org)/9.0f;
+#if PROBES_NORMALIZATION
+        
+        
+#if PROBES_OUTER_BLENDING
+        float3 nd = saturate(-(d / blendDist) * 0.5f + 0.5f);
+#else
+        float3 nd = saturate(-(d / blendDist));
+#endif
+        float probeFactor = (nd.x * nd.y * nd.z) * light.color.r;
+#else
+        
+        float sd = min(max(d.x,max(d.y,d.z)),0.0) + length(max(d,0.0));
+#if PROBES_OUTER_BLENDING
+        float probeFactor = saturate(1.f - sd / blendDist);
+#else
+        float probeFactor = saturate(-sd / blendDist);
+#endif
+        
+        
+        
+        probeFactor *= probeRadianceRemainingFactor * light.color.r; 
+#endif
+
+        if (parallaxCorrection ) {
+            
+            float3 pos_off = pos_ls + parallaxCenter;
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+
+        
+        specDir.z *= -1.0;
+        
+        
+        
+        float ao = surface.ambientOcclusion;
+#ifdef USE_BENTNORMALS
+        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, surface.roughness*surface.roughness);
+#endif
+        
+        float mipd = float(probeTextureArray.get_num_mip_levels()) - 1.f;
+        const float intensity = ao * probeFactor;
+
+        float mips = surface.roughness * mipd;
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        float2 specUV = vfx::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+
+        
+
+        
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectance, probeFactor);
+#else
+        probeRadianceRemainingFactor = saturate(probeRadianceRemainingFactor - probeFactor);
+#ifdef DISABLE_SPECULAR
+        pbr.envDiffuse += LD * intensity * pbr.probeReflectance;
+#else
+        pbr.envSpecular += LD * intensity * pbr.probeReflectance;
+#endif
+#endif
+        
+#ifdef USE_CLEARCOAT
+        n = surface.clearCoatNormal;
+        r = reflect(-v, n);
+        specDir = vfx::mat4_mult_float3(light.shadowMatrix, r);
+        
+        specDir.z *= -1.0;
+        if (parallaxCorrection ) {
+            float3 pos_off = pos_ls + parallaxCenter;
+            
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+            
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+        mips = surface.clearCoatRoughness * mipd;
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+        LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        specUV = vfx::dual_paraboloid_from_cartesian(normalize(specDir));
+        LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectanceClearCoat, probeFactor) * surface.clearCoat;
+#else
+
+#ifdef DISABLE_SPECULAR
+        pbr.envDiffuse += LD * intensity * pbr.probeReflectanceClearCoat  * surface.clearCoat;
+#else
+        specular += LD * intensity * pbr.probeReflectanceClearCoat  * surface.clearCoat;
+#endif
+#endif
+#endif
     }
 
-#else // not OSD_PATCH_GREGORY_BOUNDARY
-
-    result.Ep = v[i].P + v[i].e0 * cosfn(n, start) + v[i].e1*sinfn(n, start);
-    result.Em = v[i].P + v[i].e0 * cosfn(n, prev ) + v[i].e1*sinfn(n, prev );
-
-    float3 Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
-    float3 Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
-
-    float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
-    float s2 = 2*cosfn(n,1);
-
-    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
-    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
-    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
-
+    void add_global_probe(float4x4 localDirToWorldCubemapDir,
+                          float environmentIntensity,
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+                          texturecube_array<half> probeTextureArray
+#else
+                          texture2d_array<half> probeTextureArray
 #endif
-}
+                          )
+    {
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+        
+        float3 specDir = vfx::mat4_mult_float3(localDirToWorldCubemapDir, r);
+        float mips = surface.roughness * float(probeTextureArray.get_num_mip_levels() - 1);
+        
+#ifdef CFX_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specDir, 0, level(mips)).rgb);
+#else
+        float2 specUV = vfx::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(vfx_lighting::linearSampler, specUV, 0, level(mips)).rgb);
+#endif
+        
+        
+        specular += pbr.probeReflectance * LD * surface.ambientOcclusion * environmentIntensity;
+    }
 
-#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+    void add_global_probe(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n        = surface.normal;
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.roughness;
 
+#if USE_PBR_DOMINANT_DIRECTION
+        float alpha = roughness * roughness;
+        float smoothness = 1.0f - alpha;
+        
+        float specularLerpFactor = (1. - smoothness * (sqrt(smoothness) + alpha));
+        
+        float3 specularDominantNDirection = mix(r, n, specularLerpFactor); 
+#else
+        float3 specularDominantNDirection = r;
+#endif
+        
+        float ao = surface.ambientOcclusion;
+        
+        
+        
+#ifdef USE_BENTNORMALS
+        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, roughness*roughness);
+#endif
+        
+        
+#ifdef USE_RE_RADIANCE_IRRADIANCE_MAP_SAMPLING
+        float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+#else
+        float mipLevel = sqrt(roughness) * float(specularLD.get_num_mip_levels() - 1);
+#endif
+        float3 dir = vfx::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection);
+        float3 LD = specularLD.sample(vfx_lighting::linearSampler, dir, level(mipLevel)).rgb;
+        pbr.envSpecular += pbr.probeReflectance * LD * ao * environmentIntensity;
+    }
 
+#ifdef USE_CLEARCOAT
+    void add_global_probeClearCoat(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n = surface.clearCoatNormal;
+        
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.clearCoatRoughness;
 
+        
+        
+        float ao = surface.ambientOcclusion;
+        
+        
+#ifdef USE_BENTNORMALS
+        ao = mix(mix(max(dot(surface.bentNormal, r), 0.), 1., ao), ao, roughness*roughness);
+#endif
+        
+        
+        float mipLevel = sqrt(roughness) * float(specularLD.get_num_mip_levels() - 1);
+        float3 LD = specularLD.sample(vfx_lighting::linearSampler, vfx::mat4_mult_float3(localDirToWorldCubemapDir, r), level(mipLevel)).rgb;
 
+        
+        float Fc = vfx_brdf_F_opt(0.04f, pbr.NoVClearCoat).r * surface.clearCoat;
+        float attenuation = 1.0f - Fc;
+        specular *= (attenuation * attenuation);
+        
+        specular += pbr.probeReflectanceClearCoat * LD  * surface.clearCoat * ao * environmentIntensity;
+    }
+#endif
+    
+    
 
+    void add_irradiance_from_selfIllum()
+    {
+        float selfIlluminationAO = saturate(mix(1.f, surface.ambientOcclusion, pbr.selfIlluminationOcclusion));
+        float3 irradiance = surface.selfIllumination.rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseReflectance;
+#endif
+    }
 
+    void add_global_irradiance_from_sh(float4x4         localDirToWorldCubemapDir,
+#if defined(USE_PROBES_LIGHTING) && (USE_PROBES_LIGHTING == 2)
+                                       sh2_coefficients shCoefficients)
+#else
+    sh3_coefficients shCoefficients)
+#endif
+    {
+#ifdef USE_BENTNORMALS
+        float3 n = surface.bentNormal;
+        float ao = surface.aoDirectionnal;
+#else
+        float3 n = surface.normal;
+        float ao = surface.ambientOcclusion;
+#endif
+        float3 n_sh_space = vfx::mat4_mult_float3(localDirToWorldCubemapDir, n);
+        float3 irradiance = shEvalDirection(float4(n_sh_space.xy, -n_sh_space.z, 1.), shCoefficients);
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += ao * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += ao * irradiance * diffuseReflectance;
+#endif
+    }
 
+    void add_global_irradiance_probe(texturecube<float, access::sample> irradianceTexture,
+                                     float4x4                           localDirToWorldCubemapDir,
+                                     float                              environmentIntensity)
+    {
+#if USE_PBR_DOMINANT_DIRECTION
+#ifdef USE_BENTNORMALS
+        float3 n = surface.bentNormal;
+        float ao = surface.aoDirectionnal;
+#else
+        float3 n = surface.normal;
+        float ao = surface.ambientOcclusion;
+#endif
+        float3 v = surface.view;
+        
+        
+        const half a = 1.02341h * surface.roughness - 1.51174h; 
+        const half b = -0.511705h * surface.roughness + 0.755868h;
+        const half diffuseBendFactor = saturate((pbr.NoV * a + b) * surface.roughness);
+        float3 diffuseDominantNDirection = mix(n, v, diffuseBendFactor);
+#else
+        float3 diffuseDominantNDirection = n;
+#endif
+        
+        float3 n_cube_space = vfx::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+        float3 irradiance = irradianceTexture.sample(vfx_lighting::linearSampler, n_cube_space).rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+        
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += (ao * environmentIntensity) * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += (ao * environmentIntensity) * irradiance * diffuseReflectance;
+#endif
+    }
+
+#endif 
+
+#ifdef USE_IES_LIGHT
+    
+
+    static constexpr sampler iesSampler = sampler(filter::linear, mip_filter::none, address::clamp_to_edge);
+    
+    float ies_attenuation(float3 l, vfx_light light, texture2d<half> iesTexture)
+    {
+#if USE_QUAT_FOR_IES
+        float3 v    = vfx::quaternion_rotate_vector(light.parameters.ies.light_from_view_quat, -l);
+#else
+        float3 v    = vfx::matrix_rotate(light.parameters.ies.light_from_view, -l);
+#endif
+        float phi   = (v.z * light.parameters.ies.scaleBias.x + light.parameters.ies.scaleBias.y);
+        float theta = atan2(v.y, v.x) * 0.5f * M_1_PI_F;
+        return iesTexture.sample(iesSampler, float2(phi, abs(theta))).r;
+    }
+
+    void add_ies(vfx_light light, texture2d<half> iesTexture)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_ies_soft_shadows(vfx_light light, texture2d<half> iesTexture, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        intensity      *= shadow_soft(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+#endif
+
+#ifdef USE_AREA_LIGHT
+    
+
+    void add_area_rectangle(vfx_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.rectangle.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * light.parameters.area.rectangle.halfExtents.x * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz * light.parameters.area.rectangle.halfExtents.y;
+        
+        float4x3 cornerDirections = float4x3((lightCenter + lightRight + lightTop) - p,
+                                             (lightCenter + lightRight - lightTop) - p,
+                                             (lightCenter - lightRight - lightTop) - p,
+                                             (lightCenter - lightRight + lightTop) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+        cornerDirections[2] = shadingSpaceTransform * cornerDirections[2];
+        cornerDirections[3] = shadingSpaceTransform * cornerDirections[3];
+
+        float diffuseAmount = pbr_area_light_eval_rectangle(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+        cornerDirections[2] = inverseLTCMatrix * cornerDirections[2];
+        cornerDirections[3] = inverseLTCMatrix * cornerDirections[3];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_rectangle(cornerDirections);
+
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+        
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_polygon(vfx_light light, texture2d_array<float> bakedDataTexture, device packed_float2 *vertexPositions)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.polygon.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz;
+
+        p           = shadingSpaceTransform * p;
+        lightCenter = shadingSpaceTransform * lightCenter;
+        lightRight  = shadingSpaceTransform * lightRight;
+        lightTop    = shadingSpaceTransform * lightTop;
+
+        float diffuseAmount = pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        p           = inverseLTCMatrix * p;
+        lightCenter = inverseLTCMatrix * lightCenter;
+        lightRight  = inverseLTCMatrix * lightRight;
+        lightTop    = inverseLTCMatrix * lightTop;
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_line(vfx_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        float3 lightRight  = light.shadowMatrix[0].xyz * light.parameters.area.line.halfLength;
+
+        float2x3 cornerDirections = float2x3((lightCenter + lightRight) - p,
+                                             (lightCenter - lightRight) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+
+        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = vfx_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
+
+        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
+        float ltcWidthFactor = 1.0 / length(vfx_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
+        specularAmount *= ltcWidthFactor;
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_ellipse(vfx_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+
+    void add_area_ellipsoid(vfx_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+#endif
+};
+
+#endif 
  /* Error: Ran out of types for this method. */;
-- (void);
-- (void)¼|;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) VFXAnimation *animation; // @synthesize animation=_animation;

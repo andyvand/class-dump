@@ -4,18 +4,21 @@
 
 class swift::AsyncTask {
 public: // (access info unavailable from symbols alone)
-    completeFuture(swift::AsyncContext*);
-    dropInitialTaskExecutorPreferenceRecord();
-    dropInitialTaskNameRecord();
-    flagAsAndEnqueueOnExecutor(swift::SerialExecutorRef);
-    flagAsRunning();
-    getPreferredTaskExecutor(bool);
-    getResumeFunctionForLogging(bool);
-    getTaskId();
-    getTaskName();
-    pushInitialTaskExecutorPreference(swift::TaskExecutorRef, bool);
-    pushInitialTaskName(char const*);
-    setTaskId()::NextId;
-    waitFuture(swift::AsyncTask*, swift::AsyncContext*, void (swift::AsyncContext* swift_async_context) swiftasynccall*, swift::AsyncContext*, swift::OpaqueValue*);
+    auto completeFuture(swift::AsyncContext*);
+    auto dropInitialTaskExecutorPreferenceRecord();
+    auto dropInitialTaskNameRecord();
+    auto flagAsAndEnqueueOnExecutor(swift::SerialExecutorRef);
+    auto flagAsRunning();
+    auto getPreferredTaskExecutor(bool);
+    auto getResumeFunctionForLogging(bool);
+    auto getTaskId();
+    auto getTaskName();
+    auto pushInitialTaskExecutorPreference(swift::TaskExecutorRef, bool);
+    auto pushInitialTaskName(char const*);
+    auto setTaskId();
+    auto setTaskId()::NextId;
+    auto waitFuture(swift::AsyncTask*, swift::AsyncContext*, void (swift::AsyncContext* swift_async_context) swiftasynccall*, swift::AsyncContext*, swift::OpaqueValue*);
+    auto waitFuture(swift::AsyncTask*, swift::AsyncContext*, void (swift::AsyncContext* swift_async_context) swiftasynccall*, swift::AsyncContext*, swift::OpaqueValue*) (.cold.1);
     ~AsyncTask();
+    ~AsyncTask() (.cold.1);
 };

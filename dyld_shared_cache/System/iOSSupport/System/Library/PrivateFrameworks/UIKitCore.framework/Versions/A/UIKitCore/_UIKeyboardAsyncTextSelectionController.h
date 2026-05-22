@@ -12,29 +12,31 @@ __attribute__((visibility("hidden")))
     _Bool _shouldDelayShowSelectionCommands;
 }
 
-- (void)dmInstallSoftwareupdateOnly;
-- (void)rEntry:(long long)arg1 completion:(struct CGPoint)arg2;
-- (void)ontiguous entries in MPSectionedIdentifierListEntryAddBranch [too many next];
-- (_Bool)PropertyLastPlayDate;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)as!@ùÇ°1¢!0@ù
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)ð!0Bù1_1Â0@ù
 × ;
-- (void)WithType:(long long)arg1;
-- (void)?ô? @;
-- (id)(þÿ¶"þÿ;
-- (void)0@"CALayer"8Q16;
-- (struct CGRect)cle.fill;
-- (void)const _UIBoundingPathBitmapDataCornerLocation, const size_t);
-- (void)~_^;
-- (struct CGRect)^;
-- (void)ÿ,F;
-- (void)g|`;
-- (void)+j;
-- (void)<;
+- (struct CGRect)
+× ;
+- (void)qa1Â0@ù
+× ;
+- (void);
+- (void)v@?@"NSError">16;
+- (void)N,V_outlineContentView;
+- (void);
+- (void)uiresExclusiveTouchType;
+- (void)ß¾7AQyo¾.3GGSOGGGAUG_ßß.3Qo__AKQo__X.3Qo__Qo_AQyi¯.3GGGGGG;
+- (void)·ÿ	©Ñ¼A];
+- (struct CGRect);
+- (id)`ôäþ`à;
+- (void)Õÿ;
 
 @end
 

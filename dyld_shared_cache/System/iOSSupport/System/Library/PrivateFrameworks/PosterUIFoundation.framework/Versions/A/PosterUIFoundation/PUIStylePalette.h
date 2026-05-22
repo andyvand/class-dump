@@ -27,20 +27,20 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
 - (void);
-- (void);
-- (id)supportsSecureCoding;
 
 // Remaining properties
 @property(nonatomic) unsigned long long context; // @synthesize context=_context;

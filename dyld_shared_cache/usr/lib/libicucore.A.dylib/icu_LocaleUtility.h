@@ -4,9 +4,9 @@
 
 class icu::LocaleUtility {
 public: // (access info unavailable from symbols alone)
-    canonicalLocaleString(icu::UnicodeString const*, icu::UnicodeString&);
-    getAvailableLocaleNames(icu::UnicodeString const&);
-    initLocaleFromName(icu::UnicodeString const&, icu::Locale&);
-    initNameFromLocale(icu::Locale const&, icu::UnicodeString&);
-    isFallbackOf(icu::UnicodeString const&, icu::UnicodeString const&);
+    auto canonicalLocaleString(icu::UnicodeString const*, icu::UnicodeString&);
+    auto getAvailableLocaleNames(icu::UnicodeString const&);
+    auto initLocaleFromName(icu::UnicodeString const&, icu::Locale&);
+    auto initNameFromLocale(icu::Locale const&, icu::UnicodeString&);
+    auto isFallbackOf(icu::UnicodeString const&, icu::UnicodeString const&);
 };

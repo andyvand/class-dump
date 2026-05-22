@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (double)ght;
+- (double);
 
 // Remaining properties
 @property(nonatomic) double rightMargin; // @synthesize rightMargin;

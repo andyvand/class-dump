@@ -38,17 +38,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)mall;
-- (_Bool);
+- (void);
+- (void)NotUseCache;
+- (id)acesSectionController:Follow-up request for muid:%llu succeeded but did not return relatedPlaceList /* Error: Ran out of types for this method. */;
+- (_Bool)ng;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;

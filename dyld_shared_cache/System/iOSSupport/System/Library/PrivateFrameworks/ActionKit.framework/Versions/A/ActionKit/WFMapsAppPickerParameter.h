@@ -23,8 +23,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)blicUserInfo"8@"NSError"16;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *supportedAppIdentifiers; // @synthesize supportedAppIdentifiers=_supportedAppIdentifiers;

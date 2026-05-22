@@ -16,7 +16,7 @@
     struct SKCKeyframeSequence *_cKeyframeSequence;
 }
 
-+ (_Bool)ü;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -35,17 +35,16 @@
 - (id);
 - (void);
 - (Class);
-- (void);
+- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long)!@ùq1b0@ù
-× ;
-- (id);
+- (unsigned long long);
+- (void):andTileDefinition:forTileIndicies: /* Error: Ran out of types for this method. */;
+- (id)0n;
 
 // Remaining properties
 @property(nonatomic) long long interpolationMode;

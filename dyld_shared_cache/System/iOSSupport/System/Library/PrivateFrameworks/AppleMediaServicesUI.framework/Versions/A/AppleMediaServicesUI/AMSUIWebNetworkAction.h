@@ -37,19 +37,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)@0:8@16@?24 /* Error: Ran out of types for this method. */;
-- (void)7GAOGAOGAOGG_ADyVÙ½7GtGG;
-- (void);
-- (id)Ô©òÿE×<Ø©òÿ;
+- (void);
+- (void)sswordSettingsViewController;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

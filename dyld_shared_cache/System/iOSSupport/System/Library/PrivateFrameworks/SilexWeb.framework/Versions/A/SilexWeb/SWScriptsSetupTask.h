@@ -12,11 +12,11 @@
     id <SWScriptsManager> _scriptsManager;
 }
 
-- (id)dingKeys;
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)_CFArray=}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

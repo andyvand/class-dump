@@ -22,16 +22,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (double);
 - (void);
 - (id);
-- (id)
-× ;
-- (long long)WithStatus:counts:photoLibrary: /* Error: Ran out of types for this method. */;
-- (id)ä.çÿäíëÿîëÿ¨îëÿXðëÿðëÿ,ñëÿtñëÿ°ñëÿÔñëÿòëÿÈææÿôëÿüóëÿ|ôëÿ¸ææÿLõëÿ°õëÿäõëÿöëÿ÷ëÿ¼÷ëÿ øëÿøëÿ¼øëÿøøëÿùëÿ@ùëÿ|ùëÿ8ûëÿLûëÿ8üëÿìüëÿ0ýëÿTýëÿýëÿTþëÿôþëÿßæÿ8ßæÿpßæÿ ßæÿÈßæÿàæÿäÿëÿ;
-- (unsigned int);
+- (id);
+- (id);
+- (long long);
+- (double)ÿ;
+- (id)vePersonMessage;
+- (unsigned int)Å¶Æ;
+- (void)?;
 
 // Remaining properties
 @property(readonly, nonatomic) long long animationCurve;

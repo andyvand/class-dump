@@ -27,15 +27,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (void)$ÅÅ;
 - (id);
 
 // Remaining properties

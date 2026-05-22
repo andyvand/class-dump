@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayLabel; // @synthesize displayLabel=_displayLabel;

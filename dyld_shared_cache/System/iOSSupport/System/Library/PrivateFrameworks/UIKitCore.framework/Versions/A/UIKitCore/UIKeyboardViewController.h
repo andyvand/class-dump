@@ -21,36 +21,35 @@
 }
 
 + (void);
-- (void)hGroupID:reply: /* Error: Ran out of types for this method. */;
-- (void)ageItem:(id)arg1;
-- (void)istsOnServerWithActivity:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (_Bool)NSTimer",&,N,V_retryTimer;
-- (void)KVStore",&,N,V_archivedNicknamesKVStore;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void)`;
-- (void)
+- (id);
+- (void);
+- (id);
+- (void)0@ù
 × ;
-- (void)1Á°1¢!0@ù
-× ;
-- (id)ddingViewInRect: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (void)ngRef _DCSCopyDefinitionMarkup(DCSDictionaryRef, CFStringRef, CFRange, DCSTransformStyle, CFURLRef *);
-- (id)ionHeight;
-- (id)Ähþ;
-- (id)V^;
-- (id)KË³a;
-- (unsigned long long)Xéh;
-- (void)°i;
-- (id);
-- (void);
-- (void)k;
-- (id)ÿÈ`®k;
+- (void)}},N,V_handwritingFrame;
+- (void)nvalidationHandlers:,V__invalidationHandlers /* Error: Ran out of types for this method. */;
+- (void)Ø\;
+- (id)\§];
+- (id)"c;
+- (void)hó«ÿ;
+- (id)Ó´ËÌf;
+- (id)ÌXØÿÏ.Fn;
+- (id),_Aÿq;
+- (void)gj;
+- (unsigned long long)Õþ;
+- (_Bool)°Ép;
+- (id)H£¥ÿ;
+- (void)¬µÿ®Ùü|l;
+- (id)A;
 
 // Remaining properties
 @property(readonly, nonatomic) UIKeyboardAutocorrectionController *autocorrectionController;

@@ -21,16 +21,16 @@
 - (id);
 - (double);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
 - (long long);
-- (id);
+- (_Bool);
 - (double);
-- (void)40@0:8@"<SXTextStyle>"16@"<SXComponent>"24@"SXDOM"32 /* Error: Ran out of types for this method. */;
+- (void);
+- (void)@0:8#16@24#32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SXComponentAnimation *animation; // @synthesize animation=_animation;

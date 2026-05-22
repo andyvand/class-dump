@@ -14,12 +14,12 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (_Bool);
+- (void)yýÿhOÿÿ¤pþÿ;
+- (void)proofreading_suggestion_accepted_undo;
 
 @end
 

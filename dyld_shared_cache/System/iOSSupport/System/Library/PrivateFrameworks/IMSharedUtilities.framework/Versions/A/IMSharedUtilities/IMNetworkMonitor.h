@@ -17,16 +17,16 @@
 
 + (id);
 - (_Bool);
-- (id)C;
+- (id);
 - (_Bool);
 - (long long);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (_Bool)(è2E[/:@È /* Error: Ran out of types for this method. */;
+- (id)gging is enabled %@;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool immediatelyReachable;

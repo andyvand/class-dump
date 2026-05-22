@@ -14,11 +14,11 @@
 }
 
 + (void);
-+ (_Bool)ïlò;
-- (void);
++ (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)alSince1970: /* Error: Ran out of types for this method. */;
 
 @end
 

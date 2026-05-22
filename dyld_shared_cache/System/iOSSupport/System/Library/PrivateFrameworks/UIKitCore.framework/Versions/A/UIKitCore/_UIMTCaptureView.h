@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)é;
++ (Class);
 - (id);
-- (_Bool)NSString",C,N,V_senderName;
+- (_Bool);
 - (id);
-- (id);
+- (id)clusiveTouchViewAllowsTouchDeliveryWithRecognizerView:(struct CGRect)arg1;
 
 @end
 

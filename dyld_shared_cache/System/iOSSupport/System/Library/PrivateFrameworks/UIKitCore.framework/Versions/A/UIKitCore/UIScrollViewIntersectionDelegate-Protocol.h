@@ -5,5 +5,6 @@
 //
 
 @protocol UIScrollViewIntersectionDelegate
+- (void)ºÃîÿ;
 @end
 

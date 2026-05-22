@@ -22,12 +22,14 @@
 - (void);
 - (void);
 - (struct CGRect);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)t;
+- (id)!CùqFð1â
+0@ù
+× ;
+- (void)ÿHÇ$A7ÿ¥HÇ A7ÿµHÇA7ÿµHÇA7ÿHÇÖtÿµHÇA7ÿ¥HÇA7ÿ­HÇA7ÿ}HÇA7ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

@@ -21,10 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)À;
 - (void);
 - (id);
+- (id)!(AùJð1â
+0@ù
+× ;
+- (void)nd;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;

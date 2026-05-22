@@ -14,19 +14,19 @@
     RTMapItemProviderLearnedPlaceParameters *_parameters;
 }
 
-- (id);
-- (id)nt;
-- (id);
-- (unsigned long long)#;
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
+- (double);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (id)ManagerDidChange: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (double)lid parameter not satisfying:(unsigned long long)arg1 timeIntervalBetweenSmoothedPoints > 0;
+- (id)(;
+- (void)icted context requests, %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

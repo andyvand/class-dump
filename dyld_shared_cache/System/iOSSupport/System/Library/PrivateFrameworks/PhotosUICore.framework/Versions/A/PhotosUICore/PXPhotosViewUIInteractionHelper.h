@@ -43,8 +43,8 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (long long);
-- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -57,10 +57,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)6;
-- (id)6;
+- (id);
+- (void)Üç;
+- (id))¥ÿQæ35;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

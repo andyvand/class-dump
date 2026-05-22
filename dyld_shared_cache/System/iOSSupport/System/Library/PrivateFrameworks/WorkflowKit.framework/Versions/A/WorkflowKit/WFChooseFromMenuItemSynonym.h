@@ -16,8 +16,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
+- (void)ult Output Name);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identity; // @synthesize identity=_identity;

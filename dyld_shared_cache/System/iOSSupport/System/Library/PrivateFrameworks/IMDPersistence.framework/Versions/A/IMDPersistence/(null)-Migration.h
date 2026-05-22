@@ -7,9 +7,6 @@
 @interface (null) (Migration)
 + (unsigned long long);
 + (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
-+ (unsigned long long);
 + (long long);
 + (_Bool);
 + (_Bool);

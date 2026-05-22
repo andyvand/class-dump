@@ -24,7 +24,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)ialMedia;
++ (id);
 
 @end
 

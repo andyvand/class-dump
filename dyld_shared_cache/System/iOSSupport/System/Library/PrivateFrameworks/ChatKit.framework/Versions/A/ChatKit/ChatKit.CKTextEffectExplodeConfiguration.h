@@ -12,12 +12,12 @@
     UIColor *targetColor;
 }
 
-+ (id);
++ (id)¯x°²H³0´@·ºDº;
 - (id);
-- (id).;
-- (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void)LegacySendMenuOrderProvider;
 
 // Remaining properties
 @property(nonatomic, readonly) UIColor *sourceColor; // @synthesize sourceColor;

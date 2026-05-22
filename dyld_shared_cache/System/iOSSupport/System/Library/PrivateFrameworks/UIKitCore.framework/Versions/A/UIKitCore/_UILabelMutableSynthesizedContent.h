@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);;
 - (void);
-- (void)ontext:batchContext:messageContext:isBeingReplayed:mergeID:wantsCheckpointing:isSnapTrustedUser: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void)2õ];
+- (void)cation:(id)arg1 %@;
+- (void)ataSourceModel=II@?@?}16;
 
 // Remaining properties
 @property(retain, nonatomic) _UILabelContent *content; // @dynamic content;

@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITableViewCell, _UITableViewDropAnimationContainerView;
-@protocol UIDragSession, UIDropSession;
-
 @protocol _UITableViewDropControllerDelegate
-- (void);
-- (_Bool)tring"40@"IDSMessageContext"48;
-- (_Bool)sageCount:(id <UIDropSession>)arg1;
-- (_UITableViewDropAnimationContainerView *)dationTokensForHandle:(UITableViewCell *)arg1 completion:(_Bool)arg2;
-- (void)kenForHandle:(UITableViewCell *)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id <UIDragSession>)tivity: /* Error: Ran out of types for this method. */;
 @end
 

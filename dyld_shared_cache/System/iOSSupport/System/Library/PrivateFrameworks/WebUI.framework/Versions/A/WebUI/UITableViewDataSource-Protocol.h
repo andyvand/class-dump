@@ -5,10 +5,5 @@
 //
 
 @protocol UITableViewDataSource
-
-@optional
-- (void);
-- (void);
-- (long long),&,N,V_fixedFallbackImageScale;
 @end
 

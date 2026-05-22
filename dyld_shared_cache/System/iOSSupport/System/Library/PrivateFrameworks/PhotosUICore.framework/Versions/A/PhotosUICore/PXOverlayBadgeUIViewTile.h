@@ -30,11 +30,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void)ÿ¤Nå6;
+- (id)
+× ;
+- (id)ize=dd}}{CGPoint=dd}{CGSize=dd}{CGAffineTransform=dddddd}ddB{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}104@"<NSObject>"296{PXTileGeometry={CGRect={CGPoint=dd}{CGSize=dd}}{CGPoint=dd}{CGSize=dd}{CGAffineTransform=dddddd}ddB{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}304@"<NSObject>"496;
+- (void)WithConfiguration:(id)arg1 ] instead.;
+- (void)üÏiÿ$Ðiÿ;
 
 // Remaining properties
 @property(nonatomic, setter=_setBadgeOptions:) unsigned long long _badgeOptions; // @synthesize _badgeOptions=__badgeOptions;

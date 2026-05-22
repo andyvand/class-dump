@@ -16,11 +16,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)entsForVideoURL: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void)Hh;
+- (void);
+- (void)®;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,6 +4,6 @@
 
 class trace::Depot<524288ul, 64ul, 8ul, hash::Murmur2, &thread_stack_pcs> {
 public: // (access info unavailable from symbols alone)
-    insertTrace(unsigned long*, unsigned long);
-    insertTrace(unsigned long*, unsigned long) (.cold.1);
+    auto insertTrace(unsigned long*, unsigned long);
+    auto insertTrace(unsigned long*, unsigned long) (.cold.1);
 };

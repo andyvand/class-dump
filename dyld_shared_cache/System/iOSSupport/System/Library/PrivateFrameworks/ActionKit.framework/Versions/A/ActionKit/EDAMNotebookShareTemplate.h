@@ -26,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)n Has Changed;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *notebookGuid; // @synthesize notebookGuid=_notebookGuid;

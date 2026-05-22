@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
 - (unsigned long long);
-- (_Bool);
-- (void){º;
-- (void)hildren:(id)arg1;
-- (void)Î_É];
+- (_Bool)on:(id)arg1;
+- (void)rformUpdate:(id)arg1;
+- (void)ontext;
+- (void)ffect;
+- (void)T1¬ÿÎfÒð^;
 
 @end
 

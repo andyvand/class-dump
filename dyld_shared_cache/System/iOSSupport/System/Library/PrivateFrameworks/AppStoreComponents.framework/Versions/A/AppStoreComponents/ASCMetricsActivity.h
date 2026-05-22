@@ -17,15 +17,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
+- (id)ght;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *fields; // @synthesize fields=_fields;

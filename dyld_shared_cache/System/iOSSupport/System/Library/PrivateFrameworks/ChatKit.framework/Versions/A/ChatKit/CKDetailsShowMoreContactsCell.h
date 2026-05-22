@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (Class);
-+ (double);
 + (id);
++ (Class);
++ (double)ivateFrameworks/FindMyUICore.framework/FindMyUICore;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

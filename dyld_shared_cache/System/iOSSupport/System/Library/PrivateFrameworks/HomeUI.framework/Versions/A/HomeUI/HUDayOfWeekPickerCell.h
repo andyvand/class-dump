@@ -27,13 +27,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id)mageView: /* Error: Ran out of types for this method. */;
-- (void)entWithUtilityID:(id)arg1 onboardingMethod:didAttemptPasswordless: /* Error: Ran out of types for this method. */;
+- (void)terItem;
 
 // Remaining properties
 @property(retain, nonatomic) UIStackView *buttonStackView; // @synthesize buttonStackView=_buttonStackView;

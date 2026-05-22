@@ -15,26 +15,13 @@
     NSMutableArray *_installations;
 }
 
-+ (id)½ì1;
-- (void);
-- (void)&;
-- (void)n;
-- (_Bool)rationQueue;
-- (id);
-- (id);
++ (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
 - (id);
-- (id))?�;
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -43,10 +30,22 @@
 - (void);
 - (void);
 - (id);
-- (void)0@ù
-× ;
-- (void)tion;
-- (void).;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)rItem;
+- (id);
+- (void)tiveConversations;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

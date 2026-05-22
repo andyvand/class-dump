@@ -5,11 +5,5 @@
 //
 
 @protocol IMDaemonAnyProtocol
-- (void);
-- (void);
-- (void)H*;
-- (void);
-- (void)P;
-- (void)m;
 @end
 

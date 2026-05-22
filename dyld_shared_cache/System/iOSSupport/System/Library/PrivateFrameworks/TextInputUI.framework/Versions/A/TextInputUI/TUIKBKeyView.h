@@ -30,40 +30,40 @@
 
 - (void);
 - (void);
-- (void)æ|;
-- (id)âÝäy;
-- (id)ø¤èy;
-- (id)æ|;
-- (double);
-- (id)|;
 - (void);
-- (void){;
-- (void);
-- (void)ßêy;
+- (id);
+- (id);
+- (id);
+- (double);
+- (id);
 - (void);
 - (void);
-- (void)ø­z;
 - (void);
 - (void);
-- (void)*¹{;
-- (void)z;
-- (double)z;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
 - (long long);
 - (double);
-- (void)Ð1æ|;
-- (id);
 - (void);
-- (id)z;
 - (id);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (struct UIEdgeInsets);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -78,23 +78,22 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (id);
 - (_Bool);
+- (void);
+- (void);
+- (id);
 - (double);
-- (void);
-- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
 - (long long);
 - (void);
-- (id);
-- (id);
+- (double);
 - (long long);
-- (void)0@ù
-× ;
-- (void)ÐÐx ` ¬¦$ªÌªh­;
-- (double)ÃÊ;
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIKBKeyView *activeKeyCap; // @synthesize activeKeyCap=_activeKeyCap;

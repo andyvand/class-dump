@@ -29,10 +29,10 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (_Bool);
 + (id);
 + (double);
-+ (id);
 + (id);
 + (_Bool);
 - (void);
@@ -46,12 +46,12 @@
 - (id);
 - (double);
 - (_Bool);
-- (double);
-- (void);
 - (struct CGSize);
 - (void);
+- (double);
 - (void);
-- (id)esentableP;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double displayScale; // @dynamic displayScale;

@@ -4,18 +4,17 @@
 
 class lsl::BTree<std::__1::pair<unsigned long long, lsl::UUID>, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare, false>::const_iterator {
 public: // (access info unavailable from symbols alone)
+    auto operator++();
+    auto operator++() (.cold.1);
+    auto operator++() (.cold.2);
+    auto operator--();
+    auto operator--() (.cold.1);
+    auto operator--() (.cold.2);
+    auto prepareForInsertion();
+    auto prepareForInsertion() (.cold.1);
+    auto prepareForInsertion() (.cold.2);
+    auto prepareForInsertion() (.cold.3);
+    auto swap(lsl::BTree<std::__1::pair<unsigned long long, lsl::UUID>, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare, false>::const_iterator&);
     const_iterator(lsl::BTree<std::__1::pair<unsigned long long, lsl::UUID>, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare, false> const*, std::__1::pair<unsigned long long, lsl::UUID> const&, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare);
     const_iterator(lsl::BTree<std::__1::pair<unsigned long long, lsl::UUID>, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare, false> const*, std::__1::pair<unsigned long long, lsl::UUID> const&, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare) (.cold.1);
-    operator++();
-    operator++() (.cold.1);
-    operator++() (.cold.2);
-    operator--();
-    operator--() (.cold.1);
-    operator--() (.cold.2);
-    operator<=>(lsl::BTree<std::__1::pair<unsigned long long, lsl::UUID>, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare, false>::const_iterator const&) const;
-    prepareForInsertion();
-    prepareForInsertion() (.cold.1);
-    prepareForInsertion() (.cold.2);
-    prepareForInsertion() (.cold.3);
-    swap(lsl::BTree<std::__1::pair<unsigned long long, lsl::UUID>, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare, false>::const_iterator&);
 };

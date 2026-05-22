@@ -12,19 +12,21 @@
     long long _style;
 }
 
-+ (id)'|d;
-+ (_Bool)ª2m;
-- (void);
-- (id)GUID:fromIdentifier:command:completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)mes;
-- (_Bool)g nil for batchOfRecordIDsToDelete for DeletedChatStore.;
-- (void)ll;
-- (unsigned long long);
-- (_Bool);
-- (id)EndpointsChangedCallback:(struct _NSZone *)arg1;
-- (id);
-- (long long);
++ (_Bool)smart insert/delete type:%ld
+ /* Error: Ran out of types for this method. */;
++ (id)Êm;
 - (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (id);
+- (unsigned long long);
+- (void)
+× ;
+- (_Bool)Count;
+- (void)ransitionDuration:(id)arg1;
+- (id)DidChange;
 
 // Remaining properties
 @property(nonatomic) _Bool byLayer; // @synthesize byLayer=_byLayer;

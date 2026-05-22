@@ -82,27 +82,28 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)uiMenuElementForWFMenuElement:(id)arg1 shouldShowState: /* Error: Ran out of types for this method. */;
-- (_Bool)kgroundOffEdges: /* Error: Ran out of types for this method. */;
-- (id)¼¬ÿÿ<¼ÿÿÄ;
-- (unsigned long long)_G;
+- (void)
+× ;
+- (void)(;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contents; // @synthesize contents=_contents;

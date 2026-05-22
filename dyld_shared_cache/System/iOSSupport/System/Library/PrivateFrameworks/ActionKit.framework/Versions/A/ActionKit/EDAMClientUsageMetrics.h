@@ -22,8 +22,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)@"NSString"16;
+- (id)B;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *sessions; // @synthesize sessions=_sessions;

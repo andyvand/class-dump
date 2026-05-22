@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)wn converted type ;
 - (void);
 - (void);
 - (id);
+- (void)nCategory;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

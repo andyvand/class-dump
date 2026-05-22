@@ -4,23 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager;
+@class NSFileManager, NSString;
 
 @interface IMDGroupPhotoDonationManager
 {
     NSFileManager *_fileManager;
 }
 
-+ (id)Ä|K ;
++ (id)%lld   (Result:%lu) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id),N,V_knobBrushGestureRecognizer;
-- (id)onary}^{__CFSet}B{?=b1b1}^?^{__CFSet}^{__CFDictionary}^vi{?=ii^q^{__CFSet}}}8^{CSDBSqliteDatabase=^{__CFString}^{CSDBSqliteConnection}^?^?^?^v^?^?B^vi{?=b1b1b1}{_opaque_pthread_mutex_t=q[56c]}i^?^v^{__CFString}I{CSDBLookAsideBufferConfig=iib1}}16^{CSDBSqliteStatement=^{CSDBSqliteConnection}^{sqlite3_stmt}i}24;
+- (id);
+- (void)) for quick export estimate;
+- (void)on_spin;
+- (id)eMigration(int, CSDBSqliteDatabase *, CSDBSqliteConnection *, int, int *, NSError **, MigratorBlock);
 
 // Remaining properties
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
 
 @end
 

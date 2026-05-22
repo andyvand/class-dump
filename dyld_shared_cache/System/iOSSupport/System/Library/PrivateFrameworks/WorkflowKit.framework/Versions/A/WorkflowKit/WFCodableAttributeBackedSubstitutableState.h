@@ -26,9 +26,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)Interface;
+- (void);
+- (id)¿ß;
 
 // Remaining properties
 @property(readonly, nonatomic) INCodableAttribute *codableAttribute; // @synthesize codableAttribute=_codableAttribute;

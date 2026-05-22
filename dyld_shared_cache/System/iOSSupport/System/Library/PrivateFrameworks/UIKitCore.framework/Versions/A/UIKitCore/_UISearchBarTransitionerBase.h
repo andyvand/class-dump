@@ -16,17 +16,16 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)
-× ;
-- (id)q32;
-- (id)ndow: /* Error: Ran out of types for this method. */;
-- (id)shouldApplyCornerRadiusForPrimaryState: /* Error: Ran out of types for this method. */;
-- (void)'ä;
-- (void)ItemIsFocusableInFocusSystemWithSearchInfo(__strong id<UIFocusItem> _Nonnull, UIFocusSystem *__strong _Nonnull, _UIFocusSearchInfo *__strong _Nonnull);
-- (void)];
-- (id)ÁüÒñÀ];
+- (id);
+- (void)ancelled: /* Error: Ran out of types for this method. */;
+- (id)ne: /* Error: Ran out of types for this method. */;
+- (void)onfiguration:layoutAnchor: /* Error: Ran out of types for this method. */;
+- (void)aughtScroller;
+- (void)corresponding presentation controller.;
+- (void)Clamp;
+- (void)rence;
+- (id)];
+- (id)_;
 
 // Remaining properties
 @property(readonly, nonatomic) _UISearchBarLayout *activeLayout; // @synthesize activeLayout=_activeLayout;

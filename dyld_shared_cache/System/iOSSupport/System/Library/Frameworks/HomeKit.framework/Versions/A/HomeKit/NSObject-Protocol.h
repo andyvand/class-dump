@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long)4;
-
-@optional
-- (NSString *);
+- (struct _NSZone *)onfiguringStateKey;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

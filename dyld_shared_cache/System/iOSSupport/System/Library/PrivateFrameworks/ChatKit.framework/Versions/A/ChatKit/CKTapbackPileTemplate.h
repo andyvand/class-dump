@@ -9,9 +9,9 @@
 }
 
 + (double);
-+ (double)g;
-- (void);
++ (double);
 - (id);
+- (void)|Á«ÿMHkØÁ«ÿMHk¬Í¨ÿmHk,Â«ÿ;
 
 @end
 

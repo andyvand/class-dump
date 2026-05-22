@@ -16,15 +16,15 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (id);
+- (void);
 - (id);
 - (void);
 

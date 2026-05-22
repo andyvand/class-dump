@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITextRange;
-
 @protocol UITextDragSupporting
-- (void);
-- (struct CGRect)ier:(UITextRange *)arg1 chatStyle:lastKnownReplicationDate:callerID: /* Error: Ran out of types for this method. */;
-- (void)t: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)e;
 
 @optional
-- (void)@;
-- (_Bool)esTitleShadowWhenHighlighted"b1"adjustsImageWhenHighlighted"b1"adjustsImageWhenDisabled"b1"autosizeToFit"b1"disabledDimsImage"b1"showsTouchWhenHighlighted"b1"buttonType"b8"role"b8"shouldHandleScrollerMouseEvent"b1"titleFrozen"b1"resendTraitToImageViews"b2"animateNextHighlightChange"b1"blurEnabled"b1"visualEffectViewEnabled"b1"suppressAccessibilityUnderline"b1"requiresLayoutForPropertyChange"b1"needsTitleViewDefaultColorUpdate"b1"adjustsImageSizeForAccessibilityContentSizeCategory"b1"disableAutomaticTitleAnimations"b1"overridesRectAccessors"b1"hasActivePointerEffect"b1"automaticallyUpdatesConfiguration"b1"changesSelectionAsPrimaryAction"b1};
-- (UITextRange *)yContrast:(UITextRange *)arg1;
-- (NSArray *):(UITextRange *)arg1;
+- (_Bool)pointerInteraction;
 @end
 

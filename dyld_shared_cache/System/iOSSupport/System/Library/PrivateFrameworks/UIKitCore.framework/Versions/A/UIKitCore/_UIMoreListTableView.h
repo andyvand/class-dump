@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ô;
+- (void)Tgþÿÿÿÿ;
 
 // Remaining properties
 @property(nonatomic) __weak UIMoreListController *_listController; // @synthesize _listController=__listController;

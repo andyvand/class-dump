@@ -16,8 +16,8 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (id);
+- (void)HomeUI.DetailsHostingController;
 
 @end
 

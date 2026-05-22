@@ -25,11 +25,12 @@
 - (void);
 - (id);
 - (long long);
-- (struct CGSize);
-- (void);
-- (struct CGSize);
 - (id);
-- (CDStruct_e83c9415)ÿM¯-¬ýÿU¯-¨ýÿe¯-ø2ÿ;
+- (struct CGSize);
+- (struct CGSize);
+- (CDStruct_e83c9415)%i
+;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryTimeline> originalTimeline; // @synthesize originalTimeline=_originalTimeline;

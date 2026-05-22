@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol FBSSceneComponent
 
 @optional
-- (NSSet *);
-- (void)eTintView;
-- (id)meHandler;
-- (void);
+- (id)dexToUpdate != NSNotFound;
 @end
 

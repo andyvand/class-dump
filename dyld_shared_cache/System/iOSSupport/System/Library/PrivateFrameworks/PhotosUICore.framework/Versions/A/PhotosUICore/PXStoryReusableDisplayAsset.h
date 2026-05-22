@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (_Bool);
-- (void)X;
-- (long long)eManager;
-- (id)*p}ð2pã;
+- (long long)ction share %@ (%{public}@);
+- (void)X$ÿE!Æ¤$ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long resourceIndex; // @synthesize resourceIndex=_resourceIndex;

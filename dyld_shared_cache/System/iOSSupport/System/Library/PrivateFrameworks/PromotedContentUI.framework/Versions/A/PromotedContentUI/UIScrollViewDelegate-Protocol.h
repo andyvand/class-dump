@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
-
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)WithCount:(UIScrollView *)arg1;
-- (void);
-- (void);
+- (void)assed all checks and is eligible to receive POI ads.;
 @end
 

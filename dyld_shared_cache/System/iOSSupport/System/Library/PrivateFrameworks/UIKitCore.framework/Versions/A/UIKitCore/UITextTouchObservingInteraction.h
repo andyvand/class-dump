@@ -13,19 +13,18 @@ __attribute__((visibility("hidden")))
     UILongPressGestureRecognizer *_longPressGesture;
 }
 
-- (void)ged:(id)arg1;
 - (void);
-- (void)lu) to find chats to fetch, aborting;
-- (void)y;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)ransitionController:(id)arg1;
-- (void)
-à;
-- (void)use automatic endpointing:(id)arg1 %d
-;
+- (void)1ZÐ1Â0@ù
+× ;
+- (id)DismissDetentOffset;
+- (void)r index %ld.;
+- (void)es length (%ld) does not equal expected length (%ld);
+- (void)¨ì`;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

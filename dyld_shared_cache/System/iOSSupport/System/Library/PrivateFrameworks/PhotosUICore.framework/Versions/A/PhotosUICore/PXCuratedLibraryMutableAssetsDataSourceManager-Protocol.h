@@ -7,8 +7,8 @@
 @class NSArray, NSPredicate;
 
 @protocol PXCuratedLibraryMutableAssetsDataSourceManager
-- (long long)e a photo library;
-- (void)ctionButton;
+- (void);
+- (long long)oader.LoadingItemList;
 
 // Remaining properties
 @property(retain, nonatomic) NSPredicate *allPhotosFilterPredicate;

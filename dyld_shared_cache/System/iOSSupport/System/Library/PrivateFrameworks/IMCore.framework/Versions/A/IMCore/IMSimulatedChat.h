@@ -30,7 +30,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,17 +46,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)rld;
-- (long long)er.mm;
 - (id);
+- (long long);
 - (void);
-- (void);
-- (id)h;
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)¬±;
+- (id)ago;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentMessageID; // @synthesize currentMessageID=_currentMessageID;

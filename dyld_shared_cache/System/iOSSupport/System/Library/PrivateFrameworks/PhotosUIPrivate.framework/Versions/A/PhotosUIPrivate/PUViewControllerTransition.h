@@ -37,22 +37,22 @@
 - (id);
 - (double);
 - (void);
+- (double);
+- (void);
+- (id);
+- (double);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (_Bool)nfoDictionary:outInfoDictionary:forImageRequestFromAsset:applyLiveBlurIfSensitive: /* Error: Ran out of types for this method. */;
+- (void)aitLayout;
+- (id)lectionDelegate;
+- (void)create attributed string for symbolName:%s /* Error: Ran out of types for this method. */;
+- (id)AJy
+SGGADyA4_bSGtGGA_GAcDyAAyAByT;
 - (void);
-- (void);
-- (_Bool)0@ù
-× ;
-- (double): /* Error: Ran out of types for this method. */;
-- (id)refetchResultsForAssetCollection: /* Error: Ran out of types for this method. */;
-- (void)et",R,N,V_invalidatedTileKinds;
-- (void)Controller.m;
-- (double)ed;
-- (void)alVideoThumbnailIdentifier;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

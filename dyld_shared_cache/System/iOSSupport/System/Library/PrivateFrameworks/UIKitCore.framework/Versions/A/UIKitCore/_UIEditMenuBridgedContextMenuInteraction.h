@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     id _proxySender;
 }
 
-- (id);
-- (id)dIndexPath;
-- (void)rrentSourceTypeWithCompletion:(id)arg1;
+- (void);
+- (id)Options: /* Error: Ran out of types for this method. */;
+- (id)d during State Restoration for window %@;
 
 // Remaining properties
 @property(nonatomic) id proxySender; // @synthesize proxySender=_proxySender;

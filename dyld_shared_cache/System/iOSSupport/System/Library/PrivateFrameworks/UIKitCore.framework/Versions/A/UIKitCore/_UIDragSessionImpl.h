@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)ot match method signature. Expected %@;
++ (id)rForSpelling;
 - (id);
 - (id);
 - (id);
@@ -36,34 +36,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (void)evices;
-- (void)ntactsHandles:(_Bool)arg1;
-- (void)setCKRecordData:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (_Bool)dWithMessageDictionary: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (long long)};
-- (_Bool)$;
-- (_Bool)e number %@;
+- (long long);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)have rsa signature;
 - (id);
-- (void)elta_range;
-- (id)ay";
 - (void);
-- (id)ionCompletionBlockIfNecessary;
-- (unsigned int));
-- (void)ilUsed;
-- (struct CGPoint)Ýì];
-- (id)Öæ_;
-- (_Bool);
+- (void);
+- (id);
+- (id)_UICollectionViewPrefetchingContext";
+- (struct CGPoint);
+- (id)iousFrame:isNewLine: /* Error: Ran out of types for this method. */;
+- (id)lyTitleConstraints;
+- (void);
+- (_Bool)PæþW;
+- (unsigned int)Óÿ'.{;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_allowsItemsToUpdate) _Bool _allowsItemsToUpdate;

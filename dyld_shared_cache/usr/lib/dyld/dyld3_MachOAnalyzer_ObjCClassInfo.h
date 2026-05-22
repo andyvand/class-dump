@@ -4,5 +4,5 @@
 
 class dyld3::MachOAnalyzer::ObjCClassInfo {
 public: // (access info unavailable from symbols alone)
-    getReadOnlyDataField(dyld3::MachOAnalyzer::ObjCClassInfo::ReadOnlyDataField, unsigned int) const;
+    auto getReadOnlyDataField(dyld3::MachOAnalyzer::ObjCClassInfo::ReadOnlyDataField, unsigned int) const;
 };

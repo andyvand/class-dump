@@ -17,27 +17,27 @@
     double _postCommitDuration;
 }
 
-- (id)ulatedEntryProcessor;
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id)oad elements;
-- (_Bool);
-- (id)K;
-- (void)Ýþ¹;
-- (id)1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (id)tion;
-- (id)ingDeferringOverridesIfNeeded:(id)arg1;
-- (id)dView;
-- (id)ray",C,N,V_originalItems;
-- (id)ver called.;
+- (id)eThickening"b1"hasBaseline"b1"isBaselineExplicit"b1"areContentInsetsExplicit"b1"areAlignmentRectInsetsExplicit"b1"flipsForRightToLeftLayoutDirection"b1"hasCapHeight"b1"hasCommandBuffer"b1"hasLocalRenditionCache"b1};
+- (_Bool)usBarHiddenWithBlock:(id)arg1;
+- (id)",&,N,V_storage;
+- (id)tion,V__timingFunctionForAnimation;
+- (void)3¶Õüýc;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

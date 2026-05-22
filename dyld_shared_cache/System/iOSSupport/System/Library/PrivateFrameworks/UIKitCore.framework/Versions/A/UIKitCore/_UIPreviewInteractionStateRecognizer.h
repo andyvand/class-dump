@@ -45,28 +45,27 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (double);
-- (void)Rate:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)er [] remainingTime=%0.2gs;
 - (void);
-- (double);
-- (double)Ð1¢!0@ù
-× ;
-- (double)Át°!LFùñÈÐ1¢!0@ù
-× ;
-- (void)FùñÍÐ1¢!0@ù
-× ;
-- (id)rPoint: /* Error: Ran out of types for this method. */;
-- (id)easuringUnitPoint:itemFilter: /* Error: Ran out of types for this method. */;
-- (void)orrect;
-- (double)T@"<_UITextAttributeDefaults>",&,N,S_setDefaults:(double)arg1 ,V_defaults;
+- (void);
 - (_Bool);
-- (double)i;
-- (double)rectDrivingDelegate_p;
+- (id);
+- (double);
+- (double);
 - (void);
-- (long long)es are interpreted) (;
-- (void)þ;
-- (double)æN;
+- (id);
+- (double);
+- (double);
+- (void);
+- (void);
+- (double)\ð1Â0@ù
+× ;
+- (double)!PCùñb1Â0@ù
+× ;
+- (double)DisplaySize: /* Error: Ran out of types for this method. */;
+- (double)ndToViewsForDisappearanceTransition;
+- (void)ä¼¤;
+- (void)|¼;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long currentState; // @synthesize currentState=_currentState;

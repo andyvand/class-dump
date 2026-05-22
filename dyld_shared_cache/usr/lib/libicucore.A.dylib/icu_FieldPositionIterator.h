@@ -6,8 +6,8 @@ class icu::FieldPositionIterator {
 public: // (access info unavailable from symbols alone)
     FieldPositionIterator();
     FieldPositionIterator(icu::FieldPositionIterator const&);
-    next(icu::FieldPosition&);
-    operator==(icu::FieldPositionIterator const&) const;
-    setData(icu::UVector32*, UErrorCode&);
+    auto next(icu::FieldPosition&);
+    auto operator==(icu::FieldPositionIterator const&) const;
+    auto setData(icu::UVector32*, UErrorCode&);
     ~FieldPositionIterator();
 };

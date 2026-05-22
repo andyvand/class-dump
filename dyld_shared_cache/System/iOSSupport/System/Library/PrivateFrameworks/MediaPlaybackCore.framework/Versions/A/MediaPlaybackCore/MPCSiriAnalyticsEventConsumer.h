@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 
 + (unsigned int);
 + (id);
-- (void)32@0:(id)arg1 8@"ACAccount"16@"NSArray"24;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (id);
+- (id);
+- (void)ay-SIL] startingSectionID=%{public}@ startingItemID=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

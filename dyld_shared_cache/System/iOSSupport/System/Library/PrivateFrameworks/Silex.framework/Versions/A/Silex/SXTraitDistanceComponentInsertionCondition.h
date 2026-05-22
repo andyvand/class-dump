@@ -15,7 +15,7 @@
     struct _SXConvertibleValue _distance;
 }
 
-- (_Bool)!;
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -26,8 +26,9 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
 - (struct _SXConvertibleValue);
+- (void)áÝ!8Eùï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long componentTrait; // @synthesize componentTrait=_componentTrait;

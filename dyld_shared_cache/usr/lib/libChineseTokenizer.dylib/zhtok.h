@@ -4,6 +4,6 @@
 
 class zhtok {
 public: // (access info unavailable from symbols alone)
-    UTF8StringFromCFString(__CFString const*);
-    charactersFromCFStringInRange(__CFString const*, CFRange);
+    auto UTF8StringFromCFString(__CFString const*);
+    auto charactersFromCFStringInRange(__CFString const*, CFRange);
 };

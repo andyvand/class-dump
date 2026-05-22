@@ -21,16 +21,16 @@
 - (id);
 - (long long);
 - (void);
-- (id);
 - (void);
+- (id);
 - (void);
 - (struct CGRect);
 - (void);
 - (CDStruct_b73f67e6);
-- (_Bool);
-- (void);
 - (id);
 - (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect _bounds;

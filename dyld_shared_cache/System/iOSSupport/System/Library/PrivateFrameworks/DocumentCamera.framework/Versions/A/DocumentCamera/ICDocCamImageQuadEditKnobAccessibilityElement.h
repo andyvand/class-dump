@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
 - (_Bool);
-- (void);
+- (id);
 - (struct CGRect);
 - (id);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

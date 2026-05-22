@@ -20,11 +20,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (long long)bscriptions;
+- (id);
+- (long long);
+- (void)þÿ;
+- (id)d7;
 
 // Remaining properties
 @property(nonatomic) unsigned long long firstManualOrder; // @synthesize firstManualOrder=_firstManualOrder;

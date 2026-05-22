@@ -29,26 +29,26 @@
 - (struct CGSize);
 - (_Bool);
 - (double);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (double);
 - (struct CGImage *);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)centerBarButtonItems;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

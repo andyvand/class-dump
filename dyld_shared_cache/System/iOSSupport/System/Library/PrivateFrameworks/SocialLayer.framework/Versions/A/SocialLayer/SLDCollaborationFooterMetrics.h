@@ -20,9 +20,9 @@
 - (id);
 - (struct CGColor *);
 - (struct CGColor *);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double expectedHeight;

@@ -13,7 +13,7 @@
 }
 
 + (_Bool);
-+ (_Bool)edDataLayout:creationBehavior:editingBehavior:deletionBehavior:galleryDisplayBehavior:isHidden:needsAuthentication:displayOrder: /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *widgetLayoutIconState; // @dynamic widgetLayoutIconState;

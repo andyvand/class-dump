@@ -26,18 +26,18 @@
 - (double);
 - (double);
 - (id);
-- (id);
+- (id);
 - (double);
 - (_Bool);
 - (id);
-- (id)Traits = WTF::HashMap<WTF::String, WTF::RefPtr<WebCore::PlatformCAAnimation>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<WTF::String, WTF::RefPtr<WebCore::PlatformCAAnimation>>::KeyValuePairTraits, WTF::DefaultHash<String>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::String] /* Error: Ran out of types for this method. */;
-- (void);
-- (double);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
+- (_Bool);
+- (id);
+- (void),Þ;
+- (double)eyTransparencyShouldRefreshNotification;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *actionLabel;

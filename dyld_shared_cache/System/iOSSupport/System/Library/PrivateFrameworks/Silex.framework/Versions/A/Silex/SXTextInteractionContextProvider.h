@@ -21,8 +21,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)_;
+- (id);
+- (void)ïÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionManager> actionManager; // @synthesize actionManager=_actionManager;

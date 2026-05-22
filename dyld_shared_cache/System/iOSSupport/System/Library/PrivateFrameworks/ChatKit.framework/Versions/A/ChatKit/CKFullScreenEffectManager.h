@@ -20,30 +20,30 @@
 + (double);
 + (double);
 - (id);
-- (void)T@"NSArray",C,N,V_shadowColors;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)s;
+- (void);
 - (id);
-- (id)ingStoppedNotificationSessionEndedObjectKey;
-- (void)urationKey;
-- (id)assword. Enter the previous password to view the attachment.;
-- (id)t) != nil);
-- (id)16;
-- (id)bject"8^B16;
-- (id)ected tag:%@. /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)*;
 - (void);
 - (void);
-- (id);
-- (id),I¬yAIº«SgG_<Qo_#«Gõ«GtGGAByAByAByAFyADyAKyAiLGG_AXSgHI¬AXtGAFyAX_AyxzXtGGAByAFyAX_AzXtGã¿«GGA3_GG7<G_ACyAGyJ»«yAFyAI_ATtGGA6_GA8_GtGGGÍ«GA16_GAEyAFyAHyAFyAI_AjCyACyAGyARA6_GA8_GASGtGG_A10_yAFyACyAiSG_A23_tGGtGG_G;
-- (void)AAyAAyÈ¬ÌÃ¬y¾¬GG¯¤¬GÙ¬G;
+- (id);
+- (id);
+- (void);
+- (void)°P;
 
 // Remaining properties
 @property(retain, nonatomic) CKFullScreenEffect *currentEffect; // @synthesize currentEffect=_currentEffect;

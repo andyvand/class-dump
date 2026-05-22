@@ -9,6 +9,7 @@
 @interface FPMemoryObject
 {
     unsigned int _accurateSizes:1;
+    unsigned int _hasNoFootprint:1;
     unsigned int _hasProcessViewForSingleTotalRegions:1;
     unsigned int _isProcessViewForSingleTotalRegions:1;
     int _ownerPid;
@@ -22,29 +23,30 @@
 }
 
 - (id);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (int);
-- (unsigned long long)b;
-- (unsigned long long);
-- (id);
-- (_Bool)?;
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id)h*;
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
 - (unsigned int);
+- (id);
+- (id);
+- (id);
 - (_Bool);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *auxData;
@@ -62,6 +64,7 @@
 @property(readonly, nonatomic) NSString *detailedName;
 @property(readonly, nonatomic) unsigned long long dirtySize; // @synthesize dirtySize=_dirtySize;
 @property(readonly, nonatomic) NSString *fullName;
+@property(readonly, nonatomic) _Bool hasNoFootprint;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *name;
 @property(nonatomic) int ownerPid; // @synthesize ownerPid=_ownerPid;

@@ -49,14 +49,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (struct CGRect);
-- (id);
-- (void);
 - (void);
 - (void);
 - (float);
+- (struct CGRect);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;

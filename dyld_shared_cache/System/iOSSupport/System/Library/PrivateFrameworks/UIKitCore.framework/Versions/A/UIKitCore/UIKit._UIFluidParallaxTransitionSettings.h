@@ -18,20 +18,20 @@
 
 + (id);
 - (_Bool);
-- (void)eporting message count of %lld to DAS;
-- (void)recovery but style is not supported %hhu;
-- (void)t metadata only sync failed with error:(id)arg1 %@;
-- (void)owing replication for %@, has expressive send;
-- (void)linked device:(double)arg1 %@;
-- (void)cally saving received message played on linked device:(double)arg1 %@;
-- (double)up with non UUID style groupID, lets fix this chat:%@ /* Error: Ran out of types for this method. */;
-- (id)from CMM message %@, rl transfers left %@;
-- (id)t relay group mutations because service was not included in validation error user info.;
-- (double)SArray"8B16I20;
-- (double)r"24B32B36;
 - (void);
-- (void)PreferredFocusHeading: /* Error: Ran out of types for this method. */;
-- (id)sCount;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (id);
+- (id);
+- (double);
+- (double);
+- (void)er: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)lHíþÌèÌl;
 
 // Remaining properties
 @property(nonatomic) double edgeFlickBoostThreshold; // @synthesize edgeFlickBoostThreshold;

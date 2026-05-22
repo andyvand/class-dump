@@ -13,10 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)Ä°1¢!0@ù
-× ;
 - (id);
-- (id)OrCommandAlternates:discoverabilityTitle:attributes:state: /* Error: Ran out of types for this method. */;
+- (void)ýÛ0Hl;
+- (id)"ÙÌs;
 
 @end
 

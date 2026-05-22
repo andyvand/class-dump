@@ -28,14 +28,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (long long);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (void)unsyncable;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *attribution; // @synthesize attribution=_attribution;

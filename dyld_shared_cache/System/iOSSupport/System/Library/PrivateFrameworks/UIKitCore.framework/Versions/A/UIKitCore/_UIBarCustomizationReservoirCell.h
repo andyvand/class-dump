@@ -15,12 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)is nil);
+- (id);
 - (void);
-- (_Bool);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (_Bool)ÔHÔLMÌM$N;
+- (void)7åÒ,^;
 
 // Remaining properties
 @property(retain, nonatomic) _UIBarCustomizationChiclet *chiclet; // @synthesize chiclet=_chiclet;

@@ -30,11 +30,13 @@
 - (void);
 - (CDUnion_520b3fa7);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool areMotionEventsAvailable; // @synthesize areMotionEventsAvailable=_areMotionEventsAvailable;

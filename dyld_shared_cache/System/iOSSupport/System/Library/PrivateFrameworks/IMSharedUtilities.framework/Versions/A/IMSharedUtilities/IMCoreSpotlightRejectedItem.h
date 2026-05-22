@@ -13,11 +13,11 @@
     long long _reason;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)StateProtocolP;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *proposedDomain; // @synthesize proposedDomain=_proposedDomain;

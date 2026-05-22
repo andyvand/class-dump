@@ -14,37 +14,37 @@
 }
 
 + (id);
-+ (id)nvoke;
-+ (id)entSizeCategory:isForPrint:]_block_invoke /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 + (id);
 + (Class);
 + (id);
 + (_Bool);
-- (id)nUsage:currentDatabaseUsage:expectedUsage:decisionHandler: /* Error: Ran out of types for this method. */;
-- (id),V_searchSuggestionType;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (Class);
-- (Class),;
+- (Class);
 - (id);
 - (_Bool);
-- (id)ote either didn't exist or was malformed {identifier:(id)arg1 %@, URI:(id)arg2 %s};
 - (id);
 - (id);
-- (id)itional security, but if you forget this password, there is no way to recover access to these locked notes.;
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
-- (Class);
+- (Class);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (int);
-- (struct CLLocationCoordinate2D)ch moment share for URL:%@, generation:%td, error:%@ /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D);
+- (id)lýÿ¡ZýÿòýÿÄ;
+- (id)AEyACyAdEyAD[5\GÝ¤GAGyü\GGõb\yø\SgGGGGACyA3DGG_G;
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;

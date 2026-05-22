@@ -17,10 +17,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)˿;
-- (_Bool);
 - (id);
-- (long long)s for imchat %@ on conversation %@;
+- (_Bool);
+- (long long);
+- (id)";
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionType;

@@ -96,26 +96,26 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (long long);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (long long);
-- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)anged:(_Bool)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) TUCall *call; // @synthesize call=_call;

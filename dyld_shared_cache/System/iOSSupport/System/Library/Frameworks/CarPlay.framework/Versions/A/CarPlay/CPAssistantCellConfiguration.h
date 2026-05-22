@@ -14,12 +14,12 @@
 + (_Bool);
 - (id);
 - (long long);
-- (void);
-- (long long);
-- (_Bool);
 - (id);
 - (long long);
 - (_Bool);
+- (void);
+- (long long);
+- (_Bool)ationOwnership;
 
 // Remaining properties
 @property(readonly, nonatomic) long long assistantAction; // @synthesize assistantAction=_assistantAction;

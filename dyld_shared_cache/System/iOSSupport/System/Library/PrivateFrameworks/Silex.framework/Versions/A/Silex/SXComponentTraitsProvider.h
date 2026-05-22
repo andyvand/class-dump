@@ -15,7 +15,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void):8@"NSArray"16@"<SXDOMObjectProviding>"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

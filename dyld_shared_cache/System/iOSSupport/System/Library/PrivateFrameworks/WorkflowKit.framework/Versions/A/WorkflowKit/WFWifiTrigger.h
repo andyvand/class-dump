@@ -30,7 +30,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool)LocalBusinessesAction;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool onConnect; // @synthesize onConnect=_onConnect;

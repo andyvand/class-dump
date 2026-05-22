@@ -5,15 +5,15 @@
 class RPSocket {
 public: // (access info unavailable from symbols alone)
     RPSocket()::__reg;
-    accept(unsigned long long);
-    copy_entitlements();
-    copy_error();
-    get_port();
-    invalidate();
-    latch_target_queues();
-    schedule_runloop(__CFRunLoop*);
-    set_client(void (*)(RPSocket_s*, unsigned long, void const*), void const*);
-    set_invalid();
-    unschedule_runloop(__CFRunLoop*);
+    auto accept(unsigned long long);
+    auto copy_entitlements();
+    auto copy_error();
+    auto get_port();
+    auto invalidate();
+    auto latch_target_queues();
+    auto schedule_runloop(__CFRunLoop*);
+    auto set_client(void (*)(RPSocket_s*, unsigned long, void const*), void const*);
+    auto set_invalid();
+    auto unschedule_runloop(__CFRunLoop*);
     ~RPSocket();
 };

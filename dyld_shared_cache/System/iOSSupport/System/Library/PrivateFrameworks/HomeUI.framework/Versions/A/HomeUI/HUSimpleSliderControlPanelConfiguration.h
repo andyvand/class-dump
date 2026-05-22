@@ -13,7 +13,7 @@
 
 - (void);
 - (Class);
-- (id);
+- (id)er must be set before presenting HUSoftwareUpdateLicenseViewController;
 
 // Remaining properties
 @property(readonly, nonatomic) Class cellClass;

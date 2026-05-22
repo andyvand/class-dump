@@ -16,24 +16,24 @@
     unsigned short mNumberOfIndicesMoved;
 }
 
-- (unsigned short)=;
+- (unsigned short);
 - (void);
 - (unsigned short);
-- (unsigned short);
-- (void);
+- (unsigned short);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool)sUI232ArticleLinkBehaviorConfigManager;
+- (_Bool);
 - (void);
 - (unsigned short);
-- (id);
 - (void);
 - (_Bool);
 - (id);
 - (unsigned short *);
 - (unsigned short);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short endIndex; // @synthesize endIndex=mEndIndex;

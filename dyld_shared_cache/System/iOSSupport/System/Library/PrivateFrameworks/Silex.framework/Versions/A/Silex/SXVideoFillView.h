@@ -21,22 +21,22 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (id)};
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)@;
+- (void);
 - (id);
 - (void);
-- (void);
-- (struct CGRect)× ;
+- (void)OfObjectIdenticalTo: /* Error: Ran out of types for this method. */;
+- (void)@"SXFollowingCondition",R,N;
+- (struct CGRect)erties;
 
 // Remaining properties
 @property(retain, nonatomic) SXClippingView *clippingView; // @synthesize clippingView=_clippingView;

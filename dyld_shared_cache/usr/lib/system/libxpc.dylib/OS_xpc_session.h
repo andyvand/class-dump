@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (oneway void)c;
-- (void)pplicationWorkspacePluginsChangedCallback;
+- (void);
+- (oneway void);
 - (id);
 - (id);
 - (void);

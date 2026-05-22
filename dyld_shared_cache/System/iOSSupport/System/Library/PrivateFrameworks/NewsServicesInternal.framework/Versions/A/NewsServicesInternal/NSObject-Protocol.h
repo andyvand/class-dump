@@ -7,12 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool)P;
-- (id)gin_"^v"__end_"^v""{?="__cap_"^v}};
-- (unsigned long long)r;
-
-@optional
-- (NSString *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

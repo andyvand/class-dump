@@ -17,13 +17,13 @@
 + (unsigned long long);
 + (id);
 + (id);
-+ (id);
++ (id)tems with error %@;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
 - (id);
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) FBKFormResponse *formResponse; // @dynamic formResponse;

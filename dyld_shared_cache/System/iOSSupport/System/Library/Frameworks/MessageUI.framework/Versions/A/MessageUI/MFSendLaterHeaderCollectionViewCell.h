@@ -16,7 +16,7 @@
     long long _currentVisibleComponent;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -28,12 +28,13 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)awBlock;
 - (void);
+- (void)!dDùqÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long currentVisibleComponent; // @synthesize currentVisibleComponent=_currentVisibleComponent;

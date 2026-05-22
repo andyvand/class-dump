@@ -22,7 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)on;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -32,18 +32,18 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id)ShortcutsActions/ActionKit/External/libressl/libressl/crypto/rsa/rsa_oaep.c;
+- (void)to doesn't have an account set up with %@.;
+- (id)Wrestling;
+- (id)e);
+- (id)Òöÿ:×H /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *clientModifiedDate; // @synthesize clientModifiedDate=_clientModifiedDate;

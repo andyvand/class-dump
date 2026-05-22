@@ -35,9 +35,9 @@
 - (void);
 - (void);
 - (void);
+- (long long);
 - (id);
-- (void);
-- (long long)C;
+- (void)frame.;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType donationBlock; // @synthesize donationBlock=_donationBlock;

@@ -18,10 +18,10 @@
 + (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)'t serialize %@ into dictionary;
-- (id)Þê4;
+- (void)Ï¬;
+- (id)ôÃÎÿÑrÔ®4;
+- (id)Ì&:(id)arg1;
 
 // Remaining properties
 @property(nonatomic, readonly) PHCollection *collection; // @synthesize collection;

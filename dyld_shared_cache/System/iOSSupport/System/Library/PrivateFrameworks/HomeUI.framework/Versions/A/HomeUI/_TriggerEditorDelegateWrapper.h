@@ -15,11 +15,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (id);
 - (void);
-- (id)1b0@ù
-× ;
-- (void)leTextViewCellDelegate>";
+- (_Bool);
+- (void)total residents = %lu.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

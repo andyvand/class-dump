@@ -15,21 +15,21 @@
     struct UIEdgeInsets _marginInsets;
 }
 
-- (_Bool)ardCalculateDocumentController;
-- (void)TogglingItalics;
-- (void)rkerContext;
-- (void)Enabled;
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (_Bool);
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (id)Mt;
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (void)leSpellChecking;
-- (void)vels restored from metadataDict %@.;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing=__ck_editing;

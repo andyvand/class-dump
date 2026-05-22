@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (Class)AlertUserSelectedEnableNotification;
-+ (Class)DService (%@);
-- (_Bool)needsDeliveryReceipt:callerID:account: /* Error: Ran out of types for this method. */;
-- (void)erence:(id)arg1;
-- (void)ndleID:(id)arg1 completion:(id)arg2;
-- (id)chable:allSupportEncryption:checkedServer:error: /* Error: Ran out of types for this method. */;
-- (void)kMessagesUpToGUID:(id)arg1 forChat:messageIsFromMe:date: /* Error: Ran out of types for this method. */;
++ (Class);
++ (Class);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -38,12 +38,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)aoÐ!üEùÑÁÐ1¢!0@ù
-× ;
-- (id)ster;
-- (id)n;
+- (id);
+- (void)lStackViewLeading;
+- (id)ük[;
+- (void)tf;
 
 // Remaining properties
 @property(nonatomic) __weak UIKeyboardEmojiKeyView *categoryView; // @synthesize categoryView=_categoryView;

@@ -4,8 +4,8 @@
 
 class lsl::BTree<std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord>, lsl::OrderedMap<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord, std::__1::less<unsigned int>>::value_compare, false> {
 public: // (access info unavailable from symbols alone)
-    erase(lsl::BTree<std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord>, lsl::OrderedMap<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord, std::__1::less<unsigned int>>::value_compare, false>::const_iterator);
-    erase(lsl::BTree<std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord>, lsl::OrderedMap<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord, std::__1::less<unsigned int>>::value_compare, false>::const_iterator) (.cold.1);
-    find(std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord> const&) const;
-    insert_internal(lsl::BTree<std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord>, lsl::OrderedMap<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord, std::__1::less<unsigned int>>::value_compare, false>::const_iterator&&, std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord>&&);
+    auto erase(lsl::BTree<std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord>, lsl::OrderedMap<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord, std::__1::less<unsigned int>>::value_compare, false>::const_iterator);
+    auto erase(lsl::BTree<std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord>, lsl::OrderedMap<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord, std::__1::less<unsigned int>>::value_compare, false>::const_iterator) (.cold.1);
+    auto find(std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord> const&) const;
+    auto insert_internal(lsl::BTree<std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord>, lsl::OrderedMap<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord, std::__1::less<unsigned int>>::value_compare, false>::const_iterator&&, std::__1::pair<unsigned int, dyld4::Atlas::Process::ProcessNotifierRecord>&&);
 };

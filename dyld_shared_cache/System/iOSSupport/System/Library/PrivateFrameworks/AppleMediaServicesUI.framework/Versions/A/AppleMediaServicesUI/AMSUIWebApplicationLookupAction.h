@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)Superview;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

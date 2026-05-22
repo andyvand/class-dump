@@ -7,12 +7,9 @@
 @class UIPDFPageView;
 
 @protocol UIPDFSelectionWidget
-- (void)rmed dataInstanceString '%@';
-- (void)rned %@;
-- (struct CGRect);
-- (_Bool)`;
-- (void)lationships;
-- (void)ForReuse: /* Error: Ran out of types for this method. */;
+- (void)ìw;
+- (void)ed=%ld;
+- (void)RÉþÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint currentSelectionPointOnPage;

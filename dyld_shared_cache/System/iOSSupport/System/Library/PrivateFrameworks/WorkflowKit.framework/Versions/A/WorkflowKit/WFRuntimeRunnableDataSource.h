@@ -13,10 +13,10 @@
 
 + (id);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)bled = %s, disabled = %s;
+- (void)izedRepresentationFromValue:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) WFRuntimeRunnableDataSourceImpl *impl; // @synthesize impl=_impl;

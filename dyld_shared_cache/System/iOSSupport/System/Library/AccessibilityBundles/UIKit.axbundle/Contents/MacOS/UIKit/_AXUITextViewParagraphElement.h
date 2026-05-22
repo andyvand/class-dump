@@ -24,12 +24,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (_Bool);
+- (id);
 - (struct CGRect);
 - (id);
+- (unsigned long long);
+- (void);
 - (id);
 
 // Remaining properties

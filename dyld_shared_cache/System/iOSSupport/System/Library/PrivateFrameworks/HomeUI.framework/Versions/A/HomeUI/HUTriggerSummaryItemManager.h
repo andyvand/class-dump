@@ -70,9 +70,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);

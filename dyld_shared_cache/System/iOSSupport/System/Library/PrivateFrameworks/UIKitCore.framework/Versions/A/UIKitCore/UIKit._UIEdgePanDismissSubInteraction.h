@@ -14,17 +14,17 @@
     MISSING_TYPE *gesture;
 }
 
+- (_Bool);
 - (id);
-- (void);
-- (_Bool)xtraView";
-- (void)rForEnabledState:(id)arg1;
-- (id)lScrollPocketInteractionIfNeeded;
-- (_Bool)rID;
-- (void)ction;
-- (void)ÿÿÿÿ´;
-- (_Bool);
-- (void)So25UIWritingToolsCoordinatorCMýj8G;
-- (_Bool)InvalidatingPropertyWrapper.swift;
+- (void);
+- (void);
+- (_Bool)KitRequestedOverscanCompensation:(id)arg1 ,V_avkitRequestedOverscanCompensation;
+- (id);
+- (void)istLayoutSectionBackgroundColorDecorationElementKind;
+- (void)e.messages.stickerTapback;
+- (_Bool)%@ = %@;
+- (void),*_;
+- (_Bool);qþ;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *view; // @synthesize view;

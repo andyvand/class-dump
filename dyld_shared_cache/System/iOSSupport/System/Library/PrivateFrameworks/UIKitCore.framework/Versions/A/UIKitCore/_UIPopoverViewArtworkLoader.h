@@ -13,10 +13,8 @@ __attribute__((visibility("hidden")))
     NSString *_backgroundSelector;
 }
 
-+ (id)e of GroupID
-
-Description:(long long)arg1 Updated groupID/originalGroupID on service %@;
-- (id)#;
++ (id);
+- (id);
 - (id);
 - (double);
 - (id);
@@ -36,19 +34,19 @@ Description:(long long)arg1 Updated groupID/originalGroupID on service %@;
 - (double);
 - (double);
 - (id);
-- (id)W;
+- (id);
 - (id);
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (struct CGRect);
 - (double);
 - (double);
-- (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (double);
 - (id);
 - (id);
@@ -64,22 +62,22 @@ Description:(long long)arg1 Updated groupID/originalGroupID on service %@;
 - (id);
 - (id);
 - (id);
-- (id):(id)arg1;
-- (id)textWithSSM:(id)arg1;
-- (id)oads:(id)arg1;
-- (id)setConfiguration:(id)arg1;
-- (id)pletionBlock:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)d0;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (double);
 - (id);
-- (id)ckerMoveAnimation;
-- (void);
-- (double)ismiss: /* Error: Ran out of types for this method. */;
-- (double)þÿ;
+- (id);
+- (double);
+- (double);
+- (void)vider;
 
 @end
 

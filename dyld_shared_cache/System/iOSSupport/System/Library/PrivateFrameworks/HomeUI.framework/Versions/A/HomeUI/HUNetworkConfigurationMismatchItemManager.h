@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ontroller:pinCodeDidChange:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HFNetworkConfigurationItemProvider *networkConfigurationItemProvider; // @synthesize networkConfigurationItemProvider=_networkConfigurationItemProvider;

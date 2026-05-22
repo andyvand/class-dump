@@ -12,9 +12,12 @@
 }
 
 + (id);
-- (void);
 - (id);
 - (id);
+- (void)_¸yxq_G_Qo_G_Qo__2ID¨¡ÿ
+Qy_Qo__Qo__8­ANSQ12CoreGraphicsyHCg0_Qo__Qo__»9ÿ
+Qo__Qo_GF:ÿ
+G /* Error: Ran out of types for this method. */;
 
 @end
 

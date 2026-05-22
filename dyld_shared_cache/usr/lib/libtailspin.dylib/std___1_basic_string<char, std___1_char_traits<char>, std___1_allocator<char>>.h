@@ -4,6 +4,6 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    assign(char const*);
-    operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    auto assign(char const*);
+    auto operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
 };

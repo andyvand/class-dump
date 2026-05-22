@@ -19,9 +19,9 @@
 
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
++ (id);
 - (_Bool);
 - (void);
 - (void);
@@ -46,17 +46,16 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void)yFriendsIntentMigration convertParametersAndUpdateIntent:(id)arg1 ];
-- (id)ùÂãpÀ
-;
+- (id)xedMDMContentErrorWithActionName: /* Error: Ran out of types for this method. */;
+- (id)¸v$wwðw;
+- (void)oke;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allProperties;

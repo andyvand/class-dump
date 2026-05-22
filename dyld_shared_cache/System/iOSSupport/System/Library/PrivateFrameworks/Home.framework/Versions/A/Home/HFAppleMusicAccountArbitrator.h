@@ -27,9 +27,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)t>"16@?0@"HFDataAnalyticsLogItem"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *accessories; // @synthesize accessories=_accessories;

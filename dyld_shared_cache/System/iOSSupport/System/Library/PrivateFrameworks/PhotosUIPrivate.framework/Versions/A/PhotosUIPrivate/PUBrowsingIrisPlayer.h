@@ -47,7 +47,7 @@
     CDStruct_8e0628e6 _vitalityTransform;
 }
 
-+ (id)ìÿ¤h;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -119,31 +119,32 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (CDStruct_8e0628e6);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (float);
-- (id);
 - (void);
 - (id);
-- (void)AtIndexPath:(id)arg1;
-- (id)ons;
-- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
-- (_Bool)TÀ aáÿ;
-- (void)Ü;
-- (id)§4;
+- (id)
+× ;
+- (_Bool)Ô ;
+- (void)itsIfNeeded;
+- (void)ange;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)À;
+- (float)is not supported;
+- (void)s8¼;
 
 // Remaining properties
 @property(nonatomic) long long _currentUnloadRequestId; // @synthesize _currentUnloadRequestId=__currentUnloadRequestId;

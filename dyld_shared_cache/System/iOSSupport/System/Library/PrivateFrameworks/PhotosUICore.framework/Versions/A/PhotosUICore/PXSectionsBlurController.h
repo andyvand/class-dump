@@ -14,10 +14,10 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (long long);
+- (void)@8d16{CGSize=dd}24@"NSStringDrawingContext"40B48q52;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long behavior; // @synthesize behavior;

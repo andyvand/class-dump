@@ -37,13 +37,14 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)asVPNAPIEntitlement;
-- (void)?0^{__CFArray=}8;
-- (id);
-- (id);
-- (void)¬;
-- (id)attempt completed, clearing ActiveSessionDetailsTimeoutTimer, calling _bootstrapToState;
+- (id)!tFùQB,1Â0@ù
+× ;
+- (void)DeviceName;
+- (id)Date;
+- (void)lAccuracy >= 0;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

@@ -16,7 +16,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)@0:8@16d24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

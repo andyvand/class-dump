@@ -25,9 +25,9 @@ __attribute__((visibility("hidden")))
 
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void)M;
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,17 +42,17 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (id)l;
-- (CDUnknownBlockType)esponse message %@;
-- (CDUnknownBlockType)%d   name:%@   groupID:%@  category %ld extensionName %@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)InputUI;
-- (unsigned int)²;
+- (void);
+- (unsigned int)ÿèãÙÔ`;
+- (void)ÿ\;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType connectionBlock; // @synthesize connectionBlock=_connectionBlock;

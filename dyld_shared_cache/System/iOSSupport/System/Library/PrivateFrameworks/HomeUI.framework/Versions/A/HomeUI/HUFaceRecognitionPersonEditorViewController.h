@@ -34,13 +34,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)tionModule:forProfile: /* Error: Ran out of types for this method. */;
-- (void)nReorderItemHandler:(id)arg1;
+- (void)ecordingOptionDisplayTitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

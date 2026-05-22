@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandRequest, NSArray;
+@class NSArray;
 
 @protocol MPCPlayerActionAtQueueEndCommand
-- (MPCPlayerCommandRequest *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *supportedActions;

@@ -15,13 +15,13 @@
 }
 
 - (struct CGRect);
-- (void);
 - (id);
-- (id)
+- (id)0@ù
 × ;
-- (id)chForceDuration: /* Error: Ran out of types for this method. */;
-- (void)_simulatedMomentumDelta;
-- (id)reSafeAreaHelper;
+- (id)Descriptor;
+- (id)aluatedObjectCache init];
+- (void)ollerPHAsset;
+- (void)ðûþ±È;
 
 // Remaining properties
 @property(nonatomic, retain) NSAttributedString *attributedText;

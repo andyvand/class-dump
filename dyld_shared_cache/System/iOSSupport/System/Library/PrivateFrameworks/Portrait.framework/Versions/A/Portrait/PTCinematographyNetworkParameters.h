@@ -30,8 +30,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property float expectedFPS; // @synthesize expectedFPS=_expectedFPS;

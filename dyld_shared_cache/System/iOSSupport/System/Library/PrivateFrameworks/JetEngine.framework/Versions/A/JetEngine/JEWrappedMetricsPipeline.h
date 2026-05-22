@@ -12,8 +12,17 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *pipeline;
 }
 
-- (void);
 - (id);
+- (void)ÅÿMu
+0Åÿ%Mu
+@Åÿ%Mu
+TÅÿ%Mu
+hÅÿ%Mu
+xÅÿÍLu
+ÄÅÿmLu
+èÅÿmLu
+øÅÿ}Lu
+Åÿ;
 
 @end
 

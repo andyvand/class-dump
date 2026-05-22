@@ -12,13 +12,13 @@
 }
 
 - (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
 - (id);
-- (id)y;
+- (id);
+- (void)e base user vault directory was not found.;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ackType:presentationOptions:classification: /* Error: Ran out of types for this method. */;
 
 @end
 

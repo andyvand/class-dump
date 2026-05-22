@@ -14,6 +14,7 @@
     MISSING_TYPE *puzzleTypeController;
     MISSING_TYPE *appConfigurationManager;
     MISSING_TYPE *sponsorshipAdProvider;
+    MISSING_TYPE *featureAvailability;
 }
 
 @end

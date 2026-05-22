@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (int)omponentAssembly;
+- (int);
 
 @end
 

@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
     UIInteractionProgress *_interactionProgress;
 }
 
-- (void)ce;
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (id)8@16@?24;
-- (void)%@;
-- (id)ties query request for:(id)arg1 %@ and received error:%@ /* Error: Ran out of types for this method. */;
-- (id)to process network changes - networkMonitor:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
-- (void)b ÿÛÙÈçc;
-- (double)Ô;
+- (id);
+- (id);
+- (void);
+- (double);
+- (void)vider:(id)arg1 actionHandlerInvocationDelegate: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIAlertController *alertController; // @synthesize alertController=_alertController;

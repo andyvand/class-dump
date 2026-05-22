@@ -10,12 +10,13 @@
     SEL mAction;
 }
 
-- (unsigned long long);
-- (_Bool);
 - (id);
+- (unsigned long long);
 - (void);
-- (void)>"16@0:(SEL)arg1 8;
-- (SEL)dRep;
+- (_Bool);
+- (SEL);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=mAction;

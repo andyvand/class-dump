@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIGestureRecognizer;
+
 @protocol _UIPassthroughGestureDelegate
-- (_Bool)Ô ;
-- (_Bool)teItem;
-- (void)pearanceDelegate;
+- (void);
+- (_Bool)idChange:(UIGestureRecognizer *)arg1;
 
 // Remaining properties
 @property(nonatomic) _Bool configuredForInactiveInteractionEventsOnly;

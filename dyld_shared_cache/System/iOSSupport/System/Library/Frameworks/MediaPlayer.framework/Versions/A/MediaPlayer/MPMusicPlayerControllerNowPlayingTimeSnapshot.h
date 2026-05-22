@@ -15,18 +15,17 @@
 }
 
 + (id);
-+ (id)etValueType:(float)arg1;
-+ (_Bool)ome:didRemoveUser: /* Error: Ran out of types for this method. */;
-- (void);
-- (unsigned long long)o mode.;
-- (_Bool)";
++ (id);
++ (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (unsigned long long);
 - (long long);
 - (_Bool);
-- (double)
-× ;
-- (float);
+- (void);
+- (double);
+- (float)lying changes:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentTime;

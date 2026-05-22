@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UISelectionInteraction;
-
 @protocol _UISelectionInteractionDelegate
-- (void)redAnimationStyle;
+- (void)_UINavigationItemSwiftRenameHandler;
 
 @optional
-- (void);
-- (void)es:(_UISelectionInteraction *)arg1;
+- (void)debarWidths=ddd},N,V_wideWidthMetrics;
+- (void)xLayoutWidth;
 @end
 

@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)Rm;
+- (id);
 - (void);
-- (void);
+- (void)t:%0.2f; end:%0.2f /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) MPSectionedCollection *radioStationTracks; // @synthesize radioStationTracks=_radioStationTracks;

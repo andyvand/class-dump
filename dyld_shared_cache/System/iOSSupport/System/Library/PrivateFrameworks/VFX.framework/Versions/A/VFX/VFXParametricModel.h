@@ -44,7 +44,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)<MTLArgumentEncoder>"24@0:8@"<MTLBufferBinding>"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
@@ -99,22 +99,1550 @@
 - (long long);
 - (void);
 - (long long);
+- (id);
+- (id);
+- (float);
+- (id);
+- (void);
+- (float);
+- (float);
 - (void);
 - (void);
 - (id);
 - (float);
-- (id);
-- (float);
-- (float);
 - (void);
 - (void);
-- (id);
-- (id);
-- (float);
-- (float);
-- (void);
-- (void)uÙ>;
-- (id)¾)';
+- (float)loat t, OSD_TYPE_ARRAY(OSD_OUT float, wP, 4), OSD_TYPE_ARRAY(OSD_OUT float, wDP, 4), OSD_TYPE_ARRAY(OSD_OUT float, wDP2, 4)) {
+
+    // The four uniform cubic Bezier basis functions (in terms of t and its
+    // complement tC) evaluated at t:float t2 = t*t;
+    float tC = 1.0f - t;
+    float tC2 = tC * tC;
+
+    wP[0] = tC2 * tC;
+    wP[1] = tC2 * t * 3.0f;
+    wP[2] = t2 * tC * 3.0f;
+    wP[3] = t2 * t;
+
+    // Derivatives of the above four basis functions at t:if (OSD_OPTIONAL(wDP)) {
+       wDP[0] = -3.0f * tC2;
+       wDP[1] =  9.0f * t2 - 12.0f * t + 3.0f;
+       wDP[2] = -9.0f * t2 +  6.0f * t;
+       wDP[3] =  3.0f * t2;
+    }
+
+    // Second derivatives of the basis functions at t:if (OSD_OPTIONAL(wDP2)) {
+        wDP2[0] =   6.0f * tC;
+        wDP2[1] =  18.0f * t - 12.0f;
+        wDP2[2] = -18.0f * t +  6.0f;
+        wDP2[3] =   6.0f * t;
+    }
+}
+
+OSD_FUNCTION_STORAGE_CLASS
+void
+OsdGetBSplineWeights(
+    float t, OSD_TYPE_ARRAY(OSD_OUT float, wP, 4), OSD_TYPE_ARRAY(OSD_OUT float, wDP, 4), OSD_TYPE_ARRAY(OSD_OUT float, wDP2, 4)) {
+
+    // The four uniform cubic B-Spline basis functions evaluated at t:const float one6th = 1.0f / 6.0f;
+
+    float t2 = t * t;
+    float t3 = t * t2;
+
+    wP[0] = one6th * (1.0f - 3.0f*(t -      t2) -      t3);
+    wP[1] = one6th * (4.0f           - 6.0f*t2  + 3.0f*t3);
+    wP[2] = one6th * (1.0f + 3.0f*(t +      t2  -      t3));
+    wP[3] = one6th * (                                 t3);
+
+    // Derivatives of the above four basis functions at t:if (OSD_OPTIONAL(wDP)) {
+        wDP[0] = -0.5f*t2 +      t - 0.5f;
+        wDP[1] =  1.5f*t2 - 2.0f*t;
+        wDP[2] = -1.5f*t2 +      t + 0.5f;
+        wDP[3] =  0.5f*t2;
+    }
+
+    // Second derivatives of the basis functions at t:if (OSD_OPTIONAL(wDP2)) {
+        wDP2[0] = -       t + 1.0f;
+        wDP2[1] =  3.0f * t - 2.0f;
+        wDP2[2] = -3.0f * t + 1.0f;
+        wDP2[3] =         t;
+    }
+}
+
+OSD_FUNCTION_STORAGE_CLASS
+void
+OsdGetBoxSplineWeights(float v, float w, OSD_TYPE_ARRAY(OSD_OUT float, wP, 12)) {
+
+    float u = 1.0f - v - w;
+
+    //
+    //  The 12 basis functions of the quartic box spline (unscaled by their common
+    //  factor of 1/12 until later, and formatted to make it easy to spot any
+    //  typing errors)://
+    //      15 terms for the 3 points above the triangle corners
+    //       9 terms for the 3 points on faces opposite the triangle edges
+    //       2 terms for the 6 points on faces opposite the triangle corners
+    //
+    //  Powers of each variable for notational convenience:float u2 = u*u;
+    float u3 = u*u2;
+    float u4 = u*u3;
+    float v2 = v*v;
+    float v3 = v*v2;
+    float v4 = v*v3;
+    float w2 = w*w;
+    float w3 = w*w2;
+    float w4 = w*w3;
+
+    //  And now the basis functions:wP[ 0] = u4 + 2.0f*u3*v;
+    wP[ 1] = u4 + 2.0f*u3*w;
+    wP[ 8] = w4 + 2.0f*w3*u;
+    wP[11] = w4 + 2.0f*w3*v;
+    wP[ 9] = v4 + 2.0f*v3*w;
+    wP[ 5] = v4 + 2.0f*v3*u;
+
+    wP[ 2] = u4 + 2.0f*u3*w + 6.0f*u3*v + 6.0f*u2*v*w + 12.0f*u2*v2 +
+                v4 + 2.0f*v3*w + 6.0f*v3*u + 6.0f*v2*u*w;
+    wP[ 4] = w4 + 2.0f*w3*v + 6.0f*w3*u + 6.0f*w2*u*v + 12.0f*w2*u2 +
+                u4 + 2.0f*u3*v + 6.0f*u3*w + 6.0f*u2*v*w;
+    wP[10] = v4 + 2.0f*v3*u + 6.0f*v3*w + 6.0f*v2*w*u + 12.0f*v2*w2 +
+                w4 + 2.0f*w3*u + 6.0f*w3*v + 6.0f*w3*u*v;
+
+    wP[ 3] = v4 + 6*v3*w + 8*v3*u + 36*v2*w*u + 24*v2*u2 + 24*v*u3 +
+                w4 + 6*w3*v + 8*w3*u + 36*w2*v*u + 24*w2*u2 + 24*w*u3 + 6*u4 + 60*u2*v*w + 12*v2*w2;
+    wP[ 6] = w4 + 6*w3*u + 8*w3*v + 36*w2*u*v + 24*w2*v2 + 24*w*v3 +
+                u4 + 6*u3*w + 8*u3*v + 36*u2*v*w + 24*u2*v2 + 24*u*v3 + 6*v4 + 60*v2*w*u + 12*w2*u2;
+    wP[ 7] = u4 + 6*u3*v + 8*u3*w + 36*u2*v*w + 24*u2*w2 + 24*u*w3 +
+                v4 + 6*v3*u + 8*v3*w + 36*v2*u*w + 24*v2*w2 + 24*v*w3 + 6*w4 + 60*w2*u*v + 12*u2*v2;
+
+    for (int i = 0; i < 12; ++i) {
+        wP[i] *= 1.0f / 12.0f;
+    }
+}
+
+OSD_FUNCTION_STORAGE_CLASS
+void
+OsdGetBilinearPatchWeights(
+        float s, float t, float dScale,
+        OSD_TYPE_ARRAY(OSD_OUT float, wP, 4), OSD_TYPE_ARRAY(OSD_OUT float, wDs, 4), OSD_TYPE_ARRAY(OSD_OUT float, wDt, 4),
+        OSD_TYPE_ARRAY(OSD_OUT float, wDss, 4), OSD_TYPE_ARRAY(OSD_OUT float, wDst, 4), OSD_TYPE_ARRAY(OSD_OUT float, wDtt, 4)) {
+
+    float sC = 1.0f - s,
+          tC = 1.0f - t;
+
+    if (OSD_OPTIONAL(wP)) {
+        wP[0] = sC * tC;
+        wP[1] =  s * tC;
+        wP[2] =  s * t;
+        wP[3] = sC * t;
+    }
+
+    if (OSD_OPTIONAL(derivS && derivT)) {
+
+        wDs[0] = -tC * dScale;
+        wDs[1] =  tC * dScale;
+        wDs[2] =   t * dScale;
+        wDs[3] =  -t * dScale;
+
+        wDt[0] = -sC * dScale;
+        wDt[1] =  -s * dScale;
+        wDt[2] =   s * dScale;
+        wDt[3] =  sC * dScale;
+
+        if (OSD_OPTIONAL(derivSS && derivST && derivTT)) {
+            float d2Scale = dScale * dScale;
+
+            for(int i=0;i<4;i++) {
+                wDss[i] = 0;
+                wDtt[i] = 0;
+            }
+
+            wDst[0] =  d2Scale;
+            wDst[1] = -d2Scale;
+            wDst[2] = -d2Scale;
+            wDst[3] =  d2Scale;
+        }
+    }
+}
+
+OSD_FUNCTION_STORAGE_CLASS
+void OsdAdjustBoundaryWeights(
+        int boundary,
+        OSD_TYPE_ARRAY(OSD_INOUT float, sWeights, 4), OSD_TYPE_ARRAY(OSD_INOUT float, tWeights, 4)) {
+
+    if ((boundary & 1) != 0) {
+        tWeights[2] -= tWeights[0];
+        tWeights[1] += 2*tWeights[0];
+        tWeights[0] = 0;
+    }
+    if ((boundary & 2) != 0) {
+        sWeights[1] -= sWeights[3];
+        sWeights[2] += 2*sWeights[3];
+        sWeights[3] = 0;
+    }
+    if ((boundary & 4) != 0) {
+        tWeights[1] -= tWeights[3];
+        tWeights[2] += 2*tWeights[3];
+        tWeights[3] = 0;
+    }
+    if ((boundary & 8) != 0) {
+        sWeights[2] -= sWeights[0];
+        sWeights[1] += 2*sWeights[0];
+        sWeights[0] = 0;
+    }
+}
+
+OSD_FUNCTION_STORAGE_CLASS
+void OsdComputeTensorProductPatchWeights(float dScale, int boundary,
+    OSD_TYPE_ARRAY(float, sWeights, 4), OSD_TYPE_ARRAY(float, tWeights, 4),
+    OSD_TYPE_ARRAY(float, dsWeights, 4), OSD_TYPE_ARRAY(float, dtWeights, 4),
+    OSD_TYPE_ARRAY(float, dssWeights, 4), OSD_TYPE_ARRAY(float, dttWeights, 4),
+    OSD_TYPE_ARRAY(OSD_OUT float, wP, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDs, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDt, 16),
+    OSD_TYPE_ARRAY(OSD_OUT float, wDss, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDst, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDtt, 16)) {
+
+    if (OSD_OPTIONAL(wP)) {
+        // Compute the tensor product weight of the (s,t) basis function
+        // corresponding to each control vertex:OsdAdjustBoundaryWeights(boundary, sWeights, tWeights);
+
+        for (int i = 0; i < 4; ++i) {
+            for (int j = 0; j < 4; ++j) {
+                wP[4*i+j] = sWeights[j] * tWeights[i];
+            }
+        }
+    }
+
+    if (OSD_OPTIONAL(derivS && derivT)) {
+        // Compute the tensor product weight of the differentiated (s,t) basis
+        // function corresponding to each control vertex (scaled accordingly):OsdAdjustBoundaryWeights(boundary, dsWeights, dtWeights);
+
+        for (int i = 0; i < 4; ++i) {
+            for (int j = 0; j < 4; ++j) {
+                wDs[4*i+j] = dsWeights[j] * tWeights[i] * dScale;
+                wDt[4*i+j] = sWeights[j] * dtWeights[i] * dScale;
+            }
+        }
+
+        if (OSD_OPTIONAL(derivSS && derivST && derivTT)) {
+            // Compute the tensor product weight of appropriate differentiated
+            // (s,t) basis functions for each control vertex (scaled accordingly):float d2Scale = dScale * dScale;
+
+            OsdAdjustBoundaryWeights(boundary, dssWeights, dttWeights);
+
+            for (int i = 0; i < 4; ++i) {
+                for (int j = 0; j < 4; ++j) {
+                    wDss[4*i+j] = dssWeights[j] * tWeights[i] * d2Scale;
+                    wDst[4*i+j] = dsWeights[j] * dtWeights[i] * d2Scale;
+                    wDtt[4*i+j] = sWeights[j] * dttWeights[i] * d2Scale;
+                }
+            }
+        }
+    }
+}
+
+OSD_FUNCTION_STORAGE_CLASS
+void OsdGetBezierPatchWeights(
+    float s, float t, float dScale,
+    OSD_TYPE_ARRAY(OSD_OUT float, wP, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDS, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDT, 16),
+    OSD_TYPE_ARRAY(OSD_OUT float, wDSS, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDST, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDTT, 16)) {
+
+    float sWeights[4], tWeights[4], dsWeights[4], dtWeights[4], dssWeights[4], dttWeights[4];
+
+    OsdGetBezierWeights(s, OSD_OPTIONAL_INIT(wP, sWeights), OSD_OPTIONAL_INIT(wDS, dsWeights), OSD_OPTIONAL_INIT(wDSS, dssWeights));
+    OsdGetBezierWeights(t, OSD_OPTIONAL_INIT(wP, tWeights), OSD_OPTIONAL_INIT(wDT, dtWeights), OSD_OPTIONAL_INIT(wDTT, dttWeights));
+
+    OsdComputeTensorProductPatchWeights(dScale, /*boundary=*/0, sWeights, tWeights, dsWeights, dtWeights, dssWeights, dttWeights, wP, wDS, wDT, wDSS, wDST, wDTT);
+}
+
+OSD_FUNCTION_STORAGE_CLASS
+void OsdGetBSplinePatchWeights(
+    float s, float t, float dScale, int boundary,
+    OSD_TYPE_ARRAY(OSD_OUT float, wP, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDs, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDt, 16),
+    OSD_TYPE_ARRAY(OSD_OUT float, wDss, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDst, 16), OSD_TYPE_ARRAY(OSD_OUT float, wDtt, 16)) {
+
+    float sWeights[4], tWeights[4], dsWeights[4], dtWeights[4], dssWeights[4], dttWeights[4];
+
+    OsdGetBSplineWeights(s, sWeights, OSD_OPTIONAL_INIT(wDS, dsWeights), OSD_OPTIONAL_INIT(wDSS, dssWeights));
+    OsdGetBSplineWeights(t, tWeights, OSD_OPTIONAL_INIT(wDT, dtWeights), OSD_OPTIONAL_INIT(wDTT, dttWeights));
+
+    OsdComputeTensorProductPatchWeights(dScale, boundary, sWeights, tWeights, dsWeights, dtWeights, dssWeights, dttWeights, wP, wDs, wDt, wDss, wDst, wDtt);
+}
+
+OSD_FUNCTION_STORAGE_CLASS
+void OsdGetGregoryPatchWeights(
+    float s, float t, float dScale,
+    OSD_TYPE_ARRAY(OSD_OUT float, wP, 20), OSD_TYPE_ARRAY(OSD_OUT float, wDs, 20), OSD_TYPE_ARRAY(OSD_OUT float, wDt, 20),
+    OSD_TYPE_ARRAY(OSD_OUT float, wDss, 20), OSD_TYPE_ARRAY(OSD_OUT float, wDst, 20), OSD_TYPE_ARRAY(OSD_OUT float, wDtt, 20)) {
+
+    //
+    //  P3         e3-      e2+         P2
+    //     15------17-------11--------10
+    //     |        |        |        |
+    //     |        |        |        |
+    //     |        | f3-    | f2+    |
+    //     |       19       13        |
+    // e3+ 16-----18           14-----12 e2-
+    //     |     f3+          f2-     |
+    //     |                          |
+    //     |                          |
+    //     |      f0-         f1+     |
+    // e0- 2------4            8------6 e1+
+    //     |        3        9        |
+    //     |        | f0+    | f1-    |
+    //     |        |        |        |
+    //     |        |        |        |
+    //     O--------1--------7--------5
+    //  P0         e0+      e1-         P1
+    //
+
+    //  Indices of boundary and interior points and their corresponding Bezier points
+    //  (this can be reduced with more direct indexing and unrolling of loops)://
+    OSD_DATA_STORAGE_CLASS const int boundaryGregory[12] = OSD_ARRAY_12(int, 0, 1, 7, 5, 2, 6, 16, 12, 15, 17, 11, 10 );
+    OSD_DATA_STORAGE_CLASS const int boundaryBezSCol[12] = OSD_ARRAY_12(int, 0, 1, 2, 3, 0, 3,  0,  3,  0,  1,  2,  3 );
+    OSD_DATA_STORAGE_CLASS const int boundaryBezTRow[12] = OSD_ARRAY_12(int, 0, 0, 0, 0, 1, 1,  2,  2,  3,  3,  3,  3 );
+
+    OSD_DATA_STORAGE_CLASS const int interiorGregory[8] = OSD_ARRAY_8(int, 3, 4,  8, 9,  13, 14,  18, 19 );
+    OSD_DATA_STORAGE_CLASS const int interiorBezSCol[8] = OSD_ARRAY_8(int, 1, 1,  2, 2,   2,  2,   1,  1 );
+    OSD_DATA_STORAGE_CLASS const int interiorBezTRow[8] = OSD_ARRAY_8(int, 1, 1,  1, 1,   2,  2,   2,  2 );
+
+    //
+    //  Bezier basis functions are denoted with B while the rational multipliers for the
+    //  interior points will be denoted G -- so we have B(s), B(t) and G(s,t)://
+    //  Directional Bezier basis functions B at s and t:float Bs[4], Bds[4], Bdss[4];
+    float Bt[4], Bdt[4], Bdtt[4];
+
+    OsdGetBezierWeights(s, Bs, OSD_OPTIONAL_INIT(wDs, Bds), OSD_OPTIONAL_INIT(wDss, Bdss));
+    OsdGetBezierWeights(t, Bt, OSD_OPTIONAL_INIT(wDt, Bdt), OSD_OPTIONAL_INIT(wDtt, Bdtt));
+
+    //  Rational multipliers G at s and t:float sC = 1.0f - s;
+    float tC = 1.0f - t;
+
+    //  Use <= here to avoid compiler warnings -- the sums should always be non-negative:float df0 = s  + t;   df0 = (df0 <= 0.0f) ? 1.0f :(1.0f / df0);
+    float df1 = sC + t;   df1 = (df1 <= 0.0f) ? 1.0f :(1.0f / df1);
+    float df2 = sC + tC;  df2 = (df2 <= 0.0f) ? 1.0f :(1.0f / df2);
+    float df3 = s  + tC;  df3 = (df3 <= 0.0f) ? 1.0f :(1.0f / df3);
+
+    float G[8] = OSD_ARRAY_8(float, s*df0, t*df0,  t*df1, sC*df1,  sC*df2, tC*df2,  tC*df3, s*df3 );
+
+    //  Combined weights for boundary and interior points:for (int i = 0; i < 12; ++i) {
+        wP[boundaryGregory[i]] = Bs[boundaryBezSCol[i]] * Bt[boundaryBezTRow[i]];
+    }
+    for (int i = 0; i < 8; ++i) {
+        wP[interiorGregory[i]] = Bs[interiorBezSCol[i]] * Bt[interiorBezTRow[i]] * G[i];
+    }
+
+    //
+    //  For derivatives, the basis functions for the interior points are rational and ideally
+    //  require appropriate differentiation, i.e. product rule for the combination of B and G
+    //  and the quotient rule for the rational G itself.  As initially proposed by Loop et al
+    //  though, the approximation using the 16 Bezier points arising from the G(s,t) has
+    //  proved adequate (and is what the GPU shaders use) so we continue to use that here.
+    //
+    //  An implementation of the true derivatives is provided for future reference -- it is
+    //  unclear if the approximations will hold up under surface analysis involving higher
+    //  order differentiation.
+    //
+    if (OSD_OPTIONAL(wDs && wDt)) {
+        bool find_second_partials = OSD_OPTIONAL(wDs && wDst && wDtt);
+        //  Remember to include derivative scaling in all assignments below:float d2Scale = dScale * dScale;
+
+        //  Combined weights for boundary points -- simple (scaled) tensor products:for (int i = 0; i < 12; ++i) {
+            int iDst = boundaryGregory[i];
+            int tRow = boundaryBezTRow[i];
+            int sCol = boundaryBezSCol[i];
+
+            wDs[iDst] = Bds[sCol] * Bt[tRow] * dScale;
+            wDt[iDst] = Bdt[tRow] * Bs[sCol] * dScale;
+
+            if (find_second_partials) {
+                wDss[iDst] = Bdss[sCol] * Bt[tRow] * d2Scale;
+                wDst[iDst] = Bds[sCol] * Bdt[tRow] * d2Scale;
+                wDtt[iDst] = Bs[sCol] * Bdtt[tRow] * d2Scale;
+            }
+        }
+
+        // dclyde's note:skipping half of the product rule like this does seem to change the result a lot in my tests.
+        // This is not a runtime bottleneck for cloth sims anyway so I'm just using the accurate version.
+#ifndef OPENSUBDIV_GREGORY_EVAL_TRUE_DERIVATIVES
+        //  Approximation to the true Gregory derivatives by differentiating the Bezier patch
+        //  unique to the given (s,t), i.e. having F = (g^+ * f^+) + (g^- * f^-) as its four
+        //  interior points://
+        //  Combined weights for interior points -- (scaled) tensor products with G+ or G-:for (int i = 0; i < 8; ++i) {
+            int iDst = interiorGregory[i];
+            int tRow = interiorBezTRow[i];
+            int sCol = interiorBezSCol[i];
+
+            wDs[iDst] = Bds[sCol] * Bt[tRow] * G[i] * dScale;
+            wDt[iDst] = Bdt[tRow] * Bs[sCol] * G[i] * dScale;
+
+            if (find_second_partials) {
+                wDss[iDst] = Bdss[sCol] * Bt[tRow] * G[i] * d2Scale;
+                wDst[iDst] = Bds[sCol] * Bdt[tRow] * G[i] * d2Scale;
+                wDtt[iDst] = Bs[sCol] * Bdtt[tRow] * G[i] * d2Scale;
+            }
+        }
+#else
+        //  True Gregory derivatives using appropriate differentiation of composite functions://
+        //  Note that for G(s,t) = N(s,t) / D(s,t), all N' and D' are trivial constants (which
+        //  simplifies things for higher order derivatives).  And while each pair of functions
+        //  G (i.e. the G+ and G- corresponding to points f+ and f-) must sum to 1 to ensure
+        //  Bezier equivalence (when f+ = f-), the pairs of G' must similarly sum to 0.  So we
+        //  can potentially compute only one of the pair and negate the result for the other
+        //  (and with 4 or 8 computations involving these constants, this is all very SIMD
+        //  friendly...) but for now we treat all 8 independently for simplicity.
+        //
+        //float N[8] = OSD_ARRAY_8(float,    s,     t,      t,     sC,      sC,     tC,      tC,     s );
+        float D[8] = OSD_ARRAY_8(float,  df0,   df0,    df1,    df1,     df2,    df2,     df3,   df3 );
+
+        OSD_DATA_STORAGE_CLASS const float Nds[8] = OSD_ARRAY_8(float, 1.0f, 0.0f,  0.0f, -1.0f, -1.0f,  0.0f,  0.0f,  1.0f );
+        OSD_DATA_STORAGE_CLASS const float Ndt[8] = OSD_ARRAY_8(float, 0.0f, 1.0f,  1.0f,  0.0f,  0.0f, -1.0f, -1.0f,  0.0f );
+
+        OSD_DATA_STORAGE_CLASS const float Dds[8] = OSD_ARRAY_8(float, 1.0f, 1.0f, -1.0f, -1.0f, -1.0f, -1.0f,  1.0f,  1.0f );
+        OSD_DATA_STORAGE_CLASS const float Ddt[8] = OSD_ARRAY_8(float, 1.0f, 1.0f,  1.0f,  1.0f, -1.0f, -1.0f, -1.0f, -1.0f );
+
+        //  Combined weights for interior points -- (scaled) combinations of B, B', G and G':for (int i = 0; i < 8; ++i) {
+            int iDst = interiorGregory[i];
+            int tRow = interiorBezTRow[i];
+            int sCol = interiorBezSCol[i];
+
+            //  Quotient rule for G' (re-expressed in terms of G to simplify (and D = 1/D)):float Gds = (Nds[i] - Dds[i] * G[i]) * D[i];
+            float Gdt = (Ndt[i] - Ddt[i] * G[i]) * D[i];
+
+            //  Product rule combining B and B' with G and G' (and scaled):wDs[iDst] = (Bds[sCol] * G[i] + Bs[sCol] * Gds) * Bt[tRow] * dScale;
+            wDt[iDst] = (Bdt[tRow] * G[i] + Bt[tRow] * Gdt) * Bs[sCol] * dScale;
+
+            if (find_second_partials) {
+                float Dsqr_inv = D[i]*D[i];
+
+                float Gdss = 2.0f * Dds[i] * Dsqr_inv * (G[i] * Dds[i] - Nds[i]);
+                float Gdst = Dsqr_inv * (2.0f * G[i] * Dds[i] * Ddt[i] - Nds[i] * Ddt[i] - Ndt[i] * Dds[i]);
+                float Gdtt = 2.0f * Ddt[i] * Dsqr_inv * (G[i] * Ddt[i] - Ndt[i]);
+
+                wDss[iDst] = (Bdss[sCol] * G[i] + 2.0f * Bds[sCol] * Gds + Bs[sCol] * Gdss) * Bt[tRow] * d2Scale;
+                wDst[iDst] = (Bt[tRow] * (Bs[sCol] * Gdst + Bds[sCol] * Gdt) + Bdt[tRow] * (Bds[sCol] * G[i] + Bs[sCol] * Gds)) * d2Scale;
+                wDtt[iDst] = (Bdtt[tRow] * G[i] + 2.0f * Bdt[tRow] * Gdt + Bt[tRow] * Gdtt) * Bs[sCol] * d2Scale;
+            }
+        }
+#endif
+    }
+}
+
+#endif /* OPENSUBDIV3_OSD_PATCH_BASIS_COMMON_H */
+
+ /* Error: Ran out of types for this method. */;
+- (void)4x4 objectToCrWorld;
+    simd_float3x3 normalToCrWorld; 
+    float povcControl; 
+    float screenSpaceDepthBias;
+    uint userInstanceIndex;
+} VFX_RE_C_InstanceConstants;
+
+typedef struct VFX_RE_SHADERS_ALIGN_AS(32) VFX_RE_C_EntityConstants_s
+{
+    uint lodDrawInfo;
+
+    
+    float fadeOpacity;
+
+    
+    float tintFactor;
+
+    uint debugMode;
+
+    ClippingIndexSlice clippingIndexSlice;
+    uint samplerIndexCount;  
+    float sfFactor;
+    uint instanceCount;
+
+    float fakeFresnelOpacityBasedBoostFactor;   
+    uint8_t btTextureReadIndex;
+    uint8_t stencilReferenceValue;
+    bool receivesIBLShadow;
+    
+    float environmentLightingWeight;
+
+    simd_float4 portalPlane;
+    simd_float4 dfColor;
+    simd_float4 dfColorStraight;
+
+    uint64_t entityIdentifier;
+    uint64_t meshPartIdentifier;
+
+    bool btUIBreakthroughEnabled;
+    vfx_half btUIBreakthroughInfluence;
+
+    
+    
+    float meshShadowIntensity;
+
+    uint16_t lightGroupIdentifier;
+
+    float depthMitigationTransitionFactor;
+    float sceneUnderstandingTransitionFactor;
+    float visualDepthStaticOcclusionTransitionFactor;
+    vfx_half invPortalLightBlendDistance;
+
+    
+    
+    
+    
+    
+    
+    
+    bool automaticallyInstanced;
+
+    vfx_half visualDepthStaticOcclusionDepthBias;
+} VFX_RE_C_EntityConstants;
+
+typedef struct VFX_RE_SHADERS_ALIGN_AS(256) VFX_RE_C_ViewConstants_s
+{
+    simd_float4x4 crWorldToViewArray[kViewConstantsArraySize];
+    simd_float4x4 crWorldToPhysicalCameraArray[kViewConstantsArraySize];
+    simd_float4x4 crWorldToProjArray[kViewConstantsArraySize];
+    simd_float4x4 crWorldToHomographyArray[kViewConstantsArraySize];
+    simd_float4x4 viewToProjArray[kViewConstantsArraySize];
+    simd_float4x4 projToViewArray[kViewConstantsArraySize];
+    simd_float3 crwsCameraPositionArray[kViewConstantsArraySize]; 
+    simd_float4 vrrMapPhysicalSizeArray[kViewConstantsArraySize];
+    simd_float4 viewportPercentsArray[kViewConstantsArraySize];
+
+    simd_float4 viewportPercents; 
+    simd_float4 renderTargetSize; 
+
+    simd_float4 vrrMapScreenSize;
+
+    simd_int4 renderTargetColorFormats;
+    simd_int2 renderTargetDepthStencilFormatSampleCount;
+
+    uint tonemapInPlace;
+    uint viewportCount;
+
+    uint useVertexAmplification;
+
+    float povcClipDistance; 
+    uint cameraEye;
+    simd_float3 additiveTintColor;
+
+    vfx_half vignettingFadeoutDistanceNormalization;
+    vfx_half vignettingTotalFadeoutDistance;
+    simd_float3 vignettingPivotPosition;
+
+    simd_float4 portalClipPlane; 
+} VFX_RE_C_ViewConstants;
+
+typedef struct VFX_RE_SHADERS_ALIGN_AS(16) VFX_RE_C_GlobalConstants_s
+{
+    simd_float3 crwsReferencePosition; 
+    float time;
+    uint frameCount;
+    simd_float4 dfColor; 
+    simd_float4 dfColorStraight; 
+} VFX_RE_C_GlobalConstants;
+
+#if VFX_IMPORT_RE_SHADERS_ENGINE_CONSTANTS
+typedef re:(float)arg1:ClippingIndexSlice ClippingIndexSlice;
+typedef re::InstanceConstants InstanceConstants;
+typedef re::EntityConstants EntityConstants;
+typedef re::ViewConstants ViewConstants;
+typedef re::GlobalConstants GlobalConstants;
+#else
+typedef VFX_RE_C_ClippingIndexSlice ClippingIndexSlice;
+typedef VFX_RE_C_InstanceConstants InstanceConstants;
+typedef VFX_RE_C_EntityConstants EntityConstants;
+typedef VFX_RE_C_ViewConstants ViewConstants;
+typedef VFX_RE_C_GlobalConstants GlobalConstants;
+#endif 
+
+#if VFX_IMPORT_RE_SHADERS_ENGINE_CONSTANTS && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+static_assert(sizeof(VFX_RE_C_ClippingIndexSlice) == sizeof(re::ClippingIndexSlice), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_InstanceConstants) == sizeof(re::InstanceConstants), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_EntityConstants) == sizeof(re::EntityConstants), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_ViewConstants) == sizeof(re::ViewConstants), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_GlobalConstants) == sizeof(re::GlobalConstants), "vfx_re_shaders:struct size mismatch");
+
+static_assert(alignof(VFX_RE_C_ClippingIndexSlice) == alignof(re::ClippingIndexSlice), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_InstanceConstants) == alignof(re::InstanceConstants), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_EntityConstants) == alignof(re::EntityConstants), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_ViewConstants) == alignof(re::ViewConstants), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_GlobalConstants) == alignof(re::GlobalConstants), "vfx_re_shaders:struct alignof mismatch");
+#endif 
+
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_LIGHTING
+#   import "REShaders/SharedLighting.h"
+#endif 
+
+#define VFX_SUPPORTS_CASCADED_SHADOW_MAPS 0
+
+#if defined(__OBJC__) && !defined(__cplusplus)
+typedef NS_ENUM(NSInteger, VFX_RE_C_MaxLightCounts)
+{
+    kVFXMaxLightCount = 8,
+    kVFXMaxDirectionalLightCount = 8,
+    kVFXMaxDirectionalUnshadowedLightCount = 8,
+    kVFXMaxPointLightCount = 1,
+    kVFXMaxPointUnshadowedLightCount = 8,
+    kVFXMaxSpotLightCount = 8,
+    kVFXMaxSpotUnshadowedLightCount = 8,
+    kVFXMaxAmbientLightCount = 8,
+    kVFXMaxRectangleUnshadowedLightCount = 8,
+    kVFXMaxRealWorldProxyLightCount = 1,
+    kVFXMaxSpotFilteredLightCount = 8,
+    kVFXMaxSpotFilteredUnshadowedLightCount = 8,
+    kVFXMaxPointFilteredLightCount = 1,
+    kVFXMaxPointFilteredUnshadowedLightCount = 8,
+#if VFX_SUPPORTS_CASCADED_SHADOW_MAPS
+    kVFXMaxCascadesPerLight = 3
+#else
+    kVFXMaxCascadesPerLight = 1
+#endif
+};
+#elif __METAL_VERSION__
+constant int kVFXMaxLightCount = 8;
+constant int kVFXMaxDirectionalLightCount = 8;
+constant int kVFXMaxDirectionalUnshadowedLightCount = 8;
+constant int kVFXMaxPointLightCount = 1;
+constant int kVFXMaxPointUnshadowedLightCount = 8;
+constant int kVFXMaxSpotLightCount = 8;
+constant int kVFXMaxSpotUnshadowedLightCount = 8;
+constant int kVFXMaxAmbientLightCount = 8;
+constant int kVFXMaxRectangleUnshadowedLightCount = 8;
+constant int kVFXMaxRealWorldProxyLightCount = 1;
+constant int kVFXMaxSpotFilteredLightCount = 8;
+constant int kVFXMaxSpotFilteredUnshadowedLightCount = 8;
+constant int kVFXMaxPointFilteredLightCount = 1;
+constant int kVFXMaxPointFilteredUnshadowedLightCount = 8;
+#if VFX_SUPPORTS_CASCADED_SHADOW_MAPS
+constant int kVFXMaxCascadesPerLight = 3;
+#else
+constant int kVFXMaxCascadesPerLight = 1;
+#endif
+
+#else
+constexpr int kVFXMaxLightCount = 8;
+constexpr int kVFXMaxDirectionalLightCount = 8;
+constexpr int kVFXMaxDirectionalUnshadowedLightCount = 8;
+constexpr int kVFXMaxPointLightCount = 1;
+constexpr int kVFXMaxPointUnshadowedLightCount = 8;
+constexpr int kVFXMaxSpotLightCount = 8;
+constexpr int kVFXMaxSpotUnshadowedLightCount = 8;
+constexpr int kVFXMaxAmbientLightCount = 8;
+constexpr int kVFXMaxRectangleUnshadowedLightCount = 8;
+constexpr int kVFXMaxRealWorldProxyLightCount = 1;
+constexpr int kVFXMaxSpotFilteredLightCount = 8;
+constexpr int kVFXMaxSpotFilteredUnshadowedLightCount = 8;
+constexpr int kVFXMaxPointFilteredLightCount = 1;
+constexpr int kVFXMaxPointFilteredUnshadowedLightCount = 8;
+#if VFX_SUPPORTS_CASCADED_SHADOW_MAPS
+constexpr int kVFXMaxCascadesPerLight = 3;
+#else
+constexpr int kVFXMaxCascadesPerLight = 1;
+#endif
+#endif 
+
+typedef struct
+{
+    int directionalUnshadowedLightsCount;
+    int directionalLightsCount;
+    int pointUnshadowedLightsCount;
+    int pointLightsCount;
+    int spotUnshadowedLightsCount;
+    int spotLightsCount;
+    int ambientLightsCount;
+    int rectangularLightsCount;
+    int realWorldProxyLightsCount;
+    int spotFilteredUnshadowedLightsCount;
+    int spotFilteredLightsCount;
+    int pointFilteredUnshadowedLightsCount;
+    int pointFilteredLightsCount;
+    int globalDirectionalLightCount;
+} VFX_RE_C_LightCounts;
+
+
+typedef struct
+{
+    simd_float3 intensity;
+    simd_float3 direction;
+    simd_float4x4 lightViewFromCrWorldMatrix;
+    simd_float4x4 lightProjFromViewMatrix;
+    
+    
+    simd_float4 shadowMapTile;
+    float shadowBias;
+    float texelSize;
+
+    
+    
+    simd_float4x4 lightProjFromCrWorldMatrix;
+
+#if REVFX_SUPPORTS_CASCADED_SHADOW_MAPS
+    
+    
+    
+    struct {
+        simd_float4x4 lightProjFromViewMatrix;
+        simd_float4 shadowMapTile;
+        float texelSize;
+        simd_float4x4 lightProjFromCrWorldMatrix;
+    } cascades[kVFXMaxCascadesPerLight - 1];
+
+    
+    int cascadeCount;
+#endif 
+} VFX_RE_C_LightDirectional;
+
+typedef struct
+{
+    simd_float3 intensity;
+    simd_float3 crWorldPosition;
+    simd_float4x4 lightViewFromCrWorldMatrices[6];
+    simd_float4x4 lightProjFromViewMatrix;
+    
+    
+    simd_float4 shadowMapTiles[6];
+    float shadowBias;
+    
+    float inverseAttenuationRadiusSquared;
+    
+    
+    simd_float4 filterMapTiles[1];
+    float near;
+    bool nearAttenuation;
+} VFX_RE_C_LightPoint;
+
+typedef struct
+{
+    simd_float3 intensity;
+    simd_float3 crWorldPosition;
+    simd_float4x4 lightViewFromCrWorldMatrix;
+    simd_float4x4 lightProjFromViewMatrix;
+    simd_float4x4 lightProjFromCrWorldMatrix;
+    
+    
+    simd_float4 shadowMapTile;
+    float shadowBias;
+    
+    float inverseAttenuationRadiusSquared;
+    
+    float spotAngleAttenuationScale;
+    float spotAngleAttenuationOffset;
+    
+    
+    simd_float4 filterMapTile;
+    float near;
+    bool nearAttenuation;
+} VFX_RE_C_LightSpot;
+
+
+typedef struct
+{
+    simd_float3 intensity;
+    simd_float3 direction;
+    simd_float4x4 lightViewFromCrWorldMatrix;
+    simd_float4x4 lightProjFromViewMatrix;
+    
+    
+    simd_float4 shadowMapTile;
+    float shadowBias;
+    float texelSize;
+    simd_float4x4 lightProjFromCrWorldMatrix;
+} VFX_RE_C_LightRealWorldProxy;
+
+typedef struct
+{
+    simd_float3 intensity;
+} VFX_RE_C_LightAmbient;
+
+typedef struct
+{
+    simd_float3 intensity;
+    
+    
+    
+    
+    
+    simd_float4x3 crwsRectVerts;
+    bool doubleSided;
+} VFX_RE_C_LightRectangle;
+
+typedef struct VFX_RE_C_LightConstantBuffer_s
+{
+    VFX_RE_C_LightCounts counts;
+    VFX_RE_C_LightDirectional directionalUnshadowedLights[kVFXMaxDirectionalUnshadowedLightCount];
+    VFX_RE_C_LightDirectional directionalLights[kVFXMaxDirectionalLightCount];
+    VFX_RE_C_LightPoint pointUnshadowedLights[kVFXMaxPointUnshadowedLightCount];
+    VFX_RE_C_LightPoint pointLights[kVFXMaxPointLightCount];
+    VFX_RE_C_LightSpot spotUnshadowedLights[kVFXMaxSpotUnshadowedLightCount];
+    VFX_RE_C_LightSpot spotLights[kVFXMaxSpotLightCount];
+    VFX_RE_C_LightAmbient ambientLights[kVFXMaxAmbientLightCount];
+    VFX_RE_C_LightRectangle rectangularLights[kVFXMaxRectangleUnshadowedLightCount];
+    VFX_RE_C_LightRealWorldProxy realWorldProxyLights[kVFXMaxRealWorldProxyLightCount];
+    VFX_RE_C_LightSpot spotFilteredUnshadowedLights[kVFXMaxSpotFilteredUnshadowedLightCount];
+    VFX_RE_C_LightSpot spotFilteredLights[kVFXMaxSpotFilteredLightCount];
+    VFX_RE_C_LightPoint pointFilteredUnshadowedLights[kVFXMaxPointFilteredUnshadowedLightCount];
+    VFX_RE_C_LightPoint pointFilteredLights[kVFXMaxPointFilteredLightCount];
+    VFX_RE_C_LightDirectional globalDirectionalLight;
+    uint32_t unshadowedLightsDropped;
+    uint32_t shadowedLightsDropped;
+    
+#if VFX_SUPPORTS_CASCADED_SHADOW_MAPS
+    
+#else
+    uint8_t padding[16];
+#endif
+#if TARGET_OS_SIMULATOR
+#if TARGET_OS_VISION
+    
+#else
+    
+    
+#if VFX_SUPPORTS_CASCADED_SHADOW_MAPS
+    
+#else
+    uint8_t paddingForIOSSimulator[64];
+#endif
+#endif
+#endif
+} VFX_RE_C_LightConstantBuffer;
+
+#if defined(__cplusplus)
+static_assert(sizeof(struct VFX_RE_C_LightConstantBuffer_s) % 32 == 0, "LightConstantBuffer requires a multiple of 32-byte size for use in Metal Constant Buffers");
+#endif
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_LIGHTING
+typedef re::LightSpot LightSpot;
+typedef re::LightDirectional LightDirectional;
+typedef re::LightPoint LightPoint;
+typedef re::LightCounts LightCounts;
+typedef re::LightRealWorldProxy LightRealWorldProxy;
+typedef re::LightAmbient LightAmbient;
+typedef re::LightRectangle LightRectangle;
+typedef re::LightConstantBuffer LightConstantBuffer;
+typedef re::IBLConstants IBLConstants;
+#else
+typedef VFX_RE_C_LightSpot LightSpot;
+typedef VFX_RE_C_LightDirectional LightDirectional;
+typedef VFX_RE_C_LightPoint LightPoint;
+typedef VFX_RE_C_LightCounts LightCounts;
+typedef VFX_RE_C_LightRealWorldProxy LightRealWorldProxy;
+typedef VFX_RE_C_LightAmbient LightAmbient;
+typedef VFX_RE_C_LightRectangle LightRectangle;
+typedef VFX_RE_C_LightConstantBuffer LightConstantBuffer;
+typedef VFX_RE_C_IBLConstants IBLConstants;
+#endif 
+
+
+#if !VFX_IMPORT_RE_SHADERS_SHARED_LIGHTING
+#   if defined(__OBJC__) && !defined(__cplusplus)
+typedef NS_ENUM(int32_t, MaxLightCounts)
+{
+    kMaxLightCount = kVFXMaxLightCount,
+    kMaxDirectionalLightCount = kVFXMaxDirectionalLightCount,
+    kMaxDirectionalUnshadowedLightCount = kVFXMaxDirectionalUnshadowedLightCount,
+    kMaxPointLightCount = kVFXMaxPointLightCount,
+    kMaxPointUnshadowedLightCount = kVFXMaxPointUnshadowedLightCount,
+    kMaxSpotLightCount = kVFXMaxSpotLightCount,
+    kMaxSpotUnshadowedLightCount = kVFXMaxSpotUnshadowedLightCount,
+    kMaxAmbientLightCount = kVFXMaxAmbientLightCount,
+    kMaxRectangleUnshadowedLightCount = kVFXMaxRectangleUnshadowedLightCount,
+    kMaxRealWorldProxyLightCount = kVFXMaxRealWorldProxyLightCount,
+    kMaxSpotFilteredLightCount = kVFXMaxSpotFilteredLightCount,
+    kMaxSpotFilteredUnshadowedLightCount = kVFXMaxSpotFilteredUnshadowedLightCount,
+    kMaxPointFilteredLightCount = kVFXMaxPointFilteredLightCount,
+    kMaxPointFilteredUnshadowedLightCount = kVFXMaxPointFilteredUnshadowedLightCount
+};
+#   elif __METAL_VERSION__
+constant int kMaxLightCount = kVFXMaxLightCount;
+constant int kMaxDirectionalLightCount = kVFXMaxDirectionalLightCount;
+constant int kMaxDirectionalUnshadowedLightCount = kVFXMaxDirectionalUnshadowedLightCount;
+constant int kMaxPointLightCount = kVFXMaxPointLightCount;
+constant int kMaxPointUnshadowedLightCount = kVFXMaxPointUnshadowedLightCount;
+constant int kMaxSpotLightCount = kVFXMaxSpotLightCount;
+constant int kMaxSpotUnshadowedLightCount = kVFXMaxSpotUnshadowedLightCount;
+constant int kMaxAmbientLightCount = kVFXMaxAmbientLightCount;
+constant int kMaxRectangleUnshadowedLightCount = kVFXMaxRectangleUnshadowedLightCount;
+constant int kMaxRealWorldProxyLightCount = kVFXMaxRealWorldProxyLightCount;
+constant int kMaxSpotFilteredLightCount = kVFXMaxSpotFilteredLightCount;
+constant int kMaxSpotFilteredUnshadowedLightCount = kVFXMaxSpotFilteredUnshadowedLightCount;
+constant int kMaxPointFilteredLightCount = kVFXMaxPointFilteredLightCount;
+constant int kMaxPointFilteredUnshadowedLightCount = kVFXMaxPointFilteredUnshadowedLightCount;
+#   else
+constexpr int kMaxLightCount = kVFXMaxLightCount;
+constexpr int kMaxDirectionalLightCount = kVFXMaxDirectionalLightCount;
+constexpr int kMaxDirectionalUnshadowedLightCount = kVFXMaxDirectionalUnshadowedLightCount;
+constexpr int kMaxPointLightCount = kVFXMaxPointLightCount;
+constexpr int kMaxPointUnshadowedLightCount = kVFXMaxPointUnshadowedLightCount;
+constexpr int kMaxSpotLightCount = kVFXMaxSpotLightCount;
+constexpr int kMaxSpotUnshadowedLightCount = kVFXMaxSpotUnshadowedLightCount;
+constexpr int kMaxAmbientLightCount = kVFXMaxAmbientLightCount;
+constexpr int kMaxRectangleUnshadowedLightCount = kVFXMaxRectangleUnshadowedLightCount;
+constexpr int kMaxRealWorldProxyLightCount = kVFXMaxRealWorldProxyLightCount;
+constexpr int kMaxSpotFilteredLightCount = kVFXMaxSpotFilteredLightCount;
+constexpr int kMaxSpotFilteredUnshadowedLightCount = kVFXMaxSpotFilteredUnshadowedLightCount;
+constexpr int kMaxPointFilteredLightCount = kVFXMaxPointFilteredLightCount;
+constexpr int kMaxPointFilteredUnshadowedLightCount = kVFXMaxPointFilteredUnshadowedLightCount;
+#   endif 
+
+#endif 
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_LIGHTING && defined(__cplusplus) && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+static_assert(sizeof(VFX_RE_C_LightCounts) == sizeof(re::LightCounts), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightDirectional) == sizeof(re::LightDirectional), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightPoint) == sizeof(re::LightPoint), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightSpot) == sizeof(re::LightSpot), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightRealWorldProxy) == sizeof(re::LightRealWorldProxy), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightAmbient) == sizeof(re::LightAmbient), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightRectangle) == sizeof(re::LightRectangle), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_IBLConstants) == sizeof(re::IBLConstants), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LightConstantBuffer) == sizeof(re::LightConstantBuffer), "vfx_re_shaders:struct size mismatch");
+
+static_assert(alignof(VFX_RE_C_LightCounts) == alignof(re::LightCounts), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightDirectional) == alignof(re::LightDirectional), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightPoint) == alignof(re::LightPoint), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightSpot) == alignof(re::LightSpot), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightAmbient) == alignof(re::LightAmbient), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightRectangle) == alignof(re::LightRectangle), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_IBLConstants) == alignof(re::IBLConstants), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LightConstantBuffer) == alignof(re::LightConstantBuffer), "vfx_re_shaders:struct size mismatch");
+
+static_assert(kVFXMaxLightCount == kMaxLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxDirectionalLightCount == kMaxDirectionalLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxDirectionalUnshadowedLightCount == kMaxDirectionalUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxPointLightCount == kMaxPointLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxPointUnshadowedLightCount == kMaxPointUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxSpotLightCount == kMaxSpotLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxSpotUnshadowedLightCount == kMaxSpotUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxAmbientLightCount == kMaxAmbientLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxRectangleUnshadowedLightCount == kMaxRectangleUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxRealWorldProxyLightCount == kMaxRealWorldProxyLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxSpotFilteredLightCount == kMaxSpotFilteredLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxSpotFilteredUnshadowedLightCount == kMaxSpotFilteredUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxPointFilteredLightCount == kMaxPointFilteredLightCount, "vfx_re_shaders:light count mismatch");
+static_assert(kVFXMaxPointFilteredUnshadowedLightCount == kMaxPointFilteredUnshadowedLightCount, "vfx_re_shaders:light count mismatch");
+#endif 
+
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_CLIPPING
+#  import "REShaders/Clipping.h"
+#endif 
+
+typedef struct
+{
+    simd_float4 toUnitClippingSpaceXAndOriginX;
+    simd_float4 toUnitClippingSpaceYAndOriginY;
+    simd_float4 toUnitClippingSpaceZAndOriginZ;
+
+    
+    
+    simd_float3 padding;
+} VFX_RE_C_ClippingParametersEntry;
+#if defined(__OBJC__) && !defined(__cplusplus)
+typedef NS_ENUM(int32_t, VFX_RE_C_ClippingConstantsConstants)
+{
+    kREVFXMaxNumClippingParameters = 1024,
+    kREVFXMaxNumClippingIndices = 16384,
+    kREVFXMaxDynamicClippingPrimitivesPerMesh = 32
+};
+#elif __METAL_VERSION__
+constant int kREVFXMaxNumClippingParameters = 1024;
+constant int kREVFXMaxNumClippingIndices = 16384;
+constant ushort kREVFXMaxDynamicClippingPrimitivesPerMesh = 32;
+#else
+constexpr int kREVFXMaxNumClippingParameters = 1024;
+constexpr int kREVFXMaxNumClippingIndices = 16384;
+constexpr ushort kREVFXMaxDynamicClippingPrimitivesPerMesh = 32;
+#endif
+
+typedef struct REVFXClippingRoundedCornerParametersEntry_s
+{
+    simd_float4 dimensionFactors;
+    simd_ushort4 textureIndices;
+    simd_float2 blendWeights;
+} VFX_RE_C_ClippingRoundedCornerParametersEntry;
+
+typedef struct VFX_RE_SHADERS_ALIGN_AS(256) VFX_RE_C_ClippingConstants_s
+{
+    VFX_RE_C_ClippingParametersEntry clippingParameters[kREVFXMaxNumClippingParameters];
+    uint16_t indexIndirection[kREVFXMaxNumClippingIndices];
+    VFX_RE_C_ClippingRoundedCornerParametersEntry roundedCornerParameters[kREVFXMaxNumClippingParameters];
+} VFX_RE_C_ClippingConstants;
+
+#if VFX_IMPORT_RE_SHADERS_CLIPPING
+typedef re::ClippingParametersEntry ClippingParametersEntry;
+typedef re::ClippingRoundedCornerParametersEntry ClippingRoundedCornerParametersEntry;
+typedef re::ClippingConstants ClippingConstants;
+#else
+typedef VFX_RE_C_ClippingParametersEntry ClippingParametersEntry;
+typedef VFX_RE_C_ClippingRoundedCornerParametersEntry ClippingRoundedCornerParametersEntry;
+typedef VFX_RE_C_ClippingConstants ClippingConstants;
+#endif 
+
+#if VFX_IMPORT_RE_SHADERS_CLIPPING && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+static_assert(sizeof(VFX_RE_C_ClippingParametersEntry) == sizeof(re::ClippingParametersEntry), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_ClippingRoundedCornerParametersEntry) == sizeof(re::ClippingRoundedCornerParametersEntry), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_ClippingConstants) == sizeof(re::ClippingConstants), "vfx_re_shaders:struct size mismatch");
+
+static_assert(alignof(VFX_RE_C_ClippingParametersEntry) == alignof(re::ClippingParametersEntry), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_ClippingRoundedCornerParametersEntry) == alignof(re::ClippingRoundedCornerParametersEntry), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_ClippingConstants) == alignof(re::ClippingConstants), "vfx_re_shaders:struct alignof mismatch");
+#endif 
+
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_PROBES
+#  import "REShaders/SharedProbeConstants.h"
+#  import "REShaders/SharedProbe.h"
+#endif
+
+
+
+
+#if __METAL_VERSION__
+
+constant uint kVFXMaxLocalizedProbeCountDefault = 4;
+
+constant uint kVFXMaxGlobalProbeCountDefault = 3;
+#elif defined(__cplusplus)
+constexpr uint kVFXMaxLocalizedProbeCountDefault = 4;
+constexpr uint kVFXMaxGlobalProbeCountDefault = 3;
+#else
+typedef NS_ENUM(NSInteger, VFX_RE_C_MaxProbeCountDefault)
+{
+    kVFXMaxLocalizedProbeCountDefault = 4,
+    kVFXMaxGlobalProbeCountDefault = 3
+};
+#endif 
+
+
+
+#if TARGET_OS_VISION
+
+#if __METAL_VERSION__
+
+constant uint kVFXMaxLocalizedProbeCount = 0;
+
+constant uint kVFXMaxGlobalProbeCount = 2;
+#elif defined(__cplusplus)
+constexpr uint kVFXMaxLocalizedProbeCount = 0;
+constexpr uint kVFXMaxGlobalProbeCount = 2;
+#else
+typedef NS_ENUM(NSInteger, VFX_RE_C_MaxProbeCount)
+{
+    kVFXMaxLocalizedProbeCount = 0,
+    kVFXMaxGlobalProbeCount = 2
+};
+#endif 
+
+#else 
+
+#if __METAL_VERSION__
+constant uint kVFXMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCountDefault;
+constant uint kVFXMaxGlobalProbeCount = kVFXMaxGlobalProbeCountDefault;
+#elif defined(__cplusplus)
+constexpr uint kVFXMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCountDefault;
+constexpr uint kVFXMaxGlobalProbeCount = kVFXMaxGlobalProbeCountDefault;
+#else
+typedef NS_ENUM(NSInteger, VFX_RE_C_MaxProbeCount)
+{
+    kVFXMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCountDefault,
+    kVFXMaxGlobalProbeCount = kVFXMaxGlobalProbeCountDefault
+};
+#endif 
+
+#endif 
+
+typedef struct
+{
+    uint32_t localizedProbeCount;
+    uint32_t globalProbeCount;
+} VFX_RE_C_ProbeCounts;
+
+typedef struct
+{
+    simd_float3x3 axes;
+    simd_float3 parallaxCenter;
+    simd_float3 parallaxScale;
+    float minScale; 
+    float fadeDistance;
+    
+    float weight;
+    
+    float crossWeight;
+    float clippingPointLux;
+    uint32_t textureSlice;
+    uint32_t crossSlice;
+    float crossClippingPointLux;
+} VFX_RE_C_LocalizedProbeConstant;
+
+typedef struct
+{
+    simd_float3x3 axes;
+    simd_float3 parallaxCenter;
+    simd_float3 parallaxScale;
+    float radius; 
+    
+    float weight;
+    
+    float crossWeight;
+    float clippingPointLux;
+    uint32_t textureSlice;
+    uint32_t crossSlice;
+    float crossClippingPointLux;
+} VFX_RE_C_GlobalProbeConstant;
+
+typedef struct VFX_RE_C_ProbeConstantBuffer_s
+{
+    VFX_RE_C_ProbeCounts counts;
+    bool enableLegacyBlur;
+    float probeIntensityScale;
+    VFX_RE_C_LocalizedProbeConstant localizedProbes[kVFXMaxLocalizedProbeCountDefault];
+    VFX_RE_C_GlobalProbeConstant globalProbes[kVFXMaxGlobalProbeCountDefault];
+    
+    simd_float3x3 combinedMatrix;
+    float probeClampFloor;
+    float probeClampCeil;
+} VFX_RE_C_ProbeConstantBuffer;
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_PROBES
+typedef re::ProbeCounts ProbeCounts;
+typedef re::LocalizedProbeConstant LocalizedProbeConstant;
+typedef re::GlobalProbeConstant GlobalProbeConstant;
+typedef re::ProbeConstantBuffer ProbeConstantBuffer;
+constant uint32_t kMaxLocalizedProbeCount = re::kMaxLocalizedProbeCount;
+constant uint32_t kMaxGlobalProbeCount = re::kMaxGlobalProbeCount;
+#else
+typedef VFX_RE_C_ProbeCounts ProbeCounts;
+typedef VFX_RE_C_LocalizedProbeConstant LocalizedProbeConstant;
+typedef VFX_RE_C_GlobalProbeConstant GlobalProbeConstant;
+typedef VFX_RE_C_ProbeConstantBuffer ProbeConstantBuffer;
+#  if __METAL_VERSION__
+constant uint32_t kMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCount;
+constant uint32_t kMaxGlobalProbeCount = kVFXMaxGlobalProbeCount;
+#  elif defined(__cplusplus)
+constexpr uint32_t kMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCount;
+constexpr uint32_t kMaxGlobalProbeCount = kVFXMaxGlobalProbeCount;
+#  endif
+#endif 
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_PROBES && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+static_assert(sizeof(VFX_RE_C_ProbeCounts) == sizeof(re::ProbeCounts), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LocalizedProbeConstant) == sizeof(re::LocalizedProbeConstant), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_GlobalProbeConstant) == sizeof(re::GlobalProbeConstant), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_ProbeConstantBuffer) == sizeof(re::ProbeConstantBuffer), "vfx_re_shaders:struct size mismatch");
+
+static_assert(alignof(VFX_RE_C_ProbeCounts) == alignof(re::ProbeCounts), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LocalizedProbeConstant) == alignof(re::LocalizedProbeConstant), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_GlobalProbeConstant) == alignof(re::GlobalProbeConstant), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_ProbeConstantBuffer) == alignof(re::ProbeConstantBuffer), "vfx_re_shaders:struct alignof mismatch");
+
+static_assert(kVFXMaxLocalizedProbeCount == re::kMaxLocalizedProbeCount, "vfx_re_shaders:max probe count mismatch");
+static_assert(kVFXMaxGlobalProbeCount == re::kMaxGlobalProbeCount, "vfx_re_shaders:max probe count mismatch");
+#endif 
+
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_VIRTUAL_ENV_PROBES
+#  import <REShaders/SharedVirtualEnvironmentProbes.h>
+#endif
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_BREAKTHROUGH
+#  import <REShaders/SharedBreakthrough.h>
+#endif
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_BREAKTHROUGH
+typedef re::BreakthroughGPUData BreakthroughGPUData;
+#elif defined(__METAL_VERSION__)
+struct BreakthroughGPUData;
+#endif
+
+
+
+
+typedef VFX_RE_SHADERS_ENUM(int32_t) {
+    revfx_portal_clipping_mode_none                 = 0,
+    revfx_portal_clipping_mode_clipping             = 1,
+    revfx_portal_clipping_mode_crossing_inside      = 2,
+    revfx_portal_clipping_mode_crossing_outside     = 3,
+    revfx_portal_clipping_mode_no_clipping_inside   = 4,
+    revfx_portal_clipping_mode_count
+} revfx_portal_clipping_mode;
+
+#define VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED 1
+#define VFX_RE_RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION (!TARGET_OS_SIMULATOR)
+
+
+typedef VFX_RE_SHADERS_ENUM(int32_t)
+{
+    revfx_function_constants_EdgeBevelShadowMode,
+    revfx_function_constants_EnableGlow,
+    revfx_function_constants_EnableNormalMap,
+    revfx_function_constants_EnableDetailMapping,
+    revfx_function_constants_EnableIBL,
+    revfx_function_constants_EnableAreaLight,
+    revfx_function_constants_EnableRMAS,
+    revfx_function_constants_EnableSeparateRMAS,
+    revfx_function_constants_EnableSRGBOutput,
+    revfx_function_constants_EnableTransparency,
+    revfx_function_constants_DiffuseOption,
+    revfx_function_constants_EnableLightmap,
+    revfx_function_constants_EnableDynamicLighting,
+    revfx_function_constants_EnableNdfFiltering,
+    revfx_function_constants_LodCrossFading,
+    revfx_function_constants_EnableAlphaCutoutShadows,
+    revfx_function_constants_EnableScreenSpaceAdaptiveTessellation,
+    revfx_function_constants_EnableUnlitTexture,
+    revfx_function_constants_EnableAREnvProbe,
+    revfx_function_constants_EnableSRGBToLinearConversion,
+    revfx_function_constants_EnableBaseColorMap,
+    revfx_function_constants_EnableEmissiveMap,
+    revfx_function_constants_EnableRoughnessMap,
+    revfx_function_constants_EnableMetallicMap,
+    revfx_function_constants_EnableAOMap,
+    revfx_function_constants_EnableSpecularMap,
+    revfx_function_constants_EnableClearcoat,
+    revfx_function_constants_EnableVertexColor,
+    revfx_function_constants_VertexColorOption,
+    revfx_function_constants_ShadowPcfFilterOption,
+    revfx_function_constants_EnableOpacityMap,
+    revfx_function_constants_UseBaseColorMapAsTintMask,
+    revfx_function_constants_EnableTension,
+    revfx_function_constants_EnableOpacityThreshold,
+    revfx_function_constants_EnablePerTileLightCulling,
+    revfx_function_constants_EnableClipping,
+    revfx_function_constants_EnableCloth,
+    revfx_function_constants_EnableCustomBlend,
+    revfx_function_constants_EnablePassthrough,
+    revfx_function_constants_EnableSSAO,
+    revfx_function_constants_EnableSSDO,
+    revfx_function_constants_EnableDebug,
+    revfx_function_constants_EnableSphericalSkybox,
+    revfx_function_constants_MeshShadow,
+    revfx_function_constants_EnableSamplerArray,
+    revfx_function_constants_EnablePassthroughBlurPlane,
+    revfx_function_constants_EnableDitherFade,
+    revfx_function_constants_EnableProjectiveShadow,
+    revfx_function_constants_EnablePostProcessBlur,
+    revfx_function_constants_BaseColorHasPremultipliedAlpha,
+    revfx_function_constants_EnableMultiUVs,
+    revfx_function_constants_EnableVRROnCapableDevice,
+    revfx_function_constants_AllowAlphaBlendingWithOpacityThreshold,
+    revfx_function_constants_EnableAnisotropy,
+    revfx_function_constants_EnablePlanarReflection,
+    revfx_function_constants_SupportsCubeArray,
+    revfx_function_constants_EnableBlurMeshScaling,
+    revfx_function_constants_SupportsPrefilteredProbes,
+    revfx_function_constants_EnableMultiscatter,
+    revfx_function_constants_EnableShaderColorToLinearConversion,
+    revfx_function_constants_EnablePtCrossing,
+    revfx_function_constants_EnableFoveatedCARendering,
+    revfx_function_constants_EnableInstancing,
+    revfx_function_constants_EnableIBLRotation,
+    revfx_function_constants_EnableIBLDirectionsBend,
+    revfx_function_constants_EnableWorldSpaceNormalMap,
+    revfx_function_constants_EnablePlatter,
+    revfx_function_constants_EnableVCABlurPlane,
+    revfx_function_constants_SpecularOption,
+    revfx_function_constants_EnableShadowedDynamicLight,
+    revfx_function_constants_EnableCAEdgeBevel,
+    revfx_function_constants_EnableCAShaderDebug,
+    revfx_function_constants_EnableCAPerEyeTransform,
+    revfx_function_constants_EnableInset,
+    revfx_function_constants_VideoPlaybackOption,
+    revfx_function_constants_EnableTriPlanarVideoSupport,
+    revfx_function_constants_EnableInverseToneMapping,
+#if VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED
+    revfx_function_constants_EyeFilter,
+    revfx_function_constants_ExperienceMode,
+    revfx_function_constants_EnableHDRCroppingUVRemapping,
+#endif
+    revfx_function_constants_EnableSurfaceShaderCustomParams,
+    revfx_function_constants_EnableSurfaceShaderWithCustomParams,
+    revfx_function_constants_EnableGeometryModifierWithCustomParams,
+    revfx_function_constants_CAEdgeSpecularMode,
+    revfx_function_constants_EnableVideoColorSpaceConversion,
+    revfx_function_constants_EnableVideoColorSpaceTransformation,
+    revfx_function_constants_IsPtSurface,
+    revfx_function_constants_EnableSurfaceShaderPremultipliedOutput,
+    revfx_function_constants_RenderToCompositeLayer,
+    revfx_function_constants_EnableDepthMitigation,
+    revfx_function_constants_EnableBtMask,
+    revfx_function_constants_EnableTonemapInPlace,
+    revfx_function_constants_EnableDragUIShadow,
+    revfx_function_constants_EnableVideoColorTransformation,
+    revfx_function_constants_EnableBtTransition,
+    revfx_function_constants_UseFullscreenQuadForImmersionMask,
+    revfx_function_constants_UseDirectionalLight,
+    revfx_function_constants_EnableUserEnvironment,
+    revfx_function_constants_DisableFoveatedCA,
+    revfx_function_constants_EnableRuntimeFunctionConstants,
+    revfx_function_constants_EnableScreenVideoLetterBoxPadding,
+    revfx_function_constants_EnableREShadersTonemapInPlace,
+    revfx_function_constants_RenderForBlur,
+    revfx_function_constants_EnableNearFieldVignetting,
+    revfx_function_constants_EnableCAPreSamplerDegamma,
+    revfx_function_constants_GlobalProbeCount,
+    revfx_function_constants_LocalProbeCount,
+    revfx_function_constants_EnableCrossBlending,
+    revfx_function_constants_EnableSpecularPerQuadRoughness,
+    revfx_function_constants_EnableCAVertexObjPos,
+    revfx_function_constants_PerceptualBlendingMode,
+    revfx_function_constants_MatchUnlitColor,
+    revfx_function_constants_EnableEdgeAnalyticAA,
+    revfx_function_constants_EnableSpatialFocus,
+    revfx_function_constants_EnableNonVRRAnisotropy,
+    revfx_function_constants_EnableSurfaceShaderColorDithering,
+    revfx_function_constants_EnablePlatterFakeFresnel,
+    revfx_function_constants_SurfaceShaderAttributeSet,
+    revfx_function_constants_EnablePlatterContainerSDF,
+    revfx_function_constants_EnableCALayerSurfaceShaderConstants,
+    revfx_function_constants_EnableSurfaceShaderVideo,
+    revfx_function_constants_EnableSurfaceShaderEnvInputs,
+    revfx_function_constants_EnablePlatterSpecularViewAngleFade,
+    revfx_function_constants_DitherMode,
+    revfx_function_constants_EnableSampleMaskReadWrite,
+    revfx_function_constants_DisableFadeOpacity,
+    revfx_function_constants_EnableDitherFadeOverride,
+    revfx_function_constants_DisableSystemTreatmentOpacity,
+    revfx_function_constants_EnablePtClipPlane,
+    revfx_function_constants_EnableVideoEdgeAnalyticAA,
+    revfx_function_constants_PortalClippingMode,
+    revfx_function_constants_EnableDepthDither,
+    revfx_function_constants_EnableSurfaceShaderMeshShadow,
+    revfx_function_constants_IsPointPrimitive,
+    revfx_function_constants_EnableProgrammableBlending,
+    revfx_function_constants_EnableManualVertexFetch,
+    revfx_function_constants_EnableAdditiveBlending,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableEscapedLayer,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex11,
+#endif
+    revfx_function_constants_VideoSamplingMode,
+    revfx_function_constants_FunctionConstantPlaceholderIndex12,
+    revfx_function_constants_EnableSurfaceShaderLighting,
+    revfx_function_constants_EnableVirtualEnvironmentProbes,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableTexturePlatterMask,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex13,
+#endif
+    revfx_function_constants_EnableClearcoatNormalMap,
+    revfx_function_constants_EnableIBLBlending,
+#if VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED
+    revfx_function_constants_EnableIMDynamicMask,
+    revfx_function_constants_EnableIMMonoMask,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex14,
+    revfx_function_constants_FunctionConstantPlaceholderIndex15,
+#endif
+    revfx_function_constants_EnableBarycentricCoordinates,
+    revfx_function_constants_EnableISPTonemap,
+#if VFX_RE_RE_VIDEO_VRR_SUPPORTED
+    revfx_function_constants_EnableVideoVrrRendering,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex16,
+#endif
+    revfx_function_constants_UseSDFVertDistanceForFakeFresnel,
+    revfx_function_constants_EnableShaderGraphLightSpill,
+    revfx_function_constants_EnableVideoColorInvert,
+    revfx_function_constants_SupportsQuadReduction,
+    revfx_function_constants_EnableVideoLegacyMode,
+    revfx_function_constants_EnableCustomTextureArray,
+    revfx_function_constants_EnableInvertColors,
+    revfx_function_constants_EnableInvertBlurColorMatrix,
+    revfx_function_constants_ImmersivePortalShadersFastPath,
+#if UNAUDITED_SUPPORTS_XR_RENDER_SERVER_OR_TOOLS
+    revfx_function_constants_EnableDitherFadeNFV,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex17,
+#endif
+    revfx_function_constants_EnableOpenSubDivViewBasedCulling,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableVideoSpecularAndFresnel,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex18,
+#endif
+    revfx_function_constants_UseVCOnlyBlur,
+    revfx_function_constants_EnableLightClustering,
+    revfx_function_constants_PortalEnableProbeLightingBlend,
+    revfx_function_constants_FunctionConstantEnableVideoSpatialRendering,
+#if VFX_RE_RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+    revfx_function_constants_IsVisualDepthStaticOcclusionTextureAvailable,
+    revfx_function_constants_EnableVisualDepthStaticOcclusion,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex19,
+    revfx_function_constants_FunctionConstantPlaceholderIndex21,
+#endif
+    revfx_function_constants_VideoTriangleFillMode,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableImageSpecularAndFresnel,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex20,
+#endif
+    revfx_function_constants_EnableWrapLighting,
+    revfx_function_constants_EnableThicknessMap,
+    revfx_function_constants_EnableSphericalGaussian,
+    revfx_function_constants_EnableSSS,
+    revfx_function_constants_EnableSSSAndIBL,
+    revfx_function_constants_SystemEnvironmentsFastPath,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableCAStereoContent,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex22,
+#endif
+    revfx_function_constants_EnableVideoFoveaRendering,
+    revfx_function_constants_EnableUIShadowReceiver,
+    revfx_function_constants_EnableOpenSubDivOutputTessellationFactors,
+    revfx_function_constants_EnablePrimitiveIdentifier,
+#if VFX_RE_RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+    revfx_function_constants_EnableSceneUnderstandingStaticOcclusion,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex23,
+#endif
+#if VFX_RE_UNAUDITED_SUPPORTS_XR_RENDER_SERVER_OR_TOOLS
+    revfx_function_constants_EnableBreakthroughMaskGeneration,
+    revfx_function_constants_EnableBlendingMaskGeneration,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex24,
+    revfx_function_constants_FunctionConstantPlaceholderIndex25,
+#endif
+    revfx_function_constants_SharedFunctionConstantCount
+} revfx_function_constants;
+
+#if VFX_IMPORT_RE_SHADERS_ENGINE_CONSTANTS && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+#  pragma clang diagnostic push
+#  pragma clang diagnostic ignored "-Wdeprecated-declarations"
+
+#define IMMERSIVE_MEDIA_SUPPORT_ENABLED VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED
+#define RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION VFX_RE_RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+
+#  import "REShaders/SharedFunctionConstants.h"
+
+static_assert((int32_t)revfx_function_constants_EnableNdfFiltering == (int32_t)kEnableNdfFilteringIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableAREnvProbe == (int32_t)kEnableAREnvProbeIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_SupportsCubeArray == (int32_t)kSupportsCubeArrayIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_SpecularOption == (int32_t)kSpecularOptionIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableRuntimeFunctionConstants == (int32_t)kEnableRuntimeFunctionConstantsIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableClipping == (int32_t)kEnableClippingIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableBtMask == (int32_t)kEnableBtMaskIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableDepthMitigation == (int32_t)kEnableDepthMitigationIndex, "vfx_re_shaders:function constant mismatch");
+#if RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+static_assert((int32_t)revfx_function_constants_EnableVisualDepthStaticOcclusion == (int32_t)kEnableVisualDepthStaticOcclusionIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableSceneUnderstandingStaticOcclusion == (int32_t)kEnableSceneUnderstandingStaticOcclusionIndex, "vfx_re_shaders:function constant mismatch");
+#endif
+
+#undef IMMERSIVE_MEDIA_SUPPORT_ENABLED
+#undef RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+
+
+
+#  pragma clang diagnostic pop
+#endif 
+
+#undef VFX_RE_SHADERS_ALIGN_AS
+#undef VFX_RE_SHADERS_ENUM
+
+struct re_entity_argument_buffer {
+#ifdef __METAL_VERSION__
+    metal::texture2d_array<half> breakthroughTextureArray;
+    constant BreakthroughGPUData* breakthroughData;
+    metal::texture2d<ushort> textureBreakthroughSDFMeshScene;
+    metal::texture2d<half> textureBreakthroughDepth;
+#else
+#if !TARGET_OS_SIMULATOR
+    MTLResourceID breakthroughTextureArray;
+    uint64_t breakthroughData;
+    MTLResourceID textureBreakthroughSDFMeshScene;
+    MTLResourceID textureBreakthroughDepth;
+#endif
+#endif
+};
+
+struct re_scene_argument_buffer {
+#ifdef __METAL_VERSION__
+    metal::texture2d<half> textureSpecMaxEss;
+    constant half* specMaxEssAvgTable;
+
+    constant ClippingConstants& clippingConstants;
+    metal::texture2d_array<float> clippingSdfTextureArray;
+
+    metal::texture2d<half> blueNoiseTexture;
+
+    metal::texture1d<half> ispTonemapLUT;
+    metal::texture2d<half> textureFilter;
+
+    constant ProbeConstantBuffer& probes;
+#if TARGET_OS_SIMULATOR
+    metal::texturecube<half> envProbeCube;
+    metal::texturecube<half> envProbeDiffuse;
+#else
+    metal::texturecube_array<half> envProbeCubeArray;
+    metal::texturecube_array<half> envProbeDiffuseArray;
+    metal::texture2d_array<half> envProbeTextureArray;
+    constant VirtualEnvironmentProbeLighting::TextureArgumentBuffer& virtualEnvProbeTextures;
+#endif
+    constant VirtualEnvironmentProbeLighting::ProbeConstantBuffer& virtualEnvProbeConstants;
+
+    metal::depth2d<float> textureShadow;
+
+    metal::texture2d_array<half> dmWarpedAlphaMask;
+
+    metal::texture2d_array<half> textureVisualDepth;
+    metal::texture2d_array<half> textureImmersiveEnvironmentMask;
+    metal::texture2d_array<half> textureSUOcclusionAlphaMask;
+
+#else 
+#if !TARGET_OS_SIMULATOR
+    MTLResourceID textureSpecMaxEss;
+    uint64_t specMaxEssAvgTable;
+
+    uint64_t clippingConstants;
+    MTLResourceID clippingSdfTextureArray;
+
+    MTLResourceID blueNoiseTexture;
+
+    MTLResourceID ispTonemapLUT;
+    MTLResourceID textureFilter;
+
+    uint64_t probes;
+    MTLResourceID envProbeCubeArray;
+    MTLResourceID envProbeDiffuseArray;
+    MTLResourceID envProbeTextureArray;
+    uint64_t virtualEnvProbeTextures;
+    uint64_t virtualEnvProbeConstants;
+
+    MTLResourceID textureShadow;
+
+    MTLResourceID dmWarpedAlphaMask;
+    
+    MTLResourceID textureVisualDepth;
+    MTLResourceID textureImmersiveEnvironmentMask;
+    MTLResourceID textureSUOcclusionAlphaMask;
+#endif
+#endif 
+};
+
+struct re_vfx_object_constants {
+    uint16_t render_options;
+    uint16_t perceptual_blending_mode;
+};
+
+#endif 
+ /* Error: Ran out of types for this method. */;
+- (id)g;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *bridgedComponentNames;

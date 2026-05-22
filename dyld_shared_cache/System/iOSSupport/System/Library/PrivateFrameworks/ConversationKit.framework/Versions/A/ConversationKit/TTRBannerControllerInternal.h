@@ -14,10 +14,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)G;
 
 // Remaining properties
 @property(nonatomic) __weak id <TTRBannerControllerDelegate> delegate; // @synthesize delegate;

@@ -11,9 +11,9 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
-- (CDUnknownBlockType)Æ;
+- (CDUnknownBlockType);
+- (void),D,;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

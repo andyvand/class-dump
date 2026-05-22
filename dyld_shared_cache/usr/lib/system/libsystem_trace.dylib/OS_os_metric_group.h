@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)atabase %{public}@ -> %{public}@;
+- (void);
 
 @end
 

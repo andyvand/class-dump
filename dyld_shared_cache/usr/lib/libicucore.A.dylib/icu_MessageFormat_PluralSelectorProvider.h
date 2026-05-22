@@ -5,7 +5,7 @@
 class icu::MessageFormat::PluralSelectorProvider {
 public: // (access info unavailable from symbols alone)
     PluralSelectorProvider(icu::MessageFormat const&, UPluralType);
-    reset();
-    select(void*, double, UErrorCode&) const;
+    auto reset();
+    auto select(void*, double, UErrorCode&) const;
     ~PluralSelectorProvider();
 };

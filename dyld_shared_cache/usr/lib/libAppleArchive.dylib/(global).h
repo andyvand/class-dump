@@ -4,5 +4,5 @@
 
 // Global C++ functions
 
-pc_array_init(unsigned long);
-pc_array_init(unsigned long, unsigned long);
+auto pc_array_init(unsigned long);
+auto pc_array_init(unsigned long, unsigned long);

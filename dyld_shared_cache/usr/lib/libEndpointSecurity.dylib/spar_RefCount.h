@@ -4,6 +4,6 @@
 
 class spar::RefCount {
 public: // (access info unavailable from symbols alone)
-    panicReleaseFromZeroRefCount();
-    panicRetainFromZeroRefCount();
+    auto panicReleaseFromZeroRefCount();
+    auto panicRetainFromZeroRefCount();
 };

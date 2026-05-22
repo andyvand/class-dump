@@ -21,26 +21,26 @@
     NSString *_triggerType;
 }
 
-+ (Class)³É;
++ (Class);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (_Bool);
-- (void)can only be edited on %@.;
-- (id)on,WFDestination,WFGetDirectionsActionMode,WFGetDirectionsActionApp;
-- (void)äïÿ;
-- (id)F×|CX;
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool)gIdentifier;
+- (void);
+- (void)response:(id)arg1 %@;
+- (void)@?@>24;
+- (void)$ð;
+- (_Bool)ucer;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;

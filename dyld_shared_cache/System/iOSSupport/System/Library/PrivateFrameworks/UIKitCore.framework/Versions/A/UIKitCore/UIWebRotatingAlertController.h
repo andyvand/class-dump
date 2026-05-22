@@ -14,13 +14,13 @@
     UIWebDocumentView *_webBrowserView;
 }
 
-- (id)0:(id)arg1 8@16@24B32@36@44;
-- (void)orRanges: /* Error: Ran out of types for this method. */;
-- (void)e item with new group name:%@ /* Error: Ran out of types for this method. */;
-- (void)for public sharing;
+- (id);
 - (void);
 - (void);
-- (_Bool)6;
+- (void);
+- (void);
+- (_Bool);
+- (void){`;
 
 @end
 

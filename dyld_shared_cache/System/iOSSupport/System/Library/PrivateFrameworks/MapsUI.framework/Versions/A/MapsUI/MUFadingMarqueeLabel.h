@@ -26,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (double);
-- (void);
+- (double)inSection: /* Error: Ran out of types for this method. */;
+- (void)Value:actionRichProviderId: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)TION;
 
 // Remaining properties
 @property(nonatomic) double initialDelay; // @synthesize initialDelay=_initialDelay;

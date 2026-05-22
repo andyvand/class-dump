@@ -29,8 +29,8 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void)ary"24;
 
 // Remaining properties
 @property(nonatomic) long long actionSetSectionIndex; // @synthesize actionSetSectionIndex=_actionSetSectionIndex;

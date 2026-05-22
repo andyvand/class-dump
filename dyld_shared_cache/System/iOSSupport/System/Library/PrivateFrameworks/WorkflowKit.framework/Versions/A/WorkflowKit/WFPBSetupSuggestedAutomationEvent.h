@@ -25,23 +25,23 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
+- (void);
+- (_Bool)t;
 - (unsigned int);
-- (_Bool);
-- (void),;
+- (_Bool)ðAPCD;
+- (void)bject on WFShortcutFolderWidgetConfigurationIntent:(id)arg1 %@;
+- (void)escription;
 
 // Remaining properties
 @property(nonatomic) _Bool completed; // @synthesize completed=_completed;

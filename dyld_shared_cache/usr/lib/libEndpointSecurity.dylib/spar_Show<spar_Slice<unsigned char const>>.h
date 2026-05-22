@@ -4,5 +4,5 @@
 
 class spar::Show<spar::Slice<unsigned char const>> {
 public: // (access info unavailable from symbols alone)
-    doShow(spar::Slice<unsigned char const>);
+    auto doShow(spar::Slice<unsigned char const>);
 };

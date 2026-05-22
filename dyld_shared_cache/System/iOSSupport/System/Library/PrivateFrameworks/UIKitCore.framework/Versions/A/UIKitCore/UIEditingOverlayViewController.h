@@ -11,13 +11,13 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)onOptions cannot be nil when creating a new UIScene!;
-- (void)øþ©;
-- (void)<|Nÿ;
+- (void)1b1b1b1}}24;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (void)Views:forSearchResult:inViewCoordinates: /* Error: Ran out of types for this method. */;
+- (void)dEmojiCategory;
+- (void)âîÿïÿØ÷îÿ;
+- (void)Høëþ;
+- (void)@o;
 
 @end
 

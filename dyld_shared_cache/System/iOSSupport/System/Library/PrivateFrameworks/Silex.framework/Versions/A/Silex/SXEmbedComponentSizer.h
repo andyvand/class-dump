@@ -17,7 +17,7 @@
 - (id);
 - (struct _NSRange);
 - (double);
-- (void);
+- (void)actionContextProviding>";
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXEmbedDataProvider> embedDataProvider; // @synthesize embedDataProvider=_embedDataProvider;

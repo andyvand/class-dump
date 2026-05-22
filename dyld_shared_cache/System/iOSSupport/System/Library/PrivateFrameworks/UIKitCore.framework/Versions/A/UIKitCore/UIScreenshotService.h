@@ -14,15 +14,16 @@
     id <UIScreenshotServiceDelegate> _privateDelegate;
 }
 
-- (id);
-- (void);
-- (id)ReporterClass(void)_block_invoke;
-- (void)?0@"CALayer"8@"NSString"16;
-- (void)Ä'c;
-- (id)vÕc;
-- (id)Òld;
-- (id)Í»ÿæÒj;
-- (void)LØ;
+- (id)!Ð!äCùZð1Â0@ù
+× ;
+- (void)bleView"16@"<UIDragSession>"24@"NSIndexPath"32;
+- (id)\;
+- (id);
+- (id)ÌøþÀ¤Ñ.©c;
+- (void)¶P8[b;
+- (void)Þd;
+- (id)7EÌ@*g;
+- (void)`;>i;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

@@ -14,12 +14,12 @@
 
 - (id);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (id)String",C,N,V_payloadDisplayName;
-- (id):%p hashedPersonID=%@ identifier=%@ flavor=%@ miniSinf=%lld bytes sinf2=%lld bytes url=%@ /* Error: Ran out of types for this method. */;
+- (void)currentQueueEndAction;
+- (id)Translator was missing mapping for MPModelPropertyRadioStationBeats1;
 
 // Remaining properties
 @property(readonly, nonatomic) MPMediaItem *item; // @synthesize item=_item;

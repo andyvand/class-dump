@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (CDUnknownBlockType);
-- (void)N;
 - (void);
-- (id);
+- (id)PointerInteractionDelegate>";
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType didReset; // @synthesize didReset=_didReset;

@@ -28,8 +28,8 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
@@ -37,16 +37,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *buttonContainerView; // @synthesize buttonContainerView=_buttonContainerView;

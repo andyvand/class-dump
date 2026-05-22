@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)`;
+- (id);
+- (void)¦ | failed to create statement [sql failure] sql=%{public}@ error=%{public}@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedMessage; // @synthesize localizedMessage=_localizedMessage;

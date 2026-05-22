@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *childElements; // @synthesize childElements=_childElements;

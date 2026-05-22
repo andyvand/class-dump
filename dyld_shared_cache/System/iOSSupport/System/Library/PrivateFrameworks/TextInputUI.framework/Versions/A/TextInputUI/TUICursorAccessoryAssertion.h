@@ -16,14 +16,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (unsigned long long);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void)teValueHighlighted;
 
 // Remaining properties
 @property(retain, nonatomic) TUICursorAccessory *accessory; // @synthesize accessory=_accessory;

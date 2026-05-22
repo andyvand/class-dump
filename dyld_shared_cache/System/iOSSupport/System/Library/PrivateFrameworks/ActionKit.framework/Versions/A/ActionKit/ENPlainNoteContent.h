@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (id);
-- (void)H¦TGÐûÔ¸ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþº®Üæ¯H ;¿Ò^Ð6AA£5j£¢z;
 - (id);
+- (void)regular Heart Rhythm;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contents; // @synthesize contents=_contents;

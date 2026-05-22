@@ -27,11 +27,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)nges:(id)arg1 withHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *anchor; // @synthesize anchor=_anchor;

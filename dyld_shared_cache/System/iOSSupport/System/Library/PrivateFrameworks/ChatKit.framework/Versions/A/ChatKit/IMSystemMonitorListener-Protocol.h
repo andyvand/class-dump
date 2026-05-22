@@ -7,10 +7,7 @@
 @protocol IMSystemMonitorListener
 
 @optional
-- (void);
-- (void)D;
-- (void)®y«®yÅ0®yw6®yAByAByAByABye/®P®GÚø­G¬õ­y6®GGAJy¼®GG_AByAI×ü­GtGG®GAByAByAGè®GAUG_G;
-- (void)ForScheduledSend;
-- (void)d¨4´;
+- (void)mer;
+- (void);
 @end
 

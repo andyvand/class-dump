@@ -9,12 +9,12 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id)Pûÿ;
-- (id)ributionAndPicker;
-- (void):4]=0 /* Error: Ran out of types for this method. */;
+- (id);
+- (void)lEffect",R,N;
+- (id)mber;
 
 @end
 

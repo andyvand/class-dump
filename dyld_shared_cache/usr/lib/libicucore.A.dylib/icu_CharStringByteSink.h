@@ -4,8 +4,8 @@
 
 class icu::CharStringByteSink {
 public: // (access info unavailable from symbols alone)
-    Append(char const*, int);
     CharStringByteSink(icu::CharString*);
-    GetAppendBuffer(int, int, char*, int, int*);
+    auto Append(char const*, int);
+    auto GetAppendBuffer(int, int, char*, int, int*);
     ~CharStringByteSink();
 };

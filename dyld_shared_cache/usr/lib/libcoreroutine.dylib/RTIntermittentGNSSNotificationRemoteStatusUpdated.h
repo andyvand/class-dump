@@ -13,7 +13,7 @@
 
 - (long long);
 - (id);
-- (id)nticationRequired;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long remoteStatus; // @synthesize remoteStatus=_remoteStatus;

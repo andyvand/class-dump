@@ -18,20 +18,21 @@
     CMMotionManager *_motionManager;
 }
 
-+ (id)H;
-- (void)-enabled-etap;
-- (void);
++ (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
-- (id)Entry",C,N,V_cellularEntry;
-- (double)ontroller;
-- (id)try;
-- (void);
-- (void);
+- (id);
+- (id)0@ù
+× ;
+- (void)rivate>"16@"UIViewController"24;
+- (void)bSwitch:(id)arg1 restoringZoomScale:andScrollPt: /* Error: Ran out of types for this method. */;
+- (void)Pÿ;
+- (double)-: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIAccelerometerDelegate> delegate; // @synthesize delegate=_delegate;

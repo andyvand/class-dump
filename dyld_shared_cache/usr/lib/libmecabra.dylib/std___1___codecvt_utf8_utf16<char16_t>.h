@@ -4,11 +4,11 @@
 
 class std::__1::__codecvt_utf8_utf16<char16_t> {
 public: // (access info unavailable from symbols alone)
-    do_always_noconv() const;
-    do_encoding() const;
-    do_in(__mbstate_t&, char const*, char const*, char const*&, char16_t*, char16_t*, char16_t*&) const;
-    do_length(__mbstate_t&, char const*, char const*, unsigned long) const;
-    do_max_length() const;
-    do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char*, char*, char*&) const;
-    do_unshift(__mbstate_t&, char*, char*, char*&) const;
+    auto do_always_noconv() const;
+    auto do_encoding() const;
+    auto do_in(__mbstate_t&, char const*, char const*, char const*&, char16_t*, char16_t*, char16_t*&) const;
+    auto do_length(__mbstate_t&, char const*, char const*, unsigned long) const;
+    auto do_max_length() const;
+    auto do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char*, char*, char*&) const;
+    auto do_unshift(__mbstate_t&, char*, char*, char*&) const;
 };

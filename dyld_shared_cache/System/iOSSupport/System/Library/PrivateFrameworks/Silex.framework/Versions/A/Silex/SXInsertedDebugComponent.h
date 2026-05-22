@@ -22,10 +22,6 @@
 
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -33,12 +29,15 @@
 - (id);
 - (id);
 - (id);
-- (void)ù±£Ð1¢!0@ù
-× ;
-- (void)32@0:(id)arg1 8@"NSURL"16@?<v@?@"SVVideoPlayerViewController">24;
-- (id)ibuteToFontIndex;
-- (int)iner>",R,N,V_analyticsReportingContainer;
-- (id)u v;
+- (void);
+- (id);
+- (void);
+- (id);
+- (int);
+- (id);
+- (void)0@0:8@"WKWebView"16@"NSString"24@"NSString"32 /* Error: Ran out of types for this method. */;
+- (id)ype:onCompletion: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 Û;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityLabel;

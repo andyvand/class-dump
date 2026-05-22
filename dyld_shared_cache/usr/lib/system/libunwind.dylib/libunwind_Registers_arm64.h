@@ -4,5 +4,5 @@
 
 class libunwind::Registers_arm64 {
 public: // (access info unavailable from symbols alone)
-    returnto(unsigned int);
+    auto returnto(unsigned int);
 };

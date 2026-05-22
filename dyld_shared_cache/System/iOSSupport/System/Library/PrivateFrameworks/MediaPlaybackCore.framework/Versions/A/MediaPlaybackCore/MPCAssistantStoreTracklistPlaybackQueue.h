@@ -15,15 +15,15 @@
     MPIdentifierSet *_collectionIdentifierSet;
 }
 
-+ (id)32@0:(id)arg1 8q16@?24;
-- (id)gBlock:(id)arg1;
-- (struct _MRSystemAppPlaybackQueue *)ount's storefront was stored as a string. account = %{public}@;
++ (id);
+- (id);
+- (struct _MRSystemAppPlaybackQueue *);
 - (id);
 - (long long);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)Stopping processing audio queue;
 
 // Remaining properties
 @property(readonly, nonatomic) MPIdentifierSet *collectionIdentifierSet; // @synthesize collectionIdentifierSet=_collectionIdentifierSet;

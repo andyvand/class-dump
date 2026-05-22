@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool);
-- (struct _NSZone *)`;
-- (_Bool)=;
-- (_Bool)=;
+- (struct _NSZone *)blic}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

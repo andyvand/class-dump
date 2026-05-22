@@ -21,9 +21,9 @@
 - (double);
 - (void);
 - (void);
-- (double);
 - (void);
-- (double)yKyKGGGGAKG;
+- (double);
+- (double)_AQy}!yAHyb!yAGyAI_¦rNtGGATyëg!GG_Qo_AQy}#y÷#yAPyASyAQyAGyAQyAiKSgG_AHyAI~`NGSgtGA16_yAGyA28__A25_tGGGSgAQyAQyAHyAYrx!yL!GGAHyAyJGGAIGGGG_AAySay(rNGAdHyAPyAQyA24_yAIGA24_yK#GGGATyhi!SgGGGQo_A44_GGGGAJGATyÅz!SgGGtt!y>gNSgGGGtGAFGSgG;
 
 // Remaining properties
 @property(nonatomic) double baseSize; // @synthesize baseSize=_baseSize;

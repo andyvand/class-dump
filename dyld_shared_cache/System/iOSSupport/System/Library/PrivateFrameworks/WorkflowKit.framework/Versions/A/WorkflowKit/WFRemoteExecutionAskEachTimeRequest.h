@@ -35,8 +35,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ressSourceOption);
+- (void)d:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)odcast (WFPodcastShow);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

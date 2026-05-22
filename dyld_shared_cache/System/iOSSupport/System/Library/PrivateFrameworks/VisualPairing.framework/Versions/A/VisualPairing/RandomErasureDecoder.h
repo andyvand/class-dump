@@ -4,7 +4,7 @@
 
 class RandomErasureDecoder {
 public: // (access info unavailable from symbols alone)
-    AddPacketToDecodeQueue(unsigned int, unsigned char*, unsigned int);
-    Init(unsigned int);
+    auto AddPacketToDecodeQueue(unsigned int, unsigned char*, unsigned int);
+    auto Init(unsigned int);
     ~RandomErasureDecoder();
 };

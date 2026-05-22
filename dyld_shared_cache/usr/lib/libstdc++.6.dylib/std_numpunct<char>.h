@@ -4,19 +4,19 @@
 
 class std::numpunct<char> {
 public: // (access info unavailable from symbols alone)
-    _M_initialize_numpunct(int*);
-    decimal_point() const;
-    do_decimal_point() const;
-    do_falsename() const;
-    do_grouping() const;
-    do_thousands_sep() const;
-    do_truename() const;
-    falsename() const;
-    grouping() const;
+    auto _M_initialize_numpunct(int*);
+    auto decimal_point() const;
+    auto do_decimal_point() const;
+    auto do_falsename() const;
+    auto do_grouping() const;
+    auto do_thousands_sep() const;
+    auto do_truename() const;
+    auto falsename() const;
+    auto grouping() const;
+    auto thousands_sep() const;
+    auto truename() const;
     numpunct(int*, unsigned long);
     numpunct(std::__numpunct_cache<char>*, unsigned long);
     numpunct(unsigned long);
-    thousands_sep() const;
-    truename() const;
     ~numpunct();
 };

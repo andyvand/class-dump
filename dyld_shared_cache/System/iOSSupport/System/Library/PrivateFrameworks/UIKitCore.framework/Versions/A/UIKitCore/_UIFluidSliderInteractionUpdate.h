@@ -23,18 +23,19 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)works/IOAccelerator.framework/Versions/A/IOAccelerator;
+- (_Bool);
 - (void);
-- (double)ing syndication_type and syndication_ranges;
 - (double);
 - (void);
-- (long long),G_endOfContentFocusContainerGuide,V_endOfContentFocusContainerGuide;
-- (void)eyboardInputManagerClient;
-- (long long)sSentUnits;
-- (struct CGRect)ntrollerListRemovedChange;
+- (long long)1Â0@ù
+× ;
+- (double)s;
 - (void);
-- (void)-4¤¿iþ4ü¿iþ;
-- (_Bool)=;
+- (struct CGRect)r is no longer connected to a focus system. Ignoring joystick movement request.;
+- (long long)ocate data stores for %ld rows in section %ld. Consider using fewer rows;
+- (void)apple.UIKit._UIFlexInteraction.Pan;
+- (_Bool);
+- (void)a;
 
 // Remaining properties
 @property(nonatomic) double _unclampedValue; // @synthesize _unclampedValue=__unclampedValue;

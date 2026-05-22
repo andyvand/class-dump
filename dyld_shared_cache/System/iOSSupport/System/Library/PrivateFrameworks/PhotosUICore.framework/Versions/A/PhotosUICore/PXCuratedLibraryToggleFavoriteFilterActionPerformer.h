@@ -16,7 +16,7 @@
 - (long long);
 - (void);
 - (id);
-- (id)ÂìÿÛÿH?: /* Error: Ran out of types for this method. */;
+- (id)DataSectionManagerObserver;
 
 @end
 

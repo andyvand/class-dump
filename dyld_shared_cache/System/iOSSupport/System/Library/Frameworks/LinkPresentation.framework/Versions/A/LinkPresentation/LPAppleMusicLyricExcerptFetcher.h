@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
     MPStoreLyricsSnippetURLComponents *_lyricComponents;
 }
 
-- (void)A;
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

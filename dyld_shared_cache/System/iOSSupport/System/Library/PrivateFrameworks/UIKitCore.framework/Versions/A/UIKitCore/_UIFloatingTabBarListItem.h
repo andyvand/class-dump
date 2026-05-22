@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     UITab *_contentTab;
 }
 
-+ (id)ate a change stamp, since the name hasn't meaningfully changed.;
++ (id);
 - (void);
 - (id);
-- (id)load to all registered listeners, payload=%{sensitive}@;
+- (id);
 - (unsigned long long);
+- (_Bool)raits;
+- (id)x;
 - (_Bool);
-- (void);
-- (id);
-- (_Bool)Only;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UITab *contentTab; // @synthesize contentTab=_contentTab;

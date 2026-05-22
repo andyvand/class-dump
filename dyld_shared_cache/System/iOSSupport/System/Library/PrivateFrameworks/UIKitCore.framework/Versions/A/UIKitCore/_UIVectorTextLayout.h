@@ -20,24 +20,25 @@ __attribute__((visibility("hidden")))
     struct CGAffineTransform _coordinateAdjustment;
 }
 
-- (struct CGRect)MemoryMultiPutWithOptions;
+- (struct CGRect);
 - (unsigned long long);
 - (id);
 - (double);
 - (id);
 - (_Bool);
-- (double)@;
+- (double);
 - (void);
 - (struct CGAffineTransform);
 - (void);
-- (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (struct CGSize)ayP3Red:green:blue:alpha: /* Error: Ran out of types for this method. */;
-- (id)AnimationWithUUID:updatingModelValues:reverseAnimation:state:performCompletionsImmediately: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ning key in scene:<%{public}s:%{public}p>; contextId:0x%{public}X /* Error: Ran out of types for this method. */;
-- (struct _NSRange)to set a slider's minimumEnabledValue (%f) to be larger than the maximumEnabledValue (%f);
+- (struct CGSize);
+- (struct _NSRange)ùÑbÐ1Â0@ù
+× ;
+- (void)nimationBehavior;
+- (id);
+- (struct CGRect)n;
+- (void)¬;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect boundingRect;

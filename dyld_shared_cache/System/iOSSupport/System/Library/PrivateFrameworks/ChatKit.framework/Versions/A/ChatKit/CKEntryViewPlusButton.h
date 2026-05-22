@@ -24,14 +24,14 @@
 
 - (void);
 - (void);
-- (void)torage_$_didFinishBackgroundFetchPublisher;
-- (void)igurationC;
 - (void);
 - (void);
 - (void);
-- (void)Sg;
 - (void);
-- (void)0aB2IDCG;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (double);
 - (id);
@@ -41,17 +41,15 @@
 - (double);
 - (double);
 - (_Bool);
+- (id);
+- (double);
 - (void);
 - (id);
-- (void);
+- (void)emphasizedIcon;
+- (id)Ä>;
+- (id)Resolved itemProvider idx={%ld} as Plugin Payload. Calling completion handler.;
+- (void)uhñ#;
 - (id);
-- (id);
-- (void);
-- (double)Ð!XDùñÂÐ1¢!0@ù
-× ;
-- (id)
-× ;
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyAdjustsBackgroundCornerRadius;

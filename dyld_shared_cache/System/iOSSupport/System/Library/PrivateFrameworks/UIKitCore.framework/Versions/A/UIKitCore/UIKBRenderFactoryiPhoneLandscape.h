@@ -11,45 +11,45 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)pendingOriginatedMessagesTimer;
-- (struct UIEdgeInsets)vices;
-- (struct CGPoint)yle: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)hat:style:account:destinationCallerID:messageTime:silently: /* Error: Ran out of types for this method. */;
-- (double)rHandle:fromHandle:unformattedNumber:countryCode:forChat:style:account:destinationCallerID:messageTime:silently: /* Error: Ran out of types for this method. */;
-- (double):silently: /* Error: Ran out of types for this method. */;
-- (double)ationCallerID:messageTime:messageID:silently: /* Error: Ran out of types for this method. */;
-- (double)ountryCode:forChat:style:account:destinationCallerID:messageTime:messageID:silently: /* Error: Ran out of types for this method. */;
-- (double)Handle:fromHandle:unformattedNumber:countryCode:forChat:style:account:destinationCallerID:messageTime:messageID:silently: /* Error: Ran out of types for this method. */;
-- (double)ionCallerID: /* Error: Ran out of types for this method. */;
-- (double)tryCode:forChat:style:account:destinationCallerID: /* Error: Ran out of types for this method. */;
-- (double)Handle:fromHandle:unformattedNumber:countryCode:forChat:style:account:destinationCallerID: /* Error: Ran out of types for this method. */;
-- (double)le:account: /* Error: Ran out of types for this method. */;
-- (double)onversation: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct UIEdgeInsets);
+- (struct CGPoint);
+- (struct CGPoint);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
 - (id);
 - (id);
 - (struct CGPoint);
 - (double);
 - (double);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (double);
-- (struct)s was empty:(id)arg1 %s;
-- (id). Need to update filter params.;
-- (double)transition the scheduleState;
-- (double)essage is marked as a failure, but didn't transition the scheduleState;
 - (struct UIEdgeInsets);
-- (struct CGPoint);
-- (struct CGPoint)ize;
-- (struct CGPoint)$;
-- (struct CGPoint)Ônð!@ù±À°1¢!0@ù
-× ;
 - (double);
-- (double)er;
-- (double)elegate;
+- (struct);
+- (id);
+- (double);
+- (double);
+- (struct UIEdgeInsets);
 - (_Bool);
-- (struct UIEdgeInsets);
-- (struct CGPoint)=_ÿ3Dkþ=_ÿ3°å¨þ;
-- (struct UIEdgeInsets)e;
+- (double);
+- (struct UIEdgeInsets);
+- (struct CGPoint);
+- (struct CGPoint)á	ð!°GùQfÐ1Â0@ù
+× ;
+- (struct CGPoint)ction;
+- (struct CGPoint)arginsRelativeArrangement;
+- (struct CGPoint)Collection: /* Error: Ran out of types for this method. */;
+- (double)stureRecognizer",&,N,V_actionSelectionGestureRecognizer;
+- (struct UIEdgeInsets);
+- (double)uttonConfigurationSubtitleLineBreakMode;
 
 @end
 

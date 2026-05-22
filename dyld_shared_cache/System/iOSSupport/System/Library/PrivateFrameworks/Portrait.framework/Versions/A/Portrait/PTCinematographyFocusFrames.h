@@ -16,10 +16,10 @@
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void)ÿ¦½<ÿ®¾<ÿ¶¾=ÿ¾¾>ÿÆ¾@ÿÏ¿Aÿ×¿CÿßÀEÿèÁHÿñÂJÿùÂMÿÿÄOÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *frames; // @synthesize frames=_frames;

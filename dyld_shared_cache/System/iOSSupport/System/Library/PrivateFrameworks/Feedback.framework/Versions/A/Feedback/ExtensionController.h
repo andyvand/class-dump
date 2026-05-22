@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *contentViewController;
 }
 
-- (void);
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void);
+- (void);
 
 @end
 

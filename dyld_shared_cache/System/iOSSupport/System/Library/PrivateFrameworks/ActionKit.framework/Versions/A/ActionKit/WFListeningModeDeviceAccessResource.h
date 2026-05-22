@@ -14,7 +14,7 @@
     CDUnknownBlockType _availabilityCompletion;
 }
 
-+ (_Bool)Gated Crypto;
++ (_Bool);
 - (id);
 - (struct os_unfair_lock_s);
 - (_Bool);
@@ -27,9 +27,9 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
-- (void);
+- (unsigned long long);
+- (void)ion;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType availabilityCompletion; // @synthesize availabilityCompletion=_availabilityCompletion;

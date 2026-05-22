@@ -39,10 +39,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)ayoutInfo];
-- (id);
+- (void)"B"respondsToInitialVisibleOriginWithLayout"B"respondsToTargetVisibleOriginForProposedVisibleOrigin"B};
+- (void)ubviewsVisibility;
+- (void)ge: /* Error: Ran out of types for this method. */;
+- (id)ted library picker without client identifier;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

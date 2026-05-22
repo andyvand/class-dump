@@ -11,8 +11,8 @@
 }
 
 + (id);
-+ (id)ì;
-+ (id)-[RTNotifier addObserver:(id)arg1 selector:(id)arg2 name:(id)arg3 ];
++ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *addressIdentifier; // @dynamic addressIdentifier;

@@ -15,8 +15,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)
+× ;
+- (void)SXDOM"24;
 
 // Remaining properties
 @property(retain, nonatomic) id <SXShareHandling> shareHandler; // @synthesize shareHandler=_shareHandler;

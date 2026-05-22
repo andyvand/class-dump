@@ -18,16 +18,16 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)%lu updated events, %lu removed event UUIDs;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdsIdentifierString;

@@ -25,7 +25,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)}s) | home = %@;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *activeIconBackgroundColor;

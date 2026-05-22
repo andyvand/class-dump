@@ -4,6 +4,6 @@
 
 class std::__1::basic_string_view<char, std::__1::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    compare[abi:nn200100](unsigned long, unsigned long, std::__1::basic_string_view<char, std::__1::char_traits<char>>) const;
-    starts_with[abi:nn200100](char const*) const;
+    auto compare[abi:nqn210106](unsigned long, unsigned long, std::__1::basic_string_view<char, std::__1::char_traits<char>>) const;
+    auto starts_with[abi:nqn210106](char const*) const;
 };

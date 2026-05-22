@@ -16,21 +16,21 @@
     NSMutableArray *_fullyRenderedCompletionBlocks;
 }
 
-- (_Bool){public}@ with parent %{public}@;
-- (id)eInternal/Library/BuildRoots/4~CG4tugAb8POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCRequestInfo.m;
-- (void)Error"16@"NSNumber"24@"NSHTTPURLResponse"32@"NSError"40;
-- (void)H;
+- (_Bool);
+- (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (double);
 - (_Bool);
-- (void);
 - (_Bool);
 - (void);
-- (struct CGAffineTransform);
 - (void);
+- (struct CGAffineTransform);
 - (id);
+- (void)T7¤7;
 
 // Remaining properties
 @property(nonatomic) _Bool _wantsFullyRenderedNotification; // @synthesize _wantsFullyRenderedNotification=__wantsFullyRenderedNotification;

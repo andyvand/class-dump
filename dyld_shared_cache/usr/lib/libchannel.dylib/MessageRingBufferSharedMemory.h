@@ -5,10 +5,10 @@
 class MessageRingBufferSharedMemory {
 public: // (access info unavailable from symbols alone)
     MessageRingBufferSharedMemory();
-    allocate(unsigned int);
-    allocate(unsigned int) (.cold.1);
-    allocate(unsigned int) (.cold.2);
-    allocate(unsigned int) (.cold.3);
-    allocate(unsigned int) (.cold.4);
-    is_valid() const;
+    auto allocate(unsigned int);
+    auto allocate(unsigned int) (.cold.1);
+    auto allocate(unsigned int) (.cold.2);
+    auto allocate(unsigned int) (.cold.3);
+    auto allocate(unsigned int) (.cold.4);
+    auto is_valid() const;
 };

@@ -9,6 +9,7 @@
 
 @interface HMResponseBase
 {
+    _Bool _remote;
     HMRequestBase *_request;
     id <NSCopying><NSObject> _value;
     NSError *_error;
@@ -17,13 +18,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)UBypassingPrimary;
-- (void)Sayd¡GGt;
+- (_Bool);
+- (id);
+- (void);
+- (void)
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
+@property(nonatomic, getter=isRemote) _Bool remote; // @synthesize remote=_remote;
 @property(readonly, nonatomic) HMRequestBase *request; // @synthesize request=_request;
 @property(readonly, nonatomic) id <NSCopying><NSObject> value; // @synthesize value=_value;
 

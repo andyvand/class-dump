@@ -11,9 +11,9 @@
     WFAction *_action;
 }
 
-- (void);
 - (id);
-- (id)aveChangesToStorage:error:] /* Error: Ran out of types for this method. */;
+- (id)ate;
+- (void)Events (Default Output Name);
 
 // Remaining properties
 @property(readonly, nonatomic) WFAction *action; // @synthesize action=_action;

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)hasCollectionsDidLoadForCriteria;
+- (void)"16@"UIViewController"24@"UIViewController"32;
 
 @end
 

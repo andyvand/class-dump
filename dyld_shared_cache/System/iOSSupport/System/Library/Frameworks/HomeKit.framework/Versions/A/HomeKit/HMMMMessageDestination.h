@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <HomeKit/HMMMMessageDestinationBase.h>
+
 @class NSString;
 
-@interface HMMMMessageDestination
+@interface HMMMMessageDestination : HMMMMessageDestinationBase
 {
     NSString *_idsIdentifier;
     NSString *_idsTokenURI;
@@ -14,9 +16,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)Error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)à;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;

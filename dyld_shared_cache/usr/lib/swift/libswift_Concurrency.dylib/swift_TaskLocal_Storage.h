@@ -4,8 +4,13 @@
 
 class swift::TaskLocal::Storage {
 public: // (access info unavailable from symbols alone)
-    copyTo(swift::AsyncTask*);
-    destroy(swift::AsyncTask*);
-    initializeLinkParent(swift::AsyncTask*, swift::AsyncTask*);
-    pushValue(swift::AsyncTask*, swift::HeapObject const*, swift::OpaqueValue*, swift::TargetMetadata<swift::InProcess> const*);
+    auto copyTo(swift::AsyncTask*);
+    auto destroy(swift::AsyncTask*);
+    auto getCurrent(swift::AsyncTask*);
+    auto getValue(swift::AsyncTask*, swift::HeapObject const*);
+    auto initializeLinkParent(swift::AsyncTask*, swift::AsyncTask*);
+    auto popStopLookup(swift::AsyncTask*);
+    auto popValue(swift::AsyncTask*);
+    auto pushStopLookup(swift::AsyncTask*);
+    auto pushValue(swift::AsyncTask*, swift::HeapObject const*, swift::OpaqueValue*, swift::TargetMetadata<swift::InProcess> const*);
 };

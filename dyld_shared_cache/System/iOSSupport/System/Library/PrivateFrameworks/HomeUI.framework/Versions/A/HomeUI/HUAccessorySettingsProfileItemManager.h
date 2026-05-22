@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ckerViewController initWithInstructionsItem:contentViewController:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUAccessorySettingsProfileModule *profileModule; // @synthesize profileModule=_profileModule;

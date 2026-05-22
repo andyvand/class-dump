@@ -21,7 +21,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)HomeManagerDelegatePrivate;
++ (id)rtsUWBUnlockDelegate:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -38,13 +38,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)ü
+;
+- (void)é¢ó;
 
 // Remaining properties
 @property(readonly) _HMContext *context; // @synthesize context=_context;

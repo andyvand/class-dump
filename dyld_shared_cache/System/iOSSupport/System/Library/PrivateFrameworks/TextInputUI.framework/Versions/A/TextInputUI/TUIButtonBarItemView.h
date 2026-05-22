@@ -16,19 +16,19 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)ÿÿ;
+- (void);
+- (id)|ò¤ö(÷àø;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItemGroup *associatedGroup; // @synthesize associatedGroup=_associatedGroup;

@@ -7,6 +7,7 @@
 @class TUCall;
 
 @protocol CNKScreenSharingStateMonitorProtocol
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) TUCall *call;

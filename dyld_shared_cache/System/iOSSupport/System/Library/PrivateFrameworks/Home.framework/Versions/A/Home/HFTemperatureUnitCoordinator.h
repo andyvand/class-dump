@@ -17,12 +17,12 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
+- (void)è-ð-0.H...,/H0;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCelsius; // @synthesize isCelsius=_isCelsius;

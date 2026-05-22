@@ -14,14 +14,14 @@
 }
 
 - (id);
-- (id)countModified;
+- (id);
 - (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void)etrics;
+- (void)EGIN  %{public}@;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;

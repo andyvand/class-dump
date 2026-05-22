@@ -7,6 +7,6 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
-- (void)icationsUI/AudioMiddleStackBackgroundView.swift;
+- (void);
 @end
 

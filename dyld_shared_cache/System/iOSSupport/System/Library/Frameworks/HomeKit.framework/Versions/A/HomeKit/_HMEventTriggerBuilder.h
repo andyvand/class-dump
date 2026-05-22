@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_endEvents;
 }
 
-+ (void)portsJustSiri support due to missing delegateCaller:%@ /* Error: Ran out of types for this method. */;
++ (void)firmExecution:ofTriggerWithIdentifier:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -40,18 +40,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (Class);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)
-× ;
-- (void)oryInvitationsUpdateForUser:(id)arg1 ];
+- (void)decs;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionSets;

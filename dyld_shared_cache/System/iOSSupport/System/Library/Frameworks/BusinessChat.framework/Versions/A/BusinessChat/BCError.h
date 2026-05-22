@@ -17,15 +17,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *code; // @synthesize code=_code;

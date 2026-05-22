@@ -13,15 +13,15 @@
     HMLightProfileSettings *_settings;
 }
 
-+ (_Bool)ÿÏÿ;
++ (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)ryAccessCode;
 
 // Remaining properties
 @property(readonly) HMLightProfile *lightProfile;

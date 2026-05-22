@@ -63,8 +63,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -76,18 +76,18 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
 - (struct CGRect);
-- (_Bool);
 - (id);
-- (void);
+- (id);
+- (void)ulateDisabledCommentButtonState;
+- (_Bool)ion] %p started;
+- (id);
 
 // Remaining properties
 @property(nonatomic, setter=_setEdgeAntialiasingEnabled:) _Bool _edgeAntialiasingEnabled; // @synthesize _edgeAntialiasingEnabled=__edgeAntialiasingEnabled;

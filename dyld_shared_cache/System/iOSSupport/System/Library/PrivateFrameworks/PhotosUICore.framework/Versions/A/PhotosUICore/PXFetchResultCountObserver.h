@@ -23,13 +23,12 @@
 - (void);
 - (long long);
 - (id);
-- (void);
 - (id);
-- (id)es;
 - (void);
-- (id)d¥ÿ¯æúÚ7;
-- (void)G
-8;
+- (id)_10BDB50F966DC5489C73BD7ADCF2FC8A31NavigationBarPaletteContentView;
+- (void);
+- (id)\ê­ÿøRä5;
+- (void)ÊÿÅ8V8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

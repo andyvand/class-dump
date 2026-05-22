@@ -27,24 +27,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (double);
 - (id);
-- (_Bool)meGroupPhoto: /* Error: Ran out of types for this method. */;
-- (void)ate;
-- (void)chatIdentifier:chatStyle:foundChat:didSendSMS:attemptingReplication:shouldForceFail:watchSendsOverCellular:forceReflection:forceRelay:callerID: /* Error: Ran out of types for this method. */;
-- (void)te;
-- (double)edReceipt;
+- (_Bool);
 - (void);
-- (void)Mï!º;
-- (id)tionary:(id)arg1;
-- (void)ge;
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (id);
+- (void)JZd;
 
 // Remaining properties
 @property(nonatomic) _Bool discardNextHypothesis; // @synthesize discardNextHypothesis=_discardNextHypothesis;

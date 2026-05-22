@@ -20,21 +20,21 @@
 
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)=;
 - (id);
-- (id)_;
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)XÉ;
+- (id);
+- (void);
+- (void);
+- (void)guration, component-identifier=%{public}@;
+- (id)nÿ;
+- (void)X;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

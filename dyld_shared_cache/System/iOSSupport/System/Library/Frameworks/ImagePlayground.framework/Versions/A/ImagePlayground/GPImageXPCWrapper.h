@@ -15,12 +15,12 @@
 
 + (_Bool);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
 - (id);
 - (struct __CVBuffer *);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer;

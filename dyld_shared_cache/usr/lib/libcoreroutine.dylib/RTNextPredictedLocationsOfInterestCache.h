@@ -24,24 +24,24 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id)L;
 - (void);
-- (void);
-- (void)dMessage:candidatePair:timeNow: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)ut;
-- (void)OffloadInterval;
-- (_Bool);
-- (void);
-- (id)onAfterDrive_sec;
-- (void)orkout:(id)arg1;
+- (_Bool)tionIndex;
+- (id)eleaseBackgroundProcessingPermissionForStoreURL:cacheFileExtension: /* Error: Ran out of types for this method. */;
+- (void), %@, endDate, %@, duration, %lu, stats.startDate, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;

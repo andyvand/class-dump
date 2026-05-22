@@ -22,11 +22,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)ilityInitialized;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) HLPURLSessionACAuthContext *authContext; // @synthesize authContext=_authContext;

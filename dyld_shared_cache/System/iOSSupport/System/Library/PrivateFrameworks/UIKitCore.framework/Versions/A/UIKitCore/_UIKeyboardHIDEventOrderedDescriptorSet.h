@@ -13,16 +13,15 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_eventsByDescriptor;
 }
 
-- (id)SpotlightIndexingOfAddedMessageWithGUID:chat:reason: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)temsCount;
+- (id);
 - (void);
+- (id);
+- (id)w: /* Error: Ran out of types for this method. */;
+- (id)ng;
+- (void)[_UISceneUserActivityManager _knownSceneSessionMap]_block_invoke;
 - (void);
-- (void)1¢!0@ù
-× ;
-- (id)zers;
-- (id)w;
-- (void)½d;
+- (void)<Õsþu[43|Ôsþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *_eventsByDescriptor; // @synthesize _eventsByDescriptor;

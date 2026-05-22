@@ -46,153 +46,149 @@ __attribute__((visibility("hidden")))
     struct CGPoint _persistentOffset;
 }
 
-+ (_Bool);
++ (_Bool)16^f20^f28^f36;
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)ier:(id)arg1 withMonitors:withNotificationTimes:withTimeBudget: /* Error: Ran out of types for this method. */;
-- (void)nfiguration.system.xsan.settings;
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ectableGridView;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)"ðº;
-- (void);
-- (void)1ÂÐ1¢!0@ù
-× ;
-- (void);
-- (void)0@ù
-× ;
-- (id)0@ù
-× ;
-- (void)@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (id)!t!üEùÈÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)× ;
-- (void)@ù
-× ;
-- (void)Ð!øEùÑÎÐ1¢!0@ù
-× ;
-- (void)Bù1Ï1¢!0@ù
-× ;
-- (id)ayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}16;
-- (void)ivatives;
-- (double)rCandidateRequest;
-- (void)estureRecognizer:(id)arg1;
-- (void)ineSearch;
-- (id)ultLayoutMargins;
-- (id);
-- (void)ngleDeletionLength:(id)arg1;
-- (id),&,N;
-- (id)gnizer",R,N,V_backgroundGestureRecognizer;
-- (void)ing service connection to %d halted;
-- (_Bool);
-- (id);
-- (id);
-- (void)á\;
-- (id)èÿ;
-- (void);
-- (id);
-- (id)4|_;
-- (id)G_;
-- (id)ÿ;
-- (id)ÿ=Ø&+`;
-- (struct CGRect)xÿ8 Ù*5`;
-- (id)f`;
-- (void)þ¦;
-- (void)/Öþ;
-- (id)`;
-- (_Bool)ÿoèÚza;
-- (void);
-- (void)²ìÿ;
-- (_Bool),;b;
-- (void)ÿíüÔWe;
-- (id)Rb;
-- (struct CGRect)Ic;
-- (id)udØ..c;
-- (id)®¡;
-- (void);
-- (void);
-- (void)jÔc;
-- (void)7þc;
-- (void);
-- (void)WµÿtöÊ5?d;
-- (struct CGPoint)àÕZd;
-- (id);
-- (void)û¨d;
-- (void)T;
-- (void)ïd;
-- (id);
-- (void);
-- (void)TxÖÿÃU;
-- (void);
-- (void)vð×EÅe;
 - (void);
 - (double);
-- (void)¹;
-- (id)*g;
-- (void)Øìÿ>áÎ}~f;
-- (void)f;
-- (void)pëÿKÛÎ¬f;
-- (void)ôtêÿ;
-- (void)6H;
-- (struct CGRect);
-- (void)öÛÑÁg;
-- (id)¹ÍÓ_g;
-- (void)àâÿrLÌUeg;
-- (void)°­fþY}ÌÑ¬g;
 - (void);
-- (void)àÿ;
-- (id)ÿ;
-- (void)Ch;
-- (void)lÐÍ}h;
-- (void)Äÿ;
-- (void)Ui;
-- (void)Lyl;
-- (void)ÿZË?j;
-- (void)hi;
-- (id)ÿn¸ÇÅi;
-- (void)®;
-- (void)ÿ;
-- (void)HÛÿ¾XÑÆj;
-- (void)£j;
+- (void)!CùÑX1Â0@ù
+× ;
+- (void)!!EùÑ[ð1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
 - (id);
+- (id)
+× ;
+- (void)Q`°1Â0@ù
+× ;
+- (id)edLayerStack>";
+- (id)dd}{CGSize=dd}}80@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48 /* Error: Ran out of types for this method. */;
+- (id):withTranslation:touchCount: /* Error: Ran out of types for this method. */;
+- (void)elativeRangeBefore:(id)arg1 withLanguage: /* Error: Ran out of types for this method. */;
+- (id)ctAutofillModeWithAutofillGroup:responders: /* Error: Ran out of types for this method. */;
+- (void)timatedHeightForHeaderInSection:(id)arg1;
+- (void)wTransformForInterfaceOrientation:(id)arg1;
+- (void)LayoutFrame;
+- (void),V_usesVariableMargins;
+- (id)Layout;
+- (void)ckWidth;
+- (id)repared;
+- (void)Â;
+- (void),Ç;
+- (void)¥;
+- (void),Ê;
+- (id)ä;
+- (_Bool)nu_DarkModeBackgroundHairlineWhite;
+- (void)to present a split view controller with a modal presentation style other than full screen or custom %@.;
+- (id);
+- (void)ListMetricsViewStyle;
+- (id);
+- (void)¹ ÿcÐSÀc_;
 - (void);
-- (void)Ök;
-- (void)Ø¢¡ÿiÔÛm;
-- (id)6;
-- (void)e!l;
-- (void)Þal;
-- (id)Óÿ;
-- (id)Æ¸6;
-- (id)XZ;
-- (struct CGSize)Â¬;
-- (void)m;
-- (id)¼0fÿL[Ón;
-- (void)cÿÕO;
-- (id)´G@ÿ;
-- (struct CGPoint)ØLÖþaÖfn;
-- (void)ÜÚÒn;
-- (id)jn;
+- (id)ÿ;
+- (id);
+- (void)Lñ_;
+- (void)åþ[Ê°Æ_;
+- (struct CGRect)`;
+- (void)Æ8ÜìB`;
+- (id)Ü4j`;
+- (void)`û¨ÿÅÕ«b;
+- (void);ÿ;
+- (void)4§ÙlÀ`;
+- (void);
+- (id)À;
+- (void)D-a;
+- (void)Õ¬Fa;
+- (_Bool)x³"ÿ_;
+- (void)úþ;
+- (void)°úþQ4;
+- (void)ÿ¢K;
+- (void)rb;
+- (void)þ;
+- (void)ÿÙÄæg;
+- (void)¹T¼c;
+- (void)ÿ-fÙàÚb;
+- (void)°>ÿó¹;
+- (id)¤.0ÿÑ¼@c;
+- (void)1ÿ-ÊÄuc;
+- (void)LRc;
+- (id)q;
+- (double)~c;
+- (struct CGRect)Óc;
+- (id)4Êÿ»ÏìÑc;
+- (void)øºÿo;
+- (void)Tñ¡ÿ=æÓ,vd;
+- (void)¬ä·ÿ<ÊÈd;
+- (void)rÚ|æd;
+- (void)¤ûd;
+- (void)Be;
+- (id)´Ð;
+- (void)2Z;
+- (id)sÿ+&;
+- (id)q;
+- (void);
+- (void);
+- (void)TÈe;
+- (id)f;
+- (struct CGPoint)ô;
+- (void)e;
+- (id)èscþ0Æ;
+- (id)ýe;
+- (void);
+- (void);
+- (_Bool)³f;
+- (id)4³þtp;
+- (void){¼f;
+- (id)ÿe&ÓÞf;
+- (struct CGRect)÷qÌDÑf;
+- (void);
+- (void)\þ;
+- (void)@ÝãÿýõÎ¹Êj;
+- (void)Sl;
+- (id)Öl;
+- (struct CGPoint)e;
+- (id)cJÏØi;
+- (void)Iôþ;
+- (void);
+- (void)Ðêj;
+- (id)÷yþ+Ò>o;
+- (struct CGSize)ãyþÂ\ÌPk;
+- (id)Mÿ(;
+- (_Bool)<^þ:Ø× /* Error: Ran out of types for this method. */;
+- (id)lìÿÚÐt¹k;
+- (id);
+- (void)ì]²ÿîÊÉk;
+- (void)`Ùk;
+- (void)¬/l;
+- (id)8l;
+- (id)9Ë;
+- (void)`ál;
+- (void)q;
+- (id)4
+Kÿ7n;
+- (void)Sn;
+- (void)m;
+- (void)ì m;
+- (void)x¼m;
+- (void)ý%Õ;
+- (void)n;
+- (void)fÿF.´n;
+- (void)øMÿ;
 
 // Remaining properties
 @property(retain, nonatomic, setter=setInputAccessoryBackdropView:) UIKBInputBackdropView *_inputAccessoryBackdropView; // @synthesize _inputAccessoryBackdropView;

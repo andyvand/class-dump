@@ -15,18 +15,17 @@ __attribute__((visibility("hidden")))
     UITapGestureRecognizer *_tapRecognizer;
 }
 
-- (id)FileTransferWithGUIDs:options:completion: /* Error: Ran out of types for this method. */;
-- (void)s:(id)arg1 limit: /* Error: Ran out of types for this method. */;
-- (void)eleteRecoverableMessageCKOperationUsingRecordIDstoDelete:(id)arg1;
-- (id)g",R,N,V_GUID;
-- (id)fier;
-- (void)roller",R,&,V_accountController;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)!Gù1Á°1¢!0@ù
-× ;
-- (id)oved clients.;
+- (void);
+- (id),V__navigationItemPreviouslyDisplayingSearchBarWithSearchActive;
+- (void)x±e;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *restrictedContentView; // @synthesize restrictedContentView=_restrictedContentView;

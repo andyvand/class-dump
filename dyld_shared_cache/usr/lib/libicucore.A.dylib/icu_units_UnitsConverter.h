@@ -6,11 +6,11 @@ class icu::units::UnitsConverter {
 public: // (access info unavailable from symbols alone)
     UnitsConverter(icu::MeasureUnitImpl const&, icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
     UnitsConverter(icu::StringPiece, icu::StringPiece, UErrorCode&);
-    baseToScale(double, double*, int) const;
-    compareTwoUnits(icu::MeasureUnitImpl const&, icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
-    convert(double) const;
-    convertInverse(double) const;
-    getConversionInfo() const;
-    init(icu::units::ConversionRates const&, UErrorCode&);
-    scaleToBase(double, double*, int) const;
+    auto baseToScale(double, double*, int) const;
+    auto compareTwoUnits(icu::MeasureUnitImpl const&, icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
+    auto convert(double) const;
+    auto convertInverse(double) const;
+    auto getConversionInfo() const;
+    auto init(icu::units::ConversionRates const&, UErrorCode&);
+    auto scaleToBase(double, double*, int) const;
 };

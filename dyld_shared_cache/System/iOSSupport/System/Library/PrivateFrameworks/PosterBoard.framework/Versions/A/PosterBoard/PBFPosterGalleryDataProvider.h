@@ -65,13 +65,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -80,20 +76,26 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)On,V_on;
-- (void)oleAttribute>  _Nullable __strong, id<PRPosterRoleAttribute>  _Nullable __strong, id<PRPosterRoleAttribute>  _Nullable __strong, __strong id<PBFPosterExtensionDataStorageMutating,PBFPosterExtensionDataStorageRetrieving> _Nonnull, NSError *__autoreleasing * _Nullable);
+- (id);
+- (void);
+- (void)	Ð1â
+0@ù
+× ;
+- (id)tWithPreview:(id)arg1;
+- (id)eMembership WHERE roleId = :roleIdentifier2), 1)); /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <PBFComplicationSnapshotProviding> complicationSnapshotProvider; // @synthesize complicationSnapshotProvider=_complicationSnapshotProvider;

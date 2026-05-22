@@ -33,8 +33,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)Ë^\a;
 
 // Remaining properties
 @property(nonatomic, readonly) NSSet *listenableArticleIDs;

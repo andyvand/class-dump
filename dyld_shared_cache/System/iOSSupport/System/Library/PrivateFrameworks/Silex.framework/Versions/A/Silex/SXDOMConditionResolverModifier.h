@@ -56,7 +56,7 @@
 - (id);
 - (id);
 - (id);
-- (void)0;
+- (void)ctivationEligibilityProviding>";
 
 // Remaining properties
 @property(readonly, nonatomic) SXConditionalObjectResolver *advertisementAutoPlacementResolver; // @synthesize advertisementAutoPlacementResolver=_advertisementAutoPlacementResolver;

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout, UIWindowSceneActivationConfiguration;
-
 @protocol UICollectionViewDelegate
 
 @optional
-- (void);
-- (void) ;
-- (struct CGPoint)uage:(UICollectionView *)arg1 options:(struct CGPoint)arg2;
-- (UIWindowSceneActivationConfiguration *)alSyllableRanges:(UICollectionView *)arg1;
-- (_Bool)rdBuffer:(UICollectionView *)arg1 length:(SEL)arg2;
-- (_Bool)_languageCode;
-- (_Bool)k;
-- (void);
-- (UICollectionViewTransitionLayout *);
-- (NSIndexPath *)q@;
-- (_Bool);
-- (_Bool)ComposeRecipientStringMatchLastName;
-- (NSIndexPath *)e;
+- (_Bool)ifyDelegateOfSizeChange;
 @end
 

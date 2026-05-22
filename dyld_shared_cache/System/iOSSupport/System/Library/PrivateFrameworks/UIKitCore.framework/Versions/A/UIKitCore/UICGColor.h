@@ -12,24 +12,24 @@ __attribute__((visibility("hidden")))
     struct CGColor *_cachedColor;
 }
 
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)cationInWindow:(id)arg1 withWindowBounds: /* Error: Ran out of types for this method. */;
+- (id)ô®¯;
+- (struct CGColor *)ªÛBHc;
+- (void)kË¬wl;
+- (void)7;
+- (_Bool)pìÜÄm;
+- (_Bool)5dÿ;
+- (_Bool)¤ðsÿéÕXon;
+- (id)X;
+- (double)¢Ýþ;
+- (void);
+- (_Bool)ÿ´ÌÏo;
 - (id);
-- (void);
-- (id)ew;
-- (struct CGColor *)h~þÿÜüÿ;
-- (_Bool)referredSizes *> *_UICollectionLayoutCompositionalSolverRebasedPreferredSizesForSolutions(NSArray<_UICollectionCompositionalSolverPreferredSizesRebaseInfo *> *const __strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_3;
-- (_Bool)fset;
-- (id);
-- (void);
-- (void)Pz;
-- (void);
-- (_Bool)Vî];
-- (double)p\iþ·á_;
-- (id);
-- (_Bool)kÎqf;
 - (_Bool);
-- (id)p;
 
 @end
 

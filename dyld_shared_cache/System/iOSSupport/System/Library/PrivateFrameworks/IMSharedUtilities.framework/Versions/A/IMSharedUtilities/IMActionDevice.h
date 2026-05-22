@@ -9,12 +9,12 @@
     long long type;
 }
 
+- (id);
+- (long long);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (long long);
 - (id);
 
 // Remaining properties

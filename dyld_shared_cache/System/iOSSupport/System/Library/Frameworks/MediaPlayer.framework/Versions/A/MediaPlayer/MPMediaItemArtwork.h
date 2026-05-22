@@ -15,10 +15,10 @@
 - (id);
 - (struct CGRect);
 - (id);
+- (id);
 - (struct CGRect);
-- (void);
 - (id);
-- (id);
+- (void)xtColor;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *articleFeaturesFactory;
     MISSING_TYPE *subscriptionController;
+    MISSING_TYPE *localEntityDataProvider;
 }
 
 @end

@@ -18,17 +18,17 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (void);
 - (id);
-- (double);
-- (void);
-- (void);
 - (struct CGSize);
-- (void)¡v°!Cù{Ð1b0@ù
+- (void);
+- (void);
+- (_Bool);
+- (double)1FÐ1â
+0@ù
 × ;
-- (id)
-× ;
-- (void)o1øÏ;
+- (id)=qq{CGSize=dd}Q{?={?=qiIq}{?=qiIq}{?=qiIq}{?={?=qiIq}q}c}q{?={CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16{CGRect={CGPoint=dd}{CGSize=dd}}24;
+- (void)#Û;
 
 // Remaining properties
 @property(readonly, nonatomic) double displayScale;

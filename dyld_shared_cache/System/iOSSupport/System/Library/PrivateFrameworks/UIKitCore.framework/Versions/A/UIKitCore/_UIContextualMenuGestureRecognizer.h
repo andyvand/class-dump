@@ -10,12 +10,11 @@
 {
 }
 
-- (void)ÑÇð1¢!0@ù
-× ;
-- (void);
-- (void)InternationalKeys;
-- (void);
 - (long long);
+- (void)lingDirection:(id)arg1;
+- (void)mPrimaryViewController:(id)arg1;
+- (void)ilityStyle:(id)arg1;
+- (void);
 
 @end
 

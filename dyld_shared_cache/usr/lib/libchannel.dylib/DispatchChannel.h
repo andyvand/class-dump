@@ -5,12 +5,12 @@
 class DispatchChannel {
 public: // (access info unavailable from symbols alone)
     DispatchChannel(bool, MessageRingBuffer, MessageRingBuffer, CASPage*, unsigned int, unsigned int, unsigned int, unsigned int, NSObject<OS_dispatch_queue>*, void*);
-    activate();
-    activate_no_check();
-    cancel();
-    dequeue_messages();
-    set_close_handler(void () block_pointer);
-    set_message_handler(void (void*, unsigned long, unsigned int) block_pointer);
-    set_msg_source_mandatory_cancel_handler(void () block_pointer);
-    try_activate();
+    auto activate();
+    auto activate_no_check();
+    auto cancel();
+    auto dequeue_messages();
+    auto set_close_handler(void () block_pointer);
+    auto set_message_handler(void (void*, unsigned long, unsigned int) block_pointer);
+    auto set_msg_source_mandatory_cancel_handler(void () block_pointer);
+    auto try_activate();
 };

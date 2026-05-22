@@ -37,7 +37,7 @@
 - (void);
 - (void);
 - (id);
-- (double)<;;
+- (double)Updating to new content size | currentSize (%f, %f) |  newSize (%f, %f);
 
 // Remaining properties
 @property(readonly, nonatomic) double maximumGestureScale;

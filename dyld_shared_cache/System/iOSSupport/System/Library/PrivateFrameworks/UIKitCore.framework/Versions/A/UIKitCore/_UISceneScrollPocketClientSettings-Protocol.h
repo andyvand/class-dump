@@ -5,11 +5,6 @@
 //
 
 @protocol _UISceneScrollPocketClientSettings
-- (void)WithOptions;
-- (void)r is NULL;
-- (void)ied, but this is allowed, skip comparing kFDRTag_inst object property;
-- (long long)cket, error %d, digestSize=%d;
-- (long long);
 
 // Remaining properties
 @property(nonatomic) long long bottomScrollPocketLuma;

@@ -120,25 +120,28 @@
 - (id);
 - (id);
 - (CDStruct_15189878);
-- (double);
 - (void);
 - (double);
+- (double);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
-- (id)
-× ;
-- (id)473ÿ8<3ÿF3ÿ¸P3ÿtQ3ÿpW3ÿ°Gÿèlÿp3ÿÀ»3ÿÊ3ÿðÐ3ÿ8Ó3ÿà×3ÿ<Þ3ÿà3ÿì3ÿ¸õ3ÿ4ÿ|GÿØF5ÿ°lÿ¸á5ÿdå5ÿhGÿ6ÿlÿP87ÿXGÿ 9ÿ0Í;ÿ(Î;ÿÞ;ÿ Þ;ÿLå;ÿ<Gÿâ<ÿ4GÿX>ÿ,Gÿ¤Y?ÿ?ÿ$?ÿ;
 - (id);
-- (void)(ÿÿ;
 - (void);
-- (id)ù1;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)ð1â
+0@ù
+× ;
+- (id)1â
+0@ù
+× ;
+- (id)ionalAutoEditDecisionLists;
+- (id)XPhotoKitDuplicateActionController.m;
+- (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_15189878 additionalItemsCount; // @synthesize additionalItemsCount=_additionalItemsCount;

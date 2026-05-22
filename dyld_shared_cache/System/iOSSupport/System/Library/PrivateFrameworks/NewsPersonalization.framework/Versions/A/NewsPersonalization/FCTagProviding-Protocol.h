@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCPurchaseOfferableConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
+@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
 @protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagStocksFields, FCTopicProviding;
 
 @protocol FCTagProviding
-- (NSString *);
+- (_Bool)rGroupMagazineFeedHeadlineScoringOutputName;
+- (double)Ìwêÿÿÿÿÿ,;
+- (_Bool)th error %{public}@;
 - (_Bool);
-- (NSString *);
-- (NSArray *)@;
-- (FCPaywallConfiguration *)A;
-- (double)RemoteViewController"16B24@?<v@?>28;
-- (NSDate *)iceLocale;
-- (FCSportsRecommendationMappings *)$;
-- (_Bool)eBuyParams;
-- (_Bool);
-- (NSArray *)(;
-- (_Bool)P;
-- (NSString *)#;
-- (_Bool);
-- (NTPBPublisherPaidDescriptionStrings *)C;
-- (_Bool)FormatConfiguration;
-- (NSString *)en;
-- (_Bool)sonalizationURLMapping",R,N;
-- (FCPurchaseOfferableConfiguration *)	
-;
-- (NSArray *);
-- (_Bool)<¬þÿ¼®þÿØ±þÿd¿þÿ0ÀþÿXÁþÿ(ÂþÿðÂþÿtÄþÿ¸ÄþÿÜÄþÿxÅþÿÜÆþÿÇþÿ@ÇþÿdÇþÿÇþÿÀÇþÿ;
-- (_Bool)Üÿ;
-- (NSString *)THREE;
-- (_Bool)cleQuotas":{"value":{"defaultRatio":0.1,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":15},{"selector":"platform-pad","value":20}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
-- (id <FCTopicProviding>)Com_Apple_News_PersonalizationStorage_CompressedSessionEventArticleShared;
-- (_Bool)ü}óàÿ;
+- (_Bool)ïgZ;
+- (_Bool)lizationStorage_CompressedSessionEventArticleLegacyMetadata;
+- (NSString *)ÿ;
+- (_Bool)ceResult;
+- (NSDate *)-;
+- (NSString *)ÜïÄbÝÿýÛï(cÝÿÍÛïLJçÿ-Üï\JçÿÜïlØÿ-ÜïdJçÿ;
+- (_Bool)ÍñSì;
+- (_Bool)pÑ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *adTargetingKeywords;
@@ -60,6 +45,8 @@
 @property(readonly, nonatomic) _Bool disableFollow;
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *displayName;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageHQAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageHQAssetHandle;
 @property(readonly, nonatomic) NSDate *fetchDate;
@@ -86,6 +73,7 @@
 @property(readonly, nonatomic) _Bool isHidden;
 @property(readonly, nonatomic) _Bool isInternal;
 @property(readonly, nonatomic) _Bool isLocal;
+@property(readonly, nonatomic) _Bool isLocalHub;
 @property(readonly, nonatomic) _Bool isMagazine;
 @property(readonly, nonatomic) _Bool isMySports;
 @property(readonly, nonatomic) _Bool isNewspaper;

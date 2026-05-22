@@ -7,11 +7,9 @@
 @class NSString, UIImage;
 
 @protocol UILargeContentViewerItem
-- (struct UIEdgeInsets)ÔáqÐ!Bù1Å1¢!0@ù
-× ;
-- (_Bool)EndedTouch: /* Error: Ran out of types for this method. */;
-- (NSString *)FocusInPresentingViewController;
-- (_Bool)g to defer focus updates.;
+- (_Bool)KeysOrdered: /* Error: Ran out of types for this method. */;
+- (NSString *)tonConfiguration;
+- (UIImage *)l to _UIResponderChainFinishCollectingDebugInfo but no collection ongoing. (array);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *largeContentImage;

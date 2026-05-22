@@ -5,12 +5,12 @@
 class GLRResource {
 public: // (access info unavailable from symbols alone)
     GLRResource();
-    dealloc();
-    decrementBusy();
-    decrementUsage();
-    incrementBusy();
-    incrementUsage();
-    testIdle();
-    waitIdle(GLDShareGroupRec*);
+    auto dealloc();
+    auto decrementBusy();
+    auto decrementUsage();
+    auto incrementBusy();
+    auto incrementUsage();
+    auto testIdle();
+    auto waitIdle(GLDShareGroupRec*);
     ~GLRResource();
 };

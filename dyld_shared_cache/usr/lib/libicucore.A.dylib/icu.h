@@ -4,12 +4,12 @@
 
 class icu {
 public: // (access info unavailable from symbols alone)
-    getUnitQuantity(icu::MeasureUnitImpl const&, UErrorCode&);
-    operator+(icu::UnicodeString const&, icu::UnicodeString const&);
-    operator<<(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, icu::UnicodeString const&);
-    operator==(icu::StringPiece const&, icu::StringPiece const&);
-    operator>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, icu::UnicodeString&);
-    umtx_initImplPostInit(icu::UInitOnce&);
-    umtx_initImplPreInit(icu::UInitOnce&);
-    unistr_internalConcat(icu::UnicodeString const&, std::__1::basic_string_view<char16_t, std::__1::char_traits<char16_t>>);
+    auto copyInvariantChars(icu::UnicodeString const&, icu::FixedString&, UErrorCode&);
+    auto getUnitQuantity(icu::MeasureUnitImpl const&, UErrorCode&);
+    auto operator+(icu::UnicodeString const&, icu::UnicodeString const&);
+    auto operator==(icu::StringPiece const&, icu::StringPiece const&);
+    auto operator>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, icu::UnicodeString&);
+    auto umtx_initImplPostInit(icu::UInitOnce&);
+    auto umtx_initImplPreInit(icu::UInitOnce&);
+    auto unistr_internalConcat(icu::UnicodeString const&, std::__1::basic_string_view<char16_t, std::__1::char_traits<char16_t>>);
 };

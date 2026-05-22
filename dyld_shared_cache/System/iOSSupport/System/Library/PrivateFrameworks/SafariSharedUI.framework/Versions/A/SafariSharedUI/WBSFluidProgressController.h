@@ -19,9 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void)me:(id)arg1 object: /* Error: Ran out of types for this method. */;
-- (void).iBooksX;
-- (void)/AppleInternal/Library/BuildRoots/4~CG5eugDHm4FHBzsJHotrRbuopU5aHYnbyk7QQ8U/Library/Caches/com.apple.xbs/Sources/BookKit/frameworks/BookUtility/zip/BUZipWriter.m;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,7 +30,9 @@
 - (void);
 - (id);
 - (id);
-- (void)Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore;
+- (void);
+- (void);
+- (void)backgroundColor:foregroundColor:cornerRadius:shouldRemoveGrammaticalArticles: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSFluidProgressControllerDelegate> delegate; // @synthesize delegate=_delegate;

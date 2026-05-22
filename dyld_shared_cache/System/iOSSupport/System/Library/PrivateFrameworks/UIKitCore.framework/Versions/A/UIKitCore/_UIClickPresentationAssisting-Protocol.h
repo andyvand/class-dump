@@ -7,9 +7,6 @@
 @class _UIClickPresentation;
 
 @protocol _UIClickPresentationAssisting
-- (void)ave manifest for %@;
-- (void)gMapCopyLocalDictForClass;
-- (void)lgorithms) ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType keyboardAssertionInvalidationHandler;

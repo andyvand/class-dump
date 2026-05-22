@@ -48,9 +48,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (struct CGSize)5;
++ (struct CGSize);
 + (unsigned long long);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (unsigned long long);
@@ -94,7 +94,7 @@
 - (id);
 - (CDStruct_6e3f967a);
 - (id);
-- (CDStruct_83984b6f)!;
+- (CDStruct_83984b6f);
 - (CDStruct_6e3f967a);
 - (id);
 - (void);
@@ -105,11 +105,11 @@
 - (unsigned long long);
 - (struct CGSize);
 - (id);
-- (id);
 - (void);
 - (id);
-- (double)out",N,VmParent;
-- (unsigned long long)roperty;
+- (double);
+- (id);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) TSDGPUDataBufferAttribute *centerAttribute; // @synthesize centerAttribute=_centerAttribute;

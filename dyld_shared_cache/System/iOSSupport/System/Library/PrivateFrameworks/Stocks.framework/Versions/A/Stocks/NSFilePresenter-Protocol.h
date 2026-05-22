@@ -7,10 +7,6 @@
 @class NSOperationQueue, NSSet, NSURL;
 
 @protocol NSFilePresenter
-- (NSOperationQueue *)Store>">16;
-
-@optional
-- (void);
 
 // Remaining properties
 @property(readonly) NSSet *observedPresentedItemUbiquityAttributes;

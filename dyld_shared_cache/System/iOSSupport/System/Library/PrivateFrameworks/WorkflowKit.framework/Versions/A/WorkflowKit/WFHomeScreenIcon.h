@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)WFBase64LineBreakMode;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *customImageData; // @synthesize customImageData=_customImageData;

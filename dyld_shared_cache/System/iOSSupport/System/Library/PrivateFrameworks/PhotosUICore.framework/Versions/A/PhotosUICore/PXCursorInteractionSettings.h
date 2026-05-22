@@ -26,7 +26,7 @@
     long long _aspectFillAnimationStyle;
 }
 
-+ (id)q]I·99;
++ (id)ä ÿ;
 - (double);
 - (void);
 - (void);
@@ -59,12 +59,12 @@
 - (double);
 - (void);
 - (void);
+- (id);
+- (void);
 - (double);
 - (void);
-- (void);
-- (void);
-- (id)usPauseReasonOffline;
-- (double)foPanel;
+- (void)stCropRectForAspectRatio:(double)arg1;
+- (double)ÿ;
 
 // Remaining properties
 @property(nonatomic) double allPhotosAspectFillPadding; // @synthesize allPhotosAspectFillPadding=_allPhotosAspectFillPadding;

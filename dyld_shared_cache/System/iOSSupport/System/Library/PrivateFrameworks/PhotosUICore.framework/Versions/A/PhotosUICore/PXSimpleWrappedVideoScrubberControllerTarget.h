@@ -29,11 +29,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (float)0:8@"PXScrollViewController"16 /* Error: Ran out of types for this method. */;
-- (id)changeDelegate;
-- (void)ÿ;ÓPF+4;
+- (id);
+- (void)1*;
+- (void)¸]ÿiáÆ;
+- (float)ÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CAAction;
+
 @protocol CALayerDelegate
 
 @optional
 - (void);
-- (void)pDelayProvider;
+- (void)nd Fail] Message failed to send&ComponentID=137610&ComponentName=Messages&ComponentVersion=(New Bugs)&Description=;
+- (id <CAAction>).;
 @end
 

@@ -16,10 +16,10 @@
     NSObject<UIDocumentPasswordViewDelegate> *passwordDelegate;
 }
 
-- (void)orKey:(id)arg1;
 - (void);
-- (id)C;
-- (id)ssage;
+- (void);
+- (id);
+- (id);
 - (void);
 - (double);
 - (id);
@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (void);
-- (void)	;
 - (void);
-- (_Bool)Íl;
-- (void)l;
+- (void);
+- (void);
+- (_Bool)17ElementIdentifierx;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,9 +4,9 @@
 
 class std::__1::time_put<char, std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>> {
 public: // (access info unavailable from symbols alone)
-    do_put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::ios_base&, char, tm const*, char, char) const;
-    put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::ios_base&, char, tm const*, char const*, char const*) const;
-    put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::ios_base&, char, tm const*, char const*, char const*) const (.cold.1);
-    time_put[abi:ne200100](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long);
+    auto do_put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::ios_base&, char, tm const*, char, char) const;
+    auto put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::ios_base&, char, tm const*, char const*, char const*) const;
+    auto put(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::ios_base&, char, tm const*, char const*, char const*) const (.cold.1);
+    auto time_put[abi:nqe210106](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long);
     ~time_put();
 };

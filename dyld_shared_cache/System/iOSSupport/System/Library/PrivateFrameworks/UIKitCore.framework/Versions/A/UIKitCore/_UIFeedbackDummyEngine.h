@@ -12,20 +12,21 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _invalidationBlock;
 }
 
-+ (id);
-+ (_Bool)0@ù
++ (_Bool);
++ (id)!;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)
 × ;
-- (void)=;
+- (CDUnknownBlockType)0@ù
+× ;
+- (_Bool)outAdjustmentsForManagedViewWithPosition:(id)arg1;
+- (void)y connection for %{public}@ has been abandoned, skipping connection setup;
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (_Bool)non linear focus movement.;
-- (void)ew;
-- (id)øNßÿ;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType invalidationBlock; // @synthesize invalidationBlock=_invalidationBlock;

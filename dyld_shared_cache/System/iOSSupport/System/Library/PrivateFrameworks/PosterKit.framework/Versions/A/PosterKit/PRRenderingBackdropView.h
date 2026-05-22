@@ -19,16 +19,16 @@
     double _linearBacklightProgress;
 }
 
-- (void);
-- (double);
-- (double);
-- (void);
-- (void);
-- (double);
-- (void);
 - (id);
 - (void);
-- (void)acks received;
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
+- (void);
+- (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double backlightProgress; // @synthesize backlightProgress=_backlightProgress;

@@ -5,6 +5,5 @@
 //
 
 @protocol CKCNSharingProfileOnboardingFlowManagerDelegate
-- (void);
 @end
 

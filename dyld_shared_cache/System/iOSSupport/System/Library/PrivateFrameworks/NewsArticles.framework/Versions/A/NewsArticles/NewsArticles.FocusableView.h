@@ -11,9 +11,9 @@
     MISSING_TYPE *focusable;
 }
 
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFocused;

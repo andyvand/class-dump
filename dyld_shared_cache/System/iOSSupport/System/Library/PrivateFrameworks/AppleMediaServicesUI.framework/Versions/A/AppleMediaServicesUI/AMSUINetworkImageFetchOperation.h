@@ -24,17 +24,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id)Rñ`Ü;
+- (void)eInfo;
+- (_Bool)Tº;
+- (_Bool)@Vîÿç¡è(;
 
 // Remaining properties
 @property(retain, nonatomic) NSURLSession *URLSession; // @synthesize URLSession=_URLSession;

@@ -10,15 +10,15 @@
 {
 }
 
-- (id)rossMergedChatsIfNecessary:(id)arg1;
+- (id);
 - (void);
 - (void);
-- (id)¡u!$GùÊÐ1¢!0@ù
+- (id);
+- (id)
 × ;
-- (void)humbViewNeue;
-- (void)ContainersQueuedForRemoval;
-- (id)Constants_CarPlay;
-- (id)semaphoreC;
+- (void)_UIKeyboardTextSelectionGestureController",&,N,V_gestureController;
+- (id);
+- (void)reate CFMutableArray;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;

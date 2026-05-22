@@ -13,7 +13,8 @@
 }
 
 + (id);
-+ (id)IMDHandleRecordCopyUncanonicalizedID(CFAllocatorRef, IMDHandleRecordRef);
++ (id);
++ (id)rom chat_handle_join where chat_id = ? ORDER BY handle_id ASC;
 - (id);
 - (id);
 - (id);
@@ -36,13 +37,14 @@
 - (id);
 - (id);
 - (struct __CFArray **);
+- (id);
 - (long long);
-- (id)Image (file type);
-- (void);
 - (_Bool);
-- (id)setScaleFactor: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (long long)´;
+- (id);
+- (void);
+- (long long);
+- (unsigned long long)excluded is not, take excluded */
+    WHEN (;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAdaptiveImageGlyph) _Bool adaptiveImageGlyph;

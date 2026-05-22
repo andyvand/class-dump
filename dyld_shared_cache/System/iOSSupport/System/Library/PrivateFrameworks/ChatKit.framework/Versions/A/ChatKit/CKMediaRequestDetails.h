@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (void);
 - (long long);
+- (CDUnknownBlockType);
+- (void)Ô$Ä;
 
 // Remaining properties
 @property(readonly, nonatomic) long long requestID; // @synthesize requestID=_requestID;

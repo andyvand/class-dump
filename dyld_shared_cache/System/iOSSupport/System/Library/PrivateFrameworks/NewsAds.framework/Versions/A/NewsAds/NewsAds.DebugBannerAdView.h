@@ -17,10 +17,10 @@
     MISSING_TYPE *label;
 }
 
+- (id);
 - (void);
 - (id);
-- (void)Hosting>";
-- (id);
+- (void);
 
 @end
 

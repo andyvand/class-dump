@@ -43,17 +43,17 @@
 - (id);
 - (unsigned char);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (unsigned short);
+- (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)=%{bool}d delegate.ownsNavigation=%{bool}d delegate.owner=%s delegate.lastBundleIdentifier=%s;
 
 // Remaining properties
 @property(nonatomic) long long accNavType; // @synthesize accNavType=_accNavType;

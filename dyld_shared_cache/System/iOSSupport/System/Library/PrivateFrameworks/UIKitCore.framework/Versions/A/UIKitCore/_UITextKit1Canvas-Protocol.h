@@ -7,8 +7,9 @@
 @protocol _UITextKit1CanvasContext;
 
 @protocol _UITextKit1Canvas
-- (id <_UITextKit1CanvasContext>)lWidthConstraints;
-- (void)ny;
+- (id <_UITextKit1CanvasContext>)
+× ;
+- (void)ction;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextKit1CanvasContext> context;

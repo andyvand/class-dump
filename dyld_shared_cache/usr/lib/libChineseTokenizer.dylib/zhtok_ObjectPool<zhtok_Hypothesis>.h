@@ -5,7 +5,7 @@
 class zhtok::ObjectPool<zhtok::Hypothesis> {
 public: // (access info unavailable from symbols alone)
     ObjectPool(unsigned long);
-    alloc();
-    reset();
+    auto alloc();
+    auto reset();
     ~ObjectPool();
 };

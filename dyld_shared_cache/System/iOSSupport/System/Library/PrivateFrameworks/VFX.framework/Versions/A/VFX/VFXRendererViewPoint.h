@@ -21,10 +21,10 @@
 - (void);
 - (CDStruct_14d5dc5e);
 - (void);
+- (void);
 - (CDStruct_4b2885c7);
 - (unsigned long long);
 - (_Bool);
-- (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_14d5dc5e projectionMatrix; // @synthesize projectionMatrix=_projectionMatrix;

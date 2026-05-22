@@ -5,6 +5,6 @@
 class icu::DisplayOptions {
 public: // (access info unavailable from symbols alone)
     DisplayOptions(icu::DisplayOptions::Builder const&);
-    builder();
-    copyToBuilder() const;
+    auto builder();
+    auto copyToBuilder() const;
 };

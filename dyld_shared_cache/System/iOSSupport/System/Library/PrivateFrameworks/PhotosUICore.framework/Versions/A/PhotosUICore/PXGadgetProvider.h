@@ -44,14 +44,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id)itlyDisableFilters;
-- (void)mberOfMinutesToShowPillUIAfterSaving;
-- (id)geDescriptor;
-- (void);
-- (id)ZyAhLGG;
-- (void)ectionModel;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id),V_canIncludeUnsavedSyndicatedAssets;
+- (void)¡É,e!ÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,16 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIDragPreviewParameters;
+@class NSArray, UICollectionView, UIDragPreviewParameters;
+@protocol UIDragSession;
 
 @protocol UICollectionViewDragDelegate
+- (NSArray *)0@ù
+× ;
 
 @optional
-- (NSArray *)X;
-- (UIDragPreviewParameters *)ô»;
-- (void)Sg_SayypGSgtIeAgHr_;
-- (void)R;
-- (_Bool)UTOCAPITALIZATION;
-- (NSArray *);
+- (void)±°1Â0@ù
+× ;
+- (UIDragPreviewParameters *)yDictionary:(UICollectionView *)arg1;
+- (void):(UICollectionView *)arg1 style:(id <UIDragSession>)arg2;
+- (NSArray *)¨ùÿæøÿ;
+- (_Bool)Ð;
 @end
 

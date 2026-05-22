@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIViewSpringAnimationBehaviorDescribing;
-
 @protocol UIDropInteractionDelegate_Private
 
 @optional
-- (id <UIViewSpringAnimationBehaviorDescribing>)tsNotificationResponsesDelivered;
 - (void);
-- (long long)meworks/WebKit.framework/WebKit;
+- (long long)(;
 @end
 

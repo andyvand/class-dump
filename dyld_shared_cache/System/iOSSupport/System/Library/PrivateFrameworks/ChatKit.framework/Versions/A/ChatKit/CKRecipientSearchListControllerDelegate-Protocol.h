@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecipientSearchListController;
-
 @protocol CKRecipientSearchListControllerDelegate
-- (void)TextStorage:(CKRecipientSearchListController *)arg1;
-- (void)DeauthenticationTimer;
-- (long long)ringForResultAttachment:(CKRecipientSearchListController *)arg1;
-- (void)tAttachment:(CKRecipientSearchListController *)arg1;
 @end
 

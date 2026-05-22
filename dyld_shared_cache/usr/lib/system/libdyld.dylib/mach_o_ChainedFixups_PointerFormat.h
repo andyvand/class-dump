@@ -4,7 +4,7 @@
 
 class mach_o::ChainedFixups::PointerFormat {
 public: // (access info unavailable from symbols alone)
-    badBindOrdinal(mach_o::Fixup const&) const;
-    make(unsigned short);
-    ptrAlignmentSize() const;
+    auto badBindOrdinal(mach_o::Fixup const&) const;
+    auto make(unsigned short);
+    auto ptrAlignmentSize() const;
 };

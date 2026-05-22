@@ -16,13 +16,15 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void)Frameworks/AVFAudio.framework/Versions/A/AVFAudio;
-- (_Bool);
-- (id)null for data validation;
-- (void)ld;
-- (void)tion;
-- (id)tf;
-- (double)nputDestination queue_sceneBecameFocused:withCompletion:]_block_invoke  Performing required scene update because it was focused in the arbiter:%p; scene:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (id);
+- (void)!\Gù±cÐ1Â0@ù
+× ;
+- (void);
+- (id)1Â0@ù
+× ;
+- (_Bool)t;
 
 // Remaining properties
 @property(retain, nonatomic) _UILegibilitySettings *settings; // @synthesize settings=_settings;

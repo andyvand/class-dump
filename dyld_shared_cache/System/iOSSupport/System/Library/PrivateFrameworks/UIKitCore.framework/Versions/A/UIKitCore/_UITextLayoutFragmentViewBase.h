@@ -25,24 +25,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGRect);
-- (void)!;
-- (struct CGRect)tactCardForHandle: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)_hasPopulatedHighlightTracking;
-- (struct CGRect)countController:accountAdded: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)nt:idsTrustedData: /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CGRect);
+- (struct CGPoint);
+- (struct CGRect);
+- (struct CGPoint);
 - (void);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
-- (void);
-- (id)
+- (id)1Â0@ù
 × ;
-- (void)ÑËð1¢!0@ù
+- (void)0@ù
 × ;
-- (void)ccessoryConfigurationSeparator;
-- (void)rs;
+- (struct CGSize)× ;
+- (void)reserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
+- (void)aryProgress: /* Error: Ran out of types for this method. */;
+- (void)torConfigurationC;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect clipFrame; // @synthesize clipFrame=_clipFrame;

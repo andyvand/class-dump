@@ -29,7 +29,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)neDescriptor"16^@24;
 - (float);
 - (void);
 - (void);
@@ -50,29 +50,29 @@
 - (struct __CFXCameraEffectChromaticTransform *);
 - (void);
 - (void);
-- (float);
-- (MISSING_TYPE *);
-- (float);
 - (void);
 - (void *);
-- (void);
-- (void);
-- (void);
+- (float);
 - (MISSING_TYPE *);
-- (MISSING_TYPE *);
-- (void);
-- (void);
-- (MISSING_TYPE *);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
 - (float);
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *)lµ>@Mv?;
+- (MISSING_TYPE *);
+- (MISSING_TYPE *);
+- (void);
+- (void);
+- (MISSING_TYPE *);
+- (id);
+- (void);
+- (MISSING_TYPE *);
+- (float);
+- (void);
+- (id);
+- (id);
+- (void),þÿöQ;
+- (long long);
+- (void)?çh½{¤¡=~Å~?ÓÚl?->E½[=ë?j?±"½â±_=e?L¨h?C;
 
 // Remaining properties
 @property(nonatomic) MISSING_TYPE *center;

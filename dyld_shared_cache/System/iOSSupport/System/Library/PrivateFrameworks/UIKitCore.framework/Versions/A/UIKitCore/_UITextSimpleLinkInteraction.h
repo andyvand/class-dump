@@ -20,23 +20,21 @@ __attribute__((visibility("hidden")))
     _Bool _shouldProxyContextMenuDelegate;
 }
 
-- (_Bool)buildWithCalendarIdentifier:withMonitors:withNotificationTimes:withTimeBudget: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (id);
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool)ô;
+- (void)þ°þÿ;
+- (void)¡;
+- (id)tPR0q13|;
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (_Bool)1¢!0@ù
-× ;
-- (id)u°!GùQÉ°1¢!0@ù
-× ;
-- (_Bool)orage;
-- (id)ters:(_Bool)arg1 zeta:mass:velocity:epsilon:stiffness:damping: /* Error: Ran out of types for this method. */;
-- (void),N;
-- (void)redSceneUpdateIfPermittedForViewServiceHostWindow:(id)arg1 servicePID:] /* Error: Ran out of types for this method. */;
-- (_Bool)16@?0@"UIScene<_UISceneUIWindowHosting>"8;
-- (id);
+- (void)6ðþ;
+- (id)d<];
+- (void)ñÿe+;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldProxyContextMenuDelegate; // @synthesize shouldProxyContextMenuDelegate=_shouldProxyContextMenuDelegate;

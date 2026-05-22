@@ -29,15 +29,17 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (long long);
-- (void);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (long long);
-- (void)m 59+;
+- (void);
+- (void);
+- (void);
+- (void)!¿Ð!Dù1	Ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

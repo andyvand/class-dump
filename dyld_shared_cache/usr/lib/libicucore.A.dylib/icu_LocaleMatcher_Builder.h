@@ -5,18 +5,18 @@
 class icu::LocaleMatcher::Builder {
 public: // (access info unavailable from symbols alone)
     Builder(icu::LocaleMatcher::Builder&&);
-    addSupportedLocale(icu::Locale const&);
-    build(UErrorCode&) const;
-    clearSupportedLocales();
-    copyErrorTo(UErrorCode&) const;
-    ensureSupportedLocaleVector();
-    operator=(icu::LocaleMatcher::Builder&&);
-    setDefaultLocale(icu::Locale const*);
-    setDemotionPerDesiredLocale(ULocMatchDemotion);
-    setFavorSubtag(ULocMatchFavorSubtag);
-    setMaxDistance(icu::Locale const&, icu::Locale const&);
-    setNoDefaultLocale();
-    setSupportedLocales(icu::Locale::Iterator&);
-    setSupportedLocalesFromListString(icu::StringPiece);
+    auto addSupportedLocale(icu::Locale const&);
+    auto build(UErrorCode&) const;
+    auto clearSupportedLocales();
+    auto copyErrorTo(UErrorCode&) const;
+    auto ensureSupportedLocaleVector();
+    auto operator=(icu::LocaleMatcher::Builder&&);
+    auto setDefaultLocale(icu::Locale const*);
+    auto setDemotionPerDesiredLocale(ULocMatchDemotion);
+    auto setFavorSubtag(ULocMatchFavorSubtag);
+    auto setMaxDistance(icu::Locale const&, icu::Locale const&);
+    auto setNoDefaultLocale();
+    auto setSupportedLocales(icu::Locale::Iterator&);
+    auto setSupportedLocalesFromListString(icu::StringPiece);
     ~Builder();
 };

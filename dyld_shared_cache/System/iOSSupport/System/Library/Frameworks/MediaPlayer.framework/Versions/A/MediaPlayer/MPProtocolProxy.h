@@ -12,16 +12,16 @@
     NSHashTable *_objects;
 }
 
-+ (id)0:(id)arg1 8@16d24Q32@40@48@56@64@72Q80@88@96@104@112B120;
-+ (id)0:(id)arg1 8Q16@24@32;
++ (id);
++ (id);
+- (id);
 - (_Bool);
+- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id)tation: /* Error: Ran out of types for this method. */;
-- (void)licitSettingEnabledForCurrentUser returning fallback value=%{BOOL}u [monitorForCurrentUser=nil];
+- (void)G__;
+- (id)oint to:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)moteOptionDialogOptions;
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *objects; // @synthesize objects=_objects;

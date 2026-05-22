@@ -19,10 +19,9 @@
 - (_Bool);
 - (double);
 - (double);
-- (id);
 - (void);
-- (_Bool)0@ù
-× ;
+- (id);
+- (_Bool){public}@]:Skipping automatic authentication because we've already perform authentication once while in this stack /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double activationThreshold; // @synthesize activationThreshold=_activationThreshold;

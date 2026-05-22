@@ -10,10 +10,10 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (void)le.messages.effect.CKShootingStarEffect;
+- (void);
 
 @end
 

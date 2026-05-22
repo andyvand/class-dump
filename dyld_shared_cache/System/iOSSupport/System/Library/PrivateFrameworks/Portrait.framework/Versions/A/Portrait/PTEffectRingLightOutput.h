@@ -21,8 +21,8 @@
 - (float);
 - (float);
 - (void);
-- (void);
 - (float);
+- (void);
 
 // Remaining properties
 @property float recommendedColorTemperatureNormalized; // @synthesize recommendedColorTemperatureNormalized=_recommendedColorTemperatureNormalized;

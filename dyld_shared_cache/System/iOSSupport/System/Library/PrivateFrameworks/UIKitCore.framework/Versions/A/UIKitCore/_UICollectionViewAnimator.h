@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)Q36;
-- (void)nt;
-- (CDUnknownBlockType)á·;
+- (id);
+- (void);
+- (CDUnknownBlockType)ation",R,N,G_selectionConfiguration;
+- (void)È0]þX(;
 
 // Remaining properties
 @property(retain, nonatomic) _UICollectionViewAnimationContext *animationContext;

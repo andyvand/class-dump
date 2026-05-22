@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     _UIKeyboardTextSelectionGestureController *_textSelectionGestureController;
 }
 
-- (void);
-- (id);
-- (void)d;
+- (void)´!äþáÀK;
+- (void)ß×ae;
+- (id);
 
 @end
 

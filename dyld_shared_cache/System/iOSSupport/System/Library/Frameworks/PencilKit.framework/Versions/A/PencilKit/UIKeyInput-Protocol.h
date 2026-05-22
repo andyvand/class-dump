@@ -5,10 +5,7 @@
 //
 
 @protocol UIKeyInput
-- (void)0@ù
-× ;
-- (_Bool)eBackgroundColorFactory;
-- (void)dow;
+- (_Bool)dTapColorButton: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;

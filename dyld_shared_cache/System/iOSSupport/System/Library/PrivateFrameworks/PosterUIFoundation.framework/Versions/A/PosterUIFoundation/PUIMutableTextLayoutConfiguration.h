@@ -43,10 +43,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)|@ù °1b0@ù
-× ;
+- (void);
+- (void)trast;
 
 // Remaining properties
 @property(nonatomic, getter=isAlternateDateEnabled) _Bool alternateDateEnabled; // @synthesize alternateDateEnabled=_alternateDateEnabled;

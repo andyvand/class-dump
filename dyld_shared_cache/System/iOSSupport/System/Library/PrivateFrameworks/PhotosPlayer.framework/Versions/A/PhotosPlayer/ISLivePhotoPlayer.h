@@ -42,8 +42,8 @@
 - (double);
 - (CDStruct_e83c9415);
 - (void);
-- (void);
-- (void)	;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,19 +64,19 @@
 - (void);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (void);
-- (void);
 - (void);
-- (_Bool)�;
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (_Bool);
@@ -88,7 +88,7 @@
 - (void);
 - (void);
 - (void);
-- (void)@;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -106,17 +106,17 @@
 - (long long);
 - (double);
 - (_Bool);
+- (void);
+- (id);
 - (long long);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 
 // Remaining properties

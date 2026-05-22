@@ -36,12 +36,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void)j5þ*c;
+- (void)*getAVLinearPCMIsFloatKey(void);
+- (void)kId;
+- (void)CoreRoutine;
+- (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ>;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *body;

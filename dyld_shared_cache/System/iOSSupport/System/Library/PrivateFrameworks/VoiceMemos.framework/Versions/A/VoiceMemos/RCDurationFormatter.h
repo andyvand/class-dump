@@ -19,16 +19,16 @@
 + (id);
 + (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (struct RCDurationIntegers);
 - (id);
 - (id);
 - (void);
+- (void);
 - (struct RCDurationStrings);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 
 @end
 

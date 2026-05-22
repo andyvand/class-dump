@@ -22,27 +22,28 @@
     NSString *_screenIdentifier;
 }
 
-- (void)%@ and index %lu;
-- (void)ssage with Message Guid %@ and index %lu;
-- (float)ed to send a nil dictionary, bailing;
+- (void);
+- (void);
+- (float);
 - (id);
 - (void);
-- (void);
-- (id)ctionWithIdentifier:groupingType:completionBlock:] /* Error: Ran out of types for this method. */;
+- (id);
 - (float);
 - (void);
-- (id);
-- (void)!¨DùqÃð1¢!0@ù
+- (void);
+- (id)0@ù
 × ;
-- (int)dItemProvidersForPasteboardNamed: /* Error: Ran out of types for this method. */;
-- (void)vationObserver;
-- (CDUnknownBlockType);
-- (void)ndMinimumOffset;
-- (id);
-- (void);
-- (void)=W;
-- (SEL)|ÿêÿ¾;
+- (id)CùQf1Â0@ù
+× ;
+- (void)rticalOverlapForView:(id)arg1 usingKeyboardInfo: /* Error: Ran out of types for this method. */;
+- (int)ctionRectsUpdate;
+- (CDUnknownBlockType)(ÐðØ¸èd;
+- (SEL);
+- (void)X3^;
+- (void)ÔU_;
 - (id);
+- (void);
+- (void)Ý²m;
 
 @end
 

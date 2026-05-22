@@ -5,5 +5,5 @@
 class icu::FullCaseFoldingIterator {
 public: // (access info unavailable from symbols alone)
     FullCaseFoldingIterator();
-    next(icu::UnicodeString&);
+    auto next(icu::UnicodeString&);
 };

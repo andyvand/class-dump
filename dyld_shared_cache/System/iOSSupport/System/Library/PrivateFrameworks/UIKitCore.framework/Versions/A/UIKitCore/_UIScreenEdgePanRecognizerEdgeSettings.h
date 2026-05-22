@@ -17,24 +17,24 @@ __attribute__((visibility("hidden")))
     double _maximumSwipeDuration;
 }
 
-+ (id)existing attachment for %@, but was on the write path;
++ (id);
 + (id);
 - (void);
 - (double);
-- (void);
-- (void);
+- (double);
 - (void);
 - (double);
 - (void);
-- (void)nforcedContentTreeDepth;
 - (double);
-- (double)!ÈBùñÈ1¢!0@ù
+- (double);
+- (void);
+- (void)ù
 × ;
-- (void);
-- (void)ition: /* Error: Ran out of types for this method. */;
-- (double)ForTraitCollection:size:controlSize: /* Error: Ran out of types for this method. */;
-- (double)ttings;
-- (double)ring"8@"CAAnimation"16^B24;
+- (double)ailViewController"b1"delegatePrimaryViewControllerForCollapsingSplitViewController"b1"delegatePrimaryViewControllerForExpandingSplitViewController"b1"delegateCollapseSecondaryViewControllerOntoPrimaryViewController"b1"delegateSeparateSecondaryViewControllerFromPrimaryViewController"b1"delegatePreferredSearchColumnForSplitViewController"b1"delegateInteractivePresentationGestureWillBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
+- (double)d}64;
+- (void)s: /* Error: Ran out of types for this method. */;
+- (void)%{public}s -> %{public}s;
+- (void)not load NIB in bundle:(double)arg1 '%@' with name '%@';
 
 // Remaining properties
 @property(nonatomic) double bottomEdgeRegionSize; // @synthesize bottomEdgeRegionSize=_bottomEdgeRegionSize;

@@ -7,8 +7,6 @@
 @class AVTCoreModelPairing, AVTCoreModelPickerOptions, NSString;
 
 @protocol AVTCoreModelPicker
-- (NSString *)$;
-- (NSString *)in %lu rejected assets. Error:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;

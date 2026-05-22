@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UIContextMenuConfiguration, UITargetedPreview;
-
 @protocol UICollectionViewDelegate
 
 @optional
-- (void);
-- (void);
-- (void)vicesUI/feldspar/Frameworks/NewsServicesInternal/NSSNewsAnalyticsSubmitEnvelopesOperation.m;
-- (_Bool)tadata;
-- (UIContextMenuConfiguration *)t restriction policy;
-- (void);
-- (void)P;
-- (UITargetedPreview *)a;
-- (_Bool)rsion;
-- (NSIndexPath *);
-- (NSIndexPath *)ed.;
-- (void)Provider;
-- (_Bool)}bìèÿ}bðèÿ;
-- (NSIndexPath *)bl2èÿ;
+- (_Bool)tionTrial;
+- (_Bool)¨;
 @end
 

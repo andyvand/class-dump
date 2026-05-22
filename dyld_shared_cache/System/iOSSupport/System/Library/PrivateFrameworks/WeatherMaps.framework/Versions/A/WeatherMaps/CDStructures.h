@@ -33,10 +33,16 @@ struct CLLocationCoordinate2D {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long _field1;
-    unsigned long long _field2;
-    unsigned long long _field3;
-} CDStruct_14f26992;
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+} CDStruct_a06f635e;
+
+typedef struct {
+    float _field1;
+    float _field2;
+} CDStruct_b2fbf00d;
 
 typedef struct {
     long long _field1;
@@ -44,9 +50,4 @@ typedef struct {
     long long _field3;
     double _field4;
 } CDStruct_68723fc0;
-
-typedef struct {
-    CDStruct_14f26992 _field1;
-    CDStruct_14f26992 _field2;
-} CDStruct_4c83c94d;
 

@@ -13,28 +13,27 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id)¡8-º;
-- (_Bool)1¢!0@ù
-× ;
-- (id)!rð!GùÅ°1¢!0@ù
-× ;
-- (_Bool)× ;
-- (struct CGRect)QÉ°1¢!0@ù
-× ;
-- (void)0:(id)arg1 8@"UITableView"16@"NSIndexPath"24@"NSIndexPath"32;
-- (_Bool)onImageView: /* Error: Ran out of types for this method. */;
-- (struct CGRect)entaryEdge;
-- (void)atedBottomBarUpdateForTransition: /* Error: Ran out of types for this method. */;
-- (struct CGRect)_setAllowsFocusInPresentingViewController:(struct CGRect)arg1;
-- (_Bool)rmToRoot:(_Bool)arg1;
-- (struct CGRect)IViewController",R,N,V_previewViewController;
-- (void)ongs to a different navigation bar. topItem = %@, navigation bar = %@, possibly from a client attempt to nest wrapped navigation controllers.This mismatch may cause a layout feedback loop. This will become an assert in a future version.;
-- (id)jþÿjþÿR"ÿÿ¢wþÿ;
-- (struct CGRect)identifier.;
+- (_Bool);
 - (struct CGRect);
-- (_Bool)p6qÿ|²;
+- (struct CGRect);
+- (struct CGRect);
+- (void);
+- (_Bool);
+- (id)
+× ;
+- (_Bool)Qg1Â0@ù
+× ;
+- (void)eyboardSuppressionAssertionForReason:(_Bool)arg1;
+- (struct CGRect)ertion;
+- (struct CGRect)s;
+- (id):(struct CGRect)arg1;
+- (void)ssory type.;
+- (struct CGRect)`Å];
 
 // Remaining properties
 @property(nonatomic) _Bool keyboardDidAppear; // @synthesize keyboardDidAppear=_keyboardDidAppear;

@@ -27,8 +27,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ext (searchPhrase);
+- (id);
+- (void)chEdgeCaching;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appName;

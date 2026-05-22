@@ -35,7 +35,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)0·ÿÿüÿä&Öÿ4;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *albedos; // @synthesize albedos=_albedos;

@@ -19,20 +19,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)T;
+- (id);
 - (Class);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id)TTRSECreateA39EditingSessionDisplayTargetsUpdaterTypeP;
-- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

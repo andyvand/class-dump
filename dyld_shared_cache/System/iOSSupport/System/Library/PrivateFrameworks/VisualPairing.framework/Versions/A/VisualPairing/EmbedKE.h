@@ -4,10 +4,10 @@
 
 class EmbedKE {
 public: // (access info unavailable from symbols alone)
-    InitWithPayload(unsigned char*, unsigned int);
-    OutputWmAsHFloats(void*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, float, float, float, float, float, float);
-    createPM1PayloadTileFromSignature();
-    decompressKEKey(unsigned char const*);
-    encodePayloadIntoSignature(unsigned char*);
+    auto InitWithPayload(unsigned char*, unsigned int);
+    auto OutputWmAsHFloats(void*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, float, float, float, float, float, float);
+    auto createPM1PayloadTileFromSignature();
+    auto decompressKEKey(unsigned char const*);
+    auto encodePayloadIntoSignature(unsigned char*);
     ~EmbedKE();
 };

@@ -15,22 +15,21 @@ __attribute__((visibility("hidden")))
     UIView *_candidateView;
 }
 
-+ (double)Message GUID:(id)arg1 %@;
++ (double);
 - (void);
 - (long long);
-- (void);
 - (_Bool);
 - (_Bool);
-- (void)1Ã1¢!0@ù
-× ;
-- (double);
-- (_Bool)lls;
-- (id)ViewControllerStopAtIsPresentationContext: /* Error: Ran out of types for this method. */;
-- (_Bool)onView;
 - (id);
-- (_Bool)ûnl;
-- (void)ÌÛIÿ;
-- (void);
+- (double)Size=dd}24o^B40;
+- (_Bool)d;
+- (_Bool)compressor:(id)arg1;
+- (void)fectAlphaEntry;
+- (_Bool)hò;
+- (void)unexpectedly nil. self = %@, _view = %@;
+- (id)z_x_SHRzlXX;
+- (void)tè`;
+- (void)	oþüòÉý(n;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *candidateView; // @synthesize candidateView=_candidateView;

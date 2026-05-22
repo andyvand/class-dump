@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAggregateAcknowledgmentBalloonView;
-
 @protocol CKTapbackPickerBalloonParentViewDelegate
-- (_Bool);
-
-@optional
-- (void);
-- (CKAggregateAcknowledgmentBalloonView *)9;
-- (void)éÕ;
-- (void)Huô;
 @end
 

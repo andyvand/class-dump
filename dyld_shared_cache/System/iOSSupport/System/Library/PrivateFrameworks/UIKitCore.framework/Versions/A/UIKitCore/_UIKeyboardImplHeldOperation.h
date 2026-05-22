@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)R,N,G_hasCustomBackground;
-- (CDUnknownBlockType)ingRatioSmoothing;
-- (void)ptomDiagnosticReporter.framework/SymptomDiagnosticReporter;
+- (CDUnknownBlockType)Ù$Â^;
+- (void)[;
+- (id)À$;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType operation; // @synthesize operation=_operation;

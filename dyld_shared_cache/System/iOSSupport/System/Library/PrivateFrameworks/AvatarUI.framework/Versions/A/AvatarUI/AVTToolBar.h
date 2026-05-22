@@ -25,17 +25,17 @@
 - (void);
 - (id);
 - (void);
-- (void)&;
+- (void);
 - (void);
 - (id);
-- (double);
 - (void);
-- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id)ation;
 - (void);
 - (_Bool);
+- (double);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *border; // @synthesize border=_border;

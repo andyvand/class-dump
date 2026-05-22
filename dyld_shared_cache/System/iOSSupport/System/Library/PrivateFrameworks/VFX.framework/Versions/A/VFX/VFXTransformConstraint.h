@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)iÍ×`ÿiÍ×]cÿ;
++ (_Bool)NSTimer"8;
 - (id);
 - (id);
 - (id);

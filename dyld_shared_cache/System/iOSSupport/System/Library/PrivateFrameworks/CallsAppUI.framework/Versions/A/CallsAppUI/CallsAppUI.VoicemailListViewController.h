@@ -13,12 +13,15 @@
     MISSING_TYPE *dataSource;
     MISSING_TYPE *legacyMailboxService;
     MISSING_TYPE *section;
+    MISSING_TYPE *mailbox;
     MISSING_TYPE *detailsPresenter;
     MISSING_TYPE *$__lazy_storage_$_greetingButtonItem;
+    MISSING_TYPE *shouldShowGreetingButton;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
 
 @end

@@ -18,11 +18,10 @@
 }
 
 + (_Bool);
-+ (void);
++ (void);
 + (id);
 + (id);
-+ (id)
-;
++ (id);
 + (id);
 + (id);
 + (void);
@@ -30,25 +29,26 @@
 + (id);
 + (_Bool);
 - (_Bool);
-- (id)dFetchPublisher;
+- (id);
 - (long long);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)_;
-- (_Bool)n;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void)r;
-- (void)r;
-- (id)e:(id)arg1 %@;
-- (void)indexOfObjectAtIndexPath:(id)arg1 in:(id)arg2 itemsPerSection:(BOOL)arg3 ` indexPath.section should be less than itemsPerSection.count.;
-- (Class)gesValuesContainingCollapsedRanges;
-- (id)s secured? ;
-- (id)ant to know more about how your information is secured? ;
-- (id)formation is secured? ;
-- (id)ew.insertAttachments(%@);;
-- (id)ps;
+- (void);
+- (void);
+- (id);
+- (void);
+- (Class);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -61,7 +61,7 @@
 - (Class);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -73,9 +73,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (int);
-- (double)¼ØØ;
+- (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAudioMessage) _Bool audioMessage;

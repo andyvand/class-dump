@@ -13,10 +13,11 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void)creenNavigationBarView;
+- (void)0@ù
+× ;
+- (void)tBlueprint;
+- (id)1Î;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

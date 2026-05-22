@@ -18,13 +18,11 @@ __attribute__((visibility("hidden")))
     struct CGRect _sourceRect;
 }
 
-- (void)yClg7VsbLFnNXOIXQ4P8LJg+l2/sW+
-OTQkYBZwVkktfnb5+dg91lFOR1UuNdjTMQ==
------END EC PRIVATE KEY-----;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -33,17 +31,16 @@ OTQkYBZwVkktfnb5+dg91lFOR1UuNdjTMQ==
 - (struct CGRect);
 - (id);
 - (id);
-- (struct CGRect);
+- (id);
 - (void);
 - (void);
-- (void)0@ù
-× ;
-- (void)fontWithName:(struct CGRect)arg1 size:traits: /* Error: Ran out of types for this method. */;
-- (id)ext:collectionView:cachedPreviouslyFocusedIndexPath: /* Error: Ran out of types for this method. */;
-- (id)ropContext;
-- (void)tÇþÿ;
-- (id)eIndex >= 0;
+- (id);
 - (void);
+- (void);
+- (struct CGRect)PageHighlighter;
+- (void);
+- (id)þÿ;
+- (void)ÿ¦b¬þ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *customViewForInteractiveHighlight; // @synthesize customViewForInteractiveHighlight=_customViewForInteractiveHighlight;

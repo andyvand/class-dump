@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-- (void);
++ (id)oreground:(id)arg1;
 - (id);
+- (void)tageSticker:(id)arg1;
 
 @end
 

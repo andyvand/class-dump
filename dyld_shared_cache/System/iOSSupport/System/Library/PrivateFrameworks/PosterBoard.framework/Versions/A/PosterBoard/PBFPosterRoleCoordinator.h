@@ -19,7 +19,8 @@
     id <PBFPosterExtensionDataStorageRetrieving> _storage;
     id <PBFModelCoordinatorProviding> _modelCoordinatorProvider;
     id <PBFPosterRoleCoordinatorDelegate> _delegate;
-    NSSet *_knownExtensionIdentifiers;
+    NSSet *_installedExtensionIdentifiers;
+    NSSet *_downloadableExtensionIdentifiers;
 }
 
 + (_Bool);
@@ -53,6 +54,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -61,15 +63,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id)ath;
-- (void)onDataStore;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -78,8 +83,9 @@
 
 @property __weak id <PBFPosterRoleCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy) NSString *description;
+@property(readonly, nonatomic) NSSet *downloadableExtensionIdentifiers; // @synthesize downloadableExtensionIdentifiers=_downloadableExtensionIdentifiers;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *knownExtensionIdentifiers; // @synthesize knownExtensionIdentifiers=_knownExtensionIdentifiers;
+@property(readonly, nonatomic) NSSet *installedExtensionIdentifiers; // @synthesize installedExtensionIdentifiers=_installedExtensionIdentifiers;
 @property unsigned long long maximumNumberOfPosters; // @synthesize maximumNumberOfPosters;
 @property(readonly) id <PBFModelCoordinatorProviding> modelCoordinatorProvider; // @synthesize modelCoordinatorProvider=_modelCoordinatorProvider;
 @property(retain, nonatomic) PRPosterCollection *posterCollection; // @synthesize posterCollection=_posterCollection;

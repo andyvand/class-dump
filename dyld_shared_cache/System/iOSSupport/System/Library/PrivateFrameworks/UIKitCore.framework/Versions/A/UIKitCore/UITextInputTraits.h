@@ -107,232 +107,227 @@
 + (long long);
 + (long long);
 + (long long);
-+ (id);
-+ (id);
-+ (id)?;
 + (long long);
-+ (long long)"MPModelPodcastKind"8;
++ (long long);
 + (_Bool);
++ (id);
 + (long long);
 + (long long);
-+ (id)omInputDelegateSelectionInteraction;
-+ (long long)DimmingAmount;
-+ (long long)suppressDeactivateKeys;
-+ (long long)ason:(unsigned long long)arg1;
-+ (long long)ion:(unsigned long long)arg1;
-+ (long long);
-+ (long long)	;
-+ (long long)inconsistency:(long long)arg1 attempted to update solution bookmarks that are locked. Please file a bug against UICollectionView with reproduction steps.;
-+ (long long)n;
 + (long long);
-- (void)P;
++ (long long)ñ[Ð1Â0@ù
+× ;
++ (id)dence: /* Error: Ran out of types for this method. */;
++ (long long)endWithLargeTitle;
++ (id)rMatchFound:(id)arg1;
++ (long long)raction:(unsigned long long)arg1 sessionSupportsSystemDrag: /* Error: Ran out of types for this method. */;
++ (long long)ler",R,N,V_destinationViewController;
++ (id)ureRecognizer of UIScrollView.;
++ (long long)eekAndPop.pop.force.all;
++ (long long)þ.ÏØxa;
++ (long long)tb;
++ (long long)ái;
 - (_Bool);
-- (unsigned long long);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id)H;
-- (void);
-- (void);
 - (id);
-- (struct UIEdgeInsets);
+- (void);
+- (_Bool);
 - (id);
-- (void)aURL:(id)arg1 withContentType:withSize:withHashSHA256:withCertificatePinningIdentifiers: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (long long);
-- (_Bool);
 - (void);
-- (unsigned long long);
+- (void);
 - (struct __CFCharacterSet *);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)i;
-- (_Bool);
-- (_Bool);
-- (double)%@.;
-- (_Bool)%@;
-- (long long)ed;
-- (_Bool)%s failed to invoke mmcs_create_FileReferenceDataV1;
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (double);
-- (_Bool);
-- (void)TextColor:(_Bool)arg1;
-- (void);
-- (_Bool);
-- (id)void)_block_invoke;
-- (long long)yResultSet persistentIDAtIndex:] /* Error: Ran out of types for this method. */;
-- (id);
+- (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
-- (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void)$`º;
-- (id);
-- (void)Ìu5º;
-- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (struct _NSRange);
+- (void);
+- (_Bool);
 - (int);
-- (_Bool);
 - (void)
 × ;
-- (void)Â°1¢!0@ù
+- (int)±ZÐ1Â0@ù
 × ;
-- (void);
+- (_Bool);
 - (void)0@ù
 × ;
-- (_Bool)!$DùÅð1¢!0@ù
+- (_Bool)!HBù1]1Â0@ù
 × ;
-- (void);
-- (void)1¢!0@ù
+- (double);
+- (_Bool)1Â0@ù
 × ;
-- (void)¡sð!`GùÇ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (long long)ÑÇð1¢!0@ù
-× ;
-- (id);
-- (id)0@ù
-× ;
-- (void)!EùqËð1¢!0@ù
-× ;
-- (void);
-- (_Bool)Axð!Eù±ÍÐ1¢!0@ù
-× ;
-- (int)ÔÁx!Eù1Îð1¢!0@ù
+- (_Bool)¡°!Eù1_ð1Â0@ù
 × ;
 - (_Bool)
 × ;
-- (void)ize=dd}}24;
-- (void)GPoint=dd}56B72;
-- (void)Delegate>";
-- (void)iew;
-- (_Bool)ntState:outBeforeLength:outAfterLength: /* Error: Ran out of types for this method. */;
-- (void)torAboveActions;
-- (_Bool)etUnfocusedShadowVerticalOffset: /* Error: Ran out of types for this method. */;
-- (void)iewWhenInside:(_Bool)arg1;
-- (id)ionControllerShouldDismiss: /* Error: Ran out of types for this method. */;
-- (void)teChanged:(_Bool)arg1;
-- (void)ible;
-- (void)CaretSelectionAfterText:(_Bool)arg1;
-- (void)llMode:(id)arg1;
-- (long long)yToHandOff;
-- (void)Interval: /* Error: Ran out of types for this method. */;
-- (void)finishedIndexes:(_Bool)arg1 numberOfIndexes:contextID:completion: /* Error: Ran out of types for this method. */;
-- (id)VisibleCells:originalContentOffset:originalContentHeight:focusedView:focusedViewType: /* Error: Ran out of types for this method. */;
-- (_Bool)eAndLayout;
-- (void)ityBehavior;
-- (void)ystemFocusColor;
-- (void)eAreaInsets:(struct UIEdgeInsets)arg1;
-- (void)y",N,S_setStackEntry:(_Bool)arg1 ,V__stackEntry;
-- (id)AssistantOniPhonePreference: /* Error: Ran out of types for this method. */;
-- (id),N,VoverrideTargetView;
-- (void)",R,N;
-- (void)ller;
-- (long long)Destination;
-- (void)SearchBarTextFieldOrMailReplacement;
-- (void)ualStyle_iOSMacAlert;
-- (unsigned long long)	
-;
-- (void)ìpì;
-- (_Bool)&p&ä&;
-- (_Bool)p`$a;
-- (_Bool),å¸é;
-- (int)ä;
-- (_Bool);
-- (void)ôuÇ1vÇ$A1ÈvÇi1wÇh10wÇT1\wÇLØ1<xÇ¼2`xÇH2ìxÇ(¶2;
-- (void);
-- (_Bool)m %lu to %lu after inserting item in the distribution arrangement;
-- (void)Writing Tools replacements;
-- (void)olor of UITableViewRowAction is no longer supported.;
-- (_Bool)suggestion back to Pending because the highlight info was missing. suggestionID = %@;
-- (void)ôlþÿmþÿLmþÿdmþÿmþÿ´mþÿÌmþÿämþÿümþÿnþÿ¼nþÿÔnþÿìnþÿoþÿoþÿ¨oþÿÀoþÿØoþÿðoþÿXpþÿpþÿàpþÿHqþÿqþÿÄqþÿÜqþÿôqþÿrþÿ\uþÿØvþÿ;
-- (void);
-- (void)ï|þÿ;
-- (id)g;
-- (_Bool)AAyAAyï;
-- (id)mGroupC;
-- (_Bool)gsModifierSettings>"8;
-- (void)irequiresfullscreen_first_party;
-- (void)] is unavailable.;
-- (void)iewDidUnload caused the view to be reloaded. This will adversely impact system performance.;
-- (void)est for %@ Canceled;
-- (int),VshadowProperties;
-- (id)eChangedCallback;
-- (struct _NSRange)ÿ3;
-- (void)illSurface;
-- (void);
-- (void);
+- (void)ñað1Â0@ù
+× ;
 - (_Bool);
+- (_Bool)0@ù
+× ;
+- (long long)Ô ;
+- (void);
+- (void)1Â0@ù
+× ;
+- (long long)nalDelegate>";
+- (void)={CGPoint=dd}{CGSize=dd}}72@0:(_Bool)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16@48@56@64;
+- (_Bool)s"24@"<_UITextSearchAggregator>"32;
+- (void)Point=dd}48@0:(id)arg1 8@"UITextSelectionDisplayInteraction"16{CGPoint=dd}24@"UITextRange"40;
+- (void)lection"24;
+- (void)inkedList";
+- (id);
+- (void):(_Bool)arg1;
+- (_Bool)ntifier:(id)arg1;
+- (void)archFieldLeftViewMode;
+- (double)imated:tracking:wantsFence: /* Error: Ran out of types for this method. */;
+- (void)ButtonConfiguration;
+- (long long):(id)arg1 sharpness:audio:volume: /* Error: Ran out of types for this method. */;
+- (void)hItems:(_Bool)arg1 initialCentroidInSourceWindow:sourceView: /* Error: Ran out of types for this method. */;
+- (void):(_Bool)arg1;
+- (void)isionBoundsType;
+- (void)itionWithAnimatorUsingBehaviors:(struct _NSRange)arg1 observedItems:stateIfCompleted: /* Error: Ran out of types for this method. */;
+- (_Bool)r:names: /* Error: Ran out of types for this method. */;
+- (void)trailingConstraint;
+- (_Bool)leteConfirmationButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)imating;
+- (void)lectAllSelectedRows;
+- (int)eenLayout;
+- (void)mIdentifier;
+- (_Bool)itialMode;
+- (id)plitViewControllerColumn: /* Error: Ran out of types for this method. */;
+- (void)nizerView;
+- (int)erEvent:toGestureRecognizers:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)clockLayout;
+- (_Bool)ched;
+- (void)amicsOffset;
+- (void)viewServiceDismissInteractionDidIssueUpdate:(unsigned long long)arg1;
+- (_Bool)jacentBarEdges;
+- (void)tPoint;
+- (void)N,V_haveSupplementaryColumn;
+- (void)V_focusingCollectionView;
+- (_Bool)nvalidated;
+- (id);
+- (id)oupeGesture:(struct _NSZone *)arg1;
+- (void)idenceLevels;
+- (double)olderContextDelegate;
+- (void)¬\¬`<bØb;
+- (long long)\3;
+- (void)¨0¤D¡;
+- (id)´0;
+- (void)erClientInputDestination queue_keyboardChanged:(_Bool)arg1 onComplete:]_block_invoke  releasing os transaction for client changed task on timeout for info:%@ /* Error: Ran out of types for this method. */;
+- (void)n-key window attempting reload - allowing due to manual keyboard (first responder window is %@, key window is %@);
+- (void)already running).;
+- (_Bool)rollerRelaxRepeatedPushAssertionForSplitViewController default:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (_Bool)errideFullScreenWebRTCCapture;
+- (void)wCell but found %@.;
+- (_Bool)on data (%@) does not match method signature. Expected %@;
+- (void)mes;
+- (void)on=%ld forbidden=%d precise=%d prefersFullSizePreview=%d preferredBadgeStyle=%ld>;
+- (void)check the values returned by the delegate.;
+- (_Bool)olverUpdate *const __strong, BOOL)_block_invoke_4;
+- (void)m=%@ title=%@>;
+- (void)on;
+- (long long);
+- (void)nterBackgroundMessage;
+- (_Bool);
+- (_Bool);
+- (long long),Iþ ;
+- (unsigned long long)Ý43 `;
+- (void)Á43§sþ;
+- (long long);
+- (id);
+- (void);
+- (void);
+- (id)»\;
+- (id);
+- (long long)ÕzÜXÍ];
+- (void)¤Îÿ;
+- (long long)ðUÞÿùÏÜþ^;
+- (long long)`_;
+- (long long)ÔÝ_;
+- (_Bool)Ìõ×ÿÌ2`;
+- (long long);
+- (long long);
+- (long long)b;
+- (void);
+- (void), ;
+- (id)Ðja;
+- (void);
+- (void)´*ùþºê;
+- (void);
+- (void)w×zb;
+- (void)b;
+- (id)øÚàÿ¤5Ý`ïb;
+- (void);
+- (long long)XéÿÔXÄc;
+- (void);
+- (long long)ÃÕÌÞc;
+- (void)ÿÌ4àd;
+- (void);
+- (void):(id)arg1 ÿC´;
 - (void);
 - (void)e;
-- (void);
-- (void);
-- (long long)ZîZ;
-- (void);
+- (void)bÅüe;
+- (void)j7;
+- (void)­É@f;
+- (long long)Ý$ÿùÄÖ<2f;
+- (void)Úè"f;
+- (void)°sþV5;
 - (_Bool);
-- (void)R[;
-- (id);
-- (void)¢[;
+- (void)Îðþ¡ÎÒÐf;
+- (_Bool)ÉÁÌfh;
+- (void)þ;
+- (long long)g;
 - (long long);
-- (long long)P÷Ôkc;
-- (void)PäþCÆ;
-- (long long);
-- (void)ª7^;
-- (double)^;
-- (void)°åiÿ;
-- (void)qÿîß;
-- (void)Ê^;
-- (long long)3T;
-- (void);
-- (long long)ÿ;
-- (long long)>Ô){`;
-- (long long)V*;
-- (void)öÿ(ø;
-- (id);
-- (long long)H½qÿ;
-- (void);
-- (long long)P¬õþ*­;
-- (void)\¨b;
-- (void);
-- (long long)v?;
-- (void)×Ic;
-- (void)¦éÇ
-d;
-- (id)bd;
-- (void)éyd;
-- (void);
-- (long long)ßðd;
-- (void)Iÿ/
-;
-- (id)f;
-- (_Bool);
-- (void)Õße;
-- (void)Êf;
-- (long long)ðéÃþ;
-- (id);
-- (void);
-- (void)>h;
+- (unsigned long long)g;
+- (_Bool)ØÿÒÉÈg;
+- (void)Øh;
+- (void)ÕEÖh;
+- (id)ÿEW;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes; // @synthesize PINEntrySeparatorIndexes;

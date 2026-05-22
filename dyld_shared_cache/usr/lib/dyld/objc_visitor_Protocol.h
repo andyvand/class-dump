@@ -4,8 +4,8 @@
 
 class objc_visitor::Protocol {
 public: // (access info unavailable from symbols alone)
-    getClassMethods(objc_visitor::Visitor const&) const;
-    getInstanceMethods(objc_visitor::Visitor const&) const;
-    getOptionalClassMethods(objc_visitor::Visitor const&) const;
-    getOptionalInstanceMethods(objc_visitor::Visitor const&) const;
+    auto getClassMethods(objc_visitor::Visitor const&) const;
+    auto getInstanceMethods(objc_visitor::Visitor const&) const;
+    auto getOptionalClassMethods(objc_visitor::Visitor const&) const;
+    auto getOptionalInstanceMethods(objc_visitor::Visitor const&) const;
 };

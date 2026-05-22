@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (void);
@@ -40,9 +40,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (_Bool);
 - (id);
+- (void)full.fireworks;
 
 @end
 

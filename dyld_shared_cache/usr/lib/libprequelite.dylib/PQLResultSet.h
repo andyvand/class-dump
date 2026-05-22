@@ -59,28 +59,28 @@
 - (id);
 - (id);
 - (id);
-- (BOOL)h;
+- (BOOL);
 - (id);
-- (unsigned long long);
-- (long long);
-- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (int);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (double)ViewModel",&,V_defaultMessageViewModel;
 - (id);
+- (long long);
 - (id);
 - (struct sqlite3_stmt *);
+- (void);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
+- (_Bool);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long columns; // @synthesize columns=_columns;

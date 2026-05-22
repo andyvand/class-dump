@@ -16,9 +16,9 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)¸Nÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) UIMenu *linkItemsMenu;

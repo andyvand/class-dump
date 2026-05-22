@@ -12,18 +12,18 @@ __attribute__((visibility("hidden")))
     NSArray *_availableDefinitionDictionaries;
 }
 
-+ (id)s default contents:%d
++ (id)est. del.:%@
  /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)};
 - (id);
-- (id)DsToDelete for DeletedChatStore.;
-- (id)rror %@;
-- (id)er received user deleted zone error;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly) NSArray *availableDefinitionDictionaries; // @synthesize availableDefinitionDictionaries=_availableDefinitionDictionaries;

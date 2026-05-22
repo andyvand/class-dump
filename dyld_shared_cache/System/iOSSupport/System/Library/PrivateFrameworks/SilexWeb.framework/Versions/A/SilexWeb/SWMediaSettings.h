@@ -10,7 +10,7 @@
     unsigned long long _mediaTypesRequiringUserActionForPlayback;
 }
 
-- (id)Request;
+- (id);
 - (unsigned long long);
 - (_Bool);
 

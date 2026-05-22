@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetReference *assetReference; // @synthesize assetReference=_assetReference;

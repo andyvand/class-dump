@@ -21,37 +21,37 @@
     NSMutableDictionary *_identifierToHeightMap;
 }
 
-+ (id)und]|;
-- (void)thenticate;
-- (id)%;
-- (void);
++ (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)G;
+- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool)nt thumbnail operation;
-- (id)ck with a Separate Password;
-- (id)ick_note_loading_map;
-- (id)g.length;
-- (id)saryForGalleryAttachments:(id)arg1 displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (double);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (_Bool);
+- (id);
 - (void);
-- (void):(id)arg1 placeholderImage: /* Error: Ran out of types for this method. */;
-- (id)akWrapper;
-- (id)üÿSg;
-- (void)´zÿ;
-- (id)installed=%@, icon=%@];
-- (void)Üô¤;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double cellMaxHeight; // @synthesize cellMaxHeight=_cellMaxHeight;

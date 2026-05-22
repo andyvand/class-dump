@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<trie::MarisaTrie<float, char>, std::__1::default_delete<trie::MarisaTrie<float, char>>> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](trie::MarisaTrie<float, char>*);
+    auto reset[abi:nqe210106](trie::MarisaTrie<float, char>*);
 };

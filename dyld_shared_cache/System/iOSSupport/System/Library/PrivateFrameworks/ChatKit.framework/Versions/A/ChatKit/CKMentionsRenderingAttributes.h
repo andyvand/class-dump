@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
     double _scale;
 }
 
-+ (id)Attempted to create a note with no content;
++ (id);
 - (id);
 - (id);
-- (void)E;
-- (double);
 - (void);
+- (double);
 - (id);
-- (void)áªâª;
-- (id)0@ù
-× ;
-- (void)trollerSendStarted:(id)arg1 withText: /* Error: Ran out of types for this method. */;
-- (void)ô;
+- (void);
+- (void)nterrupted;
+- (id):forPlugin:allowAllCommits:error: /* Error: Ran out of types for this method. */;
+- (void)Ä
+;
+- (void)øÿ©ÿ ;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *color; // @synthesize color=_color;

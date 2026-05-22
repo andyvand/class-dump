@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     _UIFindNavigatorViewController *_findNavigatorViewController;
 }
 
-+ (id);
++ (id)Ô ;
 - (void);
 - (void);
 - (void);
@@ -23,18 +23,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void)rID:didSendSMS:relayToWatchOnly:shouldDisableScreenTimeRestrictions:hasAttachments:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id)duling write updates T1 operation %@;
-- (void)==> Missing an attachment at path:(id)arg1 %@;
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void)Color;
-- (void)%@':(id)arg1 %@;
-- (void);
-- (id)\;
-- (id)°ß];
+- (id);
+- (_Bool);
+- (_Bool);
+- (void)
+× ;
+- (void)rror">36;
+- (id);
+- (void)@\;
+- (id);
+- (void)¸Ü_;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

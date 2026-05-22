@@ -21,9 +21,9 @@
     MISSING_TYPE *$__lazy_storage_$_subtitleLabel;
 }
 
+- (id)lÎ*;
 - (id);
-- (void);
-- (id);
+- (void)mageCSgIeyBy_;
 
 @end
 

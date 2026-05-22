@@ -7,7 +7,7 @@
 @class NSError;
 
 @protocol SWErrorProvider
-- (NSError *)action: /* Error: Ran out of types for this method. */;
+- (void (^)(NSError *));
 
 // Remaining properties
 @property(copy, nonatomic, setter=onError:) CDUnknownBlockType block;

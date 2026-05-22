@@ -20,24 +20,25 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)Ô!(ð!°AùñB,Ð1Â0@ù
+× ;
 - (id);
-- (id)quest;
-- (id)�i";
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (void)H;
 - (unsigned long long);
-- (void);
 - (id);
 - (id);
-- (id)datory;
-- (id);
-- (id);
-- (id);
+- (void)%p to start high accuracy location request.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;

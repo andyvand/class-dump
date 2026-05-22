@@ -14,9 +14,8 @@
     MISSING_TYPE *subrangeIndex;
 }
 
-- (void)
-× ;
-- (id)",&,N,V_preferredAction;
+- (id);
+- (void)tµm;
 
 @end
 

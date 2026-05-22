@@ -35,13 +35,13 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)teObserver;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *descriptorIdentifier; // @synthesize descriptorIdentifier=_descriptorIdentifier;

@@ -20,30 +20,29 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (_Bool);
 - (id);
-- (void)_ր
-;
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)T	;
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void)election"32;
+- (void)omponentSizerFactory;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *componentViews; // @synthesize componentViews=_componentViews;

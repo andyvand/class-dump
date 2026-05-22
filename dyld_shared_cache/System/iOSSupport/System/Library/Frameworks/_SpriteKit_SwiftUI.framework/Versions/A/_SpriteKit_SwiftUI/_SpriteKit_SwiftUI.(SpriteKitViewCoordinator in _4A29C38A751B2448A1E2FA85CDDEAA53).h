@@ -11,11 +11,11 @@
     MISSING_TYPE *deferredState;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

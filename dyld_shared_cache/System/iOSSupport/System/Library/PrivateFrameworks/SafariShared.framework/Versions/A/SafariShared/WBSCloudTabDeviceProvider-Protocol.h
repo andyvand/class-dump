@@ -5,8 +5,6 @@
 //
 
 @protocol WBSCloudTabDeviceProvider
-- (_Bool)K;
-- (_Bool)orTitleOverride;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool cloudTabsAreEnabled;

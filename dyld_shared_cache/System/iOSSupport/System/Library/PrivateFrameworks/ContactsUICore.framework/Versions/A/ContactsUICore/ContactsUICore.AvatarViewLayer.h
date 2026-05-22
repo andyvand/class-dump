@@ -16,10 +16,10 @@
 }
 
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)nUserActivityOpener>",R,N;
 
 @end
 

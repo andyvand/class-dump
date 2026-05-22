@@ -26,11 +26,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (_Bool);
-- (void);
 - (id);
+- (void);
+- (id)ù1ê°1Â0@ù
+× ;
+- (void)t:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) long long blurStyle; // @synthesize blurStyle=_blurStyle;

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (int);
+- (int);
 
 // Remaining properties
 @property(readonly, nonatomic) int state; // @synthesize state=_state;

@@ -14,16 +14,16 @@
     MISSING_TYPE *_backgroundColor;
 }
 
-- (id)rtEventHighlightsTagID;
 - (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (id);
-- (struct CGSize)ÿÿÿÿ(;
-- (void)t;;
-- (_Bool)<°ûÿÈ°ûÿ0±ûÿ8²ûÿT²ûÿ;
-- (struct CGPoint);
-- (_Bool)_TtC5TeaUI26BootstrapperViewController;
+- (void);
+- (_Bool);
+- (struct CGPoint);
+- (id);
+- (void);
+- (void)Ê;þÿRÿÿÂ;þÿäýÿ;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffset; // @synthesize contentOffset;

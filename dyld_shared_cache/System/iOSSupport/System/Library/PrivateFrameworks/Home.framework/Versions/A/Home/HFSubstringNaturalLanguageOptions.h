@@ -15,9 +15,9 @@
 - (void);
 - (id);
 - (long long);
-- (id);
-- (long long)Xù;
 - (void);
+- (id);
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long formattingContext; // @synthesize formattingContext=_formattingContext;

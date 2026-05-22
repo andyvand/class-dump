@@ -65,13 +65,13 @@
 - (int);
 - (void);
 - (void);
+- (double);
 - (void);
-- (void);
+- (double);
 - (id);
+- (void);
 - (double);
-- (double);
-- (double)ged;
-- (void)muteStateObserver;
+- (void)Û0	[;
 
 // Remaining properties
 @property(readonly, nonatomic) int audioMode; // @synthesize audioMode=_audioMode;

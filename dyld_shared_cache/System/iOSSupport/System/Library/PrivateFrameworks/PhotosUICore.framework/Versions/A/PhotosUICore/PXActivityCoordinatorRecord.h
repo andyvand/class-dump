@@ -11,12 +11,12 @@
     id <PXActivityCoordinatorItem> _item;
 }
 
+- (void);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)Ñ·;
+- (id)5ýN 6;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXActivityCoordinatorItem> item; // @synthesize item=_item;

@@ -26,7 +26,7 @@
 + (struct CGSize);
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGSize);
@@ -44,17 +44,17 @@
 - (struct CGSize);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
 - (long long);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (long long);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

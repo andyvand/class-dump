@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)FillColor;
+- (void)þíÿ5¡h.;
 
 // Remaining properties
 @property(retain, nonatomic) AMSUIUserNotificationContentViewController *contentViewController; // @synthesize contentViewController=_contentViewController;

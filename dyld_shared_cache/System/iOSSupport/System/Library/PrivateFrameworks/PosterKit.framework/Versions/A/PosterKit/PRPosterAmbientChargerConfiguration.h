@@ -11,26 +11,28 @@
     NSSet *_associatedChargerIdentifiers;
 }
 
-+ (_Bool);
 + (id);
-+ (_Bool)edDataLayout:creationBehavior:editingBehavior:deletionBehavior:isHidden:needsAuthentication: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)±ñÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *associatedChargerIdentifiers; // @synthesize associatedChargerIdentifiers=_associatedChargerIdentifiers;

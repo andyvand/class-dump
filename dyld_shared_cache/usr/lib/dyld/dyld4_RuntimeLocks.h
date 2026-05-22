@@ -5,12 +5,20 @@
 class dyld4::RuntimeLocks {
 public: // (access info unavailable from symbols alone)
     RuntimeLocks();
-    releaseDlopenLockInForkParent();
-    releaseLockInForkParent();
-    resetDlopenLockInForkChild();
-    resetLockInForkChild();
-    takeDlopenLockBeforeFork();
-    takeLockBeforeFork();
-    withLoadersReadLock(void () block_pointer);
-    withNotifiersReadLock(void () block_pointer);
+    auto couldDlopenLock();
+    auto releaseDlopenLockInForkParent();
+    auto releaseLockInForkParent();
+    auto resetDlopenLockInForkChild();
+    auto resetLockInForkChild();
+    auto takeDlopenLockBeforeFork();
+    auto takeLockBeforeFork();
+    auto withLoadersReadLock(void () block_pointer);
+    auto withNotifiersReadLock(void () block_pointer);
+    void withLoadersWriteLock<dyld4::APIs::_dyld_pseudodylib_deregister(_dyld_pseudodylib_opaque*)::$_0>(dyld4::APIs::_dyld_pseudodylib_deregister(_dyld_pseudodylib_opaque*)::$_0)::'lambda'()::operator()() const;
+    void withLoadersWriteLockAndProtectedStack<dyld4::APIs::dlopen_from(char const*, int, void*)::$_0::operator()() const::'lambda'()>(dyld4::APIs::dlopen_from(char const*, int, void*)::$_0::operator()() const::'lambda'())::'lambda'()::operator()() const;
+    void withLoadersWriteLockAndProtectedStack<dyld4::APIs::dlopen_from(char const*, int, void*)::$_0::operator()() const::'lambda'()>(dyld4::APIs::dlopen_from(char const*, int, void*)::$_0::operator()() const::'lambda'())::'lambda'()::operator()() const (.cold.1);
+    void withLoadersWriteLockAndProtectedStack<dyld4::APIs::dlopen_from(char const*, int, void*)::$_0::operator()() const::'lambda0'()>(dyld4::APIs::dlopen_from(char const*, int, void*)::$_0::operator()() const::'lambda0'())::'lambda'()::operator()() const;
+    void withLoadersWriteLockAndProtectedStack<dyld4::APIs::dlopen_from(char const*, int, void*)::$_0::operator()() const::'lambda0'()>(dyld4::APIs::dlopen_from(char const*, int, void*)::$_0::operator()() const::'lambda0'())::'lambda'()::operator()() const (.cold.1);
+    void withLoadersWriteLockAndProtectedStack<dyld4::RuntimeState::decDlRefCount(dyld4::Loader const*)::$_0>(dyld4::RuntimeState::decDlRefCount(dyld4::Loader const*)::$_0)::'lambda'()::operator()() const;
+    void withLoadersWriteLockAndProtectedStack<dyld4::RuntimeState::decDlRefCount(dyld4::Loader const*)::$_0>(dyld4::RuntimeState::decDlRefCount(dyld4::Loader const*)::$_0)::'lambda'()::operator()() const (.cold.1);
 };

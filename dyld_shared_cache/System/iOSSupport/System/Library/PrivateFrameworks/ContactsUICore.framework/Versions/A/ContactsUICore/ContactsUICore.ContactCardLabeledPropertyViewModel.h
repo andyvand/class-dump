@@ -20,6 +20,9 @@
     MISSING_TYPE *badgeText;
     MISSING_TYPE *highlightedColor;
     MISSING_TYPE *_isVerified;
+    MISSING_TYPE *symbolName;
+    MISSING_TYPE *_mapTile;
+    MISSING_TYPE *allowsAction;
     MISSING_TYPE *_$observationRegistrar;
 }
 

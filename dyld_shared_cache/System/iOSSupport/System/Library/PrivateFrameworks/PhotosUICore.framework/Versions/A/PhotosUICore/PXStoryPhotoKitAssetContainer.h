@@ -17,16 +17,17 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id)
+- (id)QI°1â
+0@ù
 × ;
-- (id)_updateContentMode;
-- (id)`ÿQ.ø5mÿA.ô5mÿ;
-- (id)^¤Ih4;
+- (id)ctionaryRepresentation;
+- (id)sshared/PhotosUICore/PhotosUICore/Power/PXPowerController.m;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

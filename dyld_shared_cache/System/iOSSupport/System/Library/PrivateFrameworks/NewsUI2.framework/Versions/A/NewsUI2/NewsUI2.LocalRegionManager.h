@@ -12,8 +12,12 @@
     MISSING_TYPE *localAreasManager;
 }
 
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)gFeed for My Sports ensuring syncing for prewarm;
 
 @end
 

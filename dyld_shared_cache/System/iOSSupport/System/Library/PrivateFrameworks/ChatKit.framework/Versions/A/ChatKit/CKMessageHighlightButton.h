@@ -22,18 +22,18 @@
 }
 
 - (BOOL);
-- (struct CGSize)eAccount;
+- (struct CGSize);
 - (struct CGRect);
-- (void)ӍQo_;
-- (void)gGG;
 - (void);
 - (void);
 - (void);
-- (id)can't get selection rect from NoteWKWebView, error:%@ /* Error: Ran out of types for this method. */;
-- (struct CGRect)x;
+- (void);
+- (void);
+- (id);
 - (struct CGRect);
-- (struct CGRect)\;
-- (void)@;
+- (struct CGRect);
+- (struct CGRect);
+- (void);
 - (struct CGSize);
 - (id);
 - (id);
@@ -41,18 +41,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (struct CGSize);
 - (_Bool);
-- (id)$;
-- (id)etching;
-- (void)y9î«GGrß«G;
-- (struct CGSize)StoreIcon-%f;
-- (_Bool);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id)\ýjq;
+- (_Bool)kE;
+- (id)ì©ÿ ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *backgroundColorView; // @synthesize backgroundColorView=_backgroundColorView;

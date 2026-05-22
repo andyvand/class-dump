@@ -9,9 +9,9 @@
 }
 
 + (struct CGAffineTransform);
-+ (double)lay name is (%@) and new display name is (%@);
-+ (id)ommand. After processing, command full message body is not equal to persisted full message body.;
-- (id)PushOperation;
++ (double);
++ (id);
+- (id);
 
 @end
 

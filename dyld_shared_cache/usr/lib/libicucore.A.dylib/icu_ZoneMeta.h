@@ -4,21 +4,21 @@
 
 class icu::ZoneMeta {
 public: // (access info unavailable from symbols alone)
-    createCustomTimeZone(int);
-    createMetazoneMappings(icu::UnicodeString const&);
-    findMetaZoneID(icu::UnicodeString const&);
-    findTimeZoneID(icu::UnicodeString const&);
-    formatCustomID(unsigned char, unsigned char, unsigned char, signed char, icu::UnicodeString&);
-    getAvailableMetazoneIDs();
-    getCanonicalCLDRID(icu::TimeZone const&);
-    getCanonicalCLDRID(icu::UnicodeString const&, UErrorCode&);
-    getCanonicalCLDRID(icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&);
-    getCanonicalCountry(icu::UnicodeString const&, icu::UnicodeString&, signed char*);
-    getIanaID(icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&);
-    getMetazoneID(icu::UnicodeString const&, double, icu::UnicodeString&);
-    getMetazoneMappings(icu::UnicodeString const&);
-    getShortID(icu::TimeZone const&);
-    getShortID(icu::UnicodeString const&);
-    getShortIDFromCanonical(char16_t const*);
-    getZoneIdByMetazone(icu::UnicodeString const&, icu::UnicodeString const&, icu::UnicodeString&);
+    auto createCustomTimeZone(int);
+    auto createMetazoneMappings(icu::UnicodeString const&);
+    auto findMetaZoneID(icu::UnicodeString const&);
+    auto findTimeZoneID(icu::UnicodeString const&);
+    auto formatCustomID(unsigned char, unsigned char, unsigned char, signed char, icu::UnicodeString&);
+    auto getAvailableMetazoneIDs();
+    auto getCanonicalCLDRID(icu::TimeZone const&);
+    auto getCanonicalCLDRID(icu::UnicodeString const&, UErrorCode&);
+    auto getCanonicalCLDRID(icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&);
+    auto getCanonicalCountry(icu::UnicodeString const&, icu::UnicodeString&, signed char*);
+    auto getIanaID(icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&);
+    auto getMetazoneID(icu::UnicodeString const&, double, icu::UnicodeString&);
+    auto getMetazoneMappings(icu::UnicodeString const&);
+    auto getShortID(icu::TimeZone const&);
+    auto getShortID(icu::UnicodeString const&);
+    auto getShortIDFromCanonical(char16_t const*);
+    auto getZoneIdByMetazone(icu::UnicodeString const&, icu::UnicodeString const&, icu::UnicodeString&);
 };

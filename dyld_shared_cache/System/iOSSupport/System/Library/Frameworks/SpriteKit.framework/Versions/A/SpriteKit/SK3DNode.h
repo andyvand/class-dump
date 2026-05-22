@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (_Bool)ÿÿ;
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -34,14 +34,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
 - (id);
-- (void)t;
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
+- (void)áz?20MaxRectTexturePacker;
 
 // Remaining properties
 @property(nonatomic) _Bool autoenablesDefaultLighting;

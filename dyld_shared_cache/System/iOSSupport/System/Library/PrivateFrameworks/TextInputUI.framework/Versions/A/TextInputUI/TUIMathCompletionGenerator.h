@@ -19,8 +19,8 @@
 - (_Bool);
 - (long long);
 - (void);
-- (id);
 - (void);
+- (id);
 - (_Bool);
 
 // Remaining properties

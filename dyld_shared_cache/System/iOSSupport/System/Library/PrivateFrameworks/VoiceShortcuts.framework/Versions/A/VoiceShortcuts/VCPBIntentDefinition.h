@@ -21,16 +21,16 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *associatedBundleID; // @synthesize associatedBundleID=_associatedBundleID;

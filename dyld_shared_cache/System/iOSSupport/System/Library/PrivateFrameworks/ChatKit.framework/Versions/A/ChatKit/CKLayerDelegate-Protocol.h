@@ -5,6 +5,5 @@
 //
 
 @protocol CKLayerDelegate
-- (void);
 @end
 

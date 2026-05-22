@@ -17,34 +17,34 @@
 }
 
 + (void);
-+ (id)(;
++ (id);
 + (void);
-- (_Bool)mÕ;
-- (double)Range:inTextView:languageHasSpaces: /* Error: Ran out of types for this method. */;
-- (id)ject:atIndex: /* Error: Ran out of types for this method. */;
-- (_Bool)osingRangeContainingCharactersInSet:forRange: /* Error: Ran out of types for this method. */;
-- (void)rateAppearanceTypesUsingBlock:(id)arg1;
-- (void)Change:(_Bool)arg1;
-- (void)nt;
-- (void)Date;
-- (void)ctID;
-- (_Bool)Directory;
-- (double)"+;
+- (_Bool);
+- (double);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (double);
 - (void);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (void)e;
-- (BOOL), account ID = %@;
-- (struct UIEdgeInsets)n %@;
-- (id)ction.;
-- (unsigned long long)ultsKey;
+- (void);
+- (BOOL);
+- (struct UIEdgeInsets);
+- (id);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)straints;
+- (void)Ø;
+- (void)onController Blackhole Status;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedButtonText;

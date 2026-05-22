@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (oneway void)";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

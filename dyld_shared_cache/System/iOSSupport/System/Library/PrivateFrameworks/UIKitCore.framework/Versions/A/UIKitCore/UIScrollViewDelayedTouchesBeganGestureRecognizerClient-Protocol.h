@@ -5,9 +5,6 @@
 //
 
 @protocol UIScrollViewDelayedTouchesBeganGestureRecognizerClient
-- (double);
-- (_Bool)ons:range: /* Error: Ran out of types for this method. */;
-- (_Bool)OfString:withString:options:range: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_canScrollX) _Bool canScrollX;

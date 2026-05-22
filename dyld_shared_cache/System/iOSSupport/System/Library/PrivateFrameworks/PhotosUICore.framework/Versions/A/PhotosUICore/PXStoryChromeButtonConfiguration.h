@@ -80,8 +80,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -91,30 +91,32 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
 - (struct CGAffineTransform);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool)!<Gù|°1b0@ù
+- (id)!üð!BùIð1â
+0@ù
 × ;
-- (void)ratedLibraryChapterHeaderLayout;
-- (struct CGPoint)povers;
-- (void)4@?0@"_PXAssetEditOperationPredicateRecord"8^B16;
-- (SEL)current platform;
-- (long long);
-- (void)¤éÿ;
-- (void)àYàÿ>G3þ	5;
+- (id)
+× ;
+- (void)kView;
+- (void)èéìÿêìÿ¤êìÿpëìÿÌëìÿììÿ<ììÿÔììÿøììÿ íìÿèíìÿïìÿTïìÿ`ïìÿøïìÿ\îçÿîçÿ¼îçÿìîçÿïçÿ\ïçÿPñìÿÜñìÿòìÿdòìÿàòìÿóìÿxóìÿóìÿØóìÿôìÿ4ôìÿ¤õìÿÈõìÿ,öìÿDöìÿäöìÿðöìÿ÷ìÿ´÷ìÿØ÷ìÿôíçÿîçÿTîçÿîçÿ¬îçÿôîçÿèúìÿ4ûìÿPèÿÜlêÿ®èÿÄèÿH®èÿüèÿ(èÿ´<èÿHüìÿüìÿ0ýìÿ\ýìÿýìÿ´ýìÿxþìÿ´þìÿ ÿìÿTÿìÿxÿìÿÿìÿØÿìÿ¬;
+- (void);
+- (SEL)ÿ¼j;
+- (_Bool);
+- (void);
+- (void)bum Screenshots;
+- (void)32@?0@"NSString"8@"UIImage"16^B24;
+- (void);
+- (long long)©;
+- (id);
+- (struct CGPoint);
+- (void)ùJ¤n5;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

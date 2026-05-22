@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
     UIFont *_textFont;
 }
 
-- (id)RecordforRecoverableMessageMetadata:(struct CGRect)arg1 zoneID:(id)arg2 recordNameToPartIndexAndRowID:(int)arg3;
-- (struct CGRect)ationNoticeTypeInvalid;
-- (_Bool);
-- (void)£/º;
-- (_Bool)ipeHideGesture;
-- (void)e;
+- (id);
+- (struct CGRect);
+- (void);
+- (_Bool)ðÔ;
+- (_Bool). Expected:(struct CGPoint)arg1 %@; Received:(struct __GSEvent *)arg2 %@;
+- (void)ÌÝpþ¸GÖäa;
 
 @end
 

@@ -18,20 +18,20 @@ __attribute__((visibility("hidden")))
     UITargetedPreview *_continuationPreview;
 }
 
-+ (id)pting to toggle icloud settings toggle;
++ (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)etBatchProcessingBlock: /* Error: Ran out of types for this method. */;
-- (void)to throttling;
-- (void)resent:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (id)tting up pipeline for junk recovery received fromID:%@,  /* Error: Ran out of types for this method. */;
-- (void);
-- (void)Ô ;
-- (void)UnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}16B72@"UIView"76{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}84B140;
-- (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (CDUnknownBlockType)6UIViewCXc;
+- (void)>$Ø;
+- (void)xa;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

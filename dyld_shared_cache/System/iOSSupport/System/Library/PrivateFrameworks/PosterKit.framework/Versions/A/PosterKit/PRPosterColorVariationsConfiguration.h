@@ -13,19 +13,20 @@
 }
 
 + (_Bool);
-+ (_Bool)itWithTarget:action: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (unsigned long long);
+- (id);
 - (void);
-- (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

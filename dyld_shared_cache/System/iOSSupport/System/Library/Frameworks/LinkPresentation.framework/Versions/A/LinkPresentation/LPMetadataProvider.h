@@ -50,7 +50,7 @@
 + (id);
 + (id);
 + (void);
-+ (id)8k!;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -59,10 +59,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool)0@9
-;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -76,8 +75,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -97,7 +96,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -112,28 +110,29 @@
 - (id);
 - (void);
 - (void);
-- (void)nsent content that is not in the current composition, restoring it;
-- (void)te, but groupUpdates is empty;
-- (void)ervice %@ different than current chat service %@;
-- (id)A�w;
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void)nt process was terminated;
-- (_Bool);
+- (double);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) LPEvent *_event; // @synthesize _event;

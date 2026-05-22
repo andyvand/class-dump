@@ -17,22 +17,22 @@
     UIKeyboardInputMode *_currentInputModeForDictation;
 }
 
-+ (_Bool)addAlertControllerToStack: /* Error: Ran out of types for this method. */;
-- (_Bool)umeDisplay;
-- (_Bool);
++ (_Bool);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)!xGùQÅ°1¢!0@ù
+- (id);
+- (_Bool)@ù
 × ;
-- (_Bool)!0@ù
+- (_Bool)±c°1Â0@ù
 × ;
-- (void)ndicatorColorSR;
-- (id),&,N,V_geometryCacheKey;
-- (_Bool)s;
-- (void)chesRequired;
-- (Class)^d;
+- (_Bool)0:8@"_UISelectionInteraction"16 /* Error: Ran out of types for this method. */;
+- (Class)etLeadingOverlayWidth: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 forWidth:lineBreakMode: /* Error: Ran out of types for this method. */;
+- (void)tartDismiss;
+- (id);
+- (_Bool);
+- (void)ÐÝìh;
 
 // Remaining properties
 @property(retain, nonatomic) UIKeyboardInputMode *currentInputModeForDictation; // @synthesize currentInputModeForDictation=_currentInputModeForDictation;

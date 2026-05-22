@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)yMessageIdentifier;
 + (_Bool);
 + (_Bool);
-+ (id)dPasteText:toTextRange: /* Error: Ran out of types for this method. */;
-+ (id)emCSgXw;
-+ (long long)öe;
++ (_Bool);
++ (id);
++ (id)andler must be called on the main thread;
++ (long long)5Ì$wg;
 
 @end
 

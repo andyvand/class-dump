@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol FCPurchaseFlowOverrideProviderType, FCPurchaseManagerDelegate;
 
 @protocol FCPurchaseManagerType
-- (void)riptorsWithProviderCount:(NSString *)arg1;
-- (void)#;
 
 // Remaining properties
 @property(nonatomic) __weak id <FCPurchaseManagerDelegate> delegate;

@@ -15,18 +15,18 @@
 - (void);
 - (void);
 - (void);
-- (id)refrontID:bundleID:deviceInfo:debugOverrides:useBackgroundRefreshRate:backgroundFetchConfiguration:requestMode:endpointConfig:endpointTimeoutDuration:fallbackTimeoutDuration:] /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool)RecognizerToFail:(id)arg1;
-- (_Bool)Øº;
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)mpletion:(id)arg1;
+- (void)de;
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *_touches; // @synthesize _touches=__touches;

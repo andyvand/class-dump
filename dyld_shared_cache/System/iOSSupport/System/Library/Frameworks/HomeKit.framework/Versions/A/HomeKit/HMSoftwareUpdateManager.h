@@ -17,7 +17,7 @@
     NSUUID *_identifier;
 }
 
-+ (id);
++ (id)ismissedTVViewingProfileOnboarding;
 - (void);
 - (void);
 - (void);
@@ -27,20 +27,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void)!Eùñ¨1b0@ù
+- (id);
+- (id);
+- (id);
+- (_Bool)Ô¡°!tGù±¬°1B50@ù
 × ;
-- (id)ublic}@[%{public}@] Failed to disassociate face crops:%@ /* Error: Ran out of types for this method. */;
-- (id)lid class;
-- (id)Í;
+- (void)eventTrigger:(_Bool)arg1;
+- (void)foProtoIdsInfo;
+- (id)meManager checkName:inHome:withValidationOptions:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly) HMSoftwareUpdate *availableUpdate; // @synthesize availableUpdate=_availableUpdate;

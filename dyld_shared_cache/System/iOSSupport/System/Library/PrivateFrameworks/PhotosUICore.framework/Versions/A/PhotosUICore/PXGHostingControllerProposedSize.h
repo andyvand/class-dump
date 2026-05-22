@@ -20,9 +20,8 @@
 - (id);
 - (_Bool);
 - (struct CGSize);
-- (void);
-- (id)w!´Dù1|Ð1b0@ù
-× ;
+- (id);
+- (void)LemonadeFeedPlaceholderPresentationStyle;
 
 // Remaining properties
 @property(nonatomic) __weak PXGHostingController *hostingController; // @synthesize hostingController=_hostingController;

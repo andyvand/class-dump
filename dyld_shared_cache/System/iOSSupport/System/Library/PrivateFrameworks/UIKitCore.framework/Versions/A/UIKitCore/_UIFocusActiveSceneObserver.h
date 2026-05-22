@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (id);
+- (id)CategoryCell;
+- (id)µ33 pþ¥33@Ýsþ;
 - (void);
-- (id)AlertActionAtIndex: /* Error: Ran out of types for this method. */;
-- (id)ni\;
-- (id)ß;
 
 @end
 

@@ -7,7 +7,6 @@
 @class NSArray;
 
 @protocol UINSTouchBarCoordinator
-- (NSArray *);
 
 // Remaining properties
 @property(nonatomic, getter=isTouchBarAvailable) _Bool touchBarAvailable;

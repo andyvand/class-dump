@@ -15,8 +15,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)Ð1b0@ù
-× ;
+- (id)lStateIncludesScrollEvent;
 
 @end
 

@@ -10,18 +10,20 @@
     double _offsetInLine;
 }
 
-+ (id)ld;
-+ (id)ChangeNotification:(id)arg1;
-+ (id);
-+ (id)gateBox;
-- (void);
++ (id)!äFùñ`Ð1Â0@ù
+× ;
++ (id)onViewDiffableDataSource",R,N,V_dataSource;
++ (id)tions=%@;
++ (id)¶ÿÇ¹Ð4@f;
+- (id);
 - (id);
 - (double);
-- (id);
-- (id)lyingArchiveEntry;
-- (id)´×HØ;
-- (id)24;
-- (struct _NSRange)dMorph;
+- (struct _NSRange)0@ù
+× ;
+- (void)onDidRevealPasteResult:(id)arg1;
+- (id)ltiselectCheckmarkColor;
+- (id)l}¼}0Ü(;
+- (id)d}8d24;
 
 @end
 

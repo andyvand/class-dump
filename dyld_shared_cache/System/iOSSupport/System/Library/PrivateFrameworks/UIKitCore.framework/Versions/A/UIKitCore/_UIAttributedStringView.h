@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (void);
-- (void)ageController;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)tch;
+- (void)xt: /* Error: Ran out of types for this method. */;
+- (void)sets;
+- (id)addUpdateToShadowControllerIfNeeded:(struct CGRect)arg1;
+- (void)¤£;
 
 @end
 

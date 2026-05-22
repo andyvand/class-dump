@@ -4,6 +4,6 @@
 
 class icu::StringTrieBuilder::LinearMatchNode {
 public: // (access info unavailable from symbols alone)
-    markRightEdgesFirst(int);
-    operator==(icu::StringTrieBuilder::Node const&) const;
+    auto markRightEdgesFirst(int);
+    auto operator==(icu::StringTrieBuilder::Node const&) const;
 };

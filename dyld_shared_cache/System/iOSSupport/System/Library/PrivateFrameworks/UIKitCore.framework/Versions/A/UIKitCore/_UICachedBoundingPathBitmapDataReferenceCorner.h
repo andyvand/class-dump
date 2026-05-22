@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)HUoÿ;
++ (_Bool)ectionUsingLayoutDirectionAsEffective;
 - (struct _UIBoundingPathBitmapDataCorner);
 - (id);
-- (void)_LIST;
 - (void);
 - (id);
+- (void)ew:(id)arg1;
 
 @end
 

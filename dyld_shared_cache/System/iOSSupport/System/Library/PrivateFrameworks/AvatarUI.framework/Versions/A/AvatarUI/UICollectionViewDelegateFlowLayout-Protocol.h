@@ -5,11 +5,5 @@
 //
 
 @protocol UICollectionViewDelegateFlowLayout
-
-@optional
-- (struct CGSize)P;
-- (struct CGSize)!FùñÈ°1¢!0@ù
-× ;
-- (double)uperlayer;
 @end
 

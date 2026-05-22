@@ -14,7 +14,7 @@
     long long _activeIndex;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (unsigned long long);
@@ -29,8 +29,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)8@16d24;
 
 // Remaining properties
 @property(nonatomic) long long activeIndex; // @synthesize activeIndex=_activeIndex;

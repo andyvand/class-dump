@@ -13,8 +13,8 @@
     MISSING_TYPE *featureAvailability;
 }
 
-- (void);
 - (id);
+- (void)9_$y;
 
 @end
 

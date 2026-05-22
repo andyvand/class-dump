@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)dView"16;
++ (id);
 + (_Bool);
-+ (_Bool)ControllerForAceObject:(id)arg1;
++ (_Bool);
 + (void);
 
 @end

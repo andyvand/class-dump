@@ -14,14 +14,14 @@
 
 + (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UISSlotStyle *style; // @synthesize style=_style;

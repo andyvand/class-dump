@@ -8,14 +8,14 @@
 
 @interface (null) (Variant_Private)
 + (double);
-+ (void)elineComponent> Final capabilities:(Class)arg1 %@ foundEndpoint:%@ /* Error: Ran out of types for this method. */;
++ (void);
 + (void);
 + (id);
 + (id);
 + (id);
 + (double);
-+ (id)0;
-- (id)Setting deletion preference to:(id *)arg1 %{BOOL}d;
++ (id)¼À;
+- (id);
 - (id);
 - (id);
 - (id);

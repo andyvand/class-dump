@@ -4,10 +4,10 @@
 
 class std::__1::vector<std::__1::shared_ptr<TSUStringChunk>, std::__1::allocator<std::__1::shared_ptr<TSUStringChunk>>> {
 public: // (access info unavailable from symbols alone)
-    __move_range(std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*);
-    __throw_length_error[abi:ne200100]();
-    clear[abi:ne200100]();
-    erase(std::__1::__wrap_iter<std::__1::shared_ptr<TSUStringChunk> const*>, std::__1::__wrap_iter<std::__1::shared_ptr<TSUStringChunk> const*>);
-    insert(std::__1::__wrap_iter<std::__1::shared_ptr<TSUStringChunk> const*>, std::__1::shared_ptr<TSUStringChunk> const&);
-    push_back[abi:ne200100](std::__1::shared_ptr<TSUStringChunk> const&);
+    auto __move_range(std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*);
+    auto __throw_length_error[abi:nqe210106]();
+    auto clear[abi:nqe210106]();
+    auto erase(std::__1::__wrap_iter<std::__1::shared_ptr<TSUStringChunk> const*>, std::__1::__wrap_iter<std::__1::shared_ptr<TSUStringChunk> const*>);
+    auto insert(std::__1::__wrap_iter<std::__1::shared_ptr<TSUStringChunk> const*>, std::__1::shared_ptr<TSUStringChunk> const&);
+    auto push_back[abi:nqe210106](std::__1::shared_ptr<TSUStringChunk> const&);
 };

@@ -27,9 +27,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ServiceActionItem from a service (%@) that's not one of our services (%@);
+- (id);
+- (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *logEntryUniqueIdentifierToLogItemMap; // @synthesize logEntryUniqueIdentifierToLogItemMap=_logEntryUniqueIdentifierToLogItemMap;

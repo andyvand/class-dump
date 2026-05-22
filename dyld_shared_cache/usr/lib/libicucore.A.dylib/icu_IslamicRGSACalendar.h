@@ -5,9 +5,9 @@
 class icu::IslamicRGSACalendar {
 public: // (access info unavailable from symbols alone)
     IslamicRGSACalendar(icu::Locale const&, UErrorCode&);
-    clone() const;
-    getDynamicClassID() const;
-    getStaticClassID();
-    getType() const;
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto getType() const;
     ~IslamicRGSACalendar();
 };

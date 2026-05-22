@@ -49,8 +49,10 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)þþ
+y£õþ
+G;
 
 @end
 

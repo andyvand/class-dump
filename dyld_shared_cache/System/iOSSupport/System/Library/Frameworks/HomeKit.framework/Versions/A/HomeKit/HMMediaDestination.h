@@ -15,8 +15,8 @@
 }
 
 + (id);
-+ (id)H;
-+ (_Bool)raNotification.uuids;
++ (_Bool);
++ (id)s;
 - (void);
 - (id);
 - (id);
@@ -29,23 +29,23 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (unsigned long long);
-- (id)sStereoOdeonTTSUBypassingPrimary"b1"supportsTVOSUpdateManualUpdateAvailableNotification"b1"supportsTargetControl"b1"supportsThirdPartyMusic"b1"supportsThreadBorderRouter"b1"supportsUserMediaSettings"b1"supportsWholeHouseAudio"b1"supportsWiFiRepairV2"b1"supportsf9cc0d9d6aa54e7"b1};
-- (id)orbellChimeProfile",R;
-- (id)ifier:%@ settings count:%@ delegate:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void)Xã;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

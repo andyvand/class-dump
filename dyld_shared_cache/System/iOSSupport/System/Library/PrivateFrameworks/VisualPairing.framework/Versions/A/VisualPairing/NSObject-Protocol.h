@@ -7,6 +7,19 @@
 @class NSString;
 
 @protocol NSObject
+- (struct _NSZone *)Ø?=
+W¾ffæ¾
+×£½k¿®Gá>R¸>q=¿¤p½>q=
+?¿®Ç¾q=
+¿ÍÌL½q=
+?ìQ¸¾Âu¾ìQ8?¸?k¾=
+¿
+×£¾\B>Âõ=\Â¾
+×#<®G!?ÍÌÌ½¸¾ìQ?
+×£?
+×#¾×£Ð¿×£0¿33?ìQ¸½ìQx¿=
+W¾®G!¿ö(Ü>¸E?ëQ¿Ãõ?Ãõè?×£0¿¤p½¾
+×£½333¿ÍÌL=ö(\¿¤p½¾;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

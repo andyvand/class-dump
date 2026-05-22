@@ -9,13 +9,6 @@
 
 @protocol AMSURLBagContract
 
-@optional
-- (AMSBagValue *);
-- (AMSBagValue *);
-- (AMSBagValue *)n;
-- (AMSBagValue *)ion;
-- (id <AMSMetricsBagContract>)ullScreenConstraints;
-
 // Remaining properties
 @property(readonly, nonatomic) AMSBagValue *TFOSamplingPercentage;
 // Preceding property had unknown attributes: ?

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIContextMenuStyle;
+@class _UIContextMenuStyle;
 
 @protocol UIContextMenuInteractionDelegate_Private
 
 @optional
-- (NSArray *);
-- (_UIContextMenuStyle *)@9;
+- (_UIContextMenuStyle *)as passed;
 @end
 

@@ -9,8 +9,8 @@ public: // (access info unavailable from symbols alone)
     CharacterIterator(int);
     CharacterIterator(int, int);
     CharacterIterator(int, int, int, int);
-    first32PostInc();
-    firstPostInc();
-    operator=(icu::CharacterIterator const&);
+    auto first32PostInc();
+    auto firstPostInc();
+    auto operator=(icu::CharacterIterator const&);
     ~CharacterIterator();
 };

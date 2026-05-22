@@ -7,9 +7,10 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol PXDisplaySuggestion
-- (NSDate *)Items;
-- (unsigned short);
-- (NSDate *)bumPeoplePickerDataSource] non-VIP:%{public}@ /* Error: Ran out of types for this method. */;
+- (NSString *)tentsRect;
+- (unsigned short)ID;
+- (NSString *)atial3DPresentation;
+- (NSString *)eightModifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *actionProperties;

@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id)@;
 - (id);
 - (id);
 - (id);
-- (void);
+- (double);
 - (id);
-- (double)QQ},N,V_characterRange;
+- (id);
+- (void)tÛ;
 
 // Remaining properties
 @property(readonly) NSArray *contextStrokes; // @synthesize contextStrokes=_contextStrokes;

@@ -13,13 +13,13 @@
     CADisplayLink *_displayLink;
 }
 
+- (void);
+- (void);
 - (_Bool);
-- (void);
 - (id);
-- (id)(;
 - (void);
-- (void)rtColor;
 - (void);
+- (id)ions;
 
 // Remaining properties
 @property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;

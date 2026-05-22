@@ -13,6 +13,7 @@ __attribute__((visibility("hidden")))
     NSString *_backgroundColor;
     AMSMetricsEvent *_impressionEvent;
     AMSUIWebNavigationBarModel *_navigationBar;
+    long long _userInterfaceStyle;
     ACAccount *_account;
     NSDictionary *_clientOptions;
     AMSUIWebClientContext *_context;
@@ -30,17 +31,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (struct CGSize);
-- (id)View"16@"NSArray"24{CGPoint=dd}32;
-- (id)KJavaScriptExceptionMessage;
+- (void)er: /* Error: Ran out of types for this method. */;
+- (id)<;
+- (long long)W#3y#3yÛiN_Qo__Qo__Qo_Gqñ0G;
+- (id)ed to load controller with error: /* Error: Ran out of types for this method. */;
+- (struct CGSize)rror;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
@@ -64,6 +66,7 @@ __attribute__((visibility("hidden")))
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"AMSUIWebAction",?,R,N
 
+@property(readonly, nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 @property(retain, nonatomic) AMSUIWebWrapperViewController *viewController; // @synthesize viewController=_viewController;
 @property(readonly, nonatomic) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 

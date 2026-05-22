@@ -8,5 +8,6 @@
 
 @optional
 - (void);
+- (void)oþ23ð\þ;
 @end
 

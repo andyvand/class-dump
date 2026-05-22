@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
     long long _count;
 }
 
-- (void)tring"24@"NSString"32@"IMDChat"40;
-- (id)NicknamePhotoForHandleID:(struct CGRect)arg1;
-- (void)­Cº;
-- (long long)a;
-- (void)ö`;
+- (void);
+- (id);
+- (void);
+- (long long)Ë¾7_GSgÂ¾7G;
+- (void)üÀÛþý1Öb;
 
 @end
 

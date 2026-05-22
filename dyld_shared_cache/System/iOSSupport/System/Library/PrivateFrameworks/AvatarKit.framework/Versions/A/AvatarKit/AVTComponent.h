@@ -29,10 +29,10 @@ __attribute__((visibility("hidden")))
 - (float);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)WithBlock:event: /* Error: Ran out of types for this method. */;
 - (long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) NSArray *assets; // @synthesize assets=_assets;

@@ -11,7 +11,7 @@
     NSMutableDictionary *_runningQueries;
 }
 
-+ (id);
++ (id)7s;
 - (void);
 - (void);
 - (void);
@@ -19,10 +19,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (id)	;
+- (id);
+- (void)`æÿÿR@ÿÿfæÿÿP@ÿÿfæÿÿd ÿÿ~Cÿÿ(!ÿÿ;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *_runningQueries; // @synthesize _runningQueries;

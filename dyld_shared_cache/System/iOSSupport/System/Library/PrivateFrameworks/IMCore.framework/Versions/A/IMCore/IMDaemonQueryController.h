@@ -20,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)pJ3;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak IMDaemonController *daemonController; // @synthesize daemonController=_daemonController;

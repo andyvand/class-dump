@@ -20,23 +20,23 @@
 + (_Bool);
 + (id);
 + (id);
-+ (void)tKeyboardHeight: /* Error: Ran out of types for this method. */;
-+ (int)ð7;
++ (int);
++ (void)N;
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (Class);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)out";
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long contentRelevance;

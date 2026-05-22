@@ -20,9 +20,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) PKLinedPaper *linedPaper;

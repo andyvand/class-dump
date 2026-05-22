@@ -28,10 +28,10 @@
 - (CDStruct_e83c9415);
 - (CDStruct_c8120fa9);
 - (struct CGRect);
-- (void);
 - (unsigned long long);
 - (double);
-- (void);
+- (void)rrentAssetCollectionIsFavorite;
+- (void)tonTitle;
 
 // Remaining properties
 @property(nonatomic) struct CGRect clipFrame; // @synthesize clipFrame=_clipFrame;

@@ -5,10 +5,5 @@
 //
 
 @protocol TSWPLayoutParent
-- (struct CGRect)R(;
-
-@optional
-- (unsigned int);
-- (unsigned int);
 @end
 

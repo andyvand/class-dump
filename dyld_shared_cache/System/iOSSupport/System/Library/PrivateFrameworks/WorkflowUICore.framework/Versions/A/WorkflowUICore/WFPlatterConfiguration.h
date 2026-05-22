@@ -13,10 +13,10 @@
 }
 
 + (id);
-- (void);
-- (void);
 - (id);
+- (void);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 

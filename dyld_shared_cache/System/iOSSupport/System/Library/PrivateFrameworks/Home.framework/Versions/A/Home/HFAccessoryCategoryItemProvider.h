@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)?0@"HMAccessoryDiagnosticInfo"8@"NSError"16;
+- (void)FrameSize;
+- (void)FilterStatus;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *categoryItems; // @synthesize categoryItems=_categoryItems;

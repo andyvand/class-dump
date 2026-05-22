@@ -14,31 +14,30 @@
 }
 
 + (id);
-+ (void)Bk;
-- (_Bool)dler:(id)arg1;
++ (void)K ÎÜn;
+- (_Bool);
 - (void);
-- (void):(id)arg1 fileTransferGUIDs:flags:error:guid:threadIdentifier: /* Error: Ran out of types for this method. */;
-- (void)fsCreator:(id)arg1 hfsFlags:(id)arg2;
-- (void)tor:(id)arg1 hfsFlags:(id)arg2;
-- (void)edForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
-- (void)versation:(id)arg1 fromPreviousConversation:(id)arg2;
-- (void)ionManager:(id)arg1 handoffEligibilityChangedToConversation:fromPreviousConversation: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (_Bool):(id)arg1 %ld;
-- (long long)IMDStickerRegistry. Failed retrieving sticker me-sticker with error %@, outputURLS %@;
-- (_Bool)ansfer:(id)arg1 %@    user info:(id)arg2 %@;
-- (void)w message ID;
-- (void)with:(id)arg1 %@ so we should mark it as modified so we don't modify it twice;
-- (void)tch complete, but we had missing prereqs service %p %@, context %p %@;
+- (id);
+- (_Bool);
+- (long long);
+- (_Bool);
 - (void);
-- (void)ҧZ;
 - (void);
-- (void)!¬Gù±Æ°1¢!0@ù
-× ;
-- (id)te: /* Error: Ran out of types for this method. */;
-- (void)òZe;
-- (void)	;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)mHourCycle:forceDoubleDigitHours:displaysTimeZone: /* Error: Ran out of types for this method. */;
+- (void)rTraitCollection:withRimShadow: /* Error: Ran out of types for this method. */;
+- (void)È·ÀÿÐW¿f;
 
 @end
 

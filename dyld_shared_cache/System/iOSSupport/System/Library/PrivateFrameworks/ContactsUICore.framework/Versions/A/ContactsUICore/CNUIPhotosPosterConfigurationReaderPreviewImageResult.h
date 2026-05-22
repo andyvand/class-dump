@@ -13,10 +13,10 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
 - (struct CGSize);
+- (void);
+- (void)anceToObserver: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;

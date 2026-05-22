@@ -49,20 +49,20 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)view without the review composer being loaded;
+- (id)te>";
+- (void)Complete;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryButtonBackgroundColor; // @synthesize accessoryButtonBackgroundColor=_accessoryButtonBackgroundColor;

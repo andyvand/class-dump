@@ -25,9 +25,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (unsigned long long);
+- (id);
+- (void)er tableView:didSelectOTPMethod:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long context; // @synthesize context=_context;

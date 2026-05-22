@@ -5,9 +5,5 @@
 //
 
 @protocol _UIForceLevelClassifierDelegate
-
-@optional
-- (void)t";
-- (void)";
 @end
 

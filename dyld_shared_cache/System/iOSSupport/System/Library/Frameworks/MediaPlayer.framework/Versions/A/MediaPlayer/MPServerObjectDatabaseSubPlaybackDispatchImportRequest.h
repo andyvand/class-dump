@@ -15,7 +15,7 @@
 
 - (_Bool);
 - (id);
-- (void);
+- (void)SSING__;
 
 @end
 

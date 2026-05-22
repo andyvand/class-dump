@@ -18,12 +18,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (struct CGPoint);
+- (void)q_1Â0@ù
+× ;
 - (_Bool);
 - (double);
+- (void)®13ø¦þ-®13ø¦þ-®13ðþM®13l§þ;
 - (void);
-- (struct CGPoint)eTitleExposure;
-- (void);
-- (void)Ñ;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

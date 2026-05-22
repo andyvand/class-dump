@@ -12,23 +12,23 @@
     id <_UISceneSizeRestrictionsImpl> _activeImpl;
 }
 
-+ (id)st for key %@ error %@;
-+ (id)m writing list update with key %@ -  %@;
-+ (id)st doesn't contain nickname %@;
-+ (id)ot enabled;
-+ (id)known sender payload update for key %@ error %@;
-+ (id)e with key %@ -  %@;
-+ (id)d a problem writing an unknown sender payload update with key %@ -  %@;
-+ (id)ignored list for key %@ error %@;
-+ (id)y %@ -  %@;
-+ (id)e with key %@ -  %@;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (void);
-- (void)rPhoneNumber:(_Bool)arg1 simID: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)gress updated to %lld of %lld (%lld bps);
-- (void)message:(struct CGSize)arg1 %@;
-- (id)er beginPeriodicSyncWithActivity:(Class)arg1 ];
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -39,22 +39,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
 - (void);
-- (struct CGSize),V_centeredItemIdentifier;
-- (struct CGSize)DA´B;
-- (void)veFromPlacement:(struct CGSize)arg1 %@ toPlacement:%@ [%@] /* Error: Ran out of types for this method. */;
-- (struct CGSize)es;
 - (id);
-- (void)ÉÙþ;
-- (struct CGSize)Lþg;
+- (struct CGSize)sCursorBorderWidth;
+- (id)ø;
+- (struct CGSize)icators;
+- (void);
+- (struct CGSize)B16;
+- (void);
+- (struct CGSize)°]i;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UISceneSizeRestrictionsImpl> _activeImpl; // @synthesize _activeImpl;

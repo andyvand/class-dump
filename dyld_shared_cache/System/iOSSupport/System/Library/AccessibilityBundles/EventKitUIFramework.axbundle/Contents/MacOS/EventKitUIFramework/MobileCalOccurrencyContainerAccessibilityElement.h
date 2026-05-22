@@ -14,10 +14,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (struct CGRect);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;

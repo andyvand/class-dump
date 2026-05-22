@@ -14,14 +14,14 @@
     NSString *_name;
 }
 
-+ (id)-;
-+ (_Bool)_swift5_reflstr__TEXT;
++ (id);
++ (_Bool);
 + (id);
 + (long long);
 + (id);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool). If 0, the text will have a bounding box that is as wide as necessary, and may run off the edge of the image. Otherwise, the text will wrap within the bounds of the width. Optional.;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;

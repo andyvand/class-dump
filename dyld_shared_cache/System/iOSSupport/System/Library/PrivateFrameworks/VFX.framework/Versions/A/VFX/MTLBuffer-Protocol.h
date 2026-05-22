@@ -7,9 +7,7 @@
 @protocol MTLBuffer;
 
 @protocol MTLBuffer
-- (id <MTLBuffer>)'; };
-- (unsigned long long)>_trackedNodes, node);
-- (void *)?Ä ?WÐ8?;
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long gpuAddress;

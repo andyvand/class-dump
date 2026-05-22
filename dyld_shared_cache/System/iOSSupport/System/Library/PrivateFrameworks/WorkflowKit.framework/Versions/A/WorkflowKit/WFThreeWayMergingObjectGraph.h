@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
     NSMapTable *_directPredecessorsForVertexes;
 }
 
-- (void);
 - (id);
+- (void)ference;
 
 @end
 

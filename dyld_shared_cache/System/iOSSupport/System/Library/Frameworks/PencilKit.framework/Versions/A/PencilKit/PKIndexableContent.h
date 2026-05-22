@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`O;
 
 // Remaining properties
 @property(retain) CHRecognitionSessionIndexableContent *chIndexableContent; // @synthesize chIndexableContent=_chIndexableContent;

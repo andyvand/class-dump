@@ -40,9 +40,9 @@
 - (void *);
 - (_Bool);
 - (_Bool);
-- (double);
-- (id);
 - (void);
+- (id);
+- (double);
 - (id);
 - (id);
 

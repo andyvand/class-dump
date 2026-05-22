@@ -14,9 +14,9 @@
     MISSING_TYPE *prewarming;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)àM«þ;
 
 @end
 

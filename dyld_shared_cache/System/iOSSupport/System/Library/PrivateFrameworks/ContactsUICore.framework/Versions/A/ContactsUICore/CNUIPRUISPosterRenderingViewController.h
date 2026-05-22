@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PRUISPosterRenderingViewController, UIView;
+@class CNUIPRPosterContentOcclusionRectSet, NSString, PRUISPosterRenderingViewController, UIView;
 @protocol CNUIPRUISPosterRenderingViewControllerDelegate;
 
 @interface CNUIPRUISPosterRenderingViewController
@@ -26,11 +26,14 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
+- (id);
 - (id);
 - (void);
+- (struct CGRect);
+- (void)FailureBlock:scheduler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
+@property(retain, nonatomic) CNUIPRPosterContentOcclusionRectSet *contentOcclusionRectangles;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

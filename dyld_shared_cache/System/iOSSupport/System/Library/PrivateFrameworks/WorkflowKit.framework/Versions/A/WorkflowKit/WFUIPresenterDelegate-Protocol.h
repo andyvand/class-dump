@@ -5,8 +5,5 @@
 //
 
 @protocol WFUIPresenterDelegate
-
-@optional
-- (void);
 @end
 

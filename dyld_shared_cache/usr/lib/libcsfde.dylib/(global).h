@@ -4,15 +4,15 @@
 
 // Global C++ functions
 
-CopyNodeValue(__CFString const*, __CFString const*);
-HostIsReachable(__CFURL const*);
-RetrieveResponse(__CFReadStream*, long*, __CFData const**);
-SetupStreamForMessage(__CFHTTPMessage*, __CFData const*);
-copyEntriesOfType(__CFArray*, unsigned int, unsigned int, bool);
-countRealVolumeKeys(__CFDictionary*);
-cs_object_cast_to_array(void*, __CFArray**);
-cs_object_cast_to_bool(void*, bool*);
-cs_object_cast_to_data(void*, __CFData const**);
-cs_object_cast_to_dict(void*, __CFDictionary**);
-cs_object_cast_to_int(void*, int, unsigned long long*);
-cs_object_cast_to_string(void*, __CFString const**);
+auto CopyNodeValue(__CFString const*, __CFString const*);
+auto HostIsReachable(__CFURL const*);
+auto RetrieveResponse(__CFReadStream*, long*, __CFData const**);
+auto SetupStreamForMessage(__CFHTTPMessage*, __CFData const*);
+auto copyEntriesOfType(__CFArray*, unsigned int, unsigned int, bool);
+auto countRealVolumeKeys(__CFDictionary*);
+auto cs_object_cast_to_array(void*, __CFArray**);
+auto cs_object_cast_to_bool(void*, bool*);
+auto cs_object_cast_to_data(void*, __CFData const**);
+auto cs_object_cast_to_dict(void*, __CFDictionary**);
+auto cs_object_cast_to_int(void*, int, unsigned long long*);
+auto cs_object_cast_to_string(void*, __CFString const**);

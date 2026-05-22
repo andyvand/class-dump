@@ -15,10 +15,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (struct CGRect);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame; // @synthesize frame;

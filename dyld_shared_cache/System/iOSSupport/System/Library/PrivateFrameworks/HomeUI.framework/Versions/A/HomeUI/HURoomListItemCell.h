@@ -17,11 +17,11 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)SettingsModule;
-- (id)rdingView.UpgradeMultiUser.ContinueButton;
+- (id);
+- (void)BWelcomeController initWithTitle:detailText:icon:contentView:] /* Error: Ran out of types for this method. */;
+- (id)DhíÿX­ÿØÖ;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;

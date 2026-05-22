@@ -38,10 +38,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id)ÄÿÊ<QzG7;
+- (id);
+- (void)o the number of itemCount;
+- (void)8)a;
 
 // Remaining properties
 @property(retain, nonatomic) _PXTrackedMediaRecord *currentlyVisibleMediaRecord; // @synthesize currentlyVisibleMediaRecord=_currentlyVisibleMediaRecord;

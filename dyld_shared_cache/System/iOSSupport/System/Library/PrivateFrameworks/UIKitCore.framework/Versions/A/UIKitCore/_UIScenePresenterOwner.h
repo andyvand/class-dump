@@ -20,32 +20,33 @@ __attribute__((visibility("hidden")))
     id <_UIScenePresenterOwnerDelegate> _delegate;
 }
 
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (_Bool)ommand_StatusQueryResponsesOrganizationInfo";
-- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)áoð!hGùÂ°1¢!0@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (id)t:(id)arg1;
-- (void)dited:range:changeInLength:invalidatedRange: /* Error: Ran out of types for this method. */;
-- (id):initialVelocity:additive:preferredFrameRateRangeMaximum:group: /* Error: Ran out of types for this method. */;
-- (id)rLayerTarget:(id)arg1 identifier: /* Error: Ran out of types for this method. */;
-- (id)beginPage;
-- (void):(id)arg1;
-- (id)utGuide;
-- (void)ropAction;
-- (void)",W,N;
 - (id);
-- (void)q;
-- (id)esentation controller while transitioning already. (%@);
-- (id)7UISceneCSbIeggy_;
-- (void)UILabelTightBoundingBoxLayoutGuide-left;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)ù
+× ;
+- (void)1Â0@ù
+× ;
+- (id)!Ð!GùñcÐ1Â0@ù
+× ;
+- (void)"UIEditMenuConfiguration"24@"<UIEditMenuInteractionAnimating>"32;
+- (void)searchResults;
+- (id)orShouldDismissOnResponderChange: /* Error: Ran out of types for this method. */;
+- (void)kButton;
+- (id)nochrome;
+- (_Bool)onInProgress;
+- (void)orGesture:(id)arg1;
 - (void);
 
 // Remaining properties

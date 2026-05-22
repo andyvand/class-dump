@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (void);
-- (id)pe: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
+- (void)edItemPropertyVolumeNormalizationOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

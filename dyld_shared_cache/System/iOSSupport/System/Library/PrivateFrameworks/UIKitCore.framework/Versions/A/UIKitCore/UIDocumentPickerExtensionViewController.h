@@ -17,27 +17,26 @@
     NSURL *_documentStorageURL;
 }
 
-+ (id)tTime;
 + (id);
-- (id)ities;
++ (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long)ting account ID from:%@ => %@ /* Error: Ran out of types for this method. */;
-- (void)lid path %@ for file transfer:(id)arg1 %@   error:%@ /* Error: Ran out of types for this method. */;
-- (void)buted/chipList;
-- (void)ge body is empty;
+- (unsigned long long);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id),S_setTreatTrailingHiddenAsOverlaps:,V__treatTrailingHiddenAsOverlaps /* Error: Ran out of types for this method. */;
-- (void)Ê½ÑÝá];
-- (id)Q8ËÜâi;
+- (id);
+- (void)onBarItemContentLayoutGuide;
+- (void)èÉXh;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

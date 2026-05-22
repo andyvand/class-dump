@@ -8,8 +8,6 @@
 @protocol _UIViewMaterial;
 
 @protocol UISegmentedControlGlassStyleProvider
-- (double);
-- (_Bool)eRelayReachabilityRequestPayload:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowFreeSelectionSliding;

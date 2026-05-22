@@ -17,9 +17,8 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id)
-× ;
-- (void)ataAgeFromToday;
+- (void);
+- (id)asts;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long deviceInactivityThreshold;

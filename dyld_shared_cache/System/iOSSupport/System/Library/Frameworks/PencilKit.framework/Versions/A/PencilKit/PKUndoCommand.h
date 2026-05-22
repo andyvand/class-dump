@@ -20,13 +20,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
+- (void)ospectorDataSource;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;

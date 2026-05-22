@@ -15,7 +15,7 @@
     NRDeviceCollectionHistory *_history;
 }
 
-+ (id)IsUnsigned: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -23,14 +23,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)2@0:8:16@24 /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NRDeviceCollectionHistory *history;

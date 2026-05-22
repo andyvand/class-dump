@@ -108,14 +108,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
-- (void);
+- (struct CGSize);
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
-- (struct CGSize);
-- (struct CGSize);
-- (void)lertDialogTaskView;
+- (_Bool);
+- (void);
+- (void)DownCanMoveWindow;
+- (struct CGSize)¼nõÿ ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect accessorySecondaryViewFrame; // @synthesize accessorySecondaryViewFrame=_accessorySecondaryViewFrame;

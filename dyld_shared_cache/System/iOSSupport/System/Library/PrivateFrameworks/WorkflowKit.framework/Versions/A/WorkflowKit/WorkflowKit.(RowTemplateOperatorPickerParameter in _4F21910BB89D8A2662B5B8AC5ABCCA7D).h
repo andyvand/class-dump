@@ -17,8 +17,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)me);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *possibleStates;

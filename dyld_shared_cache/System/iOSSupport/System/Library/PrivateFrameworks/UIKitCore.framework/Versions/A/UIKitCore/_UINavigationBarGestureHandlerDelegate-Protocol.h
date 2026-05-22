@@ -4,10 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UINavigationBarGestureHandler;
-
 @protocol _UINavigationBarGestureHandlerDelegate
-- (void):(_UINavigationBarGestureHandler *)arg1;
-- (_Bool)_platterView;
+- (_Bool)¸VÑ . WÑl.dWÑh¡.¼WÑ¦.ÔWÑ°¨.ìWÑ×.XÑÄé.¸XÑLí.ÈXÑÿ.àXÑp/øXÑÔ/`YÑ¨	/xYÑ|/pZÑÜ/ZÑ'/ÈZÑ 2/èZÑ\/;
 @end
 

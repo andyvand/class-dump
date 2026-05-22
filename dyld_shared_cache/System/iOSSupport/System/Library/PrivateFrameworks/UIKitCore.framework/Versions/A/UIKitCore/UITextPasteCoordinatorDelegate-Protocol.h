@@ -5,6 +5,5 @@
 //
 
 @protocol UITextPasteCoordinatorDelegate
-- (void)ÿ;
 @end
 

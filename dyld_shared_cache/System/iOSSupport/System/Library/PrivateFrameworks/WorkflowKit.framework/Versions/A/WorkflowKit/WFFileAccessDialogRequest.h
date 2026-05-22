@@ -15,18 +15,18 @@
     NSString *_workflowID;
 }
 
-+ (_Bool)ition(Middle Right),WFTextOffset;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)sertionType(Event Ends),Event;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *URLs; // @synthesize URLs=_URLs;

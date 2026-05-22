@@ -17,11 +17,11 @@
 - (void);
 - (id);
 - (id);
-- (long long);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (long long);
+- (void)therUnknownDeviceFooterItem_Accessories;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraClip *cameraClip; // @synthesize cameraClip=_cameraClip;

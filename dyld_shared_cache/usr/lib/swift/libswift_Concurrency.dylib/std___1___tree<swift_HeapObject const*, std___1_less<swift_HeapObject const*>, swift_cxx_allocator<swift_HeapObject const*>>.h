@@ -4,5 +4,5 @@
 
 class std::__1::__tree<swift::HeapObject const*, std::__1::less<swift::HeapObject const*>, swift::cxx_allocator<swift::HeapObject const*>> {
 public: // (access info unavailable from symbols alone)
-    destroy(std::__1::__tree_node<swift::HeapObject const*, void*>*);
+    auto destroy(std::__1::__tree_node<swift::HeapObject const*, void*>*);
 };

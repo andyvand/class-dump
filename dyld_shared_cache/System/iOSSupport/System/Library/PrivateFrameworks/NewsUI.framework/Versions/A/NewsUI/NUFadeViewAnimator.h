@@ -13,7 +13,7 @@
 
 - (double);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);

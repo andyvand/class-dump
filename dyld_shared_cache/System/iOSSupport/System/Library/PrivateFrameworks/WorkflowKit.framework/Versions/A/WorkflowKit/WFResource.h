@@ -19,8 +19,8 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool)ne|naver;
-+ (id);
++ (_Bool);
++ (id)INStartWorkoutIntent;
 - (void);
 - (void);
 - (_Bool);
@@ -37,14 +37,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (_Bool)oundShortcutRunner evaluateRemoteQuarantinePolicyForWorkflow:workflowReference:withCompletionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (id)essWorkflowController:presenterRequestedWorkflowPauseWithContext:dialogRequest: /* Error: Ran out of types for this method. */;
+- (_Bool)aWithINFile;
+- (void).;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *availabilityError; // @synthesize availabilityError=_availabilityError;

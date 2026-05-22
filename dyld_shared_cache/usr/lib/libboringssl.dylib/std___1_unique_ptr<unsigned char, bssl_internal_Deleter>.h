@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<unsigned char, bssl::internal::Deleter> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](unsigned char*);
+    auto reset[abi:nqe210106](unsigned char*);
 };

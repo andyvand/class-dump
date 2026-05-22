@@ -22,18 +22,19 @@
 + (id);
 + (id);
 + (id);
-+ (id)9;
-+ (id)x ;
++ (id);
++ (id);
 - (_Bool);
-- (id);
-- (void)e;
-- (id)@8;
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id)0@ù
+× ;
+- (id);
+- (void)rangeOfMention.length - 1;
 
 // Remaining properties
 @property(nonatomic, readonly) UIColor *buttonTintColor; // @synthesize buttonTintColor;

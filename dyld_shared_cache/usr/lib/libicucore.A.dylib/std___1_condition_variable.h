@@ -4,7 +4,7 @@
 
 class std::__1::condition_variable {
 public: // (access info unavailable from symbols alone)
-    notify_all();
-    wait(std::__1::unique_lock<std::__1::mutex>&);
+    auto notify_all();
+    auto wait(std::__1::unique_lock<std::__1::mutex>&);
     ~condition_variable();
 };

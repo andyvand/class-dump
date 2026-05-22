@@ -9,8 +9,8 @@
 }
 
 - (_Bool);
-- (unsigned long long);
 - (_Bool);
+- (unsigned long long);
 
 @end
 

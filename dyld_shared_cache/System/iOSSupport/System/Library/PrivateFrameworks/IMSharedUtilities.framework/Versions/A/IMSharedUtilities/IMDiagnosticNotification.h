@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)i;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)gÖ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *body; // @synthesize body=_body;

@@ -12,12 +12,12 @@
     void controlIDsToValues;
 }
 
-- (id)q;
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)ocalName:attributeLocalNames:attributeValues: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *controlIDsToValues;

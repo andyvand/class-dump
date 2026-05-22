@@ -5,11 +5,11 @@
 //
 
 @protocol UIContentContainer
-- (struct CGSize)2;
-- (struct CGSize)ignoring drags more times than begin ignoring drags.;
-- (void);
-- (void);
-- (void)áþÿÿÿÿh;
+- (struct CGSize)!ôFù±`Ð1Â0@ù
+× ;
+- (void)s.;
+- (void)ocation=inspector;
+- (struct CGSize).framework/PhotoLibrary;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize preferredContentSize;

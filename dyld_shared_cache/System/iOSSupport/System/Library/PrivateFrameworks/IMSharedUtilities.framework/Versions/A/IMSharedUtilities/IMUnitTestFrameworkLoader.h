@@ -16,18 +16,18 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)x	Øÿ_;
+- (id)2ê÷4xÑ;
 
 // Remaining properties
 @property(readonly, nonatomic) IMUnitTestBundleLoader *bundleLoader; // @synthesize bundleLoader=_bundleLoader;

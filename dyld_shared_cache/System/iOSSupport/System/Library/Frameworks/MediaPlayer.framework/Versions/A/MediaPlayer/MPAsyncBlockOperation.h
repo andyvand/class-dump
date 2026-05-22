@@ -11,10 +11,10 @@
     CDUnknownBlockType _startHandler;
 }
 
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (id);
+- (void)sItem",C,N;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType startHandler; // @synthesize startHandler=_startHandler;

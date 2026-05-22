@@ -5,9 +5,9 @@
 class metadata_visitor::Visitor {
 public: // (access info unavailable from symbols alone)
     Visitor(dyld3::MachOAnalyzer const*);
-    getField(metadata_visitor::ResolvedValue const&, void const*) const;
-    getValueFor(VMAddress) const;
-    resolveBindOrRebase(metadata_visitor::ResolvedValue const&, bool&) const;
-    resolveOptionalRebase(metadata_visitor::ResolvedValue const&) const;
-    resolveRebase(metadata_visitor::ResolvedValue const&) const;
+    auto getField(metadata_visitor::ResolvedValue const&, void const*) const;
+    auto getValueFor(VMAddress) const;
+    auto resolveBindOrRebase(metadata_visitor::ResolvedValue const&, bool&) const;
+    auto resolveOptionalRebase(metadata_visitor::ResolvedValue const&) const;
+    auto resolveRebase(metadata_visitor::ResolvedValue const&) const;
 };

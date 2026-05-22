@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (Class);
-- (void);
 - (unsigned int);
+- (void);
 - (void);
 
 // Remaining properties

@@ -18,12 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize asSize;

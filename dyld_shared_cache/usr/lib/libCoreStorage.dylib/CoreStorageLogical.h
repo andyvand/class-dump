@@ -4,17 +4,17 @@
 
 class CoreStorageLogical {
 public: // (access info unavailable from symbols alone)
-    copyVolumeProperties();
-    createLogicalVolume(__CFDictionary*, CoreStorageGroup*, CoreStorageFamily*, lv_handle*);
-    getMappingTree();
-    growRange(rl_node*, unsigned long long, unsigned long long);
-    initWithHeader(__CFDictionary*);
-    lockRange(unsigned long long, unsigned long long);
-    setVolumeProperties(__CFDictionary*, tx*);
-    shrinkRange(rl_node*, unsigned long long, unsigned long long);
-    tryGrowRange(rl_node*, unsigned long long, unsigned long long);
-    tryLockRange(unsigned long long, unsigned long long);
-    unlockRange(rl_node**);
-    updateVolumeProperties(__CFDictionary*, tx*);
+    auto copyVolumeProperties();
+    auto createLogicalVolume(__CFDictionary*, CoreStorageGroup*, CoreStorageFamily*, lv_handle*);
+    auto getMappingTree();
+    auto growRange(rl_node*, unsigned long long, unsigned long long);
+    auto initWithHeader(__CFDictionary*);
+    auto lockRange(unsigned long long, unsigned long long);
+    auto setVolumeProperties(__CFDictionary*, tx*);
+    auto shrinkRange(rl_node*, unsigned long long, unsigned long long);
+    auto tryGrowRange(rl_node*, unsigned long long, unsigned long long);
+    auto tryLockRange(unsigned long long, unsigned long long);
+    auto unlockRange(rl_node**);
+    auto updateVolumeProperties(__CFDictionary*, tx*);
     ~CoreStorageLogical();
 };

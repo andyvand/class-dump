@@ -42,10 +42,9 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (id)ð!Fù1{°1b0@ù
-× ;
 - (id);
+- (id);
+- (void)Default Memory (specified by PXStoryPPTDefaultMemoryLocalIdentifier or PXStoryPPTDefaultMemoryName);
 - (void);
 
 // Remaining properties

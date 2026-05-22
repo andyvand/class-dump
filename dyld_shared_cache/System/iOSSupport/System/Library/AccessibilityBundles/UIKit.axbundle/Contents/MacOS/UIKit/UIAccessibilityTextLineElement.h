@@ -13,8 +13,8 @@
 - (void);
 - (struct _NSRange);
 - (id);
-- (unsigned long long);
 - (id);
+- (unsigned long long);
 
 @end
 

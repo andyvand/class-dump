@@ -81,15 +81,15 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void)senting alertController %@;
+- (id)newValue %{bool}d;
+- (_Bool)é?;
 - (void);
-- (id);
-- (id);
-- (_Bool)Ãÿÿ;
-- (void)úªÿ]Û}húªÿ;
-- (id)Þ;
 
 // Remaining properties
 @property(nonatomic) _Bool canBeSelected; // @synthesize canBeSelected=_canBeSelected;

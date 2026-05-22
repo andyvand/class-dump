@@ -10,8 +10,8 @@
 {
 }
 
-- (void)ationInToolbar: /* Error: Ran out of types for this method. */;
-- (id)V_selectedIndex;
+- (void)rovider: /* Error: Ran out of types for this method. */;
+- (id)ÿ­9ËXák;
 
 @end
 

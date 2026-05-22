@@ -7,8 +7,6 @@
 @class NSString;
 
 @protocol SXImageResource
-- (struct CGSize)@;
-- (struct CGSize)i;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize dimensions;

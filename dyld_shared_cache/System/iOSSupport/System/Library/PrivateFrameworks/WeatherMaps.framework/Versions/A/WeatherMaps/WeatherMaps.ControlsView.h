@@ -31,11 +31,11 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityElements;

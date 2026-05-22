@@ -14,7 +14,7 @@
 + (id);
 + (id);
 - (id);
-- (id)t",&,N,V_searchFieldFont;
+- (id);
 
 @end
 

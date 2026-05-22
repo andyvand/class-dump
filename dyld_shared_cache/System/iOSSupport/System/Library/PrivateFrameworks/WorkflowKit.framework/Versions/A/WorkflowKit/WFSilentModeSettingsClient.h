@@ -12,9 +12,9 @@
 {
 }
 
-+ (void)Ì;
 + (void);
-+ (void)pþÌ;
++ (void);
++ (void);
 + (void);
 + (_Bool);
 - (void);

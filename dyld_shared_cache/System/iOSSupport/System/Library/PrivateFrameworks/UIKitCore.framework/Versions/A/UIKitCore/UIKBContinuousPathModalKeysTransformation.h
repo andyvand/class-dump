@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
-+ (id)ng to SMS;
++ (id);
++ (id);
 + (id);
 + (id);
 

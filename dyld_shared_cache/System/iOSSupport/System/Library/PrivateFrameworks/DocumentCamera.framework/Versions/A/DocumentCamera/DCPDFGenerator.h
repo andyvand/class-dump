@@ -24,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 

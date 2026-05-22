@@ -4,5 +4,5 @@
 
 class std::__1::__list_imp<ExtentInfo, std::__1::allocator<ExtentInfo>> {
 public: // (access info unavailable from symbols alone)
-    clear();
+    auto clear();
 };

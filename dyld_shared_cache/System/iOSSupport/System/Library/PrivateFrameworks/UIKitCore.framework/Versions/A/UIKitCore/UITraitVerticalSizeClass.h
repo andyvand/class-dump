@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)SDictionary"8;
 + (_Bool);
 + (_Bool);
-+ (id): /* Error: Ran out of types for this method. */;
-+ (id)ó½;
-+ (long long)ÝÍÿ;
++ (_Bool);
++ (id);
++ (id)UIViewServiceSceneDelegate;
++ (long long))^þLÎ;
 
 @end
 

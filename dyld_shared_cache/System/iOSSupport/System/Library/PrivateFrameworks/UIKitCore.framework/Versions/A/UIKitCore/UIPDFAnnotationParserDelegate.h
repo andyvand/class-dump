@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     UIPDFAnnotation *_annotation;
 }
 
-- (_Bool)utableSet",&,N,V_pendingRemoteFileRequests;
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)eImageForDirection:(id)arg1 shortArtwork:(id)arg2 traitCollection:(id)arg3;
-- (id)e;
 - (id);
 - (void);
-- (void)di;
+- (void);
+- (void);
+- (id);
+- (void);X;	<;
 
 // Remaining properties
 @property(retain, nonatomic) UIPDFAnnotation *annotation; // @synthesize annotation=_annotation;

@@ -24,7 +24,7 @@
 - (struct SFUZipEndOfCentralDirectory);
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct SFUZipEndOfCentralDirectory);
 - (id);
 - (id);
@@ -38,8 +38,8 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
 - (id);
+- (_Bool);
 - (void);
 
 // Remaining properties

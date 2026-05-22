@@ -22,6 +22,8 @@
     MISSING_TYPE *liveActivityCountDataProvider;
     MISSING_TYPE *userEmbeddingDataProvider;
     MISSING_TYPE *sessionURLManager;
+    MISSING_TYPE *subscriptionController;
+    MISSING_TYPE *locationDetectionManager;
     MISSING_TYPE *window;
     void sceneSessionIdentifier;
 }
@@ -29,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void)[;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,12 +53,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)gicMoveAnimationMatch",R,N,V_animationMatch;
-- (void)	
-;
+- (void)Ùûÿ¤ÙûÿðÙûÿÚûÿPÚûÿÚûÿ¨ÚûÿÛûÿhÛûÿÛûÿøÛûÿÜûÿ@Üûÿ|Üûÿ ÜûÿôÜûÿÝûÿTÝûÿÝûÿ¬Ýûÿ0ÞûÿÞûÿ¨Þûÿßûÿ@ßûÿdßûÿ ßûÿÄßûÿàûÿdàûÿàûÿðàûÿáûÿ8áûÿtáûÿáûÿðáûÿâûÿPâûÿâûÿ¨âûÿãûÿÀãûÿüãûÿ0äûÿTäûÿ¸äûÿåûÿ0åûÿ åûÿÄåûÿèåûÿ$æûÿHæûÿæûÿ¼æûÿàæûÿçûÿ¸çûÿÜçûÿèûÿ<èûÿèûÿéûÿDéûÿhéûÿ¤éûÿøéûÿêûÿêûÿ¨êûÿÌêûÿëûÿ,ëûÿxëûÿëûÿØëûÿìûÿ0ìûÿìûÿ¸ìûÿôìûÿ(íûÿLíûÿ°íûÿîûÿ(îûÿ¬îûÿÐîûÿôîûÿ0ïûÿTïûÿ ïûÿôïûÿðûÿðûÿÀðûÿäðûÿ ñûÿDñûÿÀñûÿÌñûÿðñûÿ,òûÿ`òûÿòûÿèòûÿóûÿ0óûÿôûÿ@ôûÿdôûÿ ôûÿÄôûÿõûÿ4õûÿpõûÿ¤õûÿÈõûÿ\öûÿ°öûÿÔöûÿÄ÷ûÿè÷ûÿøûÿHøûÿløûÿÄøûÿùûÿ<ùûÿ¸ùûÿÜùûÿ;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *sceneSessionIdentifier;

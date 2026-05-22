@@ -70,11 +70,12 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (double);
-- (void);
-- (void);
 - (id);
-- (long long)\G;
+- (void)0@ù
+× ;
+- (long long)ew Controller;
 - (void);
 
 // Remaining properties

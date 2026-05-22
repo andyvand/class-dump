@@ -7,10 +7,7 @@
 @protocol UISceneDelegate
 
 @optional
-- (void)!;
-- (void)balRecipes;
-- (void)to users sports favorites;
-- (void)ror=%{public}@);
+- (void)n;
 - (void);
 @end
 

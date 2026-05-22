@@ -17,8 +17,8 @@
 + (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *sceneProvidersToHandlers; // @synthesize sceneProvidersToHandlers=_sceneProvidersToHandlers;

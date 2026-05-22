@@ -22,21 +22,21 @@ __attribute__((visibility("hidden")))
     struct CGRect _handwritingFrame;
 }
 
-- (double)ForMessageID:date:completionBlock: /* Error: Ran out of types for this method. */;
-- (double)llowsConversationWithHandleIDs: /* Error: Ran out of types for this method. */;
-- (double)temCount:(id)arg1;
-- (void)edFallbackGUIDs:(struct CGRect)arg1 releaseBlock: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
+- (double);
+- (void);
 - (double);
 - (double);
 - (struct CGRect);
 - (void);
-- (void)%@ as read as incoming message is older than the chat's last read message time;
-- (_Bool)rade flag for %@ (expiration:%@) to %@ /* Error: Ran out of types for this method. */;
-- (void)essage [%@] could not be converted to CKRecord, marking it as clean and moving on.;
-- (void)g a unit test.;
-- (void);
 - (void);
-- (id)Tq,N,V_representedSearchLayoutState;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)¼¾éÿ?¿;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool autoConfirmationEnabled; // @synthesize autoConfirmationEnabled=_autoConfirmationEnabled;

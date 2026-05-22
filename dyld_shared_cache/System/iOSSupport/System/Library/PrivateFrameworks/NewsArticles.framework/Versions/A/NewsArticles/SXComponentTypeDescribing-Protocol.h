@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol SXComponentTypeDescribing
-- (int)cleViewerBarCompressionAnimationFactory;
 
 // Remaining properties
 @property(readonly, nonatomic) int role;

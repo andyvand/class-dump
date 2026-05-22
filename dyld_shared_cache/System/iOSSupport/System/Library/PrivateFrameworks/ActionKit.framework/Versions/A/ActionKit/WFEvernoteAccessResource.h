@@ -17,11 +17,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (unsigned long long);
+- (id)nt"16@?<v@?@"WFSetAirplaneModeIntentResponse">24;
 
 @end
 

@@ -11,11 +11,11 @@
 }
 
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)e:attributeName:stringValue: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ng"32@"NSDate"40@"SMConversation"48@"NSString"56@?<v@?@"NSString"B@"NSError">64;
+- (void)00;
 
 @end
 

@@ -4,5 +4,5 @@
 
 class std::type_info {
 public: // (access info unavailable from symbols alone)
-    operator==[abi:ne200100](std::type_info const&) const;
+    auto operator==[abi:nqe210106](std::type_info const&) const;
 };

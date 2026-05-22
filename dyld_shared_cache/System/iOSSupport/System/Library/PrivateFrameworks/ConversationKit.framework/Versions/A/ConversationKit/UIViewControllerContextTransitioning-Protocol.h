@@ -4,16 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
+@class UIView, UIViewController;
 
 @protocol UIViewControllerContextTransitioning
-- (void)°;
-- (_Bool)builtin;
-- (UIView *)NGAHGSgtGSgtGGAHGA43_GANG> ­yÐ¬­GG­yAByABy}­A43_GAPGGG_Qo_G;
-- (struct CGRect)centsCallItemOngoingCalls was unexpectedly nil;
-- (struct CGAffineTransform)Kit/ParticipantVideoOverlayView.swift;
-- (void);
-- (long long)ì#;
+- (long long)ü)ÿtfÿØhÿkÿ¨uÿd}ÿ`RÿhUÿ ÿØ`ÿXÛÿÜßÿüäÿÈéÿpÿ,¡ÿ`±ÿ@»ÿà¡ÿø´ÿ$½ÿè¿ÿüÊÿÍÿ¼RÿWÿSÿÄÄÿÌÿÀÎÿ¨Öÿàÿèÿÿ°ÿxÿ"ÿ·ÿ(»ÿÔ½ÿDÿ<ÿT2ÿ@ÿÄEÿT]ÿtÿd«ÿDÿÄºÿ|¿ÿ°Ïÿäÿ`ÌÿÕÿÌ+ÿlrÿl|ÿ4ýÿ¸ÿÿXÿ´ÿÿlÿ ÿøÿÈ!ÿì¾ÿ¼ì¢ÿ $¥ÿø4¥ÿ8¦ÿ,¦ÿ¦ÿ,¦ÿ`§ÿ¥§ÿ¬«§ÿ0­§ÿ©ÿ¨à©ÿã©ÿ$é©ÿüð©ÿLô©ÿÄõ©ÿ|ü©ÿüý©ÿ«ÿt®ÿû®ÿ(#¯ÿH*¯ÿ\-¯ÿüM¯ÿ¯ÿ¡¯ÿl¦¯ÿð¬¯ÿ´½¯ÿ¼Î°ÿd®³ÿÔå³ÿó³ÿPý³ÿ;
+- (struct CGRect);
+- (UIViewController *);
+- (_Bool)nþÿxýÿ5ýÿXýÿXýÿXýÿXýÿrþÿþÿ;
+- (struct CGAffineTransform)AAy,& y®y¨y¢yAAyÿyACyAAyEAXG_DySaysÎG=/Îø8 yyAAy`;
+- (_Bool)IDs - checking groupUUID. Current:%s, New:%s /* Error: Ran out of types for this method. */;
+- (UIView *)Collaborate Together;
+- (void)pantsViewControllerDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

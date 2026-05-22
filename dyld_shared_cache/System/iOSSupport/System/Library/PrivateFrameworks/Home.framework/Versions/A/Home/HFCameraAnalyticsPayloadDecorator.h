@@ -18,10 +18,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)osed;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *additionalPayload; // @synthesize additionalPayload=_additionalPayload;

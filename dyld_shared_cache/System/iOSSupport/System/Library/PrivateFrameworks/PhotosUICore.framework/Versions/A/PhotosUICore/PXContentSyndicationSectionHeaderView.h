@@ -22,13 +22,13 @@
 - (void);
 - (void);
 - (id);
+- (struct CGSize);
 - (void);
+- (id);
 - (void);
+- (id);
+- (void):(id)arg1;
 - (void);
-- (id)dpûÿ;
-- (id)÷ýÿ|÷ýÿ;
-- (void);
-- (struct CGSize)OverlayController;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     unsigned long long remoteTimestamp;
 }
 
-- (void);
+- (void)Õ©Òäh[;
 
 @end
 

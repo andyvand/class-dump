@@ -8,7 +8,7 @@
 {
 }
 
-- (long long)þÿlaþÿ\gþÿ;
+- (long long)ÿ;
 
 @end
 

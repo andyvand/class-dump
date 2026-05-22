@@ -44,9 +44,9 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *actionProxies; // @synthesize actionProxies=_actionProxies;

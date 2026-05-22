@@ -8,10 +8,10 @@
 {
 }
 
-- (id);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

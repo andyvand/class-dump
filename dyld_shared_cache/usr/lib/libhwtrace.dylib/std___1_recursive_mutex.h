@@ -4,8 +4,8 @@
 
 class std::__1::recursive_mutex {
 public: // (access info unavailable from symbols alone)
-    lock();
+    auto lock();
+    auto unlock();
     recursive_mutex();
-    unlock();
     ~recursive_mutex();
 };

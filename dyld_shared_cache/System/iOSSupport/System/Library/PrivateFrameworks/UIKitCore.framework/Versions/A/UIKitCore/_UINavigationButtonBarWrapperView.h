@@ -16,19 +16,19 @@
 }
 
 - (id);
-- (void)update, already the current name;
-- (void)ng downgrade flag for %@;
-- (id)nd Default paired Device %@;
-- (id);
-- (_Bool);
 - (void);
 - (void);
-- (struct CGSize);
 - (id);
-- (id);
-- (void)!¸AùÄ1¢!0@ù
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (struct CGSize)!üDùQ\ð1Â0@ù
 × ;
-- (id)ransitionContainer;
+- (id)ew;
+- (void)xVl;
 
 // Remaining properties
 @property(nonatomic) _Bool animatesNextUpdate; // @synthesize animatesNextUpdate;

@@ -4,19 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UICoordinateSpace;
-
 @protocol PKDrawingReplaySupport
-- (void)hEndpoint:(CDStruct_4cc01785)arg1 cachePolicy:(id <UICoordinateSpace>)arg2;
-- (void)URL: /* Error: Ran out of types for this method. */;
-- (void)tings:configurationResource:endpointURL: /* Error: Ran out of types for this method. */;
-- (void)nternalTimeout;
-
-@optional
-- (void)Response",&,N,V_httpResponse;
-- (void)ionary",R;
-- (void)V_configurationResourcesByRequestKey;
-- (void)Age;
-- (void)figurationCompletionHandler;
 @end
 

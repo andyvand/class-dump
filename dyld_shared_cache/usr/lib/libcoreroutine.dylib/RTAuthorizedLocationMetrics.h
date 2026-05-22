@@ -37,12 +37,12 @@
 - (void);
 - (id);
 - (id);
-- (id)1;
-- (_Bool)OBEXSession][OpenTransCB] exit;
+- (id);
 - (void);
 - (_Bool);
-- (void)ry:(_Bool)arg1;
-- (void)ed error while collecting expired records from other devices, error, %@;
+- (void);
+- (_Bool);
+- (void)ameter not satisfying:ownerName /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) RTAuthorizedLocationCurationMetrics *curationMetrics; // @synthesize curationMetrics=_curationMetrics;

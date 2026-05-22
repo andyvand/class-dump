@@ -14,29 +14,29 @@
     CKTypingView *_typingView;
 }
 
-- (id)mÕ;
-- (void)Context: /* Error: Ran out of types for this method. */;
-- (void)fNecessary;
-- (void)idthAttributes;
-- (void)vers;
-- (void)$;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)n;
-- (void);
-- (void)ged object context;
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)ightDimension;
-- (void)dererView;
+- (id);
+- (void)t23CKTextEffectCoordinator"16@"NSString"24;
+- (void)°õ,øø;
+- (void)lpaper.;
+- (void)%@.;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer<CKTypingIndicatorLayerProtocol> *indicatorLayer;

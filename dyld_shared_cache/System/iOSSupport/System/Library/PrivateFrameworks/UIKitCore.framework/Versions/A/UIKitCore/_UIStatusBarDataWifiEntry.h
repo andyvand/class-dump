@@ -11,15 +11,16 @@
     long long _type;
 }
 
-+ (_Bool);
-- (void))#)";
++ (_Bool)cation bug;
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void)io;
+- (long long)!ÀBù±a1Â0@ù
+× ;
+- (_Bool)16@0:(id)arg1 8;
+- (void)kippedEndInputSession;
+- (id)forView: /* Error: Ran out of types for this method. */;
+- (id)CommandAction;
+- (void)ngBarConfiguration",C,N;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

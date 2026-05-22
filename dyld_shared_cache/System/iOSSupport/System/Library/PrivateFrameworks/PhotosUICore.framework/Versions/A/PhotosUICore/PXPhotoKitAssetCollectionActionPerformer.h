@@ -34,8 +34,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)StickerConfidenceScore: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ñtÇ¼&;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetsDataSource *assetsDataSource;

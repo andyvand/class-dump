@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     id <UIWebFormControl> _selectControl;
 }
 
-+ (id)[v2];
++ (id);
 - (void);
-- (void)k@;
-- (id):(id)arg1;
+- (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void)odifiedInput;
-- (void)n) _updateStateRestorationIdentifierMap]_block_invoke;
-- (id)rouped Header/Footer;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <UIWebFormControl> _selectControl; // @synthesize _selectControl;

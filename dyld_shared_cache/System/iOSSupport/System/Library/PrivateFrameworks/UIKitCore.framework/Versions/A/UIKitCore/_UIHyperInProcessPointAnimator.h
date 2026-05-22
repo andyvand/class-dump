@@ -19,34 +19,34 @@
     UIViewVectorAnimatableProperty *__animatableProperty;
 }
 
-+ (_Bool)7m;
-- (void)nLogMessageFromDictionaryRepresentation: /* Error: Ran out of types for this method. */;
-- (id)etServerBag: /* Error: Ran out of types for this method. */;
-- (id)nForRecipients:completion: /* Error: Ran out of types for this method. */;
-- (void)hGUID:(id)arg1 reply: /* Error: Ran out of types for this method. */;
-- (void)ate:(_Bool)arg1 remoteStorageDelegate:watchSyncDelegate:syncConfigurationDelegate: /* Error: Ran out of types for this method. */;
-- (void)ager;
-- (void)UsingPredicate:(_Bool)arg1 limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)rtToIDSTextMessageSpam: /* Error: Ran out of types for this method. */;
-- (id)B,N,V_isSendEnabled;
-- (_Bool)$U;
-- (id);
++ (_Bool)r;
+- (void);
 - (id);
-- (void)d to kick off user initiated sync but encountered error %@;
-- (void)ts;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (id)uldIgnoreExpiration;
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
 - (void);
-- (void)derLock;
-- (id)etValue:newValueCallback: /* Error: Ran out of types for this method. */;
-- (void)X;
-- (void)];
-- (void)^;
+- (void);
+- (void)tionForTouch"b1"highlightStyleUpdated"b1"indexColorUpdated"b1"legibilityWeightOrPreferredContentSizeUpdated"b1};
+- (_Bool)ndaryOnlyBarButtonItem;
+- (void)tControlKeyBackgroundName:(id)arg1;
+- (id)elector;
+- (id)ButtonDown;
+- (void)hm[;
+- (id)°uþ;
+- (void)a;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewVectorAnimatableProperty *_animatableProperty; // @synthesize _animatableProperty=__animatableProperty;

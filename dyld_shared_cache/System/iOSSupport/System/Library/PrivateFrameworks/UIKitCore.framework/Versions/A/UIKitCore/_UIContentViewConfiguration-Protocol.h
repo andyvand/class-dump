@@ -5,8 +5,6 @@
 //
 
 @protocol _UIContentViewConfiguration
-
-@optional
-- (void)4;
+- (id);
 @end
 

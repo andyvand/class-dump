@@ -15,7 +15,7 @@
     MISSING_TYPE *cachedHeight;
 }
 
-- (void);
+- (void)Ô(;
 
 @end
 

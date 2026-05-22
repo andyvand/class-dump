@@ -21,10 +21,10 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)Reconfiguration;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType applyChangesBlock; // @synthesize applyChangesBlock=_applyChangesBlock;

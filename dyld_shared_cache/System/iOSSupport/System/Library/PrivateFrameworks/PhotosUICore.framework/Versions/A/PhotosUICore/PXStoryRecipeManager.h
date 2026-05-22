@@ -347,6 +347,7 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -355,7 +356,6 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (id);
 - (void);
 - (void);
@@ -368,6 +368,11 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -375,19 +380,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id)0@ù
+- (void)EùÑH°1â
+0@ù
 × ;
-- (void)tion;
-- (void)ddings:(id)arg1;
-- (void)fo:(id)arg1 effect: /* Error: Ran out of types for this method. */;
-- (id)al;
-- (id)mbnailManager.m;
-- (id)deModel;
+- (id)ID;
+- (id)¸ê<îÌïèòóTô¸ô(õù;
+- (void)inantIndex >= 0 && dominantIndex < _spriteSnapshotsCount;
 - (void);
-- (void);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *additionalAutoEditDecisionListsBySong; // @synthesize additionalAutoEditDecisionListsBySong=_additionalAutoEditDecisionListsBySong;

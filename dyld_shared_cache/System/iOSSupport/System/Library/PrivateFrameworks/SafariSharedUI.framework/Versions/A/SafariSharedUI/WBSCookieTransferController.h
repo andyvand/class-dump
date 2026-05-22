@@ -17,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)String:toExistingIconURLString:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

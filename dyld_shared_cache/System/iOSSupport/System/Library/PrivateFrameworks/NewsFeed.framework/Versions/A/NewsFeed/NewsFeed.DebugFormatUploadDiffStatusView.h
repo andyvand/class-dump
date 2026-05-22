@@ -16,11 +16,12 @@
     MISSING_TYPE *progressView;
 }
 
-- (void);
-- (id);
-- (void)B24@0:8#16 /* Error: Ran out of types for this method. */;
-- (id)ÿ>¢þ;
 - (struct CGSize);
+- (id);
+- (void);
+- (id)!8Aùñþð1Â0@ù
+× ;
+- (void);
 
 @end
 

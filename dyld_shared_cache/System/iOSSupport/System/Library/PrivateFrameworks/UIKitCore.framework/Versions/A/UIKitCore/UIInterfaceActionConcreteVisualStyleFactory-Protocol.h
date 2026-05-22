@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInterfaceActionConcreteVisualStyle;
-@protocol UIInterfaceActionConcreteVisualStyleImpl;
-
 @protocol UIInterfaceActionConcreteVisualStyleFactory
-+ (UIInterfaceActionConcreteVisualStyle<UIInterfaceActionConcreteVisualStyleImpl> *)create csr, AMFDRCryptoCreateModuleSignedCsr failed.;
 @end
 

@@ -15,10 +15,10 @@
 
 - (id);
 - (CDStruct_0441cfb5);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)pointInside:withEvent: /* Error: Ran out of types for this method. */;
+- (void)¨]^_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

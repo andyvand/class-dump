@@ -42,7 +42,7 @@
 - (void);
 - (id);
 - (id);
-- (id)eWithName: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) UIDateLabel *dateLabel; // @synthesize dateLabel;

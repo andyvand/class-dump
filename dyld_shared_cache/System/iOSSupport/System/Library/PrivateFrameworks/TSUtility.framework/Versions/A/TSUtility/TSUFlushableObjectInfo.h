@@ -5,5 +5,5 @@
 class TSUFlushableObjectInfo {
 public: // (access info unavailable from symbols alone)
     TSUFlushableObjectInfo(id<TSUFlushable>);
-    compareFlushingOrder(TSUFlushableObjectInfo const&) const;
+    auto compareFlushingOrder(TSUFlushableObjectInfo const&) const;
 };

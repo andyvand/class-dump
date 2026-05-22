@@ -4,7 +4,7 @@
 
 class XPC_Dictionary {
 public: // (access info unavailable from symbols alone)
-    GetArray(char const*, XPC_Array&) const;
-    GetDictionary(char const*, XPC_Dictionary&) const;
+    auto GetArray(char const*, XPC_Array&) const;
+    auto GetDictionary(char const*, XPC_Dictionary&) const;
     ~XPC_Dictionary();
 };

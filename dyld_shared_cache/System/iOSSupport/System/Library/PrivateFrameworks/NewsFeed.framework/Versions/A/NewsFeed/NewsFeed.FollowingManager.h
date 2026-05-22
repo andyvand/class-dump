@@ -11,6 +11,7 @@
     MISSING_TYPE *notificationPrompter;
     MISSING_TYPE *subscriptionController;
     MISSING_TYPE *sceneProvider;
+    MISSING_TYPE *featureAvailability;
 }
 
 @end

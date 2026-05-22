@@ -27,24 +27,25 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (double)sageLegacyProcessingPipelineComponent will create it.;
-+ (int)isFromMe:(long long)arg1 %@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
-+ (id)2DEncryptionSupport;
++ (double);
++ (int);
 + (id);
-+ (struct UIEdgeInsets),R,N,V_uniqueID;
-+ (struct UIEdgeInsets)SArray",C,N,V_orderingProperties;
++ (id);
++ (struct UIEdgeInsets)!ðCù±Yð1Â0@ù
+× ;
++ (struct UIEdgeInsets)trackableState;
 - (void);
 - (void);
-- (void)tionForRecipientHandle:(id)arg1;
-- (struct CGSize)ظ;
+- (void);
+- (struct CGSize);
 - (void);
 - (void);
-- (void)annot have NULL chunkSignature.;
-- (void){$º;
-- (id)erAtIndex:inContext:withColorResolver: /* Error: Ran out of types for this method. */;
-- (_Bool)ultiSelectInteraction",&,N,V_multiSelectInteraction;
-- (id)the size of CFSwappedFloat64 (%lu);
-- (void)úXg;
+- (id)nRenamingWithRangeHandler;
+- (void)t	;
+- (void)??ð?;
+- (id)Èò^;
+- (void);
+- (_Bool)\Ö·ÿôÖ d;
 
 // Remaining properties
 @property(retain, nonatomic) _UICoreUIWidget *coreUIWidget; // @synthesize coreUIWidget=_coreUIWidget;

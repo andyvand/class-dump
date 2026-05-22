@@ -4,11 +4,11 @@
 
 class icu::number::SimpleNumberFormatter {
 public: // (access info unavailable from symbols alone)
-    cleanup();
-    forLocale(icu::Locale const&, UErrorCode&);
-    forLocaleAndGroupingStrategy(icu::Locale const&, UNumberGroupingStrategy, UErrorCode&);
-    forLocaleAndSymbolsAndGroupingStrategy(icu::Locale const&, icu::DecimalFormatSymbols const&, UNumberGroupingStrategy, UErrorCode&);
-    format(icu::number::SimpleNumber, UErrorCode&) const;
-    formatImpl(icu::number::impl::UFormattedNumberData*, USimpleNumberSign, UErrorCode&) const;
-    initialize(icu::Locale const&, icu::DecimalFormatSymbols const&, UNumberGroupingStrategy, UErrorCode&);
+    auto cleanup();
+    auto forLocale(icu::Locale const&, UErrorCode&);
+    auto forLocaleAndGroupingStrategy(icu::Locale const&, UNumberGroupingStrategy, UErrorCode&);
+    auto forLocaleAndSymbolsAndGroupingStrategy(icu::Locale const&, icu::DecimalFormatSymbols const&, UNumberGroupingStrategy, UErrorCode&);
+    auto format(icu::number::SimpleNumber, UErrorCode&) const;
+    auto formatImpl(icu::number::impl::UFormattedNumberData*, USimpleNumberSign, UErrorCode&) const;
+    auto initialize(icu::Locale const&, icu::DecimalFormatSymbols const&, UNumberGroupingStrategy, UErrorCode&);
 };

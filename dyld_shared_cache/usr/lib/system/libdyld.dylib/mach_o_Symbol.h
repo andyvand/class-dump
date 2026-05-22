@@ -4,26 +4,26 @@
 
 class mach_o::Symbol {
 public: // (access info unavailable from symbols alone)
-    implOffset() const;
-    implOffset() const (.cold.1);
-    isAbsolute(unsigned long long&) const;
-    isDynamicResolver(unsigned long long&) const;
-    isReExport(int&, char const*&) const;
-    makeAbsolute(CString, unsigned long long, bool, mach_o::Symbol::Scope, unsigned char);
-    makeAltEntry(CString, unsigned long long, unsigned char, mach_o::Symbol::Scope, bool, bool, bool, bool);
-    makeDynamicResolver(CString, unsigned char, unsigned long long, unsigned long long, mach_o::Symbol::Scope);
-    makeFunctionVariantExport(CString, unsigned char, unsigned long long, unsigned int);
-    makeHiddenTentativeDef(CString, unsigned long long, unsigned char, bool, bool);
-    makeReExport(CString, int, char const*, mach_o::Symbol::Scope);
-    makeRegularExport(CString, unsigned long long, unsigned char, bool, bool, bool, bool);
-    makeRegularHidden(CString, unsigned long long, unsigned char, bool, bool, bool);
-    makeRegularLocal(CString, unsigned long long, unsigned char, bool, bool, bool);
-    makeRegularWasPrivateExtern(CString, unsigned long long, unsigned char, bool, bool, bool);
-    makeTentativeDef(CString, unsigned long long, unsigned char, bool, bool);
-    makeThreadLocalExport(CString, unsigned long long, unsigned char, bool, bool, bool);
-    makeUndefined(CString, int, bool);
-    makeWeakDefAutoHide(CString, unsigned long long, unsigned char, bool, bool, bool);
-    makeWeakDefExport(CString, unsigned long long, unsigned char, bool, bool, bool);
-    makeWeakDefHidden(CString, unsigned long long, unsigned char, bool, bool, bool);
-    makeWeakDefWasPrivateExtern(CString, unsigned long long, unsigned char, bool, bool, bool);
+    auto implOffset() const;
+    auto implOffset() const (.cold.1);
+    auto isAbsolute(unsigned long long&) const;
+    auto isDynamicResolver(unsigned long long&) const;
+    auto isReExport(int&, char const*&) const;
+    auto makeAbsolute(CString, unsigned long long, bool, mach_o::Symbol::Scope, unsigned char);
+    auto makeAltEntry(CString, unsigned long long, unsigned char, mach_o::Symbol::Scope, bool, bool, bool, bool);
+    auto makeDynamicResolver(CString, unsigned char, unsigned long long, unsigned long long, mach_o::Symbol::Scope);
+    auto makeFunctionVariantExport(CString, unsigned char, unsigned long long, unsigned int);
+    auto makeHiddenTentativeDef(CString, unsigned long long, unsigned char, bool, bool);
+    auto makeReExport(CString, int, char const*, mach_o::Symbol::Scope);
+    auto makeRegularExport(CString, unsigned long long, unsigned char, bool, bool, bool, bool);
+    auto makeRegularHidden(CString, unsigned long long, unsigned char, bool, bool, bool);
+    auto makeRegularLocal(CString, unsigned long long, unsigned char, bool, bool, bool);
+    auto makeRegularWasPrivateExtern(CString, unsigned long long, unsigned char, bool, bool, bool);
+    auto makeTentativeDef(CString, unsigned long long, unsigned char, bool, bool);
+    auto makeThreadLocalExport(CString, unsigned long long, unsigned char, bool, bool, bool);
+    auto makeUndefined(CString, int, bool);
+    auto makeWeakDefAutoHide(CString, unsigned long long, unsigned char, bool, bool, bool);
+    auto makeWeakDefExport(CString, unsigned long long, unsigned char, bool, bool, bool);
+    auto makeWeakDefHidden(CString, unsigned long long, unsigned char, bool, bool, bool);
+    auto makeWeakDefWasPrivateExtern(CString, unsigned long long, unsigned char, bool, bool, bool);
 };

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)d not respond to _pushHandlerForIDSAccount:(id)arg1 %@;
+- (id);
 
 @end
 

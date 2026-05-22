@@ -24,10 +24,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)e: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, setter=showCity:) City *city; // @synthesize city=_city;

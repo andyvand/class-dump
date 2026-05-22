@@ -17,7 +17,7 @@
     NSString *_cachedDisplayName;
 }
 
-+ (id)Ì;
++ (id);
 + (id);
 - (id);
 - (id);
@@ -28,13 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)rello List;
 - (id);
-- (id)ìèÿq;
+- (id)@"WFEnumerationParameter"16@"WFVariableSubstitutableParameterState"24;
+- (void)tems with titles or URLs matching this search will be returned. (WFPocketItemSearchTerm);
+- (id)q;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

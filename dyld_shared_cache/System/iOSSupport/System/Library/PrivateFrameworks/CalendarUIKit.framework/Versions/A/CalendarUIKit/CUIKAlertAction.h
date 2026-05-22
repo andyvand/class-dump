@@ -15,10 +15,10 @@
 
 + (id);
 - (id);
-- (void);
-- (id);
 - (long long);
 - (CDUnknownBlockType);
+- (id);
+- (void)ring: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

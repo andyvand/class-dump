@@ -17,30 +17,31 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (_Bool);
-- (_Bool)GA10_GAHGGt;
-- (void)D;
-- (void)i;
-- (void)t;
+- (_Bool);
 - (void);
-- (void)c;
 - (void);
-- (id)ave %@ because mergeable string has error %@;
-- (_Bool)for a note (%@). Creating a temporary one.;
-- (unsigned long long)alNote:%@, duplicatedNote:%@} /* Error: Ran out of types for this method. */;
-- (id)**%@** made edits;
-- (id)eData;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool)paper — falling back to system's temporary directory {error:(id)arg1 %@};
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)¡×ÿ;
-- (id)xë/;
+- (id)
+× ;
+- (void)kx;
 
 // Remaining properties
 @property(retain, nonatomic) CKMediaObjectAssetActionManager *messagesAssetActionManager; // @synthesize messagesAssetActionManager=_messagesAssetActionManager;

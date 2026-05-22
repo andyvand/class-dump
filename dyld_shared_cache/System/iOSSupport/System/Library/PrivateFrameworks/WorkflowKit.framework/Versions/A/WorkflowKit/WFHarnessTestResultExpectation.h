@@ -15,10 +15,12 @@
 
 - (void);
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (long long)@24;
-- (id)rchWebDestination);
+- (long long);
+- (id);
+- (CDUnknownBlockType)!GùqÐ1â
+0@ù
+× ;
+- (void)ns.SetMultitaskingModeAction;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

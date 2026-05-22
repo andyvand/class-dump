@@ -27,14 +27,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)ingDelegate;
-- (id)Around31995766;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)
+× ;
+- (void)tentAnimationIfNeeded;
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *effectiveTimeFont; // @synthesize effectiveTimeFont=_effectiveTimeFont;

@@ -14,18 +14,18 @@
     NSArray *_attachments;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id)Number"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)eGIFActionAutoSize;
-- (void)l|connected|lightning|usb;
-- (void)ummary);
-- (id)ç;
-- (void)××±ßîÿü8ÿ|[DÿH~ªþwÿd;
+- (void);
+- (void);
+- (id)renceStore;
+- (id)etLocalSearch: /* Error: Ran out of types for this method. */;
+- (void)ck_invoke;
+- (id);
+- (id)PþaTÅü:Ìõ³ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿý /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;

@@ -23,19 +23,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)InitialSync;
-- (void)lags:(struct CGRect)arg1;
-- (void)@"NSString",C,N,V_loginID;
+- (id);
+- (void);
+- (void);
 - (struct CGRect);
-- (struct CGRect)ickname services, giving up;
-- (void);
-- (id)ù
-× ;
-- (void)!HBùñÉ1¢!0@ù
-× ;
-- (id)olorWell";
-- (id)t;
-- (void)Ø>d;
+- (struct CGRect);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)@è];
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *clonedCellAttributes; // @synthesize clonedCellAttributes=_clonedCellAttributes;

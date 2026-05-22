@@ -9,12 +9,12 @@
     struct CGSize _preferredArtworkSize;
 }
 
-+ (_Bool)lic}@;
++ (_Bool);
 - (void);
 - (struct CGSize);
 - (id);
-- (void)?;
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGSize preferredArtworkSize; // @synthesize preferredArtworkSize=_preferredArtworkSize;

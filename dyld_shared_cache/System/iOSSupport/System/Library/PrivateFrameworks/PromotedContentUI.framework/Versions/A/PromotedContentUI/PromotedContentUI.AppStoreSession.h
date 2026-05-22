@@ -13,8 +13,8 @@
     MISSING_TYPE *start;
 }
 
+- (id);
 - (void);
-- (id)_revision;
 
 @end
 

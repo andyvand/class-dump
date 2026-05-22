@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) UIViewController *hostingController; // @synthesize hostingController;

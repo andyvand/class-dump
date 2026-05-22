@@ -21,8 +21,8 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void);
-- (id)t];
+- (id)CGPath=}16@24@32;
+- (void)àÇ;
 
 @end
 

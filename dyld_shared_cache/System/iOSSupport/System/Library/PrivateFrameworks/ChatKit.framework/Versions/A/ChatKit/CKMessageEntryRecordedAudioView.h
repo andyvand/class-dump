@@ -24,22 +24,22 @@ __attribute__((visibility("hidden")))
     NSString *_timeFormat;
 }
 
-- (id)Identifier: /* Error: Ran out of types for this method. */;
-- (id)containerUrl;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)ewImagesDidUpdate: /* Error: Ran out of types for this method. */;
-- (void)eryVersion;
-- (void)t;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)h account ID. Using cloudKitAccountInContext.;
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -47,28 +47,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)ath"32@0:(struct CGRect)arg1 8@"UITableView"16@"NSIndexPath"24;
+- (void)er"16;
+- (double)e;
+- (_Bool)adInputViews returned.;
+- (id)nding IAV, presenting view controller;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)!à
-ñæñ;
-- (void)e: /* Error: Ran out of types for this method. */;
-- (void)BottomConstraint: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)GH;
-- (double)hèëÿðêëÿüêëÿüëëÿ;
-- (id)navigationItem;
-- (void)fset_6Ä<7elementtG;
-- (id)ror"16;
-- (struct CGSize)howWhatsNewMOC;
-- (_Bool).;
 
 // Remaining properties
 @property(retain, nonatomic) CKAudioController *audioController; // @synthesize audioController=_audioController;

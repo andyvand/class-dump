@@ -7,7 +7,6 @@
 @protocol NAEndOfArticleResultProviderDelegate;
 
 @protocol NAEndOfArticleResultProviderType
-- (id <NAEndOfArticleResultProviderDelegate>);
 
 // Remaining properties
 @property(nonatomic, retain) id <NAEndOfArticleResultProviderDelegate> resultProviderDelegate;

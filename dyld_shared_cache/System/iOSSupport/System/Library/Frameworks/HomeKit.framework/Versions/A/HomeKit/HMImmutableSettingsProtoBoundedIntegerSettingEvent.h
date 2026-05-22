@@ -25,25 +25,25 @@
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (void);
 - (id);
+- (void)H;
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (_Bool);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (long long);
+- (id);
+- (void)¡à¡d¢´¢8££Ì¦;
+- (long long)ÏÿÑj<ÎÿÑjp»Ïÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasMaxValue;

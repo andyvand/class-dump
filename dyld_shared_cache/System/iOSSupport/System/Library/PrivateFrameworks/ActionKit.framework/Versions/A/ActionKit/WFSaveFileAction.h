@@ -32,8 +32,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)0@ù
-× ;
+- (void)led to find the emoji font.;
 
 // Remaining properties
 @property(retain, nonatomic) id <WFFileStorageServiceOperation> saveOperation; // @synthesize saveOperation=_saveOperation;

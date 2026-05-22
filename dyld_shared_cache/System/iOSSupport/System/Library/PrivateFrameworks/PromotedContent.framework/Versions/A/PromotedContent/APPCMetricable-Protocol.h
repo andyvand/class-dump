@@ -7,10 +7,7 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol APPCMetricable
-- (NSString *);
-- (long long);
-- (NSDictionary *)\ë!;
-- (long long)mer;
+- (NSString *)\%;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *contentId;

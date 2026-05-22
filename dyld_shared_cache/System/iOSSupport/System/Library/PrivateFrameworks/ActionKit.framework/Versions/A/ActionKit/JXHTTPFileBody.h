@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)s/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/evp/pmeth_lib.c;
+- (id);
+- (void)output writer;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

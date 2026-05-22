@@ -26,18 +26,19 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id);
 - (double);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)B;
-- (id);
-- (id);
-- (id)rDate;
-- (_Bool)ngScope;
+- (void);
+- (_Bool)a°!@AùÑI°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType avatarUpdater; // @synthesize avatarUpdater=_avatarUpdater;

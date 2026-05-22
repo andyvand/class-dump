@@ -20,7 +20,7 @@
     MISSING_TYPE *hasPresented;
 }
 
-- (void);
+- (void)ß;
 
 @end
 

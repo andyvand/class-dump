@@ -16,11 +16,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (struct _NSRange);
 - (id);
 - (id);
-- (id);
-- (struct _NSRange)ð!ìGùñ£Ð1¢!0@ù
+- (void)áÝ°!ÀBùïÐ1Â0@ù
 × ;
 
 // Remaining properties

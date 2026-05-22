@@ -18,10 +18,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)untFuture;
+- (void)upViewController was given unknown item module:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUIconButton *iconButton; // @synthesize iconButton=_iconButton;

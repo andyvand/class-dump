@@ -14,11 +14,10 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (_Bool)Position;
-- (_Bool)to %d.
-Resetting tracked brand bar data before proceeding with eligibility check.;
+- (_Bool);
+- (_Bool);
+- (void)kgroundColor;
 
 @end
 

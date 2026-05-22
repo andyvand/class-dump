@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ragInteraction"16@"<UIDragSession>"24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXLayoutInvalidator> invalidator; // @synthesize invalidator=_invalidator;

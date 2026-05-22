@@ -5,7 +5,7 @@
 //
 
 @interface (null) (BalloonLayerExtension)
-+ (double);
++ (double);
 + (struct UIEdgeInsets);
 + (struct CGRect);
 - (void);

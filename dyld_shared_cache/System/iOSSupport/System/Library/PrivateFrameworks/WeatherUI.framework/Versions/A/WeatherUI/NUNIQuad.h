@@ -25,10 +25,10 @@
 - (id);
 - (struct NUNIViewport);
 - (_Bool);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)t5;
 
 // Remaining properties
 @property(readonly, nonatomic) NUNIRenderer *renderer; // @synthesize renderer=_renderer;

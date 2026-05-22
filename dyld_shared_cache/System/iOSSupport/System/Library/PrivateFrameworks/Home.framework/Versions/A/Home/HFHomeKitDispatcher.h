@@ -25,6 +25,9 @@
     NADelegateDispatcher *_accessoryObserverDispatcher;
     NADelegateDispatcher *_residentDeviceObserverDispatcher;
     NADelegateDispatcher *_cameraObserverDispatcher;
+    NADelegateDispatcher *_cameraStreamObserverDispatcher;
+    NADelegateDispatcher *_cameraSnapshotObserverDispatcher;
+    NADelegateDispatcher *_cameraSettingsObserverDispatcher;
     NADelegateDispatcher *_mediaObjectObserverDispatcher;
     NADelegateDispatcher *_mediaSessionObserverDispatcher;
     NADelegateDispatcher *_audioControlObserverDispatcher;
@@ -66,7 +69,7 @@
 + (id);
 + (id);
 + (void);
-+ (void)ange:%@ /* Error: Ran out of types for this method. */;
++ (void)mer fired %@;
 - (_Bool);
 - (id);
 - (id);
@@ -121,10 +124,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -215,6 +224,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -274,18 +289,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)'s restarting (uuid:(id)arg1 %@);
-- (id);
+- (void)0@ù
+× ;
+- (void)eActionBuildersForLightColorAction: /* Error: Ran out of types for this method. */;
+- (void)2;
 
 // Remaining properties
 @property(retain, nonatomic) NADelegateDispatcher *accessoryObserverDispatcher; // @synthesize accessoryObserverDispatcher=_accessoryObserverDispatcher;
@@ -294,6 +311,9 @@
 @property(retain, nonatomic) NSMutableArray *allHomesPromises; // @synthesize allHomesPromises=_allHomesPromises;
 @property(retain, nonatomic) NADelegateDispatcher *audioControlObserverDispatcher; // @synthesize audioControlObserverDispatcher=_audioControlObserverDispatcher;
 @property(retain, nonatomic) NADelegateDispatcher *cameraObserverDispatcher; // @synthesize cameraObserverDispatcher=_cameraObserverDispatcher;
+@property(retain, nonatomic) NADelegateDispatcher *cameraSettingsObserverDispatcher; // @synthesize cameraSettingsObserverDispatcher=_cameraSettingsObserverDispatcher;
+@property(retain, nonatomic) NADelegateDispatcher *cameraSnapshotObserverDispatcher; // @synthesize cameraSnapshotObserverDispatcher=_cameraSnapshotObserverDispatcher;
+@property(retain, nonatomic) NADelegateDispatcher *cameraStreamObserverDispatcher; // @synthesize cameraStreamObserverDispatcher=_cameraStreamObserverDispatcher;
 @property(retain, nonatomic) HFActivityLogCoordinator *climateActivityLogCoordinator; // @synthesize climateActivityLogCoordinator=_climateActivityLogCoordinator;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

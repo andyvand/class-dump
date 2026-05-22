@@ -14,8 +14,8 @@
     MISSING_TYPE *syncingQueue;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

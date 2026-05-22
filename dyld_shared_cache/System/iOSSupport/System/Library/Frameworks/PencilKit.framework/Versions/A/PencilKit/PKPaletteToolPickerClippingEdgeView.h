@@ -12,28 +12,30 @@
     PKPaletteToolPickerClippingEdgeBackdropLayerView *_bottomBackdropLayerView;
     PKPaletteToolPickerClippingEdgeBackdropLayerView *_topBackdropLayerView;
     UIVisualEffectView *_visualEffectView;
+    _Bool _isRTL;
+    unsigned long long _edge;
     _Bool _flipHorizontally;
     _Bool _magicPocketEffectHidden;
     double _scalingFactor;
     long long _axis;
 }
 
-- (void)erSegmentationConfiguration;
-- (void)ancelAllTasksOnBackgroundSessionWithSettings:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)_fetchConfigurationWithURL:(_Bool)arg1 requestKey:enableExtraLogs:fallbackTimeoutDuration: /* Error: Ran out of types for this method. */;
-- (double)ModifiedFallbackString;
-- (_Bool)formatter;
-- (id).com/v1/configs;
-- (id)9`G;
-- (_Bool);
 - (void);
-- (void)tIsPresentedWithSmartDialogText:(double)arg1;
-- (double)eContentID;
+- (void);
+- (void);
+- (double);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)nDelegate>",W,N,V_colorPickerDelegate;
-- (long long)ì;
+- (void);
+- (void);
+- (long long);
+- (double);
+- (void)eractionFeedbackHostView;
 
 // Remaining properties
 @property(nonatomic) long long axis; // @synthesize axis=_axis;

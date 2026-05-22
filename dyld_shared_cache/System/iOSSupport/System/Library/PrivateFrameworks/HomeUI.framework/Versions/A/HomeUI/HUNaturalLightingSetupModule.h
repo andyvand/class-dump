@@ -35,13 +35,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (id)ew"16;
-- (void)antProgressChangeAnimationSettings:(id)arg1;
+- (CDUnknownBlockType)tler;
+- (void);
+- (void)nalPINCode;
 
 // Remaining properties
 @property(retain, nonatomic) HFAccessoryItemProvider *accessoryItemProvider; // @synthesize accessoryItemProvider=_accessoryItemProvider;

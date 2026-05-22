@@ -17,15 +17,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void)k�;
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id)s of %lu;
-- (id)SCHChartSeriesBarDEPRECATED3DFillProperty;
+- (id)_end_node<std:(id)arg1:__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,16 +4,16 @@
 
 class mach_o::PointerFormat_Generic_arm64e {
 public: // (access info unavailable from symbols alone)
-    bindMaxEmbeddableAddend(bool) const;
-    bindMinEmbeddableAddend(bool) const;
-    is64() const;
-    maxBindOrdinal(bool) const;
-    maxNext() const;
-    maxRebaseTargetOffset(bool) const;
-    minNext() const;
-    nextLocation(void const*) const;
-    parseChainEntry(void const*, mach_o::MappedSegment const*, unsigned long long, std::__1::span<unsigned long long const, 18446744073709551615ul>) const;
-    supportsAuth() const;
-    supportsBinds() const;
-    writeChainEntry(mach_o::Fixup const&, void const*, unsigned long long, std::__1::span<mach_o::MappedSegment const*, 18446744073709551615ul>) const;
+    auto bindMaxEmbeddableAddend(bool) const;
+    auto bindMinEmbeddableAddend(bool) const;
+    auto is64() const;
+    auto maxBindOrdinal(bool) const;
+    auto maxNext() const;
+    auto maxRebaseTargetOffset(bool) const;
+    auto minNext() const;
+    auto nextLocation(void const*) const;
+    auto parseChainEntry(void const*, mach_o::MappedSegment const*, unsigned long long, std::__1::span<unsigned long long const, 18446744073709551615ul>) const;
+    auto supportsAuth() const;
+    auto supportsBinds() const;
+    auto writeChainEntry(mach_o::Fixup const&, void const*, unsigned long long, std::__1::span<mach_o::MappedSegment const*, 18446744073709551615ul>) const;
 };

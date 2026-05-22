@@ -22,11 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (void)#;
 - (struct CGSize);
-- (id)ingTipShownUserDefaultKey;
-- (id)m;
-- (void)ìð;
+- (void);
+- (void)oat, CGRect, BOOL, TSUImage **, CGSize *);
+- (id)(¨;
+- (id)ÿ ;
 
 // Remaining properties
 @property(readonly) MTLRenderPassDescriptor *passDescriptor; // @synthesize passDescriptor=_passDescriptor;

@@ -4,7 +4,7 @@
 
 // Global C++ functions
 
-WBSCloudHistoryPushAgentMain();
+auto WBSCloudHistoryPushAgentMain();
 typeinfo name for EuclideanDistance;
 typeinfo name for MTFEMelodize;
 typeinfo name for TStrikeDescription;

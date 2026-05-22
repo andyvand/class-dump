@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)CardDeclaration_Status;
-+ (id)Labels;
-+ (Class);
-+ (id)þ= ¬;
++ (id);
++ (id)te:isMini:withFallback: /* Error: Ran out of types for this method. */;
++ (id)lor;
++ (Class);
 
 @end
 

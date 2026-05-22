@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSRecursiveLock *consistencyLock; // @synthesize consistencyLock=_consistencyLock;

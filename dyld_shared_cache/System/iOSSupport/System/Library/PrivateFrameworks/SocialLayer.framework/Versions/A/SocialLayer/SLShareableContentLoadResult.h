@@ -17,20 +17,20 @@
 
 + (id);
 + (_Bool);
-+ (id);
 + (_Bool);
++ (id)containerSetupInfo:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (Class);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) Class archivedObjectClass;

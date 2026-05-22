@@ -27,37 +27,38 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGSize);
-- (_Bool);
-- (_Bool)P;
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool)datesInTouchesMovedIsValid"b1"_deliversUpdatesInTouchesMoved"b1"_isPredictedTouch"b1"_didDispatchAsEnded"b1"_isPointerTouch"b1};
-- (id)dOrientationTransitionIfNecessaryInWindow:fromViewController:toViewController: /* Error: Ran out of types for this method. */;
-- (id)entifier:(struct CGSize)arg1;
-- (id)llowMenu;
-- (void)	
-;
-- (void)onizer :(_Bool)arg1 %{public}@;
-- (id)e.uikit.viewservice;
-- (void)inserting variant string:(_Bool)arg1 %@;
-- (void)g delayed presentation of <%s:(_Bool)arg1 %p>;
-- (void)lAttribute;
-- (id)Shadow;
-- (void)hen removing old search controller. Investigate if repro steps are available. Otherwise, ignore.;
-- (struct CGSize)wLayout",N,&;
-- (_Bool);
+- (id);
 - (void);
-- (void)þ;
+- (void)Ô!°!Gù^Ð1Â0@ù
+× ;
 - (void);
-- (double)tkãþ;
-- (CDStruct_2f5e8405)já];
-- (struct CGRect)¿'-_;
-- (id)ãb;
+- (_Bool)¡	Ð! GùñeÐ1Â0@ù
+× ;
+- (CDStruct_2f5e8405)1"editing"b1"editingHandle"I"rotationDisabled"I"isInNavigationBar"b1"delegateValueDidChange"b1"delegateStartValueDidChange"b1"delegateEndValueDidChange"b1"delegateWillBeginRequestingThumbnails"b1"delegateDidFinishRequestingThumbnails"b1"delegateWillBeginEditing"b1"delegateDidBeginEditing"b1"delegateDidCancelEditing"b1"delegateEditingAnimationFinished"b1"delegateWidthDeltaOriginXDelta"b1"delegateDidBeginAnimatingZoom"b1"delegateDidEndAnimatingZoom"b1"delegateWillZoom"b1"dataSourceRequestThumbnailImageIsSummmary"b1};
+- (_Bool)HighlightedTitleColor: /* Error: Ran out of types for this method. */;
+- (_Bool)round;
+- (struct CGRect)uchBarItem:(id)arg1;
+- (struct CGSize)validateContainerViewSize;
+- (id)oller: /* Error: Ran out of types for this method. */;
+- (id)gTabBarHost;
+- (_Bool)14AA6B49FCAFC5A54255A118E1D8720ButtonRepresentation11Coordinator;
+- (id)meline;
+- (void){;
+- (void)bSidebarContent"16^B24;
+- (void)nt.valueChange;
+- (void);
+- (void)Ähþÿ;
+- (id)É?;
+- (void);
+- (id);
+- (id)ä­ÿ;
+- (struct CGSize)`b;
+- (double)ÿÝõÚ(b;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize computedEstimatedSize;

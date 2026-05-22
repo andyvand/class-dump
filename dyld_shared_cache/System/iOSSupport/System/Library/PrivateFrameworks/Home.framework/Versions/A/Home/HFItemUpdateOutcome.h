@@ -17,17 +17,16 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)±	Ð1b0@ù
-× ;
+- (void)hÒtÒÜÓÕhÖ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allKeys;

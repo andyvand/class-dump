@@ -26,8 +26,8 @@
 - (long long);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)Future"16@?0@"NSAttributedString"8;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *badgeContainerView; // @synthesize badgeContainerView=_badgeContainerView;

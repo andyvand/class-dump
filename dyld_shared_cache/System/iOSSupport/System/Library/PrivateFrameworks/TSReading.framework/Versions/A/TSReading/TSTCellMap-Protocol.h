@@ -5,10 +5,6 @@
 //
 
 @protocol TSTCellMap
-- (void);
-- (void);
-- (CDStruct_0441cfb5);
-- (unsigned long long),V_anchorPointAnimationExists;
 
 // Remaining properties
 @property(nonatomic) _Bool appliesToHidden;

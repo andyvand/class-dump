@@ -26,28 +26,28 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _cellPadding;
 }
 
-- (_Bool)ber:countryCode:forChat:style:account:destinationCallerID:messageTime:silently: /* Error: Ran out of types for this method. */;
-- (void):(struct CGRect)arg1 activity: /* Error: Ran out of types for this method. */;
-- (void)entityUpdateNeeds;
-- (void)gCheck;
-- (void)nablementTo:(_Bool)arg1 result: /* Error: Ran out of types for this method. */;
-- (void)didAttemptToUpdateCloudKitEnablementTo:(struct CGRect)arg1 result: /* Error: Ran out of types for this method. */;
-- (void)chivedNicknames;
-- (void)"NSDate",C,D,N;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
-- (_Bool)0IMDiagnosticNotifierCSg;
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (struct CGRect);
 - (struct UIEdgeInsets);
 - (double);
-- (struct CGRect)DStickerStore;
-- (struct CGRect)cy Sticker folder at path %@, error %@;
-- (struct CGRect)user info:(struct CGRect)arg1 %@;
-- (int)nd;
-- (void)nt %d connection interrupted;
-- (void);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (int);
+- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -55,14 +55,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (void);
-- (_Bool);
 - (void);
-- (void)ÁÐ1¢!0@ù
-× ;
-- (int)panGestureRecognizer;
-- (id)ionEntered;
-- (void)MenuIsPrimary;
-- (id)DZl;
+- (int)ration;
+- (id)",R,N,V_selectedChoice;
+- (_Bool)ng new application key window on screen:(struct CGPoint)arg1 %{public}p;
+- (void)Àÿ±È;
+- (void)øÚ¨Wf;
+- (id)q~Õ@n;
 
 // Remaining properties
 @property(nonatomic) int adjustMode; // @synthesize adjustMode=_adjustMode;

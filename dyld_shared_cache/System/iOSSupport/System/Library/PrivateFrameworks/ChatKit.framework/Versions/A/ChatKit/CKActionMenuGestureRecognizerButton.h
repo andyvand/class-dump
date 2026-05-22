@@ -20,17 +20,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)note URI:(id)arg1 %s;
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)à/µÿÿÿÿÿð;
-- (id)__Qo_G_A38_Qo_tG;
-- (void)#î®SgGGSgQo_AOG_SSAWQo_Gùz?tG;
-- (id)d:%d highlighted:%d selected:%d /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)üüÿ1yYfðýÿôýÿP;
+- (void)°Fÿµküªÿ;
+- (id);
+- (id)Zÿ®\Xð0;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

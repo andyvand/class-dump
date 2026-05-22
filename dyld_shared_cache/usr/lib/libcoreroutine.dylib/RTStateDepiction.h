@@ -13,61 +13,64 @@
     RTStateDepictionOneState *_clusterState;
 }
 
-+ (long long);
 + (double);
-+ (_Bool)blic}d,timeSinceStart,%{public}.3lf;
-- (void)evice:(id)arg1 0x%x ID:0x%x /* Error: Ran out of types for this method. */;
-- (void);
++ (_Bool);
++ (long long)edForNotifications;
 - (double);
 - (void);
-- (void);
-- (void)ertificatePersistentReference;
+- (double);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id)rictTransportSecurity;
-- (id);
-- (void)gin-operation;
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (double);
-- (unsigned long long);
-- (id);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id)should be bigger than %u bytes.;
-- (void);
-- (id);
-- (void);
-- (id);
-- (double);
-- (void);
-- (id);
-- (id)ResetAll: /* Error: Ran out of types for this method. */;
-- (void)info;
 - (long long);
-- (id);
-- (id)a;
-- (id);
-- (id);
+- (double);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
 - (_Bool);
-- (long long)
+- (id);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long)0@ù
 × ;
-- (void)eDataTransformable) createWithManagedObject:(id)arg1 ];
-- (void)equired.;
-- (id)in %s:(id)arg1 %d);
+- (void)Â0@ù
+× ;
+- (unsigned long long)ùñB,Ð1Â0@ù
+× ;
+- (void)|Gù1C,ð1Â0@ù
+× ;
+- (void);
+- (void)ator:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)bucketed;
+- (id)with_uninterrupted_WiFi_connection_bucketed:is_iPhone:is_iPad:is_Watch: /* Error: Ran out of types for this method. */;
+- (id)cationsOfInterestFromLocation:(double)arg1 startDate:timeInterval:handler: /* Error: Ran out of types for this method. */;
+- (id)ateValidForSendingEndSessionMessage: /* Error: Ran out of types for this method. */;
+- (id)foreDriveMax;
+- (void)yStyling;
+- (void), 8!Ü"T#Ø&ÜÌ¦H§,« À;
+- (long long)À%;
+- (id);
+- (unsigned long long)orTimeSettled:overDuration:] /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (id)rVisitIdentifier no visit identifier provided, returning.;
+- (id)p session monitor, cache managers, and session manager;
+- (void)îÿ=&;
 
 // Remaining properties
 @property(retain, nonatomic) RTStateDepictionOneState *clusterState; // @synthesize clusterState=_clusterState;

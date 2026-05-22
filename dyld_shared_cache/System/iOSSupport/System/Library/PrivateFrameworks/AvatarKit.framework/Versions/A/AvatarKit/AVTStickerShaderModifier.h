@@ -22,21 +22,21 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)h;
-- (id);
-- (id)nt: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)lhair_beard_brett_HIGHLIGHTS.heic;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *data; // @synthesize data=_data;

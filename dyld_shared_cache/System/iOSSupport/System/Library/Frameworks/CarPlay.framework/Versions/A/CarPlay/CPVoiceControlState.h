@@ -12,19 +12,24 @@
     NSArray *_titleVariants;
     UIImage *_image;
     NSString *_identifier;
+    NSArray *_actionButtons;
 }
 
++ (long long);
 + (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
+@property(copy, nonatomic) NSArray *actionButtons; // @synthesize actionButtons=_actionButtons;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(readonly, nonatomic) _Bool repeats; // @synthesize repeats=_repeats;

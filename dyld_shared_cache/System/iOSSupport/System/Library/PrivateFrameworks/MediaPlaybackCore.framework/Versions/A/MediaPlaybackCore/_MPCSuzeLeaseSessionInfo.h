@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     MPCSuzeLeaseSession *_mpcLeaseSession;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id)T;
 - (id);
-- (void);
-- (void)ts | skipping progressiveSection [unresolved] %{public}@;
+- (id);
 - (long long);
+- (void);
+- (void)=Error;
 
 // Remaining properties
 @property(nonatomic) long long clientCount; // @synthesize clientCount=_clientCount;

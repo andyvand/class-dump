@@ -4,23 +4,23 @@
 
 class __gnu_debug::_Error_formatter::_Parameter {
 public: // (access info unavailable from symbols alone)
-    _M_print_description(__gnu_debug::_Error_formatter const*) const;
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const;
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.1);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.10);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.11);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.12);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.13);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.14);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.15);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.2);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.3);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.4);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.5);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.6);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.7);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.8);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.9);
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const::__constness_names;
-    _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const::__state_names;
+    auto _M_print_description(__gnu_debug::_Error_formatter const*) const;
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const;
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.1);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.10);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.11);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.12);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.13);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.14);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.15);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.2);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.3);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.4);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.5);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.6);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.7);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.8);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const (.cold.9);
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const::__constness_names;
+    auto _M_print_field(__gnu_debug::_Error_formatter const*, char const*) const::__state_names;
 };

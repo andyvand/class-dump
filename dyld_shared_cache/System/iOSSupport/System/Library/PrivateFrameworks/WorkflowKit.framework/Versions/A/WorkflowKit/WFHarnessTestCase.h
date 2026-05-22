@@ -31,12 +31,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)[;
+- (id);
+- (void)otification;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *automationType; // @synthesize automationType=_automationType;

@@ -16,23 +16,23 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _insets;
 }
 
-- (void)tionContextChangedForConversation:(_Bool)arg1 fromOldConversation: /* Error: Ran out of types for this method. */;
-- (void)Device:(double)arg1;
-- (void)nslation;
-- (double)T;
+- (void);
+- (void);
+- (void);
+- (double);
 - (id);
-- (double)h;
+- (double);
 - (_Bool);
 - (void);
-- (void)cords;
+- (void);
 - (id);
 - (void);
+- (id);
+- (void)40@0:(id)arg1 8@"UITraitCollection"16@"_UIViewControllerTransitionCoordinatorContextDescription"24B32B36;
+- (struct UIEdgeInsets)sAtIndexes:forKeyPath:context: /* Error: Ran out of types for this method. */;
+- (void)ForNewDateRange;
+- (id)lyingAlertAction;
 - (void);
-- (struct UIEdgeInsets)lay: /* Error: Ran out of types for this method. */;
-- (void)stopping feedback %@ for %@:(id)arg1 %@;
-- (id)ick1_2;
-- (id)@ but this environment does not provide a container for focus items.;
-- (void).ÄÇW#f;
 
 // Remaining properties
 @property(copy, nonatomic) UIVisualEffect *effect;

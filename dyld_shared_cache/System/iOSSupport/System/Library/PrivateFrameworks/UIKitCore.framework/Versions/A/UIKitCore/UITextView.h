@@ -23,6 +23,7 @@
     UIAutoscroll *_autoscroll;
     struct {
         unsigned int needsScrollToSelectionAfterLayout:1;
+        unsigned int disableScrollToSelectionOnBecomeFirstResponder:1;
         unsigned int editable:1;
         unsigned int reentrancyGuard:1;
         unsigned int usesExplicitPreferredMaxLayoutWidth:1;

@@ -7,10 +7,8 @@
 @class UIView;
 
 @protocol _UISelectionBandVisualProviding
-- (void);
-- (void)eight:(_Bool)arg1;
-- (_Bool)AutocorrectionGuesses;
-- (void)°;
+- (UIView *)tate:invalidatingPageCurl: /* Error: Ran out of types for this method. */;
+- (_Bool)scroller.;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled;

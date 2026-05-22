@@ -40,8 +40,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)pplier init];
 
 // Remaining properties
 @property(readonly, nonatomic) HUTriggerConditionEditorItemModule *conditionEditorModule; // @synthesize conditionEditorModule=_conditionEditorModule;

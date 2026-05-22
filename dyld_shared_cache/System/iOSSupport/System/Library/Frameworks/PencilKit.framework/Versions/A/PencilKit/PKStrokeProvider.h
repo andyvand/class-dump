@@ -45,8 +45,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)@"PKMathRecognitionToken",R,N,V_token;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

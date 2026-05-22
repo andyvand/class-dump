@@ -13,11 +13,11 @@
     MISSING_TYPE *stringValue;
 }
 
-+ (id)9Ç9È9 9TãrÉ;
-- (id)Ì;
-- (id)%EÉ;
-- (void);
++ (id);
 - (id);
+- (id);
+- (id);
+- (void).;
 
 @end
 

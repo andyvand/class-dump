@@ -5,8 +5,6 @@
 //
 
 @protocol _UIFloatingContentViewDelegate
-
-@optional
-- (void)Ô ;
+- (void)+;
 @end
 

@@ -15,10 +15,10 @@
     SXComponentDependencyDescriptor *_descriptor;
 }
 
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)TangierFlowRep";
 
 @end
 

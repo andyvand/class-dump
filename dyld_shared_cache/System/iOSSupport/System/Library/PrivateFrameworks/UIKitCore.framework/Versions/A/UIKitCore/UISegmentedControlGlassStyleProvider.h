@@ -16,18 +16,18 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (double)Discontinued;
-- (id)atorProcessingPipelineComponent;
 - (double);
-- (id)eItemCG;
-- (_Bool);
-- (_Bool);
 - (id);
-- (double)1¢!0@ù
+- (double);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (double);
+- (double)@ù
 × ;
-- (double)8@"WebView"16@"WebFrameView"24;
-- (_Bool)rackingBackdropView";
-- (double)nil;
+- (double)<NSCustomTextRendering>"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)lâã éäéëìì;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowFreeSelectionSliding;

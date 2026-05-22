@@ -4,9 +4,9 @@
 
 class capabilities::etl {
 public: // (access info unavailable from symbols alone)
-    DPLVersion();
-    DPLVersionForRadio(TelephonyRadio);
-    asString(capabilities::etl::MaverickIPALoopbackV2ParametersType);
-    getMaverickIPALoopbackV2ParametersType();
-    getMaverickIPALoopbackV2ParametersTypeForRadio(TelephonyRadio);
+    auto DPLVersion();
+    auto DPLVersionForRadio(TelephonyRadio);
+    auto asString(capabilities::etl::MaverickIPALoopbackV2ParametersType);
+    auto getMaverickIPALoopbackV2ParametersType();
+    auto getMaverickIPALoopbackV2ParametersTypeForRadio(TelephonyRadio);
 };

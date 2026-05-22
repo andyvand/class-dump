@@ -18,6 +18,10 @@
     MISSING_TYPE *shadow;
     MISSING_TYPE *tintColor;
     MISSING_TYPE *ignoresSmartInvertColors;
+    MISSING_TYPE *autoPlayback;
+    MISSING_TYPE *autoPictureInPicture;
+    MISSING_TYPE *playbackOverlay;
+    MISSING_TYPE *playbackRestriction;
 }
 
 @end

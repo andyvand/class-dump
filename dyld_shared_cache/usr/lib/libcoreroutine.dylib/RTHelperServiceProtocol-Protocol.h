@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, RTLocation;
-
 @protocol RTHelperServiceProtocol
-- (void);
-- (void)ceivedForSession:(RTLocation *)arg1 fromID:(double)arg2;
-- (void);
-- (void)al:(NSSet *)arg1;
-- (void)X;
+- (void)oiAnalyticsDictionarys;
+- (void);
+- (void)$à';
 @end
 

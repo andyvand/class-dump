@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<spake2plus_ctx_st, bssl::internal::Deleter> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](spake2plus_ctx_st*);
+    auto reset[abi:nqe210106](spake2plus_ctx_st*);
 };

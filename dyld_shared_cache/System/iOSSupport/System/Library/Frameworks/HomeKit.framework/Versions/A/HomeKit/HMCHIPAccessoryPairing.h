@@ -14,26 +14,26 @@
     NSUUID *_systemCommissionerPairingUUID;
 }
 
-+ (id)á¼âlã°ãøä;
-+ (_Bool)ngItem class]];
++ (id);
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)MediaContentProfileAccessControl;
-- (id)%@ update setting %@ with value %@;
+- (void)(4;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;

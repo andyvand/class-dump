@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView, UIView;
+
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)A;
-- (void)h;
-- (void)he;
+- (void)edTextForFittingSize:(UIScrollView *)arg1 boundsSize: /* Error: Ran out of types for this method. */;
+- (UIView *)erforming action for shortcut item:(UIScrollView *)arg1 %@;
 - (void);
-- (void)atItem;
-- (void)eRecipient;
-- (void)ÿ;
 @end
 

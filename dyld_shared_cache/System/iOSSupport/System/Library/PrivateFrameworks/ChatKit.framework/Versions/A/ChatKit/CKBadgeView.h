@@ -14,12 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
 - (void);
+- (struct CGSize);
 - (void);
-- (void);
-- (id)Ê;
-- (struct CGSize)ôØ;
+- (id);
+- (unsigned long long)1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *countLabel; // @synthesize countLabel=_countLabel;

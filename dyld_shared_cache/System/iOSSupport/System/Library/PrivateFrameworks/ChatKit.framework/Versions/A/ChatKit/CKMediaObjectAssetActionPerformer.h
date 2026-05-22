@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 - (void);
-- (void)cale;
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

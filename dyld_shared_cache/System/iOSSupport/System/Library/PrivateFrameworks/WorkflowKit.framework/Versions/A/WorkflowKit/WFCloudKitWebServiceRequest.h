@@ -20,17 +20,17 @@
 - (id);
 - (void);
 - (id);
-- (id)oreSpotlight.framework/Versions/A/CoreSpotlight;
 - (id);
 - (id);
 - (id);
-- (id)Ì;
-- (id)÷µÌ;
 - (id);
 - (id);
-- (void);
-- (id)a destination path.;
-- (id)File};
+- (id);
+- (id);
+- (id);
+- (id)a^;
+- (id)LinkAction.m;
+- (void)ressed WAV format.;
 
 // Remaining properties
 @property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;

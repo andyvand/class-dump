@@ -13,25 +13,25 @@
     long long _messageAcknowledgmentType;
 }
 
-- (_Bool)ndleWithIdentifier: /* Error: Ran out of types for this method. */;
-- (BOOL)anguage;
-- (long long),V_cachedControlViewForPlaceView;
-- (id);
-- (id);
+- (_Bool);
+- (BOOL);
 - (long long);
 - (id);
-- (struct CGSize)s;
-- (id)e;
-- (BOOL)tible;
+- (id);
+- (long long);
+- (id);
+- (struct CGSize);
+- (id);
+- (BOOL);
 - (BOOL);
 - (id);
 - (id);
 - (id);
-- (struct CKBalloonDescriptor_t)k!;
+- (struct CKBalloonDescriptor_t);
 - (id);
 - (long long);
 - (struct UIEdgeInsets);
-- (id)_defaultAnimationValues;
+- (id)pe;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *acknowledgmentImageColor;

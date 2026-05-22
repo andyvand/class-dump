@@ -31,9 +31,9 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)Flow "%@" processing results %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

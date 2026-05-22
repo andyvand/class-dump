@@ -13,9 +13,9 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) TUIPredictionViewCell *cellView; // @synthesize cellView=_cellView;

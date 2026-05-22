@@ -32,9 +32,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)erView:(_Bool)arg1;
+- (id);
+- (void)ServiceCG;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView<HUQuickControlInteractiveView> *controlView; // @dynamic controlView;

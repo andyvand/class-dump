@@ -26,15 +26,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)lable;
+- (id)Wrong layer type;
+- (id)eringHighLatencyScheduler;
 
 // Remaining properties
 @property(copy) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;

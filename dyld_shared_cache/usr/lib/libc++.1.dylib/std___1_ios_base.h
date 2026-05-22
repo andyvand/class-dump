@@ -4,23 +4,23 @@
 
 class std::__1::ios_base {
 public: // (access info unavailable from symbols alone)
-    __call_callbacks(std::__1::ios_base::event);
-    __set_badbit_and_consider_rethrow();
-    __set_failbit_and_consider_rethrow();
-    clear(unsigned int);
-    copyfmt(std::__1::ios_base const&);
-    getloc() const;
-    imbue(std::__1::locale const&);
-    init(void*);
-    iword(int);
-    iword(int)::error;
-    move(std::__1::ios_base&);
-    pword(int);
-    pword(int)::error;
-    register_callback(void (*)(std::__1::ios_base::event, std::__1::ios_base&, int), int);
-    swap(std::__1::ios_base&);
-    sync_with_stdio(bool);
-    sync_with_stdio(bool)::previous_state;
-    xalloc();
+    auto __call_callbacks(std::__1::ios_base::event);
+    auto __set_badbit_and_consider_rethrow();
+    auto __set_failbit_and_consider_rethrow();
+    auto clear(unsigned int);
+    auto copyfmt(std::__1::ios_base const&);
+    auto getloc() const;
+    auto imbue(std::__1::locale const&);
+    auto init(void*);
+    auto iword(int);
+    auto iword(int)::error;
+    auto move(std::__1::ios_base&);
+    auto pword(int);
+    auto pword(int)::error;
+    auto register_callback(void (*)(std::__1::ios_base::event, std::__1::ios_base&, int), int);
+    auto swap(std::__1::ios_base&);
+    auto sync_with_stdio(bool);
+    auto sync_with_stdio(bool)::previous_state;
+    auto xalloc();
     ~ios_base();
 };

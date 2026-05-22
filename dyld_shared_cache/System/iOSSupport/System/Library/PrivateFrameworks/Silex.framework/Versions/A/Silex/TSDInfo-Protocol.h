@@ -8,9 +8,6 @@
 @protocol TSDContainerInfo, TSDOwningAttachment;
 
 @protocol TSDInfo
-- (void);
-- (Class);
-- (NSObject<TSDContainerInfo> *);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText;

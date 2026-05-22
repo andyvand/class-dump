@@ -14,10 +14,10 @@
 
 - (id);
 - (id);
-- (void);
-- (struct CGPoint);
 - (id);
-- (struct CGPoint):(id)arg1 ,V__maskView;
+- (struct CGPoint);
+- (struct CGPoint);
+- (void)ntationLoadingOperationsByAssetUUIDs;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;

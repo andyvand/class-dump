@@ -4,6 +4,9 @@
 
 class lsl::Vector<dyld_aot_image_info> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
+    auto erase(dyld_aot_image_info*);
+    auto erase(dyld_aot_image_info*, dyld_aot_image_info*);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
+    dyld_aot_image_info* insert<std::__1::__wrap_iter<dyld_aot_image_info const*>>(dyld_aot_image_info const*, std::__1::__wrap_iter<dyld_aot_image_info const*>, std::__1::__wrap_iter<dyld_aot_image_info const*>);
 };

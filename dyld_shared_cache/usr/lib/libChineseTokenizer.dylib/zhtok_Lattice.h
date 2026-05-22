@@ -4,6 +4,6 @@
 
 class zhtok::Lattice {
 public: // (access info unavailable from symbols alone)
-    clear();
-    insert(unsigned long, zhtok::LatticeWord*);
+    auto clear();
+    auto insert(unsigned long, zhtok::LatticeWord*);
 };

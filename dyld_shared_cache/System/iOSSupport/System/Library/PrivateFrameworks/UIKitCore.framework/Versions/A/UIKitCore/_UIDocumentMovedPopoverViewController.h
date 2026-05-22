@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long)ID:(id)arg1;
-- (void)queryID: /* Error: Ran out of types for this method. */;
+- (long long);
 - (void);
 - (void);
-- (void)þÿÿÿÿ;
+- (id)ight;
 - (void);
-- (id);
-- (id);
+- (void)õCÖ<\;
+- (id)q;
+- (void)ÍÖDÇc;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

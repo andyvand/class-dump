@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, UITableViewCell, _UITableViewDropAnimationContainerView;
-
 @protocol _UITableViewDragControllerDelegate
-- (void);
-- (_UITableViewDropAnimationContainerView *)emonDisconnected:(UITableViewCell *)arg1;
-- (void)setDeferredRebuildGUIDs:(UITableViewCell *)arg1;
-- (void)yncType:(NSOrderedSet *)arg1;
-- (_Bool)te;
-- (void)singDescriptors:(NSOrderedSet *)arg1 limit:completionHandler: /* Error: Ran out of types for this method. */;
 @end
 

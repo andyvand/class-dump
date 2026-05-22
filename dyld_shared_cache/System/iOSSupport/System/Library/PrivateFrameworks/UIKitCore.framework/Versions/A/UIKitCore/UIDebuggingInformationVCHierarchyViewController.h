@@ -15,20 +15,19 @@ __attribute__((visibility("hidden")))
     UITableView *_tableView;
 }
 
-- (long long)agePartIndexes;
-- (id)%@;
 - (long long);
 - (id);
-- (void);
 - (id);
-- (void)pð!Eù±ÂÐ1¢!0@ù
-× ;
-- (void)@"UIEvent"40;
-- (id)pdateItem:withSnapshot: /* Error: Ran out of types for this method. */;
-- (void)essure:(id)arg1;
-- (void)i;
-- (id)ÿy}Úúj;
-- (void)Èhÿîm;
+- (id);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (id)enumerateSupplementariesOfElementKind:enumerator: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)l;
+- (void)ÿêÙèOk;
+- (id)¤#n;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *data; // @synthesize data=_data;

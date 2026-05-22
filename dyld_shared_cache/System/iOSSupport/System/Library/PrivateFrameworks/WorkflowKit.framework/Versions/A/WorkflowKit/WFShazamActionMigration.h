@@ -12,8 +12,8 @@
 
 + (_Bool);
 - (void);
-- (void);
 - (id);
+- (void)Get Details of Parked Car (Action Name);
 
 @end
 

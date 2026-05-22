@@ -13,10 +13,10 @@
 }
 
 - (void);
-- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) __weak CNAtomView<CNChevronButtonMenuDelegate> *delegateView; // @synthesize delegateView=_delegateView;

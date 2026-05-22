@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @protocol UIScrollViewDelegate
-
-@optional
-- (UIView *);
-- (void)sibleTileRect;
-- (void)ù
-× ;
 @end
 

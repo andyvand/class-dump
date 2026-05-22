@@ -35,14 +35,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id)odule;
-- (_Bool)PowerModeSelectionSectionFooterTitle;
-- (void)le:(id)arg1 ];
-- (void);
+- (id);
+- (id)stModule;
+- (void)alNetworkReconfiguration;
+- (void)Diagnostics;
+- (_Bool)H;
+- (void)ÿküÔ¼;
 
 // Remaining properties
 @property(readonly, nonatomic) HULayoutContainerView *avatarContainerView; // @synthesize avatarContainerView=_avatarContainerView;

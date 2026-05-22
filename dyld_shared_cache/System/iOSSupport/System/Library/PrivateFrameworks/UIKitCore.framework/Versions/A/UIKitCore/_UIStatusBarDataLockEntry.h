@@ -11,16 +11,15 @@
     long long _unlockFailureCount;
 }
 
-+ (_Bool)ÌâÀÿ;
-- (void)P;
-- (unsigned long long);
-- (_Bool)*P*;
++ (_Bool)e calling out to a method prefixed with '_safari_' but it looks like you are not Safari. I mean... what did you expect to happen?;
+- (void);
 - (id);
-- (id);
-- (id)!qÐ!<Bù1Ä1¢!0@ù
-× ;
-- (void)agerBinding;
 - (long long);
+- (unsigned long long);
+- (_Bool)=dd}}16B48@52;
+- (void)DidMoveToWindow:(id)arg1;
+- (id)inesAtPoint: /* Error: Ran out of types for this method. */;
+- (id)lly;
 
 // Remaining properties
 @property(nonatomic) long long unlockFailureCount; // @synthesize unlockFailureCount=_unlockFailureCount;

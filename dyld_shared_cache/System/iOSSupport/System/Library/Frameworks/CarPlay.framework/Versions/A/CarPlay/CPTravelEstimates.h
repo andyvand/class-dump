@@ -27,12 +27,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (double);
-- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMeasurement *distanceRemaining; // @synthesize distanceRemaining=_distanceRemaining;

@@ -45,21 +45,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id)!ø@ùq|1b0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)0@ù
 × ;
-- (id)ectUpdates;
-- (void)ÔÈo;
-- (id)forceReviewMorePhotosInterimLoading;
-- (id)à4;
-- (id);
+- (void)e command to %@.;
+- (void)UseNavigationStack is enabled;
+- (id)tions:resultHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)`;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXDisplayAsset> asset;

@@ -4,6 +4,6 @@
 
 class std::__1::unordered_set<unsigned long, std::__1::hash<unsigned long>, std::__1::equal_to<unsigned long>, std::__1::allocator<unsigned long>> {
 public: // (access info unavailable from symbols alone)
+    auto ~unordered_set[abi:nqe210106]();
     unordered_set(std::__1::unordered_set<unsigned long, std::__1::hash<unsigned long>, std::__1::equal_to<unsigned long>, std::__1::allocator<unsigned long>> const&);
-    ~unordered_set[abi:ne200100]();
 };

@@ -17,18 +17,18 @@
 - (void);
 - (struct UIEdgeInsets);
 - (void);
-- (void)X;
-- (void);
-- (double)Observer;
 - (void);
 - (void);
-- (id)@;
+- (double);
+- (void);
 - (void);
 - (id);
-- (id)V_animationDelegate;
-- (id)¿ÿÿ;
+- (id);
+- (id);
 - (void);
-- (_Bool)Pï44-;
+- (id);
+- (void)ì®#ÿ1$;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;

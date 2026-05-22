@@ -24,13 +24,13 @@
 - (void);
 - (id);
 - (id);
-- (id)|;
-- (void);
 - (id);
 - (void);
 - (id);
-- (void)invalidateHeaderMeasurements;
-- (id)strong, __strong id<PXPhotosCustomSectionBodyLayoutProvider>);
+- (id);
+- (void);
+- (void);
+- (id)ategy;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

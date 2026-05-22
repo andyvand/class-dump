@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIBackgroundConfiguration, UIButtonConfiguration, UIColor, UIImage, UIImageSymbolConfiguration;
-@protocol _UIButtonConfigurationShim;
+@class NSAttributedString, NSString, UIBackgroundConfiguration, UIColor, UIImage, UIImageSymbolConfiguration;
 
 @protocol _UIButtonConfigurationShim
+- (NSString *);
+- (_Bool)ð1Â0@ù
+× ;
+- (long long)
+× ;
+- (UIImage *)age=}48@0:8{CGSize=dd}16d32@40 /* Error: Ran out of types for this method. */;
+- (long long)xPathForIdentifier: /* Error: Ran out of types for this method. */;
+- (id)accessoryViewHorizontalAlignment;
+- (_Bool)tterShadow;
+- (void)ailingWidth;
+- (long long)napshotViewStart;
+- (double)V_pasteResult;
+- (UIColor *)nputViewController",&,N,V_assistantViewController;
+- (UIColor *)h^;
+- (NSAttributedString *)service when there isn't text; _UITextServiceSessionContext.textWithContext is nil.;
+- (_Bool)ere's a request to install the Keyboard Camera grabber when it already exists;
+- (long long)CADisplayLink was invalidated;
 - (long long);
-- (NSAttributedString *);
-- (long long)`;
-- (double)s:withIncludeNetworkUser:withHideAdminUsers:withSHOWOTHERUSERSMANAGED:withAdminHostInfo:withAllowList:withDenyList:withHideMobileAccounts:withShutDownDisabled:withRestartDisabled:withSleepDisabled:withDisableConsoleAccess:withLoginwindowText:withShutDownDisabledWhileLoggedIn:withRestartDisabledWhileLoggedIn:withPowerOffDisabledWhileLoggedIn:withLogOutDisabledWhileLoggedIn:withDisableScreenLockImmediate: /* Error: Ran out of types for this method. */;
-- (_Bool)itleIsEquation;
-- (UIImage *)b;
-- (double)ForResults:| skipping result [empty identifiers] result=%@ /* Error: Ran out of types for this method. */;
-- (NSString *);
-- (NSAttributedString *);
-- (UIImageSymbolConfiguration *)!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (long long)¢!0@ù
-× ;
-- (UIImage *)ormDelegate";
-- (_Bool)IDs;
-- (NSAttributedString *)ed;
-- (UIButtonConfiguration *)customCornerRadius;
-- (_Bool)wsTextAnimationsType;
-- (UIImageSymbolConfiguration *)Controller>",R,N;
-- (double)@"_UIRemoteViewService",R,N;
-- (long long)	H
-;
-- (UIImage *)nWidthFraction = %g;
-- (UIColor *);
-- (void)inerView;
-- (unsigned long long)aleFactor;
-- (long long)ÿ;
-- (id <_UIButtonConfigurationShim>)pe Actions Provider;
-- (UIBackgroundConfiguration *)ation's delegateClass must conform to UISceneDelegate protocol;
-- (long long)Ç719´4X;
-- (id)[¹;
+- (UIImage *);
+- (NSString *)ProgressWindowSuppressed;
+- (_Bool)nknown;
+- (NSAttributedString *)opStyle;
+- (UIBackgroundConfiguration *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedSubtitle;

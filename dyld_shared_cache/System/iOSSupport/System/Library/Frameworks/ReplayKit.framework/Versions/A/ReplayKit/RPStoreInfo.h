@@ -21,12 +21,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id)processPayload:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *appArtworkURL; // @synthesize appArtworkURL=_appArtworkURL;

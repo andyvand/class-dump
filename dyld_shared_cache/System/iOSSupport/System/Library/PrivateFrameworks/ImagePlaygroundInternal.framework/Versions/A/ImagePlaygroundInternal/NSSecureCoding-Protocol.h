@@ -5,6 +5,5 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)e, skin tone, and accessories may vary.;
 @end
 

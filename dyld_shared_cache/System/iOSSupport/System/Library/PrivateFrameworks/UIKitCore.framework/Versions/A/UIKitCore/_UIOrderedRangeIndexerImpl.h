@@ -4,5 +4,5 @@
 
 class _UIOrderedRangeIndexerImpl {
 public: // (access info unavailable from symbols alone)
-    binarySearchForLocation(long) const;
+    auto binarySearchForLocation(long) const;
 };

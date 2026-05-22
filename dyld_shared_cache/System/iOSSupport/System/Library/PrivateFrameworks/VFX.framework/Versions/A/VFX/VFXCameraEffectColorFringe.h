@@ -13,19 +13,18 @@
 }
 
 + (id);
-+ (_Bool)À";
++ (_Bool)StitchedLibraryDescriptor"16^@24;
 - (struct __CFXCameraEffectColorFringe *);
 - (void);
 - (void);
 - (void *);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (float);
-- (float)	
-;
+- (float);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) float intensity;

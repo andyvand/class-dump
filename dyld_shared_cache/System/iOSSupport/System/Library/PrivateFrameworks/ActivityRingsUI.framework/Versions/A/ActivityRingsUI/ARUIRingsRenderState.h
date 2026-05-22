@@ -26,8 +26,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long centeredAroundPercentSegmentDrawCount; // @synthesize centeredAroundPercentSegmentDrawCount=_centeredAroundPercentSegmentDrawCount;

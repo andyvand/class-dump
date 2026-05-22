@@ -14,14 +14,13 @@
 
 + (id);
 - (id);
-- (void)s:(id)arg1 %@;
+- (void);
 - (id);
-- (void)0@ù
-× ;
-- (void)PhaseChangeDelegate: /* Error: Ran out of types for this method. */;
-- (id)th;
-- (void)e f;
-- (id)0ÁÞÿ;
+- (void)ContentsForCIImageBackedImage: /* Error: Ran out of types for this method. */;
+- (id)|i\;
+- (id)ÿl%Ê¸õk;
+- (void)Tdíþ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) _TtC5UIKit38_UITabCrossFadeTransitionAnimationSpec *compact; // @synthesize compact;

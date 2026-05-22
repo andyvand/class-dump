@@ -11,9 +11,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)BarState: /* Error: Ran out of types for this method. */;
-+ (id)ect_SS8property¾;
-+ (unsigned long long)1äÿG;
++ (id);
++ (id)animation is not supported when rotating more than one view controller or view controllers not the window delegate;
++ (unsigned long long)pIÿuüËpÂg;
 
 @end
 

@@ -13,15 +13,15 @@
 }
 
 + (id);
-- (void):(long long)arg1 overrideSegmentSetIDs:(long long)arg2 additionalSegmentSetIDs:(long long)arg3 configurationSource:debugEnvironment:ignoreCache:enableExtraLogs: /* Error: Ran out of types for this method. */;
-- (void)Handler:(long long)arg1;
-- (void)_isEarlierThan:(long long)arg1 withPrecision: /* Error: Ran out of types for this method. */;
-- (void)Index:(struct CGPoint)arg1;
-- (void)_identifier;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)straint;
 
 @end
 

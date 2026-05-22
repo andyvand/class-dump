@@ -16,13 +16,13 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *representations; // @synthesize representations=_representations;

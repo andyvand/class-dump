@@ -11,8 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)rPageBackgroundColor;
-- (id)k;
+- (id);
+- (id)
+°!GùgÐ1Â0@ù
+× ;
 
 @end
 

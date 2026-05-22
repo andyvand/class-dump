@@ -18,7 +18,7 @@
     NSMutableArray *_fetchedObjects;
 }
 
-+ (id)MEventTriggerBuilder;
++ (id)BF7036FD-93CF-49B5-954F-CD2B760D11DA;
 - (void);
 - (id);
 - (void);
@@ -27,14 +27,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ñlãá;
+- (id);
+- (void);
+- (void)deleteSiriHistoryWithCompletion:(id)arg1 ];
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;

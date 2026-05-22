@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Category: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *additionalAttributes; // @synthesize additionalAttributes=_additionalAttributes;

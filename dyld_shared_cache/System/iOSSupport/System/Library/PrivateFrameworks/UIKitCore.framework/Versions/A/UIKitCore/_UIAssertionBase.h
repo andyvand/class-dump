@@ -18,17 +18,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)n modified, changing it from %@ to %@. Are we in exit state ? %@;
-- (void)ors;
-- (id)s"b1"hasTimeSyncedLyrics"b1"hasDownloadedCatalogLyrics"b1}};
+- (id);
 - (void);
-- (void)v`¬;
-- (void)tion:(id)arg1;
-- (id)tracking:dampingRatioSmoothing:responseSmoothing:targetSmoothing:projectionDeceleration:retargetImpulse:animations:completion: /* Error: Ran out of types for this method. */;
-- (id)ation:,V_keepTouchesOnContinuation /* Error: Ran out of types for this method. */;
-- (_Bool)a presentation is in progress.;
-- (_Bool)ntallyFlipped = YES; ;
-- (unsigned long long)ReplyCandidateOperations;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)!4AùQe°1Â0@ù
+× ;
+- (_Bool)ent from file at URL <%@>:no document class found. Define the correct UIDocument subclass with the key UIDocumentClass in the info.plist's CFBundleDocumentTypes dictionary. /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)GVb;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

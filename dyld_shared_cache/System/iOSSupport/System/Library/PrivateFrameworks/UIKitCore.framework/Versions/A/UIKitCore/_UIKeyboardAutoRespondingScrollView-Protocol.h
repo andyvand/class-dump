@@ -5,7 +5,6 @@
 //
 
 @protocol _UIKeyboardAutoRespondingScrollView
-- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_keepsFirstResponderVisibleOnBoundsChange, setter=_setKeepsFirstResponderVisibleOnBoundsChange:) _Bool keepsFirstResponderVisibleOnBoundsChange;

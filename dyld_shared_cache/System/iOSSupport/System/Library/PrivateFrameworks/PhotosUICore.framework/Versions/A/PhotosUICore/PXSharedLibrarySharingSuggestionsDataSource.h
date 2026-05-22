@@ -22,12 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 - (long long);
-- (id);
-- (void)ntCurationKind;
-- (long long)to PHImportSourceObserver;
+- (id)lPhotosToggleFullFramesActionTitle;
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *aggregateBeforeDate; // @synthesize aggregateBeforeDate=_aggregateBeforeDate;

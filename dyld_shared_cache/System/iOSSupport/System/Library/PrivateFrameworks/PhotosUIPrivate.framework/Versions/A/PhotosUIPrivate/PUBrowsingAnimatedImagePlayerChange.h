@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)Ã$Ày5HG;
+- (_Bool)troller _startActivityIndicatorsForAssetsWithIdentifiers:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setAnimatedImageDidChange:) _Bool animatedImageDidChange; // @synthesize animatedImageDidChange=_animatedImageDidChange;

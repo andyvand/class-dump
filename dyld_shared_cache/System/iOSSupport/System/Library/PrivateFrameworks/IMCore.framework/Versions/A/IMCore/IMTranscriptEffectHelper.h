@@ -9,18 +9,18 @@
 }
 
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool)Camera;
 + (void);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (_Bool);
++ (id);
++ (_Bool);
++ (id);
++ (_Bool);
++ (id);
 + (_Bool);
 
 @end

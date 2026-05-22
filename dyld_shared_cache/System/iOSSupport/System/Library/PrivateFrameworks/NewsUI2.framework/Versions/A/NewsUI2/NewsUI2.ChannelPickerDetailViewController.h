@@ -12,16 +12,17 @@
     MISSING_TYPE *eventHandler;
     MISSING_TYPE *blueprintViewController;
     MISSING_TYPE *model;
+    MISSING_TYPE *pickerType;
 }
 
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)1áÿÄ1áÿÐ2áÿÜ2áÿP3áÿô3áÿ4áÿì5áÿx6áÿ¬6áÿø6áÿ7áÿä7áÿ8áÿd8áÿ 8áÿÄ8áÿ9áÿ <áÿÄ<áÿ;
+- (void);
+- (void);
+- (void);
+- (void);
 
 @end
 

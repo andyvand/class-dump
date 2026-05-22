@@ -5,8 +5,5 @@
 //
 
 @protocol PXEventCoalescerObserver
-
-@optional
-- (void);
 @end
 

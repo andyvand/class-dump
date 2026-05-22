@@ -21,16 +21,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool)econdaryLabelColor;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) LNAction *action; // @synthesize action=_action;

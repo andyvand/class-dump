@@ -14,7 +14,7 @@
     SMMadridMessenger *_madridMessenger;
 }
 
-+ (void)h;
++ (void);
 + (_Bool);
 + (_Bool);
 - (void);
@@ -26,11 +26,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)w;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,13 +42,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (id)ingTripSegmentInCurrentCountry;
+- (void)llowed based on region check,%@,startCoordinate,%{sensitive}.7lf,%{sensitive}.7lf,stopCoordinate,%{sensitive}.7lf,%{sensitive}.7lf;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

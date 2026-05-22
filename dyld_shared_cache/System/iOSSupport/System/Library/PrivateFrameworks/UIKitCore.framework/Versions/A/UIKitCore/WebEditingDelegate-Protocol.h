@@ -5,8 +5,5 @@
 //
 
 @protocol WebEditingDelegate
-
-@optional
-- (_Bool);
 @end
 

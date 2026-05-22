@@ -4,5 +4,5 @@
 
 class bssl::InplaceVector<bssl::DTLS_OUTGOING_MESSAGE, 7ul> {
 public: // (access info unavailable from symbols alone)
-    TryPushBack(bssl::DTLS_OUTGOING_MESSAGE);
+    auto TryPushBack(bssl::DTLS_OUTGOING_MESSAGE);
 };

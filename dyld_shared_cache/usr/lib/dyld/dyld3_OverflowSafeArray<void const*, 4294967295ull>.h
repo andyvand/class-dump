@@ -4,9 +4,9 @@
 
 class dyld3::OverflowSafeArray<void const*, 4294967295ull> {
 public: // (access info unavailable from symbols alone)
-    growTo(unsigned long long);
-    growTo(unsigned long long) (.cold.1);
-    operator[](unsigned long long);
-    push_back(void const* const&);
-    push_back(void const*&&);
+    auto growTo(unsigned long long);
+    auto growTo(unsigned long long) (.cold.1);
+    auto operator[](unsigned long long);
+    auto push_back(void const* const&);
+    auto push_back(void const*&&);
 };

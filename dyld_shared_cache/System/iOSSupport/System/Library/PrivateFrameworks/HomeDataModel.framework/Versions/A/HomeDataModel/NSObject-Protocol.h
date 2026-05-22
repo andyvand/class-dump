@@ -7,16 +7,8 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long)@@Ü@AABLBBØCHD;
-
-@optional
-- (NSString *)ä<dÌ4dÌ,dÔDtÔDl¤Ì	,	d		Ì	
-<
-t
-¤
-Ì
-ô
-,T|¤ÌôL|¬ÜDl¼ä4l¼äL|¤Ìô$L|;
+- (_Bool)ÿÿÿÿ;
+- (struct _NSZone *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,8 +15,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (double);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *fontTextStyle; // @synthesize fontTextStyle=_fontTextStyle;

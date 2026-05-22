@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
     UIVibrancyEffect *_titleVibrancyEffect;
 }
 
-- (id)nRepresentation;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -25,21 +25,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)pl;
 - (void);
 - (id);
 - (void);
-- (id)!AùñÅð1¢!0@ù
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id)1Â0@ù
 × ;
-- (_Bool)erDidUncover: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)ö;
+- (id)!ý°!@ùÑð1Â0@ù
+× ;
+- (void);
+- (void)ðZG_Qo_÷ÕZyæZGG®ë;
+- (void)ExtensionVersion;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

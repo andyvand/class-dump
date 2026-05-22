@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)f1º;
+- (void)@c;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *option; // @synthesize option=_option;

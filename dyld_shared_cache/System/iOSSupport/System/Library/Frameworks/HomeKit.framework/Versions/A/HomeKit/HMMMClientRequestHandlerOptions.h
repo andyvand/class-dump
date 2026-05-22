@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)itWithError: /* Error: Ran out of types for this method. */;
+- (void)¼ÛÜ;
+- (id)Update is a required parameter;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;

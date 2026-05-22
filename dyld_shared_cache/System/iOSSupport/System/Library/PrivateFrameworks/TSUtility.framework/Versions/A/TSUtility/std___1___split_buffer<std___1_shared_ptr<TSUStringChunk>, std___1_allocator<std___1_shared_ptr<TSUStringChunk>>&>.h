@@ -4,6 +4,7 @@
 
 class std::__1::__split_buffer<std::__1::shared_ptr<TSUStringChunk>, std::__1::allocator<std::__1::shared_ptr<TSUStringChunk>>&> {
 public: // (access info unavailable from symbols alone)
-    clear[abi:ne200100]();
+    auto clear[abi:nqe210106]();
+    void emplace_back<std::__1::shared_ptr<TSUStringChunk> const&>(std::__1::shared_ptr<TSUStringChunk> const&);
     ~__split_buffer();
 };

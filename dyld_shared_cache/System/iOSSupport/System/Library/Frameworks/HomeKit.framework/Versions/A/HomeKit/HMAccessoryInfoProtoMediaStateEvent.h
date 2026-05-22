@@ -32,24 +32,25 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
 - (double);
+- (id);
+- (id);
 - (void);
-- (void)or home uuid:(_Bool)arg1 %@;
-- (long long)t"8;
+- (void)1B50@ù
+× ;
+- (_Bool)sUuid;
+- (void)%@ service type %@;
+- (_Bool)%@ allowHeySiri:%@ isAirPlayEnabled:%@ playbackInfluencesForYouEnabled:%@ shareSiriAnalyticsEnabled:%@ explicitContentAllowed:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMediaIdentifier;

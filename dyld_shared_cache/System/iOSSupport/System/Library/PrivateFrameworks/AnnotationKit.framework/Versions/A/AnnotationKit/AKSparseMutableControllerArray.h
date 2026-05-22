@@ -13,18 +13,18 @@
 
 - (_Bool);
 - (void);
-- (void)`>;
-- (void);
 - (id);
-- (void)JS.textFieldOrSelectElementMetadata(t,WBSFormMetadataRequestNormal,!0);a&&window.webkit.messageHandlers.controller.postMessage({name:"elementBlurred",focusedElementMetadata:a,formMetadata:o})}inputEventHandler(e){const t=FocusManager.#o(e);if(!t)return;let[a,o]=FormMetadataJS.textFieldOrSelectElementMetadata(t,WBSFormMetadataRequestTextChange,!0);a&&(this.jsController.populateRectFieldsInFormElementMetadata(a,t),window.webkit.messageHandlers.controller.postMessage({name:"elementInput",focusedElementMetadata:a,formMetadata:o}))}submitEventHandler(e){const t=e.target,a=this.jsController.getMetadataForForm(t);t.setUserInfo(a)}}class AutoFillButtonManager{jsController;constructor(e){this.jsController=e}addEventListeners(){document.addEventListener("webkitautofillrequest",this.webKitAutofillRequestEventHandler.bind(this),{capture:!0})}webKitAutofillRequestEventHandler(e){const t=e.target;let[a,o]=this.jsController._getMetadataForControl(t,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"manualAutoFillRequest",focusedElementMetadata:a,formMetadata:o})}}let formMetadataJSController=new FormMetadataJSController; /* Error: Ran out of types for this method. */;
-- (void);
 - (void);
-- (void);
-- (id)?	;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (id)<ûÿ½Y*K;
 
 @end
 

@@ -4,10 +4,12 @@
 
 class std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>> {
 public: // (access info unavailable from symbols alone)
+    auto rdbuf() const;
+    auto str() const;
+    auto str(std::string const&);
     basic_stringstream(std::_Ios_Openmode);
     basic_stringstream(std::string const&, std::_Ios_Openmode);
-    rdbuf() const;
-    str() const;
-    str(std::string const&);
+    non-virtual thunk to ~basic_stringstream();
+    virtual thunk to ~basic_stringstream();
     ~basic_stringstream();
 };

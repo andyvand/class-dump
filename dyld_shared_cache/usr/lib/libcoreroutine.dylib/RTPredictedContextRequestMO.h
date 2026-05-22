@@ -11,8 +11,8 @@
 }
 
 + (id);
-+ (id);
-+ (id)<ô`;
++ (id);
++ (id);
 
 // Remaining properties
 @property(nonatomic) long long clientCount; // @dynamic clientCount;

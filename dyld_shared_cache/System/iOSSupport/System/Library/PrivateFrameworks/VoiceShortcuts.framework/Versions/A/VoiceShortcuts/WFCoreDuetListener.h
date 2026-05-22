@@ -30,16 +30,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)ggerWithIdentifier:pendingTriggerEventIDs:]_block_invoke_2 /* Error: Ran out of types for this method. */;
-- (id)ider;
+- (id);
+- (id);
+- (void);
+- (id)changed, resetting flags for sync unavailable message;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFDatabaseProvider> databaseProvider; // @synthesize databaseProvider=_databaseProvider;

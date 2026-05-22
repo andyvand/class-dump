@@ -11,12 +11,12 @@
 
 + (id);
 + (void);
-+ (id)(X;
++ (id);
 + (id);
 + (id);
 - (void);
 - (id);
-- (id)k;
+- (id);
 
 @end
 

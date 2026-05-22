@@ -26,18 +26,18 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
 - (_Bool);
+- (unsigned long long);
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long dayNumber; // @synthesize dayNumber=_dayNumber;

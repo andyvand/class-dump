@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)n;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

@@ -17,25 +17,24 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool)@;
 - (id);
 - (id);
 - (void);
-- (id);
 - (_Bool);
-- (_Bool)ersion;
 - (id);
-- (id)tEnumerationResult;
-- (struct CGPoint);
-- (void);
-- (id)0@ù
-× ;
-- (id)rderControlsForCell:inTableView: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ableViewOrientation:duration:force: /* Error: Ran out of types for this method. */;
-- (void)ze:(long long)arg1 {%0.f, %0.f}];
+- (id)owCandidateAtIndex:(id)arg1;
+- (_Bool)setStateToRecognized;
+- (id):(id)arg1 animated:(struct CGPoint)arg2;
+- (id)dContent;
+- (id)isplayingVerticalSelection;
+- (_Bool)uledDoubleTapActionIfNecessary;
+- (struct CGRect)V_accessoryOffset;
+- (void)nt;
 - (id);
-- (struct CGRect);
+- (struct CGPoint)emForMeasuring;
+- (id)"8;
+- (void)h+ÕäÒ];
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasInvalidatedItems;

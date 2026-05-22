@@ -38,86 +38,88 @@ __attribute__((visibility("hidden")))
     struct CGPoint _cursorLocationBase;
 }
 
-+ (id)!q;
-- (double);
++ (id)ÌVáÿµÎ@k;
 - (void);
-- (struct CGPoint);
-- (_Bool);
-- (_Bool)P;
-- (_Bool)alcChecksum;
+- (void);
 - (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (struct CGPoint);
 - (void);
-- (void);
+- (id);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (_Bool);
 - (Class);
 - (_Bool);
-- (id)ws;
-- (void);
-- (void)stShareURL__MAPPING_MISSING__;
-- (void)esent media controls using a deprecated class:(int)arg1 %@;
-- (void)tes.movementCount;
-- (_Bool);
-- (double);
 - (id);
+- (id);
+- (_Bool);
+- (struct CGPoint);
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
+- (_Bool);
+- (void)Ð1Â0@ù
+× ;
+- (_Bool)
+× ;
+- (double);
 - (void);
 - (void)0@ù
 × ;
-- (void)!ÈCùÑÉð1¢!0@ù
+- (void)!tGù±dÐ1Â0@ù
 × ;
-- (id);
-- (void)1¢!0@ù
+- (_Bool)1Â0@ù
 × ;
-- (long long)IDragSessionProperties"24@0:8@"<UIDragSession>"16 /* Error: Ran out of types for this method. */;
-- (void)eAll;
-- (void)Button;
-- (_Bool)ntainerFrame;
-- (void)andIndexPath:(id)arg1;
-- (id)AssociatedImageIsEqual: /* Error: Ran out of types for this method. */;
-- (void)aranceTraitRegistration;
+- (void)8@16B24^@28d36;
+- (_Bool)chDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
 - (id);
-- (void)LayoutAttributes:(id)arg1 applyAttributes:isFocused:notify: /* Error: Ran out of types for this method. */;
-- (id)ineTextWidthDisambiguationConstraints;
-- (void)plyTraitStorageConstraintsByRemoving:(id)arg1 adding: /* Error: Ran out of types for this method. */;
-- (int)dCameraItem;
-- (void)iewControllerAnimatedTransitionHandoffData",&,N,V_pendingPreemptionHandoffData;
-- (_Bool)nInfo",&,N,VnotificationInfo;
-- (void)PØØÙÐÛÜÜ;
-- (id);
-- (_Bool);
-- (void)tleAlpha;
-- (id)ext views must return YES from -isSelectable in order to be focusable.;
-- (void).;
-- (void)it corners (required width:(struct CGPoint)arg1 %ld).;
-- (_Bool)ontroller at index %ld with identifier %@, truncating child array;
-- (_Bool)on"8;
+- (id)Button:(id)arg1 forHeldState: /* Error: Ran out of types for this method. */;
+- (double)ewYConstraint: /* Error: Ran out of types for this method. */;
+- (void)les:(id)arg1;
+- (void)DidInsertCallbacksWithTextOperations:(struct CGPoint)arg1;
+- (long long)referredInterfaceOrientationForPresentation: /* Error: Ran out of types for this method. */;
+- (void)FromComponents: /* Error: Ran out of types for this method. */;
+- (int);
+- (void)typeSelectInteraction;
+- (double)ed:maxEnabledValue: /* Error: Ran out of types for this method. */;
+- (void): /* Error: Ran out of types for this method. */;
+- (void)isabled:(_Bool)arg1;
+- (_Bool)ithSourceApplication:processHandle:annotation:openInPlace: /* Error: Ran out of types for this method. */;
+- (id)e_windowWillBecomeHidden: /* Error: Ran out of types for this method. */;
+- (double)bolImageConfiguration;
+- (struct CGPoint)t: /* Error: Ran out of types for this method. */;
+- (_Bool),&,N,V_customHighlighterGesture;
 - (_Bool);
-- (struct CGPoint)%;
-- (void)ÿçåÑ×Õ_;
-- (void)â_;
+- (void);
+- (id)ver animation;
+- (void);
+- (double);
+- (_Bool)r;
+- (id)dialog;
+- (void)turned a cell without a reuseIdentifier. Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
+- (void)UIKitCore/_UIShadowEdgeMask.swift;
+- (_Bool);
+- (void);
+- (void)¿7G;
+- (id)nDefinitionError;
+- (void);
+- (void)*;
+- (void);
 - (struct CGPoint);
-- (double)¡É;
-- (_Bool);
-- (void)ÿá&Ñ`;
-- (void)ÿo;Øí`;
-- (id)4`;
-- (void)ÿ¾ÕÇO`;
-- (id);
-- (void)b;
-- (double)d­ÝþY¶k;
-- (void)`;
-- (void)å`;
-- (double)`;
-- (void)Wú`;
-- (_Bool);
-- (void)@ÿ;
-- (void)pa;
-- (void)¸ÿ§É{a;
-- (id)Ïéa;
-- (long long)d;
+- (void);
+- (void)0g_;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint accumulatedAcceleration; // @synthesize accumulatedAcceleration=_accumulatedAcceleration;

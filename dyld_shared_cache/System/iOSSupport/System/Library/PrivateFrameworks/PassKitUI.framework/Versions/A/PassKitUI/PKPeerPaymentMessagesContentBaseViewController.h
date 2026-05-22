@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (void);
+- (void)PcøòñªÁÚñ;
 - (void);
 - (void);
 - (id);
-- (void)D;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <PKPeerPaymentMessagesContentDelegate> contentDelegate; // @synthesize contentDelegate=_contentDelegate;

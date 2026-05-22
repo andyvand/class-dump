@@ -23,11 +23,11 @@
 - (void);
 - (void);
 - (id);
-- (id)	;
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
+- (void)ate",&,N,V__keyboardSuppressionPolicyDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) CHVisualizationManager *chVisualizationManager; // @synthesize chVisualizationManager=_chVisualizationManager;

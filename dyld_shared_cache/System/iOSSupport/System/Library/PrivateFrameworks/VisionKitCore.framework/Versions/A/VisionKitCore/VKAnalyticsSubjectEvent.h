@@ -23,11 +23,11 @@
 - (double);
 - (id);
 - (void);
-- (long long);
-- (void);
 - (id);
 - (long long);
-- (long long)GPoint=dd}16;
+- (long long);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long eventType; // @synthesize eventType=_eventType;

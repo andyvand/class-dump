@@ -8,14 +8,15 @@
 
 @interface MediaCoreUI.NowPlayingViewModel.Artwork
 {
-    MISSING_TYPE *treatment;
+    MISSING_TYPE *_baseTreatment;
     MISSING_TYPE *contrast;
-    MISSING_TYPE *displayedTreatment;
+    MISSING_TYPE *_displayedTreatment;
     MISSING_TYPE *displayedTreatmentSubject;
-    MISSING_TYPE *$__lazy_storage_$_displayedTreatmentPublisher;
     MISSING_TYPE *default;
     MISSING_TYPE *background;
     MISSING_TYPE *miniPlayerAppearance;
+    MISSING_TYPE *transition;
+    MISSING_TYPE *_$observationRegistrar;
 }
 
 @end

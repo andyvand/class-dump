@@ -18,7 +18,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)blicDescription;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *additionalRepresentationsForSerialization;

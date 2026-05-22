@@ -13,17 +13,17 @@
 }
 
 - (void);
-- (id);
+- (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
 - (void);
-- (void)LayoutProgress:(id)arg1;
+- (void)ithTitle:image:style:handler:shouldDismissHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image;

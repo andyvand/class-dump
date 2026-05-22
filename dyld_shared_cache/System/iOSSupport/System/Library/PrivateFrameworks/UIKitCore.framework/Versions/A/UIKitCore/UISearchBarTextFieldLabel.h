@@ -12,10 +12,11 @@ __attribute__((visibility("hidden")))
     _Bool _ignoresGeometryChanges;
 }
 
-+ (id);
-- (_Bool);
++ (id)¼BÑÿòO;
 - (void);
-- (void);
+- (_Bool)ùqd°1Â0@ù
+× ;
+- (void)ä;
 
 // Remaining properties
 @property(nonatomic) _Bool ignoresGeometryChanges; // @synthesize ignoresGeometryChanges=_ignoresGeometryChanges;

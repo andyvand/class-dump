@@ -4,5 +4,5 @@
 
 class std::__1::__copy_impl {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:ne200100]<MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*>(MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*) const;
+    std::__1::pair<MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*> operator()[abi:nqe210106]<MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*>(MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*) const;
 };

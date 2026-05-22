@@ -15,9 +15,10 @@
 
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
 - (id);
+- (unsigned long long);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionManager> actionManager; // @synthesize actionManager=_actionManager;

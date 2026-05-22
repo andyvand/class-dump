@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer, UITouch;
-
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool);
-- (_Bool)edContactWithIdentifier:(UIGestureRecognizer *)arg1 keysToFetch:(UITouch *)arg2 error: /* Error: Ran out of types for this method. */;
-- (_Bool)idEndDraggingItem:(UIGestureRecognizer *)arg1 toDragTarget:(UIGestureRecognizer *)arg2 dropArea: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)(;
+- (_Bool)Dºº ¾ÔÀ¼ÁÃÄ@Å(ÇÔÇÀÈ4ÊäÊ Í<ÎøÑXÒpÓ;
+- (_Bool)angedNotification;
 @end
 

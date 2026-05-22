@@ -9,6 +9,7 @@
 @protocol UIStateRestoring
 
 @optional
+- (void)entry_pathname;
 - (void);
 
 // Remaining properties

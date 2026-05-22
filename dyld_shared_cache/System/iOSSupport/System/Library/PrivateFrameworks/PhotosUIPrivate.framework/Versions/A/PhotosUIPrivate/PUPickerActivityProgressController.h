@@ -23,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
 - (CDUnknownBlockType);
-- (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (void)ngOverOneUpDidChange;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancellationHandler; // @synthesize cancellationHandler=_cancellationHandler;

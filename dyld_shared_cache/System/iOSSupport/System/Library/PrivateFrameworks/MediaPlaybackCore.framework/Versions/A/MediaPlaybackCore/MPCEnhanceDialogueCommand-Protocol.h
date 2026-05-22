@@ -4,10 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandRequest;
-
 @protocol MPCEnhanceDialogueCommand
-- (MPCPlayerCommandRequest *)Ñª¼Y;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

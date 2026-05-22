@@ -17,13 +17,13 @@
     MISSING_TYPE *progressBarColor;
 }
 
-- (void)te;
+- (void);
+- (id);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic, retain) _TtC7ChatKit17ConversationTitle *conversationTitle;

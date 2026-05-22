@@ -18,28 +18,28 @@
     _UIDiffableDataSourceSectionControllerHandlers *_handlers;
 }
 
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)6@"IMMessageItem"24@"NSString"32@"NSString"40C48@"NSString"52;
-- (id):error: /* Error: Ran out of types for this method. */;
-- (void)tification:(id)arg1 withCompletionHandler:(id)arg2;
-- (void)nSettingsForNotification:(id)arg1;
-- (void)Response:(id)arg1 withCompletionHandler:(id)arg2;
-- (void)ct:(id)arg1;
-- (void)cordFilteringMetricsForMessageItem:(id)arg1 filteredToChat:filterExtensionMetadata: /* Error: Ran out of types for this method. */;
-- (id)ntsForMessage: /* Error: Ran out of types for this method. */;
-- (_Bool)eleteAttachmentZone;
-- (id)AttachmentSyncToken;
-- (_Bool)arRecipeData;
-- (id)Extras:(id)arg1 shouldFilterRecipients:forcedCallerID: /* Error: Ran out of types for this method. */;
-- (void)ncToken;
-- (void)KServerChangeToken",&,N,V_archivedRecordSyncToken;
-- (id)oneID;
-- (_Bool)rConversation:(id)arg1 chat: /* Error: Ran out of types for this method. */;
-- (_Bool)ID",R,N,V_messageRecordZoneID;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -47,22 +47,25 @@
 - (void);
 - (void);
 - (void);
-- (void)dle for %d;
+- (void);
+- (id);
 - (_Bool);
-- (id)| Was not able to construct CKRecord with given data. This is bad.;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)!Gù1`Ð1Â0@ù
+× ;
+- (void)
+× ;
+- (void)±e1Â0@ù
+× ;
+- (void)ontainer:(id)arg1;
+- (id)idth;
+- (id)UITextSelectionRangeView",R,N,V_highlightSubview;
 - (id);
 - (void);
-- (id)d;
-- (void);
-- (void)armingViewController:(id)arg1;
-- (id)red;
-- (void)Ð;
-- (id)ple.language.changed;
-- (void)Notification;
-- (id)o find element matching candidate ;
-- (id);
-- (id)^ÖØûZ;
+- (void)ÿ:(id)arg1 ÍXc;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *associatedSectionIdentifiers; // @synthesize associatedSectionIdentifiers=_associatedSectionIdentifiers;

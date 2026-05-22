@@ -15,12 +15,12 @@
 - (struct _PXLayoutGeometry);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect contentRect; // @synthesize contentRect=_contentRect;

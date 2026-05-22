@@ -26,15 +26,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 @end
 

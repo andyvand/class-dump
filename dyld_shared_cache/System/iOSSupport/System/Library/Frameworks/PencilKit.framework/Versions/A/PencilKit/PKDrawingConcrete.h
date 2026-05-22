@@ -77,15 +77,15 @@
 - (struct CGSize);
 - (shared_ptr_ad015234);
 - (struct CGAffineTransform);
-- (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -96,29 +96,30 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
 - (_Bool);
-- (id)@;
-- (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (struct CGRect);
-- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id)0";
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
-- (id)GRect={CGPoint=dd}{CGSize=dd}},N,V_originalDrawingBounds;
-- (id);
-- (long long)¤;
+- (id)!Cù(ð1Â0@ù
+× ;
+- (long long):8@16q24@32 /* Error: Ran out of types for this method. */;
+- (void)$ìüðÐ°ä;
+- (id)tInputFakeInteractions.m;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAllStrokes:) NSMutableArray *_allStrokes;

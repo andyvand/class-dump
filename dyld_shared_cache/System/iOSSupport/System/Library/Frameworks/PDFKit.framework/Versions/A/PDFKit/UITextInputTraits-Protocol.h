@@ -9,25 +9,17 @@
 @protocol UITextInputTraits
 
 @optional
-- (void)U;
-- (long long)N,S_setInSenderContext:,V_inSenderContext /* Error: Ran out of types for this method. */;
-- (UITextInputPasswordRules *)tadata",R,&,N,V_lyrics;
-- (void)roperties",R,N,V_captionButton;
-- (void)eView:(long long)arg1;
-- (NSString *)Type;
-- (void)eInteger:(long long)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (long long)seDelegate;
-- (long long)!
-;
-- (long long);
-- (long long)ds;
-- (long long)i!;
-- (void)1¢!0@ù
+- (void)Ð1Â0@ù
 × ;
-- (long long)! Fù11¢!0@ù
+- (void)
 × ;
-- (void)htView";
-- (long long)ect:afterDelay:inModes: /* Error: Ran out of types for this method. */;
+- (void)=dd}{CGSize=dd}}16@48@56@64Q72;
+- (void)ject:(_Bool)arg1 waitUntilDone: /* Error: Ran out of types for this method. */;
+- (long long)dsToDidMatchString;
+- (long long)ize;
+- (unsigned long long)er;
+- (_Bool)T¨dDX,!Ø!"¸#t%%&;
+- (void);
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

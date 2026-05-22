@@ -7,8 +7,8 @@
 @class NSArray, NSString;
 
 @protocol PLSSharedAlbumRecipient
-- (NSString *)onCoordinate2D=dd}{?=dd}}16;
-- (NSString *)ÿÿÿÿ(;
+- (NSString *)ndexes;
+- (NSString *)tring2}lu %0.1f;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allEmailsArray;

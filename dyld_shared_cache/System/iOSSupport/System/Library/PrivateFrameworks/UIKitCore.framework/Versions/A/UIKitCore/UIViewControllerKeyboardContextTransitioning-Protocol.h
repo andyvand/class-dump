@@ -8,7 +8,7 @@
 @protocol UIViewControllerContextTransitioning;
 
 @protocol UIViewControllerKeyboardContextTransitioning
-- (struct CGRect)ntHandle: /* Error: Ran out of types for this method. */;
+- (id <UIViewControllerContextTransitioning>)dd}16d32;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *fromKeyboard;

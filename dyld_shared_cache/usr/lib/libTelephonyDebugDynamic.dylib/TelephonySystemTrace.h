@@ -5,15 +5,15 @@
 class TelephonySystemTrace {
 public: // (access info unavailable from symbols alone)
     TelephonySystemTrace(TelephonySystemTrace::parameters const&);
-    disableTrace() const;
-    enableTrace() const;
-    generateFileName(char const*) const;
-    setTraceBuffer() const;
-    startTrace_sync();
-    stopTrace_sync();
-    watchdogStart(unsigned int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, dispatch::block<void () block_pointer>, dispatch::block<void () block_pointer>);
-    watchdogStartInternal(unsigned int, dispatch::block<void () block_pointer>);
-    watchdogStop(bool, dispatch::block<void () block_pointer>);
-    writeTraceBuffer() const;
+    auto disableTrace() const;
+    auto enableTrace() const;
+    auto generateFileName(char const*) const;
+    auto setTraceBuffer() const;
+    auto startTrace_sync();
+    auto stopTrace_sync();
+    auto watchdogStart(unsigned int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, dispatch::block<void () block_pointer>, dispatch::block<void () block_pointer>);
+    auto watchdogStartInternal(unsigned int, dispatch::block<void () block_pointer>);
+    auto watchdogStop(bool, dispatch::block<void () block_pointer>);
+    auto writeTraceBuffer() const;
     ~TelephonySystemTrace();
 };

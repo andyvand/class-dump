@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void)Hd;
+- (id)TabManagers;
+- (void)psMessageCloud;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *debugInfo; // @synthesize debugInfo=_debugInfo;

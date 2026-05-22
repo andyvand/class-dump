@@ -19,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (long long)cing;
+- (long long)ionController",R,N;
 
 // Remaining properties
 @property(nonatomic) _Bool showCuratedPhoto; // @synthesize showCuratedPhoto=_showCuratedPhoto;

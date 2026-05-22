@@ -42,13 +42,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VKQuad *buttonQuad; // @synthesize buttonQuad=_buttonQuad;

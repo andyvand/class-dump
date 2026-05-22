@@ -7,8 +7,7 @@
 @protocol UITextInputMultiDocument
 
 @optional
-- (void)ntMigrations;
-- (void)NotificationsAvailable"b1"wifiLinkWarning"b1"wifiSearching"b1"backgroundActivityDisplayStartDate"d"shouldShowEmergencyOnlyStatus"b1"emergencyOnly"b1"secondaryCellularConfigured"b1"primaryServiceBadgeString"[100c]"secondaryServiceBadgeString"[100c]"quietModeImage"[256c]"quietModeName"[256c]};
-- (_Bool);
+- (void);
+- (_Bool)GGL03_pG;
 @end
 

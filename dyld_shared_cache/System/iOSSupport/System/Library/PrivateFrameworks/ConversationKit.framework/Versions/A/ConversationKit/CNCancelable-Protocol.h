@@ -5,6 +5,5 @@
 //
 
 @protocol CNCancelable
-- (void);
 @end
 

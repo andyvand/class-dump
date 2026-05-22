@@ -14,35 +14,33 @@
     _UIStatusBarCycleAnimation *_cycleAnimation;
 }
 
-+ (double);
-+ (double);
-+ (double);
-+ (struct CGSize)!4EùÌÐ1¢!0@ù
++ (struct CGSize);
++ (double)!l@ù±c°1Â0@ù
 × ;
-+ (double)Axð!DFù±ÍÐ1¢!0@ù
++ (double)ù
 × ;
-+ (id)];
-- (id);
++ (id)illBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
++ (double)PresentationStyle;
++ (double)ðÿ³&;
+- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (void)<v@?>20;
+- (id);
+- (_Bool)Â0@ù
+× ;
+- (void)nMode;
+- (void)kgroundImage;
+- (void)ocusGuideRegion;
+- (void)4;
+- (double)ate to deliver after animation finishes, %p
+	uuid=%@ state=%@;
 - (void);
 - (void);
-- (void)0@ù
-× ;
-- (double)¢!0@ù
-× ;
-- (void)ÍÐ1¢!0@ù
-× ;
-- (void)ù
-× ;
-- (void)p;
-- (void)¸,Ô;
-- (_Bool)íÿ_p;
-- (id)rdAutomatic Suspend/Resume;
-- (void)å É;
-- (void)wÈÿ$¬È];
+- (id)¾];
+- (void)±È;
+- (void)Ó0^;
 - (void);
 
 // Remaining properties

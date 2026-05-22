@@ -5,9 +5,5 @@
 //
 
 @protocol LPMetadataProviderSpecializationDelegate
-- (void);
-
-@optional
-- (void)kA;
 @end
 

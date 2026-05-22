@@ -17,7 +17,7 @@
     NSDate *_lastZDRLocationStatusComputationTime;
 }
 
-- (void)b;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,17 +30,17 @@
 - (long long);
 - (long long);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (id)6{;
-- (long long);
 - (id);
 - (id);
-- (void);
-- (id)orkExtensionVoIPXPCServer;
+- (id);
+- (long long);
+- (long long);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (void)rror, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *lastAuthLocConfirmationComputedTime; // @synthesize lastAuthLocConfirmationComputedTime=_lastAuthLocConfirmationComputedTime;

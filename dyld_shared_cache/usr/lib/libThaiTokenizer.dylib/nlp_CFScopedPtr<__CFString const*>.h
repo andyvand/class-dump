@@ -4,5 +4,5 @@
 
 class nlp::CFScopedPtr<__CFString const*> {
 public: // (access info unavailable from symbols alone)
-    reset(__CFString const*);
+    auto reset(__CFString const*);
 };

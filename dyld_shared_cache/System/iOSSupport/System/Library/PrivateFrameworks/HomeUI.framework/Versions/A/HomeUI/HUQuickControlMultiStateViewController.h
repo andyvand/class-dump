@@ -21,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)¢iöîr;
+- (void)iew",R,W,N,V_targetView;
 
 // Remaining properties
 @property(readonly, nonatomic) HFMultiStateControlItem *controlItem; // @dynamic controlItem;

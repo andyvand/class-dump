@@ -14,7 +14,7 @@
     UIActivityIndicatorView *_spinner;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -26,13 +26,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)v;
-- (void);
-- (void)Cache:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void)6;
+- (id);
+- (void);
+- (void);
+- (void)rKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSSArticleInternal *article; // @synthesize article=_article;

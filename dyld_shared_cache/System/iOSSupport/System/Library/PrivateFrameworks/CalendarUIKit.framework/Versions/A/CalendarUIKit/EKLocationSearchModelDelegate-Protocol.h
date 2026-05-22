@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKSource;
-
 @protocol EKLocationSearchModelDelegate
-- (EKSource *);
-- (_Bool);
-- (void)SDMHandle;
 @end
 

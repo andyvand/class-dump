@@ -24,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <OBButtonTrayLinkAction> tapAction; // @synthesize tapAction=_tapAction;

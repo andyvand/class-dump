@@ -35,24 +35,24 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (CDStruct_1b6d18a9);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
+- (long long);
+- (CDStruct_1b6d18a9);
+- (unsigned long long);
+- (long long);
+- (void);
+- (long long);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (void);
-- (unsigned long long);
 - (void);
 - (CDStruct_1b6d18a9);
-- (long long);
-- (id);
-- (CDStruct_1b6d18a9);
-- (long long);
-- (long long);
-- (id);
 - (void);
+- (CDStruct_1b6d18a9)Ô ;
+- (id)onstraintsTextureArray:numberOfIterations:destinationCoefficientsTextureArray: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isGroupDecision) _Bool groupDecision;

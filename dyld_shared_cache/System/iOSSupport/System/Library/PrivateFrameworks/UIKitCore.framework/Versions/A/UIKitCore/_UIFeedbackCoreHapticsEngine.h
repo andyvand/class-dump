@@ -19,31 +19,31 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (void)ҽJ;
++ (void);
 + (void);
 + (void);
 + (id);
++ (_Bool);
 + (id);
-+ (id);
-+ (_Bool)¡s!tAùqÇ1¢!0@ù
++ (id)0@ù
 × ;
 - (id);
-- (void)rocessingQueue;
-- (void)=;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
-- (void)=;
-- (void)=;
-- (void);
 - (void);
 - (void);
-- (id)rner:fromPortraitPixelRect:withPortraitPixelCornerRadii: /* Error: Ran out of types for this method. */;
-- (void)ainerRegistry;
-- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)Hãÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) CHHapticEngine *coreHapticsEngine; // @synthesize coreHapticsEngine=_coreHapticsEngine;

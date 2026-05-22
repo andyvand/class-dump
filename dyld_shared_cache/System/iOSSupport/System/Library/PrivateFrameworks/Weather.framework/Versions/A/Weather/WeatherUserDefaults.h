@@ -13,19 +13,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (_Bool);
 - (id);
-- (void)CitiesDefault:(id)arg1;
+- (id);
+- (void);
+- (void);
+- (void)Persistence>";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

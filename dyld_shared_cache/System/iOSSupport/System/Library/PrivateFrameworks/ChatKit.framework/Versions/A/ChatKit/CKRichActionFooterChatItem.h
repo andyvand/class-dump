@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (BOOL)dStringFromStringValue;
+- (BOOL);
 - (struct CGSize);
-- (id)#;
-- (Class);
+- (id);
 - (struct UIEdgeInsets);
+- (Class);
 
 @end
 

@@ -24,28 +24,28 @@
 + (id);
 + (id);
 + (id);
-+ (id)#;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)WAq;
++ (id);
++ (id);
 - (struct CGImage *);
 - (struct CGPath *);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (int);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (struct CGPath *)eDirectoryURL;
+- (struct CGPath *);
 - (id);
-- (struct CGPoint);
-- (id);
+- (struct CGPoint):8{CGRect={CGPoint=dd}{CGSize=dd}}16B48^{CGContext=}52 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint endPoint; // @synthesize endPoint=mEndPoint;

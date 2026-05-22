@@ -5,6 +5,5 @@
 //
 
 @protocol SVVideoAdEventTracker
-- (void);
 @end
 

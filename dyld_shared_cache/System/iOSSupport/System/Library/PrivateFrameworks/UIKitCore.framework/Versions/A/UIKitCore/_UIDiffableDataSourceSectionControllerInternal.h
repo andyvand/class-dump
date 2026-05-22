@@ -14,10 +14,10 @@
 
 - (id);
 - (id);
-- (id)2i60@"NSArray"64;
-- (void)utiTypeForRecord:(id)arg1;
-- (void)erButton:(id)arg1;
+- (id);
 - (void);
+- (void);
+- (void)frameLayoutGuide;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *associatedSectionIdentifiers; // @dynamic associatedSectionIdentifiers;

@@ -7,7 +7,6 @@
 @class NSDate, NSUUID;
 
 @protocol HMCameraRecordingEvent
-- (NSUUID *);
 
 // Remaining properties
 @property(readonly, copy) NSDate *dateOfOccurrence;

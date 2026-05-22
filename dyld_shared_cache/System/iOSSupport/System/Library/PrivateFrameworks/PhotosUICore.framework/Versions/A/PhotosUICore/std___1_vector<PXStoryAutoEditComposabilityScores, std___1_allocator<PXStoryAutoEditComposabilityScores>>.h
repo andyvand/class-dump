@@ -4,6 +4,6 @@
 
 class std::__1::vector<PXStoryAutoEditComposabilityScores, std::__1::allocator<PXStoryAutoEditComposabilityScores>> {
 public: // (access info unavailable from symbols alone)
-    __assign_with_size[abi:ne200100]<PXStoryAutoEditComposabilityScores*, PXStoryAutoEditComposabilityScores*>(PXStoryAutoEditComposabilityScores*, PXStoryAutoEditComposabilityScores*, long);
-    __throw_length_error[abi:ne200100]();
+    auto __throw_length_error[abi:nqe210106]();
+    void __assign_with_size[abi:nqe210106]<PXStoryAutoEditComposabilityScores*, PXStoryAutoEditComposabilityScores*>(PXStoryAutoEditComposabilityScores*, PXStoryAutoEditComposabilityScores*, long);
 };

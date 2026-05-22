@@ -15,11 +15,11 @@
 + (id);
 + (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)opSearchingForNewAccessoriesWithError:(id)arg1;
+- (id);
+- (void)Ô;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

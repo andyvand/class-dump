@@ -15,16 +15,17 @@ __attribute__((visibility("hidden")))
     NSString *_text;
 }
 
-- (void)bility receipt or SMS message;
-- (void)leItems=%@, alwaysShowsSearchBarInLibrary=%@, automaticallyDrillsToLibrary=%@, showsCloudItems=%@, showsItemsWithProtectedAssets=%@, prompt=%@, picksSingleCollectionEntity=%@, typeIdentifiers=%@, selectionMode=%lu, supportedContentOptions=%lu, pickingForExternalPlayer=%@, playbackArchiveConfiguration=%@>;
-- (unsigned long long);
 - (void);
-- (id);
-- (id)ckgroundViews;
-- (id)ragSession;
-- (void)°l¸¬;
-- (long long)rnal_radar_time_%ix.png;
-- (void)GZ[;
+- (unsigned long long);
+- (id);
+- (id)Yð1Â0@ù
+× ;
+- (long long);
+- (void)buttonTouchDown:(id)arg1;
+- (id)ngLanguage: /* Error: Ran out of types for this method. */;
+- (void)UIBadgePhonePadVisualStyle;
+- (void)k engine state:(id)arg1 %ld;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long indentLevel; // @synthesize indentLevel=_indentLevel;

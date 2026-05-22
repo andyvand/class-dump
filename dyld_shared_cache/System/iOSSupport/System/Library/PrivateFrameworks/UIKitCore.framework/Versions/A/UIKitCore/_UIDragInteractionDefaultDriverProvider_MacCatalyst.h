@@ -10,7 +10,7 @@
 {
 }
 
-- (id)ibleOnly:(id)arg1;
+- (id)Ô ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

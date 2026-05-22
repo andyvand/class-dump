@@ -11,9 +11,10 @@
     MISSING_TYPE *manager;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)FÈHIIJJÌO¤P8QQHR`R$S@StZ¼ZÜZ$[d\4^^
+eìgiüi¤kl!àmðnpDrür¤tuäô;
 
 @end
 

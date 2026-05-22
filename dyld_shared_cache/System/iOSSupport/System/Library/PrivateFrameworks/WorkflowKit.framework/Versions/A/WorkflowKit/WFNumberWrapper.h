@@ -14,8 +14,8 @@
 + (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
+- (void)er updateAttribution:runningContext:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *number; // @synthesize number=_number;

@@ -24,19 +24,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (long long);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (long long)0@ù
+- (_Bool)!¸EùQ\ð1Â0@ù
 × ;
-- (void)syBackground:(id)arg1;
-- (_Bool)N,V_collectionViewCellProvider;
-- (_Bool)>",&,N,V_disappearanceTransition;
-- (_Bool)progress.;
-- (void) ];
-- (_Bool)Pd;
+- (_Bool)ht:(id)arg1;
+- (void)t:(id)arg1 afterDelay:inModes: /* Error: Ran out of types for this method. */;
+- (id)T@"UISplitViewControllerSeparatorTrackingAdapter",&,N,V_separatorTrackingAdapter;
+- (void)Coding>",R,N;
+- (_Bool)oraryLayoutTop;
+- (_Bool)cusSystem *__strong _Nonnull, _UIFocusSearchInfo *__strong _Nonnull);
+- (void);
+- (void);
+- (_Bool)àÞc;
 
 @end
 

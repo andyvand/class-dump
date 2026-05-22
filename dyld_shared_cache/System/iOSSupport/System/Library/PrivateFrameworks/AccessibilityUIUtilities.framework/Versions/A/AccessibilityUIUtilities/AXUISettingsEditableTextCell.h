@@ -15,16 +15,16 @@
     CDUnknownBlockType _textFieldValueSetBlock;
 }
 
-- (CDUnknownBlockType)NSDate";
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (_Bool);
-- (_Bool)nterface>"B@"NSError">;
-- (void)P;
-- (void)llbacksInterface>";
+- (_Bool);
 - (void);
-- (void);
 - (void);
-- (void)kenGuidanceMessage";
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -32,9 +32,9 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
 - (void);
 - (void);
 

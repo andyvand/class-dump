@@ -5,8 +5,8 @@
 class icu::PluralAvailableLocalesEnumeration {
 public: // (access info unavailable from symbols alone)
     PluralAvailableLocalesEnumeration(UErrorCode&);
-    count(UErrorCode&) const;
-    next(int*, UErrorCode&);
-    reset(UErrorCode&);
+    auto count(UErrorCode&) const;
+    auto next(int*, UErrorCode&);
+    auto reset(UErrorCode&);
     ~PluralAvailableLocalesEnumeration();
 };

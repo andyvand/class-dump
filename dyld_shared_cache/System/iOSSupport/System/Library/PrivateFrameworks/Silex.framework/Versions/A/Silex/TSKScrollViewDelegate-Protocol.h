@@ -5,8 +5,5 @@
 //
 
 @protocol TSKScrollViewDelegate
-
-@optional
-- (void)AutoPlacement>",R,N,V_autoPlacement;
 @end
 

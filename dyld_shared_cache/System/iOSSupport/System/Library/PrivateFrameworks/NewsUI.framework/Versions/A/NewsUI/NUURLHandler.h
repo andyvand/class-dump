@@ -30,11 +30,11 @@
 - (void);
 - (void);
 - (id);
-- (void)otas":(id)arg1 {"value":{"defaultRatio":0,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":2,"maxPublisherOccurrences":1},"maxNumberOfItems":6,"minNumberOfItems":6},"missedStories":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":2,"maxPublisherOccurrences":1},"maxNumberOfItems":6,"minNumberOfItems":6},"topic":{"autoFavoritesTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":10,"minNumberOfItems":3},"generalTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":10,"minNumberOfItems":3},"hardPaywallBundleArticleLimit":15,"orphanedClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0.1,"slottedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":15},{"selector":"platform-pad","value":20}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (id)w	;
+- (id);
 - (void);
+- (void);
+- (_Bool)GSize=dd}},N,V_bounds;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUURLHandling> URLHandling; // @synthesize URLHandling=_URLHandling;

@@ -49,15 +49,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
-- (id)Ìe$f;
+- (id)f_shortcutsDirectoryURL;
+- (void)l4Ð6p7	8;
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *actions;

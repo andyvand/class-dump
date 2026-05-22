@@ -45,11 +45,11 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
 - (long long);
 - (id);
-- (void)pPassthroughSelectionHandler;
-- (void)d auto-lock with reason:(long long)arg1 %{public}@;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double buildingRowContentHeight;

@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)ayUØ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak IMEventListener *eventListener; // @synthesize eventListener=_eventListener;

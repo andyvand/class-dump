@@ -25,11 +25,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)¶Õ6;
-- (id)pÃÿUvQ¼8;
+- (id)out _invalidateVisibleSegmentIdentifiers];
+- (id)mÒÉs3;
+- (void)Þ=ÿ¾ÉÞ=ÿM¾É;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPhotoKitAssetsDataSourceManager *dataSourceManager; // @dynamic dataSourceManager;

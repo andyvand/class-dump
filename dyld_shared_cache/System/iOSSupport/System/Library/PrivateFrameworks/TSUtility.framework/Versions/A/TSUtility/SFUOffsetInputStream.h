@@ -21,9 +21,9 @@
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (long long);
-- (_Bool)tion value for TSUErrorExceptionUserInfoKey:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

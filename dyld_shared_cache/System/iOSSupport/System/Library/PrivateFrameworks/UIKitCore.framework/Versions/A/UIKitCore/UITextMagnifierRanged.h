@@ -17,26 +17,27 @@ __attribute__((visibility("hidden")))
     struct CGPoint _delayedAnimationPoint;
 }
 
++ (Class);
 + (id);
-+ (Class)eue: /* Error: Ran out of types for this method. */;
-+ (id)CornerRadius;
-- (void);
-- (_Bool);
++ (id)@ù
+× ;
 - (void);
 - (_Bool);
 - (void);
-- (double)ading: /* Error: Ran out of types for this method. */;
-- (id)mIdentifier:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
-- (int)ndle:(double)arg1;
-- (int)didStartSharingMyLocationWithHandle: /* Error: Ran out of types for this method. */;
-- (struct CGRect)q,N,V_initialSyncAttempts;
-- (void)N;
-- (struct CGPoint)meContainer;
-- (void)t;
-- (void)DSystemTaskScheduler;
-- (void);
 - (_Bool);
-- (struct CGPoint)endDisablingInterfaceAutorotation;
+- (void);
+- (double);
+- (id);
+- (int);
+- (int);
+- (struct CGRect);
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (struct CGPoint)Class, ((void*)0))" -> %llu;
 
 // Remaining properties
 @property(nonatomic) _Bool isHorizontal; // @synthesize isHorizontal=_isHorizontal;

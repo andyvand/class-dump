@@ -27,7 +27,7 @@
 - (id);
 - (void);
 - (int);
-- (const char *);
+- (const char *)ogressFromTCProgressContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *passphrase; // @synthesize passphrase=_passphrase;

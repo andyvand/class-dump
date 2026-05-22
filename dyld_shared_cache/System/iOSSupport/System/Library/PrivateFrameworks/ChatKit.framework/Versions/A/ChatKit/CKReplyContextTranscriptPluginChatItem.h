@@ -13,18 +13,18 @@
     LPLinkMetadata *_linkMetadata;
 }
 
-- (void)ntifier — not deleting object from index {objectID:(id)arg1 %@, section:%@} /* Error: Ran out of types for this method. */;
-- (Class)e the lock from this note.;
-- (BOOL)unt>"8Q16^B24;
+- (void);
+- (Class);
+- (BOOL);
 - (id);
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
 - (BOOL);
-- (id)P;
+- (void)è;
 
 // Remaining properties
 @property(readonly, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;

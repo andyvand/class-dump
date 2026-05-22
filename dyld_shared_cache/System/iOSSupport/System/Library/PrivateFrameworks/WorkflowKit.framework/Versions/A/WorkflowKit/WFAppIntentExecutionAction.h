@@ -6,7 +6,7 @@
 
 #import <WorkflowKit/WFAction.h>
 
-@class INAppIntentDescriptor, LNActionConfigurationContext, LNActionExecutorOptions, LNActionMetadata, LNActionSummary, LNAppIntentConnectionPolicy, LNAttribution, LNConnection, LNConnectionPolicySignals, LNFullyQualifiedActionIdentifier, LNSystemContext, LNUndoContext, NSDictionary, NSMutableDictionary, NSNumber, NSObject, NSSet, NSString, WFActionParameterSummary;
+@class INAppIntentDescriptor, LNActionConfigurationContext, LNActionExecutorOptions, LNActionMetadata, LNActionSummary, LNAppIntentConnectionPolicy, LNAttribution, LNConnection, LNConnectionPolicySignals, LNFullyQualifiedActionIdentifier, LNSystemContext, LNUndoContext, NSData, NSDictionary, NSMutableDictionary, NSNumber, NSObject, NSSet, NSString, WFActionParameterSummary;
 @protocol OS_dispatch_queue;
 
 @interface WFAppIntentExecutionAction : WFAction
@@ -33,6 +33,7 @@
     long long _authenticationPolicy;
     LNAttribution *_attribution;
     LNUndoContext *_undoContext;
+    NSData *_executionMetricData;
     NSMutableDictionary *_parameterIdentifiersNeedingValues;
     NSMutableDictionary *_parameterIdentifiersWithCustomPrompts;
 }
@@ -56,6 +57,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -72,45 +74,44 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)üLoü¸;
-- (void);
-- (void)Xªh¿LðUÉ;
 - (void);
 - (void);
 - (void);
-- (id)Èj¶Ì;
-- (void);
-- (id)l«°myl¬Ö0%EÉ;
-- (id)Ì;
-- (void);
-- (id);
-- (_Bool)0%EÉ;
-- (id);
-- (id)øÌ;
-- (id)µÌ;
 - (void);
 - (void);
-- (void)0%EÉ;
-- (void)Ì;
-- (id);
-- (void)4´Ì;
-- (id)Ì;
 - (void);
 - (id);
-- (id)°myl«°myl¬Ö0%EÉ;
-- (_Bool)«°myl¬Ö0%EÉ;
-- (id)Ì;
+- (void);
 - (id);
-- (id);
+- (void);
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -126,13 +127,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned short);
+- (id);
 - (_Bool);
 - (long long);
 - (long long);
@@ -157,11 +161,11 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)s:error:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) LNActionConfigurationContext *actionConfigurationContext; // @synthesize actionConfigurationContext=_actionConfigurationContext;
@@ -182,9 +186,10 @@
 @property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool didRunOpensIntent; // @synthesize didRunOpensIntent=_didRunOpensIntent;
 @property(readonly, nonatomic) NSString *displayableAppBundleIdentifier;
+@property(retain, nonatomic) NSData *executionMetricData; // @synthesize executionMetricData=_executionMetricData;
 @property(readonly, nonatomic) LNActionExecutorOptions *executorOptions;
 @property(copy, nonatomic) NSSet *fetchingDisplayRepresentationParameterKeys; // @synthesize fetchingDisplayRepresentationParameterKeys=_fetchingDisplayRepresentationParameterKeys;
-@property(readonly, nonatomic) LNFullyQualifiedActionIdentifier *fullyQualifiedLinkActionIdentifier; // @synthesize fullyQualifiedLinkActionIdentifier=_fullyQualifiedLinkActionIdentifier;
+@property(retain, nonatomic) LNFullyQualifiedActionIdentifier *fullyQualifiedLinkActionIdentifier; // @synthesize fullyQualifiedLinkActionIdentifier=_fullyQualifiedLinkActionIdentifier;
 @property(readonly) unsigned long long hash;
 @property(retain, nonatomic) LNSystemContext *linkSystemContext; // @synthesize linkSystemContext=_linkSystemContext;
 @property(readonly, nonatomic) LNActionMetadata *metadata; // @synthesize metadata=_metadata;

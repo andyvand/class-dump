@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     _Bool _useTextItemCornerRadius;
 }
 
-+ (id)roller | Recently Deleted:(id)arg1 marking clean:Using partIndex fallback:could not convert message to CKRecord with metadata:%@ /* Error: Ran out of types for this method. */;
-- (void);
++ (id);
+- (void);
 - (void);
 
 @end

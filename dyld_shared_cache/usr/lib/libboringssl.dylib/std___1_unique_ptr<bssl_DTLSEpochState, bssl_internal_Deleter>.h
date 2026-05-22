@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<bssl::DTLSEpochState, bssl::internal::Deleter> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](bssl::DTLSEpochState*);
+    auto reset[abi:nqe210106](bssl::DTLSEpochState*);
 };

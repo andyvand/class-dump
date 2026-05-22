@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol _UIBarInsertLayoutDataProtocol;
+
 @protocol _UINavigationBarLayoutParticipating
-- (void)3ìöµþ;
+- (void)rTraitCollection isKindOfClass:(id <_UIBarInsertLayoutDataProtocol>)arg1 [UITraitCollection class]];
 @end
 

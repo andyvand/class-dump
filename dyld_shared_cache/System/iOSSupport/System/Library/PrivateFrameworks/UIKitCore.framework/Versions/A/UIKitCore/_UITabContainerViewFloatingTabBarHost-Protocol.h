@@ -5,8 +5,7 @@
 //
 
 @protocol _UITabContainerViewFloatingTabBarHost
-- (double)
-× ;
-- (void)known transition = %ld;
+- (void)ÜÈp¸T4¦À¦;
+- (double)dentifierPathArrayForObject(NSObject *);
 @end
 

@@ -18,28 +18,28 @@
     UITapGestureRecognizer *_tapGR;
 }
 
-+ (double)ò+ð;
-- (void)tWithPreferredLanguages:deviceType:utcOffset:dstOffset:appVersion:osVersion:countryCode:formatVersion:seedNumber:buildNumber: /* Error: Ran out of types for this method. */;
-- (id)dNumber: /* Error: Ran out of types for this method. */;
-- (id)formatVersion:seedNumber:buildNumber: /* Error: Ran out of types for this method. */;
-- (id)mpletion: /* Error: Ran out of types for this method. */;
-- (void)ration;
-- (void)gurationManager;
-- (void)@';
++ (double);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
+- (id);
+- (id);
 - (void);
-- (void)L;
-- (void);
-- (_Bool)ecodeNSStringForKey: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
+- (struct CGSize);
+- (_Bool);
+- (void);
+- (void)xwxÄz{|,~;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *footerColor; // @synthesize footerColor=_footerColor;

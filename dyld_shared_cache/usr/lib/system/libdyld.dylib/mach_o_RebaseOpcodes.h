@@ -5,6 +5,6 @@
 class mach_o::RebaseOpcodes {
 public: // (access info unavailable from symbols alone)
     RebaseOpcodes(unsigned char const*, unsigned long, bool);
-    forEachRebase(void (char const*, int, bool, unsigned char, unsigned long long, bool&) block_pointer) const;
-    valid(std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>, bool, bool) const;
+    auto forEachRebase(void (char const*, int, bool, unsigned char, unsigned long long, bool&) block_pointer) const;
+    auto valid(std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>, bool, bool) const;
 };

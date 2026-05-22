@@ -14,5 +14,6 @@
 @property(readonly, copy, nonatomic) NSData *identifier;
 @property(readonly, retain, nonatomic) NSString *initialSelectedAID;
 @property(readonly, nonatomic) _Bool proprietaryApplicationDataCoding;
+@property(readonly, nonatomic) _Bool supportsPACE;
 @end
 

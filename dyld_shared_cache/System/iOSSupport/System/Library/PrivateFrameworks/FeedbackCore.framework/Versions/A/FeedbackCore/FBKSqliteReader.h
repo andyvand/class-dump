@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *dbFile; // @synthesize dbFile=_dbFile;

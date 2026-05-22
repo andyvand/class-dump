@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)ectionCounts"8@"NSError"16;
 
 @end
 

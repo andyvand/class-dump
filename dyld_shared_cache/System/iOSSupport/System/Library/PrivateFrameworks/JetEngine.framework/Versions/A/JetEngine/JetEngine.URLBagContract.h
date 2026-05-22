@@ -13,22 +13,22 @@
     id <AMSMescalBagContract> mescalContract;
 }
 
-- (id)5;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (id)llDisplayNameSubject;
-- (id)eToOneModeEnabledSubject;
-- (id);
-- (void);
 - (id);
 - (id);
-- (id)?;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)¾Ð;
 
 // Remaining properties
 @property(nonatomic, readonly) id TFOSamplingPercentage;

@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;

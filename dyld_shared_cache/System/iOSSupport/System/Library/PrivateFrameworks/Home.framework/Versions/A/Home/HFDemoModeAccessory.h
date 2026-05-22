@@ -44,23 +44,23 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)!°EùQ	1b0@ù
+- (void)aß°!ÄEùÑáð1B50@ù
 × ;
-- (id)orThisDevice: /* Error: Ran out of types for this method. */;
-- (void)üÁÿÿ;
-- (_Bool)ed;
+- (void);
+- (id)save iCloud setting with error:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)U9;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

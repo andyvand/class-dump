@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void), stopButton;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

@@ -4,7 +4,7 @@
 
 class icu::LocaleDisplayNames {
 public: // (access info unavailable from symbols alone)
-    createInstance(icu::Locale const&, UDialectHandling);
-    createInstance(icu::Locale const&, UDisplayContext*, int);
+    auto createInstance(icu::Locale const&, UDialectHandling);
+    auto createInstance(icu::Locale const&, UDisplayContext*, int);
     ~LocaleDisplayNames();
 };

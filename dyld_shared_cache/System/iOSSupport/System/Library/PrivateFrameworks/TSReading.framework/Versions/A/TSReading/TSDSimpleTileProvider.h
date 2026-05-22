@@ -14,8 +14,9 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void){CGRect={CGPoint=dd}{CGSize=dd}}24;
-- (SEL)ckgroundLeftCapWidth;
+- (SEL);
+- (void)~!4Bùqð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=mAction;

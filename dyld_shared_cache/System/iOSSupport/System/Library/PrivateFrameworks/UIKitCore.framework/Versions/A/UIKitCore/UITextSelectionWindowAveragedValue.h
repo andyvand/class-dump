@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (void)eEdited;
+- (void);
 - (id);
-- (void);
-- (void)vy;
+- (void)3;
+- (void)ðþæ³Ïô©f;
 
 @end
 

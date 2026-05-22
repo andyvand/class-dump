@@ -16,39 +16,41 @@
 }
 
 - (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id));
 - (double);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)configurationInternalError;
+- (_Bool);
 - (id);
 - (id);
-- (id)#;
-- (id)³(!ÈEù±^,1¢!0@ù
-× ;
-- (_Bool)ntRoadTransitionsStore;
 - (void);
-- (id)Home_Work_NoOthers_bucketed;
-- (id)nil, location, %{sensitive}@, visit, %{sensitive}@, transition, %{sensitive}@;
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id)0@ù
+× ;
+- (id)B60;
+- (id)sConsumedByClustering;
+- (id);
+- (void)ncy for cluster ID,%@,error,%@;
+- (id)%@ invoked;
 
 // Remaining properties
 @property(retain, nonatomic) RTInferredMapItemDeduper *deduper; // @synthesize deduper=_deduper;

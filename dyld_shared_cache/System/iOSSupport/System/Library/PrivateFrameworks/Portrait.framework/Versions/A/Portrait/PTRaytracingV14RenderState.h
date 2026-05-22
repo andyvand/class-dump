@@ -81,8 +81,8 @@
 - (MISSING_TYPE *);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property float anamorphicFactor; // @synthesize anamorphicFactor=_anamorphicFactor;

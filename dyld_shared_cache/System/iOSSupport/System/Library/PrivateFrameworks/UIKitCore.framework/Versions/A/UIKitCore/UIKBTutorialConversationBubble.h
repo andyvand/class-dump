@@ -24,43 +24,43 @@ __attribute__((visibility("hidden")))
     struct CGSize _parentAvatarViewSize;
 }
 
-- (id)oller:broadcaster: /* Error: Ran out of types for this method. */;
-- (struct CGPoint): /* Error: Ran out of types for this method. */;
-- (id)e:limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ties:(id)arg1;
-- (void)ssedSIMID:(id)arg1 iMessageCapability: /* Error: Ran out of types for this method. */;
-- (void):(double)arg1;
-- (void)mDiskIfAble;
-- (void)ge;
-- (void)Focus;
-- (void)onary",R,N,V_batchContext;
-- (void)String:(id)arg1;
-- (double);
-- (struct CGRect)@3;
-- (double);
-- (struct CGSize);
-- (struct CGPoint)h	;
-- (long long);
-- (id)}};
-- (struct UIEdgeInsets)egistering for throughput tracking for flag %{public}s;
-- (id)ion validation tokens %@ is already cached for handleID:"%@". Not fetching again /* Error: Ran out of types for this method. */;
-- (double)@;
-- (double)om %@;
-- (double)entSendableUTIs got dict %@ from %@;
-- (double)at path:%@ /* Error: Ran out of types for this method. */;
-- (id)pping Update syncs;
-- (double)d existing message, checking upgrade permissibility of %@ allowUpgrade:%@ /* Error: Ran out of types for this method. */;
-- (void)g;
-- (id)!M";
+- (id);
 - (struct CGPoint);
+- (id);
 - (void);
 - (void);
-- (struct CGSize)ing mapping for MPModelPropertyAlbumHasExplicitContent;
-- (void)!TAù±Á1¢!0@ù
-× ;
-- (id)ay out popover chrome with unrecognized direction or UIPopoverArrowDirectionUnknown.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (struct CGRect);
+- (double);
 - (struct CGSize);
-- (id)µªþ;
+- (struct CGPoint);
+- (long long);
+- (id);
+- (struct UIEdgeInsets);
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
+- (double);
+- (void);
+- (id);
+- (struct CGPoint);
+- (struct CGSize);
+- (void);
+- (void);
+- (struct CGSize)1Â0@ù
+× ;
+- (id)es:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)a`Q;
+- (id)87l;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBTutorialConversationBubbleBackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;

@@ -18,14 +18,14 @@
     NSString *_backdropGroupName;
 }
 
-- (long long)ingIdentifier;
-- (void)e;
-- (void)StatusChangeContextForUpdateType:(id)arg1 participant: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1 IDs:style:services: /* Error: Ran out of types for this method. */;
-- (void)veAndRelayCapable:(_Bool)arg1;
-- (_Bool)riginalMessageTimestamp;
-- (_Bool)eTransferGUIDs: /* Error: Ran out of types for this method. */;
-- (long long)taForMessage called on object %@ %@;
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (long long);
 - (id);
 - (struct CGRect);
 - (id);
@@ -34,8 +34,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)ikeScreen;
+- (id)em",R,N,V_visibleItem;
+- (void)îd;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backdropGroupName; // @synthesize backdropGroupName=_backdropGroupName;

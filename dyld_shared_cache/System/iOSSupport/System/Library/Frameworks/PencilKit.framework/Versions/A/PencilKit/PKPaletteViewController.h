@@ -16,11 +16,11 @@
 
 - (id);
 - (id);
-- (void)nitialAnimationState;
-- (void)ontextOperPref;
-- (void);
+- (void);
 - (id);
 - (void);
+- (void);
+- (void)Descriptor",R,N;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKPaletteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

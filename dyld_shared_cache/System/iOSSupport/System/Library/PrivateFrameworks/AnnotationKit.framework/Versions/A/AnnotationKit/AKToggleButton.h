@@ -14,25 +14,25 @@
     UIImage *_templateImage;
 }
 
-+ (id)ationAudioVideoModeEnum;
++ (id);
 - (id);
 - (_Bool);
-- (_Bool)TrustDeclineEnvelopeV1;
-- (void);
-- (void)elopeV1Payload;
-- (void)esUpdatedEnvelopeV1;
-- (id);
-- (void);
-- (void)0;
-- (void);
-- (void)udSharingMetadata;
-- (void)&e;
-- (void);
-- (void)d;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 

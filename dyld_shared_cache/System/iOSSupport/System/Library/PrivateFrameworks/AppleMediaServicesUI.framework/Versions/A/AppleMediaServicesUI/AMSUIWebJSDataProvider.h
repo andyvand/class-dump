@@ -42,20 +42,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id)AIyß98SgGGGtGQo_;
-- (void)}@] Loading safari url:(id)arg1 %@, scheme:%{public}@ /* Error: Ran out of types for this method. */;
-- (id)mposerActionButton;
+- (id);
+- (void)setHasNetworkConnection: /* Error: Ran out of types for this method. */;
+- (id)X;
 
 // Remaining properties
 @property(readonly, nonatomic) AMSUIWebJSAppQueryManager *appQueryManager;

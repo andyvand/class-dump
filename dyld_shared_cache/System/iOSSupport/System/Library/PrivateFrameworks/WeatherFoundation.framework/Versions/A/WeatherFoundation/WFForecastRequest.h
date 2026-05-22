@@ -31,7 +31,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,18 +39,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (CDUnknownBlockType)R;
+- (id);
+- (CDUnknownBlockType);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)h38C;
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)ð! Aù1
+°1Â0@ù
+× ;
+- (void)¤¥þÿº@0Ä;
 
 // Remaining properties
 @property(nonatomic) _Bool attachRawAPIData; // @synthesize attachRawAPIData=_attachRawAPIData;

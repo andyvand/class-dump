@@ -19,16 +19,18 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)imeFontConfiguration:preferredTitleAlignment:preferredTitleLayout:titleContentStyle:timeNumberingSystem:userConfigured:preferredTimeMaxY:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
 - (unsigned long long);
-- (unsigned long long)_vibrant;
+- (unsigned long long);
+- (void)¨°!$Cù±ñ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;

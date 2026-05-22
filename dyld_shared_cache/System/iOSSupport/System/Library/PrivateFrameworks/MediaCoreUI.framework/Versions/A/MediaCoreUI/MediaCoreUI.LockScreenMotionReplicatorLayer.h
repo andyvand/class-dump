@@ -15,10 +15,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)on excluded tap areas:%{public}s. /* Error: Ran out of types for this method. */;
 
 @end
 

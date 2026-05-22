@@ -7,7 +7,7 @@
 @class SXJSONDictionary;
 
 @protocol SXComponentAdvertisingMetadataProviding
-- (SXJSONDictionary *)bel for the audio button for the currently paused article;
+- (SXJSONDictionary *);
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDictionary *advertising;

@@ -16,10 +16,10 @@
     MISSING_TYPE *$__lazy_storage_$_uploadPresenter;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)SinceReferenceDate;
+- (void)mO:eø /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

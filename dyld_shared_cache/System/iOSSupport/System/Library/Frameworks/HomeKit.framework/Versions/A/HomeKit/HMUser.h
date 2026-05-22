@@ -47,8 +47,8 @@
     _HMContext *_context;
 }
 
-+ (id)homeLocation;
-+ (_Bool)termined;
++ (_Bool);
++ (id)tting is not writable;
 
 @end
 

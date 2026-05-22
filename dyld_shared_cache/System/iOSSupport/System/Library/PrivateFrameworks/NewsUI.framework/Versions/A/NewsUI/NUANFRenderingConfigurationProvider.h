@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (void);
-- (id)|;
 - (id);
+- (void);
+- (id)aging:byAddingPage:afterPage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager; // @synthesize appConfigurationManager=_appConfigurationManager;

@@ -9,9 +9,9 @@
 @interface (null) (AccessibilityBridgingPrivate)
 - (void);
 - (_Bool);
-- (_Bool)fw;
+- (_Bool);
 - (id);
-- (id)<;
+- (id);
 - (void);
 
 // Remaining properties

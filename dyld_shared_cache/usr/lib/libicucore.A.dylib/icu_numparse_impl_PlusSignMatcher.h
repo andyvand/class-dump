@@ -5,6 +5,6 @@
 class icu::numparse::impl::PlusSignMatcher {
 public: // (access info unavailable from symbols alone)
     PlusSignMatcher(icu::DecimalFormatSymbols const&, bool);
-    accept(icu::StringSegment&, icu::numparse::impl::ParsedNumber&) const;
-    isDisabled(icu::numparse::impl::ParsedNumber const&) const;
+    auto accept(icu::StringSegment&, icu::numparse::impl::ParsedNumber&) const;
+    auto isDisabled(icu::numparse::impl::ParsedNumber const&) const;
 };

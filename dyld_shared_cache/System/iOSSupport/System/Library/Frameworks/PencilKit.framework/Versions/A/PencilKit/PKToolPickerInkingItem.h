@@ -19,15 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (id)|;
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (double);
-- (id)er<UITextInput>";
-- (id)tamp;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsColorSelection;

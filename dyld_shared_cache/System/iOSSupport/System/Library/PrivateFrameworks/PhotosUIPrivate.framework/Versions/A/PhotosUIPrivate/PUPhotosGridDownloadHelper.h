@@ -34,11 +34,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (long long);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (id)yACyüVSyA3_GAYGA1_GtGGA1_GìSGG_Qo_G;
 
 // Remaining properties
 @property(nonatomic) long long mode; // @synthesize mode=_mode;

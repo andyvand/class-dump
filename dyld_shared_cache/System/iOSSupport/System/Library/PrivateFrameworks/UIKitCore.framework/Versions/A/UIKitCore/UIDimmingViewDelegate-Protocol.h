@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDimmingView;
-
 @protocol UIDimmingViewDelegate
 
 @optional
-- (_Bool);
-- (void)ingPlaceholderAtLocation:(UIDimmingView *)arg1 lines:completion: /* Error: Ran out of types for this method. */;
+- (void)permitsSearchBarPlacementIntegratedCentered;
+- (_Bool);
 @end
 

@@ -18,13 +18,15 @@
 - (void);
 - (struct CGRect);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id)aùÐ!FùñE°1â
+0@ù
+× ;
 - (void);
-- (void);
-- (id)yLzz;
-- (id)ÓÀÿ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *bodyLabel; // @synthesize bodyLabel=_bodyLabel;

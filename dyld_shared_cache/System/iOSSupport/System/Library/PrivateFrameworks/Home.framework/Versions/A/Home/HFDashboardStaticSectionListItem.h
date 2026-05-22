@@ -16,10 +16,10 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)he lightProfile for an existing action!;
-- (void)ypeGroupNameSecurity;
+- (void)SiriEndpoint:(id)arg1;
+- (id);
+- (void)ryStateDescriptionPlaying;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *uuidString;

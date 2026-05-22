@@ -15,12 +15,12 @@
 }
 
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)nSettingEvent;
+- (id);
+- (id);
+- (void)ffset;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contentID; // @synthesize contentID=_contentID;

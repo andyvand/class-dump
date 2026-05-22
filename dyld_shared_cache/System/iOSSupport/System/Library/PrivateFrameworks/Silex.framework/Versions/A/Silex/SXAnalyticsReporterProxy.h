@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)atorView";
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <SXAnalyticsReporting> analyticsReporter; // @synthesize analyticsReporter=_analyticsReporter;

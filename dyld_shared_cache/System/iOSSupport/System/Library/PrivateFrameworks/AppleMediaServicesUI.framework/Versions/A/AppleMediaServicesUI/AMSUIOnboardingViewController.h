@@ -71,17 +71,17 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (struct CGSize);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (unsigned long long);
+- (void)gContact:handler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (unsigned long long)d,R;
-- (void)ier found;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *cappedTraitCollection;

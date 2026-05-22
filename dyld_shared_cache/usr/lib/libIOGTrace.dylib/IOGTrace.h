@@ -5,7 +5,16 @@
 class IOGTrace {
 public: // (access info unavailable from symbols alone)
     IOGTrace(char const*, char const*, unsigned int, unsigned short);
-    formatToken(unsigned short, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned long long);
-    recordToken(GTraceEntry const&);
+    IOGTrace(char const*, char const*, unsigned int, unsigned short) (.cold.1);
+    IOGTrace(char const*, char const*, unsigned int, unsigned short) (.cold.2);
+    IOGTrace(char const*, char const*, unsigned int, unsigned short) (.cold.3);
+    IOGTrace(char const*, char const*, unsigned int, unsigned short) (.cold.4);
+    IOGTrace(char const*, char const*, unsigned int, unsigned short) (.cold.5);
+    IOGTrace(char const*, char const*, unsigned int, unsigned short) (.cold.6);
+    IOGTrace(char const*, char const*, unsigned int, unsigned short) (.cold.7);
+    IOGTrace(char const*, char const*, unsigned int, unsigned short) (.cold.8);
+    IOGTrace(char const*, char const*, unsigned int, unsigned short) (.cold.9);
+    auto formatToken(unsigned short, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned long long);
+    auto recordToken(GTraceEntry const&);
     ~IOGTrace();
 };

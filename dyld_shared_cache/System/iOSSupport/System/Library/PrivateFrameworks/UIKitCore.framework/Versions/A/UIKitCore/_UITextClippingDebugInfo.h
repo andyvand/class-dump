@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
     struct CGRect _visibleBounds;
 }
 
-- (_Bool)alMinimalManifestSubCCKeys;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -31,13 +31,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)faults",&,N,V_sharedDefaultsInstance;
-- (_Bool)IMDaemonChatSendMessageProtocol;
-- (void);
-- (id);
-- (void)cialProfileID;
+- (_Bool);
+- (_Bool);
 - (void);
-- (struct CGRect)á;
+- (id);
+- (struct CGRect)nflightItems;
+- (void)be of type _UISearchATVPresentationController.;
+- (void)ypSgÃ¿7Spy03GIgnyy_;
 
 // Remaining properties
 @property(nonatomic) _Bool bottomEdgeClipped; // @synthesize bottomEdgeClipped=_bottomEdgeClipped;

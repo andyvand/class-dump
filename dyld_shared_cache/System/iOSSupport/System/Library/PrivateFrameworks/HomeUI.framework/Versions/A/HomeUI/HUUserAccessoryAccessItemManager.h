@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ÌÙÌß°àâÐèDêhì í;
+- (void)nt user (uniqueIdentifier:%{public}@) did update for home:%@ (uniqueIdentifier:%{public}@) /* Error: Ran out of types for this method. */;
+- (id)nboarding;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessoryCategoryType; // @synthesize accessoryCategoryType=_accessoryCategoryType;

@@ -14,9 +14,9 @@
 }
 
 - (void *);
-- (void);
 - (id);
-- (void *)ëQ¸Û?D÷;
+- (void *);
+- (void)iscovering>",R,N;
 
 @end
 

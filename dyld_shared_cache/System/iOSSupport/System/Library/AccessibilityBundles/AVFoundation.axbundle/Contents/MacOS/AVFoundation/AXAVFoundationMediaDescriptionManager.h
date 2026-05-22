@@ -21,8 +21,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isTappingMediaDescriptions;

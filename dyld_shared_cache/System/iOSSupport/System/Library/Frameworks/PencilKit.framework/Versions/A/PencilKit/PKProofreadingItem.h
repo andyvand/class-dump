@@ -14,14 +14,15 @@
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (int);
 - (id);
+- (int)!	°!ÀBù(ð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *chStrokeIdentifiers;

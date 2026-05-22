@@ -25,49 +25,50 @@ __attribute__((visibility("hidden")))
     _Bool _hosting;
 }
 
-- (_Bool);
-- (_Bool);
-- (id)sconnectOnIdleTimer;
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (double);
 - (void);
-- (id)0Cù1Ãð1¢!0@ù
+- (_Bool)ÁÐ!ôAùÑ`1Â0@ù
 × ;
 - (id)
 × ;
-- (void)ð!,CùÑÆð1¢!0@ù
+- (id)ñcÐ1Â0@ù
 × ;
 - (_Bool)0@ù
 × ;
+- (void)ndSubmitEventToForm:(id)arg1 inFrame:withValues: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)ingSize:(id)arg1;
 - (void);
-- (void)2;
+- (void)set;
+- (id)igationItem;
+- (id)tion:(CDUnknownBlockType)arg1 toInterfaceOrientation: /* Error: Ran out of types for this method. */;
+- (id)ntViewCellProminence;
+- (id)electionCommands;
+- (_Bool)utForEmptyUpdates: /* Error: Ran out of types for this method. */;
+- (void)R,N,V_defaultTraitCollection;
+- (id);
+- (id)HIJèKL;
+- (void);
+- (id)´
+;
 - (id);
-- (_Bool)geCurrentModifierFlags;
-- (long long)tWidthAdjustment;
-- (id)teLinkHighlight;
-- (id)geInsets: /* Error: Ran out of types for this method. */;
-- (id)litProgress: /* Error: Ran out of types for this method. */;
-- (id)setForScrollingToRect: /* Error: Ran out of types for this method. */;
-- (void)e:(_Bool)arg1 animations:completion: /* Error: Ran out of types for this method. */;
-- (double)linkAssertion;
-- (id);
-- (id)e<(hi$itj´j kldlmLm;
-- (_Bool)A;
-- (id)rView = %@;
-- (id)utes to a nil view. Collection View:%@, Attributes:%@ /* Error: Ran out of types for this method. */;
-- (id)with identifier %@, truncating child array:%@ /* Error: Ran out of types for this method. */;
-- (id)jþ;
-- (void)kÍ;
+- (_Bool)for the content view when trying to remove clipping view;
+- (long long)zïÿïÿåîÿ;
+- (void)d to receive an enrollment identifier.;
+- (void)gz;
+- (void)íz^;
 
 // Remaining properties
 @property(nonatomic) double _initializeTime; // @synthesize _initializeTime;

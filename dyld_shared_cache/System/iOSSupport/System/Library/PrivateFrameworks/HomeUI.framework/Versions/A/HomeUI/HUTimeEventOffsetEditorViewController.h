@@ -27,12 +27,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)pplicationRatingView";
-- (void)View"16@"NSIndexPath"24;
+- (void);
+- (id);
+- (void);
+- (void)equests for all multi user capable devices;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateComponents *currentOffset; // @synthesize currentOffset=_currentOffset;

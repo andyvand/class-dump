@@ -24,12 +24,12 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (double);
-- (void);
+- (id);
+- (void)ChangeDescriptor;
 - (void);
-- (id)AssetDataMessageSchema;
-- (id)ViewMode;
+- (void)Áóð;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *analyticsPayload;

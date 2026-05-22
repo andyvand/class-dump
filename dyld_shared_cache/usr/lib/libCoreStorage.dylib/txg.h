@@ -4,7 +4,7 @@
 
 class txg {
 public: // (access info unavailable from symbols alone)
+    auto txg_cur_size();
     txg();
-    txg_cur_size();
     ~txg();
 };

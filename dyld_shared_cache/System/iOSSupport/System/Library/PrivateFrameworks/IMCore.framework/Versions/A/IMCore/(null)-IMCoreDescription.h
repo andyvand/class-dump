@@ -5,19 +5,11 @@
 //
 
 @interface (null) (IMCoreDescription)
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
 + (id);
 + (id);
 + (Class);
-+ (id)__swift5_builtin__TEXT;
-+ (_Bool)ndler:(id)arg1;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (id);
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -30,7 +22,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)ontentWorldType, WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslatorAdapter<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashCountedSet<std::tuple<WebKit::WebExtensionContentWorldType, WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::KeyValuePairTraits, WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashCountedSet<std::tuple<WebKit::WebExtensionContentWorldType, WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 @end

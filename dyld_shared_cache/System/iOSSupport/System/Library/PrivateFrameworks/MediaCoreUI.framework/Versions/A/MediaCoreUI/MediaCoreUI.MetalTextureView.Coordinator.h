@@ -18,8 +18,8 @@
     MISSING_TYPE *displayModeObserver;
 }
 
-- (void);
 - (id);
+- (void)è$×ÿôLÝÿ MÝÿ\ÚÝÿlôÝÿöÝÿùÝÿ¤üÝÿüÞÿ|Þÿ°ÞÿH	Þÿl=ÞÿL×Þÿ;
 
 @end
 

@@ -35,10 +35,10 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)d"height"d};
 
 // Remaining properties
 @property(readonly) int classCount; // @synthesize classCount=_classCount;

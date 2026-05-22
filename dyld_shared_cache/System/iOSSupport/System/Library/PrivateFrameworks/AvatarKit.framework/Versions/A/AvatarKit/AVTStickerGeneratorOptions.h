@@ -23,13 +23,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (double);
-- (double);
-- (id);
 - (void);
+- (id);
+- (double);
 - (void);
 - (unsigned long long);
-- (void)ong_up_topKnot;
+- (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long contentMode; // @synthesize contentMode=_contentMode;

@@ -54,8 +54,8 @@
 - (void);
 - (void);
 - (id);
-- (void)°;
-- (id)À À;
+- (id);
+- (void)á;
 
 // Remaining properties
 @property(readonly, nonatomic) TSDCanvas *canvas; // @synthesize canvas=_canvas;

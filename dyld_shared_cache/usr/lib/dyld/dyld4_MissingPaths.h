@@ -4,5 +4,5 @@
 
 class dyld4::MissingPaths {
 public: // (access info unavailable from symbols alone)
-    addPath(char const*);
+    auto addPath(char const*);
 };

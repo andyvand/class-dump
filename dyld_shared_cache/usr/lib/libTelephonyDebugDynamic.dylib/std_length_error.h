@@ -4,6 +4,6 @@
 
 class std::length_error {
 public: // (access info unavailable from symbols alone)
-    length_error[abi:ne200100](char const*);
+    auto length_error[abi:nqe210106](char const*);
     ~length_error();
 };

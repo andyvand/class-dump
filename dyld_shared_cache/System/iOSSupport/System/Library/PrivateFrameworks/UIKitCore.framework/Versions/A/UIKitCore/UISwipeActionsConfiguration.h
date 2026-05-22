@@ -15,19 +15,20 @@
     double __roundedStyleCornerRadius;
 }
 
-+ (id)NCE;
-- (void)rray"32q40q48@"NSArray"56B64B68;
-- (_Bool)eliveryContext:storageContext: /* Error: Ran out of types for this method. */;
++ (id);
+- (void);
+- (_Bool);
 - (long long);
 - (void);
-- (void)th error:(double)arg1 %@;
-- (void)isSyncingEnabled %@ didRestore %@ accountsMatch %@ hasEnabled %@, MiC was enabled before uninstalling %@;
-- (double)r and the whole batch failed ;
+- (void);
+- (void);
+- (double);
 - (_Bool);
-- (void);
-- (id)nged: /* Error: Ran out of types for this method. */;
-- (id)bleViewControllers;
-- (id)rners;
+- (id);
+- (id);
+- (id)
+× ;
+- (void)Ïäb;
 
 // Remaining properties
 @property(nonatomic, getter=_roundedStyleCornerRadius, setter=_setRoundedStyleCornerRadius:) double _roundedStyleCornerRadius; // @synthesize _roundedStyleCornerRadius=__roundedStyleCornerRadius;

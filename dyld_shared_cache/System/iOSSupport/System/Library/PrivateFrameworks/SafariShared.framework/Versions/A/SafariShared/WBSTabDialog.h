@@ -16,13 +16,13 @@
 
 + (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (id)il proposedName;
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void)rnalQueue;
 
 // Remaining properties
 @property(nonatomic) _Bool blocksWebProcessUntilDismissed; // @synthesize blocksWebProcessUntilDismissed=_blocksWebProcessUntilDismissed;

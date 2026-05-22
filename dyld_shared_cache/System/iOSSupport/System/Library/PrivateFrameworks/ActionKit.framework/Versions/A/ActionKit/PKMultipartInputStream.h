@@ -38,28 +38,26 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long)ï;
-- (void)¸Ñ»2p jÈÐÒ¸Á¤S«AQl7ëßLwH'¨Háµ¼°4cZÉÅ³9ËAãJªØNsãcwOÊ[£¸²Öóo.hü²ï]ît`/Coc¥xr«ð¡xÈì9dÇ(c#úÿ¾é½ÞëlP¤yÆ²÷£ù¾+SrãòxqÆa&êÎ>'ÊÂÀ!Ç¸ÑëàÍÖ}ÚêxÑnîO}õºorªgð¦È¢Å}c
-®ù¾?G5q}#õwÛ($Ç@{«Ê2¼¾É
-¾<LÄgC¶B>Ë¾ÔÅL*~eü)YìúÖ:(unsigned long long)arg1 «oË_XGJDlÿÿÿ;
-- (id)»þPS;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
 - (long long);
+- (void);
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)lass getPHPhotoLibraryClass(void)_block_invoke;
+- (void)_xmlNs}*^{_xmlAttr}^{_xmlNs}^vSS}8^B16;
+- (unsigned long long)lth;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *boundary; // @synthesize boundary=_boundary;

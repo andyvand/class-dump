@@ -13,12 +13,11 @@
     MISSING_TYPE *rootEdge;
 }
 
-- (id)P;
-- (void)
-× ;
-- (id)UIDocumentViewControllerLaunchOptions",&,N,V_launchOptions;
-- (id)¹f;
-- (void)Kæj;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)#cþ?¡ÍXl;
 
 @end
 

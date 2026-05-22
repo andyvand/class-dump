@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)× ;
+- (id);
+- (void)egate:home:forAccessory:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

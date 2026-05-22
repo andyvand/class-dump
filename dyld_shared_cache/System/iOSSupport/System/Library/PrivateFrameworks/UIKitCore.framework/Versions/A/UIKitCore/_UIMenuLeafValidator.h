@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)B;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _UIValidatableCommand *validatedCommand; // @synthesize validatedCommand=_validatedCommand;

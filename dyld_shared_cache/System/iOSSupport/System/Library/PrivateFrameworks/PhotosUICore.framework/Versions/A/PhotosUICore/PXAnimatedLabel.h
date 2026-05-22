@@ -19,20 +19,21 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
 - (struct CGSize);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)1b0@ù
+- (id)áúð!pDùñGÐ1â
+0@ù
 × ;
-- (id);
-- (void)(contentView:(id)arg1 );
-- (void)è)çÿ;
+- (id)ityAlwaysAppearUnread;
+- (id)llpaperSmartAlbumPeoplePickerDataSource;
+- (void)tº;
+- (void)p<ÿ;
+- (void)e have:(id)arg1 %ld > %lu;
+- (void)) == dispatch_queue_get_label(self.fetchQueue);
+- (void);
+- (void)#¶;
 
 // Remaining properties
 @property(retain) PXAnimatedCounter *counter; // @synthesize counter=_counter;

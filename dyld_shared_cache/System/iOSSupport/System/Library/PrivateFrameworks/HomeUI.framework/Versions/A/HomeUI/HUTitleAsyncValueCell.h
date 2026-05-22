@@ -19,9 +19,9 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)asSomeHomePodsOnSupportedVoiceRecognitionLanguages = %{BOOL}d currentUserIsAdministrator/Owner = %{BOOL}d personalRequestsDevices = %lu;
 
 // Remaining properties
 @property(nonatomic) _Bool showSpinner; // @synthesize showSpinner=_showSpinner;

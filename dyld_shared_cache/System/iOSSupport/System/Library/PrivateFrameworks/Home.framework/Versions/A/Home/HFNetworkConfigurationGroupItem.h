@@ -18,13 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)icProxyLogin;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)l;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

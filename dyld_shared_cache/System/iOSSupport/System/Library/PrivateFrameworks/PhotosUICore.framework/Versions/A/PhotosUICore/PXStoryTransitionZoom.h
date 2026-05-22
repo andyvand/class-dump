@@ -24,7 +24,7 @@
 - (void);
 - (double);
 - (void);
-- (void)ð;
+- (void)PhotosUICore_Private.PXUpdateMediaTypesOrderAction;
 
 @end
 

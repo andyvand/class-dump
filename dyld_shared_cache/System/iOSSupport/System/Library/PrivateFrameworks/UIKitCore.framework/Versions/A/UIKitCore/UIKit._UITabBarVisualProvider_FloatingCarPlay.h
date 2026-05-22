@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (struct CGSize)WithAttributes:(struct CGSize)arg1;
-- (id)disclosureColor;
-- (_Bool)ì^T_Ø_@`;
+- (id);
+- (_Bool);
+- (struct CGSize);
 
 @end
 

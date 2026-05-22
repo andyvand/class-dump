@@ -16,9 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)N,V_imageResources;
+- (int);
+- (void)áÝ°!ÀAùïÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak SXTangierController *tangierController; // @synthesize tangierController=_tangierController;

@@ -4,7 +4,7 @@
 
 class std::__1::random_device {
 public: // (access info unavailable from symbols alone)
-    operator()();
+    auto operator()();
     random_device(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
     ~random_device();
 };

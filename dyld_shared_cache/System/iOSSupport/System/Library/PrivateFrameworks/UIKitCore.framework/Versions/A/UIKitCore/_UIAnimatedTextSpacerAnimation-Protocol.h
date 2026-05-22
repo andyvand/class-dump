@@ -5,9 +5,9 @@
 //
 
 @protocol _UIAnimatedTextSpacerAnimation
-- (float)ferredSupplementaryColumnWidthFraction = %g;
-- (void)ause undefined behavior. This issue may be caused by your class overriding the traitCollection property getter, which is not supported. Make sure to use the appropriate API if you are trying to override traits. Trait Environment:(float)arg1 %@; Trait Collection:%@ /* Error: Ran out of types for this method. */;
-- (void)tingsDomain;
+- (void)ion;
+- (float)Þïîÿ;
+- (void)Allowed;
 
 // Remaining properties
 @property(nonatomic) float progress;

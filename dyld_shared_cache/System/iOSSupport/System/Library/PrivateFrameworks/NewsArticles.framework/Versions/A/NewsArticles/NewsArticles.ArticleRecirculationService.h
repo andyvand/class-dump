@@ -17,7 +17,6 @@
     MISSING_TYPE *paidAccessChecker;
     MISSING_TYPE *bundleSubscriptionManager;
     MISSING_TYPE *readingList;
-    MISSING_TYPE *historyService;
     MISSING_TYPE *endOfArticleQuotaSatisfierFactory;
     MISSING_TYPE *personalizationService;
     MISSING_TYPE *endOfArticleResultFactory;

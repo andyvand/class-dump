@@ -7,6 +7,7 @@
 @class NSIndexPath;
 
 @protocol _UICollectionViewPlaceholderContextDelegate
-- (NSIndexPath *);
+- (NSIndexPath *){CGPoint=dd}{CGSize=dd}}24{CGPoint=dd}56B72;
+- (void)otificationsIfNecessary;
 @end
 

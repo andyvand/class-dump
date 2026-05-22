@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)vigationIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *enabled; // @synthesize enabled=_enabled;

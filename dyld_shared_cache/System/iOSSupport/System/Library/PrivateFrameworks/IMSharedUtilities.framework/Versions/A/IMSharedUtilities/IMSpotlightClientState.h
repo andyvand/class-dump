@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
+@class NSDate, NSString;
 
 @interface IMSpotlightClientState
 {
-    unsigned long long _lastIndexedRowID;
     unsigned long long _initialReindexRowID;
     long long _indexRevision;
-    long long _indexVersion;
-    unsigned long long _initialIndexedMessages;
-    unsigned long long _processedMessageRecords;
     unsigned long long _initialTotalMessages;
     NSDate *_indexBeginDate;
     unsigned long long _initialTotalChats;
-    unsigned long long _initialIndexedChats;
-    long long _reindexingStyle;
+    NSString *_previousTransactionID;
 }
 
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *indexBeginDate; // @synthesize indexBeginDate=_indexBeginDate;
 @property(nonatomic) long long indexRevision; // @synthesize indexRevision=_indexRevision;
-@property(nonatomic) long long indexVersion; // @synthesize indexVersion=_indexVersion;
-@property(nonatomic) unsigned long long initialIndexedChats; // @synthesize initialIndexedChats=_initialIndexedChats;
-@property(nonatomic) unsigned long long initialIndexedMessages; // @synthesize initialIndexedMessages=_initialIndexedMessages;
 @property(nonatomic) unsigned long long initialReindexRowID; // @synthesize initialReindexRowID=_initialReindexRowID;
 @property(nonatomic) unsigned long long initialTotalChats; // @synthesize initialTotalChats=_initialTotalChats;
 @property(nonatomic) unsigned long long initialTotalMessages; // @synthesize initialTotalMessages=_initialTotalMessages;
-@property(nonatomic) unsigned long long lastIndexedRowID; // @synthesize lastIndexedRowID=_lastIndexedRowID;
+@property(readonly, nonatomic) unsigned long long migrationLaneRequirement;
+@property(readonly, nonatomic) unsigned long long migrationRequirements;
 @property(readonly, nonatomic) _Bool needsIndexDrop;
 @property(readonly, nonatomic) _Bool needsReindex;
-@property(readonly, nonatomic) _Bool needsUnreadCountReindex;
-@property(nonatomic) unsigned long long processedMessageRecords; // @synthesize processedMessageRecords=_processedMessageRecords;
-@property(readonly, nonatomic) long long reindexingStyle; // @synthesize reindexingStyle=_reindexingStyle;
+@property(retain, nonatomic) NSString *previousTransactionID; // @synthesize previousTransactionID=_previousTransactionID;
 @end
 

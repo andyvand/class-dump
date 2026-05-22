@@ -19,36 +19,34 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)Codes | Could not derive chat from codeMessageGUID:(long long)arg1 %@;
-+ (id)ter;
-+ (id)ionary"56B64B68B72;
 + (id);
-- (void)44@?<v@?@"NSArray">52;
-- (void)llerID:(id)arg1 shouldFilterRecepients:requestProxySend:dontSendTo: /* Error: Ran out of types for this method. */;
-- (void)Predicate:(id)arg1 lastMessageOlderThan:(long long)arg2 limit:reply: /* Error: Ran out of types for this method. */;
-- (void)anagedObjectModel:(id)arg1;
-- (void)WithGUID:(long long)arg1;
-- (id)rsation:fromOldConversation: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool)d to create IMTUConversationItem for conversation %@ on chat %@;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)!EùqÀð1¢!0@ù
-× ;
-- (id)¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (id)dow;
 - (long long);
-- (void)ParallaxTransitionSettings;
+- (void)Q`1Â0@ù
+× ;
+- (void)P¬À¬;
+- (void)ingMaskIntoConstraints enabled, even if auto layout constraints are used inside them. Custom view:(id)arg1 %@;
+- (void);
+- (void)Þ1ÿ#à;
 
 // Remaining properties
 @property(nonatomic) long long blurEffectStyle; // @synthesize blurEffectStyle=_blurEffectStyle;

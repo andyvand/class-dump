@@ -18,11 +18,11 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
 - (id);
-- (id);
+- (void)le";
+- (struct CGRect)"SXSanFranciscoFontFamilyProvider"16@?0@"<TFResolver>"8;
+- (id)"16@?0@"<TFResolver>"8;
 - (struct CGSize);
-- (struct CGRect)dateInfosWithBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long clippingMode; // @synthesize clippingMode=_clippingMode;

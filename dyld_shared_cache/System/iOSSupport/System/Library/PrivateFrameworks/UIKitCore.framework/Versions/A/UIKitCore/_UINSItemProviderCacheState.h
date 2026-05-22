@@ -14,15 +14,14 @@ __attribute__((visibility("hidden")))
     NSDate *_expirationDate;
 }
 
-- (id);
 - (void);
-- (id)áq!@ùÅ°1¢!0@ù
-× ;
 - (void)
 × ;
-- (void)ã4Óå[;
-- (id)_6ÿNFÛ]^;
-- (void)¥_;
+- (id)youtBlock;
+- (void)t;
+- (id)ä !;
+- (void)Í¾33xþ½¾33Üxþ;
+- (id)\;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;

@@ -5,10 +5,5 @@
 //
 
 @protocol _SFReaderControllerDelegate
-
-@optional
-- (void);
-- (void);
-- (void);
 @end
 

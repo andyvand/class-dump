@@ -5,8 +5,6 @@
 //
 
 @protocol UIMutableTraitsPrivate
-- (unsigned long long);
-- (void)igning;
 
 // Remaining properties
 @property(nonatomic, setter=_setTypesettingLanguageAwareLineHeightRatio:) double _typesettingLanguageAwareLineHeightRatio;

@@ -22,14 +22,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id)ugDWSUoDCj8o5WUG74fBKCdmEdAcn8-FOQA/Library/Caches/com.apple.xbs/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/x509/x509_alt.c;
+- (void)perFolders;
+- (id)Ø=;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *fileSize; // @synthesize fileSize=_fileSize;

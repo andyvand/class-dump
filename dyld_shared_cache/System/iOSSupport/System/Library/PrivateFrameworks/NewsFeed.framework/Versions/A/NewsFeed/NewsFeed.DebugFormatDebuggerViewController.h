@@ -15,9 +15,9 @@
     MISSING_TYPE *selectedCallStackFrame;
 }
 
-- (void);
 - (id);
-- (void)Session"16@"NSURLSessionTask"24@"NSError"32;
+- (void);
+- (void);
 
 @end
 

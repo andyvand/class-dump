@@ -27,10 +27,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)onStyle:(id)arg1;
+- (void)agnosticsFetchMatterSnapshotButtonTitle;
 
 // Remaining properties
 @property(retain, nonatomic) NAFuture *accountArbitrationFuture; // @synthesize accountArbitrationFuture=_accountArbitrationFuture;

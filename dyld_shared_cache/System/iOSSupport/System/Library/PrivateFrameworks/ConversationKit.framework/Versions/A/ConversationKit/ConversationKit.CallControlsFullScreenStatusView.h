@@ -15,9 +15,9 @@
     MISSING_TYPE *$__lazy_storage_$_textContainer;
 }
 
+- (id)(j;
 - (id);
-- (void);
-- (id);
+- (void)catorViewC;
 
 @end
 

@@ -19,12 +19,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long)�P;
+- (unsigned long long);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (void)InRange:withObjectsFromArray:range: /* Error: Ran out of types for this method. */;
-- (id)`*;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MTKMeshBuffer *indexBuffer; // @synthesize indexBuffer=_indexBuffer;

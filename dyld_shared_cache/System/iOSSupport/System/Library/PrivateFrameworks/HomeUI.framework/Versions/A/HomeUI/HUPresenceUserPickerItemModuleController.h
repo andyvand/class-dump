@@ -20,9 +20,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (void);
-- (id)iewCell"16d24;
-- (void)tem;
+- (void)roller; please file a radar on "Home App | New Bugs";
 
 // Remaining properties
 @property(nonatomic) __weak id <HUPresenceUserPickerItemModuleControllerDelegate> delegate; // @synthesize delegate=_delegate;

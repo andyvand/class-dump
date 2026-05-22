@@ -12,18 +12,17 @@
     MISSING_TYPE *observations;
 }
 
-+ (id);
++ (id)h;
 - (void);
 - (long long);
 - (void);
-- (void)lPropertyPodcastEpisodePriceType;
+- (id);
 - (void);
-- (void) º;
-- (void)!¨GùÄ°1¢!0@ù
-× ;
-- (void)tainerInteraction;
-- (id)indexOfSubtree: /* Error: Ran out of types for this method. */;
-- (void)ì;
+- (void);
+- (void)rObservableScrollViewAmbiguityStatusDidChange:(id)arg1;
+- (void);
+- (void)GÌ;
+- (void)Ücþ±È;
 
 // Remaining properties
 @property(nonatomic, readonly) long long currentModifierFlags;

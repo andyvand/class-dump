@@ -23,49 +23,47 @@ __attribute__((visibility("hidden")))
     struct _NSRange _lastVisibleIndexRange;
 }
 
-- (id);
-- (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (double);
-- (void);
+- (id);
+- (id);
 - (struct _NSRange);
 - (void);
-- (CDUnknownBlockType)ERE identifier = @identifier AND hashed_person_id = @hashedPersonID AND url_expiration_date > @now;
 - (void);
+- (CDUnknownBlockType);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (double);
+- (void);
 - (id);
 - (long long);
+- (struct _NSRange);
+- (void)°1Â0@ù
+× ;
+- (long long);
+- (void)0@ù
+× ;
 - (void);
+- (struct _NSRange)wServiceSceneDelegate";
+- (void)splaying>";
+- (void)hangeInTextField:(struct _NSRange)arg1 inFrame: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)lectionWillTranslateForReachability: /* Error: Ran out of types for this method. */;
+- (long long)nlineCalculation:getScopeBarContentInset: /* Error: Ran out of types for this method. */;
+- (void)ingLoadedInteractionBehavior_Private;
 - (id);
-- (int);
-- (void)o!\AùqÂ1¢!0@ù
-× ;
-- (_Bool)!hAùñÂ1¢!0@ù
-× ;
-- (void);
-- (void)!`AùñÊ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (long long)mizedStrokeColor"b1"hasCustomizedStrokeColorTransformer"b1"hasCustomizedStrokeWidth"b1"hasCustomizedMonochromaticTreatment"b1};
-- (long long)observableForProgressToForceLevel:minimumRequiredForceLevel: /* Error: Ran out of types for this method. */;
-- (id)DictationResult:(long long)arg1 withCorrectionIdentifier:(long long)arg2;
-- (struct _NSRange)tePickerView;
-- (void)itionWithSetup:(long long)arg1 target: /* Error: Ran out of types for this method. */;
-- (id)eadingSuggestionID: /* Error: Ran out of types for this method. */;
-- (void)rackingAssertion:(long long)arg1;
-- (void);
-- (CDUnknownBlockType)C;
-- (void);
-- (void)caling coefficients on the engine.;
-- (struct _NSRange)te location:(long long)arg1 (%g, %g) rounded to (%g, %g) in container %@;
-- (long long)ontTextStyleTitle2;
-- (void)only %lu items in the section.;
-- (CDUnknownBlockType)tate.numberOfSections;
-- (void)nagers;
+- (_Bool)iousTranslation;
+- (CDUnknownBlockType)iewDiffableDataSource. Table view:%@ /* Error: Ran out of types for this method. */;
+- (int)ound environment:(struct _NSRange)arg1 %@;
+- (CDUnknownBlockType)ly;
+- (void)set before solving. Item:(CDUnknownBlockType)arg1 %@;
+- (id)ÿÿv6þÿr6þÿ;
+- (long long);
+- (void)03y³.¿7G;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelHandler; // @synthesize cancelHandler=_cancelHandler;

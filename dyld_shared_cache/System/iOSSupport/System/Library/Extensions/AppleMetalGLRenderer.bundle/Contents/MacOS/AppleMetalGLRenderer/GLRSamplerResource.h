@@ -5,9 +5,9 @@
 class GLRSamplerResource {
 public: // (access info unavailable from symbols alone)
     GLRSamplerResource();
-    dealloc();
-    initWithMetalSampler(id<MTLSamplerState>);
-    testIdle();
-    waitIdle(GLDShareGroupRec*);
+    auto dealloc();
+    auto initWithMetalSampler(id<MTLSamplerState>);
+    auto testIdle();
+    auto waitIdle(GLDShareGroupRec*);
     ~GLRSamplerResource();
 };

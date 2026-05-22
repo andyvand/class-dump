@@ -21,21 +21,21 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (double);
 - (void);
 - (void);
-- (void);Ä;;
-- (double)ýéÿÿ;
+- (double);
+- (void);
+- (void);
+- (void);
+- (id)B48@0:8@"VKCImageAnalysisBaseView"16{CGPoint=dd}24Q40 /* Error: Ran out of types for this method. */;
+- (double)ithDescriptor: /* Error: Ran out of types for this method. */;
+- (void)xt;
 
 // Remaining properties
 @property(nonatomic) double alpha;

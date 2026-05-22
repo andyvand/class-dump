@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
 - (id);
-- (id);
-- (id);
-- (id)Â¬;
+- (void)nLayoutRect: /* Error: Ran out of types for this method. */;
+- (id)@"NSMutableArray",&,N,V_auxiliaryOptions;
+- (id)q;
+- (id)ä£4ÿô7;
 
 @end
 

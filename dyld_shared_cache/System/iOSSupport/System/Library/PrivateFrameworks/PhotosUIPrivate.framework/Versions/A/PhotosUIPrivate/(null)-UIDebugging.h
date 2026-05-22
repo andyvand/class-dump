@@ -5,6 +5,6 @@
 //
 
 @interface (null) (UIDebugging)
-- (id);
+- (id)ssetReference dataSourceIdentifier] isEqual:[assetsDataSource identifier]] /* Error: Ran out of types for this method. */;
 @end
 

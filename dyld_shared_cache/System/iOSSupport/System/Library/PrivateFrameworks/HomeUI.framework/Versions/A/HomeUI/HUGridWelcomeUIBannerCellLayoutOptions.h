@@ -26,7 +26,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)temManager initWithDelegate:sourceItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *continueButtonColor; // @synthesize continueButtonColor=_continueButtonColor;

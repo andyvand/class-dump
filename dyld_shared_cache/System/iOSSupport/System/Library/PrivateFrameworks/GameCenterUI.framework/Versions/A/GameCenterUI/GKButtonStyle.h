@@ -24,11 +24,11 @@
 - (void);
 - (struct UIEdgeInsets);
 - (void);
+- (id);
+- (void);
+- (id);
 - (double);
 - (void);
-- (id);
-- (void);
-- (id);
 - (void);
 
 // Remaining properties

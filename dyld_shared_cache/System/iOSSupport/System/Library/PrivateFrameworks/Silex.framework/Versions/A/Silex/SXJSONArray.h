@@ -17,21 +17,20 @@
     unsigned long long _count;
 }
 
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)a;
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (unsigned long long)¤°1¢!0@ù
-× ;
+- (void)32;
+- (unsigned long long)task-identifier=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

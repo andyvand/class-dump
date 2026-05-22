@@ -13,16 +13,16 @@
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)ch;
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIToolbar *toolbar; // @synthesize toolbar=_toolbar;

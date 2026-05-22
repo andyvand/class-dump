@@ -7,17 +7,17 @@
 @class NSArray, NSString, VFXMaterialProperty;
 
 @protocol VFXCameraJSExport
-+ (id)xAÛ;
 - (void);
-- (void)ComponentTypesWithTable;
-- (long long);
-- (float)de;
-- (void)O?±MN?;
-- (float)@n¾:®¨?Òp?Î@¾ùm¾rm?ÆÝp?{ @9n¾î{?5Ôp?¾x@ïp¾'}?®p?A+d@W[q¾h?ø§p?©÷Q@îCn¾,aU?×Ýp?¯ÒA@pCl¾LÇD?%q?£3@ùi¾5$6?8,q?/3'@vùf¾¬8)?»cq?ë@»De¾(·?q? O@Øc¾R}?ß¨q?hz	@±£a¾5
-?Òq?dw@³]¾·?)#r?$ô?w×Y¾ó>qr?_Ïç?ùLV¾%vå>õ½r?8Ü?¶òR¾ÑzØ>-
-s?ª¶Ñ?ÅäM¾n0Ì>yxs?bJÈ?:I¾ßÀ>Öæs?HÅ¿?`ZD¾![¶>Tt?¸?«>¾M0¬>õÚt?F±?¢·8¾Í«¢>du?pµª?(Ñ2¾>Aóu?^÷¤?º,¾>v?Õ´?­%¾_>©/w?ö?ÒQ¾e>Øw?î?'¾Do>Ð~x?Ö§?òw¾5]_>å+y??gÕ¾
-öO>þÓy?©?ÿ½ÓÞ@>|z?J?£ï½32>Ö{?gÑ?ßÞ½uÊ#>Ó¼{?K?AÎ½ò>ÊQ|?và?±§½½Z>aÝ|?t}?K¬¬½9ö=a}?ty?éñ½ÌÜ=Ü×}?Päu?ZI½ÃÃ=tD~?Ñ®r?Êu½Å<«=¦~?Éo?y\T½ßl=èú~?8m?ÿ\4½Sy=«B?íj?tF½YL=9?¡õh?TÄé¼÷=¸¯?_%g?ó­¼n5ë<öÓ?1{e?c¼Áq<ÿì?êéc?ÓiÝ»þ,<jû?écb? ðÀ8æZ´¸ /* Error: Ran out of types for this method. */;
-- (id)·:¾d¹>Íu?Ê?±6¾Ê®> v?kÁ?ß32¾»)¥>F}v?ù¹?!É,¾ï>)ìv?ÞV²?¹Æ'¾oH>Ww?¶Ö«?{"¾sò>OÏw?Çõ¥?Ð%¾ì>Mx? ?î¾êvv>Îx?¯±?1}¾bg>Vy?C?ïã¾â¬X>Ußy?m7?ö¾XVJ>kz?|?Íõ½CU<>wõz?#?-zç½¨.>t}{??¦Ø½Ì_!>¬|?$?\åÉ½y>|?/?îº½ïÅ>~ý|?!?ò`«½,óö=p}?ª×}? /* Error: Ran out of types for this method. */;
+- (float)emitter_update($script_context context, $emitter.position p) {
+    // printf("hello from emitter_update\n");
+    // double time = vfx_script_clock_time(context);
+    // p.x = sin(time);
+};
+- (long long)x;
+- (void)Ë(ÿUR;
+- (float)ÃAMö?;
+- (void)V?Jím?e1@Ñ¾î³F?§%n?%@ÿ{¾8?
+dn?%@-Ñy¾e;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyAdjustsZRange;

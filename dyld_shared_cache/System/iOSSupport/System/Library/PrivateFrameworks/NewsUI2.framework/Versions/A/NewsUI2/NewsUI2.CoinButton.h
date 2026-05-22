@@ -15,17 +15,17 @@
 }
 
 - (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)hasEnteredBackground;
-- (id)vider;
-- (id)³þ1üPn³þ1ü4Êþ;
+- (void)IDValidationStartupTask;
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityHint;

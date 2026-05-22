@@ -14,10 +14,10 @@
     LPLinkMetadata *_metadata;
 }
 
-- (id);
-- (_Bool);
-- (void)5;
 - (id);
+- (_Bool);
+- (id);
+- (void)ler:prepareAdaptivePresentationController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canAttemptFetchNow; // @synthesize canAttemptFetchNow=_canAttemptFetchNow;

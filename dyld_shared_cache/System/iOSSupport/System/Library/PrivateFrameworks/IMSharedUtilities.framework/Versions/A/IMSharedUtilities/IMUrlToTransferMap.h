@@ -15,13 +15,13 @@
 - (id);
 - (id);
 - (id);
-- (long long)@(`;
+- (id);
+- (long long);
 - (_Bool);
 - (id);
-- (id)!;
-- (void);
-- (id);
 - (id);
+- (id);
+- (void)as in progress when manifest evicted it, we will not delete it:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

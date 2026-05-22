@@ -18,9 +18,9 @@
     LPImage *_icon;
 }
 
-+ (id);
-+ (_Bool)unterAnimation;
-- (_Bool)A;
++ (id);
++ (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -32,21 +32,22 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)eyUpdateAck.version;
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)reAccessories;
-- (void)Ô;
+- (id);
+- (id);
+- (void)!@ùQÐ1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;

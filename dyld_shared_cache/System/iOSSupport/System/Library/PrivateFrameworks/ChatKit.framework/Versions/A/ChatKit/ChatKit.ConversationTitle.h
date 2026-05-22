@@ -14,9 +14,9 @@
     MISSING_TYPE *color;
 }
 
-- (_Bool);
-- (void);
 - (id);
+- (_Bool);
+- (void);
 
 @end
 

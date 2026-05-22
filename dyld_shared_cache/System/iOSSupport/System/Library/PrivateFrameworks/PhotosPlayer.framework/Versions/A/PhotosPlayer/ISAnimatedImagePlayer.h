@@ -24,12 +24,12 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,15 +40,14 @@
 - (id);
 - (void);
 - (id);
-- (void)* _Nonnull PXDisplayAssetCollectionCurationKindDescription(PXDisplayAssetCollectionCurationKind);
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGImage *);
+- (_Bool);
 - (void);
-- (_Bool)äDù±Ä	Ð1¢!0@ù
-× ;
+- (void);
+- (void)oxy;
 
 // Remaining properties
 @property(nonatomic) _Bool allowFrameDrops; // @synthesize allowFrameDrops=_allowFrameDrops;

@@ -13,13 +13,13 @@
     UIImage *_touchIcon;
 }
 
-+ (id){;
-- (id);
-- (id)rmat: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (id);
-- (void)@;
 - (id);
+- (id);
+- (id);
+- (void)ueryParameter;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *backgroundColors; // @synthesize backgroundColors=_backgroundColors;

@@ -26,10 +26,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setOverrideFrameSnapshotPolicy:) _Bool _overrideFrameSnapshotPolicy; // @synthesize _overrideFrameSnapshotPolicy;

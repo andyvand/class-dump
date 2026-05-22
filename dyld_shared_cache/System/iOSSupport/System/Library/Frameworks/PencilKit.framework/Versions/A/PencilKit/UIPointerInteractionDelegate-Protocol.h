@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPointerInteraction, UIPointerStyle;
+
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (void)× ;
-- (void)nt;
+- (UIPointerStyle *)GPoint=dd}{CGSize=dd}}40@0:(UIPointerInteraction *)arg1 8r^v16Q24Q32;
+- (void)etState;
+- (void)ð;
 @end
 

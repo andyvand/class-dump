@@ -4,6 +4,6 @@
 
 class icu::CollationIterator::CEBuffer {
 public: // (access info unavailable from symbols alone)
-    ensureAppendCapacity(int, UErrorCode&);
+    auto ensureAppendCapacity(int, UErrorCode&);
     ~CEBuffer();
 };

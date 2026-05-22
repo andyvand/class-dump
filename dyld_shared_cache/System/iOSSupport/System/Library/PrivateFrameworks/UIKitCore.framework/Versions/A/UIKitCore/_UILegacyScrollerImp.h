@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (double);
-- (id)lRect:toVisibleInContainingScrollView: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

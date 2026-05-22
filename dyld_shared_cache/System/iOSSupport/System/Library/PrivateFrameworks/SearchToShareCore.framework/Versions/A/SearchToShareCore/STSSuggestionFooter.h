@@ -14,9 +14,9 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
 - (struct CGSize);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *searchProviderImage; // @synthesize searchProviderImage=_searchProviderImage;

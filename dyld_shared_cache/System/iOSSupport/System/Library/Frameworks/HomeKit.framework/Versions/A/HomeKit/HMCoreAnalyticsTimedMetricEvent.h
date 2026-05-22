@@ -21,9 +21,9 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)uageSettingUpdate: /* Error: Ran out of types for this method. */;
-- (void)SDate",C,V_startDate;
+- (void);
 
 // Remaining properties
 @property(readonly) NSNumber *duration;

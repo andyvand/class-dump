@@ -14,11 +14,11 @@
 
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *isoCodes; // @synthesize isoCodes=_isoCodes;

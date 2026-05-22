@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (struct CGPoint);
+- (id);
+- (void);
 - (struct CGRect);
-- (long long);
-- (id)nt=dd},N,G_layoutOffset,S_setLayoutOffset: /* Error: Ran out of types for this method. */;
-- (void)×Ø;
-- (struct CGPoint)ôÐôØö0÷÷È÷Àøù;
-- (void)ent arbiterProxy]  Failed to access remote service:(long long)arg1 %@;
+- (struct CGPoint)nstructions;
+- (long long)P½Zd;?ôýT¼;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;

@@ -16,12 +16,13 @@
 - (struct __SecKey *);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
 - (struct __SecCertificate *);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)attribute string flag '%c' in attribute string "%s" for property %s
+;
 
 // Remaining properties
 @property(nonatomic) struct __SecCertificate *certificate; // @synthesize certificate=_certificate;

@@ -71,13 +71,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -85,7 +80,12 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

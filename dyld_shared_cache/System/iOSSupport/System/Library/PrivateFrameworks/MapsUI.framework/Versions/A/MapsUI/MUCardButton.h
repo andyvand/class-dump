@@ -27,19 +27,19 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)Departures [Placecard];
+- (void)uttonController;
+- (void)têÈê(ë;
+- (id)ge;
+- (void)guide;
+- (void);
+- (void);
+- (id)@ÞÿHÞÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

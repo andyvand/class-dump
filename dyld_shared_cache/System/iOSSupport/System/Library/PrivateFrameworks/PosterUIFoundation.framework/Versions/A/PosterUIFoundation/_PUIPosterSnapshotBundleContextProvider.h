@@ -22,19 +22,20 @@
 - (unsigned long long);
 - (id);
 - (long long);
+- (long long);
+- (id);
+- (id);
 - (id);
 - (long long);
+- (id);
+- (struct CGSize);
+- (double);
+- (struct CGRect);
 - (id);
 - (void);
 - (id);
-- (double);
-- (id);
-- (struct CGRect);
-- (id);
-- (struct CGSize);
-- (long long);
-- (long long);
-- (id);
+- (long long)0@ù
+× ;
 
 // Remaining properties
 @property(readonly) long long accessibilityContrast;

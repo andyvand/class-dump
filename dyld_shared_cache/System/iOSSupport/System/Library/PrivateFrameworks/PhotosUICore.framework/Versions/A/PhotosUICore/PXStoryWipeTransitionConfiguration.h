@@ -25,13 +25,13 @@
 - (void);
 - (void);
 - (double);
-- (void);
-- (id);
-- (void)$Ä;
 - (struct CGSize);
+- (void);
+- (CDStruct_1b6d18a9);
 - (id);
-- (id)wsModularLayoutForZoomLevel:sizeClass:orientation:layoutStyle: /* Error: Ran out of types for this method. */;
-- (CDStruct_1b6d18a9)AXDescriptionSpatialCapture;
+- (id);
+- (id)mageName;
+- (void)er helper;
 
 // Remaining properties
 @property(nonatomic) double dividerWidth; // @synthesize dividerWidth=_dividerWidth;

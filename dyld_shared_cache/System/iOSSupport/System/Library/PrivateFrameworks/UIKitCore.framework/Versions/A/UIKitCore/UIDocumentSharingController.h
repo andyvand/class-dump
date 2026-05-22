@@ -35,26 +35,26 @@
 - (void);
 - (void);
 - (id);
-- (id)%@ for attachmentGUID %@;
-- (void)isplay ID;
 - (id);
-- (id)yDevices.changed;
-- (_Bool)Path;
-- (id)ageSyncFailed;
-- (void)yncWasWithin7Days;
-- (void)ays;
-- (void)sActionIdentifier;
 - (void);
-- (void)pValues;
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)(;
 - (void);
 - (void);
 - (void);
-- (void)=;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,7 +70,7 @@
 - (id);
 - (id);
 - (id);
-- (void)&;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -91,14 +91,13 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)ler: /* Error: Ran out of types for this method. */;
-- (id)ngIgnoreTouches;
-- (id)âm;
+- (void)red:(id)arg1;
+- (id)ØNxSTUV°WôW¸XZÔZ@\;
+- (id)Öïÿ;
+- (id)}L33ÝþmL33èÝþ;
+- (void)ýz«;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;

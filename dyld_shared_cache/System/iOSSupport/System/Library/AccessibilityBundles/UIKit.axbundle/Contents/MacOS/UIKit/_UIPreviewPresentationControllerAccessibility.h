@@ -10,14 +10,12 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -25,6 +23,8 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)sibilityAllWindowsOnlyVisibleWindows: /* Error: Ran out of types for this method. */;
 
 @end
 

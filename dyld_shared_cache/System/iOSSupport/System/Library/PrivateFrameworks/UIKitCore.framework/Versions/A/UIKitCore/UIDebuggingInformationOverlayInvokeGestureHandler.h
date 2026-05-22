@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     _Bool _didCreateTools;
 }
 
-+ (id)umbers.;
++ (id);
 - (void);
-- (_Bool)¬Rk;
+- (_Bool)IStatusBarHomeItemView;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

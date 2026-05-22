@@ -10,14 +10,13 @@
 {
 }
 
-+ (id){BOOL}d;
-+ (id)StoragePipelineComponent> Started processing type (%@) for guid %@;
-- (id)@. newRange:(id)arg1 %@;
++ (id);
++ (id);
 - (id);
-- (id)Avð!BùË1¢!0@ù
-× ;
 - (id);
-- (id);
+- (id);
+- (id)torationStateForScene:] /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *persistentIdentifier;

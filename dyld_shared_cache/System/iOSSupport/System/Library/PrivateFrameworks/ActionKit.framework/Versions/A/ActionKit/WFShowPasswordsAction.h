@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)iPad 2G;
 
 @end
 

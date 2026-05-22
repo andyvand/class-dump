@@ -13,28 +13,28 @@
     _UIFloatingContentView *_floatingContentView;
 }
 
-- (void)hIdentifier:(id)arg1 withRestrictStoreRequireAdminToInstall:(unsigned long long)arg2 withRestrictStoreSoftwareupdateOnly:(unsigned long long)arg3 withRestrictStoreDisableAppAdoption:withDisableSoftwareUpdateNotifications:withRestrictStoreMdmInstallSoftwareupdateOnly: /* Error: Ran out of types for this method. */;
-- (void)dminAccounts;
-- (_Bool);
 - (void);
-- (void)?;
-- (void);
+- (void);
+- (_Bool)acementText:(unsigned long long)arg1 andSetCaretSelectionAfterText: /* Error: Ran out of types for this method. */;
+- (void)Lifecycle;
+- (id)be added to a window;
+- (void);
+- (double);
 - (id);
 - (void);
-- (void)0@ù
-× ;
-- (struct CGPoint)eometry:(id)arg1 withSymbolStyle:controlOpacities:blendForm:blurBlending:renderConfig: /* Error: Ran out of types for this method. */;
-- (void)ifyDelegate: /* Error: Ran out of types for this method. */;
+- (void)!òn;
+- (void)`#aþÇs;
 - (id);
-- (void);
-- (void)ly as a result. %@;
-- (id);
-- (id)tomright.rectangle;
-- (double)ryKeyKeyboardDeletionRepeat;
-- (id)applying snapshots either always on the main queue or always off the main queue, and make sure you are not applying a snapshot as a side effect of updates from (i.e. underneath) another snapshot apply call. View updated by this diffable data source:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)ôÖqþhlÎ75k;
+- (void)¨ÿ3;
+- (void) íÿ
+Ê×Ä:(unsigned long long)arg1 g;
+- (struct CGPoint),ð¼ÿa©Ð0²h;
+- (void)¼°ÿknÕ²i;
+- (void)s¥ÿ;
+- (id)(ÊÀäm;
+- (void)gÿ;¯;
+- (void)¹n;
+- (id)Dÿ-;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

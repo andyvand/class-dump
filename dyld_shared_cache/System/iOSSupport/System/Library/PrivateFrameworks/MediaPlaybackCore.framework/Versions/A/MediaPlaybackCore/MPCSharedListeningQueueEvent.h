@@ -18,23 +18,23 @@
     MPCSharedListeningQueueEventPlaybackModeChanged *_playbackMode;
 }
 
-+ (id)ry/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount;
-+ (id)n;
-+ (id)aemon.framework/Versions/A/AccountsDaemon;
 + (id);
 + (id);
 + (id);
 + (id);
-- (id);
-- (id)sDaemon;
-- (id);
-- (id);
-- (id)ription;
++ (id);
++ (id);
++ (id);
 - (id);
 - (id);
-- (void);
-- (long long)(=;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void)omingItems:completion:| load additional completed [] loaded=%{BOOL}u sectionID=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCSharedListeningQueueEventContentAdded *addedContent; // @synthesize addedContent=_addedContent;

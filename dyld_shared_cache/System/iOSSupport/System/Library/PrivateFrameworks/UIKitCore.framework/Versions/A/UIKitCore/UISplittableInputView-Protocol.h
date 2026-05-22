@@ -5,11 +5,12 @@
 //
 
 @protocol UISplittableInputView
-- (void);
-- (void)¢!0@ù
+- (void)!¬FùdÐ1Â0@ù
 × ;
-- (void)dexes: /* Error: Ran out of types for this method. */;
-- (void)ü(È)*;
-- (void)!ôlVUGÀ;
+- (void)etFlagsFromDelegate: /* Error: Ran out of types for this method. */;
+- (void)unt;
+- (void)r;
+- (void)D;
+- (void);
 @end
 

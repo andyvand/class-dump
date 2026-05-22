@@ -19,27 +19,27 @@
 }
 
 + (id);
-- (void)Record in zone %s for tombstone dictionary %s;
-- (void)g %@ with error %@;
-- (void)after unlock;
-- (void)ionLibrary:(id)arg1 %@;
 - (void);
-- (id), push handler (%@);
-- (id)at, passing along (%@), push handler (%@);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void)Row:(id)arg1;
 - (id);
-- (void)1¢!0@ù
+- (id);
+- (id)!\Eùgð1Â0@ù
 × ;
-- (id)WhileTransitioning"b1"isCrossfadingOutTabBar"b1"isCrossfadingInTabBar"b1"skipContentInsetCalculation"b1"useStandardStatusBarHeight"b1"allowUserInteractionDuringTransition"b1"enableBackButtonDuringTransition"b1"allowsGroupBlending"b1"allowNestedNavigationControllers"b1"allowChildSplitViewControllers"b1"nestedNavigationBarWasHidden"b1"nestedToolbarWasHidden"b1"isAnimatingExchangeBetweenInnerAndOuterToolbars"b1"isNested"b1"searchHidNavigationBar"b1"disappearingViewControllerIsBeingRemoved"b1"disappearingViewControllerNeedsToBeRemoved"b1"isWrappingDuringAdaptation"b1"cannotPerformShowViewController"b1"navigationSoundsEnabled"b1"didSetNeedsFocusInTransition"b1"layingOutTopViewController"b1"hasScheduledDeferredUpdateNavigationBarHostedRefreshControl"b1"allowsFreezeLayoutForOrientationChangeOnDismissal"b1"scrollViewObservationReasonHasVariableHeightNavigationBar"b1"scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
-- (void)eUpdateForTraitCollection: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 range:withSupplementalCandidate: /* Error: Ran out of types for this method. */;
-- (void)s;
-- (id)gnoredEdgesForSafeArea:,V__ignoredEdgesForSafeArea /* Error: Ran out of types for this method. */;
-- (id)gionContainer;
-- (id)r Rendering Mode:%@ /* Error: Ran out of types for this method. */;
+- (id)iew";
+- (id)illRemoveScene: /* Error: Ran out of types for this method. */;
+- (void): /* Error: Ran out of types for this method. */;
+- (void)ementRotationAnimationCount;
+- (void)view:(id)arg1 %@;
+- (void);
+- (id)illRotateToInterfaceOrientation:update _rotationInfo /* Error: Ran out of types for this method. */;
+- (id)þ\;
+- (void)xÌl;
 
 // Remaining properties
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *contentMorph; // @synthesize contentMorph;

@@ -17,15 +17,16 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)@G;
+- (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 @end
 

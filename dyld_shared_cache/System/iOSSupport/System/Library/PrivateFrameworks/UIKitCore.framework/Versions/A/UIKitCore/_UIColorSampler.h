@@ -20,13 +20,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)56@0:8@"NSString"16@"NSString"24C32@"IMMessageItem"36@"NSNumber"44B52 /* Error: Ran out of types for this method. */;
-- (void)need to re-request setup;
-- (void)g up chat participants on client connection %@ **********;
 - (void);
-- (void)ìùº;
-- (id)aTypes;
-- (id)¬ãÔà"\;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)Ò{];
 
 @end
 

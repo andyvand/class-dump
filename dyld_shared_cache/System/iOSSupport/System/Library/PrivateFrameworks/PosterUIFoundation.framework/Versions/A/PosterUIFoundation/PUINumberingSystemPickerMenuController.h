@@ -21,11 +21,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <PUINumberingSystemPickerControllerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -13,29 +13,29 @@
 
 + (id);
 + (id);
-+ (id):(double)arg1 %@;
-+ (id)y receipt:(double)arg1 %@;
-+ (id)ignoring;
-+ (id)y marked as delivered, ignoring;
-+ (id)g yet;
-+ (id)xing message, spotlight has not finished migrating yet;
-+ (id)rocessing deferred messages;
-+ (id)ession;
 + (id);
-+ (id)ublic}@ - _updateSagaEnabled:- no change in cloud library enabled state /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)ntifier:(id)arg1 fromToken:messageGUID:timeStamp:isBeingReplayed:storageContext: /* Error: Ran out of types for this method. */;
-- (id)und to archive for chat:(id)arg1 %@;
-- (id)kholing chat:(struct CGRect)arg1 %@;
-- (_Bool);
 - (id);
-- (void);
-- (id)esForConversion:selectedRange:highlightRange: /* Error: Ran out of types for this method. */;
-- (id)aggingSourceDelegate: /* Error: Ran out of types for this method. */;
-- (id)úåÿ";
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)verPresentingSourceItem;
+- (id)UpdateAnimationCompletionBlocks:(void *)arg1;
+- (id);
+- (void)ý7;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *debugDescription;

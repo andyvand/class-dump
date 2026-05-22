@@ -36,19 +36,19 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)8`%;
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ggestionViews;
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (_Bool);
+- (void)ÿdÿ;
 
 // Remaining properties
 @property(nonatomic) __weak PKRecognitionSessionManager *_sessionManager; // @synthesize _sessionManager=__sessionManager;

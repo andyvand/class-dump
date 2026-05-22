@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString, NSURL;
+@class MISSING_TYPE, NSArray, NSString, NSURL, _TtC19HomeUtilityServices20UtilityConfiguration;
 
 @interface HUUtilityConfigurationHelper
 {
-    MISSING_TYPE *config;
+    _TtC19HomeUtilityServices20UtilityConfiguration *config;
     void fields;
     MISSING_TYPE *requiredFields;
     MISSING_TYPE *quickLookupFields;
@@ -17,14 +17,16 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)ewDidLoad];
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)qüT£;
 
 // Remaining properties
 @property(nonatomic, readonly) NSURL *OAuthURL;
+@property(nonatomic, readonly) _TtC19HomeUtilityServices20UtilityConfiguration *config; // @synthesize config;
 @property(nonatomic, readonly) NSArray *fields;
 @property(nonatomic, readonly) NSString *logoURL;
 @property(nonatomic, readonly) NSString *name;

@@ -15,9 +15,9 @@
 }
 
 - (void);
-- (void)oder;
-- (void);
 - (id);
+- (void);
+- (void)yö^ÜG;
 
 @end
 

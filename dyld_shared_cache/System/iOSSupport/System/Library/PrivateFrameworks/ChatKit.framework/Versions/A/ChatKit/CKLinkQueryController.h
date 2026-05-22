@@ -12,13 +12,13 @@
 
 - (unsigned long long);
 - (id);
-- (id)entControllerCSgXw;
+- (id);
 - (id);
 - (void);
-- (id)roller updatePendingInvitationsInAccountWithID:(id)arg1 receivedSince:] /* Error: Ran out of types for this method. */;
-- (id)ID.length > 0;
-- (id)\PQ@¤RÄS$;
-- (id)¬8'ª.;
+- (id);
+- (id);
+- (id)äÆÇÈ@È;
+- (id);
 
 @end
 

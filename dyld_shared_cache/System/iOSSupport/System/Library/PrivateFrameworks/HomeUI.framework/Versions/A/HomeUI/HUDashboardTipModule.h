@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)larmTableViewController alarmEditController:didEditAlarm:forMediaProfile:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSSet *itemProviders;

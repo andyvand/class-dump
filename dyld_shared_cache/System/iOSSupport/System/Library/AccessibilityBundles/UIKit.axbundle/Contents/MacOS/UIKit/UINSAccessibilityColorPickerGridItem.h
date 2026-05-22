@@ -18,7 +18,7 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)ccessoryViewAccessibility;
 
 // Remaining properties
 @property(nonatomic) unsigned long long columnCount; // @synthesize columnCount=_columnCount;

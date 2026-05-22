@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
 - (id);
+- (void)=},R,N,V_runRef;
 
 @end
 

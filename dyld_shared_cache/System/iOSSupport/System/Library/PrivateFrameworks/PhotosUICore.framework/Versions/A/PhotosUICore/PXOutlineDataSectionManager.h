@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)sHandler;
-- (void)yFilter;
+- (void)¹,;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXOutlineDataSectionManagerDelegate> delegate; // @synthesize delegate=_delegate;

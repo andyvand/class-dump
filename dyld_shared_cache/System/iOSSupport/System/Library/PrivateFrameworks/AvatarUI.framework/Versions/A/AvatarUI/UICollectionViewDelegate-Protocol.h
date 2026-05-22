@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UIContextMenuConfiguration;
-
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool);
-- (_Bool)main:(UICollectionView *)arg1 displayNameCommonPrefix:(NSIndexPath *)arg2;
-- (UIContextMenuConfiguration *)@"NSNumber",&,N,V_searchResultType;
-- (_Bool)P;
-- (NSIndexPath *)1¢!0@ù
+- (_Bool)!P@ù1IÐ1Â0@ù
 × ;
-- (NSIndexPath *)¡°!ÜGùqÉ°1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (void)w";
-- (_Bool)for name '%@' in color kind and category '%@'
-Is it missing from AvatarKit's palette plist?;
-- (NSIndexPath *).;
+- (_Bool)AVTCollectionViewLayout;
 @end
 

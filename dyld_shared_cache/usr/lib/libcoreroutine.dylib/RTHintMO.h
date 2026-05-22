@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id)¨C(Ø;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @dynamic date;

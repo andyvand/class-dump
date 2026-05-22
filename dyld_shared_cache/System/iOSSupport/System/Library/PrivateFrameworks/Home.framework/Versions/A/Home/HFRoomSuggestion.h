@@ -13,13 +13,13 @@
     long long _priority;
 }
 
-+ (id);
 + (CDUnknownBlockType);
 + (id);
-- (void);
-- (long long);
++ (id);
 - (id);
 - (id);
+- (void)Ø6;
+- (long long)dActive:%s , activityStateHoldEnd:%s, transitionalStateEnd:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *aliases; // @synthesize aliases=_aliases;

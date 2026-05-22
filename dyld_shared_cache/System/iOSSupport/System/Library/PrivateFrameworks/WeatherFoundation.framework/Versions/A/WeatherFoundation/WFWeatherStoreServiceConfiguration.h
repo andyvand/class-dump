@@ -28,7 +28,7 @@
 - (struct os_unfair_lock_s);
 - (id);
 - (struct os_unfair_lock_s);
-- (id)n`;
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -45,18 +45,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)0@ù
-× ;
-- (id)@ù
-× ;
-- (void)UUIDToCallbackMap;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *apiVersion;

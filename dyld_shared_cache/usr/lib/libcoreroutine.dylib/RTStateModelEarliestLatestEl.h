@@ -10,15 +10,16 @@
     double _latestEl_s;
 }
 
-+ (_Bool)rFetchInterval,%{public}@;
-- (double);
++ (_Bool);
+- (void);
 - (void);
 - (id);
-- (id)ndContextKey;
+- (id);
+- (double);
+- (double);
 - (void);
-- (id)st;
-- (double);
-- (void);
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double earliestEl_s; // @synthesize earliestEl_s=_earliestEl_s;

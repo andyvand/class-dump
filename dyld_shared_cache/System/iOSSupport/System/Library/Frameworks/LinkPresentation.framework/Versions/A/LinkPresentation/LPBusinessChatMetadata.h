@@ -14,20 +14,21 @@
 }
 
 + (id);
-+ (_Bool)mplete;
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)EProperties;
 - (id);
-- (id)Uuid;
-- (void)Metadata;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void)1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

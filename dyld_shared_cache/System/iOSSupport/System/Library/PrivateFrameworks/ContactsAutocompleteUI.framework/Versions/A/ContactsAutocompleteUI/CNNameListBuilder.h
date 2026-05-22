@@ -14,9 +14,9 @@
 
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property _Bool shouldStripEllipses; // @synthesize shouldStripEllipses=_shouldStripEllipses;

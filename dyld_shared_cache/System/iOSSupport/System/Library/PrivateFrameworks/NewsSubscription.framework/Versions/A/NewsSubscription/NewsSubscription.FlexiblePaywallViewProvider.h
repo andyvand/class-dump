@@ -29,8 +29,8 @@
     MISSING_TYPE *individualPurchaseMetadata;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -13,8 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)WithExclusiveAccessToken: /* Error: Ran out of types for this method. */;
-- (void)redEdgeMask;
+- (_Bool);
+- (void)! @ù±c°1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool didEnd; // @synthesize didEnd=_didEnd;

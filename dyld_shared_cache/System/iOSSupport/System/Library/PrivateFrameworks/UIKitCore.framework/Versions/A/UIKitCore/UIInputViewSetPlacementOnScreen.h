@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)²ým;
-- (_Bool)ING_MISSING__;
-- (_Bool)s>"8;
-- (_Bool)ViewAnimationAfterPush;
-- (_Bool)ng delayed out rollover animation;
++ (_Bool)eapBytesDelta;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)ExtentPoint:executionContext: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)om remote;
-- (void)allocated space for method preferences;
+- (long long)blogKey:callback: /* Error: Ran out of types for this method. */;
+- (void)eMinimumSpeechRate;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

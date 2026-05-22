@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
 - (struct CGSize);
+- (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool preferHDR; // @synthesize preferHDR=_preferHDR;

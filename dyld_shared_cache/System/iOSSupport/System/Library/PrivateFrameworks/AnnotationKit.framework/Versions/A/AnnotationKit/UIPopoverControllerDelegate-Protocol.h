@@ -5,8 +5,5 @@
 //
 
 @protocol UIPopoverControllerDelegate
-
-@optional
-- (_Bool);
 @end
 

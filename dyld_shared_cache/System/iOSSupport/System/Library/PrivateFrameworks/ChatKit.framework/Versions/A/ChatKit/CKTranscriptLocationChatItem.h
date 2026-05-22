@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
     NSURL *_locationURL;
 }
 
-- (void)Info:(id)arg1 cache:cacheKey:processingBlock:completionBlock:fallbackBlock: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
 - (struct CGSize);
-- (Class)ion failed with error:%@ /* Error: Ran out of types for this method. */;
+- (Class);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void)E;
 
 // Remaining properties
 @property(retain, nonatomic) CKLocationMediaObject *locationMediaObject; // @synthesize locationMediaObject=_locationMediaObject;

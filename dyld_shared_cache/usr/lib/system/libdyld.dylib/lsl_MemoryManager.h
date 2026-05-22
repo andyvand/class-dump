@@ -4,10 +4,10 @@
 
 class lsl::MemoryManager {
 public: // (access info unavailable from symbols alone)
-    defaultAllocator();
-    defaultAllocator() (.cold.1);
-    init(char const**, char const**, void*);
-    init(char const**, char const**, void*) (.cold.1);
-    memoryManager();
-    memoryManager() (.cold.1);
+    auto defaultAllocator();
+    auto defaultAllocator() (.cold.1);
+    auto init(char const**, char const**, void*);
+    auto init(char const**, char const**, void*) (.cold.1);
+    auto memoryManager();
+    auto memoryManager() (.cold.1);
 };

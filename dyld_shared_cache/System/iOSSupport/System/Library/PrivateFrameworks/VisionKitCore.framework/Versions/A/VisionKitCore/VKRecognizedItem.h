@@ -28,8 +28,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) VKFrameInfo *frameInfo;

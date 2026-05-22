@@ -11,9 +11,8 @@
 }
 
 + (id);
-+ (id)ñÃÐ1¢!0@ù
-× ;
-+ (id)PresentationController:didConvertToScene: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)phPosition:characterIndex: /* Error: Ran out of types for this method. */;
 
 @end
 

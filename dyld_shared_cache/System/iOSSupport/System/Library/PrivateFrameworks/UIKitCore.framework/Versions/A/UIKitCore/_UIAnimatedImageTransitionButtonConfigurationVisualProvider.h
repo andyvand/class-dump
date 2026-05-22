@@ -18,12 +18,14 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_imageViewsByConfiguration;
 }
 
-- (id)y:(id)arg1 containsOneTimeCode: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
-- (void)int:(id)arg1;
-- (id)onCount:%ld -> %ld; %@ /* Error: Ran out of types for this method. */;
-- (id)5valuet;
+- (id);
+- (_Bool)!
+°!@ùf°1Â0@ù
+× ;
+- (id)tentScrollView;
+- (void)ÿÿÿÿÿÿï;á;BBñï¿^-³®?;
+- (id);
+- (void)àÊ^;
 
 @end
 

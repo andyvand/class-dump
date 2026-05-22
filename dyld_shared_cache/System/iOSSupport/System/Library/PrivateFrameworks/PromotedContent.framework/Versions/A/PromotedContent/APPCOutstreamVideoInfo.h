@@ -15,8 +15,8 @@
     MISSING_TYPE *connectionType;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

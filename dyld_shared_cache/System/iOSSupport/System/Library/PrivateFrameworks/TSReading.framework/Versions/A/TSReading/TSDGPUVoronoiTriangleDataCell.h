@@ -16,13 +16,13 @@
 - (void);
 - (id);
 - (id);
-- (CDStruct_6e3f967a *);
+- (CDStruct_6e3f967a *);
 - (CDStruct_6e3f967a);
 - (unsigned long long);
-- (id);
-- (struct CGRect);
-- (unsigned long long);
 - (void);
+- (id);
+- (unsigned long long);
+- (struct CGRect);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

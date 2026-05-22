@@ -21,15 +21,15 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id)_needsUpdateUserAffineTransform;
+- (void)ateOffscreenStylesPreheat;
+- (id)le Radar;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *configurations;

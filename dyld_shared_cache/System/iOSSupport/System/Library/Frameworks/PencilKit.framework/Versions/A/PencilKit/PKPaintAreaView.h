@@ -23,14 +23,14 @@
     double _liveAnimationStartTime;
 }
 
-- (void)H;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -62,14 +62,14 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
-- (_Bool)onfiguration;
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)"16;
+- (void)	ÊÿÿÿÿÿP;
 
 // Remaining properties
 @property(retain, nonatomic) PKAlternativeStrokesAnimation *alternativeStrokesAnimation; // @synthesize alternativeStrokesAnimation=_alternativeStrokesAnimation;

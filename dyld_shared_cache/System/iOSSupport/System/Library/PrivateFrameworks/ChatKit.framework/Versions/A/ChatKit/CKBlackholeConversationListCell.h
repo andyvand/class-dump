@@ -17,9 +17,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
+- (id)coverSelectedButtonItem;
+- (void)P\½6k;
 
 // Remaining properties
 @property(retain, nonatomic) UIDateLabel *dateLabel; // @synthesize dateLabel=_dateLabel;

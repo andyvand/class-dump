@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVTAvatarPose *pose; // @synthesize pose=_pose;

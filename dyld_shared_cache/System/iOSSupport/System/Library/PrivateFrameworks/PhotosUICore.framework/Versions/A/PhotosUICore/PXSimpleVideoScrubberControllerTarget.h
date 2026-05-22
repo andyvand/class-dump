@@ -29,13 +29,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (float){CGPoint=dd}24N^{CGPoint=dd}40{CGPoint=dd}48;
-- (id)ionColorEffect>",R,N;
-- (void)@"PXGSingleViewLayout";
+- (void);
+- (id);
+- (id);
+- (void)]ÿ;
+- (float);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

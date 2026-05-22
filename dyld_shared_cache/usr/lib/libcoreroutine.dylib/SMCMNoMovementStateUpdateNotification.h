@@ -14,8 +14,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)Message returned with status,%s,error,%@;
 
 // Remaining properties
 @property(retain, nonatomic) SMCMNoMovementStateUpdate *state; // @synthesize state=_state;

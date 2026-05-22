@@ -4,18 +4,18 @@
 
 class __gnu_cxx::__detail::__mini_vector<std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*>> {
 public: // (access info unavailable from symbols alone)
-    _M_space_left() const;
     __mini_vector();
-    allocate(unsigned long);
-    back() const;
-    begin() const;
-    clear();
-    deallocate(std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*>*, unsigned long);
-    end() const;
-    erase(std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*>*);
-    insert(std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*>*, std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*> const&);
-    operator[](unsigned long) const;
-    pop_back();
-    push_back(std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*> const&);
-    size() const;
+    auto _M_space_left() const;
+    auto allocate(unsigned long);
+    auto back() const;
+    auto begin() const;
+    auto clear();
+    auto deallocate(std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*>*, unsigned long);
+    auto end() const;
+    auto erase(std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*>*);
+    auto insert(std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*>*, std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*> const&);
+    auto operator[](unsigned long) const;
+    auto pop_back();
+    auto push_back(std::pair<__gnu_cxx::bitmap_allocator<char>::_Alloc_block*, __gnu_cxx::bitmap_allocator<char>::_Alloc_block*> const&);
+    auto size() const;
 };

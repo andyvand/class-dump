@@ -17,17 +17,16 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
 - (id);
-- (void);
-- (void)A'°!`Bùq1°1b0@ù
-× ;
+- (unsigned long long)× ;
+- (void)itemTableViewController.highlightQueue;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

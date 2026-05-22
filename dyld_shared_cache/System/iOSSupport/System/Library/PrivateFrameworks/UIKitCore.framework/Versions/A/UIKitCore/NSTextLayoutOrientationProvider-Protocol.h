@@ -5,7 +5,7 @@
 //
 
 @protocol NSTextLayoutOrientationProvider
-- (long long)02ÚL[;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long layoutOrientation;

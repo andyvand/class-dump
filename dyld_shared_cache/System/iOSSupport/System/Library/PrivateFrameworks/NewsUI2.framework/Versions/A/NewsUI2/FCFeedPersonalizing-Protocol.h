@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFeedPersonalizingEnvironment, NSArray;
+@class FCFeedPersonalizingEnvironment;
 
 @protocol FCFeedPersonalizing
-- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) FCFeedPersonalizingEnvironment *feedPersonalizingEnvironment;

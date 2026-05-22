@@ -25,8 +25,8 @@
     MISSING_TYPE *_persistedConfigurationDate;
 }
 
-- (void);
 - (id);
+- (void)[_;
 
 @end
 

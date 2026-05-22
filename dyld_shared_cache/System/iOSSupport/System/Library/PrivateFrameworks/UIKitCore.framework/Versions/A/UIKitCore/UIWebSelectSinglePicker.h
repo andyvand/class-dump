@@ -23,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (id)ntextUsed:(id)arg1;
-- (void)pIDs:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)tsOlderThan:predicate:limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (long long)portsSimultaneousDataAndVoice:(id)arg1 %@;
+- (id);
 - (void);
-- (id)ncestorEnvironment,V_commonAncestorEnvironment;
+- (void);
+- (long long);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

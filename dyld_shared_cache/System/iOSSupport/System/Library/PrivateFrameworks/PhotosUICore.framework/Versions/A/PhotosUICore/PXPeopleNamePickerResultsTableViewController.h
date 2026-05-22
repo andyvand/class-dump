@@ -20,16 +20,16 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (long long);
+- (void);
 - (long long);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (id)}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}24@0:(long long)arg1 8@16;
-- (id);
-- (void);
+- (id)¯lÜÿ;
+- (void)sStatus;
+- (void)derDebugBehavior;
+- (id)lbumsFeedView;
 
 // Remaining properties
 @property(readonly) PHFace *face; // @synthesize face=_face;

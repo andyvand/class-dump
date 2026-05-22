@@ -29,11 +29,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id)J,];
 - (id);
 - (void);
 - (id);
-- (id);
+- (void)ÐSg;
 
 // Remaining properties
 @property(nonatomic, retain) UIButton *ringButton; // @synthesize ringButton;

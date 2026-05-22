@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id)Two: /* Error: Ran out of types for this method. */;
+- (void)usly:(CDUnknownBlockType)arg1 , only colorPickerViewController:didSelectColor:continuous:will be called. /* Error: Ran out of types for this method. */;
+- (void)m/Library/Frameworks/AudioToolbox.framework/AudioToolbox;
 - (void);
-- (void);
-- (id)ot on tvOS. This is not supported.;
-- (void)dexerImpl:(CDUnknownBlockType)arg1:appendRange(NSRange) /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

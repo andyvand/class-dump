@@ -5,7 +5,5 @@
 //
 
 @protocol IMCache
-- (_Bool)@;
-- (void);
 @end
 

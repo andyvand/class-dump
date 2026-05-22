@@ -17,8 +17,8 @@
     MISSING_TYPE *accessQueue;
 }
 
-- (void);
 - (id);
+- (void))V_;
 
 @end
 

@@ -54,9 +54,9 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -69,7 +69,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)[HUIncomingInvitationResponseController init];
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cachedRoomNamesByIdentifier; // @synthesize cachedRoomNamesByIdentifier=_cachedRoomNamesByIdentifier;

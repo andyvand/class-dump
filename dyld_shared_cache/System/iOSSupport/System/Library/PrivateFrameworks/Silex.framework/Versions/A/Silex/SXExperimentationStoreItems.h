@@ -11,13 +11,13 @@
     NSArray *_items;
 }
 
-+ (id);
++ (id)c;
+- (id);
+- (id);
 - (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)N,V_borderView;
-- (void)4;
+- (void)deoPlayerViewController";
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *items; // @synthesize items=_items;

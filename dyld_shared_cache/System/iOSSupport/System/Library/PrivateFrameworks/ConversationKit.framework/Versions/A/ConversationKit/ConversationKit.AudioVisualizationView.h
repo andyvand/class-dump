@@ -14,9 +14,9 @@
 
 + (Class);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)UIScrollViewC;
 
 @end
 

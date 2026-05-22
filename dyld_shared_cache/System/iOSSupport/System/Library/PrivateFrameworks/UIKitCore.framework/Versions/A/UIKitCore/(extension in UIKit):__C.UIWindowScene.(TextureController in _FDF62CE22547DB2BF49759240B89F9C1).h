@@ -13,13 +13,12 @@
     MISSING_TYPE *manager;
 }
 
-- (void)
-× ;
-- (id)ion",C,N,V_eventAttribution;
-- (void)k;
-- (id)ü­ÿÂ¬;
-- (id)gjÿ;
-- (void)*ÿ;
+- (id);
+- (id)ÿ¯;ÒPj;
+- (void)ÐÿÑal;
+- (id);
+- (void)ÆÅx%p;
+- (void)ÜÊds;
 
 // Remaining properties
 @property(nonatomic) __weak UIScene *_scene; // @synthesize _scene;

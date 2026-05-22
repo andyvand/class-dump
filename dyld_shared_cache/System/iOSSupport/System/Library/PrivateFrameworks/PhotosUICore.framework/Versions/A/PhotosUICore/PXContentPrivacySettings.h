@@ -14,7 +14,7 @@
     long long _authenticationBehaviorUponAppearing;
 }
 
-+ (id)Â:9 /* Error: Ran out of types for this method. */;
++ (id)CustomizePinnedTip;
 - (long long);
 - (long long);
 - (_Bool);
@@ -24,8 +24,8 @@
 - (_Bool);
 - (long long);
 - (void);
+- (id);
 - (void);
-- (id)mLevel(PXCuratedLibraryZoomLevel);
 
 // Remaining properties
 @property(nonatomic) long long authenticationBehaviorUponAppearing; // @synthesize authenticationBehaviorUponAppearing=_authenticationBehaviorUponAppearing;

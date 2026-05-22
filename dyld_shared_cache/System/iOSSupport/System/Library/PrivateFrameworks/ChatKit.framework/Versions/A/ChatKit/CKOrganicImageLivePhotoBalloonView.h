@@ -10,10 +10,10 @@
 {
 }
 
-- (_Bool)n mode while attempting secondary authentication;
+- (_Bool);
 - (struct CKBalloonDescriptor_t);
 - (void);
-- (void);
+- (void)16@24@32d40{UIEdgeInsets=dddd}48;
 
 @end
 

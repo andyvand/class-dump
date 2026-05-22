@@ -20,13 +20,13 @@
 - (void);
 - (void);
 - (id);
-- (id)imulateAppDeletion;
-- (_Bool)ntoiCloudAndiMessageAndiCloudAccountMatchesiMessageAccount;
-- (id)rogressBlock:completionBlock: /* Error: Ran out of types for this method. */;
-- (id)stURLString:ownerID:signature:decryptionKey:requestedSize:fileSize:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)ipt, no messages found for guid:(id *)arg1 %@;
-- (id)etching moment share from %@ for message %@ CMM state %@ (%lu);
-- (void)v_;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)|4×dÂ^;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *destinationContentProtectionType; // @synthesize destinationContentProtectionType=_destinationContentProtectionType;

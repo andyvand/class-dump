@@ -13,15 +13,15 @@
     struct UIEdgeInsets touchInsets;
 }
 
-- (_Bool);
-- (id)ype;
 - (void);
-- (void);
+- (id);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
-- (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets touchInsets; // @synthesize touchInsets;

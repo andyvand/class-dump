@@ -12,8 +12,8 @@
 
 - (id);
 - (struct CGSize);
-- (Class)ntentView.effectiveAppearance;
-- (BOOL)it read-only on your devices using an older OS version;
+- (Class);
+- (BOOL);
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
 - (_Bool);

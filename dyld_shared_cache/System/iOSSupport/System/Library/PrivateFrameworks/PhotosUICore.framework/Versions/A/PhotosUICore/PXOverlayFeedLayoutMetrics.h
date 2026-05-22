@@ -22,11 +22,11 @@
 - (double);
 - (double);
 - (_Bool);
+- (struct CGSize);
 - (void);
 - (struct UIEdgeInsets);
-- (id);
-- (struct CGSize);
-- (void);
+- (void);
+- (id)@"PXAudioPlayer"16;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;

@@ -4,6 +4,6 @@
 
 class bssl::AES256RecordNumberEncrypter {
 public: // (access info unavailable from symbols alone)
-    KeySize();
+    auto KeySize();
     ~AES256RecordNumberEncrypter();
 };

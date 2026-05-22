@@ -24,15 +24,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
 - (struct CGRect);
+- (_Bool);
 - (unsigned long long);
 - (double);
 - (_Bool);
-- (id);
 - (_Bool);
-- (struct CGSize)¥	ð!@BùÑÁ1¢!0@ù
-× ;
+- (id);
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool extendedDynamicRange; // @synthesize extendedDynamicRange=_extendedDynamicRange;

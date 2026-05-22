@@ -57,7 +57,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -66,11 +66,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool)ÿÄ%þÿ>/ýÿ;
 - (_Bool);
-- (id)yONyyt¯WyÆFby^^GGG_AByytACyåPy÷ÅFª\ySbGGAJy­[yAG_dYQo_AMGGGtG;
-- (void)½yå¨y¼*²ytGAHSQ12CoreGraphicsyHCg_GG_AEyAEy¡yù¼|¹Gæ£G§GSgtGGG;
+- (void);
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool actionInfoViewHidden;

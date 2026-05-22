@@ -14,11 +14,11 @@
 
 - (id);
 - (long long);
+- (id);
 - (void);
 - (id);
-- (void)onents;
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long resolvedEffectType; // @synthesize resolvedEffectType=_resolvedEffectType;

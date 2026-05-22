@@ -5,5 +5,10 @@
 //
 
 @protocol UIPointerInteractionDelegate
+
+@optional
+- (void)ù±ð1â
+0@ù
+× ;
 @end
 

@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tionSoftwareUpdateTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) HFItem *audioSettingsItem; // @synthesize audioSettingsItem=_audioSettingsItem;

@@ -9,8 +9,8 @@
     _Bool _selected;
 }
 
-- (void);
-- (_Bool)4aÔÿ:M.¸4 /* Error: Ran out of types for this method. */;
+- (void)F&ÿÿP&ÿÿ;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;

@@ -14,20 +14,21 @@
     _UIImageSymbolEffectRepeatBehavior *_repeatBehavior;
 }
 
-+ (id)ning under UIUserInterfaceIdiomPad.;
-+ (_Bool)Xtÿõ;
++ (id)}}24@0:8@16 /* Error: Ran out of types for this method. */;
++ (_Bool)text content type:%@
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (id)gBehaviors:message:messageGUID:fromIdentifier:completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)MutableDictionary",&,N,V_completionBlocksForAssetFetchOperations;
-- (_Bool);
-- (void)meter;
-- (unsigned long long);
-- (_Bool);
-- (id)tart:(struct _NSZone *)arg1 section:completion: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (void)Ô ;
+- (_Bool)Groups;
+- (void)RenderingMode:(id)arg1;
+- (id),V_lifted;
+- (void)øA[;
 
 // Remaining properties
 @property(nonatomic) _Bool byLayer; // @synthesize byLayer=_byLayer;

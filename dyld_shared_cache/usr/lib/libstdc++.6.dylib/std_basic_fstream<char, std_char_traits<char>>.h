@@ -4,12 +4,14 @@
 
 class std::basic_fstream<char, std::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
+    auto close();
+    auto is_open();
+    auto is_open() const;
+    auto open(char const*, std::_Ios_Openmode);
+    auto rdbuf() const;
     basic_fstream();
     basic_fstream(char const*, std::_Ios_Openmode);
-    close();
-    is_open();
-    is_open() const;
-    open(char const*, std::_Ios_Openmode);
-    rdbuf() const;
+    non-virtual thunk to ~basic_fstream();
+    virtual thunk to ~basic_fstream();
     ~basic_fstream();
 };

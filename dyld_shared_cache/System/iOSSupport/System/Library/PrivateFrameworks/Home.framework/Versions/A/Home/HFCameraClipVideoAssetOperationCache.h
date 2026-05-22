@@ -32,17 +32,17 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (unsigned long long)¤;
-- (void);
-- (id);
-- (void)ÿëOô(½;
-- (void)T.äÿ;
-- (void)Õÿ;
-- (void);
-- (id);
+- (void)Item: /* Error: Ran out of types for this method. */;
+- (void)cationFooterPrivacyText;
+- (unsigned long long)WaitingToDiscoverAccessory_%@;
+- (void)nstalled; avoiding initialization of HFLocationSensingCoordinator;
 
 // Remaining properties
 @property(nonatomic) unsigned long long count; // @synthesize count=_count;

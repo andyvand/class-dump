@@ -13,11 +13,11 @@
     MISSING_TYPE *palette;
 }
 
-+ (Class)p;
++ (Class);
 - (void);
-- (id)!;
-- (void);
-- (id)currentlyTrackedChangeRecords;
+- (id);
+- (id)UIDatePickerMode_Time;
+- (void)p	m;
 
 @end
 

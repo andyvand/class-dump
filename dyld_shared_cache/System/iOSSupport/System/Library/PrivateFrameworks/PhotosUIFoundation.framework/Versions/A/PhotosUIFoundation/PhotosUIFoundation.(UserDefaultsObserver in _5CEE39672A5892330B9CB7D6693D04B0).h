@@ -13,8 +13,8 @@
     MISSING_TYPE *locallySavingKeys;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

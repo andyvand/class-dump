@@ -4,16 +4,16 @@
 
 class std::messages<wchar_t> {
 public: // (access info unavailable from symbols alone)
-    _M_convert_from_char(char*) const;
-    _M_convert_to_char(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
-    close(int) const;
-    do_close(int) const;
-    do_get(int, int, int, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
-    do_open(std::string const&, std::locale const&) const;
-    get(int, int, int, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
+    auto _M_convert_from_char(char*) const;
+    auto _M_convert_to_char(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
+    auto close(int) const;
+    auto do_close(int) const;
+    auto do_get(int, int, int, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
+    auto do_open(std::string const&, std::locale const&) const;
+    auto get(int, int, int, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
+    auto open(std::string const&, std::locale const&) const;
+    auto open(std::string const&, std::locale const&, char const*) const;
     messages(int*, char const*, unsigned long);
     messages(unsigned long);
-    open(std::string const&, std::locale const&) const;
-    open(std::string const&, std::locale const&, char const*) const;
     ~messages();
 };

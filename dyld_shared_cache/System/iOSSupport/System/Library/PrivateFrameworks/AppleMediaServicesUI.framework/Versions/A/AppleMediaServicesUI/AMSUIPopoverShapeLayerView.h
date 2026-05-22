@@ -50,24 +50,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (double);
+- (id);
+- (double);
 - (double);
 - (void);
 - (void);
+- (double);
+- (struct CGSize);
+- (double);
 - (id);
+- (double);
+- (struct UIEdgeInsets);
 - (void);
 - (void);
 - (unsigned long long);
-- (double);
 - (void);
-- (struct CGSize);
-- (double);
-- (double);
-- (void);
-- (void);
-- (id);
-- (struct UIEdgeInsets);
-- (void);
-- (double);
+- (void)@"UIContextMenuConfiguration"24;
+- (void)ForPresentation;
+- (void)irection;
 
 // Remaining properties
 @property unsigned long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;

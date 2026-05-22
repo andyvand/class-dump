@@ -19,28 +19,28 @@ __attribute__((visibility("hidden")))
     MSVBlockGuard *_guard;
 }
 
-- (void);
-- (void)aconsWithContext:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (struct os_unfair_lock_s);
-- (void);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (id)!;
-- (void);
-- (void);
-- (_Bool);
-- (_Bool)>"56;
+- (struct os_unfair_lock_s)¬;
+- (void)BOOL}u - numberFrames:%ld - numberFramesOut:%ld - startOfStream:%{BOOL}u - endOfStream:%{BOOL}u /* Error: Ran out of types for this method. */;
+- (void)ion;
+- (void)exist;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

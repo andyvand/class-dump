@@ -7,7 +7,7 @@
 @class NSUUID;
 
 @protocol HMParsedIndexAccessoryEventTopic
-- (NSUUID *)nknown (%@);
+- (NSUUID *)eUpdatePersonManagerSettingsMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *accessoryUUID;

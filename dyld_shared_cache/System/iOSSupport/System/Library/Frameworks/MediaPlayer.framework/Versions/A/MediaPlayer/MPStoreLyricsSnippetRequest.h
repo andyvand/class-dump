@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)mOrder;
 
 // Remaining properties
 @property(retain, nonatomic) MPStoreLyricsSnippetURLComponents *snippetURL; // @synthesize snippetURL=_snippetURL;

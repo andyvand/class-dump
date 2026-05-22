@@ -38,68 +38,68 @@ __attribute__((visibility("hidden")))
     long long _exclusiveDirectionalAxis;
 }
 
-+ (_Bool)ºq;
-- (struct CGPoint);
++ (_Bool)sual_bidi_selections;
+- (void);
+- (void);
 - (long long);
-- (void)eclaration_PPP";
-- (void);
-- (void);
-- (double);
-- (void);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
 - (void);
-- (double)9;
-- (id)tem %lld. Perhaps the item should be unregistered.;
-- (unsigned long long);
 - (void);
+- (struct CGPoint);
 - (void);
-- (void)PropertyPlaylistHasAnyCleanDownloadedTracks;
-- (_Bool);
-- (long long){�;
-- (void)h"A9;
-- (void);
+- (_Bool);
+- (long long);
 - (void);
 - (id);
 - (void);
+- (unsigned long long);
 - (void);
-- (void)P;
-- (void)CÕº;
 - (void);
-- (double)ÉÐ1¢!0@ù
-× ;
+- (struct CGPoint);
+- (double);
+- (double);
+- (struct CGPoint);
+- (id);
 - (void);
-- (void)0@ù
-× ;
-- (struct CGPoint)vð!¼CùQËð1¢!0@ù
-× ;
+- (id);
+- (_Bool);
 - (void);
-- (unsigned long long)1¢!0@ù
+- (double);
+- (id)1Â0@ù
 × ;
-- (void)rightFrame:(double)arg1 corners: /* Error: Ran out of types for this method. */;
-- (_Bool)age: /* Error: Ran out of types for this method. */;
-- (void)ionController:(id)arg1;
-- (void)ntations:(id)arg1 preferredOrientation:(id)arg2;
-- (double)gAnimations:completion: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)sets;
-- (void)_switchTrackAnimationWithFromValue:(id)arg1 toValue:(id)arg2 on: /* Error: Ran out of types for this method. */;
-- (void)erformDeferredFocusUpdateIfAvailable;
-- (void)_lastTransitionWasPresentation;
-- (id)_documentState;
-- (struct CGPoint)ndlerInvocationDelay;
-- (double)hasPath;
-- (void)minimumCompactWidth;
-- (void)same affectsColorAppearance value.;
-- (void)KeyboardLayoutDidChangeNotification;
-- (void)lineLeadingPadding;
-- (double)ype;
-- (id)ion with event mask:%08lx /* Error: Ran out of types for this method. */;
-- (id)IImagePickerControllerMediaType;
-- (void)ementKindSectionFooter;
-- (void)animator is required to use a custom animations provider;
-- (double)ø;
-- (_Bool)<@³;
-- (struct CGPoint)c;
+- (void)¡°!¬Fù`Ð1Â0@ù
+× ;
+- (id)Â0@ù
+× ;
+- (void)gÐ1Â0@ù
+× ;
+- (void)r:(id)arg1 rowHeight: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)n:(id)arg1 state:isHeader:isSecondaryText:style: /* Error: Ran out of types for this method. */;
+- (void)ange:(id)arg1 inString:(id)arg2 language: /* Error: Ran out of types for this method. */;
+- (double)ForServiceFromTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)rd;
+- (void)settingLabelsViewLeadingAndTrailingToImageViewsExact:(double)arg1;
+- (void)tiveAtRegularWidth:(id)arg1;
+- (void)T@"UITabBarButton",W,N,V_tabBarButton;
+- (void):(long long)arg1;
+- (struct CGPoint)ÀQÀR\SøUV;
+- (void);
+- (double)archBar property getter override must always return the same searchBar instance, and never return nil. The getter may be called very early! searchBar = %@, searchController = %@;
+- (void)ing keyboard analytics. isKeyScene=%d, hasHardwareKeyboard=%d, hasExternalDisplay=%d;
+- (void)release.;
+- (void)internal.api.is.a.bad.idea;
+- (double)DualSIM-card;
+- (double)ndscape.png;
+- (void);
+- (void)wþ	643;
+- (_Bool)üØ¾d[;
+- (void);
+- (void);
+- (void)Üjÿ$øÌÔ¡`;
+- (void);
+- (void)tEe;
 - (void);
 
 // Remaining properties

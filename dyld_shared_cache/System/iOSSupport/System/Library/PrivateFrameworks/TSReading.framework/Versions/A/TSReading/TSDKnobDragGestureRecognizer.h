@@ -23,7 +23,7 @@
     struct CGPoint mAutoscrollPoint;
 }
 
-- (void);
+- (void);
 - (double);
 - (void);
 - (_Bool);
@@ -43,14 +43,14 @@
 - (id);
 - (void);
 - (void);
-- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void)sectionIndex:(id)arg1 viewScale:(id)arg2 withLayoutOptions:currentSubpathIndex:cachedCurrentElementPercentage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) TSDAutoscroll *autoscroll; // @synthesize autoscroll=mAutoscroll;

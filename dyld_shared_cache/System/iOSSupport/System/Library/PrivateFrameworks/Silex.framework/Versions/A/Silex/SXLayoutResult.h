@@ -16,9 +16,10 @@
 
 - (id);
 - (id);
-- (void);
+- (double);
 - (id);
-- (double);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOM> DOM; // @synthesize DOM=_DOM;

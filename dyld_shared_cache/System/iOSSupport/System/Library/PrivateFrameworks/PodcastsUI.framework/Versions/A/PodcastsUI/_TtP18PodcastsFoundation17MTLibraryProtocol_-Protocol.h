@@ -5,6 +5,5 @@
 //
 
 @protocol _TtP18PodcastsFoundation17MTLibraryProtocol_
-- (void);
 @end
 

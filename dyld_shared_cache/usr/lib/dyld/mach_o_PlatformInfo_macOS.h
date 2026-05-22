@@ -4,6 +4,6 @@
 
 class mach_o::PlatformInfo_macOS {
 public: // (access info unavailable from symbols alone)
-    minorVersionForSpring(unsigned short) const;
-    yearForVersion(mach_o::Version32, unsigned short&, bool&) const;
+    auto minorVersionForSpring(unsigned short) const;
+    auto yearForVersion(mach_o::Version32, unsigned short&, bool&) const;
 };

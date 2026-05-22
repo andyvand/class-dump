@@ -7,7 +7,6 @@
 @protocol SXContentScaleManagerDelegate;
 
 @protocol SXContentScaleManager
-- (id <SXContentScaleManagerDelegate>)<;
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentScale;

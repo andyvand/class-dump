@@ -21,17 +21,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)`;
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void)>;
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double force; // @synthesize force=_force;

@@ -36,8 +36,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)mItemListManager.swift;
 
 // Remaining properties
 @property(nonatomic) long long audioSessionKind; // @synthesize audioSessionKind=_audioSessionKind;

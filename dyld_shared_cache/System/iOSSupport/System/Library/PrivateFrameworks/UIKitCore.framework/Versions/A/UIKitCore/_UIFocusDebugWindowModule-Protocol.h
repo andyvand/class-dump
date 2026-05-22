@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol _UIFocusDebugWindowModule
-- (NSString *);
-- (void)$;
+- (NSString *)%@;
 @end
 

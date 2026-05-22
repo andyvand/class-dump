@@ -15,13 +15,11 @@
 + (long long);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (_Bool);
-- (id)q
-°1b0@ù
-× ;
+- (void)alSizeClass;
+- (id)3AMSURLRequestCSg;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;

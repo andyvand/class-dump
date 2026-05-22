@@ -10,10 +10,10 @@
 {
 }
 
+- (void);
 - (id);
-- (void)@;
-- (void)earStartDateKey:(_Bool)arg1 %{public}@;
 - (id);
+- (void);
 
 @end
 

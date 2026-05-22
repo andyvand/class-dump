@@ -8,22 +8,22 @@
 {
 }
 
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (id);
-- (id)#;
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)p;
-- (void);
 - (id);
 
 @end

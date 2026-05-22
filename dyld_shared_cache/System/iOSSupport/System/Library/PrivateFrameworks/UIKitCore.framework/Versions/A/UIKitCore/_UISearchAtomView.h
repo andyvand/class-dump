@@ -27,12 +27,12 @@
     UIImageView *_leadingImage;
 }
 
-+ (id)rs;
 + (id);
-+ (_Bool);
-+ (id);
-- (id)ngMinimalManifests;
-- (id)ed amfdr object;
++ (id);
++ (id);
++ (_Bool)"32;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -41,39 +41,38 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id));
+- (id);
 - (id);
 - (void);
-- (id)ns;
+- (id);
 - (struct CGRect);
 - (double);
 - (void);
 - (void);
-- (void);
-- (long long);
 - (void);
 - (void);
-- (id);
-- (void)0@ù
+- (_Bool);
+- (id);
+- (void)!Aù_°1Â0@ù
 × ;
-- (void)!ÄDùqÊð1¢!0@ù
-× ;
-- (id)tsWithResponder:keyMaskFlags: /* Error: Ran out of types for this method. */;
-- (id)nOutset;
-- (void)iginatingStack;
-- (void)radiosityOffset;
-- (id)ScenePresentationManagerPrioritizedPresenterObserver;
-- (id)Ø7úÿá¾è3Îûÿ>ûÿP;
-- (void)`ù;
-- (_Bool);
-- (void)ßþ;
+- (void)esentationControllerVisualStyling>"24@0:(long long)arg1 8@"UIPresentationController"16;
+- (long long)cTraits;
+- (id)etion:(struct CGRect)arg1 animated: /* Error: Ran out of types for this method. */;
+- (id)%@" to %@;
+- (void)]þ;
+- (id)st char *__ui_archive_entry_pathname(struct ui_archive_entry *);
+- (void);
+- (void);
+- (id);
+- (void)Ùÿ;
+- (void)\ìþÿÏÎx[_;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAtomForegroundColor:) UIColor *_atomForegroundColor;

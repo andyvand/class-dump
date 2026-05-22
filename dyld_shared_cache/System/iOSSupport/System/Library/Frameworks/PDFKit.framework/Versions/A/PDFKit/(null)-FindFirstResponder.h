@@ -7,7 +7,7 @@
 @interface (null) (FindFirstResponder)
 - (id);
 - (id);
-- (id)gate>";
+- (id);
 - (id);
 - (id);
 @end

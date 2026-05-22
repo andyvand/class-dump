@@ -15,12 +15,11 @@
 
 - (id);
 - (void);
-- (void)c@;
 - (id);
-- (id)ncesRef=};
 - (id);
-- (void)BùQ],Ð1¢!0@ù
-× ;
+- (void);
+- (id);
+- (void)ing;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

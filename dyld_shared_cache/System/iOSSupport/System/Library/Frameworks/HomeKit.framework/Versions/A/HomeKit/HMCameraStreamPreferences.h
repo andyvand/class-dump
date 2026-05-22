@@ -14,8 +14,8 @@
     long long _minimumRequiredAvailableOrInUseStreams;
 }
 
-+ (id)x^ _`aÔa;
-+ (_Bool)CharacteristicsByService;
++ (id);
++ (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -24,15 +24,15 @@
 - (void);
 - (long long);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)g",R,C,N,V_macAddress;
-- (id)UserInfo object;
+- (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

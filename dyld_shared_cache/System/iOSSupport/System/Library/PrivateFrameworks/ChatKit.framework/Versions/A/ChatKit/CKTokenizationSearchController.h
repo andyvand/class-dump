@@ -20,15 +20,15 @@
 + (id);
 + (id);
 - (_Bool);
-- (void)l;
-- (id).;
-- (id):(id)arg1 itemsPerSection:(id)arg2 ` arrangedObjects.count should match the total number of items in each section in itemsPerSection and index should greater than 0 and less than arrangedObjects.count.;
-- (struct NSDirectionalEdgeInsets)se try again.;
+- (void);
+- (id);
+- (id);
+- (struct NSDirectionalEdgeInsets);
 - (_Bool);
 - (id);
-- (id);
 - (double);
-- (long long);
+- (id);
+- (long long)nd chat for transfer with GUID %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *searchTokens;

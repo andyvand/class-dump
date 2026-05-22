@@ -6,8 +6,11 @@
 
 #import <IMDPersistence/(extension in IMDPersistence):__C.IMPersistentTaskFlag.Group.h>
 
+@class MISSING_TYPE;
+
 @interface (extension in IMDPersistence):__C.IMPersistentTaskFlag.SpotlightGroup : (extension in IMDPersistence):__C.IMPersistentTaskFlag.Group
 {
+    MISSING_TYPE *$__lazy_storage_$_patchSpotlightReasons;
 }
 
 @end

@@ -67,18 +67,22 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -87,11 +91,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)onCSg;
+- (id)ÔáÐ!xAùq1B50@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long accessoryType; // @synthesize accessoryType;

@@ -26,21 +26,21 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)@68@0:(struct _NSZone *)arg1 8@16@24@32@40@48@56s64;
+- (void)arget:(id)arg1;
+- (void);
+- (id)hot;
 - (void);
 - (void);
+- (long long)device. See rdar://114337073 /* Error: Ran out of types for this method. */;
+- (id)ControllerDismissalInteractionController.swift;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)tus;
-- (void)eTitleMusicSystemImageConfiguration;
-- (long long)èA;
-- (id)tShelvesInOrderByIDString;
+- (id)´õôÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool alreadyImportedGroup; // @synthesize alreadyImportedGroup=_alreadyImportedGroup;

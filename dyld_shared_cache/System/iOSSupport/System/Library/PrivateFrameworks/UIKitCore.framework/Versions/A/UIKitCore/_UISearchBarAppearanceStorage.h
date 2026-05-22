@@ -21,13 +21,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)!GùÅÐ1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (void)ChangeValue"24;
-- (id)teamMetadata;
-- (void)\¢;
-- (id)tAÜAB;
-- (void)anged from %.1f to %.1f;
+- (void)a!,@ù1d°1Â0@ù
+× ;
+- (id)
+× ;
+- (void)erformInModes:(id)arg1 block: /* Error: Ran out of types for this method. */;
+- (id)e the temporary store at %@, %@;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *scopeBarBackgroundImage; // @synthesize scopeBarBackgroundImage;

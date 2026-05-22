@@ -5,6 +5,5 @@
 //
 
 @protocol TUICursorAccessoryAssertion
-- (void);
 @end
 

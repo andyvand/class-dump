@@ -16,13 +16,12 @@
     MISSING_TYPE *customView;
 }
 
-- (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (struct CGSize);
-- (id)ractionPulseScalePtsX;
-- (void)oq;
+- (void);
+- (id)BorderView;
+- (void)_compression_all(struct ui_archive *);
+- (struct CGSize);
+- (void)HÇFÿSÕXÑl;
 
 @end
 

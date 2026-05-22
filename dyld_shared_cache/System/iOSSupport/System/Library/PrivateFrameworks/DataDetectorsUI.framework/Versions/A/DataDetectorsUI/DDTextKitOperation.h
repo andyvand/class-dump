@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (struct __DDScanQuery *);
 - (struct _NSRange);
 - (struct _NSRange);
-- (void);
-- (void);
-- (void);
 - (struct _NSRange);
-- (id)ext:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UITextView *container; // @dynamic container;

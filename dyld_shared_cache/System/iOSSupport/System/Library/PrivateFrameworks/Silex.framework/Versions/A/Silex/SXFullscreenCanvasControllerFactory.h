@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)"WKWebView"16@"WKContextMenuElementInfo"24@"<UIContextMenuInteractionCommitAnimating>"32;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXFullscreenCaptionViewFactory> captionViewFactory; // @synthesize captionViewFactory=_captionViewFactory;

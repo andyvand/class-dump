@@ -13,7 +13,7 @@
 
 - (void);
 - (Class);
-- (id);
+- (id)pired Symptom;
 
 // Remaining properties
 @property(readonly, nonatomic) Class cellClass;

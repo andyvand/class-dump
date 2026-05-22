@@ -13,13 +13,13 @@
     id <WFParameterState> _currentState;
 }
 
-+ (_Bool)e;
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFParameterState> currentState; // @synthesize currentState=_currentState;

@@ -13,12 +13,12 @@
 
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool)@"GameSyncedDirectoryResponse"@"NSError">24;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

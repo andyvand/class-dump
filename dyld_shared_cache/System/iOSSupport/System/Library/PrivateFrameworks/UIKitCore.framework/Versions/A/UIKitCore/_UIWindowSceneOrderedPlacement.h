@@ -13,17 +13,18 @@
     UISScenePlacementConfiguration *_config;
 }
 
-+ (id)*** T3 Update item [%@] could not find a chat as a source of truth, marking it as clean and moving on.;
-+ (id)r %@ does not support encryption.;
++ (id);
++ (id);
 + (unsigned long long);
-- (id)eMessagesWithGUIDsToRecentlyDeleted:(id *)arg1 deleteDate: /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (id);
-- (void);
-- (id)ration:(id)arg1;
-- (id)ISlidingBarState;
-- (void)vided by table delegate. Value must be at least 0.0, or UITableViewAutomaticDimension.;
-- (id)kdropView;
+- (id);
+- (void)
+× ;
+- (_Bool)@0:(id)arg1 8{CGPoint=dd}16i32;
+- (id);
+- (id)ILabel",&,N,S_setAssociatedScalingLabel:(id)arg1;
+- (id)PickerControllerViewWidth;
+- (void)rÎþÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UISScenePlacementConfiguration *config; // @synthesize config=_config;

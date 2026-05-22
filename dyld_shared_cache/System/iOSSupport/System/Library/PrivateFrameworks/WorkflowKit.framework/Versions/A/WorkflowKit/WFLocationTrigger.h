@@ -15,7 +15,7 @@
     NSDate *_endTime;
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);

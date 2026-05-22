@@ -12,13 +12,13 @@
 }
 
 + (id);
-- (id)S1S-SO;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)e;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSSiriIntelligenceDonor *siriIntelligenceDonor; // @synthesize siriIntelligenceDonor=_siriIntelligenceDonor;

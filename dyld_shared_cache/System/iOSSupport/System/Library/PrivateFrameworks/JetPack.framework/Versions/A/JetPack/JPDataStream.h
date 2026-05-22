@@ -13,9 +13,9 @@
     NSData *_data;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

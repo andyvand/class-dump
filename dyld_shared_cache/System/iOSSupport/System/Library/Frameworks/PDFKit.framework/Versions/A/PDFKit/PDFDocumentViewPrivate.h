@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)nalOptionsViewDelegate;
+- (void);
 
 @end
 

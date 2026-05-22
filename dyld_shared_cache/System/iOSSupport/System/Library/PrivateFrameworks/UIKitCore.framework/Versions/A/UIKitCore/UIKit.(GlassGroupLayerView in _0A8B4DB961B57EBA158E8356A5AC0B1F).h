@@ -27,11 +27,10 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)T@"UIView",N,&,Vview;
+- (void);
+- (id)SceneHostingEventDeferringFocusRequestActionToHost;
+- (void){þ&Ó8l;
 
 @end
 

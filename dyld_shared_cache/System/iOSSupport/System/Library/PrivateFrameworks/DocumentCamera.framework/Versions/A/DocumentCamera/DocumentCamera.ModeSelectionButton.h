@@ -8,11 +8,12 @@
 {
 }
 
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (void);
+- (_Bool)ñ|°1B50@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool selected;

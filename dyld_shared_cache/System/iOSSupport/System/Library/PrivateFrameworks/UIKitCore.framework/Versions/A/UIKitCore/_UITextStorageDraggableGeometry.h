@@ -15,27 +15,27 @@
     NSTextStorage *_textStorage;
 }
 
+- (id);
 - (CDUnknownBlockType);
-- (long long);
-- (void);
-- (id)R,N;
 - (_Bool);
-- (CDUnknownBlockType)ialImport to %{BOOL}u - Posting MPCloudControllerIsUpdateInProgressDidChangeNotification [Saga];
+- (CDUnknownBlockType);
 - (id);
-- (id);
-- (void);
-- (id)Ð1¢!0@ù
+- (CDUnknownBlockType);
+- (id)Ð1Â0@ù
 × ;
-- (CDUnknownBlockType)llectionCompositionalLayoutSolverResolveResult";
-- (CDUnknownBlockType)chDisplayController:(id)arg1 willShowSearchResultsTableView: /* Error: Ran out of types for this method. */;
-- (void)ump;
-- (id)ltAxis:(id)arg1;
-- (id)tAttributes;
+- (id)uggingPriority:(id)arg1 forAxis: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)hesWithEvent:(id)arg1;
+- (void)RectForCell:(long long)arg1;
 - (id)e;
-- (id)nged:(id)arg1;
-- (CDUnknownBlockType)N,V_deactivatedByControlCenter;
-- (id)eCompositingFiler;
-- (id)hZ71¥4pP;
+- (CDUnknownBlockType)resenter;
+- (id);
+- (void);
+- (id)animation cannot be performed more than once.;
+- (id)plitViewControllerAdaptiveImpl _enableAppearanceTransitionsInViewController:(id)arg1 ];
+- (long long)ttonConfigurationImageColorTransformer;
+- (id)upplementaryColWidth=%g;
+- (id)SWorkspaceSceneUpdateResponse">8;
+- (void)¢;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

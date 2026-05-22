@@ -14,13 +14,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)@"NSWindow",W,V_window;
-- (void);
-- (void);
-- (void);
-- (id)mily URL;
 - (id);
+- (void);
 - (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long cornerPosition; // @synthesize cornerPosition=_cornerPosition;

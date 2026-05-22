@@ -4,22 +4,22 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
-    __init(char const*, unsigned long);
-    __init(unsigned long, char);
-    append(char const*);
-    append(char const*, unsigned long);
-    assign(char const*);
+    auto __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
+    auto __init(char const*, unsigned long);
+    auto __init(unsigned long, char);
+    auto append(char const*);
+    auto append(char const*, unsigned long);
+    auto assign(char const*);
+    auto compare(unsigned long, unsigned long, char const*, unsigned long) const;
+    auto erase(unsigned long, unsigned long);
+    auto insert(std::__1::__wrap_iter<char const*>, char);
+    auto insert(unsigned long, char const*);
+    auto operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    auto push_back(char);
+    auto replace(unsigned long, unsigned long, char const*);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, char);
     basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
     basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long, unsigned long, std::__1::allocator<char> const&);
-    compare(unsigned long, unsigned long, char const*, unsigned long) const;
-    erase(unsigned long, unsigned long);
-    insert(std::__1::__wrap_iter<char const*>, char);
-    insert(unsigned long, char const*);
-    operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
-    push_back(char);
-    replace(unsigned long, unsigned long, char const*);
-    reserve(unsigned long);
-    resize(unsigned long, char);
     ~basic_string();
 };

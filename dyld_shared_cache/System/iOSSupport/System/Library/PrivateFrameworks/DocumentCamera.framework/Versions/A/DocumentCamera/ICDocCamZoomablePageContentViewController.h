@@ -40,25 +40,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
+- (void);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id)thumbnailViewController;
-- (double)dAddAppLifetimeObservers;
-- (void)ØÀ;
-- (void)È;
+- (void);
+- (void)essGestureRecognizer:(id)arg1;
+- (double)ü;
 
 // Remaining properties
 @property(retain, nonatomic) VKCImageAnalysisInteraction *analysisInteraction; // @synthesize analysisInteraction=_analysisInteraction;

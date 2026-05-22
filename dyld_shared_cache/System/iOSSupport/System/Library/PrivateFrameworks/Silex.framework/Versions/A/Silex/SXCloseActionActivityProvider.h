@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (void);
+- (void)4@0:8@"SXTextSource"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

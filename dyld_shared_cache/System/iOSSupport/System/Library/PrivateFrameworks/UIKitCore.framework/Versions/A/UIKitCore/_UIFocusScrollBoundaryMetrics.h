@@ -35,18 +35,18 @@
 - (struct CGPoint);
 - (struct CGRect);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)Enable MiC by default:(struct CGRect)arg1 isUnderFirstUnlock, deferring to unlock;
+- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties

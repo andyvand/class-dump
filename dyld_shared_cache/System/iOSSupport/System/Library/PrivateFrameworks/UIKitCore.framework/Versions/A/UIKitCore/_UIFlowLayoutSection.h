@@ -41,73 +41,75 @@ __attribute__((visibility("hidden")))
     struct CGRect _footerFrame;
 }
 
-- (void);
-- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
 - (double);
 - (void);
 - (id);
-- (void);
-- (struct CGRect)HELLO;
-- (void);
-- (double);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
-- (void)_referenceItemPositionIdentifier;
-- (double)delPropertyMovieLibraryAddedDate;
 - (long long);
 - (double);
-- (struct CGRect);
-- (void);
-- (void);
-- (double);
-- (long long);
-- (long long);
-- (void);
-- (void);
 - (_Bool);
-- (double)0)ÿ¹;
+- (id);
+- (struct CGRect);
 - (void);
 - (double);
-- (double)× ;
-- (id)ñÅð1¢!0@ù
-× ;
-- (void);
-- (struct CGRect)0@ù
-× ;
-- (void)ð1¢!0@ù
-× ;
+- (struct CGRect);
 - (double);
-- (struct _NSRange);
-- (void)!0@ù
+- (double);
+- (struct CGRect);
+- (id);
+- (struct CGSize);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void)× ;
+- (void)0@ù
 × ;
-- (struct CGRect)[46B][64c][64c][256c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24r*28i36B40;
-- (void)w";
-- (double)urceInteractionForDragItem: /* Error: Ran out of types for this method. */;
-- (void)omputeCurrentTimingFunction: /* Error: Ran out of types for this method. */;
-- (void)fPopover:(struct CGSize)arg1;
-- (id)SendDidDismiss;
-- (id)ut: /* Error: Ran out of types for this method. */;
-- (void)gurationHasBeenSentToDelegate;
-- (id)Configuration;
-- (struct CGSize)ibutesForImageView:imageProperty:actionViewState: /* Error: Ran out of types for this method. */;
-- (id)_applyOverrideSettings:forActions: /* Error: Ran out of types for this method. */;
-- (void)legatePrivate>",R,N;
-- (void)gate",R,N;
-- (long long)er;
-- (void)¬J;
-- (void)nSites.plist;
-- (id)ing = %@;
-- (double)rs that is produced when they try to activate a scene session using an invalid role.;
-- (void)ger _UIUpdateMapNewSectionForOldSection(const _UIDataSourceUpdateMaps, const NSInteger);
-- (id)es must be performed on the main thread;
-- (_Bool)ionalLight;
-- (CDStruct_2f5e8405),­ÿßêÝ];
-- (struct CGRect)AJÙî_;
-- (id)ÀÌÓÿ¤·;
-- (void)3a;
-- (void):b /* Error: Ran out of types for this method. */;
+- (void)!|Gù1bÐ1Â0@ù
+× ;
+- (void)ÔAð!pFùÑbÐ1Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (void)ð1Â0@ù
+× ;
+- (id)Â0@ù
+× ;
+- (CDStruct_2f5e8405)@"UIPreviewParameters";
+- (double)ash<long>>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (double)>";
+- (struct CGRect)peBarButtonTitleTextAttributes:forState: /* Error: Ran out of types for this method. */;
+- (struct CGRect)ner: /* Error: Ran out of types for this method. */;
+- (id)FromCandidateBar: /* Error: Ran out of types for this method. */;
+- (double)tEmojiPopover;
+- (void)r;
+- (struct UIEdgeInsets)t;
+- (struct CGRect)AffectedByScrollNotification:(id)arg1;
+- (long long)ScrollInset;
+- (long long)immingView;
+- (struct _NSRange)ted: /* Error: Ran out of types for this method. */;
+- (void)sEffect",C,N;
+- (double)stUndimmedDetentIdentifierWhenEdgeAttachedInCompactHeight: /* Error: Ran out of types for this method. */;
+- (void)xtInputMode;
+- (void)D;
+- (void)ry, ignoring:(struct CGSize)arg1 %@;
+- (id)tion != nil;
+- (void)ts;
+- (void);
+- (void)\;
+- (id)Ü¼8_;
+- (id)6êÿq;
+- (id)0;
 
 // Remaining properties
 @property(readonly, nonatomic) double actualGap; // @synthesize actualGap=_actualGap;

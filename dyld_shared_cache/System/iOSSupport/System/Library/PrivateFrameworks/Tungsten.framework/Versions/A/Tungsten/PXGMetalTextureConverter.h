@@ -50,19 +50,19 @@
 - (struct CGColorSpace *);
 - (void);
 - (unsigned char);
-- (id);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)àë;
-- (id):max /* Error: Ran out of types for this method. */;
+- (id)2@0:8@16Q24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PXGColorProgramLibrary *colorProgramLibrary; // @synthesize colorProgramLibrary=_colorProgramLibrary;

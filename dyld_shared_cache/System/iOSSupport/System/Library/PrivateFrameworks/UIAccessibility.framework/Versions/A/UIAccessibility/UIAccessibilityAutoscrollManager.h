@@ -15,7 +15,7 @@
     id _targetToScroll;
 }
 
-+ (id)ë¨ïäïÄð;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -24,20 +24,20 @@
 - (unsigned long long);
 - (_Bool);
 - (double);
-- (void)lName;
-- (_Bool)me;
-- (_Bool)s",&,N,V_detailedSaliencyProgress;
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
-- (unsigned long long);
 - (void);
-- (id)
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void)ð1Â0@ù
 × ;
-- (void)or notification:(id)arg1 <%@:%p> %d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double autoscrollSpeed; // @synthesize autoscrollSpeed=_autoscrollSpeed;

@@ -24,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (id);
-- (void);
-- (_Bool)ÑtéXª;
+- (_Bool);
+- (void)ge;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

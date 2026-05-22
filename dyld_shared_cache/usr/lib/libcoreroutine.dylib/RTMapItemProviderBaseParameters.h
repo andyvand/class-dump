@@ -17,8 +17,8 @@
 - (double);
 - (double);
 - (id);
-- (id)cheMaxSizeBytes;
-- (id)atisfying:(id)arg1 fingerprint (in %s:%d) /* Error: Ran out of types for this method. */;
+- (id);
+- (id)not possible,No locations for tripSegment,tripID,%@;
 
 // Remaining properties
 @property(readonly, nonatomic) double locationUncertaintyMax; // @synthesize locationUncertaintyMax=_locationUncertaintyMax;

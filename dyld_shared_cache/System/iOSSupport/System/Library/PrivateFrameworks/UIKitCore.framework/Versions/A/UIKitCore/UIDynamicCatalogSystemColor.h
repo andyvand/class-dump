@@ -17,14 +17,13 @@ __attribute__((visibility("hidden")))
     unsigned long long _cachedThemeKey;
 }
 
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)pdateTime,S_setCloseToEdgeUpdateTime:(id)arg1 ,V_closeToEdgeUpdateTime;
-- (id)ow;
-- (id)id _NSDiffableDataSourceSectionSnapshotOrphanDisposition:(id)arg1 %ld;
+- (unsigned long long);
+- (_Bool)UsingSilhouette:(id)arg1 size: /* Error: Ran out of types for this method. */;
+- (id)ÿÿÿÿX;
+- (void);
+- (id);
+- (id);
 
 @end
 

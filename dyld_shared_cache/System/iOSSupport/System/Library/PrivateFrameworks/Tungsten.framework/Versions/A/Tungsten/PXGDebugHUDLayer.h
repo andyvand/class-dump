@@ -23,11 +23,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (struct CGColor *);
 - (void);
 - (struct CGColor *);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *graphLayers; // @synthesize graphLayers=_graphLayers;

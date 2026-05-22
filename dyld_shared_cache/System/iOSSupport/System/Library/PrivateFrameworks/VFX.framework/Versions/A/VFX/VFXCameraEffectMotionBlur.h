@@ -12,16 +12,16 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ap>"24@0:8@"MTLHeapDescriptor"16 /* Error: Ran out of types for this method. */;
 - (struct __CFXCameraEffectMotionBlur *);
 - (void);
 - (void);
 - (void *);
 - (void);
-- (void);
-- (id);
 - (id);
 - (float);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) float intensity;

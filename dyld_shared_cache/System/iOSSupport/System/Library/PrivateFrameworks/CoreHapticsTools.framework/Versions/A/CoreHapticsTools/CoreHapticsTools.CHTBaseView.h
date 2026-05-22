@@ -17,21 +17,21 @@
     MISSING_TYPE *contentLayer;
 }
 
-- (struct CGRect);
+- (id);
 - (struct CGAffineTransform);
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (void);
-- (void);
-- (void);
+- (struct CGRect);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)+ì,(.l01;
+- (void);
+- (void);
+- (void)Ü;
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

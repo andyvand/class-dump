@@ -12,13 +12,13 @@
     NSXPCConnection *_credentialExtractionHelperConnection;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)!@n;
+- (void);
+- (void)^;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *credentialExtractionHelperConnection; // @synthesize credentialExtractionHelperConnection=_credentialExtractionHelperConnection;

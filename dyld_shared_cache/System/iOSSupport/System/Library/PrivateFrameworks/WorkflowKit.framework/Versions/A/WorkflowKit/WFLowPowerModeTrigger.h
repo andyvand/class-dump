@@ -16,18 +16,18 @@
 
 + (id);
 + (id);
-+ (id)rÌ;
++ (id);
 + (_Bool);
 + (id);
-+ (id)EÉ;
++ (id);
 + (id);
 + (id);
 + (id);
 + (long long);
 + (id);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool)the edge of the image. Otherwise, the text will wrap within the bounds of the width. Optional. (WFTextBoxWidth);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

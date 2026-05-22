@@ -23,14 +23,14 @@
 - (void);
 - (void);
 - (void);
-- (double);
-- (id);
-- (void)ption: /* Error: Ran out of types for this method. */;
+- (double);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)rintCountWithTimeWindowFallback;
+- (id)TzT{Ä}¬~\t°ì´ð,¤Øp;
+- (id)erForRhythmicNonWakingLocation];
+- (void)iltering result due to filter location;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

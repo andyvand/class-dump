@@ -12,14 +12,14 @@
     double endItemTargetTime;
 }
 
-- (double)nsForDataclasses: /* Error: Ran out of types for this method. */;
-- (double)ccount: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double)account. accountToDelete = %{public}@ | error = %{public}@;
-- (double)lic}@] Error deleting existing account. accountToDelete = %{public}@ | error = %{public}@;
+- (double);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double endItemSourceTime; // @synthesize endItemSourceTime;

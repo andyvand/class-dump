@@ -14,16 +14,17 @@ __attribute__((visibility("hidden")))
     NSDate *_beginDate;
 }
 
-- (long long)it is not implemented;
+- (long long);
 - (void);
 - (_Bool);
 - (id);
 - (long long);
 - (void);
-- (_Bool)LS1_WRITE;
-- (void);
-- (id)ToPreferredSize: /* Error: Ran out of types for this method. */;
-- (id)TasksFromActions:intoAssistantTasks:andUnhandledActions: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool)
+× ;
+- (void)w;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

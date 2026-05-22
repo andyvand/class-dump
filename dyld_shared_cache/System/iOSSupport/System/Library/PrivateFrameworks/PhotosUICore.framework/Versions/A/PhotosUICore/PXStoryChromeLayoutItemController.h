@@ -34,17 +34,17 @@
 - (void);
 - (void);
 - (void);
-- (double);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)backBehavior: /* Error: Ran out of types for this method. */;
-- (void)d to:(double)arg1 %d, runLoopMode = %{public}@;
-- (id)otosUICore30StoryViewCurationBarButtonItem;
-- (void)ÿ·;
-- (id)Ôîÿ÷Oí®5;
+- (double)NavigationBar;
+- (void)pdating suggestion with error:%@ /* Error: Ran out of types for this method. */;
+- (void)ils:(id)arg1;
+- (void)dismissalFractionForHidingChrome;
+- (id)Ü%4;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

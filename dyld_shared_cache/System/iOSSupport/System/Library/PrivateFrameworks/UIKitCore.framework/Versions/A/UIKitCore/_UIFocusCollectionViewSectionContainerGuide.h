@@ -15,12 +15,13 @@ __attribute__((visibility("hidden")))
     UICollectionView *_collectionView;
 }
 
+- (id)!GùqeÐ1Â0@ù
+× ;
+- (void)Properties;
+- (long long)text: /* Error: Ran out of types for this method. */;
+- (id)onnection;
+- (void)ut-modes;
 - (void);
-- (long long);
-- (void);
-- (id),G_useReducedTransparencyForContentEffects,S_setUseReducedTransparencyForContentEffects:(id)arg1;
-- (void)ìÈ¸ÓTÖ;
-- (id)¡zþÿ;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

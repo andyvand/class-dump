@@ -5,8 +5,6 @@
 //
 
 @protocol MTLComputeCommandEncoder
-- (void)_pSgXw;
-- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long dispatchType;

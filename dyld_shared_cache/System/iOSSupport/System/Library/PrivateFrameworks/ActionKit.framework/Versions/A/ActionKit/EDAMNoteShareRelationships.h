@@ -22,8 +22,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)k_invoke;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMNoteShareRelationshipRestrictions *invitationRestrictions; // @synthesize invitationRestrictions=_invitationRestrictions;

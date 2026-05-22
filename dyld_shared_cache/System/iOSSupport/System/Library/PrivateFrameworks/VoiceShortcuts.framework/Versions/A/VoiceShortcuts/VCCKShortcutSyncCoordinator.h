@@ -5,7 +5,7 @@
 //
 
 @class CKContainer, CKRecordID, NSObject, NSString, NSUserDefaults, VCCKApplicationStateObserver, VCCKShortcutSyncService, WFCloudKitSyncEventLogger;
-@protocol OS_dispatch_queue, OS_nw_path_monitor, WFDatabaseProvider;
+@protocol OS_dispatch_queue, OS_nw_path_monitor, VCDaemonTaskScheduler, WFDatabaseProvider;
 
 @interface VCCKShortcutSyncCoordinator
 {
@@ -15,6 +15,7 @@
     WFCloudKitSyncEventLogger *_logger;
     long long _accountStatus;
     id <WFDatabaseProvider> _databaseProvider;
+    id <VCDaemonTaskScheduler> _daemonTaskScheduler;
     CKContainer *_container;
     NSObject<OS_dispatch_queue> *_stateAccessQueue;
     NSObject<OS_nw_path_monitor> *_pathMonitor;
@@ -38,39 +39,39 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)[I¬>;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountForSyncToken;
@@ -78,7 +79,8 @@
 @property(readonly, nonatomic) NSUserDefaults *appleAccountUserDefaults; // @synthesize appleAccountUserDefaults=_appleAccountUserDefaults;
 @property(readonly, nonatomic) VCCKApplicationStateObserver *applicationObserver; // @synthesize applicationObserver=_applicationObserver;
 @property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) VCCKShortcutSyncService *currentSyncService; // @synthesize currentSyncService=_currentSyncService;
+@property(readonly, nonatomic) VCCKShortcutSyncService *currentSyncService; // @synthesize currentSyncService=_currentSyncService;
+@property(readonly, nonatomic) id <VCDaemonTaskScheduler> daemonTaskScheduler; // @synthesize daemonTaskScheduler=_daemonTaskScheduler;
 @property(readonly, nonatomic) id <WFDatabaseProvider> databaseProvider; // @synthesize databaseProvider=_databaseProvider;
 @property(readonly, nonatomic) WFCloudKitSyncEventLogger *logger; // @synthesize logger=_logger;
 @property(readonly, nonatomic) NSObject<OS_nw_path_monitor> *pathMonitor; // @synthesize pathMonitor=_pathMonitor;

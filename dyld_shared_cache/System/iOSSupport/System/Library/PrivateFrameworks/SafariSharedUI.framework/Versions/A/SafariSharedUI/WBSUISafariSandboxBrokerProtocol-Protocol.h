@@ -5,6 +5,5 @@
 //
 
 @protocol WBSUISafariSandboxBrokerProtocol
-- (void);
 @end
 

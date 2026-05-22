@@ -5,7 +5,7 @@
 class icu::LocaleMatcher::Result {
 public: // (access info unavailable from symbols alone)
     Result(icu::LocaleMatcher::Result&&);
-    makeResolvedLocale(UErrorCode&) const;
-    operator=(icu::LocaleMatcher::Result&&);
+    auto makeResolvedLocale(UErrorCode&) const;
+    auto operator=(icu::LocaleMatcher::Result&&);
     ~Result();
 };

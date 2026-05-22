@@ -4,6 +4,6 @@
 
 class dyld3::ScopedTimer {
 public: // (access info unavailable from symbols alone)
-    endTimer();
-    startTimer();
+    auto endTimer();
+    auto startTimer();
 };

@@ -14,9 +14,9 @@
     MISSING_TYPE *touchInsets;
 }
 
-- (id)Add;
-- (void)x;
 - (id);
+- (id);
+- (void)V_ýÿ°_ýÿ;
 
 @end
 

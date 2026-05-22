@@ -11,12 +11,12 @@
 }
 
 - (id);
-- (_Bool);
-- (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (_Bool);
+- (_Bool);
+- (id)erItem"24;
+- (void)_isDaysMonthsYearsStructureEnabled;
 
 // Remaining properties
 @property(nonatomic) _Bool allowPreCaching; // @synthesize allowPreCaching=_allowPreCaching;

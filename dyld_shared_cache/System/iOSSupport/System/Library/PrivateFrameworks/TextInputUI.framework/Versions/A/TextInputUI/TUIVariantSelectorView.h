@@ -13,28 +13,28 @@
     NSValue *_cornerRadiusOverride;
 }
 
-+ (long long);
++ (long long);
 + (double);
 - (id);
 - (id);
 - (void);
 - (struct UIEdgeInsets);
-- (struct CGSize)¸õy;
-- (struct CGSize);
+- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (id);
-- (id)Óz;
-- (double)æ|;
-- (double)æ|;
 - (id);
-- (id)|z;
-- (void)é$æ|;
+- (double);
+- (double);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSValue *cornerRadiusOverride; // @synthesize cornerRadiusOverride=_cornerRadiusOverride;

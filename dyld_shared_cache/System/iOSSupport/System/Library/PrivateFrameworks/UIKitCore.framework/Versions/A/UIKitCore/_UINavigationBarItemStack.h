@@ -16,51 +16,50 @@
     _UINavigationBarTransitionAssistant *_transitionAssistant;
 }
 
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (_Bool)ar;
 - (void);
-- (id)synchronous callback;
+- (id);
+- (void);
 - (void);
 - (_Bool);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (id);
-- (long long)!<AùÑÁ1¢!0@ù
-× ;
-- (void)BùÅ1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (void): /* Error: Ran out of types for this method. */;
-- (id)ropView: /* Error: Ran out of types for this method. */;
-- (void)mpletionHandler:(CDUnknownBlockType)arg1;
-- (int)eQuotaManager;
-- (id)orSelectedDateChange;
-- (id)tateRequest;
-- (id)backgroundColorForDeleteConfirmationButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)tedTextRange;
-- (long long)Insets:(id)arg1 ,V_backgroundInsets;
-- (void),N,V_stepCount;
-- (_Bool)canToggleBold;
-- (id)rceCustomViewSupport;
-- (id),V_obscured;
-- (void),N,GisEditing,Vm_editing;
-- (void)NSArray",C,N,V_currentBundleIdentifiers;
-- (void)//Ð/<1ä1\2;
 - (void);
+- (_Bool);
+- (id);
+- (long long);
+- (id);
 - (void);
-- (id)%@ has a parent focus environment of %@ but this environment does not provide a container for focus items.;
-- (id)attingViewControllerTextAlignmentRightComponent;
-- (id)e_$_progress;
-- (void)System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities;
-- (id)I@Ä;
-- (id)Âv_;
+- (id);
+- (id);
+- (id);
+- (void)Â0@ù
+× ;
+- (id)Ñ]Ð1Â0@ù
+× ;
+- (int);
+- (id)peration"24@?<v@?Q>32;
+- (_Bool)ayoutInfo: /* Error: Ran out of types for this method. */;
+- (void)stCommitDuration: /* Error: Ran out of types for this method. */;
+- (long long)rSystemItem:(id)arg1 tag:(id)arg2;
+- (id)yle: /* Error: Ran out of types for this method. */;
+- (id)etUpGeometryChangeResponse;
+- (id)ScrollStarted: /* Error: Ran out of types for this method. */;
+- (void)r: /* Error: Ran out of types for this method. */;
+- (id)ransitionCoordinator: /* Error: Ran out of types for this method. */;
+- (id)interactionWillDealloc;
+- (id)aseInsetsToIndexBarInsets;
+- (void)rentTest;
+- (void)legate>",W,N,V_delegate;
+- (void)iewLayout_Mac;
+- (_Bool)Ü;
+- (void)ion.;
+- (void)ibraryKey getCHHapticPatternLibraryKeyKeyboardInputSeparator(void);
+- (void)(%d) must be equal to the number of sections contained in the collection view before the update (%d), plus or minus the number of sections inserted or deleted (%d inserted, %d deleted). Collection view:%@ /* Error: Ran out of types for this method. */;
+- (long long)tal;
+- (void)ÿÿÿÿ;
+- (void)W\;
 
 // Remaining properties
 @property(readonly, nonatomic) _UINavigationBarItemStackEntry *backEntry;

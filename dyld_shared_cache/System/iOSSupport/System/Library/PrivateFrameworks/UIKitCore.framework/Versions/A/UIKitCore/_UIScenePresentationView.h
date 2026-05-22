@@ -25,46 +25,44 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)ionHeight:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)Áq!ÌAùñÄ1¢!0@ù
-× ;
-- (id)ð1¢!0@ù
-× ;
-- (void)QÆÐ1¢!0@ù
-× ;
-- (void);
-- (void)rollViewDelegate>";
-- (id)tem: /* Error: Ran out of types for this method. */;
-- (id)entHierarchyStyle:(id)arg1;
-- (void)allWritingDirectionFollowsLayoutDirection:(id)arg1;
-- (id)ateIOSurfaceWithContextIds:(id)arg1 count:frame: /* Error: Ran out of types for this method. */;
-- (id)edTraitsForLetterKey: /* Error: Ran out of types for this method. */;
-- (id):andOldContentSize: /* Error: Ran out of types for this method. */;
-- (id)"_UIFocusEventDelivery",R,N,V_eventDelivery;
-- (id),þþ;
-- (id)I;
-- (void)d´;
-- (id)ot compute update value after shadow updates. Map:%@,, update:%@, shadowUpdatesMap:%@ /* Error: Ran out of types for this method. */;
-- (void)@, when the top item belongs to a different navigation bar. topItem = %@, navigation bar = %@, possibly from a client attempt to nest wrapped navigation controllers.This mismatch may cause a layout feedback loop. This will become an assert in a future version.;
-- (id)ITextFormattingViewControllerTextAlignmentCenterComponent;
-- (Class)B24;
 - (id);
-- (void)¦^;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)°1Â0@ù
+× ;
+- (id)ñcÐ1Â0@ù
+× ;
+- (Class)Item>"32q40;
+- (void)ws;
+- (id)crollViewWillEndDraggingInvocationsToPerform;
+- (void)m;
+- (id)eCancelledByGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (void)ssary: /* Error: Ran out of types for this method. */;
+- (void)gestureRecognizerForPreviewActions;
+- (id),&,N,V_scrollPocketInteraction;
+- (void),V_continuousDisplayedPage;
+- (void)DirectionalLight;
+- (id)Tâ;
+- (void)Ô;
+- (id)for key %@ from requested class %@, to class %@;
+- (id);
+- (void)aryEnroller.m;
+- (id)ses;
+- (void)UÂ03¬E;
+- (void)îÞ;
+- (void)þÿÿÿÿ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setGeometryDriverStorage:) _UIScenePresenterGeometryDriverStorage *_geometryDriverStorage; // @synthesize _geometryDriverStorage;

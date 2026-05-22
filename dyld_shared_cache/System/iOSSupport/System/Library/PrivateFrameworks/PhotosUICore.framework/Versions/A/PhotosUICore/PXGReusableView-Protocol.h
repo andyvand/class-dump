@@ -9,7 +9,7 @@
 @protocol PXGReusableView
 
 @optional
-- (_Bool)13 Pro;
+- (_Bool)acFilterActionPerformer;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

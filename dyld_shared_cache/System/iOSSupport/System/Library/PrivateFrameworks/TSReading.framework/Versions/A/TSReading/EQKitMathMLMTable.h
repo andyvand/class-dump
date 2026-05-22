@@ -17,9 +17,9 @@
 - (const void *);
 - (struct Schemata);
 - (_Bool);
-- (id)Q?);
 - (id);
-- (void);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties

@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)wStyle:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCHIPEcosystem *connectedEcosystem; // @synthesize connectedEcosystem=_connectedEcosystem;

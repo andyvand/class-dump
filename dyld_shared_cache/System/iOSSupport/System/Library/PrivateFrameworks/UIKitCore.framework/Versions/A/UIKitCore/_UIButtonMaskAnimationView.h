@@ -18,19 +18,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (unsigned long long)v24@0:8@?<v@?@"IMNickname">16 /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (struct CGRect);
-- (double);
-- (_Bool)y;
 - (void);
+- (id);
 - (void);
-- (void)µº;
-- (id)mSeparator;
-- (id)Constraint;
-- (id)fication;
-- (void)reenMode"8@"NSDictionary"16;
-- (void)%p image=%@ frame=%@>;
-- (void)GÌ9æ_;
+- (id);
+- (_Bool)0@ù
+× ;
+- (void)!EùÑeð1Â0@ù
+× ;
+- (id)onBarTitleFontProviderTV;
+- (double);
+- (void)q;
+- (void)l-ÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) UIColor *borderColor;

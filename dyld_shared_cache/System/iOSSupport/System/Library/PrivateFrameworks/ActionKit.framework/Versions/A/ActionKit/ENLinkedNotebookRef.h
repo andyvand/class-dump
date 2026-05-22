@@ -21,13 +21,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (id)o %@ on port %ld succesful;
-- (void)ÿQ¦:(id)arg1 ;
+- (id)(Ô;
+- (void)s;
+- (void)üåîÿø;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;

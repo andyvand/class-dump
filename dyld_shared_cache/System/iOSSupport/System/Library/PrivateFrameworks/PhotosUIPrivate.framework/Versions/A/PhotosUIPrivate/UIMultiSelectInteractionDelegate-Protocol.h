@@ -4,20 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UIMultiSelectInteraction;
+
 @protocol UIMultiSelectInteractionDelegate
-- (void)m;
-- (_Bool)onOptions;
-- (_Bool)§;
-- (void)aint;
-- (void)_pickerConfigurationForAlbumPickerForPhotoLibrary instead;
-- (_Bool)PhotosUIViewController class]];
-- (void)¿Qo_ALGAPGAPGÝS½ySbGG;
-- (_Bool)hlightTimeRangesProducer;
+- (void)!<EùQ"1â
+0@ù
+× ;
+- (void)s:(UIMultiSelectInteraction *)arg1;
+- (_Bool)nalysisInteraction:(UIMultiSelectInteraction *)arg1;
+- (_Bool)rame;
+- (_Bool)nimatedImageRequestID: /* Error: Ran out of types for this method. */;
+- (void)ecting,V_swipeSelecting;
+- (_Bool)"NSTimer",&,N,V_settlingEffectPreviewDelayTimer;
 
 @optional
-- (void)sSectionHeaderViewDelegate;
-- (void)an error occurred;
-- (_Bool)?;
-- (_Bool)GGAJy*>¿GG;
+- (void)1â
+0@ù
+× ;
+- (_Bool)etItemToReorder:(NSIndexPath *)arg1;
+- (void)bundleRecordForAuditToken:(UIMultiSelectInteraction *)arg1 error:(struct CGPoint)arg2;
+- (void)ssetTypesToInclude;
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _Bool _isFirstPartyStickers;
 }
 
-- (void);
+- (void)¡ÿÿà¡ÿÿT¥ÿÿÔ¥ÿÿì¥ÿÿ(¦ÿÿ@¦ÿÿx¦ÿÿ§ÿÿ$§ÿÿD§ÿÿ|§ÿÿÔ§ÿÿ¨ÿÿ,¨ÿÿL¨ÿÿd¨ÿÿ|¨ÿÿ¨ÿÿ¬¨ÿÿÄ¨ÿÿü¨ÿÿø©ÿÿªÿÿ@«ÿÿ°«ÿÿ¬ÿÿH­ÿÿ|®ÿÿp¯ÿÿ°ÿÿp°ÿÿ°ÿÿ °ÿÿ¸°ÿÿÐ°ÿÿ°±ÿÿè±ÿÿ²ÿÿ4²ÿÿT²ÿÿl²ÿÿÄ³ÿÿÜ³ÿÿô³ÿÿ´ÿÿ$´ÿÿD´ÿÿt´ÿÿ´ÿÿ@µÿÿÌµÿÿüµÿÿ¶ÿÿP¶ÿÿh¶ÿÿ¶ÿÿ¨¶ÿÿÈ¶ÿÿà¶ÿÿ·ÿÿ·ÿÿDismissing a zoom transition to a view not in the view hierarchy will trigger a fallback transition. To correct the error, be sure to a provide a view that's visible and in a window. View:%{public}s /* Error: Ran out of types for this method. */;
 
 @end
 

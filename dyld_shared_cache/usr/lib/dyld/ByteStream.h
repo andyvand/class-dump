@@ -4,8 +4,9 @@
 
 class ByteStream {
 public: // (access info unavailable from symbols alone)
-    push_back(unsigned char, unsigned long long);
-    push_back<unsigned int>(unsigned int);
-    push_back<unsigned long long>(unsigned long long);
-    push_back<unsigned short>(unsigned short);
+    auto push_back(unsigned char, unsigned long long);
+    void push_back<char const*>(char const*);
+    void push_back<unsigned int>(unsigned int);
+    void push_back<unsigned long long>(unsigned long long);
+    void push_back<unsigned short>(unsigned short);
 };

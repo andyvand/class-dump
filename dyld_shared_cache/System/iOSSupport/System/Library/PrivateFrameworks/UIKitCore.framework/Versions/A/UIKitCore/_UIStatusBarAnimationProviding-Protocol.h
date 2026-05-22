@@ -7,7 +7,7 @@
 @class UIStatusBarHideAnimationParameters, UIStatusBarStyleAnimationParameters;
 
 @protocol _UIStatusBarAnimationProviding
-- (UIStatusBarHideAnimationParameters *)TabBar";
+- (UIStatusBarStyleAnimationParameters *)Range;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_preferredStatusBarHideAnimationParameters) UIStatusBarHideAnimationParameters *preferredStatusBarHideAnimationParameters;

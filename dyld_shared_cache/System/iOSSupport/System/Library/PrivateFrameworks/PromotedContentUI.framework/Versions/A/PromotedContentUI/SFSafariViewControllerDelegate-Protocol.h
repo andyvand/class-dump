@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFSafariViewController;
-
 @protocol SFSafariViewControllerDelegate
-
-@optional
-- (void)teeCellReuseIdentifier:(SFSafariViewController *)arg1;
 @end
 

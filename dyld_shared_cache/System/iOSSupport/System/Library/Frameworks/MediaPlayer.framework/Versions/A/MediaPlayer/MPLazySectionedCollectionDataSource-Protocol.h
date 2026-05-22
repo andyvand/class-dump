@@ -4,16 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPIdentifierSet, NSIndexPath;
-
 @protocol MPLazySectionedCollectionDataSource
-- (id)se FDR property meta;
-- (unsigned long long)!Xð! Bù±¨°1¢!0@ù
-× ;
-
-@optional
-- (NSIndexPath *);
-- (MPIdentifierSet *)objc_data;
-- (struct _NSRange)@0:8@"BMBookmarkNode"16 /* Error: Ran out of types for this method. */;
+- (unsigned long long)mFallback;
 @end
 

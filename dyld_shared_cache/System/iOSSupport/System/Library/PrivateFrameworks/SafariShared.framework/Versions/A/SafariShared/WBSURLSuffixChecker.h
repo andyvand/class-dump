@@ -19,9 +19,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void)e;
 - (void);
+- (_Bool);
+- (void)= "%@">;
 
 @end
 

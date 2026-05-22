@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ïÚyîÚG;
+- (void)ngsClientErrorDomain;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -11,10 +11,10 @@
 }
 
 - (id);
-- (void);
-- (void);
+- (struct CGRect);
 - (float);
-- (struct CGRect)÷ÿåJôÛü;
+- (void);
+- (void);
 
 // Remaining properties
 @property float confidence; // @synthesize confidence=_confidence;

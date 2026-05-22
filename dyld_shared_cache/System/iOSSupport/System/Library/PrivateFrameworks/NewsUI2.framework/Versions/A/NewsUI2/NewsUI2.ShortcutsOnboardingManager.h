@@ -13,10 +13,10 @@
     MISSING_TYPE *featureAvailability;
 }
 
-- (void);
 - (void);
 - (void);
 - (id);
+- (void)ÔÑXÿ;
 
 @end
 

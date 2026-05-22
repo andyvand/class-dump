@@ -25,8 +25,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *statisticsQueue; // @synthesize statisticsQueue=_statisticsQueue;

@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)ewClass(void)_block_invoke;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long)ÿnÕbÿ;
-- (long long)Ô';
+- (long long);
+- (unsigned long long);
+- (id)isterArgumentBufferDescriptor:remoteID:offset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *effectiveModifier; // @synthesize effectiveModifier=_effectiveModifier;

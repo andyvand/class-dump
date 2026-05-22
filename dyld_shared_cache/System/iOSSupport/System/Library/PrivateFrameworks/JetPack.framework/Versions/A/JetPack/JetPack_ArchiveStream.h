@@ -4,9 +4,9 @@
 
 class JetPack::ArchiveStream {
 public: // (access info unavailable from symbols alone)
-    getBackingArchive();
-    isFinished();
-    position();
-    read(unsigned char*, unsigned long);
+    auto getBackingArchive();
+    auto isFinished();
+    auto position();
+    auto read(unsigned char*, unsigned long);
     ~ArchiveStream();
 };

@@ -18,8 +18,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)­Ö0e;
 - (id);
+- (void)nTypeCustomize;
 
 // Remaining properties
 @property(nonatomic) __weak PHLivePhotoView *livePhotoView; // @synthesize livePhotoView;

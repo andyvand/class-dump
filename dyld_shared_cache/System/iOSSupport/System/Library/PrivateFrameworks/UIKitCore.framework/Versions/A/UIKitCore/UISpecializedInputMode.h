@@ -11,19 +11,17 @@
     Class _viewControllerClass;
 }
 
-- (void)ol>"24@0:(Class)arg1 8@"IMDService"16;
-- (_Bool)NumberOfBatches:shouldFetchArchivedRecords:activity:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
-- (void)º;
-- (id){CGRect={CGPoint=dd}{CGSize=dd}}{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{?=dd}{?=b1b1b1b1b1b1}}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
-- (_Bool)Ø*p/°/5:¨:h< /* Error: Ran out of types for this method. */;
-- (id)= %@, window = %@, 
-	triggeredByPopoverDimmingView = %@, 
-	local.performActionInvoked = %@, 
-	_actionsWithInvokedHandlers = %@;
-- (Class)PX;
+- (void);
+- (id);
+- (id)að!Dùñbð1Â0@ù
+× ;
+- (_Bool)Result";
+- (Class)sed;
+- (_Bool);
+- (void)0Cc;
 
 // Remaining properties
 @property(retain, nonatomic) Class viewControllerClass; // @synthesize viewControllerClass=_viewControllerClass;

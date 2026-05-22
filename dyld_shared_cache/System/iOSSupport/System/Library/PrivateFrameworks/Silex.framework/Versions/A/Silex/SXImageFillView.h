@@ -19,21 +19,21 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (void)0W;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)|;
 - (id);
-- (void);
-- (void);
-- (struct CGRect)ctProviding>"16;
+- (void)=dd}32{CGSize=dd}48;
+- (void)mWidth:identifier: /* Error: Ran out of types for this method. */;
+- (void),V_blueprintAnalyzer;
+- (struct CGRect)tifier=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) SXAnimatedImage *animatedImage;

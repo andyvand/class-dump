@@ -13,9 +13,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)헺;
 - (id);
-- (id)mestampLabelFont;
+- (id);
+- (id)P	ð!BùÑuð1Â0@ù
+× ;
 
 @end
 

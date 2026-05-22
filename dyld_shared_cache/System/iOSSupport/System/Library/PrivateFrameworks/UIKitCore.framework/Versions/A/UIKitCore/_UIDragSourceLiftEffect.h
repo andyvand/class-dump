@@ -13,22 +13,20 @@
     _Bool _scrollCancelling;
 }
 
+- (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void)°!øCùÀð1¢!0@ù
+- (id)X°1Â0@ù
 × ;
-- (void)× ;
-- (id)!p@ùÇ°1¢!0@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (_Bool)Environment:isFinal: /* Error: Ran out of types for this method. */;
-- (id)sentationIfPossible;
-- (id)nHandlers;
-- (void)oundMaterial:(id)arg1 forState: /* Error: Ran out of types for this method. */;
-- (double)"UIView",C,N,S_setSubtitleView: /* Error: Ran out of types for this method. */;
+- (_Bool)× ;
+- (id)tusUpdated;
+- (void)lback:(id)arg1;
+- (void)anceSceneComponent;
+- (void)N,V_sectionEndFocusGuide;
+- (double);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

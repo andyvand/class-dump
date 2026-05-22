@@ -8,11 +8,7 @@
 @protocol MFQueuePlayerItem;
 
 @protocol MFPlaybackInformationProviding
-- (AVPlayerViewController *);
-- (float)g;
-- (long long)ssbook;
-- (float)ect entitlements to get the master token;
-- (double)emID:reason: /* Error: Ran out of types for this method. */;
+- (float);
 
 // Remaining properties
 @property(nonatomic, readonly) id <MFQueuePlayerItem> currentItem;
@@ -21,11 +17,13 @@
 @property(nonatomic, readonly) double currentTime;
 @property(nonatomic, readonly) float effectiveRate;
 @property(nonatomic, readonly) long long interruptedState;
+@property(nonatomic, readonly) _Bool isPlaybackLikelyToKeepUp;
 @property(nonatomic, readonly) NSArray *nextItems;
 @property(nonatomic, readonly) float rate;
 @property(nonatomic, readonly) float targetRate;
 @property(nonatomic, readonly) NSNumber *targetTime;
 @property(nonatomic, readonly) long long timeControlStatus;
+@property(nonatomic) _Bool videoEnabled;
 @property(nonatomic, readonly) AVPlayerViewController *videoViewController;
 @end
 

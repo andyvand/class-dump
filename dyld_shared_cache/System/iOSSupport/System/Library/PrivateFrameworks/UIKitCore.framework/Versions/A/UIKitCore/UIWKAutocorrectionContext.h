@@ -19,13 +19,13 @@
 - (void);
 - (void);
 - (struct _NSRange);
-- (id)ltZoneIfNeededWithCompletionBlock: /* Error: Ran out of types for this method. */;
-- (id)yForMessage:processedMessageItem: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)¿¼º;
-- (id)etryNotification;
-- (id)UIKitCore._UISurfaceLightEffectEntry;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)ðá_;
+- (id)q;
+- (id)Ô¢íÿÙ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contextAfterSelection; // @synthesize contextAfterSelection=_contextAfterSelection;

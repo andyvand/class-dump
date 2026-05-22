@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)þm;
-- (double);
++ (_Bool)onTestingTestFinishedNotification;
+- (double))T33u1;
 
 @end
 

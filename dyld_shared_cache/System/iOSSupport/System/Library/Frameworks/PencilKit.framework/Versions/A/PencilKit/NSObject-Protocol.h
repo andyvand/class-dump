@@ -7,14 +7,8 @@
 @class NSString;
 
 @protocol NSObject
-- (id)C;
-- (Class);
-- (_Bool);
-- (_Bool);
-- (unsigned long long)ntRenderCache:renderEncoder:computeEncoder:animatingStroke: /* Error: Ran out of types for this method. */;
-
-@optional
-- (NSString *)orCHStrokeIdentifiers: /* Error: Ran out of types for this method. */;
+- (_Bool)4@"UIGestureRecognizer"32@"PKAttachmentView"40;
+- (struct _NSZone *)d:%{BOOL}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

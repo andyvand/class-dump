@@ -20,12 +20,12 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)s=dddd}16;
+- (void);
+- (void)abBar;
 
 @end
 

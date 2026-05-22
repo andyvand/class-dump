@@ -4,5 +4,5 @@
 
 class OSObject {
 public: // (access info unavailable from symbols alone)
-    release();
+    auto release();
 };

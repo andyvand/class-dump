@@ -14,10 +14,10 @@
 + (void);
 + (id);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id)ð;
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *itemIdentifier;

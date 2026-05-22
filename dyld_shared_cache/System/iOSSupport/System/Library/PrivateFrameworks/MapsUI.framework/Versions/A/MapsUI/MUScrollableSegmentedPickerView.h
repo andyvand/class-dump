@@ -21,13 +21,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
-- (id);
+- (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)TransferToRecipient:contactIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

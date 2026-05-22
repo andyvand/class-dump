@@ -8,19 +8,6 @@
 {
 }
 
-+ (id);
-+ (int);
-+ (int);
-+ (int);
-+ (int);
-+ (int);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (int);
 + (int);
 + (int);
 + (id);
@@ -32,6 +19,19 @@
 + (id);
 + (id);
 + (int);
++ (int);
++ (id);
++ (int);
++ (int);
++ (int);
++ (int);
++ (int);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 
 @end
 

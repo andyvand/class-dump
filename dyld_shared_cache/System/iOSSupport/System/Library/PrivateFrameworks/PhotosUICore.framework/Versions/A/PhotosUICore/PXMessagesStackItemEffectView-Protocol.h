@@ -7,7 +7,8 @@
 @class UIView;
 
 @protocol PXMessagesStackItemEffectView
-- (UIView *)dColor;
+- (void)Q52Q60@68B76B80@84q92B100;
+- (UIView *);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView;

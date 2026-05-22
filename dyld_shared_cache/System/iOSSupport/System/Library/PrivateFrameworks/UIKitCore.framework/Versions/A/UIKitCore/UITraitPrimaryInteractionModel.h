@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)MUserNotification"8;
 + (_Bool);
 + (_Bool);
-+ (id)ndOffset;
-+ (id)5UIKit25UIHostingViewBaseDelegateP;
-+ (unsigned long long)hÌ`;
++ (_Bool);
++ (id);
++ (id)overrideParentTraitEnvironment returned a nil traitCollection:%@ /* Error: Ran out of types for this method. */;
++ (unsigned long long)øg;
 
 @end
 

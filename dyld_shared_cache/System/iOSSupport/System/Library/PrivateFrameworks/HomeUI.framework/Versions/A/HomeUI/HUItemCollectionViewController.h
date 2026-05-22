@@ -130,31 +130,34 @@
 - (_Bool);
 - (void);
 - (void);
-- (long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (_Bool);
 - (void);
-- (void)á$Ð!BùQ.°1b0@ù
-× ;
+- (void);
+- (long long);
+- (long long);
+- (void);
+- (_Bool);
 - (void)
 × ;
-- (void)rViewController:(id)arg1;
-- (_Bool)aSelected:(id)arg1;
-- (void)hObjects:(_Bool)arg1 keyAdaptor:itemAdaptor:filter:itemMap: /* Error: Ran out of types for this method. */;
-- (_Bool)_contentViewLeadingConstraint;
-- (long long);
-- (void)ewController) User tapped 'cancel' button;
-- (id)y.óv_øv{ñxyAD_"ïvQo_tGGïxGSg_A2LtG;
-- (id)ControllerDelegate;
-- (void);
-- (void);
-- (void)QÅÿ¥?÷z~;
+- (id)±1â
+0@ù
+× ;
+- (void)ù±1â
+0@ù
+× ;
+- (void)te:(id)arg1;
+- (void)",&,N,V_timePickerView;
+- (_Bool)mpleteSearchType:(id)arg1;
+- (void)"HUElasticApplier"8;
+- (id);
+- (id)\f;
+- (void)DóT±;
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *childViewControllersAtViewWillAppearTime; // @synthesize childViewControllersAtViewWillAppearTime=_childViewControllersAtViewWillAppearTime;

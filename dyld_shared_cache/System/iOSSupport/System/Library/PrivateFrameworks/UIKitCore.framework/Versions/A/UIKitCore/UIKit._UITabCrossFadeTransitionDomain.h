@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)swordsItem;
-+ (id)guration;
++ (id);
++ (id)t;
++ (id)rCurrentUpdateWithoutAnimationsReusingDeletedViews;
 + (Class);
-+ (id)þÕ;
 
 @end
 

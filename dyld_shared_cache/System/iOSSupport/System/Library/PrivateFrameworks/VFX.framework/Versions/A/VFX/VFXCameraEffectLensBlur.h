@@ -13,18 +13,18 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ue>"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (struct __CFXCameraEffectLensBlur *);
 - (void);
 - (void);
 - (void *);
-- (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (float);
-- (void);
 
 // Remaining properties
 @property(nonatomic) long long filterQuality;

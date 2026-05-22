@@ -8,9 +8,6 @@
 
 @protocol PXActionPerformerDelegate
 
-@optional
-- (_Bool)msGeometry>"8q16^B24;
-
 // Remaining properties
 @property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
 // Preceding property had unknown attributes: ?

@@ -54,7 +54,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (CDStruct_1b6d18a9);
-- (long long)Manager;
+- (long long);
 - (void);
 - (void);
 

@@ -22,19 +22,22 @@
 - (_Bool);
 - (double);
 - (void);
+- (id);
 - (double);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)1b0@ù
+- (void)èEù1H°1â
+0@ù
 × ;
-- (id)n;
+- (id)¡û°!|BùÑHð1â
+0@ù
+× ;
+- (void)iguration"32;
+- (id)urrentAssetSize;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double autoDismissalDelay; // @synthesize autoDismissalDelay=_autoDismissalDelay;

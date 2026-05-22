@@ -8,14 +8,14 @@
 {
 }
 
-+ (id)@¾Ðÿ6t;
++ (id)§r;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id)gerValueForKey:withDefault: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

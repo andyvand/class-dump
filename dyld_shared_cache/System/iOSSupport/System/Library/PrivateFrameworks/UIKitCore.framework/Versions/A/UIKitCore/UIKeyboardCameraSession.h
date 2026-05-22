@@ -30,51 +30,50 @@ __attribute__((visibility("hidden")))
     UIResponder<UIKeyInput> *_responder;
 }
 
-+ (id);
-+ (id)ssionDataDelegateProxy;
-+ (id);
 + (_Bool);
-+ (_Bool)createButton;
-+ (id)4;
-+ (_Bool)L	yþ]M;
-- (void)UpdateChatStatus:(id)arg1 chat:(id)arg2 style:(id)arg3 displayName:groupID:originalGroupID:handleInfo:account:category:spamExtensionName: /* Error: Ran out of types for this method. */;
-- (_Bool)messageGUID:account: /* Error: Ran out of types for this method. */;
-- (void)ager;
-- (id)moveAccount: /* Error: Ran out of types for this method. */;
++ (_Bool)1Â0@ù
+× ;
++ (_Bool)elsPerInch: /* Error: Ran out of types for this method. */;
++ (id)n:(id)arg1;
++ (id)w;
++ (id)ated contextual action was called after another action was performed. This will be ignored. Set a symbolic breakpoint on UIContextualActionAlertForOutdatedCompletionHandlerExecution to catch this in the debugger.
+Outdated action:%@ /* Error: Ran out of types for this method. */;
++ (id)EÓâ_;
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)indexing message %@, contains syndication range with not donated status;
-- (id)turning;
-- (id)name to message (%@) to destinations %@;
+- (void);
+- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (void);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)!XBùñÃ1¢!0@ù
-× ;
-- (void);
-- (id)1¢!0@ù
-× ;
-- (id)Ib1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24;
-- (void)isibilityFindingNewKeyWindowIfNeeded;
-- (id)terInteractions;
 - (id);
-- (void)a;
+- (void)State:(id)arg1;
+- (void)railingPinConstraint;
+- (void)bled;
+- (void)int: /* Error: Ran out of types for this method. */;
+- (id)e undesired side effects;
+- (id)a;
+- (void);
+- (void)m;
+- (id)§^ÿ!;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

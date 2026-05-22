@@ -16,9 +16,9 @@
     MISSING_TYPE *incomingCoordinationMessagesQueue;
 }
 
-+ (id)àÄpÍNà;
-- (void);
++ (id)þÿ;
 - (id);
+- (void)gPress;
 
 @end
 

@@ -5,10 +5,7 @@
 //
 
 @protocol _UIFeedbackContinuousPlayable
-- (void)lationshipPlaylistEntryMovie;
-- (void)-;
-- (double)re are only %ld sections after the update;
-- (_Bool)ibbleInteractionDelegate;
+- (_Bool)tion"16;
 
 // Remaining properties
 @property(nonatomic) double duration;

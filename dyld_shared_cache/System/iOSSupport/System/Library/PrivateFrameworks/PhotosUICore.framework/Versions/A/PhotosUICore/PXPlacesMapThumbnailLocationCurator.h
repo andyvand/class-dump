@@ -14,8 +14,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long curatedThumbnailsLimit; // @synthesize curatedThumbnailsLimit=_curatedThumbnailsLimit;

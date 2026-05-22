@@ -21,54 +21,55 @@
     _Bool m_isTemplate;
 }
 
-+ (void)(%ld,%ld) as there are not that many, so retrieving all chats, range (%ld,%ld).;
-+ (id)ot sending data for received message, we have no peer devices;
-+ (id)y dictionary to peers, requiresUpload:(CDStruct_73524d89)arg1 %@;
-+ (id)ssageItems = %lu};
-+ (id)ent(_UINSToolbarLayoutExtractionContext *__strong)_block_invoke_7;
++ (void);
++ (id);
++ (id);
++ (id);
++ (id)tïÓÿÌ#;
+- (struct CGRect);
+- (struct CGRect);
 - (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (CDStruct_73524d89)P;
-- (_Bool);
-- (void);
-- (_Bool);
-- (CDStruct_73524d89)n;
-- (void)VRoute",R,N;
-- (CDStruct_73524d89)ryWithRouteID userID=%{private}@ routeID=%{public}@ privateListening=%{BOOL}u;
-- (struct CGRect)serial.queue;
 - (CDStruct_73524d89);
 - (id);
+- (CDStruct_73524d89);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)
-× ;
-- (id)ÑÉÐ1¢!0@ù
-× ;
-- (struct CGRect)@ù
-× ;
-- (id)0:8{CGRect={CGPoint=dd}{CGSize=dd}}16d48B56 /* Error: Ran out of types for this method. */;
-- (struct CGRect)ticalStackHeightConstraint;
-- (id)tions;
-- (id)N,V_preferredPromptButton;
-- (void)",R,N;
-- (id)gate>",W,N,V_actionDelegate;
+- (CDStruct_73524d89);
 - (id);
+- (unsigned long long);
 - (void);
-- (struct CGRect)ed;
-- (CDStruct_73524d89)ill;
-- (CDStruct_73524d89)Ðübþòÿ3ôübþµòÿ3ýbþUòÿ3ýbþ]òÿ3(ýbþ5òÿ34ýbþòÿ3@ýbþòÿ3Lýbþòÿ3`!gþ]òÿ3dýbþòÿ3lýbþeòÿ3|ýbþ;
-- (void)Æÿúïf®d;
-- (id)xÕô"f;
-- (void)\Îg;
-- (void)¢Rh;
-- (CDStruct_73524d89)i;
-- (CDStruct_73524d89)$ÿ÷Õnn;
+- (CDStruct_73524d89)0@ù
+× ;
+- (struct CGRect);
+- (_Bool)Ô
+ð!Eùqfð1Â0@ù
+× ;
+- (id)orBarStyle:(id)arg1 buttonItemStyle:(CDStruct_bd7e7c01)arg2;
+- (_Bool)BlurRadius:(id)arg1 scale: /* Error: Ran out of types for this method. */;
+- (struct CGRect)pped:withDismissCompletion: /* Error: Ran out of types for this method. */;
+- (id)BarReplacementForText:(id)arg1 withText:(CDStruct_bd7e7c01)arg2;
+- (void)ByAddingObject:(id)arg1;
+- (_Bool)howSecondColumn: /* Error: Ran out of types for this method. */;
+- (id)exPath:(id)arg1;
+- (void)Settings",N,&,VexpandIntermediateSpring;
+- (id)itor;
+- (void)8¦§$¨¨¨;
+- (void)4;
+- (void)GroupIdentifier (%d).;
+- (CDStruct_73524d89)è`â?$
+-ëþ±Ý?û·\ýKvÀqÈBTÉÀ¾NêËÒÎ@;
+- (void)(\;
+- (CDStruct_73524d89);
+- (void);
+- (void)+ÿnyÏ&i;
+- (CDStruct_73524d89);
+- (CDStruct_73524d89)´¼j;
+- (void)@u&ÿ.â+k;
 
 // Remaining properties
 @property(nonatomic) _Bool explicitlySpecified; // @synthesize explicitlySpecified=m_explicitlySpecified;

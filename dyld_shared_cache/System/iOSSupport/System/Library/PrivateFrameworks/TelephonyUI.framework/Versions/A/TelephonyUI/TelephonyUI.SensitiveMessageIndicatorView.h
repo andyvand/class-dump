@@ -13,10 +13,10 @@
     MISSING_TYPE *sensitivityLabel;
 }
 
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (struct CGSize);
+- (void);
 
 @end
 

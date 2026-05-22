@@ -4,7 +4,7 @@
 
 class std::__1::thread {
 public: // (access info unavailable from symbols alone)
-    hardware_concurrency();
-    join();
+    auto hardware_concurrency();
+    auto join();
     ~thread();
 };

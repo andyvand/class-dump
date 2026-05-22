@@ -5,7 +5,7 @@
 //
 
 @protocol SXSubscriptionActivationEligibilityProviding
-- (long long);
+- (long long)6@?0@"<SXAction>"8;
 
 // Remaining properties
 @property(readonly, nonatomic) long long eligibility;

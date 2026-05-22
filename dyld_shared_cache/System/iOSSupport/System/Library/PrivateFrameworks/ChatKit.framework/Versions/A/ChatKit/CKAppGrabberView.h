@@ -22,7 +22,7 @@
     id <CKAppGrabberViewDelegate> _delegate;
 }
 
-+ (double)il;
++ (double);
 + (double);
 - (double);
 - (double);
@@ -30,22 +30,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)r;
+- (_Bool);
 - (void);
-- (void)a;
-- (void)e;
+- (void);
+- (void);
 - (_Bool);
 - (double);
 - (double);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)RÀT;
-- (id)Bs>GADyABs>GADyABs>GADyAB	s>GADyABs>GADyABs>GtGÍ­G;
-- (void)?MË®GG_Õ®AEyAEyAJÀÐ®ySiSgGGAKyÕ®GGtGG_ACyAEyAEyAEyAEyoe¯yh¯yËÕ®yAEyÊÙ®ÝÈ®y_Ù®GG_Qo_G__¯Qo_AKy§^¯GGAKy]®GGAGGÓ­®GAEyAEyAEy|Õ®yAEyAuKyGÔ®SgGG_Qo_AKyGÙ®GGAKyAWSgGGA9_GGt;
+- (id)L¥3;
 
 // Remaining properties
 @property(readonly, nonatomic) double chevronMaxYOffset;

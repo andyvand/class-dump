@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (Class)³;
+- (Class);
 
 @end
 

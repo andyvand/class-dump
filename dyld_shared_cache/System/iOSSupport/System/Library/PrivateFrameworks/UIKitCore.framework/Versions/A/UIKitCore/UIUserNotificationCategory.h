@@ -12,25 +12,27 @@
     NSDictionary *_actionsByContext;
 }
 
-+ (_Bool)8&hÿWÔïq;
++ (_Bool)iveImpl _dismantleViewControllerInColumn:layout:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)ename:(id)arg1 bookmark:(id)arg2 width:height:isAnimoji: /* Error: Ran out of types for this method. */;
-- (id)deredSet",&,N,V_recentMessageIDs;
 - (id);
-- (unsigned long long)the local one (%lld). Don't overwrite local asset. Asset from ckrecord has path %@;
-- (void)`;
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool)r Container (%s);
-- (id)loadedRange;
 - (id);
-- (void);
-- (void)sizeFittingSize:(id)arg1 titleType: /* Error: Ran out of types for this method. */;
-- (id)rchArea;
-- (id)frameOfTrailingWhitespace;
-- (id)entURLChangeObserver",&,N,V_urlChangeObserver;
-- (id);
+- (id);
+- (unsigned long long);
+- (id)
+× ;
+- (id)Ñ]1Â0@ù
+× ;
+- (_Bool)s:(id)arg1;
+- (void)spectable;
+- (void)tionAlpha;
+- (id)rringEnvironment",&,N,S_setEventDeferringEnvironment:(struct _NSZone *)arg1;
+- (id)now.;
+- (void)ö;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *actionsByContext; // @synthesize actionsByContext=_actionsByContext;

@@ -20,12 +20,12 @@
 - (void);
 - (double);
 - (double);
+- (id);
 - (void);
-- (id)sibilityUnderline;
-- (double);
-- (void)rWithBackgroundColor:(id)arg1;
-- (id)fectWithStyle:invertAutomaticStyle: /* Error: Ran out of types for this method. */;
-- (void);
+- (double);
+- (id);
+- (void);
+- (void)0ÝøÿXÝøÿÝøÿÀÝøÿèÝøÿ0ÞøÿXÞøÿÞøÿÀÞøÿèÞøÿ(ßøÿpßøÿßøÿÐßøÿ;
 
 // Remaining properties
 @property(nonatomic) double endValue; // @synthesize endValue=_endValue;

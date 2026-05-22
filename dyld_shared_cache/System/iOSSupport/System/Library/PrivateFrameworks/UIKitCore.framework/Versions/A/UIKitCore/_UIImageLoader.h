@@ -17,19 +17,19 @@
     NSMutableArray *_completionTrampolines;
 }
 
-+ (id);
 + (id);
 + (id);
-- (void)Remerging:(CDUnknownBlockType)arg1 chatDictionaryArray: /* Error: Ran out of types for this method. */;
-- (_Bool)atsForRemerge:guidsThatNeedRemerging:chatDictionaryArray: /* Error: Ran out of types for this method. */;
-- (void)n",R,N;
++ (id);
 - (void);
-- (_Bool)ontrastFallbackColor;
-- (id): /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)Strong Password;
 - (void);
-- (id)!ÙR^;
+- (_Bool);
+- (id);
+- (id);
+- (_Bool)nagerForTableViewCellStyle: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)S~;
+- (void)ËÜ%[;
 
 // Remaining properties
 @property(readonly) NSError *_error;

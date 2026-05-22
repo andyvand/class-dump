@@ -20,17 +20,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)oudBackupsIfNeeded: /* Error: Ran out of types for this method. */;
-- (void).`;
+- (void);
 - (id);
 - (id);
-- (void)4cº;
-- (id)alidated: /* Error: Ran out of types for this method. */;
-- (id)ticKeyboardDismissal;
-- (void)<yþÿæüÿ;
-- (void)jþÿ;
-- (_Bool)%@; Supported:%@ /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1 ÙÍc;
+- (_Bool)!À@ùQg°1Â0@ù
+× ;
+- (void)ext:(id)arg1 proposedReplacementText:proposedReplacementRange: /* Error: Ran out of types for this method. */;
+- (void)mentObscured;
+- (id)rogressView",W,N,V_progressControlView;
+- (id)fterCAFlushAndRunDeferredBlocks(UIApplication *__strong, BOOL);
+- (void)$ÄþÿXþÿ;
+- (void)ÔH^;
+- (void)qõþT;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor;

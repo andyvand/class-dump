@@ -12,13 +12,13 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
 - (void);
-- (id)(óãÄ;
+- (id);
+- (void)8ý;
+- (id)hed media write transaction for session %@:(id)arg1 %@ -> %@  (Transaction ID %@);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

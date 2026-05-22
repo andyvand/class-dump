@@ -26,11 +26,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (long long);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)FBundledIntentHandlerProvider handlerForIntent:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *email; // @synthesize email;

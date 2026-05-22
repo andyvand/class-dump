@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)umber"80;
+- (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)ddddddddddddd}20@0:(id)arg1 8B16;
+- (void)p;
 
 // Remaining properties
 @property(retain, nonatomic) NSTextAttachment *attachment; // @synthesize attachment=_attachment;

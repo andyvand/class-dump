@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id)kAncestorsAsNeedToBeNotifiedOfVisibilityChange;
+- (id);
+- (void)öj;
 
 @end
 

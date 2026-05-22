@@ -27,7 +27,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)tomLongDescriptionHardwareFailureContactSupportOptionsCall;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *characteristic;

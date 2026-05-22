@@ -5,6 +5,5 @@
 //
 
 @protocol RTLocationStoreProtocol
-- (void)S/;
 @end
 

@@ -24,25 +24,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void)A;
-- (id);
-- (_Bool)`;
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool)A;
-- (id);
-- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
+- (_Bool);
 - (void);
+- (id);
 - (long long);
-- (_Bool);
-- (_Bool);
-- (void)ONST;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

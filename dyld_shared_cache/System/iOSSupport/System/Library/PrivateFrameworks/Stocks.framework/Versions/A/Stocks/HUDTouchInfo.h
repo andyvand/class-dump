@@ -19,16 +19,16 @@
 - (CDStruct_d4d9707c);
 - (void);
 - (void);
-- (void);
-- (struct CGPoint);
+- (void);
+- (struct CGPoint);
 - (struct CGPoint);
 - (void);
 - (id);
-- (void)8ԝF;
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (id);
 
 // Remaining properties

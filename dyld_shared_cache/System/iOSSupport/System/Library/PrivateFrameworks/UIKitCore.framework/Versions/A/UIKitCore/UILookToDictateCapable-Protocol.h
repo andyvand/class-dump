@@ -5,8 +5,6 @@
 //
 
 @protocol UILookToDictateCapable
-- (void)) (%d) != sikLength (%zu);
-- (_Bool)@9?;
 
 // Remaining properties
 @property(nonatomic, getter=isLookToDictateEnabled) _Bool lookToDictateEnabled;

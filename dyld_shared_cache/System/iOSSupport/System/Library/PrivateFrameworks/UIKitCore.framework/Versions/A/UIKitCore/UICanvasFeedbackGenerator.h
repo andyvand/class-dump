@@ -10,14 +10,14 @@
 {
 }
 
-- (void)chat, bailing;
-- (id)budget exceeded. It has been suspended to block further power drain. Please submit this radar so we can better root-cause this issue. Critical workload time ranges:(id)arg1;
 - (void);
-- (id)dentifier,S_setTrackingIdentifier:,V_trackingIdentifier /* Error: Ran out of types for this method. */;
 - (id);
-- (id)2];
-- (id)Xÿ8QÛG[m;
-- (id)p;
+- (void);
+- (id);
+- (id)ITab",&,N;
+- (id)13UIMenuElementC;
+- (id)ÿ;
+- (id)ÊÄns;
 
 @end
 

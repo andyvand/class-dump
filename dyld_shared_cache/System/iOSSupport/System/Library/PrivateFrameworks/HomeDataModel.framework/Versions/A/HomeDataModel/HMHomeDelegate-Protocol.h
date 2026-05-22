@@ -7,7 +7,7 @@
 @protocol HMHomeDelegate
 
 @optional
-- (void)ollableObserver;
-- (void)T§TGIegl_;
+- (void);
+- (void)ing;
 @end
 

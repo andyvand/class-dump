@@ -5,6 +5,5 @@
 //
 
 @protocol TSClearDataManager
-- (_Bool);
 @end
 

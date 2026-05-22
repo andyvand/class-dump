@@ -21,16 +21,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void)øð1â
+0@ù
+× ;
+- (void)yAAyAAyAAyAAyAAyç²÷	²÷	yÄ²÷	SgGG¬÷	Gµ¨÷	G±÷	y±´÷	GGZë÷	GSg_AAyAAyAAyAAyå
+AMGAKG©÷	GASGAUtGG_ADyACyAAyAAyAeMGASGSg_-¯÷	yACy\µ÷	_AAyAAyAAyAAyAeFySiSgGGAFyU^ø	GGAKGAQGA6_tGA6_GA4_tGGtGGAMG_Qo_;
 - (id);
-- (void);
-- (id);
-- (void)zationDidSelectShippingMethodCompleteWithUpdate:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) PKColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

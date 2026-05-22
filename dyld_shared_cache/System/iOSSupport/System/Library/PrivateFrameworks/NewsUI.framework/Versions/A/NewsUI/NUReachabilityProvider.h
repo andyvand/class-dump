@@ -12,15 +12,14 @@
     NSHashTable *_observers;
 }
 
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
-- (id)²°!ô@ù¼1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

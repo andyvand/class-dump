@@ -39,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,7 +55,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (CDStruct_1b6d18a9);
@@ -80,28 +80,26 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (_Bool);
+- (id);
 - (double);
 - (id);
 - (void);
-- (_Bool)CallFailedHotShip;
-- (id)cipient: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (_Bool)퍹;
-- (void)e=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}*iiiiidididddqqiqQidiqiq^{Chunkserver__ErrorResponse}idid}^{__CFString}qdCCCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16r^{mmcs_http_context_options=^{__CFString}^{__CFHTTPMessage}^{_mmcs_http_request_options}ddQQ^?^?^?^?^?^?^?^v^?^vCd^{os_activity_s}}24^{os_activity_s=}32;
-- (id)--
-%@
-;
-- (void)temporary files;
-- (void)st:(id)arg1 pickerResponder:(id)arg2;
-- (void)abaseObserver;
-- (id)ueProductID;
-- (void)URLSessionDataTask"8@"NSData"16@"NSURLResponse"24@"NSError"32;
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void)dList;
+- (void)ISSING__;
+- (id)\hü;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

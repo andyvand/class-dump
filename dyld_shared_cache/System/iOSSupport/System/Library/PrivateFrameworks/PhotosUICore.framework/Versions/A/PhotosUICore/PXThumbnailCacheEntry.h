@@ -15,10 +15,9 @@
 
 - (struct PHAssetResourceTableDataSpecification);
 - (id);
-- (void)Ô!	;
 - (id);
-- (id)AuÐ!ÀEùQy°1b0@ù
-× ;
+- (id);
+- (void)iginalImageRect;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

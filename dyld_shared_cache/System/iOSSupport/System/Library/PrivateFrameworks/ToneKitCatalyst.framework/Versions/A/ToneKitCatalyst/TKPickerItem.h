@@ -14,10 +14,10 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (long long);
 
 // Remaining properties
 @property(nonatomic, setter=_setSection:) long long section; // @synthesize section=_section;

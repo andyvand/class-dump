@@ -13,9 +13,9 @@
     id <_UIStickerPickerRemoteViewControllerDelegate> _delegate;
 }
 
-+ (id)nvalidate:(CDUnknownBlockType)arg1 %@  account:%@ /* Error: Ran out of types for this method. */;
 + (id);
-+ (id)onAtItemIndex: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)ÜÝzþ*ÛÐ¸§l;
 - (void);
 - (void);
 - (void);
@@ -23,10 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool)`þÿ;
 - (id);
-- (void)27_UIObjectTraitTokenProtocol_p;
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (void)p=
+×£À¿;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIStickerPickerRemoteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -11,15 +11,17 @@
     double _weight;
 }
 
-- (void);
 - (_Bool);
+- (_Bool);
+- (_Bool)okeView;
+- (void)teCalled:(id)arg1;
+- (id)oUIWindow: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool)× ;
-- (_Bool)16@0:8 /* Error: Ran out of types for this method. */;
-- (double)ng: /* Error: Ran out of types for this method. */;
-- (void)ict;
-- (struct CGColor *)Üèçÿèèçÿdìçÿïçÿ¨ïçÿØðçÿlñçÿØòçÿ|óçÿóçÿ¬óçÿõçÿÌõçÿ`öçÿöçÿÌöçÿðöçÿ,÷çÿP÷çÿ÷çÿ°÷çÿÔ÷çÿøçÿøçÿXøçÿ|øçÿ øçÿÄøçÿèøçÿùçÿ0ùçÿTùçÿxùçÿùçÿÀùçÿäùçÿúçÿ,úçÿ8úçÿtúçÿúçÿÜúçÿ;
-- (id)tem in layout arrangement is out of bounds;
+- (double)Selected:%@
+
+=== /* Error: Ran out of types for this method. */;
+- (void)"FBSMutableSceneClientSettings<_UISceneRenderingEnvironmentClientSettings>"8@"FBSSceneTransitionContext"16;
+- (struct CGColor *)GJ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

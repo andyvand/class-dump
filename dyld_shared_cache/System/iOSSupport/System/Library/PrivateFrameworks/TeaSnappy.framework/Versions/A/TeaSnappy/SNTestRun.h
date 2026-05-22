@@ -13,15 +13,15 @@
     SNTestSuite *_testSuite;
 }
 
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
+- (void);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

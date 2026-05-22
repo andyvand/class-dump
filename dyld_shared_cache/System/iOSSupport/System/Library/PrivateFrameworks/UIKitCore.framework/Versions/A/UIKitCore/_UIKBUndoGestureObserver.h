@@ -10,16 +10,17 @@
 {
 }
 
-+ (id)Ôÿ3;
-- (_Bool);
-- (void);
-- (_Bool);
-- (void)0@ù
++ (id)0@ù
 × ;
-- (void)tionalEdgeInsets=dddd}24@0:(id)arg1 8q16;
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (_Bool)_Ð1Â0@ù
+× ;
+- (_Bool)FocusAnimationCoordinator"28;
+- (_Bool)aScale:(id)arg1;
+- (void)soundFileURL;
+- (_Bool)int:(id)arg1;
+- (_Bool)ition;
+- (void)UIKitCore._UIBlurredEdgeMask;
 
 @end
 

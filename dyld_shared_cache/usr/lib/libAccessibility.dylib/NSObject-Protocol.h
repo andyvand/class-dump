@@ -7,15 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (Class);
-- (id);
-- (unsigned long long)	;
-- (_Bool);
-- (NSString *)""K;
-- (_Bool)a;
-
-@optional
-- (NSString *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

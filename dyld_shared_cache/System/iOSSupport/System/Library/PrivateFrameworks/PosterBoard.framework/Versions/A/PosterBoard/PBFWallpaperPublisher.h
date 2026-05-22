@@ -28,14 +28,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

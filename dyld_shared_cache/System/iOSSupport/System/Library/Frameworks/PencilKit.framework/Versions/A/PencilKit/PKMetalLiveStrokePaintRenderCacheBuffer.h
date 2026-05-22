@@ -18,13 +18,13 @@
 
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)0ú;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLBuffer> liveStrokePointBuffer; // @synthesize liveStrokePointBuffer=_liveStrokePointBuffer;

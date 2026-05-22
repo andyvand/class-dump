@@ -14,12 +14,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void)4°!Aùq5Ð1b0@ù
-× ;
-- (void)íûÿÀüÿ¼üÿ:(_Bool)arg1 üÿL=üÿPüÿ`SüÿxÆüÿ ûüÿÜýÿ(½ûÿËûÿ ÏûÿPÒûÿÌÔûÿ°Üûÿäßûÿãûÿtéûÿxúûÿ\üÿXüÿd;üÿÜQüÿ;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PRUISInlinePosterEditingPlaceholderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

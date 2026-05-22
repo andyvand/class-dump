@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)WorkflowKit.ActionWillTakeSessionKitAssertionTestingEvent;
+- (_Bool)ection.m;
 
 @end
 

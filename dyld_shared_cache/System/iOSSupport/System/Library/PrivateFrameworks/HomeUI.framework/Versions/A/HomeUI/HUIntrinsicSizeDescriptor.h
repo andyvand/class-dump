@@ -22,8 +22,8 @@
 - (struct CGSize);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id)temsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (void)escription;
+- (id)ÿºUàa;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *aspectRatio; // @synthesize aspectRatio=_aspectRatio;

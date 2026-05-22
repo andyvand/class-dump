@@ -23,17 +23,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)messageData!
-;
+- (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id)(=;
 - (void);
 - (id);
-- (void)Value"8;
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

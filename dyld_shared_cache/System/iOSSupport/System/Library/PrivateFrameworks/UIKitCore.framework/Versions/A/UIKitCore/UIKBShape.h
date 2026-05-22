@@ -20,47 +20,46 @@
 
 + (id);
 + (id);
-+ (id)ÿÄ4Éúûr;
-- (void)initialization;
-- (_Bool);
++ (id)Ü;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void)y;
+- (void);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (void)th"24;
-- (id)ogeneratedSizes;
-- (struct CGRect)g;
-- (void);
-- (id)a;
-- (void);
-- (id);
-- (void);
-- (void)Aoð!Fù±ÁÐ1¢!0@ù
+- (void)ù
 × ;
-- (struct CGRect)
+- (unsigned long long)!BùQ\1Â0@ù
 × ;
-- (struct CGSize)× ;
-- (id)Ô ;
-- (void)@ù
+- (_Bool)Ô ;
+- (void)1Â0@ù
 × ;
-- (unsigned long long)!øAù1Ë1¢!0@ù
-× ;
-- (void)ange:(id)arg1;
-- (id)timeOfDayRect;
-- (void)TB,N,V_shouldIncludeConstantOffset;
-- (unsigned long long)tesButtonConfiguration: /* Error: Ran out of types for this method. */;
-- (_Bool)tContextHistory",R,N,V_tiInputContextHistory;
-- (id)ayHumanPresenceState;
-- (id)__nonFullHeightOffset;
-- (_Bool)iew is calling %@ not implemented on _UIScrollViewMockPanGestureRecognizer or UIScrollViewPanGestureRecognizer;
-- (void)GradientEnd;
-- (struct CGRect)l;
-- (void)Qm;
+- (_Bool)rnersWithCornerRadii: /* Error: Ran out of types for this method. */;
+- (void)rstResponder:(id)arg1;
+- (_Bool)directory:(id)arg1 bundle: /* Error: Ran out of types for this method. */;
+- (struct CGRect):edges:inset:weight: /* Error: Ran out of types for this method. */;
+- (void)xtField;
+- (void)ng;
+- (id)ction;
+- (struct CGRect)ldà<@;
+- (struct CGRect)tH§;
+- (void)ÿÿ;
+- (id)ipeActionPullView.m;
+- (unsigned long long)icPatternLibraryKeyKeyboardInputText;
+- (_Bool)nst size_t, _UIBoundingPathBitmapData *);
+- (void)Style;
+- (void)¯s¾7Sg;
+- (void);
+- (struct CGSize);
+- (void)\N_;
+- (id)^Ô×dm`;
+- (void)¤rðþ§MÓö;
+- (void)ª¸ÿj³;
 
 // Remaining properties
 @property(nonatomic) unsigned long long concaveCorner; // @synthesize concaveCorner=m_concaveCorner;

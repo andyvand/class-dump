@@ -22,12 +22,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (struct CGRect);
 - (id);
 - (void);
-- (id)tension;
-- (void)²;
+- (struct CGRect);
+- (void);
+- (void)eViewModel;
+- (id)LocaleTemperatureUnitKey;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject *customData; // @synthesize customData=_customData;

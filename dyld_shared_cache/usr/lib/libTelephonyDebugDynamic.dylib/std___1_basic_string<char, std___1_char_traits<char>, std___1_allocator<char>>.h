@@ -4,11 +4,11 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
-    __grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*);
-    __init_copy_ctor_external(char const*, unsigned long);
-    __throw_length_error[abi:ne200100]();
-    append(unsigned long, char);
-    insert(unsigned long, char const*, unsigned long);
-    resize(unsigned long, char);
+    auto __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
+    auto __grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*);
+    auto __init_copy_ctor_external(char const*, unsigned long);
+    auto __throw_length_error[abi:nqe210106]();
+    auto append(unsigned long, char);
+    auto insert(unsigned long, char const*, unsigned long);
+    auto resize(unsigned long, char);
 };

@@ -4,8 +4,8 @@
 
 class std::__1::money_get<char, std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>> {
 public: // (access info unavailable from symbols alone)
-    __do_get(std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>&, std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, bool, std::__1::locale const&, unsigned int, unsigned int&, bool&, std::__1::ctype<char> const&, std::__1::unique_ptr<char, void (*)(void*)>&, char*&, char*);
-    do_get(std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, bool, std::__1::ios_base&, unsigned int&, long double&) const;
-    do_get(std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, bool, std::__1::ios_base&, unsigned int&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) const;
+    auto __do_get(std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>&, std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, bool, std::__1::locale const&, unsigned int, unsigned int&, bool&, std::__1::ctype<char> const&, std::__1::unique_ptr<char, void (*)(void*)>&, char*&, char*);
+    auto do_get(std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, bool, std::__1::ios_base&, unsigned int&, long double&) const;
+    auto do_get(std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, std::__1::istreambuf_iterator<char, std::__1::char_traits<char>>, bool, std::__1::ios_base&, unsigned int&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>&) const;
     ~money_get();
 };

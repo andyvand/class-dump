@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (id);
++ (id),.èÿ;
 - (void);
 - (void);
 - (void);
@@ -26,11 +26,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (unsigned long long);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void)y %@ not found on EDAMNote.attributes;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;

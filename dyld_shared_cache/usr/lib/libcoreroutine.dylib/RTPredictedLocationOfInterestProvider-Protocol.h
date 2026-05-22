@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTPredictedDatesCriteria;
-
 @protocol RTPredictedLocationOfInterestProvider
-- (void)6;
-- (void)I Hint, %{sensitive}@, detected near location, %{sensitive}@, %@;
-- (void)%s:(RTPredictedDatesCriteria *)arg1 %d);
-- (_Bool)ion request %@;
 @end
 

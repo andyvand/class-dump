@@ -4,20 +4,22 @@
 
 class JetPack::CommonCryptoBackend {
 public: // (access info unavailable from symbols alone)
-    aesGCMDecrypt(unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char*, unsigned char*, unsigned long);
-    aesGCMEncrypt(unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char*, unsigned char*, unsigned long);
-    certificateForData(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
-    computeSHA256Digest(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
-    convertCCStatusToCryptoStatus(int);
-    deriveKey(unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char*, unsigned long);
-    exportCertificateAsDER(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
-    exportPrivateKeyAsDER(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
-    generateSecureRandomBytes(unsigned char*, unsigned long);
-    generateSelfSignedCertificate(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
-    generateSigningKey();
-    keyFromData(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
-    publicKeyForTrust(__SecTrust*);
-    subjectEntry(__CFString const*, __CFString const*);
-    trustForCertificate(__SecCertificate*);
+    auto aesGCMDecrypt(unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char*, unsigned char*, unsigned long);
+    auto aesGCMEncrypt(unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char*, unsigned char*, unsigned long);
+    auto certificateForData(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
+    auto computeSHA256Digest(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
+    auto convertCCStatusToCryptoStatus(int);
+    auto deriveKey(unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char*, unsigned long);
+    auto exportCertificateAsDER(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
+    auto exportPrivateKeyAsDER(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
+    auto generateSecureRandomBytes(unsigned char*, unsigned long);
+    auto generateSelfSignedCertificate(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
+    auto generateSigningKey();
+    auto keyFromData(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
+    auto publicKeyForTrust(__SecTrust*);
+    auto publicKeyForTrust(__SecTrust*) (.cold.1);
+    auto subjectEntry(__CFString const*, __CFString const*);
+    auto trustForCertificate(__SecCertificate*);
+    auto trustForCertificate(__SecCertificate*) (.cold.1);
     ~CommonCryptoBackend();
 };

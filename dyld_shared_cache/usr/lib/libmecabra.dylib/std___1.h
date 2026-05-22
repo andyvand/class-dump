@@ -4,9 +4,11 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __call_once(unsigned long volatile&, void*, void (*)(void*));
-    __next_prime(unsigned long);
-    __throw_system_error(int, char const*);
-    stoi(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long*, int);
-    to_string(unsigned long);
+    auto __call_once(unsigned long volatile&, void*, void (*)(void*));
+    auto __next_prime(unsigned long);
+    auto __throw_system_error(int, char const*);
+    auto stoi(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long*, int);
+    auto to_string(unsigned long);
+    std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> operator+<char, std::__1::char_traits<char>, std::__1::allocator<char>>(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    void __sort<std::__1::__less<double, double>&, double*>(double*, double*, std::__1::__less<double, double>&);
 };

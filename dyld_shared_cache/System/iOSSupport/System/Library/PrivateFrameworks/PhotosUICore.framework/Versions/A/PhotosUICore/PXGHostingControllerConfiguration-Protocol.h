@@ -7,11 +7,8 @@
 @class PXGViewEnvironment, PXMediaProvider, UIColor;
 
 @protocol PXGHostingControllerConfiguration
-- (void)extBannerView;
-- (void);
-- (_Bool)uest;
-- (void)_LIKED_THIS_PHOTO_PHRASE_FORMAT;
-- (PXMediaProvider *)detailsNavigationDestination;
+- (UIColor *)ü;
+- (_Bool)esultProviderInput;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *backgroundColor;

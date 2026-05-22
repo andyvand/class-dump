@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXGridPresentation> gridPresentation; // @synthesize gridPresentation=_gridPresentation;

@@ -12,19 +12,19 @@
     NSMutableDictionary *_metrics;
 }
 
-- (void)ntainerPath:codeIdentity:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id)ientName: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
 - (void);
-- (id);
-- (id)RTLocationSmootherKF, %lu, estimated location, %{sensitive}@, xEst, %{sensitive}f, yEst, %{sensitive}f, errPro, %f, latEst, %{sensitive}f, lngEst, %{sensitive}f, alt, %{sensitive}f;
-- (id)´;
+- (id)iding destination average speed automobile;
+- (void)aoiDedupedInferredMapItems;
+- (id)eboard:(id)arg1 suppression;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

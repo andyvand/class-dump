@@ -12,14 +12,14 @@
 }
 
 - (id);
-- (double);
-- (_Bool);
 - (id);
+- (double);
+- (struct CGPoint);
+- (_Bool);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (struct CGPoint)FStatusDescriptionValve_MultipleRunning;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint center; // @synthesize center=_center;

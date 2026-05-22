@@ -9,7 +9,7 @@
 @interface HUCameraUsageOptionItem
 {
     _Bool _updateInProgress;
-    unsigned long long _presence;
+    unsigned long long _cameraHomePresence;
     unsigned long long _usage;
     unsigned long long _sortOrder;
     NSSet *_cameraProfiles;
@@ -17,20 +17,19 @@
 
 + (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (_Bool)VViewingProfilesItemInfrastructure;
-- (void)	
-;
-- (unsigned long long)rofile:] /* Error: Ran out of types for this method. */;
-- (unsigned long long)ò½øM;
+- (_Bool);
+- (unsigned long long);
+- (unsigned long long)FitWidth:forNumberOfWallpapers: /* Error: Ran out of types for this method. */;
+- (void)anguageSetUp.Configuration.HeaderLabel;
 
 // Remaining properties
+@property(readonly, nonatomic) unsigned long long cameraHomePresence; // @synthesize cameraHomePresence=_cameraHomePresence;
 @property(readonly, copy, nonatomic) NSSet *cameraProfiles; // @synthesize cameraProfiles=_cameraProfiles;
-@property(readonly, nonatomic) unsigned long long presence; // @synthesize presence=_presence;
 @property(readonly, nonatomic) NSString *privacyDescription;
 @property(readonly, nonatomic) unsigned long long sortOrder; // @synthesize sortOrder=_sortOrder;
 @property(nonatomic) _Bool updateInProgress; // @synthesize updateInProgress=_updateInProgress;

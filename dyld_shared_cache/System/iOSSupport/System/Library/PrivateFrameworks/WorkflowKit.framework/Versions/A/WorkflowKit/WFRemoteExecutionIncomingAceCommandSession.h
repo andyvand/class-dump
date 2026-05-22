@@ -16,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)on:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) WFRemoteExecutionAceCommandRequestResponse *response; // @synthesize response=_response;

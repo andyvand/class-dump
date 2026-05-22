@@ -14,11 +14,12 @@
     NSError *_error;
 }
 
+- (id);
+- (id);
 - (void);
-- (void)*A;
 - (id);
-- (id);
-- (id);
+- (void)ÁÝð!(Aùñîð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

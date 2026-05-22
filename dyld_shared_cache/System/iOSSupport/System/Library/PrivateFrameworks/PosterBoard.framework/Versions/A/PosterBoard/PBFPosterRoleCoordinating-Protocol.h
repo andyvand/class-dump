@@ -7,7 +7,6 @@
 @class NSString, PRPosterCollection;
 
 @protocol PBFPosterRoleCoordinating
-- (NSString *);
 
 // Remaining properties
 @property unsigned long long maximumNumberOfPosters;

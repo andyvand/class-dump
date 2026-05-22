@@ -12,7 +12,7 @@
     NSMapTable *_handlesForObserver;
 }
 
-+ (id)¬Èß@;
++ (id);
 - (void);
 - (id);
 - (void);
@@ -24,8 +24,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)Ü;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *handlesForObserver; // @synthesize handlesForObserver=_handlesForObserver;

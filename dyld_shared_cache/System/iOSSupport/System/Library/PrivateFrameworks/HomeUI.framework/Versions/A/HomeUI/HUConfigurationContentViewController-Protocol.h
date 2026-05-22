@@ -8,11 +8,6 @@
 
 @protocol HUConfigurationContentViewController
 
-@optional
-- (id <HUConfigurationContentViewControllerDelegate>)1b0@ù
-× ;
-- (void)32@0:(id <HUConfigurationContentViewControllerDelegate>)arg1 8@"HMMediaSystem"16@"NSArray"24;
-
 // Remaining properties
 @property(readonly, nonatomic) _Bool canFinishConfiguration;
 // Preceding property had unknown attributes: ?

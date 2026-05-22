@@ -5,6 +5,5 @@
 //
 
 @protocol CKTranscriptPhotoStackCellDelegate
-- (void)dingMethod;
 @end
 

@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)a;
-- (void)oCoalesceBreaking == __objc_no;
-- (void):(id)arg1 appearanceType:] /* Error: Ran out of types for this method. */;
-- (id)mbolicLinkDestinationURL];
 - (void);
-- (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)ps;
 
 // Remaining properties
 @property(retain, nonatomic) LPWebLinkPresentationProperties *presentationProperties; // @synthesize presentationProperties=_presentationProperties;

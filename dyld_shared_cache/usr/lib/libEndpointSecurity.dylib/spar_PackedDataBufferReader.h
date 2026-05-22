@@ -4,6 +4,6 @@
 
 class spar::PackedDataBufferReader {
 public: // (access info unavailable from symbols alone)
-    create(spar::Slice<unsigned char const>);
-    read(spar::Slice<unsigned char>);
+    auto create(spar::Slice<unsigned char const>);
+    auto read(spar::Slice<unsigned char>);
 };

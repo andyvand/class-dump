@@ -16,15 +16,15 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id)erredFormat:forceRewrite:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

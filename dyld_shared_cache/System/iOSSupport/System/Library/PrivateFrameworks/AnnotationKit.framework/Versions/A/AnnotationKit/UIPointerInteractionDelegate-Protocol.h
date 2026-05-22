@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPointerRegion, UIPointerStyle;
-
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (UIPointerStyle *)aderOriginBottomLeft;
-- (UIPointerRegion *)ableError;
+- (void)ÔáÁ	°!4@ùQêð1Â0@ù
+× ;
 @end
 

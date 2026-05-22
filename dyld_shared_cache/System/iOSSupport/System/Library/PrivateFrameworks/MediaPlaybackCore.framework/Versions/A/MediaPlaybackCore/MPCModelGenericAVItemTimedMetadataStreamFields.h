@@ -16,19 +16,20 @@ __attribute__((visibility("hidden")))
     NSArray *_artworkDictionaries;
 }
 
-- (void)otificationPlugin;
-- (id)siTunesAccountModification:oldAccount:inStore: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)LowInternetUL;
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void)!;
 - (id);
 - (void);
-- (id)}@;
-- (_Bool);
-- (id)iaPlaybackCore;
+- (void);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id)
+× ;
+- (void)u;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *album; // @synthesize album=_album;

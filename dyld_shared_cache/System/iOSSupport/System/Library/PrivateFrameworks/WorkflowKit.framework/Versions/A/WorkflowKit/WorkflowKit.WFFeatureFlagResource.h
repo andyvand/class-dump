@@ -16,11 +16,11 @@
 }
 
 + (_Bool);
-- (void)ÄEÉ;
-- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void)dia);
 
 @end
 

@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)umber;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long lastRequestedNearestID; // @synthesize lastRequestedNearestID=_lastRequestedNearestID;

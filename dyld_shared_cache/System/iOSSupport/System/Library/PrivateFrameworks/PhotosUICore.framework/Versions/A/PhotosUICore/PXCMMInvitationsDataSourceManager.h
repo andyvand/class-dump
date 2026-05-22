@@ -16,9 +16,9 @@
 + (id);
 + (id);
 + (id);
-- (void)undoManager;
-- (long long);
 - (id);
+- (long long)y;
+- (void)ndingAvatarView;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMInvitationsDataSource *dataSource; // @dynamic dataSource;

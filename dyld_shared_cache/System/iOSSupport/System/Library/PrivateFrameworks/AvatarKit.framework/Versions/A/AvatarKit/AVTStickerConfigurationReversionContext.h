@@ -28,13 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)";
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)h;
+- (void);
 - (id);
+- (void);
 
 @end
 

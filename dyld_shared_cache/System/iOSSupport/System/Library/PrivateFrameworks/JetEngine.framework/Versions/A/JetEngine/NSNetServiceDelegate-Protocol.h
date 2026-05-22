@@ -5,11 +5,5 @@
 //
 
 @protocol NSNetServiceDelegate
-
-@optional
-- (void)vider;
-- (void)ce;
-- (void)Object;
-- (void)eference;
 @end
 

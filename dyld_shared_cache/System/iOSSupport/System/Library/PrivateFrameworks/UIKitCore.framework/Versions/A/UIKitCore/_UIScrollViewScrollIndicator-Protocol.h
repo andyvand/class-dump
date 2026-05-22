@@ -7,14 +7,16 @@
 @class UIColor;
 
 @protocol _UIScrollViewScrollIndicator
-- (void);
-- (long long);
-- (struct CGSize)ÈðDÐ;
-- (unsigned long long);
-- (void);
-- (UIColor *)%@;
-- (void)ve;
-- (void)ieldConfiguration;
+- (void)0@ù
+× ;
+- (unsigned long long)!T@ùñ_°1Â0@ù
+× ;
+- (struct CGSize);
+- (_Bool)¡	ð!Dùñeð1Â0@ù
+× ;
+- (void)pageScrollView;
+- (void)°¿R0;
+- (UIColor *);
 
 // Remaining properties
 @property(nonatomic) _Bool expandedForDirectManipulation;

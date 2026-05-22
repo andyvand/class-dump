@@ -18,14 +18,14 @@
 }
 
 - (id);
-- (id)3;
-- (struct CGColorSpace *);
-- (double);
-- (struct CGAffineTransform);
-- (struct CGRect);
 - (id);
+- (struct CGColorSpace *);
 - (void);
-- (void);
+- (id);
+- (struct CGAffineTransform);
+- (double);
+- (struct CGRect);
+- (void)yle class.;
 
 // Remaining properties
 @property(readonly, nonatomic) double contentsScale; // @synthesize contentsScale=_contentsScale;

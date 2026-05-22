@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)WKWebView"16@?<v@?@"UIViewController"@"NSError">24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) IMChat *chat; // @synthesize chat=_chat;

@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct UIEdgeInsets);
-- (struct CGPoint);
-- (struct CGPoint);
-- (id)SeparatorInsets;
-- (double)SToolbarProxyTabBarItemProviding>",R,N,V_tabBarProvider;
-- (_Bool)	
-;
-- (struct UIEdgeInsets)~Øþÿ;
-- (struct UIEdgeInsets)qe;
-- (id)f;
+- (_Bool);
+- (id);
+- (struct UIEdgeInsets);
+- (id)!Fù1eÐ1Â0@ù
+× ;
+- (struct CGPoint)dShowSystemInputAssistantItems;
+- (struct CGPoint)n;
+- (struct UIEdgeInsets);
+- (double)TextAttributesTransformer;
 
 @end
 

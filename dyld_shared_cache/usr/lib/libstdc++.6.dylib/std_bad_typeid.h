@@ -4,6 +4,6 @@
 
 class std::bad_typeid {
 public: // (access info unavailable from symbols alone)
-    what() const;
+    auto what() const;
     ~bad_typeid();
 };

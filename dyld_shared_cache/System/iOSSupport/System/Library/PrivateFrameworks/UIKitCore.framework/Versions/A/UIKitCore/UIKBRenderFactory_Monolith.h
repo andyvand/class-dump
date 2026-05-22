@@ -11,47 +11,48 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ToRecentlyDeleted:deleteDate:queryID: /* Error: Ran out of types for this method. */;
-- (double)eleteDate: /* Error: Ran out of types for this method. */;
-- (id)essagesInChatsWithGUIDsToRecentlyDeleted:deleteDate: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
-- (double)Path:error: /* Error: Ran out of types for this method. */;
-- (double)veAssetFromRecord: /* Error: Ran out of types for this method. */;
-- (double)andleMessageMarkUnreadRequestWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
-- (double)ageDidReplace:newMessage: /* Error: Ran out of types for this method. */;
-- (double)geDictionary:forMessage:withGUID:contentLength:chat: /* Error: Ran out of types for this method. */;
-- (id)dScheduledMessageGUIDandCKRecordToDeleteFromCloudKit:recordID: /* Error: Ran out of types for this method. */;
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
 - (void);
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (struct CGSize)};
 - (id);
 - (double);
+- (struct CGSize);
+- (id);
+- (double);
 - (id);
 - (id);
-- (_Bool)T;
+- (_Bool);
 - (id);
-- (double)eduledMessage;
-- (double)%@;
-- (double));
-- (double)changed to %@:%@ (%@) /* Error: Ran out of types for this method. */;
-- (double));
-- (double)e received profile changed to %@:%@ (%@) /* Error: Ran out of types for this method. */;
-- (struct CGSize)aliases changed:(struct CGSize)arg1 %@ (%@);
-- (void)ataProtection;
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (struct CGSize);
 - (void);
-- (void)t coming online chat sync date %@;
-- (void)ty %s;
-- (id)BackgroundMessagingAPIListener;
-- (id)this may NOT be visible to the user!;
-- (id)s.;
-- (id)for SyndicatedAction fromID:(id)arg1 %@, ;
-- (struct CGPoint)ing transfer found for %@, setting attribution %@;
-- (struct CGPoint)tification;
-- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (id);
 - (id);
@@ -63,17 +64,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
 - (double);
 - (id);
-- (double)¢!0@ù
-× ;
-- (double)
-× ;
-- (id)AccentColor;
-- (id)a_;
-- (long long)°;
+- (id);
+- (double);
+- (id);
+- (id);
+- (double);
+- (id)bBarController:dropSessionDidUpdate:withDestinationTab: /* Error: Ran out of types for this method. */;
+- (long long)Ài;
+- (id)£g;
+- (double)ÿ±=ÕäHl;
 
 @end
 

@@ -19,11 +19,11 @@
 - (void);
 - (void);
 - (double);
-- (double);
-- (double);
-- (void);
 - (id);
 - (void);
+- (void);
+- (double);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double exposure; // @synthesize exposure=_exposure;

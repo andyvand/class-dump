@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (int);
 - (void);
+- (int);
 
 // Remaining properties
 @property(nonatomic) int temperatureUnit; // @synthesize temperatureUnit=_temperatureUnit;

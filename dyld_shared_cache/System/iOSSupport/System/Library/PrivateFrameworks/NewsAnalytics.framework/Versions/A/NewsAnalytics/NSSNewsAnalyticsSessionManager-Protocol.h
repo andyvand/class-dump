@@ -7,8 +7,6 @@
 @class NTPBSession;
 
 @protocol NSSNewsAnalyticsSessionManager
-- (void);
-- (NTPBSession *);
 
 // Remaining properties
 @property(readonly, nonatomic) NTPBSession *currentSession;

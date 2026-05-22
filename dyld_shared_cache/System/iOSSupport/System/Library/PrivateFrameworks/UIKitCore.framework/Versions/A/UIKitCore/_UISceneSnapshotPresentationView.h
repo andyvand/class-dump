@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (void):(id)arg1 sº;
-- (id)inimumDisplayRowCount;
-- (id)roofreadingSession: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool);
+- (id)rmer:(id)arg1;
+- (id)litViewControllerColumnToResizeAtPoint:isPointer: /* Error: Ran out of types for this method. */;
+- (id)ntIdentifier:(struct CGRect)arg1;
+- (_Bool)B,N,V_heightShouldBeIncreasedByTabBarHeight;
+- (void)Iegy_;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

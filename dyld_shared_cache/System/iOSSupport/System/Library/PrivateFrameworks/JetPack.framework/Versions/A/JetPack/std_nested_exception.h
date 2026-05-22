@@ -4,7 +4,7 @@
 
 class std::nested_exception {
 public: // (access info unavailable from symbols alone)
+    auto rethrow_nested() const;
     nested_exception();
-    rethrow_nested() const;
     ~nested_exception();
 };

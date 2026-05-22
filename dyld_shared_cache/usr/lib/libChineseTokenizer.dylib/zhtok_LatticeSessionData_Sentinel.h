@@ -4,6 +4,6 @@
 
 class zhtok::LatticeSessionData::Sentinel {
 public: // (access info unavailable from symbols alone)
-    createBOS();
-    createEOS();
+    auto createBOS();
+    auto createEOS();
 };

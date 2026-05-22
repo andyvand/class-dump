@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)X-;
-- (id)lectionInteraction;
+- (id);
+- (id)¬ ÉÿMÕjd;
 
 @end
 

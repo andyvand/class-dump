@@ -22,15 +22,14 @@ __attribute__((visibility("hidden")))
     unsigned long long m_insertedTextLength;
 }
 
-- (void)t:(id)arg1 allowListChanged:(id)arg2;
-- (void);
-- (void)p;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)ge with Message Guid %@ and index %lu;
+- (void);
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (void)ITraitHorizontalSizeClass;
+- (void)ÌIa;
+- (void)Hh;
 
 @end
 

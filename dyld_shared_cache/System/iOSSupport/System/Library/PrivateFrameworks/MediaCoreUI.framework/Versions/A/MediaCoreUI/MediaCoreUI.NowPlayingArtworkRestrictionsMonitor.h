@@ -13,9 +13,9 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)ntroller setting system glass to dark=%{bool}d because expanded=%{bool}d and highContrast=%{bool}d;
 
 @end
 

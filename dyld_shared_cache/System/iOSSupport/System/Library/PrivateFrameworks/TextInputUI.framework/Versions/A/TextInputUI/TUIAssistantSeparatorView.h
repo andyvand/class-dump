@@ -11,12 +11,12 @@
     UIView *_innerSeparatorView;
 }
 
-+ (id)¡;
-- (void);
-- (void);
++ (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *innerSeparatorView; // @synthesize innerSeparatorView=_innerSeparatorView;

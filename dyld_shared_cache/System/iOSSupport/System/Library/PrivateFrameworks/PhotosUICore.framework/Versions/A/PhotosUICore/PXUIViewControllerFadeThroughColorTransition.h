@@ -14,11 +14,11 @@
 
 - (id);
 - (id);
-- (void)°myl«°myl¬Ö0e;
-- (id);
-- (double)oryMutableDummyStyle>"8;
-- (void);
 - (double);
+- (double);
+- (id);
+- (void);
+- (void).infoPanel.discoverability.subtitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

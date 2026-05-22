@@ -8,8 +8,10 @@
 @protocol FCPuzzleTypeProviding;
 
 @protocol FCPuzzleProviding
-- (void)å¼ÿÿÿÿÿl;
-- (_Bool)UI/StockView.swift;
+- (NSDate *)surfacedByTopicID;
+- (_Bool)Ny­¤°¸;
+- (NSDate *)¤ ÑËÿ5¤ÌÑËÿE¤üÑËÿ;
+- (long long)Ý;
 - (_Bool);
 
 // Remaining properties

@@ -5,6 +5,5 @@
 //
 
 @protocol CKPinnedConversationActivityItemViewDelegate
-- (void)};
 @end
 

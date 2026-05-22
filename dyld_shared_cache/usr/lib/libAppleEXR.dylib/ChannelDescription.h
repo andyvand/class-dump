@@ -4,18 +4,19 @@
 
 class ChannelDescription {
 public: // (access info unavailable from symbols alone)
-    ConfigureChannelType(char const*, unsigned long, Layer*&);
-    ConfigureChannelType(char const*, unsigned long, Layer*&)::kColorList;
-    CopyName(AXRData const*, char*, unsigned long) const;
-    CreateMipLevels(void const*, Part const&, axr_size_t, axr_level_mode_t);
-    GetChannelInfo(void const*) const;
-    IdentifyChannels(Chromaticities const&);
-    ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&);
-    ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.1);
-    ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.2);
-    ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.3);
-    ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.4);
-    ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.5);
-    Print(char*, unsigned long, void const*, axr_flags_t) const;
+    auto ConfigureChannelType(char const*, unsigned long, Layer*&);
+    auto ConfigureChannelType(char const*, unsigned long, Layer*&)::kColorList;
+    auto CopyName(AXRData const*, char*, unsigned long) const;
+    auto CreateMipLevels(void const*, Part const&, axr_size_t, axr_level_mode_t);
+    auto GetChannelInfo(void const*) const;
+    auto IdentifyChannels(Chromaticities const&);
+    auto ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&);
+    auto ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.1);
+    auto ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.2);
+    auto ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.3);
+    auto ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.4);
+    auto ParseChList(void const*, unsigned long, unsigned long, axr_flags_t, axr_level_mode_t, Layer*&, ChannelDescription*&, unsigned int&, axr_error_t&) (.cold.5);
+    auto Print(char*, unsigned long, void const*, axr_flags_t) const;
+    void * operator new(unsigned long);
     ~ChannelDescription();
 };

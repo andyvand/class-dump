@@ -14,11 +14,11 @@
 - (void);
 - (long long);
 - (id);
-- (id)lAttachmentsAsNeedingSync;
-- (void);
-- (unsigned long long);
 - (id);
-- (id)È¼;
+- (id);
+- (unsigned long long);
+- (void)estamp:(id)arg1;
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long modifierType; // @synthesize modifierType=_modifierType;

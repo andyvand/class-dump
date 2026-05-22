@@ -7,7 +7,6 @@
 @class UIViewFloatAnimatableProperty;
 
 @protocol _UIViewHybridPropertyAnimator
-- (void)rray">40;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewFloatAnimatableProperty *progressValue;

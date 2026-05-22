@@ -40,15 +40,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
@@ -56,6 +53,9 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *attributions; // @synthesize attributions=_attributions;

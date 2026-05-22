@@ -19,30 +19,30 @@
 }
 
 + (id);
-- (id)ngeForUUID: /* Error: Ran out of types for this method. */;
-- (void)t:scale: /* Error: Ran out of types for this method. */;
-- (void)ityLearnMoreProxyElement;
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (double);
-- (unsigned long long)u;
-- (void)r"32;
-- (id);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (void)";
-- (void);
-- (void);
-- (void)!;
-- (void);
-- (void);
-- (id)ÿ_ÖÒÿÿ#Õý{¿©ý;
 - (id);
-- (id)VariableDelayLoupeGesture;
-- (struct CGSize)u;
-- (double)ke;
+- (void);
+- (void);
+- (struct CGSize);
+- (double);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)eTypeSearch: /* Error: Ran out of types for this method. */;
+- (id)ingCollaboration:we have a URL (which should only happen for 3rd party file providers) but we were unable to begin accessing the URL, which prevents us from starting collaboration. /* Error: Ran out of types for this method. */;
+- (void);
+- (void)À	;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *balloonImageView; // @synthesize balloonImageView=_balloonImageView;

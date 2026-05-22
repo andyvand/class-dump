@@ -22,13 +22,13 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_clonedEntries;
 }
 
-+ (id)ackAssociatedMessageID:(id)arg1;
-+ (id)e;
-+ (_Bool)torForCurrentUser=nil];
++ (id);
++ (id);
++ (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,18 +45,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (long long);
-- (id)sForDomain: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (long long);
+- (id);
+- (id);
 - (CDStruct_d4f770cf);
-- (id);
-- (long long);
+- (void);
 - (_Bool);
-- (id);
-- (id)RelationshipGenericGroup;
+- (void)EventArtist__MAPPING_MISSING__;
+- (id)g mapping for MPModelPropertyAlbumCleanDownloadedTrackCount;
 
 // Remaining properties
 @property(readonly, nonatomic) long long branchDepth;

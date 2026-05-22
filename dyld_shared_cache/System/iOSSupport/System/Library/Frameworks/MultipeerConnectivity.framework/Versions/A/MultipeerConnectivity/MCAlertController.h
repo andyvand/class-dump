@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)resource [%@] peer[%@] progress[%@]@[%p] size(%lld) - dispatching callback.;
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *alertWindow; // @synthesize alertWindow=_alertWindow;

@@ -18,16 +18,16 @@
 }
 
 - (id);
+- (id);
 - (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)´#D'()p+;
-- (id);
-- (id)your Shortcuts preferences.;
 
 // Remaining properties
 @property(retain, nonatomic) CKFetchRecordsOperation *currentOperation; // @synthesize currentOperation=_currentOperation;

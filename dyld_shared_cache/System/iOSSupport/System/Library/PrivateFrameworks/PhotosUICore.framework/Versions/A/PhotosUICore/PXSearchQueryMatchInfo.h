@@ -29,14 +29,14 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id)Áv!Cù1{Ð1b0@ù
+- (id)0@ù
 × ;
-- (id)seTransform;
-- (id)oviderForPhotoLibrary(PHPhotoLibrary *__strong _Nonnull);
+- (id)adius;
+- (void)A<Çt¾;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *audioIdentifiers; // @synthesize audioIdentifiers=_audioIdentifiers;

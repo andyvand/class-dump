@@ -14,19 +14,19 @@
     _Bool _use24hrTime;
 }
 
-+ (id);
++ (id);
 + (void);
 + (id);
 + (struct __CFString *);
 - (_Bool);
 - (id);
-- (id)z;
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

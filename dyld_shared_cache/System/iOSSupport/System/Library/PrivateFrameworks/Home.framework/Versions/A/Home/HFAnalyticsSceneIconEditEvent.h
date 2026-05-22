@@ -18,15 +18,15 @@
 
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)aAccessoryItem init];
 
 // Remaining properties
 @property(retain, nonatomic) NSString *colorStr; // @synthesize colorStr=_colorStr;

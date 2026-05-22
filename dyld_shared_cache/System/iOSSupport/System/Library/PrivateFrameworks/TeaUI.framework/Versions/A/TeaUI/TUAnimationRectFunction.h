@@ -16,22 +16,22 @@
     struct CGRect _endValue;
 }
 
-- (struct CGRect)&j=;
+- (struct CGRect);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)@;
+- (void);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (id)tAcceptActionTitle: /* Error: Ran out of types for this method. */;
-- (void);
 - (void);
 - (double);
-- (void)ion;
-- (id)tAdjustmentEnabled;
-- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect endValue; // @synthesize endValue=_endValue;

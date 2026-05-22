@@ -22,7 +22,7 @@
 
 + (_Bool);
 + (id);
-+ (double);
++ (double);
 + (id);
 + (id);
 + (id);
@@ -46,21 +46,21 @@
 - (void);
 - (void);
 - (void);
-- (id)={CGPoint=dd}{CGSize=dd}}16q48q56{CGSize=dd}64;
-- (id)ributeRequest:parameter:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)Control;
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)P;
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (id);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

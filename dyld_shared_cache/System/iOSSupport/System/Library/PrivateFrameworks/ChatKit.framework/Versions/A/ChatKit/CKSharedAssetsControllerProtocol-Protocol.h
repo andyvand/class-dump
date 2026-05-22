@@ -7,11 +7,7 @@
 @protocol CKSharedAssetsControllerDelegate;
 
 @protocol CKSharedAssetsControllerProtocol
-- (void);
-- (void)rWritingTools;
-- (_Bool)CMClickableTextView;
-- (id <CKSharedAssetsControllerDelegate>)\è;
-- (void)f7ûÿ;
+- (unsigned long long)erTallDetent;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKSharedAssetsControllerDelegate> delegate;

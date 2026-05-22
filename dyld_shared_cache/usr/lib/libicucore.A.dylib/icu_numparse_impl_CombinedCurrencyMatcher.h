@@ -5,8 +5,8 @@
 class icu::numparse::impl::CombinedCurrencyMatcher {
 public: // (access info unavailable from symbols alone)
     CombinedCurrencyMatcher(icu::number::impl::CurrencySymbols const&, icu::DecimalFormatSymbols const&, int, UErrorCode&);
-    match(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
-    matchCurrency(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
-    smokeTest(icu::StringSegment const&) const;
-    toString() const;
+    auto match(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
+    auto matchCurrency(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
+    auto smokeTest(icu::StringSegment const&) const;
+    auto toString() const;
 };

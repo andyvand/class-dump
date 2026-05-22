@@ -14,9 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)èéº;
-- (id)rWidth:withFont:lineBreakMode:letterSpacing:includeEmoji: /* Error: Ran out of types for this method. */;
-- (void)read. It is illegal to use UIView on a background thread.;
+- (void)
+× ;
+- (id)4@?0@"<_UIResponderForwardableEventComponent>"8^B16;
+- (void)7¸´;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

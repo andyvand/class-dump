@@ -17,11 +17,11 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)Jpþÿ;
 
 @end
 

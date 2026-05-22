@@ -24,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (struct CGSize);
-- (id);
 - (void);
 - (void);
+- (void);
 - (id);
+- (void)entMethod:completion: /* Error: Ran out of types for this method. */;
+- (id)geInsets;
 
 // Remaining properties
 @property(nonatomic) double containerHeight; // @synthesize containerHeight=_containerHeight;

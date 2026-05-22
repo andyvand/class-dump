@@ -34,8 +34,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy) NSArray *realtimeSuggestions;

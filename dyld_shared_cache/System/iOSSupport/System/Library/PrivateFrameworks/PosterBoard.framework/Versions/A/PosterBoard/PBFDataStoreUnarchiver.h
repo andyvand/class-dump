@@ -14,7 +14,7 @@
 }
 
 + (_Bool);
-+ (id)Provider:observer:wasMigrationJustPerformed:applicationStateMonitor:error:] /* Error: Ran out of types for this method. */;
++ (id)erInfoKeyAttributeType;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -23,9 +23,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *archivedDataStoreURL; // @synthesize archivedDataStoreURL=_archivedDataStoreURL;

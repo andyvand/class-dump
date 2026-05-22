@@ -4,24 +4,24 @@
 
 class bssl::SSLAEADContext {
 public: // (access info unavailable from symbols alone)
-    CiphertextLen(unsigned long*, unsigned long, unsigned long) const;
-    Create(evp_aead_direction_t, unsigned short, ssl_cipher_st const*, bssl::Span<unsigned char const>, bssl::Span<unsigned char const>, bssl::Span<unsigned char const>);
-    CreateNullCipher();
-    CreatePlaceholderForQUIC(ssl_cipher_st const*);
-    CreateRecordNumberEncrypter();
-    ExplicitNonceLen() const;
-    GenerateRecordNumberMask(bssl::Span<unsigned char>, bssl::Span<unsigned char const>);
-    MaxOverhead() const;
-    Open(bssl::Span<unsigned char>*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, bssl::Span<unsigned char>);
-    Open(bssl::Span<unsigned char>*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, bssl::Span<unsigned char>) (.cold.1);
-    Open(bssl::Span<unsigned char>*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, bssl::Span<unsigned char>) (.cold.2);
     SSLAEADContext(ssl_cipher_st const*);
-    SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long);
-    SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.1);
-    SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.2);
-    SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.3);
-    SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.4);
-    SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.5);
-    SuffixLen(unsigned long*, unsigned long, unsigned long) const;
+    auto CiphertextLen(unsigned long*, unsigned long, unsigned long) const;
+    auto Create(evp_aead_direction_t, unsigned short, ssl_cipher_st const*, bssl::Span<unsigned char const>, bssl::Span<unsigned char const>, bssl::Span<unsigned char const>);
+    auto CreateNullCipher();
+    auto CreatePlaceholderForQUIC(ssl_cipher_st const*);
+    auto CreateRecordNumberEncrypter();
+    auto ExplicitNonceLen() const;
+    auto GenerateRecordNumberMask(bssl::Span<unsigned char>, bssl::Span<unsigned char const>);
+    auto MaxOverhead() const;
+    auto Open(bssl::Span<unsigned char>*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, bssl::Span<unsigned char>);
+    auto Open(bssl::Span<unsigned char>*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, bssl::Span<unsigned char>) (.cold.1);
+    auto Open(bssl::Span<unsigned char>*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, bssl::Span<unsigned char>) (.cold.2);
+    auto SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long);
+    auto SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.1);
+    auto SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.2);
+    auto SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.3);
+    auto SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.4);
+    auto SealScatter(unsigned char*, unsigned char*, unsigned char*, unsigned char, unsigned short, unsigned long long, bssl::Span<unsigned char const>, unsigned char const*, unsigned long, unsigned char const*, unsigned long) (.cold.5);
+    auto SuffixLen(unsigned long*, unsigned long, unsigned long) const;
     ~SSLAEADContext();
 };

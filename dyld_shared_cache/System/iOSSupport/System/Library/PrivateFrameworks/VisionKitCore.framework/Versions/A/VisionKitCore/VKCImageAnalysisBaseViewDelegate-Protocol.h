@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, VKCImageAnalysisBaseView;
+@class VKCImageAnalysisBaseView;
 
 @protocol VKCImageAnalysisBaseViewDelegate
-- (void);
-- (UIView *)Placeholder"32@0:(VKCImageAnalysisBaseView *)arg1 8{CGSize=dd}16;
-- (void)nNilObject:(VKCImageAnalysisBaseView *)arg1 forKey:(_Bool)arg2;
+- (void)0:(VKCImageAnalysisBaseView *)arg1 8@"NSURL"16^@24;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool automaticallyShowVisualSearchResults;

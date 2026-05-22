@@ -13,14 +13,14 @@
     _TtC7ChatKit28CKEffectPickerStylingMetrics *_stylingMetrics;
 }
 
-- (id)\;
+- (id);
 - (void);
 - (void);
 - (double);
-- (double)rror:%s} /* Error: Ran out of types for this method. */;
+- (double);
 - (void);
 - (struct CGRect);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _TtC7ChatKit28CKEffectPickerStylingMetrics *stylingMetrics; // @synthesize stylingMetrics=_stylingMetrics;

@@ -15,8 +15,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (struct CGRect);
 - (void);
-- (struct CGRect)1#;
 
 // Remaining properties
 @property(nonatomic) _Bool containsEnd; // @synthesize containsEnd;

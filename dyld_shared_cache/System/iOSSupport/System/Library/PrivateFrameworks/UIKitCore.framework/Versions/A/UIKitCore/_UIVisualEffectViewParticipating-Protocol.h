@@ -8,14 +8,13 @@
 @protocol _UIVisualEffectViewParticipating;
 
 @protocol _UIVisualEffectViewParticipating
-- (NSArray *)ChannelInitForSMB failed to create RPC channel;
-- (void);
-- (void)0@ù
+- (NSArray *);
+- (_UIVisualEffectViewBackdropCaptureGroup *)0@ù
 × ;
-- (NSArray *)lorBurnTintMaskImage;
-- (void)on>",R,N;
-- (void)ountString:(NSArray *)arg1 . The count label will not be updated.;
-- (UIView<_UIVisualEffectViewParticipating> *)IntelligenceSystemSceneDelegateP;
+- (UIView<_UIVisualEffectViewParticipating> *)y;
+- (void);
+- (void)Äþÿ;
+- (NSArray *)sponderChainStartCollectingDebugInfo(SEL _Nonnull);
 
 // Remaining properties
 @property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *containedView;

@@ -15,10 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
 - (id);
-- (id)ithAccessory;
-- (void);
+- (void);
+- (id)1Â0@ù
+× ;
+- (void)eCConvertibleAttributedStringKeyP;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

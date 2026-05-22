@@ -4,8 +4,8 @@
 
 class __gnu_cxx::__pool_alloc_base {
 public: // (access info unavailable from symbols alone)
-    _M_allocate_chunk(unsigned long, int&);
-    _M_get_free_list(unsigned long);
-    _M_get_mutex();
-    _M_refill(unsigned long);
+    auto _M_allocate_chunk(unsigned long, int&);
+    auto _M_get_free_list(unsigned long);
+    auto _M_get_mutex();
+    auto _M_refill(unsigned long);
 };

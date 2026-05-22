@@ -18,18 +18,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)orView:containingResponder: /* Error: Ran out of types for this method. */;
++ (id)hÓl;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)A;
 - (void);
 - (void);
 - (void);
-- (void)b1"isPendingFocusRestoration"b1"isPostponingUpdates"b1"hasSeenFocusedItem"b1"isInsideUpdateFocusIfNeeded"b1"delegateRespondsToTopEnvironment"b1"delegateRespondsToPreferredFocusEnvironments"b1"delegateRespondsToOverridingPreferredFocusEnvironment"b1"delegateRespondsToShouldRestoreFocusInContext"b1"delegateRespondsToWillUpdateFocusInContext"b1"delegateRespondsToDidUpdateFocusInContext"b1"delegateRespondsToDidFinishUpdatingFocusInContext"b1"delegateRespondsToWillMessageOldFocusNodes"b1"delegateRespondsToWillMessageNewFocusNodes"b1"delegateRespondsToEnvironmentDidUpdateFocusInContext"b1"delegateRespondsToDidCancelFocusUpdateInContext"b1"delegateRespondsToFocusItemContainer"b1"delegateRespondsToClippingRect"b1"delegateRespondsToDidUpdateDeferralTarget"b1"delegateRespondsToHandleFailedMovementRequest"b1"delegateRespondsToShouldReverseLayoutDirectionForEnvironment"b1"delegateRespondsToShouldReverseLinearWrappingForEnvironment"b1"delegateRespondsToIsScrollingScrollableContainer"b1};
-- (id)ô;
-- (void)b^;
+- (void);
+- (void)ontroller"16@0:(id)arg1 8;
+- (id)th = %@; dragItem = %@>;
+- (void)d¹þ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

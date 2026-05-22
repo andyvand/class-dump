@@ -11,20 +11,20 @@ __attribute__((visibility("hidden")))
     _Bool _presentingInconsistentFocusStatusAuthorizationPrompt;
 }
 
-+ (id)JÞ1;
-- (void)_inDidFailFetchingMetadataNotification;
++ (id)sageBalloonView;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)t;
-- (id)o;
-- (_Bool)hen retrying %@;
-- (_Bool)bject:qualityOfService:completionHandler:shareArgument is nil /* Error: Ran out of types for this method. */;
-- (id)icateCustomPasswordWithPrompt:result:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
-- (void)nTargetsKey;
-- (void)actionNotificationSummaryViewedKey;
-- (_Bool)er;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isPresentingFocusStatusAuthorizationPrompt) _Bool presentingFocusStatusAuthorizationPrompt; // @synthesize presentingFocusStatusAuthorizationPrompt=_presentingFocusStatusAuthorizationPrompt;

@@ -14,9 +14,8 @@ __attribute__((visibility("hidden")))
     UIVisualEffectView *_blurView;
 }
 
-- (void)1¢!0@ù
-× ;
-- (id)ge=QQ},?,N;
+- (id);
+- (void)°f;
 
 @end
 

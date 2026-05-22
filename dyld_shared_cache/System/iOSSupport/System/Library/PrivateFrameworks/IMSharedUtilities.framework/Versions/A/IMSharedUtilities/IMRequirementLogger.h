@@ -13,10 +13,10 @@
 
 + (void);
 + (id);
-+ (id);
++ (id)ChatBot Logo - Business data provider found the logo data:%ld for %s /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct IMRequirementFailed_t);

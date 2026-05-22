@@ -7,8 +7,7 @@
 @class ICUserIdentity;
 
 @protocol MPUserIdentityConsuming
-- (void)lightStorage:(ICUserIdentity *)arg1 CoreSpotlight attribution query for identifiers:%tu returned invalid number of results:%tu /* Error: Ran out of types for this method. */;
-- (ICUserIdentity *)Status;
+- (ICUserIdentity *)e;
 
 // Remaining properties
 @property(copy, nonatomic) ICUserIdentity *userIdentity;

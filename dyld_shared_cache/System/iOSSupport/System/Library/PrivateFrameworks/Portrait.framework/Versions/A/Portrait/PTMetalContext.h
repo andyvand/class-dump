@@ -27,7 +27,6 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -35,21 +34,23 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (id);
 - (void);
-- (void)nMax;
-- (void)_setDetectorDidRun:(id)arg1;
-- (id)37;
-- (void)÷µÿ(÷µÿ0÷µÿ9÷µÿA÷µÿJ÷µÿQ÷µÿZ÷µÿc÷µÿk÷µÿs÷µÿ{÷µÿ÷µÿ÷µÿ÷µÿ÷µÿ¥÷µÿ­÷µÿµ÷µÿ½÷µÿÅ÷µÿÎ÷µÿ×÷¶ÿßø¶ÿçø¶ÿðø¸ÿùùºÿÿú¼ÿ;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)¬ä
+;
+- (id)lïÿ;
+- (_Bool)ÿ µÿ(µÿ1µÿ9µÿBµÿJµÿRµÿZµÿcµÿkµÿsµÿ{µÿµÿµÿµÿµÿ¥µÿ­µÿµµÿ½¶ÿÅ¶ÿÎ·ÿÖ¸ÿÞ¸ÿæ¸ÿï¹ÿøºÿÿºÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool allowCommandbufferAllocation; // @synthesize allowCommandbufferAllocation=_allowCommandbufferAllocation;

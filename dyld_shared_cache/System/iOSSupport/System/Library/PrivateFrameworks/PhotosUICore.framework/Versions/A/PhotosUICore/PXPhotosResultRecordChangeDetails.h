@@ -20,9 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)q{°1b0@ù
-× ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResultChangeDetails *exposedFetchResultChangeDetails; // @synthesize exposedFetchResultChangeDetails=_exposedFetchResultChangeDetails;

@@ -31,66 +31,65 @@
     long long _alignment;
 }
 
-+ (_Bool)";
-- (_Bool);
++ (_Bool)parate reuse identifiers for different types of header/footer views to avoid this.;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (void)ol;
-- (void);
-- (void);
+- (id);
 - (_Bool);
 - (_Bool);
-- (long long)lContentTransition",&;
+- (void);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (double)rsistentID:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)OverQuality;
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (long long)Ùº;
-- (void);
-- (void)ÑÂ°1¢!0@ù
-× ;
-- (id);
-- (long long)0@ù
-× ;
-- (void)!d@ùÈ°1¢!0@ù
-× ;
 - (long long);
-- (_Bool)1¢!0@ù
-× ;
-- (id)¡x!ÐEùÎÐ1¢!0@ù
-× ;
-- (id)lViewDelayedTouchesBeganGestureRecognizer";
-- (void)nimationFenceHandle"16@0:(long long)arg1 8;
-- (id)argeTitleViewLayout;
-- (id)mumTrackImage:forState: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)ands:(id)arg1 testOnly:(_Bool)arg2 savedHistory:force:canHandleSelectableInputDelegateCommand:keyEvent: /* Error: Ran out of types for this method. */;
-- (void)oller:(id)arg1 itemForActivityType: /* Error: Ran out of types for this method. */;
-- (void)ntUnintendedPresentationDarwinNotificationsIfNeeded;
-- (_Bool)onGestureRecognizer;
-- (void)shPattern;
-- (id),N,V_keyboardDidAppear;
-- (_Bool)"_UISearchControllerTrackableState",R,N,V_trackableState;
-- (void)T@"CAShapeLayer",&,N,V_arrowTailLayer;
-- (id)erfaceDelegate;
-- (id)Ü;
-- (long long)¼	Ü;
-- (void);
-- (void)anced calls of startDeliveringPresses:(id)arg1 inPhase:withEvent:and finishDeliveringPresses. /* Error: Ran out of types for this method. */;
-- (long long)on (PopoverGlassTraitCollectionReader in _7ECF3A681218F987914274EE1CEB862F).;
-- (void);
 - (double);
-- (void)ça;
-- (void)8e;
+- (id)0@ù
+× ;
+- (long long)	Ð!Dùeð1Â0@ù
+× ;
+- (long long)irectionalEdgeInsets=dddd}32;
+- (_Bool)etrics={_UIListMetricsBackgroundMetrics=q@qd{NSDirectionalEdgeInsets=dddd}q}{_UIListMetricsContentMetrics=d}{_UIListMetricsImageMetrics=@}{_UIListMetricsLabelMetrics=@@}{_UIListMetricsLabelMetrics=@@}}56@0:(id)arg1 8q16q24q32@40@48;
+- (id)ceName: /* Error: Ran out of types for this method. */;
+- (_Bool)iewSet:(id)arg1;
+- (void)ss:(id)arg1;
+- (_Bool)tIsUnoccludable:(id)arg1;
+- (void)tionState;
+- (void)edbackView;
+- (id)D¹;
+- (void);
+- (void);
+- (_Bool)<ÁÜK;
+- (id)IKeyboardEndIntersectionHeightIncludingAccessory;
+- (id)eLevel;
+- (void)orners;
+- (void)f -sizeThatFits:(double)arg1 , -systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:, or -preferredLayoutAttributesFittingAttributes:. Ensure that your view generates a valid preferred size.
+Original attributes:%@. Preferred attributes:%@.
+Collection View:%@ /* Error: Ran out of types for this method. */;
+- (void)form a delete and a move from the same section (%ld);
+- (void)mension.;
+- (void)tributes"8;
+- (void)gProgressSpring;
+- (void);
+- (long long);
 - (id);
+- (id);
+- (void)¬;
+- (void)q;
+- (void)´|¹ÿR;
+- (id)½;
+- (void)	x;
+- (id);
+- (void)Àm÷þ×};
+- (void)ÿ;
+- (long long)Ñ{þ-ÍÐ)h;
+- (double)h;
+- (void)öËÜh;
+- (void)aPÝ(j;
+- (id);
+- (_Bool)´?m;
+- (long long)ðhÿfø(;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdjustsFontSizeToFitWidth:) _Bool _adjustsFontSizeToFitWidth; // @synthesize _adjustsFontSizeToFitWidth;

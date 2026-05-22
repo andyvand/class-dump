@@ -12,16 +12,16 @@
     unsigned long long _supportedAudio;
 }
 
-+ (_Bool)diaDestinationControllerData"8;
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (long long);
 - (unsigned long long);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 - (id);
 - (unsigned long long);
 

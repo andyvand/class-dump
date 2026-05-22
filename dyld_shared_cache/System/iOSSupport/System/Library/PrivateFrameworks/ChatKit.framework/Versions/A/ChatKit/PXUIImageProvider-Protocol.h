@@ -7,6 +7,6 @@
 @protocol PXUIImageProvider
 
 @optional
-- (void);
+- (void)ld not determine content insets, collection view cell was of an unexpected type:%@ /* Error: Ran out of types for this method. */;
 @end
 

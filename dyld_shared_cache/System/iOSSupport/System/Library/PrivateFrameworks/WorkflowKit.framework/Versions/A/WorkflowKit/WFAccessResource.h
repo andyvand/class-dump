@@ -36,17 +36,17 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (void);
 - (_Bool);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (int);
+- (unsigned long long);
 - (id);
+- (void)ation);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *associatedAppIdentifier;

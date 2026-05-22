@@ -5,7 +5,6 @@
 //
 
 @protocol FPAuxDataType
-- (_Bool)};
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool fp_isContainer;

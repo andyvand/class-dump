@@ -22,58 +22,56 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_widthAdjustmentConstraint;
 }
 
-- (id)s:options:completion: /* Error: Ran out of types for this method. */;
-- (id)ifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
-- (id)aReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
-- (long long)WithData:encoding: /* Error: Ran out of types for this method. */;
-- (id)loginID:serviceName: /* Error: Ran out of types for this method. */;
-- (id)tWithData:accountUniqueID:fromID:loginID:serviceName: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
-- (struct CGSize)bleiCloudBackups:error: /* Error: Ran out of types for this method. */;
-- (void)hRequest:(id)arg1 responseHandler: /* Error: Ran out of types for this method. */;
-- (void)umber:(id)arg1 simID: /* Error: Ran out of types for this method. */;
-- (void)UIDs;
-- (void)ationBag:(id)arg1 phoneNumber:simID: /* Error: Ran out of types for this method. */;
-- (void)L;
-- (_Bool);
-- (double)=;
-- (double)efaultActor;
-- (id)ompression;
-- (id)_Xx;
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
 - (id);
 - (void);
-- (id)re work to do, but is cancelled;
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (double);
-- (void)ed to submit task request:%@ /* Error: Ran out of types for this method. */;
-- (void)s] Cancelling task;
-- (void)ished cancelling task;
-- (double)executor was free'd;
-- (id)[%{public}s] DAS resumed;
-- (void)alculate elapsed time.;
-- (void)or collaboration id %s couldn't calculate elapsed time.;
-- (id)te item [%@] could not be converted to CKRecord, marking it as clean and moving on.;
-- (id)e period. isFromMe:%ld, didNotify:%ld /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (double);
+- (void);
+- (void);
+- (void);
+- (double);
 - (id);
 - (void);
 - (void);
-- (id)M;
-- (void);
-- (void)AoÐ!¬Aù±Á1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)Ã1¢!0@ù
-× ;
 - (id);
-- (id)<v@?>16d24;
-- (long long)iew;
-- (void)48Öÿ/
-;
-- (id)V"d;
-- (struct UIEdgeInsets)jk;
-- (void)jÈÖÄzl;
-- (_Bool);
+- (id);
+- (void);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (void)1[°1Â0@ù
+× ;
+- (void)[°1Â0@ù
+× ;
+- (id)8@"UIRepeatedAction"16@24@32;
+- (_Bool)e; skipping CoreHaptics engine and player creation.;
+- (void)ºþÿ;
+- (void);
+- (struct UIEdgeInsets)a;
+- (void)f;
+- (void)úÓÄgg;
+- (id);
+- (id)Ð~j;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *adjustableConstraints; // @synthesize adjustableConstraints=_adjustableConstraints;

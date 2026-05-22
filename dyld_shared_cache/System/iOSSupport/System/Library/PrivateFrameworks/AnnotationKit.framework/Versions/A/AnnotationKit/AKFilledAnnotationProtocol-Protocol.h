@@ -7,9 +7,6 @@
 @class UIColor;
 
 @protocol AKFilledAnnotationProtocol
-- (UIColor *)@;
-- (UIColor *)48;
-- (UIColor *);
 
 // Remaining properties
 @property(copy) UIColor *fillColor;

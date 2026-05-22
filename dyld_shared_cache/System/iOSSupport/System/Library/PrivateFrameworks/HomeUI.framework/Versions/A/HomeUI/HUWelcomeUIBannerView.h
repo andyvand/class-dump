@@ -23,10 +23,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)!¨Cù.1b0@ù
-× ;
-- (id)So35HUAvailableRelatedTriggerItemModuleCSg;
+- (id);
+- (id)mperatureIDSCapabilityUpdated: /* Error: Ran out of types for this method. */;
+- (void)ally a HomePod & it is the only one in the house.;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *backgroundImageView; // @synthesize backgroundImageView=_backgroundImageView;

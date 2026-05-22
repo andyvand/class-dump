@@ -16,7 +16,7 @@
 + (void);
 + (id);
 + (id);
-+ (void)UEST:Adding request for timelapse clip %@ /* Error: Ran out of types for this method. */;
++ (void)%@;
 - (id);
 - (id);
 - (id);
@@ -54,14 +54,14 @@
 - (id);
 - (Class);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)ra;
-- (id)fAppleMediaAccessories: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)eItemProvider.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accessories;

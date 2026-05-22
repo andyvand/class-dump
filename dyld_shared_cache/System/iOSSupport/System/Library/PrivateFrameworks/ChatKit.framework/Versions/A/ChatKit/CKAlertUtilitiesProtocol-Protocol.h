@@ -5,7 +5,5 @@
 //
 
 @protocol CKAlertUtilitiesProtocol
-- (void)_keepNSTextTableAttributes;
-- (void)ingP;
 @end
 

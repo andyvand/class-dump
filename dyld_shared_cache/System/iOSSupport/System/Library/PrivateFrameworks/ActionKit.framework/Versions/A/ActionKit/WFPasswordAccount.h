@@ -16,12 +16,13 @@
 
 + (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void)gentHeaderString;
+- (id)Ôa«ð!@GùÑ´°1B50@ù
+× ;
+- (void)tion:(id)arg1;
+- (void)castsFromLibraryAction;
+- (void)ShazamMediaContentItem generateFileRepresentation:options:forType:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *password; // @synthesize password=_password;

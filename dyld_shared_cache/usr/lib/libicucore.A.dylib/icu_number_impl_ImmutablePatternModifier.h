@@ -5,8 +5,8 @@
 class icu::number::impl::ImmutablePatternModifier {
 public: // (access info unavailable from symbols alone)
     ImmutablePatternModifier(icu::number::impl::AdoptingModifierStore*, icu::PluralRules const*);
-    addToChain(icu::number::impl::MicroPropsGenerator const*);
-    applyToMicros(icu::number::impl::MicroProps&, icu::number::impl::DecimalQuantity const&, UErrorCode&) const;
-    getModifier(icu::number::impl::Signum, icu::StandardPlural::Form) const;
-    processQuantity(icu::number::impl::DecimalQuantity&, icu::number::impl::MicroProps&, UErrorCode&) const;
+    auto addToChain(icu::number::impl::MicroPropsGenerator const*);
+    auto applyToMicros(icu::number::impl::MicroProps&, icu::number::impl::DecimalQuantity const&, UErrorCode&) const;
+    auto getModifier(icu::number::impl::Signum, icu::StandardPlural::Form) const;
+    auto processQuantity(icu::number::impl::DecimalQuantity&, icu::number::impl::MicroProps&, UErrorCode&) const;
 };

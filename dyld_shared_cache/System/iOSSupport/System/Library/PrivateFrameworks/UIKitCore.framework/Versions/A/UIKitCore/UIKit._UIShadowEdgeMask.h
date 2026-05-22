@@ -14,9 +14,9 @@
     MISSING_TYPE *region;
 }
 
-- (void);
 - (id);
-- (id)_overrideGeometryView;
+- (void);
+- (id)Layout;
 
 @end
 

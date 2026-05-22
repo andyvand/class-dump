@@ -50,17 +50,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)TextField:item: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
-- (void)n;
-- (void);
+- (void);
+- (void)eduleContext == HUScheduleContextExistingUser;
+- (void)¸,õÿ[+úhÅ;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

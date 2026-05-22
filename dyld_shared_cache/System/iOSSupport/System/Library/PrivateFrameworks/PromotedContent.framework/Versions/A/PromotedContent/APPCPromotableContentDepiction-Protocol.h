@@ -7,8 +7,7 @@
 @class NSArray, NSString;
 
 @protocol APPCPromotableContentDepiction
-- (unsigned long long);
-- (NSArray *);
+- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long adjacentPosition;

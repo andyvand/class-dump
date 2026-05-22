@@ -19,7 +19,7 @@
     NSURL *_artworkURL;
 }
 
-+ (_Bool)ns;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -28,21 +28,22 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id)kÉ;
+- (void)jÉ;
+- (void);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)\÷ÿ6J¼;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *animatedArtworkURL; // @synthesize animatedArtworkURL=_animatedArtworkURL;

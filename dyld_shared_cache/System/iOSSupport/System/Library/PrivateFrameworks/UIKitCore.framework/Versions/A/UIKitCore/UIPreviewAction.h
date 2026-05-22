@@ -19,27 +19,27 @@
 + (id);
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
++ (id);
 - (id);
 - (id);
+- (long long);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void)
+- (id)ð!TDùq\ð1Â0@ù
 × ;
-- (id)QÇÐ1¢!0@ù
+- (void)0@ù
 × ;
+- (void)atrix:(CDUnknownBlockType)arg1;
+- (void)ceActionVisualStyle;
 - (void);
-- (long long)0:8q16@"BSAnimationSettings"24 /* Error: Ran out of types for this method. */;
-- (void)sCompositingGroup:(id)arg1;
-- (id)ickPresentationTransition;
-- (id)@; with attributes:%@; for update:%@ /* Error: Ran out of types for this method. */;
-- (void)ft;
-- (void);
-- (CDUnknownBlockType)ïc;
+- (CDUnknownBlockType)&,N,V__shadowUpdates;
+- (id)V_preUpdateCachedItemCount;
+- (id)R;
+- (void)e;
+- (id);
+- (void)x%;
+- (id)°ÿI;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_color, setter=_setColor:) UIColor *color; // @synthesize color=_color;

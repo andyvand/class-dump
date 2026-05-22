@@ -17,23 +17,18 @@
 + (id);
 + (id);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)c;
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -41,22 +36,20 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)oller;
+- (void)n %s | %ld rps;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setLastIndexDeleteReason:) NSNumber *_lastIndexDeleteReason;
@@ -66,10 +59,6 @@
 
 @property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isIntegrationEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(retain, nonatomic) IMDCoreSpotlightSearchableItemGenerator *searchableItemGenerator; // @synthesize searchableItemGenerator=_searchableItemGenerator;
 @property(readonly) Class superclass;
 

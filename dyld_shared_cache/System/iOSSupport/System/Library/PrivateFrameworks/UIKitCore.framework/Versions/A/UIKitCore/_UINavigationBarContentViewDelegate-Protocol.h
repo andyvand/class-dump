@@ -7,9 +7,10 @@
 @class _UINavigationBarContentView;
 
 @protocol _UINavigationBarContentViewDelegate
-- (void);
-- (void)RestrictedDistributionTerms:(_UINavigationBarContentView *)arg1;
-- (void)er;
-- (void)archTextField;
+- (void)
+× ;
+- (void)on:(_UINavigationBarContentView *)arg1 discoverabilityTitle: /* Error: Ran out of types for this method. */;
+- (void)>",W,N,V_lastActivityProvider;
+- (void)ring"8@"_UITextInputSessionEfficacyAccumulatorEntry"16^B24;
 @end
 

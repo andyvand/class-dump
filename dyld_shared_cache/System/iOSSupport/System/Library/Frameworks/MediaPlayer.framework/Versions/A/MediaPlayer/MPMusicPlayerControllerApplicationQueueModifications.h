@@ -12,13 +12,13 @@
     NSArray *_removedItemIdentifiers;
 }
 
-+ (_Bool)omeDelegate home:didAddUser: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (void)tyAlbumIsStoreRedownloadable__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *insertedDescriptors; // @synthesize insertedDescriptors=_insertedDescriptors;

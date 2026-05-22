@@ -28,15 +28,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)|ûÿ;
-- (id)ondaryToolbar;
-- (void);
-- (struct CGSize)l¦ÿ ;
+- (id)
+× ;
+- (void)reItemLayout:(id)arg1 forChangedItemFromIndexPath:inDataSource:toIndexPath:inDataSource: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)aType;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *captionColor; // @synthesize captionColor=_captionColor;

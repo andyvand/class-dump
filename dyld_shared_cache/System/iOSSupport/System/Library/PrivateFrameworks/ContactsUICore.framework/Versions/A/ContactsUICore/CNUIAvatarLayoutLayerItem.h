@@ -16,13 +16,13 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void)6,hïÿ;
+- (void);
+- (void)GPoint=dd}{CGSize=dd}},N,V_faceRectInPosterSnapshot;
 
 // Remaining properties
 @property(retain, nonatomic) id <CNCancelable> avatarImageRendererToken; // @synthesize avatarImageRendererToken=_avatarImageRendererToken;

@@ -30,15 +30,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (double);
-- (id);
 - (void);
 - (id);
+- (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *activeCallDisplayName; // @synthesize activeCallDisplayName=_activeCallDisplayName;

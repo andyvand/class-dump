@@ -47,7 +47,7 @@
 + (id);
 + (_Bool);
 + (Class);
-+ (double)H*(;
++ (double);
 
 // Remaining properties
 @property(nonatomic, setter=_setAdjacentBarEdges:) unsigned long long _adjacentBarEdges; // @synthesize _adjacentBarEdges=__adjacentBarEdges;

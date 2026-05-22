@@ -18,7 +18,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)T§ëÿ|Hð;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

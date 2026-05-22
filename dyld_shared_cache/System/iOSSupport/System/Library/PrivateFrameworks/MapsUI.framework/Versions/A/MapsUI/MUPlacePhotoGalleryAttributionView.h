@@ -38,16 +38,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void)on;
+- (id)`ÍÜÍ;
+- (id)resource from GeoServices:%@) /* Error: Ran out of types for this method. */;
+- (id)sViewModel;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;

@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVCaptureSession *session;

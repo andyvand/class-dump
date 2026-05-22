@@ -14,9 +14,9 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)Type: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)aScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <AMSUICommonCollectionViewDelegate> commonDelegate;

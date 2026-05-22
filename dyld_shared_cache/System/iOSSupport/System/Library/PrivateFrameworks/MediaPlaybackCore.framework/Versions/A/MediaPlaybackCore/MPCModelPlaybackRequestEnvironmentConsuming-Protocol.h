@@ -7,9 +7,6 @@
 @class MPCPlaybackRequestEnvironment;
 
 @protocol MPCModelPlaybackRequestEnvironmentConsuming
-- (void)
-;
-- (MPCPlaybackRequestEnvironment *)ToProtocol: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) MPCPlaybackRequestEnvironment *playbackRequestEnvironment;

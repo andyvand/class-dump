@@ -15,17 +15,19 @@
 }
 
 - (id);
-- (void)FormVideoContent;
 - (void);
-- (void);
+- (_Bool);
 - (id);
-- (void)xtChanged:(_Bool)arg1;
-- (id)ary;
-- (id)öi8Iegn_;
-- (void)iCategoryObjectsAndSymbols;
-- (SEL)nvalid or unknown resolve type. Type:%ld /* Error: Ran out of types for this method. */;
-- (void)xt;
-- (_Bool)ContentMetrics;
+- (void)!ì@ùñX°1Â0@ù
+× ;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)ccessibilityFocusUpdateRequest;
+- (void)Àolplqrds;
+- (SEL)View;
+- (void)of the contentView:(SEL)arg1 %@;
+- (void);
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

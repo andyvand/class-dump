@@ -25,9 +25,9 @@
     NSUndoManager *__undoManager;
 }
 
-- (void)e;
-- (void)r;
-- (void)ongMetadata;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,7 +35,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,43 +45,42 @@
 - (_Bool);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void)Buffer;
-- (id)rForSession: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void)",R,W,N;
-- (void);
-- (void);
-- (void);
-- (void)mageAnalyzer";
-- (void);
-- (id)sBuffer;
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void)!(<	;
-- (_Bool));
 - (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id),W,V_readerWebView;
+- (_Bool);
+- (id);
 - (void);
-- (void)0@ù
-× ;
-- (void)oryAtPath:(id)arg1 withIntermediateDirectories:(id)arg2 attributes:error: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)ly;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSUndoManager *_undoManager; // @synthesize _undoManager=__undoManager;

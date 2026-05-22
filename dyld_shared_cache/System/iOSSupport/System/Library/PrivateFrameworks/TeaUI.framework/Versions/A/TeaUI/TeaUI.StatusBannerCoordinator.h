@@ -9,7 +9,9 @@
 @interface TeaUI.StatusBannerCoordinator
 {
     MISSING_TYPE *rootViewController;
-    MISSING_TYPE *banner;
+    MISSING_TYPE *stagedTitleView;
+    MISSING_TYPE *stagedSearchController;
+    MISSING_TYPE *lazyBanner;
     MISSING_TYPE *statusBannerVisibility;
 }
 

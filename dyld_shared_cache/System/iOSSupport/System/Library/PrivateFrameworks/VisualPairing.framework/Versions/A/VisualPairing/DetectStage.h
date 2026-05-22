@@ -4,7 +4,7 @@
 
 class DetectStage {
 public: // (access info unavailable from symbols alone)
-    CalculateXform(int (*) [4], int, int, unsigned short const*);
-    DoFirstStage(unsigned char*, unsigned short, ImgFrameFormat&, GridInfo*, ProgressCBHandler*);
+    auto CalculateXform(int (*) [4], int, int, unsigned short const*);
+    auto DoFirstStage(unsigned char*, unsigned short, ImgFrameFormat&, GridInfo*, ProgressCBHandler*);
     ~DetectStage();
 };

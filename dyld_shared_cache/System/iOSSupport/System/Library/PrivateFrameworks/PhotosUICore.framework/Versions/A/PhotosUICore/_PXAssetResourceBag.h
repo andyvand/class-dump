@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (id);
-- (void);
-- (long long);
+- (id)ze=dd}16;
+- (void)t override;
+- (long long)g;
 
 // Remaining properties
 @property(readonly, nonatomic) long long resourceType; // @synthesize resourceType=_resourceType;

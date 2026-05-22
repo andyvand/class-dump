@@ -28,39 +28,39 @@ __attribute__((visibility("hidden")))
     MSVTimer *_shutdownTimer;
 }
 
-- (void),R;
 - (void);
-- (_Bool)assbookAccountChangeObserver detected %{public}@.;
+- (void);
+- (_Bool);
 - (double);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned int)@0:8@"NSUUID"16@?<v@?@"SPBeacon">24 /* Error: Ran out of types for this method. */;
-- (id)@"NSString",R,C;
+- (unsigned int);
+- (id);
 - (float);
 - (void);
 - (void);
 - (float);
 - (void);
-- (id)?,&,N;
-- (void)XIhI$JXJ;
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)canceled purchase:(long long)arg1;
-- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (void)oldDataSource=%p newDataSource=%p;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

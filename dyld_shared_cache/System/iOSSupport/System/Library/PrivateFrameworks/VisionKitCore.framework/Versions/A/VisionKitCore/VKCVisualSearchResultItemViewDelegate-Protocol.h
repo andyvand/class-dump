@@ -5,7 +5,5 @@
 //
 
 @protocol VKCVisualSearchResultItemViewDelegate
-- (void)1B0@ù
-× ;
 @end
 

@@ -18,12 +18,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id)ColorPrimitive.m;
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *conditionItems; // @synthesize conditionItems=_conditionItems;

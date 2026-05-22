@@ -15,26 +15,27 @@ __attribute__((visibility("hidden")))
     id <_UIEditMenuDismissalGestureRecognizerDelegate> _interactionDelegate;
 }
 
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
-- (void)gImageView;
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void)1¢!0@ù
++ (_Bool)0@ù
 × ;
-- (void)resentPreviewViewController:(id)arg1 forPosition:(id)arg2 inSourceView: /* Error: Ran out of types for this method. */;
-- (void)omBackgroundView:(id)arg1;
-- (void)entedViewController:(id)arg1 presentationController: /* Error: Ran out of types for this method. */;
++ (_Bool)pdateState;
 - (id);
 - (_Bool);
-- (_Bool)KAutocorrectionContext"8;
-- (id)upBackdrops;
-- (_Bool);
-- (_Bool)KÖ;
+- (void)0@ù
+× ;
+- (_Bool)iding>"24;
+- (id)20^Q28^d36;
+- (_Bool)ionView:(id)arg1;
+- (void)isible;
+- (void):(id)arg1;
+- (void)etKVOCompliantState:(id)arg1;
+- (void)tics;
+- (_Bool)nterfaceStyleChangeInScene:(id)arg1 transitionContext:(id)arg2 applyChangesBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)onstraint:(id)arg1;
+- (_Bool),S_setOriginalFillMode:(id)arg1 ,V__originalFillMode;
+- (_Bool)ing;
+- (void)_ZOOM_TO_FIT;
+- (void)¾7y¥¾7G;
+- (void)Îh;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void)ø;
+- (void).90;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *fallbackTransitionReasons; // @synthesize fallbackTransitionReasons=_fallbackTransitionReasons;

@@ -24,17 +24,16 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
 - (void);
-- (id);
-- (void)ðæ;
-- (id);
 - (_Bool);
-- (id)
-× ;
-- (id)art date for asset collection:(unsigned long long)arg1 %@, with uuid:%{public}@ /* Error: Ran out of types for this method. */;
-- (long long){?}^{?}^{?}^{?}}12^B44;
-- (void);
+- (id);
+- (id)ContentProvidersByType;
+- (id)ôY;
+- (void)ind;
+- (long long)ionProviders;
+- (void)ms;
+- (id)Ý?ÆEÿ;
+- (id)áð;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count; // @synthesize count=_count;

@@ -16,8 +16,8 @@
 + (id);
 + (id);
 - (id);
-- (id);
 - (void);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);

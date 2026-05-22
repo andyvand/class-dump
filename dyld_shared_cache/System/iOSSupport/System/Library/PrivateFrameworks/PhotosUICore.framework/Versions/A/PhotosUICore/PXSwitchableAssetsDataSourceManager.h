@@ -75,21 +75,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)0@ù
+- (id);
+- (id);
+- (void)!tBùQIð1â
+0@ù
 × ;
-- (void);
-- (void)Function:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)ailsNavigationSettings",&,N,V_detailsNavigationSettings;
-- (id)mpty:"%@" /* Error: Ran out of types for this method. */;
-- (id)/PXPeopleUtilities+UI.m;
-- (void);
+- (void)ressKind;
+- (id)[p»yl»yAByAByq»yß;
+- (id)quest for %@;
+- (void)ataSourceManager init];
+- (void)ntents Rect:(id)arg1 %@
+;
+- (void)e must contain at least one underlying data source.;
+- (id)ocialGroupAssetsFilterActionPerformer;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allKeys; // @synthesize allKeys=_allKeys;

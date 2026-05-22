@@ -15,13 +15,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)yID:(id *)arg1 deletionDate: /* Error: Ran out of types for this method. */;
-- (_Bool)t: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id)dler:(id)arg1;
-- (id)oxy;
+- (id);
+- (id);
+- (_Bool)ect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{?={CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}}16{CGRect={CGPoint=dd}{CGSize=dd}}304;
+- (id)te:(struct _NSZone *)arg1 propertyList: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool keepInBackground; // @synthesize keepInBackground=_keepInBackground;

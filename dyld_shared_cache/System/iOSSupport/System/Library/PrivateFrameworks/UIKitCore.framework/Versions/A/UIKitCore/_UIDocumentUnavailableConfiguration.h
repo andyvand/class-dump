@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,31 +41,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)6B24@28@36;
-- (id)ount: /* Error: Ran out of types for this method. */;
-- (id)eter",R,N,V_tapbackInterpreter;
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
-- (id)entController:Told To Transcode but the message had no parts, don't wake me up.  /* Error: Ran out of types for this method. */;
-- (void)back to lastAddressedLocalHandle:(id)arg1 %@;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void)d;
-- (id)eItemInt64ID;
+- (id);
+- (id);
 - (void);
-- (void);
-- (id)qÃð1¢!0@ù
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool)!|AùY°1Â0@ù
 × ;
-- (_Bool);
-- (id)rentCommitTransition;
-- (id)À;
-- (_Bool);
-- (id)Ù[;
-- (void)*=c;
+- (_Bool)ons;
+- (void)vableItem;
+- (id)n;
+- (void)¬ ;
+- (id)¼zþÿ;
+- (id)ainment;
+- (id)rboseLoggingForStrictRepeatedPushAssertion;
+- (void)\;
+- (void)C;
+- (_Bool);
+- (id)a;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *_documentCreationIntent; // @synthesize _documentCreationIntent;

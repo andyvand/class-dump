@@ -11,12 +11,13 @@
 }
 
 + (id);
-+ (_Bool)UnlockManager"16@"SFAutoUnlockDevice"24;
-+ (id);
++ (_Bool)Ô(ð!AùqA,Ð1Â0@ù
+× ;
++ (id)`[-°;
 - (void);
 - (void);
-- (void)ã¦.éñ;
-- (void)4;
+- (void)L, state, %{sensitive}@, lifespan %{sensitive}f, numOfClustEntries %{sensitive}d, LastLoc Dist to Clust %{sensitive}f, ageLatestClust visit %{sensitive}f, Max Cluster Dist %{sensitive}f, weeklyDens %{sensitive}f, dailyDens %{sensitive}f;
+- (void)m±;
 
 @end
 

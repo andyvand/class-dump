@@ -5,6 +5,5 @@
 //
 
 @protocol AXDragSessionDragManager
-- (void);
 @end
 

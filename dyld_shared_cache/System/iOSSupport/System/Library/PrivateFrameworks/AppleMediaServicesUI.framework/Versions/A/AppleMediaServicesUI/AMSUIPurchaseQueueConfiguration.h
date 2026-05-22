@@ -10,8 +10,7 @@
 {
 }
 
-- (id)÷y7yá7yS7G7yw7SgGG_ABy
-7AIG"7tG;
+- (id)FrameWithFileName:(id)arg1 uti: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSUIPurchaseResponseProtocol> delegate; // @dynamic delegate;

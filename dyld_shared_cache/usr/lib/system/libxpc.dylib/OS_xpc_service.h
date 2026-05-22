@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (oneway void)_D;
+- (oneway void);
 - (void);
 
 // Remaining properties

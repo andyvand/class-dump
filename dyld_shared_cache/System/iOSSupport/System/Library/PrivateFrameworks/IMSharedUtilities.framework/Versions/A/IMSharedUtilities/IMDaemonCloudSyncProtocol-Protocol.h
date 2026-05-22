@@ -5,13 +5,6 @@
 //
 
 @protocol IMDaemonCloudSyncProtocol
-- (void);
-- (void);
-- (void);
-- (void)퉹;
-- (void))@`: /* Error: Ran out of types for this method. */;
-- (void)#;
-- (void)hMessage:sentSuccessfully:error: /* Error: Ran out of types for this method. */;
-- (void)¸5 ;
+- (void)laborationContactHandles;
 @end
 

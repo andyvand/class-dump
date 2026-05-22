@@ -13,10 +13,10 @@
     MISSING_TYPE *styling;
 }
 
-- (void);
-- (void);
-- (id)ue;
 - (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

@@ -5,9 +5,9 @@
 class zhtok::DynamicLexiconBuilder {
 public: // (access info unavailable from symbols alone)
     DynamicLexiconBuilder();
-    build(ChineseTokenizerLanguage, __CFArray const*, zhtok::TokenizerLexicon**);
-    filter(__CFArray*, __CFArray const*);
-    filterAndRegisterWords(__CFArray const*);
-    registerLanguage(ChineseTokenizerLanguage);
+    auto build(ChineseTokenizerLanguage, __CFArray const*, zhtok::TokenizerLexicon**);
+    auto filter(__CFArray*, __CFArray const*);
+    auto filterAndRegisterWords(__CFArray const*);
+    auto registerLanguage(ChineseTokenizerLanguage);
     ~DynamicLexiconBuilder();
 };

@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (id);
-- (void);
 - (_Bool);
 - (id);
+- (void)TSWPColumn"32;
+- (id)aInsets;
 
 // Remaining properties
 @property(readonly, nonatomic) SXGalleryItem *galleryItem; // @synthesize galleryItem=_galleryItem;

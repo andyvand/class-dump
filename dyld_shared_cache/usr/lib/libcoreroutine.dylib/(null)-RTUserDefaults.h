@@ -9,10 +9,10 @@
 @interface (null) (RTUserDefaults)
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id)@;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

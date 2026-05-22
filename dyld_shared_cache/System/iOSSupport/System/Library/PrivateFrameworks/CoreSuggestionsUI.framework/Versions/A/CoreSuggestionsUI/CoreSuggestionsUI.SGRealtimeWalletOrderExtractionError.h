@@ -15,10 +15,10 @@
 - (void);
 - (int);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id)yâsn_ACy	xpy£wnGÕopGSgtGGúqnyìrnSgGG3enGASG_ACyAeSGSgSgACyxpASGAFyACyACyACyAE½gnG_anGÉmny[znGGGAByAY_A7_SgtGSgtGG;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) int extractionSource; // @synthesize extractionSource;

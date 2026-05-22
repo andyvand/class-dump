@@ -33,26 +33,26 @@
 - (void);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)oration;
+- (_Bool)3yAGyAGyê4yAAyAAyAAy34ò3Gð3y²4GG 6GSo7UIImageCGAHyAAyAAyAAyAAyAAyO4zõ3Gd4yk6GGAJG;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *avatarImageView; // @synthesize avatarImageView=_avatarImageView;

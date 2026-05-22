@@ -9,8 +9,8 @@
 }
 
 + (_Bool);
-+ (id);
-- (id);
++ (id)\Öÿ;
+- (id)presentable;
 
 @end
 

@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) AXDragManager *dragManager; // @synthesize dragManager=_dragManager;

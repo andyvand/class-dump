@@ -23,9 +23,9 @@
     _Bool _repeats;
     _Bool _allowsAutomaticLocalization;
     _Bool _allowsAutomaticMirroring;
+    UIMenuElement *_sourceUIMenuElement;
     RVItem *_rvItem;
     id <UIRVPresenterHighlightDelegate> _rvHighlighter;
-    UIMenuElement *_sourceUIMenuElement;
     id <UINSMenu> _parentMenu;
     id _initialTarget;
     NSString *_title;
@@ -56,7 +56,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,7 +69,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)NSString"32@"NSString"40;
+- (id);
 - (void);
 - (long long);
 - (id);
@@ -81,14 +81,14 @@
 - (void);
 - (void);
 - (void);
-- (id)";
+- (id);
 - (id);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)t;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -102,48 +102,51 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)%d;
-- (void);
-- (id);
-- (void):(id)arg1;
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)0@ù
-× ;
-- (id)!0@ù
-× ;
-- (void);
-- (void)1¢!0@ù
-× ;
 - (id);
-- (void)tSource>";
-- (void)Identity"24@"FBSDisplayConfiguration"32;
+- (id);
 - (_Bool);
-- (long long)ent;
-- (id)isibleWhenBecomingFirstResponder;
-- (void)ractions;
-- (void)port:(_Bool)arg1;
-- (_Bool)sNames;
-- (id)eKeyboardHUDsEnabled;
-- (id)rame;
-- (_Bool)missalTaps;
-- (id)H¿0À°À;
-- (long long)mer;
-- (void)btain the existing cell. Dequeued reuse identifier:(id)arg1 %@; Original reuse identifier:%@; Existing cell:%@ /* Error: Ran out of types for this method. */;
-- (void)in %@;
-- (void)16;
-- (id)re out of sync.;
-- (SEL)h:/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/SafariPlatformSupport /* Error: Ran out of types for this method. */;
-- (void)Íä;
-- (void)State;
-- (_Bool)·!;
-- (id)s¹Õ³`;
+- (void)1Â0@ù
+× ;
+- (void)¡!ø@ù1[°1Â0@ù
+× ;
+- (_Bool)Ôð!4Bù1]1Â0@ù
+× ;
+- (void)±]1Â0@ù
+× ;
+- (id);
+- (long long)0@ù
+× ;
+- (void)!`Aù1d°1Â0@ù
+× ;
+- (long long);
+- (_Bool)extLayoutManager;
+- (_Bool)Block: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 forCoordinateSpace: /* Error: Ran out of types for this method. */;
+- (void)_portalView;
+- (void)boardTracking;
+- (void)hangedInformationWithFencing;
+- (id)>H??lB,CC;
+- (id)d may result in unexpected and insidious behavior. trace=%@;
+- (void);
+- (void)condaryTextLayoutGuide;
+- (id)<UIStateRestoring>, NSString *);
+- (SEL)Initializing with identifier path %@;
+- (id)tion_ui_en_in;
+- (void)16^B24;
+- (id)mageInset)-[imageView]-(interImageTitleSpace)-[layoutView]-(rightTitleInset)-|;
+- (void)opTouchFactor;
+- (id);
+- (void);
+- (void)±È;
+- (void)X¥a;
 
 // Remaining properties
 @property(retain, nonatomic) UIAction *_action; // @synthesize _action=__action;

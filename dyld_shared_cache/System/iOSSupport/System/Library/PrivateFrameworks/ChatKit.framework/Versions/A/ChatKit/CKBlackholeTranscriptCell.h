@@ -17,11 +17,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id)erableSortComparator;
 - (void);
 
 // Remaining properties

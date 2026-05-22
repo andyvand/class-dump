@@ -5,9 +5,7 @@
 //
 
 @protocol UISRenderingEnvironmentAttributes
-+ (id);
-- (id)ViewOfKind:atIndexPath: /* Error: Ran out of types for this method. */;
-- (unsigned int)troller;
+- (unsigned int)ler(void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int displayID;

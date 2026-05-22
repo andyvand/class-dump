@@ -57,9 +57,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)tionIdentifierPrioritizedServiceActions;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

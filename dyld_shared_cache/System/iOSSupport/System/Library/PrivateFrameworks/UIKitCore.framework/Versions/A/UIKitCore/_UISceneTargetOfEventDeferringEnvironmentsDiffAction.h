@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsTargetOfEventDeferringEnvironmentsDiffInspector;
 }
 
-- (void);
+- (id);
 - (void);
-- (void);
-- (id)Identifier: /* Error: Ran out of types for this method. */;
+- (void)articGain;
+- (void)À;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

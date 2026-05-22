@@ -27,11 +27,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
 - (void);
 - (id);
-- (id)nëÞÜÿ­nëÞÜÿ­në|ÞÜÿ­nëôÞÜÿ;
+- (void)Subtitle;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

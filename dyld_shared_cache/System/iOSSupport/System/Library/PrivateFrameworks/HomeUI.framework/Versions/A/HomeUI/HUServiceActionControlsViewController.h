@@ -44,7 +44,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)outDetails"8Q16^B24;
 
 // Remaining properties
 @property(retain, nonatomic) HUControlPanelController *controlPanelController; // @synthesize controlPanelController=_controlPanelController;

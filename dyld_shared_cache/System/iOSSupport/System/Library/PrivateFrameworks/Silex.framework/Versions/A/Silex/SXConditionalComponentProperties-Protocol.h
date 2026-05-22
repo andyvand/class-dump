@@ -8,6 +8,7 @@
 @protocol SXComponentAnchor;
 
 @protocol SXConditionalComponentProperties
+- (id <SXComponentAnchor>)sal"24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentAnchor> anchor;

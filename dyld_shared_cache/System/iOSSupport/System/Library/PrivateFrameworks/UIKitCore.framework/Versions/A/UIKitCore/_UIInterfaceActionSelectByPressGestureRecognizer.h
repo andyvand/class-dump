@@ -23,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)create IMMessageItem from IMDMessageRecordRef for attachment guid %s;
-- (id);
-- (void)onSize:validForCatalog: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)re;
-- (void)llViewNotifications;
+- (id);
+- (void);
+- (void)shot:(id)arg1 initialSectionSnapshots:(id)arg2 dataSourceDiffer:shouldPerformChildSnapshotMoves:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)µ§43ý;
+- (void)Xv^;
 
 // Remaining properties
 @property(nonatomic) __weak UIInterfaceActionGroupView *actionGroupView; // @synthesize actionGroupView=_actionGroupView;

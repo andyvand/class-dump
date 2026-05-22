@@ -14,10 +14,10 @@
 - (id);
 - (void);
 - (void);
-- (struct CGRect)GIN              %{public}@;
-- (id);
 - (struct CGRect);
+- (id);
 - (void);
+- (struct CGRect)`l;
 
 // Remaining properties
 @property(retain, nonatomic) ASOOverlayTransitionContext *backing; // @synthesize backing=_backing;

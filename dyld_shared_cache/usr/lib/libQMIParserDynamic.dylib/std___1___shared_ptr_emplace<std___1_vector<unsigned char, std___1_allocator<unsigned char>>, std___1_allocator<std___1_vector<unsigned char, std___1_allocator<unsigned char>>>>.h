@@ -4,7 +4,8 @@
 
 class std::__1::__shared_ptr_emplace<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>, std::__1::allocator<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>>> {
 public: // (access info unavailable from symbols alone)
-    __on_zero_shared();
-    __on_zero_shared_weak();
+    auto __on_zero_shared();
+    auto __on_zero_shared_weak();
+    auto __shared_ptr_emplace[abi:nqe210106]<unsigned char const*, unsigned char const*, std::__1::allocator<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>>, 0>(std::__1::allocator<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>>, unsigned char const*&&, unsigned char const*&&);
     ~__shared_ptr_emplace();
 };

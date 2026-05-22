@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void)P;
 - (id);
+- (void)upSpecificBackgroundImageFromDisk: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;

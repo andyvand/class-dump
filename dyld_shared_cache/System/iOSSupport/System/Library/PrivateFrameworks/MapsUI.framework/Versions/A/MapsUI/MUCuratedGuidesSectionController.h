@@ -46,11 +46,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
 - (_Bool);
+- (void)edStringOrNilForTextProvider: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (id)fill;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

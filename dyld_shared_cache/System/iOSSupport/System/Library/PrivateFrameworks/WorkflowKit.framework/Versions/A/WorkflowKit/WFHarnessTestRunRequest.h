@@ -15,10 +15,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)Select File (Action Name);
 
 // Remaining properties
 @property(readonly, nonatomic) WFHarnessTestRunDescriptor *testRunDescriptor; // @synthesize testRunDescriptor=_testRunDescriptor;

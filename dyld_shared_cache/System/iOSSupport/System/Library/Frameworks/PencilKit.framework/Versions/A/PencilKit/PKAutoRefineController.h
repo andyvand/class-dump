@@ -17,12 +17,12 @@
 }
 
 + (_Bool);
-- (_Bool)esting;
+- (_Bool);
 - (id);
-- (id)rmatVersion;
-- (void);
+- (id);
 - (void);
-- (void)^;
+- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -32,8 +32,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)e;
 
 // Remaining properties
 @property(nonatomic) _Bool isAutoRefineOn; // @synthesize isAutoRefineOn=_isAutoRefineOn;

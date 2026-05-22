@@ -12,8 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)object_relationships WHERE parent_identifier = @parentIdentifier AND person_id = @personID AND parent_version_hash = @parentVersionHash AND child_key = @childKey ORDER BY suborder;
-- (void);
+- (void)Ô!!EùÑ_ð1Â0@ù
+× ;
+- (void)have the same _isPrivate value.;
 
 @end
 

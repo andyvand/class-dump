@@ -49,15 +49,17 @@
 - (void);
 - (void);
 - (void);
-- (void)Ø/f;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void)ew;
-- (void);
+- (id)1â
+0@ù
+× ;
+- (id)TapAttributionWithURL:(id)arg1;
+- (void)er dismissed the confirmation alert for trashing moment shares;
+- (void)ì9ÿ}Åè9ÿ}Åä9ÿÅèBÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

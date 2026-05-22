@@ -17,10 +17,10 @@
 
 - (id);
 - (double);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)ider;
 
 @end
 

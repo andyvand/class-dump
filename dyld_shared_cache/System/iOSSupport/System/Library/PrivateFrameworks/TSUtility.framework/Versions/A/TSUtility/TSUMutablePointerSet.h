@@ -16,19 +16,19 @@
 - (id);
 - (id);
 - (void);
-- (void)orefront;
-- (id)K;
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)(=;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
+- (id);
+- (id);
 
 @end
 

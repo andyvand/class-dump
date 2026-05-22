@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     struct CGPoint offset;
 }
 
-- (void)ecipientEncryptionValidationTokenWithBlastDoorTextMessage:(struct CGPath *)arg1;
-- (void)s:(struct CGPath *)arg1;
-- (struct CGPath *);
-- (struct CGPath *);
 - (void);
-- (struct CGPoint)ch bar from the view hierarchy. Navigation item: /* Error: Ran out of types for this method. */;
-- (void)k;
+- (void);
+- (struct CGPath *);
+- (struct CGPath *);
+- (void);
+- (void)on:(struct CGPoint)arg1 ]_block_invoke;
+- (struct CGPoint)ØÀÿ×«;
 
 // Remaining properties
 @property(nonatomic) struct CGPath *borderPath; // @dynamic borderPath;

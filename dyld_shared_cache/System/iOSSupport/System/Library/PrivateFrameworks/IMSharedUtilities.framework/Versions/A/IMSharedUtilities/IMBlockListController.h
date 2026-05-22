@@ -32,14 +32,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)`&;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsExpensiveBlockListChecking; // @synthesize allowsExpensiveBlockListChecking=_allowsExpensiveBlockListChecking;

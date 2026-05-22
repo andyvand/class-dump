@@ -5,6 +5,6 @@
 //
 
 @interface (null) (iOSMac)
-- (CDStruct_c3b9c2ee),;
+- (CDStruct_c3b9c2ee);
 @end
 

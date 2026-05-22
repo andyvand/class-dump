@@ -7,7 +7,8 @@
 @class NSNumber, NSString;
 
 @protocol SXFontAttributes
-- (NSString *)es;
+- (NSString *)avior;
+- (NSNumber *)x/Silex/Text/Tangier/SXTextTangierLayout.mm;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *familyName;

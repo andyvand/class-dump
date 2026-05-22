@@ -16,16 +16,15 @@ __attribute__((visibility("hidden")))
     NSArray *_items;
 }
 
-+ (id)tionNoticeController dismissNotice:(id)arg1 notify:(struct CAPoint3D)arg2 ];
-+ (id)CollaborationNoticeController broadcastNoticesDidChangeForChatGUIDs:(id)arg1 ];
-+ (id)dWithYou;
-+ (id)sToChatsQueue;
-- (id)ncChange.;
-- (long long)nd processing;
-- (void)p!FùÂÐ1¢!0@ù
-× ;
-- (id)nputViewControllerDelegate;
-- (id)Èÿ­«Ï´Ñk;
++ (id);
++ (id);
++ (id);
++ (id);
+- (id);
+- (long long);
+- (id);
+- (id)nItemDidUpdateSearchController:oldSearchController: /* Error: Ran out of types for this method. */;
+- (void)X½¬ÿE2Üàgh;
 
 // Remaining properties
 @property(readonly, nonatomic) long long dataOwner; // @synthesize dataOwner=_dataOwner;

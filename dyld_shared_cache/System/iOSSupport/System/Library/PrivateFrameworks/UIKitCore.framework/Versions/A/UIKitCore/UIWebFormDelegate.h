@@ -13,14 +13,14 @@
 }
 
 - (CDStruct_856ef1b3);
-- (id)title:(id)arg1 message:defaultButton:alternateButton:otherButton: /* Error: Ran out of types for this method. */;
-- (_Bool)rMessage: /* Error: Ran out of types for this method. */;
-- (_Bool)cel:toPerson:account: /* Error: Ran out of types for this method. */;
-- (void)ock:(id)arg1;
-- (void)dLoadAttachments:(id)arg1 reverseOrder: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
-- (void)s. No more messages to write up. ***;
-- (void)evice %@;
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);

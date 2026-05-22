@@ -42,7 +42,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (struct UIEdgeInsets);
 - (void);
@@ -70,19 +70,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id);
+- (id);
+- (void);
+- (void)!hEù1Â0@ù
+× ;
+- (id)oresTextSafeAreaInsets: /* Error: Ran out of types for this method. */;
+- (id)ðv;
+- (void)Ì;
 
 // Remaining properties
 @property(retain, nonatomic) LPComponentView<LPTextStyleable> *aboveTopCaptionView; // @synthesize aboveTopCaptionView=_aboveTopCaptionView;

@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)yManagerDelegate>";
++ (id);
 - (void);
 - (id);
 - (id);

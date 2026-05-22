@@ -12,8 +12,8 @@
     MISSING_TYPE *notificationService;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

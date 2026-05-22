@@ -19,7 +19,7 @@
     double _assetCornerRadius;
 }
 
-+ (id)cî8;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -38,8 +38,8 @@
 - (double);
 - (double);
 - (double);
+- (id);
 - (void);
-- (id)nCShySSGG;
 
 // Remaining properties
 @property(nonatomic) double assetCornerRadius; // @synthesize assetCornerRadius=_assetCornerRadius;

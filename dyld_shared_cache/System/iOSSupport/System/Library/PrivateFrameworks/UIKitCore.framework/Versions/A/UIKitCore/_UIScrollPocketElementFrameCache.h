@@ -11,11 +11,11 @@
     MISSING_TYPE *storage;
 }
 
-- (void)not from my local paired device for messages:(struct CGRect)arg1 %@;
-- (struct CGRect)s;
 - (void);
-- (id)ionOverrideVisualStyle",&,N,V_visualStyleOverride;
-- (void);
+- (struct CGRect);
+- (id);
+- (void);
+- (void)ß|Zl;
 
 @end
 

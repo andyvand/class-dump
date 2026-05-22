@@ -15,6 +15,10 @@
     MISSING_TYPE *posterFrame;
     MISSING_TYPE *placeholderView;
     MISSING_TYPE *isLiveIconHidden;
+    MISSING_TYPE *autoPlayback;
+    MISSING_TYPE *playbackOverlay;
+    MISSING_TYPE *restrictedOverlayView;
+    MISSING_TYPE *liveStreamOverlayView;
     MISSING_TYPE *videoContainerView;
 }
 
@@ -23,10 +27,12 @@
 - (id);
 - (id);
 - (void);
-- (id)3B;
+- (id);
 - (void);
-- (void)÷¹ÂL;
 - (void);
+- (void)dGroupDistance;
+- (void)4ßu;
+- (void)Ïÿ­I:8ªwþ­I:Ô²}þ /* Error: Ran out of types for this method. */;
 
 @end
 

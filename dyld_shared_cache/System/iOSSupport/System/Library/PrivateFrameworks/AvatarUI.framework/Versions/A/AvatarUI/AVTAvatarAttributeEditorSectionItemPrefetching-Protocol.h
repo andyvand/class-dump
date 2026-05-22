@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol AVTAvatarAttributeEditorSectionItemPrefetching
-- (AVTPresetResources * (^)(void));
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *prefetchingIdentifier;

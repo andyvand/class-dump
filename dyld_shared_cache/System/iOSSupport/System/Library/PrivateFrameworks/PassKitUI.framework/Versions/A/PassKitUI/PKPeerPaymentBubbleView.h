@@ -42,7 +42,6 @@
     struct UIEdgeInsets _contentInset;
 }
 
-+ (id);
 + (struct CGSize);
 + (struct CGSize);
 + (id);
@@ -97,27 +96,28 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (struct CGSize);
+- (id);
+- (id);
+- (id);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (CDUnknownBlockType);
 - (unsigned long long);
+- (unsigned long long);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (struct CGRect);
 - (unsigned long long);
-- (struct CGSize);
-- (void)%@.;
-- (struct CGRect)als:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long action; // @synthesize action=_action;

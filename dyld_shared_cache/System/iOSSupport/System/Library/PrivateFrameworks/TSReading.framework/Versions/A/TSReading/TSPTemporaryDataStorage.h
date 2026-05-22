@@ -21,8 +21,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id)2@0:(id)arg1 8@"ManageSubscriptionsRequest"16@?<v@?@"NSError"@"NSData">24;
+- (id);
+- (void)(;
 
 // Remaining properties
 @property(nonatomic) _Bool isMissingData; // @synthesize isMissingData=_isMissingData;

@@ -5,15 +5,15 @@
 class icu::TextTrieMap {
 public: // (access info unavailable from symbols alone)
     TextTrieMap(signed char, void (*)(void*));
-    addChildNode(icu::CharacterNode*, char16_t, UErrorCode&);
-    buildTrie(UErrorCode&);
-    getChildNode(icu::CharacterNode*, char16_t) const;
-    growNodes();
-    isEmpty() const;
-    put(char16_t const*, void*, UErrorCode&);
-    put(icu::UnicodeString const&, void*, icu::ZNStringPool&, UErrorCode&);
-    putImpl(icu::UnicodeString const&, void*, UErrorCode&);
-    search(icu::CharacterNode*, icu::UnicodeString const&, int, int, icu::TextTrieMapSearchResultHandler*, UErrorCode&) const;
-    search(icu::UnicodeString const&, int, icu::TextTrieMapSearchResultHandler*, UErrorCode&) const;
+    auto addChildNode(icu::CharacterNode*, char16_t, UErrorCode&);
+    auto buildTrie(UErrorCode&);
+    auto getChildNode(icu::CharacterNode*, char16_t) const;
+    auto growNodes();
+    auto isEmpty() const;
+    auto put(char16_t const*, void*, UErrorCode&);
+    auto put(icu::UnicodeString const&, void*, icu::ZNStringPool&, UErrorCode&);
+    auto putImpl(icu::UnicodeString const&, void*, UErrorCode&);
+    auto search(icu::CharacterNode*, icu::UnicodeString const&, int, int, icu::TextTrieMapSearchResultHandler*, UErrorCode&) const;
+    auto search(icu::UnicodeString const&, int, icu::TextTrieMapSearchResultHandler*, UErrorCode&) const;
     ~TextTrieMap();
 };

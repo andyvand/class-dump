@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 - (void);
-- (id);
 - (void);
+- (id)ttributedText:(long long)arg1 fitsInRect:(id)arg2;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void)ScanResult;
+- (void);
 
 @end
 

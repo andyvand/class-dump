@@ -71,21 +71,21 @@
 - (unsigned int);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)entifier;
+- (_Bool)©ªÐªP®°±ä²;
+- (void):(id)arg1 %@;
+- (void)t;
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

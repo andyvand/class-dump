@@ -12,11 +12,12 @@ __attribute__((visibility("hidden")))
     UIColor *_lp_indicatorColor;
 }
 
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *_lp_indicatorColor; // @synthesize _lp_indicatorColor;

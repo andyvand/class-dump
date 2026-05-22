@@ -7,8 +7,6 @@
 @protocol MFQueuePlayerItem;
 
 @protocol MFQueueManagement
-- (id <MFQueuePlayerItem>)-;
-- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id <MFQueuePlayerItem> currentQueueItem;

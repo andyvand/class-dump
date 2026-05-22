@@ -12,14 +12,16 @@ __attribute__((visibility("hidden")))
     NSHashTable *_clients;
 }
 
-+ (id)<D;
++ (id)@ù
+× ;
 - (void);
 - (void);
-- (void)*;
-- (void)$;
+- (void);
 - (id);
 - (void);
-- (void)thTraitCollection:(id)arg1;
+- (void)1Â0@ù
+× ;
+- (void)dex.by;
 
 @end
 

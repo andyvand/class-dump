@@ -15,9 +15,9 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)upportedServices;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *notificationUsageDuration; // @synthesize notificationUsageDuration=_notificationUsageDuration;

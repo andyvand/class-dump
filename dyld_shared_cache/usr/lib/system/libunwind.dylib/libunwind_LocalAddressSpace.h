@@ -4,6 +4,6 @@
 
 class libunwind::LocalAddressSpace {
 public: // (access info unavailable from symbols alone)
-    getEncodedP(unsigned long&, unsigned long, unsigned char, unsigned long, unsigned long*);
-    getULEB128(unsigned long&, unsigned long);
+    auto getEncodedP(unsigned long&, unsigned long, unsigned char, unsigned long, unsigned long*);
+    auto getULEB128(unsigned long&, unsigned long);
 };

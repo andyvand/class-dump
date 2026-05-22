@@ -4,8 +4,9 @@
 
 class std::__1::vector<simd::double3x3, std::__1::allocator<simd::double3x3>> {
 public: // (access info unavailable from symbols alone)
-    __append(unsigned long);
-    __append(unsigned long, simd::double3x3 const&);
-    __throw_length_error[abi:ne200100]();
-    __vallocate[abi:ne200100](unsigned long);
+    auto __append(unsigned long);
+    auto __append(unsigned long, simd::double3x3 const&);
+    auto __throw_length_error[abi:nqe210106]();
+    auto __vallocate[abi:nqe210106](unsigned long);
+    void __init_with_size[abi:nqe210106]<simd::double3x3*, simd::double3x3*>(simd::double3x3*, simd::double3x3*, unsigned long);
 };

@@ -8,17 +8,9 @@
 @protocol MPArtworkDataSource;
 
 @protocol MPMediaLibraryDataProvider
-- (void)B;
-- (MPMediaEntityCache *);
-- (id <MPArtworkDataSource>)eport;
-- (NSString *)dp;
-- (NSString *)0@ù
-× ;
 
 @optional
-- (void);
-- (NSSet *)a;
-- (void)odelRelationshipTVSeasonShow__MAPPING_MISSING__;
+- (void)@;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MPArtworkDataSource> artworkDataSource;

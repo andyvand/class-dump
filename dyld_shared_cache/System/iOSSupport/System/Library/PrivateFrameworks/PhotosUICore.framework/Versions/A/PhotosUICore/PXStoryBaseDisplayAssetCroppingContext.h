@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ibraryWithFakeAssets:completion: /* Error: Ran out of types for this method. */;
+- (id)LUT:size mismatch /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchOptions *fetchOptions; // @synthesize fetchOptions=_fetchOptions;

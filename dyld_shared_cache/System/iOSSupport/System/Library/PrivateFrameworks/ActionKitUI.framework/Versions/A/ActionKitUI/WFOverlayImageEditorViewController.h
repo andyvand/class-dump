@@ -47,10 +47,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

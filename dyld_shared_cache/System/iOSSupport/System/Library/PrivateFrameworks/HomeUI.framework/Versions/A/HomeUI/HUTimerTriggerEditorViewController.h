@@ -57,15 +57,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id)0@ù
-× ;
-- (void)ocationManager"16@"CLRegion"24;
-- (void);
+- (void)image:(_Bool)arg1;
+- (void)recognition languages / %lu not.;
 
 // Remaining properties
 @property(readonly, nonatomic) HUTriggerConditionEditorItemModuleController *conditionModuleController; // @synthesize conditionModuleController=_conditionModuleController;

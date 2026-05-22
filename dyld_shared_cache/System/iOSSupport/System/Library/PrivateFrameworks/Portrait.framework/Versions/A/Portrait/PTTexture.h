@@ -35,10 +35,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long YCbCrColorDepth; // @synthesize YCbCrColorDepth=_YCbCrColorDepth;

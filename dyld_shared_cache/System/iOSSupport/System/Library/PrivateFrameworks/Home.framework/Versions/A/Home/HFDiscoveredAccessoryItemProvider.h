@@ -21,11 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (CDUnknownBlockType);
-- (id)le!;
+- (void)ticTypes;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HFAccessoryBrowsingManager *accessoryBrowsingManager; // @synthesize accessoryBrowsingManager=_accessoryBrowsingManager;

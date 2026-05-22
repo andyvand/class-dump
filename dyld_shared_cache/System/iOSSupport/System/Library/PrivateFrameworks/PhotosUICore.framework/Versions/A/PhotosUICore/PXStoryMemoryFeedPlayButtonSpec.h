@@ -17,8 +17,8 @@
 - (struct UIEdgeInsets);
 - (id);
 - (id);
-- (void);
-- (long long)Øÿÿÿ;
+- (void)P»ÿ;
+- (long long)simulateFromMyMacAlbums;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *labelAttributesCache; // @synthesize labelAttributesCache=_labelAttributesCache;

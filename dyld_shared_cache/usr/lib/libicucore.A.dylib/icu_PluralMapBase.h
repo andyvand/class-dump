@@ -4,7 +4,7 @@
 
 class icu::PluralMapBase {
 public: // (access info unavailable from symbols alone)
-    getCategoryName(icu::PluralMapBase::Category);
-    toCategory(char const*);
-    toCategory(icu::UnicodeString const&);
+    auto getCategoryName(icu::PluralMapBase::Category);
+    auto toCategory(char const*);
+    auto toCategory(icu::UnicodeString const&);
 };

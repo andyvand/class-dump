@@ -36,17 +36,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
+- (void);
 - (_Bool);
+- (id);
+- (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) WFServiceConnection *connection; // @synthesize connection=_connection;

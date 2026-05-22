@@ -5,11 +5,11 @@
 class SfxEntry {
 public: // (access info unavailable from symbols alone)
     SfxEntry(AffixMgr*, affentry*);
-    add(char const*, int);
-    check_twosfx(char const*, int, int, AffEntry*, unsigned short);
-    check_twosfx_morph(char const*, int, int, AffEntry*, unsigned short);
-    checkword(char const*, int, int, AffEntry*, char**, int, int*, unsigned short, unsigned short, unsigned short);
-    get_next_homonym(hentry*, int, AffEntry*, unsigned short, unsigned short);
-    test_condition(char const*, char const*);
+    auto add(char const*, int);
+    auto check_twosfx(char const*, int, int, AffEntry*, unsigned short);
+    auto check_twosfx_morph(char const*, int, int, AffEntry*, unsigned short);
+    auto checkword(char const*, int, int, AffEntry*, char**, int, int*, unsigned short, unsigned short, unsigned short);
+    auto get_next_homonym(hentry*, int, AffEntry*, unsigned short, unsigned short);
+    auto test_condition(char const*, char const*);
     ~SfxEntry();
 };

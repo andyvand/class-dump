@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BKSAnimationFenceHandle;
+
 @protocol UIFenceProviding
-- (void)	;
+- (BKSAnimationFenceHandle *)_touchInsets;
 @end
 

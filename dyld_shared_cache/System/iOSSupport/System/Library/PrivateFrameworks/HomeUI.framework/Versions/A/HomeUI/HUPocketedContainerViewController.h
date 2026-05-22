@@ -25,13 +25,13 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (struct CGSize);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)þ­;
-- (void)ÿú;
+- (void)&,N,V_prevWeekButton;
+- (void)ice type:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *contentViewController; // @synthesize contentViewController=_contentViewController;

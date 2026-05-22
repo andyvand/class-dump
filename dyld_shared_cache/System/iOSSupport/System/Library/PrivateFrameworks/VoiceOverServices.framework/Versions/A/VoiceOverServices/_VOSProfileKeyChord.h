@@ -15,15 +15,15 @@
 + (id);
 + (id);
 + (_Bool);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void)`;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak _VOSProfileCommand *command; // @synthesize command=_command;

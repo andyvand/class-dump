@@ -5,6 +5,8 @@
 //
 
 @protocol PXChangeObserver
-- (void)ESSAGE_VIDEO;
+- (void)Øð!l@ù#ð1â
+0@ù
+× ;
 @end
 

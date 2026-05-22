@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)ancelBlock:(id)arg1;
+- (void);
+- (void)"NSIndexPath"16@?0@"HFItem"8;
 
 // Remaining properties
 @property(retain, nonatomic) HUDashboardContext *context; // @synthesize context=_context;

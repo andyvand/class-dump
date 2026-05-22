@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, UIImage;
+@class NSData, NSString, UIImage;
 
 @protocol IMImageDataProtocol
-+ (_Bool);
-- (NSArray *)uô;
-- (NSArray *);
-- (UIImage *)9;
-- (struct CGSize)ibutes;
-- (struct CGSize)gnitionRequests;
-- (NSData *)h6kô;
-- (id)1¢!0@ù
-× ;
-- (unsigned long long)ypeReplyGreen;
++ (_Bool)÷8;
+- (unsigned long long)P;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *MIMEType;

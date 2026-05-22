@@ -8,11 +8,6 @@
 
 @protocol _UIClickPresentationTransition
 
-@optional
-- (void);
-- (UITargetedPreview *)Failed to compute digest of raw data.;
-- (void)rget class is NULL but instance is non-NULL;
-
 // Remaining properties
 @property(readonly, nonatomic) UIViewPropertyAnimator *customAnimator;
 // Preceding property had unknown attributes: ?

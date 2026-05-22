@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUArticleScrollPosition;
-
 @protocol NUArticleScrollPositionManagerType
-- (void)@;
-- (NUArticleScrollPosition *)B;
 @end
 

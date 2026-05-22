@@ -4,11 +4,11 @@
 
 class __gnu_cxx::__pool<true> {
 public: // (access info unavailable from symbols alone)
-    _M_destroy();
-    _M_destroy_thread_key(void*);
-    _M_get_thread_id();
-    _M_initialize();
-    _M_initialize(void (*)(void*));
-    _M_reclaim_block(char*, unsigned long);
-    _M_reserve_block(unsigned long, unsigned long);
+    auto _M_destroy();
+    auto _M_destroy_thread_key(void*);
+    auto _M_get_thread_id();
+    auto _M_initialize();
+    auto _M_initialize(void (*)(void*));
+    auto _M_reclaim_block(char*, unsigned long);
+    auto _M_reserve_block(unsigned long, unsigned long);
 };

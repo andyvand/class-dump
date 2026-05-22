@@ -13,18 +13,18 @@
 }
 
 + (id);
-+ (CDStruct_b8464340)ryControllerTime;
++ (CDStruct_b8464340);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

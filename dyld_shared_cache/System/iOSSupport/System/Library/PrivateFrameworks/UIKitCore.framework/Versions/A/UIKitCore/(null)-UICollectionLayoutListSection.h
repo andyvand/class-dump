@@ -5,6 +5,6 @@
 //
 
 @interface (null) (UICollectionLayoutListSection)
-+ (id)MDRelayDeletionController:(id)arg1 Recently Deleted | Received empty parts-mardid command;
++ (id);
 @end
 

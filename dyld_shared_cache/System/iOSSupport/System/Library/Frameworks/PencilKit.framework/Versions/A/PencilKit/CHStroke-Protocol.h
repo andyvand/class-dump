@@ -7,6 +7,7 @@
 @protocol CHStrokeIdentifier;
 
 @protocol CHStroke
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

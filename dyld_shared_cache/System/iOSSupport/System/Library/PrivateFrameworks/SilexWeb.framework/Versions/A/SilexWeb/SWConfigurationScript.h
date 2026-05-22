@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)h: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *configuration; // @synthesize configuration=_configuration;

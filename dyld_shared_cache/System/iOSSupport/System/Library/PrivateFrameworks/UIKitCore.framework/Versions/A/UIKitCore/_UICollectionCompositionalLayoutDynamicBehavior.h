@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     _UICollectionLayoutVisibleItem *_visibleItem;
 }
 
-- (id);
 - (id);
-- (void);
-- (id)houldMenuOverlapSourcePreview;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _UICollectionLayoutVisibleItem *visibleItem; // @synthesize visibleItem=_visibleItem;

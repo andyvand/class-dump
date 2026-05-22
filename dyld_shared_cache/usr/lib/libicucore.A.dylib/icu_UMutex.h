@@ -4,6 +4,6 @@
 
 class icu::UMutex {
 public: // (access info unavailable from symbols alone)
-    cleanup();
-    getMutex();
+    auto cleanup();
+    auto getMutex();
 };

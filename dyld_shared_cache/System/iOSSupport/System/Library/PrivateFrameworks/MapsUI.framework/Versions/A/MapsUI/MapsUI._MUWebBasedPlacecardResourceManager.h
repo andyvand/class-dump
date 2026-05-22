@@ -14,7 +14,7 @@
     void fetchedResourceNames;
 }
 
-+ (id)8¨ÿÿº§ÿÿ;
++ (id)erViewModel>",&,N,V_viewModel;
 - (_Bool);
 - (void);
 - (void);
@@ -29,8 +29,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)inessId:localSearchProviderId:elementIndex:moduleType:isEnriched:impressionEvent:impressionVisibleTimestamp:impressionNonvisibleTimestamp: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSURL *directoryURL;

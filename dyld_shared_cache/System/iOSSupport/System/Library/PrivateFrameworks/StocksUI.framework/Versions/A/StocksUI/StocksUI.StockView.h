@@ -28,11 +28,11 @@
 
 - (id);
 - (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (void)Lúÿxúÿúÿ;
 - (id);
 
 // Remaining properties

@@ -20,12 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void)¸;
 - (id);
-- (id)zÐ1b0@ù
-× ;
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioAssetFetchResult> curatedAudioAssets; // @synthesize curatedAudioAssets=_curatedAudioAssets;

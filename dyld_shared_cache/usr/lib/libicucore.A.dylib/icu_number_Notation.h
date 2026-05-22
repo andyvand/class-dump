@@ -4,9 +4,9 @@
 
 class icu::number::Notation {
 public: // (access info unavailable from symbols alone)
-    compactLong();
-    compactShort();
-    engineering();
-    scientific();
-    simple();
+    auto compactLong();
+    auto compactShort();
+    auto engineering();
+    auto scientific();
+    auto simple();
 };

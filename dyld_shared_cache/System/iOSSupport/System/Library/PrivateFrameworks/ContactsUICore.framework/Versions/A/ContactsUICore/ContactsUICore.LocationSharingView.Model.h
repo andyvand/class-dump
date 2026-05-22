@@ -11,7 +11,6 @@
     MISSING_TYPE *contact;
     MISSING_TYPE *controller;
     MISSING_TYPE *_isSharingLocation;
-    MISSING_TYPE *_canShareLocation;
     MISSING_TYPE *_blockingViewModel;
 }
 

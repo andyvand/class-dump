@@ -7,11 +7,15 @@
 @class NSArray, _UIStatusBarRegion;
 
 @protocol _UIStatusBarRegionLayout
-- (void)earCarplayKeyboard:(NSArray *)arg1;
-- (_UIStatusBarRegion *)ate>",W,N,V_delegate;
-- (void)cationSceneSettingsDiffInspector",&,N,V_sceneSettingsApplicationLifecycleEventDiffInspector;
-- (NSArray *);
-- (void)®ó;
+- (void)ù1Y°1Â0@ù
+× ;
+- (void)"<_UINavigationBarTitleViewDataSource>";
+- (NSArray *)sentViewController:withAnimationController:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)×13X4zþ}×13Äuþm×13 uþ;
+- (_UIStatusBarRegion *);
+
+@optional
+- (_Bool)SearchBarUpdate:(NSArray *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canOverflowItems;

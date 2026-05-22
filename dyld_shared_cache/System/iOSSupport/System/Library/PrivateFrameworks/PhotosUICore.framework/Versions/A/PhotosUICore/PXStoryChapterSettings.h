@@ -23,8 +23,8 @@
 - (long long);
 - (long long);
 - (long long);
+- (id);
 - (void);
-- (id)ayed load of real data source manager. Loading syndication photo library in background thread.;
 
 // Remaining properties
 @property(nonatomic) long long chapterCollectionProducerKind; // @synthesize chapterCollectionProducerKind=_chapterCollectionProducerKind;

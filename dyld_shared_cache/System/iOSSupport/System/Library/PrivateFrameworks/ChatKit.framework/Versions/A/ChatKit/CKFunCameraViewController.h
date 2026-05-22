@@ -21,48 +21,49 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)8@"NSManagedObjectContext"16@?<v@?>24;
-- (id)nGU/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/Text/TextAttachments/ICBaseAttachmentView.m;
-- (void)NSArray"8;
-- (void)mage/png;base64,%@" alt="%@">;
-- (void)ase64,%@" type="image/x-apple-adaptive-glyph">;
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)#ÕÐÊP;
-- (void)omDragItems: /* Error: Ran out of types for this method. */;
-- (id)_AByAFy`¸«yAEyAH_AStGGA5_GA7_GtGGGã«GA15_G;
-- (void)G_G;
-- (void)yV^>SgA2GGGGAEyAEyAHyH^>ALGARyE^>A2GGGAEyARy=^>A2GGARy9^>A2GGGGGAEyAEyAEyARy)^>A2GGARyMW>A2GGGAEyARy^>A2GGAHyAHyAFyAgHyAG=x­Gÿ]>GAJy8®GG_¥­yI4®SgGGGGAFyA3GGGGGG_Qo__Qo_;
-- (void)ÊÞ.;
-- (id)ÁÜ1¡/;
+- (id)!TDùñ°1Â0@ù
+× ;
+- (void)pActivity image is nil;
+- (void);
+- (id)é?333333Ó?333333Ó?;
+- (void)!7Áù/;
+- (void)øû1;
 
 // Remaining properties
 @property(retain, nonatomic) IMBalloonPlugin *balloonPlugin; // @synthesize balloonPlugin=_balloonPlugin;

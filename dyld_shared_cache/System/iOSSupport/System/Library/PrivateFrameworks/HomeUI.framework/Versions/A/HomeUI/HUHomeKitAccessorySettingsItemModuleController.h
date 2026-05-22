@@ -24,9 +24,9 @@
 - (Class);
 - (void);
 - (unsigned long long);
+- (id);
 - (void);
-- (id)View:swipeAccessoryButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)lter:(id)arg1;
+- (void)Users.Locks.Title;
 
 // Remaining properties
 @property(retain) NSMapTable *cellToItemMap; // @synthesize cellToItemMap=_cellToItemMap;

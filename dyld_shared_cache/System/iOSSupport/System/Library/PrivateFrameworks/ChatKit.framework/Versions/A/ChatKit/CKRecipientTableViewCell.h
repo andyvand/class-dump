@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)adByInterval:(BOOL)arg1 completion:(_Bool)arg2;
-- (id);
+- (void);
+- (id)AtIndexPath:(long long)arg1;
 
 @end
 

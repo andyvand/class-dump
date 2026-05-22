@@ -12,11 +12,11 @@
     MISSING_TYPE *delegate;
 }
 
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (id)Rwúÿ;
-- (struct CGSize)¸óIÿ5¼¼´óIÿ=¼¼¨òIÿU¼¼;
+- (id);
+- (void)a%k(#Gÿq%k$#Gÿq%k #Gÿ%kP°ÿ;
 
 @end
 

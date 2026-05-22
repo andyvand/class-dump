@@ -15,6 +15,8 @@
     long long businessMessagesCount;
     long long promotionalMessagesCount;
     long long transactionalMessagesCount;
+    long long expiredMessagesCount;
+    long long balloonPluginMessagesCount;
 }
 
 + (_Bool);
@@ -23,7 +25,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,17 +36,21 @@
 - (long long);
 - (long long);
 - (long long);
-- (void);
+- (long long);
+- (long long);
 - (void);
 - (id);
-- (id)edDouble:maximumNumberOfDigitsAfterDecimalSeparator: /* Error: Ran out of types for this method. */;
-- (id)`;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
+@property(nonatomic) long long balloonPluginMessagesCount; // @synthesize balloonPluginMessagesCount;
 @property(nonatomic) long long businessMessagesCount; // @synthesize businessMessagesCount;
 @property(nonatomic) long long chatBotMessagesCount; // @synthesize chatBotMessagesCount;
 @property(nonatomic) long long deletedMessagesCount; // @synthesize deletedMessagesCount;
 @property(nonatomic, readonly) NSString *description;
+@property(nonatomic) long long expiredMessagesCount; // @synthesize expiredMessagesCount;
 @property(nonatomic) long long junkMessagesCount; // @synthesize junkMessagesCount;
 @property(nonatomic) long long promotionalMessagesCount; // @synthesize promotionalMessagesCount;
 @property(nonatomic) long long systemMessagesCount; // @synthesize systemMessagesCount;

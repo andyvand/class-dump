@@ -30,14 +30,14 @@
 - (unsigned long long);
 - (void);
 - (double);
-- (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id),&,N,V_spriteInfos;
+- (id);
+- (void);
 
 // Remaining properties
 @property double ageLimit;

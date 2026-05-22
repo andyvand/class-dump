@@ -4,5 +4,5 @@
 
 class mach_o::PlatformInfo_firmware {
 public: // (access info unavailable from symbols alone)
-    yearForVersion(mach_o::Version32, unsigned short&, bool&) const;
+    auto yearForVersion(mach_o::Version32, unsigned short&, bool&) const;
 };

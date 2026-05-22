@@ -8,20 +8,20 @@
 
 @interface (null) (MessagesSupport)
 - (id);
-- (_Bool)A;
+- (_Bool);
 - (_Bool);
 - (void);
-- (void)**everyone**;
-- (void)lose access to these locked notes and Apple will not be able to recover your password.;
-- (void)e(UI) textStorageForColumn:(id)arg1 ];
 - (void);
-- (void)e shared notes?;
-- (_Bool)d;
-- (_Bool)m.apple.notes.thumbnail-service-scheduler;
-- (void)nailNotification;
-- (_Bool)noteSortType;
-- (_Bool)rcle;
-- (void)ype:(id)arg1 %@, parentIdentifier:(id)arg2 %@, accountID:(id)arg3 %@, title:(_Bool)arg4 %@>;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);

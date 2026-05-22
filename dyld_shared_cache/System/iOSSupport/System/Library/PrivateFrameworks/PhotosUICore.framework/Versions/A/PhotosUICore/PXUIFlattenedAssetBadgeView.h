@@ -15,11 +15,11 @@
 
 - (void);
 - (void);
-- (void)Xqå;
-- (void);
-- (void)s.people.faceCropManager.fetch;
-- (_Bool)mer.swift;
-- (void)guationCell;
+- (_Bool);
+- (void)irtualCollection;
+- (void)rProvider;
+- (void)lePickerPrompt;
+- (void)AÈòÿAÈ|òÿAÈ|òÿIÈocÿ;
 
 @end
 

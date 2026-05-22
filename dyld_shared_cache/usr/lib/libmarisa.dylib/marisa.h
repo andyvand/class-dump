@@ -4,10 +4,13 @@
 
 class marisa {
 public: // (access info unavailable from symbols alone)
-    fread(__sFILE*, marisa::Trie*);
-    fwrite(__sFILE*, marisa::Trie const&);
-    operator<<(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, marisa::Trie const&);
-    operator>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, marisa::Trie&);
-    read(std::__1::basic_istream<char, std::__1::char_traits<char>>&, marisa::Trie*);
-    write(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, marisa::Trie const&);
+    auto fread(__sFILE*, marisa::Trie*);
+    auto fread(__sFILE*, marisa::Trie*) (.cold.1);
+    auto fread(__sFILE*, marisa::Trie*) (.cold.2);
+    auto fwrite(__sFILE*, marisa::Trie const&);
+    auto fwrite(__sFILE*, marisa::Trie const&) (.cold.1);
+    auto operator>>(std::__1::basic_istream<char, std::__1::char_traits<char>>&, marisa::Trie&);
+    auto read(std::__1::basic_istream<char, std::__1::char_traits<char>>&, marisa::Trie*);
+    auto read(std::__1::basic_istream<char, std::__1::char_traits<char>>&, marisa::Trie*) (.cold.1);
+    auto write(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, marisa::Trie const&);
 };

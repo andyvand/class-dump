@@ -10,7 +10,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)Ì;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -18,10 +18,10 @@
 + (id);
 - (id);
 - (int);
+- (struct CGPoint);
 - (id);
 - (CDStruct_14d5dc5e);
-- (struct CGPoint);
-- (MISSING_TYPE *){;
+- (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (id);

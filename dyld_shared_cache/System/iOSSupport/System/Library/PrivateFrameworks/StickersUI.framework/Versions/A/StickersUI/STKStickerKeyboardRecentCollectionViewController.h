@@ -16,12 +16,12 @@
     MISSING_TYPE *previousContainerSize;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (_Bool);
+- (void);
+- (void);
 
 @end
 

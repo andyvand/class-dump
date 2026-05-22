@@ -4,7 +4,7 @@
 
 class tlv_parsing_exception {
 public: // (access info unavailable from symbols alone)
+    auto what() const;
     tlv_parsing_exception(unsigned short, unsigned short, unsigned char const*, unsigned long);
-    what() const;
     ~tlv_parsing_exception();
 };

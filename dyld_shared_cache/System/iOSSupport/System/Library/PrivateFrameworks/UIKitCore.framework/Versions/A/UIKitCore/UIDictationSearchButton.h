@@ -11,10 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (long long);
-- (void)
++ (id)ÉÐ<zo;
+- (void);
+- (void)FùdÐ1Â0@ù
 × ;
+- (long long)olor;
+- (void)invalid;
 
 @end
 

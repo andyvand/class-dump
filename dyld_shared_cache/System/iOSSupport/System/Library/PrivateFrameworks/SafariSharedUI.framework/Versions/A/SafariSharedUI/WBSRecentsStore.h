@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)in to online accounts.;
-- (void);
+- (void)conInfosForPageURLString:iconURLString:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *availableDevices; // @synthesize availableDevices=_availableDevices;

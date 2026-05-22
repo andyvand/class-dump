@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)h GUID %@ does not match existing database GUID %@;
+- (void);
 
 @end
 

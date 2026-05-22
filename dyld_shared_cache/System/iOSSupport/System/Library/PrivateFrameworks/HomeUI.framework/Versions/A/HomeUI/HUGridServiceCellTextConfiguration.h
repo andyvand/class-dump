@@ -26,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)tItemProtocol>"16@?0@"<HFHomeKitObject>"8;
 
 // Remaining properties
 @property(retain, nonatomic) id <HFStringGenerator> descriptionText; // @synthesize descriptionText=_descriptionText;

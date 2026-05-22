@@ -21,7 +21,7 @@
 }
 
 + (_Bool);
-+ (void)bilityDidChange:,V_chromeVisibilityDidChange /* Error: Ran out of types for this method. */;
++ (void)v16@?0@"NSArray"8;
 - (id);
 - (void);
 - (void);
@@ -61,22 +61,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (void)orState: /* Error: Ran out of types for this method. */;
-- (id)aximumZoomScale;
-- (void)tem.m;
-- (void)ÿ;
-- (id)
-;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)6;
+- (void)e;
+- (void)_looksButton;
+- (void)øP&;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsMultipleSelection;

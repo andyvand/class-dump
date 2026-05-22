@@ -12,7 +12,7 @@
 
 + (id);
 - (long long);
-- (id);
+- (id)ion:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

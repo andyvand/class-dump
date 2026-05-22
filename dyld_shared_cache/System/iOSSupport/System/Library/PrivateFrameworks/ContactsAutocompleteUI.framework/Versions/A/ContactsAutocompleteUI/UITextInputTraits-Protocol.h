@@ -9,17 +9,13 @@
 @protocol UITextInputTraits
 
 @optional
-- (long long)$;
-- (void)@;
-- (void);
-- (void)֜#;
-- (void);
-- (long long);
-- (long long)/;
-- (void)@ù
+- (void)
 × ;
-- (long long)!LEùq¿1¢!0@ù
-× ;
+- (long long)mpositingFilter: /* Error: Ran out of types for this method. */;
+- (long long)lacementText: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Anchor;
+- (_Bool)llExpandSelectedRecipient: /* Error: Ran out of types for this method. */;
+- (void)raction:(_Bool)arg1 competingGestureRecognizerShouldDelayLift: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

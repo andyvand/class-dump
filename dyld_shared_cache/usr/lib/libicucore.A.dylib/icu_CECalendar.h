@@ -6,11 +6,10 @@ class icu::CECalendar {
 public: // (access info unavailable from symbols alone)
     CECalendar(icu::CECalendar const&);
     CECalendar(icu::Locale const&, UErrorCode&);
-    getTemporalMonthCode(UErrorCode&) const;
-    handleComputeMonthStart(int, int, signed char, UErrorCode&) const;
-    handleGetLimit(UCalendarDateFields, icu::Calendar::ELimitType) const;
-    jdToCE(int, int, int&, int&, int&, UErrorCode&);
-    operator=(icu::CECalendar const&);
-    setTemporalMonthCode(char const*, UErrorCode&);
+    auto getTemporalMonthCode(UErrorCode&) const;
+    auto handleComputeFields(int, UErrorCode&);
+    auto handleComputeMonthStart(int, int, signed char, UErrorCode&) const;
+    auto handleGetLimit(UCalendarDateFields, icu::Calendar::ELimitType) const;
+    auto setTemporalMonthCode(char const*, UErrorCode&);
     ~CECalendar();
 };

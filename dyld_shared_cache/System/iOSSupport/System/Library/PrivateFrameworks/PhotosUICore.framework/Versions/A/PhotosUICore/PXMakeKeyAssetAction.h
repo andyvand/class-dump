@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)edbackAssetActionPerformer;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

@@ -12,9 +12,9 @@
     MISSING_TYPE *changeHandler;
 }
 
-- (void);
 - (id);
-- (void)r.m;
+- (void);
+- (void);
 
 @end
 

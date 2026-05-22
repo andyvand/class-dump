@@ -14,17 +14,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)@48@0:8^v16Q24Q32@?40 /* Error: Ran out of types for this method. */;
-- (_Bool)CAwx2HRnOmeF9edGkGuS6TSSvve4LSm3o/Library/Caches/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/s3_clnt.c;
-- (_Bool)onEnterpriseDeclaration_AppPackage;
+- (id);
 - (_Bool);
+- (id);
+- (void)1Â0@ù
+× ;
+- (_Bool)Að!¨@ùÑb°1Â0@ù
+× ;
+- (_Bool)ð!4Bù±e1Â0@ù
+× ;
+- (int)qg°1Â0@ù
+× ;
+- (_Bool)sabled"b1"allowDisablingNavigationBarHiding"b1"showsResultsForEmptyField"b1"searchBarCanBeHoisted"b1"animatingSearchResultsDisappearance"b1"navigationBarShadowWasHidden"b1"hoistingSearchBar"b1};
+- (_Bool)tion:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (int)pAction;
-- (id)rce;
-- (_Bool)nsli_descriptionIncludesPointer;
-- (_Bool)opdrØr0s¬s¼w¨xy;
-- (id)ÔÕ_;
-- (void);
+- (_Bool)ÿ0;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBeSuspended;

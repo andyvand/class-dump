@@ -15,13 +15,13 @@
     MISSING_TYPE *_description;
 }
 
-- (void)24@"NSURLSessionStreamTask"32;
 - (id);
 - (id);
 - (id);
-- (void);
 - (void);
-- (void)a¾0§þ;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

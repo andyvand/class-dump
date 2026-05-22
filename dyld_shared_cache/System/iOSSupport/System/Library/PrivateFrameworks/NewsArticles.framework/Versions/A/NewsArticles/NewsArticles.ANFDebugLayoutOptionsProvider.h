@@ -14,10 +14,9 @@
 
 - (struct CGSize);
 - (unsigned long long);
-- (id)_ր;
+- (id);
 - (long long);
-- (long long)_ր
-;
+- (long long);
 - (id);
 - (unsigned long long);
 - (id);
@@ -25,11 +24,10 @@
 - (id);
 - (long long);
 - (long long);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)
-;
+- (void)bundleSubscriptionDetectionManager;
 
 @end
 

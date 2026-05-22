@@ -7,8 +7,8 @@
 @class NSIndexSet;
 
 @protocol PXStoryTimelineSpec
-- (struct UIEdgeInsets)ew_Previews;
-- (long long)p;
+- (struct UIEdgeInsets)¬Púÿauµäâúÿ2ãúÿP;
+- (long long)Ëì;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long allowedInlineTitles;

@@ -5,7 +5,5 @@
 //
 
 @protocol _CVCCollectionUpdateItem
-- (id)ùQÄÐ1¢!0@ù
-× ;
 @end
 

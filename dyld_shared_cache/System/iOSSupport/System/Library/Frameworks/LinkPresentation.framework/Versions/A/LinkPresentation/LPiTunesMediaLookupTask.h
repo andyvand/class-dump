@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
 
 @end
 

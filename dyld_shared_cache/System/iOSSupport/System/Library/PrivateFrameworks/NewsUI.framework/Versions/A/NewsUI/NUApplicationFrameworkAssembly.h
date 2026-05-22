@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assemblies; // @synthesize assemblies=_assemblies;

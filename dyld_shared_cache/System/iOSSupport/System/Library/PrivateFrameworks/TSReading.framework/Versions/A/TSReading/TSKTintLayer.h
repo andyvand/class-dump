@@ -11,15 +11,15 @@
     CALayer *_contentsLayer;
 }
 
+- (void);
 - (id);
 - (void);
 - (void);
 - (struct CGColor *);
 - (void);
-- (void)DisplayDirectlyOverRep;
-- (void);
-- (void)hspace;
-- (id)?ffffffî?ºëQ¸®?|®GázÄ?z®Gáz¤?333333ó?|®Gáz¤?j¼tð?;
+- (id);
+- (void)o;
+- (void)Äøÿ¦Y×Ô;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *contentsLayer; // @synthesize contentsLayer=_contentsLayer;

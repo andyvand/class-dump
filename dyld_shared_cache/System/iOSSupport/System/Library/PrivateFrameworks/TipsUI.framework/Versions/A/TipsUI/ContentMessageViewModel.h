@@ -24,17 +24,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)!XFùuÐ1b0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType debugActionHandler;

@@ -34,13 +34,13 @@
 - (struct UIEdgeInsets);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)a;
-- (id);
 - (void);
-- (id)rrorDomain;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool alwaysShowExtended; // @synthesize alwaysShowExtended=_alwaysShowExtended;

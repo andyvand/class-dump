@@ -36,13 +36,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGImage *);
 - (id);
-- (void);
-- (void);
+- (double);
 - (void);
 - (id);
 - (void);
-- (long long);
-- (double);
+- (void);
+- (void);
+- (long long)n, pulse package is missing;
 
 // Remaining properties
 @property(nonatomic) __weak id <VKCStickerVideoDecoderDelegate> delegate; // @synthesize delegate=_delegate;

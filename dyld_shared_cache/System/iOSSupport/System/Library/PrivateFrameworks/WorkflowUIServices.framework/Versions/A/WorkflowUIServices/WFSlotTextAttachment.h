@@ -37,28 +37,28 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (struct CGRect);
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)8ôþÿLøöÿø: /* Error: Ran out of types for this method. */;
+- (void)¥,Cëâæ?]mÅþ²{²?©?ü©ñÒMbP?¹¿;
 
 // Remaining properties
 @property(copy, nonatomic) WFSlotIdentifier *containingSlotIdentifier; // @synthesize containingSlotIdentifier=_containingSlotIdentifier;

@@ -24,8 +24,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)leOccupancyDetected%@;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *addedAlarms; // @synthesize addedAlarms=_addedAlarms;

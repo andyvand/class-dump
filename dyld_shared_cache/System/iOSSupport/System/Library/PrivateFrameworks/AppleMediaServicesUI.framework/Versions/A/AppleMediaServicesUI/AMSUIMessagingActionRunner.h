@@ -12,8 +12,8 @@
 + (id);
 + (_Bool);
 + (_Bool);
-- (void);
 - (id);
+- (void)lertController: /* Error: Ran out of types for this method. */;
 
 @end
 

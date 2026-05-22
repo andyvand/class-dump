@@ -27,7 +27,7 @@
 + (_Bool);
 + (struct CGSize);
 + (id);
-+ (id)¹Æ9;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -45,12 +45,12 @@
 - (int);
 - (void);
 - (id);
-- (void)¬Ö0e;
-- (id);
-- (id);
-- (id);
 - (void);
-- (id)inalRequestedEDRHeadroomFactor"B"desiredDynamicRange"B"imageLayerModulators"B"currentScreenSupportsHDR"B};
+- (id);
+- (id);
+- (id)tion: /* Error: Ran out of types for this method. */;
+- (id)¶6ÿÿÿÿÿ;
+- (void)PhotosUICore_Private.PXSensitivityInterventionManager;
 
 // Remaining properties
 @property(nonatomic) _Bool analysisSuspended; // @synthesize analysisSuspended=_analysisSuspended;

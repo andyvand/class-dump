@@ -11,12 +11,10 @@
 
 + (_Bool);
 - (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void)¶
-°1b0@ù
-× ;
+- (void)store:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;

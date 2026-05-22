@@ -34,13 +34,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
+- (void);
 - (id);
 - (void);
-- (void)ck to initial hydration state to finish those up;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

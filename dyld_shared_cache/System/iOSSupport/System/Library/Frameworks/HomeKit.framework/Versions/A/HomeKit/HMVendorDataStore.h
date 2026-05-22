@@ -13,16 +13,16 @@
     NSUUID *_uuid;
 }
 
-+ (id)INT: /* Error: Ran out of types for this method. */;
-- (void);
++ (id)ey;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)sponds to shares;
-- (id)c¢î;
+- (id);
+- (id);
+- (void)n"b1"supportsAccessCodes"b1"supportsCHIP"b1"supportsThreadBorderRouter"b1"supportsSiriEndpointSetup"b1"supportsCustomMediaApplicationDestination"b1"supportsUnifiedMediaNotifications"b1"supportsHomeHub"b1"supportsResidentFirstAccessoryCommunication"b1"supportsThreadNetworkCredentialSharing"b1"supportsMatterSharedAdminPairing"b1"supportsEventLog"b1"supportsMatterTTU"b1"supportsDistributedExecutionOnPrimary"b1"supportsResidentActionSetStateEvaluation"b1"supportsUWB"b1"supportsRestrictedGuest"b1"supportsMatterOwnerCertFetch"b1"supportsDistributedExecutionOnAppleMediaAccessories"b1"supportsResidentSelection"b1"supportsNativeMatter"b1"supportsHomeActivityState"b1"supportsUWBUnlock"b1"supportsNativeMatterPlugin"b1"supportsHKSV3"b1"supportsHEVC"b1"supportsDedicatedStatusChannel"b1};
+- (void)otoLanguageSettingEvent;
 
 // Remaining properties
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;

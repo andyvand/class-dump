@@ -4,5 +4,5 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __call_once(unsigned long volatile&, void*, void (*)(void*));
+    auto __call_once(unsigned long volatile&, void*, void (*)(void*));
 };

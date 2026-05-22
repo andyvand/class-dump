@@ -11,10 +11,10 @@
     id <AVTNotifyingContainerViewDelegate> _delegate;
 }
 
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)SString"16@?0@"NSNumber"8;
 - (void);
 
 // Remaining properties

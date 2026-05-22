@@ -14,18 +14,20 @@ __attribute__((visibility("hidden")))
     _Bool _showsRemoteInputDashViewController;
 }
 
-- (_Bool)ID;
-- (void)airHistory;
 - (_Bool);
-- (_Bool)lbumTableCell"8@"UIImage"16;
-- (_Bool);
-- (double)!àEù1ÁÐ1¢!0@ù
-× ;
-- (_Bool)orTouchInfo:key: /* Error: Ran out of types for this method. */;
-- (_Bool)@ preview=%@ center=%@ velocity=%@>;
-- (id);
+- (void);
 - (id);
-- (_Bool)ÖEèf;
+- (_Bool);
+- (_Bool);
+- (_Bool)× ;
+- (double)±fð1Â0@ù
+× ;
+- (_Bool)Controller"24@"UIViewController"32i40;
+- (_Bool);
+- (_Bool)tySet;
+- (id)iews.
+First responder that was asked to resign (returned %@ from -resignFirstResponder):%@ inside containing view:%@ at index path:%@
+Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

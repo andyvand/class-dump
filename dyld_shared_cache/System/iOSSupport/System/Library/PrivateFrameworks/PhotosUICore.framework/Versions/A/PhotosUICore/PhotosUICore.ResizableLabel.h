@@ -13,12 +13,12 @@
     MISSING_TYPE *newLabel;
 }
 
-- (void);
+- (struct CGSize);
+- (id);
 - (struct CGRect);
 - (id);
-- (void);
-- (id)B;
-- (struct CGSize);
+- (void)_topItems;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

@@ -30,25 +30,25 @@
 }
 
 + (id);
-+ (id)letion:(id)arg1;
-+ (void);
++ (id);
++ (void);
 + (id);
 + (id);
-+ (id)A_DIRTY;
 + (id);
-+ (id)ta;
 + (id);
-+ (id)Account;
-+ (id)Account = %{public}@;
-+ (void)hots;
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
 + (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)meworks/AppleIDSSOAuthentication.framework/Versions/A/AppleIDSSOAuthentication;
-- (void);
-- (void)T;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,14 +59,14 @@
 - (void);
 - (void);
 - (id);
-- (id)sions/A/FMCoreLite;
-- (long long)lic}@] We don't update the local account's storefront when inactive accounts change.;
+- (id);
+- (long long);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)P;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,14 +78,14 @@
 - (long long);
 - (id);
 - (void);
-- (long long);
-- (void);
-- (void);
-- (long long);
 - (long long);
 - (void);
+- (void);
 - (id);
+- (long long);
 - (id);
+- (long long);
+- (void)CHANGED       %{public}@ %{public}@;
 
 // Remaining properties
 @property(nonatomic) long long actionAfterQueueLoad; // @synthesize actionAfterQueueLoad=_actionAfterQueueLoad;

@@ -16,8 +16,8 @@
     MISSING_TYPE *allSymbolItems;
 }
 
-- (void);
 - (id);
+- (void)Àöáÿÿÿÿÿü;
 
 @end
 

@@ -23,8 +23,8 @@
 - (void);
 - (void);
 - (double);
-- (void);
 - (id);
+- (void)%{Bool}d, error.code %ld, error is %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTLocationOfInterest *locationOfInterest; // @synthesize locationOfInterest=_locationOfInterest;

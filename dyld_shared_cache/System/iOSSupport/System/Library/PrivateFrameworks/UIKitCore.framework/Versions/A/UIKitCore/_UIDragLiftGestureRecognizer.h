@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)c;
-- (void)rWindow:(id)arg1;
+- (_Bool)itWithDestinationNavigationItem:(id)arg1 sourceNavigationItem: /* Error: Ran out of types for this method. */;
+- (void)orFraction:(id)arg1;
 
 @end
 

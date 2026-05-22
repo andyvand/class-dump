@@ -12,8 +12,7 @@
     MISSING_TYPE *playbackPosition;
     MISSING_TYPE *playbackPositionObserver;
     MISSING_TYPE *activeScrubPositionSubject;
-    MISSING_TYPE *elapsedTimeFormatter;
-    MISSING_TYPE *remainingTimeFormatter;
+    MISSING_TYPE *configuration;
 }
 
 @end

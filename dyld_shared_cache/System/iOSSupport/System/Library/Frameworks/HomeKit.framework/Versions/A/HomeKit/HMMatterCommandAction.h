@@ -16,8 +16,8 @@
 }
 
 + (id);
-+ (_Bool)name;
 + (id);
++ (_Bool);
 
 @end
 

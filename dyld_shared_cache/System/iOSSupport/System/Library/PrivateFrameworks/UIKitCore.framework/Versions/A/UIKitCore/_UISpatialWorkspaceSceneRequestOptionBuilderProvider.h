@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ESSAGES ON ICLOUD---**/;
++ (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

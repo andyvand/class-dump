@@ -18,21 +18,21 @@ __attribute__((visibility("hidden")))
     ICRadioGetTracksResponse *_siriAssetInfoGetTracksResponse;
 }
 
-- (id)dOnUsername: /* Error: Ran out of types for this method. */;
-- (id)ession;
 - (id);
 - (id);
 - (id);
-- (void)rror = %{public}@;
-- (void)ccount.cookies = %{public}@;
-- (void)the account we’re trying to save. Ignoring. account = %{public}@ | existingAccount = %{public}@;
+- (id);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id)ror=%{public}@;
+- (void)²â­ identifiers:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ICUserIdentityProperties *delegatedIdentityProperties; // @synthesize delegatedIdentityProperties=_delegatedIdentityProperties;

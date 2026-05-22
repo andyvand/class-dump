@@ -12,14 +12,14 @@
 {
 }
 
-+ (id)Names: /* Error: Ran out of types for this method. */;
-+ (id)on;
-+ (id)semanticModeIdentifier;
-+ (void)eSource;
++ (id);
++ (id);
++ (id);
 + (void);
-+ (void)R,N,V_type;
-+ (void)pe;
-+ (id),V_attributes;
++ (void);
++ (void);
++ (void);
++ (id);
 
 // Remaining properties
 @property(nonatomic) double duration; // @dynamic duration;

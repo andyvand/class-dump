@@ -25,10 +25,9 @@
 - (struct PXSimpleIndexPath);
 - (id);
 - (id);
-- (void);
-- (long long)
-× ;
-- (long long)aturedPhotos;
+- (long long)Iq}q}16@0:8 /* Error: Ran out of types for this method. */;
+- (long long);
+- (void);
 
 @end
 

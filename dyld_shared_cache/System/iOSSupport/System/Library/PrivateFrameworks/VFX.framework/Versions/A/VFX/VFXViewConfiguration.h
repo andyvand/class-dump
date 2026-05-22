@@ -14,18 +14,18 @@
     unsigned long long pixelFormat;
 }
 
-+ (_Bool);
++ (_Bool)Node"8^B16;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void)lÅÿÿÿÿÿP;
+- (unsigned long long)che;
 - (id);
-- (unsigned long long);
-- (id);
-- (void)ÌBØGÿ¾ªàÛBðßì>eBEFÿ¾ZswB*âì> ÌBWBÿ¾5B}æì> ÌAÉ;ÿ¾_ãÛAïì>\èAÆ0ÿ¾S¡A¤üì>úeAÿÿ¾PcwA¾í>¼a5A%ÿ¾isCAÂ/í>uôAÚæþ¾3WAqYí>ºöò@®ºþ¾ÚàAhí>;Ì@A~þ¾	þÛ@±Ýí>zT®@êçý¾+¾»@î>Âz@èhý¾Ñ¢@Ë+ï>i8@÷åü¾09@¦Òï>Øñf@Uü¾	nx@Éð>¡M@íû¾t\@' ñ>yW7@³ú¾ZðD@·´ò>M%@Èµù¾"1@Vô>?@a§ø¾$D @Dõ>rM@Ít÷¾Õ@%>÷>Éù?ò#ö¾XY@2ù>SBæ?°ô¾5õ?Dmû>ñbÕ?Gó¾8â?ëý>ÞÆ?Ëgñ¾¡GÒ?)_;
 
 // Remaining properties
 @property(nonatomic) _Bool additiveWritesToAlpha; // @synthesize additiveWritesToAlpha;

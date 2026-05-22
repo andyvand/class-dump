@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (id);
 + (long long);
-+ (id)79;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -37,14 +37,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)6;
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)°!Aù¶ð1¢!0@ù
-× ;
+- (void);
+- (void);
+- (id)etadataProviderSpecialization (ID:%@) - Missing value for non-optional entry '%@'. /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -27,12 +27,12 @@
 - (MISSING_TYPE *);
 - (unsigned long long);
 - (id);
-- (void);
 - (unsigned long long);
+- (MISSING_TYPE *);
 - (id);
 - (void);
 - (const MISSING_TYPE **);
-- (MISSING_TYPE *);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long boundaryVertexCount; // @synthesize boundaryVertexCount=_boundaryVertexCount;

@@ -8,8 +8,13 @@
 
 @protocol MTLTexture
 - (unsigned long long);
-- (unsigned long long)è/;
-- (unsigned long long)¢×ÿÍÑ´0¢×ÿÕÑ´là×ÿåÑ´Äõ×ÿ;
+- (id <MTLBuffer>)_isMotionEnabled;
+- (unsigned long long)IöS
+GGjBS
+GLGS
+G;
+- (unsigned long long)HQ;
+- (unsigned long long)GÖ;
 
 // Remaining properties
 @property(readonly) _Bool allowGPUOptimizedContents;

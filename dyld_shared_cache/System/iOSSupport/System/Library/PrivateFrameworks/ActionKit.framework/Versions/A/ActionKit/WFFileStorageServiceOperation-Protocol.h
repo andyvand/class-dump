@@ -5,9 +5,7 @@
 //
 
 @protocol WFFileStorageServiceOperation
-- (void)Ñµ
-1b0@ù
-× ;
+- (_Bool)initWithApplicationGroupIdentifier:name: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;

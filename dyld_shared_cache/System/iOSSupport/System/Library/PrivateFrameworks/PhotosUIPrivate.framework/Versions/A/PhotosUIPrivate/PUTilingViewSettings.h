@@ -29,7 +29,7 @@
     double _transitionChromeDelay;
 }
 
-+ (id)Hdùÿ¶cþ²;
++ (id)N,V_springNumberOfOscillations;
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -71,9 +71,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (double)ult;
+- (void);
+- (double)tAdjustmentMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowPaging; // @synthesize allowPaging=_allowPaging;

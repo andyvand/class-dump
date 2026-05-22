@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)assetCollectionToSectionCache:originatingPhotoLibraryChange:fromIdentifier:toIdentifier: /* Error: Ran out of types for this method. */;
-- (long long)op:forMode: /* Error: Ran out of types for this method. */;
-- (id)à±;
 - (id);
+- (id);
+- (void);
+- (long long);
+- (id)n;
+- (void)±aÆH¡;
 
 // Remaining properties
 @property(readonly, nonatomic) PLEditSource *activeEditSource; // @dynamic activeEditSource;

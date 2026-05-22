@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     long long _index;
 }
 
-+ (id)ion:(id)arg1 %@;
++ (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)$;
-- (void);
-- (id)tationViewFor:(id)arg1;
+- (_Bool)orItemsAtIndexPaths:(id)arg1;
+- (id)ationState,S_setViewAnimationState:(struct _NSZone *)arg1 ,V_viewAnimationState;
+- (void)«ïÒ´^;
 
 @end
 

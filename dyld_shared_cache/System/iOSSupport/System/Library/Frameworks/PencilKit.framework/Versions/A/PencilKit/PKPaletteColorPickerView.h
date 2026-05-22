@@ -29,27 +29,27 @@
 }
 
 + (id);
-- (id)kForMainThread: /* Error: Ran out of types for this method. */;
-- (void)oundFetchConfiguration: /* Error: Ran out of types for this method. */;
-- (id)ancellationError;
-- (id)_gzipDeflate;
-- (id)rc_firstObjectPassingTest:(id)arg1;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)eCurrentTaskTransactionMetrics;
-- (void)ifier;
-- (void)leteWithError:(double)arg1;
-- (void)NSMutableArray",&,N,V_childOperations;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void)guration %{public}@ with size:(long long)arg1 %@, total time:%f /* Error: Ran out of types for this method. */;
-- (void)configuration %{public}@ with error:(long long)arg1 %{public}@;
-- (void)response status code:(id)arg1 %{public}@;
-- (void)lic}@ cancelled configuration request %@;
-- (void)ror:(id)arg1 %{public}@);
-- (void)etwork operation %{public}@ failed with error:(long long)arg1 %{public}@);
-- (double)t mode is:EndpointOnly /* Error: Ran out of types for this method. */;
-- (void)ity:) /* Error: Ran out of types for this method. */;
-- (id)news.apple.com/v1/configs;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (void);
+- (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -61,7 +61,7 @@
 - (id);
 - (long long);
 - (void);
-- (id)r;
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -73,39 +73,38 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (void);
-- (struct CGSize): /* Error: Ran out of types for this method. */;
-- (_Bool)ng;
-- (void)iewInsets:(_Bool)arg1;
-- (void)espondsToSelector:(double)arg1;
 - (void);
-- (long long);
-- (id);
-- (double);
 - (struct CGSize);
+- (_Bool);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)kens;
 - (id);
 - (id);
-- (id);
+- (void);
+- (_Bool);
+- (double);
+- (void);
 - (long long);
 - (void);
-- (void)0@ù
+- (void)A	°!<Fùq'Ð1Â0@ù
 × ;
-- (void)!ìFùÑÁÐ1¢!0@ù
-× ;
-- (void)culateFirstAndLastStrokeForKnobPlacement;
-- (_Bool);
-- (id)p;
+- (void)t:(id)arg1;
+- (void)cilKitP33_C07EB3BA79DD666E822D6A98FF7ECB3B33AutoRefineTaskCoordinatorDelegate;
+- (id)letteNamedDefaults;
+- (long long)Q-¬;
 
 // Remaining properties
 @property(nonatomic) long long analyticsColorChangeCount; // @synthesize analyticsColorChangeCount=_analyticsColorChangeCount;

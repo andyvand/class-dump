@@ -57,7 +57,9 @@
     MISSING_TYPE *groupContextAboveType;
     MISSING_TYPE *groupContextBelowType;
     MISSING_TYPE *groupContextAboveArticleId;
+    MISSING_TYPE *groupContextAboveArticleIds;
     MISSING_TYPE *groupContextBelowArticleId;
+    MISSING_TYPE *groupContextBelowArticleIds;
     MISSING_TYPE *contentEnvironment;
     MISSING_TYPE *isDraft;
     MISSING_TYPE *placement;
@@ -77,9 +79,9 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *dictionaryRepresentation;

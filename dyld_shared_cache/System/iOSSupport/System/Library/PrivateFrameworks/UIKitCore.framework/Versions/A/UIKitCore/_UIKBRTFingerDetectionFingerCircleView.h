@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ackgroundMessageRecipient"24@?<v@?@"NSError">32;
 - (void);
-- (struct CGColor *)egionsWhenRegion:occludedByRegion:inSnapshot: /* Error: Ran out of types for this method. */;
-- (id)title;
-- (_Bool)erParentingMode;
-- (void)Õ*Ò\;
+- (_Bool);
+- (id)itCollection:(struct CGRect)arg1 size: /* Error: Ran out of types for this method. */;
+- (struct CGColor *)tion;
+- (void)ctionViewLayout;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGColor *borderColor;

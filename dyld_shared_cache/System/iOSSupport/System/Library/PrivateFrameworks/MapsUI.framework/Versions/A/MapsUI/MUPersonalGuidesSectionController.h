@@ -30,10 +30,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool)Ì>âÿ] ëdwéÿ;
+- (_Bool);
+- (void)uleConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

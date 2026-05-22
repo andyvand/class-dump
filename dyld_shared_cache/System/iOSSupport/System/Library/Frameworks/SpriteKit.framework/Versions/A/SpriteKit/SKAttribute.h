@@ -14,17 +14,17 @@
 }
 
 + (id);
-+ (_Bool)È;
++ (_Bool);
 - (const void *);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (long long);
+- (void);
+- (id);
+- (void)ollisionBitMask: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name;

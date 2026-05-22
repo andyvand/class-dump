@@ -11,12 +11,12 @@
     NSDate *_lastEnteredForegroundDate;
 }
 
-+ (id)þ;
++ (id)MessageButtonTitle;
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)for possible value %@!;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *lastEnteredForegroundDate; // @synthesize lastEnteredForegroundDate=_lastEnteredForegroundDate;

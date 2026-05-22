@@ -18,7 +18,7 @@
 + (_Bool);
 - (_Bool);
 - (void);
-- (id)yHandwritingTitle;
+- (id)erLayout setCancelButtonActionPerformer:(id)arg1 ];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

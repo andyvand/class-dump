@@ -5,6 +5,5 @@
 //
 
 @protocol _TtP15AudioStatistics14ServerProtocol_
-- (void)C;
 @end
 

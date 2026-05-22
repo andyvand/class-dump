@@ -21,10 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)roupBuilder;
+- (id);
+- (void)HomePod_Body;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

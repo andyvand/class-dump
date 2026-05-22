@@ -14,7 +14,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)Point="x"d"y"d};
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReporting> analyticsReporting; // @synthesize analyticsReporting=_analyticsReporting;

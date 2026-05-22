@@ -14,11 +14,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)
-× ;
-- (void)henTruncated: /* Error: Ran out of types for this method. */;
-- (void)indexRetargetFeedbackGenerator;
-- (void)ding>"8;
+- (void);
+- (void)modalDisplayView;
+- (void)axDimmingView: /* Error: Ran out of types for this method. */;
+- (void)øëêÿ)ç;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBHandwritingPointFIFO *nextFIFO; // @synthesize nextFIFO=_nextFIFO;

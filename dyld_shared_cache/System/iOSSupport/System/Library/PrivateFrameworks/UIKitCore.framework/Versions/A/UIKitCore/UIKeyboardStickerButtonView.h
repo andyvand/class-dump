@@ -14,16 +14,15 @@ __attribute__((visibility("hidden")))
     UIButton *_launchStickersButton;
 }
 
-- (void)ses;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)!Gù1ÁÐ1¢!0@ù
+- (unsigned long long)!!8Fù1aÐ1Â0@ù
 × ;
-- (id);
-- (unsigned long long)CGPoint=dd}{CGSize=dd}}16;
-- (id)Chunk:(struct CGRect)arg1 %@
-inRange={%lu, %lu};
+- (id)catalystSuggestionController;
+- (id)Ôo2ã13X;
+- (void)Îÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *launchStickersButton; // @synthesize launchStickersButton=_launchStickersButton;

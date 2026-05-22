@@ -15,23 +15,22 @@
     NSMapTable *_leastRecentUsedDictionary;
 }
 
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (id);
 - (void);
 - (id);
-- (id)
-× ;
-- (id)mSize:(id)arg1;
-- (id)etMetadataDonator new];
-- (void)44;
+- (void);
+- (void);
+- (unsigned long long)me;
+- (void)TB,R,N,V_isChromeAllowed;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentUsedSlots;

@@ -190,18 +190,18 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void)@ù
+- (_Bool)Ô(ð!ü@ù±3Ð1B50@ù
 × ;
+- (_Bool)Ã;
 
 // Remaining properties
 @property(retain, nonatomic) RPBroadcastController *activeBroadcastController; // @synthesize activeBroadcastController=_activeBroadcastController;

@@ -16,22 +16,23 @@
     NSURL *_fileURL;
 }
 
-+ (id)ginal sender %@, original isFromMe %ld, edit isFromMe %ld;
-+ (id)pÀþ;
-+ (_Bool)ª;
++ (id);
++ (id)on"16;
++ (_Bool)ency:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (unsigned long long)from transferred file name:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (_Bool);
-- (id)pertyTVEpisodeKeepLocalManagedStatus__MAPPING_MISSING__;
-- (_Bool)7;
 - (_Bool);
+- (_Bool)Ô ;
+- (_Bool)AllowedCharacters:(id)arg1;
+- (id)figuration:(struct _NSZone *)arg1;
+- (id)
+;
+- (id)strong, NSString *__strong, NSString *__strong);
+- (id)ighted;
 - (void);
-- (id)Köº;
-- (_Bool)16@24:32@40@48 /* Error: Ran out of types for this method. */;
-- (id)public}@:%p> /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (id)`;
 
 // Remaining properties
 @property(nonatomic) _Bool canReuseCoreHapticsPlayer; // @synthesize canReuseCoreHapticsPlayer=_canReuseCoreHapticsPlayer;

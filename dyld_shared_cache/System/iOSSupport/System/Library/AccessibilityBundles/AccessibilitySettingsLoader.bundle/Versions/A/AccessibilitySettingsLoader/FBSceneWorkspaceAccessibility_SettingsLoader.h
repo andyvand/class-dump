@@ -11,11 +11,11 @@
 }
 
 + (id);
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (id);
 - (void);
+- (id);
 
 @end
 

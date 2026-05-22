@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void) s;
 - (void);
-- (_Bool)with noteData.needsToBeSaved=YES but noteData.hasChanges=NO. Telling noteData that it has changes.;
+- (void);
+- (_Bool);
 - (_Bool);
 
 // Remaining properties

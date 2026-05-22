@@ -16,8 +16,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long)tN«6;
+- (unsigned long long)XúÿÑ|µåúÿÊåúÿÄ;
+- (void)Manager;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *possibleSortOrders; // @synthesize possibleSortOrders=_possibleSortOrders;

@@ -7,7 +7,6 @@
 @class SXBorder, SXComponentMask, SXComponentShadow, SXDataTableStyle, SXFill, UIColor;
 
 @protocol SXComponentStyleProperties
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor;

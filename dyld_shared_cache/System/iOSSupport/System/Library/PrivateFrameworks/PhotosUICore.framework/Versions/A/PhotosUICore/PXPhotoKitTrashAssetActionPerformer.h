@@ -19,7 +19,7 @@
 + (_Bool);
 + (_Bool);
 - (long long);
-- (id)from: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

@@ -26,10 +26,10 @@
 }
 
 - (id);
-- (void);
-- (void)sses;
-- (id)ringContextt;
 - (id);
+- (id)UITargetedDragPreview"32;
+- (void)ü\Ç,_;
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityValue;

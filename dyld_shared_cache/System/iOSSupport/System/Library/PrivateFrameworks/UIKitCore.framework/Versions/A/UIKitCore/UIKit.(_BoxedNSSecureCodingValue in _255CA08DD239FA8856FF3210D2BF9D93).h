@@ -10,7 +10,7 @@
 {
 }
 
-- (id)com.apple.UIKit.ScrollPocketStatistics;
+- (id)itViewControllerPanelImpl";
 
 @end
 

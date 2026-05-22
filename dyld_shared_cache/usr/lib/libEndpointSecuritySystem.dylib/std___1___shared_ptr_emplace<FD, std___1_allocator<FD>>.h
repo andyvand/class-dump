@@ -4,7 +4,7 @@
 
 class std::__1::__shared_ptr_emplace<FD, std::__1::allocator<FD>> {
 public: // (access info unavailable from symbols alone)
-    __on_zero_shared();
-    __on_zero_shared_weak();
+    auto __on_zero_shared();
+    auto __on_zero_shared_weak();
     ~__shared_ptr_emplace();
 };

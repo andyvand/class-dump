@@ -11,29 +11,27 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id),V_maximumWidthConstraint;
+- (double);
+- (id);
+- (struct NSDirectionalEdgeInsets);
+- (double);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id)routingContextUID:(id)arg1;
-- (double){public}@;
 - (_Bool);
-- (id)ù
-× ;
-- (id)0@ù
-× ;
-- (struct NSDirectionalEdgeInsets)@ù
-× ;
 - (id);
-- (id)eViewControllersFromModalAncestorUpToButNotIncludingDestination: /* Error: Ran out of types for this method. */;
-- (id)yboard: /* Error: Ran out of types for this method. */;
-- (double):(id)arg1;
-- (id)nOnlyHandleReordering;
-- (double)lõ;
-- (double);
-- (double)ess:(id)arg1 %@;
+- (double)
+× ;
+- (id)× ;
+- (id)sets=dddd}88@0:(id)arg1 8Q16{CGRect={CGPoint=dd}{CGSize=dd}}24{UIEdgeInsets=dddd}56;
+- (id)eteAfterAnimation;
 - (id);
+- (id)preventsAppearanceProxyCustomization;
+- (double)eUpButtonUpNotification;
+- (id)hat we're supposed to be ignoring!;
+- (id)work.bundle;
+- (double)¼òg;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

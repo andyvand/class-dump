@@ -14,10 +14,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (void)t¼;
 
 // Remaining properties
 @property(nonatomic) __weak TSPObject *owner; // @synthesize owner=_owner;

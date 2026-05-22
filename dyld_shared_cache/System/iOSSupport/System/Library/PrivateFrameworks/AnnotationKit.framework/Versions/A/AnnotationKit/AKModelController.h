@@ -27,8 +27,8 @@
 - (void);
 - (id);
 - (double);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly) NSArray *pageModelControllers;

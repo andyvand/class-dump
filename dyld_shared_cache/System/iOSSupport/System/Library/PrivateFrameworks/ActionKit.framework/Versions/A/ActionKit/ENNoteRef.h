@@ -16,18 +16,18 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
 - (id);
 - (long long);
-- (void)oid *AVFoundationLibrary(void);
-- (id)e requires a delegate that responds to session:keyboardInteractiveRequest:or a block! /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
+- (id);
+- (void);
+- (id)Ä;H>Ô>?AA;
+- (void)01;
+- (void)l¬îÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *guid; // @synthesize guid=_guid;

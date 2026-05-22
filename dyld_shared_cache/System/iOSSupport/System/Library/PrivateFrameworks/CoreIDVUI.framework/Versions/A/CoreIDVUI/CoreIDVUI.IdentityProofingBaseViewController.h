@@ -15,9 +15,9 @@
     MISSING_TYPE *$__lazy_storage_$_bottomTray;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 @end

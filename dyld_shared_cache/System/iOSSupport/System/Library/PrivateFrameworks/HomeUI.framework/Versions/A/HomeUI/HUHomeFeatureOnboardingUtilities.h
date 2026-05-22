@@ -26,6 +26,7 @@
 + (unsigned long long);
 + (_Bool);
 + (id);
++ (id);
 + (void);
 + (id);
 + (id);
@@ -38,7 +39,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (void)iority for item %@! First:%@, second:%@ /* Error: Ran out of types for this method. */;
++ (void)Ã;
 
 @end
 

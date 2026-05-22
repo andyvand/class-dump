@@ -9,8 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)apability: /* Error: Ran out of types for this method. */;
-- (void);
+- (struct UIEdgeInsets);
+- (void)Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets displayBasedSafeAreaInsets;

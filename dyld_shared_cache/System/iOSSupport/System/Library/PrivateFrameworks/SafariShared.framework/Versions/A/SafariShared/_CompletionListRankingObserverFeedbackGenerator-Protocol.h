@@ -7,7 +7,6 @@
 @protocol _CompletionListRankingObserverFeedbackGeneratorDelegate;
 
 @protocol _CompletionListRankingObserverFeedbackGenerator
-- (void)R	;
 
 // Remaining properties
 @property(nonatomic) __weak id <_CompletionListRankingObserverFeedbackGeneratorDelegate> delegate;

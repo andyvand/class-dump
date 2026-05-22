@@ -18,13 +18,12 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (id);
-- (id)wing values: /* Error: Ran out of types for this method. */;
+- (id);
 - (struct _NSRange);
 - (long long);
+- (id);
+- (id);
 - (void);
-- (id)
-× ;
-- (id)wOpacity;
 
 // Remaining properties
 @property(readonly, nonatomic) long long lengthDelta; // @synthesize lengthDelta=_lengthDelta;

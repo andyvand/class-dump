@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)ertiesForAccount:(_Bool)arg1 accountStore:options:completion: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (unsigned long long);
-- (id)fier { identifier:%@ } /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
 - (id);
+- (_Bool);
+- (id);
+- (void)ages | skipped [unmatched prefix] url=%{private}@ prefix=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -34,16 +34,16 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
 - (struct CGRect);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint autoscrollContentOffset;

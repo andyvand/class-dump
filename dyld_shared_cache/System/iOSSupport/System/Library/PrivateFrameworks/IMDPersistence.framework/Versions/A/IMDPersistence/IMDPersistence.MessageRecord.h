@@ -101,6 +101,7 @@
     MISSING_TYPE *_sentOrReceivedOffGrid;
     MISSING_TYPE *_isTimeSensitive;
     MISSING_TYPE *_cloudKitChatID;
+    MISSING_TYPE *_indexState;
     MISSING_TYPE *_$backingData;
     MISSING_TYPE *_$observationRegistrar;
 }

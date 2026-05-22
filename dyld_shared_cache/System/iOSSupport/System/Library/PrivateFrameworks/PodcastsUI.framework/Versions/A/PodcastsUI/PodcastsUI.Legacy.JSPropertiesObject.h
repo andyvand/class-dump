@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *clientFeatures;

@@ -27,10 +27,11 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (struct UIEdgeInsets);
 - (struct CGSize);
-- (id)ð;
+- (id);
+- (struct UIEdgeInsets);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets additionalPadding; // @synthesize additionalPadding=_additionalPadding;

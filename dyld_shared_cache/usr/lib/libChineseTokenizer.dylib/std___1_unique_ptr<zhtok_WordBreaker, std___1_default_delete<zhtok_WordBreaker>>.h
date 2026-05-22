@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<zhtok::WordBreaker, std::__1::default_delete<zhtok::WordBreaker>> {
 public: // (access info unavailable from symbols alone)
-    ~unique_ptr[abi:ne200100]();
+    auto ~unique_ptr[abi:nqe210106]();
 };

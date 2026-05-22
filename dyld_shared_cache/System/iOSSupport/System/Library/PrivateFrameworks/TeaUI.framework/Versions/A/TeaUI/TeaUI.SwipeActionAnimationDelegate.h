@@ -12,8 +12,8 @@
     MISSING_TYPE *completion;
 }
 
-- (void);
-- (id)esScrollParentForOrdering: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)*Õýÿÿÿ;
 - (void);
 
 @end

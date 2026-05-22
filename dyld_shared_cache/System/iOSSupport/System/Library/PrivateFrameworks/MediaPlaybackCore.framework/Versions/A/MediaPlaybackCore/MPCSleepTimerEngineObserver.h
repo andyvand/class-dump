@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     NSObject<MPCSleepTimerEngineObserverDelegate> *_delegate;
 }
 
-- (void)<v@?@"NSDictionary"@"NSError">16;
-- (void)6@?<v@?@"NSDictionary">24;
+- (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (void)ic}@:%{public}@] finalizeStateRestorationWithTargetContentItemID:completion:| account rectification [%{public}@] sectionID=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

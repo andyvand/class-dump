@@ -10,10 +10,10 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (id)|º;
+- (id)ility;
 
 @end
 

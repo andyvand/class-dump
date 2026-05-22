@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     struct CGPoint _location;
 }
 
-+ (id)d PurgeWithCacheDelete -bool YES;
++ (id);
 - (unsigned long long);
-- (_Bool)P;
-- (id);
-- (id);
-- (void);
-- (struct CGPoint)@"UIWebPDFViewHandler";
+- (_Bool)rivate"b1};
+- (id)orCache;
+- (id)SelectedRangeForCoalescedUndoRedo;
+- (struct CGPoint)istency:Unable to add a drop animation container view while another container view is already present. /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

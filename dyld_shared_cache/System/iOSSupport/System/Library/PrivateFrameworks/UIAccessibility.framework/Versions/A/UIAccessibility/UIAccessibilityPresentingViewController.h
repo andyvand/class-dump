@@ -15,10 +15,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)hBool:(id)arg1;
 - (id);
+- (void);
+- (void);
+- (void);
 
 @end
 

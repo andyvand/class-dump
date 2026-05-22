@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_sectionToLibraryAddedOverride;
 }
 
-+ (id)ficPlaceType;
-+ (id)ier;
-+ (id)bnailPath;
-+ (id)asTapbackAssociatedMessageID;
-+ (id)ix:(id)arg1;
-+ (id)criptionSubstream;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -33,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -42,14 +42,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)setRankingSecondsSinceReferenceDate:(Class)arg1;
-- (id)dcls has wrong type %@;
-- (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long)AX°!DùÑ¨1¢!0@ù
-× ;
+- (unsigned long long)irelessRoutesAvailable;
+- (void)PredicatesAccessQueue;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

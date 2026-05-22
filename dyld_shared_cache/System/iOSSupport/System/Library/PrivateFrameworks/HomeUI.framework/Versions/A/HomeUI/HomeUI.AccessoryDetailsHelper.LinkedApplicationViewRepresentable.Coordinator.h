@@ -16,8 +16,8 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (id);
+- (void)ailsViewController(for:) /* Error: Ran out of types for this method. */;
 
 @end
 

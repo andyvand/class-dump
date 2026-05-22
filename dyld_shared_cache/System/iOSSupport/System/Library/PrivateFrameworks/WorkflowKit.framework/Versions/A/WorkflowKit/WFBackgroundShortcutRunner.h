@@ -12,6 +12,7 @@
     WFRunningProgressSuppressionStateMachine *_runningProgressSuppressionStateMachine;
     _Bool _isPersonalAutomation;
     _Bool _runningProgressSuppressionMachineResolvedAndDeniedProgress;
+    _Bool _pendingTermination;
     int _lockFileFD;
     WFAssessmentModeManager *_assessmentModeManager;
     NSXPCConnection *_xpcConnection;
@@ -73,6 +74,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -89,6 +91,7 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (id);
 - (int);
 - (_Bool);
@@ -97,9 +100,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)Ì;
-- (_Bool)µ³É;
-- (void)Ì;
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (oneway void);
 - (id);
@@ -107,24 +110,24 @@
 - (void);
 - (id);
 - (id);
-- (id)%EÉ;
-- (id);
 - (id);
-- (id)EÉ;
 - (id);
-- (void)Ì;
-- (void)%EÉ;
-- (void)Ì;
-- (id)0%EÉ;
-- (id)EÉ;
-- (_Bool);
-- (id)ö³Ì;
-- (void)0%EÉ;
-- (_Bool)yl¬Ö0%EÉ;
-- (void)¬Ö0%EÉ;
-- (void)xÊ±Ì;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)¶RÉ;
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -170,6 +173,7 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
+- (oneway void);
 - (void);
 - (oneway void);
 - (void);
@@ -190,23 +194,22 @@
 - (id);
 - (void);
 - (oneway void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (long long);
-- (id);
-- (_Bool);
 - (long long);
 - (void);
-- (void)1B0@ù
-× ;
-- (CDUnknownBlockType);
-- (id)ntentItem;
-- (void)omID:(id)arg1 context:] /* Error: Ran out of types for this method. */;
-- (_Bool)What time should it be? (WFAlertCustomTime);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void)HTTPHeaderField:(id)arg1;
+- (long long)ÿÿÿÿì;
+- (CDUnknownBlockType),{¼{tx|};
+- (void)tentHandler.WFSetCellularDataIntent;
+- (_Bool);
+- (void)arameter;
+- (id)RÝÿ ¼áü;
 
 // Remaining properties
 @property(retain, nonatomic) VCAccessSpecifier *accessSpecifier; // @synthesize accessSpecifier=_accessSpecifier;
@@ -239,6 +242,7 @@
 @property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isPersonalAutomation; // @synthesize isPersonalAutomation=_isPersonalAutomation;
 @property(nonatomic) int lockFileFD; // @synthesize lockFileFD=_lockFileFD;
+@property(nonatomic) _Bool pendingTermination; // @synthesize pendingTermination=_pendingTermination;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) WFRemoteExecutionCoordinator *remoteExecutionCoordinator; // @synthesize remoteExecutionCoordinator=_remoteExecutionCoordinator;
 @property(retain, nonatomic) WFWorkflowRunEvent *runEvent; // @synthesize runEvent=_runEvent;

@@ -28,25 +28,25 @@
 - (unsigned long long);
 - (void);
 - (long long);
-- (long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id)%s:Siri endpoint accessory %@ activation timer fired & is activated - presenting add view controller... /* Error: Ran out of types for this method. */;
-- (long long)MigrationInProgress = %{BOOL}d | hasOptedToHH2 = %{BOOL}d | hasHomePodsUpdating = %{BOOL}d | allHomePodsSupportHH2 = %{BOOL}d;
-- (void);
-- (void)Value;
-- (id)Ú|÷>;
-- (void)/
-;
+- (long long);
+- (long long);
+- (void)
+× ;
+- (id)ContentAlignment;
+- (void)d for a view for an unexpected kind:%@ /* Error: Ran out of types for this method. */;
+- (id)*µý¨`;
 
 // Remaining properties
 @property(nonatomic) long long currentSection; // @synthesize currentSection=_currentSection;

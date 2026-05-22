@@ -5,7 +5,5 @@
 //
 
 @protocol WBSCyclerServiceProtocol
-- (void)?;
-- (void);
 @end
 

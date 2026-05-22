@@ -20,9 +20,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (_Bool);
-- (void)d-out:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PUIPosterSceneAttachment *attachment; // @synthesize attachment=_attachment;

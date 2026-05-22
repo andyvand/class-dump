@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     double _timestamp;
 }
 
+- (id);
 - (double);
-- (id)cDrawingOptionsInAsyncPresentation;
 
 // Remaining properties
 @property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;

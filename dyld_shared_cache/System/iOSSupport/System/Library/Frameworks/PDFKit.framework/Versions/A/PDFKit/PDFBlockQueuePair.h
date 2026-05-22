@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)igationController";
-- (id)Point=dd}32Q48;
++ (id);
 - (id);
-- (void)iOS;
+- (id);
 - (CDUnknownBlockType);
+- (void);
 
 // Remaining properties
 @property(readonly) CDUnknownBlockType block; // @synthesize block=_block;

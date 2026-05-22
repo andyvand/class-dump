@@ -38,13 +38,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)arItemPressed:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <VKFeedbackAssetsProvider> assetsProvider; // @synthesize assetsProvider=_assetsProvider;

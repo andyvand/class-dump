@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)gment;
 
 // Remaining properties
 @property(getter=isDisclosed) _Bool disclosed; // @synthesize disclosed=_disclosed;

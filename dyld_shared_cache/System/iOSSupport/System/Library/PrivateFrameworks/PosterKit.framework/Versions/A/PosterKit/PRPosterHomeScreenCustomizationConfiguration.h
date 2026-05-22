@@ -20,8 +20,7 @@
 }
 
 + (_Bool);
-+ (_Bool)dTitleAlignment:preferredTitleLayout:titleContentStyle:timeNumberingSystem:userConfigured:preferredTimeMaxYPortrait:preferredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName:adaptiveTimeHeightUserConfigured:version: /* Error: Ran out of types for this method. */;
-- (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -43,18 +42,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (_Bool);
-- (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

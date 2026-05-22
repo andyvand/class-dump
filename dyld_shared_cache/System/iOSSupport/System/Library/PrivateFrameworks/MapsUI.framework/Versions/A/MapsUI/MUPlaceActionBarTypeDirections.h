@@ -19,9 +19,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)tionController",R,N;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

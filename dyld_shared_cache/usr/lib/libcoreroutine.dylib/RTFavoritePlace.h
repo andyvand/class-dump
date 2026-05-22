@@ -13,11 +13,11 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)tificateIsModernSystem;
-- (id);
+- (id)ilterLocations: /* Error: Ran out of types for this method. */;
+- (id)omVisits: /* Error: Ran out of types for this method. */;
+- (void)try %@, total duration, %f wks;
 
 // Remaining properties
 @property(readonly, nonatomic) RTMapItem *mapItem; // @synthesize mapItem=_mapItem;

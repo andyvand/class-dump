@@ -30,8 +30,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (struct UIEdgeInsets)teFlags * _Nonnull);
+- (struct UIEdgeInsets)Tq,?,R,N;
+- (void)V_textViewSpec;
 
 // Remaining properties
 @property(nonatomic) double distanceBetweenTitleBaselineAndSubtitleBaseline; // @synthesize distanceBetweenTitleBaselineAndSubtitleBaseline=_distanceBetweenTitleBaselineAndSubtitleBaseline;

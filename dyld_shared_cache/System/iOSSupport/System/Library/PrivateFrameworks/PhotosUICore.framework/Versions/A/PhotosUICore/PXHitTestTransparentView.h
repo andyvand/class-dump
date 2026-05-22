@@ -13,12 +13,13 @@
 
 - (_Bool);
 - (long long);
-- (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)ftþÿ¾þÿhtþÿntþÿ8`þÿÑþÿ;
+- (id)0@ù
+× ;
+- (_Bool)eStyleLayouts;
+- (void)8Ea;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXHitTestTransparentViewDelegate> delegate; // @synthesize delegate=_delegate;

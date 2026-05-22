@@ -6,11 +6,11 @@ class dyld4::ProcessConfig {
 public: // (access info unavailable from symbols alone)
     ProcessConfig(dyld4::KernelArgs const*, dyld4::SyscallDelegate&, lsl::Allocator&);
     ProcessConfig(dyld4::KernelArgs const*, dyld4::SyscallDelegate&, lsl::Allocator&) (.cold.1);
-    canonicalDylibPathInCache(char const*) const;
-    evaluateProcessorSpecificFunctionVariantFlags(dyld4::ProcessConfig const&);
-    evaluateSystemWideFunctionVariantFlags(dyld4::ProcessConfig const&);
-    fileExists(char const*, dyld4::FileID*, int*) const;
-    scanForRoots() const;
-    scanForRoots(void*);
-    simulatorFileMatchesDyldCache(char const*) const;
+    auto canonicalDylibPathInCache(char const*) const;
+    auto evaluateProcessorSpecificFunctionVariantFlags(dyld4::ProcessConfig const&);
+    auto evaluateSystemWideFunctionVariantFlags(dyld4::ProcessConfig const&);
+    auto fileExists(char const*, dyld4::FileID*, int*) const;
+    auto scanForRoots() const;
+    auto scanForRoots(void*);
+    auto simulatorFileMatchesDyldCache(char const*) const;
 };

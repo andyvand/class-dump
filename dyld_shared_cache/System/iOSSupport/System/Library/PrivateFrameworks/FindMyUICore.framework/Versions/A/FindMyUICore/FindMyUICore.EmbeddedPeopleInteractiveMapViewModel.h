@@ -8,14 +8,16 @@
 
 @interface FindMyUICore.EmbeddedPeopleInteractiveMapViewModel
 {
-    MISSING_TYPE *initialStateIsUserLocationCameraFocus;
     MISSING_TYPE *configuration;
     MISSING_TYPE *dependencies;
     MISSING_TYPE *subscriber;
     MISSING_TYPE *logger;
     MISSING_TYPE *_state;
+    MISSING_TYPE *_selectionOptions;
+    MISSING_TYPE *_detailsState;
     MISSING_TYPE *_listController;
     MISSING_TYPE *_detailsController;
+    MISSING_TYPE *_mapViewModel;
     MISSING_TYPE *_$observationRegistrar;
 }
 

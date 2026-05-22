@@ -20,35 +20,36 @@
     struct CGRect _targetRect;
 }
 
-+ (_Bool);
-+ (void)T;
-+ (id)ýûÿþÿ;
 + (id);
-- (id)CachedCNIDMapForHandles: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)TypingIndicatorProcessingPipelineComponent;
++ (_Bool)@ù
+× ;
++ (id)urrent Object for State Restoration at index [%d] is %@:%@ /* Error: Ran out of types for this method. */;
++ (void)@"NSDictionary"16^B24;
+- (id);
+- (struct CGPoint);
 - (_Bool);
 - (void);
 - (void);
-- (void)ble;
-- (void)equence;
 - (void);
-- (void)Z;
-- (id)on was %@;
-- (void)transfer in cache map:%@ to %@ /* Error: Ran out of types for this method. */;
-- (void)d to blocklist chat for chatDict:%@ but groupID nil /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (int);
 - (void);
 - (void);
 - (void);
-- (void)0@ù
+- (struct CGRect);
+- (void)
 × ;
-- (_Bool)s;
-- (void)veImpl splitViewControllerColumnDidRequestToBecomeVisible:] /* Error: Ran out of types for this method. */;
-- (id)Ðÿ;
-- (struct CGRect)¢_k;
+- (id)Ôíd;
+- (void)Ôi;
+- (_Bool)p;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *extraItems; // @synthesize extraItems=_extraItems;

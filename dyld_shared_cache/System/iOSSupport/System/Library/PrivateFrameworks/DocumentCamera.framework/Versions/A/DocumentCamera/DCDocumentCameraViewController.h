@@ -24,8 +24,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=setChildViewController:) UIViewController *childViewController; // @synthesize childViewController=_childViewController;

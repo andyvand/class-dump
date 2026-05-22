@@ -17,7 +17,12 @@
     MISSING_TYPE *featureAvailability;
     MISSING_TYPE *offlineProvider;
     MISSING_TYPE *sportsOnboardingManager;
+    MISSING_TYPE *commandCenter;
 }
+
+- (void);
+- (id);
+- (void)Áò^ F;
 
 @end
 

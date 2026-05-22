@@ -10,15 +10,15 @@
 {
 }
 
-+ (id)výÿKýÿKýÿ;
++ (id);
 - (void);
 - (void);
 - (void);
-- (id)¢]Ê;
 - (id);
-- (id)_const;
 - (id);
-- (_Bool)led;
+- (id);
+- (_Bool);
+- (id)RunningProgressIsAllowed:withReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *cloudKitFolderRecordMetadata; // @dynamic cloudKitFolderRecordMetadata;

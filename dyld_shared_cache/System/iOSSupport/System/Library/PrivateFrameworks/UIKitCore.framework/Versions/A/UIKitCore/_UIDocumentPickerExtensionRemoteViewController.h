@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id)ctsMapTable;
++ (id)0Èñ;
 - (void);
 - (void);
 

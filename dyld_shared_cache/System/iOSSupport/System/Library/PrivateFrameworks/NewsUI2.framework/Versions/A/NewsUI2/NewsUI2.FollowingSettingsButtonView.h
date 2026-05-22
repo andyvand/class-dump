@@ -14,12 +14,12 @@
 }
 
 - (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (id)Kind;
-- (id)erSeparatorViewRenderer;
+- (id);
+- (id);
+- (void)ineFeedGroupEmitter;
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

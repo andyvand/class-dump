@@ -7,7 +7,8 @@
 @class NSString;
 
 @protocol PXContextualMemoriesSetting
-- (NSString *);
+- (NSString *)formAction;
+- (NSString *)try:string2}lu  enableTelemetry=YES networkType=%{signpost.telemetry:number1,public}lu  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *headerTitle;

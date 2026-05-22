@@ -4,6 +4,6 @@
 
 class bssl::SSLCipherPreferenceList {
 public: // (access info unavailable from symbols alone)
-    Init(std::__1::unique_ptr<stack_st_SSL_CIPHER, bssl::internal::Deleter>, bssl::Span<bool const>);
+    auto Init(std::__1::unique_ptr<stack_st_SSL_CIPHER, bssl::internal::Deleter>, bssl::Span<bool const>);
     ~SSLCipherPreferenceList();
 };

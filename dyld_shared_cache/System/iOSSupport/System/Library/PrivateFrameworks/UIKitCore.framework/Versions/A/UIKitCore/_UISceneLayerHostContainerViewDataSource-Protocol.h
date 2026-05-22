@@ -4,11 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScenePresentationContext, UIView;
+@class NSString, UIView;
 
 @protocol _UISceneLayerHostContainerViewDataSource
-- (UIView *)ETextDocumentContext">40;
-- (UIScenePresentationContext *)rgins;
-- (NSString *)TransformLayer;
+- (NSString *)llectionViewListAccessoryDisclosure;
+- (UIView *)orrect_bubble_stretchable@2x;
 @end
 

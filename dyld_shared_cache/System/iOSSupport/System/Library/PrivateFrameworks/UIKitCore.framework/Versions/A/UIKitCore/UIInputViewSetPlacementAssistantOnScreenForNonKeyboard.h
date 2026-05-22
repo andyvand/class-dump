@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)Ð	Ö3ÿm;
-- (id)MessagePartIndex;
++ (_Bool)lready been shown on screen;
 - (id);
-- (id)mponent:(id)arg1;
+- (id);
+- (id)crollHysteresisScale;
 
 @end
 

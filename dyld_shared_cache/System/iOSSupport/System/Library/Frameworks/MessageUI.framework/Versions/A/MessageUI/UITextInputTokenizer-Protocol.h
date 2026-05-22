@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextPosition, UITextRange;
-
 @protocol UITextInputTokenizer
-- (UITextRange *)ameForDrawingTransform:(UITextPosition *)arg1;
-- (_Bool)le WHERE   m.handle_id IN (    SELECT       h.rowid     FROM       handle h     WHERE       h.id = ?   )  AND m.date >= ?   AND m.is_from_me = 0   AND m.was_deduplicated = 0   AND m.cache_roomnames IS NULL   AND m.is_sos  = ?   AND m.service = ?   AND m.guid NOT IN (? )   AND m.text = ? ;
 @end
 

@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)ns;
 - (void);
+- (void)|.3Qo__Qo_AIy°«.3GG;
 
 @end
 

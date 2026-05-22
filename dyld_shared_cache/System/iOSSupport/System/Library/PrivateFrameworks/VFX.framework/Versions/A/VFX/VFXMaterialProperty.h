@@ -46,7 +46,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)Value;
++ (_Bool)__IOSurface=}24Q32;
 
 @end
 

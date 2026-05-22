@@ -5,6 +5,5 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)tupAccessoryPayload from setup payload URL %@:%@ /* Error: Ran out of types for this method. */;
 @end
 

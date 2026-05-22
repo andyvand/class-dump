@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void)4@g1ÿa4hg1ÿ±4dg1ÿ4g1ÿ©4¬g1ÿ4¨g1ÿQ4¤g1ÿA4 g1ÿ14g1ÿA4g1ÿ;
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)2a;
+- (void)ñlÉ;
 
 @end
 

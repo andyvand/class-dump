@@ -5,6 +5,6 @@
 //
 
 @protocol TSTCellRegionIterating
-- (id);
+- (void)ssChanges: /* Error: Ran out of types for this method. */;
 @end
 

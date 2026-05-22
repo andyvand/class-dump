@@ -14,14 +14,9 @@
 
 + (id);
 + (id);
-- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -29,6 +24,11 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)lements;
 
 // Remaining properties
 @property(copy, nonatomic) PRPosterAmbientConfiguration *ambientConfiguration; // @dynamic ambientConfiguration;

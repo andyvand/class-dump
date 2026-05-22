@@ -17,22 +17,23 @@ __attribute__((visibility("hidden")))
     UIBlurEffect *_effect;
 }
 
-- (void);
+- (long long);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (long long)ÑÌ1¢!0@ù
+- (id)0@ù
 × ;
-- (id)eviousSize;
-- (void)tWithIdentifier:(id)arg1 enabled:(id)arg2;
-- (id)tSucceededWithDirectionalHeading:(long long)arg1;
-- (_Bool)SplitKeyboard;
-- (_Bool)ned;
-- (void)<õÀõ;
-- (_Bool)Dþÿ;
-- (id)sion;
-- (id)ìëþù4ôëþ4ìþñ40ìþù4°ìþ;
-- (void)];
+- (void)!DùQdð1Â0@ù
+× ;
+- (_Bool)oad:(id)arg1;
+- (void)sk:(id)arg1;
+- (id)Label,V_secondaryTextLabel;
+- (void)orPreferredLanguages;
+- (id)ÿÿ\êÿ;
+- (_Bool)havior for _initWithLayer:(id)arg1;
+- (id)7SgIegnr_;
+- (void);
+- (_Bool),\;
+- (void)í«ÿV¤Ê;
+- (_Bool)0c;
 
 // Remaining properties
 @property(nonatomic) UIBlurEffect *effect; // @synthesize effect=_effect;

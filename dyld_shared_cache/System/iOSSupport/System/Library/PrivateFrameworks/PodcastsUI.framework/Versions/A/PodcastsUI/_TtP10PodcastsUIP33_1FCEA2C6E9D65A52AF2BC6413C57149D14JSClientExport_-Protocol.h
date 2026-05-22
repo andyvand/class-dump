@@ -8,9 +8,6 @@
 
 @protocol _TtP10PodcastsUIP33_1FCEA2C6E9D65A52AF2BC6413C57149D14JSClientExport_
 - (NSString *);
-- (NSString *)P;
-- (NSString *)0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *buildType;

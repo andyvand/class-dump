@@ -14,22 +14,22 @@
     NSString *_accessibilityText;
 }
 
-+ (_Bool)ackView;
++ (_Bool);
 - (void);
-- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (unsigned int);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void)initiate;
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)umeBootable:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

@@ -6,5 +6,7 @@ class std::basic_iostream<wchar_t, std::char_traits<wchar_t>> {
 public: // (access info unavailable from symbols alone)
     basic_iostream();
     basic_iostream(std::basic_streambuf<wchar_t, std::char_traits<wchar_t>>*);
+    non-virtual thunk to ~basic_iostream();
+    virtual thunk to ~basic_iostream();
     ~basic_iostream();
 };

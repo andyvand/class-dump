@@ -20,14 +20,14 @@
 + (void);
 + (void);
 + (void);
-+ (id)^;
++ (id);
 + (id);
 + (_Bool);
-+ (_Bool);
-- (_Bool)Strings:(id)arg1;
-- (_Bool)wRecentlyAccessedGamepadsForTesting: /* Error: Ran out of types for this method. */;
-- (void)t",&,D,N;
-- (void)Info",R,N;
++ (_Bool)e have IDS results for :%@  /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
 - (Class);
@@ -35,18 +35,18 @@
 - (id);
 - (id);
 - (id);
-- (id)h;
+- (id);
 - (_Bool);
-- (id)p;
-- (Class)INE_MENU_PLEASE_READ_COMMENTS;
+- (id);
+- (Class);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void):(id)arg1 P;
-- (id);
 - (void);
-- (id)ÿÿ;
+- (id);
+- (void)}};
+- (id)k#ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *overrideFileURL; // @synthesize overrideFileURL=_overrideFileURL;

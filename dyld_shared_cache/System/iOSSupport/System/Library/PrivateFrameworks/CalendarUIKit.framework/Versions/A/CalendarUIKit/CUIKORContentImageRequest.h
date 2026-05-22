@@ -14,12 +14,13 @@
     CDUnknownBlockType _resultHandler;
 }
 
-- (id);
-- (CDUnknownBlockType);
-- (void);
+- (id);
 - (unsigned long long);
-- (id)=;
-- (long long)iew;
+- (id);
+- (CDUnknownBlockType)0@ù
+× ;
+- (void)e: /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;

@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void);
 - (long long);
 - (void);
-- (void);
 - (id);
-- (void);
+- (void)rameters: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) id <AMSUIPasswordSettingsFreeDownloadsCellDelegate> delegate; // @synthesize delegate=_delegate;

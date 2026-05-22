@@ -89,13 +89,6 @@ struct CGVector {
 
 struct PDFDetectedFormRow;
 
-struct PDFQuadPoints {
-    struct CGPoint _field1;
-    struct CGPoint _field2;
-    struct CGPoint _field3;
-    struct CGPoint _field4;
-};
-
 struct TextAnnotationAnimationProperties {
     struct CGRect visibleTextViewRectInScrollView;
     double animationDuration;
@@ -125,11 +118,8 @@ struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct tuple<unsigned long, unsigned long> {
-    struct __tuple_impl<std::__tuple_indices<0, 1>, unsigned long, unsigned long> {
-        unsigned long long _field1;
-        unsigned long long _field2;
-    } _field1;
+struct pdf_unfair_mutex {
+    struct os_unfair_lock_s m_lock;
 };
 
 struct vector<CGRect, std::allocator<CGRect>> {
@@ -156,14 +146,6 @@ struct vector<const CGDisplayListEntry *, std::allocator<const CGDisplayListEntr
     } _field3;
 };
 
-struct vector<unsigned char, std::allocator<unsigned char>> {
-    char *_field1;
-    char *_field2;
-    struct {
-        char *_field1;
-    } _field3;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
@@ -177,13 +159,6 @@ typedef struct {
 } CDStruct_e3b9714e;
 
 // Template types
-typedef struct tuple<unsigned long, unsigned long> {
-    struct __tuple_impl<std::__tuple_indices<0, 1>, unsigned long, unsigned long> {
-        unsigned long long _field1;
-        unsigned long long _field2;
-    } _field1;
-} tuple_df10c582;
-
 typedef struct vector<const CGDisplayListEntry *, std::allocator<const CGDisplayListEntry *>> {
     struct CGDisplayListEntry **_field1;
     struct CGDisplayListEntry **_field2;
@@ -191,12 +166,4 @@ typedef struct vector<const CGDisplayListEntry *, std::allocator<const CGDisplay
         struct CGDisplayListEntry **_field1;
     } _field3;
 } vector_ff1a8619;
-
-typedef struct vector<unsigned char, std::allocator<unsigned char>> {
-    char *_field1;
-    char *_field2;
-    struct {
-        char *_field1;
-    } _field3;
-} vector_b9643762;
 

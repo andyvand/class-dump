@@ -5,8 +5,6 @@
 //
 
 @protocol _UIVisualEffectDirectionalDeactivationTransitioning
-- (void)ateUnsealedManifest;
-- (unsigned long long)WithLong: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long deactivationTransitionDirection;

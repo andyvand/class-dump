@@ -4,20 +4,20 @@
 
 class mach_o::PointerFormat_DYLD_CHAINED_PTR_64 {
 public: // (access info unavailable from symbols alone)
-    bindMaxEmbeddableAddend(bool) const;
-    bindMinEmbeddableAddend(bool) const;
-    description() const;
-    is64() const;
-    maxBindOrdinal(bool) const;
-    maxNext() const;
-    maxRebaseTargetOffset(bool) const;
-    minNext() const;
-    name() const;
-    nextLocation(void const*) const;
-    parseChainEntry(void const*, mach_o::MappedSegment const*, unsigned long long, std::__1::span<unsigned long long const, 18446744073709551615ul>) const;
-    supportsAuth() const;
-    supportsBinds() const;
-    unauthRebaseIsVmAddr() const;
-    value() const;
-    writeChainEntry(mach_o::Fixup const&, void const*, unsigned long long, std::__1::span<mach_o::MappedSegment const*, 18446744073709551615ul>) const;
+    auto bindMaxEmbeddableAddend(bool) const;
+    auto bindMinEmbeddableAddend(bool) const;
+    auto description() const;
+    auto is64() const;
+    auto maxBindOrdinal(bool) const;
+    auto maxNext() const;
+    auto maxRebaseTargetOffset(bool) const;
+    auto minNext() const;
+    auto name() const;
+    auto nextLocation(void const*) const;
+    auto parseChainEntry(void const*, mach_o::MappedSegment const*, unsigned long long, std::__1::span<unsigned long long const, 18446744073709551615ul>) const;
+    auto supportsAuth() const;
+    auto supportsBinds() const;
+    auto unauthRebaseIsVmAddr() const;
+    auto value() const;
+    auto writeChainEntry(mach_o::Fixup const&, void const*, unsigned long long, std::__1::span<mach_o::MappedSegment const*, 18446744073709551615ul>) const;
 };

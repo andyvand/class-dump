@@ -34,66 +34,69 @@ __attribute__((visibility("hidden")))
     struct CAColorMatrix _activeVibrantColorMatrix;
 }
 
-- (struct CGSize);
 - (id);
-- (void);
-- (long long);
-- (void);
-- (_Bool);
-- (void)N,V_payloadFsnameservers;
-- (long long);
-- (void)@;
-- (void);
-- (void)32;
-- (void);
-- (id);
-- (void);
-- (struct CGSize);
 - (float);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (double);
 - (struct CGSize);
-- (void);
-- (void)chingPredicates:(_Bool)arg1;
-- (id);
-- (struct CAColorMatrix);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct CGAffineTransform)°1¢!0@ù
-× ;
-- (_Bool)× ;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)=dd}{CGSize=dd}}32d64;
-- (struct CAColorMatrix)ons;
-- (_Bool)itemInsertSection:insertRange: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)nteractionSelectItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (struct CGSize)EventIfAble;
-- (void)atterView;
-- (long long)bberBandCoefficient;
-- (void)ior:(float)arg1;
-- (id)EnvironmentScrollableContainer;
-- (void)T@"UITableViewCell",W,N,V_cell;
-- (id)lderContexts,S_setPlaceholderContexts:,V_placeholderContexts /* Error: Ran out of types for this method. */;
-- (void)ions: /* Error: Ran out of types for this method. */;
-- (_Bool)Ô]Ä^`;
-- (struct CGSize)¬Ì;
-- (double);
-- (id);
-- (id)üÿ`þÿ;
-- (void)EAM LAYOUT DIRTYING<<< ;
-- (void)%ld) when there are only %ld rows in section %ld. Table view:(struct CGSize)arg1 %@;
-- (id)SystemChromeMaterialLight;
-- (long long)iguration.m;
-- (struct CGSize)Support.swift;
-- (void)iþ½Ó4èþiþ;
 - (long long);
-- (void)fxÿièÈz_;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (struct CGSize);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (struct CGAffineTransform);
+- (void);
+- (id);
+- (long long)!lAù\°1Â0@ù
+× ;
+- (void);
+- (void)1Â0@ù
+× ;
+- (_Bool)!Ð!CùQa1Â0@ù
+× ;
+- (void)
+× ;
+- (_Bool)Ñg1Â0@ù
+× ;
+- (void)isibleCellsScheduledWithCallStack: /* Error: Ran out of types for this method. */;
+- (void)athsForValuesAffecting_needsStyleMaskUpdates;
+- (void)put;
+- (struct UIEdgeInsets)ry: /* Error: Ran out of types for this method. */;
+- (void)ction;
+- (void)ange: /* Error: Ran out of types for this method. */;
+- (struct CGSize)etentWhenScrolledToEdge: /* Error: Ran out of types for this method. */;
+- (id)elegate;
+- (void)nceView;
+- (_Bool);
+- (_Bool)t: /* Error: Ran out of types for this method. */;
+- (id)d,N,V_fastHapticVolume;
+- (struct CGSize),V_usesBackgroundDimming;
+- (struct CGSize)SString",C,N,V_charactersIgnoringModifiers;
+- (void)eadingToLabelStackViewLeading;
+- (struct CAColorMatrix)ocumentDifferenceSize",R,N,V_betweenPreviousSavingAndSaving;
+- (id)edInteractionBehaviorDelegate>",W,N;
+- (long long)L~ðDÔìÐÈ©ª¼Ü¼½T½¬½;
+- (_Bool);
+- (void)Repr;
+- (id)cked(_UITraitDefinitionMetadata);
+- (void)ssetAttributesDownloaded;
+- (void);
+- (struct CGSize);
+- (void)lsCoordinator;
+- (struct CAColorMatrix)3{o;
+- (double);
+- (void)@Xþ;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

@@ -15,9 +15,9 @@
 - (id);
 - (long long);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)WillDismissFullscreen: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager; // @synthesize appConfigurationManager=_appConfigurationManager;

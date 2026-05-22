@@ -8,7 +8,7 @@
 
 @interface (null) (HFHomeKitObjectConformance)
 + (CDUnknownBlockType);
-- (id)tyLogCoordinator;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

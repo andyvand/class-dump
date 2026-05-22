@@ -44,18 +44,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id)0@ù
-× ;
+- (void)usAndNotificationsSmartAlertAnimalsDescription;
+- (id)Áÿÿ;
+- (void)ÿ%öúl};
 
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;

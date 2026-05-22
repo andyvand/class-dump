@@ -17,8 +17,8 @@
 - (long long);
 - (struct CGRect);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) AVPlayerLayer *layer; // @dynamic layer;

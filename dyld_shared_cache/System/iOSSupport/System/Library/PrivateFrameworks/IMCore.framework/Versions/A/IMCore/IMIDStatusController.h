@@ -12,7 +12,7 @@
     NSMutableSet *_servicesRegistered;
 }
 
-+ (id)¼Ïß(;
++ (id)öÇÿÿ;
 - (long long);
 - (void);
 - (void);
@@ -26,8 +26,8 @@
 - (long long);
 - (long long);
 - (long long);
-- (void);
-- (id)b_;
+- (id);
+- (void)|°;
 
 // Remaining properties
 @property(retain, nonatomic) NSRecursiveLock *_servicesLock; // @synthesize _servicesLock;

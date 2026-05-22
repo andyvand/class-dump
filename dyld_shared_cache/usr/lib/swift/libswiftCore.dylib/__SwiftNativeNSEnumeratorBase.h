@@ -9,19 +9,19 @@
     struct RefCounts<swift::RefCountBitsT<swift::RefCountIsInline>> refCounts;
 }
 
-+ (_Bool);
++ (_Bool)4I;
 - (void);
 - (void);
-- (oneway void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool)(;
-- (_Bool);
-- (id);
-- (id)thStringForDisplay;
 - (unsigned long long);
+- (void);
+- (id);
+- (oneway void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool)øij¸jPk;
+- (_Bool)>;
 
 @end
 

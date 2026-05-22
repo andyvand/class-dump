@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)mitTouchUUIDs:(id)arg1 cancelInsteadOfUp: /* Error: Ran out of types for this method. */;
-- (void);
-- (void),ÿ;
+- (void)effectiveContentInset;
+- (void)_UILegibilityStyleLightContentWithDarkShadow;
+- (void)licationShortcutIconTypeTask;
 
 @end
 

@@ -12,6 +12,7 @@
     MISSING_TYPE *cache;
     MISSING_TYPE *operationQueue;
     MISSING_TYPE *recipeService;
+    MISSING_TYPE *recipeFactory;
 }
 
 - (void);

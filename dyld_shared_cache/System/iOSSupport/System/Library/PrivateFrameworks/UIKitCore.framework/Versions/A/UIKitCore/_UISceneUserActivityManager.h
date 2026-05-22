@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (void);
-+ (void)�(;
++ (void);
 + (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (void);
 + (id);
@@ -42,21 +42,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)v60@0:8@"IMDChat"16q24@"NSNumber"32@"NSString"40@"NSString"48B56 /* Error: Ran out of types for this method. */;
-- (void)SDictionary"156@"NSString"164@"NSString"172@"NSString"180@"NSString"188@"IDSService"196@204B212B216B220B224B228q232q240@?<v@?>248;
-- (_Bool)Change: /* Error: Ran out of types for this method. */;
-- (_Bool)yle: /* Error: Ran out of types for this method. */;
-- (void)articipantIdentifiers;
-- (id)e@f,gPsu,u;
+- (void);
 - (void);
 - (_Bool);
-- (void);
+- (_Bool);
 - (void);
-- (void);
+- (id);
 - (void);
-- (id)UIIntelligenceSystemSceneDelegate;
-- (id)åÍ|8LS;
-- (void)}8Hs;
+- (_Bool);
+- (void);
+- (void)Index:(id)arg1 voiceCommandDisambiguationTargetCount:(long long)arg2;
+- (id)ÿJÏþ;
+- (void);
+- (id)Y_;
+- (void);
+- (void)<Äæþ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_activityContinuationManager) UIActivityContinuationManager *_activityContinuationManager;

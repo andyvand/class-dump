@@ -11,21 +11,20 @@
     MISSING_TYPE *attributes;
 }
 
-- (double)ivity_t to XPC_ACTIVITY_STATE_DEFER;
-- (id)-;
-- (double)�;
+- (double);
+- (id);
+- (double);
 - (_Bool);
 - (struct CGRect);
 - (double);
 - (struct CGRect);
 - (id);
 - (struct UIEdgeInsets);
-- (struct CGRect)C;
+- (struct CGRect);
 - (_Bool);
-- (void);
-- (id)°1¢!0@ù
-× ;
-- (id)ndaryButtonProperties;
+- (id);
+- (id)»îÿ;
+- (void)l2ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGRect _containerBounds;

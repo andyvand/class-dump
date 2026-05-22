@@ -14,6 +14,7 @@
     NSString *_hoursName;
 }
 
++ (id);
 - (void);
 - (void);
 - (id);

@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,7 +30,7 @@
 - (int);
 - (float);
 - (float);
-- (id)ngInterfaceName;
+- (id);
 
 // Remaining properties
 @property float compoundRoutesDistanceBetweenAdjacentCompoundTripSegmentsAvg; // @synthesize compoundRoutesDistanceBetweenAdjacentCompoundTripSegmentsAvg=_compoundRoutesDistanceBetweenAdjacentCompoundTripSegmentsAvg;

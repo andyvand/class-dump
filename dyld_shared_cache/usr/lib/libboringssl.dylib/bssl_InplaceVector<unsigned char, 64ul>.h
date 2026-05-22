@@ -4,5 +4,5 @@
 
 class bssl::InplaceVector<unsigned char, 64ul> {
 public: // (access info unavailable from symbols alone)
-    operator=(bssl::InplaceVector<unsigned char, 64ul> const&);
+    auto operator=(bssl::InplaceVector<unsigned char, 64ul> const&);
 };

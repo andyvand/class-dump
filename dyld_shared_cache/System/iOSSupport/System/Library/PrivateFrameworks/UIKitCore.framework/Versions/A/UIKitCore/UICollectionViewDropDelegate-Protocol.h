@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionViewDropProposal, UIDragPreviewParameters;
+@class UICollectionView, UICollectionViewDropProposal, UIDragPreviewParameters;
+@protocol UIDropSession;
 
 @protocol UICollectionViewDropDelegate
-- (void)CGPoint=dd},N,V_cursorLocationBase;
+- (void)entifier;
 
 @optional
-- (_Bool);
-- (void)escription for blur effect returned unknown filterType %@;
-- (UICollectionViewDropProposal *)idated;
-- (void)í3y´Ãí3yAMy|j8AQys£í3GGSOGGGAUG_Äí3Qo__AKQo__$fí3Qo__Qo_AQyuí3GGGGGG;
-- (UIDragPreviewParameters *)ot;
-- (void)GeometryHandle;
+- (void)kgroundColor;
+- (UICollectionViewDropProposal *)tView",&,N,V_selectionVibrancyView;
+- (UIDragPreviewParameters *)crementBlock:(UICollectionView *)arg1;
+- (_Bool)eKeyboardClientChange:(UICollectionView *)arg1 resignFirstResponder;
+- (void)ðþÿÿPeéÿDa]þ;
+- (void)icationPreservationStateWithSessionIdentifier:(UICollectionView *)arg1 viewController:(id <UIDropSession>)arg2 beginHandler:completionHandler:] /* Error: Ran out of types for this method. */;
 @end
 

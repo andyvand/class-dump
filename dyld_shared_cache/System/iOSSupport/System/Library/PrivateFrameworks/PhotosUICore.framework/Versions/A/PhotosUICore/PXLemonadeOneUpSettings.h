@@ -39,10 +39,6 @@
     double _videoScrubberPaletteShadowBlurRadius;
     double _videoScrubberPaletteShadowOffsetX;
     double _videoScrubberPaletteShadowOffsetY;
-    double _videoScrubberTrackShadowOpacity;
-    double _videoScrubberTrackShadowBlurRadius;
-    double _videoScrubberTrackShadowOffsetX;
-    double _videoScrubberTrackShadowOffsetY;
     double _minimumMarginForInsetContent;
     double _insetContentCornerRadius;
     double _insetContentBorderWidth;
@@ -58,8 +54,7 @@
 }
 
 + (_Bool);
-+ (id)x©HQ9;
-- (double);
++ (id)Code;
 - (double);
 - (double);
 - (double);
@@ -72,10 +67,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -148,14 +139,11 @@
 - (_Bool);
 - (long long);
 - (double);
-- (double);
-- (double);
-- (double);
 - (void);
 - (_Bool);
-- (long long);
-- (void);
 - (id);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double chromeButtonsEDRBoost; // @synthesize chromeButtonsEDRBoost=_chromeButtonsEDRBoost;
@@ -201,10 +189,6 @@
 @property(nonatomic) double videoScrubberPaletteShadowOffsetX; // @synthesize videoScrubberPaletteShadowOffsetX=_videoScrubberPaletteShadowOffsetX;
 @property(nonatomic) double videoScrubberPaletteShadowOffsetY; // @synthesize videoScrubberPaletteShadowOffsetY=_videoScrubberPaletteShadowOffsetY;
 @property(nonatomic) double videoScrubberPaletteShadowOpacity; // @synthesize videoScrubberPaletteShadowOpacity=_videoScrubberPaletteShadowOpacity;
-@property(nonatomic) double videoScrubberTrackShadowBlurRadius; // @synthesize videoScrubberTrackShadowBlurRadius=_videoScrubberTrackShadowBlurRadius;
-@property(nonatomic) double videoScrubberTrackShadowOffsetX; // @synthesize videoScrubberTrackShadowOffsetX=_videoScrubberTrackShadowOffsetX;
-@property(nonatomic) double videoScrubberTrackShadowOffsetY; // @synthesize videoScrubberTrackShadowOffsetY=_videoScrubberTrackShadowOffsetY;
-@property(nonatomic) double videoScrubberTrackShadowOpacity; // @synthesize videoScrubberTrackShadowOpacity=_videoScrubberTrackShadowOpacity;
 
 @end
 

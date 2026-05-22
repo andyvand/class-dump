@@ -29,9 +29,9 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void)äðúÿ;
-- (void);
 
 // Remaining properties
 @property _Bool autoSwitchToFreeCamera;

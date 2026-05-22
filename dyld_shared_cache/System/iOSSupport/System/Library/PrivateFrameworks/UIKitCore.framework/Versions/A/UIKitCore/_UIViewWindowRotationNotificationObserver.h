@@ -13,10 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)nning transition;
+- (void)sAutoShiftFor3PK;
+- (void)eady being tracked:(id)arg1 %@
+%@
+Set a breakpoint in %s to debug this issue.;
+- (id)elapsed = %lu);
+- (void)Â;
 
 @end
 

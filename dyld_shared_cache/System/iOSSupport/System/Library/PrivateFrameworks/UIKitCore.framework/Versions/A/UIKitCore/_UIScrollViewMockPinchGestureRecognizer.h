@@ -17,15 +17,17 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (id);
 - (double);
 - (void);
-- (long long)inerConcentricRadiusWithMinimum: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)CÀC;
-- (void)nputSessionActionAnalytics] processBundleId - returning '%{private}@';
-- (double)ô;
-- (id)fiers;
-- (id)á"Î[;
+- (double)1Â0@ù
+× ;
+- (long long)A	!HEùQeð1Â0@ù
+× ;
+- (void)WithFrame:(id)arg1 serviceIdentity:sceneSpecification: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (void)H.;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIScrollViewPinchGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;

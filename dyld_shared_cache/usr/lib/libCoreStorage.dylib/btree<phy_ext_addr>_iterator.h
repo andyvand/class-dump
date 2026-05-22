@@ -4,11 +4,11 @@
 
 class btree<phy_ext_addr>::iterator {
 public: // (access info unavailable from symbols alone)
-    iterate_backward();
-    iterate_forward();
-    moveto(phy_ext_addr const&);
-    moveto_greater(phy_ext_addr const&);
-    operator=(btree<phy_ext_addr>::iterator const&);
-    operator==(btree<phy_ext_addr>::iterator const&) const;
+    auto iterate_backward();
+    auto iterate_forward();
+    auto moveto(phy_ext_addr const&);
+    auto moveto_greater(phy_ext_addr const&);
+    auto operator=(btree<phy_ext_addr>::iterator const&);
+    auto operator==(btree<phy_ext_addr>::iterator const&) const;
     ~iterator();
 };

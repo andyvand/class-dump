@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)};
-+ (double)idate for Oscar filtering.;
++ (id);
++ (double);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

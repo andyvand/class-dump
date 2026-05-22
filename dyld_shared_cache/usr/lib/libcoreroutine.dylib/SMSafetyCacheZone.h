@@ -24,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -40,10 +40,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)@;
-- (void);
 - (id);
+- (void);
+- (id)Ø	;
+- (void)TripSegmentProvider:%@,adding trip segment that failed processing,processingErrorCode,%d,tripId,%@,tripVisitStartLoc,%{sensitive}@,tripVisitEndLoc,%{sensitive}@,tripSeq,%d,tripSeqMax,%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CKRecord *accessDataRecord; // @synthesize accessDataRecord=_accessDataRecord;

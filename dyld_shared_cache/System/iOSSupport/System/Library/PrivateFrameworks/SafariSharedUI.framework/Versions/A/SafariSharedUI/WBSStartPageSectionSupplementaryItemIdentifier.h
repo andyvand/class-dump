@@ -14,7 +14,7 @@
 + (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)eemphasizedText:attributesForHTTPSProtocol: /* Error: Ran out of types for this method. */;
 
 @end
 

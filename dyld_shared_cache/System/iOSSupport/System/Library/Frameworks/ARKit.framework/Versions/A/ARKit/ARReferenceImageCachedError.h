@@ -11,9 +11,9 @@
     NSError *_error;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;

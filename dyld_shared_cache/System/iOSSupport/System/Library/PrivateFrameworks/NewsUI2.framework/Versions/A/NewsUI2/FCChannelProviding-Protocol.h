@@ -7,14 +7,9 @@
 @class NSArray, NSString;
 
 @protocol FCChannelProviding
-- (NSString *);
-- (_Bool)d;´=è=(>>ü>Ô?$@4GÀGpLìP|Q T\VX\YZ¼Z¨[Ü\]à]4^_k8n\n¸nÜn$o;
-- (NSString *)Úùÿ4äôÿdöÿ^õÿ;
-- (NSArray *);
-- (NSString *)p±ýÿXÈðÿ;
-- (unsigned long long)skipping tag because headlines %ld less than min cluster size %ld;
-- (NSArray *)e;
-- (NSArray *)lOptimizationsDisabledScrollTestCase;
+- (NSString *)0;
+- (NSArray *);
+- (NSString *)pbÿ ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *backIssuesListID;

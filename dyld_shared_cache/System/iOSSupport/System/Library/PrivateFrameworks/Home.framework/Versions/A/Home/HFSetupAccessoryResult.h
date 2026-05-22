@@ -23,9 +23,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)4Â;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;

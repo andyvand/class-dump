@@ -14,11 +14,10 @@
     MISSING_TYPE *OpacityPairInputAmount;
 }
 
-- (id);
-- (void)0@ù
-× ;
-- (id)en:(struct CGPoint)arg1 animated:(id)arg2;
 - (id);
+- (id)"UIInputContextHistory";
+- (id)rComponent;
+- (void);
 
 @end
 

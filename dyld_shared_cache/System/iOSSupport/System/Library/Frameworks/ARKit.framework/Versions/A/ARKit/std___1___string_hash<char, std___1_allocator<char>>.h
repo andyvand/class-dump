@@ -4,5 +4,5 @@
 
 class std::__1::__string_hash<char, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:ne200100](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) const;
+    auto operator()[abi:nqe210106](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) const;
 };

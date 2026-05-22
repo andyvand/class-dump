@@ -14,11 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool)4@32^@40;
-- (id)y;
+- (void);
+- (_Bool)astKnownInterfaceOrientation;
+- (void)lAÿ6
+Ð;
 
 @end
 

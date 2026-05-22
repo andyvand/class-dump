@@ -22,7 +22,7 @@
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)lî(ï°ï¤ð;
 
 @end
 

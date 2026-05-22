@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)Error creating exit zone subscription %@;
-+ (_Bool)ngRelayMessage;
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
-+ (id)«ö;
-+ (long long)ÉLe;
++ (id)nnull __strong);
++ (long long)¯zÑDäf;
 
 @end
 

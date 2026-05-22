@@ -22,10 +22,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (void);
 - (void);
 - (id);
 

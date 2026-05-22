@@ -15,13 +15,13 @@
     id <_HMDoorbellChimeProfileDelegate> _delegate;
 }
 
-+ (id)HMCameraClipFetchAssetContextOperationDataSource>",R,V_dataSource;
 + (_Bool);
-- (void);
++ (id)etion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)MessageSession",R,W;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

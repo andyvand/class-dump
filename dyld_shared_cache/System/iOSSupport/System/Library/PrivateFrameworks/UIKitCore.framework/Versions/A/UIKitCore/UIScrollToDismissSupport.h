@@ -19,23 +19,23 @@ __attribute__((visibility("hidden")))
     UIInputViewSetNotificationInfo *_scrollViewNotificationInfo;
 }
 
-- (id)s/A/CoreFoundation;
-- (void)ithSupplementalMatchDomainsNoSearch:(id)arg1;
 - (void);
-- (void)ize for reference data.;
-- (void)equest cannot have zero registerItems.;
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void)ñ0º;
-- (void)!XBùÀ1¢!0@ù
+- (_Bool)ð1Â0@ù
 × ;
-- (void)Ô ;
-- (void)entsCategory:(id)arg1;
-- (_Bool)an: /* Error: Ran out of types for this method. */;
-- (id)6^B24;
-- (void)Nj;
+- (void)emContentLayoutGuideForStaticNavBarButtonVisibility"b1"navItemContentLayoutGuideStaticButtonVisibilityAnimationConstraintNeedsInitialization"b1"shouldFadeStaticNavBarButton"b1"staticNavBarButtonLingers"b1"staticNavBarButtonIsActingAsFakeBackButton"b1"hostedTabBarEnabled"b1};
+- (id)y;
+- (void)onfigurationSupporting;
+- (id)ÿþêÿh'¨þ\þÿä3ìÿ;
+- (void)eteAnimationsRunning is less than or equal to 0 while entering a completion handler. It seems like the initial animation count is incorrect. This is a UIKit bug.;
+- (void);
+- (void);
+- (void)»_;
+- (void)6~d;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isFinishingDismissTransition;

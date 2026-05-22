@@ -21,8 +21,8 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ntact: /* Error: Ran out of types for this method. */;
 
 @end
 

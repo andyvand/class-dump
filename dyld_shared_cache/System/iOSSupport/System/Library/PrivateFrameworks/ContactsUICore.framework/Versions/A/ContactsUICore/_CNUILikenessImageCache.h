@@ -23,11 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void)\½C?¦Ä¼;
+- (void): /* Error: Ran out of types for this method. */;
+- (void)Body;
 
 // Remaining properties
 @property(retain, nonatomic) CNCache *cache; // @synthesize cache=_cache;

@@ -14,14 +14,14 @@
     SEL _builderSelector;
 }
 
-+ (id)ventCount:(id)arg1;
++ (id);
 - (void);
 - (id);
-- (SEL)x;
-- (id);
-- (void)16@24C32@36B44B48Q52@?60;
+- (SEL);
 - (void);
 - (id);
+- (id);
+- (void)TB,R,N,GisH1Route;
 
 // Remaining properties
 @property(nonatomic) SEL builderSelector; // @synthesize builderSelector=_builderSelector;

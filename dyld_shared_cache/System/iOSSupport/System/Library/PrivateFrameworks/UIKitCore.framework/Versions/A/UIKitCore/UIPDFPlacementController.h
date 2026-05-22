@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (void):(double)arg1 alternateCallbackID:willSendToDestinations:skippedDestinations:registrationPropertyToDestinations: /* Error: Ran out of types for this method. */;
-- (void)jects:(id)arg1;
-- (void)ideoFileSizeForWifiForPhoneNumber:(double)arg1 cellSize:serverConfigurationBag:phoneNumber:simID: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (id);
 - (struct CGRect);
 - (id);

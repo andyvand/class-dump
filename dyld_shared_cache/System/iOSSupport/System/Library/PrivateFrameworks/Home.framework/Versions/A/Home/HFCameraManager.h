@@ -46,7 +46,6 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (double);
 - (void);
 - (id);
@@ -59,18 +58,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)wer;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *cachedSnapshotError; // @synthesize cachedSnapshotError=_cachedSnapshotError;

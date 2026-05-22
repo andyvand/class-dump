@@ -20,33 +20,33 @@
 }
 
 - (void);
-- (double)BiometricAuthenticationEnabled;
-- (void)Image;
-- (void)tDrawing;
-- (void)entID;
-- (void)ableWidth;
-- (void)stAttachmentSize;
-- (void)eded;
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (id);
 - (struct CGRect);
 - (id);
-- (void)lazy_storage_$_applicationDidBecomeActivePublisher;
 - (void);
-- (_Bool)_;
+- (void);
+- (_Bool);
 - (struct CGSize);
-- (_Bool)e;
+- (_Bool);
 - (id);
 - (struct CGRect);
-- (id)(;
-- (double)L;
-- (void)b;
-- (long long)entioned **%@**;
+- (id);
+- (double);
+- (void);
+- (long long);
 - (void);
 - (struct CGSize);
-- (void);
-- (double)ginAfterReplaceAlertInteractedWith;
-- (id)etadataDescription;
+- (double);
+- (id);
+- (void)onColor;
 
 // Remaining properties
 @property(nonatomic) long long animationPauseReasons; // @synthesize animationPauseReasons=_animationPauseReasons;

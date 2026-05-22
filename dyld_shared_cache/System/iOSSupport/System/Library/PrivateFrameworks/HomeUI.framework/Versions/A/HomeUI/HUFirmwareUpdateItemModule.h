@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)gurationTitle;
 
 // Remaining properties
 @property(retain, nonatomic) HUFirmwareUpdateItemProvider *firmwareUpdateItemProvider; // @synthesize firmwareUpdateItemProvider=_firmwareUpdateItemProvider;

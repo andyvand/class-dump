@@ -20,8 +20,8 @@
     } _requestedPlaybackPositionProperties;
 }
 
-+ (id)WithQueue:eventReporter: /* Error: Ran out of types for this method. */;
-- (id)s/CoreFoundation.framework/Versions/A/CoreFoundation;
++ (id);
+- (id);
 
 @end
 

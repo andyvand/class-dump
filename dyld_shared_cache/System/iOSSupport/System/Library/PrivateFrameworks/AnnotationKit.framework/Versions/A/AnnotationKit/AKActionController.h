@@ -11,8 +11,8 @@
     AKController *_controller;
 }
 
-- (_Bool)`x;
-- (_Bool)dط;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);

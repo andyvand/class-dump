@@ -12,10 +12,11 @@
     _Bool _skipSectionInvalidation;
 }
 
-- (void)abaseID;
-- (_Bool);
-- (_Bool)_springBoardBlankedScreenNotification: /* Error: Ran out of types for this method. */;
-- (void)±þÿ	;
+- (void);
+- (_Bool);
+- (void)ð!TDùqdð1Â0@ù
+× ;
+- (_Bool)s navigation item in document picker;
 
 // Remaining properties
 @property(nonatomic) _Bool invalidateTableLayoutDelegateMetrics; // @synthesize invalidateTableLayoutDelegateMetrics=_invalidateTableLayoutDelegateMetrics;

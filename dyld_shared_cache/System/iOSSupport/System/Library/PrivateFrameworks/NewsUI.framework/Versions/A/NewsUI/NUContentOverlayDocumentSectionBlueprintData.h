@@ -14,8 +14,8 @@
 
 - (id);
 - (double);
+- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) SXDocumentSectionBlueprint *blueprint; // @synthesize blueprint=_blueprint;

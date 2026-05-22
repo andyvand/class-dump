@@ -23,18 +23,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (id);
+- (void);
+- (void)roupID;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *contentLength; // @synthesize contentLength=_contentLength;

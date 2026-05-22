@@ -6,21 +6,10 @@
 
 #import <ChatKit/CKGradientReferenceView.h>
 
-@class CKTranscriptCollectionView;
-
 __attribute__((visibility("hidden")))
 @interface CKInlineReplyGradientReferenceView : CKGradientReferenceView
 {
-    CKTranscriptCollectionView *_collectionView;
 }
-
-- (void);
-- (void);
-- (void)l;
-- (id)ationListEmbeddedCollectionViewCellDelegate;
-
-// Remaining properties
-@property(retain, nonatomic) CKTranscriptCollectionView *collectionView; // @synthesize collectionView=_collectionView;
 
 @end
 

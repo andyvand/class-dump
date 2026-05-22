@@ -21,16 +21,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)tartTime: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)SelectedDestination:(_Bool)arg1;
+- (void)eneCellLayoutOptions",C,N,V_sceneCellOptions;
+- (_Bool);
+- (void)"NSSet"16@?0@"HULinkedApplicationItem"8;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUIconSwitchCellDelegate> delegate; // @synthesize delegate=_delegate;

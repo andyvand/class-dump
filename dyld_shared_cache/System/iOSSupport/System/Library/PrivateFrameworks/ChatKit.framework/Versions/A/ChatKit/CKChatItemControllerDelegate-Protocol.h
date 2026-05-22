@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatItemDiff;
-
 @protocol CKChatItemControllerDelegate
-- (void);
-- (void)l;
-- (void)];
-- (void)9;
-- (void)Ds_t;
-- (void)WithPrompt:(CKChatItemDiff *)arg1 result:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
 @end
 

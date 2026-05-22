@@ -8,11 +8,9 @@
 
 @interface NewsUI2.AudioSuggestionsService
 {
-    MISSING_TYPE *contentContext;
+    MISSING_TYPE *cloudContext;
     MISSING_TYPE *paidBundleConfigManager;
     MISSING_TYPE *audioPlaylist;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *subscriptionController;
     MISSING_TYPE *personalizationService;
 }
 

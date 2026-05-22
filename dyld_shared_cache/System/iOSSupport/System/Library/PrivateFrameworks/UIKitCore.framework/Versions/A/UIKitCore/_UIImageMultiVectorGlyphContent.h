@@ -20,23 +20,24 @@ __attribute__((visibility("hidden")))
     struct CGImage *_imageRef;
 }
 
-- (id)ttedURLs:(struct CGSize)arg1;
-- (_Bool);
-- (double);
-- (void)mpanionDiscoverySession:(struct CGSize)arg1;
-- (void)gClassicalMovementCount;
-- (_Bool);
-- (_Bool);
 - (void);
-- (struct CGSize);
-- (_Bool)Source>";
-- (_Bool)antLayoutGuide: /* Error: Ran out of types for this method. */;
-- (void)onment:(struct CGSize)arg1 attributes:(double)arg2;
-- (_Bool)ForLinks;
-- (id)on: /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGImage *);
-- (id)b;
+- (_Bool);
+- (id)
+× ;
+- (_Bool)a;
+- (double)nPinchGesture: /* Error: Ran out of types for this method. */;
+- (_Bool)nclosingTabBarControllerForStackChange;
+- (void)dFinishContentOffsetAnimation;
+- (_Bool)posedContentOffset: /* Error: Ran out of types for this method. */;
+- (struct CGImage *)id<UIFocusItem> _Nonnull, UIFocusSystem *__strong _Nonnull);
+- (void)ì+;
+- (id)\;
+- (struct CGSize);
+- (_Bool)±ÿ;
+- (id)µìÛ<¿`;
+- (_Bool);
+- (void)Ââþ*ÍÌåa;
 
 @end
 

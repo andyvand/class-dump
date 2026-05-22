@@ -32,9 +32,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -43,14 +43,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType)thProtobufDataP2: /* Error: Ran out of types for this method. */;
-- (void)tionItem:(id)arg1 forChat: /* Error: Ran out of types for this method. */;
-- (id)kingForSpam:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:completion: /* Error: Ran out of types for this method. */;
-- (void)gesTimer;
-- (id)r",R,N,V_storageController;
+- (CDUnknownBlockType);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void)0%;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -61,19 +61,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (CDStruct_d52ce5d2);
 - (id);
-- (void)k through do not disturb, attempting to send unavailability receipt or SMS message;
-- (void)ategory unknown sender;
-- (id)unassociate transfer:%@ from message guid:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)cutoff by a count of %ld of out %ld total cutoff chat groups;
-- (id)GUID:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)(s3ç;
-- (id)@ù
-× ;
-- (id)¨\;
+- (id)H
+X
+@¬	`´Ô@<Ô "!#$\%;
+- (void)õ¯Ñt];
+- (id)PËü[_;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType accessoryAnimationBlock; // @synthesize accessoryAnimationBlock=_accessoryAnimationBlock;

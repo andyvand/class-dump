@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,8 +30,8 @@
 - (double);
 - (double);
 - (void);
-- (double);
 - (id);
+- (double);
 - (id);
 
 // Remaining properties

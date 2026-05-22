@@ -11,9 +11,9 @@
     id <MTLDevice> _device;
 }
 
-- (void);
 - (id);
-- (void),V_detectorDidRun;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) id <MTLDevice> device; // @synthesize device=_device;

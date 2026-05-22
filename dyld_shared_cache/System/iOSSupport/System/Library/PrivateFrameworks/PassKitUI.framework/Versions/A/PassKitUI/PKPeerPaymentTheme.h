@@ -19,9 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)1b0@ù
-× ;
++ (id)earchAutocompleteToken;
 
 @end
 

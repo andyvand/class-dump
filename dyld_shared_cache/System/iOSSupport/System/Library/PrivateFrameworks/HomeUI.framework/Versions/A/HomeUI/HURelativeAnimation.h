@@ -16,8 +16,8 @@
 - (double);
 - (id);
 - (id);
-- (void);
 - (double);
+- (void)iewingProfile;
 
 // Remaining properties
 @property(readonly, nonatomic) HUAnimationApplier *applier; // @synthesize applier=_applier;

@@ -17,55 +17,55 @@
 }
 
 + (id);
-+ (id) ;
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
++ (id);
++ (id);
+- (id);
 - (void);
 - (void);
-- (int)loadApplication:(id)arg1;
-- (int)ayloadPassword;
+- (CDStruct_227bb23d);
+- (void);
+- (int);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (int);
 - (_Bool);
+- (int);
 - (id);
-- (id);
-- (id)f28r^f36r^{ransac_homography_record=[9f]}44I52^f56;
-- (id);
+- (void);
 - (double);
-- (int);
-- (void)t due to active assertions:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (int);
-- (void);
-- (void)ñÁð1¢!0@ù
+- (id)ñXÐ1Â0@ù
 × ;
 - (void);
-- (int)0@ù
+- (void)!$@ù1b°1Â0@ù
 × ;
-- (CDStruct_227bb23d)<WebAllowDenyPolicyListener>";
-- (id)ndNavigatorView";
-- (id)rsInRange:(id)arg1;
-- (void)ion:(int)arg1;
-- (void)ctiveDrag;
-- (id)y:(id)arg1 reset: /* Error: Ran out of types for this method. */;
-- (struct CGSize)hSenderID: /* Error: Ran out of types for this method. */;
-- (int)tTargetDisplayMode;
-- (void)nsBackground;
-- (int)ect",&,N,V_dimmingVisualEffect;
-- (id)der>",N,V_hitTestResponder;
-- (_Bool)CØCìD@EÐE;
-- (void)Æî;
-- (id)So6UIMenuC12existingMenu_AB011conflictingC0t;
-- (void)ckgroundViewConfigurationStyleToString(_UIBackgroundViewConfigurationStyle);
-- (void)D
-Ùþya;
+- (struct CGSize);
+- (id)0@ù
+× ;
+- (void)?24;
+- (id)ViewController:(CDUnknownBlockType)arg1;
+- (int)pplicationEnter;
+- (id)ingFunc;
+- (id)youtView;
+- (void)(ø;
+- (int)tate:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)Òîÿ;
+- (void)eView internal inconsistency:(long long)arg1 missing placeholder context for this index path:%@ /* Error: Ran out of types for this method. */;
+- (int)quested element kind:(struct UIEdgeInsets)arg1 %@; supplementary view element kind:(char *)arg2 %@; index path:(int)arg3 %@; supplementary view:%@ /* Error: Ran out of types for this method. */;
+- (void)c¬;
+- (_Bool)x+Ó°k`;
+- (long long)Tf;
+- (int);
+- (void)ôÎ\%g;
 
 // Remaining properties
 @property(nonatomic) int displayHint;

@@ -13,10 +13,10 @@
     SEL _delegateCreateImageSelector;
 }
 
-- (struct CGImage *);
+- (struct CGImage *);
 - (id);
 - (_Bool);
-- (void)U;
+- (void);
 - (void);
 
 @end

@@ -20,10 +20,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)ectionsPlacecardAnalyticsManager",&,N,V_analyticsManager;
 
 @end
 

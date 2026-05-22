@@ -5,6 +5,6 @@
 //
 
 @interface (null) (TextAlignment)
-- (long long)};
+- (long long);
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSProcessInfo, AMSUILoadingView, AMSUINotificationSettingsViewModel, NSMutableDictionary, NSString, UITableView, UNUserNotificationCenter, _UIContentUnavailableView;
+@class ACAccount, AMSProcessInfo, AMSUILoadingView, AMSUINotificationSettingsViewModel, NSMutableDictionary, NSString, UIContentUnavailableView, UITableView, UNUserNotificationCenter;
 @protocol AMSBagProtocol;
 
 @interface AMSUINotificationSettingsViewController
@@ -14,7 +14,7 @@
     AMSProcessInfo *_clientInfo;
     NSString *_identifier;
     NSMutableDictionary *_changedItems;
-    _UIContentUnavailableView *_errorView;
+    UIContentUnavailableView *_errorView;
     AMSUILoadingView *_loadingView;
     AMSUINotificationSettingsViewModel *_model;
     UNUserNotificationCenter *_notificationCenter;
@@ -22,8 +22,8 @@
 }
 
 + (id);
-+ (id)-7SgGG_ACyÀ7AJGØ7tGG;
-+ (id)eMediaServicesUI.EngagementContentRecord;
++ (id);
++ (id)BannerAppearanceCSgG;
 - (void);
 - (_Bool);
 - (void);
@@ -44,24 +44,24 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void)yle: /* Error: Ran out of types for this method. */;
+- (id)count:viewController:bag:displayName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id)rget:action: /* Error: Ran out of types for this method. */;
-- (void)AtPath:(id)arg1;
-- (id)nPlayCount;
-- (void)ervicesUI.BannerPaletteViewCoordinator;
+- (id);
+- (id)content rules. %{public}@;
+- (void)TreatmentsAction Failure;
+- (void)q;
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account;
@@ -73,7 +73,7 @@
 // Original attribute string: T@"NSString",?,R,C
 
 @property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIContentUnavailableView *errorView; // @synthesize errorView=_errorView;
+@property(retain, nonatomic) UIContentUnavailableView *errorView; // @synthesize errorView=_errorView;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) AMSUILoadingView *loadingView; // @synthesize loadingView=_loadingView;

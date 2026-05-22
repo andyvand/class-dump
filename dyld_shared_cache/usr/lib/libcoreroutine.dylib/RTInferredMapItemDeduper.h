@@ -9,8 +9,8 @@
     CDUnknownBlockType _deduperFunction;
 }
 
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (id)ryptionAlgorithm;
+- (id);
+- (void)rror,%@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType deduperFunction; // @synthesize deduperFunction=_deduperFunction;

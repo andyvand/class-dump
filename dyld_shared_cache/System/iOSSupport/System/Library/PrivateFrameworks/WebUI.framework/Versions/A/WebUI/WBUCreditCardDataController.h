@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)_hoverCancelled:withEvent: /* Error: Ran out of types for this method. */;
++ (id);
 - (unsigned long long);
 - (_Bool);
 - (void);

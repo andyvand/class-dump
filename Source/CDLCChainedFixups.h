@@ -25,6 +25,16 @@
 //
 // `imageBase` is the image's __TEXT vmaddr (used for *_OFFSET pointer formats
 // where target is image-relative, not absolute).
+//
+// As a side effect, every bind slot's import symbol name is recorded keyed by
+// the slot's VM address so callers can recover what the bind would have
+// resolved to after the slot has been overwritten with zero. Query with
+// -bindNameForAddress:.
 - (void)applyToMutableData:(NSMutableData *)data imageBase:(uint64_t)imageBase;
+
+// Returns the imported symbol name that the chained-fixup bind at the given
+// VM address would have resolved to, or nil if no bind targets that address.
+// Only meaningful after -applyToMutableData:imageBase: has been called.
+- (NSString *)bindNameForAddress:(uint64_t)address;
 
 @end

@@ -45,9 +45,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)øµt·;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *accessoriesDownloadingSoftwareUpdates; // @synthesize accessoriesDownloadingSoftwareUpdates=_accessoriesDownloadingSoftwareUpdates;

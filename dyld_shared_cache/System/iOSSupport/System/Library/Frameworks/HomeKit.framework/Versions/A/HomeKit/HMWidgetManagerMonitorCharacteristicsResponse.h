@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)MSiriEndpointProfile;
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *reachabilityByAccessoryUniqueIdentifier; // @synthesize reachabilityByAccessoryUniqueIdentifier=_reachabilityByAccessoryUniqueIdentifier;

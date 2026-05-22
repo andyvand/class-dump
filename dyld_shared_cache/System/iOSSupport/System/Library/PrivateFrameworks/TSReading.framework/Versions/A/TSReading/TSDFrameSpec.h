@@ -35,10 +35,10 @@
 + (id);
 + (id);
 - (void);
-- (id);
 - (id);
 - (id);
-- (double);
+- (id);
+- (double);
 - (double);
 - (int);
 - (double);
@@ -49,8 +49,8 @@
 - (double);
 - (double);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (double);
 - (double);
 - (struct CGPoint);
@@ -58,8 +58,8 @@
 - (struct CGSize);
 - (_Bool);
 - (id);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool displayInPicker; // @synthesize displayInPicker=mDisplayInPicker;

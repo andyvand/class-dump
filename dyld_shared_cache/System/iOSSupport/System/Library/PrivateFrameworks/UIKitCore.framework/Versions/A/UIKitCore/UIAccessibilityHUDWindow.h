@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void)ving on.;
-+ (void)dParticipants;
++ (void);
++ (void);
 + (id);
 - (double);
 

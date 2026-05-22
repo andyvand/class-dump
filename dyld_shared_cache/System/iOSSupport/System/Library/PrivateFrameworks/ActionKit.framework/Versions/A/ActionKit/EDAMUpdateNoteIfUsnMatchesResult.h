@@ -16,11 +16,11 @@
 
 + (id);
 + (id);
-- (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)at64;
+- (void)ample"8Q16;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMNote *note; // @synthesize note=_note;

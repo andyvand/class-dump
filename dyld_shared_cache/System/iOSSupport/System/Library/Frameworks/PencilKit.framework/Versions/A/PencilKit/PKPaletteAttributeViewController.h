@@ -16,9 +16,9 @@
 }
 
 - (void);
-- (void)TimeoutDuration:(_Bool)arg1 %.1f;
-- (void)ssage:(_Bool)arg1 %{public}@ stacktrace:%@ /* Error: Ran out of types for this method. */;
-- (void)tifier:(unsigned long long)arg1 %{public}@;
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -26,9 +26,9 @@
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void)ª;
+- (void)"^d}};
+- (void);
+- (void)H	;
 
 // Remaining properties
 @property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;

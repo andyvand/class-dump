@@ -13,16 +13,16 @@
     unsigned long long _styleChangesMask;
 }
 
-- (void)ory;
-- (void)formOfCancelledMessageWithMessageGUID:(_Bool)arg1 success:cancelType:error: /* Error: Ran out of types for this method. */;
-- (_Bool),N,GisShowingFailure,V_showingFailure;
-- (void)uto reply becuase it is not an iPhone;
-- (void)for us, revoking them now ;
-- (_Bool)hatGUIDs:(unsigned long long)arg1 %@.;
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (id)¸¶ÿÄËàg;
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id)|_(`aÈa8b;
+- (void)7âÿ3»Ø;
 
 // Remaining properties
 @property(nonatomic, getter=isClosable) _Bool closable;

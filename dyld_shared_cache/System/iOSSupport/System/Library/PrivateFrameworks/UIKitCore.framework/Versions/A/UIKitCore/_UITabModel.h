@@ -25,17 +25,17 @@
     NSString *_persistenceIdentifier;
 }
 
-- (void)ach data class to add to miniaml sealing array;
+- (void);
 - (id);
-- (id)AMFDRDataCreateCombined;
-- (void)lineBlob is NULL;
-- (id)RDataClaimOptionServerOnlySigningDataClasses option is set;
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -45,28 +45,29 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)toURI: /* Error: Ran out of types for this method. */;
-- (unsigned long long)eplaceOccurrencesOfString:(id)arg1 withString:options:range: /* Error: Ran out of types for this method. */;
-- (void)mitStorageMetricsWithError:(id)arg1;
+- (void);
+- (unsigned long long);
+- (void);
 - (void);
 - (id);
-- (void)mcs_perform_dispatch_target_create_timer;
-- (id);
-- (void)tent item mutated | dropped [not in bloom filter] contentItemID=%{public}@;
-- (void);
-- (void)auÐ!àFùÑÉÐ1¢!0@ù
+- (void)0@ù
 × ;
-- (void)CGSize=dd}40@0:(id)arg1 8q16{CGSize=dd}24;
-- (void)ontainer;
-- (_Bool)ext;
-- (_Bool);
+- (id)!ðCùñdð1Â0@ù
+× ;
+- (void)textMenuConfiguration"16;
+- (void)2;
+- (void)elocity:(_Bool)arg1 forItem: /* Error: Ran out of types for this method. */;
+- (void)yleSheet;
+- (_Bool)¿7Gt;
+- (void)y/Frameworks/StickerKit.framework/StickerKit;
+- (_Bool)»;
 
 // Remaining properties
 @property(readonly, nonatomic) _UITabCustomizationStore *customizationStore; // @synthesize customizationStore=_customizationStore;

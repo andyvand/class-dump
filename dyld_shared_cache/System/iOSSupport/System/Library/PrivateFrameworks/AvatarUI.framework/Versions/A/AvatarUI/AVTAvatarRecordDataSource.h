@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,10 +30,10 @@
 - (id);
 - (id);
 - (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) AVTAvatarStore *avatarStore; // @synthesize avatarStore=_avatarStore;

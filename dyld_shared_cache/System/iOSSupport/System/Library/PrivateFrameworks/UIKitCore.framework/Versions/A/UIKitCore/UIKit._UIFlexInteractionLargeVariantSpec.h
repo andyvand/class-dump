@@ -10,8 +10,8 @@
 {
 }
 
-- (void)etPreferredCornerRadius: /* Error: Ran out of types for this method. */;
-- (id)numberOfMatches;
+- (void)rGrabber: /* Error: Ran out of types for this method. */;
+- (id)ÿS®Ûl;
 
 @end
 

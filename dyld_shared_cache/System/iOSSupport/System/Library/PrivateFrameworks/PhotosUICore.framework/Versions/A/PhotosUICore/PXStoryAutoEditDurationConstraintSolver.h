@@ -24,9 +24,9 @@
 - (void);
 - (CDStruct_c8943d03);
 - (id);
-- (void);
 - (id);
-- (unsigned long long)þÿ­0´þÿ;
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_5d4c7ed3 constrainedOverallDurationInfo;

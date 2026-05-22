@@ -32,9 +32,9 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
 - (void);
 - (struct CGSize);
+- (id)izeClass;
 - (void);
 
 // Remaining properties

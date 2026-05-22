@@ -15,21 +15,21 @@
     long long _source;
 }
 
-+ (_Bool)MediaUniqueIdentifier %@>;
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (long long);
+- (id);
+- (void)¸»¸»;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *personUUID; // @synthesize personUUID=_personUUID;

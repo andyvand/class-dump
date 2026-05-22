@@ -14,9 +14,9 @@
     UIView *_targetView;
 }
 
-+ (id);
++ (id);
 - (id);
-- (void)45;
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (long long);
 - (void);

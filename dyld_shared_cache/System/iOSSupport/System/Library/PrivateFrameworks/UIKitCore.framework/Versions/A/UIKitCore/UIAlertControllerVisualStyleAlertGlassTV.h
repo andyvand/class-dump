@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (double);
-- (double)entConnectionListenerWorkloop;
-- (double)com.apple.Messages.IncomingClientConnectionListenerWorkloop;
+- (double);
+- (double);
 - (double);
 - (double);
 - (double);

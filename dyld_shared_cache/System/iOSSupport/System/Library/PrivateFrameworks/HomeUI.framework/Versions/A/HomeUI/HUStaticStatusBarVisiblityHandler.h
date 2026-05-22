@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (_Bool);
+- (_Bool)on home %@ supports shared event automation; residents:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

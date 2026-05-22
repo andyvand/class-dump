@@ -17,15 +17,16 @@
 
 + (struct CGSize);
 - (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
 - (struct CGSize);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;

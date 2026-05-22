@@ -38,14 +38,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)˟;
 - (void);
-- (void);
+- (_Bool);
 - (id);
-- (id)eResult;
 - (void);
-- (id)j0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/persistence/src/TSPFileDataStorage.mm;
-- (_Bool);
+- (_Bool);
+- (void);
+- (id)d32@40;
+- (id)SP::IdentifierHash, std::equal_to<const long long>>, std::__unordered_map_equal<const long long, std::pair<const long long, NSMutableArray *>, std::equal_to<const long long>, TSP::IdentifierHash>, std::allocator<std::pair<const long long, NSMutableArray *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

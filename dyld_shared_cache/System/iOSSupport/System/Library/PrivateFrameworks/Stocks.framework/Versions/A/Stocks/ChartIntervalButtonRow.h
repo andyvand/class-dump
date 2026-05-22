@@ -20,17 +20,17 @@
 - (void);
 - (void);
 - (void);
-- (long long)z;
+- (long long);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <ChartIntervalButtonRowDelegate> delegate; // @synthesize delegate=_delegate;

@@ -7,6 +7,11 @@
 @protocol _UIContentViewConfiguration;
 
 @protocol _UIContentView
+- (void)ñd°1Â0@ù
+× ;
+
+@optional
+- (_Bool)öîÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _preventFocus;

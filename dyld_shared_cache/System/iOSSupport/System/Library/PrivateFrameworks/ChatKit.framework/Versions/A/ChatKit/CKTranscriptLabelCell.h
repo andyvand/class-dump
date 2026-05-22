@@ -16,9 +16,9 @@
 + (id);
 + (id);
 - (id);
-- (id);
-- (void);
-- (id)T@"CKSpeakerButton",&,N,V_speakerButton;
+- (id);
+- (id)ectionViewWillProgrammaticallyScroll:animated: /* Error: Ran out of types for this method. */;
+- (void)¨;
 
 // Remaining properties
 @property(readonly, nonatomic) CKTranscriptLegibilityLabel *label;

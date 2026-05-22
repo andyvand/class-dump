@@ -18,19 +18,19 @@
     struct CGRect _anchorRect;
 }
 
-- (void)while generating safe render for guid:(unsigned long long)arg1 %s. Error:%@ /* Error: Ran out of types for this method. */;
-- (void)InfoToChatID:(id)arg1 from service that doesn't support it. File a radar-------*/;
-- (unsigned long long)splayNames:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (unsigned long long);
 - (id);
 - (struct CGRect);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id)b;
-- (void);
+- (id)rdCandidateResultSet"16i24@"NSString"28{CGRect={CGPoint=dd}{CGSize=dd}}36d68B76;
+- (void)figureSubviews;
+- (void)^(ÿ¹ò;
+- (id)È·ÿ5Ø(d;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAnchorBarButtonItem:) UIBarButtonItem *_anchorBarButtonItem; // @synthesize _anchorBarButtonItem;

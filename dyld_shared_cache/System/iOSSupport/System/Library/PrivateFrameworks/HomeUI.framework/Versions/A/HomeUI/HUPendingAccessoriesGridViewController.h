@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool),N,V_controlView;
+- (_Bool)"<HUAlarmTableViewCellDelegate>",W,N,V_delegate;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

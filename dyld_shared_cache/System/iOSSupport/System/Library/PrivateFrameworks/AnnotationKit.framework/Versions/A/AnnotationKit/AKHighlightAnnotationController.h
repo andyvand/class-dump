@@ -12,21 +12,21 @@
     AKHighlightAnnotation *_continuousHighlight;
 }
 
-- (void)P;
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)nFunction;
+- (id);
 - (void);
 
 // Remaining properties

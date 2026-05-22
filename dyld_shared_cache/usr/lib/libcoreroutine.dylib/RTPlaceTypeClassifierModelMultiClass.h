@@ -16,18 +16,18 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 - (id);
-- (id)R;
 - (id);
 - (id);
-- (void);
-- (void);
-- (id)#;
 - (id);
 - (void);
+- (void);
 - (id);
-- (id)stenerQueue:delegate:delegateQueue: /* Error: Ran out of types for this method. */;
-- (id)sion failed;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)@, endDate, %@, fetched maps viewed places, %lu, error(s), %@;
 
 // Remaining properties
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;

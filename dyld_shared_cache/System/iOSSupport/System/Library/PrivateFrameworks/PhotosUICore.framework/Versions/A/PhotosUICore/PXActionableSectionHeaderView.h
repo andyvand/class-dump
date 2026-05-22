@@ -142,36 +142,40 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)!p@ù±G1â
+0@ù
+× ;
+- (id)!BùñGð1â
+0@ù
+× ;
+- (void)lapsingOpacityAnimationDelay;
+- (void)useCustomDaysCurationType;
+- (void)iewState:(id)arg1;
+- (id)rrentTime;
+- (void)emaining;
+- (id);
+- (id)LibraryDestinationTypeForZoomLevel(PXCuratedLibraryZoomLevel);
+- (id)t _invalidateContent];
+- (void)ttings for Photos;
+- (void)der generateGadgets];
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)tionRenderingOverlay: /* Error: Ran out of types for this method. */;
-- (void):(struct CGRect)arg1;
-- (id);
-- (id)re46LemonadeMutableContainerSizeSpecsProviderModelP;
-- (void)elP;
-- (void)ceptualMerge;
-- (id)d,#ÿ;
-- (unsigned long long)pSharePlaySessionHostCoordinator;
-- (id);
-- (id)Äý¹ÿõ	;
-- (void)8;
-- (void)jÈ8;
-- (void)ÝÿFMZÞ8;
+- (unsigned long long)Í:P´V4 /* Error: Ran out of types for this method. */;
+- (id)Ë5;
+- (id)nÙPÄ7;
 
 // Remaining properties
 @property(nonatomic) _Bool actionButtonEnabled; // @synthesize actionButtonEnabled=_actionButtonEnabled;

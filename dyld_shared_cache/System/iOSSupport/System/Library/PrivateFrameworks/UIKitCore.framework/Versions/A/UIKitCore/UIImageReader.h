@@ -12,17 +12,16 @@
     NSDictionary *_imageOptions;
 }
 
-+ (id)e nil;
-+ (id)_Nickname;
-- (void)Ref for attachment guid %s;
-- (void)ttachment store!;
-- (id)th %s but we didn't find attachment in attachment store!;
++ (id);
++ (id);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void)Áo°!HAùQÂ1¢!0@ù
-× ;
-- (id)actor;
 - (id);
+- (id):(id)arg1;
+- (id)hould be created up front and reused. Registration:(id)arg1 %@;
+- (void)l÷g;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UIImageReaderConfiguration *configuration;

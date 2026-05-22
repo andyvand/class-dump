@@ -13,12 +13,12 @@
 
 - (_Bool);
 - (id);
+- (struct CGSize);
+- (void);
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
-- (void);
-- (struct CGSize);
+- (void)tWithModule:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

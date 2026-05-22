@@ -4,8 +4,8 @@
 
 class SafariShared::JSController {
 public: // (access info unavailable from symbols alone)
-    addScriptObjectToGlobalObject(OpaqueJSContext const*);
-    scriptObjectReady(OpaqueJSContext const*);
-    staticValues();
+    auto addScriptObjectToGlobalObject(OpaqueJSContext const*);
+    auto scriptObjectReady(OpaqueJSContext const*);
+    auto staticValues();
     ~JSController();
 };

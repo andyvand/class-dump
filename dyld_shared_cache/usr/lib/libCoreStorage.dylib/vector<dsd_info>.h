@@ -4,8 +4,8 @@
 
 class vector<dsd_info> {
 public: // (access info unavailable from symbols alone)
-    push_back(dsd_info const&);
-    reserve(unsigned long);
-    resize(unsigned long, dsd_info const&);
+    auto push_back(dsd_info const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, dsd_info const&);
     ~vector();
 };

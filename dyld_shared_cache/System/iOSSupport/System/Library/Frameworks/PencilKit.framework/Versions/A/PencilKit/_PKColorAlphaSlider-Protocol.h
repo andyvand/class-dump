@@ -8,7 +8,6 @@
 @protocol _PKColorAlphaSliderDelegate;
 
 @protocol _PKColorAlphaSlider
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color;

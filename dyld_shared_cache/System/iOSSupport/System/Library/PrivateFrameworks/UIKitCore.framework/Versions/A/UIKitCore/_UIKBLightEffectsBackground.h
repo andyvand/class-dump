@@ -41,21 +41,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,19 +96,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)};
 - (void);
 - (void);
 - (void);
-- (void)size;
 - (void);
-- (_Bool);
-- (void)@ù
+- (void);
+- (void);
+- (void)0@ù
 × ;
-- (void);
-- (void)usGroupForItem:(double)arg1;
-- (id)content;
-- (_Bool)ewControllerKey;
+- (_Bool)!dBù1f1Â0@ù
+× ;
+- (id):(struct CGRect)arg1 updateType:alongsideAnimations: /* Error: Ran out of types for this method. */;
+- (_Bool)`;
+- (void);
+- (void)T	tþ43Ètþ!43,
+tþ)43
+tþ43tþQ43ätþá43àtþá43Ðtþ)43 	tþa43è	tþ143	tþ;
 - (void);
 
 // Remaining properties

@@ -11,16 +11,15 @@
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long)¡÷	ð!¸Eù±1¢!0@ù
-× ;
+- (unsigned long long);
 
 @end
 

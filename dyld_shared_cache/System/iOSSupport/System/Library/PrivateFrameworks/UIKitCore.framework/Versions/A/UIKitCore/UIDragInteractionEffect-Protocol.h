@@ -5,6 +5,5 @@
 //
 
 @protocol UIDragInteractionEffect
-- (void)ò;
 @end
 

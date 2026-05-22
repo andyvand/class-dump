@@ -20,10 +20,11 @@
     MISSING_TYPE *wantsMaterialBackground;
 }
 
-- (_Bool)(=;
-- (void);
-- (id);
-- (void)syncedSettingsManager;
+- (_Bool);
+- (id)Áú!ÈCù±°1Â0@ù
+× ;
+- (void)ust be less than maxCount;
+- (void)\ß:(id)arg1 E.;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *tintColor;

@@ -5,8 +5,9 @@
 //
 
 @protocol UILayoutGuideAspectFitting
-- (double)8SgXw;
-- (void)\;
+- (void)1Â0@ù
+× ;
+- (double);
 
 // Remaining properties
 @property(nonatomic) double aspectRatio;

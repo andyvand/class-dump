@@ -22,11 +22,11 @@
     MISSING_TYPE *$__lazy_storage_$_dismissBarButtonItem;
 }
 
-- (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (void)lI;
 - (void);
 
 @end

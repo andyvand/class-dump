@@ -4,6 +4,6 @@
 
 class vector<caller_info> {
 public: // (access info unavailable from symbols alone)
-    push_back(caller_info const&);
-    reserve(unsigned long);
+    auto push_back(caller_info const&);
+    auto reserve(unsigned long);
 };

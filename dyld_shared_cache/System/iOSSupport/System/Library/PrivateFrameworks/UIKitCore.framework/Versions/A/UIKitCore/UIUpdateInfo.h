@@ -15,15 +15,15 @@
     double _estimatedPresentationTime;
 }
 
-+ (id)MDReparentingMonitorRegistrationQueue;
-+ (id)ingMonitorHandlerQueue;
-- (double)ts:lowQualityModeEnabled: /* Error: Ran out of types for this method. */;
-- (_Bool)tionID: /* Error: Ran out of types for this method. */;
-- (_Bool)RateLimiter: /* Error: Ran out of types for this method. */;
-- (id)Map;
-- (double)teObjectsUsingBlock: /* Error: Ran out of types for this method. */;
-- (double)tChangeTokenData:moreComing:NSError:syncType:currentBatchCount:maxNumberOfBatches:shouldFetchArchivedRecords:activity:completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)notice-fanout-threshold;
++ (id);
++ (id);
+- (double);
+- (_Bool);
+- (_Bool);
+- (id);
+- (double);
+- (double);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) double completionDeadlineTime; // @synthesize completionDeadlineTime=_completionDeadlineTime;

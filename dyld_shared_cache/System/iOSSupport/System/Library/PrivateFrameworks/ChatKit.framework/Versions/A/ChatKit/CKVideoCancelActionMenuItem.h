@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (unsigned long long)°my¬;
-- (void)ex:(unsigned long long)arg1 writingDirection:remainingRect: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long touchDownCount; // @synthesize touchDownCount=_touchDownCount;

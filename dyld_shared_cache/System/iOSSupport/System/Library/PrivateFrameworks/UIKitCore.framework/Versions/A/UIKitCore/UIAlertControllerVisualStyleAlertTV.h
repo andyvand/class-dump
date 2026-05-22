@@ -16,24 +16,24 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct UIEdgeInsets);
 - (id);
-- (id)e, moving along;
-- (_Bool)om ckrecord with guid %@ has path %@, finalAssetPath %@;
-- (long long)er error last time(%@) so fetching from server;
-- (id)own is enabled. This check is in place to prevent FindMyLocate from crashing your process with a fatalError if you do not have the required entitlement.;
-- (id)essages process, or when lockdown is enabled. This check is in place to prevent FindMyLocate from crashing your process with a fatalError if you do not have the required entitlement.;
-- (double)g preview, utiSupported %@ isCMM %@ aux Video %@, calling completion directly;
-- (long long)for message %@ attachment index %lu ;
-- (long long)te file response message %@;
-- (double)D %@ modification date %@ since it is after %@;
-- (double)it is before %@;
-- (double)with record ID %@ modification date %@ since it is before %@;
-- (double)ch with %llu results, error:%@ /* Error: Ran out of types for this method. */;
-- (double)ification date after %@;
-- (_Bool)!!!!!!! *******************************;
-- (id)ch of attachments to cloudKit;
-- (struct UIEdgeInsets)%@ isInternal:(id)arg1 %@ isSeed:%@ /* Error: Ran out of types for this method. */;
-- (void)ter;
-- (double)m"16@?0@"IMMessageItem"8;
+- (id);
+- (_Bool);
+- (long long);
+- (id);
+- (id);
+- (double);
+- (long long);
+- (long long);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (_Bool);
+- (id);
+- (struct UIEdgeInsets);
+- (void);
+- (double);
 - (_Bool);
 - (double);
 - (double);
@@ -42,8 +42,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (double)mation:usingPresentationValues: /* Error: Ran out of types for this method. */;
+- (id)rcentFullScreen;
+- (double)c;
 
 @end
 

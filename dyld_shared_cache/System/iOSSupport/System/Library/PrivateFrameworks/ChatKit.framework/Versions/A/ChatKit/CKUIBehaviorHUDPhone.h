@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)Ømy¬;
+- (_Bool);
 - (_Bool);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
-- (_Bool)tesWelcomeViewController;
-- (id)ID;
+- (_Bool);
+- (id);
 
 @end
 

@@ -64,15 +64,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (long long);
 - (void);
 - (id);
-- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

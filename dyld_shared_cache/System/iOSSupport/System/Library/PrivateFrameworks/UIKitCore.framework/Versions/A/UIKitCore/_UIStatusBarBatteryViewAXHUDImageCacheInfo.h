@@ -27,19 +27,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (double);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
-- (void);
-- (id)tabBarProvider;
-- (void);
-- (id)ctionAnalytics] didBegin:sessionIdentifier=%@ /* Error: Ran out of types for this method. */;
-- (double)Jüÿïþÿzüÿ<Büÿ;
-- (void)ipeActions;
-- (void)wTarget with an invalid container:(id)arg1 %@;
+- (double);
+- (_Bool)!Eù±eð1Â0@ù
+× ;
+- (double){CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48{CGPoint=dd}80@96;
+- (void)chLongPressTimerWithDelay:(double)arg1 userInfo: /* Error: Ran out of types for this method. */;
+- (id)ed: /* Error: Ran out of types for this method. */;
+- (void)T@"NSString",C,N,V_navigationGestureMode;
+- (void),j|jl;
+- (id)xtNotification;
+- (void)unch;
+- (void)ªªJ@;
+- (void)H8^;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *cachedImage; // @synthesize cachedImage=_cachedImage;

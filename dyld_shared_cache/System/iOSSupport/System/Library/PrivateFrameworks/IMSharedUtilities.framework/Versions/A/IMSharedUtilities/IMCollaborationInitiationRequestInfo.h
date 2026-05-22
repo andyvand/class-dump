@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerSetupInfo, CKShare, NSURL, _SWCollaborationMetadata, _SWCollaborationShareOptions;
+@class CKContainerSetupInfo, CKShare, TUSandboxExtendedURL, _SWCollaborationMetadata, _SWCollaborationShareOptions;
 
 @interface IMCollaborationInitiationRequestInfo
 {
     long long _type;
     _SWCollaborationShareOptions *_options;
     _SWCollaborationMetadata *_metadata;
-    NSURL *_url;
+    TUSandboxExtendedURL *_url;
     CKShare *_share;
     CKContainerSetupInfo *_containerSetupInfo;
 }
 
-+ (_Bool)chatsNeedRemerging(_:groupedChats:) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -24,17 +24,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (long long);
-- (void)|;
-- (id)×ÿÿJTùÿBèÿ°\;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)ÓÜñ4y	×;
+- (id)4gPë;
 
 // Remaining properties
 @property(retain, nonatomic) CKContainerSetupInfo *containerSetupInfo; // @synthesize containerSetupInfo=_containerSetupInfo;
@@ -42,7 +42,7 @@
 @property(retain, nonatomic) _SWCollaborationShareOptions *options; // @synthesize options=_options;
 @property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
+@property(retain, nonatomic) TUSandboxExtendedURL *url; // @synthesize url=_url;
 
 @end
 

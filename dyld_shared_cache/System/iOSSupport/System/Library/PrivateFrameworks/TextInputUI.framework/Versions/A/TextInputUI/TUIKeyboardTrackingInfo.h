@@ -8,9 +8,9 @@
 {
 }
 
-+ (struct CGSize);
-- (struct CGSize)¢Qz;
-- (struct UIOffset){»z;
++ (struct CGSize);
+- (struct CGSize);
+- (struct UIOffset);
 - (id);
 
 @end

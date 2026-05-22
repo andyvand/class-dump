@@ -27,11 +27,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)Dictionary"@"NSError">32;
-- (id);
+- (id)¡n@;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTCoreModel *coreModel;

@@ -7,14 +7,9 @@
 @class NSString;
 
 @protocol MPMutableIdentifierSet
-- (void);
-- (void);
-- (NSString *)and  in " to ">
-. ] for  a  that ' with  from  by (. The  on  as  is ing 
-	:ed =" at ly ,='.com/. This  not er al ful ive less est ize  ous  the e  /* Error: Ran out of types for this method. */;
-- (_Bool)44;
-- (void) ;
-- (NSString *);
+- (NSString *)!ø@ù`°1Â0@ù
+× ;
+- (_Bool)L0xd@xHÌÍô¡Î;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *containerUniqueID;

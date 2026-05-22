@@ -31,14 +31,14 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id)AccessoryView;
+- (id);
+- (void);
+- (void)ä¤;
 
 // Remaining properties
 @property(nonatomic) long long freeItemCount; // @synthesize freeItemCount=_freeItemCount;

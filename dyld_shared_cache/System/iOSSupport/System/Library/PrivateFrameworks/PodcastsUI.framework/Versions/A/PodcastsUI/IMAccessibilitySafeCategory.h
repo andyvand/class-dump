@@ -8,7 +8,7 @@
 {
 }
 
-+ (void)9;
++ (void);
 + (void);
 
 @end

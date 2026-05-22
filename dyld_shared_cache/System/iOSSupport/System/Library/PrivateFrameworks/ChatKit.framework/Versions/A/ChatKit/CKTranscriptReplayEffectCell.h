@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool)®í;
-- (double)ForColumnID:rowID:createIfNeeded: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (double);
 
 @end
 

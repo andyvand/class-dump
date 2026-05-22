@@ -26,11 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (_Bool);
+- (void)trategyWithCapacity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;

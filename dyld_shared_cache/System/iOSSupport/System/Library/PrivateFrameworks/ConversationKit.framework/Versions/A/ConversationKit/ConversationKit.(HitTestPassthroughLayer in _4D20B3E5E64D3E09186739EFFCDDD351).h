@@ -9,9 +9,9 @@
 }
 
 - (_Bool);
+- (id)d¶K;
 - (id);
 - (id);
-- (id)__Qo__Qo_GA1_G	­ySbGG;
 
 @end
 

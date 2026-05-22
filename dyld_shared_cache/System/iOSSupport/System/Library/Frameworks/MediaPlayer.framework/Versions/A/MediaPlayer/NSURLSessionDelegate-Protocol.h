@@ -5,8 +5,5 @@
 //
 
 @protocol NSURLSessionDelegate
-
-@optional
-- (void)blic}s;
 @end
 

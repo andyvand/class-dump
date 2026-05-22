@@ -18,12 +18,12 @@
 - (int);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)tingKeyPathPayloadKey;
+- (id)T@"NSError",&,V_error;
+- (void)code not all 0:%llu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long selectionType; // @synthesize selectionType=_selectionType;

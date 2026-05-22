@@ -21,7 +21,7 @@
 
 + (id);
 + (void);
-+ (void)øîÌ;
++ (void);
 - (void);
 - (void);
 - (id);
@@ -42,12 +42,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id)erformExpensiveFetchOperations: /* Error: Ran out of types for this method. */;
+- (void)resentedContentForRunningContext:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)Name);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *activityData; // @synthesize activityData=_activityData;

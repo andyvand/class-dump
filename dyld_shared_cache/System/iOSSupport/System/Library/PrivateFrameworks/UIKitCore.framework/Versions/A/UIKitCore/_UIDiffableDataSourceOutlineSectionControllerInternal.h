@@ -10,7 +10,7 @@
 {
 }
 
-- (id)NSString"32@"NSDate"40;
+- (id);
 
 @end
 

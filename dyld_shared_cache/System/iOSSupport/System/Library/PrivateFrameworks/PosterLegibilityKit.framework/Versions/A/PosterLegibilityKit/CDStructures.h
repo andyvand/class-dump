@@ -48,6 +48,13 @@ struct CGSize {
     double height;
 };
 
+struct UIEdgeInsets {
+    double top;
+    double left;
+    double bottom;
+    double right;
+};
+
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };

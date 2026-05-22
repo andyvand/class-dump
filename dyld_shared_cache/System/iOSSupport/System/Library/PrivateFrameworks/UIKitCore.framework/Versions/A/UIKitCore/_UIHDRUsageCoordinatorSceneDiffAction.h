@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)erAppearance",C,N,S_setEdgeAttachedCompactHeightAppearance:(id)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

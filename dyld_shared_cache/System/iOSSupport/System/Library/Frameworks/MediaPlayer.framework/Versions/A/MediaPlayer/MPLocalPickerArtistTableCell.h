@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)Type:(struct CGRect)arg1 %lu, scheduleState %lu;
 - (void);
+- (void)setting;
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *artistLabel; // @synthesize artistLabel=_artistLabel;

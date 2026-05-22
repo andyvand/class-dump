@@ -12,6 +12,7 @@
     MISSING_TYPE *configuration;
     MISSING_TYPE *daemonClient;
     MISSING_TYPE *coreAnalyticsLogger;
+    MISSING_TYPE *observer;
 }
 
 @end

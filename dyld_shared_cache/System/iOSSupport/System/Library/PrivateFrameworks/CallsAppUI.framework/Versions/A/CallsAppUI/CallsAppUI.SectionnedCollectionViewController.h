@@ -16,6 +16,8 @@
     MISSING_TYPE *shouldUpdateOnAppear;
     MISSING_TYPE *configuredSectionHashes;
     MISSING_TYPE *finishedSectionReload;
+    MISSING_TYPE *contextMenuCancellable;
+    MISSING_TYPE *isArrowKeyPressed;
     MISSING_TYPE *diffableDataSource;
     MISSING_TYPE *sections;
     MISSING_TYPE *loadedDebounce;
@@ -23,30 +25,34 @@
 
 - (void);
 - (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)¨èGÿÿGGhÿÿG_}¤êyAT_SSAAyAKyAMG_AUtGQo_SgtGG_Ë©èyAYGtGGACtGGtGSgtGSg_AByABySIÈÖèGAGGSgAByA2_AGGSgAByAByÂèyAIyAAyAC_AmCtGGA_yAAyAM_¼ÿÿtGGGAGGAGGt;
+- (void);
+- (id)ewController"16@"NSString"24;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

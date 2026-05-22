@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)uredMultiplier;
+- (id);
 - (int);
+- (void)SKScrollView"24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

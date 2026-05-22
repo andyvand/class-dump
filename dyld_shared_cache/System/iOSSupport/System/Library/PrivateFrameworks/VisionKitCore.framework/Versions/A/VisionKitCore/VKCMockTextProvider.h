@@ -28,13 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (struct CGRect);
-- (id)sWithTypes:(struct CGPoint)arg1 inRegion: /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CGRect)@0:(id)arg1 8^{opaqueCMSampleBuffer=}16;
+- (id)a CGImage from an VKImage, but CGImage is nil:(struct CGPoint)arg1 %@;
+- (id)nt:(struct CGPoint)arg1 ];
 
 // Remaining properties
 @property(nonatomic) _Bool isRunningTest; // @synthesize isRunningTest=_isRunningTest;

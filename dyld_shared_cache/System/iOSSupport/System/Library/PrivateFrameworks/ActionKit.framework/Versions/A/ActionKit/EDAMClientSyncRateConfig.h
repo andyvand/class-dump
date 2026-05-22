@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)equired;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *syncStateIntervalMillis; // @synthesize syncStateIntervalMillis=_syncStateIntervalMillis;

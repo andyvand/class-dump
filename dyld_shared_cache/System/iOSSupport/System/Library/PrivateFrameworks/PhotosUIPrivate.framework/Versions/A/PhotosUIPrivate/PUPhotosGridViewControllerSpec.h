@@ -36,12 +36,12 @@
 - (unsigned short);
 - (long long);
 - (struct CGSize);
-- (void);
 - (double);
+- (void);
 - (id);
 - (struct UIEdgeInsets);
-- (unsigned long long)ion",R,N,V_filledButtonConfiguration;
-- (struct UIEdgeInsets)Library_Action_MoveToSharedLibrary;
+- (unsigned long long)mage;
+- (struct UIEdgeInsets),GisSelectionBadgeVisible,V_selectionBadgeVisible;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize baseInterItemSpacing; // @synthesize baseInterItemSpacing=_baseInterItemSpacing;

@@ -34,12 +34,12 @@
 - (long long);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
+- (void);
 - (double);
-- (void)lorOpcodeCurve0;
-- (struct UIEdgeInsets)tationTypeView;
-- (void)`;
+- (struct UIEdgeInsets)={CGPoint=dd}{CGSize=dd}}dQqd},N,V_values;
+- (void)iedTextureRequestsDuringViewResizing;
 
 // Remaining properties
 @property(nonatomic) long long inequality; // @synthesize inequality=_inequality;

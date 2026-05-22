@@ -41,14 +41,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
 - (void);
 

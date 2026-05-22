@@ -5,11 +5,12 @@
 //
 
 @protocol _UIKBFeedbackGenerating
-- (void)\DùñÂð1¢!0@ù
+- (_Bool)0@ù
 × ;
-- (void)peButton;
-
-@optional
-- (void)ancelledTransition;
+- (void)t: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)y",C,N,V_defaultConstraints;
+- (void)s to be wrong
+;
 @end
 

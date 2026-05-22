@@ -12,14 +12,14 @@
 }
 
 + (id);
-- (void)y. Relaying current SMS Filtering settings.;
+- (void);
 - (double);
 - (void);
-- (double)estion: /* Error: Ran out of types for this method. */;
-- (double)ngLoadRowAtIndexPath:withContext: /* Error: Ran out of types for this method. */;
-- (id),Vstage;
-- (void)er support methods should run on this version of iOS;
-- (double)ªºþ;
+- (double);
+- (double)emitValueChanged;
+- (double)FirstBaseline: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)6r;
 
 // Remaining properties
 @property(nonatomic) double bounce; // @synthesize bounce;

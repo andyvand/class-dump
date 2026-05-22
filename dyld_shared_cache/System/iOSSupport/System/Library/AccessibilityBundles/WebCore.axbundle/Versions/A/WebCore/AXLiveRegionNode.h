@@ -15,16 +15,16 @@
 }
 
 + (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;

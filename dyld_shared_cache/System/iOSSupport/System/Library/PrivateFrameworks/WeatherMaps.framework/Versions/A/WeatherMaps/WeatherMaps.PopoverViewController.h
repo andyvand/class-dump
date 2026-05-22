@@ -30,12 +30,12 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)0ñ;
+- (void);
+- (void);
+- (void);
 
 @end
 

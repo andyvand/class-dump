@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)MServiceReachabilityContext",&,N,V_context;
+- (id);
+- (id): /* Error: Ran out of types for this method. */;
+- (void)_setLiftDelay:(CDUnknownBlockType)arg1 ] instead.;
 - (void);
-- (void);
-- (id)urationForRowAtIndexPath:but returned %@. /* Error: Ran out of types for this method. */;
-- (void)itialSnapshot = %@;  finalSnapshot= %@; items = %@];
-- (void);
+- (void)èº;
+- (void)CGGradient;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *animationBlocks; // @synthesize animationBlocks=_animationBlocks;

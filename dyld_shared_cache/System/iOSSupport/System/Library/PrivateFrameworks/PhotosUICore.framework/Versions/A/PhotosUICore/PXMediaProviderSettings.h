@@ -13,15 +13,15 @@
     double _simulatedDelay;
 }
 
-+ (id)Ne9;
++ (id);
 - (double);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool simulateError; // @synthesize simulateError=_simulateError;

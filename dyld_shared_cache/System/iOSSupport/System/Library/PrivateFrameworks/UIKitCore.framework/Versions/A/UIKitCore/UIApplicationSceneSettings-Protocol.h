@@ -8,22 +8,17 @@
 @protocol BSInterfaceOrientationMapResolving><BSXPCSecureCoding;
 
 @protocol UIApplicationSceneSettings
-- (unsigned long long)I;
-- (NSNumber *);
-- (unsigned long long);
-- (id <BSInterfaceOrientationMapResolving><BSXPCSecureCoding>)apabilitiesSupportHighQualityPhotos: /* Error: Ran out of types for this method. */;
-- (_Bool):forAccount: /* Error: Ran out of types for this method. */;
-- (NSString *)erver;
-- (long long)ht;
-- (double)x°!ÀBùÑÍ1¢!0@ù
+- (NSString *)
 × ;
-- (struct UIEdgeInsets)2@0:8@"NSString"16@?<v@?@"NSData"@"NSError">24 /* Error: Ran out of types for this method. */;
-- (double)d;
-- (long long)referredLayoutRectsForConfiguration: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)uts;
-- (double);
-- (struct UIEdgeInsets)VVVVÖ?p=
-×£pÝ?;
+- (double)Ô ;
+- (struct UIEdgeInsets)ð1Â0@ù
+× ;
+- (double)Map;
+- (struct UIEdgeInsets)erDeletingBackward;
+- (struct UIEdgeInsets)ion: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)ht:%f
+ /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long accessibilityContrast;

@@ -8,20 +8,20 @@
 
 @interface DDBridgeNode
 {
-    int bridgeNodeType;
+    long long bridgeNodeType;
     DDBridgeBuiltin *builtin;
     DDBridgeConstantContainer *constant;
 }
 
 - (id);
-- (int);
+- (long long);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 
 // Remaining properties
-@property(nonatomic, readonly) int bridgeNodeType; // @synthesize bridgeNodeType;
+@property(nonatomic, readonly) long long bridgeNodeType; // @synthesize bridgeNodeType;
 @property(nonatomic, readonly) DDBridgeBuiltin *builtin; // @synthesize builtin;
 @property(nonatomic, readonly) DDBridgeConstantContainer *constant; // @synthesize constant;
 

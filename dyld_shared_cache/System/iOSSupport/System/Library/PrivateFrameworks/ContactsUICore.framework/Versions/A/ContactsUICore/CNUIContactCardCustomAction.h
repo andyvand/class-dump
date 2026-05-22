@@ -19,9 +19,9 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)sername;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;

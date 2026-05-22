@@ -14,15 +14,15 @@
     SNTestStore *_testStore;
 }
 
+- (id);
+- (id);
 - (_Bool);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool)criptionGroupID;
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIApplication *application; // @synthesize application=_application;

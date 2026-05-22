@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)existing database GUID %@;
+- (void);
 
 @end
 

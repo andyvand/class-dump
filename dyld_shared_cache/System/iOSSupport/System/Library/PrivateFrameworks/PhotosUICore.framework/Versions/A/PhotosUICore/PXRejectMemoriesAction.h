@@ -35,9 +35,9 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)­«Æ;
 - (unsigned long long);
 
 // Remaining properties

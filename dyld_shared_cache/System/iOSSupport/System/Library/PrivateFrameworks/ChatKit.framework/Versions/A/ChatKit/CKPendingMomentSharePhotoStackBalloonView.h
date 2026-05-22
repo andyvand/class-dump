@@ -12,11 +12,11 @@
 {
 }
 
-- (void)mebody** copied a subfolder;
+- (void);
 - (void);
 - (id);
 - (void);
-- (id)ationListScrollingController;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKPendingMomentSharePhotoStackBalloonViewDelegate> delegate; // @dynamic delegate;

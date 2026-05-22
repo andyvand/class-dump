@@ -17,9 +17,9 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (void);
 - (id);
-- (_Bool);
+- (void)XDataTableSelectorValidator";
+- (_Bool)ComponentAssembly;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAutoDarkModeEnabled) _Bool autoDarkModeEnabled; // @synthesize autoDarkModeEnabled=_autoDarkModeEnabled;

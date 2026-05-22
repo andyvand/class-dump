@@ -49,14 +49,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (long long);
-- (id);
 - (void);
 - (id);
-- (id)PFParallaxSpatialPhotoProducer>"16@"<PFParallaxSpatialPhotoProducerModelDownloadTask>"24B32@"NSError"36;
-- (void)þ;
+- (void)umZoomScale;
+- (void)`;
 
 // Remaining properties
 @property(nonatomic) __weak id <PHAssetCollectionDataSource> dataSource; // @synthesize dataSource=_dataSource;

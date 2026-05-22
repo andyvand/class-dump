@@ -30,21 +30,22 @@
 - (long long);
 - (void);
 - (void);
-- (struct CGRect)uthorityUUIDList;
-- (void);
-- (void);
-- (id);
-- (struct _NSRange);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (long long);
-- (id)tionController:solveStateChangedForExpressions:mathItems: /* Error: Ran out of types for this method. */;
-- (void)InputDebugRadarViewControllerDelegate>",W,N,V_delegate;
+- (struct CGRect);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)&ð1Â0@ù
+× ;
+- (struct _NSRange)hChange: /* Error: Ran out of types for this method. */;
+- (void)Hp;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;

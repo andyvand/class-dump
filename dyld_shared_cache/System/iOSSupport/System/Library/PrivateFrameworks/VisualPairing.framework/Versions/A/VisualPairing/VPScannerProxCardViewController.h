@@ -19,9 +19,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType scannedCodeHandler; // @synthesize scannedCodeHandler=_scannedCodeHandler;

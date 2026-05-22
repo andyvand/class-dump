@@ -12,10 +12,10 @@
     MISSING_TYPE *isMotionEnabled;
 }
 
+- (id);
 - (void);
-- (id)BaselineClickValue;
+- (id);
 - (void);
-- (id)!;
 
 @end
 

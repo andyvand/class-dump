@@ -25,21 +25,22 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)¤uØÿÿÿÿÿ;
+- (id)e Name;
+- (void)iÑG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

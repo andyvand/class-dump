@@ -34,16 +34,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (double);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
-- (void)0;
+- (id);
+- (void);
+- (void);
+- (void)d}24@0:8@"SXStandaloneTextLayout"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;

@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void)ccessTraits<uint64_t>, unsigned long long>, WTF:(unsigned long long)arg1:Ref<WebKit::GPUConnectionToWebProcess>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::GPUConnectionToWebProcess>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::GPUConnectionToWebProcess>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::GPUConnectionToWebProcess>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void);
+- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id)(;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleid; // @synthesize bundleid=_bundleid;

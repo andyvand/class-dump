@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long)@;
+- (unsigned long long);
 - (_Bool);
-- (void)h;
+- (void)e enabled, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTStateModelEntryExit *entryExit; // @synthesize entryExit=_entryExit;

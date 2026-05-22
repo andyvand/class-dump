@@ -15,8 +15,8 @@
     struct CGVector reactionForce;
 }
 
-+ (_Bool)ä;
-+ (id)ù;
++ (_Bool);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -25,9 +25,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void)lTexture:size: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool _implicit; // @synthesize _implicit=__implicit;

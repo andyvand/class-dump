@@ -30,19 +30,19 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void)_TtC15RemindersUICore34TTRMCustomEarlyAlertViewController;
+- (void);
+- (long long);
 - (void);
 - (id);
-- (id);
-- (long long);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
+- (id)ivityEvaluationURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *blockObserversForUUID; // @synthesize blockObserversForUUID=_blockObserversForUUID;

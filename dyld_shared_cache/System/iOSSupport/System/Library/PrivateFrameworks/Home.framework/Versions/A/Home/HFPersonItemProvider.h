@@ -24,11 +24,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id)tUpgradeOnboardingKey;
+- (void)acheDurationLimit;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

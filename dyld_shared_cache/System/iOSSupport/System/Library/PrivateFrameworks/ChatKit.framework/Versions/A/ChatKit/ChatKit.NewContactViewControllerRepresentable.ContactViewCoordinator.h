@@ -13,11 +13,11 @@
     MISSING_TYPE *_config;
 }
 
-- (void);
-- (void);
 - (_Bool);
 - (id);
-- (void)orizontalIndexTitleBar"24@"_UIFocusFastScrollingIndexBarEntry"32;
+- (void);
+- (void):animated:completion: /* Error: Ran out of types for this method. */;
+- (void)w;
 
 @end
 

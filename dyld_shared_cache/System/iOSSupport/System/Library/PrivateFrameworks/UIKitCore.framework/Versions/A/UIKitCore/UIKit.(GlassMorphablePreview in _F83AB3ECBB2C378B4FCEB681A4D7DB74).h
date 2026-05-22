@@ -13,11 +13,10 @@
     MISSING_TYPE *glass;
 }
 
-- (id)the newest chat with groupID:(id)arg1 %@ service:%@ /* Error: Ran out of types for this method. */;
-- (id);
 - (id);
-- (void)0@ù
-× ;
+- (id);
+- (id);
+- (void)ðl;
 
 @end
 

@@ -32,12 +32,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void)ÈÑå;
-- (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)_Nullable __strong, __strong id<PXPresentationEnvironment>, void (^ _Nullable __strong)(BOOL, NSError * _Nullable __strong))_block_invoke;
 - (void);
 
 // Remaining properties

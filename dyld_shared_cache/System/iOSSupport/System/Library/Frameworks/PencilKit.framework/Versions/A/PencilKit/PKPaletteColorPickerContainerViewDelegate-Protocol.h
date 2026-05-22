@@ -5,11 +5,5 @@
 //
 
 @protocol PKPaletteColorPickerContainerViewDelegate
-
-@optional
-- (void)nge"24@?<v@?q@"NSURLCredential">32;
-- (void)n"16@"NSError"24;
-- (void)6@24d32^@40;
-- (void)ionThrottlerDelegate>";
 @end
 

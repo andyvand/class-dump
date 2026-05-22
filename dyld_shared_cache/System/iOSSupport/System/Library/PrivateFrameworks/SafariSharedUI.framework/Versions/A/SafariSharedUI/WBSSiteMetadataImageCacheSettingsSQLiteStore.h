@@ -17,7 +17,7 @@
 }
 
 + (long long);
-+ (Class);
++ (Class);
 - (id);
 - (id);
 - (id);
@@ -33,22 +33,22 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)P;
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (void);
 - (void);
 - (int);
-- (id)_110shared_ptrINS_6vectorIN12_GLOBAL__N_112StrokeVertexENS_9allocatorIS3_EEEEE27__shared_ptr_default_deleteIS6_S6_EE;
-- (void);
 - (void);
 - (void);
 - (id);
-- (id)aultChecked}function textAreaElementLookLikeItIsPartOfASearchForm(e){return e instanceof HTMLTextAreaElement&&("search"===e.getAttribute("type")||("search"===e.inputMode||"search"===e.getAttribute("enterkeyhint")))}function isInputAllowedInSearchForm(e){const t=getLocalName(e).toLowerCase();if("button"===t||"fieldset"===t)return!0;if("select"===t)return isSelectInDefaultState(e);if("input"!==t&&!textAreaElementLookLikeItIsPartOfASearchForm(e))return!1;const n=e.type;return"radio"===n||"checkbox"===n?isCheckboxOrRadioButtonInDefaultState(e):"hidden"===n||"reset"===n||"submit"===n||"button"===n||"image"===n||isTextField(e)&&!isSecureTextField(e)}function isSearchForm(e){if("get"!==e.method)return!1;const t=elementsInFormPiercingShadowDOM(e),n=t.length;for(let e=0;e<n;++e)if(!isInputAllowedInSearchForm(t[e]))return!1;return!0}function visibleNonEmptyFormTextControlsInForm(e){let t=[],n=elementsInFormPiercingShadowDOM(e),r=n.length;for(let e=0;e<r;++e){let r=n[e];r.checkVisibility()&&(null!=r.value&&r.value.length&&isTextField(r)&&t.push(r))}return t}function shouldInputBeIncludedInSearchURLQuery(e){if(e.disabled)return!1;if(!e.name.length)return!1;if(!e.value.length)return!1;if(e instanceof HTMLSelectElement)return!0;var t=getLocalName(e).toLowerCase(),n=e.type;return"button"===t?"submit"===n:"input"===t&&("submit"===n||("checkbox"===n||"radio"===n?e.checked:"hidden"===n||isTextField(e)))}function searchTextFieldFormSubmissionURLString(e){const t=e.form;if(!t)return null;let n=t.getAttribute("action");if(!n||!n.length)return null;if(!/^https?:/i.test(t.action))return null;let r=null,i="",o=elementsInFormPiercingShadowDOM(t),u=o.length;for(let t=0;t<u;++t){let n=o[t];if((n===e||shouldInputBeIncludedInSearchURLQuery(n))&&(!isSubmitButton(n)||(r||(r=n),n===r))){i.length&&(i+="&");var l=n===e?"{searchTerms}":urlEncode(n.value);i+=urlEncode(n.name)+"="+l}}let s=document.createElement("a");return s.href=t.action,s.search=i,s.href}function handleFormSubmission(e){const t=e.target;if(!isSearchForm(t))return;const n=visibleNonEmptyFormTextControlsInForm(t);if(n.length>1)return;const r=n[0];if(!r)return;const i=searchTextFieldFormSubmissionURLString(r);i&&window.webkit.messageHandlers.quickWebsiteSearchDetectedSearchURL.postMessage(i)}window.addEventListener("submit",handleFormSubmission); /* Error: Ran out of types for this method. */;
-- (id)­6;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)argetLocale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSSQLiteDatabase *database; // @synthesize database=_database;

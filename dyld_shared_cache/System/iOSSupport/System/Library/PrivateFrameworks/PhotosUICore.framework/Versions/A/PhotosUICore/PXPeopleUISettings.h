@@ -33,7 +33,7 @@
     NSString *_debugContactIdentifier;
 }
 
-+ (id):9 /* Error: Ran out of types for this method. */;
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -76,9 +76,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)ing power assertion %{public}@ for identifier:%{public}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysShowBanner; // @synthesize alwaysShowBanner=_alwaysShowBanner;

@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (void)roviderSpecialization;
 - (void);
 - (void);
 - (void);
-- (void)U;
-- (_Bool)%@;
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (long long);
 - (long long);
 - (struct CGRect);
-- (void)//;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

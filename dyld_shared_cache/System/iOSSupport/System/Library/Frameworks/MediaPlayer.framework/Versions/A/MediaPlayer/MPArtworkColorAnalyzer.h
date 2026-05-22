@@ -13,14 +13,14 @@
 }
 
 + (id);
-- (id)"syndicationSecondsSinceReferenceDate"b1"highlightType"b1"rank"b1"isConversationAutoDonating"b1"isPrimary"b1};
-- (id)umbers:socialMediaHandles:attributes: /* Error: Ran out of types for this method. */;
-- (void);
-- (long long)`;
+- (id);
 - (id);
 - (void);
+- (long long);
 - (id);
 - (id);
+- (id);
+- (void),D,N;
 
 // Remaining properties
 @property(readonly, nonatomic) long long algorithm; // @synthesize algorithm=_algorithm;

@@ -12,11 +12,11 @@
     MISSING_TYPE *reactionPickerBubble;
 }
 
-- (void);
-- (id);
+- (id)XÁ;
 - (id);
 - (void);
 - (_Bool);
+- (void)ýG;
 
 @end
 

@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
     NSToolbarItem *_hostItem;
 }
 
-- (id)onary:operationGroupName:completion: /* Error: Ran out of types for this method. */;
-- (void)storyForIDs:(id)arg1 style:onServices:beforeGUID:afterGUID:chatID:queryID: /* Error: Ran out of types for this method. */;
-- (id)=;
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (struct CGSize);
@@ -31,12 +31,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (struct CGSize)ionContext;
-- (void);
-- (void)p°!ÈAùÑÃ1¢!0@ù
+- (unsigned long long);
+- (struct CGSize)!pAùÑX°1Â0@ù
 × ;
-- (unsigned long long)\ÿZÔrí^;
+- (void)l;
+- (void)àsÿ;
+- (void)/Ëæh;
 
 // Remaining properties
 @property unsigned long long controlSize;

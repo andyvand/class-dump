@@ -5,6 +5,6 @@
 //
 
 @protocol _UIViewInProcessDrivableAnimationManager
-- (void)G_MISSING__;
+- (void);
 @end
 

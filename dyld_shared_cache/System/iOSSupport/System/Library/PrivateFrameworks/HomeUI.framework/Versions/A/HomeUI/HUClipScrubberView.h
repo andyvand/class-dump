@@ -60,12 +60,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id)1b0@ù
-× ;
-- (unsigned long long)ôõ`;
+- (void);
+- (void)ter_PrivacyMessage;
+- (unsigned long long)rofileCG;
+- (id)(;
 
 // Remaining properties
 @property(retain, nonatomic) HUClipScrubberPlayheadView *backgroundPlayheadView; // @synthesize backgroundPlayheadView=_backgroundPlayheadView;

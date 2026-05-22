@@ -11,19 +11,18 @@
     _Bool _prefersLargeSize;
 }
 
-+ (id)reply for non 1-1 chat;
++ (id);
 + (unsigned long long);
 + (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)%@ for message GUID %@;
-- (_Bool)main=%@ Code=%ld;
 - (id);
-- (id)1¢!0@ù
-× ;
-- (id)CameraDeviceAvailable:(id)arg1;
+- (id);
+- (id);
+- (_Bool)etLaunchStickersButton:(id)arg1;
+- (id)eyboardCandidate",&,N,V_candidate;
 
 // Remaining properties
 @property(nonatomic, setter=_setPrefersLargeSize:) _Bool _prefersLargeSize; // @synthesize _prefersLargeSize;

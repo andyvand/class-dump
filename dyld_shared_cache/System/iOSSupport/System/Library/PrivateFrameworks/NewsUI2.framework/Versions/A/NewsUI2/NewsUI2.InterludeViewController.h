@@ -15,12 +15,12 @@
     MISSING_TYPE *animator;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ÌÞmn2;
+- (void);
+- (void);
+- (void);
 
 @end
 

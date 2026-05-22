@@ -18,10 +18,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)@0:8@16Q24@?32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;

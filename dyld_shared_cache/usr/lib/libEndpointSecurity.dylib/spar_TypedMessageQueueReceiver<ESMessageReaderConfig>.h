@@ -4,6 +4,6 @@
 
 class spar::TypedMessageQueueReceiver<ESMessageReaderConfig> {
 public: // (access info unavailable from symbols alone)
-    dequeueMessage();
+    auto dequeueMessage();
     ~TypedMessageQueueReceiver();
 };

@@ -40,8 +40,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property int ambientColorEstimationMode; // @synthesize ambientColorEstimationMode=_ambientColorEstimationMode;

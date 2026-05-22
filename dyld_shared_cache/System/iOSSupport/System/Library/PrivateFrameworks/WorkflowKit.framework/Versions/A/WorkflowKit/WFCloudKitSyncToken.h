@@ -21,7 +21,7 @@
     NSData *_syncFlagsCloudKitRecordMetadata;
 }
 
-+ (id)°myl¬Ö0%EÉ;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -36,19 +36,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)åÒ0ÁÚöª°7;
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)_;
+- (void)rd.circle.fill;
+- (id)Ø¢ÔÿÕ4¸;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *account; // @synthesize account=_account;

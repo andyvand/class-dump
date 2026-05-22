@@ -4,17 +4,16 @@
 
 class lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false>::const_iterator {
 public: // (access info unavailable from symbols alone)
+    auto operator++();
+    auto operator++() (.cold.1);
+    auto operator++() (.cold.2);
+    auto operator--();
+    auto operator--() (.cold.1);
+    auto operator--() (.cold.2);
+    auto prepareForInsertion();
+    auto prepareForInsertion() (.cold.1);
+    auto prepareForInsertion() (.cold.2);
+    auto prepareForInsertion() (.cold.3);
     const_iterator(lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false> const*, lsl::UUID const&, std::__1::less<lsl::UUID>);
     const_iterator(lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false> const*, lsl::UUID const&, std::__1::less<lsl::UUID>) (.cold.1);
-    operator++();
-    operator++() (.cold.1);
-    operator++() (.cold.2);
-    operator--();
-    operator--() (.cold.1);
-    operator--() (.cold.2);
-    operator<=>(lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false>::const_iterator const&) const;
-    prepareForInsertion();
-    prepareForInsertion() (.cold.1);
-    prepareForInsertion() (.cold.2);
-    prepareForInsertion() (.cold.3);
 };

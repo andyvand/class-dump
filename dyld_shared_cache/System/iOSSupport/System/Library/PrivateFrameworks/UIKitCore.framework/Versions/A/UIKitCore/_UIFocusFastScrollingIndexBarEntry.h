@@ -16,18 +16,18 @@
     NSIndexPath *_targetFocusedIndexPath;
 }
 
-+ (id)%@) timestamp:(id)arg1 (%@) Messages time date (%@) timestamp:(id)arg2 (%@) Server timestamp:(%@) /* Error: Ran out of types for this method. */;
-+ (id)old (%@).;
-+ (id)membership (%@) exceeds the fanout threshold (%@).;
++ (id);
++ (id);
++ (id);
 - (id);
 - (void);
-- (id)emoveAllControls;
-- (id)ctionForControlWithDictionaryRepresentation:(id)arg1;
-- (void);
 - (id);
-- (id)layConfigurationConnected:andNotify: /* Error: Ran out of types for this method. */;
-- (_Bool)ress;
-- (struct CGPoint);
+- (id);
+- (id);
+- (struct CGPoint)ewAboveText;
+- (id)ert document that already has an open or revert operation in flight:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint contentOffset;

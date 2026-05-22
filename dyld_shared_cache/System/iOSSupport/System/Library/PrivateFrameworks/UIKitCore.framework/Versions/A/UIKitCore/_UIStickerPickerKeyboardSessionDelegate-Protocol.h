@@ -7,6 +7,6 @@
 @protocol _UIStickerPickerKeyboardSessionDelegate
 
 @optional
-- (void)ctCache;
+- (void)Î;
 @end
 

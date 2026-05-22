@@ -11,10 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ayloadAllowFingerprintForUnlock:(id)arg1;
-- (_Bool)nizationalUnit;
-- (void)lbum.m;
-- (id)wAfterDelay: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (_Bool)!äCùQbð1Â0@ù
+× ;
 
 @end
 

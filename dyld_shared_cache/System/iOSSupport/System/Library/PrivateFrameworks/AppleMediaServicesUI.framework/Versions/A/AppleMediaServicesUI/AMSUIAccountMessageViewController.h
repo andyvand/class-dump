@@ -37,9 +37,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)"16;
+- (void);
+- (void)scriptor:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

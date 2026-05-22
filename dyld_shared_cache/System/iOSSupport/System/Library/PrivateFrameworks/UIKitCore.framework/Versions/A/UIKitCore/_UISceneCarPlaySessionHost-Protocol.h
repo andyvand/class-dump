@@ -8,9 +8,6 @@
 @protocol _UISceneCarPlaySessionTouchpadFeedbackDelegate;
 
 @protocol _UISceneCarPlaySessionHost
-- (void);
-- (void)%@;
-- (void)tLength must be non 0;
 
 // Remaining properties
 @property(nonatomic) unsigned long long availableInteractionModels;

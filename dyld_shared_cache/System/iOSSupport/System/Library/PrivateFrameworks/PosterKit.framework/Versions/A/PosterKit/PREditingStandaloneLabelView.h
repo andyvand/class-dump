@@ -18,14 +18,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PREditingStandaloneLabelViewInteractiveTransition *currentTransition; // @synthesize currentTransition=_currentTransition;

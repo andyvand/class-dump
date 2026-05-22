@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (id)UserPlayCount__MAPPING_MISSING__;
-- (void);
+- (id);
+- (void)ÿ6ûoþ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool didEndDisplaying; // @synthesize didEndDisplaying=_didEndDisplaying;

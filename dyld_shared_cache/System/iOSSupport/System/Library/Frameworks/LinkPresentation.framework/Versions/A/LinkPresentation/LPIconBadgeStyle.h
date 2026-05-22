@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double);
-- (void)ex.ru;
+- (void);
+- (double)üV;
 
 // Remaining properties
 @property(nonatomic) double offset; // @synthesize offset=_offset;

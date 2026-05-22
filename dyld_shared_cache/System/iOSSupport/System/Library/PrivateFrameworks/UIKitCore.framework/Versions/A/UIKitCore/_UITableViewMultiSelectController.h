@@ -14,51 +14,52 @@ __attribute__((visibility("hidden")))
     UIMultiSelectInteractionState *_currentSelectionState;
 }
 
+- (void);
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)@ùQÈ°1¢!0@ù
-× ;
-- (id)nForHostedWindow:inUserInterfaceIdiom: /* Error: Ran out of types for this method. */;
-- (void)eItems;
-- (void);
-- (_Bool)WidthMaxBump;
-- (void)justSteadyForceDurationIfNeeded:(id)arg1 event:(_Bool)arg2;
-- (_Bool)"_UIWindowAnimationController",&,N,G_animationController,S_setAnimationController:(id)arg1 ,V__animationController;
-- (_Bool)hildControllerToIgnoreWhileLookingForTransitionCoordinator:(id)arg1 ,V__childControllerToIgnoreWhileLookingForTransitionCoordinator;
-- (id)uttonItem",&,N,V_keyboardActionButtonItem;
-- (void);
-- (_Bool)n active popover presentation %@ from %@.;
-- (void)showsActivityIndicator;
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool)º~8;
-- (_Bool);
-- (id)À;
-- (void)´¾;
 - (void);
-- (void)Û÷[;
 - (_Bool);
-- (id)«¨b;
+- (void);
+- (void);
+- (id)Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)pShadowColor;
+- (void)dTerminator:(struct CGPoint)arg1 outputHandledByCaller: /* Error: Ran out of types for this method. */;
+- (void)ransitionToNewViewController:(id)arg1 arrowDirections:(_Bool)arg2 slideDuration:expandDuration: /* Error: Ran out of types for this method. */;
+- (void)ilingToKeyboardShortcutLeading;
+- (void)@"UILexicon",&,N,V_recentInputs;
+- (void)ñ;
+- (void)Location;
+- (_Bool)rror = %@;
+- (_Bool)tyControl;
+- (void)UITextFormattingViewControllerTextAlignmentRightComponent;
+- (void)g;
+- (void)faults;
+- (_Bool);
+- (_Bool)sFadeTransitionCSgXwz_Xx;
+- (void)7yà¿7Gt;
+- (void)tCXc_F03tG;
+- (_Bool)inkPresentation;
 - (id);
-- (_Bool)ÒÈÿåÍ6];
+- (_Bool);
+- (_Bool)@-DTû!	@;
+- (id)_BlurClippingMode;
 - (void);
-- (_Bool);
-- (_Bool);
-- (void)^;
-- (void)³;
-- (id)øÇÖ¤];
-- (_Bool)Äÿ;
+- (void);
+- (void)isualEffect;
+- (void);
+- (_Bool)23lÝ;
+- (_Bool)ponentSystemViewProviding;
+- (id)3Y«;
+- (void)}43 e;
+- (id),£[;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIMultiSelectInteractionState *currentSelectionState; // @synthesize currentSelectionState=_currentSelectionState;

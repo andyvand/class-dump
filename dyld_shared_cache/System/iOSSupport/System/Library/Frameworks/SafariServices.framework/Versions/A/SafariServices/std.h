@@ -4,5 +4,5 @@
 
 class std {
 public: // (access info unavailable from symbols alone)
-    terminate();
+    auto terminate();
 };

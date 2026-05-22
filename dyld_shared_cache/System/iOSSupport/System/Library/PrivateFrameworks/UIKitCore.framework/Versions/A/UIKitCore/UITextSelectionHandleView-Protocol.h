@@ -7,10 +7,9 @@
 @class UIBezierPath;
 
 @protocol UITextSelectionHandleView
-- (struct CGRect).;
-- (void)egistryWithQueryID:(UIBezierPath *)arg1;
-- (void);
-- (unsigned long long);
+- (unsigned long long)	
+HIJK;
+- (void)Collection view:(unsigned long long)arg1 %@ This will become an assert in a future version.;
 
 // Remaining properties
 @property(retain, nonatomic) UIBezierPath *customShape;

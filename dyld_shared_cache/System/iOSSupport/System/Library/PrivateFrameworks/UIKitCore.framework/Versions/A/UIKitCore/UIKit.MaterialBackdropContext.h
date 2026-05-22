@@ -12,10 +12,9 @@
     MISSING_TYPE *proxy;
 }
 
-- (_Bool)PlayerViewController:(id)arg1;
-- (void)!Fù±ÄÐ1¢!0@ù
-× ;
-- (id)lags: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)allowsUserInitiatedMultipleSelection;
+- (void)D;
 
 @end
 

@@ -5,6 +5,7 @@
 class PropertyList {
 public: // (access info unavailable from symbols alone)
     PropertyList(lsl::Allocator&);
-    encode(ByteStream&);
-    rootDictionary();
+    auto encode(ByteStream&);
+    auto rootDictionary();
+    ~PropertyList();
 };

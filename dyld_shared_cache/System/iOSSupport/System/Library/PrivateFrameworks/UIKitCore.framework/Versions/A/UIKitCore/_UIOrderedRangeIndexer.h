@@ -12,17 +12,18 @@ __attribute__((visibility("hidden")))
     struct shared_ptr<_UIOrderedRangeIndexerImpl> _orderedRangeIndexerImpl;
 }
 
-- (id);
-- (long long);
-- (void);
-- (id)N;
 - (struct _NSRange);
+- (id);
+- (struct _NSRange);
+- (id);
+- (id)0@ù
+× ;
+- (id)hInputMode:renderConfig:inputTraits:screenTraits:splitTraits: /* Error: Ran out of types for this method. */;
+- (long long)teAndApplySettingsForTransition;
+- (long long)ÈB<ChCèCXEF;
+- (struct _NSRange)ction %lu. The number of rows contained in an existing section after the update (%lu) must be equal to the number of rows contained in that section before the update (%lu), plus or minus the number of rows inserted or deleted from that section (%lu inserted, %lu deleted) and plus or minus the number of rows moved into or out of that section (%lu moved in, %lu moved out). Table view:(long long)arg1 %@;
+- (void)dexTitle:(struct _NSRange)arg1 atIndex: /* Error: Ran out of types for this method. */;
 - (void);
-- (long long)rce>"16@"UIImageSymbolConfiguration"24;
-- (id)l: /* Error: Ran out of types for this method. */;
-- (id)FittingPriority:verticalFittingPriority:hasIntentionallyCollapsedHeight: /* Error: Ran out of types for this method. */;
-- (struct _NSRange)NSString",C,N,V_sourceBundleIdentifier;
-- (struct _NSRange)utlineNode;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange containingRange;

@@ -5,6 +5,6 @@
 class CFX::RG::ResourceReference {
 public: // (access info unavailable from symbols alone)
     ResourceReference(CFX::RG::ResourceIdentifier);
-    reference() const;
-    textureDesc() const;
+    auto reference() const;
+    auto textureDesc() const;
 };

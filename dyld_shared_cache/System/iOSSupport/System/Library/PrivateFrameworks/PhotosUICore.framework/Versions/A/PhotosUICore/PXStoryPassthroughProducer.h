@@ -19,12 +19,11 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (id)olidBackgroundColor:(id)arg1;
-- (id)time:%@
- /* Error: Ran out of types for this method. */;
+- (id);
+- (id)%@ for its presentedVC:%@ to determine effectiveHDRFocus:%f /* Error: Ran out of types for this method. */;
+- (void)H;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsProgress; // @synthesize allowsProgress=_allowsProgress;

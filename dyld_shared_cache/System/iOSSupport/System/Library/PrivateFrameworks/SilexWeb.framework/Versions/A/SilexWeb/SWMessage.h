@@ -12,10 +12,10 @@
     NSDictionary *_body;
 }
 
-- (id)WithBlock: /* Error: Ran out of types for this method. */;
-- (id)nt;
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *body; // @synthesize body=_body;

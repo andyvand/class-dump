@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (id)mmendedIssues;
-- (int)¼¾;
+- (id);
+- (int);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

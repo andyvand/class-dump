@@ -16,12 +16,12 @@
 
 - (void *);
 - (long long);
-- (id)er>"@?@"BMBookmarkablePublisher">36;
+- (id);
 - (long long);
-- (id)omMe: /* Error: Ran out of types for this method. */;
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)ItemToLibraryCommand;
 
 // Remaining properties
 @property(readonly, nonatomic) void *television; // @synthesize television=_television;

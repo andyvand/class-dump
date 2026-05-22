@@ -14,20 +14,20 @@
 
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;

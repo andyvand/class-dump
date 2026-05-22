@@ -16,14 +16,14 @@
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)m;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *conditions; // @synthesize conditions=_conditions;

@@ -4,18 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
-
 @protocol CKPhotoBrowserViewControllerSendDelegate
-- (NSURL *)8küÕ;
-- (NSURL *)KüÕ;
-- (void)¾®í;
-- (void);
-- (void)Õ;
-- (void)®í;
-- (void)tedImage;
-- (void)q,N,V_biometricAuthenticationType;
-- (void);
-- (NSArray *)_AKSo9NSRunLoopCGAGGGSo6ICNoteCGGSg;
 @end
 

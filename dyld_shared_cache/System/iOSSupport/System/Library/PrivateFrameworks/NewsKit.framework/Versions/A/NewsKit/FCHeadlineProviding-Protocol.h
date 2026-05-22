@@ -5,10 +5,16 @@
 //
 
 @class FCArticleAudioTrack, FCAssetHandle, FCColor, FCCoverArt, FCHeadlineExperimentalTitleMetadata, FCHeadlineThumbnail, FCIssue, FCTopStoriesStyleConfiguration, NSArray, NSData, NSDate, NSString, NSURL;
-@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding;
+@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding, FCSportsEventProviding;
 
 @protocol FCHeadlineProviding
-- (_Bool)ndlePaid:channel: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (long long):8 /* Error: Ran out of types for this method. */;
+- (FCHeadlineThumbnail *)lePaid:channel: /* Error: Ran out of types for this method. */;
+- (_Bool)ÿÿ;
+
+@optional
+- (FCColor *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessoryText;
@@ -115,6 +121,8 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C,N
 
+@property(readonly, nonatomic) _Bool liveCoverageCompleted;
+@property(readonly, copy, nonatomic) NSDate *liveCoverageModifiedDate;
 @property(readonly, copy, nonatomic) NSString *localDraftPath;
 @property(readonly, nonatomic) long long minimumNewsVersion;
 @property(readonly, copy, nonatomic) NSArray *moreFromPublisherArticleIDs;
@@ -176,6 +184,7 @@
 @property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
 @property(readonly, copy, nonatomic) NSString *sourceName;
 @property(readonly, copy, nonatomic) NSString *sponsoredBy;
+@property(readonly, copy, nonatomic) id <FCSportsEventProviding> sportsEvent;
 @property(readonly, copy, nonatomic) NSArray *sportsEventIDs;
 @property(readonly, nonatomic) id <FCHeadlineStocksFields> stocksFields;
 // Preceding property had unknown attributes: ?
@@ -185,6 +194,7 @@
 @property(readonly, nonatomic) int storyType;
 @property(readonly, copy, nonatomic) NSString *surfacedByBinID;
 @property(readonly, copy, nonatomic) NSString *surfacedByChannelID;
+@property(readonly, nonatomic) long long surfacedByFlags;
 @property(readonly, copy, nonatomic) NSString *surfacedBySectionID;
 @property(readonly, copy, nonatomic) NSString *surfacedByTopicID;
 @property(readonly, nonatomic) NSArray *tagsExpiration;

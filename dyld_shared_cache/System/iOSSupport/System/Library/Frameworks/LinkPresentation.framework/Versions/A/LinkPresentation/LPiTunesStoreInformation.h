@@ -18,9 +18,9 @@
 }
 
 + (id);
-+ (unsigned long long)!P;
-+ (id)Ü;
-- (unsigned long long);
++ (unsigned long long);
++ (id)Ô ;
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -28,13 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (void) ;
-- (void)f;
 - (void);
+- (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id)e;
+- (void);
+- (id)atorID;
 
 // Remaining properties
 @property(readonly) unsigned long long capabilities;

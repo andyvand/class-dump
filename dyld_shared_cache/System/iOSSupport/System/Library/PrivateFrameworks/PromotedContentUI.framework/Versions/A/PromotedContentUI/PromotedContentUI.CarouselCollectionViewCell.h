@@ -13,15 +13,15 @@
     MISSING_TYPE *$__lazy_storage_$_captionView;
     MISSING_TYPE *$__lazy_storage_$_captionLabel;
     MISSING_TYPE *$__lazy_storage_$_blurImageView;
-    MISSING_TYPE *$__lazy_storage_$_filterView;
+    MISSING_TYPE *filterView;
     MISSING_TYPE *delegate;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

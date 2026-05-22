@@ -22,11 +22,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;

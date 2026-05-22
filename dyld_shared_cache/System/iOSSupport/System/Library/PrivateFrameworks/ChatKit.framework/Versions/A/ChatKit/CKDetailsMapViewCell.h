@@ -20,16 +20,16 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 - (_Bool);
-- (void)oalescingAndDelay;
 - (void);
 - (void);
-- (id)in operation %@;
-- (_Bool)TitleTextWithContentSizeCategory:isForPrint:isReducedSize:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (_Bool);
 - (void);
-- (void);
-- (id)¤;
+- (id)ributionViewMaxWidth;
+- (void);
+- (id);
+- (void)À;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

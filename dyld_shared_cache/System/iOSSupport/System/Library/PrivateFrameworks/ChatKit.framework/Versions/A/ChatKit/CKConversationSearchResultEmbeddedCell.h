@@ -16,10 +16,10 @@
 
 + (id);
 - (void);
-- (struct UIEdgeInsets)@ return %d;
-- (double)ayer;
-- (_Bool)l",N,R;
-- (void);
+- (struct UIEdgeInsets);
+- (double);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 

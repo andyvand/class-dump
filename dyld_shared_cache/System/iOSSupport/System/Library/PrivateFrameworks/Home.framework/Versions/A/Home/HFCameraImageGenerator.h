@@ -17,12 +17,12 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void)e;
+- (void)Switch;
 
 // Remaining properties
 @property(nonatomic) __weak id <HFCameraImageGeneratorDelegate> delegate; // @synthesize delegate=_delegate;

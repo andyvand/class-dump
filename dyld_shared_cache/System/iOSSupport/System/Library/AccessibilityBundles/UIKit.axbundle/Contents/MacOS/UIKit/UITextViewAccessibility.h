@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (void);
 - (id);
@@ -48,20 +48,20 @@
 - (id);
 - (long long);
 - (struct CGPoint);
-- (id);
-- (_Bool);
 - (void);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (void)parent was not ready:(struct _NSRange)arg1 %@;
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
+- (void)GSize=dd}}24@0:(struct _NSRange)arg1 8@"UITextPosition"16;
 
 @end
 

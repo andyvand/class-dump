@@ -15,10 +15,10 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *highestMatches; // @synthesize highestMatches=_highestMatches;

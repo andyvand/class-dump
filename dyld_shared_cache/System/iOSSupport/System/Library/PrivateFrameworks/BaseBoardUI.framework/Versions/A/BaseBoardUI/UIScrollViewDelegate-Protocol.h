@@ -5,9 +5,5 @@
 //
 
 @protocol UIScrollViewDelegate
-
-@optional
-- (void)j@`K@`,@`@`mL;
-- (void)f, CFStringRef);
 @end
 

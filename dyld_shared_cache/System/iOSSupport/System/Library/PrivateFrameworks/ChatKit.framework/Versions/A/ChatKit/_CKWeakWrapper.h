@@ -13,22 +13,23 @@ __attribute__((visibility("hidden")))
     Class _targetClass;
 }
 
-- (void)rWithRestrictedFilterToLocalAccount:(id)arg1;
+- (void);
 - (Class);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (void);
+- (Class);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (Class);
-- (void);
 - (_Bool);
-- (id);
-- (_Bool)oller;
-- (id)rDelegate;
-- (id)Ä°ÀÀ;
+- (void);
+- (_Bool)
+× ;
+- (void)Playback:(Class)arg1;
+- (id):(SEL)arg1;
+- (_Bool)GG;
+- (id)ate transcript while update is already in progress â chained completion handler called. Did call completion:(id)arg1 %p;
+- (void)istLargeTextCellIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) Class targetClass; // @synthesize targetClass=_targetClass;

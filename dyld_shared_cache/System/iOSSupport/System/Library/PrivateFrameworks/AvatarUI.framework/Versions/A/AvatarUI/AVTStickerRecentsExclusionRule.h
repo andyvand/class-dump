@@ -12,8 +12,8 @@
     NSString *_stickerConfigurationIdentifier;
 }
 
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);

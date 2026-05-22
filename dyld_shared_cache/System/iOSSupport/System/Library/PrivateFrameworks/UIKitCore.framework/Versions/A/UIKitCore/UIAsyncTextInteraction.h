@@ -15,32 +15,34 @@
 }
 
 - (void);
-- (void)o find chat with identifier:%s when trying to update hasCancellableScheduledMessage /* Error: Ran out of types for this method. */;
-- (void)hes short;
-- (void)@;
-- (id)properties to:%@ /* Error: Ran out of types for this method. */;
-- (id);
-- (void)",C,N,V_payloadFullSizeImageHashMD5;
 - (void);
 - (void);
-- (id)8@0:8f16@?20 /* Error: Ran out of types for this method. */;
-- (void)v;
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)rompt:(id)arg1 defaultText:(struct CGRect)arg2;
-- (void)alidIconSize;
-- (void)eView;
-- (void)<È;
-- (void)¼\$]¼](^t^;
-- (void)èÈ;
-- (void)will have undesired side effects;
-- (void)9a-z._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4};
-- (void)v16@?0@"NSError"8;
-- (id)Ò;
-- (void)eyboardTrackingElement;
-- (void)iþ;
-- (id);
+- (void);
+- (void);
+- (void);
+- (void)¡;
+- (id)
+× ;
+- (void)ñeÐ1Â0@ù
+× ;
+- (id)"16@"NSArray"24;
+- (void)firmPanelWithMessage:(id)arg1;
+- (void)taryContentInsetsReferenceInsets;
+- (void)ssInterfaceOrientation;
+- (id)ì¼;
+- (void)ng, UIView *const __strong);
+- (void)LinearLight;
+- (void)<pþ;
+- (void)ut;
+- (void)Ðþ°éÔõd;
+- (void)0Ág;
+- (void)@zÀÿGZ;
+- (void)$ôj;
+- (id)Àÿàñ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIContextMenuInteraction *contextMenuInteraction;

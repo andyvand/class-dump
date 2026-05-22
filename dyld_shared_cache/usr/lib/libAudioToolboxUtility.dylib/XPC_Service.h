@@ -4,8 +4,8 @@
 
 class XPC_Service {
 public: // (access info unavailable from symbols alone)
-    ConnectionCreated(_xpc_connection_s*);
-    ConnectionHandler(NSObject<OS_xpc_object>*);
-    ConnectionHandler(_xpc_connection_s*);
+    auto ConnectionCreated(_xpc_connection_s*);
+    auto ConnectionHandler(NSObject<OS_xpc_object>*);
+    auto ConnectionHandler(_xpc_connection_s*);
     ~XPC_Service();
 };

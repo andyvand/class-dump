@@ -21,9 +21,9 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
+- (void)meRequest:priority:queue:responseHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;

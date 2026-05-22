@@ -17,12 +17,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
 - (Class);
+- (unsigned long long);
+- (id);
 - (void);
-- (void)
-× ;
-- (id)n;
+- (void)rm;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *accounts; // @dynamic accounts;

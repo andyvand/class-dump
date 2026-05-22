@@ -75,9 +75,9 @@
 
 + (void);
 + (id);
-+ (void)Resource:(CDUnknownBlockType)arg1 inContainer: /* Error: Ran out of types for this method. */;
-+ (id)queId:(id)arg1 domainId:absoluteTimestamp:conversationId:fromHandle:toHandles:suggestedNickname:suggestedPhotoPath:content:accountIdentifier:accountHandles:accountType:attachment:URL: /* Error: Ran out of types for this method. */;
-+ (id)chments:(id)arg1 contentProtection: /* Error: Ran out of types for this method. */;
++ (void);
++ (id);
++ (id);
 
 @end
 

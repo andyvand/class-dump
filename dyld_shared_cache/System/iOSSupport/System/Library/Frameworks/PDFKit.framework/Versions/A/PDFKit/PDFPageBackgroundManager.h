@@ -24,23 +24,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool)40@0:8@"SFImage"16@"SFImageContext"24@?<v@?@"SFImage"@"NSError">32 /* Error: Ran out of types for this method. */;
-- (void)ard>"16@"<CRCard>"24@"<CRAsyncCardReceiptFeedback>"32;
-- (void)ionViewAppearanceFeedback>"24;
-- (void)wAppearanceFeedback>"24;
-- (id)SDraggingSession"24{CGPoint=dd}32@"NSIndexSet"48;
-- (void)eViewController"16@"NSString"24@"AFUserUtterance"32@"AFUserUtteranceSelectionResults"40;
-- (_Bool)SColor"16;
-- (_Bool)SiriSharedUICompactViewModelController";
-- (void)edUICompactViewModelController"16;
-- (void)0:8@16q24@?32 /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)beginTimestamp;
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)ijh8?k`;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Qv1Â0@ù
+× ;
+- (void)ront: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -33,14 +33,16 @@
 - (long long);
 - (void);
 - (long long);
-- (id);
-- (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (struct CGSize);
 - (id);
-- (CDStruct_e83c9415)ind;
+- (id)üð!ÀCùqIÐ1â
+0@ù
+× ;
+- (CDStruct_e83c9415)ions ##;
+- (void)8«;
 
 // Remaining properties
 @property(nonatomic) long long numberOfClips; // @synthesize numberOfClips=_numberOfClips;

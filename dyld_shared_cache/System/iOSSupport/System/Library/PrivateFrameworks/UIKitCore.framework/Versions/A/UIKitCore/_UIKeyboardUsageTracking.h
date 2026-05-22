@@ -11,46 +11,49 @@ __attribute__((visibility("hidden")))
 
 + (void);
 + (void);
-+ (void)v32@0:8@"NSTableView"16@"NSArray"24 /* Error: Ran out of types for this method. */;
-+ (void);
 + (void);
 + (void);
-+ (void)s_get_req_notify_metadata_only_items;
-+ (void);
-+ (void)tionshipGenericTVShow__MAPPING_MISSING__;
-+ (void)ready have a transaction started!;
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void)!4CùÁð1¢!0@ù
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void)0@ù
 × ;
 + (void);
-+ (void)1¢!0@ù
++ (void)^1Â0@ù
 × ;
-+ (void)v°!`GùQË°1¢!0@ù
++ (void)Ð!Eùcð1Â0@ù
 × ;
-+ (void)× ;
-+ (void)troller"16@"<UIDropSession>"24;
-+ (void)oint=dd}{CGSize=dd}}40@0:(long long)arg1 8q16{_NSRange=QQ}24;
-+ (void)isplay"B"willEndForConfiguration"B"styleForMenu"B"accessoriesForMenu"B"shouldBeDelayedByGestureRecognizer"B"asyncConfigurationForMenuAtLocation"B"overrideSuggestedActions"B"shouldAttemptToPresent"B"interactionEffectForTargetedPreview"B};
-+ (void)essionRefresh:(id)arg1;
-+ (void)cale:(double)arg1 renderingIntent:(long long)arg2;
-+ (void)xtItemMenuInteraction;
-+ (void)ame: /* Error: Ran out of types for this method. */;
-+ (void)cale;
-+ (void)sSearchInfo",R,N,V_searchInfo;
-+ (void)z;
-+ (void);
-+ (void)ä;
-+ (void)Responder;
-+ (void);
-+ (void)an active transaction. Tab model:%@ /* Error: Ran out of types for this method. */;
-+ (void)l;
-+ (void)tatusChanged;
-+ (void)ew controller:(double)arg1;
-+ (void);
-+ (void)þ;
++ (void)!,Bùqe1Â0@ù
+× ;
++ (void)@ù
+× ;
++ (void)0@ù
+× ;
++ (void)ectSpring: /* Error: Ran out of types for this method. */;
++ (void)aleTintMaskImage:(_Bool)arg1;
++ (void)ld;
++ (void)olor;
++ (void)rceMovement;
++ (void)viderForCopyingRange:(double)arg1;
++ (void)isibleCells:(_Bool)arg1 originalContentOffset:(int)arg2 originalContentHeight:focusedView:focusedViewType: /* Error: Ran out of types for this method. */;
++ (void)inedDimmingView;
++ (void)tedOverscanCompensation;
++ (void)ceedShouldReturn;
++ (void)rListItem",R,N,V_recentItem;
++ (void)alIndexPath;
++ (void);;
++ (void)erResolvedSizeChange;
++ (void)bugLogging;
++ (void)tionView.swift;
++ (void)4@f;
 + (void);
 
 @end

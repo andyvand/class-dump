@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
 - (id);
 - (void);
-- (void)@, Title = %@, Writeable = %@, Value = %@];
-- (CDUnknownBlockType);
+- (void)Ô;
+- (CDUnknownBlockType)Bä;
+- (void)þÿ¹5£¬ø;
 
 // Remaining properties
 @property(retain, nonatomic) HMBatchRequest *batchRequest; // @synthesize batchRequest=_batchRequest;

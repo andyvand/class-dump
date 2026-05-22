@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (id)/8;
+- (id)ionAssetContainer;
 
 @end
 

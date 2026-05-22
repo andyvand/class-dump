@@ -40,8 +40,8 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allSupportedSizes; // @synthesize allSupportedSizes=_allSupportedSizes;

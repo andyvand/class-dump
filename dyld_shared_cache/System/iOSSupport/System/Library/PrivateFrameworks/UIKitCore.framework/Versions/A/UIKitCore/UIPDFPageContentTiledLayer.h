@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
     CALayer *_selectionLayer;
 }
 
-- (void)dDate:fromMe: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)Ôan°!@ùqÀ°1¢!0@ù
-× ;
-- (id)etManager;
-- (void)Kÿ;
-- (void)¢óÇÐk;
+- (void);
+- (id);
+- (void)inalSnapshot = %@; updates = %@>;
+- (void)¾7yÇ¾7_GSgÞ¾7G;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

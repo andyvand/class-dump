@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSAttributedString *bannerAttributedSubtitle;

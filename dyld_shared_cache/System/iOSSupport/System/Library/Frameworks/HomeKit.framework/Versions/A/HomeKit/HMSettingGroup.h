@@ -16,7 +16,7 @@
     NSString *_name;
 }
 
-+ (_Bool)orTemperatureForBrightness:completion:] /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 @end
 

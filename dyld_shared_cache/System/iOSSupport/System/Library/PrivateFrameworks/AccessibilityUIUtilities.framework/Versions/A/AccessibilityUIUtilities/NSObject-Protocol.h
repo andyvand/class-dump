@@ -7,14 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool)V;
-- (struct _NSZone *)B;
-- (_Bool)P;
-- (id)KitCore/RelationshipResolver+ModelProxy.swift;
-- (id);
-
-@optional
-- (NSString *)%;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

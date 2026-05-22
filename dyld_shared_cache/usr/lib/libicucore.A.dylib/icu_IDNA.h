@@ -4,10 +4,10 @@
 
 class icu::IDNA {
 public: // (access info unavailable from symbols alone)
-    createUTS46Instance(unsigned int, UErrorCode&);
-    labelToASCII_UTF8(icu::StringPiece, icu::ByteSink&, icu::IDNAInfo&, UErrorCode&) const;
-    labelToUnicodeUTF8(icu::StringPiece, icu::ByteSink&, icu::IDNAInfo&, UErrorCode&) const;
-    nameToASCII_UTF8(icu::StringPiece, icu::ByteSink&, icu::IDNAInfo&, UErrorCode&) const;
-    nameToUnicodeUTF8(icu::StringPiece, icu::ByteSink&, icu::IDNAInfo&, UErrorCode&) const;
+    auto createUTS46Instance(unsigned int, UErrorCode&);
+    auto labelToASCII_UTF8(icu::StringPiece, icu::ByteSink&, icu::IDNAInfo&, UErrorCode&) const;
+    auto labelToUnicodeUTF8(icu::StringPiece, icu::ByteSink&, icu::IDNAInfo&, UErrorCode&) const;
+    auto nameToASCII_UTF8(icu::StringPiece, icu::ByteSink&, icu::IDNAInfo&, UErrorCode&) const;
+    auto nameToUnicodeUTF8(icu::StringPiece, icu::ByteSink&, icu::IDNAInfo&, UErrorCode&) const;
     ~IDNA();
 };

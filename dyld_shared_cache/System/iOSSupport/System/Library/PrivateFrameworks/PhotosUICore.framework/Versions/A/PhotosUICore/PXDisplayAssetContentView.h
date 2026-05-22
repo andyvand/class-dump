@@ -107,43 +107,43 @@
 - (void);
 - (long long);
 - (struct CGRect);
+- (id);
+- (long long);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (struct CGRect);
+- (id);
+- (id);
+- (void);
 - (void);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id)"16;
-- (id)Subtype: /* Error: Ran out of types for this method. */;
-- (id)EllipsisButton;
-- (id)urceWithSectionChanges:itemChanges: /* Error: Ran out of types for this method. */;
-- (void),V_preventNilTitles;
-- (id)$;
-- (void)Øûÿ;
-- (id)ûÿ;
-- (id);
-- (void)ByAE£ë yµí yæ _¹ê"yA41_GtGGGAByA45_A45_GGAByAByA45_3ZGABy2Z5ZGGGAByAByAByA52_A31_GA47_GAByAByA31_A31_GAByZZSgGGGGGâ y}é GG>ä yøÑYSgGGA71_yòÑYySo16UIViewControllerCGSgGGA71_yÐYGG_Qo_âõYGôâ yÞ)#GG_Qo_;
-- (void)ssed notifications of type %{public}s;
-- (void)enu_IncludeFromMyMac;
-- (struct CGRect)<ÿHo;
-- (void);
-- (void)nager;
-- (id)Lfÿ;
 - (struct CGSize);
+- (id);
 - (void);
-- (void)Î±6;
-- (void)[1gzÁ6;
-- (void)·ç6;
-- (id)E8;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)ration;
+- (id);
+- (void)or;
+- (void)ectionLayout;
+- (void)lyRestartStoryGenerationAfterUserDisambiguation;
+- (void)ntroller;
+- (void)¬xøÿHxûÿ;
+- (void)is false. Skip collecting visual diagnostics;
+- (id)position doesn't include all tiling controllers;
+- (id)XStoryChapteredComposabilityResults init];
+- (void)ntLayout _invalidateTimelineTranslationXAnimator];
+- (void)le;
+- (void);
+- (void)q;
+- (id)ôQ7;
+- (id)¨åÇÿq;
 
 // Remaining properties
 @property(nonatomic, getter=isAnimatedContentEnabled) _Bool animatedContentEnabled; // @synthesize animatedContentEnabled=_animatedContentEnabled;

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer;
-
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)actionDate:(UIGestureRecognizer *)arg1;
-- (_Bool)THQlR;
-- (_Bool)±Rð1¢!0@ù
-× ;
-- (_Bool)peInfo.mm;
-- (_Bool)istLevelFontName;
+- (_Bool)ÏÑ;
 @end
 

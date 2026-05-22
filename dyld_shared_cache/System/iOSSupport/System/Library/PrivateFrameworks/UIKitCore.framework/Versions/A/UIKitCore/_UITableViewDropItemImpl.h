@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
-- (id)?;
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)gistry;
-- (void);
+- (id);
+- (void)¿¡03yY1¿7_pG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

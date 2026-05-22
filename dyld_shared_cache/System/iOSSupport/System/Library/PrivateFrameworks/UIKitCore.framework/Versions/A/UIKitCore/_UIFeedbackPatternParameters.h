@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (void)entaryViewOfKind:(id)arg1;
+- (void)_cancelTouchPadTimer;
+- (id)èuþÿvÅîÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFeedbackPattern *pattern;

@@ -29,9 +29,9 @@
 - (void);
 - (Class);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void)$°%Ô(;
+- (void)is is useful if the app you are calling uses placeholders in the x-success URL to pass output. (WFXCallbackCustomSuccessURLEnabled);
 
 // Remaining properties
 @property(retain, nonatomic) LNActionMetadata *actionMetadata; // @synthesize actionMetadata=_actionMetadata;

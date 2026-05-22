@@ -5,6 +5,6 @@
 //
 
 @interface (null) (Normalized)
-+ (id)knames enabled, and we already have one in cloudkit. Broadcasting to my other devices.;
++ (id);
 @end
 

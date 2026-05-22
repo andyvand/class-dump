@@ -18,9 +18,9 @@
 - (_Bool);
 - (id);
 - (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id)nl6;
+- (id);
+- (void)hûÿ;
+- (void)PhotosAlbumCell_Previews;
 
 // Remaining properties
 @property(copy, nonatomic) PXMonthsLayoutMetrics *metrics; // @synthesize metrics=_metrics;

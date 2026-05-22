@@ -5,7 +5,5 @@
 //
 
 @protocol PurchaseIntentService
-- (void)3e;
-- (void);
 @end
 

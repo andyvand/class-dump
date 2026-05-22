@@ -5,19 +5,5 @@
 //
 
 @protocol WKNavigationDelegate
-
-@optional
-- (void)DeviceSearchHistory;
-- (void)PackedPage;
-- (void)ter;
-- (void)fablePagePresenter;
-- (void)etrics/impressions/viewableThreshold;
-- (void)impressions/viewablePercentage;
-- (void)ven-content;
-- (void)tion-enabled;
-- (void)stemApps;
-- (void)A;
-- (void);
-- (void)System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit;
 @end
 

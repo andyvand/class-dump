@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties

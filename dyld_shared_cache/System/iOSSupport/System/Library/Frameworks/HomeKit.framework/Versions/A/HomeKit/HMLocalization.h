@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)t;
 
 // Remaining properties
 @property(readonly, copy) NSArray *stringTable; // @synthesize stringTable=_stringTable;

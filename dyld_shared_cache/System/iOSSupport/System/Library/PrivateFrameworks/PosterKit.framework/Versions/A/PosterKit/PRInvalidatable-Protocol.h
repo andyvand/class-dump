@@ -5,6 +5,5 @@
 //
 
 @protocol PRInvalidatable
-- (void)public}@;
 @end
 

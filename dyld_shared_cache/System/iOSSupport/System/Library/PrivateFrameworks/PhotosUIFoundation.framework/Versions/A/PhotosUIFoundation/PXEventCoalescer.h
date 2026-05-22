@@ -29,17 +29,17 @@
 - (double);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (double);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
+- (void)nge:(_Bool)arg1 withKind:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPendingEvent;

@@ -22,35 +22,36 @@
 }
 
 + (id);
-- (_Bool)ociatedMessageType: /* Error: Ran out of types for this method. */;
-- (void)age;
-- (double);
+- (_Bool);
+- (void);
+- (double);
 - (struct CGSize);
-- (id)ctor;
+- (id);
 - (void);
-- (id)_$_maxSecondsPerWindow;
-- (double)idChatIdentifier;
+- (id);
+- (double);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)te of %f%% is too high. Increasing cache size to %ld bytes;
-- (void)is off;
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (struct CGSize)ECDHE-RSA-AES128-SHA256;
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (id)sUpdateRequesting;
-- (void), you need to add constraints inside it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:(_Bool)arg1 %@;
-- (void);
-- (void)·fi;
-- (void)Ä`ÿ×;Ôzm;
+- (void)
+× ;
+- (struct CGSize)ehaviorSettings";
+- (void)V_lastRowActualGap;
+- (void)der;
+- (void)not supported on iOS;
+- (id);
+- (void)Ômsþ;
+- (_Bool)Ul;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

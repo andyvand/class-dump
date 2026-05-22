@@ -4,12 +4,12 @@
 
 class CachedGrayBlockConfig {
 public: // (access info unavailable from symbols alone)
-    AddBlock(unsigned char, unsigned short, unsigned short);
     CachedGrayBlockConfig(unsigned short, unsigned short, ImgFrameFormat, unsigned short, unsigned short, ProgressCBHandler*);
-    ExtractBlock1stStage(unsigned int, unsigned char**, unsigned short&, ImgFrameFormat&);
-    ExtractBlockReadStage(unsigned int, unsigned char**, int&, int&, int&, int&, ImgFrameFormat&);
-    UpdateImageData(unsigned char*);
-    bumpSizeToScaleInd(unsigned char);
-    downsampleAndPadd(unsigned char);
+    auto AddBlock(unsigned char, unsigned short, unsigned short);
+    auto ExtractBlock1stStage(unsigned int, unsigned char**, unsigned short&, ImgFrameFormat&);
+    auto ExtractBlockReadStage(unsigned int, unsigned char**, int&, int&, int&, int&, ImgFrameFormat&);
+    auto UpdateImageData(unsigned char*);
+    auto bumpSizeToScaleInd(unsigned char);
+    auto downsampleAndPadd(unsigned char);
     ~CachedGrayBlockConfig();
 };

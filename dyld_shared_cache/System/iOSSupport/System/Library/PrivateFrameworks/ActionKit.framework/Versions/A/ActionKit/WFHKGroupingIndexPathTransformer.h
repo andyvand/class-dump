@@ -19,10 +19,10 @@
 - (id);
 - (long long);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)edSession;
+- (id)ailableToOpenURL:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)If the client attempted to authenticate via the "Authorization" request header field, the authorization server MUST respond with an HTTP 401 (Unauthorized) status code and include the "WWW-Authenticate" response header field matching the authentication scheme used by the client.;
 
 // Remaining properties
 @property(retain, nonatomic) NSCalendar *conversionCalendar; // @synthesize conversionCalendar=_conversionCalendar;

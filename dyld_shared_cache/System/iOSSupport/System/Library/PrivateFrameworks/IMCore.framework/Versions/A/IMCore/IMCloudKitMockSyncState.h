@@ -48,15 +48,6 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -66,9 +57,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id)feAccessTraits<uint64_t>, unsigned long long>, Traits = WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
-- (void);
+- (unsigned long long);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void)À2;
 
 // Remaining properties
 @property(retain) NSDate *IMCloudKitFullPartialSyncCompletedDate; // @synthesize IMCloudKitFullPartialSyncCompletedDate=_IMCloudKitFullPartialSyncCompletedDate;

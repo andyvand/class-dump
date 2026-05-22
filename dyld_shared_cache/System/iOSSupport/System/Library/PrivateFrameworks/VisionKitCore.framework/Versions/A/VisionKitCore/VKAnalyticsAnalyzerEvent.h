@@ -43,21 +43,22 @@
 - (long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (id);
+- (unsigned long long);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
 - (long long);
+- (void);
+- (void);
+- (id);
+- (void);
 - (struct CGSize);
+- (unsigned long long);
 - (void);
-- (unsigned long long)ove Background Resize";
+- (void)0@ù
+× ;
+- (void)e:(unsigned long long)arg1;
+- (unsigned long long)raction:session:didEndWithOperation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long analysisTypes; // @synthesize analysisTypes=_analysisTypes;

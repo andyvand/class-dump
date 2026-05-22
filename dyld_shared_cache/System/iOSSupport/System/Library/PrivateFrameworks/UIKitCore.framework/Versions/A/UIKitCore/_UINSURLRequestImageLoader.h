@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)ngLastSync;
-- (_Bool)onHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)hOptions. This is unexpected.;
+- (_Bool);
+- (id);
+- (void);
 
 @end
 

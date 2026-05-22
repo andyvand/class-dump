@@ -14,8 +14,8 @@
     struct CGRect _faceBoundingBox;
 }
 
-+ (id)Ä¨Ä;
-+ (_Bool)ltifunctionButtonTypeUnavailable;
++ (id);
++ (_Bool);
 
 @end
 

@@ -20,11 +20,10 @@
 
 - (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (double)ntationToAdapt;
-- (void)sName;
-- (id)eractionLargeVariantSpec";
+- (void);
+- (double)ionDurationUp: /* Error: Ran out of types for this method. */;
+- (id)olvesNaturalAlignmentWithBaseWritingDirection;
+- (void)D>÷ÿ!Ý;
 
 // Remaining properties
 @property(nonatomic) double _cornerRadius;

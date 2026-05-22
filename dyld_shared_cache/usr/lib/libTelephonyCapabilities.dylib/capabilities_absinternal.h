@@ -4,9 +4,10 @@
 
 class capabilities::absinternal {
 public: // (access info unavailable from symbols alone)
-    shouldIgnoreResets();
-    shouldIgnoreResetsForProduct(TelephonyProduct);
-    wakeReasonDebugEnabled();
-    wakeReasonDebugEnabled()::ret;
-    wakeReasonDebugEnabledForVendor(TelephonyRadioVendor);
+    auto shouldIgnoreResets();
+    auto shouldIgnoreResetsForProduct(TelephonyProduct);
+    auto wakeReasonDebugEnabled();
+    auto wakeReasonDebugEnabled()::ret;
+    auto wakeReasonDebugEnabledForVendor(TelephonyRadioVendor);
+    guard variable for wakeReasonDebugEnabled()::ret;
 };

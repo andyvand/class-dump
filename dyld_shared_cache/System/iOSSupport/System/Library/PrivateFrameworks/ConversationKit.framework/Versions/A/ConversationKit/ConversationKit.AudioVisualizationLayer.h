@@ -16,13 +16,13 @@
 }
 
 - (void);
+- (id);
+- (id);
+- (id);
 - (struct CGRect);
 - (void);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id)­y*­¶­Gx­Gê­yL­GGí­ySbGG;
+- (void)$s15ConversationKit34ParticipantsViewControllerDelegateP;
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

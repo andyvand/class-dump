@@ -11,19 +11,19 @@
     NSSet *_codecs;
 }
 
-+ (id)PÜRpV;
-+ (_Bool)ceRenamedNotificationKey;
++ (id);
++ (_Bool);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)Controllable>",W,V_settingsControl;
-- (id)event:%@, topic:%@ %@ /* Error: Ran out of types for this method. */;
+- (void)ÿÿ @;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

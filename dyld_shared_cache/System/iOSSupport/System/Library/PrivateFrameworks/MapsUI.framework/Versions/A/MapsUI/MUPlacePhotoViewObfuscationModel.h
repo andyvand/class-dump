@@ -15,9 +15,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)RIBBON_ITEM_TYPE_AMENITIES;
+- (void)presentStoreProductScreenWithMapItem:attribution:bundleIdentifier:attributionURLs:presentingViewController: /* Error: Ran out of types for this method. */;
+- (void)eparturesSection;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *providerName; // @synthesize providerName=_providerName;

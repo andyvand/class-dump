@@ -4,30 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CKCoreChatController, UIViewController;
+@class CKCoreChatController, UIViewController;
 @protocol CKConversationListControllerProtocol;
 
 @protocol CKMessagesNavigationProviding
-- (_Bool);
-- (void);
-- (void)Hrô;
-- (void)0EmÕ;
-- (void)¬;
-- (void)ô;
-- (void)Ä¬;
-- (void)Õ;
-- (void)vqô;
-- (void)oRange:(_Bool)arg1;
-- (void)c:(_Bool)arg1;
-- (void)lleryViewCustomContentDescription;
-- (void)itingDirectionAtIndex:(void (^)(void))arg1;
-- (_Bool)Event;
-- (void)erDomain:(_Bool)arg1;
-- (CKConversation *);
-- (void (^)(void))orC;
-- (void (^)(void))So7NSImageCSgIegg_;
-- (_Bool)8ICInlineAttachmentCSgG;
-- (UIViewController *);
 
 // Remaining properties
 @property(readonly, nonatomic) CKCoreChatController *chatController;

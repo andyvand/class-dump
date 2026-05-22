@@ -12,16 +12,16 @@
     NSMapTable *_observers;
 }
 
-+ (id);
++ (id)ceOptionsAdapter.m;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)transactionsWriting;
+- (void)äY¼ZÄZÀ[È[T]|`;
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *activeTimer; // @synthesize activeTimer=_activeTimer;

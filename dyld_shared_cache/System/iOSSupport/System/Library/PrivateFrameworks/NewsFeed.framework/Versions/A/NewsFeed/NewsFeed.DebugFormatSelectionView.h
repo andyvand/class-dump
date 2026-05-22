@@ -19,11 +19,12 @@
     MISSING_TYPE *selection;
 }
 
-- (void);
-- (void);
 - (id);
-- (void)ager;
-- (id)ëÂyëÂGG;
+- (void);
+- (id)¡îÐ!ÐGùÿ1Â0@ù
+× ;
+- (void)¬#Ô#x$ì&h';
+- (void)¸¶wþ-V: î$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -14,14 +14,14 @@
 + (id);
 - (void);
 - (id);
-- (void)for %@;
-- (void)non-sharable note.;
-- (void)because account is not authenticated {account:%@} /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
 - (void);
-- (id)Delegate;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)8&$ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UITextView *disclosureView; // @synthesize disclosureView=_disclosureView;

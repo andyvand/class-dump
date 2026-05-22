@@ -20,13 +20,13 @@
 + (struct CAColorMatrix);
 + (struct CAColorMatrix);
 - (void);
+- (id);
 - (struct CAColorMatrix);
-- (void): /* Error: Ran out of types for this method. */;
-- (struct CAColorMatrix);
-- (id)leanupAndSaveOnlyIfCleanedUp:(id)arg1;
-- (id),;
 - (id);
 - (id);
+- (id);
+- (void);
+- (struct CAColorMatrix);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CAColorMatrix backdropColorMatrix; // @synthesize backdropColorMatrix=_backdropColorMatrix;

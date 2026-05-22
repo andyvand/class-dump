@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool)|;
++ (_Bool);
 + (struct CGSize);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 + (struct CGImage *);
 + (struct CGImage *);
 + (id);

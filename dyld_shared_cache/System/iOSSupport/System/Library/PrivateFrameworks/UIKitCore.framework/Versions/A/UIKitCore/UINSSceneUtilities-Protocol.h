@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIWindow;
-@protocol UINSSceneSizeRestrictions;
-
 @protocol UINSSceneUtilities
-- (id <UINSSceneSizeRestrictions>);
-- (_Bool)AMFDRDataMemoryMultiCopyInternal;
-- (UIWindow *);
 @end
 

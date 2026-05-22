@@ -22,7 +22,6 @@
 }
 
 - (double);
-- (void)S;
 - (void);
 - (void);
 - (void);
@@ -42,13 +41,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (double)=;
-- (_Bool);
+- (double);
+- (id);
 - (id);
 - (void);
-- (id)romRect:inView: /* Error: Ran out of types for this method. */;
-- (id)emCSpyÅ¸î3GIggy_;
-- (void)?0@"UICommand"8@"NSString"16q24;
+- (void);
+- (_Bool)UITouch"32;
+- (id)activePressesEvent;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

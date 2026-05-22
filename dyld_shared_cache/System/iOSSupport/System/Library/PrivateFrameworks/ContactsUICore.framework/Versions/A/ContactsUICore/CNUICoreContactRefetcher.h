@@ -23,10 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)¦~þÿpºÿÿ;
 - (id);
+- (void)har: /* Error: Ran out of types for this method. */;
+- (id)ardGroupHeaderItemProtocol;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNUICoreContactStoreFacade> contactStore; // @synthesize contactStore=_contactStore;

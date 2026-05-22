@@ -14,9 +14,9 @@
 
 + (id);
 - (id);
+- (long long);
 - (id);
 - (void);
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;

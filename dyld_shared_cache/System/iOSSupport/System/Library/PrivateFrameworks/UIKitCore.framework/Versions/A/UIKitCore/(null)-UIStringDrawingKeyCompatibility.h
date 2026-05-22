@@ -5,10 +5,10 @@
 //
 
 @interface (null) (UIStringDrawingKeyCompatibility)
-- (int)@"NSString"16B24@"NSError"28@"NSString"36;
-- (id)?0@?<v@?>8;
-- (id)Enabled;
-- (int)s;
+- (int);
+- (id);
+- (id);
+- (int);
 - (_Bool);
 - (id);
 - (_Bool);

@@ -26,11 +26,11 @@
 - (id);
 - (void);
 - (void);
-- (long long);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (long long);
+- (void);
 - (void);
 
 // Remaining properties

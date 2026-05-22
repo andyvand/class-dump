@@ -39,10 +39,10 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id)Size="width"d"height"d};
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASCLockup *lockup; // @synthesize lockup=_lockup;

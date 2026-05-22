@@ -14,9 +14,10 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void):8@"SVVideoPlayerViewController"16 /* Error: Ran out of types for this method. */;
+- (id)%@
+;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

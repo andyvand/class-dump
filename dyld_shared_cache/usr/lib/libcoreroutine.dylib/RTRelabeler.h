@@ -26,29 +26,30 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (id));
-- (id)q`!;
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)incomingAccessoryData:fromAccessoryID:context: /* Error: Ran out of types for this method. */;
-- (id)peekOutboundBytes;
-- (id)fidence;
+- (id);
+- (id)ñB,Ð1Â0@ù
+× ;
+- (void)EnvironmentAtRisk, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTInferredMapItemDeduper *deduper; // @synthesize deduper=_deduper;

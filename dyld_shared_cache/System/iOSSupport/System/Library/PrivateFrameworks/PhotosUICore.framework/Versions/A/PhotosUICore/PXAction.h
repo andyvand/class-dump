@@ -37,10 +37,10 @@
 - (void);
 - (id);
 - (id);
+- (long long);
+- (void);
 - (id);
 - (void);
-- (void);
-- (long long)(¤¾ÿ=;HV5;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionIdentifier;

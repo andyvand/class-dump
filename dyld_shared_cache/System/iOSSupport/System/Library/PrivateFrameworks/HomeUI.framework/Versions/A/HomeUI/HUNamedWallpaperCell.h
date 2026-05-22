@@ -12,14 +12,14 @@
     UIImageView *_imageView;
 }
 
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
+- (long long);
 - (id);
-- (long long)EyAEyVv¹|vy;vGG{vyAHGGÒovGlzxGtGG_bvyACyQ~v_wvyA_A_GSgtGGtGG;
-- (void)À;
+- (id);
+- (void);
+- (void)em:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;

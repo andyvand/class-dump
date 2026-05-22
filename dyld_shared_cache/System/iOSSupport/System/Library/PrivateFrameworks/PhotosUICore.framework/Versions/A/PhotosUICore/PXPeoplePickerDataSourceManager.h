@@ -21,10 +21,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void)n8Ã:(CDUnknownBlockType)arg1 Ùbá[F¬÷/$1§ØDG²LS;
+- (void);
+- (void);
+- (void)rVStack;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPeoplePickerDataSource *dataSource; // @dynamic dataSource;

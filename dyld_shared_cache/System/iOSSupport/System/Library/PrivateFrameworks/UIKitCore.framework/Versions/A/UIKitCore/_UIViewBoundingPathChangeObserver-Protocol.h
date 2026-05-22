@@ -5,6 +5,5 @@
 //
 
 @protocol _UIViewBoundingPathChangeObserver
-- (void)ForegroundColor;
 @end
 

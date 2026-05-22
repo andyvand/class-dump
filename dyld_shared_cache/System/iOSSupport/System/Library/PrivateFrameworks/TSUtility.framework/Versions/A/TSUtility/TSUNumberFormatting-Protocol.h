@@ -4,16 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol TSUNumberFormatting
-- (NSString *)$;
-- (id);
-- (id);
-- (id);
-- (_Bool)3s�5;
-- (void);
-- (NSString *)ertexAttributes;
-- (_Bool)hKQoVt2DQgbW27-yiE8/Library/Caches/com.apple.xbs/Sources/FeldsparFrameworks/Modules/news-reader/NewsAnalytics/Session/SessionObserver+TextSizeData.swift;
 @end
 

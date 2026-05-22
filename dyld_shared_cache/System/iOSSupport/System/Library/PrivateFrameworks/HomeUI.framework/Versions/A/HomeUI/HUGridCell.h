@@ -62,21 +62,22 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)
+- (id)!XGùQ1â
+0@ù
 × ;
-- (void)- %@;
+- (id)SoftwareUpdatableItemProtocol;
+- (void)tyleServiceDetails_streaming-and-recording_Title;
+- (void)\o»ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long backgroundState;

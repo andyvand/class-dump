@@ -15,17 +15,17 @@
     RTMapItemProviderEventKitParameters *_parameters;
 }
 
-- (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)urationUpdateBlock;
-- (id);
-- (void);
-- (id);
-- (id)ier, %@, delay, %.1f;
-- (void)valid exit, %@ (in %s:(id)arg1 %d);
+- (void)}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

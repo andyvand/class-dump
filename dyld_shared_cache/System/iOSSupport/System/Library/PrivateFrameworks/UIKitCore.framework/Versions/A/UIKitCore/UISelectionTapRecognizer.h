@@ -15,10 +15,11 @@ __attribute__((visibility("hidden")))
     UIResponder<UITextInput> *_textView;
 }
 
-- (void)P;
-- (_Bool);
-- (void);
-- (id);
+- (void)
+× ;
+- (void)Identifier:(id)arg1 textColor:forceTextAlignmentCentered: /* Error: Ran out of types for this method. */;
+- (id)is will become an assert in a future version.;
+- (_Bool)\;
 
 // Remaining properties
 @property UIResponder<UITextInput> *textView; // @synthesize textView=_textView;

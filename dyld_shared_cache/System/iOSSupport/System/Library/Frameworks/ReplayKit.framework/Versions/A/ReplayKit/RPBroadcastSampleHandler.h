@@ -33,9 +33,9 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <RPBroadcastDaemonProtocol> daemonProxy; // @synthesize daemonProxy=_daemonProxy;

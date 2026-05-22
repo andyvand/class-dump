@@ -13,11 +13,11 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id)moreFrom;
-- (id)ionString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

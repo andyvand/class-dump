@@ -8,11 +8,19 @@
 @protocol MPCVideoOutputDelegate;
 
 @protocol MPCVideoOutput
-- (_Bool);
+- (_Bool)E;
+- (void);
+- (struct CGRect)rkTreatment;
+- (_Bool)SecondaryMac;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPictureInPicturePlayback;
 @property(nonatomic) _Bool allowsVideoFrameAnalysis;
+@property(nonatomic) _Bool canStartPictureInPictureAutomaticallyFromInline;
+@property(nonatomic) _Bool exitsFullScreenWhenPlaybackEnds;
+@property(readonly, nonatomic, getter=isExternalPlaybackActive) _Bool externalPlaybackActive;
+@property(nonatomic) _Bool hidesVideoPlayerBackground;
 @property(readonly, nonatomic, getter=isPictureInPictureActive) _Bool pictureInPictureActive;
 @property(readonly, nonatomic) AVPlayerLayer *playerLayer;
 @property(readonly, nonatomic) UIViewController *playerViewController;
@@ -20,6 +28,7 @@
 @property(readonly, nonatomic, getter=isReadyForDisplay) _Bool readyForDisplay;
 @property(nonatomic) _Bool showsPlaybackControls;
 @property(readonly, nonatomic) struct CGRect videoBounds;
+@property(nonatomic) _Bool videoEnabled;
 @property(copy, nonatomic) NSString *videoGravity;
 @property(nonatomic) __weak id <MPCVideoOutputDelegate> videoOutputDelegate;
 @end

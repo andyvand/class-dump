@@ -42,11 +42,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (long long);
-- (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -54,6 +53,7 @@
 - (void);
 - (id);
 - (id);
+- (void)zR;
 
 // Remaining properties
 @property(retain, nonatomic) HFActionNaturalLanguageOptions *actionNaturalLanguageOptions; // @synthesize actionNaturalLanguageOptions=_actionNaturalLanguageOptions;

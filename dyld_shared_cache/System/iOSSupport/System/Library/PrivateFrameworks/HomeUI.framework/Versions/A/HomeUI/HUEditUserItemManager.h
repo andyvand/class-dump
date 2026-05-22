@@ -84,10 +84,6 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -95,11 +91,15 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ces_FinishedOnboarding;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *allowEditingItem; // @synthesize allowEditingItem=_allowEditingItem;

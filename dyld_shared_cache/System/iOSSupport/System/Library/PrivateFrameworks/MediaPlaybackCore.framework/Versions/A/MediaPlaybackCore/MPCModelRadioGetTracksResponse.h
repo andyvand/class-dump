@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)· ITEM UPDATE                %{public}@ %{public}@;
 - (id);
 
 // Remaining properties

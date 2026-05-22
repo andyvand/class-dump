@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)iblePreviewImageLock;
 
 @end
 

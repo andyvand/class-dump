@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void)0S;
+- (void)model. Dismissing.;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *tilingControllers; // @synthesize tilingControllers=_tilingControllers;

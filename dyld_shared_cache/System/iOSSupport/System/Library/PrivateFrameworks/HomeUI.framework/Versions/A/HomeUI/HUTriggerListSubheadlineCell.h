@@ -29,16 +29,15 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id)!'ð!xFùQ1ð1b0@ù
-× ;
-- (void)NSString"24;
-- (id);
+- (void)- HomePodProfile [%@], selectedLanguageOption:[%@], languageOptions:[%ld], futuresCompleted:%lu, hasLanguageSettings:%{BOOL}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;

@@ -7,8 +7,7 @@
 @class NSOrderedSet;
 
 @protocol DOCTagRegistryProtocol
-- (void);
-- (void);
+- (_Bool)App;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *discoveredTags;

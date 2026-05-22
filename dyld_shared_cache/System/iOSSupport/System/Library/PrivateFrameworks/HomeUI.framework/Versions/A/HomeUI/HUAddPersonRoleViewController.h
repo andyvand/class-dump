@@ -30,16 +30,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
 - (long long);
+- (void);
 - (id);
-- (id)× ;
+- (void)NetworkConfigurationSettingsItemManager.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

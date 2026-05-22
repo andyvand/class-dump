@@ -18,10 +18,10 @@
 - (id);
 - (long long);
 - (id);
+- (id);
 - (void);
+- (id);
 - (long long);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

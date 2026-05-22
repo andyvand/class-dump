@@ -21,14 +21,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void){public}@;
+- (void)invoke;
+- (void)e workout (WFWorkoutDate);
+- (id)ä
+;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *destinationType; // @synthesize destinationType=_destinationType;

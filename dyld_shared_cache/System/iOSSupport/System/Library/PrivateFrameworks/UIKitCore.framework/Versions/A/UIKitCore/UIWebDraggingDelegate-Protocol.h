@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIWebDocumentView;
-
 @protocol UIWebDraggingDelegate
-
-@optional
-- (NSArray *);
-- (void)5;
-- (long long);
-- (NSArray *)eToken:(UIWebDocumentView *)arg1 clientChangeTokenData:(NSArray *)arg2 moreComing:NSError:syncType:currentBatchCount:maxNumberOfBatches:shouldFetchArchivedRecords:activity:completionBlock: /* Error: Ran out of types for this method. */;
 @end
 

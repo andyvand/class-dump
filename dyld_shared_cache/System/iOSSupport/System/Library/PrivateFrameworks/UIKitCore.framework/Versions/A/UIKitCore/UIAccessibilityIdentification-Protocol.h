@@ -7,8 +7,8 @@
 @class NSString;
 
 @protocol UIAccessibilityIdentification
-- (NSString *);
-- (void)ansitionFromActivationState:(NSString *)arg1 withReasonsMask: /* Error: Ran out of types for this method. */;
+- (void)lC;
+- (NSString *)to find calendar range for date %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityIdentifier;

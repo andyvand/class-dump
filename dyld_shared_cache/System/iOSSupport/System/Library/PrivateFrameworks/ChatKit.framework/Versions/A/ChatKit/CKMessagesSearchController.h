@@ -14,19 +14,19 @@
 
 + (_Bool);
 + (_Bool);
-+ (id)=QQ},N,Vrange;
++ (id);
 + (Class);
 + (id);
 + (id);
-- (double)tValue;
-- (id)r thumbnails;
-- (id)at isn't for height;
+- (double);
+- (id);
+- (id);
 - (struct NSDirectionalEdgeInsets);
 - (_Bool);
 - (id);
 - (_Bool);
+- (double);
 - (id);
-- (double)ggestion: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties

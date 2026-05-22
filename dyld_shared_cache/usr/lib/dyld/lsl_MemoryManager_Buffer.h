@@ -4,8 +4,8 @@
 
 class lsl::MemoryManager::Buffer {
 public: // (access info unavailable from symbols alone)
-    align(unsigned long long, unsigned long long);
-    consumeSpace(unsigned long long);
-    consumeSpace(unsigned long long) (.cold.1);
-    consumeSpace(unsigned long long) (.cold.2);
+    auto align(unsigned long long, unsigned long long);
+    auto consumeSpace(unsigned long long);
+    auto consumeSpace(unsigned long long) (.cold.1);
+    auto consumeSpace(unsigned long long) (.cold.2);
 };

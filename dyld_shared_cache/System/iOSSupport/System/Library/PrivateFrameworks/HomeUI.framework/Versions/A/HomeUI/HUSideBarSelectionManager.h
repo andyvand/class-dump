@@ -16,7 +16,7 @@
     id <HUSideBarSelectionManagerDelegate> _delegate;
 }
 
-+ (id);
++ (id)aSmartNotificationCondition: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -38,8 +38,8 @@
 - (id);
 - (void);
 - (void);
-- (id)=dd}24@40;
-- (void)n:(id)arg1;
+- (id);
+- (void)nting HUSoftwareUpdateLicenseViewController;
 
 // Remaining properties
 @property(retain, nonatomic) HUDashboardContext *currentContext; // @synthesize currentContext=_currentContext;

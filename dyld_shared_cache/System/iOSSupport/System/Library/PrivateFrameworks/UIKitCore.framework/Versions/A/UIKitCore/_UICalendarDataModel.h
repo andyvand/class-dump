@@ -21,23 +21,23 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)tAVManagerRequested:(id)arg1 URLToShare: /* Error: Ran out of types for this method. */;
-- (id)v84@0:8@"IMDRelayPushHandler"16@"NSDictionary"24@"NSString"32@"NSString"40@"NSData"48@"NSString"56@"NSNumber"64B72@"NSNumber"76 /* Error: Ran out of types for this method. */;
-- (id)lMessagesAsNeedingCloudKitSync;
-- (void)account added %@;
-- (id)assed in a nil records array;
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)åº;
-- (id)!8GùQÌ°1¢!0@ù
+- (void);
+- (id);
+- (id);
+- (void)a°!@ù]°1Â0@ù
 × ;
-- (id)ew;
-- (void)6@?0@"UIPreviewAction"8;
-- (void)lection View:(id)arg1 %@;
-- (void)Â~ÿwÍ>`;
-- (id)`¿ÿ8ÈZFc;
+- (id)rrentDropContext: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)K;
+- (void)ÿ;
+- (id)$Ýd;
+- (id)øXe;
 
 // Remaining properties
 @property(copy, nonatomic) NSDateInterval *availableDateRange; // @synthesize availableDateRange=_availableDateRange;

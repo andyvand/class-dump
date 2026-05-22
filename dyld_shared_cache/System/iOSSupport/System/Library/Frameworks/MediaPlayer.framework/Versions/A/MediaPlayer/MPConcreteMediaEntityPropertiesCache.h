@@ -19,19 +19,19 @@ __attribute__((visibility("hidden")))
     id <MPMediaLibraryDataProvider> _dataProvider;
 }
 
++ (id);
 - (id);
-- (Class)thFieldPath:typeRawValue:convertedTypeRawValue:sqliteContext:error: /* Error: Ran out of types for this method. */;
-- (void)ageRepresentation:(id)arg1;
-- (void)bsoluteTimestamp:(id)arg1;
-- (void)emDescription:(id)arg1 itemLocalizedPrice:(CDUnknownBlockType)arg2 thumbnailPath:ageRating:starRating:productType: /* Error: Ran out of types for this method. */;
-- (id)Name;
+- (Class);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (void)°ïÿ+Õ;
-- (void)â
-;
+- (void)ertedItemIndexPaths;
+- (void)st(identifier AS INT) != 0;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPMediaLibraryDataProvider> dataProvider; // @synthesize dataProvider=_dataProvider;

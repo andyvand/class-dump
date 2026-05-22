@@ -12,10 +12,11 @@
 }
 
 - (struct CGImage *);
-- (id)';
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)ð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, readonly) VNSession *session;

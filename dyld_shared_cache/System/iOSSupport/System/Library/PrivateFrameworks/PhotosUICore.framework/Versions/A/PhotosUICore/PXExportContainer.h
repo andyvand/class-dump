@@ -16,14 +16,13 @@
 + (id);
 + (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id)Q|Ð1b0@ù
-× ;
-- (id)l{;
-- (id)AssetsCount;
+- (void);
+- (id)vent: /* Error: Ran out of types for this method. */;
+- (id)_showContentSyndication;
+- (id)xtureProvider",&,N,V_stringTextureProvider;
+- (void)xt;
+- (id)DDºÿLÈ­6;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *assets;

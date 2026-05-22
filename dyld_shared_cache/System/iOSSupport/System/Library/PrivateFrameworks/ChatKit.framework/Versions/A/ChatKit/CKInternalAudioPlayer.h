@@ -24,30 +24,30 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (void);
 - (_Bool);
 - (void);
-- (void)ka	;
+- (void);
 - (void);
 - (void);
 - (double);
 - (void);
 - (void);
 - (void);
+- (double);
 - (void);
-- (void)rView;
-- (void)ses: /* Error: Ran out of types for this method. */;
-- (id)«yy«yë~«_«h«yAAyAAy\«z«y!~«SgGG`r«yâ«GGAFyAFyAAyAAyAG­L«GAOGAAyÝxüÿAOGGAFyÍ«ASGGGtGGpl«yÊ«GG;
-- (void)A4fRtGGGtGGSgAAyACySayÅ)=GAU¬yAQyi¬yÞ¬y_¬G_AAyAQyAF_A5FtGGtGGGGSgGGAByAByAiByA3_y$¬ÏÎüÿGA16_GGS¬GGG;
-- (float)B&­_­yS­_ADSg%+­yAFyAFyAAy_]­y]­GACy~<­yAFyýâ­yAFyAD/­G¤Y­ySayÛé=Gû¬Xæ­ybW­yAJy9æ­yADW­GADGGGGGD/­G¶>yAMGG_X­SgA4_tGGFýÿG@)­GA11_GSgtGG;
-- (void)®SgGGSgQo_8Ï®yªn¯GG_SSAIQo_G
-r?G_r?tG;
-- (double)ActionHandler;
-- (double)nameKey;
-- (void)[;
+- (id);
 - (void);
-- (_Bool)ýlÿa3].;
+- (void);
+- (void);
+- (float);
+- (void);
+- (double)0@ù
+× ;
+- (_Bool)onOnboarding enabled;
+- (void);
+- (void)/;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentTime;

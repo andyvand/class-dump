@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UICoordinateSpace;
-
 @protocol _UIPopoverPresentationControllerSourceItem_Internal
-- (struct CGRect)imit:(id <UICoordinateSpace>)arg1;
 @end
 

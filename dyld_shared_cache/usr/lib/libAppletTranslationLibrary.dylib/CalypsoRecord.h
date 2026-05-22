@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned char)ags:usedTags:defaultOptions: /* Error: Ran out of types for this method. */;
 - (id);
+- (unsigned char);
 - (void);
 
 // Remaining properties

@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSPointerArray *_observers;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
 - (unsigned long long);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

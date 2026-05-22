@@ -19,31 +19,30 @@
     NSDictionary *_itemInfo;
 }
 
-+ (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id)thPersonID:(id)arg1 block:(id)arg2;
-- (id);
++ (id)× ;
 - (id);
 - (void);
-- (long long)=iº;
-- (void)
-× ;
-- (id)Å1¢!0@ù
-× ;
-- (void)sume;
-- (id)ractionChangedMutatingTranslation:velocity: /* Error: Ran out of types for this method. */;
-- (id)ier;
-- (id)stedDisplayModeToToolbarAndConfig: /* Error: Ran out of types for this method. */;
-- (id)w;
-- (id)ÿ$ämþô®þÿP9ûÿ;
-- (id)ium;
-- (_Bool)#[;
+- (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (id)FPageImageCache";
+- (_Bool)@"<UIContentContainer>"16{CGSize=dd}24;
+- (id)eAdjustment: /* Error: Ran out of types for this method. */;
+- (id)PressDuration;
+- (id)orName;
+- (id)pendCGFloat:(id)arg1;
+- (id)s:(id)arg1;
+- (id)erFlags;
+- (id)ngIndicator;
+- (id)Controller;
+- (id)v#Lyôy
+Ð{;
+- (id)Ät;
+- (void);
+- (long long)4Øyÿ KÊh%];
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSHashTable *allRequiredPlacements; // @synthesize allRequiredPlacements=_allRequiredPlacements;

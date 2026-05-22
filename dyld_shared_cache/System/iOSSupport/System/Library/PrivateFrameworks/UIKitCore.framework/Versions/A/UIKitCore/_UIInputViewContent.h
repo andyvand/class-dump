@@ -19,15 +19,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)";
-- (unsigned long long)nToken:receivedByHandleID:fromHandleID:messageDate: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ndNicknameInfoToURIs:chatGUID: /* Error: Ran out of types for this method. */;
-- (void)deForHandle:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)nService;
-- (_Bool)tusMessage;
 - (void);
-- (struct CGSize)lScenes;
-- (void)nalSelectionInsets;
+- (unsigned long long);
+- (struct CGSize);
+- (void);
+- (void);
+- (_Bool);
+- (struct CGSize)|;
+- (void);
+- (void)rFluidUpdateSource;
 
 // Remaining properties
 @property(nonatomic) unsigned long long _unclippableCorners; // @synthesize _unclippableCorners;

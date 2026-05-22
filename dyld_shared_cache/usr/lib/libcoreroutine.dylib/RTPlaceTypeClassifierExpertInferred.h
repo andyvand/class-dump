@@ -22,16 +22,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)hOUUIDs:name:appGroups: /* Error: Ran out of types for this method. */;
-- (void)nitPacket(Exchange) validateSAInitAsResponder:(id)arg1 errorCodeToSend:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id);
-- (void)Z;
-- (id):includeVisits:includeTransitions:] /* Error: Ran out of types for this method. */;
+- (id)tination _locationsInDateInterval:horizontalAccuracy:error:] /* Error: Ran out of types for this method. */;
+- (void)sitions, %lu, error(s), %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTBiomeManager *biomeManager; // @synthesize biomeManager=_biomeManager;

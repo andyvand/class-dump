@@ -16,22 +16,22 @@
     CDUnknownBlockType _completionHandler;
 }
 
-+ (id);
-- (void)@"NSString"32@"NSString"40q48@?<v@?@"NSURL"@"NSError">56;
-- (void)pectedServiceForCrossServiceReplacement:(_Bool)arg1;
-- (void)erformCapabilitiesQueryRequest:completion: /* Error: Ran out of types for this method. */;
++ (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (id)ion"16;
-- (void)arametersSuitableForView:(id)arg1;
-- (id)oller:sourceController:originalPresentationController: /* Error: Ran out of types for this method. */;
-- (void)À;
-- (void)ut;
-- (void)ntroller"40d48;
-- (id)ÿ;
+- (id)elegate>";
+- (CDUnknownBlockType)Rect: /* Error: Ran out of types for this method. */;
+- (void)ion:(id)arg1;
+- (id)acheForImage: /* Error: Ran out of types for this method. */;
+- (void)tyleEffectConfiguration",&,N,G_cuiStyleEffectConfiguration,S_setCuiStyleEffectConfiguration:(id)arg1;
+- (id)rnerSize;
+- (void)õ13xñnþ13Døÿí13hñnþí13|þõ13`ð¸þ;
+- (void)bí;
 
 // Remaining properties
 @property(copy, nonatomic) UIVisualEffect *backgroundEffect; // @synthesize backgroundEffect=_backgroundEffect;

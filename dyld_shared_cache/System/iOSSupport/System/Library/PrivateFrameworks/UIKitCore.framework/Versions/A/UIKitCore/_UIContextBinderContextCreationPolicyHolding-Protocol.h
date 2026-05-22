@@ -5,7 +5,5 @@
 //
 
 @protocol _UIContextBinderContextCreationPolicyHolding
-- (_Bool)ù
-× ;
 @end
 

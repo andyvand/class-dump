@@ -14,13 +14,12 @@ __attribute__((visibility("hidden")))
     id <_UIUpdateHIDAbstractInput> _inputs[3];
 }
 
-+ (id)Ðÿ
-¨p;
++ (id)orceSync: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)A;
 - (void);
-- (id)_pointerInteraction;
-- (void)b;
+- (id);
+- (void)tion:(id)arg1;
+- (void);
 
 @end
 

@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     id <_UITextFieldClearButtonImageProviding> _imageProvider;
 }
 
-+ (Class)umentDifferenceSize",R,N,V_dueToRecentChangesBeforeSaving;
++ (Class);
+- (id);
 - (id);
 - (void);
-- (void)undMaterial:(id)arg1 forState: /* Error: Ran out of types for this method. */;
-- (_Bool)à?;
-- (void);
-- (id)ÿ0´­3;
+- (void)iondz;
+- (_Bool)|[;
+- (void)¤×[;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextFieldClearButtonImageProviding> imageProvider; // @synthesize imageProvider=_imageProvider;

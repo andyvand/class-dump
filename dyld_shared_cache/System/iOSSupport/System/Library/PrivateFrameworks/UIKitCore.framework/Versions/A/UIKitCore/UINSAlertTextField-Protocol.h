@@ -7,14 +7,14 @@
 @class NSString, UIColor;
 
 @protocol UINSAlertTextField
-- (void)qÎð1¢!0@ù
+- (NSString *)0@ù
 × ;
-- (void)oStateRequest:(UIColor *)arg1 predictedEndState:predictedDuration: /* Error: Ran out of types for this method. */;
-- (void)ateConstraintsIfNeededWithViewForVariableChangeNotifications:(NSString *)arg1;
-- (NSString *)_originatedInHostedWindow;
-- (long long)W,N,V_delegate;
-- (NSString *)bar;
-- (void);
+- (void)ges:(long long)arg1;
+- (UIColor *)usEnvironments;
+- (void)yer;
+- (long long)NavigationBarNSToolbarProxyTabBarItemProviding;
+- (NSString *)¸;
+- (void)è³Àþà:(UIColor *)arg1 xþ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityLabel;

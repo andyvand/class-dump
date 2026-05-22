@@ -31,8 +31,8 @@
 - (id);
 - (id);
 - (id);
-- (void)(;
-- (id);
+- (id);
+- (void)Öãÿÿ$!ÿÿ¦=ÿÿè!ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *activeTelephonyConversationUUID; // @synthesize activeTelephonyConversationUUID=_activeTelephonyConversationUUID;

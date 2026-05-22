@@ -5,7 +5,5 @@
 //
 
 @protocol SXDebugLayoutOptionsProviding
-- (struct CGSize);
-- (void);
 @end
 

@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);

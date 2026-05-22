@@ -36,7 +36,7 @@
 - (id);
 - (id);
 - (void);
-- (void)0e;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PFPosterMediaSuggestion *centerMedia; // @synthesize centerMedia=_centerMedia;

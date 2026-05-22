@@ -17,13 +17,11 @@
 + (id);
 - (id);
 - (struct CGRect);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)Aa
-!Bù11¢!0@ù
-× ;
+- (id);
+- (void);
 
 @end
 

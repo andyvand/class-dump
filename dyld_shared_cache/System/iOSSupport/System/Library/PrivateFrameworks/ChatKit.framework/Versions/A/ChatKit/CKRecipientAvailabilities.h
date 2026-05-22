@@ -12,20 +12,19 @@
     MISSING_TYPE *reachabilities;
 }
 
-- (void)pected non-nil value for attachment.note:(id)arg1 %@;
-- (id)Info] == ((void*)0);
-- (id)yDebounceTime];
-- (id)line state;
+- (void);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)0@ù
-× ;
+- (id);
+- (id);
+- (void)eViewDelegate;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

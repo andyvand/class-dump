@@ -21,12 +21,12 @@
 
 + (id);
 + (id);
-+ (void)8@?<v@?@"NSXPCListenerEndpoint"@"NSError">16;
-+ (void)64@72@80B88q92;
-+ (id)l;
-+ (_Bool)kmark: /* Error: Ran out of types for this method. */;
-+ (_Bool)FailureReason;
-+ (id)d;
++ (void);
++ (void);
++ (id);
++ (_Bool);
++ (_Bool);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -36,17 +36,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool)8I16@20@28;
-- (void)or:(id)arg1;
-- (void)Entity;
-- (void)rtTime:endTime:maxEvents:lastN:options: /* Error: Ran out of types for this method. */;
-- (void)rkEnumerator:error: /* Error: Ran out of types for this method. */;
-- (void)nAccess:tableName: /* Error: Ran out of types for this method. */;
-- (void)ore;
-- (id)p:(id)arg1 topics:entities:locations:contentProtection: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)_identifierSets;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,10 +13,10 @@
 }
 
 - (void);
-- (id)nKey;
-- (id);
-- (void);
-- (id)ômrÿÇ¢5ÐÇ-;
+- (id);
+- (id);
+- (void)}};
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSToolbarItem *appKitToolbarItem; // @synthesize appKitToolbarItem=_appKitToolbarItem;

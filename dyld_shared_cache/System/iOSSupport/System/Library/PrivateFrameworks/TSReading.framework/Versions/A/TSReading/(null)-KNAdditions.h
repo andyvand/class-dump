@@ -6,6 +6,6 @@
 
 @interface (null) (KNAdditions)
 - (void);
-- (id)a";
+- (id);
 @end
 

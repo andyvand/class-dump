@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     struct _NSRange _attachmentRange;
 }
 
-- (void)eRequestRunnerP;
 - (void);
-- (id);
+- (void);
 - (struct _NSRange);
+- (id);
+- (id);
 - (void);
-- (id)Font:(struct CGRect)arg1 constrainedToSize:(id)arg2 lineBreakMode:(unsigned long long)arg3;
 
 // Remaining properties
 @property(nonatomic) struct _NSRange attachmentRange; // @synthesize attachmentRange=_attachmentRange;

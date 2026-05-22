@@ -11,25 +11,24 @@
     UICalendarView *_view;
 }
 
-- (void)nfoArray:(id)arg1 nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)N,V_mutableProperties;
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool)}};
-- (void)lly sent nickname to message (%@) to destinations %@;
-- (void)number (%lu, old:%lu), dropping transitioned list update /* Error: Ran out of types for this method. */;
-- (void)yptionKey:(id)arg1 %@);
-- (void)Clearing nickname ignored records, error:(id)arg1 %@;
-- (void)le to store in Public Database, aborting fanout to other devices;
-- (void)odern API completed;
-- (_Bool)rocessingPipelineComponent> Started processing reposition sticker command for message GUID:(id)arg1 %@;
 - (_Bool);
-- (id)(;
-- (void)1Ã°1¢!0@ù
-× ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
-- (void)idated supplementary view. Element kind:(id)arg1 %@; index path:%@; supplementary view:%@; attributes from layout:%@; attributes from view:%@; collection view:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)t;
+- (void)Ði;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

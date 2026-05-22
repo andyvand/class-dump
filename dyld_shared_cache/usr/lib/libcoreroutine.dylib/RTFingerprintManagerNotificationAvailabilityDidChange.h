@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (_Bool)airingRequired;
 - (id);
+- (_Bool)ing new mirroring request, %@ with existing mirroring request, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool available; // @synthesize available=_available;

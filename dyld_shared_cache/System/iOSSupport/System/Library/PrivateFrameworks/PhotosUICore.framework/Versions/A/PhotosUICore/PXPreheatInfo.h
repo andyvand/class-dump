@@ -20,10 +20,10 @@
 - (id);
 - (long long);
 - (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
+- (id)",?,C,N;
+- (void)umeration> _Nonnull, NSUInteger * _Nullable, PXDisplayAssetMediaType * _Nullable);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long cachedBytes; // @synthesize cachedBytes=_cachedBytes;

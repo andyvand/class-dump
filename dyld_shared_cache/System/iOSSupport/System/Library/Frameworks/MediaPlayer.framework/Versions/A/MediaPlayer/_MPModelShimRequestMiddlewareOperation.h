@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (CDUnknownBlockType);
 - (void);
+- (void)nabled;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

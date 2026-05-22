@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned char);
 - (void);
-- (void)truct_pass_step(4286):(unsigned int)arg1 cfg 5 elements; (5*4) cfg bytes != (%d) buffer bytes;
-- (unsigned int)4) cfg bytes != (%d) buffer bytes;
 - (void);
 - (unsigned int);
+- (unsigned int);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int amount; // @synthesize amount=_amount;

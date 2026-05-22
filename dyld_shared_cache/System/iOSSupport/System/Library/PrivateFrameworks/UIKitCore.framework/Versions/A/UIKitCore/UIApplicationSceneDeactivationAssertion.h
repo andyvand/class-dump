@@ -14,24 +14,23 @@
     _Bool _acquired;
 }
 
-- (id)loadADForceHomeLocalFlag;
-- (void);
 - (void);
 - (id);
 - (long long);
-- (void);
-- (void)¡p!äBùqÃ1¢!0@ù
+- (id);
+- (id);
+- (_Bool);
+- (void)0@ù
 × ;
 - (CDUnknownBlockType)
 × ;
-- (id)±Í1¢!0@ù
-× ;
-- (_Bool)onContainerView;
-- (id)ews;
-- (id)hs:(id)arg1;
-- (id)ransformView;
+- (id)8@52{CGSize=dd}60;
+- (id)nceStorage;
+- (id)tialProjectionDeceleration;
 - (id);
-- (void)»åÐzi;
+- (void)LayoutManagerCSgXw;
+- (void)hÐyþ;
+- (void)1r;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAcquired) _Bool acquired; // @synthesize acquired=_acquired;

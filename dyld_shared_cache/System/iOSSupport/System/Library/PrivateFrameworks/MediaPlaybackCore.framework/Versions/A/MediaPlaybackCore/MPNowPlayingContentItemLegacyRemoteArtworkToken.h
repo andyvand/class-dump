@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id).beaconmanager;
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)ic}@] reshuffleWithTargetContentItemID:completion:| committing edit [data source replacement completed] resolvedStartingContentItemID=%{public}@ /* Error: Ran out of types for this method. */;
+- (id)À;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;

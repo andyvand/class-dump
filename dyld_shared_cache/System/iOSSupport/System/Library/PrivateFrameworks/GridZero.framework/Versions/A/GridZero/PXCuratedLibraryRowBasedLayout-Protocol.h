@@ -5,7 +5,6 @@
 //
 
 @protocol PXCuratedLibraryRowBasedLayout
-- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double buildingRowContentHeight;

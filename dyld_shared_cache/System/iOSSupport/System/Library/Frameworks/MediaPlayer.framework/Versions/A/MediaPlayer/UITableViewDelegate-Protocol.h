@@ -4,17 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
-
 @protocol UITableViewDelegate
-
-@optional
-- (void);
-- (_Bool);
-- (double)`;
-- (void)C;
-- (NSIndexPath *);
-- (void);
-- (void)el.mlmodelc in the bundle resource;
 @end
 

@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)eservation;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *etaString; // @synthesize etaString=_etaString;

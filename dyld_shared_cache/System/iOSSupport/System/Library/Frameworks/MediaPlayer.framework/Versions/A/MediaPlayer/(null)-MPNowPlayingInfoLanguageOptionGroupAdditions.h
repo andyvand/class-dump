@@ -5,6 +5,6 @@
 //
 
 @interface (null) (MPNowPlayingInfoLanguageOptionGroupAdditions)
-- (id)nDirection: /* Error: Ran out of types for this method. */;
+- (id);
 @end
 

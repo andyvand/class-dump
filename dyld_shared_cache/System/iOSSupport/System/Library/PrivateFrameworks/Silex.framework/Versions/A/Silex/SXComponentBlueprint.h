@@ -31,7 +31,7 @@
     struct CGRect _backgroundViewFrame;
 }
 
-+ (_Bool)_shouldShowLoadingIndicator;
++ (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
@@ -46,7 +46,7 @@
 - (void);
 - (void);
 - (id);
-- (id)?;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -63,20 +63,20 @@
 - (void);
 - (void);
 - (struct CGRect);
+- (id);
+- (void);
+- (id);
+- (void);
 - (struct UIEdgeInsets);
-- (void);
-- (struct CGRect);
-- (id);
-- (id);
-- (void);
-- (void);
+- (struct CGRect);
 - (void);
 - (_Bool);
-- (id);
 - (void);
-- (struct UIEdgeInsets);
-- (struct CGRect)er:restoreUserInterfaceForPictureInPictureStopWithCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)ùÁ#;
+- (id);
+- (void)ionButtonTextProviding>";
+- (void)entController"16;
+- (struct UIEdgeInsets)ithStorage:interactiveCanvasController: /* Error: Ran out of types for this method. */;
+- (struct CGRect)entInteractionHandlerFactory>"16@?0@"<TFResolver>"8;
 
 // Remaining properties
 @property(nonatomic) struct CGRect absoluteFrame; // @synthesize absoluteFrame=_absoluteFrame;

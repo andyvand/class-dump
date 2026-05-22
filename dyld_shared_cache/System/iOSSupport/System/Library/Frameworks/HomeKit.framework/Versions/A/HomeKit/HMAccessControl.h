@@ -13,17 +13,17 @@
     unsigned long long _cachedHash;
 }
 
-+ (_Bool)1;
-- (void);
++ (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id)oad: /* Error: Ran out of types for this method. */;
-- (unsigned long long)es not implement supports media actions update:%@ /* Error: Ran out of types for this method. */;
-- (void)me:(id)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)d. lastStart:%@ lastEnd:%@ firstStart:%@ /* Error: Ran out of types for this method. */;
+- (id)?0@"NSError"8B16;
+- (void)ïÿ((£Ø;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long cachedHash; // @synthesize cachedHash=_cachedHash;

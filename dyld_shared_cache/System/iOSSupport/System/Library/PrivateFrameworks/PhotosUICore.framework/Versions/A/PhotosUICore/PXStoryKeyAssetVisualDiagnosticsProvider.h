@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)qiIq}{?=qiIq}}{?=qiIq}{?=qiIq}{?={?=qiIq}q}q{?=qiIq}d{?=qiIq}qc{?=qiIq}}40@0:8{?=qiIq}16 /* Error: Ran out of types for this method. */;
+- (id)thsChapter:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryVisualDiagnosticsProviderHelper *helper; // @synthesize helper=_helper;

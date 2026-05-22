@@ -18,8 +18,9 @@
     MISSING_TYPE *feedConfigurationRawValue;
 }
 
-- (void);
 - (id);
+- (void)Ð)¸
+;
 
 @end
 

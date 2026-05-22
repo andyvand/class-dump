@@ -5,6 +5,5 @@
 //
 
 @protocol TUIKeyViewLayoutDelegate
-- (void);
 @end
 

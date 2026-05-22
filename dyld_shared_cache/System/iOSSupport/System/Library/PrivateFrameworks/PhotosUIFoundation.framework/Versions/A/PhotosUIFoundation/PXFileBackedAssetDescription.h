@@ -17,13 +17,13 @@
 + (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)Rect:(id)arg1 ,V__lastVisibleRect;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *previewImage; // @synthesize previewImage=_previewImage;

@@ -12,25 +12,28 @@ __attribute__((visibility("hidden")))
     struct CGRect _boundingRect;
 }
 
-+ (_Bool)´XZÿíb;
++ (_Bool)ContinuationProgressWindowSuppressed;
 - (struct UIEdgeInsets);
 - (id);
-- (struct CGRect);
-- (void);
-- (struct CGRect);
-- (struct CGRect)kView",&,N,V_subtitleStackView;
 - (id);
-- (struct CGRect);
 - (id);
-- (void);
-- (_Bool)ÔÁpð!0@ù±Ã°1¢!0@ù
+- (id);
+- (id);
+- (struct CGRect)Áÿð!0@ùÑX°1Â0@ù
 × ;
-- (id)ckerViewControllerInit;
-- (_Bool);
-- (struct CGRect)ailable = YES;
-- (_Bool)delegate prepare for %@ with range={%lu, %lu};
-- (id)wController:(id)arg1 forColumn:(struct CGRect)arg2 ];
-- (id)UIAppearanceDark;
+- (_Bool)
+× ;
+- (struct CGRect)ù
+× ;
+- (struct CGRect)VFD;
+- (void)ly:(id)arg1;
+- (id);
+- (_Bool)WithZone:(struct CGRect)arg1;
+- (_Bool)be imported.;
+- (void)Impl._needsStyleMaskUpdates;
+- (struct CGRect)rB0C_ytÌ±;
+- (struct CGRect)03¨
+¸þÂ03'¸þÂ03¤'¸þÂ03 '¸þ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect boundingRect; // @synthesize boundingRect=_boundingRect;

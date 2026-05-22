@@ -33,11 +33,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (CDUnknownBlockType);
+- (void)our Evernote account;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *businessNotebooks; // @synthesize businessNotebooks=_businessNotebooks;

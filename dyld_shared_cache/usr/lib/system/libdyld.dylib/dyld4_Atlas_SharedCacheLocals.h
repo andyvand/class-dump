@@ -5,6 +5,6 @@
 class dyld4::Atlas::SharedCacheLocals {
 public: // (access info unavailable from symbols alone)
     SharedCacheLocals(lsl::SharedPtr<dyld4::Atlas::Mapper>&, bool);
-    localInfo() const;
-    use64BitDylibOffsets() const;
+    auto localInfo() const;
+    auto use64BitDylibOffsets() const;
 };

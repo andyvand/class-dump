@@ -16,10 +16,10 @@
 }
 
 - (void);
+- (struct CGSize);
+- (id);
 - (id);
 - (void);
-- (id);
-- (struct CGSize);
 
 @end
 

@@ -44,18 +44,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id)1b0@ù
-× ;
-- (void)p;
+- (id);
+- (void)er init];
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) HUBaseIconView *baseIconView; // @synthesize baseIconView=_baseIconView;

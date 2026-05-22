@@ -66,8 +66,8 @@
 - (long long);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long assetTypesToInclude; // @synthesize assetTypesToInclude=_assetTypesToInclude;

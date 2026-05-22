@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (void);
-- (float);
-- (void);
 - (id);
 - (void);
+- (float);
 - (_Bool);
+- (void);
 - (void);
 
 // Remaining properties

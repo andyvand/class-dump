@@ -4,25 +4,25 @@
 
 class SpaceManager {
 public: // (access info unavailable from symbols alone)
-    DebugPrint();
-    ExtContainDefects(unsigned long long, unsigned long long, unsigned long long*, unsigned long long*);
-    FreeExt(unsigned long long, unsigned long long);
-    GetBitmapBit(unsigned long long, unsigned long long*, GetBitmapStat*);
-    GetBitmapWord(unsigned long long, unsigned long long*, GetBitmapStat*);
-    GetFreeExtent(unsigned long long, unsigned long long, ExtentInfo*);
-    GetLargestFreeExtInfo(unsigned long long*, unsigned long long*, unsigned long long);
-    GetNumFreeBlocks(unsigned long long, unsigned long long, unsigned long*);
-    InitGetBitmapWord(GetBitmapStat*);
-    IsDefectBlk(unsigned long long, unsigned long*);
-    LowerLayerBlkNumToCurBlkNum(unsigned long long);
-    MarkDefectInBitmapWord(unsigned long long, unsigned long long*, unsigned long*);
-    ReserveBlock(unsigned long long, unsigned long long, unsigned long long, unsigned long long);
-    ReserveExt(unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, bool);
-    ReserveFirstFreeExt(unsigned long long, unsigned long long*, unsigned long long, unsigned long long, unsigned long long, unsigned long long, bool);
-    ReserveLargestFreeExt(unsigned long long*, unsigned long long*, unsigned long long);
-    ReserveLastBlockOfLastWrittenPacket(unsigned long long*, unsigned long long);
-    ReserveLastFreeExt(unsigned long long, unsigned long long*, unsigned long long, unsigned long long, unsigned long long, unsigned long long, bool);
     SpaceManager(unsigned long long, unsigned long long);
-    ToLowerLayerBlkNum(unsigned long long);
+    auto DebugPrint();
+    auto ExtContainDefects(unsigned long long, unsigned long long, unsigned long long*, unsigned long long*);
+    auto FreeExt(unsigned long long, unsigned long long);
+    auto GetBitmapBit(unsigned long long, unsigned long long*, GetBitmapStat*);
+    auto GetBitmapWord(unsigned long long, unsigned long long*, GetBitmapStat*);
+    auto GetFreeExtent(unsigned long long, unsigned long long, ExtentInfo*);
+    auto GetLargestFreeExtInfo(unsigned long long*, unsigned long long*, unsigned long long);
+    auto GetNumFreeBlocks(unsigned long long, unsigned long long, unsigned long*);
+    auto InitGetBitmapWord(GetBitmapStat*);
+    auto IsDefectBlk(unsigned long long, unsigned long*);
+    auto LowerLayerBlkNumToCurBlkNum(unsigned long long);
+    auto MarkDefectInBitmapWord(unsigned long long, unsigned long long*, unsigned long*);
+    auto ReserveBlock(unsigned long long, unsigned long long, unsigned long long, unsigned long long);
+    auto ReserveExt(unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, bool);
+    auto ReserveFirstFreeExt(unsigned long long, unsigned long long*, unsigned long long, unsigned long long, unsigned long long, unsigned long long, bool);
+    auto ReserveLargestFreeExt(unsigned long long*, unsigned long long*, unsigned long long);
+    auto ReserveLastBlockOfLastWrittenPacket(unsigned long long*, unsigned long long);
+    auto ReserveLastFreeExt(unsigned long long, unsigned long long*, unsigned long long, unsigned long long, unsigned long long, unsigned long long, bool);
+    auto ToLowerLayerBlkNum(unsigned long long);
     ~SpaceManager();
 };

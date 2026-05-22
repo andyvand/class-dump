@@ -7,6 +7,7 @@
 @class CHHapticPattern;
 
 @protocol _UIFeedbackCoreHapticsPatternProviding
+- (CHHapticPattern *)T;
 
 // Remaining properties
 @property(readonly, nonatomic) CHHapticPattern *pattern;

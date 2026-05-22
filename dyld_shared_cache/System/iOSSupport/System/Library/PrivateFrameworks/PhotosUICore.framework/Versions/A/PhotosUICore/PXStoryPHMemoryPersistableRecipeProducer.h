@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)creenshot;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> keyAsset; // @synthesize keyAsset=_keyAsset;

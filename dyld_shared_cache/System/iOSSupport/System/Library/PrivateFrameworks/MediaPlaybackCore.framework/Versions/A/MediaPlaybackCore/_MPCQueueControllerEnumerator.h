@@ -21,19 +21,19 @@ __attribute__((visibility("hidden")))
     MPSectionedIdentifierListPosition *_endPosition;
 }
 
-+ (id)account's storefront was stored as a string. account = %{public}@;
-- (void)CONST;
++ (id);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id)on-changed;
+- (id)ath: /* Error: Ran out of types for this method. */;
+- (void)additional] oldState=%{public}@ newState=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPSectionedIdentifierListPosition *endPosition; // @synthesize endPosition=_endPosition;

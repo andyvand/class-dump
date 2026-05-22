@@ -12,20 +12,20 @@
 }
 
 + (id);
-+ (double)G_lastHighlightArtCacheKey,V_lastHighlightArtCacheKey;
-+ (id)esolvedStyle);
++ (double);
++ (id)nBundleIdentifierOverride: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)on;
-- (double);
-- (id);
-- (void)qÂ°1¢!0@ù
+- (id);
+- (id)Ôáð!¤Cù±[1Â0@ù
 × ;
-- (double);
-- (id)te:(id)arg1;
-- (id)TouchWithEvent:(id)arg1;
-- (id)type;
-- (id)entMaskView;
-- (id);
+- (id);
+- (double)× ;
+- (double)raggableGeometrySameViewDropOperation>";
+- (id)cation:(id)arg1;
+- (id)ðt;
+- (id)ping delete of restoration archive even though app has previously crashed during state restoration;
+- (id)onCanvasDefinitionKey;
+- (void)øfh;
 
 @end
 

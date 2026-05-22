@@ -18,9 +18,8 @@
 - (void);
 - (void);
 - (id);
-- (id)1b0@ù
-× ;
-- (void)title â%sâ doesn't match title's style %s, falling back to default;
+- (id);
+- (void);
 
 @end
 

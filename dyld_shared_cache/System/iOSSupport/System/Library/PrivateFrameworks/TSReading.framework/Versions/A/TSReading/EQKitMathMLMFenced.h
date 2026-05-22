@@ -15,15 +15,15 @@
 }
 
 - (id);
-- (const void *)#;
+- (const void *);
 - (struct Schemata);
 - (int);
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
+- (id)Thickness;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

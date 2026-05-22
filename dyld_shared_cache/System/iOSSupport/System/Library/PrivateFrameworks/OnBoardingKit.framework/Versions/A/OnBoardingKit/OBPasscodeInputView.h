@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
 - (struct CGSize);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool)@;
-- (id);
-- (void)H;
+- (void);
+- (_Bool)7à;
 
 // Remaining properties
 @property(nonatomic) __weak id <OBPasscodeInputViewDelegate> delegate; // @synthesize delegate=_delegate;

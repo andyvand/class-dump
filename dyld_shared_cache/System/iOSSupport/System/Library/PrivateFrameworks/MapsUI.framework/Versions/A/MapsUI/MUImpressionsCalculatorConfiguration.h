@@ -16,9 +16,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)Ëìÿ;
+- (void)ViewModel;
+- (id)ô(	;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *hostingContainerView;

@@ -14,7 +14,7 @@
     id <TSADownloadDelegate> _downloadDelegate;
 }
 
-+ (void);
++ (void);
 + (void);
 + (id);
 - (id);
@@ -31,7 +31,7 @@
 - (double);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (Class);
 - (id);
@@ -41,7 +41,7 @@
 - (void);
 - (void);
 - (id);
-- (void)Є;
+- (void);
 - (id);
 
 // Remaining properties

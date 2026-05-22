@@ -4,5 +4,6 @@
 
 class __gnu_cxx::__mutex {
 public: // (access info unavailable from symbols alone)
-    unlock();
+    auto unlock();
+    auto unlock() (.cold.1);
 };

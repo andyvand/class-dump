@@ -18,37 +18,39 @@
     UIPinchGestureRecognizer *_pinchGR;
 }
 
-- (void)@16;
 - (void);
 - (void);
-- (id)ode;
-- (id)owIDs: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)***** LOCK RECORD IS NOT PRESENT ******;
-- (_Bool)data from pending nicknames KVStore;
-- (void)h Blastdoor;
-- (id)at zone.;
 - (void);
 - (_Bool);
-- (void)"16@?<v@?B@"NSError">24@?<v@?f>32;
-- (id);
-- (id);
-- (void)_ý/º;
 - (void);
-- (CDUnknownBlockType)r>";
-- (id)gralInitialScale;
-- (void)setRepresentedDragItemsProvider:(id)arg1;
-- (void)nabled;
-- (void)fy:(id)arg1;
-- (void)H*;
-- (id)ly pointer effect since this tab bar's internal view hierarchy was modified. This is generally a bad idea.;
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)1Â0@ù
+× ;
+- (void)0@ù
+× ;
 - (CDUnknownBlockType);
-- (_Bool)ertion;
+- (void)dDismiss;
+- (id)w",W,N,V_popoverSourceView;
+- (id);
+- (void)mZUAHooNvMiQnjeTJ8g;
+- (void)IGNORED);
+- (CDUnknownBlockType)8Óÿh;
+- (void)[_;
+- (_Bool);
+- (id)f;
 
 // Remaining properties
 @property(retain, nonatomic) UIWindowSceneActivationConfiguration *activeConfiguration; // @synthesize activeConfiguration=_activeConfiguration;

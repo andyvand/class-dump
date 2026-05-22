@@ -5,21 +5,21 @@
 class lsl::ProtectedStack {
 public: // (access info unavailable from symbols alone)
     ProtectedStack(bool);
-    allocateStack();
-    getRange(void const*&, void const*&) const;
-    onStackInAnyFrameInThisThread() const;
-    onStackInCurrentFrame() const;
-    reset();
-    withNestedProtectedStack(void () block_pointer);
-    withNestedProtectedStack(void () block_pointer) (.cold.1);
-    withNestedProtectedStack(void () block_pointer) (.cold.2);
-    withNestedRegularStack(lsl::ProtectedStackReturnType () block_pointer);
-    withNestedRegularStack(lsl::ProtectedStackReturnType () block_pointer) (.cold.1);
-    withNestedRegularStack(lsl::ProtectedStackReturnType () block_pointer) (.cold.2);
-    withProtectedStack(void () block_pointer);
-    withProtectedStack(void () block_pointer) (.cold.1);
-    withProtectedStack(void () block_pointer) (.cold.2);
-    withProtectedStack(void () block_pointer) (.cold.3);
-    withProtectedStack(void () block_pointer) (.cold.4);
-    withProtectedStack(void () block_pointer) (.cold.5);
+    auto allocateStack();
+    auto getRange(void const*&, void const*&) const;
+    auto onStackInAnyFrameInThisThread() const;
+    auto onStackInCurrentFrame() const;
+    auto reset();
+    auto withNestedProtectedStack(void () block_pointer);
+    auto withNestedProtectedStack(void () block_pointer) (.cold.1);
+    auto withNestedProtectedStack(void () block_pointer) (.cold.2);
+    auto withNestedRegularStack(lsl::ProtectedStackReturnType () block_pointer);
+    auto withNestedRegularStack(lsl::ProtectedStackReturnType () block_pointer) (.cold.1);
+    auto withNestedRegularStack(lsl::ProtectedStackReturnType () block_pointer) (.cold.2);
+    auto withProtectedStack(void () block_pointer);
+    auto withProtectedStack(void () block_pointer) (.cold.1);
+    auto withProtectedStack(void () block_pointer) (.cold.2);
+    auto withProtectedStack(void () block_pointer) (.cold.3);
+    auto withProtectedStack(void () block_pointer) (.cold.4);
+    auto withProtectedStack(void () block_pointer) (.cold.5);
 };

@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPointerStyle;
+
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (void)ÿ;
+- (UIPointerStyle *)Ízþÿ6Yøÿ¦_úÿ,þ÷ÿ;
 - (void);
+- (void)ion view for RecentsListViewController was created before view was loaded.;
 @end
 

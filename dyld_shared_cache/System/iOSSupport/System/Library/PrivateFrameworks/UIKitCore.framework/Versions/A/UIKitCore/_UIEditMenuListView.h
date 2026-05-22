@@ -48,7 +48,7 @@ __attribute__((visibility("hidden")))
     NSIndexPath *_scrubbedIndexPath;
 }
 
-+ (double)in. Attempt count %lu;
++ (double);
 + (double);
 - (id);
 - (id);
@@ -72,29 +72,29 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)24Q32q40@"NSDictionary"48@?<v@?@"NSArray"@"NSError">56;
-- (struct CGSize):(long long)arg1 8C16;
-- (struct CGSize)Properties:(struct CGSize)arg1;
-- (void)itedMessage:(id)arg1 toChat:(struct CGSize)arg2 fromCallerID:backwardCompatabilityText: /* Error: Ran out of types for this method. */;
-- (void)mentChanged:(struct CGRect)arg1;
-- (void)bleServices:error:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)s: /* Error: Ran out of types for this method. */;
-- (void)tion: /* Error: Ran out of types for this method. */;
-- (struct CGSize)iesForIDs:(double)arg1 style:onServices:limit:chatID:queryID: /* Error: Ran out of types for this method. */;
-- (void)toCheck: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 fromMe: /* Error: Ran out of types for this method. */;
-- (double)mpletionBlock:(struct CGRect)arg1;
-- (void)andle:(_Bool)arg1 forceUpdateHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
-- (void)nt_ForwardDeclare_127466970;
-- (void)cessingPipelineComponent;
+- (id);
+- (struct CGSize);
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
 - (double);
 - (_Bool);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
 - (_Bool);
-- (_Bool)eManagerCSgXwz_Xx;
-- (void)ObjectiveCBridgeableP;
+- (_Bool);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
@@ -102,40 +102,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (void)schedule expire state check with interval:(unsigned long long)arg1 %f, one is already scheduled with interval:%f /* Error: Ran out of types for this method. */;
-- (id)t approving it for SMS relay %@;
-- (id);
-- (id);
-- (id);
-- (void)";
 - (_Bool);
 - (void);
-- (long long);
-- (void)§ºº;
-- (id)1¢!0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)^ð1Â0@ù
 × ;
-- (_Bool)nuConfiguration"24;
-- (id)ions: /* Error: Ran out of types for this method. */;
-- (void)orderingTargetPosition;
-- (_Bool)nlyVisibleWindows:(id)arg1;
-- (id)ifier: /* Error: Ran out of types for this method. */;
-- (void)>",R,W,N,V_delegate;
-- (void)ÿÿ;
-- (void)ndler:(long long)arg1 %@;
-- (id)eallocating object as a delegate. This will be a hard crash in the future. Offending object:%@ hostObject:%@ /* Error: Ran out of types for this method. */;
-- (id)GroupedForeground;
-- (id)l,Bold;
-- (id)ontentConfiguration _defaultConfigurationForStyle:state:] /* Error: Ran out of types for this method. */;
-- (id)oKey;
-- (void)_UIInteractiveHighlightViewRecord"8Q16^B24;
-- (id)e.PlatterItemView;
-- (id)Ò?Õ?è?ë?ë?Ì?¼?à?À?í?É?ìQ¸ëÑ? ï?Âõ(\â?¹ëQ¸Î?Ý?Ý?¹ëQ¸¾?¿¾¾¾¾¾î?ï?Ú?Á?]]]]]]Ý?ëQ¸Û?Âõ(\ê?[[[[[[Û?666666æ?´³³³³³ã?;
-- (void)BackgroundCaptureView;
 - (void);
-- (_Bool);
-- (long long)xOÿóØF_;
-- (void);
+- (id)0@ù
+× ;
+- (long long)!àDùq`ð1Â0@ù
+× ;
+- (id);
+- (void)edBackgroundView;
+- (_Bool)orm;
+- (id)ontinuationProgress;
+- (id)r, %@, passed to %@. Expected %@ or %@. This is an internal UISplitViewController problem.;
+- (void)ontrolStateHighlighted.;
+- (_Bool)startInteraction. This is unexpected, please file a radar.;
+- (_Bool)d-detection-pattern.dd.address;
+- (void)cket;
+- (void)wLayoutAttributes"8@"<_UICollectionLayoutSectionSolver>"16@"_UICollectionLayoutFramesQueryResult"24^B32;
+- (id)s with duplicate identifiers. Element: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long);
+- (void)´[;
+- (void)d\;
+- (id)e;
+- (id)Øic;
 
 // Remaining properties
 @property(nonatomic) long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;

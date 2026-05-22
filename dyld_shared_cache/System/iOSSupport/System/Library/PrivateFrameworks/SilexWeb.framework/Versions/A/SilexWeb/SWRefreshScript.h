@@ -11,11 +11,11 @@
     WKUserScript *userScript;
 }
 
-- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)@16;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

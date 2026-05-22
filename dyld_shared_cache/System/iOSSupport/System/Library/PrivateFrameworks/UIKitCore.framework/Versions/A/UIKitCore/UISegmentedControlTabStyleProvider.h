@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool)};
-- (double)nitialScale"f"minimumScale"f"maximumScale"f"allowsUserScaling"B"allowsShrinkToFit"B"avoidsUnsafeArea"B};
-- (id)ion;
-- (double)ionalAxis;
-- (id)ect:(id)arg1;
-- (double)tSelectionGestureController;
-- (double)	
-;
+- (_Bool);
+- (double);
+- (id)1Â0@ù
+× ;
+- (double)rceGestureDelegate>",W,N,VforceGestureDelegate;
+- (double)to _UIRemoteKeyboards);
+- (id)update;
+- (double)detected:(int)arg1 attempt to %@ item to destination index path (%lu - %lu) (global item index %lu) as part of a section %@ update, but there are only %lu total items.;
 
 @end
 

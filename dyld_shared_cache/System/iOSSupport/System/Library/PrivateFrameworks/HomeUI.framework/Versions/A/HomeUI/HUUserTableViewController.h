@@ -40,11 +40,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void)fier;
-- (void)HULockAccessUpdate_Feature_GuestAccess_Title;
+- (void);
+- (void)hing home:%@ onto main. /* Error: Ran out of types for this method. */;
+- (id)eraLive;
+- (void)APGG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

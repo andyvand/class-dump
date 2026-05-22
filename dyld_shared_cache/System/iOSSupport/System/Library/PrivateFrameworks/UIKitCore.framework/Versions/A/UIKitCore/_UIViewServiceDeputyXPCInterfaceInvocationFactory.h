@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)MFileTransfer:(id)arg1 %p  state:%ld  sync state:%ld  local path:%@  transferred name:%@  guid:%@  error:%d  total bytes:%d  created:%@ commSafety:%d update reason:%ld] /* Error: Ran out of types for this method. */;
++ (id);
 
 @end
 

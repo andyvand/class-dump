@@ -5,7 +5,6 @@
 //
 
 @protocol PXGDecorationView
-- (void)tPasswordForAccount:(unsigned long long)arg1 displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long decorationOptions;

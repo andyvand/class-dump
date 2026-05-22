@@ -8,34 +8,29 @@
 @protocol BEExtendedTextInputTraits, BETextInputDelegate;
 
 @protocol BETextInput
-- (void);
-- (void)P;
-- (_Bool)#.;
-- (void)2r_.;
-- (_Bool)q1;
-- (void)dex:(void (^)(long long))arg1;
-- (void);
-- (void)`;
-- (void)C;
-- (UIView *)
-× ;
-- (NSString *)Â°1¢!0@ù
-× ;
-- (NSArray *);
-- (UITextRange *)0@ù
-× ;
-- (void)tesPickerDelegate>";
-- (id <BETextInputDelegate>)ary"16@0:8 /* Error: Ran out of types for this method. */;
-- (long long)pedToRuler;
-- (_Bool)rame:drawingTransform:contentScale: /* Error: Ran out of types for this method. */;
-- (void)IEdgeInsets=dddd},R,N;
-- (void)t;
-- (struct CGRect);
-- (_Bool)ø;
-- (void)8NSObjectCSg;
-
-@optional
-- (void);
+- (NSString *)vityType;
+- (NSArray *)V_activeInputProperties;
+- (struct CGRect)stureRecognizerToFail: /* Error: Ran out of types for this method. */;
+- (long long)nt;
+- (UITextRange *)uffer;
+- (id <BETextInputDelegate>),V_proofreadingItem;
+- (struct CGRect)ompactColorPickerContainerViewHeightConstraint;
+- (UITextRange *)üd\j¼j
+ÔnÈq;
+- (struct CGRect);
+- (_Bool),d;
+- (struct CGRect)@7;
+- (void);
+- (void)X¤;
+- (UIView *)¬ ;
+- (NSArray *)k.monoline/BandMask;
+- (void)undleId_category;
+- (void):Õÿÿ /* Error: Ran out of types for this method. */;
+- (_Bool)PointS0_E;
+- (struct CGRect)!ù¿-DTû!ù?;
+- (NSString *)s?.;
+- (void)©.ã;
+- (void)Ô;
 
 // Remaining properties
 @property(nonatomic) __weak id <BETextInputDelegate> asyncInputDelegate;

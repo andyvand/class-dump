@@ -11,8 +11,8 @@
 }
 
 + (_Bool);
-- (_Bool)ription"8;
-- (id)ICImageClassificationTemporarilyDisabledUntilDateDefaultsKey;
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canUseAsBackground;

@@ -12,26 +12,26 @@
 }
 
 + (id);
-+ (_Bool)deProtocolP;
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)priateForURL:create:error: /* Error: Ran out of types for this method. */;
-- (id)any of the methods to accept a share;
+- (id);
+- (id);
+- (void)"HMHomeManager",R,W,V_manager;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

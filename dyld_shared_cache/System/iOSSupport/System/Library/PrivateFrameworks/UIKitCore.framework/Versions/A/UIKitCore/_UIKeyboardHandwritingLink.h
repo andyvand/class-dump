@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -38,17 +38,18 @@
 - (id);
 - (void);
 - (void);
-- (void)raryObjectDatabase.m;
-- (unsigned long long);
-- (void);
 - (id);
-- (_Bool)ackdropConstraints;
-- (_Bool)s:previousPosition: /* Error: Ran out of types for this method. */;
-- (id)e;
-- (_Bool)te:fallbackToEnvironment:debugReport: /* Error: Ran out of types for this method. */;
-- (id)OptionsRestorationActivityDictionary;
-- (_Bool)PØ;
-- (id)trolVibrantTopBackgroundColor;
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool)@ù
+× ;
+- (_Bool);
+- (unsigned long long)× ;
+- (id)ize=dd}}112@0:8Q16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGSize=dd}56{UIRectCornerRadii=dddd}72d104 /* Error: Ran out of types for this method. */;
+- (void)À;
+- (id)\uÿ´4ÕÀ¾^;
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardCandidateResultSet *candidateSet; // @synthesize candidateSet=_candidateSet;

@@ -4,10 +4,10 @@
 
 class ReadStage {
 public: // (access info unavailable from symbols alone)
-    ExtractSubBlockData(GridInfo*, int, int, int const*, bool);
-    Init(CMCKeyChain*);
-    InvertLTWithBoundaryCheck(int, int, GridInfo*, int, int, bool);
-    PostProcessSubBlock(int, bool);
-    ReadWatermark(unsigned char*, int, int, int, int, ImgFrameFormat, GridInfo*, PayloadInfo*, ProgressCBHandler*);
+    auto ExtractSubBlockData(GridInfo*, int, int, int const*, bool);
+    auto Init(CMCKeyChain*);
+    auto InvertLTWithBoundaryCheck(int, int, GridInfo*, int, int, bool);
+    auto PostProcessSubBlock(int, bool);
+    auto ReadWatermark(unsigned char*, int, int, int, int, ImgFrameFormat, GridInfo*, PayloadInfo*, ProgressCBHandler*);
     ~ReadStage();
 };

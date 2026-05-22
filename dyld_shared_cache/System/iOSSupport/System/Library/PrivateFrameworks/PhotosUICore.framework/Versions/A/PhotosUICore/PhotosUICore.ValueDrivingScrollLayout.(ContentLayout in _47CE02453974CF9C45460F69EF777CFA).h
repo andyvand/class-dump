@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void);
+- (void)egate>",W,N;
+- (void)éK;
 
 // Remaining properties
 @property(nonatomic, readonly) NSIndexSet *axSpriteIndexes;

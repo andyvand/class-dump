@@ -24,22 +24,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool)JunkMessageGUID:account: /* Error: Ran out of types for this method. */;
-- (id)tStoresWithCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)dleIDs:groupID:displayName:style:queryID: /* Error: Ran out of types for this method. */;
-- (_Bool):(id)arg1;
-- (struct CGRect)StorageCount;
-- (void)e;
-- (_Bool)~3;
 - (_Bool);
-- (id)one in cloudkit. Broadcasting to my other devices.;
-- (id);
+- (id);
 - (void);
-- (void)eryRGBColors;
-- (void)or;
-- (void)reGraphElement;
-- (id)`;
-- (_Bool),a;
+- (_Bool);
+- (struct CGRect);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (id)onEndedAction: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ion path:(id)arg1 %@;
+- (void)dó×ÿ>T~;
+- (id)ÎuÜ0üc;
 
 // Remaining properties
 @property(nonatomic, setter=_setPortalViewEnabled:) _Bool _portalViewEnabled; // @synthesize _portalViewEnabled;

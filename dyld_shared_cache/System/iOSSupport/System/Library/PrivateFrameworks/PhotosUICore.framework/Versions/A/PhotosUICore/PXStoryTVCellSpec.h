@@ -35,9 +35,9 @@
 - (id);
 - (id);
 - (id);
-- (void),â;
 - (id);
-- (id)ionsForSmartAndUserCollections: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIFont *memorySubtitleFont;

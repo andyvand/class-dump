@@ -16,20 +16,19 @@ __attribute__((visibility("hidden")))
     NSIndexPath *_lastCommittedIndexPath;
 }
 
-- (id)eted processing %ld nickname entries;
-- (_Bool)nversation %s;
-- (id)rror %@;
-- (id)essages as max batch attempt limit reached ********;
-- (void)mand and cleaning up:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
+- (void);
 - (id);
 - (id);
-- (void)!ìGùñÂ°1¢!0@ù
-× ;
-- (void)se;
-- (_Bool)ntDelivery;
-- (id)icationRotationFollowing;
+- (id);
+- (_Bool)confined manner is dangerous and can lead to deadlocks. Please always submit updates either always on the main queue or always off the main queue - view=%@;
+- (id)MorphPresentationAnimationC;
+- (void);
+- (void)ÉX;
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionViewCell *cell; // @synthesize cell=_cell;

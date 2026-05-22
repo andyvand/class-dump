@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id);
+- (id)ewTopConstraits;
+- (void)ontainer;
 
 @end
 

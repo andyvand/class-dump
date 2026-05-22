@@ -25,14 +25,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
+- (void);
+- (void)reviewThumbnail;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *accessoryImageView; // @synthesize accessoryImageView=_accessoryImageView;

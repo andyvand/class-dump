@@ -12,11 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)osal:(id)arg1;
-- (id)tionsInflight;
-- (_Bool)NavigationItem;
-- (_Bool)configurePlatterHairline;
-- (void)UIViewController;
+- (void);
+- (_Bool)`ð1Â0@ù
+× ;
+- (void);
+- (id)etection-pattern.dd.phone;
+- (_Bool)ber of swipe action buttons.;
 
 @end
 

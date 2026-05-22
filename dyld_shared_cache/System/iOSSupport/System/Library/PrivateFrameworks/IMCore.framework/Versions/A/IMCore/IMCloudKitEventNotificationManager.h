@@ -20,7 +20,7 @@
 
 + (void);
 + (id);
-+ (id)"t;
++ (id);
 + (id);
 - (void);
 - (id);
@@ -31,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (double);
@@ -44,7 +44,7 @@
 - (void);
 - (void);
 - (void);
-- (void)`;
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -58,24 +58,24 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)XT;
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)!;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)or<WebCore:(id)arg1:InspectorOverlayHighlight::FlexHighlightOverlay, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>="m_buffer"^{FlexHighlightOverlay}"m_capacity"I"m_size"I}"usePageCoordinates"B})"__engaged_"B} /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
-- (void)y	*h;
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
+- (void)-ÿÿT.ÿÿ;
+- (id)unresolvedMessages;
 
 // Remaining properties
 @property __weak id <IMCloudKitEventHandlerAccountInfoProvider> accountInfoProvider; // @synthesize accountInfoProvider=_accountInfoProvider;

@@ -38,15 +38,15 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (id)ù81B0@ù
+- (void)
 × ;
-- (void)atherPreferences] AlwaysUseLocallyAvailableSavedCities = 1, do not save new cities to disk.;
 
 // Remaining properties
 @property(copy, nonatomic) UIImage *conditionsImage;

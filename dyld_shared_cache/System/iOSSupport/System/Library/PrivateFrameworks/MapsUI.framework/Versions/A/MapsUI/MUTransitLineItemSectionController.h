@@ -33,10 +33,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool)(çÿâèä(çÿ¥âè ñèÿ­âètðèÿ­âèpðèÿâèØâÿ}âèØ(çÿ¥âèè(çÿâè@ðèÿâèð(çÿ;
+- (_Bool);
+- (void)plySnapshot:animatingDifferences: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

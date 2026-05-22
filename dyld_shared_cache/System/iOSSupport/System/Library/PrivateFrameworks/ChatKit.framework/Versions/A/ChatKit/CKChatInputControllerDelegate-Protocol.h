@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSticker, NSMutableDictionary, NSString, UIView, UIViewController;
+@class NSMutableDictionary;
 
 @protocol CKChatInputControllerDelegate
-- (UIView *)9;
-- (UIViewController *);
-- (void)ferredPointSizeForDateTextWithZoomFactor:(NSMutableDictionary *)arg1 maxZoomFactor: /* Error: Ran out of types for this method. */;
-- (void)nReaskForAccount:(IMSticker *)arg1;
-- (void)dScrollIntoVisibleRange;
-- (void)dAttemptToSubmitWithoutHint;
-- (long long)Set: /* Error: Ran out of types for this method. */;
-- (NSMutableDictionary *)mp;
-- (void)H;
-- (NSString *)w;
-- (void)e;
-- (void);
-- (void)t;
-- (void)L;
-- (void)n;
-- (void)i;
-- (void)v;
-- (void)a;
-- (void)m;
-- (void)s;
-- (void)r;
-- (void)gRecognitionReportNotification;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *fileURLKeyToGuidMapping;

@@ -4,6 +4,6 @@
 
 class icu::number::impl::AdoptingSignumModifierStore {
 public: // (access info unavailable from symbols alone)
-    operator=(icu::number::impl::AdoptingSignumModifierStore&&);
+    auto operator=(icu::number::impl::AdoptingSignumModifierStore&&);
     ~AdoptingSignumModifierStore();
 };

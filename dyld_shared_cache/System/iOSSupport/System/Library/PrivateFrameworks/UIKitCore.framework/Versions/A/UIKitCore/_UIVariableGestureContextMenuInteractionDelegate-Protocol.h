@@ -5,8 +5,5 @@
 //
 
 @protocol _UIVariableGestureContextMenuInteractionDelegate
-
-@optional
-- (void);
 @end
 

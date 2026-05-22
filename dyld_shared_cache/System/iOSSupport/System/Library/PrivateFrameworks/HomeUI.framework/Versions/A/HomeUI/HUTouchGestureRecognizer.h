@@ -11,7 +11,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ager",&,N,V_lockSettingsItemManager;
 
 @end
 

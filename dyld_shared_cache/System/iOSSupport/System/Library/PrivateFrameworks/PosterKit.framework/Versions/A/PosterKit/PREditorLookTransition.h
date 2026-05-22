@@ -27,11 +27,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void)Observer: /* Error: Ran out of types for this method. */;
+- (void)0@ù
+× ;
+- (void)ht: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PREditorLookSwitchingComplicationTransition *complicationTransition; // @synthesize complicationTransition=_complicationTransition;

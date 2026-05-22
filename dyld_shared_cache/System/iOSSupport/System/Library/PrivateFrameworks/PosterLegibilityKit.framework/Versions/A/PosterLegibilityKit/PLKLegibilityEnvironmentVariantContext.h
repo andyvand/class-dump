@@ -22,7 +22,7 @@
     PLKLegibilityDescriptor *_legibilityDescriptor;
 }
 
-+ (id)CachedImageGenerator(%@%p) prewarmed %@];
++ (id);
 - (double);
 - (double);
 - (id);
@@ -37,6 +37,9 @@
 - (id);
 - (id);
 - (double);
+- (unsigned long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -44,13 +47,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
 - (id);
 - (id);
 - (double);
-- (id);
-- (double)PLKLegibilityContainerView";
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *averageColor; // @synthesize averageColor=_averageColor;

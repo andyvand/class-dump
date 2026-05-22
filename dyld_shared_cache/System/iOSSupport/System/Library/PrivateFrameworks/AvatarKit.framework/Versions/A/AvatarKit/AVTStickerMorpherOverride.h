@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (float);
 - (id);
+- (float);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *morphTargetName; // @synthesize morphTargetName=_morphTargetName;

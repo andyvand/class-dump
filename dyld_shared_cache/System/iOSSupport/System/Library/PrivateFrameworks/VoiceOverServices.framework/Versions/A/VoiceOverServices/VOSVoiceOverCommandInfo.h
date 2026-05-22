@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (id)";
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)H;
+- (void);
 
 @end
 

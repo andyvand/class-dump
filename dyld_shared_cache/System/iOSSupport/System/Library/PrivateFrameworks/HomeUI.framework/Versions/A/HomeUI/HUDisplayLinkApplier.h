@@ -35,12 +35,11 @@
 - (void);
 - (double);
 - (_Bool);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool)1b0@ù
-× ;
-- (void)%@ for home %@;
+- (void)entAlertTitleForUnsupported;
+- (id)Tü¬A;
 
 // Remaining properties
 @property(nonatomic) _Bool applyOnlyOnProgressChanges; // @synthesize applyOnlyOnProgressChanges=_applyOnlyOnProgressChanges;

@@ -33,15 +33,15 @@
 + (id);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,10 +58,10 @@
 - (double);
 - (double);
 - (_Bool);
-- (double);
+- (double);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (_Bool);
 - (void);
 - (void);
@@ -69,9 +69,9 @@
 - (double);
 - (struct CGImage *);
 - (void);
-- (id).?;
-- (void);
-- (id)(;
+- (id);
+- (id);
+- (void)´Ö;
 
 // Remaining properties
 @property(nonatomic, getter=adjustEndCapParticleAlpha, setter=setAdjustEndCapParticleAlpha:) _Bool adjustEndCapParticleAlpha; // @synthesize adjustEndCapParticleAlpha=_adjustEndCapParticleAlpha;

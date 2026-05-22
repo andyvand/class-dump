@@ -19,9 +19,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)e:(id)arg1;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLDevice> device; // @synthesize device=_device;

@@ -5,10 +5,5 @@
 //
 
 @protocol CKTranscriptBalloonCellTextEffectsDelegate
-- (void);
-- (void)í;
-- (void)Ö;
-- (void)àiÄ¬;
-- (unsigned long long)Õ;
 @end
 

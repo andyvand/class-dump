@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (struct _NSRange);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXGDecorationBadgeDrawingHelper> badgeDrawingHelper; // @synthesize badgeDrawingHelper=_badgeDrawingHelper;

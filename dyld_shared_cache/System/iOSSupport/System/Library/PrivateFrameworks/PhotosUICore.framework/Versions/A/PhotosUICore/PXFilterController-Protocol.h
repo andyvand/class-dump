@@ -7,6 +7,7 @@
 @class PXContentFilterState, PXLibraryFilterState;
 
 @protocol PXFilterController
+- (PXLibraryFilterState *)rallDuration=%{signpost.description:attribute,public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) PXContentFilterState *contentFilterState;

@@ -10,6 +10,11 @@
 {
     MISSING_TYPE *becomeFirstResponder;
     MISSING_TYPE *isVideoFullscreenSubject;
+    MISSING_TYPE *isVideoObscuringContentSubject;
+    MISSING_TYPE *subscriptions;
+    MISSING_TYPE *viewModel;
+    MISSING_TYPE *observableState;
+    MISSING_TYPE *previousVideoEnablementContext;
 }
 
 - (void);
@@ -17,7 +22,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
 
 @end
 

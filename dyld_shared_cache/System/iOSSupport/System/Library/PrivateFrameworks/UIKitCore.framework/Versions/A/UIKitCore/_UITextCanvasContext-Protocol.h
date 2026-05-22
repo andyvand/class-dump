@@ -8,21 +8,22 @@
 @protocol NSCustomTextRendering, _UITextLayoutController;
 
 @protocol _UITextCanvasContext
-- (struct CGRect)C;
-- (UIColor *)ation_Status;
-- (void)0@ù
-× ;
-- (void)!èBùÑÇ1¢!0@ù
-× ;
-- (void)ptions";
-- (void)iewEffect;
-- (struct CGPoint)2«ÿÿýÿ
-ýÿ>üÿ;
-- (_Bool)vityManager _updatePersistedSceneSession:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)@;
-- (_Bool);
-- (NSTextContainer *)?;
+- (_Bool)1Â0@ù
+× ;
+- (NSTextContainer *): /* Error: Ran out of types for this method. */;
+- (void)upportsLocalSessionReordering: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)opPerformBlock: /* Error: Ran out of types for this method. */;
+- (UIColor *)leWithFrame:forComponent: /* Error: Ran out of types for this method. */;
+- (void)N,V_didSendBeginEvent;
+- (void)with engine %@, dropping it;
+- (_Bool)uped. Grouped dynamic animations may not be run independent of their group;
+- (_Bool)w³.3G;
+- (struct CGPoint)ÙÎ÷ï?@;
+- (void)idgedAnimationStateKey;
+
+@optional
+- (id <NSCustomTextRendering>)¿+¿7;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect _clipRectForFadedEdges;

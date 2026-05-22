@@ -14,7 +14,7 @@
     NSHashTable *_observers;
 }
 
-+ (id);
++ (id)s.Done;
 - (id);
 - (id);
 - (void);
@@ -25,13 +25,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void)AddRestrictedGuestViewController.m;
+- (void);
+- (id)
+× ;
+- (void)rCollectionViewCell;
+- (void)nimations automatically calculate the duration; use `completionEpsilon` to configure the completion threshold.;
+- (void)ySo33HFCharacteristicBatchReadResponseCG;
 
 // Remaining properties
 @property(retain, nonatomic) NAFuture *activeFMFDeviceFuture; // @synthesize activeFMFDeviceFuture=_activeFMFDeviceFuture;

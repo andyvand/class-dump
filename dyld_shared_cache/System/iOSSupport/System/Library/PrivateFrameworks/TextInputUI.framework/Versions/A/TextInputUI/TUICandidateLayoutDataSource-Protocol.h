@@ -5,7 +5,5 @@
 //
 
 @protocol TUICandidateLayoutDataSource
-- (unsigned long long);
-- (double);
 @end
 

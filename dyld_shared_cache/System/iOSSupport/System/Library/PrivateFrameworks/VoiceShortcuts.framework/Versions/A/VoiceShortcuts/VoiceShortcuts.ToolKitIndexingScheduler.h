@@ -8,18 +8,12 @@
 
 @interface VoiceShortcuts.ToolKitIndexingScheduler
 {
-    MISSING_TYPE *xpcEventHandler;
     MISSING_TYPE *workQueue;
     MISSING_TYPE *debouncer;
     MISSING_TYPE *enabled;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 
 @end
 

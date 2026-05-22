@@ -12,24 +12,25 @@
     NSDictionary *_actionsByContext;
 }
 
-+ (_Bool)hÿ0Óêm;
++ (_Bool)SplitViewControllerAdaptiveImpl _dismantleViewControllerInColumn:layout:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)AsReadWithIdentifiers:(id)arg1 onServices:(id)arg2 chatStyle:upToGUID:readDate:fromMe: /* Error: Ran out of types for this method. */;
-- (id)wIDMap;
-- (id),&,N,V_spamBlockMap;
-- (unsigned long long)rsion is newer, but there is no transfer ID or asset. Incoming background is nil. Removing current asset.;
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool)que Method Completion Info List Context of Length %llu Set.;
-- (id)eArtwork;
 - (id);
-- (void)0;
-- (id)paredInitialLayout;
-- (id)uchesOnTargetViewController;
-- (id)ler",W,N,V_documentMovedPopover;
-- (void)oomViewControllerTransition;
+- (unsigned long long);
+- (id);
+- (id)0@ù
+× ;
+- (_Bool)ntentViewMaxHeightConstraint:(id)arg1;
+- (void);
+- (id)shotTextEffectsAfterRotation;
+- (id)ceneTraitSource>",W,N,V_source;
+- (void)[presentationSourceRepresentationView]|;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *actionsByContext; // @synthesize actionsByContext=_actionsByContext;

@@ -18,10 +18,10 @@
 - (double);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (double);
-- (id);
+- (double);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool matchedBeginning; // @synthesize matchedBeginning=_matchedBeginning;

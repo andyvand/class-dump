@@ -14,20 +14,21 @@
     _UIImageSymbolEffectRepeatBehavior *_repeatBehavior;
 }
 
-+ (id)%ld);
-+ (_Bool)-2m;
++ (id)ePickerContainerViewController";
++ (_Bool)d
+;
 - (long long);
 - (void);
-- (id)MMS;
-- (_Bool)temProcessed:batchContext: /* Error: Ran out of types for this method. */;
-- (void)lRequest();
-- (unsigned long long);
+- (id);
 - (_Bool);
-- (id)listWithIdentifier:(struct _NSZone *)arg1 completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
 - (id);
+- (unsigned long long);
+- (void)Ô ;
+- (_Bool)CollectionByFilteringTraits:(id)arg1;
+- (void)ue:(id)arg1;
+- (id)onCapturesStatusBarAppearance;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UIImageSymbolEffectRepeatBehavior *repeatBehavior; // @synthesize repeatBehavior=_repeatBehavior;

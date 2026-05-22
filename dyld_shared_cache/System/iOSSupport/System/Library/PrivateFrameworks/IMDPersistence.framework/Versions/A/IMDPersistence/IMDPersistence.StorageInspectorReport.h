@@ -17,9 +17,9 @@
 
 + (id);
 - (id);
-- (void);
-- (id)tsBottomLineDividerVisibleInCompactSize:,V__wantsBottomLineDividerVisibleInCompactSize /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (void)(°;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

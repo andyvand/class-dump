@@ -15,14 +15,14 @@
 
 + (double);
 + (_Bool);
-+ (double);
 + (id);
++ (double)mework/CloudKit;
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)(;
+- (id)ioPlayerEndInterruption:(long long)arg1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UISwitch *controlSwitch; // @synthesize controlSwitch=_controlSwitch;

@@ -18,34 +18,34 @@
     NEBitVector *_bitVector;
 }
 
-+ (char *)orDisk:(const char *)arg1 error:(char *)arg2;
-+ (_Bool)Exit;
-+ (void)imeout:(char *)arg1 withDMTool:(unsigned int)arg2;
-+ (int)volumeNameIsCasePreserving;
-+ (double)Container:(unsigned int)arg1 volumeGroups:(unsigned int)arg2;
-+ (_Bool)Wrapper;
-+ (int)a:(unsigned int)arg1 options:(int)arg2 success:details: /* Error: Ran out of types for this method. */;
-- (void)DMTool";
-- (void)sion=};
-- (void)6@24;
-- (void)@0:(double)arg1 8;
-- (void)0@0:(id)arg1 8^{__DASession=}16d24@32;
-- (unsigned int)isk=}56@0:8@16^{__DASession=}24d32d40@48 /* Error: Ran out of types for this method. */;
-- (unsigned int)hout_snap"[150c]};
-- (unsigned int)64"Q"snap_num"q"bsd_without_snap"[150c]};
-- (id)force:(unsigned int)arg1;
-- (id)wholeDiskSupportsLowLevelFormat:(id)arg1 error:(unsigned int)arg2;
-- (id)oleDiskHasOS9Drivers:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)DASession:timeout:withDMTool:didGoIdle: /* Error: Ran out of types for this method. */;
-- (id)TotalSizeForDisk:error: /* Error: Ran out of types for this method. */;
++ (char *);
++ (_Bool);
++ (void);
++ (int);
++ (double);
++ (_Bool);
++ (int);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned int);
+- (unsigned int);
+- (unsigned int);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (double);
-- (_Bool);
+- (id);
 - (unsigned int);
-- (void)A;
-- (id)j;
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *bitVectorBuffer; // @synthesize bitVectorBuffer=_bitVectorBuffer;

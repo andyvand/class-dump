@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (unsigned long long);
-- (id)lock:(id)arg1;
-- (void)ý/º;
+- (id);
+- (void);
 
 @end
 

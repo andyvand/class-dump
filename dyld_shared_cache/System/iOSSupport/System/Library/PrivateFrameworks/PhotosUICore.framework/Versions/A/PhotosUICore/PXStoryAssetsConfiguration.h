@@ -16,12 +16,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)Model;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetFetchResult> allAssets; // @synthesize allAssets=_allAssets;

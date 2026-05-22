@@ -14,10 +14,10 @@
 + (id);
 - (_Bool);
 - (id);
-- (void);
-- (id){nw_frame}};
-- (void);
-- (id)with coordinator, %@;
+- (id);
+- (void){public, signpost.telemetry:string1}s, nextSessionState:%{public, signpost.telemetry:string2}s, nextState:%@} /* Error: Ran out of types for this method. */;
+- (id)satisfying:nonRevGeoCandidates /* Error: Ran out of types for this method. */;
+- (void)on of home and work replayable CA metrics.;
 
 // Remaining properties
 @property(retain, nonatomic) RTManagedConfiguration *managedConfiguration; // @synthesize managedConfiguration=_managedConfiguration;

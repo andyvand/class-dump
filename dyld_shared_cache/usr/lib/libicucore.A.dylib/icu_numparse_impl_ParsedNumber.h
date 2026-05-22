@@ -5,12 +5,12 @@
 class icu::numparse::impl::ParsedNumber {
 public: // (access info unavailable from symbols alone)
     ParsedNumber();
-    clear();
-    getDouble(UErrorCode&) const;
-    isBetterThan(icu::numparse::impl::ParsedNumber const&);
-    populateFormattable(icu::Formattable&, int) const;
-    postProcess();
-    seenNumber() const;
-    setCharsConsumed(icu::StringSegment const&);
-    success() const;
+    auto clear();
+    auto getDouble(UErrorCode&) const;
+    auto isBetterThan(icu::numparse::impl::ParsedNumber const&);
+    auto populateFormattable(icu::Formattable&, int) const;
+    auto postProcess();
+    auto seenNumber() const;
+    auto setCharsConsumed(icu::StringSegment const&);
+    auto success() const;
 };

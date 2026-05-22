@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) HMAccessoryAccessCode *accessoryAccessCode; // @synthesize accessoryAccessCode=_accessoryAccessCode;

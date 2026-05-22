@@ -13,25 +13,25 @@ __attribute__((visibility("hidden")))
     NSString *_searchString;
 }
 
-- (_Bool)tion failed;
-- (id)r ********** State:(unsigned long long)arg1 service session = %@, accounts = %@;
-- (void)prevent the %@ service from %@. You can use the Firewall tab of the Security system preference panel to open the port or turn off the firewall.;
-- (unsigned long long)rocessMonitor"8@"RBSProcessHandle"16@"RBSProcessStateUpdate"24;
-- (void);
-- (id)lChats;
-- (unsigned long long)p photo;
 - (_Bool);
 - (id);
 - (void);
+- (unsigned long long);
 - (void);
+- (id);
 - (void);
+- (id);
+- (void);
+- (unsigned long long);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
 - (id);
-- (id)1;
-- (void)acheAvailableSize=%lld;
-- (void)odeTranscriptIdentifier;
 - (id);
+- (void);
+- (void)tokenRevision=%d, .databaseStorage={ .options={%d}, .occurrenceCount=%d } } result=%@ explicit=%{BOOL}u containerItem=%{BOOL}u;
+- (id)ericGenre;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSearchString;

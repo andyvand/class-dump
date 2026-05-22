@@ -4,59 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMachPortSendRight, FBSDisplayConfiguration, FBSDisplayIdentity, NSObject, NSString, UIColor, UITraitCollection, _UIBoundingPath, _UISheetPresentationControllerConfiguration, _UIViewControllerTransitionCoordinatorContextDescription, _UIViewServiceViewControllerOperatorCreateOptions;
-@protocol NSSecureCoding, OS_xpc_object;
-
 @protocol _UIViewServiceViewControllerOperator_RemoteViewControllerInterface
-- (void)nseInformation;
-- (void)pletion: /* Error: Ran out of types for this method. */;
-- (void)sionID:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)id:(struct CGPoint)arg1 completionBlock:(struct CGPoint)arg2;
-- (void)tionSource:(double)arg1 decisionInfo:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ForIdentifiers:(_UISheetPresentationControllerConfiguration *)arg1 reply: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)sageID:(int)arg1 isBlackholed:isiMessageJunk:messageServerTimestamp:toURI: /* Error: Ran out of types for this method. */;
-- (void)isJunk:(_Bool)arg1;
-- (void):(UITraitCollection *)arg1 reportReason:(_Bool)arg2;
-- (void)ount:(UIColor *)arg1 notifyInternalSecurity:(long long)arg2 isJunkReportedToCarrier:reportReason: /* Error: Ran out of types for this method. */;
-- (void)ges:(_Bool)arg1 isAutoReport:withChat:conversationID:maxMessagesToReport:totalMessageCount:notifyInternalSecurity:isJunkReportedToCarrier:reportReason: /* Error: Ran out of types for this method. */;
-- (void)lSync:(struct CGSize)arg1 reasonString:(_UIBoundingPath *)arg2;
-- (void)ebuggingErrorWithString:(struct CGSize)arg1 internalOnly:(_UIBoundingPath *)arg2 initialSync:reasonString: /* Error: Ran out of types for this method. */;
-- (void)ngErrorWithString:(_UIBoundingPath *)arg1 internalOnly:initialSync: /* Error: Ran out of types for this method. */;
-- (void)syncStep:(struct CGPoint)arg1 response:(void (^)(_Bool, NSError *))arg2 error: /* Error: Ran out of types for this method. */;
-- (void)ber:(long long)arg1 simID: /* Error: Ran out of types for this method. */;
-- (void)sForMessageItem:(struct CGRect)arg1 withPermanentFileTransferGUIDs:(id <NSSecureCoding>)arg2;
-- (void)t:associatedMessageGUID:sender: /* Error: Ran out of types for this method. */;
-- (void)ingAtRowID:(UITraitCollection *)arg1 limit:(_UIViewControllerTransitionCoordinatorContextDescription *)arg2 completionHandler:(_Bool)arg3;
-- (void)idationWithHandleID:(long long)arg1 fromHandleID:(double)arg2 completion:(_Bool)arg3;
-- (void)SharedFocusStatusFollowingFailedValidationWithHandleID:fromHandleID:completion: /* Error: Ran out of types for this method. */;
-- (void)ndleID:fromHandleID:completion: /* Error: Ran out of types for this method. */;
-- (void)pairHistory;
-- (void)t:(struct CGSize)arg1;
-- (void):(long long)arg1;
-- (void)veTimingForKey:(_Bool)arg1;
-- (void)Info:(_Bool)arg1 chatID:(long long)arg2 identifier:(UITraitCollection *)arg3 style:(double)arg4;
-- (void)rKeys:(FBSDisplayIdentity *)arg1;
-- (void)veObjectIdenticalTo:(_Bool)arg1;
-- (void)icSyncDatesDictionaryForKey:(_Bool)arg1;
-- (void)omChat:(NSObject<OS_xpc_object> *)arg1;
-- (void)L:error: /* Error: Ran out of types for this method. */;
-- (void)istry: /* Error: Ran out of types for this method. */;
-- (void)nsfers;
-- (void)moveChatID:(FBSDisplayConfiguration *)arg1 identifier:style:account: /* Error: Ran out of types for this method. */;
-- (void)Chat:(NSString *)arg1;
-- (void)ssageWithGUID:(struct UIEdgeInsets)arg1;
-- (void)emoveAliases:(long long)arg1 account:(_Bool)arg2;
-- (void)houldRetry: /* Error: Ran out of types for this method. */;
-- (void)tefileRequest:(NSObject<OS_xpc_object> *)arg1 attempts: /* Error: Ran out of types for this method. */;
-- (void)tion:(FBSDisplayConfiguration *)arg1;
-- (void)IDs:(long long)arg1 flag:lane:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)oadTimer;
-- (void)eloadDatabase;
-- (void)WatchOnly:(BSMachPortSendRight *)arg1 shouldDisableScreenTimeRestrictions:(void (^)(BSMachPortSendRight *, NSError *))arg2 callerID:iMessageCapability:requiredCapabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
-- (void):shouldDisableScreenTimeRestrictions:callerID:iMessageCapability:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)curLocally:(_UIViewServiceViewControllerOperatorCreateOptions *)arg1;
-- (void)on:(long long)arg1 account: /* Error: Ran out of types for this method. */;
-- (void)nSinceLoadDate;
 @end
 

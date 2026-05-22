@@ -8,8 +8,6 @@
 @protocol SXAdDocumentStateManager, SXComponentController, SXTextSelectionManager;
 
 @protocol SXPresentationDelegate
-- (void);
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdDocumentStateManager> adDocumentStateManager;

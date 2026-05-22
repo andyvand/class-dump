@@ -7,9 +7,10 @@
 @class UIColor, UIImageSymbolConfiguration;
 
 @protocol TUISystemInputAssistantStyle
-- (double)!dDùñ|1b0@ù
+- (_Bool)ð1â
+0@ù
 × ;
-- (_Bool)rimaryLabelInsets;
+- (double)rd;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageSymbolConfiguration *barButtonImageSymbolConfiguration;

@@ -4,7 +4,7 @@
 
 class icu::JapaneseCalendar {
 public: // (access info unavailable from symbols alone)
-    enableTentativeEra();
-    getCurrentEra();
-    getStaticClassID();
+    auto enableTentativeEra();
+    auto getCurrentEra();
+    auto getStaticClassID();
 };

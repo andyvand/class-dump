@@ -5,9 +5,5 @@
 //
 
 @protocol CKSendMenuPopoverPresentationDelegate
-- (void)ide;
-- (void)or:(struct CGRect)arg1;
-- (void)cendantOfFolder:(struct CGRect)arg1;
-- (void)ionAttachmentWithReplacementRange:(struct CGRect)arg1 replacementLength: /* Error: Ran out of types for this method. */;
 @end
 

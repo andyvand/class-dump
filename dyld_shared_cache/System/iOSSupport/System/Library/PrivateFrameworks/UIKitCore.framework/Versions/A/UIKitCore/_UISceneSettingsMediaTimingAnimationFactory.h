@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     CAMediaTimingFunction *__timingFunctionForAnimation;
 }
 
-- (void)r;
 - (void);
-- (id)tOffsetsForScrollView: /* Error: Ran out of types for this method. */;
-- (id)InteractionDisabled;
-- (_Bool)úÉð\;
+- (id);
+- (id)Attributes;
+- (void);
+- (_Bool)t;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_timingFunctionForAnimation) CAMediaTimingFunction *_timingFunctionForAnimation; // @synthesize _timingFunctionForAnimation=__timingFunctionForAnimation;

@@ -17,29 +17,28 @@
 }
 
 + (id);
-- (double)y;
+- (double);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (long long);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (long long);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)1¢!0@ù
-× ;
-- (double)ÿÈN_yx;
+- (void);
+- (void);
+- (double);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *lastCloseDate; // @synthesize lastCloseDate=_lastCloseDate;

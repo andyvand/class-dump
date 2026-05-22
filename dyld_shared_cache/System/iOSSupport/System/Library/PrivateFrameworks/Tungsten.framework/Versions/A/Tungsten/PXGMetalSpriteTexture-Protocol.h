@@ -8,6 +8,7 @@
 @protocol MTLTexture;
 
 @protocol PXGMetalSpriteTexture
+- (id <MTLTexture>)unt %ld != %ld;
 
 // Remaining properties
 @property(readonly, nonatomic) float alpha;

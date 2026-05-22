@@ -14,14 +14,14 @@
 }
 
 - (id);
-- (struct CGPoint)\;
+- (struct CGPoint);
 - (_Bool);
-- (_Bool)onTask",&,V_requestTask;
-- (struct CGPoint)g",&,N,V_etag;
+- (_Bool);
+- (struct CGPoint);
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void)ionCaching;
 
 // Remaining properties
 @property(readonly, retain) NSNumber *strokeProviderVersion;

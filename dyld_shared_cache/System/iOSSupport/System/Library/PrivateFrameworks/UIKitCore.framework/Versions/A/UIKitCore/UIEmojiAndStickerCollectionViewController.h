@@ -21,28 +21,28 @@
     NSString *_bundleId;
 }
 
-- (void)activity request to sync messages, as syncing is disabled;
-- (_Bool)%@ isUnderFirstUnlock %@ lastSyncDate %@ deviceConditionsAllowSync %@;
-- (void)nd and cleaning up:%@,  /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)1¢!0@ù
+- (id);
+- (id);
+- (void)1Â0@ù
 × ;
-- (id)ollerTextFieldView";
-- (id)ion;
-- (void)ModeIndicatorControllerDismissIndicator:(id)arg1;
-- (id)eKeyboard;
-- (id)ð;
-- (void)bleLayoutAwareShortcutsAutomatic;
-- (void)minimumSpeed = %g; decelerationRate = %g; rubberBandCoefficient = %g; unconstrainedPoint = %@; initialTranslation = %@; translation = %@; velocity = %@; effectiveVelocity = %@; projectedPoint = %@; closestPoint = %@; constrainedPoint = %@; constrainedVelocity = %@>;
-- (_Bool)iding>"8;
-- (id)ÿÿÿÿÿÿïñÖÈ¾5_ùµ7?´zÖ4Úä>òÊ¯,ðî?+ÙÎï?Y¨5Í;N?Ò$ñ æó?;
-- (void);
-- (id)olvedHoverEffect;
-- (void);
-- (_Bool)ZZm;
+- (void)ition"16@"UITextPosition"24;
+- (_Bool)sformerFromTouchForceMessageToProgressToForceLevel:minimumRequiredForceLevel: /* Error: Ran out of types for this method. */;
+- (id)aleHint: /* Error: Ran out of types for this method. */;
+- (void)isplaySecureTextUsingPlainText:(id)arg1;
+- (id)dToken;
+- (void)dInMediaPlayback:(_Bool)arg1;
+- (void)xÉÊ;
+- (void)fault-data-protection;
+- (id)nputSource:(id)arg1;
+- (id)ðgäþ;
+- (void)¸Ih;
+- (_Bool)«¤ÿÑC;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;

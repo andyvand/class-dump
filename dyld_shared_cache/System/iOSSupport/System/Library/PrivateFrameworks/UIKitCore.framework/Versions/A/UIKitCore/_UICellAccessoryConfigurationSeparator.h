@@ -10,10 +10,10 @@
 {
 }
 
-+ (_Bool)ÚYm;
-- (id)ouchForIndex:hidEvent: /* Error: Ran out of types for this method. */;
-- (long long)ntelligenceSystemViewHostLayerDelegate;
-- (id)stashedDismissalPivot;
++ (_Bool)itingSupport.m;
+- (id);
+- (id)PREVENTED SCENE HOPPING TO:%@ /* Error: Ran out of types for this method. */;
+- (long long) ÿ/rû;
 
 @end
 

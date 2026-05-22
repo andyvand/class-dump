@@ -11,9 +11,9 @@
 }
 
 + (_Bool);
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (void);
@@ -30,6 +30,7 @@
 - (id);
 - (id);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -37,7 +38,6 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
 - (void);
 - (void);
 - (void);

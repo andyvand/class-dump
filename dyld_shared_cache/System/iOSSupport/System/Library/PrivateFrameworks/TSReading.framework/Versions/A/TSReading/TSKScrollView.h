@@ -24,13 +24,13 @@
 - (void);
 - (struct CGSize);
 - (void);
+- (_Bool);
 - (void);
 - (void);
-- (_Bool)(;
 - (void);
-- (id);
-- (void)eRecognizer;
-- (struct CGRect)¼©;
+- (void);
+- (struct CGRect)rredFilename:filename:didCopyDataToBundle: /* Error: Ran out of types for this method. */;
+- (id)°(;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView;

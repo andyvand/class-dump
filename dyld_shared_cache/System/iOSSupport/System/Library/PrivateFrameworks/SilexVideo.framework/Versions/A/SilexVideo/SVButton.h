@@ -13,11 +13,11 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
 - (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets touchInsets; // @synthesize touchInsets=_touchInsets;

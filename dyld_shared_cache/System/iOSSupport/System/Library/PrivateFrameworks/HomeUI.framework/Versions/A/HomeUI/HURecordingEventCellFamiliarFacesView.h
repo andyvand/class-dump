@@ -34,10 +34,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)
-× ;
-- (id)ü;
+- (id);
+- (void)etup_Details;
+- (id)ggerPhraseSettingDetailsViewController initWithAccessoryGroupItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *imageViews; // @synthesize imageViews=_imageViews;

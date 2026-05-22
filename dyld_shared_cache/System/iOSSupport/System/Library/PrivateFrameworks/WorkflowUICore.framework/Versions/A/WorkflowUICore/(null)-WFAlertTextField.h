@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (void);
-- (void)0;
-- (id)ëye SgGG|GvGÀG_AAyAAyÓ yõ!y7!yAOyAAy;ACySiSgGG_ATSgtGG_!APy4yAYyAqAyAT}yGGGAOyANyAOyA1_Sg_A1_A3_tGG_A5_tGGGtGGALGALGt;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) NSString *alertAutocapitalizationType;

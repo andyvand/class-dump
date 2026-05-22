@@ -19,13 +19,7 @@
 }
 
 + (id);
-- (_Bool)Ä¬;
-- (void)te:(_Bool)arg1 context: /* Error: Ran out of types for this method. */;
-- (void)ntervalBeforeOpeningProgressDialog;
-- (void)nder;
-- (void)pinnedOnly;
-- (void)CropImage;
-- (void)ingAttributedSnippet;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -33,24 +27,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (double);
 - (struct CGRect);
-- (void)t;
-- (double)on;
+- (void);
+- (double);
 - (void);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (BOOL);
-- (void);
 - (void);
-- (id)";
-- (void)ilityTextForEditedMessagePartText: /* Error: Ran out of types for this method. */;
+- (BOOL);
+- (void)èÛÝTÝÝHßðßDàpà;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double associatedItemOffset; // @synthesize associatedItemOffset=_associatedItemOffset;

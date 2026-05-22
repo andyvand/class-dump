@@ -16,24 +16,24 @@
 }
 
 - (void);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (id)ÔnÐ!@Aù±À1¢!0@ù
+- (void);
+- (void);
+- (_Bool);
+- (void)!DùÑ[ð1Â0@ù
 × ;
-- (id)× ;
-- (_Bool)× ;
-- (void)sibleItem"B"hasVisibleLargePalette"B};
-- (_Bool)ntView:highlightColor: /* Error: Ran out of types for this method. */;
-- (void)ferringFullSize: /* Error: Ran out of types for this method. */;
-- (void)outsForSpacerItem:(id)arg1;
-- (id)undViewConfiguration;
-- (void)n;
-- (void);
-- (void)Ä;
-- (void)7\;
 - (id);
+- (id);
+- (id)eat;
+- (void)N,G_focusSystemSceneComponent;
+- (id)ollection;
+- (void)¤ô;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasSetUpGeometryChangeResponse; // @synthesize hasSetUpGeometryChangeResponse=_hasSetUpGeometryChangeResponse;

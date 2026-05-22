@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol UITableViewDataSource
-
-@optional
-- (long long);
-- (_Bool);
-- (NSArray *);
-- (long long);
 @end
 

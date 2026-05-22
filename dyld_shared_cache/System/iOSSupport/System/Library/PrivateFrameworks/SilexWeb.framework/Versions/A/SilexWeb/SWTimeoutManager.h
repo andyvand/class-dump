@@ -15,12 +15,12 @@
 
 - (id);
 - (void);
-- (id)8f;
-- (void);
-- (void))`3;
-- (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id)ü;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

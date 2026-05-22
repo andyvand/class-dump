@@ -7,10 +7,6 @@
 @class NSArray;
 
 @protocol _UISceneCarPlaySessionSettings
-- (void)t of the entire data;
-- (void)ifying subCC, skip comparing digest of the entire data;
-- (void)RTag_asid property != fdrDecode->assemblyID;
-- (void)identifier;
 
 // Remaining properties
 @property(nonatomic) unsigned long long carPlayAvailableInteractionModels;

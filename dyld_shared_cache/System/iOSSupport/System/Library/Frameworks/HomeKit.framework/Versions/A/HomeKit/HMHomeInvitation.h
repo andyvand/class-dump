@@ -15,7 +15,7 @@
     HMHomeInvitationData *_invitationData;
 }
 
-+ (_Bool)rCodePayloadKey;
++ (_Bool);
 
 @end
 

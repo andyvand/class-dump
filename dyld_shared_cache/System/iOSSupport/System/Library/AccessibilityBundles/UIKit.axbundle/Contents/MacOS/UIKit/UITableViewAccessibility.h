@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (id);
 - (id);
@@ -33,8 +33,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (_Bool);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -65,8 +65,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
 - (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -104,25 +104,23 @@
 - (void);
 - (long long);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (_Bool);
 - (struct CGRect);
 - (id);
-- (void);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)ð1b0@ù
-× ;
-- (id)
-× ;
-- (_Bool)gmentTitles: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (void)eReplacements;
+- (void);
 
 @end
 

@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)%@) exists, setting up transfer;
-- (double)ed reachability;
-- (double)tate of %@ to %ld;
+- (double);
+- (double);
+- (double);
 
 @end
 

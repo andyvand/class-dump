@@ -12,8 +12,8 @@
 }
 
 - (void);
+- (id);
 - (void);
-- (id)!ûÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *barButtonItem; // @synthesize barButtonItem=_barButtonItem;

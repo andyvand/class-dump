@@ -14,25 +14,27 @@
     UIImage *_imageForCorners;
 }
 
-- (void)thDescriptor:(struct CACornerRadii)arg1;
-- (void);
-- (id);
 - (_Bool);
-- (void)!ÜDùñÁð1¢!0@ù
+- (void);
+- (void);
+- (void)á!xBù_1Â0@ù
+× ;
+- (void)
+× ;
+- (void)±cð1Â0@ù
 × ;
 - (void);
-- (void);
-- (int)onfirmedExactAppleDoubleItem: /* Error: Ran out of types for this method. */;
-- (id)deAnimator;
-- (void)Point=dd}{CGSize=dd}},N,V_contentBounds;
-- (void)itleFontProviderNonIOS;
-- (_Bool)llectionViewCompositionLayoutInvalidationContext;
-- (void)sualElement;
-- (void)Ôüÿ;
-- (void)_SstG;
-- (id)bg;
-- (void);
-- (void)äCÿ;
+- (void)dIndentWhileEditingRowAtIndexPath:(double)arg1;
+- (id)setPreferredContentInsets: /* Error: Ran out of types for this method. */;
+- (void)moveAllRetargetableAnimationsIfDetatchedFromContext;
+- (int)tFormattingAffordancesAvailable;
+- (void)FeedbackPatternParameters;
+- (id)mentForInputViewSet, early return -> %@;
+- (id)to the same index path (%@);
+- (_Bool)ázì?)\Âõ(Ì?;
+- (void)²ÐUDg;
+- (void)ÊÿÓ2;
+- (void)Ôhÿ¹x;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *imageForCorners; // @synthesize imageForCorners=_imageForCorners;

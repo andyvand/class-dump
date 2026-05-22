@@ -96,15 +96,15 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
-- (void)hõôð;
+- (id);
+- (void);
+- (id);
+- (void)htConstraint;
+- (void)ntrollerTitle;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

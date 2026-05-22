@@ -23,12 +23,12 @@
 - (void);
 - (long long);
 - (void);
+- (void);
 - (unsigned long long);
+- (struct UIEdgeInsets);
 - (_Bool);
 - (id);
-- (void);
-- (struct CGPoint);
-- (struct UIEdgeInsets);
+- (struct CGPoint)6^{?=CCfqSC}24{_NSRange=QQ}32;
 
 // Remaining properties
 @property(nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;

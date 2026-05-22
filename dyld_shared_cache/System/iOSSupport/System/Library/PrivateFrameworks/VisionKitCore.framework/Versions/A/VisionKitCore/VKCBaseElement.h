@@ -30,17 +30,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (long long);
 - (id);
-- (void);
+- (id);
 - (struct CGRect);
 - (id);
 - (long long);
 - (id);
+- (void);
+- (id);
 - (unsigned long long);
-- (id)mageGlyph: /* Error: Ran out of types for this method. */;
-- (id)n;
-- (void);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect boundingBox;

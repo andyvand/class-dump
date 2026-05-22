@@ -4,5 +4,5 @@
 
 class lsl::SharedPtr<dyld4::Atlas::Mapper>::Ctrl {
 public: // (access info unavailable from symbols alone)
-    decrementRefCount();
+    auto decrementRefCount();
 };

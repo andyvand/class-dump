@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void)ck: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PUMediaProvider *wrappedMediaProvider; // @synthesize wrappedMediaProvider=_wrappedMediaProvider;

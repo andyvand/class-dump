@@ -35,10 +35,11 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)1B50@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long renderStyle; // @synthesize renderStyle=_renderStyle;

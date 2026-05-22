@@ -16,16 +16,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (double);
 - (void);
 - (double);
-- (void);
-- (void)rº;
-- (double)Í1¢!0@ù
+- (double)ð!@Eùqdð1Â0@ù
 × ;
-- (void)InContainer:proposal: /* Error: Ran out of types for this method. */;
-- (double)\;
+- (void)0@ù
+× ;
+- (void)eFragments;
+- (void)w:(double)arg1;
+- (double)ationManager:continueUserActivity: /* Error: Ran out of types for this method. */;
+- (void)outContainer",R,N;
+- (double)c;
 
 // Remaining properties
 @property(nonatomic) double maxLength; // @synthesize maxLength=_maxLength;

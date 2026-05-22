@@ -9,11 +9,11 @@ public: // (access info unavailable from symbols alone)
     MutableMessageBase(qmi::MutableMessageBase const&);
     MutableMessageBase(qmi::MutableMessageBase&&);
     MutableMessageBase(unsigned short);
-    getSize() const;
-    operator=(qmi::MutableMessageBase const&);
-    operator=(qmi::MutableMessageBase&&);
-    serialize() const;
-    setWriteErrorHandler(void (*)(unsigned short, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>&, long));
-    swap(qmi::MutableMessageBase&);
+    auto getSize() const;
+    auto operator=(qmi::MutableMessageBase const&);
+    auto operator=(qmi::MutableMessageBase&&);
+    auto serialize() const;
+    auto setWriteErrorHandler(void (*)(unsigned short, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>&, long));
+    auto swap(qmi::MutableMessageBase&);
     ~MutableMessageBase();
 };

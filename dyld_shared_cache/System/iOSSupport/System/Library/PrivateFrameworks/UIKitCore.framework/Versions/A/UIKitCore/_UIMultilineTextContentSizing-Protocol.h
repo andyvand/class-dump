@@ -5,6 +5,5 @@
 //
 
 @protocol _UIMultilineTextContentSizing
-- (void);
 @end
 

@@ -8,7 +8,6 @@
 @protocol GEOTransitDepartureSequence, GEOTransitLine;
 
 @protocol MKInactiveTransitLine
-- (id <GEOTransitLine>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <GEOTransitDepartureSequence> departuresSequence;

@@ -14,13 +14,13 @@
 }
 
 - (void);
-- (void)b;
-- (id)ageUrl;
+- (void);
+- (id);
 - (long long);
-- (id)ator;
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)ickerContentProvider;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *fallbackExtensionIdentifiers; // @synthesize fallbackExtensionIdentifiers=_fallbackExtensionIdentifiers;

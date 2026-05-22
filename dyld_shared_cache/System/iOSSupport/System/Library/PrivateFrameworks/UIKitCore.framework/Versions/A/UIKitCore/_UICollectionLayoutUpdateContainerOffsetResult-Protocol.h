@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol _UICollectionLayoutUpdateContainerOffsetResult
+- (NSSet *)a scene that appears to be in a view service.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *invalidatedAuxillaryKinds;

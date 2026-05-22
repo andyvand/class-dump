@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (_Bool)[PUPickerCoordinator scrollContentToInitialPosition];
+- (_Bool)}@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasChanges; // @synthesize hasChanges=_hasChanges;

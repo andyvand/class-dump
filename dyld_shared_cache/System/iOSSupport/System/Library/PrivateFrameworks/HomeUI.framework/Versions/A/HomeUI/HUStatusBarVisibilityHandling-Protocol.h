@@ -5,6 +5,7 @@
 //
 
 @protocol HUStatusBarVisibilityHandling
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isStatusBarHidden) _Bool statusBarHidden;

@@ -23,18 +23,18 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void)$;
-- (void)0;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)¸ð´ Media Services Died - ItemAtDeath: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void)ing auto play [data source unsupported];
+- (void)@m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

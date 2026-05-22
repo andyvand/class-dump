@@ -21,9 +21,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)orLocaleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *highlightedImage; // @synthesize highlightedImage=_highlightedImage;

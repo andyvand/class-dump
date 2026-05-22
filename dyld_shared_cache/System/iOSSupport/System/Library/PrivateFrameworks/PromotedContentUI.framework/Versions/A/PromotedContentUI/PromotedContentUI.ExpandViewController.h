@@ -23,19 +23,19 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id),;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)entItemID=%{public}@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void)Àµ;
+- (void);
 
 @end
 

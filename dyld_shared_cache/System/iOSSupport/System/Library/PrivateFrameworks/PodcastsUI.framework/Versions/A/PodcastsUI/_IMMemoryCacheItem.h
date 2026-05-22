@@ -16,18 +16,18 @@
 }
 
 + (id);
-- (void);
-- (_Bool)|;
+- (void);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool conformsToProtocol; // @synthesize conformsToProtocol=_conformsToProtocol;

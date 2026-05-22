@@ -14,10 +14,10 @@
     MISSING_TYPE *animationScheduler;
 }
 
-- (void);
 - (id);
 - (void);
-- (id)r;
+- (id)bleViewRow;
+- (void)ØÀ£ÿ9øVl;
 
 @end
 

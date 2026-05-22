@@ -7,9 +7,11 @@
 @class NSString;
 
 @protocol UINSApplicationShortcutItem
-- (id);
-- (NSString *)edRange=qQ}24@0:8@16 /* Error: Ran out of types for this method. */;
-- (_Bool)oint: /* Error: Ran out of types for this method. */;
+- (_Bool)@ù
+× ;
+- (id)`Eùñ^ð1Â0@ù
+× ;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedTitle;

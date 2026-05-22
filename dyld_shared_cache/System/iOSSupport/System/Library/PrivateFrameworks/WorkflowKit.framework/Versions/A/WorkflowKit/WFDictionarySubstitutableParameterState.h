@@ -17,14 +17,14 @@
 + (id);
 + (Class);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
-- (id)r;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ween 0 and 1 (for example, pass 0.5 for half volume).;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identity; // @synthesize identity=_identity;

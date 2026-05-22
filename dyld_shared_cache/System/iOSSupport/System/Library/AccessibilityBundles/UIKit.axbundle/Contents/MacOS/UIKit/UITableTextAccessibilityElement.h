@@ -46,17 +46,17 @@
 - (id);
 - (id);
 - (struct CGPoint);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (struct CGRect);
 - (_Bool);
 - (id);
+- (struct CGRect);
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 
 @end

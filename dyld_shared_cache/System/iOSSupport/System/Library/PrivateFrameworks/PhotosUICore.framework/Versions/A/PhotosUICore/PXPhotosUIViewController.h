@@ -43,11 +43,11 @@
     id _searchHomeCoordinator;
 }
 
++ (id);
 + (void);
-+ (_Bool);
 + (void);
 + (id);
-+ (id);
++ (_Bool)tTotalNumberOfMetadataMatchedAssets:(unsigned long long)arg1;
 
 @end
 

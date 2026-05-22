@@ -22,7 +22,7 @@
 }
 
 + (id);
-+ (_Bool)tion;
++ (_Bool)"NSString"16@"MTLCompileOptions"24@?<v@?@"<MTLLibrary>"@"NSError">32;
 - (struct __CFXWorld *);
 - (void);
 - (id);
@@ -70,17 +70,17 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)¿û;
-- (_Bool)@]?;
-- (id)¼Tÿ Ô¥';
+- (void)½\;
+- (void)red_frag;
+- (id);
 
 // Remaining properties
 @property(readonly) NSArray *animationKeys;

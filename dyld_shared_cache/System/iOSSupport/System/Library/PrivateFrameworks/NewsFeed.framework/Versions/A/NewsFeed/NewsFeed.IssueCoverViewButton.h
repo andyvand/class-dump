@@ -12,13 +12,13 @@
     MISSING_TYPE *coverView;
 }
 
-- (void);
+- (id);
 - (struct CGRect);
 - (id);
-- (void)quest:delegate:modes: /* Error: Ran out of types for this method. */;
-- (void)Ù;
-- (id)ïÂyytG;
-- (_Bool)mType;
+- (void)ì$;
+- (void)premiumHeadlineSlotting;
+- (void)^:hö$ÿ /* Error: Ran out of types for this method. */;
+- (_Bool)u;
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

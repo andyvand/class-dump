@@ -31,9 +31,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id)¡8;
+- (id)v@?@"PXStoryProducerResult">40;
+- (void);
+- (id)·Èÿ©O8Y9;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *actionPerformersByType; // @synthesize actionPerformersByType=_actionPerformersByType;

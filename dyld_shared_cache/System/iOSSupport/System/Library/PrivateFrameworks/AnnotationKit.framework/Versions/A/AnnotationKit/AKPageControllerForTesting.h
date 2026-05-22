@@ -18,7 +18,7 @@
     UIView *_testingOverlayView;
 }
 
-- (id)E;
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,19 +31,19 @@
 - (void);
 - (id);
 - (double);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
-- (struct CGRect);
-- (struct CGRect);
-- (id)\;
-- (struct CGPoint);
+- (struct CGRect);
+- (struct CGRect);
+- (id);
 - (struct CGPoint);
-- (void);
+- (struct CGPoint);
 - (unsigned long long);
-- (id);
 - (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain) AKController *testingController; // @synthesize testingController=_testingController;

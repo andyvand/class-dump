@@ -4,5 +4,5 @@
 
 class swift::TaskDependencyStatusRecord {
 public: // (access info unavailable from symbols alone)
-    performEscalationAction(swift::JobPriority, swift::JobPriority);
+    auto performEscalationAction(swift::JobPriority, swift::JobPriority);
 };

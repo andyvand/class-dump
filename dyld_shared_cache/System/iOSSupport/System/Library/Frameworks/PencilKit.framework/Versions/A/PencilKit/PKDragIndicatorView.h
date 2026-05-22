@@ -13,15 +13,15 @@
     double _scalingFactor;
 }
 
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void)traintGreaterThanOrEqualToAnchor:(double)arg1 constant: /* Error: Ran out of types for this method. */;
-- (double);
 - (void);
-- (struct CGSize);
 - (id);
+- (void);
+- (struct CGSize);
+- (double);
 
 // Remaining properties
 @property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;

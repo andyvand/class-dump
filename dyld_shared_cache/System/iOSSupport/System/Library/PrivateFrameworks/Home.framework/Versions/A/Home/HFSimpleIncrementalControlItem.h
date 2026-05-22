@@ -13,7 +13,7 @@
     NSString *_incrementalCharacteristicType;
 }
 
-+ (Class);
++ (Class)racteristicConditionItem.m;
 - (id);
 - (id);
 - (id);
@@ -24,8 +24,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)I;
+- (id)electedItem;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *incrementalCharacteristicType; // @synthesize incrementalCharacteristicType=_incrementalCharacteristicType;

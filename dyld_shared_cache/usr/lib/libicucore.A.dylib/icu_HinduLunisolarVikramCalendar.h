@@ -5,12 +5,12 @@
 class icu::HinduLunisolarVikramCalendar {
 public: // (access info unavailable from symbols alone)
     HinduLunisolarVikramCalendar(icu::Locale const&, UErrorCode&);
-    clone() const;
-    getDynamicClassID() const;
-    getHinduCalendarType() const;
-    getStaticClassID();
-    getType() const;
-    getYearOffset() const;
-    handleComputeMonthStart(int, int, signed char, UErrorCode&) const;
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getHinduCalendarType() const;
+    auto getStaticClassID();
+    auto getType() const;
+    auto getYearOffset() const;
+    auto handleComputeMonthStart(int, int, signed char, UErrorCode&) const;
     ~HinduLunisolarVikramCalendar();
 };

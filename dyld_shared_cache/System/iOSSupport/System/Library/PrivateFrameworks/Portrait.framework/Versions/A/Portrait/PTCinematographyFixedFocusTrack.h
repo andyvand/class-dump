@@ -27,11 +27,11 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
+- (float);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (float);
 
 // Remaining properties
 @property(readonly, nonatomic) PTCinematographyDetection *detection; // @synthesize detection=_detection;

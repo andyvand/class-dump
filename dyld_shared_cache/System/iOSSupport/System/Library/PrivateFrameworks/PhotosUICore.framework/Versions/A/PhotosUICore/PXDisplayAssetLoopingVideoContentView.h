@@ -55,15 +55,15 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
 - (double);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)nfigurationRequestWithFetchResult:resultHandler: /* Error: Ran out of types for this method. */;
+- (void)tomZoomTransitionDimming;
+- (void)%£É;
+- (id)7;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activityCoordinatorQueuePosition;

@@ -23,20 +23,20 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (struct CGRect)Set",&,N,V_originatedMessages;
-- (struct CGRect)Update;
+- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
-- (id)%@ does not support encryption.;
-- (id)0;
+- (id);
 - (void);
-- (id)nterfaceOrientationLocked;
-- (id)DiffInspector;
-- (id),;
-- (void)¸Ø$;
-- (void)red;
-- (id)n_UISplitViewController;
-- (void)ÒçØß];
+- (void)teKeyboards:(id)arg1;
+- (id)ew %@ is not actually an ancestor of view %@ at all.;
+- (id)configured without a delegate;
+- (id)ionsMenuRefreshForGeometryChange;
+- (void)succeed on a touch that we're supposed to be ignoring!;
+- (id)^Åþÿ^ÅþÿÓþÿÓþÿ;
+- (id);
+- (void)<ÿÕ´¥\;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

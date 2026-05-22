@@ -7,7 +7,6 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)P;
-- (_Bool)²¹ü;
+- (_Bool)AlbumAnimationDuration;
 @end
 

@@ -19,43 +19,42 @@
     CKWaveformProgressView *_waveformProgressView;
 }
 
-- (void)$__lazy_storage_$_updateQueue;
-- (id)ge;
+- (void);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (struct CGSize)o;
-- (void)c;
 - (void);
-- (void)ent preview thumbnail — falling back to default preview thumbnail;
-- (id)esWelcomeMigrationPromptIfSupportedForAccount:window:completionHandler:] /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (void)&;
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)eCellAvatarDelegate: /* Error: Ran out of types for this method. */;
+- (double)omItemAtIndexPath:toProposedIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)ingCleared;
+- (void)m]j4[Fÿ}]j0[Fÿ}]j,[Fÿ]jl?Æÿ;
 - (void);
-- (void);
-- (id)16;
-- (id)äÉ;
-- (void)Rõûÿ;
-- (double)ions;
-- (id);
-- (double)
-ô;
-- (_Bool)5¹¦0;
 
 // Remaining properties
 @property(nonatomic, getter=isControlHidden) _Bool controlHidden;

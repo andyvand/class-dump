@@ -57,31 +57,29 @@
 
 + (id);
 + (void);
-+ (id)0%EÉ;
-+ (id)¸Ì;
-+ (_Bool)%EÉ;
-+ (_Bool)r³Ì;
-+ (id)%EÉ;
 + (id);
 + (id);
-+ (id)¬Ö0%EÉ;
-+ (id)(
-Ì;
-+ (id)«Ì;
-+ (id)myl¬Ö0%EÉ;
-+ (_Bool)«h¯|l¬Ö0%EÉ;
-+ (_Bool)°myl¬Ö0%EÉ;
-+ (_Bool)°myl¬Ö0%EÉ;
-+ (_Bool);
++ (_Bool);
++ (_Bool);
 + (id);
-+ (long long)Ö0%EÉ;
-+ (id)Ì;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (id);
++ (long long);
++ (id);
 + (id);
 + (id);
 - (long long);
 - (id);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -120,20 +118,21 @@
 - (void);
 - (id);
 - (id);
-- (id)°myl«ÐÕÌ;
-- (id)Ì;
-- (void)`Ì;
-- (void);
-- (void)Ì;
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void)´÷l¬Ö0%EÉ;
 - (void);
 - (void);
-- (void)øÌ;
-- (void);
-- (void);
-- (long long)É;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (id);
 - (long long);
 - (id);
@@ -144,8 +143,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -153,27 +152,27 @@
 - (long long);
 - (long long);
 - (unsigned long long);
-- (void);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)WFREPBStopRequest;
-- (void)presented content:(id)arg1 %@;
+- (void)ronmentValueForKey:(id)arg1;
+- (void)ntity;
+- (void);
+- (id)of the font, as a decimal proportion of the image size between 0 and 1, to apply to the text. (WFPercentageFontSize);
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *accessResourcePerWorkflowStates; // @synthesize accessResourcePerWorkflowStates=_accessResourcePerWorkflowStates;

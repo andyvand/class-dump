@@ -17,11 +17,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXPlacesMapModeController *mapModeController; // @synthesize mapModeController=_mapModeController;

@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXPresentationEnvironment;
-
 @protocol PXPhotosContentControllerDelegate
-
-@optional
-- (id <PXPresentationEnvironment>)`Ì¼%;
 @end
 

@@ -47,22 +47,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id)ccounts:forHome: /* Error: Ran out of types for this method. */;
-- (void)mTableFooterMessage;
 - (void);
-- (id)ÜD¿ÿ;
-- (id)ÿ!ï;
-- (void)Áâ;
-- (id)öf¬;
-- (void)õØõ;
-- (void)bbò.;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)ð1â
+0@ù
+× ;
+- (id)ting;
+- (void)ickControlClass;
+- (void)oterSetDurationGeneric;
+- (id)me:(unsigned long long)arg1 );
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *atvImageView; // @synthesize atvImageView=_atvImageView;

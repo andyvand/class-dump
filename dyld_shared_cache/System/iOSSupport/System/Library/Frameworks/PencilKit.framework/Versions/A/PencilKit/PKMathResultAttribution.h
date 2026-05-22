@@ -14,15 +14,15 @@
     NSDate *_date;
 }
 
-- (void)e cache.;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)øZ8]Ø]d^;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *darkModeImage; // @synthesize darkModeImage=_darkModeImage;

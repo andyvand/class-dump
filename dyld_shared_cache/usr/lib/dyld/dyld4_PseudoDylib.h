@@ -4,19 +4,19 @@
 
 class dyld4::PseudoDylib {
 public: // (access info unavailable from symbols alone)
-    create(lsl::Allocator&, char const*, void*, unsigned long, dyld4::PseudoDylibCallbacks*, void*);
-    create(lsl::Allocator&, char const*, void*, unsigned long, dyld4::PseudoDylibCallbacks*, void*) (.cold.1);
-    create(lsl::Allocator&, char const*, void*, unsigned long, dyld4::PseudoDylibCallbacks*, void*) (.cold.2);
-    create(lsl::Allocator&, char const*, void*, unsigned long, dyld4::PseudoDylibCallbacks*, void*) (.cold.3);
-    disposeString(char*) const;
-    finalizeRequestedSymbols(std::__1::span<char const*, 18446744073709551615ul>) const;
-    findUnwindSections(void const*, bool*, dyld_unwind_sections*) const;
-    findUnwindSections(void const*, bool*, dyld_unwind_sections*) const (.cold.1);
-    findUnwindSections(void const*, bool*, dyld_unwind_sections*) const (.cold.2);
-    initialize() const;
-    loadableAtPath(char const*) const;
-    lookupAddress(void const*, dl_info*) const;
-    lookupSymbols(std::__1::span<char const*, 18446744073709551615ul>, std::__1::span<void*, 18446744073709551615ul>, std::__1::span<unsigned long long, 18446744073709551615ul>) const;
-    lookupSymbols(std::__1::span<char const*, 18446744073709551615ul>, std::__1::span<void*, 18446744073709551615ul>, std::__1::span<unsigned long long, 18446744073709551615ul>) const (.cold.1);
-    lookupSymbols(std::__1::span<char const*, 18446744073709551615ul>, std::__1::span<void*, 18446744073709551615ul>, std::__1::span<unsigned long long, 18446744073709551615ul>) const (.cold.2);
+    auto create(lsl::Allocator&, char const*, void*, unsigned long, dyld4::PseudoDylibCallbacks*, void*);
+    auto create(lsl::Allocator&, char const*, void*, unsigned long, dyld4::PseudoDylibCallbacks*, void*) (.cold.1);
+    auto create(lsl::Allocator&, char const*, void*, unsigned long, dyld4::PseudoDylibCallbacks*, void*) (.cold.2);
+    auto create(lsl::Allocator&, char const*, void*, unsigned long, dyld4::PseudoDylibCallbacks*, void*) (.cold.3);
+    auto disposeString(char*) const;
+    auto finalizeRequestedSymbols(std::__1::span<char const*, 18446744073709551615ul>) const;
+    auto findUnwindSections(void const*, bool*, dyld_unwind_sections*) const;
+    auto findUnwindSections(void const*, bool*, dyld_unwind_sections*) const (.cold.1);
+    auto findUnwindSections(void const*, bool*, dyld_unwind_sections*) const (.cold.2);
+    auto initialize() const;
+    auto loadableAtPath(char const*) const;
+    auto lookupAddress(void const*, dl_info*) const;
+    auto lookupSymbols(std::__1::span<char const*, 18446744073709551615ul>, std::__1::span<void*, 18446744073709551615ul>, std::__1::span<unsigned long long, 18446744073709551615ul>) const;
+    auto lookupSymbols(std::__1::span<char const*, 18446744073709551615ul>, std::__1::span<void*, 18446744073709551615ul>, std::__1::span<unsigned long long, 18446744073709551615ul>) const (.cold.1);
+    auto lookupSymbols(std::__1::span<char const*, 18446744073709551615ul>, std::__1::span<void*, 18446744073709551615ul>, std::__1::span<unsigned long long, 18446744073709551615ul>) const (.cold.2);
 };

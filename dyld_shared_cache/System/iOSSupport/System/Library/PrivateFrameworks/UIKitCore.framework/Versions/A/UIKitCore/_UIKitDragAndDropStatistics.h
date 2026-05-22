@@ -9,9 +9,9 @@
 }
 
 + (void);
-+ (void)%@, payload=%{sensitive}@;
-+ (void)ecause it is an incompatible action type %lld;
-+ (void)recordID because it is nil %@;
++ (void);
++ (void);
++ (void);
 
 @end
 

@@ -46,9 +46,8 @@
 - (void);
 - (void);
 - (void);
+- (struct CGSize);
 - (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -56,10 +55,11 @@
 - (void);
 - (struct CGSize);
 - (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) struct CGSize assetNoMarginSize; // @synthesize assetNoMarginSize=_assetNoMarginSize;

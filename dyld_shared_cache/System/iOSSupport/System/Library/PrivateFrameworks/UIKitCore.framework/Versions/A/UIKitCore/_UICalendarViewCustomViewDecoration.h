@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)sync date %@;
-- (void)éóº;
+- (id);
+- (void)ëÌt9^;
 
 @end
 

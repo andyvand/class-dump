@@ -34,13 +34,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)reviousContentDescription:contentDestination:workflowName: /* Error: Ran out of types for this method. */;
-- (id)InstalledResource:didUpdateAppDescriptor: /* Error: Ran out of types for this method. */;
-- (id)ry Value (Action Name);
-- (id)ñíÿ;
+- (id);
+- (id);
+- (id)assDependencies;
+- (void)isn't equal to subdefinitions count, there is some error in proceessing.;
+- (void)llApps:(id)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)ns.nothing;
 
 // Remaining properties
 @property(retain, nonatomic) WFRemoteExecutionCoordinator *coordinator; // @synthesize coordinator=_coordinator;

@@ -16,24 +16,24 @@
 - (id);
 - (Class);
 - (void);
-- (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)?א ;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (float);
+- (id);
 - (void);
-- (void)sEqualToDate:(float)arg1;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

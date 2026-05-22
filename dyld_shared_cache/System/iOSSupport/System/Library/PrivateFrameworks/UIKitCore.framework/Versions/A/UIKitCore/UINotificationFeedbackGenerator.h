@@ -12,22 +12,23 @@
 {
 }
 
-+ (Class);
-- (id);
++ (Class)0@ù
+× ;
+- (void);
+- (void);
 - (void);
 - (double);
-- (void)=%{public}@;
+- (id);
+- (id);
 - (void);
-- (void)6@0:(long long)arg1 8;
-- (void)em:(long long)arg1;
-- (void)hInvalidationAction:(long long)arg1;
-- (void)ificationInfoForScrollWithMode:(long long)arg1;
-- (void)nts_sizeDidChange;
-- (void)umberOfRows;
-- (void)onstraintForGapBetweenPrecedingItem:(long long)arg1 followingItem:isPrecededByVisibleItem:isFollowedByVisibleItem:isHidden: /* Error: Ran out of types for this method. */;
-- (id)wManagerDelegate>",W,N,V_delegate;
-- (void)3_pGIegg_;
-- (id)Xµªÿ-9Ùshi;
+- (void);
+- (void);
+- (void)n:(long long)arg1;
+- (void)atImageAsTemplate:(long long)arg1;
+- (void)veHeightChanged;
+- (void)llectionJoinBehavior;
+- (void);
+- (id)h;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_eventConfiguration) _UINotificationFeedbackGeneratorConfiguration *eventConfiguration;

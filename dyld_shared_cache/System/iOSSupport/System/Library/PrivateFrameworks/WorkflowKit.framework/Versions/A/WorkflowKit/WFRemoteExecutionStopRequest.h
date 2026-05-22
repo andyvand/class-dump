@@ -17,8 +17,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)pple.shortcuts.webpagesDestination;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;

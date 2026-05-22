@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     struct CGPoint _startPoint;
 }
 
-- (void);
-- (struct CGPoint)l¤Nÿ<õÕ@pd;
+- (struct CGPoint);
+- (void)esentationContext;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;

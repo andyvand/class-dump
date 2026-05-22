@@ -16,11 +16,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)1b0@ù
-× ;
-- (id)ocusMode;
+- (id);
+- (void);
+- (void)ooks:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak WFAction *action; // @synthesize action=_action;

@@ -23,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (void)sult: /* Error: Ran out of types for this method. */;
 
 @end
 

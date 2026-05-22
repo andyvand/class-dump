@@ -21,7 +21,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)er.m;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *addRoomItem; // @synthesize addRoomItem=_addRoomItem;

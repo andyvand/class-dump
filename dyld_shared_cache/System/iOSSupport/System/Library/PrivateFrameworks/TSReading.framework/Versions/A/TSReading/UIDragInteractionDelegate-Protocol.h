@@ -4,16 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIDragInteraction;
+@class UIDragInteraction, UIDragItem, UITargetedDragPreview;
 @protocol UIDragSession;
 
 @protocol UIDragInteractionDelegate
-- (NSArray *)ÑQ1¢!0@ù
-× ;
 
 @optional
-- (id <UIDragSession>)Ü/ 0 1;
-- (void)nKind;
-- (_Bool)eForRep:(UIDragInteraction *)arg1 withSize:(id <UIDragSession>)arg2 drawSelector:unflipped:] /* Error: Ran out of types for this method. */;
+- (_Bool)±Ð1Â0@ù
+× ;
+- (void)dd}16{CGSize=dd}32{CGSize=dd}48{CGSize=dd}64d80Q88@96;
+- (void)ertiesFromStyle:(UIDragInteraction *)arg1 secondaryStyle:(id <UIDragSession>)arg2 toNS:stickyFont:scale: /* Error: Ran out of types for this method. */;
+- (UITargetedDragPreview *)llID:(UIDragInteraction *)arg1 outTopStroke:(UIDragItem *)arg2 outLeftStroke:(id <UIDragSession>)arg3 outBottomStroke:outRightStroke: /* Error: Ran out of types for this method. */;
+- (_Bool);
 @end
 

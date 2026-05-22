@@ -37,11 +37,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)1b0@ù
-× ;
-- (void)ginNotification with task identifier %@;
+- (void)update the Energy pill;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *affectedAccessories; // @synthesize affectedAccessories=_affectedAccessories;

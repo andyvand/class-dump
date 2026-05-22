@@ -29,28 +29,27 @@ __attribute__((visibility("hidden")))
     } _rebuildFlags;
 }
 
-- (void)count: /* Error: Ran out of types for this method. */;
-- (void)ImageGlyph:(id)arg1 completionBlock:(_Bool)arg2;
-- (_Bool):toChat:style:allowWatchdog:account: /* Error: Ran out of types for this method. */;
-- (struct CGImage *)alIncomingDownloadMessage:storageContext: /* Error: Ran out of types for this method. */;
-- (void)ier:(_Bool)arg1 displayName:participants:groupID:originalGroupID: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (struct CGImage *);
 - (void);
 - (void);
 - (void);
-- (void)P	;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (struct CGImage *);
+- (struct CGImage *);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)cified environment (e.g. `[focusSystem requestFocusUpdateToEnvironment:(struct CGRect)arg1 environment]`), outlining each step of the process for determining the next focused item.;
+- (id)inalBackgroundConfiguration;
+- (void)ä;
+- (void)06f;
 
 // Remaining properties
 @property(nonatomic, getter=isShowingFrontFace) _Bool showingFrontFace; // @synthesize showingFrontFace=_showingFrontFace;

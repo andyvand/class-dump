@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol PKRulerHostingDelegate
-
-@optional
-- (NSString *)j;
-- (_Bool);
 @end
 

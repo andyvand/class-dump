@@ -15,15 +15,15 @@
 
 + (_Bool);
 - (id);
-- (id)r;
 - (void);
-- (_Bool)^vQ>32^@40;
-- (_Bool);
-- (void)?k`;
 - (id);
-- (void)ForYouLinkRecommendation"16;
 - (unsigned long long);
-- (void)nt: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *URLs; // @synthesize URLs=_URLs;

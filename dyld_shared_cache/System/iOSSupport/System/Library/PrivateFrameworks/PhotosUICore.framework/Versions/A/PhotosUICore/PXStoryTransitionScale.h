@@ -21,7 +21,7 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)Core.PXEditAutomationManager;
 
 @end
 

@@ -15,11 +15,11 @@
 
 - (void);
 - (void);
-- (id)to PencilKit data for %@;
-- (id)t (%@) that we haven't downloaded yet for an attachment (%@). Creating a temporary one.;
-- (void);
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKMessageEntryViewContainerViewDelegate> entryViewContainerViewDelegate; // @synthesize entryViewContainerViewDelegate=_entryViewContainerViewDelegate;

@@ -5,8 +5,5 @@
 //
 
 @protocol TSKSearchable
-
-@optional
-- (void));
 @end
 

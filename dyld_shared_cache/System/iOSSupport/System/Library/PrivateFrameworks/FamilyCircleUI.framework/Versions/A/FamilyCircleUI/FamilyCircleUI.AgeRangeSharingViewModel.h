@@ -23,6 +23,8 @@
     MISSING_TYPE *_onDismiss;
     MISSING_TYPE *_shouldShowOnboarding;
     MISSING_TYPE *_privacyVersion;
+    MISSING_TYPE *_appBundleInfoCache;
+    MISSING_TYPE *appBundleInfoResolver;
     MISSING_TYPE *_$observationRegistrar;
 }
 

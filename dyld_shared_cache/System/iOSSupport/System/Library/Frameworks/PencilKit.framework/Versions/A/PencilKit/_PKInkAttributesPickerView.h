@@ -30,9 +30,9 @@
 - (void);
 - (void);
 - (void);
-- (void)(;
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,16 +42,16 @@
 - (id);
 - (id);
 - (id);
-- (long long)unknownBackgroundNetworkOperationError;
-- (id)nsformingKeysWithKeyAndValueBlock: /* Error: Ran out of types for this method. */;
-- (id)escription;
-- (id)ion: /* Error: Ran out of types for this method. */;
-- (void)pletionHandler;
-- (void)led with error:(id)arg1 %{public}@;
-- (void)tugAb8POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Operations/RCOperation.m;
-- (void)ration dealloc];
-- (void)try;
-- (void)?;
+- (long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -59,12 +59,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (struct CGSize)rCurrentConfiguration;
-- (unsigned long long);
+- (void)olorOverride;
+- (unsigned long long)°Ç;
 
 // Remaining properties
 @property(retain, nonatomic) _PKInkThicknessPicker *azimuthPicker; // @synthesize azimuthPicker=_azimuthPicker;

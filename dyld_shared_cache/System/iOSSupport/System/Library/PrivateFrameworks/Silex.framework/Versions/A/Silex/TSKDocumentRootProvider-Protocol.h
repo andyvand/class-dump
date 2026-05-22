@@ -7,7 +7,6 @@
 @class TSKDocumentRoot;
 
 @protocol TSKDocumentRootProvider
-- (TSKDocumentRoot *);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) TSKDocumentRoot *documentRoot;

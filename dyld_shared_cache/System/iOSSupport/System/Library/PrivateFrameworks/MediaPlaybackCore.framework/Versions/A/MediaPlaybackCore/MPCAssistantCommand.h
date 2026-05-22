@@ -13,12 +13,12 @@
 - (void);
 - (void);
 - (void);
-- (void)R#;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)6^@24;
+- (void);
+- (void);
+- (void);
 
 @end
 

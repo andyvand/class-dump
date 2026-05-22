@@ -14,10 +14,11 @@
 }
 
 - (id);
-- (void)ger: /* Error: Ran out of types for this method. */;
 - (double);
-- (id)ÿ;
-- (void)Bound;
+- (id)¡îÐ!PGùÿ1Â0@ù
+× ;
+- (void)T;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double contentScaleFactor;

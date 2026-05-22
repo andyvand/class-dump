@@ -33,53 +33,47 @@
     MISSING_TYPE *backButtonContentTrailingPadding;
 }
 
-- (void);
-- (struct CGRect);
 - (void);
-- (void);
 - (id);
-- (void)h;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (struct CGSize);
+- (void);
+- (id)ollerDelegate>";
+- (void):(id)arg1 B:(id)arg2 C:(id)arg3 D:E:F: /* Error: Ran out of types for this method. */;
+- (id)er;
+- (id)reRecognizer:(id)arg1;
+- (id)wnAnimationWindow;
+- (id)È;
+- (id)nce directly is not supported anymore, please update your app.;
+- (struct CGSize)= %@;
+- (void)gCapture/;
+- (id)8ÿÿ;
+- (_Bool)uÿÐÓè;b;
+- (void);
+- (void)¤ÿ÷;
+- (void)p;
+- (void)wþA;
+- (_Bool)qþâ;
+- (void)Çÿ%Ôpq;
+- (Class)q;
+- (_Bool)Äq;
+- (_Bool)%;
+- (void);
+- (id)ü¢ÿ2ëpRr;
+- (id)Ö¤nr;
+- (struct CGPoint)KëÓts;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool)oÐ!øFùQÁÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)Ã1¢!0@ù
-× ;
-- (void);
-- (void)0@ù
-× ;
-- (id)!pEùqÉÐ1¢!0@ù
-× ;
-- (void);
-- (id)1¢!0@ù
-× ;
-- (struct CGSize)Style:(struct CGSize)arg1 legibilityStrength:(float)arg2;
-- (id)hods;
-- (id)DisambiguationConstraintForItem:numberOfVisibleMultilineItems: /* Error: Ran out of types for this method. */;
-- (id)eActionRepresentationView;
-- (void)ineCGFloatTraitWithName:(_Bool)arg1 identifier:defaultValue:affectsColorAppearance:defaultValueRepresentsUnspecified:isPrivate:placeholderToken: /* Error: Ran out of types for this method. */;
-- (id)ginObservingScrollViewOffsetUpdates;
-- (id)ctivityContinuationType;
-- (_Bool)!;
-- (void);
-- (Class)Machine:%p> Waiting for a hosting window. /* Error: Ran out of types for this method. */;
-- (id)B32@?0@"NSString"8Q16^B24;
-- (_Bool)sition layouts and have the same parent at the top of their layout tree;
-- (void)ing to invalidate an item at an invalid indexPath:(id)arg1 %@ globalIndex:%ld numItems:%ld /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id);
-- (void)«``;
-- (void)»xc;
-- (void)Ö%ÿVÍªëo;
-- (_Bool)wÿÇÕõÖr;
-- (struct CGPoint);
-- (void);
+- (id)Jþ:ÑÖ /* Error: Ran out of types for this method. */;
+- (void)s;
+- (void)Åÿ'lß;
+- (void)+ÊhVs;
+- (void)þ,;
+- (struct CGRect)òs;
+- (_Bool)t;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGRect accessoryViewAlignmentRect;

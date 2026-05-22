@@ -5,8 +5,5 @@
 //
 
 @protocol UITextPasteDelegate
-
-@optional
-- (_Bool);
 @end
 

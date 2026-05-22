@@ -16,17 +16,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (Class);
-- (_Bool);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id)
+- (id);
+- (_Bool)0@ù
 × ;
-- (id)public}@Notifying client of updated media system session:(SEL)arg1 %@ for components:[%@] /* Error: Ran out of types for this method. */;
 
 @end
 

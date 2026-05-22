@@ -11,10 +11,10 @@
     ACAccountStore *_accountStore;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;

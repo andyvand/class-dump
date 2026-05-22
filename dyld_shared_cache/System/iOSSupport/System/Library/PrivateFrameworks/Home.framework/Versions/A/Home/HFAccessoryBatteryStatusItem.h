@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ineStateInsideAreaOfNoActivity;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *batteryLevelItems; // @synthesize batteryLevelItems=_batteryLevelItems;

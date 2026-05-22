@@ -16,11 +16,11 @@
 
 + (id);
 + (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)l;
+- (void)ntItem"8Q16;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

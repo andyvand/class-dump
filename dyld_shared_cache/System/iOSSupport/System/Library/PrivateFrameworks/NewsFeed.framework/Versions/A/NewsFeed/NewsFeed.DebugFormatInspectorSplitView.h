@@ -12,10 +12,11 @@
     MISSING_TYPE *right;
 }
 
-- (void);
 - (id);
 - (void);
-- (id)tionCenterC;
+- (id)
+× ;
+- (void)ìæ$ÿ;
 
 @end
 

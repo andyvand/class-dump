@@ -4,5 +4,5 @@
 
 class DMCVector<Homography> {
 public: // (access info unavailable from symbols alone)
-    Append(Homography);
+    auto Append(Homography);
 };

@@ -15,26 +15,18 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool)â_É;
-+ (_Bool);
-+ (_Bool)èø©D«`#Xªh¿àÌOÉ;
-+ (_Bool);
-+ (_Bool);
-+ (_Bool)i©à¸ªèø©D«`#Xªh¿pòUÉ;
-+ (_Bool)«°myl¬Ö0%EÉ;
-+ (_Bool);
-+ (_Bool);
-+ (id)²Ì;
-+ (id);
-+ (id);
-+ (id);
 + (id);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -46,11 +38,21 @@
 + (id);
 + (id);
 + (id);
-+ (void)0:8@"WFEnumerationParameter"16@"NSString"24@?<v@?@"LNDynamicOptionsResult"@"NSError">32 /* Error: Ran out of types for this method. */;
-+ (_Bool)of the font, as a decimal proportion of the image size between 0 and 1, to apply to the text.;
-+ (id)´ðÊDÍ
-;
++ (id);
++ (id);
++ (id);
++ (id);
 + (_Bool);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (_Bool);
++ (id);
++ (_Bool);
++ (id);
++ (void)nCG_So21WFDatabaseResultStateCtIgr_;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -61,14 +63,14 @@
 - (Class);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (Class);
 - (id);
 - (Class);
-- (id);
 - (id);
+- (void);
+- (id)nHandler:isNew: /* Error: Ran out of types for this method. */;
+- (id)ifier: /* Error: Ran out of types for this method. */;
+- (Class)scriptor:%@) for size estimation... /* Error: Ran out of types for this method. */;
+- (void)${WFURL};
 
 // Remaining properties
 @property(retain, nonatomic) LNDisplayRepresentation *displayRepresentation; // @synthesize displayRepresentation=_displayRepresentation;

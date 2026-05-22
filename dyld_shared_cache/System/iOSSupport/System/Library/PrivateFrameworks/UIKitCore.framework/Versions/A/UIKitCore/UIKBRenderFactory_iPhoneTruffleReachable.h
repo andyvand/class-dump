@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)ncToPairedDevice: /* Error: Ran out of types for this method. */;
-- (Class)';
-- (struct UIEdgeInsets)Sw;
+- (double);
+- (Class);
+- (struct UIEdgeInsets);
 
 @end
 

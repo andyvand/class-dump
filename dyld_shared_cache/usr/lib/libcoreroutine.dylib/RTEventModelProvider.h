@@ -35,12 +35,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id)	;
+- (id);
 - (id);
 - (id);
 - (double);
@@ -49,7 +49,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -57,7 +57,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)$;
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -69,31 +69,32 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)l;
-- (void);
-- (void)F;
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)TB,V_disableDefaultDrop;
-- (id)PayloadReceived;
-- (void)_INVALID_REMOTE_NETWORK_ADDRESS;
+- (id);
 - (void);
 - (void);
+- (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void)!¼FùÑ],ð1¢!0@ù
+- (void);
+- (void)á(°!¸Gù1A,ð1Â0@ù
 × ;
-- (id)back: /* Error: Ran out of types for this method. */;
-- (void)rror:(id)arg1;
-- (id)dDate:includePlaceholders:includeVisits:includeTransitions:handler: /* Error: Ran out of types for this method. */;
-- (id)ger;
-- (void)rror, %s;
-- (void)ation %{sensitive}@ earlier than most recent location at %{sensitive}@;
-- (void)Ì;
+- (id)
+× ;
+- (void)eKeys;
+- (id)ÿÿò;
+- (void)oo close;
+- (id)mCycle;
+- (void)nnection_duration_home;
+- (void)ng nil;
+- (void)ability case (in %s:(id)arg1 %d);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

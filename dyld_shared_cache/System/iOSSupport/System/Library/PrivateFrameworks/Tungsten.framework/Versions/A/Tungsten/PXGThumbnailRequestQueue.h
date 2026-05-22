@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (struct PXGThumbnailRequest *);
-- (id);
-- (id);
+- (void);
 - (long long);
-- (void)imator setSpeed:(long long)arg1 ];
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;

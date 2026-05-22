@@ -25,15 +25,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (id);
 - (struct CGRect);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

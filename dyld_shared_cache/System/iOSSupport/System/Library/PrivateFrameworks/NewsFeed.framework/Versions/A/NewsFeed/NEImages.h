@@ -27,10 +27,10 @@
 + (id);
 + (id);
 + (id);
-+ (id)R;
-+ (id)Y½²È	;
-- (void)ig;
++ (id);
++ (id)DataProviding;
 - (id);
+- (void);
 
 @end
 

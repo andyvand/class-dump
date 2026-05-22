@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id)ntialForAccount:client:store:error: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)dditionalItemsIfNeededWithCount:%ldâ¦ | additional loading skipped [data source doesn't support loading more] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MPCLyricsReportingController *lyricsReportingController; // @synthesize lyricsReportingController=_lyricsReportingController;

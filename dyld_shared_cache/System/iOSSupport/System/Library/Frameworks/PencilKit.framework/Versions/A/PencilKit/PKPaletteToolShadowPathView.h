@@ -15,20 +15,20 @@
     double _scalingFactor;
 }
 
-- (void)dLanguages;
-- (void)Testing;
-- (id)gateReference:(id)arg1 ];
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)onContext:(double)arg1;
-- (double)ions;
+- (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (double);
+- (void)wController;
 
 // Remaining properties
 @property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;

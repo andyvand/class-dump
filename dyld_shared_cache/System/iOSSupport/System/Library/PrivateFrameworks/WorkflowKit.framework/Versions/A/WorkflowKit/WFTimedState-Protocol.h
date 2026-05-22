@@ -5,6 +5,5 @@
 //
 
 @protocol WFTimedState
-- (void),R,N,V_attribute;
 @end
 

@@ -15,6 +15,7 @@
     MISSING_TYPE *latestRemoteControlDate;
     MISSING_TYPE *hasJoinedOneToOneConversation;
     MISSING_TYPE *isBroadcastingScreenSharing;
+    MISSING_TYPE *deviceRestrictionsQueue;
     MISSING_TYPE *deviceRestrictionController;
     MISSING_TYPE *callsFeatureManager;
     MISSING_TYPE *_remoteControlState;
@@ -26,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (void)able(callUUID:(id)arg1 manualScreening:) /* Error: Ran out of types for this method. */;
+- (void)y¶ØGG;
 
 @end
 

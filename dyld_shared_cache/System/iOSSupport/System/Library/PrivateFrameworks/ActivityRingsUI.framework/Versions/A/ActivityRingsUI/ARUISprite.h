@@ -27,17 +27,17 @@
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (id);
 - (MISSING_TYPE *);
-- (float);
-- (float);
-- (void);
 - (id);
 - (unsigned long long);
+- (float);
 - (void);
+- (_Bool);
+- (float);
+- (id);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentFrameIndex; // @synthesize currentFrameIndex=_currentFrameIndex;

@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     long long __state;
 }
 
-- (double)C;
+- (double);
 - (void);
 - (double);
 - (void);
@@ -33,12 +33,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (long long);
 - (void);
 - (void);
-- (long long)e:bundleID:parentPlaceholder:client:location:error: /* Error: Ran out of types for this method. */;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)4;
-- (void)erValue;
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setState:) long long _state; // @synthesize _state=__state;

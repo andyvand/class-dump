@@ -5,10 +5,5 @@
 //
 
 @protocol AVAudioPlayerDelegate
-
-@optional
-- (void);
-- (void)age_SelectTextWithGranularityAtPoint;
-- (void)ionAtPoint;
 @end
 

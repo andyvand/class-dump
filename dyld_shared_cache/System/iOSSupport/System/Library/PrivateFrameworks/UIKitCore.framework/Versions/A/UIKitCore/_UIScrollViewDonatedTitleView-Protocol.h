@@ -7,8 +7,7 @@
 @class UIView;
 
 @protocol _UIScrollViewDonatedTitleView
-- (void)mat;
-- (_Bool);
+- (UIView *)Restoration;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool contributesToPocketContentRect;

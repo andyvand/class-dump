@@ -19,17 +19,17 @@ __attribute__((visibility("hidden")))
     unsigned long long _streamID;
 }
 
-- (void);
-- (void)mÕ;
-- (void)Õ;
-- (void)rView;
-- (void)rmat:(id)arg1 bufferListNoCopy:deallocator: /* Error: Ran out of types for this method. */;
-- (void)ectID:(id)arg1 context: /* Error: Ran out of types for this method. */;
-- (id)TB,N,V_filterConflictingAttributes;
-- (void)insColumn:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)ion should be less than itemsPerSection.count.;
-- (id)gacyAttachment.contentID is nil;
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,20 +37,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (float);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float)oEnforceScrollIntent;
-- (void)erStroke;
-- (void)$;
-- (id)T+*;
-- (void)ÿÿ;
-- (void)};
-- (id)w;
+- (id)8@16@24@32B40B44B48;
+- (void)cationOnboardingVersion;
+- (id);
+- (void)ñj/J;
+- (void)jQ;
 
 // Remaining properties
 @property(nonatomic, setter=_setActivationMode:) long long _activationMode; // @synthesize _activationMode=__activationMode;

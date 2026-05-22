@@ -26,14 +26,14 @@
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (long long)CÁÿ;
-- (void)ß¾û_Îaÿ;
+- (void);
+- (void)omplicationHourlyGaugeViewModel;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) double boundTime; // @synthesize boundTime=_boundTime;

@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (id)þäyûìâyADyZúâîâGÏëâGG_õäQo_AJG_CðäQo_AM_G;
+- (id)response [%i];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

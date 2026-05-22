@@ -25,7 +25,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -36,12 +36,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (long long)9;
+- (long long);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)rds;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canMakeTextBigger;

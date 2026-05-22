@@ -4,11 +4,11 @@
 
 class mach_o::PointerFormat_DYLD_CHAINED_PTR_ARM64E_FIRMWARE {
 public: // (access info unavailable from symbols alone)
-    bindBitCount() const;
-    description() const;
-    is64() const;
-    name() const;
-    stride() const;
-    unauthRebaseIsVmAddr() const;
-    value() const;
+    auto bindBitCount() const;
+    auto description() const;
+    auto is64() const;
+    auto name() const;
+    auto stride() const;
+    auto unauthRebaseIsVmAddr() const;
+    auto value() const;
 };

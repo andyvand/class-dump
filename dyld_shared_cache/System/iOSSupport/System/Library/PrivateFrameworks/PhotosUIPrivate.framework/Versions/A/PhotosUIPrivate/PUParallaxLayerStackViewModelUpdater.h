@@ -83,9 +83,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)gAnimations;
 
 // Remaining properties
 @property(retain, nonatomic) PIParallaxLayerStackRequest *backfillRenderRequest; // @synthesize backfillRenderRequest=_backfillRenderRequest;

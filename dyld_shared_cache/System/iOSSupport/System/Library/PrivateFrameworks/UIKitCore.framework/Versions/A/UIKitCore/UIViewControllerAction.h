@@ -16,20 +16,20 @@ __attribute__((visibility("hidden")))
     UIViewController *_viewController;
 }
 
+- (id);
 - (void);
-- (id)T�;
-- (void)P	ë;
-- (id)
+- (double);
+- (id);
+- (void);
+- (void)
 × ;
-- (void)youtWidth"b1"hasCustomized_semanticContentAttribute"b1"hasCustomized_isEnabled"b1"hasCustomized_isHighlighted"b1"hasCustomized_internal"b1};
-- (void)nSubrangeForPosition:(CDUnknownBlockType)arg1 granularity:downstream: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)e;
-- (double)oAvoidKeyboard;
-- (int);
-- (id)Þø[;
-- (void)ì;
-- (void)a;
-- (_Bool)»Õc;
+- (CDUnknownBlockType)Interaction:sessionDidExit: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)ContextMenuThinSectionSeparator;
+- (void)AD4215D687DF);
+- (void)Xâÿ;
+- (int)@¸ÿ;
+- (void)þ;
 
 // Remaining properties
 @property(nonatomic, setter=_setCurlUpRevealedHeight:) double _curlUpRevealedHeight; // @synthesize _curlUpRevealedHeight;

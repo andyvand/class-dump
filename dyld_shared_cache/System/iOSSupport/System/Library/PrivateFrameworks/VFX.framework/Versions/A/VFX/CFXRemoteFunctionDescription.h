@@ -12,17 +12,17 @@
     NSDictionary *_functionConstantValues;
 }
 
-+ (_Bool)$;
++ (_Bool)0@0:8@"<MTLIndirectCommandBuffer>"16{_NSRange=QQ}24 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

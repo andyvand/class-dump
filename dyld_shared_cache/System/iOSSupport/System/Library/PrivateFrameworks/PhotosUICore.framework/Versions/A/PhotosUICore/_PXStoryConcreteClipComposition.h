@@ -32,11 +32,10 @@
 - (long long);
 - (long long);
 - (long long);
-- (void);
 - (id);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)avoritesMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) const long long *clipAssetIndexes;

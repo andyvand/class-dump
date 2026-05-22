@@ -16,10 +16,10 @@
 
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id).4;
+- (id)%s, statusBarHeight:%f, topChromeHeight:%f /* Error: Ran out of types for this method. */;
+- (void)AssetDebugView;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXFastEnumeration> suggestions;

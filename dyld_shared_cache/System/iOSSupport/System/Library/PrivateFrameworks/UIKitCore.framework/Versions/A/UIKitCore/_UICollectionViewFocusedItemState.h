@@ -20,18 +20,18 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (id)Message-5501
-;
-- (id);
-- (id)rePTask:(id)arg1;
-- (id)oreMessages:(id)arg1 messagesToWithdraw:(_Bool)arg2 messagesToPost:chatIdentifier:style:account:fromIDSID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)PStoreModelTVEpisodeBuilder;
 - (id);
-- (unsigned long long);
-- (void);
-- (id)GisSymbolImage;
+- (id);
+- (id);
+- (id);
+- (unsigned long long)ùQ\1Â0@ù
+× ;
+- (id);
+- (id)pdateSelection;
+- (id)dicatorColorSR;
+- (void)@Ð²];
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionViewCell *cell;

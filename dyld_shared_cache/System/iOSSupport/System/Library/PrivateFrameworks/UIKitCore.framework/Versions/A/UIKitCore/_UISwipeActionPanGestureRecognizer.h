@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void)0@ù
+- (void)!4Gù1\Ð1Â0@ù
 × ;
-- (_Bool)üÿèvþÿ;
-- (_Bool)Location;
-- (_Bool)geInset)-[layoutView]-(rightImageInset)-|;
-- (id)vigationController doesn't have restoration identifier, will ignore snapshot on next launch:(id)arg1 %@;
+- (id);
+- (void)llapsedViewController:(id)arg1;
+- (_Bool)aticHidingBehavior;
+- (_Bool)stemAppearanceManager;
+- (_Bool)window:(id)arg1 <%{public}s:%{public}p>, contextId:0x%{public}X /* Error: Ran out of types for this method. */;
 
 @end
 

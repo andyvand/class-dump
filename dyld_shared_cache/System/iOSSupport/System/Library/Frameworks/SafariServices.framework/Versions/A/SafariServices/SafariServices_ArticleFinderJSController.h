@@ -5,7 +5,7 @@
 class SafariServices::ArticleFinderJSController {
 public: // (access info unavailable from symbols alone)
     ArticleFinderJSController(WKWebProcessPlugInFrame*, WKWebProcessPlugInScriptWorld*);
-    nodeAtPoint(double, double) const;
-    substituteURLForNextPageURL(OpaqueJSContext const*, OpaqueJSValue const* const*);
+    auto nodeAtPoint(double, double) const;
+    auto substituteURLForNextPageURL(OpaqueJSContext const*, OpaqueJSValue const* const*);
     ~ArticleFinderJSController();
 };

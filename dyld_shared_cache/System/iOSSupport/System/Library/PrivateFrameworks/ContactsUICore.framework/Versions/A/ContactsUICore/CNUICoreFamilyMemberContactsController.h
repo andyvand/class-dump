@@ -46,11 +46,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
-- (id)PÞ÷ÿ;
+- (void)FutureWithHandle:contact: /* Error: Ran out of types for this method. */;
+- (void)ication-preprocessor;
+- (id)6;
 
 // Remaining properties
 @property(retain, nonatomic) id <CNCancelable> contactStoreDidChangeToken; // @synthesize contactStoreDidChangeToken=_contactStoreDidChangeToken;

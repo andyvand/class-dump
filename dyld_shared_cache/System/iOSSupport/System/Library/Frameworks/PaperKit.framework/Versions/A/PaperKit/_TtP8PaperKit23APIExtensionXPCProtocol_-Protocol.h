@@ -5,6 +5,6 @@
 //
 
 @protocol _TtP8PaperKit23APIExtensionXPCProtocol_
-- (void);
+- (void)þÿlJÿÿ;
 @end
 

@@ -26,26 +26,26 @@ __attribute__((visibility("hidden")))
     FBSceneSynchronizer *_sceneSynchronizer;
 }
 
-- (void)type %d;
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)j@;
-- (_Bool);
-- (void)borationMode__MAPPING_MISSING__;
-- (void);
-- (void)(@ùqÃ°1¢!0@ù
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool)á!èAù_1Â0@ù
 × ;
-- (id)ÁpÐ!ìAù±Ã1¢!0@ù
+- (id)
 × ;
-- (id)pecularHighlightOpacity;
-- (void)@"UIViewController"16;
-- (id):%f) /* Error: Ran out of types for this method. */;
-- (void);
+- (void)manager;
+- (id)lStyle.m;
+- (void)w;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

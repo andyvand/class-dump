@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (_Bool)cquireMessage;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

@@ -11,10 +11,10 @@
     MISSING_TYPE *config;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 
 @end

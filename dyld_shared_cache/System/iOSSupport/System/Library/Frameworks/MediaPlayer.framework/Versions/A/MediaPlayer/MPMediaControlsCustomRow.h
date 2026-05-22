@@ -14,18 +14,18 @@
 }
 
 + (id);
-+ (_Bool)stedOffset=%lld;
++ (_Bool);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)ontentRestrictions;
+- (void)V_insertBeforeContextItemID;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

@@ -24,10 +24,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)^þÿtJÿÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKImageWandTipControllerDelegate> delegate; // @synthesize delegate;

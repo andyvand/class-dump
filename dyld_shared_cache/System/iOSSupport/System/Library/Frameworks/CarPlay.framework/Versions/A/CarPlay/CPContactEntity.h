@@ -22,19 +22,19 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionButtons; // @synthesize actionButtons=_actionButtons;

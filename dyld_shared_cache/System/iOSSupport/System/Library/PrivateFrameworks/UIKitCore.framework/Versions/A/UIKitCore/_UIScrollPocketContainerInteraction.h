@@ -13,8 +13,8 @@
 
 + (double);
 + (double);
-- (id)the block to continue;
-- (id)e data of length:(unsigned long long)arg1 %d   to path:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -25,16 +25,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long)!;
+- (unsigned long long);
 - (id);
-- (void)aqð!èBùÄ1¢!0@ù
-× ;
-- (id)",W,N,V_actionGroupView;
+- (id)\s;
 - (void);
-- (void)ÿÿ;
 - (void);
-- (id)idGrayColor;
-- (_Bool);
+- (void)þ;
+- (id)$Çÿ·ÒÈåh;
+- (void)<¥ÿúì×
+nq;
+- (_Bool)¨"qþ¤øà;
 
 // Remaining properties
 @property(nonatomic) _Bool _active;

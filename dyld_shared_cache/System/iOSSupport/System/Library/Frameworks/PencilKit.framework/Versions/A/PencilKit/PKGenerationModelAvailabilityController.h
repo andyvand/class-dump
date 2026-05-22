@@ -11,8 +11,8 @@
     long long _generationModelAvailabilityStatus;
 }
 
-- (id)nfigurationID:(long long)arg1 %{public}@ lastModified:%{public}@ lastFetched:%{public}@ maxAge:%@ treatmentIDs:%{public}@ segmentSetIDs:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)ublic}@;
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);

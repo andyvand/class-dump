@@ -4,7 +4,7 @@
 
 class icu::StringTrieBuilder::BranchHeadNode {
 public: // (access info unavailable from symbols alone)
-    markRightEdgesFirst(int);
-    operator==(icu::StringTrieBuilder::Node const&) const;
-    write(icu::StringTrieBuilder&);
+    auto markRightEdgesFirst(int);
+    auto operator==(icu::StringTrieBuilder::Node const&) const;
+    auto write(icu::StringTrieBuilder&);
 };

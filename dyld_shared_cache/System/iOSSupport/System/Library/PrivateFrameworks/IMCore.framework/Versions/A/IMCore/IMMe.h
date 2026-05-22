@@ -25,13 +25,13 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void)`";
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -46,21 +46,23 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)A;
-- (_Bool)_AUTH;
-- (void)__TEXT;
-- (void);
-- (id);
-- (id)s<uint64_t>, unsigned long long>>, Value = WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakPtr<WebKit::PlatformCALayerRemote>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakPtr<WebKit::PlatformCALayerRemote>>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakPtr<WebKit::PlatformCALayerRemote>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::WeakPtr<WebKit::PlatformCALayerRemote>>::KeyValuePairTraits, WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)	;
 - (id);
 - (id);
-- (id)Ø°tì$	4ÄL´||;
+- (id);
+- (id)1Â0@ù
+× ;
+- (id)ilePathsToTmpLocation: /* Error: Ran out of types for this method. */;
+- (void)­;
+- (id)´
+;
 
 // Remaining properties
 @property(readonly, nonatomic) IMHandle *bestIMHandle;

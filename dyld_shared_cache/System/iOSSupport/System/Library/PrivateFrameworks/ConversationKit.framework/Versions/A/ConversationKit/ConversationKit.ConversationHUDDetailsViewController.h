@@ -31,9 +31,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void)g request;
+- (_Bool)´uþÿ;
 - (void);
+- (void)øÝG_±ô¡Qo_	ÜysÉGGìÉyãGG;
 
 // Remaining properties
 @property(nonatomic) _Bool isOnScreen; // @synthesize isOnScreen;

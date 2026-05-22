@@ -17,6 +17,7 @@
     _Bool _isSplit;
     _Bool _isFloating;
     _Bool _isCompact;
+    _Bool _reloadForPinnedInputViews;
     unsigned long long _closeEdges;
 }
 
@@ -26,38 +27,45 @@
 + (id);
 + (id);
 + (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)x¥ëy;
 - (void);
 - (void);
-- (_Bool)øaz;
-- (_Bool)æ|;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long)Mz;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)earchSourceDelegate>",W,N,V_delegate;
-- (_Bool)oller;
+- (unsigned long long)xEùñ3°1â
+0@ù
+× ;
+- (_Bool)Ô!î!0Eù4°1â
+0@ù
+× ;
+- (void)hingLabelWithCandidate:(_Bool)arg1 animated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long closeEdges; // @synthesize closeEdges=_closeEdges;
@@ -72,6 +80,7 @@
 @property(nonatomic) _Bool isNonKeyboard; // @synthesize isNonKeyboard=_isNonKeyboard;
 @property(nonatomic) _Bool isRotating; // @synthesize isRotating=_isRotating;
 @property(nonatomic) _Bool isSplit; // @synthesize isSplit=_isSplit;
+@property(nonatomic) _Bool reloadForPinnedInputViews; // @synthesize reloadForPinnedInputViews=_reloadForPinnedInputViews;
 
 @end
 

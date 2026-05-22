@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void)d-SIL;
+- (void)dLibraryUpdateInProgress;
 
 @end
 

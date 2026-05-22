@@ -5,23 +5,15 @@
 //
 
 @class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCCoreConfigurationManager><FCNewsAppConfigurationManager, FCFeedItemFactoryType, FCMagazinesConfigurationManager, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
 
 @protocol FCContentContext
-- (id <FCMagazinesConfigurationManager>)initWithType:range:styleInsertionBehavior:caretAffinity: /* Error: Ran out of types for this method. */;
-- (NSString *)"FCOfflineDownloadsConfiguration"16@0:8 /* Error: Ran out of types for this method. */;
-- (NSString *);
-- (NSString *)`!;
-- (id <FCNetworkReachabilityType>)@ù
+- (FCSportsEventController *);
+- (void)0@ù
 × ;
-- (id <FCPPTContext>)²ð!àDù¼ð1¢!0@ù
-× ;
-- (FCArticleController *);
-- (void)le:(long long)arg1 contentContext:fontRegistration:host:embedDataManager:linkedContentManager: /* Error: Ran out of types for this method. */;
-- (id <FCCoreConfigurationManager>)cationDidBecomeActive: /* Error: Ran out of types for this method. */;
-- (NSString *)ettings>",R,C,N,V_settings;
-- (id <FCCoreConfigurationManager><FCNewsAppConfigurationManager>);
-- (id <FCNewsAppConfigurationManager>)esource %{public}@;
+- (id <FCNewsAppConfigurationManager>){CGSize=dd}}16;
+- (FCPuzzleController *)ntProvider;
+- (NSString *)ive coverage polling already active, skipping start;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;

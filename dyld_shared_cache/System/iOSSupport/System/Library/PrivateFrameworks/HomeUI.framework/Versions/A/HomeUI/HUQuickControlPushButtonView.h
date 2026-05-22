@@ -47,19 +47,19 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (void):willDeselectLabelMarker: /* Error: Ran out of types for this method. */;
+- (void)äÜp;
+- (void)ognitionKnownToHouseCellTitle;
 - (id);
-- (void)tionOnboardingFlow:_checkHomePodResidentUpgradeRequirementsInHome] home = %@ (uniqueIdentifier = %{public}@) | residentDevices = [%@] /* Error: Ran out of types for this method. */;
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *buttonLabel; // @synthesize buttonLabel=_buttonLabel;

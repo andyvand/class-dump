@@ -22,31 +22,34 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
-- (void)e;
+- (void);
 - (id);
-- (void)shed;
-- (void)er %@ for task %@;
+- (void);
+- (void);
 - (id);
-- (unsigned long long)v;
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id)P;
 - (void);
-- (void);
-- (id)+;
 - (id);
 - (id);
-- (unsigned long long)!ÌDùQ¤1¢!0@ù
-× ;
-- (void);
+- (id);
+- (unsigned long long);
+- (void)DInteractiveCanvasController"16;
+- (unsigned long long)16^B24;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allComponents;
 @property(readonly, nonatomic) NSMutableDictionary *childComponentsByParentIdentifier; // @synthesize childComponentsByParentIdentifier=_childComponentsByParentIdentifier;
+@property(readonly, nonatomic) NSArray *componentIdentifiers;
+@property(readonly, nonatomic) NSArray *componentIdentifiersIncludingChildComponents;
 @property(readonly, nonatomic) NSMutableArray *components; // @synthesize components=_components;
 @property(readonly, nonatomic) NSMutableDictionary *componentsByIdentifier; // @synthesize componentsByIdentifier=_componentsByIdentifier;
 @property(readonly, nonatomic) unsigned long long count;

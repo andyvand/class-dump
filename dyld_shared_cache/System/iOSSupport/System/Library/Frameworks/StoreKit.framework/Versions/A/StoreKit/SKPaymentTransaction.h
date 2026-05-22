@@ -14,10 +14,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)w;
 - (id);
 - (id);
-- (_Bool)O};
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -31,14 +31,14 @@
 - (long long);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id){;
-- (id);
-- (id);
-- (id);
+- (id)g;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_transactionIdentifier;

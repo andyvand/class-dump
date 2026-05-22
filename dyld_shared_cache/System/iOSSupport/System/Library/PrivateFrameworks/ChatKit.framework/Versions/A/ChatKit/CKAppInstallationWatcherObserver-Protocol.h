@@ -5,7 +5,5 @@
 //
 
 @protocol CKAppInstallationWatcherObserver
-- (void);
-- (void);
 @end
 

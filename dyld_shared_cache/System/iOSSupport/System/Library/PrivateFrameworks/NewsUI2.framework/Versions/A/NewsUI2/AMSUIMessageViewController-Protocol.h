@@ -7,7 +7,6 @@
 @class AMSBinaryPromise;
 
 @protocol AMSUIMessageViewController
-- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long engagementImpressionsReportingFrequency;

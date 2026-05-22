@@ -25,10 +25,10 @@
     MISSING_TYPE *menuHostViewController;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)UI11ButtonStyleP;
 
 @end
 

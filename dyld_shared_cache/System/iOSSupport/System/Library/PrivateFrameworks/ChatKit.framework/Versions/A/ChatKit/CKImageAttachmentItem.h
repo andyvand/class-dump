@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool)ectionContextForWebView: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -23,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (struct CGSize);
-- (void);
+- (struct CGSize);
 - (id);
-- (struct CGSize);
-- (struct CGSize)e view isn't in view hierarchy;
+- (struct CGSize);
+- (void)tIndexPath for indexPath {%@}.;
 
 // Remaining properties
 @property(nonatomic) _Bool backgroundEnqueued; // @synthesize backgroundEnqueued=_backgroundEnqueued;

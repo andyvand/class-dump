@@ -12,20 +12,21 @@
     UIAutonomousSingleAppModeConfiguration *_effectiveConfiguration;
 }
 
-+ (void)pabilities:(id)arg1 %@ foundEndpoint:(CDUnknownBlockType)arg2 %@;
-+ (id)ontext:]_block_invoke /* Error: Ran out of types for this method. */;
 + (void);
 + (id);
-- (void)};
-- (void)pping iMessage nickname send. isEnabled:(CDUnknownBlockType)arg1 %i, onlyUseNicknameSendingService:%i /* Error: Ran out of types for this method. */;
-- (id)ransfer agent with error %@;
++ (void);
++ (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (void);
 - (void);
-- (void),æ;
+- (id);
+- (void);
+- (void)ÑgÐ1Â0@ù
+× ;
+- (_Bool)om"b6"landscape"b1"split"b1"appearance"b8"rendering"b8"padding"b8};
+- (void)U^ÿù1Ñxj;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

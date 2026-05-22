@@ -24,28 +24,28 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)�;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void)P:(id)arg1 %d numCandidate:(id)arg2 %d) %@.;
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)ay",C,V_matchFQDNs;
 - (void);
 - (id);
 - (id);
-- (id)isited LOI, %{sensitive}@;
-- (id);
-- (id)+pÂ;
+- (id)fidenceEqualsBestConfidencePOI;
+- (void)place inference already published, skipping place inference, %{sensitive}@;
+- (void)mentLocError,%@;
+- (void)able (in %s:(id)arg1 %d);
+- (id);
+- (id)|;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bluePOIModelPath; // @synthesize bluePOIModelPath=_bluePOIModelPath;

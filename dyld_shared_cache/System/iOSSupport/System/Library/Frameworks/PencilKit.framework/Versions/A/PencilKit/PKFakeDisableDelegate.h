@@ -11,7 +11,7 @@
 }
 
 + (_Bool);
-+ (id)x;
++ (id);
 - (_Bool);
 
 // Remaining properties

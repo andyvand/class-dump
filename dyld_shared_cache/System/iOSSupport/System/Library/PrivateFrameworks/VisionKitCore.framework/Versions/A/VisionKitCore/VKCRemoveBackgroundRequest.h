@@ -46,15 +46,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (struct CGSize);
 - (id);
 - (id);
 - (long long);
+- (struct CGSize);
+- (id);
 - (struct CGImage *);
-- (struct __CVBuffer *)0@ù
-× ;
+- (struct __CVBuffer *);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *CGImage; // @synthesize CGImage=_CGImage;

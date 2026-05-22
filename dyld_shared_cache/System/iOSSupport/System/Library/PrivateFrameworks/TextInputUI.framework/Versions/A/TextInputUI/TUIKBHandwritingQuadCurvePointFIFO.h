@@ -23,8 +23,8 @@
 - (id);
 - (CDStruct_23d8ee2f);
 - (CDUnknownBlockType);
-- (double);
 - (void);
+- (double);
 - (void);
 - (void);
 - (void);

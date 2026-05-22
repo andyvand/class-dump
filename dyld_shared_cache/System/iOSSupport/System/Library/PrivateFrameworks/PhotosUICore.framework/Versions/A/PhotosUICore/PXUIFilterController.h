@@ -46,15 +46,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)Èaå;
 - (void);
 - (void);
 - (long long);
+- (id);
+- (void)yndicationSectionHeaderViewDelegate;
+- (id)timed out with error %@;
+- (void);
 - (void);
 
 // Remaining properties

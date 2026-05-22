@@ -15,10 +15,10 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)_strokeWidth;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

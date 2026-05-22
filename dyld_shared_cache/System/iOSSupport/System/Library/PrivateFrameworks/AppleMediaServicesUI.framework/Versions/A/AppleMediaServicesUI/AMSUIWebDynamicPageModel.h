@@ -12,6 +12,7 @@ __attribute__((visibility("hidden")))
     NSString *_backgroundColor;
     AMSMetricsEvent *_impressionEvent;
     AMSUIWebNavigationBarModel *_navigationBar;
+    long long _userInterfaceStyle;
     ACAccount *_account;
     NSDictionary *_clientOptions;
     NSDictionary *_metricsOverlay;
@@ -25,21 +26,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (struct CGSize)key: /* Error: Ran out of types for this method. */;
-- (id)ode:%@ /* Error: Ran out of types for this method. */;
+- (void)rch: /* Error: Ran out of types for this method. */;
+- (id)´;
+- (long long)H3y¹G3ysB3yAAy'1yAAyAqYG_SSQo_AFG_Qo__Qo__Qo__Qo_GAIGAIGAIGAIGANGtGG¡1yAAy@1AWy;
+- (id)quest, updating effective engagement request;
+- (struct CGSize);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
@@ -62,6 +64,7 @@ __attribute__((visibility("hidden")))
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"AMSUIWebAction",?,R,N
 
+@property(readonly, nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 @property(readonly, nonatomic) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end

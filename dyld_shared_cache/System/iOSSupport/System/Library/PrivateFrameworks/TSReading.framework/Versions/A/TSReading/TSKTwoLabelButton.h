@@ -29,12 +29,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)B;
-- (_Bool)@ ;
-- (void);
 - (id);
+- (void);
+- (void);
+- (_Bool);
+- (void)rushStroke p_brushPath:(id)arg1 withScaling:(id)arg2 inElementRange:intoPath:orIntoVector:sectionIndex:viewScale:withLayoutOptions:currentSubpathIndex:cachedCurrentElementPercentage:] /* Error: Ran out of types for this method. */;
+- (_Bool)omURL:(id)arg1 useFileCoordination:(id)arg2 ];
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *disabledStateImage; // @synthesize disabledStateImage=mDisabledStateImage;

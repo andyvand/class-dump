@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)»2ÿ7;
+- (id)adingControllerInfo;
 
 @end
 

@@ -14,11 +14,11 @@
 }
 
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
 - (id);
 - (void);
-- (void);
+- (id);
+- (void)7ë;
 
 @end
 

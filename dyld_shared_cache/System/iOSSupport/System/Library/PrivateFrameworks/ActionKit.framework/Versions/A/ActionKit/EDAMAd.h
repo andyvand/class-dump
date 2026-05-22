@@ -44,16 +44,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)tionParameter"16@"WFVariableSubstitutableParameterState"24;
+- (void)a board to create the list on.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *advertiserName; // @synthesize advertiserName=_advertiserName;

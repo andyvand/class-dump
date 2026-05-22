@@ -27,7 +27,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)omeControlServiceHomeNameLabelInNavigationHeaderFrameKey;
 
 // Remaining properties
 @property(retain, nonatomic) HUAccessorySettingsItemModuleController *accessorySettingsItemModuleController; // @synthesize accessorySettingsItemModuleController=_accessorySettingsItemModuleController;

@@ -7,7 +7,6 @@
 @class UITextInputController;
 
 @protocol _UITextInputServicesMenuDataProviding
-- (UITextInputController *)hä{¬;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UITextInputController *_inputController;

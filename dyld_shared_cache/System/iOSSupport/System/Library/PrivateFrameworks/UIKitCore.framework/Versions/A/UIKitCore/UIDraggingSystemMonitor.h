@@ -15,21 +15,21 @@
     id <UIDraggingSystemMonitorDelegate> _delegate;
 }
 
-+ (id)ÄÿË Ò¡ôq;
-+ (id)!;
-- (_Bool)insOneTimeCode:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)ryCode:(id)arg1 messageBody:foundChat:service:containsOneTimeCode:completion: /* Error: Ran out of types for this method. */;
-- (id)<p;
-- (oneway void)essage %f seconds back;
-- (oneway void)saving message sent from linked device:(id)arg1 %@;
++ (id);
++ (id)¢bþq;
+- (_Bool);
 - (void);
-- (id)1¢!0@ù
-× ;
-- (_Bool)idChange;
-- (id)unning,V_running;
-- (id);
-- (void)Ådÿ3DÙ¦þÅdÿ3@Ñ±þ;
 - (id);
+- (oneway void);
+- (oneway void);
+- (id);
+- (id);
+- (id)á°!<Bùñ\1Â0@ù
+× ;
+- (void)okmarkButton"b1"isPlacedInNavigationBar"b1"isPlacedInToolbar"b1"isHostedByNavigationBar"b1"isHostedInlineByNavigationBar"b1"isHostedInlineByToolbar"b1"isFloating"b1"isTextFieldManagedInNSToolbar"b1"providesRestingMeasurementValues"b1"navigationBarWantsFlexibleInlineSearch"b1"showsScopeBar"b1"activeSearchDeferringScopeBar"b1"showDictationButton"b1"allowedToShowDictationButton"b1"dictationButtonSetupComplete"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1"enforcedMaximumContentSizeWhileLendingView"b1"showsLargeContentViewerBeforeLendingView"b1};
+- (_Bool)d for %@. Cell:(id)arg1 %@; Prefetched Cells:(id)arg2 %@;
+- (void)T|h;
+- (id)]0S;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

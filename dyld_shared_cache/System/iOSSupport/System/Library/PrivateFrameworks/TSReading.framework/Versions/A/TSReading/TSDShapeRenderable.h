@@ -30,14 +30,16 @@
 - (void);
 - (double);
 - (id);
-- (struct CGPath *);
 - (void);
+- (struct CGPath *);
 - (struct CGColor *);
-- (struct CGColor *)k;
-- (void)ng:(struct CGColor *)arg1;
-- (void)ing;
-- (void)°T;
-- (double)§Öÿ;
+- (struct CGColor *)0@ù
+× ;
+- (void)@ù
+× ;
+- (void)16;
+- (double)tion:session:withTouchAtPoint: /* Error: Ran out of types for this method. */;
+- (void)epeatingLayer:(double)arg1 withImageRect:start:end:vertical:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGColor *fillColor;

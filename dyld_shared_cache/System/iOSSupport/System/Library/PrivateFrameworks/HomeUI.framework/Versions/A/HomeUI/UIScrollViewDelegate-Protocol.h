@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)Á%!Cùq/1b0@ù
-× ;
-- (void)rdingSetup_Title;
-- (void)omNameLabelInNavigationHeaderFrameKey;
+- (UIView *)ewControllerDelegate;
+- (void)View.swift;
 @end
 

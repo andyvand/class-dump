@@ -15,17 +15,17 @@
 }
 
 + (id);
-+ (_Bool)kë23å-;
-- (struct UIEdgeInsets)attachment with identifier:%@ failed with error:%@ /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)xport:%@ /* Error: Ran out of types for this method. */;
-- (double)tionControllerSuggestionsDelegate>",N,W,VsuggestionsDelegate;
-- (double)sertionController;
-- (double)EditingTextViewWillSetMarkedTextNotificationSelectedRangeKey;
-- (double)MarkedTextNotificationMarkedTextKey;
-- (void);
++ (_Bool)continueWithSendMessageInteraction:chatRegistry:navigationProvider:conversationList:chatController: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
+- (double);
+- (double);
+- (double);
+- (double);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double defaultEntryContentViewHeight; // @synthesize defaultEntryContentViewHeight=_defaultEntryContentViewHeight;

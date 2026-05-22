@@ -5,6 +5,5 @@
 //
 
 @protocol BSInvalidatable
-- (void)newElements.underestimatedCount was an overestimate;
 @end
 

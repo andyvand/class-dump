@@ -10,26 +10,30 @@
 
 @interface FBKTeam : FBKManagedFeedbackObject
 {
+    _Bool _didInitialContentItemFetch;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (_Bool);
 - (void);
 - (id);
-- (unsigned long long)onDependencyNode;
-- (_Bool)erforming authentication with account [%{private}@] alternate DSID [%{private}@] has credential token? [%i];
+- (unsigned long long);
+- (_Bool);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canStartNewFeedback;
 @property(retain, nonatomic) NSSet *contentItems; // @dynamic contentItems;
 @property(nonatomic) _Bool didFetchFormItems; // @dynamic didFetchFormItems;
+@property(nonatomic) _Bool didInitialContentItemFetch; // @synthesize didInitialContentItemFetch=_didInitialContentItemFetch;
 @property(retain, nonatomic) NSSet *forms; // @dynamic forms;
 @property(readonly, nonatomic) _Bool hasContent;
 @property(copy, nonatomic) NSString *name; // @dynamic name;

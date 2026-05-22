@@ -29,10 +29,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void)5=ÊTnBÿ;
+- (id)°¯Qý;;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *changeDate; // @synthesize changeDate=_changeDate;

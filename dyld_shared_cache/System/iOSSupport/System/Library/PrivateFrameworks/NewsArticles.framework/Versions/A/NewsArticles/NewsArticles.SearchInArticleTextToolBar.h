@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void)A;
 - (id);
+- (void)sion;
 
 @end
 

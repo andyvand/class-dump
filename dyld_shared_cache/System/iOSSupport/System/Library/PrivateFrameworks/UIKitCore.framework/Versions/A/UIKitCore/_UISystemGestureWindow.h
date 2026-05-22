@@ -14,23 +14,22 @@
 }
 
 + (_Bool);
-- (id);
 - (_Bool);
-- (_Bool)e_put_complete_at_edge_payload_trailer failed to allocate CFData wrapping body buffer;
 - (id);
+- (id)!ÄCùq]1Â0@ù
+× ;
 - (id);
-- (void);
-- (id)1¢!0@ù
+- (_Bool)!tEùq^ð1Â0@ù
 × ;
-- (id)¡u!ôEùÊÐ1¢!0@ù
-× ;
-- (id)ÄDùqÊð1¢!0@ù
-× ;
-- (id)text">16;
-- (_Bool)ration: /* Error: Ran out of types for this method. */;
-- (_Bool)H771µÿ3ðæ;
+- (id)rentDragTabOriginalIndex;
+- (id)pPreviews;
+- (id)@"NSTimer",&,N,V_autoNavigationTimer;
+- (_Bool)%{public}p>; contextId:0x%{public}X /* Error: Ran out of types for this method. */;
+- (_Bool)ontentSizeCategoryL;
+- (id)ocumentInfo=%@. Use UIGraphicsPDFRenderer to avoid this assert.;
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)h[;
 
 @end
 

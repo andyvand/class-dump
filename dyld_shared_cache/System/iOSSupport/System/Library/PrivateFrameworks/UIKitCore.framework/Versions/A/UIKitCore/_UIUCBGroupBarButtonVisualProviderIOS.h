@@ -19,21 +19,22 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)d;
++ (id)}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40@"NSTextContainer"72{_NSRange=QQ}80^B96;
 - (void);
-- (_Bool);
-- (id);
-- (id)izedEventDelivery;
+- (long long);
 - (void);
-- (void)¡8-º;
-- (_Bool);
-- (id)ateLocalizedKeysForKeyplane:updateAllKeyplanes: /* Error: Ran out of types for this method. */;
-- (void)egy;
-- (long long)wnKeyboardFrame;
-- (void)<¸;
-- (void)g;
+- (void)±`1Â0@ù
+× ;
 - (_Bool);
-- (struct CGPoint)Ðþ;
+- (_Bool)8@16{CGPoint=dd}24B40;
+- (id)ld;
+- (id)yLabel;
+- (id)GeneratorConfiguration;
+- (void)¦.3y¡¾7GGGALyÛ.3yÀÚ.3yÚ.3yÙ.3yALyAAy_ABy¸;
+- (_Bool);
+- (void);
+- (struct CGPoint);
+- (void)¸";
 
 // Remaining properties
 @property(nonatomic) _Bool lightKeyboard; // @synthesize lightKeyboard=_lightKeyboard;

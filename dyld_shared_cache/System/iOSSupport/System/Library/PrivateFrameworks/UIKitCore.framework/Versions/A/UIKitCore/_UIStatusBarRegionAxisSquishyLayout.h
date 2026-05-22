@@ -28,21 +28,22 @@
 - (void);
 - (double);
 - (double);
-- (long long);
+- (long long);
 - (double);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (double)onse;
-- (void);
-- (void);
-- (id)dsDoubleUpdateConstraintsIsInvalid;
-- (long long)Accessory: /* Error: Ran out of types for this method. */;
+- (long long);
 - (id);
-- (long long)wnBUp;
-- (_Bool)G;î3;
+- (void);
+- (double);
+- (long long);
+- (_Bool)1Â0@ù
+× ;
+- (void)mputeLayout;
+- (id)´O;
+- (void)naged by a tab bar controller is not allowed.;
+- (void)?Dô.eM;
+- (_Bool)GáÛÈ[;
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;

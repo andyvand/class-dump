@@ -37,15 +37,16 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (double);
-- (void);
-- (id)availableConfigurationState: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ns;
-- (void);
-- (long long)qs*qm@m9âª2÷?;
-- (double)ndlers;
-- (double);
-- (double);
-- (unsigned int)ál;
+- (id);
+- (struct CGPoint)1Â0@ù
+× ;
+- (unsigned int)Rect:toSurfaceLayer: /* Error: Ran out of types for this method. */;
+- (void)sult in a corrupted navigation bar;
+- (double)splayID(;
+- (long long)t;
+- (void)@z[;
+- (double)G\;
+- (double)ÜþùË,Æa;
 
 // Remaining properties
 @property(nonatomic) long long deliveryPhase; // @synthesize deliveryPhase=_deliveryPhase;

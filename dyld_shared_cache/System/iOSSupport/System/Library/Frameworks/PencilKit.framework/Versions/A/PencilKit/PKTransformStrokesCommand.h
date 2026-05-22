@@ -24,8 +24,8 @@
 - (struct CGAffineTransform);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)@"PKStrokePath",&,N;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGAffineTransform strokeTransform; // @synthesize strokeTransform=_strokeTransform;

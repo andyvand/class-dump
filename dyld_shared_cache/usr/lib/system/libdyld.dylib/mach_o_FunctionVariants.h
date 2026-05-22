@@ -5,5 +5,5 @@
 class mach_o::FunctionVariants {
 public: // (access info unavailable from symbols alone)
     FunctionVariants(std::__1::span<unsigned char const, 18446744073709551615ul>);
-    valid() const;
+    auto valid() const;
 };

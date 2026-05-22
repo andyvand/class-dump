@@ -21,11 +21,11 @@
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType overrideBlock; // @synthesize overrideBlock=_overrideBlock;

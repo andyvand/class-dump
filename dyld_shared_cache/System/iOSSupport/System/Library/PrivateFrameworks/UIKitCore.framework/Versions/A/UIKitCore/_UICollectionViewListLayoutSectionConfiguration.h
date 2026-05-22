@@ -37,96 +37,93 @@
     UIColor *__backgroundColor;
 }
 
-+ (id)ÚÿZäÔqr;
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)CenterNearbyMultiplayer;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id);
 - (double);
-- (id);
-- (double);
-- (unsigned long long);
-- (struct _UIListGeometry);
-- (_Bool);
-- (double)oriteSongAddToLibraryBehaviorChangedObserver;
-- (id)Command;
-- (CDUnknownBlockType)elRelationshipLibraryPinPlaylist;
 - (_Bool);
-- (double);
-- (double);
-- (CDUnknownBlockType);
-- (double);
-- (id);
 - (long long);
+- (double);
 - (void);
-- (_Bool);
-- (void);
+- (double);
 - (CDUnknownBlockType);
-- (id);
-- (void);
 - (double);
-- (void)¢!0@ù
-× ;
-- (void)ÑÁð1¢!0@ù
-× ;
-- (void)!EùÃÐ1¢!0@ù
-× ;
 - (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (CDUnknownBlockType);
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (double);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool)Z1Â0@ù
+× ;
+- (void);
 - (_Bool)Ô ;
-- (void)q°!ØCùÄð1¢!0@ù
+- (_Bool)@ù
 × ;
-- (void)Ôt!@ùÈ°1¢!0@ù
+- (CDUnknownBlockType);
+- (void)1Â0@ù
 × ;
-- (_Bool)× ;
-- (void)¢!0@ù
+- (double)°!Cùq^1Â0@ù
 × ;
-- (double)ùQÌð1¢!0@ù
-× ;
-- (id)!ÀEùÍÐ1¢!0@ù
-× ;
-- (void)UIInputSwitcherSelectionExtraView";
-- (id)<_UIInvalidatable>"24@0:(id)arg1 8@?<v@?@"NSError">16;
-- (double)eTouchPosition: /* Error: Ran out of types for this method. */;
-- (double)tAnimationDidStopSelector: /* Error: Ran out of types for this method. */;
-- (id)ngPadding;
-- (id)xtualMenuFromLocation:withSource: /* Error: Ran out of types for this method. */;
-- (double)ystemType:header:sidebarStyle:cellConfigurationState:traitCollection:inheritedTintColor: /* Error: Ran out of types for this method. */;
-- (void)onProgress:(double)arg1 forPreviewingAtLocation:inSourceView:containerView: /* Error: Ran out of types for this method. */;
-- (double)er: /* Error: Ran out of types for this method. */;
-- (_Bool)rtingLoad;
-- (void)etMoveDirection:(long long)arg1;
-- (id)ject;
-- (id)_dismissalPreviewForSecondaryItemPreview: /* Error: Ran out of types for this method. */;
-- (id)allowsTriggeringToolbarCustomizationCommandActionWithSender: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)Font:(double)arg1 ,V_font;
-- (void)dwareKeyboard:(double)arg1;
-- (CDUnknownBlockType)pageScrollView;
-- (_Bool)eSupportHost>",R,N;
-- (double);
-- (void)ns;
-- (id)ge;
-- (_Bool);
-- (void)tion;
-- (double);
-- (long long)A];
-- (double);
-- (void)ÿ;
-- (void)j·ÿ;
-- (void)3Æ_;
-- (_Bool)kþh;
-- (struct NSDirectionalEdgeInsets);
-- (long long)þZc;
+- (CDUnknownBlockType)Ô ;
+- (CDUnknownBlockType);
+- (void)0@ù
+× ;
+- (id)"16;
+- (double)plicitlyShowsSearchResultsController"b1"searchFieldIsBeginningEditing"b1"hidesNavigationBarDuringPresentation"b2"shouldDeferSettingSearchSuggestions"b3"suggestionHasBeenSelected"b1"pendingClearSearchSuggestions"b1"ignoresSearchSuggestionsForStackedSearch"b1"usesSearchSuggestionsMenuForStackedSearch"b1"hasPendingSuggestionMenuRefresh"b1"hasSuppressedSuggestionMenuBeforeHorizontalSizeClassChange"b1"wasShowingSuggestionsWhenChangedToInline"b1"isLayingOutNavigationBarToActivateInlineSearch"b1"isDismissingOrAboutToDismiss"b1"hasDeferredActivation"b1"shouldUpdateHelperMessage"b1"clearSuggestionsOnSelection"b1"shouldFocusResultsOnNextFocusUpdate"b1"updateSearchTextOnDidSelectSuggestion"b1"shouldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2"hideSearchResultsDivider"b1};
+- (struct _UIListGeometry)ontrollerCallbacks;
+- (void)ent:(CDUnknownBlockType)arg1;
+- (double)aysShowsSeparator;
+- (_Bool)ayers;
+- (double)abelBackgroundColor;
+- (long long)_prefersSolidColorHardPocket;
+- (double)ustomizeMenu: /* Error: Ran out of types for this method. */;
+- (void)nt;
+- (double)debarKeyCommandAction;
+- (id)UICalendarDataModel",&,N,V_dataModel;
+- (double),&,N,G_contentViewController,S_setContentViewController:,V_contentViewController /* Error: Ran out of types for this method. */;
+- (double)cification;
+- (double)ÿÿ¤;
+- (id)äÑ<Ô;
+- (void)Tùù;
+- (void);
+- (void)ÿÿC;
+- (_Bool)ealloc, releasing them from our worker queue.;
+- (CDUnknownBlockType)ollection view removed from its window?;
+- (id);
+- (void)ÿ;
+- (void)userInterfaceStyle;
+- (void)ointerInteraction.entranceAnimator.%@;
+- (id)@;
+- (double)iewController;
+- (id)e;
+- (void)utViewHost.m;
+- (void)rollerStackManagerSceneComponentKey;
+- (void)¯;
+- (void);
+- (_Bool);
+- (void);
+- (void)FÛþ;
+- (id);
+- (struct NSDirectionalEdgeInsets);
+- (long long)X;
 
 // Remaining properties
 @property(nonatomic, getter=_isAPIVersion) _Bool _apiVersion; // @synthesize _apiVersion=__apiVersion;

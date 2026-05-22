@@ -16,16 +16,16 @@
 }
 
 - (id);
+- (id);
+- (void);
 - (_Bool);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (id);
 - (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;

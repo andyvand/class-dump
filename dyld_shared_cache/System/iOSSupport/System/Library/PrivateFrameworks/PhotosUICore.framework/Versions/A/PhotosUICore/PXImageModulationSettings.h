@@ -36,7 +36,7 @@
     double _deviceMaximumEDRHeadroomStops;
 }
 
-+ (id)®Kb9;
++ (id);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -73,22 +73,21 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (long long);
-- (double);
-- (double);
-- (void);
 - (double);
 - (double);
 - (long long);
 - (long long);
 - (void);
-- (void);
 - (long long);
+- (double);
+- (double);
+- (id);
 - (void);
-- (void)0@ù
-× ;
-- (id)o cancellation;
-- (_Bool)ùmLÓ[5;
+- (void);
+- (_Bool);
+- (void);
+- (long long)et:leadingItems:primaryItemIndex:trailingItems:trailingHiddenItems:pageFocus: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double EDRHeadroomRequestHDRThreshold; // @synthesize EDRHeadroomRequestHDRThreshold=_EDRHeadroomRequestHDRThreshold;

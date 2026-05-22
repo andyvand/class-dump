@@ -17,25 +17,24 @@
 - (double);
 - (struct CGRect);
 - (struct CGPoint);
-- (struct CGPoint);
-- (id)ckgroundDimmingAmount: /* Error: Ran out of types for this method. */;
-- (double)e:imageOrientation: /* Error: Ran out of types for this method. */;
-- (double)useViewBasedTopAndBottomLayoutGuides;
-- (double)ModuleVisibility;
-- (id)fier;
-- (long long);
-- (unsigned long long)llProvider;
-- (struct CGRect),N;
-- (id)Behavior",&,N,V_platterItemBehavior;
-- (double)unded corners:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)10BSSettingsCSgACIggg_;
-- (double)ectionView Flow Layout received layout attributes with an empty size. This happens when a reusable view has incorrectly configured constraints, or an incorrect override of -sizeThatFits:, -systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:, or -preferredLayoutAttributesFittingAttributes:. Ensure that your view generates a valid preferred size.
-Original attributes:%@. Preferred attributes:%@.
-Collection View:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)~ö[;
 - (id);
-- (struct CGRect)_a;
-- (id)ûúp;
+- (id)!À@ùQg°1Â0@ù
+× ;
+- (struct CGRect)isRepositioningRectDisabled"b1"sendingDelegateWillRepositionToRect"b1"isObservingFocusUpdateNotification"b1};
+- (struct CGRect)estrictionsUpdate;
+- (double)tRect: /* Error: Ran out of types for this method. */;
+- (_Bool)ey: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ortsImagePasteCached;
+- (id): /* Error: Ran out of types for this method. */;
+- (double)är;
+- (id)ÀÔ;
+- (id)aceholder context reuseIdentifier (%@). Please file a bug against UICollectionView.;
+- (double)3¬.3y-§.3y_f.3yL´;
+- (double)|Ooþí43Ooþ;
+- (_Bool)kbÎ(\;
+- (long long)%ÿSÈ×0Ð`;
+- (double)Åµi;
+- (struct CGPoint)X_ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _UIBarButtonItemAppearanceStorage *appearanceStorage;

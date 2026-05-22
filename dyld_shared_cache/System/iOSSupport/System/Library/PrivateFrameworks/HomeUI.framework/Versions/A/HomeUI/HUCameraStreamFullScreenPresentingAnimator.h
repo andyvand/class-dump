@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
+- (double);
 - (void);
-- (void)p;
-- (double);
+- (void)gs-WalletKeyUWB;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCameraSnapshot *cameraSnapshot; // @synthesize cameraSnapshot=_cameraSnapshot;

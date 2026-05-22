@@ -11,29 +11,27 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)dthConstraint;
+- (double);
+- (id);
+- (struct NSDirectionalEdgeInsets);
+- (double);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id)hSong:(id)arg1 language:startTime:endTime: /* Error: Ran out of types for this method. */;
-- (double)used us to drop selection %{public}@;
 - (_Bool);
-- (id)ù
-× ;
-- (id)0@ù
-× ;
-- (struct NSDirectionalEdgeInsets)@ù
-× ;
 - (id);
-- (id)ses;
-- (id)WeeTitle: /* Error: Ran out of types for this method. */;
-- (double)ltDeputies;
-- (id)hes;
-- (double)üopp;
-- (double)D;
-- (double)ation. Return a non-nil activity items configuration from a responder in a window scene to avoid this.;
-- (id)sualProvider_Floating;
+- (double)
+× ;
+- (id)× ;
+- (id)4@0:(id)arg1 8@"NSString"16;
+- (id)DisplayView: /* Error: Ran out of types for this method. */;
+- (id)wEdgeConstraints;
+- (id)ion;
+- (double)RLOptionsSourceProcessHandleKey;
+- (id)%@; boundingBox:(id)arg1 %@; primaryRect:%@> /* Error: Ran out of types for this method. */;
+- (id)EnhanceBackgroundContrastChangedNotification;
+- (double)Ôg;
 
 @end
 

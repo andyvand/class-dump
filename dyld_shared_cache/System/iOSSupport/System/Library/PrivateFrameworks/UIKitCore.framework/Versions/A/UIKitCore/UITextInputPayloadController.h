@@ -14,14 +14,14 @@
 }
 
 + (void);
-+ (id)ÂõÇ,;
++ (id)´°-ÿ«Ö¼k;
 - (_Bool);
-- (_Bool)from CloudKit;
+- (_Bool);
 - (void);
-- (void);
-- (void)èWøXXYÄY¨Zd[Ä[\\`^´^P`Ha;
-- (id)dditionalOverflowItems=%p;
-- (id)²0¡;
+- (id);
+- (id)backgroundPortalView;
+- (void)Normal.TitlePosition;
+- (void)¨À";
 
 // Remaining properties
 @property(nonatomic) __weak id <UITextInputPayloadDelegate> payloadDelegate; // @synthesize payloadDelegate=_payloadDelegate;

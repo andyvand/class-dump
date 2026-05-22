@@ -9,8 +9,7 @@
 @interface (null) (SKPhysicsBody)
 - (id);
 - (_Bool);
-- (id)1Ð1b0@ù
-× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak SKNode *node;

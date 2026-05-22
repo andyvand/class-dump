@@ -21,16 +21,16 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool)etSelectionStyle: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *handles; // @synthesize handles=_handles;

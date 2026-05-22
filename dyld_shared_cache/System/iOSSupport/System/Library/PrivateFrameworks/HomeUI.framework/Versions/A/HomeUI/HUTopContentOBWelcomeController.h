@@ -37,15 +37,15 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (unsigned long long)ersonal Requests devices;
-- (void)eUI.UtilityOnboardingContext;
-- (void);
-- (void)Ðóòï;
+- (unsigned long long);
+- (void)ng leadingMargin %f because same as before;
+- (struct CGSize)e.SceneName;
+- (void)urationSettingsViewController initWithItemManager:(struct CGSize)arg1 tableViewStyle:] /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *centerFillContentView; // @synthesize centerFillContentView=_centerFillContentView;

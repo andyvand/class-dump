@@ -11,39 +11,39 @@
 }
 
 + (id);
-- (long long);
+- (_Bool);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (double);
 - (id);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (_Bool);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (_Bool)CSg_G;
-- (id);
+- (id)tringFromDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *additionalSnapshotPresentationContext;

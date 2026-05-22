@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType touchesBeganCallback; // @synthesize touchesBeganCallback=_touchesBeganCallback;

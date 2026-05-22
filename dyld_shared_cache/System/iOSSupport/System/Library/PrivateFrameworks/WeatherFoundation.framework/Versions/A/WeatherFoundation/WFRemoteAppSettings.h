@@ -67,17 +67,15 @@
 - (float);
 - (double);
 - (_Bool);
-- (id)8*;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (double);
-- (float)viding>"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)SessionId: /* Error: Ran out of types for this method. */;
+- (float);
 - (id);
-- (void);
 - (id);
 - (id);
 - (long long);
@@ -85,6 +83,8 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long apiConfigMaxRange; // @synthesize apiConfigMaxRange=_apiConfigMaxRange;

@@ -4,8 +4,10 @@
 
 class std::__1::vector<MTMPU::LayoutInterpolator::Entry, std::__1::allocator<MTMPU::LayoutInterpolator::Entry>> {
 public: // (access info unavailable from symbols alone)
-    __move_assign(std::__1::vector<MTMPU::LayoutInterpolator::Entry, std::__1::allocator<MTMPU::LayoutInterpolator::Entry>>&, std::__1::integral_constant<bool, true>);
-    __throw_length_error[abi:ne200100]();
-    __vallocate[abi:ne200100](unsigned long);
-    insert(std::__1::__wrap_iter<MTMPU::LayoutInterpolator::Entry const*>, MTMPU::LayoutInterpolator::Entry const&);
+    auto __move_assign(std::__1::vector<MTMPU::LayoutInterpolator::Entry, std::__1::allocator<MTMPU::LayoutInterpolator::Entry>>&, std::__1::integral_constant<bool, true>);
+    auto __throw_length_error[abi:nqe210106]();
+    auto __vallocate[abi:nqe210106](unsigned long);
+    auto insert(std::__1::__wrap_iter<MTMPU::LayoutInterpolator::Entry const*>, MTMPU::LayoutInterpolator::Entry const&);
+    void __assign_with_size[abi:nqe210106]<MTMPU::LayoutInterpolator::Entry*, MTMPU::LayoutInterpolator::Entry*>(MTMPU::LayoutInterpolator::Entry*, MTMPU::LayoutInterpolator::Entry*, long);
+    void __init_with_size[abi:nqe210106]<MTMPU::LayoutInterpolator::Entry*, MTMPU::LayoutInterpolator::Entry*>(MTMPU::LayoutInterpolator::Entry*, MTMPU::LayoutInterpolator::Entry*, unsigned long);
 };

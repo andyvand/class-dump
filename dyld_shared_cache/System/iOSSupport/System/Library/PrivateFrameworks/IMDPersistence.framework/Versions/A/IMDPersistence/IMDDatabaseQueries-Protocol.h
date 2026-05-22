@@ -5,6 +5,5 @@
 //
 
 @protocol IMDDatabaseQueries
-- (void);
 @end
 

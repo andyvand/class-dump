@@ -36,12 +36,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
+- (id);
+- (struct UIEdgeInsets);
 - (void);
 - (id);
-- (id);
-- (struct UIEdgeInsets)lïÜï;
-- (id)P33_245E59FB3AED492785587A094999446D14AssociatedData;
+- (void);
+- (id)nOrderIndexForIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *columnIdentifiers; // @synthesize columnIdentifiers=_columnIdentifiers;

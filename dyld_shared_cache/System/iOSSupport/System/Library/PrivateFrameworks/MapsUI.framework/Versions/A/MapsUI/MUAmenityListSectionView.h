@@ -24,7 +24,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)R,N,V_isAllowedToShowRatingScoreRibbonItem;
 
 // Remaining properties
 @property(nonatomic, getter=isExpanded) _Bool expanded; // @synthesize expanded=_expanded;

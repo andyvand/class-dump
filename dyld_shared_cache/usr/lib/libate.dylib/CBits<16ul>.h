@@ -4,9 +4,9 @@
 
 class CBits<16ul> {
 public: // (access info unavailable from symbols alone)
-    SetBit(unsigned long&, unsigned char);
-    SetBit(unsigned long&, unsigned char) (.cold.1);
-    SetBits(unsigned long&, unsigned long, unsigned char);
-    SetBits(unsigned long&, unsigned long, unsigned char) (.cold.1);
-    SetBits(unsigned long&, unsigned long, unsigned char) (.cold.2);
+    auto SetBit(unsigned long&, unsigned char);
+    auto SetBit(unsigned long&, unsigned char) (.cold.1);
+    auto SetBits(unsigned long&, unsigned long, unsigned char);
+    auto SetBits(unsigned long&, unsigned long, unsigned char) (.cold.1);
+    auto SetBits(unsigned long&, unsigned long, unsigned char) (.cold.2);
 };

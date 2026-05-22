@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (void)<BSXPCEncoding>"16;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *trackBackgroundColor; // @synthesize trackBackgroundColor=_trackBackgroundColor;

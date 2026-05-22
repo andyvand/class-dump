@@ -21,21 +21,23 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (double);
+- (void);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
 - (id);
+- (id)1â
+0@ù
+× ;
+- (double)tton: /* Error: Ran out of types for this method. */;
+- (void)",R,N,V_wallpaperSuggestionsCollection;
+- (id)pFetchResultControllerC;
+- (void)ble;
+- (double)yout for a near match identifier;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)ryMemoryFeedPlaceholderFactory;
-- (void)*áÿNP[4;
-- (double)dn5;
+- (void)q;
 
 // Remaining properties
 @property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;

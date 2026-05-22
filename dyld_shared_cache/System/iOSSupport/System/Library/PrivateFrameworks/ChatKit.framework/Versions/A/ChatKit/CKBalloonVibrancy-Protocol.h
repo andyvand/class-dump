@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol CKBalloonVibrancy
-- (void)Õ;
-- (NSArray *)"NSMutableDictionary",&,N,V_userIDToColorsDict;
 @end
 

@@ -20,8 +20,8 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)rsonalRequestsVoiceRecognitionNotAvailableDescription;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUDataAnalyticsModuleControllerDelegate> dataAnalyticsModuleControllerDelegate; // @synthesize dataAnalyticsModuleControllerDelegate=_dataAnalyticsModuleControllerDelegate;

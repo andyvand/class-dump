@@ -16,17 +16,17 @@
 
 - (double);
 - (struct CGRect);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (long long);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);

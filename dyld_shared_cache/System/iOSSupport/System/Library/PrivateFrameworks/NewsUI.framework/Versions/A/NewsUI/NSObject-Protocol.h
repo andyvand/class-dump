@@ -7,15 +7,8 @@
 @class NSString;
 
 @protocol NSObject
-- (Class)ionManager;
-- (id)NewsAppConfigurationManager;
-- (id);
-- (id)rage_CompressedSessionEventSportsTagSeen;
-- (id)Apple_News_PersonalizationStorage_CompressedSessionEventSportsTagSeen;
-- (_Bool)erty;
-- (_Bool)h;
-- (_Bool)8@16@24@32@40@?48;
-- (_Bool)o create asset handle for paywall image.  Invalid or mssing URL;
+- (struct _NSZone *)1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

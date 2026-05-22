@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene;
-
 @protocol FBSceneComponent
 
 @optional
-- (void):(FBScene *)arg1;
+- (void)°!Fù^Ð1Â0@ù
+× ;
+- (void);
 @end
 

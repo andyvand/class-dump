@@ -25,12 +25,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (long long);
-- (id)brary/BuildRoots/4~CG-JugDWSUoDCj8o5WUG74fBKCdmEdAcn8-FOQA/Library/Caches/com.apple.xbs/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/x509/x509_cmp.c;
-- (long long)put} (Parameter Summary - Weeks);
+- (id);
+- (long long);
+- (void)ate",R,N,V_expirationDate;
+- (void).icloud.com/shortcuts/api/external_ip;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *contentData; // @synthesize contentData=_contentData;

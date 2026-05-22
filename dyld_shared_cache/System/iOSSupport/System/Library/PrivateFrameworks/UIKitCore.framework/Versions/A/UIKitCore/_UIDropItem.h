@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ts:(id)arg1 service: /* Error: Ran out of types for this method. */;
-- (void)tartDate;
-- (void)D:(id)arg1 hasAttachments: /* Error: Ran out of types for this method. */;
-- (id)T@"NSString",&,N,V_handleID;
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id)Successful;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)sWindow;
+- (void)ð\;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_dropItemProvider, setter=_setDropItemProvider:) NSItemProvider *dropItemProvider; // @synthesize dropItemProvider=_dropItemProvider;

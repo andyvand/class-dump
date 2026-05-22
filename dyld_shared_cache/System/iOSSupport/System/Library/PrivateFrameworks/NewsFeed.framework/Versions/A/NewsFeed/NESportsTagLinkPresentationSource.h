@@ -18,13 +18,14 @@
 + (id);
 + (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (id)tionaryKeyBitmapQualityInfo;
 - (id);
-- (void);
 - (id);
+- (id),;
+- (id);
+- (void)Èù
+ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) LPLinkMetadata *linkMetadata;

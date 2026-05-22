@@ -5,6 +5,6 @@
 //
 
 @interface (null) (NSSAdditions)
-+ (id)C;
++ (id);
 @end
 

@@ -4,5 +4,5 @@
 
 class dyld4::HashMetadataConformanceKey {
 public: // (access info unavailable from symbols alone)
-    hash(SwiftMetadataProtocolConformanceDiskLocationKey const&, void*);
+    auto hash(SwiftMetadataProtocolConformanceDiskLocationKey const&, void*);
 };

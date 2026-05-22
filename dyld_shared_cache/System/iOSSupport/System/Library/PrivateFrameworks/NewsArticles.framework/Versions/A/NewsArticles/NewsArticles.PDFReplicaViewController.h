@@ -28,17 +28,16 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (void);
-- (_Bool)CampaignLandingPageViewController;
-- (void),Sï
-;
+- (void);
+- (void)outModel;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

@@ -13,44 +13,42 @@
     UIButtonMacVisualElement *_element;
 }
 
-+ (_Bool)hEncryptCertPayloadUUID: /* Error: Ran out of types for this method. */;
-+ (_Bool)Array",C,N,V_payloadOnDemandMatchDomainsOnRetry;
++ (_Bool);
 + (id);
-- (id)D %@;
-- (void);
-- (void);
-- (void);
-- (void)oLimit;
-- (void);
-- (void)0@ù
-× ;
-- (void)!XGù1Ã°1¢!0@ù
-× ;
++ (_Bool);
 - (id);
-- (struct CGPoint)nsitionConductor:(id)arg1 beginPinningInputViewsForTransitionFromViewController:toViewController:forTransitionType: /* Error: Ran out of types for this method. */;
-- (_Bool)exicon: /* Error: Ran out of types for this method. */;
-- (void)ior;
-- (id)tDismissingMenuWithInternalIdentifier:toPreview:force: /* Error: Ran out of types for this method. */;
-- (struct CGSize)eIdentifier:(struct CGSize)arg1 service: /* Error: Ran out of types for this method. */;
-- (void)ollectionLayoutListAppearanceInsetGrouped;
-- (id)ntainerView",&,N,V_reparentingContainerView;
-- (void)ButtonView;
-- (void);
-- (void)0;
-- (CDStruct_c3b9c2ee)´`þ|`þ`þ`þìuXþØ`þ¨¿`þ¢`þp¤`þØuXþqiþ¿`þÄuiþ8ziþì=jþdwjþOjþÜYjþìXlþh]lþèMrþÔPrþdUrþì_rþbrþerþhrþàsrþÜãvþp^wþÖwþ¤gwþlmXþPuwþ^XþwþØdXþ¨wþ8¾Mþ,þ¤þDªþ®þPuXþ¸dXþ¾Mþ4mXþÌ¿MþÈ¿Mþà¡`þÈþxxþtxþpxþþì[õÿ;
-- (void)llection view:(id)arg1 %@;
-- (id);
-- (id).png;
-- (void)of bounds rows memory read:(id)arg1 %@;
-- (struct UIEdgeInsets)of any focus system, and so cannot request a focus update.;
-- (id)arEID;
 - (_Bool);
-- (id)<eqÿ;
-- (void)Ù7d;
-- (void)¨Ìµ#g;
-- (void)ï*k;
-- (_Bool)ôrÑÿ5Í¾1o;
-- (id)Äþÿ\ÌñDp;
+- (void);
+- (void);
+- (void);
+- (id)ation APIs directly on UICollectionView. %@;
+- (struct CGSize)xSet"16^B24;
+- (id)putViewInfoClass(void)_block_invoke;
+- (void);
+- (_Bool);
+- (id)F);
+- (void)ionViewCellC_yt´°;
+- (void)ìÊnþËnþèYÄ7<Ønþ;
+- (void)lLightEffectView;
+- (void)igurationCornerStyle;
+- (void)u|43¸÷sþ;
+- (id);
+- (CDStruct_c3b9c2ee)´¾[;
+- (void)Â±`<(\;
+- (void);
+- (void);
+- (id)Ttb;
+- (id)¯b;
+- (id)4(0ÿ;
+- (void);
+- (void)g;
+- (struct CGPoint)à3Àÿ·ÞØ\²k;
+- (void);
+- (struct UIEdgeInsets)+ÎhÒk;
+- (_Bool)4ôxÿ;
+- (void)4¨ÿ;
+- (id)ôlà¦m;
+- (void)Àÿ!);
 
 // Remaining properties
 @property(nonatomic) _Bool avoidDefaultTitleAndImageLayout;

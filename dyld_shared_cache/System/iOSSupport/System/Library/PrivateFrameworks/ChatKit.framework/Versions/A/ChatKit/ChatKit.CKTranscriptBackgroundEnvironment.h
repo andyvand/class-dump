@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void)i;
+- (void);
 - (id);
-- (void);
 - (id);
+- (void)ÐÚ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP7ChatKit46CKTranscriptBackgroundTranscriptLayoutDelegate_> transcriptLayoutDelegate; // @synthesize transcriptLayoutDelegate;

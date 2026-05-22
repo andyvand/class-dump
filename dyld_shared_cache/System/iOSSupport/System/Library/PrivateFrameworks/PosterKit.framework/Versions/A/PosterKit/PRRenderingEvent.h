@@ -15,22 +15,22 @@
 
 + (id);
 + (_Bool);
-+ (_Bool)guration:complicationLayout:renderingConfiguration:homeScreenConfiguration:colorVariationsConfiguration:quickActionsConfiguration:suggestionMetadata:otherMetadata:userInfo: /* Error: Ran out of types for this method. */;
-+ (id);
++ (_Bool);
++ (id)GAGySiSgGGJéGAGy;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (struct CGPoint);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

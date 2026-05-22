@@ -20,16 +20,15 @@
 
 - (void);
 - (void);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)10ð1b0@ù
-× ;
-- (id)tDisplayingDetailsViewController: /* Error: Ran out of types for this method. */;
-- (void)eedsToWaitForPreload;
+- (void)tionTitle;
 
 // Remaining properties
 @property(nonatomic, retain) HUBaseIconViewConfiguration *configuration;

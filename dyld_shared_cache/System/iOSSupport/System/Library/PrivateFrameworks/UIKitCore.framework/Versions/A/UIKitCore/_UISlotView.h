@@ -22,7 +22,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool) Óp;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -32,16 +32,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)vered:(id)arg1;
-- (id): /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (struct CGSize);
+- (void)UndoControl",&,N,V_aPasteButtonView;
+- (void)tionViewCSo8NSStringCSo11NSIndexPathCSo0a8ReusableB0CSgIeyByyya_;
 - (void);
-- (void);
-- (id)Action;
-- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setContentDelegate:) __weak id <_UISlotViewContentDelegate> _contentDelegate;

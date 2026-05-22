@@ -31,14 +31,14 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (void);
 - (id);
-- (void);
-- (void);
+- (long long);
 - (void);
 - (long long);
+- (void);
+- (void)elegate;
 - (id);
-- (void)ä«;
 
 // Remaining properties
 @property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;

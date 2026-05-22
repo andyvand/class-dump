@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIStandardTextCursorView, UITextSelectionDisplayInteraction;
+@class NSString, UIStandardTextCursorView, UITextSelectionDisplayInteraction, UIView;
 @protocol UITextCursorAssertion;
 
 __attribute__((visibility("hidden")))
@@ -16,19 +16,18 @@ __attribute__((visibility("hidden")))
     UIStandardTextCursorView *_floatingCursorView;
 }
 
-- (void)eHeader is invalid;
-- (id);
-- (id);
-- (void)hader string;
-- (id)K;
-- (id);
-- (void)ion:(_Bool)arg1 stickerPositionVersion:stickerExternalURI: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)gled: /* Error: Ran out of types for this method. */;
-- (void)work;
+- (id);
+- (id);
 - (void);
-- (struct CGPoint)!L@ù±Ë°1¢!0@ù
-× ;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -39,6 +38,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) UIStandardTextCursorView *floatingCursorView; // @synthesize floatingCursorView=_floatingCursorView;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak UITextSelectionDisplayInteraction *manager; // @synthesize manager=_manager;
+@property(readonly, nonatomic, getter=_selectionContainerView) UIView *selectionContainerView;
 @property(readonly) Class superclass;
 
 @end

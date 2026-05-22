@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ä;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *inputFileURL; // @synthesize inputFileURL=_inputFileURL;

@@ -22,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
 - (struct os_unfair_lock_s);
 - (void);
-- (unsigned long long);
 - (void);
+- (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType aqiScaleRetrievalCompletionBlock; // @synthesize aqiScaleRetrievalCompletionBlock=_aqiScaleRetrievalCompletionBlock;

@@ -19,14 +19,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)Enabled;
+- (void)SO country code %s;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *calDescription;

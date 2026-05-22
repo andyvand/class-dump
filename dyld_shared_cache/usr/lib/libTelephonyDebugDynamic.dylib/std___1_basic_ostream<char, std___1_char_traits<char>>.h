@@ -4,6 +4,5 @@
 
 class std::__1::basic_ostream<char, std::__1::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    operator<<(unsigned int);
     ~basic_ostream();
 };

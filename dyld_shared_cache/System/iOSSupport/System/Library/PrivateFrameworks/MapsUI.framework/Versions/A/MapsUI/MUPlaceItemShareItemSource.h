@@ -24,8 +24,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ewModel;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *activityProviders;

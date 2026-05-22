@@ -19,16 +19,14 @@
 + (id);
 + (id);
 - (double);
-- (void){;
 - (void);
-- (void)age Classification:(id)arg1 %@;
-- (void)uthenticated attachment {note:(double)arg1 %@};
-- (long long):%@, message:%@> /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (long long);
 - (id);
-- (id)'
-;
-- (long long)!
-;
+- (id);
+- (long long);
 - (id);
 - (double);
 - (id);
@@ -38,14 +36,13 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (double);
 - (id);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
-- (id)0@ù
-× ;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double animationStartTimeOffset; // @synthesize animationStartTimeOffset=_animationStartTimeOffset;

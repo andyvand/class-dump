@@ -21,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)- Import Question - ;
 
 // Remaining properties
 @property(retain, nonatomic) WFFileRepresentation *instagramRepresentation; // @synthesize instagramRepresentation=_instagramRepresentation;

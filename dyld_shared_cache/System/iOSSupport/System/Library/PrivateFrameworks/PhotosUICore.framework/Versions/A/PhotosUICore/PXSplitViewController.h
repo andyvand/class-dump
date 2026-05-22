@@ -17,7 +17,7 @@
     UIViewController *_sidebarViewController;
 }
 
-+ (void);
++ (void)*§KD>6;
 - (_Bool);
 - (void);
 - (void);
@@ -33,11 +33,11 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void)QH[;
+- (id);
+- (_Bool)emListManager;
+- (void)deModel;
+- (void)ü&a;
+- (_Bool)+6;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *contentViewController;

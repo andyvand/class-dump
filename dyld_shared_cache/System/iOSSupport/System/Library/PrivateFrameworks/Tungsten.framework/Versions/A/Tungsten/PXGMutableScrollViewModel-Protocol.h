@@ -5,6 +5,7 @@
 //
 
 @protocol PXGMutableScrollViewModel
+- (struct CGSize)zeDidChange];
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysBounceHorizontal;

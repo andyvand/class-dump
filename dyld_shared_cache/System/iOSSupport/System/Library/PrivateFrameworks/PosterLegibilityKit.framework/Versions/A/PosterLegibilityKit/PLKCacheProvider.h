@@ -17,7 +17,8 @@
     NSString *_legibilityCacheIdentifier;
 }
 
-+ (id)p) Setting up with cache %{public}@;
++ (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,10 +28,9 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cachesPath;

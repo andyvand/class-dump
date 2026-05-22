@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void):(struct CGRect)arg1 8@"TUConversationManager"16@"TUConversation"24@"TUConversationActivityEvent"32;
 - (void);
-- (struct CGColor *)yleUpdatableConstraints;
-- (id)utputModel;
-- (_Bool)M}8Y;
-- (void);
+- (_Bool);
+- (id)_done;
+- (struct CGColor *)dView;
+- (void)avior;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGColor *borderColor;

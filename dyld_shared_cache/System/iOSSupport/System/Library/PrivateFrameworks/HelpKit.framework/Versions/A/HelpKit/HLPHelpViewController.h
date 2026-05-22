@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HLPHelpBookController, HLPHelpLoadingView, HLPHelpLocaleController, HLPHelpTableOfContentViewController, HLPHelpTopicViewController, HLPReachabilityManager, NSArray, NSDictionary, NSLayoutConstraint, NSMutableDictionary, NSString, NSURL, UIBarButtonItem, UIView;
+@class HLPHelpBookController, HLPHelpLoadingView, HLPHelpLocaleController, HLPHelpTableOfContentViewController, HLPHelpTopicViewController, HLPReachabilityManager, NSArray, NSDictionary, NSMutableDictionary, NSString, NSURL, UIBarButtonItem, UIView;
 @protocol HLPHelpViewControllerDelegate;
 
 @interface HLPHelpViewController
@@ -16,7 +16,6 @@
     NSDictionary *_context;
     NSString *_helpBookVersion;
     UIBarButtonItem *_doneBarButtonItem;
-    NSLayoutConstraint *_loadingViewTopConstraint;
     _Bool _useModalPresentation;
     _Bool _hideDoneButton;
     _Bool _displayHelpTopicsOnly;
@@ -142,7 +141,6 @@
 - (_Bool);
 - (void);
 - (id);
-- (long long);
 - (id);
 - (void);
 - (void);
@@ -163,16 +161,6 @@
 - (id);
 - (void);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -181,7 +169,16 @@
 - (id);
 - (void);
 - (void);
-- (void)ntrollerDelegate>",W,N,V_delegate;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long accessType; // @synthesize accessType=_accessType;

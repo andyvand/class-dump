@@ -4,24 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine;
-
 @protocol _MPCPlaybackEngineEventObserving
-
-@optional
-- (void)letion:(MPCPlaybackEngine *)arg1;
-- (void)s:(MPCPlaybackEngine *)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)se;
-- (void)t;
-- (void)ng",R,C;
-- (void);
-- (void)uthenticationPlugin;
-- (void)t missing username/password;
-- (void)lent renewal failed! Error:(MPCPlaybackEngine *)arg1 %@;
-- (void);
-- (void)J;
-- (void)K;
-- (void)n;
-- (void)?;
 @end
 

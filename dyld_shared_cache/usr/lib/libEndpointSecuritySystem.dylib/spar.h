@@ -4,8 +4,9 @@
 
 class spar {
 public: // (access info unavailable from symbols alone)
-    sha256(spar::MappedFile&, unsigned long, unsigned long);
-    sha256fromFile(char const*, unsigned long, unsigned long);
-    stringFromCFString(__CFString const*);
-    stringFromCFString(__CFString const*) (.cold.1);
+    auto handle_sigbus(int);
+    auto sha256(spar::MappedFile&, unsigned long, unsigned long);
+    auto sha256fromFile(char const*, unsigned long, unsigned long);
+    auto stringFromCFString(__CFString const*);
+    auto stringFromCFString(__CFString const*) (.cold.1);
 };

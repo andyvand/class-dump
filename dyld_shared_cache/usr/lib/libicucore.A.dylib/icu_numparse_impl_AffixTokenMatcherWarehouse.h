@@ -5,12 +5,13 @@
 class icu::numparse::impl::AffixTokenMatcherWarehouse {
 public: // (access info unavailable from symbols alone)
     AffixTokenMatcherWarehouse(icu::numparse::impl::AffixTokenMatcherSetupData const*);
-    currency(UErrorCode&);
-    hasEmptyCurrencySymbol() const;
-    ignorables();
-    minusSign();
-    nextCodePointMatcher(int, UErrorCode&);
-    percent();
-    permille();
-    plusSign();
+    auto approximatelySign();
+    auto currency(UErrorCode&);
+    auto hasEmptyCurrencySymbol() const;
+    auto ignorables();
+    auto minusSign();
+    auto nextCodePointMatcher(int, UErrorCode&);
+    auto percent();
+    auto permille();
+    auto plusSign();
 };

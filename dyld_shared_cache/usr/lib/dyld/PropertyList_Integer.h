@@ -4,7 +4,6 @@
 
 class PropertyList::Integer {
 public: // (access info unavailable from symbols alone)
-    Integer(lsl::Allocator&, long long);
-    deallocate();
-    emit(unsigned char, ByteStream&);
+    Integer(PropertyList&, long long);
+    auto emit(unsigned char, ByteStream&);
 };

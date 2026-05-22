@@ -14,20 +14,19 @@ __attribute__((visibility("hidden")))
     UIKBRenderFactory *_overlayFactory;
 }
 
-- (struct UIEdgeInsets)Change: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (id);
 - (id);
 - (Class);
 - (struct UIEdgeInsets);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint)ù±Àð1¢!0@ù
-× ;
-- (void);
-- (double)ekdayViewMinimumHeight;
-- (_Bool);
+- (_Bool);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets)Àe;
+- (struct CGPoint);
+- (struct CGPoint)lectionView;
+- (struct CGPoint)AcceptedCandidateCorrected;
+- (struct UIEdgeInsets)îÿð~þÿjÎîÿ;
+- (double)@?0@"UICellAccessory"8Q16^B24;
+- (void)L\aþÝ8;
 
 @end
 

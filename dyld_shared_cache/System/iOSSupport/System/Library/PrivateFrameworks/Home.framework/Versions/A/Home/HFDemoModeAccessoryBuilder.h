@@ -33,14 +33,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory;

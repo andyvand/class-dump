@@ -22,30 +22,30 @@
     _Bool _inMemoryBookmarkChangeTrackingAvailable;
 }
 
-+ (id)oller;
-+ (_Bool)Objects: /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool);
 + (_Bool);
 + (long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void)-;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAirDropPasswordsAvailable) _Bool airDropPasswordsAvailable;

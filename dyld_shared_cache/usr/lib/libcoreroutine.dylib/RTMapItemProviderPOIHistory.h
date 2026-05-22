@@ -14,15 +14,15 @@
     RTMapItemProviderPOIHistoryParameters *_parameters;
 }
 
-- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id)H;
 - (id);
-- (id)tionIDsExpunged: /* Error: Ran out of types for this method. */;
-- (void)ue poi request at location, %{sensitive}@, access points, %lu, mapItems, %lu, error, %@;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)ons ending yesterday count, %lu, total fetched visit count, %lu, visits ending yesterday count, %lu, visits before that, %lu;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

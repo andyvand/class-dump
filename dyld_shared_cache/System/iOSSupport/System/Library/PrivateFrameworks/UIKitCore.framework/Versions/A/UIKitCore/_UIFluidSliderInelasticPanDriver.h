@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (unsigned long long);
-- (double)T: /* Error: Ran out of types for this method. */;
+- (double);
 - (void);
 - (void);
 - (void);
@@ -32,25 +32,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (double)emoveChat: /* Error: Ran out of types for this method. */;
-- (double)sURI;
-- (void)*;
-- (void)e;
+- (double);
+- (double);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)
-× ;
-- (_Bool)@0:(id)arg1 8;
-- (double)eResponse">40;
-- (id)nFromPreviewInteraction: /* Error: Ran out of types for this method. */;
-- (void)nThreadWithCompletionHandler:(_Bool)arg1;
-- (_Bool)ting;
-- (void);
-- (void);
-- (id)tationTypeStamp;
-- (void)snapshot:(id)arg1 %@;
-- (void)BofA;
-- (id)ccessibilityHearingDevicePairedEarDidChangeNotification;
+- (void);
+- (void)ardWithName:create: /* Error: Ran out of types for this method. */;
+- (id)iew;
+- (id)ocusEnvironment:%@  focusItemContainer:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)19_RotaryDeadbandSize;
+- (void)tÞ[;
+- (double)Òþx×äkb;
 
 // Remaining properties
 @property(nonatomic) double _previousTranslation; // @synthesize _previousTranslation=__previousTranslation;

@@ -124,10 +124,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (long long);
 - (_Bool);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (long long);
@@ -137,14 +137,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (id);
+- (long long);
 - (void);
-- (long long)nTitle: /* Error: Ran out of types for this method. */;
-- (void){UIEdgeInsets=dddd},N,V_chapterHeaderPadding;
-- (_Bool);
 - (void);
-- (id)È4;
+- (void)tionHeaderLayout _invalidateKeyAssetFetch];
+- (void)í/Æ àÿ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PXNumberAnimator *countDownAlphaAnimator; // @synthesize countDownAlphaAnimator=_countDownAlphaAnimator;

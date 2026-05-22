@@ -33,8 +33,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canExpandDrawerAsAuxiliaryViewPresenter;

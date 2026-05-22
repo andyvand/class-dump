@@ -4,7 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKRecordZoneID, CKSyncEngine, CKSyncEngineFetchChangesOptions, CKSyncEngineSendChangesOptions, NSArray, NSMutableDictionary, NSString, VCCKApplicationStateObserver, WFCloudKitSyncEventLogger, WFDatabase;
+@class CKContainer, CKRecordZoneID, CKSyncEngine, CKSyncEngineFetchChangesOptions, CKSyncEngineSendChangesOptions, NSArray, NSMutableDictionary, NSString, VCCKApplicationStateObserver, WFCloudKitSyncEventLogger, WFDatabase, _TtC14VoiceShortcuts19VCDaemonTransaction;
+@protocol VCDaemonTaskScheduler;
 
 @interface VCCKShortcutSyncService
 {
@@ -12,6 +13,8 @@
     WFDatabase *_database;
     CKContainer *_container;
     CKSyncEngine *_syncEngine;
+    id <VCDaemonTaskScheduler> _daemonTaskScheduler;
+    _TtC14VoiceShortcuts19VCDaemonTransaction *_daemonTransaction;
     unsigned long long _debuggingOptions;
     WFCloudKitSyncEventLogger *_logger;
     CKSyncEngineSendChangesOptions *_sendChangesOptions;
@@ -42,6 +45,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -51,6 +55,7 @@
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,7 +86,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -91,25 +96,28 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) VCCKApplicationStateObserver *applicationObserver; // @synthesize applicationObserver=_applicationObserver;
 @property(nonatomic) _Bool coherenceSyncEnabled; // @synthesize coherenceSyncEnabled=_coherenceSyncEnabled;
 @property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
+@property(readonly, nonatomic) id <VCDaemonTaskScheduler> daemonTaskScheduler; // @synthesize daemonTaskScheduler=_daemonTaskScheduler;
+@property(retain, nonatomic) _TtC14VoiceShortcuts19VCDaemonTransaction *daemonTransaction; // @synthesize daemonTransaction=_daemonTransaction;
 @property(readonly, nonatomic) WFDatabase *database; // @synthesize database=_database;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

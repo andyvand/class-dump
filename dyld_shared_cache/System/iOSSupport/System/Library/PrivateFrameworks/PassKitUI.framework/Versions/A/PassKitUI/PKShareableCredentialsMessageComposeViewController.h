@@ -25,22 +25,24 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void))\È2@ùlô;
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (struct CGSize);
-- (unsigned long long)leTextAttributesTransformer: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void)©ð!(@ùqøð1â
+0@ù
+× ;
+- (id)(@@h.¬`¡;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PKShareableCredentialsMessageComposeViewControllerDelegate> delegate;

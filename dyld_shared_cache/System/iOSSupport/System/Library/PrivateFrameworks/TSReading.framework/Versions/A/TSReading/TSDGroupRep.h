@@ -28,9 +28,9 @@
 - (struct CGRect);
 - (_Bool);
 - (struct CGColor *);
-- (void);
 - (Class);
 - (void);
+- (void)\ÍËÿàf[ßÏ;
 
 @end
 

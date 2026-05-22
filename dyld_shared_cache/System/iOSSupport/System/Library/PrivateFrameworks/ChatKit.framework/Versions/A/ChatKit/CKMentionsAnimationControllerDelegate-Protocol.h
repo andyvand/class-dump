@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMentionsAnimationController;
-
 @protocol CKMentionsAnimationControllerDelegate
-- (void)ource:(CKMentionsAnimationController *)arg1;
 @end
 

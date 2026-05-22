@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     unsigned int depth;
 }
 
-- (id)locator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{optional<std::weak_ptr<MixTapToUplinkHost>>=(?=c{weak_ptr<MixTapToUplinkHost>=^{MixTapToUplinkHost}^{__shared_weak_count}})B}^{element_t}}{shared_ptr<MixTapToUplinkHost>=^{MixTapToUplinkHost}^{__shared_weak_count}}}24@0:8@16 /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

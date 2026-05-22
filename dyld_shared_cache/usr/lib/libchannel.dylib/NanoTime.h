@@ -4,5 +4,5 @@
 
 class NanoTime {
 public: // (access info unavailable from symbols alone)
-    abs_time() const;
+    auto abs_time() const;
 };

@@ -19,25 +19,24 @@
 + (_Bool);
 + (id);
 + (_Bool);
-- (void)ult:(BOOL)arg1 displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
-- (Class)oterInRect:forPageWithTitle:URL: /* Error: Ran out of types for this method. */;
-- (Class)mFactor;
-- (Class)UUID",R,N,V_rowID;
-- (id)SLayoutConstraint",&,N,V_imageViewLeftLayoutConstraint;
+- (void);
+- (Class);
+- (Class);
+- (Class);
 - (id);
-- (_Bool)ldShare;
+- (id);
+- (_Bool);
 - (BOOL);
 - (Class);
 - (id);
-- (_Bool)No one can access your locked notes without your device passcode or password—not even Apple.
-
-Do you still want to know more about how your information is secured? ;
-- (void)tionTypeFolders;
+- (_Bool);
 - (void);
-- (id);
 - (void);
+- (id);
 - (int);
-- (double)H;
+- (double)
+;
+- (void)LAST_MESSAGE;
 
 // Remaining properties
 @property(nonatomic) BOOL cachedOrientation; // @synthesize cachedOrientation=_cachedOrientation;

@@ -4,5 +4,5 @@
 
 class std::__1::chrono::system_clock {
 public: // (access info unavailable from symbols alone)
-    now();
+    auto now();
 };

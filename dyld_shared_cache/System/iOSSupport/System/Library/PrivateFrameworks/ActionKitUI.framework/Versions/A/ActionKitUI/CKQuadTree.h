@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CKQuadTreeNode *rootNode; // @synthesize rootNode=_rootNode;

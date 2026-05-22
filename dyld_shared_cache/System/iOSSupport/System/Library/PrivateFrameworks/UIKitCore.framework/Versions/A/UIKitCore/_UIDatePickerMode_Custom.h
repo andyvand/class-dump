@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     long long _desiredUnits;
 }
 
-- (double);
+- (double);
 - (long long);
 - (long long);
 - (void);
@@ -31,12 +31,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (long long)C60@64@72@80B88;
-- (unsigned long long)56@0:(long long)arg1 8@16@24B32B36@40^@48;
-- (id);
+- (long long);
 - (unsigned long long);
-- (void);
-- (id)ContentMetrics;
+- (id);
+- (id)ollapsedByDefault;
+- (unsigned long long)lEvents;
+- (void)Ë\;
 
 @end
 

@@ -16,13 +16,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)l *, TSTCellStyle *, TSTCellID);
 
 // Remaining properties
 @property(nonatomic) _Bool isFullscreenViewController; // @synthesize isFullscreenViewController=mIsFullscreenViewController;

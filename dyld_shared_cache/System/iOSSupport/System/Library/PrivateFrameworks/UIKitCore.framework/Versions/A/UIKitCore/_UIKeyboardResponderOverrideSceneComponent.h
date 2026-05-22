@@ -15,17 +15,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)@ø¦;
-- (id);
-- (id)	×)A[;
-- (void);
+- (id);
+- (void)ÄîR0ÁR43<;
+- (id)p
+^;
+- (void)§ÿbû;
+- (void)ø½a;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

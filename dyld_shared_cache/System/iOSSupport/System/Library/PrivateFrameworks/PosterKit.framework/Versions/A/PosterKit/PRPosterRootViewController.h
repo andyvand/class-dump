@@ -12,20 +12,19 @@
     PRRenderingView *_renderingView;
 }
 
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 - (void);
+- (unsigned long long);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long))Ð1b0@ù
-× ;
-- (void)ionWithExtensionBundleURL:(struct CGSize)arg1;
-- (void)ùXyÃYyADyAByAByAEyAEyAEyAEyYyY_Qo_ÉYy»YSgGGAIySiSgGGYôXGAIy¨[GG©YyAR_Qo_GìYG_AYtGG`ùZG_AFyADyAEyAByAByAyEy(ºAQGGAXGºÙÿÿGSg_AEyAYA6_GA9_SgtGGtGGACyADyA1__AFyADyAByA7_A9_G_AEyAWA6_GtGGtGGGAByACyADyA1__AFyADyACyADyAEyAYA0_G_A7_tGGSg_A16_A10_tGGtGGACyADyA1__AFyADyACyADyAEyAEyAYòöXGA6_G_AEyAEyA5_A30_GA6_GtGG_A9_tGGtGGG_G;
+- (void)ssert_object isKindOfClass:(id)arg1 PRPosterDescriptorHomeScreenConfigurationClass];
+- (void)4;
 
 // Remaining properties
 @property(retain, nonatomic) PRRenderingView *renderingView; // @synthesize renderingView=_renderingView;

@@ -84,31 +84,31 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (long long);
-- (id);
-- (void)dentifier;
-- (void);
-- (id);
-- (void);
-- (long long);
-- (void)(x;
-- (void);
 - (void);
 - (id);
 - (long long);
-- (id)D;
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (long long);
 - (long long);
 - (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (id);
-- (id)nceAvatarRecordDataSource;
-- (id)orSection",&,N,V_section;
-- (void);
+- (void);
+- (void);
+- (id)tonBackgroundColor;
+- (id)ackingLayout;
+- (id)¤úPã;
+- (id)¯;
+- (void)üÿçú;
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

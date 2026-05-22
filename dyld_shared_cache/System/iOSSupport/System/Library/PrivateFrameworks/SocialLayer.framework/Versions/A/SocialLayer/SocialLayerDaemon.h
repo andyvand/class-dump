@@ -26,10 +26,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
+- (void);
 - (id);
-- (void)eleteHighlightsOrAttributions:successfully fetched new highlights /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) int appleLanguageChangeNotificationToken; // @synthesize appleLanguageChangeNotificationToken=_appleLanguageChangeNotificationToken;

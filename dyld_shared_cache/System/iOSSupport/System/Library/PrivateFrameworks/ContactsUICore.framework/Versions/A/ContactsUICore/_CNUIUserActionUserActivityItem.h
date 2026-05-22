@@ -18,11 +18,11 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id);
+- (void):inContactStore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUserActivity *userActivity; // @synthesize userActivity=_userActivity;

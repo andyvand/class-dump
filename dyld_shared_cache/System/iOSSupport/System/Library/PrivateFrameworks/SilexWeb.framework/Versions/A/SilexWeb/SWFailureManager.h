@@ -13,13 +13,13 @@
     id <SWLogger> _logger;
 }
 
-- (id)iewSupplementaryViewProvider;
+- (id);
 - (void);
 - (void);
-- (void)N;
+- (void);
 - (CDUnknownBlockType);
-- (id);
 - (void);
+- (id)Request: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic, setter=onEvent:) CDUnknownBlockType block; // @synthesize block=_block;

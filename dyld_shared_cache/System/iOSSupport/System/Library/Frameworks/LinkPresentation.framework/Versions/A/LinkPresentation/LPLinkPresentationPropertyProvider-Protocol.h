@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCaptionBarPresentationProperties, LPImage, LPIndeterminateProgressSpinnerPresentationProperties, NSArray, NSString, NSURL;
+@class LPIndeterminateProgressSpinnerPresentationProperties, NSNumber;
 
 @protocol LPLinkPresentationPropertyProvider
 
 @optional
-- (NSString *)R;
-- (LPCaptionBarPresentationProperties *);
-- (_Bool)R;
-- (_Bool);
-- (NSString *);
-- (NSArray *)hatKit.TapbackPickerContainerAccessoryView;
-- (void)"UIPointerEffect"16@"UIPointerShape"24;
-- (LPIndeterminateProgressSpinnerPresentationProperties *)ionMark;
-- (NSURL *);
-- (LPImage *)#;
+- (NSNumber *)entationProperties",&,N,V_leadingIconBadgeProperties;
 
 // Remaining properties
 @property(retain, nonatomic) LPIndeterminateProgressSpinnerPresentationProperties *progressSpinner;

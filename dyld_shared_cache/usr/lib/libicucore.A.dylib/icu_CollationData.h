@@ -4,16 +4,16 @@
 
 class icu::CollationData {
 public: // (access info unavailable from symbols alone)
-    addHighScriptRange(unsigned char*, int, int) const;
-    addLowScriptRange(unsigned char*, int, int) const;
-    getEquivalentScripts(int, int*, int, UErrorCode&) const;
-    getFinalCE32(unsigned int) const;
-    getFirstPrimaryForGroup(int) const;
-    getGroupForPrimary(unsigned int) const;
-    getIndirectCE32(unsigned int) const;
-    getLastPrimaryForGroup(int) const;
-    getScriptIndex(int) const;
-    getSingleCE(int, UErrorCode&) const;
-    makeReorderRanges(int const*, int, icu::UVector32&, UErrorCode&) const;
-    makeReorderRanges(int const*, int, signed char, icu::UVector32&, UErrorCode&) const;
+    auto addHighScriptRange(unsigned char*, int, int) const;
+    auto addLowScriptRange(unsigned char*, int, int) const;
+    auto getEquivalentScripts(int, int*, int, UErrorCode&) const;
+    auto getFinalCE32(unsigned int) const;
+    auto getFirstPrimaryForGroup(int) const;
+    auto getGroupForPrimary(unsigned int) const;
+    auto getIndirectCE32(unsigned int) const;
+    auto getLastPrimaryForGroup(int) const;
+    auto getScriptIndex(int) const;
+    auto getSingleCE(int, UErrorCode&) const;
+    auto makeReorderRanges(int const*, int, icu::UVector32&, UErrorCode&) const;
+    auto makeReorderRanges(int const*, int, signed char, icu::UVector32&, UErrorCode&) const;
 };

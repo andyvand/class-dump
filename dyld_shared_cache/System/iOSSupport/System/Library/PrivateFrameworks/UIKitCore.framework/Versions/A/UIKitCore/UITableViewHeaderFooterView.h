@@ -54,10 +54,10 @@
     CDUnknownBlockType _configurationUpdateHandler;
 }
 
-+ (double)Repair] [v3] participant did not match other identifiers.;
++ (double);
 + (double);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 

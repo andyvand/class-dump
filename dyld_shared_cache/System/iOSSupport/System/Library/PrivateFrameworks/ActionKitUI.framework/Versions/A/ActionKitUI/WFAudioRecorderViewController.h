@@ -35,13 +35,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (_Bool);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (void)ler:(_Bool)arg1 willShowViewController:animated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) WFAudioRecorder *audioRecorder; // @synthesize audioRecorder=_audioRecorder;

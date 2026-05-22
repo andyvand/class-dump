@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     id <CKPinnedConversationContactItem> _pinnedConversationContactItem;
 }
 
-- (void)eWidthConstraint;
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)`;
+- (id);
+- (void)ation>"16;
+- (void)¬;
 
 // Remaining properties
 @property(retain, nonatomic) id <CKPinnedConversationContactItem> pinnedConversationContactItem; // @synthesize pinnedConversationContactItem=_pinnedConversationContactItem;

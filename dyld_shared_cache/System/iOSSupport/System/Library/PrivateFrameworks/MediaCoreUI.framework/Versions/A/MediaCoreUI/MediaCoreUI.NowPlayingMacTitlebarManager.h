@@ -8,6 +8,8 @@
 
 @interface MediaCoreUI.NowPlayingMacTitlebarManager
 {
+    MISSING_TYPE *getCurrentScene;
+    MISSING_TYPE *subscriptions;
     MISSING_TYPE *stashedConfiguration;
 }
 

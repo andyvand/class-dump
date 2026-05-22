@@ -15,9 +15,10 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PRTimeFontConfiguration *fontConfiguration; // @synthesize fontConfiguration=_fontConfiguration;

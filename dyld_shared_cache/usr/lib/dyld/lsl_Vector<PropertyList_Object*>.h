@@ -4,10 +4,7 @@
 
 class lsl::Vector<PropertyList::Object*> {
 public: // (access info unavailable from symbols alone)
-    Vector(lsl::Vector<PropertyList::Object*> const&);
-    Vector(lsl::Vector<PropertyList::Object*> const&) (.cold.1);
-    operator=(lsl::Vector<PropertyList::Object*> const&);
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
-    resize(unsigned long long);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
+    auto resize(unsigned long long);
 };

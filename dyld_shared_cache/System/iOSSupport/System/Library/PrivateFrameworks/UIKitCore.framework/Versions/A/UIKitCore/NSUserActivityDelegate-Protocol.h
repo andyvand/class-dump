@@ -5,5 +5,8 @@
 //
 
 @protocol NSUserActivityDelegate
+
+@optional
+- (void)nCompensation"b1"overscanCompensation"b2"wantsWideContentMargins"b1"queriedDeviceContentMargins"b1"hasCalculatedPointsPerInch"b1"rightHandDrive"b1"carPlayNightModeEnabled"b1"isUpdatingInterfaceOrientation"b1"isContinuityDisplay"b1};
 @end
 

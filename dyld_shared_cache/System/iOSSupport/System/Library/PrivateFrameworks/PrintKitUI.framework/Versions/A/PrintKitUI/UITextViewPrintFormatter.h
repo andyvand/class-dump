@@ -27,17 +27,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void)1ð1b0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool calculatingUsedRects; // @synthesize calculatingUsedRects=_calculatingUsedRects;

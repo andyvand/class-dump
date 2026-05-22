@@ -34,12 +34,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
-- (id)
-× ;
-- (void)qf°1B0@ù
-× ;
+- (id);
+- (void);
+- (void)} ${entities} from pinned notes;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *currentVariables; // @synthesize currentVariables=_currentVariables;

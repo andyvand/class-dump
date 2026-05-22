@@ -26,7 +26,7 @@
 - (id);
 - (void);
 - (void);
-- (void)	ka;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *combinedString; // @synthesize combinedString=_combinedString;

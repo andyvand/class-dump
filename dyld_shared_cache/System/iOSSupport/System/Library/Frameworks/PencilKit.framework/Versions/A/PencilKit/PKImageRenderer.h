@@ -18,7 +18,7 @@
 
 + (struct CGImage *);
 + (struct CGImage *);
-+ (void)5;
++ (void);
 - (void);
 - (void);
 - (void);
@@ -46,20 +46,20 @@
 - (id);
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (long long);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void);
 - (double);
-- (_Bool)r/CirclesStoppedEnvelopeV1.swift;
-- (void);
-- (void);
 - (void);
 - (struct CGSize);
+- (id);
+- (_Bool);
 - (void);
-- (void)g>"32@0:8@"UIDropInteraction"16@"UIDragItem"24 /* Error: Ran out of types for this method. */;
+- (void);
+- (void)¨Àxp;
 
 // Remaining properties
 @property(nonatomic) long long cancelCount; // @synthesize cancelCount=_cancelCount;

@@ -4,7 +4,7 @@
 
 class icu::Replaceable {
 public: // (access info unavailable from symbols alone)
-    clone() const;
-    hasMetaData() const;
+    auto clone() const;
+    auto hasMetaData() const;
     ~Replaceable();
 };

@@ -14,12 +14,12 @@
 + (id);
 - (void);
 - (id);
-- (long long);
 - (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long countOfRecordings; // @dynamic countOfRecordings;

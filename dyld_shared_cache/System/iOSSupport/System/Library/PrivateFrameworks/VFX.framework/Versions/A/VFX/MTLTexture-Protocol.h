@@ -7,9 +7,12 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
-- (unsigned long long)É;
+- (id <MTLTexture>)ÐÑ¤ÒüPÓ`È;
 - (unsigned long long);
-- (unsigned long long)p&ÿ;
+- (id <MTLBuffer>)eapAllocator;
+- (unsigned long long)ÿ¹ñ;
+- (CDStruct_a06f635e)ÌÐÐ>@k¦>Ý|?pï<ºÀ@=5c>>?=»ü>r>n>)|À9S>âçg?±÷=GÔ>x¹<?ÍÈÈ>9>;
+- (unsigned long long)?îè>µ3?/kÊ¾!?R§>ª1?mäÊ¾­K?F|¯>Ñ@0?rË¾ó?L¸>	Ä/?GÿË¾?;ÂÁ>Ó0?mÌ¾³µ?ÂÛË>¹P1?:æÌ¾ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _Bool allowGPUOptimizedContents;
@@ -42,7 +45,7 @@
 @property(readonly) unsigned long long sampleCount;
 @property(readonly, getter=isShareable) _Bool shareable;
 @property(readonly) long long sparseTextureTier;
-@property(readonly, nonatomic) struct swizzle;
+@property(readonly, nonatomic) CDStruct_a06f635e swizzle;
 @property(readonly) unsigned long long tailSizeInBytes;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R

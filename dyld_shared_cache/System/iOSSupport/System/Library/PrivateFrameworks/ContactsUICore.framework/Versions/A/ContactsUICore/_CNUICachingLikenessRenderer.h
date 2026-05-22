@@ -41,15 +41,15 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)0y;
-- (void);
+- (void)ef: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarCacheChangeListener *changeHistoryListener; // @synthesize changeHistoryListener=_changeHistoryListener;

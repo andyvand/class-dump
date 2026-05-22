@@ -8,9 +8,6 @@
 
 @protocol UNNotificationContentExtension
 
-@optional
-- (UIColor *)";
-
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect mediaPlayPauseButtonFrame;
 // Preceding property had unknown attributes: ?

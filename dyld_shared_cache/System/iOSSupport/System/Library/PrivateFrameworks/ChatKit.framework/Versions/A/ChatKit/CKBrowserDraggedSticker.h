@@ -15,14 +15,14 @@
 }
 
 - (id);
-- (id);
-- (double);
-- (double);
-- (struct CGRect);
 - (id);
-- (void);
-- (id)QÃÐ1¢!0@ù
+- (double);
+- (id);
+- (double);
+- (struct CGRect);
+- (id)1Â0@ù
 × ;
+- (void)IßiáF;
 
 // Remaining properties
 @property(readonly, nonatomic) CKAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;

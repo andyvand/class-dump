@@ -8,15 +8,22 @@
 
 @interface PromotedContentUI.ModuleFactory
 {
+    MISSING_TYPE *adCandidateIDGenerator;
     MISSING_TYPE *birthYearSource;
+    MISSING_TYPE *birthYearSourceAnalytics;
     MISSING_TYPE *clock;
+    MISSING_TYPE *instanceIDGenerator;
     MISSING_TYPE *localConfiguration;
-    MISSING_TYPE *policyInstrumentation;
     MISSING_TYPE *regulatedAppAdAnalytics;
+    MISSING_TYPE *storefrontIDSource;
     MISSING_TYPE *xpcAdRequester;
     MISSING_TYPE *toroIdProvider;
     MISSING_TYPE *policyEngine;
+    MISSING_TYPE *metricHelper;
+    MISSING_TYPE *fpdiPoolManager;
+    MISSING_TYPE *timer;
     MISSING_TYPE *appStore;
+    MISSING_TYPE *policyInstrumentation;
     MISSING_TYPE *isColdStart;
     MISSING_TYPE *greenTeaLogger;
     MISSING_TYPE *locationManager;
@@ -32,9 +39,11 @@
     MISSING_TYPE *routingInfoProvider;
     MISSING_TYPE *rotatingIdentifierProvider;
     MISSING_TYPE *jsVersionProvider;
-    MISSING_TYPE *deviceCapabilityBuilder;
+    MISSING_TYPE *appAdCapabilities;
+    MISSING_TYPE *poiAdCapabilities;
     MISSING_TYPE *executionEnvironment;
     MISSING_TYPE *trialManager;
+    MISSING_TYPE *enrichmentIdentifierProvider;
 }
 
 @end

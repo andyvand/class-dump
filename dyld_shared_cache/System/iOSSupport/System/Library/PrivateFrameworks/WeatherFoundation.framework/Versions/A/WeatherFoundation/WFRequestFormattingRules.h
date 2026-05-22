@@ -13,10 +13,10 @@
 
 + (_Bool);
 - (long long);
-- (_Bool)6";
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFSettings> settings; // @synthesize settings=_settings;

@@ -42,21 +42,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
+- (struct CGSize);
 - (id);
 - (id);
 - (struct CGSize);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGSize);
 - (struct __CVBuffer *);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *alphaMask; // @synthesize alphaMask=_alphaMask;

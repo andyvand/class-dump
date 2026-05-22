@@ -10,14 +10,14 @@ __attribute__((visibility("hidden")))
     id _delegate;
 }
 
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)<;
+- (void)tBackBarButtonItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;

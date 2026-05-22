@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)ected source view controller (%@) for dismissal animation;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

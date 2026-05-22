@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (struct __DDResult *);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

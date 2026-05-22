@@ -40,91 +40,96 @@
     id <NSObject> _dragSource;
 }
 
-- (void)#;
 - (CDUnknownBlockType);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType)NULL;
-- (void);
-- (_Bool)dCardDAVUseSSL;
-- (void);
-- (void);
-- (id);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (_Bool)ileReferenceDataV1 failed to allocate fileReferenceData.;
-- (void);
-- (void);
-- (void)MPChangeShuffleModeCommand";
-- (id)tist %@;
-- (_Bool)d MediaPlayer bundle;
-- (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ò;
-- (_Bool);
-- (CDUnknownBlockType)Ð1¢!0@ù
-× ;
-- (id)°!GùÑÂ°1¢!0@ù
-× ;
-- (void);
-- (_Bool)
-× ;
-- (CDUnknownBlockType)t!,FùÈÐ1¢!0@ù
-× ;
-- (struct CGPoint)
-× ;
-- (void)ÑËÐ1¢!0@ù
-× ;
-- (void)@ù
-× ;
-- (void)p";
-- (void)@0:(_Bool)arg1 8@"UIMultiSelectInteraction"16{CGPoint=dd}24;
-- (struct CGPoint):(id)arg1 8@"<_DUIServerSessionRemoteDragManipulation>"16I24;
-- (void)ate";
-- (void)0:(long long)arg1 8@"UIScrollView"16{CGPoint=dd}24;
-- (id)setRetargetingContainerView: /* Error: Ran out of types for this method. */;
-- (_Bool)rizontalDivider:(id)arg1;
-- (id):inTextContainer:rectCount: /* Error: Ran out of types for this method. */;
-- (void)ngleTask:(id)arg1 breadcrumb: /* Error: Ran out of types for this method. */;
-- (void)arTranslation;
-- (_Bool)iffness;
-- (CDUnknownBlockType)anWithTranslation:executionContext: /* Error: Ran out of types for this method. */;
-- (id)erTransition;
-- (void)ns:(id)arg1;
-- (void)ng:(_Bool)arg1;
-- (_Bool)esolution;
-- (id)rColorTransformer;
-- (_Bool)actionWithContentViewController:(id)arg1 style: /* Error: Ran out of types for this method. */;
-- (_Bool)roundToContentInsets;
 - (void);
 - (struct CGPoint);
-- (void)V_popupMenu;
-- (void)gSetDownAnimationTarget>",W,N,G_sourceVisualTarget,S_setSourceVisualTarget:(id)arg1 ,V_sourceVisualTarget;
-- (void)der;
-- (void),ÁÂ,ÄhÅ;
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
 - (_Bool);
-- (struct CGPoint)8;
-- (void)d) when there are only %ld items in section %ld. Collection view:(id)arg1 %@. This will become an assert in a future version.;
-- (void)0, or UITableViewAutomaticDimension.;
-- (_Bool);
-- (id)í3y+í3y_Tí3yþ÷;
-- (void)nuPresentation;
-- (void)eyboardInputCandidate(void);
-- (_Bool)ilingBar=%p view=%p;
-- (id)on=%@, target=<%@ %p>);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (struct CGPoint);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)@ù
+× ;
+- (void)
+× ;
+- (void)ù±\1Â0@ù
+× ;
+- (void)Â0@ù
+× ;
+- (id)°!4Eù1`ð1Â0@ù
+× ;
+- (void)ð!LGùQaÐ1Â0@ù
+× ;
+- (long long)× ;
+- (void)1Â0@ù
+× ;
+- (void)@ù
+× ;
+- (_Bool)
+× ;
+- (void)á
+!¬Cùg1Â0@ù
+× ;
+- (_Bool)Point=dd}48B64;
+- (struct CGPoint)r";
+- (id)d:withIndexPath: /* Error: Ran out of types for this method. */;
+- (void):(long long)arg1 to: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (id)eValueMode: /* Error: Ran out of types for this method. */;
+- (_Bool)andleActionSelectionGestureRecognizer:(id)arg1;
+- (_Bool)rabberLumaTrackingEnabled;
+- (CDUnknownBlockType)me:additionalContentInset:zIndex: /* Error: Ran out of types for this method. */;
+- (id)idth;
+- (_Bool)wController;
+- (void)keningTintMaskViewContainer;
+- (void)indow:(CDUnknownBlockType)arg1 <%@:%p>; keyWindowCandidate:<%@:%p>; windowScene:%p; scene identity:%@ /* Error: Ran out of types for this method. */;
+- (void)rent platform.;
+- (void);
+- (void);
+- (_Bool)urceDisplay;
+- (id);
+- (void)rface orientation.;
+- (void)ist;
+- (void)ystem/Library/PrivateFrameworks/TextInputUI.framework;
+- (void)x.floatValue;
+- (void)ned at this point;
+- (id)eferredSize *const __strong, _UICollectionLayoutItemSolver *const __strong);
+- (id);
+- (void)y¹;
+- (void)Í? Ï?PPPPPPÐ?î?àßßßßßï?À¿¿¿¿¿ï?á?ø÷÷÷÷÷ç?è?ÙØØØØØè?ü©Ñ>î|>¦¾;
+- (void)oundConfiguration;
+- (_Bool);
+- (struct CGPoint){þ¥33Àpþ33;
+- (_Bool);
+- (id)f_;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIHyperOutOfProcessViewAnimator *animator; // @synthesize animator=_animator;

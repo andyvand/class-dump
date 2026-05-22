@@ -14,13 +14,13 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
-- (id)B;
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)>"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;

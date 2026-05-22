@@ -24,12 +24,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id)rs:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id)ertiesByPropertyIdentifier]_block_invoke;
+- (void) (WFAppRatio);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *contentItems; // @synthesize contentItems=_contentItems;

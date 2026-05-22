@@ -4,6 +4,7 @@
 
 class ctu::SharedSynchronizable<ctu::XpcClient> {
 public: // (access info unavailable from symbols alone)
-    make_shared_ptr<CellularUsagePolicyClient>(CellularUsagePolicyClient*)::'lambda'(CellularUsagePolicyClient*);
-    make_shared_ptr<CellularUsagePolicyClient>(CellularUsagePolicyClient*)::'lambda'(CellularUsagePolicyClient*)::operator()(CellularUsagePolicyClient*) const::'lambda'(void*)::__invoke(void*);
+    std::__1::shared_ptr<CellularUsagePolicyClient> make_shared_ptr<CellularUsagePolicyClient>(CellularUsagePolicyClient*)::'lambda'(CellularUsagePolicyClient*)::operator()(CellularUsagePolicyClient*) const::'lambda'(void*)::__invoke(void*);
+    typeinfo for std::__1::shared_ptr<CellularUsagePolicyClient> make_shared_ptr<CellularUsagePolicyClient>(CellularUsagePolicyClient*)::'lambda'(CellularUsagePolicyClient*);
+    typeinfo name for std::__1::shared_ptr<CellularUsagePolicyClient> make_shared_ptr<CellularUsagePolicyClient>(CellularUsagePolicyClient*)::'lambda'(CellularUsagePolicyClient*);
 };

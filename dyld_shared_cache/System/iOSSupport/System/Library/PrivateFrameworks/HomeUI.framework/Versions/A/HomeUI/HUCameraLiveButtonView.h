@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)characteristics found for alarm item:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AVBackgroundView *avBackground; // @synthesize avBackground=_avBackground;

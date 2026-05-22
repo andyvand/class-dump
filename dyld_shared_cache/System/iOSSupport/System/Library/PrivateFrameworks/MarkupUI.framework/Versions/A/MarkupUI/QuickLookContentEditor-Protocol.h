@@ -8,11 +8,7 @@
 @protocol QuickLookContentEditorDelegate;
 
 @protocol QuickLookContentEditor
-- (void)c胈;
-- (NSString *)nviteRequest;
-
-@optional
-- (_Bool);
+- (UIView *)nary:toDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canEncryptDocument;

@@ -4,27 +4,27 @@
 
 class std::moneypunct<char, true> {
 public: // (access info unavailable from symbols alone)
-    _M_initialize_moneypunct(int*, char const*);
-    curr_symbol() const;
-    decimal_point() const;
-    do_curr_symbol() const;
-    do_decimal_point() const;
-    do_frac_digits() const;
-    do_grouping() const;
-    do_neg_format() const;
-    do_negative_sign() const;
-    do_pos_format() const;
-    do_positive_sign() const;
-    do_thousands_sep() const;
-    frac_digits() const;
-    grouping() const;
+    auto _M_initialize_moneypunct(int*, char const*);
+    auto curr_symbol() const;
+    auto decimal_point() const;
+    auto do_curr_symbol() const;
+    auto do_decimal_point() const;
+    auto do_frac_digits() const;
+    auto do_grouping() const;
+    auto do_neg_format() const;
+    auto do_negative_sign() const;
+    auto do_pos_format() const;
+    auto do_positive_sign() const;
+    auto do_thousands_sep() const;
+    auto frac_digits() const;
+    auto grouping() const;
+    auto neg_format() const;
+    auto negative_sign() const;
+    auto pos_format() const;
+    auto positive_sign() const;
+    auto thousands_sep() const;
     moneypunct(int*, char const*, unsigned long);
     moneypunct(std::__moneypunct_cache<char, true>*, unsigned long);
     moneypunct(unsigned long);
-    neg_format() const;
-    negative_sign() const;
-    pos_format() const;
-    positive_sign() const;
-    thousands_sep() const;
     ~moneypunct();
 };

@@ -36,40 +36,39 @@
 
 + (id);
 + (id);
-+ (id)T1 with limit %ld, attemptCount %lu;
-+ (id)p>, ;
++ (id);
++ (id);
 + (id);
 + (_Bool);
 - (void);
-- (id)noring deletion for recovered part, recovered %@ after it was deleted %@;
-- (id)verable message part record;
-- (id)teDate:(id)arg1 %@ and messageGUID:(struct UIOffset)arg2 %@ cannot be nil;
-- (id)ly Deleted | Failed reading recoverable message record. deleteDate:(id)arg1 %@ and messageGUID:(struct UIOffset)arg2 %@ cannot be nil;
-- (id)essage zone changes operation %@;
-- (id)essages %@;
-- (double)ce:%@  Matching isSOS:%d  Within Time Interval:%f) - similar to:%@ /* Error: Ran out of types for this method. */;
-- (long long)loud Drive app;
-- (void)tityFetchAttemptFullSync;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
+- (long long);
 - (void);
 - (void);
 - (void);
-- (void)P;
+- (void);
+- (void);
 - (void);
 - (CDStruct_c3b9c2ee);
+- (id);
+- (double);
 - (void);
-- (double)cretionaryOutOfProcess-download;
-- (void)QÃð1¢!0@ù
-× ;
-- (id),?,R,N,GisReplaceAllowed;
-- (id)_UINavigationBarTitleViewOverlayRects;
-- (void)dleValid;
+- (id);
+- (long long);
+- (void)uiringRasterizationAndAlphaHack;
+- (id)ragOrDropAnimationAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)6^B24;
 - (struct CGPoint);
-- (long long)×þ3ÄcþõÖþ3ªµþ;
-- (double)P?i;
-- (void)ÔöAÿW;
-- (double)l;
-- (id)¨]m;
-- (void)c¦×ázn;
+- (void);
+- (double)p;
+- (double)Ë³p;
+- (void)xÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint anchorPoint;

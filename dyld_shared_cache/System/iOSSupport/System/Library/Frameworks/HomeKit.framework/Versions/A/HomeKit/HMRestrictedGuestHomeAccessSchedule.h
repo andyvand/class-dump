@@ -20,19 +20,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)_addRequestIdentifier;
-- (id)e more fetched objects;
+- (id);
+- (void)$;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

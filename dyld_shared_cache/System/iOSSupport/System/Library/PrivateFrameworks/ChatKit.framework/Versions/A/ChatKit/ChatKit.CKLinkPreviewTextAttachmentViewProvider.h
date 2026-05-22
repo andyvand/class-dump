@@ -13,9 +13,10 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (struct CGRect);
+- (void)!àAùQÐ1Â0@ù
+× ;
+- (void)riptBackgroundBalloonAttributes;
 
 @end
 

@@ -4,8 +4,8 @@
 
 class lsl::Lock {
 public: // (access info unavailable from symbols alone)
-    lock();
-    lock() (.cold.1);
-    unlock();
-    unlock() (.cold.1);
+    auto lock();
+    auto lock() (.cold.1);
+    auto unlock();
+    auto unlock() (.cold.1);
 };

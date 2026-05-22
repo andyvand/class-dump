@@ -17,29 +17,29 @@
     id <UIViewSpringAnimationBehaviorDescribing> __overrideSpringAnimationBehavior;
 }
 
-+ (_Bool)û9m;
-- (id)ssion: /* Error: Ran out of types for this method. */;
-- (id):decisionInfo:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)oadChatsWithGroupID:(id)arg1 reply: /* Error: Ran out of types for this method. */;
-- (void)elledMessageWithMessageGUID:(id)arg1 success:cancelType:error: /* Error: Ran out of types for this method. */;
-- (void)knameForHandleID:(id)arg1;
-- (id)tChannelIDPrefix;
-- (id)ForPush;
-- (void)ld;
-- (void)temKind;
-- (_Bool);
++ (_Bool)cc-additional-name;
+- (id);
 - (id);
 - (void);
-- (id)tLessStreaming;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
 - (void);
-- (void)r:(id)arg1 ranges:(CDUnknownBlockType)arg2 decorationPaths:containers: /* Error: Ran out of types for this method. */;
-- (id)argetImpulse:animations:completion: /* Error: Ran out of types for this method. */;
-- (void)Ø(Ù;
-- (void)µÿ^y;
-- (void);
+- (void);
+- (void)1"respondsToDidRecognizeDoubleTap"b1};
+- (_Bool)terIndexes;
+- (void)ents:(id)arg1;
+- (id)rentWhenNotCollapsed;
+- (id)lation;
+- (void)8[;
+- (id)ãX;
+- (void)b;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

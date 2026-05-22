@@ -13,18 +13,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)iqueIdentifier:accessoryName:serviceName:roomName:serviceGroupName:zoneNames:homeName: /* Error: Ran out of types for this method. */;
-+ (void)isherStorage",R,N,V_userStorage;
-+ (void)t
-;
++ (id);
++ (void);
++ (void)ss(void)_block_invoke;
 - (void);
 - (id);
-- (void)64@72;
-- (void)8@"BMAccount"16^@24;
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)ntView;
+- (id);
+- (void)owsNowPlayingApplicationLaunch;
 
 @end
 

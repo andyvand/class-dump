@@ -7,7 +7,7 @@
 @class NSMutableDictionary, OS_dispatch_queue;
 
 @protocol MTLCommandQueueSPI
-- (int);
+- (void)ä ;
 
 @optional
 - (unsigned long long);

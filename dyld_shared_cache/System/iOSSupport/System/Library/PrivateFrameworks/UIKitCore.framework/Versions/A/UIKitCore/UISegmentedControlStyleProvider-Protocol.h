@@ -4,43 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBlurEffect, UIColor, UIFont, UIVibrancyEffect, UIView;
-@protocol UISegmentBezelView, UISegmentProtocol;
+@class UIBlurEffect, UIColor, UIVibrancyEffect, UIView;
+@protocol UISegmentBezelView;
 
 @protocol UISegmentedControlStyleProvider
-- (_Bool);
-- (double)lic}@ Undoing transaction:%{public}@ /* Error: Ran out of types for this method. */;
-- (UIView<UISegmentBezelView> *)°!GùqÅÐ1¢!0@ù
+- (double)Ô!EùQ\ð1Â0@ù
 × ;
-- (double)!¬@ùÈ°1¢!0@ù
+- (_Bool)0@ù
 × ;
-- (_Bool);
-- (UIFont *)1¢!0@ù
+- (double)1Â0@ù
 × ;
-- (UIBlurEffect *)lscreen;
-- (double)FadeTimer;
-- (UIColor *)t:(UIView<UISegmentProtocol> *)arg1;
-- (double)BackgroundView;
-- (UIVibrancyEffect *)eForTopItem:backItem: /* Error: Ran out of types for this method. */;
-- (_Bool)ins;
-- (double)henMinimized;
-- (double)originatingContentOffset;
-- (_Bool)est_allowsForwardingFocusMovementActions,S_uiktest_setAllowsForwardingFocusMovementActions: /* Error: Ran out of types for this method. */;
-- (UIColor *)iewUpdater: /* Error: Ran out of types for this method. */;
-- (UIVibrancyEffect *)¸á& â;
-- (double)RTI manually;
-- (UIVibrancyEffect *)age;
-- (double)ollers;
+- (double)!!Gù1aÐ1Â0@ù
+× ;
+- (_Bool)
+× ;
+- (_Bool)NSString"48q56B64;
+- (_Bool)onEmpty;
+- (double)etry;
+- (UIView<UISegmentBezelView> *)beddedInGuide:insets:identifier: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)electItem:(int)arg1;
+- (double)_heightConstraint;
+- (UIColor *);
+- (_Bool)nsitions;
+- (UIView *)hedCells;
+- (UIView *)gShadow;
+- (UIVibrancyEffect *)ternateAction;
+- (double)V_originalItems;
+- (UIColor *)h¬h";
+- (double)trait collection, layout margins, safe area insets, etc), and will also cause unnecessary performance overhead due to extra layout passes. Make a symbolic breakpoint at UITableViewAlertForLayoutOutsideViewHierarchy to catch this in the debugger and see what caused this to occur, so you can avoid this action altogether if possible, or defer it until the table view has been added to a window. Table view:(int)arg1 %{public}@;
+- (_Bool)ss nib external objects tables for unknown view type %ld;
 
 @optional
-- (_Bool)t sik from data instance;
-- (long long);
-- (UIView *);
-- (UIColor *);
-- (void)ertiaCam.framework/Versions/A/InertiaCam;
-- (double)
-× ;
-- (void)disableAnimation;
+- (void)@?0@"UITab"8;
+- (void)onMode;
+- (_Bool)easeFontSizeChange;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool animateHighlightingSelectionByDefault;

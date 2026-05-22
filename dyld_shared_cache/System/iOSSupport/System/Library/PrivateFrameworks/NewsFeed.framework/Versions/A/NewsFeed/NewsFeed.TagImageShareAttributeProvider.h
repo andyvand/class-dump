@@ -10,7 +10,10 @@
 
 - (void);
 - (void);
-- (id)nB;
+- (void);
+- (void);
+- (void);
+- (id);
 
 @end
 

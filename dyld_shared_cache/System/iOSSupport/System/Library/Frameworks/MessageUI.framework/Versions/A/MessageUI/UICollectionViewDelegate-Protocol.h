@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView, UITargetedPreview;
-
 @protocol UICollectionViewDelegate
 
 @optional
-- (UITargetedPreview *);
-- (void)alloutQueue;
-- (void)hTestOptions:(UICollectionView *)arg1;
-- (void)thorizationPublicKeyCredentialRegistration;
-- (void);
+- (_Bool)orona;
 @end
 

@@ -13,14 +13,14 @@
 }
 
 + (id);
-+ (id)Product;
++ (id)dismissedCameraUpgradeOfferBanner;
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)Required parameters not available. Not updating the action set from response. [Home:%@], [addActionSet :%@], [actionSetUUID:%@], [actionSetType:%@] /* Error: Ran out of types for this method. */;
-- (id)èÕÿºr;
+- (id);
+- (void)aracteristicMetadata;
+- (id)}@Failed to decode setting language value due to invalid payload:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

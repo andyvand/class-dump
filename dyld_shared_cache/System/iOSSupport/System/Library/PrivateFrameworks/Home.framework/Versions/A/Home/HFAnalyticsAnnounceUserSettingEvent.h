@@ -40,11 +40,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)Node"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *announceEnabledForUser; // @synthesize announceEnabledForUser=_announceEnabledForUser;

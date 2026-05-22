@@ -7,7 +7,6 @@
 @class MISSING_TYPE;
 
 @protocol PTRenderState
-- (int)terpolateRGBWeightSourceYUVDestYUV[colorTransferFunctionToLinear];
 
 // Remaining properties
 @property(readonly) CDStruct_8e0628e6 cameraIntrinsicMatrix;

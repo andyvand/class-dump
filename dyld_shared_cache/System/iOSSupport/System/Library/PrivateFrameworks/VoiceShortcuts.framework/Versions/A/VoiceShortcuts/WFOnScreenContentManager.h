@@ -20,13 +20,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (struct os_unfair_lock_s);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) FBSDisplayLayoutMonitor *layoutMonitor; // @synthesize layoutMonitor=_layoutMonitor;

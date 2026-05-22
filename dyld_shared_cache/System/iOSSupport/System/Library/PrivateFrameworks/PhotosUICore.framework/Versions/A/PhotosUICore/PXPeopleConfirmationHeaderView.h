@@ -18,14 +18,14 @@
 + (id);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)Ð;
-- (id)}6;
+- (id)ÿ;
+- (id)[%{public}@]:Setting 'authentication did fail or cancelled' flag to %@ /* Error: Ran out of types for this method. */;
+- (void)red;
+- (void);
+- (id)a;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXPerson> person; // @synthesize person=_person;

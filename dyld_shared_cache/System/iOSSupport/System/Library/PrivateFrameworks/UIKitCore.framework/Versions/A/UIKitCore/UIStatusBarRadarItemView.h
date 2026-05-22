@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (double)ollmentControllerServiceDelegate>",R,N,V_serviceDelegate;
+- (double);
 - (id);
 - (id);
-- (long long)TåÖT"\;
+- (long long)Pîh;
 
 @end
 

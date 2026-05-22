@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandRequest, NSArray;
+@class NSArray;
 
 @protocol MPCPlayerSeekCommand
-- (NSArray *);
-- (NSArray *)works/Foundation.framework/Versions/C/Foundation;
-- (MPCPlayerCommandRequest *)unes;
-- (MPCPlayerCommandRequest *).apple.AppleMediaServices.accountmediatype.itunes;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *preferredBackwardJumpIntervals;

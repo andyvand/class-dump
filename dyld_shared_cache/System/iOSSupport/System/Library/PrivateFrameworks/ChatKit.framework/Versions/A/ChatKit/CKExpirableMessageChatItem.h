@@ -15,7 +15,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)y§V¬yqÃ«G«¾«yÇ«SgGG_SSAdCQo__ÚÎ«yAD_ADtGACQo_;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPlayed;

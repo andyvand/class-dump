@@ -18,8 +18,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)em generateFileRepresentation:options:forType:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;

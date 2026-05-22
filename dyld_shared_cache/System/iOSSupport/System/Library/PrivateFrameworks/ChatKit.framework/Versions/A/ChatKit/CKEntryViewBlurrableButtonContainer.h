@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     double _blurRadius;
 }
 
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id);
-- (void)athNSCacheKey;
 - (double);
 
 // Remaining properties

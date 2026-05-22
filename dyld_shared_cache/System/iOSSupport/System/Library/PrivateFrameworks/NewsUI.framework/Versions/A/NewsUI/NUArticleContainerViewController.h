@@ -19,7 +19,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -33,14 +33,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id);
 - (struct UIEdgeInsets);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void)6@?0@"<TFContext>"8;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

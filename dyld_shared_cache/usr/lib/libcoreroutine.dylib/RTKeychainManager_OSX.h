@@ -10,7 +10,7 @@
 {
 }
 
-- (void)lu, mode, %lu, error, %@, latency, %.2f<---------;
+- (void);
 
 @end
 

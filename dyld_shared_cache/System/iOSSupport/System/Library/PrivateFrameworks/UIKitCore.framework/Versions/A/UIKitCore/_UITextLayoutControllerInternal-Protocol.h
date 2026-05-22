@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextRange, _UITextViewSearchableObject;
+@class _UITextViewSearchableObject;
 
 @protocol _UITextLayoutControllerInternal
-- (NSTextRange *)Insets=dddd}32;
-- (_UITextViewSearchableObject *)coration view with an invalid section index. View:%@; view attributes:%@; collection view:%@; number of sections:%ld /* Error: Ran out of types for this method. */;
+- (_UITextViewSearchableObject *)iew does not support multi-level capture dependents;
 @end
 

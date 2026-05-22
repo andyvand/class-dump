@@ -18,15 +18,16 @@ __attribute__((visibility("hidden")))
     long long _keyboardAnimationType;
 }
 
-+ (id)rdShortcut"8Q16^B24;
-- (void);
-- (void)R;
-- (void)dADMapUIDAttribute;
-- (void);
++ (id);
+- (id);
 - (long long);
-- (long long)'`¥;
-- (id)W¼`;
-- (void)µêþÂ¬;
+- (void);
+- (void)ù
+× ;
+- (void);
+- (void)WithMessage:(long long)arg1 initiatedByFrame: /* Error: Ran out of types for this method. */;
+- (long long)olor;
+- (void)_UIListSectionSpacingStyle;
 
 // Remaining properties
 @property(nonatomic) long long keyboardAnimationType; // @synthesize keyboardAnimationType=_keyboardAnimationType;

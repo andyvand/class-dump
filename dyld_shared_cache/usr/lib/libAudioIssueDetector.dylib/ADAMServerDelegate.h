@@ -21,23 +21,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void)˿;
-- (_Bool);
-- (id);
-- (void)R$;
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)otocol: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 
 // Remaining properties

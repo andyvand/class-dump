@@ -11,11 +11,11 @@
     MISSING_TYPE *_manifest;
 }
 
-+ (id)5;
++ (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)uest ID %{public}s should continue to wait;
 
 @end
 

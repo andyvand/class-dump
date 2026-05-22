@@ -30,8 +30,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType optionsTransformBlock; // @synthesize optionsTransformBlock=_optionsTransformBlock;

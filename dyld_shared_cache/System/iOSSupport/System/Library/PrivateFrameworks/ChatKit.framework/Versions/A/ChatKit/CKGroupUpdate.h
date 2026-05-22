@@ -13,12 +13,12 @@
 }
 
 - (void);
-- (id)note because its account is not authenticated — skipping {note:(long long)arg1 %@};
+- (id);
 - (long long);
 - (void);
 - (id);
-- (void);
-- (id);
+- (id);
+- (void)ÿÿ;
 
 // Remaining properties
 @property(nonatomic) long long groupUpdateType; // @synthesize groupUpdateType=_groupUpdateType;

@@ -12,8 +12,8 @@
 
 + (_Bool);
 - (void);
-- (void);
 - (id);
+- (void)Units (WFFileSizeIncludeUnits);
 
 @end
 

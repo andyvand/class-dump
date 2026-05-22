@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (id)PF;
-- (int)Components;
+- (id);
+- (int);
 
 @end
 

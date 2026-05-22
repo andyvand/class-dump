@@ -4,19 +4,19 @@
 
 class std::__timepunct<char> {
 public: // (access info unavailable from symbols alone)
-    _M_am_pm(char const**) const;
-    _M_am_pm_format(char const*) const;
-    _M_date_formats(char const**) const;
-    _M_date_time_formats(char const**) const;
-    _M_days(char const**) const;
-    _M_days_abbreviated(char const**) const;
-    _M_initialize_timepunct(int*);
-    _M_months(char const**) const;
-    _M_months_abbreviated(char const**) const;
-    _M_put(char*, unsigned long, char const*, tm const*) const;
-    _M_time_formats(char const**) const;
     __timepunct(int*, char const*, unsigned long);
     __timepunct(std::__timepunct_cache<char>*, unsigned long);
     __timepunct(unsigned long);
+    auto _M_am_pm(char const**) const;
+    auto _M_am_pm_format(char const*) const;
+    auto _M_date_formats(char const**) const;
+    auto _M_date_time_formats(char const**) const;
+    auto _M_days(char const**) const;
+    auto _M_days_abbreviated(char const**) const;
+    auto _M_initialize_timepunct(int*);
+    auto _M_months(char const**) const;
+    auto _M_months_abbreviated(char const**) const;
+    auto _M_put(char*, unsigned long, char const*, tm const*) const;
+    auto _M_time_formats(char const**) const;
     ~__timepunct();
 };

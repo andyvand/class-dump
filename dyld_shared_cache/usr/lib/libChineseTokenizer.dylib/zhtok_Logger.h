@@ -5,13 +5,14 @@
 class zhtok::Logger {
 public: // (access info unavailable from symbols alone)
     Logger();
-    areLoggingTypesEnabled(unsigned long, bool) const;
-    flush();
-    getLogger();
-    getLogger()::singleton;
-    isLoggingTypeEnabled(zhtok::Logger::LoggingType) const;
-    isLoggingTypeEnabledForDebug(zhtok::Logger::LoggingType) const;
-    log(unsigned long, char const*, ...);
-    log(zhtok::Logger::LoggingType, char const*, ...);
-    logErrorMessage(char const*, ...);
+    auto areLoggingTypesEnabled(unsigned long, bool) const;
+    auto flush();
+    auto getLogger();
+    auto getLogger()::singleton;
+    auto isLoggingTypeEnabled(zhtok::Logger::LoggingType) const;
+    auto isLoggingTypeEnabledForDebug(zhtok::Logger::LoggingType) const;
+    auto log(unsigned long, char const*, ...);
+    auto log(zhtok::Logger::LoggingType, char const*, ...);
+    auto logErrorMessage(char const*, ...);
+    guard variable for getLogger()::singleton;
 };

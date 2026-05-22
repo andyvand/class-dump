@@ -17,17 +17,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)"16@"NSString"24@?<v@?Q>32;
-- (void)è
-ì$p
-à	(;
-- (void)_öué}y_Qÿÿ_AdE}tGG;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)	
+;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

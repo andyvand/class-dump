@@ -7,11 +7,9 @@
 @class NSArray;
 
 @protocol _TtP8MapsSync21MapsSyncStoreDelegate_
-- (void)URL:(NSArray *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (NSArray *)× ;
 
 @optional
-- (void);
+- (void)dDestinationHome;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *storeSubscriptionTypes;

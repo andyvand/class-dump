@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)pù¶g	;
+- (void)oreDidChange;
+- (id)1;
 
 // Remaining properties
 @property(nonatomic, retain) id <MUDynamicButtonCellModel> viewModel; // @synthesize viewModel;

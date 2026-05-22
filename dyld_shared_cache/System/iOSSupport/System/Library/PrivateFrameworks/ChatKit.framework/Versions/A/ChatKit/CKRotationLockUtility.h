@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     UIWindow *_lockedWindow;
 }
 
-- (void)PassphraseManager",&,N,V_passphraseManager;
-- (void);
-- (id)otesUI28PersistedThumbnailDescribingP;
+- (void);
+- (void);
 - (id);
 - (void);
+- (id);
 - (void);
 
 // Remaining properties

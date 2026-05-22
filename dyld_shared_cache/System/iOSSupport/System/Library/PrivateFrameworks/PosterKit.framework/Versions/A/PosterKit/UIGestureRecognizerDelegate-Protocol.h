@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer;
-
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)romTitledViewController:(UIGestureRecognizer *)arg1;
-- (_Bool)T@"<UIScenePresenter>",R,N,V_scenePresenter;
+- (_Bool)¡¨Ð!`DùÑñð1â
+0@ù
+× ;
 @end
 

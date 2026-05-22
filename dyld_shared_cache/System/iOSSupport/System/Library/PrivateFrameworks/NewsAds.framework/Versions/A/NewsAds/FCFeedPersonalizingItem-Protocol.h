@@ -7,19 +7,6 @@
 @class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
 
 @protocol FCFeedPersonalizingItem
-- (NSDate *)A;
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)ressingConditionalStylesCellID: /* Error: Ran out of types for this method. */;
-- (_Bool)ingKeys;
-- (NSString *);
-- (NSArray *)rogress"16^B24;
-- (NSString *)¦¡ÿÿÍÿÿ;
-
-@optional
-- (_Bool)D ;
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *);
-- (_Bool);
-- (_Bool);
-- (NSString *)ôÿÿÿ 6ÿÿ@¤ûÿà;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isANF) _Bool anf;

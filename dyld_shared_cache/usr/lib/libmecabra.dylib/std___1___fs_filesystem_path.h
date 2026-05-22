@@ -4,6 +4,6 @@
 
 class std::__1::__fs::filesystem::path {
 public: // (access info unavailable from symbols alone)
-    __filename() const;
-    __parent_path() const;
+    auto __filename() const;
+    auto __parent_path() const;
 };

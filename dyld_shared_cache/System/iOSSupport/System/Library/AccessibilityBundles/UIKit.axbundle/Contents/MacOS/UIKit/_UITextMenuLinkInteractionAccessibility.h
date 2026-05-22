@@ -10,10 +10,10 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (id);
+- (id)n class:(id)arg1 %@;
 
 @end
 

@@ -7,7 +7,7 @@
 @class NSArray, NSString;
 
 @protocol AVTAvatarAttributeEditorSectionSupplementalPicker
-- (NSString *)qi<);
+- (NSString *)ght"d}};
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *choices;

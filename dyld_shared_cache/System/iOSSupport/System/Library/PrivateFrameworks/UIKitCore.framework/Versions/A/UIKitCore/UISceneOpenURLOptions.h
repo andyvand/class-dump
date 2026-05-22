@@ -18,21 +18,22 @@
     long long _contentOwner;
 }
 
-+ (id)× ;
-+ (id)enuListView";
-- (unsigned long long);
-- (id)eturn receipt for file signature %s;
++ (id);
++ (id)Kit20ScrollEdgeEffectViewP33_A8A62288E15893CDC14B9FB558CFED1E15ObservableState;
+- (id);
+- (id);
 - (_Bool);
 - (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (long long)bÐ1Â0@ù
+× ;
+- (id)sualModeManager";
+- (_Bool)aterialView;
+- (_Bool)aTime;
+- (id)CdFDG;
 - (void);
-- (_Bool)Ô ;
-- (id)ngedMaximumBackButtonWidth:(id)arg1;
-- (id)tion;
-- (_Bool)ons;
-- (id),V__leadingBackgroundView;
-- (id)kdropViewSettingsDark;
-- (long long);
-- (id)ionStateKeyP;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _contentOwner; // @synthesize _contentOwner;

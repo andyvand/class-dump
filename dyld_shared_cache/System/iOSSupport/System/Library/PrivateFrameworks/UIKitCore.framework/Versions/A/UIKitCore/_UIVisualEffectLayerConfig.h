@@ -13,14 +13,14 @@
     UIColor *_fillColor;
 }
 
-+ (id)d passed to transferGUIDOfRecord %@;
-- (void)ngth.;
-- (void);
-- (id)`ÿ¿¹;
-- (void)traitCollectionWithInteractionModel:(id)arg1;
-- (double)imeZoneNameForTimeZoneName: /* Error: Ran out of types for this method. */;
-- (id)nerSize:withXOrigin: /* Error: Ran out of types for this method. */;
-- (id)blic}@;
++ (id);
+- (id);
+- (void);
+- (void)Ô ;
+- (double)groundEffect;
+- (id)erActivity_SourceApplication;
+- (id)Impl _invalidateLayoutPerformingTransitionAlongsideTransitionCoordinator:] /* Error: Ran out of types for this method. */;
+- (void)7Sg;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;

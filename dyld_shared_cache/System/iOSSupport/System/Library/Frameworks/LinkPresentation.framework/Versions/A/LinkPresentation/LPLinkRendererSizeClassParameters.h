@@ -19,33 +19,33 @@
     double _mediaFixedAspectRatio;
 }
 
-+ (_Bool)back;
-- (void);
-- (void);
-- (void);
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)	;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool)R ;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (double);
 - (double);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)ionsMenu;
-- (void)arBackgroundColor;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
 - (id);
 
 // Remaining properties

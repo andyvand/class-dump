@@ -7,9 +7,6 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)J/;
-- (_Bool);
-- (_Bool)`è;
-- (_Bool)ject;
+- (_Bool)derController",&,N,V__windowFirstResponderController;
 @end
 

@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)nRegistrar;
-- (double)DisplayTypeItalic;
-- (struct CGSize)s being visually occluded by the following items:(struct CGSize)arg1;
-- (struct CGRect)4;
+- (double);
+- (_Bool);
+- (struct CGRect);
+- (struct CGSize)PáþrJ×ðÂ];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

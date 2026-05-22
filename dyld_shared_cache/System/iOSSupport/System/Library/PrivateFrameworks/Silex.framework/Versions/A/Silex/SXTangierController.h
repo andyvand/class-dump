@@ -50,7 +50,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -85,13 +85,13 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (id)W;
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void)/;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -108,26 +108,26 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void);
+- (void);
+- (struct CGRect);
 - (struct os_unfair_lock_s);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void)eaturePrior;
 - (id);
-- (id)q£Ð1¢!0@ù
+- (void)
 × ;
-- (id)&,N,V_contentView;
-- (struct CGRect)llViewDataSource;
-- (void)nController;
-- (void);
+- (void)nentLayoutMargins;
+- (void)",R,N,V_componentController;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

@@ -5,9 +5,9 @@
 //
 
 @protocol _UITouchForceObservationMessageReading
-- (double);
-- (_Bool)seTouchedPage;
-- (struct CGPoint)currentTouchState;
+- (_Bool)rSpace=}20@0:8B16 /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ÿ;
+- (double)ng;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint centroid;

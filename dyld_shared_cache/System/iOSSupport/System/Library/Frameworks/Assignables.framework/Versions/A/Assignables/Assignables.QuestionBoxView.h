@@ -32,20 +32,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 - (void);
-- (id);
 - (id);
 
 // Remaining properties

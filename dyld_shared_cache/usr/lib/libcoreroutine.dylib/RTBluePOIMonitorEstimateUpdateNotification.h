@@ -18,12 +18,11 @@
 
 - (id);
 - (id);
-- (void);
-- (id)ndorData;
-- (id);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (id);
+- (id);
+- (void)ate,%@,nextTransitionStartDate,%@,error,%@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accessPoints; // @synthesize accessPoints=_accessPoints;

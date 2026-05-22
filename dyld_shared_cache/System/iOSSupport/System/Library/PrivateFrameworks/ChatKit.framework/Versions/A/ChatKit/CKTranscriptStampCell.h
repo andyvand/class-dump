@@ -19,29 +19,29 @@
 + (id);
 + (id);
 - (_Bool);
-- (_Bool)ô;
-- (id)ation:options: /* Error: Ran out of types for this method. */;
-- (void)CharacterRange:(_Bool)arg1;
-- (void)balVirtualMathNotesFolder;
-- (void)hecker;
-- (void)edString:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (_Bool)are;
+- (_Bool);
 - (id);
-- (struct CGRect)t;
-- (void));
-- (id)ord;
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (struct CGRect);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)tAfterKeyboardNotification;
-- (id)ateWebLinkPresentationPropertiesForQueryResult:(struct CGRect)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id)configureAlertBehaviorForStream:error: /* Error: Ran out of types for this method. */;
+- (void)|L;
+- (void)o__°/\yú%\GQo__Qo_­GSSGGGò3\GA0_Gt;
+- (void)T_IS_CURRENTLY_NOT_SUPPORTED;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText;

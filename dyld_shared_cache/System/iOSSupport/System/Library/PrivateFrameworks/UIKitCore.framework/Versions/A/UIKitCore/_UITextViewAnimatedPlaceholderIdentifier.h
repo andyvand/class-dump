@@ -8,7 +8,7 @@
 {
 }
 
-- (id)_pendingRestoreTextSuggestions;
+- (id);
 
 @end
 

@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-+ (id)C9	9;
++ (id);
 + (id);
 - (id);
 - (void);
@@ -23,9 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (void);
-- (unsigned long long)@"<TSWPFootnoteHeightMeasurer>",R,N;
+- (_Bool);
+- (unsigned long long)¡}°!|Fù°1Â0@ù
+× ;
 
 @end
 

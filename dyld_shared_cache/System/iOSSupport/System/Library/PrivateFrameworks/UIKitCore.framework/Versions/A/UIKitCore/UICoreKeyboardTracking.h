@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (void)CKRecord %@, taking %@ over %@;
-+ (void)ъ;
-- (struct CGSize)mbStoneDictionary: /* Error: Ran out of types for this method. */;
++ (void);
++ (void);
+- (struct CGSize);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void)0@ù
+- (id);
+- (id)!GùQ^Ð1Â0@ù
 × ;
-- (id)±ýk;
-- (id)o;
+- (void)a@ÖW\;
+- (void);
+- (id)JÕÌk;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *elements; // @synthesize elements=_elements;

@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (_Bool)es before;
++ (_Bool);
 
 @end
 

@@ -4,12 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFPage;
-
 @protocol PDFPageLayerInterface
-- (unsigned long long);
-- (void);
-- (void)";
-- (PDFPage *)iew"16@"UIView"24;
+- (_Bool)nsets=dddd}80d112;
 @end
 

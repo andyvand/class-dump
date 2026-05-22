@@ -13,13 +13,11 @@ __attribute__((visibility("hidden")))
     NSUUID *_enrollmentIdentifier;
 }
 
-- (void)Xôa¬;
-- (id)
-× ;
-- (id)±ÎÐ1¢!0@ù
-× ;
-- (id)yingVerticalSelection;
-- (id)programmatic changes to interface orientation.;
+- (id);
+- (id)ationSpeed;
+- (id)sureSizingLayout;
+- (id)= %@, ShadowColor = %@, DrawingStroke = %@>;
+- (void)þ8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *enrollmentIdentifier; // @synthesize enrollmentIdentifier=_enrollmentIdentifier;

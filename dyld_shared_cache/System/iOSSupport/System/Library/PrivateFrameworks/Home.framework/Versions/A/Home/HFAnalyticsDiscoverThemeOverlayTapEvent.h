@@ -15,9 +15,9 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ng;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *themeType; // @synthesize themeType=_themeType;

@@ -11,11 +11,13 @@
 
 - (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (id)ALLMENT_FEE_PER_MONTH;
-- (id)p­D;
+- (id)a©Ð!\AùñøÐ1â
+0@ù
+× ;
+- (id)eIdentifier:(id)arg1;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hidden; // @synthesize hidden=_hidden;

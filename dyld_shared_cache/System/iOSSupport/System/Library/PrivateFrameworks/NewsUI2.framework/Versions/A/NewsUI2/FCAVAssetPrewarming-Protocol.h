@@ -4,8 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FCAVAsset;
+
 @protocol FCAVAssetPrewarming
-- (void)l¬ñÿ;
-- (void)able when opened from an external URL.;
+- (void)PmàþP:(FCAVAsset *)arg1;
 @end
 

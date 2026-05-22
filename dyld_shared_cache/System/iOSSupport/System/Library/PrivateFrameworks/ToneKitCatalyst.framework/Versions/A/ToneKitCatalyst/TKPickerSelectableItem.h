@@ -30,9 +30,9 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 
 // Remaining properties

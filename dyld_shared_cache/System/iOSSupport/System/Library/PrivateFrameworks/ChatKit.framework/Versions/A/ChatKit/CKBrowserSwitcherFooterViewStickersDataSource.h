@@ -13,8 +13,8 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)maryVersion < %d);
-- (id);
+- (unsigned long long);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

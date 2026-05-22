@@ -14,17 +14,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)dicate:(struct CGRect)arg1 limit: /* Error: Ran out of types for this method. */;
-- (void)ureEnabled;
-- (struct CGRect)ken;
+- (void);
+- (void);
+- (struct CGRect);
 - (id);
 - (void);
 - (struct CGRect);
 - (id);
-- (void)ocessing %ld nickname entries;
-- (void)
-× ;
-- (id)i;
+- (void);
+- (id);
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) UIInputWindowController *controllerForTrackingElements; // @synthesize controllerForTrackingElements=_controllerForTrackingElements;

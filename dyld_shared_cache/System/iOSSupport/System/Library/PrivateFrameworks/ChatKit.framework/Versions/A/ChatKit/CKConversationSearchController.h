@@ -15,24 +15,24 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)locked notes.;
++ (id);
 + (Class);
 + (_Bool);
 + (id);
 + (id);
-- (double)ntQueue;
-- (_Bool)completionBlocks;
-- (id)e default note preview {error:(id)arg1 %s};
-- (id)password for locked notes means you don’t have to create and remember a separate password, reducing the chances of losing access to your locked notes.;
-- (id);
+- (double);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (struct NSDirectionalEdgeInsets);
 - (id);
-- (void)9;
+- (void);
 - (_Bool);
-- (id);
 - (double);
-- (long long)$âÿ;
+- (id);
+- (long long)tion;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

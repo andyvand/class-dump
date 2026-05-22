@@ -11,10 +11,10 @@
     CDUnknownBlockType _block;
 }
 
-- (void);
-- (void);
-- (CDUnknownBlockType);
 - (id);
+- (CDUnknownBlockType);
+- (void)rStyle;
+- (void)l0;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

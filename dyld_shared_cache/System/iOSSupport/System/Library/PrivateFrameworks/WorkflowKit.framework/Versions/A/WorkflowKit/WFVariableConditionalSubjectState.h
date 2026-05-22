@@ -30,17 +30,18 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id)alf;
-- (id)ier(Items in Range),WFItemRangeStart,WFItemRangeEnd,WFInput;
-- (long long)ve a bounding box that is as wide as necessary, and may run off the edge of the image. Otherwise, the text will wrap within the bounds of the width. Optional. (WFPercentageTextBoxWidth);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (long long)\·õÿ;
+- (void)tResponse writeMessageToWriter:error:] /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

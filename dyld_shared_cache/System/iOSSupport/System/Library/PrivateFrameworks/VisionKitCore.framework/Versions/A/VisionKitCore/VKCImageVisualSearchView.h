@@ -50,18 +50,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)Range"24;
-- (_Bool)iew"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *cachedResultItemsWithFocalDot; // @synthesize cachedResultItemsWithFocalDot=_cachedResultItemsWithFocalDot;

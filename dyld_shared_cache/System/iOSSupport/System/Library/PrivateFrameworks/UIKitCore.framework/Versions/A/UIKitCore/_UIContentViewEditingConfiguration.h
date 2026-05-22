@@ -17,19 +17,19 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void)_;
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
-- (_Bool);
-- (id)RRemoteArtwork",R,N,V_mediaRemoteRemoteArtwork;
-- (void);
-- (void);
+- (CDUnknownBlockType);
+- (void);
+- (_Bool)ltViewPropertiesApplier:(id)arg1;
+- (id)layingContinuousFeedback:(struct _NSZone *)arg1 ,V_playingContinuousFeedback;
+- (id);
+- (void)È~];
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType didEndHandler; // @synthesize didEndHandler=_didEndHandler;

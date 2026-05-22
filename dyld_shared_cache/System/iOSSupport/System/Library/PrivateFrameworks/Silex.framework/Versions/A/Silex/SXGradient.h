@@ -14,12 +14,12 @@
     struct CGPoint _endPoint;
 }
 
-- (void);
+- (struct CGPoint);
+- (id);
 - (id);
 - (id);
 - (struct CGPoint);
-- (id);
-- (struct CGPoint)ction;
+- (void)"NSMutableArray"16;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *colors; // @synthesize colors=_colors;

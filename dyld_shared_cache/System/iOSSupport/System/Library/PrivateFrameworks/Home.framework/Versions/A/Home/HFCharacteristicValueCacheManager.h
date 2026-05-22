@@ -43,8 +43,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *transactionsByActionSetID; // @synthesize transactionsByActionSetID=_transactionsByActionSetID;

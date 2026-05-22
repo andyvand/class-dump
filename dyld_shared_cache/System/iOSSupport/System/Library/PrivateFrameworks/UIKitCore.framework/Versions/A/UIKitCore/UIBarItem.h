@@ -16,36 +16,35 @@
 }
 
 + (id);
-+ (id)t;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)4
-;
++ (id);
++ (id);
 - (void);
 - (id);
-- (struct UIEdgeInsets)or highlight:%@. Attempting to find the handle for the mentioned identity. /* Error: Ran out of types for this method. */;
-- (id)a mention with a person identity for highlight:%@. Attempting to find the handle for the mentioned identity. /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (id);
 - (_Bool);
-- (void)^%;
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (void)1¢!0@ù
+- (id)ù
 × ;
-- (id)tinuousPathKeyplane;
-- (id)GeometryFrozen,S_setGeometryFrozen:,V__geometryFrozen /* Error: Ran out of types for this method. */;
-- (_Bool)¸"èÿ;
-- (_Bool)t©íþ²A;
-- (void)¬i;
-- (_Bool)h7ÿ?ÉI¦j;
-- (long long)JZk;
+- (long long)onnectionListener"16@"BSServiceConnection<BSServiceConnectionHost>"24@"<BSXPCDecoding>"32;
+- (_Bool)te;
+- (void)ackgroundFrame;
+- (void)\hÿ;
+- (void);
+- (_Bool)²ÎØÕo;
+- (_Bool)$;
 
 // Remaining properties
 @property(nonatomic, setter=_setHasCustomizableInstanceAppearanceModifications:) _Bool _hasCustomizableInstanceAppearanceModifications; // @synthesize _hasCustomizableInstanceAppearanceModifications;

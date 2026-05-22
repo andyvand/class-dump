@@ -4,6 +4,6 @@
 
 class std::istreambuf_iterator<char, std::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    _M_get() const;
-    equal(std::istreambuf_iterator<char, std::char_traits<char>> const&) const;
+    auto _M_get() const;
+    auto equal(std::istreambuf_iterator<char, std::char_traits<char>> const&) const;
 };

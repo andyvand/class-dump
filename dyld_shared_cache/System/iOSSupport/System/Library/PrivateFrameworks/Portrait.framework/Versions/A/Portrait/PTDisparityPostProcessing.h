@@ -26,8 +26,8 @@
 - (int);
 - (int);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

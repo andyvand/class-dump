@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol UICoordinateSpace;
 
 @protocol UIFocusItemContainer
+- (NSArray *)Ñ_ð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;

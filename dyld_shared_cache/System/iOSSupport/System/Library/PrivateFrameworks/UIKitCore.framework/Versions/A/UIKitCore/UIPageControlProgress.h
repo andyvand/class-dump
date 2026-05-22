@@ -19,19 +19,19 @@
     UIPageControl *_pageControl;
 }
 
-- (id)isSyncingPaused;
-- (_Bool)onCoreBridgeImpl;
-- (void)ion data;
-- (void), iMessage:%@), the ids account is active:[%@] /* Error: Ran out of types for this method. */;
-- (float);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (float);
 - (void);
-- (id)_augmentedTitleNavigationBarTraits;
-- (void)N,V_directionalPressGestureRecognizer;
-- (id)deNormal;
-- (void)ovider Image Loading;
+- (void);
+- (float);
+- (id);
+- (id);
+- (void)ance"b1"isStatusBarFading"b1"systemWindowsSecure"b1"isFrontBoardForeground"b1"appSwitcherLayoutState"b2"isObservingPIP"b1"shouldRestoreKeyboardInputState"b1"subclassOverridesInterfaceOrientation"b1"subclassOverridesFrontMostAppOrientation"b1"isResigningActive"b1"receivedUnhandledMenuButton"b1"disablingBecomeFirstResponder"b1"hasMultiwindowAttributes"b1"supportedOnLockScreen"b1"inBackgroundBeforeSuspending"b1"hasPendingKeyCommandSerializationRequest"b1"hasBackgroundTaskCompletionHandler"b1"supportsTabbedWindowScenes"b1"subclassOverridesCreateStatusBarWithRequestedStyle"b1"implementsEffectiveSceneConfigurationForConnectingConfiguration"b1};
+- (void)èçÞÿ9Í×_;
+- (void)z Ú¤e;
 
 // Remaining properties
 @property(nonatomic) float currentProgress; // @synthesize currentProgress=_currentProgress;

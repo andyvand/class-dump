@@ -19,30 +19,31 @@
 
 - (id);
 - (void);
-- (void)utcOffset:(id)arg1 dstOffset:appVersion:osVersion:countryCode:formatVersion:seedNumber:buildNumber: /* Error: Ran out of types for this method. */;
-- (void)initWithPreferredLanguages:(id)arg1 deviceType:utcOffset:dstOffset:appVersion:osVersion:countryCode: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 localeIdentifier:timezone:forReuse: /* Error: Ran out of types for this method. */;
-- (id)uestMode;
-- (id)rrorCode;
-- (id)/news-todayconfig-edge.apple.com/v1/configs;
-- (id)um_lite;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (long long);
-- (void)lDistanceInCanonicalUnit;
+- (void);
 - (void);
 - (id);
-- (void)Fullscreen:(id)arg1;
 - (void);
-- (id);
-- (id)addToolView: /* Error: Ran out of types for this method. */;
-- (void)ResultCommand:(id)arg1;
-- (id)n creating attachment.;
-- (id):(id)arg1 "%@"; result:(id)arg2 "%@"; intended:"%@" /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void);
+- (id)
+× ;
+- (void)"<PKRulerHostingDelegate>",W,N,V_rulerHostingDelegate;
+- (id)bleViewCell;
+- (void)nes;
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

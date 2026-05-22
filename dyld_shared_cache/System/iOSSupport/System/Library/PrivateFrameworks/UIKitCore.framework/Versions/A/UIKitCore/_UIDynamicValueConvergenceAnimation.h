@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (_Bool)for flag %{public}s;
-- (double)ed entitlement.;
-- (void)sage, no messages found for guid:(CDUnknownBlockType)arg1 %@;
-- (double);
+- (_Bool);
+- (void);
 - (double);
 - (void);
-- (void));
-- (void)16d24Q32;
+- (double);
+- (void)ShapeInsets;
+- (double),W,N;
+- (void)Øm\;
 
 // Remaining properties
 @property(nonatomic) double convergenceRate; // @synthesize convergenceRate=_convergenceRate;

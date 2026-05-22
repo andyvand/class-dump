@@ -4,11 +4,12 @@
 
 class marisa::grimoire::vector::BitVector {
 public: // (access info unavailable from symbols alone)
-    map(marisa::grimoire::io::Mapper&);
-    map_(marisa::grimoire::io::Mapper&);
-    rank1(unsigned long) const;
-    select0(unsigned long) const;
-    select1(unsigned long) const;
-    swap(marisa::grimoire::vector::BitVector&);
+    auto map(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&) (.cold.1);
+    auto rank1(unsigned long) const;
+    auto select0(unsigned long) const;
+    auto select1(unsigned long) const;
+    auto swap(marisa::grimoire::vector::BitVector&);
     ~BitVector();
 };

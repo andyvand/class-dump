@@ -6,8 +6,8 @@ class AssertableValue {
 public: // (access info unavailable from symbols alone)
     AssertableValue();
     AssertableValue(unsigned long long);
-    assert_wait() const;
-    is_wait_asserted() const;
-    release_wait() const;
-    value() const;
+    auto assert_wait() const;
+    auto is_wait_asserted() const;
+    auto release_wait() const;
+    auto value() const;
 };

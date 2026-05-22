@@ -21,8 +21,8 @@
 }
 
 + (id);
-+ (_Bool)ô®;
-+ (id);
++ (_Bool);
++ (id)supported;
 - (struct __CFXWorld *);
 - (void);
 - (id);
@@ -53,19 +53,596 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)Á=Ð!GùQX°1B0@ù
-× ;
-- (id)&8?)²^?åìÕ?ÿì¾<£-?T_?ºÌ?U½¾nú#?º`?FÃ?±¾Æ?+a?v»?åE¾@ß?;
+- (id);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)nt:stages: /* Error: Ran out of types for this method. */;
+- (void)Table;
+- (id)ated_is_outside(index, spawnid); }
+    int32_t get_spawn_id(uint index){ return counters()->get_spawn_id(index); }
+    int32_t get_spawn_id_if_present(uint index, int32_t dispatch_spawn_id){ return counters()->get_spawn_id_if_present(index, dispatch_spawn_id); }
+
+    float4x4 world_from_emitter() { return counters()->world_from_emitter; }
+    float3 emitter_scale() { return vfx_get_scale(world_from_emitter()); }
+    float4 emitter_orientation() { return vfx_quat_(world_from_emitter()); }
+
+    
+
+    uint32_t init_kernel_seed(uint32_t kernel_offset, uint32_t particle_offset) {
+        return counters()->get_current_seed() + kernel_offset + particle_offset;
+    }
+    uint32_t get_seed(int pid) {
+        return init_kernel_seed(0, pid);
+    }
+    
+    
+
+    device uint32_t* get_uint32(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device uint32_t *)(data + desc.offset);
+    }
+    
+    device atomic_uint* get_atomic_uint(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device atomic_uint *)(data + desc.offset);
+    }
+    
+    device int32_t* get_int32(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device int32_t *)(data + desc.offset);
+    }
+
+    device float* get_float(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device float *)(data + desc.offset);
+    }
+
+    device float2* get_float2(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device float2 *)(data + desc.offset);
+    }
+
+    device float3* get_float3(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device float3 *)(data + desc.offset);
+    }
+
+    device float4* get_float4(int data_index) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return (device float4 *)(data + desc.offset);
+    }
+
+    
+    
+    bool has(int data_index) const {
+        return particle_header.descriptions[ data_index ].offset > 0;
+    }
+    
+    bool has(int data_index, int16_t type) const {
+        particle_data_description desc = particle_header.descriptions[ data_index ];
+        return desc.offset > 0 && desc.type == type;
+    }
+
+    
+
+    float3 get_position(int pid) const {
+        return get_float3(particle_data_index_positions)[pid];
+    }
+
+    void set_position(int pid, float3 v) {
+        get_float3(particle_data_index_positions)[pid] = v;
+    }
+
+    float3 get_velocity(int pid) const {
+        return get_data_f3(has_velocity, particle_data_index_velocities, DEFAULT_VELOCITY);
+    }
+
+    void set_velocity(int pid, float3 v) {
+        set_data_f3(has_velocity, particle_data_index_velocities, v);
+    }
+
+    float4 get_color(int pid) const {
+        return get_data_f4(has_color, particle_data_index_colors, DEFAULT_COLOR);
+    }
+
+    half4 get_color_as_half(int pid) const {
+        half4 color = half4(get_color(pid));
+        color.a = saturate(color.a);
+        return color;
+    }
+
+    void set_color(int pid, float4 v) {
+        set_data_f4(has_color, particle_data_index_colors, v);
+    }
+
+    float2 get_ribbon_length(int pid) const {
+        return get_data_f2(has_ribbon_length, particle_data_index_ribbon_lengths, 0.f);
+    }
+
+    void set_ribbon_length(int pid, float2 v) {
+        set_data_f2(has_ribbon_length, particle_data_index_ribbon_lengths, v);
+    }
+
+    float3 get_size(uint pid) const {
+        
+        if (is_defined_and_true(has_size3D)) {
+            return get_float3(particle_data_index_sizes)[ pid ];
+        } else if (is_defined_and_true(has_size2D)) {
+            return float3(get_float2(particle_data_index_sizes)[ pid ], 0.001f); 
+        } else if (is_defined_and_true(has_size1D)) {
+            return float3(get_float(particle_data_index_sizes)[ pid ]);
+        }
+        
+        particle_data_description desc = particle_header.descriptions[ particle_data_index_sizes ];
+        if (desc.offset > 0) {
+            switch (desc.type) {
+                case particle_data_type_float3:return get_float3(particle_data_index_sizes)[ pid ];
+                case particle_data_type_float2:return float3(get_float2(particle_data_index_sizes)[ pid ], 0.001f);
+                case particle_data_type_float:return float3(get_float(particle_data_index_sizes)[ pid ]);
+            }
+        }
+        return DEFAULT_SIZE;
+    }
+
+    void set_size(int pid, float3 v) {
+        
+        if (is_defined_and_true(has_size3D)) {
+            get_float3(particle_data_index_sizes)[ pid ] = v;
+        } else if (is_defined_and_true(has_size2D)) {
+            get_float2(particle_data_index_sizes)[ pid ] = v.xy;
+        } else if (is_defined_and_true(has_size1D)) {
+            get_float(particle_data_index_sizes)[ pid ] = v.x;
+        } else {
+            
+            particle_data_description desc = particle_header.descriptions[ particle_data_index_sizes ];
+            if (desc.offset > 0) {
+                switch (desc.type) {
+                    case particle_data_type_float3:get_float3(particle_data_index_sizes)[ pid ] = v;
+                        break;
+                    case particle_data_type_float2:get_float2(particle_data_index_sizes)[ pid ] = v.xy;
+                        break;
+                    case particle_data_type_float:get_float(particle_data_index_sizes)[ pid ] = v.x;
+                        break;
+                }
+            }
+        }
+    }
+
+    float2 get_size2D(uint pid) const {
+        return get_size(pid).xy;
+    }
+
+    void set_size2D(uint pid, float2 size) {
+        set_size(pid, float3(size, 1.f));
+    }
+
+    float get_size1D(uint pid) const {
+        return get_size(pid).x;
+    }
+
+    void set_size1D(uint pid, float size) {
+        set_size(pid, float3(size));
+    }
+
+    float4 get_orientation(int pid) const {
+        return get_data_f4(has_orientation, particle_data_index_orientations, DEFAULT_ORIENTATION);
+    }
+
+    void set_orientation(int pid, float4 v) {
+        set_data_f4(has_orientation, particle_data_index_orientations, v);
+    }
+
+    float4 get_angular_velocity(int pid) const {
+        return get_data_f4(has_angular_velocity, particle_data_index_angular_velocities, DEFAULT_ANGULAR_VELOCITY);
+    }
+
+    void set_angular_velocity(int pid, float4 v) {
+        set_data_f4(has_angular_velocity, particle_data_index_angular_velocities, v);
+    }
+
+    float get_angle(int pid) const {
+        return get_data_f(has_angle, particle_data_index_angles, DEFAULT_ANGLE);
+    }
+
+    void set_angle(int pid, float v) {
+        set_data_f(has_angle, particle_data_index_angles, v);
+    }
+
+    float get_angle_velocity(int pid) const {
+        return get_data_f(has_angle_velocity, particle_data_index_angle_velocities, DEFAULT_ANGLE_VELOCITY);
+    }
+
+    void set_angle_velocity(int pid, float v) {
+        set_data_f(has_angle_velocity, particle_data_index_angle_velocities, v);
+    }
+
+    
+
+    float get_age(int pid) const {
+        return get_data_f(has_age, particle_data_index_ages, DEFAULT_AGE);
+    }
+
+    void set_age(int pid, float v) {
+        set_data_f(has_age, particle_data_index_ages, v);
+    }
+
+    float get_lifetime(int pid) const {
+        return get_data_f(has_lifetime, particle_data_index_lifetimes, DEFAULT_LIFETIME);
+    }
+
+    void set_lifetime(int pid, float v) {
+        set_data_f(has_lifetime, particle_data_index_lifetimes, v);
+    }
+
+    float get_texture_frame(int pid) const {
+        return get_data_f(has_texture_frame, particle_data_index_frames, DEFAULT_TEXTURE_FRAME);
+    }
+
+    void set_texture_frame(int pid, float v) {
+        set_data_f(has_texture_frame, particle_data_index_frames, v);
+    }
+
+    float3 get_linear_factor(int pid) const {
+        return get_data_f3(has_linear_factor, particle_data_index_linear_factors, DEFAULT_LINEAR_FACTOR);
+    }
+
+    void set_linear_factor(int pid, float3 v) {
+        set_data_f3(has_linear_factor, particle_data_index_linear_factors, v);
+    }
+
+    float3 get_angular_factor(int pid) const {
+        return get_data_f3(has_angular_factor, particle_data_index_angular_factors, DEFAULT_ANGULAR_FACTOR);
+    }
+
+    void set_angular_factor(int pid, float3 v) {
+        set_data_f3(has_angular_factor, particle_data_index_angular_factors, v);
+    }
+
+    
+    float3 get_pivot(int pid) const {
+        return has_data(has_pivot, particle_data_index_pivots)
+        ? unpack_unorm4x8_to_float(get_uint32(particle_data_index_pivots)[pid]).xyz
+        :DEFAULT_PIVOT_F; 
+    }
+
+    
+    void set_pivot(int pid, float3 v) {
+        uint32_t u = pack_float_to_unorm4x8(float4(v, 0.f));
+        set_data_u(has_pivot, particle_data_index_pivots, u);
+    }
+    
+    
+    float3 get_signed_pivot(int pid) const {
+        return get_pivot(pid) * 2 - 1;
+    }
+
+    float3 get_target(int pid) const {
+        return get_data_f3(has_target, particle_data_index_targets, DEFAULT_TARGET);
+    }
+
+    void set_target(int pid, float3 v) {
+        set_data_f3(has_target, particle_data_index_targets, v);
+    }
+
+    
+
+    float get_mass(int pid) const {
+        return get_data_f(has_mass, particle_data_index_masses, DEFAULT_MASS);
+    }
+
+    void set_mass(int pid, float v) {
+        set_data_f(has_mass, particle_data_index_masses, v)
+    }
+
+    uint32_t get_id(int pid) const {
+        return get_data_u(has_particle_id, particle_data_index_ids, 0);
+    }
+
+    void set_id(int pid, uint32_t v) {
+        set_data_u(has_particle_id, particle_data_index_ids, v);
+    }
+
+    uint32_t get_parent_id(int pid) const {
+        return get_data_u(has_parent_id, particle_data_index_parent_ids, 0);
+    }
+
+    void set_parent_id(int pid, uint32_t v) {
+        set_data_u(has_parent_id, particle_data_index_parent_ids, v);
+    }
+
+    float get_roughness(int pid) const {
+        return has(particle_data_index_roughness) ? get_float(particle_data_index_roughness)[pid] :DEFAULT_ROUGHNESS;
+    }
+
+    void set_roughness(int pid, float v) {
+        if (has(particle_data_index_roughness)) { get_float(particle_data_index_roughness)[pid] = v; }
+    }
+
+    float get_metalness(int pid) const {
+        return has(particle_data_index_metalness) ? get_float(particle_data_index_metalness)[pid] :DEFAULT_METALNESS;
+    }
+
+    void set_metalness(int pid, float v) {
+        if (has(particle_data_index_metalness)) { get_float(particle_data_index_metalness)[pid] = v; }
+    }
+
+    float get_emission(int pid) const {
+        return has(particle_data_index_emission) ? get_float(particle_data_index_emission)[pid] :DEFAULT_EMISSION;
+    }
+
+    void set_emission(int pid, float v) {
+        if (has(particle_data_index_emission)) { get_float(particle_data_index_emission)[pid] = v; }
+    }
+
+    float4 get_user_data1(int pid) const {
+        return get_data_f4(has_user_data1, particle_data_index_user_data1s, DEFAULT_USER_DATA);
+    }
+
+    void set_user_data1(int pid, float4 v) {
+        set_data_f4(has_user_data1, particle_data_index_user_data1s, v);
+    }
+
+    float4 get_user_data2(int pid) const {
+        return get_data_f4(has_user_data2, particle_data_index_user_data2s, DEFAULT_USER_DATA);
+    }
+
+    void set_user_data2(int pid, float4 v) {
+        set_data_f4(has_user_data2, particle_data_index_user_data2s, v);
+    }
+
+    float4 get_user_data3(int pid) const {
+        return get_data_f4(has_user_data3, particle_data_index_user_data3s, DEFAULT_USER_DATA);
+    }
+
+    void set_user_data3(int pid, float4 v) {
+        set_data_f4(has_user_data3, particle_data_index_user_data3s, v);
+    }
+
+    float4 get_user_data4(int pid) const {
+        return get_data_f4(has_user_data4, particle_data_index_user_data4s, DEFAULT_USER_DATA);
+    }
+
+    void set_user_data4(int pid, float4 v) {
+        set_data_f4(has_user_data4, particle_data_index_user_data4s, v);
+    }
+
+    uint32_t get_index_from_id(int pid) const {
+        return get_data_u(has_particle_id, particle_data_index_index_from_id, VFX_PARTICLE_INVALID);
+    }
+    
+    
+    uint32_t safe_get_index_from_id(int32_t pid) const {
+        if (pid < 0 || pid >= int(counters()->get_allocated_count())){
+            return VFX_PARTICLE_INVALID;
+        }
+        return get_data_u(has_particle_id, particle_data_index_index_from_id, VFX_PARTICLE_INVALID);
+    }
+    
+    void set_index_from_id(int pid, uint32_t index) const {
+        set_data_u(has_particle_id, particle_data_index_index_from_id, index);
+    }
+    
+    uint32_t get_free_id(int pid) const {
+        return get_data_u(has_particle_id, particle_data_index_free_ids, VFX_PARTICLE_INVALID);
+    }
+    
+    void set_free_id(int pid, uint32_t v) const {
+        set_data_u(has_particle_id, particle_data_index_free_ids, v);
+    }
+    
+    
+    
+    uint32_t get_neighbor_grid_list_head(int cell) const {
+        return (counters()->has_neighbor_grid && cell < int(counters()->get_grid_cell_count())) ? get_uint32(particle_data_index_neighbor_grid_heads)[cell] :VFX_PARTICLE_INVALID;
+    }
+    
+    void set_neighbor_grid_list_head(int cell, uint32_t v) const { 
+        if (counters()->has_neighbor_grid) {
+            get_uint32(particle_data_index_neighbor_grid_heads)[cell] = v;
+        }
+    }
+    
+    uint32_t atomic_exchange_neighbor_grid_list_head(int cell, uint32_t v) const {
+        return atomic_exchange_explicit(&get_atomic_uint(particle_data_index_neighbor_grid_heads)[cell], v, memory_order_relaxed);
+    }
+    
+    uint32_t get_neighbor_grid_list_next(int pid) const {
+        return counters()->has_neighbor_grid ? get_uint32(particle_data_index_neighbor_grid_nexts)[pid] :VFX_PARTICLE_INVALID;
+    }
+    
+    void set_neighbor_grid_list_next(int pid, uint32_t v) const {
+        if (counters()->has_neighbor_grid) {
+            get_uint32(particle_data_index_neighbor_grid_nexts)[pid] = v;
+        }
+    }
+    
+    uint3 pos_to_cell_3d(simd_float3 pos) const {
+        int3 grid_dim = int3(counters()->grid_dimensions);
+        return uint3((int3(floor((pos - counters()->grid_origin) / counters()->grid_cell_size)) % grid_dim + grid_dim) % grid_dim);
+    }
+    
+    uint32_t cell_3d_to_cell_index(uint3 cell_3d) const {
+        uint3 cell = cell_3d * counters()->grid_cell_stride;
+        return cell.x + cell.y + cell.z;
+    }
+    
+    uint32_t pos_to_cell_index(simd_float3 pos) const {
+        return cell_3d_to_cell_index(pos_to_cell_3d(pos));
+    }
+    
+    bool particle_index_is_valid(uint32_t index) const {
+        return index < get_active_count();
+    }
+    
+    void get_27_neighboring_cells_lists(simd_float3 pos, thread uint32_t* cell_lists) const{
+        uint3 cell_3d = pos_to_cell_3d(pos);
+        int3 grid_dim = int3(counters()->grid_dimensions);
+        
+        
+        constexpr int3 cell_offsets[13] = {
+            { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 },
+            {-1, 1, 0 }, {-1, 0, 1 }, { 1, 1, 0 }, { 1, 0, 1 }, { 0,-1, 1 }, { 0, 1, 1 },
+            {-1,-1, 1 }, { 1,-1, 1 }, {-1, 1, 1 }, { 1, 1, 1 }
+        };
+        
+        
+        
+        cell_lists[0] = get_neighbor_grid_list_head(cell_3d_to_cell_index(cell_3d));
+        int index = 1;
+        
+        for(int i = 0; i < 13; i++){
+            uint3 current_cell = uint3(((int3(cell_3d) + cell_offsets[i]) % grid_dim + grid_dim) % grid_dim);
+            cell_lists[index] = get_neighbor_grid_list_head(cell_3d_to_cell_index(current_cell));
+            index++;
+            current_cell = uint3(((int3(cell_3d) - cell_offsets[i]) % grid_dim + grid_dim) % grid_dim);
+            cell_lists[index] = get_neighbor_grid_list_head(cell_3d_to_cell_index(current_cell));
+            index++;
+        }
+    }
+    
+    uint32_t get_neighbors_in_radius(simd_float3 pos, float radius, uint32_t max_neighbor_count, thread uint32_t* neighbors) const {
+        
+        
+        for(uint i = 0; i < max_neighbor_count; i++){
+            neighbors[i] = VFX_PARTICLE_INVALID;
+        }
+        
+        if(!counters()->has_neighbor_grid) return 0; 
+        
+        uint32_t cell_lists[27];
+        
+        get_27_neighboring_cells_lists(pos, cell_lists);
+        
+        
+        uint neighbor_count = 0;
+        float squared_radius = vfx_pow2(min(radius, counters()->grid_cell_size));
+        
+        for(int cell = 0; cell < 27; cell++){
+            uint32_t particle_index = cell_lists[cell];
+            for(uint i = 0; i < counters()->max_neighbors_per_cell; i++){
+                
+                if(particle_index != VFX_PARTICLE_INVALID){
+                    
+                    float3 their_pos = get_position(particle_index);
+                    float3 diff = their_pos - pos;
+                    float squared_dist = dot(diff, diff);
+                    
+                    if(squared_dist < squared_radius){
+                        neighbors[neighbor_count] = particle_index;
+                        neighbor_count++;
+                        if(neighbor_count >= max_neighbor_count){
+                            break;
+                        }
+                    }
+                } else {
+                    break;
+                }
+                particle_index = get_neighbor_grid_list_next(particle_index);
+            }
+        }
+        
+        
+        return neighbor_count;
+    }
+    
+    uint32_t get_nearest_neighbor_in_radius(simd_float3 pos, float radius) const {
+        
+        if(!counters()->has_neighbor_grid) return VFX_PARTICLE_INVALID; 
+            
+        uint32_t cell_lists[27];
+        
+        get_27_neighboring_cells_lists(pos, cell_lists);
+            
+        uint32_t closest = VFX_PARTICLE_INVALID;
+        float min_squared_dist = MAXFLOAT;
+            
+        float squared_radius = vfx_pow2(min(radius, counters()->grid_cell_size));
+        
+        for(int cell = 0; cell < 27; cell++){
+            uint32_t particle_index = cell_lists[cell];
+            for(uint i = 0; i < counters()->max_neighbors_per_cell; i++){
+                if(particle_index != VFX_PARTICLE_INVALID){
+                    
+                    float3 their_pos = get_position(particle_index);
+                    float3 diff = their_pos - pos;
+                    float squared_dist = dot(diff, diff);
+                    
+                    if(squared_dist < min_squared_dist && squared_dist < squared_radius){
+                        closest = particle_index;
+                        min_squared_dist = squared_dist;
+                    }
+                } else {
+                    break;
+                }
+                particle_index = get_neighbor_grid_list_next(particle_index);
+            }
+        }
+
+        return closest;
+    }
+    
+    
+    
+    
+    float4x4 get_transform(int pid) const {
+        float3 pos = get_position(pid);
+        float4 ori = get_orientation(pid);
+        float3 scl = get_size(pid);
+        float4x4 emitter_from_particle = vfx_make_transform(ori, float4(pos, 1), scl);
+        if (has_pivot) {
+            float3 pvt = get_signed_pivot(pid);
+            emitter_from_particle = emitter_from_particle * vfx_make_translation(float4(-pvt, 1));
+        }
+        return emitter_from_particle;
+    }
+    
+    float4x4 get_world_transform(int pid) {
+        return counters()->world_from_emitter * get_transform(pid);
+    }
+    
+    half3 get_rme(int pid) const {
+        return half3(get_roughness(pid), get_metalness(pid), get_emission(pid));
+    }
+
+};
+
+template <int B = 4>
+struct particle_data_attachment {
+    constant particle_data_header& particle_header    [[ buffer(B) ]];
+    device const uint8_t* data                        [[ buffer(B+1) ]];
+    
+    particle_data unwrap() {
+            return particle_data(particle_header, data);
+    }
+};
+
+#endif
+
+typedef struct
+{
+    int resolution;
+    float edgeAtt;
+    simd_float4 worldPosSize;
+    simd_float4 scaleBiasNrm; 
+    simd_float4 scaleBiasTex; 
+
+    float worldCellSize;
+    float invWorldCellSize;
+
+    simd_float2 opacityScaleBias;
+    simd_float2 colorScaleBias;
+
+    int frameCount;
+} VoxelDataUniforms;
+
+NS_ASSUME_NONNULL_END
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <VFXAsset> asset;

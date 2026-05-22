@@ -20,15 +20,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (long long);
-- (id)
-× ;
 - (id);
+- (struct CLLocationCoordinate2D);
+- (long long)<êlÿ;
+- (id)Æ£ûÿÿDþÿ"¤ûÿ6¤ûÿ8¤ûÿ;
+- (void)±;
 - (void);
-- (struct CLLocationCoordinate2D)eMusic=%{signpost.description:attribute,public}d WantsFlexMusic=%{signpost.description:attribute,public}d Categories=%{signpost.description:attribute,public}@ RecentlyUsedAppleMusicSongIDs=%{signpost.description:attribute,public}@ RecentlyUsedFlexMusicSongIDs=%{signpost.description:attribute,public}@  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate;

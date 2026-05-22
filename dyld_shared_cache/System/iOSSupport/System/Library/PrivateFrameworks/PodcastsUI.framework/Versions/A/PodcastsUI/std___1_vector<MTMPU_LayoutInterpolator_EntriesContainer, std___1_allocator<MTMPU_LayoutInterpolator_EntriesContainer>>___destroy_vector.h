@@ -4,5 +4,5 @@
 
 class std::__1::vector<MTMPU::LayoutInterpolator::EntriesContainer, std::__1::allocator<MTMPU::LayoutInterpolator::EntriesContainer>>::__destroy_vector {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:ne200100]();
+    auto operator()[abi:nqe210106]();
 };

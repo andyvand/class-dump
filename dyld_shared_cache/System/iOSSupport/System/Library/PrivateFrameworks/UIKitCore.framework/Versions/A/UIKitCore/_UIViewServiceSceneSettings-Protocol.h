@@ -7,7 +7,6 @@
 @class NSString, NSUUID;
 
 @protocol _UIViewServiceSceneSettings
-- (void)ice;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *contextToken;

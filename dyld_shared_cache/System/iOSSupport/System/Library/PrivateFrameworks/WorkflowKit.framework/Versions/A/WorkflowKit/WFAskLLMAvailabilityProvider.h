@@ -8,10 +8,16 @@
 {
 }
 
-+ (id)CacheKey;
++ (id)using the 'Output' parameter.
+
+**Private Cloud Compute Model**
+Use a large server-based model on Private Cloud Compute to handle complex requests while protecting your privacy.
+
+**On-Device Model**
+Use the on-device model to handle simple requests without the need for a network connection.;
 - (_Bool);
-- (void);
 - (id);
+- (void)mType;
 
 @end
 

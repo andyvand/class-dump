@@ -44,20 +44,20 @@
 - (void);
 - (void);
 - (long long);
-- (void);
 - (id);
 - (struct UIOffset);
 - (struct NSDirectionalEdgeInsets);
-- (void);
-- (void);
-- (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
 - (void);
-- (void)V_expanded;
-- (id)Xfüf;
-- (void)CE_VIEW;
-- (id)Ä"ù(z	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)@"MUTransitDeparturesSectionController"16;
+- (id)onInformation:(id)arg1;
+- (void),N,V_multipleVendorAnalyticsTarget;
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *arrangedLayoutItems;

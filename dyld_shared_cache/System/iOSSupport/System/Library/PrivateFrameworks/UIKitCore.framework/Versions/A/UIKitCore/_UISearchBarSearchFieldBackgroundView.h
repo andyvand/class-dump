@@ -16,26 +16,26 @@ __attribute__((visibility("hidden")))
     unsigned long long _searchBarStyle;
 }
 
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (void)0@ù
-× ;
-- (_Bool)ð!Fù1ÉÐ1¢!0@ù
-× ;
-- (unsigned long long);
-- (id)onFactor:(struct CGRect)arg1;
-- (id)WithCGRect:(_Bool)arg1;
-- (long long)applyTabBarButtonAppearanceStorage:withTaggedSelectors: /* Error: Ran out of types for this method. */;
-- (void)tRemotePresentationDelegate;
-- (_Bool)Zâûÿþÿ;
-- (void);
-- (void);
+- (_Bool);
 - (id);
-- (id)];
-- (id)ÿD;
+- (void);
+- (void);
+- (void)A!¸Bù\1Â0@ù
+× ;
+- (id)
+× ;
+- (long long);
+- (void)eThreshold;
+- (unsigned long long)nUserActivityAvailableForSceneIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)ureServerInstructions;
+- (void)ductType;
+- (void);
+- (id)N¶;
+- (id)hßÎÿ'_Ñè];
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool backgroundContainer; // @synthesize backgroundContainer=_backgroundContainer;

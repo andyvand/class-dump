@@ -20,24 +20,23 @@
 - (_Bool);
 - (id);
 - (id);
-- (struct CGColor *)dateMD5HashForRecord:(id)arg1;
-- (id):(long long)arg1 transportType: /* Error: Ran out of types for this method. */;
-- (_Bool)ne;
-- (void)found!;
-- (id)eckInMessageProcessingPipelineComponent> Unable to extract payload URL;
-- (id);
-- (void)RenderPipelineStateBySpecializationWithDescriptor:(id)arg1 pipeline:error: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (_Bool);
-- (id)sType;
+- (struct CGColor *);
 - (id);
 - (void);
-- (id)1ÌÐ1¢!0@ù
-× ;
-- (id)ze=dd}{CGSize=dd}d}32@0:8{CGSize=dd}16 /* Error: Ran out of types for this method. */;
-- (id)LoupeActionWithPoint:translation: /* Error: Ran out of types for this method. */;
-- (id)mumPossibleForce;
-- (id)èlÐÿ¤ò;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id)oint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48d80B88;
+- (_Bool)igationItem;
+- (void)itionContext:(id)arg1;
+- (id),V_passthroughScrollInteraction;
+- (id)found a source node to copy data from at this point.;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;

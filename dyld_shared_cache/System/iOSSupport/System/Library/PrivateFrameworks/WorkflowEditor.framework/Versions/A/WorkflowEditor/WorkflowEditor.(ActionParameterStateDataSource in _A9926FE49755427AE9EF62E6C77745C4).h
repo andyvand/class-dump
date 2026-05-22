@@ -15,10 +15,10 @@
 }
 
 - (void);
-- (long long);
-- (void);
 - (void);
 - (id);
+- (long long);
+- (void)4f fXgüolp>,qHsuXu;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

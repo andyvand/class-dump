@@ -10,23 +10,24 @@
 {
 }
 
-- (unsigned long long);
-- (double);
-- (double)quest__descriptor;
-- (double);
-- (unsigned long long);
 - (double);
 - (double);
-- (double)º;
 - (double);
-- (unsigned long long)ticSelectionDelegate>";
-- (double)outMargins:withLeadingLayoutMarginAdjustment: /* Error: Ran out of types for this method. */;
-- (id)itionCoordinator,S_setAdaptiveTransitionCoordinator:,V_adaptiveTransitionCoordinator /* Error: Ran out of types for this method. */;
-- (double)ðG$IdIKLLèL;
-- (double);
-- (id)&;
-- (double)n"16;
-- (double)JßþJøë;
+- (id);
+- (double);
+- (double);
+- (id);
+- (unsigned long long)1Â0@ù
+× ;
+- (double)Style;
+- (double)selectionBorderColor;
+- (double);
+- (unsigned long long)Attempted to hide a view for an invalid _UIViewHiddenReason, or the reason is too large to fit in _viewFlags.internallyHiddenForReason:%ld /* Error: Ran out of types for this method. */;
+- (double)pIndex *, _UIMutableFastIndexSet *const __strong, _UIMutableFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
+- (double)shUpdates may not be set on an active animator (%@);
+- (unsigned long long)EffectDirectionalTransition;
+- (double);
+- (double)c;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

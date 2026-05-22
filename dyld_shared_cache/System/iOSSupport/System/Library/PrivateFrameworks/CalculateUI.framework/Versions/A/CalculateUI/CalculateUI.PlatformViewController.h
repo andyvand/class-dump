@@ -16,17 +16,17 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 
 @end
 

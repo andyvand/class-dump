@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)pathFilter;
++ (id);
 + (id);
 - (id);
 

@@ -5,8 +5,5 @@
 //
 
 @protocol _UITextSelectionDisplayInteractionActivationObserver
-
-@optional
-- (void);
 @end
 

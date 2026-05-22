@@ -24,12 +24,12 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (double);
-- (id);
-- (id);
+- (double)ndardConstraints;
+- (void)date_2#Ð9mediaInfo+#ÐSg010copresenceC0t;
 
 // Remaining properties
 @property(nonatomic, retain) UIImage *avatarImage; // @synthesize avatarImage;

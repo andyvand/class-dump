@@ -17,21 +17,21 @@ __attribute__((visibility("hidden")))
     NSArray *_highlightRects;
 }
 
-- (void)isCoreDuetSync:(_Bool)arg1 didCompleteChatSync:didSucceedSyncingChats:didCompleteMessageSync:didSucceedSyncingMessages:didCompleteAttachmentSync:didSucceedSyncingAttachments:didCompleteRecoverableMessageSync:didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
-- (void)localProperty:(id)arg1 ofBuddy: /* Error: Ran out of types for this method. */;
-- (id)pletionHandler:(id)arg1;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (void);
+- (id)_UIAttributedStringIntentResolver;
+- (void)Èd;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

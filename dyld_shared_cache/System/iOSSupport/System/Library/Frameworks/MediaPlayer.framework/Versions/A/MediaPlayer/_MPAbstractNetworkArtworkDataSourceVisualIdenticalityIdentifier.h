@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)pletedTransactions;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager;
-
 @protocol HMHomeManagerDelegate
 
 @optional
-- (void)sync connecting to '%s' port %d ifIndex:(HMHomeManager *)arg1 %u;
-- (void)rfaces;
+- (void)predownloadBluePOITiles;
 @end
 

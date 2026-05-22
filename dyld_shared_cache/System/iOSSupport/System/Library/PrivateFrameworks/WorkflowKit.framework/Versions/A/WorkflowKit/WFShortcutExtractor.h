@@ -41,7 +41,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)"NSCharacterSet"8Q16^B24;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsOldFormatFile; // @synthesize allowsOldFormatFile=_allowsOldFormatFile;

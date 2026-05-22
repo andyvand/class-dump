@@ -29,15 +29,15 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)rifiedHeaderExpansionProgress;
+- (id)T;
 
 // Remaining properties
 @property(retain, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;

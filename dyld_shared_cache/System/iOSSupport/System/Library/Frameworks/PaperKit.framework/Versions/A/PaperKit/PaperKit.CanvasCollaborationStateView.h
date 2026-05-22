@@ -12,11 +12,11 @@
     MISSING_TYPE *selectionCursors;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 
 @end
 

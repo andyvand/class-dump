@@ -4,23 +4,23 @@
 
 class icu::FilteredNormalizer2 {
 public: // (access info unavailable from symbols alone)
-    append(icu::UnicodeString&, icu::UnicodeString const&, UErrorCode&) const;
-    composePair(int, int) const;
-    getCombiningClass(int) const;
-    getDecomposition(int, icu::UnicodeString&) const;
-    getRawDecomposition(int, icu::UnicodeString&) const;
-    hasBoundaryAfter(int) const;
-    hasBoundaryBefore(int) const;
-    isInert(int) const;
-    isNormalized(icu::UnicodeString const&, UErrorCode&) const;
-    isNormalizedUTF8(icu::StringPiece, UErrorCode&) const;
-    normalize(icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
-    normalize(icu::UnicodeString const&, icu::UnicodeString&, USetSpanCondition, UErrorCode&) const;
-    normalizeSecondAndAppend(icu::UnicodeString&, icu::UnicodeString const&, UErrorCode&) const;
-    normalizeSecondAndAppend(icu::UnicodeString&, icu::UnicodeString const&, signed char, UErrorCode&) const;
-    normalizeUTF8(unsigned int, char const*, int, icu::ByteSink&, icu::Edits*, USetSpanCondition, UErrorCode&) const;
-    normalizeUTF8(unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&) const;
-    quickCheck(icu::UnicodeString const&, UErrorCode&) const;
-    spanQuickCheckYes(icu::UnicodeString const&, UErrorCode&) const;
+    auto append(icu::UnicodeString&, icu::UnicodeString const&, UErrorCode&) const;
+    auto composePair(int, int) const;
+    auto getCombiningClass(int) const;
+    auto getDecomposition(int, icu::UnicodeString&) const;
+    auto getRawDecomposition(int, icu::UnicodeString&) const;
+    auto hasBoundaryAfter(int) const;
+    auto hasBoundaryBefore(int) const;
+    auto isInert(int) const;
+    auto isNormalized(icu::UnicodeString const&, UErrorCode&) const;
+    auto isNormalizedUTF8(icu::StringPiece, UErrorCode&) const;
+    auto normalize(icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
+    auto normalize(icu::UnicodeString const&, icu::UnicodeString&, USetSpanCondition, UErrorCode&) const;
+    auto normalizeSecondAndAppend(icu::UnicodeString&, icu::UnicodeString const&, UErrorCode&) const;
+    auto normalizeSecondAndAppend(icu::UnicodeString&, icu::UnicodeString const&, signed char, UErrorCode&) const;
+    auto normalizeUTF8(unsigned int, char const*, int, icu::ByteSink&, icu::Edits*, USetSpanCondition, UErrorCode&) const;
+    auto normalizeUTF8(unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&) const;
+    auto quickCheck(icu::UnicodeString const&, UErrorCode&) const;
+    auto spanQuickCheckYes(icu::UnicodeString const&, UErrorCode&) const;
     ~FilteredNormalizer2();
 };

@@ -21,10 +21,10 @@
 - (void);
 - (id);
 - (void);
-- (void)!;
+- (struct _NSRange);
+- (void);
 - (id);
-- (struct _NSRange)@"CALayer",R,N,VmLayer;
-- (_Bool)AxisMinorGridlineOpacityProperty;
+- (_Bool)ared/drawables/TSDBitmapRenderingQualityInfo.m;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) TSWPFilteredString *filteredString; // @synthesize filteredString=_filteredString;

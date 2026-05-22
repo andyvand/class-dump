@@ -6,7 +6,7 @@ class mach_o::Error {
 public: // (access info unavailable from symbols alone)
     Error(char const*, ...);
     Error(mach_o::Error&&);
-    message() const;
-    operator=(mach_o::Error&&);
+    auto message() const;
+    auto operator=(mach_o::Error&&);
     ~Error();
 };

@@ -12,8 +12,8 @@
     MISSING_TYPE *networkReachability;
 }
 
-- (void);
-- (id) ;
+- (id);
+- (void)CodingType;
 
 @end
 

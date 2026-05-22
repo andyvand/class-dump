@@ -5,58 +5,51 @@
 //
 
 @class FCArticleAudioTrack, FCAssetHandle, FCColor, FCCoverArt, FCHeadlineExperimentalTitleMetadata, FCHeadlineThumbnail, FCIssue, FCTopStoriesStyleConfiguration, NSArray, NSData, NSDate, NSString, NSURL;
-@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding;
+@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding, FCSportsEventProviding;
 
 @protocol FCHeadlineProviding
-- (NSURL *)U;
-- (FCHeadlineThumbnail *)6*24Q32^Q40^@48;
-- (NSURL *)a for Identifier %s, %s;
-- (NSArray *)eatureAvailabilityTypeP;
-- (double);
-- (FCHeadlineThumbnail *)@Z;
-- (NSString *)lopeCreationAnticipatedForContentType: /* Error: Ran out of types for this method. */;
-- (FCHeadlineThumbnail *)isherConversionStats;
-- (FCTopStoriesStyleConfiguration *);
-- (NSURL *);
-- (NSDate *)H;
-- (NSArray *);
-- (_Bool)|Ê´ÊìÊ$Ë\ËËÌËÌ;
-- (_Bool)¸ïðð;
-- (NSArray *)håY;
-- (_Bool)øÂf0ÄgäÉhÑiØj0àkìálDåmìænÀéolêp¼òqÜúr;
-- (struct CGRect)x÷ñÿ;
-- (NSString *)òÿä)òÿ;
-- (long long)¯éÿ¸¯éÿÐ¯éÿè¯éÿ°éÿt±éÿ±éÿ¼±éÿÜ±éÿ;
-- (NSString *)Ü]Øÿ;
-- (_Bool)h²õÿ§Cûÿ;
-- (double)Ø_	;
-- (NSDate *)onomyGraphEntityNode;
-- (NSArray *)or Topic;
-- (NSArray *)#þ¦²¯þ;
-- (FCCoverArt *)Üãÿ;
-- (NSArray *) ;
-- (int)pVaÿT¹÷áá¼xh;
-- (NSURL *)¼Ïþ;
-- (unsigned long long)à;
-- (NSArray *)P¡Æþi½Ãð¡Æþ;
-- (NSString *)mptyTextExpressionLogicStrategy;
+- (NSArray *)
+× ;
+- (NSString *);
+- (NSArray *)d\;
+- (NSDate *)àKuhNdOvìQèRwdUxè]yfzHo{x|z}~àÜà±(³üµp·PºÄ»¨¾Â<Å8ÆàÈÑ¼Ù\âôê¨íhñ´õ´öôìÐ	d
+àd`;
+- (long long)hÜ;
+- (NSArray *)txöÿ;
+- (NSString *)üóúÿ;
+- (NSDate *)ttributesTypeP;
+- (FCHeadlineThumbnail *)T;
+- (NSString *)P	;
+- (_Bool)oup personalization, will fallback to top N personalization, error=%{public}@;
+- (NSArray *)n screen will schedule timeout for %ld seconds;
+- (NSString *)ÿÿ;
+- (NSURL *)ViewStyler;
+- (FCHeadlineThumbnail *);
+- (unsigned long long)y5½qþi5rþ;
+- (NSArray *);
+- (struct CGRect)ÿÿÿÿ;
+- (FCTopStoriesStyleConfiguration *)ðu;
+- (int)ü&ÿÕH<ÀsÿÅH<Ðsÿ;
+- (NSArray *)`ÝÅþ;
+- (NSURL *);
+- (FCHeadlineThumbnail *)ø|þ;
+- (NSString *)ØÿgµBup;;
+- (FCHeadlineThumbnail *)=ü@g~þ;
 
 @optional
-- (NSData *)B;
-- (_Bool);
-- (_Bool)erflow in xmlDocument;
-- (NSData *)nt;
-- (_Bool)v32@0:8@"NSDictionary"16q24 /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)HIJK;
-- (NSDate *);
-- (_Bool)~ÝÿÔ~Ýÿø~ÝÿDÝÿxÝÿÝÿÀÝÿÝÿ@ÝÿdÝÿÝÿÔÝÿÝÿ,ÝÿxÝÿ¬ÝÿÐÝÿÝÿPÝÿtÝÿÝÿäÝÿÝÿ<ÝÿÝÿ¼ÝÿàÝÿÝÿPÝÿÝÿ¨ÝÿÌÝÿÝÿLÝÿpÝÿ¼ÝÿðÝÿÝÿ8ÝÿÝÿ¸ÝÿÜÝÿ(Ýÿ\ÝÿÝÿÌÝÿ;
-- (_Bool)µûÿ;
-- (FCColor *)Store;
-- (NSArray *)ing+URL+Option+Value;
-- (_Bool)ntroller.swift;
-- (FCColor *)pÞ;
-- (unsigned long long)å¼ºk±;
+- (double);
+- (_Bool)	
+;
+- (_Bool);
+- (NSArray *)ÄÙSþÿÿÿÿt;
+- (FCArticleAudioTrack *)xÿðÿ;
+- (_Bool)mumIntegerDigits;
+- (FCIssue *)¨ÿ;
+- (unsigned long long)dKind;
+- (NSArray *)õx¹:ô /* Error: Ran out of types for this method. */;
+- (FCColor *);HÝÿ¥;pÝÿ;
+- (FCColor *);
+- (FCColor *)¡;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessoryText;
@@ -163,6 +156,8 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C,N
 
+@property(readonly, nonatomic) _Bool liveCoverageCompleted;
+@property(readonly, copy, nonatomic) NSDate *liveCoverageModifiedDate;
 @property(readonly, copy, nonatomic) NSString *localDraftPath;
 @property(readonly, nonatomic) long long minimumNewsVersion;
 @property(readonly, copy, nonatomic) NSArray *moreFromPublisherArticleIDs;
@@ -224,6 +219,7 @@
 @property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
 @property(readonly, copy, nonatomic) NSString *sourceName;
 @property(readonly, copy, nonatomic) NSString *sponsoredBy;
+@property(readonly, copy, nonatomic) id <FCSportsEventProviding> sportsEvent;
 @property(readonly, copy, nonatomic) NSArray *sportsEventIDs;
 @property(readonly, nonatomic) id <FCHeadlineStocksFields> stocksFields;
 // Preceding property had unknown attributes: ?
@@ -233,6 +229,7 @@
 @property(readonly, nonatomic) int storyType;
 @property(readonly, copy, nonatomic) NSString *surfacedByBinID;
 @property(readonly, copy, nonatomic) NSString *surfacedByChannelID;
+@property(readonly, nonatomic) long long surfacedByFlags;
 @property(readonly, copy, nonatomic) NSString *surfacedBySectionID;
 @property(readonly, copy, nonatomic) NSString *surfacedByTopicID;
 @property(readonly, nonatomic) NSArray *tagsExpiration;

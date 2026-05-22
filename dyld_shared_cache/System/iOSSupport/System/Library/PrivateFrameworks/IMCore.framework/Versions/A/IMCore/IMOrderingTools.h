@@ -13,18 +13,18 @@
 }
 
 - (void);
-- (void)!;
 - (void);
 - (void);
-- (void);
-- (void)#;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)dª°«;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *jsonArray; // @synthesize jsonArray=_jsonArray;

@@ -42,13 +42,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
-- (CDUnknownBlockType)1b0@ù
-× ;
-- (id)Üç;
+- (id);
+- (CDUnknownBlockType)ckgroundVisible: /* Error: Ran out of types for this method. */;
+- (void)pear];
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HFCharacteristicEventBuilderItem *eventBuilderItem; // @synthesize eventBuilderItem=_eventBuilderItem;

@@ -16,11 +16,11 @@
 + (id);
 - (id);
 - (unsigned long long);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long)on has updated from %{public}@ -> %{public}@;
-- (void)16;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

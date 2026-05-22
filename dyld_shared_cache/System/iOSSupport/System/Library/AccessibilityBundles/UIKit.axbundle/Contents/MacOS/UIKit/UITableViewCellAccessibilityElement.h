@@ -54,6 +54,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -64,14 +65,14 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (id);
 - (_Bool);
 - (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (struct CGRect);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -103,19 +104,19 @@
 - (id);
 - (id);
 - (struct CGPoint);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (id);
 - (struct CGRect);
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties

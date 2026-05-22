@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol _UIPopoverHostManager;
+
 @protocol _UIPopoverHostManagerProvider
++ (id <_UIPopoverHostManager>)1Â0@ù
+× ;
 @end
 

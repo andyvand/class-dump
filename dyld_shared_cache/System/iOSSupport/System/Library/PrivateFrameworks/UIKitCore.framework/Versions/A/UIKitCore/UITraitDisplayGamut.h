@@ -11,9 +11,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)eString:maxWidth:actions: /* Error: Ran out of types for this method. */;
-+ (id)eP;
-+ (long long)Úøe;
++ (id);
++ (id)ying to create rootViewConstraints for a view that isn't a subview of the window;
++ (long long)ÿÊ9h;
 
 @end
 

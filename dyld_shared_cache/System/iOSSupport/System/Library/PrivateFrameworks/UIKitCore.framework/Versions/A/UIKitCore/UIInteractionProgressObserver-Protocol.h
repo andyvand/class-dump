@@ -7,7 +7,7 @@
 @protocol UIInteractionProgressObserver
 
 @optional
-- (void)h Alternatives Configuration;
-- (void)vers;
+- (void)æîíÿøþÿ;
+- (void)lineView for %@ is the same as last-baselineView for %@;
 @end
 

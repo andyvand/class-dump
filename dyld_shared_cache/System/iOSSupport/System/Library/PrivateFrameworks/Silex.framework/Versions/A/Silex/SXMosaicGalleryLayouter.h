@@ -36,22 +36,22 @@
 - (id);
 - (void);
 - (struct CGRect);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
 - (double);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id)coreCoefficient;
-- (struct CGSize);
 - (id);
-- (id);
-- (id)!èFù¤ð1¢!0@ù
+- (void)0@ù
 × ;
-- (id)plicationWillEnterForeground: /* Error: Ran out of types for this method. */;
+- (struct CGSize)ionResolverModifier"16@?0@"<TFResolver>"8;
+- (id).Í;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *clusters; // @synthesize clusters=_clusters;

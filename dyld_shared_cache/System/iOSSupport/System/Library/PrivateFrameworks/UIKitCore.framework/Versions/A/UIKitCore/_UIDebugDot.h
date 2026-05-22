@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)is down -- disconnecting;
-+ (id)ect;
++ (id);
++ (id);
 
 @end
 

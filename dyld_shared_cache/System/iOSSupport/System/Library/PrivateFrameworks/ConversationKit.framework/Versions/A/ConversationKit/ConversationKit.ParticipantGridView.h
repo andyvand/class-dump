@@ -28,12 +28,12 @@
     MISSING_TYPE *rdarRemoteOrientation;
 }
 
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void)~¢ySo20TUConversationMemberCG;
 
 @end
 

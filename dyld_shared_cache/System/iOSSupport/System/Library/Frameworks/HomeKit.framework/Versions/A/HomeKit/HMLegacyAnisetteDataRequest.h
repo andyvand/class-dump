@@ -16,15 +16,16 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ability events with date interval;
-- (void);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id)HomeReference;
-- (void)kQ;
+- (id)1¬Ð1B50@ù
+× ;
+- (void)Ô ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id);
-- (void);
+- (id)inputViewObeysDOMFocus;
+- (void)ÖPÿ¼;
 
 // Remaining properties
 @property(readonly, nonatomic) UISceneOpenURLOptions *localOpenURLOptions; // @synthesize localOpenURLOptions=_localOpenURLOptions;

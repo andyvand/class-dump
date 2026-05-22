@@ -16,15 +16,15 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)w";
-- (void)3yAHGABGAAyAO<yÎ;_Qo_ABGSgt;
-- (void)ºØÿ;
+- (void);
+- (void);
+- (void)utTraits_Private;
+- (void);
 
 @end
 

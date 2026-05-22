@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (unsigned long long)inkConnectedUsingHTTP2;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long powerStatus; // @synthesize powerStatus=_powerStatus;

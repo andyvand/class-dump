@@ -20,24 +20,23 @@
 }
 
 + (id);
-+ (struct CGSize)0@ù
-× ;
 + (id);
-+ (id)Ñûÿ¶Ø	;
++ (id);
++ (struct CGSize)t;
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)d¯;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CKRecordID *base; // @synthesize base=_base;

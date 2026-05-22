@@ -4,8 +4,8 @@
 
 class dyld4::BumpAllocator {
 public: // (access info unavailable from symbols alone)
-    zeroFill(unsigned long long);
-    zeroFill(unsigned long long) (.cold.1);
-    zeroFill(unsigned long long) (.cold.2);
+    auto zeroFill(unsigned long long);
+    auto zeroFill(unsigned long long) (.cold.1);
+    auto zeroFill(unsigned long long) (.cold.2);
     ~BumpAllocator();
 };

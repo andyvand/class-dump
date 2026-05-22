@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (long long)Load Bag Keys;
+- (void): /* Error: Ran out of types for this method. */;
+- (long long)pðÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) AMSUIWebClientContext *context;

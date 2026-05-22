@@ -5,6 +5,6 @@
 class SafeRemoteBuffer {
 public: // (access info unavailable from symbols alone)
     SafeRemoteBuffer(unsigned int, unsigned long long, unsigned long long, int*);
-    data();
+    auto data();
     ~SafeRemoteBuffer();
 };

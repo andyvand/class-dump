@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, UIDragInteraction;
+@class NSSet;
 
 @protocol _UIDragInteractionDefaultDriverProvider
-- (NSSet *)ingInteractiveEvents:(UIDragInteraction *)arg1;
+- (NSSet *)@ù
+× ;
 @end
 

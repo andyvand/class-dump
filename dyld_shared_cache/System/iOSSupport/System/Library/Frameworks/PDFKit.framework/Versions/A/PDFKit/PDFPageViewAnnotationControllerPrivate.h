@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *activeControls;
 }
 
-- (void)additionalStrokes;
+- (void);
 
 @end
 

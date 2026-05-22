@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)om"24;
+- (id);
+- (void)ì;
 
 // Remaining properties
 @property(readonly, copy) NSData *key; // @synthesize key=_key;

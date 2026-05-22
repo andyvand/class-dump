@@ -50,17 +50,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (double);
+- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (struct CGSize);
+- (id);
 - (void);
-- (void);
-- (struct CGSize);
 - (double);
 - (void);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

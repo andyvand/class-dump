@@ -13,10 +13,10 @@
 
 - (void **);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (long long);
-- (void)6^B24;
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;

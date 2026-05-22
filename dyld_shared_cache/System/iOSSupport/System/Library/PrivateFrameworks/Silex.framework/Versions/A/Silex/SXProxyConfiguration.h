@@ -18,8 +18,8 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id)rtion, blueprint=%p;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

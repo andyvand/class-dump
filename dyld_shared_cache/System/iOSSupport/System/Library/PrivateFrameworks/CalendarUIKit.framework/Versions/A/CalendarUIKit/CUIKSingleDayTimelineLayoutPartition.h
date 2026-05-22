@@ -27,9 +27,9 @@
 - (void);
 - (double);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)aveForItems:forEditingAction:diffSummary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double endBoundary; // @synthesize endBoundary=_endBoundary;

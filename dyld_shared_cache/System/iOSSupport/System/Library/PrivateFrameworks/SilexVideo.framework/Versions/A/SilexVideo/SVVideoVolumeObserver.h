@@ -29,8 +29,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (float);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak AVAudioSession *audioSession; // @synthesize audioSession=_audioSession;

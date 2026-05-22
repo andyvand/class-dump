@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)tachmentMetaDataIfNeededInContext: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (void);
 - (id);

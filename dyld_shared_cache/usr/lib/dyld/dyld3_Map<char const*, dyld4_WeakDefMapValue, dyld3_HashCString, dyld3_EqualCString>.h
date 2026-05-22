@@ -5,6 +5,6 @@
 class dyld3::Map<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString> {
 public: // (access info unavailable from symbols alone)
     Map();
-    insert(dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>&&);
-    insert(dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>&&) (.cold.1);
+    auto insert(dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>&&);
+    auto insert(dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>&&) (.cold.1);
 };

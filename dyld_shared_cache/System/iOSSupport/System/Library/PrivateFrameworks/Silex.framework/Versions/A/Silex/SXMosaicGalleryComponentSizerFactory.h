@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (id)L=;
-- (int)eState",R,N,V_appearedState;
+- (id);
+- (int);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

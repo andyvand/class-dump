@@ -16,8 +16,8 @@
 + (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool inMetro;

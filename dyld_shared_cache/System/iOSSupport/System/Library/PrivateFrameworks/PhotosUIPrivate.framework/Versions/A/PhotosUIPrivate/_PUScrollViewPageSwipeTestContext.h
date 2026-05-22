@@ -34,15 +34,15 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (long long);
 - (id);
 - (void);
-- (id);
 - (long long);
+- (void);
+- (void);
+- (long long);
+- (void)eholderIcon;
+- (id)CornerRadius;
+- (long long)terEditorDisableWorkaroundFor141650509;
 
 // Remaining properties
 @property(nonatomic) long long currentDirection; // @synthesize currentDirection=_currentDirection;

@@ -10,8 +10,8 @@
 }
 
 + (id);
-- (_Bool);
-- (void)on (WFTakeScreenshotActionInteractiveSelectionType);
+- (void);
+- (_Bool)ÿfSå;
 
 // Remaining properties
 @property(nonatomic, getter=isRecording) _Bool recording; // @synthesize recording=_recording;

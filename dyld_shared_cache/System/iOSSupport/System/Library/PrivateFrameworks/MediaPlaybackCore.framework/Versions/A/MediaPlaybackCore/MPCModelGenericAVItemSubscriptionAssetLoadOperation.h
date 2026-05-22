@@ -19,28 +19,28 @@ __attribute__((visibility("hidden")))
     ICMusicSubscriptionLeaseSession *_subscriptionLeaseSession;
 }
 
-- (id)rror:%@}} /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
-- (id)t:oldAccount:store: /* Error: Ran out of types for this method. */;
-- (id)g on the account actually changed.;
-- (id)om.apple.itunesstored.accountschanged notification because nothing on the account actually changed.;
-- (id)lic}@ | account = %{public}@ | caller = %{public}@;
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (CDUnknownBlockType);
 - (id);
+- (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (void);
-- (void)er"16@0:8 /* Error: Ran out of types for this method. */;
-- (long long)hanged:fromParticipant: /* Error: Ran out of types for this method. */;
-- (void)format:(id)arg1 preferP3ColorSpace: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void)onse replacement [delegate supports deferral] response=%p delegate=%p;
+- (void)%{public}@;
+- (void)ìÿÿÿÿ;
+- (id)D	;
 
 // Remaining properties
 @property(retain, nonatomic) MPCModelGenericAVItemAssetLoadProperties *assetLoadProperties; // @synthesize assetLoadProperties=_assetLoadProperties;

@@ -47,25 +47,25 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void)t name for user %d;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)ed:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView;

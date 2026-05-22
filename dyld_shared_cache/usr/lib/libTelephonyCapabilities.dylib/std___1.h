@@ -4,5 +4,7 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100](char const*);
+    auto __throw_length_error[abi:nqe210106](char const*);
+    std::__1::__allocation_result<std::__1::allocator_traits<std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>>::pointer> __allocate_at_least[abi:nqe210106]<std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>>(std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>&, unsigned long);
+    std::__1::basic_ostream<char, std::__1::char_traits<char>>& __put_character_sequence[abi:nqe210106]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long);
 };

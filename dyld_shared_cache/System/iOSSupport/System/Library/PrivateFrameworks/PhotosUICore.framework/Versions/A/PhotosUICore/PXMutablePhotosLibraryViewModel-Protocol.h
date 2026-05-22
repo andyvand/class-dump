@@ -7,9 +7,8 @@
 @class NSMutableSet, NSNumber, NSSet, PXCuratedLibraryAssetCollectionSkimmingInfo;
 
 @protocol PXMutablePhotosLibraryViewModel
-- (NSSet *)_setNavigationBarHidden:edge:duration: /* Error: Ran out of types for this method. */;
-- (long long)linkFromContacts;
-- (void);
+- (void)UUID;
+- (long long)inactiveBackground.HEIC;
 
 // Remaining properties
 @property(retain, nonatomic) Class cplActionManagerClass;

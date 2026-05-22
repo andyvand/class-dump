@@ -17,11 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)0@ù
+- (void)!$GùññÐ1â
+0@ù
 × ;
+- (id)lectionView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attributeType;

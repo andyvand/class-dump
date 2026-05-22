@@ -13,13 +13,13 @@
     _UIViewAnimationAttributes *_attributes;
 }
 
-- (unsigned long long);
-- (_Bool);
-- (void)umberOfLines;
-- (id)intIndex:(id)arg1;
-- (double);
 - (id);
 - (double);
+- (unsigned long long);
+- (id);
+- (double);
+- (_Bool);
+- (void);
 
 @end
 

@@ -11,8 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (id)erRequiresKeyboard: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)Á°!ÈDù±\ð1Â0@ù
+× ;
 
 @end
 

@@ -16,12 +16,14 @@
 - (id);
 - (void);
 - (id);
+- (long long);
 - (void);
-- (id);
-- (long long)ÜÄ;
-- (void);
-- (void)Ec%ð
-¾÷xêK;
+- (void)TextureDescriptorNode;
+- (void);
+- (id)¥?e?ÜI¨?|¾Ô'ù>_f?ê$£?!@¾¤Ãë>¶¿g?ÅX?¬¾rÞ>@i?¾?[^y¾Ñ>Ëj?% ?g|o¾¾Å>Zl?Q?ÚÅd¾T¸>ým?>?ññY¾c¬>¦o?5?A¼N¾ó >74q?0d?ÒÿB¾Xã>ïÊr?Ï¼?H67¾~V>Tt?ä.?'Ù*¾O |>úÐu?	Æ?ý ¾
+øe>37w?/?õô¾ÈP>x?}ìz?g¾ B<>¡¾y?øv?|(ñ½(>ÆÛz?¦s?iÅ×½Í>Ú{?8gp?ën¾½ñ¹>4½|?Vm?¢'¥½Vã=¥}?õj?r½äÀ=Â2~?éÕh?^g½=;Å~?
+÷f?ª6½ïy=i:?>xe?Ý'½­L8=y?ª*d?°7±¼
+ñ<5Ñ?Ôb?rÀ.¼ä,l<ô?ra?ÿÃ8¨û· /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id component; // @synthesize component;

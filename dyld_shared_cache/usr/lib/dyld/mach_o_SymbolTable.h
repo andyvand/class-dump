@@ -5,5 +5,5 @@
 class mach_o::SymbolTable {
 public: // (access info unavailable from symbols alone)
     SymbolTable(mach_o::Layout const&);
-    forEachGlobalSymbol(Diagnostics&, void (char const*, unsigned long long, unsigned char, unsigned char, unsigned short, bool&) block_pointer) const;
+    auto forEachGlobalSymbol(Diagnostics&, void (char const*, unsigned long long, unsigned char, unsigned char, unsigned short, bool&) block_pointer) const;
 };

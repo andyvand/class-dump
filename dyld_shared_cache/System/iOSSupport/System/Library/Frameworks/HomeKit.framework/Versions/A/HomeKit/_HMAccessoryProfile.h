@@ -27,19 +27,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)Date",R,C,N,V_lastSeenDate;
+- (id)}@Failed to unarchive pairing identities for user from encoded pairing identity data:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;

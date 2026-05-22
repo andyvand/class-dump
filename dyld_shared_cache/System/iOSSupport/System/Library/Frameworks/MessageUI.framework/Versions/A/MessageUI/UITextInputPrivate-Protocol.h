@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, RTIInputSystemSourceSession, UITextInteractionAssistant, UITextRange, UIView;
-@protocol UITextInputSuggestionDelegate;
+@class NSAttributedString, NSDictionary, RTIInputSystemSourceSession, UITextInteractionAssistant, UIView;
+@protocol UISelectionInteractionAssistant, UITextInputSuggestionDelegate;
 
 @protocol UITextInputPrivate
-- (UITextInteractionAssistant *)1¢!0@ù
-× ;
-- (struct _NSRange)üFù	1¢!0@ù
-× ;
-- (void): /* Error: Ran out of types for this method. */;
-- (_Bool)ottom;
+- (UITextInteractionAssistant *)mPosition:toBoundary:inDirection: /* Error: Ran out of types for this method. */;
+- (void)eparator: /* Error: Ran out of types for this method. */;
 
 @optional
+- (NSDictionary *)actionCommitAnimating>"32;
+- (void)ctions;
+- (void)rgins:(long long)arg1;
+- (struct CGRect)nimations;
+- (id <UISelectionInteractionAssistant>)t={CGPoint=dd}{CGSize=dd}},N,Vrect;
+- (_Bool),N;
+- (NSAttributedString *),ä;
+- (void)H;
+- (UIView *)È;
 - (void);
-- (_Bool);
-- (_Bool);
-- (void)4@H;
-- (void);
-- (void)tform:(UITextRange *)arg1 fontScalingFactor:(NSAttributedString *)arg2;
-- (void)delegateSupportsCreateScrubberController"b1"delegateSupportsCreateTypesetViewController"b1"delegateSupportsCreateTypesetImage"b1"delegateSupportsCreateTypesetImageFromUUID"b1"delegateSupportsSetShouldSolve"b1"delegateSupportsSetShouldSolveUndoable"b1"delegateSupportsAnySetShouldSolve"b1"delegateSupportsSelectStrokes"b1"delegateSupportsTimestampForLatestUserInteraction"b1"delegateSupportsWillPresentPopoverUI"b1"delegateSupportsDidDismissPopoverUI"b1"delegateSupportsResultForLocale"b1};
-- (_Bool)rgetElementContent:,V__targetElementContent /* Error: Ran out of types for this method. */;
-- (void)"NSThread";
-- (_Bool);
-- (UIView *);
-- (long long)
-× ;
-- (UIView *)0@ù
-× ;
-- (NSDictionary *):8@"UICollectionView"16@"UICollectionViewCell"24@"NSIndexPath"32 /* Error: Ran out of types for this method. */;
-- (struct CGRect)i<Ô;
 
 // Remaining properties
 @property(readonly, nonatomic) RTIInputSystemSourceSession *_rtiSourceSession;

@@ -25,10 +25,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
+- (id)lineSchedulerMode;
+- (id)et Collection Action Performers/People/PXPhotoKitRenamePersonActionPerformer.m;
 - (void);
 
 // Remaining properties

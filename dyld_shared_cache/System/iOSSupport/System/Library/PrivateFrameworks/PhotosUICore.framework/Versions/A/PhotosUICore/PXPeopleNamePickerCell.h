@@ -14,10 +14,10 @@
 
 - (void);
 - (id);
+- (void);
+- (id)yAssetsDataSourceManagerConfiguration",R,N,V_configuration;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)¯Æÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *baseConstraints; // @synthesize baseConstraints=_baseConstraints;

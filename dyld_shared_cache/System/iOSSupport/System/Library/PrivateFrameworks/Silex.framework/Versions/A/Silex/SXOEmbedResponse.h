@@ -12,10 +12,10 @@
 {
 }
 
-+ (id);
++ (id),V_toolbarItems;
 - (double);
-- (struct CGSize);
 - (id);
+- (struct CGSize):drawViewForRowAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *authorName; // @dynamic authorName;

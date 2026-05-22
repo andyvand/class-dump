@@ -16,7 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Qï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) SXColumnCalculator *columnCalculator; // @synthesize columnCalculator=_columnCalculator;

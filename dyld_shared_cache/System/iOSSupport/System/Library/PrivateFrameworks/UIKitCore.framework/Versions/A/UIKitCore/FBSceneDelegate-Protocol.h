@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBScene;
-
 @protocol FBSceneDelegate
 
 @optional
-- (void)MediaDeclaration_MediaItems;
-- (void)ÔaoÐ!üEùÑÁÐ1¢!0@ù
+- (void)ù
 × ;
-- (void)× ;
-- (void):(FBScene *)arg1;
+- (void)@ù
+× ;
+- (void)hAutolayoutEngineForSizingInfo;
+- (void)xtent;
 @end
 

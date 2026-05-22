@@ -5,9 +5,9 @@
 // Global C++ functions
 
 _Block_destructInstance;
-_Block_destructInstance_default(void const*);
 _Block_release_object;
-_Block_release_object_default(void const*);
 _Block_retain_object;
-_Block_retain_object_default(void const*);
-hasInlineExtendedLayout(Block_layout*);
+auto _Block_destructInstance_default(void const*);
+auto _Block_release_object_default(void const*);
+auto _Block_retain_object_default(void const*);
+auto hasInlineExtendedLayout(Block_layout*);

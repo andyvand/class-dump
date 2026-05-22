@@ -4,6 +4,6 @@
 
 class TLE::RefCounted {
 public: // (access info unavailable from symbols alone)
-    release();
+    auto release();
     ~RefCounted();
 };

@@ -14,8 +14,8 @@
     MISSING_TYPE *offset;
 }
 
-- (struct CGSize);
 - (id);
+- (struct CGSize);
 - (id);
 
 // Remaining properties

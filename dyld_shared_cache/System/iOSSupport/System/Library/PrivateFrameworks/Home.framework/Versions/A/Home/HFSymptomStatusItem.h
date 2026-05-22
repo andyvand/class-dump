@@ -16,7 +16,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)(I0I´IK;
 
 // Remaining properties
 @property(readonly, nonatomic) HMSymptom *symptom; // @synthesize symptom=_symptom;

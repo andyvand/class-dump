@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)|%{public}@ %{public}@ %2i %{public}@  â alternate:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak AVPlayerItem *playerItem; // @synthesize playerItem=_playerItem;

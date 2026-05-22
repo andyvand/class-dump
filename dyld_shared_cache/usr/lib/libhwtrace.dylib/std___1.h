@@ -4,12 +4,14 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __call_once(unsigned long volatile&, void*, void (*)(void*));
-    __next_prime(unsigned long);
-    __thread_local_data();
-    __throw_system_error(int, char const*);
-    generic_category();
-    system_category();
-    to_string(unsigned long long);
-    to_string(unsigned long);
+    auto __call_once(unsigned long volatile&, void*, void (*)(void*));
+    auto __next_prime(unsigned long);
+    auto __thread_local_data();
+    auto __throw_system_error(int, char const*);
+    auto generic_category();
+    auto system_category();
+    auto to_string(unsigned long long);
+    auto to_string(unsigned long);
+    std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> operator+<char, std::__1::char_traits<char>, std::__1::allocator<char>>(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    void __sort<std::__1::__less<unsigned long long, unsigned long long>&, unsigned long long*>(unsigned long long*, unsigned long long*, std::__1::__less<unsigned long long, unsigned long long>&);
 };

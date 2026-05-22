@@ -4,15 +4,15 @@
 
 class icu::CollationFastLatin {
 public: // (access info unavailable from symbols alone)
-    compareUTF16(unsigned short const*, unsigned short const*, int, char16_t const*, int, char16_t const*, int);
-    compareUTF8(unsigned short const*, unsigned short const*, int, unsigned char const*, int, unsigned char const*, int);
-    getCases(unsigned int, signed char, unsigned int);
-    getOptions(icu::CollationData const*, icu::CollationSettings const&, unsigned short*, int);
-    getQuaternaries(unsigned int, unsigned int);
-    getSecondaries(unsigned int, unsigned int);
-    getTertiaries(unsigned int, signed char, unsigned int);
-    lookup(unsigned short const*, int);
-    lookupUTF8(unsigned short const*, int, unsigned char const*, int&, int);
-    lookupUTF8Unsafe(unsigned short const*, int, unsigned char const*, int&);
-    nextPair(unsigned short const*, int, unsigned int, char16_t const*, unsigned char const*, int&, int&);
+    auto compareUTF16(unsigned short const*, unsigned short const*, int, char16_t const*, int, char16_t const*, int);
+    auto compareUTF8(unsigned short const*, unsigned short const*, int, unsigned char const*, int, unsigned char const*, int);
+    auto getCases(unsigned int, signed char, unsigned int);
+    auto getOptions(icu::CollationData const*, icu::CollationSettings const&, unsigned short*, int);
+    auto getQuaternaries(unsigned int, unsigned int);
+    auto getSecondaries(unsigned int, unsigned int);
+    auto getTertiaries(unsigned int, signed char, unsigned int);
+    auto lookup(unsigned short const*, int);
+    auto lookupUTF8(unsigned short const*, int, unsigned char const*, int&, int);
+    auto lookupUTF8Unsafe(unsigned short const*, int, unsigned char const*, int&);
+    auto nextPair(unsigned short const*, int, unsigned int, char16_t const*, unsigned char const*, int&, int&);
 };

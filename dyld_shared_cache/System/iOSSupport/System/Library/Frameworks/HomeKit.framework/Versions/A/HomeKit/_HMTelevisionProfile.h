@@ -25,10 +25,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id)mmand ids;
+- (id);
+- (void)osystem",C,D;
 - (id);
 
 // Remaining properties

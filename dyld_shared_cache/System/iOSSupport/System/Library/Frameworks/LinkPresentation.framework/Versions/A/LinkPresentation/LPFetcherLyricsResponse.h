@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id)ä;
+- (id);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) LPLyricExcerptMetadata *lyrics; // @synthesize lyrics=_lyrics;

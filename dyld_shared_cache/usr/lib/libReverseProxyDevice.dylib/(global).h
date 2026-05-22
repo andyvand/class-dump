@@ -4,17 +4,17 @@
 
 // Global C++ functions
 
-BlockInvoker(RPSocket_s*, unsigned long, void const*);
-FinalizeRPSocket(RPSocket_s*);
-RPSocketCopyDescription(RPSocket_s*);
-add_synced_to_queue_hint(dispatch_queue_s*, dispatch_queue_s*);
-operator delete(void*);
-operator new(unsigned long);
-rps_sockaddr_to_string(char*, unsigned long, sockaddr const*, char const*);
+auto BlockInvoker(RPSocket_s*, unsigned long, void const*);
+auto FinalizeRPSocket(RPSocket_s*);
+auto RPSocketCopyDescription(RPSocket_s*);
+auto add_synced_to_queue_hint(dispatch_queue_s*, dispatch_queue_s*);
+auto rps_sockaddr_to_string(char*, unsigned long, sockaddr const*, char const*);
 typeinfo for RPSocket;
 typeinfo for RPSocket_fd;
 typeinfo name for RPSocket;
 typeinfo name for RPSocket_fd;
+void * operator new(unsigned long);
+void operator delete(void*);
 vtable for RPSocket;
 vtable for RPSocket_fd;
 vtable for __cxxabiv1::__class_type_info;

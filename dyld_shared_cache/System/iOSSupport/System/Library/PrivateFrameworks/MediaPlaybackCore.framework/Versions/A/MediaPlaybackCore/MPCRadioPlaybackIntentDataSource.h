@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)countActive:(id)arg1;
-+ (_Bool)second;
-- (void)4;
++ (_Bool);
++ (_Bool);
+- (void);
 
 @end
 

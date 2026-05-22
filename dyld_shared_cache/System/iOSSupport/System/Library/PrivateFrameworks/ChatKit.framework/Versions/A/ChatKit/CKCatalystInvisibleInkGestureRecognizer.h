@@ -20,20 +20,20 @@
 - (_Bool);
 - (void);
 - (id);
-- (struct CGPoint)R";
+- (struct CGPoint);
 - (void);
-- (void);
+- (void);
+- (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)\h§ÿÕ¾Xh§ÿ;
 - (_Bool);
-- (_Bool)èó;
+- (void);
+- (_Bool);
+- (void)dOnCompletion;
+- (void)isWatchOS;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UITouch *firstTouch; // @synthesize firstTouch=_firstTouch;

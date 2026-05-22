@@ -102,8 +102,8 @@
 - (unsigned int);
 - (void);
 - (long long);
-- (id);
 - (void);
+- (id);
 - (_Bool);
 - (struct _NSRange);
 - (void);
@@ -111,13 +111,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (long long);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

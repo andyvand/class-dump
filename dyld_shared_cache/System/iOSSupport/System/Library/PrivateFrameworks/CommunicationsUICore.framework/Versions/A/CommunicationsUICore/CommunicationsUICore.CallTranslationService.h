@@ -30,8 +30,8 @@
     MISSING_TYPE *transcriptCancellable;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

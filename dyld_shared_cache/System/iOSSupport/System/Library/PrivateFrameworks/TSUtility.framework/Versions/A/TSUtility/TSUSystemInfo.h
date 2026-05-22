@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
 + (id);
 + (id);
 + (id);
++ (id)aderDataForEntry: /* Error: Ran out of types for this method. */;
 
 @end
 

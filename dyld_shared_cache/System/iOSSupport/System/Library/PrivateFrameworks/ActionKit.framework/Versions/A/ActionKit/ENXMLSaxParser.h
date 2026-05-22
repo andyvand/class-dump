@@ -152,19 +152,20 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void)value></fault></methodResponse>;
-- (void)¥q°w&;
-- (_Bool);
 - (void);
-- (void)ôóæÿuo|*0;
 - (void);
+- (_Bool)1B50@ù
+× ;
+- (void)">24;
+- (void)oÿ3Wö$¢íRcº:(id)arg1 z'H>¿fqÛïz»0ëîNX °w­B¥ çÀE_°ÒÃÓ^G 6¼O·á<x^ÒàeùÏ¥¶£-H.ÇîXéU[DÅ¹£8m(]o~PæAß/q	íTV´±Ú·#¬Ó§)qG;
 
 // Remaining properties
 @property(nonatomic) __weak id <ENXMLSaxParserDelegate> delegate; // @synthesize delegate=_delegate;

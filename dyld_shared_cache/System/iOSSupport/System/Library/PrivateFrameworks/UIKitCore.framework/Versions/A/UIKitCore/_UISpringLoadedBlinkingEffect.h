@@ -13,12 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)°!@ùqÁ°1¢!0@ù
-× ;
-- (void)IContextMenuSelectionDelayGestureRecognizer";
-- (id)terizationAfterAnimation: /* Error: Ran out of types for this method. */;
-- (id)itleViewCompressionResistancePriority;
-- (void)gController;
+- (void);
+- (void);
+- (id)acðgi;
+- (void)û!é?Ò!3|Ù@;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *blinkLayer; // @synthesize blinkLayer=_blinkLayer;

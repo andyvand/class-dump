@@ -19,9 +19,11 @@
     MISSING_TYPE *_backgroundScrollTransitionProgress;
     MISSING_TYPE *_previousBackgroundScrollTransitionProgress;
     MISSING_TYPE *_transitionProgress;
+    MISSING_TYPE *_keyboardCrossFadeOpacity;
     MISSING_TYPE *_buttonAppearance;
     MISSING_TYPE *_standardBackgroundAppearance;
     MISSING_TYPE *_scrollEdgeBackgroundAppearance;
+    MISSING_TYPE *ignoresAnimationForNextUpdate;
     MISSING_TYPE *_isSearchCollapsed;
     MISSING_TYPE *_attachedMargin;
     MISSING_TYPE *_items;

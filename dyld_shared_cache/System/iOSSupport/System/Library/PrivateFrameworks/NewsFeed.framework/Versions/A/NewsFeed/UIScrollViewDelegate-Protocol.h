@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
+@class UIView;
 
 @protocol UIScrollViewDelegate
 
 @optional
-- (void);
-- (void)Identifier:(UIScrollView *)arg1;
-- (void)´½õÿøõÿ;
-- (void)nd;
+- (void)d19FormatViewNodeStyle;
+- (void)nOrEqual;
+- (UIView *);
+- (void);
 @end
 

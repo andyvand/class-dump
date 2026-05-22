@@ -26,6 +26,7 @@
     MISSING_TYPE *deferredPlaybackRateForNextSetQueue;
     MISSING_TYPE *playbackStallTimer;
     MISSING_TYPE *unloadingTimer;
+    MISSING_TYPE *validationTask;
     MISSING_TYPE *synchronizingToPlayer;
     MISSING_TYPE *restoringOutgoingItem;
     MISSING_TYPE *setQueueState;

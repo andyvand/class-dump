@@ -22,7 +22,7 @@
 - (void);
 - (double);
 - (void);
-- (void)Ð&u;
+- (void)initial-suggestion-group;
 
 @end
 

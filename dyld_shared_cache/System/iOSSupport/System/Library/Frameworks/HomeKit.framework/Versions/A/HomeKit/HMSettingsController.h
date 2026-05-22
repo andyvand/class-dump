@@ -22,7 +22,7 @@
     NSString *_codingKey;
 }
 
-+ (id)temComponent;
++ (id)tonPresentedCount;
 - (void);
 - (id);
 - (id);
@@ -44,15 +44,15 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void)ticInfo;
 
 // Remaining properties
 @property(readonly) NSString *codingKey; // @synthesize codingKey=_codingKey;

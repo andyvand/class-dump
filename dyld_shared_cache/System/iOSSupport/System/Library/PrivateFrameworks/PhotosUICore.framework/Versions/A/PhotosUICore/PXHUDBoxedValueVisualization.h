@@ -11,8 +11,8 @@
     id _value;
 }
 
-- (id);
 - (void);
+- (id)Snapshot: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

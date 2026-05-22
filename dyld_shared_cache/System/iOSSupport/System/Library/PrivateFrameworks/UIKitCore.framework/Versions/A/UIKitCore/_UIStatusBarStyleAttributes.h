@@ -25,47 +25,51 @@
     NSArray *_imageNamePrefixes;
 }
 
-+ (id)Ô ;
-+ (id)
-× ;
-+ (_Bool)ÀGjÿ>;
++ (id);
++ (id);
++ (_Bool)chy up
+;
+- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);
-- (id);
-- (long long)ror: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool),&,N,V_m_RansacHomographies;
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (long long)&º;
-- (id)Ô ;
-- (void)Ô ;
-- (long long)0@ù
+- (id)¨Dù_ð1Â0@ù
 × ;
-- (void)RespondsToShouldResetFocusBeforeIteration"b1};
-- (id)oundAndContentViewUpdate;
-- (void)sGesture:(id)arg1 gestureScale:gestureRotation: /* Error: Ran out of types for this method. */;
-- (id)isplayedMenu;
-- (void)TitleAndButtons;
-- (id)eHierarchy: /* Error: Ran out of types for this method. */;
-- (_Bool),&,N,V_cachedPredictiveViewControllers;
-- (void)%;
-- (void)epresent an active popover presentation:(id)arg1 %@;
-- (void)environment's request from being accepted by the focus system (these will be ignored for the purposes of this test):(_Bool)arg1;
-- (void)storation for UIViewController has presented view controller, but view controller is either not in a window, or the window is hidden, or we have a current context presentation which needs to be deferred until after layout has run. Deferring presentation which might cause flashing when presentation is made after a turn of the run loop:(id)arg1 self:%@, presented view controller:%@ /* Error: Ran out of types for this method. */;
-- (void)mojis;
-- (long long);
-- (void);
+- (id)Â0@ù
+× ;
+- (long long)iew";
+- (_Bool)d}24@0:(id)arg1 8@"<UICoordinateSpace>"16;
 - (id);
-- (id)!Z];
-- (void)Ç0^;
-- (double)1ÛR^;
+- (void)s:(id)arg1 traitCollection:maxFrameCount:layoutRTL:preferredSizes:largestKnownItemSize: /* Error: Ran out of types for this method. */;
+- (void)dropViewForConfig:(id)arg1;
+- (void)mationDidStopWithAutocorrectionView:(id)arg1;
+- (id)Visible;
+- (void):(id)arg1;
+- (id)sistant;
+- (_Bool)r: /* Error: Ran out of types for this method. */;
+- (id)ions:(struct _NSZone *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)eline;
+- (id),ââdä;
+- (long long)üMþÿNþÿ4NþÿPNþÿlNþÿNþÿ¤NþÿÀNþÿÜNþÿøNþÿOþÿ0OþÿLOþÿhOþÿOþÿ Oþÿ¼OþÿØOþÿôOþÿPþÿ,PþÿXPþÿtPþÿPþÿ¬PþÿÈPþÿäPþÿ;
+- (void)nal inconsistency:(id)arg1 expected collapsed layout. Split view controller:%@ /* Error: Ran out of types for this method. */;
+- (void)ta at path %@:(id)arg1 %s;
+- (void)ock != NULL;
+- (void)View-leadingLabel-leading;
+- (long long);
+- (id)tAnimatablePropertyC;
+- (double)¥;
+- (void);
+- (void)UUUU%@NozÓÞô?Ï÷Sã¥Û(@mçû©ñB@ÀÊ¡E;@ôýÔxé&3@bX9´2@hí|?;@ClÇ2@°rhí¼;@yé&1l2@^ºIk:(long long)arg1 @çû©ñÒM1@çû©ñÒ-;@nÀÊ0@5^ºIB1@ /Ý$6@#Ûù~j<@V-3@nÀÊ@°rhí¼6@7A`åÐ@ã¥Ä Ð4@î|?5^º÷?¶óýÔxé@òÒMbØ4@î|?5^ú5@^ºI«@d;ßO75@?5^ºI@mçû©ñ5@ÙÎ÷S@þÔxé&±6@bX9´H@¸ëQ87@Clç{-@ÁÊ¡E¶ó#@òÒMbØA@ /Ý$"@®GázÄB@9´Èv¾_&@lçû©AC@ÙÎ÷Ó;@yé&1,4@ð§ÆK7I1@¼tVî?+ÙÎ@çû©ñÒí2@=
+×£pý5@Ý$Cù?B`åÐ"Û3@5^ºIó?A`åÐâ4@Å °rh@shí|_8@¸ëQ¸@=
+×£p=:@nÀ$@Âõ(\@
+×£p=ZA@¸ëQ¸@ /* Error: Ran out of types for this method. */;
+- (void)ð)¸þ;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long effectiveLayoutDirection; // @synthesize effectiveLayoutDirection=_effectiveLayoutDirection;

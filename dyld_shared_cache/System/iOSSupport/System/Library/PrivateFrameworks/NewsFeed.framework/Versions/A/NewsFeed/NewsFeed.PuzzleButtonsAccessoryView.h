@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void)rl:userAgent:request:withPersistence: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 @end
 

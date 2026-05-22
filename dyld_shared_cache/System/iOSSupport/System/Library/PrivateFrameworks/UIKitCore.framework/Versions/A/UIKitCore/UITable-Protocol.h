@@ -7,20 +7,11 @@
 @class UIColor, UIScrollView;
 
 @protocol UITable
-- (void)rtex Program string from PPStream;
-- (_Bool);
-- (struct UIEdgeInsets)yle:account: /* Error: Ran out of types for this method. */;
-- (double)son;
-- (double)ersationType;
-- (UIColor *):syncStateManager: /* Error: Ran out of types for this method. */;
-- (double)vel: /* Error: Ran out of types for this method. */;
-- (double)Ôt!CùñÇ1¢!0@ù
+- (double)1Â0@ù
 × ;
-- (double)GRect={CGPoint=dd}{CGSize=dd}}24@0:8@"UIView"16 /* Error: Ran out of types for this method. */;
-- (double)mator: /* Error: Ran out of types for this method. */;
-- (_Bool)ageNamed:capInsets:resizingMode:duration: /* Error: Ran out of types for this method. */;
-- (_Bool)ousCornerRadius;
-- (UIScrollView *)4X;
+- (double)ns;
+- (UIScrollView *); ;
+- (struct UIEdgeInsets)ion;
 
 // Remaining properties
 @property(nonatomic, setter=_setHeadersHugContent:) _Bool _sectionHeadersHugContent;

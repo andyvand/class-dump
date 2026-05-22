@@ -5,9 +5,6 @@
 //
 
 @protocol MPCQueueControllerBehaviorTransitionTogglableImplementation
-- (_Bool)rotolist__DATA_CONST;
-- (void);
-- (_Bool)ers:(id *)arg1 error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double crossfadeDuration;

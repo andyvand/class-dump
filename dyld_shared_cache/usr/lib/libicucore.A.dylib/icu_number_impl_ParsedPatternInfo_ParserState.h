@@ -4,7 +4,7 @@
 
 class icu::number::impl::ParsedPatternInfo::ParserState {
 public: // (access info unavailable from symbols alone)
-    next();
-    peek();
-    peek2();
+    auto next();
+    auto peek();
+    auto peek2();
 };

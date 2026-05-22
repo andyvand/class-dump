@@ -27,9 +27,9 @@
 - (id);
 - (void);
 - (unsigned int);
-- (void);
-- (void);
 - (id);
+- (void)permission upon insertion for additional content destination %@ for action %@;
+- (void)WillLaunchInForegroundForRunningContext:isLastAction:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)_attributionView;
 
 // Remaining properties
 @property(readonly, nonatomic) long long carouselContext;

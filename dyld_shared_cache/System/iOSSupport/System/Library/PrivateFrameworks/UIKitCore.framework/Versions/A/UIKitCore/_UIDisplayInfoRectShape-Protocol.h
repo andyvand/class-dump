@@ -5,7 +5,7 @@
 //
 
 @protocol _UIDisplayInfoRectShape
-- (struct CGRect)Ê&[;
+- (struct CGRect)extNeedsCompositingModeWhenSelected;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect rect;

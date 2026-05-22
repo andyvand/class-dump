@@ -14,10 +14,10 @@
 
 - (id);
 - (id);
-- (unsigned long long);
 - (void);
 - (unsigned long long);
-- (void)selectedRoom;
+- (void);
+- (unsigned long long)andler did not receive any events.;
 
 // Remaining properties
 @property(nonatomic) unsigned long long timeContext; // @synthesize timeContext=_timeContext;

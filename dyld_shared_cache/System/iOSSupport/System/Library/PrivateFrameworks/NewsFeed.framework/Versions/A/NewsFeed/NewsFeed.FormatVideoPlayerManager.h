@@ -28,6 +28,7 @@
     MISSING_TYPE *adJournal;
     MISSING_TYPE *sceneProvider;
     MISSING_TYPE *offlineAlertControllerFactory;
+    MISSING_TYPE *restrictionManager;
 }
 
 - (void);
@@ -35,7 +36,9 @@
 - (void);
 - (void);
 - (void);
-- (void)};
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,6 +48,7 @@
 - (id);
 - (void);
 - (id);
+- (void)D=yþ;
 
 @end
 

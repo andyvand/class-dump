@@ -11,10 +11,10 @@
     UIView *_previewView;
 }
 
-+ (id)eyTransparencyProtocol>",N,R;
-- (id)ted;
-- (void);
-- (id)ÔW©a;
++ (id);
+- (id);
+- (void)(a;
+- (id)ÿ³$×g;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_previewView; // @synthesize _previewView;

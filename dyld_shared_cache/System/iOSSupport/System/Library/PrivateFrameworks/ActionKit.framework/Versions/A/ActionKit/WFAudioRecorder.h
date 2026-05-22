@@ -35,22 +35,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
+- (long long);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)e;
+- (void).;
+- (id)(Default Output Name);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)ÎF÷Å¡¯w``u NþËØè°ùªz~ªùL\ÂHûäjÃùáëÖiøÔ Þ\¦-%	?æÂ2aN·[âwÎãßWærÃ:(_Bool)arg1;
-- (long long)X9I|êjåÒ&úrZ¬ªhÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÉÚ¢!hÂ4ÄÆbÜÑ)NgÌt¾¦;"QJy4Ýï³Í:C0+
-mò_7Oá5mmQÂEäµvb^~ÆôLBé¦7íkÿ\¶ô·íî8kûZ¥®$|KæI(fQìæSÿÿÿÿÿÿÿÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

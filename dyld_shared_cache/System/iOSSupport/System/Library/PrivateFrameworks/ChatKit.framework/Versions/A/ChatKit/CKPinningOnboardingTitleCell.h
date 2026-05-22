@@ -19,29 +19,29 @@
 }
 
 + (id);
-- (id)OfLegacyAccounts;
-- (id)ssetWithCompletion: /* Error: Ran out of types for this method. */;
-- (void)a:(id)arg1 type:insideSystemPaper: /* Error: Ran out of types for this method. */;
-- (void)Indexes;
-- (void)s:(long long)arg1;
-- (void)t",&,N,V_associatedObjectIdentifiers;
-- (void)ayer;
-- (void)_textAttachment;
-- (void)CListStatusIndicatorColor;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (double);
-- (double);
+- (double);
 - (long long);
 - (id);
-- (id)v;
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
-- (id)KChatItems;
-- (id)].;
+- (id);
+- (void)ÿ5';
+- (id)`;
 
 // Remaining properties
 @property(nonatomic) _Bool isInCollapsedState; // @synthesize isInCollapsedState=_isInCollapsedState;

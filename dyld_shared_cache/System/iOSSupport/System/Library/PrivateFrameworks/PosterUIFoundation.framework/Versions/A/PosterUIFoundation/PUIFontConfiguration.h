@@ -19,16 +19,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

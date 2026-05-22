@@ -17,13 +17,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
-- (void);
 - (MISSING_TYPE *);
-- (void)on: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void):8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) MISSING_TYPE *velocity;

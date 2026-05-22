@@ -13,13 +13,13 @@
 }
 
 + (id);
-- (void);
-- (id);
-- (id);
-- (void)	;
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

@@ -21,9 +21,9 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)houldScrollToTop: /* Error: Ran out of types for this method. */;
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) MKMapItem *destinationMapItem; // @synthesize destinationMapItem=_destinationMapItem;

@@ -25,10 +25,12 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (id)_font;
-- (void)#;
+- (void)Ññð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PREditorColorPickerConfiguration *configuration; // @synthesize configuration=_configuration;

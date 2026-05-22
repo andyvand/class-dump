@@ -28,11 +28,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)òIÿÿt_þÿ;
 
 @end
 

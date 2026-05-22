@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,23 +39,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)DSSession"32@"NSString"40@"NSData"48;
-- (void)40@"NSDictionary"48;
-- (void)q40q48;
-- (void)ext"48;
-- (id)dRequest;
-- (void)r %@, has expressive send;
-- (id)g;
-- (_Bool)rs of service switch request for chat %@;
-- (id);
 - (void);
-- (struct CGRect)!0@ù±Å°1¢!0@ù
-× ;
-- (void)tentUnavailableConfigurationWithObservationTracking;
-- (id)lledSubview:atZIndex:forced:initialAttributes: /* Error: Ran out of types for this method. */;
-- (void)paratorAtTopOfSection;
-- (id)action token. Expected:%@; Received:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)ive;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void)er:(id)arg1;
+- (id)4û;
+- (void)_internalState. Logging code needs updating;
+- (unsigned long long)(<=serviceSceneMaxSizeV@1000)]-(0@990)-|;
+- (struct CGRect)ELF;
+- (void)K\;
 
 // Remaining properties
 @property(retain, nonatomic) UIEditMenuConfiguration *activeConfiguration; // @synthesize activeConfiguration=_activeConfiguration;

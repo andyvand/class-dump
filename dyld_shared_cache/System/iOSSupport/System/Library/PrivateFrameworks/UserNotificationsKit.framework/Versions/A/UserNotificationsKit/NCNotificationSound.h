@@ -28,20 +28,20 @@
 - (id);
 - (id);
 - (double);
+- (id);
+- (id);
+- (id);
 - (unsigned int);
+- (_Bool);
 - (unsigned long long);
 - (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) TLAlertConfiguration *alertConfiguration; // @synthesize alertConfiguration=_alertConfiguration;

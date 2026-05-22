@@ -33,14 +33,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
-- (CDUnknownBlockType);
 - (id);
+- (id);
+- (CDUnknownBlockType)ver: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)Button;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

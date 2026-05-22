@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id)edMessageReleaseWithAllowedMessage:(id)arg1 outgoingProxyBlock: /* Error: Ran out of types for this method. */;
-- (void)¸o º;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *smartActionResponse; // @synthesize smartActionResponse=_smartActionResponse;

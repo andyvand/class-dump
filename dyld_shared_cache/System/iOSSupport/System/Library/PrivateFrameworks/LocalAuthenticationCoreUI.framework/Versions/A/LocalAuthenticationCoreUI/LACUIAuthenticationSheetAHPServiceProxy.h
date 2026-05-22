@@ -19,9 +19,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

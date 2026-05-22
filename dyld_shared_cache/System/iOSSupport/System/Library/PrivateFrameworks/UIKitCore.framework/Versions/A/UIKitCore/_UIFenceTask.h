@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
     BKSProcessAssertion *_assertion;
 }
 
-+ (_Bool)¸;
-- (void)ryModifyLibraryAddedItemsNotification();
-- (void)A;
++ (_Bool);
+- (void);
 - (id);
-- (void)K0ô;
+- (void);
+- (void)ÊºÙÔ\;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

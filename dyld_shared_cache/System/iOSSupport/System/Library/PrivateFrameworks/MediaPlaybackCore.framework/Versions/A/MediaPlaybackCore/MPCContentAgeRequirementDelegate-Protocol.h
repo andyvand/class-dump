@@ -5,6 +5,5 @@
 //
 
 @protocol MPCContentAgeRequirementDelegate
-- (void)tStore"24^@32;
 @end
 

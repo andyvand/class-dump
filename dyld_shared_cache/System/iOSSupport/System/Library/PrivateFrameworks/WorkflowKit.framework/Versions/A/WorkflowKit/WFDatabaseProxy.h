@@ -12,7 +12,7 @@
     NSXPCConnection *_lock_databaseProxyHostConnection;
 }
 
-+ (id)õÿü½Ú±S;
++ (id)>;
 - (id);
 - (void);
 - (id);
@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id)NST;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,9 +38,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)Name);
+- (id);
+- (void)Take video with ${WFCameraCaptureDevice} camera;
 
 @end
 

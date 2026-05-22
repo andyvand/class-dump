@@ -24,8 +24,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)ct",R,N,V_original;
 
 @end
 

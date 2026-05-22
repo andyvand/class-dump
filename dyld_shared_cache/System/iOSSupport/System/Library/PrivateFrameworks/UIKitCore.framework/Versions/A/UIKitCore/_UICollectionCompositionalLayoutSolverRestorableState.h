@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
     NSIndexSet *_orthogonalSectionIndexes;
 }
 
-- (void);
-- (void);
-- (id)p[;
+- (id);
+- (void)xtInRange:(id)arg1 animated:preferredUUID: /* Error: Ran out of types for this method. */;
+- (void)Pú];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

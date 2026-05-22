@@ -29,12 +29,12 @@
 - (void);
 - (void);
 - (double);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)¼Ý;
+- (void);
+- (void)AlertDescription_Owner;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentForceMultiplier;

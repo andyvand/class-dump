@@ -12,12 +12,12 @@
 {
 }
 
-- (id)uted string from length %lu markdown string;
-- (struct CGSize)to %@;
-- (id)note:(id)arg1 %@;
-- (unsigned long long)edText: /* Error: Ran out of types for this method. */;
-- (id)äá;
 - (id);
+- (struct CGSize);
+- (id);
+- (id);
+- (unsigned long long)gItem:session: /* Error: Ran out of types for this method. */;
+- (id)~ÿ¡Üi2;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date;

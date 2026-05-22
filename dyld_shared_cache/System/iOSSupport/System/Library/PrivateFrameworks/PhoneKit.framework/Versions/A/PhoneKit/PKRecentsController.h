@@ -121,30 +121,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (struct os_unfair_lock_s);
@@ -153,12 +136,30 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id)ðDùQ(1b0@ù
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)!0Aù±õð1â
+0@ù
 × ;
-- (void)N,V_delegateToQueue;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNCoreRecentsChangeNotifier *acceptedIntroductionsNotifier; // @synthesize acceptedIntroductionsNotifier=_acceptedIntroductionsNotifier;

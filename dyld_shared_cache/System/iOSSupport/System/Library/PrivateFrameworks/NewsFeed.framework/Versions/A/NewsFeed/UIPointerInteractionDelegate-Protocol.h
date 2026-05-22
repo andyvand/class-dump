@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPointerRegion;
+@class UIPointerRegion, UIPointerStyle;
 
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (UIPointerRegion *);
-- (void)©Ð¨¾;
-- (void)¹å¿ÔØ;
+- (UIPointerRegion *)oolpY_0A5GroupjvYQZG;
+- (UIPointerStyle *);
+- (void)m; ¬þ];¬þM;¬þ;
+- (void);
 @end
 

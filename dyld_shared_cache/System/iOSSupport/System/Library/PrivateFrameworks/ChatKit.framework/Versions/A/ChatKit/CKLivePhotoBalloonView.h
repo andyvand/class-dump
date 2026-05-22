@@ -23,16 +23,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)at is not a gallery sub attachment;
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id)VHV
- VÐV
-0WtW;
+- (id);
+- (void)Ì;
 
 // Remaining properties
 @property(retain, nonatomic) PHLivePhoto *livePhoto; // @synthesize livePhoto=_livePhoto;

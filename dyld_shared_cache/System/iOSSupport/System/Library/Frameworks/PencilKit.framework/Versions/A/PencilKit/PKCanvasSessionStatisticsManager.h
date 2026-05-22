@@ -11,12 +11,12 @@
     NSMutableDictionary *_featureDictionary;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)7;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void),W$X$Y;
 
 @end
 

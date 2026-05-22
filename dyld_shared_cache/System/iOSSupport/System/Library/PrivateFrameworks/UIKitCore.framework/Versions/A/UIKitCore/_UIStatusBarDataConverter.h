@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)CGPoint=dd},N,V_decelerationTarget;
++ (id)t;
 
 @end
 

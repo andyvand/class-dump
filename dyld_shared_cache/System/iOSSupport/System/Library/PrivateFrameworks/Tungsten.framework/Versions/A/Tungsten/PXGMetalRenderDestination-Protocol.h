@@ -8,10 +8,9 @@
 @protocol MTLDevice, MTLTexture, OS_dispatch_queue, PXGMetalRenderDestinationDelegate;
 
 @protocol PXGMetalRenderDestination
-- (CDStruct_3ead2808)eFromSuperViewInfo;
-- (struct CGColorSpace *)_sublayoutDataStore;
-- (void)ground:(struct CGColorSpace *)arg1;
-- (struct CGSize)be handled earlier;
+- (struct CGColorSpace *)pt_cleanUpAfterTest:isScrollTest: /* Error: Ran out of types for this method. */;
+- (long long)ecorations;
+- (void)W,N,V_presentedViewController;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canSetColorSpace;

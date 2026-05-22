@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIKeyboardChangedInformation;
-
 @protocol _UIKeyboardArbitrationClient
-- (void)dTimeBudget;
+- (void)Á;
+- (void)
+× ;
+- (void)dateFormatterForCalendarUnit:(double)arg1;
+- (void)ransitionToWillBegin;
+- (void)aseView;
 - (void);
-- (void);
-- (void)nimated:(void (^)(void))arg1 scrollPosition: /* Error: Ran out of types for this method. */;
-- (void),N,S_setDescriptiveText:(_Bool)arg1 ,V__descriptiveText;
-- (void)ditionalAnimatableKeyPaths,S_setAdditionalAnimatableKeypaths:(_UIKeyboardChangedInformation *)arg1 ,V__additionalAnimatableKeyPaths;
-- (void)dFromWindowsMenu;
+- (void)Èì;
 @end
 

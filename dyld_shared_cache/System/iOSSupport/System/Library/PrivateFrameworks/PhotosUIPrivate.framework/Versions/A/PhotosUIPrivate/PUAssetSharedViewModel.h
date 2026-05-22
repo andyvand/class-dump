@@ -21,29 +21,31 @@ __attribute__((visibility("hidden")))
     long long _flippingFullSizeRenderState;
 }
 
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (unsigned short);
 - (id);
 - (_Bool);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (long long);
-- (void)nt;
-- (id)¬à
+- (void);
+- (id)1â
+0@ù
+× ;
+- (long long)0@ù
+× ;
+- (void)cancellationBarButtonItem;
+- (id)mpledIndexForRealIndexPath: /* Error: Ran out of types for this method. */;
+- (id)undSizeBasedDisplay;
+- (void)motionEffect;
+- (void)geDate;
+- (void)ÌpdD ;
+- (void);
+- (long long))]
 ;
-- (void)Yõÿ:(id)arg1 ðý¹
-;
-- (id)-H;
-- (id);
+- (id)$¦;
+- (id)á;
 
 // Remaining properties
 @property(retain, nonatomic) id <PUDisplayAsset> asset; // @synthesize asset=_asset;

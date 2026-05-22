@@ -8,14 +8,10 @@
 @protocol FCPuzzleTypeProviding;
 
 @protocol FCPuzzleProviding
-- (NSArray *)ation error. Could not allocate record buffer of size:%zu /* Error: Ran out of types for this method. */;
-- (NSString *)uildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/utility/sf/SFUOffsetInputStream.m;
-- (NSString *);
-- (NSString *);
-- (NSDate *)ture;
-- (_Bool)
-× ;
-- (_Bool)le of a tab for the table of contents in the article viewer;
+- (_Bool);
+- (NSDate *)isProxy;
+- (_Bool);
+- (_Bool)ingLocation;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allowedStorefrontIDs;

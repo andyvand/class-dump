@@ -4,24 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBalloonView, NSURL;
-
 @protocol CKBalloonViewDelegate
-- (void)l;
-- (void)b;
-- (void);
-- (void)h;
-- (void);
-
-@optional
-- (void)¯í;
-- (void)MediaURL:(CKBalloonView *)arg1 configuration:(NSURL *)arg2 completion: /* Error: Ran out of types for this method. */;
-- (void)k;
-- (void);
-- (void)e;
-- (void)is at maximum capacity right now. Try again soon.;
-- (void)le.fill;
-- (void)ring"8;
-- (void)Queue;
 @end
 

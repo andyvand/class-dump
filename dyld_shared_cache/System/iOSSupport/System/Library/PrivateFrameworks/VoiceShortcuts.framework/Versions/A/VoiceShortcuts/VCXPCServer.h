@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCInterface, NSXPCListener, NSXPCListenerEndpoint, SwiftVCDaemonXPCEventHandler, VCVoiceShortcutManager, WFContextualActionSpotlightSyncService, WFTopHitsAppShortcutsUpdater, WFTriggerManager, WFTriggerRegistrar, WFWorkflowRunCoordinator;
+@class NSString, NSXPCInterface, NSXPCListener, NSXPCListenerEndpoint, VCVoiceShortcutManager, WFContextualActionSpotlightSyncService, WFTopHitsAppShortcutsUpdater, WFTriggerManager, WFTriggerRegistrar, WFWorkflowRunCoordinator;
 @protocol VCSyncDataEndpoint, WFDatabaseProvider;
 
 @interface VCXPCServer
@@ -18,7 +18,6 @@
     WFTriggerRegistrar *_triggerRegistrar;
     WFWorkflowRunCoordinator *_runCoordinator;
     id <VCSyncDataEndpoint> _syncDataEndpoint;
-    SwiftVCDaemonXPCEventHandler *_eventHandler;
     WFTopHitsAppShortcutsUpdater *_appShortcutsUpdater;
     WFContextualActionSpotlightSyncService *_contextualActionSyncService;
 }
@@ -35,12 +34,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void)JËýÿnÅýÿ;
+- (id)':submitted to run /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) WFTopHitsAppShortcutsUpdater *appShortcutsUpdater; // @synthesize appShortcutsUpdater=_appShortcutsUpdater;
@@ -52,7 +51,6 @@
 
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSXPCListenerEndpoint *endpoint;
-@property(readonly, nonatomic) SwiftVCDaemonXPCEventHandler *eventHandler; // @synthesize eventHandler=_eventHandler;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WFWorkflowRunCoordinator *runCoordinator; // @synthesize runCoordinator=_runCoordinator;
 @property(readonly, nonatomic) _Bool skipEntitlementsCheck; // @synthesize skipEntitlementsCheck=_skipEntitlementsCheck;

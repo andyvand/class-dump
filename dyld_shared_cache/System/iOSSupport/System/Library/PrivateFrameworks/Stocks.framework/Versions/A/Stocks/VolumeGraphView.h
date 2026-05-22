@@ -17,10 +17,10 @@
 
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) StockGraphImageSet *graphImageSet; // @synthesize graphImageSet=_graphImageSet;

@@ -15,7 +15,7 @@
     id _lastGenerationIdentifier;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,23 +24,22 @@
 - (id);
 - (id);
 - (void);
-- (void)8;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (_Bool);
+- (id);
 - (void);
-- (id);
 - (id);
 - (id);
-- (id)iaServicesUI.framework/Versions/A/AppleMediaServicesUI;
-- (void)Á!Ð!Gù1)Ð1¢!0@ù
-× ;
+- (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *cachedContentIndex; // @synthesize cachedContentIndex=_cachedContentIndex;

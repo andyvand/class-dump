@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIControl *proxyControl; // @synthesize proxyControl=_proxyControl;

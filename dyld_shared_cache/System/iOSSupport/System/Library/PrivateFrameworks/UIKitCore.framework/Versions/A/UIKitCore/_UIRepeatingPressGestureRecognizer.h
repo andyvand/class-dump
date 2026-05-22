@@ -20,29 +20,26 @@
 - (void);
 - (double);
 - (long long);
-- (void)$@�;
-- (_Bool);
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void)±Å°1¢!0@ù
-× ;
+- (id)iew"16@"UIMenu"24;
+- (void)requiresColorStatistics;
+- (void)raitOverrideWithSectionContentInsets:(id)arg1;
+- (void)ctiveThemeChangeFromTraitCollection:(id)arg1;
+- (_Bool)NSExtension",&,N,V_photosExtension;
+- (_Bool)ÌÊ¤ËÏ;
+- (id)es;
 - (void);
-- (void)0@ù
-× ;
-- (unsigned long long)!À@ùqÊ°1¢!0@ù
-× ;
-- (void)}16@0:(id)arg1 8;
-- (void)ason:(id)arg1 force:(id)arg2;
-- (void)inateSpace:(id)arg1 searchInfo:(id)arg2 ignoresRootContainerClippingRect: /* Error: Ran out of types for this method. */;
-- (void)lureBlock:(id)arg1;
-- (void)P4ÿÿh4ÿÿ4ÿÿ¬4ÿÿØ4ÿÿ5ÿÿ¨5ÿÿ6ÿÿD6ÿÿl6ÿÿ¬6ÿÿÄ6ÿÿè6ÿÿ;
-- (void)tected;
-- (_Bool)32;
-- (id)th uniformAcrossSiblings dimension:(id)arg1 "%@";
-- (void);
-- (unsigned long long)Hóãþ;
-- (id)°Ú$^;
+- (void); supplementary view:(id)arg1 %@;
+- (void)%d_barStyle:(id)arg1 %d_searchBarStyle:(id)arg2 %lu_backdropStyle:%lu /* Error: Ran out of types for this method. */;
+- (void)tingsProvidingP;
+- (void)´;
+- (void)=X<D\;
+- (unsigned long long)pÜäÖ\;
+- (void)¤x×ÿ´ëË;
 
 // Remaining properties
 @property(nonatomic, setter=_setButtonType:) long long _buttonType;

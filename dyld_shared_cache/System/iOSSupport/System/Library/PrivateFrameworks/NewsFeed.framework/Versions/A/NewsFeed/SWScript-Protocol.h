@@ -7,7 +7,7 @@
 @class NSString, WKUserScript;
 
 @protocol SWScript
-- (NSString *)ÐTòÿèñÿ;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *executableScript;

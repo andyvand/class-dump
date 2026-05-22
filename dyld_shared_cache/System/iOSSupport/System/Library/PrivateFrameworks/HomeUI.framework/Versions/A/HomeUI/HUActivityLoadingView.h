@@ -22,14 +22,14 @@
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
-- (void);
 - (void);
 - (struct CGSize);
+- (void);
 - (id);
-- (id)1b0@ù
+- (id);
+- (struct CGSize)
 × ;
-- (void)_.Àvt;
+- (void)tUp.UsePersonalRequestsButton;
 
 // Remaining properties
 @property(readonly, nonatomic) UIActivityIndicatorView *activityIndicatorView; // @synthesize activityIndicatorView=_activityIndicatorView;

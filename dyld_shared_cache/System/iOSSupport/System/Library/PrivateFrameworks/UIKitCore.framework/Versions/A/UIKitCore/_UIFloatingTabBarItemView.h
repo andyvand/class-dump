@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
     _UIBarBadgeView *_badgeView;
 }
 
-+ (id)tionID:(id)arg1 %@;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -43,47 +43,46 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)"APSConnection"16B24;
-- (void)etNumReadReceiptsV0: /* Error: Ran out of types for this method. */;
-- (void)etchNewestChangesFirst: /* Error: Ran out of types for this method. */;
-- (_Bool)rvice:error:handleResults:isFinal:allAreReachable:allSupportEncryption:didCheckServer: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (struct CGSize)<;
-- (_Bool);
 - (id);
 - (void);
-- (_Bool)comingRecents on a non gizmo. Really bad!!;
-- (_Bool)record attempt %d, trying again in %0.02f seconds;
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (double);
-- (void);
-- (id);
-- (void);
-- (id)
-× ;
-- (unsigned long long)!@ùÊ°1¢!0@ù
-× ;
-- (void)ubbleShapeInRect:(id)arg1 withCornerRadius:forSquaredOffBubble: /* Error: Ran out of types for this method. */;
-- (id)iginalScale: /* Error: Ran out of types for this method. */;
-- (id)ntDecay;
-- (void)aratedContentViewControllerContainerViewContraints;
-- (id)latedDestinationIndexPath,S_setTranslatedDestinationIndexPath:,V_translatedDestinationIndexPath /* Error: Ran out of types for this method. */;
-- (id)N,V_interactionEffect;
-- (void)ÈI;
-- (id)oll event for async delivery %p should never get _removeGestureRecognizersFromWindows;
-- (id)ecked;
-- (id)lementProxy;
-- (id)ayViews;
+- (_Bool);
 - (struct CGSize);
-- (_Bool);
 - (_Bool);
-- (void)¸\;
-- (_Bool)~ý_;
-- (long long)¸ÃÖÜb;
-- (id)¢ÿÄ;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (struct CGSize);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (unsigned long long)1Â0@ù
+× ;
+- (void)aveOperation:(_Bool)arg1;
+- (void)iewControllersToSendViewWillTransitionToSize;
+- (id)tSize;
+- (double)sView;
+- (id)tion",R,N,V_timingFunction;
+- (void);
+- (id)FONT_SMALLER;
+- (id)rstIndex >= _range.location && firstIndex <= maxIndex;
+- (long long);
+- (void);
+- (_Bool);
+- (void);
+- (id)];
+- (id)Ê8w];
+- (_Bool)ÿËÛÐLx^;
+- (_Bool)¬;
 
 // Remaining properties
 @property(readonly, nonatomic) _UITabSelectionView *backgroundView; // @synthesize backgroundView=_backgroundView;

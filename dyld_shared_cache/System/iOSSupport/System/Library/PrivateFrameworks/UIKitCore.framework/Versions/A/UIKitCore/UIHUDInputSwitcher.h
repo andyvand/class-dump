@@ -14,22 +14,21 @@ __attribute__((visibility("hidden")))
     UIInputSwitcherView *m_switcherView;
 }
 
-- (_Bool)_momentShare;
-- (void),V_currentGroupName;
-- (void)UID:(id)arg1 messageDateTS:readDateTS:fromIdentifier:isFromMe:receiptVersion:hadQOI:wantsDeliveryReceipt:messageContext: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)L;
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)has more work to do, but blocked by low power mode;
-- (void)consistent merged chats. Leaving inconsistency as is.;
-- (void)referred group photo among inconsistent merged chats. Leaving inconsistency as is.;
-- (id)ration %@ identifier %@;
+- (_Bool);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (id)redShadowOpacity:,V__preferredShadowOpacity /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)èìg;
 
 @end
 

@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
-- (void)ransform3D=dddddddddddddddd}16@0:8 /* Error: Ran out of types for this method. */;
-- (id)(ÿÍÙ Zc;
+- (id);
+- (void)stemShellHostingSpaceIdentifier:systemDisplayIdentifier: /* Error: Ran out of types for this method. */;
+- (void)0-wÿ;
 
 @end
 

@@ -30,9 +30,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)ÑñÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool colorModified; // @synthesize colorModified=_colorModified;

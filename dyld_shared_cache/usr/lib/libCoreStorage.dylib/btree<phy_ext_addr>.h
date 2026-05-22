@@ -4,6 +4,6 @@
 
 class btree<phy_ext_addr> {
 public: // (access info unavailable from symbols alone)
-    begin(lvg*);
-    last(lvg*);
+    auto begin(lvg*);
+    auto last(lvg*);
 };

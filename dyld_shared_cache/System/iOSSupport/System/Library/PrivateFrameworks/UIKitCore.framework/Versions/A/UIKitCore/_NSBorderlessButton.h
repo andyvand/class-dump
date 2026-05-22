@@ -9,10 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)ñn;
 - (void);
-- (void)Ì1¢!0@ù
-× ;
+- (void)indowOrEndGestureWithState:(id)arg1;
 
 @end
 

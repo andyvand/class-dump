@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAvatarView, NSObject, UIView;
+@class NSObject;
 @protocol CKConversationListCellDelegate;
 
 @protocol CKConversationListEmbeddedTableViewCellProtocol
-- (void);
-- (_Bool);
-- (void)inalImage;
-- (void)lidateForNote:(struct UIEdgeInsets)arg1;
-- (void)egory:(_Bool)arg1 useSingleLineA:(_Bool)arg2;
-- (struct UIEdgeInsets)DataFiles;
-- (_Bool)T�;
-- (NSObject<CKConversationListCellDelegate> *)H2;
-- (void);
-- (UIView *)Àí¥t:Jÿ:JÿÐ³¼ /* Error: Ran out of types for this method. */;
-- (CKAvatarView *)ôé;
 
 // Remaining properties
 @property(nonatomic) struct CGRect containerBounds;

@@ -5,8 +5,5 @@
 //
 
 @protocol AKSignInViewControllerDelegate
-
-@optional
-- (void);
 @end
 

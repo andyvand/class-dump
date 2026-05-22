@@ -11,8 +11,8 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
 
 // Remaining properties
 @property(nonatomic) _Bool areBothWorkoutsDecimated; // @dynamic areBothWorkoutsDecimated;

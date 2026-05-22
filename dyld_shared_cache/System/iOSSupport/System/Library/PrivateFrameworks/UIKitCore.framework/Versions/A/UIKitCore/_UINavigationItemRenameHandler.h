@@ -19,19 +19,19 @@
     CDUnknownBlockType _fileRenameDidEnd;
 }
 
-+ (id)ecordsToAttachmentZone had a conflict ;
-+ (_Bool)ers;
-+ (id)ttachment to SMS capable device.;
-+ (_Bool)d to iPhone;
-+ (void)ce Found, unable to send message;
++ (id);
++ (_Bool);
++ (id);
++ (_Bool);
++ (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)�;
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,17 +41,17 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType)~;
+- (CDUnknownBlockType);
 - (id);
 - (id);
-- (_Bool)6;
-- (id)_threadIdentifierGUID;
-- (void)nature;
-- (void)vice;
-- (void)nProtocol;
 - (_Bool);
-- (void)5;
-- (id)setContentOffsetRoundingEnabled: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void)ð;
 
 // Remaining properties
 @property(nonatomic) __weak UINavigationItem *associatedItem; // @synthesize associatedItem=_associatedItem;

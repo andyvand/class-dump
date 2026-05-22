@@ -14,22 +14,22 @@
     UIColorPickerViewController *_colorPickerViewController;
 }
 
-- (void)osVersion;
 - (void);
-- (void)@"NSString",R,C,N,V_countryCode;
-- (void);
-- (long long);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (id);
 - (double);
 - (_Bool);
-- (void)y1U2;
-- (_Bool)resentation>"16Q24;
-- (void)r:(_Bool)arg1;
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)ghtViewsLookForFeedbackType:element: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)dForExpressions:(id)arg1 mathItems: /* Error: Ran out of types for this method. */;
+- (void)oTool;
 
 // Remaining properties
 @property(retain, nonatomic) UIColorPickerViewController *colorPickerViewController; // @synthesize colorPickerViewController=_colorPickerViewController;

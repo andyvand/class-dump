@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (void)rorHandler;
-- (id)V_changeType;
-- (_Bool)izationProxy;
+- (void);
+- (id);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled;

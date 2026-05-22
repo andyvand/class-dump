@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (double);
 - (id);
 - (struct os_unfair_lock_s);
-- (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s dataSynchronizationLock; // @synthesize dataSynchronizationLock=_dataSynchronizationLock;

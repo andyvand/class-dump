@@ -32,17 +32,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (struct CGSize);
-- (void)ault card;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id)ldn't present onboarding for link %@, no onboarding identifiers found.;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *amountText; // @synthesize amountText=_amountText;

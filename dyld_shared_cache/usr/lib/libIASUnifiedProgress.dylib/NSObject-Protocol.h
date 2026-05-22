@@ -7,11 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (Class)A;
-- (Class);
-- (unsigned long long)< ;
-- (_Bool)live interval;
-- (_Bool)m_sum_word_rel_rank;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

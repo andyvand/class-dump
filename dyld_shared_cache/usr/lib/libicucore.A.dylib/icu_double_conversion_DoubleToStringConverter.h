@@ -4,5 +4,5 @@
 
 class icu::double_conversion::DoubleToStringConverter {
 public: // (access info unavailable from symbols alone)
-    DoubleToAscii(double, icu::double_conversion::DoubleToStringConverter::DtoaMode, int, char*, int, bool*, int*, int*);
+    auto DoubleToAscii(double, icu::double_conversion::DoubleToStringConverter::DtoaMode, int, char*, int, bool*, int*, int*);
 };

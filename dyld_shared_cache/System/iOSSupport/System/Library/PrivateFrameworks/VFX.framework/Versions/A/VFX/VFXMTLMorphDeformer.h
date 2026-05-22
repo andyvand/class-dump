@@ -41,7 +41,7 @@
 
 + (unsigned long long);
 + (unsigned long long);
-+ (unsigned long long)²Îÿÿÿÿÿ';
++ (unsigned long long);
 - (unsigned long long);
 - (void);
 - (unsigned long long);

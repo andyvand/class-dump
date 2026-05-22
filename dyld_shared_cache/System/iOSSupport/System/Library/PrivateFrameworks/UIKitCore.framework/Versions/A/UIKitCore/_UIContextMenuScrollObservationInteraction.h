@@ -18,23 +18,24 @@ __attribute__((visibility("hidden")))
     id <_UIContextMenuScrollObservationInteractionDelegate> _delegate;
 }
 
-+ (id)esults:(id)arg1 %{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
-- (void)pGÚ¹;
-- (_Bool)!´FùñÊÐ1¢!0@ù
+- (_Bool)Ô!°!4Dù1]ð1Â0@ù
 × ;
-- (struct CGPoint)upportedDisplaySizes;
-- (_Bool)tents;
-- (void)onDidChange:(id)arg1;
-- (_Bool)R,N,V_haloView;
-- (void)t",R,W,N;
-- (void)izationItem;
-- (_Bool)ther NSExtensionMainStoryboard or NSExtensionPrincipalClass must be specified in the extension's Info.plist;
-- (id)n once after startInteraction. This is unexpected, please file a radar.;
-- (void)rdWillShowStickerEditor;
+- (void)!	ð!àFùQeÐ1Â0@ù
+× ;
+- (struct CGPoint)@?0@"NSDictionary"8{_NSRange=QQ}16^B32;
+- (_Bool)nView:(id)arg1;
+- (id),N,V_textContainer;
+- (void)appliesBackgroundFromView;
+- (void);
+- (void)q;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

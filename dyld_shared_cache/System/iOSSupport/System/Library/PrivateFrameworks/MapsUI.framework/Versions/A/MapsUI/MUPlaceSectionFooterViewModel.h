@@ -14,8 +14,8 @@
 
 - (CDUnknownBlockType);
 - (void);
-- (void);
 - (id);
+- (void)ryButtonController;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;

@@ -4,39 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIWebPDFSearchOperation;
-
 @protocol UIWebPDFSearchOperationDelegate
-- (void)MBcGCSqGSIb3Y2QGEQQKDAhjbGllbnRpZDANBgkqhkiG9w0BAQUFAAOCAQEAFjVa
-sSNfZOzLK10c16i06IRkqLx7xRo7ycnbSazwgNLxsGYNqzueBKI634nX4/MkFzgn
-sIz3rayMogDSgcZmrMe63JmvKJwOWYNFQDs2fTCFNyHBU3lQRL67dddJ8vKKUgPF
-4zLSbg80sYVkMAxpAjdIxDoXAGZX9ss8l4Z7QtbNHEUZoihXz5dWhjTUHfsNZsG4
-MxCIO9wniOpG5C/bUquZXq+Q75j4P4fC/KEfC70G/LVXzCTii+vEE6WTz8XhG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
-- (void)H8GJj9NiD6iV4nXjax4mJ6+yLqNrf2Cw1x/A8eXBXTLoAoGCCqGSM49
-AwEHoUQDQgAE7LTN43AkFrqvQYPN0APCJayClg7VsbLFnNXOIXQ4P8LJg+l2/sW+
-OTQkYBZwVkktfnb5+dg91lFOR1UuNdjTMQ==
------END EC PRIVATE KEY-----;
-- (void)EC PRIVATE KEY-----
-MHcCAQEEIH8GJj9NiD6iV4nXjax4mJ6+yLqNrf2Cw1x/A8eXBXTLoAoGCCqGSM49
-AwEHoUQDQgAE7LTN43AkFrqvQYPN0APCJayClg7VsbLFnNXOIXQ4P8LJg+l2/sW+
-OTQkYBZwVkktfnb5+dg91lFOR1UuNdjTMQ==
------END EC PRIVATE KEY-----;
-- (void)92MOfw4grf
-x0fpdG3TVmrSnswEC4rtu3Ubpwa+xcbUrnOPxGJ/JrN8X3vCyalL64Z3sxG3ebAu
-NhJR0Gfy8vWQmWUlc3JttKwXUeguivh+0IS66+MCgYBlUTeOg/V8JCtMtNYwgc+n
-awyOp86tSww4J1V7XCpaKlpFnyxX6ODxAiAijGDATzqNXKocAG85KwfOcK4YIXo5
-iBPqMjn1kFc1WOWWXmfb654K/6Hgioof58P4/hbnslVidJf3kS5WaY0btrCD0l2c
-R0H+EuNmULPQ4C9iiAOBoQKBgF3pi7YaPhVlD4RiONBDUiFxkD0QZrY3sUWZLjZt
-nZm1nGRzylEDiuQdZXPKTT7lCgrM+xc6xPA8KX3nSpnhDswTSrEGPX8fttP4Fz4p
-cHtCoWOWR/H8QrAOmLBgfJolMxX3J/XugtDcXYUiK1Hag7TuiC8vHWx/z5wREyfE
-LP8PAoGBAK11VjQVUXuOrbugSERDPmIfTaZWkqCBUYegJpgyKkXzajYrO8gjrJOm
-+bh/fLkTTgBz/p5wOq0ukbXtP1GExR8h4IK6uTEuwmXthOKduFtyCOzVcsMTjtkB
-O4KWlY8uaMKq8/4EQkrDOCzbk8TmbM+ld/MMl1Dglu/EJ/Xz0uuU
------END RSA PRIVATE KEY-----;
-- (void)erateUnusedChatIdentifierForGroupChatWithServiceName:(UIWebPDFSearchOperation *)arg1 chatWithChatIdentifierExists: /* Error: Ran out of types for this method. */;
-- (void)ationsChangedForConversationManager:(UIWebPDFSearchOperation *)arg1;
 @end
 

@@ -14,11 +14,10 @@
 
 - (struct CGRect);
 - (id);
-- (struct CGSize);
+- (id);
 - (unsigned long long);
-- (id)1b0@ù
-× ;
-- (struct CGSize);
+- (struct CGSize);
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;

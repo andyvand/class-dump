@@ -29,12 +29,12 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (id);
 - (id);
 - (void);
+- (_Bool);
 - (id);
-- (void)G_}ÖnQo_A120__G;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

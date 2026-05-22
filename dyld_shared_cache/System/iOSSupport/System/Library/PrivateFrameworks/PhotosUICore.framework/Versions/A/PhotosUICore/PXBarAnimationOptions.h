@@ -11,15 +11,14 @@
 }
 
 - (id);
+- (double);
 - (void);
 - (id);
+- (long long);
 - (id);
-- (id)áwð!0DùÑ|Ð1b0@ù
-× ;
-- (long long)0ÿÿ¸üýÿ<ÿÿ;
-- (id)StoryAutoEditClipTransitionInfoDescription(transitionInfo);
-- (double);
-- (void),;
+- (id)Size=dd}}^v}16@"<NSObject>"208@"PXBasicTileAnimationOptions"216;
+- (void)onDimmingOpacity;
+- (id)lbum `%@`, with %lu subscribers;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

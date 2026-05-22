@@ -124,7 +124,6 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -232,14 +231,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -269,16 +268,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -288,33 +285,38 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)±.1b0@ù
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)0@ù
+× ;
+- (void)!t@ùð1â
+0@ù
 × ;
 - (void);
-- (_Bool)0@ù
+- (_Bool)1â
+0@ù
 × ;
-- (id)ocationManager"16@"CLRegion"24;
-- (id)tStartingPinchDeltaX:(id)arg1;
-- (id)etShowingPlaceholder: /* Error: Ran out of types for this method. */;
-- (id)ckButton:(id)arg1;
-- (void)dvancedCameraSettingsSection:(id)arg1;
-- (void)mated:(id)arg1;
-- (void)adRequest:(_Bool)arg1;
-- (void)ome:(id)arg1 viewContext:(id)arg2;
-- (void)ide;
-- (void)pacingLayoutGuide;
-- (void)ncelDelegate>",&,N,V_delegate;
-- (void)h error:(_Bool)arg1 %@;
-- (id)aderLabel;
-- (id)ActionBuilderFactory>"8;
-- (void)ontroller initWithInstructionsItem:(struct CGSize)arg1 contentViewController:(id)arg2 ];
-- (id)WebsiteButtonTitle;
-- (void)ig;
-- (id)};
-- (void)ÿØêõÃ;
-- (void);
-- (void)ðÿ£óR±;
-- (void)õ¦5;
+- (void):(id)arg1 didRemoveHome: /* Error: Ran out of types for this method. */;
+- (id)ependentHomeKitObjectsForDownstreamItems;
+- (void)bolName:(id)arg1;
+- (void)ing>",R,N;
+- (void)ViewController;
+- (id)È\;
+- (id);
+- (void)e:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id)Ó;
+- (void);
+- (id)Óóÿÿ¬!;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HUAccessoryControlAnimator *accessoryControlAnimator; // @synthesize accessoryControlAnimator=_accessoryControlAnimator;

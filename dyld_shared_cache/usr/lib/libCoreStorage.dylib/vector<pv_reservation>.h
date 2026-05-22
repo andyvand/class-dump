@@ -4,7 +4,7 @@
 
 class vector<pv_reservation> {
 public: // (access info unavailable from symbols alone)
-    push_back(pv_reservation const&);
-    reserve(unsigned long);
+    auto push_back(pv_reservation const&);
+    auto reserve(unsigned long);
     ~vector();
 };

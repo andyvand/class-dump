@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool)d initialSyncRecordHasBeenWritten;
 + (_Bool);
-+ (id)in:frame:listener: /* Error: Ran out of types for this method. */;
-+ (id)£(j8_yptG;
-+ (id),kªÿ;
++ (_Bool);
++ (id);
++ (id)ntTaskBSActionHandler.m;
++ (id)×Ò½f;
 
 @end
 

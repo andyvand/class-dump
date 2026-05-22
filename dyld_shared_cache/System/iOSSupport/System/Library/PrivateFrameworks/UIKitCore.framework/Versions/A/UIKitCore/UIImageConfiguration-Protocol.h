@@ -7,8 +7,8 @@
 @class UITraitCollection;
 
 @protocol UIImageConfiguration
-- (id)EÒÿ3ô5kþ5Òÿ3Èbþ;
-- (UITraitCollection *);
+- (id)ion",R,&,N,V_notification;
+- (UITraitCollection *);
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection;

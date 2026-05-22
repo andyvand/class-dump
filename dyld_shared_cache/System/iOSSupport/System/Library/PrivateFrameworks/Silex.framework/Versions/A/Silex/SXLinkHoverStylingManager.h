@@ -12,15 +12,15 @@
     NSArray *_hoverViews;
 }
 
-- (id)9
-@9@yi;
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)Þ°!XFùQï1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

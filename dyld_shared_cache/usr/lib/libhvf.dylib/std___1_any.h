@@ -4,5 +4,5 @@
 
 class std::__1::any {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100]();
+    auto reset[abi:nqe210106]();
 };

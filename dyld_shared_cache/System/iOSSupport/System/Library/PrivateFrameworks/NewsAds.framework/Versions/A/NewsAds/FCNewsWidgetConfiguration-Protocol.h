@@ -7,19 +7,13 @@
 @class NSString;
 
 @protocol FCNewsWidgetConfiguration
-- (unsigned int)slator;
 
 @optional
-- (_Bool);
-- (_Bool)@;
-- (long long);
-- (long long);
-- (long long)AgainstBaseURL: /* Error: Ran out of types for this method. */;
-- (double)UrlRequest: /* Error: Ran out of types for this method. */;
-- (long long)IDJXK¨ L;
-- (long long)er;
-- (long long)load video representation in time; timing out. placement=%{public}@;
 - (long long);
+- (_Bool)view did impress placement=%{public}@;
+- (long long)ÿðùþÿ<úþÿúþÿÔúþÿ ûþÿ;
+- (long long)þ¤ÿÿòÌÿÿ;
+- (long long)rrorCode_t;
 
 // Remaining properties
 @property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;

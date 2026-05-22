@@ -8,15 +8,15 @@
 {
 }
 
-+ (double);
-+ (id);
-+ (id);
-+ (struct CGSize);
-+ (double);
-+ (struct CGSize);
-+ (id);
 + (long long);
++ (id);
++ (id);
 + (struct CGSize);
++ (struct CGSize);
++ (struct CGSize);
++ (id);
++ (double);
++ (double);
 + (double);
 
 @end

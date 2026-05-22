@@ -16,20 +16,20 @@
 
 + (id);
 + (id);
-- (void)yNote:(id)arg1 toNote:styler:attachmentPreviewGenerator: /* Error: Ran out of types for this method. */;
-- (void)pyValuesFromButton:(id)arg1 toButton: /* Error: Ran out of types for this method. */;
-- (id)e",&,N,V_paragraph;
 - (void);
 - (void);
-- (void)r;
-- (id)word for locked notes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
-- (void)ber a separate password for “%@” locked notes.;
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)a",&,N,V_linkMetadata;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)h list for handles:%@, with service:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

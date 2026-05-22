@@ -24,32 +24,32 @@ __attribute__((visibility("hidden")))
     unsigned long long _rightCapWidth;
 }
 
-- (double);
-- (id);
-- (void);
-- (id);
-- (void)rder;
-- (id)lizationEnergy();
-- (void);
 - (_Bool);
-- (void);
+- (_Bool);
+- (id);
 - (void);
-- (id)!,BùÀ1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id)
+× ;
+- (void)@ù
 × ;
 - (id)Ô ;
-- (void);
-- (id)ÔAuð!hFù±ÉÐ1¢!0@ù
+- (id)ð!ÔEùÑgÐ1Â0@ù
 × ;
-- (_Bool)0@ù
-× ;
-- (void)th:(id)arg1;
+- (void)ed"b1"isHighlighted"b1"hasCustomized_text"b1"hasCustomized_attributedText"b1"hasCustomized_defaultAttributes"b1"hasCustomized_font"b1"hasCustomized_textColor"b1"hasCustomized_highlightedTextColor"b1"hasCustomized_textBackgroundColor"b1"hasCustomized_shadow"b1"hasCustomized_backgroundColor"b1"hasCustomized_textAlignment"b1"hasCustomized_lineBreakMode"b1"hasCustomized_lineBreakStrategy"b1"hasCustomized_numberOfLines"b1"hasCustomized_adjustsFontSizeToFitWidth"b1"hasCustomized_minimumScaleFactor"b1"hasCustomized_allowsDefaultTighteningForTruncation"b1"hasCustomized_adjustsFontForContentSizeCategory"b1"hasCustomized_bounds"b1"hasCustomized_preferredMaxLayoutWidth"b1"hasCustomized_semanticContentAttribute"b1"hasCustomized_isEnabled"b1"hasCustomized_isHighlighted"b1"hasCustomized_internal"b1};
+- (id)@"<UISceneDelegate>";
+- (id)showButtonsWithLeft:(unsigned long long)arg1 right:(_Bool)arg2 leftBack:(_Bool)arg3;
 - (id);
-- (id)ctionFollowFocusForIndexPath:initiatedBySelection:focusItemStateCandidate: /* Error: Ran out of types for this method. */;
-- (_Bool)ler;
-- (void)nvironment;
-- (void)llectionViewLayout",R,N,V_toLayout;
-- (id);
-- (id)_standard_lookup(struct ui_archive *);
+- (id)dSectionOrItem;
+- (void)dºÐPÏ;
+- (void)ControllerIgnoresSearchSuggestionsForStackedSearch;
+- (id)tateCSg;
+- (void)^&;
+- (double);
 
 @end
 

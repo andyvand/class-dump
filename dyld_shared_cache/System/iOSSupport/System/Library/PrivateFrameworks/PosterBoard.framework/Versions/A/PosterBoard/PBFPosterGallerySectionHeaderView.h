@@ -16,15 +16,15 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (struct CGSize);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *label;

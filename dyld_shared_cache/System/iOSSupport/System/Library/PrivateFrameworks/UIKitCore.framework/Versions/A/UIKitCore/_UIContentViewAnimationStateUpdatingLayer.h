@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
     double _progress;
 }
 
-+ (id)om chat:(id)arg1 %@;
-+ (_Bool);
-- (void)Target:(double)arg1;
-- (void)ats after checking pref key %@:(long long)arg1 merged-duplicate-chats;
-- (void);
-- (void)MinimumRowHeight:(struct CGContext *)arg1;
-- (double)wSceneOrderedPlacementCG;
-- (void)UTI for URL %@:(double)arg1 %@;
-- (id)xô;
++ (id);
++ (_Bool)ontext"28;
+- (void);
+- (void);
+- (void);
+- (id);
+- (double)are receiving presses methods.;
+- (void)nertialProjectionDeceleration;
+- (void)èk];
 
 // Remaining properties
 @property(nonatomic) double progress; // @synthesize progress=_progress;

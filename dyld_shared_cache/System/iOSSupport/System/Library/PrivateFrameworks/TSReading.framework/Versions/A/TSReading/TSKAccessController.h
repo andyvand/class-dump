@@ -48,16 +48,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)I;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (void);
-- (id)m;
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 
 @end

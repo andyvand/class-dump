@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
     unsigned int _loggingID;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (void);
@@ -34,7 +34,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0@ù
+× ;
 
 @end
 

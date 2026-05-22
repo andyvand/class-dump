@@ -16,9 +16,8 @@
 - (id);
 - (void);
 - (float);
-- (void)onsumer:(float)arg1 criteria:limit:explanationSet:timeout:error: /* Error: Ran out of types for this method. */;
-- (float)Sh
-;
+- (void);
+- (float);
 
 // Remaining properties
 @property(nonatomic) float maximumRating; // @synthesize maximumRating=_maximumRating;

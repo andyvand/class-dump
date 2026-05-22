@@ -20,25 +20,25 @@
 + (id);
 + (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (long long);
+- (id);
+- (void);
 - (void);
 - (void);
 - (double);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)èþÿÿ¸Çÿÿ0güÿÐf;
+- (void)Unsupported size:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_avocadoViewController, setter=_setAvocadoViewController:) BCUIAvocadoViewController *avocadoViewController; // @synthesize avocadoViewController=_avocadoViewController;

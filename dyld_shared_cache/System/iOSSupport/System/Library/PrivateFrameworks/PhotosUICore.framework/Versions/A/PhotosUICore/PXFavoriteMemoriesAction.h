@@ -22,10 +22,10 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)e_assetReader: /* Error: Ran out of types for this method. */;
+- (void)2a}vÉ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isFavorite) _Bool favorite; // @synthesize favorite=_favorite;

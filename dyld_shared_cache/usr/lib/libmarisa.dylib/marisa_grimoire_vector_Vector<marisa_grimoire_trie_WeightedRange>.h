@@ -4,6 +4,6 @@
 
 class marisa::grimoire::vector::Vector<marisa::grimoire::trie::WeightedRange> {
 public: // (access info unavailable from symbols alone)
-    push_back(marisa::grimoire::trie::WeightedRange const&);
-    realloc(unsigned long);
+    auto push_back(marisa::grimoire::trie::WeightedRange const&);
+    auto realloc(unsigned long);
 };

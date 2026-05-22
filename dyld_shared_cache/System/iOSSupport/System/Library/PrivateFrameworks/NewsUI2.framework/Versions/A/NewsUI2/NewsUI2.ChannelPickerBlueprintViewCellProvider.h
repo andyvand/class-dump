@@ -13,6 +13,7 @@
     MISSING_TYPE *channelCoinRenderer;
     MISSING_TYPE *channelCategoryRenderer;
     MISSING_TYPE *channelEngagementRenderer;
+    MISSING_TYPE *localUnonboardedViewRenderer;
 }
 
 @end

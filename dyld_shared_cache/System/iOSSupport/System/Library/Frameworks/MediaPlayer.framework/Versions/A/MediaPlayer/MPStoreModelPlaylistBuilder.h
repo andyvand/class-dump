@@ -58,6 +58,7 @@
         unsigned int isPinned:1;
         unsigned int hasAnyCleanTracks:1;
         unsigned int hasAnyCleanDownloadedTracks:1;
+        unsigned int isLibraryAdded:1;
         struct {
             unsigned int identifiers:1;
             unsigned int name:1;
@@ -67,7 +68,7 @@
 }
 
 + (id);
-- (id)rk/Versions/A/CoreFoundation;
+- (id);
 
 @end
 

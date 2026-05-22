@@ -7,10 +7,7 @@
 @class NSArray, NSString;
 
 @protocol MPMutableIdentifierListSection
-- (void)ebook.Messenger;
-- (void)ctionUserDevice"b1};
-- (void)"BMAccount"24@"NSString"32Q40;
-- (NSArray *)$;
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *itemIdentifiers;

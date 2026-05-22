@@ -5,14 +5,13 @@
 //
 
 @class UINavigationController;
-@protocol UIViewControllerInteractiveTransitioning;
+@protocol UIViewControllerAnimatedTransitioning, UIViewControllerInteractiveTransitioning;
 
 @protocol UINavigationControllerDelegate
 
 @optional
-- (id <UIViewControllerInteractiveTransitioning>)!0@ù
-× ;
-- (void)UUID",&,N,S_setUuid:(UINavigationController *)arg1 ,V__uuid;
-- (void)ä;
+- (id <UIViewControllerAnimatedTransitioning>)leTypeIdentifiers:(UINavigationController *)arg1;
+- (void)oard:(UINavigationController *)arg1 %s);
+- (id <UIViewControllerInteractiveTransitioning>)X;
 @end
 

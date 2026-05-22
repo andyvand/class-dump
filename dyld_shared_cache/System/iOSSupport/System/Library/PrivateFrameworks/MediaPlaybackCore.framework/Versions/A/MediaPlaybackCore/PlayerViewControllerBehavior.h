@@ -14,11 +14,11 @@
 }
 
 - (void);
-- (void);
-- (void)C;
+- (void);
 - (void);
 - (void);
 - (id);
+- (void)blic}@<%{public}@> returned in %.4lf seconds;
 
 @end
 

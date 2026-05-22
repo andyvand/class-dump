@@ -5,7 +5,5 @@
 //
 
 @protocol TUIButtonBarViewProvider
-- (void);
-- (void);
 @end
 

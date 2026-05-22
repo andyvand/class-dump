@@ -24,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (_Bool);
 - (id);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool enablePointerCapture; // @synthesize enablePointerCapture;

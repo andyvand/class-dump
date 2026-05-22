@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     CALayer *_contentLayer;
 }
 
-- (void)confirmedColor;
-- (id)s;
-- (void)8;
-- (long long)macOS.;
+- (void);
+- (id);
+- (void);
+- (long long);
 - (void);
 - (id);
 - (void);
 - (double);
-- (void)resses:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *animationLayer; // @synthesize animationLayer=_animationLayer;

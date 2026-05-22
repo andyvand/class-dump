@@ -15,23 +15,23 @@ __attribute__((visibility("hidden")))
     MPCPlaybackEngine *_playbackEngine;
 }
 
-- (void)0:(struct opaqueMTAudioProcessingTap *)arg1 8@"ACAccount"16@"ACDAccountStore"24^@32;
+- (void);
 - (_Bool);
 - (void);
-- (void).dylib;
 - (void);
 - (void);
 - (void);
-- (unsigned int)letion: /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned int);
 - (_Bool);
 - (struct opaqueMTAudioProcessingTap *);
 - (void);
-- (id)Acknowledgement;
-- (void)utOfModifiedAccount: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)dataSourceState=%p sectionID=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) struct opaqueMTAudioProcessingTap *audioProcessingTap;

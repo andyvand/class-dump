@@ -15,11 +15,11 @@
 }
 
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)ÔqÇ(6;
+- (void)veMemoriesFeedProvider;
 
 // Remaining properties
 @property(nonatomic) unsigned long long visibility; // @synthesize visibility;

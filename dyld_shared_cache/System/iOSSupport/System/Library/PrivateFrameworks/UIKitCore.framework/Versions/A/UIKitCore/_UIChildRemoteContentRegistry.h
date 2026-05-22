@@ -19,22 +19,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void)terpreter";
-- (id)at:serviceName:reflectOnly:requiredCapabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
-- (id)oChat:localWatchOnly: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (void)ary:(id)arg1 uniqueID:serviceName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)r­;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)1Â0@ù
+× ;
+- (void);
 - (id)
 × ;
-- (id)ayFitDisplayItems:(id)arg1 inContainerItem: /* Error: Ran out of types for this method. */;
-- (id)currences;
-- (id)V_shouldDisplayDefaultSuggestion;
-- (id);
-- (id)ion.m;
-- (id)nitionRegistry;
-- (id);
+- (id)ndIfAppropriate;
+- (id)6^B24;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *childScenes;

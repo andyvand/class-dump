@@ -4,5 +4,5 @@
 
 class ConvertToPlanar<unsigned int, 2> {
 public: // (access info unavailable from symbols alone)
-    Do(void*, void const*, axr_size_t const&, unsigned long const*);
+    auto Do(void*, void const*, axr_size_t const&, unsigned long const*);
 };

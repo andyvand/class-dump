@@ -7,7 +7,6 @@
 @class UIImage;
 
 @protocol CKInvisibleInkEffectHostView
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *imageForInvisibleInkEffectView;

@@ -26,7 +26,7 @@
 - (Class);
 - (void);
 - (id);
-- (void);
+- (void)of the new blog post;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

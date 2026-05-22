@@ -18,28 +18,28 @@
     _TtC7ChatKit18CKBalloonMaskLayer *_videoPlayerMaskLayer;
 }
 
-- (id): /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void)et",&,N,V_substringMatchingTokens;
-- (void)(;
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id)y** deleted the subfolder;
-- (void);
-- (void)emForCustomSorting:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=setAVPlayer:) AVPlayer *avPlayer; // @synthesize avPlayer=_avPlayer;

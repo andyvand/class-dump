@@ -48,11 +48,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)¨;
+- (id)ess;
 - (long long);
-- (void);
-- (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) HFCharacteristicValueDisplayError *error; // @synthesize error=_error;

@@ -31,10 +31,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
 - (void);
-- (id)Ò;G	;
+- (void)backHandler: /* Error: Ran out of types for this method. */;
+- (id)Sg;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

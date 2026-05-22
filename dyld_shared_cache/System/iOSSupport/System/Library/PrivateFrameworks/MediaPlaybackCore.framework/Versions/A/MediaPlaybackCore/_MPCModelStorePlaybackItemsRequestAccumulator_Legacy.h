@@ -31,17 +31,17 @@
 }
 
 + (_Bool);
-- (void)ing",R,C;
+- (void);
 - (unsigned int);
 - (id);
 - (id);
 - (id);
 - (struct MPCModelStorePlaybackItemsRequestAccumulatorResult);
 - (_Bool);
-- (long long)2;
-- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult)SObject<OS_dispatch_queue>",&,N,V_serialQueue;
-- (id)V_session;
-- (id)n;
+- (long long);
+- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -51,11 +51,13 @@
 - (_Bool);
 - (long long);
 - (id);
-- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)
+× ;
+- (id)±`°1Â0@ù
+× ;
+- (struct MPCModelStorePlaybackItemsRequestAccumulatorResult)abaseProgressiveResult>"16@0:(id)arg1 8;
+- (void)formInsertPlaybackContext:| disabling auto play [data source unsupported] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *accumulationError; // @synthesize accumulationError=_accumulationError;

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAvatarView;
 @protocol CKConversationSearchCellDelegate;
 
 @protocol CKConversationSearchCellProtocol
-- (void)OrientedImage;
-- (struct UIEdgeInsets)ce",R,N;
-- (id <CKConversationSearchCellDelegate>)xu|v;
-- (void)²ýÿ"¿úÿ;
-- (CKAvatarView *)nView;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKConversationSearchCellDelegate> delegate;

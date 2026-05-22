@@ -11,8 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)¡n°!GùÑÀ°1¢!0@ù
-× ;
+- (void)nIsDown:(_Bool)arg1;
 
 @end
 

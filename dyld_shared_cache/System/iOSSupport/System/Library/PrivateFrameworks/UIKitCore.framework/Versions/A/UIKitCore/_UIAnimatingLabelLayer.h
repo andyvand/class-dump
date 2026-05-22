@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)BarControllerDelegate>";
 
 // Remaining properties
 @property(nonatomic) unsigned long long variantWeight; // @dynamic variantWeight;

@@ -5,6 +5,5 @@
 //
 
 @protocol TSBackgroundFetchScheduler
-- (void);;
 @end
 

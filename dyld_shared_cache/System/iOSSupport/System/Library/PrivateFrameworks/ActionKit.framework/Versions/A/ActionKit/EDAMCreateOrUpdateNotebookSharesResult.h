@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)IJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz~;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *matchingShares; // @synthesize matchingShares=_matchingShares;

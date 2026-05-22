@@ -18,7 +18,8 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void)V_visibleTextAreaThreshold;
+- (void)@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType resultHandler;

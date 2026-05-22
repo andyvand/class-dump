@@ -4,6 +4,6 @@
 
 class TLE::OrOperation {
 public: // (access info unavailable from symbols alone)
-    Execute(TLE::Encyclopedia&);
+    auto Execute(TLE::Encyclopedia&);
     ~OrOperation();
 };

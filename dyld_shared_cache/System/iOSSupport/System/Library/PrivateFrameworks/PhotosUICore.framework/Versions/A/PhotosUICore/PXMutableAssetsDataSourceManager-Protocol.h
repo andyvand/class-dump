@@ -7,8 +7,10 @@
 @class NSArray, NSPredicate;
 
 @protocol PXMutableAssetsDataSourceManager
-- (void)ibrary:(NSPredicate *)arg1 allowPending: /* Error: Ran out of types for this method. */;
-- (NSPredicate *);
+- (void);
+- (void)ActionPerformersByType;
+- (NSPredicate *)PlacesAlbum;
+- (void)RenderingNumberOfPhotos;
 
 // Remaining properties
 @property(nonatomic) long long backgroundFetchOriginSection;

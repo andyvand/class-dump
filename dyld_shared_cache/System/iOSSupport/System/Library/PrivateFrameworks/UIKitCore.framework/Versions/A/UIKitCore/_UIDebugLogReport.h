@@ -27,18 +27,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (void)@40@48@56q64@72;
-- (void)e:(id)arg1;
-- (void): /* Error: Ran out of types for this method. */;
-- (id)NoticesForURLs: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void)%@ for transfer %@ using record data from DB;
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (void);
-- (id)idden;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentIndentLevel; // @synthesize currentIndentLevel=_currentIndentLevel;

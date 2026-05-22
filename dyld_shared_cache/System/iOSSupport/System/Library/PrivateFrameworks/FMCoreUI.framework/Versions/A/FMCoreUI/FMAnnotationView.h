@@ -65,15 +65,16 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)j°!´@ùqo°1B50@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) id <FMAnnotation><MKAnnotation> annotation; // @dynamic annotation;

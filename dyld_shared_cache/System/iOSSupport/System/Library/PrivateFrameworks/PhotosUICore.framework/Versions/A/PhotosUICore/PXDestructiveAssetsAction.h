@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PXActionRecord *record; // @synthesize record=_record;

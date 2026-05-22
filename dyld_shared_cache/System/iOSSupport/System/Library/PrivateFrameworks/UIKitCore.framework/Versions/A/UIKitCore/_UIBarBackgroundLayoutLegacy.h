@@ -24,38 +24,39 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)nt;
-- (void)eSubtitle;
-- (id);
-- (_Bool)udioFormatInfoForContentItem: /* Error: Ran out of types for this method. */;
-- (void)yToHeadEntry:(long long)arg1 branchList: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)B,N,V_hapticsEnabled;
-- (void)e;
-- (void)HÆ;
-- (id)CG;
-- (void)ell originally, and return the same cell. Index path:(id)arg1 %@; Existing cell:%@; Returned cell:%@ /* Error: Ran out of types for this method. */;
-- (id)nalizeCurrentScriptAtom;
-- (id){ºÒÒî];
-- (double)ûB^;
-- (_Bool);
 - (double);
-- (id)P;
-- (_Bool)Ûþ;
-- (double)GÕ;
-- (id)b;
-- (id):ÿ /* Error: Ran out of types for this method. */;
-- (double)0?ÍFçb;
-- (void);
-- (id)d;
+- (_Bool);
 - (id);
-- (double)ÿ¾;
+- (id);
+- (id);
+- (double);
+- (void);
+- (void)`Ð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)Q24@0:(id)arg1 8r^{InteractionEndingContext={InteractionContext=@}BQ@@?@?}16;
+- (void);
+- (void)eMovementOfItemsToFinalIndexPaths:(long long)arg1 previousIndexPaths:(id)arg2 movementCancelled:(_Bool)arg3;
+- (double)nitialGlobalIndexForFinalGlobalIndex: /* Error: Ran out of types for this method. */;
+- (id)dState: /* Error: Ran out of types for this method. */;
+- (id)te: /* Error: Ran out of types for this method. */;
+- (void)ontainerView;
+- (void)t;;
+- (id)dOther - flushing recent actions;
+- (void);
+- (void)p}Ö^;
+- (void)¾^;
+- (id);
+- (id);
+- (void);
+- (_Bool)ÓÊÿ;
+- (double)þTrÖAb;
+- (double)ÿÚ8:b /* Error: Ran out of types for this method. */;
+- (id)ôÐb;
+- (id);
+- (_Bool)ì£e;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *backgroundEffects; // @synthesize backgroundEffects=_backgroundEffects;

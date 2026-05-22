@@ -5,7 +5,6 @@
 //
 
 @protocol MPMutableLocalLibraryIdentifiers
-- (void)PlatformCurrent;
 
 // Remaining properties
 @property(nonatomic) long long containedPersistentID;

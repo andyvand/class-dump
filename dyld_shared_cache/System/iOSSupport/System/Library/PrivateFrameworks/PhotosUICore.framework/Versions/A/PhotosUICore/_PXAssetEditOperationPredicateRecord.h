@@ -12,8 +12,8 @@
 
 - (Class);
 - (id);
-- (void);
 - (CDUnknownBlockType);
+- (void)Core.Coordinator;
 
 // Remaining properties
 @property(readonly, nonatomic) Class performerClass; // @synthesize performerClass=_performerClass;

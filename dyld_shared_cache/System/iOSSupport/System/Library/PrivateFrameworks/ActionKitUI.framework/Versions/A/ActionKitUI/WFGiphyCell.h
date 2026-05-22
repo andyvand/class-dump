@@ -24,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak NSURLSessionDataTask *dataTask; // @synthesize dataTask=_dataTask;

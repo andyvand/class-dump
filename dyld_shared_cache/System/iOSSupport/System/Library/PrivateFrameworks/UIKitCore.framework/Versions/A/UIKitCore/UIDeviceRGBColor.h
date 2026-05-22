@@ -16,26 +16,26 @@ __attribute__((visibility("hidden")))
     _Atomic struct CGColor *_cachedColor;
 }
 
-- (unsigned long long);
-- (_Bool);
 - (struct CGColor *);
+- (void);
 - (id);
+- (id);
+- (unsigned long long);
+- (_Bool)ss;
+- (id);
+- (id)X;
+- (id)Ì<ÿ;
+- (struct CGColor *)L&;
 - (void);
-- (id)dTextSelectionGestureController;
-- (id)aèaxdÐd;
-- (struct CGColor *)A;
-- (_Bool)error;
-- (_Bool)0Q8{_NSRange=QQ}16;
-- (id)onInteraction",N,&,VregistrationInteraction;
-- (void);
-- (void);
-- (void);
-- (_Bool)û\;
-- (double)økÏþp<;
-- (id)È:(double)arg1 $d;
-- (_Bool)Ül4ÿkà;
-- (id)vÛl;
-- (id)o;
+- (void)¨l;
+- (_Bool)üHåÿ±È;
+- (_Bool)Cÿv;
+- (_Bool)G];
+- (id)Ø¦m;
+- (double)Ëm;
+- (void)0ìpþ¹@×Òr;
+- (id)ÿëÙÜo;
+- (_Bool)×Ñp;
 
 @end
 

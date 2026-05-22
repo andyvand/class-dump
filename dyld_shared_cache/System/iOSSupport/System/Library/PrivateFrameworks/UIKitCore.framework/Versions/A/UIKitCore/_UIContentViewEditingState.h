@@ -16,10 +16,11 @@
 - (id);
 - (struct _NSRange);
 - (id);
-- (id)T@"NSArray",C,N,V_artworkTemplateItems;
-- (void)øZ3ç;
-- (id);
-- (id)@Í¶B\;
+- (id);
+- (id)0@ù
+× ;
+- (id)retePlayable>",&,N,V_animatingThresholdFeedback;
+- (void)¾;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange proposedReplacementRange; // @synthesize proposedReplacementRange=_proposedReplacementRange;

@@ -5,8 +5,7 @@
 //
 
 @protocol UISpringLoadedInteractionSupporting
-- (void)ndidate:(_Bool)arg1;
-- (_Bool)H;
+- (void)ct={CGPoint=dd}{CGSize=dd}}32;
 
 // Remaining properties
 @property(nonatomic, getter=isSpringLoaded) _Bool springLoaded;

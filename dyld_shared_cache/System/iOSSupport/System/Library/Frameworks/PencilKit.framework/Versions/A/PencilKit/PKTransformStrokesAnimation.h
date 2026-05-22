@@ -23,11 +23,11 @@
 - (id);
 - (double);
 - (struct CGRect);
+- (struct CGRect);
+- (double);
 - (double);
 - (struct CGRect);
-- (void);
-- (struct CGRect);
-- (double)mentWithInk: /* Error: Ran out of types for this method. */;
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

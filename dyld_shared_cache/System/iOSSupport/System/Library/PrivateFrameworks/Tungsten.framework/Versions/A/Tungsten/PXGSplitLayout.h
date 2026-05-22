@@ -66,17 +66,17 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (id);
+- (_Bool);
 - (void);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct UIEdgeInsets)ects = %@>;
+- (struct UIEdgeInsets)Queue_requestVideoTexturesForSpriteAtIndex:spriteReference:displayAsset:presentationController:adjustment:presentationType:textureRequestID:mediaProvider:pixelBufferSourcesProvider:useLowMemoryMode:spriteSize:displayScale: /* Error: Ran out of types for this method. */;
+- (void)dometer;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustSublayoutZPositions; // @synthesize adjustSublayoutZPositions=_adjustSublayoutZPositions;

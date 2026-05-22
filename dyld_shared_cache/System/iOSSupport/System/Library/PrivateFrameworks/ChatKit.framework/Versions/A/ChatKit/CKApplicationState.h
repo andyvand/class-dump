@@ -8,7 +8,8 @@
 {
 }
 
-+ (void)(%@) for object:(_Bool)arg1 %@;
++ (_Bool);
++ (void);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -17,13 +18,13 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
++ (void);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (void);
-+ (_Bool)¬!ôAùÑÃð1¢!0@ù
-× ;
++ (_Bool) ;
++ (_Bool);
 
 @end
 

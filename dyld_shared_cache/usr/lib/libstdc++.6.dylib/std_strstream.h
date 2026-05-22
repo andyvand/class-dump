@@ -4,11 +4,13 @@
 
 class std::strstream {
 public: // (access info unavailable from symbols alone)
-    freeze(bool);
-    pcount() const;
-    rdbuf() const;
-    str();
+    auto freeze(bool);
+    auto pcount() const;
+    auto rdbuf() const;
+    auto str();
+    non-virtual thunk to ~strstream();
     strstream();
     strstream(char*, int, std::_Ios_Openmode);
+    virtual thunk to ~strstream();
     ~strstream();
 };

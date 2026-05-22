@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)Action:%{public}@ /* Error: Ran out of types for this method. */;
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
 

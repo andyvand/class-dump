@@ -8,7 +8,7 @@
 {
 }
 
-+ (long long)yl«pÙl¬Ö0%EÉ;
++ (long long);
 + (long long);
 
 @end

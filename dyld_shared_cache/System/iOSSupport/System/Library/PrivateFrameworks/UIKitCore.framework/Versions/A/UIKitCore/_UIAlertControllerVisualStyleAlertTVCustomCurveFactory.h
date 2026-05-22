@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     unsigned long long _curve;
 }
 
-- (id)plicitRequestMultiplier:(unsigned long long)arg1;
-- (id)efreshingActiveConfigurations: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ity;
-- (id)d to allocate CGBitampContext:(id)arg1 size=%@, scale=%f, bitmapInfo=0x%x. Use UIGraphicsImageRenderer to avoid this assert.;
-- (id)ázä?333333³?;
-- (void),²°ÿÁüÒ!È];
+- (unsigned long long);
+- (void);
+- (id);
+- (id)asked to present the Emoji Popover when it's already presented.;
+- (id)orage33_17B53E6B37083F827808D3D6C806BD10LLP;
+- (id)stem/Library/PrivateFrameworks/TextFormattingUI.framework/TextFormattingUI;
 
 // Remaining properties
 @property(nonatomic) unsigned long long curve; // @synthesize curve=_curve;

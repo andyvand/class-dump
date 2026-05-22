@@ -15,9 +15,9 @@
 
 - (unsigned int);
 - (id);
-- (void);
 - (unsigned long long);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *matches; // @synthesize matches=_matches;

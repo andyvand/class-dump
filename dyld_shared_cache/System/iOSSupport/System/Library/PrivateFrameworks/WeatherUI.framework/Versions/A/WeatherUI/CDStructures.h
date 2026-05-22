@@ -121,15 +121,11 @@ struct NUNIViewport {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long _field1;
-    unsigned long long _field2;
-    unsigned long long _field3;
-} CDStruct_14f26992;
-
-typedef struct {
-    unsigned long long _field1;
-    unsigned long long _field2;
-} CDStruct_4bcfbbae;
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+} CDStruct_a06f635e;
 
 typedef struct {
     MISSING_TYPE *columns[3];
@@ -150,11 +146,6 @@ typedef struct {
     float longitude;
     float latitude;
 } CDStruct_0f7a47be;
-
-typedef struct {
-    CDStruct_14f26992 _field1;
-    CDStruct_14f26992 _field2;
-} CDStruct_4c83c94d;
 
 #pragma mark Typedef'd Unions
 

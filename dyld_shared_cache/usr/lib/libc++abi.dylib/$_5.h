@@ -4,5 +4,5 @@
 
 class $_5 {
 public: // (access info unavailable from symbols alone)
-    __invoke(unsigned long, std::__type_descriptor_t, std::align_val_t);
+    auto __invoke(unsigned long, std::__type_descriptor_t, std::align_val_t);
 };

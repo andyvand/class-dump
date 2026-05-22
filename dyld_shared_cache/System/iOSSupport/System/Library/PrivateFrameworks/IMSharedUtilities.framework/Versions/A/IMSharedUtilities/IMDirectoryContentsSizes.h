@@ -14,8 +14,7 @@
 - (struct IMFileSize);
 - (struct IMFileSize);
 - (id);
-- (struct IMFileSize)0@ù
-× ;
+- (struct IMFileSize)s:attributes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct IMFileSize totalAttachmentSize; // @synthesize totalAttachmentSize=_totalAttachmentSize;

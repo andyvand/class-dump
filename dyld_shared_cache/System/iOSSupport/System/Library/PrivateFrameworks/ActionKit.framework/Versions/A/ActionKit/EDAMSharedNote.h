@@ -32,7 +32,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)r;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *privilege; // @synthesize privilege=_privilege;

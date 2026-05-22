@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *backgroundConcurrentQueue; // @synthesize backgroundConcurrentQueue=_backgroundConcurrentQueue;

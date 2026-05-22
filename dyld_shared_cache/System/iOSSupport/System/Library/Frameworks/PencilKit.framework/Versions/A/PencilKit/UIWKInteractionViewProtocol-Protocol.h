@@ -7,28 +7,21 @@
 @class NSArray, NSString;
 
 @protocol UIWKInteractionViewProtocol
-- (NSArray *)ata:Persisted updated book metadata for assetID:%{mask.hash}@ data:%@ /* Error: Ran out of types for this method. */;
-- (void)8@16;
-- (void)nd null instead.;
-- (NSString *)0@ù
-× ;
-- (_Bool)HorizontalTolerance:verticalTolerance: /* Error: Ran out of types for this method. */;
-- (struct CGRect)tu;
-- (void)ì
-;
-- (void);
+- (void)xt:(void (^)(UIWKAutocorrectionContext *))arg1;
+- (void)WithClipRect:(struct CGPoint)arg1;
+- (struct CGRect)V_editingExternalElementsSelection;
+- (struct CGRect)ÿÿÿÿÿ;
+- (void)tion path;
+- (_Bool)y;
+- (NSString *)_N_112StrokeVertexENS_9allocatorIS3_EEEENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS4_IS6_EEEE;
+- (NSString *)obufUnknownFieldsEE;
 
 @optional
-- (void);
-- (double)ed.;
+- (_Bool)PKShaderPipelineConfig=[8C]},R,N;
 - (void);
-- (void);
-- (void)cipalClass for %@;
-- (void);
-- (void)*;
-- (void);
-- (_Bool)LineDividerVisibleInCompactSize;
-- (void)Ì;
-- (void)oke with unknown blend mode %ld;
+- (void)¬;
+- (void)è	;
+- (NSArray *)ration Feedback: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 @end
 

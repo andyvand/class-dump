@@ -6,8 +6,8 @@ class CFX::RG::RendererPassArguments {
 public: // (access info unavailable from symbols alone)
     RendererPassArguments(CFX::RG::RendererPassArguments const&);
     RendererPassArguments(id<MTLDevice>, id<MTLCommandQueue>, id<MTLCommandBuffer>);
-    commandBuffer() const;
-    device() const;
-    queue() const;
+    auto commandBuffer() const;
+    auto device() const;
+    auto queue() const;
     ~RendererPassArguments();
 };

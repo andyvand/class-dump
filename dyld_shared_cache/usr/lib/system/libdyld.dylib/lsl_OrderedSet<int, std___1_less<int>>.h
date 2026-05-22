@@ -4,5 +4,5 @@
 
 class lsl::OrderedSet<int, std::__1::less<int>> {
 public: // (access info unavailable from symbols alone)
-    insert(int const&);
+    auto insert(int const&);
 };

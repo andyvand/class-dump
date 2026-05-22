@@ -26,9 +26,9 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)(D;
+- (void)mSpacing;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

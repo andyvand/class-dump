@@ -35,104 +35,101 @@
     unsigned long long _expandStyle;
 }
 
-+ (id)neComponent> Started processing;
-+ (id)Broadcasting changes to the deny and allow list;
-+ (id)eteEnabled %@;
-+ (id)ate;
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
 - (void);
-- (CDUnknownBlockType)entifier:withMode: /* Error: Ran out of types for this method. */;
-- (void):(double)arg1 withPerformPeriodicCheck:withAutomaticCheckEnabled:withBackgroundDownloadEnabled:withAutomaticAppInstallationEnabled:withAutomaticOSInstallationEnabled:withAutomaticSecurityUpdatesEnabled: /* Error: Ran out of types for this method. */;
-- (void)bled;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void)4@0:(CDUnknownBlockType)arg1 8:16 /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)alidationObservers;
-- (void)-s;
-- (_Bool);
-- (void);
-- (id)I;
-- (id);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (_Bool);
-- (double);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)®æ,º;
-- (double);
-- (void);
-- (_Bool)ò;
-- (void)1¢!0@ù
-× ;
-- (void)p°!TAùQÃ1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (void)°1¢!0@ù
-× ;
 - (void);
-- (_Bool)× ;
-- (void)!ÌGùñË°1¢!0@ù
-× ;
-- (unsigned long long);
-- (void)!0@ù
-× ;
-- (void)arRegionAxisSquishyLayoutDynamicHidingDelegate>";
-- (id)={CGPoint=dd}{CGSize=dd}}16q48q56q64@72;
-- (void)lTextOffset;
-- (id);
-- (_Bool)textContentViewDidChangeSelection: /* Error: Ran out of types for this method. */;
-- (id)etLargeItemUsesContentShapeForSelectionHighlight: /* Error: Ran out of types for this method. */;
-- (_Bool)End: /* Error: Ran out of types for this method. */;
-- (_Bool)nitWithOriginalInsertionIndexPath:(id)arg1 dragItem:reuseIdentifier:delegate:cellUpdateHandler: /* Error: Ran out of types for this method. */;
-- (id)iew:(id)arg1;
-- (_Bool)tPreparedForDisplay;
-- (void)utPathForVisibleRect:(_Bool)arg1;
-- (id)ackTouch:(id)arg1;
-- (_Bool)ontSize: /* Error: Ran out of types for this method. */;
-- (void)etFrame:(long long)arg1;
-- (id)bleBounds;
-- (id)eted: /* Error: Ran out of types for this method. */;
-- (void)UserInterfaceStyle:(_Bool)arg1;
-- (void)beginObservingSceneMoveNotificationsIfNeeded;
-- (id)orcedVisible: /* Error: Ran out of types for this method. */;
-- (id)le,S_setDismissible: /* Error: Ran out of types for this method. */;
-- (_Bool)UISearchDisplayController",W,N,V_controller;
-- (_Bool)leEdgeInsets;
-- (CDUnknownBlockType)State;
-- (id)llectionLayoutContainer;
-- (_Bool)5lÖÈ×@ØÚàÛhÜäÜä;
+- (_Bool);
 - (void);
-- (void)ÿÿ;
-- (id)Connections;
-- (void)e're still not done yet
-%@
-%@;
-- (void). Split view controller:(_Bool)arg1 %@;
-- (void)_Nonnull, CGRect, NSDictionary *__strong _Nullable);
-- (id)intSizeComponent;
-- (double)erController.;
-- (id)provided with the proposedEffect when used as a custom view in a UINavigationBar or UIToolbar;
-- (_Bool)uration_adjustsFontForContentSizeCategory;
-- (_Bool);
-- (void)J«];
-- (id)ÚË4Ý^;
-- (void)`±ÓþB~jd;
-- (void)dÿ+?;
-- (void)mþ£ÀÀ;
-- (_Bool);
-- (_Bool)ÿØzÖ;
-- (long long);
+- (void);
 - (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool)Ð!Dù]ð1Â0@ù
+× ;
+- (_Bool);
+- (id)1Â0@ù
+× ;
+- (void)× ;
+- (void)1Â0@ù
+× ;
+- (void)Ñf°1Â0@ù
+× ;
+- (_Bool)ctor_"f}}};
+- (id)edHardwareKeyboard;
+- (id)AcceptedTextCompletionExecutionContext: /* Error: Ran out of types for this method. */;
+- (void)kGoingOnSpringAnimationDuration;
+- (_Bool)cessIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)FontSizeTamil;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (void):(id)arg1;
+- (void)eAvailableDisplayModes;
+- (_Bool)ntMaskEdgeInsets: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)ForIndexPath: /* Error: Ran out of types for this method. */;
+- (void)ar;
+- (unsigned long long)ont;
+- (void)oke;
+- (void)AppearanceInvocations;
+- (_Bool)uousResponder: /* Error: Ran out of types for this method. */;
+- (id)l: /* Error: Ran out of types for this method. */;
+- (void)hViewServiceSessionIfNeeded;
+- (id)É;
+- (_Bool)X{{ {|@|}~~<°;
+- (CDUnknownBlockType)Ü';
+- (void)eForDepthLevel;
+- (void)placeholder. Value must be greater than zero or UITableViewAutomaticDimension.;
+- (void)"topRight" x="%g" y="%g"/><Point id="bottomRight" x="%g" y="%g"/></Rectangle>;
+- (long long)ctions:ignoringOldKeyWindow:sceneResignKeyWindowActions:andSceneBecomeKeyWindowActions:forReason:] /* Error: Ran out of types for this method. */;
+- (_Bool)ing traits that cannot represent unspecified values:%@ /* Error: Ran out of types for this method. */;
+- (id)IdiomLast;
+- (void)t button in bar customization popover.;
+- (void)ICollectionViewFlowLayout internal error;
+- (id)to move index path (%@) to index path (%@) in section that does not exist - there are only %ld sections after the update;
+- (double)animation;
+- (_Bool)¾Äþÿ;
+- (_Bool)ÎÇþÿ;
+- (id)yytmytmG;
+- (CDUnknownBlockType)ø÷÷÷÷÷ç?è?ÙØØØØØè?ü©Ñ>î|>¦¾;
+- (double)Ó;
+- (void)onModifierComponentImpl;
+- (_Bool);
+- (void)~Ê;
+- (id)a;
+- (_Bool);
+- (_Bool);
+- (double)«ÒGÿi;
+- (_Bool)cvþÕÌÛh;
+- (void)Nôþ;
+- (id)Øÿ;
+- (void)XÙj;
+- (void)t£^ÿ"Xó;
+- (void)fËôÜn;
 
 // Remaining properties
 @property(nonatomic, setter=_setCalculationVisibility:) long long _calculationVisibility; // @synthesize _calculationVisibility=__calculationVisibility;

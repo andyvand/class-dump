@@ -5,6 +5,5 @@
 //
 
 @protocol IMDaemonChatSendMessageProtocol
-- (void);
 @end
 

@@ -5,6 +5,5 @@
 //
 
 @protocol SMMessagingServiceMessengerDelegate
-- (void);
 @end
 

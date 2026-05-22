@@ -18,9 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)¸ü~
-;
+- (void)tion;
+- (id)igationTitleSubtitleViewDelegate_p;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint motionVector; // @synthesize motionVector=_motionVector;

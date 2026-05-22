@@ -5,6 +5,5 @@
 //
 
 @protocol _UIRepeatingGestureClockDelegate
-- (void)d img4 data;
 @end
 

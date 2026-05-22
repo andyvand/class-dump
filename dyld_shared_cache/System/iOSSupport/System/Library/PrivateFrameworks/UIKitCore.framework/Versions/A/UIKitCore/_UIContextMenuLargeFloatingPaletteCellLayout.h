@@ -30,17 +30,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (unsigned long long)@"IMNetworkMonitor"16;
-- (id)"52@"NSData"60B68@"NSNumber"72;
-- (_Bool)andLogoUpdate:toChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
-- (void)ge.;
-- (id)tting to participants:(_Bool)arg1 %@;
-- (void);
-- (void);
-- (void)te:(id)arg1;
-- (id)þÿ4þÿLþÿdþÿ|þÿ þÿhþÿþÿ þÿ¸þÿÐþÿèþÿ;
-- (long long)tensions.swift;
+- (unsigned long long);
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void),V_splitViewController;
+- (long long);
+- (id)tate;
+- (void);
+- (id)LÉÿ©Â;
 
 // Remaining properties
 @property(readonly, nonatomic) UIShape *contentShape;

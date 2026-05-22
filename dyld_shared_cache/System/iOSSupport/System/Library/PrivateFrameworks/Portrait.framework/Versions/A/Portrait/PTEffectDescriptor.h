@@ -56,10 +56,10 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property unsigned long long activeEffectType; // @synthesize activeEffectType=_activeEffectType;

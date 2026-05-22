@@ -28,9 +28,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (unsigned long long);
 - (id);
+- (void)serInfoProvider;
 
 // Remaining properties
 @property(nonatomic) __weak CNContactNavigationController<CNContactViewControllerPrivateDelegate> *contactsNavigationController; // @synthesize contactsNavigationController=_contactsNavigationController;

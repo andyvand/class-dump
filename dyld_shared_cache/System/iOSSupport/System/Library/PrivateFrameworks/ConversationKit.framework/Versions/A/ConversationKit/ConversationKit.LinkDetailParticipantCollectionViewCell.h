@@ -17,10 +17,10 @@
     MISSING_TYPE *$__lazy_storage_$_imageView;
 }
 
-- (id);
+- (id);
 - (void);
-- (void);
 - (id);
+- (void)utMonitorCSg;
 
 @end
 

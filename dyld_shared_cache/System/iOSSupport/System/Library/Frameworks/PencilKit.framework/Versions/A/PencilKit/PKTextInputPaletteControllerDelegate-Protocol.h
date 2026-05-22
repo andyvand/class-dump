@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @protocol PKTextInputPaletteControllerDelegate
-- (UIView *)t  _Nonnull __strong);
 @end
 

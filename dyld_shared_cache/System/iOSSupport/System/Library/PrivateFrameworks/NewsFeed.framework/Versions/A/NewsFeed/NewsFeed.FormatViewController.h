@@ -24,16 +24,16 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)¸u­þÙÅ@þÙÅ<æ¬þ;
-- (void)ÎÛ;;
+- (void);
+- (void)Pæ;
+- (void)Date;
+- (void);
+- (void)m.:Æ$ÿm.:øwþm.:ÄÆ$ÿ /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

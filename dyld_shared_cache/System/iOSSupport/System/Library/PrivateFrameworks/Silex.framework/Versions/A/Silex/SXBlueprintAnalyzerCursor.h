@@ -13,8 +13,8 @@
     NSMutableArray *_mutablePath;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

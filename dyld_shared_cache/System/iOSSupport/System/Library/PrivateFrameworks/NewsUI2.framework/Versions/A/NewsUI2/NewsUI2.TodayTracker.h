@@ -15,6 +15,7 @@
     MISSING_TYPE *blueprintLayoutCollectionProvider;
     MISSING_TYPE *scienceDataFactory;
     MISSING_TYPE *channelDataFactory;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *issueModelFactory;
     MISSING_TYPE *sectionPositionProvider;
     MISSING_TYPE *newsActivityManager;

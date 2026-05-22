@@ -5,14 +5,14 @@
 class icu::Edits::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(unsigned short const*, int, signed char, signed char);
-    destinationIndexFromSourceIndex(int, UErrorCode&);
-    findIndex(int, signed char, UErrorCode&);
-    next(signed char, UErrorCode&);
-    noNext();
-    previous(UErrorCode&);
-    readLength(int);
-    sourceIndexFromDestinationIndex(int, UErrorCode&);
-    toString(icu::UnicodeString&) const;
-    updateNextIndexes();
-    updatePreviousIndexes();
+    auto destinationIndexFromSourceIndex(int, UErrorCode&);
+    auto findIndex(int, signed char, UErrorCode&);
+    auto next(signed char, UErrorCode&);
+    auto noNext();
+    auto previous(UErrorCode&);
+    auto readLength(int);
+    auto sourceIndexFromDestinationIndex(int, UErrorCode&);
+    auto toString(icu::UnicodeString&) const;
+    auto updateNextIndexes();
+    auto updatePreviousIndexes();
 };

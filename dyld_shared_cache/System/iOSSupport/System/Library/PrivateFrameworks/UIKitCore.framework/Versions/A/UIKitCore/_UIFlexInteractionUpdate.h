@@ -12,12 +12,12 @@
 }
 
 - (void);
-- (_Bool)V_alignments;
-- (struct CGSize)quest url.;
-- (void)DragInteractionDriving>"16@"UIGestureRecognizer"24;
-- (struct CGPoint)letionHandler;
-- (void)ternateAction:(struct CGSize)arg1 configurationProvider: /* Error: Ran out of types for this method. */;
-- (id)adingImage;
+- (struct CGPoint);
+- (id);
+- (struct CGSize);
+- (_Bool)ell"16B24B28;
+- (void)gationBarDuringPresentation explicitly set %@];
+- (void)q;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive; // @synthesize isActive;

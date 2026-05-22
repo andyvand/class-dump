@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)ventHandlerForActiveObjectINS1_14UserSpeedEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
++ (id);
 
 @end
 

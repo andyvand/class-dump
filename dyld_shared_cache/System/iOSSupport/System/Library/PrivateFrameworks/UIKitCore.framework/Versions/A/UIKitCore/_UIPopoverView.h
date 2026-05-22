@@ -33,86 +33,78 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (id);
+- (void);
 - (struct CGRect);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (void)ib;
 - (void);
-- (void)rageLockPointer;
+- (void);
+- (long long)ù
+× ;
+- (void)× ;
+- (id)
+× ;
+- (void);
+- (_Bool)derColor: /* Error: Ran out of types for this method. */;
+- (_Bool)dKeyboard:forScene:forSuppressionAssertion:updatePlacement:wantsAssistant:keepAccessories: /* Error: Ran out of types for this method. */;
+- (double)sPreparingForDisplay;
+- (void)thRegion:(id)arg1;
+- (void)AndObserveScrollView:(id)arg1 viewController:(id)arg2 forEdges: /* Error: Ran out of types for this method. */;
+- (id)ansition;
+- (void)gIndexPathForIdentityTrackerIdentifier:(id)arg1;
+- (void)lier;
+- (double)gPathForRemoteViewService;
+- (_Bool),V_overrideContentRectForPinning;
+- (void)referredPreviewType;
+- (id)setUnconstrainedPointGetter:,V__unconstrainedPointGetter /* Error: Ran out of types for this method. */;
+- (void);
+- (id)äa;
+- (id)t;
 - (id);
-- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (long long);
+- (void)SolariumStackedImageContainerDefaultMaxDepth;
+- (_Bool)otation with keyboard test;
+- (void)roller=%p;
+- (id)ontrollerAllowStillDuringVideo;
+- (void)yTagged;
+- (void)oothing;
+- (void)items;
+- (void)PinchCP;
+- (id)r;
 - (unsigned long long);
-- (id)!4FùÁÐ1¢!0@ù
-× ;
 - (void);
-- (_Bool)Ð1¢!0@ù
-× ;
-- (void)r°!;
-- (void)r°!DùÆð1¢!0@ù
-× ;
-- (void)QÆ°1¢!0@ù
-× ;
-- (double)ð!èCùQÆð1¢!0@ù
-× ;
-- (_Bool)0@ù
-× ;
-- (_Bool)!@ùÈ°1¢!0@ù
-× ;
-- (void)!u°!\FùqÉÐ1¢!0@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (void)áw!FùÍÐ1¢!0@ù
-× ;
-- (_Bool)ion";
-- (void)8i16i20B24B28B32;
-- (void)dingForMoveDuringIteration"b1"dataSourceRespondsToShouldResetFocusBeforeIteration"b1};
-- (void)updateCurrentSwipeConfig:(_Bool)arg1;
-- (id)tion: /* Error: Ran out of types for this method. */;
-- (void)ted:(id)arg1;
-- (int)tionFactor: /* Error: Ran out of types for this method. */;
-- (void)ovider;
-- (double)etion:source: /* Error: Ran out of types for this method. */;
-- (void)r;
-- (id)ismissInteractionDidBeginAtLocation:withVelocity: /* Error: Ran out of types for this method. */;
-- (void)portsInflation;
-- (void)undsForPinningToBottomWithNewBounds:(_Bool)arg1;
-- (void)onGrouping;
-- (struct UIEdgeInsets)ingViewSetting;
+- (void)ewHeaderFooterB0CSo24UIViewConfigurationStateCIeyByy_;
+- (id)O;
+- (void){[;
+- (void)U&137y;
 - (void);
-- (void)Ì;
-- (void)Ä#;
-- (id)eyboardArbiterClientInputDestination _performRequiredSceneUpdateIfPermittedForWindow:withContext:]  Updating proxy context:%@ /* Error: Ran out of types for this method. */;
-- (id)c = %p; transition = %p;
-- (id)tòÿÿX9èÿ¨Wþºþÿ%ûÿ;
-- (void);
-- (void);
-- (_Bool)yleCSg;
-- (double)out of bounds;
-- (_Bool)dimmedDetentIdentifier;
-- (void)unt;
-- (struct CGSize)t=%p;
-- (_Bool)es;
-- (long long);
-- (id);
-- (id);
-- (_Bool)J¯;
-- (void)ÇU_;
+- (int)3°´þ5Ï23¬´þ=Ï23¨´þ;
+- (double);
+- (long long)T)tþ;
+- (_Bool)ð;
+- (id)¼¾^;
+- (id)Øü^;
+- (struct CGSize);
+- (id)Ø©ÿã@Ða;
 
 // Remaining properties
 @property(nonatomic, setter=_setCustomCornerRadius:) double _customCornerRadius; // @synthesize _customCornerRadius;

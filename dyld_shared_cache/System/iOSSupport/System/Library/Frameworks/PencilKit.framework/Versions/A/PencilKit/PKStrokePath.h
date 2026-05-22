@@ -21,7 +21,7 @@
 
 + (id);
 + (void);
-+ (void);
++ (void);
 - (void);
 - (void);
 - (void);
@@ -48,7 +48,7 @@
 - (id);
 - (id);
 - (id);
-- (id)#;
+- (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -60,25 +60,25 @@
 - (unsigned long long);
 - (void);
 - (struct PKCompressedStrokePoint);
-- (void)@;
+- (void);
 - (id);
 - (id);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (double);
 - (double);
 - (long long);
 - (double);
 - (id);
-- (id)_control returned %d %s;
 - (id);
-- (void);
+- (id);
 - (double);
 - (id);
 - (id);
 - (id);
-- (id)cator<PKMetalPaintStrokePoint>>="__begin_"^{PKMetalPaintStrokePoint}"__end_"^{PKMetalPaintStrokePoint}""{?="__cap_"^{PKMetalPaintStrokePoint}}};
-- (unsigned long long)Dictionary",&,N,V_timestamps;
+- (unsigned long long);
+- (void)ressingPlaceholderForElement: /* Error: Ran out of types for this method. */;
+- (id)Ø&¤ÛÜÜ`ÝÀÝÞ	tÞ(ßÌßà4ã¨ãæAêTêøë;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _immutablePointsCount; // @synthesize _immutablePointsCount;

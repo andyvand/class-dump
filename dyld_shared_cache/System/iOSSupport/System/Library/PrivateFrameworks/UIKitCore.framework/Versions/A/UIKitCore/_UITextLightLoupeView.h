@@ -33,19 +33,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (void);
-- (id)t:fallbackGUID: /* Error: Ran out of types for this method. */;
-- (void)equery:(_Bool)arg1 isFiltered:(_Bool)arg2 spamDetectionSource:(CDUnknownBlockType)arg3 completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)oupIDChatIndex:(struct CGRect)arg1;
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (id)ConformingToTypes:(id)arg1 availableTypes: /* Error: Ran out of types for this method. */;
-- (void)on;
-- (void)erHeight;
-- (_Bool)oBrightness;
-- (void)istPlainCellConfigurationForState:(id)arg1 traitCollection: /* Error: Ran out of types for this method. */;
-- (void);
+- (id)iner;
+- (void)ring;
+- (void)redPlacementCG;
+- (void)So6UIMenuCG;
+- (void);
+- (_Bool)\;
 
 // Remaining properties
 @property(nonatomic) __weak UIView<_UITextSelectionWidgetAnimating> *animatableSelectionWidget;

@@ -15,14 +15,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (_Bool);
 - (unsigned short);
-- (void);
 - (unsigned long long);
-- (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (void);
+- (void)4;
+- (id)24@?0@"CNContact"8Q16;
 
 // Remaining properties
 @property(nonatomic) unsigned short glyphCharacter;

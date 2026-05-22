@@ -8,10 +8,6 @@
 @protocol CKBrowserViewControllerProtocol, CKExpandedAppViewControllerDelegate;
 
 @protocol CKExpandedAppViewControllerProtocol
-- (void)e;
-- (void);
-- (id <CKExpandedAppViewControllerDelegate>)ÜW8XðZ]ð^¬`\b4c4d0e\e;
-- (void)èýÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController<CKBrowserViewControllerProtocol> *contentViewController;

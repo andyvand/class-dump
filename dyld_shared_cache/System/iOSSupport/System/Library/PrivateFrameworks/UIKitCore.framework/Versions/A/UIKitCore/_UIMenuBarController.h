@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
     struct CGPoint _contextMenuLocation;
 }
 
-+ (id)@§êþ;
-- (_Bool)*;
++ (id)HEk;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -35,23 +35,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)0:(id)arg1 8@"IMDAccount"16;
-- (void)sharedMomentSharePhotoLibrary;
-- (void)eWorkBlock: /* Error: Ran out of types for this method. */;
-- (void)val;
-- (id)meoutPendingRequest:(_Bool)arg1;
-- (void)IMNetworkMonitorDelegate;
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
-- (void)sForRange:(id)arg1;
+- (void)^;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setActivityItemsConfiguration:) id <UIActivityItemsConfigurationReading> _activityItemsConfiguration; // @synthesize _activityItemsConfiguration=__activityItemsConfiguration;

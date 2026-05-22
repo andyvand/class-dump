@@ -38,14 +38,14 @@
 - (_Bool);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)@¶AEyAEyA11_Ù¶GAXGQo__Qo_G_AAyytÚÖ¶y4Ø¶yAGG_"Ø¶yA0_AGGQo_Gt;
 
 @end
 

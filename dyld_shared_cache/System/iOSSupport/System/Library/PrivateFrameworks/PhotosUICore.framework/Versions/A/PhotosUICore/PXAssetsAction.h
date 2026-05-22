@@ -17,10 +17,10 @@
 + (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)D7Qÿ;
-- (id)8;
+- (id)gmentsIfNeeded:infos:count:resultHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)À9;
 
 @end
 

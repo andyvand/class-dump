@@ -5,8 +5,5 @@
 //
 
 @protocol AVCaptureFileOutputRecordingDelegate
-
-@optional
-- (void);
 @end
 

@@ -34,15 +34,15 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (void);
-- (id)rovider;
-- (id)@"NSArray"32@0:8@"HUNavigationBarButton"16@"HMHome"24 /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void)rarySettingsModuleController.m;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

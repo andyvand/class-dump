@@ -23,7 +23,7 @@
 }
 
 + (void);
-+ (id)r19;
++ (id);
 - (float);
 - (long long);
 - (_Bool);
@@ -48,8 +48,8 @@
 - (double);
 - (void);
 - (double);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double alternateTitleCyclingInterval; // @synthesize alternateTitleCyclingInterval=_alternateTitleCyclingInterval;

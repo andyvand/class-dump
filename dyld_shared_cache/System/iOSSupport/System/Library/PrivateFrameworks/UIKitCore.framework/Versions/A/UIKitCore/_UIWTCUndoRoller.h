@@ -18,10 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void)âþÿ;
-- (unsigned long long)fþÿPþÿÌÊþÿ:ÌþÿLþÿJþÿDþÿ8Ìþÿ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)0@ù
+× ;
+- (void)onStateCIeyByy_;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *evaluatedText; // @synthesize evaluatedText=_evaluatedText;

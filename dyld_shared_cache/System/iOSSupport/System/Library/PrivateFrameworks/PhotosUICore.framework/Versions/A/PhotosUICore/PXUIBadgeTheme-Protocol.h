@@ -7,11 +7,9 @@
 @class CAFilter, UIBlurEffect, UIColor, UIFont, UIImageSymbolConfiguration;
 
 @protocol PXUIBadgeTheme
-- (double)0@ù
-× ;
-- (double)ùzÐ1b0@ù
-× ;
-- (UIColor *)KitCompleterSuggestion;
+- (double)er;
+- (UIColor *)$P;
+- (UIColor *)m;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *afterLabelImageTintColor;

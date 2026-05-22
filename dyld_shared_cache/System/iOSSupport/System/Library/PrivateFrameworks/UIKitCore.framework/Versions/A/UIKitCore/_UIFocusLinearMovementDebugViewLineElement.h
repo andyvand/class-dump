@@ -13,12 +13,13 @@ __attribute__((visibility("hidden")))
     struct CGPoint _cp2;
 }
 
-+ (id)already played [%@];
++ (id);
 - (id);
-- (struct CGPoint)st;
-- (struct CGPoint)w it):%@:%@ /* Error: Ran out of types for this method. */;
-- (struct CGPoint)chorPoint;
-- (int)DismissableWithGesture;
+- (struct CGPoint);
+- (struct CGPoint);
+- (int)!\CùÑc1Â0@ù
+× ;
+- (struct CGPoint)te}@, expirationHandler:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint cp1; // @synthesize cp1=_cp1;

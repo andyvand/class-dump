@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
 - (id);
-- (void)X;
+- (void);
+- (void)mScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGRect currentContentBounds; // @synthesize currentContentBounds=_currentContentBounds;

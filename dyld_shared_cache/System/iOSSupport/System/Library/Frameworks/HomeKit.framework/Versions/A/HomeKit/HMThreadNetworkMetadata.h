@@ -18,8 +18,7 @@
     NSData *_operationalDataset;
 }
 
-+ (_Bool)legacyScore;
-- (void);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -28,11 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (unsigned char);
-- (id);
+- (void)t;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *PANID; // @synthesize PANID=_PANID;
@@ -41,7 +39,7 @@
 @property(readonly, nonatomic) NSData *extendedPANID; // @synthesize extendedPANID=_extendedPANID;
 @property(readonly, nonatomic) NSData *masterKey; // @synthesize masterKey=_masterKey;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSData *operationalDataset; // @synthesize operationalDataset=_operationalDataset;
+@property(readonly, nonatomic) NSData *operationalDataset; // @synthesize operationalDataset=_operationalDataset;
 @property(readonly, nonatomic) NSString *passPhrase; // @synthesize passPhrase=_passPhrase;
 
 @end

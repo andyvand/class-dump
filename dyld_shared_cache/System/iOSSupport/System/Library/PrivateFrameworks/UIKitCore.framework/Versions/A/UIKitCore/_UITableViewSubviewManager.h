@@ -18,32 +18,33 @@ __attribute__((visibility("hidden")))
     NSMapTable *_indexPathsForPrefetchedCells;
 }
 
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)ingDelegate>";
-- (void)"m45"f};
-- (id)ntTimestamp:(id)arg1;
-- (void)ParentQueue;
-- (void)atchedSupplementalCandidate;
-- (void)StateRestorationArchiveWithFileProtectionCompleteUntilFirstUserAuthentication;
-- (id)aviors;
-- (_Bool);
+- (void);
 - (id);
-- (id)went down the duplicate keyboard shortcut error log path when there were no duplicate keyboard shortcuts. This is a UIKit internal bug.;
-- (id)omBars;
-- (void)n¢æÃs@-¯\o)ñ?;
-- (id)3ï;
-- (void);
-- (void)ate;
+- (void)× ;
+- (void)Ð!hAùñc°1Â0@ù
+× ;
+- (void)CGPoint=dd}{CGSize=dd}}56@0:(CDUnknownBlockType)arg1 8@"_UIScrollerImp"16{CGRect={CGPoint=dd}{CGSize=dd}}24;
+- (id)mands;
+- (void);
+- (void)d:(id)arg1;
+- (id)tSectionWithoutHeader;
+- (id)edPoint",&,N,V_weightedPoint;
+- (void);
+- (void)þÿ;
+- (id)r of dimensions;
+- (void)dst;
 - (id);
+- (void)3G;
+- (void);
+- (id)£b;
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *cellsReadyForReuse; // @synthesize cellsReadyForReuse=_cellsReadyForReuse;

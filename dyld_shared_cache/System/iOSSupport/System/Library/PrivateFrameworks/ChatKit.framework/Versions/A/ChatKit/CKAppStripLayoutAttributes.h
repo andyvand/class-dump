@@ -11,12 +11,13 @@ __attribute__((visibility("hidden")))
     long long _appStripSize;
 }
 
-- (_Bool)t;
-- (void)Image Classification:(long long)arg1 %@;
-- (long long)`D;
+- (_Bool);
+- (void);
+- (long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)üð!LGù11Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long appStripSize; // @synthesize appStripSize=_appStripSize;

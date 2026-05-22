@@ -22,8 +22,8 @@
 + (_Bool);
 + (_Bool);
 + (void);
-+ (id)$c1Ø¤èÿ;
-+ (_Bool);
++ (id);
++ (_Bool):completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalSidebarSafeAreaInsets:) struct UIEdgeInsets _additionalSidebarSafeAreaInsets;

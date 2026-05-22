@@ -4,5 +4,5 @@
 
 class std::__1::uniform_int_distribution<unsigned char> {
 public: // (access info unavailable from symbols alone)
-    operator()<std::__1::linear_congruential_engine<unsigned int, 48271u, 0u, 2147483647u>>(std::__1::linear_congruential_engine<unsigned int, 48271u, 0u, 2147483647u>&, std::__1::uniform_int_distribution<unsigned char>::param_type const&);
+    unsigned char operator()<std::__1::linear_congruential_engine<unsigned int, 48271u, 0u, 2147483647u>>(std::__1::linear_congruential_engine<unsigned int, 48271u, 0u, 2147483647u>&, std::__1::uniform_int_distribution<unsigned char>::param_type const&);
 };

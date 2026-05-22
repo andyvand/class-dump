@@ -10,11 +10,12 @@
     Class _applicationClass;
 }
 
-+ (id)Ý%;
++ (id)þ5;
+- (void);
 - (void);
 - (id);
-- (void);
-- (_Bool)ntifier>"8@"NSString"16;
+- (_Bool)	
+HIJK;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInBackground;

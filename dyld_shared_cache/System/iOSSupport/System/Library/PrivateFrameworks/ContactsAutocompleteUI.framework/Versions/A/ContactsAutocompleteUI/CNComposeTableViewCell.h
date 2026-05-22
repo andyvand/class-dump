@@ -22,9 +22,9 @@
 + (id);
 + (double);
 + (id);
-+ (Class)avigationStackHostingController;
-+ (id);
++ (Class);
 + (void);
++ (id);
 - (void);
 - (double);
 - (double);
@@ -38,9 +38,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void)ew;
-- (struct CGSize)AccessibilityLayoutScrollableTransform     isLazy ;
+- (id);
+- (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (id);
@@ -48,15 +48,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

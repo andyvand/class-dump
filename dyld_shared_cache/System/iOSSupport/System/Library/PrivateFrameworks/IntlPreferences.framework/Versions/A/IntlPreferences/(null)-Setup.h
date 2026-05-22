@@ -7,8 +7,8 @@
 @class NSArray, NSDictionary, NSString;
 
 @interface (null) (Setup)
-+ (void)ons_Value;
-+ (id)tbot_Suggestion;
++ (void);
++ (id);
 + (void);
 + (id);
 + (void);

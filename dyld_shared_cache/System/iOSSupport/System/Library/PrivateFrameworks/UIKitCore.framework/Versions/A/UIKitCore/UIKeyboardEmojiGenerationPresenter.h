@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)*ôÿ7ÛÚ©Àq;
-- (void)\WuX;
++ (id)Ì¤ÿ6Ñ°l;
+- (void);
 
 @end
 

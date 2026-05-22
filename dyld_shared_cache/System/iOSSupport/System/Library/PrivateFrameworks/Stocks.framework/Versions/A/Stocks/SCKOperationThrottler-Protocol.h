@@ -5,7 +5,6 @@
 //
 
 @protocol SCKOperationThrottler
-- (void);
 
 // Remaining properties
 @property _Bool suspended;

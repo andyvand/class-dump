@@ -8,8 +8,6 @@
 @protocol TSDGestureDelegate, TSDGestureTarget;
 
 @protocol TSDGesture
-- (int)marking [could not determine item position metadata from events] itemBegin=%{public}@ itemEnd=%{public}@;
-- (_Bool)` ôP,;
 
 // Remaining properties
 @property(retain, nonatomic) id <TSDGestureTarget> cachedGestureTarget;

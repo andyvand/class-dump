@@ -30,61 +30,58 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)bership;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (long long);
-- (void);
-- (void);
-- (void)!GùQÂ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)!0@ù
-× ;
-- (void)@ù
-× ;
-- (id)ÔÁuð!¬DùQÊð1¢!0@ù
-× ;
-- (void)QÌÐ1¢!0@ù
-× ;
 - (id);
-- (id)onPendingDidMoveToWindow"b1};
-- (void)phFontSize;
-- (id)teKeys;
-- (void)layIfNecessary;
-- (id)ForItem: /* Error: Ran out of types for this method. */;
-- (id)rabberPreferredSize;
-- (id)ccessibilityIncrementBlock: /* Error: Ran out of types for this method. */;
-- (void)ultTimeZone;
-- (void)hÏ;
-- (void)Application.endBackgroundTask(_:(CDUnknownBlockType)arg1 ) to avoid this.;
-- (void)ÿ;
-- (void)ionCSg;
-- (void)eDimmedVariant;
-- (void)instantiated directly.;
-- (void)SystemStatusUI;
 - (void);
-- (void)jÁÿc~;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool)
+× ;
+- (id)aÐ1Â0@ù
+× ;
+- (void);
+- (void)0@ù
+× ;
+- (void)}{CGSize=dd}}24;
+- (void)ller"16@"UIViewController"24;
+- (void)tionForPopoverWithIdentifier:(id)arg1;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)uma;
+- (void)table:(CDUnknownBlockType)arg1;
+- (void)mage:(id)arg1 target:selector: /* Error: Ran out of types for this method. */;
+- (void)targetRectForConfiguration: /* Error: Ran out of types for this method. */;
+- (id)sToRanges:inTextContainer:groupName: /* Error: Ran out of types for this method. */;
+- (void)tForText:(id)arg1;
+- (void)eView;
+- (id)ath:animated:scrollPosition:notifyDelegate:playFeedback: /* Error: Ran out of types for this method. */;
+- (void)targetIndexPath:previousIndexPath: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)odernAccessoriesLayout,S_setUsesModernAccessoriesLayout: /* Error: Ran out of types for this method. */;
+- (void)kgroundEffect:,V__overrideBackgroundEffect /* Error: Ran out of types for this method. */;
+- (void)kView;
+- (id)cognizer",?,R,N;
+- (void)ÿ;
+- (id)¸i	Djtj;
+- (void)Xù50ò;
+- (id)ing one word of the text completion;
+- (void)^{CGRect={CGPoint=dd}{CGSize=dd}}36;
+- (void)TableView. Index paths passed to table view must contain exactly two indices specifying the section and row. Please use the category on NSIndexPath in NSIndexPath+UIKitAdditions.h if possible.;
+- (id)gnyl_;
+- (void)1H23	¶þ!H23°	¶þ)H23¸	¶þ;
+- (void);
+- (void)S(Ý.²f;
+- (void)Rc;
+- (_Bool)ÿòRÕÌ9e;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setCaptureGroupName:) NSString *_captureGroupName; // @synthesize _captureGroupName;

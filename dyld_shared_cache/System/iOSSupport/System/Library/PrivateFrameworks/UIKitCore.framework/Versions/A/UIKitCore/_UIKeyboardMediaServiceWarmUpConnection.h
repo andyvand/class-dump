@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
-+ (void)UIRepeatedAction;
++ (void);
++ (id)dler:didPresentBlock:allowPopoverToCloseBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)tailMessageFont;
+- (void)HÐsþ%T43ÐsþT43\Ïsþ;
 
 @end
 

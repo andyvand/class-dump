@@ -22,15 +22,15 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id)Ì;
-+ (id)°myl¬Ö0%EÉ;
++ (id);
++ (id);
 + (id);
 + (id);
 + (long long);
 + (id);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool)T@"<WFActionOutput>",N,R;
 
 // Remaining properties
 @property(nonatomic) _Bool onEnd; // @synthesize onEnd=_onEnd;

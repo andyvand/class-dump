@@ -29,8 +29,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (_Bool);
+- (void)è×ð×;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_applicationDataKey;

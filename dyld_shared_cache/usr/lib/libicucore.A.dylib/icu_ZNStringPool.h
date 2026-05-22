@@ -5,9 +5,9 @@
 class icu::ZNStringPool {
 public: // (access info unavailable from symbols alone)
     ZNStringPool(UErrorCode&);
-    adopt(char16_t const*, UErrorCode&);
-    freeze();
-    get(char16_t const*, UErrorCode&);
-    get(icu::UnicodeString const&, UErrorCode&);
+    auto adopt(char16_t const*, UErrorCode&);
+    auto freeze();
+    auto get(char16_t const*, UErrorCode&);
+    auto get(icu::UnicodeString const&, UErrorCode&);
     ~ZNStringPool();
 };

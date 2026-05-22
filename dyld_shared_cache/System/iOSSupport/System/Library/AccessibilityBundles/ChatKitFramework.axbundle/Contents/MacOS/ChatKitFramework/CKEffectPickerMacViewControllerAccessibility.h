@@ -10,14 +10,14 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)nteractWithURL:inRange: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

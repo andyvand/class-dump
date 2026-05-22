@@ -22,16 +22,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (id);
 - (unsigned char);
-- (unsigned long long)rSearchReferences:contentsScaleForLayers: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (id);
+- (unsigned long long);
+- (_Bool)_shader;
+- (void)î;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,22 +13,21 @@
     unsigned long long __dimensions;
 }
 
-+ (id)sPrimary;
-+ (_Bool)19m;
-- (void)comeAvailable:(CDUnknownBlockType)arg1;
-- (void),V_cleanupTimer;
-- (const double *)e",C,N,V_date;
-- (const double *)etionBlock: /* Error: Ran out of types for this method. */;
-- (void)d, gid %d;
-- (_Bool);
-- (id)T(;
-- (id)D;
-- (void)UniversalLink;
++ (id)retBeforeTap: /* Error: Ran out of types for this method. */;
++ (_Bool)-code;
+- (void);
+- (void);
+- (const double *);
+- (const double *);
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
-- (void)!ÌFù±ÈÐ1¢!0@ù
-× ;
-- (id)__titleForMainBlurEffect;
+- (_Bool);
+- (void)escriptor:(id)arg1;
+- (id)nwrapIfPossible;
+- (id);
+- (void)iew. Collection View:(double *)arg1 %@, Attributes:(const double *)arg2 %@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

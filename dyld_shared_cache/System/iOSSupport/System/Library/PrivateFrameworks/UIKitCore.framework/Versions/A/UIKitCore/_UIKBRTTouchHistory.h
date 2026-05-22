@@ -19,21 +19,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (struct CGPoint)C;
-- (_Bool)Libraries/libGLProgrammability.dylib;
+- (struct CGPoint);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)etPhotoLibrary: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)SpringAnimationBehaviorDescribing>"32@0:8@"_UIDragSetDownAnimation"16@"UIDragItem"24 /* Error: Ran out of types for this method. */;
 - (double);
-- (id)tomRowDidTapHandler;
-- (void)m;
-- (void)itle;
-- (void);
-- (void);
+- (id)disableUpdateColorOnTraitCollectionChange;
+- (void)8^;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHistory;

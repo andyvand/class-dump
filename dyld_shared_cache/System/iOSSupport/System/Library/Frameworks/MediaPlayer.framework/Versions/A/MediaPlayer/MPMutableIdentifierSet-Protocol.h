@@ -7,15 +7,7 @@
 @class NSString;
 
 @protocol MPMutableIdentifierSet
-- (_Bool)ant.macOS1016;
-- (void)rror"16;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)56;
-- (void)WithPersistentIDs:(_Bool)arg1 andEntryProperties:completion: /* Error: Ran out of types for this method. */;
-- (NSString *);
+- (_Bool)resentationForVisualIdentity:withSize:video: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *containerUniqueID;

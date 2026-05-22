@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuConfiguration, UIContextMenuInteraction, UITargetedPreview;
+@class UIContextMenuConfiguration, UITargetedPreview;
 
 @protocol UIContextMenuInteractionDelegate
-- (UIContextMenuConfiguration *);
+- (UIContextMenuConfiguration *)iation.;
 
 @optional
-- (UITargetedPreview *)ultAttributes:(UIContextMenuInteraction *)arg1;
-- (void)tedLibraryActionShowAll;
-- (void);
+- (UITargetedPreview *);
+- (void)urce;
+- (void)UICore.m;
+- (UITargetedPreview *);
+- (void)þÿ;
+- (UITargetedPreview *)PhotosDynamicHeaderOverlayController;
 @end
 

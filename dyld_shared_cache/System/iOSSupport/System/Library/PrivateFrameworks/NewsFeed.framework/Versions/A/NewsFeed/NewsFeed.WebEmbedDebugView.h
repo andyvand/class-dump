@@ -12,10 +12,11 @@
     MISSING_TYPE *display;
 }
 
-- (void);
 - (id);
-- (void)guration;
-- (id)pG;
+- (void);
+- (id)!hFùÿ°1Â0@ù
+× ;
+- (void)<lïþ;
 
 @end
 

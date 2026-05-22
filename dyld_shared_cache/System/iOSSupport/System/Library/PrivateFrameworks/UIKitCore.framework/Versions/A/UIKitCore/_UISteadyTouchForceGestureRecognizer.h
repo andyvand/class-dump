@@ -21,25 +21,23 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ansferWithAttachmentRecordRef:(double)arg1;
-- (void)IDs;
-- (void)ctionary",&,N,V_participantChangeGUIDs;
-- (double)SyncErrorAnalyzing;
-- (void);
-- (void)SString"24@?<v@?@"NSError">32;
 - (void);
-- (void)!CùñÄð1¢!0@ù
-× ;
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)b1"scopeBarActivation"b2"automaticallyShowsSearchResultsController"b1"explicitlyShowsSearchResultsController"b1"searchFieldIsBeginningEditing"b1"hidesNavigationBarDuringPresentation"b2"shouldDeferSettingSearchSuggestions"b3"suggestionHasBeenSelected"b1"pendingClearSearchSuggestions"b1"ignoresSearchSuggestionsForStackedSearch"b1"usesSearchSuggestionsMenuForStackedSearch"b1"hasPendingSuggestionMenuRefresh"b1"hasSuppressedSuggestionMenuBeforeHorizontalSizeClassChange"b1"wasShowingSuggestionsWhenChangedToInline"b1"isLayingOutNavigationBarToActivateInlineSearch"b1"isDismissingOrAboutToDismiss"b1"hasDeferredActivation"b1"shouldUpdateHelperMessage"b1"clearSuggestionsOnSelection"b1"shouldFocusResultsOnNextFocusUpdate"b1"updateSearchTextOnDidSelectSuggestion"b1"shouldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2};
-- (void)t=dd}{CGSize=dd}}44B76@?80;
-- (void)utFrame;
-- (void)wDataSource;
-- (void)dler on completion handler queue:(id)arg1 %@;
-- (void)ELP_MENU_TOUCH_CONFIGURATION_STRING;
-- (id)gationControllerTransitionIsAnimated;
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (id)nd_"^{_UIOutlineNode}""{?="__cap_"^{_UIOutlineNode}}};
+- (void)tes: /* Error: Ran out of types for this method. */;
+- (void)nceStatesByIndexPaths:(id)arg1;
+- (void)dleDelayedCentroidUpdate;
+- (void)utModeIdentifiers;
+- (void)utAccessoryView;
+- (void)utoshifted:(id)arg1;
+- (void),N,V_keyboardVC;
+- (void)ch is not supported by flow layout. Delegate:(id)arg1 %@; collection view:(id)arg2 %@;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double minimumSteadyTouchForceDuration; // @synthesize minimumSteadyTouchForceDuration=_minimumSteadyTouchForceDuration;

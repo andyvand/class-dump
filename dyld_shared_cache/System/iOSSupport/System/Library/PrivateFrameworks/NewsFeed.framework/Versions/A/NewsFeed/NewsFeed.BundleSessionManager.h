@@ -25,11 +25,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)xtLayout: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (id);
+- (void)Ý;
 
 @end
 

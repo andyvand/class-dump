@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)alViewBounds: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ntifier:(id)arg1 keysToFetch:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak MTKView *target; // @synthesize target=_target;

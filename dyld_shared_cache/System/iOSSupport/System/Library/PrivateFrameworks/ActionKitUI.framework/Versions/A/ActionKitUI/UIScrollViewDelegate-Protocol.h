@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
-
 @protocol UIScrollViewDelegate
-
-@optional
-- (void)× ;
-- (void)oller"24@0:(UIScrollView *)arg1 8@"UIDocumentInteractionController"16;
 @end
 

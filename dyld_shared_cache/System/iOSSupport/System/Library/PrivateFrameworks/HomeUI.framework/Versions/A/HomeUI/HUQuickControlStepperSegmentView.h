@@ -37,24 +37,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (double);
-- (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void)dentDeviceItemProvider;
-- (unsigned long long)gacy;
-- (void)be > 0;
-- (void)play.tv.fill;
-- (id)3Ýÿ\¬õÚ;
+- (void)sentationController"16q24;
+- (double)Features:home:usageOptions:flowDependencies: /* Error: Ran out of types for this method. */;
+- (id)AttributesForType: /* Error: Ran out of types for this method. */;
+- (void)ItemProvider;
+- (void),&,N,V_faceRecognitionModuleController;
+- (void)atus_LearnMore;
+- (id)mmunication;
+- (void)FPrimaryStateWriter)];
+- (void)°>;
 
 // Remaining properties
 @property(nonatomic) unsigned long long controlSize; // @synthesize controlSize=_controlSize;

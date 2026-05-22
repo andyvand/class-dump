@@ -7,7 +7,6 @@
 @class UIViewController;
 
 @protocol PKPalettePopoverPresenting
-- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *palettePopoverPresentingController;

@@ -16,11 +16,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (double);
-- (void);
-- (void);
-- (id)q/ð1b0@ù
-× ;
+- (void)item for item %@!;
 
 // Remaining properties
 @property(nonatomic) double rating; // @synthesize rating=_rating;

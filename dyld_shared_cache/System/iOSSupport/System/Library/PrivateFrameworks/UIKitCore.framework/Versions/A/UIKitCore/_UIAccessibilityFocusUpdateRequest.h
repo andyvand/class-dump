@@ -15,7 +15,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (long long)J6º;
+- (long long)qdÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long options; // @synthesize options=_options;

@@ -9,9 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void)'
-;
-+ (Class)Ï0;
++ (void);
++ (Class);
 
 @end
 

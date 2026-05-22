@@ -11,10 +11,10 @@
     Class _objectClass;
 }
 
-- (id);
-- (void);
 - (Class);
-- (Class),&,N,V_captionLayout;
+- (Class);
+- (void);
+- (id)olicyProvider:(Class)arg1 dataSourceProvider:layoutInvalidator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

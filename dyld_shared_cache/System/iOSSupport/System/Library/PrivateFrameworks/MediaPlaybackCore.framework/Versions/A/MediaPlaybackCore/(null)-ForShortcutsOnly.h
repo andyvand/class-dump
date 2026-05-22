@@ -5,7 +5,7 @@
 //
 
 @interface (null) (ForShortcutsOnly)
-- (_Bool)d Parameter;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsAppleMusicRadioContent;

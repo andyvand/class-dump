@@ -19,15 +19,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)/System/iOSSupport/usr/local/include/wtf/ObjectIdentifier.h;
-- (void)!;
-- (void)A;
+- (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;

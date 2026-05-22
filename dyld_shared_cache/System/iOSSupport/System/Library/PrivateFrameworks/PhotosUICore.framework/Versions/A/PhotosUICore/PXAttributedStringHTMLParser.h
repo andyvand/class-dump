@@ -37,9 +37,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void)PresentOneUp:forAsset: /* Error: Ran out of types for this method. */;
+- (id)teAction.m;
+- (void)Ê :ÿ /* Error: Ran out of types for this method. */;
+- (void)5@8;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setCurrentAttributes:) NSDictionary *_currentAttributes; // @synthesize _currentAttributes=__currentAttributes;

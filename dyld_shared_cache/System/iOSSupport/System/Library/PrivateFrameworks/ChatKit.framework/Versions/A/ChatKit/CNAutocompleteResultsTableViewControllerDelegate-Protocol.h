@@ -4,16 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResultsTableViewController;
-
 @protocol CNAutocompleteResultsTableViewControllerDelegate
-
-@optional
-- (void)u;
-- (_Bool);
-- (void);
-- (void)p;
-- (void)a;
-- (void)oller removeButton:(CNAutocompleteResultsTableViewController *)arg1 ];
 @end
 

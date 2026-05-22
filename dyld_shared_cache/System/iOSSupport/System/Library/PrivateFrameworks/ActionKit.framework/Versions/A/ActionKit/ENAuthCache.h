@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)toLastUpdated;
 
 // Remaining properties
 @property(retain, nonatomic) ENAuthCacheEntry *businessCache; // @synthesize businessCache=_businessCache;

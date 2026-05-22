@@ -10,11 +10,12 @@
 {
 }
 
-+ (id)P;
-+ (Class)localCertificates];
++ (Class);
++ (id);
 - (id);
 - (id);
-- (void);
+- (void)BÐ!8CùZ	Ð1Â0@ù
+× ;
 
 @end
 

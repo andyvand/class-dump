@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)SXTransitionDataSourceNode";
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *activeLayers; // @synthesize activeLayers=_activeLayers;

@@ -20,10 +20,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id)mpressedSessionEventArticleUnliked;
+- (id);
+- (id)magnificationFilter;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

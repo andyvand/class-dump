@@ -12,9 +12,10 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)b
+°Bëÿ;
 
 @end
 

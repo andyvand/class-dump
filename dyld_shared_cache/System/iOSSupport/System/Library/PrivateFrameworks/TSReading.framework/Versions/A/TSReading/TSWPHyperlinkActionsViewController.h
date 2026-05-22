@@ -13,16 +13,17 @@
     TSWPHyperlinkSettingsViewController *_hyperlinkSettingsViewController;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
+- (id);
+- (void);
 - (id);
 - (long long);
-- (id);
+- (long long);
 - (void);
-- (void);
-- (long long)s";
-- (void);
+- (void)Á~Ð!ôCùÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

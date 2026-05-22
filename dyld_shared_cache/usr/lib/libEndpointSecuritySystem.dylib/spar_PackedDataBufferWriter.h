@@ -4,9 +4,9 @@
 
 class spar::PackedDataBufferWriter {
 public: // (access info unavailable from symbols alone)
-    create();
-    write(spar::Slice<unsigned char const>);
-    write(spar::Slice<unsigned char const>) (.cold.1);
-    write(spar::Slice<unsigned char const>) (.cold.2);
+    auto create();
+    auto write(spar::Slice<unsigned char const>);
+    auto write(spar::Slice<unsigned char const>) (.cold.1);
+    auto write(spar::Slice<unsigned char const>) (.cold.2);
     ~PackedDataBufferWriter();
 };

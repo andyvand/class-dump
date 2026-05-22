@@ -20,35 +20,34 @@
     UIVisualEffect *__backgroundEffect;
 }
 
-+ (id)eZone;
++ (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool)ing SOS message found a matching message already tagged isSOS, discarding incoming message; existingMessage:%@ /* Error: Ran out of types for this method. */;
-- (void)ecoverably deleting messages with GUID %@:(id)arg1;
-- (void)ats for chat metadata %@;
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
+- (long long);
+- (void);
 - (id);
-- (id);
-- (void)CCloudClient";
-- (CDUnknownBlockType)@;
-- (void)f3ç;
-- (void)!pÐ!ì@ùÑÂ°1¢!0@ù
+- (id)ùÑ^1Â0@ù
 × ;
-- (id)
-× ;
-- (void)ssoryView";
-- (long long)s"b1"didSetMaskView"b1"hasBlocksToPerformWhenReused"b1"isBeingReused"b1"isDisplayed"b1"collectionViewHasBeenExplicitlySet"b1"shouldConstrainWidth"b1"shouldConstrainHeight"b1"hasDefaultLayoutMargins"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
-- (id)ionValues: /* Error: Ran out of types for this method. */;
-- (id)Landscape;
-- (void)-[UIDocumentMenuViewController _dismissWithOption:(id)arg1 ];
-- (void)IUtilities.framework/AccessibilityUIUtilities;
-- (void)Å~ÿdÙõ`;
-- (void)L¬1;
-- (CDUnknownBlockType)~h;
+- (void)Ô ;
+- (id)ibleDroppedItems: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (void)Priority;
+- (void)shouldInvalidateLayoutForLinkAttributesChange;
+- (void)dentifiers;
+- (void)stingView",R,N,V_sceneView;
+- (CDUnknownBlockType);
+- (id);
+- (id);
+- (void)uÍ o^;
+- (void)°aÕÌi;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setBackgroundEffect:) UIVisualEffect *_backgroundEffect; // @synthesize _backgroundEffect=__backgroundEffect;

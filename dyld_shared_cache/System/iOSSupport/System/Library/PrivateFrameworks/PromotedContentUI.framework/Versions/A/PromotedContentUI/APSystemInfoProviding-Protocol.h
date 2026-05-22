@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol APSystemInfoProviding
-- (_Bool);
-- (NSString *)dvertisementsWithPolicy: /* Error: Ran out of types for this method. */;
-- (NSString *);
+- (NSString *)ÿÿ;
+- (NSString *);
+- (NSString *)uÿÿSg_åy¯A4_GSgtGGGGAZGAZG_So16UIViewControllerCSgQo_;
+- (NSString *)extBuilder;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *bundleIdentifier;

@@ -24,10 +24,10 @@
 
 - (void);
 - (void);
-- (struct CGSize);
-- (id)enSomeRecordsMissing;
-- (void);
 - (id);
+- (struct CGSize);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

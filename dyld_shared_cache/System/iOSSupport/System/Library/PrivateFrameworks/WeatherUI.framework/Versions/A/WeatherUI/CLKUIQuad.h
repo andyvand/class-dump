@@ -22,11 +22,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (_Bool);
 - (id);
 - (void);
-- (_Bool)gGGAEy±päGG_oätGG;
+- (void)inationAlphaBlendFactor: /* Error: Ran out of types for this method. */;
+- (void)TU;
 
 // Remaining properties
 @property(nonatomic, getter=isOpaque) _Bool opaque; // @synthesize opaque=_opaque;

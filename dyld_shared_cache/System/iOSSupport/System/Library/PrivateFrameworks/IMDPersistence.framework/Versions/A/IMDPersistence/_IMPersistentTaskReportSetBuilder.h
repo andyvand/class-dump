@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)sponderWindowIsKey;
+- (id);
+- (void)4¸;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *reportSet; // @synthesize reportSet=_reportSet;

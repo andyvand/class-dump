@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     _Bool _presentingOverKeyboard;
 }
 
-- (void)romChallengedSMSRelay:(_Bool)arg1;
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool)ror"16;
 
 // Remaining properties
 @property(nonatomic) _Bool presentingOverKeyboard; // @synthesize presentingOverKeyboard=_presentingOverKeyboard;

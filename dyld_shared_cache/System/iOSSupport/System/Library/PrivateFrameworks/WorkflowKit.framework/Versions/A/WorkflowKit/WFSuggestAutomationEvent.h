@@ -17,18 +17,18 @@
     NSString *_source;
 }
 
-+ (Class)Ì;
++ (Class);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)tiveContentProperty;
+- (void);
+- (void)EPBRunRequestProgress.m;
 
 // Remaining properties
 @property(nonatomic) _Bool completed; // @synthesize completed=_completed;

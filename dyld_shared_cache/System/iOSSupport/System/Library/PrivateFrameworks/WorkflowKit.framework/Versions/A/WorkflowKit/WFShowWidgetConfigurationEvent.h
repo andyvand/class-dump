@@ -17,20 +17,20 @@
     NSString *_sizeClass;
 }
 
-+ (Class)@²Ì;
++ (Class);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)ð@hÈð@x¨àP¼ð(`¬à@x°èH¨àTÄì<d Ìü4l¤ÔD´ä4lÌô,d¼ä<d¼ä4\Àè8`°Ø;
-- (id)ction on it.;
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void)aving for home;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;

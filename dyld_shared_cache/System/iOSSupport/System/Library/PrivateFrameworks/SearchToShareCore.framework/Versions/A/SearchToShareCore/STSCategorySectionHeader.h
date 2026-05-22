@@ -16,11 +16,11 @@
 
 - (void);
 - (_Bool);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool clearButtonHidden; // @synthesize clearButtonHidden=_clearButtonHidden;

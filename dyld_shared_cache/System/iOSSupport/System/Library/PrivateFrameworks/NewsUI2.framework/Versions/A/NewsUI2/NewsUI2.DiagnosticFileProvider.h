@@ -12,8 +12,8 @@
     MISSING_TYPE *feedDatabaseExporter;
 }
 
-- (void);
 - (id);
+- (void)P;
 
 @end
 

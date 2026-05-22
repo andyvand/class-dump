@@ -24,9 +24,9 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id)yDisplayPointForSceneReferencePoint: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

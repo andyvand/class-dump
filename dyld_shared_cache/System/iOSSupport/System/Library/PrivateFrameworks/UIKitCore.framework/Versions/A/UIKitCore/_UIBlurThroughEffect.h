@@ -12,8 +12,8 @@
 
 + (id);
 - (_Bool);
-- (id),V_pattern;
-- (long long)T@"_UIScrollPocketCollectorInteraction",N,&;
+- (long long);
+- (id)¼^;
 
 @end
 

@@ -60,17 +60,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id)øoz;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)for better printing.;
-- (id);
-- (id);
-- (id);
+- (id)@ù
+× ;
+- (id)ì;
+- (void)n:attribution:prompt:] /* Error: Ran out of types for this method. */;
+- (id)
+;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artistID; // @synthesize artistID=_artistID;

@@ -14,8 +14,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)1ï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *conditionTypes; // @synthesize conditionTypes=_conditionTypes;

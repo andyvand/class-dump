@@ -4,8 +4,8 @@
 
 // Global C++ functions
 
-operator delete(void*);
-operator new(unsigned long);
 typeinfo for std::bad_array_new_length;
 typeinfo for std::length_error;
+void * operator new(unsigned long);
+void operator delete(void*);
 vtable for std::length_error;

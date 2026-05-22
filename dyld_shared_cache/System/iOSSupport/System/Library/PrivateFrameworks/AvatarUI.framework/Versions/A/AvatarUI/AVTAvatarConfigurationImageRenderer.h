@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)erItem",W,N,V_cameraStickerItem;
+- (id)è`öÿyLö;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTMemoji *avatar; // @synthesize avatar=_avatar;

@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     struct CGPoint _initialLocation;
 }
 
-- (void)I;
-- (void)AppearanceAPIVersion:(const struct _UISEGestureFeatureSample *)arg1;
-- (id)UUUUUU#@;
+- (id);
+- (void)tor:(const struct _UISEGestureFeatureSample *)arg1;
+- (void);
 
 @end
 

@@ -13,10 +13,10 @@
 
 - (long long);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id)w`@�;
-- (id);
+- (id);
 
 @end
 

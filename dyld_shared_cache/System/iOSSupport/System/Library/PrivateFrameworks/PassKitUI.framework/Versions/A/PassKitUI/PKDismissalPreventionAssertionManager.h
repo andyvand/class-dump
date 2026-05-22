@@ -14,8 +14,8 @@
 + (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldPreventAutomaticDismissal;

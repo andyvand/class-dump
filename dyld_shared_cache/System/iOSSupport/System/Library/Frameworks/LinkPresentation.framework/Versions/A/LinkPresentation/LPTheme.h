@@ -51,7 +51,7 @@
 + (double);
 + (id);
 + (void);
-+ (void)dthDuringSizing;
++ (void)Ö;
 - (void);
 - (double);
 - (id);
@@ -70,28 +70,29 @@
 - (id);
 - (id);
 - (id);
-- (id)JB	3;
-- (void)@9;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long)rItemClass:forItemProvider:completion: /* Error: Ran out of types for this method. */;
-- (id)heVersion;
-- (id);
-- (void);
-- (id);
-- (void);
+- (long long);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)Gù¶1¢!0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)1Â0@ù
 × ;
-- (id);
-- (void)resolvingAgainstBaseURL:(id)arg1;
-- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

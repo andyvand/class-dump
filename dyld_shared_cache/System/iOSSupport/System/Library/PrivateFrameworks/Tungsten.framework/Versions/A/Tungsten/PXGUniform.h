@@ -37,20 +37,20 @@
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (struct CGImage *);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (const void *);
 - (unsigned long long);
+- (id);
+- (float);
 - (void);
-- (const void *)entFocusRectDiagnostics;
-- (float)%.3f; generator:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bindType;

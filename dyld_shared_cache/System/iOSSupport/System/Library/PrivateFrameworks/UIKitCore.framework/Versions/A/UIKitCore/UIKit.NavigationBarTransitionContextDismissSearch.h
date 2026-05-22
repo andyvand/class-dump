@@ -14,7 +14,7 @@
     MISSING_TYPE *transitioningScopeBarContainer;
 }
 
-- (void);
+- (void)l;
 
 @end
 

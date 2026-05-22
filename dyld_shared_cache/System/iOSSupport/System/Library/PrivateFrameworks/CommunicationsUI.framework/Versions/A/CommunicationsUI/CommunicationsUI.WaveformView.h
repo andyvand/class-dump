@@ -24,9 +24,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (void);
+- (void)8@"UIGestureRecognizer"16@"UIPress"24;
+- (void)SgGG#ýVy]îVGGïVG0îVGòüVyAIGG;
 
 @end
 

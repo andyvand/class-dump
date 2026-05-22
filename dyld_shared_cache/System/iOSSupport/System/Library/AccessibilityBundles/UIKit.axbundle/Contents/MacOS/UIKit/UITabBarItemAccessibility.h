@@ -10,22 +10,22 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

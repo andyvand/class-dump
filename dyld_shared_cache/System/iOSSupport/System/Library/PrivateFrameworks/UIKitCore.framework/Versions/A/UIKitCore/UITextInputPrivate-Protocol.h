@@ -4,60 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString, RTIInputSystemSourceSession, UITextInputTraits, UITextInteractionAssistant, UITextPosition, UITextRange, UIView;
+@class NSArray, NSAttributedString, RTIInputSystemSourceSession, UIColor, UITextInteractionAssistant, UITextRange, UIView;
 @protocol UISelectionInteractionAssistant, UITextInputSuggestionDelegate;
 
 @protocol UITextInputPrivate
-- (UITextInputTraits *)mpositingMode;
-- (_Bool)÷;
-- (UITextInteractionAssistant *)n;
-- (void)tion;
-- (_Bool)1Æ4Ð;
+- (_Bool)rdArbiterClientInputDestination removeWindowHostingPID:callerID:]  nil callerID /* Error: Ran out of types for this method. */;
+- (void)43ÜX;
 
 @optional
-- (void)teSealingRequestInternal (Main) failed;
-- (void)not a CFStringRef;
-- (void)valuation failed;
-- (struct _NSRange);
-- (_Bool);
-- (_Bool);
-- (UIView *);
-- (void)ckMap: /* Error: Ran out of types for this method. */;
-- (double)dledNicknames:(NSString *)arg1;
-- (struct CGPoint)pletion:(struct CGPoint)arg1;
-- (struct CGPoint)tion:(struct CGPoint)arg1;
-- (struct CGPoint):(struct CGPoint)arg1;
-- (void)artTranslation;
-- (struct CGAffineTransform)etSendFailed:(UITextPosition *)arg1 toHandle:withError: /* Error: Ran out of types for this method. */;
-- (void)oadUnreadHistoryForChatWithGUID:chatIdentifiers:style:services:limit:fallbackMessageGUID:reply: /* Error: Ran out of types for this method. */;
-- (_Bool)hreadIdentifier:reply: /* Error: Ran out of types for this method. */;
-- (void)_Status;
-- (NSArray *)˼;
-- (void)nshipStatement:(UITextRange *)arg1 %@;
-- (void);
-- (void)1¢!0@ù
+- (UITextRange *)!;
+- (void)0@ù
 × ;
-- (struct CGRect)
-× ;
-- (UIView *)ÑÈ1¢!0@ù
-× ;
-- (_Bool)nput:view: /* Error: Ran out of types for this method. */;
-- (_Bool)hogonalScrollingSectionIndexes;
-- (void)FetchMetadata:(UITextRange *)arg1;
-- (NSAttributedString *)es:(UITextRange *)arg1;
-- (id <UISelectionInteractionAssistant>)otationState",&,N,V_rotationState;
-- (void)ionContext>",&,N,V_expandCollapseAnimationContext;
-- (UITextRange *);
-- (void)%@;
-- (_Bool)ror retrieving battery status:result=%{public}d percent=%{public}d hasExternalConnected=%{public}d isCharging=%{public}d isFullyCharged=%{public}d /* Error: Ran out of types for this method. */;
-- (void)customViewInternalPadding;
-- (_Bool)automatic after being resolved.;
-- (void)ng the bitmap data corner.;
-- (void)ColorView;
-- (void)à?ffffffö?;
-- (UIView *);
-- (long long)u¬4h{þu¬4d{þu¬4`{þ;
-- (UIView *)14°«;
+- (UIView *)APoint3D=ddd}24@48;
+- (void)ITextFormattingViewController"16@"UIColorPickerViewController"24;
+- (long long)setMaximumTemporaryZoomScale: /* Error: Ran out of types for this method. */;
+- (struct CGRect)AppliedInCurrentContext;
+- (_Bool)ColorNames;
+- (void)dsToParentScroller;
+- (void)inDuration;
+- (void)ationInteractionDelegate;
+- (UIColor *)ntroller is used within a UIDocumentViewControllerLaunchOptions context. Browser view controller:%@ /* Error: Ran out of types for this method. */;
+- (UITextRange *)headlineRegular;
+- (void)tiveImpl _prepareModelNavigationViewControllerInColumn:(UITextRange *)arg1 ];
+- (_Bool)out.m;
+- (id <UITextInputSuggestionDelegate>)l navigation bar button item. Please use the rightBarButtonItems (that's plural) property.;
+- (void);
+- (NSArray *)Ä+;
+- (UITextInteractionAssistant *);
+- (void)tþ;
+- (id <UISelectionInteractionAssistant>)[;
+- (_Bool)ý7;
+- (NSAttributedString *)ìc\;
+- (void)­\;
 
 // Remaining properties
 @property(readonly, nonatomic) RTIInputSystemSourceSession *_rtiSourceSession;

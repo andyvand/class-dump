@@ -15,21 +15,19 @@
 }
 
 - (void);
-- (long long)Versions/A/CoreFoundation;
-- (void)ntroller;
-- (void)l;
-- (id)iw;
-- (id);
+- (long long);
 - (void);
-- (void)Ã1¢!0@ù
-× ;
-- (_Bool);
-- (_Bool)tionInspectorDetailViewController";
-- (id)__unordered_map_equal<long, std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, std::equal_to<long>, std::hash<long>>, std::allocator<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)te:crossfade: /* Error: Ran out of types for this method. */;
-- (id)%@
-;
-- (long long)];
+- (void);
+- (id)× ;
+- (_Bool)tusBarForegroundTransparent;
+- (id)eferEventHandlingToSystemWithContext, handled command modifier;
+- (id)vþÿ;
+- (void)gAlpha;
+- (_Bool)arProxy.m;
+- (long long)lectionReusableView"8^B16;
+- (void)}{CGSize=dd}}40@?0{CGRect={CGPoint=dd}{CGSize=dd}}8;
+- (void);
+- (id)¡sþ43È¡sþ43¢sþ;
 
 // Remaining properties
 @property(nonatomic) long long blurStyle; // @synthesize blurStyle=_blurStyle;

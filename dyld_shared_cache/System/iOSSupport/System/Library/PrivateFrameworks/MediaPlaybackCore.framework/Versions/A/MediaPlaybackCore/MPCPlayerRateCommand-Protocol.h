@@ -5,8 +5,7 @@
 //
 
 @protocol MPCPlayerRateCommand
-- (float){public}s;
-- (float)ÿüGüÿ;
+- (float)[MF shortcut on resolution] - Stopping playback;
 
 // Remaining properties
 @property(readonly, nonatomic) float maximumValue;

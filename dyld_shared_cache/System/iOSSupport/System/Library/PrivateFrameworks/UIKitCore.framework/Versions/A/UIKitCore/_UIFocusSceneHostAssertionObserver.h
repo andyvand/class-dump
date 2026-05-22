@@ -14,9 +14,10 @@ __attribute__((visibility("hidden")))
     id <_UISceneFocusSystemManager> _focusSystemManager;
 }
 
-- (_Bool)word;
-- (void);
+- (_Bool)0@ù
+× ;
 - (id);
+- (void);
 
 @end
 

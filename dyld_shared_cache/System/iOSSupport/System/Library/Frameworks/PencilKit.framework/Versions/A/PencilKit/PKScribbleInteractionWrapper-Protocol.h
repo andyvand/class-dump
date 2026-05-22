@@ -8,12 +8,9 @@
 @protocol UIInteraction;
 
 @protocol PKScribbleInteractionWrapper
-- (id <UIInteraction>)ing %@ input assistant item(s). isVisible = %@, isHandwritingToolSelected = %@, shouldSuppressInputAssistantUpdates = %@;
 
 @optional
-- (struct UIEdgeInsets);
-- (UIView *)H	;
-- (_Bool)Ô;
+- (UIView *)Value;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIInteraction> interaction;

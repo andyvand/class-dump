@@ -7,7 +7,6 @@
 @protocol WBSParsecFeedbackDispatcher;
 
 @protocol WBSParsecSearchSession
-- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) id <WBSParsecFeedbackDispatcher> feedbackDispatcher;

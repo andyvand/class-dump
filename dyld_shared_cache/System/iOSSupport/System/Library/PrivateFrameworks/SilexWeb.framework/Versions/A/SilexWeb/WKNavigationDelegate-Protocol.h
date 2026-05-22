@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, WKNavigation, WKWebView;
-
 @protocol WKNavigationDelegate
-
-@optional
-- (void);
-- (void)ct to begin refund request for %{private}llu;
-- (void);
-- (void)eviceCurveToPoint:(WKWebView *)arg1 controlPoint1:(WKNavigation *)arg2 controlPoint2:(NSError *)arg3;
-- (void)TqR;
 @end
 

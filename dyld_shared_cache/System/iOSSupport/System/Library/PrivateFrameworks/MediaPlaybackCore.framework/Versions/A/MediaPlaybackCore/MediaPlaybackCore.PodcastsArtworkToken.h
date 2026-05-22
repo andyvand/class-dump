@@ -11,8 +11,8 @@
     MISSING_TYPE *mediaItem;
 }
 
-- (void);
 - (id);
+- (void)Destination:Group Leader %{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

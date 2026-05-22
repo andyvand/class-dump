@@ -32,8 +32,8 @@
 - (void);
 - (double);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

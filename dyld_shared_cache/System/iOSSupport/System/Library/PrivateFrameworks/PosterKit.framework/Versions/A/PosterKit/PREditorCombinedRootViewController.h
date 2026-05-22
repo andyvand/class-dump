@@ -17,13 +17,14 @@
 - (void);
 - (long long);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)tyle:(struct CGSize)arg1;
-- (void)called; didTimeOut:(_Bool)arg1 %{BOOL}u;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) id <PREditingLookViewProviding> views; // @synthesize views=_views;

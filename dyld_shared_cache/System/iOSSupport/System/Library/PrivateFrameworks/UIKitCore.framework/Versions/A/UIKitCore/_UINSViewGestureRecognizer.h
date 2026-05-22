@@ -13,11 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)!\DùQÆð1¢!0@ù
-× ;
-- (void);
-- (void)ewControllerOneToOneTransitionContext"24B32;
-- (void)yView:(id)arg1;
+- (void)didMoveSwipeView:(id)arg1 toPosition:(id)arg2;
+- (void)rdown;
+- (void)riggerRenameAction;
+- (void)tionOptionDefinitionPayloadStorage.swift;
 
 @end
 

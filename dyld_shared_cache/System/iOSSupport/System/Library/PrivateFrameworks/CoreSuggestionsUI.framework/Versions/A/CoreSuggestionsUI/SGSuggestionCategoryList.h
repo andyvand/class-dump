@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *listTitle; // @synthesize listTitle=_listTitle;

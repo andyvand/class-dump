@@ -4,20 +4,17 @@
 
 // Global C++ functions
 
-(anonymous namespace)::IOReturnException::what() const;
-(anonymous namespace)::IOReturnException::~IOReturnException();
-(anonymous namespace)::openWranglerUC(IOConnect*, unsigned int, char const**);
-openDiagnostics(IOConnect*, char const**);
-openGTrace(IOConnect*, char const**);
-operator delete(void*);
-operator delete(void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
+auto openDiagnostics(IOConnect*, char const**);
+auto openGTrace(IOConnect*, char const**);
 typeinfo for (anonymous namespace)::IOReturnException;
 typeinfo for std::bad_alloc;
 typeinfo for std::bad_array_new_length;
 typeinfo for std::exception;
 typeinfo for std::length_error;
 typeinfo name for (anonymous namespace)::IOReturnException;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
+void operator delete(void*, std::__type_descriptor_t);
 vtable for (anonymous namespace)::IOReturnException;
 vtable for __cxxabiv1::__si_class_type_info;
 vtable for std::length_error;

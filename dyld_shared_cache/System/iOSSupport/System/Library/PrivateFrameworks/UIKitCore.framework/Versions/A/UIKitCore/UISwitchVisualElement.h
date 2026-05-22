@@ -18,33 +18,33 @@
     double _enabledAlpha;
 }
 
-+ (struct CGSize)atusCode;
-+ (struct UIEdgeInsets)tionsValid;
-+ (_Bool)³¬µ¶¸¹ì¹;
++ (struct CGSize)xtReplacementsMenuWithMenuElements: /* Error: Ran out of types for this method. */;
++ (struct UIEdgeInsets)entViewController;
++ (_Bool)ll;
 - (id);
-- (void)>"24@0:(id)arg1 8Q16;
-- (void):(double)arg1 fromData:error: /* Error: Ran out of types for this method. */;
-- (id)epositionWithGUID:updatedWithProperties:fromLocalChange: /* Error: Ran out of types for this method. */;
-- (double)",R,&,N;
-- (struct CGSize);
+- (void);
+- (void);
+- (id);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)0@ù
+- (void)@ù
 × ;
-- (void)!dFùÑÈÐ1¢!0@ù
+- (struct CGSize)ù
 × ;
-- (void)tWindowDidChangeNotification:(id)arg1;
-- (void)esetsVerticalLayoutMargins:(id)arg1 traitCollection: /* Error: Ran out of types for this method. */;
-- (void)1b1b8b8b8},N;
-- (_Bool);
-- (void)¤;
-- (void);
-- (id)apple.UIKit.clickPresentationExclusion;
-- (void)ldReselectHighlightedItemOnLift;
-- (void)Tg;
+- (void)nsChanged"b1"delegateSupportsDeprecatedWindowSupportedOrientationsChanged"b1};
+- (void)n;
+- (void)ithClickPresentation:(id)arg1;
+- (void)ine:(id)arg1 scale:displayScale:offset: /* Error: Ran out of types for this method. */;
+- (id)includeMenuControllerItems;
+- (void)¸\¸;
+- (void)ïÿ¬ïÿ`ïÿ;
+- (_Bool)neHostingControllerC;
+- (id)ringC;
+- (void)4!ÿ;
+- (void)clÝlKi;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;

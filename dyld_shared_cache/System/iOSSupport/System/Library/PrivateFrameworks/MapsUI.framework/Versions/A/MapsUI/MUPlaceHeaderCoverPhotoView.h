@@ -25,14 +25,14 @@
 - (double);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
+- (double);
 - (void);
-- (double)sArgument;
+- (id);
+- (void);
+- (void)mapsui_resetViewLayoutMargins;
 
 // Remaining properties
 @property(nonatomic) double cardExpansionProgress; // @synthesize cardExpansionProgress=_cardExpansionProgress;

@@ -24,14 +24,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void)erViewController";
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_semaphore> *bannerSemaphore; // @synthesize bannerSemaphore=_bannerSemaphore;

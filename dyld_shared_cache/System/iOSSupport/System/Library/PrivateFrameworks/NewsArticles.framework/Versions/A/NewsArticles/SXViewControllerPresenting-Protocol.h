@@ -7,7 +7,6 @@
 @class UIViewController;
 
 @protocol SXViewControllerPresenting
-- (UIViewController *);
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *controller;

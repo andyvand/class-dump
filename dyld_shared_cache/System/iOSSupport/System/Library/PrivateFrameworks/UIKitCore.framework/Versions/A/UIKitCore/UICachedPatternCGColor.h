@@ -11,14 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (unsigned long long);
 - (oneway void);
+- (id)
+× ;
+- (id)2;
+- (_Bool);
+- (id);
 - (id);
-- (_Bool)"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
-- (_Bool)r non-finite engine scaling coefficients {%f, %f}. This probably means someone forgot to set the engine scaling coefficients on the engine.;
-- (id)ch;
-- (id)ö;
-- (unsigned long long)K¨d;
-- (id);
+- (_Bool)^p;
 
 @end
 

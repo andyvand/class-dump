@@ -18,8 +18,8 @@
 }
 
 - (void);
-- (void)jc_selrefs;
 - (id);
+- (void)É:. /* Error: Ran out of types for this method. */;
 
 @end
 

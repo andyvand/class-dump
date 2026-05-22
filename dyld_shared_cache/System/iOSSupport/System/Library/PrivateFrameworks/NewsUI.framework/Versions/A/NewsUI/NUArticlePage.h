@@ -26,8 +26,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -40,11 +38,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <NUActivityProvider> activityProvider; // @synthesize activityProvider=_activityProvider;

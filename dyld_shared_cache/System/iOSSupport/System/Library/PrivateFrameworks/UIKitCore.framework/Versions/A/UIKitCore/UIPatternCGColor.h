@@ -13,17 +13,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)ontroller;
-- (struct CGColor *)tingUserInterfaceStyle;
-- (_Bool);
-- (id)se faire un brunch demain?;
-- (void)Appearance;
-- (void)view=;
-- (void)mOut;
-- (_Bool);
-- (_Bool)na;
-- (_Bool)ÿ;
-- (id)k;
+- (id);
+- (id);
+- (struct CGColor *)izer;
+- (void)Ìtg;
+- (void)(±h;
+- (_Bool)<°Áh;
+- (_Bool)ði;
+- (void)7n;
+- (_Bool)ÿwÍÌj;
+- (id);
+- (_Bool)ðök;
 
 @end
 

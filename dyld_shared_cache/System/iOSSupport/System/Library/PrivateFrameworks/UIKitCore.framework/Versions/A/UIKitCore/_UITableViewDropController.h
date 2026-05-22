@@ -22,56 +22,55 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
-- (id)ns;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)Á1¢!0@ù
-× ;
-- (id)!HFùqÃÐ1¢!0@ù
-× ;
-- (_Bool)ð!DFù1ÅÐ1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (void);
-- (unsigned long long)_UIBitSet<256UL>="_chunks"[4Q]}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 1UL, _UISmallVector<unsigned short, 16>, std::vector<unsigned long>>="__dummy"c"__head"{__alt<1UL, _UISmallVector<unsigned short, 16>>="__value"{_UISmallVector<unsigned short, 16UL>="_vector""_size"Q}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 2UL, std::vector<unsigned long>>="__dummy"c"__head"{__alt<2UL, std::vector<unsigned long>>="__value"{vector<unsigned long, std::allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 3UL>=))))"__index"I}} /* Error: Ran out of types for this method. */;
-- (void)24;
-- (void)upportsParentFocusRings;
-- (_Bool)TrackSize: /* Error: Ran out of types for this method. */;
-- (id)ectRatio: /* Error: Ran out of types for this method. */;
-- (long long)berBandCoefficient;
-- (void);
-- (id)ø;
-- (_Bool)collection populated during initialization. This is a serious bug, likely caused by accessing properties or methods on the view controller before calling a UIViewController initializer. View controller:(id)arg1 %@Set a symbolic breakpoint on UIViewControllerMissingInitialTraitCollection and check the backtrace to see what's causing this. This will become an assert in a future version.;
-- (void)So22_UIBarBackgroundLayoutCSg;
-- (id)tInk;
-- (void)ticPriorityHigh;
-- (void)selectable in %@.;
-- (void)AfterTransition;
-- (void)alue must be greater than zero or UITableViewAutomaticDimension.;
-- (_Bool)alid;
-- (id)e;
-- (void)ContentOffsetForObservedScrollView;
-- (void)showMeshes;
-- (void)ervedWindow;
 - (_Bool);
+- (void);
+- (void);
 - (id);
+- (id)°1Â0@ù
+× ;
+- (_Bool)1\Ð1Â0@ù
+× ;
+- (_Bool);
+- (id)ControllerAdaptiveLayoutTransitionController";
+- (id)ew";
+- (id)llToContainer;
+- (long long)eActionsContainer;
+- (void)bel: /* Error: Ran out of types for this method. */;
+- (id)options: /* Error: Ran out of types for this method. */;
+- (void)ð;
+- (void)T³;
+- (void)=%@; supportedOrientations=[%@].;
+- (id)ÜDÿÿôDÿÿEÿÿdEÿÿEÿÿ´EÿÿÔEÿÿFÿÿ,FÿÿÐFÿÿèFÿÿGÿÿ Gÿÿ@Gÿÿ°GÿÿðGÿÿ(Hÿÿ@HÿÿXHÿÿxHÿÿHÿÿ¨Hÿÿ8KÿÿKÿÿLÿÿ4Lÿÿ¬LÿÿÄLÿÿÜLÿÿMÿÿðLÿÿÄMÿÿ\Nÿÿ|Nÿÿ¼NÿÿôNÿÿtOÿÿPÿÿ<PÿÿtPÿÿ´PÿÿÔPÿÿôPÿÿQÿÿ8QÿÿXQÿÿxQÿÿQÿÿ¸QÿÿØQÿÿøQÿÿ$Rÿÿ<RÿÿTRÿÿlRÿÿRÿÿSÿÿ(Sÿÿ@SÿÿXSÿÿpSÿÿ|Vÿÿ¼Vÿÿ0WÿÿHWÿÿ`Wÿÿ WÿÿôWÿÿXÿÿ$Xÿÿ<XÿÿTXÿÿlXÿÿXÿÿXÿÿ´XÿÿÌXÿÿäXÿÿüXÿÿYÿÿ,YÿÿDYÿÿ\YÿÿtYÿÿYÿÿ¤YÿÿÄYÿÿZÿÿ(Zÿÿ4\ÿÿd\ÿÿ\ÿÿÀ]ÿÿø]ÿÿÀ^ÿÿØ^ÿÿ0_ÿÿH_ÿÿx_ÿÿ¼_ÿÿÔ_ÿÿì_ÿÿ`ÿÿ`ÿÿ4`ÿÿL`ÿÿd`ÿÿ|`ÿÿ`ÿÿ¬`ÿÿÄ`ÿÿÜ`ÿÿHaÿÿÜaÿÿbÿÿ0bÿÿHbÿÿhbÿÿbÿÿbÿÿÔcÿÿPdÿÿÜdÿÿeÿÿ4eÿÿTeÿÿteÿÿ¬eÿÿfÿÿ<fÿÿLgÿÿdgÿÿ|gÿÿgÿÿ¬gÿÿðgÿÿ4hÿÿLhÿÿdhÿÿhÿÿpiÿÿiÿÿ iÿÿ¸iÿÿmÿÿ¬mÿÿÐmÿÿèmÿÿ;
+- (id)Hêÿ;
+- (void)ä¥éÿ¤x]þP¶þÿ	;
+- (id)mn;
+- (void)a.m;
+- (void)an;
+- (id)StyleOverrideDeveloperTools;
+- (_Bool)fects = %@;
+- (id)%@; dest=%@; boundsInSource=%@;
+- (void)32@?0@"_UINavigationBarItemStackEntry"8Q16^B24;
+- (void)x;
 - (void);
-- (id)4¼®þÍv;
-- (long long)@4­þLk­þØdþø:(id)arg1 71;
-- (id);
-- (id)¼Ñmþým4\Ñmþ;
+- (void)vvæ?Ë?VVVVVVÖ?p=
+×£pÝ?ffffffæ?433333Ó?433333Ó?ffffffæ?Ù?333333ã?333333ã?Ù?;
+- (id)tMetricsState;
+- (void);
+- (_Bool);
 - (void);
 - (void);
+- (long long);
 - (void);
-- (id)o;
 - (id);
+- (void)ÆI;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

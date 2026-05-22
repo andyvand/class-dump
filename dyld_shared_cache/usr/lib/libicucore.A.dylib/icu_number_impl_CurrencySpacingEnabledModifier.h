@@ -5,9 +5,9 @@
 class icu::number::impl::CurrencySpacingEnabledModifier {
 public: // (access info unavailable from symbols alone)
     CurrencySpacingEnabledModifier(icu::FormattedStringBuilder const&, icu::FormattedStringBuilder const&, bool, bool, icu::DecimalFormatSymbols const&, UErrorCode&);
-    apply(icu::FormattedStringBuilder&, int, int, UErrorCode&) const;
-    applyCurrencySpacing(icu::FormattedStringBuilder&, int, int, int, int, icu::DecimalFormatSymbols const&, UErrorCode&);
-    applyCurrencySpacingAffix(icu::FormattedStringBuilder&, int, icu::number::impl::CurrencySpacingEnabledModifier::EAffix, icu::DecimalFormatSymbols const&, UErrorCode&);
-    getInsertString(icu::DecimalFormatSymbols const&, icu::number::impl::CurrencySpacingEnabledModifier::EAffix, UErrorCode&);
-    getUnicodeSet(icu::DecimalFormatSymbols const&, icu::number::impl::CurrencySpacingEnabledModifier::EPosition, icu::number::impl::CurrencySpacingEnabledModifier::EAffix, UErrorCode&);
+    auto apply(icu::FormattedStringBuilder&, int, int, UErrorCode&) const;
+    auto applyCurrencySpacing(icu::FormattedStringBuilder&, int, int, int, int, icu::DecimalFormatSymbols const&, UErrorCode&);
+    auto applyCurrencySpacingAffix(icu::FormattedStringBuilder&, int, icu::number::impl::CurrencySpacingEnabledModifier::EAffix, icu::DecimalFormatSymbols const&, UErrorCode&);
+    auto getInsertString(icu::DecimalFormatSymbols const&, icu::number::impl::CurrencySpacingEnabledModifier::EAffix, UErrorCode&);
+    auto getUnicodeSet(icu::DecimalFormatSymbols const&, icu::number::impl::CurrencySpacingEnabledModifier::EPosition, icu::number::impl::CurrencySpacingEnabledModifier::EAffix, UErrorCode&);
 };

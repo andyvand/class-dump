@@ -80,7 +80,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)nts;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *expungeWhichSharedNotebookRestrictions; // @synthesize expungeWhichSharedNotebookRestrictions=_expungeWhichSharedNotebookRestrictions;

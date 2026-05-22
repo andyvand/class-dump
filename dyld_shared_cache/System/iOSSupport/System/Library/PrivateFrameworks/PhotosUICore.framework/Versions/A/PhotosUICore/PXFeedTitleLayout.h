@@ -28,11 +28,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)V_userInfo;
 - (void);
-- (id)û7;
+- (void)PhotosUICore.HighlightsBodyLayout;
+- (void)Í³óÐ÷;
+- (id)(Í6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -22,14 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)L;
+- (id);
 - (long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)qð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool fetchIsNotUserInitiated; // @synthesize fetchIsNotUserInitiated=_fetchIsNotUserInitiated;

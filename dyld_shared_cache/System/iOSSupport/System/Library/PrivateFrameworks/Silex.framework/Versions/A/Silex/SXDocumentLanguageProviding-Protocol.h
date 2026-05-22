@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol SXDocumentLanguageProviding
-- (NSString *)I;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *language;

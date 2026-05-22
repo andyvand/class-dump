@@ -7,7 +7,6 @@
 @class NSString, NSURL;
 
 @protocol SWLocation
-- (NSString *)æVòÿÔ¸òÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL;

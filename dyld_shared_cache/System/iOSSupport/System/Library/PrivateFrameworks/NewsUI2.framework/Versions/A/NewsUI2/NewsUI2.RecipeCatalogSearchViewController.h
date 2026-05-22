@@ -16,13 +16,13 @@
 }
 
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)tMáÿ Náÿ\NáÿNáÿ°NáÿÔNáÿøNáÿ,OáÿhOáÿOáÿüOáÿ PáÿpPáÿPáÿ¸PáÿÜQáÿ;
+- (id);
+- (void);
+- (void)k;
 
 @end
 

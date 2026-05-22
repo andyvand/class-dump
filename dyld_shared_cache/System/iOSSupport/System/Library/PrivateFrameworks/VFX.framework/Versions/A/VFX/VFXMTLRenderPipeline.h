@@ -43,14 +43,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLFunction> fragmentFunction; // @synthesize fragmentFunction=_fragmentFunction;

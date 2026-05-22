@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)dJ;
 - (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);;
+- (void);
+- (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -33,19 +33,19 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
-- (void)ompatibilityService:(id)arg1 wasInterworked: /* Error: Ran out of types for this method. */;
-- (void)value:(unsigned long long)arg1;
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)lic}s[%{public}s] observed:%{private}s typeMatched:%{bool}d /* Error: Ran out of types for this method. */;
 - (void);
-- (void)eBackground;
-- (void)];
-- (double)áÎ6^;
+- (double);
+- (id);
+- (void)ayoutListSectionData";
+- (void)ureEnabled:(id)arg1;
+- (void)¹23èz;
 
 // Remaining properties
 @property(nonatomic) __weak NSTimer *animationWatchdogTimer; // @synthesize animationWatchdogTimer=_animationWatchdogTimer;

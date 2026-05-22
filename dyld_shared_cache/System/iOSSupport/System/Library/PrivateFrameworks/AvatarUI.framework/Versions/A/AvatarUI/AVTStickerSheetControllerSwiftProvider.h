@@ -41,50 +41,29 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)dn't get disk space status:errno %d path %s /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id)ect:%@
-	SenderList:%@
-	ToList:%@
-	CCList:%@
-	Summary:%@
-	Generated Summary:%@ (isUrgent = %@)
-	Flags:%@
-	ConversationNotificationLevel:%ld
-	Category:%@
-	BusinessLogoID:%@
-	IsVIP:%@
-	IsBlocked:%@
-	SearchResultType:%ld
-	SearchRelevanceScore:%@
-	UnsubscribeType:%ld
-	Date:%@
-	DisplayDate:%@
-	Mailboxes:%@
-	Count:%lu
-	SupportsArchiving:%@ 
-	ShouldArchive:%@
-	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id)× ;
+- (id);
+- (void);
+- (id)Ôã;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTAvatarStore *avatarStore; // @synthesize avatarStore=_avatarStore;

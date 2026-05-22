@@ -29,8 +29,8 @@
 - (CDUnknownBlockType);
 - (struct PXSimpleIndexPath);
 - (id);
+- (CDUnknownBlockType)À©;
 - (void);
-- (CDUnknownBlockType)e",R,N,V__state;
 
 // Remaining properties
 @property(nonatomic) struct PXSimpleIndexPath dataSourceIndexPath; // @synthesize dataSourceIndexPath=_dataSourceIndexPath;

@@ -33,15 +33,8 @@
 - (id);
 - (id);
 - (id);
-- (id)F;
-- (id)P;
-- (id);
-- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -50,6 +43,13 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)saveCompleteChangeWithImpliedCommitDecision: /* Error: Ran out of types for this method. */;
 
 @end
 

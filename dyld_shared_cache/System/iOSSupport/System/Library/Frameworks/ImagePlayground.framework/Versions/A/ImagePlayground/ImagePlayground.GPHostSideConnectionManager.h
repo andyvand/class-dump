@@ -17,14 +17,13 @@
     MISSING_TYPE *responsibleAuditToken;
     MISSING_TYPE *allowedGenerationStyles;
     MISSING_TYPE *selectedGenerationStyle;
-    MISSING_TYPE *personalizationPolicy;
+    MISSING_TYPE *options;
     MISSING_TYPE *promptElements;
     MISSING_TYPE *sourceImage;
     MISSING_TYPE *isLoadingRecipe;
     MISSING_TYPE *recipeData;
     MISSING_TYPE *previewAspectRatio;
     MISSING_TYPE *pregeneratedImage;
-    MISSING_TYPE *imageImportPolicy;
     MISSING_TYPE *_deferredConfigurationHandlers;
     MISSING_TYPE *_$observationRegistrar;
 }

@@ -19,7 +19,7 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long)P;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long autoplacement; // @dynamic autoplacement;

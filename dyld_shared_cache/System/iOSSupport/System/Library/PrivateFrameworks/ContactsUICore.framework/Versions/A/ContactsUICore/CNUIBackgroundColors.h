@@ -16,10 +16,10 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contactImage; // @synthesize contactImage=_contactImage;

@@ -18,17 +18,17 @@
 - (id);
 - (double);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
 - (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 

@@ -4,13 +4,13 @@
 
 class sa_frozen_region {
 public: // (access info unavailable from symbols alone)
-    after(fe_node const*, unsigned int, unsigned long long*, unsigned long long*) const;
-    after(unsigned long long, unsigned long long, unsigned int, unsigned long long*, unsigned long long*) const;
-    before(fe_node const*, unsigned int, unsigned long long*, unsigned long long*) const;
-    before(unsigned long long, unsigned long long, unsigned int, unsigned long long*, unsigned long long*) const;
-    biggest(unsigned long long, unsigned long long, unsigned int, unsigned long long*, unsigned long long*) const;
-    freeze(unsigned long long, unsigned long long);
-    overlap(fe_node const*, unsigned int, unsigned long long*) const;
-    query(unsigned long long*, unsigned long long*) const;
-    unfreeze();
+    auto after(fe_node const*, unsigned int, unsigned long long*, unsigned long long*) const;
+    auto after(unsigned long long, unsigned long long, unsigned int, unsigned long long*, unsigned long long*) const;
+    auto before(fe_node const*, unsigned int, unsigned long long*, unsigned long long*) const;
+    auto before(unsigned long long, unsigned long long, unsigned int, unsigned long long*, unsigned long long*) const;
+    auto biggest(unsigned long long, unsigned long long, unsigned int, unsigned long long*, unsigned long long*) const;
+    auto freeze(unsigned long long, unsigned long long);
+    auto overlap(fe_node const*, unsigned int, unsigned long long*) const;
+    auto query(unsigned long long*, unsigned long long*) const;
+    auto unfreeze();
 };

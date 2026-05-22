@@ -120,25 +120,25 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id)xPath"24{CGPoint=dd}32;
-- (void)à6ìÿõGq°G;
-- (void)wUI;
-- (void)nationRef;
+- (void);
+- (id);
+- (id)ngToTypeIdentifier:(id)arg1;
+- (void)}þÿøQÿÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool allEditingDisabled; // @synthesize allEditingDisabled;

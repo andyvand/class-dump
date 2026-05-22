@@ -8,7 +8,7 @@
 {
 }
 
-- (id)ard;
+- (id)ePods:(id)arg1 %{BOOL}d hasAtleastOneSafetyAndSecuritySupportedAccessory = %{BOOL}d, homeSafetySecurityEnabled = %{BOOL}d ;
 
 @end
 

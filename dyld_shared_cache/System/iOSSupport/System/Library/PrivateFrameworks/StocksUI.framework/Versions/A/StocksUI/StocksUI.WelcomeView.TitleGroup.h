@@ -12,13 +12,13 @@
     MISSING_TYPE *welcomeLabel;
 }
 
-- (id);
-- (void);
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (id);
+- (void)|ùÿÈ|ùÿ }ùÿ}ùÿ°~ùÿ ùÿÜùÿùÿ8ùÿüùÿ0ùÿ<ùÿHùÿùÿÐùÿ8ùÿlùÿäùÿùÿ¨ùÿ´ùÿÀùÿÌùÿØùÿTùÿxùÿÜùÿùÿ<ùÿ¸ùÿèùÿùÿèùÿLùÿ¬ùÿ;
+- (id)ÝÿXþþÿþÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect accessibilityFrame;

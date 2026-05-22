@@ -52,10 +52,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)tateDelegate: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)hold;
+- (id);
+- (id)manualContentsRectAmount;
+- (void)derView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *_actionTypeByBarButtonItem; // @synthesize _actionTypeByBarButtonItem=__actionTypeByBarButtonItem;

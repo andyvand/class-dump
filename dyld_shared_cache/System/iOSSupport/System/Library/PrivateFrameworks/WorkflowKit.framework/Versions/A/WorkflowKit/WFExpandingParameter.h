@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)t after which to turn off the Focus (Event);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *hintLabel; // @synthesize hintLabel=_hintLabel;

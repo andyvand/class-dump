@@ -25,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (id);
+- (void);
 - (id);
 - (id);
-- (void)mography;
 
 // Remaining properties
 @property(readonly, nonatomic) float *mutableFloats;

@@ -21,8 +21,8 @@ struct CGRect {
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct EntriesContainer;
@@ -111,11 +111,6 @@ typedef struct {
     CDStruct_1b6d18a9 start;
     CDStruct_1b6d18a9 duration;
 } CDStruct_e83c9415;
-
-typedef struct {
-    struct CGRect _field1;
-    struct CGRect _field2;
-} CDStruct_acfcfa81;
 
 // Template types
 typedef struct vector<MTMPU::Point3D, std::allocator<MTMPU::Point3D>> {

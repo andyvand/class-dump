@@ -24,13 +24,13 @@
 - (_Bool);
 - (_Bool);
 - (struct __CTFrame *);
-- (_Bool);
 - (void);
 - (id);
-- (void);
+- (_Bool);
+- (id);
 - (void);
 - (struct CGPoint);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowTruncation; // @synthesize allowTruncation=_allowTruncation;

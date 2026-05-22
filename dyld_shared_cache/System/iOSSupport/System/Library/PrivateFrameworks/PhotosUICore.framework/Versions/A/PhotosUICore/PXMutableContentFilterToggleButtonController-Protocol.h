@@ -7,7 +7,8 @@
 @class NSString, UIColor, UIImageSymbolConfiguration;
 
 @protocol PXMutableContentFilterToggleButtonController
-- (NSString *);
+- (UIColor *)ionsForParticipants:completion: /* Error: Ran out of types for this method. */;
+- (NSString *)t;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *baseBackgroundColor;

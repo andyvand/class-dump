@@ -20,24 +20,24 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ensitive}@.;
++ (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (unsigned short);
-- (id);
-- (id);
 - (void);
 - (id);
 - (double);
-- (double);
 - (id);
-- (double)ù
+- (id)qB,°1Â0@ù
 × ;
-- (id)s, and distance lower than threshold %f m, deleting trip segment, %@.;
+- (unsigned short)valuator";
+- (double)mTripSegmentsProcessedInThisProcessingCycle: /* Error: Ran out of types for this method. */;
+- (void)sn't exist or the values are less than 10 mins each.;
+- (double)ltimeHighConfidence;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long clRoadID; // @synthesize clRoadID=_clRoadID;

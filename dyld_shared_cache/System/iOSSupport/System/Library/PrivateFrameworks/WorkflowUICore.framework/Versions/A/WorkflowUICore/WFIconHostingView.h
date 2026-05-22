@@ -18,13 +18,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (void);
 - (id);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void)õÿÿ;
 
 // Remaining properties
 @property(nonatomic, retain) WFIcon *icon; // @synthesize icon;

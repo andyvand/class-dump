@@ -7,7 +7,6 @@
 @class LPLinkMetadata;
 
 @protocol NELinkPresentationSource
-- (LPLinkMetadata *), TSDCFExtras *);
 
 // Remaining properties
 @property(readonly, nonatomic) LPLinkMetadata *linkMetadata;

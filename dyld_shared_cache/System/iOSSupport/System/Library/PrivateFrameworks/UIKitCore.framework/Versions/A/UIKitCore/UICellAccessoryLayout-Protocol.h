@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UICellAccessoryManager, _UICellAccessory;
+@class UICellAccessoryManager;
 
 @protocol UICellAccessoryLayout
-- (double)get_req_context_use_reader_writer_callback(getFile->getState->ds_mrc) ^ !getFile->tempFilename;
-- (struct CGRect)hexStringFromColor:(_UICellAccessory *)arg1;
-- (unsigned long long)ce-InvalidStateBug;
 - (double);
-- (double (^)(void))1¢!0@ù
+- (double (^)(void))\AùQZ°1Â0@ù
 × ;
-- (double (^)(void))nt=dd}{CGSize=dd}}24@32;
-- (void)outAttributesForElementsInRect:(NSArray *)arg1 handler:(NSArray *)arg2;
-- (void)T;
-- (void)Èx;
-- (void)Ùý-[;
+- (UICellAccessoryManager *)!t@ùQ`°1Â0@ù
+× ;
+- (double)ms: /* Error: Ran out of types for this method. */;
+- (void)escreenCloseGlassBehaviors;
+- (void)debugger. Child:(UICellAccessoryManager *)arg1 %@; Parent:%@ /* Error: Ran out of types for this method. */;
+- (double (^)(void))rGuide=%p;
+- (unsigned long long);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType disclosureLayoutWidthProvider;

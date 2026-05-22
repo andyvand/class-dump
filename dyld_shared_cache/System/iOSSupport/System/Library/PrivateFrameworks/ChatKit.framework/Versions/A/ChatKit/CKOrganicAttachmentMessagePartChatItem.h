@@ -13,18 +13,17 @@
     CKOrganicImageLayoutRecipe *_layoutRecipe;
 }
 
-- (_Bool)Session: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (struct CGSize)e;
+- (struct CGSize);
 - (id);
-- (id)o;
-- (Class)emented. Consider checking the existence of -image instead.;
-- (Class)<tbody>
-;
-- (unsigned long long)ingRecognitionReportNotification;
+- (id);
 - (Class);
-- (void);
-- (unsigned long long)transcriptCollectionViewController:willPerformPreviewActionForMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (Class);
+- (unsigned long long);
+- (Class);
+- (unsigned long long)24@"CKMediaObject"32;
+- (void)¨üè;
 
 // Remaining properties
 @property(retain, nonatomic) CKOrganicImageLayoutRecipe *layoutRecipe; // @synthesize layoutRecipe=_layoutRecipe;

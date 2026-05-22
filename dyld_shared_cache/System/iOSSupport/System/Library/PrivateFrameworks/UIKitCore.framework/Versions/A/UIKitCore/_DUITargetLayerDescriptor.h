@@ -15,23 +15,24 @@
     unsigned long long _setDownAnimationRenderID;
 }
 
-+ (_Bool)EÛnm;
++ (_Bool)title of an alert presented when a document could not be opened.;
 - (id);
 - (void);
-- (void)9;
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (void);
-- (unsigned long long)etObject:atIndexedSubscript: /* Error: Ran out of types for this method. */;
-- (_Bool)!;
 - (id);
-- (id);
-- (void);
-- (void)ction";
-- (unsigned long long)PreferencesDidUpdateNotification: /* Error: Ran out of types for this method. */;
-- (unsigned int)V_webDraggingDelegate;
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned int)
+× ;
+- (_Bool)setLineLabel:(id)arg1;
+- (void)s:(id)arg1 startingAt:endingAt: /* Error: Ran out of types for this method. */;
+- (id)tonAppearance;
+- (void)erent user interface idiom. Current idiom is %@, idiom from restoration archive is %@;
+- (void)£Ì$ _;
 
 // Remaining properties
 @property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;

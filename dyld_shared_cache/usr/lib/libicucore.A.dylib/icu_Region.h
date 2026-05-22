@@ -5,21 +5,21 @@
 class icu::Region {
 public: // (access info unavailable from symbols alone)
     Region();
-    cleanupRegionData();
-    contains(icu::Region const&) const;
-    getAvailable(URegionType, UErrorCode&);
-    getContainedRegions(UErrorCode&) const;
-    getContainedRegions(URegionType, UErrorCode&) const;
-    getContainingRegion() const;
-    getContainingRegion(URegionType) const;
-    getInstance(char const*, UErrorCode&);
-    getInstance(int, UErrorCode&);
-    getNumericCode() const;
-    getPreferredValues(UErrorCode&) const;
-    getRegionCode() const;
-    getType() const;
-    loadRegionData(UErrorCode&);
-    operator!=(icu::Region const&) const;
-    operator==(icu::Region const&) const;
+    auto cleanupRegionData();
+    auto contains(icu::Region const&) const;
+    auto getAvailable(URegionType, UErrorCode&);
+    auto getContainedRegions(UErrorCode&) const;
+    auto getContainedRegions(URegionType, UErrorCode&) const;
+    auto getContainingRegion() const;
+    auto getContainingRegion(URegionType) const;
+    auto getInstance(char const*, UErrorCode&);
+    auto getInstance(int, UErrorCode&);
+    auto getNumericCode() const;
+    auto getPreferredValues(UErrorCode&) const;
+    auto getRegionCode() const;
+    auto getType() const;
+    auto loadRegionData(UErrorCode&);
+    auto operator!=(icu::Region const&) const;
+    auto operator==(icu::Region const&) const;
     ~Region();
 };

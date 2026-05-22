@@ -19,10 +19,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (double);
 - (void);
-- (long long)erformAction;
-- (id)@$ÿÿÿÿÿ\;
+- (id);
+- (long long)ec",&,N,V_firstCardVariantSpec;
+- (double)ÿ;
 
 @end
 

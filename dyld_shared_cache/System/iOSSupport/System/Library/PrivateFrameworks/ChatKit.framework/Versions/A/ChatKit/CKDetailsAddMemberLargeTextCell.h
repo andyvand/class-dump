@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UILayoutGuide *_leadingGuide;
 }
 
-+ (double);
-- (void);
-- (id)mg.version %d img.versionOutOfDate %d [ICDrawingVersionedDocument serializationVersion] %d;
-- (void);
++ (double)chment for transferGUID %s;
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
+- (void);
+- (struct CGSize);
+- (id)eInsetsIfPresentedBySendMenuPopover;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UILayoutGuide *leadingGuide; // @synthesize leadingGuide=_leadingGuide;

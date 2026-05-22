@@ -13,11 +13,11 @@
     AXUIBannerView *_bannerView;
 }
 
-- (void)pertyAddress=III}};
 - (void);
-- (void)@@;
+- (void);
+- (void);
 - (id);
-- (void)nkage is an extension;
+- (void);
 - (id);
 - (void);
 

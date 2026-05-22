@@ -34,13 +34,13 @@
 - (void);
 - (_Bool);
 - (void);
+- (struct CGSize);
 - (void);
 - (struct CGSize);
-- (_Bool);
-- (void);
 - (id);
 - (void);
-- (struct CGSize)er"16;
+- (_Bool);
+- (void)resentationOptions:isSingleProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

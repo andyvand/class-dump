@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (unsigned short *);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
 - (id);
+- (unsigned int);
 
 // Remaining properties
 @property(nonatomic) unsigned int circleSegments; // @synthesize circleSegments=_circleSegments;

@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (_Bool)ì;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -32,15 +32,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)alue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<SKButtonNodeSpriteDelegate> *delegate; // @synthesize delegate=_delegate;

@@ -43,15 +43,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (long long);
-- (void)eDisplayStyleForPreview:(long long)arg1;
-- (long long)eason;
+- (id);
+- (id);
 - (void);
+- (void);
+- (void)onfiguration;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long actionType; // @synthesize actionType=_actionType;

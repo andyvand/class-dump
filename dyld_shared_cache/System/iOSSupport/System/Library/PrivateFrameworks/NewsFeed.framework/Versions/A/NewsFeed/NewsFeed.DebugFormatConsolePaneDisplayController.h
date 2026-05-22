@@ -15,9 +15,9 @@
 }
 
 - (void);
-- (void);
 - (void);
 - (id);
+- (void)³é;
 
 @end
 

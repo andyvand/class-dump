@@ -11,8 +11,8 @@
     MISSING_TYPE *wrapped;
 }
 
-- (void)IMDChatAddedNotification %s;
-- (_Bool)g Aux image transfer %@;
+- (void);
+- (_Bool);
 - (id);
 
 // Remaining properties

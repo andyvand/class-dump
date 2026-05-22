@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, UICollectionView, UICollectionViewCell;
+@class NSIndexPath, UICollectionReusableView, UICollectionView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (long long)хуйки;
-- (UICollectionViewCell *)r:(UICollectionView *)arg1;
+- (UICollectionViewCell *)eModelGroup:(UICollectionView *)arg1;
 
 @optional
-- (NSArray *)%p>
-	OriginalMessageID:(UICollectionView *)arg1 %@
-	Action:%lu
-	ShouldSign:%@
-	ShouldEncrypt:%@
-	ConversationNotificationLevel:%lu /* Error: Ran out of types for this method. */;
-- (NSIndexPath *)a~9(;
+- (void)on:(UICollectionView *)arg1 completion:(NSIndexPath *)arg2;
+- (UICollectionReusableView *)otalTime;
 @end
 

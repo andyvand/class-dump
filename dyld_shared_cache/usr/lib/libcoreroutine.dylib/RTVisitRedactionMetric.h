@@ -27,15 +27,15 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
-- (id)KEv2ConfigurationMessage";
+- (id);
+- (void)ionManagerStateStaleToHandoff, %{Bool}d, feature %d;
 
 // Remaining properties
 @property(nonatomic) unsigned long long redactedForAuthorizedLocation; // @synthesize redactedForAuthorizedLocation=_redactedForAuthorizedLocation;

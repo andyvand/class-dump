@@ -17,9 +17,9 @@
 }
 
 + (id);
-+ (id);
-+ (id)}{CGSize=dd}}32;
-+ (id)ëÿÛ;
++ (id)øøÿ;
++ (id)3ySo21AMSAuthenticateResultCÆ3_pG;
++ (id)ion;
 - (void);
 - (void);
 - (void);
@@ -35,30 +35,31 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)font;
-- (void)CANCEL_BUTTON_TITLE;
+- (id);
+- (id)DùQð1B50@ù
+× ;
+- (void)e:style:target:action:actionBlock: /* Error: Ran out of types for this method. */;
+- (id)enqueueEventWithTargetId:pageId:displayReason: /* Error: Ran out of types for this method. */;
+- (void)<"1y6#1SgGGu 1yw1GG_Qo__Qo__Qo__SSQo_AFG_Qo_GAIGAIGAIGAIGAAyAAyÔG3ï1GAIGAmAyAAyAAyAAyAAyADy3D3y¥F3yOF3y	A3yAAy(&1yAAyAqYG_SSQo_AFG_Qo__Qo__Qo__Qo_GAIGAIGAIGAIGANGtGG71yAAyÖ1AWy&1GGGG_¼}3y&1GQo_;
+- (void)æ;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account;

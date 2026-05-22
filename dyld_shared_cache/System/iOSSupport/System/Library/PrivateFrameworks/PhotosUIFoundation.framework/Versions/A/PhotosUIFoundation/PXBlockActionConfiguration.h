@@ -28,13 +28,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void)ewPassingTest:(_Bool)arg1;
-- (_Bool)Details;
+- (id);
+- (void);
+- (void);
+- (_Bool)ionStartDate:endDate:withDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;

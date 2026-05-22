@@ -12,22 +12,22 @@
     HMLightProfileSettings *_settings;
 }
 
-+ (id)8];
-+ (_Bool)ingLanguageValueOutputVoiceGenderCodePayloadKey;
-- (void);
++ (id);
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)T@"HMTRSession",R,V_trSession;
-- (id)T@"NSData",&,N,V_uuid;
-- (id)accessoryData:%@ /* Error: Ran out of types for this method. */;
-- (id)omeHasOnboardedForWalletKeyCodingKey;
+- (void)Ð¶;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

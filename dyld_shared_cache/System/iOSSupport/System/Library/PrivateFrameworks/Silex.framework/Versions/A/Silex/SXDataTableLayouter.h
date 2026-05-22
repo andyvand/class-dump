@@ -18,8 +18,8 @@
 
 - (double);
 - (double);
-- (double);
-- (void);
+- (double);
+- (void);
 - (void);
 - (id);
 - (double);
@@ -35,9 +35,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ITapGestureRecognizer"24;
 
 // Remaining properties
 @property(retain, nonatomic) SXDataTableBlueprint *blueprint; // @synthesize blueprint=_blueprint;

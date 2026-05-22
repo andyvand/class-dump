@@ -22,11 +22,11 @@
     MISSING_TYPE *converterViewRemovalWorkItem;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void)Üø@ùÐû;
 
 @end
 

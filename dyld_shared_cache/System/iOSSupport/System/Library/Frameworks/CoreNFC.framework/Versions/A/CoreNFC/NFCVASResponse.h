@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSData *mobileToken; // @synthesize mobileToken=_mobileToken;

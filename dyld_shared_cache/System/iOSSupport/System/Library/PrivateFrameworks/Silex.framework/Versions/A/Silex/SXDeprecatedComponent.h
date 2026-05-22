@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (void);
+- (void)"UIView"24@0:8@"SXIssueCover"16 /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,11 @@
 //
 
 @protocol WFModuleSummarySupporting
+
+// Remaining properties
+@property(readonly, nonatomic) _Bool supportsEditingMultipleValues;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
 @end
 

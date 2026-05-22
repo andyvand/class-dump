@@ -5,8 +5,5 @@
 //
 
 @protocol UNUserNotificationCenterDelegatePrivate
-
-@optional
-- (void);
 @end
 

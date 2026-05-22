@@ -16,7 +16,7 @@
     NSDictionary *_assetStoreFronts;
 }
 
-+ (_Bool)meManager:%{public}@ homeManagerDidUpdateCurrentHome: /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *assetStoreFronts; // @synthesize assetStoreFronts=_assetStoreFronts;

@@ -14,31 +14,31 @@ __attribute__((visibility("hidden")))
     id <MPCQueueControllerBehaviorHost> _host;
 }
 
-+ (_Bool)ully deleted account. accountToDelete = %{public}@;
-+ (_Bool)bleNetwork;
++ (_Bool);
++ (_Bool);
 - (long long);
-- (id)Selector:(id)arg1;
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool)oreFoundation;
-- (_Bool);
-- (_Bool);
-- (void)c_methlist;
-- (id);
-- (id);
-- (id);
-- (_Bool)_ց;
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (_Bool);
-- (id)rDataAllowed=%{BOOL}u;
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void)r trigger [finished waitingForItems];
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsRestorableContent;

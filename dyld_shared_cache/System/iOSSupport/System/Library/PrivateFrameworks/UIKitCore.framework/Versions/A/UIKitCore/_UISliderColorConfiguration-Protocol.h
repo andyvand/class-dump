@@ -7,15 +7,10 @@
 @class NSArray;
 
 @protocol _UISliderColorConfiguration
-+ (id)Ô\;
-- (_Bool)#;
-- (void);
-- (id);
-- (void)eam;
-- (id)ndocked;
-- (NSArray *)nerView;
-- (NSArray *)t as file presenter:%@ /* Error: Ran out of types for this method. */;
-- (id)nedFirstResponder;
+- (NSArray *)0@ù
+× ;
+- (NSArray *)otatingAlertController""allowsImageSheet"B"allowsDataDetectorsSheet"B"allowsLinkSheet"B"acceptsFirstResponder"B"documentScale"d"previewHintRects"@"NSArray""previewHintImage"@"UIImage"};
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *colors;

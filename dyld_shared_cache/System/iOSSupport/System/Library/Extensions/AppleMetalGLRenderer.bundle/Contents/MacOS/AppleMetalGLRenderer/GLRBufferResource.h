@@ -5,9 +5,9 @@
 class GLRBufferResource {
 public: // (access info unavailable from symbols alone)
     GLRBufferResource();
-    dealloc();
-    initWithMetalBuffer(id<MTLBuffer>, unsigned long);
-    testIdle();
-    waitIdle(GLDShareGroupRec*);
+    auto dealloc();
+    auto initWithMetalBuffer(id<MTLBuffer>, unsigned long);
+    auto testIdle();
+    auto waitIdle(GLDShareGroupRec*);
     ~GLRBufferResource();
 };

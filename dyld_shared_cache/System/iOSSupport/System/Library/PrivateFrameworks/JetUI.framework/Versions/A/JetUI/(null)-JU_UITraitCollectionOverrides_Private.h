@@ -7,11 +7,11 @@
 @interface (null) (JU_UITraitCollectionOverrides_Private)
 - (void);
 - (long long);
-- (long long);
 - (id);
+- (long long);
 - (struct CGRect);
 - (struct JUMeasurements);
-- (_Bool)ent;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool hasContent;

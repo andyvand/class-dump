@@ -25,37 +25,37 @@ __attribute__((visibility("hidden")))
     struct CGSize _compositeImageSize;
 }
 
-- (_Bool)tURL:error: /* Error: Ran out of types for this method. */;
-- (id)ItemAtPath:error: /* Error: Ran out of types for this method. */;
-- (void)tabaseFull;
-- (void)edHandlesChangedForConversation:(_Bool)arg1 fromOldConversation: /* Error: Ran out of types for this method. */;
-- (void)n:(id)arg1;
-- (void)am:(id)arg1 trustIndicator:(unsigned long long)arg2 myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:completion: /* Error: Ran out of types for this method. */;
-- (void)rMonitor:(id)arg1 withID: /* Error: Ran out of types for this method. */;
-- (void)OS,V_sos;
-- (void)carFilteredChat,V_oscarFilteredChat;
-- (void)"IMDefaults",&,N,V_sharedDefaultsInstance;
-- (void)e>",W,V_delegate;
-- (id)"NSMutableDictionary",&,N,V_personCentricGroupedChatsCache;
-- (_Bool)SSypSgtc;
-- (id);
-- (void)L;
-- (struct CGSize)itiating reindex for %{public}s;
-- (id);
-- (id)level changed to %@;
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (struct CGSize);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)0@ù
 × ;
-- (void)ntation:(id)arg1;
-- (id);
-- (id)w;
-- (id)ger.status();
-- (id)item with uniformAcrossSiblings dimension:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)­ÍÍk;
+- (id)erringEnvironmentsDiffInspector;
+- (void)h«;
+- (id)î];
+- (void)Jf;
+- (_Bool)èå¼ÿ0{Òt©h;
+- (void)hèi;
 
 // Remaining properties
 @property(nonatomic, getter=isActiveSelection) _Bool activeSelection; // @synthesize activeSelection=_activeSelection;

@@ -18,7 +18,7 @@
 }
 
 + (id);
-+ (id)M;
++ (id);
 - (void);
 - (void);
 - (id);
@@ -37,8 +37,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *cloudDocsAccessQueue; // @synthesize cloudDocsAccessQueue=_cloudDocsAccessQueue;

@@ -5,9 +5,9 @@
 class GLRQueryResultBuffer {
 public: // (access info unavailable from symbols alone)
     GLRQueryResultBuffer();
-    allocateQueryIndex(unsigned int*);
-    dealloc();
-    initWithShareGroup(GLDShareGroupRec*);
-    processResults(long long*, unsigned int*, unsigned int, unsigned int);
+    auto allocateQueryIndex(unsigned int*);
+    auto dealloc();
+    auto initWithShareGroup(GLDShareGroupRec*);
+    auto processResults(long long*, unsigned int*, unsigned int, unsigned int);
     ~GLRQueryResultBuffer();
 };

@@ -7,6 +7,7 @@
 @class UIView;
 
 @protocol _UIKeyboardAnimatorState
+- (struct CGRect);
 - (void);
 
 // Remaining properties

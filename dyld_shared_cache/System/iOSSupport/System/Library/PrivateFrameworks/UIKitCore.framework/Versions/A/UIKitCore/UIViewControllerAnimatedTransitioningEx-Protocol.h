@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPercentDrivenInteractiveTransition, UIWindow;
-
 @protocol UIViewControllerAnimatedTransitioningEx
-- (UIPercentDrivenInteractiveTransition *);
-- (void)entativeItemIdentifier:(UIPercentDrivenInteractiveTransition *)arg1;
-- (long long)edNotification;
-- (void)screenWidth;
-
-@optional
-- (UIWindow *)nshotMessage;
+- (void)supportsTabbedWindows;
+- (long long)13H²®þ5"134¹þ;
+- (void);
 @end
 

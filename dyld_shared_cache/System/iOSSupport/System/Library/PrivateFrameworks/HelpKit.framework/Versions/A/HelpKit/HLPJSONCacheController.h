@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)lity";
++ (id);
 - (id);
 - (_Bool);
 - (void);

@@ -4,18 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITextView;
-
 @protocol UITextViewDelegate
-
-@optional
-- (_Bool);
-- (void);
-- (void);
-- (void)8Ԏ;
-- (_Bool)#;
-- (void)ers:(UITextView *)arg1;
-- (void)unsupportedEmbeddingVersionConfiguration;
-- (NSArray *)ArrayShapeConstraint;
 @end
 

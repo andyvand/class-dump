@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol _UIDocumentPickerViewControllerHost
-- (void)4@0:(NSString *)arg1 8@"IMCollaborationNotice"16;
-- (void);
-- (void)32Q40;
-- (void)v32@0:8@"NSURL"16@"NSError"24 /* Error: Ran out of types for this method. */;
 @end
 

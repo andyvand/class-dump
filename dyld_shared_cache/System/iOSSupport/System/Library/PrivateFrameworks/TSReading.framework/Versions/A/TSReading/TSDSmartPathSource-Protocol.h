@@ -5,7 +5,6 @@
 //
 
 @protocol TSDSmartPathSource
-- (struct CGPath *);
 
 // Remaining properties
 @property(readonly) unsigned long long numberOfControlKnobs;

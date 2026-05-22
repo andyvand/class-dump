@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
-
 @protocol CSSearchableIndexDelegate_Private
-
-@optional
-- (NSURL *)@9	;
-- (NSData *)	;
-- (NSURL *);
-- (NSURL *)Y;
-- (void);
 @end
 

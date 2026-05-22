@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allCharacteristics; // @synthesize allCharacteristics=_allCharacteristics;

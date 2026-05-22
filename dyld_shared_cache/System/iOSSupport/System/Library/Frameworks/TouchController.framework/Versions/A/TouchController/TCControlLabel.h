@@ -30,13 +30,13 @@
 + (id);
 + (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <GCSJSONObject> jsonObject;

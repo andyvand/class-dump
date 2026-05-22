@@ -4,5 +4,5 @@
 
 class icu::number::IncrementPrecision {
 public: // (access info unavailable from symbols alone)
-    withMinFraction(int) const;
+    auto withMinFraction(int) const;
 };

@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct CGPoint);
-- (void)r=}28;
+- (void);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool)uledTimerWithTimeInterval:(id)arg1 repeats:(id)arg2 block: /* Error: Ran out of types for this method. */;
-- (Class)fNeededWithCompletionBlock:(id)arg1;
-- (void)isableRelay:(id)arg1;
-- (void)atabase:(id)arg1;
-- (void)troller",R,N,V_baseAttachmentController;
-- (struct CGPoint);
+- (_Bool);
+- (Class);
 - (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (void)oÞÖia;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -19,26 +19,26 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id)UP_PHOTO_REMOVED_AND_NAME_ADDED_BANNER_UPDATE_SUBTITLE;
-- (_Bool)aleImageToIconSize;
-- (void)mberOfNotesPerAccount;
-- (void)csDelegate;
-- (void)DispatchQueue;
++ (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)t storage;
-- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (long long);
+- (struct CGSize);
 - (void);
 - (void);
-- (long long);
-- (void);
-- (void);
-- (id)archCellDelegate;
-- (struct CGSize)_TITLE;
+- (id);
+- (void)g"24;
+- (void) ;
 
 // Remaining properties
 @property(retain, nonatomic) CKDropZoneCircleView *dropZoneCircleView; // @synthesize dropZoneCircleView=_dropZoneCircleView;

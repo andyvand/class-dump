@@ -5,6 +5,7 @@
 //
 
 @protocol WFContentPropertyPossibleValuesGetter
+- (_Bool)÷;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAsynchronous) _Bool asynchronous;

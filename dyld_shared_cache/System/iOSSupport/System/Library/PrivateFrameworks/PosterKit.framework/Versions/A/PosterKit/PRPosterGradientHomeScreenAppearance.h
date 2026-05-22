@@ -15,20 +15,20 @@
 }
 
 + (_Bool);
-+ (_Bool)eringSystem:userConfigured:preferredTimeMaxYPortrait:preferredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 

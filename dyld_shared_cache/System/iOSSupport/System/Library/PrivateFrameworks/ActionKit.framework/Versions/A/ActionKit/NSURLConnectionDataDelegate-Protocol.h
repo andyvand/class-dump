@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLRequest;
-
 @protocol NSURLConnectionDataDelegate
-
-@optional
-- (void)Price;
-- (NSURLRequest *)nts;
-- (void)¾w&ÿ=w`¡Ûÿ*ËÝ±ò¤ÿõ
-;
-- (void)ï;
 @end
 

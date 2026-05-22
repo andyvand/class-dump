@@ -4,8 +4,8 @@
 
 class AGPSendingSetElement {
 public: // (access info unavailable from symbols alone)
-    buffer(unsigned char*, int, int, unsigned char, unsigned char, unsigned char);
-    remove(unsigned char);
-    search(unsigned int);
+    auto buffer(unsigned char*, int, int, unsigned char, unsigned char, unsigned char);
+    auto remove(unsigned char);
+    auto search(unsigned int);
     ~AGPSendingSetElement();
 };

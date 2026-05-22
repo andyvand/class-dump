@@ -6,16 +6,16 @@ class icu::InitialTimeZoneRule {
 public: // (access info unavailable from symbols alone)
     InitialTimeZoneRule(icu::InitialTimeZoneRule const&);
     InitialTimeZoneRule(icu::UnicodeString const&, int, int);
-    clone() const;
-    getDynamicClassID() const;
-    getFinalStart(int, int, double&) const;
-    getFirstStart(int, int, double&) const;
-    getNextStart(double, int, int, signed char, double&) const;
-    getPreviousStart(double, int, int, signed char, double&) const;
-    getStaticClassID();
-    isEquivalentTo(icu::TimeZoneRule const&) const;
-    operator!=(icu::TimeZoneRule const&) const;
-    operator=(icu::InitialTimeZoneRule const&);
-    operator==(icu::TimeZoneRule const&) const;
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getFinalStart(int, int, double&) const;
+    auto getFirstStart(int, int, double&) const;
+    auto getNextStart(double, int, int, signed char, double&) const;
+    auto getPreviousStart(double, int, int, signed char, double&) const;
+    auto getStaticClassID();
+    auto isEquivalentTo(icu::TimeZoneRule const&) const;
+    auto operator!=(icu::TimeZoneRule const&) const;
+    auto operator=(icu::InitialTimeZoneRule const&);
+    auto operator==(icu::TimeZoneRule const&) const;
     ~InitialTimeZoneRule();
 };

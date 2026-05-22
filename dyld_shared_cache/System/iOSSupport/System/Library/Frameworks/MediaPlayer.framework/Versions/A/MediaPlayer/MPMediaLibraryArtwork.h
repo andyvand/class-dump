@@ -14,27 +14,29 @@
     MPMediaLibraryArtworkRequest *_artworkRequest;
 }
 
-+ (_Bool)edBundleId:(id)arg1;
-+ (_Bool)kname:(id)arg1;
-+ (void)ype:(id)arg1 subMessageClass:(CDUnknownBlockType)arg2;
-+ (void)er:(id)arg1;
-+ (void)ata:(id)arg1 error: /* Error: Ran out of types for this method. */;
-+ (id)hod;
-+ (_Bool)hasMailCategories;
++ (_Bool);
++ (_Bool);
++ (void);
++ (void);
++ (id);
++ (void);
++ (id);
++ (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)4@0:8^@16 /* Error: Ran out of types for this method. */;
-- (id)imestamp"b1"dueDateTimestamp"b1"priority"b1"isAllDay"b1};
-- (id)Value;
-- (id)ingStream;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (struct os_unfair_lock_s);
-- (id);
+- (struct os_unfair_lock_s)
+× ;
+- (void)B,N,GhasCloudLockerAccount,V_cloudLockerAccount;
 
 // Remaining properties
 @property(nonatomic) __weak MPMediaLibraryArtworkRequest *artworkRequest; // @synthesize artworkRequest=_artworkRequest;

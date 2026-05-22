@@ -33,15 +33,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ACSgIeyByyy_;
-- (id)ould not find grouped device for DED device after pairing success with device [%{public}@];
+- (id);
+- (void);
+- (void)hoiceCell;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

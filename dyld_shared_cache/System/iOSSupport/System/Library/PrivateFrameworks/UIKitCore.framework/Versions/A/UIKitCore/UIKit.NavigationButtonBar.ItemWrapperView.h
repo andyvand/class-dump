@@ -14,15 +14,15 @@
     MISSING_TYPE *tamicAdaptorView;
 }
 
-- (struct CGSize);
-- (id);
 - (void);
-- (id)øØø¤ù4ûØûHü8ý< Ì;
-- (void)¬
-;
-- (struct CGSize)ü;
-- (struct UIEdgeInsets)IN CLIENT OF UIKIT:Attempting to set an internal scene configuration with an incorrect role. Expected "%@", Received:"%@" /* Error: Ran out of types for this method. */;
-- (id)e._UIDirectionalLightConfiguration;
+- (id);
+- (id);
+- (struct CGSize)Ð!@ùq\°1Â0@ù
+× ;
+- (struct UIEdgeInsets)8@"_UIViewControllerTransitionConductor"16@"_UIViewControllerOneToOneTransitionContext"24B32;
+- (id)rkEntry;
+- (struct CGSize)rameworks/WebKit.framework/WebKit;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

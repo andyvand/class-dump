@@ -5,6 +5,7 @@
 // Global C++ functions
 
 VTT for std::__1::basic_ostringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(double);
 std::nothrow;
 vtable for std::__1::__shared_count;
 vtable for std::__1::__shared_weak_count;

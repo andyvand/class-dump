@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     struct _NSRange range;
 }
 
-- (void)TapInteractionForWindow: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

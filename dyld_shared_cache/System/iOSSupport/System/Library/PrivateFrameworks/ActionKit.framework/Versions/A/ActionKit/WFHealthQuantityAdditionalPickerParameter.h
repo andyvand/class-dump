@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
+- (void);
+- (void)B;
 
 // Remaining properties
 @property(retain, nonatomic) HKQuantityType *quantityType; // @synthesize quantityType=_quantityType;

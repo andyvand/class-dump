@@ -14,19 +14,18 @@ __attribute__((visibility("hidden")))
     UIFieldEditor *_hostedFieldEditor;
 }
 
-+ (id)it history limit. Server:(id)arg1 %@ Default:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool)	;
-- (id);
-- (void)e"16@"IDSAccount"24@"IDSProtobuf"32@"NSString"40@"IDSMessageContext"48;
-- (id)systemApplicationWillEnterForeground;
-- (void)ssage with GUID %@ not awaiting cross service replacement for iMessageLite;
-- (id)GUID %@ needs downloading but allowDownload was %@.;
++ (id);
+- (void);
+- (_Bool);
 - (id);
 - (void);
-- (id)T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_contentFrame;
-- (void)iousSavingAndSaving=%@
-;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)´;
 
 // Remaining properties
 @property(readonly, nonatomic) UIFieldEditor *hostedFieldEditor; // @synthesize hostedFieldEditor=_hostedFieldEditor;

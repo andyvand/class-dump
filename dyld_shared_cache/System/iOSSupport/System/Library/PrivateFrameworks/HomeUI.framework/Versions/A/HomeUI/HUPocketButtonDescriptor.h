@@ -21,20 +21,23 @@
 + (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (unsigned long long);
-- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)r:(unsigned long long)arg1 restoreUserInterfaceForPictureInPictureStopWithCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)V_loadingFuture;
-- (SEL):%@ Restricted Guest allowed period started for user:%@. /* Error: Ran out of types for this method. */;
-- (void)d}8d24;
+- (void)ÑÐ1â
+0@ù
+× ;
+- (id);
+- (CDUnknownBlockType)0@ù
+× ;
+- (SEL)ckInfluencesItemManager: /* Error: Ran out of types for this method. */;
+- (void)soryRepresentables;
+- (id)rkView;
+- (void)16^B24;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

@@ -29,65 +29,67 @@ __attribute__((visibility("hidden")))
     id <UITextCursorAssertion> _blinkAssertion;
 }
 
-+ (id)F-;
 + (id);
-+ (id)±À1¢!0@ù
++ (id)n",N,&,VrightScrollPocketInteraction;
++ (_Bool)|Õþ;
++ (id);
++ (void)ï¨¡´l;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)
 × ;
-+ (_Bool);
-+ (void)nment;
-- (void);
-- (void);
-- (id);
-- (id),V_payloadServiceName;
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)rver;
-- (id)riter failed. ;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (void)qbð1Â0@ù
+× ;
 - (void);
 - (void)0@ù
 × ;
-- (void)_UIOrderedRangeIndexer";
-- (id)trate;
-- (void)rState:(id)arg1;
-- (id)ionBehavesLikeColumns: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)ent:(id)arg1 ]  Update permitted:%d; for scene identity or identifier:%@ /* Error: Ran out of types for this method. */;
-- (void)d consider event transformation:(id)arg1 %d; backing type:%i; contextId:0x%X; window:%p; idiom:%li /* Error: Ran out of types for this method. */;
-- (void)ng non text attachment;
-- (id)ÿÿÿ¬­èÿÐþàþÿ;
+- (void)!hGù1gÐ1Â0@ù
+× ;
+- (id)[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24;
+- (void)iew"16@"UIContextMenuConfiguration"24@"<UIContextMenuInteractionAnimating>"32;
+- (id)rdIfSplit: /* Error: Ran out of types for this method. */;
+- (_Bool)uration:animator: /* Error: Ran out of types for this method. */;
+- (_Bool)ender: /* Error: Ran out of types for this method. */;
+- (id)ate:(id)arg1;
+- (void)aceFoundTextInRange:inDocument:withText: /* Error: Ran out of types for this method. */;
+- (void)lyAnimatingAffectedSides;
+- (void)Handler;
+- (void)ciatedViewController;
+- (id)g",C,D,N,S_setHiddenAncestorSheetID: /* Error: Ran out of types for this method. */;
+- (void)emApp;
+- (_Bool)ene for reason:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)tation should return the desired displayMode instead.;
+- (void)enced from a nib in the bundle with identifier "%@";
+- (void)@?0@"NSData"8@"NSURLResponse"16@"NSError"24;
+- (void)re/_UILiquidLensView.swift;
+- (void)2;
+- (void);
+- (void)z¸;
+- (void)!çÿX6ÊÈ^b;
+- (void)H1ÿ9ðÙ<`d;
+- (id)7ÑLOh;
+- (void)Rû;
+- (void)ÿÅ~Ô-i;
+- (void)t®jþQÍ\i;
+- (void)ðsj;
+- (id)üj;
+- (id),°áÿiÎ8ák;
+- (void)ÊãÒ°Ók;
+- (void)0íþ$XÏÈl;
+- (void)ÜhZn;
+- (void)Ô~n;
 - (void);
-- (void)erPositionDiameter;
-- (void)active (%@);
-- (void)izeCache;
-- (_Bool)glassView;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ð¶éÿ;
-- (void)8Þ»ÿ;
-- (void)B\f;
-- (void);
-- (void)AÏÏg;
-- (void);
-- (void)ïR k;
-- (id)ü;
-- (void)1m;
-- (id);
-- (void)¬×þ¢pÔ¥rn;
-- (void)ôco;
-- (void)2½o;
+- (void)Pêo;
 
 // Remaining properties
 @property(retain, nonatomic) id <UITextCursorAssertion> blinkAssertion; // @synthesize blinkAssertion=_blinkAssertion;

@@ -34,17 +34,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
 - (long long);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (void)SignatureData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;

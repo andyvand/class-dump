@@ -13,6 +13,7 @@
     MISSING_TYPE *_shareFocusStatusEnabled;
     MISSING_TYPE *_sharedWithYouEnabled;
     MISSING_TYPE *_translationLanguageStatus;
+    MISSING_TYPE *_userTranslationLanguageStatus;
     MISSING_TYPE *conversation;
     MISSING_TYPE *__isInitializing;
     MISSING_TYPE *__isAsyncInitializing;
@@ -24,7 +25,7 @@
 }
 
 - (void);
-- (void).;
+- (void);
 
 @end
 

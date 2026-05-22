@@ -4,8 +4,8 @@
 
 class JetPack::BufferedStream {
 public: // (access info unavailable from symbols alone)
-    isFinished();
-    position();
-    read(unsigned char*, unsigned long);
+    auto isFinished();
+    auto position();
+    auto read(unsigned char*, unsigned long);
     ~BufferedStream();
 };

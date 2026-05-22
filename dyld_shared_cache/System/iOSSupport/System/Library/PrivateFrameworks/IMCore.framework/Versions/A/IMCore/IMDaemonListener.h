@@ -10,31 +10,31 @@
 {
 }
 
-- (unsigned long long);
-- (_Bool)b;
+- (unsigned long long);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id)B;
-- (_Bool).;
-- (void);
-- (void)H;
-- (void);
-- (id)T`B;
 - (_Bool);
+- (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id)Á'b%?;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *_contexts;

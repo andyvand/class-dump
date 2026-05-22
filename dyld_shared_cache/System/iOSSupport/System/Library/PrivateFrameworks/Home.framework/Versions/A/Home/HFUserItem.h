@@ -101,16 +101,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (id)ionSettingOption: /* Error: Ran out of types for this method. */;
-- (id)tions: /* Error: Ran out of types for this method. */;
-- (id)s on the account;
-- (void)@0:(id)arg1 8Q16@?<v@?@"NSError">24;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)portsThreadService;
+- (void);
+- (void)Control;
+- (id)ror:Object for HFAnalyticsFaceRecognitionRecentVisitorsListFaceCropCountKey is nil /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

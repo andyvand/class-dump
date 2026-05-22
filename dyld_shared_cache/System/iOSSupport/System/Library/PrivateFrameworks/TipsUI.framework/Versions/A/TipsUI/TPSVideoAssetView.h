@@ -90,8 +90,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (CDStruct_198678f7);
+- (void);
 - (void);
 
 // Remaining properties

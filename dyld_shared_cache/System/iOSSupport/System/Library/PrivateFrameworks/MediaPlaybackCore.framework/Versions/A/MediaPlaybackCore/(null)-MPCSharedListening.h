@@ -5,7 +5,7 @@
 //
 
 @interface (null) (MPCSharedListening)
-- (id)vices;
-- (void)y/Accounts/Notification/IDSAccountNotificationPlugin.bundle/Contents/MacOS/IDSAccountNotificationPlugin;
+- (id);
+- (void);
 @end
 

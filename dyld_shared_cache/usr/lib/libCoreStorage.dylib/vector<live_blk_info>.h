@@ -4,7 +4,7 @@
 
 class vector<live_blk_info> {
 public: // (access info unavailable from symbols alone)
-    push_back(live_blk_info const&);
-    reserve(unsigned long);
+    auto push_back(live_blk_info const&);
+    auto reserve(unsigned long);
     ~vector();
 };

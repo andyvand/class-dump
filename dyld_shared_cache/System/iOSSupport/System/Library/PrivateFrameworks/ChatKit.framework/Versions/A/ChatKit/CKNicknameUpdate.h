@@ -16,20 +16,20 @@
 
 - (id);
 - (id);
-- (id)columnIDs rowIDs ;
-- (id)aviorMenu;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
 - (id);
-- (id)T@"UIViewController<CKBrowserViewControllerProtocol>",&,N,V_lastPresentedStickersBrowser;
-- (id)8$¯ÿ;
-- (void);
+- (void)È[h]´];
+- (unsigned long long);
+- (void)n;
+- (id).;
+- (void)ðH/;
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;

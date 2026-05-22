@@ -14,12 +14,11 @@
 + (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)0@ù
-× ;
+- (void);
+- (id);
+- (void)e and continuing;
 
 // Remaining properties
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;

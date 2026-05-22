@@ -111,8 +111,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (id);
 - (double);
 - (long long);
@@ -121,10 +121,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (_Bool);
 - (void);
+- (void);
+- (_Bool);
 - (void);
 
 // Remaining properties

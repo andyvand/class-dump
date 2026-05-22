@@ -5,6 +5,5 @@
 //
 
 @protocol APWebProcessProxyProtocol
-- (void);
 @end
 

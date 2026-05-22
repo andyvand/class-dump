@@ -31,19 +31,19 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)ParticipantAudioDestinationIdentifierCodingKey;
-- (id)UM;
+- (id);
+- (void)Äºh»¸»;
+- (_Bool)3¢1;
 
 // Remaining properties
 @property(retain, nonatomic) HMPBAccessoryReference *accessoryReference; // @synthesize accessoryReference=_accessoryReference;

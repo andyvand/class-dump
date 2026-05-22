@@ -17,14 +17,15 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (_Bool);
-- (long long);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void)²#º;
-- (long long);
-- (id)e;
+- (_Bool)að!¤DùñZð1Â0@ù
+× ;
+- (_Bool)parator:(id)arg1;
+- (long long)V_submenuTitleSeparatorHeight;
+- (id)ation:(struct _NSZone *)arg1;
+- (long long)vityManager _saveSceneRestorationState];
+- (id)titasking(force);
+- (void)ü];
 
 // Remaining properties
 @property(readonly, nonatomic) long long auxillaryKind; // @synthesize auxillaryKind=_auxillaryKind;

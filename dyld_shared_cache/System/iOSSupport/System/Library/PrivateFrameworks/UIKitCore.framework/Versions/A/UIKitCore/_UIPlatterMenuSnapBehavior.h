@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     UIAttachmentBehavior *_spring2;
 }
 
-- (id);
-- (void);
-- (double);
+- (id);
 - (void);
-- (void)÷;
-- (struct CGPoint)eÔgphÄhdj<kXl!n°r¬tÌuhw;
-- (void)E²[;
-- (double)\;
+- (void)etPreferredInputViewHeight:(double)arg1;
+- (struct CGPoint)itemViewGenerator;
+- (void)gressAnimationState;
+- (double)?;
+- (double)=ÿ;
+- (void)3ÔÎ`;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint anchorPoint;

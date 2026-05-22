@@ -7,8 +7,6 @@
 @class CKBalloonView;
 
 @protocol CKEffectPreviewCollectionViewControllerDelegate
-- (CKBalloonView *)o;
-- (void)iewGenerationQueue;
 
 // Remaining properties
 @property(retain, nonatomic) CKBalloonView *balloonView;

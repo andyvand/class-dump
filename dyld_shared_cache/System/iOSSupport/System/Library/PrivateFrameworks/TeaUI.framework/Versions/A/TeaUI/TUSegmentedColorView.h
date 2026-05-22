@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)ortsEventTopicGroupOntologyLevelConfig;
+- (id);
 - (void);
 - (id);
 - (long long);
 - (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long direction; // @synthesize direction;

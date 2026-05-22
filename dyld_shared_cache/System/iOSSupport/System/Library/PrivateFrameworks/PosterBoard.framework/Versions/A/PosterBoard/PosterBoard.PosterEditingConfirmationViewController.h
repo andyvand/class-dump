@@ -35,7 +35,8 @@
 - (id);
 - (void);
 - (void);
-- (void)AndReturnError:(struct CGSize)arg1;
+- (void)0@ù
+× ;
 
 @end
 

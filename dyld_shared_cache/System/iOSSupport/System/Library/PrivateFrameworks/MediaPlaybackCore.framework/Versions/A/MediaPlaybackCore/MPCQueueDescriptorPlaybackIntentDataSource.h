@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)hMethod:(id)arg1 bagURL:(int)arg2 parameters:(long long)arg3;
-- (void)rValue;
++ (_Bool);
+- (void);
 
 @end
 

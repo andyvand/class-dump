@@ -27,9 +27,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)Kit;
 - (id);
-- (void);
+- (id);
+- (void)allowsNowPlayingApplicationLaunch;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldUsePlaylistEntry; // @synthesize shouldUsePlaylistEntry=_shouldUsePlaylistEntry;

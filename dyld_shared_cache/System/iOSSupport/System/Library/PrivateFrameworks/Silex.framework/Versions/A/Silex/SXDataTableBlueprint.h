@@ -39,11 +39,11 @@
 - (struct UIEdgeInsets);
 - (void);
 - (struct CGSize);
-- (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (unsigned long long)entialFactory:proxyConfiguration:retryCount: /* Error: Ran out of types for this method. */;
+- (void)>24;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) SXDataTableDictionary *blueprint; // @synthesize blueprint=_blueprint;

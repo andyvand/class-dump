@@ -23,12 +23,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
-- (id)nown;
-- (id)earlier version to ubiquitous store;
-- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void)G__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *hashedPersonID; // @synthesize hashedPersonID=_hashedPersonID;

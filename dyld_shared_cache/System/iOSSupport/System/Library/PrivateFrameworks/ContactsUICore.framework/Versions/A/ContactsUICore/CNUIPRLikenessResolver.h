@@ -52,14 +52,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (id)Zþÿm³ÿÿ;
-- (id)Ý1Gç/GAFGABy4ADGG;
+- (void);
+- (id);
+- (id);
+- (void)ller;
+- (void)ackdropLayer;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore;

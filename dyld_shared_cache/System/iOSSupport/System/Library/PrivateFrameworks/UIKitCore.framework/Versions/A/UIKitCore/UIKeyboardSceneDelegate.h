@@ -72,35 +72,57 @@
     UIKBLocalAuthenticationObserver *_localAuthenticationObserver;
 }
 
-+ (void);
 + (id);
-+ (void)
++ (id);
++ (void);
++ (long long);
++ (void);
++ (void);
++ (void);
++ (id)!EùQ`ð1Â0@ù
 × ;
-+ (void)±Í1¢!0@ù
-× ;
-+ (void)serInfoIsDirty"b1"_userInfoIsCurrent"b1"_internalUserInfoIsDirty"b1"_internalUserInfoIsCurrent"b1"_isInternal"b1};
-+ (id)reviewForItem:userInterfaceStyle: /* Error: Ran out of types for this method. */;
-+ (id)eAreaInsetScrollPocketInteraction;
-+ (id)!= nil;
-+ (long long)etectorsUI;
-+ (void)¢m;
++ (id);
++ (void)èÊäÿ;
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (id)@;
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)usRestrictedBool;
-- (id)urityFirewallDeclaration;
-- (void)MManagementStateCommand_Status;
-- (void)ple.predicate.icloudaccount;
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -108,45 +130,7 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void)ng;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void)rrorHTTPSProxyAuthRequired;
-- (void)iner.c;
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)nedEntityType;
-- (void)ributePayloadTransform:(_Bool)arg1;
-- (void)thPointSize:weight:scale: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void),R;
-- (id)ed %@;
-- (void);
-- (void);
-- (_Bool);
-- (void)ia;
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -154,191 +138,211 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (void);
 - (void);
+- (_Bool);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (long long);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)ÄGº;
-- (_Bool);
-- (void)0@ù
-× ;
-- (void)!HEù1ÁÐ1¢!0@ù
-× ;
-- (void)ìGùÁ°1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (_Bool)!q°!DùÄð1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)qÄð1¢!0@ù
-× ;
-- (_Bool)ùÆÐ1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (_Bool)!BùÈ1¢!0@ù
+- (void)Ô ;
+- (void)!ØCùñYð1Â0@ù
 × ;
 - (id);
-- (_Bool)1¢!0@ù
+- (void)°1Â0@ù
 × ;
-- (void)Au°!DùÉð1¢!0@ù
+- (void)!Fù±[Ð1Â0@ù
 × ;
-- (_Bool);
-- (void)QÌð1¢!0@ù
+- (id)
 × ;
-- (int);
+- (void)\ð1Â0@ù
+× ;
+- (id);
 - (_Bool)0@ù
 × ;
-- (void)!pCùÍð1¢!0@ù
+- (void)!,Eùñ\ð1Â0@ù
+× ;
+- (void);
+- (void)1Â0@ù
+× ;
+- (_Bool)Ð!Dù_ð1Â0@ù
 × ;
 - (void)@ù
 × ;
-- (long long);
-- (void)0:(id)arg1 8i16{CGRect={CGPoint=dd}{CGSize=dd}}20;
-- (void)ayoutDirectionForEnvironment"b1"delegateRespondsToShouldReverseLinearWrappingForEnvironment"b1"delegateRespondsToIsScrollingScrollableContainer"b1};
-- (void)pearanceAnimated:(id)arg1;
-- (void)eline;
+- (id)_°1Â0@ù
+× ;
+- (void);
+- (id)0@ù
+× ;
+- (_Bool)! DùÑ_ð1Â0@ù
+× ;
 - (_Bool);
-- (id)nItem: /* Error: Ran out of types for this method. */;
-- (_Bool)ngForPortrait:(id)arg1;
-- (_Bool)dingBundle: /* Error: Ran out of types for this method. */;
-- (void)idLoad;
-- (void):(id)arg1;
-- (void)dow;
-- (void)Gesture;
-- (id)capPrimaryTransform;
-- (void)View:(id)arg1 defaultAnimation:sourceAnimation:delegate: /* Error: Ran out of types for this method. */;
-- (_Bool)hardwareKeyboardLanguage:countryCode: /* Error: Ran out of types for this method. */;
-- (void)orwardingInterface;
-- (id)eWithEngagedEffect:(id)arg1;
-- (struct CGRect)ntent:(id)arg1 inVisibleRect:withRemoteContextWrapper: /* Error: Ran out of types for this method. */;
-- (id)SplitViewControllerColumn: /* Error: Ran out of types for this method. */;
-- (void)wController:(id)arg1 index:(double)arg2;
-- (_Bool)ngKeyboardNotificationsForScreen: /* Error: Ran out of types for this method. */;
-- (id):focusAnimationCoordinator: /* Error: Ran out of types for this method. */;
-- (void)ntifier: /* Error: Ran out of types for this method. */;
-- (_Bool)DepthLevel;
-- (void)performIgnoringScrollCallbacks: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 inLayer:forAnimatorWithTrackingIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)bledState: /* Error: Ran out of types for this method. */;
-- (id)ingEnvironment;
-- (_Bool)nOutAnimations: /* Error: Ran out of types for this method. */;
-- (id):(int)arg1 partOne:partTwo: /* Error: Ran out of types for this method. */;
-- (_Bool)cceleration;
-- (id)loadDelegate:(id)arg1 executionContext:(_Bool)arg2;
-- (void)legate;
-- (void)lags;
-- (void),R,N,GisCollapsedByDefault;
-- (struct CGRect)ew;
-- (_Bool)endScrollEvent;
-- (_Bool)ivationConditions: /* Error: Ran out of types for this method. */;
-- (void)arencyEffectConfig;
-- (_Bool)ion;
-- (void)rPort:(id)arg1;
-- (id)t;
-- (id)citySample;
-- (void)`;
+- (id)1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (void)
+× ;
+- (id)bð1Â0@ù
+× ;
+- (void);
+- (_Bool)0@ù
+× ;
+- (void)!Bù±c1Â0@ù
+× ;
+- (id)Ôá°!ÜGùñd°1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (_Bool)× ;
+- (void)
+× ;
+- (_Bool)Qg1Â0@ù
+× ;
+- (void);
+- (void)ntext=}16{CGPoint=dd}24^{CGPath=}40;
+- (_Bool)Size=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}32@0:8{CGSize=dd}16 /* Error: Ran out of types for this method. */;
+- (void)int=dd}40d56B64;
+- (id)IWindow"24@0:8@"UIDragItem"16 /* Error: Ran out of types for this method. */;
+- (struct CGRect)ateDidEndAnimatingZoom"b1"delegateWillZoom"b1"dataSourceRequestThumbnailImageIsSummmary"b1};
+- (id)eneHostingActivationHandle";
+- (_Bool)6@24@32;
+- (_Bool)AttributedString"24@0:(id)arg1 8@"UITextRange"16;
+- (id)CGSize=dd}}16@48@56@64;
+- (void):(_Bool)arg1;
+- (void)gAtPoint:(int)arg1 inContainerAtLocation:(double)arg2 anchors:modifiers:selecting:bounds: /* Error: Ran out of types for this method. */;
+- (void)startConnectionForFileAtURL:(id)arg1 forInputModeIdentifier:(id)arg2;
+- (void)eDelegate:(_Bool)arg1;
+- (void)t:(id)arg1;
+- (_Bool):(id)arg1;
+- (_Bool)essValue:captureBackdropView:isPush: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ndle;
+- (id)gInputDelegate;
+- (id)ExecutionContext: /* Error: Ran out of types for this method. */;
+- (_Bool)cceptingCandidate:elapsedTime:executionContext: /* Error: Ran out of types for this method. */;
+- (void)eAppearanceNameToNative:(id)arg1;
+- (void)EnteredMenu;
+- (_Bool)teConstraints;
+- (void)ochromaticTreatment;
+- (id)aranceCallbacksWhenScrolling;
+- (void)pagationThroughHierarchy;
+- (void)edBumpEdges: /* Error: Ran out of types for this method. */;
+- (void)kgroundScrollTransitionProgress;
+- (void):(id)arg1 willEnterNewRegion:(_Bool)arg2;
+- (void)edRequestIfPossibleForDeviceOrientation: /* Error: Ran out of types for this method. */;
+- (void)tGestureRecognizer;
+- (void)_moveReorderDestinationViewTo:(_Bool)arg1 positionedAbove: /* Error: Ran out of types for this method. */;
+- (void)View:(id)arg1 ofType:(id)arg2;
+- (void)ortedInterfaceOrientations;
+- (_Bool)encodeBackgroundColorWithCoder: /* Error: Ran out of types for this method. */;
+- (void)DragTabOriginalIndex;
+- (id)ate;
+- (void)Elements;
+- (_Bool)oomAnchorPoint;
+- (void)oller<UIPredictiveViewController>",&,N,V_centerViewController;
+- (void),N,VviewToMaskWhenContentExtendsOverArrow;
+- (_Bool)N;
+- (_Bool)tionalPressGestureRecognizer;
+- (void)setSupplementaryBorderView:(id)arg1 ,V__supplementaryBorderView;
+- (void)nabledInputModes;
+- (_Bool),V_insets;
+- (void)ings",N,&,VscaleSpring;
+- (void)ressView",W,N;
+- (struct CGRect)statisticsIdentifier;
+- (void)view;
+- (_Bool)nView;
+- (void)ceProviding;
+- (void)erfaceActionConcreteVisualStyle_GlassAppleTV;
+- (_Bool)¨ ªxª(«/Ø®H±Ð³;
+- (_Bool)¬;
+- (_Bool)¨;;
+- (_Bool)¤)Ü+;
+- (_Bool)È;
+- (id)ublic}@'. Clipping View:(_Bool)arg1 %{public}@;
+- (_Bool)ion could not restore state when launched in background while locked (%{public}ld seconds ago). Skipping snapshot/state save when asked to update snapshot in background, and terminating app.;
+- (id)ntRequest=%@;
+- (void)n a future version.;
+- (id)ed;
+- (void)ntHandlingToSystemWithContext, handleKeyAppCommandForCurrentEvent;
+- (id)þ¬þÿ;
+- (void);
+- (void)þÿ;
+- (void);
+- (void)èùîÿðùîÿ;
+- (void)%@;
+- (void)plist to save:(id)arg1 %@;
+- (void)ypeDecimalPad;
+- (void)tWithCoder:(_Bool)arg1 ];
+- (_Bool)tion;
+- (void)_regionToOccludingRegionsMap == NULL && _regionToFocusItemCache == NULL && _regionFrameCache == NULL;
+- (void)sing the app's active interface orientation.;
+- (long long)"UIMenuElement<_UIMenuStateObserverableLeaf>"8;
+- (_Bool)ull _accessoryViewAsClass(UIView * _Nonnull __strong, Class  _Nonnull __unsafe_unretained);
+- (_Bool)inalAttributes != nil;
+- (void)reading replacements;
+- (id)Keyboard;
+- (void)chBarPlacement=stacked;
+- (void)EffectStyleSystemThinMaterialLight;
+- (void)yOwning33_02856EDC9F33E281A498FAB36AEFA2D5LLP;
+- (void)y¶;
+- (id)Á;
+- (_Bool)3-Âþ¢13-Âþ}¢13-Âþ;
+- (_Bool)Þ13TqþÕÞ13\Uqþ¥Þ13Tqþ;
+- (_Bool)t°þ;
+- (void)pþX[þ;
+- (id)¡;
+- (_Bool)Ü\;
+- (void)È];
+- (_Bool);
+- (void)8ö_;
+- (_Bool)qÿï;
+- (_Bool)f;
+- (long long)(wÿQ¨|;
+- (void)a;
+- (id)/Æ;
+- (_Bool)X,ñþ;
+- (void)¸e;
+- (id)È2\þ8Îj;
+- (void)Mh;
+- (id)Ð;
+- (id)¼ôh;
+- (id)»ÿ&Ù0i;
+- (void)F¢Ì¦i;
 - (id);
-- (_Bool)`uDy;
-- (_Bool)L
-MäNhOøPQdR;
-- (void)87;
-- (void)0;
-- (_Bool)°µ0·x¼´½h¾h¿¿;
-- (id)´aÜa;
-- (void)rTuLyp{t|Lð ¨@lØÔH´ ;
-- (id)ð@;
-- (_Bool)ld never get error from service;
-- (void);
-- (long long)üÿ;
-- (id);
-- (_Bool)àÚþÿ;
-- (void)t error:(id)arg1 Unexpected use of extended constraint item tagging;
-- (_Bool)e a bug against UICollectionView.;
-- (id)tline Cell;
-- (id)ntext> _Nonnull);
-- (void)CustomInfoInlineCompletionAsMarkedText;
-- (void)ectedVariantIndices;
-- (id)HasInput;
-- (void)g;
-- (id);
-- (long long)_ShapeSetTagBox;
-- (_Bool)ctive);
-- (id);
+- (void)bþmýÑàãi;
 - (_Bool);
+- (_Bool)¨j­ÿ;
 - (void);
+- (void)¸&ÿÎÌô«j;
 - (void);
-- (_Bool)[;
-- (void);
-- (void);
-- (void)ø
-Íþ;
 - (_Bool);
-- (id)2];
-- (void)Q×];
-- (void)^;
-- (void);
-- (void)v×#&`;
-- (void);
-- (id)c`;
-- (void)pÿI×fa`;
-- (_Bool)3p`;
-- (_Bool)ÿIÖúd;
-- (void);
-- (void)G;
-- (void);
-- (void)N@b;
-- (id)Z¡a;
-- (void)Û×a;
+- (_Bool)Ák;
+- (void)$l;
+- (id)
+¦ÿCøÕÔ9l;
+- (id){l;
+- (void)l;
 - (_Bool);
-- (id)ÿñBÒÞGc;
-- (id)àK*ÿ62;
-- (_Bool)(;
-- (id)c;
-- (_Bool)bÿÆÈôÕc;
-- (void)¶åÇAd;
-- (_Bool)¬ØUd;
-- (void)PMÈÿ¢3ÓJÈd;
-- (void)ÿ;
-- (void);
-- (id)4OÛþ
- ;
-- (_Bool)Hçÿ;
-- (id)ðï|ÿå kCf;
-- (void);
-- (_Bool)áÿaAÏTg;
-- (void)g;
-- (void)ÊhþxÈg;
-- (void)ÿiF;
-- (double)Vh;
-- (id)Ì½ãh;
-- (void)iÿ/õ;
-- (_Bool)?i;
-- (_Bool)Ëj;
-- (void);
-- (void)Àìÿþâ7k;
-- (id);
-- (_Bool)Ú¼l;
-- (void)4Ôk;
-- (id);
-- (void)O;
-- (void)Cvl;
-- (void)éÐ³Ìl;
+- (void)ØÙXm;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

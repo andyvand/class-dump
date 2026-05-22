@@ -29,8 +29,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)tionDetailedCountDescriptionAlbums;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *chapterBeginningAssetLocalIdentifiers; // @synthesize chapterBeginningAssetLocalIdentifiers=_chapterBeginningAssetLocalIdentifiers;

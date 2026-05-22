@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)TypeDebugString;
 - (id);
-- (_Bool)eringSurfaceForTextLayoutFragment:(id)arg1;
-- (struct UIEdgeInsets)eEnumerationContextDelegate;
+- (_Bool);
+- (struct UIEdgeInsets)ÿÿAÔ;
 
 @end
 

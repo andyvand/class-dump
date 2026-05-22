@@ -26,10 +26,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)¤î&ÿèB;
-- (void);
-- (id)8£¸ÿdtPu5;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetCollection> containerCollection; // @synthesize containerCollection=_containerCollection;

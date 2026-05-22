@@ -5,6 +5,5 @@
 //
 
 @protocol PXStoryStateWatchingRequest
-- (void)er be 0;
 @end
 

@@ -15,9 +15,9 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ingChangedFromHomePodSettings;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *modelInformationSheetViewDuration; // @synthesize modelInformationSheetViewDuration=_modelInformationSheetViewDuration;

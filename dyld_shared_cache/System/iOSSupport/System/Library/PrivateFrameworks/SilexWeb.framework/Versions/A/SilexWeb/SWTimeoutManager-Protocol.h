@@ -5,6 +5,5 @@
 //
 
 @protocol SWTimeoutManager
-- (void);
 @end
 

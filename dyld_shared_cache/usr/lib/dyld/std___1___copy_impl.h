@@ -4,8 +4,7 @@
 
 class std::__1::__copy_impl {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:nn200100]<PropertyList::Object**, PropertyList::Object**, std::__1::back_insert_iterator<lsl::Vector<PropertyList::Object*>>>(PropertyList::Object**, PropertyList::Object**, std::__1::back_insert_iterator<lsl::Vector<PropertyList::Object*>>) const;
-    operator()[abi:nn200100]<std::byte const*, std::byte const*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>>(std::byte const*, std::byte const*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>) const;
-    operator()[abi:nn200100]<std::byte*, std::byte*, std::__1::back_insert_iterator<ByteStream>>(std::byte*, std::byte*, std::__1::back_insert_iterator<ByteStream>) const;
-    operator()[abi:nn200100]<std::byte*, std::byte*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>>(std::byte*, std::byte*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>) const;
+    std::__1::pair<std::byte const*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>> operator()[abi:nqn210106]<std::byte const*, std::byte const*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>>(std::byte const*, std::byte const*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>) const;
+    std::__1::pair<std::byte*, std::__1::back_insert_iterator<ByteStream>> operator()[abi:nqn210106]<std::byte*, std::byte*, std::__1::back_insert_iterator<ByteStream>>(std::byte*, std::byte*, std::__1::back_insert_iterator<ByteStream>) const;
+    std::__1::pair<std::byte*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>> operator()[abi:nqn210106]<std::byte*, std::byte*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>>(std::byte*, std::byte*, std::__1::back_insert_iterator<lsl::Vector<std::byte>>) const;
 };

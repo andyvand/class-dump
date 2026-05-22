@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *name; // @synthesize name=_name;

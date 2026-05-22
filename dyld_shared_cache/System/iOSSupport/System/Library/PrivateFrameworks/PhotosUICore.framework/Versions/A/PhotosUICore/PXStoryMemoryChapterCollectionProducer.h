@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ñì;
 
 // Remaining properties
 @property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;

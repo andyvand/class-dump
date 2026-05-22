@@ -35,17 +35,17 @@
 + (id);
 + (void);
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -66,10 +66,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void)C;
 - (void);
 - (void);
 - (void);
@@ -81,8 +80,9 @@
 - (void);
 - (void);
 - (void);
-- (void)P;
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -97,13 +97,13 @@
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (CDUnknownBlockType)el";
+- (id)|Ì;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTAvatarRecord *avatarRecord; // @synthesize avatarRecord=_avatarRecord;

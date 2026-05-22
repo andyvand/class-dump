@@ -18,7 +18,7 @@
 + (_Bool);
 + (_Bool);
 + (struct CGRect);
-+ (struct CGSize);
++ (struct CGSize);
 
 @end
 

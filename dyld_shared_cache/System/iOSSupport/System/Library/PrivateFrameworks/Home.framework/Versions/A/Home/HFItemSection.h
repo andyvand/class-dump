@@ -49,21 +49,21 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (id);
-- (id);
-- (void)howSoftwareUpdateSettings;
-- (void)de;
-- (id)meKitSettingsVendorSettingsWriteValueTransaction init];
-- (id)e;
-- (void)¬ôÌË;
+- (void)r:(id)arg1;
+- (void)ôy;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedFooterTitle; // @synthesize attributedFooterTitle=_attributedFooterTitle;

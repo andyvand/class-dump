@@ -27,10 +27,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (void);
 
 // Remaining properties
 @property _Bool URLIsBlocked; // @synthesize URLIsBlocked=_URLIsBlocked;

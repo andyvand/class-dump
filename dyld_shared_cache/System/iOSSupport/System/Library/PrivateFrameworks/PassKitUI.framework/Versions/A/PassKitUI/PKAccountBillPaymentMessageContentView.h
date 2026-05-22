@@ -23,13 +23,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (struct CGSize);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)±ø°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedMessage; // @synthesize attributedMessage=_attributedMessage;

@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (long long);
 - (void);
 - (void);

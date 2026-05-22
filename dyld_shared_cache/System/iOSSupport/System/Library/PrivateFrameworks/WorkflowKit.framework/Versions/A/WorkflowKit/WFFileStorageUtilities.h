@@ -10,7 +10,7 @@
 
 + (void);
 + (id);
-+ (id)flowCollection"8Q16^B24;
++ (id)¤ñÿ;
 
 @end
 

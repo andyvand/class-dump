@@ -22,16 +22,16 @@
 - (void);
 - (id);
 - (id);
-- (void)<;
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
 - (double);
-- (void)iewController:(id)arg1;
-- (id)rDelegate;
-- (void)¸Ò;
+- (id);
+- (void);
+- (void)d;
 
 // Remaining properties
 @property(nonatomic) struct CGSize endValue; // @synthesize endValue=_endValue;

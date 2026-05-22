@@ -36,12 +36,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -56,14 +56,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)=;
+- (void);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (id)ddingManager;
-- (void);
-- (id)Ü.;
 
 // Remaining properties
 @property(nonatomic) _Bool isMagicMove; // @synthesize isMagicMove=_isMagicMove;

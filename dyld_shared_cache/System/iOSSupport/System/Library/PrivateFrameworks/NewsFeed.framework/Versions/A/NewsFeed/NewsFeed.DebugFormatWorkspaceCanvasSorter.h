@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (void)v56@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSHTTPURLResponse"32@"NSURLRequest"40@?<v@?@"NSURLRequest">48 /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 @end
 

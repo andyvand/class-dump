@@ -16,19 +16,19 @@
     _Bool hasShadow;
 }
 
-- (void)patibility message prefix is unlocalized in %s;
-- (void)ent from local device:(id)arg1 %@;
-- (_Bool)pipeline;
-- (id);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id)s deactivated internally more times than it was activated:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ha71m$4I;
-- (id)ËZ4i;
-- (void)zn;
+- (id)ap;
+- (_Bool);
+- (id);
+- (void)'ÿ;
+- (void)¨k;
+- (void)Él;
+- (id)Ú×\r;
 
 // Remaining properties
 @property(nonatomic, retain) _UIVisualEffectViewBackdropCaptureGroup *backdropCaptureGroup;

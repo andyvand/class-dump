@@ -7,7 +7,7 @@
 @class NSProgress;
 
 @protocol NSProgressReporting
-- (NSProgress *)ng resume required scene update for reason:%s; wantsKeyboard:%d /* Error: Ran out of types for this method. */;
+- (NSProgress *)liaryView;
 
 // Remaining properties
 @property(readonly) NSProgress *progress;

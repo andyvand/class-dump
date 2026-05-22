@@ -17,8 +17,8 @@
 + (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;

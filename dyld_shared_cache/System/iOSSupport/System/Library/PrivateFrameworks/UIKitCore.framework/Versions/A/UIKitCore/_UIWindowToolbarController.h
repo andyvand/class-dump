@@ -16,24 +16,23 @@
     _Bool _hasExplicitToolbar;
 }
 
-+ (id)ameworks/IdentityLookup.framework/IdentityLookup;
++ (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)ng"24;
-- (void): /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void)imeCz_Xx;
-- (void)ion for output feature:(id)arg1 '%@';
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)g_KEY;
+- (id);
 - (void);
-- (id)! Bù±Ç1¢!0@ù
-× ;
-- (id)s;
+- (void);
+- (id)So7UIColorCABIeyBya_;
 
 // Remaining properties
 @property(nonatomic) _Bool autoHidesToolbarInFullScreen;

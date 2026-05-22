@@ -18,10 +18,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)¢!0@ù
-× ;
-- (double)yUserInfoKey;
-- (double)þPÝ;
+- (double)× ;
+- (void)onAction:(double)arg1 request:frame:decisionListener: /* Error: Ran out of types for this method. */;
+- (double)33Éþ;
 
 // Remaining properties
 @property(nonatomic) _Bool finishedDecelerating; // @synthesize finishedDecelerating=_finishedDecelerating;

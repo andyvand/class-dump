@@ -8,44 +8,35 @@
 @protocol UITraitChangeRegistration, _UIImageViewLoadingDelegate;
 
 @protocol _UIImageViewStorage
-- (void)tional data found in remote data store, nothing to seal.;
-- (UIImage *);
-- (void)tionMagic;
-- (long long);
-- (void);
-- (UIImage *)GT;
-- (UIImage *)ifiedDateComponents;
-- (id <UITraitChangeRegistration>)percaseString;
-- (void)ataSource] Route search failed with error:(long long)arg1 %@;
-- (UIImage *);
-- (double)1¢!0@ù
+- (UIImageSymbolConfiguration *);
+- (void)Ð!h@ùqe°1Â0@ù
 × ;
-- (void)árð!lGùÆ°1¢!0@ù
+- (_UIImageSymbolVariant *)p@ùñe°1Â0@ù
 × ;
-- (void)Ô ;
-- (UIImage *)!ÀDùQÊð1¢!0@ù
-× ;
-- (_UIImageViewSymbolAnimationPresetManager *)omLoupeView";
-- (void)ctionHeader"b1"delegateHeightForSectionFooter"b1"delegateTitleWidthForSectionFooter"b1"delegateEstimatedHeightForRow"b1"delegateEstimatedHeightForSectionHeader"b1"delegateEstimatedHeightForSectionFooter"b1"delegateViewForHeaderInSection"b1"delegateViewForFooterInSection"b1"delegateDisplayedItemCountForRowCount"b1"delegateDisplayStringForRowCount"b1"delegateAccessoryTypeForRow"b1"delegateAccessoryButtonTappedForRow"b1"delegateWillSelectRow"b1"delegateWillDeselectRow"b1"delegateDidSelectRow"b1"delegateDidDeselectRow"b1"delegateCanPerformPrimaryAction"b1"delegatePerformPrimaryAction"b1"delegateWillBeginEditing"b1"delegateDidEndEditing"b1"delegateTargetIndexPathForMove"b1"delegateIndentationLevelForRow"b1"delegateWantsHeaderForSection"b1"delegateMargin"b1"delegateHeaderTitleAlignment"b1"delegateFooterTitleAlignment"b1"delegateFrameForSectionIndexGivenProposedFrame"b1"delegateDidFinishReload"b1"delegateHeightForHeader"b1"delegateHeightForFooter"b1"delegateViewForHeader"b1"delegateViewForFooter"b1"delegateCalloutTargetRectForCell"b1"delegateShouldShowMenu"b1"delegateCanPerformAction"b1"delegatePerformAction"b1"delegateWillBeginReordering"b1"delegateDidEndReordering"b1"delegateDidCancelReordering"b1"delegateWillDisplayHeaderViewForSection"b1"delegateWillDisplayFooterViewForSection"b1"delegateShouldHighlightRow"b1"delegateDidHighlightRow"b1"delegateDidUnhighlightRow"b1"delegateTitleForSwipeAccessory"b1"delegateBackgroundColorForDeleteConfirmationButton"b1"delegateBackgroundColorForSwipeAccessory"b1"delegateDeleteConfirmationButton"b1"delegateSwipeAccessory"b1"delegateSwipeAccessoryPushed"b1"delegateShouldDrawTopSeparatorForSection"b1"delegateShouldDrawBottomSeparatorForSection"b1"delegateShouldHaveFullLengthTopSeparatorForSection"b1"delegateShouldHaveFullLengthBottomSeparatorForSection"b1"delegateSpacingForExtraSeparators"b1"delegateWillBeginSwiping"b1"delegateDidEndSwiping"b1"delegateCanFocusRow_deprecated"b1"delegateCanFocusRow"b1"delegateDidFocusRow"b1"delegateDidUnfocusRow"b1"delegateIndexPathForPreferredFocusedItem"b1"delegateShouldUpdateFocusFromRowAtIndexPathToView"b1"delegateIndexPathForPreferredFocusedView"b1"delegateShouldUpdateFocusInContext"b1"delegateDidUpdateFocusInContext"b1"delegateContextMenuConfigurationForRowAtIndexPath"b1"delegatePreviewForHighlightingContextMenuWithConfiguration"b1"delegatePreviewForDismissingContextMenuWithConfiguration"b1"delegateWillCommitMenuWithAnimator"b1"delegatewillPerformPreviewActionForMenuWithConfiguration"b1"delegateWillDisplayContextMenuWithConfiguration"b1"delegateWillEndContextMenuInteractionWithConfiguration"b1"delegateSelectionFollowsFocusForRowAtIndexPath"b1"delegateWasNonNil"b1"style"b2"isInSidebar"b1"separatorStyle"b3"headerFooterPinningBehavior"b2"wasEditing"b1"isEditing"b1"isEditingAllRows"b1"scrollsToSelection"b1"reloadSkippedDuringSuspension"b1"displaySkippedDuringSuspension"b1"needsReload"b1"needsRebuildGeometry"b1"suppressRebuildGeometry"b1"scheduledUpdateVisibleCells"b1"lastScheduledUpdateVisibleCellsIgnored"b1"scheduledUpdateVisibleCellsFrames"b1"displayTopSeparator"b1"countStringInsignificantRowCount"b4"needToAdjustExtraSeparators"b1"overlapsSectionHeaderViews"b1"ignoreTouchSelect"b1"lastHighlightedRowActive"b1"reloading"b1"dequeuedSectionViewIsFooter"b1"allowsSelection"b1"allowsSelectionDuringEditing"b1"allowsMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"indexHidden"b1"indexHiddenForSearch"b1"defaultShowsHorizontalScrollIndicator"b1"defaultShowsVerticalScrollIndicator"b1"sectionIndexTitlesLoaded"b1"tableHeaderViewShouldAutoHide"b1"tableHeaderViewIsHidden"b1"tableHeaderViewWasHidden"b1"tableHeaderViewShouldPin"b1"hideScrollIndicators"b1"sendReloadFinished"b1"keepFirstResponderWhenInteractionDisabled"b1"keepsFirstResponderVisibleOnBoundsChange"b1"forceStaticHeadersAndFooters"b1"inInit"b1"inSetBackgroundColor"b1"isApplyingAppearanceDefaults"b1"usingCustomBackgroundColor"b1"usingCustomBackgroundView"b1"usingCustomSeparatorColor"b1"usingCustomSeparatorEffect"b1"usingCustomSeparatorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
-- (void)updateSplitSubviewContraintsWithLeftContentSize:(UIView *)arg1 rightContentSize: /* Error: Ran out of types for this method. */;
-- (UILayoutGuide *)Configuration;
-- (void)View:(_UIImageCIImageRenderer *)arg1 willManuallyScroll:toRevealView:concealView:animated: /* Error: Ran out of types for this method. */;
-- (UIView *)ntKey:preferredSize:title:accessibilityHint:systemImageName:textAnimationName: /* Error: Ran out of types for this method. */;
-- (void)lObservers;
-- (_Bool)inContext:forProofreadingSuggestionID:completion: /* Error: Ran out of types for this method. */;
-- (void)ar",R,N,V_leadingBar;
-- (_Bool)rollerDelegate;
-- (void)tionActionSettings;
-- (void)iew;
-- (void)´|µ;
-- (unsigned int)l	(lÐ D¨LÀPt< h ¸ H!
-l""|%Ü&;
-- (UIImageSymbolConfiguration *)e constraints ambiguously suggest a height of zero for a table view cell's content view. We're considering the collapse unintentional and using standard height instead. Cell:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)t manager;
-- (NSMapTable *)maximum date.;
-- (void)vReparentingReferenceView;
-- (UIImageSymbolConfiguration *),N,R;
-- (_UIImageLoader *)gViewControllerFormattingDescriptorListStyle;
+- (id <_UIImageViewLoadingDelegate>)@0:8{CGSize=dd}16Q32q40{NSDirectionalEdgeInsets=dddd}48 /* Error: Ran out of types for this method. */;
+- (_Bool)eViewController;
+- (_UIImageLoader *)electionDuration;
+- (void)tureMap;
+- (_Bool)Pointer: /* Error: Ran out of types for this method. */;
+- (long long)mentRequest:inFocusMap:withSnapshot: /* Error: Ran out of types for this method. */;
+- (void)iling;
+- (void)esPointerUpdatesWhilePanning;
+- (void)erInteraction",&,N,S_setScrollPocketContainerInteraction:(_UIImageSymbolVariant *)arg1 ,V__scrollPocketContainerInteraction;
+- (NSArray *);
+- (void)elegate>",N,W,Vdelegate;
+- (void)wParticipating>",&,N,V_identityContainerView;
+- (void)Øß¼à;
+- (void)Ô±;
+- (id <UITraitChangeRegistration>);
+- (UILayoutGuide *)nmentFrame;
+- (void)ts.create.action;
+- (void)ke indexes:(id <_UIImageViewLoadingDelegate>)arg1 %@;
+- (void)s != nil;
+- (void)nkColor;
+- (_Bool)size cached!;
+- (void)ion items do not allow setting titleView;
+- (_Bool)g;
+- (NSMapTable *)rve;
 
 // Remaining properties
 @property(retain, nonatomic) _UIImageCIImageRenderer *CIRenderer;

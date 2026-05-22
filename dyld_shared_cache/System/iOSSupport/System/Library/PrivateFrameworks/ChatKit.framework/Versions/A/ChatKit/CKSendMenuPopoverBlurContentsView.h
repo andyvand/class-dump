@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ew:(double)arg1 shouldAllowPDFAtURL:toOpenFromFrame:completionHandler: /* Error: Ran out of types for this method. */;
-- (double)r;
-- (_Bool)P;
+- (void);
+- (double);
 - (id);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) double blurFilterRadius; // @dynamic blurFilterRadius;

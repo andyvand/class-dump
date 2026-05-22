@@ -5,8 +5,5 @@
 //
 
 @protocol FBSSceneComponent
-
-@optional
-- (void)rnerConfiguration: /* Error: Ran out of types for this method. */;
 @end
 

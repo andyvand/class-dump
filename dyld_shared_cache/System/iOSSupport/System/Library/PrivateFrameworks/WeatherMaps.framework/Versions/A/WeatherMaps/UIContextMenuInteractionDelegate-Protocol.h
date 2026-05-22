@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITargetedPreview;
+
 @protocol UIContextMenuInteractionDelegate
 
 @optional
-- (void)eeningShaderTypeP;
+- (UITargetedPreview *)Wþÿ;
+- (UITargetedPreview *)ÿÿ_pSgXw;
+- (void)ABt;
+- (UITargetedPreview *)/;
 @end
 

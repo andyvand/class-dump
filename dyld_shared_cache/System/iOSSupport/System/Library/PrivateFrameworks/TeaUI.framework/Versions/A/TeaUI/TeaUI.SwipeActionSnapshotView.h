@@ -11,10 +11,10 @@
     MISSING_TYPE *view;
 }
 
+- (id);
 - (void);
-- (id)ype;
-- (void);
-- (id)b;
+- (id);
+- (void);
 
 @end
 

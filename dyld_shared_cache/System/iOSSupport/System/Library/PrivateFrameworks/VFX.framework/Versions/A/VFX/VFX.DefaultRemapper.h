@@ -13,8 +13,8 @@
     MISSING_TYPE *isReversed;
 }
 
-- (void);
 - (id);
+- (void)ÑðPüv;
 
 @end
 

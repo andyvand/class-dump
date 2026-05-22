@@ -14,13 +14,14 @@ __attribute__((visibility("hidden")))
     NSData *_artworkData;
 }
 
+- (void);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)yleDidChangeNotification;
+- (void)ckCount__MAPPING_MISSING__;
+- (id)þ®
+;
 
 // Remaining properties
 @property(retain, nonatomic) MPMediaItemArtwork *artwork; // @synthesize artwork=_artwork;

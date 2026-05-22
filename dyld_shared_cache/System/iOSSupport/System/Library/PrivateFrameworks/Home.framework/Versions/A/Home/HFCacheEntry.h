@@ -12,11 +12,11 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)FImageIconIdentifierServiceDoor;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long cost; // @synthesize cost=_cost;

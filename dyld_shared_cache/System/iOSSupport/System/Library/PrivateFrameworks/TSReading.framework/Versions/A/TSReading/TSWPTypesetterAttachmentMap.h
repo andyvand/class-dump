@@ -16,11 +16,11 @@
 + (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (struct __CTLine *);
-- (id)ataService;
-- (void)nvalidateRowChrome;
+- (id);
+- (void);
+- (id):addTransparentBorder: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) TSWPAttachment *attachment; // @synthesize attachment=_attachment;

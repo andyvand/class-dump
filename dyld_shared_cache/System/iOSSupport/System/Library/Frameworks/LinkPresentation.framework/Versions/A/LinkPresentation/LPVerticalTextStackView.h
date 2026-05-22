@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
-- (id)4ø;
+- (id);
+- (void);
 
 @end
 

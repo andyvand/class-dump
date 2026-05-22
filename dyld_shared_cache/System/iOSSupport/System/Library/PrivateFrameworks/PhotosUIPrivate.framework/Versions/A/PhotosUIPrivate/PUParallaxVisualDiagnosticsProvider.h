@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)ualSection:(id)arg1 indexPath: /* Error: Ran out of types for this method. */;
+- (void)tion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

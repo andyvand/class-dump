@@ -8,7 +8,7 @@
 @protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
-- (NSString *)Ü;
+- (long long)Symbol;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;

@@ -17,20 +17,20 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)er (WFTextAlignment);
 + (id);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (Class);
-- (void);
-- (id);
-- (void);
-- (Class);
 - (id);
 - (Class);
+- (id);
+- (void);
+- (Class)%s %@ seems to be third party but uses 'com.apple'.;
+- (void)ntal;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *additionalRepresentationsForSerialization;

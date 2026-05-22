@@ -29,24 +29,22 @@
 + (id);
 - (id);
 - (id);
-- (double);
-- (id);
-- (id);
 - (Class);
 - (double);
 - (id);
 - (id);
 - (double);
-- (id);
-- (void);
-- (id);
+- (double);
 - (id);
 - (id);
-- (double)0@ù
-× ;
-- (double)ù±zÐ1b0@ù
-× ;
-- (id)È;
+- (id);
+- (id);
+- (double);
+- (id);
+- (double);
+- (id)pX¹;
+- (id)isHighestQuality;
+- (void)Core/LemonadeCurationButton.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *afterLabelImageTintColor; // @synthesize afterLabelImageTintColor=_afterLabelImageTintColor;

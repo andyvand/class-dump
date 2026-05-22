@@ -17,20 +17,22 @@
     CDUnknownBlockType _completionHandler;
 }
 
-- (id)ata;
-- (void)myl«0øÌ;
-- (void);
+- (id);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (long long);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long)show;
-- (id)The parent group, which the new group will be inserted into. You can specify a group's name (e.g. My Group), path (e.g. /My Group/My Subgroup), or identifier (e.g. H8zLAmc1I0njH-0Ql-3YGQ).;
+- (id)1â
+0@ù
+× ;
+- (_Bool)N,V_lastSavedOnDeviceName;
+- (void)actStore"@"NSError">8;
+- (void)rkout (WFWorkoutDate);
 
 // Remaining properties
 @property(nonatomic) _Bool completed; // @synthesize completed=_completed;

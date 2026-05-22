@@ -8,17 +8,18 @@
 {
 }
 
-+ (id)ce;
-+ (void)`ðb;
-- (id);
-- (id);
-- (id);
-- (id)oreUtils;
++ (void);
++ (id)mnWidth,S_setPreferredPrimaryColumnWidth:(long long)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)ÂÃ;
+- (id)@ù
+× ;
+- (id)n"16{_NSRange=QQ}24;
+- (id): /* Error: Ran out of types for this method. */;
+- (id)UIWindowSceneActivationInteraction;
+- (id)yCt;
 
 @end
 

@@ -20,16 +20,16 @@
 - (id);
 - (id);
 - (id);
+- (long long);
+- (id);
 - (unsigned long long);
+- (long long);
 - (_Bool);
 - (id);
-- (void);
 - (long long);
-- (long long);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (void)4@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
+- (id)N;
+- (id)âùÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

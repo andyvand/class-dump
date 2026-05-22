@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)mentBrowser;
++ (id);
 - (id);
 - (id);
 - (id);

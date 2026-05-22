@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     UIImageView *_imageView;
 }
 
-- (id)for attachment.note:(id)arg1 %@;
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)!\DùqÆÐ1¢!0@ù
+- (id)!°Aùñð1Â0@ù
 × ;
-- (void)Q31;
+- (void)asAnyIrisVideoPath;
+- (void)"IMPluginPayload",&,N,V_extensionPayloadBeingSent;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

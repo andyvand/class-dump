@@ -20,22 +20,22 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *diffs; // @synthesize diffs=_diffs;

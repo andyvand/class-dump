@@ -12,10 +12,11 @@
     MISSING_TYPE *path;
 }
 
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, readonly) UITextPosition *end;

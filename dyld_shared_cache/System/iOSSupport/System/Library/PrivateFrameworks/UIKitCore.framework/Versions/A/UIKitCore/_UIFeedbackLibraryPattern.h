@@ -16,19 +16,19 @@ __attribute__((visibility("hidden")))
     _Bool _highPriority;
 }
 
-+ (id)it for message part %ld. ThisEdit:(id)arg1 %@, DateOfLastEdit:%@ /* Error: Ran out of types for this method. */;
 + (id);
-+ (_Bool)¸õtÿ@ó;
++ (id)CGSize=dd}}16d48B56B60;
++ (_Bool)ry<NSString *,NSObject *> *(^__strong)(void));
 - (id);
 - (id);
-- (unsigned long long)d that we will sync to CloudKit in-memory transfer:%@ newGUID:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (unsigned long long);
 - (_Bool);
-- (id)odelRelationshipGenericRadioStation__MAPPING_MISSING__;
-- (_Bool);
-- (void);
-- (id);
-- (id)%ld viewControllers in -[UISplitViewController setViewControllers:] is not supported by %@ style. Extra view controllers are ignored. Dummy view controllers are inserted for missing ones. /* Error: Ran out of types for this method. */;
+- (_Bool)r:(id)arg1;
+- (id)noreApplicationEntitlementForImport,S_setIgnoreApplicationEntitlementForImport:(struct _NSZone *)arg1 ,V_ignoreApplicationEntitlementForImport;
+- (id);
+- (id)LÅîÿ¼vþÿ;
+- (id)utF7;
+- (void)G;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

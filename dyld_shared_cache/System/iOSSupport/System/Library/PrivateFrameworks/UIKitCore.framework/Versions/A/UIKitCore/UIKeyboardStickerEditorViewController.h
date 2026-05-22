@@ -19,18 +19,17 @@ __attribute__((visibility("hidden")))
     _Bool _shown;
 }
 
-- (void)extSubjectWithBlastDoorBasicMessage: /* Error: Ran out of types for this method. */;
-- (void)arkChatGUIDsAsReviewed: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void)sk:(_Bool)arg1 didCompleteWithError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)!tGù1Á°1¢!0@ù
-× ;
-- (void)ifications;
+- (void)eSelectionWithFragment:selectReplacement:smartReplace:matchStyle: /* Error: Ran out of types for this method. */;
+- (void)°;
+- (void)ÿu$ÝD^;
+- (void)X²e;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,7 +7,7 @@
 @interface (null) (PreviewText)
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 @end
 

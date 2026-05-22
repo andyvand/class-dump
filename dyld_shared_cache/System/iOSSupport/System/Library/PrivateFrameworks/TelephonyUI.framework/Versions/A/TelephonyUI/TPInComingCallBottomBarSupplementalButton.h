@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     UIView *_backdropEffectView;
 }
 
-- (void);
 - (struct CGSize);
-- (id);
 - (void);
-- (struct CGRect);
+- (id);
 - (id);
 - (struct CGRect);
+- (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(retain) UIView *backdropEffectView; // @synthesize backdropEffectView=_backdropEffectView;

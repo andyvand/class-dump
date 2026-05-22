@@ -18,6 +18,7 @@
     MISSING_TYPE *newsActivityManager;
     MISSING_TYPE *scienceDataFactory;
     MISSING_TYPE *channelDataFactory;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *headlineExposureTracker;
     MISSING_TYPE *trackerConfiguration;
     MISSING_TYPE *tagService;

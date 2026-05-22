@@ -15,13 +15,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)_thisDestination;
+- (id)rItem: /* Error: Ran out of types for this method. */;
+- (void)d only be displayed on the root view controller, not in any child view controllers.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

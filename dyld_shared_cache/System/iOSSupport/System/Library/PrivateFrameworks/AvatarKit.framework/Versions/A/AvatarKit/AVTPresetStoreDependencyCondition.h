@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     NSString *_specificPresetIdentifier;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 

@@ -7,7 +7,7 @@
 @class UIKeyboardEmojiKeyDisplayController;
 
 @protocol UIKeyboardEmojiCategoryUpdate
-- (UIKeyboardEmojiKeyDisplayController *)Áw°!;
+- (UIKeyboardEmojiKeyDisplayController *)Pointer Settings;
 
 // Remaining properties
 @property(nonatomic) __weak UIKeyboardEmojiKeyDisplayController *emojiKeyManager;

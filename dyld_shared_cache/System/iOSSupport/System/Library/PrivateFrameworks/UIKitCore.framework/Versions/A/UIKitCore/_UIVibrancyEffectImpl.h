@@ -9,20 +9,20 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)tionUsingToken was passed in a nil zone;
-- (void)b;
-- (unsigned long long);
-- (id);
-- (_Bool);
++ (id);
 - (long long);
-- (long long)tÐ!hAù±È1¢!0@ù
+- (unsigned long long);
+- (id)!xGùÑ_Ð1Â0@ù
 × ;
-- (void)espectsSystemGestureTouchFiltering:(id)arg1;
-- (_Bool)edRecently;
-- (void)etTableViewStyle:(id)arg1 updateFrame: /* Error: Ran out of types for this method. */;
-- (_Bool)PÍ$ÖTÖ0ÜxÜ(Ý@ÞÔÞß;
-- (id)ntroller *__strong, UIViewController *__strong, UIViewController *__strong);
-- (void)ansition on navigation bar (;
+- (void);
+- (long long);
+- (_Bool)q32;
+- (void)Changed:(id)arg1;
+- (void)refersWrapToSidesHandler;
+- (_Bool)upported.;
+- (id)ystemSoundActivation;
+- (void)on must have showsMenuAsPrimaryAction enabled:(id)arg1 %@;
+- (_Bool)itCore._UITabBarContainerView;
 
 @end
 

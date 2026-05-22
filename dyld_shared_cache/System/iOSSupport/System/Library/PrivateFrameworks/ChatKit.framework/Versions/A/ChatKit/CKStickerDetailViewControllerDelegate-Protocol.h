@@ -5,10 +5,5 @@
 //
 
 @protocol CKStickerDetailViewControllerDelegate
-- (void);
-- (void)®í;
-
-@optional
-- (void)tent;
 @end
 

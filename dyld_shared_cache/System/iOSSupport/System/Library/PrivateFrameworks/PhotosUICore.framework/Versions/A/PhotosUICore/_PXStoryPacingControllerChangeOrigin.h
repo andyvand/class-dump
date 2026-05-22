@@ -11,10 +11,9 @@
     NSString *_description;
 }
 
-- (void)°myl¬Ö0e;
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)LemonadeAXAlbumsAlbumFallbackLabel;
 
 @end
 

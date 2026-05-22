@@ -21,10 +21,9 @@
 - (void);
 - (void);
 - (double);
-- (void)0e;
+- (CDStruct_1b6d18a9);
 - (id);
-- (CDStruct_1b6d18a9)Ôáu°!EùzÐ1b0@ù
-× ;
+- (void)LemonadeAXAlbumsFolderFallbackLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 currentError;

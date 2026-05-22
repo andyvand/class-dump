@@ -14,32 +14,32 @@
 
 + (id);
 + (id);
-+ (double)FPItemID";
++ (double);
 + (double);
 + (id);
 + (double);
-+ (id):(id)arg1;
++ (id);
 + (id);
 + (double);
 + (id);
-+ (id)e;
-+ (id);
-+ (id)@@"NSPredicate";
 + (id);
 + (id);
-- (void)@@;
++ (id);
++ (id);
++ (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)ctionary";
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)<v@?@"SUDownload"@"SUInstallPolicy"@"_SUAutoInstallOperationModel"@"NSError">;
+- (id);
 - (void);
 
 // Remaining properties

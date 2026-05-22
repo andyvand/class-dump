@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UITextField.h>
 
-@class NSArray, NSHashTable, NSMutableDictionary, NSSearchToolbarItem, NSString, NSValue, UIColor, UIDictationSearchButton, UIHoverGestureRecognizer, UIImage, UIImageView, UISearchBar, UITapGestureRecognizer, UITextRange, _UIScrollPocketInteraction, _UISearchBarSearchFieldBackgroundView, _UISearchBarTextFieldTokenCounter, _UISearchSuggestionControllerIOSBase, _UISearchTextFieldVisualStyle;
+@class NSArray, NSHashTable, NSMutableDictionary, NSSearchToolbarItem, NSString, NSValue, UIColor, UIDictationSearchButton, UIHoverGestureRecognizer, UIImage, UIImageView, UILargeContentViewerInteraction, UISearchBar, UITapGestureRecognizer, UITextRange, _UIScrollPocketInteraction, _UISearchBarSearchFieldBackgroundView, _UISearchBarTextFieldTokenCounter, _UISearchSuggestionControllerIOSBase, _UISearchTextFieldVisualStyle;
 @protocol UITextCursorAssertion;
 
 @interface UISearchTextField : UITextField
@@ -35,6 +35,9 @@
         unsigned int needsUpdateBackdropStyle:1;
         unsigned int needsUpdateBackgroundMaterial:1;
         unsigned int isPresentingEditMenu:1;
+        unsigned int clearButtonPreviousShowsLargeContentViewer:2;
+        unsigned int dictationButtonPreviousShowsLargeContentViewer:2;
+        unsigned int showingKeyboard:1;
     } _searchBarTextFieldFlags;
     NSHashTable *_knownTokenLayoutViews;
     _UISearchBarTextFieldTokenCounter *_tokenCounter;
@@ -47,6 +50,7 @@
     _Bool __preventSelectionViewActivation;
     _Bool __alwaysShowsClearButtonWhenEmptyAndActive;
     _Bool __alwaysShowsClearButtonWhenEmpty;
+    UILargeContentViewerInteraction *_largeContentViewerInteraction;
     UISearchBar *_searchBar;
     _UISearchSuggestionControllerIOSBase *_suggestionController;
     UIDictationSearchButton *_dictationButton;
@@ -55,266 +59,277 @@
     NSSearchToolbarItem *_searchToolbarItem;
 }
 
-+ (_Bool)ب;
++ (_Bool);
 + (Class);
 + (Class);
-+ (id);
-- (void)ADForceHomeLocalFlag;
-- (void)d %{public}@;
++ (id);
+- (struct _NSRange);
+- (Class);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (double);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (double);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (struct CGRect);
+- (id);
+- (void);
+- (_Bool);
+- (double);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (struct CGRect);
+- (struct CGRect);
+- (_Bool);
+- (_Bool);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (Class);
+- (unsigned long long);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (struct CGRect);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)0@ù
-× ;
-- (void)!(GùqÈÐ1¢!0@ù
-× ;
-- (struct _NSRange);
-- (void)1¢!0@ù
-× ;
-- (void)auÐ!Ä@ùÑÉ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)QÊÐ1¢!0@ù
-× ;
-- (void);
-- (long long)0@ù
-× ;
-- (void)!\@ùË°1¢!0@ù
-× ;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)wð!AùÌ1¢!0@ù
-× ;
 - (id)
 × ;
-- (void)±ÌÐ1¢!0@ù
-× ;
-- (void)!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (void)!CùÍ1¢!0@ù
-× ;
-- (_Bool);
-- (id)1¢!0@ù
-× ;
-- (void)¡xð!Fù1ÎÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)±Îð1¢!0@ù
+- (void)±Y1Â0@ù
 × ;
 - (_Bool);
 - (void)0@ù
 × ;
-- (void)rchedForScrollableAncestor"b1"preventScrollingAncestor"b1"preventScrollingContainer"b1"canCancelContentTouches"b1"delaysContentTouches"b1"programmaticScrollDisabled"b1"scrollDisabled"b1"adjustsContentInsetWhenScrollDisabled"b1"zoomDisabled"b1"scrollTriggered"b1"showsHorizontalScrollIndicator"b1"showsVerticalScrollIndicator"b1"indexDisplayMode"b2"indicatorStyle"b2"inZoom"b1"hideIndicatorsInZoom"b1"pushedTrackingMode"b1"shouldRevealScrollIndicators"I"flashingScrollIndicators"b2"verticalIndicatorShrunk"b1"horizontalIndicatorShrunk"b1"contentFitDisableScrolling"b1"pagingEnabled"b1"pagingLeft"b1"pagingRight"b1"pagingUp"b1"pagingDown"b1"lastHorizontalDirection"b1"lastVerticalDirection"b1"dontScrollToTop"b1"scrollingToTop"b1"scrollingDirectionalPress"b1"singleFingerPan"b1"autoscrolling"b1"automaticContentOffsetAdjustmentDisabled"b1"animateAutomaticContentOffsetAdjustments"b1"skipStartOffsetAdjustment"b1"delegateScrollViewDidScroll"b1"delegateScrollViewDidZoom"b1"delegateContentSizeForZoomScale"b1"delegateScrollViewDidChangeContentSize"b1"delegateScrollViewDidChangeAdjustedContentInset"b1"delegateWasNonNil"b1"preserveCenterDuringRotation"b1"delaysTrackingWhileDecelerating"b1"avoidJumpOnInterruptedBounceWithDelayedTrackingWhileDecelerating"b1"pinnedZoomMin"b1"pinnedXMin"b1"pinnedYMin"b1"pinnedXMax"b1"pinnedYMax"b1"staysCenteredDuringPinch"b1"wasDelayingPinchForSystemGestures"b1"disableContentOffsetRounding"b1"alwaysDisableContentOffsetRounding"b1"adjustedDecelerationTargetX"b1"adjustedDecelerationTargetY"b1"hasScrolled"b1"wantsConstrainedContentSize"b1"constrainedContentSizeNeedsUpdate"b1"updateInsetBottom"b1"beingDraggedByChildScrollView"b1"adjustsTargetsOnContentOffsetChanges"b1"skipsContentOffsetAdjustmentsIfScrolling"b1"forwardsTouchesUpResponderChain"b1"firstResponderKeyboardAvoidanceDisabled"b1"hasGradientMaskView"b1"configureForObservingByTVSearchController"b1"interruptingDeceleration"b1"delegateScrollViewAdjustedOffset"b1"delegateAsynchronouslyHandleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
-- (void)q40B48;
-- (_Bool)nControllerSourceItem>"24@0:8@"UITab"16 /* Error: Ran out of types for this method. */;
-- (id)"40@"NSAttributedString"48q56@"UIWritingToolsCoordinatorAnimationParameters"64@?<v@?@"NSAttributedString">72;
-- (id)d}{CGSize=dd}}112@0:8Q16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGSize=dd}56{UIRectCornerRadii=dddd}72d104 /* Error: Ran out of types for this method. */;
-- (id)rViewController"16;
-- (void)6Q24;
-- (void)e=dd}24^{CGSize=dd}32^{CGSize=dd}40;
-- (void)@?48;
-- (void)earance"b1"showsCancelButton"b1"autoDisableCancelButton"b1"showsDeleteButton"b1"showsSearchResultsButton"b1"searchResultsButtonSelected"b1"showsBookmarkButton"b1"isPlacedInNavigationBar"b1"isPlacedInToolbar"b1"isHostedByNavigationBar"b1"isHostedInlineByNavigationBar"b1"isHostedInlineByToolbar"b1"isFloating"b1"isTextFieldManagedInNSToolbar"b1"providesRestingMeasurementValues"b1"navigationBarWantsFlexibleInlineSearch"b1"showsScopeBar"b1"activeSearchDeferringScopeBar"b1"showDictationButton"b1"allowedToShowDictationButton"b1"dictationButtonSetupComplete"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1};
-- (id)d}}q{CGRect={CGPoint=dd}{CGSize=dd}}}16@0:8 /* Error: Ran out of types for this method. */;
-- (void)>"32;
-- (_Bool)rCandidateAtIndex:(id)arg1;
-- (void)binedBackdropViewAnimated:(id)arg1 forKeyboardUp: /* Error: Ran out of types for this method. */;
-- (void)g;
-- (id)nputManagerMode:toInputMode: /* Error: Ran out of types for this method. */;
-- (id)ffscreenWidthsToStateRequest;
-- (void)ys:(id)arg1 forKeyName: /* Error: Ran out of types for this method. */;
-- (void)s:(id)arg1;
-- (_Bool)etProvidesExtraSpaceForExcessiveLineHeights: /* Error: Ran out of types for this method. */;
-- (void)MaximumPossibleForce:(id)arg1;
-- (_Bool)on:(id)arg1;
-- (void)ckdropClippingView:(id)arg1;
-- (id)xt;
-- (_Bool)ist: /* Error: Ran out of types for this method. */;
-- (_Bool)viewShadowSettings;
-- (id)pareToTransitionToEffectDescriptor:(id)arg1;
-- (void)o:touchStage:executionContextPassingUIKBTree: /* Error: Ran out of types for this method. */;
-- (struct CGRect);
-- (void)posedLineFragmentRect:(id)arg1;
-- (_Bool)oardInput:shouldReplaceTextInRange:replacementText: /* Error: Ran out of types for this method. */;
-- (_Bool)idateDetents;
-- (void)itWithTarget:(id)arg1 action:userInfo:delay: /* Error: Ran out of types for this method. */;
-- (_Bool)onfiguration:tintColor: /* Error: Ran out of types for this method. */;
-- (id)sets;
-- (_Bool)sthroughContainer;
-- (long long)queBars;
-- (id)tiveDuration;
-- (void)hDefault:(id)arg1;
-- (id)tationLanguageForSelectedText;
-- (void)Identifier:(_Bool)arg1 inDefaultCustomization:(_Bool)arg2;
-- (double)nBehavior:beganContactForItem:withItem:atPoint: /* Error: Ran out of types for this method. */;
-- (id)rColumnNumberOffset;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (struct CGRect)ew:(struct CGRect)arg1 ofAlertController:forPresentation:inContainerView:descendantOfContainerView:duration:completionBlock: /* Error: Ran out of types for this method. */;
-- (id)chingToActionRepresentationView: /* Error: Ran out of types for this method. */;
-- (id)viewDragSessionProperties:(id)arg1;
-- (_Bool)ewSizeRestrictionsForScene: /* Error: Ran out of types for this method. */;
-- (id)triggerButtonWithAction:(id)arg1;
-- (void)thPhase:(id)arg1 intoSet:(id)arg2;
-- (id)emoteViewService;
-- (void)nBarAnimation:(id)arg1;
-- (void)egularWidthRegularHeight:(id)arg1;
-- (Class)etryTranslator;
-- (void)ongsideAnimations;
-- (void)dualGuidesAndConstraintsAsNecessary;
-- (struct CGRect)esenter;
-- (void)w:(id)arg1 resolvedStyle:withPartStyles:animationProvider: /* Error: Ran out of types for this method. */;
-- (_Bool)tion;
-- (void)sitionZ;
-- (void)ground;
-- (struct CGRect);
-- (void)n:(id)arg1;
-- (_Bool)h;
-- (void)ToUseRBSymbolLayerForImage: /* Error: Ran out of types for this method. */;
-- (Class)conView;
-- (struct CGRect)rControlKey:(struct CGRect)arg1;
+- (void)!äFùQ[Ð1Â0@ù
+× ;
+- (void);
+- (id)1Â0@ù
+× ;
+- (id)á°!ðAùñ\1Â0@ù
+× ;
+- (void)
+× ;
+- (void)^1Â0@ù
+× ;
+- (void);
+- (void)0@ù
+× ;
+- (void)!8AùÑ_°1Â0@ù
+× ;
+- (void);
+- (id)1Â0@ù
+× ;
+- (void)!!dGù1aÐ1Â0@ù
+× ;
+- (void)
+× ;
+- (void)Qb1Â0@ù
+× ;
 - (_Bool);
-- (_Bool)on: /* Error: Ran out of types for this method. */;
-- (id)OneFingerForcePressRecognizer:(struct CGRect)arg1;
-- (void)lInApp;
-- (void)_position;
-- (void)ngsideHandlers;
-- (void)dingCurveToPath:(long long)arg1 startPoint:endPoint:leadingEdge:isVertical: /* Error: Ran out of types for this method. */;
-- (_Bool)h;
-- (void),G_vibrancyStyle;
-- (_Bool)mSpacing;
-- (void)tionWeight:(id)arg1;
-- (void)izontalScrollIndicator;
-- (void)InView;
-- (void)wsArchivingAsSubview;
-- (void)scuringMaterialView;
-- (void)_hostedUIView;
-- (id)indowHostingScene:(long long)arg1 ,V_windowHostingScene;
-- (void)String;
-- (_Bool)_pageImageCache;
-- (void)ary",C,N,V_textHighlightAttributes;
-- (id)WindowDelegate;
-- (void)"_UICollectionLayoutVisibleItem",R,N,V_visibleItem;
-- (long long)IView",&,N,V_verticalDivider;
-- (_Bool)iewBounds;
-- (void),N,V_backgroundBlurEffect;
-- (void)int",&,N,V_viewBottomConstraint;
-- (void),V_reportFeedbackUIPresentedCalledTime;
-- (void)isInVisibleHierarchy;
-- (id)ontextImpl;
-- (void)ManagerEditable1;
-- (void)Container;
-- (void)en;
-- (void)InterfaceActionConcreteVisualStyleFactory_iOS;
-- (void)	
-;
-- (id)¸q;
-- (struct CGRect)Ì!d";
-- (_Bool)Ô¬$ÄDDÌ;
-- (void)Ô0,
-8xä
-ð0 È¡h£<¤;
-- (void).à.0;
-- (_Bool)hì¼`ÔP;
-- (_Bool)¸<¼@;
-- (void)<â;
-- (id)h~;
-- (void)<pä;
-- (_Bool)à;
-- (void)üo+fÇ;
-- (void);
-- (id);
-- (_Bool)<ì;
-- (_Bool);
-- (struct CGSize)upported layout off the main thread for <%@:%p> with associated view controller <%@:%p> /* Error: Ran out of types for this method. */;
-- (_Bool)r supported on iOS 13. Tiling is always on. If you explicitly need to disable tiling, use -_disableTiledViews;
-- (id).;
-- (void)onsCount:(_Bool)arg1 %lu; assertion:%{public}@;  /* Error: Ran out of types for this method. */;
-- (_Bool)esture in app:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)versing into %@ for %@;
-- (_Bool)ize with original vs. rewritten text;
-- (void)e;
-- (void);
-- (_Bool)8åvþ;
-- (void)Ñ;
-- (struct CGRect);
-- (id)¨þÿ;
-- (_Bool);
-- (struct _NSRange)reenSize;
-- (double)Subviews;
+- (void)0@ù
+× ;
+- (void)!ÌDùÑcð1Â0@ù
+× ;
+- (struct _NSRange);
+- (id)1Â0@ù
+× ;
+- (double)A	!xEùQeð1Â0@ù
+× ;
+- (struct CGRect)
+× ;
+- (_Bool)1fð1Â0@ù
+× ;
 - (void);
-- (id)þÿìÁþÿ;
-- (void)utRuleEvaluationContext_p;
-- (void)IYþ;
-- (_Bool)he main menu system.;
-- (void)on was nil - error %@;
-- (void)id)_block_invoke;
-- (id)crete Buttons;
-- (Class)ooter;
-- (id)m sheet while reusing the search origin as the search results destination makes little sense. Initialize UISearchController with a proper search results controller to present as a popover or in a form sheet.;
-- (id)dicatorViewStyleWhiteLarge;
-- (void)undingGranularityCount;
-- (void)d ;
-- (_Bool)ffset;
-- (_Bool)erPointForPointInReferenceCorner(const _UIIntegralPoint, const _UIBoundingPathBitmapDataCornerLocation, const size_t);
-- (void)lor=%@ backgroundEffects=%@ shadowImage=%@ shadowColor=%@;
-- (_Bool)ocusRegion"8;
-- (void)_UITab objects to a UITabGroup. Please use UITab directly.;
-- (id)as the segment at index %lu (action=%@). Identifiers are required to be unique.;
-- (void)EPLACE;
-- (double)responder remained inside a deleted section or item. This may be caused by a cycle where the first responder is moving back and forth between the same views.
-First responder that was asked to resign (returned %@ from -resignFirstResponder):%@ inside containing view:%@ at index path:%@
-Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
-- (id)eIntrinsicContentSizeInvalidation;
-- (void)camera;
-- (void)w;
-- (void)UIBarButtonItem"16@"UIView"24;
+- (id)0@ù
+× ;
+- (void)!pGùÑgÐ1Â0@ù
+× ;
+- (void)sualStyle";
+- (struct CGRect)ationControllerDelegate>";
+- (_Bool)iewServiceHostSessionDelegate>";
+- (void){CGPoint=dd}32{CGPoint=dd}48;
+- (long long)1"prefersExpanded"b1"ignoredForCollapsingBehaviors"b1"active"b1"verticalOriginValid"b1};
 - (void);
-- (void)htEffectTransitionView.swift;
-- (void)tCore.AppearanceDelegate;
-- (void)ationContainerView;
+- (void)adowView;
+- (void)extRangeForTextKit2Ranges:(id)arg1;
+- (void)tSessionUUID;
+- (void):(id)arg1 graphicsQuality: /* Error: Ran out of types for this method. */;
+- (id)etSystemRotorType: /* Error: Ran out of types for this method. */;
+- (void)setMenuGutterWidth:(id)arg1;
+- (id)ExpectedDiffableUpdateItem: /* Error: Ran out of types for this method. */;
+- (void)yLink;
+- (void)Card;
+- (void)gDidChange: /* Error: Ran out of types for this method. */;
+- (void)aPlaybackRequiresUserGesture;
+- (void)d;
+- (Class)etionHandler:didPresentBlock:allowPopoverToCloseBlock: /* Error: Ran out of types for this method. */;
+- (id)nishedRemovalSubrangeIndexes;
+- (void)rmCountWithSuffix:(id)arg1;
 - (struct CGRect);
-- (void)ffffff@;
-- (struct CGRect)²ï?{®GázÄ?Âõ(\ê?¸ëQ¸î?;
-- (struct _NSRange)üúdþõQÿ3\ZÿÝQÿ3ìúdþÝQÿ3/|þåQÿ30±þ;
+- (void)assNamed:(id)arg1;
+- (struct CGRect)tate:(struct CGRect)arg1 barMetrics: /* Error: Ran out of types for this method. */;
+- (void)eToInterfaceOrientation:(id)arg1 duration:force: /* Error: Ran out of types for this method. */;
+- (long long)_updateForChangedEdgesConvertingSafeAreaToContentInsetWithOldSystemContentInset:oldEdgesPropagatingSafeAreaInsets:adjustContentOffsetIfNecessary: /* Error: Ran out of types for this method. */;
+- (long long)portedInterfaceOrientationsForRootViewController;
+- (_Bool)ate: /* Error: Ran out of types for this method. */;
+- (_Bool)cestorSheetID: /* Error: Ran out of types for this method. */;
+- (void)layProperties;
+- (void)platterOffsetDistance;
+- (void)_overrideHorizontalSizeClass;
+- (void)Ubiquitous;
+- (id)nsertionAnimationPreviews;
+- (id)Recognizer: /* Error: Ran out of types for this method. */;
+- (void)_focusPromiseItemsInRect:(long long)arg1;
+- (_Bool)_documentIdentifier;
+- (void)dlers;
+- (id)erImage;
+- (void)ements;
+- (void)yle: /* Error: Ran out of types for this method. */;
+- (_Bool)N,G_builtinTransitionStyle,S_setBuiltinTransitionStyle:,V_builtinTransitionStyle /* Error: Ran out of types for this method. */;
+- (void)chinessUpperBound;
+- (void)ouldPerformHapticFeedback;
+- (void)UIFloatingTabBarListItem",&,N,V_listItem;
+- (void)backgroundData2;
+- (_Bool)eFence;
+- (void)_cloneTextView:(id)arg1;
+- (id)tTranslating>",R,N;
+- (id)atorController;
+- (void)nges;
+- (struct CGRect)eractionDidBeginAtLocation:(struct CGRect)arg1 withVelocity: /* Error: Ran out of types for this method. */;
+- (id)mbolConfiguration;
+- (void)UIKBCachedImage;
+- (void)AccessibilityContentSizeCategoryImageAdjustingInternal;
+- (id)	
+;
+- (_Bool)Ìó´ô;
+- (void)ÊôÊÌÌ;
+- (void)àâ;
+- (void)dÛ;
+- (void)DÞÜÞ;
+- (void)`¥;
+- (struct _NSRange)ÈÐÔd»;
+- (void);
+- (_Bool)*;
+- (void)completion now:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ockStatus:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)%@; view:(id)arg1 %@;
+- (id)on.
+%@;
+- (id)+;
+- (void);
+- (_Bool)öîÿxþÿ;
+- (id)Offset;
+- (_Bool)erInsets;
+- (void)gesture recognizer must have its scroll view as its delegate.;
+- (_Bool)ViewControllerAdaptiveImpl _prepareForExpansionWithTransition:] /* Error: Ran out of types for this method. */;
+- (void)ropIntentInsertIntoDestinationIndexPath;
+- (id)tType:%li /* Error: Ran out of types for this method. */;
+- (void)eats:(id)arg1 breadcrumb:] /* Error: Ran out of types for this method. */;
+- (id)t;
+- (void)xtFormattingViewControllerTextAlignmentRightComponent;
+- (void)works/PhotosUI.framework/PhotosUI;
+- (_Bool)ClickTimeoutDurationAX;
+- (void)onmark.circle;
+- (void)orActions:(id)arg1;
 - (void);
-- (void)ightRatio;
-- (_Bool)8;
-- (_Bool)9þ;
-- (id)¶àZ;
+- (_Bool);
 - (void);
-- (void)°ì[;
+- (void);
+- (struct CGSize)rLayout;
+- (_Bool)@;
+- (void);
+- (void)nterfaceVibrancy;
+- (void)6\;
 - (id);
-- (id)ÈØ¹ÿ!^ÒÞ\];
-- (struct CGRect)\%^;
-- (id)\^;
-- (void)êS;
-- (_Bool)19_;
-- (struct CGRect);
-- (unsigned long long)°Í=`;
-- (void)ìÖÒO[a;
-- (id)l¿ôþ;
-- (_Bool)°*ÐþBÎ]vb;
-- (void)qób;
-- (_Bool)}ûc;
-- (void);
-- (void)PÝ;
-- (void)f;
-- (void)0Vÿä;
-- (void)CÄ;
-- (struct CGRect)Ä¸éÿ×ÓÃËf;
-- (void)²rg;
-- (double)4.ÿ È¸j;
-- (void)¬ºÿRÌ*;
-- (_Bool)ûgi;
-- (_Bool);
-- (id);
+- (void)°ûÀÿZ;
+- (_Bool)\Bãþ;
+- (id)âäÎ×Pc;
+- (void)[ÝþMÀ¯;
+- (void)?ÍÒc;
+- (_Bool)FLD\c;
+- (void)5iÔc;
+- (void)àvd;
+- (struct CGRect)¬~LÿIyÅ;
+- (struct CGRect)¼Åÿ2æ;
+- (_Bool)|g;
+- (void)ph;
+- (void)i;
+- (id)¨k;
 
 // Remaining properties
 @property(nonatomic, setter=_setAlwaysHidesMagnifyingGlassForAccessibilityContentSizeCategory:) _Bool _alwaysHidesMagnifyingGlassForAccessibilityContentSizeCategory;
@@ -326,6 +341,7 @@ Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: 
 @property(readonly, nonatomic) UIDictationSearchButton *_dictationButton; // @synthesize _dictationButton;
 @property(nonatomic, setter=_setIgnoresDynamicType:) _Bool _ignoresDynamicType;
 @property(readonly, nonatomic) _Bool _isPresentingEditMenu;
+@property(readonly, nonatomic) UILargeContentViewerInteraction *_largeContentViewerInteraction; // @synthesize _largeContentViewerInteraction;
 @property(readonly, nonatomic) _Bool _needsDelayedSearchControllerPresentation;
 @property(readonly, copy, nonatomic) NSString *_nstoolbarItemIdentifier;
 @property(nonatomic, setter=_setPreventSelectionViewActivation:) _Bool _preventSelectionViewActivation; // @synthesize _preventSelectionViewActivation=__preventSelectionViewActivation;

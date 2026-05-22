@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)2d,;
-- (double);
-- (void);
-- (id)EffectManager;
-- (id)View;
+- (id);
+- (id);
+- (id);
+- (double)sibility;
+- (void)ontainerCSbIggyygd_;
 
 // Remaining properties
 @property(readonly, nonatomic) double value; // @synthesize value=_value;

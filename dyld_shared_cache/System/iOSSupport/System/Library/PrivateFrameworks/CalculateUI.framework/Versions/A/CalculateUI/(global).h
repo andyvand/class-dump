@@ -4,5 +4,5 @@
 
 // Global C++ functions
 
-SPAngleGetDegrees(SPAngle);
-SPAngleMakeWithDegrees(double);
+auto SPAngleGetDegrees(SPAngle);
+auto SPAngleMakeWithDegrees(double);

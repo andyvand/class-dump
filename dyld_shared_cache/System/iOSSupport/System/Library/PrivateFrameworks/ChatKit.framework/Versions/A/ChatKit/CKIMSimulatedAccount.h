@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)0s%ÿE7;
 
 // Remaining properties
 @property(retain, nonatomic) IMHandle *loginHandle; // @synthesize loginHandle=_loginHandle;

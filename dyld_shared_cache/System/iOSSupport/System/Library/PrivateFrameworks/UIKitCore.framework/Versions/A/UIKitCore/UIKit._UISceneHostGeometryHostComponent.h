@@ -12,11 +12,10 @@
     MISSING_TYPE *geometryDriver;
 }
 
-- (void);
-- (void)qð!Aù±Ä°1¢!0@ù
-× ;
-- (id)backgroundColor;
-- (id)üáZÿ{+;
+- (id);
+- (void)dentifier;
+- (id)@Ú¼ÿHÖÊj;
+- (void)líþÑËªl;
 
 @end
 

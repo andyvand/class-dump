@@ -19,10 +19,10 @@
     MISSING_TYPE *$__lazy_storage_$_ephemeralAlertNotice;
 }
 
+- (id)ü¸^;
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_y_SayytG!~¢Gy_üyytADGGG;
 
 @end
 

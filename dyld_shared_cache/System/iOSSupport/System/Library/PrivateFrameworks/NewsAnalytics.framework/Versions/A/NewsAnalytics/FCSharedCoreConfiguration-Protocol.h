@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPersonalizationPublisherDampeningConfig, FCPersonalizationTreatment, FCTopStoriesConfiguration, NSArray, NSString;
+@class FCPersonalizationPublisherDampeningConfig, FCTopStoriesConfiguration, NSArray, NSString;
 
 @protocol FCSharedCoreConfiguration
-- (NSString *)extInputResponder;
-- (long long)ellConfig",?,R,N;
+- (long long);
 
 @optional
-- (FCPersonalizationPublisherDampeningConfig *)=;
-- (FCPersonalizationTreatment *);
-- (double)meInterval:target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
-- (double)@ vs %@;
-- (long long)A;
+- (double);
+- (_Bool);
+- (FCTopStoriesConfiguration *);
+- (NSString *)¯Õÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool articleEmbeddingsEnabled;

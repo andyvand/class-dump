@@ -4,10 +4,10 @@
 
 class icu::Collation {
 public: // (access info unavailable from symbols alone)
-    decThreeBytePrimaryByOneStep(unsigned int, signed char, int);
-    decTwoBytePrimaryByOneStep(unsigned int, signed char, int);
-    getThreeBytePrimaryForOffsetData(int, long long);
-    incThreeBytePrimaryByOffset(unsigned int, signed char, int);
-    incTwoBytePrimaryByOffset(unsigned int, signed char, int);
-    unassignedPrimaryFromCodePoint(int);
+    auto decThreeBytePrimaryByOneStep(unsigned int, signed char, int);
+    auto decTwoBytePrimaryByOneStep(unsigned int, signed char, int);
+    auto getThreeBytePrimaryForOffsetData(int, long long);
+    auto incThreeBytePrimaryByOffset(unsigned int, signed char, int);
+    auto incTwoBytePrimaryByOffset(unsigned int, signed char, int);
+    auto unassignedPrimaryFromCodePoint(int);
 };

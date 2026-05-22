@@ -11,12 +11,13 @@
     NSString *_specVersion;
 }
 
-+ (id);
-- (id);
-- (void);
++ (id):8{CGSize=dd}16@32 /* Error: Ran out of types for this method. */;
 - (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (id);
+- (void)ÞÐ!DùQï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *specVersion; // @synthesize specVersion=_specVersion;

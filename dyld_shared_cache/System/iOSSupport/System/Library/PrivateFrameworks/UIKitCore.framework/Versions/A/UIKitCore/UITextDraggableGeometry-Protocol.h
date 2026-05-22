@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITextRange;
+@class NSArray, UITargetedDragPreview, UITextRange;
 
 @protocol UITextDraggableGeometry
-- (UITargetedDragPreview * (^)(UIView *, _Bool))40@0:(UITextRange *)arg1 8@16^@24@32;
-- (void)ctionList:(long long)arg1;
-- (UITextRange *)belTextWidth;
-- (NSArray *)icalKeyboardPresses;
-- (NSArray *)earchBarGroup",R,N,V_inlineSearchBarItemGroup;
+- (NSArray *)rShadowIsHidden:(UITextRange *)arg1;
+- (void)bviewsTest:(long long)arg1;
+- (NSArray *)sentationSourceRepresentationView;
+- (long long)ct must not be nil;
+- (UITargetedDragPreview *)od;
+- (UITextRange *)DCSDictionaryCreateWithAssetAttributes;
 
 // Remaining properties
 @property(nonatomic) long long geometryOptions;

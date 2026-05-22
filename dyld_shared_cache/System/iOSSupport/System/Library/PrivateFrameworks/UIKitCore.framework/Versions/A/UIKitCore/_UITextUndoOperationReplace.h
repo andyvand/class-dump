@@ -16,12 +16,13 @@ __attribute__((visibility("hidden")))
     NSArray *_replacements;
 }
 
-- (void)TallEditorialArtworkRequestTokenForStoreMusicAPIDictionary;
-- (id);
 - (void);
-- (void)Ô ;
-- (id)rray:(struct _NSRange)arg1;
-- (void)ontext: /* Error: Ran out of types for this method. */;
+- (void)!ð@ù±_°1Â0@ù
+× ;
+- (id)interactionAssistant;
+- (void)entStateCancelled;
+- (id)äfg¼g¬illlÈlôo<pÄpq;
+- (void)So26UIWindowScenePushPlacementCG;
 
 @end
 

@@ -19,20 +19,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)Block: /* Error: Ran out of types for this method. */;
-- (_Bool)yReceipt:deliveryContext:storageContext: /* Error: Ran out of types for this method. */;
-- (_Bool)efix;
-- (_Bool)ntactID;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (struct CGSize);
 - (struct CGSize);
 - (_Bool);
-- (_Bool)age %s. Message can be dropped.;
-- (id)ionViewLayoutPreservingExistingLayoutAttributes;
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool _avoidsKeyboardSuppression; // @synthesize _avoidsKeyboardSuppression=__avoidsKeyboardSuppression;

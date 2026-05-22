@@ -28,18 +28,18 @@
 }
 
 - (unsigned int);
-- (CDStruct_b5bb7d6f *);
-- (double)z;
-- (void);
-- (void);
+- (CDStruct_b5bb7d6f *);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)z;
 - (void);
 - (void);
-- (void)z;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -47,7 +47,7 @@
 - (struct CGSize);
 - (struct CGSize);
 - (struct UIEdgeInsets);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -58,13 +58,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGPoint *);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id)HbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1hNw--;
+- (_Bool);
+- (void);
+- (struct CGPoint *);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;

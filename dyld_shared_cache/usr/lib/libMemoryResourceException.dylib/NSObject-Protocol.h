@@ -7,13 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (Class);
-- (_Bool)b;
-- (NSString *)B;
-- (id)%@ has to generate video derivatives from %@;
-
-@optional
-- (NSString *)on a background thread, waiting;
+- (id)f MB):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

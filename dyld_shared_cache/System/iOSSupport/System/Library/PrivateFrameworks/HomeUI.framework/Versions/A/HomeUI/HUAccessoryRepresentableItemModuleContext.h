@@ -33,11 +33,10 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (CDUnknownBlockType)0@ù
-× ;
+- (CDUnknownBlockType)rForHomeKitObject:cameraClip:animated: /* Error: Ran out of types for this method. */;
+- (void)rding dismissed? %{BOOL}d / Banner dismissed? %{BOOL}d;
+- (void)OTP_Detail_Method;
 
 // Remaining properties
 @property(nonatomic, retain) id <HFAccessoryLikeObjectContainer> accessoryContainer; // @synthesize accessoryContainer;

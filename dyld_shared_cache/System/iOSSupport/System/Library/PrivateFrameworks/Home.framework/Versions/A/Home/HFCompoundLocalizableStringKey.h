@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)s;
+- (void);
+- (void)ðÿÃûHõ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *format; // @synthesize format=_format;

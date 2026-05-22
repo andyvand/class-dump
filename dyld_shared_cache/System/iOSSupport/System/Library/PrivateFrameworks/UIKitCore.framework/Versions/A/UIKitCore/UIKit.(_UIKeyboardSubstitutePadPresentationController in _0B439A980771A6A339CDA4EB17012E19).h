@@ -29,18 +29,16 @@
 }
 
 - (int);
-- (void);
-- (void)0@ù
-× ;
-- (void)!°CùQÌð1¢!0@ù
-× ;
-- (void)dPanningWithTouchPosition:currentTransformedPosition: /* Error: Ran out of types for this method. */;
-- (void)lor;
-- (struct CGRect)rmActionForKey: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)pÜþúÑ;
-- (void)¸c;
-- (double)Yd;
+- (void);
+- (double);
+- (void)rmediateToDescendantViewController:(id)arg1;
+- (id)UTTON_TITLE_IN_UNDO_ALERT;
+- (void)bugString;
+- (void);
+- (struct CGRect)À;
+- (void)üÒ_;
+- (void) RÿHÖq_;
+- (void)¿Ú,d;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGRect frameOfPresentedViewInContainerView;

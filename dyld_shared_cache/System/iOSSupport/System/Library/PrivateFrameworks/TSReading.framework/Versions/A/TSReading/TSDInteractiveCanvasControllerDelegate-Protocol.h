@@ -5,22 +5,11 @@
 //
 
 @class TSKDocumentRoot;
-@protocol TSDLayoutGeometryProvider;
 
 @protocol TSDInteractiveCanvasControllerDelegate
 
 @optional
-- (Class);
-- (void);
-- (_Bool);
-- (void)Z;
-- (void);
-- (void)o;
-- (void)=;
-- (void);
-- (id <TSDLayoutGeometryProvider>)0;
-- (double);
-- (void)ia;
+- (void)mentBeginEditing;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowEditMenuToAppear;

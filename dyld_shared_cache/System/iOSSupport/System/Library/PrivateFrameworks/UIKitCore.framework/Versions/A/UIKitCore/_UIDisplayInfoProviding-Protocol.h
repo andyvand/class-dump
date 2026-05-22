@@ -8,13 +8,12 @@
 @protocol _UIDisplayInfoShape;
 
 @protocol _UIDisplayInfoProviding
-- (id <_UIDisplayInfoShape>);
-- (double)× ;
-- (struct UIEdgeInsets);
-- (double)ssertionIdentifiers;
-- (struct UIEdgeInsets)dy:forView: /* Error: Ran out of types for this method. */;
-- (FBSDisplayConfiguration *)t:%f, end:%f, delta:%f) /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)omingIn;
+- (struct UIEdgeInsets)ùÑf1Â0@ù
+× ;
+- (double)onHandler: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)Index;
+- (struct UIEdgeInsets)documentsURL;
+- (struct UIEdgeInsets)rchived;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long artworkSubtype;

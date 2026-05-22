@@ -4,10 +4,10 @@
 
 class icu::ByteSinkUtil {
 public: // (access info unavailable from symbols alone)
-    appendChange(int, char16_t const*, int, icu::ByteSink&, icu::Edits*, UErrorCode&);
-    appendChange(unsigned char const*, unsigned char const*, char16_t const*, int, icu::ByteSink&, icu::Edits*, UErrorCode&);
-    appendCodePoint(int, int, icu::ByteSink&, icu::Edits*);
-    appendNonEmptyUnchanged(unsigned char const*, int, icu::ByteSink&, unsigned int, icu::Edits*);
-    appendTwoBytes(int, icu::ByteSink&);
-    appendUnchanged(unsigned char const*, unsigned char const*, icu::ByteSink&, unsigned int, icu::Edits*, UErrorCode&);
+    auto appendChange(int, char16_t const*, int, icu::ByteSink&, icu::Edits*, UErrorCode&);
+    auto appendChange(unsigned char const*, unsigned char const*, char16_t const*, int, icu::ByteSink&, icu::Edits*, UErrorCode&);
+    auto appendCodePoint(int, int, icu::ByteSink&, icu::Edits*);
+    auto appendNonEmptyUnchanged(unsigned char const*, int, icu::ByteSink&, unsigned int, icu::Edits*);
+    auto appendTwoBytes(int, icu::ByteSink&);
+    auto appendUnchanged(unsigned char const*, unsigned char const*, icu::ByteSink&, unsigned int, icu::Edits*, UErrorCode&);
 };

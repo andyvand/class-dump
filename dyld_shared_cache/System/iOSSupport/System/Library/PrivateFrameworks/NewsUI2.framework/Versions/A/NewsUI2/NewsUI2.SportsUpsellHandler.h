@@ -20,8 +20,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)lc;
 
 @end
 

@@ -14,8 +14,9 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

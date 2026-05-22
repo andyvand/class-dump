@@ -17,6 +17,7 @@
     MISSING_TYPE *deletedStatusProvider;
     MISSING_TYPE *blockedStatusProvider;
     MISSING_TYPE *feedContextFactory;
+    MISSING_TYPE *appConfigManager;
 }
 
 @end

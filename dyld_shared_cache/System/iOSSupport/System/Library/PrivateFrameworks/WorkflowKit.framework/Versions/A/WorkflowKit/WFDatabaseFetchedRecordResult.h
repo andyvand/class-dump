@@ -12,11 +12,12 @@
     void reason;
 }
 
-- (id)ø£Ì;
-- (id);
-- (void);
-- (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (unsigned long long)	
+;
+- (void)ize from another action, or a number of bytes;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *reason;

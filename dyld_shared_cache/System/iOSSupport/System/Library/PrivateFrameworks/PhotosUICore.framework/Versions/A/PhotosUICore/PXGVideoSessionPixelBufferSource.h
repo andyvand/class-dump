@@ -25,10 +25,10 @@
 - (struct __CVBuffer *);
 - (void);
 - (void);
-- (void);
 - (id);
-- (struct CGAffineTransform)¤ÿÿ;
-- (void);
+- (void)nd Unacceptable;
+- (struct CGAffineTransform)ÈÉÿshouldRefreshBackgroundAssetsOnAppRestart;
+- (void)Ù(ÉWÿù(É0Wÿ(É<Wÿ¡(ÉHWÿy(ÉTWÿÉ(É`WÿY(ÉlWÿY(ÉHIÿ¡(ÉpWÿÙ(ÉxWÿ©(ÉWÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *currentPixelBuffer;

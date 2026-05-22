@@ -8,9 +8,6 @@
 
 @protocol TSPObjectContextDelegate
 
-@optional
-- (void);
-
 // Remaining properties
 @property(readonly, nonatomic) _Bool areNewExternalReferencesToDataAllowed;
 // Preceding property had unknown attributes: ?

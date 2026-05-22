@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     CAShapeLayer *_shapeLayer;
 }
 
-- (void)unable to send the PIN to the other device to be displayed, Sorry;
-- (void);
 - (void);
 - (id);
 - (void);
-- (void)ay"24@0:(id)arg1 8@"_UIClickPresentationInteraction"16;
+- (void);
+- (void)Presentation: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *shapeLayer; // @synthesize shapeLayer=_shapeLayer;

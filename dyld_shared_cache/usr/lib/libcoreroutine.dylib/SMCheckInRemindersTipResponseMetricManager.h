@@ -14,16 +14,16 @@
 }
 
 + (id);
-+ (CDStruct_b8464340)amp:%@; ktOptInStatus:%lu; ktOptInAbsentReason:%@; ktAccountKeyAbsentReason:%@ > /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
++ (CDStruct_b8464340);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (long long);
-- (void);
 - (id);
 - (void);
-- (id);
+- (id)ì+;
+- (void)effectivePairedDevice.nearby, %{Bool}d, sessionID, %@, lastSessionIDDuringMagnetBreak, %@, magnetBreakTimer, %{Bool}d, is state active state, %{Bool}d, state, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,12 +12,12 @@
 {
 }
 
-- (id);
 - (_Bool);
+- (long long);
+- (id);
 - (_Bool);
 - (struct CGPoint);
 - (id);
-- (long long)a¨Ú;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint bezelContentCenter;

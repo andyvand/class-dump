@@ -15,15 +15,15 @@
 }
 
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (_Bool);
 - (void);
 - (long long);
-- (id);
-- (_Bool)ator is not a 1-char string;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

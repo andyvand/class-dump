@@ -15,10 +15,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (id);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (id)16@24@32@40@48B56;
+- (CDUnknownBlockType)1â
+0@ù
+× ;
+- (void)16@?0@"HUAvailableTriggerItem"8;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

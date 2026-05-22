@@ -50,12 +50,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
-- (void)DataFromEmail:(id)arg1 monogramDiameter:(id)arg2;
-- (_Bool)tems:(id)arg1 forRouteIdentifier:(id)arg2;
-- (void)%@) done;
-- (id)B;
+- (void);
+- (void)ic;
+- (_Bool):(id)arg1;
+- (void)etail;
+- (id)Code;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsEmptySelection; // @synthesize allowsEmptySelection=_allowsEmptySelection;

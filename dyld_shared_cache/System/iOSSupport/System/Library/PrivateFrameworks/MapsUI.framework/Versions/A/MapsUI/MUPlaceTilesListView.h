@@ -22,10 +22,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)gnment;
+- (void)tTextExclusionPath;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

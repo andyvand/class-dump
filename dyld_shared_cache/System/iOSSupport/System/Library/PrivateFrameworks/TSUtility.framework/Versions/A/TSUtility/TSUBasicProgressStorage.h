@@ -11,12 +11,12 @@
     _Bool mIndeterminate;
 }
 
-- (double)qA;
-- (double)@;
 - (void);
+- (void);
+- (double);
 - (void);
 - (_Bool);
-- (void);
+- (double);
 
 // Remaining properties
 @property(getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=mIndeterminate;

@@ -26,11 +26,11 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
 - (void);
-- (id)hConfiguration:animator: /* Error: Ran out of types for this method. */;
-- (void)gin:(id)arg1;
+- (void);
+- (id);
+- (void)Ready;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUHomePodStereoSwapperCellDelegate> delegate; // @synthesize delegate=_delegate;

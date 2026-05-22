@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;

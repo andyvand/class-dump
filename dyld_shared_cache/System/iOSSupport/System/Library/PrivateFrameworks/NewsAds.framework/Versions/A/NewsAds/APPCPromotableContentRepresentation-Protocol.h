@@ -7,9 +7,6 @@
 @class APPCAdPolicyData, APPCTapAction, NSString, NSUUID;
 
 @protocol APPCPromotableContentRepresentation
-- (struct CGSize);
-- (long long)d: /* Error: Ran out of types for this method. */;
-- (NSUUID *)rror in remote proxy while pausing downloads:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) APPCAdPolicyData *adPolicyData;

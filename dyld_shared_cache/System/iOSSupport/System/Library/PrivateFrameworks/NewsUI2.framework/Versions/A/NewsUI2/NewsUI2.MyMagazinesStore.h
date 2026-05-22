@@ -28,10 +28,10 @@
 }
 
 - (void);
-- (void);
 - (void);
-- (void)QueuePlayerItem>"16@"NSError"24;
+- (void);
 - (id);
+- (void);
 
 @end
 

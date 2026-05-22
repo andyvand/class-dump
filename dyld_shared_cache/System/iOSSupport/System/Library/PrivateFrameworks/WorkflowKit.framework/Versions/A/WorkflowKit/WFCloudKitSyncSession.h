@@ -13,7 +13,7 @@
 + (void);
 + (void);
 + (_Bool);
-+ (_Bool)0%EÉ;
++ (_Bool);
 + (long long);
 + (_Bool);
 + (_Bool);
@@ -28,10 +28,10 @@
 + (long long);
 + (long long);
 + (void);
-+ (_Bool);
-+ (_Bool);
 + (void);
-+ (void)the end of the specified file.;
++ (_Bool);
++ (_Bool);
++ (void)pertyMetadataCt;
 
 @end
 

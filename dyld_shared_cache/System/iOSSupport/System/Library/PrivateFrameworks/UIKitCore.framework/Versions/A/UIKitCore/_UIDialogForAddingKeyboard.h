@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     UINavigationController *_privacySheetController;
 }
 
-+ (void)messages to process for availability reply from %ld messages to %ld messages.;
++ (void);
 - (void);
 - (void);
-- (void)B;
-- (void)Data;
+- (void)ns: /* Error: Ran out of types for this method. */;
+- (void)à¸\;
 
 @end
 

@@ -10,7 +10,7 @@
     _Bool _cacheVMDEnabled;
 }
 
-+ (id)En¸Hÿ]n¸Hÿn¸HÿUn¸ÿn¸;
++ (id)¿­y_@ÒSo17OS_dispatch_queueCG;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,7 +45,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool buttonRemoteControlEnabled;

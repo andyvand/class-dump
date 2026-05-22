@@ -4,10 +4,10 @@
 
 // Global C++ functions
 
-operator delete(void*);
-operator new(unsigned long, std::__type_descriptor_t);
-serializeDict(NSDictionary*, std::__1::vector<CESerializedElement, std::__1::allocator<CESerializedElement>>&);
-serializeId(objc_object*, std::__1::vector<CESerializedElement, std::__1::allocator<CESerializedElement>>&);
+auto serializeDict(NSDictionary*, std::__1::vector<CESerializedElement, std::__1::allocator<CESerializedElement>>&);
+auto serializeId(objc_object*, std::__1::vector<CESerializedElement, std::__1::allocator<CESerializedElement>>&);
 typeinfo for std::bad_array_new_length;
 typeinfo for std::length_error;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
 vtable for std::length_error;

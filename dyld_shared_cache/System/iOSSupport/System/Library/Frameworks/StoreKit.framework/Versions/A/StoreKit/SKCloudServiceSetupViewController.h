@@ -23,7 +23,7 @@
     SKCloudServiceSetupConfiguration *_configuration;
 }
 
-- (void)_;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,17 +45,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void)duplicate transaction update check.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SKCloudServiceSetupConfiguration *configuration; // @synthesize configuration=_configuration;

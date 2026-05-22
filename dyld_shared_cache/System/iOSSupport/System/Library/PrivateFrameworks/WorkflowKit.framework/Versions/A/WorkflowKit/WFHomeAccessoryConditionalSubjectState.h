@@ -41,17 +41,18 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (id)
+× ;
+- (long long)%{public}@;
+- (void)Text (Default Output Name);
+- (id)óW¹á;
+- (id);
 - (id);
-- (id);
-- (id)klist (twodoType);
-- (id)TextFind} with ${WFReplaceTextReplace} in ${WFInput};
-- (id)rom Image (Action Name);
-- (long long)is.workflow.actions.bluetooth.set;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *characteristic;

@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (void);
-- (id)mML6;
+- (id)\Lú­6;
 
 // Remaining properties
 @property(readonly, nonatomic) PXContentFilterState *currentContentFilterState;

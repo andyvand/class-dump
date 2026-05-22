@@ -14,13 +14,13 @@
 
 + (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)(=;
+- (id);
+- (id);
 - (void);
 - (id);
 - (float);
-- (id)!;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *color; // @synthesize color=_color;

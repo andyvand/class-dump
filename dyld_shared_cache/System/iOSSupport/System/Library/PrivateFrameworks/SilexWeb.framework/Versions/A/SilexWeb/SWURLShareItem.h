@@ -12,12 +12,11 @@
     NSURL *_url;
 }
 
-- (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (long long);
-- (id){>
-;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

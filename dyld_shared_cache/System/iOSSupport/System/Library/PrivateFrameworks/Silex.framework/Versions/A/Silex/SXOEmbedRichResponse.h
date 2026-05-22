@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)eometry;
 - (struct CGSize);
 
 // Remaining properties

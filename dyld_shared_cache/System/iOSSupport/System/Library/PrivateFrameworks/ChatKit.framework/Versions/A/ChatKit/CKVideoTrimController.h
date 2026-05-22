@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)createIfNeeded:(id)arg1;
-- (void)temSymbolFontPointSize:(id)arg1 systemSymbolScale: /* Error: Ran out of types for this method. */;
-- (id)ent",&,N,V_attachment;
+- (void);
+- (void);
 - (id);
 - (id);
-- (void)e wrapper;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)!;
-- (void);
+- (id);
+- (void);
+- (void)FiltrationForcedOn;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -30,8 +30,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)0#8;
 
 // Remaining properties
 @property(retain, nonatomic) HUHomeKitAccessorySettingsItemModule *accessorySettingsModule; // @synthesize accessorySettingsModule=_accessorySettingsModule;

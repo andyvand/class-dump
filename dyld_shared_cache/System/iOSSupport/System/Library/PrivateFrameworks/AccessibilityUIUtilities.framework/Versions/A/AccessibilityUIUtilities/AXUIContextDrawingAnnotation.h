@@ -15,11 +15,11 @@
 + (id);
 + (id);
 + (void);
-- (id)@@;
-- (void);
+- (id);
 - (id);
 - (id);
 - (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect boundingRect; // @synthesize boundingRect=_boundingRect;

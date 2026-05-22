@@ -7,7 +7,6 @@
 @class NSString, UIImage;
 
 @protocol SXActionActivity
-- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image;

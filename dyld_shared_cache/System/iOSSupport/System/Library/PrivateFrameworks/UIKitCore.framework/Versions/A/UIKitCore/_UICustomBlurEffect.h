@@ -12,38 +12,38 @@
 {
 }
 
-+ (id)FeatureIsOn;
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void)*;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (double);
 - (double);
-- (double)tring"36;
-- (double)tring"16@"NSString"24C32@"NSString"36;
-- (double)icate"16;
-- (_Bool)0C48@"NSString"52;
-- (double)24;
-- (id)@0:8@"NSDictionary"16B24 /* Error: Ran out of types for this method. */;
-- (double)24q32Q40@"NSString"48C56@"NSString"60@"NSAttributedString"68;
-- (double)MMessageItem"16@"IMMessageItem"24q32Q40@"NSString"48C56@"NSString"60@"NSAttributedString"68;
-- (double)sToggled;
+- (double);
+- (double);
+- (double);
+- (_Bool);
+- (double);
 - (id);
-- (void)00c][256c][256c]}16;
-- (void)alue:(double)arg1 forProperty: /* Error: Ran out of types for this method. */;
-- (double)imumPadding: /* Error: Ran out of types for this method. */;
-- (double)IFocusAnimationConfiguration;
-- (void)ä;
-- (void)®ª^;
-- (double)8);
+- (double);
+- (double);
+- (void);
+- (void);
+- (double);
+- (double)archController"24@0:8@"UINavigationItem"16 /* Error: Ran out of types for this method. */;
+- (double)ompositingFilterProvider: /* Error: Ran out of types for this method. */;
+- (id)tion: /* Error: Ran out of types for this method. */;
+- (void)4\`\Ð\;
+- (double)ete the temporary store dir %@, %@;
+- (void)isual style that does not support back buttons (button=%p, visual style=%@);
 
 // Remaining properties
 @property(nonatomic) double blurRadius;

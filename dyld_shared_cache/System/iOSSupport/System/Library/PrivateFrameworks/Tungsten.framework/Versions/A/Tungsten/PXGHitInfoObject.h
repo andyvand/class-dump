@@ -16,8 +16,8 @@
 
 - (id);
 - (CDStruct_d3cfe745 *);
-- (long long);
 - (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_d3cfe745 *hitInfo;

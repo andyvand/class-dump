@@ -7,9 +7,7 @@
 @class UIFont;
 
 @protocol CNAtomViewResembling
-- (_Bool);
-- (void)i;
-- (int)etHasDefaultContents: /* Error: Ran out of types for this method. */;
+- (int)7;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint baselinePoint;

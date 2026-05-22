@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
+@class UICollectionView;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (NSIndexPath *)±«	1b0@ù
-× ;
-- (_Bool);
-- (void)0@ù
-× ;
-- (_Bool)Ä´4;
-- (NSIndexPath *)qÎ_SþÿaÎ_ÄYþÿ;
+- (_Bool)rentOrientation             :(UICollectionView *)arg1 %ld
+;
 @end
 

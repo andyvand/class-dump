@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (id)lÁ³É;
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -29,7 +29,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool)plyPreset);
++ (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

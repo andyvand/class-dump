@@ -13,8 +13,8 @@
     MISSING_TYPE *countAndCapacity;
 }
 
+- (long long);
 - (id);
-- (long long)öÿÿÀ;
 
 @end
 

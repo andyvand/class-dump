@@ -6,12 +6,12 @@ class icu::ScientificNumberFormatter {
 public: // (access info unavailable from symbols alone)
     ScientificNumberFormatter(icu::DecimalFormat*, icu::ScientificNumberFormatter::Style*, UErrorCode&);
     ScientificNumberFormatter(icu::ScientificNumberFormatter const&);
-    createInstance(icu::DecimalFormat*, icu::ScientificNumberFormatter::Style*, UErrorCode&);
-    createMarkupInstance(icu::DecimalFormat*, icu::UnicodeString const&, icu::UnicodeString const&, UErrorCode&);
-    createMarkupInstance(icu::Locale const&, icu::UnicodeString const&, icu::UnicodeString const&, UErrorCode&);
-    createSuperscriptInstance(icu::DecimalFormat*, UErrorCode&);
-    createSuperscriptInstance(icu::Locale const&, UErrorCode&);
-    format(icu::Formattable const&, icu::UnicodeString&, UErrorCode&) const;
-    getPreExponent(icu::DecimalFormatSymbols const&, icu::UnicodeString&);
+    auto createInstance(icu::DecimalFormat*, icu::ScientificNumberFormatter::Style*, UErrorCode&);
+    auto createMarkupInstance(icu::DecimalFormat*, icu::UnicodeString const&, icu::UnicodeString const&, UErrorCode&);
+    auto createMarkupInstance(icu::Locale const&, icu::UnicodeString const&, icu::UnicodeString const&, UErrorCode&);
+    auto createSuperscriptInstance(icu::DecimalFormat*, UErrorCode&);
+    auto createSuperscriptInstance(icu::Locale const&, UErrorCode&);
+    auto format(icu::Formattable const&, icu::UnicodeString&, UErrorCode&) const;
+    auto getPreExponent(icu::DecimalFormatSymbols const&, icu::UnicodeString&);
     ~ScientificNumberFormatter();
 };

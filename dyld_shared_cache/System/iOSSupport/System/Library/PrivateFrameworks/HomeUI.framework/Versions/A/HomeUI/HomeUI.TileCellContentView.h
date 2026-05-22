@@ -21,14 +21,14 @@
 
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (struct CGSize);
-- (id)%ð! Eù.1b0@ù
+- (struct CGSize)
 × ;
+- (void)ortedAppleTV = %{BOOL}d, hasHH2SupportedHomePod = %{BOOL}d;
 
 // Remaining properties
 @property(nonatomic, readonly) HUBaseIconView *iconView; // @synthesize iconView;

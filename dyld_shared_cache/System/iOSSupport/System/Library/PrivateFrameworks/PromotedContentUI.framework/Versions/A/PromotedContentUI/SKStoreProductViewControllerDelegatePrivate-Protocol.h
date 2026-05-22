@@ -5,9 +5,5 @@
 //
 
 @protocol SKStoreProductViewControllerDelegatePrivate
-
-@optional
-- (void)s;
-- (void);
 @end
 

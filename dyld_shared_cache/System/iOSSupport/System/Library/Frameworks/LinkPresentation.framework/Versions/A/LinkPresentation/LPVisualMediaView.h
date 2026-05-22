@@ -48,7 +48,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void)R ;
+- (void);
 - (void);
 - (double);
 - (void);
@@ -57,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -68,11 +68,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)@;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -81,40 +81,40 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool)=I(;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)lationIndicatorButtonFont;
-- (_Bool)esWithDuration:delay:options:animations:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (double);
-- (void);
-- (void);
 - (void);
 - (struct CGSize);
-- (_Bool)r;
-- (_Bool)è;
-- (_Bool)ô;
-- (id);
+- (id);
+- (void);
+- (id);
+- (unsigned int);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (double);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)3557;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

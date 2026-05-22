@@ -76,6 +76,7 @@
 - (id);
 - (unsigned short);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -87,17 +88,17 @@
 - (id);
 - (unsigned short);
 - (void);
-- (void);
-- (_Bool);
-- (double);
+- (id);
 - (id);
 - (id);
 - (void);
 - (unsigned char);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
+- (double);
 - (void);
 
 // Remaining properties

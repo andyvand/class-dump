@@ -16,11 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (long long)1b0@ù
-× ;
-- (long long)8@16{CGSize=dd}24;
+- (long long)tivityItemSourceController>"16;
+- (id)tosUICore33PhotosCollectionPreviewRepository;
+- (long long)%çÇ\ªfÿ;
+- (void)¼Wÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;

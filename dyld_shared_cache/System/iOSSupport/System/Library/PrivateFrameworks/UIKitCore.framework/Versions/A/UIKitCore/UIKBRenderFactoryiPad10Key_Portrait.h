@@ -11,28 +11,29 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)timeStamp:storageContext: /* Error: Ran out of types for this method. */;
-- (id)sDidChange: /* Error: Ran out of types for this method. */;
-- (void)apturedErrorWithAutoBugCapture;
-- (struct CGPoint)ottled;
-- (struct CGPoint)sMoreWork;
-- (double)ByLowPowerMode;
+- (struct UIEdgeInsets);
+- (id);
+- (void);
+- (struct CGPoint);
+- (struct CGPoint);
+- (double);
 - (id);
 - (id);
-- (id)s_S2st;
+- (id);
 - (struct CGPoint);
 - (unsigned long long);
 - (struct CGPoint);
-- (double)ofile info:%@ /* Error: Ran out of types for this method. */;
-- (id)t with record ID %@ modification date %@ since it is before %@;
-- (struct CGPoint)token back so resetting local sync state, and fetching the recoverable messages again %@;
-- (id)rom result:(id)arg1 <%@ %p>, ;
-- (void);
-- (struct CGPoint);
 - (double);
-- (struct UIEdgeInsets)³e;
-- (id)ÿ«MÕÐGf;
-- (long long)h;
+- (id);
+- (struct CGPoint);
+- (id);
+- (void);
+- (struct CGPoint);
+- (double);
+- (struct UIEdgeInsets);
+- (id)Qe1Â0@ù
+× ;
+- (long long);
 
 @end
 

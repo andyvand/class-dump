@@ -14,14 +14,14 @@
 - (struct _NSRange);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)9;
+- (unsigned long long);
 - (struct _NSRange);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)cumentContext_Moving;
 
 @end
 

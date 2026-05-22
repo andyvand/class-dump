@@ -4,8 +4,8 @@
 
 class SafariShared::JSUtilities {
 public: // (access info unavailable from symbols alone)
-    callJSMethodWithArguments(OpaqueJSContext const*, OpaqueJSValue*, char const*, OpaqueJSValue const* const*, unsigned long);
-    globalJSObjectByName(OpaqueJSContext const*, char const*);
-    translateJSValueToNS(OpaqueJSContext const*, OpaqueJSValue const*);
-    translateNSToJSValue(OpaqueJSContext const*, objc_object*);
+    auto callJSMethodWithArguments(OpaqueJSContext const*, OpaqueJSValue*, char const*, OpaqueJSValue const* const*, unsigned long);
+    auto globalJSObjectByName(OpaqueJSContext const*, char const*);
+    auto translateJSValueToNS(OpaqueJSContext const*, OpaqueJSValue const*);
+    auto translateNSToJSValue(OpaqueJSContext const*, objc_object*);
 };

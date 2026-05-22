@@ -13,8 +13,8 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)iew(for:navigationController:dismiss:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, copy) NSSet *hf_accessoryLikeObjects;

@@ -8,10 +8,10 @@
 
 @interface (null) (UIDocumentPicker)
 + (id);
-+ (id);
 + (id);
-+ (id)z chat through legacy path (guid:(id)arg1 %@);
-+ (id)n handling push:(id)arg1 %@;
++ (id);
++ (id);
++ (id);
 + (void);
 + (_Bool);
 + (id);
@@ -22,31 +22,31 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool)I;
-- (id)=;
+- (_Bool);
 - (id);
 - (id);
-- (id)ally bad!!;
-- (id)a radar-------*/;
-- (_Bool)is enrollment payload;
-- (_Bool)dictionary to the kSMSDefaultsAllowedKey;
-- (_Bool)p attachment asset at %@;
-- (_Bool)IMFamilySenderMessageProcessingPipelineComponent> Started processing;
-- (_Bool)rable message part record;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id)@"NSError">56;
 - (id);
-- (void);
+- (id);
+- (void)ezeAction;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setTitle:) NSString *_title;

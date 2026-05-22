@@ -15,16 +15,17 @@ __attribute__((visibility("hidden")))
     SEL _action;
 }
 
-- (_Bool)alData;
-- (void)d to add signature oid;
-- (id);
-- (id);
+- (_Bool);
 - (void);
+- (id);
+- (void)1YÐ1Â0@ù
+× ;
+- (void)sGesture;
+- (CDUnknownBlockType)ntDidChange:fromContent: /* Error: Ran out of types for this method. */;
+- (id)bleMirroring;
+- (SEL)phaThresholdD;
+- (void)ll, _UIDragLiftEvent);
 - (void);
-- (void)v32@?0@"UILexiconEntry"8Q16^B24;
-- (void)istItem"8Q16^B24;
-- (SEL)ForTruncation;
-- (CDUnknownBlockType)Springs;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

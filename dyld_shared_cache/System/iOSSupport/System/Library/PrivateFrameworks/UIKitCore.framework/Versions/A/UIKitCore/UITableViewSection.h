@@ -16,19 +16,19 @@
 }
 
 + (id);
-- (id)ceAccountIDFrom: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)or";
-- (id);
 - (void);
-- (id)rBehavior;
-- (void):(id)arg1 {%u, %u};
+- (void)onItemStyle:(id)arg1;
+- (id)ectionProvider;
 - (void);
-- (id)ÈYg;
+- (void)üF ÿívÐ®a;
+- (id)°;
+- (id)è¦;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *footerTitle; // @synthesize footerTitle=_footerTitle;

@@ -13,8 +13,8 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (id);
+- (void)$é®ÿ;
 
 @end
 

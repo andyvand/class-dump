@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)Ä;
++ (id);
 
 // Remaining properties
 @property long long confirmationStatus; // @dynamic confirmationStatus;

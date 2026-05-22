@@ -64,18 +64,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)«°myl¬Ö0e;
+- (id);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)aüÐ!¤FùñI°1â
+0@ù
+× ;
+- (void);
+- (void)tsForAlbumIncludeCurrentUser(PLCloudSharedAlbum *__strong, BOOL);
+- (void)esent failure alert controller;
 - (long long);
-- (id);
-- (void)uttonActivate: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)=úÿè;
-- (void)tManager.swift;
-- (void)ÿ´#6ÿ;
 
 // Remaining properties
 @property(nonatomic, getter=_isAnimatingGeometry, setter=_setAnimatingGeometry:) _Bool _animatingGeometry; // @synthesize _animatingGeometry=__animatingGeometry;

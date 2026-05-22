@@ -16,12 +16,13 @@
 - (double);
 - (id);
 - (_Bool);
-- (_Bool);
+- (id);
 - (id);
 - (double);
+- (_Bool);
 - (id);
-- (id);
-- (double)ëÿ¾ÖUù;
+- (double)P³öÿQ
+%¯;
 
 // Remaining properties
 @property(readonly, nonatomic) double depth; // @synthesize depth=mDepth;

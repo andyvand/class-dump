@@ -5,6 +5,6 @@
 class GLDTransformFeedbackMachine {
 public: // (access info unavailable from symbols alone)
     GLDTransformFeedbackMachine();
-    beginQuery(GLDQueryRec*);
-    incrementPrimitiveCount(GLDContextRec*, int, unsigned int, int);
+    auto beginQuery(GLDQueryRec*);
+    auto incrementPrimitiveCount(GLDContextRec*, int, unsigned int, int);
 };

@@ -8,8 +8,8 @@
 {
 }
 
-- (id)ageResourceIDs;
-- (id)alizationBundlePath;
+- (id);
+- (id);
 
 @end
 

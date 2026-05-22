@@ -38,8 +38,8 @@
 - (void);
 - (id);
 - (CDStruct_8e0628e6);
-- (void);
 - (id);
+- (void)kDragBehavior;
 
 // Remaining properties
 @property(nonatomic) CDStruct_8e0628e6 assetMetadataTransform; // @synthesize assetMetadataTransform;

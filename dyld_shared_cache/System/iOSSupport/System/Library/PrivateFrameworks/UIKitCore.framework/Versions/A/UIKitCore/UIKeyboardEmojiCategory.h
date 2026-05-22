@@ -16,33 +16,36 @@
     NSString *_displaySymbol;
 }
 
-+ (void)essage to local account (identifier %@)  (error %@)  (request %@) success:(_Bool)arg1 %@;
-+ (id)PhotoOrWallpaperUpdate:%{BOOL}d Current nickname dict:%@. /* Error: Ran out of types for this method. */;
-+ (_Bool)for:%@ and received error:%@ /* Error: Ran out of types for this method. */;
-+ (unsigned long long)icker> Missing IMFileTransfer;
-+ (id)notice:(long long)arg1 %@, notify:%{BOOL}d /* Error: Ran out of types for this method. */;
-+ (id)or account:%@ /* Error: Ran out of types for this method. */;
-+ (id)No account found for account ID:%@ /* Error: Ran out of types for this method. */;
-+ (long long)Service wants new accounts active, setting active:(id)arg1 %@;
-+ (id)%@;
++ (void);
++ (id);
 + (_Bool);
-+ (id)phoneNumbersOfActiveSubscriptions;
-+ (long long)Engram;
-+ (unsigned long long)neCreateDate-%@;
-+ (id)each time;
-+ (id)A;
++ (unsigned long long);
 + (id);
 + (id);
-+ (id)2@80;
-+ (id)MPMediaLibraryDataProviderMacOS setValue:(long long)arg1 forDatabaseProperty:] /* Error: Ran out of types for this method. */;
-+ (long long)n;
-+ (id)PÇmÿ÷Òfm;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)ageDate:(id)arg1;
-- (void)eplayDB;
++ (id);
++ (long long);
++ (id);
++ (_Bool);
++ (id);
++ (long long);
++ (unsigned long long);
++ (id);
++ (id);
++ (id);
++ (id);
++ (long long)0@ù
+× ;
++ (id)nputMode:userInitiated: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)÷ÿìÊtp;
+- (id);
 - (void);
-- (long long)Unavailable;
-- (id);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -50,10 +53,7 @@
 - (void);
 - (long long);
 - (void);
-- (void)Ao!´@ùÁ°1¢!0@ù
-× ;
-- (id){__CFRunLoopTimer=}16d24;
-- (void)êíÇoãl;
+- (void)xGf;
 
 // Remaining properties
 @property long long categoryType; // @synthesize categoryType=_categoryType;

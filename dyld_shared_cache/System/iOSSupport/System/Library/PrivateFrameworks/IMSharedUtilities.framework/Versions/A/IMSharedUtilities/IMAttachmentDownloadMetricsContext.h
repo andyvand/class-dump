@@ -24,9 +24,9 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;

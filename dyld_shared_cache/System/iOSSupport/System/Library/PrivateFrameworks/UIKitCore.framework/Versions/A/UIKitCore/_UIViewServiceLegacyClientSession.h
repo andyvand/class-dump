@@ -20,20 +20,21 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (void)wýj;
-- (void);
-- (void)ta->minimalSealingDataInstances;
++ (void)(whÿ/0Üørn;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)pletion:(CDUnknownBlockType)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void)ble;
-- (void)NG_MISSING__;
-- (id)ThumbnailAdditionClass(void)_block_invoke;
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)0@ù
+× ;
+- (id)e:minimum:maximum:animated: /* Error: Ran out of types for this method. */;
+- (void)hard crash in a future release;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

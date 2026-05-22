@@ -13,7 +13,7 @@
 - (id);
 - (double);
 - (double);
-- (double)lips without display assets.;
+- (double);
 
 @end
 

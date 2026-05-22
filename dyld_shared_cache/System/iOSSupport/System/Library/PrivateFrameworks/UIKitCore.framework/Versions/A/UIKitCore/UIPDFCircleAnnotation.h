@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)fProperty:(struct CGContext *)arg1 ofPerson:(struct CGRect)arg2 account: /* Error: Ran out of types for this method. */;
+- (void);
 - (int);
 
 @end

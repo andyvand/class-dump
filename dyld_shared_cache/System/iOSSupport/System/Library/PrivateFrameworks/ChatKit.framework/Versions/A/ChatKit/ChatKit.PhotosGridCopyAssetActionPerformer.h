@@ -11,9 +11,9 @@
 + (id);
 + (id);
 + (_Bool);
-- (void)le:(unsigned long long)arg1 YES].count %lu;
-- (unsigned long long)ntion %@;
-- (void);
+- (void);
+- (unsigned long long);
+- (void);
 - (id);
 
 // Remaining properties

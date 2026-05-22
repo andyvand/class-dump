@@ -4,12 +4,12 @@
 
 class icu::PatternProps {
 public: // (access info unavailable from symbols alone)
-    isIdentifier(char16_t const*, int);
-    isSyntax(int);
-    isSyntaxOrWhiteSpace(int);
-    isWhiteSpace(int);
-    skipIdentifier(char16_t const*, int);
-    skipWhiteSpace(char16_t const*, int);
-    skipWhiteSpace(icu::UnicodeString const&, int);
-    trimWhiteSpace(char16_t const*, int&);
+    auto isIdentifier(char16_t const*, int);
+    auto isSyntax(int);
+    auto isSyntaxOrWhiteSpace(int);
+    auto isWhiteSpace(int);
+    auto skipIdentifier(char16_t const*, int);
+    auto skipWhiteSpace(char16_t const*, int);
+    auto skipWhiteSpace(icu::UnicodeString const&, int);
+    auto trimWhiteSpace(char16_t const*, int&);
 };

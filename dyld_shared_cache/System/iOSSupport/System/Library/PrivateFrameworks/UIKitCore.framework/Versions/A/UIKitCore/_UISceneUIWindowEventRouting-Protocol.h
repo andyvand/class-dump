@@ -8,9 +8,6 @@
 @protocol _UISceneUIWindowEventRouting;
 
 @protocol _UISceneUIWindowEventRouting
-+ (_Bool)R";
-- (UIScene<_UISceneUIWindowEventRouting> *);
-- (_Bool)xt:completionBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _allowsEventUIWindowRouting;

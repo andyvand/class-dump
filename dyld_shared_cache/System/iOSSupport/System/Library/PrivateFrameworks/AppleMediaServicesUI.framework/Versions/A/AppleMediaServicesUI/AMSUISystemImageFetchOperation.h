@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void)Index;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;

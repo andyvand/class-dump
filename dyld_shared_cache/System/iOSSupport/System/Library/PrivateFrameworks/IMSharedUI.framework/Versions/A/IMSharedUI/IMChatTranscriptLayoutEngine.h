@@ -19,6 +19,7 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (double);
 - (unsigned long long);
 - (void);
@@ -27,21 +28,21 @@
 - (void);
 - (id);
 - (void);
-- (void)rruption:declared chunks < expected chunks /* Error: Ran out of types for this method. */;
 - (id);
-- (void)<WebCore:(id)arg1:NetworkStorageSession>] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (id)(;
-- (id);
+- (id)
+× ;
+- (void)cel;
 
 // Remaining properties
 @property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;

@@ -18,8 +18,8 @@
 
 + (id);
 + (id);
-+ (_Bool)iceConfigurationStateUnknown;
-+ (id)ðÿKèc;
++ (id);
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *characteristic; // @synthesize characteristic=_characteristic;

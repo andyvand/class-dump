@@ -25,16 +25,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id)lSettingsObserver;
-- (void)all other issues, verify that Photos Diagnostics are being captured for this Radar.
-
-;
-- (long long)k;
 - (struct CGSize);
-- (void);
+- (void);
+- (id)ontext";
+- (id),N,V_styleManager;
+- (long long)¨"ÿ;
+- (void)æûHø3;
+- (_Bool)ÿµL8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

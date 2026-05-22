@@ -19,15 +19,15 @@
 - (void);
 - (id);
 - (id);
-- (id)«°myl¬Ö0%EÉ;
-- (id)l«xï?m¬Ö0%EÉ;
 - (id);
-- (id);
-- (id)Ì;
-- (id)%EÉ;
-- (id)0%EÉ;
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)How many calories did you burn? (WFWorkoutCaloriesQuantity);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *accessResourceIdentifiersByContentDestination; // @synthesize accessResourceIdentifiersByContentDestination=_accessResourceIdentifiersByContentDestination;

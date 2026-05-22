@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ingFocusMovementAction;
-- (void)H,	LÔ;
+- (void);
+- (void)ht;
 
 @end
 

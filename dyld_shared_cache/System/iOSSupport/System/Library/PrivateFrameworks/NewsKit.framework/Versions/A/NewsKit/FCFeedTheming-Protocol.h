@@ -7,6 +7,9 @@
 @class FCAssetHandle, FCColor, FCColorGradient, FCContentColorMap, FCHeadlineTemplate, FCTagBanner, FCTextInfo, NSArray, NSString;
 
 @protocol FCFeedTheming
+- (FCTextInfo *)exceptForFlusher: /* Error: Ran out of types for this method. */;
+- (double)4
+¤ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) FCColor *adBackgroundColor;

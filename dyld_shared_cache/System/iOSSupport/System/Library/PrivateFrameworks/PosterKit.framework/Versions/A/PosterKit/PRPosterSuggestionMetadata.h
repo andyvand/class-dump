@@ -13,17 +13,17 @@
     NSDate *_lastModifiedDate;
 }
 
-+ (_Bool)fier: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (Class);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (void);
-- (Class);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);

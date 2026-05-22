@@ -4,12 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandRequest;
-
 @protocol MPCSleepTimerCommand
-- (MPCPlayerCommandRequest *)acon:completion: /* Error: Ran out of types for this method. */;
-- (MPCPlayerCommandRequest *):(double)arg1 8;
-- (double)P;
+- (void)Rate:(double)arg1;
 
 // Remaining properties
 @property(nonatomic) double fireDate;

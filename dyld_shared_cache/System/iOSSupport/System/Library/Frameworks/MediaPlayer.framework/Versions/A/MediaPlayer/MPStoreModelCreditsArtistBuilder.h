@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
     } _requestedCreditsArtistProperties;
 }
 
-+ (id)e:domain:listenerEndpoint:localComputePublisher: /* Error: Ran out of types for this method. */;
-- (id)System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/ContextKit;
++ (id);
+- (id);
 
 @end
 

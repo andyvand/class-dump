@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 
 + (double);
 + (_Bool);
-+ (double);
 + (id);
++ (double)Failed to load syndication ID for asset delete;
 - (void);
 - (id);
-- (void);
-- (id);
 - (void);
 - (void);
+- (id)ithStyle:(long long)arg1;
+- (void)è;
 
 // Remaining properties
 @property(retain, nonatomic) UISwitch *controlSwitch; // @synthesize controlSwitch=_controlSwitch;

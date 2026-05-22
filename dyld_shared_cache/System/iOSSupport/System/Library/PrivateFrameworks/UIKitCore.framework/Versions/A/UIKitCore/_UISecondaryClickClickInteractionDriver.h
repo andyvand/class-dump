@@ -19,41 +19,39 @@ __attribute__((visibility("hidden")))
     _UISecondaryClickDriverGestureRecognizer *_gestureRecognizer;
 }
 
-+ (_Bool);
-+ (_Bool);
-- (double);
-- (void)omeLocal;
-- (_Bool);
-- (_Bool)shuffledHead;
-- (unsigned long long)gible,V_donatingAppEligible;
++ (_Bool)!èBùQ^1Â0@ù
+× ;
++ (_Bool)ple.UIKit.UIButtonBar.UIButton;
+- (void);
+- (unsigned long long);
 - (double);
 - (id);
+- (struct CGPoint);
 - (void);
+- (id);
 - (void);
-- (id)1¢!0@ù
+- (void)A°!pDù±bð1Â0@ù
 × ;
-- (unsigned long long)ao°!GùÑÁ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (_Bool)ÄÐ1¢!0@ù
-× ;
-- (_Bool)moteKeyboardChanged: /* Error: Ran out of types for this method. */;
-- (void)kgroundConstraints;
-- (id)ouldRoundCalculations;
 - (_Bool);
-- (struct CGPoint)ctionary;
-- (void)gTabBarPlaceholderCell;
-- (void)@; effectively authentic:(id)arg1 %@;
-- (void)ntary views must be retrieved by calling dequeueConfiguredReusableSupplementaryViewWithRegistration:(id)arg1 forIndexPath:or -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:. Collection view:%@; element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
-- (void)vwüÿ¸þÿvwüÿ;
-- (id)UIContentUnavailableTextPropertiesCG;
-- (void)password protected.;
-- (_Bool)rY(const _UIBoundingPathBitmapDataRoundRect, const NSInteger);
-- (double)oller.m;
-- (id)s;
-- (_Bool)4;
-- (_Bool)1´4héiþ!´4;
+- (void)te:(id)arg1;
+- (void)itionAdjustmentsFromCoder:(double)arg1 prefix: /* Error: Ran out of types for this method. */;
+- (_Bool)ible;
+- (id)d,N,V_audioScaleAnimationResponse;
+- (void)tributedString",&,N,V_pasteResult;
+- (_Bool)assStyle;
+- (double)Ü ;
+- (void)ewController;
+- (void)ÈÁþ;
+- (void);
+- (_Bool);
+- (_Bool)Config;
+- (double)è23´]£þ;
+- (id);
+- (unsigned long long)nsKey;
+- (id)²R0í¯43P;
+- (_Bool);
+- (_Bool);
+- (_Bool)^;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;

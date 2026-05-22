@@ -19,8 +19,8 @@
     MISSING_TYPE *voicemailsById;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

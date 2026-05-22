@@ -18,37 +18,38 @@
     PRPosterRenderingConfiguration *_preferredRenderingConfiguration;
 }
 
-- (double);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (long long);
-- (void);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (double);
 - (void);
-- (id)View;
+- (void);
+- (id);
+- (void)
+× ;
+- (void)yAction:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) long long ambientSupportedDataLayout; // @synthesize ambientSupportedDataLayout=_ambientSupportedDataLayout;

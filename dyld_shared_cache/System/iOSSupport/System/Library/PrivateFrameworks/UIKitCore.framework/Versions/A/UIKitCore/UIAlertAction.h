@@ -30,7 +30,7 @@
     id <_UIAlertActionViewRepresentation> __representer;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -39,7 +39,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)eCommand;
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -56,7 +56,7 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -65,22 +65,21 @@
 - (id);
 - (id);
 - (id);
+- (long long);
+- (void);
 - (id);
-- (void)letionBlock:(id)arg1;
+- (void);
 - (id);
-- (void)Áp!`@ùÃ°1¢!0@ù
+- (id)0@ù
 × ;
-- (id)
-× ;
-- (void)berTrackView"16@"NSNumber"24B32;
-- (long long)arPalette"32;
-- (void)R,N,V_previewViewController;
-- (id)eaCornerInsetResolver: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)¶Ã[;
-- (void)<Péÿ³<Ö­äg;
-- (CDUnknownBlockType)ÿi;
-- (_Bool)Çn;
+- (_Bool);
+- (void)16@?32;
+- (void)ID;
+- (void)eyInput>",R,N,V_responder;
+- (CDUnknownBlockType)4YðZ	[è[D\ \;
+- (id)Ú;
+- (id)ÈÛÅÿ:CS /* Error: Ran out of types for this method. */;
+- (void)*4Ô¯Kk;
 
 // Remaining properties
 @property(nonatomic, setter=_setAlertController:) UIAlertController *_alertController; // @synthesize _alertController=__alertController;

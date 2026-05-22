@@ -20,12 +20,12 @@
     MTKView *_mtkView;
 }
 
-- (void)<÷z;
-- (void)y;
-- (id);
-- (_Bool)|;
-- (void)ÂÂz;
-- (id)ò;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -44,20 +44,24 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (double);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (void);
 - (int);
 - (id);
-- (id);
 - (void);
 - (long long);
 - (void);
-- (void)elText:(id)arg1;
-- (id)ÿÿ;
+- (void)äDùñ3°1â
+0@ù
+× ;
+- (void)â
+0@ù
+× ;
+- (id);
+- (_Bool)tAxis: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool createdMTKView; // @synthesize createdMTKView=_createdMTKView;

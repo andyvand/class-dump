@@ -17,29 +17,30 @@
     UIColor *_color;
 }
 
-+ (id)iceURIs:(id)arg1 %@;
-+ (id)ving up;
-+ (id)ng devices for both nickname services, giving up;
 + (id);
 + (id);
-- (id)r session:%@ /* Error: Ran out of types for this method. */;
-- (void)ATH FOR ENCODED ITEM>;
-- (void);
++ (id);
++ (id);
++ (id);
 - (id);
 - (void);
-- (id);
-- (void)!lCùqÀð1¢!0@ù
+- (long long);
+- (void);
+- (id)ù
 × ;
-- (id);
-- (void)1¢!0@ù
+- (void)A
+ð!ÄAùÑf°1Â0@ù
 × ;
-- (long long)24;
-- (void)onIdentifier:(id)arg1;
-- (id)edbackSwipeActionStatesBehaviorConfiguration;
-- (id):%@; Swipe occurrence:%@ /* Error: Ran out of types for this method. */;
-- (void)tMenus;
-- (void)ô{;ÿ;
-- (CDUnknownBlockType)ÿÍÚ2çc;
+- (void)ion:(CDUnknownBlockType)arg1;
+- (void)AttributedHint:(id)arg1;
+- (void)afeArea;
+- (CDUnknownBlockType)ngLoadedInteractions;
+- (id)daptiveTransitionContext,S_setAdaptiveTransitionContext:(struct _NSZone *)arg1 ,V_adaptiveTransitionContext;
+- (id);
+- (void):(id)arg1 %p presses:%@> /* Error: Ran out of types for this method. */;
+- (id)h;
+- (void)QØXd;
+- (id)Àäe;
 
 // Remaining properties
 @property(copy, nonatomic, getter=_subitems, setter=_setSubitems:) NSArray *_subitems; // @synthesize _subitems=__subitems;

@@ -4,46 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MFQueuePlayerItem, MFTimeStamp;
-
 @protocol MFPlaybackStackControllerDelegate
-- (void);
-- (void)ountStore"28@"ACAccount"36;
-- (void)@"ACAccount"16@"ACDAccountStore"24;
-- (void)6i24@28@36;
-- (void)ueue;
-- (void)ime:(long long)arg1 %llums);
-- (void);
-- (void)ateFrameworks/AccountsDaemon.framework/Versions/A/AccountsDaemon;
-- (void)geinfo__DATA_CONST;
-- (void)objc_protolist__DATA_CONST;
-- (void)ifyCredentialsForAccount:(id <MFQueuePlayerItem>)arg1 accountStore:(id <MFTimeStamp>)arg2 completion: /* Error: Ran out of types for this method. */;
-- (void)s:(id <MFQueuePlayerItem>)arg1;
-- (void)oSelector:(id <MFQueuePlayerItem>)arg1;
-- (void)DForAccount:(id <MFQueuePlayerItem>)arg1;
-- (void)letion:(id <MFQueuePlayerItem>)arg1;
-- (void)ct:(id <MFQueuePlayerItem>)arg1;
-- (void)Selector:(id <MFQueuePlayerItem>)arg1;
-- (void)ccount"16i24@"ACDAccountStore"28@"ACAccount"36;
-- (void)eratingWithState:(long long)arg1 objects:count: /* Error: Ran out of types for this method. */;
-- (void)ions:(NSString *)arg1;
-- (void)re:(NSString *)arg1;
-- (void)ChangeTypeSaveFailed;
-- (void)jc_classname__TEXT;
-- (void)@"ACDAccountStore"28@"ACAccount"36;
-- (void)ount:(long long)arg1 inStore:(long long)arg2 error:(id <MFTimeStamp>)arg3;
-- (void)t, skipping update.;
-- (void)not updating SOSCCSetCompatibilityMode;
-- (void)NotificationPlugin_OSX  PROJECT:(id <MFQueuePlayerItem>)arg1 CoreCDP-1
-;
-- (void)CONST;
-- (void)EXT;
-- (void)OfRelevantDataclassesChanged;
-- (void)conformsToProtocol:(NSString *)arg1;
-- (void)0:(id <MFQueuePlayerItem>)arg1 8@16@24@32;
-- (void)8;
-- (void)Account missing username/password;
-- (void)F;
 @end
 

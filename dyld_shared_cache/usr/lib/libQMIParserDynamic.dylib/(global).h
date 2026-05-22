@@ -4,25 +4,21 @@
 
 // Global C++ functions
 
-(anonymous namespace)::AlwaysZeroRandomMessageContext::generateBytes(void*, unsigned long);
-(anonymous namespace)::AlwaysZeroRandomMessageContext::generateLength(unsigned long);
-(anonymous namespace)::AlwaysZeroRandomMessageContext::generateUnsigned(unsigned int);
-(anonymous namespace)::AlwaysZeroRandomMessageContext::~AlwaysZeroRandomMessageContext();
-(anonymous namespace)::Len1RandomMessageContext::generateLength(unsigned long);
-(anonymous namespace)::Len1RandomMessageContext::~Len1RandomMessageContext();
-(anonymous namespace)::LinearRandomMessageContext::generateBytes(void*, unsigned long);
-(anonymous namespace)::LinearRandomMessageContext::generateLength(unsigned long);
-(anonymous namespace)::LinearRandomMessageContext::generateUnsigned(unsigned int);
-(anonymous namespace)::LinearRandomMessageContext::~LinearRandomMessageContext();
 VTT for std::__1::basic_ostringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
 VTT for std::__1::basic_stringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
-defaultParsingHandler(unsigned short, unsigned short, unsigned char const*, unsigned long);
-defaultWriteHandler(unsigned short, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>&, long);
-operator delete(void*);
-operator delete(void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
+auto defaultParsingHandler(unsigned short, unsigned short, unsigned char const*, unsigned long);
+auto defaultWriteHandler(unsigned short, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>&, long);
 qmi::MessageBase::sParsingErrorHandler;
 qmi::MutableMessageBase::sWriteErrorHandler;
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(bool);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(int);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(long);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(short);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(unsigned int);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(unsigned long long);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(unsigned long);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(unsigned short);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(void const*);
 std::__1::ctype<char>::id;
 typeinfo for (anonymous namespace)::AlwaysZeroRandomMessageContext;
 typeinfo for (anonymous namespace)::Len1RandomMessageContext;
@@ -48,6 +44,9 @@ typeinfo name for std::__1::__shared_ptr_emplace<qmi::SerializedMessage, std::__
 typeinfo name for std::__1::__shared_ptr_emplace<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>, std::__1::allocator<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>>>;
 typeinfo name for tlv_parsing_exception;
 typeinfo name for tlv_write_exception;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
+void operator delete(void*, std::__type_descriptor_t);
 vtable for (anonymous namespace)::AlwaysZeroRandomMessageContext;
 vtable for (anonymous namespace)::Len1RandomMessageContext;
 vtable for (anonymous namespace)::LinearRandomMessageContext;

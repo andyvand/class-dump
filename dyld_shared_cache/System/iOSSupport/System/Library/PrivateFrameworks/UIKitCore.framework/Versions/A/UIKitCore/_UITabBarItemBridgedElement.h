@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UITabBarItem *_tabBarItem;
 }
 
-- (id)ng type %@;
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -27,24 +27,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id)ange: /* Error: Ran out of types for this method. */;
-- (id)nitWithIndex: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (id)ataByteSize <= mBufferCapacity;
-- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id)xtendingSelectionAtIndexPath:keepingSelection: /* Error: Ran out of types for this method. */;
+- (id)%@;
+- (id)d.;
+- (id));
 - (void);
-- (id)¡n°!äAùÑÀ1¢!0@ù
-× ;
-- (id)
-× ;
-- (id)0@ù
-× ;
-- (id)gentCbrtSpeed: /* Error: Ran out of types for this method. */;
-- (_Bool)apticEngine:%@ /* Error: Ran out of types for this method. */;
-- (id)<þÿ;
-- (id)mentPreferenceEnumerationContext *__strong, void (^__strong)(__strong id<_UIFocusEnvironmentPreferenceEnumerationContext>, _UIFocusEnvironmentPreferenceEnumerationResult *), _UIFocusEnvironmentPreferenceEnumerationResult *);
-- (_Bool)xÝZ;
-- (_Bool)¦IÍÀ\;
+- (_Bool)táþ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

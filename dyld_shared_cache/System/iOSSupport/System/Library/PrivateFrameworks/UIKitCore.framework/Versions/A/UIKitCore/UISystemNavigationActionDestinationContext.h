@@ -14,24 +14,24 @@
     NSString *_sceneIdentifier;
 }
 
-+ (id)ications;
 + (id);
-+ (id);
-+ (id)ateKey:(id)arg1;
-- (id);
++ (id)Ô¡°!èBùñ]1Â0@ù
+× ;
++ (id)yModeForToolbar:(id)arg1;
++ (id);
 - (void);
 - (void);
-- (id)ár°!@ùqÆ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)BKSAnimationFenceHandle"32;
-- (void)56@0:(id)arg1 8@"UITableView"16@"<UIDragSession>"24@"NSIndexPath"32{CGPoint=dd}40;
-- (id)me: /* Error: Ran out of types for this method. */;
-- (void)dEvent:(id)arg1;
 - (id);
-- (id)ä*];
-- (void)ì©ÕÿgüÐMg;
+- (id)±[°1Â0@ù
+× ;
+- (id)@32@40;
+- (void)tRect:(id)arg1 inView:arrowDirections:slideDuration:expandDuration: /* Error: Ran out of types for this method. */;
+- (void),G_isDefaultSystemInteraction,V__defaultSystemInteraction;
+- (void);
+- (id)ntView+TransitionContainer.swift;
+- (id)gXw;
+- (id)(/^;
+- (void)À¸ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

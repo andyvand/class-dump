@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)"UITextRange"16;
-- (void)ading suggestion to Invalid. suggestionID = %@;
-- (void);
-- (void)23FBSDisplayConfigurationCSg;
-- (_Bool)romState. State (@lu) is out of range for the initialized stateCount (%lu);
-- (void)cusItem;
-- (void)ation;
-- (void)storage;
-- (void)o\;
 - (id);
+- (id)ntIsUIImage;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)±Ë+];
+- (void)¨hÜ\Ï\;
+- (void)×þ&G;
+- (void)8ÿ7ÕÀó];
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *backgroundView;

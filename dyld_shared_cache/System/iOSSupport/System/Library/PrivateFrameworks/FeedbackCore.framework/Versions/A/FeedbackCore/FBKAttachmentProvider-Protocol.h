@@ -7,6 +7,6 @@
 @class NSSet;
 
 @protocol FBKAttachmentProvider
-- (NSSet *)¨	;
+- (NSSet *)s;
 @end
 

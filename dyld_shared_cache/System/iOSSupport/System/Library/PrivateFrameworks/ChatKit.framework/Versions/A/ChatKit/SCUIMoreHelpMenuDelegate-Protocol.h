@@ -5,10 +5,5 @@
 //
 
 @protocol SCUIMoreHelpMenuDelegate
-
-@optional
-- (void);
-- (void)8Q16^B24;
-- (void)(%@);
 @end
 

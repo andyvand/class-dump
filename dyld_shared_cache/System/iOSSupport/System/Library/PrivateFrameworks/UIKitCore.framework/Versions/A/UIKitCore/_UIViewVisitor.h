@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (void)Ð!üAù±É1¢!0@ù
-× ;
 + (void);
++ (void)× ;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool)ce;
-- (_Bool)h. %p dataTask=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld dataRequest.requestedLength=%lu;
-- (unsigned long long);
 - (void);
-- (void)q,N,G_contextMenuGroupLocation,S_setContextMenuGroupLocation:(_Bool)arg1;
-- (void)asCommandModified;
-- (_Bool)ownership of cell at %@ to drag and drop controller:(id)arg1 %@ ;
+- (void);
+- (_Bool);
+- (unsigned long long);
+- (_Bool)Ñd1Â0@ù
+× ;
+- (_Bool);
+- (void)Window;
+- (id)cene;
+- (_Bool)x path (%@) in %@;
 
 // Remaining properties
 @property(nonatomic) _Bool _currentlyVisitingHierarchy; // @synthesize _currentlyVisitingHierarchy=__currentlyVisitingHierarchy;

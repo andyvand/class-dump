@@ -25,8 +25,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)9	;
+- (void)edSnippet;
+- (id)kedPlaceAcceptsPaymentsAmenityItemViewModel;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

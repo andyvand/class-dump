@@ -14,8 +14,8 @@
     MISSING_TYPE *utilityQueue;
 }
 
-- (void);
 - (id);
+- (void)á­Ê0;
 
 @end
 

@@ -57,21 +57,21 @@
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
 - (struct CGRect);
+- (void);
+- (void);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (float);
+- (id);
 - (id);
 - (double);
-- (id);
 - (CDStruct_2bd92d94);
 - (void);
 - (id);
-- (id);
-- (float);
 - (void);
-- (void)v24@0:(CDStruct_2bd92d94)arg1 8^{__CVBuffer=}16;
 
 // Remaining properties
 @property(readonly, nonatomic) PXGItemPlacement *adjustedPreferredPlacement;

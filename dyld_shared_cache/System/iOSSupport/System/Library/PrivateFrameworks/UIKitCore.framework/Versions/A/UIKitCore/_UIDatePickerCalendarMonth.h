@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     _UIDatePickerCalendarMonth *_nextMonth;
 }
 
-+ (unsigned long long)oUploadForNetworkConditions:(%@), isWifiUsable:(%@), hasLTE:(%@) /* Error: Ran out of types for this method. */;
++ (unsigned long long);
 - (id);
-- (id)aemonListenerChatProtocol>"24@0:(id)arg1 8@"IMDService"16;
-- (id)tocol>"24@0:(id)arg1 8@"IMDService"16;
-- (id)=;
 - (id);
-- (void)pá{¬;
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _UIDatePickerCalendarMonth *nextMonth;

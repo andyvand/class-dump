@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (void);
-- (void)with empty accountID;
+- (void);
 - (struct CGSize);
 - (id);
 - (id);

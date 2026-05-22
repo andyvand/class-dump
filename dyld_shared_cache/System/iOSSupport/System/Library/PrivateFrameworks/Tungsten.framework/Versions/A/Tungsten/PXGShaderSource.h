@@ -17,15 +17,15 @@
 - (id);
 - (id);
 - (void);
+- (long long);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (_Bool);
+- (id)6;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isOpaque; // @synthesize isOpaque=_isOpaque;

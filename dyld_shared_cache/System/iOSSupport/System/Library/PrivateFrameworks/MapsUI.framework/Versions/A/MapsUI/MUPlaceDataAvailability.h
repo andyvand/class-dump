@@ -57,8 +57,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
 - (_Bool);
+- (void)_manager;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowTransitLineSelection;

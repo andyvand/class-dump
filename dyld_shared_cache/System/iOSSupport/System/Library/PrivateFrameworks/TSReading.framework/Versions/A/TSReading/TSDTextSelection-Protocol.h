@@ -5,7 +5,6 @@
 //
 
 @protocol TSDTextSelection
-- (struct _NSRange)rror",R,N,VmError;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isAtEndOfLine;

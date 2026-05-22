@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)EMSystemAirPlayDestinationsDeclaration;
-+ (id)rizontalAxis: /* Error: Ran out of types for this method. */;
-+ (Class)3_;
 + (id);
++ (id)itionAdjustmentForState:style: /* Error: Ran out of types for this method. */;
++ (id)y;
++ (Class);
 
 @end
 

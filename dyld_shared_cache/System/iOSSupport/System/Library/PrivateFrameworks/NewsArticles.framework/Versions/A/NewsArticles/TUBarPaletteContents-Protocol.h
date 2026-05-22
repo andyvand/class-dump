@@ -5,6 +5,5 @@
 //
 
 @protocol TUBarPaletteContents
-- (void);
 @end
 

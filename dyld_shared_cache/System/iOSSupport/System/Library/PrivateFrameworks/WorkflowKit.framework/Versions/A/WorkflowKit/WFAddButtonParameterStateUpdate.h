@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)2007 (WFSpecifiedDate);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *parameterKey; // @synthesize parameterKey=_parameterKey;

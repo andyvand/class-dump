@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)b;
-- (id)alignJustified: /* Error: Ran out of types for this method. */;
++ (id);
+- (id);
 
 @end
 

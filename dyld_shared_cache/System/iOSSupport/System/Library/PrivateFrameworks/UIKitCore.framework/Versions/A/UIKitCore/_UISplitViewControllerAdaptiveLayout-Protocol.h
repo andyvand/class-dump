@@ -5,34 +5,11 @@
 //
 
 @protocol _UISplitViewControllerAdaptiveLayout
-- (long long);
-- (struct CGRect)ataLocalCopy got errors;
-- (unsigned long long)missing but Allow Incomplete Data is set;
-- (struct UIEdgeInsets)DataCopyImg4Manifest;
-- (unsigned long long)mGv4DU
-KsVWZ4MV0fmoBUddlXlMH3lYT+4ZvWlH0bp5OX5UmVKxfvKMBl5jKkmANEZYmHu7
-VFiy3/7S4ca064Lfq1lNefMc0OM9oxulXlAICBwiwxiJKoPOa3/fgdx61lzMnWRa
-U72XCh8jZdDBJDd5wFgPVGYJMFCbAlgKrEvLPT0Ih9TiWZO97YlnvTeO2PrJtztb
-c3coQKfq9fOkLL9CyUrMUY4q7IJGBI1z4pB+UBS/ZgJ3/cBNvdhW5is2JVx113hl
-IskfCQIDAQABo24wbDAdBgNVHQ4EFgQU0QoF+nE1hlJxSQU0TutWjH2N2dUwCQYD
-VR0TBAIwADALBgNVHQ8EBAMCBeAwGgYJKoZIhvdjZAYQBA0MC3Blcm1pc3Npb25z
-MBcGCSqGSIb3Y2QGEQQKDAhjbGllbnRpZDANBgkqhkiG9w0BAQUFAAOCAQEAFjVa
-sSNfZOzLK10c16i06IRkqLx7xRo7ycnbSazwgNLxsGYNqzueBKI634nX4/MkFzgn
-sIz3rayMogDSgcZmrMe63JmvKJwOWYNFQDs2fTCFNyHBU3lQRL67dddJ8vKKUgPF
-4zLSbg80sYVkMAxpAjdIxDoXAGZX9ss8l4Z7QtbNHEUZoihXz5dWhjTUHfsNZsG4
-MxCIO9wniOpG5C/bUquZXq+Q75j4P4fC/KEfC70G/LVXzCTii+vEE6WTz8XhG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
+- (struct CGSize)ize=dd}24@0:8d16 /* Error: Ran out of types for this method. */;
+- (_Bool)hMessagesReceived;
 - (long long);
-- (unsigned long long);
-- (_Bool):(long long)arg1 style:(long long)arg2 onServices:chatID:queryID: /* Error: Ran out of types for this method. */;
-- (struct CGSize)Sg_G;
-- (void)"24@"<UIContextMenuInteractionCommitAnimating>"32;
-- (struct CGSize)ntents;
-- (_Bool)terArbiterCore_macOS;
-- (struct CGSize)stureLayout;
-- (long long)D71yß48+;
+- (long long)AmKyAJ}©.3GGGAJGSgAIyAjKyAKyAKyAG.3G3.3GAOGGSgtG;
+- (struct CGSize)Ooþ=43 OoþÝ43,Ooþå438Ooþ½43DOoþ43POoþ43\Ooþ43sþå43tOoþ43|Ooþí43Ooþ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize contentSize;

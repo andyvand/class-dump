@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (long long);
 - (void);
 - (long long);
-- (void);
+- (long long);
 - (id);
+- (void);
 - (void);
 - (id);
 

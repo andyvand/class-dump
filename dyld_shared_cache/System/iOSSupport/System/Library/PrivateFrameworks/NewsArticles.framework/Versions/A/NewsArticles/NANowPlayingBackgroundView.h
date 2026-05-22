@@ -14,9 +14,9 @@
 
 - (id);
 - (void);
-- (void)0;
-- (id);
 - (id);
+- (id);
+- (void)fetchCancelHandler;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

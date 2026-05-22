@@ -7,20 +7,13 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (id);
-- (id)C;
-- (id);
-- (Class)n;
-- (_Bool)ÿÿ;
-- (id)àCòÿØñÿ;
-- (_Bool)0¬ýÿõ^ñÿd=ÿ0J
-;
-- (id)ublic}@ cursor %{public}@, time=%fms;
-- (unsigned long long);
+- (_Bool)ø¢;
+- (id)layout-window-width;
+- (_Bool);
+- (struct _NSZone *);
 
 @optional
-- (NSString *)¹ ¹;
+- (NSString *)r placement=%{public}@, position=%{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

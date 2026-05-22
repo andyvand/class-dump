@@ -4,8 +4,8 @@
 
 class vector<label_info> {
 public: // (access info unavailable from symbols alone)
-    push_back(label_info const&);
-    reserve(unsigned long);
-    resize(unsigned long, label_info const&);
+    auto push_back(label_info const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, label_info const&);
     ~vector();
 };

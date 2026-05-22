@@ -14,18 +14,18 @@
 + (id);
 + (id);
 - (void);
-- (unsigned long long)emoteViewTaskCXDXMT;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (_Bool);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 

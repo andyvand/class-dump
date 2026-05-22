@@ -19,16 +19,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
 - (id);
 - (id);
-- (void);
-- (void)ao! Dù±Áð1¢!0@ù
-× ;
-- (id)ion;
-- (void)nce:(id)arg1;
-- (id)animationDurationDown;
 - (void);
+- (id)the owning UITableViewCell. Cell:%@ /* Error: Ran out of types for this method. */;
+- (void)ntIdentifier(NSString * _Nullable __strong, NSString * _Nullable __strong);
+- (void);
+- (id)8ÿ±È;
+- (void)a;
+- (id),Ùluc;
 
 // Remaining properties
 @property(nonatomic) _Bool leftOfParentWhenCascading; // @synthesize leftOfParentWhenCascading=_leftOfParentWhenCascading;

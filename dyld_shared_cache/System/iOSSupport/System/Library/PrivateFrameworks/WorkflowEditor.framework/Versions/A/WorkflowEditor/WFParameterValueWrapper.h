@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)¸;
 
 // Remaining properties
 @property(readonly, nonatomic) WFParameter<WFParameterValuePickable> *parameter; // @synthesize parameter=_parameter;

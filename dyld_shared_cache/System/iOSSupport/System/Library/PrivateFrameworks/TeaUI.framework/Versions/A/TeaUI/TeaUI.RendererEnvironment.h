@@ -15,9 +15,9 @@
 }
 
 - (void);
-- (void)<;
 - (void);
-- (id)crollToVisible:honorGroups:updatedContainer: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)Áÿÿ;
 
 @end
 

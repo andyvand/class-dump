@@ -25,14 +25,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (long long);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
-- (long long);
 - (id);
-- (id);
-- (id);
+- (void)esult as final;
+- (id)transfer %@ is in a thumbnail only state;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *contentDescription;

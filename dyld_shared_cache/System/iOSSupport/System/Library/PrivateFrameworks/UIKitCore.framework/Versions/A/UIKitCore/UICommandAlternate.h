@@ -15,25 +15,22 @@
 }
 
 + (id);
-+ (_Bool)Zn;
++ (_Bool)ViewDiffableDataSource. Table view:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ecord name hash %@ from guid %@ and salt %@ as one or both are nil;
-- (id)sent by self (%@) for messages not from self. However, receipt was sent from (%@). Ignoring played receipt.;
-- (id)out proper default ---- please set them:defaults write com.apple.madrid EnableCacheDelete -bool YES /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void)1¢!0@ù
-× ;
-- (id)AuÐ!4Aù±É1¢!0@ù
-× ;
-- (long long)
-× ;
-- (id)ide:(id)arg1;
-- (id);
-- (SEL)<¬3ÿÿÊÀe;
+- (_Bool)tionMethod:(id)arg1 inputType: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 withDefaultProposal: /* Error: Ran out of types for this method. */;
+- (id) ;
+- (id)Uü23Ø¡þUü23Ô¡þUü23Ð¡þ;
+- (SEL);
+- (id)¼	5ÿrØ|?];
+- (void)È;
 
 // Remaining properties
 @property(readonly, nonatomic) SEL action; // @synthesize action=_action;

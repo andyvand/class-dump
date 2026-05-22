@@ -33,15 +33,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (struct UIEdgeInsets)sizeForItemAtIndexPath:(id)arg1;
-- (void)FilterViewCSg;
+- (struct UIEdgeInsets);
 - (_Bool);
+- (void)nt;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUScrollAnalyticActionObserving> analyticsDelegate; // @synthesize analyticsDelegate=_analyticsDelegate;

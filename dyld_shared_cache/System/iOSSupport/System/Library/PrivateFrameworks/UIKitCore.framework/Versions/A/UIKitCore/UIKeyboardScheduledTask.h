@@ -21,25 +21,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (_Bool);
-- (id);
 - (void);
+- (void)
+× ;
+- (_Bool)cÐ1Â0@ù
+× ;
+- (id)TitleView>";
+- (void)SuppressionAssertion"b1"obtainGhostCursorAssertion"b1"convertPointToRenderSpace"b1"convertPointToRenderSpaceUsingTextPosition"b1};
+- (void)rance;
+- (id)ntinuingToEffectWithPreview:(id)arg1;
+- (_Bool)initWithDictionary:fallback: /* Error: Ran out of types for this method. */;
+- (id)UITableConstants>",R,N,G_constants;
 - (CDUnknownBlockType);
-- (void)0@ù
-× ;
-- (void)!øEùQÈÐ1¢!0@ù
-× ;
-- (double)d_isAnySimpleTelephonyScheme;
-- (void)becomeFirstResponder;
-- (id)eparedForLift;
-- (id)imizedStateDidChangeHandler:,V_minimizedStateDidChangeHandler /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)reRecognizer;
-- (void)N,V_delegate;
-- (void)h;
-- (_Bool);
-- (id)eight may not be nil.;
-- (void)¨ÿ®KÍKf;
-- (void)ªÊk;
+- (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
+- (CDUnknownBlockType);;
+- (id)ÑÛ`;
+- (void)8È;
+- (double)£f;
+- (void)02¯þ;
+- (void)¼k;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType breadcrumb; // @synthesize breadcrumb=_breadcrumb;

@@ -14,17 +14,18 @@
 
 + (id);
 + (id);
-+ (_Bool)ò­m;
++ (_Bool);
 - (id);
-- (id)trieval;
-- (void)upAdminAccounts:(id)arg1 withSystemIntegrityProtectionEnabled:withIsMDMLostModeEnabled:withMaximumResidentUsers:withPushToken:withDiagnosticSubmissionEnabled:withAppAnalyticsEnabled:withICCID:withBluetoothMAC:withWiFiMAC:withEthernetMACs:withCurrentCarrierNetwork:withSIMCarrierNetwork:withSubscriberCarrierNetwork:withCarrierSettingsVersion:withPhoneNumber:withDataRoamingEnabled:withVoiceRoamingEnabled:withPersonalHotspotEnabled:withIsNetworkTethered:withIsRoaming:withSIMMCC:withSIMMNC:withSubscriberMCC:withSubscriberMNC:withCurrentMCC:withCurrentMNC: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)g *getITLibraryModifyLibraryAddedItemsPersistentIDList();
-- (id);
-- (void)£º;
-- (id);
-- (id)etConfigurationUpdateHandler: /* Error: Ran out of types for this method. */;
+- (id)á	!ÄFù1fÐ1Â0@ù
+× ;
+- (_Bool)ectOfInterestForPoint:(id)arg1;
+- (void)CommandsAfterDelay:(id)arg1 reason: /* Error: Ran out of types for this method. */;
+- (id)dColorForUnRenderedContent;
+- (void)0Îqÿ$ñÍb;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSymbolContentTransition *contentTransition; // @synthesize contentTransition=_contentTransition;

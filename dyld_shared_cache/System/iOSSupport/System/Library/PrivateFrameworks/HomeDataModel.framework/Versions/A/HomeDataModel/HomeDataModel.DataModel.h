@@ -31,7 +31,7 @@
 + (id);
 + (long long);
 + (void);
-+ (id)éNKû;
++ (id);
 
 // Remaining properties
 @property(nonatomic, retain) HMHome *_currentHome; // @synthesize _currentHome;

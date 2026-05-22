@@ -23,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long)4@"NSString"32@"NSNumber"40@"NSString"48;
-- (id)tIndexingOfAddedMessageWithGUID:chat:reason: /* Error: Ran out of types for this method. */;
-- (_Bool)ntTTROnCloudKitError;
+- (long long);
+- (id);
+- (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)¹;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;

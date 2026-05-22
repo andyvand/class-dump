@@ -16,9 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)0@ù
-× ;
+- (id)d},R,N,V_thumbnailPlayButtonPadding;
+- (void)unknown gesture state;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *message; // @synthesize message=_message;

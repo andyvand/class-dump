@@ -4,10 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol NSItemProviderReading
-+ (NSArray *)ÔÁqð!BùÅ1¢!0@ù
++ (id)0@ù
 × ;
 @end
 

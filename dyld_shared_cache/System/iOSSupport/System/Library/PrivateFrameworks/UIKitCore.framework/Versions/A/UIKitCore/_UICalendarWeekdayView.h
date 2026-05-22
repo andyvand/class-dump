@@ -21,21 +21,20 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)`;
+- (void);
 - (double);
 - (id);
-- (void)age: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)setMessagesReceivedDuringStorage: /* Error: Ran out of types for this method. */;
-- (void)mmunicationTrustManaging>",&,N,V_communicationTrustManager;
 - (void);
-- (void)ssingPipelineComponent> Started processing;
+- (id);
 - (void);
-- (void)i
-;
-- (void)0,ÿ¹;
-- (struct CGSize)9[;
+- (void);
+- (void);
+- (void);
 - (struct CGSize);
+- (void);
+- (struct CGSize)$,OÑ0&,\OÑL(,¨OÑDA,PÑXg,´PÑm,üPÑøn,QÑÌu,\QÑ8|,lQÑÂ,|QÑxÆ,¨QÑÌì,ÐQÑü;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _UICalendarDataModel *dataModel; // @synthesize dataModel=_dataModel;

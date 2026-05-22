@@ -18,11 +18,11 @@
 }
 
 + (void);
-+ (_Bool)Hææ(ç;
-- (void);
++ (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)WithContentsOfURL:options:error: /* Error: Ran out of types for this method. */;
 
 @end
 

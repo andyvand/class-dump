@@ -20,10 +20,10 @@
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

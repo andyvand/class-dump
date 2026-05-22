@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *_anchorPoint;
     MISSING_TYPE *_isShowingPicker;
+    MISSING_TYPE *_prefersUpward;
     MISSING_TYPE *_selectedReaction;
     MISSING_TYPE *_reactions;
     MISSING_TYPE *_detailsView;

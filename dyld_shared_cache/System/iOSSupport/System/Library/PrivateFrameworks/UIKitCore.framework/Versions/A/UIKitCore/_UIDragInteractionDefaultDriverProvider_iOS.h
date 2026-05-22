@@ -10,7 +10,8 @@
 {
 }
 
-- (id)lor:(id)arg1;
+- (id)@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

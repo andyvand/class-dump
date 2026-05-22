@@ -16,7 +16,7 @@
     long long _repeatType;
 }
 
-+ (_Bool)idReceiveData:creating data task using dataRequest.requestedLength. %p dataTask=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld dataRequest.requestedLength=%lu /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) MPMediaItem *firstItem; // @synthesize firstItem=_firstItem;

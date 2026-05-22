@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)odeTriggerConfigurationViewController;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *exclusiveActivityType; // @synthesize exclusiveActivityType=_exclusiveActivityType;

@@ -22,27 +22,27 @@
     NSURL *_previewURL;
 }
 
-+ (id)t.;
-+ (id);base64,%@;
++ (id);
++ (id);
 + (unsigned long long);
 + (id);
 + (struct CGSize);
 - (id);
-- (void)d;
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)a;
-- (void)save a share (%@) without an account ID for object:(id)arg1 %@;
-- (id)k.circle.fill;
-- (_Bool);
+- (void);
+- (void);
 - (id);
-- (id)elineSectionType;
-- (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -54,23 +54,22 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (struct CGSize);
+- (_Bool);
+- (id);
+- (id)<;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (struct CGSize)aQ?;
-- (id)0@ù
-× ;
-- (void);
-- (id)0Q;
-- (id)7;
-- (void);
+- (void)P;
+- (id)ì0;
+- (void)"ð3;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *alternateShareURL; // @synthesize alternateShareURL=_alternateShareURL;

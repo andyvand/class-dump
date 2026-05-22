@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIEvent;
-@protocol NSCopying, _UIAssertion;
+@class UIInputWindowController, UIWindow, UIWindowScene;
 
 @protocol _UIKeyboardArbiterClient
-- (void)z;
-- (double)R;
-- (_Bool);
 - (_Bool);
-- (void)thMethod;
-- (_Bool)oteButtonText;
-- (_Bool)roller:displayModeForExpandingToProposedDisplayMode: /* Error: Ran out of types for this method. */;
-- (void)c;
-- (_Bool);
-- (void)0@ù
+- (_Bool)1Â0@ù
 × ;
-- (void)!GùñÈÐ1¢!0@ù
+- (void)á!ðAù[1Â0@ù
 × ;
-- (void);
-- (_Bool)1¢!0@ù
+- (_Bool)
 × ;
-- (_Bool)xÐ!FùQÍÐ1¢!0@ù
+- (void)±eÐ1Â0@ù
 × ;
-- (void)eImplementsItemProviderForCopyingTokens"I"delegateImplementsUnderscoredItemProviderForCopyingTokens"I"allowsCopyingTokens"b1"allowsDeletingTokens"b1"alwaysHidesMagnifyingGlassForAccessibilityContentSizeCategory"b1"needsDelayedSearchControllerPresentation"b1"suggestionHasBeenSelected"b1"pendingClearSearchSuggestions"b1"supportsStagedDictation"b1"backgroundMaterialShouldBeGlass"b1"makingTextChangesForCloning"b1"needsUpdateBackdropStyle"b1"needsUpdateBackgroundMaterial"b1"isPresentingEditMenu"b1};
-- (void)dCommitLoad:(void (^)(id <_UIRemoteKeyboardDistributedViewSource>))arg1;
-- (_Bool)ateDoubleSpacePeriodStateForCharacter: /* Error: Ran out of types for this method. */;
-- (id <_UIAssertion>)ion;
-- (_Bool)yWindowOverlayInsets: /* Error: Ran out of types for this method. */;
-- (_Bool)ackingSpringParameters:(id <NSCopying>)arg1;
-- (void)enFilling:notify: /* Error: Ran out of types for this method. */;
-- (void)inal:(UIEvent *)arg1 withContextIDEnumerator:completion: /* Error: Ran out of types for this method. */;
-- (void)_adjustsContentInsetWhenScrollDisabled;
-- (_Bool)action;
-- (void)äð;
-- (_Bool)OlSÔS¤TVVøV4Y;
-- (_Bool)brangeIndex %lu. %@;
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)lendarSelectionWeekOfYearDelegate>";
+- (_Bool);
+- (void)hYearLabelColor;
+- (void)rViewController;
+- (UIInputWindowController *)sistantPosition;
+- (void)yStartServer;
+- (void)ant;
+- (UIWindow *):(UIWindowScene *)arg1;
+- (void)<UIContentConfiguration>",C,D,N,S_setFooterContentConfiguration:(_Bool)arg1;
+- (_Bool);
+- (void)t, NSDirectionalRectEdge);
+- (void)ªªª@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool handlingRemoteEvent;

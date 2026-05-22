@@ -13,8 +13,8 @@
     MISSING_TYPE *address;
 }
 
-- (void);
 - (id);
+- (void)o7UIColorCG;
 
 @end
 

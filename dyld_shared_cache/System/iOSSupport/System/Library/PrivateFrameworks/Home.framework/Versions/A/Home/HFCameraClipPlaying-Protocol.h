@@ -8,8 +8,7 @@
 @protocol HFCameraClipPlayerDelegate, HFCameraClipScrubbing;
 
 @protocol HFCameraClipPlaying
-- (double)mIdentifierForSelectedHome;
-- (void)D_°_;
+- (void)24@?0@"HMService"8@"HMService"16;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCameraProfile *cameraProfile;

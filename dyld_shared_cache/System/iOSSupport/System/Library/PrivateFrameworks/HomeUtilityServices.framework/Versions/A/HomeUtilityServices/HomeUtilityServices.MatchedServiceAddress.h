@@ -12,8 +12,8 @@
     MISSING_TYPE *matchType;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

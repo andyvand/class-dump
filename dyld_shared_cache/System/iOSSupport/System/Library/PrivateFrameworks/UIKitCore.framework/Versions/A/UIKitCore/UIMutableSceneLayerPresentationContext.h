@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)n;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @dynamic alpha;

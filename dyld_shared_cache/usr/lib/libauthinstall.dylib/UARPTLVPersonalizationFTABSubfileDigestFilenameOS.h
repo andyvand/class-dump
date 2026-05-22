@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)found;
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *filename; // @synthesize filename=_filename;

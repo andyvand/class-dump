@@ -38,8 +38,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)#;
+- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGImage *);
@@ -48,27 +48,27 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool)/;
+- (_Bool);
+- (_Bool);
 - (struct CGRect);
-- (void)A;
+- (void);
 - (struct CGSize);
 - (void);
 - (struct CGImage *);
-- (_Bool)U;
+- (_Bool);
 - (_Bool);
 - (double);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (struct UIEdgeInsets);
 - (void);
-- (void);
+- (id);
 - (struct CGColor *);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect actualScaledClipRect; // @synthesize actualScaledClipRect=mActualScaledClipRect;

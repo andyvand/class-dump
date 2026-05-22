@@ -22,7 +22,7 @@
     NSURL *_cacheDirectoryURL;
 }
 
-+ (id)ss;
++ (id);
 + (id);
 - (void);
 - (void);
@@ -47,12 +47,12 @@
 - (void);
 - (void);
 - (void);
-- (id)aceholderTextFromSource: /* Error: Ran out of types for this method. */;
-- (void)conformsToProtocol:(id)arg1;
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)4hf@9�;
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -61,11 +61,11 @@
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
-- (void)lGc;
-- (void);d;
-- (_Bool);
 - (void);
+- (void);
+- (_Bool);
 - (id);
+- (void)mberOfConcurrentWebViews;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *cacheDirectoryURL; // @synthesize cacheDirectoryURL=_cacheDirectoryURL;

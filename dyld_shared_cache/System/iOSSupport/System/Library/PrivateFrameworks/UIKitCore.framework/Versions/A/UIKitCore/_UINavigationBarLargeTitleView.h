@@ -34,75 +34,73 @@ __attribute__((visibility("hidden")))
     _UINavigationBarLargeTitleViewLayout *_layout;
 }
 
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void)py:length:options:deallocator: /* Error: Ran out of types for this method. */;
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
 - (struct CGSize);
-- (id)erController",R,W,N,V_controller;
-- (unsigned long long)seRoutingDataSource] Unpicking AirPlay AV routes...;
+- (void);
+- (void);
+- (double);
+- (unsigned long long);
 - (id);
-- (_Bool)#;
 - (void);
+- (struct CGSize);
 - (void);
+- (void)@ù
+× ;
 - (id);
-- (void)1¢!0@ù
-× ;
-- (struct CGSize)!u!,GùqÉ°1¢!0@ù
-× ;
-- (long long)
-× ;
-- (void)Ô¡xð!,@ù1Î°1¢!0@ù
+- (id);
+- (void)!xAùd°1Â0@ù
 × ;
 - (void);
-- (id)ts=dddd}{UIEdgeInsets=dddd}}24@0:8@16 /* Error: Ran out of types for this method. */;
-- (void)dSceneDelegate:(_Bool)arg1 stoppedPinningInputViewsOnBehalfOfResponder: /* Error: Ran out of types for this method. */;
-- (id)tingMode;
-- (void)_summarySymbolView;
-- (id)s: /* Error: Ran out of types for this method. */;
-- (double)restorePasteResultForSession: /* Error: Ran out of types for this method. */;
-- (void)faultSourceFrameProvider;
-- (id)alMinimumTopInset;
-- (id)ets=dddd},R,N,VsafeAreaInsetsLandscapeRight;
-- (id),N,V_maximumContentWidthForLayoutMargins;
-- (void)ectionLayoutSectionDescriptor;
-- (void)ltÀt;
+- (void)@"_UILabelScaledMetrics";
+- (void)xcludeDotFilesFromResults;
+- (id)ntationInteraction: /* Error: Ran out of types for this method. */;
+- (void)tistics;
+- (void)meSession;
+- (id)otation:(struct CGRect)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)@"NSSet",C,N,V_highlights;
+- (id)"<_UICollectionViewUpdateTranslating>",R,N,V_updateTranslator;
+- (id)À7;
+- (void)i;
+- (id);
+- (id);
+- (id)v32@?0@"NSNumber"8@"_UIDocumentCarouselViewItemContainerView"16^B24;
+- (id)ets: /* Error: Ran out of types for this method. */;
+- (void)?0@8@16;
+- (_Bool)e number of sections inserted or deleted (%d inserted, %d deleted). Collection view:%@ /* Error: Ran out of types for this method. */;
+- (void)ifeCycle;
+- (id)yle should not be nil by now.;
+- (void)tension=%f;
 - (void);
-- (void)d;
-- (void)svc = %p; preferredSupplementaryColumnWidthFraction = %g;
-- (id);
-- (void);
-- (id)üÿ;
-- (id)tion;
-- (unsigned long long)te group;
-- (void)lid UIWindowSceneGeometryPreferences object;
-- (id)storEnvironmentScrollableContainer(__strong id<UIFocusEnvironment> _Nonnull, BOOL);
-- (void)ed;
-- (void)UISceneDestructionConditionKind;
-- (void)UITab"8Q16^B24;
-- (void)p;
-- (void)om a UICollectionViewDiffableDataSource, but the collection view's dataSource is not the UICollectionViewDiffableDataSource. Collection view:(id)arg1 %@;
-- (id)vigationBarCompactScrollEdgeAppearance;
-- (void)filters.vibrantColorMatrix.inputColorMatrix;
-- (struct CGSize) æ?ÍÌÌÌÌÌä?Ù?¬Zd;ßï?ÀÊ¡E¶ë?DDDDDDü?;
+- (void)for the content view when trying to remove clipping view;
+- (id);
+- (unsigned long long);
+- (id);
 - (void);
+- (void);
+- (void)X[;
+- (id);
+- (id);
+- (id)P;Ôà\;
 - (void);
-- (void);
-- (void)Û;
-- (void)Kÿ;
-- (id)ç`;
-- (void)ÿ7h;
-- (void)ù;
-- (void);
+- (void)xªÿ2ZÛ`ÿ];
+- (void)ÿifÜ|_^;
+- (void)5á;
+- (long long)´Ý^;
+- (void)úÒt_;
+- (id);
+- (void)3W;
+- (void)¬`;
+- (id)X`;
+- (void)Ô¼`;
+- (void)ÿ;
+- (void)ÿà\ØÌ¿`;
+- (void)?;
+- (void)a;
+- (_Bool)¤?åþ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *accessibilityTitleView;

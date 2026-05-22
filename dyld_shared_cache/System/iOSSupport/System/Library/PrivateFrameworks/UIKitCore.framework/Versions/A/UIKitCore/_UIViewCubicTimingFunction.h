@@ -11,16 +11,16 @@ __attribute__((visibility("hidden")))
     struct CGPoint _point2;
 }
 
-- (void);
-- (_Bool);
-- (id);
+- (struct CGPoint);
 - (struct CGPoint);
 - (id);
 - (id);
 - (id);
-- (id)letionBlocks;
-- (id)nged: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)Warning;
+- (_Bool)ize=dd}24d40d48B56B60;
+- (void)railingSwipeEdgeMultiplier;
+- (id);
+- (id)ink;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint controlPoint1;

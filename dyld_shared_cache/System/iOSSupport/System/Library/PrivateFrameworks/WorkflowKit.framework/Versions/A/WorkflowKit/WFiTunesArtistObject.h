@@ -15,9 +15,9 @@
 }
 
 + (id);
-- (void);
 - (id);
-- (id)ô(Éÿ0;
+- (id);
+- (void)terDefinition getLinkArrayValuesFromProcessedParameterValue:parameterState:permissionRequestor:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,11 +5,6 @@
 //
 
 @protocol TUBarCompressionAnimating
-- (_Bool);
-- (void);
-
-@optional
-- (void)turning trimmed providers=%@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldAlwaysScrollToTopOnTap;

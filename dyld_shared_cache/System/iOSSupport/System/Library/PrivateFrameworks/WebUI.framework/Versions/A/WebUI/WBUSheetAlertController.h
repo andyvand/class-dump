@@ -14,10 +14,10 @@
     CDUnknownBlockType _handler;
 }
 
-- (id)usinessConversationToRemove:(id)arg1;
-- (void);
-- (long long);
 - (id);
+- (void);
+- (id);
+- (long long);
 - (void);
 - (void);
 

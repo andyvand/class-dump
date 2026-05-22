@@ -22,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (id)6B24;
-- (id)t:%@. Attempting to find the handle for the mentioned identity. /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)H[þÿX±þÿÈíþÿ;
+- (id)ViewSafeAreaInsets;
+- (void)\\;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *alternativesButtons; // @synthesize alternativesButtons=_alternativesButtons;

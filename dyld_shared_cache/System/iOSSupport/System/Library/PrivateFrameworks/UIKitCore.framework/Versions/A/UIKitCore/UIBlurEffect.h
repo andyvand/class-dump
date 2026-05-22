@@ -15,7 +15,6 @@
 
 + (id);
 + (id);
-+ (id)ovider;
 + (id);
 + (id);
 + (id);
@@ -25,31 +24,32 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (id);
++ (_Bool)oes not implement required method -tableView:cellForRowAtIndexPath:%@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)1¢!0@ù
+- (_Bool)^Ð1Â0@ù
 × ;
-- (_Bool)r: /* Error: Ran out of types for this method. */;
-- (long long)ostingRegistryIfNecessaryForWindow: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (id)Transition:,V__interactiveTransition /* Error: Ran out of types for this method. */;
-- (id)KeyboardImplStateProtocol;
-- (_Bool);
-- (id)ø;
-- (_Bool)Ä4\fþ;
-- (long long)r;
+- (_Bool)ifier:(id)arg1;
+- (id)Controller;
+- (void)teBackgroundViewVisiblity;
+- (_Bool)IScene",N,W,V_scene;
+- (id)>;
+- (void);
+- (_Bool)nown(%ld);
+- (id);
+- (void)üÿßÙÎkGj;
+- (long long)ÿq;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _canProvideCoreMaterialVibrancyEffect;

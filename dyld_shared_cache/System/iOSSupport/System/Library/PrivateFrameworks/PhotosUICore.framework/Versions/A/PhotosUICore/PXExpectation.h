@@ -23,14 +23,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)!¼CùQ|Ð1b0@ù
-× ;
-- (id)AXVÑ;
+- (id);
 - (void);
-- (CDUnknownBlockType)93´&$ÿ;
+- (CDUnknownBlockType)nsHelper"16@"PXStoryViewModeTransition"24;
+- (id)osState;
+- (void)ø«ÿ]}É¬ÿ5}É¬ÿ}É¬ÿ}É(¬ÿ}Éÿ]}É,¬ÿ}É4¬ÿe}ÉD¬ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;

@@ -14,8 +14,8 @@
 - (id);
 - (struct __CVBuffer *);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *CVImageBuffer;

@@ -4,5 +4,5 @@
 
 class swift::TaskGroupTaskStatusRecord {
 public: // (access info unavailable from symbols alone)
-    getGroup();
+    auto getGroup();
 };

@@ -5,6 +5,5 @@
 //
 
 @protocol PKInvalidatable
-- (void)t;
 @end
 

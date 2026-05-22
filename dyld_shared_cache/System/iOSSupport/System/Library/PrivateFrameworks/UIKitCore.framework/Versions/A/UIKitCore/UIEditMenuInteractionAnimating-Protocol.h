@@ -5,7 +5,7 @@
 //
 
 @protocol UIEditMenuInteractionAnimating
-- (void)temCollection"8@"NSArray"16@"NSArray"24^@32;
-- (void)è;
+- (void)removal of deactivation reason:(void (^)(void))arg1 %{public}@; deactivation reasons:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

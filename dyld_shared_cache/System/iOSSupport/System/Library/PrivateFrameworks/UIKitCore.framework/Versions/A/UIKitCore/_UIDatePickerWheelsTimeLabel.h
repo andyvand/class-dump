@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void)!;
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -48,17 +48,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (id);
-- (void)44;
+- (void);
 - (struct CGRect);
-- (void)"56@"NSNumber"64B72@"NSNumber"76;
-- (id)rNotice:(struct CGPoint)arg1 toHandles:reply: /* Error: Ran out of types for this method. */;
-- (_Bool)edMessage:(unsigned long long)arg1 idsTrustedData:isFromDefaultPairedDevice: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
+- (_Bool);
+- (void)leView:(id)arg1 canFocusRowAtIndexPath:(unsigned long long)arg2;
+- (id)il for this set down animation;
 - (void);
-- (void)tem;
-- (id)fault scene:%{public}s:%{public}p; to placeholder scene:%{public}s:%{public}p; screen:%{public}p, isMain:%d, isMainLike:%d /* Error: Ran out of types for this method. */;
+- (void)?×£p=
+×ã?Á?;
 - (void);
-- (void)®<;
+- (id)%Ãe;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect combinedTextRectFromLabels;

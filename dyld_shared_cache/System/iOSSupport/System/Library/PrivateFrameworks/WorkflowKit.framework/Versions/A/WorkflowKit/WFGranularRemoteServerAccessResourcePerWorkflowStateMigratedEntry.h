@@ -12,9 +12,9 @@
     NSString *host;
 }
 
-+ (_Bool)between 0 and 1. 0 starts at the left of the image. (WFPercentageTextX);
-- (void);
++ (_Bool);
 - (id);
+- (void);
 - (void);
 
 @end

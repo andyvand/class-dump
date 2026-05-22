@@ -4,5 +4,5 @@
 
 class PatchTableV3 {
 public: // (access info unavailable from symbols alone)
-    forEachPatchableGOTUseOfExport(unsigned int, unsigned int, void (unsigned long long, dyld3::MachOFile::PointerMetaData, unsigned long long, bool) block_pointer) const;
+    auto forEachPatchableGOTUseOfExport(unsigned int, unsigned int, void (unsigned long long, dyld3::MachOFile::PointerMetaData, unsigned long long, bool) block_pointer) const;
 };

@@ -31,83 +31,75 @@
     struct CGRect _layeredForegroundPaddedFrame;
 }
 
-+ (id)kMMCSRequestFetchAuthorizationOnly;
-+ (id);
-+ (id)action:(id)arg1;
-- (int);
-- (void)`;
-- (struct CGPoint)atusCommands: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)ee;
++ (id)gPress;
+- (double);
 - (void);
-- (void)_metal:(struct CGRect)arg1 suppressedTexture:tileBuffer:desiredKeypointCountsBuffer:thresholdsBuffer:histogramBuffer:thresholdRangeBuffer:keypointsAtChosenThresholdBuffer:truncatedRegionsBuffer:tileCount:maxTileHeight: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void)-;
-- (id)ctivity_s=},N,V_activityMarker;
+- (long long);
+- (void);
+- (void);
 - (_Bool);
-- (id)rTrack: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ediaRemotePlaybackQueue;
-- (void)yPlaylistGlobalIdentifier;
-- (_Bool)urce;
-- (void)inPosition;
-- (struct CGRect)yPlaylistId;
 - (id);
+- (id);
+- (unsigned long long);
+- (int);
+- (struct CGRect);
+- (double);
+- (id);
+- (struct CGRect);
 - (void);
 - (void);
-- (id);
-- (id)£ º;
-- (void)!@ù±À°1¢!0@ù
-× ;
 - (void);
-- (id)ä@ùñÅ°1¢!0@ù
-× ;
-- (void)Ás°!;
-- (struct CGSize)!TAùñÇ1¢!0@ù
-× ;
-- (void)tð!$DùÑÈð1¢!0@ù
-× ;
-- (double)!Bù1É1¢!0@ù
-× ;
-- (id)× ;
-- (void)@ùqÊ°1¢!0@ù
-× ;
-- (struct CGRect)Aù1Ë°1¢!0@ù
-× ;
-- (double)@ù
-× ;
-- (void)Áw!ÔGùñÌ°1¢!0@ù
-× ;
-- (struct CGRect)hment"Q"alignment"Q"attachmentOffset"d"alignmentOffset"d"gravity"q};
-- (long long)leForIdiom: /* Error: Ran out of types for this method. */;
-- (void)ntWeight;
-- (void)areUpdateWithContext:(long long)arg1;
-- (void)lobalIndexForIndexPath:(struct CGPoint)arg1;
-- (void)ardPressKey:(double)arg1 withMetadata: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)oke:toHasStroke: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 - (void);
-- (id)htRange;
-- (unsigned long long)_isTextAnimationsConfiguration;
-- (void)own;
-- (unsigned long long)tionEnabled;
-- (unsigned long long)ndowSceneActivationConfiguration",&,N,V_activeConfiguration;
-- (id)iewEmbedding>",R,D,N;
-- (struct UIEdgeInsets)ÑüÑ;
-- (struct CGRect)o;
-- (void) ;
-- (void)þüÿ;
-- (void)hould have removed all the _UITextAnimationContexts, but look! _textAnimationContextsByAnimationType=%@;
-- (void)et)-[layoutView]-(bottomTitleInset)-|;
-- (struct UIEdgeInsets)ollectionReusableView"8;
-- (_Bool)tCallbacks;
-- (id);
-- (void)¹¿;
-- (id);
-- (void)j[þb;
-- (double)é;
-- (void)f;
-- (id)i;
-- (struct CGRect)2;
-- (void)Üªmÿ;
-- (long long)ÎÅm;
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (void)× ;
+- (void);
+- (void)ð!hAùQg°1Â0@ù
+× ;
+- (void)UIMenuLeafKeyboardShortcut"16;
+- (id)6@"UIView"24;
+- (long long):8@16d24 /* Error: Ran out of types for this method. */;
+- (unsigned long long)CustomizationItem"8;
+- (struct CGRect)ObjectForKey: /* Error: Ran out of types for this method. */;
+- (void)ingMoreItem;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)Items:(struct CGPoint)arg1 loops:restrictEnteringSequence: /* Error: Ran out of types for this method. */;
+- (_Bool)alueOptions:(id)arg1;
+- (struct CGRect)stFactor;
+- (id)kDisabledSelectionHighlightColor;
+- (void)viewForTextInteractableItem:(long long)arg1 dismissing: /* Error: Ran out of types for this method. */;
+- (void)athChangeObserversWithChangeInfo:(double)arg1 forAncestor: /* Error: Ran out of types for this method. */;
+- (void)w;
+- (id)eparatorIdentifier;
+- (struct CGPoint)ontextEntryRepresentation;
+- (id)adedInteractionContextImpl;
+- (struct CGRect);
+- (id)ô;
+- (void);
+- (void)"UIView"8Q16;
+- (double)h '%@'>;
+- (unsigned long long)SToolbarSupplementarySidebarSeparatorItem;
+- (id)ll;
+- (struct CGRect)apticLocalityFullGamut(void);
+- (void)tion;
+- (void)ected;
+- (void)rAccessibilityHUDAssistantC8DelegateP;
+- (void)";
+- (struct CGSize)È03+ ;
+- (void)m\;
+- (struct UIEdgeInsets);
+- (void)|ÙþÄÙøSf;
+- (void)¬f;
+- (id)4Ág;
+- (struct UIEdgeInsets);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long concaveCorner; // @synthesize concaveCorner=_concaveCorner;

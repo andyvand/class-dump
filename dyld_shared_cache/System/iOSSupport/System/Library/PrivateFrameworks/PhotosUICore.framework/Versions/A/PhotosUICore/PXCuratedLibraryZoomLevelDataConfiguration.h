@@ -21,11 +21,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
-- (long long);
-- (id)Êì7;
-- (void)8;
+- (void)äï*ØKÿøKÿø$a;
+- (long long)iew;
+- (id)5;
+- (void)°¢8;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetsDataSourceManager *assetsDataSourceManager;

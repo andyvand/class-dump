@@ -35,12 +35,12 @@
 - (void);
 - (void);
 - (long long);
+- (struct CGRect);
 - (id);
-- (void);
 - (void);
 - (_Bool);
 - (void);
-- (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long op; // @synthesize op=_op;

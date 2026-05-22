@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CAAction;
+
 @protocol CALayerDelegate
 
 @optional
-- (void)=%@;
-- (void);
+- (void)7ëÿÿÿÿÿ;
+- (id <CAAction>);
 @end
 

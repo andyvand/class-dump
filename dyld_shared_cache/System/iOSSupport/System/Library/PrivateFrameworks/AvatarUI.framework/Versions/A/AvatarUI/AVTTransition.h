@@ -18,22 +18,22 @@
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (long long);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (long long)l;
-- (id);
-- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool)ngEnabled: /* Error: Ran out of types for this method. */;
-- (void)ore;
+- (id)¸&ä&;
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated=_animated;

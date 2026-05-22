@@ -4,6 +4,6 @@
 
 class TLE::BinaryDataOp<CEBuffer, TLE::$_8{}> {
 public: // (access info unavailable from symbols alone)
-    Execute(TLE::Encyclopedia&);
+    auto Execute(TLE::Encyclopedia&);
     ~BinaryDataOp();
 };

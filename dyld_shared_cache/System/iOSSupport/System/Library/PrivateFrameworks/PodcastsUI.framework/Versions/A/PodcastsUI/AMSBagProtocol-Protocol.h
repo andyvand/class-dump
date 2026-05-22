@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBagValue, AMSProcessInfo, NSDate, NSString;
+@class AMSProcessInfo, NSDate, NSString;
 
 @protocol AMSBagProtocol
-- (NSString *)(;
-- (void)@ù
-× ;
-- (AMSBagValue *)]:(NSString *)arg1;
+
+@optional
+- (AMSProcessInfo *)×ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *expirationDate;

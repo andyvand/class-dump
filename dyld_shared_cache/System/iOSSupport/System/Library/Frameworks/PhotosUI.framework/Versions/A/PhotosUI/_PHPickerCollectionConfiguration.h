@@ -26,16 +26,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *_identifiers; // @synthesize _identifiers=__identifiers;

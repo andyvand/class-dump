@@ -94,238 +94,242 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
+- (void);
 - (_Bool);
-- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (_Bool);
+- (id);
+- (struct CGRect);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (double);
-- (id);
-- (void)Q24^@32^@40;
 - (void);
-- (void)PayloadAuthEAPPlugins:(CDUnknownBlockType)arg1;
-- (id)reation;
 - (long long);
-- (void)hContext:(id)arg1 withPaths: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)wrapped is not valid:%@ /* Error: Ran out of types for this method. */;
-- (void)ic}@);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long)ionWithSize:video: /* Error: Ran out of types for this method. */;
-- (void)ayingContentItem;
-- (void)umerateItemsUsingBlock:(id)arg1;
-- (id)emoteCommandType=%ld command=%{public}@;
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (double)!;
-- (long long);
-- (void);
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (void);
-- (struct CGSize);
-- (void);
-- (_Bool);
-- (long long)!¤Fù1ÂÐ1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (void)@ù
+- (double);
+- (long long)
 × ;
-- (struct CGRect);
 - (void)Ô ;
-- (void)× ;
-- (_Bool)1Í°1¢!0@ù
+- (long long)× ;
+- (void)!;
+- (void)1Â0@ù
 × ;
-- (_Bool);
-- (long long)0@ù
+- (void);
+- (void)1Â0@ù
 × ;
-- (struct CGRect)ionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}}16;
-- (void)boardEmojiCategoryUpdateDelegate>";
-- (id)@0:(id)arg1 8@"UIContextMenuInteraction"16@"UIContextMenuConfiguration"24@"_UIContextMenuStyle"32;
-- (_Bool)ICoordinateSpace>"16;
-- (_Bool)le;
-- (_Bool)TestingToSourceView: /* Error: Ran out of types for this method. */;
-- (id)extMargin;
-- (void)protocol: /* Error: Ran out of types for this method. */;
-- (struct CGRect)lementKind:(struct CGRect)arg1 elementCategory: /* Error: Ran out of types for this method. */;
-- (void)th:(id)arg1;
-- (_Bool)_learnWord:inDictionary: /* Error: Ran out of types for this method. */;
-- (long long)SMutableSet",R,N,V_updatedTabsDuringApplySnapshot;
-- (double):(struct CGSize)arg1 ,V__contentView;
-- (id)ssionState",&,N,V_sessionState;
-- (long long)splayObserving;
-- (_Bool)orAccessoryHostView;
+- (void)=dd}{CGSize=dd}}72;
+- (void)8@"<UIViewControllerAnimatedTransitioning>"16;
+- (_Bool)eakObject: /* Error: Ran out of types for this method. */;
+- (void)rogressTintColor;
+- (void)t: /* Error: Ran out of types for this method. */;
 - (void)s;
-- (_Bool)D¯þÿ;
-- (void)ÿþÿ;
-- (void)vþÿ;
-- (void)Úþÿ;
-- (void).apple.viewservice.session;
-- (void)lyBackdropViewSettings error:(_Bool)arg1 settings.colorTintMaskImage must be backed by a CGImage:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)UIFocusGestureSelectAddress;
-- (id)terminated;
-- (id)index path %@ while already reconfiguring cell %@ for index path %@);
-- (id)etting content offset for restoring relative scroll position to %@ with offset %@; attributes:%@; effectiveInsets:%@; safeAreaInsets:%@ /* Error: Ran out of types for this method. */;
-- (long long)ationPreferredSymbolConfigurationForImage;
-- (void)"8{_NSRange=QQ}16^B32;
-- (_Bool)ndents;
-- (_Bool)not what you want.;
-- (void)etOverrideApplicationName];
-- (_Bool)ansformedFrame;
+- (void)ain;
+- (void)tFetcherSink;
+- (struct CGSize)_setBackButtonPressed:(_Bool)arg1;
 - (void);
-- (_Bool);
-- (struct CGSize);
+- (unsigned long long)h:completion: /* Error: Ran out of types for this method. */;
+- (void)corationIndexPathsDict;
+- (void)omBarViewPocketContainerInteraction;
+- (id)stDoubleHeightTextVisibility;
+- (id)hAnimation",R,N,V_morphAnimation;
+- (void)ibleItemIndexPaths;
+- (void)t>",W,N,V_subject;
+- (_Bool)seEffect;
+- (double)SectionListSolver;
+- (long long)ckingElement;
+- (void)¬ÏÐxÐhÑ(ÒÒàÒLÓLÕ¤Õ\×hØ;
+- (void)|/X1Ì>¨?$@ @ÔG8HI´I;
+- (void)pIntentInsertAtDestinationIndexPath;
+- (long long)iously-used email address or enter a new one. To remove one, go to Settings > General.;
+- (_Bool)TargetAndAction"8Q16^B24;
+- (id)) has no segue with identifier '%@';
+- (id)wCell"16;
+- (void):(id)arg1 withStyle:rightButton:withStyle:] /* Error: Ran out of types for this method. */;
+- (id)temThinMaterial;
+- (id)TextAttributeCustom;
+- (_Bool)ants;
+- (_Bool)h23g;
+- (void)LeadingBar;
 - (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (long long)ÿð¦Ö6`;
-- (void)üÿ%;
-- (_Bool)Àª;
-- (struct CGSize);
-- (id)0;
-- (_Bool)b;
-- (id)»qb;
-- (void)b;
-- (id)Tÿú½;
-- (_Bool)þ¬b;
-- (void)ÿVU×¿b;
-- (id)Âb;
-- (id)é£ÍXÓb;
-- (long long)ÌTKc;
-- (void);
-- (_Bool)4ûc;
-- (void)&;
-- (double)c;
-- (void))ÿGÌð{c;
-- (void)dKþþfúÓyc;
-- (id)ïc;
-- (void)Ãc;
-- (id)/;
-- (struct UIEdgeInsets);
-- (_Bool);
-- (void)6Êc;
-- (void)$ØÔc;
-- (_Bool)Îüc;
-- (double)d;
-- (id)ÿ;
-- (long long)d;
-- (double)'d;
-- (void)3d;
-- (id)Ø`Cd;
-- (float);
-- (_Bool)ú]ÙEld;
-- (unsigned long long)$¼cÿÿÙ:sd /* Error: Ran out of types for this method. */;
-- (void);
-- (double)Àá»ÿt;
-- (_Bool)|mÿ;
-- (_Bool),úd;
-- (void);;
-- (void)$>Èÿ;
-- (long long)¡Ôd;
+- (void)twþ;
+- (_Bool)ýb43Õsþ;
+- (_Bool)á;
+- (void)Í­43Iö;
+- (unsigned long long)D;
+- (void)facePresentationSemanticContext;
+- (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (double)Ë¨;
-- (void)¸e;
-- (id)ßp;
-- (_Bool);
-- (void)N;
-- (void)¾;e;
-- (_Bool)¤;
-- (_Bool);
-- (unsigned long long)QÜþá£;
+- (void)X­[;
 - (double);
-- (void)/e;
-- (long long)1ÍJe;
-- (_Bool);
-- (_Bool);
-- (double)@ÿ;
-- (long long)µÄ;
-- (void)YHÔ·äe;
-- (_Bool)@ÿvûÔ­g;
-- (void)®ÉØ¦f;
-- (id)äV*ÿI³Ìûf;
-- (id)òÕ6f;
-- (id)Ô;
-- (id)Ü«þ,Z;
-- (long long);;
-- (void)üä%ÿ»Ò<Sf;
-- (_Bool)jf;
-- (void)qf;
-- (void)uwf;
-- (void)8VÿôÏ-}f;
-- (id)\»Ôÿ3o{f;
-- (void)ÜäìÿzÛ2f;
-- (long long)ìÿA;
-- (void)°f;
-- (void)®6ÿ®Èi¼f;
-- (_Bool)Çf;
-- (void)ÿ;
-- (void)éf;
-- (_Bool);
-- (_Bool)¨Sâ;
-- (id);
-- (long long)AÖþg;
-- (struct CGSize)ã)g;
-- (id)ÌA&g;
-- (id)h;
-- (_Bool)g;
-- (void)îEg;
-- (double)úQg;
-- (double)¤Fâÿu!ÏXUg;
-- (void)ëîÉ.n;
-- (void)âÿ|+Dçg;
-- (void)µg;
-- (_Bool)g;
-- (id)àhhþW;
-- (long long)F´g;
-- (id)èàþ;
-- (void)®%h;
-- (void)òêg;
-- (_Bool)àrþÄÚî>h;
-- (id);
-- (void)©Uh;
-- (void)c}ÿ0¸%;
-- (_Bool)}ÿKO;
-- (id)lRoþ¼ÌÃh;
-- (void)pÄÿ;
-- (void)Àÿó;
-- (id)Ø+¹ÿ E\å,i;
-- (long long)¸Ìh;
-- (double)+Òh;
 - (void);
-- (void)TJöþ;
-- (void),ùh;
+- (void)4_;
+- (void);
 - (struct UIEdgeInsets);
-- (void)i;
-- (void)¸nþXÈóyi;
-- (long long)B.i;
+- (void)k@Õ;
+- (double);
+- (void)DØ\;
+- (long long);
 - (void);
-- (void)®ºn;
-- (void)³ÿ=pÊi;
-- (void)zi;
-- (_Bool)Þi;
-- (id)#®i;
-- (void)ÃÏ¿i;
-- (void)=ÉÓÍi;
-- (void)ÿåÎÑi;
-- (long long)ài;
-- (void)L+ÿÊ7Ð¾éi;
-- (long long)¨uþ;
-- (double)^øi;
-- (void)én;
+- (_Bool)W\;
+- (long long);
+- (void)TÝÀ\;
+- (id)æßßn^;
+- (id)bØ­\;
+- (void)(;
+- (id);
+- (long long);
+- (void);
+- (void);
+- (_Bool)nÄ;
+- (long long)ÌÝÿ;
+- (_Bool);
+- (void)q;
+- (void);
+- (void)dë];
+- (void)7ô^;
+- (double)Ø)9ÿ;
+- (long long)³ÿ{ÛI^;
+- (void)]±;
+- (id)4¦ÿãÉÄ\^;
+- (void)x^;
+- (_Bool)Ø;
+- (long long)aþbí;
+- (_Bool);
+- (struct CGSize)xö^;
+- (id)yÎ	_;
+- (void)MÈJ;
+- (long long);
+- (_Bool);
+- (_Bool)´_;
+- (double)@_;
+- (id)Ú`;
+- (_Bool)èÃ_;
+- (void);
+- (_Bool)\âìþ
+p;
+- (id)dÿÕt
+`;
+- (id);
+- (void)ËÿøÊ0G`;
+- (_Bool)07`;
+- (void),4ÕþßAÛ´J`;
+- (void)8`;
+- (id)Ú`;
+- (_Bool)?wÿº*;
+- (long long);
+- (void);
+- (unsigned long long)ÔÏ`;
+- (_Bool)¬Oÿgk;
+- (_Bool)Üì`;
+- (void)4;
+- (void);
+- (struct UIEdgeInsets)a;
+- (id);
+- (void)ÜL;
+- (void)¨ÚØb;
+- (id)p¼a;
+- (id)a;
+- (_Bool)ÚV;
+- (void)`ùþF«Ô°b;
+- (_Bool);
+- (_Bool);
+- (void)x®jÿºÜÉ°Mb;
+- (long long)4zb;
+- (struct CGRect)`¡;
+- (_Bool)qÿRÉ¬b;
+- (id)X·;
+- (id)ì»b;
+- (void)(¤2ÿ2ÚH0c;
+- (_Bool)|Yÿè®×´ec;
+- (void)Mäl;
+- (float)p
+Òÿ;
+- (void)md;
+- (struct CGRect)c;
+- (_Bool)Ì4¸c;
+- (void)]vÝÔ}d;
+- (void)î@;
+- (id)~¯ØØ<d;
+- (long long);
+- (void)jd;
+- (void)üýÿæÎøpd;
+- (id)(­ÕþnÍ|d;
+- (_Bool)4ÜHàd;
+- (long long)\IÿÃRÏÍd;
+- (double)zg;
+- (_Bool)sÿ;
+- (void)º¸;
+- (long long)\¤öþÆ;
+- (void)àe;
+- (_Bool);
+- (id)x¼e;
+- (double)DÆe;
+- (_Bool)°õrþ;
+- (void)\?f;
+- (id)Ì;
+- (void)l[;
+- (double)dgÞþç;
+- (id)Ä¨-ÿöËDpf;
+- (void)l³þ;
+- (void)f;
+- (unsigned long long)Ðf;
+- (void)F;
+- (void)óm
+g;
+- (id)Ú Sg;
+- (double)³eÊg;
+- (void)k;
+- (id)¨_g;
+- (_Bool)]5Ð@jg;
+- (void)HÿjÝÊ¨g;
+- (double)ÜÑg;
+- (void)¶g;
+- (id)¶´Ë¬n;
+- (double)"Sÿ_Ò'Ëh;
+- (double);
+- (struct CGRect)DÏòþ;
+- (_Bool)´Ah;
+- (struct CGSize);
+- (void)Âÿ&k;
+- (struct CGSize)È¤h;
+- (void)Ð§h;
+- (_Bool)i;
+- (void)li;
+- (_Bool)Þi;
+- (long long);
+- (void)¿ÌüÑi;
+- (id);
+- (void);
+- (long long)"·Ö;
+- (_Bool)àº7ÿJl;
+- (void)ØÜ«ÿ±þÍD!j;
+- (void)\ËÚäj;
+- (void);
+- (id)Pj;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalSidebarSafeAreaInsets:) struct UIEdgeInsets _additionalSidebarSafeAreaInsets; // @synthesize _additionalSidebarSafeAreaInsets;

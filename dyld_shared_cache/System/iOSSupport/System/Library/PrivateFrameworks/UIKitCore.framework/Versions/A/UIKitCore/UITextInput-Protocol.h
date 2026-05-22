@@ -4,56 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDictionary, NSString, UITextPlaceholder, UITextPosition, UITextRange, UIView;
-@protocol UIEditMenuInteractionAnimating, UITextInputDelegate, UITextInputTokenizer;
+@class NSArray, NSDictionary, NSString, UITextPosition, UITextRange, UIView;
+@protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (UITextRange *)ork/Versions/A/MIL;
-- (NSString *)ÁqÐ!ÌDùñÄð1¢!0@ù
-× ;
-- (UITextPosition *)"16@"<UIDragSession>"24;
-- (UITextPosition *)={CGPoint=dd}{CGSize=dd}},N,V_selectionBarRect;
-- (void)essionDestruction:(UITextRange *)arg1 ] requires multiwindow adoption.;
-- (struct CGRect)p] _reuseCell transfering ownership of cell at %@ to drag and drop controller:(UITextPosition *)arg1 %@ ;
-- (long long)and UIControlStateFocused. state = %lu is interpreted as UIControlStateHighlighted.;
-- (void)ntent;
-- (NSArray *)d, numRowsInSection=%ld, oldRowRange=%@;
-- (UITextRange *)dImage;
-- (UITextRange *):(UITextPosition *)arg1 Saving Scene State from background;
-- (UITextPosition *)_TOOLS_MENU_PLACEHOLDER>;
-- (void)herView.top;
-- (UITextPosition *)tifier %lu (0x%lx), or it may have already been ended. Break in UIApplicationEndBackgroundTaskError() to debug.;
-- (long long)%u, earliestModelTime=%s;
-- (void)@;
-- (long long)IScrollEdgeEffect",N,R,VbottomEdgeEffect;
-- (UITextPosition *)àW@;
-- (UITextRange *)1Ybÿ3Ô;
-- (UITextPosition *)%Ó;
-- (void);
+- (UITextPosition *)rrentPlatter;
+- (NSString *)Provider:(UITextRange *)arg1 ]_block_invoke;
+- (NSArray *)_UIMagicMorphView.Destination.progress;
+- (NSDictionary *)ibution;
+- (long long)rC;
+- (struct CGRect)PrivateFrameworks/InputAnalytics.framework/InputAnalytics;
+- (UITextPosition *)DNR0A134;
+- (UITextPosition *)entForTappingGrabber;
+- (id <UITextInputDelegate>)°oþ;
+- (id <UITextInputTokenizer>)µÑ33Âþ¥Ñ33ðÂþÑ33ìÂþ;
+- (UITextRange *)tþ1[43¸Fqþ;
+- (UITextRange *)»¸;
+- (UITextPosition *)43<tþí¨43htþõ¨43@tþ©43´tþ©43Ltþ©43øtþ%©43ltþÅ¨43ÐtþÍ¨43Àtþ¥¨434tþõ¨43tþ¨43tþ¨43ttþÍ¨43Ätþ©43tþÕ¨43¼tþ;
+- (UITextPosition *)ô«R0É­43¤;
+- (void)eight;
+- (void)à[;
 
 @optional
-- (_Bool)eturned error;
-- (void)O;
-- (void)
+- (long long)
 × ;
-- (UITextRange *);
-- (NSAttributedString *);
+- (void)±^Ð1Â0@ù
+× ;
+- (void);
 - (void)0@ù
 × ;
-- (void)plane:(id <UIEditMenuInteractionAnimating>)arg1;
-- (void)rStaticButtonVisibilityChange;
-- (void)itchState:(UITextRange *)arg1 ,V_primaryAuxiliarySwitchState;
-- (UIView *)ate. Unable to find closest valid date to date %@ with lower bounds %@ and upper bounds %@.;
-- (void)chive_write_disk_set_options(struct ui_archive *, int);
-- (void)ageCodingKey;
-- (void)r matrix effect without a matix;
-- (void);
-- (_Bool)UIDisplacementFunction;
-- (UITextPlaceholder *);
-- (void)#;
-- (void)=[;
-- (void)o?;
-- (void);
+- (long long);
+- (void);
+- (void)Insets;
+- (void);
+- (void)SÁ;
+- (void)ContentUnavailableTextPropertiesCG;
+- (void)y¢¿7__Gt;
+- (_Bool)?;
+- (_Bool)];
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -83,5 +71,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

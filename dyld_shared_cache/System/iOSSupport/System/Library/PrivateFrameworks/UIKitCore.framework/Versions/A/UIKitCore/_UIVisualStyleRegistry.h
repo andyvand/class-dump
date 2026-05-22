@@ -11,16 +11,15 @@
     NSMutableDictionary *__classToVisualStyleClass;
 }
 
++ (id)TB,N,GisEnqueueingLoad;
 + (id);
-+ (id)ForScrollingToRowAtIndexPath:(long long)arg1 atScrollPosition: /* Error: Ran out of types for this method. */;
-+ (id)DisplayLink;
-- (void);
-- (Class)";
-- (Class)daryTextColor:(Class)arg1 %@ (%@)
-  tertiaryTextColor:%@ (%@)
-) /* Error: Ran out of types for this method. */;
-- (void);
-- (id)eDisplayConfiguration: /* Error: Ran out of types for this method. */;
++ (id).;
+- (Class);
+- (id);
+- (Class)áÿÐ!@ùñX°1Â0@ù
+× ;
+- (void)Context",&,N,V_candidateGenerationContext;
+- (void)MorphPresentationAnimationC;
 
 @end
 

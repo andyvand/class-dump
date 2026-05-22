@@ -11,11 +11,11 @@
     _Bool _flipLayoutsHorizontally;
 }
 
-+ (id)Hé8;
++ (id);
 - (void);
 - (_Bool);
+- (id);
 - (void);
-- (id)ewPresentationDelegateP;
 
 // Remaining properties
 @property(nonatomic) _Bool flipLayoutsHorizontally; // @synthesize flipLayoutsHorizontally=_flipLayoutsHorizontally;

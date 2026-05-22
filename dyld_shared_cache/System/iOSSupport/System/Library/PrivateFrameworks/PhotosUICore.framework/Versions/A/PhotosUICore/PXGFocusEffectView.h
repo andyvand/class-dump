@@ -25,13 +25,14 @@
 - (void);
 - (struct CGRect);
 - (void);
+- (id)0@ù
+× ;
+- (void)hûÿ;
+- (void)nHeaderLayout.m;
+- (void)oDictionaryRepresentation(NSString *__strong);
 - (void);
-- (void);
-- (void);
-- (id)<;
-- (id);
-- (void)!GGGGG;
-- (void)vider:(id)arg1 [%{public}ld](%{public}s) Aborting live photo request due to cancellation;
+- (void)ü4;
+- (id)|¶ÿéP¢7;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView;

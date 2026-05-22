@@ -24,18 +24,18 @@ __attribute__((visibility("hidden")))
     NSNumber *_voiceCommandDisambiguationTargetCount;
 }
 
-+ (id)erAssertion"48;
-+ (id)IDSDelegate"8@16@"IMDiMessageIDSTrustedData"24@"IMDiMessagePipelineResources"32@"IMMessageContext"40@"IMPowerAssertion"48;
-+ (id)onnected>>;
-+ (id)"NSString"40@"NSString"48@"NSDictionary"56B64B68B72;
-+ (id)SDictionary"56@"NSNumber"64;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)a;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,13 +52,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id)ices;
-- (void)SGz_Xx;
+- (id);
+- (void);
 - (id);
 - (long long);
-- (void)2;
 - (void);
-- (id)®Gázì?Ãõ(\ÂÅ?;
+- (id);
+- (void)tionProperty;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *alternativeRevertTexts; // @synthesize alternativeRevertTexts=_alternativeRevertTexts;

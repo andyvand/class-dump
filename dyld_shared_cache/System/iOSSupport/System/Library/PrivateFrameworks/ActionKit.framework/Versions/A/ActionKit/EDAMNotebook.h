@@ -51,15 +51,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (id)8@"NSError"16;
-- (void)ailedAddresses;
-- (void)¡º;
+- (id);
+- (void);
+- (void)
+× ;
+- (id)Tm¤m;
+- (void)r">32;
+- (void)xÏ;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMBusinessNotebook *businessNotebook; // @synthesize businessNotebook=_businessNotebook;

@@ -19,7 +19,7 @@
 - (id);
 - (CDStruct_24e54195);
 - (struct CGSize);
-- (void)0e;
+- (void)PhotosUICore.PostAssetsToSharedCollectionAction;
 
 // Remaining properties
 @property(nonatomic) struct CGSize TVPreviewSize; // @synthesize TVPreviewSize;

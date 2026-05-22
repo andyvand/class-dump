@@ -13,9 +13,8 @@
 - (void);
 - (Class);
 - (void);
-- (void)!ÄFù0ð1b0@ù
-× ;
-- (void)t)òj_;
+- (void);
+- (void)ordingIndicatorImageView:(_Bool)arg1;
 
 @end
 

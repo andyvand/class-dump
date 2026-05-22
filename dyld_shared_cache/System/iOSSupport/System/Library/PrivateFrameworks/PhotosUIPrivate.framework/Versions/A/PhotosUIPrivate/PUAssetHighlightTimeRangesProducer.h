@@ -18,20 +18,21 @@
     MISSING_TYPE *analysisProgress;
 }
 
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)essibilityDescription;
+- (id)
+× ;
+- (void),R,N;
 
 // Remaining properties
 @property(nonatomic, retain) id <PXDisplayAsset> asset; // @synthesize asset;

@@ -20,31 +20,32 @@ __attribute__((visibility("hidden")))
     struct CGAffineTransform _transform;
 }
 
-+ (_Bool)ndViewsAnimated: /* Error: Ran out of types for this method. */;
-+ (_Bool)8tÿÞ;
++ (_Bool)tTextStyleHeadline1;
++ (_Bool)*?þÿ(?þÿ;
 - (_Bool);
 - (void);
 - (void);
-- (void)";
+- (void);
 - (void);
 - (double);
 - (struct CGPoint);
 - (void);
-- (void);
 - (struct CGAffineTransform);
 - (double);
-- (_Bool);
 - (id);
-- (void);
-- (struct CGAffineTransform)ontroller";
-- (double)rRow:inCalendarUnit: /* Error: Ran out of types for this method. */;
-- (void)ftEndCapView;
-- (void):(struct CGAffineTransform)arg1;
-- (void)ometricTypes;
-- (void)ä;
-- (id);
+- (struct CGAffineTransform);
 - (double);
-- (_Bool)µÿº;
+- (double)!Dù±\ð1Â0@ù
+× ;
+- (id);
+- (_Bool)debarArrowButtonRecognizer;
+- (void)n;
+- (void)sedViewPrioritizationType;
+- (void)micAutoScrollInsets;
+- (void)View;
+- (void)eView;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) double dampingRatio; // @synthesize dampingRatio=_dampingRatio;

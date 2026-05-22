@@ -11,9 +11,9 @@
     _Bool __accessibilityIsInSettingsTableViewCell;
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (_Bool);
 - (unsigned long long);

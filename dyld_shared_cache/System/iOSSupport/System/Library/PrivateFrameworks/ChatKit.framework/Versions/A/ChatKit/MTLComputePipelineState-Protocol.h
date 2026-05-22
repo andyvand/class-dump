@@ -8,14 +8,13 @@
 @protocol MTLDevice, MTLFunctionHandle;
 
 @protocol MTLComputePipelineState
-- (MTLComputePipelineReflection *);
-- (CDStruct_aa0b146f)qÅÐ1¢!0@ù
+- (struct MTLResourceID)0@ù
 × ;
-- (unsigned long long)NameByHandle;
-- (id <MTLDevice>)z8ûÿÀ8ûÿ;
-- (id <MTLFunctionHandle>)¸;
-- (long long);
-- (_Bool);
+- (unsigned long long)startBottom;
+- (MTLComputePipelineReflection *);
+- (id <MTLFunctionHandle>)±ÿ£jxÿÿÿÅ£jl±ÿ;
+- (id <MTLFunctionHandle>);
+- (long long).;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

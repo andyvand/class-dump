@@ -17,11 +17,11 @@
 
 + (id);
 + (_Bool);
-+ (_Bool)Forward (Action Name);
++ (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)anges;
 
 @end
 

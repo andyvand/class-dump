@@ -5,8 +5,8 @@
 class icu::FilteredBreakIteratorBuilder {
 public: // (access info unavailable from symbols alone)
     FilteredBreakIteratorBuilder();
-    createEmptyInstance(UErrorCode&);
-    createInstance(UErrorCode&);
-    createInstance(icu::Locale const&, UErrorCode&);
+    auto createEmptyInstance(UErrorCode&);
+    auto createInstance(UErrorCode&);
+    auto createInstance(icu::Locale const&, UErrorCode&);
     ~FilteredBreakIteratorBuilder();
 };

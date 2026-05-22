@@ -16,23 +16,23 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (void);
-- (id)ÔAo!øEùÁÐ1¢!0@ù
-× ;
-- (_Bool)iewProvider:(id)arg1;
-- (id)Position: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (_Bool)4Ø¼þõ4Ô¼þõ4Ð¼þõ4Ì¼þ;
+- (void)donSerifs ;
+- (void)ÞÿêÙùb;
+- (_Bool);
+- (_Bool);
+- (_Bool)&.ÿÕ?Öc;
+- (void)óc;
+- (void)ÿíÚ,d;
+- (void)Ô!jÿ:(id)arg1 £Éàd;
+- (void)ÌY¾ÿ}ÞÓâ­f;
 - (void);
-- (void)o];
-- (void)°Ç×¢1^;
-- (void)ÞWÔ;
-- (id)dþG:(id)arg1 ;
-- (void)´u+ÿöË-Ñ_;
-- (_Bool)Úü_;
-- (void)fMb;
-- (void);
+- (void)ÿ;
+- (id);
 
 @end
 

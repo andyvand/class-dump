@@ -23,13 +23,16 @@
 
 + (id);
 + (id);
-- (void)`;
+- (void);
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,10 +43,7 @@
 - (id);
 - (id);
 - (void);
-- (id)for arch %s;
-- (id);
-- (id);
-- (id);
+- (id)an avatar if you don't give me one;
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTImageCache> cache; // @synthesize cache=_cache;

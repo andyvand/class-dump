@@ -28,14 +28,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
+- (void);
+- (unsigned long long);
+- (void);
 - (id);
-- (unsigned long long)Manager"16@"HMCameraClip"24;
-- (void);
-- (id)qß;
+- (void)t it is not a part of the presented VC of %@ (%@)!;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;

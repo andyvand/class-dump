@@ -7,11 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool);
-- (struct _NSZone *)sssiiiiiiIiiIb1b1b1b29II[1i]}{?=ssssiiiiiiIiiIb1b1b1b29II[1i]}{_CGSTabletPointData=iiiSS{?=ss}SsSsss}{_CGSTabletProximityData=SSSSSSIQICCs}{?=ss(?=[15f][15i][30s][60c])}{?=ssIQSs[11i]}{_CGGestureData=IQBBCCIfSC(?={?=fff[8i]}{?=f[10i]}{?=fffI[7i]}{?=IIIffffffII}{?=II[9i]}{?=f[10i]}{?=I[10i]}{?=ff[9i]})}){?=ss[15i]})^vSS^{__CGSEventAppendix}IB^{__CFData}}16Q24B32^{CPXEventProcessorContext=^{CGXSession}^{CGXSessionProcessData}^{CPSProcessRec}}36@44;
-- (_Bool)nvalid Exception Format;
-- (id)2eL;
-- (_Bool);
+- (struct _NSZone *)2)OäI?hoKáì[U-¶ÏURõ}ãµv06ÌçÝ¹:× îIã½3ºbªûVX=ÂeyXPm§_Å©/@âÔWdefìÉ\Pk>7|§»W%0Qv4AV®s\ÅgÄÐ]jûÜÄBHWìÄëÞeSå¸è²Ô'¸åÈ}È½P¹á³ZF]:Ba?ñÇÁü¶¹µìd6ø¶7¦øfáßn7m`Ù«ð>52;·%Ã:°d®Õ_rDdÕÈº /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

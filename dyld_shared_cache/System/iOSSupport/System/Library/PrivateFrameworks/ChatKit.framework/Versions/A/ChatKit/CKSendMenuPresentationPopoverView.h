@@ -19,29 +19,29 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct CGAffineTransform);
-- (void)Fixing;
-- (void)edObjectIdentifier;
-- (void)eColors;
-- (id)iew;
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (id)ng;
-- (id)%2$@ %3$@;
-- (id)enta pink;
-- (id);
-- (id)Model(UI) pasteboardPropertyListForType:(struct CGRect)arg1 ];
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)scriptContoller_Collaboration;
-- (void)ôzèÿÀ;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)reating IntentPerson from handle;
+- (void)ckedConversationChatItem;
+- (void)¼¸;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *appView; // @synthesize appView=_appView;

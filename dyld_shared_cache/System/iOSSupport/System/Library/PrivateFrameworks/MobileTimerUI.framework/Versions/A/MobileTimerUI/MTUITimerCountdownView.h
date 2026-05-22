@@ -19,37 +19,37 @@
     CALayer *_mainLayer;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (double);
 - (id);
 - (void);
+- (void);
 - (id);
+- (double);
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
-- (void);
 - (id);
 - (void);
 - (double);
+- (id);
 - (void);
-- (double);
+- (id);
 - (void);
 - (_Bool);
-- (double);
-- (double);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) UIColor *backgroundBarColor; // @synthesize backgroundBarColor=_backgroundBarColor;

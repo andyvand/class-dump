@@ -36,10 +36,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) CALayer *dodgeRingLayer; // @synthesize dodgeRingLayer=_dodgeRingLayer;

@@ -12,10 +12,10 @@
     MISSING_TYPE *isGradientMaskEnabled;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)ð;
 
 @end
 

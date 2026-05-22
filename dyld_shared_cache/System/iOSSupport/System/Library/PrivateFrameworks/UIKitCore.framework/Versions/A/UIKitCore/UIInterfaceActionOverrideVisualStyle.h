@@ -20,22 +20,21 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (void),;
 - (void);
-- (void)L;
 - (void);
-- (id);
+- (void);
+- (void);
 - (id);
-- (CDUnknownBlockType)orMessageGUID:from service that doesn't support it. File a radar-------*/ /* Error: Ran out of types for this method. */;
-- (id)t doesn't support it. File a radar-------*/;
-- (double)----calling into sendNicknameInfoToChatID:from service that doesn't support it. File a radar-------*/ /* Error: Ran out of types for this method. */;
-- (_Bool)omCloud transfer %@;
-- (id)rieve chats in range (%ld,%ld) as there are not that many, so retrieving all chats, range (%ld,%ld).;
 - (id);
+- (CDUnknownBlockType);
+- (id);
+- (double);
 - (_Bool);
 - (id);
-- (void)0@ù
-× ;
+- (id);
+- (_Bool)Point:(id)arg1;
+- (id)ewTransitioningEntry;
+- (void)!h;
 
 // Remaining properties
 @property(nonatomic) _Bool alignActionSeparatorLeadingEdgeWithContent; // @synthesize alignActionSeparatorLeadingEdgeWithContent=_alignActionSeparatorLeadingEdgeWithContent;

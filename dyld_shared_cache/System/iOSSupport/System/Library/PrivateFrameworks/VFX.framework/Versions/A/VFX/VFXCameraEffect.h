@@ -19,7 +19,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)TileRenderPipelineDescriptor"16^@24;
 - (struct __CFXWorld *);
 - (void);
 - (_Bool);
@@ -57,16 +57,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (_Bool)õAFÍ{?;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) NSArray *animationKeys;

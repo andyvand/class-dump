@@ -16,7 +16,7 @@
 
 - (void);
 - (void);
-- (void)6n;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -26,8 +26,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)shareNameAndPhoto;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backwardCompatibleMessageGUID; // @synthesize backwardCompatibleMessageGUID=_backwardCompatibleMessageGUID;

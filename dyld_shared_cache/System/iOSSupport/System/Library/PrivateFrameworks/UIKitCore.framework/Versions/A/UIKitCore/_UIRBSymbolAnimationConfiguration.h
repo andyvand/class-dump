@@ -13,11 +13,12 @@ __attribute__((visibility("hidden")))
     NSDictionary *_options;
 }
 
-- (void).;
+- (unsigned int);
 - (void);
-- (id);
-- (unsigned int),V_subitems;
-- (void)Pwþÿ;
+- (id)0@ù
+× ;
+- (void)atorSize;
+- (void)Y23¤};
 
 // Remaining properties
 @property(nonatomic) unsigned int animation; // @synthesize animation=_animation;

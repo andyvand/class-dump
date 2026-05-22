@@ -14,13 +14,13 @@
 }
 
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (long long)!;
-- (void);
-- (void);
-- (id);
-- (void)× ;
+- (long long);
+- (void)etPreferredContentSize:(long long)arg1;
+- (void)nt;
+- (void)TðXÄY;
 
 // Remaining properties
 @property(copy, nonatomic) NSObject<NSCopying> *key; // @synthesize key=_key;

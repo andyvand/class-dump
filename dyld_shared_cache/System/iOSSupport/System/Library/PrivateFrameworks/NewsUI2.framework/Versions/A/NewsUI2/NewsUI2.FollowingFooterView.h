@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void);
-- (id)versationsDate;
+- (id);
+- (void)'á;
 
 @end
 

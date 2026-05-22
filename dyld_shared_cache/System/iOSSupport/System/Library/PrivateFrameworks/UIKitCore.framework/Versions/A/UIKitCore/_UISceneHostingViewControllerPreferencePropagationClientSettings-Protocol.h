@@ -5,7 +5,6 @@
 //
 
 @protocol _UISceneHostingViewControllerPreferencePropagationClientSettings
-- (void)ot a CFArray;
 
 // Remaining properties
 @property(nonatomic) int preferredStatusBarVisibility;

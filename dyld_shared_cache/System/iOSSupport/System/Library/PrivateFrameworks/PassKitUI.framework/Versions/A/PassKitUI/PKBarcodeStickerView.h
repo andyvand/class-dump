@@ -46,17 +46,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (long long);
-- (void);
-- (void);
 - (struct CGSize);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *altImage; // @synthesize altImage=_altImage;

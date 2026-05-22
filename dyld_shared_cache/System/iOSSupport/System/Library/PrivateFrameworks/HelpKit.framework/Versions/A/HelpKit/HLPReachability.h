@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (long long);
 - (long long);
 - (void);
-- (long long);
-- (long long);
 - (_Bool);
 - (void);
+- (long long);
+- (_Bool);
 
 @end
 

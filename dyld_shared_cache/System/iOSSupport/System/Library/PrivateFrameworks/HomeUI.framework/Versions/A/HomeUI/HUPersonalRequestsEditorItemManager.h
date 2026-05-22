@@ -40,9 +40,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void)m:itemProvidersCreator:] /* Error: Ran out of types for this method. */;
+- (id)rySetup_Detail_SingleUtility;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAssistantAccessControl *accessControl;

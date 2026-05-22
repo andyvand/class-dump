@@ -23,16 +23,16 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (double);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)eHandler;
 - (void);
-- (void)0;
-- (CDUnknownBlockType)=;
+- (void);
+- (CDUnknownBlockType)À;
+- (void)5;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> displayAsset; // @synthesize displayAsset=_displayAsset;

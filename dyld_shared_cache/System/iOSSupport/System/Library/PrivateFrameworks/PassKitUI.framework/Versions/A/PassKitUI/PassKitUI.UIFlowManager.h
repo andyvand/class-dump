@@ -18,8 +18,10 @@
     MISSING_TYPE *inflightRenderersBeingPresented;
 }
 
-- (void);
 - (id);
+- (void)±øÐ1â
+0@ù
+× ;
 
 @end
 

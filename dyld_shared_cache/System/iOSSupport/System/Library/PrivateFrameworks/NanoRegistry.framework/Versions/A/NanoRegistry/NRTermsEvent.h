@@ -41,13 +41,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool flaggedForSend; // @synthesize flaggedForSend=_flaggedForSend;

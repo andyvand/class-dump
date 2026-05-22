@@ -5,8 +5,5 @@
 //
 
 @protocol WFSaveDropboxFileActionUserInterface
-- (void)A£ð!¤FùÑµ
-1b0@ù
-× ;
 @end
 

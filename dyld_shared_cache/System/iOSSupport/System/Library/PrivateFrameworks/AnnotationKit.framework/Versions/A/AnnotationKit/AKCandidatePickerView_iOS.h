@@ -27,22 +27,22 @@
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void)s;
-- (id)estinationFrame;
-- (void)_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id FROM message WHERE subject = ?   AND item_type = ? ORDER BY message.ROWID ASC;;
 - (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (SEL);
-- (void)ngle:(id)arg1;
-- (id)awWasForDrawingBounds;
+- (void);
+- (void);
+- (id)ngCopied;
+- (void)geWhenHighlighted:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

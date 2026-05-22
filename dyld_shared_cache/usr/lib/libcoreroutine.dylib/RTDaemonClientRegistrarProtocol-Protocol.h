@@ -5,8 +5,7 @@
 //
 
 @protocol RTDaemonClientRegistrarProtocol
-- (long long)°1¢!0@ù
-× ;
-- (_Bool)sitive}@, updated LOI, %{sensitive}@;
+- (_Bool)h;
+- (_Bool)y LOI count, before, %lu, after, %lu;
 @end
 

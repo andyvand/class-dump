@@ -17,8 +17,8 @@
 - (double);
 - (void);
 - (id);
-- (void);
 - (CDUnknownBlockType);
+- (void)eOverlapErrorTitle;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;

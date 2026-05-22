@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIScrollerImp;
-
 @protocol _UIScrollerImpDelegate
-- (struct CGRect)fication failure.;
-- (struct CGRect)is NULL;
-
-@optional
-- (struct CGRect)rson:(_UIScrollerImp *)arg1 forAccount:(struct CGRect)arg2;
-- (void)ureValueCt;
-- (void);
 @end
 

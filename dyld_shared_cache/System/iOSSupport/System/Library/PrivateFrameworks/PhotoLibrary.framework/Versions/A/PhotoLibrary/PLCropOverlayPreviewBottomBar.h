@@ -21,14 +21,14 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (long long);
-- (void)onClicked:(long long)arg1;
 
 // Remaining properties
 @property(nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;

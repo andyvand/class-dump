@@ -5,15 +5,15 @@
 class icu::IslamicUmalquraCalendar {
 public: // (access info unavailable from symbols alone)
     IslamicUmalquraCalendar(icu::Locale const&, UErrorCode&);
-    clone() const;
-    getDynamicClassID() const;
-    getStaticClassID();
-    getType() const;
-    handleComputeFields(int, UErrorCode&);
-    handleGetMonthLength(int, int, UErrorCode&) const;
-    handleGetYearLength(int) const;
-    monthStart(int, int, UErrorCode&) const;
-    yearLength(int, UErrorCode&) const;
-    yearStart(int, UErrorCode&) const;
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto getType() const;
+    auto handleComputeFields(int, UErrorCode&);
+    auto handleGetMonthLength(int, int, UErrorCode&) const;
+    auto handleGetYearLength(int, UErrorCode&) const;
+    auto monthStart(int, int, UErrorCode&) const;
+    auto yearLength(int, UErrorCode&) const;
+    auto yearStart(int, UErrorCode&) const;
     ~IslamicUmalquraCalendar();
 };

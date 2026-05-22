@@ -7,10 +7,10 @@
 @class AMSBag, NSString;
 
 @protocol AMSBagConsumer
-+ (NSString *)ÿÀnÿÿ8oÿÿ¬oÿÿtpÿÿpÿÿÔpÿÿìpÿÿqÿÿ¸qÿÿøqÿÿrÿÿ(rÿÿ@rÿÿXrÿÿprÿÿrÿÿÈrÿÿ;
-+ (NSString *)alid.;
++ (NSString *)ñóðóLö¸÷ øTùÔû;
++ (NSString *)]dðÿC;
 
 @optional
-+ (AMSBag *);
++ (AMSBag *)urning scene identifier %{public}@;
 @end
 

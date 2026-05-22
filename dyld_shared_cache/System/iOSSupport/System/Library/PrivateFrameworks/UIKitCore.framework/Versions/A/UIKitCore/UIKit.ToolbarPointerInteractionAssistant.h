@@ -12,13 +12,12 @@
     MISSING_TYPE *pointerAssistant;
 }
 
-- (id)tivatedConfigurationCommand;
-- (void)0@ù
-× ;
-- (id)ctions: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)zd;
-- (void)D;
+- (id);
+- (id)System/Library/PrivateFrameworks/EmojiFoundation.framework/EmojiFoundation;
+- (id)xFöþ;
+- (void)èl;
+- (void)vÜàïm;
+- (void);
 
 @end
 

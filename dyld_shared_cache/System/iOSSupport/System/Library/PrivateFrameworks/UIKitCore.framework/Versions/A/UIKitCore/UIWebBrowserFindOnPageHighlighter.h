@@ -22,39 +22,40 @@ __attribute__((visibility("hidden")))
     unsigned long long _highlightedMatchIndex;
 }
 
-+ (_Bool)so creating it before resubmitting metric.;
++ (_Bool);
 - (_Bool);
-- (void)brary/Frameworks/AppKit.framework/Versions/C/AppKit;
-- (void)ib/libSystem.B.dylib;
-- (void)TEXT;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ithState:(id)arg1;
-- (id)ice:(id)arg1 account:pendingResourceWithMetadata:fromID:acknowledgementBlock:context: /* Error: Ran out of types for this method. */;
-- (unsigned long long)hReply: /* Error: Ran out of types for this method. */;
-- (void)stDecisionForSender:service:trustIndicator:messageBody:countryCode:requestReason:containsOneTimeCode:spamDetectionSource:decisionInfo:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)sForIdentifiers:reply: /* Error: Ran out of types for this method. */;
-- (unsigned long long)icknameForRecordID:handle: /* Error: Ran out of types for this method. */;
-- (void)ChatRoom: /* Error: Ran out of types for this method. */;
-- (_Bool),R,N,V_analyticRecordZone;
 - (void);
-- (_Bool)g Block Message Delivered Message;
-- (void)nloadRequest;
 - (void);
-- (id)nfo;
-- (void)fault %@ set, forcing category %ld sub category %ld;
-- (void)r:(unsigned long long)arg1 %@;
 - (void);
-- (void)lass:(id)arg1 itemIdentifier:typeIdentifier:options:completionHandler:) /* Error: Ran out of types for this method. */;
-- (void)invalidAddressFormat;
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
-- (id)ù
+- (void);
+- (unsigned long long);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (void)!
+ð!@Cù±f1Â0@ù
 × ;
-- (id)ColorOnLight;
-- (void)yYKey;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -10,7 +10,7 @@
 {
 }
 
-- (struct CGSize)invalid cell;
+- (struct CGSize);
 - (Class);
 
 @end

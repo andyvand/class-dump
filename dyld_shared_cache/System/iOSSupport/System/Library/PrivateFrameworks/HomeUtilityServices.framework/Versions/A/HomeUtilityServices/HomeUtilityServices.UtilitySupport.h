@@ -14,8 +14,8 @@
     MISSING_TYPE *customerServiceBusinessChat;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

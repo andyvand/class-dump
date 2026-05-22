@@ -11,8 +11,8 @@
     MISSING_TYPE *observers;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

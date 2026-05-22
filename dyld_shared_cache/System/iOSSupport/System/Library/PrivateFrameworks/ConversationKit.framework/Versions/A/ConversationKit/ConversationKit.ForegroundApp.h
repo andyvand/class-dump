@@ -12,9 +12,9 @@
     MISSING_TYPE *type;
 }
 
-- (void);
 - (id);
-- (id)´Kýÿ;
+- (id);
+- (void)eIterableP;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *debugDescription;

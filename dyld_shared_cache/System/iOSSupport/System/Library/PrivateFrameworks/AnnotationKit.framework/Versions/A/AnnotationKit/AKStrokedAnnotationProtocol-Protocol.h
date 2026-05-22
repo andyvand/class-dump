@@ -7,12 +7,6 @@
 @class UIColor;
 
 @protocol AKStrokedAnnotationProtocol
-- (UIColor *)p>:started loading async image /* Error: Ran out of types for this method. */;
-- (UIColor *)LPImage<%p>:timed out in _waitForAsynchronouslyLoadedImageIfNeeded /* Error: Ran out of types for this method. */;
-- (UIColor *)rAsynchronouslyLoadedImageIfNeeded;
-- (void);
-- (long long);
-- (double)ndler;
 
 // Remaining properties
 @property long long brushStyle;

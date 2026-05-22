@@ -39,16 +39,18 @@
 - (float);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (CDStruct_da2e99ad);
 - (double);
-- (CDStruct_3ead2808)displayScaleMultiplier;
-- (void)tTestResult.m;
-- (void)ize.y;
-- (CDStruct_da2e99ad)Total;
+- (CDStruct_3ead2808);
+- (void);
+- (void);
+- (void);
+- (unsigned long long)Ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PXGMetalCaptureSpriteTexture *captureSpriteTexture; // @synthesize captureSpriteTexture=_captureSpriteTexture;

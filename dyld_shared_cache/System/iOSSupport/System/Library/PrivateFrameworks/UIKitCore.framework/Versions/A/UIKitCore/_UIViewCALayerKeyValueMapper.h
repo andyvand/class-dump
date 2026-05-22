@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ailablePageView;
-+ (id)in the debugger. View controller:(id)arg1 %@;
++ (id)dicator;
++ (id)q;
 
 @end
 

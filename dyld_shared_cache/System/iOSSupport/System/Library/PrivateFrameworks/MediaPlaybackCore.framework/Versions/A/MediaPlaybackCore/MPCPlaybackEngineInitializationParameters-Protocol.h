@@ -7,8 +7,6 @@
 @class AVAudioSession, MPNowPlayingInfoCenter, MPRemoteCommandCenter, NSArray, NSString;
 
 @protocol MPCPlaybackEngineInitializationParameters
-- (NSArray *);
-- (NSString *) ;
 
 // Remaining properties
 @property(readonly, nonatomic) AVAudioSession *audioSession;

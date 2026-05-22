@@ -19,19 +19,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)earIgnoredNicknameRecords;
-- (void);
-- (void);
-- (struct CGSize);
-- (void)!Gù1Â°1¢!0@ù
-× ;
-- (id)readWebViewDidLayout:byScrolling: /* Error: Ran out of types for this method. */;
-- (id)reFloatingContentViewsIfNeeded;
-- (id)
-, ;
-- (id)ers (%ld) doesn't match the number required (%ld) for the requested spine location (%@);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (struct CGSize);
+- (id)te;
+- (id)H;
+- (void);
+- (id)øz_;
+- (void)/AÒÔg;
+- (_Bool)&ÿ%Ð~;
 
 // Remaining properties
 @property(readonly, nonatomic) UIInputSwitcherTableCellBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;

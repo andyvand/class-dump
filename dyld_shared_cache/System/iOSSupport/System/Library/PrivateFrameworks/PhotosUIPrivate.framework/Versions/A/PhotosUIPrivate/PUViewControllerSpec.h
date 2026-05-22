@@ -42,19 +42,20 @@
 - (long long);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (id);
+- (void);
 - (struct CGSize);
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)qq}16q32@40;
-- (void);
-- (id)á¿c½yTL¿y
- ;
-- (void);
-- (id);
+- (void)q"Ð1â
+0@ù
+× ;
+- (void)hotoPlayback;
+- (id)gs;
+- (void)derItem:(id)arg1;
+- (id)ce;
 
 // Remaining properties
 @property(nonatomic, setter=_setChangeCount:) long long _changeCount; // @synthesize _changeCount=__changeCount;

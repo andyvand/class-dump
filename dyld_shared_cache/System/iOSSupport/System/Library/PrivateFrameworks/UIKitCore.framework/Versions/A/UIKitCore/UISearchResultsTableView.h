@@ -15,16 +15,16 @@
     UISearchDisplayController *_controller;
 }
 
-- (id),;
-- (void), activity should be in defer state;
-- (void)etting userinfo:(double)arg1 %@  on transfer:%@ /* Error: Ran out of types for this method. */;
-- (double)achment operation deletedRecordIDs %@;
-- (void)try this record again on next sync. %@;
-- (void)(;
 - (id);
-- (id)anelLayout.swift;
-- (void)áa;
-- (void)¬Qe;
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (id)es);
+- (id);
+- (void)8«ÞþzàÉðc;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_topShadowView, setter=_setTopShadowView:) UIView *_topShadowView;

@@ -10,14 +10,14 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id)r°!EùqÅÐ1¢!0@ù
++ (id)Â0@ù
 × ;
-+ (id)Ô ;
-+ (id)e: /* Error: Ran out of types for this method. */;
-- (_Bool);
++ (id)"16q24B32;
++ (id);
++ (id)àôÍ°b;
++ (id)ÿ1÷;
 - (long long);
+- (_Bool)([¾ÿn)×8^;
 
 @end
 

@@ -19,11 +19,11 @@
 - (struct __CVBuffer *);
 - (id);
 - (struct __CVBuffer *);
-- (void);
+- (CDStruct_1b6d18a9);
 - (unsigned long long);
 - (void);
-- (CDStruct_1b6d18a9);
 - (void);
+- (void)ticleUpdate_215;
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *auxImageBuffer; // @synthesize auxImageBuffer=_auxImageBuffer;

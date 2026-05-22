@@ -21,17 +21,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ecureElementAvailable;
+- (void)P3áF;
+- (void)MH¡¸N;
+- (void)'êÿÂ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

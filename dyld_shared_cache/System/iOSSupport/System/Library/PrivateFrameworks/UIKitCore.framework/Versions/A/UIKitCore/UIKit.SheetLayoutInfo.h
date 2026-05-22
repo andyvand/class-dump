@@ -177,8 +177,8 @@
 - (void);
 - (void);
 - (void);
-- (double)an unknown error.  We'll try syncing this message again on the next sync. Error code:%llu /* Error: Ran out of types for this method. */;
-- (id)m;
+- (double);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -190,14 +190,14 @@
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (struct CGRect);
-- (_Bool)l;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)?ן;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -292,7 +292,7 @@
 - (long long);
 - (id);
 - (_Bool);
-- (long long);
+- (long long);
 - (struct CGRect);
 - (struct CGRect);
 - (double);
@@ -305,7 +305,7 @@
 - (id);
 - (id);
 - (double);
-- (CDUnknownBlockType)ց;
+- (CDUnknownBlockType);
 - (double);
 - (_Bool);
 - (id);
@@ -321,94 +321,93 @@
 - (_Bool);
 - (long long);
 - (id);
+- (_Bool);
+- (_Bool);
 - (double);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (double);
-- (double);
 - (_Bool);
 - (void);
 - (struct CGRect);
+- (struct CGRect);
 - (void);
-- (void)a_range;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (double);
-- (void);
+- (struct CGAffineTransform);
+- (void);
+- (_Bool);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (double);
+- (double);
 - (id);
 - (_Bool);
-- (void)eLimit:(double)arg1 forCacheIdentifier:cacheReference:representationKind: /* Error: Ran out of types for this method. */;
-- (_Bool)mageRequestHandler:videoAssetFileURLRequestHandler: /* Error: Ran out of types for this method. */;
-- (void)urceIdentifier;
-- (id)New library created for user identity:%@ /* Error: Ran out of types for this method. */;
-- (void)e;
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)±Äð1¢!0@ù
+- (_Bool);
+- (_Bool);
+- (void)!ÜDùq[ð1Â0@ù
 × ;
-- (void)r!XDù1Åð1¢!0@ù
+- (void)0@ù
 × ;
-- (void)0@ù
+- (double)Cù1e1Â0@ù
 × ;
-- (id)Ð!ÔFùÑËÐ1¢!0@ù
+- (void)!
+ð!Bù±f1Â0@ù
 × ;
+- (void)dedBySystemApp"b1};
+- (void)ablePlainHeaderFooterBackgroundColor;
+- (void)etPortalsLollipopDotsToContainerWindow:(double)arg1;
+- (_Bool)ardwareKeyboardLayoutName: /* Error: Ran out of types for this method. */;
+- (void)rPresented;
+- (void)geForHidingNavigationBar;
+- (void)rAnimationKey:(struct CGRect)arg1 trackingSetup: /* Error: Ran out of types for this method. */;
+- (double)orReuse: /* Error: Ran out of types for this method. */;
+- (_Bool)sertPrivateSubview:belowLayer: /* Error: Ran out of types for this method. */;
+- (void):(long long)arg1;
+- (void)ion:(_Bool)arg1;
+- (void)mber",&,N,G_cachedInterfaceOrientation,S_setCachedInterfaceOrientation:(double)arg1 ,V__cachedInterfaceOrientation;
+- (double);
+- (void)	
+;
 - (double);
-- (void)1¢!0@ù
-× ;
-- (id)uration: /* Error: Ran out of types for this method. */;
-- (_Bool)asMessage: /* Error: Ran out of types for this method. */;
-- (void)ontinuousFeedback;
-- (long long)w;
-- (struct CGRect)rFindAndReplace: /* Error: Ran out of types for this method. */;
-- (double)erformMoveUpdate:onCollectionView: /* Error: Ran out of types for this method. */;
-- (_Bool)ailLabel;
-- (id)List;
-- (double)>",R,N;
-- (id);
-- (void)Ä@4¬¨,&(5Ä7D:(id)arg1 l:(_Bool)arg2 È:8AA /* Error: Ran out of types for this method. */;
-- (void)utSessionEfficacyAccumulator] Updated entry for source:(_Bool)arg1 %lu actionType:%lu flagOptions%lu inputMode:"%@" by netChars:%ld userRemovedChars:%ld netEmojiChars:%ld userRemovedEmojiChars:%ld actions:%ld /* Error: Ran out of types for this method. */;
-- (void)to %@ passing %@, animated = %@,
-%@;
-- (_Bool)¸ùÿ;
 - (double);
+- (double)<DP´|Ä;
+- (void)·Ü¹ì¿;
+- (struct CGSize)¬;
+- (void)Keyboards prepareToMoveKeyboard:(double)arg1 withIAV:isIAVRelevant:showing:notifyRemote:forScene:] position:%@ visible:%@; notifyRemote:%@; isMinimized:%@ /* Error: Ran out of types for this method. */;
+- (id)eporting.;
+- (void)rror:(_Bool)arg1 %@;
+- (id)õîÿ¢õîÿ.÷îÿ;
+- (void);
+- (id)tionDidEnterBackgroundNotification;
+- (void)æ?;
+- (void)µ`;
+- (_Bool);
+- (id)Xªÿ¶{;
+- (void);
+- (_Bool)¼òvÿ;
+- (id)ÿó;
+- (_Bool)lsp;
+- (_Bool)7ÿ Õ°r;
 - (id);
-- (_Bool)tiveUserInterfaceIdiomIgnoringClassic(void);
-- (void)rTextIndentationComponent;
-- (void)w",N,W,Vview;
+- (void)ÿ§ÿ;
+- (void)v;
+- (_Bool)ûr;
+- (id)x|s;
 - (void);
-- (void);
-- (_Bool)xïc;
-- (struct CGSize)²2e;
-- (void)6]f;
-- (double)h;
-- (id)3h;
-- (_Bool)x
-ªÿ]Ùþh;
-- (struct CGAffineTransform)i;
-- (id),Ónl;
-- (double)Il;
-- (void)Ål;
-- (_Bool)í7m;
-- (_Bool)ªOm;
-- (void)*¢;
-- (void);
-- (_Bool)Óf;
-- (void)þ;
-- (void)^Er;
-- (id)iÛP}r;
-- (_Bool)ÿ;
-- (void)ÊgÌs;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *_activeDetents;

@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _TtC6MapsUI31MUEVChargerAvailabilityProvider *availabilityProvider; // @synthesize availabilityProvider=_availabilityProvider;

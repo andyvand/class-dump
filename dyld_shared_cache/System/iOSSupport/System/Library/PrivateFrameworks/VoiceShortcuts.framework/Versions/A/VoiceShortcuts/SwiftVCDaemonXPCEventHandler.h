@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *streams;

@@ -7,6 +7,6 @@
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (void)H«;
+- (void);
 @end
 

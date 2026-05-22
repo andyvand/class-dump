@@ -31,21 +31,21 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void)ime: /* Error: Ran out of types for this method. */;
-- (void)derKey:(_Bool)arg1;
+- (void)¤züz¼{ô}X~p;
 
 // Remaining properties
 @property double backgroundRingAlpha; // @synthesize backgroundRingAlpha=_backgroundRingAlpha;

@@ -21,20 +21,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (long long);
 - (id);
 - (struct CGRect);
-- (long long);
-- (id);
-- (id)Áw!Fù|°1b0@ù
-× ;
-- (id)$ìÿ0ìÿ<ìÿHìÿTìÿ`ìÿlìÿ¨ìÿÌìÿ0ìÿäìÿ	ìÿ¼	ìÿà	ìÿø	ìÿ
-ìÿ¬
-ìÿÐ
-ìÿìÿ@ìÿtìÿHìÿìÿ8ìÿtìÿ¨ìÿÌìÿìÿìÿ8ìÿ¤ìÿØìÿüìÿxìÿdìÿìÿôìÿ(ìÿ4ìÿLìÿìÿ´ìÿÜìÿ8ìÿtìÿ¨ìÿ;
-- (struct CGPoint);
-- (long long);
-- (void)ÌMû"8;
+- (id)lue: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)7;
+- (long long)d;
+- (struct CGPoint)èX5;
 
 // Remaining properties
 @property(readonly, nonatomic) long long dataSourceIdentifier; // @synthesize dataSourceIdentifier=_dataSourceIdentifier;

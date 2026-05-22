@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     _Bool _shouldSendStopScrolling;
 }
 
-- (_Bool)aryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
-- (_Bool)ictionaryWithObjects:forKeys: /* Error: Ran out of types for this method. */;
-- (void)iatedNoteParticipants;
-- (void)tityWithSearchableItemAttributeSet:(_Bool)arg1;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void)yÒb]yä\]_Îñ]y0W]Gâñ]ñ]yAHGAEyAJ_AljHtGSgtGG_ê]Qo_GùD]y[ê]GG;
 
 // Remaining properties
 @property(nonatomic) _Bool scrolling; // @synthesize scrolling=_scrolling;

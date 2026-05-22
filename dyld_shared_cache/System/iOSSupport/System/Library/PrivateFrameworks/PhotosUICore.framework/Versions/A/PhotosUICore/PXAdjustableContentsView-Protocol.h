@@ -5,7 +5,6 @@
 //
 
 @protocol PXAdjustableContentsView
-- (struct CGRect)leNotInUserAlbumFilterActionPerformer.m;
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentsRect;

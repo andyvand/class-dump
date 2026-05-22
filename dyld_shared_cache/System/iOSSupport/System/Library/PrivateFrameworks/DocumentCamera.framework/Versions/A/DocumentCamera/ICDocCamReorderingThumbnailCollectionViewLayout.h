@@ -70,23 +70,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (id);
+- (double);
+- (id);
+- (void);
+- (id);
+- (double);
+- (void);
+- (id);
+- (double);
 - (struct CGSize);
-- (void);
-- (id);
-- (void);
-- (double);
-- (double);
-- (void);
-- (void);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (double);
-- (id);
-- (id);
-- (id)ÿÿ@;
+- (_Bool);
+- (void);
+- (void);
+- (id)xÄ;
 
 // Remaining properties
 @property(nonatomic) struct CGSize cachedContentSize; // @synthesize cachedContentSize=_cachedContentSize;

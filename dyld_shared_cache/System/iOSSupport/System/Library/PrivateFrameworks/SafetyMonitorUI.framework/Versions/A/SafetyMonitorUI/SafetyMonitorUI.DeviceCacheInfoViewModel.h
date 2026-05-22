@@ -13,8 +13,8 @@
     MISSING_TYPE *isTransparencyMode;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

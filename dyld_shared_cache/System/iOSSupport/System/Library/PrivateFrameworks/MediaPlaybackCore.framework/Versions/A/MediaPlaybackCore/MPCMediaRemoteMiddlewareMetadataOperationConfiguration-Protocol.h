@@ -7,11 +7,6 @@
 @class MPCPlayerPath, MPPropertySet, NSString;
 
 @protocol MPCMediaRemoteMiddlewareMetadataOperationConfiguration
-- (CDStruct_339ad95e)24@0:8:16 /* Error: Ran out of types for this method. */;
-- (MPPropertySet *);
-
-@optional
-- (NSString *)@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCPlayerPath *playerPath;

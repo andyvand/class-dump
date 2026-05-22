@@ -18,8 +18,8 @@
     MISSING_TYPE *progressTrackColor;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

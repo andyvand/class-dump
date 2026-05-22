@@ -17,7 +17,7 @@
     NSObject<OS_os_log> *_log;
 }
 
-+ (id)É«;
++ (id);
 - (double);
 - (double);
 - (long long);
@@ -29,9 +29,9 @@
 - (double);
 - (long long);
 - (void);
-- (void);
 - (id);
-- (id)ViewModeTransition;
+- (id)leCrop:%i /* Error: Ran out of types for this method. */;
+- (void)a;
 
 // Remaining properties
 @property(nonatomic) long long initialProductionCountLimit; // @synthesize initialProductionCountLimit=_initialProductionCountLimit;

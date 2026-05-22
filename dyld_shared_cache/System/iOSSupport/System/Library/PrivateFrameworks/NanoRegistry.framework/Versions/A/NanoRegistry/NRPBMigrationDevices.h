@@ -16,22 +16,22 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
+- (id);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)tch assertion canceled;
+- (void)ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *devices; // @synthesize devices=_devices;

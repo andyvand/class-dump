@@ -23,12 +23,12 @@
 }
 
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)<()Äÿ;
+- (void);
+- (void)ìHÿÿ;
+- (id)AllCases;
 
 @end
 

@@ -4,5 +4,7 @@
 
 class lsl::UniquePtr<dyld4::Atlas::ProcessSnapshot> {
 public: // (access info unavailable from symbols alone)
+    auto withUnsafe<dyld4::Atlas::Process::handleNotifications()::$_0>(dyld4::Atlas::Process::handleNotifications()::$_0);
+    auto withUnsafe<dyld4::Atlas::Process::handleNotifications()::$_1>(dyld4::Atlas::Process::handleNotifications()::$_1);
     ~UniquePtr();
 };

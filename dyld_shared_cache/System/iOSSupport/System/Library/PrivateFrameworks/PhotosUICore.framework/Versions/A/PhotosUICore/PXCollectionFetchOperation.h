@@ -21,13 +21,13 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)Pþÿ;
-- (void)em_p;
-- (id)E;
 - (void);
+- (void)xPBÿ;
+- (id);
 - (id);
 
 // Remaining properties

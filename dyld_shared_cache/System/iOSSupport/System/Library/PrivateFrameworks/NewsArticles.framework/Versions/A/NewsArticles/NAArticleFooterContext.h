@@ -13,9 +13,8 @@
     MISSING_TYPE *articleGroupData;
 }
 
-- (void)5
-;
 - (id);
+- (void)lipView;
 
 @end
 

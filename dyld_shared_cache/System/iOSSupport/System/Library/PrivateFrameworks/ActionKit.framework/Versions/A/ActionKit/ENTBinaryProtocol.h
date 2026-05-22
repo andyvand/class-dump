@@ -53,21 +53,21 @@
 - (id);
 - (int);
 - (id);
-- (void);
 - (id);
 - (int);
+- (void);
 - (void);
 - (long long);
 - (short);
 - (unsigned char);
-- (void);
 - (_Bool);
+- (void);
+- (id);
+- (double);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (double)WFImageRotateAction.m;
+- (void)z_us;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

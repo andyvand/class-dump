@@ -17,16 +17,17 @@
     id <SXFullscreenCanvasControllerFactory> _canvasControllerFactory;
 }
 
-- (id)u;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)sibleBoundsForClippingReps: /* Error: Ran out of types for this method. */;
+- (id);
+- (int);
+- (void)Þ°!$@ù1ïð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;

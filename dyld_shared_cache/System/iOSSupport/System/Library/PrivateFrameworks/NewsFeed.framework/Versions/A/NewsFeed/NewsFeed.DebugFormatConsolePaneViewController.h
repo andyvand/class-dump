@@ -15,12 +15,12 @@
     MISSING_TYPE *separatorView;
 }
 
-- (void);
 - (id);
-- (id)(	;
+- (id);
 - (void);
-- (void)µbüÿ;
-- (void)LÇ¬þ|yø) Åàº;
+- (void);
+- (void)4H;
+- (void);
 
 @end
 

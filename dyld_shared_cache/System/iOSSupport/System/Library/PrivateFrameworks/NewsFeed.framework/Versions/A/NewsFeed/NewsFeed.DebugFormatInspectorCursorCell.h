@@ -20,10 +20,10 @@
     MISSING_TYPE *directionLayer;
 }
 
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)@0:8@16 /* Error: Ran out of types for this method. */;
+- (id)pûÿ;
+- (void)¼ñÿ;
 
 @end
 

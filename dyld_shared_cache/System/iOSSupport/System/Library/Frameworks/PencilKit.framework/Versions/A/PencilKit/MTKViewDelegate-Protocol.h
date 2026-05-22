@@ -5,6 +5,5 @@
 //
 
 @protocol MTKViewDelegate
-- (void);
 @end
 

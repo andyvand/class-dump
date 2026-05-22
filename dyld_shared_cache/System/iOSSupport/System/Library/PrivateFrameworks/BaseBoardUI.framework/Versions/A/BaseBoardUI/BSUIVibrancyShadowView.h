@@ -17,16 +17,16 @@
 + (struct CGPoint);
 + (Class);
 + (struct CGPoint);
-- (_Bool)	;
-- (id);
+- (void);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
-- (void);
 - (struct CGPoint);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
 - (struct CGPoint);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint shadowEndPoint;

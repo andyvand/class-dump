@@ -4,7 +4,7 @@
 
 class std::bad_array_new_length {
 public: // (access info unavailable from symbols alone)
+    auto what() const;
     bad_array_new_length();
-    what() const;
     ~bad_array_new_length();
 };

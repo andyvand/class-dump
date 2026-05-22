@@ -26,22 +26,23 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void)=;
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (long long);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
 - (struct CGSize);
-- (unsigned long long)pk_settings_popToRootViewController;
+- (unsigned long long);
+- (void)0@ù
+× ;
+- (id);
+- (void)(^ûÿöð;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

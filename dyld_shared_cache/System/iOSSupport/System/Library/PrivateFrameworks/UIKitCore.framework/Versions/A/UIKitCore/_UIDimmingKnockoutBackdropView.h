@@ -20,25 +20,25 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)Chat:(long long)arg1;
-- (id)Unformatted;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void)D;
 - (void);
-- (double);
 - (void);
-- (long long)w!;
-- (id)InputModeIndicatorController",R,N,V_inputModeIndicatorController;
-- (void)ndexBarViewDelegate>",W,N,V_delegate;
-- (void)P÷
-(ødø;
-- (void)Corner.m;
-- (void)before the update;
-- (void);
-- (void)ð¬ÞÿË=×»^;
-- (void)¼8`;
+- (long long);
+- (void);
+- (void);
+- (void)
+× ;
+- (void)eferenceLocationFromLatestUpdate;
+- (void)entary view element kind:(_Bool)arg1 %@; index path:%@; supplementary view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
+- (double)EnableFeedbackExceptions;
+- (void)ButtonMaximumWidth=%f;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

@@ -30,13 +30,13 @@
 - (void);
 - (void);
 - (void);
-- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)!;
-- (void)qH;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -46,13 +46,13 @@
 - (void);
 - (void);
 - (void);
-- (void)7;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -67,7 +67,7 @@
 - (id);
 - (id);
 - (void);
-- (void)P;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,13 +77,13 @@
 - (id);
 - (id);
 - (void);
-- (void)bR;
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id)@, cachedMetadataJSON=%@;
-- (void);
+- (void);
+- (id);
+- (void);
+- (id)t={CGPoint=dd}{CGSize=dd}}16B48;
 
 // Remaining properties
 @property(retain, nonatomic) AVTAvatarActionsProvider *actionsModel; // @synthesize actionsModel=_actionsModel;

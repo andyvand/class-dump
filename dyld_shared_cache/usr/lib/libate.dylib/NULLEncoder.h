@@ -4,14 +4,14 @@
 
 class NULLEncoder {
 public: // (access info unavailable from symbols alone)
-    DebugDescription(char*, unsigned long) const;
-    GetBlockCounts(at_size_t) const;
-    GetBlockDimensions() const;
-    GetBlockSize() const;
-    GetEncoderType() const;
-    GetHash() const;
-    IsCompressionMonolithic(at_flags_t) const;
-    IsDecompressionMonolithic(at_flags_t) const;
-    operator==(ATEncoder const&) const;
+    auto DebugDescription(char*, unsigned long) const;
+    auto GetBlockCounts(at_size_t) const;
+    auto GetBlockDimensions() const;
+    auto GetBlockSize() const;
+    auto GetEncoderType() const;
+    auto GetHash() const;
+    auto IsCompressionMonolithic(at_flags_t) const;
+    auto IsDecompressionMonolithic(at_flags_t) const;
+    auto operator==(ATEncoder const&) const;
     ~NULLEncoder();
 };

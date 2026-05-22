@@ -7,7 +7,7 @@
 @class NSArray, NSMutableArray;
 
 @protocol AMSUIMessageViewLayoutContextProtocol
-- (void)legate method for handleWindowRequest not found;
+- (struct CGSize)ementTask;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect accessorySecondaryViewFrame;

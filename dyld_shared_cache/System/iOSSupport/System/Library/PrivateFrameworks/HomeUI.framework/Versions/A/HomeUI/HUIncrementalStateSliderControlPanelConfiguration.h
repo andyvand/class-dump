@@ -13,7 +13,7 @@
 
 - (void);
 - (Class);
-- (id);
+- (id)rolsViewController.m;
 
 // Remaining properties
 @property(readonly, nonatomic) Class cellClass;

@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
+- (id)yLinkFiredFrom:(long long)arg1;
 - (void);
 
 // Remaining properties

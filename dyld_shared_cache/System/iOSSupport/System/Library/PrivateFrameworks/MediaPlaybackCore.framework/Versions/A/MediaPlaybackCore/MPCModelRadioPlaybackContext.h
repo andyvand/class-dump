@@ -21,14 +21,14 @@
     NSData *_delegateTokenB;
 }
 
-+ (_Bool)ding;
++ (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (id)@40@?48;
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -46,16 +46,16 @@
 - (Class);
 - (id);
 - (id);
-- (void)V;
+- (void);
 - (long long);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id)P;
-- (void);
 - (void);
 - (id);
-- (id)àÆÿ;
+- (void)blic}@; userInitiated:%{BOOL}u /* Error: Ran out of types for this method. */;
+- (id)tionIdentifier/itemIdentifier event=%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long continueListeningMaxQueueReferences; // @synthesize continueListeningMaxQueueReferences=_continueListeningMaxQueueReferences;

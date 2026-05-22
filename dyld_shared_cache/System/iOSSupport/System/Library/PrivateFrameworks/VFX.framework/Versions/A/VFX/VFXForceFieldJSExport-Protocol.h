@@ -7,15 +7,10 @@
 @class NSArray;
 
 @protocol VFXForceFieldJSExport
-- (long long);
-- (float)FXReplicatorConstraint: /* Error: Ran out of types for this method. */;
-- (void)FXTextC;
-- (NSArray *);
-- (void)t?Ð?sU?. Ô¾B$k?1?«V?¿ÒÑ¾õIb?@?ÄëV?}Ï¾¤ªY?Ã)? 4X?+úË¾fÜP?áy?îY?µRÈ¾?H?þÑ#?Ì|[?LÄ¾k??_\*?]?¼¿¾¸v6?Pá0?À_?;
-- (id);Âi?âB75¾PºB]Âi?çöBô4¾Ü²A]Âi?ÄVIB+4¾ìjxAÂi?uìB@3¾86A Âi?á}âAj1¾¯¹AãÂi?õ²A0/¾fÍÜ@YÃi?òAé+¾°Õ²@ßÃi?"oAt'¾KÉ@Äi?òKIA¯!¾ÑZx@Åi?«~+A7¾S@ÒÆi?@ÛAA¾Ïi6@Èi?UÈ;
-- (long long)@Gv}?ÖÂA½åÊ½üQ@Gv}?v(A6åÊ½^û?Wv}?+ÞA*äÊ½5ìÏ?Wv}?<ZAãÊ½³®?Wv}?¥ë9AáÊ½¢Ô?hv}?I AeÞÊ½èN?hv}?òA¡ØÊ½_~_?yv}?ÒUõ@ÌÊ½cD?«v}?oGÙ@Ò¦Ê½Õì-?!w}?öÔÁ@hæÉ½S$?y}?%x®@hÂ½?}?'@üUÀ½ÂÞü>ò}?@ÚÊ½jæ>w}??+@sHÊ½îîÑ>x}?Týo@·É½aý¿>îz}?
-\@®Ç½"Q°>}?7ÁK@ô£Á½}¢>î}?Z=@)>¾½í>Ë¡}?Mö/@¢²Á½L8>}?/$@ÊÂ½µÄ>)}?Û§@]¥»½Ø·s>½¬}?2@4¼¹½ãd>g´}?!Ë@þ
-¹½-AV>¸}?5;
+- (void)ôa;
+- (id);
+- (NSArray *)ØcÿÌ*(ÿÔ*(ÿí;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

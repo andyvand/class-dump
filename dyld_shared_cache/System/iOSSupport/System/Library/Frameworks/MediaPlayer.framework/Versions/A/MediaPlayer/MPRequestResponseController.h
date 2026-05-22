@@ -35,18 +35,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)eam %@;
-- (id)er;
-- (void)d:(id)arg1 forArtworkCatalog:completionHandler:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)eLibraryAdded__MAPPING_MISSING__;
+- (void)"NSData",R,C,N,V_artworkImageData;
+- (id)ion status.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;

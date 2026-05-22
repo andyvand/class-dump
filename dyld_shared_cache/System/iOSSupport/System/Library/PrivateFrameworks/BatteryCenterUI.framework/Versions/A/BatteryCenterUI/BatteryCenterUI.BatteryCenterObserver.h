@@ -13,8 +13,8 @@
     MISSING_TYPE *subject;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

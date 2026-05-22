@@ -19,19 +19,19 @@
     MISSING_TYPE *horizontalOffset;
 }
 
-- (struct UIEdgeInsets)q,R,N,V_thumbnailType;
-- (void)B,N,V_draggingText;
+- (struct UIEdgeInsets);
 - (void);
-- (double)b;
-- (void)ntext:(id)arg1 ];
 - (void);
-- (id);
+- (double);
+- (void);
 - (void);
 - (id);
-- (id)nTitleLabelAttributedTextAnimated:(struct CGRect)arg1;
-- (id)@Â¹;
-- (void);
-- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)s draft:[%@],conversation:[%@] /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;

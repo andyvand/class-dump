@@ -13,16 +13,15 @@
     ICDocCamImageCache *_docCamImageCache;
 }
 
-+ (_Bool)±«	1b0@ù
-× ;
++ (_Bool);
 - (int);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void)ForPoint:toPoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ICDocCamImageCache *docCamImageCache; // @synthesize docCamImageCache=_docCamImageCache;

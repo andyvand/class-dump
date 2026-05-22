@@ -41,7 +41,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)<MTLRenderPipelineState>"32@0:8@"MTLRenderPipelineDescriptor"16^@24 /* Error: Ran out of types for this method. */;
 - (struct __CFXWorld *);
 - (void);
 - (void);
@@ -71,11 +71,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

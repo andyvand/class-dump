@@ -33,8 +33,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)lamationmark.circle;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *allItemProviders; // @synthesize allItemProviders=_allItemProviders;

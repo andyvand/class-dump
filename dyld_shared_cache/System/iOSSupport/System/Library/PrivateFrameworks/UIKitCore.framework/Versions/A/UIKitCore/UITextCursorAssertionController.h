@@ -13,25 +13,25 @@
     id <UITextCursorAssertionControllerSubject> _subject;
 }
 
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void)+Uº;
+- (void);
 - (id);
 - (id);
-- (id)ÃÐ1¢!0@ù
+- (id);
+- (id);
+- (id)!Gù1_Ð1Â0@ù
 × ;
-- (id)d}},R,N,V_presentationRect;
-- (id)tion;
-- (id)ø;
-- (id)6^B24;
-- (_Bool)tentSizeForViewInPopover;
-- (void);
-- (void)nþ;
-- (id)®o[;
-- (void)ÿËØ\îc;
+- (void)beddedPresentationBounces"b1"isRepositioningRectDisabled"b1"sendingDelegateWillRepositionToRect"b1"isObservingFocusUpdateNotification"b1};
+- (id)etAllowsInteractiveDismissWhenFullScreen:(id)arg1;
+- (id)eedback;
+- (_Bool)onInRange(splitIndex, range);
+- (void)the same index path (%@);
+- (id)onFactor;
+- (id)ConnectionOptionCoder;
+- (void)§a;
+- (id)È:e /* Error: Ran out of types for this method. */;
+- (void)}f;
 
 // Remaining properties
 @property(nonatomic) __weak id <UITextCursorAssertionControllerSubject> subject; // @synthesize subject=_subject;

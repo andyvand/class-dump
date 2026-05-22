@@ -19,13 +19,13 @@
     MISSING_TYPE *viewModel;
 }
 
-- (void);
 - (id);
 - (id);
-- (void);
 - (void);
 - (id);
-- (void);
+- (void)Collection;
+- (void)gingViewControllerDelegate;
+- (void)ateGroup;
 
 @end
 

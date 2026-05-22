@@ -5,7 +5,5 @@
 //
 
 @protocol _UIFocusScrollOffsetResolver
-- (unsigned long long)o add signature oid;
-- (struct CGPoint);
 @end
 

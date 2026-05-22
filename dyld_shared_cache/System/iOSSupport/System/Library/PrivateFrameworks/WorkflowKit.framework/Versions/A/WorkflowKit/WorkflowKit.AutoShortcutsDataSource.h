@@ -14,8 +14,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)e subjects.;
 
 @end
 

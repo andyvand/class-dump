@@ -18,10 +18,10 @@
 - (void);
 - (void);
 - (id);
-- (id)0:8@"_DKEvent"16^@24 /* Error: Ran out of types for this method. */;
-- (long long);
-- (void);
 - (id);
+- (long long);
+- (id);
+- (void)orLight;
 
 // Remaining properties
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;

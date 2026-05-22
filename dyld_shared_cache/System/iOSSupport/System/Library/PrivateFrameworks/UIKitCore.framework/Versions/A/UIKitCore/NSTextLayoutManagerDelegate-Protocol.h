@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextLayoutFragment;
+@class NSDictionary;
 
 @protocol NSTextLayoutManagerDelegate
 
 @optional
-- (_Bool);
-- (NSTextLayoutFragment *);
+- (NSDictionary *)pper;
 @end
 

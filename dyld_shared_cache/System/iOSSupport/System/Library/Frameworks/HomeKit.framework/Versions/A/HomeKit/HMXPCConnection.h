@@ -13,32 +13,33 @@
     NSXPCConnection *_xpcConnection;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (int);
-- (void);
-- (void);
-- (void);
 - (CDStruct_6ad76789);
-- (id);
+- (void);
 - (CDUnknownBlockType);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id)SHH2;
-- (id)e;
-- (id)_activeIdentifier;
-- (id)ration;
-- (void)oldObject;
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (id);
+- (int);
+- (id);
+- (id);
+- (void)¬Ð1B50@ù
+× ;
+- (id);
+- (void)upAccessoryPayload;
+- (id)close session message with error %@;
+- (id)ngSiriEnabled;
 
 // Remaining properties
 @property(readonly) CDStruct_6ad76789 auditToken;

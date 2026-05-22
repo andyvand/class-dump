@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, CALayer, _UIContextBinder;
+@class CAContext, _UIContextBinder;
 
 @protocol _UIContextBindable
-- (void);
-- (_UIContextBinder *)e: /* Error: Ran out of types for this method. */;
-- (CALayer *)sage:toChat:style: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setBoundContext:) __weak CAContext *_boundContext;

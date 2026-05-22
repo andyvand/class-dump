@@ -37,7 +37,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -51,7 +51,7 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool)C;
+- (_Bool);
 - (void);
 - (void);
 - (long long);
@@ -70,7 +70,7 @@
 - (id);
 - (void);
 - (void);
-- (void)#;
+- (void);
 - (void);
 - (double);
 - (id);
@@ -81,13 +81,13 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void)@"<BUReadChannel>",R,N,V_readChannel;
-- (void)buteNamed:(id)arg1 getxattr failed. xattr:%@ errno:%d url:%{mask.hash}@ /* Error: Ran out of types for this method. */;
-- (void)ype:(id)arg1 NSURLContentTypeKey not found.;
-- (void)tType:(id)arg1 resourceValuesForKeys failed. url:(id)arg2 %{mask.hash}@ error:%@ /* Error: Ran out of types for this method. */;
-- (void)l:(id)arg1 %{mask.hash}@;
-- (id)tch.;
-- (_Bool)om for Zip64 uncompressed size;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -101,18 +101,18 @@
 - (void);
 - (id);
 - (id);
-- (void)s;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (_Bool);
 - (long long);
-- (id);
-- (_Bool)Since1970;
+- (void)rLocaleIdentifier:usingLanguageForLocalization: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowFetchingOverCellularNetwork; // @synthesize allowFetchingOverCellularNetwork=_allowFetchingOverCellularNetwork;

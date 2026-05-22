@@ -83,12 +83,12 @@
 - (long long);
 - (id);
 - (id);
+- (double);
 - (_Bool);
 - (_Bool);
+- (double);
+- (double);
 - (void);
-- (double);
-- (double);
-- (double)imationForLayout:presentedLayoutState:targetLayoutState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsEmptyTitles; // @synthesize allowsEmptyTitles=_allowsEmptyTitles;

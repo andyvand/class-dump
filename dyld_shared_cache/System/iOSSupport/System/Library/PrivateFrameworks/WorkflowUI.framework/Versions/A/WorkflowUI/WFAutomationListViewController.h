@@ -37,28 +37,28 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (long long);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) WFDatabase *database; // @synthesize database=_database;

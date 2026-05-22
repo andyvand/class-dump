@@ -14,7 +14,9 @@
     NSMutableArray *_registrationIdentifiers;
 }
 
-+ (id);
++ (id)H1â
+0@ù
+× ;
 - (void);
 - (void);
 - (void);
@@ -23,10 +25,10 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (void);
 - (id);
-- (void)ayerPlayerItem;
-- (id)izedColor;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;

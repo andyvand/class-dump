@@ -8,11 +8,6 @@
 
 @protocol SMTriggerProtocol
 
-@optional
-- (void);
-- (id <SMTriggerManagerProtocol>)k Vz@d;
-- (void);
-
 // Remaining properties
 @property(nonatomic) __weak id <SMTriggerManagerProtocol> sessionMonitorDelegate;
 // Preceding property had unknown attributes: ?

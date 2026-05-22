@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPresentationController, UIViewController;
-
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void)ionResults:(UIPresentationController *)arg1 turnIdentifier: /* Error: Ran out of types for this method. */;
-- (void)uestWithActivationTrigger:(UIPresentationController *)arg1;
-- (UIViewController *)te:(UIPresentationController *)arg1;
-- (void)tNewConversationForSiriPresentation:(UIPresentationController *)arg1;
-- (long long);
-- (void)dAgainstStyle:(UIPresentationController *)arg1 withEmphasizedTextExpression:tintColor:lineBreakMode:usesVibrancy:forLTR:withFont:userInterfaceStyle: /* Error: Ran out of types for this method. */;
+- (long long)
+× ;
+- (void)uct;
 @end
 

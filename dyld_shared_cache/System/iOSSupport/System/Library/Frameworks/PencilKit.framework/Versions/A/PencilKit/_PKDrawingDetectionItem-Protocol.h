@@ -7,7 +7,6 @@
 @class UIBezierPath;
 
 @protocol _PKDrawingDetectionItem
-- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) UIBezierPath *_baselinePath;

@@ -46,11 +46,11 @@
 - (void);
 - (void);
 - (void);
-- (void)h;
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id)�t;
+- (id);
 - (id);
 - (_Bool);
 - (int);
@@ -66,25 +66,25 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (double);
 - (id);
-- (id)A;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
 - (id);
-- (void)!;
-- (void);
-- (void);
-- (void);
-- (void)pRules;
-- (id);
 - (id);
 - (void);
-- (void)%lu;
+- (void);
+- (id)gestionsManager shouldShowTipKitSuggestionsForInitiator:receiver:handler:] /* Error: Ran out of types for this method. */;
+- (void)he,Initiator,sessionID:%@,%@,%@,activeSessionDetails record saved successfully /* Error: Ran out of types for this method. */;
+- (void)looped through biome events phone & messages.;
+- (void)t,%lu;
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentSessionActivationCriteria; // @synthesize currentSessionActivationCriteria=_currentSessionActivationCriteria;

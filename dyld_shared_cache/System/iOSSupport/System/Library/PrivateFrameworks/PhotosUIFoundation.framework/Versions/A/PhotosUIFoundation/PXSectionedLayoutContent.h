@@ -31,14 +31,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (struct UIEdgeInsets);
-- (struct CGSize);
+- (id);
+- (id);
 - (void);
-- (long long)odifySelectionWithOrder: /* Error: Ran out of types for this method. */;
+- (long long);
+- (id);
+- (void);
+- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) long long axis; // @synthesize axis=_axis;

@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (_Bool);
 - (id);
+- (void)cketAPIKeychainUtilsErrorDomain;
 
 // Remaining properties
 @property(retain, nonatomic) WFiCloudDriveAccessResource *iCloudDriveAccessResource; // @synthesize iCloudDriveAccessResource=_iCloudDriveAccessResource;

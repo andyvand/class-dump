@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)rtDate, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) CLLocation *startLocation; // @synthesize startLocation=_startLocation;

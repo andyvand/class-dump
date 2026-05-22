@@ -11,7 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double)e;
++ (double)^°1Â0@ù
+× ;
 
 @end
 

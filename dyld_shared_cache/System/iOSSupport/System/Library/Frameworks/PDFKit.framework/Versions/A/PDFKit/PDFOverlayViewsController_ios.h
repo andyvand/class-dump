@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)ResponseProvider";
-- (void)8{CGRect={CGPoint=dd}{CGSize=dd}}16@48@56;
+- (void);
+- (void);
 
 @end
 

@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
-- (id):presentingViewController: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)hError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *iconImage; // @synthesize iconImage=_iconImage;

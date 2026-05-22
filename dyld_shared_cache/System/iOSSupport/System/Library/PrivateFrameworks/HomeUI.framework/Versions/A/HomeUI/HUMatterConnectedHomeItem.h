@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)riggerEditorSectionIdentifierRepeat;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCHIPAccessoryPairing *chipAccessoryPairing; // @synthesize chipAccessoryPairing=_chipAccessoryPairing;

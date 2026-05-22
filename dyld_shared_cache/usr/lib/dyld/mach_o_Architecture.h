@@ -7,7 +7,8 @@ public: // (access info unavailable from symbols alone)
     Architecture(fat_arch const*);
     Architecture(fat_arch_64 const*);
     Architecture(mach_header const*);
-    name() const;
-    operator==(mach_o::Architecture const&) const;
-    usesx86_64Instructions() const;
+    auto name() const;
+    auto operator==(mach_o::Architecture const&) const;
+    auto usesArm64AuthPointers() const;
+    auto usesx86_64Instructions() const;
 };

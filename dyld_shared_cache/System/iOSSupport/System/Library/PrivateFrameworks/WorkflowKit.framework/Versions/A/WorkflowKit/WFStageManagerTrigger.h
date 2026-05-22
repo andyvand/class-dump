@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ibrary/PrivateFrameworks/CoreRecents.framework/Versions/A/CoreRecents;
++ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -26,7 +26,7 @@
 + (long long);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)àÂYÓ;
 + (id);
 + (_Bool);
 

@@ -5,14 +5,8 @@
 //
 
 @protocol HMAccessoryCapabilities
-- (_Bool)b0@ù
-× ;
-- (_Bool)@ù
-× ;
-- (_Bool)cessorySettings"24;
-- (_Bool)tsInstallManagedConfigurationProfile: /* Error: Ran out of types for this method. */;
-- (_Bool)nnel: /* Error: Ran out of types for this method. */;
-- (_Bool)gurationProfile;
+- (_Bool)TG;
+- (_Bool)(¢;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool clearsKeychainWhenRemovedFromHome;

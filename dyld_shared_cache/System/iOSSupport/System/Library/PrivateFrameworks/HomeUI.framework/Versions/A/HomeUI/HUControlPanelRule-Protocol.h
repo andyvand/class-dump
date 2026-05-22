@@ -5,6 +5,7 @@
 //
 
 @protocol HUControlPanelRule
+- (double)d®³ÿ;
 
 // Remaining properties
 @property(nonatomic) double priority;

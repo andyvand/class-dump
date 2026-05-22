@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSSet *controllers;

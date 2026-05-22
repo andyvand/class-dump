@@ -15,28 +15,28 @@ __attribute__((visibility("hidden")))
     _UITypedStorage *_typedStorage;
 }
 
-+ (void)l text messages.;
++ (void);
 - (void);
 - (id);
 - (id);
-- (void)k!;
+- (void);
 - (long long);
-- (void)@0:(id)arg1 8@"IDSService"16@"IDSAccount"24q32@"NSString"40@"IDSMessageContext"48;
+- (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)Ô!q!¼EùÄÐ1¢!0@ù
+- (void)ð1Â0@ù
 × ;
-- (id)ñÄ1¢!0@ù
+- (id)!´GùñcÐ1Â0@ù
 × ;
-- (id)MaximumWidthConstraint;
-- (void)Edge;
-- (id)~@;
-- (void)n;
-- (void)ntrollerOnCarPlay;
-- (void)0;
-- (id)alLayout:Invalid frame %@ generated when rounding frame %@ to screen scale (%g). /* Error: Ran out of types for this method. */;
-- (id)iginChange;
+- (id);
+- (void)ithRubberBandCoefficient:(id)arg1;
+- (id)tonItemData",&,N,V_plainItemAppearance;
+- (id)t>?l?;
+- (void)@;
+- (id)adcrumb;
+- (void)0,¸þÿÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *_pocketElements; // @synthesize _pocketElements;

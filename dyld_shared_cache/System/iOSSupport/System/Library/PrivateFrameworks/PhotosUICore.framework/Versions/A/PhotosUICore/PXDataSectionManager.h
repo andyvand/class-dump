@@ -43,9 +43,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)ÿAÇñ6»6;
+- (void)expected pending activation OneUp adapter maker;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsEmptyDataSection;

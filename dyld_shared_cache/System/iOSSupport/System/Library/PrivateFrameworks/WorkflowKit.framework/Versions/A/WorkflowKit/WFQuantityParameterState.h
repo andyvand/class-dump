@@ -16,7 +16,10 @@
 
 + (Class);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,10 +28,8 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id)cument|upload|dropbox;
-- (id)iately.;
+- (void)t:] /* Error: Ran out of types for this method. */;
+- (id)p-ÓÿNáï;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

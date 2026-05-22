@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (int)xÄ;
++ (int);
 - (Class);
 
 @end

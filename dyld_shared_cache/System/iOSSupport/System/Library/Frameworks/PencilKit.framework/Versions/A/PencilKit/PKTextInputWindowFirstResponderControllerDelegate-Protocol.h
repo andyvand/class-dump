@@ -7,7 +7,7 @@
 @class UIWindowScene;
 
 @protocol PKTextInputWindowFirstResponderControllerDelegate
-- (UIWindowScene *)",R,N,V_autoRefineController;
+- (UIWindowScene *)MetalKernelKey, id<MTLComputePipelineState>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIWindowScene *windowScene;

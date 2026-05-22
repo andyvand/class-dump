@@ -13,9 +13,9 @@
 
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id)h;
-- (void)e:(id)arg1 %@;
+- (void);
 
 // Remaining properties
 @property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;

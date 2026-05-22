@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)vð5;
+- (id)OverlayView;
 
 @end
 

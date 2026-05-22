@@ -4,22 +4,22 @@
 
 class dyld_process_info_base {
 public: // (access info unavailable from symbols alone)
-    addDyldImage(unsigned int, unsigned long long, unsigned long long, char const*);
-    addImage(unsigned int, bool, unsigned long long, unsigned long long, unsigned long long, unsigned long long, char const*, unsigned int);
-    addInfoFromLoadCommands(mach_header const*, unsigned long long, unsigned long);
-    addInfoFromRemoteLoadCommands(unsigned int, unsigned long long);
-    addString(char const*, unsigned long);
-    copyPath(unsigned int, int*, unsigned long long);
-    copySegmentName(char const*);
-    copySegmentName(char const*)::stdSegNames;
+    auto addDyldImage(unsigned int, unsigned long long, unsigned long long, char const*);
+    auto addImage(unsigned int, bool, unsigned long long, unsigned long long, unsigned long long, unsigned long long, char const*, unsigned int);
+    auto addInfoFromLoadCommands(mach_header const*, unsigned long long, unsigned long);
+    auto addInfoFromRemoteLoadCommands(unsigned int, unsigned long long);
+    auto addString(char const*, unsigned long);
+    auto copyPath(unsigned int, int*, unsigned long long);
+    auto copySegmentName(char const*);
+    auto copySegmentName(char const*)::stdSegNames;
+    auto forEachAotImage(bool (unsigned long long, unsigned long long, unsigned long long, unsigned char*, unsigned long) block_pointer) const;
+    auto forEachImage(void (unsigned long long, unsigned char const*, char const*) block_pointer) const;
+    auto forEachSegment(unsigned long long, void (unsigned long long, unsigned long long, char const*) block_pointer) const;
     dyld_process_info_base(unsigned int, unsigned int, unsigned int, unsigned long);
     dyld_process_info_base(unsigned int, unsigned int, unsigned int, unsigned long) (.cold.1);
     dyld_process_info_base(unsigned int, unsigned int, unsigned int, unsigned long) (.cold.2);
-    forEachAotImage(bool (unsigned long long, unsigned long long, unsigned long long, unsigned char*, unsigned long) block_pointer) const;
-    forEachImage(void (unsigned long long, unsigned char const*, char const*) block_pointer) const;
-    forEachSegment(unsigned long long, void (unsigned long long, unsigned long long, char const*) block_pointer) const;
-    make<dyld_all_image_infos_32, dyld_image_info_32>(unsigned int, dyld_all_image_infos_32 const&, unsigned long long, int*);
-    make<dyld_all_image_infos_64, dyld_image_info_64>(unsigned int, dyld_all_image_infos_64 const&, unsigned long long, int*);
-    makeSuspended<dyld_all_image_infos_32>(unsigned int, dyld_all_image_infos_32 const&, unsigned long long, int*);
-    makeSuspended<dyld_all_image_infos_64>(unsigned int, dyld_all_image_infos_64 const&, unsigned long long, int*);
+    std::__1::unique_ptr<dyld_process_info_base, dyld_process_info_deleter> make<dyld_all_image_infos_32, dyld_image_info_32>(unsigned int, dyld_all_image_infos_32 const&, unsigned long long, int*);
+    std::__1::unique_ptr<dyld_process_info_base, dyld_process_info_deleter> make<dyld_all_image_infos_64, dyld_image_info_64>(unsigned int, dyld_all_image_infos_64 const&, unsigned long long, int*);
+    std::__1::unique_ptr<dyld_process_info_base, dyld_process_info_deleter> makeSuspended<dyld_all_image_infos_32>(unsigned int, dyld_all_image_infos_32 const&, unsigned long long, int*);
+    std::__1::unique_ptr<dyld_process_info_base, dyld_process_info_deleter> makeSuspended<dyld_all_image_infos_64>(unsigned int, dyld_all_image_infos_64 const&, unsigned long long, int*);
 };

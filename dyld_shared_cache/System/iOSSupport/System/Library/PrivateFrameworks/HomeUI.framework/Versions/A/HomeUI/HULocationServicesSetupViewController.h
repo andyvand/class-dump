@@ -23,15 +23,13 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)ù
-× ;
-- (void)0@ù
-× ;
-- (id)elBounds;
-- (void)aybackOptionsItems:(id)arg1;
+- (void);
+- (void)dCaptionSingularHomePodSingularHome;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,11 +16,12 @@ __attribute__((visibility("hidden")))
     } _flags;
 }
 
-- (void)setAccountReplicationSessions;
-- (void)LsForAsset:(id)arg1 fileTransfer:completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)rt;
-- (void)aybackStartTime;
-- (id)°Iÿ;
+- (void);
+- (void);
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (id)UIInputViewSetPlacementOnScreenWithAccessory;
 
 @end
 

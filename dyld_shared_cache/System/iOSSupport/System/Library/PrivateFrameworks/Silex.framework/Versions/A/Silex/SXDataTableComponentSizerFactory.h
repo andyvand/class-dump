@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)outOptionsObserving;
+- (int);
+- (void)=dd}24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

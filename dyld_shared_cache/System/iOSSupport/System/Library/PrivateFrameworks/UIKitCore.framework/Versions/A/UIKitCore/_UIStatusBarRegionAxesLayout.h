@@ -18,26 +18,29 @@
     NSArray *_layoutGuides;
 }
 
-- (_Bool);
 - (void);
 - (id);
-- (void);
-- (void)`B;
 - (id);
-- (_Bool);
-- (_Bool);
 - (void);
-- (id)tionAnimating>"24;
-- (void)b1"subrangesOfRange"b1"decorationContainerViewForRange"b1"textHighlightColor"b1"didReceiveContexts"b1};
-- (void)showing:(id)arg1 notifyRemote:forScene: /* Error: Ran out of types for this method. */;
-- (void)vent_setDisambiguationActive:(id)arg1 maxOptions: /* Error: Ran out of types for this method. */;
-- (void)ViewControllerLookForNested: /* Error: Ran out of types for this method. */;
-- (id)llRotateToInterfaceOrientation:duration: /* Error: Ran out of types for this method. */;
-- (id),V_size;
-- (id)rID;
-- (void)eHostingReconnectingActivationController;
-- (id)lumnViewController.m;
-- (void)ñÕ4D;
+- (void);
+- (id);
+- (void);
+- (_Bool)0@ù
+× ;
+- (void)Ô ;
+- (id)0@ù
+× ;
+- (void)ant;
+- (void)tingSceneTraitCollection;
+- (_Bool)atedRange:(id)arg1;
+- (id)VerticalLayoutMargins:traitCollection: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)CALayer",R,D,N;
+- (id)xt;
+- (void)ë?×£p=
+×ë?R¸ëQì?¨ÆË>P½®Ga=;
+- (_Bool)lá;
+- (id)y\;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canOverflowItems;

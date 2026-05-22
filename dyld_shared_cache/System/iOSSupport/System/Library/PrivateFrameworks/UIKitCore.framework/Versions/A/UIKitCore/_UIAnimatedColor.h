@@ -20,39 +20,38 @@
     double _progress;
 }
 
-+ (id)ized account status %ld;
++ (id);
 + (struct CGPatternCallbacks);
 - (id);
 - (void);
 - (struct CGColor *);
-- (_Bool)ersation %@ on chat %@;
-- (void)nil zone;
-- (void)ItemMap!;
-- (void)rticipants:(struct CGRect)arg1 %@;
-- (void)te, flags 0x%x;
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool)onWithError:(id)arg1;
-- (void);
-- (void);
-- (void)ectedTabTintColorForView:(_Bool)arg1;
-- (struct CGColor *)J;
-- (double)traversal visitors;
-- (void)%d
-;
-- (_Bool)offset:(double *)arg1 %g; header height:(double *)arg2 %@; footer height:(double *)arg3 %@; header offset:(double *)arg4 %g; footer offset:%g; num rows:%ld; array length:%ld; row heights:%@ row offsets:%@ /* Error: Ran out of types for this method. */;
-- (id)BarStyleOverrideAssistantEyesFree;
-- (void)heduledHUDPresentationDarwinNotificationName;
-- (void)quare;
-- (void)unexpected class %@ for interface action;
-- (_Bool)ButtonBar.requestedSize;
-- (_Bool)EffectivePresented;
-- (double)WhenFullScreen;
-- (id)4;
-- (_Bool)pÜÈÝ¨[;
-- (void)F;
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool)tem:(id)arg1;
+- (_Bool)È;
+- (double)ction '%@' with no event mask set;
+- (void):(double)arg1 Buttons added must have a title.;
+- (struct CGColor *)Ô?Zd;ßOÕ?ÉTÁ¨¤ä? ¤Ù@P)¡}@ª8h·C@é'tçë@ÔÎ},@3ÅW±@V-²ïÿ¿Ház®GÀV-²ïÀ²ï§ÆKÀnÀÊ¡À[%XÎü(À'½o|íyÀ;
+- (void);
+- (void)ù;
+- (void)äÚþ)±Ò7c;
+- (_Bool);
+- (_Bool)Ðµc;
+- (id)àÛÍc;
+- (double)d;
+- (void)ÿ¬â;
+- (_Bool)ÿ|ÿ×Äðd;
+- (id)À;
+- (_Bool)Gn;
 
 // Remaining properties
 @property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;

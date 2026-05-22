@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FCCacheInvalidationConfig;
+
 @protocol NDDownloadService
-- (void);
+- (void)ï\8ÿ;
+- (void)Áþ%:(FCCacheInvalidationConfig *)arg1 cÁþ%:cÁþ%:cÁþí9cÁþÝ9cÁþ­9cðîþ­9cøÁþ­9côÁþÕ9cðÁþÕ9cìÁþ}9cèÁþ /* Error: Ran out of types for this method. */;
 @end
 

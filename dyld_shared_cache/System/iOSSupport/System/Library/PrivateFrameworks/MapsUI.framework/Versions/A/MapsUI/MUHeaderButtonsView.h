@@ -42,11 +42,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)Options;
 
 // Remaining properties
 @property(retain, nonatomic) _MKPlaceActionButtonController *alternatePrimaryButtonController; // @synthesize alternatePrimaryButtonController=_alternatePrimaryButtonController;

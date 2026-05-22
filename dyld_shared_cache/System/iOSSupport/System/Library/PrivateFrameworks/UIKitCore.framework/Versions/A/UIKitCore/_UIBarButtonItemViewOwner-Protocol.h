@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuInteraction;
-
 @protocol _UIBarButtonItemViewOwner
-- (void)not a subclass of UICollectionViewCell;
-- (void)ibilityIgnoresInvertColors = YES;
-- (void)6^B24;
-- (void)SafeArea;
-- (void)Cache;
-- (void)DÚ¦þÅeÿ3`Ã±þ;
+- (void);
+- (void)3P|þu»33¼wþe»33wþ;
+- (void)ã33è;
+- (void)sþ;
 
 @optional
-- (_Bool)on"16;
-- (_Bool)tion;
-- (_Bool)load class NSManagedObjectModel;
+- (_Bool)eSurface;
+- (_Bool)@;
+- (_Bool)izationStorage;
 - (void);
-- (UIContextMenuInteraction *)ractionDelegate;
-- (_Bool)dTextureContainerView;
 @end
 

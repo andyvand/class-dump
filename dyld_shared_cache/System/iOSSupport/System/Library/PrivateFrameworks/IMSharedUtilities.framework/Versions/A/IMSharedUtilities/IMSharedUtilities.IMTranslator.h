@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *shouldForceOfflineTranslation;
     MISSING_TYPE *translator;
+    MISSING_TYPE *circuitBreaker;
     MISSING_TYPE *backwardCompatibilityPrefixMap;
     MISSING_TYPE *currentLogIdentifier;
 }

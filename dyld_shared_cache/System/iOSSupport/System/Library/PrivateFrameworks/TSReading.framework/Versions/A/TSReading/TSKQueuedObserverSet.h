@@ -12,7 +12,7 @@
     _Bool mIsClass;
 }
 
-+ (id);
++ (id);
 - (void);
 
 @end

@@ -16,16 +16,17 @@ __attribute__((visibility("hidden")))
     _UISearchBarSearchContainerLayout *_layout;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id)dObjectCache;
-- (id)lorForDeleteConfirmationButtonForRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (_Bool)Üyþÿ;
-- (void)borderWidth)-|;
 - (struct CGSize);
-- (void):(id)arg1 /System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/HIToolbox;
+- (id);
+- (void);
+- (_Bool)@ù
+× ;
+- (void)´´;
+- (void);
+- (_Bool)t.isAuxillary;
+- (id)tConcreteResolver: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ÝØ;
 
 // Remaining properties
 @property(nonatomic) _Bool frozenLayout; // @synthesize frozenLayout=_frozenLayout;

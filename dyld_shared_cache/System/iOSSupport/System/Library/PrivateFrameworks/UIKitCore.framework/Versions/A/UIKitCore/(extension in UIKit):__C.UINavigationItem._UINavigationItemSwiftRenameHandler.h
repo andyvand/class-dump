@@ -13,9 +13,8 @@
     MISSING_TYPE *delegate;
 }
 
-- (void)
-× ;
-- (id)pCompletion;
+- (id);
+- (void)8l;
 
 @end
 

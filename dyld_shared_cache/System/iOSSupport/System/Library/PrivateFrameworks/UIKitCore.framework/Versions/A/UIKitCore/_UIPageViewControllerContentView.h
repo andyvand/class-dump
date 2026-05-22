@@ -20,16 +20,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)4@32i40@44;
-- (struct CGRect)incomingResourceAtURL:metadata:fromID:context: /* Error: Ran out of types for this method. */;
-- (double)entifier:toIdentifier:groupName:participants:groupID:serviceName:chatRegistry: /* Error: Ran out of types for this method. */;
 - (void);
+- (struct CGRect);
+- (double);
+- (_Bool);
 - (void);
+- (void)pedIndexPath;
+- (id)te;
+- (void)rollerContainerViewWidthConstraint;
+- (id)ot a UIGraphicsRendererContext subclass as a UIGraphicsRenderer context.;
 - (void);
-- (void),V__leadingBackgroundView;
-- (_Bool)MenuBackgroundDescriptor"16@?0@"UIShape"8;
-- (id)Ê1{[;
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIPageControl *pageControl; // @synthesize pageControl=_pageControl;

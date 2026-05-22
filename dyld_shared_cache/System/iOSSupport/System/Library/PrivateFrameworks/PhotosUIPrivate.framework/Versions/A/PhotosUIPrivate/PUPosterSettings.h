@@ -14,18 +14,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)@qùÿ
-pý^;
++ (id)Tq,N,V_minNavigationDistanceForQuickPagingRegime;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
+- (id)eoPlayer;
+- (void)_setAssetURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PUPosterHeadroomSettings *headroomSettings; // @synthesize headroomSettings=_headroomSettings;

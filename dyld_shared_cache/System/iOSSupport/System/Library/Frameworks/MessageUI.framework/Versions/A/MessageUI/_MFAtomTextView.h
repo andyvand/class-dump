@@ -25,18 +25,18 @@
 - (void);
 - (id);
 - (long long);
-- (void)ayback;
-- (void);
-- (id);
 - (id);
 - (void);
 - (_Bool);
+- (void);
 - (_Bool);
-- (void);
-- (_Bool)request early;
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 

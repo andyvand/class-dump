@@ -15,7 +15,7 @@
 
 + (id);
 + (id);
-+ (_Bool)4¬;
++ (_Bool);
 - (id);
 - (id);
 - (long long);
@@ -34,15 +34,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (void);
-- (long long);
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (long long);
+- (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *attributeValues; // @dynamic attributeValues;

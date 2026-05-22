@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)onLayoutManager:itemWidth is negative (%{public}f), scenesSectionNeedsScrolling:(%{bool,public}d), layoutOptions:(%{public}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HMHome *overrideHome; // @synthesize overrideHome=_overrideHome;

@@ -20,15 +20,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)?;
-- (void);
-- (void);
-- (float);
 - (unsigned long long);
-- (id);
 - (void);
-- (id);
+- (void);
+- (float)<<;
+- (void);
+- (id)
+È
+à;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;

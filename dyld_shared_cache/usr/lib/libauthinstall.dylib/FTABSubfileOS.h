@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)#;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (const char *);
-- (void);
-- (id);
-- (id);
-- (id)ffic;
 - (unsigned int);
+- (void);
 
 // Remaining properties
 @property(readonly) NSData *data;

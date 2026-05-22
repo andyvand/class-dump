@@ -12,7 +12,7 @@
 
 - (id);
 - (_Bool);
-- (id)ed Event with probability ;
+- (id);
 
 @end
 

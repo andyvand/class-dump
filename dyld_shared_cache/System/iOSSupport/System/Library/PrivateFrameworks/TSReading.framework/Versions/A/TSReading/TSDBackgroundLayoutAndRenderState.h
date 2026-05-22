@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (id)?;
-- (void)CGFloat, id (^)(void));
+- (id);
+- (void)curve!;
 
 @end
 

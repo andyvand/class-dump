@@ -10,7 +10,7 @@
 
 @interface PromotedContentUI.PromotedMastheadSponsorshipAdView : APPCPromotedContentView
 {
-    MISSING_TYPE *mastheadSponsorshipLockupView;
+    MISSING_TYPE *lockupView;
 }
 
 - (struct CGSize);

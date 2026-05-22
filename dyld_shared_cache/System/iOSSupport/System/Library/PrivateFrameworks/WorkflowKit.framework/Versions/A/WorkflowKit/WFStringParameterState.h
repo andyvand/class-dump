@@ -17,13 +17,13 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)teAlarmIntent;
+- (void)tentValue:parameterDefinition:] /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
     id <_HMNetworkConfigurationProfileDelegate> _delegate;
 }
 
-+ (id)ition;
++ (id)hIgnoredErrorCodes:completion:] /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (void);
@@ -49,14 +49,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id)ings are supported and the value array size must be 5;
-- (id)Ñÿ)ÎbÑÿ;
+- (void)ownershipToken;
+- (id)eMessagePayload;
 
 // Remaining properties
 @property(readonly) HMAccessoryNetworkAccessViolation *accessViolation; // @synthesize accessViolation=_accessViolation;

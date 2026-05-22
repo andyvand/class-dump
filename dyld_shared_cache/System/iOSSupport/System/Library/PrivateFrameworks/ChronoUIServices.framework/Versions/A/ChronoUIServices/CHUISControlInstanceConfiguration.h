@@ -13,15 +13,15 @@
 
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (long long);
 - (id);
 - (_Bool);
+- (_Bool);
 - (id);
+- (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canAppearInSecureEnvironment;

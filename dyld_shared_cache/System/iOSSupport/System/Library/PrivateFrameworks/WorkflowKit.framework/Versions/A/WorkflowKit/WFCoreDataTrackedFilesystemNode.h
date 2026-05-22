@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)tuýÿtNýÿNýÿ;
-- (id);
++ (id);
+- (id)deObjectForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *bookmark; // @dynamic bookmark;

@@ -23,25 +23,25 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool)L: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (void);
-- (id)ClientSettingsDiffInspector",&,N,V_sceneClientSettingsDiffInspector;
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long context; // @synthesize context=_context;

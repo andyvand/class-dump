@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewCell;
+@class UICollectionReusableView, UICollectionView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)troller:(UICollectionView *)arg1 willTransitionToViewControllers:(NSIndexPath *)arg2;
+- (UICollectionViewCell *)LoupeLayer:(UICollectionView *)arg1;
+
+@optional
+- (void)tInfoCollection;
+- (UICollectionReusableView *)UIView",W,N,V_userPromptView;
 @end
 

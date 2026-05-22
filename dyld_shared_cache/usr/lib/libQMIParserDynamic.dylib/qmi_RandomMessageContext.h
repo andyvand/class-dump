@@ -4,7 +4,7 @@
 
 class qmi::RandomMessageContext {
 public: // (access info unavailable from symbols alone)
-    generateRandomChars(char*, unsigned long);
-    generateRandomChars(char*, unsigned long)::PRINTABLE;
+    auto generateRandomChars(char*, unsigned long);
+    auto generateRandomChars(char*, unsigned long)::PRINTABLE;
     ~RandomMessageContext();
 };

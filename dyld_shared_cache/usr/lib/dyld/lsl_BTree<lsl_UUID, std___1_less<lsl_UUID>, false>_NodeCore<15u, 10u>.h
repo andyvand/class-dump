@@ -4,17 +4,17 @@
 
 class lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false>::NodeCore<15u, 10u> {
 public: // (access info unavailable from symbols alone)
-    deallocate(lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false>::NodeCore<15u, 10u>*, lsl::Allocator*);
-    insert(unsigned char, lsl::UUID&&);
-    insert(unsigned char, lsl::UUID&&) (.cold.1);
-    insert(unsigned char, lsl::UUID&&) (.cold.2);
-    lower_bound_index(lsl::UUID const&, std::__1::less<lsl::UUID>) const;
-    splitChild(unsigned char, lsl::Allocator&);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.1);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.2);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.3);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.4);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.5);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.6);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.7);
+    auto deallocate(lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false>::NodeCore<15u, 10u>*, lsl::Allocator*);
+    auto insert(unsigned char, lsl::UUID&&);
+    auto insert(unsigned char, lsl::UUID&&) (.cold.1);
+    auto insert(unsigned char, lsl::UUID&&) (.cold.2);
+    auto lower_bound_index(lsl::UUID const&, std::__1::less<lsl::UUID>) const;
+    auto splitChild(unsigned char, lsl::Allocator&);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.1);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.2);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.3);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.4);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.5);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.6);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.7);
 };

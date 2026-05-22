@@ -12,6 +12,7 @@
     MISSING_TYPE *_adaptiveTemperatureSettings;
     MISSING_TYPE *_sleepSchedule;
     MISSING_TYPE *_cleanEnergySetting;
+    MISSING_TYPE *_hasAdminPrivilege;
     MISSING_TYPE *_$observationRegistrar;
 }
 

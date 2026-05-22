@@ -19,10 +19,10 @@
     MISSING_TYPE *highlightLayer;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

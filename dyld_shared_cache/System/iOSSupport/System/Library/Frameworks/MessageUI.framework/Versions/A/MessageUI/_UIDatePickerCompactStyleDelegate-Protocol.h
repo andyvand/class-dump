@@ -5,6 +5,5 @@
 //
 
 @protocol _UIDatePickerCompactStyleDelegate
-- (void);
 @end
 

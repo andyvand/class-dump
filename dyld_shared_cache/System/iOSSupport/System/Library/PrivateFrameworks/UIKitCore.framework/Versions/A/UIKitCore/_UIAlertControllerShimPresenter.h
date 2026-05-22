@@ -25,21 +25,22 @@ __attribute__((visibility("hidden")))
 + (void);
 - (void);
 - (id);
-- (void)ateLastAddressedHandle:forceUpdateHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)with handleID:(_Bool)arg1 %@ hasStoredItem:(CDUnknownBlockType)arg2 %{BOOL}d broadcastChanges:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (void)tinations called on the wrong session;
-- (void)arking unsuccessful attachments as needing sync. Last attempt date %@;
-- (id)e has been modified from %@ to %@, attempting to toggle icloud settings toggle;
-- (void)ExecutorID;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void);
+- (id)
+× ;
+- (void)TÊ¤Ú^;
 
 // Remaining properties
 @property(nonatomic) __weak UIAlertController *alertController; // @synthesize alertController=_alertController;

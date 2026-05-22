@@ -17,9 +17,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
+- (void)?à'8-;
 
 // Remaining properties
 @property(retain, nonatomic) IMHandle *loginHandle; // @synthesize loginHandle=_loginHandle;

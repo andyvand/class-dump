@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void)ifierGeneric<WebKit:(id)arg1:AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::AuthenticationManager::Challenge>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::AuthenticationManager::Challenge>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::AuthenticationManager::Challenge>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::AuthenticationManager::Challenge>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (void)`;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *contentLabel; // @synthesize contentLabel=_contentLabel;

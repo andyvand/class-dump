@@ -5,7 +5,5 @@
 //
 
 @protocol RTMetricManagerMetricIdProtocol
-- (_Bool);
-- (long long)s;
 @end
 

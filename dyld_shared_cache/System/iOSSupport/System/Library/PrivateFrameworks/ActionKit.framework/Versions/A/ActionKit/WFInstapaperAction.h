@@ -33,9 +33,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (id);
+- (void)gsClient setAppearance:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)¬2þÙ	é;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *connectionTypes;

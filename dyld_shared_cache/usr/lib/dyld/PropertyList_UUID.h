@@ -4,5 +4,5 @@
 
 class PropertyList::UUID {
 public: // (access info unavailable from symbols alone)
-    UUID(lsl::Allocator&, unsigned char*);
+    UUID(PropertyList&, unsigned char*);
 };

@@ -65,25 +65,27 @@
 - (void);
 - (id);
 - (_Bool);
-- (long long);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (struct CGSize);
+- (void)";
+- (long long);
 - (struct CGSize);
 - (long long);
-- (struct CGSize)ace;
-- (id).½\G_AAyDÏ\¿À\G)Ô\AAy¡¿^y»Õ\AJG[Í\y½\SgGGSgt;
+- (void);
+- (struct CGSize);
+- (void)1â
+0@ù
+× ;
+- (id)equesting presentation on sending controller.;
+- (void)P;
+- (void)È;
 
 // Remaining properties
 @property(nonatomic, getter=isAnimatingCard) _Bool animatingCard; // @synthesize animatingCard=_animatingCard;

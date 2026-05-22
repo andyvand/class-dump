@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
 + (Class);
-- (struct CGRect);
++ (id);
 - (_Bool);
+- (struct CGRect);
 
 @end
 

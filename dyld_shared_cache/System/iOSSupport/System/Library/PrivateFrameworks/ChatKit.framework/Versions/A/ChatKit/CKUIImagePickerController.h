@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     _Bool _preserveModalPresentationStyle;
 }
 
-- (_Bool)Ö;
+- (_Bool);
 - (void);
-- (void)lderType;
-- (_Bool)reloadDataSerialQueue;
+- (void);
+- (_Bool);
 - (_Bool);
 
 // Remaining properties

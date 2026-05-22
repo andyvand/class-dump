@@ -25,19 +25,19 @@
 - (long long);
 - (void);
 - (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (int);
+- (void);
 - (id);
+- (void);
 - (Class);
 - (void);
-- (id)@;
+- (id);
 - (void);
-- (void)annel.Read;
+- (void);
+- (void);
+- (id);
+- (long long);
 
 // Remaining properties
 @property(copy, nonatomic) TSUColor *color; // @synthesize color=mColor;

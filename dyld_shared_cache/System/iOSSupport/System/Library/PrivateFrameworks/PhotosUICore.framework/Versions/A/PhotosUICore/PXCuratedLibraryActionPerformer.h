@@ -19,8 +19,8 @@
 - (long long);
 - (id);
 - (void);
-- (void);
-- (id)8;
+- (void)t&aÉÔC;
+- (id)wQ ¸9;
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionZoomLevel; // @synthesize actionZoomLevel=_actionZoomLevel;

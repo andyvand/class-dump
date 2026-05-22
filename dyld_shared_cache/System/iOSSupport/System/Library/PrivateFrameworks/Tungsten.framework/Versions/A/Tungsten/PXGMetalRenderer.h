@@ -113,20 +113,20 @@
 - (id);
 - (unsigned char);
 - (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (struct PXGCameraConfiguration);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (struct CGRect);
-- (_Bool);
 - (void);
 - (CDStruct_6fbdf7c2);
-- (id);
-- (id);
 - (void);
 - (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) PXGCameraConfiguration_474424ad cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;

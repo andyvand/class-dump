@@ -4,6 +4,6 @@
 
 class TLE::Executor {
 public: // (access info unavailable from symbols alone)
-    getDependentOpsFromDictionary(der_vm_context, TLE::FactDefinition const&, bool, unsigned long, CEBuffer const*);
-    getOperationsFromCE(CEQueryContext*);
+    auto getDependentOpsFromDictionary(der_vm_context, TLE::FactDefinition const&, bool, unsigned long, CEBuffer const*);
+    auto getOperationsFromCE(CEQueryContext*);
 };

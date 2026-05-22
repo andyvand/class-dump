@@ -5,6 +5,5 @@
 //
 
 @protocol PKPaletteToolPreviewDelegate
-- (long long)re _saveAsyncWithCompletionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 @end
 

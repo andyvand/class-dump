@@ -10,18 +10,18 @@
 {
 }
 
-- (id);
+- (double);
+- (_Bool);
 - (struct CGRect);
 - (double);
-- (id)1¢!0@ù
+- (double)! DùQbð1Â0@ù
 × ;
-- (double)"respondsToShouldAllowSelectionExtensionAtPoint"b1"respondsToShouldAllowSelectionExtensionAtIndexPath"b1"respondsToShouldAllowSelectionAppendageAtPoint"b1"respondsToDidCancelMultiSelectInteraction"b1"respondsToSelectItemsWithinRect"b1"respondsToToggleSelectionWithinRect"b1"respondsToShouldStartBandSelectionAtPoint"b1"respondsToShouldShowBandForSelectionStartingAtPoint"b1"respondsToSupportsKeyboardSelectionExtension"b1"respondsToExtendSelectionInDirection"b1"respondsToChildScrollViewAtLocation"b1"respondsToShouldBeginMultiSelectInteraction"b1"respondsToWillBeginMultiSelectInteractionKeepingSelection"b1};
-- (_Bool)enticationRecord: /* Error: Ran out of types for this method. */;
-- (CDStruct_f413d7fe)a:(_Bool)arg1;
-- (_Bool)and endFrame must be valid rects to animate keyboard tracking elements. Start %@ End %@;
-- (struct UIEdgeInsets)d;
-- (id)width:(long long)arg1 %f;
-- (double);
+- (id)?="updateSceneComponentStatePendingWindowMoveToScene"b1"registrationPendingDidMoveToWindow"b1};
+- (_Bool)ocked: /* Error: Ran out of types for this method. */;
+- (id)ier:(long long)arg1 replacingCharactersInRange:(_Bool)arg2 newState:contextID: /* Error: Ran out of types for this method. */;
+- (CDStruct_f413d7fe)IfPossibleForViewThatMoved:(_Bool)arg1 newSuperview:oldSuperview: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)UDImageCacheInfo",&,N,V_accessibilityHUDImageCacheInfo;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool clipsToBounds;

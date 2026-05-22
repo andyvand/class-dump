@@ -4,5 +4,5 @@
 
 class spar::Pack<ess_authorization_result_t> {
 public: // (access info unavailable from symbols alone)
-    pack(spar::PackedDataBufferWriter&, ess_authorization_result_t const&);
+    auto pack(spar::PackedDataBufferWriter&, ess_authorization_result_t const&);
 };

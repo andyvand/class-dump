@@ -14,28 +14,28 @@
     double _timestamp_s;
 }
 
-+ (_Bool)failed to fetch locations in time:%@. /* Error: Ran out of types for this method. */;
-- (id);
-- (id)D;
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool);
 - (double);
-- (double);
-- (id)imestampKey;
-- (double)7m;
+- (double);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (double)"24@"NSError"32;
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
+- (void);
 - (int);
-- (double)locationTechnologyAvailability, %lu, isRetroRegistration, %d, isTrustedTime, %d;
-- (id)r aggregation falls into DateLine ;
+- (double);
+- (double);
+- (void);
+- (double)meter not satisfying:[parametersKeys isEqualToSet:expectedKeys] (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double Latitude_deg; // @synthesize Latitude_deg=_Latitude_deg;

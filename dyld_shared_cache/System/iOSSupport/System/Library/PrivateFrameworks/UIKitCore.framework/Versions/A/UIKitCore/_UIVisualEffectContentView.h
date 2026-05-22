@@ -15,16 +15,17 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (void)× ;
-- (id)ndAlpha;
-- (void)trollerDelegate;
-- (_Bool);
-- (id)focus system without receiving focus movement action, waiting until action is received to enable;
-- (void)iew controller %{private}@;
 - (void);
-- (void)jþ;
+- (void);
+- (_Bool)1_°1Â0@ù
+× ;
+- (id)h;
+- (void)®T¯;
+- (void)exVariant;
+- (void);
 
 @end
 

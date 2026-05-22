@@ -34,11 +34,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id)tionLevelForRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)onstraints:(id)arg1;
+- (void);
+- (void);
+- (id)6HomeUI24ActionSetDeviceDataModel;
+- (void)r _servicesAllowingToRGWithNotificationOff];
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *cancelButton; // @synthesize cancelButton=_cancelButton;

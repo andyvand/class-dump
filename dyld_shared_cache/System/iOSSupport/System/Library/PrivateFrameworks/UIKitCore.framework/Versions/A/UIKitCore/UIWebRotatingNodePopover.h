@@ -22,17 +22,17 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id)ersistentProperty:(id)arg1;
-- (void)description:(_Bool)arg1;
-- (id)Asked to consume code for guid %@, but unable, current code count:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)showsSearchResultsController;
 - (void);
-- (id)×H^;
+- (id)={CGPoint=dd}{CGSize=dd}}32@0:8@16Q24 /* Error: Ran out of types for this method. */;
+- (void)veDragPreviewForPresentation:(id)arg1 dragItem: /* Error: Ran out of types for this method. */;
+- (void)ld sections in the table view.;
+- (void)µ­;
+- (id)K;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

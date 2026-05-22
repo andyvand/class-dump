@@ -24,13 +24,13 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (id);
 - (_Bool);
 - (struct CGRect);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)mIdentifier:barButtonItem:copyTargetAction: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 
 // Remaining properties

@@ -11,17 +11,17 @@
 }
 
 - (double);
-- (double);
+- (double);
 - (void);
-- (void)w;
+- (void);
 - (vector_fc3c0f11);
 - (void);
 - (struct Point3D);
 - (double);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id)BPSPublisher<BMBookmarkablePublisher>"40@0:8@"BPSPublisher<BMBookmarkablePublisher>"16@"NSArray"24@"<BMBookmark>"32 /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 
 // Remaining properties

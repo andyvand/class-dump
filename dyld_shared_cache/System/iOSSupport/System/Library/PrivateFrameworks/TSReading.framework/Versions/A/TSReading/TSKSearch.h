@@ -18,12 +18,12 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (unsigned long long);
-- (_Bool)d1;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType hitBlock; // @synthesize hitBlock=_hitBlock;

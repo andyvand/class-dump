@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)ap(for:chat:) /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (_Bool)Ӛ;
-+ (id)atingState;
-+ (id)¼;
-+ (long long)üÜ¿ÿ;
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)enesToCallMakeKeyWindow;
++ (long long)Ð@ÎTg;
 
 @end
 

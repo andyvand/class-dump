@@ -21,12 +21,12 @@
 - (long long);
 - (long long);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)emUpdateRequest cannot init with nil service %@ or nil valueSource %@;
-- (id))³;
+- (void)xt"8@?0;
+- (id):[%@], hf_needsOnboarding = %{BOOL}d, supportsOnboarding = %{BOOL}d /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long consentVersion;

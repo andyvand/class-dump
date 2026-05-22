@@ -20,7 +20,7 @@
 - (struct CGSize);
 - (struct CGSize);
 - (struct CGSize);
-- (_Bool)�y;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);

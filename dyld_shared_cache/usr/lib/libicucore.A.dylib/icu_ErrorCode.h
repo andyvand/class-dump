@@ -4,8 +4,8 @@
 
 class icu::ErrorCode {
 public: // (access info unavailable from symbols alone)
-    assertSuccess() const;
-    errorName() const;
-    reset();
+    auto assertSuccess() const;
+    auto errorName() const;
+    auto reset();
     ~ErrorCode();
 };

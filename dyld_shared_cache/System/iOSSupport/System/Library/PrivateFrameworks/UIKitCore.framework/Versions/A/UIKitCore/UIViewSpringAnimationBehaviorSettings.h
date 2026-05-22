@@ -30,7 +30,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -48,42 +48,43 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double)e;
-- (double)didReceiveMessagePlayedForMessageID:date:completionBlock: /* Error: Ran out of types for this method. */;
-- (double)ld not write record:%@ encountered error:%@ /* Error: Ran out of types for this method. */;
-- (double)eSyncController | Recently Deleted:could not write record:%@ encountered error:%@ /* Error: Ran out of types for this method. */;
-- (double)ord %@ with error %@;
-- (double)liases %@;
-- (id)8@56@64B72@76;
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
 - (void);
 - (void);
 - (double);
-- (long long)";
-- (void);
+- (long long);
+- (double);
+- (double);
+- (id);
+- (id);
+- (id);
 - (struct CAFrameRateRange);
-- (void);
-- (unsigned long long);
-- (_Bool)rary chunks for item %lld;
-- (CDStruct_aa45ca86)GlobalID:(int)arg1;
-- (id)@;
-- (double);
-- (void);
 - (id);
-- (id)1¢!0@ù
+- (unsigned long long);
+- (double);
+- (double)0@ù
 × ;
-- (double)ineStyle: /* Error: Ran out of types for this method. */;
-- (void)tion:(struct CAFrameRateRange)arg1;
-- (void)adViews;
-- (id)ayoutManager:(id)arg1 textRanges: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)dCounter;
-- (id)ration",&,N,S_setSheetConfiguration:,V__sheetConfiguration /* Error: Ran out of types for this method. */;
-- (void)ocument is performing completion handler on calling queue:(double)arg1 %@;
-- (id)IFlexInteractionC;
-- (void)avigationBarPlatterItemView;
-- (double);
-- (double):ä /* Error: Ran out of types for this method. */;
-- (id);
+- (id)!¨Cù±g1Â0@ù
+× ;
+- (_Bool)onTorque:(id)arg1;
+- (void)BarEffectivelyHidden;
+- (void)ingView;
+- (CDStruct_aa45ca86)ContentSize3D;
+- (id)_defaultRenderingMode;
+- (void)Controller;
+- (id)es;
+- (void);
+- (void)ueue_keyboardChanged (self:(struct CAFrameRateRange)arg1 %p, info:(unsigned int)arg2 %p), %@;
+- (void)xpected to return an instance of %@ from -tableView:(id)arg1 leadingSwipeActionsConfigurationForRowAtIndexPath:but returned %@. /* Error: Ran out of types for this method. */;
+- (void)t;
+- (void);
+- (id)H+d;
 
 // Remaining properties
 @property(nonatomic) long long behaviorType; // @synthesize behaviorType=_behaviorType;

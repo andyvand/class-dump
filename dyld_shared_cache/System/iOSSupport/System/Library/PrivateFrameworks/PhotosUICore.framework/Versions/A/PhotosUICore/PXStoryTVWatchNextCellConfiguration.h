@@ -23,14 +23,16 @@
 - (void);
 - (long long);
 - (id);
-- (void);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)ÁûÐ!CùIÐ1â
+0@ù
+× ;
+- (id)~]þÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long countdownValue; // @synthesize countdownValue=_countdownValue;

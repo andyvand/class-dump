@@ -7,7 +7,6 @@
 @protocol WFFavoriteLocationProviderDelegate;
 
 @protocol WFFavoriteLocationProvider
-- (void)*;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFFavoriteLocationProviderDelegate> delegate;

@@ -12,12 +12,12 @@
 }
 
 - (void);
-- (CDUnknownBlockType);
-- (_Bool)";
-- (void);
 - (id);
-- (_Bool)Data:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)untNotificationFollowUp.RemoveChildConnect;
+- (_Bool);
+- (CDUnknownBlockType);
+- (void);
+- (_Bool)ErrorCode: /* Error: Ran out of types for this method. */;
+- (_Bool)ck"8B16;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

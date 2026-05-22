@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)N;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,19 +35,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *balance; // @synthesize balance=_balance;

@@ -19,8 +19,8 @@
 - (void);
 - (id);
 - (id);
-- (id)SQRzlXX;
-- (id)ateChangeType;
+- (id);
+- (id);
 - (void);
 
 // Remaining properties

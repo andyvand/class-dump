@@ -5,8 +5,5 @@
 //
 
 @protocol UINavigationItemRenameDelegateInternal
-
-@optional
-- (void);
 @end
 

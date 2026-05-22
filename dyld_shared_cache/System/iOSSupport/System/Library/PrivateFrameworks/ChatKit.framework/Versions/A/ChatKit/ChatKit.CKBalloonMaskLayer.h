@@ -13,14 +13,15 @@
 }
 
 - (void);
-- (struct UIEdgeInsets)EmÕ;
+- (struct UIEdgeInsets);
 - (id);
-- (void);
 - (id);
-- (id)18NavigationBarState;
-- (id)ionState;
-- (void)_MESSAGE;
 - (id);
+- (id);
+- (id)0@ù
+× ;
+- (void)eHeaderFooterView;
+- (void)ltAttributeName;
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets tailInsets;

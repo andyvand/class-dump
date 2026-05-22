@@ -19,7 +19,7 @@
     id <HMFTimerManager> _removedMediaSystemTimerManager;
 }
 
-+ (id)ryLastSeenStatus;
++ (id)tsResidentSelection;
 - (void);
 - (void);
 - (void);
@@ -44,13 +44,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)pdateDocumentation: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)­­;
 
 // Remaining properties
 @property(readonly) id <HMFTimerManager> addedMediaSystemTimerManager; // @synthesize addedMediaSystemTimerManager=_addedMediaSystemTimerManager;

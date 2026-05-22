@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void)edValues;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;

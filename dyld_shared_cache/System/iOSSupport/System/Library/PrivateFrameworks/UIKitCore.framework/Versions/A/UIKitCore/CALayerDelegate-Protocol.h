@@ -4,10 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CALayer;
+@protocol CAAction;
+
 @protocol CALayerDelegate
 
 @optional
+- (void)UIHostedWindowHostingHandle"@"_UIHostedWindowHostingHandle">16;
+- (void)tSizeToFitWidth:(CALayer *)arg1;
 - (void);
-- (void)tÏ[;
+- (void)ITextEffectsWindow.;
+- (id <CAAction>)\;
 @end
 

@@ -11,14 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (oneway void)C;
+- (unsigned long long);
+- (oneway void);
+- (id)1Â0@ù
+× ;
+- (id)l;
+- (_Bool)þÿ;
 - (id);
-- (_Bool)SelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
-- (_Bool)ution arrangement;
-- (id)rtsUserInterfaceStyleForFocusedState;
-- (id)0ì~8;
-- (unsigned long long)øÄêÿß2×v¥d;
-- (id)1p;
+- (id)Tj;
+- (_Bool)¤¤ÿ@};
 
 @end
 

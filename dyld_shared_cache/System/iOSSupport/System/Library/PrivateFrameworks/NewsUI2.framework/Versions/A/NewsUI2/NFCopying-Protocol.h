@@ -5,6 +5,6 @@
 //
 
 @protocol NFCopying
-- (id))6;
+- (id);
 @end
 

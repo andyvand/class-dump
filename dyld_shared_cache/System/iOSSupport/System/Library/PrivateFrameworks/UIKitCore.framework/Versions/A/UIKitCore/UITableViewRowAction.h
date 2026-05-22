@@ -17,21 +17,18 @@
 
 + (id);
 - (void);
-- (id)up, returning.;
-- (CDUnknownBlockType);
-- (void);
-- (id)ditorNotes;
-- (void);
-- (id)ÌCùÃð1¢!0@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (long long)áx!TGùqÎ°1¢!0@ù
-× ;
-- (id)ViewService: /* Error: Ran out of types for this method. */;
-- (void)orable) _setInteractionState:(id)arg1 ];
-- (void);
 - (id);
+- (CDUnknownBlockType);
+- (long long);
+- (void)Orientation:(id)arg1;
+- (void);
+- (id)inningOfDocument;
+- (void)deString;
+- (id);
+- (id)bs %@.;
+- (id)mmetricAnimationDurations;
+- (id)µþ;
+- (void)û+×e;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

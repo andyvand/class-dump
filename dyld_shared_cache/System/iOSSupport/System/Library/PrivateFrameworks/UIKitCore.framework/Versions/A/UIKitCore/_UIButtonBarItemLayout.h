@@ -27,27 +27,27 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)e=dd}16@32;
 - (void);
-- (void)Ûº;
-- (void)× ;
-- (CDUnknownBlockType)tionControllerUsingAnimator: /* Error: Ran out of types for this method. */;
-- (void)dDidMove;
-- (id)ismissTransition;
-- (void);
-- (void)Lt;
-- (id)¦ÿ;
-- (_Bool)`,ÿS+iÓe;
+- (id);
+- (void)lete:(CDUnknownBlockType)arg1;
+- (void)olor;
+- (id)Effect",C,N,S_setBackgroundEffect:,V__backgroundEffect /* Error: Ran out of types for this method. */;
+- (void)ableViewPlaceholderContextDelegate>",W,N,V_delegate;
+- (double)xtInputAssistantItem;
 - (void);
-- (_Bool);
-- (void)ÿç*Û##c;
-- (_Bool)¥>c;
-- (id)¸c;
-- (double)õc;
-- (_Bool)ôÖªWd;
-- (id)(ÿª;
-- (void)Æd;
-- (void)`Nÿ;
+- (_Bool)¸ù;
+- (_Bool)¼c;
+- (void)ernal inconsistency:(id)arg1 prefetchedCells (%ld) and indexPathsForPrefetchedCells (%ld) are out of sync. prefetchedCells=%@; indexPathsForPrefetchedCells=%@;
+- (_Bool)Paste;
+- (id)wNotification;
+- (CDUnknownBlockType)e than the map area's coordinate space. This is a UIKit bug.;
+- (void)ubberEditingGlassFill.png;
+- (void)__strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_5;
+- (id)layout calculations;
+- (void)».34data_Si9hashValuet;
+- (void)SpringType;
+- (void)Á3ÿìÛ4X^;
+- (_Bool)õ_;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType itemViewGenerator; // @synthesize itemViewGenerator=_itemViewGenerator;

@@ -13,9 +13,11 @@
     MISSING_TYPE *symbols;
 }
 
-+ (id);
-- (void);
++ (id)Ñ 1â
+0@ù
+× ;
 - (id);
+- (void)ons.properties.parkedcar;
 
 @end
 

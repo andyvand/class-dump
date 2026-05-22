@@ -16,11 +16,7 @@
 }
 
 + (id);
-+ (id)Wí
-G]í
-GGvKí
-G_AByAAyÉ=jAIGGSgtGG_Qo_÷Uï
-G;
++ (id);
 - (_Bool);
 - (void);
 - (void);
@@ -33,8 +29,8 @@ G;
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool viewNavigationCollapsed; // @synthesize viewNavigationCollapsed;

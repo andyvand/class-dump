@@ -5,7 +5,5 @@
 //
 
 @protocol CKTrimControllerDelegate
-- (void)¬;
-- (void);
 @end
 

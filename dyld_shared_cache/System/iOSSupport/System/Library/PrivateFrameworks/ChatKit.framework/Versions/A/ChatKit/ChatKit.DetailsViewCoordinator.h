@@ -29,33 +29,33 @@
 
 - (double);
 - (id);
-- (_Bool)nds;
-- (void)nFolder;
-- (void);
-- (void)cAuthenticationIfAvailable;
-- (void)_usesAlternativeAuthenticationIfAvailable;
-- (void)BasedRendering;
-- (void):(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (void)tesUserRecordIfNeeded;
-- (void)haresDelayer;
-- (void)upportedObjectsInSource;
-- (void)neImage;
-- (void)_type;
-- (void)es;
-- (void)ock;
-- (struct UIEdgeInsets)eviewGeneratorOperationQueue",&,N,V_asyncGeneratorQueue;
+- (_Bool);
 - (void);
 - (void);
-- (void)e;
-- (void)n-nil value for attachment.note:(id)arg1 %@;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)A­! GùqÅ1¢!0@ù
-× ;
+- (void);
+- (void)deMoney(void);
 
 @end
 

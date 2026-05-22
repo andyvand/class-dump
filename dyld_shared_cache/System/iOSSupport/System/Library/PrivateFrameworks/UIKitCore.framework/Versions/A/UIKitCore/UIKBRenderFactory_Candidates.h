@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ed:(struct CGSize)arg1 chatGUIDs:(_Bool)arg2 queryID: /* Error: Ran out of types for this method. */;
+- (id);
 - (long long);
-- (id);
+- (id);
 
 @end
 

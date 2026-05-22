@@ -21,22 +21,25 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (void);
-+ (id)m"16;
-+ (id)fectView;
-+ (id)ervice scene can not be requested from an app that isn't a SystemUIService;
-- (id);
-- (unsigned long long)EMPasscodeVerifyFirmwarePasswordCommand;
++ (void)
+× ;
++ (id)_Ð1Â0@ù
+× ;
++ (id)ractionDelegate>";
++ (id)ÁÄÁ¼Â;
 - (_Bool);
 - (id);
-- (void);
-- (void)× ;
-- (double);
-- (id)>";
-- (id)rsive: /* Error: Ran out of types for this method. */;
-- (_Bool)old global row (%ld) that does not exist after updates updateItems=%@; oldRowData=%@; newRowData=%@; oldGlobalRowMap:%@; tableView=%@ /* Error: Ran out of types for this method. */;
-- (id)g;
-- (_Bool)configure(withInitialViewControllers:(double)arg1 );
+- (id);
+- (id);
+- (_Bool);
+- (id)TCùÑc1Â0@ù
+× ;
+- (_Bool)teAllowsPanHorizontally"b1"queriedDelegateAllowsPanVertically"b1"failsPastMaxTouches"b1"multitouchTimerOn"b1"requiresImmediateMultipleTouches"b1"sawNonzeroStifledDeltaX"b1"sawNonzeroStifledDeltaY"b1"shouldConsiderAllowedScrollTypeCompatibility"b1"evaluatedAllowedScrollTypeCompatibility"b1};
+- (id)tPoint:(struct _NSZone *)arg1;
+- (double)ysAllowsSystemPreferredContentSize;
+- (void)efaultPreview;
+- (unsigned long long)ing",R,C,N,V_textWithContext;
+- (void)ÿÒX¾þ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long appliedCorners;

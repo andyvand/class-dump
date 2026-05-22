@@ -16,8 +16,8 @@
 
 + (id);
 - (void);
-- (void)d items;
 - (id);
+- (void);
 
 @end
 

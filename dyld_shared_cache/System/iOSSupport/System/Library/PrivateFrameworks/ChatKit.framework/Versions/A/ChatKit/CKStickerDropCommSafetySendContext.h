@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ü;
 
 // Remaining properties
 @property(readonly, nonatomic) CKComposition *composition; // @synthesize composition=_composition;

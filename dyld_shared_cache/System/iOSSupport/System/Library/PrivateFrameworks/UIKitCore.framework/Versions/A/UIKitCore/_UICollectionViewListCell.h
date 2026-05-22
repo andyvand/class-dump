@@ -17,17 +17,18 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)ersationItemForChat:(long long)arg1;
-- (long long)edMessageRowID;
-- (void)ID;
-- (void)PipelineParameter;
-- (id)gManaging;
-- (unsigned long long);
-- (id)ersistence returning nil for batchOfRecordIDsToDelete for DeletedChatStore.;
-- (id)ntroller;
-- (long long)with GUID %@;
+- (id);
+- (long long);
 - (void);
-- (_Bool)=dddd}16B48;
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (_Bool)@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, setter=_setBackgroundViewConfigurationGrouping:) long long _backgroundViewConfigurationGrouping; // @synthesize _backgroundViewConfigurationGrouping=__backgroundViewConfigurationGrouping;

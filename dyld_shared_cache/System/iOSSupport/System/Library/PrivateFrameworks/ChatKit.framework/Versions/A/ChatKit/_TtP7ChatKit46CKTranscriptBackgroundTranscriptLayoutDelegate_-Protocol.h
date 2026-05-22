@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC7ChatKit39CKTranscriptBackgroundBalloonAttributes;
-
 @protocol _TtP7ChatKit46CKTranscriptBackgroundTranscriptLayoutDelegate_
-- (struct CGRect)±í;
-- (_TtC7ChatKit39CKTranscriptBackgroundBalloonAttributes *);
-- (struct CGRect)±í;
 @end
 

@@ -25,16 +25,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id)0@ù
-× ;
-- (void)n_cell:(id)arg1 didTransitionToState: /* Error: Ran out of types for this method. */;
-- (id),N,S_setFloatingAppearance: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (id)erlay;
+- (id)Type;
+- (void)Ð;
+- (void)essageConstructing>"8;
+- (void)¾7_Gú¾7G;
+- (void)dÔoþ©23Øoþ23Ôoþ;
 - (_Bool);
 
 // Remaining properties

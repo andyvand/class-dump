@@ -28,13 +28,13 @@
 }
 
 + (id);
-+ (long long)0%EÉ;
++ (long long);
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (id)ryURL;
-+ (id);9;
++ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -50,7 +50,7 @@
 - (id);
 - (id);
 - (id);
-- (id)Ì;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -63,15 +63,15 @@
 - (long long);
 - (long long);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void)n",&,N,V_workflowRunAssertion;
+- (void)tart Recording;
+- (id)Ã;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *associatedAppBundleIdentifier; // @synthesize associatedAppBundleIdentifier=_associatedAppBundleIdentifier;

@@ -32,12 +32,12 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)§Oz9_pG;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *CNIDToAliasesMap; // @synthesize CNIDToAliasesMap=_CNIDToAliasesMap;

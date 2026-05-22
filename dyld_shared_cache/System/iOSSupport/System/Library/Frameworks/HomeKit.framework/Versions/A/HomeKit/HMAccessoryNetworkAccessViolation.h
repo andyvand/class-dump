@@ -12,16 +12,16 @@
     NSDate *_lastResetDate;
 }
 
-+ (_Bool)1000-8000-0026BB765291;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (id);
+- (void)ailed to create input stream;
 
 // Remaining properties
 @property(readonly, getter=hasCurrentViolation) _Bool currentViolation;

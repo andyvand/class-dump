@@ -13,9 +13,9 @@
     MISSING_TYPE *commandQueue;
 }
 
-- (void);
 - (id);
-- (id)cache library :%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

@@ -21,33 +21,34 @@
     RTWorkoutMetricsManager *_workoutMetricsManager;
 }
 
-- (id);
-- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)@16I24Q28@36@?44;
-- (void)re %@, %@, and %@;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void)nsLeeched;
-- (id)n:error:] /* Error: Ran out of types for this method. */;
+- (void)0@ù
+× ;
+- (id)Handler:(id)arg1;
+- (void)PLàØØ ;
+- (id)eoutWithFireDate:] /* Error: Ran out of types for this method. */;
+- (void)%{public, signpost.telemetry:string2}s, nextState:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

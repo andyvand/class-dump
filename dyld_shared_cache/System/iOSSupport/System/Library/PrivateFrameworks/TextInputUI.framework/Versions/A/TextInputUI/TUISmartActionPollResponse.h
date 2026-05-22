@@ -12,8 +12,8 @@
     MISSING_TYPE *options;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

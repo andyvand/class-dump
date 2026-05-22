@@ -10,19 +10,18 @@ __attribute__((visibility("hidden")))
     struct _UIBoundingPathBitmapData _bitmapData;
 }
 
-+ (_Bool)´/nÿ;
-- (void);
++ (_Bool)e length;
 - (id);
 - (void);
 - (id);
-- (id)DCù±Èð1¢!0@ù
-× ;
-- (struct _UIBoundingPathBitmapData)yHighlightedTextRange;
 - (id);
-- (id)ze;
-- (id)idsNonDefaultActionsIfPossible;
-- (id)@>;
-- (id);
+- (id);
+- (void)nInputModes:(id)arg1;
+- (id)age;
+- (id)alue:(struct _UIIntegralRect)arg1 fromAngle:(struct _UIIntegralCornerRadii)arg2 toAngle: /* Error: Ran out of types for this method. */;
+- (struct _UIBoundingPathBitmapData)crubberEditingGlassRight.png;
+- (id);
+- (id)ÿö;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _UIBoundingPathBitmapData bitmapData; // @synthesize bitmapData=_bitmapData;

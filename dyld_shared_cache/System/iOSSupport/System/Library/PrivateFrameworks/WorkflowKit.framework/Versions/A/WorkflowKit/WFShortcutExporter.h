@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ion - End Repeat;
 
 // Remaining properties
 @property(readonly, nonatomic) WFWorkflowRecord *workflowRecord; // @synthesize workflowRecord=_workflowRecord;

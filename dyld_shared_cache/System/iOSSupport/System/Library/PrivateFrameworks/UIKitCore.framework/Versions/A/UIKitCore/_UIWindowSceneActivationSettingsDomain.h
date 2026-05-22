@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)anagedToWriteUnmanagedContacts: /* Error: Ran out of types for this method. */;
 + (id);
-+ (Class);
-+ (id);
++ (id)edPhase;
++ (id)tStyle;
++ (Class)3Ê¥þ·13Ê¥þÕ¶13Ê¥þ;
 
 @end
 

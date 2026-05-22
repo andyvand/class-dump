@@ -12,7 +12,6 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
@@ -26,8 +25,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
 - (void);
+- (id);
+- (void)tion.m;
 
 // Remaining properties
 @property(retain, nonatomic) WFIntentExecutor *executor; // @synthesize executor;

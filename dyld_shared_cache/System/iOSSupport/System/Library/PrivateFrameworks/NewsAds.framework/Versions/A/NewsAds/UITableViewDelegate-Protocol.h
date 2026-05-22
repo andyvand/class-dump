@@ -5,10 +5,5 @@
 //
 
 @protocol UITableViewDelegate
-
-@optional
-- (void);
-- (_Bool)X;
-- (void)?ר;
 @end
 

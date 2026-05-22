@@ -13,12 +13,13 @@
 
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
 - (id);
-- (id)hisElement;
-- (id);
+- (void)Þ!Gù1ïð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;

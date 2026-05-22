@@ -28,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)lertActionDismiss;
 
 // Remaining properties
 @property(readonly, nonatomic) HFRangeControlItem *controlItem; // @dynamic controlItem;

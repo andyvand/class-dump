@@ -18,18 +18,18 @@
 }
 
 + (id);
-+ (Class)Ì;
++ (Class);
 - (void);
 - (_Bool);
 - (unsigned int);
 - (void);
 - (void);
 - (unsigned int);
-- (void);
-- (void);
 - (id);
-- (void);
 - (id);
+- (void)xTh;
+- (void);
+- (void)ccount:identifier:didSendWithSuccess:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned int batchCount; // @synthesize batchCount=_batchCount;

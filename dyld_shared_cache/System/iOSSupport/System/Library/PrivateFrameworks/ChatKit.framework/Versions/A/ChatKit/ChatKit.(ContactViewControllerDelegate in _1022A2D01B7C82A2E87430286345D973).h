@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (void)ring"24;
+- (void);
 
 @end
 

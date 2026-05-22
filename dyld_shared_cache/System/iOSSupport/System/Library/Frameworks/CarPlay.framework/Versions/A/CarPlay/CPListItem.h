@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPImageSet, CPListTemplate, NSString, NSUUID, UIImage;
+@class CPImageSet, CPListTemplate, CPPlaybackConfiguration, NSString, NSUUID, UIImage;
 
 @interface CPListItem
 {
@@ -12,6 +12,7 @@
     _Bool _explicitContent;
     _Bool _playing;
     _Bool _showsDisclosureIndicator;
+    CPPlaybackConfiguration *_playbackConfiguration;
     long long _accessoryType;
     double _playbackProgress;
     long long _playingIndicatorLocation;
@@ -34,7 +35,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (double);
+- (_Bool);
 - (long long);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -50,30 +55,30 @@
 - (void);
 - (id);
 - (id);
+- (long long);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (void);
-- (double);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool)emplateProviding>">48;
+- (void);
+- (void)tionalInformationVariants:(_Bool)arg1 %@, selectionSummaryVariants %@};
+- (double)ailText:%@, image:%@, accessory:%@} /* Error: Ran out of types for this method. */;
+- (void)Ð;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *accessoryImage;
@@ -93,9 +98,12 @@
 @property(readonly, nonatomic) UIImage *image;
 @property(retain, nonatomic) CPImageSet *imageSet; // @synthesize imageSet=_imageSet;
 @property(nonatomic) __weak CPListTemplate *listTemplate; // @synthesize listTemplate=_listTemplate;
+@property(copy, nonatomic) CPPlaybackConfiguration *playbackConfiguration; // @synthesize playbackConfiguration=_playbackConfiguration;
 @property(nonatomic) double playbackProgress; // @synthesize playbackProgress=_playbackProgress;
 @property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
 @property(nonatomic) long long playingIndicatorLocation; // @synthesize playingIndicatorLocation=_playingIndicatorLocation;
+@property(readonly, nonatomic) _Bool resolvedIsPlaying;
+@property(readonly, nonatomic) double resolvedPlaybackProgress;
 @property(readonly, nonatomic) _Bool showsDisclosureIndicator; // @synthesize showsDisclosureIndicator=_showsDisclosureIndicator;
 @property(nonatomic) _Bool showsExplicitLabel;
 @property(readonly) Class superclass;

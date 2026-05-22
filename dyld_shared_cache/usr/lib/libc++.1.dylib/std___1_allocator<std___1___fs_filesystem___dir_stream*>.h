@@ -4,5 +4,5 @@
 
 class std::__1::allocator<std::__1::__fs::filesystem::__dir_stream*> {
 public: // (access info unavailable from symbols alone)
-    allocate_at_least[abi:ne200100](unsigned long);
+    auto allocate_at_least[abi:nqe210106](unsigned long);
 };

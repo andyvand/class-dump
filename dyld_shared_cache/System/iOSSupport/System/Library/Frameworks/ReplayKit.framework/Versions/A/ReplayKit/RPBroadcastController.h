@@ -29,13 +29,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (_Bool)úõ.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *broadcastExtensionBundleID; // @synthesize broadcastExtensionBundleID=_broadcastExtensionBundleID;

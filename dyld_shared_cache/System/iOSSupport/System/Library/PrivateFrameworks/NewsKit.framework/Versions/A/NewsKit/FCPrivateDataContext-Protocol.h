@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAudioPlaylist, FCIssueReadingHistory, FCPersonalizationData, FCPrivateChannelMembershipController, FCPuzzleHistory, FCPuzzleTypeSettings, FCReadingHistory, FCReadingList, FCRecipeUserEventHistory, FCShortcutList, FCSubscriptionList, FCTagSettings, FCUserEventHistory, FCUserInfo, NSString;
+@class FCAudioPlaylist, FCIssueReadingHistory, FCPrivateChannelMembershipController, FCPuzzleHistory, FCPuzzleTypeSettings, FCReadingHistory, FCReadingList, FCRecipeUserEventHistory, FCShortcutList, FCSubscriptionList, FCTagSettings, FCUserEventHistory, FCUserInfo, NSString;
 @protocol FCNetworkBehaviorMonitor, FCPrivateDataContextInternal, FCPushNotificationHandling;
 
 @protocol FCPrivateDataContext
-- (FCPuzzleTypeSettings *)TagController"16@0:8 /* Error: Ran out of types for this method. */;
-- (id <FCPrivateDataContextInternal>);
-- (FCPersonalizationData *) ;
 
 // Remaining properties
 @property(readonly, nonatomic) FCAudioPlaylist *audioPlaylist;
 @property(readonly, nonatomic) id <FCPrivateDataContextInternal> internalPrivateDataContext;
 @property(readonly, nonatomic) FCIssueReadingHistory *issueReadingHistory;
 @property(readonly, nonatomic) id <FCNetworkBehaviorMonitor> networkBehaviorMonitor;
-@property(readonly, nonatomic) FCPersonalizationData *personalizationData;
 @property(readonly, nonatomic) FCPrivateChannelMembershipController *privateChannelMembershipController;
 @property(readonly, copy, nonatomic) NSString *privateDataDirectory;
 @property(readonly, nonatomic, getter=isPrivateDataSyncingEnabled) _Bool privateDataSyncingEnabled;

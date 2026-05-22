@@ -4,8 +4,8 @@
 
 class zhtok::LatticeWord {
 public: // (access info unavailable from symbols alone)
-    clearHypotheses();
-    connectPreviousWord(zhtok::LatticeWord const*, zhtok::ConnectionContext const*);
-    createDescription() const;
-    initializeBeginSentinelHypothesis(zhtok::Hypothesis* () block_pointer);
+    auto clearHypotheses();
+    auto connectPreviousWord(zhtok::LatticeWord const*, zhtok::ConnectionContext const*);
+    auto createDescription() const;
+    auto initializeBeginSentinelHypothesis(zhtok::Hypothesis* () block_pointer);
 };

@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (_Bool);
+- (id);
 - (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
 - (_Bool);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool cancellable; // @synthesize cancellable=_cancellable;

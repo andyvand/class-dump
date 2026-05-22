@@ -66,16 +66,16 @@
 }
 
 + (_Bool);
-+ (_Bool)tionViewProviderManaging>"24;
-+ (void)DisappearanceFeedback>"24;
-+ (void)nary=}16;
-+ (void)UIIntArray2D";
-+ (_Bool)SharedUISAEViewModelController"16;
-+ (_Bool)troller"16@?<v@?>24;
-+ (id)0:(struct CGPDFFont *)arg1 8@"NSArray"16@?<v@?@"NSArray">24;
-+ (id)24@0:8@"AFMetrics"16 /* Error: Ran out of types for this method. */;
-+ (_Bool)ontroller";
-+ (struct CGPDFPage *)ldClose:(struct CGImage *)arg1;
++ (_Bool);
++ (void);
++ (void);
++ (void);
++ (_Bool);
++ (_Bool);
++ (id);
++ (id);
++ (_Bool);
++ (struct CGPDFPage *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *annotations;

@@ -30,10 +30,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)
+× ;
+- (id)olorGradeSmoothingFactor;
 - (void);
-- (void)É?;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <PXStorySongResource> currentSongResource; // @synthesize currentSongResource=_currentSongResource;

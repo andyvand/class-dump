@@ -27,10 +27,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)ctionDelegate>";
-- (id)hs: /* Error: Ran out of types for this method. */;
-- (void)yRoom:(id)arg1 valueSource: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ingError_Button_EditDetails;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

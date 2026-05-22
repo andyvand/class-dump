@@ -11,13 +11,13 @@
     MISSING_TYPE *opacityMultiple;
 }
 
+- (id);
+- (id);
+- (id);
 - (struct CGRect);
-- (id);
-- (id);
 - (float);
 - (void);
 - (void);
-- (id)¯¯y¹)G;
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

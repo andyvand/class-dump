@@ -32,12 +32,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void);
-- (id)q.ð1b0@ù
-× ;
+- (id);
+- (void)ionID;
+- (void)rowsDown;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *collectionSectionSettings;

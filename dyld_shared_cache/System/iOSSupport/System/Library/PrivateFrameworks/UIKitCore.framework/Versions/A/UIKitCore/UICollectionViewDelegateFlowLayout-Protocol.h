@@ -4,13 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UICollectionView;
+
 @protocol UICollectionViewDelegateFlowLayout
 
 @optional
-- (struct CGSize);
-- (double)prepare extension context for failed view controller materialization;
-- (struct CGSize)ddCurveToPoint;
-- (struct UIEdgeInsets)ha;
-- (double);
+- (struct CGSize)
+× ;
+- (double)ghtAttributes;
+- (struct UIEdgeInsets)R,C,N,V_previewProvider;
+- (double)ntationTransactionToken:(UICollectionView *)arg1 ,V__orientationTransactionToken;
+- (struct CGSize)mageView",&,N,V_decorationImageView;
+- (struct CGSize)abGroup.managingNavigationController does not supported nesting. The managingNavigationController from the rootmost UITabGroup (%@) will be used, and the nested one (%@) will be ignored.;
 @end
 

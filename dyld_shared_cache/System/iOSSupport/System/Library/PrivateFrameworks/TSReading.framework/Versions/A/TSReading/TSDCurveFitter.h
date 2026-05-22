@@ -10,7 +10,7 @@
     long long mErrorIterations;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (long long);
-- (id)?	;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double errorDistance; // @synthesize errorDistance=mErrorDistance;

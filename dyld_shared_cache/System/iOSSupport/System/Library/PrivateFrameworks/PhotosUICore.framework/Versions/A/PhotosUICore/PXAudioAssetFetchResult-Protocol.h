@@ -8,10 +8,10 @@
 @protocol PXAudioAsset;
 
 @protocol PXAudioAssetFetchResult
-- (NSArray *)y1b0@ù
-× ;
-- (void)entTime;
-- (id <PXAudioAsset>);
+- (id <PXAudioAsset>)Action;
+- (id <PXAudioAsset>)è40 è !H!0#;
+- (id <PXAudioAsset>)©?uVù?Âõ(\ò?;
+- (NSArray *)=4;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioAsset> firstObject;

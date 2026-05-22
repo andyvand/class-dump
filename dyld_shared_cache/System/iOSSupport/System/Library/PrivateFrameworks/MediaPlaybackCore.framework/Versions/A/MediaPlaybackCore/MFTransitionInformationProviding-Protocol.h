@@ -7,8 +7,6 @@
 @protocol MFGaplessParameters;
 
 @protocol MFTransitionInformationProviding
-- (id <MFGaplessParameters>);
-- (_Bool)e;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MFGaplessParameters> gaplessParameters;

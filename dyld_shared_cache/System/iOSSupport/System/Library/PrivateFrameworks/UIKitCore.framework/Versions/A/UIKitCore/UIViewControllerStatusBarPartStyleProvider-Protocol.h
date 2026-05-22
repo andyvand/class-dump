@@ -5,9 +5,9 @@
 //
 
 @protocol UIViewControllerStatusBarPartStyleProvider
-- (long long)4@?0@"UIColor"8@"UITraitCollection"16;
-- (long long)TtC5UIKit30_UIZoomTransitionAnimationSpec",N,&,VzoomIn;
-- (long long)_r;
+- (long long)never be nil. This likely means that the BoundingPathData.bundle inside UIKitCore.framework is missing.;
+- (long long);
+- (long long)3Ï;
 
 // Remaining properties
 @property(readonly, nonatomic) long long preferredCenterStatusBarStyle;

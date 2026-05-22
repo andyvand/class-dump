@@ -29,21 +29,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)er;
-- (void);
-- (void);
+- (id);
 - (void);
 - (Class);
 - (id);
 - (id);
-- (id)ø;
+- (void);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText; // @synthesize anchoredToText;

@@ -12,14 +12,15 @@
     MISSING_TYPE *thumbnailImageData;
     MISSING_TYPE *layoutPreferences;
     MISSING_TYPE *isReady;
-    MISSING_TYPE *photosPosterConfigurationReader;
+    MISSING_TYPE *isSpecularHighlightsEnabled;
+    MISSING_TYPE *contentOcclusionRectangles;
+    MISSING_TYPE *saliencyMode;
     MISSING_TYPE *renderingViewController;
     MISSING_TYPE *gradientPlaceholderViewController;
     MISSING_TYPE *placeholderImageView;
     MISSING_TYPE *photoImageView;
     MISSING_TYPE *photoImageSize;
-    MISSING_TYPE *loadPhotoImageTask;
-    MISSING_TYPE *saliencyAnalysisTask;
+    MISSING_TYPE *loadingTask;
     MISSING_TYPE *salientContentRectangleDebugBorder;
     MISSING_TYPE *shiftedFaceRectangleDebugBorder;
     MISSING_TYPE *faceRectangleDebugBorder;
@@ -29,8 +30,8 @@
 - (id);
 - (id);
 - (void);
-- (void)y0y¤0yAH_ktGGAWy8r0GGéw0G_Qo_AEy2y2yADyAGyA4_yAEyAhEyA2HGSgG_AHSgtGAEyAEyACyAIÎ0y0GGACyAIA20_yGGGAHGGGG_AAySayG0ACyADyAEyA14_yAHGA14_ya{2GGGAWyÎs0SgGGGQo_A31_GGGGA20_yA40_GGAWyÛ0SgGGÂ~0yÔSgGGG;
 - (void);
+- (void):error: /* Error: Ran out of types for this method. */;
 
 @end
 

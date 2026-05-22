@@ -9,6 +9,6 @@
 @protocol UITraitDefinition
 
 @optional
-+ (NSString *)ts:composition:suggestedReplies:animated:bizIntent:launchPluginWithBundleID:pluginLaunchPayload:sendMessageHandler: /* Error: Ran out of types for this method. */;
++ (NSString *)onMethod;
 @end
 

@@ -15,15 +15,15 @@
 }
 
 - (id);
+- (void);
 - (id);
-- (void);
-- (struct CGRect)tener;
-- (unsigned long long);
-- (void)^;
-- (void);
-- (void)hä{¬;
-- (unsigned long long)Wb;
-- (void)c;
+- (void)terfaceOrientationMode:(unsigned long long)arg1;
+- (struct CGRect)ng: /* Error: Ran out of types for this method. */;
+- (unsigned long long)nstraintBasedLayoutHostingView;
+- (void)Configuration;
+- (void)edPreviews not checked);
+- (void)¼HËÿ©~Êv];
+- (unsigned long long)ðUþ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long assertionID; // @synthesize assertionID=_assertionID;

@@ -14,15 +14,15 @@
 
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void)(=;
 - (void);
 - (void);
-- (id)s;
-- (id);
-- (id);
-- (id)ve}@, error, %@;
-- (id)ä:Úÿ /* Error: Ran out of types for this method. */;
+- (id)tartDate;
+- (void)ck; minimum expected expiration date, %@, actual expiration date, %@;
+- (id)ions count, %lu, toLocations count, %lu, dtw threshold, %.5f, dtw distance, %.5f, latency, %.4f sec, footprint, %.4f MB;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

@@ -31,16 +31,19 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
+- (void)ù
+× ;
+- (void)ì;
 
 // Remaining properties
 @property(nonatomic) __weak HMCameraClipManager *clipManager; // @synthesize clipManager=_clipManager;

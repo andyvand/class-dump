@@ -10,7 +10,7 @@
 {
 }
 
-- (id)eSpecification;
+- (id)es;
 
 @end
 

@@ -106,15 +106,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id)ShowSearchSuggestions;
-- (void)ë4;
+- (void)
+× ;
+- (id)óøÿ;
+- (void)inerTitle;
+- (void)rcedNavigationType;
+- (id);
+- (void)mPresentableDetailView;
 
 // Remaining properties
 @property(retain) PXPlacesImageCache *cache; // @synthesize cache=_cache;

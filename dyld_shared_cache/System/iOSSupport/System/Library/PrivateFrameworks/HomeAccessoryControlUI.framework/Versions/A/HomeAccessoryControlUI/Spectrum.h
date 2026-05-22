@@ -4,8 +4,8 @@
 
 class Spectrum {
 public: // (access info unavailable from symbols alone)
-    colorRGBAtPosition(float vector[2], FragmentShaderArguments);
-    colorTemperatureAtPosition(float vector[2], FragmentShaderArguments);
-    getColorForLightTemperature(float);
-    positionForColor(float, FragmentShaderArguments);
+    auto colorRGBAtPosition(float vector[2], FragmentShaderArguments);
+    auto colorTemperatureAtPosition(float vector[2], FragmentShaderArguments);
+    auto getColorForLightTemperature(float);
+    auto positionForColor(float, FragmentShaderArguments);
 };

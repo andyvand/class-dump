@@ -13,8 +13,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)ûÿ;
+- (id)!ôCùqGÐ1â
+0@ù
+× ;
+- (void)[%@]>;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool lastTouchRemainedOnSelectedSegment; // @synthesize lastTouchRemainedOnSelectedSegment=_lastTouchRemainedOnSelectedSegment;

@@ -33,26 +33,26 @@
 - (id);
 - (void);
 - (void);
+- (long long);
+- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (id);
 - (long long);
 - (id);
 - (id);
-- (id);
 - (void);
-- (double);
-- (void)GùQ Ð1b0@ù
+- (void)0@ù
 × ;
+- (double)eItemsDataSource";
+- (void)with PID:(double)arg1 %{public}d;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *contentColor; // @synthesize contentColor=_contentColor;

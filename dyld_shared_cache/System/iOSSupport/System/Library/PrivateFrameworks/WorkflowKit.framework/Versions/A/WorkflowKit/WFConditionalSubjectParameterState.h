@@ -18,6 +18,7 @@
     NSNumber *_stepValue;
     unsigned long long _tense;
     unsigned long long _displayableTimeUnits;
+    unsigned long long _preferredTimeUnit;
     unsigned long long _comparableTimeUnits;
     NSString *_unitType;
     WFVariable *_variable;
@@ -33,11 +34,12 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long)EÉ;
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
@@ -46,16 +48,17 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)y Time;
-- (id);
-- (id)oke Width (WFPercentageTextStrokeWidth);
-- (id)unningProgressSuppressionStateMachine"16B24@"WFDialogAttribution"28;
-- (long long)mentUnitValueType;
+- (id)0@ù
+× ;
+- (long long)tes to match %{public}@;
+- (void)ppPrivacyType;
+- (id)!á¬=;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCaseInsensitive) _Bool caseInsensitive; // @synthesize caseInsensitive=_caseInsensitive;
@@ -79,6 +82,7 @@
 @property(readonly, nonatomic) NSNumber *maximumLength; // @synthesize maximumLength=_maximumLength;
 @property(readonly, nonatomic) NSNumber *maximumValue; // @synthesize maximumValue=_maximumValue;
 @property(readonly, nonatomic) NSNumber *minimumValue; // @synthesize minimumValue=_minimumValue;
+@property(readonly, nonatomic) unsigned long long preferredTimeUnit; // @synthesize preferredTimeUnit=_preferredTimeUnit;
 @property(readonly, nonatomic) id <WFPropertyListObject> serializedRepresentation;
 @property(readonly, nonatomic) NSNumber *stepValue; // @synthesize stepValue=_stepValue;
 @property(readonly) Class superclass;

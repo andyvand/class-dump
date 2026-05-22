@@ -14,9 +14,9 @@
 + (id);
 + (id);
 + (Class);
-- (void);
-- (id)p;
-- (id)@;
+- (id);
+- (id);
+- (void)leInternal/Library/BuildRoots/4~CNrSugDYcx6sjASS2XskMirRBBIt5EXaGbmPAJc/Library/Caches/com.apple.xbs/TemporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/JXHTTP/JXHTTP/JXHTTPOperation+Convenience.m;
 
 // Remaining properties
 @property(readonly, nonatomic) MPAVRoute *route; // @synthesize route=_route;

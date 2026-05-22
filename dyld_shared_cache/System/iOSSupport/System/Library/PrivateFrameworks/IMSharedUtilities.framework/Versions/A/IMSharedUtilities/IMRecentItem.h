@@ -16,23 +16,23 @@
     NSString *_accessibilityString;
 }
 
-- (void);
-- (id);
-- (id);
 - (void);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (void)sFromMe;
 - (id);
-- (void)dÿÿÚ6ÿÿ;
-- (id)ntShareURL;
+- (id)entDownloadFailure;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;

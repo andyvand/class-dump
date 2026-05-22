@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)ted:(id)arg1 %@ country:(id)arg2 %@ status update:(id)arg3 %d  style:(id)arg4 %c;
+- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id)Productivity Gestures;
 - (void);
-- (id)ntalAlignment: /* Error: Ran out of types for this method. */;
-- (id)µÐ{È\;
 
 // Remaining properties
 @property(readonly) NSAttributedString *definition; // @synthesize definition=_definition;

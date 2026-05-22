@@ -25,14 +25,14 @@
 - (id);
 - (unsigned short);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (id);
 - (unsigned short);
-- (id);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

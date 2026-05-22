@@ -31,13 +31,13 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)de;
-- (int)ration;
-- (void)ô;
+- (void)roundViewCreateIfNeeded: /* Error: Ran out of types for this method. */;
+- (int)ider;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;

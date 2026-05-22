@@ -5,6 +5,6 @@
 //
 
 @interface (null) (UIApplicationSceneTransitionContext)
-- (_Bool)%@;
+- (_Bool);
 @end
 

@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
+- (id)DidCollapseOrDismiss:(long long)arg1 withReason:(id)arg2;
+- (void)Ä!ü#;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

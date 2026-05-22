@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (id);
-- (void)6\;
-- (id)<îÿÿ;
+- (id);
+- (void)in:withToken:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

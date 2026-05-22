@@ -15,9 +15,9 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)fined indices changed structure.;
 
 @end
 

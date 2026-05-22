@@ -7,6 +7,6 @@
 @protocol UIDropInteractionDelegate_Private
 
 @optional
-- (long long)_AOtGSgtGGATGyþGG;
+- (long long);
 @end
 

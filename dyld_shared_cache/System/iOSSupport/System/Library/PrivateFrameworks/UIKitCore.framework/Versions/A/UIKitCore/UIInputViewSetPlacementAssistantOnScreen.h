@@ -16,27 +16,26 @@ __attribute__((visibility("hidden")))
     _Bool isInteractive;
 }
 
-+ (id)Error computing length of working directory path.";
-+ (id)gDecorationMarginAppliesPerSection;
-+ (_Bool)çÍÓ;
-- (id)onKey:(id)arg1 wallpaperDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:avatarRecipeDataTag: /* Error: Ran out of types for this method. */;
-- (id):nicknameLocation:encryptionKey:wallpaperDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:avatarRecipeDataTag: /* Error: Ran out of types for this method. */;
-- (double)X;
++ (id);
++ (id)à=;
++ (_Bool)ng up the keyboard - assuming the keyboard has already been shown on screen;
+- (id);
+- (id);
+- (double);
 - (struct UIEdgeInsets);
 - (unsigned long long);
 - (double);
-- (_Bool)@.cleanup;
 - (_Bool);
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (_Bool)updateInterval;
-- (_Bool)conditionallyThen: /* Error: Ran out of types for this method. */;
-- (id)ightRects;
-- (_Bool)ll render the gesture nonfunctional;
-- (Class)ostedViewContainer;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)ø;
+- (Class)local;
+- (id)Recognizer.allowedScrollTypesMask;
+- (_Bool)De;
+- (void);
 
 @end
 

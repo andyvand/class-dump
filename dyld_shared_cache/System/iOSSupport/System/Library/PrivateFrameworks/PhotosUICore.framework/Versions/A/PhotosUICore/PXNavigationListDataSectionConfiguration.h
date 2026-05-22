@@ -52,11 +52,10 @@
 - (long long);
 - (id);
 - (_Bool);
+- (id);
 - (void);
-- (id)!wÐ!àEùÑ{°1b0@ù
-× ;
-- (void);
-- (_Bool)pe is exiting after fetching scope status counts - bailing out;
+- (_Bool);
+- (void)entlyViewedAssetsAction;
 
 // Remaining properties
 @property(copy, nonatomic) NSPredicate *assetsFilterPredicate; // @synthesize assetsFilterPredicate=_assetsFilterPredicate;

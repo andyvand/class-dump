@@ -16,17 +16,17 @@ __attribute__((visibility("hidden")))
     unsigned long long _roundedCorners;
 }
 
-- (_Bool)WasUnknown: /* Error: Ran out of types for this method. */;
-- (void)_clearAutoReconnectTimer;
-- (void)T@"IMDTrustKitDecisioningManager",&,N,V_trustKitManager;
-- (unsigned long long);
-- (_Bool)essage record name hash %@ from guid %@ and salt %@ as one or both are nil;
-- (_Bool)cord name hash %@ from guid %@ and salt %@;
-- (void);
-- (void);
-- (void);
-- (void)k;
 - (_Bool);
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)(¡&ÿ8`;
 
 // Remaining properties
 @property(nonatomic) _Bool drawsBorder; // @synthesize drawsBorder=_drawsBorder;

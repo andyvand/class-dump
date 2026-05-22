@@ -5,8 +5,6 @@
 //
 
 @protocol PDFThumbnailIconsViewProtocol
-- (void)nvalid destination coordinate.;
-- (double)(%lu);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType iconConfigurationHandler;

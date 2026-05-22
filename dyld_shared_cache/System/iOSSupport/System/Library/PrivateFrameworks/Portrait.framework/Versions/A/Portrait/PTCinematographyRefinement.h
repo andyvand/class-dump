@@ -48,15 +48,15 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id)>;
+- (void)ÿÆ¶GÿÏ·Iÿ×¸Kÿß¸Mÿç¹OÿðºQÿø»Sÿÿ¼Uÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long firstIndexToLookForTransitions; // @synthesize firstIndexToLookForTransitions=_firstIndexToLookForTransitions;

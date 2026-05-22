@@ -16,20 +16,20 @@
 }
 
 - (void);
-- (void)`;
-- (long long);
-- (void);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *mainBackgroundColor; // @synthesize mainBackgroundColor=_mainBackgroundColor;

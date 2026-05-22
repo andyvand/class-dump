@@ -15,28 +15,28 @@ __attribute__((visibility("hidden")))
     _Bool _isDeferringCleanup;
 }
 
-- (void)eviceRegisteredForAccount:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)P;
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void)¼	ë;
-- (void)xÐ!@ùQÍ°1¢!0@ù
+- (void)Ô!PDùQ`ð1Â0@ù
 × ;
-- (void)mage=}56@64B72;
-- (void)aceStyleChange;
-- (void)ØÜ;
-- (void)used!;
-- (void)ArchivingAsSubview;
-- (_Bool)Editing;
+- (void)splayController:didLoadSearchResultsTableView: /* Error: Ran out of types for this method. */;
+- (_Bool)scardNextHypothesis;
+- (void)cessAsTwoPartsWithKeyframeID:overlap:partOne:partTwo: /* Error: Ran out of types for this method. */;
 - (void);
-- (long long)leInPlaceFiltering;
+- (void)nDelegate>",R,W,N,V_delegate;
+- (void);
+- (void)usableSupplementaryViewWithRegistration:forIndexPath:or -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:. Collection view:%@; element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
+- (void)cy:unknown monochromatic treatment case (%ld) /* Error: Ran out of types for this method. */;
+- (void)CoreHostingView.swift;
+- (void)UIConstraintBasedLayoutHostingViewC;
+- (void);
+- (long long).x;
 
 @end
 

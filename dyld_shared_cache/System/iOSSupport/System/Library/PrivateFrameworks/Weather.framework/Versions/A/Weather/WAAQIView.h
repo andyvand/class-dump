@@ -87,21 +87,21 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
 - (void);
-- (_Bool)ill start reverseGeocodeLocation:location=%@, currentCity=%@ /* Error: Ran out of types for this method. */;
-- (void)cation tracking, setting locationUpdatesEnabled=NO;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *airQualityMetadataGradeLabel; // @synthesize airQualityMetadataGradeLabel=_airQualityMetadataGradeLabel;

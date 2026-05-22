@@ -17,10 +17,10 @@
 - (void);
 - (id);
 - (void);
-- (void)nce;
+- (void);
+- (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 

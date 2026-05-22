@@ -16,7 +16,7 @@
 
 - (_Bool);
 - (id);
-- (void);
+- (void)MAPPING_MISSING__;
 
 @end
 

@@ -64,12 +64,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)osConfiguration;
-- (id)ovider;
-- (void)I;
-- (id)from the cache;
+- (id);
+- (id);
+- (void)lor: /* Error: Ran out of types for this method. */;
+- (void)þÚÿ¬þÚÿ];
+- (void)¨";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,13 +5,13 @@
 //
 
 @interface (null) (MPAdditions)
-- (id)stID:(id)arg1 shortVersionString:exactBundleVersion: /* Error: Ran out of types for this method. */;
-- (id)ionUserID:(long long)arg1 itemTitle:itemDescription:itemLocalizedPrice:thumbnailPath:ageRating:starRating:productType: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1 responderDSID:websitePath:bundleID:isActionUserDevice: /* Error: Ran out of types for this method. */;
-- (void)sionType:(CDUnknownBlockType)arg1;
-- (void)nitWithData:(CDUnknownBlockType)arg1;
-- (void)StreamIdentifier:(long long)arg1;
-- (id)evice;
-- (id)entName;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 @end
 

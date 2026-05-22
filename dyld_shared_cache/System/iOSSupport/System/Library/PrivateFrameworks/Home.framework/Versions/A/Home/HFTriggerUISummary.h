@@ -32,8 +32,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (unsigned long long);
+- (void)¨;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *triggerDescription; // @synthesize triggerDescription=_triggerDescription;

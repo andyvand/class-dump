@@ -24,6 +24,7 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -32,24 +33,26 @@
 - (id);
 - (void);
 - (void);
+- (long long);
 - (void);
+- (id);
 - (void);
-- (_Bool);
 - (void);
 - (struct CGSize);
-- (void);
-- (double);
-- (id);
-- (void);
-- (long long);
 - (_Bool);
 - (void);
-- (id);
 - (long long);
 - (void);
+- (_Bool);
+- (id);
 - (void);
-- (void)esentationStyle:(double)arg1;
 - (void);
+- (void);
+- (double);
+- (void);
+- (void)ø1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

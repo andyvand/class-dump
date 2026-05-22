@@ -24,27 +24,27 @@
     unsigned long long _outstandingItemsCount;
 }
 
-- (_Bool)h	;
+- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (void)lidateSpotlightClientStateWithCompletion: /* Error: Ran out of types for this method. */;
-- (void)destMessageDateForChatIdentifiers:chatStyle:services:reply: /* Error: Ran out of types for this method. */;
-- (void)tionHandler: /* Error: Ran out of types for this method. */;
-- (void)Handler: /* Error: Ran out of types for this method. */;
-- (void)etchMomentShareFromShareURL:forMessage:completionHandler: /* Error: Ran out of types for this method. */;
-- (void):zoneID:resultsLimit:operationGroupName:activity: /* Error: Ran out of types for this method. */;
-- (unsigned long long)GUID.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id)otifyPlugInViewsOfDidZoom;
-- (id)0þÿ$þÿÂþÿ;
-- (id)nguageAwareLineHeightRatio;
-- (void)ntal);
-- (void)ÁØ4ùiþ;
+- (id)ette;
+- (id)sInfo"8;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

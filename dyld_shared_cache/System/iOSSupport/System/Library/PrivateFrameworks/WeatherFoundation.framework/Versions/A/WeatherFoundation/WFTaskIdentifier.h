@@ -15,18 +15,17 @@
 
 + (id);
 + (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool)g out to %@;
 - (int);
-- (id)RemindersUICore30TTREditTodaySectionsRouterTypeP;
-- (id)h
-;
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
 - (void);
-- (id) ;
 - (id);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;

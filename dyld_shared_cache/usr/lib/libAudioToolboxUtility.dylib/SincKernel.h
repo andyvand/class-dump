@@ -4,9 +4,9 @@
 
 class SincKernel {
 public: // (access info unavailable from symbols alone)
-    CalculateFilterCoefficients();
     SincKernel(SincKernel&&);
     SincKernel(int, int, double, double);
-    operator=(SincKernel&&);
+    auto CalculateFilterCoefficients();
+    auto operator=(SincKernel&&);
     ~SincKernel();
 };

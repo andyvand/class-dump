@@ -15,10 +15,10 @@
     MISSING_TYPE *localParticipant;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)ConversationKit31LocalParticipantViewSizeUpdaterP;
 
 @end
 

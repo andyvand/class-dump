@@ -19,12 +19,12 @@
 - (id);
 - (void);
 - (id);
-- (id)h;
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)eturnDefaultIconIfNoneAvailable:iconSize:isURLTypedByUser:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activeProfileIdentifier; // @synthesize activeProfileIdentifier=_activeProfileIdentifier;

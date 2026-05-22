@@ -4,7 +4,7 @@
 
 // Global C++ functions
 
-dumpContentsStats(DirectoryContents const*);
-dumpContentsStats(DirectoryDiffContents const*);
-pc_array_init(unsigned long);
-pc_array_init(unsigned long, unsigned long);
+auto dumpContentsStats(DirectoryContents const*);
+auto dumpContentsStats(DirectoryDiffContents const*);
+auto pc_array_init(unsigned long);
+auto pc_array_init(unsigned long, unsigned long);

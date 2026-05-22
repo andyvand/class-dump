@@ -30,10 +30,10 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
 - (CDStruct_5fe7aead);
+- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_5fe7aead duration;

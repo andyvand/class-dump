@@ -26,21 +26,21 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (void);
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (id);
+- (id);
+- (void);
+- (long long);
 
 // Remaining properties
 @property(nonatomic) __weak CPTemplate *associatedTemplate; // @synthesize associatedTemplate=_associatedTemplate;

@@ -14,11 +14,11 @@
     NSError *_error;
 }
 
-- (id)«`#Xªh¿ÈÍzÉ;
-- (void);
 - (id);
 - (id);
-- (id)on",R,N,V_lnAction;
+- (id);
+- (id);
+- (void)estinationMediaRoute);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;

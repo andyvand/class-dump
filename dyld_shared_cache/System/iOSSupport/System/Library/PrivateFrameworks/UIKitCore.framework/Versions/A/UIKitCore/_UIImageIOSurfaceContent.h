@@ -14,29 +14,28 @@ __attribute__((visibility("hidden")))
     double _headroom;
 }
 
-- (_Bool)Supported;
-- (id)_statusModel;
-- (struct __IOSurface *);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void)niversalLibraryID:(struct CGSize)arg1;
-- (void)lator was missing mapping for MPModelPropertySongLibraryAddEligible;
-- (_Bool);
-- (struct CGSize)1¢!0@ù
-× ;
-- (id){CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
-- (void)ets;
-- (id)yBundlePrincipalClass;
-- (id)ustomizationIdentifier:,V__customizationIdentifier /* Error: Ran out of types for this method. */;
-- (id)>",R,N,V_selfQueue;
-- (id)8ÿÿHkèÿÔLnþ¬þÿªèúÿ;
-- (struct __IOSurface *);
-- (_Bool)ðPßþW;
-- (id)ÕN«a;
-- (double)b;
-- (id)b;
+- (double);
+- (id);
+- (_Bool)sNeedUpdate;
+- (id)ithFont:(struct __IOSurface *)arg1 scale:(double)arg2;
+- (struct __IOSurface *)ctiveFocusLayers;
+- (void)ontentRatio;
+- (struct __IOSurface *)reviewTransitionController;
+- (_Bool)contained in its documentStorageURL (%@);
+- (id).06fs;
+- (_Bool)Controller;
+- (id).Ü¼±\;
+- (struct CGSize);
+- (id)}<ÿ;
+- (void)Ûa;
+- (_Bool)µøþî¸ÉL*b;
 
 @end
 

@@ -16,15 +16,15 @@
     struct os_unfair_lock_s _lock;
 }
 
-- (oneway void);
-- (oneway void);
 - (void);
 - (void);
-- (oneway void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

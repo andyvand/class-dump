@@ -23,10 +23,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)TransitionCoordinatorForNextLayout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionViewDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;

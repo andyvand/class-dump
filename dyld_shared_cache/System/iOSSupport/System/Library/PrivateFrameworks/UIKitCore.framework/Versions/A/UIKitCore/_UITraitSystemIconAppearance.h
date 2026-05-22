@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)submitCloudKitMetricWithOperationGroupName not submitting MOC enabled:%@, serverAllowsSubmission:%@ /* Error: Ran out of types for this method. */;
-+ (_Bool)MessageAlertSpamFiltration;
-+ (_Bool);
-+ (id):decisionListener: /* Error: Ran out of types for this method. */;
-+ (id)j8G;
-+ (id)´jªÿMèÓ[Je;
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)il;
++ (id)Þ%Óáf;
 
 @end
 

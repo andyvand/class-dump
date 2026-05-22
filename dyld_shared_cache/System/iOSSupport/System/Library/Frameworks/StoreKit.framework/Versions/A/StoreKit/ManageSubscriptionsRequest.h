@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     NSString *_sceneID;
 }
 
-+ (_Bool)uptibleAnimatorForTransition: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 - (void);
 

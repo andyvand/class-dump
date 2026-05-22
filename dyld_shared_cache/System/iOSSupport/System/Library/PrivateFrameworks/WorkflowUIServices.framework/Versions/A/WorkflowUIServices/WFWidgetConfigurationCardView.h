@@ -34,13 +34,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)sidebarSpringRepsonse;
+- (id)û!@øÁcÜ¥L@;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

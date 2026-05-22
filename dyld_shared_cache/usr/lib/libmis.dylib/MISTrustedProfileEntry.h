@@ -14,14 +14,14 @@
 
 - (id);
 - (void);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id)ttingsFields;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) MISTrustedTeamIDEntry *trustedTeamIDEntry; // @synthesize trustedTeamIDEntry=_trustedTeamIDEntry;

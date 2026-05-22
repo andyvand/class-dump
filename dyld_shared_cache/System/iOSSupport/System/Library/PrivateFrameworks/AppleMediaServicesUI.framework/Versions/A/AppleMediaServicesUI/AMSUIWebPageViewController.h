@@ -40,15 +40,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -56,9 +50,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (struct CGSize);
-- (void)Got auth results:(_Bool)arg1;
+- (void);
+- (id);
+- (void)ideUserInterfaceStyle: /* Error: Ran out of types for this method. */;
+- (struct CGSize)É_53;
+- (void),;
+- (id)@É?;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

@@ -14,13 +14,15 @@
     HMRemovedUserInfo *_removedUserInfo;
 }
 
-+ (id)¤E;
-+ (_Bool)-0000-1000-8000-0026BB765291;
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -28,9 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)(NTN;
-- (id)due to nil queue;
+- (void)ublic}@Failed to serialize action:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

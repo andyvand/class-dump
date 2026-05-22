@@ -4,5 +4,5 @@
 
 class std::__1::basic_stringbuf<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    str() const;
+    auto str() const;
 };

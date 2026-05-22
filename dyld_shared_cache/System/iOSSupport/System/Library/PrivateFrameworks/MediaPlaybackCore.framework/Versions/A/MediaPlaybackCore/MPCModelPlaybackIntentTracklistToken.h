@@ -12,16 +12,16 @@
     MPIdentifierSet *_startItemIdentifiers;
 }
 
-+ (id)rsions/A/Accounts;
-+ (_Bool)equestFailed;
-- (id);
-- (void);
-- (void);
++ (id);
++ (_Bool);
 - (id);
 - (void);
 - (id);
-- (id)- mode:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)@?0@"AMSEngagementEnqueueResult"8@"NSError"16;
+- (id);
+- (id);
+- (void);
+- (void)ationSize;
+- (void)i %{public}@  â â° identifiers:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) MPModelRequest *request; // @synthesize request=_request;

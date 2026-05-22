@@ -77,8 +77,8 @@
 - (float);
 - (void);
 - (unsigned int);
-- (id);
 - (unsigned int);
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned int conversionGain; // @synthesize conversionGain=_conversionGain;

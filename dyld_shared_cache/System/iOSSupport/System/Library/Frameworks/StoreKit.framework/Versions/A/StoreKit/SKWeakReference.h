@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     id _object;
 }
 
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id object; // @synthesize object=_object;

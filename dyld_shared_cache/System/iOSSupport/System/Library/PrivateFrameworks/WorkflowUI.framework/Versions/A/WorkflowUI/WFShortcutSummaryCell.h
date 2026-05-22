@@ -22,9 +22,9 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)actionDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) WFRowOfIconsView *actionIconsView; // @synthesize actionIconsView=_actionIconsView;

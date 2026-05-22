@@ -36,17 +36,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id <HFAccessoryRepresentable> accessoryRepresentableObject;

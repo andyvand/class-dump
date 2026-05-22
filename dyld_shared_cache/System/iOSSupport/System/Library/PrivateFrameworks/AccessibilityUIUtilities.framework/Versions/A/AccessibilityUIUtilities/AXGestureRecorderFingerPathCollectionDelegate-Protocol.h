@@ -5,6 +5,5 @@
 //
 
 @protocol AXGestureRecorderFingerPathCollectionDelegate
-- (void);
 @end
 

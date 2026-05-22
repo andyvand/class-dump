@@ -5,5 +5,10 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool)AssetExportPresetPassthrough;
+- (long long)@;
+- (void)ÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿÝÿÿÿ;
 @end
 

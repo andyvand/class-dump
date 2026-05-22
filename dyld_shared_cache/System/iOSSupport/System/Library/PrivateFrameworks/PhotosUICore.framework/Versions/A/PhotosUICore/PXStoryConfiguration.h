@@ -213,43 +213,43 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (id);
 - (_Bool);
 - (long long);
-- (id);
 - (_Bool);
 - (void);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool)!BùQ{ð1b0@ù
+- (id)0@ù
 × ;
-- (id)orAsset:resourceType: /* Error: Ran out of types for this method. */;
-- (id)à;
-- (void)osAppGridViewModel14AssociatedData;
-- (id)setReference"8@"PXAssetsDataSourceManager"16;
-- (id)AsMemory;
+- (void)t;
+- (id)ilAfterLaunch;
+- (void)Èúçÿðúçÿ(ûçÿXûçÿûçÿÈûçÿHëÿëÿôºèÿ èÿ$»èÿØèÿèÿIèÿðëÿëÿ,ëÿhëÿúçÿ¨úçÿàúçÿûçÿ8ûçÿûçÿëÿ4ëÿLëÿëÿ¬ëÿÄëÿÜëÿôëÿ|ëÿ¸ëÿÜëÿëÿäëÿ`ëÿDëÿxëÿ¬ëÿàëÿDëÿëÿ¤ëÿÈëÿëÿPëÿtëÿ¨ëÿ|ëÿÀëÿäëÿ@ºèÿìèÿpºèÿ$èÿPèÿÜHèÿëÿÌNéÿàèÿ¤ëÿÐëÿëÿ8ëÿPëÿpëÿDÕêÿhÕêÿëÿ¨ëÿÀëÿØëÿäëÿëÿ$ëÿHëÿëÿ<ëÿpëÿ8ëÿ¬ëÿ|ùçÿ¤ùçÿÜùçÿúçÿ4úçÿ|úçÿðëÿ,ëÿÔëÿëÿTùçÿ|ùçÿ´ùçÿäùçÿúçÿTúçÿÌëÿäëÿüëÿ ëÿ, ëÿ¡ëÿP¡ëÿh¡ëÿ¡ëÿT¢ëÿx¢ëÿ´¢ëÿ8£ëÿd£ëÿ£ëÿÜ£ëÿ¥ëÿ<¥ëÿp¥ëÿ4¦ëÿh¦ëÿ¦ëÿ¸¦ëÿü¦ëÿ¼§ëÿô§ëÿ ¨ëÿ¨ëÿ¨ëÿ4©ëÿØ©ëÿ¤ªëÿ«ëÿÌ«ëÿÐ¬ëÿT­ëÿÀ­ëÿ®ëÿ(®ëÿd®ëÿ®ëÿ¼®ëÿà®ëÿ<°ëÿÀ°ëÿD±ëÿh±ëÿ¤±ëÿÈ±ëÿì±ëÿ²ëÿL²ëÿp²ëÿ\³ëÿ³ëÿ¤³ëÿà³ëÿ´ëÿ(´ëÿL´ëÿ´ëÿ¬´ëÿø´ëÿLµëÿØµëÿ¤¶ëÿÈ¶ëÿ\·ëÿ·ëÿÜ·ëÿ;
+- (id)tatus:%@ /* Error: Ran out of types for this method. */;
+- (id)%i;
+- (_Bool)e.generativeMemoryCreate;
 - (void);
-- (id)ÿ4;
+- (void)p;
+- (void)ÌÛ`ñÈÀ*;
+- (id)ce;
+- (id)D-aABõ½;
+- (void)kpKÈ85;
 
 // Remaining properties
 @property(nonatomic) _Bool activeStateManagedExternally; // @synthesize activeStateManagedExternally=_activeStateManagedExternally;

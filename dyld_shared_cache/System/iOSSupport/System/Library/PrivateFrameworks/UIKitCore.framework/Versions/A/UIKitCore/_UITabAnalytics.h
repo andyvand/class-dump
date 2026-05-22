@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
     long long _lastToggleSource;
 }
 
-+ (id)>Îp;
-- (void)al sealing manifest, skipping;
-- (void)d not verify the local sealing manifest, skipping;
-- (void)id entry '%@' in manifest property entries;
++ (id)RÖÄk;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,9 +32,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)cusCollectionViewSectionContainerGuide";
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

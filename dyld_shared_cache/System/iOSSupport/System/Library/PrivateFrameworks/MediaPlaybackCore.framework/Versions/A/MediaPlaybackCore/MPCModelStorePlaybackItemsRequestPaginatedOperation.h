@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (CDUnknownBlockType);
 - (void);
-- (id)]- timeStamp:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)l section assertion alive until first audio frame for siri set queue;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)c}@ [%.3fs];
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPCModelStorePlaybackItemsRequest *request; // @synthesize request=_request;

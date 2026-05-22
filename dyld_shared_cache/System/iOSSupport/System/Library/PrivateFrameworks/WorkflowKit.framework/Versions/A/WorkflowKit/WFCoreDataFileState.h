@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)jLýÿfLýÿIýÿ;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @dynamic identifier;

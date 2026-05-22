@@ -4,7 +4,7 @@
 
 class icu::PluralFormat::PluralSelectorAdapter {
 public: // (access info unavailable from symbols alone)
-    reset();
-    select(void*, double, UErrorCode&) const;
+    auto reset();
+    auto select(void*, double, UErrorCode&) const;
     ~PluralSelectorAdapter();
 };

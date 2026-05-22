@@ -36,39 +36,40 @@
     MISSING_TYPE *wantsMaterialBackground;
 }
 
-- (void)DidChange: /* Error: Ran out of types for this method. */;
-- (id)_menuIcon;
-- (void)sswordWithPrompt:result:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)hlightsAttributedString;
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (double);
 - (void);
-- (void)뢍AGGGSo6ICNoteCGG;
+- (void);
 - (void);
 - (id);
 - (long long);
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
+- (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (struct CGRect);
 - (void);
+- (id);
+- (id)0@ù
+× ;
+- (id)× ;
+- (void)Ô ;
+- (void)56;
 - (void);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void)eAcknowledgmentChatItem;
-- (id)frecencySearch;
-- (id);
-- (id);
-- (void)ata;
-- (struct CGSize)ing due to override;
-- (void)U;
+- (void)¨/;
 
 // Remaining properties
 @property(nonatomic) long long currentDisplayMode; // @synthesize currentDisplayMode;

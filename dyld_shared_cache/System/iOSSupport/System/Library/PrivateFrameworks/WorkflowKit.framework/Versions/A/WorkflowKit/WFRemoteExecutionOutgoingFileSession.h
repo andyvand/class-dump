@@ -22,13 +22,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void)Error:(id)arg1;
-- (void)error:(id)arg1 ] must be subclassed;
-- (id)s structure for attribute string "%s" for property %s
-;
+- (void);
+- (void);
+- (void)serialize output classes into plist data:(id)arg1 %{public}@;
+- (void)"NSArray"16@?0@"NSString"8;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;

@@ -8,23 +8,38 @@
 @protocol FCSportsTheming;
 
 @protocol FCSportsProviding
-- (NSString *): /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (NSString *)E;
-- (NSString *)PWöÿ$òûÿ;
-- (_Bool)@üÿ;
-- (NSString *);
-- (NSString *)LïG;
-- (unsigned long long)magazineCategory;
-- (id <FCSportsTheming>)eChangeModifier;
-- (unsigned long long)lèº;
-- (NSString *)Primer;
+- (NSString *)14RecipeAssembly;
+- (NSArray *)(;
+- (NSString *)%;
+- (NSString *)ðåïÿæïÿ,æïÿpæïÿ¨æïÿàæïÿçïÿ$çïÿPçïÿçïÿ4èïÿÔèïÿéïÿìéïÿ$êïÿ´êïÿÌêïÿëïÿ0ëïÿHëïÿëïÿ¸ëïÿäëïÿüëïÿ ìïÿDìïÿhìïÿìïÿ¸ìïÿíïÿHíïÿíïÿÈíïÿîïÿ$îïÿHîïÿîïÿ¼îïÿôîïÿ,ïïÿPïïÿ|ïïÿïïÿ´ïïÿàïïÿðïÿ$ðïÿPðïÿhðïÿpñïÿ¨ñïÿÀñïÿäñïÿòïÿ@òïÿxòïÿòïÿ¨òïÿàòïÿóïÿDóïÿ\óïÿóïÿÌóïÿôïÿ0ôïÿHôïÿtôïÿ´ôïÿ\õïÿõïÿ´õïÿÌõïÿðõïÿ4öïÿ\öïÿöïÿÌöïÿ÷ïÿ÷ïÿ4÷ïÿt÷ïÿ¬÷ïÿø÷ïÿøïÿ8øïÿPøïÿhøïÿøïÿ¬øïÿÔøïÿøøïÿùïÿTùïÿùïÿÔùïÿøùïÿ0úïÿ|úïÿÔúïÿûïÿDûïÿ|ûïÿ´ûïÿìûïÿüïÿ0üïÿTüïÿüïÿ üïÿÀüïÿØüïÿýïÿÈýïÿàýïÿþïÿXþïÿpþïÿþïÿtÿïÿ¬ÿïÿ;
+- (id <FCSportsTheming>)ÒôÿhFõÿôÿ;
+- (NSArray *);
+- (NSString *)torageLevelProvider;
+- (NSString *)HýÿÙóÿ´þÿG;
+- (NSString *);
+- (NSString *)magazine configuration with error=%{public}@;
+- (NSString *)Ò°	;
+- (NSString *)ÁádÑ¹þ±ádhÑ¹þÙád$Ò¹þéád Ò¹þÑádÒ¹þ¡ádÒ¹þÉádðG²þ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *UMCCanonicalID;
+@property(readonly, copy, nonatomic) NSString *athleteDisplayName;
+@property(readonly, copy, nonatomic) NSString *athletePluralizedDisplayName;
+@property(readonly, copy, nonatomic) NSString *bracketDisplayName;
+@property(readonly, copy, nonatomic) NSString *bracketPluralizedDisplayName;
 @property(readonly, nonatomic) _Bool hideLocationInMasthead;
+@property(readonly, copy, nonatomic) NSString *highlightDisplayName;
+@property(readonly, copy, nonatomic) NSString *highlightPluralizedDisplayName;
 @property(readonly, nonatomic) _Bool isSportsRecommendable;
+@property(readonly, copy, nonatomic) NSString *scheduleDisplayName;
+@property(readonly, copy, nonatomic) NSString *schedulePluralizedDisplayName;
+@property(readonly, copy, nonatomic) NSString *scoreDisplayName;
+@property(readonly, copy, nonatomic) NSString *scorePluralizedDisplayName;
+@property(readonly, copy, nonatomic) NSString *sportsCountryCode;
 @property(readonly, nonatomic) NSString *sportsData;
+@property(readonly, copy, nonatomic) NSString *sportsEventDisplayName;
+@property(readonly, copy, nonatomic) NSString *sportsEventPluralizedDisplayName;
+@property(readonly, nonatomic) unsigned long long sportsEventType;
 @property(readonly, copy, nonatomic) NSString *sportsFullName;
 @property(readonly, nonatomic) unsigned long long sportsLeagueType;
 @property(readonly, copy, nonatomic) NSString *sportsLocation;
@@ -38,6 +53,8 @@
 @property(readonly, nonatomic) unsigned long long sportsType;
 @property(readonly, copy, nonatomic) NSString *sportsTypeDisplayName;
 @property(readonly, copy, nonatomic) NSString *sportsTypePluralizedDisplayName;
+@property(readonly, copy, nonatomic) NSString *standingDisplayName;
+@property(readonly, copy, nonatomic) NSString *standingPluralizedDisplayName;
 @property(readonly, copy, nonatomic) NSArray *topLevelGroupsTagIdentifiers;
 @property(readonly, copy, nonatomic) NSString *topLevelSportTagIdentifier;
 @end

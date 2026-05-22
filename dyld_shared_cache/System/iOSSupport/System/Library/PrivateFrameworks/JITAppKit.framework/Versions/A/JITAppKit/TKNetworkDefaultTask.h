@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     MCLURLDataLoaderTask *_task;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

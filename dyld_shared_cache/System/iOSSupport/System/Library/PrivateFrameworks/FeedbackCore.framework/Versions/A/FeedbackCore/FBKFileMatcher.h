@@ -15,14 +15,14 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)ith id [%ld] stored uploads count [%ld] previous count [%ld];
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

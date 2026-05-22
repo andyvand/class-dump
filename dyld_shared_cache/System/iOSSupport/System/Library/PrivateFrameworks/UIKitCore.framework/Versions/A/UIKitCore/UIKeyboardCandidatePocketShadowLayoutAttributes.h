@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _drawsShadow;
 }
 
-- (_Bool);
-- (void)V_competingLongPressOnLift;
+- (void)Ü;
+- (_Bool)a,bØb;
 
 // Remaining properties
 @property(nonatomic) _Bool drawsShadow; // @synthesize drawsShadow=_drawsShadow;

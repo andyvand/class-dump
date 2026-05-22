@@ -18,16 +18,17 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (void)	=;
+- (void);
 - (double);
+- (id);
 - (void);
 - (void);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (id);
+- (void)qð1Â0@ù
+× ;
 - (double);
-- (void);
+- (void)èf;
 
 // Remaining properties
 @property(nonatomic) double iconOffset; // @synthesize iconOffset=_iconOffset;

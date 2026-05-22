@@ -37,9 +37,9 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -56,22 +56,22 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *compositeSearchText;

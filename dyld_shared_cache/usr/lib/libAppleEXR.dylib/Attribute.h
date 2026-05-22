@@ -4,5 +4,5 @@
 
 class Attribute {
 public: // (access info unavailable from symbols alone)
-    Init(void const*, unsigned long, unsigned long);
+    auto Init(void const*, unsigned long, unsigned long);
 };

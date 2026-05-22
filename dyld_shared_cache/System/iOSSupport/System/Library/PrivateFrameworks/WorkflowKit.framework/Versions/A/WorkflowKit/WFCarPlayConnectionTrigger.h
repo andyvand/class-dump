@@ -13,17 +13,17 @@
 }
 
 + (id);
-+ (id)¹{;
-+ (id)EÉ;
++ (id);
++ (id);
 + (_Bool);
-+ (id)X9LÜ9ÄÓ&;
++ (id);
 + (id);
 + (id);
 + (long long);
 + (id);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool)ction Name);
 
 // Remaining properties
 @property(nonatomic) _Bool onConnect; // @synthesize onConnect=_onConnect;

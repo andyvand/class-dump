@@ -16,11 +16,11 @@
 
 - (void);
 - (id);
+- (id);
 - (void);
 - (double);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) double _cornerRadius;

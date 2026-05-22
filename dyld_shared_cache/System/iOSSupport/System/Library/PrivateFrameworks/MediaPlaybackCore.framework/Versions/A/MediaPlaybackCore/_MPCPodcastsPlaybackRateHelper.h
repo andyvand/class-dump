@@ -14,18 +14,21 @@
     MISSING_TYPE *rateMigrator;
 }
 
++ (id);
++ (_Bool);
 + (float);
 + (id);
 + (id);
-- (float)ion:(id)arg1;
-- (_Bool)ype;
-- (void);
-- (id)%{public}@] Failed to remove follow-ups after signing out of an account.;
-- (float);
 - (float);
 - (_Bool);
 - (void);
+- (void);
 - (id);
+- (float);
+- (float);
+- (_Bool);
+- (id);
+- (void)ommandResult:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

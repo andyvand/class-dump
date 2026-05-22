@@ -21,17 +21,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)ommand;
-- (long long)erence: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (long long);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id)sPossible;
-- (void)rAction:(_Bool)arg1 group:operationForAcceptingItemsFromDropSession: /* Error: Ran out of types for this method. */;
-- (void)ä;
+- (_Bool);
+- (void);
 - (struct CGSize);
+- (id);
+- (id)B40;
+- (void)emUpdatedContentLayout:(id)arg1;
+- (id)¥þþÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long activityIndicatorViewStyle; // @synthesize activityIndicatorViewStyle=_activityIndicatorViewStyle;

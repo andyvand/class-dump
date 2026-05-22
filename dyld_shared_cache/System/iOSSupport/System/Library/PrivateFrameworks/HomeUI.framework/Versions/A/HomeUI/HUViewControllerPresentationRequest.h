@@ -17,11 +17,14 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
-- (id)°;
-- (_Bool)tle;
-- (void)äû;
+- (id)1â
+0@ù
+× ;
+- (void)
+× ;
+- (_Bool)e: /* Error: Ran out of types for this method. */;
+- (void)homes = %@ (%lu);
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated=_animated;

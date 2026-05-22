@@ -31,7 +31,7 @@
 - (void);
 - (double);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
@@ -40,7 +40,7 @@
 - (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (void);
 - (void);
 - (double);
@@ -48,8 +48,8 @@
 - (_Bool);
 - (double);
 - (id);
-- (void);
 - (void);
+- (void)uslySpawnedByIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -18,14 +18,12 @@ __attribute__((visibility("hidden")))
     struct CGPoint _fallbackTextContainerOrigin;
 }
 
-- (double):% /* Error: Ran out of types for this method. */;
-- (void);
-- (id)1¢!0@ù
-× ;
-- (double)ð1¢!0@ù
-× ;
-- (double)rs;
-- (double)ed;
+- (double);
+- (double);
+- (double);
+- (id);
+- (double);
+- (void)it33CoreListMetricsTemporaryProvidingP;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

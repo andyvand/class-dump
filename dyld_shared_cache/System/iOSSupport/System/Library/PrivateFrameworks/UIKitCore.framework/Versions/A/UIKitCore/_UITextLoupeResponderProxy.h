@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     id <_UITextLoupeResponderProxyDelegate> _delegate;
 }
 
-+ (id);
++ (id)lerHiding:(id)arg1;
+- (id);
+- (id);
 - (void);
-- (_Bool)tSubviews"b1};
-- (id)stallShadowViewForStyleIfNecessary: /* Error: Ran out of types for this method. */;
-- (id)P"ä"`%;
-- (id)ups;
-- (void);
+- (_Bool)inuationManager handleActivityContinuation:(SEL)arg1 isSuspended:(id)arg2 ]_block_invoke_3;
+- (void)UIMenuElementCXc12existingLeaf_AA_ACXc011conflictingD0t;
+- (id)¤úwþ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextLoupeResponderProxyDelegate> delegate; // @synthesize delegate=_delegate;

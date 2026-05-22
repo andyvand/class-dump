@@ -20,10 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)anagerDidFinishInitialDatabaseLoad: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)er"8;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;

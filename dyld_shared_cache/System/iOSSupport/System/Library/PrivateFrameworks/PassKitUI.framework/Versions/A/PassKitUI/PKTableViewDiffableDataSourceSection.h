@@ -13,16 +13,18 @@
     NSString *_footer;
 }
 
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)o19PKContactPickerItemCGSO7Ï^yiÏ\yÒ\yõÊ\_ßÏ\½\yAJy±Î\É\yFÎ\SgGGÕÆ^GSgtGGGG;
+- (void)©Ð!°@ùqøÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

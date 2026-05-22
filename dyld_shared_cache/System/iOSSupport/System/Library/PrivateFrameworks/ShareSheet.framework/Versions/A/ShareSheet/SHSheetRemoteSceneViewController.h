@@ -60,16 +60,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)"16@"<QLPreviewItem>"24^@32;
 - (void);
+- (id);
+- (void);
+- (id)þË;
 
 // Remaining properties
 @property(retain, nonatomic) SHSheetScrollingTest *currentTest; // @synthesize currentTest=_currentTest;

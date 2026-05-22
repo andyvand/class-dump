@@ -16,19 +16,11 @@
     NSMutableDictionary *_componentStyles;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)0;
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -37,12 +29,20 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (id);
-- (id);
 - (id);
-- (id)lueJ;
 - (id);
-- (id)÷;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)s"24;
+- (id)rePoint:withPoint:maxDelta: /* Error: Ran out of types for this method. */;
+- (id)ontentProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *additions; // @synthesize additions=_additions;

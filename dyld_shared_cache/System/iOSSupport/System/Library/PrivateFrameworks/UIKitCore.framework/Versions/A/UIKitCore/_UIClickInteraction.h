@@ -19,39 +19,42 @@
     Class _overrideDriverClass;
 }
 
+- (id);
+- (void);
+- (void);
 - (Class);
 - (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void)ð1¢!0@ù
+- (void);
+- (struct CGPoint);
+- (Class);
+- (id);
+- (void)× ;
+- (void)b1Â0@ù
 × ;
-- (_Bool)ntentView;
-- (void)lacements;
-- (_Bool)_performBlockAfterCATransactionCommitSynchronizes: /* Error: Ran out of types for this method. */;
-- (id)Item;
-- (void)d;
-- (Class)V_primaryShadow;
-- (struct CGPoint)@"UIDelayedAction",&,N,V_doubleTapAction;
-- (void)BSInvalidatable>",R,N,G_screenDisconnectionPreventionAssertion,V_screenDisconnectionPreventionAssertion;
-- (void)N,S_setChildControllerToIgnoreWhileLookingForTransitionCoordinator:(id)arg1 ,V__childControllerToIgnoreWhileLookingForTransitionCoordinator;
-- (id)AAnimationDelegate;
-- (void)sentationController;
-- (void)(¡;
-- (void))Ð*;
-- (void);
-- (void)w _allowedFocusBounceEdges is deprecated:(id)arg1 please remove any references to this property.;
-- (void)¤þ;
-- (void)µûÿHzþÿ;
-- (void)tion;
-- (void)This will delete all persisted prototyping settings and their values from this app's domain.;
-- (id)ionTrackingLoggingEnabled;
-- (void)KeyPath;
-- (id)s a requested transition;
-- (double)3³?@{;
+- (void)Ð1Â0@ù
+× ;
+- (void)! AùÑe°1Â0@ù
+× ;
+- (_Bool)°!4FùgÐ1Â0@ù
+× ;
+- (void)ield;
+- (void)ictionsOnMac;
+- (id)",C,N,V_boundarySupplementaryItems;
+- (double)<0Ð¼Ë;
+- (void)Method(nsImage, @selector(forwardingTargetForSelector:(_Bool)arg1 ), (IMP)NSImage_forwardingTargetForSelector, ((void*)0))" -> %llu;
+- (void)dius;
+- (void)on;
+- (void)^;
+- (void):Ü(¬^ /* Error: Ran out of types for this method. */;
+- (void)_;
+- (id)=-;
+- (void)z9Ü©a;
 - (void);
-- (void);
-- (id)º¤d;
+- (_Bool)þFÈÍ7c;
+- (void)zÿ;
+- (id)HfLÿ·Óh;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;

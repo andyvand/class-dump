@@ -12,9 +12,9 @@
     MISSING_TYPE *isBeingUsedAsPlugin;
 }
 
-- (id)essionValue;
 - (id);
-- (void);
+- (id);
+- (void);
 
 @end
 

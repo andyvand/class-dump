@@ -4,6 +4,6 @@
 
 class RandomErasureEncoder {
 public: // (access info unavailable from symbols alone)
-    BitsToBytes(unsigned char*, unsigned int, unsigned char*);
-    EncodePayloadIntoPacket(unsigned char*, unsigned int, unsigned char*, unsigned int, unsigned int);
+    auto BitsToBytes(unsigned char*, unsigned int, unsigned char*);
+    auto EncodePayloadIntoPacket(unsigned char*, unsigned int, unsigned char*, unsigned int, unsigned int);
 };

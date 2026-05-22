@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-+ (id)ä!;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;

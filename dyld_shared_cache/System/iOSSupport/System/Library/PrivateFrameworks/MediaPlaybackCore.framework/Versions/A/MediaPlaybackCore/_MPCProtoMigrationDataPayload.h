@@ -17,17 +17,17 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
-- (_Bool);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (void);
+- (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
 - (id);
 - (id);
+- (void)e dataSource finished loading] dataSource=%p section=%{public}@;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;

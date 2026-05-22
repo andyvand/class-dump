@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSOrderedSet, NSString, PHAssetCollection, PHFetchResult, PHPhotoLibrary, PHPickerConfiguration, PUPickerGeneratedFilter, _PHPickerCollectionConfiguration, _PHPickerSuggestionGroup;
+@class NSArray, NSData, NSError, NSOrderedSet, NSString, PHAssetCollection, PHFetchResult, PHPhotoLibrary, PHPickerConfiguration, PUPickerGeneratedFilter, _PHPickerCollectionConfiguration, _PHPickerSuggestionGroup;
 @protocol PLClientIdentification;
 
 @interface PUPickerConfiguration
@@ -34,6 +34,7 @@
     id <PLClientIdentification> _pickerClientIdentification;
     NSOrderedSet *_preselectedItemIdentifiers;
     NSOrderedSet *_preselectedItemObjectIDs;
+    NSOrderedSet *_suggestedItemIdentifiers;
     NSOrderedSet *_suggestedItemObjectIDs;
     NSString *_pickerClientDisplayName;
     long long _pickerClientSDKVersion;
@@ -56,6 +57,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -102,6 +104,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -147,16 +150,16 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -175,17 +178,18 @@
 - (long long);
 - (_Bool);
 - (long long);
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (long long)ProcessingDoneAndFinalImageDisplayedChanged;
-- (id);
-- (long long);
-- (id)8¤éÿ
-vûy;
+- (void)gressController;
+- (id)24@?0@"<PISegmentationItem>"8@"NSError"16;
+- (long long)áÿ8>;
+- (long long)tSyADySSySSgGG_SNy
+SGQo_AJyoSGGAJy=SSgGGGGz	SG_ADy8SAJySGGADyA4_Ó
+SGtGG;
+- (id)0ScSGACG;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *LimitedLibraryError; // @synthesize LimitedLibraryError=_LimitedLibraryError;
@@ -241,6 +245,7 @@ vûy;
 @property(readonly, nonatomic) _Bool hasClearBackgroundColor;
 @property(readonly, nonatomic) _Bool hasFilterablePHPickerFilter;
 @property(readonly, nonatomic) _Bool hasPreselection;
+@property(readonly, nonatomic) NSData *initialDecoratedQueryData;
 @property(readonly, nonatomic) NSString *initialSearchText;
 @property(readonly, nonatomic) double interactiveBarTransitionFractionExpanded; // @synthesize interactiveBarTransitionFractionExpanded=_interactiveBarTransitionFractionExpanded;
 @property(readonly, nonatomic) double interactiveBarTransitionWindowHeight; // @synthesize interactiveBarTransitionWindowHeight=_interactiveBarTransitionWindowHeight;
@@ -289,6 +294,7 @@ vûy;
 @property(readonly, nonatomic) _Bool shouldShowPhotosIndicator;
 @property(readonly, nonatomic) _Bool showsWallpaperSuggestions;
 @property(readonly, nonatomic) long long sourceType;
+@property(readonly, nonatomic) NSOrderedSet *suggestedItemIdentifiers; // @synthesize suggestedItemIdentifiers=_suggestedItemIdentifiers;
 @property(readonly, nonatomic) NSOrderedSet *suggestedItemObjectIDs; // @synthesize suggestedItemObjectIDs=_suggestedItemObjectIDs;
 @property(readonly, nonatomic) _PHPickerSuggestionGroup *suggestionGroup; // @synthesize suggestionGroup=_suggestionGroup;
 @property(readonly, nonatomic) _Bool supportsInteractiveBarTransition; // @synthesize supportsInteractiveBarTransition=_supportsInteractiveBarTransition;

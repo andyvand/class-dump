@@ -32,8 +32,8 @@
 - (void);
 - (id);
 - (long long);
-- (void);
 - (unsigned long long);
+- (void)nfoChanged: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *itemSourcesByAssetUUID; // @synthesize itemSourcesByAssetUUID=_itemSourcesByAssetUUID;

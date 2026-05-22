@@ -24,7 +24,9 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)!©°!(AùøÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double barcodeBottomInset; // @synthesize barcodeBottomInset=_barcodeBottomInset;

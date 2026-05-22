@@ -4,15 +4,15 @@
 
 class resident_list_gclock {
 public: // (access info unavailable from symbols alone)
-    debug_check(unsigned long long);
-    find_and_remove_candidate(phy_ext_addr*);
-    is_pinned(phy_ext_addr const&);
-    is_resident(phy_ext_addr const&, bool);
-    pin_unit(phy_ext_addr const&);
-    promote(phy_ext_addr const&, bool, unsigned long const*, bool*);
-    remove(phy_ext_addr const&, unsigned long*, bool*);
+    auto debug_check(unsigned long long);
+    auto find_and_remove_candidate(phy_ext_addr*);
+    auto is_pinned(phy_ext_addr const&);
+    auto is_resident(phy_ext_addr const&, bool);
+    auto pin_unit(phy_ext_addr const&);
+    auto promote(phy_ext_addr const&, bool, unsigned long const*, bool*);
+    auto remove(phy_ext_addr const&, unsigned long*, bool*);
+    auto size();
+    auto unpin_unit(phy_ext_addr const&);
     resident_list_gclock(compositedisk_manager*, unsigned short, unsigned long);
-    size();
-    unpin_unit(phy_ext_addr const&);
     ~resident_list_gclock();
 };

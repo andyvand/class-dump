@@ -47,10 +47,10 @@
 - (id);
 - (unsigned int);
 - (void);
-- (void);
-- (void);
 - (id);
-- (_Bool);
+- (_Bool)Name;
+- (void)YES;
+- (void)com.apple.calendar.continuity.date_selection;
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

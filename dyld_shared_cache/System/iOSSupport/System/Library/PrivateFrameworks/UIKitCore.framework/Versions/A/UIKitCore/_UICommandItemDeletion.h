@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)onse with answer:(id)arg1 %@;
-- (void)ithType:(CDUnknownBlockType)arg1 bundleIdentifier:(CDUnknownBlockType)arg2 contentURL:(CDUnknownBlockType)arg3 contentTitle:(CDUnknownBlockType)arg4 contentType:messageGUID: /* Error: Ran out of types for this method. */;
-- (_Bool)CloudKitWithFilter:(CDUnknownBlockType)arg1 limit:(CDUnknownBlockType)arg2;
++ (id);
+- (void);
+- (_Bool);
 - (id);
 
 // Remaining properties

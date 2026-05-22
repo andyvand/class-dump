@@ -20,23 +20,22 @@
 }
 
 + (id);
-+ (id)4;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (id);
++ (void)ÈKo;
 - (void);
-- (id)ync;
 - (id);
-- (void);
-- (void)1Âì;
-- (id)
+- (void)ð!lCù1c1Â0@ù
 × ;
-- (void)1ËÐ1¢!0@ù
-× ;
-- (void);
-- (id)inThreadCpuInstructionsUnits;
+- (void)nObservingGestureRecognizer";
+- (void)straintsLoggingSuspensionCount;
+- (id)nt;
+- (id)onActivityProviding;
+- (id);
+- (void)¬ÿbí;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;

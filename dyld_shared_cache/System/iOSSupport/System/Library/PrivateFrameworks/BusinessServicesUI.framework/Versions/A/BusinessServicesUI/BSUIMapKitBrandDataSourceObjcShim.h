@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) BSOpaqueWrapper *opaqueWrapper; // @synthesize opaqueWrapper;

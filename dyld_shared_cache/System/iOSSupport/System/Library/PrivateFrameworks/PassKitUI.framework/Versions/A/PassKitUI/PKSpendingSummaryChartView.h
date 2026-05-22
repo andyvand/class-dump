@@ -42,12 +42,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (struct CGSize);
 - (void);
+- (id);
+- (void)0@ù
+× ;
+- (_Bool)heckingResult"8Q16^B24;
+- (void)4;
 
 // Remaining properties
 @property(nonatomic, getter=isBlurDisabled) _Bool blurDisabled; // @synthesize blurDisabled=_blurDisabled;

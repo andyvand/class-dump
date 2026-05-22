@@ -5,7 +5,7 @@
 //
 
 @protocol PXStoryPacingClock
-- (CDStruct_1b6d18a9), but we could not use it to create an image:%@ /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)Index: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;

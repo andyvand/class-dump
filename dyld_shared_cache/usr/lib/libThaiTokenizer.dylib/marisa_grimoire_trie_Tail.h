@@ -5,8 +5,8 @@
 class marisa::grimoire::trie::Tail {
 public: // (access info unavailable from symbols alone)
     Tail();
-    map(marisa::grimoire::io::Mapper&);
-    match(marisa::Agent&, unsigned long) const;
-    swap(marisa::grimoire::trie::Tail&);
+    auto map(marisa::grimoire::io::Mapper&);
+    auto match(marisa::Agent&, unsigned long) const;
+    auto swap(marisa::grimoire::trie::Tail&);
     ~Tail();
 };

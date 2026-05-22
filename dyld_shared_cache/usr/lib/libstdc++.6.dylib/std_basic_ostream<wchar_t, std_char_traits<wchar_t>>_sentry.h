@@ -4,6 +4,7 @@
 
 class std::basic_ostream<wchar_t, std::char_traits<wchar_t>>::sentry {
 public: // (access info unavailable from symbols alone)
+    operator bool() const;
     sentry(std::basic_ostream<wchar_t, std::char_traits<wchar_t>>&);
     ~sentry();
 };

@@ -15,25 +15,26 @@
     NSMutableArray *_completionHandlers;
 }
 
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
-- (id)cationWithIdentifier:timeout:alertLevel:displayFlags:displayInformation: /* Error: Ran out of types for this method. */;
-- (id)neChangesCKOperationUsingToken:zoneID:resultsLimit:desiredKeys:operationGroupName:activity: /* Error: Ran out of types for this method. */;
-- (void)AddressedHandle:(double)arg1 lastAddressedSIMID:(double)arg2 handleInfo:(id)arg3;
-- (id)dle:unformattedNumber:countryCode:forChat:style:account: /* Error: Ran out of types for this method. */;
-- (void)rsationManager:(CDUnknownBlockType)arg1 handoffEligibilityChangedToConversation:fromPreviousConversation: /* Error: Ran out of types for this method. */;
-- (void)hments:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (id);
-- (void)ler:(CDUnknownBlockType)arg1;
-- (void);
-- (CDUnknownBlockType)stemProvidedPresentationRegisteredViewLocation: /* Error: Ran out of types for this method. */;
-- (id)DepthLevel;
-- (void)UIEventSessionContextualAction;
-- (void)noreCaptureEngine;
-- (void)T²Ø²P³Ä³¼µ\¶h·H¸|¹;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)ÀAùq`°1Â0@ù
+× ;
+- (void);
+- (void)performContextMenuHandoffForMenu:(struct CGRect)arg1 sourceView: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)À`êÿhþþÿ;
+- (void)ü©ñ=¦D<;
+- (void)U$;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *animateAlongsideHandlers; // @synthesize animateAlongsideHandlers=_animateAlongsideHandlers;

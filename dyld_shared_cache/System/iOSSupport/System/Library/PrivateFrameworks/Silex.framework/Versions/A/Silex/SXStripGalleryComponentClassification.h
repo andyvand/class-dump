@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (int)t: /* Error: Ran out of types for this method. */;
++ (int);
 - (id);
 - (id);
 - (id);

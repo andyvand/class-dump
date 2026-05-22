@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (unsigned int);
-- (id);
+- (id);
 - (void);
 - (unsigned int);
 - (id);
 - (id);
-- (id)__TEXT;
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned int productionMode; // @synthesize productionMode=_productionMode;

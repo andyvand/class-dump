@@ -26,17 +26,17 @@
 - (_Bool);
 - (void);
 - (struct CGSize);
+- (void);
+- (id);
+- (id);
+- (void);
 - (struct UIEdgeInsets);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)orPresentedController:presentingController:sourceController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;

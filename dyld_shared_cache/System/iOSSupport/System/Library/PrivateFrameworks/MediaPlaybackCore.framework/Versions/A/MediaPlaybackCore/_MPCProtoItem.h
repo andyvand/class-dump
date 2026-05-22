@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void)a;
-- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)ifierList does not contain afterItem] afterSection=%{public}@ afterItem=%{public}@;
 
 @end
 

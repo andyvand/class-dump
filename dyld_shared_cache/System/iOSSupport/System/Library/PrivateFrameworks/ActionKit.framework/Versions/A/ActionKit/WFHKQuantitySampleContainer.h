@@ -16,7 +16,7 @@
     NSArray *_subsamples;
 }
 
-+ (_Bool)an alert with a title, a message, and two buttons. If the user selects the OK button, the shortcut continues. The cancel button stops the shortcut.;
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -26,19 +26,19 @@
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (double);
 - (double);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)n HTTP 401 (Unauthorized) status code and include the "WWW-Authenticate" response header field matching the authentication scheme used by the client.;
+- (id)²ÿGßÿÌR)Î*ÿÀÝÿØ{ôÿÚÚ¹ÿ»ºïÿü¬ ÿÃ4;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canProvideDataSamples; // @synthesize canProvideDataSamples=_canProvideDataSamples;

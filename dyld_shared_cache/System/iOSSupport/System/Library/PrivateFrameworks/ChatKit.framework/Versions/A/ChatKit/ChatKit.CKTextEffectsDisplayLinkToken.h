@@ -13,9 +13,9 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void)ìñ;
+- (void);
+- (void)age). Conversation:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

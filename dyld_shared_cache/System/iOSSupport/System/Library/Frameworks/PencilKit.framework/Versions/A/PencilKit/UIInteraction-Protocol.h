@@ -7,7 +7,6 @@
 @class UIView;
 
 @protocol UIInteraction
-- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *view;

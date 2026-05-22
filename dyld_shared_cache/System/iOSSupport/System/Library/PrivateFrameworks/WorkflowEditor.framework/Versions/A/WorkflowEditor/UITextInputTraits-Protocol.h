@@ -9,16 +9,26 @@
 @protocol UITextInputTraits
 
 @optional
-- (long long);
-- (void)hangeText:(long long)arg1 allowMinus: /* Error: Ran out of types for this method. */;
-- (long long)nterface:completionHandler: /* Error: Ran out of types for this method. */;
-- (long long)OfClasses:forKey: /* Error: Ran out of types for this method. */;
-- (long long);
-- (long long)üGûÿ0IûÿäIûÿJûÿLKûÿpKûÿKûÿLûÿxMûÿèNûÿ$Pûÿ¸Pûÿ<RûÿÈSûÿTûÿWûÿÔWûÿÐXûÿÔmþÿlnþÿÌnþÿänþÿoþÿ$oþÿ@oþÿ\oþÿxoþÿoþÿ°oþÿÌoþÿèoþÿpþÿ pþÿ<pþÿXpþÿtpþÿpþÿàpþÿ;
-- (void)yúìvSgGG;
-- (long long)_yyc7handlert;
-- (void)ADyóE;
-- (long long)_â[yAKy	xxG® [GtGGGG;
+- (long long)
+× ;
+- (void)ñä1â
+0@ù
+× ;
+- (long long)WithArray: /* Error: Ran out of types for this method. */;
+- (long long)range: /* Error: Ran out of types for this method. */;
+- (long long)ntroller: /* Error: Ran out of types for this method. */;
+- (long long)sFromSerializedRepresentations:actionRegistry: /* Error: Ran out of types for this method. */;
+- (long long)allowsTextEntry;
+- (void)ÔÓÔpÔ ÔÕ;
+- (void);
+- (void)ÿÿ;
+- (void)8³èÿ;
+- (long long)Ä;
+- (void)ySbGG·ÆÐGAUGSgtGGAOGAOG_AgAy6ÑyAHyAAyAAyAAy\ÎÐÈÐGAOGÌÐyAKGGG_JÑQo_¢ËÐyLÊÐGGSgtGGA4_GAOG;
+- (void)çÿ;
+- (void)itutableStateCG;
+- (long long);
+- (unsigned long long)ÜNxôëÿxôëÿù;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

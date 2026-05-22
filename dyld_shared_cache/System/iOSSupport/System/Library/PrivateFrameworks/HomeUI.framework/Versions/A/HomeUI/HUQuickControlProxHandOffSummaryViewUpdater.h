@@ -14,9 +14,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)10°1b0@ù
-× ;
+- (void)ionLibrariesSection;
+- (id)t(_:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUQuickControlSummaryNavigationBarTitleView *titleView; // @synthesize titleView=_titleView;

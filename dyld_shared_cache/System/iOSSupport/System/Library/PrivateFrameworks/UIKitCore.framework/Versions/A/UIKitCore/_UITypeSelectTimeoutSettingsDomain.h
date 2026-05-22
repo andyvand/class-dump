@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)tPayloadActivationLockAllowedWhileSupervised: /* Error: Ran out of types for this method. */;
 + (id);
-+ (Class)ewContainer;
-+ (id)ÐOc;
++ (id)oller;
++ (id)xisConstraintAtIndexPath: /* Error: Ran out of types for this method. */;
++ (Class)þoþoþkR0;
 
 @end
 

@@ -12,15 +12,15 @@
 }
 
 + (_Bool);
-+ (_Bool)ke width, as a decimal proportion of the font size between 0 and 1, to apply to the text. Optional. (WFPercentageTextStrokeWidth);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
-- (id)ableString;
+- (void)tentPropertyUserInfoEnumMetadata;
+- (id)íÿàþá ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) LNSnippetEnvironment *environment; // @synthesize environment=_environment;

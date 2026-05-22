@@ -18,15 +18,15 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
+- (void);
+- (double);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (void)on;
-- (double)dG;
-- (id)ers;
+- (void)mID:context:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration; // @synthesize duration=_duration;

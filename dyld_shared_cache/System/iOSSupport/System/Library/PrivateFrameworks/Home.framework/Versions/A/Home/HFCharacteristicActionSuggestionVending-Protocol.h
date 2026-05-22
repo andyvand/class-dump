@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol HFCharacteristicActionSuggestionVending
+- (NSString *)etch Wallet Key Device State for current device:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *characteristicType;

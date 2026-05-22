@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)32@0:(_Bool)arg1 8@"UITextRangeAdjustmentInteraction"16@"_UIBurnableBlock"24;
 
 // Remaining properties
 @property(nonatomic) double percentComplete; // @dynamic percentComplete;

@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)s;
+- (id);
+- (void)¸~;
 
 // Remaining properties
 @property(readonly, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;

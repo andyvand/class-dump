@@ -5,11 +5,5 @@
 //
 
 @protocol _UISceneHostingViewControllerPreferencePropagationHostComponentDelegate
-- (void)id kAMFDRDataClaimOptionServerOnlySigningDataClasses option is set;
-- (void)imOptionDeviceOnlySigningDataClasses option is set;
-- (void)t to false;
-- (void)ed by HTTP store;
-- (void)fest;
-- (void)dditionToCommit is NULL;
 @end
 

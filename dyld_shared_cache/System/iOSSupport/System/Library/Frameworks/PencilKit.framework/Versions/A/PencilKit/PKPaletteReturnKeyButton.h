@@ -24,31 +24,31 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct CGSize)>;
+- (id);
+- (struct CGSize);
 - (id);
 - (void);
-- (void)EstimatedVisibleSnippetDisplaySize:(double)arg1;
 - (void);
-- (double)@"NSString",C,N,V_searchQuery;
+- (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
+- (long long);
 - (id);
-- (void)Wc;
-- (void);
-- (id);
+- (double);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)A	!;
+- (void)tesPickerViewInnerPadding;
+- (long long):lassoStroke: /* Error: Ran out of types for this method. */;
+- (void)ansition;
 - (id);
-- (id);
-- (void)aletteViewInteractionDelegate>",W,N,V_delegate;
-- (id)cilTextInputSource;
-- (long long)|-;
-- (long long);
-- (void)electionContents;
 
 // Remaining properties
 @property(nonatomic) long long axis; // @synthesize axis=_axis;

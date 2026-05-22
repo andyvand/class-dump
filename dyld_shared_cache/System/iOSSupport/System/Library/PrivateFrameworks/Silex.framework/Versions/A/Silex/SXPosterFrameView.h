@@ -15,8 +15,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) SVVideoPlayButton *playButton; // @synthesize playButton=_playButton;

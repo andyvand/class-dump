@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (UIViewController *);
-- (void)D COLUMN madrid_url TEXT;
+- (long long)!`Eù±°1Â0@ù
+× ;
+- (void)idDisappear;
 @end
 

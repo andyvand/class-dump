@@ -22,9 +22,9 @@
 + (id);
 + (id);
 + (id);
-+ (id)|;
 + (id);
-+ (id)XT;
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -36,14 +36,12 @@
 - (_Bool);
 - (Class);
 - (id);
+- (_Bool);
+- (unsigned long long);
 - (id);
-- (void);
 - (id);
-- (id);
-- (_Bool)ù
-× ;
-- (unsigned long long)0@ù
-× ;
+- (id)erEventObserver;
+- (void)terface;
 
 // Remaining properties
 @property(readonly, nonatomic) id constantValue; // @synthesize constantValue=_constantValue;

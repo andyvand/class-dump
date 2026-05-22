@@ -15,9 +15,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (struct _NSRange)ñ£ð1¢!0@ù
-× ;
+- (struct _NSRange);
+- (void)áÝ°!;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;

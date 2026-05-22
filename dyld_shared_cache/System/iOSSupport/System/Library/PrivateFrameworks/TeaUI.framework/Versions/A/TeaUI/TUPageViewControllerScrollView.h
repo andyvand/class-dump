@@ -14,7 +14,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)Ì!úÿØ!úÿ@#úÿÌ#úÿØ#úÿd$úÿ¸%úÿÜ%úÿP&úÿô&úÿ@'úÿØ'úÿH(úÿl(úÿ¨(úÿÌ(úÿ(+úÿ,úÿ@,úÿd,úÿ ,úÿÄ,úÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <TUPageViewControllerScrollViewAccessibilityDelegate> accessibilityDelegate; // @synthesize accessibilityDelegate=_accessibilityDelegate;

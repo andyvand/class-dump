@@ -18,31 +18,30 @@ __attribute__((visibility("hidden")))
     _Bool _cellHasReorderingAppearance;
 }
 
-- (id)nceNow:(id)arg1;
-- (void)mStorageMonitorCSgXwz_Xx;
-- (void)2y!;
-- (_Bool);
-- (void)ting timer for timeout enforcement;
-- (void)ced to fail. Error:(id)arg1 %@;
-- (void);
-- (void)fetched chats failed to encode as CKRecord;
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
-- (void)from transcoder is too short;
 - (_Bool);
 - (void);
-- (void)ð1¢!0@ù
-× ;
-- (_Bool)rection:(id)arg1;
-- (void)tViewClass;
-- (void)ayoutAlignmentView;
-- (void)de;
-- (void)utSupplementaryEnroller.m;
-- (void)bled;
-- (_Bool)lqÿL¶Ñö½b;
-- (_Bool)yd;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)ultAttributesWithValue: /* Error: Ran out of types for this method. */;
+- (void)ìä <;
+- (void)nder or UIStateRestoring:(id)arg1 %@;
+- (void);
+- (_Bool)iguration;
+- (void)ayout;
+- (void);
+- (_Bool)ÌB¼e;
+- (void)¼æa;
+- (void)xÈd;
+- (void)B.;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

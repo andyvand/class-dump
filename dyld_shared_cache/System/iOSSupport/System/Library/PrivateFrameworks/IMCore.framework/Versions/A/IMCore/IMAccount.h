@@ -80,7 +80,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)orAVAsset:(id)arg1;
++ (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isUsableForSending;

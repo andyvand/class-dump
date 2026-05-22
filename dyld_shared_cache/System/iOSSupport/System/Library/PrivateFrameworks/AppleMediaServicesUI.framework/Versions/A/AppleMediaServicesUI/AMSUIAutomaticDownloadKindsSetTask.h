@@ -17,21 +17,21 @@
 }
 
 + (id);
-+ (id)y7SgGG_ADy!7ANG97tGGGGG_~9Qo_Ý7y7GG_ARtGG;
-+ (id)esUI.DebugMenuBarButtonItem;
-+ (id);
++ (id)d0º«ÿÿÄ«ÿÿÄ;
++ (id)thenticateRequestCSgG;
++ (id)n;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)entInfo:requiresAccount:additionalHeaders:sendBlindedData:metricsOverlay:performanceMetricsOverlay: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)cludeAuthKitTokens;
+- (id)ansition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;

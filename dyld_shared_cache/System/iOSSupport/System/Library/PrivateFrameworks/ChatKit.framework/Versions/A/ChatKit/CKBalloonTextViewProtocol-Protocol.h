@@ -7,16 +7,6 @@
 @protocol CKBalloonTextViewInteractionDelegate;
 
 @protocol CKBalloonTextViewProtocol
-- (struct CGSize)åpô;
-- (_Bool)Rmô;
-- (void)IfNecessary:(_Bool)arg1 note:parentAttachment: /* Error: Ran out of types for this method. */;
-- (void)nerAcceptedParticipantsCount;
-- (void)tributes:(struct _NSRange)arg1;
-- (id <CKBalloonTextViewInteractionDelegate>)itorController:didFailWithError: /* Error: Ran out of types for this method. */;
-
-@optional
-- (_Bool);
-- (void)outConstraint;
 
 // Remaining properties
 @property(nonatomic, getter=isFakeSelected) _Bool fakeSelected;

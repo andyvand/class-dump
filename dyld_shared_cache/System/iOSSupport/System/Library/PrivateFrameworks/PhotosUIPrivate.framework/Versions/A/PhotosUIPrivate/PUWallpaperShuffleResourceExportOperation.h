@@ -41,16 +41,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
+- (void):completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) PFPosterEditConfiguration *editConfiguration; // @synthesize editConfiguration=_editConfiguration;

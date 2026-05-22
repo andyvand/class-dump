@@ -34,70 +34,10 @@ __attribute__((visibility("hidden")))
     _UISplitViewControllerAdaptiveColumnView *_view;
 }
 
-- (id)MAoWBERHU1SgAgUA/4absdJkDDAKFgRjbGlkoAIF
-AP+Gy7nmdAwwChYEaW5zdKACBQAwEAYJKoZIhvdjZAYQBAMMASowFAYJKoZIhvdj
-ZAYRBAcMBUxvY2FsMA0GCSqGSIb3DQEBCwUAA4ICAQBvsxDEZweOcEo10OpMUpx2
-NZTy4BvSNqKOlv1nHTLqESHYTfik/L3mqTeOoWe20UkMY/e3vKwJWbgavzw7WOxb
-65bQ+ixU5VQUZzy1XlaQkIW49Tqid1WViSNNlqEXJLTj8lsplpuy5iT/WndNWczq
-opM3SkdS5YgjAqP4r8qoOAK7pSoMvLd6LTijbp9pTKDTseoXoJsVgPA/LNbW0FvR
-QxJyVVYkFnN1jtZB2ge5tqpuEuXwyCa/1bC9H8WE49uHyABIzfRaLEs7JbYvIaDH
-rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
-8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
-e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
-- (id)Y2QGAQ8ETDFK/4T6iZRQ
-QzBBFgRPQkpQMTn/hKKdplQMMAoWBERHU1SgAgUA/4absdJkDDAKFgRjbGlkoAIF
-AP+Gy7nmdAwwChYEaW5zdKACBQAwEAYJKoZIhvdjZAYQBAMMASowFAYJKoZIhvdj
-ZAYRBAcMBUxvY2FsMA0GCSqGSIb3DQEBCwUAA4ICAQBvsxDEZweOcEo10OpMUpx2
-NZTy4BvSNqKOlv1nHTLqESHYTfik/L3mqTeOoWe20UkMY/e3vKwJWbgavzw7WOxb
-65bQ+ixU5VQUZzy1XlaQkIW49Tqid1WViSNNlqEXJLTj8lsplpuy5iT/WndNWczq
-opM3SkdS5YgjAqP4r8qoOAK7pSoMvLd6LTijbp9pTKDTseoXoJsVgPA/LNbW0FvR
-QxJyVVYkFnN1jtZB2ge5tqpuEuXwyCa/1bC9H8WE49uHyABIzfRaLEs7JbYvIaDH
-rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
-8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
-e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
-- (id)dvn52D3WUU5HVS412NMxo4GHMIGEMFoGCiqGSIb3Y2QGAQ8ETDFK/4T6iZRQ
-QzBBFgRPQkpQMTn/hKKdplQMMAoWBERHU1SgAgUA/4absdJkDDAKFgRjbGlkoAIF
-AP+Gy7nmdAwwChYEaW5zdKACBQAwEAYJKoZIhvdjZAYQBAMMASowFAYJKoZIhvdj
-ZAYRBAcMBUxvY2FsMA0GCSqGSIb3DQEBCwUAA4ICAQBvsxDEZweOcEo10OpMUpx2
-NZTy4BvSNqKOlv1nHTLqESHYTfik/L3mqTeOoWe20UkMY/e3vKwJWbgavzw7WOxb
-65bQ+ixU5VQUZzy1XlaQkIW49Tqid1WViSNNlqEXJLTj8lsplpuy5iT/WndNWczq
-opM3SkdS5YgjAqP4r8qoOAK7pSoMvLd6LTijbp9pTKDTseoXoJsVgPA/LNbW0FvR
-QxJyVVYkFnN1jtZB2ge5tqpuEuXwyCa/1bC9H8WE49uHyABIzfRaLEs7JbYvIaDH
-rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
-8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
-e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
-- (id)KWDtWxssWc1c4hdDg/wsmD6Xb+xb45NCRgFnBW
-SS1+dvn52D3WUU5HVS412NMxo4GHMIGEMFoGCiqGSIb3Y2QGAQ8ETDFK/4T6iZRQ
-QzBBFgRPQkpQMTn/hKKdplQMMAoWBERHU1SgAgUA/4absdJkDDAKFgRjbGlkoAIF
-AP+Gy7nmdAwwChYEaW5zdKACBQAwEAYJKoZIhvdjZAYQBAMMASowFAYJKoZIhvdj
-ZAYRBAcMBUxvY2FsMA0GCSqGSIb3DQEBCwUAA4ICAQBvsxDEZweOcEo10OpMUpx2
-NZTy4BvSNqKOlv1nHTLqESHYTfik/L3mqTeOoWe20UkMY/e3vKwJWbgavzw7WOxb
-65bQ+ixU5VQUZzy1XlaQkIW49Tqid1WViSNNlqEXJLTj8lsplpuy5iT/WndNWczq
-opM3SkdS5YgjAqP4r8qoOAK7pSoMvLd6LTijbp9pTKDTseoXoJsVgPA/LNbW0FvR
-QxJyVVYkFnN1jtZB2ge5tqpuEuXwyCa/1bC9H8WE49uHyABIzfRaLEs7JbYvIaDH
-rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
-8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
-e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (double);
 - (void);
@@ -107,7 +47,7 @@ h0Sm4iIj1I5P1NFGq/jR8A==
 - (void);
 - (void);
 - (void);
-- (void)u;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -129,19 +69,24 @@ h0Sm4iIj1I5P1NFGq/jR8A==
 - (id);
 - (id);
 - (struct UIEdgeInsets);
-- (double);
-- (void)eepLocalEnableState"b1"keepLocalManagedStatus"b1"keepLocalManagedStatusReason"b1"keepLocalConstraints"b1"curatorPlaylist"b1"owner"b1"publicPlaylist"b1"visiblePlaylist"b1"subscribed"b1"userEditableComponents"b1"shareURL"b1"shareShortURL"b1"descriptionText"b1"cloudVersionHash"b1"traits"b1"versionHash"b1"isFavorite"b1"isDisliked"b1"dateFavorited"b1"favoriteSongsPlaylist"b1"coverArtworkRecipe"b1"collaborative"b1"collaborationSharingMode"b1"collaborationMode"b1"collaboratorPermissions"b1"collaborationInvitationURL"b1"collaborationInvitationURLExpirationDate"b1"collaborationJoinRequestIsPending"b1"collaboratorStatus"b1"storeRedownloadable"b1"isPinned"b1"hasAnyCleanTracks"b1"hasAnyCleanDownloadedTracks"b1"curator"{?="identifiers"b1"name"b1"handle"b1}};
-- (id);
 - (id);
 - (void);
-- (double)rientation;
-- (double)emRange;
-- (id)nStrategyByShiftedIdiom;
-- (void)n;
+- (double)@ù
+× ;
+- (double)!Aù±g°1Â0@ù
+× ;
+- (id): /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)ring;
+- (double)Recognizer.maximumNumberOfTouches;
+- (void)t;
+- (void)yé&1,4@ð§ÆK7I1@¼tVî?+ÙÎ@çû©ñÒí2@=
+×£pý5@Ý$Cù?B`åÐ"Û3@5^ºIó?A`åÐâ4@Å °rh@shí|_8@¸ëQ¸@=
+×£p=:@nÀ$@Âõ(\@
+×£p=ZA@¸ëQ¸@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id)oller keyboardWindowEnabled:] /* Error: Ran out of types for this method. */;
 - (long long);
-- (void)Ô_;
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets absoluteInsets;

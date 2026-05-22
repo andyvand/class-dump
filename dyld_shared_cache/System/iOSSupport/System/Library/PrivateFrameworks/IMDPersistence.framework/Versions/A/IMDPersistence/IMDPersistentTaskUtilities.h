@@ -9,7 +9,6 @@
 }
 
 + (id);
-+ (_Bool);
 + (long long);
 + (long long);
 + (id);
@@ -21,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-- (id)dInsertSpaceAddWhitespace: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

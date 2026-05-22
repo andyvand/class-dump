@@ -55,21 +55,22 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (long long);
+- (double);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (double)tions;
-- (void)SetBuilder;
+- (long long)0@ù
+× ;
+- (void)SmokeSensorOn;
+- (void)id number of service descriptors (expected 1, found %lu):%@. Defaulting to %@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;

@@ -19,48 +19,49 @@ __attribute__((visibility("hidden")))
     _Bool _resetRequired;
 }
 
-+ (id)zí3yç¼í3ºµí3Gí3G;
-+ (_Bool)±I;
-- (void)readgroup;
-- (id)yloadSafariAllowAutoFill;
-- (void);
-- (void);
++ (id)ategoryControlKeyActiveTraits;
++ (_Bool)<>p;
 - (_Bool);
-- (void)16;
-- (id)tion;
-- (void);
-- (long long);
 - (_Bool);
 - (void);
-- (void)MÊ6º;
-- (void)
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)áÿÐ!ÌFùñXÐ1Â0@ù
 × ;
-- (id)ñÍð1¢!0@ù
+- (long long)
 × ;
-- (id)8@0:(struct CGPoint)arg1 8@"FBSWorkspace"16@"FBSScene"24@"FBSSceneTransitionContext"32@?<v@?@"FBSWorkspaceDestroySceneResponse">40;
-- (_Bool)SettingsUpdateIfNecessary;
-- (id)vertPoint:fromView: /* Error: Ran out of types for this method. */;
-- (_Bool)zationEnabled,V_automaticLocalizationEnabled;
-- (void),&,N,V_preUpdateContainer;
-- (void)<\´;
-- (_Bool)edSecondaryColumnWidth = %g;
-- (_Bool)->_inputViewController :nil /* Error: Ran out of types for this method. */;
-- (id)/TextInputUI;
-- (long long);
-- (_Bool)Ö`;
-- (_Bool)÷c;
-- (_Bool)(ÃÙ­6d;
-- (_Bool)Àðþ(´;
+- (id)dð1Â0@ù
+× ;
+- (id)rceList: /* Error: Ran out of types for this method. */;
+- (_Bool)tionHandler: /* Error: Ran out of types for this method. */;
+- (void)pertiesRequiringFencing:(id)arg1;
+- (_Bool)tingView;
+- (id);
+- (void);
+- (long long)ayoutFeedbackLoopDebuggingThreshold;
+- (void)Pad;
+- (_Bool)alid attempt to use functionality specifically for UIKit testing apps by:(id)arg1 %@;
+- (void)¶Ýþÿº¬þÿ*¬þÿ&¢þÿ"¬þÿÂÓþÿ;
+- (_Bool)ollPocketElementFrameCacheC;
+- (_Bool)ÿvøoþ;
+- (_Bool)pþ;
 - (_Bool);
-- (_Bool)ÛÉ6f;
-- (id)(Ë[æf;
-- (_Bool)?i;
-- (_Bool)°-äÿ`Í¶]g;
-- (_Bool)¹ç;
-- (void)N;
-- (_Bool)\(tÿÔPj;
-- (_Bool)\j;
-- (double)·!ÿ`;
+- (void);
+- (id)¤^;
+- (_Bool)6;
+- (_Bool)*Äb;
+- (_Bool)ÜNÿÑ%Ô¤¡b;
+- (void)2d;
+- (id);
+- (double)PooþDÎ;
+- (_Bool);
+- (id)*;
+- (_Bool)ÅÉ5>n;
+- (_Bool);
+- (_Bool);
+- (_Bool)Hzþ*;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_c8d2f6fa _bindingDescription;

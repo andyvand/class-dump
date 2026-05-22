@@ -4,8 +4,8 @@
 
 class vector<phy_ext_simple> {
 public: // (access info unavailable from symbols alone)
-    push_back(phy_ext_simple const&);
-    reserve(unsigned long);
-    resize(unsigned long, phy_ext_simple const&);
+    auto push_back(phy_ext_simple const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, phy_ext_simple const&);
     ~vector();
 };

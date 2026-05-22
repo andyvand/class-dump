@@ -40,12 +40,12 @@
 - (MISSING_TYPE *);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *blendShapes;

@@ -22,8 +22,8 @@
 - (long long);
 - (id);
 - (double);
-- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isFullscreen; // @synthesize isFullscreen=_isFullscreen;

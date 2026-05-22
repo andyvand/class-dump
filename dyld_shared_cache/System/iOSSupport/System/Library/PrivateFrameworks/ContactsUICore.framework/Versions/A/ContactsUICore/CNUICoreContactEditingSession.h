@@ -33,17 +33,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (void)pe;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addedContacts;

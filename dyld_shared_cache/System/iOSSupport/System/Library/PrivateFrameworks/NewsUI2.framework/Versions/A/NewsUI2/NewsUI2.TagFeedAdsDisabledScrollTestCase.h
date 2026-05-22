@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long)ìLM`MMÄMüM4NlN¤NÜNODO|O´OìOPLPtP°PäPQLQQ¼QR<RR¼RS<S;
-- (double)gger a route;
-- (id)0øÿüÿ;
-- (long long);
+- (void)1_Ds;
+- (id)aDÁ¨þ;
+- (long long)¿b Áþñ¾bÁþÁ¾b 0øþÁ¾bÁþÁ¾bÁþé¾bÁþé¾b;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

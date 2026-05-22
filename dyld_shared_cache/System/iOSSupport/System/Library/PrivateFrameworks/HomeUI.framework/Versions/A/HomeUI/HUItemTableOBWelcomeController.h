@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void)iptionLink;
+- (void);
+- (void)TriggerSummaryConfirmationAlertMessageMac;
+- (void)aÎÿ(;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

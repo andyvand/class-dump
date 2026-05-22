@@ -17,14 +17,14 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (struct CGPoint)ParentChatId:(struct CGRect)arg1;
+- (struct CGPoint);
 - (id);
-- (void);
-- (unsigned long long)on: /* Error: Ran out of types for this method. */;
-- (CDStruct_17a0fc55)ror from service;
-- (struct CGPoint)ibuteNameLooksLikeShiftAlternate;
-- (void)Èó;];
-- (void)ÕÔc;
+- (void)ranceForStyle:(struct CGPoint)arg1 ] to reset appearance values;
+- (unsigned long long)ionElementKindCell;
+- (CDStruct_17a0fc55)ÇïÙøk^;
+- (struct CGPoint)øú`;
+- (void)a×à"d;
+- (void)¯d;
 
 // Remaining properties
 @property(nonatomic) CDStruct_17a0fc55 anchor; // @synthesize anchor=_anchor;

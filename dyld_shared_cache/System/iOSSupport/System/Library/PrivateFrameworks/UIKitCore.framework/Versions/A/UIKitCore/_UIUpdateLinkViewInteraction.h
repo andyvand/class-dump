@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)rmFunction;
-- (id);
-- (void)rix;
-- (void)MoreKey;
+- (void);
+- (void)r;
+- (id)ion;
+- (void)aceholder context that isn't contained in the placeholderContexts array;
+- (void),;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

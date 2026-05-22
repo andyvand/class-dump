@@ -4,5 +4,5 @@
 
 class dyld3 {
 public: // (access info unavailable from symbols alone)
-    open(char const*, int, int);
+    auto open(char const*, int, int);
 };

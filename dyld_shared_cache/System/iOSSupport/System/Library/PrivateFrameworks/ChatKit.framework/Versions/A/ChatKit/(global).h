@@ -4,5 +4,5 @@
 
 // Global C++ functions
 
-PKPassSecurePreviewContextCreateMessagesPreview(NSURL*, NSURL*);
-simd_quaternion(float vector[3], float vector[3]);
+auto PKPassSecurePreviewContextCreateMessagesPreview(NSURL*, NSURL*);
+auto simd_quaternion(float vector[3], float vector[3]);

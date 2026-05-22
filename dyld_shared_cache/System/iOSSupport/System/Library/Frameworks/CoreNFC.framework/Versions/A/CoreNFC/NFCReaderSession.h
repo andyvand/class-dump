@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFCHardwareManager, NSNumber, NSObject, NSString;
+@class NFCHardwareManager, NFCoreNFCPollConfig, NSNumber, NSObject, NSString;
 @protocol NFReaderSessionInterface><NSXPCProxyCreating, NFTag, OS_dispatch_group, OS_dispatch_queue;
 
 @interface NFCReaderSession
@@ -21,8 +21,7 @@
     NSString *_alertMessage;
     NSNumber *_sessionId;
     NFCHardwareManager *_hardwareManager;
-    unsigned long long _pollOption;
-    unsigned long long _sessionConfig;
+    NFCoreNFCPollConfig *_pollConfig;
     long long _delegateType;
     unsigned long long _sessionType;
 }
@@ -37,9 +36,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -71,24 +71,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (void);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alertMessage;
@@ -103,10 +101,9 @@
 @property(readonly, nonatomic) NFCHardwareManager *hardwareManager; // @synthesize hardwareManager=_hardwareManager;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(nonatomic) unsigned long long pollOption; // @synthesize pollOption=_pollOption;
+@property(retain, nonatomic) NFCoreNFCPollConfig *pollConfig; // @synthesize pollConfig=_pollConfig;
 @property(readonly, retain, nonatomic) NSObject<NFReaderSessionInterface><NSXPCProxyCreating> *readerProxy;
 @property(readonly, nonatomic, getter=isReady) _Bool ready;
-@property(nonatomic) unsigned long long sessionConfig; // @synthesize sessionConfig=_sessionConfig;
 @property(readonly, nonatomic) NSNumber *sessionId; // @synthesize sessionId=_sessionId;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sessionQueue;
 @property(readonly, nonatomic) unsigned long long sessionType; // @synthesize sessionType=_sessionType;

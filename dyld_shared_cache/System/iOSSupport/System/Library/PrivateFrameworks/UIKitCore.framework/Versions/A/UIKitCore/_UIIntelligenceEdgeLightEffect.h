@@ -17,19 +17,18 @@
     MISSING_TYPE *radius;
 }
 
-- (void)tID!, marking it as clean and moving on.;
-- (void)Enroll me Request from a device that we do not recognize;
-- (id)cation Codes | Using image:(id)arg1 %@;
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (void);
+- (void);
 - (id);
-- (void)q!D@ùÄ°1¢!0@ù
-× ;
-- (void)ceForResponder:(id)arg1;
-- (id),V_preferredActiveIndicatorImage;
-- (_Bool)dþ;
-- (long long)Ìòb;
+- (unsigned long long);
+- (unsigned long long);
+- (long long);
+- (id);
+- (id);
+- (_Bool)icationState;
+- (void)following text. See rdar:(id)arg1 //102647358. %@;
+- (_Bool)ÿ;
+- (void)Yl;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activationTransitionDirection; // @synthesize activationTransitionDirection;

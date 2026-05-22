@@ -17,19 +17,19 @@
     UITextInputAssistantItem *_inputAssistantItem;
 }
 
-- (void)/Library/PrivateFrameworks/UIIntelligenceSupport.framework/Versions/A/UIIntelligenceSupport;
-- (void)ft5_reflstr__TEXT;
-- (_Bool)tionMetrics;
-- (_Bool)ithQualityOfService: /* Error: Ran out of types for this method. */;
-- (_Bool)esource: /* Error: Ran out of types for this method. */;
-- (_Bool)rRequest: /* Error: Ran out of types for this method. */;
-- (id)rror;
-- (_Bool)debugOverrides:requestMode: /* Error: Ran out of types for this method. */;
-- (_Bool)resultType;
-- (long long);
 - (void);
-- (_Bool)ckerView"16;
-- (id)essed;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (void)tartCapFilter;
+- (_Bool);
+- (id)Ì";
 
 // Remaining properties
 @property(nonatomic) _Bool disableInputAssistant; // @synthesize disableInputAssistant=_disableInputAssistant;

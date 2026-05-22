@@ -17,14 +17,14 @@
 - (void);
 - (id);
 - (id);
-- (id)StateManaging;
+- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void)d;
-- (id)l®;
+- (void)tDisableAllSliderVisuals:(id)arg1;
+- (id)DÓ;
+- (void)UIViewGlassLegibilitySetting;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dictationLanguage; // @synthesize dictationLanguage=_dictationLanguage;

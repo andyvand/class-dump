@@ -11,14 +11,14 @@
 }
 
 - (_Bool);
+- (id);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (double);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (double)<ö;
-- (double)fier because a date for the asset could not be determined.;
+- (double);
+- (id)"PXDisplayAssetViewModelHighlightTimeRangeController";
 
 // Remaining properties
 @property(readonly) double endDate; // @synthesize endDate=_endDate;

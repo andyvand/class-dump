@@ -24,15 +24,15 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (struct CGRect);
 - (_Bool);
 - (id);
+- (struct CGRect);
 - (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
 - (id);
 
 @end

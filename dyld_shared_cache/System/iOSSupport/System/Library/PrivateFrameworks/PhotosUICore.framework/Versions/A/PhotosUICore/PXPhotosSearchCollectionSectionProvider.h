@@ -28,11 +28,11 @@
     MISSING_TYPE *memoriesFetchResult;
 }
 
-- (void);
 - (id);
-- (id)ýÿäíÿ¤nzÿ;
-- (void)$¡o1¼Ø;
-- (_Bool);
+- (id);
+- (void);
+- (void)¤[3;
+- (_Bool)¬;
 
 // Remaining properties
 @property(nonatomic) _Bool isDisabled; // @synthesize isDisabled;

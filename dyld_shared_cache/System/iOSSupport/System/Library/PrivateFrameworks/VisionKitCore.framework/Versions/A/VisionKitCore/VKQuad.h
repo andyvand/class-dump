@@ -21,7 +21,7 @@
 + (struct CATransform3D);
 + (id);
 + (id);
-+ (_Bool)romView:rect: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (double);
 - (id);
 - (struct CGPoint);
@@ -56,26 +56,26 @@
 - (double);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (double);
-- (void);
-- (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (struct CGPoint);
 - (struct CGPoint);
-- (id);
-- (id);
+- (struct CGPoint);
 - (struct CGRect);
-- (id);
-- (id);
 - (struct CGPoint);
+- (_Bool);
+- (void);
 - (id);
-- (unsigned long long)sis;
-- (struct CGPoint)rShaderNormalGenerator;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)gleQuads;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allPoints;

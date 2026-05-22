@@ -12,8 +12,8 @@
     MISSING_TYPE *leaveButtonPressed;
 }
 
-- (void);
-- (id);
+- (id);
+- (void)h2²ÿ%kÄ2²ÿ%k¨ÿEk3²ÿ;
 
 @end
 

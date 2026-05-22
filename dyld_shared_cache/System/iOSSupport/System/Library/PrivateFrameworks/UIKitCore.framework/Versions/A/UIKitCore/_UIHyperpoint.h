@@ -12,22 +12,23 @@
     unsigned long long __dimensions;
 }
 
-+ (id)ButtonMenu;
-+ (_Bool)Àsÿt;
-- (void)sTokenForUID unexpected NULL channel;
-- (_Bool);
-- (id);
++ (id)CarPlayTouchpads: /* Error: Ran out of types for this method. */;
++ (_Bool)e;
 - (void);
-- (id)stopCommand;
-- (void)Required;
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (id)age:(const double *)arg1 shadowImage:(const char *)arg2;
-- (id)_tintColor;
-- (void)IBackgroundConfigurationInternal>",C,N,V_configuration;
-- (const double *)\P·ÿ;
+- (void)ù
+× ;
+- (_Bool)ntry;
+- (void)urrentDragSourceAction:(id)arg1;
+- (id)setVisualEffect:(unsigned long long)arg1;
+- (id)ivered;
+- (void)cell %@ with indexPath:(double *)arg1 %@ cellAttrs:(const double *)arg2 %@ layoutAttrsToUpdate:%@ /* Error: Ran out of types for this method. */;
+- (void)Kit inconsistency:(const double *)arg1 unknown character in format string:%C; dateFormat:%@ /* Error: Ran out of types for this method. */;
+- (const double *)(N;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;

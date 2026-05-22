@@ -18,11 +18,12 @@
     RTUserSessionMonitor *_userSessionMonitor;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)Ô!(!¨@ùqA,ð1Â0@ù
+× ;
++ (id)x,/³;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -32,29 +33,29 @@
 - (id);
 - (void);
 - (void);
-- (void),V_currentPublishStatus;
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
-- (id)ficSelectorPayload;
-- (void)SA Init;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)erProperties: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)s[%ld], Passthrough;
-- (_Bool)isfying:originalLabel /* Error: Ran out of types for this method. */;
-- (void)sõ;
-- (void)úà-E&;
-- (void);
 - (void);
+- (_Bool)q;
+- (void)Participant"8Q16^B24;
+- (void)nceFromLastVisit %.3f m.;
+- (void)RL %@, adding store;
+- (void);
+- (void)t a map item this should not happen;
+- (void);
+- (void)7Û;
+- (void);
+- (void);
+- (void)éÊÿ;
 
 // Remaining properties
 @property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;

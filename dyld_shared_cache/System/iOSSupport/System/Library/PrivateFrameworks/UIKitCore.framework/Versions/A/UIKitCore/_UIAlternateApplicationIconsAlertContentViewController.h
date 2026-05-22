@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UILabel *_messageLabel;
 }
 
-- (void)tes;
-- (void)nsfer_CKRecord *** asset was nil for record id:(id)arg1 %@;
-- (void)s;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);;
-- (void);
-- (void);
+- (void)teractionState;
+- (void)äÓ^;
+- (void)Àíâþ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *messageText;

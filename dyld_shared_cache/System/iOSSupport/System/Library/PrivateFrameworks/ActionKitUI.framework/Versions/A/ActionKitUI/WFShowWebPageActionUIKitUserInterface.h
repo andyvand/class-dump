@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)tTypeQRCode;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

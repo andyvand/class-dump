@@ -22,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)16@20C28@32@40@48@56q64B72q76;
-- (_Bool)messageProtocol: /* Error: Ran out of types for this method. */;
-- (_Bool)xpired;
-- (void)GUIDs:(_Bool)arg1;
-- (void)ecordIDstoDelete:(_Bool)arg1;
-- (void)ta;
-- (void)ersation:(float)arg1;
-- (long long)ses:preferExistingChats: /* Error: Ran out of types for this method. */;
-- (id)"NSNumber",&,N,V_subscriptionCreatedOverride;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,16 +38,17 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (float);
-- (id)LowPowerMode;
 - (id);
-- (id)};
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)account:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (id)Feedback;
-- (void)Type;
+- (id);
+- (void)¡Ð!¬Eùdð1Â0@ù
+× ;
+- (_Bool)ition;
+- (void)Ø¥[;
 
 // Remaining properties
 @property(nonatomic, setter=_setFocusPriority:) float _focusPriority; // @synthesize _focusPriority=__focusPriority;

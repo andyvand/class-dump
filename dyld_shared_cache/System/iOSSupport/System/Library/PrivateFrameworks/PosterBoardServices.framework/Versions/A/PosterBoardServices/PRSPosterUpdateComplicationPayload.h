@@ -17,13 +17,13 @@
 + (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *ambientWidgets; // @synthesize ambientWidgets=_ambientWidgets;

@@ -14,10 +14,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (unsigned long long);
-- (long long);
 - (void);
+- (id);
+- (long long);
 
 // Remaining properties
 @property long long maxNumberOfSuggestions; // @synthesize maxNumberOfSuggestions=_maxNumberOfSuggestions;

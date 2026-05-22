@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)awValue;
++ (id);
 + (struct CGRect);
 + (id);
-+ (void)%>;
++ (void);
 
 @end
 

@@ -37,16 +37,16 @@
 - (void);
 - (void);
 - (CDStruct_2c073aed *);
-- (CDStruct_e4cb95de *);
-- (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (CDStruct_44913231 *);
-- (CDStruct_16a2be32 *);
-- (id);
-- (id);
+- (void);
 - (unsigned int);
-- (void)Group invalidateVersion];
+- (id);
+- (CDStruct_16a2be32 *)ableAXInfo;
+- (CDStruct_e4cb95de *);
 
 // Remaining properties
 @property(nonatomic) unsigned int count; // @synthesize count=_count;

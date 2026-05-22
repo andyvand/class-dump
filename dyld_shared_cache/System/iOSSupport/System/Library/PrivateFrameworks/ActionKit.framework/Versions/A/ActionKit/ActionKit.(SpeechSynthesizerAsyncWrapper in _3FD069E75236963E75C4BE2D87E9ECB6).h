@@ -14,8 +14,8 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)fwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/JXHTTP/JXHTTP/JXHTTPJSONBody.m;
 
 @end
 

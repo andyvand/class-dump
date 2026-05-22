@@ -15,8 +15,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)_collectAndSubmitMetricsUponNotification:] /* Error: Ran out of types for this method. */;
-- (id)ved vehicle location, %{sensitive}@;
+- (id);
+- (_Bool)erence in POI update;
 
 @end
 

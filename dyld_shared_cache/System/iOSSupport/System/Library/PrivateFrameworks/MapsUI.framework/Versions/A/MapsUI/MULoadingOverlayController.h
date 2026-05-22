@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double showAfterInterval; // @synthesize showAfterInterval=_showAfterInterval;

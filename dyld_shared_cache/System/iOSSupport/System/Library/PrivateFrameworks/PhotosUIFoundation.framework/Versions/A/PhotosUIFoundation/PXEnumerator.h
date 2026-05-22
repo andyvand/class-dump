@@ -14,13 +14,13 @@
 
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (unsigned long long);
+- (void);
+- (unsigned long long)p unspecified layout direction;
 
 // Remaining properties
 @property(readonly) unsigned long long count;

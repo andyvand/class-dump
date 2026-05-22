@@ -7,8 +7,8 @@
 @protocol PXNavigationActionReceiver
 
 @optional
-- (void)ed;
-- (void)ies;
-- (void)ller for action zoomOutContent;
+- (void)remove object with identifier:(id)arg1 %@ while enumerating;
+- (void)wn clockAreaLuminance;
+- (void);
 @end
 

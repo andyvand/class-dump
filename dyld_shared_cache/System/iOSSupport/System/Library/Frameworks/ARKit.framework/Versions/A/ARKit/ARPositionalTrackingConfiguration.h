@@ -13,7 +13,7 @@
     unsigned long long _planeDetection;
 }
 
-+ (id)üÿyíw;
++ (id);
 - (void);
 - (void);
 - (unsigned long long);

@@ -18,9 +18,9 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)Ù;
+- (void)Ô;
+- (id)ifier:(id)arg1 keyPath:callback for keyPath '%@' /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSFormatter *sourceFormatter; // @synthesize sourceFormatter=_sourceFormatter;

@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (id);
+- (double);
+- (void);
 - (void);
 - (id);
-- (void)ultActor;
-- (double)remote proxy while cancelling downloads %{public}@;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,19 +18,19 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool)eb pages;
+- (void)moteExecutionFileCoder waitForFileAvailabilityWithCompletionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *dialogRequestResponseData; // @synthesize dialogRequestResponseData=_dialogRequestResponseData;

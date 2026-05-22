@@ -38,10 +38,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)sibleViewController;
-- (void):(id)arg1;
-- (void)abled:(id)arg1 %{BOOL}d.;
+- (void);
+- (void)oggingOptions;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUMediaSystemEditorViewControllerDelegate> delegate; // @synthesize delegate;

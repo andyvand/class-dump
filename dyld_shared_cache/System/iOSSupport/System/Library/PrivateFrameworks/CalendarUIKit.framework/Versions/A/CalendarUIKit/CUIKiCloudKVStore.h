@@ -14,7 +14,7 @@
     id <NSObject><NSCopying><NSCoding> _ubiquityIdentityToken;
 }
 
-+ (_Bool)#;
++ (_Bool);
 + (id);
 - (void);
 - (void);
@@ -25,9 +25,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)uConfiguration"40@0:8@"UIContextMenuInteraction"16{CGPoint=dd}24 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void)peForSpans: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hasConnectedToCarBluetooth; // @synthesize hasConnectedToCarBluetooth=_hasConnectedToCarBluetooth;

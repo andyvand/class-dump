@@ -14,23 +14,23 @@
     id <AXUISoftwareKeyboardManagerDelegate> _delegate;
 }
 
-+ (id)leButton;
-- (void)@"OTControlArguments";
-- (void);
-- (void)t;
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)P;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void)ntProtocol.framework/Versions/A/RemoteManagementProtocol;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <AXUISoftwareKeyboardManagerDelegate> delegate; // @synthesize delegate=_delegate;

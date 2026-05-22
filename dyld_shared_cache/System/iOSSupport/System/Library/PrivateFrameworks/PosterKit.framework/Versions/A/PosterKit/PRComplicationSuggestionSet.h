@@ -15,9 +15,11 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id);
+- (void)!@ùññ°1â
+0@ù
+× ;
+- (id)n,V_allUserInteractionDisabledExceptForCancelButton;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *descriptors; // @synthesize descriptors=_descriptors;

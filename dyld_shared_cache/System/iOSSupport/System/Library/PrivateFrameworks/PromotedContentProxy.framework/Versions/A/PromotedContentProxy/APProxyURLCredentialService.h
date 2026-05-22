@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) APMescalSigning *mescalSigningObject; // @synthesize mescalSigningObject=_mescalSigningObject;

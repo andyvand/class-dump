@@ -15,18 +15,17 @@ __attribute__((visibility("hidden")))
     UIColor *_buttonTextColor;
 }
 
-- (void)hivedRecordsIfNeeded:(id)arg1 currentBatchCount:maxNumberOfBatches:activity:withCompletionBlock: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id)ceived a mention for a handle not associated with local account:(long long)arg1 %@;
 - (void);
 - (id);
 - (id);
-- (void)
-× ;
 - (id);
-- (void)oryView:(id)arg1;
-- (void)enScale;
+- (void);
+- (id)ition;
+- (void)d,N,VdimmingLevel;
+- (id).apple.documents.backaction;
+- (id)UICompositingModeSourceIn;
+- (void)|9`;
+- (void)èf;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

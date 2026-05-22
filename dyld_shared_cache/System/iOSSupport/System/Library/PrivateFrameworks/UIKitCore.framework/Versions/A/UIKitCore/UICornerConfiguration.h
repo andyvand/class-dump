@@ -11,28 +11,28 @@
     MISSING_TYPE *impl;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id)і;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)@;
 + (id);
 + (id);
-+ (_Bool)XmÈXWo;
-- (void);
-- (long long)Request: /* Error: Ran out of types for this method. */;
-- (_Bool)rIdentifierSet:(id)arg1;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (_Bool)etObject(const _UIRenderingSlotRef _Nonnull);
 - (id);
 - (id);
+- (id);
+- (long long);
+- (_Bool)ContentOffsetForScrollableContainer:(id)arg1 byDelta: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ActiveSessionUUID:,V_activeSessionUUID /* Error: Ran out of types for this method. */;
-- (id)4¼4ü4´6;
+- (id)½l¾;
+- (void)dßþ±È;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

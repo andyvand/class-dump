@@ -25,15 +25,15 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)nt:(id)arg1;
-- (_Bool)hademo.fill;
-- (_Bool);
+- (void);
+- (_Bool):%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MKPlaceCardActionItem *actionRowItem; // @synthesize actionRowItem=_actionRowItem;

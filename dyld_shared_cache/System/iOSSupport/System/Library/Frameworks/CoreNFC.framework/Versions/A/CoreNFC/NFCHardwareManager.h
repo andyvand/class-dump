@@ -18,16 +18,17 @@
 
 + (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
 - (void);
 
 // Remaining properties

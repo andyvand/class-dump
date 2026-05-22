@@ -17,16 +17,16 @@
     unsigned long long scrollDirection;
 }
 
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
 - (long long);
-- (unsigned long long);
-- (long long);
+- (id);
 - (double);
 - (id);
+- (unsigned long long);
 - (long long);
+- (unsigned long long);
+- (void)°ËþÿÌþÿ<ÎþÿøÏþÿÐþÿdÑþÿXÒþÿÓþÿøÓþÿ@Õþÿ Öþÿ`Öþÿ¼Öþÿl×þÿ\ØþÿÚþÿtÚþÿhÜþÿdÝþÿÞþÿ@ßþÿßþÿàþÿ$áþÿ;
+- (id);
+- (long long)tent);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

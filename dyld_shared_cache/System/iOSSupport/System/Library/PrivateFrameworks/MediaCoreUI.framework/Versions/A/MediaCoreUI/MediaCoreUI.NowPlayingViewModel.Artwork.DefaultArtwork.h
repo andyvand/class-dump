@@ -9,6 +9,7 @@
 @interface MediaCoreUI.NowPlayingViewModel.Artwork.DefaultArtwork
 {
     MISSING_TYPE *_isExpanded;
+    MISSING_TYPE *_$observationRegistrar;
 }
 
 @end

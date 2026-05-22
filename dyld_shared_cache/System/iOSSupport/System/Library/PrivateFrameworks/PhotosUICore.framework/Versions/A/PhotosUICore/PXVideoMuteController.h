@@ -25,8 +25,8 @@
 - (void);
 - (void);
 - (id);
-- (id)perPickerDataSourceModeLandscape;
-- (_Bool);
+- (id);
+- (_Bool)troller:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=setAutoplayEnabled:) _Bool isAutoplayEnabled; // @synthesize isAutoplayEnabled=_isAutoplayEnabled;

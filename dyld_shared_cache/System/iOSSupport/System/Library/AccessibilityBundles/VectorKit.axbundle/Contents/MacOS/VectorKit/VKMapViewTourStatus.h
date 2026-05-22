@@ -50,11 +50,11 @@
 - (void);
 - (struct CGPoint);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VKFeatureAccessibilityElement *currentLocation; // @synthesize currentLocation=_currentLocation;

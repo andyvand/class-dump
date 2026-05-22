@@ -60,20 +60,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (struct CGSize);
-- (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id)°!FùñMð1B0@ù
-× ;
+- (void);
+- (id)ViewDelegate;
+- (_Bool)c=¯¢;
 
 // Remaining properties
 @property(nonatomic) _Bool boundsIncludeStroke; // @synthesize boundsIncludeStroke;

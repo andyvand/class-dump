@@ -31,9 +31,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)Configuration"24@0:8@"UIViewController"16 /* Error: Ran out of types for this method. */;
+- (id);
+- (void)Color"32@0:8{?=QQ}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *blueprints; // @synthesize blueprints=_blueprints;

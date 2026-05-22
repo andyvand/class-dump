@@ -44,19 +44,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)tAllowsSelectionDuringEditing:(id)arg1;
-- (_Bool)o icon;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)ationViewRepresentable;
+- (_Bool)Éÿ;
+- (void);
 - (void);
 
 // Remaining properties

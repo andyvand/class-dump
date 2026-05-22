@@ -22,10 +22,10 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
 - (id);
 - (id);
-- (id)ent, %@, error, %@;
+- (void)loudkit.initializeSentinelZone;
+- (id)%@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long SOSState; // @synthesize SOSState=_SOSState;

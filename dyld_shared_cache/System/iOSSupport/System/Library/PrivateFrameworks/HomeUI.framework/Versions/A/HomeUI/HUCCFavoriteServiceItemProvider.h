@@ -20,11 +20,11 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)Ô ;
 - (id);
+- (id);
+- (void)trictedGuestAccess_ContactOwner_Button_Title;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

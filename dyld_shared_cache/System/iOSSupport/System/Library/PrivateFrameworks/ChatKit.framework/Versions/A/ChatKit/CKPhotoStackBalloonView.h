@@ -13,27 +13,27 @@
 {
 }
 
-- (id)itAtIndex:(id)arg1;
-- (void)ctIdentifiers;
-- (void)etTextZoomFactor:(id)arg1;
-- (_Bool)oad;
-- (void)pectsImageOrientation:(id)arg1;
-- (void)curedContentInsets:(id)arg1 immediate:(id)arg2;
-- (void);
 - (id);
-- (id)te:direction:sizes of arrays don't match /* Error: Ran out of types for this method. */;
-- (struct CGRect)melineSectionsForNoteObjectIDs:(id)arg1 dates:referenceDate:direction:sizes of arrays don't match /* Error: Ran out of types for this method. */;
-- (id)ex {objectID:%@, section:%@} /* Error: Ran out of types for this method. */;
-- (void)oved from the folder;
-- (void)the folder;
-- (_Bool)itemIDs:%@, filter:%@, displayDate:%@> /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (struct CGRect);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)ents=dddd}{IMColorComponents=dddd}BqqBBBBB}16B144;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canPresentTapbackPicker;

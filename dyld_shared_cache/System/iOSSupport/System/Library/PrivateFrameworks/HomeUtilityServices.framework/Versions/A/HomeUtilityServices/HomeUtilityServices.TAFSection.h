@@ -12,8 +12,8 @@
     MISSING_TYPE *fields;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

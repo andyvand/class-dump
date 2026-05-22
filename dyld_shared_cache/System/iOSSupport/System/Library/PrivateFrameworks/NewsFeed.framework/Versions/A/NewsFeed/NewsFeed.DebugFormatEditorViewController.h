@@ -18,7 +18,7 @@
     MISSING_TYPE *scrollView;
     MISSING_TYPE *rulerView;
     MISSING_TYPE *$__lazy_storage_$_overlayView;
-    MISSING_TYPE *contentView;
+    MISSING_TYPE *$__lazy_storage_$_contentView;
     MISSING_TYPE *snapshotCanvasView;
     MISSING_TYPE *backgroundView;
     MISSING_TYPE *statusView;
@@ -59,17 +59,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)mplemented;
 - (void);
 - (void);
-- (void)ÅtþÅ¸þ;
+- (void)ÿÿÿÿP;
+- (void)Available;
 - (void);
+- (void);
+- (id)5Ýõ;
+- (void)¼eg:4 /* Error: Ran out of types for this method. */;
+- (void)±¿E´Q@;
 
 @end
 

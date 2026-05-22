@@ -22,13 +22,13 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)lFetcher;
+- (id)lÑêÿQ;
 
 @end
 

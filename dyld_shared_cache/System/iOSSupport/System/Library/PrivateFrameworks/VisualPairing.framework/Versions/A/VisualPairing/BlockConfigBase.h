@@ -4,9 +4,9 @@
 
 class BlockConfigBase {
 public: // (access info unavailable from symbols alone)
-    GetBlockConfPtr(unsigned int);
-    GetNumBlocks();
-    Initialize();
-    resizeBlockConfigArray(unsigned int);
+    auto GetBlockConfPtr(unsigned int);
+    auto GetNumBlocks();
+    auto Initialize();
+    auto resizeBlockConfigArray(unsigned int);
     ~BlockConfigBase();
 };

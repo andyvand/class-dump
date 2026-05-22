@@ -5,25 +5,7 @@
 //
 
 @protocol CKTranscriptCellProtocol
-- (_Bool);
-- (void)EmÕ;
-- (void)or;
-- (void)t:(double)arg1 bufferListNoCopy:deallocator: /* Error: Ran out of types for this method. */;
-- (void)ccounts;
-- (void)achment;
-- (void)g;
-- (void)on;
-- (void)uestCount;
-- (void)cessChangesSelectorDelayer;
-- (void)ntEditingUpdatesCount;
-- (void)aint;
-- (void)tConstraint",&,N,V_minimumHeightConstraint;
-- (void)imageViewTopLayoutConstraint;
-- (_Bool)ulateResultAttachmentView;
-- (_Bool)torage;
-- (double);
-- (void)ypePrevent;
-- (void)FromCardIfNecessaryAndSend: /* Error: Ran out of types for this method. */;
+- (void)õõö;
 
 // Remaining properties
 @property(nonatomic) double associatedItemOffset;

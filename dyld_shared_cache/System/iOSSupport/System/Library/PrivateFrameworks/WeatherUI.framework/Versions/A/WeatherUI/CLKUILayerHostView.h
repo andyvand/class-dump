@@ -13,10 +13,10 @@
 
 - (id);
 - (void);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)HÃÿÿ¤ôûÿü²Ïÿ;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *superviewDelegate; // @synthesize superviewDelegate=_superviewDelegate;

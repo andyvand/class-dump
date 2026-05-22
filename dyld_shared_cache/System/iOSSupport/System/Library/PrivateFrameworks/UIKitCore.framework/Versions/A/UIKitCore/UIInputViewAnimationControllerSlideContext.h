@@ -14,14 +14,13 @@ __attribute__((visibility("hidden")))
     struct CGRect _snapshotEndFrame;
 }
 
-- (struct CGRect)CapableDevice:chat:serviceSession: /* Error: Ran out of types for this method. */;
-- (void)B,V_isUpdatingAttachmentFileSizes;
+- (struct CGRect);
 - (void);
-- (id)nitor requested to handle non-repeating task but was only expected to handle repeating tasks.;
-- (void)1Â°1¢!0@ù
-× ;
-- (void)K÷;
-- (id)contentWrapper;
+- (void);
+- (id);
+- (void);
+- (void)¬ñi;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIInputViewSetPlacement *endPlacement; // @synthesize endPlacement=_endPlacement;

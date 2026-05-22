@@ -4,8 +4,8 @@
 
 class icu::BytesDictionaryMatcher {
 public: // (access info unavailable from symbols alone)
-    getType() const;
-    matches(UText*, int, int, int*, int*, int*, int*) const;
-    transform(int) const;
+    auto getType() const;
+    auto matches(UText*, int, int, int*, int*, int*, int*) const;
+    auto transform(int) const;
     ~BytesDictionaryMatcher();
 };

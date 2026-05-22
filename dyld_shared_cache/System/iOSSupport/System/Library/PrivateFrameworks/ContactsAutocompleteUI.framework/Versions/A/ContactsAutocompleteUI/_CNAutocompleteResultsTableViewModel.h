@@ -18,11 +18,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
+- (void);
+- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfNonEmptySections;

@@ -20,13 +20,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (unsigned short);
-- (void);
-- (void);
 - (id);
 - (_Bool);
-- (void)@?0@"AVAsset"8@"NSString"16@"NSError"24;
+- (void)19IconPreviewProvider_;
 
 // Remaining properties
 @property(nonatomic) unsigned short glyphCharacter;

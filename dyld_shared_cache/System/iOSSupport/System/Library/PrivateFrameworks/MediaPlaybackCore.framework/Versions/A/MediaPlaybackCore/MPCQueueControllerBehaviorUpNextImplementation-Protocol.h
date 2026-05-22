@@ -5,6 +5,5 @@
 //
 
 @protocol MPCQueueControllerBehaviorUpNextImplementation
-- (void)__TEXT;
 @end
 

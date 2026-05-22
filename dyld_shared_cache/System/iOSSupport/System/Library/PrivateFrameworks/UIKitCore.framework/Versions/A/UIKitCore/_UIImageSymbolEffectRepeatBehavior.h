@@ -10,17 +10,18 @@
 }
 
 + (id);
-+ (id)ids:(unsigned long long)arg1 %@;
-+ (id)count is not active, we can not use SMS Relay;
 + (id);
-+ (_Bool)0Lsÿâ;
-- (double)thCompletion:activity: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (_Bool)%@
+;
+- (double);
 - (_Bool);
-- (void)\pipe\mdssvc;
-- (unsigned long long);
-- (_Bool);
-- (id)terTailOfSection:(struct _NSZone *)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
+- (unsigned long long);
+- (_Bool)agOffset;
+- (void)ngCellMarginWidth:(id)arg1;
+- (id)ion;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _hasCustomRepeatBehavior;

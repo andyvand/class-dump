@@ -20,20 +20,20 @@
 - (_Bool);
 - (int);
 - (int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool)ries:%@ stereo pair version:%@ /* Error: Ran out of types for this method. */;
-- (id)ompletion:] /* Error: Ran out of types for this method. */;
-- (void)MHome updateAccessForUser:(id)arg1 camerasAccessLevel:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)ionGroupUUID;
+- (id)UUID;
+- (void)-- turning off the caching support;
 
 // Remaining properties
 @property(nonatomic) _Bool hasSelectionType;

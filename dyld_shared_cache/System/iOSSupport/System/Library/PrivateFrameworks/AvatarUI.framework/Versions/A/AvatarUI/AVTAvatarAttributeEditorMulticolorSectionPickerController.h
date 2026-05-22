@@ -41,13 +41,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
 - (double);
 - (double);
-- (struct CGSize));
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
@@ -59,24 +59,23 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (long long)r;
+- (long long);
+- (id);
+- (void);
+- (void);
 - (id);
 - (struct CGSize);
-- (void), max_size_in_use=%ld(%f), size_allocated=%ld(%f)
-;
-- (void);
 - (id);
 - (void);
 - (long long);
 - (void);
-- (id)?;
+- (void);
 - (long long);
-- (id)\;
-- (void);
-- (void);
 - (id);
-- (id)y;
-- (void)ion without an AVTView with an avatar;
+- (void);
+- (void);
+- (id)ldResizeHeaderForScrolling;
+- (id)OfItemAtPath:(id)arg1 error:(id)arg2;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cachedTitleSizes; // @synthesize cachedTitleSizes=_cachedTitleSizes;

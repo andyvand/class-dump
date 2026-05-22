@@ -47,8 +47,8 @@
 - (CDUnknownBlockType);
 - (long long);
 - (void);
+- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSProgress *actionProgress; // @synthesize actionProgress=_actionProgress;

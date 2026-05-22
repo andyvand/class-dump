@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)String"16@?0@"HMRoom"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *formattersForKey; // @synthesize formattersForKey=_formattersForKey;

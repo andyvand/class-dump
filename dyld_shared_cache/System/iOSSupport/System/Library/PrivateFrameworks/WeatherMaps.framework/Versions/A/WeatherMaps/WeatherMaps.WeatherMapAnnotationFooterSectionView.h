@@ -15,10 +15,10 @@
     MISSING_TYPE *footerLabel;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

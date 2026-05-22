@@ -5,6 +5,5 @@
 //
 
 @protocol BSInvalidatable
-- (void)¯Àn*±nyAHyAHyAF4®nG¾¯nGGGAFGAByAHyu<ÎªnGAHyA68_yAAyAHyl<ÎA81_G_AHyAHyËÀpyAfDG®nGµnyAHyò§ny,°n×¿nGA87_GGGSgtGG-<ÎGGGGAFGºnGA105_GGAZGG_Qo_GtGGtG;
 @end
 

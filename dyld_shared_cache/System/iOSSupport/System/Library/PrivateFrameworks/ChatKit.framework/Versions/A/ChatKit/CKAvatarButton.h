@@ -12,8 +12,8 @@
     CKConversation *_conversation;
 }
 
-- (void)ntinuation;
-- (void)p.circle.badge.checkmark;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -22,12 +22,13 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id)
+× ;
+- (void)11Â0@ù
+× ;
+- (void)dUseTranslucentBars;
 - (void);
-- (void)nge=QQ}24;
-- (id)ô+;
-- (void);
-- (id)é
-1;
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;

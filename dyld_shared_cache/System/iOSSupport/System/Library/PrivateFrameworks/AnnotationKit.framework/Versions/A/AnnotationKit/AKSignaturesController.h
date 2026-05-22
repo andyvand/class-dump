@@ -31,15 +31,15 @@
 - (void);
 - (void);
 - (void);
-- (void)y;
+- (void);
 - (void);
 - (id);
-- (void)A;
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id)apsingEnabled;
-- (void)`;
 
 // Remaining properties
 @property(nonatomic) __weak AKController *controller; // @synthesize controller=_controller;

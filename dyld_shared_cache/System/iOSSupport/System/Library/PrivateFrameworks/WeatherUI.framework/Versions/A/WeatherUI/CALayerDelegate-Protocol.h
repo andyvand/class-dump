@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CALayer;
+@protocol CAAction;
+
 @protocol CALayerDelegate
 
 @optional
-- (void);
-- (void)§ =ÿ;
+- (void)<\GtGGÁìGGGAIGÁìG;
+- (id <CAAction>)R?*:(CALayer *)arg1 R?Ý?R?ER?4KR?×PR?VR?-\R?ÐaR?gR?&mR?ÚrR?}xR? ~R?ÓR?vR?R?ÍR?pR? R?Æ¥R?i«R?±R?®¶R?b¼R?ÂR?¨ÇR?KÍR?tÓR?¡ØR?DÞR?çãR?éR?,ïR?ÏôR?úR?&;
 @end
 

@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @protocol QLPreviewControllerConformingDelegate
-
-@optional
-- (void);
-- (UIView *)v;
 @end
 

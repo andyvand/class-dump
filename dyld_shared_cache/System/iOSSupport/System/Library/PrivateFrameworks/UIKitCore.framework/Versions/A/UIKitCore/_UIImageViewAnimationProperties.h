@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     long long _animationRepeatCount;
 }
 
-- (id);
-- (long long);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void)SpineLocationForInterfaceOrientationAndUpdateStashedViewControllers:(double)arg1;
+- (long long)thogonalScrollingDecelerationRate;
+- (id)indowSceneActivationPrewarmActionResponse;
+- (void)ÿÿÿ;
+- (double)t;
+- (void)rray;
+- (void);
+- (void)$Ò_;
 
 // Remaining properties
 @property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;

@@ -29,13 +29,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)8;
+- (void)KitRepresentation;
+- (void)acteristicRecipe"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *cameraItems; // @synthesize cameraItems=_cameraItems;

@@ -26,9 +26,9 @@
 - (void);
 - (const CDStruct_4cef5b45 *);
 - (void);
-- (void)0e;
 - (id);
-- (long long)storyLoadTimeOut;
+- (long long);
+- (void)roupEvents;
 
 // Remaining properties
 @property(readonly, nonatomic) const CDStruct_4cef5b45 *assetContentInfos; // @synthesize assetContentInfos=_assetContentInfos;

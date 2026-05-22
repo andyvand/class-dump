@@ -15,22 +15,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)ed server change token back so resetting local sync state, and fetching the updates again %@;
-- (_Bool)device on the allowed proxy list? %@ isInProxyMode %@;
-- (void);
-- (void);
-- (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)oð!ðBùÂ1¢!0@ù
-× ;
-- (id)rState:isMini: /* Error: Ran out of types for this method. */;
-- (id)BackgroundStyle:,V__trailingBackgroundStyle /* Error: Ran out of types for this method. */;
-- (id)CustomTextRendering>",?,R,N;
-- (void)e;
 - (id);
-- (id)·n;
+- (id);
+- (_Bool)dioBrightness;
+- (id)2!R;
+- (id)seView;
+- (void){^þÞ;
+- (id)°j;
+- (id)(Rs;
+- (void)¥»Ùèm;
 
 // Remaining properties
 @property(readonly, nonatomic) UIScreen *screen; // @synthesize screen=_screen;

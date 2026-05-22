@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABasicAnimation, CAMediaTimingFunction;
+@class CABasicAnimation, CAMediaTimingFunction, NSString, UIView;
 
 @protocol _UIBasicAnimationFactory
-- (CABasicAnimation *)ìþÿúüÿ´áüÿÏüÿ;
+- (CABasicAnimation *)onLabelLanguage;
 
 @optional
-- (CAMediaTimingFunction *):dropSessionDidExit: /* Error: Ran out of types for this method. */;
-- (CAMediaTimingFunction *)om.mac;
-- (_Bool)@eþ@eþÑ248V;
+- (CAMediaTimingFunction *)classes of _EditScript need to implement appendToScriptAtomIndex:(UIView *)arg1 string:(NSString *)arg2 operation: /* Error: Ran out of types for this method. */;
+- (_Bool);
 @end
 

@@ -18,15 +18,15 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
+- (void);
+- (void);
 - (CDUnknownBlockType);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UIColor *color; // @synthesize color=_color;

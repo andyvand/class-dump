@@ -31,11 +31,11 @@
 - (id);
 - (id);
 - (id);
-- (void)¿LðUÉ;
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)nation};
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionList; // @synthesize actionList=_actionList;

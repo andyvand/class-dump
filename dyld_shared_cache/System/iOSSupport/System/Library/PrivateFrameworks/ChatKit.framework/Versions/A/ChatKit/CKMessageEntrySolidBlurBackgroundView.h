@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)eholder attachment %@ in note:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (long long);
-- (id)k;
-- (void)º¸­yÄæ­yþà­G Ï­yn®GGACG_AByAF:(long long)arg1 q®y$t®yAFÄ®ýÿ7ç­ySayANGANá>yAF_ANQo_GG_xi®Qo_ACGAByAFøp®yAMyAFi®ýÿAOySayAWGAW¥>yAF_AWQo_GG_ATQo_ACGSgAByAcDyAfJGACGAByAcDyADys®yAFGÝ­ySbGGAJGACGtG;
-- (void)8;
+- (id);
+- (void);
+- (void)ÿ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backdropGroupName; // @synthesize backdropGroupName=_backdropGroupName;

@@ -21,7 +21,7 @@
 - (id);
 - (Class);
 - (id);
-- (void);
+- (void)Make ${WFMakeImageFromPDFPageImageFormat} image from ${WFInput} (Parameter Summary);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allowedValueTypes; // @synthesize allowedValueTypes=_allowedValueTypes;

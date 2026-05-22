@@ -4,8 +4,8 @@
 
 class PropertyList::Data {
 public: // (access info unavailable from symbols alone)
-    Data(lsl::Allocator&, std::__1::span<std::byte, 18446744073709551615ul>);
-    deallocate();
-    emit(unsigned char, ByteStream&);
-    operator<=>(PropertyList::Data const&) const;
+    Data(PropertyList&, std::__1::span<std::byte, 18446744073709551615ul>);
+    Data(PropertyList&, unsigned long long);
+    auto emit(unsigned char, ByteStream&);
+    auto operator<=>(PropertyList::Data const&) const;
 };

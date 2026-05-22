@@ -16,10 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)¡¨!`BùÑñ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

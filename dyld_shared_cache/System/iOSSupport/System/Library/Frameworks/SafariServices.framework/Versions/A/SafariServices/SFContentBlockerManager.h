@@ -8,8 +8,8 @@
 {
 }
 
-+ (void)iew;
-+ (void)ionMetadata;
++ (void);
++ (void);
 
 @end
 

@@ -9,14 +9,14 @@
 @interface ContactsUICore.CNContactAvatarContact
 {
     MISSING_TYPE *contact;
+    MISSING_TYPE *avatarStoreCache;
     MISSING_TYPE *canAsyncRender;
     MISSING_TYPE *$__lazy_storage_$_id;
     MISSING_TYPE *$__lazy_storage_$_initials;
     MISSING_TYPE *$__lazy_storage_$_isOrganization;
     MISSING_TYPE *$__lazy_storage_$_imageCropRect;
-    MISSING_TYPE *$__lazy_storage_$_fullImage;
-    MISSING_TYPE *$__lazy_storage_$_thumbnailImage;
-    MISSING_TYPE *$__lazy_storage_$_avatarBirthday;
+    MISSING_TYPE *_fullImageState;
+    MISSING_TYPE *_thumbnailImageState;
 }
 
 @end

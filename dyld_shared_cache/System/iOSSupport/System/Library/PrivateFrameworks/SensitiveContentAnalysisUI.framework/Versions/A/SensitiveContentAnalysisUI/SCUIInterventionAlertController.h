@@ -36,11 +36,11 @@
 - (long long);
 - (void);
 - (long long);
-- (void);
+- (long long);
 - (void);
 - (long long);
-- (id);
-- (long long);
+- (void);
+- (id)ËéGyõèGyèGG_X©Qo__W©Qo__SSä«GyçGyà§GGSg_AKtGAJSgQo__ûªGySay*GGSSALGQo_Sg;
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentScreen; // @synthesize contentScreen=_contentScreen;

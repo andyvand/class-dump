@@ -19,12 +19,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (double);
 - (void);
 - (id);
-- (void)wasDownloaded:(id)arg1;
-- (id)rKeyPath:atTime: /* Error: Ran out of types for this method. */;
-- (double);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *animations; // @synthesize animations=_animations;

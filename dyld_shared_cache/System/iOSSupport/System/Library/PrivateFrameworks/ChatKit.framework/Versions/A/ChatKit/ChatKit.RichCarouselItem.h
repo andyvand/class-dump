@@ -12,11 +12,12 @@
     MISSING_TYPE *actionButtonDelegate;
 }
 
+- (id);
 - (long long);
-- (_Bool)@;
-- (id);
-- (void);
-- (id);
+- (_Bool);
+- (id)1Â0@ù
+× ;
+- (void)HÛ;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

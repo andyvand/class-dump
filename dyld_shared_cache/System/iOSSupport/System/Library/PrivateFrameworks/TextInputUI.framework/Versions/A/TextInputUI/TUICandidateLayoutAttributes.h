@@ -11,15 +11,15 @@
     unsigned long long _row;
 }
 
-- (void)|;
+- (void);
 - (unsigned long long);
 - (void);
 - (double);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long candidateNumber; // @synthesize candidateNumber=_candidateNumber;

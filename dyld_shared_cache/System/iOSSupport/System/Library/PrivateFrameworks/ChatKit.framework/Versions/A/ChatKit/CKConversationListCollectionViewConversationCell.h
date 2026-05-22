@@ -19,33 +19,33 @@
 + (id);
 + (Class);
 + (Class);
-+ (double);
++ (double);
 + (id);
-- (double)LayoutConstraint",W,N,V_disclaimerHeightConstraint;
+- (double);
 - (void);
 - (void);
 - (id);
-- (_Bool)ng;
-- (void)o18CKShareParticipantCSgG;
-- (void)rowC0t;
-- (void)@Iegn_;
+- (_Bool);
 - (void);
 - (void);
-- (struct UIEdgeInsets)rocess drawing changes for %@;
-- (void)Drop document %@;
-- (id);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
 - (void);
 - (id);
 - (void);
-- (_Bool)#;
+- (id);
 - (void);
+- (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)ÍlÍpÎ;
-- (id)ë¬y¿a¬c¬y$/¬y®è¬yê¬ybW¬G_SSACyAG_AGtGQo_=GSg_AGSgtGABG;
-- (void)­yý­y¦ù­yxv®cp­ySay¢\ýÿGSSAAyÿù­yA]ýÿ_ó­Qo_ûW­ym÷­GGGG_[ò­Qo__Qo_÷E­G¹R­yADyAAyÍm­xa­yÞ\ýÿGGGGGÀ_­yA_`ý=SQ12CoreGraphicsyHCg0_GG\ýÿGG_óõ­y_ìõ­y_ýð­yyt=ú­ywü­yAi­G_Qo_GQo_Qo_Qo__SSQo__Qo_GrE­G;
-- (id)/;
-- (id)Thÿ}B4©Ô/;
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _CKCollectionViewTapGestureRecognizer *avatarViewTapGestureRecognizer; // @synthesize avatarViewTapGestureRecognizer=_avatarViewTapGestureRecognizer;

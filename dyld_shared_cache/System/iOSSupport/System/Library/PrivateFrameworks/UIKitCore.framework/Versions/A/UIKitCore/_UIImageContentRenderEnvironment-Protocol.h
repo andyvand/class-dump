@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageSymbolConfiguration, UITraitCollection, _UIImageContentRendition, _UIImageContentRenditionEffects;
+@class UIImageSymbolConfiguration, UITraitCollection;
 
 @protocol _UIImageContentRenderEnvironment
-- (long long);
-- (UIImageSymbolConfiguration *)ù±È°1¢!0@ù
-× ;
-- (_UIImageContentRenditionEffects *);
-- (_UIImageContentRendition *)P¶;
-- (UITraitCollection *)yf4X^oþ;
+- (UIImageSymbolConfiguration *)tStyleTertiaryLabel;
+- (UITraitCollection *);
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection;

@@ -20,17 +20,17 @@
 
 - (void);
 - (void);
-- (double)Identifier: /* Error: Ran out of types for this method. */;
-- (id)gth;
-- (void)RLWithString: /* Error: Ran out of types for this method. */;
-- (void)ast-Modified;
-- (void);
+- (double);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void)V_containerElementIdentifier;
+- (void)onMenu;
 - (id);
-- (void);
-- (id);
-- (void)g15VectorTimestampE;
+- (id)Øä;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *containerView; // @synthesize containerView=_containerView;

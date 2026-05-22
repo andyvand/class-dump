@@ -14,20 +14,20 @@
 }
 
 - (void);
-- (void)s;
+- (void);
 - (id);
-- (id)eFeedInteractor;
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id)1¢!0@ù
+- (void);
+- (id);
+- (void)ÔÕð!Cù1åÐ1Â0@ù
 × ;
-- (void)ICoordinateSpace>",&,N,V_keyboardCoordinateSpace;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;

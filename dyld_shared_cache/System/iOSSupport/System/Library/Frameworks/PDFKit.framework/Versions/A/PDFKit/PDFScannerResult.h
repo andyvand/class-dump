@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (struct __DDHighlight *);
 - (_Bool);
 - (double);
-- (_Bool){CGSize=dd}24@0:(struct CGPoint)arg1 8d16;
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (void)@"NSArray",R,C,N,V_trailingButtonsWithoutReturnKey;
+- (void);
 
 @end
 

@@ -53,7 +53,7 @@
 - (void);
 - (void);
 - (void);
-- (void)#;
+- (void);
 - (void);
 - (struct CGSize);
 - (struct CGSize);
@@ -72,7 +72,7 @@
 - (_Bool);
 - (double);
 - (void);
-- (void)H;
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -81,7 +81,7 @@
 - (void);
 - (id);
 - (double);
-- (void);
+- (void)ylePreset initWithStyleNetwork:index:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long debugDrawMode; // @synthesize debugDrawMode=_debugDrawMode;

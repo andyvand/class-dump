@@ -12,22 +12,22 @@
 
 - (_Bool);
 - (id);
-- (_Bool)ToPeerDevicesForMessageGUID:from service that doesn't support it. File a radar-------*/ /* Error: Ran out of types for this method. */;
-- (id);
+- (_Bool);
+- (long long);
 - (void);
 - (id);
-- (id)X;
-- (id)Reloading [response invalid before -setResponse:(struct _NSZone *)arg1 after adding observer];
 - (id);
 - (id);
-- (void);
-- (_Bool)24@0:8@"UIView<UISegmentProtocol>"16 /* Error: Ran out of types for this method. */;
-- (void)usItem;
-- (_Bool)plicationBundleIdentifier:(id)arg1;
-- (_Bool)ontroller;
-- (id)Ìg¨hi;
-- (_Bool)l;
-- (long long)minimizedTabButton;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id)ageDidRender: /* Error: Ran out of types for this method. */;
+- (void)y;
+- (_Bool)sentationContext;
+- (id)s:(struct _NSZone *)arg1;
+- (void)rdSyntheticTouch;
+- (_Bool)ewControllerAdaptiveImpl setMinimumSecondaryColumnWidth:(id)arg1 ];
+- (id)ÿ/@Øþ_d;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isATVStyle;

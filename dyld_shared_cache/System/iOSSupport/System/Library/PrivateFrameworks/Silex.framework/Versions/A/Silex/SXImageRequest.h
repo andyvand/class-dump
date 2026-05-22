@@ -21,10 +21,10 @@
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
 - (id);
 - (struct CGSize);
+- (id);
+- (void)idationManagerDelegate>";
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

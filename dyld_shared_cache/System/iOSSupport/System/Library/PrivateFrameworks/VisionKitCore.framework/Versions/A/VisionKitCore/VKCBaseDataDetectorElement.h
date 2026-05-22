@@ -32,14 +32,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (_Bool);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double area; // @synthesize area=_area;

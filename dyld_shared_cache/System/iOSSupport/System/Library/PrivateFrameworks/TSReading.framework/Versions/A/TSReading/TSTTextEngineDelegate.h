@@ -16,7 +16,7 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id)L;
+- (id)sController endDynamicOperation];
 
 @end
 

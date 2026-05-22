@@ -28,19 +28,19 @@
 - (void);
 - (void);
 - (void);
-- (void)delC;
 - (void);
-- (id)@;
-- (Class)s;
-- (Class)IndexableText {id:%s, content:%{sensitive}s} /* Error: Ran out of types for this method. */;
-- (unsigned long long)@;
-- (unsigned long long)creating attachment file wrapper:%@ /* Error: Ran out of types for this method. */;
-- (id)Data for attachment:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id);
+- (Class);
+- (Class);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (struct CGSize);
 - (Class);
@@ -48,13 +48,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)=;
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (int);
+- (id);
+- (id);
+- (id)×W;
+- (void)Hð[;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *contactMediaInfo; // @synthesize contactMediaInfo=_contactMediaInfo;

@@ -5,8 +5,5 @@
 //
 
 @protocol AVTAvatarAttributeEditorModelManagerDelegate
-
-@optional
-- (_Bool);
 @end
 

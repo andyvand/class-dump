@@ -22,7 +22,7 @@
 + (struct __IDXIndex *);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -42,9 +42,9 @@
 - (_Bool);
 - (id);
 - (void);
+- (int);
 - (id);
 - (void);
-- (int);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *analysisString; // @synthesize analysisString=_analysisString;

@@ -9,7 +9,7 @@
 @interface SCUIReportVictim
 {
     NSString *_displayName;
-    NSString *_accountID;
+    NSArray *_accountIDs;
     NSString *_emailAddress;
     NSString *_fullName;
     NSString *_appleID;
@@ -24,23 +24,23 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)Ôp ;
-- (id)rA;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *accountID; // @synthesize accountID=_accountID;
+@property(readonly, copy) NSArray *accountIDs; // @synthesize accountIDs=_accountIDs;
 @property(retain) SCUIReportAddress *address; // @synthesize address=_address;
 @property(copy) NSString *appleID; // @synthesize appleID=_appleID;
 @property(copy) NSDate *dateOfBirth; // @synthesize dateOfBirth=_dateOfBirth;

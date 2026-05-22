@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCObservable, NFEventManager, NSDate, NSHashTable, NSString, NUArticleContext, SXScrollViewController, SXVideoPlayerViewControllerManager, UIResponder, UIScrollView;
-@protocol NUANFDebugSettingsProvider, NUArticleDataProvider, NUArticleExperimentationDelegate, NUArticleKeyCommandManager, NUArticleScrollPositionManagerType, NUArticleViewControllerDelegate, NUChromeControl, NUDocumentSectionBlueprintProvider, NUEndOfArticleDataProvider, NULoadingDelegate, NUSpotlightManager, SXAnalyticsReporting;
+@class FCObservable, NFEventManager, NSDate, NSHashTable, NSString, NUArticleContext, NULiveCoverageManager, SXContext, SXScrollViewController, SXVideoPlayerViewControllerManager, UIResponder, UIScrollView;
+@protocol NUANFDebugSettingsProvider, NUArticleDataProvider, NUArticleExperimentationDelegate, NUArticleKeyCommandManager, NUArticleScrollPositionManagerType, NUArticleViewControllerDelegate, NUArticleViewControllerLiveCoverageDelegate, NUChromeControl, NUDocumentSectionBlueprintProvider, NUEndOfArticleDataProvider, NULoadingDelegate, NUSpotlightManager, SXAnalyticsReporting;
 
 @interface NUArticleViewController
 {
     _Bool _articleIsPresentingFullscreen;
-    _Bool _didRestoreScrollPosition;
     _Bool _shouldAutoPlayVideo;
     id <NULoadingDelegate> _loadingDelegate;
     NSString *_contentSizeCategory;
@@ -21,6 +20,7 @@
     UIScrollView *_scrollView;
     NUArticleContext *_articleContext;
     id <NUArticleExperimentationDelegate> _experimentationDelegate;
+    id <NUArticleViewControllerLiveCoverageDelegate> _liveCoverageDelegate;
     SXScrollViewController *_scrollViewController;
     id <NUArticleDataProvider> _articleDataProvider;
     id <NUEndOfArticleDataProvider> _endOfArticleDataProvider;
@@ -36,6 +36,8 @@
     id <NUSpotlightManager> _spotlightManager;
     id <NUChromeControl> _chromeControl;
     double _articleLoadedTime;
+    NULiveCoverageManager *_liveCoverageManager;
+    SXContext *_latestLiveCoverageContext;
 }
 
 + (id);
@@ -44,9 +46,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (double);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -59,15 +63,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -76,12 +85,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -100,44 +108,46 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void)@?>32;
-- (void);
-- (void);
-- (void)`;
-- (void);
 - (long long);
 - (id);
-- (long long);
-- (_Bool);
-- (_Bool)ts;
 - (void);
-- (_Bool);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)y>";
-- (void)o;
+- (void);
+- (long long)emaphore;
+- (void);
+- (id)Ä?ZZZZZZÚ?Õ?vvvvvvæ?xxxxxxè?Ø?üûûûûûë?×?è?á??·¶¶¶¶¶æ?yyyyyyé?Þ?Ã?RRRRRRÒ?;
 
 // Remaining properties
 @property(nonatomic) __weak id <SXAnalyticsReporting> analyticsReporting; // @synthesize analyticsReporting=_analyticsReporting;
@@ -157,13 +167,15 @@
 @property(readonly, nonatomic) id <NUANFDebugSettingsProvider> debugSettingsProvider; // @synthesize debugSettingsProvider=_debugSettingsProvider;
 @property(nonatomic) __weak id <NUArticleViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didRestoreScrollPosition; // @synthesize didRestoreScrollPosition=_didRestoreScrollPosition;
 @property(readonly, nonatomic) id <NUDocumentSectionBlueprintProvider> documentSectionBlueprintProvider; // @synthesize documentSectionBlueprintProvider=_documentSectionBlueprintProvider;
 @property(readonly, nonatomic) id <NUEndOfArticleDataProvider> endOfArticleDataProvider; // @synthesize endOfArticleDataProvider=_endOfArticleDataProvider;
 @property(readonly, nonatomic) NFEventManager *eventManager; // @synthesize eventManager=_eventManager;
 @property(nonatomic) __weak id <NUArticleExperimentationDelegate> experimentationDelegate; // @synthesize experimentationDelegate=_experimentationDelegate;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <NUArticleKeyCommandManager> keyCommandManager; // @synthesize keyCommandManager=_keyCommandManager;
+@property(retain, nonatomic) SXContext *latestLiveCoverageContext; // @synthesize latestLiveCoverageContext=_latestLiveCoverageContext;
+@property(nonatomic) __weak id <NUArticleViewControllerLiveCoverageDelegate> liveCoverageDelegate; // @synthesize liveCoverageDelegate=_liveCoverageDelegate;
+@property(readonly, nonatomic) NULiveCoverageManager *liveCoverageManager; // @synthesize liveCoverageManager=_liveCoverageManager;
 @property(nonatomic) __weak id <NULoadingDelegate> loadingDelegate; // @synthesize loadingDelegate=_loadingDelegate;
 @property(readonly, nonatomic) NSHashTable *loadingListeners; // @synthesize loadingListeners=_loadingListeners;
 @property(retain, nonatomic) NSDate *manualScrollingStartDate; // @synthesize manualScrollingStartDate=_manualScrollingStartDate;

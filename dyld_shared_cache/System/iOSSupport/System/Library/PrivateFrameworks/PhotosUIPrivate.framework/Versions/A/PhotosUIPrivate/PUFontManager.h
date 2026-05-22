@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)dRegimeInvalidation;
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *albumListSectionTitleLabelFont; // @synthesize albumListSectionTitleLabelFont=_albumListSectionTitleLabelFont;

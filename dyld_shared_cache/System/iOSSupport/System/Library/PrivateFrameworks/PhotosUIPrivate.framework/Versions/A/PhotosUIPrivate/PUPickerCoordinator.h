@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PUPhotoPickerResizeTaskDescriptorViewModel, PUPhotosGridDownloadHelper, PUPickerActivityProgressController, PUPickerAdditionalSelectionState, PUPickerConfiguration, PUPickerManagedViewController, PXLoadingStatusManager, PXSelectionCoordinator, UIViewController;
+@class NSMutableDictionary, NSString, PUPhotoPickerResizeTaskDescriptorViewModel, PUPhotosGridDownloadHelper, PUPickerActivityProgressController, PUPickerAdditionalSelectionState, PUPickerConfiguration, PUPickerManagedViewController, PUPickerSelectionCoordinator, PXLoadingStatusManager, UIViewController;
 @protocol PUPhotoPicker, PUPickerCoordinatorActionHandler;
 
 @interface PUPickerCoordinator
@@ -16,7 +16,7 @@
     CDUnknownBlockType _selectionDidChangeObserver;
     PUPickerManagedViewController *_managedViewController;
     id <PUPickerCoordinatorActionHandler> _coordinatorActionHandler;
-    PXSelectionCoordinator *_selectionCoordinator;
+    PUPickerSelectionCoordinator *_selectionCoordinator;
     PUPickerAdditionalSelectionState *_additionalSelectionState;
     NSMutableDictionary *_activityIndicatorTrackingIDs;
     PUPhotosGridDownloadHelper *_downloadHelper;
@@ -27,7 +27,6 @@
 
 + (_Bool);
 + (_Bool);
-+ (void);
 + (_Bool);
 + (_Bool);
 + (void);
@@ -103,11 +102,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool);
-- (id)nvalidatingBarButtonItem: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void)SData"16@?<v@?@"NSNumber">24;
+- (void)portanceOrder:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ferredHeight;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *activityIndicatorTrackingIDs; // @synthesize activityIndicatorTrackingIDs=_activityIndicatorTrackingIDs;
@@ -129,7 +128,7 @@
 @property(readonly, nonatomic) __weak id <PUPhotoPicker> photoPicker; // @synthesize photoPicker=_photoPicker;
 @property(readonly, nonatomic) PUPickerActivityProgressController *progressController; // @synthesize progressController=_progressController;
 @property(readonly, nonatomic) PUPhotoPickerResizeTaskDescriptorViewModel *resizeTaskDescriptorViewModel; // @synthesize resizeTaskDescriptorViewModel=_resizeTaskDescriptorViewModel;
-@property(readonly, nonatomic) PXSelectionCoordinator *selectionCoordinator; // @synthesize selectionCoordinator=_selectionCoordinator;
+@property(readonly, nonatomic) PUPickerSelectionCoordinator *selectionCoordinator; // @synthesize selectionCoordinator=_selectionCoordinator;
 @property(nonatomic) _Bool selectionDidChange; // @synthesize selectionDidChange=_selectionDidChange;
 @property(copy, nonatomic) CDUnknownBlockType selectionDidChangeObserver; // @synthesize selectionDidChangeObserver=_selectionDidChangeObserver;
 @property(readonly) Class superclass;

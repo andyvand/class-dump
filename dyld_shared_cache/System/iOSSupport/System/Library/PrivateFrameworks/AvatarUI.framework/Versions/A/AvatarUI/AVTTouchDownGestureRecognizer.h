@@ -17,14 +17,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)ropLayerGraphFlavor;
-- (id)d, mask:0x%lx, bid:%s /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (id);
-- (void)é;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsTouchesToPassThrough; // @synthesize allowsTouchesToPassThrough=_allowsTouchesToPassThrough;

@@ -12,10 +12,10 @@
     MISSING_TYPE *switchControl;
 }
 
-- (void)Ku<;
-- (id);
-- (id)oringConfig;
 - (void);
+- (id);
+- (id);
+- (void)8þÿmÿÿ;
 
 @end
 

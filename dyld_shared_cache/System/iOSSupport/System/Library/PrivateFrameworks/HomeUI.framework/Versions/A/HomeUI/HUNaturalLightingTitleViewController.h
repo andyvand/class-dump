@@ -26,12 +26,12 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)× ;
-- (id)@0:8@"UITextView"16@"NSURL"24{_NSRange=QQ}32q48 /* Error: Ran out of types for this method. */;
-- (void)etSoftwareUpdateBannerView:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -76,13 +76,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -90,11 +85,16 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)pplicationStateChangeNotification;
-- (id)"NSData",R,N;
+- (void)üÀ;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *activityImageView; // @synthesize activityImageView=_activityImageView;

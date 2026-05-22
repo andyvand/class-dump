@@ -22,23 +22,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (double)JEA==
------END CERTIFICATE-----;
-- (double)Tj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
-- (double)XhG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
-- (double)4P4fC/KEfC70G/LVXzCTii+vEE6WTz8XhG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
+- (double);
+- (double);
+- (double);
+- (double);
 - (void);
-- (void)i,;
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,8 +45,8 @@ oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
 - (double);
 - (double);
 - (double);
-- (double)onBundleID;
-- (void)uspendedSSIDs;
+- (double);
+- (void)elete;
 
 // Remaining properties
 @property(nonatomic) double inlineBottomInset; // @synthesize inlineBottomInset=_inlineBottomInset;

@@ -17,9 +17,9 @@
 - (void);
 - (id);
 - (id);
-- (void)A;
 - (void);
 - (id);
+- (void)ÿêÄìÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *conversationListSIMShortNameDictionary; // @synthesize conversationListSIMShortNameDictionary=_conversationListSIMShortNameDictionary;

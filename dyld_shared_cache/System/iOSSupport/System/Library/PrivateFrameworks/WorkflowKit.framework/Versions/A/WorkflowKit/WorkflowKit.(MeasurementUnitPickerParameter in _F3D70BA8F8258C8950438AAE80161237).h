@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)to the specified files.;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *possibleStates;

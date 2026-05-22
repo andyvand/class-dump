@@ -23,13 +23,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)101b0@ù
-× ;
+- (void)nView:(_Bool)arg1 dropPreviewParametersForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)iewDelegate>",W,N,V_delegate;
+- (void)HUServiceDetailsCameraSettingsReaderWriterConfigurator;
+- (void)omationMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) UIVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;

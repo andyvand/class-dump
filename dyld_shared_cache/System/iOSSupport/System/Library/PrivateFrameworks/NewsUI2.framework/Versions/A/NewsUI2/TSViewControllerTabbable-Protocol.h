@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITabBarController;
-
 @protocol TSViewControllerTabbable
-- (void)eCallback read BT profile plist valid:(UITabBarController *)arg1 %d mask:%d
- /* Error: Ran out of types for this method. */;
 @end
 

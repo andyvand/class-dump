@@ -13,19 +13,19 @@
     TSUReadWriteQueue *mReadWriteQueue;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)uperview;
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) TSUReadWriteQueue *readWriteQueue; // @synthesize readWriteQueue=mReadWriteQueue;

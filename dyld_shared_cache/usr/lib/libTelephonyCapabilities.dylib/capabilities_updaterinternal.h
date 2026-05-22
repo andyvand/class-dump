@@ -4,8 +4,10 @@
 
 class capabilities::updaterinternal {
 public: // (access info unavailable from symbols alone)
-    dynamicICENVMFSizeBytes();
-    dynamicICENVMFSizeBytes()::ret;
-    supportsAudioOverPCIe();
-    supportsAudioOverPCIe()::ret;
+    auto dynamicICENVMFSizeBytes();
+    auto dynamicICENVMFSizeBytes()::ret;
+    auto supportsAudioOverPCIe();
+    auto supportsAudioOverPCIe()::ret;
+    guard variable for dynamicICENVMFSizeBytes()::ret;
+    guard variable for supportsAudioOverPCIe()::ret;
 };

@@ -23,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)_isDeferredProcessingDoneAndFinalImageDisplayedChanged;
+- (id)áÜx;
 
 // Remaining properties
 @property(nonatomic, retain) NSNumber *downscalingTargetDimension;

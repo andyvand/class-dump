@@ -12,9 +12,9 @@
     MISSING_TYPE *options;
 }
 
+- (id);
 - (void);
-- (void);
-- (id)sForViewHierarchy:forFontSize: /* Error: Ran out of types for this method. */;
+- (void)iüÿ<iüÿiüÿ iüÿ¸iüÿøiüÿ<jüÿjüÿ;
 
 @end
 

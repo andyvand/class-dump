@@ -5,7 +5,6 @@
 //
 
 @protocol SXPresentationEnvironmentOverriding
-- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets overrideSafeAreaInsets;

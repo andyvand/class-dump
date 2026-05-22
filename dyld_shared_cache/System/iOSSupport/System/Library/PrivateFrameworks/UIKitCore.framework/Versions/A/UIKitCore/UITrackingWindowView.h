@@ -18,27 +18,31 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)nable to get initial attributes for expanding item at index path %@;
-- (void)J;
-- (void)onPaths:(struct CGRect)arg1;
-- (struct CGRect);
-- (id)L;
++ (_Bool)Â0@ù
+× ;
 - (void);
-- (struct CGPoint)A;
-- (void);
 - (void);
-- (void)dedInteraction"16@"<UISpringLoadedInteractionContext>"24;
-- (_Bool)transitionDidEnd:popoverIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)ngApplication;
-- (void)buttedBackground;
-- (void)lObservationInteraction;
-- (id)en cell to setup animations;
-- (void)ibuteName;
+- (struct CGPoint);
 - (id);
-- (void)¨©Bÿ;
 - (void);
+- (_Bool)!Bùf1Â0@ù
+× ;
+- (_Bool)@0:8Q16 /* Error: Ran out of types for this method. */;
+- (id)setKeyCode:(struct CGRect)arg1 ,V_keyCode;
+- (struct CGRect)owVerticalOffset;
+- (void)¹;
+- (void)(UlWìW;
+- (void);
+- (void)onGroups={
+	%@
+};
 - (id);
-- (void)Ìû;
+- (void)itViewController internal inconsistency:(struct CGRect)arg1 expected new layout for transition;
+- (void)/Ò~^;
+- (void)`Øx`;
+- (id)Jf;
+- (void)ÿsÓyg;
+- (void)¿;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

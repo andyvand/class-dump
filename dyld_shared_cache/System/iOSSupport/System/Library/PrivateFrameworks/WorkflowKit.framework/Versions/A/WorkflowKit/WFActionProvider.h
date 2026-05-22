@@ -4,28 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INStringLocalizer, NSDictionary, NSString, WFActionDefinition;
+@class INStringLocalizer, NSDictionary, WFActionDefinition;
 @protocol WFActionProviderDelegate;
 
 @interface WFActionProvider
 {
-    NSString *_providerName;
     id <WFActionProviderDelegate> _delegate;
     INStringLocalizer *_stringLocalizer;
 }
 
 - (void);
-- (id)myl«Pï?m¬Ö0%EÉ;
-- (id)ðÌ;
-- (id);
-- (id)ÐýÌ;
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)"24@0:(id)arg1 8@"WFParameter"16;
+- (id);
+- (id);
+- (void);
+- (void).;
 
 // Remaining properties
 @property(readonly, nonatomic) WFActionDefinition *defaultActionDefinition;

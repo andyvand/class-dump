@@ -46,8 +46,8 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)Ä;
-+ (id)õ½ðÿ»ïÿRrþ;
++ (_Bool);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -86,20 +86,20 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (double);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool);
+- (id);
 - (void);
 - (struct CGVector);
-- (id);
-- (double):string, std::__hash_value_type<std::string, SKTexture *>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, SKTexture *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, SKTexture *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, SKTexture *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, SKTexture *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, SKTexture *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)ptureData:(struct CGVector)arg1;
 - (void);
+- (double);
+- (void);
+- (id);
+- (void);
+- (void)tureFromNode: /* Error: Ran out of types for this method. */;
+- (id);
+- (double);
+- (_Bool);
+- (void)ptr_pointerIP12jet_constantNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
 
 // Remaining properties
 @property(nonatomic) _Bool affectedByGravity; // @synthesize affectedByGravity=_affectedByGravity;

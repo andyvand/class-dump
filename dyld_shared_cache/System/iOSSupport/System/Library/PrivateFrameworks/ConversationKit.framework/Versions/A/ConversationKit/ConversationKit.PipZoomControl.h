@@ -22,8 +22,8 @@
 }
 
 + (_Bool);
-- (void);
 - (id);
+- (void)_pSgXw;
 
 @end
 

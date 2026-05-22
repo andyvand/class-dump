@@ -18,9 +18,9 @@
 + (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void)Cêÿ4CêÿLCêÿdCêÿ|CêÿäCêÿîæÿ¬îæÿäîæÿïæÿ<ïæÿïæÿÔDêÿEêÿ<EêÿpEêÿÀFêÿäFêÿ GêÿJêÿJêÿ¨JêÿôJêÿ@KêÿøLêÿDMêÿMêÿ0îæÿXîæÿîæÿÀîæÿèîæÿ0ïæÿOêÿ@Oêÿ|Oêÿ Oêÿ¸OêÿÐOêÿPêÿ;
+- (id)m;
+- (void)n;
+- (void)<$ÿýOÇ8$ÿýOÇ8$ÿPÇÜ½oÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;

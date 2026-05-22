@@ -10,9 +10,9 @@
 {
 }
 
-+ (id)was determined to be %@;
-+ (id)Scheduling a routing check with interval:(CDUnknownBlockType)arg1 %f;
-- (void)j;
++ (id);
++ (id);
+- (void);
 
 @end
 

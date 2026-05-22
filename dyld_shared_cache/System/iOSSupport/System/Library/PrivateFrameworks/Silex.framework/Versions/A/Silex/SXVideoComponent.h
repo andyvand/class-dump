@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id);
 - (double);
 - (_Bool);
 - (unsigned long long);

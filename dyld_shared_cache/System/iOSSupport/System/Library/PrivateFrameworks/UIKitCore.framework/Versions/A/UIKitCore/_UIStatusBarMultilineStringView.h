@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)channelMap;
+- (id);
 - (void);
+- (id)eLayers;
+- (id)adding child view controller;
+- (id)BarsOnSwipe;
 - (void);
-- (long long)AllowFindMyFriendsModification:withAllowPhotoStream:withAllowSharedStream:withAllowCloudPhotoLibrary:withAllowCloudBookmarks:withAllowCloudMail:withAllowCloudCalendar:withAllowCloudReminders:withAllowCloudAddressBook:withAllowCloudNotes:withAllowCloudDesktopAndDocuments:withAllowCloudKeychainSync: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)setAvoidsKeyboardDisabled: /* Error: Ran out of types for this method. */;
-- (id)block while processing current response blocks;
-- (void)];
-- (id)à¡©ÿcÚÄÛ`;
+- (void)LR0;
+- (long long);
+- (void)ï¡ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

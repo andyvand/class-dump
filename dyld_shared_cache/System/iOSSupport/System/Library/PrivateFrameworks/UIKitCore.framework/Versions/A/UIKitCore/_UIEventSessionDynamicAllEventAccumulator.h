@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (void);
-- (void)UIReplicantLayer;
 - (id);
-- (void)etButtonLuminanceMap;
+- (void);
+- (void)lement scene masking.;
+- (void)ÐZ\;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIEventSessionDynamicAccumulatorDelegate> delegate; // @synthesize delegate=_delegate;

@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSTextAttachment *_attachment;
 }
 
-+ (id)ceipt;
++ (id);
 - (void);
-- (void)Result;
+- (void);
 - (id);
-- (void);
+- (void)ç¿7G;
 
 // Remaining properties
 @property(retain, nonatomic) NSTextAttachment *attachment; // @synthesize attachment=_attachment;

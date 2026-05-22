@@ -5,6 +5,5 @@
 //
 
 @protocol HFTemperatureUnitObserver
-- (void)ø$;
 @end
 

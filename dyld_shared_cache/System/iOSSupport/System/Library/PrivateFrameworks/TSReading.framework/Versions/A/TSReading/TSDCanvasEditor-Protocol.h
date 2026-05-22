@@ -8,14 +8,7 @@
 @protocol TSDCanvasSelection;
 
 @protocol TSDCanvasEditor
-- (void);
-- (unsigned long long)q);
-- (void);
-- (_Bool)!;
-- (_Bool);
-- (_Bool)=H;
-- (void)nt bounds;
-- (void)ü;
+- (void)&) const;
 
 // Remaining properties
 @property(readonly, nonatomic) TSDCanvasEditorHelper *canvasEditorHelper;

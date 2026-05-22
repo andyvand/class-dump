@@ -20,27 +20,29 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)essageSyncController;
+- (void);
 - (struct CGPoint);
-- (void)we expected; aligning with the server's data;
-- (float)ssages to be lost.;
-- (unsigned char)r disk is almost full. This may cause incoming messages to be lost.;
-- (unsigned char)geData;
+- (void);
+- (float);
+- (unsigned char);
+- (unsigned char);
 - (id);
-- (void);
+- (void);
 - (void);
 - (struct CGPoint);
-- (void);
-- (struct CGPoint);
-- (double)P;
-- (void)1Á°1¢!0@ù
+- (long long);
+- (double)ÁÿÐ!8CùÑX1Â0@ù
 × ;
-- (unsigned long long);
-- (void)ìa;
-- (void);
-- (struct CGPoint)0Dhþz©Úg;
-- (long long)h;
-- (id)"Óh;
+- (id)
+× ;
+- (struct CGPoint)ÑaÐ1Â0@ù
+× ;
+- (struct CGPoint)derBurnColor;
+- (void)thBuilder:(long long)arg1 appDidCustomizeMenu: /* Error: Ran out of types for this method. */;
+- (void)elFlags;
+- (void)ter;
+- (unsigned long long)nvironment;
+- (void)`²e;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char _pathIdentity; // @synthesize _pathIdentity;

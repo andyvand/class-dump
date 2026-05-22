@@ -11,15 +11,14 @@
     MISSING_TYPE *_underlyingMaterial;
 }
 
-- (void)rable = %@; isFromMe = %@; expireState = %lld;
-- (_Bool)completion block is invalid;
+- (void);
+- (_Bool);
 - (id);
-- (_Bool)lerDataSourceDelegate>";
-- (void)1¢!0@ù
-× ;
-- (void)ct={CGPoint=dd}{CGSize=dd}}32@0:(_Bool)arg1 8@"_UIViewControllerTransitionConductor"16@"UIViewController"24;
-- (id)UILayoutGuide",R,N,V_backButtonGuide;
-- (_Bool)Â9ÿ;
+- (void);
+- (id);
+- (_Bool)ate;
+- (_Bool)alytics] didDeleteBackwardText:called with nil text /* Error: Ran out of types for this method. */;
+- (void)ì^ÿ´!Ï¨$l;
 
 // Remaining properties
 @property(nonatomic) _Bool foreground;

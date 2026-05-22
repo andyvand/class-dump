@@ -51,8 +51,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

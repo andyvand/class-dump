@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)lb6;
 - (_Bool);
 - (_Bool);
 - (_Bool);

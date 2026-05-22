@@ -15,10 +15,10 @@
     MISSING_TYPE *slideTransition;
 }
 
-- (void);
+- (double);
 - (id);
-- (void)9;
-- (double)(½ÿQ|Ã¬8;
+- (void);
+- (void);
 
 @end
 

@@ -38,73 +38,74 @@
 }
 
 - (void);
-- (float);
-- (float);
-- (_Bool);
-- (void);
-- (id)_button;
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (id);
+- (void);
+- (_Bool);
 - (id);
-- (_Bool)ToCacheStoragePolicy;
-- (id)orWithLibraryItemProperty: /* Error: Ran out of types for this method. */;
-- (id)fierSetsForParentIdentifierSet:parentVersionHash:childKey: /* Error: Ran out of types for this method. */;
-- (void)(;
-- (float)onds;
-- (void);
-- (void);
-- (void);
-- (_Bool)`;
-- (void);
-- (void);
-- (void)!0@ù
-× ;
-- (float)!FùÆÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)er";
-- (_Bool)dMoveToWindow: /* Error: Ran out of types for this method. */;
-- (void)UrlChangeObserver:(id)arg1;
-- (id)orSaturateFilter: /* Error: Ran out of types for this method. */;
-- (_Bool)aracterRange:changeInLength:actualCharacterRange: /* Error: Ran out of types for this method. */;
-- (id)ts;
-- (_Bool)postInputResponderCapabilitiesChangedNotificationWithOutput:selectionChanged: /* Error: Ran out of types for this method. */;
-- (_Bool)onderViewKind;
-- (void)eyWindowForWindowMadeKey:(id)arg1 consideringVisibility:findingNewKeyWindowIfNeeded:ignoringOldKeyWindow:forReason: /* Error: Ran out of types for this method. */;
-- (void)ForChangesFromTraitCollection:(float)arg1;
-- (id)nerForActiveKeys;
-- (void)esMatchingAnimation:(_Bool)arg1 forLayer:wasReused: /* Error: Ran out of types for this method. */;
-- (_Bool)ctionOnDimmingViewTap;
-- (void)ximumMenuHeight;
-- (void),N,V_pressed;
-- (void),C,N,V_resetAfterSearchFieldFade;
-- (_Bool)SMutableSet",R,N,V_definitiveRules;
-- (_Bool),N,V_pinnedSupplementaryIndexes;
-- (void),2;
-- (void);
-- (_Bool)ÿ;
-- (_Bool);
-- (void)ySSæì;
-- (void)eWordEnabled;
-- (id)t={CGPoint=dd}{CGSize=dd}}8;
-- (void)te = %@;
-- (void)40jeþ;
-- (id)WÜ;
-- (_Bool)Da;
-- (void)É×Ñ¨b;
-- (_Bool)¿c;
-- (_Bool)c;
-- (float)0ÊþÙCd;
-- (void)êÿ;
-- (float)þ;
 - (_Bool);
-- (_Bool)Êÿ;
-- (_Bool)ÞÎh;
+- (void);
+- (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (float);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool)
+× ;
+- (float)ñ^ð1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)Ô ;
+- (id)ð! AùÑg°1Â0@ù
+× ;
+- (void)oint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{?=dd}{?=b1b1b1b1b1b1}}48@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
+- (id)ApplicationSceneDeactivationManager";
+- (void)ressesCallbacksForLegacyBehavior;
+- (id)etButtonMinimumDistanceFromEdge:(unsigned long long)arg1;
+- (id)edTopView;
+- (void)iewController;
+- (_Bool)llFrame:withEmptyKeyNamed:inKeyplane:withTransformationContext: /* Error: Ran out of types for this method. */;
+- (void)Delegate;
+- (void)ate:(id)arg1;
+- (_Bool)n:,V_contextIDForChosenSuggestion /* Error: Ran out of types for this method. */;
+- (id)r;
+- (void)onDelegate;
+- (id)ectionLayoutSupplementaryEnrollment;
+- (float);
+- (float)9t´$;
+- (_Bool)nitialized to:%@ /* Error: Ran out of types for this method. */;
+- (void)t static transition with invalid fromState. State (@lu) is out of range for the initialized stateCount (%lu);
+- (void)?0@"UICalendarViewDecoration"8;
+- (id):(unsigned long long)arg1 %ld
+;
+- (_Bool)ntroller and UINavigationController at this time. self = %@;
+- (_Bool)ew.;
+- (float)iled to get the associated auxillary definition for this query result.;
+- (_Bool)SDictionary"8@"UITraitCollection"16B24;
+- (void);
+- (void)?;
+- (void)[;
+- (_Bool)`;
+- (_Bool)±¿;
+- (void)x8~ÿì;
+- (_Bool)TÄÕÿðôÚÐc;
+- (_Bool)XÜþð.Êe;
+- (_Bool)r;
+- (void)1ìÿ;
+- (void)LMèÿ¢ÚFg;
+- (void);
+- (void)ñ;
+- (float)³h;
 
 // Remaining properties
 @property(nonatomic, getter=isContinuous) _Bool continuous; // @synthesize continuous=_continuous;

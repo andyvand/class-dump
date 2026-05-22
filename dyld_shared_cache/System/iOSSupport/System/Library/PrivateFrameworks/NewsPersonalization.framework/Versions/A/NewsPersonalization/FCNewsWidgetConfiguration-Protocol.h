@@ -7,16 +7,18 @@
 @class NSString;
 
 @protocol FCNewsWidgetConfiguration
-- (NSString *)L;
 
 @optional
+- (long long)0@ù
+× ;
+- (long long);
+- (long long)e;
+- (long long)Y;
+- (long long)So42FCNewsPersonalizationTrainingConfigurationC;
 - (_Bool);
-- (long long);
-- (long long)ÏþÿôÏþÿ,ÐþÿdÐþÿÐþÿÔÐþÿìÐþÿÑþÿ4ÑþÿlÑþÿÌÑþÿÒþÿLÒþÿÒþÿÄÒþÿüÒþÿÓþÿ|Óþÿ ÓþÿÄÓþÿðÓþÿDÕþÿÕþÿÈÕþÿ Öþÿ`Öþÿ ÖþÿøÖþÿ8×þÿP×þÿh×þÿ×þÿ¸×þÿð×þÿØþÿ@ØþÿØþÿÔØþÿÙþÿ$ÙþÿhÙþÿ ÙþÿÄÙþÿèÙþÿÚþÿ@ÚþÿXÚþÿ¨ÚþÿÔÚþÿÛþÿ0ÛþÿTÛþÿÛþÿ°ÛþÿèÛþÿ ÜþÿlÜþÿÜþÿ°ÜþÿÐÜþÿôÜþÿÝþÿ8ÝþÿxÝþÿÝþÿÀÝþÿøÝþÿ<Þþÿ`ÞþÿØþÿ0þÿ´þÿþÿ´þÿhþÿÜþÿþÿþÿpþÿ`þÿ¸þÿäþÿ¬þÿÈþÿÔþÿDþÿþÿþÿ;
-- (long long)ÿÿþÿÿ;
-- (long long)agUnfollowed;
-- (long long)¡L|·>;
-- (long long)}æÿ;
+- (long long)s":1,"maxPublisherOccurrences":2},"maxNumberOfItems":24,"minNumberOfItems":12},"generalTopicClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":24,"minNumberOfItems":12},"hardPaywallBundleArticleLimit":15,"orphanedClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":30},{"selector":"platform-pad","value":30}],"value":12},"minNumberOfItems":15}}} /* Error: Ran out of types for this method. */;
+- (long long)Event;
+- (long long)aðÄ¶;
 
 // Remaining properties
 @property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;

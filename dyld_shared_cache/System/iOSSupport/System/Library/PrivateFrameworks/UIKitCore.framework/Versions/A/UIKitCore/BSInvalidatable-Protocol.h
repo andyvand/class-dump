@@ -5,6 +5,5 @@
 //
 
 @protocol BSInvalidatable
-- (void)xÙ[;
 @end
 

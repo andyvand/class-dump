@@ -46,7 +46,7 @@
 - (double);
 - (id);
 - (double);
-- (void);
+- (void)hortcutPickerAppAvailabilityChecker;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long appIconFormat;

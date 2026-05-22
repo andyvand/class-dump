@@ -16,17 +16,16 @@
 
 - (void);
 - (void);
-- (void)Folder;
-- (id);
-- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)1¢!0@ù
-× ;
-- (id)Ü;
+- (id);
+- (id);
+- (void)ð ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *balloonColor;

@@ -9,10 +9,6 @@
 
 @protocol UIFocusEnvironment
 
-@optional
-- (UIView *)QG°1b0@ù
-× ;
-
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
 // Preceding property had unknown attributes: ?

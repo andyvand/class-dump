@@ -15,40 +15,41 @@
 }
 
 + (id);
-+ (id)e;
++ (id);
 + (Class);
-- (void)es:(id)arg1 filterAttributes:pasteboardAttributedString: /* Error: Ran out of types for this method. */;
-- (void)erenceDate:(id)arg1 title:sortOrder: /* Error: Ran out of types for this method. */;
-- (void)hmentInsertionController:(id)arg1 willAddAttachment:atRange: /* Error: Ran out of types for this method. */;
-- (void)dAddInlineAttachment:(id)arg1 atRange:textStorage: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 didAddAttachment:(id)arg2 atRange: /* Error: Ran out of types for this method. */;
-- (void)oCoalescingForWritingTools;
-- (id);
-- (id);
 - (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void)ÇÐ1¢!0@ù
+- (void);
+- (id);
+- (void);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)lBùqÐ1Â0@ù
 × ;
+- (void)üð!Gù11Â0@ù
+× ;
+- (id)ion: /* Error: Ran out of types for this method. */;
+- (void)ntifier was nil for media object. mediaObject:(id)arg1 %@;
+- (void);
+- (void);
 - (id);
-- (long long)Dºüÿq£þÿæ´úÿ&ýÿàýÿ;
-- (void)onboarding from presentingVC:(id)arg1 %@, onboardingNavigationController:(id)arg2 %@;
-- (void)PropertyListCreateFromXMLData;
-- (void)nstraint;
-- (void)down;
-- (void)HOTO_AND_NAME;
-- (id)¸¾ïKÿ	¸¾tîKÿ!¸¾èÄÿ;
-- (id);
-- (void)¤ÿ£5(-;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HFDiscoveredAccessory, HFSetupAccessoryResult, HFSetupPairingContext, HMAccessorySetupCompletedInfo, HMHome, NAFuture, NSSet, NSString;
+@class HFDiscoveredAccessory, HFSetupAccessoryResult, HFSetupPairingContext, HMAccessorySetupCompletedInfo, HMHome, NSSet, NSString;
 
 @protocol HFSetupPairingController
-- (NAFuture *);
-- (unsigned long long)e migration on service %@ due to error %@;
-- (NSString *)FServiceBuilder.updateIcon;
-- (NSSet *)s;
+- (NSString *)etting %@ failed - invalid private settings, returning default value %@;
+- (NSSet *)aluet;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessorySetupCompletedInfo *completedInfo;

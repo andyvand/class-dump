@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)dAlignment: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void)nvalid global zoom factor of %ld, Ignoring...;
+- (void);
 
 @end
 

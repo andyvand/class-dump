@@ -7,9 +7,7 @@
 @class NSString, SFUCryptoKey;
 
 @protocol TSPDataStorage
-- (struct CGDataProvider *)c;
-- (unsigned char);
-- (_Bool)o your presentation. Your most recent changes might be lost.;
+- (_Bool)yMark;
 
 // Remaining properties
 @property(readonly, nonatomic) SFUCryptoKey *decryptionKey;

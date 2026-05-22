@@ -8,6 +8,7 @@
 @protocol PXGRendererDelegate, PXGTextureConverter;
 
 @protocol PXGRenderer
+- (void)reSerializable;
 
 // Remaining properties
 @property(nonatomic) PXGCameraConfiguration_474424ad cameraConfiguration;

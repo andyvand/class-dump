@@ -32,25 +32,25 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double)D;
-- (double)isiMessageSpam;
-- (double)FilterEnabled;
-- (id)ndleID:(long long)arg1;
-- (long long)MeticsForSyncEndedWithSuccces: /* Error: Ran out of types for this method. */;
-- (struct NSDirectionalEdgeInsets)ainer",R,N,V_manateeContainer;
-- (struct NSDirectionalEdgeInsets)leteHandleIDFromArchivedMap: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)erC;
-- (void)IeyBy_Sg;
-- (long long);
-- (id);
-- (struct _UIListGeometry);
-- (id);
-- (void);
-- (long long)orInputMode: /* Error: Ran out of types for this method. */;
-- (long long)eAttributesForResolvedAmbiguity;
 - (double);
-- (id)îÉtä;
+- (double);
+- (double);
+- (id);
+- (long long);
+- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (id)rSelection: /* Error: Ran out of types for this method. */;
+- (struct _UIListGeometry)el: /* Error: Ran out of types for this method. */;
+- (long long)straints;
+- (long long)SuggestionUpdates;
+- (double);
+- (id);
+- (id);
+- (void)(b;
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentHuggingElements; // @synthesize contentHuggingElements=_contentHuggingElements;

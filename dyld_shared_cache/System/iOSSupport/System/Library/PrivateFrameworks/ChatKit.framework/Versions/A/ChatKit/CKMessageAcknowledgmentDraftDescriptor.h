@@ -14,16 +14,16 @@
 
 + (id);
 + (id);
-- (id)D;
-- (id);
-- (long long);
-- (id)  ;
 - (id);
 - (id);
 - (long long);
-- (void);
-- (id);
-- (id)ng to resend edit;
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id)d;
+- (void)|ð;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *acknowledgmentImageColor;

@@ -44,28 +44,28 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

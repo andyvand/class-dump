@@ -13,17 +13,17 @@
 }
 
 - (void);
-- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)Block;
-- (id);
-- (id);
-- (id)C,â;
-- (id)[`;
+- (id)e;
+- (void)us, %@, error, %@;
+- (id)ersToRemove FIRST, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

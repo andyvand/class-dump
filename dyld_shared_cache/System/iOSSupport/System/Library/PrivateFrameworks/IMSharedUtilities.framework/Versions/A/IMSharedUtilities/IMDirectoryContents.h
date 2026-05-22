@@ -23,7 +23,7 @@
 
 + (_Bool);
 - (id);
-- (id)n!8`!i;
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -40,14 +40,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ìÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *allPaths; // @synthesize allPaths=_allPaths;

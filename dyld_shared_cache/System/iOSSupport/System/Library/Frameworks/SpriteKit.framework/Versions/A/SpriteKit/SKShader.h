@@ -32,7 +32,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)°ä;
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -74,18 +74,19 @@
 - (shared_ptr_394c00aa);
 - (void);
 - (shared_ptr_d7c0f433);
-- (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)Ô ;
+- (void);
+- (void)oint=dd}16;
+- (id)¨
+;
 
 // Remaining properties
 @property(readonly) void *_attributeBuffers;

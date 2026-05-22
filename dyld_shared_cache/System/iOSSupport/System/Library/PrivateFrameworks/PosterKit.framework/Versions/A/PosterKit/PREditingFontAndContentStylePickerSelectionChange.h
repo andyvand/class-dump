@@ -35,10 +35,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)°!ÐEùÑñÐ1â
+0@ù
+× ;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) id <PRPosterContentStyle> contentStyle; // @synthesize contentStyle=_contentStyle;

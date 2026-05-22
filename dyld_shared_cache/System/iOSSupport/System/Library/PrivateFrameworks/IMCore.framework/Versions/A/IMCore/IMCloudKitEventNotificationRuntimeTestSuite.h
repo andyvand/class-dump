@@ -14,13 +14,13 @@
 
 + (void);
 - (_Bool);
-- (void)b;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)ÀAëÿøÑäÿÔäÿ¸ÂëÿÄëÿ4ÈëÿäÑäÿÔäÿÜÑäÿ;
+- (void)validated, this is likely a bug;
 - (void);
 
 // Remaining properties

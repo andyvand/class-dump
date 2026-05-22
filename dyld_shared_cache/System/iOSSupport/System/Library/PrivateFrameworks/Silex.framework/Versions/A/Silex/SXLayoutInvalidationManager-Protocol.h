@@ -7,8 +7,6 @@
 @protocol SXLayoutInvalidationManagerDelegate;
 
 @protocol SXLayoutInvalidationManager
-- (id <SXLayoutInvalidationManagerDelegate>);
-- (void)B;
 
 // Remaining properties
 @property(nonatomic) __weak id <SXLayoutInvalidationManagerDelegate> delegate;

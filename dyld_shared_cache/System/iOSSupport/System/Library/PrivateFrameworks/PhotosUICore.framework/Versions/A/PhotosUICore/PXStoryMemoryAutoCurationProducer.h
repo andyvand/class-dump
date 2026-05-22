@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)h;
+- (id);
+- (void)áòðI;
 
 // Remaining properties
 @property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;

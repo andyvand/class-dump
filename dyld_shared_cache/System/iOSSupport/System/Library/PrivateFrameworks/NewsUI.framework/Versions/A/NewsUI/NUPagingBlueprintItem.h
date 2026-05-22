@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ixedValueScatterXProperty;
+- (id);
+- (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

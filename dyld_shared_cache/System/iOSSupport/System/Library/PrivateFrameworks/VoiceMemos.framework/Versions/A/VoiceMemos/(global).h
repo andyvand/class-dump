@@ -4,10 +4,10 @@
 
 // Global C++ functions
 
-_assertInvalidStateMessage(NSString*, RCWaveformGeneratorState, objc_selector*);
-_checkCanAppend(RCWaveformGenerator*, objc_selector*);
-operator delete(void*);
-operator new(unsigned long, std::__type_descriptor_t);
+auto _assertInvalidStateMessage(NSString*, RCWaveformGeneratorState, objc_selector*);
+auto _checkCanAppend(RCWaveformGenerator*, objc_selector*);
 typeinfo for std::bad_array_new_length;
 typeinfo for std::length_error;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
 vtable for std::length_error;

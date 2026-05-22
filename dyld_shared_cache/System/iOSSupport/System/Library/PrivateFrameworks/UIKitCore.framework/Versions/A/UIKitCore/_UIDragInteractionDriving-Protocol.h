@@ -4,43 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView;
+@class NSArray, UIGestureRecognizer, UIView;
 @protocol UIDragInteractionEffect, _UIDragInteractionDriverDelegate;
 
 @protocol _UIDragInteractionDriving
-- (void)Unretained:(_Bool)arg1;
-- (void)è
-;
-- (id <_UIDragInteractionDriverDelegate>);
-- (void);
-- (void)TraitSelectionIsKey;
-- (_Bool)tibilityTouchForceProvider.m;
-- (void)fo:(NSArray *)arg1 %@;
-- (double)@;
-- (_Bool)lor10KeyPhoneInsideEdge;
-- (void)n;
-- (_Bool)taWithRectAndRadii(const _UIBoundingPathBitmapData, const _UIIntegralRect, const _UIIntegralCornerRadii);
-- (void (^)(UIDragItem *))itAxialWithValues:] called with NULL values array /* Error: Ran out of types for this method. */;
-- (void)activated for style %@:(double)arg1 %@;
-- (_Bool)d to load class NSManagedObjectModel;
-- (_Bool)ar. self = %@ modalViewController = %@;
-- (void)sform = %@; ;
-- (NSArray *)(UICellAccessory * _Nonnull __strong, Class  _Nonnull __unsafe_unretained);
-- (void)ldElements.size();
-- (double)tingToolsCoordinator can't find context for contextID:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ineOffset;
-- (void)Banners;
-- (double)tions;
-- (void)ectEntry;
-- (double)acing;
-- (struct CGPoint)k/CoreMotion;
-- (_Bool)`É;
-- (void)L«þ<C71;
-- (void);
-- (_Bool)nvironmentLayoutDirection;
+- (void);
+- (double)°!Bùq^1Â0@ù
+× ;
+- (_Bool)!Fù±^Ð1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (_Bool)áð!AùQb°1Â0@ù
+× ;
+- (void)
+× ;
+- (double)1e°1Â0@ù
+× ;
+- (_Bool)peToDismiss"B"shouldDeferCommitAnimation"B"interactionEffectForTargetedPreview"B"shouldAttemptToPresentConfiguration"B"didPerformMenuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};
+- (void)dbackTypes;
+- (_Bool)on:(UIGestureRecognizer *)arg1;
+- (_Bool)oller: /* Error: Ran out of types for this method. */;
+- (void):(_Bool)arg1;
+- (_Bool)textOnBackdropViewLayer;
+- (void)_repeatedPushViewController:(double)arg1 canBeAllowedInParentSplitViewController: /* Error: Ran out of types for this method. */;
+- (void)ntextID;
+- (void)aseDescription;
+- (UIView *)erIncrementingHiddenManagementCountForKey:withIncrement:bitFlagValue: /* Error: Ran out of types for this method. */;
+- (void)Frame;
+- (double)_UIDebugMacHelperUtilities;
+- (NSArray *)edValue;
+- (_Bool);
+- (void)SelectedPollAction '%{sensitive}@';
+- (void (^)(UIDragItem *))ndler cannot currently mutate visible items for layouts containing estimated items. Please file an enhancement request on UICollectionView.;
+- (struct CGPoint)No stack!;
+- (void)Ñ435æ;
 
 @optional
-- (UIView *);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

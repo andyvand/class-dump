@@ -10,9 +10,9 @@
 {
 }
 
-- (id)gFollowedEventCount;
 - (id);
-- (void):(_Bool)arg1 tabBarController:(_Bool)arg2;
+- (id);
+- (void);
 
 @end
 

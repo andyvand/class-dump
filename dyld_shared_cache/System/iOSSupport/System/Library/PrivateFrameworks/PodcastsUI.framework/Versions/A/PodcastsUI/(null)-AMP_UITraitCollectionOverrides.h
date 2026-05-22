@@ -5,6 +5,6 @@
 //
 
 @interface (null) (AMP_UITraitCollectionOverrides)
-- (void);
+- (void)(;
 @end
 

@@ -10,17 +10,17 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (_Bool);
+- (void);
 - (_Bool);
 
 @end

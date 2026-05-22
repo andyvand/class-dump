@@ -9,8 +9,8 @@
 }
 
 + (void);
-- (void)d = ?;
 - (id);
+- (void);
 
 @end
 

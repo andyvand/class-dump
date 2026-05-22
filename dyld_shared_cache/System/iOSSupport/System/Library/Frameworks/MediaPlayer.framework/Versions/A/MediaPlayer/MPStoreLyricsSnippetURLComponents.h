@@ -19,14 +19,14 @@
 - (long long);
 - (id);
 - (id);
-- (void)ngPercentEncodingWithAllowedCharacters:(id)arg1;
-- (double)A;
 - (void);
-- (id)d:channelLayout: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
 - (id);
 - (id);
-- (double)rrupted;
-- (id)_block_invoke;
+- (id);
+- (id);
+- (void)orITLibRequestFromRequestIdentifiers:modelKind: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;

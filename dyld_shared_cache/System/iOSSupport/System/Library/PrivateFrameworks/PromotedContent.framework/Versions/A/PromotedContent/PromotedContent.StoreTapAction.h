@@ -14,7 +14,7 @@
     MISSING_TYPE *iTunesMetadata;
 }
 
-- (id)ning time of a track in CarPlay. IE "4 min left";
+- (id);
 - (void);
 
 @end

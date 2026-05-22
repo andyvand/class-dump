@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (struct _NSRange);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VKQuad *quad; // @synthesize quad=_quad;

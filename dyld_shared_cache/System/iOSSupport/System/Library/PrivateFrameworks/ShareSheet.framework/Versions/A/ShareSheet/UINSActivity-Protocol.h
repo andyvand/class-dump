@@ -8,7 +8,6 @@
 @protocol NSUIImage;
 
 @protocol UINSActivity
-- (NSString *)overySuggestionButtonLaunchURL;
 
 // Remaining properties
 @property(readonly, nonatomic) long long activityCategory;

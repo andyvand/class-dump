@@ -7,23 +7,17 @@
 @class FBSDisplayConfigurationRequest, FBSDisplayMode, NSArray, NSData, NSDictionary, NSString;
 
 @protocol UIApplicationSceneClientSettings
-- (_Bool);
-- (_Bool)erialNumber is required for sealing;
-- (NSString *);
-- (long long);
-- (NSArray *)@;
-- (double)leChatWithLastKnownReplicationDate: /* Error: Ran out of types for this method. */;
-- (_Bool)@ù
+- (NSArray *)1Â0@ù
 × ;
-- (long long)rmSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
-- (long long)MenuConfigurationForCurrentSelectionWithPreferredArrowDirection: /* Error: Ran out of types for this method. */;
-- (NSDictionary *)ge;
-- (NSArray *)rDelegate>",N,V_delegate;
-- (long long)ted skippedEndInputSession;
-- (_Bool)ckground=%@;
-- (long long)edsPockets;
-- (unsigned long long)hangeState;
-- (double)A@;
+- (_Bool)BùÑ]1Â0@ù
+× ;
+- (long long)ð!ÀEùñ_ð1Â0@ù
+× ;
+- (long long)qb1Â0@ù
+× ;
+- (unsigned long long);
+- (unsigned long long)ion;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *activationConditionsData;

@@ -68,16 +68,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)cale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CALayer *contentLayer; // @synthesize contentLayer=_contentLayer;

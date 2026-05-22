@@ -23,8 +23,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)mentaryIconView;
+- (id);
+- (void)T updating;
 
 // Remaining properties
 @property(readonly, nonatomic) HFAccessorySettingSiriLanguageAdapter *adapter; // @synthesize adapter=_adapter;

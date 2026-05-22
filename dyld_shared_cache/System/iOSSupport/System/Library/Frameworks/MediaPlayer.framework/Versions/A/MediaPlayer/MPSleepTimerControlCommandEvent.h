@@ -17,9 +17,9 @@
 
 - (long long);
 - (id);
-- (void);
 - (id);
-- (id);
+- (id);
+- (void)Y;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *fireDate; // @synthesize fireDate=_fireDate;

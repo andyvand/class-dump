@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Èµô;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *autoEditDecisionLists; // @synthesize autoEditDecisionLists=_autoEditDecisionLists;

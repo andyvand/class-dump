@@ -22,30 +22,70 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (double);
-- (void);
-- (unsigned char);
 - (void);
 - (_Bool);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)$hp´¼;
 - (long long);
-- (void);
-- (id);
-- (unsigned long long)Lèÿèÿ¬èÿ4èÿXèÿ|èÿ°èÿìèÿèÿ èÿÜèÿ;
-- (id)yLiteralElement;
-- (void)rces:(double)arg1 initUserTemplates error: /* Error: Ran out of types for this method. */;
-- (_Bool)è;
-- (void)>;
-- (_Bool)þF?;
-- (id)Øe¬?åÐª>*O?oÓ¾ë¤?`;
-- (void)Ç K?åc?Ì«¾RG?»O?Ëò?²¤¾G¯?S?*?XË¾¾Þ?vW?~5?Á¾Ñ]ú>W|[??¥f¾§Aé>ÅW_?åÑ}?þ¾> Ø>ª'c?¿d{?J~¾Æ>QÛf?Õéx?]ám¾¨©µ>sLj?v?\¾LÇ¤>[m?"t?×kJ¾é'>¥p?9Cq?hA8¾Ð>js?én?¾ %¾>h>ìu?hk?³±¾9J>K!x?æ¯h?wôÿ½.>:(_Bool)arg1 z?Ù!f?dëÙ½Ç >¡¡{?Æùc?jP´½ ô=ú|?)#b?½uÂ=Ó~??å`?Å7T½ÙB=Ãï~?H`?ëá½0½==?Mg_?ëo¼@º<Lã?E^?A×¾8¬Å'¸;
-- (void)ïþ;
+- (id)eState>"32@0:8@"NSArray"16^@24 /* Error: Ran out of types for this method. */;
+- (void)<;
+- (void)|k<nÄn¸p(rhr¼slwÌx;
+- (double);
+- (id);
+- (void)device float*                dstData                          [[ buffer(1) ]],
+                                         constant osd_rt_extra_point* extraPoints                      [[ buffer(2) ]],
+#if OSD_FVAR_USES_MULTIPLE_CHANNELS
+                                         constant uint32_t&           osdFaceVaryingChannelCount       [[ buffer(OSD_FVAR_CHANNELS_CHANNEL_COUNT_INDEX) ]],
+                                         constant OsdFVarChannelDesc* osdFaceVaryingChannelDescriptors [[ buffer(OSD_FVAR_CHANNELS_CHANNEL_DESCRIPTORS_INDEX) ]],
+                                         constant uint32_t&           osdFaceVaryingPatchArrayIndex    [[ buffer(OSD_FVAR_CHANNELS_PATCH_ARRAY_INDEX_BUFFER_INDEX) ]],
+                                         constant void*               osdFaceVaryingChannelsPackedData [[ buffer(OSD_FVAR_CHANNELS_PACKED_DATA_BUFFER_INDEX) ]]
+#else
+                                         constant float*              osdFaceVaryingData               [[ buffer(OSD_FVAR_DATA_BUFFER_INDEX) ]],
+                                         constant int*                osdFaceVaryingIndices            [[ buffer(OSD_FVAR_INDICES_BUFFER_INDEX) ]],
+                                         constant packed_int3*        osdFaceVaryingPatchParams        [[ buffer(OSD_FVAR_PATCHPARAM_BUFFER_INDEX) ]],
+                                         constant packed_int4&        osdFaceVaryingPatchArray         [[ buffer(OSD_FVAR_PATCH_ARRAY_BUFFER_INDEX) ]]
+#endif
+                                         )
+{
+    if (index >= pointCount)
+        return;
+    
+    
+    
+    osd_rt_extra_point extraPoint = extraPoints[index];
+    
+    osd_rt_eval_fvar(dstData + index * vertexStride,
+#if OSD_FVAR_USES_MULTIPLE_CHANNELS
+                     osdFaceVaryingChannelCount,
+                     osdFaceVaryingChannelDescriptors,
+                     osdFaceVaryingPatchArrayIndex,
+                     osdFaceVaryingChannelsPackedData,
+#else
+                     osdFaceVaryingData,
+                     osdFaceVaryingIndices,
+                     osdFaceVaryingPatchParams,
+                     osdFaceVaryingPatchArray,
+#endif
+                     extraPoint.patchID,
+                     extraPoint.UV);
+    
+}
+
+#endif 
+;
+- (void)$OéóP¨v;
+- (unsigned long long)dî'ÿî'ÿÀî'ÿ;
+- (unsigned char)£<êèh?g¡x<òí>nj?ºÀÀ<9>;
+- (void);
+- (void);
+- (id)§É;A]þ?;
+- (_Bool)+k¼­Þa<÷?%­?Î§¼ÙK<ìø?Î}?üU;
+- (_Bool)÷(;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *backgroundColor;

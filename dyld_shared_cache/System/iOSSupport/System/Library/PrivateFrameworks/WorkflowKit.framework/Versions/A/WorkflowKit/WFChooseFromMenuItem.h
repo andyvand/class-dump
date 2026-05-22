@@ -13,13 +13,13 @@
     NSString *_subtitle;
 }
 
-+ (_Bool)ded PDF file.;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void));
 - (id);
 
 // Remaining properties

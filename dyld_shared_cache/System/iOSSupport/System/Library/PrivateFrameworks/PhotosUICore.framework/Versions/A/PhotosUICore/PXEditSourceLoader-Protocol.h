@@ -7,12 +7,8 @@
 @class NSError, NSNumber, NSProgress, NSString, PLEditSource;
 
 @protocol PXEditSourceLoader
-- (NSError *)Q{ð1b0@ù
-× ;
-- (NSString *)moveGadgets: /* Error: Ran out of types for this method. */;
-- (long long):priority:completion: /* Error: Ran out of types for this method. */;
-- (NSProgress *)|~	ð~;
-- (NSString *)ÿ¡X48"ÿyX48"ÿÉX48"ÿYX4¨8"ÿYX4°À$ÿ¡X4¬8"ÿÙX4´8"ÿ©X4Ä8"ÿ;
+- (long long);
+- (NSProgress *);
 
 // Remaining properties
 @property(readonly, nonatomic) PLEditSource *activeEditSource;

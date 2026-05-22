@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)equest"8;
 
 // Remaining properties
 @property(readonly, nonatomic) HFDictionaryValueControlItem *controlItem; // @dynamic controlItem;

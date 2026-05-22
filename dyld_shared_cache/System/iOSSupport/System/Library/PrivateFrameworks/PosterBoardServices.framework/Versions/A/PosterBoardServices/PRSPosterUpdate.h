@@ -46,12 +46,12 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (unsigned long long);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PRSPosterUpdatePayload *payload; // @synthesize payload=_payload;

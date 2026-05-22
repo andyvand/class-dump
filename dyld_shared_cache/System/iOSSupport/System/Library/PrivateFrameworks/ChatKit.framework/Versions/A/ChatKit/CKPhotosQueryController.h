@@ -12,17 +12,17 @@
 }
 
 - (unsigned long long);
-- (id)tiveState;
-- (id)object;
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id)d;
-- (id)enerate oriented image. Falling back to unrotated image.;
-- (id)ange you made.;
-- (id)hðüðèñøóìô;
-- (unsigned long long)Ô;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)tÏ5mÅ-;
+- (unsigned long long);
+- (id)Ð¨Ñ Ó0Ô;
+- (id)É@lÈ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long contentMode; // @synthesize contentMode=_contentMode;

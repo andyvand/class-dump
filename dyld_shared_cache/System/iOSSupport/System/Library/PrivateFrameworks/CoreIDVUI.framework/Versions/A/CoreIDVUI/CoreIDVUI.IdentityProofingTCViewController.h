@@ -18,7 +18,6 @@
     MISSING_TYPE *onAppearance;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);

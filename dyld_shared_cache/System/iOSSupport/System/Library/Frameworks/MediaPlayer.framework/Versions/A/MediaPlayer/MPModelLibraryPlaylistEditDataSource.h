@@ -24,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)ookmarkablePublisher>"40@0:8@"BPSPublisher<BMBookmarkablePublisher>"16@"NSArray"24@"<BMBookmark>"32 /* Error: Ran out of types for this method. */;
-- (void)Context"16^@24;
-- (void)tity:(id)arg1;
-- (id)initWithDKEvent:outputDevices:iTunesArtistIdentifier:iTunesAlbumIdentifier: /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)ssword;
+- (void)owEndDate;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPModelSocialPerson *authorProfile; // @synthesize authorProfile=_authorProfile;

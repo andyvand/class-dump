@@ -27,16 +27,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)&°!PDùÑ/1b0@ù
-× ;
-- (id)0:8@"HUNetworkConfigurationSettingsModule"16 /* Error: Ran out of types for this method. */;
-- (void)ioning>"24;
-- (void)ïè;
-- (void)}îöâ#;
+- (void);
+- (void);
+- (void)cleanUp;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) OBLinkTrayButton *changeButton; // @synthesize changeButton=_changeButton;

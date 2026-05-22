@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)lorStore;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

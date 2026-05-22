@@ -4,5 +4,5 @@
 
 class std::__pad<char, std::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    _S_pad(std::ios_base&, char, char*, char const*, long, long, bool);
+    auto _S_pad(std::ios_base&, char, char*, char const*, long, long, bool);
 };

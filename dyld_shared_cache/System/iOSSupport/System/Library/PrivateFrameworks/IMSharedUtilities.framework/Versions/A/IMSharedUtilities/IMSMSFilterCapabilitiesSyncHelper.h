@@ -8,14 +8,14 @@
 {
 }
 
-+ (void);
 + (void);
 + (void);
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void)h8h;
++ (void);
++ (void);
 + (_Bool);
 + (_Bool);
 + (_Bool);

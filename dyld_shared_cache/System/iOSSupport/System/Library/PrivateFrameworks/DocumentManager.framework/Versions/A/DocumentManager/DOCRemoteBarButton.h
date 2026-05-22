@@ -17,13 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (void)[;
-- (void)bilityPriority:forView: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly) UIBarButtonItem *barButton; // @synthesize barButton=_barButton;

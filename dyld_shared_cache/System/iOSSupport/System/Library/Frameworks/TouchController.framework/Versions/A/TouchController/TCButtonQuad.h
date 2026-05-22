@@ -21,12 +21,12 @@
 - (id);
 - (float);
 - (void);
-- (void);
-- (struct CGColor *);
-- (struct CGSize);
 - (id);
+- (struct CGSize);
 - (void);
 - (struct CGPoint);
+- (struct CGColor *);
+- (void);
 - (void);
 - (void);
 - (id);

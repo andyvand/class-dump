@@ -7,13 +7,8 @@
 @class NSArray, UICollectionViewLayout;
 
 @protocol _UICollectionViewAnimationContext
-- (NSArray *);
-- (NSArray *)TiledArtworkRequest:scaledFittingSize: /* Error: Ran out of types for this method. */;
-- (void)¸Gù1Ã°1¢!0@ù
-× ;
-- (NSArray *);
-- (void)tHighlightColor:(NSArray *)arg1;
-- (UICollectionViewLayout *)AtPoint:satisfyingConditions: /* Error: Ran out of types for this method. */;
+- (void)wsCancelButton:(NSArray *)arg1;
+- (UICollectionViewLayout *)l modal view controller on target %@.;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *appearingAttributes;

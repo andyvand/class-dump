@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)nationAddress:networkPrefixLength: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)invalid map item and thus will not be surfaced;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *placeInferences; // @synthesize placeInferences=_placeInferences;

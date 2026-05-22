@@ -5,7 +5,6 @@
 //
 
 @protocol RTPersistenceMetricsDelegate
-- (void);
-- (void);
+- (void)sensitive}@, error, %@;
 @end
 

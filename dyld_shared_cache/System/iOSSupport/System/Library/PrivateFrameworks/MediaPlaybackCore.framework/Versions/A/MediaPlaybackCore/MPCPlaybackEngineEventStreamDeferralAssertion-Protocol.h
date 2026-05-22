@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol MPCPlaybackEngineEventStreamDeferralAssertion
-- (NSString *)`
-;
-- (void)Ð;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *reason;

@@ -5,15 +5,15 @@
 class CFX::RG::RenderGraph {
 public: // (access info unavailable from symbols alone)
     RenderGraph(CFX::ScratchAllocator);
-    directPredecessorsWritingResource(CFX::RG::Pass*, CFX::RG::Resource*, CFX::StackAllocator) const;
-    directSuccessorsReadingResource(CFX::RG::Pass*, CFX::RG::Resource*, CFX::StackAllocator) const;
-    execute(CFX::RG::RenderGraphContext const&, RGExecutionPhase, CFX::RG::Arguments const&);
-    log();
-    passesReadingResource(CFX::RG::Resource*, CFX::StackAllocator, unsigned char);
-    passesWritingResource(CFX::RG::Resource*, CFX::StackAllocator);
-    predecessors(CFX::RG::Pass*) const;
-    resolveResourceDescriptors(CFX::RG::RenderGraphContext&);
-    stageIndexForPass(CFX::RG::Pass const*) const;
-    successors(CFX::RG::Pass*) const;
+    auto directPredecessorsWritingResource(CFX::RG::Pass*, CFX::RG::Resource*, CFX::StackAllocator) const;
+    auto directSuccessorsReadingResource(CFX::RG::Pass*, CFX::RG::Resource*, CFX::StackAllocator) const;
+    auto execute(CFX::RG::RenderGraphContext const&, RGExecutionPhase, CFX::RG::Arguments const&);
+    auto log();
+    auto passesReadingResource(CFX::RG::Resource*, CFX::StackAllocator, unsigned char);
+    auto passesWritingResource(CFX::RG::Resource*, CFX::StackAllocator);
+    auto predecessors(CFX::RG::Pass*) const;
+    auto resolveResourceDescriptors(CFX::RG::RenderGraphContext&);
+    auto stageIndexForPass(CFX::RG::Pass const*) const;
+    auto successors(CFX::RG::Pass*) const;
     ~RenderGraph();
 };

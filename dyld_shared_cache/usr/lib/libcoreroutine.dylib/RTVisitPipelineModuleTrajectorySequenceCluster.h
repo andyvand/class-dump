@@ -30,7 +30,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long)h;
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
@@ -41,9 +41,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)etworkSettings"24@?<v@?@"NSError">32;
+- (id);
+- (void)retry, pendingRetryCount, %lu, retrying...;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (CDUnknownBlockType);
-+ (Class)¸'ôi;
++ (Class): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -26,8 +26,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)äydz¨z{;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *inputs; // @synthesize inputs=_inputs;

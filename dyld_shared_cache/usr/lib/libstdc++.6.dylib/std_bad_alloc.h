@@ -4,6 +4,6 @@
 
 class std::bad_alloc {
 public: // (access info unavailable from symbols alone)
-    what() const;
+    auto what() const;
     ~bad_alloc();
 };

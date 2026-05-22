@@ -13,9 +13,9 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)dServiceContextKind;
 
 @end
 

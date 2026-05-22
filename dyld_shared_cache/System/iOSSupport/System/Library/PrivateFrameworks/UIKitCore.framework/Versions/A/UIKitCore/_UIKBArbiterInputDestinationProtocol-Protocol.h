@@ -5,6 +5,5 @@
 //
 
 @protocol _UIKBArbiterInputDestinationProtocol
-- (void)taLocalCopyManifest;
 @end
 

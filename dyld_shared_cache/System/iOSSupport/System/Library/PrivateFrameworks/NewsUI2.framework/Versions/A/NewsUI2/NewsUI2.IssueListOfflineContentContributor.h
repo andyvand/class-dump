@@ -14,7 +14,7 @@
     MISSING_TYPE *appConfigManager;
 }
 
-- (void)IntentDataSource>";
+- (void);
 
 @end
 

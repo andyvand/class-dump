@@ -16,13 +16,13 @@
 
 - (double);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)ü;
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *label; // @synthesize label=_label;

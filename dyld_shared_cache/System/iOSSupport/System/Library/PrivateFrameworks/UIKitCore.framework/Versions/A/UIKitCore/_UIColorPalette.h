@@ -13,27 +13,28 @@
     NSString *_colorSpaceName;
 }
 
-+ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)RecordCopyMessagesForAssociatedGUID resulted in a non-associated message item:%@ /* Error: Ran out of types for this method. */;
-+ (id)ted from %@->%@  on service:%@ /* Error: Ran out of types for this method. */;
-+ (id)16P;
-+ (id)ex with error %@;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 - (id);
 - (id);
 - (struct CGGradient *);
 - (unsigned long long);
-- (_Bool);
-- (void)Ëº;
-- (id)utomaticallyDismissesAfterCompletion,S_setAutomaticallyDismissesAfterCompletion:,V_automaticallyDismissesAfterCompletion /* Error: Ran out of types for this method. */;
-- (id)tion3;
-- (id)rolled subview must specify its position in relation to containers. View:%@ /* Error: Ran out of types for this method. */;
-- (id)size_t, BOOL, size_t);
+- (id)
+× ;
+- (id)ortsScribbleInteraction;
+- (_Bool)TrailingImageLayoutSize:(id)arg1;
+- (id)o be focusable.;
+- (void)$ê+;
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *colorSpaceName; // @synthesize colorSpaceName=_colorSpaceName;

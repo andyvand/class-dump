@@ -9,10 +9,10 @@
     CDUnknownBlockType _handler;
 }
 
-- (id)rd;
-- (void)rdinator;
+- (id);
 - (void);
 - (id);
+- (void)hared.WBSCache.%p;
 
 @end
 

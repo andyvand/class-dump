@@ -4,6 +4,6 @@
 
 class std::logic_error {
 public: // (access info unavailable from symbols alone)
+    auto what() const;
     logic_error(char const*);
-    what() const;
 };

@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     _UITextFieldImageBackgroundView *_backgroundView;
 }
 
-- (void)&_;
 - (void);
+- (id)rKeyClass;
+- (void)pSg;
+- (void)Ü`];
 - (void);
-- (id)natorContext>">16;
-- (void)xt tap in proofreading session. Reexamine the logic.;
-- (void)lectionViewSetupExpandCollapseAnimations(UICollectionView *__strong _Nonnull, _UICollectionViewAnimationContext *__strong _Nonnull, __strong id<_UICollectionViewUpdateExpandCollapseAnimationContext> _Nonnull);
-- (void);
+- (void)Ñ0o];
+- (void)²;
 
 @end
 

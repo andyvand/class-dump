@@ -4,14 +4,13 @@
 
 class SafariShared::TranslatedFileURLProtocol {
 public: // (access info unavailable from symbols alone)
-    canHandleRequest(_CFURLRequest const*, void const*);
-    createCanonicalRequest(__CFAllocator const*, _CFURLRequest const*, void const*);
-    protocolInstanceForProtocol(_CFURLProtocol*, CFURLProtocolInstanceCallbacks const**, void const*);
-    protocolInstanceForProtocol(_CFURLProtocol*, CFURLProtocolInstanceCallbacks const**, void const*)::instanceCallbacks;
-    registerProtocol(SafariShared::TranslatedFileURLProtocol::ProtocolInfo const*);
-    registerProtocol(SafariShared::TranslatedFileURLProtocol::ProtocolInfo const*) (.cold.1);
-    registerProtocol(SafariShared::TranslatedFileURLProtocol::ProtocolInfo const*) (.cold.2);
-    registerProtocol(SafariShared::TranslatedFileURLProtocol::ProtocolInfo const*)::registeredProtocols;
-    requestsAreCacheEquivalent(_CFURLRequest const*, _CFURLRequest const*, void const*);
-    start(_CFURLProtocol*, void const*);
+    auto canHandleRequest(_CFURLRequest const*, void const*);
+    auto createCanonicalRequest(__CFAllocator const*, _CFURLRequest const*, void const*);
+    auto protocolInstanceForProtocol(_CFURLProtocol*, CFURLProtocolInstanceCallbacks const**, void const*);
+    auto protocolInstanceForProtocol(_CFURLProtocol*, CFURLProtocolInstanceCallbacks const**, void const*)::instanceCallbacks;
+    auto registerProtocol(SafariShared::TranslatedFileURLProtocol::ProtocolInfo const*);
+    auto registerProtocol(SafariShared::TranslatedFileURLProtocol::ProtocolInfo const*)::registeredProtocols;
+    auto requestsAreCacheEquivalent(_CFURLRequest const*, _CFURLRequest const*, void const*);
+    auto start(_CFURLProtocol*, void const*);
+    guard variable for registerProtocol(SafariShared::TranslatedFileURLProtocol::ProtocolInfo const*)::registeredProtocols;
 };

@@ -31,9 +31,9 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (id);
-- (void)hForNames:(CDUnknownBlockType)arg1;
+- (void),&,N,V_optionItemProvider;
+- (void)16@?0@"UIGraphicsImageRendererContext"8;
+- (id)íÿdÍþdæ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

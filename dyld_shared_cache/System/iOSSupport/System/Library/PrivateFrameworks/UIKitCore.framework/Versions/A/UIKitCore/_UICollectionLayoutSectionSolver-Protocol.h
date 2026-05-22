@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCollectionLayoutSection, NSIndexSet, NSString, UITraitCollection, _UICollectionLayoutContainer, _UICollectionLayoutFramesQueryResult, _UICollectionLayoutSolveResult;
+@class NSArray, NSCollectionLayoutSection, NSIndexSet, NSString, UITraitCollection, _UICollectionLayoutContainer, _UICollectionLayoutFramesQueryResult;
 
 @protocol _UICollectionLayoutSectionSolver
-- (_UICollectionLayoutFramesQueryResult *);
-- (struct CGVector)#;
+- (NSArray *)stomizedTextToButtonPadding"b1"hasCustomizedButtonToSecondaryButtonPadding"b1};
+- (struct CGVector)itle:forSegmentAtIndex: /* Error: Ran out of types for this method. */;
+- (void)iewController;
+- (_UICollectionLayoutFramesQueryResult *)r:(long long)arg1;
+- (double)%@;
+- (_Bool)%s for appearance setter, %@;
+- (_UICollectionLayoutContainer *)attempt to delete and reload the same index path (%@);
+- (NSString *)tor;
+- (NSIndexSet *)stMetricsCellProvidingP;
+- (UITraitCollection *)[(ÚÀ?;
 - (void);
-- (double)n";
-- (NSArray *)ck;
-- (long long)PickerResponder>",W,N,V_mPickerResponder;
-- (_UICollectionLayoutSolveResult *);
-- (struct _NSRange);
-- (NSCollectionLayoutSection *)¢!0@ù
-× ;
-- (unsigned long long)CollectionViewConfiguration";
-- (_UICollectionLayoutContainer *)tForceFixedSpacing: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (struct CGRect)¤~;
-- (struct CGRect)´è;
-- (unsigned long long)¼;
-- (_UICollectionLayoutFramesQueryResult *)$|þÿ;
-- (void)owing mode does not allow for programmatic changes to interface orientation.;
-- (void)it.UITabCustomization;
-- (long long)m occurring.;
-- (_UICollectionLayoutContainer *).swift;
-- (UITraitCollection *)é4Èiþé4Èiþ;
-- (NSString *);
-- (NSString *)DetectionPattern;
+- (long long);
+- (unsigned long long)ê[;
 
 // Remaining properties
 @property(readonly, nonatomic) _UICollectionLayoutContainer *container;

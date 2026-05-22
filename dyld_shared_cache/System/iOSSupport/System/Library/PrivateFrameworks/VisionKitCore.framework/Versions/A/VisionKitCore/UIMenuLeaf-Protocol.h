@@ -8,7 +8,6 @@
 @protocol UIPopoverPresentationControllerSourceItem;
 
 @protocol UIMenuLeaf
-- (void)ew:(id)arg1 atPoint:(id)arg2;
 
 // Remaining properties
 @property(nonatomic) unsigned long long attributes;

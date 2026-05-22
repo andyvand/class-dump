@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)@24@32;
 
 // Remaining properties
 @property(retain, nonatomic) SXAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;

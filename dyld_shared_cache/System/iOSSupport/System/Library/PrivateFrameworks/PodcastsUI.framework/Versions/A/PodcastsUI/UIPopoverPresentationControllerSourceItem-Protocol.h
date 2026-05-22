@@ -5,6 +5,5 @@
 //
 
 @protocol UIPopoverPresentationControllerSourceItem
-- (struct CGRect)objc_const;
 @end
 

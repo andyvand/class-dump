@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)ØEhF;
-- (id);
++ (Class);
+- (id)e;
 
 @end
 

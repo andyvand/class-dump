@@ -13,11 +13,13 @@
 
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
 - (void);
-- (struct CGSize);
 - (id);
+- (struct CGSize);
+- (void)	°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *hostedView; // @synthesize hostedView=_hostedView;

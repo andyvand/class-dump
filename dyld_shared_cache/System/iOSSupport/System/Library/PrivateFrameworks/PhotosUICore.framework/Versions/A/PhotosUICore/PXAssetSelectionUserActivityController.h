@@ -23,16 +23,16 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id)@¹d¼½Ô½(ÁàÁôÃÜÄÇ<Î<Ð;
-- (void)ÈTÿÿBXþÿ;
-- (_Bool)ìÖíÿ;
-- (void)ÿ:(id)arg1 å6¼ª7;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

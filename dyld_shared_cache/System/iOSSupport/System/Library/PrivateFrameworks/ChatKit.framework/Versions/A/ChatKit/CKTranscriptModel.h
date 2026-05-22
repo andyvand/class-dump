@@ -16,8 +16,8 @@
 }
 
 + (id);
-- (id)thText:uuidString:parentAttachment: /* Error: Ran out of types for this method. */;
-- (void)outPreviewImagesFromDeviceInfos:(id)arg1;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -26,10 +26,10 @@
 - (void);
 - (id);
 - (void);
-- (id)ø;
-- (id)Tÿüÿâÿüÿ(ýÿ;
-- (void)backCurrentTime;
-- (void)w;
+- (id);
+- (void)imaryColor2;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *chatItems; // @synthesize chatItems=_chatItems;

@@ -18,25 +18,25 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (void);
+- (struct CGSize);
 - (id);
-- (void)ÄÐ1¢!0@ù
-× ;
-- (id);
-- (void)ontentView;
-- (void)@"<UIDragInteractionEffect>",&,N,V_interactionEffect;
-- (id)BarMenu.Application;
-- (id)h invalid properties;
-- (void)Å³;
-- (void)]ÖÉ£tf;
-- (id)³lh;
-- (struct CGSize)P³ÿY³Ó¸[i;
 - (struct UIOffset);
-- (void)³;
+- (void);
 - (id);
+- (id)0@ù
+× ;
+- (void)ionBar"16;
+- (void);
+- (id)TaskBSActionHandler;
+- (id)Ð@ô@A;
+- (id)__rawCurrentOffset;
+- (id)tternCountKey;
+- (void)sitionGap;
+- (id)È\;
+- (void);
+- (void)Ñÿ-Ô4wl;
+- (void)(p;
 
 // Remaining properties
 @property(nonatomic, readonly) _UIFloatingTabBarPlatformMetrics *_currentPlatformMetrics;

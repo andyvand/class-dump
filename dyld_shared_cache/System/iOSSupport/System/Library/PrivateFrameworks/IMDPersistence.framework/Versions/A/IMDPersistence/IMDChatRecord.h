@@ -14,15 +14,17 @@
 
 + (id);
 + (id);
-+ (id)IMDHandleRecordRef);
++ (id)SELECT   id FROM   handle WHERE   ROWID = ? LIMIT 1;
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
-- (struct _IMDChatRecordStruct *)R;
+- (id);
+- (id);
+- (id);
+- (struct _IMDChatRecordStruct *);
 - (void);
 - (unsigned long long);
 - (long long);
@@ -31,14 +33,24 @@
 - (const CDStruct_7ef4fb35 *);
 - (id);
 - (id);
+- (_Bool);
+- (id);
 - (struct __CFArray **);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id)TextInputCursorController",&,N,V__cursorController;
 - (id);
-- (unsigned long long);
 - (id);
-- (long long)è;
-- (id);
+- (long long)	
+;
+- (unsigned long long)WHEN persistent_tasks.user_info = excluded.user_info THEN persistent_tasks.user_info
+            WHEN coalesce(length(persistent_tasks.user_info), 0) = 0 THEN excluded.user_info
+            WHEN coalesce(length(excluded.user_info), 0) = 0 THEN persistent_tasks.user_info
+            ELSE im_reconcile_ptask_user_info(persistent_tasks.flag, persistent_tasks.user_info, excluded.user_info)
+        END),
+    retry_count = excluded.retry_count;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accountID; // @dynamic accountID;
@@ -56,17 +68,22 @@
 @property(readonly, copy, nonatomic) NSString *displayName; // @dynamic displayName;
 @property(readonly, nonatomic) NSDictionary *domainIdentifiers;
 @property(readonly, nonatomic, getter=isFiltered) long long filtered; // @dynamic filtered;
+@property(readonly, nonatomic, getter=isGroupChat) _Bool groupChat;
 @property(readonly, copy, nonatomic) NSString *groupID; // @dynamic groupID;
 @property(readonly, copy, nonatomic) NSString *groupName;
 @property(readonly, copy, nonatomic) NSString *guid; // @dynamic guid;
 @property(readonly, nonatomic) NSArray *handleRecords;
 @property(readonly, copy, nonatomic) NSString *identifier;
+@property(readonly, copy, nonatomic) NSString *identityHash;
 @property(readonly, copy, nonatomic) NSString *lastAddressedHandle; // @dynamic lastAddressedHandle;
 @property(readonly, copy, nonatomic) NSString *lastAddressedSIMID;
 @property(readonly, copy, nonatomic) NSString *lastAddressedSimID; // @dynamic lastAddressedSimID;
 @property(readonly, nonatomic) IMDMessageRecord *lastMessageRecord;
 @property(readonly, nonatomic) long long lastReadMessageTimestamp; // @dynamic lastReadMessageTimestamp;
 @property(readonly, copy, nonatomic) NSString *originalGroupID; // @dynamic originalGroupID;
+@property(readonly, copy, nonatomic) NSArray *participantHandles;
+@property(readonly, copy, nonatomic) NSString *persistentID;
+@property(readonly, copy, nonatomic) NSString *pinningIdentifier;
 @property(readonly, copy, nonatomic) NSDictionary *properties;
 @property(readonly, nonatomic) long long rawSyndicationDate; // @dynamic rawSyndicationDate;
 @property(readonly, nonatomic, getter=isRecovered) _Bool recovered; // @dynamic recovered;
@@ -74,6 +91,7 @@
 @property(readonly, nonatomic) long long rowID;
 @property(readonly, copy, nonatomic) NSString *serverChangeToken; // @dynamic serverChangeToken;
 @property(readonly, copy, nonatomic) NSString *serviceName; // @dynamic serviceName;
+@property(readonly, nonatomic, getter=isSMS) _Bool sms;
 @property(readonly, nonatomic) long long state; // @dynamic state;
 @property(readonly, nonatomic) unsigned char style; // @dynamic style;
 @property(readonly, nonatomic) _Bool successfulQuery; // @dynamic successfulQuery;

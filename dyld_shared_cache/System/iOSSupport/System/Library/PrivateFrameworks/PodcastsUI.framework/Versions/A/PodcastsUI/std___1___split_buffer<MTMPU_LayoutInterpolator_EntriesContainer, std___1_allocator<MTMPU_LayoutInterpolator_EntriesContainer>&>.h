@@ -4,6 +4,7 @@
 
 class std::__1::__split_buffer<MTMPU::LayoutInterpolator::EntriesContainer, std::__1::allocator<MTMPU::LayoutInterpolator::EntriesContainer>&> {
 public: // (access info unavailable from symbols alone)
-    __destruct_at_end[abi:ne200100](MTMPU::LayoutInterpolator::EntriesContainer*);
+    auto __destruct_at_end[abi:nqe210106](MTMPU::LayoutInterpolator::EntriesContainer*);
+    void emplace_back<MTMPU::LayoutInterpolator::EntriesContainer const&>(MTMPU::LayoutInterpolator::EntriesContainer const&);
     ~__split_buffer();
 };

@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (id)ØÁ;
+- (void)tatusDetailsViewController;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *accountIds;

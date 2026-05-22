@@ -23,19 +23,19 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
-- (_Bool)_metadataCache;
+- (id);
+- (void)CaptiveNetworks;
+- (_Bool)asEventRouterServerInfo;
+- (void)dµ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLightProfileUUID;

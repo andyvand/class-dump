@@ -6,8 +6,8 @@ class icu::units::UnitsRouter {
 public: // (access info unavailable from symbols alone)
     UnitsRouter(icu::MeasureUnit const&, icu::Locale const&, icu::StringPiece, UErrorCode&);
     UnitsRouter(icu::StringPiece, icu::Locale const&, icu::StringPiece, UErrorCode&);
-    getOutputUnits() const;
-    init(icu::MeasureUnit const&, icu::Locale const&, icu::StringPiece, UErrorCode&);
-    parseSkeletonToPrecision(icu::UnicodeString, UErrorCode&);
-    route(double, icu::number::impl::RoundingImpl*, UErrorCode&) const;
+    auto getOutputUnits() const;
+    auto init(icu::MeasureUnit const&, icu::Locale const&, icu::StringPiece, UErrorCode&);
+    auto parseSkeletonToPrecision(icu::UnicodeString, UErrorCode&);
+    auto route(double, icu::number::impl::RoundingImpl*, UErrorCode&) const;
 };

@@ -12,6 +12,7 @@
     MISSING_TYPE *_tileStyle;
     MISSING_TYPE *_isEditing;
     MISSING_TYPE *_draggingItemEntryId;
+    MISSING_TYPE *_hideAggregateTile;
     MISSING_TYPE *_$observationRegistrar;
 }
 

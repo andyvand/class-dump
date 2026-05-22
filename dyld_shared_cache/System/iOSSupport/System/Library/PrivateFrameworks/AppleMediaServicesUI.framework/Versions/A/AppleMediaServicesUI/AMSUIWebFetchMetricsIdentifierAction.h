@@ -13,6 +13,7 @@ __attribute__((visibility("hidden")))
 {
     _Bool _crossDeviceSync;
     _Bool _generateEventFields;
+    _Bool _provideU13Identifier;
     ACAccount *_account;
     NSString *_bagNamespace;
     NSString *_bagProfile;
@@ -26,17 +27,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id)P;
+- (id);
+- (void)dler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
@@ -46,6 +49,7 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) _Bool crossDeviceSync; // @synthesize crossDeviceSync=_crossDeviceSync;
 @property(nonatomic) _Bool generateEventFields; // @synthesize generateEventFields=_generateEventFields;
 @property(retain, nonatomic) NSString *identifierKey; // @synthesize identifierKey=_identifierKey;
+@property(nonatomic) _Bool provideU13Identifier; // @synthesize provideU13Identifier=_provideU13Identifier;
 
 @end
 

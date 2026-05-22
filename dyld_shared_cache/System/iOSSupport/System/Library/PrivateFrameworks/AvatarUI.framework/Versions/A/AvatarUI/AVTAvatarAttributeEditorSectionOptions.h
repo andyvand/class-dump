@@ -19,13 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (unsigned long long)Xî;
+- (void);
+- (unsigned long long)Að!¼Dù±Ið1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long displayMode; // @synthesize displayMode=_displayMode;

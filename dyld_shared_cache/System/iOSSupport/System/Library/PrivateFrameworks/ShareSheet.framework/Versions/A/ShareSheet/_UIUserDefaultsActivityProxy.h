@@ -31,17 +31,17 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool)tionIdentifiersByCustomSectionIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) SFProxyText *activityTitle; // @synthesize activityTitle=_activityTitle;

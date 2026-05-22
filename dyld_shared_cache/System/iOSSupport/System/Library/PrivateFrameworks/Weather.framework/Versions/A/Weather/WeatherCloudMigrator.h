@@ -11,12 +11,12 @@
     WeatherDeviceLookup *_deviceLookup;
 }
 
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) WeatherDeviceLookup *deviceLookup; // @synthesize deviceLookup=_deviceLookup;

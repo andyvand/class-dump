@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (id);
-- (id)ºo;
+- (id)ansitionNotification;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

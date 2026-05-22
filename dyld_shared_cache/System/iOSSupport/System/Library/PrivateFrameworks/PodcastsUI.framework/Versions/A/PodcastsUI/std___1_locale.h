@@ -4,7 +4,7 @@
 
 class std::__1::locale {
 public: // (access info unavailable from symbols alone)
+    auto use_facet(std::__1::locale::id&) const;
     locale();
-    use_facet(std::__1::locale::id&) const;
     ~locale();
 };

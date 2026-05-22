@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 - (id);
 - (id);
-- (unsigned short)ing segment data to AdPlatforms because segment data changed (segmentDataTimestamp = %d > lastSentSegmentDataTimestamp %d).;
 - (id);
+- (unsigned short);
 - (id);
 - (void);
 

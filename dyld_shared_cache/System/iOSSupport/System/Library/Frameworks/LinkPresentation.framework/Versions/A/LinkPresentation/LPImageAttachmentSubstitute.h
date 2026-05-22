@@ -11,13 +11,13 @@
     long long _index;
 }
 
-+ (_Bool)plyCornerRadius:,V_applyCornerRadius /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
+- (id);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) long long index; // @synthesize index=_index;

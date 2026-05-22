@@ -12,8 +12,8 @@
 
 - (_Bool);
 - (_Bool);
-- (id)}@;
-- (id)/NSDateFormatter+RCAdditions.m;
+- (id);
+- (id);
 - (id);
 
 @end

@@ -20,27 +20,27 @@
     UILabel *_errorLabel;
 }
 
-- (id)P;
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)MSUIWebViewControllerDelegate with error:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)T(U)l;
-- (id);
-- (id);
-- (void)@;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)¼îÿÈTü;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)Ø;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

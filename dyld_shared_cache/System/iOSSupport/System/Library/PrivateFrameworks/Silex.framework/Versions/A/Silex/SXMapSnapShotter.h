@@ -11,12 +11,13 @@
     NSMutableArray *_snapshotters;
 }
 
-+ (id)7<;
++ (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
 - (id);
+- (void)Qï1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *snapshotters; // @synthesize snapshotters=_snapshotters;

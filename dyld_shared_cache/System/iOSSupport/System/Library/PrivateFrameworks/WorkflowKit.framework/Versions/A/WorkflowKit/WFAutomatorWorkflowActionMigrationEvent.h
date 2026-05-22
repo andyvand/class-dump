@@ -19,11 +19,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (_Bool)0@ù
-× ;
+- (_Bool)",R,N,V_testResult;
+- (void)in collection with an invalid identifier %{public}s;
+- (void)App (RowTemplateAppValueType);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *automatorActionIdentifier; // @synthesize automatorActionIdentifier=_automatorActionIdentifier;

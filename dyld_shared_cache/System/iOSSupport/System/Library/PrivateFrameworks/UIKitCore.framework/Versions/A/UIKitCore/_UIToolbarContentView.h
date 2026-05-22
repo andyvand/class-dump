@@ -24,41 +24,41 @@ __attribute__((visibility("hidden")))
     struct NSDirectionalEdgeInsets _padding;
 }
 
-- (void)&;
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (struct NSDirectionalEdgeInsets);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)× ;
-- (void);
-- (double)1¢!0@ù
+- (double)1Â0@ù
 × ;
-- (double)oisted"b1"animatingSearchResultsDisappearance"b1"navigationBarShadowWasHidden"b1"hoistingSearchBar"b1};
-- (double)ndView"b1"hasCustomSelectedBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"automaticallyUpdatesContentViewConfiguration"b1"clearSelectionWhenMenuDisappears"b1"waitingForSelectionAnimationHalfwayPoint"b1"contentViewWantsSystemLayoutSizeFittingSize"b1"selectionOrHighlightStateChangedSinceBackgroundUpdate"b1"allowsStateUpdatesWhenEvaluatingBackgroundAppearance"b1"lastNormalBackgroundConfigurationWasClearedForListAppearanceChange"b1"needsFocusEffectUpdateAfterLayout"b1"shouldSkipPrepareForConfigurationStateUpdate"b1"ignoreFocusStateForFetchingLastNormalConfigurationState"b1};
-- (void)tmentUnspecified"b1"resolvedMonochromaticTreatment"b2"disableGlassAdaptivitiy"b1"resolvedColorMaterialRenderingModeAutomatic"b1"resolvedColorMaterialRenderingMode"b2};
-- (struct NSDirectionalEdgeInsets)Customized_cuiStyleEffectConfiguration"b1"hasCustomized_lineSpacing"b1"hasCustomized_hyphenationFactorIgnoredIfURLsDetected"b1"hasCustomized_baselineAdjustment"b1"hasCustomized_overallWritingDirectionFollowsLayoutDirection"b1"hasCustomized_supportMultilineShrinkToFit"b1"hasCustomized_disabledTextColor"b1};
-- (long long)InExternalSettingsModification: /* Error: Ran out of types for this method. */;
-- (unsigned long long)xtWordBoundaryInString:(id)arg1 startingAt: /* Error: Ran out of types for this method. */;
-- (void)Ü;
-- (void)cument:%@ subitem did lose version at URL:%@ /* Error: Ran out of types for this method. */;
-- (void)fier:(double)arg1 %@ indexPath:(long long)arg2 %@;
-- (void)(þÿ;
-- (_Bool)<¢þÿ0Ëþÿ;
-- (void)p.pop.force;
-- (void)HIS IS NOT A UIKIT BUG - talk to this process's scene host (%@ hosted by %@);
-- (id)ARACustomizationArgsHintKey;
-- (void)= destructive;
-- (void)red.h;
-- (void)orderedDescriptors.count:%lu; eventsByDescriptor.count:%lu> /* Error: Ran out of types for this method. */;
-- (void)w:(id)arg1 Buttons added must have a title.;
-- (void)minimumHeight;
+- (void)tion"16;
+- (unsigned long long)iewWillAppear:(id)arg1;
+- (void);
+- (void)¼%d&ü'T)+;
+- (void)earchHidNavigationBar` true because navigationItem has no searchController and search bar is not hosted by navigation bar. self if a %@. viewController is a %@. navigationItem = %@;
+- (double)m reference angle mode requested for an unknown contextID (%i). Returning "unknown".;
+- (void)B;
+- (void);
+- (_Bool)xSize;
+- (void)ayout!;
+- (long long).;
+- (double)subtitle='%@';
+- (void)valuet;
+- (void)tionViewDiffableDataSourceReorderingHandlersC;
+- (struct NSDirectionalEdgeInsets);
+- (void);
+- (void)À;
 - (void);
 - (id);
-- (void)è[;
-- (struct NSDirectionalEdgeInsets)`"\;
+- (void)4.];
+- (void)@ß];
+- (id)];
+- (void)ßÐÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool compactMetrics; // @synthesize compactMetrics=_compactMetrics;

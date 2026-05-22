@@ -20,22 +20,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (struct UIEdgeInsets);
 - (double);
 - (void);
-- (id)rollbackClearContext;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool)der;
-- (long long)nsets;
+- (_Bool);
+- (long long)¨;
 
 // Remaining properties
 @property(nonatomic) __weak MFModernAtomView *hostAtomView; // @synthesize hostAtomView=_hostAtomView;

@@ -124,23 +124,21 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
 - (void);
 - (_Bool);
-- (_Bool)¡vÐ!Bù{ð1b0@ù
-× ;
-- (id)
-× ;
-- (id)êþÿ¤iþÿ0(þÿ;
-- (void)ersion;
-- (void)ÿ1ïO²5;
+- (id)¤9`:(id)arg1 Ø: /* Error: Ran out of types for this method. */;
+- (id)pe:%@ /* Error: Ran out of types for this method. */;
+- (void)sistence;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCollectionListBySection:) NSArray *_collectionListBySection; // @synthesize _collectionListBySection=__collectionListBySection;

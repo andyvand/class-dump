@@ -12,10 +12,12 @@
     MISSING_TYPE *sharedPlayerView;
 }
 
-- (void);
 - (id);
 - (void);
-- (id);
+- (id)!CùQHÐ1â
+0@ù
+× ;
+- (void)jË°#ÿ;
 
 @end
 

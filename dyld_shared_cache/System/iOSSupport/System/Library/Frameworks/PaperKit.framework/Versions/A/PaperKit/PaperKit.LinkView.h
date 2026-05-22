@@ -13,11 +13,11 @@
 }
 
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)ysisDelegate;
+- (void)xþÿªJýÿØWýÿØ>ýÿ;
 - (id);
 - (void);
 

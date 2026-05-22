@@ -40,9 +40,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)e;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

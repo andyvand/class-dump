@@ -4,31 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSDictionary, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (UITextPosition *);
-- (UITextRange *)roller;
-- (UITextPosition *)mentaryHeaderViews;
-- (void)ckViewDelegateProtocol;
-- (NSDictionary *)cessibility;
-- (void)_AX_resignFirstResponder;
-- (struct CGRect)s.button;
-- (id <UITextInputTokenizer>)kup;
-- (id <UITextInputDelegate>)ickerView;
+- (void)
+× ;
+- (UITextPosition *)wController:(UITextPosition *)arg1;
+- (UITextPosition *)us: /* Error: Ran out of types for this method. */;
+- (id <UITextInputDelegate>),N;
+- (id <UITextInputTokenizer>);
+- (void);
+- (struct CGRect)ote view on request;
+- (void)bleDictionaries;
+- (UITextRange *)View;
+- (UITextRange *)esentationStyle;
+- (UITextPosition *)AttachmentViewProvider;
+- (UITextPosition *)n;
+- (void)ew;
+- (void)ty;
 
 @optional
-- (void).ð!dCùQGÐ1b0@ù
-× ;
-- (void)ElementsForContextId: /* Error: Ran out of types for this method. */;
-- (_Bool)ng;
-- (UITextPlaceholder *)rOperatorAccessibility;
-- (_Bool)ccessibility_super;
-- (void)ssViewControllerWithTransition:(struct CGPoint)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)ckerViewComponent>;
-- (void)Accessibility;
-- (void)mView;
+- (struct CGRect);
+- (UIView *)ibilityPresentationControllerModalizes;
+- (UITextPosition *);
+- (void)ctionInputViewAccessibility;
+- (_Bool)Active:animated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -58,5 +59,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

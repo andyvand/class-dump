@@ -16,20 +16,20 @@ __attribute__((visibility("hidden")))
     UIViewController *_inspectedVC;
 }
 
-- (id)knameRecords;
-- (id)submit task request for %s with error:%@ /* Error: Ran out of types for this method. */;
-- (void)to resume %{public}s;
-- (void)candidate for spam filtering.;
+- (id);
+- (id);
 - (void);
-- (long long);
-- (id)R2;
+- (void);
 - (void);
 - (id);
-- (void)!\Eù±ÂÐ1¢!0@ù
+- (id);
+- (long long);
+- (void);
+- (void);
+- (long long)áÿð!<EùñXð1Â0@ù
 × ;
-- (void)@"UIKeyEvent";
-- (long long)ewController;
-- (void)d;
+- (void)PäU;
+- (void)ÇÇÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

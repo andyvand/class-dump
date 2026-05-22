@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UITraitCollection;
+@class NSString, UITraitCollection;
 
 @protocol CKMessageEntryBackgroundViewProtocol
-- (void)tationStyleAccessibilityDescriptionForRange:(UITraitCollection *)arg1;
-- (NSArray *);
-- (UITraitCollection *);
-- (UIColor *)apple.NotesDebug.HTMLConverter;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backdropGroupName;

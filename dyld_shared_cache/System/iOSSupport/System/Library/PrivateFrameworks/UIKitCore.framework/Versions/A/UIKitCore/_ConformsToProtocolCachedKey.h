@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     Protocol *_protocol;
 }
 
-- (unsigned long long)noteButtonStackDummyView: /* Error: Ran out of types for this method. */;
-- (_Bool)cs_get_request.c;
-- (void);
-- (id)We lost count one way or another, or else we had a stack recursion. self = %@;
+- (unsigned long long);
+- (_Bool)onView:(id)arg1;
+- (id)aLight;
+- (void)_;
 
 @end
 

@@ -16,13 +16,14 @@
 }
 
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *title;

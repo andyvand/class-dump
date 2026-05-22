@@ -13,8 +13,8 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)alletButtonTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) HUNaturalLightColorSwatchView *swatchView; // @synthesize swatchView=_swatchView;

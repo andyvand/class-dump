@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)gationBar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;

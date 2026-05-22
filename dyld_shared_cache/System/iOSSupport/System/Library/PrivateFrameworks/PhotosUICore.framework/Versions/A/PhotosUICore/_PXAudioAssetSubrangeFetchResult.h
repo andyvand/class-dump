@@ -16,16 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (void)û²l¬Ö0e;
-- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id)1yð1b0@ù
-× ;
-- (id);
-- (void)mnsOverride;
-- (id)te SyncProgress;
-- (long long)a;
+- (id)faultANEDevice;
+- (id)Ðc;
+- (long long);
+- (void)s;
+- (id)Qôø(ÿù(ÿÉèÅF;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

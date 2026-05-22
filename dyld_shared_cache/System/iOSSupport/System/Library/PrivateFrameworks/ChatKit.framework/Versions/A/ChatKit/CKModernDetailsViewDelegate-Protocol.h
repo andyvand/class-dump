@@ -5,9 +5,5 @@
 //
 
 @protocol CKModernDetailsViewDelegate
-- (void)¼®í;
-- (void)~sô;
-- (void)°í;
-- (void)·Ö;
 @end
 

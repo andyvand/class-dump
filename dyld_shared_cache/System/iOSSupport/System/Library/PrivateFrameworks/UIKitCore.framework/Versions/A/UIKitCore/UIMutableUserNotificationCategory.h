@@ -12,8 +12,8 @@
 {
 }
 
-- (void):(id)arg1 shouldWriteMore:(unsigned long long)arg2 activity:completion: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
+- (id)efaultTextInputAssistantItem;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @dynamic identifier;

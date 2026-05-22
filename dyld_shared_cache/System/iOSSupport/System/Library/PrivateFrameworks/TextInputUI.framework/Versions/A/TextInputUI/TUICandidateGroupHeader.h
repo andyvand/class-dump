@@ -19,26 +19,26 @@
 }
 
 + (id);
-- (struct CGRect)ãz;
-- (void)ø_bz;
-- (void);
-- (void);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
+- (long long);
 - (double);
 - (id);
-- (id);
-- (long long);
+- (struct CGRect);
 - (void);
 - (void);
-- (struct CGRect)tPrimaryGrid: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;

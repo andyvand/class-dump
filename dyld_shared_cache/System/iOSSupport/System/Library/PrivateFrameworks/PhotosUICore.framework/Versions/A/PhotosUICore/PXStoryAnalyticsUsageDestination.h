@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void)teringDisabled:(id)arg1 forAssetCollection: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

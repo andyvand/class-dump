@@ -15,24 +15,24 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_footerDataMap;
 }
 
-- (id)SyncTokenStore:(long long)arg1;
-- (id)onToken:(long long)arg1 encryptionValidationToken: /* Error: Ran out of types for this method. */;
-- (id)ecordIDstoDelete:(long long)arg1;
-- (void)singQueue;
-- (void)r;
-- (void)enerAccountsProtocol;
-- (void);
-- (double);
-- (double);
-- (double);
-- (void);
-- (long long);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)ForFrame:(id)arg1;
-- (id)V_contextManagementPolicy;
-- (long long)ISSecureControlCategory",R,N,V_category;
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
+- (double);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (long long)SearchingStyles;
+- (long long)L;
+- (void)XGg;
 
 // Remaining properties
 @property(readonly, nonatomic) long long numberOfSections;

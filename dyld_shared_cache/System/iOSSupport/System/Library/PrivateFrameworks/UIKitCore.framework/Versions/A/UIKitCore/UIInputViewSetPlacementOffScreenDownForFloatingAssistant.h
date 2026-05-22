@@ -11,11 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)×ÁÕ;
 - (_Bool);
-- (_Bool);
-- (Class)tation;
-- (struct CGRect)¼FÅÿ»ÐP`;
+- (struct CGRect)AÐ!8Eù\ð1Â0@ù
+× ;
+- (_Bool);
+- (Class)AnimationFPS;
 
 @end
 

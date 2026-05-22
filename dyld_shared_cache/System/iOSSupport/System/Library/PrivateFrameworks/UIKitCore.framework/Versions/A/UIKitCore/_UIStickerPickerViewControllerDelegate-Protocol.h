@@ -5,9 +5,5 @@
 //
 
 @protocol _UIStickerPickerViewControllerDelegate
-
-@optional
-- (void)set:%d /* Error: Ran out of types for this method. */;
-- (void)ayload is NULL;
 @end
 

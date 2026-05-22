@@ -4,23 +4,23 @@
 
 class HelperBase<GenericOutOfLine> {
 public: // (access info unavailable from symbols alone)
-    cleanup_captures(ExcpCleanupInfo*);
-    cleanup_captures(ExcpCleanupInfo*) (.cold.1);
-    copyBlock(Block_layout*, Block_layout*);
-    copyBlock(Block_layout*, Block_layout*) (.cold.1);
-    copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)3>(unsigned int);
-    copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)3>(unsigned int) (.cold.1);
-    copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)4>(unsigned int);
-    copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)4>(unsigned int) (.cold.1);
-    copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)5>(unsigned int);
-    copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)5>(unsigned int) (.cold.1);
-    copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)6>(unsigned int);
-    copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)6>(unsigned int) (.cold.1);
-    destroyBlock(Block_layout*, bool, unsigned char*);
-    destroyBlock(Block_layout*, bool, unsigned char*) (.cold.1);
-    destroyBlock(Block_layout*, bool, unsigned char*) (.cold.2);
-    disposeCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)3>(unsigned int, unsigned char*);
-    disposeCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)4>(unsigned int, unsigned char*);
-    disposeCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)5>(unsigned int, unsigned char*);
-    disposeCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)6>(unsigned int, unsigned char*);
+    auto cleanup_captures(ExcpCleanupInfo*);
+    auto cleanup_captures(ExcpCleanupInfo*) (.cold.1);
+    auto copyBlock(Block_layout*, Block_layout*);
+    auto copyBlock(Block_layout*, Block_layout*) (.cold.1);
+    auto destroyBlock(Block_layout*, bool, unsigned char*);
+    auto destroyBlock(Block_layout*, bool, unsigned char*) (.cold.1);
+    auto destroyBlock(Block_layout*, bool, unsigned char*) (.cold.2);
+    bool disposeCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)3>(unsigned int, unsigned char*);
+    bool disposeCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)4>(unsigned int, unsigned char*);
+    bool disposeCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)5>(unsigned int, unsigned char*);
+    bool disposeCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)6>(unsigned int, unsigned char*);
+    void copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)3>(unsigned int);
+    void copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)3>(unsigned int) (.cold.1);
+    void copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)4>(unsigned int);
+    void copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)4>(unsigned int) (.cold.1);
+    void copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)5>(unsigned int);
+    void copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)5>(unsigned int) (.cold.1);
+    void copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)6>(unsigned int);
+    void copyCapture<(HelperBase<GenericOutOfLine>::BlockCaptureKind)6>(unsigned int) (.cold.1);
 };

@@ -32,13 +32,13 @@
 + (id);
 - (void);
 - (void);
-- (void)RLSession"16@"NSURLSessionTask"24@"NSURLRequest"32@?<v@?q@"NSURLRequest">40;
-- (void)Lock;
-- (id)OperationsCancelled;
-- (void)Data: /* Error: Ran out of types for this method. */;
-- (void)y=%@>;
-- (void)figuration/RemoteConfiguration/Utilities/RCCast.m;
-- (void)Wrappers;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (struct CGAffineTransform);
 - (struct CGRect);
@@ -59,7 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (struct CGAffineTransform);
@@ -78,7 +78,7 @@
 - (void);
 - (void);
 - (double);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
 - (void);
 - (void);
 - (void);
@@ -90,17 +90,17 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (struct CGAffineTransform);
 - (void);
 - (void);
-- (void)rrectionIdentifier:(id)arg1 forItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (id)rGlyphRange:inTextContainer: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (id);
 - (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (void),V__resultQueryItem;
 
 // Remaining properties
 @property(nonatomic) _Bool canRulerSnapToAngle; // @synthesize canRulerSnapToAngle=_canRulerSnapToAngle;

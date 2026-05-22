@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)eraSettingsSectionIdentifier;
 
 // Remaining properties
 @property(nonatomic) _Bool forceHidden; // @synthesize forceHidden=_forceHidden;

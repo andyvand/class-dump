@@ -37,25 +37,26 @@
 - (id);
 - (_Bool);
 - (id);
-- (struct CGSize);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (long long);
-- (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (struct CGSize);
 - (void);
-- (unsigned long long)trollerState:forMessageIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)x@ùUÐðµÂ)v;
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (struct CGSize);
+- (unsigned long long);
+- (void)
+× ;
+- (id);
+- (long long);
+- (void)Ðûÿ/á );
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -65,20 +65,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_allElements; // @synthesize _allElements=__allElements;

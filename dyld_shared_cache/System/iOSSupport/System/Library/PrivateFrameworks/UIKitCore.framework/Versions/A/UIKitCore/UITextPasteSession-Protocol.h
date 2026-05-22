@@ -8,10 +8,10 @@
 @protocol UITextPasteSessionDelegate;
 
 @protocol UITextPasteSession
-- (void)ate sealing data class string from '%s';
-- (id <UITextPasteSessionDelegate>)CyþÿFüÿ;
-- (void)ics;
-- (UITextRange *)d;
+- (void)
+× ;
+- (UITextRange *)QbÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak id <UITextPasteSessionDelegate> delegate;

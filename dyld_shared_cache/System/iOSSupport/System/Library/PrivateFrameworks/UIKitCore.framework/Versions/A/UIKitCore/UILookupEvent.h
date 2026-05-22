@@ -14,20 +14,18 @@
     struct CGPoint _sceneReferenceLocation;
 }
 
-- (void);
-- (void)`;
-- (void);
-- (void)0@ù
-× ;
-- (id)!GùÑÇÐ1¢!0@ù
-× ;
+- (unsigned long long);
 - (id);
-- (long long)0@0:8Q16@24@32 /* Error: Ran out of types for this method. */;
-- (id)ognizer",R,N,V_dismissalGestureRecognizer;
-- (long long)oundEffects;
-- (struct CGPoint)dêÿ+UÔf;
-- (unsigned long long)îåg;
-- (_Bool);
+- (id);
+- (long long)eraction"24@"UIDragItem"32@"<UIDragAnimating>"40;
+- (void)th: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)HoverEventsWhilePointerIsLocked;
+- (_Bool)nimation=%@, animationKey=%@; trace=%@;;
+- (long long)_UILightEffectTransitionView;
+- (void)¿ñf;
+- (void)Kÿ;
+- (void)ÿ°®i;
+- (id)ÿ±ØÈKk;
 
 // Remaining properties
 @property(readonly) unsigned long long phase;

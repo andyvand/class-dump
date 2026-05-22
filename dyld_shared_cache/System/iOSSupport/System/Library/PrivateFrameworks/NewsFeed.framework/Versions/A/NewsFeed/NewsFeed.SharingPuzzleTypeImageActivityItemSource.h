@@ -11,10 +11,10 @@
     MISSING_TYPE *image;
 }
 
-- (id)=;
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)l%÷þ}:%÷þ /* Error: Ran out of types for this method. */;
 
 @end
 

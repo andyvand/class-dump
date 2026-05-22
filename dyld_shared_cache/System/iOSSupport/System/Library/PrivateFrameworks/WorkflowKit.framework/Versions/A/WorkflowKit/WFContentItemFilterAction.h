@@ -31,9 +31,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)©à¸ªèø©D«`#Xªh¿XGÉ;
-- (_Bool)¶Ì;
-- (unsigned long long)+Ì;
+- (id);
+- (_Bool);
+- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
@@ -54,8 +54,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (struct _WFContentSlice);
 - (id);
+- (struct _WFContentSlice);
 
 // Remaining properties
 @property(nonatomic, readonly) WFContentPredicate *contentPredicate;

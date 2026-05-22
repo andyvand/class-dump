@@ -31,8 +31,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)ger;
 
 @end
 

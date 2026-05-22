@@ -18,12 +18,12 @@
     MISSING_TYPE *blueprintHorizontalShimView;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)Pxáÿtxáÿxáÿ¼xáÿàxáÿyáÿ@yáÿdyáÿyáÿÄyáÿèyáÿ4záÿzáÿÌzáÿL{áÿX{áÿ|{áÿ{áÿ|áÿ¨|áÿ0}áÿÐ}áÿÜ}áÿ,~áÿP~áÿ|~áÿ ~áÿáÿtáÿáÿ¼áÿìáÿáÿ4áÿpáÿáÿ|áÿ áÿÜáÿ;
+- (void);
+- (void);
+- (void);
 
 @end
 

@@ -10,6 +10,8 @@
 {
     MISSING_TYPE *_isPlatterExpanded;
     MISSING_TYPE *_buttonDragTranslation;
+    MISSING_TYPE *_isButtonTouchedDown;
+    MISSING_TYPE *_touchDownDidExpandPlatter;
     MISSING_TYPE *_$observationRegistrar;
 }
 

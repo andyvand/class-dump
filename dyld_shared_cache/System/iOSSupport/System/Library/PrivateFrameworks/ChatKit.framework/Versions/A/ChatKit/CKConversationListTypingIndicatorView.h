@@ -17,23 +17,23 @@
 
 - (id);
 - (double);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)roller;
-- (_Bool)LEASE_READ_COMMENTS;
 - (void);
-- (void);
-- (void)H;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool)l,A§ÿl(A§ÿ;
+- (void)4ÜÅ.;
 
 // Remaining properties
 @property(nonatomic) _Bool flipForRTLLayout; // @synthesize flipForRTLLayout=_flipForRTLLayout;

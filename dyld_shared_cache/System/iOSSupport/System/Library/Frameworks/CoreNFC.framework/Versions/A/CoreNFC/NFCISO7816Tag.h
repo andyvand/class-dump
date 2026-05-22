@@ -14,6 +14,7 @@
 
 - (void);
 - (id);
+- (_Bool);
 - (id);
 
 // Remaining properties
@@ -30,6 +31,7 @@
 @property(readonly, retain, nonatomic) NSString *initialSelectedAID;
 @property(readonly, nonatomic) _Bool proprietaryApplicationDataCoding;
 @property(readonly) Class superclass;
+@property(readonly, nonatomic) _Bool supportsPACE;
 
 @end
 

@@ -11,13 +11,13 @@
     struct CGAffineTransform _transform;
 }
 
+- (void);
 - (struct CGAffineTransform);
-- (double);
+- (id);
 - (long long);
 - (void);
-- (id);
 - (void);
-- (void)r;
+- (double)le;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

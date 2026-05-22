@@ -15,6 +15,7 @@
     _Bool _complicationsUseBottomLayout;
     NSString *_previewUniqueIdentifier;
     NSString *_semanticIdentifier;
+    NSString *_accessibilityIdentifier;
     NSString *_displayNameLocalizationKey;
     NSString *_galleryLocalizedTitle;
     NSString *_galleryLocalizedDescription;
@@ -39,30 +40,33 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool)ationEntries: /* Error: Ran out of types for this method. */;
-- (unsigned long long)Cannot dismiss; couldn't unwrap initial centeredPosterIndexPath;
+- (void)0@ù
+× ;
 
 // Remaining properties
+@property(readonly, copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
 @property(readonly, copy, nonatomic) NSString *complicationLayoutType; // @synthesize complicationLayoutType=_complicationLayoutType;
 @property(readonly, nonatomic) _Bool complicationsUseBottomLayout; // @synthesize complicationsUseBottomLayout=_complicationsUseBottomLayout;
 @property(readonly, copy) NSString *debugDescription;

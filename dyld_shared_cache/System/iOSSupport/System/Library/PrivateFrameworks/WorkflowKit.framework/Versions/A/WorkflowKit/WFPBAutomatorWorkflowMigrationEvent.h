@@ -23,21 +23,21 @@
 - (unsigned int);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)tyContentItemClass:toContentItemClass: /* Error: Ran out of types for this method. */;
+- (_Bool)Ðî;
+- (void)ialog request response;
+- (void)is not valid;
 
 // Remaining properties
 @property(nonatomic) unsigned int automatorActionCount; // @synthesize automatorActionCount=_automatorActionCount;

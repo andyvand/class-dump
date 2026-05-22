@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (CDUnknownBlockType);
-- (void)0e;
 - (id);
-- (id)itsWidth:withMeasuringBlock: /* Error: Ran out of types for this method. */;
+- (id)ý;
+- (CDUnknownBlockType)out setTitle:] /* Error: Ran out of types for this method. */;
+- (void)ed Highlight Columns;
 
 // Remaining properties
 @property(readonly, nonatomic) PXFlexMusicAsset *asset; // @synthesize asset=_asset;

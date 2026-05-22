@@ -4,5 +4,5 @@
 
 class icu::ISO8601Calendar {
 public: // (access info unavailable from symbols alone)
-    getStaticClassID();
+    auto getStaticClassID();
 };

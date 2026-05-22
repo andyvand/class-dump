@@ -20,20 +20,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)keeper:(_Bool)arg1 error:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void);
-- (id)llSortedPuzzleIDsSinceLastPlayedDate:(id)arg1;
-- (id)N,V_HTTPStatusCode;
-- (void);
-- (void)A;
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)× ;
+- (void)$DüÿhDüÿ¨DüÿÀDüÿäDüÿüDüÿdEüÿEüÿ¬EüÿÄEüÿÜEüÿ4FüÿlFüÿFüÿFüÿÔFüÿìFüÿ0GüÿhGüÿHüÿxHüÿèHüÿÀIüÿJüÿÐJüÿ(Küÿ`KüÿxKüÿÜKüÿLüÿ4LüÿlLüÿLüÿàLüÿMüÿ<MüÿMüÿ¼MüÿNüÿOüÿ¨OüÿÀOüÿPüÿPPüÿÀPüÿÈQüÿ°RüÿSüÿSüÿ0TüÿpTüÿTüÿ¨TüÿUüÿ0Uüÿ¸UüÿVüÿVüÿ¨VüÿWüÿdWüÿ|WüÿWüÿ¬WüÿÄWüÿÜWüÿXüÿ<XüÿdXüÿÌXüÿäXüÿüXüÿYüÿäYüÿlZüÿ¬ZüÿÐZüÿèZüÿ[üÿ]üÿÐ]üÿ8^üÿP^üÿx^üÿ^üÿ¸^üÿ_üÿ´_üÿÌ_üÿä_üÿü_üÿ$`üÿ`üÿØ`üÿaüÿÄaüÿ(büÿhbüÿ büÿpcüÿÐcüÿdüÿpdüÿ¨düÿ;
 - (id);
 - (long long);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)LÜÑÿLØÑÿ;
+- (void)%;
+- (void)@{Ëÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *keyCommands;

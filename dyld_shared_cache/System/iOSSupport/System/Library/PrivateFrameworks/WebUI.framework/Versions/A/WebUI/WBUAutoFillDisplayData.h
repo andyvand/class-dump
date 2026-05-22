@@ -13,16 +13,16 @@
 }
 
 + (_Bool);
-- (id)DismissTimerFired;
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *fillMatches; // @synthesize fillMatches=_fillMatches;

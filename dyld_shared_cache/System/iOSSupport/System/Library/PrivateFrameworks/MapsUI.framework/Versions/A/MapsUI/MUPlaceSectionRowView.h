@@ -22,15 +22,15 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)wModel;
+- (id)ctionController",W,N,V_hikingTipSectionController;
 - (_Bool);
-- (id)V¦ù+v	;
+- (struct CGRect);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,13 +12,14 @@
     double _lineWidth;
 }
 
-- (_Bool)dataProviderSpecialization (ID:%@) - Failed parsing response dictionary. /* Error: Ran out of types for this method. */;
-- (void);
-- (id)(;
-- (void);
+- (_Bool);
+- (id);
 - (id);
 - (void);
-- (double):] /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

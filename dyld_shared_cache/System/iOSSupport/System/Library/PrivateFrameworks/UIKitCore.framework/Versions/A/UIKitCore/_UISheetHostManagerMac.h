@@ -20,11 +20,8 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _dismissCompletionBlock;
 }
 
-- (id)add %s data;
-- (void)LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -35,27 +32,27 @@ h0Sm4iIj1I5P1NFGq/jR8A==
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool)INKEDIT;
-- (struct CGSize)UnlockTriggered;
-- (void)Service;
-- (_Bool)8;
-- (CDUnknownBlockType);
+- (_Bool);
+- (struct CGSize);
+- (void);
+- (_Bool);
+- (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id)nTrailing;
+- (void)­13HÏqþ;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool appkitDidDismiss; // @synthesize appkitDidDismiss=_appkitDidDismiss;

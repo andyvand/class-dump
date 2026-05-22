@@ -22,12 +22,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)ctionKit13WFPublicEvent"8Q16;
 
 // Remaining properties
 @property(retain, nonatomic) AVSpeechSynthesisVoice *avVoice; // @synthesize avVoice=_avVoice;

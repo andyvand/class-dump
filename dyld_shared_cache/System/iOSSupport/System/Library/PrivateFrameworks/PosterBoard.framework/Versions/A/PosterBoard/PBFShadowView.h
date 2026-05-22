@@ -18,10 +18,12 @@
 - (void);
 - (long long);
 - (void);
-- (double);
 - (struct CGRect);
+- (double);
 - (void);
-- (void)nager:(double)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (void)¿°!Gù	1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

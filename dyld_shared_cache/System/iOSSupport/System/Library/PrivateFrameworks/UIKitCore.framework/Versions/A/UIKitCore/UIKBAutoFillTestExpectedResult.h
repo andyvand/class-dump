@@ -13,15 +13,14 @@ __attribute__((visibility("hidden")))
     long long _formType;
 }
 
-- (long long)stingGroupChatsContainingHandles:(long long)arg1;
-- (void)val;
-- (void)c;
 - (long long);
 - (void);
+- (void);
+- (long long);
 - (id);
-- (void)!ìCùñÁð1¢!0@ù
-× ;
-- (id)edState;
+- (id);
+- (void)minate;
+- (void)IÀÿ1H;
 
 // Remaining properties
 @property(nonatomic) long long formType; // @synthesize formType=_formType;

@@ -4,5 +4,5 @@
 
 class GLDLibrary {
 public: // (access info unavailable from symbols alone)
-    getAllDisplayMask();
+    auto getAllDisplayMask();
 };

@@ -760,7 +760,7 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
 };
 
 struct unordered_map<long, UICollectionViewLayoutAttributes *, std::hash<long>, std::equal_to<long>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>> {
-    struct __hash_table<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, std::__unordered_map_hasher<long, std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, std::hash<long>, std::equal_to<long>>, std::__unordered_map_equal<long, std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, std::equal_to<long>, std::hash<long>>, std::allocator<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>>> {
+    struct __hash_table<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, std::__unordered_map_hasher<long, std::pair<const long, UICollectionViewLayoutAttributes *>, std::hash<long>, std::equal_to<long>>, std::__unordered_map_equal<long, std::pair<const long, UICollectionViewLayoutAttributes *>, std::equal_to<long>, std::hash<long>>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *>*> {
@@ -773,7 +773,7 @@ struct unordered_map<long, UICollectionViewLayoutAttributes *, std::hash<long>, 
 };
 
 struct unordered_map<void (*)(), _UITrackedTraitUsageRecord, std::hash<void (*)()>, std::equal_to<void (*)()>, std::allocator<std::pair<void (*const)(), _UITrackedTraitUsageRecord>>> {
-    struct __hash_table<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, std::__unordered_map_hasher<void (*)(), std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, std::hash<void (*)()>, std::equal_to<void (*)()>>, std::__unordered_map_equal<void (*)(), std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, std::equal_to<void (*)()>, std::hash<void (*)()>>, std::allocator<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>>> {
+    struct __hash_table<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, std::__unordered_map_hasher<void (*)(), std::pair<void (*const)(), _UITrackedTraitUsageRecord>, std::hash<void (*)()>, std::equal_to<void (*)()>>, std::__unordered_map_equal<void (*)(), std::pair<void (*const)(), _UITrackedTraitUsageRecord>, std::equal_to<void (*)()>, std::hash<void (*)()>>, std::allocator<std::pair<void (*const)(), _UITrackedTraitUsageRecord>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *>*> {
@@ -1157,8 +1157,9 @@ typedef struct {
 typedef struct {
     long long row;
     long long column;
+    long long touchType;
     _Bool isValid;
-} CDStruct_24322269;
+} CDStruct_3f566597;
 
 typedef struct CDStruct_183601bc;
 

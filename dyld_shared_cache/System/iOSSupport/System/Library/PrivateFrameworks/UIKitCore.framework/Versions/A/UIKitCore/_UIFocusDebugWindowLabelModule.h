@@ -16,10 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id)0@ù
-× ;
-- (void);
-- (id)eForFocusedState;
+- (id)r;
+- (id)ct ui_archive_entry *);
+- (void)mÕÄº[;
 
 @end
 

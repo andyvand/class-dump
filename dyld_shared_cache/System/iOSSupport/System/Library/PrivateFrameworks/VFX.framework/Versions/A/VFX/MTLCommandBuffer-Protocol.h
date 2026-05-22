@@ -5,21 +5,153 @@
 //
 
 @class NSError, NSString;
-@protocol MTLCommandQueue, MTLDevice, MTLLogContainer;
+@protocol MTLCommandQueue, MTLComputeCommandEncoder, MTLDevice, MTLEvent, MTLLogContainer;
 
 @protocol MTLCommandBuffer
-- (id <MTLDevice>);
-- (void)Ù&Ô1µÿ;
-- (void)µ6ÕØ6;
+- (void)ion:(const id *)arg1;
+- (void);
+- (void)blendFactor;
+    float postBlendSumFactor;
+} VFX_RE_C_IBLConstants;
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_LIGHTING
+namespace re {
+    struct LightConstantBuffer;
+    struct IBLConstants;
+}
+typedef re:(id <MTLEvent>)arg1:(unsigned long long)arg2 LightConstantBuffer LightConstantBuffer;
+typedef re::IBLConstants IBLConstants;
+#else
+typedef VFX_RE_C_LightConstantBuffer LightConstantBuffer;
+typedef VFX_RE_C_IBLConstants IBLConstants;
+#endif 
+
+typedef struct VFX_RE_C_ProbeConstantBuffer_s VFX_RE_C_ProbeConstantBuffer;
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_PROBES
+namespace re {
+    struct ProbeConstantBuffer;
+}
+typedef re::ProbeConstantBuffer ProbeConstantBuffer;
+#else
+typedef VFX_RE_C_ProbeConstantBuffer ProbeConstantBuffer;
+#endif 
+
+#  ifdef __cplusplus
+namespace VirtualEnvironmentProbeLighting {
+    typedef struct VFX_RE_C_TextureArgumentBuffer_s VFX_RE_C_TextureArgumentBuffer;
+    typedef struct VFX_RE_C_ProbeConstantBuffer_s VFX_RE_C_ProbeConstantBuffer;
+}
+#  endif
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_VIRTUAL_ENV_PROBES
+namespace re { namespace VirtualEnvironmentProbeLighting {
+    struct TextureArgumentBuffer;
+    struct ProbeConstantBuffer;
+}}
+namespace VirtualEnvironmentProbeLighting {
+    typedef re::VirtualEnvironmentProbeLighting::TextureArgumentBuffer TextureArgumentBuffer;
+    typedef re::VirtualEnvironmentProbeLighting::ProbeConstantBuffer ProbeConstantBuffer;
+}
+#else
+#  ifdef __cplusplus
+namespace VirtualEnvironmentProbeLighting {
+    typedef VFX_RE_C_TextureArgumentBuffer TextureArgumentBuffer;
+    typedef VFX_RE_C_ProbeConstantBuffer ProbeConstantBuffer;
+}
+#  endif
+#endif 
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_BREAKTHROUGH
+namespace re {
+    struct BreakthroughGPUData;
+}
+typedef re::BreakthroughGPUData BreakthroughGPUData;
+#elif defined(__cplusplus)
+struct BreakthroughGPUData;
+#endif 
+
+#ifdef __cplusplus
+struct re_entity_argument_buffer;
+struct re_scene_argument_buffer;
+struct re_vfx_object_constants;
+#endif
+
+#endif 
+ /* Error: Ran out of types for this method. */;
+- (void)fx_render_option_enable_dither_fade);
+    }
+
+    void enableDitherFade() {
+        enable(vfx_render_option_enable_dither_fade);
+    }
+
+    void disableBreakthrough() {
+        disable(vfx_render_option_enable_breakthrough);
+    }
+
+    void enableNearFieldVignetting() {
+        enable(vfx_render_option_enable_nearfield_vignetting);
+    }
+
+    uint16_t applyOverrideOn(uint16_t optionFlags) const {
+        return (optionFlags | (overrideValues & overrideBits)) & (overrideValues | ~overrideBits);
+    }
+
+    void enable(uint16_t flag) {
+        overrideBits |= flag;
+        overrideValues |= flag;
+    }
+
+    void disable(uint16_t flag) {
+        overrideBits |= flag;
+        overrideValues &= ~flag;
+    }
+};
+#endif
+
+#endif 
+;
+- (void)ICES_BUFFER_INDEX) ]],
+                                         constant packed_int3*        osdFaceVaryingPatchParams        [[ buffer(OSD_FVAR_PATCHPARAM_BUFFER_INDEX) ]],
+                                         constant packed_int4&        osdFaceVaryingPatchArray         [[ buffer(OSD_FVAR_PATCH_ARRAY_BUFFER_INDEX) ]]
+#endif
+                                         )
+{
+    if (index >= pointCount)
+        return;
+    
+    
+    
+    osd_rt_extra_point extraPoint = extraPoints[index];
+    
+    osd_rt_eval_fvar(dstData + index * vertexStride,
+#if OSD_FVAR_USES_MULTIPLE_CHANNELS
+                     osdFaceVaryingChannelCount,
+                     osdFaceVaryingChannelDescriptors,
+                     osdFaceVaryingPatchArrayIndex,
+                     osdFaceVaryingChannelsPackedData,
+#else
+                     osdFaceVaryingData,
+                     osdFaceVaryingIndices,
+                     osdFaceVaryingPatchParams,
+                     osdFaceVaryingPatchArray,
+#endif
+                     extraPoint.patchID,
+                     extraPoint.UV);
+    
+}
+
+#endif 
+;
+- (void)r;
+- (id <MTLComputeCommandEncoder>);
+- (void)ÊpÊÜ×Ë;
+- (id <MTLCommandQueue>)der_uniforms;
+- (id <MTLLogContainer>)a°¾óY?Ú@?Uû\?{¤©¾lË?ãF?º¿^?ãQ¢¾|¶
+?uM?v`?Xq¾¼;
+- (void)È,?£ZX?ô»¾ð/?MÀ3?%[?p¶¾¾Ý&? ¦:?å]?¦í¯¾h@?lA?k*_?Q2©¾»?ØH?xÔ`?´ä¡¾ñ·	?jN?Ub?ï¾æ[ÿ>´T?,cc?û¾*äê>±Z?ßc?]¾¡ôÕ>Î9`?É /* Error: Ran out of types for this method. */;
 - (void);
-- (void)®õì×À9Ø;
-- (id <MTLCommandQueue>)h>;
-- (void)?ªÖF?;
-- (void)xÆ;A×ù?;
-- (void)ÐÐ?¾Õ?>f¾s?C7?C86¾ËK>×t?CÈ?ò´,¾`Z>pìu??© "¾Ö6u>?w?´°?Ç¾lb>
-x?	ù?['¾AP>î
-y?1~?%É¾>> üy?Q/? Dò½"5->âz?-|?ßþÜ½>V¶{?µNx?ÂÇ½>¼w|?rÂt?L²½`tù=$)}?q?pa½T¬Ú=øÅ}?P©n?o½+Ú¼=/P~?nl?mTg½G=TÇ~?yæi?ÑÍ>½ðü=I*?Þh?7½§ÌM=z?×gf?ðÝ¼\=þ¶?:êd?D¥¼y°Å<à?vmc?¼Á /* Error: Ran out of types for this method. */;
-- (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 
 // Remaining properties
 @property(readonly) double GPUEndTime;

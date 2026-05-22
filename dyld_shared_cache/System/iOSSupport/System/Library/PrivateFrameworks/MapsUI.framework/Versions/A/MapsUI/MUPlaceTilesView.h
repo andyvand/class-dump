@@ -42,16 +42,16 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void)ViewController"16;
-- (void)iderCSg;
+- (void)nConfiguration: /* Error: Ran out of types for this method. */;
+- (id)(lDì;
 
 // Remaining properties
 @property(retain, nonatomic) MUPunchoutViewModel *accessoryViewModel; // @synthesize accessoryViewModel=_accessoryViewModel;

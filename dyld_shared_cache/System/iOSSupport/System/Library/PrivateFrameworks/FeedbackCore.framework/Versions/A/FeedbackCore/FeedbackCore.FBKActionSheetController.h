@@ -18,12 +18,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
+- (void)leIcon;
 
 // Remaining properties
 @property(nonatomic) _Bool dismissesOnAction;

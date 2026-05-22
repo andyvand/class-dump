@@ -11,13 +11,13 @@
     long long _index;
 }
 
-+ (_Bool),N,V_showsControls;
++ (_Bool);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (long long);
 - (void);
+- (long long);
+- (void)LinkView;
 
 // Remaining properties
 @property(nonatomic) long long index; // @synthesize index=_index;

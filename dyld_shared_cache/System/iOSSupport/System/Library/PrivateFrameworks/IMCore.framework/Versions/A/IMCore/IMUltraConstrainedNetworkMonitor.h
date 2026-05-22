@@ -11,10 +11,10 @@
     MISSING_TYPE *isUltraConstrained;
 }
 
-+ (id)(»æÿ;
++ (id);
+- (id);
 - (void);
 - (void);
-- (id);
 
 @end
 

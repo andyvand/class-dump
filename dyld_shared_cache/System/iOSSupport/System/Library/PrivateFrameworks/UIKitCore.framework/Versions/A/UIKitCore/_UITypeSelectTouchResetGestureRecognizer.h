@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
 - (_Bool);
-- (void)!GùqÄÐ1¢!0@ù
+- (_Bool)0@ù
 × ;
-- (void);
-- (void)=QQ}24{_NSRange=QQ}40;
-- (void)FromOffset:(id)arg1 toOffset:(id)arg2;
-- (_Bool)Á;
-- (_Bool)R9awAAAABJRU5ErkJggg==;
-- (_Bool)on (PopoverGlassTraitCollectionReader in _7ECF3A681218F987914274EE1CEB862F).;
-- (_Bool)(±þ;
+- (_Bool)0:(id)arg1 8@16{CGRect={CGPoint=dd}{CGSize=dd}}24d56B64B68;
+- (void)ing:(id)arg1 searchString:(id)arg2;
+- (void)kgroundBlurEffectStyle;
+- (void)g;
+- (_Bool)elligenceCollectContentIn:(id)arg1 collector:(id)arg2;
+- (_Bool)er;
+- (_Bool)`dxþ ¬þÿ@0íÿ;
+- (void)index %lu with an action whose identifier is the same as the segment at index %lu (action=%@). Identifiers are required to be unique.;
 
 @end
 

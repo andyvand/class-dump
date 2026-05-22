@@ -17,8 +17,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)¡¨Ð!EùÑñð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *contentImageView; // @synthesize contentImageView=_contentImageView;

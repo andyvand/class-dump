@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)@;
+- (id);
+- (void)and;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) WBSCRDTPosition *afterPosition; // @synthesize afterPosition=_afterPosition;

@@ -338,7 +338,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -350,12 +349,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -394,10 +393,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void)oller:(id)arg1 viewDidLoad];
-- (void);
-- (id)îÿvõÁ·;
+- (id);
+- (void)<HUCameraErrorViewable>",&,N,V_overrideErrorView;
+- (void)ateComponents"8Q16^B24;
+- (void)AEyACyñvT­yî²yADG_d§Qo_ÌoyA2DSgGSgSgGALG_Qo_Sgb±yAEyACyADvySay»¼G=\AEy]uyAByAEyAFg«G_°uAEyAEyÕtÐqyBrSgGGùpytGGSgtGGAIGGAPGALG_Qo_SgtGG;
 
 // Remaining properties
 @property(retain, nonatomic) HFAccessoryInfoDetailsItemProvider *accessoryInfoItemProvider; // @synthesize accessoryInfoItemProvider=_accessoryInfoItemProvider;

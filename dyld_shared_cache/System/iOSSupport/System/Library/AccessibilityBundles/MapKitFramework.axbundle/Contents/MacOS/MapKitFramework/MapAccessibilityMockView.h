@@ -12,12 +12,12 @@
 }
 
 - (id);
+- (struct CGRect);
 - (id);
 - (void);
 - (unsigned long long);
-- (struct CGRect);
-- (void);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

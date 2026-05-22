@@ -9,6 +9,8 @@
 __attribute__((visibility("hidden")))
 @interface OBBulletedListItem
 {
+    _Bool _usesAttributedString;
+    _Bool _showsBackground;
     UIView *_imageContainer;
     UIImageView *_imageView;
     UIStackView *_stackView;
@@ -16,6 +18,7 @@ __attribute__((visibility("hidden")))
     UILabel *_descriptionLabel;
     NSLayoutConstraint *_stackViewLeadingConstraintVertical;
     NSLayoutConstraint *_stackViewLeadingConstraintHorizontal;
+    NSLayoutConstraint *_stackViewTrailingConstraint;
     UIButton *_accessoryButton;
     NSArray *_imageContainerSizeConstraints;
     NSLayoutConstraint *_topConstraintToStackView;
@@ -24,17 +27,19 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_bottomConstraintToImageContainer;
 }
 
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -42,33 +47,43 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
 - (void);
 - (double);
 - (double);
 - (id);
+- (void);
+- (void);
+- (void);
 - (double);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (_Bool);
 - (double);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)INDEX IF NOT EXISTS StorageAccessUnderTopFrameDomains_domainID_topLevelDomainID on StorageAccessUnderTopFrameDomains ( domainID, topLevelDomainID );
 - (double);
+- (id);
 - (void);
 - (void);
-- (id);
 - (double);
+- (id);
 - (void);
+- (void);
+- (double);
 - (void);
 - (id);
-- (double);
-- (id)ontrast;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;
@@ -78,12 +93,15 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) UIView *imageContainer; // @synthesize imageContainer=_imageContainer;
 @property(retain, nonatomic) NSArray *imageContainerSizeConstraints; // @synthesize imageContainerSizeConstraints=_imageContainerSizeConstraints;
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
+@property(nonatomic) _Bool showsBackground; // @synthesize showsBackground=_showsBackground;
 @property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
 @property(retain, nonatomic) NSLayoutConstraint *stackViewLeadingConstraintHorizontal; // @synthesize stackViewLeadingConstraintHorizontal=_stackViewLeadingConstraintHorizontal;
 @property(retain, nonatomic) NSLayoutConstraint *stackViewLeadingConstraintVertical; // @synthesize stackViewLeadingConstraintVertical=_stackViewLeadingConstraintVertical;
+@property(retain, nonatomic) NSLayoutConstraint *stackViewTrailingConstraint; // @synthesize stackViewTrailingConstraint=_stackViewTrailingConstraint;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 @property(retain, nonatomic) NSLayoutConstraint *topConstraintToImageContainer; // @synthesize topConstraintToImageContainer=_topConstraintToImageContainer;
 @property(retain, nonatomic) NSLayoutConstraint *topConstraintToStackView; // @synthesize topConstraintToStackView=_topConstraintToStackView;
+@property(nonatomic) _Bool usesAttributedString; // @synthesize usesAttributedString=_usesAttributedString;
 
 @end
 

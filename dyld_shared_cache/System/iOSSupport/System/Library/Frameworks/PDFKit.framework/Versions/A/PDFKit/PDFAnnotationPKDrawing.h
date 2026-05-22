@@ -14,13 +14,13 @@
     PKDrawing *_drawing;
 }
 
-- (id)16@"NSURL"24@"NSIndexSet"32;
-- (id)2;
-- (struct __CFDictionary *)ExperienceViewController"16;
+- (id);
+- (id);
+- (struct __CFDictionary *);
 - (void);
 - (id);
-- (void)pe;
-- (void)PKMetalResource;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;

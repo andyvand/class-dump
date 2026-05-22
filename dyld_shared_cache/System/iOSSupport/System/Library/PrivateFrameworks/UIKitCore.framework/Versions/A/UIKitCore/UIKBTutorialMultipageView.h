@@ -18,24 +18,24 @@ __attribute__((visibility("hidden")))
     double _pagingInterval;
 }
 
-- (void)ontainer;
-- (void)lNicknameContentsClassC;
-- (void)ainSession;
-- (void)lTransfers:(id)arg1 indexOfTransfers: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (double);
-- (id)=;
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void):(id)arg1 targetSmoothing:projectionDeceleration:animations:completion: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)lockWhenReadyForMainThread];
+- (void)(f;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

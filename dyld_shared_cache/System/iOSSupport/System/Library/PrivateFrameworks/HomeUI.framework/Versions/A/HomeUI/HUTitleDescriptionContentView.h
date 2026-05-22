@@ -38,16 +38,16 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)kObject:%@ for view:%@ /* Error: Ran out of types for this method. */;
+- (id)tempting to get cell for item:%@ in itemManager:%@ type:%@ for collectionView:%@ when the collectionViewController:%@ has dealloc already type:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)²ÿÝ> ²ÿ;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *descriptionFont;

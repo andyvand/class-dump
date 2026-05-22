@@ -75,13 +75,12 @@
 - (void);
 - (void);
 - (double);
+- (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
 - (id);
-- (id)1b0@ù
-× ;
 - (id);
+- (id);
+- (void)enableSavedToday;
 
 // Remaining properties
 @property(nonatomic) double backingScaleFactor; // @synthesize backingScaleFactor=_backingScaleFactor;

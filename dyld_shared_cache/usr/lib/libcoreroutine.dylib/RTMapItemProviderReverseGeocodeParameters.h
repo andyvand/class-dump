@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (double);
-- (id)stop monitoring all regions, error, %@;
+- (id)7lf;
 
 // Remaining properties
 @property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;

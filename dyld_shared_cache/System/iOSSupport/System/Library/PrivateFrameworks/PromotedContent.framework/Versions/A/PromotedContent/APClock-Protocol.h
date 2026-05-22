@@ -7,6 +7,6 @@
 @class NSDate;
 
 @protocol APClock
-- (NSDate *)arkerPosition:privacyMarkerType:adSize:tapAction:adPolicyData:) /* Error: Ran out of types for this method. */;
+- (NSDate *)z½ ôÿµz½`7ñÿ¥z½Xôÿ;
 @end
 

@@ -30,25 +30,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
 - (struct CGSize);
 - (void);
 - (id);
+- (void);
+- (struct CGSize);
+- (void);
+- (long long);
 - (long long);
 - (void);
-- (struct CGSize)
-× ;
-- (void):(long long)arg1 options: /* Error: Ran out of types for this method. */;
-- (long long)n];
-- (void)formattedPhoneNumber;
-- (void)÷ÿÿTòþÿ<Uæÿp®ÿÿ;
+- (long long);
+- (id);
+- (double);
+- (struct CGSize);
 - (void);
-- (long long)½8é8GéÿÅ8éFéÿÅ8éFéÿ­8é$ãÿ8éXÐäÿ½8éÐäÿ­8éXFéÿµ8éÐäÿ;
-- (double)ú<ù;
+- (void);
+- (void)1Að1â
+0@ù
+× ;
+- (void)iewController: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long alignment;

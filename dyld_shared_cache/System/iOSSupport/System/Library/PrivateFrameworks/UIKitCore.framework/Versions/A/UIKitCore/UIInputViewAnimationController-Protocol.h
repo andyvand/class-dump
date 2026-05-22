@@ -4,11 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIInputViewAnimationHost;
-
 @protocol UIInputViewAnimationController
-- (void)GùÉÐ1¢!0@ù
-× ;
-- (void)itialAndFinalLayoutAttributesForAllUpdateItems:(id <UIInputViewAnimationHost>)arg1;
+- (void);
 @end
 

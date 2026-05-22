@@ -7,11 +7,11 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)0@ù
+- (_Bool)GùÑE1â
+0@ù
 × ;
-- (_Bool)lateUserCloudNotAuthenticated;
-- (_Bool)ÿ	ÚQÿ;
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)Lûÿ;
+- (_Bool)MessageWLAN;
 @end
 

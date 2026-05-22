@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)N,V_contactType;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *uiImage; // @synthesize uiImage=_uiImage;

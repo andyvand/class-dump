@@ -4,17 +4,17 @@
 
 class icu::Normalizer2 {
 public: // (access info unavailable from symbols alone)
-    composePair(int, int) const;
-    getCombiningClass(int) const;
-    getInstance(char const*, char const*, UNormalization2Mode, UErrorCode&);
-    getNFCInstance(UErrorCode&);
-    getNFDInstance(UErrorCode&);
-    getNFKCCasefoldInstance(UErrorCode&);
-    getNFKCInstance(UErrorCode&);
-    getNFKCSimpleCasefoldInstance(UErrorCode&);
-    getNFKDInstance(UErrorCode&);
-    getRawDecomposition(int, icu::UnicodeString&) const;
-    isNormalizedUTF8(icu::StringPiece, UErrorCode&) const;
-    normalizeUTF8(unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&) const;
+    auto composePair(int, int) const;
+    auto getCombiningClass(int) const;
+    auto getInstance(char const*, char const*, UNormalization2Mode, UErrorCode&);
+    auto getNFCInstance(UErrorCode&);
+    auto getNFDInstance(UErrorCode&);
+    auto getNFKCCasefoldInstance(UErrorCode&);
+    auto getNFKCInstance(UErrorCode&);
+    auto getNFKCSimpleCasefoldInstance(UErrorCode&);
+    auto getNFKDInstance(UErrorCode&);
+    auto getRawDecomposition(int, icu::UnicodeString&) const;
+    auto isNormalizedUTF8(icu::StringPiece, UErrorCode&) const;
+    auto normalizeUTF8(unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&) const;
     ~Normalizer2();
 };

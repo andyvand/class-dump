@@ -13,9 +13,9 @@
 }
 
 + (id);
-- (id)¡;
-- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) TIAnalyticsFieldSpec *fieldSpec; // @synthesize fieldSpec=_fieldSpec;

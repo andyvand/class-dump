@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id)`;
-- (double)ontainer;
+- (id);
+- (double);
 - (id);
 
 // Remaining properties

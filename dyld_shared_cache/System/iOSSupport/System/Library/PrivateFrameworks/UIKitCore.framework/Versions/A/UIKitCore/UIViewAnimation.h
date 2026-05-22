@@ -26,33 +26,31 @@ __attribute__((visibility("hidden")))
     struct CGRect _endRect;
 }
 
-- (double);
-- (void)@;
-- (id);
-- (int);
-- (id);
 - (_Bool);
+- (_Bool);
+- (int);
 - (double);
+- (id);
+- (struct CGRect);
 - (_Bool);
 - (void);
-- (id)±À°1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (double)QÅÐ1¢!0@ù
-× ;
-- (void)Ôv°!CùÊð1¢!0@ù
-× ;
-- (_Bool)1¢!0@ù
-× ;
-- (void)nputDelegateForRemoteDocumentStateChange:(_Bool)arg1 selectedTextRange:hasText:forceSync: /* Error: Ran out of types for this method. */;
-- (_Bool)andler:changeDictionary: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)nBarContentView",&,N,V_contentView;
-- (void)Value:(_Bool)arg1 forObject:andProperty: /* Error: Ran out of types for this method. */;
-- (struct CGRect)g;
-- (int)tOutOfRTL;
-- (_Bool)g modern appearance flag from YES to NO not supported;
+- (void)0@ù
+× ;
+- (int)Ð!ÜEùq]Ð1Â0@ù
+× ;
+- (id);
+- (double)ÔÁ°!XAùb°1Â0@ù
+× ;
+- (double)Size: /* Error: Ran out of types for this method. */;
+- (_Bool)Offset:indexOffset:supplementaryIndexOffset: /* Error: Ran out of types for this method. */;
+- (id)ertText;
+- (id)electionIndicatorImage;
+- (_Bool)N,V_hasCompactSectionSpacing;
+- (_Bool);
+- (void);
+- (void)p to fit into its parent group or section, or it has no room for any subitems itself. Inspect the parent and ensure the contentInsets (%@) do not result in a negative effectiveContentSize when applied to size:(_Bool)arg1 %@.;
+- (void)èO/ÿz÷Î5`;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool animateFromCurrentPosition; // @synthesize animateFromCurrentPosition=_animateFromCurrentPosition;

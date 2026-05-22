@@ -15,8 +15,8 @@
     MISSING_TYPE *model;
 }
 
-- (void);
 - (id);
+- (void)N_ìð¦þN_<~¦þ;
 
 @end
 

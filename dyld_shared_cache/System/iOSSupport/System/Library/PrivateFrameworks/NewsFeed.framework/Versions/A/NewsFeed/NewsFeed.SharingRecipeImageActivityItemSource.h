@@ -11,10 +11,10 @@
     MISSING_TYPE *image;
 }
 
-- (id)�1;
 - (id);
-- (void);
 - (id);
+- (id);
+- (void);
 
 @end
 

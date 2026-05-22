@@ -37,13 +37,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)handisingUICoder;
+- (void);
+- (id)ä);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *contentLengths;

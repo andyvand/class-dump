@@ -5,6 +5,5 @@
 //
 
 @protocol SKCloudServiceSetupExtensionClientInterface
-- (void);
 @end
 

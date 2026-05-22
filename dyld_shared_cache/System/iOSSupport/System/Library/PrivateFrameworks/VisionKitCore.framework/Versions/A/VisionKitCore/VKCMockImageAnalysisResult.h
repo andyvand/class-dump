@@ -40,12 +40,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
 - (struct CGSize);
-- (id)SessionIfNecessary;
+- (void);
+- (void);
+- (struct CGRect)uffer=}24^{opaqueCMSampleBuffer=}32@"AVCaptureResolvedPhotoSettings"40@"AVCaptureBracketedStillImageSettings"48@"NSError"56;
+- (id);
+- (id)Bounds, result.bounds);
 
 // Remaining properties
 @property(nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;

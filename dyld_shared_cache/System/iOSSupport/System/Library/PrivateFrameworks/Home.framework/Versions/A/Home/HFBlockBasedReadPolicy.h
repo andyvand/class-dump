@@ -14,8 +14,8 @@
 - (id);
 - (unsigned long long);
 - (CDUnknownBlockType);
-- (void);
 - (id);
+- (void)erMapLocationMarker;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

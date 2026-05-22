@@ -15,19 +15,19 @@
 }
 
 + (id);
-- (id);
-- (id)&;
 - (id);
 - (id);
-- (id)";
-- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)tectionEnabled;
+- (id);
 - (void);
 - (id);
+- (void)hing curation, %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;

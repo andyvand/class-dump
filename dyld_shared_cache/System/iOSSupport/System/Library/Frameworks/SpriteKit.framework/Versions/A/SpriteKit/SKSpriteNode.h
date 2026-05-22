@@ -23,7 +23,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)h;
++ (_Bool);
 - (id);
 - (id);
 - (long long);
@@ -63,18 +63,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (long long);
 - (struct CGSize);
-- (id);
+- (long long);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (void);
 - (struct CGPoint);
+- (void)__shared_weak_count}};
 - (id);
 - (id);
 

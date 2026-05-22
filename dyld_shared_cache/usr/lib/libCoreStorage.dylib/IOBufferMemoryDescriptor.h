@@ -4,6 +4,6 @@
 
 class IOBufferMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    withCapacity(unsigned long, IODirection);
+    auto withCapacity(unsigned long, IODirection);
     ~IOBufferMemoryDescriptor();
 };

@@ -5,15 +5,6 @@
 //
 
 @protocol _UISceneLayoutPreferences
-- (void)dataClassArray length (%ld) does not match dataArray (%ld);
-- (void)t a CFArray;
-- (void)aArray is NULL;
-- (void)fetch data for instances %@
-Failed to fetch multi-manifest for instances %@;
-- (void)anifest for instances %@;
-- (void)r instances %@
-Failed to fetch multi-manifest for instances %@;
-- (double);
 
 // Remaining properties
 @property(nonatomic) double preferredMaximumDepth;

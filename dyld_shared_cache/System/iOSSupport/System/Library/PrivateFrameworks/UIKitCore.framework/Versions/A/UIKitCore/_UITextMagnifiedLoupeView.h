@@ -28,15 +28,15 @@ __attribute__((visibility("hidden")))
     struct CGPoint _modelPosition;
 }
 
-+ (double)o send the PIN to the other device to be displayed, Sorry;
-+ (double)el, Goodbye!!;
++ (double);
++ (double);
 - (void);
 - (void);
-- (void)i;
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (struct CGPoint);
 - (id);
 - (double);
@@ -47,34 +47,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (CDStruct_45cfb02b):services:finishedWithResult:limit: /* Error: Ran out of types for this method. */;
-- (CDStruct_e1624b90)rMessagePart: /* Error: Ran out of types for this method. */;
-- (id)haring:(CDUnknownBlockType)arg1;
-- (id)ocessMonitorDeliveredFirstUpdate;
-- (void)Size:(_Bool)arg1;
-- (_Bool)_addGroupPhotoToTransferCenterForChat:(struct CGRect)arg1;
+- (CDStruct_45cfb02b);
+- (CDStruct_e1624b90);
+- (id);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
 - (struct CGSize);
 - (_Bool);
-- (void)\;
+- (CDStruct_99503a0e);
 - (void);
-- (unsigned long long);
-- (void)0@ù
-× ;
-- (id)AssociatedImageIsEqual:(id)arg1;
-- (void)s: /* Error: Ran out of types for this method. */;
-- (void)onIndexesToReloadForTableViewCompatibility:(struct CGPoint)arg1;
-- (_Bool)tBasicWithScreen:options: /* Error: Ran out of types for this method. */;
-- (id)sMenuWithPresentationType: /* Error: Ran out of types for this method. */;
-- (void)ction:(id)arg1;
-- (CDStruct_99503a0e)hxÌx;
-- (void)) that isn't a cell;
-- (id)tment;
-- (void)Sides;
-- (void)<Õzq\;
 - (void);
+- (void);
+- (void);
+- (unsigned long long)ionHandler: /* Error: Ran out of types for this method. */;
+- (id)nController;
+- (void)Ðþÿ;
+- (void)onNotification;
+- (void):(struct CGPoint)arg1 .3;
+- (void)5Value½½¾7Qyd__So10BSSettingsCc;
+- (void);
+- (id);
+- (void);
+- (_Bool)\;
+- (id)ÔÝàþñ&ÌÄ^;
 
 // Remaining properties
 @property(nonatomic) __weak UIView<_UITextSelectionWidgetAnimating> *animatableSelectionWidget; // @synthesize animatableSelectionWidget=_animatableSelectionWidget;

@@ -26,18 +26,18 @@
 - (void);
 - (void);
 - (void);
+- (void)Goü¸ÈGÓ;
 - (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)ì­ÿÿÀ÷þÿ¸¾ìÿ¥ÿÿ;
-- (void)¡±;
+- (void)kground;
+- (id)Panel;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

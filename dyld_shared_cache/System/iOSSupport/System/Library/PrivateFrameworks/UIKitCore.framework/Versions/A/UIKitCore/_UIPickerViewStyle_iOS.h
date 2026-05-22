@@ -10,31 +10,33 @@
 {
 }
 
-- (double);
 - (struct CATransform3D);
-- (double);
 - (double);
 - (_Bool);
-- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (struct CGSize);
 - (struct CATransform3D);
 - (double);
 - (double);
-- (double);
-- (double);
-- (double)Ð!pFùÑÉÐ1¢!0@ù
+- (double)0@ù
 × ;
-- (double)B40@0:(double)arg1 8^{CGRect={CGPoint=dd}{CGSize=dd}}16^{CGAffineTransform=dddddd}24Q32;
-- (void)y;
-- (double)ystemNavigationItem: /* Error: Ran out of types for this method. */;
-- (double)gTintColor:(double)arg1;
+- (double)1Â0@ù
+× ;
+- (double)Ô ;
+- (void)
+× ;
+- (id)OfSearchController: /* Error: Ran out of types for this method. */;
 - (double)e;
-- (double)ongPressPermittedVerticalMovement;
-- (double)erBarToTrailingBarSpacer;
-- (struct CGSize)ÌXY6Z;
-- (double)(N;
-- (double);
-- (struct CGSize)ewLayout:(id)arg1 animated: /* Error: Ran out of types for this method. */;
-- (double)backgroundColor=%@;
+- (double)s: /* Error: Ran out of types for this method. */;
+- (double)ationWithMass:(double)arg1 stiffness:(struct CGRect)arg2 damping:velocity:fromValue:toValue: /* Error: Ran out of types for this method. */;
+- (struct CGSize)railingBackgroundView;
+- (double)ontroller",R,N,V_previewViewController;
+- (double)abberAction;
+- (double)bug.;
+- (double)vðoþ;
 
 @end
 

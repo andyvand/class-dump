@@ -23,17 +23,17 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)tracklistAction;
-- (_Bool)nsition-incoming-item-source-time;
 - (id);
 - (_Bool);
-- (_Bool);
+- (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 
 @end
 

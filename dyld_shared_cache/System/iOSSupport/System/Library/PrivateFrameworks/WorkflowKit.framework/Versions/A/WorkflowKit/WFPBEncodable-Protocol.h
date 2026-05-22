@@ -5,6 +5,5 @@
 //
 
 @protocol WFPBEncodable
-- (_Bool)É;
 @end
 

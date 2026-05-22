@@ -57,17 +57,17 @@
 - (long long);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)usicCuesForPacing: /* Error: Ran out of types for this method. */;
-- (id)tProvider;
-- (void)fication;
-- (id)r;
+- (id)le;
+- (void)yout.m;
 - (void);
+- (id)0fQÐ3;
+- (void)ê;
 
 // Remaining properties
 @property(retain, nonatomic) PXAssetsDataSourceManager *assetsDataSourceManager; // @synthesize assetsDataSourceManager=_assetsDataSourceManager;

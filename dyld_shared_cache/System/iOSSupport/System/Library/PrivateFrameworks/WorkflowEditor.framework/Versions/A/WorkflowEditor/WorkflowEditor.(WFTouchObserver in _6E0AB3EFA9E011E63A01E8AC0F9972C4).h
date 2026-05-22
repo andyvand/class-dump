@@ -11,10 +11,10 @@
     MISSING_TYPE *touchesBeganHandler;
 }
 
-- (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
+- (void)¨;
 
 @end
 

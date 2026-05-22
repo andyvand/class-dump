@@ -19,22 +19,22 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned long long)Descriptor];
-+ (void)tion Name);
-+ (_Bool)ariableDataSource>"32@?<v@?@@"NSError">40;
++ (void);
++ (_Bool);
++ (unsigned long long)onKey;
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)reType:(id)arg1 error:(id *)arg2;
+- (id)age_$_sortedLocalizedNames;
+- (id)øÿÄ<ße;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -20,18 +20,19 @@
 - (struct CGAffineTransform);
 - (long long);
 - (id);
-- (_Bool);
-- (id);
 - (_Bool);
 - (id);
-- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (struct CGSize)*Y.;
-- (void)âÿS;;
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)
+x;
+- (struct CGSize)È;
 
 // Remaining properties
 @property _Bool hasHorizontalFlip; // @synthesize hasHorizontalFlip=mHorizontalFlip;

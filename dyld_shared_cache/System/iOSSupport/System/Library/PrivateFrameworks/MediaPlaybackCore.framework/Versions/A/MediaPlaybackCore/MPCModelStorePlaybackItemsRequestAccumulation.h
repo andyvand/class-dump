@@ -24,7 +24,7 @@
 }
 
 - (id);
-- (id)public}@;
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -32,11 +32,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (unsigned long long);
-- (unsigned long long)tadataResponse;
-- (_Bool)e;
+- (_Bool);
+- (id);
+- (unsigned long long)maining IDs as failed [EnvironmentMonitor.isRemoteServerReachable returned NO] failedIDs=%{public}@;
+- (void)ublic}@ %{public}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

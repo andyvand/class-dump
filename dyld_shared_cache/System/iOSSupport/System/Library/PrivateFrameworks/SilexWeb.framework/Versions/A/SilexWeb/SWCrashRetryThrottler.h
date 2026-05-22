@@ -15,7 +15,7 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool)earchInteractorType;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool crashed; // @synthesize crashed=_crashed;

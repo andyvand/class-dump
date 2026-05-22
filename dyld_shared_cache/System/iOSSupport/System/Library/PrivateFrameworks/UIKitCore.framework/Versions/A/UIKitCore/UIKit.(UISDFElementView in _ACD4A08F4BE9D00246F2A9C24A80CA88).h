@@ -13,10 +13,10 @@
     MISSING_TYPE *gradientOvalization;
 }
 
-+ (Class)l;
++ (Class);
 - (void);
 - (id);
-- (id)roviderFactory;
+- (id)StatusBarSignalView;
 
 @end
 

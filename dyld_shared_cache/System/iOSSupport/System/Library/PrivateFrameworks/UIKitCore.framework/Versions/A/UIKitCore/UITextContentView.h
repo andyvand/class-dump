@@ -36,7 +36,7 @@
     _Bool _dragInteractionEnabled;
 }
 
-+ (id)esetFontForExtraBulletRendering;
++ (id)Transition;
 - (_Bool);
 - (void);
 - (void);
@@ -48,50 +48,50 @@
 - (void);
 - (void);
 - (void);
-- (void)@0:(id)arg1 8@"NSArray"16@"NSDate"24@"NSString"32;
-- (void)@0:(id)arg1 8@"NSString"16@"NSData"24@?<v@?B>32;
-- (_Bool)"NSURL";
-- (void)ransferSize;
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (struct CGRect);
-- (struct CGRect)ompletionBlock: /* Error: Ran out of types for this method. */;
-- (void)ipIndexing: /* Error: Ran out of types for this method. */;
-- (void)er;
-- (void)ForHandles:onService:message:completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)tifierWithBlock: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)dModeWithCompletion:(id)arg1;
-- (_Bool)rGUIDs:shouldRetractMessageSubject:hasEditTypeAndPartIndex: /* Error: Ran out of types for this method. */;
-- (_Bool)nfo: /* Error: Ran out of types for this method. */;
-- (id)thBytes:(struct CGRect)arg1 length:(id)arg2;
-- (id)rDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:avatarRecipeDataTag: /* Error: Ran out of types for this method. */;
-- (id)sagesBefore:(long long)arg1 hasMessagesAfter: /* Error: Ran out of types for this method. */;
-- (void)g;
-- (id)mentAtPath: /* Error: Ran out of types for this method. */;
-- (id)NSDictionary",C,N;
-- (struct CGPoint)t",&,N,V_lastResult;
-- (void)URL;
-- (struct CGRect):(struct CGPoint)arg1;
 - (struct CGRect);
-- (void)liases;
-- (void)tDefaults;
-- (double)ReceivedTimingCollection;
-- (_Bool)getHandler;
-- (void);
-- (void);
-- (void).;
-- (void)stKit decisioning skipped because chat is already junk.;
-- (_Bool)ds.;
-- (void){bool}d for notice collaboration id %s, elapsedMinutes:(id)arg1 %ld < threshold:%ld /* Error: Ran out of types for this method. */;
-- (id)quest to delete attachment with nil guid;
-- (void)Sender:%i, shouldAttemptWallpaperFetch:%i, hasWallpaperUpdate:%i, existingNickname:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)al Timeout;
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (struct CGPoint);
+- (void);
+- (struct CGRect);
+- (struct CGRect);
+- (void);
+- (void);
+- (double);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void)e check.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -100,173 +100,176 @@
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (void);
-- (long long)tartWriting;
-- (id)er;
-- (void)t:(long long)arg1 libraryObject:personalizationProperties:overrideLibraryAddedStatus: /* Error: Ran out of types for this method. */;
-- (id)CatalogLyrics__MAPPING_MISSING__;
-- (void)nil;
-- (void)$;
+- (struct CGRect);
+- (id);
 - (void);
+- (_Bool);
+- (struct _NSRange);
+- (id);
 - (void);
-- (_Bool)u;
-- (void)c;
 - (void);
 - (id);
+- (void);
 - (_Bool);
 - (void);
-- (id);
+- (_Bool);
 - (void);
-- (_Bool)1¢!0@ù
-× ;
-- (id)At°!¼GùQÈ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)`GùË°1¢!0@ù
-× ;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)w!Ø@ùÌ°1¢!0@ù
+- (void)0@ù
 × ;
-- (struct CGRect)!GùÌ°1¢!0@ù
+- (id)!`Bù[1Â0@ù
 × ;
 - (void);
-- (void)QÌð1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (_Bool)!x°!0FùqÍÐ1¢!0@ù
+- (void)¡ð!@ùQ_°1Â0@ù
 × ;
-- (void)
+- (long long)
 × ;
-- (_Bool)ayÐ!0Aù1Ï1¢!0@ù
+- (void)QaÐ1Â0@ù
 × ;
-- (id);
-- (id)rovider"b1"hasCustomBackgroundViewConfiguration"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
-- (void)p:(id)arg1;
-- (void)rmsPredictiveCandidates;
-- (_Bool)ressionAssertionForReason:(SEL)arg1;
-- (void)sLooping;
-- (id)on:(id)arg1;
-- (id)itWithContainer:center: /* Error: Ran out of types for this method. */;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)ext:(id)arg1;
-- (void)InWindow:(id)arg1 activityItemsConfiguration:style:willCloseBlock:didCloseBlock: /* Error: Ran out of types for this method. */;
-- (void)tSettingsAnimationDuration;
-- (_Bool)rarchyIfNecessary;
-- (id)tsContentMarginsForSelection;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)UISEMuxGestureFeature;
+- (_Bool);
+- (id)0@ù
+× ;
+- (id)!tCù±c1Â0@ù
+× ;
+- (_Bool);
+- (void)1Â0@ù
+× ;
+- (void)PreferenceMode"Q};
+- (void)@"_UINavigationParallaxTransition";
+- (_Bool){?=@@@Q}16@0:(id)arg1 8;
+- (void)iewController"b1"isSuspended"b1"wantsFullScreenLayout"b1"shouldUseFullScreenLayout"b1"allowsAutorotation"b1"searchControllerRetained"b1"oldModalInPopover"b1"isModalInPresentation"b1"isInWillRotateCallback"b1"isFinishingModalTransition"b1"definesPresentationContext"b1"providesPresentationContextTransitionStyle"b1"containmentSupport"b1"isSettingAppearState"b1"isInAnimatedVCTransition"b1"presentationIsChanging"b1"isBeingPresented"b1"containmentIsChanging"b1"explicitTransitionIsAppearing"b1"disableAppearanceTransitions"b1"needsDidMoveCleanup"b1"suppressesBottomBar"b1"isExecutingAfterAppearance"b1"rootResignationNeeded"b1"viewConstraintsNeedUpdateOnAppearance"b1"shouldForceNonAnimatedTransition"b1"isInCustomTransition"b1"mayForwardPresentationsToPresentedViewController"b1"usesSharedView"b1"extendedLayoutIncludesOpaqueBars"b1"automaticallyAdjustInsets"b1"previousShouldUnderlapUnderStatusBar"b1"freezeShouldUnderlapUnderStatusBar"b1"shouldNotFreezeUnderlapsStatusBar"b1"monitorsSystemLayoutFittingSize"b1"shouldLoadInputAccessoryViewsOnAppearance"b1"useViewBasedTopAndBottomGuides"b1"didConfirmLayoutGuideClass"b1"restoresFocusAfterTransition"b2"hasFocusGroupIdentifier"b2"freezeLayoutForOrientationChangeOnDismissal"b1"viewRespectsSystemMinimumLayoutMargins"b1"ignoresWrapperViewForContentOverlayInsets"b1"overridesSetContentOverlayInsets"b1"isViewAttachedToWindow"b1"sendViewIsAppearingOnNextLayout"b1"isPerformingViewIsAppearing"b1"overridesContentScrollView"b1"overridesContentScrollViewForEdge"b1"didCheckContentScrollViewReturnValue"b1"usingContentScrollViewForUnknownPurpose"b1"hasTraitStorageList"b1"overrideUserInterfaceStyle"b2"overrideHorizontalSizeClass"b2"overrideUserInterfaceRenderingMode"b2"needsContentUnavailableConfigurationStateUpdate"b1"isInSupportedInterfaceOrientations"b1"isCounterRotating"b1"isDeallocInitiated"b1"isInternalSetParentViewController"b1"checkedDemoteUserInterfaceIdiomFromMac"b1"shouldDemoteUserInterfaceIdiomFromMac"b1"bridgedPresentationWasPresented"b1};
+- (void)xt"28;
+- (void)animate:(_Bool)arg1;
+- (void):(id)arg1;
+- (void)ht:(id)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
+- (void)n;
+- (void)odeToMergeCapsLockKey;
+- (void)rSize:(id)arg1 clipRect: /* Error: Ran out of types for this method. */;
+- (void)ntainerView: /* Error: Ran out of types for this method. */;
+- (long long)wSet: /* Error: Ran out of types for this method. */;
+- (struct CGRect)tString:forKeyEvent: /* Error: Ran out of types for this method. */;
+- (id)etButtonBackgroundImage:(id)arg1 mini:(long long)arg2 forStates: /* Error: Ran out of types for this method. */;
+- (void)ddItems:(struct CGRect)arg1 forInteraction:(_Bool)arg2;
 - (void)e;
-- (void)rExtensionViewController;
-- (void)X;
-- (void);
-- (void)øeg>,k¬kHlHm¤m;
-- (id)Øe;
-- (void);
-- (void);
-- (_Bool)r for the keyboard popover?;
-- (void)item as the representativeItem of a group is unsupported (representativeItem=%@);
-- (void),åèÿpåèÿ´åèÿøåèÿ<æèÿæèÿÄæèÿçèÿLçèÿçèÿÔçèÿèèÿ\èèÿ èèÿäèèÿ(éèÿléèÿ°éèÿôéèÿ(ëèÿíèÿíèÿ$íèÿ0íèÿ<íèÿHíèÿTíèÿ`íèÿ´íèÿøíèÿPîèÿîèÿèîèÿ;
-- (id)SafeAreaLayoutGuide-top;
-- (id)UISearchContainerViewControllerSearchController;
-- (void)strong, NSMutableArray *__strong, BOOL);
-- (void)exPath"24;
-- (void)dateKeyboardSuppressionNotification;
-- (struct CGRect)oji_food-and-drink.png;
-- (long long)AttributeValueGlyph;
-- (struct CGRect)r=%@ identifier=%@;
-- (id)ialized or updated with a trait collection containing UIUserInterfaceIdiomUnspecified.;
-- (void)tion handler must have been called and cleared before dealloc;
-- (void)dex path:(id)arg1 %@; number of sections after update:%ld, collection view:%@ /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ction view:%@; number of sections:%ld /* Error: Ran out of types for this method. */;
-- (id)l;
-- (void)leftEdgeEffect;
-- (long long)View Width;
-- (id)rollEdgeEffect;
-- (void)idSliderDrivable>",N,W,Vdrivable;
-- (id)itionController;
-- (id)cReporter;
-- (id)Âõ;
-- (id);
-- (id);
-- (void)0þ;
-- (void);
-- (void);
-- (void)®Ê×)[;
-- (void)¢];
-- (id);
-- (long long)Â];
-- (long long)&C];
-- (_Bool):Ú";^ /* Error: Ran out of types for this method. */;
-- (void)+AS;
-- (void)þ_;
-- (void);
-- (void)#Øæ`;
-- (void)H¤`;
-- (void)a;
-- (void)Ä`;
-- (unsigned long long).I;
-- (id)7Éa;
-- (void)ÐX"ÿLÚµb;
+- (void)Item;
+- (void)egy:(struct CGRect)arg1;
+- (id)nts;
+- (id)TB,S_setUsesToolbarSemanticContext:(struct CGRect)arg1;
+- (id)V_identifier;
+- (void)»
+x¼Ø¿üÃ
+°ÆàÆ8ÇèÇ<ÉÀÉÄË;
+- (void)?P?;
 - (long long);
+- (id)8®þÔþÿ;
+- (id);
+- (id)Ôþÿ;
+- (id)ds;
 - (void);
-- (void)àÿ²;
-- (struct CGRect)(&¯ÿîhÒ=¿b;
-- (_Bool)°oÐÿ¾¢3;
-- (long long);ÿ¯7;
-- (void)c;
-- (id)âc;
-- (id)Wmÿ3ÖÒud;
+- (id)ActionURLAttribute;
+- (void)for key %@ from requested class %@, to class %@;
+- (void)== finalIdentifiers.count;
+- (void)cement tracker is rewriting;
+- (void)esClass(void)_block_invoke;
+- (void)d deleted). Collection view:(id)arg1 %@;
+- (void)rk;
+- (_Bool)g;
+- (void)itionView;
+- (_Bool)PromptSuggestionView;
+- (void)ÅþÿÅþÿ6Óþÿ8Óþÿ;
+- (id)ph4RuleP;
+- (void)=
+×£p=Ú?;
+- (id);
+- (void);
+- (struct _NSRange);
+- (void)[;
+- (void)Dz];
+- (void)P·^;
 - (_Bool);
-- (_Bool)(íd;
-- (void)&ìþ;
-- (_Bool)^l;
-- (void)C;
-- (_Bool)^ge;
-- (id);
-- (id)1ã;
-- (long long)¼!×þÔ;
+- (id)d;ÞÿôÐpþ^;
+- (id),kçþ;
+- (id)è:(id)arg1 a;
+- (_Bool)Ìia;
+- (void)bÕ×a;
+- (void)¡¿;
+- (long long)lO>ÿ
+Þ;
+- (id)Íæa;
+- (_Bool)ëøþÞÓDía;
+- (long long)b;
+- (id)b;
 - (void);
-- (void)i;
-- (id);
-- (id);
-- (void)8;
-- (struct _NSRange)Qþ3G;
-- (id)ü0þ;
-- (id)Vf;
-- (void)\ÿÈæf;
-- (long long)f;
-- (struct _NSRange)-Cg;
-- (void)Ùf;
-- (void)Ííåf;
-- (void)åg;
-- (void)¼ÿÐÕg;
-- (void)áÿ)h;
-- (void)ÑúHg;
-- (void)ç'h;
-- (_Bool);
-- (struct CGRect)¸g;
-- (void)ÏÀi;
-- (void)ág;
+- (struct CGRect)uÑþ2;
+- (void)Ù$jb;
+- (long long)ðÇ;
+- (id)À	ÿzÌQc;
+- (long long);
+- (_Bool)¾Îpd;
+- (struct CGRect)?Ø|<d;
+- (void)ã¡ÿFØÊd;
+- (void)8¦d;
+- (id)\g;
+- (void)£Ä×ìÆd;
+- (struct CGPoint)-hv;
+- (long long)øÕ;
+- (void)·Ôô5f;
+- (id)ò;Ú,Ke;
+- (id)à÷þ¹[;
+- (id)Å;
+- (long long)ñe;
+- (id)åe;
+- (void)µ;
+- (id)q;
+- (void)Ä¾;
+- (id)ØHg;
+- (void)æ;
+- (void);
+- (id)§g;
 - (void);
-- (id);
-- (void)´_¨ÿfdÏ?h;
+- (struct CGRect)(3eþOËÒYg;
+- (void)¨ªg;
+- (id)âÿBxÑT¹g;
+- (id)æÎ°­g;
+- (void)(hþØ:(id)arg1 ÎDÂg;
+- (void)ØÿwµÊì¹g;
+- (void)ÿDûÉ(Ëg;
+- (struct CGRect)ÿ;
+- (void)íg;
+- (id)h;
+- (void)ì6h;
+- (id)\h;
 - (void);
-- (struct CGRect)ÿ­¤Ìh;
-- (id)÷¶ÿ;
+- (void);
+- (void);
+- (_Bool)ü;
+- (void)h;
+- (void)Öh;
+- (id)´Ìh;
+- (id);
+- (void)ÿ»Î¸Îh;
+- (_Bool)Li;
+- (void)i;
+- (void)G];
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;
@@ -385,6 +388,10 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @property long long writingToolsBehavior;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?

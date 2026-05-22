@@ -18,10 +18,10 @@
     NSString *_simulatedChatIdentifier;
 }
 
-+ (id)p, intent:%@, action:%@, mechanism:%@, account:%@, account.lockedNotesMode:%@, account.supportsV1Neo:%@, object:%@, object.cipherVersion:%@, isInternetReachable:%@, isBiometricAuthenticationEnabled:%@, isKeychainAvailable:%@, hasKeychainItem:%@, hasCloudAccount:%@, hasDevicePassword:%@, hasDivergedKey:%@, needsUserRecordUpdate:%@> /* Error: Ran out of types for this method. */;
-- (id)t;
-- (id)s;
-- (id)ith empty accountID;
++ (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -29,13 +29,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long)A;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,16 +44,15 @@
 - (_Bool);
 - (id);
 - (id);
+- (unsigned char);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)¬Gxx«GGG «yAGGG;
-- (void);
-- (id)àÄ
-;
-- (unsigned char)¡0Ú/;
+- (void)w: /* Error: Ran out of types for this method. */;
+- (id)ENCE_ONBOARDING_MESSAGE_SUMMARIES_BULLET_DESCRIPTION;
+- (void)´;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentMessageID; // @synthesize currentMessageID=_currentMessageID;

@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)3?ctx_brand=tvs.sbd.4000;
+- (void);
+- (id)with config %@, will update UI;
+- (void)Àà#ÿma;
 
 // Remaining properties
 @property(retain, nonatomic) CKSendMenuPopoverPresentationConfiguration *configuration; // @synthesize configuration=_configuration;

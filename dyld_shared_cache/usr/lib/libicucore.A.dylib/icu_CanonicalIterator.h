@@ -5,16 +5,16 @@
 class icu::CanonicalIterator {
 public: // (access info unavailable from symbols alone)
     CanonicalIterator(icu::UnicodeString const&, UErrorCode&);
-    cleanPieces();
-    extract(icu::Hashtable*, int, char16_t const*, int, int, UErrorCode&);
-    getDynamicClassID() const;
-    getEquivalents(icu::UnicodeString const&, int&, UErrorCode&);
-    getEquivalents2(icu::Hashtable*, char16_t const*, int, UErrorCode&);
-    getSource();
-    getStaticClassID();
-    next();
-    permute(icu::UnicodeString&, signed char, icu::Hashtable*, UErrorCode&, int);
-    reset();
-    setSource(icu::UnicodeString const&, UErrorCode&);
+    auto cleanPieces();
+    auto extract(icu::Hashtable*, int, char16_t const*, int, int, UErrorCode&);
+    auto getDynamicClassID() const;
+    auto getEquivalents(icu::UnicodeString const&, int&, UErrorCode&);
+    auto getEquivalents2(icu::Hashtable*, char16_t const*, int, UErrorCode&);
+    auto getSource();
+    auto getStaticClassID();
+    auto next();
+    auto permute(icu::UnicodeString&, signed char, icu::Hashtable*, UErrorCode&, int);
+    auto reset();
+    auto setSource(icu::UnicodeString const&, UErrorCode&);
     ~CanonicalIterator();
 };

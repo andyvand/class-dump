@@ -26,15 +26,15 @@
 
 + (id);
 + (id);
-+ (_Bool)chnologiesMissingToLookForInLocationUpdates,%{public}lu;
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)9;
+- (id);
 - (id);
 - (long long);
-- (long long)`;
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -42,27 +42,26 @@
 - (long long);
 - (void);
 - (unsigned long long);
-- (double)T+CMGR=%d;
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id)orts-gft-calls;
-- (void);
-- (_Bool)e);
+- (double);
 - (id);
 - (double);
-- (double)0@ù
-× ;
-- (double)usTime: /* Error: Ran out of types for this method. */;
-- (double)n_duration_bucketed:median_daily_total_charging_duration_bucketed:median_daily_total_screen_lock_duration_bucketed:median_daily_total_uninterrupted_WiFi_connection_duration_bucketed:percentage_of_days_with_charging_bucketed:percentage_of_days_with_screen_lock_bucketed:percentage_of_days_with_uninterrupted_WiFi_connection_bucketed:is_iPhone:is_iPad:is_Watch: /* Error: Ran out of types for this method. */;
-- (double)leStats;
-- (struct CLLocationCoordinate2D)tchSessionCountWithDateInterval:handler: /* Error: Ran out of types for this method. */;
-- (double)id parameter not satisfying:metricsManager /* Error: Ran out of types for this method. */;
-- (void));
-- (long long)@, latency, %.2f;
-- (id)nvalid parameter not satisfying:(id)arg1 statsLOIVisits;
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
+- (_Bool);
+- (void);
+- (struct CLLocationCoordinate2D);
+- (_Bool);
+- (id);
+- (double);
+- (double);
+- (double);
+- (void)orizontalUncertainty:(long long)arg1 date: /* Error: Ran out of types for this method. */;
+- (long long)ent store added;
+- (void), %@, result, %@, error, %@;
+- (double)hed location that is simulated by software, %{sensitive}@.;
 
 // Remaining properties
 @property(readonly, nonatomic) double altitude; // @synthesize altitude=_altitude;

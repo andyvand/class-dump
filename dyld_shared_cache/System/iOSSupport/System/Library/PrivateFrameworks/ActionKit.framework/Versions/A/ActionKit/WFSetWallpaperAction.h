@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)getCLGeocoderClass(void)_block_invoke;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *createdPosterConfigurationUUID; // @synthesize createdPosterConfigurationUUID=_createdPosterConfigurationUUID;

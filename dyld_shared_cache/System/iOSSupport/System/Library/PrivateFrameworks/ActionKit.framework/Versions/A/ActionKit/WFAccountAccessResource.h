@@ -20,16 +20,16 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (Class);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (Class);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)!;
+- (id)_xmlNode}^{_xmlNode}^{_xmlDoc}ii^{_xmlDtd}^{_xmlDtd}^{_xmlNs}**^v^v*i^{_xmlDict}^vii}16;
+- (void)token;
 
 // Remaining properties
 @property(readonly, nonatomic) Class accountClass;

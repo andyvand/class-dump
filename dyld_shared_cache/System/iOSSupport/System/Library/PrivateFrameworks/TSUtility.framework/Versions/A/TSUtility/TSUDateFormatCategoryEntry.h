@@ -16,7 +16,7 @@
 - (struct __CFDate *);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned short);
 
 @end

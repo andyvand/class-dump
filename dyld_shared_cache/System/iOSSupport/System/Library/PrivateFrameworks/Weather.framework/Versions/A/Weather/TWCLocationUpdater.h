@@ -29,8 +29,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) City *currentCity; // @synthesize currentCity=_currentCity;

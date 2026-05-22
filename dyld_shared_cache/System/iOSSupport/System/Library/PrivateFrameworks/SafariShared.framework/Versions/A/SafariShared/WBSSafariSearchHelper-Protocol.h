@@ -5,6 +5,5 @@
 //
 
 @protocol WBSSafariSearchHelper
-- (void);
 @end
 

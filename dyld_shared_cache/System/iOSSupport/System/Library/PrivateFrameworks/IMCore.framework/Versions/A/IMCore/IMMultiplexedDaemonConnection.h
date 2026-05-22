@@ -19,15 +19,15 @@
 - (void);
 - (id);
 - (id);
-- (void)P;
-- (void)a5;
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void)©ª;
+- (void)tÿÿlh;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long capabilities; // @synthesize capabilities;

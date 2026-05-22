@@ -16,15 +16,15 @@
 }
 
 + (id);
-- (struct CGImage *)!;
 - (struct CGImage *);
-- (id);
-- (_Bool);
+- (struct CGImage *);
 - (id);
-- (void)";
 - (void);
-- (unsigned long long)tedPresentationControllerForTraitCollection:withTransitionCoordinator: /* Error: Ran out of types for this method. */;
-- (id)­ÿ/¤Óêj;
+- (unsigned long long);
+- (_Bool)bleForEdge:(id)arg1;
+- (id)ion;
+- (id)(foreground:%d, allowsHostingWithLayersAndHasLayers:%d, allowsHostingWithoutLayers:%d). /* Error: Ran out of types for this method. */;
+- (void)´?õþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *documentText; // @synthesize documentText=_documentText;

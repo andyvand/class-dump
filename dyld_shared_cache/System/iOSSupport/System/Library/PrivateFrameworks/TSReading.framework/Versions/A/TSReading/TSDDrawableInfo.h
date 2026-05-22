@@ -51,7 +51,7 @@
 - (_Bool);
 - (int);
 - (id);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform);
 - (id);
 - (Class);
 - (double);
@@ -74,7 +74,7 @@
 - (void);
 - (unsigned long long);
 - (double);
-- (void)#;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,7 +82,7 @@
 - (Class);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -95,23 +95,23 @@
 - (void);
 - (struct CGAffineTransform);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (int)hZ;
+- (void);
 - (id);
 - (void);
-- (void)H;
-- (id);
+- (_Bool);
 - (Class);
-- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool)ØÒ;
+- (int);
+- (void)rrentTime:(id)arg1;
+- (id)newTextureWithDescriptor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=mAccessibilityDescription;

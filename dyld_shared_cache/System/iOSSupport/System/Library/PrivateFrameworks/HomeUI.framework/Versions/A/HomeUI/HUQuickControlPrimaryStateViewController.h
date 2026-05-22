@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ctView",&,N,V_transitionSecondaryLabelVibrantEffectView;
 
 // Remaining properties
 @property(readonly, nonatomic) HFControlItem<HFPrimaryStateWriter> *controlItem; // @dynamic controlItem;

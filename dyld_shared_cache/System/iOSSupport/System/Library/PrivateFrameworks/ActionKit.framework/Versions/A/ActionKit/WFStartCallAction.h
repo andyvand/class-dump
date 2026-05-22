@@ -41,7 +41,6 @@
 - (id);
 - (long long);
 - (long long);
-- (id);
 
 @end
 

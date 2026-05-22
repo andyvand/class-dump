@@ -40,13 +40,13 @@
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (void);
-- (void);
 - (id);
+- (CDStruct_1b6d18a9);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
-- (void);
+- (void)mory allocating FloatArray buffer";
 
 // Remaining properties
 @property(nonatomic) struct __CVBuffer *colorBuffer; // @synthesize colorBuffer=_colorBuffer;

@@ -5,9 +5,5 @@
 //
 
 @protocol NSKeyedUnarchiverDelegate
-
-@optional
-- (Class)rontFacingCamera;
-- (id)ablePlayback;
 @end
 

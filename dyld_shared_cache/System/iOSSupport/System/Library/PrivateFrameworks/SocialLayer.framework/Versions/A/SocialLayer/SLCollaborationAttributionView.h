@@ -29,14 +29,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

@@ -11,8 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
-- (id)etInitialDestinationEnvironment: /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long)a°1Â0@ù
+× ;
 
 @end
 

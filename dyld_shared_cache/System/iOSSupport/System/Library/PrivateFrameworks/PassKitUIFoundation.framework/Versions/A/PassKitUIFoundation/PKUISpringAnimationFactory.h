@@ -19,9 +19,9 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType animationDelayHandler; // @synthesize animationDelayHandler=_animationDelayHandler;

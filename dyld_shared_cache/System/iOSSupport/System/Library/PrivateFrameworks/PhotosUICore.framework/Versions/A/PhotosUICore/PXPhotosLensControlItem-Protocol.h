@@ -7,8 +7,9 @@
 @class NSString;
 
 @protocol PXPhotosLensControlItem
-- (NSString *)rceWithAssets:userInfo:transientIdentifier: /* Error: Ran out of types for this method. */;
-- (NSString *)id);
+- (NSString *)atio;
+- (NSString *)etion;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

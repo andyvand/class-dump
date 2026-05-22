@@ -44,15 +44,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void)AValue;
-- (id)aultVoiceForRecognitionLanguage;
-- (id)ó7y;
+- (void);
+- (id)!ßÐ!$Aùá°1B50@ù
+× ;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double cacheDurationLimit; // @synthesize cacheDurationLimit=_cacheDurationLimit;

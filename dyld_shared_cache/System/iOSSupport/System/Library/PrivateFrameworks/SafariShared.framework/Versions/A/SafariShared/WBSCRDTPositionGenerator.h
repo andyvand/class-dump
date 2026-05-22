@@ -18,13 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (id)4;
+- (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)04;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <WBSCRDTPositionGeneratorDelegate> delegate; // @synthesize delegate=_delegate;

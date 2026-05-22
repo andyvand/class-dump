@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObject;
-
 @protocol _TtP7ChatKit35CKInlineMediaTextAttachmentDelegate_
-- (void)erialQueue;
-- (void)uttonIfNecessary:(CKMediaObject *)arg1;
 @end
 

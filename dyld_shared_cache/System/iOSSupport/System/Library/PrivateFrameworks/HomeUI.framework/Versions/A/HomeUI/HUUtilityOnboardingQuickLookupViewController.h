@@ -12,13 +12,9 @@
     id <HUConfigurationViewControllerDelegate> delegate;
     MISSING_TYPE *context;
     MISSING_TYPE *hideBackButton;
-    MISSING_TYPE *utilityID;
     MISSING_TYPE *utilityName;
-    MISSING_TYPE *fields;
-    MISSING_TYPE *sections;
     MISSING_TYPE *continueButton;
-    MISSING_TYPE *rootVC;
-    MISSING_TYPE *accountDetails;
+    MISSING_TYPE *legacyAccountDetails;
 }
 
 - (void);
@@ -29,12 +25,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)VViewingProfilesDevicesItemModule";
-- (id)DiffableDataSourceReload: /* Error: Ran out of types for this method. */;
-- (void)initWithServiceContainerItem:(id)arg1;
-- (id)»âÿ;
-- (void)a;
+- (void);
+- (void)tionTopicServiceListModule;
+- (void)ity.NoAccountError.Icon;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

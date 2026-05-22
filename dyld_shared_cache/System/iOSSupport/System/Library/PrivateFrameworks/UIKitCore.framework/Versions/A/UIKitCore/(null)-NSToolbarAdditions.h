@@ -7,8 +7,8 @@
 @class UIMenu;
 
 @interface (null) (NSToolbarAdditions)
-- (void)incompatible gizmo. Bailing quick switch. localDBVersion %ld gizmoDBVersion %ld;
-- (id)being referenced. Fetching instead.;
+- (void);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) UIMenu *itemMenu;

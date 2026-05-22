@@ -21,23 +21,24 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (_Bool)fromToken:messageGUID:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
-- (void)13SoundAnalysis22SNAudioOffsetEstimator;
-- (id);
-- (id);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)0@ù
+- (void);
+- (id)0@ù
 × ;
-- (id)ccessoryViewForType: /* Error: Ran out of types for this method. */;
-- (void)IFeedbackGeneratorPressDriven;
-- (void)= %{public}@;
-- (id)UIAlertViews displayed from view services may have at most three buttons;
-- (void)òÿ3Ðübþòÿ3ôübþµòÿ3ýbþUòÿ3ýbþ]òÿ3(ýbþ5òÿ34ýbþòÿ3@ýbþòÿ3Lýbþòÿ3`!gþ]òÿ3dýbþòÿ3lýbþeòÿ3|ýbþ;
+- (id)!Ø@ùg°1Â0@ù
+× ;
+- (id)_setFileFeedbackType: /* Error: Ran out of types for this method. */;
+- (void)out;
+- (void)e;
+- (id)urEffectStyleLightKeyboard;
+- (void)ïM¾7yx_qd__GSgXwz_ä*¾7_î*¾7SHRz#¾7Rd__r__lXX;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *clientView; // @synthesize clientView=_clientView;

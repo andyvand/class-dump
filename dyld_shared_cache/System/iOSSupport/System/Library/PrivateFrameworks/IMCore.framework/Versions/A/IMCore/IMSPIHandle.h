@@ -16,21 +16,21 @@
 }
 
 - (_Bool);
-- (id);
 - (id);
-- (id)abled: /* Error: Ran out of types for this method. */;
-- (unsigned long long)`;
+- (id);
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
+- (id);
+- (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)`;
-- (void)B;
-- (_Bool)(;
-- (void);
-- (id);
-- (void)voke;
+- (id)r"16@"NSArray"24;
+- (void)Ä-Ä.;
 
 // Remaining properties
 @property(retain) NSString *address; // @synthesize address=_address;

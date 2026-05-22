@@ -4,26 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSDictionary, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (UITextPosition *)× ;
-- (UITextRange *)rStackView:(struct CGPoint)arg1;
-- (UITextPosition *)KeyType;
-- (void)W,N,V_containerDelegate;
-- (struct CGRect)G@tyAByO;
-- (id <UITextInputTokenizer>)[WFSlotTemplateView typingTextViewDidChange];
-- (id <UITextInputDelegate>)`;
+- (UITextPosition *)
+× ;
+- (UITextPosition *)urationContainerViewControllerProtocolDelegate>"16;
+- (UITextPosition *)@"NSNumber";
+- (id <UITextInputDelegate>)BundleScopedURL;
+- (id <UITextInputTokenizer>)zôz;
+- (void)lic}@;
+- (struct CGRect)te:(UITextRange *)arg1 %ld;
+- (void)Method;
+- (UITextPosition *);
+- (void)tocol33_F700E5CF8C452B00DB914821A49E7E66LLP;
+- (void)dóÿÌóÿ;
 
 @optional
-- (void)Ô ;
-- (_Bool)ntainsStrongRTL: /* Error: Ran out of types for this method. */;
-- (UITextPlaceholder *)nerView;
-- (_Bool)extSelectionRect;
-- (void)DA;
-- (void)vableArrayResult"8@"NSError"16;
-- (NSDictionary *);
+- (void)gz;
+- (UIView *)utAttributesForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (UITextRange *);
+- (void)è;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -53,5 +55,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

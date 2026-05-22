@@ -22,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
+- (id)udioPlayerDidFinishPlaying:(long long)arg1 successfully:(id)arg2;
+- (void),,;
 
 // Remaining properties
 @property(nonatomic) _Bool indentSeparator; // @synthesize indentSeparator=_indentSeparator;

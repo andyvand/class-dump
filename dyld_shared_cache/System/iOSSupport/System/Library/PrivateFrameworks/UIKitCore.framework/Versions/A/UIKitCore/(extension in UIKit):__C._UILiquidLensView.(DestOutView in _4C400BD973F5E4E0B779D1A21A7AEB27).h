@@ -15,10 +15,9 @@
 
 - (_Bool);
 - (id);
-- (void);
-- (void)
-× ;
-- (id)This is a UIKit internal bug.;
+- (id)entAttributes;
+- (void)_detected;
+- (void)µÑDal;
 
 @end
 

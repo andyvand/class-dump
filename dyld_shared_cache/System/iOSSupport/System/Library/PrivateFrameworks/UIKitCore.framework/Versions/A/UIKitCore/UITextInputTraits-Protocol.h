@@ -9,30 +9,38 @@
 @protocol UITextInputTraits
 
 @optional
+- (void)0@ù
+× ;
+- (UIConversationContext *)!¸Dùeð1Â0@ù
+× ;
+- (_Bool)entifier:shouldAttemptDismissWhenWindowSceneUpdatesEffectiveGeometry: /* Error: Ran out of types for this method. */;
+- (void)erfaceOrientations;
+- (void)atIndex:(unsigned long long)arg1;
+- (UITextInputPasswordRules *):visibleLayerCount: /* Error: Ran out of types for this method. */;
+- (void)eView;
+- (void)hange:(long long)arg1 fence:] /* Error: Ran out of types for this method. */;
+- (long long)tGrayTintColor;
+- (long long)xtAnimationsNewRenderController(void);
+- (NSString *)?0@"<_UIFeedbackPlayer>"8;
+- (void)ss to file URLs;
+- (void)llerClassicImpl encodeRestorableStateWithCoder:(long long)arg1 ];
+- (long long)wListCell-top-contentView-constraint;
+- (void)mpted to lay out a pinned supplementary item whose frame %@ does not intersect with the visible bounds %@. Please file a bug against UICollectionView.;
+- (long long)roller of style UIAlertControllerStyleAlert;
+- (long long)perly entitled.;
+- (long long)tBleedOpacity;
+- (long long)bug.;
+- (long long)nteractions;
+- (void)²°þÿ;
+- (void)ª;
+- (void)xSgz_È¿7_Òý¾7RzlXX;
+- (void);
+- (long long)ü©ñÒMbP¿;
+- (long long)ßï?333333ë?@;
+- (void)HostedViewContainer;
 - (long long);
-- (void)t;
-- (void)N,V_includeFaces;
-- (void)ew;
-- (void)Priority.bundle;
-- (void)th-Swap;
-- (void)@, enabled:(long long)arg1 %@;
-- (void)gnoreAtCritical;
-- (void)imationProviderClass;
-- (NSString *)ult *);
-- (void)press;
-- (long long)ument could not delete the temporary store dir %@, %@;
-- (void)ies.m;
-- (void)ionPreferredSizes"16@?0q8;
-- (long long)ht;
-- (void)"CAFilter"8Q16^B24;
-- (long long)ssSpring;
-- (long long);
-- (long long)called on (BlurView in _D80E31061760D634A7A92FBCA94A0C48).;
-- (long long)tomLeftRadius;
-- (long long)ive width;
-- (void)h§Ê?ì¿ÎMâ ÀÛ2à~BÁÀ;
-- (long long);
-- (long long)osureOptions;
+- (unsigned long long)+ ^;
+- (void);
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

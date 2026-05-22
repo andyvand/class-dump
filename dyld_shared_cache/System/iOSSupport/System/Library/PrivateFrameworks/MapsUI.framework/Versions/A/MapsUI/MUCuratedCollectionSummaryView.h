@@ -25,9 +25,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)	;
+- (void)tent;
+- (id)áÜ
+0;
 
 // Remaining properties
 @property(retain, nonatomic) id <MUCuratedCollectionSummary> viewModel; // @synthesize viewModel=_viewModel;

@@ -4,19 +4,19 @@
 
 class SFUStopwatch {
 public: // (access info unavailable from symbols alone)
-    ElapsedTime();
-    GetMicroseconds();
-    Initialize();
-    Lap();
-    LapTime(unsigned long);
-    Laps();
-    LogElapsedTime();
-    Reset();
     SFUStopwatch(char const*, bool);
-    Start();
-    StartTime();
-    Stop();
-    StopTime();
-    Stub();
+    auto ElapsedTime();
+    auto GetMicroseconds();
+    auto Initialize();
+    auto Lap();
+    auto LapTime(unsigned long);
+    auto Laps();
+    auto LogElapsedTime();
+    auto Reset();
+    auto Start();
+    auto StartTime();
+    auto Stop();
+    auto StopTime();
+    auto Stub();
     ~SFUStopwatch();
 };

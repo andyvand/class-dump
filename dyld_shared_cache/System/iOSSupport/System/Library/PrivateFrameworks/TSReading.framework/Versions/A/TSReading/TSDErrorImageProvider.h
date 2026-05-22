@@ -10,20 +10,19 @@
 {
 }
 
-+ (id);
-+ (id)p;
-+ (id)Mâ8¤;
++ (id);
++ (id)QQ}8Q24^B32;
++ (id)g;
 - (struct CGPDFDocument *);
 - (void);
 - (_Bool);
+- (unsigned long long);
 - (oneway void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (unsigned long long)FFVersion;
-- (struct CGSize)åW!
-;
+- (struct CGSize)ú;
 
 @end
 

@@ -10,23 +10,23 @@
 {
 }
 
-+ (struct CGPath *);
-+ (struct CGPath *);
 + (struct CGPath *);
 + (struct CGPath *);
-+ (struct CGPath *);
++ (struct CGPath *);
++ (struct CGPath *);
++ (struct CGPath *);
 + (struct CGPath *);
 + (struct CGPath *);
 + (struct CGPath *);
 + (struct CGPath *);
 + (_Bool);
-+ (void)|;
++ (void);
 + (struct CGPath *);
 + (void);
 + (_Bool);
 + (_Bool);
 + (struct CGRect);
-+ (struct CGSize);
++ (struct CGSize);
 + (void);
 + (void);
 + (struct CGPath *);

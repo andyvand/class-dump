@@ -17,10 +17,10 @@
 - (void);
 - (id);
 - (void);
-- (id)ticFileProvider;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

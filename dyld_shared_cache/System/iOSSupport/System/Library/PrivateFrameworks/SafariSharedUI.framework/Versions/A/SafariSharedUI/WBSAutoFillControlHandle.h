@@ -13,17 +13,17 @@
     void controlID;
 }
 
-+ (void)codeObjectOfClass:(id)arg1 forKey:(id)arg2;
++ (void);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)kers:preventedTrackers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *controlID;

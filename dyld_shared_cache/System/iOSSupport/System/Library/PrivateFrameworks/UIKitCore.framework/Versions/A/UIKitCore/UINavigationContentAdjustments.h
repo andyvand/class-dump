@@ -13,13 +13,12 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _insetAdjustment;
 }
 
+- (void);
+- (struct UIEdgeInsets);
 - (id);
-- (void)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (void)¢!0@ù
-× ;
-- (void)abled:(id)arg1;
-- (struct UIEdgeInsets)imationsSuspended;
+- (void)F©?;
 
 // Remaining properties
 @property(nonatomic) __weak UIScrollView *adjustedScrollView; // @synthesize adjustedScrollView=_adjustedScrollView;

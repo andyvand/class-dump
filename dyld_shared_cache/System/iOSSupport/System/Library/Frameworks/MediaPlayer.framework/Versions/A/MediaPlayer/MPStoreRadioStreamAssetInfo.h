@@ -19,11 +19,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (long long)Reason:(long long)arg1;
-- (long long)sScore:(long long)arg1;
-- (void);
+- (long long);
 - (long long);
 - (id);
+- (long long);
+- (void)tion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long flavor;

@@ -5,8 +5,10 @@
 class JetPack::AESDecoderStream {
 public: // (access info unavailable from symbols alone)
     AESDecoderStream(std::__1::shared_ptr<JetPack::BaseStream>, std::__1::array<unsigned char, 16ul>, unsigned long, std::__1::unique_ptr<JetPack::CryptoBackend, std::__1::default_delete<JetPack::CryptoBackend>>);
-    isFinished();
-    position();
-    read(unsigned char*, unsigned long);
+    auto isFinished();
+    auto position();
+    auto read(unsigned char*, unsigned long);
+    auto read(unsigned char*, unsigned long) (.cold.1);
+    auto read(unsigned char*, unsigned long) (.cold.2);
     ~AESDecoderStream();
 };

@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
     _UISidebarPartitionAdapter *_sidebarPartitionAdapter;
 }
 
-- (void)eatePermissionsString(REVERT) failed;
-- (id)rifiedCombinedManifests;
-- (_Bool)o;
-- (_Bool)key;
-- (_Bool)ue;
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -37,20 +37,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)k!;
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void)¬ýÿÿ¨Yþûÿÿýÿÿ¤£ÿtûÿÿýÿÿ£ÿhûÿÿÐýÿÿ½Yþ\ûÿÿ,þÿÿçYþPûÿÿ8þÿÿä­YþDûÿÿlþÿÿPµYþ8ûÿÿþÿÿ½YþP;
-- (_Bool);
-- (void);
+- (void)ecessaryAtTop:(_Bool)arg1;
+- (void);
+- (_Bool)àZ;
+- (void)Mq;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

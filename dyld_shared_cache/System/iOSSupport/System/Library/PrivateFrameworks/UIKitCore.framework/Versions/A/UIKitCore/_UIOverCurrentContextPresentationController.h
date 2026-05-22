@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (long long);
+- (long long)spacing offset before solving. Item:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

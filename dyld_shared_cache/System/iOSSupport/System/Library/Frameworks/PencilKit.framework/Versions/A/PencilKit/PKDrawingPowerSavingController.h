@@ -19,21 +19,21 @@
     _Bool _isDrawingWithMarkerOrEraser;
 }
 
-- (_Bool)the config has not changed since we last downloaded it (HTTP 304);
+- (_Bool);
 - (void);
-- (void)(;
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (void);
+- (_Bool);
 - (id);
-- (void)¸¤÷ÿ;
+- (void)pi;
 
 // Remaining properties
 @property(nonatomic) _Bool isDrawingWithMarkerOrEraser; // @synthesize isDrawingWithMarkerOrEraser=_isDrawingWithMarkerOrEraser;

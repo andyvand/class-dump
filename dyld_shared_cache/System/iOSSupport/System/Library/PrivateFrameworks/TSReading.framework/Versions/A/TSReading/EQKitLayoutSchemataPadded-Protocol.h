@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol EQKitLayoutNode;
-
 @protocol EQKitLayoutSchemataPadded
-- (id <EQKitLayoutNode>);
 @end
 

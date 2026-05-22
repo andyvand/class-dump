@@ -17,10 +17,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)A"°!Gù±;ð1B0@ù
-× ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WFDatabase *database; // @synthesize database=_database;

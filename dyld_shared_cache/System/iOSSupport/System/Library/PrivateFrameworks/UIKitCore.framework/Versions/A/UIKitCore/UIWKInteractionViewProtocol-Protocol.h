@@ -4,41 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIView;
+@class NSArray, NSString;
 
 @protocol UIWKInteractionViewProtocol
-- (void)ProxyAutoDiscoveryEnable;
-- (void);
-- (_Bool)0@ù
-× ;
-- (_Bool)!@ùÈ°1¢!0@ù
-× ;
-- (void)"24;
-- (void)sesDeviceOverlayPreferences"b1"prefersOverlayInRegularWidthPhone"b1};
-- (void)iew for an invalid _UIViewHiddenReason, or the reason is too large to fit in _viewFlags.internallyHiddenForReason:(NSString *)arg1 %ld;
-- (NSString *)eyboard snapshot;
-- (struct CGRect)hold;
-- (NSString *):normal; font-size:12px /* Error: Ran out of types for this method. */;
-- (_Bool)ollerModalPresentationStyle;
-- (struct CGRect)UUUUUU@«ªªªªª@;
-- (void)onOptionCoder;
+- (void)n;
+- (void)ion;
+- (NSArray *)ckground;
+- (void)be suppressed while it is already active (%@);
+- (void)yMode:(struct CGPoint)arg1 ];
+- (struct CGRect)ailable;
+- (void)­33\Èþ33`Èþ33Èþ}33Èþ33´Èþ;
+- (_Bool)àE[;
+- (NSString *)µ º;
 
 @optional
-- (void);
-- (void)DAVPort;
-- (UIView *)library: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)× ;
-- (struct CGRect)wð!èGùÌ°1¢!0@ù
+- (void)!BùñX1Â0@ù
 × ;
-- (NSArray *)
+- (void);
+- (void)1Â0@ù
 × ;
-- (void)UIRefreshControlSeedView";
-- (_Bool)e: /* Error: Ran out of types for this method. */;
-- (void)olling:(struct CGPoint)arg1;
-- (void)guration:(long long)arg1;
-- (void)´Ñ;
-- (_Bool)icMorphView has a stable hierarchy.;
-- (void)eþeþ¶ý;
+- (void)A!üFù±^Ð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)ñb1Â0@ù
+× ;
+- (void)ordCustomMenu:(long long)arg1 afterStandardMenu:(long long)arg2;
+- (void)essLevel;
+- (void)¸ÇÈTÉ;
+- (_Bool)lues;
+- (void);
+- (void);
+- (NSArray *);
+- (struct CGRect)\;
 @end
 

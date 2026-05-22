@@ -19,21 +19,21 @@
 
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)C;
-- (void);
-- (id);
 - (_Bool);
-- (id)toreVersion;
-- (void)esult;
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

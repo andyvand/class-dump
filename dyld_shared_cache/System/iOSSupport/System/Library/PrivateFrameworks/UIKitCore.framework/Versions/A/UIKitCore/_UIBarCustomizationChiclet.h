@@ -30,47 +30,46 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)46;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (struct CGSize)dationStatusForAlias:(long long)arg1;
-- (id)csForMessageItem:filteredToChat:filterExtensionMetadata: /* Error: Ran out of types for this method. */;
-- (long long)vices:message: /* Error: Ran out of types for this method. */;
-- (void):encryptionValidationToken:fromSender:completion: /* Error: Ran out of types for this method. */;
-- (void)alChange:(const struct _UITraitCollectionChangeDescription *)arg1;
-- (double);
+- (struct CGSize);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (double);
 - (_Bool);
 - (double);
-- (double)ll Size:%d /* Error: Ran out of types for this method. */;
-- (struct CGSize)on since we did not get an AppName;
-- (void)upload %@;
-- (void)etting up pipeline for notify recipient fromID:(long long)arg1 %@, ;
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)g called.;
-- (_Bool);
-- (void)ªÅº;
-- (id)
-× ;
-- (id)qÎÐ1¢!0@ù
-× ;
-- (struct CGSize)WithCompletion: /* Error: Ran out of types for this method. */;
-- (void)SkinToneChooserVariantsForString:(id)arg1;
-- (_Bool)T@"UIView",&,N,V_fromOverlayView;
-- (id)eraction",&,N,V_deleteButtonPortalInteraction;
-- (void);
+- (double);
 - (struct CGSize);
-- (id)/];
-- (id)d;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (struct CGSize);
+- (void);
+- (id);
+- (id)0@ù
+× ;
+- (void)fset;
+- (struct CGSize)ecodeSizeForKey: /* Error: Ran out of types for this method. */;
+- (_Bool)Ä;
+- (id)HairlineWhite;
+- (id);
+- (void);
+- (id);
+- (void)©ßÿzÉ8^;
+- (id)ÍàY;
+- (void)T(ÿ¥Ü<d;
 
 // Remaining properties
 @property(nonatomic) __weak _UIBarCustomizationChicletAnchorView *anchorView; // @synthesize anchorView=_anchorView;

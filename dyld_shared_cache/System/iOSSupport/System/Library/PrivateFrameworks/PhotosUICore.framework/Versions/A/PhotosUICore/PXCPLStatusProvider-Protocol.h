@@ -7,6 +7,7 @@
 @class PXCPLStatus;
 
 @protocol PXCPLStatusProvider
+- (PXCPLStatus *)ssets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCPLStatus *status;

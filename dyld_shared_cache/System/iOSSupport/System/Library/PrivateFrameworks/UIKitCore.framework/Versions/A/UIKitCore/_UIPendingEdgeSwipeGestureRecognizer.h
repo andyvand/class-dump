@@ -11,12 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)
-× ;
-- (void)qÆ1¢!0@ù
-× ;
-- (void)"_UIInternalDraggingSessionDestination";
-- (void)tVideoQuality:(id)arg1;
+- (void)geInDirection:(id)arg1;
+- (void)_uikit_stringByTrimmingWhitespaceAndNewlines;
+- (void);
+- (void);
 
 @end
 

@@ -48,10 +48,10 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (struct CGSize);
 - (double);
-- (void);
 - (id);
+- (struct CGSize);
+- (void)derContentView;
 
 // Remaining properties
 @property(readonly, nonatomic) PXExtendedImageConfiguration *chevronImageConfiguration; // @synthesize chevronImageConfiguration=_chevronImageConfiguration;

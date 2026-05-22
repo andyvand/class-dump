@@ -30,8 +30,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIStackView *boldButtonStackView; // @synthesize boldButtonStackView=_boldButtonStackView;

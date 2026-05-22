@@ -19,18 +19,18 @@
 }
 
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ew recipes in a beautiful and easy-to-use format.;
+- (void)´Ï;
 - (void);
-- (id);
-- (void)egate: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)EndOfArticleFeedConfigManager;
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;

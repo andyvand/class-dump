@@ -13,11 +13,11 @@
 
 - (void);
 - (id);
-- (id)oY;
-- (void)tleReferenceWidthPortrait;
 - (id);
 - (void);
+- (id);
 - (struct CGRect);
+- (void);
 - (id);
 
 // Remaining properties

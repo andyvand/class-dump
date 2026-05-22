@@ -4,11 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WFAQIScale;
-
 @protocol WFAPIConfigurationProtocol
-- (WFAQIScale *);
-- (_Bool)h;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isValid;

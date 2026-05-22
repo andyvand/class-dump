@@ -13,6 +13,7 @@
     _Bool _stewieSharingChat;
     _Bool _liteServiceCapable;
     _Bool _encrypted;
+    _Bool _previousItemEncrypted;
     IMServiceImpl *_service;
     IMHandle *_handle;
 }
@@ -22,6 +23,7 @@
 @property(nonatomic, getter=isEncrypted) _Bool encrypted; // @synthesize encrypted=_encrypted;
 @property(readonly, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
 @property(nonatomic, getter=isLiteServiceCapable) _Bool liteServiceCapable; // @synthesize liteServiceCapable=_liteServiceCapable;
+@property(nonatomic, getter=isPreviousItemEncrypted) _Bool previousItemEncrypted; // @synthesize previousItemEncrypted=_previousItemEncrypted;
 @property(readonly, nonatomic) IMServiceImpl *service; // @synthesize service=_service;
 @property(nonatomic, getter=isStewieSharingChat) _Bool stewieSharingChat; // @synthesize stewieSharingChat=_stewieSharingChat;
 @end

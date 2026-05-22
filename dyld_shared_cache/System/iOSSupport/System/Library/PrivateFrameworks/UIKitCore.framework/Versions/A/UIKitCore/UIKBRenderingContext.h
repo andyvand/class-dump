@@ -18,29 +18,29 @@
     UIView *_layoutView;
 }
 
-+ (id);
++ (id)ctToKeepValid;
 - (_Bool);
-- (id);
+- (unsigned long long);
+- (long long)1Â0@ù
+× ;
+- (id)!|Fù±bÐ1Â0@ù
+× ;
+- (id)onHeader;
+- (_Bool)attackSpeed:(id)arg1 decaySpeed: /* Error: Ran out of types for this method. */;
+- (id)ragSetDownAnimationWindow;
+- (void)presentation;
+- (_Bool)cer;
+- (id)entSubgraphForGestureRecognizer(UIGestureEnvironment *__unsafe_unretained, UIGestureRecognizer *__unsafe_unretained);
+- (void)entingViewController of %@, expected %@;
+- (id)allowed as individual navigation bar button item. Please use the rightBarButtonItems (that's plural) property.;
+- (id)\_;
+- (void)Äf;
 - (void);
-- (long long)0@ù
-× ;
-- (id)!ÄGùñË°1¢!0@ù
-× ;
-- (void)wController:(long long)arg1 committing: /* Error: Ran out of types for this method. */;
-- (id)n;
-- (void)á8âÔâ´ãxäØäædæì;
-- (void)SourceSectionTransactionC;
-- (void)lection;
-- (id);
-- (_Bool);
-- (void)óÿ;
-- (_Bool)½=a;
-- (id)þ;
-- (id)a;
-- (long long)6õe;
-- (void)óf;
-- (void)¬i;
-- (unsigned long long)El;
+- (long long)0â­ÿe±;
+- (void)Wj;
+- (void)Ââÿ#¦+;
+- (void)Öÿ;
+- (void)(Àzÿ*÷ÚØk;
 
 // Remaining properties
 @property(nonatomic) long long handBias; // @synthesize handBias=_handBias;

@@ -22,9 +22,12 @@
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)0@ù
+× ;
+- (id)!\Eù°1â
+0@ù
+× ;
+- (void)itle;
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *circleLayer; // @synthesize circleLayer=_circleLayer;

@@ -28,9 +28,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
+- (void)¨DÈ<tP HÈ;
+- (id)XÑ;
 
 // Remaining properties
 @property(copy, nonatomic) WFParameterValuePickerTableViewCellConfiguration *configuration; // @synthesize configuration=_configuration;

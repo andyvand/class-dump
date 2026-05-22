@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (struct CGImage *);
+- (struct CGImage *);
 - (id);
 - (void);
 - (struct CGImage *);

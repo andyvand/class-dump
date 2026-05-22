@@ -19,10 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType)eople;
-- (id)àOëÿÔo#ÿ,K;
+- (id);
+- (CDUnknownBlockType)ermittedArrowDirections: /* Error: Ran out of types for this method. */;
+- (void)c:loudness:peak:audioScore: /* Error: Ran out of types for this method. */;
+- (void)eName;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAppleMusicStatusProvider> appleMusicStatusProvider; // @synthesize appleMusicStatusProvider=_appleMusicStatusProvider;

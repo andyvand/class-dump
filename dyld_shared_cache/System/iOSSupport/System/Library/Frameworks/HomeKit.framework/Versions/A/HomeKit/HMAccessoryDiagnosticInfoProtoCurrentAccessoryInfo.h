@@ -15,19 +15,19 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id)#{flags};
-- (void)sage;
+- (void);
+- (id)cy",&,N;
+- (void)deserialize accessory collection setting item value due to unexpected exception:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPublicPairingIdentity;

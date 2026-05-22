@@ -10,8 +10,8 @@
 {
 }
 
-+ (struct CGPath *)h;
-+ (void);
++ (struct CGPath *);
++ (void);
 + (struct CGRect);
 + (void);
 + (_Bool);

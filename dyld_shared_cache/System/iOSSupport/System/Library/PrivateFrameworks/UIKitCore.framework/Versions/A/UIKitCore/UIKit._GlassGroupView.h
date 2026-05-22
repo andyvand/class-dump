@@ -20,11 +20,10 @@
 }
 
 - (void);
-- (void)MPModelPropertyStoreAssetShouldReportPlayEvents;
-- (id)}	AHJ ;
-- (void)!dDù±Äð1¢!0@ù
-× ;
 - (id);
+- (id)reviewPresentationController;
+- (void);
+- (void)·@ï;
 
 @end
 

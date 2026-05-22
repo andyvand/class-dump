@@ -9,9 +9,9 @@
     long long _kind;
 }
 
+- (id);
+- (id);
 - (long long);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;

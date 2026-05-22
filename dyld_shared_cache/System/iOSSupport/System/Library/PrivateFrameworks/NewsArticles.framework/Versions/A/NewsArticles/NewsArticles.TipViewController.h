@@ -23,16 +23,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool)5;
 - (id);
-- (void)cles44ArticleRecirculationSpecifiedSectionDataTypeP;
-- (void)ticles23SearchInArticleAssembly;
+- (void);
+- (void)ability;
+- (void)age when an article is not available due to device offline;
+- (void)%Ë Ýöÿ;
 - (void);
 
 // Remaining properties

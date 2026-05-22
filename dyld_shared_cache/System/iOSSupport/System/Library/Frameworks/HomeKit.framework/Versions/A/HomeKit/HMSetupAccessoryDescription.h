@@ -44,8 +44,8 @@
     NSString *_accessoryServerIdentifier;
 }
 
-+ (id)dP4Q8RSTPVXWÄZÌ\] ^p_t`äc\fHkl(mømün@qHrdulw<x@yz{d|¨~Ü¬°¬ÀÈ;
-+ (_Bool)thCompletion:] /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool);
 
 @end
 

@@ -7,7 +7,8 @@
 @class NSString;
 
 @protocol PXStoryTimeline
-- (CDStruct_e83c9415)8;
+- (CDStruct_e83c9415)atusResumeActionConfirmationAlertTitles(PXCPLStatusPauseReason, PXCPLUIStatusProviderResumeTime, NSString *__autoreleasing *, NSString *__autoreleasing *, NSString *__autoreleasing *);
+- (NSString *)ryLayout visibleRectDidChange];
 
 // Remaining properties
 @property(readonly, nonatomic) long long dataSourceIdentifier;

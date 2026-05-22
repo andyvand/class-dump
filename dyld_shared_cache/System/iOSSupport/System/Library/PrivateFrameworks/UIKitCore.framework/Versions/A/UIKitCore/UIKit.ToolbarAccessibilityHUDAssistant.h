@@ -13,12 +13,13 @@
     MISSING_TYPE *delegate;
 }
 
-- (void);
 - (void);
-- (id);
-- (void);
-- (id),&,N,G_textColor,S_setTextColor: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void)@¦l;
 
 @end
 

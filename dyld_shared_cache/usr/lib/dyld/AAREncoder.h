@@ -5,11 +5,11 @@
 class AAREncoder {
 public: // (access info unavailable from symbols alone)
     AAREncoder(lsl::Allocator&);
-    addFile(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::span<std::byte, 18446744073709551615ul>);
-    encode(ByteStream&) const;
-    encodeFile(AAREncoder::File const&, ByteStream&) const;
-    encodeFile(AAREncoder::File const&, ByteStream&) const (.cold.1);
-    encodeLink(AAREncoder::Link const&, ByteStream&) const;
-    headerSize(AAREncoder::File const&) const;
+    auto addFile(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::span<std::byte, 18446744073709551615ul>);
+    auto encode(ByteStream&) const;
+    auto encodeFile(AAREncoder::File const&, ByteStream&) const;
+    auto encodeFile(AAREncoder::File const&, ByteStream&) const (.cold.1);
+    auto encodeLink(AAREncoder::Link const&, ByteStream&) const;
+    auto headerSize(AAREncoder::File const&) const;
     ~AAREncoder();
 };

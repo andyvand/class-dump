@@ -11,10 +11,11 @@
     MISSING_TYPE *gradientDescriptor;
 }
 
-+ (Class);
++ (Class);
 - (id);
-- (void)SigningObject;
-- (id)Dlþ;
+- (id)1Â0@ù
+× ;
+- (void)Wîþ;
 
 @end
 

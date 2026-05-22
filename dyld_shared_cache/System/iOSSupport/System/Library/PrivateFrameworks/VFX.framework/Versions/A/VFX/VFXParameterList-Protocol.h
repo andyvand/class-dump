@@ -7,8 +7,7 @@
 @class NSArray;
 
 @protocol VFXParameterList
-- (NSArray *)erOutputs;
-- (void);
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *names;

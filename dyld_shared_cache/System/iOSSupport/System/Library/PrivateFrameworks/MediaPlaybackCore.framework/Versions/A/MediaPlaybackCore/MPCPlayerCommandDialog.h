@@ -12,12 +12,12 @@
     NSArray *_actions;
 }
 
-- (id)KeysForUUID:(id)arg1 withCriteria:(id)arg2 completion: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)fms;
+- (id)gressiveResult"8q16^B24;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;

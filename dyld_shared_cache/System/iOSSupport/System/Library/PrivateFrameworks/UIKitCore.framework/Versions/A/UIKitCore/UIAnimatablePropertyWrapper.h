@@ -13,20 +13,18 @@
     id <UIBridgedAnimatableProperty> _animatableProperty;
 }
 
-+ (id)%@);
-+ (id)sh handler (%@) (guid:(id)arg1 %@);
++ (id);
++ (id);
 - (void);
 - (id);
-- (void)qÃð1¢!0@ù
+- (void)ñ[ð1Â0@ù
 × ;
-- (_Bool)pBehavior;
-- (id)in a scene. contextID:%i /* Error: Ran out of types for this method. */;
-- (id)ntendedPresentationDarwinNotificationName;
-- (void)uuuuuuå?»ºººººê?{{{{{{ë?ç?XXXXXXè?ttttttä?å?ÙØØØØØØ?Ö?______ï?Ó?¤??q=
-×£pÝ?×£p=
-×ã?Á?;
-- (id);
-- (void)Wp;
+- (id)nlySystemInvocations:(id)arg1;
+- (void)ousContainerSize;
+- (id)ìþ;
+- (_Bool)r: /* Error: Ran out of types for this method. */;
+- (id)ð¿ÿLç×h;
+- (void)¨©ÿúÚHOj;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIBridgedAnimatableProperty> animatableProperty; // @synthesize animatableProperty=_animatableProperty;

@@ -20,11 +20,11 @@
 - (id);
 - (id);
 - (void);
-- (CDStruct_2c43369c);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (CDStruct_2c43369c);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) CDStruct_2c43369c coordinates; // @synthesize coordinates=_coordinates;

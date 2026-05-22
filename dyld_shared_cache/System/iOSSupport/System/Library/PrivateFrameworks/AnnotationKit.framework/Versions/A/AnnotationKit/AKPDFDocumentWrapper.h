@@ -9,8 +9,8 @@
     struct CGPDFDocument *_pdfDocument;
 }
 
-- (id);
-- (void)0:8 /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (id);
 - (struct CGPDFDocument *);
 

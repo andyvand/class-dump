@@ -28,19 +28,19 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool)te;
-- (void)';
-- (id);
+- (void)ðáðâ;
+- (void)0Ü¬ pü;
+- (void)g;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessGroup; // @synthesize accessGroup=_accessGroup;

@@ -19,14 +19,14 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (double);
 - (void);
 - (double);
+- (void);
+- (id);
+- (id);
 - (CDStruct_31142d93);
-- (id);
-- (id);
-- (id);
-- (double);
-- (void)ight_leg_joint;
 
 // Remaining properties
 @property(nonatomic) CDStruct_31142d93 acceleration; // @synthesize acceleration=_acceleration;

@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (id);;
++ (id);
 - (id);
 - (id);
 - (id);
@@ -25,12 +25,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)tingsWithBlock: /* Error: Ran out of types for this method. */;
-- (id)"T";
-- (id)s:%@ didUpdateForIdentifier:%@ keyPath:%@ delegate:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)abled;
+- (id)htProfile setNaturalLightingEnabled:shouldRetryOnFailure:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

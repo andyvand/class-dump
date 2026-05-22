@@ -18,18 +18,18 @@
 - (id);
 - (struct CGPoint);
 - (void);
+- (void);
 - (double);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void)h;
 - (void);
-- (void);
-- (void);
-- (_Bool)4;
-- (void)à;
-- (_Bool)°;
-- (_Bool)¿Ü}Æÿ;
+- (void)ding entry view while the screentime lockout view is being shown;
+- (void)¼¨¬;
 
 // Remaining properties
 @property(retain, nonatomic) UITouch *firstTouch; // @synthesize firstTouch=_firstTouch;

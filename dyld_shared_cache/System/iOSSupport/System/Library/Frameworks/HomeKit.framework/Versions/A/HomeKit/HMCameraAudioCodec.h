@@ -10,13 +10,13 @@
 }
 
 + (_Bool);
-+ (_Bool)kServiceDefaultNameUpdatedNotificationKey;
++ (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long audioCodec; // @synthesize audioCodec=_audioCodec;

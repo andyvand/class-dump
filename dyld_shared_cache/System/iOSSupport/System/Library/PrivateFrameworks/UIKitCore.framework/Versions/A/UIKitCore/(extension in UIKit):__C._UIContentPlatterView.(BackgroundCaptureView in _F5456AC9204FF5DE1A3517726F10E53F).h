@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class)C;
++ (Class);
 - (id);
-- (id)):(struct CGRect)arg1 - Existing command: /* Error: Ran out of types for this method. */;
+- (id)tions;
 
 @end
 

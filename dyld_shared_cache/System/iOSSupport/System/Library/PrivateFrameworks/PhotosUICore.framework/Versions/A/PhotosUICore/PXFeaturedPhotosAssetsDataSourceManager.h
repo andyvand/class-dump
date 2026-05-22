@@ -27,10 +27,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id)tAlbums;
+- (void)ailed:(id)arg1 The allocation for a buffer or buffer pool failed. Most likely because of lack of resources.;
 - (void);
-- (void)ÿîû6;
 
 // Remaining properties
 @property(retain, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

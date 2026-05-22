@@ -19,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)archesUntilFirstOneUpInTopAssets;
++ (id)OOL PXIsCMMURL(NSURL *__strong _Nonnull);
 
 @end
 

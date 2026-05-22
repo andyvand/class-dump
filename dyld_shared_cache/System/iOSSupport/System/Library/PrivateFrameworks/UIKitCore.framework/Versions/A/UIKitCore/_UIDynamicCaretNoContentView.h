@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)roller.m;
+- (id):(id)arg1;
 
 @end
 

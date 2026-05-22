@@ -7,8 +7,8 @@
 @class NSString;
 
 @protocol SXTextSelectionManager
-- (void);
-- (void)Tag: /* Error: Ran out of types for this method. */;
+- (void)andlerFactory:URLActionFactory:articleURLFactory: /* Error: Ran out of types for this method. */;
+- (NSString *)solver>"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *selectedText;

@@ -12,11 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)mmarySymbolView:(id)arg1;
-- (id)DropSelectionRange;
-- (_Bool)estinationText;
-- (_Bool)RadiosityShadowIfNeededWithSourceView: /* Error: Ran out of types for this method. */;
-- (void)pport;
+- (void)1_1Â0@ù
+× ;
+- (_Bool);
+- (void)¼2;
+- (id)om.apple.uikit.pasteboard-detection-pattern.dd.email;
+- (_Bool)@:(id)arg1 %p; cellEdge = %@, actions = %@>;
 
 @end
 

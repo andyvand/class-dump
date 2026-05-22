@@ -12,14 +12,14 @@
     double _baselineOffset;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (struct CGRect);
 + (id);
-+ (id)ID:(id)arg1 %@;
-+ (_Bool)ipient count:(id)arg1 %llu maxRecipients:%llu /* Error: Ran out of types for this method. */;
-+ (struct CGRect)ID (%@) parsed GUID (%@) returned (%{BOOL}d).;
-+ (id)must be true;
++ (id);
++ (_Bool);
++ (struct CGRect);
++ (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextSelectionRectCustomHandleInfo *_customHandleInfo;

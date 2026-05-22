@@ -20,14 +20,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (struct CGSize);
-- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <STSLoadMoreFooterDelegate> delegate; // @synthesize delegate=_delegate;

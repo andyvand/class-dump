@@ -60,16 +60,16 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
+- (void);
 - (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (long long);
-- (void);
 - (id);
 - (void);
 

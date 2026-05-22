@@ -5,6 +5,5 @@
 //
 
 @protocol AKAuthorizationSubPaneAdding
-- (void);
 @end
 

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (long long)ÏRÿ;
+- (long long): /* Error: Ran out of types for this method. */;
 
 @end
 

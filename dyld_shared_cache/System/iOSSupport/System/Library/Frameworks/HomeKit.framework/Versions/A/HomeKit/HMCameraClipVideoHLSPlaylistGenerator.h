@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)ol;
 
 // Remaining properties
 @property(readonly, copy) NSData *hlsPlaylist;

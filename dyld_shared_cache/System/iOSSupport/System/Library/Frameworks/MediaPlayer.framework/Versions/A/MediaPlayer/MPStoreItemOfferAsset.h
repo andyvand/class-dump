@@ -11,14 +11,14 @@
     NSDictionary *_lookupDictionary;
 }
 
-- (double)PhotoPath: /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
-- (id);
-- (void);
+- (double);
 - (id);
 - (long long);
 - (id);
-- (double);
+- (id);
+- (void)viorChangedObserver;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;

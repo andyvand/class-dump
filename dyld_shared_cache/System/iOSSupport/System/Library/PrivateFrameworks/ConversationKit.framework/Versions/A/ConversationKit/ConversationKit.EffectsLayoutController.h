@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)enuControlsServiceP;
 
 @end
 

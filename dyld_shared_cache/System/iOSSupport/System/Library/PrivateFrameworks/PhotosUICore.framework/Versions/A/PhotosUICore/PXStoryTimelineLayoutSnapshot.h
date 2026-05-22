@@ -18,9 +18,9 @@
 - (id);
 - (CDStruct_2bd92d94);
 - (id);
-- (void);
-- (id);
-- (CDStruct_e83c9415);
+- (id)__reducedNavigationBarLegibilityGradient;
+- (CDStruct_e83c9415)>;
+- (void)l person who isn't also the target person.;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_2bd92d94 clipCornerRadius; // @synthesize clipCornerRadius=_clipCornerRadius;

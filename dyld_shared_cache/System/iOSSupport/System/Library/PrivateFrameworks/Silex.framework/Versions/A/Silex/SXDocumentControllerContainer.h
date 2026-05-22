@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)oolCache";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

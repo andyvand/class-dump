@@ -13,8 +13,8 @@
     _Bool isRawFileConsumable;
 }
 
-- (_Bool);
 - (id);
+- (_Bool);
 - (id);
 
 // Remaining properties

@@ -19,13 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (CDUnknownBlockType);
-- (void)it homes DB loaded;
-- (id)nously call -[HFItemManagerDelegateUpdateRequest performWithOptions:]. Did the delegate accidentally drop the request? /* Error: Ran out of types for this method. */;
-- (id)Þûÿò;
-- (id)ïÿwôÄ;
+- (void)
+× ;
+- (void)ountFuture;
+- (void)X.;
+- (id)À;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

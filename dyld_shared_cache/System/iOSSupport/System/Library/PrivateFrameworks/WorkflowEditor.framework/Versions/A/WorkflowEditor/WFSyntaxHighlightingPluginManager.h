@@ -37,10 +37,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)x¶ØÿÿÿÿÿÔ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *defaultBackgroundColor;

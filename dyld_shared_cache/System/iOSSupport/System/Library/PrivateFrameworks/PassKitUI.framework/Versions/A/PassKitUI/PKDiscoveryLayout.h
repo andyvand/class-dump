@@ -21,13 +21,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (double);
-- (struct CGSize);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id)Äéÿ;
+- (double);
+- (struct CGSize);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double interimSpacing; // @synthesize interimSpacing=_interimSpacing;

@@ -19,16 +19,16 @@
 - (id);
 - (int);
 - (struct CGPath *);
-- (struct CGRect);
+- (void);
+- (id);
 - (unsigned long long);
+- (struct CGRect);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (double);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (double)[;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPath *CGPath; // @synthesize CGPath=_CGPath;

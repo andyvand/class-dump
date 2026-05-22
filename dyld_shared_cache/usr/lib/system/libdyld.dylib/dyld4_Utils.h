@@ -4,6 +4,6 @@
 
 class dyld4::Utils {
 public: // (access info unavailable from symbols alone)
-    concatenatePaths(char*, char const*, unsigned long);
-    strrstr(char const*, char const*);
+    auto concatenatePaths(char*, char const*, unsigned long);
+    auto strrstr(char const*, char const*);
 };

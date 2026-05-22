@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)roundCircleLayer;
-- (void) ¡`¡¢¢;
+- (void)mage;
 @end
 

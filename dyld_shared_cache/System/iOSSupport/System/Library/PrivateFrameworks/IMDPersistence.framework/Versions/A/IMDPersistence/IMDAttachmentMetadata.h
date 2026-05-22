@@ -14,21 +14,20 @@
     void handleID;
 }
 
-+ (_Bool)ressed_handle = ?, last_addressed_sim_id = ?
-WHERE service_name = ? AND last_addressed_sim_id = ?;;
++ (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id)agIndicatorView;
+- (void)tachmentRecordClearDeleteTombStones;
 
 // Remaining properties
 @property(nonatomic) _Bool fromMe; // @synthesize fromMe;

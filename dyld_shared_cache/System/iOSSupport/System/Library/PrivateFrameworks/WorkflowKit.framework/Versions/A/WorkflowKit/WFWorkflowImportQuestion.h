@@ -21,8 +21,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ublic}@;
+- (id);
+- (void)rce;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak WFAction *action; // @synthesize action=_action;

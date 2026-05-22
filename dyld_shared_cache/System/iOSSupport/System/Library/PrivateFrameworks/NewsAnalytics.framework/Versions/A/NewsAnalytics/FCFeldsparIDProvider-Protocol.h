@@ -7,8 +7,6 @@
 @class NSString;
 
 @protocol FCFeldsparIDProvider
-- (void)P;
-- (NSString *)nersQueue;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *feldsparID;

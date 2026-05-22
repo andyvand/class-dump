@@ -21,16 +21,15 @@
     struct CGPoint _lastPositionInWindow;
 }
 
-+ (id);
++ (id);
 + (struct CGRect);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool);
 + (Class);
-- (struct CGPoint)0d;
+- (struct CGPoint);
 - (void);
 - (_Bool);
 - (void);
-- (void)#;
 - (void);
 - (void);
 - (void);
@@ -38,31 +37,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (struct CGPoint);
 - (_Bool);
 - (struct CGPoint);
 - (struct CGPoint);
 - (unsigned long long);
-- (struct CGPoint)غ;
 - (struct CGPoint);
 - (struct CGPoint);
+- (struct CGPoint);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (double);
 - (void);
-- (void);
 - (id);
-- (void)T@"AKAnnotation",W,V_parentAnnotation;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) AKAnnotation *annotation; // @synthesize annotation=_annotation;

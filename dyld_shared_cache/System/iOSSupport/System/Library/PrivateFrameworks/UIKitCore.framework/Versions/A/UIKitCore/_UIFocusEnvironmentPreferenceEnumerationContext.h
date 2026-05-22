@@ -26,32 +26,31 @@ __attribute__((visibility("hidden")))
     _UIDebugLogStack *_debugStack;
 }
 
-- (void)@;
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (_Bool)�H
-(;
 - (_Bool);
 - (_Bool);
-- (_Bool));
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void)pe;
-- (id)e;
-- (void)ngChat: /* Error: Ran out of types for this method. */;
-- (void)mentsAsNeedingSync;
-- (_Bool)R;
 - (void);
 - (id);
 - (void);
-- (id)1¢!0@ù
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)¡Ð!øCùdð1Â0@ù
 × ;
-- (id)ViewController;
-- (id)(void);
-- (void)sBrowserReuseTabKey;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,19 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UITableView;
-
 @protocol UITableViewDataSource
-
-@optional
-- (NSString *);
-- (long long)s:(UITableView *)arg1 %d
-;
-- (void)taValues is NULL;
-- (void)WithOptions;
-- (_Bool)not implemented;
-- (_Bool)Patch is not implemented;
-- (NSArray *)WithCapacity:(UITableView *)arg1;
-- (long long)PrimaryTextColor;
 @end
 

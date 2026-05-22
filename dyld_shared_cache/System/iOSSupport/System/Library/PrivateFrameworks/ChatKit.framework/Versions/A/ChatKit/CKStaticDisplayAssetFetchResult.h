@@ -13,20 +13,20 @@ __attribute__((visibility("hidden")))
     NSArray *_assets;
 }
 
-- (id)der;
+- (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
+- (_Bool);
 - (id);
-- (void);
-- (id)@;
-- (_Bool)ift_as_ret;
+- (id)wControllerDidInset: /* Error: Ran out of types for this method. */;
+- (id)owAllButton: /* Error: Ran out of types for this method. */;
+- (id)istTranscriptCell;
+- (long long)ZyAEyAEyAEyµZy0ZyºµZÅGSgGÄy>¶ZGG·~ZG	ZyÃZGGASyáZGGG;
+- (void)ÿÿ&;
 - (id);
-- (id);
-- (id);
-- (id)le there was an active chat controller. Requesting that we continue observing availability for chat %@;
-- (long long)°àø;
+- (id)n0;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;

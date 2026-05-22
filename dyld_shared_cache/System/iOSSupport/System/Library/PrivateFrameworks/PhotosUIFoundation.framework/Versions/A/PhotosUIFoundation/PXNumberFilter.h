@@ -27,20 +27,20 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (double);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
 - (void);
-- (void);
+- (double);
+- (double);
 - (void);
 - (void);
 - (double);
 - (double);
-- (double);
 - (void);
-- (double)nPhotos;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentTime;

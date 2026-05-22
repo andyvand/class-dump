@@ -19,14 +19,13 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (double);
 - (void);
 - (id);
 - (void);
-- (void)
-Ü ø;
-- (double)thCompletionBlock:]_block_invoke_2 /* Error: Ran out of types for this method. */;
-- (void)Destination:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)FAppendOnNewLine);
+- (void);
+- (void);
+- (void)WFShowDefinitionActionAppKitUserInterface;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration; // @synthesize duration=_duration;

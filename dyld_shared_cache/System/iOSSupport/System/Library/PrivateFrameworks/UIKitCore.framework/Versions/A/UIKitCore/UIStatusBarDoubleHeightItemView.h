@@ -17,10 +17,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (double)ipientSubscriptionValidationToken;
+- (double);
 - (id);
-- (void)wZ
-º;
+- (void)Xâb;
 
 @end
 

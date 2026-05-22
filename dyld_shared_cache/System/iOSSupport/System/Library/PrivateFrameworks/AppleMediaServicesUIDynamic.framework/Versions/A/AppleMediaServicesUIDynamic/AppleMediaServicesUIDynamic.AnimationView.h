@@ -12,12 +12,12 @@
     MISSING_TYPE *animationPlayer;
 }
 
-- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 @end
 

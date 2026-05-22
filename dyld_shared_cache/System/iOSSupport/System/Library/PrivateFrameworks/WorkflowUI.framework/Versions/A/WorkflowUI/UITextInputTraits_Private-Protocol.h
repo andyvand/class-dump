@@ -7,26 +7,27 @@
 @class NSIndexSet, NSString, UIColor, UIImage, UIInputContextHistory, UITextRange, _UISupplementalLexicon;
 
 @protocol UITextInputTraits_Private
-- (void)ShortcutUniqueIdentifier was nil.;
+- (void)@;
 
 @optional
-- (double)@ù
-× ;
-- (void)6;
-- (void)ÐCùqL°1B0@ù
-× ;
-- (void)iewControllerDelegate>";
-- (void)d;
-- (NSString *);
+- (long long)^{_NSRange=QQ}32;
+- (_Bool)tion: /* Error: Ran out of types for this method. */;
+- (void)View;
+- (NSString *)ÿÿÿÿô;
+- (void) NXN;
 - (void);
-- (void)ngOptionsCollection;
-- (void)lections;
-- (void)AAyAByÕ°Sg_AEtGG(¬G_ACyACyÓ±fªy¨¬GG¹ªGtGG;
-- (UIInputContextHistory *)ÒQo_tGGAFy@¼yAFyAJ_¼ATtGG_AKtGGG¶GA2_GG;
-- (void)¨YSgGGoTGAPGAAyYAFGt;
-- (UIColor *)fIconsView rebuildSubviewsForItems:] /* Error: Ran out of types for this method. */;
-- (_Bool)wViewController.m;
-- (void)LAN network within 3 minutes of being disconnected, this automation will run again.;
+- (UIInputContextHistory *)WFCompactContentPreviewViewController.m;
+- (void)¨ÿÿ;
+- (void)G_Î{þÿQo_A11_GGtGQo_¯G_hPyAGyAFyA37__ADyADyADyADyÓMyA46_yADyADyúyAOySyAHA50_GAHGGAIyuSgGGA20_GG_ýKQo_AIyÂ	SgGGAIy¶GGAMGAMGtGG_Qo_Qo_GG;
+- (void)îSgGGACyâGGt;
+- (void)ADy4$/!y!$GGAFyï#SgGG_YtGG;
+- (void)__SSQo__Qo__So16WFWorkflowRecordC5TÿÿQo_;
+- (long long)ï9·Â>_ì9·tG;
+- (void)y,;·G;
+- (_Bool)ÿ|çÿôæ;
+- (void)ÿÿÿ;
+- (_Bool)¨Iáÿ\ö;
+- (UIColor *)¬5	;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;

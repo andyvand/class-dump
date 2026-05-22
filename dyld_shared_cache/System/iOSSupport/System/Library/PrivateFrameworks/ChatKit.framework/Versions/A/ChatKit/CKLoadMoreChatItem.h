@@ -10,14 +10,14 @@
 {
 }
 
-- (struct UIEdgeInsets),V_centiseconds;
-- (BOOL)B,N,V_passwordProtectedOnly;
+- (struct UIEdgeInsets);
+- (BOOL);
 - (struct CGSize);
 - (id);
-- (_Bool)iew-generator;
-- (Class);
+- (_Bool);
 - (struct UIEdgeInsets);
-- (unsigned long long)trollerDidExpand: /* Error: Ran out of types for this method. */;
+- (Class);
+- (unsigned long long): /* Error: Ran out of types for this method. */;
 
 @end
 

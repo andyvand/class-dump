@@ -32,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (CDStruct_1b6d18a9);
 - (void);
 - (id);
-- (void);
 - (unsigned int);
+- (void);
 
 // Remaining properties
 @property CDStruct_1b6d18a9 activeGestureLastSeenTime; // @synthesize activeGestureLastSeenTime=_activeGestureLastSeenTime;

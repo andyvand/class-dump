@@ -5,14 +5,14 @@
 class zhtok::ChineseLMTokenizer {
 public: // (access info unavailable from symbols alone)
     ChineseLMTokenizer(__CFLocale const*, unsigned long);
-    advanceToNextToken();
-    getCurrentTokenRange();
-    goToTokenAtIndex(long);
-    isAvailable() const;
-    isValid(__CFString const*, CFRange) const;
-    mutableWordLatticeController();
-    reset();
-    setCustomWordCheckBlock(long, bool (unsigned short const*, long) block_pointer);
-    setString(__CFString const*, CFRange);
+    auto advanceToNextToken();
+    auto getCurrentTokenRange();
+    auto goToTokenAtIndex(long);
+    auto isAvailable() const;
+    auto isValid(__CFString const*, CFRange) const;
+    auto mutableWordLatticeController();
+    auto reset();
+    auto setCustomWordCheckBlock(long, bool (unsigned short const*, long) block_pointer);
+    auto setString(__CFString const*, CFRange);
     ~ChineseLMTokenizer();
 };

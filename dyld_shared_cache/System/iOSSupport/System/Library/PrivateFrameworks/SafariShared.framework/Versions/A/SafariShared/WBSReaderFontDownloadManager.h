@@ -11,12 +11,12 @@
     NSMutableDictionary *_fontFamilyToProgress;
 }
 
-+ (id)these shared passwords?;
++ (id);
 - (_Bool);
 - (double);
 - (void);
-- (void);
 - (id);
+- (void)nt().map(pathToElementForTesting).join(' | ');;
 
 @end
 

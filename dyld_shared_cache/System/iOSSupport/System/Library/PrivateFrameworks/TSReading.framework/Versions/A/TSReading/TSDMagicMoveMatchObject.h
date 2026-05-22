@@ -17,30 +17,30 @@
     struct _NSRange _stringRange;
 }
 
-+ (id)֐;
++ (id);
 + (id);
 - (id);
 - (_Bool);
-- (void)p;
+- (void);
 - (id);
 - (struct _NSRange);
 - (void);
 - (long long);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (struct CGPoint);
 - (id);
 - (_Bool);
 - (id);
-- (void)@;
-- (id);
-- (id);
-- (id);
-- (struct CGPoint);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)32;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *attributes; // @synthesize attributes=_attributes;

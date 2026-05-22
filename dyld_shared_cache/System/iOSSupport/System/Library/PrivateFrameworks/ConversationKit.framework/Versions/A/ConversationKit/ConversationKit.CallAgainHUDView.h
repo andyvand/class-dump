@@ -28,10 +28,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UIButton *callBackButton; // @synthesize callBackButton;

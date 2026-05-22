@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool prependsEphemeralKeyPadding; // @synthesize prependsEphemeralKeyPadding;

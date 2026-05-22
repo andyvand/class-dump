@@ -22,12 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (id)ablespace;
 - (id);
-- (void);
+- (id);
 - (long long);
 - (id);
 - (id);
+- (void)G_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) long long flavor; // @synthesize flavor=_flavor;

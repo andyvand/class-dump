@@ -23,23 +23,23 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)ioPlayButtonTheme",R,&,N,V_appleMusicTheme;
-- (void)chive;
-- (id)rHashtagOrMentionWithUUID:(id)arg1;
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)tGUIDs;
-- (id)ects;
-- (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)ReplacingMatchesInString:options:range:withTemplate: /* Error: Ran out of types for this method. */;
+- (void)es;
+- (id)CodingKeys;
+- (void)eAgent;
 
 // Remaining properties
 @property _Bool allDay; // @synthesize allDay=_allDay;

@@ -28,18 +28,16 @@
 - (id);
 - (id);
 - (id);
-- (void)@�
-	K_;
-- (id);
-- (id);
-- (void)#;
-- (void);
-- (void);
-- (id) ;
-- (void);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -47,13 +45,13 @@
 - (id);
 - (void);
 - (void);
-- (void)thObjects: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)H;
 - (void);
-- (void)
-× ;
-- (void)ration_home_bucketed;
+- (void);
+- (id);
+- (void);
+- (id)on this platform;
+- (void)y verification;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SMSessionManagerState *anomalyState; // @synthesize anomalyState=_anomalyState;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIFont;
+@class MISSING_TYPE;
 
 @interface NewsUI2.ChannelCategoryStyler
 {
@@ -14,16 +14,6 @@
     MISSING_TYPE *headlineFontMetrics;
     MISSING_TYPE *subtitleFontMetrics;
 }
-
-- (id);
-- (id);
-- (double);
-- (double);
-
-// Remaining properties
-@property(nonatomic, readonly) double cornerRadius;
-@property(nonatomic, readonly) double padding;
-@property(nonatomic, readonly) UIFont *tagTitleFont;
 
 @end
 

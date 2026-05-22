@@ -8,7 +8,8 @@
 @protocol PXMenuAction;
 
 @protocol PXMenuAction
-- (unsigned long long)ÒZÿ;
+- (NSString *)ore;
+- (unsigned long long), old data source:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXMenuAction> alternateAction;

@@ -7,6 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void);
+- (_Bool)CodingKeys;
+- (long long)yAction;
+- (void)øDÔÿÝ$EÔÿÝ0bÉÿÝ;
 @end
 

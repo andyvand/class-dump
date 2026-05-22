@@ -20,11 +20,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (long long);
-- (_Bool);
 - (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 
 // Remaining properties

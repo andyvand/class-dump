@@ -7,9 +7,6 @@
 @protocol MPCQueueControllerExternalSyncBehaviorHost;
 
 @protocol MPCQueueControllerBehaviorExternalSyncImplementation
-- (id <MPCQueueControllerExternalSyncBehaviorHost>)hentication.framework/Versions/A/AppleIDSSOAuthentication;
-- (void);
-- (void)Class:(id <MPCQueueControllerExternalSyncBehaviorHost>)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPCQueueControllerExternalSyncBehaviorHost> externalSyncHost;

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)adCpuInstructions;
-- (void)Pÿ;
+- (void);
+- (id)ze;
 
 @end
 

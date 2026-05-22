@@ -19,33 +19,33 @@
 }
 
 - (_Bool);
-- (void)CharactersInRange:(id)arg1 inFindableString:(id)arg2 forContentView:(_Bool)arg3;
-- (void)ollerClass;
 - (void);
-- (void)playbackProgress;
-- (void)ActionAnimationForWebView:(long long)arg1;
 - (void);
-- (void)P;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)tAttributeName;
-- (struct CGRect)er;
-- (id)tSg;
+- (void);
+- (struct CGRect);
+- (id);
 - (long long);
 - (struct CGRect);
-- (double)o;
-- (struct CGRect)hment:(id)arg1 %@;
+- (double);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)"CKSendMenuPopoverPresentationControllerAnchorItem",&,D,N;
-- (void),;
-- (id);
+- (id);
+- (void)!;
+- (void)e(void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *avatarView; // @synthesize avatarView=_avatarView;

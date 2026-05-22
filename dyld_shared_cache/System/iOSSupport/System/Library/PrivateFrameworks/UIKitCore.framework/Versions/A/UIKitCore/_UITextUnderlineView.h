@@ -17,18 +17,18 @@ __attribute__((visibility("hidden")))
     _Bool _useDirectionalLightEffect;
 }
 
-- (_Bool)test station signature.;
-- (id)i request error;
-- (struct CGRect)ltiExport;
-- (void)NumberGetValue returned false.;
-- (void)o add key;
+- (_Bool);
+- (id);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (id)OptionsDictionaryUsingToken:zoneID:resultsLimit:desiredKeys: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)P;
-- (id)oller in the %@ column when collapsed will result in broken UI;
+- (void);
+- (id);
+- (void);
+- (id)tionBarPocketContainerInteraction;
+- (void)SDySiSo22CAPresentationModifierCG;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *underlineRects;

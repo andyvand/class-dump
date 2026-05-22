@@ -21,13 +21,12 @@
     MISSING_TYPE *alongsideAnimationCurve;
 }
 
-- (void);
 - (id);
 - (void);
-- (void)qð!@ù±Ä°1¢!0@ù
-× ;
-- (id)llPocketInsets;
-- (void)+AS;
+- (id)neCarPlaySessionTouchpadFeedbackAction;
+- (void)itled;
+- (void)L©l;
+- (void)ÐÊ)ÿ>~ÍòÍw;
 
 @end
 

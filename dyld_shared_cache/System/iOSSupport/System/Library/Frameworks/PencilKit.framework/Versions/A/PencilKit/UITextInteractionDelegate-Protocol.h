@@ -5,10 +5,5 @@
 //
 
 @protocol UITextInteractionDelegate
-
-@optional
-- (void)m;
-- (void)
--.;
 @end
 

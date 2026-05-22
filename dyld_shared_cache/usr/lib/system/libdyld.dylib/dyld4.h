@@ -4,5 +4,5 @@
 
 class dyld4 {
 public: // (access info unavailable from symbols alone)
-    legacyDyldLookup4OldBinaries(char const*, void**);
+    auto legacyDyldLookup4OldBinaries(char const*, void**);
 };

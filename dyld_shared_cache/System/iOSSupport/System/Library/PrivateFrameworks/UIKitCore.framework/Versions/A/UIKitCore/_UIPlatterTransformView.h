@@ -41,17 +41,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void)ateIdentifiers:query /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (_Bool);
+- (struct CGSize);
 - (void);
-- (void)h;
-- (void)kForPreviousAutoresizingLayoutConstraints:(_Bool)arg1;
-- (id)ectorsRevealControllerAction;
-- (id);
-- (struct CGSize)tion:(struct CGSize)arg1;
+- (void);
+- (void)!Aùd°1Â0@ù
+× ;
+- (id)offData;
+- (void)PÔ ;
+- (_Bool)u, %lu) withLanguage:%@ /* Error: Ran out of types for this method. */;
+- (void)FormattingDescriptor;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsUserInteraction; // @synthesize allowsUserInteraction=_allowsUserInteraction;

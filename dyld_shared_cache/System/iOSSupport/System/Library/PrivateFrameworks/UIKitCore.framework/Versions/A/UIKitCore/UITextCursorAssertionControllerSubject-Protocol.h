@@ -5,11 +5,8 @@
 //
 
 @protocol UITextCursorAssertionControllerSubject
-- (void)m by Server, dataClass:(_Bool)arg1 %@, dataInstance:%@ /* Error: Ran out of types for this method. */;
-- (void)lengeClaim is NULL;
-- (void)1¢!0@ù
-× ;
-- (_Bool)@0:8@16@24d32@40 /* Error: Ran out of types for this method. */;
+- (void)erView;
+- (_Bool)ntationMetrics",?,R,N;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activeIndicators;

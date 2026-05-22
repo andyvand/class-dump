@@ -13,12 +13,12 @@
     double _heightAccumulation;
 }
 
-- (void)pl;
-- (id)"NSString"32@"NSString"40@"NSData"48@"NSError"56;
-- (double)WithIdentifier:title:message:defaultButton:alternateButton:otherButton: /* Error: Ran out of types for this method. */;
-- (id)ex:editType: /* Error: Ran out of types for this method. */;
-- (id)IDSID: /* Error: Ran out of types for this method. */;
-- (void)Å¦;
+- (void);
+- (id);
+- (double);
+- (id);
+- (id);
+- (void)àÜ^;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIAnimatedTextSpacer *animatedTextSpacer; // @synthesize animatedTextSpacer=_animatedTextSpacer;

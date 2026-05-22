@@ -20,28 +20,28 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)tyle:(id)arg1 contentSizeCategory:isForPrint: /* Error: Ran out of types for this method. */;
-- (void)ithFileType:(_Bool)arg1 delegate: /* Error: Ran out of types for this method. */;
-- (void)et:(_Bool)arg1;
-- (void)ntentWithSnapshot:(id)arg1;
-- (void)rence:(id)arg1;
-- (_Bool)on;
-- (_Bool)lderItemIdentifiers;
-- (id)i;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool)^B16;
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)ignoreInputView: /* Error: Ran out of types for this method. */;
-- (void)acity;
-- (_Bool);
+- (void);
+- (void);
+- (_Bool)time:%s /* Error: Ran out of types for this method. */;
+- (void)nfoData;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVPlayer *avPlayer; // @synthesize avPlayer=_avPlayer;

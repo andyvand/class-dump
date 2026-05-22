@@ -4,7 +4,7 @@
 
 class zhtok::Hypothesis {
 public: // (access info unavailable from symbols alone)
-    costOfExtendingToWord(unsigned int, void*) const;
-    createDescription() const;
-    init(zhtok::Word const*, zhtok::Hypothesis const*, double);
+    auto costOfExtendingToWord(unsigned int, void*) const;
+    auto createDescription() const;
+    auto init(zhtok::Word const*, zhtok::Hypothesis const*, double);
 };

@@ -5,8 +5,8 @@
 //
 
 @interface (null) (UIViewControllerAdditions)
-- (void)assed, failing local file url retrieval;
-- (void)ic}s Failed to decompose attachment GUID %@, to get message GUID;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);

@@ -14,17 +14,18 @@
 }
 
 + (id);
-+ (_Bool);
-+ (id)ÿ;
++ (_Bool)Ô(Ð!´DùqA,°1Â0@ù
+× ;
++ (id)Ý!.";
 - (void);
 - (void);
-- (void);
-- (id)forKeyPath: /* Error: Ran out of types for this method. */;
-- (void)cketProcessingFailed;
 - (id);
-- (id)th interval, %@, count, %lu, unique count, %lu;
 - (void);
-- (void)¶ÿä,åf;
+- (id)om.apple.MobileAddressBook;
+- (void),%@,cs,%@,%ld,%ld,%@,%ld,%ld,%@;
+- (void)ached, %@;
+- (id)LOIs, %lu, error, %@;
+- (void)tor handler because there are no triggers.;
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

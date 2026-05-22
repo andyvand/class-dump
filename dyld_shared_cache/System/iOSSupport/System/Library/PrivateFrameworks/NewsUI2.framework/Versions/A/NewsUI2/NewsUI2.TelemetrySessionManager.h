@@ -12,7 +12,7 @@
     MISSING_TYPE *sessionObserver;
 }
 
-- (void)ublic}s;
+- (void);
 
 @end
 

@@ -12,7 +12,7 @@
     NSUserDefaults *_defaults;
 }
 
-+ (id)1ìò>¢;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)«ä«;
 
 // Remaining properties
 @property(retain, nonatomic) NSUserDefaults *defaults; // @synthesize defaults=_defaults;

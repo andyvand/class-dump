@@ -21,9 +21,9 @@
 - (Class);
 - (id);
 - (unsigned long long);
+- (id);
 - (void);
-- (id)ccessory"16@"HMService"24@"HMCharacteristic"32;
-- (void)extViewDidChange:(id)arg1;
+- (void)Endpoint.AddSiriToAccessories;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *analyticsPresentationContext; // @synthesize analyticsPresentationContext=_analyticsPresentationContext;

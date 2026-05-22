@@ -20,14 +20,14 @@
 - (void);
 - (double);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (double);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)@"NSString"8@"NSString"16;
+- (void)_TtC10WorkflowUI40SmartShortcutPickerAppShortcutDataSource;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFTriggerPercentageSliderCellDelegate> delegate; // @synthesize delegate=_delegate;

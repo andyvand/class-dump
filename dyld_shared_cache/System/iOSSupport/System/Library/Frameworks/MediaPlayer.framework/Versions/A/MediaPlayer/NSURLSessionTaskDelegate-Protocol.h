@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLSession, NSURLSessionTask;
+@class NSURLSession;
 
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void);
-- (void)undAnalysis22SNSoundActionsDetector;
-- (void)D:(NSURLSession *)arg1 payloadForRelatedEntityWithIdentifierSet [missing personID, defaulting to 'Unknown-PersonID'];
-- (void)HMHomeDelegate home:(NSURLSession *)arg1 didRemoveUser:(NSURLSessionTask *)arg2;
+- (void)32@?<v@?@"NSCachedURLResponse">40;
+- (void)nimatedArtworkCatalogBlock;
+- (void)roupingType:(NSURLSession *)arg1 ];
+- (void)ÜÅ#Ñ÷(!Íò7gØÿèHÞö3W#ç+ì&:(NSURLSession *)arg1 þÎ¨bJ¯iPtGN0MhÏ|(;
 @end
 

@@ -50,13 +50,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void)ring suffix for service type %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

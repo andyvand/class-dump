@@ -13,11 +13,11 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (id);
-- (id)1?נ;
-- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;

@@ -35,14 +35,14 @@
 }
 
 - (void);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)TIX fontFamily:%{public}@ fontUpdate:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

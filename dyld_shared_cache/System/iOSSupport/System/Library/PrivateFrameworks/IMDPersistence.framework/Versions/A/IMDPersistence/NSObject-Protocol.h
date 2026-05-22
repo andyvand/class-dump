@@ -7,16 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (Class)geWrapper;
-- (id)r._ObjCBasicMessageWrapper;
-- (id)rapper;
-- (id);
-- (id)bjCBalloonPluginWrapper;
-- (Class)_ObjCAttributionInfoWrapper;
-- (oneway void)S/PhotoImaging;
-- (id);
-- (unsigned long long)qåð1¢!0@ù
-× ;
+- (struct _NSZone *)account_login, participants FROM   madrid_chat_legacy WHERE   chat_identifier = ? LIMIT 1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

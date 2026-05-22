@@ -7,17 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (id);
-- (_Bool)viceOptions"24@?<v@?@"RTPointOfInterestAttributes"@"NSError">32;
-- (unsigned long long)!;
-- (NSString *)ify-Printer;
-- (_Bool);
-- (_Bool);
-- (id)Fo;
-
-@optional
-- (NSString *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)DKýÿ¾HýÿfNýÿ;
-- (id);
++ (id);
+- (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @dynamic date;

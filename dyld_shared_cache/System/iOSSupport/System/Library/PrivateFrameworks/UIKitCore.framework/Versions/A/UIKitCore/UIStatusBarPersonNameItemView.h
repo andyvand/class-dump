@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (double)Controller;
-- (double)irstObject;
+- (double);
+- (double);
 - (id);
 - (double);
 - (double);
 - (_Bool);
-- (id);
-- (void);
-- (long long);
+- (void)Ñÿ;
+- (id)À'i;
+- (long long)i;
 
 @end
 

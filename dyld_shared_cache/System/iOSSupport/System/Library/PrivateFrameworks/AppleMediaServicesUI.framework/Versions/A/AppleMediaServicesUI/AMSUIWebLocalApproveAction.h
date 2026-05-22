@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)trics overlay updated:%@ /* Error: Ran out of types for this method. */;
+- (void)ricsEnabled: /* Error: Ran out of types for this method. */;
+- (id)lt authenticate options from AuthenticateSheet;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;

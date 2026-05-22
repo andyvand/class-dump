@@ -44,11 +44,11 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id)approximateHDUploadSize;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

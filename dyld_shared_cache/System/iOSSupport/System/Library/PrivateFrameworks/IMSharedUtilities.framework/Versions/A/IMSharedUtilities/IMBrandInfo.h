@@ -10,6 +10,7 @@
 {
     void brandURI;
     void name;
+    _Bool hasDisappeared;
     void categories;
     void primaryPhoneNumber;
     void primaryBrandColorHexString;
@@ -27,6 +28,7 @@
     void brandLogoGuid;
 }
 
++ (id);
 - (void);
 - (id);
 - (id);
@@ -35,24 +37,26 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)S;
-- (id);
-- (id);
-- (id)Version;
-- (id)0VÙÿ e$V;
+- (id)nged:message:reason:properties: /* Error: Ran out of types for this method. */;
+- (void)d telemetry metrics dictionary:[%s] to message guid:%s /* Error: Ran out of types for this method. */;
+- (id)splayNames;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *address;
@@ -61,6 +65,7 @@
 @property(nonatomic, readonly) NSArray *categories;
 @property(nonatomic, readonly) NSString *emailAddress;
 @property(nonatomic, readonly) NSString *genericCSSTemplateURL;
+@property(nonatomic, readonly) _Bool hasDisappeared; // @synthesize hasDisappeared;
 @property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) _Bool isVerified; // @synthesize isVerified;
 @property(nonatomic, readonly) NSString *localizedDescription;

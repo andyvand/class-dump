@@ -13,8 +13,8 @@
     MISSING_TYPE *config;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

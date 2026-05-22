@@ -30,13 +30,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (struct _NSRange);
-- (struct _SXConvertibleValue)4;
+- (struct _SXConvertibleValue);
 - (struct _SXComponentContentInset);
 - (void);
-- (struct _SXConvertibleValue);
-- (id);
-- (void)",&,N,V_image;
-- (id)%p;;
+- (void)ion"24@"WKWebpagePreferences"32@"<NSSecureCoding>"40@?<v@?q@"WKWebpagePreferences">48;
+- (struct _SXConvertibleValue)GSize=dd},N,V_framesAreValidForSize;
+- (id)"<SXTextComponentLayoutHosting>",&,N,V_textComponentLayoutHosting;
+- (id)ic;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange columnRange; // @synthesize columnRange=_columnRange;

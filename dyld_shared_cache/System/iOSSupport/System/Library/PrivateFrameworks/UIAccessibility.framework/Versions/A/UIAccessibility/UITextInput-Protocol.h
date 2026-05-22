@@ -4,44 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSDictionary, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (NSString *)gurationProfiles;
-- (void)&
-;
-- (UITextPosition *)eLargeHandle:(UITextPosition *)arg1 navigationChromeBackgroundDarkModeImageHandle:(long long)arg2 navigationChromeBackgroundDarkModeImageCompactHandle:(long long)arg3 navigationChromeBackgroundDarkModeImageLargeHandle:language:allowedStorefrontIDs:blockedStorefrontIDs:minimumNewsVersion:loadDate:fetchDate:lastModifiedDate:exploreTileImageAssetHandle:versionKey:titleDisplayPrefix:titleDisplaySuffix:themeColor:puzzlePrimaryColor:darkStyleThemeColor:darkStylePuzzlePrimaryColor:groupTitleColor:groupDarkStyleTitleColor:thumbnailDirectory:isPublic: /* Error: Ran out of types for this method. */;
-- (struct CGRect)`;
-- (void)H;
-- (long long)P;
-- (long long)	?ר";
-- (UITextRange *)Ôö!DEù
-Ð1¢!0@ù
-× ;
-- (UITextPosition *);
-- (void)°1¢!0@ù
-× ;
-- (NSDictionary *)Range=QQ}16@32B40;
-- (void)ibilityReinterpretVoiceOverCommand:(NSDictionary *)arg1;
-- (struct CGRect)yElementShouldBeInvalid;
-- (id <UITextInputTokenizer>)°;
-- (id <UITextInputDelegate>)ildren of %@.  This may be acceptable if it happened right around a layout change, but it would be best to double check by swiping left/right to see if you can get to all elements.;
+- (id <UITextInputDelegate>);
+- (id <UITextInputTokenizer>)y;
+- (void)nPoint:(id <UITextInputDelegate>)arg1;
+- (struct CGRect)erAccessibilityStoredValueSortDirection;
+- (void)SceneRequestedForActiveSpeakScreenSession;
+- (UITextRange *)essibilitySetValue:(struct CGPoint)arg1 forKey:storageMode: /* Error: Ran out of types for this method. */;
+- (UITextRange *);
+- (UITextPosition *)ccessibilityFindDescendant:(UITextRange *)arg1 shouldStopAtLeafNodes:(long long)arg2;
+- (UITextPosition *)DescriptorAuxiliaryDictionary;
+- (void)t:(NSDictionary *)arg1;
+- (void)curedScreenAllowedViews;
 
 @optional
-- (UITextPosition *);
-- (void)�;
-- (void)ipTransform;
-- (void)active offline state;
-- (void);
-- (UITextPlaceholder *)Ô!öÐ!ÌDùQ
-Ð1¢!0@ù
+- (UIView *)1Â0@ù
 × ;
-- (_Bool)× ;
-- (void)accessibilitySetActionBlock:(struct CGPoint)arg1 withValue:forKey: /* Error: Ran out of types for this method. */;
-- (void)lityAccessibleAncestor;
-- (void)nternal/Library/BuildRoots/4~CHlnugCTiW6sY2yx14Ia2_rPKXoqAh7egTFWHhs/Library/Caches/com.apple.xbs/Sources/AccessibilityFrameworks/Source/UIAccessibility/UIAccessibilityNotification.m;
-- (void)UIWindow"8Q16^B24;
+- (struct CGRect)t a known type of bundle;
+- (void)ne if appDidFinishLaunching had already been called. Allowing AX queries to proceed anyway. This is a bug! This will only be logged once per process.;
+- (_Bool)en more leaf descendants than needed.;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -71,5 +55,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

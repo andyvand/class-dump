@@ -36,20 +36,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (struct CGSize);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (struct CGPoint);
-- (void);
-- (void)Ø
-Ð;
+- (void)_ptr<jet_texture>=^{jet_texture}^{__shared_weak_count}}16f32f36;
 - (void);
 
 // Remaining properties

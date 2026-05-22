@@ -15,20 +15,19 @@
     NSString *_searchString;
 }
 
-+ (_Bool)roperty %@;
++ (_Bool);
 - (void);
 - (id);
 - (long long);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)ù
-× ;
-- (id)ngInfoQueueCount;
-- (void)ue;
+- (void);
+- (id)abled;
+- (void),V_persistentIDValue;
+- (void)Volume - Error getting master volume:(id)arg1 %{public}@;
+- (id)PropertySongHasCredits;
 
 // Remaining properties
 @property(nonatomic) long long maximumResultsPerScope; // @synthesize maximumResultsPerScope=_maximumResultsPerScope;

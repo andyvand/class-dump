@@ -24,8 +24,8 @@
     MISSING_TYPE *storyConfigurationProvider;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

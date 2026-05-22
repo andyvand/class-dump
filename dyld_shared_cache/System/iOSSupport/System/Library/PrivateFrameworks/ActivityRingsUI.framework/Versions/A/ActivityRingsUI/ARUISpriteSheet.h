@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)eAvailable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *sprites; // @synthesize sprites=_sprites;

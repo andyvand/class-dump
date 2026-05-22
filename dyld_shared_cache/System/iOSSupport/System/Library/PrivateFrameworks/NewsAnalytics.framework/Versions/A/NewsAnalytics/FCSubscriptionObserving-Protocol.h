@@ -5,8 +5,5 @@
 //
 
 @protocol FCSubscriptionObserving
-
-@optional
-- (void);
 @end
 

@@ -5,12 +5,12 @@
 class icu::number::SimpleNumber {
 public: // (access info unavailable from symbols alone)
     SimpleNumber(icu::number::impl::UFormattedNumberData*, UErrorCode&);
-    cleanup();
-    forInt64(long long, UErrorCode&);
-    multiplyByPowerOfTen(int, UErrorCode&);
-    roundTo(int, UNumberFormatRoundingMode, UErrorCode&);
-    setMaximumIntegerDigits(unsigned int, UErrorCode&);
-    setMinimumFractionDigits(unsigned int, UErrorCode&);
-    setMinimumIntegerDigits(unsigned int, UErrorCode&);
-    setSign(USimpleNumberSign, UErrorCode&);
+    auto cleanup();
+    auto forInt64(long long, UErrorCode&);
+    auto multiplyByPowerOfTen(int, UErrorCode&);
+    auto roundTo(int, UNumberFormatRoundingMode, UErrorCode&);
+    auto setMaximumIntegerDigits(unsigned int, UErrorCode&);
+    auto setMinimumFractionDigits(unsigned int, UErrorCode&);
+    auto setMinimumIntegerDigits(unsigned int, UErrorCode&);
+    auto setSign(USimpleNumberSign, UErrorCode&);
 };

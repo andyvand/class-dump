@@ -5,6 +5,5 @@
 //
 
 @protocol AVTDifferentialPrivacyRecorder
-- (void);
 @end
 

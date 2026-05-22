@@ -21,10 +21,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)rmErrorNoThreadNetworkLocal;
-- (id)tion;
+- (id);
+- (id);
+- (void)\¶;
 
 // Remaining properties
 @property(nonatomic) _Bool hasProvidedItems; // @synthesize hasProvidedItems=_hasProvidedItems;

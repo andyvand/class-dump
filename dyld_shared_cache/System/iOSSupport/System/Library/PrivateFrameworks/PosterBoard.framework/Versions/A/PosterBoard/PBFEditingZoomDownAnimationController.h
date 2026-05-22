@@ -12,8 +12,8 @@
 {
 }
 
-- (void)PosterPreview; preview %{public}@ received snapshot bundle %{public}@;
 - (double);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

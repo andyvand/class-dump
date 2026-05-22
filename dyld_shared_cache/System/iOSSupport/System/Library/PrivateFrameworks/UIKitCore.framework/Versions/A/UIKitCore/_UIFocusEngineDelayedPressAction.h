@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     double _timestamp;
 }
 
-+ (void)onClearNoticeRateLimiter:(long long)arg1 Loaded empty dictionary, creating new dictionary;
++ (void);
 - (long long);
 - (id);
-- (void)unt added %@;
-- (double);
 - (void);
-- (id)formedFrame;
+- (double);
+- (id)uickLook;
+- (void)I±;
 
 // Remaining properties
 @property(readonly, nonatomic) long long pressType; // @synthesize pressType=_pressType;

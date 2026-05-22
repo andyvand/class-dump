@@ -25,11 +25,11 @@
 - (id);
 - (long long);
 - (void);
+- (long long);
+- (id);
+- (id)configuration provider:%p /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (long long)oordinator;
-- (void)Èa±ÿ´J~%5;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long maxConcurrentExportCount;

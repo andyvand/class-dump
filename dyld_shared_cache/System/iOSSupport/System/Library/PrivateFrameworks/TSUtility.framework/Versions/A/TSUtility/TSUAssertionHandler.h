@@ -8,14 +8,13 @@
 {
 }
 
-+ (void)R;
 + (void);
 + (void);
-+ (id)>;
++ (void);
++ (id);
 + (id);
 - (void);
-- (void)
-	;
+- (void);
 - (void);
 
 @end

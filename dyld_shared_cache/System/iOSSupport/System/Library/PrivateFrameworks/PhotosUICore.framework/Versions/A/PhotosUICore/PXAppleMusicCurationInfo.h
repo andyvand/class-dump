@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ntationDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *performerNames; // @synthesize performerNames=_performerNames;

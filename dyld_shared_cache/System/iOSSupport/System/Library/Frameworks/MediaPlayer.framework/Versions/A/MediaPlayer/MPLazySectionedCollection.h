@@ -17,12 +17,12 @@
     id <MPLazySectionedCollectionDataSource> _dataSource;
 }
 
-+ (_Bool):-URLSession:dataTask:didReceiveData:creating data task using dataRequest.requestedLength. %p dataTask=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld dataRequest.requestedLength=%lu /* Error: Ran out of types for this method. */;
-- (id)52@60@68;
-- (id)"BMResourceContainer"32;
-- (id)@16Q24@32;
-- (id)onWithActivity:completion: /* Error: Ran out of types for this method. */;
-- (void)ublication:contentProtection: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -30,24 +30,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
-- (void);
 - (id);
-- (unsigned long long);
+- (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)0;
 - (long long);
-- (void);
-- (id):__value_type<long, MPIdentifierSet *>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
-- (id)ache";
-- (long long)egisterSpecializedQueueIdentifier:(long long)arg1;
+- (id);
+- (id);
+- (long long)NG__;
+- (void)yGenreLibraryAddedDate__MAPPING_MISSING__;
+- (void)eueGroupingID: /* Error: Ran out of types for this method. */;
+- (id)·Üÿ¨Ã
+;
 
 // Remaining properties
 @property(retain, nonatomic) id <MPLazySectionedCollectionDataSource> dataSource; // @synthesize dataSource=_dataSource;

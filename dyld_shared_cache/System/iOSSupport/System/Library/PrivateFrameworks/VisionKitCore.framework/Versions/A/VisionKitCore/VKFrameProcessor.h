@@ -34,16 +34,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (_Bool);
+- (void)alert to file a bug with message:(_Bool)arg1 "%@";
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;

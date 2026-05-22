@@ -7,14 +7,8 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool);
-- (_Bool)ExtensionProxyContext:(Class)arg1 pid -, ID ->;
-- (NSString *)Host>=^{MixTapToUplinkHost}^{__shared_weak_count}}}24@0:8@16 /* Error: Ran out of types for this method. */;
-- (id)Id:integerValue: /* Error: Ran out of types for this method. */;
-- (unsigned long long)©;
-
-@optional
-- (NSString *);
+- (_Bool)ÐÚ;
+- (struct _NSZone *)À§`§À§`§À§`§§ §À§`§À§`§`§À§`§À§`§`§À§`§À§`§À§`§À§`§À§` §À¡§`¢§À£§`¤§À¥§`¦§À§§`¨§À©§`ª§À¯§`°§Àµ§`¶§À·§`¸§À¹§`º§À»§`¼§À½§`¾§À¿§`À§ÀÁ§`Â§ÀÃ§`Ä§ÀÈ§`É§ÀÊ§`Ë§ÀÍ§`Î§ÀÏ§`Ð§ÀÑ§`Ò§ÀÓ§`Ô§ÀÕ§`Ö§À×§`Ø§ÀÙ§`Ú§ÀÛ§`Ü§ÀÝ§@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -21,12 +21,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)e_
+;
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *demotedIdentifiers; // @synthesize demotedIdentifiers=_demotedIdentifiers;

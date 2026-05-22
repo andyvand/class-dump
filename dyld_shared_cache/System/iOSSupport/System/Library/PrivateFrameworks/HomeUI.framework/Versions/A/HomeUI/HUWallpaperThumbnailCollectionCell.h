@@ -24,27 +24,27 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)
+- (long long);
+- (id);
+- (_Bool);
+- (void)1â
+0@ù
 × ;
-- (id)11ð1b0@ù
-× ;
-- (void);
-- (struct CGSize)ithOwningView:constraintBuilder: /* Error: Ran out of types for this method. */;
-- (void)y",&,N,V_hiddenMessageTextViewConstraints;
-- (void)esults;
-- (id)d;
-- (void)etupViewController:(id)arg1 _presentUpgradeFailedAlert] presented alert popup;
-- (void)or user invitation(s). Unexpected.;
-- (long long)@ for clip:%@ with profileUUID:%@. /* Error: Ran out of types for this method. */;
-- (id)nimated:(id)arg1 ]_block_invoke;
-- (_Bool)e;
-- (void)meHubNotResponsiveSubTitle;
-- (void)taticAccessoryIDs;
+- (id)Position"24;
+- (struct CGSize)etPlayheadView: /* Error: Ran out of types for this method. */;
+- (void)ryGrabberShadowLayer;
+- (id)ingItem:(id)arg1;
+- (void)nerForViewController:(struct CGSize)arg1 forItem: /* Error: Ran out of types for this method. */;
+- (void)¤;
+- (void)@:%@:presented:HADLCVC /* Error: Ran out of types for this method. */;
+- (void)r-handleTraitChanges];
+- (void)x¡ÿ;
 
 // Remaining properties
 @property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;

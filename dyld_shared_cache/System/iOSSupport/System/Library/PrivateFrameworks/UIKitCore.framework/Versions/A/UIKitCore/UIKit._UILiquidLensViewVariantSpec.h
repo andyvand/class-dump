@@ -18,35 +18,38 @@
     double innerShadowRadius;
     double innerShadowOpacity;
     double innerShadowOffsetY;
+    double contentWrapperDisplacement;
 }
 
 + (id);
 - (double);
 - (double);
-- (id)<;
+- (id);
 - (_Bool);
-- (void)erty on chat with guid %s.;
-- (void)es.;
-- (void)apabilities %s, needs %s;
-- (void)ning skipped because chat is already junk.;
-- (void)cal sync state, and fetching the updates again %@;
-- (void)mpting to create update zone;
-- (void)ates sync state, flags 0x%x;
-- (void)RecipeBasedSticker invalid properties;
-- (void)%@;
-- (void)cy Sticker folder at path %@, error %@;
-- (double)%lld instead, found? %{BOOL}d;
-- (id)IL IMDChat.;
-- (double)adding to pending requests to retry later;
-- (double)tion caller ID for chat %@, service session not configured for replicated messages;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
-- (double)figured for replicated messages;
-- (void)±Ä°1¢!0@ù
-× ;
-- (void)havior: /* Error: Ran out of types for this method. */;
-- (id)omponents;
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (void)rColor: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
+@property(nonatomic) double contentWrapperDisplacement; // @synthesize contentWrapperDisplacement;
 @property(nonatomic) double innerShadowOffsetY; // @synthesize innerShadowOffsetY;
 @property(nonatomic) double innerShadowOpacity; // @synthesize innerShadowOpacity;
 @property(nonatomic) double innerShadowRadius; // @synthesize innerShadowRadius;

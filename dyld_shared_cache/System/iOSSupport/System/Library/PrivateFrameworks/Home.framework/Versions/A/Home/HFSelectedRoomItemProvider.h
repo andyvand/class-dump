@@ -25,12 +25,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id)ileGroup"16@?0@"NSNumber"8;
+- (void)OfDirectoryAtPath:(CDUnknownBlockType)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)°Ë;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

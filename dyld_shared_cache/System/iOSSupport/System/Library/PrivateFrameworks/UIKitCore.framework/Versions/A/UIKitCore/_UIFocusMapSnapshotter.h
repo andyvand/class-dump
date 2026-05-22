@@ -31,20 +31,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)!;
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)dyPictures:(struct CGRect)arg1;
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (id)ousInputMode;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)Ë«;
 
 // Remaining properties
 @property(nonatomic) _Bool clipToSnapshotRect; // @synthesize clipToSnapshotRect=_clipToSnapshotRect;

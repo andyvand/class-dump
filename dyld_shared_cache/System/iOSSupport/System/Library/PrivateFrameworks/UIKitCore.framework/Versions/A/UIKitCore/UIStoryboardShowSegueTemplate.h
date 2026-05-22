@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (CDUnknownBlockType);
-- (void)e:(id)arg1;
 - (id);
-- (void);
-- (void);
-- (id)dàþ;
+- (void)xedOrStickyPositionLayers;
+- (id)arCustomizationDebugEnabled;
+- (void)tionItemC;
+- (void)Yä­;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *action; // @synthesize action=_action;

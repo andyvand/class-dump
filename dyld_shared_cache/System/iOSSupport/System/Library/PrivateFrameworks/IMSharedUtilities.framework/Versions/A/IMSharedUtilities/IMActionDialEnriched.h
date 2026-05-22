@@ -15,14 +15,14 @@
 
 - (id);
 - (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)¾;
+- (void)l GUIDs to be posted in the next update;
+- (id)ce;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *fallbackUrl;

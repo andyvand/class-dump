@@ -13,17 +13,17 @@ __attribute__((visibility("hidden")))
     _Bool _didLongForcePress;
 }
 
-+ (id);
-- (_Bool);
-- (void);
++ (id)p~þw Í?;
 - (Class);
 - (_Bool);
-- (void);
-- (double);
 - (_Bool);
-- (void)neTransform=dddddd},R,N,V_rootLayerTransform;
-- (_Bool)_fingerID;
-- (_Bool)ere can't be a _first either;
+- (void)formanceType;
+- (double)dius: /* Error: Ran out of types for this method. */;
+- (void)eraction;
+- (_Bool),&,V_contentScrollViewMaximumWidthConstraint;
+- (_Bool)$Ù;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool delayForceMagnify; // @synthesize delayForceMagnify=_delayForceMagnify;

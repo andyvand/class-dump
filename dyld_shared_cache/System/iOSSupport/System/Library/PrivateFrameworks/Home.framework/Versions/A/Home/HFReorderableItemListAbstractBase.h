@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
+- (void)4ý;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HMApplicationData><HFApplicationData> applicationDataContainer; // @synthesize applicationDataContainer=_applicationDataContainer;

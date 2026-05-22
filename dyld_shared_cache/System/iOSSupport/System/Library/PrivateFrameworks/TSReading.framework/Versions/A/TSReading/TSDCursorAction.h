@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -32,8 +32,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ParagraphTypesetter.h;
 
 // Remaining properties
 @property(nonatomic) NSCursor *cursor; // @synthesize cursor=_cursor;

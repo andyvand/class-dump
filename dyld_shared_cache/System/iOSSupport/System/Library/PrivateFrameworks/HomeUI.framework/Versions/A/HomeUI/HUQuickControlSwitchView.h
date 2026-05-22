@@ -45,14 +45,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
 - (id);
 - (id);
-- (void)¾ëößz;
+- (void)¬V;
+- (void)ms;
+- (id)ErrorCode;
 
 // Remaining properties
 @property(nonatomic) double clippedValue; // @synthesize clippedValue=_clippedValue;

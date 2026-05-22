@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@0:8@"TSDInteractiveCanvasController"16@"Protocol"24@"TSDLayout"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXConditionValidating> conditionValidator; // @synthesize conditionValidator=_conditionValidator;

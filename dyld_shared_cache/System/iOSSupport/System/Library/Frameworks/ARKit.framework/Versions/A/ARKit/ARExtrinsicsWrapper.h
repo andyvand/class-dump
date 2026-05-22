@@ -12,10 +12,10 @@
 + (_Bool);
 - (id);
 - (CDStruct_14d5dc5e);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_14d5dc5e matrix; // @synthesize matrix=_matrix;

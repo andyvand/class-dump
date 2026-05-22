@@ -23,8 +23,8 @@
 - (long long);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)`öÿÚðPñÿÚð¤ã8ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *saliencyAreas; // @synthesize saliencyAreas=_saliencyAreas;

@@ -15,11 +15,11 @@
 
 - (_Bool);
 - (void);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)ticleViewControllerLoadingListener;
+- (void);
 
 @end
 

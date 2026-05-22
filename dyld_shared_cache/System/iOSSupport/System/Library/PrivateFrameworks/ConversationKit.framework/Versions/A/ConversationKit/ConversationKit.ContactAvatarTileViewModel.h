@@ -12,6 +12,8 @@
     MISSING_TYPE *_secondaryAction;
     MISSING_TYPE *_tertiaryAction;
     MISSING_TYPE *_longPressAction;
+    MISSING_TYPE *_onAppear;
+    MISSING_TYPE *_onDisappear;
     MISSING_TYPE *_menuItems;
     MISSING_TYPE *_recentCallItem;
     MISSING_TYPE *_accessibilityCustomActions;

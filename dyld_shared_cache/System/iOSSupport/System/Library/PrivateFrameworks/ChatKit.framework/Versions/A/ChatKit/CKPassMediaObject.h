@@ -15,12 +15,12 @@
 
 - (id);
 - (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void)B©ôOA©öWÃ¨ÿ_Ö#ÕöW½©ôO©ý{©ý;
+- (id);
+- (id)yABGGGAAyRéý©[yOéSSGGG;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *icon; // @synthesize icon=_icon;

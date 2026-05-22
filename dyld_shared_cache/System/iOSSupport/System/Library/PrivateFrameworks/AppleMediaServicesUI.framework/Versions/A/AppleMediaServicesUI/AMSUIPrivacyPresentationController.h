@@ -19,12 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
 - (long long);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)50@ù
+× ;
+- (void)ontrollerDidAttemptToDismiss: /* Error: Ran out of types for this method. */;
+- (void)L1_G;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

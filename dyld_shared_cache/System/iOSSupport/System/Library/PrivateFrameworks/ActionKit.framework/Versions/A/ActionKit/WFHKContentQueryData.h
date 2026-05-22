@@ -16,19 +16,18 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)Q¶
-°1b0@ù
+- (void)!ôBù´ð1B50@ù
 × ;
+- (void)or is otherwise malformed.;
 
 // Remaining properties
 @property(retain, nonatomic) HKCategoryType *categoryType; // @synthesize categoryType=_categoryType;

@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)Dictionary"16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
+- (void)e}@, current.state, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisit *visitIncident; // @synthesize visitIncident=_visitIncident;

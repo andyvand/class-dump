@@ -19,7 +19,7 @@
 
 - (void);
 - (void);
-- (void)a;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,14 +32,14 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)UUID %@;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)hDomains;
 - (id);
-- (id);
-- (id);
-- (id)½Ûÿ3©*çC;
+- (void)passes dependent's keep alive check;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *arrivalEventDate; // @synthesize arrivalEventDate=_arrivalEventDate;

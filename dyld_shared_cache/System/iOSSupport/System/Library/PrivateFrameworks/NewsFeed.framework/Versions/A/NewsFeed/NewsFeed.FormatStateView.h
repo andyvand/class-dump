@@ -10,16 +10,18 @@
 {
     MISSING_TYPE *identifier;
     MISSING_TYPE *formatLayoutView;
+    MISSING_TYPE *viewportDisplayState;
     MISSING_TYPE *state;
     MISSING_TYPE *stateAccessibilityRenderer;
     MISSING_TYPE *renderBlock;
+    MISSING_TYPE *shouldMonitorScroll;
     MISSING_TYPE *lastRenderedState;
 }
 
-- (void)u;
 - (id);
-- (void)onInvalidated;
-- (id)üÿ;
+- (void);
+- (id)SError"16;
+- (void);
 
 @end
 

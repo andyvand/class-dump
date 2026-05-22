@@ -12,10 +12,10 @@
 }
 
 - (void);
+- (id);
 - (void);
-- (void)_;
-- (id);
-- (id);
+- (void)ìÿ;
+- (id)ion"8;
 - (void);
 
 // Remaining properties

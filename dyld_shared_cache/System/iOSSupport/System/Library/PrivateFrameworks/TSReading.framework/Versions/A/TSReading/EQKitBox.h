@@ -18,13 +18,13 @@
 - (double);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
 - (id);
 - (double);
-- (struct CGColor *);
-- (id)ice;
 - (double);
-- (double)þþÿvX6W;
+- (struct CGColor *);
+- (_Bool);
+- (id);
+- (double);ùÿL@\B¿;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColor *color;

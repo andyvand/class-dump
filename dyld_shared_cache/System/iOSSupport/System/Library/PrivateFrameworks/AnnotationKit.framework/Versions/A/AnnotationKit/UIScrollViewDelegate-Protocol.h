@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView, UIView;
+@class UIScrollView;
 
 @protocol UIScrollViewDelegate
 
 @optional
-- (_Bool)FillTests:(UIScrollView *)arg1;
-- (void);
-- (void);
-- (void)nfig:(UIScrollView *)arg1 inAttachment:(UIView *)arg2 withCompletion:(double)arg3;
-- (void)dingMultiplier;
+- (void)idChange:(UIScrollView *)arg1;
 @end
 

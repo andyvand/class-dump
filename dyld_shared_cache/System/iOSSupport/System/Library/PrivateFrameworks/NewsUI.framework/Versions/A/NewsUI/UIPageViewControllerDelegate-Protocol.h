@@ -5,8 +5,5 @@
 //
 
 @protocol UIPageViewControllerDelegate
-
-@optional
-- (unsigned long long);
 @end
 

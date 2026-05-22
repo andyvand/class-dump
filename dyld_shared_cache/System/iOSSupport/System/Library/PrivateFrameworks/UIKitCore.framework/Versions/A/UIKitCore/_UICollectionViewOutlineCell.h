@@ -23,20 +23,21 @@
 - (void);
 - (void);
 - (void);
-- (void)/System/Library/Frameworks/Security.framework/Versions/A/Security;
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (CDUnknownBlockType)?40;
-- (id)8Q36;
-- (_Bool)roupName:lane:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)-º;
-- (void)geToState:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (id)"UITargetedPreview",&,N,V_targetedPreview;
-- (id)o;
-- (id)ä@ BpCÔCD E\E;
-- (double)ÿ;
-- (void)ÿ«rÔfìb;
+- (CDUnknownBlockType);
+- (id);
+- (_Bool);
+- (id)!àEùñYÐ1Â0@ù
+× ;
+- (void)Tracking:(id)arg1;
+- (id)V_primaryPlatterPreview;
+- (id);
+- (void)PZzÿXZ;
+- (double)¼^;
+- (void)Áb;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyTogglesExpansionState; // @synthesize automaticallyTogglesExpansionState=_automaticallyTogglesExpansionState;

@@ -16,10 +16,10 @@
 - (void);
 - (id);
 - (id);
-- (id)t;
 - (id);
-- (void)for %s;
 - (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

@@ -15,24 +15,24 @@
     NSString *_identifier;
 }
 
-+ (id),;
-+ (id)tyleAttributesChanged;
++ (id);
++ (id)-;
 - (void);
 - (id);
-- (void)entType:(id)arg1 guidString:date: /* Error: Ran out of types for this method. */;
-- (void)r:(id)arg1 didReceiveEventWithName:userInfo: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void)tableString";
-- (id)Ø;
-- (void)Ã»b;
+- (void);
+- (void);
+- (void);
+- (void)_storedGlassLegibilitySetting;
+- (id)Ä<ÒÅ`Ò$ÇÒôÇ°ÒÐÈÄÒPÊäÒ(ËüÒ¸ÍPÒ°ÎdÒÜÏÒ¤Ñ´ÒàÒÈÒÓÜÒ´ÔðÒ ÕÒx×$ÒØ8ÒàÙXÒ°ÜÒDßÈÒ`àÜÒ8ã<ÒøähÒæÒç¤ÒlèÀÒ°LÒ`lÒð Òd(Ò .´Òx/ÄÒØÒ@ Ò;
+- (void)Ø\;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

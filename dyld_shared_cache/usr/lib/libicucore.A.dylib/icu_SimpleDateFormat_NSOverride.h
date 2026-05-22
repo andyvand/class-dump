@@ -4,6 +4,6 @@
 
 class icu::SimpleDateFormat::NSOverride {
 public: // (access info unavailable from symbols alone)
-    free();
+    auto free();
     ~NSOverride();
 };

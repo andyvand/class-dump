@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)ê|;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool connected; // @synthesize connected=_connected;

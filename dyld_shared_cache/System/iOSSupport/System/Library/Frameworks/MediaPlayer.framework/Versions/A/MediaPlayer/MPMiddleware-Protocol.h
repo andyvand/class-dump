@@ -7,7 +7,6 @@
 @class NSArray;
 
 @protocol MPMiddleware
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *invalidationObservers;

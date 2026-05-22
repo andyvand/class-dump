@@ -4,5 +4,5 @@
 
 class dyld4::EqualMetadataConformanceKey {
 public: // (access info unavailable from symbols alone)
-    equal(SwiftMetadataProtocolConformanceDiskLocationKey const&, SwiftMetadataProtocolConformanceDiskLocationKey const&, void*);
+    auto equal(SwiftMetadataProtocolConformanceDiskLocationKey const&, SwiftMetadataProtocolConformanceDiskLocationKey const&, void*);
 };

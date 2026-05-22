@@ -19,8 +19,8 @@
 + (void);
 + (_Bool);
 + (_Bool);
-- (void);
 - (id);
+- (void)rained:%{bool}d /* Error: Ran out of types for this method. */;
 
 @end
 

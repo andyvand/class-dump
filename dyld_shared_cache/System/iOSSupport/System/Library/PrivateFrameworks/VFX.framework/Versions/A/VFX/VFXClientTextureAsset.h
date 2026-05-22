@@ -16,10 +16,9 @@
 - (void);
 - (void);
 - (id);
-- (void)ñX°1B0@ù
-× ;
-- (struct CGImage *)PÿÿÖûÿ\üÿÓûÿ;
-- (id)rSHBN9esYfa3TG_eg/Library/Caches/com.apple.xbs/Sources/VFX_iosmac/sources/VFX/CFX/RenderGraphV2/Passes/OverlayPass.mm;
+- (void);
+- (struct CGImage *)failed:missing pass_constants_encoder function /* Error: Ran out of types for this method. */;
+- (id)ÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGImage *CGImage;

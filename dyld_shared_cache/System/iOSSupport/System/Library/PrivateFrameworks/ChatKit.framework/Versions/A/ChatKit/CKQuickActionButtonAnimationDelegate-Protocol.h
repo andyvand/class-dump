@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKQuickActionButton;
-
 @protocol CKQuickActionButtonAnimationDelegate
-- (void)tedHighlightedString:(CKQuickActionButton *)arg1 textCheckingResult:usingAttributes:highlightColor:insideFrame:isSnippetForParticipantMatch:finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
-- (void)ibutedStringWithMatchHighlighted:(CKQuickActionButton *)arg1 optionalAttributedHighlightedString:textCheckingResult:usingAttributes:highlightColor:insideFrame:isSnippetForParticipantMatch:finishingUpRegexMatchFinder: /* Error: Ran out of types for this method. */;
 @end
 

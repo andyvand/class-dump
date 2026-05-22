@@ -21,12 +21,12 @@
     RTPlatform *_platform;
 }
 
-+ (id)V;
++ (id);
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (int);
@@ -40,10 +40,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (_Bool)twork.framework/Versions/A/Network;
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
@@ -51,25 +51,26 @@
 - (void);
 - (id);
 - (id);
-- (_Bool)Reason;
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)endorPayloads;
+- (_Bool);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
-- (void);
-- (void)pported learned location type, %lu;
+- (id);
+- (void)1A,°1Â0@ù
+× ;
+- (id)cation: /* Error: Ran out of types for this method. */;
+- (void)oLois;
+- (id)stCarPlayNotificationForNotificationType:sessionManagerState:handler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)t type, %@, in low confidence visit, %@, in high confidence visit, %@;
+- (void)uteMO;
+- (void)Èÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;

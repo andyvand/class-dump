@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextInteraction;
-
 @protocol UITextInteractionDelegate
-
-@optional
-- (void)%{public}s;
-- (void)r offerManager refresh() failed:(UITextInteraction *)arg1 %s;
-- (_Bool);
 @end
 

@@ -16,11 +16,12 @@
 
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id)innerTopicMultiplier;
-- (void);
-- (id)@"SXRepeatableImageFillView";
+- (void)áÝð!¨Cù1ï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

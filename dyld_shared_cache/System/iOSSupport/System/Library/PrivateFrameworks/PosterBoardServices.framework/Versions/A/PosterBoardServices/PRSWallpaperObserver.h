@@ -33,17 +33,17 @@
 }
 
 - (void);
-- (oneway void);
 - (void);
-- (void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
+- (id);
 - (id);
 - (oneway void);
-- (id);
+- (oneway void);
 - (void);
-- (void)ithIOSurface:imageOrientation:switcherConfigurationPath:homeScreenConfigurationPath:variant:configurationType: /* Error: Ran out of types for this method. */;
+- (oneway void);
+- (void);
+- (oneway void);
+- (oneway void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

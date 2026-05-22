@@ -19,8 +19,7 @@
     MISSING_TYPE *lastPlatterSource;
 }
 
-- (void)qÐ!ÔAù±Ä1¢!0@ù
-× ;
+- (void)à£l;
 
 @end
 

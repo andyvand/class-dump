@@ -8,29 +8,28 @@
 {
 }
 
-+ (id)EquivalentModifiers: /* Error: Ran out of types for this method. */;
-- (double);
-- (id)16@0:(_Bool)arg1 8;
-- (double);
++ (id)esture;
 - (_Bool);
-- (void)payloadDNS;
 - (double);
+- (double);
+- (double);
+- (void);
+- (id);
+- (double);
+- (id);
 - (struct CGSize);
-- (double)umArtistID: /* Error: Ran out of types for this method. */;
-- (double);
 - (_Bool);
-- (_Bool);
-- (double)Q¬;
-- (struct CGSize)èhò;
-- (id)!GùÁÐ1¢!0@ù
-× ;
+- (void);
 - (long long);
-- (void)@"NSShadow"16@0:(id)arg1 8;
-- (_Bool)lainText;
-- (double)T<UlV;
-- (_Bool)ted in a nil request without ever reaching the defined top environment. This should never happen.;
+- (_Bool)ew"b1"hasMaterial"b1"useSpringBoardVibrancy"b1};
+- (struct CGSize)ForGeneratingToolbarIdentifiers:(struct CGSize)arg1 ,V_sectionForGeneratingToolbarIdentifiers;
+- (_Bool)g;
 - (_Bool);
+- (double)g:Unable to create restoration in progress marker file /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (double)rrationOffset;
 - (double);
+- (double)þ±È;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool alwaysStacksWithChild;

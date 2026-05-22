@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     MPMediaQueryCriteria *_criteria;
 }
 
-- (id)IsUpdate:(id)arg1;
-- (void);
-- (void);
 - (id);
-- (id);
-- (void)PÛ;
+- (void);
+- (void)yStore";
+- (id)ItemIdentifier: /* Error: Ran out of types for this method. */;
+- (id)up: /* Error: Ran out of types for this method. */;
+- (void)emoved;
 
 // Remaining properties
 @property(retain, nonatomic) MPMediaQueryCriteria *criteria; // @synthesize criteria=_criteria;

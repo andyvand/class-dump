@@ -16,12 +16,12 @@
 
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *archiveName; // @synthesize archiveName=_archiveName;

@@ -14,10 +14,10 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)ntifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;

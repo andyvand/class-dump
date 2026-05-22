@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInputWindowController;
-
 @protocol UIKeyboardFloatingTransitionControllerDelegate
-- (_Bool);
-- (void)
+- (_Bool)1Â0@ù
 × ;
-- (UIInputWindowController *)V_animationBehavior;
+- (void)eCurrency;
 @end
 

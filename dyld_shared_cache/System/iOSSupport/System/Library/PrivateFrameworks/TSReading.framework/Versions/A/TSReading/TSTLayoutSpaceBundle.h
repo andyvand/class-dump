@@ -27,23 +27,23 @@
 - (void);
 - (id);
 - (id);
-- (id)R";
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id)zation_RecipeSession7Factory;
-- (id)eaturesFactoryConfiguration;
-- (id);
-- (void)NSString",R,C,N,VmFrameName;
+- (id)KeyValueProxyLeafType;
 
 // Remaining properties
 @property(retain, nonatomic) TSTLayoutSpace *frozenHeaderColumnsSpace; // @synthesize frozenHeaderColumnsSpace=mFrozenHeaderColumnsSpace;

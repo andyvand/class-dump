@@ -4,7 +4,7 @@
 
 class vector<char*> {
 public: // (access info unavailable from symbols alone)
-    push_back(char* const&);
-    reserve(unsigned long);
+    auto push_back(char* const&);
+    auto reserve(unsigned long);
     ~vector();
 };

@@ -13,19 +13,21 @@
 
 - (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (long long);
 - (void);
-- (id)ctions;
-- (_Bool)peAndTalk;
-- (void)data;
-- (id)rientation:inSceneWithReferenceSize: /* Error: Ran out of types for this method. */;
-- (void)euse:(id)arg1 %@;
-- (void)for compatibility code only;
-- (id):(id)arg1 r:path:/System/Library/PrivateFrameworks/RevealCore.framework/RevealCore /* Error: Ran out of types for this method. */;
-- (_Bool)s£;
+- (_Bool);
+- (id)!8Bùqb1Â0@ù
+× ;
+- (void)
+× ;
+- (void)eContentSize;
+- (void)alPointPlacedCarefully;
+- (long long)PresentationContext;
+- (id)estTokenSubrangeForPosition:(struct _NSZone *)arg1 granularity:downstream: /* Error: Ran out of types for this method. */;
+- (void)ackgroundView;
+- (_Bool)SafeAreaEdgeInsetResolver;
+- (void)orceClickInteractionDriver"8Q16Q24;
+- (id)Pointer;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

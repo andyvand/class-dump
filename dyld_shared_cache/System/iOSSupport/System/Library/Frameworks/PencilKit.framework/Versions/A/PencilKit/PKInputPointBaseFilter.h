@@ -18,9 +18,9 @@
 - (double);
 - (CDStruct_4cc01785);
 - (CDStruct_4cc01785);
-- (void)8`%;
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_4cc01785 filteredPoint; // @synthesize filteredPoint=_filteredPoint;

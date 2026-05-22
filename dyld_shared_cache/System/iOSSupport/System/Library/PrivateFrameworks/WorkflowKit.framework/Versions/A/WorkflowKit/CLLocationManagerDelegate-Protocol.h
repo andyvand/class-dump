@@ -7,6 +7,10 @@
 @protocol CLLocationManagerDelegate
 
 @optional
-- (void)ndHomeCameraClipAction;
+- (void);
+- (void)1â
+0@ù
+× ;
+- (void)s;
 @end
 

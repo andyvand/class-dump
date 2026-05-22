@@ -11,8 +11,8 @@
     MISSING_TYPE *metadata;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

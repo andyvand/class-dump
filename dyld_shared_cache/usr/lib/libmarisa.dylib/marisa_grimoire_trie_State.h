@@ -4,5 +4,5 @@
 
 class marisa::grimoire::trie::State {
 public: // (access info unavailable from symbols alone)
-    predictive_search_init();
+    auto predictive_search_init();
 };

@@ -7,9 +7,7 @@
 @class NSArray;
 
 @protocol UITextSelectionHighlightView
-- (void)onUnit is NULL;
-- (NSArray *)!¼EùÊÐ1¢!0@ù
-× ;
+- (NSArray *)rImp"16d24;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *selectionRects;

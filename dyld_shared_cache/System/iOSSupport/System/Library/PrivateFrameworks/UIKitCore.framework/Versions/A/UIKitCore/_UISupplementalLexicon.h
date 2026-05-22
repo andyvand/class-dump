@@ -13,15 +13,15 @@
     unsigned long long _searchPrefixes;
 }
 
-- (id);
-- (id)MDaemonCore;
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (void)llerDelegatePrivate;
 - (void);
-- (id)ence;
-- (id)À;
-- (id)Kêþ;
+- (id);
+- (id);
+- (id):absoluteOffset: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;

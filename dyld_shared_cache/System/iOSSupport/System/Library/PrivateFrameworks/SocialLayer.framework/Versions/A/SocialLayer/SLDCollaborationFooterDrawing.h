@@ -22,10 +22,10 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect alignmentRect;

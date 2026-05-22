@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)urn the text that should be shown here.;
++ (id);
 + (_Bool);
 + (id);
 + (id);

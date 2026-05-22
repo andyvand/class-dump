@@ -25,28 +25,28 @@
     NSArray *_linkInteractions;
 }
 
-- (_Bool)ize: /* Error: Ran out of types for this method. */;
-- (_Bool)anagementRestrictionsManager;
-- (_Bool)xtAttributes;
-- (void)ipant;
-- (void)nt:(_Bool)arg1 atRange: /* Error: Ran out of types for this method. */;
-- (void)dentifier:(_Bool)arg1;
-- (void)mberOfChanges;
-- (void)tedSnippet;
-- (void)tle;
-- (void)tConstraint;
-- (void)udeNewFolderButton;
-- (void)redObjectsNotFromDestinationAccountInSource;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (double)&؍G;
+- (double);
 - (double);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (double);
 - (id);
-- (void)t;
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -54,8 +54,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)w;
+- (id);
+- (void)D;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKBalloonViewAnimationDelegate> animationDelegate; // @synthesize animationDelegate=_animationDelegate;

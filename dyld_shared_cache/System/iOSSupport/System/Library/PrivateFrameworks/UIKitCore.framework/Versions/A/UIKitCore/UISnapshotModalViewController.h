@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
     UINavigationController *_parentController;
 }
 
-- (void):(id)arg1 recordNameToRowIDMap:activity: /* Error: Ran out of types for this method. */;
-- (id)tEncryptionValidationToken;
-- (id)$;
-- (_Bool)nt after failing fetch from CK;
-- (void);
-- (void)ted in this situation.;
-- (void)horizontalSeparatorHeight;
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void)ze:(_Bool)arg1;
+- (void),Dc;
+- (void)à, ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *disappearingViewController; // @synthesize disappearingViewController=_disappearingViewController;

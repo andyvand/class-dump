@@ -5,6 +5,5 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)iewController initWithTitle:detailText:icon:contentImage:] /* Error: Ran out of types for this method. */;
 @end
 

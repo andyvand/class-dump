@@ -4,8 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextRange;
+
 @protocol _UITextPasteProgressSupport
-- (long long)@ù
-× ;
+- (UITextRange *);
 @end
 

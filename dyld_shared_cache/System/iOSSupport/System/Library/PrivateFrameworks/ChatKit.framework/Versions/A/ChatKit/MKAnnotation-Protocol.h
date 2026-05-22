@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol MKAnnotation
-- (struct CLLocationCoordinate2D)ÿ;
 
 @optional
-- (void);
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;

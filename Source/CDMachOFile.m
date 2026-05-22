@@ -809,12 +809,20 @@ found:
 
 - (BOOL)hasRelocationEntryForAddress2:(NSUInteger)address;
 {
-    return [self.dyldInfo symbolNameForAddress:address] != nil;
+    if ([self.dyldInfo symbolNameForAddress:address] != nil) return YES;
+    return [self _chainedFixupBindNameForAddress:address] != nil;
 }
 
 - (NSString *)externalClassNameForAddress2:(NSUInteger)address;
 {
     NSString *str = [self.dyldInfo symbolNameForAddress:address];
+
+    // Modern dyld_shared_cache images use LC_DYLD_CHAINED_FIXUPS instead of
+    // legacy LC_DYLD_INFO bind opcodes. Fall back to the chained-fixup bind
+    // table so external class names (e.g. an external superclass or the
+    // target of an Objective-C category) still resolve.
+    if (str == nil)
+        str = [self _chainedFixupBindNameForAddress:address];
 
     if (str != nil) {
         if ([str hasPrefix:ObjCClassSymbolPrefix]) {
@@ -825,6 +833,17 @@ found:
         }
     }
 
+    return nil;
+}
+
+- (NSString *)_chainedFixupBindNameForAddress:(NSUInteger)address;
+{
+    for (CDLoadCommand *lc in _loadCommands) {
+        if ([lc isKindOfClass:[CDLCChainedFixups class]]) {
+            NSString *name = [(CDLCChainedFixups *)lc bindNameForAddress:(uint64_t)address];
+            if (name != nil) return name;
+        }
+    }
     return nil;
 }
 

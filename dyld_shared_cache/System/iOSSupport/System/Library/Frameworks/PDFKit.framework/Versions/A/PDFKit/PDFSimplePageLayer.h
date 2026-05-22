@@ -35,23 +35,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void)RKCardSectionViewProviderManaging>"24;
-- (void)er"16s24;
-- (void)4q32;
-- (id)tteranceDelegate>";
-- (void)48@64;
-- (void)ssion"16;
-- (void)odelController"16@"AceObject"24;
 - (void);
-- (void)error: /* Error: Ran out of types for this method. */;
-- (long long)@0:8@"CKRecordID"16@"CKRecord"24@"NSError"32 /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)ouldShowAzimuthInColorPicker;
 - (void);
 - (void);
-- (_Bool);
-- (id)onKeyboardType: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool)@32Q40;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

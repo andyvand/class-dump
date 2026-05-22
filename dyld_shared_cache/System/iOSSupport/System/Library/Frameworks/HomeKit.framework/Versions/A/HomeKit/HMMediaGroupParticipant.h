@@ -12,26 +12,36 @@
     NSString *_audioDestinationIdentifier;
     NSUUID *_audioGroupIdentifier;
     unsigned long long _variant;
+    unsigned long long _role;
+    NSUUID *_roomIdentifier;
+    NSString *_roomName;
 }
 
-+ (_Bool)letinBoardNotification commitWithCompletionHandler:] /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (unsigned long long)s:completion:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)1B50@ù
+× ;
+- (void)ÜQ¨RlS;
+- (unsigned long long)ed;
+- (id)¤ýÿÉ¢rÉ;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
 @property(readonly, copy) NSString *audioDestinationIdentifier; // @synthesize audioDestinationIdentifier=_audioDestinationIdentifier;
 @property(readonly, copy) NSUUID *audioGroupIdentifier; // @synthesize audioGroupIdentifier=_audioGroupIdentifier;
+@property(readonly) unsigned long long role; // @synthesize role=_role;
+@property(readonly, copy) NSUUID *roomIdentifier; // @synthesize roomIdentifier=_roomIdentifier;
+@property(readonly, copy) NSString *roomName; // @synthesize roomName=_roomName;
 @property(readonly) unsigned long long variant; // @synthesize variant=_variant;
 
 @end

@@ -15,9 +15,10 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)!DùQ]ð1Â0@ù
+× ;
+- (id)earchInfoIfNecessary;
+- (void)ppingGrabber;
 
 // Remaining properties
 @property(nonatomic, getter=_screen) __weak UIScreen *screen; // @synthesize screen=_screen;

@@ -22,8 +22,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)trollerConfiguration",R,N,V_configuration;
 
 // Remaining properties
 @property(nonatomic) _Bool needsRebuild; // @synthesize needsRebuild;

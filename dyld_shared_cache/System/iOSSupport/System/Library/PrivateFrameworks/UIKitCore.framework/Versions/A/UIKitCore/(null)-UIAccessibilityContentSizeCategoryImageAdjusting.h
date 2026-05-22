@@ -10,8 +10,8 @@
 + (id);
 + (id);
 + (_Bool);
-- (_Bool)ntifier;
-- (void)dLightBackground;
+- (_Bool);
+- (void)rÔ´T»¿äÀàÂÄ ÇÌÈ`ÉØÊ;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsImageSizeForAccessibilityContentSizeCategory;

@@ -6,6 +6,6 @@
 
 @interface (null) (MPMoviePlayerViewController)
 - (void);
-- (void)˟;
+- (void);
 @end
 

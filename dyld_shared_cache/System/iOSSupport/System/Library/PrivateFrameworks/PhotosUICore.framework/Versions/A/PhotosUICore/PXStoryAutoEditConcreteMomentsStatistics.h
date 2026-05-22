@@ -32,7 +32,7 @@
 - (double);
 - (void);
 - (double);
-- (void);
+- (void)PhototypesFeature;
 
 // Remaining properties
 @property(nonatomic) double averageAssetCount; // @synthesize averageAssetCount=_averageAssetCount;

@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PXObservable;
+
 @protocol PXChangeObserver
-- (void);
+- (void)Show:(PXObservable *)arg1 called;
 @end
 

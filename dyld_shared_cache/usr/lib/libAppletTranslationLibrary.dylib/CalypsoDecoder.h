@@ -27,7 +27,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id)t;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (_Bool);
 - (void);
 - (void);
@@ -40,10 +45,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)C;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -51,13 +66,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void):withBitmap: /* Error: Ran out of types for this method. */;
 
 @end
 

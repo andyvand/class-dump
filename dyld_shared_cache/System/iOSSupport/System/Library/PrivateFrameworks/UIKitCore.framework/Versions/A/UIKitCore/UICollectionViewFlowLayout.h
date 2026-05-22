@@ -59,7 +59,7 @@
 + (Class);
 - (void);
 - (long long);
-- (void)e:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (void);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (struct CGSize);
@@ -79,7 +79,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -110,9 +110,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (void);
 - (id);
@@ -121,47 +121,48 @@
 - (double);
 - (void);
 - (_Bool);
-- (id);
 - (id);
 - (long long);
-- (void);
-- (void);
-- (void);
 - (id);
-- (_Bool)onHandler: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (void);
 - (unsigned long long);
-- (struct CGSize);
+- (void);
+- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (id);
+- (long long);
+- (_Bool);
 - (id);
-- (long long)PO!º;
-- (void)!¼DùñÂð1¢!0@ù
+- (_Bool);
+- (long long);
+- (struct CGSize);
+- (_Bool)Q^Ð1Â0@ù
 × ;
-- (_Bool)0@ù
+- (id);
+- (void)ð!¼Eùñdð1Â0@ù
 × ;
-- (void)1¢!0@ù
-× ;
-- (void)wÐ!8Bù±Ì1¢!0@ù
-× ;
-- (void)ze=dd}}16@"UIWindow"48;
-- (void)ayoutDirection"b3"restorationExtended"b1"normalRestorationInProgress"b1"normalRestorationCompleted"b1"isDelayingTintViewChange"b1"isUpdatingTintViewColor"b1"isHandlingMemoryWarning"b1"couldNotRestoreStateWhenLocked"b1"disableStyleOverrides"b1"legibilityAccessibilitySettingEnabled"b1"viewControllerBasedStatusBarAppearance"b1"isStatusBarFading"b1"systemWindowsSecure"b1"isFrontBoardForeground"b1"appSwitcherLayoutState"b2"isObservingPIP"b1"shouldRestoreKeyboardInputState"b1"subclassOverridesInterfaceOrientation"b1"subclassOverridesFrontMostAppOrientation"b1"isResigningActive"b1"receivedUnhandledMenuButton"b1"disablingBecomeFirstResponder"b1"hasMultiwindowAttributes"b1"supportedOnLockScreen"b1"inBackgroundBeforeSuspending"b1"hasPendingKeyCommandSerializationRequest"b1"hasBackgroundTaskCompletionHandler"b1"supportsTabbedWindowScenes"b1"subclassOverridesCreateStatusBarWithRequestedStyle"b1"implementsEffectiveSceneConfigurationForConnectingConfiguration"b1};
-- (_Bool)dthForSegmentAtIndex:(struct UIEdgeInsets)arg1;
-- (struct CGRect):(long long)arg1;
-- (_Bool)ngBarContentClippingView:(struct UIEdgeInsets)arg1;
-- (void)wsNumberPadPopover:(id)arg1;
-- (id)dDisambiguationSelectedIndex:(id)arg1 voiceCommandDisambiguationTargetCount:(id)arg2;
-- (void)eViewFlags;
-- (id)eferredContentSizeWhenEdgeAttached;
-- (_Bool)&,N,VsceneViewController;
-- (struct CGSize)@"<UIInteractiveUndoHUDActionDelegate>",W,N,V_actionDelegate;
-- (long long);
-- (long long)sProvidingP;
-- (void)ularity_on_marked_text_presence;
-- (id);
-- (struct CGRect);
-- (id)gÎ;
-- (id)H÷öÿKrÍB¢o;
+- (void)ssistantView:(id)arg1;
+- (id)assView:(struct CGRect)arg1;
+- (void);
+- (void)ryType: /* Error: Ran out of types for this method. */;
+- (void)straintsIfNecessary;
+- (_Bool)nd:(struct UIEdgeInsets)arg1;
+- (void)StoryboardSegueTemplate;
+- (long long)iewControllerPreviewingDelegate>",W,N,V_delegate;
+- (void);
+- (id)Ô;
+- (struct CGSize)eScene:%@ (self:%@) /* Error: Ran out of types for this method. */;
+- (_Bool)rComponentGroupCG;
+- (id)33Ã?¹?Âõ(\Â¿Ù?É¿ÕÔÔÔÔÔä?«ªªªª*H@433333Ã?ÿÿÿÿÿÿïÿÿÿÿÿÿï=
+×£p=Ú?ö(\Âõð?x:(struct CGRect)arg1 æÑx@ùªf pF@¢-¬¾VÚ?´<k¥@OÇw.j@\¹Ü~Æ?kvb'v@á¿×£p=
+×Ó?/£Xniuø?333333Ó?333333ã?
+×#=ð#tI;
+- (void)Ä7;
+- (_Bool)a;
+- (void)ÐK;
+- (id)`k;
+- (id)p;
 
 // Remaining properties
 @property(nonatomic) struct CGSize estimatedItemSize; // @synthesize estimatedItemSize=_estimatedItemSize;

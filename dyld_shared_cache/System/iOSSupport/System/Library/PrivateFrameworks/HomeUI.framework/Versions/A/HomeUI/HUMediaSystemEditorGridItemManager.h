@@ -23,7 +23,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void)ptionVerboseLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) HFMediaSystemBuilder *mediaSystemBuilder; // @synthesize mediaSystemBuilder=_mediaSystemBuilder;

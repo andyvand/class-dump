@@ -15,11 +15,12 @@
     MISSING_TYPE *token;
 }
 
+- (void);
 - (id);
 - (void);
-- (void);
-- (id)aratorInset;
-- (id)³þéûû´Ò²þ;
+- (id);
+- (void)8ÍVÿ;
+- (id)eedDatabaseGroupProcessor;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

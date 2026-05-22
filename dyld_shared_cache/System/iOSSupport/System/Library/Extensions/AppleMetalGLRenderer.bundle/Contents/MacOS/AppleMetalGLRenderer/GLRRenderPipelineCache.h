@@ -4,5 +4,5 @@
 
 class GLRRenderPipelineCache {
 public: // (access info unavailable from symbols alone)
-    init();
+    auto init();
 };

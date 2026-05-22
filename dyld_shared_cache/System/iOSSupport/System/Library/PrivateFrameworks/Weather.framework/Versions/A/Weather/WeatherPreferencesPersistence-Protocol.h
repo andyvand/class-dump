@@ -5,5 +5,6 @@
 //
 
 @protocol WeatherPreferencesPersistence
+- (void)yPadViewStyle";
 @end
 

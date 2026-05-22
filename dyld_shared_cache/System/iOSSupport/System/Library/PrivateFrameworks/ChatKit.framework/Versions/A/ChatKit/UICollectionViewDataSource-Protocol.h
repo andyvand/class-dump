@@ -7,15 +7,17 @@
 @class NSArray, NSIndexPath, UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *);
+- (long long)6;
+- (UICollectionViewCell *)±³h ;
 
 @optional
-- (NSArray *)d
-tÈ`Dô"Ä$´%'((,|.;
-- (_Bool)>ùûÿ;
-- (void)rÙûÿ;
-- (long long)er configuration was unexpectedly nil during initial push setup! channelPosterId={%@} posterID={%@};
-- (NSIndexPath *)29TapbackPickerPrimaryContainer;
-- (UICollectionReusableView *)CompositionalLayout. Got nil layout attributes for associated item. If allowed to continue, this would be a fatal crash. Please file a radar.;
+- (long long)1Â0@ù
+× ;
+- (_Bool)ldSendImmediately;
+- (NSArray *)Ä\hs;
+- (NSIndexPath *)s for string %s;
+- (void);
+- (UICollectionReusableView *)ü
+¹ÿu¬k´_·ÿU¬k°_·ÿ;
 @end
 

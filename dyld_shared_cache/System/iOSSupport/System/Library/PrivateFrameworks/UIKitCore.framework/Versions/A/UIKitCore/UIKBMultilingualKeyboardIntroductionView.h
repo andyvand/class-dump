@@ -23,35 +23,34 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id)er:(id)arg1 );
-+ (id)erChat;
 + (id);
-- (void)sFZIDType;
-- (void);
-- (id)tMetricsCABSH17IMSharedUtilitiesyHCg_G;
-- (id);
-- (void);
-- (long long)on one on service %@  identifier:(id)arg1 %@   style:%c  (Chat:%@) /* Error: Ran out of types for this method. */;
-- (id)te. Existing message sent:%@, messageToUpdate sent:%@ /* Error: Ran out of types for this method. */;
-- (void)GUID=%@:message not found /* Error: Ran out of types for this method. */;
-- (void)ie(s) for transfer info of deleted attachment(s);
-- (void);
-- (id)@;
-- (void)esToLoad;
-- (id)dleGUID: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (long long);
+- (id);
 - (void);
-- (void)
-× ;
-- (void)à	;
-- (id)Ö¤*g;
-- (id)ôôf;
-- (void)Óh;
-- (id)Â;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)L_;
+- (void)©ÿÑÔ0`;
+- (void)tg;
+- (id)g;
+- (void)¡;
+- (id)Ëk;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBMultilingualIntroductionArrowView *arrowView; // @synthesize arrowView=_arrowView;

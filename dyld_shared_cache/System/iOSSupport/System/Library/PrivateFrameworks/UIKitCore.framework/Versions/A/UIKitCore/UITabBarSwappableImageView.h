@@ -19,20 +19,20 @@ __attribute__((visibility("hidden")))
     _Bool _showLandscape;
 }
 
-- (void);
+- (struct CGSize);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)ÔÁs!;
-- (void)!@GùÍ°1¢!0@ù
-× ;
-- (id)et:action:allowsGroupMode: /* Error: Ran out of types for this method. */;
-- (void)EventRespondable;
-- (struct CGSize)ÿ;
-- (id)Å`;
-- (id);
+- (void)indow:(_Bool)arg1;
+- (void)ctionGestureRecognizer",&,N,V_previewGestureRecognizer;
+- (id)_fromValue;
+- (id);
+- (void)-%@ for %@ 
+%@;
+- (id);
+- (void)jE;
+- (void)@°uÿ~LØb;
 
 @end
 

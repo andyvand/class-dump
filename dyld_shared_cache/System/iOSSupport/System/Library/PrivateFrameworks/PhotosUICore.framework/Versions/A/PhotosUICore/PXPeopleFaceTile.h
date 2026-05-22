@@ -18,10 +18,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id)!ÐDù±{Ð1b0@ù
-× ;
-- (id)fierForAssets:options: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)%{bool}d;
+- (void)honeFeedNavigationType;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

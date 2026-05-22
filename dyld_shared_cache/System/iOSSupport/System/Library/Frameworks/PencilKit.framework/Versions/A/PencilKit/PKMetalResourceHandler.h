@@ -55,7 +55,7 @@
 + (id);
 + (id);
 + (id);
-+ (struct CGColorSpace *)B;
++ (struct CGColorSpace *);
 - (id);
 - (id);
 - (id);
@@ -80,16 +80,16 @@
 - (id);
 - (struct CGSize);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (id)6 ;
-- (id)R;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -109,7 +109,8 @@
 - (struct PKShaderPipelineConfig);
 - (struct PKShaderPipelineConfig);
 - (struct PKShaderPipelineConfig);
-- (struct PKShaderPipelineConfig);
+- (struct PKShaderPipelineConfig);
+- (struct PKShaderPipelineConfig);
 - (void);
 - (id);
 - (id);
@@ -151,15 +152,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (id)ationRequest",R,N,V_request;
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (void)t;
+- (id)ÿÿÊÿÿìÊÿÿ;
 
 // Remaining properties
+@property(readonly, nonatomic) struct PKShaderPipelineConfig defaultLiveNoSnapshottingPipelineConfig;
 @property(readonly, nonatomic) struct PKShaderPipelineConfig defaultPipelineConfig;
 @property(readonly, nonatomic) struct PKShaderPipelineConfig defaultSingleFramebufferPipelineConfig;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;

@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool);
 - (id);
+- (void)ON START      %{public}@ => %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldSkipWaitingForReadyToPlayStatus;

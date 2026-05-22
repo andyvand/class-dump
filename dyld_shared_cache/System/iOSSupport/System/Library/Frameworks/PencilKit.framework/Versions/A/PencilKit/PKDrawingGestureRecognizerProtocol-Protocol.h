@@ -8,11 +8,6 @@
 @protocol PKDrawingGestureRecognizerDelegate, PKDrawingGestureTarget;
 
 @protocol PKDrawingGestureRecognizerProtocol
-- (_Bool)b;
-- (void)1¢!0@ù
-× ;
-- (void)@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activeInputProperties;

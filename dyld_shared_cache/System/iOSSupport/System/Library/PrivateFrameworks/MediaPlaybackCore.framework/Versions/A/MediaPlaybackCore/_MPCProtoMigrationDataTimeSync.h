@@ -24,14 +24,14 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
-- (unsigned long long)T;
-- (_Bool);
 - (id);
 - (void);
-- (void);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void)art item on edit [first data source loaded] suggestedContentItemIDForStart=%{public}@;
 
 @end
 

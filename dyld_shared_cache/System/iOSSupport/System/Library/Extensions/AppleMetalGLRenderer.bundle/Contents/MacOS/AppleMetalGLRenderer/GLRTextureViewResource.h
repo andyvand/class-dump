@@ -4,8 +4,8 @@
 
 class GLRTextureViewResource {
 public: // (access info unavailable from symbols alone)
-    dealloc();
-    testIdle();
-    waitIdle(GLDShareGroupRec*);
+    auto dealloc();
+    auto testIdle();
+    auto waitIdle(GLDShareGroupRec*);
     ~GLRTextureViewResource();
 };

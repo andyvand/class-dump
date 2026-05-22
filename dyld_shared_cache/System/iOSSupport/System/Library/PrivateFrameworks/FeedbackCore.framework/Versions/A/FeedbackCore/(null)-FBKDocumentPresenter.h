@@ -10,7 +10,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (struct CGRect);

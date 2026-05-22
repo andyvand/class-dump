@@ -25,54 +25,52 @@ __attribute__((visibility("hidden")))
     double _forceMultiplier;
 }
 
++ (_Bool)1Â0@ù
+× ;
 + (_Bool);
-+ (_Bool);
-- (double)D;
-- (double);
-- (_Bool);
-- (void)(;
-- (_Bool)dTracksToLibrary;
-- (double);
+- (long long);
 - (void);
+- (id);
+- (double);
 - (id);
 - (void);
 - (void);
+- (struct CGPoint);
 - (void);
-- (id)0@ù
-× ;
-- (unsigned long long)!ÜGùñÂ°1¢!0@ù
-× ;
+- (_Bool);
+- (id);
 - (void);
-- (_Bool)1¢!0@ù
+- (void)ð1Â0@ù
 × ;
-- (void)@ù
+- (void)0@ù
 × ;
-- (_Bool)ldShowSidebarToggle;
-- (double)ext:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)veItemWithIdentifier:(id)arg1 beforeItemWithIdentifier: /* Error: Ran out of types for this method. */;
-- (double)irstResponder;
-- (id)lling;
-- (void)FaultingInGuidesForConstraint:(_Bool)arg1;
-- (void)_metricsFlags;
-- (void)rity;
-- (_Bool)undColor;
-- (id)oBackgroundColor;
-- (struct CGPoint),V_usesBackdropEffectView;
-- (void)zer;
-- (long long);
-- (_Bool)Path:(id)arg1 %@
-
-===;
-- (void)below its minimum width of %g. This may not look like expected, especially with larger than normal font sizes.;
-- (_Bool)²ÿÿ²ÿÿ´²ÿÿ´ÿÿ$´ÿÿ<´ÿÿT´ÿÿl´ÿÿ´ÿÿ¼´ÿÿÔ´ÿÿµÿÿ¶ÿÿD¶ÿÿ\¶ÿÿ¶ÿÿ°¶ÿÿÐ¶ÿÿð¶ÿÿ·ÿÿ(·ÿÿL·ÿÿd·ÿÿ;
-- (void);
-- (void)ngUpdates;
-- (id)h activity %@ (title = %@, identifier = %@), so cleaning up and invalidating;
-- (void)should never be %@ in %@;
-- (_Bool)sk:(id)arg1 %08lx;
-- (double)a different code path%@;
-- (id)ngModeArithmeticMax;
-- (_Bool);
+- (void)!´DùÑcð1Â0@ù
+× ;
+- (double)× ;
+- (void);
+- (_Bool)ctMenuItem:(id)arg1;
+- (void)r;
+- (double)dci_setMenuRepresentation: /* Error: Ran out of types for this method. */;
+- (_Bool)ess;
+- (double)iateObjectOfClass: /* Error: Ran out of types for this method. */;
+- (void)llGroup;
+- (_Bool):(id)arg1 state:(id)arg2 traitCollection: /* Error: Ran out of types for this method. */;
+- (id)r;
+- (void)",W,N,G_dynamicDropInteraction,S_setDynamicDropInteraction:(_Bool)arg1;
+- (_Bool)ÿÿ;
+- (double)pÁ;
+- (void)%lu items in the section.;
+- (void)actionBackgroundDismissRecognizer;
+- (void);
+- (void);
+- (_Bool)©43øtþ%©43ltþÅ¨43ÐtþÍ¨43Àtþ¥¨434tþõ¨43tþ¨43tþ¨43ttþÍ¨43Ätþ©43tþÕ¨43¼tþ;
+- (_Bool)l[;
+- (double)|[;
+- (id)\;
+- (unsigned long long);
+- (id)];
+- (_Bool)`^;
+- (_Bool)È`;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement;

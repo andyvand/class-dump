@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)Distance;
-- (void)b4bb,c¤cPd;
+- (void);
+- (void)omNode:toNode:alongsideAnimations:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -19,21 +19,21 @@
 
 + (id);
 - (void);
-- (void);
-- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id)ô;
+- (id)ion state [%{public}@];
 
 // Remaining properties
 @property(nonatomic, retain) FBKAnswer *answer; // @synthesize answer;

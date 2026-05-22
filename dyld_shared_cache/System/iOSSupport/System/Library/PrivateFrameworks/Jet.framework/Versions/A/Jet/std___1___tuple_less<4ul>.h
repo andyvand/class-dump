@@ -4,5 +4,5 @@
 
 class std::__1::__tuple_less<4ul> {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:ne200100]<std::__1::tuple<jet_blend_mode, jet_texture_format, jet_texture_format, jet_texture_format, unsigned int, unsigned int>, std::__1::tuple<jet_blend_mode, jet_texture_format, jet_texture_format, jet_texture_format, unsigned int, unsigned int>>(std::__1::tuple<jet_blend_mode, jet_texture_format, jet_texture_format, jet_texture_format, unsigned int, unsigned int> const&, std::__1::tuple<jet_blend_mode, jet_texture_format, jet_texture_format, jet_texture_format, unsigned int, unsigned int> const&);
+    bool operator()[abi:nqe210106]<std::__1::tuple<jet_blend_mode, jet_texture_format, jet_texture_format, jet_texture_format, unsigned int, unsigned int>, std::__1::tuple<jet_blend_mode, jet_texture_format, jet_texture_format, jet_texture_format, unsigned int, unsigned int>>(std::__1::tuple<jet_blend_mode, jet_texture_format, jet_texture_format, jet_texture_format, unsigned int, unsigned int> const&, std::__1::tuple<jet_blend_mode, jet_texture_format, jet_texture_format, jet_texture_format, unsigned int, unsigned int> const&);
 };

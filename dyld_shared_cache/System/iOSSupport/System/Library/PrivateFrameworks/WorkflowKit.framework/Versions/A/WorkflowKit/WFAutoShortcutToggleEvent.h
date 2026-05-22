@@ -20,15 +20,15 @@
 + (Class);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (_Bool);
 - (id);
+- (void);
+- (id);
+- (_Bool)nchId:className: /* Error: Ran out of types for this method. */;
+- (void)x<¬´=­?@4@\@@;
+- (void)d this action;
+- (void)enceUnknownCallersIntent;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

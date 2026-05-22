@@ -17,18 +17,18 @@ __attribute__((visibility("hidden")))
     CAShapeLayer *_arrowHeadLayer;
 }
 
-- (void)chat:(struct CGPoint)arg1 date:(struct CGPoint)arg2;
 - (void);
 - (void);
-- (id)didStartSendingMessage] Not notifying for suggested action response.;
-- (id)%@   this is a typing indicator, and we've already stored a completed message;
-- (void)publisher %@, same? %@;
 - (void);
-- (id)}d},R;
-- (struct CGPoint)ecome an assert in a future version.;
-- (void)46ÿ©Ø½f;
-- (struct CGPoint)û;
-- (void)»©k;
+- (id);
+- (id);
+- (void);
+- (struct CGPoint);
+- (id);
+- (void)Ð©Üª¬d®´®;
+- (void)AnimatorCSgz_Xx;
+- (struct CGPoint)ÕpB^;
+- (void)¼	Êüg;
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *arrowHeadLayer; // @synthesize arrowHeadLayer=_arrowHeadLayer;

@@ -5,9 +5,9 @@
 //
 
 @protocol _UIFloatingTabBarContentStateProviding
-- (_Bool)akdown;
+- (_Bool)epthLevel;
+- (_Bool)¿7G;
 - (_Bool);
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCustomizableItem) _Bool customizableItem;

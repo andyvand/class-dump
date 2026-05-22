@@ -16,14 +16,15 @@ __attribute__((visibility("hidden")))
     UIColor *_compositingColor;
 }
 
-- (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (void)Signature:(id)arg1;
-- (id)nexpectedly failed to create Launch Background Task.;
-- (void)lready renaming a different navigation item (;
+- (id);
+- (id)
+× ;
+- (_Bool)bRotatingNodePopoverDelegate>";
+- (void)chDownDuration;
+- (void)eviewProvider;
+- (void)iew returned an invalid size %@ from -systemLayoutSizeFittingSize:(id)arg1 withHorizontalFittingPriority:verticalFittingPriority:which is not allowed. If you have implemented a custom content view, you need to add constraints inside it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:%@ /* Error: Ran out of types for this method. */;
+- (void)ionCSgXw;
 
 @end
 

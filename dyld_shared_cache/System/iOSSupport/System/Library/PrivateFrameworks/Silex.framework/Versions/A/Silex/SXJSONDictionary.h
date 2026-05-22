@@ -18,23 +18,23 @@
     unsigned long long _count;
 }
 
-- (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (id)?;
 - (unsigned long long);
-- (id)entSizeCategory;
+- (id);
+- (void)@0:8@16@24{_NSRange=QQ}32 /* Error: Ran out of types for this method. */;
+- (unsigned long long)ncelled layout task; dropping result, task-identifier=%{public}@, duration=%fms;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

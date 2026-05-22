@@ -4,4 +4,4 @@
 
 // Global C++ functions
 
-swift_distributed_execute_target_resume(swift::AsyncContext*, swift::SwiftError*);
+auto swift_distributed_execute_target_resume(swift::AsyncContext*, swift::SwiftError*);

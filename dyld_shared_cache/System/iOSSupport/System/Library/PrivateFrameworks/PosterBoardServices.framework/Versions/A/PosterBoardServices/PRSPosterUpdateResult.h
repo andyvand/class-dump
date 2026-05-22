@@ -18,13 +18,13 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;

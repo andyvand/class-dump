@@ -79,23 +79,23 @@
 - (void);
 - (double);
 - (double);
-- (double);
-- (void);
+- (_Bool);
 - (void);
 - (struct CGSize);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
 - (void);
 - (struct CGSize);
+- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (double)m;
 
 // Remaining properties
 @property(nonatomic) id <PLSlalomRegionEditorDelegate> delegate; // @synthesize delegate=_delegate;

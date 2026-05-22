@@ -4,6 +4,6 @@
 
 class objc_visitor::Category {
 public: // (access info unavailable from symbols alone)
-    getClassMethods(objc_visitor::Visitor const&) const;
-    getInstanceMethods(objc_visitor::Visitor const&) const;
+    auto getClassMethods(objc_visitor::Visitor const&) const;
+    auto getInstanceMethods(objc_visitor::Visitor const&) const;
 };

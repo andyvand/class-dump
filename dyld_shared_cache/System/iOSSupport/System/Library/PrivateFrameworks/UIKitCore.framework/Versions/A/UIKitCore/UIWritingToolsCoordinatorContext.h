@@ -13,17 +13,18 @@
     struct _NSRange _resolvedRange;
 }
 
-- (struct _NSRange)achmentAssetDownloadWithDelegate: /* Error: Ran out of types for this method. */;
-- (id)ReplicationDate:callerID: /* Error: Ran out of types for this method. */;
-- (void);
+- (struct _NSRange);
+- (id);
+- (void);
 - (struct _NSRange);
 - (void);
 - (id);
-- (void)K1º;
-- (id)d;
-- (id)!;
-- (id)le;
-- (struct _NSRange)%Ð^;
+- (id);
+- (struct _NSRange)!ÐAù±g1Â0@ù
+× ;
+- (id)@ì¬ìq<íÐî;
+- (id)rbiterClientInputDestination queue_keyboardUIDidChange:onComplete:]  Destination posting notification:%@ /* Error: Ran out of types for this method. */;
+- (void)°4_;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setWTContext:) WTContext *_wtContext; // @synthesize _wtContext;

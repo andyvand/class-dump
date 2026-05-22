@@ -102,18 +102,18 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties

@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ueWhileRecording;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

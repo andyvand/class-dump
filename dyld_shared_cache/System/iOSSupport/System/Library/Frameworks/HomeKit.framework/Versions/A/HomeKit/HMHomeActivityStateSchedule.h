@@ -9,7 +9,6 @@
 @interface HMHomeActivityStateSchedule
 {
     struct os_unfair_lock_s _lock;
-    _Bool _homeActivityStateEnabled;
     NSArray *_scheduleEntries;
     unsigned long long _state;
     HMHome *_home;
@@ -17,23 +16,22 @@
     NSUUID *_uuid;
 }
 
-+ (id)eControl;
-+ (_Bool)SettingLanguageValueInputLanaguageCodePayloadKey;
++ (_Bool);
++ (id)berRange:min:%@, max:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (id);
+- (id);
+- (void)r;
 
 // Remaining properties
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
@@ -44,7 +42,6 @@
 @property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) _Bool homeActivityStateEnabled; // @synthesize homeActivityStateEnabled=_homeActivityStateEnabled;
 @property(readonly, nonatomic) NSArray *scheduleEntries; // @synthesize scheduleEntries=_scheduleEntries;
 @property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 @property(readonly) Class superclass;

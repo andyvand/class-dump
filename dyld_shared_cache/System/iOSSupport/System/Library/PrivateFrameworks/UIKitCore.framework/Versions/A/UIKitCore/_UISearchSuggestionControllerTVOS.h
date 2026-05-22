@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
     NSString *_searchSuggestionsTitle;
 }
 
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void)Count;
-- (void);
-- (void)LFùÑÊÐ1¢!0@ù
+- (void)0@ù
 × ;
-- (id)maticallyLocalizeKeyEquivalents: /* Error: Ran out of types for this method. */;
-- (_Bool)Size:permittedArrowDirections:showsArrow:windowAppearance:isModalInPresentation:shouldConvertToScene:sourceItem:withDismissalBlock:setupCompletionHandler:didPresentBlock:allowPopoverToCloseBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)InvocationOfSelector:withAnimationAttributes:animationsEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool)insProvider: /* Error: Ran out of types for this method. */;
+- (void)resentation:(_Bool)arg1;
+- (void)tuationCount;
+- (void)rchy;
+- (id)yColor;
+- (void)øHR0;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *searchSuggestionsTitle; // @synthesize searchSuggestionsTitle=_searchSuggestionsTitle;

@@ -28,7 +28,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)file upload in shared container. FR [%{public}ld], FB [%{public}ld];
 - (id);
 - (id);
 - (id);
@@ -79,16 +79,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
 - (id);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
 - (id);
 - (id);
+- (unsigned long long)c}@] FR [%i];
 
 // Remaining properties
 @property(readonly) NSNumber *ID;

@@ -8,9 +8,9 @@
 {
 }
 
-- (void)m;
 - (void);
-- (void)error:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 
 @end

@@ -27,14 +27,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)HKWorkout";
-- (void)nsferred because the content is restricted. For example, sometimes there are legal restrictions due to copyright claims.;
-- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)Ô;
+- (void)imageUrl;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

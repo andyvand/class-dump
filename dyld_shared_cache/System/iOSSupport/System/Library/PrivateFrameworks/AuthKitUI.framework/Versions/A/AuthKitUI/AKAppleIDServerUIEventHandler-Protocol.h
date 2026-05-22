@@ -5,6 +5,5 @@
 //
 
 @protocol AKAppleIDServerUIEventHandler
-- (void)�;
 @end
 

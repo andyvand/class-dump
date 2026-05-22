@@ -13,24 +13,23 @@ __attribute__((visibility("hidden")))
     struct CGRect _bounds;
 }
 
-+ (id)awValue;
-- (_Bool);
-- (struct UIEdgeInsets);
-- (struct CGRect);
-- (double);
-- (_Bool);
-- (_Bool)ssVocalAttenuationDenoising;
-- (long long)QÊÐ1¢!0@ù
-× ;
-- (id)ù
-× ;
-- (id)T@ù±Í°1¢!0@ù
-× ;
-- (id)@"_UIStatusBarDataThermalEntry";
-- (id)oxyKeyboardChanged:(id)arg1 onCompletion:(id)arg2 ]  Signaling keyboard changed %@;
++ (id);
+- (id);
 - (long long);
-- (long long)nBarTitleDisplayLayer;
-- (id)ðÞþ@v4;
+- (id);
+- (struct UIEdgeInsets)0@ù
+× ;
+- (_Bool)@ù
+× ;
+- (struct CGRect);
+- (long long)iguration;
+- (long long)essibilityTextualContextBlock;
+- (_Bool)sWithPersistentIdentifiers:skippingPersistenceDeletion: /* Error: Ran out of types for this method. */;
+- (double)on;
+- (id)rixWhite;
+- (_Bool);
+- (id);
+- (id)H^;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _hasContentGravity;

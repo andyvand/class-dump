@@ -37,10 +37,11 @@
 - (id);
 - (struct PXSimpleIndexPath);
 - (id);
-- (void);
 - (id);
+- (long long)0@ù
+× ;
 - (long long);
-- (long long)@"PHMomentShare"16;
+- (void)i_ÆÍP;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *assetCollectionBySection; // @synthesize assetCollectionBySection=_assetCollectionBySection;

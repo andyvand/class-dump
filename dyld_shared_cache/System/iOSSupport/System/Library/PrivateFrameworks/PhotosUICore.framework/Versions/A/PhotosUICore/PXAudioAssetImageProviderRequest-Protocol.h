@@ -8,10 +8,8 @@
 @protocol PXDisplayAsset;
 
 @protocol PXAudioAssetImageProviderRequest
-- (PXImageRequestOptions *)0G;
-- (id <PXDisplayAsset>)onfiguration:resultHandler: /* Error: Ran out of types for this method. */;
-- (long long)ListCustomizeActionTitle;
-- (struct CGSize)ound, expected one.;
+- (id <PXDisplayAsset>)Qo_G_Qo_ËºG_SiQo__SiQo__SiQo__2»åSgQo_GA2_G_AIyAKGtGGG_»åyA15__Qo_Qo_G;
+- (void (^)(UIImage *, NSDictionary *))ra Large;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset;

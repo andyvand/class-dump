@@ -32,10 +32,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)026BB765291;
-- (id)gÙÿ;
-- (id)÷ÿ<a¡Y;
+- (id);
+- (void)´<d¸ !!À!;
+- (id)tingEnabled:completionHandler:] /* Error: Ran out of types for this method. */;
+- (id)%@>;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak HMHomeManager *homeManager; // @synthesize homeManager=_homeManager;

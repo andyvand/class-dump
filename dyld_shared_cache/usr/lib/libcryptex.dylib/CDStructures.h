@@ -4,3 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#pragma mark Blocks
+
+typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
+
+#pragma mark Named Structures
+
+struct _img4_chip_instance {
+    unsigned short _field1;
+    struct _img4_chip *_field2;
+    unsigned long long _field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    unsigned int _field6;
+    unsigned int _field7;
+    unsigned long long _field8;
+    _Bool _field9;
+    _Bool _field10;
+    _Bool _field11;
+    _Bool _field12;
+    _Bool _field13;
+    _Bool _field14;
+    _Bool _field15;
+    unsigned int _field16;
+    _Bool _field17;
+    struct _img4_dgst {
+        unsigned short _field1;
+        unsigned long long _field2;
+        unsigned char _field3[48];
+    } _field18;
+    unsigned int _field19;
+    unsigned int _field20;
+    unsigned int _field21;
+    unsigned int _field22;
+};
+
+struct _img4_nonce {
+    unsigned short _field1;
+    unsigned char _field2[48];
+    unsigned int _field3;
+};
+

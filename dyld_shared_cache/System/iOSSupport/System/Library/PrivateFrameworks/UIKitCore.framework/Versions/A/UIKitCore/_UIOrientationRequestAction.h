@@ -9,13 +9,13 @@
 }
 
 - (unsigned long long);
-- (id);
-- (id)T;
 - (id);
 - (id);
 - (id);
-- (unsigned long long)ismissalCompletionHandlers;
-- (long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (long long)À;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long policy;

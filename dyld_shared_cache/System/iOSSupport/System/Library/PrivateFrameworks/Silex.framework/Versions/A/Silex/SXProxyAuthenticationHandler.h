@@ -18,8 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)zeClass;
+- (void)1Â0@ù
+× ;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXProxyAuthenticationCredentialFactory> credentialFactory; // @synthesize credentialFactory=_credentialFactory;

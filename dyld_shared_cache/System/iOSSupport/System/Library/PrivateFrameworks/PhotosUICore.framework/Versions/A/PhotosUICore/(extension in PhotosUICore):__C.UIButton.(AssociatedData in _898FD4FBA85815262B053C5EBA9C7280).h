@@ -12,8 +12,8 @@
     MISSING_TYPE *badgeView;
 }
 
-- (void);
 - (id);
+- (void), ÿ;
 
 @end
 

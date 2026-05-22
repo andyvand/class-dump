@@ -4,7 +4,7 @@
 
 class TileDecoder_Zip {
 public: // (access info unavailable from symbols alone)
-    GetCompressionMethod() const;
-    GetMinimumTileBytes() const;
+    auto GetCompressionMethod() const;
+    auto GetMinimumTileBytes() const;
     ~TileDecoder_Zip();
 };

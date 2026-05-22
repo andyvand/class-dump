@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIRepeatedAction;
-
 @protocol UIRepeatedActionDelegate
-- (_Bool)n to %s:(UIRepeatedAction *)arg1 %d
-;
-- (_Bool)aMemoryMultiCommitPatch;
-- (id);
 @end
 

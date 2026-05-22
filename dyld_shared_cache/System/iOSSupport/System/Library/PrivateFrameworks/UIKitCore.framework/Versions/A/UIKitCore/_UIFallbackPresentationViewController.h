@@ -23,16 +23,16 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (_Bool);
-- (void)atchCount:(_Bool)arg1;
-- (void)er",R,N;
-- (void)ithSSM;
-- (void);
-- (id)size %lu;
-- (void)did not impact grace period. isFromMe:(_Bool)arg1 %ld, didNotify:%ld /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool)rs;
-- (void)ffectStyleSeparator;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void)rchControllerWantsDefaultNavigationBarHidingBehavior;
+- (void)(³\;
 
 // Remaining properties
 @property(nonatomic) _Bool hasDismissCompletionHandler; // @synthesize hasDismissCompletionHandler=_hasDismissCompletionHandler;

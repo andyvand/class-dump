@@ -5,5 +5,6 @@
 //
 
 @protocol NSFastEnumeration
+- (unsigned long long)store coordinator for posterUUID '%@':(CDStruct_70511ce9 *)arg1 %{public}@;
 @end
 

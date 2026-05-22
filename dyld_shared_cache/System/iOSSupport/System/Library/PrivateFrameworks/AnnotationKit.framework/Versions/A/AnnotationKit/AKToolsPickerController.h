@@ -13,14 +13,14 @@
     UIViewController *_toolsListController;
 }
 
-- (id)@H;
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)ullscreen: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)neWidth;
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;

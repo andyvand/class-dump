@@ -29,9 +29,9 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)40@0:8@"HUNamedWallpaperCollectionViewController"16@"HFWallpaper"24@"UIImage"32 /* Error: Ran out of types for this method. */;
-- (void)onHandler:(id)arg1;
+- (void)ave iconView:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HFCharacteristicStateItemProvider *characteristicStateItemProvider; // @synthesize characteristicStateItemProvider=_characteristicStateItemProvider;

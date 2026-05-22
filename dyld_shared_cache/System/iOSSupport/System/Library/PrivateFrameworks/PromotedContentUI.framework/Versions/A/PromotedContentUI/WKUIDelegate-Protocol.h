@@ -4,19 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController, WKWebView;
-
 @protocol WKUIDelegate
-
-@optional
-- (void)_isBelowAllDayOccurrenceView:(WKWebView *)arg1;
-- (void)ing;
-- (_Bool)Row:(WKWebView *)arg1;
-- (UIViewController *)overlapToIgnore:(WKWebView *)arg1;
-- (void);
-- (void)eeStringForResult:(WKWebView *)arg1;
-- (void)nUpdatedTitleLocalizedString;
-- (void)ection;
-- (void);
 @end
 

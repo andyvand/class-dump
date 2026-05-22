@@ -11,8 +11,8 @@
     MISSING_TYPE *associatedPhotoKitContainer;
 }
 
-- (void);
 - (id);
+- (void)s;
 
 @end
 

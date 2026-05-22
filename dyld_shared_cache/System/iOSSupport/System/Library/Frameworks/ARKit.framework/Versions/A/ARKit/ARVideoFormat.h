@@ -24,10 +24,10 @@
 - (struct CGSize);
 - (_Bool);
 - (long long);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long captureDevicePosition; // @synthesize captureDevicePosition=_captureDevicePosition;

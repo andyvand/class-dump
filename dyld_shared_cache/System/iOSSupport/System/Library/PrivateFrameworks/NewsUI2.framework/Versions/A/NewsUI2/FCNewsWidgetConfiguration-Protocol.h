@@ -7,21 +7,16 @@
 @class NSString;
 
 @protocol FCNewsWidgetConfiguration
-- (NSString *)wLayoutAttributesFactoryType;
 
 @optional
-- (_Bool)�R8	9;
-- (_Bool);
+- (long long)Y5^®©þI5^Èw¥þ95^H®©þ;
 - (long long);
-- (long long)4Æ?ÿ;
-- (long long)D(;ÿ ;
-- (long long)p!ÿÿÿÿÿ;
-- (long long),Ôþáñÿáñ .¼þáñ¬È»þ;
-- (double)Ð;
-- (long long)r;
-- (long long)M|qÔþqMäqÔþMrÔþMÀrÔþqMÔsÔþAMpuÔþMuÔþqMÔvÔþMdxÔþqM@yÔþ!M<yÔþ	M8yÔþiM;
-- (long long)NÏþ}NÏþmL¾þ;
-- (long long);
+- (long long)¬4;
+- (long long)ÿÿÿÿ;
+- (long long)b0öþ;
+- (_Bool);
+- (long long)e¨d`Êþ;
+- (long long)rovider;
 
 // Remaining properties
 @property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;

@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)i_isSafariSpecificURL;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WBSTouchIconObserver> touchIconObserver;

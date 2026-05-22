@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *underlyingData;

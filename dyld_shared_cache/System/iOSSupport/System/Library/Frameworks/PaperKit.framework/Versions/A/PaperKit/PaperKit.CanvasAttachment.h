@@ -12,11 +12,11 @@
 
 - (void);
 - (const struct CGPath *);
-- (_Bool);
-- (void);
 - (id);
 - (long long);
+- (_Bool);
 - (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) const struct CGPath *boundingPath; // @synthesize boundingPath;

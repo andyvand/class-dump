@@ -12,9 +12,9 @@
 + (id);
 + (_Bool);
 + (_Bool);
-- (void)ing service for %@;
-- (unsigned long long)TMergeableAttributedString"40@?0@"ICTTMergeableAttributedString"8Q16Q24^B32;
-- (void);
+- (void);
+- (unsigned long long);
+- (void);
 - (id);
 
 // Remaining properties

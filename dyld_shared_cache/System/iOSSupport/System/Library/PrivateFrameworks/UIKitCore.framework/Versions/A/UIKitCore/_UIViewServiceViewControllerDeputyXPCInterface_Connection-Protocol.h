@@ -5,6 +5,5 @@
 //
 
 @protocol _UIViewServiceViewControllerDeputyXPCInterface_Connection
-- (void)thResult:(id)arg1 limit:(void (^)(id))arg2;
 @end
 

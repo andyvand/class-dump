@@ -7,10 +7,6 @@
 @class NSRegularExpression, UIFont;
 
 @protocol LPTextStyleable
-- (UIFont *);
-
-@optional
-- (UIFont *)Q;
 
 // Remaining properties
 @property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression;

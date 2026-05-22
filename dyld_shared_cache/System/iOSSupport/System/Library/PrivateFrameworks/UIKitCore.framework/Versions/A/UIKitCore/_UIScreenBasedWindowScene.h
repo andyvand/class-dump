@@ -21,48 +21,48 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_autoInvalidationPreventionAssertions;
 }
 
-+ (_Bool)utes;
-+ (_Bool)@ù
++ (_Bool)
 × ;
-+ (id)isualStyle;
-+ (id)en: /* Error: Ran out of types for this method. */;
-+ (_Bool)ategoryUpdateDelegate>",W,N,VemojiKeyManager;
-+ (id)ple.menu.window;
-- (void);
-- (id);
++ (id)te;
++ (_Bool);
++ (id);
++ (_Bool);
++ (id)°ÿÿ;
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id)uplicate compression id;
-- (void);
 - (id);
 - (id);
-- (void)ePrepared;
-- (void)MAPPING_MISSING__;
-- (_Bool)CloudVersionHash__MAPPING_MISSING__;
-- (_Bool)atus;
 - (void);
-- (void);
-- (void);
-- (void)!0@ù
-× ;
-- (void)¢!0@ù
-× ;
-- (id)
-× ;
 - (id);
-- (void)1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool)0@ù
 × ;
-- (struct CGRect)FittingBottomConstraint:(long long)arg1;
-- (void)Td,N,V_translationScaleFactor;
-- (id)L;
-- (id)al UI Debugging preference with a threshold of %ld. Use -%s <threshold> as a launch argument if you want a different threshold. The threshold will be clamped between %ld and %ld.;
-- (void)uring:(id)arg1 %@;
-- (id)capacity:%ld; minimum row height:%g; table view width:%g; table header height:%g; table footer height:%g; table top padding:%g; table bottom padding:%g; reordered index path:%@; dragged index path:%@; gap row height:%g; dragged row height:%g; section data:%@ /* Error: Ran out of types for this method. */;
-- (void)stChange;
-- (struct CGRect)CollectionViewLayoutAttributes:-setFrame:requires finite dimensions. Attributes:%@; new frame:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)PrivatePressGestureRecognizerDelegate;
+- (struct CGRect)0@ù
+× ;
+- (id)ùq^°1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (void)out:(_Bool)arg1;
+- (id)oWindow:(id)arg1;
+- (void)s;
+- (_Bool)ransitionsToTabBar;
+- (void)Boundary;
+- (void)upted:(id)arg1 ,V__transitionInterrupted;
+- (struct CGRect)abel",&,N,V_accessoryLabel;
+- (id)=X>;
+- (void);
+- (void)nsform;
+- (id)Ø^;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_autoInvalidationPreventionAssertions) NSMutableSet *_autoInvalidationPreventionAssertions; // @synthesize _autoInvalidationPreventionAssertions;

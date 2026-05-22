@@ -17,21 +17,21 @@
 
 + (id);
 + (_Bool);
-+ (_Bool)llection: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (long long)sible;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *currentStateMetadata; // @synthesize currentStateMetadata=_currentStateMetadata;

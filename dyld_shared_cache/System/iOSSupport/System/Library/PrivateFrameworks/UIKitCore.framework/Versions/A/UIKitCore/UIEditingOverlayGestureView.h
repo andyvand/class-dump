@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UIWindow *_previousWindow;
 }
 
-- (void);
-- (void)1¢!0@ù
+- (void);
+- (id);
+- (id)á	!$Gù1fÐ1Â0@ù
 × ;
-- (id)ICollectionPreferredSizes"48;
-- (int)initWithHighlight: /* Error: Ran out of types for this method. */;
-- (id)mandInputForCancelAction;
-- (void)ctEdge _edgeForScrollAccessoryEdge(UIScrollAccessoryEdge, BOOL);
-- (id)session:(id)arg1 %@; destination controller session state:%@ /* Error: Ran out of types for this method. */;
+- (int)tate;
+- (void);
+- (void)`Éÿ;
+- (id)°ÿÙäèi;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

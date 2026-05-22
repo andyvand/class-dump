@@ -25,17 +25,17 @@ __attribute__((visibility("hidden")))
     long long _HLSContentPolicy;
 }
 
-- (void);
 - (void);
-- (void);
-- (void)ntModified;
-- (void)countModified;
-- (void)evel changed, signaling primaryAccountModified;
-- (void)tion.;
-- (void)osted SPAccountRemovedNotification.;
-- (void)to %@;
-- (void)@?0B8;
-- (id)acy;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -51,13 +51,13 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (long long);
+- (id);
+- (void);
+- (void);
+- (id);
 - (long long);
-- (void);
-- (void)p;
-- (void);
 - (id);
-- (id);
-- (id);
+- (void){public}@ %{public}@;
 
 // Remaining properties
 @property(nonatomic) long long HLSContentPolicy; // @synthesize HLSContentPolicy=_HLSContentPolicy;

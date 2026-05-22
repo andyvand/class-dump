@@ -22,8 +22,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)Ô;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *wallpaperFolderURL; // @synthesize wallpaperFolderURL=_wallpaperFolderURL;

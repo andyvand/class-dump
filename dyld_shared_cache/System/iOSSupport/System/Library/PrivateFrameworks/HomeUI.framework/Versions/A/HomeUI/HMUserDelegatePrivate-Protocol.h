@@ -5,5 +5,8 @@
 //
 
 @protocol HMUserDelegatePrivate
+
+@optional
+- (void);
 @end
 

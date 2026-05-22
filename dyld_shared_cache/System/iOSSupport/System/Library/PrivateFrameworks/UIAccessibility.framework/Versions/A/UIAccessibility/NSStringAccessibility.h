@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
-+ (Class)ResolvePeerNamed:errorCode:] /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

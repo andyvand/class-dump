@@ -11,17 +11,21 @@
     NSArray *_scheduleRules;
 }
 
-+ (id)dictionType: /* Error: Ran out of types for this method. */;
-+ (id),°ôd;
-+ (_Bool)_HMTelevisionProfileC;
++ (id);
++ (_Bool);
++ (id)ntDateKey;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)Date;
-- (id)payload string:%@ /* Error: Ran out of types for this method. */;
+- (void)ngValueEvent;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

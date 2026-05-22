@@ -15,18 +15,18 @@
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
+- (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long)%{public}@:%p> bailing on initial update to client %{public}@; data was up-to-date /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long changed; // @synthesize changed=_changed;

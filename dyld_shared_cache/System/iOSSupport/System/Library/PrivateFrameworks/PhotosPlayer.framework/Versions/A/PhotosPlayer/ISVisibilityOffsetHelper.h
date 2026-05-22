@@ -27,44 +27,11 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
-- (void).0/255.0); 
-								
-								mainval = vec3 (20.0/255.0, -10.0/255.0, -70.0/255.0); 
-									lowval = vec3 (1.0/255.0, -5.0/255.0, -40.0/255.0); 
-										
-										w1 = vec3 (w); 
-											w2 = max((w1 + (w - v1)*mainval/.15686), 0.0); 
-												w3 = max(w + mainval, 0.0); 
-													w4 = vec3 (0.0496198, 1.2501, 2.5) * w + vec3 (0.823857, -0.23538, - 1.5104); 
-														w5 = w + lowval; 
-															
-															return (w1 
-																	+ (w2 - w1) * step(v1, vec3 (w)) 
-																	+ (w3 - w2) * step(v2, vec3 (w)) 
-																	+ (w4 - w3) * step(v3, vec3 (w)) 
-																	+ (w5 - w4) * step(v4, vec3 (w))); 
-} 
-
-kernel vec4 recalibrate (sampler src, float t)  __attribute__ ((preserves_opacity))    
-{ 
-    vec4 s, u;  
-		float lum; 
-			
-			s = sample (src, samplerCoord (src)); 
-				u.rgb =  sqrt(max(s.rgb, vec3(0.0))); 
-					lum = dot (vec3 (0.2988,.5869,.114), u.rgb);  
-						
-						u.rgb = rampSepiaRGB (lum); 
-							u.rgb = u.rgb * u.rgb; 
-								u.a = s.a; 
-									
-									return mix (s, clamp (u, 0.0, 1.0), t); 
-} 
-;
-- (id);
-- (double);
 - (long long);
+- (double);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setScrollView:) UIScrollView *_scrollView; // @synthesize _scrollView=__scrollView;

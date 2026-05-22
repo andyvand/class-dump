@@ -12,9 +12,9 @@
     MISSING_TYPE *bannerState;
 }
 
-- (void);
-- (id)-;
 - (id);
+- (id);
+- (void)ismiss;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *identifier;

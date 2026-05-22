@@ -5,6 +5,5 @@
 //
 
 @protocol SMSessionManagerMonitorProtocol
-- (void)h;
 @end
 

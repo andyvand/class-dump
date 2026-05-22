@@ -4,12 +4,12 @@
 
 class std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>> {
 public: // (access info unavailable from symbols alone)
-    _M_insert<false>(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::ios_base&, wchar_t, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
-    _M_insert<true>(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::ios_base&, wchar_t, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
-    do_put(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, wchar_t, long double) const;
-    do_put(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, wchar_t, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
+    auto do_put(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, wchar_t, long double) const;
+    auto do_put(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, wchar_t, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
+    auto put(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, wchar_t, long double) const;
+    auto put(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, wchar_t, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
     money_put(unsigned long);
-    put(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, wchar_t, long double) const;
-    put(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, wchar_t, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
+    std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>> _M_insert<false>(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::ios_base&, wchar_t, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
+    std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>> _M_insert<true>(std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::ios_base&, wchar_t, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&) const;
     ~money_put();
 };

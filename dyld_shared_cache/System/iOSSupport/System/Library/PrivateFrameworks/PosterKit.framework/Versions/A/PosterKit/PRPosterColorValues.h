@@ -14,22 +14,22 @@
     double _alpha;
 }
 
+- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (unsigned long long);
+- (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (double);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 
 // Remaining properties

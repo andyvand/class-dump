@@ -5,6 +5,5 @@
 //
 
 @protocol SWSetupManager
-- (void);
 @end
 

@@ -32,11 +32,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (void)¿Ð!Fù	°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *changeType; // @synthesize changeType=_changeType;

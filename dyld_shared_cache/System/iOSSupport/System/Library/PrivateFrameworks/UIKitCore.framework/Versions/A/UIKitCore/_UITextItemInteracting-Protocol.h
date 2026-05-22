@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UITextInteractableItem, _UITextInteractableItemCache;
+@class _UITextInteractableItemCache;
 
 @protocol _UITextItemInteracting
-- (void)#;
-- (_UITextInteractableItem *);
-- (_UITextInteractableItem *)ToAdd:(struct CGPoint)arg1;
-- (_Bool)teToDownloading;
-
-@optional
-- (_Bool)reMessageForItem: /* Error: Ran out of types for this method. */;
-- (_Bool)handleCrossServiceAssociationCommandWithPipeline:(_UITextInteractableItem *)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _UITextInteractableItemCache *_textInteractableItemCache;

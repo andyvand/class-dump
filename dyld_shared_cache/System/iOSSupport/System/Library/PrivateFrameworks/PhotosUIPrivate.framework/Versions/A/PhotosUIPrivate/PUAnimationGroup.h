@@ -25,17 +25,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (void);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (double)Rå;
-- (void)J;
+- (void)TransitionFromLayout:toLayout: /* Error: Ran out of types for this method. */;
+- (void)playOptionsInPopover;
+- (double)otificationName;
+- (_Bool)<D;
+- (void)ä×ëÿ%jà;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

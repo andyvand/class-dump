@@ -24,13 +24,13 @@
 - (void);
 - (void);
 - (void);
-- (id)meters;
-- (void)ociatedAccessoryUniqueIdentifiersCount;
-- (id)store;
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)ersWithSameType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *lastSectionContentItemID; // @synthesize lastSectionContentItemID=_lastSectionContentItemID;

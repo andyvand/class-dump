@@ -21,16 +21,16 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (_Bool)k is ultra constrained;
-- (id)e;
+- (_Bool);
+- (id);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
-- (void)
-× ;
-- (_Bool)mCollection:(struct CGPoint)arg1;
-- (void)ü@.XqÇ¸V.°qÇ<l.XrÇDÒ.´rÇXï/àrÇ$0(sÇÈ0hsÇÐ0tsÇT0sÇ0¤sÇt0ÔsÇ'08uÇèK0PuÇ¨Ø0¨uÇ¼1ÀuÇT1àuÇ 1ôuÇ1vÇ$A1ÈvÇi1wÇh10wÇT1\wÇLØ1<xÇ¼2`xÇH2ìxÇ(¶2;
-- (void)n;
+- (void);
+- (void);
+- (_Bool)Ì}þÿ;
+- (_Bool)group=%p groupSizingGuide=%p
+;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool animating; // @synthesize animating=m_animating;

@@ -40,8 +40,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)éJÉÀÕWÿÙJÉ`ÖWÿ;
 
 @end
 

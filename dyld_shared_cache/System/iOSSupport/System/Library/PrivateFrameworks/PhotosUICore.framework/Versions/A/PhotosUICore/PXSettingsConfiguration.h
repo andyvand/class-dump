@@ -15,18 +15,18 @@
 
 + (id);
 + (id);
-+ (_Bool)OÐ5;
++ (_Bool)itleLabel;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)pringStiffness;
+- (id)d);
+- (void)·`í/ÇX´;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *archive; // @synthesize archive=_archive;

@@ -19,6 +19,7 @@
     Class _barItemProviderClass;
     NSArray *_photoLibraries;
     PXProgrammaticNavigationDestination *_openInPhotosAppButtonNavigationDestination;
+    CDUnknownBlockType _openInPhotosAppButtonWillPerformActionHandler;
 }
 
 - (id);
@@ -30,9 +31,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (id);
@@ -41,16 +44,19 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (void);
-- (id);
-- (id)¢Õüÿ<üÿ;
+- (id)üÐ!CùJÐ1â
+0@ù
+× ;
+- (id)ibrary;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysIncludeSharedWithYouAssets; // @synthesize alwaysIncludeSharedWithYouAssets=_alwaysIncludeSharedWithYouAssets;
 @property(retain, nonatomic) Class barItemProviderClass; // @synthesize barItemProviderClass=_barItemProviderClass;
 @property(nonatomic) _Bool hidesViewOptionsToolbar; // @synthesize hidesViewOptionsToolbar=_hidesViewOptionsToolbar;
 @property(retain, nonatomic) PXProgrammaticNavigationDestination *openInPhotosAppButtonNavigationDestination; // @synthesize openInPhotosAppButtonNavigationDestination=_openInPhotosAppButtonNavigationDestination;
+@property(copy, nonatomic) CDUnknownBlockType openInPhotosAppButtonWillPerformActionHandler; // @synthesize openInPhotosAppButtonWillPerformActionHandler=_openInPhotosAppButtonWillPerformActionHandler;
 @property(retain, nonatomic) NSArray *photoLibraries; // @synthesize photoLibraries=_photoLibraries;
 @property(nonatomic) __weak id <PXPhotosAppSpecificGridDelegate> photosAppGridDelegate; // @synthesize photosAppGridDelegate=_photosAppGridDelegate;
 @property(retain, nonatomic) PXContentPrivacyController *privacyController; // @synthesize privacyController=_privacyController;

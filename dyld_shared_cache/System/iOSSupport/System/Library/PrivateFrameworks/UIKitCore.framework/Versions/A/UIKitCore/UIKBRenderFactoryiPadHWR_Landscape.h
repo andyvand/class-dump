@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint)r:conversation:updatedMessagesGroupPhoto: /* Error: Ran out of types for this method. */;
-- (double)SharingChangedForParticipant: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (double);
 - (id);
 - (double);
 - (struct CGPoint);
 - (double);
-- (double)to get guidString from PersistedCollaborationNotice, %@;
 - (double);
-- (double)t;
+- (double);
+- (double);
 - (double);
 - (double);
 

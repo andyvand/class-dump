@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol DEDDeviceLike
-- (NSString *)GANGA4_GAKGtGG;
-- (NSString *){public}@];
+- (void);
+- (NSString *)chmentsSectionTypeDeferred;
 @end
 

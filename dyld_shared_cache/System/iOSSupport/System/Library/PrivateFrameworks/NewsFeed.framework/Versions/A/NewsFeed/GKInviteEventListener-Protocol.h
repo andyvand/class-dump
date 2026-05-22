@@ -5,8 +5,5 @@
 //
 
 @protocol GKInviteEventListener
-
-@optional
-- (void);
 @end
 

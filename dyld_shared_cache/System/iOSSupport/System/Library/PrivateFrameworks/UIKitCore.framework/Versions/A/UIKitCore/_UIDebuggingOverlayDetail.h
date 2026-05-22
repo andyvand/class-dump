@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     long long _accessoryType;
 }
 
-+ (id)Found the AppleID account;
-- (void)yWithBlastDoorMessage:(id)arg1;
-- (void)t->seek && "NULL seek callback";
-- (id);
-- (void);
++ (id);
 - (void);
 - (id);
-- (long long)entifier: /* Error: Ran out of types for this method. */;
-- (id)onContext;
-- (void)onType;
-- (id)PR71;
+- (long long);
+- (void);
+- (void);
+- (void):(id)arg1 continuous:mask: /* Error: Ran out of types for this method. */;
+- (id)enuInteraction;
+- (id)<Point id="bottomLeft" x="%g" y="%g"/><Point id="topLeft" x="%g" y="%g"/><Point id="topRight" x="%g" y="%g"/><Point id="bottomRight" x="%g" y="%g"/></Rectangle>;
+- (id)ollerDetent"8Q16^B24;
+- (void)Â\;
 
 // Remaining properties
 @property(nonatomic) long long accessoryType; // @synthesize accessoryType=_accessoryType;

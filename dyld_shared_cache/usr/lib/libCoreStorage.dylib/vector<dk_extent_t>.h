@@ -4,7 +4,7 @@
 
 class vector<dk_extent_t> {
 public: // (access info unavailable from symbols alone)
-    push_back(dk_extent_t const&);
-    reserve(unsigned long);
+    auto push_back(dk_extent_t const&);
+    auto reserve(unsigned long);
     ~vector();
 };

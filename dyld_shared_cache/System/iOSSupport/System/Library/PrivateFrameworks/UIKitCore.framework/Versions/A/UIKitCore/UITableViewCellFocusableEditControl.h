@@ -14,21 +14,21 @@ __attribute__((visibility("hidden")))
     _UIFloatingContentView *_focusedFloatingContentView;
 }
 
-- (_Bool)ple.soagent;
-- (void)DAccountC;
 - (_Bool);
-- (void)e timer;
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
+- (_Bool)dColor;
+- (void),>>¤IàIKL0MDPÈQLRðR<STøT;
+- (void)6;
+- (void)h new proxy layers.;
+- (void)Wrapper;
 - (void);
-- (void)_downloadGetDerivativeContainer;
-- (void)8º;
-- (void)ementsFocusItemsInRect;
-- (void)yboardInset;
-- (void)à;
-- (void)handle estimated items so this method does nothing. Are you calling this in error?;
-- (void)JHeight;
-- (_Bool)7d;
+- (void)¸O;
+- (void)Ä*b;
+- (void)©ÝÙÌae;
 
 @end
 

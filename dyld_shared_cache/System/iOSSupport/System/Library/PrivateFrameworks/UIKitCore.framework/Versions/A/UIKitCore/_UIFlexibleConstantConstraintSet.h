@@ -20,19 +20,19 @@ __attribute__((visibility("hidden")))
     double _equalityConstant;
 }
 
-+ (id)improve the feature, review the message in the Spam folder and if it was not spam, click Recover and send a report to Apple;
-+ (id)emonCore25IMSpamFilterHelperWrapper;
++ (id);
++ (id);
 - (void);
 - (double);
 - (double);
 - (double);
-- (void)etChat: /* Error: Ran out of types for this method. */;
-- (id)KVStore;
+- (void);
 - (id);
-- (id)=;
+- (id);
+- (id);
 - (_Bool);
-- (void)ate record without a salt;
-- (void)the required entitlement.;
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     UIMorphingLabelImage *_image;
 }
 
-- (id);
 - (void);
-- (void)1¢!0@ù
+- (id)ù]1Â0@ù
 × ;
-- (id);
+- (id)T@"NSMutableArray",&,N,V_interpolatedPoints;
+- (void)D{õþu°;
 
 // Remaining properties
 @property(retain, nonatomic) UIMorphingLabelImage *image; // @synthesize image=_image;

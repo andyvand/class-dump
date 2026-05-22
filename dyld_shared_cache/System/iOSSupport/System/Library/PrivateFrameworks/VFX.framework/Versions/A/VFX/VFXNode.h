@@ -73,8 +73,8 @@
 + (MISSING_TYPE *);
 + (id);
 + (id);
-+ (id)Ì Û;
-+ (_Bool)6?°A;
++ (_Bool);
++ (id);
 
 // Remaining properties
 @property(readonly) NSArray *animationKeys;

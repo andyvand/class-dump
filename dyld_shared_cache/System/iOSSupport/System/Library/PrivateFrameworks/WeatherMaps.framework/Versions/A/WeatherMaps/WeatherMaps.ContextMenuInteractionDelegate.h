@@ -12,14 +12,14 @@
     MISSING_TYPE *location;
 }
 
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)imationDelegate_p;
+- (void)ÿVìÿ;
+- (id)ÿOÿÿ;
 
 @end
 

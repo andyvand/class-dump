@@ -4,10 +4,10 @@
 
 class std::__1::__tree<TSUFlushableObjectInfo*, TSUFlushableObjectInfoPointerTimeStampLess, std::__1::allocator<TSUFlushableObjectInfo*>> {
 public: // (access info unavailable from symbols alone)
-    __emplace_unique_key_args<TSUFlushableObjectInfo*, TSUFlushableObjectInfo* const&>(TSUFlushableObjectInfo* const&, TSUFlushableObjectInfo* const&);
-    __erase_unique<TSUFlushableObjectInfo*>(TSUFlushableObjectInfo* const&);
-    __insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*);
-    __remove_node_pointer(std::__1::__tree_node<TSUFlushableObjectInfo*, void*>*);
-    destroy(std::__1::__tree_node<TSUFlushableObjectInfo*, void*>*);
-    find<TSUFlushableObjectInfo*>(TSUFlushableObjectInfo* const&);
+    auto __insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*);
+    auto __remove_node_pointer(std::__1::__tree_node<TSUFlushableObjectInfo*, void*>*);
+    auto destroy(std::__1::__tree_node<TSUFlushableObjectInfo*, void*>*);
+    std::__1::__tree_iterator<TSUFlushableObjectInfo*, std::__1::__tree_node<TSUFlushableObjectInfo*, void*>*, long> find<TSUFlushableObjectInfo*>(TSUFlushableObjectInfo* const&);
+    std::__1::pair<std::__1::__tree_iterator<TSUFlushableObjectInfo*, std::__1::__tree_node<TSUFlushableObjectInfo*, void*>*, long>, bool> __emplace_unique_key_args<TSUFlushableObjectInfo*, TSUFlushableObjectInfo* const&>(TSUFlushableObjectInfo* const&, TSUFlushableObjectInfo* const&);
+    unsigned long __erase_unique<TSUFlushableObjectInfo*>(TSUFlushableObjectInfo* const&);
 };

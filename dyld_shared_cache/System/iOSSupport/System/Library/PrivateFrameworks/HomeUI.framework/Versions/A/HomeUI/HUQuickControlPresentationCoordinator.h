@@ -201,28 +201,31 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (double);
 - (void);
-- (id);
-- (id);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
 - (void);
-- (id)kerViewController"16@"HFWallpaper"24@"UIImage"32;
-- (void)pinnerBottomConstraint;
-- (id);
-- (void)Objects;
-- (_Bool)USiriSectionFooter_PersonalContent_UnknownDevice;
-- (void)itRoomRemoveSectionIdentifier;
-- (_Bool)rsForHome:]_block_invoke /* Error: Ran out of types for this method. */;
-- (id)¹;
-- (_Bool)ÿÏ1ö;
+- (_Bool);
+- (id)ð!ôGùQ1â
+0@ù
+× ;
+- (void)
+× ;
+- (_Bool)me"24;
+- (double)thActionSetBuilder:anonymousActionBuilders:delegate: /* Error: Ran out of types for this method. */;
+- (void)ttings",&,N,V_cameraUserSettings;
+- (id);
+- (id);
+- (_Bool).Banners.SetUp.Lock.FirmwareUpdatePinCode;
+- (void)ge"8;
+- (id);
+- (id)ionController;
 
 // Remaining properties
 @property(readonly, nonatomic) HUPressedItemContext *activePressedItemContext;

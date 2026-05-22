@@ -16,9 +16,9 @@
 - (double);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (void)| returning nil context [no valid station tracks] count=%ld;
+- (void);
+- (void)ic}@> returned with error <%{public}@> in %.4lf seconds;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool remoteSkipInsteadOfNextTrack;

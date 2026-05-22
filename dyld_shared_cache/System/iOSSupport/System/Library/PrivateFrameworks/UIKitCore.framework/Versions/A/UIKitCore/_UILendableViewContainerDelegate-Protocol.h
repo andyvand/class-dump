@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, _UILendableViewContainer;
-
 @protocol _UILendableViewContainerDelegate
-- (void)1¢!0@ù
-× ;
-- (void)nk:(_UILendableViewContainer *)arg1 r:(UIView *)arg2 path:/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/HIToolbox /* Error: Ran out of types for this method. */;
 @end
 

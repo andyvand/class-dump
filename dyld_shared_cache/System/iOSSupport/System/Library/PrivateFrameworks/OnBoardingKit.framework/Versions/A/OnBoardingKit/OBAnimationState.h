@@ -14,7 +14,7 @@
     double _transitionSpeed;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -22,10 +22,10 @@
 - (id);
 - (id);
 - (double);
-- (void)e, WTF:(id)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebKit::NetworkCache::Storage::WriteOperation>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebKit::NetworkCache::Storage::WriteOperation>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
-- (double)C;
+- (void);
+- (double);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *darkName; // @synthesize darkName=_darkName;

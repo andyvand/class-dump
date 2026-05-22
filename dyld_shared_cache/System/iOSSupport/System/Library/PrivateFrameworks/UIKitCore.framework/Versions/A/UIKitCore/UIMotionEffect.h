@@ -8,11 +8,11 @@
 {
 }
 
-- (id);
-- (void);
 - (id);
 - (id);
-- (id)ibutes;
+- (id);
+- (void)erConstraintRightAnchor;
+- (id)action;
 
 @end
 

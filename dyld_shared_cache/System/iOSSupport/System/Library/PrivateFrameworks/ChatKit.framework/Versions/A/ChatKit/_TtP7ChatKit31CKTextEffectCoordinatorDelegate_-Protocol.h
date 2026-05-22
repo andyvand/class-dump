@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol _TtP7ChatKit31CKTextEffectCoordinatorDelegate_
-- (NSArray *)Ö;
-- (void);
-- (void);
 @end
 

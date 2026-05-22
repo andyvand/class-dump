@@ -12,8 +12,8 @@
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool supportsComplicationForegroundModifier; // @synthesize supportsComplicationForegroundModifier=_supportsComplicationForegroundModifier;

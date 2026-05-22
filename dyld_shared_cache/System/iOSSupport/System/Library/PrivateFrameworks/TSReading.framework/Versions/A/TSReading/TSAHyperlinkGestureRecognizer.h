@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -35,11 +35,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)<FCJSONEncodableObjectProviding>"16@0:(_Bool)arg1 8;
-- (id)pertySourceAfterChange;
+- (void)ding;
 
 // Remaining properties
 @property(retain, nonatomic) TSWPHyperlinkField *hitField; // @synthesize hitField=_hitField;

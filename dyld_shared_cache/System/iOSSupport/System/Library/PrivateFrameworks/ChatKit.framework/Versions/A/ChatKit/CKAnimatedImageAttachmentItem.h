@@ -15,20 +15,20 @@ __attribute__((visibility("hidden")))
     struct CGSize _imageSize;
 }
 
-+ (_Bool)@9;
++ (_Bool);
 + (id);
-- (id)G;
-- (void)nt {note:(id)arg1 %@};
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (struct CGSize);
-- (struct CGSize)ay:NO because view has no media object at all. /* Error: Ran out of types for this method. */;
+- (struct CGSize)$Ý´ÿ;
+- (void);
+- (void)¬äÂÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *animatedPreviewURL; // @synthesize animatedPreviewURL=_animatedPreviewURL;

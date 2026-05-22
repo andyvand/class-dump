@@ -31,7 +31,7 @@
 }
 
 + (id);
-+ (_Bool)dexPath: /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 @end
 

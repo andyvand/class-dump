@@ -7,6 +7,6 @@
 @protocol INCExtensionProxy
 
 @optional
-- (void)izedLanguageDisplayNamesToLocaleIdentifiers;
+- (void)øz;
 @end
 

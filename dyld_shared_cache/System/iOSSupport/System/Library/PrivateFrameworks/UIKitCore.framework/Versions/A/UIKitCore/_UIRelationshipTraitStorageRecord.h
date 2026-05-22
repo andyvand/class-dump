@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void);
-- (id)iew;
-- (id)|wÿ;
+- (id);
+- (void)setShowsCancelButton:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (void)Pî®þ23ä+¯þ23rþ23à+¯þ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *addedObjects; // @synthesize addedObjects=_addedObjects;

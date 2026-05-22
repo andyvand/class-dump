@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id)mmandEvent;
-- (void);
+- (id);
+- (id);
 - (long long);
-- (id)oller;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;

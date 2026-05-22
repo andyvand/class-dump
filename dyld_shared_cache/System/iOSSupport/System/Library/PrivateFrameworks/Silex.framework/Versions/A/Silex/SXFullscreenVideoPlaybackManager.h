@@ -13,8 +13,8 @@
     NSHashTable *_candidates;
 }
 
-- (void);
 - (id);
+- (void)TSDHint>"16@0:8 /* Error: Ran out of types for this method. */;
 
 @end
 

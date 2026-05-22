@@ -10,14 +10,14 @@
 {
 }
 
-- (void)ension;
+- (void);
 - (Class);
 - (id);
 - (id);
-- (void)iMessage chat.;
-- (void)@;
-- (id)play name %@, new group ID %@;
-- (id)deButtonItemTitle: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id)e:forAxis: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,6 +5,5 @@
 //
 
 @protocol WebFormDelegate
-- (void)!;
 @end
 

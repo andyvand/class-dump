@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSUndoManager, TSDCanvasLayer, TSDCanvasView, TSDInteractiveCanvasController, UIViewController;
+@class CALayer, TSDCanvasLayer, TSDCanvasView, TSDInteractiveCanvasController;
 
 @protocol TSDCanvasLayerHosting
-- (void);
-- (NSUndoManager *)@;
-- (_Bool)P;
-
-@optional
-- (UIViewController *)iting;
+- (CALayer *);
 
 // Remaining properties
 @property(readonly, nonatomic) TSDCanvasLayer *canvasLayer;

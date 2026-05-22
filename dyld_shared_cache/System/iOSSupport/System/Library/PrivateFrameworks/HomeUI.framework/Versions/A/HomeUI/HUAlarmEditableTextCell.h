@@ -13,15 +13,15 @@
 }
 
 - (_Bool);
+- (void);
+- (void);
 - (id);
-- (void);
 - (id);
+- (_Bool)t;
+- (long long)leViewController.m;
+- (void)ionDetailsSectionIdentifier;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void)ager:(_Bool)arg1 home: /* Error: Ran out of types for this method. */;
-- (long long)ifier;
+- (void)àã;
 
 // Remaining properties
 @property(nonatomic) long long autocapitalizationType;

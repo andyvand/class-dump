@@ -29,12 +29,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (void)stemImages;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *averageColor; // @synthesize averageColor=_averageColor;

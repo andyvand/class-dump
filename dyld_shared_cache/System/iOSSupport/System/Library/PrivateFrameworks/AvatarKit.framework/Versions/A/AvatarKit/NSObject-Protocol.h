@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, Protocol;
+@class NSString;
 
 @protocol NSObject
-- (unsigned long long);
-- (_Bool)%d;
-- (_Bool)artCamInfo;
-- (id)base;
-- (_Bool)guageOptionWithAVMediaSelectionOption:(Protocol *)arg1;
+- (struct _NSZone *)r:[Cache] Failed to delete %@ with error %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

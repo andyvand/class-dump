@@ -39,7 +39,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)r;
 
 // Remaining properties
 @property(readonly, nonatomic) id <HFCameraClipManager> clipManager; // @synthesize clipManager=_clipManager;

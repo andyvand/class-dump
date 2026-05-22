@@ -46,9 +46,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void)GGGóGG_Qo_YæG»¢GtGGtGGG;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool hasPresentedFullScreenCallUI;

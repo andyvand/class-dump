@@ -19,7 +19,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,9 +32,9 @@
 - (void);
 - (void);
 - (void);
-- (void)or"16;
 - (id);
-- (id)AttributionApplicationBundleIdentifier;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

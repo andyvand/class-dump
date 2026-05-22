@@ -7,16 +7,13 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool);
 - (_Bool);
-- (_Bool)× ;
-- (id)ggableView:dragSessionDidEnd:withOperation: /* Error: Ran out of types for this method. */;
-- (_Bool)ate>",W,N,V_delegate;
-- (id)äÿÿ;
-- (unsigned long long)@;
+- (id)Ð*,;
+- (_Bool)Qo_;
+- (struct _NSZone *);
 
 @optional
-- (NSString *)yload;
+- (NSString *)1ùÿÌ9ùÿTÀùÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

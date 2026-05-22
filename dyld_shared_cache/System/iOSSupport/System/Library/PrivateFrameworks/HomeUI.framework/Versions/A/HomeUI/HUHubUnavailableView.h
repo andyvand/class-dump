@@ -25,11 +25,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)á%!LGù/Ð1b0@ù
-× ;
-- (id)£÷;
-- (id);
+- (id);
+- (void)oke_2;
+- (id)ner_Description_ATVAndHP;
+- (id)¼ <Lÿ)¼ DLÿ¼ ¨Lÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;

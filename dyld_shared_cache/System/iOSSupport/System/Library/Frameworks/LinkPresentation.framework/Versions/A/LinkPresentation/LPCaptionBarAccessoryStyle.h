@@ -12,8 +12,9 @@ __attribute__((visibility("hidden")))
     LPPadding *_margin;
 }
 
-- (void);
 - (id);
+- (void)1Â0@ù
+× ;
 - (id);
 
 // Remaining properties

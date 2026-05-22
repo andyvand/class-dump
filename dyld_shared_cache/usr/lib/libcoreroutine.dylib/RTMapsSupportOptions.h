@@ -14,12 +14,12 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id)eDeliveryHandler:could not find proxy for handler %@ /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
-- (id)InterfaceWithParameters:completionHandler: /* Error: Ran out of types for this method. */;
-- (double)structedLocationType: /* Error: Ran out of types for this method. */;
+- (id)ZoneDeleteBlock:(id)arg1;
+- (id)otification: /* Error: Ran out of types for this method. */;
+- (void)no results returned for fetch of transition destination, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;

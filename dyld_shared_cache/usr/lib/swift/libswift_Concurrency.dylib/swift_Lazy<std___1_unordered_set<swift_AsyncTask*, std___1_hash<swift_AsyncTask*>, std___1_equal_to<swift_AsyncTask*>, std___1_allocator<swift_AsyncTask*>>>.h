@@ -4,5 +4,5 @@
 
 class swift::Lazy<std::__1::unordered_set<swift::AsyncTask*, std::__1::hash<swift::AsyncTask*>, std::__1::equal_to<swift::AsyncTask*>, std::__1::allocator<swift::AsyncTask*>>> {
 public: // (access info unavailable from symbols alone)
-    defaultInitCallback(void*);
+    auto defaultInitCallback(void*);
 };

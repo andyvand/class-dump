@@ -12,11 +12,11 @@
 {
 }
 
-- (id);
+- (id);
 - (id);
 - (struct Schemata);
 - (_Bool);
-- (id)@;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

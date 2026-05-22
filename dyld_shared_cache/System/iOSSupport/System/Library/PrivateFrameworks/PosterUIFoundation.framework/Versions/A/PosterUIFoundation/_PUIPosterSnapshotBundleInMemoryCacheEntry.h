@@ -14,10 +14,10 @@
 
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)mmandQueue>",R,N,V_commandQueue;
 
 // Remaining properties
 @property(retain, nonatomic) PUIPosterSnapshotBundle *bundle; // @synthesize bundle=_bundle;

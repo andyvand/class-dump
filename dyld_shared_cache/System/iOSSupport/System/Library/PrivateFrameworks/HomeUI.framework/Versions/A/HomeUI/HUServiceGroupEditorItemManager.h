@@ -34,7 +34,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)v16@?0@"NSDiffableDataSourceSectionTransaction"8;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *instructionsItem; // @synthesize instructionsItem=_instructionsItem;

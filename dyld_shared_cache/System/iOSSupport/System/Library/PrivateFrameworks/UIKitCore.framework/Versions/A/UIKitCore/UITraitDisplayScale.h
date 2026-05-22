@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)eadDateTS;
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
 + (id);
-+ (double)æÖøe;
++ (double)(ÿ/4Ë`~g;
 
 @end
 

@@ -20,9 +20,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (int);
+- (int);
+- (void)ider;
 
 // Remaining properties
 @property(nonatomic, readonly) int role;

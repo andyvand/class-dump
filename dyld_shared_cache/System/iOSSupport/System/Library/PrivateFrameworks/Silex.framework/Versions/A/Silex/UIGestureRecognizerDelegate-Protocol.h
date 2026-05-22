@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer;
-
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool);
-- (_Bool)faceOrientationChangedFromOrientation:(UIGestureRecognizer *)arg1;
-- (_Bool)StyleMerger;
+- (_Bool)ÞÐ!àCùQï°1Â0@ù
+× ;
 @end
 

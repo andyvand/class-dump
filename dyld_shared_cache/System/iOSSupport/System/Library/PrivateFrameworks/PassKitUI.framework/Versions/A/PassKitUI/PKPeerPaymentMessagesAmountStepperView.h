@@ -69,24 +69,25 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
+- (void);
+- (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (struct CGSize);
-- (id)q+1b0@ù
+- (void);
+- (void)ø1â
+0@ù
 × ;
+- (void)ContentViewProvider;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool allowOpenRequest; // @synthesize allowOpenRequest=_allowOpenRequest;

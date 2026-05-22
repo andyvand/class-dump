@@ -15,37 +15,36 @@ __attribute__((visibility("hidden")))
     UIView *_containerView;
 }
 
-- (void)%p (%@)> Content item mutated | pushed [metadata] contentItemID=%{public}@;
+- (void)neBaselineFrameOriginY: /* Error: Ran out of types for this method. */;
+- (void)ticNavBarButton,S_setShouldFadeStaticNavBarButton: /* Error: Ran out of types for this method. */;
+- (_Bool)N,V_cachedItemAttributes;
+- (id)vate}@';
+- (_Bool);
+- (long long)er != NULL;
+- (_Bool)ensesBarsWhenKeyboardAppears;
+- (double)UIStyle;
+- (id)l-Key;
+- (_Bool);
+- (struct CGAffineTransform)rInlineSearchFieldAccessoryView.swift;
+- (_Bool)ÿ;
+- (_Bool)ÿHÁþÿ;
+- (void);
+- (void)llerAppearanceCSg;
+- (void)torConfigurationC;
+- (_Bool){;
+- (_Bool)tlink:(CDUnknownBlockType)arg1 r:(CDUnknownBlockType)arg2 path:/System/Library/PrivateFrameworks/RevealCore.framework/RevealCore /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)-Âþ¥¢13-Âþ¢13-Âþ}¢13-Âþ;
+- (void)rollEdgeEffectTagReceiver;
+- (_Bool)2­À03,C;
+- (id)ement;
+- (double)¤{þ;
+- (double);
+- (void);
+- (void)rnerRadii;
+- (long long)b43O;
 - (id);
-- (void);
-- (id)Áº;
-- (void);
-- (double)0@ù
-× ;
-- (id)llView"16{CGPoint=dd}24;
-- (_Bool)urationProvider;
-- (void)ectionModes:(CDUnknownBlockType)arg1;
-- (void)rveFirstResponder;
-- (_Bool):(id)arg1;
-- (_Bool)(¯èÿöþäþÿ>°úÿ;
-- (_Bool)DiffableDataSourceC;
-- (_Bool)Center;
-- (id)pdate != NSNotFound;
-- (void);
-- (_Bool)odel",N,&,Vdata;
-- (_Bool)er;
-- (double)y;
-- (struct CGAffineTransform);
-- (long long)&?ã¥=%>ôýT<;
-- (_Bool)TransitionComponent;
-- (long long);
-- (_Bool)tPriority;
 - (id);
-- (double)ó[;
-- (void);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

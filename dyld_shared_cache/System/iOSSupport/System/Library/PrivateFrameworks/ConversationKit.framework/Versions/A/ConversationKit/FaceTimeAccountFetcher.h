@@ -17,14 +17,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (id)ViewControllerDelegate;
+- (id);
+- (void)7RecentsCollectionViewGridCellDelegateP;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accounts; // @synthesize accounts=_accounts;

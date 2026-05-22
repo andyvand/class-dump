@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)tionNoticeRateLimiter didSendNotice:] /* Error: Ran out of types for this method. */;
-+ (id)NoticeParticipantChangedThreshold;
 + (id);
-- (void);
++ (id);
++ (id);
+- (void);
 
 @end
 

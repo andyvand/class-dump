@@ -17,10 +17,12 @@
 
 - (struct CGSize);
 - (id);
-- (void);
-- (struct UIEdgeInsets);
-- (id);
 - (struct CGSize);
+- (id);
+- (void)1â
+0@ù
+× ;
+- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets alignmentRectInsets;

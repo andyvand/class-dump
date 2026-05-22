@@ -63,12 +63,7 @@
         CDStruct_63a3d127 composer;
         CDStruct_63a3d127 genre;
         CDStruct_f9384266 homeSharingAsset;
-        struct {
-            unsigned int identifiers:1;
-            unsigned int text:1;
-            unsigned int hasStoreLyrics:1;
-            unsigned int hasTimeSyncedLyrics:1;
-        } lyrics;
+        CDStruct_4f99e7c1 lyrics;
     } _requestedSongProperties;
     MPPropertySet *_requestedProperties;
 }
@@ -76,7 +71,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Alignment;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPPropertySet *requestedProperties; // @synthesize requestedProperties=_requestedProperties;

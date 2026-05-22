@@ -11,11 +11,11 @@
     _Bool _enableCuratedPlacesAlbumSnapshot;
 }
 
-+ (id);
++ (id)x$ÿ;
 - (void);
 - (_Bool);
+- (id);
 - (void);
-- (id)because change request was nil for group:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool enableCuratedPlacesAlbumSnapshot; // @synthesize enableCuratedPlacesAlbumSnapshot=_enableCuratedPlacesAlbumSnapshot;

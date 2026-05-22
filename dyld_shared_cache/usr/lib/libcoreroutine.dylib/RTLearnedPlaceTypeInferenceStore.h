@@ -15,20 +15,20 @@
 
 + (id);
 - (void);
-- (void)_;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)CFString=}16^{__CFString=}24^{__CFString=}32;
 - (void);
-- (id)liveOffloadInterval;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)uld not generate key, error, %@;
 - (id);
 
 // Remaining properties

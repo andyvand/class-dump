@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (oneway void);
-- (void *);
-- (void);
-- (void)countered unexpected character %c on line %u while looking for open tag;
-- (void);
-- (void);
-- (id);
-- (void)(+g9H;
-- (id);
 - (unsigned long long);
+- (oneway void);
+- (void);
+- (void *);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 
 @end

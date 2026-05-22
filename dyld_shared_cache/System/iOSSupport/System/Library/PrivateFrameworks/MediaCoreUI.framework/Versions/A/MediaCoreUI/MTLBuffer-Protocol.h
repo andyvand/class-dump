@@ -7,7 +7,6 @@
 @protocol MTLBuffer;
 
 @protocol MTLBuffer
-- (void *);
 
 // Remaining properties
 @property(readonly) unsigned long long gpuAddress;

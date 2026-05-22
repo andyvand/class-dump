@@ -13,16 +13,15 @@
 }
 
 + (_Bool);
-- (void)4;
 - (void);
 - (void);
-- (void)y/PreferencePanes/AppleIDPrefPane.prefPane;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)n:displayString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *stickerAccessibilityDescription; // @dynamic stickerAccessibilityDescription;

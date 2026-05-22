@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (struct CGSize)60@0:8@16@24@32@40Q48B56 /* Error: Ran out of types for this method. */;
+- (struct CGSize);
 - (void);
-- (void)ut Complete;
-- (void);
-- (struct UIEdgeInsets)thLayoutSize:repeatingSubitem:count: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ect",&,N,V_pointerEffect;
-- (id)unts do not match! Cell accessories:%@; Internal accessories:%@ /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)Ô ;
+- (void)ÔÀ;
+- (struct CGSize)pplication(iOSMacSupport) _initiateIOSMacConnections]_block_invoke_8;
+- (void),ÓÌØ£\;
+- (id)@-ÚDEb;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize cachedContentSize; // @synthesize cachedContentSize=_cachedContentSize;

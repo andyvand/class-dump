@@ -74,16 +74,16 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void)bileTimerObjects:(_Bool)arg1;
-- (id)_triggersItem;
-- (void)_Button_Title;
-- (_Bool)rDisabled;
+- (id);
+- (void)onIdentifier;
+- (void)A¾xyAR_E<Qo_tGGAWGSg_A4_A4_tGACG_AByArDyA0_AWGACGtGG_AByAcDy}yARGAWGACGAAyADyA11_yAEyAFyAR_AZnyA2CGSgtGGGAWGA21_GSgt;
+- (void)y^DYAyËASgGGAHyDSgGG_EyAFyB_ARtGGtGG¦zGACGAFyAByAcFyADyAEyAFyAR_×D|yAR_	@Qo_tGGAWGSg_A4_A4_tGACG_AByArDyA0_AWGACGtG_G;
 
 // Remaining properties
 @property(nonatomic) double activeGestureValue; // @synthesize activeGestureValue=_activeGestureValue;

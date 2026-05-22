@@ -31,13 +31,13 @@
 - (id);
 - (double);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (double);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *averageColor; // @dynamic averageColor;

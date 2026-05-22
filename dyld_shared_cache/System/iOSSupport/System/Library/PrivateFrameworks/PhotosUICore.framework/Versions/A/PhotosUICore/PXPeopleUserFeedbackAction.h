@@ -23,10 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (void);
 - (id);
 - (void);
-- (void);
+- (id)$T!²5;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *undoUserFeedbacks; // @synthesize undoUserFeedbacks=_undoUserFeedbacks;

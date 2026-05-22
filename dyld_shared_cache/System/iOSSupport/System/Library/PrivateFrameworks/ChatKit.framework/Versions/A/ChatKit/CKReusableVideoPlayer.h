@@ -17,33 +17,33 @@
     AVPlayerViewController *_playerViewController;
 }
 
-- (void)egacyFolderFetchPredicate;
-- (void);
-- (_Bool)adingSelectionFromPasteboard;
-- (id)insertMentionWithText:uuidString:parentAttachment: /* Error: Ran out of types for this method. */;
-- (void)dBecomeComplete:(_Bool)arg1;
-- (void)ble;
-- (void)Array",C,N,V_rows;
 - (void);
 - (void);
-- (void);
-- (_Bool)NotesUI06LockedA17ViewConfigurationP;
-- (void)n unauthenticated attachment {note:(id)arg1 %@};
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void)etEditing:animated: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)tionScaleY;
 - (void);
-- (_Bool)¦µÿ8A5¼|	;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool)sationsManager:Conversation cache size is zero! /* Error: Ran out of types for this method. */;
+- (_Bool)TO_DOWNLOAD_IMAGE_FAILED_ALERT_TITLE;
+- (void)Ì`;
+- (void)rTraitKey;
+- (void)ØË¢ÿÚ=90;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

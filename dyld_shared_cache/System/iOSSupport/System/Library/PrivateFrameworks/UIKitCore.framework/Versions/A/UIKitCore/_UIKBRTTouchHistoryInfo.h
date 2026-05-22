@@ -29,15 +29,14 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (void);
 - (void);
-- (_Bool)oxyPACURL:withProxyPACFallbackAllowed: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)1¢!0@ù
+- (id);
+- (id);
+- (_Bool)¡Ð!`GùñaÐ1Â0@ù
 × ;
-- (id)xð!¤DùÑÍð1¢!0@ù
-× ;
-- (void)rAnimation:(id)arg1;
-- (id)n;
-- (id)xtInputLocales;
+- (void)0:(id)arg1 8q16@?24;
+- (id);
+- (void)u43Ï;
+- (void)ö;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint actualLocation; // @synthesize actualLocation=_actualLocation;

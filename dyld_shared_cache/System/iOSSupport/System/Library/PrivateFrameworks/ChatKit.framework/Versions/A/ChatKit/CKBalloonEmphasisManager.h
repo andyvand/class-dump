@@ -17,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)oØ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isEmphasisActive;

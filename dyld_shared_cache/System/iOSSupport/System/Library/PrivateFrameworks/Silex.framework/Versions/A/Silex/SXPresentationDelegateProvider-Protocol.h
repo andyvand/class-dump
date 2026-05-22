@@ -7,7 +7,6 @@
 @protocol SXPresentationDelegate;
 
 @protocol SXPresentationDelegateProvider
-- (id <SXPresentationDelegate>);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <SXPresentationDelegate> presentationDelegate;

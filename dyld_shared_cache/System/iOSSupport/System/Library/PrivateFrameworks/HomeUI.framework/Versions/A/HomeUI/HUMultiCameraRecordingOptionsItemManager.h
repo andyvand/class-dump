@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)sAlarmSectionIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *cameraRecordingItemModules; // @synthesize cameraRecordingItemModules=_cameraRecordingItemModules;

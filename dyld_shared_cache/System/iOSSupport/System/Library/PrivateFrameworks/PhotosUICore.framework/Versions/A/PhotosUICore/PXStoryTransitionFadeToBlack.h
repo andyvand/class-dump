@@ -15,7 +15,7 @@
 
 - (id);
 - (double);
-- (void);
+- (void)PhotosUICore.CarouselContentLayout;
 
 @end
 

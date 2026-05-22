@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)alyticsReporting";
+- (id)Vèé;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReporterProvider; // @synthesize analyticsReporterProvider=_analyticsReporterProvider;

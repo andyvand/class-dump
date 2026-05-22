@@ -12,10 +12,10 @@
     MISSING_TYPE *sourceViewController;
 }
 
-- (void);
+- (double);
 - (id);
-- (void)n÷ds;
-- (double))³;
+- (void);
+- (void):contentLayout:) /* Error: Ran out of types for this method. */;
 
 @end
 

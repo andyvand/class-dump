@@ -48,28 +48,28 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (struct CGSize);
+- (_Bool);
 - (void);
 - (struct CGSize);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
-- (struct CGSize)1B0@ù
-× ;
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (void)ICSo8NSBundle8_currentS0_iU_FT_S0_L_2__;
+- (id)	
+;
+- (void);
+- (_Bool)àrùÿHlS	;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) id activeSearchConfiguration; // @synthesize activeSearchConfiguration=_activeSearchConfiguration;

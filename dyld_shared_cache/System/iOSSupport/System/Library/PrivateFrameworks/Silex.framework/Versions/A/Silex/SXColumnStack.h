@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)">72;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *columnStack; // @synthesize columnStack=_columnStack;

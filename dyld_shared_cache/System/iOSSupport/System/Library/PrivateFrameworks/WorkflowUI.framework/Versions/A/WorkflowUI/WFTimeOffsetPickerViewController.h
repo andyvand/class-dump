@@ -25,22 +25,22 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (long long);
-- (id);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
 - (void);
 - (long long);
 - (id);
 - (void);
+- (unsigned long long);
 - (void);
-- (void)blic}s;
-- (id)hangePublisher;
-- (void)mDataSource;
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void)10WorkflowUIP33_EA6572E12BCA1D27A4858FE2F5C60F1A20CollectionStateCache;
+- (void)ght;
+- (id)g;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIPickerView *currentPickerView; // @synthesize currentPickerView=_currentPickerView;

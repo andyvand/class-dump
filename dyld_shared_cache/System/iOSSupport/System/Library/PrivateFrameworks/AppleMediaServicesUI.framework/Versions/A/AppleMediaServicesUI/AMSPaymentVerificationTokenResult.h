@@ -11,12 +11,12 @@
     NSData *_tokenData;
 }
 
-+ (_Bool)CD0EIÄJK8NOTOÈO¤PQ|RÄR°UVHYZ¸\ ]è];
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (void)fullScreen;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *tokenData; // @synthesize tokenData=_tokenData;

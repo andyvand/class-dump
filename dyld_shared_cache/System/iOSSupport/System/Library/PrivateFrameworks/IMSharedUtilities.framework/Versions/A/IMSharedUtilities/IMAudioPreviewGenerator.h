@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool)ka;
++ (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);

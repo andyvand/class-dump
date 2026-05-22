@@ -14,10 +14,10 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)ding>"24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAutoPlacement> autoPlacement;

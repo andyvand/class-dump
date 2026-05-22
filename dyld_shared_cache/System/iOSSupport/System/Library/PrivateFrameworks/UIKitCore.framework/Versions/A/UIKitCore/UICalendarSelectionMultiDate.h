@@ -21,28 +21,27 @@
     id <UICalendarSelectionMultiDateDelegate> _delegate;
 }
 
-- (void)sageContext:(id)arg1 isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)ture is disabled, not sending personal nickname to chat;
-- (void)eived older version number (%lu, old:%lu), dropping ignored list update /* Error: Ran out of types for this method. */;
-- (void)sages history with sender:(id)arg1 %@;
-- (void):(id)arg1 %@;
-- (void)earing nickname active records, error:(id)arg1 %@;
-- (void)ow/denylist;
-- (_Bool)ing replicated message %@ but one is already present;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)
-× ;
-- (id),GisInterruptible,V_interruptible;
-- (id)lð;
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UICalendarSelectionMultiDateDelegate> delegate; // @synthesize delegate=_delegate;

@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLConnection;
-
 @protocol NSURLConnectionDelegate
-
-@optional
-- (_Bool)p:(NSURLConnection *)arg1;
-- (void)th:(NSURLConnection *)arg1;
-- (void)hConfigurationDictionary:(NSURLConnection *)arg1;
-- (_Bool)der:(NSURLConnection *)arg1;
 @end
 

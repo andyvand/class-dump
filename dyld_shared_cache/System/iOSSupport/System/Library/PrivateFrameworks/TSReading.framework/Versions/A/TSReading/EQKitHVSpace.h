@@ -16,14 +16,14 @@
 - (double);
 - (double);
 - (id);
-- (_Bool);
 - (_Bool);
-- (id);
-- (double);
 - (id);
-- (id)SportsTopicMappingServiceType;
+- (id);
 - (double);
-- (double)ýW¡G;
+- (double);
+- (_Bool);
+- (id);
+- (double)¼;
 
 // Remaining properties
 @property(readonly, nonatomic) double depth; // @synthesize depth=mDepth;

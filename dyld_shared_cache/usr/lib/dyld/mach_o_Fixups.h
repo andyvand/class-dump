@@ -5,17 +5,17 @@
 class mach_o::Fixups {
 public: // (access info unavailable from symbols alone)
     Fixups(mach_o::Layout const&);
-    externalRelocBaseAddress() const;
-    forEachBindTarget(Diagnostics&, bool, long, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
-    forEachBindTarget_ChainedFixups(Diagnostics&, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
-    forEachBindTarget_Opcodes(Diagnostics&, bool, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
-    forEachBindTarget_Relocations(Diagnostics&, long, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
-    forEachBindUnified_Opcodes(Diagnostics&, bool, void (unsigned long long, unsigned int, mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer, void (unsigned long long, unsigned int, mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
-    forEachBind_OpcodesLazy(Diagnostics&, void (char const*, bool, bool, unsigned int, int, unsigned int, unsigned int, unsigned long long, unsigned char, char const*, bool, bool, unsigned long long, bool, bool&) block_pointer) const;
-    forEachBind_OpcodesRegular(Diagnostics&, void (char const*, bool, bool, unsigned int, int, unsigned int, unsigned int, unsigned long long, unsigned char, char const*, bool, bool, unsigned long long, bool, bool&) block_pointer) const;
-    forEachBind_OpcodesWeak(Diagnostics&, void (char const*, bool, bool, unsigned int, int, unsigned int, unsigned int, unsigned long long, unsigned char, char const*, bool, bool, unsigned long long, bool, bool&) block_pointer, void (char const*) block_pointer) const;
-    forEachBind_Relocations(Diagnostics&, bool, long, void (char const*, bool, bool, unsigned int, int, unsigned int, unsigned int, unsigned long long, unsigned char, char const*, bool, bool, unsigned long long, bool, bool&) block_pointer) const;
-    forEachChainedFixupTarget(Diagnostics&, void (int, char const*, unsigned long long, bool, bool&) block_pointer) const;
-    forEachIndirectPointer(Diagnostics&, bool, long, void (unsigned long long, bool, int, char const*, bool, bool, bool, bool&) block_pointer) const;
-    parseOrgArm64eChainedFixups(Diagnostics&, void (unsigned int, bool&) block_pointer, void (bool, unsigned int, int, unsigned char, char const*, unsigned long long, bool, bool&) block_pointer, void (unsigned int, bool, unsigned long long, unsigned short, bool&) block_pointer) const;
+    auto externalRelocBaseAddress() const;
+    auto forEachBindTarget(Diagnostics&, bool, long, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
+    auto forEachBindTarget_ChainedFixups(Diagnostics&, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
+    auto forEachBindTarget_Opcodes(Diagnostics&, bool, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
+    auto forEachBindTarget_Relocations(Diagnostics&, long, void (mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
+    auto forEachBindUnified_Opcodes(Diagnostics&, bool, void (unsigned long long, unsigned int, mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer, void (unsigned long long, unsigned int, mach_o::Fixups::BindTargetInfo const&, bool&) block_pointer) const;
+    auto forEachBind_OpcodesLazy(Diagnostics&, void (char const*, bool, bool, unsigned int, int, unsigned int, unsigned int, unsigned long long, unsigned char, char const*, bool, bool, unsigned long long, bool, bool&) block_pointer) const;
+    auto forEachBind_OpcodesRegular(Diagnostics&, void (char const*, bool, bool, unsigned int, int, unsigned int, unsigned int, unsigned long long, unsigned char, char const*, bool, bool, unsigned long long, bool, bool&) block_pointer) const;
+    auto forEachBind_OpcodesWeak(Diagnostics&, void (char const*, bool, bool, unsigned int, int, unsigned int, unsigned int, unsigned long long, unsigned char, char const*, bool, bool, unsigned long long, bool, bool&) block_pointer, void (char const*) block_pointer) const;
+    auto forEachBind_Relocations(Diagnostics&, bool, long, void (char const*, bool, bool, unsigned int, int, unsigned int, unsigned int, unsigned long long, unsigned char, char const*, bool, bool, unsigned long long, bool, bool&) block_pointer) const;
+    auto forEachChainedFixupTarget(Diagnostics&, void (int, char const*, unsigned long long, bool, bool&) block_pointer) const;
+    auto forEachIndirectPointer(Diagnostics&, bool, long, void (unsigned long long, bool, int, char const*, bool, bool, bool, bool&) block_pointer) const;
+    auto parseOrgArm64eChainedFixups(Diagnostics&, void (unsigned int, bool&) block_pointer, void (bool, unsigned int, int, unsigned char, char const*, unsigned long long, bool, bool&) block_pointer, void (unsigned int, bool, unsigned long long, unsigned short, bool&) block_pointer) const;
 };

@@ -30,16 +30,15 @@
 - (id);
 - (CDStruct_e83c9415);
 - (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)
-× ;
-- (CDStruct_c8120fa9)entsRect: /* Error: Ran out of types for this method. */;
-- (long long)Exposure;
-- (long long);
+- (long long)oryPath;
+- (CDStruct_c8120fa9)AssetFetchResult>",R,N,V_bestSongSuggestions;
+- (long long)thumbnails â %@;
+- (void)qhÆL};
 
 // Remaining properties
 @property(readonly, nonatomic) PFStoryRecipeDisplayAssetNormalization *colorNormalization;

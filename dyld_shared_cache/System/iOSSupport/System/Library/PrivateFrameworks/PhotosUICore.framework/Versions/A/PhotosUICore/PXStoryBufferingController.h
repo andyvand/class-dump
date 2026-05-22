@@ -44,13 +44,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)edContentsRect;
+- (id)d}}24;
+- (id)hmentWithText:(id)arg1 name: /* Error: Ran out of types for this method. */;
+- (void)U÷ÆØmÿE÷Æ nÿ5÷Æ\nÿ;
+- (void)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *bufferingReasons;

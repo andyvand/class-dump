@@ -17,7 +17,7 @@
     NSString *_kvoProxyIdentifier;
 }
 
-+ (Class)filteredDataSource;
++ (Class);
 - (_Bool);
 - (void);
 - (id);
@@ -27,12 +27,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)1â
+0@ù
+× ;
+- (void)8=;
+- (id)le URL, but we could not use it to create an image:%@ /* Error: Ran out of types for this method. */;
+- (void)izationAddActionTitleFolders;
 - (id);
-- (void){?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16r^{CGRect={CGPoint=dd}{CGSize=dd}}24q32;
-- (id)Ì~ÿ;
 - (void);
 
 // Remaining properties

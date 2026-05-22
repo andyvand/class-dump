@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGPoint);
 - (id);
-- (id)gHasCredits__MAPPING_MISSING__;
-- (id)Point;
+- (id);
 - (long long);
+- (id)onsReversed,S_setActionsReversed:(struct _NSZone *)arg1 ,V_actionsReversed;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint buttonLocation; // @synthesize buttonLocation=_buttonLocation;

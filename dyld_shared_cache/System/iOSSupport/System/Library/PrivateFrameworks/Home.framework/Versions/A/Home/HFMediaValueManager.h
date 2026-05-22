@@ -36,8 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)@@;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *cachedPlaybackStateWriteError; // @synthesize cachedPlaybackStateWriteError=_cachedPlaybackStateWriteError;

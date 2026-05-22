@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)stedWindowScene: /* Error: Ran out of types for this method. */;
+- (void)ationBar:didPushItem: /* Error: Ran out of types for this method. */;
 
 @end
 

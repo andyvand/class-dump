@@ -14,12 +14,12 @@
 
 + (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *detail; // @synthesize detail=_detail;

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)edia.framework/Versions/A/CoreMedia;
+- (id)àÙ8#i;
 
 @end
 

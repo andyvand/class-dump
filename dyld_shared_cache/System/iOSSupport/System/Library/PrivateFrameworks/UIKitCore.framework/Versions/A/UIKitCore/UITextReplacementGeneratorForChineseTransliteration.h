@@ -11,7 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)form;
+- (id)0@ù
+× ;
 
 @end
 

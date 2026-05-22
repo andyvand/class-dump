@@ -10,19 +10,18 @@
 
 + (id);
 + (id);
-+ (id)member relation using raw handles. Attempting to lookup using SCIs.;
-+ (id):%@ /* Error: Ran out of types for this method. */;
 + (id);
-+ (id)ConnectionWorkloop;
 + (id);
-- (void):(id)arg1 responseHandler: /* Error: Ran out of types for this method. */;
-- (id)$;
-- (long long)}};
-- (_Bool)adata for recordName:(id)arg1 %s!;
-- (_Bool)by TrustKit:(id)arg1 %@;
-- (void)Chat"24B32@?<v@?>36;
-- (id)áq!¬FùÅÐ1¢!0@ù
-× ;
++ (id);
++ (id);
++ (id);
+- (void);
+- (id);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
 
 @end
 

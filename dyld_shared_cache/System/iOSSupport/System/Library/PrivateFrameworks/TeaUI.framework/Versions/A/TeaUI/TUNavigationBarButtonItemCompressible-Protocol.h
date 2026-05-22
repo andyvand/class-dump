@@ -5,8 +5,7 @@
 //
 
 @protocol TUNavigationBarButtonItemCompressible
-- (double)UXNavigationItem;
-- (void);
+- (void)ÜýÿÌßüÿÈßüÿxýÿèéüÿtýÿ¸ßüÿxöüÿØéüÿÐýÿ;
 
 // Remaining properties
 @property(nonatomic) double contentAlpha;

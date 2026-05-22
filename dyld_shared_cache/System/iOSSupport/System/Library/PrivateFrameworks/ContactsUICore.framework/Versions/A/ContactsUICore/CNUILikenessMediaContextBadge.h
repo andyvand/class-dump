@@ -15,13 +15,13 @@
 
 - (void);
 - (unsigned long long);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)_float.dylib;
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long badgeType; // @synthesize badgeType=_badgeType;

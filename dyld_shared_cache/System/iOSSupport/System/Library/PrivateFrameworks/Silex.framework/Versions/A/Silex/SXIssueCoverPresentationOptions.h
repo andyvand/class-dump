@@ -16,8 +16,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (struct CGSize)a;
+- (struct CGSize);
+- (void)tem";
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *parentBackgroundColor; // @synthesize parentBackgroundColor=_parentBackgroundColor;

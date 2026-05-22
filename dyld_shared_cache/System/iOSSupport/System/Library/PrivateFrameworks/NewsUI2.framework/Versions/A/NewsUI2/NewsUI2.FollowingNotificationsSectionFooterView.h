@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id)eHeadlines;
+- (id);
+- (void)r;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (void)nWorkspaceErrorDomain;
+- (void);
 - (id);
 - (id);
 - (id);

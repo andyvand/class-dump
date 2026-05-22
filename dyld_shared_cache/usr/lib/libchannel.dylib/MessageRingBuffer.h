@@ -4,11 +4,11 @@
 
 class MessageRingBuffer {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned int);
-    free(MessageRingBuffer const*);
-    free_shared_memory() const;
-    from_shared_region(void*, unsigned long long);
-    from_xpc(NSObject<OS_xpc_object>*);
-    unwire() const;
-    wire() const;
+    auto allocate(unsigned int);
+    auto free(MessageRingBuffer const*);
+    auto free_shared_memory() const;
+    auto from_shared_region(void*, unsigned long long);
+    auto from_xpc(NSObject<OS_xpc_object>*);
+    auto unwire() const;
+    auto wire() const;
 };

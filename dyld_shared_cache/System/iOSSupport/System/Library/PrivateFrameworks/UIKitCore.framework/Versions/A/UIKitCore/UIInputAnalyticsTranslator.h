@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (long long)uids was nil or empty:(long long)arg1 %@;
-+ (long long)sfer with name (%@) because the list of guids was nil or empty:(long long)arg1 %@;
-+ (long long)Scheduled;
-+ (unsigned long long)ied ScheduleType, downgrading to NotScheduled;
-+ (unsigned long long)or ID %llu;
-+ (long long)d replication source service to %@ for ID %llu;
++ (long long);
++ (long long);
++ (long long);
++ (unsigned long long);
++ (unsigned long long);
++ (long long);
 + (unsigned long long);
 
 @end

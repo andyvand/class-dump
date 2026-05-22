@@ -15,8 +15,8 @@
     MISSING_TYPE *mapItem;
 }
 
-- (void);
 - (id);
+- (void)V_artworkURL;
 
 @end
 

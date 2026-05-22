@@ -11,9 +11,9 @@
     PXPlacesMapView *_mapView;
 }
 
+- (id)neUp;
+- (void)`G;
 - (id);
-- (void);
-- (id)Àÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPlacesMapView *mapView; // @synthesize mapView=_mapView;

@@ -22,18 +22,18 @@
 + (id);
 + (_Bool);
 + (id);
-- (_Bool)nt;
-- (_Bool)idthInPoint;
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id)b;
-- (CDUnknownBlockType)d string range. Paragraph start:%ld Paragraph end:%ld String range:%s /* Error: Ran out of types for this method. */;
-- (id)e to missing text storage;
+- (id);
+- (CDUnknownBlockType);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (void)Î;
+- (unsigned long long)0;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long frameCount; // @synthesize frameCount=_frameCount;

@@ -19,8 +19,8 @@
 }
 
 + (id);
-+ (_Bool)NotificationCondition;
-+ (id)ñÿJ¢;
++ (id);
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -29,14 +29,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)MSymptomTypeWiFiNetworkMismatch;
+- (id);
+- (void)üu;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

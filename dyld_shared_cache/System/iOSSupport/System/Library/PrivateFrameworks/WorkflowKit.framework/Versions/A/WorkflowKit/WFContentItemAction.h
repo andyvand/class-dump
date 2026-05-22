@@ -18,8 +18,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Masked Image (Default Output Name);
 
 // Remaining properties
 @property(readonly, nonatomic) WFContentProperty *defaultProperty; // @synthesize defaultProperty=_defaultProperty;

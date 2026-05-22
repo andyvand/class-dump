@@ -6,8 +6,7 @@
 
 #import <MediaPlayer/MPMediaItem.h>
 
-@class MPConcreteMediaEntityPropertiesCache, MPMediaLibrary, NSObject;
-@protocol OS_dispatch_queue;
+@class MPConcreteMediaEntityPropertiesCache, MPMediaLibrary;
 
 __attribute__((visibility("hidden")))
 @interface MPConcreteMediaItem : MPMediaItem
@@ -15,38 +14,37 @@ __attribute__((visibility("hidden")))
     MPMediaLibrary *_library;
     unsigned long long _persistentID;
     MPConcreteMediaEntityPropertiesCache *_propertiesCache;
-    NSObject<OS_dispatch_queue> *_utilitySerialQueue;
 }
 
-+ (id):(unsigned long long)arg1 associatedURLString:(id)arg2 modeIdentifier:topics:hasAssociatedImageRepresentation:uuid: /* Error: Ran out of types for this method. */;
-+ (id)soluteTimestamp:(unsigned long long)arg1 clientBundleIdentifier:(id)arg2 truthTagIdentifier:recordingRequestIdentifier: /* Error: Ran out of types for this method. */;
-+ (id)ithAbsoluteTimestamp:(unsigned long long)arg1 backlightLevel: /* Error: Ran out of types for this method. */;
-+ (_Bool)k:didReceiveResponse:completionHandler:Decided on disposition %ld for dataTask:%{public}@. URL=%{public}@.storagePolicy=%lu expectedEntrySize=%lld diskCacheAvailableSize=%lld memoryCacheAvailableSize=%lld /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (void);
-- (void)@16Q24@32@40;
-- (id)@80@88@96@104@112@120;
-- (id)6;
-- (void)AtIndex:(id)arg1;
-- (id)estamp:(id)arg1;
-- (id)eceived: /* Error: Ran out of types for this method. */;
-- (id)ID:usingPredicateBlock: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1 forKey:(_Bool *)arg2;
-- (id)itWithUniqueId:(unsigned long long)arg1 domainId:(id)arg2 bundleId:(id)arg3 absoluteTimestamp:title:desc:comment:content:contentProtection: /* Error: Ran out of types for this method. */;
-- (_Bool)teredArrayWithTest: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (void);
-- (id)?;
 - (void);
 - (id);
-- (void);
+- (id);
 - (Class);
 - (id);
-- (id)supportsTextureSampleCount: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (void)ansformBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MPConcreteMediaEntityPropertiesCache *cachedPropertyValues;

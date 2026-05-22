@@ -15,12 +15,14 @@
 }
 
 - (id);
-- (void);
-- (_Bool);
 - (id);
 - (void);
+- (void);
 - (_Bool);
-- (void)ô7ïÿS^ð7ïÿ%S^8ïÿ;
+- (_Bool);
+- (void)±ø°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCanceled) _Bool canceled;

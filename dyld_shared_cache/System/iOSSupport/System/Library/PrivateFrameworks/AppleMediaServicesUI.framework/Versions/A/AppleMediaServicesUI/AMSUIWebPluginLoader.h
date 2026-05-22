@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)eGraphicsyHC_HC_HCg0_GG;
+- (id);
+- (void)phemeralWebBrowserSession: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak AMSUIWebClientContext *context; // @synthesize context=_context;

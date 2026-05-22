@@ -14,19 +14,18 @@
 
 + (id);
 - (id);
-- (id)ror. transfer.errorDescription:(double)arg1 %@;
-- (double);
-- (void)nð!x@ù±À°1¢!0@ù
-× ;
-- (id)
-× ;
-- (id)eviewForHighlightingAtLocation:(id)arg1;
-- (id)Tolerance;
-- (id)ckgroundHitTestWindow;
-- (id)t: /* Error: Ran out of types for this method. */;
-- (id)rTabBarTabItemsItemIdentifier;
 - (id);
-- (id)ºq;
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
+- (id)A°!(@ù`°1Â0@ù
+× ;
+- (id)Recognizer"16@"UITextRefinementInteraction"24;
+- (id)Effect;
+- (id)g;
+- (void)d;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

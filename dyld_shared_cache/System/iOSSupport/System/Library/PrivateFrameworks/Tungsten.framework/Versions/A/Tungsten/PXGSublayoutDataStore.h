@@ -34,12 +34,12 @@
 - (void);
 - (void);
 - (CDStruct_df88f589 *);
+- (void);
+- (long long);
+- (void);
 - (long long);
 - (id);
-- (void);
-- (CDStruct_4fda4a46 *);
-- (long long);
-- (void)lable PXGAXGetToAssetCollectionReferenceForUserInfo(__strong id _Nonnull);
+- (CDStruct_4fda4a46 *)ure>",R,N,V_texture;
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;

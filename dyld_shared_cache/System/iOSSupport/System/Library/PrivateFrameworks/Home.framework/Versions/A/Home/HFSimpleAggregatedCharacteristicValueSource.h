@@ -36,13 +36,13 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)lV;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *allServices; // @synthesize allServices=_allServices;

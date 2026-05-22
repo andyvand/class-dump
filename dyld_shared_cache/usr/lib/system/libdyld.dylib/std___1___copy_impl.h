@@ -4,5 +4,5 @@
 
 class std::__1::__copy_impl {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:nn200100]<unsigned char*, unsigned char*, std::__1::back_insert_iterator<lsl::Vector<char>>>(unsigned char*, unsigned char*, std::__1::back_insert_iterator<lsl::Vector<char>>) const;
+    std::__1::pair<unsigned char*, std::__1::back_insert_iterator<lsl::Vector<char>>> operator()[abi:nqn210106]<unsigned char*, unsigned char*, std::__1::back_insert_iterator<lsl::Vector<char>>>(unsigned char*, unsigned char*, std::__1::back_insert_iterator<lsl::Vector<char>>) const;
 };

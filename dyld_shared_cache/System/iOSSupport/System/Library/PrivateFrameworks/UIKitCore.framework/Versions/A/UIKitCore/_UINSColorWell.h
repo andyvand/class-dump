@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     NSString *_pickerTitle;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (void);
-- (id)_;
 - (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool pickerSupportsAlpha; // @synthesize pickerSupportsAlpha=_pickerSupportsAlpha;

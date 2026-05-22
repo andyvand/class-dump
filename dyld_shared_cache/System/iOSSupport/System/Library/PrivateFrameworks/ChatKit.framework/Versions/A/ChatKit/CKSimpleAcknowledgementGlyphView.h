@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
-- (id)M;
 - (id);
-- (void)?;
+- (id);
 - (void);
 - (void);
-- (double);
-- (void)nd:(id)arg1;
-- (id)aboration: /* Error: Ran out of types for this method. */;
+- (id);
+- (double)ÿ;
+- (void);
+- (void)  ;
 
 // Remaining properties
 @property(retain, nonatomic) CKAcknowledgmentGlyphImageView *glyph; // @synthesize glyph=_glyph;

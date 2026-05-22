@@ -35,12 +35,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)@?<v@?@"NSArray"@"NSError">24;
 
 // Remaining properties
 @property(readonly, nonatomic) ASCPresenterContext *context; // @synthesize context=_context;

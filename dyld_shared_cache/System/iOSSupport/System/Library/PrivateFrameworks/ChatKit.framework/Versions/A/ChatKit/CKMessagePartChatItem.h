@@ -16,31 +16,31 @@
     CKMessagePartHighlightChatItem *_messageHighlightChatItem;
 }
 
-- (id)butesWithContentSizeCategory: /* Error: Ran out of types for this method. */;
-- (double)traint;
-- (id)tifiersToTouchBarItems;
-- (id)IRepresentation;
-- (_Bool)tUpdates;
 - (id);
-- (_Bool)17OS_dispatch_queueCG;
-- (id)NSFileManagerC;
-- (id)e;
-- (id);;
-- (_Bool).;
+- (double);
+- (id);
+- (id);
 - (_Bool);
-- (id)document %@;
-- (void)rror"16^B24;
-- (id)tionNotificationController triggerNotificationForMentionAttachments:(id)arg1 context:] /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
-- (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (BOOL);
-- (BOOL);
-- (_Bool)6";
+- (id);
 - (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (BOOL);
+- (BOOL);
+- (_Bool);
 - (_Bool);
 - (id);
+- (void);
 - (id);
 - (struct _NSRange);
 - (id);
@@ -56,24 +56,23 @@
 - (id);
 - (long long);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id)a;
-- (long long);
-- (_Bool)=bB@9hB;
-- (BOOL);
-- (id)dLatinLanguage;
-- (id)h@9H;
 - (id);
-- (id)0@ù
-× ;
-- (_Bool)mationDelegate>",W,N,V_animationDelegate;
-- (_Bool)straint",&,N,V_titleTextTopToViewConstraint;
-- (id)¬T	;
-- (_Bool)e_$_forceResetPositionOnUpgradeExtensionIdentifiers;
-- (struct IMColorComponents)lª¬y°¬y¸_=_Bm¬yÔ¯¬§¨¬GAByAQä¬ySbGGtGGÏ¬yq|¬yAgP®¬GGG0o¬yAGGGGGv¬GG;
-- (id)%s completion called, clearing TapbackContainerAccessoryView:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (BOOL);
+- (id);
+- (id)erateAllAutomaticConfirmedMentionsUsingBlock: /* Error: Ran out of types for this method. */;
+- (id)ontactsHandle;
+- (long long)4;
+- (struct IMColorComponents);
+- (id)sation;
+- (_Bool)SSAGE_ENTITY_PROPERTY_TITLE_ATTACHMENTS;
+- (void)ÈD;
 
 // Remaining properties
 @property(readonly, nonatomic) BOOL balloonStyle;

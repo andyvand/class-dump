@@ -40,9 +40,9 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)xyNÿuÉtyNÿÉpyNÿmÉlyNÿ}ÉhyNÿeÉdyNÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;

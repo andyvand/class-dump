@@ -34,7 +34,7 @@
 }
 
 + (_Bool);
-+ (unsigned long long)Âøÿoµ½º_;
++ (unsigned long long)rt_execution_stream_operation}];
 - (float);
 - (void);
 - (void);
@@ -144,13 +144,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PTCinematographyUserTap *activeUserTap; // @synthesize activeUserTap=_activeUserTap;

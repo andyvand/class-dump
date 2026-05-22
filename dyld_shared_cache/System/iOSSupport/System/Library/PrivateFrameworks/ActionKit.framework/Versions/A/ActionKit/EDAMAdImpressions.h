@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *adId; // @synthesize adId=_adId;

@@ -21,14 +21,14 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (long long);
-- (void)H[üÿ;
+- (void)-:ÿ /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

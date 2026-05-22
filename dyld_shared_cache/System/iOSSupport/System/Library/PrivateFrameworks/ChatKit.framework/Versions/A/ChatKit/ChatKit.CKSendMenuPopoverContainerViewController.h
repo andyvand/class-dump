@@ -16,11 +16,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)AAyAAyAByACyôýÿSg_Ûò®SgtGG	U®G+*®yE:®GGZ®GGG /* Error: Ran out of types for this method. */;
-- (void)ìíñÿ;
-- (void)i1;
+- (id);
+- (void);
+- (void)filter mode %d filterModeNum=%@ predicate=%@ older than date %@ (oldest conversation date:(_Bool)arg1 %@) conversationCount=%llu;
+- (void)àÁ±ÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKSendMenuPopoverPresentationDelegate> delegate; // @synthesize delegate;

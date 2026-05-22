@@ -16,15 +16,14 @@
 - (void);
 - (void);
 - (void);
-- (void)5;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)1¢!0@ù
-× ;
-- (id)h;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) IMEmojiSticker *emojiSticker;

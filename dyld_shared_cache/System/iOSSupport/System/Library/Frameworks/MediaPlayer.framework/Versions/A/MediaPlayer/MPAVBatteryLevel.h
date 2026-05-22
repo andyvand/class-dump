@@ -15,14 +15,14 @@
 }
 
 - (id);
-- (id)Path;
-- (id)lue:(id)arg1;
-- (id)contentProtection: /* Error: Ran out of types for this method. */;
-- (id)e;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
 - (id);
-- (id);
+- (void)serInterfaceStyle;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *casePercentage; // @synthesize casePercentage=_casePercentage;

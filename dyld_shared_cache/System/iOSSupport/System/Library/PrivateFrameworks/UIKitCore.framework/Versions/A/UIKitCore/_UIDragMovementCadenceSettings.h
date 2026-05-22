@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
     double _dwellTimeThreshold;
 }
 
-+ (id)able MiC across all devices;
-- (double)`;;
++ (id);
+- (double);
 - (void);
 - (void);
 - (id);
 - (id);
 - (double);
-- (void)%{bool}d;
-- (void)ad receipt for chat %s to message %s readDate %s rcptVer %ld hadQOI %{bool}d;
-- (void)%ld hadQOI %{bool}d;
-- (void)ion {notification:(long long)arg1 %s};
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

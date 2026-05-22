@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)ateWebViewWithConfiguration:forNavigationAction:windowFeatures:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
-- (id)ng share reference for %@;
-- (void)ocked notes.;
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (struct CLLocationCoordinate2D)t:%td /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;

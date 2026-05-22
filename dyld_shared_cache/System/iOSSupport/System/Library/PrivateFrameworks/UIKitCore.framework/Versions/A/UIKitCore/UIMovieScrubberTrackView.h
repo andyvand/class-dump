@@ -46,30 +46,31 @@
     id <UIMovieScrubberTrackViewDelegate> _delegate;
 }
 
-- (double)4@"NSArray"32@"NSNumber"40;
-- (void)dateTemporaryTransferGUIDsOn:andUpdateMessageIfNeeded:transfersToSync: /* Error: Ran out of types for this method. */;
-- (void)ord:(double)arg1;
+- (double);
 - (void);
 - (void);
-- (void)king if we are in an urgent message grace period. Looking for received urgent messages in the last %ld minutes.;
-- (void)nch;
-- (void)ices changed:%@ on Service:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
+- (_Bool);
+- (id);
 - (void);
-- (void);
-- (void)er without rescheduling, because mouse is in a non-fadeable scroller.;
-- (void)eKeyboard:(id)arg1 withIAV:isIAVRelevant:showing:notifyRemote:forScene:] position:%@ visible:%@; notifyRemote:%@; isMinimized:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)tMetricsLabelD0P;
-- (void)B16@?0@"_UIStatusBar"8;
-- (id)NSUInteger;
-- (id)PriorityLow;
-- (void);
-- (id)| ÙN=`;
+- (id)
+× ;
+- (void)i="topLeft"d"bottomLeft"d"bottomRight"d"topRight"d};
+- (void)32;
+- (void)veToConstraintContainer;
+- (void)ment;
+- (id)atsTouches:(struct CGRect)arg1;
+- (void)ÔÿÎ¶ÉüSe;
+- (void)l;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIMovieScrubberTrackViewDataSource> dataSource; // @synthesize dataSource=_dataSource;

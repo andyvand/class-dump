@@ -4,6 +4,6 @@
 
 class bssl::Array<ssl_credential_st*> {
 public: // (access info unavailable from symbols alone)
-    InitUninitialized(unsigned long);
+    auto InitUninitialized(unsigned long);
     ~Array();
 };

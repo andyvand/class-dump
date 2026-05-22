@@ -22,19 +22,19 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)"16@?0@"NSError"8;
+- (_Bool);
 - (void);
-- (_Bool)erCancelDelegate>",&,N,V_delegate;
-- (_Bool)match;
-- (void)ßÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIActivityIndicatorView *activityIndicatorView; // @synthesize activityIndicatorView=_activityIndicatorView;

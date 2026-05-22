@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)ce at launch;
-- (void);
 - (_Bool);
+- (void);
+- (_Bool)¬µüÿÐµüÿèµüÿ`¶üÿx¶üÿ¶üÿÜ¶üÿ`¸üÿ¹üÿ¨¹üÿô¹üÿ4ºüÿLºüÿdºüÿ¸ºüÿØºüÿðºüÿ»üÿ(»üÿP»üÿ»üÿà¿üÿø¿üÿÀüÿPÀüÿ¸ÀüÿÐÀüÿôÀüÿ,Áüÿ¨ÁüÿàÁüÿÂüÿhÂüÿ´ÂüÿÄüÿ<Åüÿ¬ÅüÿLÆüÿ¼ÆüÿìÆüÿÇüÿ,ÇüÿDÇüÿ\ÇüÿtÇüÿèÇüÿ4Èüÿ¤Èüÿ¼ÈüÿôÈüÿÉüÿ°Éüÿ$ÊüÿtÊüÿÌÊüÿÜÌüÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool eatOrientationEvents; // @synthesize eatOrientationEvents=_eatOrientationEvents;

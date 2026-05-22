@@ -27,19 +27,19 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (double);
+- (void);
 - (struct CGRect);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)mberOfAssetsWithMaximum: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

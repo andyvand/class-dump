@@ -25,9 +25,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *persistentVariationStorage; // @synthesize persistentVariationStorage=_persistentVariationStorage;

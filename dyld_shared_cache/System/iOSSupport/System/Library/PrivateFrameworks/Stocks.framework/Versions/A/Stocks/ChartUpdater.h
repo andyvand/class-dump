@@ -19,19 +19,19 @@
 }
 
 + (id);
-- (_Bool);
 - (_Bool);
-- (void)z;
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)u;
 - (long long);
 - (id);
-- (void)R;
 - (void);
-- (void)ateStockComprehensive:(id)arg1;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <ChartUpdaterDelegate> delegate; // @synthesize delegate=_delegate;

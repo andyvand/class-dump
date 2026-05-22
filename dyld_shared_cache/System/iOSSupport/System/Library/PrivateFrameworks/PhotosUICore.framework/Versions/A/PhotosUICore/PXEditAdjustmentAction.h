@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *adjustmentKey; // @synthesize adjustmentKey=_adjustmentKey;

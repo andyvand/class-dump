@@ -11,10 +11,10 @@
     id <_PXPhotosGridContainerDelegate> _delegate;
 }
 
-- (void);
-- (void);
 - (id);
-- (void)Ä;
+- (void);
+- (void)itialize PhotosFileProvider NSFileProviderManager for object:(id)arg1 %{public}@;
+- (void)ow Fetch);
 
 // Remaining properties
 @property(nonatomic) __weak id <_PXPhotosGridContainerDelegate> delegate; // @synthesize delegate=_delegate;

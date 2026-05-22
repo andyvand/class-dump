@@ -16,8 +16,8 @@
     MISSING_TYPE *accessedURLs;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (void);
-- (id)ontentTypeTree=="com.apple.help.topic") && _kMDItemGroupId!=21) || (!(kMDItemContentType=="com.apple.tips" || kMDItemContentType=="com.apple.help.topic" || kMDItemContentTypeTree=="com.apple.help.topic") && InRange(_kMDItemGroupId, 20, 22));
+- (id);
 
 @end
 

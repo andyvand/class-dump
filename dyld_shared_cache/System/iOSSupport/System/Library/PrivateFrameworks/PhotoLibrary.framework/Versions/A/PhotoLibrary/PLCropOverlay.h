@@ -118,21 +118,21 @@
 - (_Bool);
 - (void);
 - (id);
+- (void);
 - (struct CGRect);
 - (int);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (id);
-- (void);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PLCropOverlayBottomBar *_bottomBar; // @synthesize _bottomBar=__bottomBar;

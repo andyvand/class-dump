@@ -15,9 +15,8 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (id)aWð!dBù±§°1¢!0@ù
-× ;
+- (id);
+- (void)R,N,V_volumeWarningState;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *events;

@@ -12,12 +12,12 @@
 {
 }
 
-- (_Bool)at path during mark as updated %@;
-- (_Bool)om legacy device;
+- (_Bool);
+- (_Bool);
 - (id);
-- (id)!èFùÑÍÐ1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (id);
+- (id)eatingFrameUpdate;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool blackWallpaperModeEnabled;

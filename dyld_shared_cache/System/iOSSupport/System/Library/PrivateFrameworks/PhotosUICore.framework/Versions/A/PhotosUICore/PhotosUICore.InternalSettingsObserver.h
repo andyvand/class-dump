@@ -11,9 +11,9 @@
     MISSING_TYPE *changeHandler;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)P;
 
 @end
 

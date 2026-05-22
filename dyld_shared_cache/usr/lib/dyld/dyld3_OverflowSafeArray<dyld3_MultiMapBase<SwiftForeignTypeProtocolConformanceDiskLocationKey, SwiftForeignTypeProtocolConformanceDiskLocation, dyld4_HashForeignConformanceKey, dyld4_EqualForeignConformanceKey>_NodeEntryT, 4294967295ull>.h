@@ -4,7 +4,7 @@
 
 class dyld3::OverflowSafeArray<dyld3::MultiMapBase<SwiftForeignTypeProtocolConformanceDiskLocationKey, SwiftForeignTypeProtocolConformanceDiskLocation, dyld4::HashForeignConformanceKey, dyld4::EqualForeignConformanceKey>::NodeEntryT, 4294967295ull> {
 public: // (access info unavailable from symbols alone)
-    growTo(unsigned long long);
-    growTo(unsigned long long) (.cold.1);
-    operator[](unsigned long long);
+    auto growTo(unsigned long long);
+    auto growTo(unsigned long long) (.cold.1);
+    auto operator[](unsigned long long);
 };

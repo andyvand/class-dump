@@ -32,24 +32,25 @@
 + (id);
 + (id);
 + (id);
-+ (void)com.apple.xbs/Sources/AlderShared/drawables/TSDContactShadow.m;
-- (void)4;
++ (void)´;
+- (void);
 - (void);
 - (double);
-- (id)C;
-- (_Bool);
-- (id)8Ԫ#;
-- (long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (long long);
-- (id);
-- (double)\r;
-- (id);
 - (void);
+- (id);
+- (id);
 - (int);
+- (double);
+- (_Bool);
+- (id);
+- (long long);
+- (void)
+× ;
+- (void)ecognizers;
 
 // Remaining properties
 @property(nonatomic) int alignment; // @synthesize alignment=_alignment;

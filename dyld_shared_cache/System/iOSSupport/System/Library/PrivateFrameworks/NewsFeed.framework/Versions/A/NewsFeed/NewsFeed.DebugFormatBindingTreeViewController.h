@@ -14,12 +14,12 @@
     MISSING_TYPE *$__lazy_storage_$_model;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)eenStrategy;
+- (void)¥A:ð+ÿ¥A:0¢wþ¥A:ømªþ /* Error: Ran out of types for this method. */;
 - (void);
-- (void)á Å|»;
 
 @end
 

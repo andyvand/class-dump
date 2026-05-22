@@ -11,9 +11,9 @@
     UIAction *_action;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIAction *action; // @synthesize action=_action;

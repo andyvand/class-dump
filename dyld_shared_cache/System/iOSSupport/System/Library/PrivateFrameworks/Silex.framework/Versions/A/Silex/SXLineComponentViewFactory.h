@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (int)kModule;
+- (int);
 
 @end
 

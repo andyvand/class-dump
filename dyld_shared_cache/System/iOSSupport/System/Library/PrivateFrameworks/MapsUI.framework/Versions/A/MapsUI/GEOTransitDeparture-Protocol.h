@@ -8,7 +8,8 @@
 @protocol GEOServerFormattedString;
 
 @protocol GEOTransitDeparture
-- (_Bool)sappear: /* Error: Ran out of types for this method. */;
+- (NSString *)4@0:8i16i20@24@32@40i48@52@60@68@?76 /* Error: Ran out of types for this method. */;
+- (_Bool)ects;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *departureDate;

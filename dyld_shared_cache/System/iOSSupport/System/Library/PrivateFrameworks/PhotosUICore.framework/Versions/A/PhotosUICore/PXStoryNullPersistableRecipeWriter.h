@@ -12,11 +12,10 @@
 }
 
 - (id);
-- (void)ü¸ ÷;
 - (id);
-- (id)1b0@ù
-× ;
-- (id)¥5r#ÿ;
+- (id);
+- (id)viewURL;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;

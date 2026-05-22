@@ -21,20 +21,22 @@
 + (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)!øFùøð1â
+0@ù
+× ;
 - (id);
 
 // Remaining properties

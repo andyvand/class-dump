@@ -12,11 +12,11 @@
     MISSING_TYPE *iapBorderPlusLayer;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

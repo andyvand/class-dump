@@ -29,14 +29,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)0@ù
+× ;
+- (id),Õýÿ(ÕýÿPÿÿxýÿ;
+- (void)OneUpPresentation;
 
 // Remaining properties
 @property(nonatomic, setter=_setAnimationCount:) long long _animationCount; // @synthesize _animationCount=__animationCount;

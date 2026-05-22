@@ -13,14 +13,13 @@ __attribute__((visibility("hidden")))
     unsigned long long _errorCount;
 }
 
-+ (id)esponder:(id)arg1;
++ (id);
+- (void);
+- (unsigned long long)!ÜGù1e°1Â0@ù
+× ;
+- (void)PúxþR;
+- (id)ÿ|Ê;
 - (id);
-- (unsigned long long)invariant violation.;
-- (void)!o!$CùqÁ1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)lickInteraction:(unsigned long long)arg1;
 
 // Remaining properties
 @property(nonatomic) unsigned long long errorCount; // @synthesize errorCount=_errorCount;

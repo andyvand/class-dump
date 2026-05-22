@@ -8,8 +8,7 @@
 @protocol GEOTransitLine;
 
 @protocol GEOTransitDepartureSequence
-- (NSString *);
-- (id <GEOTransitLine>);
+- (NSTimeZone *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *containerDisplayName;

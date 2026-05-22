@@ -11,7 +11,7 @@
     NSMapTable *_homeBackgroundCheckMapTable;
 }
 
-+ (id);
++ (id)teCondition:forOptionItem: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -27,8 +27,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)external image drop session;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

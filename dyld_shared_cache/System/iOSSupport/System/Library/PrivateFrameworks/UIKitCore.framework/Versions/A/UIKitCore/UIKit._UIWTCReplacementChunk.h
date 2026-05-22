@@ -18,9 +18,8 @@
     MISSING_TYPE *isDeliveryAnimationComplete;
 }
 
-- (void)!Fù±ÄÐ1¢!0@ù
-× ;
-- (id)roup: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 @end
 

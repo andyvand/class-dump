@@ -98,16 +98,12 @@
 - (_Bool);
 - (struct CGPoint);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool);
 - (double);
 - (double);
 - (_Bool);
 - (double);
 - (double);
-- (double);
-- (double)k@yjA
-*,;
-- (_Bool);
 - (double);
 - (double);
 - (_Bool);
@@ -115,7 +111,10 @@
 - (double);
 - (_Bool);
 - (double);
-- (double)?;
+- (double);
+- (_Bool);
+- (double);
+- (double);
 - (_Bool);
 - (double);
 - (double);
@@ -157,7 +156,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)n: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool anchorPointAnimationExists; // @synthesize anchorPointAnimationExists=_anchorPointAnimationExists;

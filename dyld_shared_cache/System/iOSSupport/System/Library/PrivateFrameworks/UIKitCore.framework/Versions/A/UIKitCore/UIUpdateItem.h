@@ -20,24 +20,24 @@ __attribute__((visibility("hidden")))
 }
 
 - (long long);
-- (id);
-- (id);
 - (long long);
+- (void);
+- (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (long long);
-- (id)1¢!0@ù
+- (_Bool);
+- (id);
+- (id);
+- (long long)ñ[ð1Â0@ù
 × ;
-- (id)ssoryForCustomSelectionAction;
-- (id)ommands",R,N;
-- (_Bool)uages;
-- (_Bool)ationControllerDelegate;
-- (long long)Øh8kÌk;
-- (void)is OK, don't ignore it;
-- (id)urce around a month that is not loaded.;
-- (int)´×:&] /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (id)ctCornerRadii=dddd}16;
+- (id)setShowsClearButtonWhenEmpty: /* Error: Ran out of types for this method. */;
+- (void)ntedUserInterfaceStyleViewController;
+- (long long)Screen;
+- (id)spensionState;
+- (int)ePickerControllerCameraViewTransform;
+- (void)Ç0Ûä`;
 
 // Remaining properties
 @property(readonly, nonatomic) int action; // @synthesize action=_action;

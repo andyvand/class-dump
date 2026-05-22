@@ -5,9 +5,5 @@
 //
 
 @protocol CKDetailsContactsTableViewCellDelegate
-- (void)anResultCG;
-- (void)ImageC;
-- (void);
-- (void)ualSmartFolderItemIdentifierTypeMathNotes;
 @end
 

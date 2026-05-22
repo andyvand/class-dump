@@ -32,18 +32,18 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
 + (id);
-+ (id)°Iôÿ5s|û.;
++ (_Bool);
++ (id)ûÿÅ²3;
 - (void);
 - (void);
+- (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)g"8@"NSString"16@"NSError"24;
+- (void)nse"8@"NSData"16@"NSError"24;
+- (id)<;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;

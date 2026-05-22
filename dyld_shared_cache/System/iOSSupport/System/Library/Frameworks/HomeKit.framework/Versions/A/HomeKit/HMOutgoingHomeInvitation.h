@@ -16,7 +16,7 @@
 
 + (id);
 + (id);
-+ (_Bool)SleepWakeStateCodingKey;
++ (_Bool);
 
 @end
 

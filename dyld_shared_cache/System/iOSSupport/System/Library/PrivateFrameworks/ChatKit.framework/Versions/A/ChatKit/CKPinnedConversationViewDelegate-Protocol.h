@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CKPinnedConversationActivitySnapshot, CKPinnedConversationView;
-
 @protocol CKPinnedConversationViewDelegate
-- (CKPinnedConversationActivitySnapshot *)vernoteNotesFromFileURL:(CKConversation *)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (void)ed:(CKPinnedConversationView *)arg1;
 @end
 

@@ -15,9 +15,7 @@ __attribute__((visibility("hidden")))
     long long _currentTextFieldTag;
 }
 
-+ (id)eU%;
-- (id);
-- (id) ;
++ (id);
 - (id);
 - (id);
 - (id);
@@ -25,15 +23,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)oÐ!ÐCùñÁð1¢!0@ù
-× ;
+- (void)Ø<Þþp\×89g;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

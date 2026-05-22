@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)siness = %@; shared = %@; owner = %@; access = %@>;
 
 @end
 

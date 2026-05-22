@@ -7,6 +7,8 @@
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (void)and highContrast=%{bool}d;
+- (void)Jýÿ¹oÿÿ;
+- (void)ÙS
+GG;
 @end
 

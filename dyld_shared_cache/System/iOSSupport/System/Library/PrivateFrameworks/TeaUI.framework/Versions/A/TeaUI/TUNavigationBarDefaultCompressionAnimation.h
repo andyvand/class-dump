@@ -39,7 +39,7 @@
 - (void);
 - (double);
 - (double);
-- (id)<;
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -51,10 +51,10 @@
 - (id);
 - (void);
 - (void);
-- (double)t: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)nection"b1};
-- (id)__qd_0_G;
+- (double);
+- (id);
+- (void)¬tùÿØtùÿütùÿ8uùÿ\uùÿuùÿ¼uùÿàuùÿvùÿ¨vùÿÌvùÿØvùÿ´zùÿðzùÿüzùÿ{ùÿ{ùÿ {ùÿ|ùÿ |ùÿ,|ùÿ¸|ùÿÌ}ùÿH~ùÿ,ùÿDùÿùÿùÿùÿàùÿìùÿøùÿùÿùÿùÿ(ùÿ4ùÿXùÿ<ùÿüùÿ$ùÿHùÿùÿùÿtùÿùÿùÿ(ùÿÄùÿ ùÿDùÿùÿ¤ùÿðùÿùÿ8ùÿùÿ8ùÿ\ùÿùÿ¼ùÿøùÿ$ùÿxùÿ´ùÿØùÿùÿÐùÿtùÿùÿäùÿùÿdùÿùÿüùÿ ùÿ\ùÿùÿ¼ùÿÈùÿìùÿPùÿ,ùÿùÿ¼ùÿÈùÿÔùÿùÿ¬ùÿèùÿôùÿ;
+- (id)öÜG;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *barButtonItemViews; // @synthesize barButtonItemViews=_barButtonItemViews;

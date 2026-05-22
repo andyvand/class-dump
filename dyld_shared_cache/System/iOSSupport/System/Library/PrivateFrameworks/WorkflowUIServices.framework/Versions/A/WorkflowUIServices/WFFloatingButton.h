@@ -13,13 +13,13 @@
 + (Class);
 - (id);
 - (void);
-- (void);
 - (struct CGSize);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) WFGradient *gradient;

@@ -11,38 +11,38 @@
     MISSING_TYPE *_backingProperties;
 }
 
-+ (_Bool)lF;
++ (_Bool);
 - (void);
 - (void);
-- (void)4;
-- (void)led to open TTR:(long long)arg1 %@;
+- (void);
+- (void);
 - (long long);
 - (struct CGSize);
 - (double);
-- (void)e�;
+- (void);
 - (void);
 - (double);
-- (void);
-- (_Bool)mID:(id)arg1;
 - (id);
 - (id);
 - (id);
-- (void)ÀÙ¹;
-- (void)1¢!0@ù
+- (void)A!ôFù±ZÐ1Â0@ù
 × ;
-- (double)=dd}40;
-- (void)ostCanDynamicallySpecifySupportedInterfaceOrientations:(double)arg1;
-- (id):toView:containerView: /* Error: Ran out of types for this method. */;
-- (id)hOptions: /* Error: Ran out of types for this method. */;
-- (void)onSnapshot;
-- (id)_contextID;
-- (double)_autoInvalidationPreventionAssertions,V_autoInvalidationPreventionAssertions;
-- (id)¼h¬iünPsÀs,x;
-- (id);
+- (id)tems;
+- (id)roller:separateSecondaryViewControllerFromPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (void)InflightState;
+- (_Bool)ustedPoint;
+- (void)etPlacement:(id)arg1;
+- (double)city: /* Error: Ran out of types for this method. */;
+- (void)KBRTTouchHistoryInfo",&,N,V_leftIndexFingerInfo;
+- (id)´upw;
+- (double);
 - (void);
-- (struct CGSize)D;
-- (void)ÞÆÿÂÎæg;
-- (void)Ã¦ÿÚÏÔ£s;
+- (id), UIModalPresentationPopover and UIModalPresentationFormSheet presentation styles;
+- (void);
+- (void)q;
+- (void)èÛl;
+- (id)[è×h\n;
+- (struct CGSize)¤`Y;
 
 // Remaining properties
 @property(nonatomic) long long _backgroundConfigurationShadowType;

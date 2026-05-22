@@ -29,13 +29,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) PRSPosterUpdateColorPayload *gradientColorAppearance; // @synthesize gradientColorAppearance=_gradientColorAppearance;

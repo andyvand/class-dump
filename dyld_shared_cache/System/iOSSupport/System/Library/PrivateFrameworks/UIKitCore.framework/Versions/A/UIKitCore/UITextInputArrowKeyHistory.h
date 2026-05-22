@@ -18,22 +18,21 @@ __attribute__((visibility("hidden")))
     _Bool affinityDownstream;
 }
 
-- (void)y"40@"NSString"48;
-- (_Bool)ing;
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (long long);
-- (void)F0º;
-- (void)Ð1¢!0@ù
-× ;
-- (id)S_setTargetIndexPathsForInteractivelyMovingItems: /* Error: Ran out of types for this method. */;
-- (void)letteCellLayout;
-- (int)ned behavior. This will become a hard assert in the future.;
-- (id)Interactions;
-- (id);
 - (void);
-- (void);
+- (id);
+- (id)_sendWillEndWithOperation: /* Error: Ran out of types for this method. */;
+- (id)rollerBottomLayoutGuide;
+- (void)_;
+- (void)å"ÿiV;
+- (void)úþ¦ÔD b;
+- (int):ÌÀyb /* Error: Ran out of types for this method. */;
+- (void)àòg;
 
 // Remaining properties
 @property(nonatomic) _Bool affinityDownstream; // @synthesize affinityDownstream;

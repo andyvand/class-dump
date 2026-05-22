@@ -13,28 +13,19 @@
     long long rawDate;
 }
 
-+ (_Bool))
-    /* ck_chat_id matches to a guid (for 1:1 chats) */
-    OR c.guid LIKE '%' || (
-        SELECT CASE
-            WHEN instr(m.ck_chat_id, ';') > 0
-            THEN substr(m.ck_chat_id, instr(m.ck_chat_id, ';') + 1)
-            ELSE NULL
-        END
-    )
-WHERE m.guid IN  /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id),V_mathItem;
 - (id);
-- (id);
-- (id)pÜ;
-- (void)ÿñ6Ù$¢ïÿñ6ÙX¹òÿ;
+- (id)sFilteringSettingForPreferedSubscription;
+- (void)get initialized!;
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *ckRecordID;

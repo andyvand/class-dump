@@ -24,15 +24,14 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
 - (_Bool);
 - (void);
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id)w!8Dù1|Ð1b0@ù
-× ;
-- (void)e data request:(id)arg1 %@;
-- (_Bool)rce.m;
+- (void);
+- (void)ø<a;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

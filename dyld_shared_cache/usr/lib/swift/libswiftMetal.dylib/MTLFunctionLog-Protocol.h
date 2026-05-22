@@ -8,7 +8,6 @@
 @protocol MTLFunction, MTLFunctionLogDebugLocation;
 
 @protocol MTLFunctionLog
-- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLFunctionLogDebugLocation> debugLocation;

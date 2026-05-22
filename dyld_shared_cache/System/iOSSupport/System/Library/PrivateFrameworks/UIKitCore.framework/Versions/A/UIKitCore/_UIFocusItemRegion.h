@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (long long)ysisFetchOptions;
-- (id)ng",&,N,V_handleID;
+- (long long);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -30,9 +30,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)_presentingController;
+- (id);
+- (_Bool)ownSecureLabelImageLayerIfNeeded;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UIFocusItem> item; // @synthesize item=_item;

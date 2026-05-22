@@ -7,16 +7,14 @@
 @protocol _UITextCanvasContext;
 
 @protocol _UITextCanvas
-- (void)5;
-- (void);
-- (_Bool)0@ù
+- (id <_UITextCanvasContext>)c1Â0@ù
 × ;
-- (void)ouldCollapseItemHandler: /* Error: Ran out of types for this method. */;
-- (void)mallestUndimmedDetentIdentifierWhenEdgeAttachedInCompactHeight;
-- (id <_UITextCanvasContext>)ansferrableAnimationKeys;
-- (void),À;
-- (void)LMessageSource;
-- (void)iewCell but found %@.;
+- (_Bool)Ô ;
+- (void)date3DTouchesCentroid: /* Error: Ran out of types for this method. */;
+- (void)ngInputViews;
+- (void)yle;
+- (void)N,S_setConfiguredFloatableView:(struct CGRect)arg1 ,V_configuredFloatableView;
+- (void)mageProperties;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextCanvasContext> context;

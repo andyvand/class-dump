@@ -12,14 +12,15 @@
     NSString *_sceneIdentifier;
 }
 
-+ (_Bool)`Ê{ÿ;
-- (void);
++ (_Bool)n invalid section (%ld);
 - (id);
-- (void);
-- (id)`;
-- (void);
-- (void)8m;
-- (id)S¾n;
+- (void)!@ùb°1Â0@ù
+× ;
+- (void)llApplySnapshotHandler;
+- (void)Èùú\ú´úøú¼ûüûäü4ý`þüþXÿÔÿ;
+- (id)IdentifierKey;
+- (id);
+- (void)J|;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;

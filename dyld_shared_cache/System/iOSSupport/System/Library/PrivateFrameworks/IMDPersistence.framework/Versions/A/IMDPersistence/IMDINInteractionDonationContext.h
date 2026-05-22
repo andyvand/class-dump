@@ -13,6 +13,7 @@
     _Bool _isReplyToMe;
     _Bool _isNotifyAnyway;
     _Bool _isMergedBusinessThread;
+    _Bool _shouldDisplayGroupNameAndPhoto;
     NSString *_messageGUID;
     NSString *_messagePlainBody;
     NSDate *_messageDate;
@@ -26,10 +27,10 @@
     NSString *_chatLastAddressedLocaleHandle;
     NSString *_groupPhotoGuid;
     NSString *_groupPhotoInternalFilePath;
-    long long _isFilteredValue;
 }
 
 - (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -53,22 +54,21 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (long long);
-- (id)(a;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void)e index madrid_service_index.;
+- (id);
 - (unsigned char);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chatDisplayName; // @synthesize chatDisplayName=_chatDisplayName;
@@ -79,7 +79,6 @@
 @property(nonatomic) unsigned char chatStyle; // @synthesize chatStyle=_chatStyle;
 @property(retain, nonatomic) NSString *groupPhotoGuid; // @synthesize groupPhotoGuid=_groupPhotoGuid;
 @property(retain, nonatomic) NSString *groupPhotoInternalFilePath; // @synthesize groupPhotoInternalFilePath=_groupPhotoInternalFilePath;
-@property(nonatomic) long long isFilteredValue; // @synthesize isFilteredValue=_isFilteredValue;
 @property(nonatomic) _Bool isMentionOfMe; // @synthesize isMentionOfMe=_isMentionOfMe;
 @property(nonatomic) _Bool isMergedBusinessThread; // @synthesize isMergedBusinessThread=_isMergedBusinessThread;
 @property(nonatomic) _Bool isNotifyAnyway; // @synthesize isNotifyAnyway=_isNotifyAnyway;
@@ -89,6 +88,7 @@
 @property(retain, nonatomic) NSString *messagePlainBody; // @synthesize messagePlainBody=_messagePlainBody;
 @property(retain, nonatomic) NSString *senderHandleID; // @synthesize senderHandleID=_senderHandleID;
 @property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
+@property(nonatomic) _Bool shouldDisplayGroupNameAndPhoto; // @synthesize shouldDisplayGroupNameAndPhoto=_shouldDisplayGroupNameAndPhoto;
 @property(retain, nonatomic) NSString *uncanonicalizedSenderHandleID; // @synthesize uncanonicalizedSenderHandleID=_uncanonicalizedSenderHandleID;
 
 @end

@@ -19,24 +19,24 @@ __attribute__((visibility("hidden")))
     long long _axis;
 }
 
-- (id)icalTo:(struct _NSZone *)arg1;
-- (_Bool);
-- (void);
-- (void)
+- (id);
+- (void)!ÄBù±]1Â0@ù
 × ;
-- (id)r:forUUID:andDescription: /* Error: Ran out of types for this method. */;
-- (void)ng;
+- (long long);
 - (void);
-- (id)ìËiþ;
-- (_Bool)jþÝç4jþÝç4jþÝç4jþ;
-- (_Bool)ã;
-- (id);
-- (_Bool);
-- (long long)I#];
-- (id);
-- (void)rß_;
-- (void)YhØ;
-- (void)Â¬;
+- (id)n;
+- (id)ider;
+- (void)itingToolsAllowedInputOptions;
+- (id)View",&,N,V_blurView;
+- (void)ricCalculation;
+- (id)t;
+- (_Bool)n state!;
+- (void);
+- (_Bool);
+- (void)u43¹;
+- (_Bool);
+- (_Bool)\;
+- (void)¥^;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_newlyHiddenItems; // @synthesize _newlyHiddenItems;

@@ -4,12 +4,14 @@
 
 class marisa::grimoire::vector::FlatVector {
 public: // (access info unavailable from symbols alone)
-    build(marisa::grimoire::vector::Vector<unsigned int> const&);
-    build_(marisa::grimoire::vector::Vector<unsigned int> const&);
-    map(marisa::grimoire::io::Mapper&);
-    map_(marisa::grimoire::io::Mapper&);
-    read(marisa::grimoire::io::Reader&);
-    read_(marisa::grimoire::io::Reader&);
-    set(unsigned long, unsigned int);
-    write_(marisa::grimoire::io::Writer&) const;
+    auto build(marisa::grimoire::vector::Vector<unsigned int> const&);
+    auto build_(marisa::grimoire::vector::Vector<unsigned int> const&);
+    auto map(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&) (.cold.1);
+    auto read(marisa::grimoire::io::Reader&);
+    auto read_(marisa::grimoire::io::Reader&);
+    auto read_(marisa::grimoire::io::Reader&) (.cold.1);
+    auto set(unsigned long, unsigned int);
+    auto write_(marisa::grimoire::io::Writer&) const;
 };

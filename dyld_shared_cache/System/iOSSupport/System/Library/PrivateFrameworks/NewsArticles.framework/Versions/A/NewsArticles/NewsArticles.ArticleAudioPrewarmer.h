@@ -14,8 +14,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)ecirculationService;
 
 @end
 

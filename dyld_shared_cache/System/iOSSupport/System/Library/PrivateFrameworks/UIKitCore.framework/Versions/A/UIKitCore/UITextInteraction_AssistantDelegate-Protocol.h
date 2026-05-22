@@ -4,77 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuInteraction, UIGestureRecognizer, UITextCursorAssertionController, UITextRangeAdjustmentInteraction, UITextSelection, UIView, _UIKeyboardTextSelectionController, _UITextChoiceAccelerationAssistant, _UITextInteractionEditMenuAssistant;
+@class NSString, UIContextMenuInteraction, UITextCursorAssertionController, UITextRangeAdjustmentInteraction, UITextSelection, UIView, _UIKeyboardTextSelectionController, _UITextChoiceAccelerationAssistant, _UITextInteractionEditMenuAssistant;
 @protocol UIContextMenuInteractionDelegate, _UITextSelectionWidgetAnimating;
 
 @protocol UITextInteraction_AssistantDelegate
-- (_Bool);
-- (void){;
-- (_Bool)RTY;
-- (void)eProperties is not array;
-- (void)failed;
-- (void)Invalid metaDataArray count;
-- (void)de;
-- (void)iData;
-- (void)turned error %@;
-- (void)SealingMapCopyManifestPropertiesForDevice;
-- (void)t CSR from offline blob;
-- (void)Specs);
-- (void)t parse FDR Trust Object trusted key sequence;
-- (void)odeIterateTrustObjectTrustedKeyBegin;
-- (void)on manifest;
-- (void)ltiExport is not implemented;
-- (void)tring;
-- (int)QUwwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
-AATstM3jcCQWuq9Bg83QA8IlrIKWDtWxssWc1c4hdDg/wsmD6Xb+xb45NCRgFnBW
-SS1+dvn52D3WUU5HVS412NMxo4GHMIGEMFoGCiqGSIb3Y2QGAQ8ETDFK/4T6iZRQ
-QzBBFgRPQkpQMTn/hKKdplQMMAoWBERHU1SgAgUA/4absdJkDDAKFgRjbGlkoAIF
-AP+Gy7nmdAwwChYEaW5zdKACBQAwEAYJKoZIhvdjZAYQBAMMASowFAYJKoZIhvdj
-ZAYRBAcMBUxvY2FsMA0GCSqGSIb3DQEBCwUAA4ICAQBvsxDEZweOcEo10OpMUpx2
-NZTy4BvSNqKOlv1nHTLqESHYTfik/L3mqTeOoWe20UkMY/e3vKwJWbgavzw7WOxb
-65bQ+ixU5VQUZzy1XlaQkIW49Tqid1WViSNNlqEXJLTj8lsplpuy5iT/WndNWczq
-opM3SkdS5YgjAqP4r8qoOAK7pSoMvLd6LTijbp9pTKDTseoXoJsVgPA/LNbW0FvR
-QxJyVVYkFnN1jtZB2ge5tqpuEuXwyCa/1bC9H8WE49uHyABIzfRaLEs7JbYvIaDH
-rgcoErGtyADmR/OvhMXryBz+USUG8bZtD/VoCsoIhoJFSVOBNDZXD59arISbjl8q
-8lbmCloZmocbUPMRinXDbpwMcAfQhv2sV/J6T5+TFAeRdSORhnwnle+56sedvugJ
-e8QOz85eTifA/KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
-- (void)PRIVATE KEY-----
-MHcCAQEEIH8GJj9NiD6iV4nXjax4mJ6+yLqNrf2Cw1x/A8eXBXTLoAoGCCqGSM49
-AwEHoUQDQgAE7LTN43AkFrqvQYPN0APCJayClg7VsbLFnNXOIXQ4P8LJg+l2/sW+
-OTQkYBZwVkktfnb5+dg91lFOR1UuNdjTMQ==
------END EC PRIVATE KEY-----;
-- (id);
-- (void)T;
-- (UIView<_UITextSelectionWidgetAnimating> *)andleID:fromID: /* Error: Ran out of types for this method. */;
-- (void)Identifier:(id)arg1 typeIdentifier:options:error: /* Error: Ran out of types for this method. */;
-- (void)ileTransferExplicitDownloadFailed:(_Bool)arg1 suggestedRetryGUID:error: /* Error: Ran out of types for this method. */;
-- (_Bool)dIDs:displayName:style: /* Error: Ran out of types for this method. */;
-- (_Bool):groupID:style: /* Error: Ran out of types for this method. */;
-- (UITextSelection *)Blackholed: /* Error: Ran out of types for this method. */;
-- (_Bool)@;
-- (void)WithSize:color: /* Error: Ran out of types for this method. */;
-- (_Bool)to create authPut request;
-- (void)inerFilterPredicatesWithCloudFilteringType:additionalFilterPredicates: /* Error: Ran out of types for this method. */;
-- (void)xportableSessionTypes;
-- (void);
-- (_Bool)eTextItemAtPoint:precision: /* Error: Ran out of types for this method. */;
-- (void)le:(struct CGPoint)arg1 alternatives: /* Error: Ran out of types for this method. */;
-- (_Bool)ð;
-- (void)ill produce an incorrect appearance; switch to the UIBackgroundConfiguration API to resolve this.;
-- (void)wP33_FFDE3B7A64024E6DED98D26CC792816C8WaveView;
-- (void)ÿ3Üv·þUïÿ3Øv·þ;
-- (void)Aÿ3uñ;
-- (UIContextMenuInteraction *)tifier;
-- (_UITextInteractionEditMenuAssistant *)~[;
-
-@optional
-- (_Bool)ôGH;
-- (_Bool)d an error while building user activity for scene:(UIGestureRecognizer *)arg1 %@;
+- (void)Aù]°1Â0@ù
+× ;
+- (void);
+- (void)!xGùñfÐ1Â0@ù
+× ;
+- (void)zedBackgroundColor"b1"hasCustomizedBackgroundColorTransformer"b1"hasCustomizedVisualEffect"b1"hasCustomizedVisualEffectGroupName"b1"hasCustomizedVisualEffectblurClippingMode"b1"hasCustomizedImage"b1"hasCustomizedImageContentMode"b1"hasCustomizedStrokeColor"b1"hasCustomizedStrokeColorTransformer"b1"hasCustomizedStrokeWidth"b1"hasCustomizedStrokeOutset"b1"hasCustomizedMaskedCorners"b1"hasCustomizedMaterial"b1};
+- (_Bool)imationAtScale: /* Error: Ran out of types for this method. */;
+- (_Bool)nt: /* Error: Ran out of types for this method. */;
+- (void)hStoryboardIfNeeded:(NSString *)arg1;
+- (_Bool)groundView;
+- (UIView *)ndColorMode;
+- (UITextCursorAssertionController *)V_sceneSpecification;
+- (void)not issue %@ sandbox extension (%@).;
+- (void)¢Æþÿ;
+- (UIContextMenuInteraction *)û;
+- (void);
+- (_UITextInteractionEditMenuAssistant *)13PénþÝ13ðÿÅ13@énþÅ13TúþÍ138è¸þ;
+- (void)ÿsþ¥43Üþsþ43Øþsþ;
+- (void)e;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextCursorAssertionController *_assertionController;

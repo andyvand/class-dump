@@ -33,21 +33,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
 - (struct CGSize);
 - (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (id);
 - (long long);
 - (id);
 - (void);
-- (void);
-- (_Bool)$7AIyACyAAyAKyAMGH7y:7SgGG_AAyÍ7ARGå7tGGGGG_A9Qo_7yK7GG_AVtGGAEGAEGtGGAEG /* Error: Ran out of types for this method. */;
-- (void)D@;
+- (_Bool);
+- (void)tEndPoint: /* Error: Ran out of types for this method. */;
+- (id)¼>ôÿÿÿÿÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated=_animated;

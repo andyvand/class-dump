@@ -15,13 +15,12 @@
 }
 
 - (id);
-- (id)x<PA
-;
-- (Class));
+- (id);
+- (Class);
 - (_Bool);
-- (void);
-- (id)<;
-- (long long)ouldIndentWhileEditingRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long);
+- (void)L±ÿ%£jä±ÿm£jà±ÿ£jÜ±ÿM£j¬oÿm£jÐ±ÿ£jÌ±ÿ£jxÿÿÿÅ£jl±ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) Class balloonViewClass;

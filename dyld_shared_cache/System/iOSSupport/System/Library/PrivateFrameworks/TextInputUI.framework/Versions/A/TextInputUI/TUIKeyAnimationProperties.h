@@ -22,28 +22,28 @@
 
 - (struct UIEdgeInsets);
 - (double);
-- (struct UIEdgeInsets)5pz;
-- (double);
+- (struct UIEdgeInsets);
 - (double);
-- (struct UIEdgeInsets)Í­*z;
-- (void)ø«îy;
-- (void);
-- (void)|;
-- (void)pæ|;
-- (void);
-- (void)|;
-- (void)T¿z;
-- (void)?@³|;
-- (void);
-- (void)áìãz;
-- (void);
-- (void);
-- (struct UIEdgeInsets)4æ|;
 - (double);
-- (struct UIEdgeInsets)QUüy;
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
 - (double);
-- (double);
-- (struct UIEdgeInsets)|;
+- (struct UIEdgeInsets);
+- (double);
+- (double);
+- (struct UIEdgeInsets);
 - (id);
 
 // Remaining properties

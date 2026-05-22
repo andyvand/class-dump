@@ -14,10 +14,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id)rollParent;
+- (id);
+- (void)Delegate>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *conditions; // @synthesize conditions=_conditions;

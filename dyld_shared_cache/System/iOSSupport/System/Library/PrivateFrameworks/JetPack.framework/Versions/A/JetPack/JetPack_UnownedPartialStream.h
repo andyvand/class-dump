@@ -5,10 +5,10 @@
 class JetPack::UnownedPartialStream {
 public: // (access info unavailable from symbols alone)
     UnownedPartialStream(JetPack::BaseStream&, unsigned long);
-    isFinished();
-    position();
-    read(unsigned char*, unsigned long);
-    seekForward(unsigned long);
-    seekToEnd();
+    auto isFinished();
+    auto position();
+    auto read(unsigned char*, unsigned long);
+    auto seekForward(unsigned long);
+    auto seekToEnd();
     ~UnownedPartialStream();
 };

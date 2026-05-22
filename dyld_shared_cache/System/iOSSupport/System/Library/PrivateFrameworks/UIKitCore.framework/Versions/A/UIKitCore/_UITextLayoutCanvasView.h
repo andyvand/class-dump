@@ -43,60 +43,63 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void)g^;
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void)N,V_contentItemID;
-- (void);
+- (struct CGRect);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)0@ù
+- (struct CGRect)°!äFù[Ð1Â0@ù
 × ;
-- (id)Ô ;
-- (id);
-- (_Bool)1¢!0@ù
+- (id)
 × ;
-- (void);
-- (_Bool)ndexer;
-- (void);
-- (void)ionForce;
-- (void)tationEdge;
-- (void)terImageInsets;
-- (id)ableViewCellLayoutManagerValue2;
+- (id)Ñdð1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (id)Ð!Dùeð1Â0@ù
+× ;
+- (_Bool)Ð!;
+- (_Bool)ode>"16;
+- (id)textField:(struct CGRect)arg1 willDismissEditMenuWithAnimator:(_Bool)arg2;
+- (void)rlinedRanges: /* Error: Ran out of types for this method. */;
+- (id)ler: /* Error: Ran out of types for this method. */;
+- (void)usItem:(id)arg1;
+- (void)ftConstraint;
+- (void)soryTintColor:(id)arg1;
+- (void)idTransitionMenuForConfiguration:(id)arg1;
+- (void)etPaddingTop:,Vm_paddingTop /* Error: Ran out of types for this method. */;
+- (void)nWidget>",R,N,V_selectionWidget;
+- (void)ate;
 - (id);
-- (id)ndow;
-- (void)Ä Å@ÅÅÆ.ÇÈ´È;
-- (void)ource:(id)arg1 %@;
-- (void)ed orientation transaction is active. Overriding the requested orientation to preserve the forced orientation. requested=%@; forced=%@; token=%@;
-- (struct CGRect);
-- (void)Short%@BackgroundArrow%@.png;
-- (void)ation;
-- (id)vice;
-- (void)Mask;
+- (void)eftArrow;
+- (void)SgG;
+- (void)UILayoutGuideCSg_B;
+- (void)<=0@®Gáz®÷?ÊÃB­iÞú?;
 - (void);
-- (struct CGRect);
-- (id)äÚ;
-- (void);
+- (id)Õ13l;
+- (id)0K;
 - (void);
-- (id)²[;
+- (void)H;
+- (id);
+- (id)ñp43³¾;
+- (void)êÚþ;
+- (id)^;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextCanvasContext> context; // @synthesize context=_context;

@@ -22,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (id)faults;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;

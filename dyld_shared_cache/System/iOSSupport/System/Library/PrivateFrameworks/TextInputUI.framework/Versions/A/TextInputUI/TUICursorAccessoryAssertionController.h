@@ -19,11 +19,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id)tentTouches: /* Error: Ran out of types for this method. */;
+- (id)ithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *assertions; // @synthesize assertions=_assertions;

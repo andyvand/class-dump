@@ -5,9 +5,9 @@
 class mach_o::BindOpcodes {
 public: // (access info unavailable from symbols alone)
     BindOpcodes(unsigned char const*, unsigned long, bool);
-    forEachBind(void (char const*, int, bool, unsigned char, unsigned long long, bool, int, char const*, bool, long long, bool, bool&) block_pointer, void (char const*) block_pointer) const;
-    forEachBindTarget(void (mach_o::Fixup::BindTarget const&, bool&) block_pointer, void (char const*) block_pointer) const;
-    hasDoneBetweenBinds() const;
-    implicitLibraryOrdinal() const;
-    valid(std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>, unsigned int, bool, bool) const;
+    auto forEachBind(void (char const*, int, bool, unsigned char, unsigned long long, bool, int, char const*, bool, long long, bool, bool&) block_pointer, void (char const*) block_pointer) const;
+    auto forEachBindTarget(void (mach_o::Fixup::BindTarget const&, bool&) block_pointer, void (char const*) block_pointer) const;
+    auto hasDoneBetweenBinds() const;
+    auto implicitLibraryOrdinal() const;
+    auto valid(std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>, unsigned int, bool, bool) const;
 };

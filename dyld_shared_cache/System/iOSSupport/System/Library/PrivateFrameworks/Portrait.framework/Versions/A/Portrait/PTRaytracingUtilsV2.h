@@ -19,8 +19,7 @@
 + (struct PTFocus);
 + (struct PTFocusEdge);
 + (float);
-+ (float)0@ù
-× ;
++ (float);
 - (int);
 - (void);
 - (int);

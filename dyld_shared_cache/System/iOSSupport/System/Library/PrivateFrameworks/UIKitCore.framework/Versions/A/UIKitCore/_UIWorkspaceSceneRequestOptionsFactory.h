@@ -14,17 +14,17 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)sSetUpGeometryChangeResponse;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id)tLastTUConversationCreatedDate:(id)arg1;
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *buildersByRole; // @synthesize buildersByRole=_buildersByRole;

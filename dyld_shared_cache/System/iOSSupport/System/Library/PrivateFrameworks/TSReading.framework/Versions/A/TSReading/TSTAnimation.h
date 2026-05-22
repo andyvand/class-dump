@@ -30,7 +30,7 @@
 
 + (unsigned long long);
 + (unsigned long long);
-+ (id),;
++ (id);
 + (id);
 + (_Bool);
 + (id);
@@ -41,24 +41,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (CDStruct_5f1f7aa9)9;
 - (void);
 - (_Bool);
-- (void);
 - (_Bool);
-- (id);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
+- (CDStruct_5f1f7aa9);
+- (void);
 - (_Bool);
+- (void);
+- (_Bool);
+- (unsigned long long);
+- (void);
+- (id);
+- (_Bool)Ñð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly) unsigned long long cellRangeCount;

@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)WKNavigationAction"24@?<v@?q>32;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assemblies; // @synthesize assemblies=_assemblies;

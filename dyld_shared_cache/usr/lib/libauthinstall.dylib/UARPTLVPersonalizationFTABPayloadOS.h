@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) NSArray *tlvs; // @synthesize tlvs=_tlvs;

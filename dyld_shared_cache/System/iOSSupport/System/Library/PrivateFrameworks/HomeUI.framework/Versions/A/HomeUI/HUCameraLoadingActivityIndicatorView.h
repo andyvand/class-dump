@@ -14,9 +14,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)@"HFCharacteristicEventBuilder"8;
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *loadingActivityIndicator; // @synthesize loadingActivityIndicator=_loadingActivityIndicator;

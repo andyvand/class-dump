@@ -16,19 +16,20 @@ __attribute__((visibility("hidden")))
     struct NSEdgeInsets _insets;
 }
 
-- (id)ckTimerMap;
+- (id);
 - (void);
-- (struct NSEdgeInsets)trollerFenceOriginChanges;
-- (struct CGSize)enuAccessory;
-- (void)N,V_tvCustomTextColor;
-- (id)IVisualEffect",&,N,V_backgroundEffect;
-- (int)textFormatting;
-- (void)0áÿÂ¬;
-- (void)(j.ÿ/
-;
-- (void)-pe;
-- (_Bool)ÃÊl;
-- (unsigned int)2i;
+- (id);
+- (void);
+- (struct CGSize)
+× ;
+- (_Bool)qe°1Â0@ù
+× ;
+- (void);
+- (struct NSEdgeInsets)Type: /* Error: Ran out of types for this method. */;
+- (void);
+- (int)q;
+- (void)4j;
+- (unsigned int)Lfïþ¬#Óhk;
 
 // Remaining properties
 @property(nonatomic) unsigned int contextId; // @synthesize contextId=_contextId;

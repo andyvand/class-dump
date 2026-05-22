@@ -17,18 +17,17 @@
 
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void)«°myl¬Ö0e;
-- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id)1b0@ù
-× ;
-- (void)EffectResources;
-- (id)] did delete completed;
-- (long long)yMapsTitle;
+- (id)ultCellStyle;
+- (id)P¸Ð,à@ìôL;
+- (long long)adius;
+- (void)Only Dismissed in Profile;
+- (id)AvatarView_Previews;
+- (id)`e4;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

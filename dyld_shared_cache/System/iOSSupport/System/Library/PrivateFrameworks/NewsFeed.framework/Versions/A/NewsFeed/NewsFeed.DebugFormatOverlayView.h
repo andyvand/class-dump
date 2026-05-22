@@ -20,10 +20,11 @@
     MISSING_TYPE *viewResultFrame;
 }
 
-- (id)!;
-- (void)rmBlock: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id)ProviderTypeP;
+- (id);
+- (id)
+× ;
+- (void)=;
+- (_Bool)Ógqê:ØÇ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

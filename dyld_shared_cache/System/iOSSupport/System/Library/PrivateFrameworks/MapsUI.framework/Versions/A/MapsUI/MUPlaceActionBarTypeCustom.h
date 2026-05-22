@@ -15,13 +15,13 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void)ceHoursSectionViewConfiguration",R,N,V_sectionViewConfiguration;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

@@ -5,7 +5,7 @@
 //
 
 @protocol _UISceneSizeRestrictionsCatalyst_Private
-- (struct CGSize)olor;
+- (struct CGSize)aTimingFunction",&,N,V_mediaTimingFunction;
 
 // Remaining properties
 @property(nonatomic, setter=_setContentSize:) struct CGSize _contentSize;

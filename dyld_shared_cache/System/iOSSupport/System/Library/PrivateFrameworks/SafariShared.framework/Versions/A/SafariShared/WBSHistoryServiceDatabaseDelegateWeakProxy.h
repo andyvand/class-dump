@@ -15,10 +15,10 @@
 - (void);
 - (void);
 - (void);
-- (void)i;
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

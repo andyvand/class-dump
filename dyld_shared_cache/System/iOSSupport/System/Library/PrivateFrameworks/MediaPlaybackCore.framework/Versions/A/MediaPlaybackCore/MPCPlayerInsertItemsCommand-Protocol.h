@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackIntent, MPCPlayerCommandRequest;
-@protocol MPCPlayerInsertAfterLastSectionCommand;
-
 @protocol MPCPlayerInsertItemsCommand
-- (MPCPlayerCommandRequest *)ldUpdatePersistentServiceTokens:(MPCPlaybackIntent *)arg1;
-- (MPCPlayerCommandRequest *)eEditable:(MPCPlaybackIntent *)arg1;
-- (MPCPlayerCommandRequest *)oSelector:(MPCPlaybackIntent *)arg1;
-- (id <MPCPlayerInsertAfterLastSectionCommand>)unt:accountStore:options: /* Error: Ran out of types for this method. */;
-- (MPCPlayerCommandRequest *);
 @end
 

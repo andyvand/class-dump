@@ -13,6 +13,7 @@
     MISSING_TYPE *blueprintProvider;
     MISSING_TYPE *scienceDataFactory;
     MISSING_TYPE *channelDataFactory;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *featureAvailability;
     MISSING_TYPE *contentAvailabilityValidator;
     MISSING_TYPE *eventManager;

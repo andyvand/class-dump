@@ -60,7 +60,7 @@
 }
 
 + (Class);
-- (id)(;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -91,7 +91,7 @@
 - (struct CGPath *);
 - (void);
 - (void);
-- (id)R";
+- (id);
 - (struct CGRect);
 - (id);
 - (struct CGPath *);
@@ -119,7 +119,7 @@
 - (void);
 - (id);
 - (struct CGRect);
-- (id);
+- (id);
 - (struct CGRect);
 - (_Bool);
 - (struct CGRect);
@@ -131,7 +131,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -143,21 +143,21 @@
 - (void);
 - (int);
 - (id);
-- (void)TQ;
-- (void);
-- (id);
-- (_Bool)P;
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
 - (id);
-- (id)stateless personalization configuration due to missing feature configuration;
+- (void);
 - (id);
-- (void)access date for cached document resource with digest:%@ error:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)íîÜîPðxð;
+- (id);
+- (void)·h;
 
 // Remaining properties
 @property(retain, nonatomic) TSTSearchReference *activeSearchReference; // @dynamic activeSearchReference;

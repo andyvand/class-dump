@@ -30,14 +30,14 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void)Mÿ;
-- (id)ipLayout _invalidateSmartGradientAdjustment];
-- (id)troller;
+- (void)yButtonConfiguration";
+- (id)cSet(PXMemoryFontSet, PXMemorySpecSet, PXMemorySpecVariant);
+- (void)LemonadeSearchCollectionResultFeedView;
 
 // Remaining properties
 @property(retain, nonatomic) NSPredicate *basePredicate; // @synthesize basePredicate=_basePredicate;

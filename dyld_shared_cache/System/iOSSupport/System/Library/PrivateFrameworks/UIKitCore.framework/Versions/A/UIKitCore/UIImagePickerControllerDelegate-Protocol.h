@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImagePickerController;
-
 @protocol UIImagePickerControllerDelegate
-
-@optional
-- (void);
-- (void)';
-- (void)ChatWithIdentifier:(UIImagePickerController *)arg1 style:shouldForceToSMS: /* Error: Ran out of types for this method. */;
 @end
 

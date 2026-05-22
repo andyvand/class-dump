@@ -12,16 +12,17 @@
     id <LACUIAuthenticationSheetState> _state;
     LACUIAuthenticationSheetHelperAvailability *_availability;
     LACUIAuthenticationSheetHelperAHPClient *_ahpClient;
-    id <LACContextProviding> _contextProvider;
     _Bool _isRunningTests;
     NSDictionary *_watchAHPOptions;
     NSString *_watchUserName;
+    LACUIAuthenticationSheetHelperAvailability *_availabilityHelper;
+    id <LACContextProviding> _contextProvider;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -32,13 +33,15 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) LACUIAuthenticationSheetHelperAvailability *availability; // @synthesize availability=_availability;
+@property(readonly, nonatomic) LACUIAuthenticationSheetHelperAvailability *availabilityHelper; // @synthesize availabilityHelper=_availabilityHelper;
+@property(nonatomic) __weak id <LACContextProviding> contextProvider; // @synthesize contextProvider=_contextProvider;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

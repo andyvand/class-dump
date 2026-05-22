@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void)c;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *colorStorage; // @synthesize colorStorage=_colorStorage;

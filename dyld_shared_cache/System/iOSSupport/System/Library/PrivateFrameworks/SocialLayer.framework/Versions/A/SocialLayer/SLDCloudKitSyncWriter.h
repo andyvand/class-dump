@@ -17,7 +17,7 @@
     NSObject<OS_dispatch_source> *_invalidateHighlightsCoalescingTimer;
 }
 
-+ (id):%@. Posting highlights deleted notification. /* Error: Ran out of types for this method. */;
++ (id);
 - (unsigned long long);
 - (id);
 - (void);
@@ -37,16 +37,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 

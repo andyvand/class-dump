@@ -13,8 +13,8 @@
     MISSING_TYPE *guideLocation;
 }
 
-- (void);
 - (id);
+- (void)tionBar: /* Error: Ran out of types for this method. */;
 
 @end
 

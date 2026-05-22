@@ -7,11 +7,7 @@
 @class TSDTexturedRectangle;
 
 @protocol TSDMetalEffect
-- (void)desForChildLayouts;
-- (TSDTexturedRectangle *)laceCharactersInRange:withString:length:undoTransaction: /* Error: Ran out of types for this method. */;
-
-@optional
-- (void);
+- (TSDTexturedRectangle *);
 
 // Remaining properties
 @property(nonatomic) double opacity;

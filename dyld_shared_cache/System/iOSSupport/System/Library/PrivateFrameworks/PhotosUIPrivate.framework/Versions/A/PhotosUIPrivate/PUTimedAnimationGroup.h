@@ -16,17 +16,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (void);
 - (id);
+- (double);
 - (void);
 - (void);
-- (double)UÐ!|Bù1X°1b0@ù
-× ;
-- (double)setDidChange:,V_currentAssetDidChange /* Error: Ran out of types for this method. */;
-- (void)Jy=¿GG_õD¿Qo_ALG;
-- (double)cà
-;
-- (void)öý¥ð
-;
+- (double);
+- (double)ld view controller, reevaluate if this changes.;
+- (void){üÿ;
 
 // Remaining properties
 @property(nonatomic) double beginTime; // @synthesize beginTime=_beginTime;

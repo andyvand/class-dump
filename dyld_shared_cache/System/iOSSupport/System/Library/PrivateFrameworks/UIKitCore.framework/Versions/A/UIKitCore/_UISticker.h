@@ -22,7 +22,7 @@
     NSDictionary *_attributionInfo;
 }
 
-+ (_Bool)úõl;
++ (_Bool)y;
 
 @end
 

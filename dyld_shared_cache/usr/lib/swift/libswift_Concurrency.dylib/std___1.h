@@ -4,8 +4,9 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __next_prime(unsigned long);
-    __split_buffer<(anonymous namespace)::TaskGroupBase::ReadyQueueItem*, swift::cxx_allocator<(anonymous namespace)::TaskGroupBase::ReadyQueueItem*>>::emplace_back<(anonymous namespace)::TaskGroupBase::ReadyQueueItem*&>((anonymous namespace)::TaskGroupBase::ReadyQueueItem*&);
-    to_string(unsigned int);
-    to_string(unsigned long long);
+    auto __next_prime(unsigned long);
+    auto to_string(unsigned int);
+    auto to_string(unsigned long long);
+    std::__1::iterator_traits<std::__1::__bit_iterator<std::__1::__bitset<1ul, 64ul>, true, 0ul>>::difference_type count[abi:nqn210106]<std::__1::__bit_iterator<std::__1::__bitset<1ul, 64ul>, true, 0ul>, bool>(std::__1::__bit_iterator<std::__1::__bitset<1ul, 64ul>, true, 0ul>, std::__1::__bit_iterator<std::__1::__bitset<1ul, 64ul>, true, 0ul>, bool const&);
+    void __tree_balance_after_insert[abi:nqn210106]<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*);
 };

@@ -36,12 +36,12 @@
 - (struct CGRect);
 - (void);
 - (struct CGSize);
-- (double);
+- (id);
+- (id);
+- (id);
 - (_Bool);
+- (double);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property int paperOrientation; // @synthesize paperOrientation=_paperOrientation;

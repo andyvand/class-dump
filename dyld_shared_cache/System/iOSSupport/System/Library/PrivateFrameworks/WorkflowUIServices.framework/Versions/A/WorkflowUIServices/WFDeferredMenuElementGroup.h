@@ -23,14 +23,14 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (void);
-- (id);
-- (void);
-- (id);
 - (unsigned long long);
+- (CDUnknownBlockType);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

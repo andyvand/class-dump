@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
     _UIBoundingPathBitmap *_bitmap;
 }
 
-+ (_Bool)an accepted contact change observer.;
-- (id);
++ (_Bool);
 - (void);
 - (id);
-- (void);
+- (id):(id)arg1 forInteraction: /* Error: Ran out of types for this method. */;
+- (void)IsAnyDescendantDragging;
 
 @end
 

@@ -11,10 +11,10 @@
     MISSING_TYPE *tickCounter;
 }
 
-- (id);
-- (id)Búüÿ$Púÿ;
 - (struct CGSize);
-- (id)0;
+- (id);
+- (id);
+- (id);
 
 @end
 

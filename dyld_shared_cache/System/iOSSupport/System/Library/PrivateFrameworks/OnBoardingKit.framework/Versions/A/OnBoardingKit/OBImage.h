@@ -21,16 +21,16 @@
 + (id);
 - (id);
 - (id);
-- (id)Value = WTF:(id)arg1:KeyValuePair<WebCore::ClientOrigin, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ClientOrigin, unsigned int>>, HashFunctions = WTF::DefaultHash<WebCore::ClientOrigin>, Traits = WTF::HashMap<WebCore::ClientOrigin, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ClientOrigin>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WebCore::ClientOrigin, unsigned int>::KeyValuePairTraits, WTF::DefaultHash<WebCore::ClientOrigin>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WebCore::ClientOrigin] /* Error: Ran out of types for this method. */;
-- (void)HashFunctions = WTF:(id)arg1:DefaultHash<WebCore::ClientOrigin>, Traits = WTF::HashMap<WebCore::ClientOrigin, WebKit::BackgroundFetchStoreImpl::PerClientOriginFetches>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ClientOrigin>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<WebCore::ClientOrigin, WebKit::BackgroundFetchStoreImpl::PerClientOriginFetches>::KeyValuePairTraits, WTF::DefaultHash<WebCore::ClientOrigin>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WebCore::ClientOrigin] /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
 - (long long);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void)x;
-- (void);
-- (id):8@"UIConversationContext"16 /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (void)rredDeviceType:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;

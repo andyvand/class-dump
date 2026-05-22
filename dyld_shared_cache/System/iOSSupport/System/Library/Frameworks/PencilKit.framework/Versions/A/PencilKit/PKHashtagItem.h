@@ -19,12 +19,12 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool)"NSLayoutConstraint",&,N,V_contentViewBottomConstraint;
+- (_Bool)itingView;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool active;

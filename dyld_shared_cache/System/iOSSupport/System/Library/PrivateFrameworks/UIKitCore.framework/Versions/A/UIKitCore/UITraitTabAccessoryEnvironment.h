@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)q16@24;
 + (_Bool);
 + (_Bool);
-+ (id)boardExclusivityIdentifier;
-+ (id)8Sg;
-+ (long long)Kqi;
++ (_Bool);
++ (id);
++ (id)_UIAppActiveInterfaceOrientationDidChangeNotification;
++ (long long)HÍÄg;
 
 @end
 

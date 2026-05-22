@@ -4,10 +4,10 @@
 
 class mach_o::ChainedFixupPointerOnDisk {
 public: // (access info unavailable from symbols alone)
-    isBind(unsigned short, unsigned int&, long long&) const;
-    isBind(unsigned short, unsigned int&, long long&) const (.cold.1);
-    isRebase(unsigned short, unsigned long long, unsigned long long&) const;
-    isRebase(unsigned short, unsigned long long, unsigned long long&) const (.cold.1);
-    strideSize(unsigned short);
-    strideSize(unsigned short) (.cold.1);
+    auto isBind(unsigned short, unsigned int&, long long&) const;
+    auto isBind(unsigned short, unsigned int&, long long&) const (.cold.1);
+    auto isRebase(unsigned short, unsigned long long, unsigned long long&) const;
+    auto isRebase(unsigned short, unsigned long long, unsigned long long&) const (.cold.1);
+    auto strideSize(unsigned short);
+    auto strideSize(unsigned short) (.cold.1);
 };

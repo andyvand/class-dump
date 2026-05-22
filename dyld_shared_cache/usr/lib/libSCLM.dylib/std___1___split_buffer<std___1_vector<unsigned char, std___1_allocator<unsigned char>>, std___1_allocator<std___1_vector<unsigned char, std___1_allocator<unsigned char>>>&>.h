@@ -4,6 +4,6 @@
 
 class std::__1::__split_buffer<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>, std::__1::allocator<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>>&> {
 public: // (access info unavailable from symbols alone)
-    __destruct_at_end[abi:ne200100](std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>*);
+    auto __destruct_at_end[abi:nqe210106](std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>*);
     ~__split_buffer();
 };

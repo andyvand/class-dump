@@ -5,7 +5,5 @@
 //
 
 @protocol CKBrowserDragControllerTranscriptDelegate
-- (int);
-- (void);
 @end
 

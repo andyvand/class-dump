@@ -18,8 +18,8 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Radius: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

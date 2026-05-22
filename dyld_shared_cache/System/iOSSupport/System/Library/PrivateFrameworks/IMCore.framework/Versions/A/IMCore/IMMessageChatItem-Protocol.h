@@ -7,9 +7,6 @@
 @class IMHandle, NSDate;
 
 @protocol IMMessageChatItem
-- (_Bool);
-- (IMHandle *)q1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool failed;

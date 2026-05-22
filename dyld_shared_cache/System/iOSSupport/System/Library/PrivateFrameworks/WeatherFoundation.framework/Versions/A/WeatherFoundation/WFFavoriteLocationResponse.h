@@ -16,10 +16,10 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *favoriteLocations; // @synthesize favoriteLocations=_favoriteLocations;

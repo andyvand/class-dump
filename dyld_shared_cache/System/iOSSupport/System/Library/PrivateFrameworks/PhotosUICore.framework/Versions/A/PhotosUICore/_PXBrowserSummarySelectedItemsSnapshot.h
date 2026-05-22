@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void)û²l¬Ö0e;
 - (id);
-- (long long)r;
+- (long long)List;
+- (void)Shelves LazyVStack;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXBrowserSelectionSnapshot> browserSelectionSnapshot; // @synthesize browserSelectionSnapshot=_browserSelectionSnapshot;

@@ -4,6 +4,6 @@
 
 class std::__1::__independent_bits_engine<std::__1::linear_congruential_engine<unsigned int, 48271u, 0u, 2147483647u>, unsigned int> {
 public: // (access info unavailable from symbols alone)
-    __eval(std::__1::integral_constant<bool, true>);
     __independent_bits_engine(std::__1::linear_congruential_engine<unsigned int, 48271u, 0u, 2147483647u>&, unsigned long);
+    auto __eval(std::__1::integral_constant<bool, true>);
 };

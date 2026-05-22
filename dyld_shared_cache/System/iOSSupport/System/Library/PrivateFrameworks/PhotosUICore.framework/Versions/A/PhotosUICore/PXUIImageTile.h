@@ -49,16 +49,17 @@
 - (void);
 - (double);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (_Bool);
-- (struct CGSize)@ù
+- (void);
+- (id)ñI°1â
+0@ù
 × ;
-- (void)tions: /* Error: Ran out of types for this method. */;
-- (void)lysisGraphProgressUpdateInterval;
-- (void)¤p¡'käË;
+- (struct CGSize)oatingOverlay;
+- (void);
+- (void)ontroller<PXStoryMutableController>"8;
+- (void)ted value type:Value /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setAnimationCount:) long long _animationCount; // @synthesize _animationCount=__animationCount;

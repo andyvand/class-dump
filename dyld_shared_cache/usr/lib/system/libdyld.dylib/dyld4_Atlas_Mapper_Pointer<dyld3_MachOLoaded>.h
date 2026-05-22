@@ -4,6 +4,6 @@
 
 class dyld4::Atlas::Mapper::Pointer<dyld3::MachOLoaded> {
 public: // (access info unavailable from symbols alone)
-    swap(dyld4::Atlas::Mapper::Pointer<dyld3::MachOLoaded>&);
+    auto swap(dyld4::Atlas::Mapper::Pointer<dyld3::MachOLoaded>&);
     ~Pointer();
 };

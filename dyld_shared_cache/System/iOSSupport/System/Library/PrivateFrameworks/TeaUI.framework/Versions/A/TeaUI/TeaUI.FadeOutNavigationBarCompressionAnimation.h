@@ -19,11 +19,11 @@
 - (void);
 - (double);
 - (double);
-- (_Bool)<;
+- (_Bool);
 - (void);
-- (double)CollectionViewSpecIfNeeded;
-- (void);
-- (id)tPointValue: /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldAlwaysScrollToTopOnTap;

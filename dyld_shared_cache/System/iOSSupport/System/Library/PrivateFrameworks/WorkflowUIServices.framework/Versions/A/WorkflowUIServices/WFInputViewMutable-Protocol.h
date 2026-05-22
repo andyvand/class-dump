@@ -7,9 +7,6 @@
 @class UIView;
 
 @protocol WFInputViewMutable
-- (UIView *)phaComponent: /* Error: Ran out of types for this method. */;
-- (UIView *)Controller loadRemoteViewController]_block_invoke;
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *inputAccessoryView;

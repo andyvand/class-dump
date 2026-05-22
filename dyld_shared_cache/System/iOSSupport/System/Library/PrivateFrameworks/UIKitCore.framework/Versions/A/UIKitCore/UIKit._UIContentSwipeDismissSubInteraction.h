@@ -14,18 +14,20 @@
     MISSING_TYPE *conflictingScrollViews;
 }
 
+- (_Bool);
 - (id);
-- (void)ø	ë;
-- (_Bool)}24;
-- (void)splayName:(id)arg1;
-- (void)es:(id)arg1;
-- (id)oardSegueTemplate:sender: /* Error: Ran out of types for this method. */;
-- (_Bool)iWorkspace;
-- (void);
-- (void);
-- (_Bool)ìðþxþÿûÿ;
-- (void)¾;
-- (_Bool)r;
+- (void)!Ì@ùQY°1Â0@ù
+× ;
+- (void)g1Â0@ù
+× ;
+- (_Bool)AdjustmentBehaviour,S_setInsetAdjustmentBehavior:(id)arg1 ,V_insetAdjustmentBehavior;
+- (id)crollEdgeEffectView",N,&,VleftPocket;
+- (void)has unresolved top separator visibility. %@;
+- (void)eTimeCode;
+- (_Bool)sNamesKey;
+- (void)X;
+- (void)ì!_;
+- (_Bool));
 
 // Remaining properties
 @property(nonatomic) __weak UIView *view; // @synthesize view;

@@ -19,14 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

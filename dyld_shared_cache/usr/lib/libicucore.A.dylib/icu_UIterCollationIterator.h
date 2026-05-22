@@ -4,13 +4,13 @@
 
 class icu::UIterCollationIterator {
 public: // (access info unavailable from symbols alone)
-    backwardNumCodePoints(int, UErrorCode&);
-    forwardNumCodePoints(int, UErrorCode&);
-    getOffset() const;
-    handleGetTrailSurrogate();
-    handleNextCE32(int&, UErrorCode&);
-    nextCodePoint(UErrorCode&);
-    previousCodePoint(UErrorCode&);
-    resetToOffset(int);
+    auto backwardNumCodePoints(int, UErrorCode&);
+    auto forwardNumCodePoints(int, UErrorCode&);
+    auto getOffset() const;
+    auto handleGetTrailSurrogate();
+    auto handleNextCE32(int&, UErrorCode&);
+    auto nextCodePoint(UErrorCode&);
+    auto previousCodePoint(UErrorCode&);
+    auto resetToOffset(int);
     ~UIterCollationIterator();
 };

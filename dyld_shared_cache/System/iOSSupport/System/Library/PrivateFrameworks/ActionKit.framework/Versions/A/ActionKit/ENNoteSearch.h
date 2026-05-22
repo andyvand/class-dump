@@ -14,10 +14,10 @@
 + (id);
 + (id);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)fC52À.Uw&²ÎàÔ;
+- (void);
+- (id)L,UñD;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;

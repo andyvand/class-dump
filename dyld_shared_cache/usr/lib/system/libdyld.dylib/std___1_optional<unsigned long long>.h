@@ -4,5 +4,5 @@
 
 class std::__1::optional<unsigned long long> {
 public: // (access info unavailable from symbols alone)
-    swap[abi:nn200100](std::__1::optional<unsigned long long>&);
+    auto swap[abi:nqn210106](std::__1::optional<unsigned long long>&);
 };

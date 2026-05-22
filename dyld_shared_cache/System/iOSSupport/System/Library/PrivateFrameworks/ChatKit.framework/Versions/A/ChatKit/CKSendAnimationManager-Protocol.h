@@ -7,15 +7,6 @@
 @protocol CKSendAnimationBalloonProvider, CKSendAnimationManagerDelegate;
 
 @protocol CKSendAnimationManager
-- (void)StartAnimation;
-- (void)D:(id <CKSendAnimationBalloonProvider>)arg1;
-- (id <CKSendAnimationManagerDelegate>): /* Error: Ran out of types for this method. */;
-- (id <CKSendAnimationBalloonProvider>)stureRecognizer: /* Error: Ran out of types for this method. */;
-- (void)erObject:submissionHandler: /* Error: Ran out of types for this method. */;
-- (void)hment:withSource: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)b;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKSendAnimationBalloonProvider> sendAnimationBalloonProvider;

@@ -69,12 +69,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (id)àSøÿJ¢ûÿ;
+- (id)etries:styles:infos: /* Error: Ran out of types for this method. */;
+- (id)ÿXÿ´Q;
+- (void)ManagerDataSectionManager;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *assets; // @synthesize assets=_assets;

@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)I does not match any of the client's valid redirect URIs.;
 
 // Remaining properties
 @property(retain, nonatomic) HKSampleType *sampleType; // @synthesize sampleType=_sampleType;

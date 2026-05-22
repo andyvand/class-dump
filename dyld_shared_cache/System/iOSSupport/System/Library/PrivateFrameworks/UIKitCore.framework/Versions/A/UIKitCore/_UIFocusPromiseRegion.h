@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id)ckgroundMessagingAPITargetHandlerDelegate>",&,N,V_delegate;
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)roppableView:(id)arg1 willPerformDrop: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -20,8 +20,8 @@
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGAffineTransform);
-- (double);
 - (struct CGSize);
+- (double)ingTraitCollection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

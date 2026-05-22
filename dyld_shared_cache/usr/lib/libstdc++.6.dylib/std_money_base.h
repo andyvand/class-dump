@@ -4,5 +4,5 @@
 
 class std::money_base {
 public: // (access info unavailable from symbols alone)
-    _S_construct_pattern(char, char, char);
+    auto _S_construct_pattern(char, char, char);
 };

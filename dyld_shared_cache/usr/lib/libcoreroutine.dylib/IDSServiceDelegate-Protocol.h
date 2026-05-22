@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, NSArray;
-
 @protocol IDSServiceDelegate
 
 @optional
-- (void);
-- (void)	;
-- (void)MediaFormats;
-- (void)erConnectionID;
-- (void)G;
-- (void)@;
-- (void)ent, last event, %@, new workout snapshot, %@;
-- (void)itIdentifiers;
-- (void)D:(IDSService *)arg1 %@,%@,%@,messageID:(NSArray *)arg2 %@,received message from %@,fromMe,%d,message,%{sensitive}@;
-- (void)@;
+- (void)
+× ;
+- (void)ñB,Ð1Â0@ù
+× ;
+- (void)ekend_Home_Work_Others;
+- (void), duration too long,%lf,threshold,%lu;
 @end
 

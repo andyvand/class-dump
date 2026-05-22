@@ -38,15 +38,14 @@
 - (void);
 - (double);
 - (void);
+- (void);
+- (id);
+- (void);
 - (struct UIEdgeInsets);
+- (id);
 - (id);
 - (void);
 - (long long);
-- (void);
-- (id);
-- (id);
-- (void)1b0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;

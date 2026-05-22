@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (id);
-- (double)uery:finishedWithResult:chatGUIDs: /* Error: Ran out of types for this method. */;
-- (double)arLocalProperties;
-- (id)cationResponse:(long long)arg1 userNotificationCenter: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)CKRecordZone",R,N,V_attachmentRecordZone;
-- (struct UIEdgeInsets)rdID;
-- (long long)nitorCSgXw;
 - (double);
 - (double);
-- (double)24i32i36f40^@44B52;
-- (id)Ã*;
+- (id);
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
+- (long long);
+- (double);
+- (double);
+- (double);
+- (id)der;
 
 @end
 

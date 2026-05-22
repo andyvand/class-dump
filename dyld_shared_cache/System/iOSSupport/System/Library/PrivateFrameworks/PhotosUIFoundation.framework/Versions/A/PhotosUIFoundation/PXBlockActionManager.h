@@ -23,8 +23,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *registeredActions; // @synthesize registeredActions=_registeredActions;

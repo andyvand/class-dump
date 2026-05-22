@@ -27,37 +27,35 @@
     } _tccClientFlags;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct _NSRange)sQueue:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)FùÑÁÐ1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (void)áxð!CùÎ1¢!0@ù
-× ;
-- (void):(id)arg1 editing: /* Error: Ran out of types for this method. */;
-- (_Bool)tOffset;
-- (id)abledAlpha;
-- (void)ypingAction",R,N;
-- (void)h<;
-- (id);
-- (id)file URL to -[UIDocument initWithFileURL:(id)arg1 ];
-- (_Bool)nown case.;
-- (id)2ÿ: /* Error: Ran out of types for this method. */;
-- (void)t ;
 - (struct _NSRange);
-- (void)>Íþ;
-- (id)¸;
+- (void);
+- (struct _NSRange);
+- (void);
+- (void);
+- (void);
 - (id);
-- (struct _NSRange)ÿ<Ô;
-- (void)·Æg;
+- (_Bool);
+- (void);
+- (void);
+- (void)!lDùQ\ð1Â0@ù
+× ;
+- (void);
+- (_Bool)t"16@"UIDragItem"24;
+- (id)ge:inContext:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)FromView:toView:containerView: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1;
+- (void);
+- (void)ent",&,N,V_lastTouch;
+- (id)tch. Preferred attrs:(id)arg1 %@; original attrs:%@. /* Error: Ran out of types for this method. */;
+- (void)onolith-Standard;
+- (void)OSurface;
+- (id)é?ÚÙÙÙÙÙé?{®Gáz?ffffffæ?Ê?Ì?Í?{®Gáz¤?PPPPPPà?ä?Ñ?Ñ?<<<<<<ì?¸ëQ¸?Å?Ç?È?\\\\\\ì?ì?½¼¼¼¼¼ì?;
+- (struct _NSRange);
+- (void)q;
+- (_Bool)¬b;
+- (void)8õþ¥n;
+- (id)ûÉÿ;
+- (id)øRÿÌòAi;
 
 // Remaining properties
 @property(readonly) id <UITextCheckingClient> client;

@@ -13,49 +13,47 @@
     UIMutableTransformer *_transformer;
 }
 
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id)g items of cancel;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (id)system fallback;
-- (id);
+- (id)
+× ;
+- (_Bool)Q^1Â0@ù
+× ;
 - (_Bool);
-- (id);
-- (_Bool)½Q¬;
-- (void)½ò;
-- (unsigned long long)°!ìDùÂð1¢!0@ù
-× ;
-- (_Bool)@ù
-× ;
-- (id);
 - (id)0@ù
 × ;
-- (id)èDùñÊð1¢!0@ù
-× ;
-- (_Bool)orAlertController: /* Error: Ran out of types for this method. */;
-- (id)ontextMenuInteraction:(id)arg1 willCommitWithAnimator: /* Error: Ran out of types for this method. */;
-- (id)ForDictation;
-- (id)ionEnvironment: /* Error: Ran out of types for this method. */;
-- (unsigned long long)dateFloatingBarContentAnimated: /* Error: Ran out of types for this method. */;
-- (id)g:(id)arg1;
-- (id)legateOfProgress:(id)arg1 toForceLevel: /* Error: Ran out of types for this method. */;
-- (_Bool)dicatorColorTransformer: /* Error: Ran out of types for this method. */;
-- (id)InsetsChanged: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)ontents;
-- (id)CustomViewMenuElements;
-- (id),G_sliderConfiguration,S_setSliderConfiguration: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)hÒþÿ;
-- (id)ll to -application:handleEventsForBackgroundURLSession:completionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
-- (id)&Î];
-- (_Bool);
-- (_Bool)µ=_;
-- (unsigned long long)Ác;
-- (_Bool);
-- (id)ÿÓ
-;
-- (_Bool)ßË°j;
+- (id){?=ddddd}16;
+- (_Bool)eptAutocorrection;
+- (id)omptsAndBanners: /* Error: Ran out of types for this method. */;
+- (_Bool)hBlock:(id)arg1;
+- (_Bool)cludedFromWindowsMenu;
+- (id)itSidebarIconSize;
+- (id)nCoordinator: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ngedForSearchField: /* Error: Ran out of types for this method. */;
+- (id)isSecondaryColumnCompactInTotalWidth:withPrimaryColumnWidth:supplementaryColumnWidth: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ngFirstResponder;
+- (id)iousState: /* Error: Ran out of types for this method. */;
+- (id)uStyle;
+- (id)Constraint;
+- (id)è;
+- (id)ring"8@"NSString"16@"UIImage"24@"NSString"32;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIScenePresentationContext *_defaultPresentationContext; // @synthesize _defaultPresentationContext;

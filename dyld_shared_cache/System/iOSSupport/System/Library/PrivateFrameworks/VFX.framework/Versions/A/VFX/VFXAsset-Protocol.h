@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol VFXAsset
+- (NSString *)"56Q64Q72Q80;
+- (void)DGES;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

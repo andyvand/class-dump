@@ -15,7 +15,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *lastSeenDate; // @synthesize lastSeenDate=_lastSeenDate;

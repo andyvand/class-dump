@@ -42,11 +42,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (long long);
 - (id);
-- (void);
 - (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *allowedActionTypes; // @synthesize allowedActionTypes=_allowedActionTypes;

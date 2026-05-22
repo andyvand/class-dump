@@ -19,34 +19,34 @@
 }
 
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (struct CGPoint);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (double);
-- (unsigned long long);
+- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
-- (void):(struct CGPoint)arg1;
-- (struct CGPoint)tIndex: /* Error: Ran out of types for this method. */;
-- (void)xP;
-- (double)3yxGG;
-- (void)t:(unsigned long long)arg1 );
+- (_Bool);
+- (void);
+- (double);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (double);
+- (void);
+- (_Bool);
+- (struct CGPoint);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setBeginRequestID:) unsigned long long _beginRequestID; // @synthesize _beginRequestID=__beginRequestID;

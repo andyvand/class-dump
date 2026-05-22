@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ontrollerHomePodRoomChangePromptTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool customLocationSelected; // @synthesize customLocationSelected=_customLocationSelected;

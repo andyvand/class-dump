@@ -24,9 +24,9 @@
 - (long long);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSCache *imageCache; // @synthesize imageCache=_imageCache;

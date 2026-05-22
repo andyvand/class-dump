@@ -18,8 +18,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)0@ù
-× ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) HUNetworkRouterManualReconfigurationItemManager *itemManager; // @dynamic itemManager;

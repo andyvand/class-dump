@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionReusableView, UICollectionView, UICollectionViewCell;
+@class UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)P½ýÿ½ýÿØ½ýÿ¾ýÿ@¾ýÿd¾ýÿ ¾ýÿì¾ýÿ ¿ýÿT¿ýÿx¿ýÿ´¿ýÿ;
+- (UICollectionViewCell *)em;
 
 @optional
-- (NSIndexPath *)iewModel>";
-- (UICollectionReusableView *)WithDelegate:(UICollectionView *)arg1;
+- (void)î¦ÿÿ­;
+- (UICollectionReusableView *)éÿ;
 @end
 

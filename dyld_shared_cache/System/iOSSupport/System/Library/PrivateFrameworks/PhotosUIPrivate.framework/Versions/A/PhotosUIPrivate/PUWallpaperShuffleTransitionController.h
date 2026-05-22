@@ -54,16 +54,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id)erations: /* Error: Ran out of types for this method. */;
-- (void)n:(CDUnknownBlockType)arg1;
-- (void)updateDeleteButtonAnimated: /* Error: Ran out of types for this method. */;
-- (void)%ld items on %ld items;
+- (void)¡Ø°!DGù±#ð1â
+0@ù
+× ;
+- (void)ArrangedSubview: /* Error: Ran out of types for this method. */;
+- (id)PXOK;
 
 // Remaining properties
 @property(readonly, nonatomic) PXNumberAnimator *additionalViewTitleHeightAnimator; // @synthesize additionalViewTitleHeightAnimator=_additionalViewTitleHeightAnimator;

@@ -12,13 +12,13 @@
 }
 
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)me:configuration: /* Error: Ran out of types for this method. */;
+- (id)-Apple-Payment-Verification;
 
 // Remaining properties
 @property(readonly, nonatomic) AMSUICommonView *contentView;

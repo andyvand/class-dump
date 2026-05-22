@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSError *lastError; // @synthesize lastError;

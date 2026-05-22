@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     NSString *_explanation;
 }
 
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (long long);
+- (id);
+- (void);
+- (void), re-enumerating [];
 
 // Remaining properties
 @property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;

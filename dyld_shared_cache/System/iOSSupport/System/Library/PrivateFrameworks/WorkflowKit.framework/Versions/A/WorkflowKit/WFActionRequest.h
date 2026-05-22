@@ -15,14 +15,14 @@
 
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)Ì;
+- (void)here was an error sending the data.  Killing connection...;
+- (void)|event|events|next|upcoming;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

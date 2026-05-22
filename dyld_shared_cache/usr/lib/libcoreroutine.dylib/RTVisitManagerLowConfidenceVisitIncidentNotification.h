@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)nsitionType %lu;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisit *visitIncident; // @synthesize visitIncident=_visitIncident;

@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id)lor;
++ (id);
 + (id);
 - (void);
 - (id);
@@ -31,10 +31,10 @@
 - (id);
 - (long long);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)st;
 
 // Remaining properties
 @property(retain, nonatomic) WFFileRepresentation *dataFileRepresentation; // @synthesize dataFileRepresentation=_dataFileRepresentation;

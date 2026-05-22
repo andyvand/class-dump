@@ -13,11 +13,11 @@
 }
 
 - (id);
-- (id)!;
-- (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)2@40Q48;
+- (id)V_fillMode;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

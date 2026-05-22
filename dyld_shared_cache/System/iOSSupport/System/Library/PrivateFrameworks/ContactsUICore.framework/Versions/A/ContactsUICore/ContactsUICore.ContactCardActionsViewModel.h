@@ -13,9 +13,10 @@
     MISSING_TYPE *_addToFavoritesMenuItems;
     MISSING_TYPE *_gameCenterAddFriendMenuItems;
     MISSING_TYPE *_addToEmergencyContactsMenuItems;
-    MISSING_TYPE *_placement;
+    MISSING_TYPE *placement;
     MISSING_TYPE *_viewControllerToPresent;
     MISSING_TYPE *$__lazy_storage_$_contactFormatter;
+    MISSING_TYPE *$__lazy_storage_$_basicContactFormatter;
     MISSING_TYPE *_supportedSections;
     MISSING_TYPE *_sections;
     MISSING_TYPE *contact;
@@ -25,8 +26,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)rProvider;
 
 @end
 

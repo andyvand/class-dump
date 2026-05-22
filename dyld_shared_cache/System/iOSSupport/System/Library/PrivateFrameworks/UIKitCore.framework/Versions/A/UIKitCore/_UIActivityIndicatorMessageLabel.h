@@ -15,21 +15,21 @@ __attribute__((visibility("hidden")))
     NSDictionary *_effectiveTextAttributes;
 }
 
-+ (id)e continue(4), was in state %ld!;
++ (id);
 - (double);
 - (void);
 - (void);
 - (id);
-- (id)"24@"NSError"32;
-- (id)edForSession:fromID:withContext: /* Error: Ran out of types for this method. */;
-- (id)Center;
-- (void)to continue successfully for CS indexing;
-- (double)request, but we are no longer the default text app, routing to %@;
-- (id)messages.SMSReceivedRelaySendRequest;
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)begin with # and contain 6 digits;
-- (void);
-- (void)t;
+- (double);
+- (id);
+- (void)ÄR;
+- (void);
+- (void);
+- (void)¨]ÿ=;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *effectiveTextAttributes; // @synthesize effectiveTextAttributes=_effectiveTextAttributes;

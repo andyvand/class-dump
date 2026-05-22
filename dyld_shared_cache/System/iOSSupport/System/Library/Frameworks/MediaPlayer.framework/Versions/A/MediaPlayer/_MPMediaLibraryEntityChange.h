@@ -15,9 +15,9 @@
 
 - (id);
 - (long long);
-- (void);
 - (id);
-- (id)ø';
+- (void)tionary;
+- (id)PicksSingleCollectionEntity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *anchor; // @synthesize anchor=_anchor;

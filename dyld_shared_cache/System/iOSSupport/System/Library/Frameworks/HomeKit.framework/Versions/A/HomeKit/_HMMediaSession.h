@@ -48,23 +48,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (long long);
+- (void);
 - (unsigned long long);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void);
-- (id)1b0@ù
-× ;
-- (id)new media destination controller using new object:%@ /* Error: Ran out of types for this method. */;
-- (long long)s;
-- (id);
+- (void)"supports8a7c4e2f9b1d"b1"supports90bb069d6bx54e7"b1"supportsAnnounce"b1"supportsAssistantAccessControl"b1"supportsAudioReturnChannel"b1"supportsCaptiveNetworks"b1"supportsCloudDataSync"b1"supportsCompanionInitiatedObliterate"b1"supportsCompanionInitiatedRestart"b1"supportsCoordinationDoorbellChime"b1"supportsCoordinationFreeDoorbellChime"b1"supportsCrossfadeAsAirPlaySource"b1"supportsDeviceSetup"b1"supportsDirectSync"b1"supportsDoorbellChime"b1"supportsHomeHub"b1"supportsHomeInvitation"b1"supportsHomeLevelAnalyticsAndImprovementSetting"b1"supportsHomeLevelLocationServiceSetting"b1"supportsInstallManagedConfigurationProfile"b1"supportsKeyTransferClient"b1"supportsKeyTransferServer"b1"supportsKeychainSync"b1"supportsManagedConfigurationProfile"b1"supportsMediaActions"b1"supportsMessagedHomePodSettings"b1"supportsMultiUser"b1"supportsMusicAlarm"b1"supportsNetworkDiagnostics"b1"supportsPreferredMediaUser"b1"supportsSoftwareUpdateV2"b1"supportsStandaloneMode"b1"supportsStereoOdeonTTSUBypassingPrimary"b1"supportsTVOSUpdateManualUpdateAvailableNotification"b1"supportsTargetControl"b1"supportsThirdPartyMusic"b1"supportsThreadBorderRouter"b1"supportsUserMediaSettings"b1"supportsWholeHouseAudio"b1"supportsWiFiRepairV2"b1"supportse28d28e7b4de"b1"supportsf9cc0d9d6aa54e7"b1};
+- (void)osticInfoProtoCloudInfo",&,N,V_cloudInfo;
+- (id)rofile UUID;
 
 // Remaining properties
 @property(readonly) HMAudioControl *audioControl; // @synthesize audioControl=_audioControl;

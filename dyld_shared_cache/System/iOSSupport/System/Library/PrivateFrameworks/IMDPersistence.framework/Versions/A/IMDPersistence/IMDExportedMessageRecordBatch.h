@@ -6,27 +6,30 @@
 
 #import <IMDPersistence/IMDExportedRecordBatch.h>
 
-@class IMDFilteredMessageCounts, NSArray;
+@class IMDExportedMessageRecordBatchResult, IMDFilteredMessageCounts, IMDMessageRecordExporterState;
 
 @interface IMDExportedMessageRecordBatch : IMDExportedRecordBatch
 {
-    void records;
+    IMDMessageRecordExporterState *state;
     IMDFilteredMessageCounts *filterCounts;
+    IMDExportedMessageRecordBatchResult *result;
 }
 
-+ (_Bool)oreSDB connection has no sqlite3 handle;
-- (id)1;
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)ng;
-- (id)#;
+- (void)eting range;
 
 // Remaining properties
 @property(nonatomic, readonly) IMDFilteredMessageCounts *filterCounts; // @synthesize filterCounts;
-@property(nonatomic, readonly) NSArray *records;
+@property(nonatomic, readonly) IMDExportedMessageRecordBatchResult *result; // @synthesize result;
+@property(nonatomic, readonly) IMDMessageRecordExporterState *state; // @synthesize state;
 
 @end
 

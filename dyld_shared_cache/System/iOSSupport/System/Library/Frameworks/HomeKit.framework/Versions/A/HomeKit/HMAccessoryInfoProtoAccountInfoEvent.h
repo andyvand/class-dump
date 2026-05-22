@@ -28,18 +28,19 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id)°1B50@ù
+× ;
+- (void)Duration:(id)arg1 documentationMetadata:releaseDate: /* Error: Ran out of types for this method. */;
+- (void)number '%@';
 
 // Remaining properties
 @property(retain, nonatomic) NSString *aaAltDSID; // @synthesize aaAltDSID=_aaAltDSID;

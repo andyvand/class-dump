@@ -47,16 +47,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize);
-- (_Bool):bottomTextProvider:centerTextProvider: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

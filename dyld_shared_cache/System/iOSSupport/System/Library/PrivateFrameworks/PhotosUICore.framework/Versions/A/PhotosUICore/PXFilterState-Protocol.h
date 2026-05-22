@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol PXFilterState
-- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool includeOthersInSocialGroupAssets;

@@ -18,10 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (struct CGSize);
-- (void)ad length for reference signature, expected size:%d, got:%lu. /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool)dentifier;
+- (void);
+- (struct CGSize)ùñd1Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (void)Úíc;
 
 // Remaining properties
 @property(retain, nonatomic) UITargetedPreview *sourcePreview; // @synthesize sourcePreview=_sourcePreview;

@@ -45,12 +45,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id)me.dismissedTVViewingProfileSetupBanner;
+- (void)coordinate;
+- (void)L¤;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *actionItems; // @synthesize actionItems=_actionItems;

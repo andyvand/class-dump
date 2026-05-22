@@ -10,19 +10,20 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void)FEmojiTokenClass(void)_block_invoke;
+- (void);
 
 @end
 

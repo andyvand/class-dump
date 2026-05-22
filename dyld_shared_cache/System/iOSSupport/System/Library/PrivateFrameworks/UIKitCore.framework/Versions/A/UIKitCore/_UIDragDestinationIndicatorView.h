@@ -17,16 +17,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)P;
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (double);
-- (void){;
-- (id)mateFocusAnimation: /* Error: Ran out of types for this method. */;
-- (void)`;
+- (void);
+- (id)entItem;
+- (double)(Èîÿ;
+- (void))mÊ|\;
 
 // Remaining properties
 @property(retain, nonatomic) NSIndexPath *currentIndexPath; // @synthesize currentIndexPath=_currentIndexPath;

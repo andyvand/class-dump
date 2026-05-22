@@ -4,6 +4,6 @@
 
 class std::__1::vector<TSUCustomFormatCondition, std::__1::allocator<TSUCustomFormatCondition>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:nn200100]();
-    __throw_out_of_range[abi:nn200100]();
+    auto __throw_length_error[abi:nqn210106]();
+    auto __throw_out_of_range[abi:nqn210106]();
 };

@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void)ect type %@;
-- (void):(id)arg1 isForPrint:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (void);
+- (id);
+- (void)ZGÿåíkZGÿîkZGÿîkøYGÿÝíkº©ÿ%îkìYGÿîkèYGÿ%îkäYGÿÍíkàYGÿ;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC7ChatKit36TranscriptNavigationBarPrincipalView *temporaryPrincipalView; // @synthesize temporaryPrincipalView;

@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, UIFont;
-
 @protocol AKFontChooserUserInterfaceItem
-- (void)%d>:(NSSet *)arg1 failed to play, will try again later (%@);
-- (UIFont *);
 @end
 

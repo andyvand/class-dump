@@ -22,14 +22,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (_Bool)DForHandlesInChatWithMessage:fromIdentifier:personCentricID:chat: /* Error: Ran out of types for this method. */;
-- (void)pletionHandler:(_Bool)arg1;
-- (void)WithUUIDString:(_Bool)arg1;
-- (void)unicationTrustManager:(id)arg1 relayPushHandler: /* Error: Ran out of types for this method. */;
-- (void)r:(id)arg1 trustKitDecisioningManager:communicationTrustManager:relayPushHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)T@"IMDReplayStorageIterationContext",&,N,V_heldDeletionContext;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (_Bool)#;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -41,17 +41,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void)Ð!ÔGùÑa°1Â0@ù
+× ;
+- (id)
+× ;
+- (void)t:(id)arg1;
+- (void):(id)arg1;
+- (void);
 - (void);
-- (void)_keystone2_range;
-- (void)orkAccess:(id)arg1;
-- (void)1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (id)er>"16;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)l members in the transform matrix be finite numbers. Attributes:(id)arg1 %@; new transform:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)>i;
+- (id)Hò[;
+- (void)D;d;
+- (_Bool)PZh;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

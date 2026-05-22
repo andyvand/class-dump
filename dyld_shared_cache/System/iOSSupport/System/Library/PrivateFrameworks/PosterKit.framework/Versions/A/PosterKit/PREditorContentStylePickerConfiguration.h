@@ -21,7 +21,7 @@
 }
 
 + (_Bool);
-+ (_Bool)ype:lockPosterAppearance:solidColorAppearance:gradientAppearance:homePosterAppearance:customizationConfiguration: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -37,20 +37,20 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

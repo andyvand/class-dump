@@ -21,20 +21,20 @@
 
 + (Class);
 - (_Bool);
-- (_Bool)$;
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)t;
-- (void)e;
 - (void);
-- (void)s;
 - (void);
-- (id)s;
-- (_Bool)in an attributed string;
-- (_Bool)ttachment %@ after finding it in an attributed string;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (struct CGRect);
 - (id);
@@ -44,32 +44,32 @@
 - (id);
 - (void);
 - (void);
-- (struct UIEdgeInsets)6;
+- (struct UIEdgeInsets);
 - (_Bool);
 - (void);
 - (struct CKBalloonDescriptor_t);
-- (void)z"A�Y;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id)Ã1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)Â0@ù
 × ;
-- (void)te>";
-- (void)on:(BOOL)arg1;
-- (_Bool)navigationItem:backNavigationItem: /* Error: Ran out of types for this method. */;
-- (void)ssageEditingContext",&,N;
-- (id)TÈÉlÊ	àÊ;
-- (id)y-¿¬yÂ¬yÁ.¬G_Â¸¬Qo_ò)¬yÔ2¬SgGG_Qo_G;
+- (void)ransitionCoordinator"16q24q32;
+- (void)closingRange:(struct CGRect)arg1;
+- (void)ickerWithMSMessageMediaPayload:(id)arg1;
+- (void)ransparencyChanged: /* Error: Ran out of types for this method. */;
+- (id)nsertRichLinkWithURL:andData: /* Error: Ran out of types for this method. */;
+- (void)NOT_DONATED;
+- (void)hó[;
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets balloonTypePillContentInsets;

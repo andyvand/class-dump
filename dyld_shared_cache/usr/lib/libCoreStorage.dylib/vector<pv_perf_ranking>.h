@@ -4,7 +4,7 @@
 
 class vector<pv_perf_ranking> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
-    resize(unsigned long, pv_perf_ranking const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, pv_perf_ranking const&);
     ~vector();
 };

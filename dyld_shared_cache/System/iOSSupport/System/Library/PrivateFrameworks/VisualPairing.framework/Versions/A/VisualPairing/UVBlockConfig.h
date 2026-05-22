@@ -4,6 +4,6 @@
 
 class UVBlockConfig {
 public: // (access info unavailable from symbols alone)
-    downsampleAndPadd(unsigned char);
+    auto downsampleAndPadd(unsigned char);
     ~UVBlockConfig();
 };

@@ -25,14 +25,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id)Iûÿ;
-- (id)ùÿÞûÿ:(id)arg1 ùÿ;
-- (unsigned long long)J6;
-- (void);
+- (id);
+- (id)onScopeSearch;
+- (id)´;
+- (unsigned long long)tsConcreteCollection.m;
+- (void)/PXConcatenatingSectionedDataSource.swift;
+- (void)ÑôÔa;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCPLActionManager *actionManager; // @synthesize actionManager=_actionManager;

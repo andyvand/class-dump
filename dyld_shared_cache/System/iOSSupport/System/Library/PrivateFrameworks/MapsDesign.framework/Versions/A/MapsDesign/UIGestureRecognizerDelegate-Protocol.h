@@ -5,9 +5,5 @@
 //
 
 @protocol UIGestureRecognizerDelegate
-
-@optional
-- (_Bool)AEy;
-- (_Bool)CyADyAEyAK_A48_tGGyANyAEyACyACyýAJGAVG_A53_tGGGGSgtGGA9_GA9_GGA63__G;
 @end
 

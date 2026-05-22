@@ -5,8 +5,5 @@
 //
 
 @protocol CNVisualIdentityPickerPresenterDelegate
-
-@optional
-- (void);
 @end
 

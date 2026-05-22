@@ -5,10 +5,10 @@
 //
 
 @class NSArray, NSString;
-@protocol MTLDevice;
+@protocol MTLDevice, MTLFunction;
 
 @protocol MTLLibrary
-- (void);
+- (id <MTLFunction>)imator:(NSString *)arg1;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

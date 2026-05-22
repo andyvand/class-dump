@@ -4,5 +4,5 @@
 
 class CASmartPreferences::Pref {
 public: // (access info unavailable from symbols alone)
-    Load();
+    auto Load();
 };

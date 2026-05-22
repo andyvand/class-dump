@@ -5,8 +5,5 @@
 //
 
 @protocol UIKeyInputPrivate
-
-@optional
-- (struct _NSRange)wipe to delete row is being deleted in %@;
 @end
 

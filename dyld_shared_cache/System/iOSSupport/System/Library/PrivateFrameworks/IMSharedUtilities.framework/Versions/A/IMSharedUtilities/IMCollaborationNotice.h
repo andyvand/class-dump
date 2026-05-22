@@ -17,26 +17,26 @@
 
 + (id);
 + (id);
-+ (_Bool)upedChats:) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
-- (id)P;
 - (id);
+- (void)ÿâÏçÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;

@@ -23,41 +23,43 @@
     long long _currentStyle;
 }
 
-+ (long long)urnSupport:(id)arg1 withProhibitBurn: /* Error: Ran out of types for this method. */;
 + (long long);
-- (double);
-- (void);
-- (long long);
-- (void);
++ (long long);
 - (void);
 - (double);
+- (void);
+- (void);
 - (double);
 - (void);
+- (void);
+- (void);
+- (void);
 - (double);
-- (double)tionStatistics;
-- (void)PRemoteCommandHandlerDialog;
-- (void)ring;
+- (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool)Xüº;
-- (double);
-- (void)Án!PAùñÀ1¢!0@ù
+- (_Bool);
+- (double);
+- (double);
+- (void)CùñY1Â0@ù
 × ;
-- (double)Ô ;
-- (void)ùñÃÐ1¢!0@ù
+- (void);
+- (id)1Â0@ù
 × ;
-- (void)rchSuggestionsListViewController";
-- (double)tyle";
-- (void)gDictationLanguageForInputModeSwitch:(double)arg1;
-- (void)chDownTask;
-- (id)dj;
-- (double)h;
-- (void)6±üÿ*³üÿÈ´üÿ;
-- (_Bool)cContext;
-- (_Bool):(id)arg1 71ÑÃ;
-- (_Bool)iveColumnButton;
+- (double)× ;
+- (_Bool)!ôBù±e1Â0@ù
+× ;
+- (id)±fð1Â0@ù
+× ;
+- (double)Configuration"16B24@28@?<v@?@"NSError">36;
+- (void);
+- (double): /* Error: Ran out of types for this method. */;
+- (void)houldReportDigitizerLocation;
+- (double)&,N,G_preferredFocusReport,S_setPreferredFocusReport:,V_preferredFocusReport /* Error: Ran out of types for this method. */;
+- (long long)ageSystemImageVisualStyle;
+- (void)Üäåìæèé(éXê°ê|ìØí;
+- (_Bool)+UIKitAdditions.m;
+- (void)ontrollerHighlightDefault;
+- (void)ollerSpineLocationNone;
 
 // Remaining properties
 @property(nonatomic) double accumulatedBrightness; // @synthesize accumulatedBrightness=_accumulatedBrightness;

@@ -16,19 +16,17 @@ __attribute__((visibility("hidden")))
     NSString *_keyEquivalent;
 }
 
-- (void)";
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (void)Án°!TEùñÀÐ1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)tSearchDocument;
-- (void):(_Bool)arg1;
-- (_Bool)rubberDataSource>",N;
-- (long long)üÚþÿÛþÿLÛþÿdÛþÿÛþÿÐÛþÿ0ÜþÿHÜþÿpÜþÿèÝþÿÞþÿÈÞþÿèÞþÿßþÿ(ßþÿHßþÿhßþÿßþÿ¨ßþÿÀßþÿØßþÿðßþÿàþÿ àþÿXàþÿàþÿÀàþÿøàþÿáþÿ(áþÿ@áþÿXáþÿpáþÿáþÿ áþÿ¸áþÿÐáþÿðáþÿâþÿ âþÿ8âþÿlâþÿâþÿ¤âþÿ¼âþÿÔâþÿìâþÿãþÿãþÿ4ãþÿLãþÿdãþÿãþÿ¸ãþÿðãþÿ(äþÿ@äþÿXäþÿpäþÿäþÿ`èþÿxèþÿ°èþÿÈèþÿàèþÿ(êþÿ;
-- (void)ÊýGn;
+- (void);
+- (void)ooterNibMap;
+- (void)Style;
+- (long long)©þÿ;
+- (_Bool)yÌ03U;
+- (id)dValue;
+- (void)ØBe;
 
 // Remaining properties
 @property(nonatomic) _Bool destructive; // @synthesize destructive=_destructive;

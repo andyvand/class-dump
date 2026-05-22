@@ -22,7 +22,7 @@
 }
 
 - (int);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -31,31 +31,31 @@
 - (void);
 - (id);
 - (id);
-- (void)cationChallenge"24@?<v@?q@"NSURLCredential">32;
-- (void)0:(CDUnknownBlockType)arg1 8q16@?24;
-- (_Bool)ror: /* Error: Ran out of types for this method. */;
-- (_Bool)tionID: /* Error: Ran out of types for this method. */;
-- (void)eDirectories:attributes:error: /* Error: Ran out of types for this method. */;
-- (void)ConfigurationResource:(id)arg1 configurationSettings:allowedToReachEndpoint:cachePolicy: /* Error: Ran out of types for this method. */;
-- (void)ring",R,C,N,V_seedNumber;
-- (void)RetrySignal;
-- (void)iguration with requestKey:(id)arg1 %{public}@ lastFetchedDate:%{public}@ maxAge:%{public}@ etag:%{public}@ lastModified:%{public}@ treatmentIDs:%{public}@ segmentSetIDs:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)ailure:%s %s:%d %{public}@ /* Error: Ran out of types for this method. */;
-- (void)otocol *, id<NSObject>);
-- (id)ration must have valid configuration settings;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)rtedSpeakingNotificationFired;
+- (void);
 - (id);
-- (id)veryCharacteristic;
-- (_Bool)me;
+- (id);
 - (void);
-- (void);
+- (_Bool);
 - (void);
-- (void)!;
-- (void)eceiveTouchForPoint:(id)arg1;
+- (void);
+- (void)gEnabled:(id)arg1;
+- (void)GestureRecognizer",&,N,V_rulerGestureRecognizer;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKAttachment> attachment; // @synthesize attachment=_attachment;

@@ -5,11 +5,7 @@
 //
 
 @protocol _UISearchBarContainerSublayoutDelegate
-- (_Bool)peKey: /* Error: Ran out of types for this method. */;
-- (void)tingTabBarRect;
-- (double);
-- (_Bool)CE36_IntelligenceLightSourceFillProvider;
-- (void)eListMetricsContentInsetsReference;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isHostingNavBarTransitionActive) _Bool hostingNavBarTransitionActive;

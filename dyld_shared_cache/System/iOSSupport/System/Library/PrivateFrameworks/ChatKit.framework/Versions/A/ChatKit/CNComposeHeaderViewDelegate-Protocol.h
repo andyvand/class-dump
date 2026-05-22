@@ -5,8 +5,5 @@
 //
 
 @protocol CNComposeHeaderViewDelegate
-
-@optional
-- (void);
 @end
 

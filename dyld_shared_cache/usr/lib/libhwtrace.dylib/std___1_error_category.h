@@ -4,8 +4,8 @@
 
 class std::__1::error_category {
 public: // (access info unavailable from symbols alone)
-    default_error_condition(int) const;
-    equivalent(int, std::__1::error_condition const&) const;
-    equivalent(std::__1::error_code const&, int) const;
+    auto default_error_condition(int) const;
+    auto equivalent(int, std::__1::error_condition const&) const;
+    auto equivalent(std::__1::error_code const&, int) const;
     ~error_category();
 };

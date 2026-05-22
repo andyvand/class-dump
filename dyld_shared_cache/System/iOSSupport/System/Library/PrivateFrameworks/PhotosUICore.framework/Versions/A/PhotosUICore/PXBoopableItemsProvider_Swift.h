@@ -21,13 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)øÝTÞ;
-- (id);
-- (void)¸8;
+- (void);
+- (id)fillBuffersWithTileStatesAtIndexes: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)Xr3;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *assets;

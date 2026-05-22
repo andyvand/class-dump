@@ -13,9 +13,9 @@
 - (double);
 - (void);
 - (id);
+- (double);
 - (void);
-- (double)ible;
-- (id)$¤;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

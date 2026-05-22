@@ -15,15 +15,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)tH;
 - (void);
-- (void)ointOfInterest;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)h;
-- (void)tactViewer;
+- (id);
+- (void)izedString;
+- (void)it.userActivity.date;
+- (void)ø;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *title;

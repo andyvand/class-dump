@@ -21,9 +21,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (_Bool)S}G;
+- (_Bool);
+- (void)Â0@ù
+× ;
+- (long long)xtInfoDictionaryKeyIsReflection;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

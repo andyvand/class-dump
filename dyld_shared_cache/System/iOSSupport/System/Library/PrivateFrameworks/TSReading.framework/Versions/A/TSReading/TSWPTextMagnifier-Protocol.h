@@ -7,12 +7,8 @@
 @class TSWPRep;
 
 @protocol TSWPTextMagnifier
-- (_Bool);
-- (struct CGPoint)@;
-- (void)|1;
-- (void)0;;
-- (struct CGPoint)ublic}s;
-- (void);
+- (struct CGPoint)### NIL CONTOUR PTR
+;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint animationPoint;

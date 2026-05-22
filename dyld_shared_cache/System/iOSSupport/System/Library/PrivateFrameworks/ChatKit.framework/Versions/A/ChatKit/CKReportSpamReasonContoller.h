@@ -13,13 +13,13 @@
     MISSING_TYPE *reportSpamReson;
 }
 
-- (void)NSPredicate"16@?0@"NSString"8;
+- (void);
 - (id);
 - (void);
-- (void)_;
 - (id);
 - (id);
 - (void);
+- (void)ation;
 
 @end
 

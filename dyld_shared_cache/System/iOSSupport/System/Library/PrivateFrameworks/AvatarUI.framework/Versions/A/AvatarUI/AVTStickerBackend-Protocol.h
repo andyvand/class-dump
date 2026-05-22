@@ -7,7 +7,6 @@
 @protocol AVTStickerBackendDelegate;
 
 @protocol AVTStickerBackend
-- (void)V;
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTStickerBackendDelegate> stickerBackendDelegate;

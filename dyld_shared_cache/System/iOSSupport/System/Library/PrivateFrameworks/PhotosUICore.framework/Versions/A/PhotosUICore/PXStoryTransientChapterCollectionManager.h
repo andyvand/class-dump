@@ -31,9 +31,9 @@
 - (id);
 - (void);
 - (void);
-- (void)dingGradient;
-- (id)0@0:8{CGSize=dd}16f32f36 /* Error: Ran out of types for this method. */;
-- (void)aying;
+- (void);
+- (void)t;
+- (id)ds(ÿmûÊxs(ÿUûÊs(ÿmûÊt(ÿmûÊ(t(ÿUûÊDt(ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *edits; // @synthesize edits=_edits;

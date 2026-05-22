@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *accessoriesToReadByTransport; // @synthesize accessoriesToReadByTransport=_accessoriesToReadByTransport;

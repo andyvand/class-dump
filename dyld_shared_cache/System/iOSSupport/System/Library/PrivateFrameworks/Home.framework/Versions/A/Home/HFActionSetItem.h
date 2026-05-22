@@ -37,10 +37,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)ath:toIndexPath: /* Error: Ran out of types for this method. */;
+- (void)oorStateStopped;
 
 // Remaining properties
 @property(readonly, nonatomic) HMActionSet *actionSet; // @synthesize actionSet=_actionSet;

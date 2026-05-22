@@ -14,6 +14,7 @@
     MISSING_TYPE *tagImageApplier;
     MISSING_TYPE *tracker;
     MISSING_TYPE *commandCenter;
+    MISSING_TYPE *followingSelection;
     MISSING_TYPE *placeholderImage;
     MISSING_TYPE *shortcutService;
     MISSING_TYPE *featureAvailability;
@@ -28,8 +29,8 @@
     MISSING_TYPE *completionCoordinators;
 }
 
-- (void);
 - (id);
+- (void)arModuleType;
 
 @end
 

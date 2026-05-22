@@ -14,17 +14,16 @@
     _Bool popPreemptsPushInSwiftUIEnabled;
 }
 
-- (void)Chat %s changed. Added:(_Bool)arg1 %s Removed:%s. Updating scheduled messages accordingly /* Error: Ran out of types for this method. */;
-- (void)ion token, not including token on this message;
-- (void)k Outgoing Download Message;
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
-- (id)Message Failed;
-- (_Bool);
-- (void)
-× ;
 - (id);
-- (void)\;
-- (id)d;
+- (_Bool);
+- (id);
+- (void)l;
+- (void)q;
+- (id)þÚú;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *dimmingColor; // @synthesize dimmingColor;

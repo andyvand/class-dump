@@ -59,15 +59,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (double);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (double)_SSQo_AFG_Qo_tGG÷Ø7GA_GA_GA_G Ö7G_ACyACyÛë9¾Ø7GA_GACyACyACyACyACyADyAByAG_è9yACyôé7yACyAiQG_SSQo_AFG_Qo_tGGA_GA_GA_GA_GA4_GtGG;
+- (double);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *baseScripts; // @synthesize baseScripts=_baseScripts;

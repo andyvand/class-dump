@@ -4,7 +4,7 @@
 
 class GLDMemoryPluginRec {
 public: // (access info unavailable from symbols alone)
-    dealloc();
-    setBufferResource(GLRBufferResource*);
+    auto dealloc();
+    auto setBufferResource(GLRBufferResource*);
     ~GLDMemoryPluginRec();
 };

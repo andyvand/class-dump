@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOnboardingController, UIViewController;
-
 @protocol CKOnboardingControllerDelegate
-- (UIViewController *)dTarget:(CKOnboardingController *)arg1 action: /* Error: Ran out of types for this method. */;
-- (void)onHandler;
 @end
 

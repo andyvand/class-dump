@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)fied placemark could not be found.;
 
 // Remaining properties
 @property(retain, nonatomic) WFSettingsClientBookmark *stateBeforeRun; // @synthesize stateBeforeRun=_stateBeforeRun;

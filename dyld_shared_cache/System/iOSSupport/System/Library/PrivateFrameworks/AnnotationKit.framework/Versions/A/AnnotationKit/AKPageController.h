@@ -23,15 +23,15 @@
     NSMutableDictionary *_noteEditors;
 }
 
-+ (id);
++ (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void)(0e;
+- (void);
 - (void);
 - (struct CGRect);
 - (void);
@@ -43,12 +43,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)3;
 - (void);
-- (void)<;
-- (void)X;
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -57,21 +57,21 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (double);
+- (double);
 - (struct CGRect);
-- (id)l;
 - (id);
 - (id);
-- (_Bool)T;
+- (id);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (long long);
-- (struct CGRect);
 - (struct CGRect);
-- (id)@;
-- (id);
+- (struct CGRect);
+- (id);
+- (id);
 - (id);
 - (double);
 - (struct CGPoint);
@@ -80,15 +80,15 @@
 - (void);
 - (struct CGPoint);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long)`;
-- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;

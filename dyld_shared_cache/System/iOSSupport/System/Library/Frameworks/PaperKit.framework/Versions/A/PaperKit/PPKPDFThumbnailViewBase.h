@@ -41,16 +41,16 @@
 - (void);
 - (void);
 - (long long);
+- (void);
 - (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void)invalid password alert;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) __weak PDFView *PDFView;

@@ -4,7 +4,7 @@
 
 class tlv_write_exception {
 public: // (access info unavailable from symbols alone)
+    auto what() const;
     tlv_write_exception(unsigned short, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>&, long);
-    what() const;
     ~tlv_write_exception();
 };

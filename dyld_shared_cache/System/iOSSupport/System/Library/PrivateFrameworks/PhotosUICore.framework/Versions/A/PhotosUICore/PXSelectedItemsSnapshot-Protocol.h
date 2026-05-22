@@ -5,7 +5,7 @@
 //
 
 @protocol PXSelectedItemsSnapshot
-- (long long)egate>",N,W,Vdelegate;
+- (long long)tifier;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

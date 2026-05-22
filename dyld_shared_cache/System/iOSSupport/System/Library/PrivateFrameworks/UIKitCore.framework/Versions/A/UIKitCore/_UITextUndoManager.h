@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     UITextInputController *_inputController;
 }
 
-- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void)P;
-- (void)er;
-- (id)or: /* Error: Ran out of types for this method. */;
-- (void)ground}i;
+- (_Bool)system HUD due to system HUD presentation;
+- (void)26UIWindowScenePushPlacementCG;
+- (void)äþðZ;
 
 // Remaining properties
 @property(nonatomic) __weak UITextInputController *inputController; // @synthesize inputController=_inputController;

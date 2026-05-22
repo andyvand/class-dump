@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)2;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *issueIdentifier; // @synthesize issueIdentifier=_issueIdentifier;

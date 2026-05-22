@@ -14,14 +14,14 @@
 }
 
 - (id);
-- (id)@;
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void)csCollectorEventBubbleImpactSent;
+- (void);
+- (void);
+- (void)d _sharePersonalAvailabilityWithSKHandle. canShare:(_Bool)arg1 %ld, didShare:%ld, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,6 +7,6 @@
 @protocol CoreTelephonyClientDelegate
 
 @optional
-- (void);
+- (void)mentDownloadFailedWithFileSize:reason:context: /* Error: Ran out of types for this method. */;
 @end
 

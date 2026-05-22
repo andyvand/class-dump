@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<zhtok::ConnectionContext, std::__1::default_delete<zhtok::ConnectionContext>> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](zhtok::ConnectionContext*);
+    auto reset[abi:nqe210106](zhtok::ConnectionContext*);
 };

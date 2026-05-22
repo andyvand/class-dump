@@ -16,7 +16,8 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;

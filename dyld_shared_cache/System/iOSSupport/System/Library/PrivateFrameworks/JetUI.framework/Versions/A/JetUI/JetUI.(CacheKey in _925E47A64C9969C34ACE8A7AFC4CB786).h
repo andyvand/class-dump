@@ -12,10 +12,10 @@
     MISSING_TYPE *traitCollection;
 }
 
+- (id);
 - (long long);
 - (_Bool);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

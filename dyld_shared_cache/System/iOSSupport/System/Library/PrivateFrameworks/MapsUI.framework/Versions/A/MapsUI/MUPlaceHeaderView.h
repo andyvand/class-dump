@@ -86,11 +86,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id)©ù l;
+- (void);
+- (void)ction: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) MUPlaceCoverPhotoOptions *coverPhotoOptions; // @synthesize coverPhotoOptions=_coverPhotoOptions;

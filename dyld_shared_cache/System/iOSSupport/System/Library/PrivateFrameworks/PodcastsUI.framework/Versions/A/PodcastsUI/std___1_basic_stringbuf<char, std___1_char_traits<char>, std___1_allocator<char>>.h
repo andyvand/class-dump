@@ -4,6 +4,6 @@
 
 class std::__1::basic_stringbuf<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __init_buf_ptrs[abi:ne200100]();
-    basic_stringbuf[abi:ne200100](unsigned int);
+    auto __init_buf_ptrs[abi:nqe210106]();
+    auto basic_stringbuf[abi:nqe210106](unsigned int);
 };

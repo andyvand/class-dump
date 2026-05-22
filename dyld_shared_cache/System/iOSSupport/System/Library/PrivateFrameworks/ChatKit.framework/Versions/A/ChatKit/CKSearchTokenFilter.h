@@ -18,30 +18,29 @@
     NSString *_queryStringForMessageTypeSearch;
 }
 
-+ (id)onary"8@"NSDictionary"16@"NSError"24;
 + (id);
 + (id);
-- (id)onAccountInSource;
-- (void)bleLinkBehavior:(id)arg1;
-- (void)attachmentBrickZoomFactor;
-- (void)Color=},&,N,V_strokeColor;
-- (void)stStyle;
-- (void),V_titleLabel;
++ (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id)m;
+- (id);
 - (id);
 - (_Bool);
-- (id)	@
-;
-- (unsigned long long);
-- (void);
 - (id);
 - (void);
-- (void)_handleAccountsChanged:(id)arg1 [%@] isSigningIn:[%@] /* Error: Ran out of types for this method. */;
-- (unsigned long long)A²Àãí;
-- (id)ã;
-- (void)¨/-;
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (unsigned long long)annerIfNeeded because a message send is animating.;
+- (void);
+- (void);
+- (id)dÕ.;
 
 // Remaining properties
 @property(nonatomic) unsigned long long contentType; // @synthesize contentType=_contentType;

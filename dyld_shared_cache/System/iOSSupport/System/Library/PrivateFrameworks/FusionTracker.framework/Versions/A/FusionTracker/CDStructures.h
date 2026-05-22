@@ -166,7 +166,7 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
 };
 
 struct unordered_map<std::string, espresso_simple_image_preprocessing_params_t, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, espresso_simple_image_preprocessing_params_t>>> {
-    struct __hash_table<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>>> {
+    struct __hash_table<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, std::__unordered_map_hasher<std::string, std::pair<const std::string, espresso_simple_image_preprocessing_params_t>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, espresso_simple_image_preprocessing_params_t>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, espresso_simple_image_preprocessing_params_t>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, espresso_simple_image_preprocessing_params_t>, void *>*> {
@@ -179,7 +179,7 @@ struct unordered_map<std::string, espresso_simple_image_preprocessing_params_t, 
 };
 
 struct unordered_map<std::string, ik::Tensor, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, ik::Tensor>>> {
-    struct __hash_table<std::__hash_value_type<std::string, ik::Tensor>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, ik::Tensor>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, ik::Tensor>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, ik::Tensor>>> {
+    struct __hash_table<std::__hash_value_type<std::string, ik::Tensor>, std::__unordered_map_hasher<std::string, std::pair<const std::string, ik::Tensor>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, ik::Tensor>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, ik::Tensor>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, ik::Tensor>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, ik::Tensor>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, ik::Tensor>, void *>*> {

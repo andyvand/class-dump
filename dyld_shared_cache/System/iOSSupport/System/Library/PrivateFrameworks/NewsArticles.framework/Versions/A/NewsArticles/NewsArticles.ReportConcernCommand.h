@@ -15,10 +15,10 @@
     MISSING_TYPE *recipeBox;
 }
 
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)te;
 
 @end
 

@@ -18,19 +18,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)ù
+- (void)ùQf°1Â0@ù
 × ;
-- (void)mentDidUpdateKeyboardLayers:(_Bool)arg1;
-- (id)¸;
-- (struct UIEdgeInsets)on = %p; previousDisplayMode = %ld; newDisplayMode = %ld;
-- (void)Ê¢^;
+- (void)atingResponder;
+- (id)dditional info:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (struct UIEdgeInsets)É;
+- (id)^;
+- (void)_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,7 +4,7 @@
 
 class ReadChannel {
 public: // (access info unavailable from symbols alone)
-    CreateCopy() const;
-    Print(char*, unsigned long, int, AXRData const*, unsigned long) const;
-    operator==(ReadChannel&);
+    auto CreateCopy() const;
+    auto Print(char*, unsigned long, int, AXRData const*, unsigned long) const;
+    auto operator==(ReadChannel&);
 };

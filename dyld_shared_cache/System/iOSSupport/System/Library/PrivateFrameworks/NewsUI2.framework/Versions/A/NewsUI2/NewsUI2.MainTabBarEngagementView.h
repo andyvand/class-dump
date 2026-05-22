@@ -12,10 +12,10 @@
     MISSING_TYPE *contentConfiguration;
 }
 
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (id)bilityInForYou;
+- (void)MagazineSectionBarConfig;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

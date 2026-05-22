@@ -8,4 +8,4 @@ AVTPlistDatabaseMemojiAssetWithIdentifier::kAVTPlistDatabase_assetByIdentifier;
 AVTPlistDatabaseMemojiAssetWithIdentifier::onceToken;
 AVTPlistDatabaseMemojiAssetsForComponentType::kAVTPlistDatabase_assetIdentifiersByComponentType;
 AVTPlistDatabaseMemojiAssetsForComponentType::onceToken;
-_simd_slerp_internal(simd_quatf, simd_quatf, float);
+auto _simd_slerp_internal(simd_quatf, simd_quatf, float);

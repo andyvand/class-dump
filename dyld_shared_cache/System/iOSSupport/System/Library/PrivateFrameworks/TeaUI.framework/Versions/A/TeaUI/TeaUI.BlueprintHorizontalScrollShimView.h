@@ -22,11 +22,13 @@
 - (void);
 - (void);
 - (void);
-- (id)appInstallBaselineImpressionValue;
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (_Bool)táÿ;
+- (_Bool);
+- (void)üéüÿêüÿ,êüÿLêüÿlêüÿêüÿ¬êüÿÄêüÿÜêüÿôêüÿxëüÿ°ëüÿèëüÿ;
 
 @end
 

@@ -63,15 +63,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (void)tailsHeaderTileLayoutFontName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)tonHighlighted;
-- (id)onadeSearchCollectionResultsShelfProvider24CollectionContainerModel;
-- (id);
 - (void);
+- (void)le Hybrid Match;
+- (void)X(aåô´&;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXLibrarySummaryDataSource> dataSource; // @synthesize dataSource=_dataSource;

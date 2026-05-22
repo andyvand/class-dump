@@ -5,6 +5,6 @@
 //
 
 @interface (null) (MPCAdditions)
-- (void)uring sign out. Unsetting the TV offers retrieval flag to refetch next auth. deviceOffers = %{public}@;
+- (void);
 @end
 

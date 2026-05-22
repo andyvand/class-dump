@@ -17,15 +17,15 @@
 }
 
 - (struct CGSize);
-- (int)Q;
+- (int);
 - (id);
 - (_Bool);
-- (struct CGImage *);
-- (id);
-- (void)@;
+- (struct CGImage *);
 - (void);
-- (id)P;
-- (id)eportingWebUsage;
+- (id);
+- (id);
+- (void);
+- (id),V_transitionDuration;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *aspectRatio; // @synthesize aspectRatio=_aspectRatio;

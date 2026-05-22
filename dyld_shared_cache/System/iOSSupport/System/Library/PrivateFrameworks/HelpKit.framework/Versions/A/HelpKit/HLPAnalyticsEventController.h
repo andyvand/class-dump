@@ -14,17 +14,17 @@
     NSString *_version;
 }
 
-+ (id)ntrollerDelegate>";
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 

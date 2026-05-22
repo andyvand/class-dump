@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ata = %@; OUTPUT chat = %@; numMessageItems = %lu};
-+ (id)torage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
-+ (id)r %p; GUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
-+ (id)terQueryRequestClass(void)_block_invoke;
-+ (id)lterQueryRequest;
-+ (id)Class getILMessageFilterClass(void)_block_invoke;
-+ (id)/IdentityLookup;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 

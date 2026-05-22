@@ -19,7 +19,7 @@
     struct CGRect mBoundsForStandardKnobs;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -34,9 +34,9 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
-- (void);
 - (id);
+- (id);
+- (void)lSizeValue:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) struct CGRect boundsForStandardKnobs;

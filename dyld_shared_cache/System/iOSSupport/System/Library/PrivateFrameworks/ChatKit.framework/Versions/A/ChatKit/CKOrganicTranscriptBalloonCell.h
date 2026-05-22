@@ -13,13 +13,13 @@
     CKOrganicImageLayoutRecipe *_layoutRecipe;
 }
 
-- (void)tUndoTarget;
-- (void)t;
-- (id)t;
-- (void)entController11Highlighter;
-- (void);
+- (void);
+- (void);
 - (id);
-- (double),N,V_isMonoskiAsset;
+- (void);
+- (id);
+- (double);
+- (void)}};
 
 // Remaining properties
 @property(retain, nonatomic) CKOrganicImageLayoutRecipe *layoutRecipe; // @synthesize layoutRecipe=_layoutRecipe;

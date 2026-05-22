@@ -15,9 +15,9 @@
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)H;
-- (id);
+- (id)rride:(id)arg1;
 
 @end
 

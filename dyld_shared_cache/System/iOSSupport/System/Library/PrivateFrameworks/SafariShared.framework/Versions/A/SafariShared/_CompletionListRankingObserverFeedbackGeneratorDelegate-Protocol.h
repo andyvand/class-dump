@@ -5,8 +5,5 @@
 //
 
 @protocol _CompletionListRankingObserverFeedbackGeneratorDelegate
-
-@optional
-- (unsigned long long);
 @end
 

@@ -7,14 +7,8 @@
 @class UIBezierPath;
 
 @protocol UIDynamicItem
-- (struct CGRect)};
-- (void)N,V_deviceClass;
-- (void)1¢!0@ù
-× ;
-- (struct CGPoint)4A;
-
-@optional
-- (UIBezierPath *);
+- (void);
+- (void)R,C,N;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

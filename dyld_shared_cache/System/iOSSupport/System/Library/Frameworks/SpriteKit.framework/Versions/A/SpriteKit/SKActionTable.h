@@ -20,9 +20,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void)AudioFileName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *_info; // @synthesize _info=__info;

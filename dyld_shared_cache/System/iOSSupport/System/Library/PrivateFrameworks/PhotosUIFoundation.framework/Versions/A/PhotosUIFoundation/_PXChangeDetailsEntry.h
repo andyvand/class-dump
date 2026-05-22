@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (long long);
 - (void);
+- (void)V_removedIndexes;
 
 // Remaining properties
 @property(readonly, nonatomic) PXMutableArrayChangeDetails *changeDetails; // @synthesize changeDetails=_changeDetails;

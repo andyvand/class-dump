@@ -13,9 +13,9 @@
 
 + (id);
 + (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UVAgentSceneSpecification *specification; // @synthesize specification=_specification;

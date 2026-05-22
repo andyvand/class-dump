@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary, NSString, SCSensitivityAnalysis;
 
 @interface SCUIMoreHelpContextMenuContainer
 {
     long long _options;
+    SCSensitivityAnalysis *_analysis;
     NSDictionary *_contextDictionary;
     long long _interventionType;
     NSString *_menuIdentifier;
@@ -18,11 +19,13 @@
 - (id);
 - (id);
 - (long long);
-- (void);
-- (long long);
 - (id);
+- (long long);
+- (void);
+- (id)GQz;
 
 // Remaining properties
+@property(readonly, nonatomic) SCSensitivityAnalysis *analysis; // @synthesize analysis=_analysis;
 @property(readonly, copy, nonatomic) NSDictionary *contextDictionary; // @synthesize contextDictionary=_contextDictionary;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

@@ -19,15 +19,15 @@
     NSDictionary *_modernScreenSharingCapabilities;
 }
 
-- (id)yer",&,N,V_pieLayer;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,13 +36,13 @@
 - (void);
 - (id);
 - (id);
-- (id)e;
-- (unsigned long long)e;
-- (_Bool)y_storage_$_documentOptions;
-- (_Bool)__lazy_storage_$_showScrubberDelayer;
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (_Bool)rHighlightsControllerWillPerformHighlightUpdatesNotification;
-- (id)"ICTTMutableParagraphStyle"8;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -67,7 +67,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)+;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -78,19 +78,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)";
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)a¬°!0Aù1Äð1¢!0@ù
-× ;
-- (id)#¬SgGGACyõ«GGê¬yl(¬GGú«G?¬yéì«y+ÿ«~ò«GGGþî«yAVGGd;
-- (void)Ê­y	<­yAFyACyACyZ;­m*­yï:(id)arg1 ­GGÈ­G_¹6­\<­ACyAkLyp%­GGtGGG_AYSgA2YtGAHG_AGyAhFyÉ­yAIyAJyAFyAQ_ArStGGG_Qo__A3_A3_tGAHGAGyAHA3_AHGtGG1­yAMSgGGí=GAByí=í=GG í=_G;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id)elineState>"48@0:8@"MTLComputePipelineDescriptor"16Q24^@32^@40 /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *contacts;

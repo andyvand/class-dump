@@ -4,9 +4,9 @@
 
 class icu::SingleUnitImpl {
 public: // (access info unavailable from symbols alone)
-    appendNeutralIdentifier(icu::CharString&, UErrorCode&) const;
-    build(UErrorCode&) const;
-    forMeasureUnit(icu::MeasureUnit const&, UErrorCode&);
-    getSimpleUnitID() const;
-    getUnitCategoryIndex() const;
+    auto appendNeutralIdentifier(icu::CharString&, UErrorCode&) const;
+    auto build(UErrorCode&) const;
+    auto forMeasureUnit(icu::MeasureUnit const&, UErrorCode&);
+    auto getSimpleUnitID() const;
+    auto getUnitCategoryIndex() const;
 };

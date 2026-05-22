@@ -23,11 +23,11 @@
 
 - (void);
 - (id);
-- (void)_;
+- (void);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
@@ -42,6 +42,7 @@
 - (id);
 - (id);
 - (id);
+- (struct _NSRange);
 - (id);
 - (id);
 - (id);
@@ -53,9 +54,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)áÝ°!lBùïÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <SXTextSourceDataSource> dataSource; // @synthesize dataSource=_dataSource;

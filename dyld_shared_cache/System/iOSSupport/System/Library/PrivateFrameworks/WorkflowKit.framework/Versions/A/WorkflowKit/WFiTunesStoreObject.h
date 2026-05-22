@@ -22,12 +22,12 @@
 + (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Ô ;
+- (void)Shortcut.wflow;
+- (id)ø;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artistID; // @synthesize artistID=_artistID;

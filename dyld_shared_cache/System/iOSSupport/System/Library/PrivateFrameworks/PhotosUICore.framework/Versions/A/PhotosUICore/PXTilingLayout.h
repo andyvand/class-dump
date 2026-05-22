@@ -33,18 +33,17 @@
 - (struct CGSize);
 - (struct CGSize);
 - (struct CGRect);
+- (void);
+- (void);
+- (id);
 - (id);
 - (struct UIEdgeInsets);
-- (void)0e;
+- (void);
 - (struct CGRect);
+- (void)(æcÿP;
+- (void)Core/LemonadeWallpaperData.swift;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void)0@ù
-× ;
-- (id)el: /* Error: Ran out of types for this method. */;
-- (void)nÐnìoèqÐsw u<z}ø}dH;
+- (id)PerformanceBaselineScrollTest;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowHorizontalFlip;

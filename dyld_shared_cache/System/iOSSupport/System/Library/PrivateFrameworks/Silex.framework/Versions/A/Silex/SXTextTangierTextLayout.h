@@ -33,9 +33,9 @@
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
 - (void);
-- (void)s;
+- (void)xtTangierFlowRep"16;
+- (struct CGSize)nForVisibleViewControllers;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *addedChildren; // @synthesize addedChildren=_addedChildren;

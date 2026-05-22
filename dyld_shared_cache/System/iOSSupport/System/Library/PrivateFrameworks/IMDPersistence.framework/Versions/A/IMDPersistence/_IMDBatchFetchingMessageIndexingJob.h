@@ -18,11 +18,11 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)C;
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
+- (void)";
 
 // Remaining properties
 @property(readonly, nonatomic) _IMDAggregateMessageIndexingJob *job; // @synthesize job=_job;

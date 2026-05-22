@@ -14,9 +14,10 @@
 
 - (void);
 - (id);
-- (void);
-- (id) B@¯@ô¤L^À*Õ¢ó`@;
-- (void);
+- (id)0@ù
+× ;
+- (void)interval for transient object, %@ to %lf;
+- (void)ò÷ÿ^.A";
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *devices; // @synthesize devices=_devices;

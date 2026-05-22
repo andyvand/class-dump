@@ -12,8 +12,8 @@
 {
 }
 
-+ (id)mp;
-+ (void)@"NSString",R,N,V_iTunesSubscriptionIdentifier;
++ (id);
++ (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *assetURL; // @dynamic assetURL;

@@ -14,9 +14,9 @@
     MISSING_TYPE *identifier;
 }
 
+- (id);
 - (_Bool);
-- (void);
-- (id)i;
+- (void)Ý;
 
 @end
 

@@ -9,10 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
 + (id);
-+ (void);
-+ (void);
++ (void)ñc°1Â0@ù
+× ;
++ (void)inuousSpellChecking:(id)arg1;
++ (void)RoundedOffset:(id)arg1;
 
 @end
 

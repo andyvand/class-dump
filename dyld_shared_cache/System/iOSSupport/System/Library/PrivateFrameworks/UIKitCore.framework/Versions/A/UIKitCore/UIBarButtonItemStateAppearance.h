@@ -14,24 +14,23 @@
     NSArray *_itemEffects;
 }
 
-- (void)C;
-- (id)ation for %@;
-- (struct UIOffset)at found to report not junk for message guid:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (struct UIOffset);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)splay;
-- (void)en;
-- (id)able,S_setFloatable:,V_floatable /* Error: Ran out of types for this method. */;
-- (void);
-- (void)T4RÿÙ9ÐìIb;
+- (id)TraitCollection: /* Error: Ran out of types for this method. */;
+- (void)pdateImmediatelyIfPossible:(CDUnknownBlockType)arg1;
+- (id);
+- (void)or UITableViewAutomaticDimension.;
+- (id)g,%g,%g,%g)>;
+- (void)b;
 - (void);
-- (id)e;
-- (id)¨jèÿï^É
-äf;
-- (void);
-- (struct UIOffset)Luÿ;
+- (struct UIOffset)BÿÒ0yd;
+- (void)vÿÌ/;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *backgroundImage;

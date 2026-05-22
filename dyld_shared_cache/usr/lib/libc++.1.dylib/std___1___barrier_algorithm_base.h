@@ -4,6 +4,6 @@
 
 class std::__1::__barrier_algorithm_base {
 public: // (access info unavailable from symbols alone)
-    __arrive(unsigned char);
     __barrier_algorithm_base(long&);
+    auto __arrive(unsigned char);
 };

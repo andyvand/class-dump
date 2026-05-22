@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (SEL);
+- (SEL);
 - (id);
-- (id)a;
-- (id)Éð1¢!0@ù
-× ;
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

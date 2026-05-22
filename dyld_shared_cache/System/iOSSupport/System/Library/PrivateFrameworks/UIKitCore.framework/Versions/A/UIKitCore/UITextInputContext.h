@@ -8,15 +8,16 @@
 {
 }
 
-+ (id)82r;
-+ (id)Bÿ;
++ (id);
++ (id)IÿÝDKr;
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)dListForKey:list: /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)Ñÿ;
 
 // Remaining properties
 @property(nonatomic, getter=isDictationInputExpected) _Bool dictationInputExpected;

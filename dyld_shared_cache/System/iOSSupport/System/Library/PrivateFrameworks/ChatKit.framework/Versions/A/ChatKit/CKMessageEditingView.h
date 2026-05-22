@@ -21,35 +21,21 @@
     UIColor *_messageEditingBalloonTintColor;
 }
 
-- (void)ddSublayer: /* Error: Ran out of types for this method. */;
-- (void)uota:(id)arg1 currentOriginUsage:currentDatabaseUsage:expectedUsage:decisionHandler: /* Error: Ran out of types for this method. */;
-- (id)doCommands;
-- (id)ompletionHandler:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)s;
+- (id);
 - (void);
 - (void);
 - (long long);
-- (id)s;
-- (void)T;
-- (void);
-- (void);
-- (void)k;
-- (void);
 - (id);
-- (id);
-- (id);
-- (_Bool)regenerate text content for non-existent attachment:%@ /* Error: Ran out of types for this method. */;
-- (id)iOS 16, iPadOS 16, and macOS 13 and later. Your devices that need upgrading: /* Error: Ran out of types for this method. */;
-- (id);
-- (BOOL);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -57,15 +43,29 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (BOOL);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)onnull __strong, dispatch_queue_t  _Nonnull __strong, dispatch_time_t, RCTimeoutBlock  _Nonnull __strong);
-- (id)ÿÿ²ýÿ;
-- (struct CGSize)MessageEntryContentView+TextEffects;
-- (void)/-;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (struct CGSize);
+- (_Bool);
+- (void);
+- (void)CKSharedContentsCollectionViewCell"24;
+- (void)h;
+- (id)ìFÿÕ÷k_ªÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *balloonViewForAlignment;

@@ -26,84 +26,83 @@ __attribute__((visibility("hidden")))
     long long _singleAllowableExternalTouchPathIndex;
 }
 
+- (id);
+- (void);
+- (id);
+- (id);
+- (long long);
 - (void);
 - (void);
+- (id);
+- (id);
+- (struct CGPoint);
+- (void);
+- (id);
+- (id);
+- (void);
+- (struct __CFDictionary *);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (long long)`;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)P;
-- (id)y:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (double);
-- (id)ght: /* Error: Ran out of types for this method. */;
-- (unsigned long long)aylistsMap;
-- (id)e;
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)1¢!0@ù
+- (id)ð1Â0@ù
 × ;
-- (id)!r°!GùqÅÐ1¢!0@ù
+- (id)ZÐ1Â0@ù
+× ;
+- (void);
+- (double)0@ù
+× ;
+- (void)!|Fùq`Ð1Â0@ù
+× ;
+- (id);
+- (id)1Â0@ù
+× ;
+- (long long)á	°!Dù1fð1Â0@ù
 × ;
 - (id)
 × ;
-- (id)ÔÁrÐ!ð@ùQÆ°1¢!0@ù
-× ;
+- (void)IKBBackgroundView";
+- (id)ndaryViewController"b1"delegateWantsSeparateSecondaryViewController"b1"delegateWantsPrimaryViewControllerForCollapse"b1"delegateWantsPrimaryViewControllerForExpanding"b1"collapsedState"b2"primaryHidingState"b2"primaryHidingStateForCurrentOrientation"b2"delegateWantsWillChangeToDisplayMode"b1"delegateWantsTargetDisplayModeForAction"b1"delegateCanModifyFirstResponderOnTraitCollectionTransition"b1"pendingPresentMasterViewController"b1"pendingUpdateTargetDisplayMode"b1"collapsingClockwise"b1"firstResponderChangedFromPostTransitionResponder"b1"firstResponderChangedFromPostTransitionResponderToNil"b1"inWillTransitionToSize"b1"hasTransitioningToInternalMode"b1"delegateImplementsPrivateIsPrimaryVisible"b1"delegateImplementsPrivateCollapseSecondaryViewControllerWhileSuspended"b1"usesExtraWidePrimaryColumn"b1"usesDeviceOverlayPreferences"b1"prefersOverlayInRegularWidthPhone"b1};
+- (void)NSIndexPath"16@"UIView"24;
+- (void)isHostedByNavigationBar"b1"isHostedInlineByNavigationBar"b1"isHostedInlineByToolbar"b1"isFloating"b1"isTextFieldManagedInNSToolbar"b1"providesRestingMeasurementValues"b1"navigationBarWantsFlexibleInlineSearch"b1"showsScopeBar"b1"activeSearchDeferringScopeBar"b1"showDictationButton"b1"allowedToShowDictationButton"b1"dictationButtonSetupComplete"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1"enforcedMaximumContentSizeWhileLendingView"b1"showsLargeContentViewerBeforeLendingView"b1};
+- (_Bool)ard;
 - (void);
-- (void)0@ù
-× ;
+- (unsigned long long)Callback;
+- (void)d:(id)arg1;
+- (id)dsForceUpdate;
+- (id)ColorTransformerIdentifier:,V_colorTransformerIdentifier /* Error: Ran out of types for this method. */;
+- (id)imatesSectionFooterHeights;
+- (id)tConstraint",&,N,V_leadingQuickActionViewEdgeConstraint;
 - (id);
-- (id)!;
-- (id)1¢!0@ù
-× ;
-- (void)¢!0@ù
-× ;
-- (void)
-× ;
-- (void)ñË°1¢!0@ù
-× ;
-- (id)rgins"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
-- (id)rideSourceView: /* Error: Ran out of types for this method. */;
-- (id)inerWindow;
-- (struct CGPoint)ext: /* Error: Ran out of types for this method. */;
-- (id)orEditableContent;
-- (id)stomizabilityDidChange;
-- (void)dCell;
-- (id)arance_setBackButtonBackgroundVerticalPositionAdjustment:(struct __GSEvent *)arg1 forBarMetrics:(id)arg2;
-- (id)atio:(id)arg1;
-- (id),N,V_decorationSystem;
-- (struct __CFDictionary *)T@"_UIAnimationCoordinator",&,N,V_animationCoordinator;
-- (id)@dèH;
-- (id)°dà;
-- (void)P^D``ata	ìa,d¸d;
-- (_Bool)¼;
-- (void)move the implementation of this method to the data source of this table view, instead of the delegate:(id)arg1 %@;
-- (void);
+- (void)T;
+- (_Bool)`àa0c0e)ðt4v
+LwÌx;
+- (unsigned long long)4Æ;
+- (void);
+- (void)°YHa¸abPcücäe(f;
+- (id)jiCategoryObjects(void);
 - (double);
-- (id)le style %li;
-- (long long)izationsContainerClassNamesKey;
-- (id)?"];
-- (void);
-- (id)21ÿJ¬Ñ_b;
-- (id)é;
-- (_Bool)ÊÀf;
-- (id)Ýf;
+- (void)old search controller. Investigate if repro steps are available. Otherwise, ignore.;
+- (void)Aþÿ;
+- (id);
+- (id);
+- (void);
+- (void)F;
+- (void)ÓÿÑÚè­d;
+- (id)±d;
+- (void);
+- (void);
+- (void)þ7n;
+- (id)þ;
+- (id)Òg;
 
 // Remaining properties
 @property(readonly, nonatomic) double _initialTouchTimestamp;

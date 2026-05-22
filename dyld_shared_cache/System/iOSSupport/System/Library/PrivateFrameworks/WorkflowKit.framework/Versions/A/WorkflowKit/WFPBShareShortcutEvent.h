@@ -22,7 +22,6 @@
 }
 
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -32,30 +31,31 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (unsigned int);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool),¦§P¨©¤©;
+- (void), but we're already in the process of stopping/finishing (current stage:(id)arg1 %lu);
+- (_Bool)utionCoordinator cancelSessions:] /* Error: Ran out of types for this method. */;
+- (void)ror *__autoreleasing  _Nullable * _Nullable);
+- (void)t from Evernote.;
 - (id);
-- (id);
-- (id);
-- (_Bool)nvocation_t;
-- (int)showAskParameterDialogForParameter:(id)arg1 action:defaultState:prompt:completion:] /* Error: Ran out of types for this method. */;
-- (void)new folder.;
+- (int)m Right alignment, and the Top for Top alignment. (WFPercentageTextOffset);
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

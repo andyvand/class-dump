@@ -5,6 +5,5 @@
 //
 
 @protocol CAAction
-- (void);
 @end
 

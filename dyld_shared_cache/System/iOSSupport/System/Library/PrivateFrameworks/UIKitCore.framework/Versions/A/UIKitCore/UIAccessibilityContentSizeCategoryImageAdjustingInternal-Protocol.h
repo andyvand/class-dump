@@ -5,6 +5,5 @@
 //
 
 @protocol UIAccessibilityContentSizeCategoryImageAdjustingInternal
-- (double);
 @end
 

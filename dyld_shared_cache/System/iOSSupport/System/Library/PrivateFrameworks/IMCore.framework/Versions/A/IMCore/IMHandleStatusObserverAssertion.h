@@ -12,13 +12,13 @@
     IMHandle *_handle;
 }
 
-- (id);
 - (void);
 - (void);
 - (id);
-- (_Bool)agesEnabled;
-- (void)%s There was no existing timestamp.;
-- (void)qÜß;
+- (_Bool);
+- (void)6@"NSSet"24;
+- (void)L;
+- (id)È;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak IMHandle *handle; // @synthesize handle=_handle;

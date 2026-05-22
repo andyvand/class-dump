@@ -19,9 +19,9 @@
 - (id);
 - (Class);
 - (unsigned long long);
-- (void);
 - (id);
-- (void)etedPreview"40@0:(id)arg1 8@"UIContextMenuInteraction"16@"UIContextMenuConfiguration"24@"<NSCopying>"32;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

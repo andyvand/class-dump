@@ -5,6 +5,5 @@
 //
 
 @protocol CKSendAnimationBalloonProvider
-- (_Bool);
 @end
 

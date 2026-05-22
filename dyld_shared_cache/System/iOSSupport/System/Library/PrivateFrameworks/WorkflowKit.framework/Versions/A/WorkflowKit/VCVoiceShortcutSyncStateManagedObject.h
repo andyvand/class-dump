@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)Çÿÿ;
++ (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasSynced; // @dynamic hasSynced;

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)sitionCoordinator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

@@ -26,14 +26,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)0@ù
-× ;
-- (id)leCheckmarkTextCell"16@"HFItem"24;
-- (void)ome"16@"HMHomeActivityStateSchedule"24;
+- (void);
+- (void)LOCATION_ID:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) OBLinkTrayButton *customizeButton; // @synthesize customizeButton=_customizeButton;

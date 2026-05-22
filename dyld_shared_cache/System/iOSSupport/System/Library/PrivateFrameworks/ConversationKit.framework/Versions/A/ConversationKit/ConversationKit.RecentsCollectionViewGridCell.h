@@ -12,19 +12,22 @@
     MISSING_TYPE *shouldIgnoreSelection;
     MISSING_TYPE *shouldShowSelectionView;
     MISSING_TYPE *delegate;
+    MISSING_TYPE *renderingMode;
+    MISSING_TYPE *contactAvatarView;
+    MISSING_TYPE *hasCalledLayoutSubviews;
     MISSING_TYPE *viewModel;
     MISSING_TYPE *circleOutline;
     MISSING_TYPE *circleOutlineTopConstraint;
     MISSING_TYPE *circleOutlineTrailingConstraint;
 }
 
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool)tonProvider;
+- (void);
+- (void)l yAAyÃ ~ G_Qo_GG;
+- (_Bool)tion for call %@;
 
 // Remaining properties
 @property(nonatomic) _Bool selected;

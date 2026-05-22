@@ -12,8 +12,8 @@
 
 - (id);
 - (id);
-- (float)yAssetVideoContentProviderRequest"16^B24;
 - (struct CGRect);
+- (float)sitionsChangeDetails;
 
 // Remaining properties
 @property(readonly, nonatomic) float confidence; // @synthesize confidence=_confidence;

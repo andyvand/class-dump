@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (_Bool);
+- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
 
 // Remaining properties
 @property(retain) id <MTLTexture> texChroma; // @synthesize texChroma=_texChroma;

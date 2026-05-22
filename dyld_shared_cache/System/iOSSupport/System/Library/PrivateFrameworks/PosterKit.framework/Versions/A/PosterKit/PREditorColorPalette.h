@@ -20,32 +20,34 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (_Bool)uration: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)¡¨°!Ð@ùÑñ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSArray *colors; // @synthesize colors=_colors;

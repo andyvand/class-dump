@@ -31,29 +31,30 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
 - (id);
 - (id);
-- (_Bool)C;
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void)c;
+- (void);
+- (long long);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)�#;
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
-- (id)nce_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id WHERE cm.chat_id = (SELECT c.rowid FROM chat c WHERE c.chat_identifier = ? AND c.service_name = ?) ;
+- (id);
+- (void)ÿ%;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *auxItems; // @synthesize auxItems=_auxItems;

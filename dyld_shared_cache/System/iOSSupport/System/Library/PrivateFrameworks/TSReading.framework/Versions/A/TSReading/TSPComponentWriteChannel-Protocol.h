@@ -5,6 +5,6 @@
 //
 
 @protocol TSPComponentWriteChannel
-- (void)XÐ;
+- (void)aledCanvas;
 @end
 

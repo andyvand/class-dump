@@ -18,17 +18,17 @@ __attribute__((visibility("hidden")))
 
 + (struct CGSize);
 + (id);
-- (void)c;
-- (void)CGSize=dd}}16;
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)onfigurationSubPredicate;
-- (id)oÿÿ;
-- (void)ownloadPrompt;
+- (id);
+- (id)kTemplateImageNamed: /* Error: Ran out of types for this method. */;
+- (void)SgtGGANGANGtGGG_Qo_;
+- (void)P;
 
 // Remaining properties
 @property(retain, nonatomic) CKTranscriptLegibilityButton *actionButton; // @synthesize actionButton=_actionButton;

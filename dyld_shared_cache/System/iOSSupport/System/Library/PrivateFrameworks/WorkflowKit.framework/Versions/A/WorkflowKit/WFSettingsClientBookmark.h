@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void)riableString class]];
 
 // Remaining properties
 @property(retain, nonatomic) id <BMBookmark> biomeBookmark; // @synthesize biomeBookmark=_biomeBookmark;

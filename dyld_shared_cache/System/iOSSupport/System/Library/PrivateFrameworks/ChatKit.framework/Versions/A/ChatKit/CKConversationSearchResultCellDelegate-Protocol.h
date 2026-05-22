@@ -5,6 +5,5 @@
 //
 
 @protocol CKConversationSearchResultCellDelegate
-- (double);
 @end
 

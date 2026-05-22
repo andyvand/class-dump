@@ -21,40 +21,41 @@
     } _delegateFlags;
 }
 
-+ (id)`ßà`á;
-- (id);
-- (void);
-- (void)__cstring;
-- (void);
-- (void);
-- (void);
-- (id)gCzL;
++ (id)roller,S_setTemporaryPresentationController:,V_temporaryPresentationController /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)]äº;
+- (id);
+- (id);
 - (void);
 - (id);
-- (_Bool)!x°!(@ùqÍ°1¢!0@ù
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id)!@Aù±Z°1Â0@ù
 × ;
-- (id)wSpringLoadedInteraction;
-- (id)eferredFilename;
-- (id)eginDragWithTouch:(id)arg1;
-- (_Bool)nMenuCommands;
-- (long long)Changing: /* Error: Ran out of types for this method. */;
-- (id)StartIteration:(id)arg1;
-- (id)layoutEngineForSizingInfo;
-- (id)V_pressedShadowVerticalOffset;
-- (id)ltipliedBy: /* Error: Ran out of types for this method. */;
+- (void)"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
+- (id)dd}}16i48;
+- (id)erInteraction;
+- (id)lectionGestureOnView:(id)arg1;
+- (id)ProofreadingSuggestionID: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)roller_containerViewWillLayout;
-- (id)he completion handler was never called.;
-- (id)6^B24;
-- (id)IButtonBarBlackTranslucentBackground.png;
-- (void)ryIcon;
-- (id)4 ;
-- (id)ñg;
+- (id)KeysWithReason:(CDUnknownBlockType)arg1 force: /* Error: Ran out of types for this method. */;
+- (void)tionLayoutEnvironment;
+- (void)	
+;
+- (void)«X¬Ð¬|­±x²¸»L¼;
+- (id)ôKTM;
+- (id)ng autosaving:(id)arg1 %@;
+- (id)is being asked to observe a scrollView.;
+- (void);
+- (id);
+- (id);
+- (long long)idanceRect"16^B24;
+- (_Bool)ner, NSCoder *__strong);
+- (void)á,ÝÓg;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

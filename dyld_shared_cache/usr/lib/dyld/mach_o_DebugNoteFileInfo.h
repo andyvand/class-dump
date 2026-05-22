@@ -4,5 +4,5 @@
 
 class mach_o::DebugNoteFileInfo {
 public: // (access info unavailable from symbols alone)
-    dump() const;
+    auto dump() const;
 };

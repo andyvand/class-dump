@@ -15,13 +15,13 @@
     MISSING_TYPE *subtitleLabel;
 }
 
-- (struct CGSize)w;
-- (void)learing recent System Paper thumbnail {error:(id)arg1 %s};
+- (struct CGSize);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)tate;
 
 @end
 

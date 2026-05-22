@@ -33,7 +33,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool)`;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -42,7 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -51,15 +51,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (_Bool);
-- (void);
-- (id);
 - (id);
-- (id)QueryFinished for activity:com.apple.searchd.expirations pc=%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
-- (id)apple.com;
 - (void);
+- (id);
+- (id);
 - (void);
 
 // Remaining properties

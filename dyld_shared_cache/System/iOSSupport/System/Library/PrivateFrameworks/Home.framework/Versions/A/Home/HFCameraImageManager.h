@@ -87,9 +87,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)ableSwitchValue_DoublePress;
 
 // Remaining properties
 @property(retain, nonatomic) HFCameraPosterFrameProvider *cameraPosterFrameProvider; // @synthesize cameraPosterFrameProvider=_cameraPosterFrameProvider;

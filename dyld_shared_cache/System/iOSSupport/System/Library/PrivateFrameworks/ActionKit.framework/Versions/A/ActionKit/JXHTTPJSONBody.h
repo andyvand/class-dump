@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)ion;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

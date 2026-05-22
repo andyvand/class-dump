@@ -16,19 +16,17 @@ __attribute__((visibility("hidden")))
     struct CGPoint _accumulatedMovement;
 }
 
-- (struct CGPoint);
-- (struct CGPoint){")|;
-- (_Bool)@104@112;
-- (void)alAudio;
-- (void)0@ù
-× ;
-- (void)!ÈEùÑÇÐ1¢!0@ù
-× ;
 - (void);
-- (void)questsBoundingBezierPathsForRange:(id)arg1 inContext:(id)arg2 completion: /* Error: Ran out of types for this method. */;
-- (void)sion:(id)arg1;
-- (id)GPoint=dd},N,V_lastDragLocation;
-- (_Bool)be added directly to the cell;
+- (_Bool);
+- (id);
+- (struct CGPoint);
+- (struct CGPoint);
+- (void)TitleWithExcessiveHeightChanged;
+- (void)eedsBackgroundAndContentViewUpdate;
+- (void)DidEnd;
+- (void)canShowSelectionCommands;
+- (_Bool)HighlightingEffectsSetting;
+- (void)AAyAeCyAB§.3GGGABG;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint accumulatedMovement; // @synthesize accumulatedMovement=_accumulatedMovement;

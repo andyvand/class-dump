@@ -16,14 +16,15 @@
 
 - (void);
 - (void);
-- (void)36;
-- (id)eForCacheDelete: /* Error: Ran out of types for this method. */;
-- (id)ngedForConversation:(id)arg1;
-- (CDUnknownBlockType)aging>",&,N,V_trustKitDecisioningManager;
-- (void);
-- (id)tIfFirstView:secondView:areDescendantsOfView:results: /* Error: Ran out of types for this method. */;
 - (void);
-- (double)ideBySideButtonAndSecondaryButton: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (id)1Â0@ù
+× ;
+- (double)rButtonItemData";
+- (void)¹?333333Ã?;
+- (void)4ÜIÿ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cellUpdateHandler; // @synthesize cellUpdateHandler=_cellUpdateHandler;

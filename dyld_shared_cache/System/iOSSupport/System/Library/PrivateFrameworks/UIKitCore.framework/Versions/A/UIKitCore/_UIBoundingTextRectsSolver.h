@@ -20,18 +20,18 @@
 
 - (struct CGRect);
 - (id);
-- (struct CGRect)76@0:8@16@24q32Q40@48C56@60@68 /* Error: Ran out of types for this method. */;
-- (struct CGRect)son:underlyingReason:description: /* Error: Ran out of types for this method. */;
-- (void)sageID:(id)arg1 %@   chat:%@ /* Error: Ran out of types for this method. */;
-- (void)@ transfer has an aux video asset;
-- (void)elineComponent> Started processing;
-- (void)ific error.;
+- (struct CGRect);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void)!xÐ!DùqÍð1¢!0@ù
+- (void)0@ù
 × ;
-- (id)rtion;
-- (struct CGRect);
+- (id)d;
+- (struct CGRect);
+- (void)j^;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bodyRect;

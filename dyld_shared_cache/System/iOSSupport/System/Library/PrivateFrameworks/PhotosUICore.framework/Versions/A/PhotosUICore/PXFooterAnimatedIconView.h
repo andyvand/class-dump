@@ -56,25 +56,28 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (long long);
-- (void)WithDomain:code:underlyingError:debugDescription: /* Error: Ran out of types for this method. */;
-- (_Bool)fSearchesUntilFirstOneUpInTopAssets;
-- (id);
-- (void)È`ü`;
-- (id)$ûÿ;
 - (void);
-- (void)ation Analytics:Destination URL has empty path, returning early without logging:%@ /* Error: Ran out of types for this method. */;
-- (void)Classifications;
-- (struct CGSize)íË/ÈõÿíË/wÿÍË/X¹HÿíË/wÿÝË/wÿåË/wÿµË/;
-- (void)D²Êÿ¡{KÎ5;
+- (void);
+- (struct CGSize);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)¡ù!\@ù1F1â
+0@ù
+× ;
+- (id)
+× ;
+- (void):(id)arg1;
+- (void)tVisibleRectDidChange;
+- (void)rationInfo: /* Error: Ran out of types for this method. */;
+- (id)lability;
+- (void)RÉdç;
+- (void)þÿÿ;
+- (void)&âÿ_¨St7;
 
 // Remaining properties
 @property long long desiredMode;

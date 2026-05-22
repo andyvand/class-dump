@@ -4,21 +4,21 @@
 
 class dyld4::LibSystemHelpersWrapper {
 public: // (access info unavailable from symbols alone)
-    __cxa_atexit(void (*)(void*), void*, void*) const;
-    __cxa_finalize_ranges(__cxa_range_t const*, unsigned int) const;
-    exit(int) const;
-    free(void*) const;
-    getenv(char const*) const;
-    isLaunchdOwned() const;
-    malloc(unsigned long) const;
-    malloc_size(void const*) const;
-    mkstemp(char*) const;
-    pthread_getspecific(unsigned long) const;
-    pthread_key_create_free(unsigned long*) const;
-    pthread_setspecific(unsigned long, void const*) const;
-    run_async(void* (*)(void*), void*) const;
-    setDyldPatchedObjCClasses() const;
-    setUpThreadLocals(DyldSharedCache const*, mach_o::Header const*) const;
-    vm_allocate(unsigned int, unsigned long*, unsigned long, int) const;
-    vm_deallocate(unsigned int, unsigned long, unsigned long) const;
+    auto __cxa_atexit(void (*)(void*), void*, void*) const;
+    auto __cxa_finalize_ranges(__cxa_range_t const*, unsigned int) const;
+    auto exit(int) const;
+    auto free(void*) const;
+    auto getenv(char const*) const;
+    auto isLaunchdOwned() const;
+    auto malloc(unsigned long) const;
+    auto malloc_size(void const*) const;
+    auto mkstemp(char*) const;
+    auto pthread_getspecific(unsigned long) const;
+    auto pthread_key_create_free(unsigned long*) const;
+    auto pthread_setspecific(unsigned long, void const*) const;
+    auto run_async(void* (*)(void*), void*) const;
+    auto setDyldPatchedObjCClasses() const;
+    auto setUpThreadLocals(DyldSharedCache const*, mach_o::UnsafeHeader const*) const;
+    auto vm_allocate(unsigned int, unsigned long*, unsigned long, int) const;
+    auto vm_deallocate(unsigned int, unsigned long, unsigned long) const;
 };

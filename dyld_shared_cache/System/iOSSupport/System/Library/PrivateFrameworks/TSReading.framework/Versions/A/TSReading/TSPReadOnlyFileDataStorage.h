@@ -15,9 +15,9 @@
 
 - (_Bool);
 - (void);
-- (void);
-- (id)8@"NSData"16I24@?<v@?@"NSData"I@"NSData"I@"NSError">28;
-- (_Bool);
+- (id);
+- (_Bool)ity: /* Error: Ran out of types for this method. */;
+- (void)À;
 
 @end
 

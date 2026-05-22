@@ -15,8 +15,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool includeTextDetection; // @synthesize includeTextDetection=_includeTextDetection;

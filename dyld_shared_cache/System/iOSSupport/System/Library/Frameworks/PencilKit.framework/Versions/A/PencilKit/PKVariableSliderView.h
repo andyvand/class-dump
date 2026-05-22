@@ -23,17 +23,17 @@
 - (void);
 - (void);
 - (void);
-- (id)ifier;
-- (void);
-- (long long)`$;
+- (id);
+- (void);
+- (long long);
+- (id);
+- (double);
 - (void);
 - (struct CGSize);
-- (double);
-- (void)(;
-- (id);
-- (double);
 - (id);
 - (void);
+- (double);
+- (void)GestureElement;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentValue; // @synthesize currentValue=_currentValue;

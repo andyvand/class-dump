@@ -5,6 +5,7 @@
 //
 
 @protocol SXAdvertisementPlacementType
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bannerType;

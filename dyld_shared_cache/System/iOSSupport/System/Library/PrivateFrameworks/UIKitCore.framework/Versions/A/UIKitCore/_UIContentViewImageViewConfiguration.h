@@ -25,53 +25,51 @@
     struct CGSize _maximumSize;
 }
 
-+ (_Bool)²Rm;
++ (_Bool)UITextView _baselineOffsetFromBottom];
 - (void);
 - (double);
-- (void)UID:(id)arg1 shouldRelay: /* Error: Ran out of types for this method. */;
-- (void)et record completion block in delete operation;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (struct CGSize);
+- (id);
+- (id);
 - (unsigned long long);
 - (struct CGSize);
 - (id);
+- (id)Ð1Â0@ù
+× ;
 - (_Bool);
-- (void)e:(id)arg1;
-- (id)formBlock:(struct _NSZone *)arg1;
-- (void);
-- (double);
-- (id);
-- (void);
-- (void);
+- (double)1Â0@ù
+× ;
 - (_Bool);
-- (void)°]3ç;
-- (id)1¢!0@ù
-× ;
-- (_Bool)!vð!´DùÑÊð1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)!GùñÎ°1¢!0@ù
-× ;
-- (double)utWithKeyEquivalent:modifierFlags: /* Error: Ran out of types for this method. */;
-- (id)nKeyDisplayName;
-- (id)Scene:effectiveSettings: /* Error: Ran out of types for this method. */;
-- (id)View;
-- (id)dEndInputSession;
-- (id)esentation;
-- (struct CGSize)a:%0.1f nDelta:%0.1f /* Error: Ran out of types for this method. */;
-- (void)d for index path:(double)arg1 %@;
-- (void);
-- (struct CGSize)dInFocus;
-- (void)rchToolbarItem=%p;
+- (void)n:(id)arg1 heightCanBeGuessed: /* Error: Ran out of types for this method. */;
+- (void)ableView:(struct CGSize)arg1 dataOwnerForDropSession:withDestinationIndexPath: /* Error: Ran out of types for this method. */;
+- (id)V_clickUpFeedback;
+- (id)arBackground",R,N,V_backgroundView;
+- (void)",R,N;
 - (void);
-- (id)ÿ;
-- (void)IÙ_;
-- (void)1w;
-- (struct CGSize)Fn;
-- (id)jT`;
+- (void)Internal) _updateBoundingPathRotationNotificationsForMoveFromWindow:(id)arg1 toWindow:] /* Error: Ran out of types for this method. */;
+- (struct CGSize)View = %@>;
+- (id)autofillDetected;
+- (id)e a UIPreviewTarget with an invalid container:%@ /* Error: Ran out of types for this method. */;
+- (double)ge in %@ column for expanding %@;
 - (void);
-- (void)lÜa;
-- (_Bool)&Md;
+- (struct CGSize)added to %@BarButtonItems of %@;
+- (void)ßw/3yñ¾7yË¾7_GSgÂ¾7G;
+- (_Bool);
+- (id)\R0OÁ7h;
+- (void);
+- (void);
+- (_Bool)4ÿÄÚ6^;
+- (void)ÔÀAÿlºÏ3d;
 
 // Remaining properties
 @property(nonatomic, setter=_setCornerRadius:) double _cornerRadius; // @synthesize _cornerRadius;

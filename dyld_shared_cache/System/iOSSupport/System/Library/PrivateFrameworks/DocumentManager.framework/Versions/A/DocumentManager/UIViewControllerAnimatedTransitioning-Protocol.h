@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIViewImplicitlyAnimating;
-
 @protocol UIViewControllerAnimatedTransitioning
-- (double)ÔFùQ,°1¢!0@ù
-× ;
-
-@optional
-- (id <UIViewImplicitlyAnimating>)O;
 @end
 

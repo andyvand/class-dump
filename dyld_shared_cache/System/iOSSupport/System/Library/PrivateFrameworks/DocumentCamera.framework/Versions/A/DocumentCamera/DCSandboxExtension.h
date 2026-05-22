@@ -15,19 +15,19 @@ __attribute__((visibility("hidden")))
     long long _sandboxExtensionHandle;
 }
 
-+ (_Bool)±«	1b0@ù
-× ;
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id)tatusBarWasHiddenWhenDoneTapped;
+- (id)!Ø@ùq}Ð1B50@ù
+× ;
+- (void)pdates:withCapInsets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canAccessFileURL; // @synthesize canAccessFileURL=_canAccessFileURL;

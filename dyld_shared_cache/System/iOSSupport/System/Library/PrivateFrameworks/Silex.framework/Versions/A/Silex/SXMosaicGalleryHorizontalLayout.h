@@ -11,7 +11,7 @@
 }
 
 - (struct _NSRange);
-- (id)m;
+- (id);
 
 @end
 

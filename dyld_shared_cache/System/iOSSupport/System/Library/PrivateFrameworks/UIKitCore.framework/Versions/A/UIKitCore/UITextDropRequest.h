@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool)tingForUser;
-- (id)edTransferGUIDs:(id)arg1;
-- (id)tifier: /* Error: Ran out of types for this method. */;
-- (id)geType;
-- (void);
-- (id)Úd;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)XÂa;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

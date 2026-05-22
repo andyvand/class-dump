@@ -67,7 +67,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)³;
++ (_Bool)sectionFunctionDescriptor"16^@24;
 - (struct __CFXWorld *);
 - (void);
 - (void);
@@ -200,31 +200,32 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (float);
-- (float);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (float)!;
+- (void);
 - (long long);
+- (float);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)';
+- (float);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)tride"Q}"dependency1Normals"{?="isActive"B"bufferAttributeFormat"Q"bufferAttributeOffset"Q"bufferLayoutStride"Q}"dependency1Tangents"{?="isActive"B"bufferAttributeFormat"Q"bufferAttributeOffset"Q"bufferLayoutStride"Q}};
+- (void);
+- (id)Ôá_Q;
+- (float)¾vá>yn?èÝ`?rÜ9¾«ì>«^r?FÒ^?Øf#¾ÖUa>¬u?ï\?H¾uw=>}zx?OZ?Eè½4>yÎz?vX? ¸½ó«ù=*¬|?ÿYW?#À½3»=!~?ÌíV?]7½ó<x=0,?¸V?ºM¸¼/ö<.Ë?´äU?M.F9{i
+¸;
 
 // Remaining properties
 @property(readonly) NSArray *animationKeys;

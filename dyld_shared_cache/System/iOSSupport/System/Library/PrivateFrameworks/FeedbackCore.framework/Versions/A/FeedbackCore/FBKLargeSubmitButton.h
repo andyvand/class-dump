@@ -13,9 +13,9 @@
 
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
+- (id):bugFormStubs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

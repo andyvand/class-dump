@@ -18,22 +18,22 @@
 
 + (struct CGSize);
 + (id);
-- (void)çÛ;
-- (id);
-- (_Bool)[z;
-- (void)¨z;
-- (id);
-- (id)Pz;
-- (id);
-- (id);
-- (_Bool)Oæ|;
 - (void);
-- (void);
-- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

@@ -19,12 +19,11 @@
     MISSING_TYPE *hidesWhenIdle;
 }
 
-- (void);
 - (id);
-- (void)qÐ!dGù±Ä°1¢!0@ù
-× ;
-- (id)Interaction Settings;
-- (void)À;
+- (void);
+- (id)ventRecognizerDelegate;
+- (void)¤Ò;
+- (void);
 
 @end
 

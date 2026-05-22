@@ -15,13 +15,13 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)0;
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void)g;
+- (void)á ;
 
 @end
 

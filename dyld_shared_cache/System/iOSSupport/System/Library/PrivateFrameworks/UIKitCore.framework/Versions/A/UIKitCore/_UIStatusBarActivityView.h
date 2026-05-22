@@ -28,23 +28,23 @@
 - (id);
 - (double);
 - (void);
-- (double)NCHAN>x<NMELS>x<NFRAMES> where BATCH is in range [1, IntMax + 1], NCHAN is in range [1, 1], NMELS is given by `n_mels` model parameter;
+- (double);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
-- (void)`;
-- (id)
-× ;
-- (void)0@ù
-× ;
-- (void)Color"24@0:8Q16 /* Error: Ran out of types for this method. */;
-- (id)tonAppearance: /* Error: Ran out of types for this method. */;
-- (void),V_redValue;
-- (id)¦ÿÿÀ¦ÿÿL§ÿÿl§ÿÿ§ÿÿÄ§ÿÿ¨ÿÿT¨ÿÿt¨ÿÿ¨ÿÿ¬¨ÿÿÄ¨ÿÿÜ¨ÿÿô¨ÿÿ©ÿÿD©ÿÿ@ªÿÿXªÿÿ«ÿÿø«ÿÿd¬ÿÿ­ÿÿÄ®ÿÿ¸¯ÿÿP°ÿÿ¸°ÿÿÐ°ÿÿè°ÿÿ;
-- (id)ze the section with -initWithConfiguration:layoutEnvironment:, passing in the layout environment you receive from the section provider of your compositional layout. /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void):(id)arg1 withTime:radius:angle:addingAnimations: /* Error: Ran out of types for this method. */;
+- (id)_item:(struct CGRect)arg1 removeSymbolEffectOfType:options:animated: /* Error: Ran out of types for this method. */;
+- (void)ons:(id)arg1;
+- (void)orIncreaseBlock;
+- (void)hat was asked to resign (returned %@ from -resignFirstResponder):(id)arg1 %@ inside containing view:%@ at index path:%@
+Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
+- (void)reRecognizer.delaysTouchesBegan;
+- (void)Ú
+;
 
 // Remaining properties
 @property(retain, nonatomic) CAGradientLayer *barLayer; // @synthesize barLayer=_barLayer;

@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (id);
@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 

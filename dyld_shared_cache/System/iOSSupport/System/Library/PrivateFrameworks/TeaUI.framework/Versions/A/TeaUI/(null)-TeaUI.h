@@ -5,9 +5,9 @@
 //
 
 @interface (null) (TeaUI)
-- (void)<;
 - (void);
-- (void)<;
+- (void);
+- (void);
 - (void);
 @end
 

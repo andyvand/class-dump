@@ -4,5 +4,5 @@
 
 class ctu::Gestalt {
 public: // (access info unavailable from symbols alone)
-    create_default_global();
+    auto create_default_global();
 };

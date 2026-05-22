@@ -7,7 +7,6 @@
 @class NUNIScene;
 
 @protocol NUNIRotatable
-- (struct CLLocationCoordinate2D)AyADyò¤ãyADyADy~üá¿ãG»£ãy5¥ãSgGG_ë×ãyÍãGQo_AFGABGtGG;
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D centerCoordinate;

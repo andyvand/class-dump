@@ -12,9 +12,8 @@
     long long _textLineStraighteningUndoPerSession;
 }
 
-- (long long)StaticProtocolCast(Protocol *, id<NSObject>);
-- (long long)ource"16;
-- (void);
+- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -27,6 +26,7 @@
 - (long long);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long strokesPerSession; // @synthesize strokesPerSession=_strokesPerSession;

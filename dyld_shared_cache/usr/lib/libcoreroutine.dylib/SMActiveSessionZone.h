@@ -55,24 +55,25 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void)utes:signedByFullIdentity:usingIdentitiesWithIdentifier:error: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)K!9J;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)";
-- (void)edConnectionEstablished;
-- (void)RTFusedInferredMapItemConfidenceMin <= confidence && confidence <= kRTFusedInferredMapItemConfidenceMax;
+- (id)0@ù
+× ;
+- (void)te",R,C,N,V_registrationDate;
+- (void) !;
+- (id);
+- (void)Send GUID, old GUID, %@, new GUID, %@;
+- (void)erest<---------;
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) CKRecord *activeSessionRecord; // @synthesize activeSessionRecord=_activeSessionRecord;

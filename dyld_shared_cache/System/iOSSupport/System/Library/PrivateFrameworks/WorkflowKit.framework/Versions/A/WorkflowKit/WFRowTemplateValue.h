@@ -26,7 +26,7 @@
     NSDate *_anotherDate;
 }
 
-+ (_Bool)open the specified draft in Drafts and allows you to run a Drafts action on it.;
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -48,16 +48,16 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
-- (id);
-- (id)n;
+- (id)pDetectionForTriggerWithIdentifier:loopDetected: /* Error: Ran out of types for this method. */;
+- (void)FParameter"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *anotherDate; // @synthesize anotherDate=_anotherDate;

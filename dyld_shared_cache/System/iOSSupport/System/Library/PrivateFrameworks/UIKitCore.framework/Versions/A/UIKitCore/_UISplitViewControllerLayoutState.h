@@ -11,19 +11,20 @@ __attribute__((visibility("hidden")))
     long long _secondaryEdgeSplitViewControllerColumn;
 }
 
-+ (_Bool)­;
++ (_Bool)nDebugViewMatchMove;
 - (long long);
 - (long long);
 - (id);
-- (void);
-- (_Bool)t = %f
-;
-- (id)kIsWaitingForConnectivity: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)elPropertyPlaylistDescriptionText;
 - (id);
 - (id);
-- (id)UIViewActionForLayer:forKey: /* Error: Ran out of types for this method. */;
+- (id)
+× ;
+- (id)Ñe°1Â0@ù
+× ;
+- (_Bool)"UIIndexBarAccessoryView";
+- (void)tSuggestionForResponder:(id)arg1;
+- (id)itionalKeyboardLoader;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long primaryEdgeSplitViewControllerColumn; // @synthesize primaryEdgeSplitViewControllerColumn=_primaryEdgeSplitViewControllerColumn;

@@ -19,10 +19,10 @@
     long long _preferredPresentationStyle;
 }
 
-+ (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool)=;
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 

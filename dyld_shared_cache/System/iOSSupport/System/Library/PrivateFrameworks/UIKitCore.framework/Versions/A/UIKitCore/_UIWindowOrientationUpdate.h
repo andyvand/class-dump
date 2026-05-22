@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _updateBlock;
 }
 
-- (id)ataKey is not a CFString;
-- (void)DREncodeSealingRequest failed with manifest2;
-- (void)omplete and/or unsealed data is allowed.;
-- (long long)ifying minimal sealing manifests;
-- (void)e;
 - (id);
-- (void)urrence;
 - (void);
-- (void)A;
-- (CDUnknownBlockType)counts:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (long long);
+- (void);
+- (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long toOrientation; // @synthesize toOrientation=_toOrientation;

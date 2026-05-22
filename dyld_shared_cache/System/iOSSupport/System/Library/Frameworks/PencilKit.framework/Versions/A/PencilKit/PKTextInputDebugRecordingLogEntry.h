@@ -17,15 +17,15 @@
 + (id);
 + (id);
 + (id);
-- (void).dylib;
-- (void)usr/lib/swift/libswiftCoreFoundation.dylib;
-- (id)y;
-- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)T@"PKTiledViewAnimationController",R,N,V_refineAnimationController;
 
 // Remaining properties
 @property(retain, nonatomic) PKDrawing *_originalDrawing; // @synthesize _originalDrawing=__originalDrawing;

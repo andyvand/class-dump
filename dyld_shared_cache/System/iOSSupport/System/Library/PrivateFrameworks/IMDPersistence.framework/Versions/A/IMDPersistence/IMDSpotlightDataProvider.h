@@ -12,7 +12,7 @@
 + (id);
 + (id);
 - (id);
-- (id)dule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id INNER JOIN chat c ON   c.ROWID = cm.chat_id INNER JOIN chat_handle_join ch ON   c.ROWID = ch.chat_id WHERE   ch.handle_id = ?   AND c.room_name IS NULL ORDER BY m.ROWID DESC LIMIT ?;
+- (id)l chat has a display name: /* Error: Ran out of types for this method. */;
 
 @end
 

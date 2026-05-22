@@ -15,15 +15,15 @@
 
 - (_Bool);
 - (double);
-- (double)BI;
+- (double);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)troller:(id)arg1 willHideResultsView: /* Error: Ran out of types for this method. */;
-- (id)eCellWithReuseIdentifier:forIndexPath: /* Error: Ran out of types for this method. */;
-- (id)ient",&,N,V_recipient;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;

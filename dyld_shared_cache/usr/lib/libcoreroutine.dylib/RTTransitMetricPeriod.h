@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)xts, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *homeStayPeriod; // @synthesize homeStayPeriod=_homeStayPeriod;

@@ -17,7 +17,7 @@
     MISSING_TYPE *_strokeWidthIsMutable;
     MISSING_TYPE *_strokeWidth;
     MISSING_TYPE *_strokeIsRequired;
-    MISSING_TYPE *_fontName;
+    MISSING_TYPE *_font;
     MISSING_TYPE *_fontSize;
     MISSING_TYPE *_bold;
     MISSING_TYPE *_italic;
@@ -28,7 +28,6 @@
     MISSING_TYPE *_grapableExpressionsState;
     MISSING_TYPE *_boldAllowed;
     MISSING_TYPE *_italicAllowed;
-    MISSING_TYPE *_hasMultipleFontSizes;
     MISSING_TYPE *_opacity;
     MISSING_TYPE *_hasMultipleOpacities;
     MISSING_TYPE *_opacityLiveEditElementViews;

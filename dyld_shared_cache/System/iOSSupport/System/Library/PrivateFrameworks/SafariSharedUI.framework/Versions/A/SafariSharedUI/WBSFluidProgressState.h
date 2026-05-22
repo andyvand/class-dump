@@ -30,10 +30,10 @@
 + (double);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (double);
 - (double);
 - (_Bool);
@@ -48,18 +48,18 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (void)C;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (double);
-- (long long)rsions/A/CoreFoundation;
+- (long long);
 - (void);
 - (double);
-- (void);
 - (id);
 - (id);
+- (void)ionSource;
 
 // Remaining properties
 @property(nonatomic) long long fluidProgressAnimationPhase;

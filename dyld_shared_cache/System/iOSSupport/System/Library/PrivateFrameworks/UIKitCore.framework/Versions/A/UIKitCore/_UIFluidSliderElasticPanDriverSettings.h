@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (double);
-- (void)ion: /* Error: Ran out of types for this method. */;
+- (void)w:didEndDisplayingCell:forItemAtIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double projectionThreshold; // @synthesize projectionThreshold=_projectionThreshold;

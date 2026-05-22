@@ -22,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void)iæD4¾Ï=VIC¾sÏD4¾Ï=LIBB¾ÅCìÂÏ=Ç)³A}¾æJBûÎÏ=>iIA`¾¡ÛBÚáÏ=4­;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) VFXRenderer *decoder;

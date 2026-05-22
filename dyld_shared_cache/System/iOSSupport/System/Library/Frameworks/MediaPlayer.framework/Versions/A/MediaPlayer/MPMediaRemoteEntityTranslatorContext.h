@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (id)0:8I16Q20@28 /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void)m;
 
 // Remaining properties
 @property(retain, nonatomic) id <MPMediaRemoteEntityArtworkGenerator> artworkGenerator; // @synthesize artworkGenerator=_artworkGenerator;

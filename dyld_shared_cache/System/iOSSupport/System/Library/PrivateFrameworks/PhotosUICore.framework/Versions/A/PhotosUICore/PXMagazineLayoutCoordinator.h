@@ -28,15 +28,15 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (_Bool)øÄxÅ4ÆÆ@Ç0È;
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentIndex; // @synthesize currentIndex=_currentIndex;

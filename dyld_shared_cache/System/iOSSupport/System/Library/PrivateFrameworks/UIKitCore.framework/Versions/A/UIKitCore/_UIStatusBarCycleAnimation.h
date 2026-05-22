@@ -17,31 +17,32 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_completionHandlers;
 }
 
-- (id);
 - (void);
 - (id);
 - (void);
+- (_Bool);
+- (id);
 - (void);
 - (void);
-- (void)derMacOS;
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)Ôr°!AùQÅ1¢!0@ù
+- (void)HCùÑ\1Â0@ù
 × ;
-- (id)ance:error: /* Error: Ran out of types for this method. */;
-- (long long)Count;
-- (_Bool)troller;
-- (id)_deleting;
-- (_Bool)tion",C,N,V_textLabelEditingConfiguration;
-- (void)ainerGuide;
-- (void)rimaryRecipientIdentifiers;
-- (void)elerationTarget:%@ /* Error: Ran out of types for this method. */;
-- (void)tþÿ8wüÿ;
-- (void)lerSeparatorTrackingAdapter"16@?0@"_UISplitViewControllerAdaptiveColumn"8;
+- (long long)0@ù
+× ;
+- (void)setsForLayoutMargins:(_Bool)arg1;
+- (void)uchBehavior;
+- (void)Order: /* Error: Ran out of types for this method. */;
+- (id)¨;
 - (void);
-- (void)^;
+- (void)xí\;
+- (void)±È;
+- (_Bool)];
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;

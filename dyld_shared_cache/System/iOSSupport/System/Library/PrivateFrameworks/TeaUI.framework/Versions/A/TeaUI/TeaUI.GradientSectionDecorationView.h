@@ -14,11 +14,11 @@
     MISSING_TYPE *offset;
 }
 
-- (void);
-- (void);
-- (id)e;
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

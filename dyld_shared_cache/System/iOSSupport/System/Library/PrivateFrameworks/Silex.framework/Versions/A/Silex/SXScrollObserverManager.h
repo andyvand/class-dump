@@ -18,10 +18,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

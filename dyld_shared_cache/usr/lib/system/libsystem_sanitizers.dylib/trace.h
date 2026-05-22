@@ -4,7 +4,7 @@
 
 class trace {
 public: // (access info unavailable from symbols alone)
-    initTraceCollection(config::Traces const&);
-    initTraceCollection(config::Traces const&) (.cold.1);
-    lookupTraces(unsigned long, sanitizers_stack_trace_t&, sanitizers_stack_trace_t&);
+    auto initTraceCollection(config::Traces const&);
+    auto initTraceCollection(config::Traces const&) (.cold.1);
+    auto lookupTraces(unsigned long, sanitizers_stack_trace_t&, sanitizers_stack_trace_t&);
 };

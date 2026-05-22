@@ -5,7 +5,5 @@
 //
 
 @protocol APPCMetricRegister
-- (void)required alert shown to user when attempting to onboard to sports.;
-- (void)-In Required;
 @end
 

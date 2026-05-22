@@ -5,7 +5,7 @@
 //
 
 @interface (null) (RTEventManager)
-+ (_Bool)<;
-- (id)pientsWithReceiverHandles:(id)arg1 handler: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
 @end
 

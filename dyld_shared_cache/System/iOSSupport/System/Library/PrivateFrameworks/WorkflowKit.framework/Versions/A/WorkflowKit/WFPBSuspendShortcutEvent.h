@@ -18,20 +18,20 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id)rate;
+- (id);
+- (_Bool)<´;
+- (void)y state;
+- (void)unEventDate;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *dismissalType; // @synthesize dismissalType=_dismissalType;

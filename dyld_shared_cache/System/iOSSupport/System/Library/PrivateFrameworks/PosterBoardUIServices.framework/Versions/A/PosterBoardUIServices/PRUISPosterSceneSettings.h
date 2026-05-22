@@ -31,26 +31,26 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)ACyADz¤nyAQyAByAHyAHyAEyAFk*Î°nySaym*ÎGAT=*ÎyAF_ARQo_GGAJGb©nySbGG_AQyAQyAByAHyAEyAFSSASySaySSGSSAFGGAJG_AHyAEyAFSSA2_SgGAJGAHyAHy0¯nyÚ®pyAFGSSGæpGAJGtGAQyAfEyAFSSASySaySo9CNContactCGA17_ )ÎyAF_SSQo_GGGGAFGtGAByAHyAXA_G_AQyAByA3__AEyAFSo22PRSPosterConfigurationCSgASySayA28_GA28_B)ÎyAF_A28_Qo_GSgGA14_tGAFGtGGAByAQyì§pyA10__Qo_AFG_AFSgtGGA41_GAByACyAdByAEyAF'ÎASySayA45_GA45_AFGG_î­pyAFGSgA50_tGADG_ACyADA50_AFGtGSgtGAByAF_AQyAQyA2FGAByAF_AFtGGA2FtG_G;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) PRPosterAmbientConfiguration *ambientConfiguration; // @synthesize ambientConfiguration=_ambientConfiguration;

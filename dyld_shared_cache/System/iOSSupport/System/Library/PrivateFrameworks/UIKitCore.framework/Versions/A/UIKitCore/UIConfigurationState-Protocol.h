@@ -7,14 +7,11 @@
 @class UITraitCollection;
 
 @protocol UIConfigurationState
-- (id)!wÐ!Cù1Ì1¢!0@ù
-× ;
-- (void);
-- (id)B_Bottom_Bottom;
-- (void)phaOverrideAssertion",N,&,VsourceViewHidingAssertion;
-- (void)WillResignActiveMessage;
-- (id)el;
-- (UITraitCollection *)»À;
+- (void)AttributeValueKeyboardTypeNumbersAndPunctuationStr;
+- (void)age;
+- (id);
+- (id)GSg4¶.3yAJyAJy¸Ñ.3¤.3yAK[².3GGAJyAnLyAKû¨.3GGGAKGSgAJyAkLyALyALyAH.3G±.3GAPGGSgtGG;
+- (UITraitCollection *)è;
 
 // Remaining properties
 @property(retain, nonatomic) UITraitCollection *traitCollection;

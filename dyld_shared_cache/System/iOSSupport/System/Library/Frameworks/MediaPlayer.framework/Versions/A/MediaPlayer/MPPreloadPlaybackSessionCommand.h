@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (void);
-- (id);
 - (void);
+- (id);
+- (void)riptionRequired__MAPPING_MISSING__;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *supportedSessionTypes; // @synthesize supportedSessionTypes=_supportedSessionTypes;

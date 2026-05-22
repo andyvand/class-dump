@@ -5,5 +5,5 @@
 class _NUIGridArrangementDimension {
 public: // (access info unavailable from symbols alone)
     _NUIGridArrangementDimension(unsigned long, double);
-    debugDictionary() const;
+    auto debugDictionary() const;
 };

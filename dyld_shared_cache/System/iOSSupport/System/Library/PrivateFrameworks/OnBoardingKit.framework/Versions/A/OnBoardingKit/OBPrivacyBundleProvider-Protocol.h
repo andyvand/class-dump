@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol OBPrivacyBundleProvider
-- (NSString *)	;
 
 // Remaining properties
 @property(readonly) NSString *path;

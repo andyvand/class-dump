@@ -11,7 +11,7 @@
     unsigned long long _wristState;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 
 // Remaining properties

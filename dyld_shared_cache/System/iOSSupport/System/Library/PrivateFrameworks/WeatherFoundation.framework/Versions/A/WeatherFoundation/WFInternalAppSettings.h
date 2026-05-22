@@ -28,10 +28,10 @@
 - (id);
 - (id);
 - (double);
-- (float)16@0:8 /* Error: Ran out of types for this method. */;
-- (id)G;
+- (float);
 - (id);
-- (id)32@0:8@16^@24 /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *apiVersion;

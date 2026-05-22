@@ -43,7 +43,7 @@
 - (id);
 - (double);
 - (_Bool);
-- (_Bool)#;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -51,25 +51,25 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long)4_t>, unsigned long long>, std::tuple<WTF::Ref<WebCore::VideoPresentationModelVideoElement>, WTF::Ref<WebKit::VideoPresentationInterfaceContext>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::tuple<WTF::Ref<WebCore::VideoPresentationModelVideoElement>, WTF::Ref<WebKit::VideoPresentationInterfaceContext>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::tuple<WTF::Ref<WebCore::VideoPresentationModelVideoElement>, WTF::Ref<WebKit::VideoPresentationInterfaceContext>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapEnsureTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::tuple<WTF::Ref<WebCore::VideoPresentationModelVideoElement>, WTF::Ref<WebKit::VideoPresentationInterfaceContext>>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (id)ebCore::PlatformCAAnimation>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::RefPtr<WebCore::PlatformCAAnimation>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, HashTranslator = WTF::HashMapTranslatorAdapter<WTF::HashMap<WTF::String, WTF::RefPtr<WebCore::PlatformCAAnimation>>::KeyValuePairTraits, WTF::IdentityHashTranslator<WTF::HashMap<WTF::String, WTF::RefPtr<WebCore::PlatformCAAnimation>>::KeyValuePairTraits, WTF::DefaultHash<String>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::String] /* Error: Ran out of types for this method. */;
-- (_Bool)ore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Traits = WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerRegistrationIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (long long);
-- (id);
-- (void);
-- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id)ÿ;
+- (long long);
+- (_Bool);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (void)ä;
+- (unsigned long long)D:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool accountNeedsRepair;

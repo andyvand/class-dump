@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)$Ø;
 
 // Remaining properties
 @property(readonly, copy) NSURL *clipURL; // @synthesize clipURL=_clipURL;

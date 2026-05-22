@@ -45,17 +45,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (long long);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (unsigned int);
 
 // Remaining properties
 @property(nonatomic, readonly) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager;

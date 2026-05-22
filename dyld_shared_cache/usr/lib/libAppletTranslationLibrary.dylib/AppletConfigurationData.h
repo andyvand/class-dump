@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSUserDefaults;
+@class NSDictionary, NSMutableDictionary, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AppletConfigurationData
 {
     NSObject<OS_dispatch_queue> *queue;
-    NSUserDefaults *userDefaults;
     NSDictionary *config;
     NSMutableDictionary *pluginCache;
     unsigned long long maErrorCount;
@@ -24,18 +23,18 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (void);
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id)time have been completed. The session has been invalidated.;
-+ (id);
-+ (id);
-+ (void)k~;
 + (id);
 + (id);
-- (void);
++ (id);
++ (id);
++ (id);
 - (id);
+- (void);
 
 @end
 

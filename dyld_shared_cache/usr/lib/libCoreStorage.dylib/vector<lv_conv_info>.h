@@ -4,7 +4,7 @@
 
 class vector<lv_conv_info> {
 public: // (access info unavailable from symbols alone)
-    push_back(lv_conv_info const&);
-    reserve(unsigned long);
+    auto push_back(lv_conv_info const&);
+    auto reserve(unsigned long);
     ~vector();
 };

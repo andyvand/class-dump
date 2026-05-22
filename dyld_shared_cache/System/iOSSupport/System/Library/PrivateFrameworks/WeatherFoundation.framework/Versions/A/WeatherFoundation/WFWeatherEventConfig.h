@@ -10,8 +10,8 @@
 }
 
 - (id);
-- (id)Mf_yptG;
 - (void);
+- (id);
 - (_Bool);
 
 // Remaining properties

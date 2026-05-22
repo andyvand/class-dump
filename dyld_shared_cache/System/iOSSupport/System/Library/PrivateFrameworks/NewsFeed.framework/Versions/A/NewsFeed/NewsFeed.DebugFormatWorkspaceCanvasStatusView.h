@@ -17,11 +17,12 @@
     MISSING_TYPE *serverReloadQueueLabel;
 }
 
+- (struct CGSize);
+- (id);
 - (void);
-- (id)@;
-- (void);
-- (id)§þ;
-- (struct CGSize)¡½È_ÿ;
+- (id)1Â0@ù
+× ;
+- (void) wþõ?:PØ$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

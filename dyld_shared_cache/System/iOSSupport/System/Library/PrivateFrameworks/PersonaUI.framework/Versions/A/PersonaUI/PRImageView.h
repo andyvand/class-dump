@@ -12,11 +12,10 @@
     UIImage *_image;
 }
 
-- (_Bool)
-;
-- (id)(;
 - (void);
-- (void)(;
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (void);

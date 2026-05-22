@@ -19,25 +19,25 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)idth: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (void);
-- (double)Apð!BùÃ1¢!0@ù
+- (double);
+- (long long);
+- (long long);
+- (double)¡!ÐCùÑað1Â0@ù
 × ;
-- (double)2;
-- (long long)PathsForVisibleSupplementaryElementsOfKind:(id)arg1;
-- (void)neDestructionClientComponent",R,N;
-- (long long)Ôì(;
-- (void)Q;
-- (long long)Ø{þÿ;
-- (id);
-- (void)ViewControllerCG;
-- (id)Cannot create cells for an unknown list item type;
-- (void)isplayItem"8Q16^B24;
-- (void)ng fluid slider methods on non-fluid slider.;
-- (void)!= nil;
-- (_Bool)ckerCalendarView.m;
-- (id)storage_$_cornerRadii;
+- (void)gationItemUpdatedBottomPalette:(double)arg1 oldPalette: /* Error: Ran out of types for this method. */;
+- (long long)application enviroment context;
+- (_Bool);
+- (id)bPDFView.m;
+- (void)Library(void);
+- (id)youtState.m;
+- (void)mationForNextPendingRequest;
+- (void);
+- (void)tInput.framework/RemoteTextInput;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long itemPositioning; // @synthesize itemPositioning=_itemPositioning;

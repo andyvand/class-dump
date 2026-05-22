@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)ompatibility edit to CT:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (struct CACornerRadii);
-- (void)P;
+- (struct CACornerRadii)gisterImageWithDescription: /* Error: Ran out of types for this method. */;
+- (void)BackgroundColor;
+- (id)reen;
+- (void)GestureFeature;
 - (void);
-- (void)W,N,V_internalDelegate;
-- (id)àþÿ;
 
 // Remaining properties
 @property(nonatomic) struct CACornerRadii cornerRadii;

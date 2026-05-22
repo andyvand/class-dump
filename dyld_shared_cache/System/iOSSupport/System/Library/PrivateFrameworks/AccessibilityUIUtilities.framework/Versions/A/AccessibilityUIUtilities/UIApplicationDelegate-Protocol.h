@@ -8,14 +8,6 @@
 
 @protocol UIApplicationDelegate
 
-@optional
-- (void);
-- (_Bool);
-- (void)T;
-- (_Bool);
-- (void)C;
-- (void)24@32;
-
 // Remaining properties
 @property(retain, nonatomic) UIWindow *window;
 // Preceding property had unknown attributes: ?

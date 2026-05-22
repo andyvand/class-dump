@@ -27,43 +27,44 @@
     NSSet *_engines;
 }
 
-+ (id)of the transfer starting from:(id)arg1 %@;
++ (id);
 + (id);
 + (void);
 + (void);
 + (void);
 + (void);
 + (void);
-+ (Class);
-- (_Bool)withDefault: /* Error: Ran out of types for this method. */;
-- (void)Bag:(_Bool)arg1 phoneNumber:simID: /* Error: Ran out of types for this method. */;
++ (Class)0@ù
+× ;
+- (_Bool);
 - (void);
 - (void);
-- (id)%s typeIdentifier:(id)arg1 %s options:(id)arg2 %ld;
-- (long long)e.messages.SMSReceivedRelayLocalCommand;
-- (void)%@;
-- (void)ice requested no persistence for message %@, local device not responsible for sending;
-- (void)te Verification Codes | Using image:(id)arg1 %@;
-- (void)ransfer(_:(long long)arg1 );
-- (void)rovider;
 - (void);
-- (void)essage to Spam folder.;
+- (id);
+- (long long);
 - (void);
-- (void)Actor;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)path;
-- (void)body;
-- (void)mmandIDEditMessage;
-- (void)tionNoticeController.NoticeArrayQueue;
-- (void)I;
 - (void);
 - (void);
-- (void)`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -77,7 +78,7 @@
 - (id);
 - (id);
 - (void);
-- (void)';
+- (void);
 - (void);
 - (void);
 - (void);
@@ -85,35 +86,35 @@
 - (void);
 - (long long);
 - (_Bool);
+- (void);
+- (double);
 - (id);
-- (void);
-- (_Bool);
-- (double)eeIncludingUndeletablePlaylists:(long long)arg1;
-- (void);
-- (void);
 - (id);
-- (void)éóº;
-- (void);
-- (id)1¢!0@ù
+- (id);
+- (id);
+- (void)Ñ]ð1Â0@ù
 × ;
-- (void)ÌÐ1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (void)haredStore;
-- (void)textDidChange:(id)arg1;
-- (id)FlexibleSpaceCount:,V__leftFlexibleSpaceCount /* Error: Ran out of types for this method. */;
-- (id)entDelegate;
-- (void)À;
-- (id)C;
-- (void)adar if you encounter this warning.;
-- (void)play;
-- (id)IContentConfiguration>",N,&;
-- (id);
-- (_Bool)sïc;
-- (id);
+- (_Bool)>";
+- (void)lIndex: /* Error: Ran out of types for this method. */;
+- (void)apsedAffinity: /* Error: Ran out of types for this method. */;
+- (id)ators;
+- (void)troller:(id)arg1 ,V__shouldIgnoreDelegateTransitionController;
+- (id)",&,N,V_lightEffectsTransitionBackdrop;
+- (void)g_Private;
+- (id)Hbb;
 - (void);
-- (id)Â¬;
+- (void)Dictionary"8Q16@"NSString"24;
+- (id)?0@"UICellAccessory"8Q16^B24;
+- (void)ÿ;
+- (void);
+- (void)©ÿLÐJh;
+- (_Bool)i;
+- (id)äQj;
+- (id)âk;
 - (id);
-- (id)Ôú×Öo;
+- (id)óÓ¬Òn;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_stats_key;

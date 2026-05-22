@@ -25,16 +25,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

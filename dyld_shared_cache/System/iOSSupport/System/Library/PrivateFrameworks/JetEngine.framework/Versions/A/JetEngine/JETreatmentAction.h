@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)qh;
+- (id);
 - (id);
 - (void);
 - (void);

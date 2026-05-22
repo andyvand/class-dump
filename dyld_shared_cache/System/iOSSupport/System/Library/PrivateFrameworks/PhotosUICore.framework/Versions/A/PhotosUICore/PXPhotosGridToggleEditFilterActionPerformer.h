@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)ê£ÿ×Jö5;
+- (id),V_currentKey;
 
 @end
 

@@ -13,14 +13,14 @@
     MISSING_TYPE *tableView;
 }
 
-- (long long);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (long long);
 - (void);
+- (long long);
+- (void):t2yþ /* Error: Ran out of types for this method. */;
+- (void)ëD;
 
 @end
 

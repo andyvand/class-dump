@@ -22,20 +22,19 @@
 - (struct PKCompressedStrokePoint);
 - (double);
 - (id);
+- (double);
 - (unsigned long long);
-- (double);
-- (_Bool);
-- (id);
-- (double);
-- (void);
-- (struct CGPoint);
 - (struct CGSize);
+- (id);
+- (_Bool);
 - (double);
 - (id);
-- (double)¥	!$FùQÂÐ1¢!0@ù
-× ;
-- (double): /* Error: Ran out of types for this method. */;
-- (double),;
+- (double);
+- (double);
+- (struct CGPoint);
+- (double)dddd}24^{CGAffineTransform=dddddd}32;
+- (void)shWithQueryItems:duration: /* Error: Ran out of types for this method. */;
+- (double)6;
 
 // Remaining properties
 @property(readonly, nonatomic) double _edgeWidth;

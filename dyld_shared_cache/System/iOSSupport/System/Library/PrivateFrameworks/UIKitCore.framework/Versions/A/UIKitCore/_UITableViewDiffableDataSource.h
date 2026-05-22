@@ -15,8 +15,9 @@
 
 - (void);
 - (long long);
-- (id);
-- (id)Highlighter;
+- (id)@ù
+× ;
+- (id)Component:(id)arg1 withEvent:(CDUnknownBlockType)arg2;
 - (id);
 
 // Remaining properties

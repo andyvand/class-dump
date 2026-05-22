@@ -4,18 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PBItemCollection;
-
 @protocol _UIDruidSourceConnection
-- (void);
-- (void)er but it's match attribute case;
-- (void)mbined Format (trustObject);
-- (void)ormat unexpected tag:(void (^)(long long, unsigned long long))arg1 %llu;
-- (void)id patchDictArray count;
-- (void (^)(NSArray *, BKSAnimationFenceHandle *, void (^)(void)))_֡;
-- (void);
-- (PBItemCollection *)TranscriptBackgroundCommandWithPipeline:(NSArray *)arg1 input:(PBItemCollection *)arg2 completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)oresizingMaskIntoConstraints false and is missing constraints to the cell, which will cause substandard performance in cell autosizing. Please leave the contentView's translatesAutoresizingMaskIntoConstraints true or else provide constraints between the contentView and the cell. %@;
+- (_Bool)-[UIBannerAction _initWithBannerContent:responseHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType canHandOffCancelledItemsBlock;

@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIInteraction;
-
 @protocol _UIInteractiveHighlighting
-
-@optional
-- (void)istrationStatusInfoChanged:(id <UIInteraction>)arg1;
 @end
 

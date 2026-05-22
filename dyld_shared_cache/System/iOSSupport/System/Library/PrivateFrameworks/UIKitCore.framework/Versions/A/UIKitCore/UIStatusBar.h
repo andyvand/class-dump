@@ -36,131 +36,128 @@
     _Bool _timeHidden;
 }
 
-+ (void)*******;
-+ (void)nts when trying to relay incoming message %@, %@;
-+ (long long)e can better root-cause this issue. Critical workload time ranges:(long long)arg1;
++ (void);
++ (void);
++ (long long);
 + (double);
 + (id);
 + (_Bool);
 + (void);
 + (id);
 + (_Bool);
-+ (long long);
 + (long long);
-+ (id)sceneWillEnterForeground:(id)arg1;
-+ (double)tion;
++ (long long);
++ (double);
++ (id)pearance;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (double)�T;
-- (void);
 - (id);
-- (_Bool)C;
-- (void);
-- (void)rentMNC;
 - (void);
-- (long long)a;
+- (void);
 - (double);
 - (void);
+- (id);
+- (_Bool);
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGAffineTransform);
-- (void)ockBytes) % readWriteContext->sparseBlockSize;
-- (void);
-- (void);
-- (void);
-- (void)loudSyncSource:(id)arg1;
-- (struct CGRect)v24@?0@"<MPMusicPlayerControllerServer>"8@?<B@?>16;
-- (id)SELECT identifier, hashed_person_id, playlist_url, key_certificate_url, key_server_url, key_server_adam_id, key_server_protocol_type, is_itunes_store_stream FROM hls_assets WHERE identifier = @identifier AND hashed_person_id = @hashedPersonID;
-- (void)ailed _insertObjectRelationshipStatement:(double)arg1 %@;
-- (void)e;
+- (_Bool);
+- (id);
+- (struct CGRect);
+- (id);
 - (id);
 - (void);
-- (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
 - (void);
-- (id)!øFù±ÀÐ1¢!0@ù
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)
 × ;
-- (id);
-- (void)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (void)¡p°!tEùqÃÐ1¢!0@ù
+- (void)Ð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (id)\°1Â0@ù
+× ;
+- (void);
+- (_Bool)1b1Â0@ù
 × ;
 - (void)Ô ;
-- (void)QÄÐ1¢!0@ù
+- (id)EùfÐ1Â0@ù
 × ;
-- (id)!´@ùqÄ°1¢!0@ù
+- (void)fð1Â0@ù
 × ;
-- (_Bool)
+- (void);
+- (void)0@ù
 × ;
-- (void)!ôDù±Èð1¢!0@ù
-× ;
-- (id)0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (void)avÐ!øGù1Ë°1¢!0@ù
-× ;
-- (void)Ì°1¢!0@ù
-× ;
-- (id)Îð1¢!0@ù
-× ;
-- (void)ebuildGeometry"b1"suppressRebuildGeometry"b1"scheduledUpdateVisibleCells"b1"lastScheduledUpdateVisibleCellsIgnored"b1"scheduledUpdateVisibleCellsFrames"b1"displayTopSeparator"b1"countStringInsignificantRowCount"b4"needToAdjustExtraSeparators"b1"overlapsSectionHeaderViews"b1"ignoreTouchSelect"b1"lastHighlightedRowActive"b1"reloading"b1"dequeuedSectionViewIsFooter"b1"allowsSelection"b1"allowsSelectionDuringEditing"b1"allowsMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"indexHidden"b1"indexHiddenForSearch"b1"defaultShowsHorizontalScrollIndicator"b1"defaultShowsVerticalScrollIndicator"b1"sectionIndexTitlesLoaded"b1"tableHeaderViewShouldAutoHide"b1"tableHeaderViewIsHidden"b1"tableHeaderViewWasHidden"b1"tableHeaderViewShouldPin"b1"hideScrollIndicators"b1"sendReloadFinished"b1"keepFirstResponderWhenInteractionDisabled"b1"keepsFirstResponderVisibleOnBoundsChange"b1"forceStaticHeadersAndFooters"b1"inInit"b1"inSetBackgroundColor"b1"isApplyingAppearanceDefaults"b1"usingCustomBackgroundColor"b1"usingCustomBackgroundView"b1"usingCustomSeparatorColor"b1"usingCustomSeparatorEffect"b1"usingCustomSeparatorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
-- (id)Date";
-- (void)@"PTSettings"16@"NSString"24;
-- (void)HostSceneComponent;
-- (void)tionButton;
-- (id):(long long)arg1;
+- (id)erfaceLayoutDirectionForSemanticContentAttribute:(id)arg1 relativeToLayoutDirection: /* Error: Ran out of types for this method. */;
+- (void)youtGuideFromFrame:(const CDStruct_aa1ce654 *)arg1;
+- (void)lbarDefaultItemIdentifiers:(CDUnknownBlockType)arg1;
+- (void)hreshold:(id)arg1;
+- (struct CGRect)geFlags:(id)arg1;
+- (struct CGAffineTransform)ickCount: /* Error: Ran out of types for this method. */;
+- (void)CollectionJoinBehavior;
+- (void)ionsByEvaluatingOcclusionsForRegions:(id)arg1 inSnapshot: /* Error: Ran out of types for this method. */;
+- (struct CGRect)lection:(long long)arg1;
+- (void)hold;
+- (id)FailureReason;
+- (void)ementaryView:(_Bool)arg1 forElementOfKind:atIndexPath: /* Error: Ran out of types for this method. */;
+- (void)ernateText;
+- (void)l;
+- (void)fsetToBounds:(double)arg1;
+- (void)alueSetter:(id)arg1 presentationValueSetter:(const CDStruct_aa1ce654 *)arg2;
+- (void)undRoundRectRadius;
+- (_Bool)dius;
+- (void)V_associatedObjectManipulationSessionIdentifier;
+- (void)pty:,V__alwaysShowsClearButtonWhenEmpty /* Error: Ran out of types for this method. */;
+- (void)etAllowsPointerDragBeforeLiftDelay:(id)arg1 ,V_allowsPointerDragBeforeLiftDelay;
+- (id)activePresentation;
+- (id)adence;
+- (void);
+- (void)|$#¨#$$;
+- (void)±;
+- (void)È
+;
+- (void)Ð011È3ø3è4h5Ð67;
+- (long long)P;
+- (void).x.;
 - (_Bool);
-- (void)ueue_requestsBySourceItemUUID;
-- (void)andlers;
-- (void)bled;
-- (void)dows;
-- (id)put:(_Bool)arg1 executionContext: /* Error: Ran out of types for this method. */;
-- (void),N,V_stringRepresentation;
-- (double)ourceControllerSessionState",&,N,V_sessionState;
-- (void)ings:(_Bool)arg1;
-- (void)¦È¦@§Ø¨¬©;
-- (void)[	¸[D]°]ü^``aØbhc¸dÄePf¼gdhdi
- jkn;
-- (void) %;
-- (_Bool);
 - (void);
-- (void)izer;
-- (void)umStackedImageContainerModifyMaxDepthStrength;
-- (void)dInteractiveMove;
-- (void)rn an instance of %@ from -tableView:(_Bool)arg1 trailingSwipeActionsConfigurationForRowAtIndexPath:but returned %@. /* Error: Ran out of types for this method. */;
-- (struct CGRect)UIStatusBarStyle.m;
-- (id)moteHasPushToTalkDidChangeNotification;
-- (void)BarListIcon.png;
-- (void)ion>"16@?0@"UIViewController"8;
-- (void)wOverrideTranslationY;
-- (void)er Activity;
-- (struct CGRect)E5UIKitCSo18_UIFlexInteraction9GlassInfo;
-- (_Bool)ÿ®ç;
-- (void)3_;
-- (void)e`;
-- (_Bool)0>k;
-- (id)QÒðJf;
 - (void);
-- (void)YÈc;
-- (_Bool)ÿ;
-- (void)ßÿ	v7;
-- (void)Á|f;
+- (void)ctHeight;
+- (void)ManipulationDragItemSize;
+- (double)ed;
+- (void)meShouldSkipCandidateSelection;
+- (void)ring. Collection view:(long long)arg1 %@;
+- (void)a delay!;
 - (void);
+- (void);
+- (void);
+- (id)ÿ;
+- (double)?Íäâa;
+- (void)uÜYb;
+- (id)ï·ÿ;
+- (void)äPwÿ`NÊCc;
+- (id)d¹QÿkÖ»d;
+- (void)Ê¨g;
+- (void)sÕÈo;
 
 // Remaining properties
 @property(nonatomic, getter=isTimeHidden) _Bool timeHidden; // @synthesize timeHidden=_timeHidden;

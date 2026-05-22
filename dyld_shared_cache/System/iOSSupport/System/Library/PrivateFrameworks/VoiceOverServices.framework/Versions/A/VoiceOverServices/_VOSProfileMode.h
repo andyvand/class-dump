@@ -13,18 +13,18 @@
 }
 
 + (id);
-+ (id);
 + (_Bool);
++ (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *commands; // @synthesize commands=_commands;

@@ -38,11 +38,11 @@
 - (id);
 - (id);
 - (void);
+- (double);
+- (void);
 - (id);
 - (void);
-- (void)¬w;
-- (void)åûÿ;
-- (double)etched;
+- (void)eyAsset;
 
 // Remaining properties
 @property(readonly) NSMapTable *changesForDataSources; // @synthesize changesForDataSources=_changesForDataSources;

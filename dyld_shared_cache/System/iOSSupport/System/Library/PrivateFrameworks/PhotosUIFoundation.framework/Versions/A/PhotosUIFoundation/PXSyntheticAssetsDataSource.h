@@ -22,9 +22,9 @@
 - (id);
 - (long long);
 - (id);
+- (long long);
+- (long long);
 - (void);
-- (long long);
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *assetCollections; // @synthesize assetCollections=_assetCollections;

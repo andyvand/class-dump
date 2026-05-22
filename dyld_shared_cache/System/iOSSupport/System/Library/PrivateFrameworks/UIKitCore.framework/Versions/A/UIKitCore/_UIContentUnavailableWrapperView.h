@@ -21,20 +21,21 @@ __attribute__((visibility("hidden")))
     UIViewController *_viewController;
 }
 
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool)Ê1¢!0@ù
+- (id)ù
 × ;
-- (id)f48@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
-- (struct UIEdgeInsets)ggerUsageSignal:payload: /* Error: Ran out of types for this method. */;
-- (id)nerView;
-- (void)ingToBecomeFirstResponder;
-- (void)figuration;
-- (id)´^æÿè^æÿ_æÿH_æÿx_æÿ _æÿà_æÿ(`æÿh`æÿ`æÿÈ`æÿ;
-- (id)Key;
-- (void)Øàÿ;
+- (struct UIEdgeInsets)ùñfÐ1Â0@ù
+× ;
+- (void)8i16;
+- (void)tyleChange;
+- (void)_manager.cache_resource_cleanup;
+- (id)(deprecated);
+- (void))ÕÄÏ];
+- (void)ÿÎ;
+- (id)¤á1ÿGvËh3c;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIContentConfiguration> configuration;

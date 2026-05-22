@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBagValue, AMSProcessInfo, NSDate, NSString;
+@class AMSProcessInfo, NSDate, NSString;
 
 @protocol AMSBagProtocol
-- (AMSBagValue *)ler:(NSString *)arg1 didEncodeNetworkRequest: /* Error: Ran out of types for this method. */;
-- (_Bool)ometricsRequest: /* Error: Ran out of types for this method. */;
-- (void)_authRequest;
-- (AMSBagValue *)rcle Failed;
+
+@optional
+- (AMSProcessInfo *)ted:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *expirationDate;

@@ -8,7 +8,24 @@
 @protocol GPImagePickerViewControllerDelegate;
 
 @protocol GPImagePickerViewControllerProtocol
-+ (_Bool)ZyACG_Qo_AJGSgAEyvZyÿ|ZyACSi=~XySNySiGSiACGG_:kZQo_AJGSgAZtGACSgGA_G /* Error: Ran out of types for this method. */;
++ (_Bool)yADyADy²Åü
+G¤Åü
+GÄü
+G_ADyäÍü
+yÈü
+yADyõÍü
+(Êü
+yÂÃü
+GGADy;
+- (id)AAyAFyRÿ
+yAAyhÿ
+yAAyAAyAAyñÿÿ
+GFÿ
+GALG_¤Cÿ
+y®Cÿ
+y Cÿ
+yÊGÿ
+_Qo__Qo__Qo_Qo_AJG_AAy?¥;
 
 // Remaining properties
 @property __weak id <GPImagePickerViewControllerDelegate> delegate;

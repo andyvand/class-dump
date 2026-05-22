@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UISegmentedControlStyleProvider;
-
 @protocol _UISegmentedControlStyleProviding
-+ (id <UISegmentedControlStyleProvider>)essage:(long long)arg1 chat: /* Error: Ran out of types for this method. */;
 @end
 

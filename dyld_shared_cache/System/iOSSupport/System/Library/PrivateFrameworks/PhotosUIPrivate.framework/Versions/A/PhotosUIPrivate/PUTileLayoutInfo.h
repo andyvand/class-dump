@@ -60,32 +60,34 @@
 - (void);
 - (double);
 - (id);
-- (double);
-- (struct CGAffineTransform);
+- (void);
 - (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (struct CGAffineTransform);
+- (id);
+- (unsigned long long);
+- (struct CGRect);
+- (struct CGSize);
+- (id);
+- (struct CGPoint);
+- (void);
 - (_Bool);
-- (double);
 - (struct CGRect);
 - (id);
 - (id);
+- (id);
 - (double);
-- (void);
-- (id);
-- (struct CGPoint);
-- (unsigned long long);
-- (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)1WÐ1b0@ù
+- (double);
+- (struct CGPoint)#ð1â
+0@ù
 × ;
-- (struct CGRect)ngAnimationDuration: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)== NO;
+- (double)}}120d152B160d164@172B180{CGPoint=dd}184d200d208Q216q224B232{CGAffineTransform=dddddd}236d284@292B300B304B308;
+- (void)ResourceManager;
+- (id);
+- (void)<¯ïÿm*ó
+;
 
 // Remaining properties
 @property(nonatomic, setter=_setAlpha:) double alpha; // @synthesize alpha=_alpha;

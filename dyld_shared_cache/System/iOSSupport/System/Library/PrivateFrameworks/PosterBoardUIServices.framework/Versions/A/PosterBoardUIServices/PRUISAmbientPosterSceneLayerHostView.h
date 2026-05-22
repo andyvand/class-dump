@@ -17,14 +17,14 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (void);
+- (id);
 - (void);
 - (unsigned int);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)nnot create poster scene:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

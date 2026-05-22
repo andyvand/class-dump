@@ -14,10 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)ewHeightAnchorConstraint;
 - (id);
-- (long long);
-- (id)DateWidth: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (long long)0@ù
+× ;
 
 // Remaining properties
 @property(readonly) long long offset; // @synthesize offset=_offset;

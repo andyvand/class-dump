@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)Ü®þM};
+- (id)ation;
+- (void)k;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIDropInteraction *dropInteraction; // @synthesize dropInteraction=_dropInteraction;

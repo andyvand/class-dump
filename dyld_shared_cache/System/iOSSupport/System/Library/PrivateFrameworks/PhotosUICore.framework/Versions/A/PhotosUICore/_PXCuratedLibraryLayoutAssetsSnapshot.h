@@ -29,12 +29,12 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (id);
 - (struct CGRect);
-- (id);
-- (struct CGPoint)¨?ÿ;
-- (long long)@;
-- (void)Ó.Qèë4;
+- (void)t;
+- (void)Suggestion Pills;
+- (long long);
+- (struct CGPoint)TTRActionMenuView;
 
 // Remaining properties
 @property(retain, nonatomic) id <NSCopying> dominantAssetIdentifier;

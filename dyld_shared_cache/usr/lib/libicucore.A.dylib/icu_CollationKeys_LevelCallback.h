@@ -4,6 +4,6 @@
 
 class icu::CollationKeys::LevelCallback {
 public: // (access info unavailable from symbols alone)
-    needToWrite(icu::Collation::Level);
+    auto needToWrite(icu::Collation::Level);
     ~LevelCallback();
 };

@@ -11,9 +11,9 @@
     MISSING_TYPE *key;
 }
 
-- (long long)A;
-- (_Bool);
 - (id);
+- (long long);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

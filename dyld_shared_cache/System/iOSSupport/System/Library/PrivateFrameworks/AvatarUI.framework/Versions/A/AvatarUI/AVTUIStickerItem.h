@@ -31,11 +31,11 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (id);
+- (id);
+- (id);
+- (CDUnknownBlockType);
 - (void);
-- (id);
-- (id);
-- (id)was quarantined too many times.;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *cachedImage; // @synthesize cachedImage=_cachedImage;

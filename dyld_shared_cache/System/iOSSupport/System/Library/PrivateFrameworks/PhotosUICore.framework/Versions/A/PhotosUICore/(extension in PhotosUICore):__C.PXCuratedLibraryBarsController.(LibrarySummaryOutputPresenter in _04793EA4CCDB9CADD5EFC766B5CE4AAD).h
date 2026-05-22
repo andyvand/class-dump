@@ -13,10 +13,12 @@
 }
 
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void)ÑEð1â
+0@ù
+× ;
+- (id)ls cannot be <= 0;
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *title;

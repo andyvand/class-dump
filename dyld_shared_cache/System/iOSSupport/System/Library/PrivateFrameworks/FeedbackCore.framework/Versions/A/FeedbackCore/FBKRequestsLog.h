@@ -15,7 +15,7 @@
     NSObject<OS_dispatch_queue> *_requestSaveQueue;
 }
 
-+ (id)RVEY_CONTINUE_BUTTON;
++ (id);
 - (void);
 - (void);
 - (id);
@@ -26,13 +26,13 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)Type;
+- (void)ÚÌÿÿ¹ÌÿÿG;%y¥EGGGU1GG_eCQo_;
 
 // Remaining properties
 @property _Bool isActive; // @synthesize isActive=_isActive;

@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id)dRanges;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *darkSymbolColor;

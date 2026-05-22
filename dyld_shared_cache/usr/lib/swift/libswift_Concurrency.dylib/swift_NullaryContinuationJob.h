@@ -4,5 +4,5 @@
 
 class swift::NullaryContinuationJob {
 public: // (access info unavailable from symbols alone)
-    process(swift::Job*);
+    auto process(swift::Job*);
 };

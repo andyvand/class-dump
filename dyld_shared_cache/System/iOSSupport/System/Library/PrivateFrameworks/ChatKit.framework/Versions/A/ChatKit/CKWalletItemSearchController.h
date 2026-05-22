@@ -10,27 +10,27 @@
 {
 }
 
-+ (_Bool)n;
++ (_Bool);
 + (id);
-+ (id)ment"8{_NSRange=QQ}16^B32;
-+ (_Bool)(>=minWidth)];
++ (id);
++ (_Bool);
++ (id);
++ (id);
 + (id);
 + (id);
 + (Class);
-+ (id);
-+ (id);
 - (void);
 - (id);
-- (id)u;
-- (id)il);
-- (id)OfSize:(id)arg1 useSingleLineA:bold:] /* Error: Ran out of types for this method. */;
-- (id)-access-queue;
-- (id)el(UI) activityItems];
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (double);
-- (long long)²q;
+- (id);
+- (long long)oration metadata (%@) for URL (%@);
 
 @end
 

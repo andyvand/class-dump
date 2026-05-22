@@ -7,7 +7,9 @@
 @class NSString;
 
 @protocol PXMutableProgressIndicatorAlertController
-- (void);
+- (NSString *)ewModel;
+- (void)dServiceSetupMessageIdentifierConnect;
+- (void)1¤F;
 
 // Remaining properties
 @property(nonatomic) double delay;

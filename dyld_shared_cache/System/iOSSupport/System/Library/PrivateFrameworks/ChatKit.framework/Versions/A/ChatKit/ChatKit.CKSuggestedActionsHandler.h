@@ -11,13 +11,13 @@
     void delegate;
 }
 
-+ (id)vingAllowed;
-- (void);
++ (id);
 - (void);
 - (void);
 - (id);
-- (id)ðÿ_p;
+- (id);
 - (void);
+- (void))ß;
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP7ChatKit33CKSuggestedActionsHandlerDelegate_> delegate; // @synthesize delegate;

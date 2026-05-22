@@ -20,16 +20,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;

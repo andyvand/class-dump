@@ -13,11 +13,10 @@
 
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)0@ù
-× ;
 
 @end
 

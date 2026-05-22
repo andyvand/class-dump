@@ -90,9 +90,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -104,28 +104,30 @@
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (long long);
+- (void);
 - (long long);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (_Bool);
-- (id);
-- (void)0@ù
+- (void)ð!TBùÐ1â
+0@ù
 × ;
-- (void)!ÈCùQ11b0@ù
+- (void)¡¯!¬Gù±1â
+0@ù
 × ;
-- (id)etClientReorderableRoomList: /* Error: Ran out of types for this method. */;
-- (void)iewDidEnterAR:(id)arg1;
-- (unsigned long long)ertMessage;
-- (void);
-- (void)|i×ÿç(8Å;
-- (void);
-- (void);
+- (_Bool)lector:(id)arg1;
+- (void)osystemCount;
+- (void)¼ltm,nìp8q;
+- (unsigned long long)RecognitionPersonCustomToneSectionIdentifier;
+- (void)ingsRouterListSectionTitle;
+- (void)43ÿÌI;
 
 // Remaining properties
 @property(nonatomic) _Bool accessorySupportsMusicAlarm; // @synthesize accessorySupportsMusicAlarm=_accessorySupportsMusicAlarm;

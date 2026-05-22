@@ -4,6 +4,6 @@
 
 class icu::FieldPositionHandler {
 public: // (access info unavailable from symbols alone)
-    setShift(int);
+    auto setShift(int);
     ~FieldPositionHandler();
 };

@@ -18,22 +18,22 @@
 + (id);
 + (id);
 + (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void *);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void)eplyType=%@ contentWarning=%@;
+- (id);
+- (void)actionTypeCandidateList;
 
 // Remaining properties
 @property(retain) TUIKBGraphSerialization *decoder; // @synthesize decoder=_decoder;

@@ -6,8 +6,8 @@ class icu::number::impl::Padder {
 public: // (access info unavailable from symbols alone)
     Padder(int);
     Padder(int, int, UNumberFormatPadPosition);
-    codePoints(int, int, UNumberFormatPadPosition);
-    forProperties(icu::number::impl::DecimalFormatProperties const&);
-    none();
-    padAndApply(icu::number::impl::Modifier const&, icu::number::impl::Modifier const&, icu::FormattedStringBuilder&, int, int, UErrorCode&) const;
+    auto codePoints(int, int, UNumberFormatPadPosition);
+    auto forProperties(icu::number::impl::DecimalFormatProperties const&);
+    auto none();
+    auto padAndApply(icu::number::impl::Modifier const&, icu::number::impl::Modifier const&, icu::FormattedStringBuilder&, int, int, UErrorCode&) const;
 };

@@ -18,15 +18,15 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void)StringWithFormat: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface (null) (DOCUserDefaults)
-- (void)9	J);
+- (void);
 - (id);
 @end
 

@@ -6,11 +6,10 @@
 
 #import <PromotedContentUI/APPCMetricsView.h>
 
-@class APPrivacyMarker, MISSING_TYPE;
+@class MISSING_TYPE;
 
 @interface APPCMetricsVideoView : APPCMetricsView
 {
-    APPrivacyMarker *privacyMarker;
     MISSING_TYPE *isFullScreen;
     MISSING_TYPE *$__lazy_storage_$_privacyMarkerButton;
     MISSING_TYPE *representationFetched;
@@ -19,14 +18,10 @@
 
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-
-// Remaining properties
-@property(nonatomic, readonly) APPrivacyMarker *privacyMarker; // @synthesize privacyMarker;
+- (void)hAdsStrategyRecord;
 
 @end
 

@@ -5,10 +5,6 @@
 //
 
 @protocol UIKeyInput
-- (_Bool)fU;
-- (void)á\
-!øGù~Ð1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;

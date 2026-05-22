@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void)etContentItemID:completion:| processing dataSourceState=%{public}@ /* Error: Ran out of types for this method. */;
+- (id)aResourceRequestEvent"16;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedMessage; // @synthesize localizedMessage=_localizedMessage;

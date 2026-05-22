@@ -17,9 +17,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)ÿÿf;
+- (id)±Fð1â
+0@ù
+× ;
+- (void)tchKeyAssetForSocialGroup:(id)arg1 createIfNeeded:options: /* Error: Ran out of types for this method. */;
+- (void)enableMonthLocationTitles;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;

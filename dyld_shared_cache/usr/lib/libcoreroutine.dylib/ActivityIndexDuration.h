@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)tectedMsgHash;
+- (double);
+- (void);
 - (unsigned long long);
-- (unsigned long long)atabaseWithQoS:completion: /* Error: Ran out of types for this method. */;
-- (void)tionUUID:(unsigned long long)arg1;
-- (double)ltsManager:] /* Error: Ran out of types for this method. */;
-- (void)%@;
+- (void);
+- (unsigned long long)entBulletinForEvent:replacingEvent: /* Error: Ran out of types for this method. */;
+- (void)!;
 
 // Remaining properties
 @property(nonatomic) double duration; // @synthesize duration=_duration;

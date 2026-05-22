@@ -7,6 +7,7 @@
 @class PXGDisplayAssetVideoPresentationController;
 
 @protocol PXMutableMessagesStackPlaybackControlViewModel
+- (void)yResult;
 
 // Remaining properties
 @property(nonatomic) long long currentItem;

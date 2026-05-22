@@ -11,11 +11,11 @@
     NSString *_bundleIdentifier;
 }
 
-+ (_Bool)image, as a decimal proportion of the image size between 0 and 1. For example, the nearest edges are the Left for Middle Left alignment, the Bottom and Right for Bottom Right alignment, and the Top for Top alignment.;
-- (void);
++ (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)ackBehavior);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

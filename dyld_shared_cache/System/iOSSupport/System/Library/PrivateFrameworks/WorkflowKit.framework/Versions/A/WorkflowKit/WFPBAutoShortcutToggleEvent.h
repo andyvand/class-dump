@@ -21,29 +21,29 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool)ionLogger logExfiltratedItems:actionUUID:contentOrigin:] /* Error: Ran out of types for this method. */;
+- (_Bool)rsistentIdentifier:perWorkflowStateData: /* Error: Ran out of types for this method. */;
+- (void)$o8q@r;
+- (_Bool)È;
+- (void)smart prompt state from database data.;
+- (_Bool)ionRateLimiter performAction:onQueue:withBlock:] /* Error: Ran out of types for this method. */;
+- (void)dKitSyncSession setWalrusForcedEnabled:] /* Error: Ran out of types for this method. */;
+- (_Bool)ents to insert into the new note.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

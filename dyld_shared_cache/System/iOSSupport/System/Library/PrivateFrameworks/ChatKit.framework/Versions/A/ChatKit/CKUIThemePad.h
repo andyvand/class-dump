@@ -10,18 +10,18 @@
 {
 }
 
-- (id)kDelegate;
-- (id);
-- (id)bGGG;
 - (id);
 - (id);
 - (id);
-- (id)e note;
-- (id)ents;
-- (id)edNotificationFinalAttachmentKey;
-- (id)ow:completionHandler:] /* Error: Ran out of types for this method. */;
-- (id)edNotesSwitchMigrationPromptIfSupportedForAccount:window:completionHandler:] /* Error: Ran out of types for this method. */;
-- (id)onHandler:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

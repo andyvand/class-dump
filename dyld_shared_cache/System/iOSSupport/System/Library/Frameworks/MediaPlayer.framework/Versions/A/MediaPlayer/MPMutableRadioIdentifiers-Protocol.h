@@ -7,10 +7,6 @@
 @class NSString;
 
 @protocol MPMutableRadioIdentifiers
-- (NSString *)s;
-- (NSString *)calculator;
-- (NSString *)irection"b1"donatedBySiri"b1};
-- (void)tachment";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *stationEventID;

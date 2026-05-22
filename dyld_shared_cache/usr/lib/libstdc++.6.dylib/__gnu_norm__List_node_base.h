@@ -4,9 +4,9 @@
 
 class __gnu_norm::_List_node_base {
 public: // (access info unavailable from symbols alone)
-    hook(__gnu_norm::_List_node_base*);
-    reverse();
-    swap(__gnu_norm::_List_node_base&, __gnu_norm::_List_node_base&);
-    transfer(__gnu_norm::_List_node_base*, __gnu_norm::_List_node_base*);
-    unhook();
+    auto hook(__gnu_norm::_List_node_base*);
+    auto reverse();
+    auto swap(__gnu_norm::_List_node_base&, __gnu_norm::_List_node_base&);
+    auto transfer(__gnu_norm::_List_node_base*, __gnu_norm::_List_node_base*);
+    auto unhook();
 };

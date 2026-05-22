@@ -4,5 +4,5 @@
 
 class std::__1::default_delete<zhtok::Lattice> {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:ne200100](zhtok::Lattice*) const;
+    auto operator()[abi:nqe210106](zhtok::Lattice*) const;
 };

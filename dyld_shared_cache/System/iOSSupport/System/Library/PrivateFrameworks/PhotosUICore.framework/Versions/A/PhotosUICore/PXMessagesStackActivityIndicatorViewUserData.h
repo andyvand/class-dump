@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (id);
+- (id)@"UITableView"16:(struct _NSZone *)arg1 24@"NSIndexPath"32@40;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

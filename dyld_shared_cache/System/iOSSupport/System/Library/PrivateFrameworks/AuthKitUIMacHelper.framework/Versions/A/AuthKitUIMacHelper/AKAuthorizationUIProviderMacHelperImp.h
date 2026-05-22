@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (void)that is not %@;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,7 +13,7 @@
     NSTextAttachment *_attachment;
 }
 
-- (id)j;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -21,9 +21,9 @@
 - (struct CGRect);
 - (struct CGPoint);
 - (id);
-- (void)ò;
-- (id)scendantInvalidationBlocks;
-- (id);
+- (id)q;
+- (void)Ì;
+- (id)0hg;
 
 // Remaining properties
 @property(nonatomic) __weak NSTextAttachment *attachment; // @synthesize attachment=_attachment;

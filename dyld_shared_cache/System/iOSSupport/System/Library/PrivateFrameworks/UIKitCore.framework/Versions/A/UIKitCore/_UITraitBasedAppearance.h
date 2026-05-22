@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UITraitCollection *_traitCollection;
 }
 
++ (void);
++ (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (void)IdentifierForSnapshotting: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void),V_useGenericDevicesIconInHeader;
-- (id)WidthDiff;
-- (void):(id)arg1 ,V_viewToSnapshot;
+- (void);
+- (id);
+- (void)n section %ld. Collection view:(id)arg1 %@.;
+- (_Bool)v;
 
 @end
 

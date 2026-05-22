@@ -13,17 +13,17 @@
     NSString *_filterExtensionName;
 }
 
-+ (_Bool)sOpusAudioMessage;
++ (_Bool);
 - (unsigned long long);
-- (void)";
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void)8Ýÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceUniqueID; // @synthesize deviceUniqueID=_deviceUniqueID;

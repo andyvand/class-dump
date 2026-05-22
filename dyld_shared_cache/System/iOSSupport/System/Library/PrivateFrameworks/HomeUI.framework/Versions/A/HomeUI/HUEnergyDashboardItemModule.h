@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ergy.AccountLookup.PostalAddress;
 
 @end
 

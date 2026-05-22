@@ -13,12 +13,13 @@
     MISSING_TYPE *blueprintViewController;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)$ÙàÿHÙàÿÚàÿ<ÚàÿhÚàÿÚàÿÛàÿÛàÿøÛàÿ¤Üàÿ°Üàÿ¤Ýàÿ;
+- (void)	
+;
+- (void);
+- (void)ì4;
 
 @end
 

@@ -29,8 +29,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)z;
+- (id);
+- (void)lists;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *currentDate; // @synthesize currentDate=_currentDate;

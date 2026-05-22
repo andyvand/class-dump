@@ -13,11 +13,12 @@
 
 - (id);
 - (_Bool);
-- (void)T? q;
-- (void)#;
-- (void)ject:forKey: /* Error: Ran out of types for this method. */;
-- (void)hFinalStateAdjustments:(id)arg1;
-- (void)edGestureRecognizersShouldRespectGestureServerInstructions:(id)arg1 ,V__containedGestureRecognizersShouldRespectGestureServerInstructions;
+- (void);
+- (void);
+- (void);
+- (void)
+× ;
+- (void)roller=%@; window=%@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

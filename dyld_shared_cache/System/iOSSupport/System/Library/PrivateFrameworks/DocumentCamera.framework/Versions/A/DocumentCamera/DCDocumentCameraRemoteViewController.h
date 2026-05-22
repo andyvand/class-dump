@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController<DCDocumentCameraPublicViewController> *publicViewController; // @synthesize publicViewController=_publicViewController;

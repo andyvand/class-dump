@@ -13,7 +13,7 @@
     MISSING_TYPE *destinationURL;
 }
 
-- (id)stItemFactory:(long long)arg1 Creating list item for track %{public}@;
+- (id);
 - (void);
 
 @end

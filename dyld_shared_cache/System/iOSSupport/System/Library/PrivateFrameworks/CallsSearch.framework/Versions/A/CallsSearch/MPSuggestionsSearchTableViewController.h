@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *searchText;

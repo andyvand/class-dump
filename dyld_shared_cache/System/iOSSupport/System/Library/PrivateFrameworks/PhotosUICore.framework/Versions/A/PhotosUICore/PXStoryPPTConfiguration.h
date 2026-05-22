@@ -43,18 +43,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (long long);
 - (void);
 - (id);
-- (id);
-- (id);
-- (long long)eProperties;
-- (unsigned long long);
+- (unsigned long long)bleSizeReadingModifierInfoHack;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

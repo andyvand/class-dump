@@ -34,13 +34,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (void)%s => %s;
-- (double);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)nTimeMode: /* Error: Ran out of types for this method. */;
-- (id)ame: /* Error: Ran out of types for this method. */;
+- (id)Ô ;
+- (void);
+- (void)sPrintCommand;
+- (double)rientation with the application, and [%@ shouldAutorotate] is returning YES;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double horizontalVolumeDownScale; // @synthesize horizontalVolumeDownScale=_horizontalVolumeDownScale;

@@ -14,10 +14,10 @@
 
 - (void);
 - (id);
-- (id)*;
-- (void);
-- (double)nalytics;
-- (void)fying:(double)arg1 outPoiInferredMapItem;
+- (id);
+- (double);
+- (void)nsitionsAreInvalid_ForTransitionAtIndex, tripSegmentTransitionStatus[%ld], Passthrough;
+- (void)(in %s:(double)arg1 %d);
 
 // Remaining properties
 @property(retain, nonatomic) RTCellIndex *cellIndex; // @synthesize cellIndex=_cellIndex;

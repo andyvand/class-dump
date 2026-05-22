@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (_Bool)ubtype;
++ (_Bool);
 
 @end
 

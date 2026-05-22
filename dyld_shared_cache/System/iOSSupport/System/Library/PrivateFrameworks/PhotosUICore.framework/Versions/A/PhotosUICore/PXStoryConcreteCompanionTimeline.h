@@ -22,8 +22,8 @@
 - (long long);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ackMemoryGeneration;
 
 // Remaining properties
 @property(readonly, nonatomic) long long colorGradeKind; // @synthesize colorGradeKind=_colorGradeKind;

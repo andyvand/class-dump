@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)Key: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ISKVOProxy *proxy; // @synthesize proxy=_proxy;

@@ -29,16 +29,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)}°1b0@ù
-× ;
-- (id)tParameters:forParallelPansWithDistance:threeUpComposition: /* Error: Ran out of types for this method. */;
-- (id)ons: /* Error: Ran out of types for this method. */;
-- (long long)e_pixelBufferRenderDestination;
-- (id)a;
-- (id)Üw5;
 - (id);
+- (id);
+- (id);
+- (void);
+- (long long)ÐíÿÔËAÿ°;
+- (id);
+- (id)roup activity sessions at once. Active ID:%s | New ID:%{public}s /* Error: Ran out of types for this method. */;
+- (void);
+- (id)ap\7;
 
 // Remaining properties
 @property(readonly, nonatomic) PLEditSource *activeEditSource;

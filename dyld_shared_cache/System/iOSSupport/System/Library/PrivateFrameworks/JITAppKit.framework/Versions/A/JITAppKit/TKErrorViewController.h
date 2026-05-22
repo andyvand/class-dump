@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *message; // @synthesize message=_message;

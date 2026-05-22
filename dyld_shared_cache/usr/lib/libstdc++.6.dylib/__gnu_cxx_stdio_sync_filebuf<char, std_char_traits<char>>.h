@@ -4,16 +4,16 @@
 
 class __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    file();
-    overflow(int);
-    pbackfail(int);
-    seekoff(long long, std::_Ios_Seekdir, std::_Ios_Openmode);
-    seekpos(std::fpos<__mbstate_t>, std::_Ios_Openmode);
+    auto file();
+    auto overflow(int);
+    auto pbackfail(int);
+    auto seekoff(long long, std::_Ios_Seekdir, std::_Ios_Openmode);
+    auto seekpos(std::fpos<__mbstate_t>, std::_Ios_Openmode);
+    auto sync();
+    auto uflow();
+    auto underflow();
+    auto xsgetn(char*, long);
+    auto xsputn(char const*, long);
     stdio_sync_filebuf(__sFILE*);
-    sync();
-    uflow();
-    underflow();
-    xsgetn(char*, long);
-    xsputn(char const*, long);
     ~stdio_sync_filebuf();
 };

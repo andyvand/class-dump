@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPresentationController, UIViewController, _UIPresentationControllerVisualStyle, _UISheetPresentationMetrics;
-@protocol _UIAlertPresentationControllerVisualStyling, _UIPopoverPresentationControllerVisualStyling, _UISearchPresentationControllerVisualStyling, _UISheetPresentationControllerVisualStyling;
+@class UIPresentationController, _UIPresentationControllerVisualStyle, _UISheetPresentationMetrics;
+@protocol _UISearchPresentationControllerVisualStyling, _UISheetPresentationControllerVisualStyling;
 
 @protocol _UIPresentationControllerVisualStyleProviding
-- (_UIPresentationControllerVisualStyle<_UISheetPresentationControllerVisualStyling> *);
-- (_UIPresentationControllerVisualStyle *)0@ù
-× ;
-- (_UIPresentationControllerVisualStyle<_UIPopoverPresentationControllerVisualStyling> *)!¨DùÇð1¢!0@ù
-× ;
-- (_UIPresentationControllerVisualStyle *)gModification"b1"textOrSelectionChangeOriginatesWithKeyboard"b1"undoRedoInProgress"b1"textOrSelectionChangeOriginatesWithMarkedText"b1"nextSelectionChangeMustUpdate"b1"hasTextAlternatives"b1"hasDictationResultMetadata"b1"suppressDelegateChangeNotifications"b1"adaptiveImageGlyphsDisabled"b1"isWritingToolsStreamingReplacements"b1"isWritingToolsStreamingUndoGroupPrematurelyEnded"b1"automaticallyAdjustsWritingDirection"b1};
-- (_UIPresentationControllerVisualStyle<_UIAlertPresentationControllerVisualStyling> *)hasCustomized_shouldDrawUnderlinesLikeWebKit;
-- (_UIPresentationControllerVisualStyle<_UISearchPresentationControllerVisualStyling> *)ô ;
+- (_UIPresentationControllerVisualStyle *)esolvedSourceBounds;
+- (_UIPresentationControllerVisualStyle *)hPreview:(UIPresentationController *)arg1 forSegment:selected: /* Error: Ran out of types for this method. */;
+- (_UIPresentationControllerVisualStyle<_UISearchPresentationControllerVisualStyling> *)ectionsFromAvailableSpace;
+- (_UIPresentationControllerVisualStyle<_UISheetPresentationControllerVisualStyling> *)D;
 
 @optional
-- (long long)ISplitViewControllerAdaptiveNavigationItemObserver";
-- (Class)ContentAttribute;
-- (_UISheetPresentationMetrics *)bel",R,N,V_timeSeparatorLabel;
-- (UIPresentationController *)nViewFocusedItemState",C,N,G_focusedItemState,S_setFocusedItemState:(UIViewController *)arg1 ,V_focusedItemState;
-- (UIPresentationController *)ü§Ì© ª0«à­,®¯À¯°@²²;
+- (long long);
+- (UIPresentationController *)× ;
+- (long long)amentDelegate>",W,N,V__ornamentDelegate;
+- (UIPresentationController *)Ü;
 
 // Remaining properties
 @property(readonly, nonatomic) _UISheetPresentationMetrics *defaultSheetMetrics;

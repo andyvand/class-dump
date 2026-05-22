@@ -55,16 +55,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)=ýÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

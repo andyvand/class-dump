@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)48B52;
-- (void)DelegatePort:(id)arg1 queue: /* Error: Ran out of types for this method. */;
-- (void)sing mapping for MPModelRelationshipGenericPlaylistEntry;
 - (void);
-- (void);
-- (id)ßìj8y9íj8G;
 - (void);
-- (void)¯t^;
+- (void);
+- (void)uestedScaleFactor:(id)arg1;
+- (id);
+- (void)der(struct ui_archive *, struct ui_archive_entry *);
+- (void);
+- (void)¼ÿînÔÐÖ];
 
 // Remaining properties
 @property(readonly, nonatomic) _UICollectionViewSubviewRouter *subviewRouter; // @synthesize subviewRouter=_subviewRouter;

@@ -15,13 +15,13 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void)Oq;
 
 // Remaining properties
 @property(nonatomic, readonly) UINavigationItem *navigationItem;

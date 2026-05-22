@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSWPFootnoteReferenceAttachment;
+@class NSString;
 
 @protocol TSWPTextSource
-- (TSWPFootnoteReferenceAttachment *);
-- (struct __CFDictionary *)a;
-- (void);
-- (unsigned long long)ts: /* Error: Ran out of types for this method. */;
 
 @optional
-- (double);
+- (NSString *);
 @end
 

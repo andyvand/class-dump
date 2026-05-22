@@ -34,9 +34,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)ardNavigationTitleView",&,N,V_titleView;
+- (id);
+- (void)too!;
 
 // Remaining properties
 @property(retain, nonatomic) HUSiriLanguageOptionItemProvider *accentOptionItemProvider; // @synthesize accentOptionItemProvider=_accentOptionItemProvider;

@@ -47,16 +47,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id)extEnabled;
-- (void);
-- (void)ptionEntitlementsActivityDidChangeNotification;
-- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)rmExternalLookup;
+- (id)initWithTitle:detailText:appName:icon: /* Error: Ran out of types for this method. */;
+- (void)ByACyADyAQ_APtGGATGAVGG;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;

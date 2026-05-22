@@ -40,17 +40,17 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)ckStyle;
-- (void)supporting non-rotational transforms;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetCollectionReference *assetCollectionReference;

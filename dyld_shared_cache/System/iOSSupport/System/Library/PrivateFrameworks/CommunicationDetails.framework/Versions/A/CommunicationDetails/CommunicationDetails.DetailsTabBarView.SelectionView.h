@@ -14,11 +14,11 @@
     MISSING_TYPE *contentView;
 }
 
+- (id);
 - (void);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
 
 @end
 

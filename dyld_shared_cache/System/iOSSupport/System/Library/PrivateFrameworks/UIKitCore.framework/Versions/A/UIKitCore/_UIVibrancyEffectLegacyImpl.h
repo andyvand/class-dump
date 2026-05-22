@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
     UIVibrancyEffect *_effect;
 }
 
-- (void);
+- (long long);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (long long)0@ù
+- (id)Ñ]ð1Â0@ù
 × ;
-- (void)onderToReload:(id)arg1;
-- (_Bool)dismissingHorizontallyAlongsideNavigationPop;
-- (void)S_setAllowedTypingAttributes:(id)arg1;
-- (_Bool)¨ò;
-- (id)È;
-- (id)iews. This is an internal UIKit problem.;
-- (void)fails.;
+- (void);
+- (_Bool)ItemPrivate>";
+- (void)imer;
+- (id)und;
+- (void)k;
+- (id)Ð g;
+- (_Bool)or UITableViewAutomaticDimension.;
 - (id);
+- (void)esFloatingContentView;
+- (_Bool)r is not bottom aligned when the code to update it is expecting it to be;
 
 // Remaining properties
 @property(nonatomic) UIVibrancyEffect *effect; // @synthesize effect=_effect;

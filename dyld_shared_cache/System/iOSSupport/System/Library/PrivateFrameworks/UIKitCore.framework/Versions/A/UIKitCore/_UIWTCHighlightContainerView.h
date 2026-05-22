@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)MessageGUID: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
-- (void);
-- (id):(struct CGRect)arg1 "class_addMethod(nsImage, @selector(conformsToProtocol:), (IMP)NSImage_conformsToProtocol, ((void*)0))" -> %llu /* Error: Ran out of types for this method. */;
+- (id)ssoryView;
+- (void)wCSgG;
 
 // Remaining properties
 @property(readonly, nonatomic) _UITextSelectionRangeView *highlightSubview; // @synthesize highlightSubview=_highlightSubview;

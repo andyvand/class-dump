@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASCOfferMetadata *metadata; // @synthesize metadata=_metadata;

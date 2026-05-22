@@ -81,11 +81,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void)T@"CIImage",&,N,V_ciImage;
-- (id)°;
 
 // Remaining properties
 @property(retain, nonatomic) MADService *_serviceDontUseThisOneDirectly; // @synthesize _serviceDontUseThisOneDirectly=__serviceDontUseThisOneDirectly;

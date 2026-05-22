@@ -59,18 +59,17 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)0@ù
-× ;
+- (id)orNoteWithGuid:(id)arg1 noteOnly:tokenizeForIndexing:completion: /* Error: Ran out of types for this method. */;
+- (void).;
+- (void)sl/crypto/rsa/rsa_pss.c;
+- (id)rivate key file;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *archiveBaseURL; // @synthesize archiveBaseURL=_archiveBaseURL;

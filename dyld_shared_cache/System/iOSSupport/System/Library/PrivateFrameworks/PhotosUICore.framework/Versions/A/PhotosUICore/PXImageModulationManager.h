@@ -104,21 +104,21 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (id);
-- (void)!u!¼@ùy1b0@ù
-× ;
-- (void)ecyclePixelBufferSourceForDisplayAssets:pixelBufferSource: /* Error: Ran out of types for this method. */;
-- (void)setPadding;
-- (id)ecipeAttributes;
-- (void)d;
-- (void)tom;
-- (_Bool);
-- (id);
+- (void);
+- (void);
 - (_Bool);
-- (void)6;
-- (void)b¸7;
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void)ÄL;
+- (id)
+;
+- (void)pthEffect;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double HDRFocus; // @synthesize HDRFocus=_HDRFocus;

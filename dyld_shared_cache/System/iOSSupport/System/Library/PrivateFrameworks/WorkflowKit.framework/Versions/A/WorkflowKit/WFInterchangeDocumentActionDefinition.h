@@ -18,9 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)SendEmailActionToRecipients} (Parameter Summary);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *fileTypes; // @synthesize fileTypes=_fileTypes;

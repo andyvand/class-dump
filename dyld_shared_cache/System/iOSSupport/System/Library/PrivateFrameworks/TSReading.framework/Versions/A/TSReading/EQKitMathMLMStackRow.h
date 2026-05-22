@@ -17,9 +17,9 @@
 - (const void *);
 - (struct Schemata);
 - (_Bool);
-- (id)�	;
 - (id);
-- (void)`;
+- (void);
+- (id)ver;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

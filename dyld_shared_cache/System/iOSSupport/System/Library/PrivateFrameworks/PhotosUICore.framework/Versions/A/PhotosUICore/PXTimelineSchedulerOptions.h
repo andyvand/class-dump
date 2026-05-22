@@ -30,8 +30,8 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)on.swift;
 
 // Remaining properties
 @property(nonatomic) double bestContentEntryDuration; // @synthesize bestContentEntryDuration=_bestContentEntryDuration;

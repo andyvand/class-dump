@@ -22,11 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)@;
 - (void);
 - (id);
-- (id)ingPaletteVisualState;
+- (id);
+- (id)rLayerLinedPaper: /* Error: Ran out of types for this method. */;
+- (void)ed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *addImage; // @synthesize addImage=_addImage;

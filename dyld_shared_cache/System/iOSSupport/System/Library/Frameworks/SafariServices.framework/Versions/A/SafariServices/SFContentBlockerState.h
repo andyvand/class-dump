@@ -10,11 +10,11 @@
 }
 
 + (_Bool);
-- (id)eOverlayViewWithOpacity:(_Bool)arg1;
-- (void);
 - (id);
 - (void);
+- (id);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;

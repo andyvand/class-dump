@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @protocol IMAnimatedImagePreviewGeneratorProtocol
-- (NSURL *)s snapshot is OK, don't ignore it;
 @end
 

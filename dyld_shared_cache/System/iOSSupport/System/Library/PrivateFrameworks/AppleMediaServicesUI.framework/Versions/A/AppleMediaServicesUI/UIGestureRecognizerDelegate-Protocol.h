@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIGestureRecognizer;
+
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool);
-- (_Bool)o privacyIdentifier found;
+- (_Bool)lock:(UIGestureRecognizer *)arg1;
 @end
 

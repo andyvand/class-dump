@@ -29,24 +29,28 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (_Bool);
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
+- (void);
+- (void);
 - (long long);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void)ranceIntentHandling;
-- (void)³4´Tµ ¶·ä·P¸;
-- (id)_T61STRING;
-- (id)ï;
+- (void)*getNSStrokeColorAttributeName(void);
+- (void)ry/Caches/com.apple.xbs/TemporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/ec/ec_ameth.c;
+- (id)G¾ïÆÁÌ¡$o,é-ªtJÜ©°\ÚùvRQ>mÆ1¨È'°ÇY¿óàÆG§ÕQcÊg))
+·'8!.üm,M8STs
+e»
+jv.ÉÂ,r¡è¿¢Kf¨pKÂ£QlÇèÑ$Ö5ôp jÁ¤l7LwH'µ¼°4³9JªØNOÊ[óo.hîtoc¥xxÈÇúÿ¾ëlP¤÷£ù¾òxqÆ
+;
+- (id)Ê;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *fileSize; // @synthesize fileSize=_fileSize;

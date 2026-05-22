@@ -7,8 +7,6 @@
 @class NSString, UIColor, _UILegibilitySettings;
 
 @protocol PLKLegibilityEnvironmentContext
-- (double)°1b0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *averageColor;

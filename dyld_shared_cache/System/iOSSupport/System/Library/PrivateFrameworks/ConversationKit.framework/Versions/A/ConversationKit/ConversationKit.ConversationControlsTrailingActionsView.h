@@ -18,9 +18,9 @@
 }
 
 - (void);
+- (id)XÁ XÁ@'XÁ ZXÁàXÁ¤BXÁ:(id)arg1 XI;
 - (id);
-- (void);
-- (id);
+- (void)t18AudioCallPresenterP;
 
 @end
 

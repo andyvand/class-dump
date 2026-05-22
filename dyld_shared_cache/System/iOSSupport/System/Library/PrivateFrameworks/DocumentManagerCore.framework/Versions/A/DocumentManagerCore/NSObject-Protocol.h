@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, Protocol;
+@class NSString;
 
 @protocol NSObject
-- (id)@`B;
-- (id)_#;
-- (Class);
-- (_Bool)9;
-- (_Bool)Effect:(Protocol *)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

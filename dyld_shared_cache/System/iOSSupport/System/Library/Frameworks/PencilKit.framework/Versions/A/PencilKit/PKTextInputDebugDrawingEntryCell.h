@@ -12,10 +12,10 @@
     PKDrawing *_drawing;
 }
 
-- (void)onfiguration/RemoteConfiguration/Categories/NSEnumerator+RCAdditions.m;
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)cterLocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;

@@ -12,10 +12,10 @@
     MISSING_TYPE *hostingController;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
 
 @end
 

@@ -10,9 +10,10 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)o(vfx_lights[%@], u_goboTexture%d, u_goboTexture%dSampler);
+;
+- (void);
 
 @end
 

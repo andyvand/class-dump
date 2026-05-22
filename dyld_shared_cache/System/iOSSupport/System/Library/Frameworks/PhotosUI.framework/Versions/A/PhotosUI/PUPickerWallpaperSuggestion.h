@@ -13,12 +13,12 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long mode; // @synthesize mode;

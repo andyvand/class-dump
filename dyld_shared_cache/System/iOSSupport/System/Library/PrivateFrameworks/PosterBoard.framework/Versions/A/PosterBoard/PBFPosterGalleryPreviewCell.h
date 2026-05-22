@@ -41,9 +41,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
-- (id)ngeTypeRemovePoster;
+- (void)!HDù	Ð1â
+0@ù
+× ;
+- (id)GùQ	1â
+0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedPosterTitle; // @synthesize attributedPosterTitle=_attributedPosterTitle;

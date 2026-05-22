@@ -12,12 +12,13 @@
     NSObject<OS_dispatch_queue> *_extensionsDataExportQueue;
 }
 
-+ (id)ID;
-+ (unsigned long long)st;
-+ (id)4p;
-- (void)ode:(id)arg1;
++ (id);
++ (id);
++ (unsigned long long)£¤8§Ü§ð§ø§P¨D©ªÌªÜ«ø¬­¬®L¯H°°ä±
+ð³äµ3Ä¹;
 - (void);
-- (id);
+- (void)letionHandler: /* Error: Ran out of types for this method. */;
+- (id)N,V_lastRequestWasInUserLoadedWebpage;
 
 @end
 

@@ -9,9 +9,9 @@
     int _fileDescriptor;
 }
 
-- (void)legateHandleTabFrom:direction: /* Error: Ran out of types for this method. */;
-- (void)GAFG;
-- (id);
+- (void);
+- (void);
+- (id)y_items ADD COLUMN status_code INTEGER NOT NULL DEFAULT 0;
 
 @end
 

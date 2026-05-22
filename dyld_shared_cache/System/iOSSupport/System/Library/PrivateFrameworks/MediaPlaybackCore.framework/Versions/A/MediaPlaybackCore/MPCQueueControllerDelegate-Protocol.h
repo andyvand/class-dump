@@ -5,6 +5,5 @@
 //
 
 @protocol MPCQueueControllerDelegate
-- (void);
 @end
 

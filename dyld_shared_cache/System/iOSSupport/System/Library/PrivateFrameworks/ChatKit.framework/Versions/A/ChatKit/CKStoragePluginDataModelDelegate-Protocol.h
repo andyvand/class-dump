@@ -5,6 +5,5 @@
 //
 
 @protocol CKStoragePluginDataModelDelegate
-- (void);
 @end
 

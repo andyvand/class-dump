@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     _UIKeyboardTextSelectionController *_textSelectionController;
 }
 
-- (void);
-- (void);
 - (_Bool);
-- (void);
-- (id)yButtonShapesNoBlendModeBackgroundColorOnLight;
-- (void)BadgeLocation;
-- (_Bool)ferencesCoordinatorDelegate>",W,N;
-- (void)uttonOutsetLeading;
-- (id)rÿ;
-- (void)&Md;
+- (void);
+- (void)tsForKeyboardNotification: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)SceneIdentifierForPersistentIdentifier;
+- (id)lock_invoke_4;
+- (_Bool);
+- (id)Ö¸Í[;
+- (void)$!äþ;
+- (void)Ùd;
 - (id);
 
 // Remaining properties

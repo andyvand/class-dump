@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)nBaselineImpressionValue;
+- (id);
 
 @end
 

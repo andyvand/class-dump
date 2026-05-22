@@ -25,7 +25,7 @@
 
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (struct CGRect);
 - (id);
 - (id);
@@ -47,10 +47,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool)!;
+- (_Bool);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (unsigned long long);
 - (struct CGRect);
 - (void);
@@ -70,17 +70,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void)houldStartPreviewForInteractionContextManager: /* Error: Ran out of types for this method. */;
+- (void)!¤Dù1ï°1Â0@ù
+× ;
+- (void)÷ÿÓ¦Wùþ;
 
 // Remaining properties
 @property(retain, nonatomic) SXMediaViewEvent *activeViewEvent; // @synthesize activeViewEvent=_activeViewEvent;

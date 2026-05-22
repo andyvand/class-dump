@@ -15,7 +15,7 @@
 + (id);
 + (void);
 + (id);
-+ (_Bool)Øÿ¼gTÊà;
++ (_Bool)qóÿfYf®;
 - (id);
 - (_Bool);
 - (id);
@@ -28,8 +28,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)h;
-- (id);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -46,10 +46,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (_Bool)isValueMinorGridlineOpacityProperty;
+- (id);
+- (_Bool)lÄ;
 
 // Remaining properties
 @property(readonly, getter=isActivating) _Bool activating;

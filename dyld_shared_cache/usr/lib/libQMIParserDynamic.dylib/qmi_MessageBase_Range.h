@@ -4,5 +4,5 @@
 
 class qmi::MessageBase::Range {
 public: // (access info unavailable from symbols alone)
-    operator++();
+    auto operator++();
 };

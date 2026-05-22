@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-+ (Class)atePersistentReference plain cert = %d;
++ (Class);
 - (id);
-- (id)+[RTDevice(RTCoreDataTransformable) createWithManagedObject:(id)arg1 ];
+- (id);
 
 @end
 

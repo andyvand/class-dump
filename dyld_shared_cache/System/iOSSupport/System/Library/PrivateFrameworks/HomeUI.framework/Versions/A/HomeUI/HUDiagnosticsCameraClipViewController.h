@@ -20,12 +20,12 @@
 - (id);
 - (void);
 - (id);
-- (long long);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (long long);
+- (void)UsersPersonalContentEnabledNoFMFDeviceSettingsDescription;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraClip *cameraClip; // @synthesize cameraClip=_cameraClip;

@@ -28,10 +28,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)@Êÿ;
+- (id)!@ù±I1â
+0@ù
+× ;
+- (id)ner;
+- (void)Item;
+- (id)075;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *actionPerformersByType; // @synthesize actionPerformersByType=_actionPerformersByType;

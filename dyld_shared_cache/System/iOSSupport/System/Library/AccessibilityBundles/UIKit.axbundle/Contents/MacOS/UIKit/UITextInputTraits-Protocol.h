@@ -9,12 +9,20 @@
 @protocol UITextInputTraits
 
 @optional
-- (void)Ð1b0@ù
+- (void);
+- (long long)0@ù
 × ;
-- (void)ay:(long long)arg1;
-- (long long)CapsLockDoubleTap;
-- (void)UIStatusBarNavigationItemAccessibility;
-- (long long)ormattingViewControllerAccessibility_super;
+- (long long)B50@ù
+× ;
+- (void)vel;
+- (void)cessoryViewForType:(NSString *)arg1;
+- (void)alKeyboardKey;
+- (void)nContainerViewAccessibility_super;
+- (long long)cationDescriptor"24@?0@"UIView"8Q16;
+- (long long)me unless you're a text input mechanism;
+- (unsigned long long)ows;
+- (_Bool)ewCell;
+- (void)h.toggle;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

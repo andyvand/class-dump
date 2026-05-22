@@ -5,6 +5,5 @@
 //
 
 @protocol MFLeaseControlling
-- (void);
 @end
 

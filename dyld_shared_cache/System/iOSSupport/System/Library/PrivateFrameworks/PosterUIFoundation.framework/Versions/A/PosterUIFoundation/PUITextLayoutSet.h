@@ -23,15 +23,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allTextLayoutsAreVertical; // @synthesize allTextLayoutsAreVertical=_allTextLayoutsAreVertical;

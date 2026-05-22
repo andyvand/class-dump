@@ -5,9 +5,5 @@
 //
 
 @protocol TSDDecorator
-
-@optional
-- (void);
-- (void);
 @end
 

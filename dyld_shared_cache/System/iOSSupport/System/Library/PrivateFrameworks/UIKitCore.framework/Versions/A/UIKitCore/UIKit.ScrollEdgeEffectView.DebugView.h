@@ -19,11 +19,11 @@
     MISSING_TYPE *pocketMaskPortal;
 }
 
-- (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (id)lStyleAttributes;
+- (void)2;
+- (void)lþÅkÎHrl;
 
 @end
 

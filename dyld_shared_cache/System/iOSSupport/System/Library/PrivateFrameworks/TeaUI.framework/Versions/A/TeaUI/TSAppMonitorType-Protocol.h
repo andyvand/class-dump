@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TSAppMonitorType;
-
 @protocol TSAppMonitorType
-- (id <TSAppMonitorType>);;
-- (_Bool)ipeActionsProvider;
+- (_Bool)omCompression;
+- (void)´!ôÿîÌÍäÿîÌ!ôÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;

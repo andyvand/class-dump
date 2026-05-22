@@ -13,6 +13,8 @@
     MISSING_TYPE *exportConfiguration;
     MISSING_TYPE *filteredCounts;
     MISSING_TYPE *iterationState;
+    MISSING_TYPE *chatRowIDs;
+    MISSING_TYPE *databaseOnly;
 }
 
 @end

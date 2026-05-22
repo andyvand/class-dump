@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     CASpringAnimation *_animation;
 }
 
-- (void);
+- (double);
 - (id);
 - (void);
-- (void)lic}@:(id)arg1 [%{public}@] Successfully opened application with bundle identifier %{public}@;
-- (double);
+- (void);
+- (void)iewController;
 
 // Remaining properties
 @property(retain, nonatomic) CASpringAnimation *animation; // @synthesize animation=_animation;

@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (void);
-- (struct _NSRange);
 - (unsigned long long);
+- (id);
+- (struct _NSRange);
+- (void);
 
 @end
 

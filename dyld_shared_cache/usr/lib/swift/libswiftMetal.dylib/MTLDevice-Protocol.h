@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArchitecture, NSArray, NSString, NSURL;
-@protocol MTLDynamicLibrary, MTLFence, MTLFunctionHandle, MTLIOFileHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLSharedEvent, MTLTensor, MTLTexture;
+@class MTL4CommandQueueDescriptor, MTLArchitecture, NSArray, NSString;
+@protocol MTL4CommandQueue, MTLIndirectCommandBuffer, MTLTensor;
 
 @protocol MTLDevice
-- (CDStruct_14f26992)-;
-- (CDStruct_14f26992);
-- (unsigned long long)Destinations:service: /* Error: Ran out of types for this method. */;
-- (id <MTLIndirectCommandBuffer>)b;
-- (id <MTLDynamicLibrary>);
-- (void)~	;
-- (void)`;
-- (id <MTLTensor>)P;
-- (_Bool);
-- (id <MTLFunctionHandle>)`;
-- (void)D;
-- (id <MTLLibrary>)TF16 %s;
-- (MTLArchitecture *)ad_setugid_np failed for root;
-- (unsigned long long)lications;
-- (id <MTLSharedEvent>)emAudioChannelCount;
-- (id <MTLIOFileHandle>):(NSURL *)arg1 _MDSChannelXsanFetchAccessTokenForUID:(long long)arg2 dead channel;
-- (unsigned long long)%s, either psMsg or pcMsgName are NULL.;
-- (_Bool);
-- (unsigned int);
-- (id <MTLTexture>);
-- (unsigned long long)/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices;
-- (_Bool)DATA;
-- (id <MTLSharedEvent>)#;
-- (NSArray *)aA9;
-- (void)24@32;
-- (_Bool)nctionTable>"32@0:8@"MTLIntersectionFunctionTableDescriptor"16Q24 /* Error: Ran out of types for this method. */;
-- (CDStruct_4bcfbbae)enderPipelineDescriptor"16Q24@?<v@?@"<MTLRenderPipelineState>"@"MTLRenderPipelineReflection"@"NSError">32;
-- (unsigned long long)=QQQ}}16^{?={?=QQQ}{?=QQQ}}24{?=QQQ}32Q56Q64;
-- (id <MTLFence>)n:sourceSize:toBuffer:destinationOffset:destinationBytesPerRow:destinationBytesPerImage:options: /* Error: Ran out of types for this method. */;
-
-@optional
-- (void);
+- (MTLArchitecture *)Â0@ù
+× ;
+- (id <MTLIndirectCommandBuffer>)@ù
+× ;
+- (unsigned long long)Eù±'ð1Â0@ù
+× ;
+- (_Bool)DùÑ'1Â0@ù
+× ;
+- (unsigned long long)Descriptor"16^@24;
+- (unsigned long long)s:lodMaxClamps:withRange: /* Error: Ran out of types for this method. */;
+- (_Bool)escriptor:options:reflection:error: /* Error: Ran out of types for this method. */;
+- (_Bool)ptor:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (id <MTL4CommandQueue>):(MTL4CommandQueueDescriptor *)arg1 stage:(id *)arg2;
+- (void);
+- (id <MTLTensor>);
 
 // Remaining properties
 @property(readonly) MTLArchitecture *architecture;
@@ -56,7 +40,7 @@
 @property(readonly) unsigned long long maxArgumentBufferSamplerCount;
 @property(readonly) unsigned long long maxBufferLength;
 @property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) CDStruct_14f26992 maxThreadsPerThreadgroup;
+@property(readonly) struct maxThreadsPerThreadgroup;
 @property(readonly) unsigned long long maxTransferRate;
 @property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
@@ -77,6 +61,7 @@
 @property(readonly) _Bool supportsDynamicLibraries;
 @property(readonly) _Bool supportsFunctionPointers;
 @property(readonly) _Bool supportsFunctionPointersFromRender;
+@property(readonly) _Bool supportsPlacementSparse;
 @property(readonly) _Bool supportsPrimitiveMotionBlur;
 @property(readonly) _Bool supportsPullModelInterpolation;
 @property(readonly) _Bool supportsQueryTextureLOD;

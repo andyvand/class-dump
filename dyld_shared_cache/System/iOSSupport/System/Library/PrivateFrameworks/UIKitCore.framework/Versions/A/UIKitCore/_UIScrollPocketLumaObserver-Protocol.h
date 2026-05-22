@@ -5,6 +5,5 @@
 //
 
 @protocol _UIScrollPocketLumaObserver
-- (void);
 @end
 

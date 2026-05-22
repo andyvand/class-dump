@@ -15,15 +15,14 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (_Bool);
 - (void);
-- (void)0@ù
-× ;
-- (void)ionEffect>";
-- (void)ivenessTimeElapsed: /* Error: Ran out of types for this method. */;
-- (_Bool)nQueue: /* Error: Ran out of types for this method. */;
-- (_Bool)StringRef, void (^__strong)(CFURLRef, CFErrorRef));
-- (id)ndirectEventSupport;
-- (_Bool)has changed.;
+- (id)iptor=}16;
+- (void)rollerChange;
+- (_Bool)vÈvxx;`z;
+- (_Bool)item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
+- (void)v40@?0@8{_NSRange=QQ}16^B32;
+- (void)nterLayoutPoints;
 
 // Remaining properties
 @property(nonatomic) _Bool failsOnTouchesCancelled; // @synthesize failsOnTouchesCancelled=_failsOnTouchesCancelled;

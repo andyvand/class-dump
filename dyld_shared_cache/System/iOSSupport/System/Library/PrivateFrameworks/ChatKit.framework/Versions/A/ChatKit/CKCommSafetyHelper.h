@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)atch_queueCGShyAUGG;
-+ (_Bool)t;
++ (id);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);

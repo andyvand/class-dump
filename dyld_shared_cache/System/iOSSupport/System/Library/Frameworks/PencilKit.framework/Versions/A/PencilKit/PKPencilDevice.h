@@ -17,20 +17,20 @@
     long long _pencilVersion;
 }
 
-+ (id);
++ (id);
 + (id);
 - (double);
 - (void);
-- (void)mingKeysWithKeyAndValueBlock:(long long)arg1;
-- (void)ID:(_Bool)arg1 storefrontID:bundleID:deviceInfo:debugOverrides:useBackgroundRefreshRate:requestMode: /* Error: Ran out of types for this method. */;
-- (void)utDuration:(_Bool)arg1;
-- (int)set:expectedTotalBytes: /* Error: Ran out of types for this method. */;
-- (void)N,V_optionsMask;
-- (long long)elegate;
-- (long long)gate;
+- (void);
+- (void);
+- (void);
+- (int);
+- (void);
+- (long long);
+- (long long);
 - (_Bool);
 - (void);
-- (void)~_;
+- (void);
 - (double);
 - (void);
 - (_Bool);
@@ -39,7 +39,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)@?@"<MTLRenderPipelineState>"@"MTLRenderPipelineReflection"@"NSError">32;
+- (void)epresented by PKPaletteBarButton;
 
 // Remaining properties
 @property(nonatomic) double baseRollAngle; // @synthesize baseRollAngle=_baseRollAngle;

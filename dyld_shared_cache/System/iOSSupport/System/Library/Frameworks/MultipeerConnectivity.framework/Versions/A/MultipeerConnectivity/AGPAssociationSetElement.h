@@ -5,6 +5,6 @@
 class AGPAssociationSetElement {
 public: // (access info unavailable from symbols alone)
     AGPAssociationSetElement(CAGP*);
-    can_buffer(unsigned char);
+    auto can_buffer(unsigned char);
     ~AGPAssociationSetElement();
 };

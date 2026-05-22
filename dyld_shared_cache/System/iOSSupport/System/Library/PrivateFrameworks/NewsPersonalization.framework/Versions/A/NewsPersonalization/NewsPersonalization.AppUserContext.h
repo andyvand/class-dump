@@ -22,6 +22,8 @@
     MISSING_TYPE *read;
     MISSING_TYPE *listened;
     MISSING_TYPE *seen;
+    MISSING_TYPE *readClusters;
+    MISSING_TYPE *seenClusters;
     MISSING_TYPE *location;
     MISSING_TYPE *newlySubscribed;
 }

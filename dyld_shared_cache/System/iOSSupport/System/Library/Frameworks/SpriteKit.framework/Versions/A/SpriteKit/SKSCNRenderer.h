@@ -89,16 +89,16 @@
 - (void);
 - (double);
 - (void);
+- (id);
+- (void);
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (struct CGSize);
-- (id)BodyFromSmoothedOutline:size: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)writeContentsToPNG: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) double backingScaleFactor; // @synthesize backingScaleFactor=_backingScaleFactor;

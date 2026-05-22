@@ -21,38 +21,36 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void)Username:(long long)arg1 service:badPassword:showForgotPassword:shouldRememberPassword:outRequestID:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)orMessageGUIDs:(unsigned long long)arg1;
-- (void)iorityMessageToPeerDevicesForMessageGUIDs: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 fromHandleID: /* Error: Ran out of types for this method. */;
-- (void)itionsAllowsAttachmentFileSizeUpdateForActivity:(id)arg1 deferred: /* Error: Ran out of types for this method. */;
-- (void)ntroller;
-- (unsigned long long)rateLimiter;
-- (id)Tq,N,V_category;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (id);
-- (id)@;
+- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (unsigned long long);
 - (id);
-- (struct CGRect)s:(long long)arg1 %s;
-- (void)teners, payload=%{sensitive}@;
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
 - (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)!¤CùÑÌð1¢!0@ù
-× ;
-- (void)lyphs;
-- (void)tentByIdentifier;
-- (void)ontentScale,S_setContentScale:(unsigned long long)arg1 ,V_contentScale;
-- (void)eFirstResponder;
-- (unsigned long long)Ä;
-- (void)CwÌ¿j;
-- (struct CGRect);
+- (void)ller"b1"delegatePreferredSearchColumnForSplitViewController"b1"delegateInteractivePresentationGestureWillBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
+- (void)ccessoryContainer;
+- (void)ConfigurationState;
+- (void)tainerConstraints;
+- (struct CGRect);
+- (void)Ä_þÿ0`þÿP`þÿ|`þÿ`þÿ¼`þÿà`þÿaþÿ$aþÿbþÿ4bþÿTbþÿbþÿ¬bþÿÄbþÿcþÿhcþÿ¸dþÿðdþÿ(eþÿ@eþÿheþÿeþÿ¸eþÿÐeþÿèeþÿfþÿ(fþÿ@fþÿXfþÿfþÿ´fþÿÌfþÿäfþÿüfþÿgþÿ,gþÿdgþÿ|gþÿgþÿ¬gþÿÄgþÿÜgþÿôgþÿhþÿ$hþÿ<hþÿThþÿlhþÿhþÿhþÿ´hþÿÌhþÿähþÿühþÿiþÿ,iþÿDiþÿiþÿ´iþÿjþÿÄjþÿDkþÿ\kþÿtkþÿÀkþÿlþÿlþÿ¨lþÿÀlþÿØlþÿðlþÿ0mþÿHmþÿtmþÿmþÿ°mþÿÈmþÿàmþÿømþÿ nþÿ¸nþÿÐnþÿðnþÿhoþÿoþÿ¤oþÿ¼oþÿÔoþÿ<pþÿpþÿÄpþÿ,qþÿpqþÿ¨qþÿÀqþÿØqþÿðqþÿHuþÿÄvþÿìvþÿwþÿLxþÿdxþÿÀxþÿàxþÿpyþÿzþÿ zþÿ8{þÿä{þÿ(|þÿP|þÿt|þÿ|þÿ¤|þÿ¼|þÿÔ|þÿì|þÿ}þÿ<}þÿd}þÿ}þÿ´}þÿÜ}þÿô}þÿ~þÿ8~þÿX~þÿp~þÿ~þÿ ~þÿ¸~þÿ\þÿ¤þÿÄþÿÜþÿôþÿþÿ$þÿ<þÿTþÿlþÿþÿ´þÿÌþÿäþÿüþÿþÿ,þÿÔþÿþÿ`þÿþÿþÿþÿ¸þÿþÿÄþÿÜþÿtþÿþÿDþÿþÿþÿ¼þÿþÿÄþÿðþÿþÿ(þÿÔþÿ,þÿ\þÿØþÿ;
+- (void)teHoverEffect;
+- (void)þ×ÿ=`;
+- (void)SæÙ Ff;
+- (void)Ô<g;
 
 // Remaining properties
 @property(retain, nonatomic) UIKeyboardEmojiGraphicsTraits *emojiGraphicsTraits; // @synthesize emojiGraphicsTraits=_emojiGraphicsTraits;

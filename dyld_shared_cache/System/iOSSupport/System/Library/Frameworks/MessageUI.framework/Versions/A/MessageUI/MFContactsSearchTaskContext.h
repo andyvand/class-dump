@@ -15,14 +15,14 @@
     NSMutableSet *_searchQueries;
 }
 
-+ (id);
++ (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) id <MFContactsSearchConsumer> consumer; // @synthesize consumer=_consumer;

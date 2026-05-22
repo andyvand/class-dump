@@ -28,21 +28,20 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (struct CGSize);
 - (void);
 - (struct CGSize);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
-- (id)áKð!$CùqSð1b0@ù
-× ;
+- (id);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @synthesize date=_date;

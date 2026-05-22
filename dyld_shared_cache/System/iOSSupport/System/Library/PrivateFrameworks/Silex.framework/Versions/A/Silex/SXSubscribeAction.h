@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics;

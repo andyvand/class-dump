@@ -14,6 +14,7 @@
     _Bool _disableShuffle;
     _Bool _disableRepeat;
     _Bool _disableAutoPlay;
+    _Bool _isAlarmAudioSessionCategory;
     NSXPCConnection *_serviceConnection;
     long long _transitionType;
     double _crossFadeDuration;
@@ -22,7 +23,7 @@
 
 + (_Bool);
 + (void);
-- (void)R*;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,25 +34,27 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (double);
 - (void);
-- (void)@88@0:(long long)arg1 8@16@24d32@40@48B56d60d68i76@80;
-- (void)isUpdate"b1};
-- (id)@0:8@16@24@32d40@48 /* Error: Ran out of types for this method. */;
-- (id)kmarkablePublisher">52;
-- (void)tionMarkerForStream: /* Error: Ran out of types for this method. */;
-- (id)nitWithQuery:(id)arg1 store:(id)arg2 context:includeLiveEvents: /* Error: Ran out of types for this method. */;
-- (_Bool)led: /* Error: Ran out of types for this method. */;
-- (_Bool)aClass: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void):task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (id)ÿh$Í;
 
 // Remaining properties
 @property(nonatomic) double crossFadeDuration; // @synthesize crossFadeDuration=_crossFadeDuration;
@@ -59,6 +62,7 @@
 @property(nonatomic) _Bool disableAutomaticCanBeNowPlaying; // @synthesize disableAutomaticCanBeNowPlaying=_disableAutomaticCanBeNowPlaying;
 @property(nonatomic) _Bool disableRepeat; // @synthesize disableRepeat=_disableRepeat;
 @property(nonatomic) _Bool disableShuffle; // @synthesize disableShuffle=_disableShuffle;
+@property(nonatomic) _Bool isAlarmAudioSessionCategory; // @synthesize isAlarmAudioSessionCategory=_isAlarmAudioSessionCategory;
 @property(retain, nonatomic) NSDate *lastWokeDate; // @synthesize lastWokeDate=_lastWokeDate;
 @property(readonly, nonatomic) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
 @property(nonatomic) long long transitionType; // @synthesize transitionType=_transitionType;

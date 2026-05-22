@@ -52,24 +52,24 @@
 - (void);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (double);
-- (id);
-- (id);
-- (void)ryClientConnectedHH2;
+- (void);
+- (void)erDelegatePrivate;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHomeIdentifier;

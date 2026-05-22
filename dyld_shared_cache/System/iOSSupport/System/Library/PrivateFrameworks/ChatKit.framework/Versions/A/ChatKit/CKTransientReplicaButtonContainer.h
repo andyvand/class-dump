@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     CALayer *_cancelButtonGlyphLayer;
 }
 
-- (id)asPerformedInitialLayout;
-- (id)count;
 - (id);
-- (id)getting the CGImageRef or PDFPage ready.;
-- (id)ed page %ld because of an error getting the CGImageRef or PDFPage ready.;
-- (id)mentScan;
-- (id)by remote edit;
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)KitUI;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *cancelButtonCircle; // @synthesize cancelButtonCircle=_cancelButtonCircle;

@@ -19,15 +19,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)*;
-- (id)is not connected;
 - (id);
 - (void);
-- (void)onWork;
-- (void)sWithNonZeroDwellTime, %lu, weeklyAggregateDwellTimeBetweenDateRangeAverage, %.2f, weeklyAggregateDwellTimeBetweenDateRangeStandardDeviation, %.2f, weeklyTotalDailyVisitCountAverage, %.2f, weeklyDaysWithNonZeroDwellTimeAverage, %.2f, topMedianDwellTime, %.2f;
-- (void)s;
-- (CDUnknownBlockType)sultDate, %@, interval, %.2f;
+- (id);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void)public}@,lat,%{sensitive}.7lf,lon,%{sensitive}.7lf,isValid,%{public}d;
+- (id)Ë;
 
 // Remaining properties
 @property(retain, nonatomic) id client; // @synthesize client=_client;

@@ -18,11 +18,11 @@
 - (void);
 - (id);
 - (void);
-- (void)+;
+- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool)Ш;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -33,7 +33,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)et state for %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

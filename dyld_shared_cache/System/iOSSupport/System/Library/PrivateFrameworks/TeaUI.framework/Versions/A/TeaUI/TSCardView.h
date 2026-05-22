@@ -25,15 +25,15 @@
 }
 
 - (_Bool);
-- (_Bool)<;
-- (void)b<;
+- (_Bool);
 - (void);
-- (id)lineImpressionValue;
 - (void);
-- (void)sibilityHidden:(id)arg1 %@;
 - (id);
+- (void);
 - (id);
-- (_Bool)Ø¿;
+- (_Bool);
+- (void)ýýÿ6þýÿRýÿ;
+- (id)oundInactive;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

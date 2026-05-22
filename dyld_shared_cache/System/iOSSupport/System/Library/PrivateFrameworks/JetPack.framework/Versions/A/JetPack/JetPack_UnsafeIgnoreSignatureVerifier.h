@@ -4,6 +4,6 @@
 
 class JetPack::UnsafeIgnoreSignatureVerifier {
 public: // (access info unavailable from symbols alone)
-    signatureIsValid(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
+    auto signatureIsValid(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>);
     ~UnsafeIgnoreSignatureVerifier();
 };

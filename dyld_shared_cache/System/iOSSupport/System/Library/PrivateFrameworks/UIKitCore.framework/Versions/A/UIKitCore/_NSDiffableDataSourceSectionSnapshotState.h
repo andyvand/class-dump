@@ -17,17 +17,18 @@
 
 - (id);
 - (id);
-- (id)SService"16@"NSString"24;
-- (id)ring"24@"NSString"32@"NSString"40;
-- (long long);
-- (void);
-- (_Bool)ileChunkListRequested && (updateItem->putReceipt || updateItem->error));
 - (id);
-- (_Bool);
-- (void);
-- (id)DuringWillAppear;
-- (id)nHandler: /* Error: Ran out of types for this method. */;
-- (id)igationBar: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long);
+- (id);
+- (id);
+- (_Bool)ð1Â0@ù
+× ;
+- (_Bool)erOrientation;
+- (id)T@"UIButton",R,N,V_backgroundView;
+- (void)×°ã\;
+- (void)tK_;
+- (id)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *identifiers; // @synthesize identifiers=_identifiers;

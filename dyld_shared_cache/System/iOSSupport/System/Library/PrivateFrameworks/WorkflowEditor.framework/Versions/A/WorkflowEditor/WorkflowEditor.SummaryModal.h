@@ -8,6 +8,7 @@
 
 @interface WorkflowEditor.SummaryModal
 {
+    MISSING_TYPE *prefersFormSheetPresentation;
     MISSING_TYPE *isPopoverInCompactWidth;
     MISSING_TYPE *dismissBehavior;
     MISSING_TYPE *onDismiss;
@@ -15,10 +16,10 @@
     MISSING_TYPE *viewController;
 }
 
-- (void);
-- (void);
 - (id);
+- (void)<;
 - (long long);
+- (void)dh 5;
 
 @end
 

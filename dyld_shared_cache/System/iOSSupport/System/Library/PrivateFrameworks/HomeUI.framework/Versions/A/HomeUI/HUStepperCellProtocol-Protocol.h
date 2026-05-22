@@ -8,10 +8,12 @@
 @protocol HUStepperCellDelegate;
 
 @protocol HUStepperCellProtocol
-- (void)©þÿ;
-- (void)]@ä¸¤ÿ;
-- (NSNumber *);
-- (NSNumber *)ssoriesFooter_Multiple;
+- (NSNumber *)!àBù1Ð1â
+0@ù
+× ;
+- (void)@"HFControlPanelItemProvider";
+- (void)ng versions:(NSNumber *)arg1 %@;
+- (NSNumber *)GGGG;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *maximumValue;

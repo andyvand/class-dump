@@ -4,7 +4,7 @@
 
 class std::__1::__split_buffer<unsigned char*, std::__1::allocator<unsigned char*>> {
 public: // (access info unavailable from symbols alone)
-    emplace_back<unsigned char*&>(unsigned char*&);
-    emplace_back<unsigned char*>(unsigned char*&&);
-    emplace_front<unsigned char*>(unsigned char*&&);
+    void emplace_back<unsigned char*&>(unsigned char*&);
+    void emplace_back<unsigned char*>(unsigned char*&&);
+    void emplace_front<unsigned char*>(unsigned char*&&);
 };

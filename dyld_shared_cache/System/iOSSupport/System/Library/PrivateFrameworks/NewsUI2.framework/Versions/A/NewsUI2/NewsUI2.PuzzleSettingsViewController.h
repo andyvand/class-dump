@@ -15,13 +15,14 @@
     MISSING_TYPE *$__lazy_storage_$_collectionView;
 }
 
-- (void)c;
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void)sourceUnavailableError;
+- (void);
+- (void);
+- (void)	
+;
+- (void)opicTagFeedGroupKnobs;
+- (void);
 
 @end
 

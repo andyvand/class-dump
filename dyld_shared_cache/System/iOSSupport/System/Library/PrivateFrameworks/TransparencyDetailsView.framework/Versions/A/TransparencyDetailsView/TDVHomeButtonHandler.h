@@ -14,8 +14,8 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType homeButtonHandlerCallback; // @synthesize homeButtonHandlerCallback=_homeButtonHandlerCallback;

@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)shotTask;
 
 // Remaining properties
 @property(readonly) PHPickerConfiguration *wrappedConfiguration; // @synthesize wrappedConfiguration=_wrappedConfiguration;

@@ -5,8 +5,12 @@
 //
 
 @protocol HMResidentCapabilities
-- (_Bool)rredMediaUser on response to %@, type:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)REDENTIAL_GENERATION_FAILED;
+- (_Bool)È$!;
+- (_Bool)
+× ;
+- (_Bool)ests;
+- (_Bool)load is invalid;
+- (_Bool)Type:%@, [eventrouter=> connected:%d date:%@, clients:%@] > /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isResidentCapable;
@@ -19,11 +23,14 @@
 @property(readonly, nonatomic) _Bool supportsCameraRecordingReachabilityNotifications;
 @property(readonly, nonatomic) _Bool supportsCameraSignificantEventNotifications;
 @property(readonly, nonatomic) _Bool supportsCustomMediaApplicationDestination;
+@property(readonly, nonatomic) _Bool supportsDedicatedStatusChannel;
 @property(readonly, nonatomic) _Bool supportsDistributedExecutionOnAppleMediaAccessories;
 @property(readonly, nonatomic) _Bool supportsDistributedExecutionOnPrimary;
 @property(readonly, nonatomic) _Bool supportsEventLog;
 @property(readonly, nonatomic) _Bool supportsFaceClassification;
 @property(readonly, nonatomic) _Bool supportsFirmwareUpdate;
+@property(readonly, nonatomic) _Bool supportsHEVC;
+@property(readonly, nonatomic) _Bool supportsHKSV3;
 @property(readonly, nonatomic) _Bool supportsHomeActivityState;
 @property(readonly, nonatomic) _Bool supportsHomeHub;
 @property(readonly, nonatomic) _Bool supportsLockNotificationContext;

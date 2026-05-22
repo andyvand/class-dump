@@ -34,8 +34,8 @@
 - (MISSING_TYPE *);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) SCNNode *cameraNode; // @synthesize cameraNode=_cameraNode;

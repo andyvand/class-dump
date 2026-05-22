@@ -11,10 +11,11 @@
     int _orientationAnimation;
 }
 
+- (int);
+- (void);
 - (id);
-- (void)N,V_showsLargeContentViewer;
-- (_Bool)because mouse is in a non-fadeable scroller.;
-- (int)eInsets;
+- (_Bool)1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) int orientationAnimation; // @synthesize orientationAnimation=_orientationAnimation;

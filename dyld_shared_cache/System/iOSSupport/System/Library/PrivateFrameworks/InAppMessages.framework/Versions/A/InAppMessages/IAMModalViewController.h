@@ -26,16 +26,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (long long);
-- (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

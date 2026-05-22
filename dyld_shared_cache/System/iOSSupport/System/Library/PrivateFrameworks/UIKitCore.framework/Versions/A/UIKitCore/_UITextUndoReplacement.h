@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (id);
 - (struct _NSRange);
-- (void);
-- (id)xcludedItems;
-- (id)es.;
-- (void);
+- (id);
+- (id)boardInteraction;
+- (void)_liftDelay] instead.;
+- (void)iding33_FE53B1CE385CEEC5B789D2CA9BD7C0EBLLP;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange affectedRange; // @synthesize affectedRange=_affectedRange;

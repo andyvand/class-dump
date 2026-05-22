@@ -39,6 +39,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -65,7 +66,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -73,21 +77,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void)Bùq?1b0@ù
+- (void)1	°1â
+0@ù
 × ;
-- (id)1b0@ù
-× ;
-- (id)a>Ð!$@ù@°1b0@ù
-× ;
-- (void)nterfaceStyle:(struct CGSize)arg1 accessibilityContrast:(id)arg2 salientContentRectangle:contentOcclusionRectangles: /* Error: Ran out of types for this method. */;
-- (void)inatorChangeTypeRemovePoster;
+- (id)´;
+- (void);
+- (_Bool)..;
+- (id)n=%llu supplement=%llu;
+- (void)È;
+- (void)üëÿÛø¸Ñ;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;

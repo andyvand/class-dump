@@ -5,7 +5,5 @@
 //
 
 @protocol AKSecondFactorCodeEntry
-- (void);
-- (void);
 @end
 

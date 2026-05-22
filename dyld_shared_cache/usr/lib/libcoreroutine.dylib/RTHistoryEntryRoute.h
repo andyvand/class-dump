@@ -24,10 +24,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)ecordType;
 - (id);
 - (id);
+- (id);
+- (void)t ended up inside a location of interest at %{sensitive}f, %{sensitive}f.;
 
 // Remaining properties
 @property(readonly, nonatomic) RTLocation *destinationLocation; // @synthesize destinationLocation=_destinationLocation;

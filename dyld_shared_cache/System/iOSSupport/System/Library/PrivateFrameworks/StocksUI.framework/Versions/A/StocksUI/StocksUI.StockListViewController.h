@@ -43,27 +43,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (long long);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
+- (_Bool);
 - (void);
+- (void))úÿD)úÿh)úÿ¤)úÿÈ)úÿ<*úÿ*úÿ+úÿX+úÿ|+úÿ¸+úÿÜ+úÿ,úÿ4,úÿx,úÿ,úÿÀ,úÿä,úÿ-úÿT-úÿ-úÿ¼-úÿ$.úÿH.úÿl.úÿ.úÿÄ.úÿø.úÿ/úÿH/úÿØ/úÿü/úÿ 0úÿ\0úÿ0úÿÌ0úÿ1úÿ¤1úÿ°1úÿp2úÿ3úÿ83úÿ¨3úÿ4úÿÄ4úÿ5úÿt5úÿ°5úÿÔ5úÿL6úÿ¸6úÿÜ6úÿÔ7úÿ8úÿ¨8úÿÌ8úÿð8úÿP9úÿt9úÿÜ9úÿ:úÿH:úÿl:úÿ:úÿÄ:úÿ /* Error: Ran out of types for this method. */;
+- (id)XLinkAction_p;
+- (long long)¤¨Ñÿez¤¤^Ïÿ;
 - (void);
-- (void)ü;
-- (void);
+- (void)p;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *keyCommands;

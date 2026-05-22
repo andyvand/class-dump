@@ -45,7 +45,7 @@
 - (id);
 - (id);
 - (struct CGPoint);
-- (struct CGPoint)hN;
+- (struct CGPoint);
 - (id);
 - (_Bool);
 - (void);
@@ -55,11 +55,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (void)nged;
 
 // Remaining properties
 @property(readonly, nonatomic) TSDMetalTextureInfo *edgeDistanceFieldTextureInfo; // @synthesize edgeDistanceFieldTextureInfo=_edgeDistanceFieldTextureInfo;

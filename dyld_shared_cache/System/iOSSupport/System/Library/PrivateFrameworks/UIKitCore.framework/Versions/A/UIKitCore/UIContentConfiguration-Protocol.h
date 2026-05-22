@@ -5,9 +5,12 @@
 //
 
 @class UIView;
-@protocol UIContentView;
+@protocol UIConfigurationState, UIContentView;
 
 @protocol UIContentConfiguration
-- (UIView<UIContentView> *)JúZ;
+- (id)Cù?B`åÐ"Û3@5^ºIó?A`åÐâ4@Å °rh@shí|_8@¸ëQ¸@=
+×£p=:(id <UIConfigurationState>)arg1 @nÀ$@Âõ(\@
+×£p=ZA@¸ëQ¸@;
+- (UIView<UIContentView> *);
 @end
 

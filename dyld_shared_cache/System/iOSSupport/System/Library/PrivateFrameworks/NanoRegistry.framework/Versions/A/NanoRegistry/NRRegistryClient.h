@@ -35,14 +35,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void)nDiff";
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) id <NRNSXPCConnectionProtocol> connection;

@@ -159,12 +159,12 @@
 }
 
 + (id);
-+ (_Bool)ed remain ;
++ (_Bool);
 + (id);
 + (id);
-+ (double);
-+ (Class)ÐÚ;
-+ (void);
++ (Class);
++ (double)lic}s" was not of expected class "%{public}s";
++ (void)ÞËÜÜn;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;
@@ -596,6 +596,10 @@
 @property(retain, nonatomic) UIColor *underlineColorForTextAlternatives;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIColor",?,&,N
+
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
 
 @property(nonatomic) _Bool useAutomaticEndpointing;
 // Preceding property had unknown attributes: ?

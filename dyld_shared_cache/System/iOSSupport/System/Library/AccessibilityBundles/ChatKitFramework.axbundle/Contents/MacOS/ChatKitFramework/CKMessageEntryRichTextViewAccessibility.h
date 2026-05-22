@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (id);
@@ -39,9 +39,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
 - (id);
 

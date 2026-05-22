@@ -18,16 +18,17 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)ñÄ1¢!0@ù
+- (id)0@ù
 × ;
-- (id)nt;
-- (id)defaultLayoutMargins;
-- (id),Ò;
-- (void)BRT_TouchVelocities;
-- (id)tKind.;
-- (id)months after the update (%lu) must be equal to the number of loaded months before the update (%lu) plus the number of months inserted (%lu).;
+- (id)!lFùñcÐ1Â0@ù
+× ;
+- (id);
+- (void)supportedInterfaceOrientations;
+- (id)Dc¨etf;
+- (id)lement the UIStateRestoring protocol.;
+- (void)À03%¸þÀ03%¸þÀ03%¸þ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIWindowScene *_windowScene; // @synthesize _windowScene;

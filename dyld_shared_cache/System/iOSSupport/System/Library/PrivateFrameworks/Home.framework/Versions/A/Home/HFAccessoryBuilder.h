@@ -37,14 +37,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)!8Dù1áð1B50@ù
+× ;
+- (void)TitleDoorState;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory;

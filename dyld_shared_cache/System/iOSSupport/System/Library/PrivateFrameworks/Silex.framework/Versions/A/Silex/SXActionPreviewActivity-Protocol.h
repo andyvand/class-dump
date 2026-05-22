@@ -5,6 +5,5 @@
 //
 
 @protocol SXActionPreviewActivity
-- (void);
 @end
 

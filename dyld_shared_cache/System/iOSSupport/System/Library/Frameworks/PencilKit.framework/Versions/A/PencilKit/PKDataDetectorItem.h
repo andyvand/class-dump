@@ -15,24 +15,24 @@
 }
 
 + (id);
-- (id)}@;
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (struct __DDResult *);
+- (void);
+- (id);
+- (id);
+- (id);
+- (struct __DDResult *)objc_stubs;
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
+- (void)bÀbìb;
+- (void)Z;
 
 // Remaining properties
 @property(readonly, nonatomic) struct __DDResult *coreResult;

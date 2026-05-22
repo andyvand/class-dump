@@ -13,38 +13,39 @@ __attribute__((visibility("hidden")))
     id <_UISplitViewControllerAdaptiveNavigationItemObserverDelegate> _delegate;
 }
 
-- (void);
-- (void)#;
-- (void)tionCommand";
+- (id);
 - (void);
 - (void);
 - (void)0@ù
 × ;
-- (_Bool)
+- (void)!Fù±aÐ1Â0@ù
 × ;
-- (void)¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (void)angeVisibility:(id)arg1;
-- (void)tiveStart:(id)arg1;
-- (void)Indexes;
-- (void)entInContext:(id)arg1;
-- (_Bool)dAnimatePropertyWithKey:(id)arg1;
-- (void)erAzimuthUnitVector;
-- (void)ailingLiteral;
-- (void)ollersEligibleForOverridingPreferredFocusEnvironments;
-- (id)ness;
-- (id)teSidebarInsets;
-- (void)iewServicePopoverDidSetUseToolbarShine:(id)arg1;
-- (void)astScrollingIndexBarEntry",&,N,V_entry;
-- (void)esponse;
-- (void)\»;
-- (_Bool)è´(µ;
-- (void)t autolayout; %@;
 - (void);
-- (id)g;
-- (void)esentingVC should be in a UIWindow;
+- (void)1Â0@ù
+× ;
+- (void)Á
+!ðCùQgð1Â0@ù
+× ;
+- (void);
+- (void)tInteractableItem";
+- (void)ebView:(id)arg1 unableToImplementPolicyWithError:(long long)arg2 frame:(id)arg3;
+- (void)lors;
+- (void)ing;
+- (_Bool)isplayForDownloadingURL:(id)arg1 copyToURL:sourceViewController:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)avoidAnimation;
+- (_Bool)PrefersSingleCharacter;
+- (id)nalRotation;
+- (id)cale;
+- (void)roller;
+- (_Bool)IMenuBarCustomItems;
+- (void)IBackdropViewSettingsUltraLight;
+- (void)<l@n¤n;
+- (void)task.;
+- (void);
+- (void)ableViewContainer.m;
+- (void)oardLayoutGuide;
+- (void)tionBarCompactAppearance;
+- (void)mUÙw@£<órØ½ó?;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

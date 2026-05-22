@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void)icNumberHints="_numbersForListStyle"{map<const TSWPListStyle *, std:(id)arg1:vector<TSWPTopicNumberEntry>, std::less<const TSWPListStyle *>, std::allocator<std::pair<const TSWPListStyle *const, std::vector<TSWPTopicNumberEntry>>>>="__tree_"{__tree<std::__value_type<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>>, std::__map_value_compare<const TSWPListStyle *, std::__value_type<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>>, std::less<const TSWPListStyle *>>, std::allocator<std::__value_type<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_charIndex"Q"_validThroughCharIndex"Q"_styleProvider"@"NSObject<TSWPStyleProvider>"} /* Error: Ran out of types for this method. */;
-- (void);
+- (void);
+- (void);
 
 @end
 

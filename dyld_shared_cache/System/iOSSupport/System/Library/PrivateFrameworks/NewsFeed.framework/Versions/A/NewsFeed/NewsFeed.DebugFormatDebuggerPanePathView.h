@@ -15,10 +15,11 @@
     MISSING_TYPE *lineColumnLabel;
 }
 
-- (void);
 - (id);
 - (void);
-- (id)SgG;
+- (id)! Aùñþð1Â0@ù
+× ;
+- (void);
 
 @end
 

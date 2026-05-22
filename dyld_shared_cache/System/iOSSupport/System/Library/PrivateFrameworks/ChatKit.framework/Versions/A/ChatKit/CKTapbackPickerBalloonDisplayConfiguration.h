@@ -15,17 +15,17 @@
 }
 
 - (_Bool);
-- (void)ject id for note URI:(_Bool)arg1 %s;
-- (void)ey:(_Bool)arg1 %@, error:%s} /* Error: Ran out of types for this method. */;
-- (void)hare;
-- (void)c_indexOfObjectAtIndexPath:(struct CGSize)arg1 in:itemsPerSection:` arrangedObjects.count should match the total number of items in each section in itemsPerSection. /* Error: Ran out of types for this method. */;
-- (void)dUpdateObject;
-- (void)a subfolder;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGSize);
 - (_Bool);
 - (double);
-- (double);
 - (_Bool);
+- (double);
 - (id);
 
 // Remaining properties

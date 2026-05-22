@@ -9,21 +9,24 @@
 @protocol UITextInputTraits
 
 @optional
-- (void)1B0@ù
-× ;
-- (long long)Representation:variableProvider:parameter:bundleIdentifier: /* Error: Ran out of types for this method. */;
-- (void)interactionControllerForPresentation:(long long)arg1;
-- (long long)hesSupportedTypes;
-- (long long)kmarkButtonClicked: /* Error: Ran out of types for this method. */;
-- (long long);
-- (long long)$°ýÿ;
-- (long long)ýÿ$¨ÿÿ;
-- (long long)gñÿ;
-- (void)îÿ;
-- (void)KÀÉ_G;
-- (long long)ÿSg;
-- (void)uÖÿ;
-- (long long)roundView;
+- (void);
+- (long long)ge: /* Error: Ran out of types for this method. */;
+- (long long)setSearchTextField: /* Error: Ran out of types for this method. */;
+- (long long)ier: /* Error: Ran out of types for this method. */;
+- (long long)mpletion: /* Error: Ran out of types for this method. */;
+- (long long)ctionConfiguration;
+- (void);
+- (void)7;
+- (void)Üãþÿ;
+- (long long)¨©ýÿ¨ÿÿ;
+- (long long)ªÿÿ;
+- (void)ySöyïyÿyÉô_Qo_çyAF(ôGG_AAymïyAfIäõGÆëGtGGGüçG_SSQo_¨*GÊëyAAyAnTGSgGG;
+- (void)ySayNi¶GHkãÁyAAyÖÜþÿzGADySayÜþÿGAL]ÜþÿG{GGADySay.h¶GAsNGGGBºG;
+- (void)o__4´¶7º¶Qo_;
+- (void)B;
+- (long long)òÿõ¨%òÿå8%òÿ;
+- (long long)ÿØyÛÿ;
+- (void)$Ûÿ;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

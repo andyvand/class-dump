@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (id)hlightsProducerFactory:(CDUnknownBlockType)arg1 detailedSaliencyProducerFactory:chapterCollectionProducerFactory:stylesProducerFactory:autoEditDecisionListsProducerFactory:autoCurationProducerFactory: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

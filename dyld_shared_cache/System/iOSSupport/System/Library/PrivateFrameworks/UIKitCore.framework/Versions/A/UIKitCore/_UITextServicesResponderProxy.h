@@ -15,23 +15,25 @@ __attribute__((visibility("hidden")))
     id <_UITextServicesResponderProxyDelegate> _delegate;
 }
 
-+ (id);
-- (void);
-- (_Bool)="enabled"b1"springLoaded"b1"style"b3"isSystemItem"b1"systemItem"b4"selected"b1"customSelectedImage"b1"customUnselectedImage"b1};
-- (id)butedUserInputLabels;
-- (void)ceAddSceneForwardingLayersForOwners:(id)arg1;
-- (void)okToDictateEnabled;
-- (void)ame,S_setBackdropViewLayerGroupName:(id)arg1;
-- (void)ationViews;
++ (id)onDidEnd;
 - (id);
-- (void)| ;
-- (void)dHÇ_ôHÇ¨@IÇ4ÒlIÇá¬IÇ¤ì¼IÇøÌIÇääIÇH(JÇ¬ ´JÇ$ÈJÇ¸4ôJÇÌL¤KÇ|SðKÇ¸r@LÇlLÇ$pMÇüÀ¸MÇDÕ NÇ\ÙdNÇüòÐNÇ°÷èNÇ<ú;
-- (id)itionYSpring;
-- (void)Qî3yIøi8yøi8_GSgði8G;
-- (void)ifference.removals.count <= 2;
-- (void)yle=editor;
-- (void)ÿÿÿÿÿÿÿÿÿÿÿÿ;
-- (void)¨ÏþÛ<;
+- (id);
+- (void)1Â0@ù
+× ;
+- (void);
+- (void)ting to defer focus updates.
+%{public}@;
+- (void)opItem's navigation bar = %@;
+- (void)Q;
+- (void)$_accessoryContainerMaskView;
+- (_Bool)l.BadgeBackgroundColor;
+- (void)erfaceStyle;
+- (void)rong);
+- (void)edgeAttachedCompactHeightAppearance;
+- (void)G;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextServicesResponderProxyDelegate> delegate; // @synthesize delegate=_delegate;

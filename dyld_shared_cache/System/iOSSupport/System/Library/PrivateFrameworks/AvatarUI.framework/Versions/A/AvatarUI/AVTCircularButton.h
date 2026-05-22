@@ -31,13 +31,13 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id)MailSessionXPCListener;
 - (void);
-- (void)tAssetCollectionsWithAuthorizationError:(_Bool)arg1;
+- (id);
 - (void);
-- (id)@;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *clippingLayer; // @synthesize clippingLayer=_clippingLayer;

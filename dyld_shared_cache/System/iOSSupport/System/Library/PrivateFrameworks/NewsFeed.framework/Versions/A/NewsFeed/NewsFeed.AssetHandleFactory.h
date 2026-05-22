@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *assetManager;
     MISSING_TYPE *contentContext;
+    MISSING_TYPE *sportsDataService;
 }
 
 @end

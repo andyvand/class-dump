@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)I,N,V_tag;
 
 @end
 

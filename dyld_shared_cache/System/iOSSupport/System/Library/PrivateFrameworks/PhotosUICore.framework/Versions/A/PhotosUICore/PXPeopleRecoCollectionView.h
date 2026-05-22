@@ -13,8 +13,8 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ager:(struct CGRect)arg1 didUpdateImportSource: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPeopleRecoCollectionViewDelegate> recoCollectionViewDelegate; // @synthesize recoCollectionViewDelegate=_recoCollectionViewDelegate;

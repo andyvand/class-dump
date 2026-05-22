@@ -29,12 +29,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)dFilenameExtension;
-- (void);
-- (void);
-- (id);
 - (struct CGSize);
-- (id)vicesService;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)ctedAnnotations;
 
 // Remaining properties
 @property(nonatomic) double arrowX; // @synthesize arrowX=_arrowX;

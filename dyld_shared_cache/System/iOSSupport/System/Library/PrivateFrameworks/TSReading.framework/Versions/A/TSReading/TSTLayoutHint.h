@@ -20,7 +20,7 @@
 }
 
 + (Class);
-+ (_Bool)er;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -38,21 +38,21 @@
 - (CDStruct_0441cfb5);
 - (void);
 - (unsigned int);
+- (void);
+- (void);
+- (id);
 - (oneway void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
-- (void)roller setInfosToDisplay:(struct CGSize)arg1 ];
-- (void);
+- (id)ToStroke: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) CDStruct_0441cfb5 cacheHintID; // @synthesize cacheHintID=mCacheHintID;

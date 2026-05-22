@@ -4,6 +4,6 @@
 
 class spar::MappedFileIterator {
 public: // (access info unavailable from symbols alone)
-    next();
+    auto next();
     ~MappedFileIterator();
 };

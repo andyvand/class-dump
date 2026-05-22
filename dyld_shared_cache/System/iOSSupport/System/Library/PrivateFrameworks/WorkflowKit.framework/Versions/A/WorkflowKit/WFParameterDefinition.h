@@ -15,8 +15,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id)!|Bù°1â
+0@ù
+× ;
+- (void)ecutor should not be nil;
 
 @end
 

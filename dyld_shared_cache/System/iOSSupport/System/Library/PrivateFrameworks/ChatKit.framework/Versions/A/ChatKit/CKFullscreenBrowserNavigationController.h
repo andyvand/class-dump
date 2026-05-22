@@ -12,14 +12,14 @@
     _Bool _preserveModalPresentationStyle;
 }
 
-- (_Bool)Picker;
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool)es/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/WebView/NoteHTMLEditorView.m;
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)OK;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

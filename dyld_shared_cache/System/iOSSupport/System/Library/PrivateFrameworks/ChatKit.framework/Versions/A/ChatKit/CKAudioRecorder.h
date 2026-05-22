@@ -23,9 +23,9 @@
     struct OpaqueAudioFileID *_fileID;
 }
 
-- (void)ache;
-- (void)Thumbnail;
-- (void)ueue;
+- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -36,8 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (void)t;
-- (void)Password;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -45,27 +45,28 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void)b;
 - (void);
-- (id);
-- (void)ratorColor;
-- (CDUnknownBlockType)ndle: /* Error: Ran out of types for this method. */;
-- (float)geAcknowledgmentDescriptorsWithServiceName: /* Error: Ran out of types for this method. */;
-- (_Bool)ItemIdentifier;
-- (struct OpaqueAudioFileID *)leForFocusOcclusion;
-- (id)Map;
-- (_Bool)artChatItem;
-- (id)­G_ADyADy_*®y	­yû®ySayB->GGSSÁ­yADy8)®yº­y­y¦J>_Qo__dh­y¶^­GQo__Qo_D>GSSGGG¦l­GA3_GtGG;
-- (void)it30SendMenuCollectionViewDelegateP;
-- (void);
+- (float);
 - (double);
+- (id);
+- (id);
+- (struct OpaqueAudioFileID *);
+- (void);
+- (void);
 - (void);
 - (id);
+- (CDUnknownBlockType)Qð1Â0@ù
+× ;
+- (void)ontextMenuInteractionWithConfiguration:(_Bool)arg1 animator: /* Error: Ran out of types for this method. */;
+- (void)ing latitude:(id)arg1 %@ or longitude:%@ from spotlight result /* Error: Ran out of types for this method. */;
+- (_Bool)TED_RETRY_RETRACTION_ALERT_DESCRIPTION;
 - (void);
-- (void)ÿ;
-- (void)W5}u0;
-- (void)Ñ0;
+- (void)ÔÆÿðj×ÆÿðjØÑÆÿðjr¥ÿqðjäÆÿQðjdäÆÿ¡ðjø²ÿðjÐA¦ÿðjäÆÿqðj(åÆÿYðj¸ú²ÿYðj$ZÆÿ©ðjHÙÆÿyðjLû²ÿyðjHû²ÿaðjZÆÿ;
+- (id)<§ÿ¿97;0;
+- (void)<;
+- (_Bool)ÿ!9X2;
+- (void)u3;
+- (_Bool)¬ká¬4;
 
 // Remaining properties
 @property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;

@@ -19,26 +19,26 @@
     MISSING_TYPE *eventManager;
 }
 
-- (void);;
 - (void);
-- (void)s<;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)omisesWithError:(_Bool)arg1 ]_block_invoke_2;
 - (void);
-- (id)ionTitle;
-- (id)itedBoost;
-- (void);
-- (_Bool)OMEPAGE_TAB_ARTICLE_VIEW_PRESENTATION_REASON;
 - (id);
 - (void);
-- (void);
+- (void)êSýÿ;
 - (id);
 - (void);
-- (void);
-- (void)tOËÿu\4OËÿu\0OËÿu\8OËÿ;
+- (void)¨VÊQ;
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;

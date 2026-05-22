@@ -36,12 +36,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
-- (id)c;
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)QKitLayoutSchemataStackLine;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange dirtyRange; // @synthesize dirtyRange=_dirtyRange;

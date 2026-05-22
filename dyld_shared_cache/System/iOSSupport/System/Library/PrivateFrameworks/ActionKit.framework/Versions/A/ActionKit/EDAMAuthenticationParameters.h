@@ -37,11 +37,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)øLO;
+- (void)CarLocationAction.m;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *consumerKey; // @synthesize consumerKey=_consumerKey;

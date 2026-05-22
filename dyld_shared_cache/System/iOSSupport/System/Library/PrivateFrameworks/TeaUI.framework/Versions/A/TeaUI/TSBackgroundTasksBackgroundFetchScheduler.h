@@ -13,11 +13,11 @@
     MISSING_TYPE *minimumBackgroundFetchInterval;
 }
 
-- (void)<;
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)ect: /* Error: Ran out of types for this method. */;
 
 @end
 

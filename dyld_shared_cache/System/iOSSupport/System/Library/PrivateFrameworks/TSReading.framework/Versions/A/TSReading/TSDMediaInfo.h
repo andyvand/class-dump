@@ -18,23 +18,23 @@
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (struct CGSize);
-- (struct CGPoint);
-- (id);
-- (void)TableWithKeyOptions:(struct CGSize)arg1 valueOptions: /* Error: Ran out of types for this method. */;
-- (id)7;
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
+- (struct CGSize);
+- (struct CGPoint);
+- (id);
+- (void);
+- (id);
+- (void);
+- (struct CGSize);
+- (id);
 - (unsigned int);
-- (_Bool)dditionalTransform: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)eStyle:(id)arg1;
+- (_Bool)ect<TSDCanvasEditor>",&,N,VmCanvasEditor;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize defaultOriginalSize;

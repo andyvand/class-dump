@@ -13,12 +13,12 @@
     MISSING_TYPE *editor;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)0;
-- (void)name for a tag that is backed by a sports subleague.;
+- (void)£wþ}B:ÔÚ$ÿ /* Error: Ran out of types for this method. */;
+- (id)ý:(long long)arg1 ¤öþ;
+- (void);
 
 @end
 

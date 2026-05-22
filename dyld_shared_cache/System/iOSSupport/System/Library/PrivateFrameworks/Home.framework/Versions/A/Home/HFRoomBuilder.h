@@ -27,16 +27,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)d¤¬ìô4Dð;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accessories;

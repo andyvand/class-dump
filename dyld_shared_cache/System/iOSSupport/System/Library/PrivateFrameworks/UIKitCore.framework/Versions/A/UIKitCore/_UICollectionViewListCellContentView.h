@@ -11,7 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)oint;
+- (struct UIEdgeInsets)Ð! Eùgð1Â0@ù
+× ;
 
 @end
 

@@ -4,10 +4,9 @@
 
 // Global C++ functions
 
-(anonymous namespace)::computeRangeTables(std::__1::vector<bool, std::__1::allocator<bool>> const&, std::__1::vector<unsigned long, std::__1::allocator<unsigned long>>&, std::__1::vector<unsigned long, std::__1::allocator<unsigned long>>&);
-SumDurations(std::__1::vector<PFStoryDurationInfo, std::__1::allocator<PFStoryDurationInfo>> const&);
-operator delete(void*);
-operator new(unsigned long, std::__type_descriptor_t);
+auto SumDurations(std::__1::vector<PFStoryDurationInfo, std::__1::allocator<PFStoryDurationInfo>> const&);
 typeinfo for std::bad_array_new_length;
 typeinfo for std::length_error;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
 vtable for std::length_error;

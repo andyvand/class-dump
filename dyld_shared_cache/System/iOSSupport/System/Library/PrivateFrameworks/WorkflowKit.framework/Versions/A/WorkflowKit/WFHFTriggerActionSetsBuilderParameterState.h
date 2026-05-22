@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (id)%EÉ;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -24,9 +24,9 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)e.TVRemoteUIService.LaunchRemoteIntent;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actionSets;

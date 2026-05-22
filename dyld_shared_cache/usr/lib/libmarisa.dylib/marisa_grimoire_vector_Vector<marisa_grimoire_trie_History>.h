@@ -4,7 +4,7 @@
 
 class marisa::grimoire::vector::Vector<marisa::grimoire::trie::History> {
 public: // (access info unavailable from symbols alone)
-    push_back(marisa::grimoire::trie::History const&);
-    realloc(unsigned long);
-    resize(unsigned long);
+    auto push_back(marisa::grimoire::trie::History const&);
+    auto realloc(unsigned long);
+    auto resize(unsigned long);
 };

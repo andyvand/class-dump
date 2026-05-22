@@ -5,8 +5,6 @@
 //
 
 @protocol UITextCursorView
-- (void);
-- (_Bool)uery"16Q24@?<v@?@"NSArray"@"PPQuickTypeExplanationSet">32;
 
 // Remaining properties
 @property(nonatomic, getter=isBlinking) _Bool blinking;

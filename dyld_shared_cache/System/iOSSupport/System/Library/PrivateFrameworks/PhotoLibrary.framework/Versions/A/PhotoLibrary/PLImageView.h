@@ -79,15 +79,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (_Bool);
-- (id);
 - (struct CGSize);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (double);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double accessoryViewsAlpha; // @synthesize accessoryViewsAlpha=_accessoryViewsAlpha;

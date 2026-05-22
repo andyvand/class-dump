@@ -16,11 +16,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id)s:error: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
+- (id);
+- (id);
+- (void)sitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *bins; // @synthesize bins=_bins;

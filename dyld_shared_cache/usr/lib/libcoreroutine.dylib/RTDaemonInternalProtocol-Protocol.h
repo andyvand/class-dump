@@ -5,16 +5,5 @@
 //
 
 @protocol RTDaemonInternalProtocol
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)(;
-- (void);
-- (void)5;
-- (void)@�H;
-- (void)ing call to 'activate'.
-;
-- (void);
 @end
 

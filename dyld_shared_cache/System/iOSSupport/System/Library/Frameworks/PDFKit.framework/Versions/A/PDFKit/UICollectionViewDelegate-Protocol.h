@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView, UIContextMenuConfiguration, UITargetedPreview;
-
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)";
-- (UIContextMenuConfiguration *);
-- (void)alpha:(UICollectionView *)arg1;
-- (UITargetedPreview *);
-- (_Bool);
-- (void);
-- (struct CGPoint);
-- (void)i;
-- (void)ed:(UICollectionView *)arg1;
-- (_Bool);
-- (void)0@ù
-× ;
-- (_Bool)nknown type (%@);
+- (_Bool)hT¼;
 @end
 

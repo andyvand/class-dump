@@ -7,7 +7,7 @@
 @class NSArray, NSString;
 
 @protocol HMTriggerBuilder
-- (_Bool)þÿX;
+- (void)t:(NSString *)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionSets;

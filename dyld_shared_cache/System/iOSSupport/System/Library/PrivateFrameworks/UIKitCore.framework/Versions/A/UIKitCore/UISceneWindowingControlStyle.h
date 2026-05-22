@@ -12,16 +12,15 @@
 }
 
 + (id);
-+ (id)ay name to nil instead.;
 + (id);
-- (id)ume(withTaskLimit:(unsigned long long)arg1 );
-- (id)!ðDùÊð1¢!0@ù
-× ;
-- (id)ningActivity;
-- (id),C,VcontentTintColor;
-- (unsigned long long)¿ Éeþ;
-- (void)groundColorAttribute;
-- (id)´Ý#;
++ (id);
+- (id);
+- (id);
+- (id);
+- (id)=dd}{CGSize=dd}}32i64d68;
+- (void)(;
+- (id)x_G;
+- (unsigned long long)À;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _type; // @synthesize _type;

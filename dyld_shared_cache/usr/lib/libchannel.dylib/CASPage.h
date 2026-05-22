@@ -4,7 +4,7 @@
 
 class CASPage {
 public: // (access info unavailable from symbols alone)
-    allocate();
-    allocate() (.cold.1);
-    free(CASPage*);
+    auto allocate();
+    auto allocate() (.cold.1);
+    auto free(CASPage*);
 };

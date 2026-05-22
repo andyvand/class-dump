@@ -22,10 +22,10 @@
     MISSING_TYPE *state;
 }
 
+- (id);
 - (void);
 - (id);
-- (void)figuration:forIdentifier:withMaximumRequestCount:delegateQueue: /* Error: Ran out of types for this method. */;
-- (id)eCIegg_;
+- (void);
 
 @end
 

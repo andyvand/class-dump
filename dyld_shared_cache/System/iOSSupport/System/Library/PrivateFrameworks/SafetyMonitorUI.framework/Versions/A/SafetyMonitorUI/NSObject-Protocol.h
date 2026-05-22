@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol NSObject
+- (struct _NSZone *)¾sGGACyACyACyAmUGAHGAXGSgâsACyACyACy¬OsyACyUsyAAyACy_sy¡FsysA7_GÿrGlsGACyALA11_GGGAFG_ÎMsQo_ANy
+sGGAHGÑsyssGGSgtGGßsyÑKsGG_Qo_A11_GA30_yDMsGG_ACy©PsyACyADyAByACyACyACyOsyACyðQsyA4_yA13_G_Qo_AFG_éIsQo_ANysSgGG]syA24_GGA20_G_AAyACyACyACyACyAlUGANyA24_SgGGAHGAHGACyA7_AHGGtGGA32_G_Qo_A37_GtGJPsy<PsyÆRsyACyACyACyADyAByAI_AwAyA0_A0_GtGGA11_GA32_GA37_G_Qo__Qo__A24_Qo_G_Qo__Qo__AAy¬ôÒy®ôÒ_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -20,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-- (void)A9;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,17 +32,17 @@
 - (long long);
 - (void);
 - (_Bool);
-- (void)?;
-- (void);
-- (void);
-- (void)S);
 - (void);
 - (void);
 - (void);
-- (void)s;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
+- (void)Ôô;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

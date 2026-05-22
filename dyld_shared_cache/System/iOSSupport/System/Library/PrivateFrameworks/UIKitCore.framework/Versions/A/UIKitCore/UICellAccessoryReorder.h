@@ -11,18 +11,18 @@
     _Bool _showsVerticalSeparator;
 }
 
-+ (_Bool)3n;
-- (void)marksItem;
-- (void);
++ (_Bool)or connect a prototype cell in a storyboard;
 - (_Bool);
 - (id);
-- (_Bool);
-- (long long);
 - (id);
-- (id)setAllowDismissalTapsToPassThrough:,V_allowDismissalTapsToPassThrough /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (long long)or task identifier:%lu /* Error: Ran out of types for this method. */;
-- (id)Äafþ-{;
+- (_Bool)imension1;
+- (void)ample;
+- (long long)y",R,N,V_arrangedContentSeparatorViews;
+- (id)»;
+- (_Bool)cene level changed;
+- (void)ectionViewListLayoutSeparatorStyleFromListSeparatorStyle(_UIListSeparatorStyle);
+- (id)ÌÇ\;
+- (long long)äöÆÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool showsVerticalSeparator; // @synthesize showsVerticalSeparator=_showsVerticalSeparator;

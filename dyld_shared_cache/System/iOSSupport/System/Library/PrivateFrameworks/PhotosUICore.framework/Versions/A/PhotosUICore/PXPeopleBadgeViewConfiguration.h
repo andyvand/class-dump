@@ -16,10 +16,12 @@
 
 - (id);
 - (id);
-- (id);
-- (double);
-- (void);
 - (long long);
+- (double)Aù°!üCù±EÐ1â
+0@ù
+× ;
+- (id)PXGViewUserData>">36;
+- (void)Àÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <PXPeopleBadgeViewDelegate> badgeViewDelegate; // @synthesize badgeViewDelegate=_badgeViewDelegate;

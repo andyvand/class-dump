@@ -28,16 +28,16 @@
 - (void);
 - (id);
 - (void);
+- (double);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (double);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)@X4;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *batchBeginDate; // @synthesize batchBeginDate=_batchBeginDate;

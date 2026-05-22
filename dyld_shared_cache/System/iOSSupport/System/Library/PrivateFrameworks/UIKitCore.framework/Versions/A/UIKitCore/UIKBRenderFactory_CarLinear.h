@@ -11,21 +11,21 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)tWithLimit:(id)arg1;
-- (void)lyphContentIdentifier;
+- (id);
+- (void);
 - (id);
 - (double);
 - (double);
 - (id);
-- (double)ed to update a local synced setting with an unknown key:%s /* Error: Ran out of types for this method. */;
-- (double)ed %@, adding corresponding IDSAccount %@;
-- (double)- Removing login ID %@;
-- (double)ssages.ReportJunkToCarrier;
-- (double)hOfCKAsset:%@ md5HashStoredOnRecord:%@ /* Error: Ran out of types for this method. */;
-- (id)** asset was nil for record id:%@ /* Error: Ran out of types for this method. */;
-- (id)for message fromID:(id)arg1 %@, ;
-- (id)essages.iMessageReceivedMessage;
-- (_Bool)sage with Guid:(id)arg1 %@;
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 
 @end

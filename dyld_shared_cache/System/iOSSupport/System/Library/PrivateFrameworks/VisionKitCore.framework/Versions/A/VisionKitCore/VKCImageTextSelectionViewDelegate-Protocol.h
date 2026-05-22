@@ -5,7 +5,5 @@
 //
 
 @protocol VKCImageTextSelectionViewDelegate
-- (void)1B0@ù
-× ;
 @end
 

@@ -20,46 +20,44 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _diagnosticTrampoline;
 }
 
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)loadAllowScreenRecording;
-- (void);
-- (void)P;
-- (void);
-- (void);
-- (void)entifiersForResults:(CDUnknownBlockType)arg1 | skipping result [no token] result=%@;
-- (void)delPropertyPlaylistTraits;
-- (void);
-- (void);
-- (id)P Âì;
-- (void)
-× ;
-- (void)1Á°1¢!0@ù
-× ;
-- (id)Ð!ÈFùÑÈÐ1¢!0@ù
-× ;
-- (void)É1¢!0@ù
-× ;
-- (CDUnknownBlockType)!pEùqÍÐ1¢!0@ù
-× ;
-- (void)nuSubterraneanContainerView";
-- (CDUnknownBlockType)nIfAtBoundary: /* Error: Ran out of types for this method. */;
-- (void)Section: /* Error: Ran out of types for this method. */;
-- (void)antEffectWithCAColorMatrix:(CDUnknownBlockType)arg1 alpha: /* Error: Ran out of types for this method. */;
-- (void)paratorStyleForCell:(CDUnknownBlockType)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ContainerViews: /* Error: Ran out of types for this method. */;
-- (void)centThreshold;
-- (id)roupFullName:tintColor: /* Error: Ran out of types for this method. */;
-- (id)_addCenterExpressionToExpression:isVertical: /* Error: Ran out of types for this method. */;
-- (_Bool),N,V_dummyPopoverControllerDelegate;
-- (void);
-- (_Bool)entConfigurationP;
 - (id);
-- (void)viderLine(hairline)]|;
-- (void)epare transition before the split view controller's view has loaded. Split view controller:(CDUnknownBlockType)arg1 %@;
-- (_Bool)ionCornerStyle;
-- (void)Cëa;
+- (id);
+- (void);
+- (void);
+- (_Bool)ù±Yð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (_Bool)ð!Bù±c1Â0@ù
+× ;
+- (void)2@0:(CDUnknownBlockType)arg1 8@16{CGPoint=dd}24{CGVector=dd}40{CGVector=dd}56;
+- (void)0:(CDUnknownBlockType)arg1 8@16@24@32;
+- (id)roupCompletion: /* Error: Ran out of types for this method. */;
+- (void)KeyboardSuppressionAssertionsForReason:(CDUnknownBlockType)arg1;
+- (CDUnknownBlockType)Element;
+- (void)litiesChangedNotificationWithOutput:selectionChanged: /* Error: Ran out of types for this method. */;
+- (id)ort;
+- (void)7;
+- (void)¼;
+- (void)n;
+- (_Bool));
+- (void)corner (;
+- (void)7ySo31UIWindowSceneProminentPlacementCG;
+- (void)ðr;
+- (id);
+- (void)#¢t;
+- (void)mÅ;
+- (void)g;
+- (void);
+- (void)-¿|(e;
+- (void)ZµÿbÜËPHi;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *activeOriginator; // @synthesize activeOriginator=_activeOriginator;

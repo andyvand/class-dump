@@ -4,9 +4,9 @@
 
 class spar::DPRBucketRef {
 public: // (access info unavailable from symbols alone)
-    release(void () block_pointer) const;
-    release(void () block_pointer) const (.cold.1);
-    release(void () block_pointer) const (.cold.2);
-    retain() const;
-    retain() const (.cold.1);
+    auto release(void () block_pointer) const;
+    auto release(void () block_pointer) const (.cold.1);
+    auto release(void () block_pointer) const (.cold.2);
+    auto retain() const;
+    auto retain() const (.cold.1);
 };

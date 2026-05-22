@@ -5,8 +5,5 @@
 //
 
 @protocol MPCQueueControllerBehaviorMusicDelegate
-- (void);
-- (void)angeTypeAdded;
-- (void)8@?0;
 @end
 

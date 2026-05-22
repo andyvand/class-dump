@@ -21,8 +21,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)u;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *faceRecognitionCellItem; // @synthesize faceRecognitionCellItem=_faceRecognitionCellItem;

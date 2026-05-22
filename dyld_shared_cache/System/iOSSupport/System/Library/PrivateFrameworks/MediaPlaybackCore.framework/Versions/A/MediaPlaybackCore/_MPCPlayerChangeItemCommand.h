@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     unsigned long long _changeItemSupport;
 }
 
-- (id)@0:8@16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)ChangeWithType:(id)arg1 inStore:(unsigned long long)arg2 oldAccount: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id)y;
+- (id);
 - (id);
 
 // Remaining properties

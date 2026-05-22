@@ -18,10 +18,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)qÐ!¬Aù±Ä1¢!0@ù
-× ;
-- (long long)orientationTransactionToken;
-- (id)¢;
+- (long long)lChangeForTextInput: /* Error: Ran out of types for this method. */;
+- (id)Behaviors;
+- (void)äFlþ^ÐÀl;
 
 // Remaining properties
 @property(nonatomic) long long state;

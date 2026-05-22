@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)d,N,V_overlapWidth;
+- (void)Y¿03¨¸þ!¿03¨#¸þ!¿034$¸þ)¿030$¸þ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -30,15 +30,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (struct CGSize);
+- (id);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void)!¬BùQ°1Â0@ù
+× ;
+- (void)\Eù±1Â0@ù
+× ;
+- (void)>:(id)arg1 taking too long in _waitForAsynchronouslyLoadedImageIfNeeded;
 - (void);
-- (void);
-- (void);
-- (struct CGSize)};
-- (_Bool)utableFields:(id)arg1;
-- (id)Ü;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)m;
+- (long long)ÿÿÿÿ(;
 
 // Remaining properties
 @property(readonly, nonatomic) long long backgroundStyle;

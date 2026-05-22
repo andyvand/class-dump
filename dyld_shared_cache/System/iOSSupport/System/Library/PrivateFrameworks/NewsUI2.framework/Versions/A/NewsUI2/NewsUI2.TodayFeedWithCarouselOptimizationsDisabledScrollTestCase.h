@@ -16,15 +16,16 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long)1`1V 2¸2¤3l4Ð4;
-- (double)gate to a alacarte subscriptionURL because no tagID found from the URL;
-- (id)ùÿ7üÿ;
-- (long long);
+- (void)ources;
+- (id)peFilterConfigurationPayload;
+- (long long)§¹
+EÄbâ;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

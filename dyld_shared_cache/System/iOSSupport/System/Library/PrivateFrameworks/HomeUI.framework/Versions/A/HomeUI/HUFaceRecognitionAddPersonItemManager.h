@@ -30,9 +30,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ner_AllResidentsAreATVsWithHH1EOL_Description;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;

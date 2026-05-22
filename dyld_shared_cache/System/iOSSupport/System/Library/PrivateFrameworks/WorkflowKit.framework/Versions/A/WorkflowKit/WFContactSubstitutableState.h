@@ -26,9 +26,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id).activity-manager;
-- (id)Get Whatâs On Screen;
+- (id);
+- (void)current location;
+- (id)L"íÿ¦âP;
 
 // Remaining properties
 @property(retain, nonatomic) WFCommunicationMethod *communicationMethod; // @synthesize communicationMethod=_communicationMethod;

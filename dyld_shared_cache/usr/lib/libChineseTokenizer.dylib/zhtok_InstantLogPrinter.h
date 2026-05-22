@@ -5,5 +5,5 @@
 class zhtok::InstantLogPrinter {
 public: // (access info unavailable from symbols alone)
     InstantLogPrinter(__sFILE*);
-    print(char const*, char*);
+    auto print(char const*, char*);
 };

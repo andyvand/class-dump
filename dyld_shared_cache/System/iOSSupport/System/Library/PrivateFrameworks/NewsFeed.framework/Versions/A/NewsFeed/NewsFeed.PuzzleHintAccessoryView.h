@@ -28,11 +28,12 @@
     MISSING_TYPE *arrowsSpacing;
 }
 
-- (void);
-- (void);
 - (id);
-- (void)tFlag;
-- (id)ïåÂy9ëÂáÂG;
+- (void);
+- (id)¡îÐ!¬Gùÿ1Â0@ù
+× ;
+- (void)pÈ;
+- (void)ÿ;
 
 @end
 

@@ -5,8 +5,5 @@
 //
 
 @protocol TSKSearchTarget
-
-@optional
-- (void);
 @end
 

@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)nce:peerID:propertiesUpdated: /* Error: Ran out of types for this method. */;
-- (id)g;
+- (void);
+- (id);
 - (id);
 - (struct CGPoint);
-- (struct CGPoint)rdering;
-- (double)ed to move group photo file from %@ to %@, error %@;
-- (struct UIEdgeInsets)gÈe;
+- (struct CGPoint);
+- (double);
+- (struct UIEdgeInsets);
 
 @end
 

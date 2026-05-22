@@ -12,10 +12,10 @@
     MISSING_TYPE *displayLink;
 }
 
-- (id)idUpdateSystemPaperNotesImmediately;
-- (void)Post-Processing Queue;
+- (id);
 - (void);
-- (id);
+- (id);
+- (void)tryViewController"8@"UITraitCollection"16;
 
 @end
 

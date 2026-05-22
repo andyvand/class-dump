@@ -5,5 +5,8 @@
 //
 
 @protocol PXAssetsActionReceiver
+
+@optional
+- (void)DGÿýÇdLÿÇdLÿÇ;
 @end
 

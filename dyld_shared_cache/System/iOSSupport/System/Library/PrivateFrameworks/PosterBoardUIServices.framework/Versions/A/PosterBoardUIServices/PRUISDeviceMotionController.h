@@ -42,13 +42,13 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
 - (void);
-- (void)ecuting snapshot request;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

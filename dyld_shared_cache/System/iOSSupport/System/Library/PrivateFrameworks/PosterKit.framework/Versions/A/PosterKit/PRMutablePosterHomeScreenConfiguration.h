@@ -24,15 +24,15 @@
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) PRPosterHomeScreenCustomizationConfiguration *customizationConfiguration; // @synthesize customizationConfiguration=_customizationConfiguration;

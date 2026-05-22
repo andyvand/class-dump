@@ -13,19 +13,20 @@
 }
 
 + (_Bool);
-+ (id)ements;
++ (id)EySiSgGG¿SéGAEyÖ	êGG^éyAN_Qo_GzaéGAAy)
+=AMGGATGAÑÿÿG;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

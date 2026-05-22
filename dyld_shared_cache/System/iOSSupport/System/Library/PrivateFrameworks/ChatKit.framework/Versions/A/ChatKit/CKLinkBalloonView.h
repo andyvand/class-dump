@@ -17,10 +17,10 @@
     _TtC7ChatKit14CKBalloonLayer *_linkOverlayBalloonLayer;
 }
 
-+ (_Bool)FGGG;
++ (_Bool);
 - (void);
-- (struct CGSize)mControllerProviding;
-- (_Bool)4;
+- (struct CGSize);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -28,7 +28,7 @@
 - (id);
 - (struct CKBalloonDescriptor_t);
 - (id);
-- (id)t;
+- (id);
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
 - (struct CKBalloonDescriptor_t);
@@ -36,14 +36,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)4¸ø
-¼;
-- (void)kWÿÏÙ1/;
+- (void);
+- (id);
+- (void)°;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

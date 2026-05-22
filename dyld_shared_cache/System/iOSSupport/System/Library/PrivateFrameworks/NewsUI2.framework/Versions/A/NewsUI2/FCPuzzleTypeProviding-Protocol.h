@@ -8,18 +8,12 @@
 @protocol FCPuzzleTypeThumbnailDirectoryType;
 
 @protocol FCPuzzleTypeProviding
-- (NSDictionary *)c;
-- (FCAssetHandle *)?�{C;
-- (NSString *)(;
-- (NSArray *)portDriverNameKey expected, couldn't resolve device 
-;
-- (NSString *);
-- (FCAssetHandle *):SgXw /* Error: Ran out of types for this method. */;
-- (NSString *);
-- (FCAssetHandle *)astAudioPlayedFromBusinessDate;
 - (FCAssetHandle *);
-- (void)nupEventTranslator;
-- (FCAssetHandle *)edGroupKnobs;
+- (NSString *)èüLý;
+- (FCAssetHandle *)figuredLinks;
+- (void)tionService;
+- (FCAssetHandle *)5M;
+- (NSString *)P;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long behaviorFlags;
@@ -29,6 +23,7 @@
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *engineResourceID;
 @property(readonly, nonatomic) FCAssetHandle *exploreTileImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, copy, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) NSString *imageResourceID;

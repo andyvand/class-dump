@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)8q16;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *deleteSiriHistoryItem; // @synthesize deleteSiriHistoryItem=_deleteSiriHistoryItem;

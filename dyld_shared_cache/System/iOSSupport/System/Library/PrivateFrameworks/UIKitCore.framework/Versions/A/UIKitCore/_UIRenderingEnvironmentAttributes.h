@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)yCell:(id)arg1 forRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (id)Separators: /* Error: Ran out of types for this method. */;
-- (id)sk;
-- (unsigned int).ÿøÓJî];
+- (_Bool)zedVisualEffectGroupName"b1"hasCustomizedVisualEffectblurClippingMode"b1"hasCustomizedImage"b1"hasCustomizedImageContentMode"b1"hasCustomizedStrokeColor"b1"hasCustomizedStrokeColorTransformer"b1"hasCustomizedStrokeWidth"b1"hasCustomizedStrokeOutset"b1"hasCustomizedMaskedCorners"b1"hasCustomizedMaterial"b1};
+- (id)ureTitles;
+- (unsigned int)utomatic;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

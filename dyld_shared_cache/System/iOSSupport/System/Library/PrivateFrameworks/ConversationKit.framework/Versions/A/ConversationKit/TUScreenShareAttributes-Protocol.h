@@ -5,14 +5,15 @@
 //
 
 @class NSNumber, NSUUID, NSValue;
+@protocol TUScreenShareAttributes;
 
 @protocol TUScreenShareAttributes
-+ (long long)on pending identityClaimer:%@ /* Error: Ran out of types for this method. */;
-- (void)lUIModernizationEnabled;
-- (void)"g;
-- (NSNumber *)GANG:¢­yÌ®­GGý ­yAAyAAyy­A43_GAPGGG_Qo_GA23_y­GG9¤­yA31_GG /* Error: Ran out of types for this method. */;
-- (void)e button in in-call controls;
-- (NSNumber *)Çÿ´·tûÇÿ;
++ (id);
+- (NSNumber *)rDowngrade;
+- (id)Ä4|5Ø56Ð6h8d:(id <TUScreenShareAttributes>)arg1 ü:<= /* Error: Ran out of types for this method. */;
+- (void)·à·l¸X¹78¼Ü½\¾Ô¾4¿;
+- (void)àüÿ üÿÈüÿ0üÿüüÿTüÿüÿ¬üÿÜüÿüÿÀüÿ¸üÿðüÿüÿ8 üÿÐ üÿÜ!üÿ°&üÿp)üÿØ)üÿÈ,üÿô,üÿ$-üÿT-üÿ-üÿ¼0üÿ05üÿT9üÿÌ;üÿ¤>üÿpAüÿ,KüÿHKüÿ¤KüÿPüÿDPüÿSüÿ¼TüÿÜTüÿVüÿLVüÿVüÿ4]üÿ]üÿ^üÿL_üÿ_üÿcüÿdüÿÜdüÿmüÿnüÿ°püÿðpüÿôqüÿDyüÿ`yüÿ|üÿä|üÿ<üÿäüÿdüÿHüÿüüÿTüÿÀüÿÄüÿüÿàüÿüÿhüÿüÿ¬üÿüÿÔüÿpüÿ«üÿL«üÿ|«üÿ­üÿh®üÿ(³üÿP³üÿµüÿ µüÿµüÿ·üÿ@¹üÿÀÄüÿäÄüÿ,ÕüÿxØüÿôØüÿ0ÙüÿÙüÿÜÜüÿ°ÝüÿÔÝüÿßüÿ´ßüÿLàüÿáüÿÈáüÿxgñÿgñÿØgñÿhñÿ hñÿ,hñÿ8hñÿDhñÿPhñÿ vñÿÐvñÿwñÿÐwñÿ xñÿHxñÿxñÿ¨xñÿàxñÿyñÿ8yñÿxyñÿÀyñÿ;
+- (NSNumber *)storage_$_cancelButtonConfiguration;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *cornerRadius;

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @protocol PKSelectionRenderingDelegate
-- (struct CGAffineTransform);
-- (NSArray *),&,N,V_userSegmentationConfiguration;
-- (struct CGColor *)artTraining: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *selectionHullQueue;

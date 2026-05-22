@@ -5,6 +5,5 @@
 //
 
 @protocol CKMacToolbarViewDelegate
-- (_Bool)SizeWidthConstraint;
 @end
 

@@ -16,15 +16,14 @@
     MISSING_TYPE *recipientScrollViewRemovedFromWindowHandler;
 }
 
-- (void);
-- (double);
 - (id);
 - (void);
-- (void)!(Gù±ÄÐ1¢!0@ù
-× ;
-- (id)liftedDisplacement;
-- (void)Ç;
-- (void)¯do;
+- (void);
+- (id)iewControllerRestoration;
+- (void)sition:completed:] /* Error: Ran out of types for this method. */;
+- (double)>c¼Ç^;
+- (void)ýÙ8Ól;
+- (void)ÿÞ×èq;
 
 // Remaining properties
 @property(nonatomic) double alpha;

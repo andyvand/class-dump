@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     UIGestureRecognizer *_gestureRecognizer;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (struct CGPoint);

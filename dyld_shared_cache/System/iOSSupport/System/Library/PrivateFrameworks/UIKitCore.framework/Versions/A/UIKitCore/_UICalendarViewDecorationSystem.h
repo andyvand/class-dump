@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id)sV0: /* Error: Ran out of types for this method. */;
-- (void)etrieveLocalFileTransfer:(id)arg1 attachmentIndex:path:requestURLString:ownerID:signature:decryptionKey:requestedSize:fileSize:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)Length;
+- (void);
+- (id);
+- (void)0^;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *decorationViewFeed; // @synthesize decorationViewFeed=_decorationViewFeed;

@@ -17,7 +17,7 @@
     VFXNode *_legacyDrivingNode;
 }
 
-+ (_Bool)¼)`ÿ××L5*ÿ;
++ (_Bool)8@"MTLTileRenderPipelineDescriptor"16Q24^@32^@40;
 - (void);
 - (unsigned long long);
 - (id);
@@ -29,9 +29,9 @@
 - (id);
 - (void);
 - (id);
+- (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long)dicesChannels;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak VFXNode *drivingNode;

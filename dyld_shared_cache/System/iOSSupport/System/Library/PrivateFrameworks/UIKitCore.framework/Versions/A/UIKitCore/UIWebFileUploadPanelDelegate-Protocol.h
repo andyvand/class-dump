@@ -7,6 +7,6 @@
 @protocol UIWebFileUploadPanelDelegate
 
 @optional
-- (void)NG_MISSING__;
+- (void);
 @end
 

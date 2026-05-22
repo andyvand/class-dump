@@ -13,12 +13,12 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (void);
+- (long long);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (long long);
 - (void);
 
 // Remaining properties

@@ -9,18 +9,18 @@
 }
 
 + (id);
-+ (id)N;
-+ (id);
-+ (id);
-+ (id)l;
-+ (id)_;
 + (id);
 + (id);
 + (id);
-+ (id)e;
-+ (id)rdID.recordName];
-+ (id)g %@;
-+ (id)ng coalesced mention notification for %@, expecting %@;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 
 @end

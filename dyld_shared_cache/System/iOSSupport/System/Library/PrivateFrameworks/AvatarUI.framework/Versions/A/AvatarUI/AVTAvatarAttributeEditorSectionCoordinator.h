@@ -21,10 +21,10 @@
 - (void);
 - (void);
 - (void);
-- (void)B;
 - (id);
-- (id)"NSString"8@"NSMutableArray"16^B24;
-- (id)L;
+- (id);
+- (void);
+- (id);
 - (void);
 
 // Remaining properties

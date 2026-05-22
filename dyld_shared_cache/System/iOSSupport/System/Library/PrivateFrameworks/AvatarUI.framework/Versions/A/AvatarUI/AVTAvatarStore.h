@@ -18,7 +18,7 @@
 
 + (unsigned long long);
 + (id);
-+ (unsigned long long);
++ (unsigned long long);
 - (void);
 - (id);
 - (void);
@@ -49,10 +49,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)respotlight.receiver.photos;
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

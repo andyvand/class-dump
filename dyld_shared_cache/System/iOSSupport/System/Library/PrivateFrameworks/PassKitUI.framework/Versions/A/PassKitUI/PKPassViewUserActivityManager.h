@@ -14,7 +14,9 @@
     _Bool _isForegroundActive;
 }
 
-+ (id)\`ÉÇ]Ó;
++ (id)Ñø°1â
+0@ù
+× ;
 - (void);
 - (void);
 - (_Bool);
@@ -23,10 +25,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)!©!dCùø°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

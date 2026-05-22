@@ -12,7 +12,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)dWÜÿ¦zâ Ø;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

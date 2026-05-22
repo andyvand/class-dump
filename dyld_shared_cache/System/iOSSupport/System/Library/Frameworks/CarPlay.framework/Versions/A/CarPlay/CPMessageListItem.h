@@ -44,18 +44,18 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

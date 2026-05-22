@@ -17,9 +17,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (CDUnknownBlockType);
-- (void)ImageWithSize:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)extDidSave:] /* Error: Ran out of types for this method. */;
+- (void)Type;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

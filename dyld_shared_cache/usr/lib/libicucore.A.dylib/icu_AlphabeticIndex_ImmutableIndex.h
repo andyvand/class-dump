@@ -4,8 +4,8 @@
 
 class icu::AlphabeticIndex::ImmutableIndex {
 public: // (access info unavailable from symbols alone)
-    getBucket(int) const;
-    getBucketCount() const;
-    getBucketIndex(icu::UnicodeString const&, UErrorCode&) const;
+    auto getBucket(int) const;
+    auto getBucketCount() const;
+    auto getBucketIndex(icu::UnicodeString const&, UErrorCode&) const;
     ~ImmutableIndex();
 };

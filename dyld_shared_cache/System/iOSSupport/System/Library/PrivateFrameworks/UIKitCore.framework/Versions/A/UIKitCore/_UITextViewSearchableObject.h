@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
     UITextView *_textView;
 }
 
-- (void)CommitPatch;
-- (void)covery failed.;
-- (id)sidMetadata failed;
-- (_Bool)irConfigurationCollectionContext is NULL;
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -37,20 +37,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)terExtensionMetadata: /* Error: Ran out of types for this method. */;
-- (id)mpletionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)mand: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)AHalf: /* Error: Ran out of types for this method. */;
-- (void)s:(id)arg1;
-- (void)gisterObject:visibility: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long)nVoiceEditingPrompts;
-- (id)launch assertion due to failed legacyAssertion acquire.;
-- (void)nfiguration;
+- (_Bool);
 - (void);
-- (_Bool)iþ;
+- (void);
+- (void);
+- (void);
+- (long long)0@ù
+× ;
+- (void)Section:(id)arg1 layoutAxis:(id)arg2;
+- (id)trollerSourceItem_Internal;
+- (id)P;
+- (_Bool);
+- (void)IFlexInteractionCSg;
+- (id)i©13Lö;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

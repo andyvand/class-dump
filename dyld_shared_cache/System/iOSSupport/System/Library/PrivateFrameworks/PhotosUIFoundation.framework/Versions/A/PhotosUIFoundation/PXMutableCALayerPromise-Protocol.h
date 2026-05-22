@@ -5,6 +5,7 @@
 //
 
 @protocol PXMutableCALayerPromise
+- (_Bool)ableColumnIdentifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

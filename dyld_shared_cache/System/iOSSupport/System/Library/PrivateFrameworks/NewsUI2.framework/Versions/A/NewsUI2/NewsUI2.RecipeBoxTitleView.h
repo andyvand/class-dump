@@ -13,10 +13,10 @@
     MISSING_TYPE *containerView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

@@ -7,6 +7,7 @@
 @class UIViewController;
 
 @protocol PXFullscreenOverlayController
+- (struct CGSize)isplayLink: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *containerViewController;

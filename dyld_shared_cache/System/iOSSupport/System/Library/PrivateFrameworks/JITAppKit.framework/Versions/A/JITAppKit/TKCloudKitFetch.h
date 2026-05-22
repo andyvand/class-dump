@@ -25,19 +25,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (void)URLSession"16@"NSURLSessionTask"24@"NSURLAuthenticationChallenge"32@?<v@?q@"NSURLCredential">40;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool active; // @synthesize active=_active;

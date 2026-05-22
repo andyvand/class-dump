@@ -19,11 +19,11 @@
 - (id);
 - (double);
 - (struct _NSRange);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -38,14 +38,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (struct CGRect);
-- (void)rgia-Bold;
+- (id);
+- (void);
+- (void)ïÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) SXTextTangierDocumentRoot *documentRoot; // @synthesize documentRoot=_documentRoot;

@@ -17,10 +17,10 @@
     MISSING_TYPE *rightMarginView;
 }
 
-- (void)_p;
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

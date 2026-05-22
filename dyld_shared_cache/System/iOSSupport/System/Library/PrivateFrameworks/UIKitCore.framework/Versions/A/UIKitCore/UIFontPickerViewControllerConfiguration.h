@@ -24,56 +24,55 @@
     NSArray *__clientRecentFonts;
 }
 
-+ (id)t found no account:(id)arg1 %@;
-+ (_Bool)roller: /* Error: Ran out of types for this method. */;
-+ (_Bool)jn;
-- (void)DeviceCharging;
-- (void)B,N,V_pendingOriginatedMessagesTimer;
-- (void)rviceName;
-- (void)yncing;
-- (void)@"NSString",R,C,N,V_toIdentifier;
-- (void)ordWithIDWasDeletedBlock:(id)arg1;
-- (void);
-- (void)T;
++ (id);
++ (_Bool)ap for %@ of row at index path %@;
++ (_Bool)entRectContextCE¾7SgIeggr_Sg;
 - (void);
 - (void);
 - (void);
-- (unsigned int)ame:%@, identifier %@ of type %ld (%@) /* Error: Ran out of types for this method. */;
-- (id)fetching (%ld) records for sync with name:%@, identifier %@ of type %ld (%@) /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)chmentSyncStoppedDueToDeviceConditions;
 - (void);
-- (void)2;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned int);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void)0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)!@ùÑa°1Â0@ù
 × ;
-- (id)!@ù±Ì°1¢!0@ù
-× ;
-- (id)tentViewControllerContainerViewConstraints;
-- (id)licationMenuWithBuilder:(id)arg1 appDidCustomizeMenu: /* Error: Ran out of types for this method. */;
-- (id)eViewCellContentView;
-- (id)³Ô´0µ;
-- (id)uchFactor;
-- (id)ndexPathAfterUpdate is nil. This is bad.;
-- (void)bOc;
-- (id)¬;
-- (id)ár;
+- (id)"_UISheetInteraction"16;
+- (id)rameView: /* Error: Ran out of types for this method. */;
+- (_Bool)olsPanelRequested;
+- (void)hButtonIndex:(id)arg1;
+- (void)yout;
+- (id)TraitCollection:,V__lastNotifiedTraitCollection /* Error: Ran out of types for this method. */;
+- (id)¼;
+- (void)tionContext"16;
+- (id);
+- (id);
+- (void)h;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *_allowedLanguages; // @synthesize _allowedLanguages=__allowedLanguages;

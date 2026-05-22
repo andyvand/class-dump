@@ -11,8 +11,8 @@
     MISSING_TYPE *values;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

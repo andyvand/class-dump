@@ -18,10 +18,10 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
 - (CDUnknownBlockType);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *avatarRecordIdentifier; // @synthesize avatarRecordIdentifier=_avatarRecordIdentifier;

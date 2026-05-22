@@ -4,23 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPlaceholder, UITextPosition, UITextRange, UIView;
+@class NSDictionary, UITextPosition, UITextRange, UIView;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
-- (UITextPosition *)ition"16q24;
-- (void)torCGtGSgAF²ùyACúB³GôyACGAWyACîB³GSgAWyACéB³GSgAFt;
-- (NSDictionary *)ySo8NSStringCG;
-- (struct CGRect)errorLabel;
-- (id <UITextInputDelegate>)ðÿððÿìðÿððÿ;
+- (void)1â
+0@ù
+× ;
+- (UITextPosition *);
+- (UITextPosition *)`S;
+- (UITextPosition *)l¹;
+- (id <UITextInputDelegate>)0óùG2ìùytðùGGðùyôùyAI·øùúùGSgGG ìùGêîùGAAyAAy¦øùyADyAAybëùyAiNGATGANGGATGAVGGAOG_AAyAAyxùùyACyAAyAAyiöùõùySiSgGGA8_yìõùSgGG_A11_SgtGGAVG.íùG(ùùAAyAXyADyADyA11_A7_GAOGGAVGtGGAVG;
+- (id <UITextInputTokenizer>)ADyA2WGØúGGtGG*×úA2_tG;
+- (void)y[÷úïúG;
+- (struct CGRect)AEyðûëûy]ûSgGG¬ûG6¤ûGSg_­ûtGGGAByAQGGAByANGGSg;
+- (void)P;
+- (UITextRange *);
+- (UITextRange *);
+- (UITextPosition *)on data;
+- (void)kðÿ°û<eýÿí¯û¨eýÿ;
+- (void);
 
 @optional
-- (void)FContentItem",W,N,V_item;
-- (_Bool)à²ÿÿÆnÿÿRqÿÿ\íþÿ;
-- (UITextPlaceholder *)G;
-- (_Bool)GA14_GA14_GGG_Qo_GGÿüG)GADtGGG;
+- (UIView *)ÌÐÿÿ;
+- (struct CGRect)@`@R¸ëQÈ?ëQ¸ë?;
 - (void);
-- (UITextRange *);
+- (_Bool)ý;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
@@ -50,5 +59,9 @@
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @end
 

@@ -18,8 +18,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)allaxAssetsManager.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSObject> animationOptions; // @synthesize animationOptions=_animationOptions;

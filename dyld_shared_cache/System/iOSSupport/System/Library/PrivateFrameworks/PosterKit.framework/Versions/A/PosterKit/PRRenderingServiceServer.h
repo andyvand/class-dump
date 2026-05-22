@@ -27,11 +27,6 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -41,8 +36,13 @@
 - (void);
 - (void);
 - (void);
-- (void)ntifier:(id)arg1 includeHeaderElements:includesComplications:layerSet:isUnlocked:renderingContent:renderingMode:previewContent: /* Error: Ran out of types for this method. */;
-- (void)because parent scene is nil;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

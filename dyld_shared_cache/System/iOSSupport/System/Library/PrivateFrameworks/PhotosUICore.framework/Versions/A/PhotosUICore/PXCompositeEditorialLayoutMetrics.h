@@ -20,10 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)ª7;
-- (struct UIEdgeInsets);
+- (id)ronment>"24@0:(struct _NSZone *)arg1 8@"PXActionPerformer"16;
+- (void)\ÕCÿÿÿÿÿ;
+- (struct UIEdgeInsets)H(6;
+- (void)°öÒÿÐOKè>6;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCompositeEditorialLayoutSpec *editorialLayoutSpec; // @synthesize editorialLayoutSpec=_editorialLayoutSpec;

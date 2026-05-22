@@ -40,23 +40,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (void)Home_Description;
 - (_Bool);
-- (id);
+- (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *accessories; // @synthesize accessories=_accessories;

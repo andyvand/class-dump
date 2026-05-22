@@ -54,22 +54,22 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
-- (void);
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id)áu!èFùz°1b0@ù
+- (id)QGÐ1â
+0@ù
 × ;
-- (id)
-× ;
-- (void)ÔÔÌÖðÖØPÙÜÚ;
-- (id)6øÿûÿ;
 - (_Bool);
-- (_Bool)ôì3;
-- (id)Oèý8;
+- (void)nSharing;
+- (id)onfirmDeleteOfMemory;
+- (id)ier;
+- (void)`¯;
+- (void)Ô4 ÿ;
+- (void)È;
+- (id)òÎ6;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXGAXResponder> axNextResponder; // @synthesize axNextResponder=_axNextResponder;

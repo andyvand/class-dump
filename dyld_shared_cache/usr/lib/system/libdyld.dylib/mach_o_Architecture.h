@@ -7,8 +7,9 @@ public: // (access info unavailable from symbols alone)
     Architecture(fat_arch const*);
     Architecture(fat_arch_64 const*);
     Architecture(mach_header const*);
-    byName(std::__1::basic_string_view<char, std::__1::char_traits<char>>);
-    name() const;
-    operator==(mach_o::Architecture const&) const;
-    usesx86_64Instructions() const;
+    auto byName(std::__1::basic_string_view<char, std::__1::char_traits<char>>);
+    auto name() const;
+    auto operator==(mach_o::Architecture const&) const;
+    auto usesArm64AuthPointers() const;
+    auto usesx86_64Instructions() const;
 };

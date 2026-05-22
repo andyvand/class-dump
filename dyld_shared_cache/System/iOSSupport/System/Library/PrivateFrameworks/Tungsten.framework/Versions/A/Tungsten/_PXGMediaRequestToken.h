@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;

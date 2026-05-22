@@ -5,6 +5,5 @@
 //
 
 @protocol _TtP5UIKit28UIReducedLaunchSceneDelegate_
-- (void)al;
 @end
 

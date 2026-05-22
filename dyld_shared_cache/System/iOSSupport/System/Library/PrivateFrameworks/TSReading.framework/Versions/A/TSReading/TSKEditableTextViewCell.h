@@ -15,9 +15,20 @@
     id <UITextViewDelegate> mSavedDelegate;
 }
 
-- (void)#;
 - (void);
-- (void)R";
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,18 +36,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id)<;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void)tureKind;
-- (void)ì.;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

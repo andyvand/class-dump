@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ble %{public}@; moving database %{public}@ -> %{public}@;
+- (void);
 
 @end
 

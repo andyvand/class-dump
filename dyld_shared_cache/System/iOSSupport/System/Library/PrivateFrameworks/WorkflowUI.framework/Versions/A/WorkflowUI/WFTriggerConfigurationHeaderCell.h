@@ -20,11 +20,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void)C10WorkflowUI25WFCollectionConfiguration;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFTrigger *trigger; // @synthesize trigger=_trigger;

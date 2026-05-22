@@ -17,7 +17,7 @@
     MISSING_TYPE *task;
 }
 
-- (_Bool);
+- (_Bool)ager",N,R;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isCancelled;

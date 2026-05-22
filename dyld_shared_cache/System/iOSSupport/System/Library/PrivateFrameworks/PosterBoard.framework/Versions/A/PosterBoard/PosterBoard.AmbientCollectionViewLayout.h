@@ -16,15 +16,17 @@
 }
 
 - (struct CGPoint);
-- (_Bool);
+- (id);
+- (id);
 - (struct CGSize);
-- (id);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id)ss:(id)arg1 UISceneClass];
-- (id)tOSActivity;
+- (void)A¿!Ø@ùQ	1â
+0@ù
+× ;
+- (id)ityExtension;
+- (id)Â;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize collectionViewContentSize;

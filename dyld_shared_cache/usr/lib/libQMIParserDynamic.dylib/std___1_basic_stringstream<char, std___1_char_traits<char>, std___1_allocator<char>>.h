@@ -4,6 +4,6 @@
 
 class std::__1::basic_stringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    basic_stringstream[abi:ne200100]();
+    auto basic_stringstream[abi:nqe210106]();
     ~basic_stringstream();
 };

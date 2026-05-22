@@ -17,12 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)error: /* Error: Ran out of types for this method. */;
+- (void)tAccessibilityActivateParagraphInTextViewRangeBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,6 +15,7 @@
     MISSING_TYPE *blueprintProvider;
     MISSING_TYPE *channelDataFactory;
     MISSING_TYPE *scienceDataFactory;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *newsActivityManager;
     MISSING_TYPE *contentAvailabilityValidator;
     MISSING_TYPE *feedDismissingManager;

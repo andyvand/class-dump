@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol _UICollectionTableIndexOverlayHost
-- (void)R;
-- (void)n.framework/Versions/A/CoreFoundation;
-- (NSArray *)6B24@28@36;
 @end
 

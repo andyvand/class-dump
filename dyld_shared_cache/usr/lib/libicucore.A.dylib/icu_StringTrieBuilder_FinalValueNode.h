@@ -4,6 +4,6 @@
 
 class icu::StringTrieBuilder::FinalValueNode {
 public: // (access info unavailable from symbols alone)
-    operator==(icu::StringTrieBuilder::Node const&) const;
-    write(icu::StringTrieBuilder&);
+    auto operator==(icu::StringTrieBuilder::Node const&) const;
+    auto write(icu::StringTrieBuilder&);
 };

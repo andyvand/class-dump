@@ -28,33 +28,32 @@ __attribute__((visibility("hidden")))
     UIKBKeyViewAnimator *_keyViewAnimator;
 }
 
-- (void)heduleBackfillSyncWithDelegate:(id)arg1;
-- (id)pletion: /* Error: Ran out of types for this method. */;
-- (double):messageGUID:limit: /* Error: Ran out of types for this method. */;
-- (void)tAddressedHandle:(id)arg1 lastAddressedSIMID:handleInfo: /* Error: Ran out of types for this method. */;
-- (void)_scheduledMessageRecordZoneID;
-- (void)ties;
-- (void)erValueForPhoneNumber:(CDUnknownBlockType)arg1 simID: /* Error: Ran out of types for this method. */;
-- (void)ineComponent;
+- (void);
+- (id);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (_Bool);
 - (void);
 - (void);
-- (double)};
+- (double);
 - (void);
-- (void)etrieve any notices;
-- (_Bool)for this version, don't do it anymore;
-- (void)rote sync date success to CloudKit %@ error %@;
-- (void)5;
 - (void);
-- (void)ð1¢!0@ù
-× ;
+- (_Bool);
 - (void);
-- (void)× ;
-- (id)read state restoration file. Probably the device is locked.;
-- (id)t;
-- (void)sentModal;
-- (CDUnknownBlockType)}§_;
+- (void);
+- (void);
+- (void)ponderTarget;
+- (id);
+- (CDUnknownBlockType)s¬;
+- (void)f;
+- (void)(Á]þ;
+- (void)þwh;
+- (id)Òqþ)îÚ9k;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

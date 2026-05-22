@@ -5,6 +5,5 @@
 //
 
 @protocol _UITextFieldCanvasContext
-- (double);
 @end
 

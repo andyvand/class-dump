@@ -15,11 +15,11 @@
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (_Bool)ed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *children; // @synthesize children=_children;

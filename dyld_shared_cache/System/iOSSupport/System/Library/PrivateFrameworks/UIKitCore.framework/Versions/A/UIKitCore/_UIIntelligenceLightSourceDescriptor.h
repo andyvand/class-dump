@@ -16,19 +16,19 @@
 + (id);
 + (id);
 + (id);
-+ (id)h %@);
-+ (id)nsfer/data (assetPath %@ auxAssetPath %@);
-+ (id)g it up.;
++ (id);
++ (id);
++ (id);
 + (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)k;
-- (void);
-- (id)$=À>h?	$@HB,J;
-- (id)ceAPIVersion;
+- (_Bool)tionContextClass;
+- (id)bleTypeSelect;
+- (id)LO¸RüR SDSa`bÔceèdfhgLih¸kiìmxn|o;
+- (id)ey;
+- (void)set;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

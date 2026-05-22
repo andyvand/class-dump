@@ -15,9 +15,9 @@
 - (id);
 - (void);
 - (id);
-- (void)$;
-- (void)X;
 - (id);
+- (void);
+- (void)6;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;

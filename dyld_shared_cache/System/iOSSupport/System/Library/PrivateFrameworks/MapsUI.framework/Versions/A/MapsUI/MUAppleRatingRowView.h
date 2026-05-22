@@ -34,8 +34,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)è	;
+- (void)ncy;
+- (id)våÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isInlineMode; // @synthesize isInlineMode=_isInlineMode;

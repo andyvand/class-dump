@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)ion is an audio message. path:%@ /* Error: Ran out of types for this method. */;
-- (long long)batch %@ with %lld messages, (batch %lld/%lld) removing tracker;
-- (double)ted;
+- (void);
+- (long long);
+- (double);
 - (double);
 - (struct CGSize);
 - (long long);
-- (long long)UISearchController;
-- (void)work/TextInput;
+- (void);
+- (long long)80k;
 
 // Remaining properties
 @property(readonly, nonatomic) long long shadowType; // @synthesize shadowType=_shadowType;

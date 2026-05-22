@@ -11,10 +11,11 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned long long);
-+ (struct __WBSFieldLabelPatternMatcherArray *);
 + (id);
-+ (struct __WBSFieldLabelPatternMatcherArray *);
++ (unsigned long long);
++ (const struct DFAData *);
++ (id);
++ (array_41b751f0);
 
 @end
 

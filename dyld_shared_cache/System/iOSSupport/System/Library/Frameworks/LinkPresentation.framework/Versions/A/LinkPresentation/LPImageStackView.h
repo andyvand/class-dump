@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_imageViews;
 }
 
-+ (void)á	°!DAù¶ð1¢!0@ù
-× ;
-- (void)8l>	L;
++ (void)k;
+- (void);
 - (id);
 - (struct CGSize);
-- (void);
 - (struct CGSize);
-- (id)¤;
+- (id);
+- (void)q°1Â0@ù
+× ;
 
 @end
 

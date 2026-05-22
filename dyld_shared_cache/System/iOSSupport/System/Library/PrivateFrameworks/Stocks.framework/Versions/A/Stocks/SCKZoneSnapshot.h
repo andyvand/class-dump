@@ -13,18 +13,18 @@
 }
 
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id)il on frame %@ vs %@ with tolerance %g;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allRecords;

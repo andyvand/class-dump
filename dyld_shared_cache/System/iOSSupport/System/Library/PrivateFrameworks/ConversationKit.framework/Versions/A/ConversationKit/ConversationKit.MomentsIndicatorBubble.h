@@ -15,11 +15,11 @@
     MISSING_TYPE *timer;
 }
 
+- (id)XÁ;
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (void)§ÐSg;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

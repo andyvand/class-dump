@@ -11,16 +11,16 @@
     NSCache *_resourceCache;
 }
 
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (Class);
 - (void);
-- (id);
-- (id);
 - (void);
-- (id)ô;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

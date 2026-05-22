@@ -13,11 +13,11 @@
     MISSING_TYPE *didProcessInitialOffer;
 }
 
+- (id);
+- (void);
 - (void);
 - (void);
 - (long long);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) long long eligibility;

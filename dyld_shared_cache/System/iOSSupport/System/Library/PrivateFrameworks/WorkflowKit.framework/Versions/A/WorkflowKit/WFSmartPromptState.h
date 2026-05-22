@@ -20,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)draft ${DraftsUUID} (Parameter Summary);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -32,15 +32,15 @@
 - (id);
 - (id);
 - (id);
+- (id)X÷|;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
 - (_Bool);
-- (id);
+- (void)ceClass;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionUUID; // @synthesize actionUUID=_actionUUID;

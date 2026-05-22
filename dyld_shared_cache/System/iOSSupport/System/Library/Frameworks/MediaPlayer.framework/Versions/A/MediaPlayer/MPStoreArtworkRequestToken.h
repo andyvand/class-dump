@@ -19,27 +19,27 @@
 
 + (id);
 + (id);
-+ (_Bool)ngEnabledForCurrentAccessory:] failed to set enabled=%{BOOL}u [currentAccessory=nil] /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
-- (id);
-- (void)!;
+- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (long long)Time: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)KEY;
 - (void);
 
 // Remaining properties

@@ -14,8 +14,8 @@
 - (CDStruct_bb38be21);
 - (CDStruct_f7388bc9);
 - (id);
-- (CDStruct_cac3ced6);
 - (id);
+- (CDStruct_cac3ced6)H¥;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_f7388bc9 normalizedKenBurnsEffectParameters; // @synthesize normalizedKenBurnsEffectParameters=_normalizedKenBurnsEffectParameters;

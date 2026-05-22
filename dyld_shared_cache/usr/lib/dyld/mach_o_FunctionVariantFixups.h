@@ -5,5 +5,5 @@
 class mach_o::FunctionVariantFixups {
 public: // (access info unavailable from symbols alone)
     FunctionVariantFixups(std::__1::span<unsigned char const, 18446744073709551615ul>);
-    forEachFixup(void (mach_o::FunctionVariantFixups::InternalFixup) block_pointer) const;
+    auto forEachFixup(void (mach_o::FunctionVariantFixups::InternalFixup) block_pointer) const;
 };

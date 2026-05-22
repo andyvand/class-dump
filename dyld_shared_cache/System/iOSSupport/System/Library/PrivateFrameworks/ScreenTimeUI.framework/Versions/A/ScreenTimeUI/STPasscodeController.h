@@ -30,8 +30,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property _Bool dismissAnimated; // @synthesize dismissAnimated=_dismissAnimated;

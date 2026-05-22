@@ -4,5 +4,9 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100](char const*);
+    auto __throw_length_error[abi:nqe210106](char const*);
+    std::__1::__allocation_result<std::__1::allocator_traits<std::__1::allocator<qmi::MutableMessageBase::TlvWrapperBase*>>::pointer> __allocate_at_least[abi:nqe210106]<std::__1::allocator<qmi::MutableMessageBase::TlvWrapperBase*>>(std::__1::allocator<qmi::MutableMessageBase::TlvWrapperBase*>&, unsigned long);
+    std::__1::basic_ostream<char, std::__1::char_traits<char>>& __put_character_sequence[abi:nqe210106]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long);
+    std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>> __pad_and_output[abi:nqe210106]<char, std::__1::char_traits<char>>(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>, char const*, char const*, char const*, std::__1::ios_base&, char);
+    std::__1::shared_ptr<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>> allocate_shared[abi:nqe210106]<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>, std::__1::allocator<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>>, unsigned char const*, unsigned char const*, 0>(std::__1::allocator<std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>> const&, unsigned char const*&&, unsigned char const*&&);
 };

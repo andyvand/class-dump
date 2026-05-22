@@ -17,13 +17,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (struct CGSize);
 - (void);
 - (void);
 - (_Bool);
-- (struct CGSize);
-- (void);
-- (id);
-- (void)õÿ;
+- (void)1â
+0@ù
+× ;
+- (void)dleIdentifier:%{public}@ ingest error:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *associatedPosterIdentifier; // @synthesize associatedPosterIdentifier=_associatedPosterIdentifier;

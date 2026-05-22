@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

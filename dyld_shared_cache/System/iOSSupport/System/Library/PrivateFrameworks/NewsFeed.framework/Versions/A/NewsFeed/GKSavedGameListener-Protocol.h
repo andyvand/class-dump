@@ -5,8 +5,5 @@
 //
 
 @protocol GKSavedGameListener
-
-@optional
-- (void)(;;
 @end
 

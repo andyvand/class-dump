@@ -30,10 +30,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (long long);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <NSCollectionLayoutEnvironment> collectionLayoutEnvironment; // @synthesize collectionLayoutEnvironment=_collectionLayoutEnvironment;

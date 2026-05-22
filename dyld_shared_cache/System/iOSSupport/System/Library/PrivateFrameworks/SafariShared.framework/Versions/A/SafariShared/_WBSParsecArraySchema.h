@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)dinjeno Kraljevstvo;
 
 // Remaining properties
 @property(retain, nonatomic) WBSParsecSchema *elementSchema; // @synthesize elementSchema=_elementSchema;

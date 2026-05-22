@@ -27,17 +27,17 @@ __attribute__((visibility("hidden")))
     AVCaptureStillImageOutput *_stillImageOutput;
 }
 
-- (void)eGlyphTextAttachmentWithSurroundingAttributes:(id)arg1;
-- (void)KeyPath:(id)arg1 cacheName: /* Error: Ran out of types for this method. */;
-- (void)textContainerOrigin;
-- (void)orageOffset:(id)arg1 skipStaleExpressions: /* Error: Ran out of types for this method. */;
-- (void)atabaseScope;
-- (id)ditSinceFixupAfterEditing;
-- (id)tionAccountInSource;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)omatic:]_block_invoke /* Error: Ran out of types for this method. */;
-- (id)or presentLockedNotesSwitchMigrationPromptIfSupportedForAccount:window:completionHandler:] /* Error: Ran out of types for this method. */;
-- (id)troller is different from the textView's zoomController;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -53,20 +53,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void),ÐD°8Xà¬"$p$Ì%;
-- (id)ôº;
-- (void);
 - (void);
-- (_Bool)nimated:animationDuration:animationCurve:] /* Error: Ran out of types for this method. */;
-- (void)HÌ;
-- (id)ôª;
+- (_Bool);
 - (void);
+- (void);
+- (id);
+- (void)R\G¤\GV±\G;
+- (void)alCoverInsets;
 
 // Remaining properties
 @property(retain, nonatomic) AVCaptureDeviceInput *audioInput; // @synthesize audioInput=_audioInput;

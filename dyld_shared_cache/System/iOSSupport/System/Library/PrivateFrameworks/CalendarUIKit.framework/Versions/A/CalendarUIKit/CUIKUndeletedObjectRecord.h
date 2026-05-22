@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)orSortingIgnoringNonHumans:event:includeOrganizer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) EKObject *undeletedObject; // @synthesize undeletedObject=_undeletedObject;

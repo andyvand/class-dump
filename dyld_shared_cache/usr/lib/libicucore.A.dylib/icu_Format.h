@@ -6,14 +6,14 @@ class icu::Format {
 public: // (access info unavailable from symbols alone)
     Format();
     Format(icu::Format const&);
-    format(icu::Formattable const&, icu::UnicodeString&, UErrorCode&) const;
-    format(icu::Formattable const&, icu::UnicodeString&, icu::FieldPositionIterator*, UErrorCode&) const;
-    getLocale(ULocDataLocaleType, UErrorCode&) const;
-    getLocaleID(ULocDataLocaleType, UErrorCode&) const;
-    operator=(icu::Format const&);
-    operator==(icu::Format const&) const;
-    parseObject(icu::UnicodeString const&, icu::Formattable&, UErrorCode&) const;
-    setLocaleIDs(char const*, char const*);
-    syntaxError(icu::UnicodeString const&, int, UParseError&);
+    auto format(icu::Formattable const&, icu::UnicodeString&, UErrorCode&) const;
+    auto format(icu::Formattable const&, icu::UnicodeString&, icu::FieldPositionIterator*, UErrorCode&) const;
+    auto getLocale(ULocDataLocaleType, UErrorCode&) const;
+    auto getLocaleID(ULocDataLocaleType, UErrorCode&) const;
+    auto operator=(icu::Format const&);
+    auto operator==(icu::Format const&) const;
+    auto parseObject(icu::UnicodeString const&, icu::Formattable&, UErrorCode&) const;
+    auto setLocaleIDs(char const*, char const*);
+    auto syntaxError(icu::UnicodeString const&, int, UParseError&);
     ~Format();
 };

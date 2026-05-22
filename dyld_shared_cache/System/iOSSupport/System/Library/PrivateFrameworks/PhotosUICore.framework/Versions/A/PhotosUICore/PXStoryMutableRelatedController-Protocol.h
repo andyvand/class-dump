@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol PXStoryMutableRelatedController
+- (void)a;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;

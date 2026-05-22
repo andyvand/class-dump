@@ -43,7 +43,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (struct CGSize);
 - (void);
 - (void);
@@ -84,28 +83,31 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (void)equence02;
-- (void){g;
+- (id);
+- (_Bool);
+- (void)!üBùø°1â
+0@ù
+× ;
+- (_Bool)Ò;
 
 // Remaining properties
 @property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;

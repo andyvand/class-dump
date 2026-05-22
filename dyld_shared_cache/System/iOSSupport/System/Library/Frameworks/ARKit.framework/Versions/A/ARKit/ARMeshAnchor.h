@@ -30,12 +30,12 @@
 - (MISSING_TYPE *);
 - (id);
 - (MISSING_TYPE *);
-- (void);
+- (id);
+- (id);
 - (double);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MISSING_TYPE *corner; // @synthesize corner=_corner;

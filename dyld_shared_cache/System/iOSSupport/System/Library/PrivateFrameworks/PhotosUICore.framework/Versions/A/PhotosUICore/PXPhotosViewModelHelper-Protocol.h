@@ -5,7 +5,7 @@
 //
 
 @protocol PXPhotosViewModelHelper
-- (_Bool)q6;
+- (_Bool)photos.CPAnalytics.URLNavigationDidStart;
 
 // Remaining properties
 @property(readonly, nonatomic) long long authenticationType;

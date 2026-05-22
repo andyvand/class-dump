@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)0;
+- (int);
+- (void)8@16@24@32@40@48^@56;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXURLActionFactory> URLActionFactory; // @synthesize URLActionFactory=_URLActionFactory;

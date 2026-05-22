@@ -4,16 +4,16 @@
 
 class mach_o::PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED {
 public: // (access info unavailable from symbols alone)
-    bindBitCount() const;
-    description() const;
-    is64() const;
-    maxRebaseTargetOffset(bool) const;
-    name() const;
-    nextLocation(void const*) const;
-    parseChainEntry(void const*, mach_o::MappedSegment const*, unsigned long long, std::__1::span<unsigned long long const, 18446744073709551615ul>) const;
-    stride() const;
-    supportsBinds() const;
-    unauthRebaseIsVmAddr() const;
-    value() const;
-    writeChainEntry(mach_o::Fixup const&, void const*, unsigned long long, std::__1::span<mach_o::MappedSegment const*, 18446744073709551615ul>) const;
+    auto bindBitCount() const;
+    auto description() const;
+    auto is64() const;
+    auto maxRebaseTargetOffset(bool) const;
+    auto name() const;
+    auto nextLocation(void const*) const;
+    auto parseChainEntry(void const*, mach_o::MappedSegment const*, unsigned long long, std::__1::span<unsigned long long const, 18446744073709551615ul>) const;
+    auto stride() const;
+    auto supportsBinds() const;
+    auto unauthRebaseIsVmAddr() const;
+    auto value() const;
+    auto writeChainEntry(mach_o::Fixup const&, void const*, unsigned long long, std::__1::span<mach_o::MappedSegment const*, 18446744073709551615ul>) const;
 };

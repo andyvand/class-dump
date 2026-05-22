@@ -8,7 +8,6 @@
 @protocol UIAvoidanceClientApplicator, UIAvoidanceClientDelegate;
 
 @protocol UIAvoidanceClient
-- (NSSet *);
 
 // Remaining properties
 @property(retain, nonatomic) id <UIAvoidanceClientApplicator> avoidanceApplicator;

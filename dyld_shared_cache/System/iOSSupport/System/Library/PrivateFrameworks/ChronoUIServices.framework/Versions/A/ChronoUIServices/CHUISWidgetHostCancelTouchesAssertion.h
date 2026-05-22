@@ -15,11 +15,11 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)ublic}@] Widget priority changed to %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assertions; // @synthesize assertions=_assertions;

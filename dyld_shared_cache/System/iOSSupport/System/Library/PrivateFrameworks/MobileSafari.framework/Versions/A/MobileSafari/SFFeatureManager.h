@@ -10,8 +10,8 @@
 }
 
 + (id);
-- (void);
 - (id);
+- (void);
 - (_Bool);
 
 // Remaining properties

@@ -30,22 +30,22 @@
 - (id);
 - (void);
 - (void);
-- (double);
+- (id);
+- (id);
+- (void);
 - (struct CGRect);
+- (void);
+- (struct CGRect);
+- (void);
+- (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (unsigned long long);
 - (struct CGColor *);
-- (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (double);
 - (void);
 - (void);
-- (struct CGRect);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

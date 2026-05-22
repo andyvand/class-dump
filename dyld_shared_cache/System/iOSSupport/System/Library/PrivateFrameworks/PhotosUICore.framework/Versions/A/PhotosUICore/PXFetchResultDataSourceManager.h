@@ -16,10 +16,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)p7;
-- (void)«ÿ£±OÀ
-8;
+- (void)lÓVÿP;
+- (id)hC5;
+- (void)8;
 
 // Remaining properties
 @property(readonly, nonatomic) PXFetchResultDataSource *dataSource; // @dynamic dataSource;

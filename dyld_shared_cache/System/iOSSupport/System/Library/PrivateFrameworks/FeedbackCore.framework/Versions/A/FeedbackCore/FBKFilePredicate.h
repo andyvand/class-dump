@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)upload %s;
 - (void);
 - (_Bool);
 

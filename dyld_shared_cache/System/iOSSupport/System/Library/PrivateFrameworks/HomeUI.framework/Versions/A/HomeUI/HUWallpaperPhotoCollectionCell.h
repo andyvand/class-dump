@@ -34,16 +34,16 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (struct CGSize)ysToFetch: /* Error: Ran out of types for this method. */;
 - (id);
+- (struct CGSize)er: /* Error: Ran out of types for this method. */;
+- (void)ueButtonColor;
+- (void)SharedHomesWarningViewController;
+- (id)r;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;

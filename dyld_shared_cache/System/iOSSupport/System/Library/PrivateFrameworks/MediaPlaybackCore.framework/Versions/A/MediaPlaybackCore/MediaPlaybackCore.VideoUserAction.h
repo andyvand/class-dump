@@ -20,15 +20,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (long long);
 - (id);
 - (long long);
-- (id)nary;
-- (void)AL] - %{public}@:(long long)arg1 Missing response item in media redownload request response;
-- (void)@1ÿÿ;
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *identifier;

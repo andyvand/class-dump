@@ -10,10 +10,10 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (void);
+- (void)wAccessibility;
 
 @end
 

@@ -5,9 +5,5 @@
 //
 
 @protocol _UITraitOverrideDelegate
-- (void)24B32C36;
-
-@optional
-- (void);
 @end
 

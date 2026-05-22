@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (void);
 

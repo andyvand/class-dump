@@ -11,11 +11,11 @@
     CAMediaTimingFunction *_mediaTimingFunction;
 }
 
-- (id)IMi;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

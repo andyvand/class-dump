@@ -70,7 +70,7 @@
 - (void);
 - (struct CGRect);
 - (id);
-- (void)Ë|;
+- (void);
 - (struct CGRect);
 - (id);
 - (id);
@@ -87,16 +87,16 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)Uø;
+- (void);
+- (void);
+- (void);
+- (_Bool)ingToInitialPosition;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;

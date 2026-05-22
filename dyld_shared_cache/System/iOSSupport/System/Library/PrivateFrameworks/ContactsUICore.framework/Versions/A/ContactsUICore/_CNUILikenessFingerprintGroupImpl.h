@@ -17,12 +17,12 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)ByString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSArray *badges; // @synthesize badges=_badges;

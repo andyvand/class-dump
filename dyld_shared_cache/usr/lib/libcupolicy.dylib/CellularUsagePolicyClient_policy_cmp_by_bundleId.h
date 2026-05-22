@@ -4,5 +4,5 @@
 
 class CellularUsagePolicyClient::policy_cmp_by_bundleId {
 public: // (access info unavailable from symbols alone)
-    operator()(xpc::dict const&, xpc::dict const&) const;
+    auto operator()(xpc::dict const&, xpc::dict const&) const;
 };

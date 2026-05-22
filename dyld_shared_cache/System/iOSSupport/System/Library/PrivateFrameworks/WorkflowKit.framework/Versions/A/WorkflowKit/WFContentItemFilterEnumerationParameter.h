@@ -14,7 +14,7 @@
 - (void);
 - (Class);
 - (id);
-- (void);
+- (void)become transparent and lighter colors remain opaque. If the mask is sized differently than the source image, the mask is resized to match the dimensions of the source image.;
 
 // Remaining properties
 @property(retain, nonatomic) Class contentItemClass; // @synthesize contentItemClass=_contentItemClass;

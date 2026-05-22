@@ -24,14 +24,14 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
 - (id);
-- (unsigned long long)@;
-- (unsigned long long);
-- (void);
-- (unsigned long long)A;
-- (void)&;
-- (void);
-- (unsigned long long);
+- (void)"<SXComponentLayout>",R,N,V_componentLayout;
 
 // Remaining properties
 @property(nonatomic) unsigned long long action; // @synthesize action=_action;

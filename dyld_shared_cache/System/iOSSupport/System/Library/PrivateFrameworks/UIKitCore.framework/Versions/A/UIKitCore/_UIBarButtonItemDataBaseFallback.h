@@ -11,14 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)mat:%@ (expecting at least 5 elements) /* Error: Ran out of types for this method. */;
++ (id)XðÿÅâÔÀÙh;
+- (struct UIOffset);
 - (id);
 - (id);
+- (struct UIOffset);
 - (id);
-- (struct UIOffset)tPageIndicatorImage;
-- (struct UIOffset)ttributeNameShouldSkipCandidateSelectionForVariants;
-- (id)c;
-- (id)4²ëþ;
+- (id)
+× ;
+- (id)1gð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,7 +5,5 @@
 //
 
 @protocol UIKBKeyViewContentView
-- (void);
-- (void)estination has wrong type;
 @end
 

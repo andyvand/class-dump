@@ -26,31 +26,31 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _finally;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (struct CGRect)orChatWithGUID:serviceName:completionHandler: /* Error: Ran out of types for this method. */;
-- (long long)CompletionBlock: /* Error: Ran out of types for this method. */;
-- (void)0l;
+- (struct CGRect);
+- (long long);
+- (void);
 - (_Bool);
-- (void)ind match] dsid=%{public}@ considerations=%{public}@;
-- (struct CGPoint)rtyAlbumArtist;
 - (void);
-- (void);
-- (id)¼¬ô$x ¼;
-- (struct CGPoint)or inside a UICollectionViewDiffableDataSource supplementary view provider. Creating a new registration each time a supplementary view is requested will prevent reuse and cause created supplementary views to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:%@ /* Error: Ran out of types for this method. */;
-- (void)cation method %s is deprecated and no longer supported. Please use PushKit for VoIP applications instead of calling this method;
+- (struct CGPoint);
+- (struct CGPoint);
+- (id);
+- (void)àÄ7;
+- (void)K;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *backPageView;

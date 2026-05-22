@@ -31,11 +31,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)oV;
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);

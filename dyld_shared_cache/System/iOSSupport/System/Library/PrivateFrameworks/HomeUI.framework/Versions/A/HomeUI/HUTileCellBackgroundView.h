@@ -22,12 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id)¡&!Bù0°1b0@ù
-× ;
+- (id);
+- (void)ler;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUBackgroundEffectViewGrouping> effectGrouper; // @synthesize effectGrouper;

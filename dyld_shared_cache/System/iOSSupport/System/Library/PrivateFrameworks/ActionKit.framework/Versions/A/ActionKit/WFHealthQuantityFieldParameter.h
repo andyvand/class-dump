@@ -24,10 +24,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (_Bool);
-- (void);
 - (id);
+- (void);
+- (void)pplication/x-webarchive;
 
 // Remaining properties
 @property(nonatomic) __weak WFAction *action; // @synthesize action=_action;

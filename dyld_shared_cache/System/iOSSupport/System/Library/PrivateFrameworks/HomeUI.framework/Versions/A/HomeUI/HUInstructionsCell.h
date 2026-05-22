@@ -22,20 +22,20 @@
 - (void);
 - (void);
 - (double);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)ÿ;
-- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)initWithDelegate:sourceItem:] /* Error: Ran out of types for this method. */;
+- (id)cription;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;

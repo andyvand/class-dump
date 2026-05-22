@@ -27,16 +27,16 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)q;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)@ initWithPathControllerPayload:(id)arg1 initWithName failed for '%@';
-- (id);
-- (_Bool)high accuracy location request;
+- (id)ü;
+- (void)nForPausing;
+- (void)nnot compute settled time.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

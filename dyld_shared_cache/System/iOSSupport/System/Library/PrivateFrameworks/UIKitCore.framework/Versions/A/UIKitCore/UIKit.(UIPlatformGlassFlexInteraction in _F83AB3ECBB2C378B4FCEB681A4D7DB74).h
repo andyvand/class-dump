@@ -10,15 +10,13 @@
 
 @interface UIKit.(UIPlatformGlassFlexInteraction in _F83AB3ECBB2C378B4FCEB681A4D7DB74) : _UIFlexInteraction
 {
-    MISSING_TYPE *cornerRadii;
     MISSING_TYPE *proxy;
 }
 
-- (_Bool)This was triggered by a regression test.;
+- (_Bool);
 - (void);
-- (void)
-× ;
-- (id),N,V_rootTableViewController;
+- (id);
+- (void)ËFm;
 
 @end
 

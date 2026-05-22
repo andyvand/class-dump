@@ -14,7 +14,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)èd#ÿ;
 
 @end
 

@@ -20,14 +20,14 @@
     unsigned long long _initialFrameIndex;
 }
 
-- (void)chmentsForDeletion:inAttributedString: /* Error: Ran out of types for this method. */;
-- (void)hMinSize:(_Bool)arg1 scale: /* Error: Ran out of types for this method. */;
-- (void)tch_queue>",&,N,V_previewProgressQueue;
-- (void)MClickableTextView",W,N,V_subtitleClickableTextView;
-- (void)e>",W,N,V_collaborationControllerDelegate;
-- (_Bool)i;
-- (void)%;
-- (void)Note;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -37,16 +37,17 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (void)@;
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)nBalloonViewControllerDelegate>",W,N,V_delegate;
+- (id);
+- (id)
+× ;
+- (void)rollerView: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CKAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;

@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)H;
 - (id);
+- (void)reachableResidents_Title;
+- (id)ns.cellInnerMargin;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

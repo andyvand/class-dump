@@ -47,7 +47,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)sonalPINCodeViewController openPINCodeEditor]_block_invoke;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

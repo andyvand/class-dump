@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id)alidCodes;
-- (void)dentifier;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) id attachedObject; // @synthesize attachedObject=_attachedObject;

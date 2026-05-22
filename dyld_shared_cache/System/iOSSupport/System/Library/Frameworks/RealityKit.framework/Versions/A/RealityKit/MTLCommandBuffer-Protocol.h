@@ -8,8 +8,9 @@
 @protocol MTLCommandQueue, MTLDevice, MTLLogContainer;
 
 @protocol MTLCommandBuffer
-- (void)ybox;
-- (void)ithTransaction;
+- (id <MTLLogContainer>)mandQueueWithMaxCommandBufferCount: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ÿêÿÿêÿÿ;
 
 // Remaining properties
 @property(readonly) double GPUEndTime;

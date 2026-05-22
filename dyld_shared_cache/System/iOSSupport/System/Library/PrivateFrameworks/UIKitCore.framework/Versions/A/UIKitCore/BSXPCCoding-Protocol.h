@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 @protocol BSXPCCoding
-- (id):(NSObject<OS_xpc_object> *)arg1 1;
-- (void)*^ º;
 
 @optional
-- (Class)q,V_touchType;
+- (Class)etion_education_ui_enabled;
 @end
 

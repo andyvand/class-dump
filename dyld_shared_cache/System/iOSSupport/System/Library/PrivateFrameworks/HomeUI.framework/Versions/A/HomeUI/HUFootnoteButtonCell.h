@@ -23,11 +23,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (_Bool)mePodSoftwareUpdateRequiredErrorMessage;
-- (void)ÌÿëVøÑ;
+- (void)ateToEnlargeHandleView:(_Bool)arg1;
+- (void)alsDescription;
+- (_Bool)íÿ6¼û Ô;
+- (void)ÿÂñþº;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

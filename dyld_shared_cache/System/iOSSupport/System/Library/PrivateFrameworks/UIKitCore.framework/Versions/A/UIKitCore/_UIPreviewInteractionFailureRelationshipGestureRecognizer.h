@@ -18,10 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)%;
-- (void)P;
-- (void)aceStyle;
-- (void)lue;
+- (id);
+- (void)¡Ð!äAùQc1Â0@ù
+× ;
+- (void)k_invoke_3;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

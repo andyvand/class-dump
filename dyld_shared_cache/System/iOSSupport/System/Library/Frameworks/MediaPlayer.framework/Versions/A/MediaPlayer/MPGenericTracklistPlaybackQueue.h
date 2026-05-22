@@ -17,7 +17,7 @@
     long long _repeatType;
 }
 
-+ (_Bool)-URLSession:dataTask:didReceiveData:creating data task using accumulatedData.length. %p dataTask=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld accumulatedData.length=%lu /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) MPIdentifierSet *collectionIdentifierSet; // @synthesize collectionIdentifierSet=_collectionIdentifierSet;

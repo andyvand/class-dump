@@ -17,27 +17,27 @@
     NSString *_serializedUserInfo;
 }
 
-+ (_Bool)eOriginated;
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id)(;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id)could not get generation identifier for index file with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)¼ÿÿ;
-- (id)°d;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *action; // @synthesize action=_action;

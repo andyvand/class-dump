@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) CHUISWatchComplicationsWidgetSnapshotMetadata *metadata;

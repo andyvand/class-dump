@@ -15,9 +15,9 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)recordingDuration;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *viewState; // @synthesize viewState=_viewState;

@@ -7,15 +7,17 @@
 @class MPCDebugCommand, MPRemoteCommand;
 
 @interface (null) (MPCCustomCommands)
-- (id)f;
-- (id)con:withIndex:completion: /* Error: Ran out of types for this method. */;
-- (id)set to inactive. account = %{public}@;
-- (id)8;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) MPRemoteCommand *clearUpcomingQueue;
 @property(readonly, nonatomic) MPCDebugCommand *debugCommand;
 @property(readonly, nonatomic) MPRemoteCommand *shareQueueCommand;
 @property(readonly, nonatomic) MPRemoteCommand *stageConditionCommand;
+@property(readonly, nonatomic) MPRemoteCommand *videoControlsCommand;
 @end
 

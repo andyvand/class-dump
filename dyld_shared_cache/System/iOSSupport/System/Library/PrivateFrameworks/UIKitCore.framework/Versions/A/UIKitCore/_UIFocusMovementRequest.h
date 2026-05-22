@@ -32,17 +32,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)recordNameToRowIDMap;
-- (void)essage:(_Bool)arg1 %s;
-- (id)prioirity messages %s, and relay to watch;
-- (id)tification change reason is %ld;
-- (id)ExternallyNotification.;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)_};
-- (void);
-- (id)locitySample;
+- (id);
+- (id);
+- (void)VÉÒ4[;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsDeferral;

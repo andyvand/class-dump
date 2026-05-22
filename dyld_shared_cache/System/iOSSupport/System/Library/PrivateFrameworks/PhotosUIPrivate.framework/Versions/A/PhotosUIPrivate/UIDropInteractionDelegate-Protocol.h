@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDropInteraction, UIDropProposal, UITargetedDragPreview;
-@protocol UIDropSession;
+@class UIDropInteraction;
 
 @protocol UIDropInteractionDelegate
 
 @optional
-- (void)¡Tð!(CùW°1b0@ù
-× ;
-- (void)
-× ;
-- (void)eItemFromIndexPath:(UIDropInteraction *)arg1 toIndexPath:(id <UIDropSession>)arg2 dataSource: /* Error: Ran out of types for this method. */;
-- (void)gToTypeIdentifiers:(UIDropInteraction *)arg1;
-- (void)ightStatusLabel;
-- (UITargetedDragPreview *)StatusBorder;
-- (UIDropProposal *)nManager;
-- (_Bool)rver;
-- (void)llax=%@ parallaxVec=(%.2f, %.2f) parallaxAmt=%.2f visiblityAmt=%.2f animate=%@ wantsBottomContentExtension=%@ wantsLegibilityVignette=%@>;
+- (void)Request";
+- (void)ogressSpeed:(UIDropInteraction *)arg1;
+- (void);
 @end
 

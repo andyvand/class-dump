@@ -17,10 +17,10 @@
 - (void);
 - (void);
 - (struct CGRect);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)|!Nÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

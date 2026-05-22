@@ -6,8 +6,8 @@ class icu::FieldPositionIteratorHandler {
 public: // (access info unavailable from symbols alone)
     FieldPositionIteratorHandler(icu::FieldPositionIterator*, UErrorCode&);
     FieldPositionIteratorHandler(icu::UVector32*, UErrorCode&);
-    addAttribute(int, int, int);
-    isRecording() const;
-    shiftLast(int);
+    auto addAttribute(int, int, int);
+    auto isRecording() const;
+    auto shiftLast(int);
     ~FieldPositionIteratorHandler();
 };

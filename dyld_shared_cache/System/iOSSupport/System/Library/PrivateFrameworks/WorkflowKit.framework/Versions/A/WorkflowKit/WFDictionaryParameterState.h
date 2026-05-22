@@ -15,18 +15,18 @@
 
 + (void);
 + (Class);
-- (id);
+- (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)s images, videos, or other files as input to include attachments.;
-- (id);
+- (void)a number between 0 and 1 (for example, pass 0.5 for half volume). (WFVolume);
+- (id)Í;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

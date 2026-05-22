@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLSession, NSURLSessionTask;
-
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)sAtStart;
-- (void)withTeam:(NSURLSession *)arg1 requestPlugIns:(NSURLSessionTask *)arg2 appToken: /* Error: Ran out of types for this method. */;
+- (void)eviceIdentifiers;
+- (void)Core;
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (id)TabCommandHandler;
+- (id);
 - (id);
 - (_Bool);
 

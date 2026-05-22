@@ -28,10 +28,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)vateNotifyStatusEvent;
-- (void);
-- (void);
+- (void)home;
+- (void)reshold > 0;
 
 @end
 

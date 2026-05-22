@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)B;
+- (id)of class CKChatItem;
 
 @end
 

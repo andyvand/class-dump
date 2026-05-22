@@ -5,12 +5,12 @@
 //
 
 @interface (null) (AKExtensions)
-- (id)8;
-- (id)d;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);

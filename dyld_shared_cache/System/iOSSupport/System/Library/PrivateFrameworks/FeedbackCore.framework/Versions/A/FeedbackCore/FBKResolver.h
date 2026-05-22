@@ -16,10 +16,10 @@
 + (id);
 + (id);
 - (long long);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)ÿÿ;
+- (id)eSize: /* Error: Ran out of types for this method. */;
+- (void)mAction;
 
 // Remaining properties
 @property(readonly) NSArray *arguments; // @synthesize arguments=_arguments;

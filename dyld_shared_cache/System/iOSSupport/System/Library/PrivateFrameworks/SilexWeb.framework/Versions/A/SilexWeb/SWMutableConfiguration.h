@@ -30,7 +30,7 @@
 
 - (void);
 - (void);
-- (void)riesFinishedLoadingObserver;
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -39,26 +39,26 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)@"NSDecimalNumber";
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
+- (void);
+- (_Bool);
 - (id);
-- (id)vigates;
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (id);
 - (long long);
-- (void);
-- (id);
 - (id);
-- (id);
-- (_Bool);
 - (void);
-- (id);
-- (void)r"16;
-- (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *activePictureInPictureURL; // @synthesize activePictureInPictureURL;

@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)age",&,N,V_backgroundImage;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMutableArray *archivedAttachments; // @synthesize archivedAttachments=_archivedAttachments;

@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     NSArray *_availableInputModes;
 }
 
-- (void)IfNecessary;
-- (_Bool)vity: /* Error: Ran out of types for this method. */;
-- (void)nary",&,N,V_signaturesToRequestIDs;
-- (void)ontroller",R,&,V_messageFromStorageController;
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)s ;
-- (id);
-- (id);
-- (id)erAgent OOP generation completed with error %@;
-- (id)person centric grouped chats cache;
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ðRtÿ`·Í³g;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *availableInputModes; // @synthesize availableInputModes=_availableInputModes;

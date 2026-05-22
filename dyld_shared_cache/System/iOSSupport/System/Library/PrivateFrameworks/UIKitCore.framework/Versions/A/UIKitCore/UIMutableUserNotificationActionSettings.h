@@ -12,8 +12,8 @@
 {
 }
 
-- (void)letion:(id)arg1;
-- (id);
+- (void);
+- (id)tBarButtonItemProvider;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *category; // @dynamic category;

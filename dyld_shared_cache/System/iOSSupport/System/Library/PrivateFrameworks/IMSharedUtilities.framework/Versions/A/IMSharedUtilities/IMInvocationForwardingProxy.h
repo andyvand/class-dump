@@ -14,12 +14,13 @@
 
 - (id);
 - (CDUnknownBlockType);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id)gMessagesUpdated:(SEL)arg1 );
+- (_Bool)0@ù
+× ;
+- (void)untUniqueID;
+- (id)ngAvoidance;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType forwardingHandler; // @synthesize forwardingHandler=_forwardingHandler;

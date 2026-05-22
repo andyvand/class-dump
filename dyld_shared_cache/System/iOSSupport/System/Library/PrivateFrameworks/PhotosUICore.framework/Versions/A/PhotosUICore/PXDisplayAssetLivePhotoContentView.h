@@ -33,9 +33,9 @@
 - (long long);
 - (void);
 - (double);
-- (void);
-- (id);
-- (void);
+- (void)illsTopSafeArea;
+- (void)h$ÿI¤É@G4ÿ;
+- (id)7;
 
 // Remaining properties
 @property(nonatomic) double playerItemLoadingProgress; // @synthesize playerItemLoadingProgress=_playerItemLoadingProgress;

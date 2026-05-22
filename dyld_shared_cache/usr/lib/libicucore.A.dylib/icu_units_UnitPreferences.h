@@ -5,5 +5,5 @@
 class icu::units::UnitPreferences {
 public: // (access info unavailable from symbols alone)
     UnitPreferences(UErrorCode&);
-    getPreferencesFor(icu::StringPiece, icu::StringPiece, icu::Locale const&, UErrorCode&) const;
+    auto getPreferencesFor(icu::StringPiece, icu::StringPiece, icu::Locale const&, UErrorCode&) const;
 };

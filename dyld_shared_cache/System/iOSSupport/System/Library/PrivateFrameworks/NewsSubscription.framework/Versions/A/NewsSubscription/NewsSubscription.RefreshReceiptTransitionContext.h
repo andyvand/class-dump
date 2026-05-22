@@ -12,8 +12,8 @@
     MISSING_TYPE *purchaseID;
 }
 
-- (void)_;
-- (id);
+- (id);
+- (void);
 
 @end
 

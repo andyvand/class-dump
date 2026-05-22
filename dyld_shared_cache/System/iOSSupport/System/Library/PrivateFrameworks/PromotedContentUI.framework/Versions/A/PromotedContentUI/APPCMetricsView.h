@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APPCPromotedContentInfo, APPrivacyMarker, MISSING_TYPE;
+@class APPCPromotedContentInfo, MISSING_TYPE, _TtC17PromotedContentUI13PrivacyMarker;
 @protocol APPCDiagnosticMetricsHelping, APPCMetricsInteractionPresentationDelegate, APPCMetricsViewReadyDelegate;
 
 @interface APPCMetricsView
@@ -28,6 +28,7 @@
     MISSING_TYPE *currentOrientation;
     MISSING_TYPE *debugOverlay;
     void interactionPresentationDelegate;
+    MISSING_TYPE *modalAdDelegate;
     MISSING_TYPE *visibilityCheckingView;
     MISSING_TYPE *offsetObserver;
     MISSING_TYPE *isCollapsedInternal;
@@ -62,6 +63,10 @@
 - (struct CGRect);
 - (struct UIEdgeInsets);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -70,28 +75,27 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (struct CGRect);
 - (void);
-- (id);
-- (void);
 - (void);
-- (_Bool)inatingDeviceControl: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) id <APPCDiagnosticMetricsHelping> diagnosticMetricHelper;
 @property(nonatomic) struct CGRect frame;
 @property(nonatomic) __weak id <APPCMetricsInteractionPresentationDelegate> interactionPresentationDelegate; // @synthesize interactionPresentationDelegate;
+@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 @property(nonatomic, readonly) struct UIEdgeInsets metricsViewEdgeInsets;
 @property(nonatomic, readonly) struct CGRect privacyMarkerFrame;
-@property(nonatomic, readonly) APPrivacyMarker *privacyMarkerView;
+@property(nonatomic, readonly) _TtC17PromotedContentUI13PrivacyMarker *privacyMarkerView;
 @property(nonatomic, retain) APPCPromotedContentInfo *promotedContentInfo; // @synthesize promotedContentInfo;
 @property(nonatomic) _Bool ready; // @synthesize ready;
 @property(nonatomic) __weak id <APPCMetricsViewReadyDelegate> readyDelegate; // @synthesize readyDelegate;

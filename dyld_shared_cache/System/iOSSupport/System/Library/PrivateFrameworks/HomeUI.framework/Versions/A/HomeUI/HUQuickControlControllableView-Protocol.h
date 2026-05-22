@@ -7,7 +7,8 @@
 @class HUQuickControlViewProfile;
 
 @protocol HUQuickControlControllableView
-- (void)tingViewControllerCoordinator;
+- (void)X	Xà;
+- (id)ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) HUQuickControlViewProfile *profile;

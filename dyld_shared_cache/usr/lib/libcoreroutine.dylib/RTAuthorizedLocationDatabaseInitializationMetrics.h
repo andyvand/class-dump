@@ -20,7 +20,7 @@
 - (int);
 - (int);
 - (int);
-- (id)ettingsNetworkAgent;
+- (id);
 
 // Remaining properties
 @property int eraseInstallInitializationAttemptCount; // @synthesize eraseInstallInitializationAttemptCount=_eraseInstallInitializationAttemptCount;

@@ -4,6 +4,6 @@
 
 class std::__1::vector<float, std::__1::allocator<float>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
-    push_back[abi:ne200100](float const&);
+    auto __throw_length_error[abi:nqe210106]();
+    auto push_back[abi:nqe210106](float const&);
 };

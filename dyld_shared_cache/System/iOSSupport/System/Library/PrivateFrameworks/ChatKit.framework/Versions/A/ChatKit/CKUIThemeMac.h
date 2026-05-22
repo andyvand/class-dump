@@ -12,14 +12,6 @@
 
 - (id);
 - (id);
-- (id)ô;
-- (id)dyStyleFontSizeThreshold;
-- (id)ge=QQ},N,V_ic_range;
-- (id)ID",R,V_columnID;
-- (id);
-- (id);
-- (id);
-- (id)ttonStyleP;
 - (id);
 - (id);
 - (id);
@@ -30,7 +22,6 @@
 - (id);
 - (id);
 - (id);
-- (id)I06LockedA17ViewConfigurationP;
 - (id);
 - (id);
 - (id);
@@ -40,8 +31,17 @@
 - (id);
 - (id);
 - (id);
-- (id)s;
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 
 @end

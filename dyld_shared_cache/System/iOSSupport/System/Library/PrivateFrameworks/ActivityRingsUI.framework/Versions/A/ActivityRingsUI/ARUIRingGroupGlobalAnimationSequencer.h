@@ -13,12 +13,11 @@
     double _lastUpdateTime;
 }
 
-+ (id)1b0@ù
-× ;
++ (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);

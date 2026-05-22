@@ -17,11 +17,11 @@
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (id);
 - (void);
-- (void);
-- (long long)#GySGG;
-- (id)¤nÿ;
-- (_Bool)PDFViewChangedPage;
+- (void)áNÿÿhIþÿdÇýÿ;
+- (long long)ðþÿÿ;
 
 @end
 

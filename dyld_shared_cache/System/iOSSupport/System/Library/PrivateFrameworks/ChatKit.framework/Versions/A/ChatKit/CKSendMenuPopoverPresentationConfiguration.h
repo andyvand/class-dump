@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
     unsigned long long _appCardPresentationStyle;
 }
 
-- (void)asSharedObjectsNotFromDestinationAccountInSource;
-- (void)"NSArray",R,N,V_guiltyObjects;
-- (void)edTextKey;
-- (void)omController;
-- (id);
-- (unsigned long long)password?;
-- (id)password to view this note.;
-- (id)obq9FqSoBPBx7ynGU/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/Views/ICLoadingPieLayer.m;
-- (id)ListCoreDataSourceP;
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (void)¨T;
 
 // Remaining properties
 @property(retain, nonatomic) CKSendMenuPopoverPresentationControllerAnchorItem *anchorItem; // @synthesize anchorItem=_anchorItem;

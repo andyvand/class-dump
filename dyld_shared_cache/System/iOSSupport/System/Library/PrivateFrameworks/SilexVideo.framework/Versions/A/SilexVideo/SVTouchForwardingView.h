@@ -14,8 +14,8 @@
 - (void);
 - (void);
 - (double);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double lastTouchTimestamp; // @synthesize lastTouchTimestamp=_lastTouchTimestamp;

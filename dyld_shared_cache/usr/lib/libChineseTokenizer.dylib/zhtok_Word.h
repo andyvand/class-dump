@@ -4,6 +4,6 @@
 
 class zhtok::Word {
 public: // (access info unavailable from symbols alone)
-    createDescription() const;
-    summary(__CFString const*) const;
+    auto createDescription() const;
+    auto summary(__CFString const*) const;
 };

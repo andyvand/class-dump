@@ -55,17 +55,17 @@
 - (long long);
 - (void);
 - (long long);
-- (id);
-- (id);
 - (void);
-- (void);
-- (struct CGSize);
+- (id);
 - (long long);
 - (id);
-- (id)vð!Bùñzð1b0@ù
+- (id);
+- (struct CGSize);
+- (id)
 × ;
-- (id)eginChanges] and -[PXMapStore endChanges] need to be balanced!;
-- (CDStruct_e83c9415);
+- (id)eralElement;
+- (CDStruct_e83c9415)ibutionTitle_VisionOS;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long lastClipIdentifier;

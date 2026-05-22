@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)0;
++ (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) SKRange *zRotationRange; // @synthesize zRotationRange=_zRotationRange;

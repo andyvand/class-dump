@@ -4,19 +4,19 @@
 
 class objc_visitor::Visitor {
 public: // (access info unavailable from symbols alone)
-    findObjCDataSection(char const*) const::objcDataSegments;
-    findSection(std::__1::span<char const*, 18446744073709551615ul>, char const*) const;
-    forEachCategory(void (objc_visitor::Category const&, bool&) block_pointer);
-    forEachCategory(void (objc_visitor::Category const&, bool&) block_pointer) (.cold.1);
-    forEachClass(bool, objc_visitor::Visitor::Section const&, void (objc_visitor::Class&, bool, bool&) block_pointer);
-    forEachClass(bool, objc_visitor::Visitor::Section const&, void (objc_visitor::Class&, bool, bool&) block_pointer) (.cold.1);
-    forEachClass(bool, void (objc_visitor::Class&, bool, bool&) block_pointer);
-    forEachClassAndMetaClass(void (objc_visitor::Class const&, bool&) block_pointer);
-    forEachProtocol(void (objc_visitor::Protocol const&, bool&) block_pointer);
-    forEachProtocol(void (objc_visitor::Protocol const&, bool&) block_pointer) (.cold.1);
-    forEachProtocolReference(void (metadata_visitor::ResolvedValue&) block_pointer);
-    forEachProtocolReference(void (metadata_visitor::ResolvedValue&) block_pointer) (.cold.1);
-    forEachSelectorReference(void (VMAddress, VMAddress, char const*) block_pointer) const;
-    forEachSelectorReference(void (metadata_visitor::ResolvedValue&) block_pointer) const;
-    forEachSelectorReference(void (metadata_visitor::ResolvedValue&) block_pointer) const (.cold.1);
+    auto findObjCDataSection(char const*) const::objcDataSegments;
+    auto findSection(std::__1::span<char const* const, 18446744073709551615ul>, char const*) const;
+    auto forEachCategory(void (objc_visitor::Category const&, bool&) block_pointer);
+    auto forEachCategory(void (objc_visitor::Category const&, bool&) block_pointer) (.cold.1);
+    auto forEachClass(bool, objc_visitor::Visitor::Section const&, void (objc_visitor::Class&, bool, bool&) block_pointer);
+    auto forEachClass(bool, objc_visitor::Visitor::Section const&, void (objc_visitor::Class&, bool, bool&) block_pointer) (.cold.1);
+    auto forEachClass(bool, void (objc_visitor::Class&, bool, bool&) block_pointer);
+    auto forEachClassAndMetaClass(void (objc_visitor::Class const&, bool&) block_pointer);
+    auto forEachProtocol(void (objc_visitor::Protocol const&, bool&) block_pointer);
+    auto forEachProtocol(void (objc_visitor::Protocol const&, bool&) block_pointer) (.cold.1);
+    auto forEachProtocolReference(void (metadata_visitor::ResolvedValue&) block_pointer);
+    auto forEachProtocolReference(void (metadata_visitor::ResolvedValue&) block_pointer) (.cold.1);
+    auto forEachSelectorReference(void (VMAddress, VMAddress, char const*) block_pointer) const;
+    auto forEachSelectorReference(void (metadata_visitor::ResolvedValue&) block_pointer) const;
+    auto forEachSelectorReference(void (metadata_visitor::ResolvedValue&) block_pointer) const (.cold.1);
 };

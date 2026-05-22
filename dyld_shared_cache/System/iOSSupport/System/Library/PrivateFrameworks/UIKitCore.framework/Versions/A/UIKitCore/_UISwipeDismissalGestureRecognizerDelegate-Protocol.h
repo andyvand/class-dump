@@ -5,9 +5,5 @@
 //
 
 @protocol _UISwipeDismissalGestureRecognizerDelegate
-
-@optional
-- (_Bool);
-- (_Bool)À;
 @end
 

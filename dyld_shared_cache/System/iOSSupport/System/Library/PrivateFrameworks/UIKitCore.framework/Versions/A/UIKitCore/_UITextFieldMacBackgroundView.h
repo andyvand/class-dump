@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)utes;
-- (_Bool)w: /* Error: Ran out of types for this method. */;
-- (void)Qî40*;
+- (void)wContainer;
+- (id)UICollectionViewDiffableDataSource. Collection view:%@ /* Error: Ran out of types for this method. */;
+- (void)|;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool bordered; // @synthesize bordered=_bordered;

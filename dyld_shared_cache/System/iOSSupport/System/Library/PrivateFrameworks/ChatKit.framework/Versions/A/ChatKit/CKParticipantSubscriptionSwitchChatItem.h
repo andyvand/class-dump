@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)x;
 - (id);
-- (id)guration of stickers in keyboard has already been updated to hide:(%@). Ignoring paste configuration update. /* Error: Ran out of types for this method. */;
+- (id);
+- (id)backgroundSolidStroke;
 
 @end
 

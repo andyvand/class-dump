@@ -10,13 +10,13 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (double);
 + (struct CGSize);
++ (double);
++ (id);
++ (id);
 - (id);
-- (struct CGSize);
 - (_Bool);
+- (struct CGSize);
 - (id);
 - (id);
 

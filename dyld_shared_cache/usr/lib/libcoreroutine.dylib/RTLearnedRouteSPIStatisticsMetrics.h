@@ -28,7 +28,7 @@
 - (float);
 - (int);
 - (void);
-- (void)T7;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,7 +46,7 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool)T	@9?;
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -55,9 +55,9 @@
 - (_Bool);
 - (_Bool);
 - (float);
-- (_Bool);
 - (int);
-- (id)equestContexts;
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property _Bool didSPIReturnDestinationVisit; // @synthesize didSPIReturnDestinationVisit=_didSPIReturnDestinationVisit;

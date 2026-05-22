@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void)this attachment will make it read-only on your devices using an older OS version;
-+ (void)ices that need upgrading;
-+ (void)14.5, iPadOS 14.5, and macOS 11.3 and later. Your devices that need upgrading;
-+ (void)tokens:(long long)arg1 %@;
++ (void);
++ (void);
++ (void);
++ (void);
 + (long long);
 
 @end

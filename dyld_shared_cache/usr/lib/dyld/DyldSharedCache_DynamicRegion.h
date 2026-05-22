@@ -4,19 +4,19 @@
 
 class DyldSharedCache::DynamicRegion {
 public: // (access info unavailable from symbols alone)
-    cachePath() const;
-    free();
-    getDyldCacheFileID(FileIdTuple&) const;
-    getProcessorFunctionVariantFlags() const;
-    getSystemWideFunctionVariantFlags() const;
-    make(unsigned long);
-    osCryptexPath() const;
-    setCachePath(char const*);
-    setCachePath(char const*) (.cold.1);
-    setDyldCacheFileID(FileIdTuple);
-    setProcessorFlags(unsigned __int128);
-    setReadOnly();
-    setSystemWideFlags(unsigned __int128);
-    size();
-    version() const;
+    auto cachePath() const;
+    auto free();
+    auto getDyldCacheFileID(FileIdTuple&) const;
+    auto getProcessorFunctionVariantFlags() const;
+    auto getSystemWideFunctionVariantFlags() const;
+    auto make(unsigned long);
+    auto osCryptexPath() const;
+    auto setCachePath(char const*);
+    auto setCachePath(char const*) (.cold.1);
+    auto setDyldCacheFileID(FileIdTuple);
+    auto setProcessorFlags(unsigned __int128);
+    auto setReadOnly();
+    auto setSystemWideFlags(unsigned __int128);
+    auto size();
+    auto version() const;
 };

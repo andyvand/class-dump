@@ -27,7 +27,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)ð;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXFastEnumeration> assetsToMove; // @synthesize assetsToMove=_assetsToMove;

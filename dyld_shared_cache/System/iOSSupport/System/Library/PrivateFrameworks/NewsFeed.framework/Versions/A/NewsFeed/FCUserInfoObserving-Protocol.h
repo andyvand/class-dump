@@ -7,7 +7,6 @@
 @protocol FCUserInfoObserving
 
 @optional
-- (void);
-- (void);
+- (void)L]g);<ÀG;
 @end
 

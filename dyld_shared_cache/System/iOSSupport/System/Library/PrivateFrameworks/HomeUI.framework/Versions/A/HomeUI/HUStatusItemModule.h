@@ -29,9 +29,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)ptedForHomePodWithLicenseAgreementVersion:(id)arg1;
+- (void);
+- (void)%s Finishing with configuration results:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUDashboardContext *context; // @synthesize context=_context;

@@ -34,11 +34,12 @@
 }
 
 - (_Bool);
-- (void);
 - (id);
 - (void);
-- (id)Ä;
-- (struct UIEdgeInsets)`òÿ;
+- (id)0@ù
+× ;
+- (struct UIEdgeInsets)with error:%@ /* Error: Ran out of types for this method. */;
+- (void)NICErrorCode;
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets safeAreaInsets;

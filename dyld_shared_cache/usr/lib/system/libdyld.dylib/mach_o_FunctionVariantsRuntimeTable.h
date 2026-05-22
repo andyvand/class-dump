@@ -4,5 +4,5 @@
 
 class mach_o::FunctionVariantsRuntimeTable {
 public: // (access info unavailable from symbols alone)
-    valid(unsigned long) const;
+    auto valid(unsigned long) const;
 };

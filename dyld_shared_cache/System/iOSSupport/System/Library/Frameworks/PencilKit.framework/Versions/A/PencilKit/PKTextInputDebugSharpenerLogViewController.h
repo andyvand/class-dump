@@ -19,12 +19,12 @@
 + (_Bool);
 - (id);
 - (void);
-- (void)al.dylib;
-- (void)nternal.framework/Versions/A/CollectionsInternal;
-- (id)me;
-- (id)OperationWithRetryAfter:(id)arg1;
-- (id)erations/RCOnce.m;
-- (id)uration/RemoteConfiguration/Operations/RCOnce.m;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -34,15 +34,15 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (void)ckpointing;
 - (void);
-- (long long)H2;
+- (long long);
 - (_Bool);
-- (void)©*M;
+- (void);
+- (void)n",R,N;
 
 // Remaining properties
 @property(retain, nonatomic) PKTextInputDebugLogEntryRerun *_currentEntryRerun; // @synthesize _currentEntryRerun=__currentEntryRerun;

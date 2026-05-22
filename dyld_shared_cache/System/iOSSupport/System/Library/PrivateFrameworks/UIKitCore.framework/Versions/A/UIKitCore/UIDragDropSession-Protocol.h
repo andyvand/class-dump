@@ -7,9 +7,8 @@
 @class NSArray, UIView;
 
 @protocol UIDragDropSession
-- (_Bool);
-- (struct CGPoint):(UIView *)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48f80;
-- (NSArray *)èókþµ;
+- (struct CGPoint)_backgroundConfigurationShadowType:(UIView *)arg1;
+- (NSArray *)rtionalFillDenominator;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsMoveOperation;

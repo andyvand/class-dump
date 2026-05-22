@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Hð;
 
 // Remaining properties
 @property(readonly) id <HMObjectMerge> oldObject; // @synthesize oldObject=_oldObject;

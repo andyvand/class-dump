@@ -15,7 +15,7 @@
 
 + (double);
 + (_Bool);
-+ (_Bool)er: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (double);
 - (id);
 - (_Bool);
@@ -26,16 +26,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

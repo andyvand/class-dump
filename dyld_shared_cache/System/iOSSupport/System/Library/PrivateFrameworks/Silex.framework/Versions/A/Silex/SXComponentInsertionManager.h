@@ -26,6 +26,7 @@
 - (id);
 - (void);
 - (id);
+- (void)peration"32@0:8@"SXLayoutTask"16@"<SXDOMObjectProviding>"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXBlueprintAnalyzer> blueprintAnalyzer; // @synthesize blueprintAnalyzer=_blueprintAnalyzer;

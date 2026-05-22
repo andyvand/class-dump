@@ -21,12 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)'s NSNumber wrapping boolean about open url success is nil;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

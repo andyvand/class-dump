@@ -9,10 +9,10 @@
     struct CGRect _bounds;
 }
 
-+ (id)FocusFastScrollingRecognizer";
-+ (id)ã(r;
-- (struct CGRect);
-- (id);
++ (id)yBody;
++ (id)ðÔÿycØis;
+- (struct CGRect)dExtentPosition:executionContext: /* Error: Ran out of types for this method. */;
+- (id)ismissInteractionSubInteractionSettings;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

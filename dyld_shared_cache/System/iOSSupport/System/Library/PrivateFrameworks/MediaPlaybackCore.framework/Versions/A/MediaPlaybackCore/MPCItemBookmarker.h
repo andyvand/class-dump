@@ -23,15 +23,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)Ø;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)lic}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak MPCPlaybackEngine *engine; // @synthesize engine=_engine;

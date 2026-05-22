@@ -16,32 +16,32 @@
     NSNumberFormatter *_percentFormatter;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
-- (id);
 - (id);
-- (id);
-- (id)y;
 - (id);
-- (id)z;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)z;
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumberFormatter *decimalFormatter; // @synthesize decimalFormatter=_decimalFormatter;

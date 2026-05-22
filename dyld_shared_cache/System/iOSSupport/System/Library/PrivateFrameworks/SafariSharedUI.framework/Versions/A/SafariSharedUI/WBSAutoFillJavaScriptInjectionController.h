@@ -6,19 +6,20 @@
 
 #import <SafariSharedUI/WBSJavaScriptInjectionController.h>
 
-@class NSMapTable, NSString;
+@class NSMapTable, NSMutableDictionary, NSString;
 
 @interface WBSAutoFillJavaScriptInjectionController : WBSJavaScriptInjectionController
 {
     NSMapTable *_observers;
     _Bool _isCurrentlyFilling;
+    NSMutableDictionary *_documentsInjectionStatus;
 }
 
 + (id);
 + (void);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)ticsServiceDomainTrackingClearHistoryStartDate;
 - (void);
 - (void);
 - (id);
@@ -41,8 +42,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (void);
 - (void);
@@ -54,8 +61,6 @@
 - (void);
 - (void);
 - (void);
-- (void)x;
-- (void)oundation.framework/Versions/C/Foundation;
 - (void);
 - (void);
 - (void);
@@ -63,11 +68,13 @@
 - (void);
 - (void);
 - (void);
-- (void)nExtractedTopicFromAttachment;
-- (void)ForSuggestions;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)isReadyToUse;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

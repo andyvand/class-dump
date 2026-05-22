@@ -7,13 +7,10 @@
 @class NSArray;
 
 @protocol NSItemProviderWriting
-+ (NSArray *);
++ (NSArray *)óÚÿ óÚÿ,óÚÿ8óÚÿDóÚÿPóÚÿ\óÚÿhóÚÿtóÚÿóÚÿóÚÿóÚÿ¤óÚÿ°óÚÿ¼óÚÿÈóÚÿÔóÚÿàóÚÿìóÚÿøóÚÿôÚÿôÚÿôÚÿ(ôÚÿ4ôÚÿ@ôÚÿLôÚÿXôÚÿdôÚÿpôÚÿ|ôÚÿôÚÿôÚÿ ôÚÿ¬ôÚÿ¸ôÚÿÄôÚÿÐôÚÿÜôÚÿèôÚÿôôÚÿ;
 
 @optional
-+ (long long)	
-;
-- (NSArray *);
-- (long long);
+- (NSArray *)¯Þÿt¯Þÿ°¯ÞÿÔ¯Þÿ °Þÿ°Þÿ¬°ÞÿÜ°Þÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;

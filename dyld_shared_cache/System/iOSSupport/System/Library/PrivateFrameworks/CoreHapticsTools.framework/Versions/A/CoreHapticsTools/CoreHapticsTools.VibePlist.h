@@ -11,8 +11,8 @@
     MISSING_TYPE *parsed;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

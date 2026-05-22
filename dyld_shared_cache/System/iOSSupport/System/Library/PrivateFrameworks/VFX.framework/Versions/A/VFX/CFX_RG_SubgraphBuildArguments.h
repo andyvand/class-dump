@@ -4,5 +4,5 @@
 
 class CFX::RG::SubgraphBuildArguments {
 public: // (access info unavailable from symbols alone)
-    isDisabled(unsigned long long) const;
+    auto isDisabled(unsigned long long) const;
 };

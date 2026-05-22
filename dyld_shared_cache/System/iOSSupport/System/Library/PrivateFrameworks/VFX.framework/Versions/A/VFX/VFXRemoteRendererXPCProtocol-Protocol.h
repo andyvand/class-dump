@@ -5,6 +5,5 @@
 //
 
 @protocol VFXRemoteRendererXPCProtocol
-- (void);
 @end
 

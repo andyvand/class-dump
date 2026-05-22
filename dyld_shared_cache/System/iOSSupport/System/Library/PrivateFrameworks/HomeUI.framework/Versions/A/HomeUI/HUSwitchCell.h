@@ -18,20 +18,20 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)gController:(_Bool)arg1 didEditAlarm:(_Bool)arg2;
+- (void)scriptionLabelColor;
+- (_Bool)\;
+- (void)Updating status cell:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id)tyView";
-- (void)d24@0:(id)arg1 8@"<UIViewControllerContextTransitioning>"16;
-- (_Bool)vyAAyàÂ;
-- (void)å;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,18 +16,18 @@
     NSString *_systemFilterType;
 }
 
-+ (Class)øÌ;
++ (Class);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id)ID} (Parameter Summary);
+- (id);
+- (id);
+- (void);
+- (void)es before leaving for work;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;

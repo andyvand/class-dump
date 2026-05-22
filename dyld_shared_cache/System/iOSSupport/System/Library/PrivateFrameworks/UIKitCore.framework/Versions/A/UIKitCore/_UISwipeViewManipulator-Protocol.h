@@ -5,6 +5,5 @@
 //
 
 @protocol _UISwipeViewManipulator
-- (void)I;
 @end
 

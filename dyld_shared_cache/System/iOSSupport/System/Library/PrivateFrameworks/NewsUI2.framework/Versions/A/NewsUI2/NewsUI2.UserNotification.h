@@ -18,8 +18,8 @@
     MISSING_TYPE *payload;
 }
 
-- (void);
-- (id);
+- (id);
+- (void)[_lNÿ;
 
 @end
 

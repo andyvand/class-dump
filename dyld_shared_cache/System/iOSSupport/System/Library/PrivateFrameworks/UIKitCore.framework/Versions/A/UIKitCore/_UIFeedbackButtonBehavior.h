@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)ring"16@"NSString"24;
++ (id);
 
 @end
 

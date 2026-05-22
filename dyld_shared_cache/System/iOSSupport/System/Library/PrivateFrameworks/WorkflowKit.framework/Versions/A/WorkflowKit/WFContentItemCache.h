@@ -13,18 +13,20 @@
     NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
-+ (_Bool)|scan;
++ (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
-- (id)ourceContentCollection: /* Error: Ran out of types for this method. */;
+- (id)1â
+0@ù
+× ;
+- (void)e (WFMaskType);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *cache; // @synthesize cache=_cache;

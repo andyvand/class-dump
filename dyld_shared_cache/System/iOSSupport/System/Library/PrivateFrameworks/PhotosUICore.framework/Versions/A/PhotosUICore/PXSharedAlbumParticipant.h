@@ -33,14 +33,13 @@
 - (id);
 - (id);
 - (short);
-- (void);
+- (id);
+- (id);
+- (id);
 - (int);
-- (id)0@ù
-× ;
-- (id)Ìÿ®;
-- (id)øûÿpùÿ;
-- (id)÷7;
-- (id)M5;
+- (id)pÆÈPÉÌ;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) short acceptanceStatus; // @synthesize acceptanceStatus=_acceptanceStatus;

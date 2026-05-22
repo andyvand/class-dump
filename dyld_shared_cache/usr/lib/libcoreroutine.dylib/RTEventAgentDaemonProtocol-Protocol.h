@@ -5,5 +5,6 @@
 //
 
 @protocol RTEventAgentDaemonProtocol
+- (void)rval %@, okToAddTripSegmentData,%d,startData,%@,stopDate,%@,id,%@;
 @end
 

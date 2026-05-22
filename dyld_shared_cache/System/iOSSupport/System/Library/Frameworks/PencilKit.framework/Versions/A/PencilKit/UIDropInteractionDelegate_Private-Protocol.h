@@ -7,6 +7,6 @@
 @protocol UIDropInteractionDelegate_Private
 
 @optional
-- (long long)KLMNO;
+- (long long)Ð;
 @end
 

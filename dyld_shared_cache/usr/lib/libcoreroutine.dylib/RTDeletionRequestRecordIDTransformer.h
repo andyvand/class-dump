@@ -9,13 +9,13 @@
 }
 
 + (_Bool);
-+ (Class)opy the ACL list for item %@:%d /* Error: Ran out of types for this method. */;
++ (Class);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)yCache,Initiator,sessionID:(id)arg1 %@,%@,%@,failed due to invalid parameters;
+- (id);
 
 @end
 

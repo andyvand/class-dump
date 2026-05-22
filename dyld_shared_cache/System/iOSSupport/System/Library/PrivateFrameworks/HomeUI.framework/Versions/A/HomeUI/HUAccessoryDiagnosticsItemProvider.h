@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)p=áÿ;
+- (id)te>";
+- (void)HULocationServicesOnboardingValue_Enable) || (userInputValue.integerValue == HULocationServicesOnboardingValue_Disable);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *diagnosticItems; // @synthesize diagnosticItems=_diagnosticItems;

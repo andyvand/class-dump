@@ -16,11 +16,12 @@
 }
 
 + (id);
-+ (_Bool)ours before;
-- (void);
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)50@ù
+× ;
+- (void)32@?0@"WFContentCollection"8@"WFImage"16@"NSError"24;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

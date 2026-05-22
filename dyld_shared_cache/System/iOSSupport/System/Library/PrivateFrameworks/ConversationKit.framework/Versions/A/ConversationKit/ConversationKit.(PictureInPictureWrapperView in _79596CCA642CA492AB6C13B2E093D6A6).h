@@ -10,11 +10,11 @@
 
 - (struct UIEdgeInsets);
 - (void);
+- (id)çK;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets _touchInsets;

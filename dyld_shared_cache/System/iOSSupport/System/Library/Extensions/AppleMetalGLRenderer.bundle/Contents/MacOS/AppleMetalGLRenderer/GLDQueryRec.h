@@ -4,9 +4,9 @@
 
 class GLDQueryRec {
 public: // (access info unavailable from symbols alone)
-    dealloc();
-    getCounter() const;
-    getQueryInfo(unsigned int, long long*);
-    setCounter(long long);
+    auto dealloc();
+    auto getCounter() const;
+    auto getQueryInfo(unsigned int, long long*);
+    auto setCounter(long long);
     ~GLDQueryRec();
 };

@@ -20,9 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)i¤ûÿ;
+- (id)0@ù
+× ;
+- (void)erControllerQueue;
+- (void)ñ	ÉÀ;
 
 // Remaining properties
 @property(retain, nonatomic) PXHUDTimeIntervalVisualization *visualization; // @dynamic visualization;

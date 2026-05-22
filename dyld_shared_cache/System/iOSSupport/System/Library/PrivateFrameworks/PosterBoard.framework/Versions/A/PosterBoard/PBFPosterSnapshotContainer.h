@@ -15,7 +15,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)	°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) PRSPosterSnapshot *posterSnapshot; // @synthesize posterSnapshot=_posterSnapshot;

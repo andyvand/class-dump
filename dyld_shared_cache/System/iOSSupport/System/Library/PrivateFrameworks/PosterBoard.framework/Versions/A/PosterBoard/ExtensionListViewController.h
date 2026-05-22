@@ -17,13 +17,14 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (long long);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void)=%llu supplement=%llu;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

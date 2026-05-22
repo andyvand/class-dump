@@ -5,7 +5,8 @@
 //
 
 @protocol VKZoomable
-- (double)g"8^B16;
+- (void);
+- (double)omainMammals;
 
 // Remaining properties
 @property(readonly, nonatomic) double maxZoomFactor;

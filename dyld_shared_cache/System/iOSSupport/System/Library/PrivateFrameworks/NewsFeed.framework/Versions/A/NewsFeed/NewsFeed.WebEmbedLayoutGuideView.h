@@ -14,10 +14,11 @@
     MISSING_TYPE *systemSafeAreaFrameView;
 }
 
-- (void);
 - (id);
-- (void)etain;
-- (id)ëÂ;
+- (void);
+- (id)1Â0@ù
+× ;
+- (void);
 
 @end
 

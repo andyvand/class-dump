@@ -13,8 +13,8 @@
     MISSING_TYPE *currentlyPresentingAlert;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

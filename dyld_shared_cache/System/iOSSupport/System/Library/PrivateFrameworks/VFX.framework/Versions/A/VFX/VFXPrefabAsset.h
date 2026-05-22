@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)@0:8 /* Error: Ran out of types for this method. */;
 - (struct __CFXWorld *);
 - (void);
 - (id);
@@ -29,14 +29,14 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)aQÓh;
+- (id)?=b1b1b1b3ffff{?=[4]}{?=[4]}}fff^{__CFXCameraEffectDepthOfField}^{__CFXCameraEffectMotionBlur}^{__CFXCameraEffectGrain}^{__CFXCameraEffectExposure}^{__CFXCameraEffectToneMapping}^{__CFXCameraEffectBloom}^{__CFXCameraEffectVignetting}^{__CFXCameraEffectLensBlur}^{__CFXCameraEffectColorFringe}^{__CFXCameraEffectColorGrading}^{__CFXCameraEffectChromaticTransform}^{__CFXCameraEffectDoughnutBokeh}^{__CFXCameraEffectSSAO}b1b1b1b1{?=[4]}Q}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)rial property ';
+- (id)6Ç>ÅÉI?èf=$¹|>heQ=©¥%?«w8>«w8>B°>Ï¼<>9>ÿÏ>y×Ï<¿¶¶>S>==¦Æ×;ÆÃC?´:ºky?b?ÌÔÔ>Q>ùe>ó®> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

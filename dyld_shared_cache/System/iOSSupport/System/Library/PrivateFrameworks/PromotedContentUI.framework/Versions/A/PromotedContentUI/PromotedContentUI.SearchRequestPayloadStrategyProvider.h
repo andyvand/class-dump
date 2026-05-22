@@ -18,11 +18,16 @@
     MISSING_TYPE *coreSettings;
     MISSING_TYPE *routingInfoProvider;
     MISSING_TYPE *rotatingIdentifierProvider;
+    MISSING_TYPE *enrichmentIdentifierProvider;
     MISSING_TYPE *jsVersionProvider;
-    MISSING_TYPE *deviceCapabilityBuilder;
+    MISSING_TYPE *appAdCapabilities;
+    MISSING_TYPE *poiAdCapabilities;
     MISSING_TYPE *frequencyCapProvider;
     MISSING_TYPE *executionEnvironment;
     MISSING_TYPE *trialManager;
+    MISSING_TYPE *defaultsKeyValueSource;
+    MISSING_TYPE *fpdiPoolManager;
+    MISSING_TYPE *timer;
 }
 
 @end

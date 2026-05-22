@@ -24,9 +24,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)a(°!Fù1)ð1b0@ù
+- (void)
 × ;
+- (id)den;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *colorViews; // @synthesize colorViews=_colorViews;

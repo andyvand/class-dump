@@ -29,18 +29,18 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ø;
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
+- (void)Pointers;
 
 // Remaining properties
 @property _Bool enabled; // @synthesize enabled=_enabled;

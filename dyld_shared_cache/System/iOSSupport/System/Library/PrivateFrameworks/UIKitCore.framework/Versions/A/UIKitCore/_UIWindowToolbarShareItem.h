@@ -16,9 +16,10 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void)searchLayout;
-- (id)onCXo;
+- (void);
 - (_Bool);
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activityItems;

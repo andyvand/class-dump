@@ -144,33 +144,32 @@
 - (struct CGRect);
 - (struct CGRect);
 - (_Bool);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
 - (struct CGImage *);
-- (void);
-- (void)overrideSelectedItemsWithIdentifiers:(id)arg1 ];
-- (id)=
-Ç?;
-- (id)ÞGë
-;
+- (id);
+- (void)
+× ;
+- (void)ayerItemLoadingTargetIfNeeded;
+- (id);
+- (id)LIVE_PHOTO_BADGE_MENU_ACTION_LONG_EXPOSURE;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewPropertyAnimator *alphaAnimator; // @synthesize alphaAnimator=_alphaAnimator;

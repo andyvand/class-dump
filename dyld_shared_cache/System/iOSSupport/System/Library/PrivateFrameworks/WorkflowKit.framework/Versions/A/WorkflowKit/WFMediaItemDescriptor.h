@@ -24,26 +24,25 @@
 + (id);
 + (id);
 + (id);
-+ (id)9(;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (_Bool), the text will wrap within the bounds of the width. Optional.;
++ (id);
++ (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)0@ù
-× ;
-- (id);
-- (id)xáâÌãàäDå8è;
+- (id)GLH;
+- (void)onWithTypeIdentifier:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

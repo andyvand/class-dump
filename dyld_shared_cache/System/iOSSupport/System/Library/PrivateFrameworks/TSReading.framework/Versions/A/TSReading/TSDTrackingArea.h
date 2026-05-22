@@ -26,7 +26,7 @@
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -44,15 +44,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id)},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":15},{"selector":"platform-pad","value":18}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
+- (unsigned long long);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void),y;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSMutableArray *actions; // @synthesize actions=_actions;

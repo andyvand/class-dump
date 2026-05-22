@@ -35,14 +35,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)× ;
-- (id)e wrong;
+- (void)$Â;
+- (id)üðÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

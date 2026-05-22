@@ -44,21 +44,21 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
+- (void);
 - (_Bool);
+- (void);
 - (id);
 - (double);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void)× ;
-- (id);
-- (unsigned long long)ver;
+- (void);
+- (unsigned long long);
+- (void)argetSerialQueue:(id)arg1 %@ synchronous:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long allSendersCount;

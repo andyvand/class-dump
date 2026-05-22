@@ -74,7 +74,7 @@
     double _sidebarPadding;
 }
 
-+ (id)acement<PXGMutableItemPlacement>"8;
++ (id);
 - (_Bool);
 - (double);
 - (_Bool);
@@ -196,19 +196,19 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool)c8|;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (_Bool);
 - (_Bool);
 - (double);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long allPhotosAspectFillFocusAnimationStyle; // @synthesize allPhotosAspectFillFocusAnimationStyle=_allPhotosAspectFillFocusAnimationStyle;

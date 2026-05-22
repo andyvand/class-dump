@@ -24,15 +24,15 @@
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id)ÿÿ´íÿDzÿ¬;
-- (id);
-- (void)iption:(id)arg1 attribute, public}@ ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *availableLenses;

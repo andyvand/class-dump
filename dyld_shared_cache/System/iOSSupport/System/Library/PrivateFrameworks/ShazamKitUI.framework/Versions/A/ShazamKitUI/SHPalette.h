@@ -4,26 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-__attribute__((visibility("hidden")))
 @interface SHPalette
 {
+    struct CGColor *_listeningButtonBackgroundColor;
+    struct CGColor *_listeningButtonTopBorderColor;
+    struct CGColor *_listeningPassiveBackgroundColor;
+    struct CGColor *_listeningButtonShazamShapeColor;
+    struct CGColor *_listeningActiveCirclesColor;
+    struct CGColor *_listeningPassiveInnerShadowColor;
 }
 
 + (struct CGColor *);
-+ (double);
 + (id);
++ (struct CGColor *);
++ (struct CGColor *);
++ (struct CGColor *);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGColor *);
 - (struct CGColor *);
 - (struct CGColor *);
 - (struct CGColor *);
 - (struct CGColor *);
+- (void);
 - (struct CGColor *);
-- (struct CGColor *);
-- (struct CGColor *);
-- (struct CGColor *);
-- (struct CGColor *);
-- (struct CGColor *);
-- (struct CGColor *);
+- (void);
+
+// Remaining properties
+@property(nonatomic) struct CGColor *listeningActiveCirclesColor; // @synthesize listeningActiveCirclesColor=_listeningActiveCirclesColor;
+@property(nonatomic) struct CGColor *listeningButtonBackgroundColor; // @synthesize listeningButtonBackgroundColor=_listeningButtonBackgroundColor;
+@property(nonatomic) struct CGColor *listeningButtonShazamShapeColor; // @synthesize listeningButtonShazamShapeColor=_listeningButtonShazamShapeColor;
+@property(nonatomic) struct CGColor *listeningButtonTopBorderColor; // @synthesize listeningButtonTopBorderColor=_listeningButtonTopBorderColor;
+@property(nonatomic) struct CGColor *listeningPassiveBackgroundColor; // @synthesize listeningPassiveBackgroundColor=_listeningPassiveBackgroundColor;
+@property(nonatomic) struct CGColor *listeningPassiveInnerShadowColor; // @synthesize listeningPassiveInnerShadowColor=_listeningPassiveInnerShadowColor;
 
 @end
 

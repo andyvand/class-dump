@@ -4,6 +4,6 @@
 
 class std::__1::vector<CALayer*, std::__1::allocator<CALayer*>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:nn200100]();
-    push_back[abi:nn200100](CALayer* const&);
+    auto __throw_length_error[abi:nqn210106]();
+    auto push_back[abi:nqn210106](CALayer* const&);
 };

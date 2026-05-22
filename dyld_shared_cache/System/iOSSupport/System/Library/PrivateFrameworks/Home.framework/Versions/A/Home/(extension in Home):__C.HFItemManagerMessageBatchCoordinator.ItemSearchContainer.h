@@ -13,8 +13,8 @@
     MISSING_TYPE *sender;
 }
 
-- (void);
 - (id);
+- (void)conImage;
 
 @end
 

@@ -28,8 +28,8 @@
     HMAccessory *_accessory;
 }
 
-+ (id)leHomeManagerConfiguration;
-+ (_Bool)ationAsset.validation;
++ (_Bool);
++ (id)r;
 
 @end
 

@@ -43,7 +43,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
@@ -51,9 +51,9 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) TSWPRep *containedRep; // @synthesize containedRep=_containedRep;

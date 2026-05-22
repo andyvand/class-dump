@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)messages:%@ /* Error: Ran out of types for this method. */;
+- (double);
 
 @end
 

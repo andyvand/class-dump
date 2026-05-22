@@ -13,13 +13,13 @@
     NSArray *_passthroughViews;
 }
 
-- (void);
-- (void);
 - (id);
-- (id)yAeAyAK_ACyð¬yÚ¬yAHSSAAyí÷«ySaySSGSS <yAH_SSQo_G_A4_SgtGG_{¬Qo_AFy¬yAHGALGGSgtGAEGALGGSgAFyf¬yAFyA12_ñí«ySbGG_A12_Qo_ALGSgAFy?¬yA12__A12_Qo_ALGSgtGG_SSAAyA12__A12_tGQo__AFyxAQGSgtG;
-- (void)ð¸ÿ;
-- (id)G;
-- (void)ôÿÿ 3£-;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)HÀ;
+- (void)ÄxDÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKDismissViewDelegate> delegate; // @synthesize delegate=_delegate;

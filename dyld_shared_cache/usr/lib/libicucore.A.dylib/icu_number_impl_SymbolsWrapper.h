@@ -6,16 +6,16 @@ class icu::number::impl::SymbolsWrapper {
 public: // (access info unavailable from symbols alone)
     SymbolsWrapper(icu::number::impl::SymbolsWrapper const&);
     SymbolsWrapper(icu::number::impl::SymbolsWrapper&&);
-    doCleanup();
-    doCopyFrom(icu::number::impl::SymbolsWrapper const&);
-    doMoveFrom(icu::number::impl::SymbolsWrapper&&);
-    getDecimalFormatSymbols() const;
-    getNumberingSystem() const;
-    isDecimalFormatSymbols() const;
-    isNumberingSystem() const;
-    operator=(icu::number::impl::SymbolsWrapper const&);
-    operator=(icu::number::impl::SymbolsWrapper&&);
-    setTo(icu::DecimalFormatSymbols const&);
-    setTo(icu::NumberingSystem const*);
+    auto doCleanup();
+    auto doCopyFrom(icu::number::impl::SymbolsWrapper const&);
+    auto doMoveFrom(icu::number::impl::SymbolsWrapper&&);
+    auto getDecimalFormatSymbols() const;
+    auto getNumberingSystem() const;
+    auto isDecimalFormatSymbols() const;
+    auto isNumberingSystem() const;
+    auto operator=(icu::number::impl::SymbolsWrapper const&);
+    auto operator=(icu::number::impl::SymbolsWrapper&&);
+    auto setTo(icu::DecimalFormatSymbols const&);
+    auto setTo(icu::NumberingSystem const*);
     ~SymbolsWrapper();
 };

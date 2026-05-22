@@ -5,6 +5,7 @@
 //
 
 @protocol PXStoryMutablePacingController
+- (void)a;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;

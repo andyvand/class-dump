@@ -22,15 +22,15 @@
 - (oneway void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void):%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

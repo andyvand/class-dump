@@ -22,49 +22,46 @@ __attribute__((visibility("hidden")))
     TIKeyboardCandidateResultSet *_candidateSet;
 }
 
-- (id)nishedWithResult: /* Error: Ran out of types for this method. */;
-- (void)s:(_Bool)arg1 duration:(int)arg2 completion: /* Error: Ran out of types for this method. */;
-- (void)ts;
-- (_Bool)String",R,C,N;
-- (void)nProxy;
-- (void)P	DzT{;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)z_Xx;
-- (unsigned long long)}};
 - (id);
-- (_Bool)L;
-- (_Bool);
-- (_Bool);
-- (id)on iCloud;
-- (void)from linked device:(_Bool)arg1 %@;
-- (id)acknowledgments failed with error:%@ /* Error: Ran out of types for this method. */;
-- (void)D or newGUID is nil.;
-- (id)egory:%ld. /* Error: Ran out of types for this method. */;
-- (void)ing if we need to update filterCapabilities;
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (void)Â°1¢!0@ù
-× ;
-- (void);
-- (id)DùQÅð1¢!0@ù
-× ;
-- (void)!lDùqÍð1¢!0@ù
-× ;
-- (void);
-- (void)reviousPixelAlignment"b1"previousEdgeAntialiasing"b1"ignoreAutomaticEdgeAntialiasing"b1"guardAgainstDegenerateBaselineCalculation"b1"preferredImageDynamicRange"b2"animateHDRHeadroomUsageTraitChange"b1};
-- (void):(id)arg1;
-- (void)n;
-- (_Bool)e: /* Error: Ran out of types for this method. */;
-- (id)deleted) and plus or minus the number of items moved into or out of that section (%d moved in, %d moved out). Collection view:(struct CGRect)arg1 %@;
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id)Ä¡l;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool)Ô ;
+- (_Bool)Provider"b1"hasCustomBackgroundViewConfiguration"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
+- (unsigned long long)"BSServiceQueue";
+- (id):shouldAttemptDismissWhenWindowSceneUpdatesEffectiveGeometry: /* Error: Ran out of types for this method. */;
+- (void): /* Error: Ran out of types for this method. */;
+- (void)ecified:(id)arg1;
+- (void)hed:(id)arg1;
+- (id)w:(struct CGRect)arg1 itemsForDrag: /* Error: Ran out of types for this method. */;
+- (void)otation",N,V_popup;
+- (void)e",&,N,V_colorTintMaskImage;
+- (void)the UITableViewDataSource. This error will cause undefined behavior. Please move the implementation of this method to the delegate of this table view, instead of the data source:(struct CGRect)arg1 %@;
+- (id)Controller instance.;
+- (id)üãÆÿT;
+- (void)ZÔÉ¼\b;
+- (void)Ình;
+- (void)Ývn;
 
 // Remaining properties
 @property(retain, nonatomic) _UIDynamicCaretAlternatives *alternativesView; // @synthesize alternativesView=_alternativesView;

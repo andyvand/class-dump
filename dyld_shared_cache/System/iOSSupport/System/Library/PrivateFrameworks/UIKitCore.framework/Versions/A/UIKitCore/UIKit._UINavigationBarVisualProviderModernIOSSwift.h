@@ -54,173 +54,183 @@
     MISSING_TYPE *didExecuteCompletionBlock;
 }
 
-+ (void)C5UIKit22_UIMagicMorphAnimationP33_27010C79BBE8436D7F6A5CD454B184E54Item;
-+ (id);
++ (id);
++ (void)FH;
 - (void);
 - (void);
-- (void)gisterSessionClassWithBundle:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (struct CGSize);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (struct CGRect);
-- (void);
 - (id);
+- (void);
+- (void);
+- (struct CGSize);
+- (void);
+- (void)0@ù
+× ;
+- (double)!¬Dù_ð1Â0@ù
+× ;
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (void)A°!8Gù`Ð1Â0@ù
+× ;
+- (void)
+× ;
+- (void)q`Ð1Â0@ù
+× ;
 - (_Bool);
-- (void)8{vector<long long, std:(id)arg1:allocator<long long>>=^q^q{?=^q}}16 /* Error: Ran out of types for this method. */;
-- (void)stEntryProperties:(id)arg1;
-- (struct CGSize)loadedCatalogLyrics;
-- (void)O(;
-- (void)D=%{public}@;
-- (id);
-- (void);
-- (void)®ÿ¹;
-- (void)1¢!0@ù
+- (long long)0@ù
 × ;
-- (id)s!$Dù1Çð1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (void)ñÈÐ1¢!0@ù
-× ;
+- (void)!;
 - (void);
-- (_Bool)0@ù
+- (void)1Â0@ù
 × ;
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (long long)¡v°!¸FùqËÐ1¢!0@ù
+- (id)ð!|Dùqdð1Â0@ù
 × ;
 - (id)
 × ;
-- (_Bool);
-- (struct NSDirectionalEdgeInsets);
-- (void)ViewContainerDelegate>";
-- (void)t=}16@0:(_Bool)arg1 8;
-- (void)yFooterViewForSection"b1"delegateShouldHighlightRow"b1"delegateDidHighlightRow"b1"delegateDidUnhighlightRow"b1"delegateTitleForSwipeAccessory"b1"delegateBackgroundColorForDeleteConfirmationButton"b1"delegateBackgroundColorForSwipeAccessory"b1"delegateDeleteConfirmationButton"b1"delegateSwipeAccessory"b1"delegateSwipeAccessoryPushed"b1"delegateShouldDrawTopSeparatorForSection"b1"delegateShouldDrawBottomSeparatorForSection"b1"delegateShouldHaveFullLengthTopSeparatorForSection"b1"delegateShouldHaveFullLengthBottomSeparatorForSection"b1"delegateSpacingForExtraSeparators"b1"delegateWillBeginSwiping"b1"delegateDidEndSwiping"b1"delegateCanFocusRow_deprecated"b1"delegateCanFocusRow"b1"delegateDidFocusRow"b1"delegateDidUnfocusRow"b1"delegateIndexPathForPreferredFocusedItem"b1"delegateShouldUpdateFocusFromRowAtIndexPathToView"b1"delegateIndexPathForPreferredFocusedView"b1"delegateShouldUpdateFocusInContext"b1"delegateDidUpdateFocusInContext"b1"delegateContextMenuConfigurationForRowAtIndexPath"b1"delegatePreviewForHighlightingContextMenuWithConfiguration"b1"delegatePreviewForDismissingContextMenuWithConfiguration"b1"delegateWillCommitMenuWithAnimator"b1"delegatewillPerformPreviewActionForMenuWithConfiguration"b1"delegateWillDisplayContextMenuWithConfiguration"b1"delegateWillEndContextMenuInteractionWithConfiguration"b1"delegateSelectionFollowsFocusForRowAtIndexPath"b1"delegateWasNonNil"b1"style"b2"isInSidebar"b1"separatorStyle"b3"headerFooterPinningBehavior"b2"wasEditing"b1"isEditing"b1"isEditingAllRows"b1"scrollsToSelection"b1"reloadSkippedDuringSuspension"b1"displaySkippedDuringSuspension"b1"needsReload"b1"needsRebuildGeometry"b1"suppressRebuildGeometry"b1"scheduledUpdateVisibleCells"b1"lastScheduledUpdateVisibleCellsIgnored"b1"scheduledUpdateVisibleCellsFrames"b1"displayTopSeparator"b1"countStringInsignificantRowCount"b4"needToAdjustExtraSeparators"b1"overlapsSectionHeaderViews"b1"ignoreTouchSelect"b1"lastHighlightedRowActive"b1"reloading"b1"dequeuedSectionViewIsFooter"b1"allowsSelection"b1"allowsSelectionDuringEditing"b1"allowsMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"indexHidden"b1"indexHiddenForSearch"b1"defaultShowsHorizontalScrollIndicator"b1"defaultShowsVerticalScrollIndicator"b1"sectionIndexTitlesLoaded"b1"tableHeaderViewShouldAutoHide"b1"tableHeaderViewIsHidden"b1"tableHeaderViewWasHidden"b1"tableHeaderViewShouldPin"b1"hideScrollIndicators"b1"sendReloadFinished"b1"keepFirstResponderWhenInteractionDisabled"b1"keepsFirstResponderVisibleOnBoundsChange"b1"forceStaticHeadersAndFooters"b1"inInit"b1"inSetBackgroundColor"b1"isApplyingAppearanceDefaults"b1"usingCustomBackgroundColor"b1"usingCustomBackgroundView"b1"usingCustomSeparatorColor"b1"usingCustomSeparatorEffect"b1"usingCustomSeparatorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
-- (void)String"16@"NSAttributedString"24Q32;
-- (void)ddd}20@0:(id)arg1 8B16;
-- (double)}32;
-- (double)b1"layoutTimeViews"b1"computeTrackRect"b1"clampingTrimRange"I"zoomed"b1"zoomAnimating"b1"trackIsPressed"b1"trackAnimating"b1"thumbIsVisible"b1"handleIsPressed"b1"willBeginEditing"b1"editing"b1"editingHandle"I"rotationDisabled"I"isInNavigationBar"b1"delegateValueDidChange"b1"delegateStartValueDidChange"b1"delegateEndValueDidChange"b1"delegateWillBeginRequestingThumbnails"b1"delegateDidFinishRequestingThumbnails"b1"delegateWillBeginEditing"b1"delegateDidBeginEditing"b1"delegateDidCancelEditing"b1"delegateEditingAnimationFinished"b1"delegateWidthDeltaOriginXDelta"b1"delegateDidBeginAnimatingZoom"b1"delegateDidEndAnimatingZoom"b1"delegateWillZoom"b1"dataSourceRequestThumbnailImageIsSummmary"b1};
-- (_Bool)6q24d32@40@?48;
-- (void)@"UITextPosition"56@0:(_Bool)arg1 8@"UITextPosition"16q24q32q40d48;
-- (void)UIHyperInteractor"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)riptObjectAvailable:(_Bool)arg1;
-- (void)teLocalizedKeysOnKeyplane:(_Bool)arg1;
-- (void)Padding;
-- (void)orVisibleIndexRange:(double)arg1 effectiveRefreshDirection: /* Error: Ran out of types for this method. */;
-- (double)UnobscuredRange: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
-- (void)isible: /* Error: Ran out of types for this method. */;
-- (void)electionFeedbackGenerator;
-- (void)ngent:(id)arg1;
-- (void)edShort:(id)arg1;
+- (void)1eÐ1Â0@ù
+× ;
 - (void);
-- (void)ate:(id)arg1;
-- (_Bool)nce;
-- (void)strumentsDisplay;
-- (void)Index:(id)arg1;
-- (void)s:behavior: /* Error: Ran out of types for this method. */;
-- (_Bool)ornerInsets: /* Error: Ran out of types for this method. */;
-- (void)lue:sizeValue: /* Error: Ran out of types for this method. */;
-- (_Bool)ze:selected: /* Error: Ran out of types for this method. */;
-- (void)onstraintWithAnchor:(id)arg1 relatedBy:toAnchor:withSystemSpacingMultipliedBy: /* Error: Ran out of types for this method. */;
-- (_Bool)columnForSplitViewControllerColumn: /* Error: Ran out of types for this method. */;
-- (void)entRect;
-- (void)ttributes;
-- (_Bool)ShouldCallDidKeyPress;
-- (long long)ts:animated: /* Error: Ran out of types for this method. */;
-- (void)esturesForEditableContent;
-- (void)Recognizer;
-- (void)rFlags:(id)arg1;
-- (id)dViewWill:appear:animated: /* Error: Ran out of types for this method. */;
-- (double)em;
-- (id)interactionActivityTrackingBaseName;
+- (void)0@ù
+× ;
+- (id)!TEùfð1Â0@ù
+× ;
+- (id);
+- (void)1Â0@ù
+× ;
+- (long long)Á
+!DùQgð1Â0@ù
+× ;
+- (void)@"UITextRangeAdjustmentInteraction";
+- (_Bool);
+- (void)ModeBarButtonItem";
+- (_Bool)lid"b1"delegateInfoIsValid"b1"roundsToScreenScale"b1"delegateSizesForSection"b1"sectionHeadersFloat"b1"sectionFootersFloat"b1"headerFollowsSectionMargins"b1"footerFollowsSectionMargins"b1"fetchingItemsInfoForRect"b1"isInUpdateVisibleCellsPass"b1};
+- (id)chToken";
+- (void)tyHUDItem"40@0:(id)arg1 8@"UIAccessibilityHUDGestureManager"16{CGPoint=dd}24;
+- (void)odeManager;
+- (_Bool)tive: /* Error: Ran out of types for this method. */;
+- (struct NSDirectionalEdgeInsets)oller:displayModeForExpandingToProposedDisplayMode: /* Error: Ran out of types for this method. */;
+- (void)rkBackground;
+- (void)lectionStart;
+- (void)ressionAssertion:(id)arg1 updatePlacement:wantsAssistant: /* Error: Ran out of types for this method. */;
+- (void)sBlock:(id)arg1;
+- (void)rIntegration;
+- (void)aitCollection:(id)arg1 connectionHandler: /* Error: Ran out of types for this method. */;
+- (void)ntView;
+- (_Bool)thDomain:identifierReporting: /* Error: Ran out of types for this method. */;
+- (void)dvancedConfiguration:(id)arg1;
+- (void)ordinateWritingItemAtURL:options:error:byAccessor: /* Error: Ran out of types for this method. */;
+- (double)ChangeInEditMenuListView: /* Error: Ran out of types for this method. */;
+- (_Bool)rovider;
+- (void)ollerForAccessibilityHUDGestureManager: /* Error: Ran out of types for this method. */;
+- (void)cessary;
+- (void)textInputSource;
+- (struct CGRect)BarVisibility;
+- (_Bool)MacAppearance;
+- (void)ce;
+- (id)l;
+- (void)nimation;
+- (_Bool)requiredPreviewForceStateSatisfiedByForceLevel: /* Error: Ran out of types for this method. */;
+- (void)minator;
+- (void)geNotificationForResponder:(id)arg1;
+- (CDStruct_39925896)izedSupplementaryHostContainer;
+- (void)CurrentNonScrollingArea:(id)arg1 inScrollView: /* Error: Ran out of types for this method. */;
+- (id)ationMap;
+- (void)withFont:(id)arg1 inView:(id)arg2;
+- (long long)exPathsForSelectedRowsUsingPresentationValues: /* Error: Ran out of types for this method. */;
 - (void)s;
-- (_Bool)utton:(id)arg1;
-- (void)hPresentedView: /* Error: Ran out of types for this method. */;
-- (void)rts;
-- (void)vailableDateRange;
-- (void)_additionalEditingInsets;
-- (void)nerRadiusForPresentationAndDismissal;
-- (_Bool)nces:viewPropertyAnimator:animationsProvider:isOnDiffableApplyQueue:completion: /* Error: Ran out of types for this method. */;
-- (void)T{NSDirectionalEdgeInsets=dddd},N,V_minimumInsets;
-- (void)Code;
-- (double)laxFactor;
-- (void)iesFromClipping;
-- (_Bool)nes;
-- (void)it: /* Error: Ran out of types for this method. */;
-- (void),GisDeleting,V_deleting;
-- (void)BarDataBoolEntry",C,N,V_electronicTollCollectionEntry;
-- (void),&,N,V_menuStyle;
-- (id)aceholderView;
-- (id)etPredictiveTextOddAudioPitch:(long long)arg1;
-- (void)eDictionary",&,N,V_underlinedWordData;
+- (void)directedByGuide;
+- (long long)aceLevel;
+- (void)reRecognizer;
+- (_Bool)View:(id)arg1;
+- (void)_compactInlineTabButtonAppearanceData;
+- (_Bool)mAction:(_Bool)arg1;
+- (void)erRadius;
+- (void):(double)arg1 systemCompletion:animation:completion: /* Error: Ran out of types for this method. */;
+- (void)dingBorderView;
+- (void)calPositionOffset;
 - (void);
-- (void)R,N,V_maskLayer;
-- (void)llerHost;
-- (void)onActionResponse;
-- (long long)	
-;
-- (void)ß;
-- (id);
-- (long long)h¨;
-- (void)H;
 - (void);
-- (void);
+- (void)cusedCell;
+- (void)searchTextField;
+- (void)ainerViewsPerRange;
+- (_Bool)ckerViewDelegate>",W,V_delegate;
+- (id)ingAnimationBehaviorSettings",N,&,VpositionX;
+- (long long)Info: /* Error: Ran out of types for this method. */;
+- (void)get:(id)arg1;
+- (unsigned long long)stomAlpha;
+- (void)IImageViewPendingSymbolContentTransition;
+- (id)butes;
+- (void)UIRoundedRectShadowView;
+- (void)arget;
+- (_Bool)ionary;
+- (double)reHostingKeyboardTrackingElement;
+- (void)4¹°½À;
+- (void)pce;
+- (_Bool)øLX;
+- (id),¡ ¡°;
+- (id)Ô;
 - (void);
-- (void)or hosted window not in window scene:(_Bool)arg1 %@;
-- (void)UIWritingToolsCoordinator can't update for range, {%lu, %lu}, passed in %@ that overflows the adjusted resolvedRange, {%lu, %lu}. Stopping Writing Tools;
-- (void)g initial application activation.;
-- (_Bool);
-- (id)hþÿ
-ùúÿB;
-- (_Bool);
-- (void);
-- (void);
-- (struct CGRect);
-- (double)þÿ;
-- (_Bool);
+- (struct NSDirectionalEdgeInsets)8dÌ;
+- (void);
+- (void);
+- (_Bool)event type:%@ /* Error: Ran out of types for this method. */;
+- (void)resize animated sticker:%d /* Error: Ran out of types for this method. */;
+- (id)able to get visible cell for index path:%@ /* Error: Ran out of types for this method. */;
+- (double)call to becomeFirstResponder while processing a focus update. Focused item:%@, expected responder:%@ (%@), actual responder:%@ (%@) /* Error: Ran out of types for this method. */;
+- (void)ion:(id)arg1 %@;
+- (_Bool)ack:%d /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)Model:(id)arg1 %@; Outline view:(id)arg2 %@;
+- (void)ding colors/modes must have same number of items;
+- (_Bool)th another launch options instance. Browser view controller:%@; Existing launch options:%@ /* Error: Ran out of types for this method. */;
+- (void)um row height:(id)arg1 %g; table view width:%g; table header height:%g; table footer height:%g; table top padding:%g; table bottom padding:%g; reordered index path:%@; dragged index path:%@; gap row height:%g; dragged row height:%g; section data:%@ /* Error: Ran out of types for this method. */;
+- (void)tionBar"8;
+- (_Bool)ity interpolation;
+- (id)nimumWidth=%f maximumWidth=%f;
+- (CDUnknownBlockType)images;
+- (void)esponder;
+- (void)der view when supplementary border was dragged;
+- (void)h;
+- (void)pdate;
+- (_Bool)tself. Inspect the parent and ensure the contentInsets (%@) do not result in a negative effectiveContentSize when applied to size:%@. /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (id)D2CA9BD7C0EBLLP;
+- (id)dTitleView_p;
+- (id);
+- (void);
+- (void);
 - (void);
-- (_Bool);
-- (void)tocol_p;
-- (unsigned long long)em for URL %@:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)ttings<_UISceneCarPlaySessionSettings>"8;
-- (void)tting;
-- (id)4@?0@"_UITouchForceMessage"8^B16;
-- (void)reRecognizer *> *_UIGestureEnvironmentSubgraphForGestureRecognizer(UIGestureEnvironment *__unsafe_unretained, UIGestureRecognizer *__unsafe_unretained);
-- (id)0@8@"UIInputViewSet"16^B24;
-- (_Bool)chive_entry_size;
-- (void)on the view controller before calling a UIViewController initializer. View controller:%@ /* Error: Ran out of types for this method. */;
-- (void)n = %@; location = %@>;
-- (void)backdrop view's settings style:%ld != %ld /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)wInContainerView;
-- (void)ut.swift;
-- (id)icContentEffect;
-- (id);
-- (void)ýñ¦?4õºE`¬ã?PãÞüÖß@Tn¢æÃs@-¯\o)ñ?;
-- (id);
-- (id)tF71Qøÿ30 ;
 - (void);
-- (CDStruct_39925896)x4Dmþex4¨Dmþµx4´DmþEx4ÀDmþEx4ðPmþx4ÄDmþÅx4eþx4ÄDmþ;
-- (void)[;
-- (struct CGSize)Þ\;
-- (void)pêþ;
-- (id);
-- (void)´O^;
+- (void)¨m;
+- (_Bool)torClockType;
 - (_Bool);
-- (id)D4a;
-- (struct NSDirectionalEdgeInsets)¦µ`;
-- (long long);
-- (_Bool)dÓçb;
 - (void);
-- (_Bool)ÀzÿlË×ádd;
-- (void)dIÿ^Ð;
+- (unsigned long long)0C];
+- (void))Ú8d_;
+- (double)$á`;
+- (_Bool)¹W;
+- (void)XÈuÿ;
+- (id)ëÃÿ22;
+- (void)~c;
+- (_Bool)¨!ÿt;
+- (void)Kâþ;
 
 // Remaining properties
 @property(nonatomic) _Bool activeTabBarHost;
+@property(nonatomic, readonly) _Bool allowsLayoutWhileTransitioning;
 @property(nonatomic, readonly) _Bool allowsUserInteractionDuringTransitions;
 @property(nonatomic) long long appearanceAPIVersion;
 @property(nonatomic, readonly) id <_UIBarAppearanceChangeObserver> appearanceObserver;

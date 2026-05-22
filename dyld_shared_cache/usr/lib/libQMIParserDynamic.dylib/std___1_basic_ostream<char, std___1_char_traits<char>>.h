@@ -4,14 +4,5 @@
 
 class std::__1::basic_ostream<char, std::__1::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    operator<<(bool);
-    operator<<(int);
-    operator<<(long);
-    operator<<(short);
-    operator<<(unsigned int);
-    operator<<(unsigned long long);
-    operator<<(unsigned long);
-    operator<<(unsigned short);
-    operator<<(void const*);
     ~basic_ostream();
 };

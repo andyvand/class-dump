@@ -7,7 +7,7 @@
 @class NSUUID;
 
 @protocol _UIViewServiceSessionActivityProviding
-- (NSUUID *)4};
+- (NSUUID *);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _providerType;

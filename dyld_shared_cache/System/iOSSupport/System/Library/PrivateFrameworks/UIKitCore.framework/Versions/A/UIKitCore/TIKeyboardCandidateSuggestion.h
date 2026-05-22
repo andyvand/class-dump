@@ -13,17 +13,16 @@
 }
 
 + (id);
-+ (id)AB;
++ (id);
 - (id);
-- (id)ges from CKRecord;
 - (id);
-- (_Bool);
 - (id);
-- (void)
-× ;
-- (id)shouldPinToBottomOnResize;
-- (unsigned long long)è;
-- (id)µ;
+- (id)tadata";
+- (id)eType: /* Error: Ran out of types for this method. */;
+- (_Bool)ithReusableView:(id)arg1;
+- (unsigned long long)IntersectingFocus;
+- (id)ÌNÄO¬P;
+- (void)èÇÿAy;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextSuggestion *textSuggestion; // @synthesize textSuggestion=_textSuggestion;

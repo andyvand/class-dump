@@ -17,28 +17,27 @@
     LSApplicationWorkspace *__applicationWorkspace;
 }
 
-- (id)ray"16^B24;
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
+- (id);
 - (double);
-- (id)hB;
 - (id);
 - (id);
 - (void);
-- (double);
-- (id)s/AppSupport.framework/Versions/A/AppSupport;
 - (void);
 - (id);
-- (id)1¢!0@ù
+- (id);
+- (id);
+- (id)
 × ;
-- (id)Á¬°!ðFùÑÄ1¢!0@ù
-× ;
-- (id)ÿ;
+- (id)me;
 - (void);
+- (double)@¹0;
 
 // Remaining properties
 @property(readonly, nonatomic) LSApplicationWorkspace *_applicationWorkspace; // @synthesize _applicationWorkspace=__applicationWorkspace;

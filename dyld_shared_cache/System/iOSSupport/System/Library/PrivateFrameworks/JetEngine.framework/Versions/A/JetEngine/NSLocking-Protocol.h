@@ -5,6 +5,8 @@
 //
 
 @protocol NSLocking
-- (void)entManager not proceeding with requestAppLevelSheets. Reason:pageContext has not changed. /* Error: Ran out of types for this method. */;
+- (void);
+- (void)Éjs
+,Àÿ;
 @end
 

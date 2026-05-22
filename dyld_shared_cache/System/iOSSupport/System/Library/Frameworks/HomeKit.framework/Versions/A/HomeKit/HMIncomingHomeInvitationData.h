@@ -19,7 +19,7 @@
     NSString *_inviterMergeID;
 }
 
-+ (_Bool)val;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -27,11 +27,11 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void))D*,t,L-X/¼/;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *homeName; // @synthesize homeName=_homeName;

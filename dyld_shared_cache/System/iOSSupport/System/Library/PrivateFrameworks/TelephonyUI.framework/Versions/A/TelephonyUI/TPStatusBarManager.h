@@ -12,7 +12,7 @@
     NSTimer *_callDurationTimer;
 }
 
-+ (id)FontWithAvatar;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *callDurationTimer; // @synthesize callDurationTimer=_callDurationTimer;

@@ -8,7 +8,6 @@
 @protocol AVTAvatarActionsControllerDelegate;
 
 @protocol AVTAvatarActionsController
-- (id <AVTAvatarActionsControllerDelegate>)try to connect again at %1$@.;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTAvatarActionsProvider *actionsModel;

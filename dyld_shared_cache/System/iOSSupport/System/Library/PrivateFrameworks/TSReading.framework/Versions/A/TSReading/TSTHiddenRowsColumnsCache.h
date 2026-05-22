@@ -20,7 +20,7 @@
 - (unsigned short);
 - (unsigned char);
 - (unsigned short);
-- (unsigned char);
+- (unsigned char);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
@@ -36,10 +36,10 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id)ta articleID ;
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

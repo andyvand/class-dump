@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VFXAssetRegistry, VFXMaterialProperty, VFXNode, VFXPhysicsWorld;
+@class VFXAssetRegistry, VFXMaterialProperty, VFXNode, VFXPhysicsWorld;
 
 @protocol VFXWorldJSExport
-- (VFXAssetRegistry *)0æÿ<æÿHæÿTæÿ`æÿlæÿxæÿæÿæÿæÿ¨æÿ´æÿÀæÿÌæÿØæÿäæÿðæÿüæÿæÿæÿ æÿ,æÿ8æÿDæÿPæÿ\æÿhæÿtæÿæÿæÿæÿ¤æÿ°æÿ¼æÿÈæÿÔæÿàæÿìæÿøæÿæÿæÿæÿ(æÿ4æÿ@æÿLæÿXæÿdæÿpæÿ|æÿæÿæÿ æÿ¬æÿ¸æÿÄæÿÐæÿÜæÿèæÿôæÿ;
-- (double);
 - (VFXMaterialProperty *);
-- (void)AtSystem;
-- (double)d	(ÿ;
-- (void)+è>jl>½ÂÂ>Ótê;X­=J¤=ÔÓS?z?>F³
-?ºky?êèh?°«¡>C%?]>¡>~¡79:(id)arg1 Ëp?ÿÏ>©¥%?·ÔÑ>É|6=ô~í<¯°°=-_=Züý;nj?ÍÌL>N*º> F>ùe>èôô>¼K':(NSString *)arg2;
-- (void);
+- (void)yæi?ÑÍ>½ðü=I*?Þh?7½§ÌM=z?×gf?ðÝ¼\=þ¶?:(double)arg1 êd?D¥¼y°Å<à?vmc?¼Á;
+- (_Bool)ÛÉ?;
 
 // Remaining properties
 @property(readonly, nonatomic) VFXAssetRegistry *assets;

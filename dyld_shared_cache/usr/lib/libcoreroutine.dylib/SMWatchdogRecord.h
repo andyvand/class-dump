@@ -14,12 +14,12 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (double);
 - (id);
+- (void)Base;
+- (double)¢;
+- (void)te;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;

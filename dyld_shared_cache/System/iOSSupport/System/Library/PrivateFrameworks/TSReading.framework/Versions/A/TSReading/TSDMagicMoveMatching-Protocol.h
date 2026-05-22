@@ -5,8 +5,5 @@
 //
 
 @protocol TSDMagicMoveMatching
-
-@optional
-+ (double);
 @end
 

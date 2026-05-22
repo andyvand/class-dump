@@ -28,12 +28,12 @@
 }
 
 + (id);
-- (void)y;
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (MISSING_TYPE *);
-- (id);
-- (void)z;
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -42,7 +42,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <TUIKeyboardPathRendererDataSource> datasource; // @synthesize datasource=_datasource;

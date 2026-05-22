@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (_Bool)_forceFlexibleWidth;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -34,7 +34,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -42,17 +42,18 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
 - (id);
-- (void)lope;
-- (void)@;
+- (void);
+- (id);
 - (id);
 - (void);
 - (unsigned int);
-- (id);
+- (void)á÷!LFùQð1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *addresses; // @synthesize addresses=_addresses;

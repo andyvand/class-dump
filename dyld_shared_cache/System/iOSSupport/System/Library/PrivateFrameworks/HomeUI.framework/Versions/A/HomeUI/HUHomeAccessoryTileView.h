@@ -21,9 +21,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
-- (double)eduleBuilder: /* Error: Ran out of types for this method. */;
+- (void)eAttributes:toItem:atIndexPath:] /* Error: Ran out of types for this method. */;
+- (double)ÿfþðÆ;
 
 // Remaining properties
 @property(readonly, nonatomic) double aspectRatio;

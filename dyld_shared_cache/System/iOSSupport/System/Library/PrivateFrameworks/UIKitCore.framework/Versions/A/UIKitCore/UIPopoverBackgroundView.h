@@ -15,43 +15,43 @@
     long long __backgroundBlurEffectStyle;
 }
 
-+ (_Bool)H<;
++ (_Bool);
 + (double);
 + (struct UIEdgeInsets);
 + (double);
-+ (double)ingBar;
-+ (double);
-- (void)disabled spam filtering debug ui;
-- (id)ssage guid does not reference a specific part of a multi-part message;
-- (void)pdating existing transfer %@ for message GUID %@;
-- (void)with room names:(_Bool)arg1 %@ on services:%@  /* Error: Ran out of types for this method. */;
++ (double)þ;
++ (double)¸ç^;
+- (void);
 - (id);
-- (struct UIEdgeInsets)&;
+- (void);
+- (void);
+- (id);
+- (struct UIEdgeInsets);
 - (_Bool);
 - (struct CGRect);
 - (void);
 - (struct UIEdgeInsets);
-- (struct CGRect);
 - (id);
 - (double);
-- (_Bool);
-- (void);
-- (id);
 - (void);
-- (id);
-- (void)0@ù
+- (double)× ;
+- (_Bool)0@ù
 × ;
-- (unsigned long long)!øCù±Àð1¢!0@ù
+- (struct CGSize)!dCùñe1Â0@ù
 × ;
-- (struct CGSize);
-- (double)nWhenEmpty: /* Error: Ran out of types for this method. */;
-- (void)ion;
-- (void)s built;
-- (id)With-QWERTY-Version2;
-- (struct UIEdgeInsets)sets={CGSize=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}}16;
-- (long long);
-- (double)Ç;
-- (long long)DÒÿZLÙd;
+- (id)tePlayable>",R,N,V_selectionFeedback;
+- (double)eractionAssistant",R,N;
+- (struct UIEdgeInsets)tParent;
+- (void)nspecified);
+- (struct CGRect)ïÒ;
+- (unsigned long long)4_;
+- (long long)ÒU`;
+- (void)a;
+- (void)Rä;
+- (void)ËÚÔ0d;
+- (long long)æµØLWf;
+- (id)tlbþÉäÖi;
+- (id)k;
 
 // Remaining properties
 @property(nonatomic, setter=_setBackgroundBlurEffectStyle:) long long _backgroundBlurEffectStyle; // @synthesize _backgroundBlurEffectStyle=__backgroundBlurEffectStyle;

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ame:(struct CGRect)arg1 %@;
+- (id)gibilityWeightDidChange;
 
 @end
 

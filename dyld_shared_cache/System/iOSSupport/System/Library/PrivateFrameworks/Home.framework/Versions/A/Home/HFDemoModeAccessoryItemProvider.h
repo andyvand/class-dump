@@ -19,15 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)oke;
+- (void)rableObjectTitleComparator;
+- (void)¨;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *demoItems; // @synthesize demoItems=_demoItems;

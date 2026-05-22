@@ -54,15 +54,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)pyYbc;
-- (id)EBA1C02F10E101344CED9A3D36656D23PlaygroundUIViewWrapper11Coordinator;
+- (void)XÁä5XÁhXÁv¬âô;
 - (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, retain) UIView *backgroundContainerView;

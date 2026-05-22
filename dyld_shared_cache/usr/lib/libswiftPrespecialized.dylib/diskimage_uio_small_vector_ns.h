@@ -4,5 +4,5 @@
 
 class diskimage_uio::small_vector_ns {
 public: // (access info unavailable from symbols alone)
-    report_at_maximum_capacity(unsigned long);
+    auto report_at_maximum_capacity(unsigned long);
 };

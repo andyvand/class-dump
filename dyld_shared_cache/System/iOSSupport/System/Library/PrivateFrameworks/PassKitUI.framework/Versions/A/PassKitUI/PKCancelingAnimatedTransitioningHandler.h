@@ -19,14 +19,14 @@
 }
 
 - (void);
-- (CDUnknownBlockType);
+- (double);
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (CDUnknownBlockType);
 - (void);
-- (void)bel.;
-- (void)y©Ö\Ý\yÝ\GGAEGSgtGGÿà\yùi_GGÚÖ\G;
-- (double)equence03;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelationHandler; // @synthesize cancelationHandler=_cancelationHandler;

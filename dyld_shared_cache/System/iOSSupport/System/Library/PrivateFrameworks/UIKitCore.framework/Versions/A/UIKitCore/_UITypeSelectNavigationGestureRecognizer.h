@@ -15,17 +15,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
-- (void)P;
-- (void)
+- (_Bool)1Â0@ù
 × ;
-- (void)ntentAreaForScrollerImpPair:(id)arg1;
-- (void)playIsExtended;
-- (_Bool)äo;
-- (void)ÃÁí3Qo__Jyj8Qo__Qcí3Qo__Qo_AFy¢í3GGG;
-- (id)rGlyph:(id)arg1 scale:(SEL)arg2 symbolScaleFactor: /* Error: Ran out of types for this method. */;
+- (id)Á
+!DùQgð1Â0@ù
+× ;
+- (_Bool)0:(id)arg1 8@16@24q32@40;
 - (_Bool);
-- (_Bool)ÁKÿ3»;
+- (_Bool);
+- (void)ASTE_STYLE;
+- (void)idging;
+- (void)utModeIndicatorTimeout;
+- (void)gº;
+- (void)nError;
 
 @end
 

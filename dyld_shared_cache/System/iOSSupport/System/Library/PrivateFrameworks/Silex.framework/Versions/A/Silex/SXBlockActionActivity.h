@@ -23,10 +23,10 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
 - (id);
-- (unsigned long long)on;
-- (CDUnknownBlockType)@48@0:8Q16Q24{_SXConvertibleValue=dQ}32 /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (CDUnknownBlockType);
+- (void)aption";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

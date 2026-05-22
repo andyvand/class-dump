@@ -15,7 +15,7 @@
     NSMutableDictionary *_assetCompletionPairByDigestUUID;
 }
 
-+ (id)areUpdateUrlSessionDelegate;
++ (id)e.dismissedNaturalLightingOnboarding;
 - (void);
 - (void);
 - (void);
@@ -26,9 +26,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)UsersSharedBackingStoreSharedZoneWaitingForShareInvitation;
+- (id);
+- (void)backAction;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *assetCompletionPairByDigestUUID; // @synthesize assetCompletionPairByDigestUUID=_assetCompletionPairByDigestUUID;

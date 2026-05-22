@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)indexManagementTask;
 + (_Bool);
-+ (_Bool);
-+ (id)ControllerChange;
-+ (id)edPreviewCÁAï3G;
-+ (long long)«úe;
++ (_Bool);
++ (_Bool);
++ (id);
++ (id)ion;
++ (long long)4õ^þnË0g;
 
 @end
 

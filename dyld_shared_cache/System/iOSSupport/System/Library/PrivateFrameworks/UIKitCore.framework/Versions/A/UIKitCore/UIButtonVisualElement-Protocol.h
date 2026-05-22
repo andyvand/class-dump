@@ -7,9 +7,6 @@
 @protocol UIButtonControl;
 
 @protocol UIButtonVisualElement
-- (void)led;
-- (void)nSignature;
-- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <UIButtonControl> buttonControl;

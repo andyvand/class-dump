@@ -11,13 +11,13 @@
     NSHashTable *_observers;
 }
 
-+ (id)n;
-- (id)";
-- (void);
-- (void);
-- (void);
++ (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;

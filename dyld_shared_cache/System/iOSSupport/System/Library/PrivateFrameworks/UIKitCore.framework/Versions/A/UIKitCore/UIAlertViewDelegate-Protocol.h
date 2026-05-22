@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAlertView;
-
 @protocol UIAlertViewDelegate
-
-@optional
-- (void)lightIfNeedForPTask:(UIAlertView *)arg1;
 @end
 

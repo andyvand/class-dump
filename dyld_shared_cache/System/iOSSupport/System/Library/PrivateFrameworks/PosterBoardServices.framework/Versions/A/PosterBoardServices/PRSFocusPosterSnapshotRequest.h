@@ -26,11 +26,11 @@
 - (double);
 - (id);
 - (long long);
-- (void);
-- (unsigned long long);
-- (long long);
 - (id);
 - (unsigned long long);
+- (long long);
+- (unsigned long long);
+- (void);
 - (long long);
 
 // Remaining properties

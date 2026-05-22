@@ -6,11 +6,11 @@ class icu::BytesTrie::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(icu::BytesTrie const&, int, UErrorCode&);
     Iterator(void const*, int, UErrorCode&);
-    branchNext(unsigned char const*, int, UErrorCode&);
-    getString() const;
-    hasNext() const;
-    next(UErrorCode&);
-    reset();
-    truncateAndStop();
+    auto branchNext(unsigned char const*, int, UErrorCode&);
+    auto getString() const;
+    auto hasNext() const;
+    auto next(UErrorCode&);
+    auto reset();
+    auto truncateAndStop();
     ~Iterator();
 };

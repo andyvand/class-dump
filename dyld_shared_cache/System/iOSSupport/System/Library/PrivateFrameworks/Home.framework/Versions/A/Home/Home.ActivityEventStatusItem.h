@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Hidden;
 
 // Remaining properties
 @property(nonatomic, readonly) HFActivityLogCoordinator_Swift *activityLogCoordinator; // @synthesize activityLogCoordinator;

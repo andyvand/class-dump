@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, TSDDrawableInfo, TSKSelection;
-@protocol TSDCanvasSelection, TSDContainerInfo;
+@class NSSet, TSDDrawableInfo;
+@protocol TSDContainerInfo;
 
 @protocol TSDCanvasSelection
-+ (TSKSelection<TSDCanvasSelection> *);
-- (unsigned long long);
-- (TSDDrawableInfo<TSDContainerInfo> *)ë;
+- (TSDDrawableInfo<TSDContainerInfo> *)trollerForPresentation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) TSDDrawableInfo<TSDContainerInfo> *container;

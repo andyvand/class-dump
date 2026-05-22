@@ -13,8 +13,8 @@
     MISSING_TYPE *addressString;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

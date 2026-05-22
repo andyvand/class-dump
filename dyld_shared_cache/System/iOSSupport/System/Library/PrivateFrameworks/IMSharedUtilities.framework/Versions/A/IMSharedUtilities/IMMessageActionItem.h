@@ -17,7 +17,7 @@
     NSString *_originalMessageGUID;
 }
 
-+ (_Bool)t;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) long long actionType; // @synthesize actionType=_actionType;

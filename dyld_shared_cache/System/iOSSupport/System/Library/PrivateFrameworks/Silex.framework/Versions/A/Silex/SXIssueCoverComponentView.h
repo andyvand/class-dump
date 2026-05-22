@@ -19,11 +19,11 @@
 - (id);
 - (void);
 - (void);
-- (void)A(0Z;
-- (id);
-- (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)ayRenderer"32@0:8@"MKMapView"16@"<MKOverlay>"24 /* Error: Ran out of types for this method. */;
+- (void)Wà;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *coverView; // @synthesize coverView=_coverView;

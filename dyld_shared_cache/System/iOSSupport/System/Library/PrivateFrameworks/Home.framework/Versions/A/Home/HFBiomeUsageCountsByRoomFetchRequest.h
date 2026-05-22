@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
 - (id);
+- (CDUnknownBlockType);
+- (void)_generatePosterFramesForAsset:(CDUnknownBlockType)arg1 forOffsets:atSize:withHighQualityClip:andTimelapseOffset: /* Error: Ran out of types for this method. */;
+- (void)ntifierSceneBreakfast;
 
 // Remaining properties
 @property(retain) NSMapTable *accessoryRepresentablesByUniqueIdentifier; // @synthesize accessoryRepresentablesByUniqueIdentifier=_accessoryRepresentablesByUniqueIdentifier;

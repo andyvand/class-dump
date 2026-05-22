@@ -10,8 +10,8 @@
 }
 
 - (struct btCollisionShape *);
-- (id);
 - (void);
+- (id);
 
 @end
 

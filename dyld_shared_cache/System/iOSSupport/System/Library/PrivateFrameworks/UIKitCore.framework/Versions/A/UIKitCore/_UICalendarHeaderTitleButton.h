@@ -18,17 +18,18 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (struct CGAffineTransform)ingBlastdoorBackgroundCommand:for:sender:senderContext: /* Error: Ran out of types for this method. */;
-- (void)amFilteringState: /* Error: Ran out of types for this method. */;
+- (struct CGAffineTransform);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (struct CGSize);
 - (void);
-- (void);
-- (void)ttributes;
-- (id)Scene;
-- (struct CGSize);
+- (id);
+- (void)4¶Ø·t¹¼;
+- (void)ØZ¯ÿ
+Ù[ø^;
 
 // Remaining properties
 @property(nonatomic) struct CGAffineTransform chevronTransform;

@@ -4,23 +4,21 @@
 
 class asan {
 public: // (access info unavailable from symbols alone)
-    callDebuggerBreakpointSymbol(asan::Report const&);
-    initCompilerABI(Shadow*);
-    initGlobalVars(Shadow*, asan::GlobalsRegistry*);
-    initGlobalVars(Shadow*, asan::GlobalsRegistry*)::$_0::__invoke(mach_header const*, long);
-    initGlobalVars(Shadow*, asan::GlobalsRegistry*)::$_0::__invoke(mach_header const*, long) (.cold.1);
-    initGlobalsRegistry();
-    initLibmallocHooks(Shadow*);
-    initLibmallocHooks(Shadow*)::$_0::__invoke(unsigned long, unsigned long, unsigned long, unsigned long);
-    initLibmallocHooks(Shadow*)::$_0::__invoke(unsigned long, unsigned long, unsigned long, unsigned long) (.cold.1);
-    initLibmallocHooks(Shadow*)::$_1::__invoke(unsigned long, unsigned long);
-    initLibmallocHooks(Shadow*)::funcs;
-    initReportGeneration(Shadow const*, asan::GlobalsRegistry const*);
-    initRuntime(Shadow*, asan::GlobalsRegistry*);
-    initRuntime(config::ASan const&);
-    initRuntime(config::ASan const&) (.cold.1);
-    initShadow();
-    initShadow() (.cold.1);
-    initShadow() (.cold.2);
-    reportError(asan::Registers, asan::MemoryAccess);
+    auto callDebuggerBreakpointSymbol(asan::Report const&);
+    auto initCompilerABI(Shadow*);
+    auto initGlobalVars(Shadow*, asan::GlobalsRegistry*);
+    auto initGlobalVars(Shadow*, asan::GlobalsRegistry*)::$_0::__invoke(mach_header const*, long);
+    auto initGlobalVars(Shadow*, asan::GlobalsRegistry*)::$_0::__invoke(mach_header const*, long) (.cold.1);
+    auto initGlobalsRegistry();
+    auto initLibmallocHooks(Shadow*)::$_0::__invoke(unsigned long, unsigned long, unsigned long, unsigned long);
+    auto initLibmallocHooks(Shadow*)::$_0::__invoke(unsigned long, unsigned long, unsigned long, unsigned long) (.cold.1);
+    auto initLibmallocHooks(Shadow*)::$_1::__invoke(unsigned long, unsigned long);
+    auto initLibmallocHooks(Shadow*)::funcs;
+    auto initRuntime(Shadow*, asan::GlobalsRegistry*);
+    auto initRuntime(config::ASan const&);
+    auto initRuntime(config::ASan const&) (.cold.1);
+    auto initShadow();
+    auto initShadow() (.cold.1);
+    auto initShadow() (.cold.2);
+    auto reportError(asan::Registers, asan::MemoryAccess);
 };

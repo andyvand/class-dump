@@ -5,8 +5,7 @@
 //
 
 @protocol MTLTextureBinding
-- (unsigned long long)fStop;
-- (unsigned long long);
+- (unsigned long long)?¸W&¾Ðf>×u?B{Y?4¾æB>x?]5W?·Aí½hÍ>~z?U?Ùµ½½;
 
 // Remaining properties
 @property(readonly) unsigned long long arrayLength;

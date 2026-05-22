@@ -18,16 +18,16 @@
 - (struct _NSRange);
 - (struct _NSRange);
 - (id);
-- (id);
+- (id);
 - (const char *);
 - (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (id)@;
 
 @end
 

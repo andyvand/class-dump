@@ -11,8 +11,8 @@
 }
 
 + (_Bool);
-+ (id);
 + (Class);
++ (id);
 
 @end
 

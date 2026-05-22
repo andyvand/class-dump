@@ -10,10 +10,9 @@
 {
 }
 
-- (id);
 - (id);
-- (id)áv°!AùÑË1¢!0@ù
-× ;
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) LNConnectionActionResponse *actionResponse;

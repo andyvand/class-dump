@@ -26,37 +26,37 @@
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)T;
-- (void);
-- (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void)tateAllocbind:(id)arg1;
-- (double)ould not find a linkID to reuse;
-- (id)Session[%@]:delay connectWithSessionInfo for if:%d nat64 prefix. /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
+- (double);
 - (id);
-- (id)emandEnabled;
 - (id);
-- (void);
-- (void);
-- (id);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)ionsWithContext:(id)arg1 handler:] /* Error: Ran out of types for this method. */;
-- (void)ot satisfying:(double)arg1 learnedVisitMO.identifier;
-- (id)A`;
+- (id)ficationDisconnected;
+- (id)RatioMax;
+- (id)erestMO managedObjectWithLocationOfInterest:managedObject:inManagedObjectContext:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)storicallyLocationStarved;
+- (id)isableBackgroundPOIMonitoring;
+- (void)order;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *accessPoints; // @synthesize accessPoints=_accessPoints;

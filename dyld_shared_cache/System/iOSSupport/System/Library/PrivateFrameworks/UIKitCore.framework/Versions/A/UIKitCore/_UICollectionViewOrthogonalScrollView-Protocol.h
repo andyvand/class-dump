@@ -5,9 +5,10 @@
 //
 
 @protocol _UICollectionViewOrthogonalScrollView
-- (struct CGSize)ceHasNoHomeButton;
-- (struct CGPoint)utomatic;
-- (_Bool)y;
+- (struct CGPoint)rAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)etIASignalMissingKeyboardKeyboardDismissed(void);
+- (_Bool)redTextureController33_FDF62CE22547DB2BF49759240B89F9C1LLC8DelegateP;
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint contentOffset;

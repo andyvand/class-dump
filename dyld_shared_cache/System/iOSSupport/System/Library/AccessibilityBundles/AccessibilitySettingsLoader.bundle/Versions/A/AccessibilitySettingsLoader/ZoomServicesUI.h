@@ -18,23 +18,23 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (Class);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
+- (void);
 - (void);
 
 // Remaining properties

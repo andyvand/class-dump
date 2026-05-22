@@ -22,13 +22,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

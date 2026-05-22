@@ -17,7 +17,7 @@
 - (Class);
 - (id);
 - (id);
-- (void);
+- (void)tFirstLocation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *displayImages; // @synthesize displayImages=_displayImages;

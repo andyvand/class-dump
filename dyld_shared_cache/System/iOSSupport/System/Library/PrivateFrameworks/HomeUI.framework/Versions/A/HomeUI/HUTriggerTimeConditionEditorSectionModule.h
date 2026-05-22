@@ -37,7 +37,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)th language %@;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *anyTimeOptionItem; // @synthesize anyTimeOptionItem=_anyTimeOptionItem;

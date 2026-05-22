@@ -25,10 +25,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (unsigned long long);
+- (void)or">24;
 
 // Remaining properties
 @property(retain, nonatomic) HKWorkoutBuilder *builder; // @synthesize builder=_builder;

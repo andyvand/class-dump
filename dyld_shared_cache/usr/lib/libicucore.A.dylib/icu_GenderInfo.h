@@ -5,11 +5,11 @@
 class icu::GenderInfo {
 public: // (access info unavailable from symbols alone)
     GenderInfo();
-    getInstance(icu::Locale const&, UErrorCode&);
-    getListGender(UGender const*, int, UErrorCode&) const;
-    getMaleTaintsInstance();
-    getMixedNeutralInstance();
-    getNeutralInstance();
-    loadInstance(icu::Locale const&, UErrorCode&);
+    auto getInstance(icu::Locale const&, UErrorCode&);
+    auto getListGender(UGender const*, int, UErrorCode&) const;
+    auto getMaleTaintsInstance();
+    auto getMixedNeutralInstance();
+    auto getNeutralInstance();
+    auto loadInstance(icu::Locale const&, UErrorCode&);
     ~GenderInfo();
 };

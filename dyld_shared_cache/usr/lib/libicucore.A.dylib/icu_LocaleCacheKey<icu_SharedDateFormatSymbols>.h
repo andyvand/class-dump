@@ -4,5 +4,5 @@
 
 class icu::LocaleCacheKey<icu::SharedDateFormatSymbols> {
 public: // (access info unavailable from symbols alone)
-    createObject(void const*, UErrorCode&) const;
+    auto createObject(void const*, UErrorCode&) const;
 };

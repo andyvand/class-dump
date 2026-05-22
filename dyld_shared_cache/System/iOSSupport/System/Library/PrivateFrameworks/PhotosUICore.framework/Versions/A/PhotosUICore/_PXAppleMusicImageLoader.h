@@ -21,14 +21,13 @@
 - (void);
 - (id);
 - (void);
-- (struct CGImage *);
-- (void);
-- (void)0e;
 - (id);
-- (id)0@ù
-× ;
-- (id)enamable;
+- (void);
+- (id);
+- (struct CGImage *);
 - (struct CGSize);
+- (id);
+- (void)le;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAppleMusicArtworkAsset *asset; // @synthesize asset=_asset;

@@ -25,17 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (double)oRecordingManager;
-- (void);
+- (double);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)A;
-- (id)currentBrowserConsumer;
-- (id)¨¦ýÿ;
-- (void)gCell;
-- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void)Ä¯#ÿ);
+- (_Bool))j°"æÿ)j gæÿ)j4gÄÿ)jôÄÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;

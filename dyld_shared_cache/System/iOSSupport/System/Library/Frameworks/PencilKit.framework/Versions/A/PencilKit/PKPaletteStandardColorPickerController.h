@@ -14,16 +14,16 @@
     UIViewController *_colorPickerViewController;
 }
 
-- (void)gurationResource:(id)arg1;
-- (void)onthFormat;
+- (void);
+- (void);
 - (long long);
 - (id);
 - (double);
-- (_Bool)ntation>"16@"SASSpeechRecognized"24d32;
-- (void);
+- (_Bool);
 - (id);
 - (id);
-- (id)ler;
+- (id);
+- (void)kManager;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *colorPickerViewController; // @synthesize colorPickerViewController=_colorPickerViewController;

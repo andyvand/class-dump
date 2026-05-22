@@ -7,8 +7,6 @@
 @class NSDate, NSString;
 
 @protocol FBKDownloadableFilePromise
-- (NSString *)ial-scale=1">
-;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UUIDString;

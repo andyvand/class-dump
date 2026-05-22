@@ -28,10 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) WKWebViewConfiguration *videoConfiguration;

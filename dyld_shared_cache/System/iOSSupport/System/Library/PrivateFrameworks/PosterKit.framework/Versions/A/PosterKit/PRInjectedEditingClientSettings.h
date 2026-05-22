@@ -16,7 +16,7 @@
 }
 
 + (_Bool);
-+ (_Bool):editingBehavior:deletionBehavior: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -27,13 +27,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
-- (id);
+- (void)¨Ð!Eù±ñÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

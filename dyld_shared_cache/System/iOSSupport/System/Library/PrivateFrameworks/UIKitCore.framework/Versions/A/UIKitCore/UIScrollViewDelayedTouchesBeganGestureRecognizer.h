@@ -16,23 +16,21 @@
     UIView<UIScrollViewDelayedTouchesBeganGestureRecognizerClient> *_client;
 }
 
-+ (_Bool)?=dd}40@0:8{?=dd}16d32 /* Error: Ran out of types for this method. */;
-+ (_Bool)þ;
++ (_Bool);
++ (_Bool);
 - (void);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void)ø0º;
-- (void)1¢!0@ù
-× ;
-- (void)Áv!0@ùË°1¢!0@ù
-× ;
-- (void)IKeyboardState"16@0:8 /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (void)wLocation:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)imerFiredEvent;
-- (_Bool)assertion.;
-- (id)RateLinksEnabled=%{bool}d;
+- (id);
+- (void)tems:(id)arg1;
+- (void)tooSmallForInstructionalText;
+- (void)nteredGrowth;
+- (void)Generator;
+- (void)iggerAdditions;
+- (void)eBar;
+- (void)dÛ ];
+- (void)Pîc;
+- (void)(Í+ÿm;
 
 @end
 

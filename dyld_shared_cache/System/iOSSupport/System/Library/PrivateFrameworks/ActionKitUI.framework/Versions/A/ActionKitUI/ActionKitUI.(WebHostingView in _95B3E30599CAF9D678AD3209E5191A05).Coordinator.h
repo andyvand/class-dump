@@ -12,8 +12,8 @@
     MISSING_TYPE *loadedRequest;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

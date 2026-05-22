@@ -59,6 +59,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -67,19 +68,20 @@
 - (void);
 - (id);
 - (id);
+- (struct CGSize);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id)1â
+0@ù
+× ;
+- (void)tchResult;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)<;
-- (id)Þ*üÿ,ûÿ;
-- (void)sOverride;
-- (struct CGSize);
-- (void)ÿ;
-- (id)ò¦ÿ=H;
+- (void)idential;
+- (void)eÇputÿeÇutÿ;
+- (id)¹M"5;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentHeight; // @synthesize currentHeight=_currentHeight;

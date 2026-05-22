@@ -26,8 +26,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)ViewInteractionDelegate>";
+- (id);
+- (void)tegerValue == HUTVViewingProfilesOnboardingValue_Continue) || (userInputValue.integerValue == HUTVViewingProfilesOnboardingValue_DontSetup) || (userInputValue.integerValue == HUTVViewingProfilesOnboardingValue_SetupAll);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HUScheduleDateEditorViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

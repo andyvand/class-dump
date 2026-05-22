@@ -30,7 +30,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
+- (void)Qï1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviderFactory> DOMObjectProviderFactory; // @synthesize DOMObjectProviderFactory=_DOMObjectProviderFactory;

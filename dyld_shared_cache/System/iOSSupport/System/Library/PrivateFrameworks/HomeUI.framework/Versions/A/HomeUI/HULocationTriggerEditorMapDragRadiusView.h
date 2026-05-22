@@ -22,19 +22,18 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
-- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id)q/ð1b0@ù
-× ;
-- (id)nText: /* Error: Ran out of types for this method. */;
-- (void)umeItem:(id)arg1;
-- (id)ÿÿ4ÿÿäÿÿ$ÿÿhÿÿ°ÿÿ¨ÿÿÿÿ¨ÿÿøÿÿÿÿ¸ÿÿÐÿÿèÿÿ;
-- (void);
+- (void)HomePodsMultipleHomes;
+- (id)ickControlViewController"16@?0@"HUQuickControlCollectionViewCellContainerViewController"8;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <HULocationTriggerEditorMapDragRadiusViewDelegate> delegate; // @synthesize delegate;

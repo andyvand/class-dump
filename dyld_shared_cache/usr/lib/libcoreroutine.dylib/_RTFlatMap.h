@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)TArchiver addFileToArchive:] /* Error: Ran out of types for this method. */;
 
 @end
 

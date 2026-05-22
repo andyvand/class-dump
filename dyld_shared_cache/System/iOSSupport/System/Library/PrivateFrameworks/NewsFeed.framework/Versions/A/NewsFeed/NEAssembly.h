@@ -11,8 +11,8 @@
     MISSING_TYPE *assemblies;
 }
 
-- (void)_configuration;
 - (id);
+- (void);
 
 @end
 

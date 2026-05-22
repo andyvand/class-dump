@@ -36,17 +36,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (void);
-- (id)ramework/Versions/A/IOKit;
-- (struct CGRect)em/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (struct CGRect);
 - (void);
 - (void);
 - (id);
@@ -67,15 +67,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)2@0:(long long)arg1 8@"<IMDaemonPersistentTaskExecutorMonitor>"16@"NSString"24;
-- (struct CGSize)yServiceReachabilityResponse"24@"NSData"32@"NSString"40;
-- (struct UIEdgeInsets)edWithYou;
+- (_Bool);
+- (struct CGSize);
+- (struct UIEdgeInsets);
 - (id);
-- (struct CGSize)bstonesForRecordIDs:(struct CGSize)arg1;
-- (void)on Ranges for Message:%@. isSWYSpam %@, showQuickAction:%@ swyAppName:%@ /* Error: Ran out of types for this method. */;
-- (void)able message part record;
-- (long long)qos is (%u);
-- (void)hing message record for temporary transferGUID:%@ /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (void);
+- (long long);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -88,28 +88,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (long long);
-- (id);
-- (void)RR;
-- (_Bool);
-- (void)t;
-- (struct CGSize)6I20B24;
-- (void);
-- (id);
-- (void);
-- (struct CGSize)× ;
-- (double)lowsFilteredLuma: /* Error: Ran out of types for this method. */;
-- (id)ts;
-- (void)tText:(id)arg1 alternatives:style: /* Error: Ran out of types for this method. */;
-- (id)elete;
-- (id);
-- (void)ap for unknown view type %ld;
-- (id)or:URL '%@' does not refer to a file /* Error: Ran out of types for this method. */;
-- (void)gsDomain;
 - (struct CGSize);
-- (_Bool)0;
-- (void)Dì^;
-- (void)*fþ;
-- (_Bool)hÓßþHÈ;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (void)0@ù
+× ;
+- (id)Equivalent:modifierFlags: /* Error: Ran out of types for this method. */;
+- (_Bool)b: /* Error: Ran out of types for this method. */;
+- (struct CGSize)ulse;
+- (id)oRect:(struct CGRect)arg1 distanceMeasuringUnitPoint:itemFilter: /* Error: Ran out of types for this method. */;
+- (_Bool)utedBackgroundViewAlpha;
+- (id)hQ¼Q@RW¼X@Y$b´b;
+- (id)nd mode:%d /* Error: Ran out of types for this method. */;
+- (void)@, %@) = (%@);
+- (void)anding;
+- (void)òÓTÞ\;
+- (double);
+- (id)ULÿ°SÝØñ_;
+- (void)Dsÿbí;
+- (_Bool)DèHÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct UIEdgeInsets appliedInsetsToEdgeOfContent;

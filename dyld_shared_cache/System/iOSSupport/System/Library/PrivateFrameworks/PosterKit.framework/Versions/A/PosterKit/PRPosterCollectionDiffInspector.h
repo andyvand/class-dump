@@ -40,8 +40,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)±ñ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *addedAssocPosters;

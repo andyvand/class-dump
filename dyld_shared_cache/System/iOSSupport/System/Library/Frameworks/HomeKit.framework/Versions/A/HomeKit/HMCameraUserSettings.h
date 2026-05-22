@@ -21,8 +21,8 @@
     HMAccessory *_accessory;
 }
 
-+ (id)on;
-+ (id)üm¼oDp´ptrürXspu8vôv;
++ (id);
++ (id)A4EDB0F32A9;
 
 // Remaining properties
 @property(readonly, getter=isAccessModeChangeNotificationEnabled) _Bool accessModeChangeNotificationEnabled;

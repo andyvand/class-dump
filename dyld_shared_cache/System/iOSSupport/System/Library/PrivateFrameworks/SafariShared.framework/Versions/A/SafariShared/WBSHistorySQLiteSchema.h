@@ -14,17 +14,12 @@
 }
 
 + (id);
-- (int)?;
+- (int);
 - (_Bool);
 - (id);
 - (id);
+- (int);
 - (void);
-- (int));
-- (int);
-- (int);
-- (int);
-- (int);
-- (int)@9B;
 - (int);
 - (int);
 - (int);
@@ -33,15 +28,21 @@
 - (int);
 - (int);
 - (int);
-- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
 - (int);
 - (long long);
 - (long long);
 - (id);
 - (void);
-- (int);
+- (id);
 - (void);
-- (id)^K;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *legacyDatabase;

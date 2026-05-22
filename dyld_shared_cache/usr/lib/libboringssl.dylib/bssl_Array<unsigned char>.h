@@ -4,6 +4,6 @@
 
 class bssl::Array<unsigned char> {
 public: // (access info unavailable from symbols alone)
-    InitUninitialized(unsigned long);
+    auto InitUninitialized(unsigned long);
     ~Array();
 };

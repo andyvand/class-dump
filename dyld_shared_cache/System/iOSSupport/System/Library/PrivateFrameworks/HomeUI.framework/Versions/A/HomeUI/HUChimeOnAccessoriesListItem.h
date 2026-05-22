@@ -16,11 +16,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ùq/ð1b0@ù
-× ;
+- (id);
+- (void)rInputValue.integerValue == HULanguageOnboardingValue_SetupLanguage_AssistantDevice_Completed) || (userInputValue.integerValue == HULanguageOnboardingValue_SetupLanguage_AssistantDevice_Cancelled) || (userInputValue.integerValue == HULanguageOnboardingValue_SetupLanguage_AssistantDevice_Customize);
 
 // Remaining properties
 @property(nonatomic) _Bool accessoryIsCameraWithDoorbell; // @synthesize accessoryIsCameraWithDoorbell=_accessoryIsCameraWithDoorbell;

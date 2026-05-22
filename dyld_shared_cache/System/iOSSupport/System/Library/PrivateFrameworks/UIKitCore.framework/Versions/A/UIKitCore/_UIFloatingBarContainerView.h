@@ -7,9 +7,11 @@
 #import <UIKitCore/UIView.h>
 
 @class MISSING_TYPE, _UIScrollPocketCollectorInteraction;
+@protocol _UIFloatingBarContainerDelegate;
 
 @interface _UIFloatingBarContainerView : UIView
 {
+    void delegate;
     MISSING_TYPE *model;
     MISSING_TYPE *hostingView;
     MISSING_TYPE *pointerAssistant;
@@ -24,21 +26,25 @@
 - (void);
 - (void);
 - (id);
-- (void)ia:(unsigned long long)arg1;
-- (void)BeingReplayed:(unsigned long long)arg1;
+- (void);
+- (void);
 - (unsigned long long);
-- (unsigned long long)daemon client;
-- (void)k,G;
-- (_Bool)PAVItemDurationAvailableNotification;
+- (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)Ñd1Â0@ù
+× ;
+- (id)fNecessary;
+- (_Bool)°þÿÿÿÿl;
+- (void)8ØÔh;
+- (void)¡;
 
 // Remaining properties
 @property(nonatomic) unsigned long long _adjacentBarEdges; // @synthesize _adjacentBarEdges;
 @property(nonatomic) unsigned long long _edgesRequiringContentMargin; // @synthesize _edgesRequiringContentMargin;
+@property(nonatomic) __weak id <_UIFloatingBarContainerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, retain) _UIScrollPocketCollectorInteraction *scrollPocketCollectorInteraction;
 @property(nonatomic, readonly) double toolbarOverlayInset;
 

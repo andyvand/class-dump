@@ -17,17 +17,17 @@
 - (void);
 - (id);
 - (struct _NSRange);
-- (struct _NSRange)C;
+- (struct _NSRange);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id)=;
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
 - (unsigned short);
-- (void);
-- (void);
-- (unsigned long long)umn:foreground: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long length; // @synthesize length=_length;

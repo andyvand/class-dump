@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSendMenuPresentation;
-
 @protocol CKSendMenuPresentationDelegate
-- (void)mlNotes;
-- (void);
-- (void)entifier initWithSectionType:(CKSendMenuPresentation *)arg1 ];
 @end
 

@@ -4,12 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol CKSearchResultSupplementryCell
-+ (NSString *);
-- (void)tionAccount;
-- (struct UIEdgeInsets)atingContent;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets marginInsets;

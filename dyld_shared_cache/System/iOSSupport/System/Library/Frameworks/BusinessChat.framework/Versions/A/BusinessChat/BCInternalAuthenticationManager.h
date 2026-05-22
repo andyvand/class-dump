@@ -26,18 +26,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (long long);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)t-person-identifier;
 
 // Remaining properties
 @property(retain, nonatomic) id <ACAccountProtocol> account; // @synthesize account=_account;

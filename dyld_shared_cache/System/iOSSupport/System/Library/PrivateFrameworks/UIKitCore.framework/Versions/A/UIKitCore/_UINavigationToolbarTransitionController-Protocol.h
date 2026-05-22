@@ -5,6 +5,8 @@
 //
 
 @protocol _UINavigationToolbarTransitionController
-- (void)f:fromSettings:transitionContext:lifecycleActionType: /* Error: Ran out of types for this method. */;
+- (void)!Ø@ùÑb°1Â0@ù
+× ;
+- (void)er change when expanding %@. Found %@ in %@ column instead of in secondary column. _perColumnViewControllers are %@;
 @end
 

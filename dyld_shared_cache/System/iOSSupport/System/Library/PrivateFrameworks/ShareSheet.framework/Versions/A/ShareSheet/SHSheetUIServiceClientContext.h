@@ -84,14 +84,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ÿºóuÂ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *activitiesByUUID; // @synthesize activitiesByUUID=_activitiesByUUID;

@@ -29,9 +29,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *binaryPromises;

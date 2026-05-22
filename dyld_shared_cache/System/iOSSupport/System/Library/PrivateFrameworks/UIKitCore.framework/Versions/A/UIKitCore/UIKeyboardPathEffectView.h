@@ -19,37 +19,37 @@
     CADisplayLink *_pointDecayDisplayLink;
 }
 
-- (void)thGUID:(id)arg1 onChat: /* Error: Ran out of types for this method. */;
-- (void)hatRepairController:(id)arg1 repairGUIDWithGUID:onChat: /* Error: Ran out of types for this method. */;
-- (void)atIdentifierForGroupChatWithAccount:(id)arg1;
-- (void)leMiCByDefaultUponReinstallation;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (void),;
-- (void)truncate to.;
-- (void)ted. Initial value Key %@ value %@;
-- (id)ndexing has been throttled;
+- (void);
+- (void);
+- (void);
+- (id);
 - (CDStruct_d2b197d1);
-- (id)R0&;
+- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (double);
-- (_Bool);
 - (void);
-- (void);
-- (void)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (int)oViewController: /* Error: Ran out of types for this method. */;
-- (void)arSelectorDelegate>",W,N,V_delegate;
-- (id);
-- (void);
-- (long long)ú­c;
-- (void),e;
-- (void)»$ÿÊvdi;
-- (void)Ðqj;
-- (id)ÿzãÐok;
+- (int)thHierarchicalColors: /* Error: Ran out of types for this method. */;
+- (id)icsTraits",&,N,V_emojiGraphicsTraits;
+- (void)this method is no longer supported - ignoring update to boundarySupplementaryItems;
+- (long long)°uÿ;
+- (void)?x;
+- (void)VÒ8wg;
+- (void)Ãÿ;
+- (id)Dh;
+- (_Bool)`gÕ²i;
 
 // Remaining properties
 @property(nonatomic) _Bool done; // @synthesize done=_done;

@@ -16,10 +16,10 @@
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NWPathEvaluator *pathEvaluator;

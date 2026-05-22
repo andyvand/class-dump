@@ -29,8 +29,8 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (void);
+- (id)×ø×;
+- (void)rationRestrictedError];
 
 // Remaining properties
 @property(retain, nonatomic) WFDialogAttribution *attribution; // @synthesize attribution=_attribution;

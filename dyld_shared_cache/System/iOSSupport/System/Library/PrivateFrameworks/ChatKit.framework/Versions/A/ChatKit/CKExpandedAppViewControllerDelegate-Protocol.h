@@ -5,8 +5,5 @@
 //
 
 @protocol CKExpandedAppViewControllerDelegate
-
-@optional
-- (_Bool);
 @end
 

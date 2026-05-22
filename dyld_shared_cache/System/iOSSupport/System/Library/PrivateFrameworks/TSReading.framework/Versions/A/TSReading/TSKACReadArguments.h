@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (SEL);
-- (void *);
+- (SEL)ationPoint;
+- (void *)Ä-;
 
 // Remaining properties
 @property(readonly, nonatomic) void *argument; // @synthesize argument=_argument;

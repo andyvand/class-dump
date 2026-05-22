@@ -15,10 +15,10 @@
     NSMutableSet *_toSizeDependencies;
 }
 
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)oller"16@"<SXFullscreenCanvasShowable>"24Q32;
 
 @end
 

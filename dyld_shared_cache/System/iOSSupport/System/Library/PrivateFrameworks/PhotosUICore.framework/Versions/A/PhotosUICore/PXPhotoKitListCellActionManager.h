@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PHCollectionList, PHPhotoLibrary;
+@class NSArray, NSDictionary, PHCollectionList, PHPhotoLibrary;
 
 @interface PXPhotoKitListCellActionManager
 {
@@ -12,24 +12,35 @@
     PHPhotoLibrary *_photoLibrary;
     NSDictionary *_performerClassByType;
     NSDictionary *_mediaTypeActionTypeByGenericType;
+    NSArray *_primaryActionTypes;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
-- (id)ý¸P²76;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (Class);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id)F@ù;
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollectionList *collectionList; // @synthesize collectionList=_collectionList;
 @property(readonly, nonatomic) NSDictionary *mediaTypeActionTypeByGenericType; // @synthesize mediaTypeActionTypeByGenericType=_mediaTypeActionTypeByGenericType;
 @property(readonly, nonatomic) NSDictionary *performerClassByType; // @synthesize performerClassByType=_performerClassByType;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
+@property(readonly, nonatomic) NSArray *primaryActionTypes; // @synthesize primaryActionTypes=_primaryActionTypes;
 
 @end
 

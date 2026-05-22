@@ -21,16 +21,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)@;
-- (void);
-- (void);
-- (id)1¢!0@ù
-× ;
-- (id)Ü_;
-- (id)38SendMenuViewControllerContentProvidingP;
-- (void)¤®y3`¯yýÌ®G7È®yÑ®SgGGSg;
 - (id);
-- (id)¢8¯1;
+- (void);
+- (id);
+- (id)
+× ;
+- (id)1Â0@ù
+× ;
+- (void)UISticker:(id)arg1 sourceRect:browserViewController: /* Error: Ran out of types for this method. */;
+- (void)GAYGAYGSgGG+Ó\yAAyB5µ\GGG;
+- (void)]ujØLÄÿmuj4MÄÿmujÌú§ÿujMÄÿ;
+- (id)·ÿßjØu·ÿAßjÔu·ÿßjÐu·ÿßjðu·ÿßjìu·ÿßjèu·ÿáÞjäu·ÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKAppMenuCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;

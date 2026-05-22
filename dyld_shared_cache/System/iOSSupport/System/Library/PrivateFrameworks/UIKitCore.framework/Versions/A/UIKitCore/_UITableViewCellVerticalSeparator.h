@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (id)ult in a UI glitch - please file a bug on UIKit.;
-- (struct CGSize)ion;
+- (struct CGSize);
+- (id)ayoutCallStack:(struct CGRect)arg1;
 
 @end
 

@@ -16,17 +16,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)n:(id)arg1;
-- (double)StringByReplacingAdaptiveImageGlyphFileTransfersUsingFileTransferProvider:(id)arg1 replacementTextProvider:removedTransferGUIDsOut: /* Error: Ran out of types for this method. */;
+- (id);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)AsÐ!(EùñÆð1¢!0@ù
-× ;
-- (struct CGSize)ObjectsLayoutAfterVisibleGeometryChange;
-- (void)wed per button bar;
+- (void);
+- (struct CGSize)ew.contentWidth;
+- (id)ands. This is a UIKit internal bug.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

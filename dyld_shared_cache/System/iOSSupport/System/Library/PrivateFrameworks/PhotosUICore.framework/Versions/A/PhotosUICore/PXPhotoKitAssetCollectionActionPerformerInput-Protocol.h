@@ -10,12 +10,8 @@
 @protocol PXPhotoKitAssetCollectionActionPerformerInput
 
 @optional
-- (id <UIDragSession>)ù
-× ;
-- (PHFetchResult *)CGAffineTransform=dddddd}}}16;
-- (id <PXMemoryAssetsActionFactory>)entSyndicationConfigurationProviderWithPhotoLibrary: /* Error: Ran out of types for this method. */;
-- (PXAssetsDataSource *)teAdded;
-- (id <UIDropSession>)u'2¬#ÿ;
+- (PXAssetsDataSource *)N,V_diagnosticHUDType;
+- (id <UIDragSession>)H;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetsDataSource *assetsDataSource;

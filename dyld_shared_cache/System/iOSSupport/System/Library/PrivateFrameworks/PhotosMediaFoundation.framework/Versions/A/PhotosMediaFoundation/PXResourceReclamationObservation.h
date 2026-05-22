@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <PXAVResourceReclamationController> controller; // @synthesize controller=_controller;

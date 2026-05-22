@@ -29,14 +29,16 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void)ring initialization... (Cached visibility:(double)arg1 %s;
-- (_Bool)mplate;
+- (void);
+- (void);
+- (id)!úÐ!EùñF°1â
+0@ù
+× ;
+- (_Bool)s;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

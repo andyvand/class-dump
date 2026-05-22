@@ -5,6 +5,5 @@
 //
 
 @protocol AXEndpointVending
-- (void)erface>";
 @end
 

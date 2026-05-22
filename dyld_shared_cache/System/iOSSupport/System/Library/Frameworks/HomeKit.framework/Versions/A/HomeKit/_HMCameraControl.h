@@ -15,17 +15,17 @@
     NSUUID *_profileUniqueIdentifier;
 }
 
-+ (id)eControllerV2Delegate>",W,V_delegate;
++ (id)ome(Wallet) setExpressSettingsAuthData:enableUWB:enableNFCExpress:completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void)ly;
 
 // Remaining properties
 @property __weak _HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;

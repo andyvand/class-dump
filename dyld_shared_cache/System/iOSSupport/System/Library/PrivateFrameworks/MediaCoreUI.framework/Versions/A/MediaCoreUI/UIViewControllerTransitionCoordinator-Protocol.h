@@ -5,6 +5,12 @@
 //
 
 @protocol UIViewControllerTransitionCoordinator
-- (_Bool)ttachments;
+- (_Bool);
+- (_Bool);
+- (void)servationRegistrar;
+- (void)ÞS
+G<T
+SgGÖS
+G;
 @end
 

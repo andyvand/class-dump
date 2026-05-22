@@ -11,9 +11,9 @@
     _Bool _accessibilityIsFetchingChildren;
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (id);
 - (id);
@@ -111,26 +111,25 @@
 - (struct CGPoint);
 - (id);
 - (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (void);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)0@ù
-× ;
-- (id);
-- (void)wForHeaderInSection;
-- (void)UIDatePickerCalendarTimeLabelStateMachineContext;
+- (void)tionAnimated:(id)arg1;
 
 @end
 

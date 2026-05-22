@@ -18,11 +18,13 @@
 - (id);
 - (struct PXSimpleIndexPath);
 - (id);
+- (id)áø!´Fù1E°1â
+0@ù
+× ;
+- (long long)onfiguration"40@0:8@"UIContextMenuInteraction"16{CGPoint=dd}24 /* Error: Ran out of types for this method. */;
+- (long long);
 - (void);
-- (long long);
-- (id)derUUIDs;
-- (id)or an instance inheriting from %@, but it is %@;
-- (long long);
+- (id)à7;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMMomentsInvitationsDataSourceState *_state; // @synthesize _state=__state;

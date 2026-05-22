@@ -5,6 +5,5 @@
 //
 
 @protocol AKAttributePickerViewControllerDelegate
-- (void);
 @end
 

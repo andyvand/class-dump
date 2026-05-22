@@ -18,17 +18,16 @@
 - (long long);
 - (void);
 - (void);
-- (void)Ps
-<;
-- (id)PH'<;
-- (id)P(<;
 - (_Bool);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)"ÒþÿTýÿ"Òþÿ´ëýÿ Òþÿºþýÿ!Òþÿþýÿ%Òþÿþýÿ þýÿLþÿ;
 
 // Remaining properties
 @property(nonatomic) long long touchDeferCounter; // @synthesize touchDeferCounter=_touchDeferCounter;

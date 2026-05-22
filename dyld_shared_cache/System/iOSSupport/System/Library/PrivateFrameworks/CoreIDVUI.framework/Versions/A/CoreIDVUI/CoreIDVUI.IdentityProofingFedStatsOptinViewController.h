@@ -27,18 +27,18 @@
 - (void);
 - (void);
 - (void);
-- (long long);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (long long);
 - (void);
 - (void);
-- (void)iguration;
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 @end
 

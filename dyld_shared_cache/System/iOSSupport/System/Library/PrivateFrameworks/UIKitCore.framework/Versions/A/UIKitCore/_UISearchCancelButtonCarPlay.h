@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)sicVerticalContentSizeForContainer:(struct CGRect)arg1 containerSize: /* Error: Ran out of types for this method. */;
+- (void)bservation;
 - (void);
-- (id);
-- (void)entifier = %@;
 
 @end
 

@@ -4,5 +4,5 @@
 
 class libkern::intrusive_shared_ptr<TLE::AndOperation, TLE::RefCountPolicy> {
 public: // (access info unavailable from symbols alone)
-    reset();
+    auto reset();
 };

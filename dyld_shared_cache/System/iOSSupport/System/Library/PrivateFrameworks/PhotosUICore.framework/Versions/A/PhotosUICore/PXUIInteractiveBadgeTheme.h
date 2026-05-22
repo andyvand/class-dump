@@ -35,24 +35,22 @@
 - (id);
 - (id);
 - (id);
-- (double);
-- (id);
-- (id);
 - (Class);
 - (double);
 - (id);
 - (id);
 - (double);
-- (id);
-- (void)0e;
-- (id);
+- (double);
 - (id);
 - (id);
-- (double)Qy1b0@ù
-× ;
-- (double)Ôav!Dù±zÐ1b0@ù
-× ;
-- (id)tionKind;
+- (id);
+- (id);
+- (double);
+- (id);
+- (double)nloadPriority;
+- (id)HT;
+- (id)Core.StoryDefaultAutoCurationProducer;
+- (void)OptionsPlatterView.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *afterLabelImageTintColor; // @synthesize afterLabelImageTintColor=_afterLabelImageTintColor;

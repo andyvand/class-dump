@@ -36,7 +36,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -44,13 +44,13 @@
 - (void);
 - (void);
 - (void);
-- (void)$ ;
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);

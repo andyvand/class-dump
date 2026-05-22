@@ -4,5 +4,5 @@
 
 class dyld_cache_patchable_location_v4_got {
 public: // (access info unavailable from symbols alone)
-    getPMD(dyld3::MachOFile::PointerMetaData&) const;
+    auto getPMD(dyld3::MachOFile::PointerMetaData&) const;
 };

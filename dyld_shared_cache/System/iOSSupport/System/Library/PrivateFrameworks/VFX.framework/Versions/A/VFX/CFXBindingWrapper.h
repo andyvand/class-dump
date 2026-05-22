@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (long long);
-- (void)P;
+- (void)ó?@Mv?;
 
 // Remaining properties
 @property(retain, nonatomic) id <_TtP3VFX10VFXBinding_> binding; // @synthesize binding;

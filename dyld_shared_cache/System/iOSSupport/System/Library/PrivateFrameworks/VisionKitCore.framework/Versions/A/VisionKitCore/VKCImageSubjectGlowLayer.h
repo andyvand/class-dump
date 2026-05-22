@@ -29,10 +29,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool)nt=dd},N,V_shadowParallax;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;

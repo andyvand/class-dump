@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, UICollectionReusableView, UICollectionViewCell;
+@class NSIndexPath, UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
+- (long long)ÖêïÿbäïÿdñÿTðÿ;
 
 @optional
-- (NSArray *)dding;
-- (_Bool)com.apple.news.ad-integrator;
+- (long long)ÜÕ;
 - (UICollectionViewCell *);
-- (long long)p;
-- (NSIndexPath *)ìUÿ	w½Uÿ	w½pmþ	w½`áþ;
-- (UICollectionReusableView *)Color;
+- (NSIndexPath *);
+- (UICollectionReusableView *)Ù¥?Tñþ;
 @end
 

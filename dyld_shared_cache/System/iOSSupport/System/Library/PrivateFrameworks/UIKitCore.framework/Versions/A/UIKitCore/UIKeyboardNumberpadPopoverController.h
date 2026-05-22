@@ -19,18 +19,19 @@
 }
 
 + (id);
-- (_Bool)lename;
-- (void)ed;
+- (_Bool);
+- (void);
 - (id);
 - (void);
-- (struct CGSize);
 - (void);
-- (void)o!¬Cù1Áð1¢!0@ù
-× ;
-- (void)ss;
-- (id)extLoupeSession;
-- (void)ß¢d;
-- (void)òjÿ«QÝ;
+- (struct CGSize)nt";
+- (void)¸!#ì%X&
+È'((H)*+;
+- (void)iewGesture;
+- (void)osition layout (%@) does not have a sublayout for UICollectionElementKindCell or for section %ld;
+- (id)Ì7
+ÿPD;
+- (void)È(;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

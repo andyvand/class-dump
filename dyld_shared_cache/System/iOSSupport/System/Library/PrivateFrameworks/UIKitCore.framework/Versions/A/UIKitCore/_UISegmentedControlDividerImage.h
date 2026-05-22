@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-- (_Bool)s Unable to send command %d to now playing app.;
++ (_Bool)groundColor;
+- (_Bool);
 
 @end
 

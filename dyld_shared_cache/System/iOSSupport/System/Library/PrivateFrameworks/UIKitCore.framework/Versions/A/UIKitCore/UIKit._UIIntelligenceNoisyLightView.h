@@ -14,15 +14,14 @@
     MISSING_TYPE *lightView;
 }
 
-+ (Class)d;
-- (void);
++ (Class);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)5D530921B5D45A8EA231E2252C983511DimmingView";
+- (void);
+- (id)corationImageView;
+- (void):0 /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -12,15 +12,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool);
-+ (_Bool)ExpandCollapseAnimationGeneration.m;
-- (_Bool);
-- (void)±Ì°1¢!0@ù
++ (_Bool)Xð1Â0@ù
 × ;
-- (id);
-- (int)Context: /* Error: Ran out of types for this method. */;
-- (void)on;
-- (unsigned long long)laÖÿE;
++ (_Bool)int=dd}16{CGPoint=dd}32B48;
+- (id)1Â0@ù
+× ;
+- (void)ntainerView;
+- (int)atingHeading;
+- (_Bool)ðcXd;
+- (void)ironment does not provide a container for focus items.;
+- (unsigned long long)îèÿÈ°J;
 
 @end
 

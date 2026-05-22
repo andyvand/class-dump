@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)<;
-- (void);
-- (void)MusicActionForCurrentNetworkConditions;
-- (id)setUserHasSelectedSkinToneEmoji: /* Error: Ran out of types for this method. */;
-- (void)dard;
-- (void)â];
+- (void);
+- (id);
+- (void);
+- (void)tKind;
+- (void)ius;
+- (void)KeyValueStorage;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

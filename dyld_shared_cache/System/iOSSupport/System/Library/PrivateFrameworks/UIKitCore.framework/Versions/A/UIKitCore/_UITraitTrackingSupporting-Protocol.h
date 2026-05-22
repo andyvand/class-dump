@@ -5,6 +5,5 @@
 //
 
 @protocol _UITraitTrackingSupporting
-- (void)dleRecordStruct}^{__CFArray}^{__CFDictionary}}16@24;
 @end
 

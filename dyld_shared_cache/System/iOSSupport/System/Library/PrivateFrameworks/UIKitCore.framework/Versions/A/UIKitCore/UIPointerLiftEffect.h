@@ -10,8 +10,9 @@
 {
 }
 
-- (unsigned long long);
-- (id)kWþ;
+- (unsigned long long)1Â0@ù
+× ;
+- (id)w;
 
 @end
 

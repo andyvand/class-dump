@@ -51,14 +51,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
-- (void)mberOfItemsPerSection;
+- (void);
+- (_Bool)Style: /* Error: Ran out of types for this method. */;
+- (void)oveItemAtURL:(_Bool)arg1 toURL:error: /* Error: Ran out of types for this method. */;
+- (void)om.apple.photos.pxcplsyncactivity;
+- (void)Ü×{ÿØ{ÿ¸»`;
 - (id);
-- (void)E!4;
-- (id)5;
+- (id)¸o4;
 
 // Remaining properties
 @property(nonatomic) long long bufferingEventsCount; // @synthesize bufferingEventsCount=_bufferingEventsCount;

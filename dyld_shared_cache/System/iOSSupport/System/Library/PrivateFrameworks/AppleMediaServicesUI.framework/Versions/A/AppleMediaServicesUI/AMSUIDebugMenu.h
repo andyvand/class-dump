@@ -9,8 +9,8 @@
 }
 
 + (void);
-- (void);
 - (id);
+- (void)entConstraints;
 
 @end
 

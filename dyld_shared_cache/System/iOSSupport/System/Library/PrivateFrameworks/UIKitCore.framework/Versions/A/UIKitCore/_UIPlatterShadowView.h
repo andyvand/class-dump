@@ -15,22 +15,22 @@ __attribute__((visibility("hidden")))
     _UIShapeView *_shadowMaskView;
 }
 
-- (id)i;
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void):(struct CGSize)arg1 atIndex: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (_Bool)áÐ!;
 - (double);
-- (double);
-- (void);
-- (id)l;
-- (struct CGSize)paratorConfiguration;
-- (id);
-- (void);
+- (void)AndLayoutChangesToLinkedButton;
+- (void)d;
+- (id)Øx;
+- (id)nInfo;
+- (void)Õû;
+- (void)]Ðð¥\;
+- (struct CGSize);
+- (double);
+- (void)äc_;
 
 // Remaining properties
 @property(nonatomic) _Bool punchOut; // @synthesize punchOut=_punchOut;

@@ -14,10 +14,10 @@
 
 + (unsigned int);
 + (id);
-- (void)sion:(id)arg1 error:completion: /* Error: Ran out of types for this method. */;
-- (void)ateInterval:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
+- (void)tput devices on the shared audio presentation context:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

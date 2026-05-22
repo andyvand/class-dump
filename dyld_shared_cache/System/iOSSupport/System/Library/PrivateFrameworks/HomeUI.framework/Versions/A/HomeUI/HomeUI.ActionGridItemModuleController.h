@@ -25,7 +25,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)yOnboardingServiceLocations_Address_Selection_Description;
 
 @end
 

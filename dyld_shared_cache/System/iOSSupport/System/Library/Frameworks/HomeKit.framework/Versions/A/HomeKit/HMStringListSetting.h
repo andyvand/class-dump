@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)ssoryInfoDataProviderDataSource;
 
 // Remaining properties
 @property(readonly, copy) NSArray *stringListValue; // @synthesize stringListValue=_stringListValue;

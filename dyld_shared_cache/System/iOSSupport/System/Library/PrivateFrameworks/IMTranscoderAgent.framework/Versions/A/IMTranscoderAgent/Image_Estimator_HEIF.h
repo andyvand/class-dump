@@ -22,11 +22,11 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;

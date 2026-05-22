@@ -14,13 +14,13 @@
 }
 
 - (id);
-- (void);
-- (void);
-- (long long);
 - (id);
 - (void);
-- (id)ªÈ«4­®x®h¯T³4´Ü¶¼¸4¼\¾;
-- (void);
+- (long long);
+- (id)6@"NSString"24@"NSString"32;
+- (void):detailText:icon: /* Error: Ran out of types for this method. */;
+- (void)_Qo__Qo__Qo__Qo_tGG.þ0GAUGAUG;
+- (void)ion;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *element; // @synthesize element=_element;

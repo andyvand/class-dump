@@ -20,7 +20,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)lassicQuestionAsset;
 
 // Remaining properties
 @property(retain, nonatomic) CKDetailsControllerAdapter *detailsAdapter; // @synthesize detailsAdapter=_detailsAdapter;

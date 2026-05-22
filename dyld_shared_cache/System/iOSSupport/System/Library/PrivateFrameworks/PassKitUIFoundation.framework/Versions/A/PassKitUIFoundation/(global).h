@@ -4,10 +4,10 @@
 
 // Global C++ functions
 
-LayerApplyColor(CALayer*, CALayer*, UIColor*, LayerColorMask, bool);
-LayerApplyColor(CALayer*, UIColor*, LayerColorMask, bool);
-PKCreateBitmapContext(CGSize, bool, double, bool);
-PKCreateCGImage(CGPDFDocument*, CGSize, double);
-PKCreateCGImage(NSURL*);
-ShapeLayerApplyColor(CAShapeLayer*, UIColor*, LayerColorMask, bool);
-simd_matrix4x4(simd_quatf);
+auto LayerApplyColor(CALayer*, CALayer*, UIColor*, LayerColorMask, bool);
+auto LayerApplyColor(CALayer*, UIColor*, LayerColorMask, bool);
+auto PKCreateBitmapContext(CGSize, bool, double, bool);
+auto PKCreateCGImage(CGPDFDocument*, CGSize, double);
+auto PKCreateCGImage(NSURL*);
+auto ShapeLayerApplyColor(CAShapeLayer*, UIColor*, LayerColorMask, bool);
+auto simd_matrix4x4(simd_quatf);

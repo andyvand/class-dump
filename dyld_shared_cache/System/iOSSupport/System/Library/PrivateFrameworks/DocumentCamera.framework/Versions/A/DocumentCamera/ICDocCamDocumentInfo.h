@@ -44,17 +44,17 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (long long);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (short);
+- (id);
+- (id);
+- (id);
 - (void);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (void);
 - (id);
 - (void);
 

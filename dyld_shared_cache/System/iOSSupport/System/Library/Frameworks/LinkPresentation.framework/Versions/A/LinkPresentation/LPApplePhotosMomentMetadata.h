@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (_Bool)V_callback;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -29,7 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
@@ -39,17 +39,17 @@
 - (id);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void)romData:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)on;
-- (unsigned long long)Text;
+- (unsigned long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

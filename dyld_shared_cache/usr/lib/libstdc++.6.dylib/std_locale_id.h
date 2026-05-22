@@ -4,5 +4,5 @@
 
 class std::locale::id {
 public: // (access info unavailable from symbols alone)
-    _M_id() const;
+    auto _M_id() const;
 };

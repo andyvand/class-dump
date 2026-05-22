@@ -4,7 +4,6 @@
 
 class spar::MappedFile {
 public: // (access info unavailable from symbols alone)
-    create(char const*);
-    fromScopedFD(std::__1::shared_ptr<FD>&&);
-    ~MappedFile();
+    auto create(char const*);
+    auto fromScopedFD(std::__1::shared_ptr<FD>&&);
 };

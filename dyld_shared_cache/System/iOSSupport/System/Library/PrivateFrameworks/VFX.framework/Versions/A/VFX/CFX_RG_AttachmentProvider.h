@@ -4,7 +4,7 @@
 
 class CFX::RG::AttachmentProvider {
 public: // (access info unavailable from symbols alone)
-    loadActionForAttachment(CFX::RG::ResourceIdentifier);
-    textureForAttachment(CFX::RG::ResourceIdentifier, CFXTextureDescriptor);
+    auto loadActionForAttachment(CFX::RG::ResourceIdentifier);
+    auto textureForAttachment(CFX::RG::ResourceIdentifier, CFXTextureDescriptor);
     ~AttachmentProvider();
 };

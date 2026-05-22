@@ -4,12 +4,13 @@
 
 class std::basic_ofstream<wchar_t, std::char_traits<wchar_t>> {
 public: // (access info unavailable from symbols alone)
+    auto close();
+    auto is_open();
+    auto is_open() const;
+    auto open(char const*, std::_Ios_Openmode);
+    auto rdbuf() const;
     basic_ofstream();
     basic_ofstream(char const*, std::_Ios_Openmode);
-    close();
-    is_open();
-    is_open() const;
-    open(char const*, std::_Ios_Openmode);
-    rdbuf() const;
+    virtual thunk to ~basic_ofstream();
     ~basic_ofstream();
 };

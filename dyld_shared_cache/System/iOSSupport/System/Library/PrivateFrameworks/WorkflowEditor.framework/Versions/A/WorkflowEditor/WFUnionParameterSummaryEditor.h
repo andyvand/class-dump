@@ -6,44 +6,53 @@
 
 #import <WorkflowEditor/WFModuleSummaryEditor.h>
 
-@class NSString, WFParameter;
+@class NSString, WFEnumerationValuePicker, WFParameter;
 @protocol WFModuleSummarySupporting;
 
 @interface WFUnionParameterSummaryEditor : WFModuleSummaryEditor
 {
     WFModuleSummaryEditor *_subeditor;
     WFParameter<WFModuleSummarySupporting> *_subparameter;
+    WFEnumerationValuePicker *_valuePicker;
 }
 
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -55,6 +64,7 @@
 @property(readonly, nonatomic) WFModuleSummaryEditor *subeditor; // @synthesize subeditor=_subeditor;
 @property(readonly, nonatomic) WFParameter<WFModuleSummarySupporting> *subparameter; // @synthesize subparameter=_subparameter;
 @property(readonly) Class superclass;
+@property(retain, nonatomic) WFEnumerationValuePicker *valuePicker; // @synthesize valuePicker=_valuePicker;
 
 @end
 

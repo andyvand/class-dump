@@ -15,15 +15,15 @@
     _Bool _hasRegisteredForLibraryChanges;
 }
 
-+ (id)èÚÿæß4;
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -30,12 +30,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void)id)_block_invoke;
+- (void)1B50@ù
+× ;
+- (void)tireMusicLibrary;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *id; // @synthesize id=_id;

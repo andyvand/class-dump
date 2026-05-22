@@ -21,15 +21,15 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)_;
+- (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id)a;
 - (id);
-- (void)æ´;
+- (id)eviousItem:prevItems:chatStyle: /* Error: Ran out of types for this method. */;
+- (void)$Îúÿ,?öÿÈÐÿÿ;
+- (void)cáu0;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *createdDate; // @synthesize createdDate=_createdDate;

@@ -30,10 +30,10 @@
     MISSING_TYPE *descriptorObserver;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)zeMemory with negative count;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

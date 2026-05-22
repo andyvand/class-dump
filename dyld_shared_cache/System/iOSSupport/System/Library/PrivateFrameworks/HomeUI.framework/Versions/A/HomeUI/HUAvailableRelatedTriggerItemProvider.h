@@ -41,11 +41,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)allPhone;
 
 // Remaining properties
 @property(readonly, nonatomic) id <HUAvailableRelatedTriggerItemModuleContextProviding> context; // @synthesize context=_context;

@@ -24,13 +24,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)¯íÿÐêÿt~;
-- (id)0A17SearchBarPositionO06SystemD15StorageProtocolP;
-- (void)GG¹!GAJGSgtGGAJGÀÃ!ybÃ!yÔ¶!Gö¸!GGAByACyAByAByAByAByÅ#yACyADyyÉ!yADyAByABy*$yQo_AYGA7_G_AZSgÝÉ!SgA22_SgADyA40__AItGSgtGG_A41_AAyAzAyA35_yADyA40__A4_A40_tGGA4_GGADyA40__A35_yADyA40__A22_A40_tGGtGSgtGG_Qo_A21_GA18_y*¿!GGAJGA28_yA29_yÆµ#GA32_GGGAJGG;
-- (struct UIEdgeInsets)x68;
+- (void)&a!Ê;
+- (struct UIEdgeInsets)th6;
 
 // Remaining properties
 @property(copy, nonatomic) PXBannerViewConfiguration *configuration; // @synthesize configuration=_configuration;

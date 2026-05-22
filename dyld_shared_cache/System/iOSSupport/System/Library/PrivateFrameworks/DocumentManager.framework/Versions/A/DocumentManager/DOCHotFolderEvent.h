@@ -23,10 +23,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (unsigned long long);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;

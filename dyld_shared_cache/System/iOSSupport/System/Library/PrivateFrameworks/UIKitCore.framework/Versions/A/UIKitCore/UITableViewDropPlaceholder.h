@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (CDUnknownBlockType)AtURL:metadata:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
-- (void)¼þ¹;
+- (CDUnknownBlockType);
+- (void)Ê/;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType previewParametersProvider; // @synthesize previewParametersProvider=_previewParametersProvider;

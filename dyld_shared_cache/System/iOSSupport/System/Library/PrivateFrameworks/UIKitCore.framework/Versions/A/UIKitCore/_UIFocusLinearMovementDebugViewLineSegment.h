@@ -18,16 +18,17 @@ __attribute__((visibility("hidden")))
 
 - (struct CGRect);
 - (id);
-- (void)ode;
-- (id)leSet",&,N,V_pendingParticipantIDSetsForRemerge;
+- (void);
 - (id);
 - (id);
 - (id);
-- (void)syndicationIdentifier:%@, asset:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
-- (struct CGRect)u;
-- (long long)butedText;
+- (struct CGRect);
+- (long long)1Â0@ù
+× ;
+- (void)ÉÖl§[;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect endRect; // @synthesize endRect=_endRect;

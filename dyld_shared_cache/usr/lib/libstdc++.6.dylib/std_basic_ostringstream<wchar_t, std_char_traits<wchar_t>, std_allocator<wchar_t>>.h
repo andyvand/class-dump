@@ -4,10 +4,11 @@
 
 class std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> {
 public: // (access info unavailable from symbols alone)
+    auto rdbuf() const;
+    auto str() const;
+    auto str(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&);
     basic_ostringstream(std::_Ios_Openmode);
     basic_ostringstream(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&, std::_Ios_Openmode);
-    rdbuf() const;
-    str() const;
-    str(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&);
+    virtual thunk to ~basic_ostringstream();
     ~basic_ostringstream();
 };

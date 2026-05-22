@@ -11,8 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)inator=%f;
-- (_Bool)%x (suspended=%u, signaled=0x%x), revision=%llu, sets:(long long)arg1;
+- (void)1Â0@ù
+× ;
+- (_Bool)èÌ;
 
 @end
 

@@ -4,5 +4,5 @@
 
 class __gnu_cxx::rope<wchar_t, std::allocator<wchar_t>> {
 public: // (access info unavailable from symbols alone)
-    _S_fetch(__gnu_cxx::_Rope_RopeRep<wchar_t, std::allocator<wchar_t>>*, unsigned long);
+    auto _S_fetch(__gnu_cxx::_Rope_RopeRep<wchar_t, std::allocator<wchar_t>>*, unsigned long);
 };

@@ -16,23 +16,19 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool){CGPoint=dd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (float);
-- (void);
-- (void);
 - (id);
+- (void);
 - (MISSING_TYPE *);
-- (void)C?|ºf?ÅZ@rÀ¾Ú?ºf?d>I@Ï¾ÊÞ?üÇf?¦Ö9@oF¾kÓx?%g?Õ[,@U¾àif?yYg?F\ @¾nüU?w£g?Ê@Z¾èjG?]úg?`@ûæ¾`:?Hh?9
-@Äx¾¡½.?åh?ù?Gÿ¾
-0$?Ðîh?ë?Pp¾Y?-|i?dß?[ì¾pa?[j?ÔÔ?q¾;7	?Q¡j?ÓõÊ?êë¾¶?ó=k?ªIÂ?þ¸}¾Þ<õ>ßûk?º?9*w¾ªÕç>hÌl?r³?¤p¾a4Û>¾ m?]1­?Ði¾8Ï>'n?=c§?¯³a¾9Ã>]o?3¢?ïæY¾¦F¸>p?·^?FzQ¾­n­>Cq?ö?±H¾ßÂ¢>&§r?ì?ÐÐ?¾Õ?>f¾s?C7?C86¾ËK>×t?CÈ?ò´,¾`Z>pìu??© "¾Ö6u>?w?´°?Ç¾lb>
-x?	ù?['¾AP>î
-y?1~?%É¾>> üy?Q/? Dò½"5->âz?-|?ßþÜ½>V¶{?µNx?ÂÇ½>¼w|?rÂt?L²½`tù=$)}?q?pa½T¬Ú=øÅ}?P©n?o½+Ú¼=/P~?nl?mTg½G=TÇ~?yæi?ÑÍ>½ðü=I*?Þh?7½§ÌM=z?×gf?ðÝ¼\=þ¶?:êd?D¥¼y°Å<à?vmc?¼Á /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long collisionCategoryBitMask;

@@ -47,21 +47,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (void)ÅôN¼;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *detailSubtitle; // @synthesize detailSubtitle=_detailSubtitle;

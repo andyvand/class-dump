@@ -19,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)ormer;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

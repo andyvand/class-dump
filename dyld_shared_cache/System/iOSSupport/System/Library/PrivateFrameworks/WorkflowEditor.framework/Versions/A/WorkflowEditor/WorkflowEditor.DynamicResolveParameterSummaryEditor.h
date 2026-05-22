@@ -18,9 +18,10 @@
 - (id);
 - (void);
 - (void);
+- (void)	
+;
+- (long long);
 - (void);
-- (void);
-- (long long);
 
 @end
 

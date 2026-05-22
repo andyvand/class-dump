@@ -17,8 +17,8 @@
     MISSING_TYPE *appConfiguration;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -44,16 +44,16 @@
 - (void);
 - (void);
 - (void);
-- (void)data, error:%@ /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)L:withOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *dataSources;

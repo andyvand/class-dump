@@ -24,6 +24,7 @@
     MISSING_TYPE *legacyMailboxService;
     MISSING_TYPE *keypadViewControllerProvider;
     MISSING_TYPE *callFilteringOnboardingViewController;
+    MISSING_TYPE *shouldShowGreetingButton;
     MISSING_TYPE *recentsDismissalAction;
     MISSING_TYPE *hasLegacyUnreadVoicemails;
     MISSING_TYPE *layoutManager;
@@ -56,16 +57,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (long long);
 - (void);
 - (void);
 - (void);
-- (void)tGQo_SgtGG_­èyASGtGG;
+- (void);
+- (void);
+- (void);
+- (long long)9á´ßy&#ßGG_AAyóßym9á_Qo_ACySiSgGGt;
 
 // Remaining properties
 @property(nonatomic, readonly) UINavigationItem *navigationItem;

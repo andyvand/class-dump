@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     PHMomentShare *_momentShare;
 }
 
-- (id)d;
 - (id);
-- (id)e note;
-- (void);
-- (void)f;
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (void)ôÌ;
 
 // Remaining properties
 @property(readonly, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;

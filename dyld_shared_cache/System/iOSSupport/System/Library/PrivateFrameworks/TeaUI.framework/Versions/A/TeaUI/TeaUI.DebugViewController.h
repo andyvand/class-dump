@@ -16,11 +16,11 @@
 
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)Name;
-- (id)Title;
-- (void);
-- (void);
+- (void)@9þÿ;
+- (void)` ;
 
 @end
 

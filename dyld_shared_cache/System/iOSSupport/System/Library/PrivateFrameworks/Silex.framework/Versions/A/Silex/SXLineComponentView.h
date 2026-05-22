@@ -16,14 +16,15 @@
 
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)w: /* Error: Ran out of types for this method. */;
+- (void)!FùQï1Â0@ù
+× ;
+- (void)úÿ;
 
 // Remaining properties
 @property(retain, nonatomic) SXSolidBorderView *borderView; // @synthesize borderView=_borderView;

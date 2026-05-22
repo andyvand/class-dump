@@ -16,19 +16,20 @@ __attribute__((visibility("hidden")))
     _Bool _hasBusyBackground;
 }
 
-- (Class);
-- (id)<;
-- (id)workResizeErrorDomain;
-- (void);
-- (_Bool)elector: /* Error: Ran out of types for this method. */;
-- (_Bool)upplementaryIndexPaths;
-- (id)nfinishedPressesForEvent:(id)arg1;
-- (id)o find a presenting view controller for view (%@) in window (%@). The interaction's view (or an ancestor) must have an associated view controller for presentation to work.;
-- (id)* _Nonnull __strong, NSLayoutConstraint * _Nonnull __strong, NSLayoutConstraint * _Nonnull __strong);
-- (id)á[;
 - (id);
-- (_Bool);\a;
-- (long long)zDe;
+- (id);
+- (id)ÔaÐ!èAùQ`1Â0@ù
+× ;
+- (id);
+- (_Bool);
+- (_Bool),V_minimumDifference;
+- (id)oolbar",&,N;
+- (Class)e touch surface type has been initialized to:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)aptiveLayout>"16;
+- (id)¼7R0Ñ13¤.;
+- (void)HÉb;
+- (id)»ÿ1;
+- (long long);
 
 @end
 

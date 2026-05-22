@@ -4,10 +4,10 @@
 
 class GLRFunctionCache {
 public: // (access info unavailable from symbols alone)
-    destroy();
-    getFunction(unsigned int) const;
-    getKey(id<MTLFunction>) const;
-    init();
-    newFunctionWithGLIR(id<MTLDeviceSPI>, void*, NSObject<OS_dispatch_data>*, MTLFunctionType);
-    registerBuiltInFunction(id<MTLFunction>);
+    auto destroy();
+    auto getFunction(unsigned int) const;
+    auto getKey(id<MTLFunction>) const;
+    auto init();
+    auto newFunctionWithGLIR(id<MTLDeviceSPI>, void*, NSObject<OS_dispatch_data>*, MTLFunctionType);
+    auto registerBuiltInFunction(id<MTLFunction>);
 };

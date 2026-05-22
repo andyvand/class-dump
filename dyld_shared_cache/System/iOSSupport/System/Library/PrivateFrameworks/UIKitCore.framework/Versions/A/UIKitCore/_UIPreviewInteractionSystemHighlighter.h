@@ -15,19 +15,19 @@ __attribute__((visibility("hidden")))
     UIView *_blinderView;
 }
 
-- (id)B;
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)O�(;
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id)ateCopyForURL:(id)arg1;
+- (id);
 - (void);
-- (void);
+- (void)MetricsTraitDefinition;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *blinderView; // @synthesize blinderView=_blinderView;

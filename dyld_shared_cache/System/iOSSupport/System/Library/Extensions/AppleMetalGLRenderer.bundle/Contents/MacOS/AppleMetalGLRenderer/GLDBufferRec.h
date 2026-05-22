@@ -4,13 +4,13 @@
 
 class GLDBufferRec {
 public: // (access info unavailable from symbols alone)
-    dealloc();
-    dispatchGroupAsync(NSObject<OS_dispatch_queue>*, void () block_pointer);
-    finishCPUAccess();
-    getMemoryPlugin();
-    load();
-    loadUnlocked();
-    restoreData(unsigned int);
-    update(unsigned int);
+    auto dealloc();
+    auto dispatchGroupAsync(NSObject<OS_dispatch_queue>*, void () block_pointer);
+    auto finishCPUAccess();
+    auto getMemoryPlugin();
+    auto load();
+    auto loadUnlocked();
+    auto restoreData(unsigned int);
+    auto update(unsigned int);
     ~GLDBufferRec();
 };

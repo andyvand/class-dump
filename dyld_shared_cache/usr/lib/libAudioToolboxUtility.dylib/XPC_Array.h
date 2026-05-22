@@ -4,7 +4,7 @@
 
 class XPC_Array {
 public: // (access info unavailable from symbols alone)
-    GetArray(unsigned long, XPC_Array&) const;
-    GetDictionary(unsigned long, XPC_Dictionary&) const;
+    auto GetArray(unsigned long, XPC_Array&) const;
+    auto GetDictionary(unsigned long, XPC_Dictionary&) const;
     ~XPC_Array();
 };

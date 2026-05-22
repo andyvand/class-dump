@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)t=%f, _accuracy=%f, CONTENT_MINY=%f, CONTENT_HEIGHT=%f, _parentAdjustment=%@, scrollView=%@;
+- (_Bool)center items enabled:%@, duration:%f. Pending the update instead. /* Error: Ran out of types for this method. */;
 
 @end
 

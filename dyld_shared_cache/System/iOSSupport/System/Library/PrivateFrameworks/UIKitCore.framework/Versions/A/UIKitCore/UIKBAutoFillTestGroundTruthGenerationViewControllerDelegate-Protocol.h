@@ -5,8 +5,5 @@
 //
 
 @protocol UIKBAutoFillTestGroundTruthGenerationViewControllerDelegate
-
-@optional
-- (void)(;
 @end
 

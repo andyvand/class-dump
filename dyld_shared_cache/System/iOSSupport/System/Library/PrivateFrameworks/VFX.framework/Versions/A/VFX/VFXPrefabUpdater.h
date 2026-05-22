@@ -28,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (void)ld:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

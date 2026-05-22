@@ -13,10 +13,10 @@
     MISSING_TYPE *pickerViewController;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)·Ð;
 
 @end
 

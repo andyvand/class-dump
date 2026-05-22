@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)<br />;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *noEmail; // @synthesize noEmail=_noEmail;

@@ -65,25 +65,24 @@
 - (_Bool);
 - (id);
 - (void);
+- (int);
+- (id);
+- (void);
+- (struct CGRect);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (id);
-- (id);
-- (struct CGRect);
+- (float);
 - (void);
 - (id);
 - (void);
 - (id);
-- (float)0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *featureSet; // @synthesize featureSet=_featureSet;

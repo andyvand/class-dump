@@ -12,17 +12,18 @@
     NSArray *_colorPalette;
 }
 
-+ (_Bool)eTraitDidChange;
++ (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *colorPalette; // @synthesize colorPalette=_colorPalette;

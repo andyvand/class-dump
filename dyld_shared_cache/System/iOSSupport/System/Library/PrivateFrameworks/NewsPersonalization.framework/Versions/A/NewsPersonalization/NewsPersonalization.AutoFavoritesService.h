@@ -15,7 +15,7 @@
     MISSING_TYPE *userContextProvider;
     MISSING_TYPE *allowlistProvider;
     MISSING_TYPE *tagService;
-    MISSING_TYPE *sessionDataProvider;
+    MISSING_TYPE *userHasEventHistory;
     MISSING_TYPE *persistence;
     MISSING_TYPE *eligibilityPolicy;
 }

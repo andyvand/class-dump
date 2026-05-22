@@ -22,7 +22,7 @@
 }
 
 + (id);
-+ (id)á;
++ (id);
 - (id);
 - (id);
 - (id);
@@ -44,11 +44,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
+- (void)conformsToProtocol:(id)arg1;
+- (void)entActions;
+- (id)Müÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;

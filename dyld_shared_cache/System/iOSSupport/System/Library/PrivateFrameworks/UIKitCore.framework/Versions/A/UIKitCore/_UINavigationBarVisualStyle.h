@@ -14,68 +14,68 @@ __attribute__((visibility("hidden")))
     _Bool _inPopover;
 }
 
-+ (id);
-- (double);
-- (id);
++ (id)ngs:(long long)arg1 graphicsQuality: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (double);
-- (struct UIEdgeInsets);
-- (double)sRequired:defaultValue:error: /* Error: Ran out of types for this method. */;
-- (double);
-- (double);
-- (double);
-- (double)ableViewSelectionDidChange: /* Error: Ran out of types for this method. */;
-- (double);
-- (double);
-- (void);
-- (double);
-- (_Bool);
-- (double);
-- (double);
-- (double)ipPodcastEpisodePlaybackPosition;
 - (double);
 - (double);
 - (long long);
 - (id);
 - (double);
 - (double);
-- (double)¿Éº;
-- (double)0@ù
-× ;
 - (_Bool);
 - (double);
-- (double)Ð1¢!0@ù
-× ;
+- (void);
 - (double);
-- (double)GùÊ°1¢!0@ù
-× ;
-- (double)!0@ù
-× ;
-- (double)× ;
-- (double)1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16@0:8 /* Error: Ran out of types for this method. */;
-- (double)ontrollerTransitionContext";
-- (_Bool)atedBy:constant: /* Error: Ran out of types for this method. */;
-- (void)ntext;
-- (double)uldSkipRebasingSectionSnapshots:(id)arg1;
-- (double)ectsCADisplays: /* Error: Ran out of types for this method. */;
-- (id)nNavigationBarHidden:(id)arg1;
-- (id)kgroundColor;
-- (double)eWithClassInfo:containerList: /* Error: Ran out of types for this method. */;
-- (double)UnavailableConfigurationUsingState: /* Error: Ran out of types for this method. */;
-- (id)nceForItem:(long long)arg1;
-- (double)q,N,V_stickerType;
-- (double)y",R,N,V_storyboardSegueTemplates;
-- (_Bool)erButtonView;
 - (double);
-- (double)und assertion %@;
-- (double)rShape;
 - (double);
-- (double)_ios;
+- (_Bool);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
 - (id);
-- (double)ó!a;
-- (long long)û7_;
-- (long long)\9;
+- (double);
+- (double);
+- (struct UIEdgeInsets);
+- (double)YÐ1Â0@ù
+× ;
+- (double)0@ù
+× ;
+- (id)× ;
+- (long long);
+- (double)Ô ;
+- (double)ù
+× ;
+- (double)ePickerOverlayPresentation"16q24;
+- (double)";
+- (id)dd}16{CGPoint=dd}32@48;
+- (double)onSupporting:performPasteOfAttributedString:toRange: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (double)setCustomTransitioningView: /* Error: Ran out of types for this method. */;
+- (double)redKeyboardResponderOverride;
+- (_Bool);
+- (double)hed: /* Error: Ran out of types for this method. */;
+- (double)groundStyle;
+- (double)ountForKey:withIncrement:bitFlagValue: /* Error: Ran out of types for this method. */;
+- (id)tusBarStyle;
+- (double)Orientation:(long long)arg1 ,V__expectedViewOrientation;
+- (long long)IKBDelegateAwareInputController;
+- (double)(;
+- (id);
+- (double);
+- (double);
+- (void):(long long)arg1 %ld
+;
+- (double);
+- (double);
+- (double)@;
+- (double)|1ÿbí;
+- (double)ÿL;
 
 // Remaining properties
 @property(readonly, nonatomic) double _legacyButtonFontSize;

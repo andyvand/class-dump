@@ -5,6 +5,5 @@
 //
 
 @protocol RTClientListenerProtocol
-- (void)tation tokens;
 @end
 

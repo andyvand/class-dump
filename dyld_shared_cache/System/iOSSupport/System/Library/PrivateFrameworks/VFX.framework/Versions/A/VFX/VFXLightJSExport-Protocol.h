@@ -7,16 +7,185 @@
 @class NSString, NSURL, VFXLight, VFXMaterialProperty;
 
 @protocol VFXLightJSExport
-- (long long)pSg;
-- (void)uú;
-- (void);
-- (void)@¢ÒT?O=Î@Â¾¾¢:(float)arg1 @ßúT?ëü¶@E¡½¾ê	%@>U?¿`£@ð¼¾rQ@hU?iÃ@a¼¾×L@µU?x@ÇÖ»¾µüî?Õ®U?~q@
-»¾8Ù?âU?Ö:\@Àº¾Í;Æ?÷"V?½J@M£¹¾Ìµ?¸@V?of:@óu¹¾½§?RV?¼,@{×¸¾Øô?EV?
- @.·¾-|?¶òV?Æ@#µ¾ÍY?(W?h^@³¾åx?bX?>Î@Öá°¾|h?Õ³X?pö?X«®¾ÿ	Z?p]Y?ëé?«{¬¾óM?¡Z?±1Ý?ê<ª¾µQA?ÑÍZ?ÒÒ?]§¾¿|6?î²[?õÈ?N(¤¾Ig,?´Ê\?hÀ?¾¼ ¾Ñ#?»î]?8Ù¸?D¾*?! _?Ç²?çª¾f?àc`?®ó«?r¾Ð
-?[Òa?of¦?u"¾*T?]c?r¡?­¾Qø>îd?%ç?¸¾º¿ê>âf?Å?s×¾gHÝ>]Oh?«?
-H{¾ôÐ>fj?F?÷up¾Ò5Ã>fÙk?¶g?¶ød¾M¶>®m?¥h?ºkY¾ë­©>êuo?y±?w1M¾UL>û=q?Ç)?øÆ@¾æ#><÷r?,Ó?à4¾^J>t?]?ø'¾0s><2v?ß~?ÿ¾dx\>ô©w?µz??«¾eÇF>Fy?À²v?1þ½Û1>ªCz? $s?kÔã½Ä>Va{?øùo?ñÈ½Æ
->ò_|?Öm?Ó®½K!ð=ÿ<}?_j?Ï÷½Ï2Ë=aÿ}?`h?L8t½@ú¦=¡~?®f?¦&A½ÏÜ=%#?Áe?½qçB=M?aâc? ¼¼#¿þ<qË?|b?õ7¼»¹x<kó?->a?Z9()°¸ /* Error: Ran out of types for this method. */;
-- (id)P©n?o½+Ú¼=/P~?nl?mTg½G=TÇ~?yæi?ÑÍ>½ðü=I*?Þh?7½§ÌM=z?×gf?ðÝ¼\=þ¶?:êd?D¥¼y°Å<à?vmc?¼Á /* Error: Ran out of types for this method. */;
+- (void),
+    const device int* offsets [[buffer(OFFSETS_BUFFER_INDEX)]],
+    const device uint16_t* indices [[buffer(INDICES_BUFFER_INDEX)]],
+    const device half* weights [[buffer(WEIGHTS_BUFFER_INDEX)]],
+#else
+    const device int* sizes [[buffer(SIZES_BUFFER_INDEX)]],
+    const device int* offsets [[buffer(OFFSETS_BUFFER_INDEX)]],
+    const device int* indices [[buffer(INDICES_BUFFER_INDEX)]],
+    const device float* weights [[buffer(WEIGHTS_BUFFER_INDEX)]],
+#endif
+    device float* srcVertices [[buffer(SRC_VERTEX_BUFFER_INDEX)]],
+    device float* dstVertexBuffer [[buffer(DST_VERTEX_BUFFER_INDEX)]],
+    const device float* duWeights [[buffer(DU_WEIGHTS_BUFFER_INDEX)]],
+    const device float* dvWeights [[buffer(DV_WEIGHTS_BUFFER_INDEX)]],
+    device float* duDerivativeBuffer [[buffer(DU_DERIVATIVE_BUFFER_INDEX)]],
+    device float* dvDerivativeBuffer [[buffer(DV_DERIVATIVE_BUFFER_INDEX)]],
+    const constant KernelUniformArgs& args [[buffer(PARAMETER_BUFFER_INDEX)]]
+)
+{
+    auto current  = thread_position_in_grid + args.batchStart;
+    if(current >= args.batchEnd)
+        return;
+
+    Vertex dst;
+    clear(dst);
+
+
+    auto offset = offsets[current];
+    auto size = sizes[current];
+
+    for(auto stencil = 0; stencil < size; stencil++)
+    {
+        auto vindex = offset + stencil;
+        addWithWeight(dst, readVertex(indices[vindex], srcVertices, args), weights[vindex]);
+    }
+
+    writeVertex(current, dst, dstVertexBuffer, args);
+
+#if OPENSUBDIV_MTL_COMPUTE_USE_DERIVATIVES
+    Vertex du, dv;
+    clear(du);
+    clear(dv);
+
+
+    for(auto i = 0; i < size; i++)
+    {
+        auto src = readVertex(indices[offset + i], srcVertices, args);
+        addWithWeight(du, src, duWeights[offset + i]);
+        addWithWeight(dv, src, dvWeights[offset + i]);
+    }
+
+    writeDu(current, du, duDerivativeBuffer, args);
+    writeDv(current, dv, dvDerivativeBuffer, args);
+#endif
+}
+
+
+// ---------------------------------------------------------------------------
+
+// PERFORMANCE:(NSString *)arg1 stride could be constant, but not as significant as length
+
+//struct PatchArray {
+//    int patchType;
+//    int numPatches;
+//    int indexBase;        // an offset within the index buffer
+//    int primitiveIdBase;  // an offset within the patch param buffer
+//};
+// # of patcharrays is 1 or 2.
+
+uint getDepth(uint patchBits) {
+    return (patchBits & 0xf);
+}
+
+float getParamFraction(uint patchBits) {
+    uint nonQuadRoot = (patchBits >> 4) & 0x1;
+    uint depth = getDepth(patchBits);
+    if (nonQuadRoot == 1) {
+        return 1.0f / float( 1 << (depth-1) );
+    } else {
+        return 1.0f / float( 1 << depth );
+    }
+}
+
+float2 normalizePatchCoord(uint patchBits, float2 uv) {
+    float frac = getParamFraction(patchBits);
+
+    uint iu = (patchBits >> 22) & 0x3ff;
+    uint iv = (patchBits >> 12) & 0x3ff;
+
+    // top left corner
+    float pu = float(iu*frac);
+    float pv = float(iv*frac);
+
+    // normalize u,v coordinates
+    return float2((uv.x - pu) / frac, (uv.y - pv) / frac);
+}
+
+bool isRegular(uint patchBits) {
+    return (((patchBits >> 5) & 0x1u) != 0);
+}
+
+int getNumControlVertices(int patchType) {
+    switch(patchType) {
+        case 3:return 4;
+        case 6:return 16;
+        case 9:return 20;
+        default:return 0;
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+kernel void eval_patches(
+                         uint thread_position_in_grid [[thread_position_in_grid]],
+                         const constant uint4* patchArrays [[buffer(PATCH_ARRAYS_BUFFER_INDEX)]],
+                         device PatchCoord* patchCoords [[buffer(PATCH_COORDS_BUFFER_INDEX)]],
+                         device int* patchIndices [[buffer(PATCH_INDICES_BUFFER_INDEX)]],
+                         device PatchParam* patchParams [[buffer(PATCH_PARAMS_BUFFER_INDEX)]],
+                         device float* srcVertexBuffer [[buffer(SRC_VERTEX_BUFFER_INDEX)]],
+                         device float* dstVertexBuffer [[buffer(DST_VERTEX_BUFFER_INDEX)]],
+                         device float* duDerivativeBuffer [[buffer(DU_DERIVATIVE_BUFFER_INDEX)]],
+                         device float* dvDerivativeBuffer [[buffer(DV_DERIVATIVE_BUFFER_INDEX)]],
+                         const constant KernelUniformArgs& args [[buffer(PARAMETER_BUFFER_INDEX)]]
+                         )
+{
+    auto current = thread_position_in_grid;
+    auto patchCoord = patchCoords[current];
+    auto patchIndex = patchIndices[patchCoord.patchIndex];
+    auto patchArray = patchArrays[patchCoord.arrayIndex];
+    auto patchBits = patchParams[patchIndex].field1; 
+    auto patchType = select(patchArray.x, uint(6), isRegular(patchBits));
+    auto numControlVertices = getNumControlVertices(patchType);
+    auto uv = normalizePatchCoord(patchBits, float2(patchCoord.s, patchCoord.t));
+    auto dScale = float(1 << getDepth(patchBits));
+    auto boundaryMask = int((patchBits >> 8) & 0xFU);
+
+    float wP[20], wDs[20], wDt[20], wDss[20], wDst[20], wDtt[20];
+
+
+    if(patchType == 3) {
+        OsdGetBilinearPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 6) {
+        OsdGetBSplinePatchWeights(uv.x, uv.y, dScale, boundaryMask, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 9) {
+        OsdGetGregoryPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    }
+
+    Vertex dst, du, dv;
+    clear(dst);
+    clear(du);
+    clear(dv);
+
+
+    auto indexBase = patchArray.z + numControlVertices * (patchCoord.patchIndex - patchArray.w);
+    for(auto cv = 0; cv < numControlVertices; cv++)
+    {
+        auto index = patchIndices[indexBase + cv];
+        auto src = readVertex(index, srcVertexBuffer, args);
+        addWithWeight(dst, src, wP[cv]);
+        addWithWeight(du, src, wDs[cv]);
+        addWithWeight(dv, src, wDt[cv]);
+    }
+
+    writeVertex(current, dst, dstVertexBuffer, args);
+
+#if OPENSUBDIV_MTL_COMPUTE_USE_DERIVATIVES
+    if(args.duDesc.y > 0)
+        writeDu(current, du, duDerivativeBuffer, args);
+
+    if(args.dvDesc.y > 0)
+        writeDv(current, dv, dvDerivativeBuffer, args);
+#endif
+
+
+}
+
+ /* Error: Ran out of types for this method. */;
+- (id);
+- (float)?Ì?uå+?;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *IESProfileURL;

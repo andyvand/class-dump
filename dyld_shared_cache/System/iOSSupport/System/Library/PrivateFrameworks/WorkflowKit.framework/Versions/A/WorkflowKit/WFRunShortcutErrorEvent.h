@@ -19,7 +19,7 @@
     NSString *_automationType;
 }
 
-+ (Class)myl«°myl¬Ö0%EÉ;
++ (Class);
 - (_Bool);
 - (void);
 - (void);
@@ -29,12 +29,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)dification step:(id)arg1 %@;
+- (void)e_2;
+- (void)ount);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIFont, UIHoverStyle, UIShape;
+@class UIColor, UIHoverStyle, UIShape;
 
 @protocol _UIContextMenuCellLayout
-- (void)o create fullKey from %@, %@;
-- (UIHoverStyle *);
-- (UIShape *);
-- (UIFont *)egacyCommandsWithDate:(_Bool)arg1;
 - (void);
-- (long long)SString *getkMRMediaRemoteOptionIsExternalPlayerCommand(void);
-- (id)ognizer.m;
+- (long long)linear focus movement.;
+- (id)Nullable __strong, SEL _Nonnull, BOOL (^ _Nonnull __strong)(id  _Nonnull __strong, BOOL * _Nonnull));
 
 // Remaining properties
 @property(readonly, nonatomic) UIShape *contentShape;

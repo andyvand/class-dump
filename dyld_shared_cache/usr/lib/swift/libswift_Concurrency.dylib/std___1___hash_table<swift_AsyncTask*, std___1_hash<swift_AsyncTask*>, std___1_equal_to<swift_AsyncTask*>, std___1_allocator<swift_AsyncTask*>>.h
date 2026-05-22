@@ -4,6 +4,7 @@
 
 class std::__1::__hash_table<swift::AsyncTask*, std::__1::hash<swift::AsyncTask*>, std::__1::equal_to<swift::AsyncTask*>, std::__1::allocator<swift::AsyncTask*>> {
 public: // (access info unavailable from symbols alone)
-    __do_rehash<true>(unsigned long);
-    remove(std::__1::__hash_const_iterator<std::__1::__hash_node<swift::AsyncTask*, void*>*>);
+    auto remove(std::__1::__hash_const_iterator<std::__1::__hash_node<swift::AsyncTask*, void*>*>);
+    std::__1::pair<std::__1::__hash_iterator<std::__1::__hash_node<swift::AsyncTask*, void*>*>, bool> __emplace_unique_key_args<swift::AsyncTask*, swift::AsyncTask* const&>(swift::AsyncTask* const&, swift::AsyncTask* const&);
+    void __do_rehash<true>(unsigned long);
 };

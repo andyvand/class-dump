@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     struct __IOHIDManager *_hidManager;
 }
 
-- (_Bool)CloudBackupEnabled;
-- (void)obuf object of type %@;
-- (id)y;
-- (void)referredMorphingAxis;
-- (void)only be logged once.;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void)wnScale;
 
 @end
 

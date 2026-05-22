@@ -5,7 +5,8 @@
 //
 
 @protocol PXTungstenSettings
-- (_Bool)× ;
+- (long long)mponentForClass: /* Error: Ran out of types for this method. */;
+- (_Bool)nt - sublayoutChangeDetails.removedIndexes.count == countAfterChanges;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowBlockingDueToFences;

@@ -23,59 +23,61 @@
 }
 
 + (long long);
-- (id);
-- (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (double);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (double);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (id)ontroller";
-- (void)Path"40;
-- (id): /* Error: Ran out of types for this method. */;
-- (id),;
-- (id)Íøÿ8hûÿzÍøÿ;
-- (id)lectionList;
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (double);
+- (id);
+- (id)ÔÁøð!ðBùEð1â
+0@ù
+× ;
+- (void){?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16@784;
+- (id)ion;
+- (id)ssArea;
+- (void)ultBarButtonItems;
+- (id);
+- (id)ItemsLayoutSpec.swift;
+- (void)TripsFeedNavigationBarTitle;
 - (id);
-- (void)YZyÛhZG_Qo_iH!y³À#SgGGG)F#G;
-- (double)#y:(id)arg1 P#yx_rE#y_<#yytÓP#y5?!ygP!ÊJ!y¼K!SgGGGGQo_Qo__SSQo_AOGGxG;
+- (id)ÀÔ¥'ÿ0¥'ÿx`;
+- (_Bool);
+- (id)|¬ÿÕÉ¤ºÿÉ¬ºÿÝÉ¼ºÿ;
+- (void)97ô4;
+- (void)Oä;
+- (id)5=ÊTnBÿ;
+- (void)ntifier;
+- (id)5ÿ;
 - (id);
-- (id);
-- (id)eyAsset;
-- (void)tion;
-- (_Bool)Repository;
-- (id);
 - (void);
+- (id)~T¤±3;
 - (id);
-- (void)ÿ;
-- (id)ÆûA9;
-- (_Bool)äÜøÿO×¶8;
+- (void))øÿ±h4;
+- (id)¦N¬5;
+- (id)q;
 
 // Remaining properties
 @property(retain, nonatomic) PXActionPerformer *activeActionPerformer; // @synthesize activeActionPerformer=_activeActionPerformer;

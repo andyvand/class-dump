@@ -5,7 +5,5 @@
 //
 
 @protocol SMInitiatorSessionMonitorProtocol
-- (void);
-- (void)h;
 @end
 

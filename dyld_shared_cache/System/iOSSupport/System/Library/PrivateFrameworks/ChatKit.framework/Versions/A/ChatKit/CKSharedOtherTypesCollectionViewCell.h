@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)te recent System Paper thumbnail because the most recent note doesn't have one;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *thumbnailImageView; // @synthesize thumbnailImageView=_thumbnailImageView;

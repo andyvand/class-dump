@@ -11,13 +11,13 @@
     CNFuture *_familyInfoFuture;
 }
 
-+ (id)È@e5ØÇ;
++ (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
 - (id);
+- (void)ithHandle:contact: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNFuture *familyInfoFuture; // @synthesize familyInfoFuture=_familyInfoFuture;

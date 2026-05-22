@@ -27,33 +27,33 @@
     id <MPCPlabackEngineEventStreamTestingDelegate> _testingDelegate;
 }
 
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)`s;
+- (id);
 - (_Bool);
-- (id)NSArray">32;
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)dation;
-- (void)ation.framework/Versions/A/CoreFoundation;
 - (void);
-- (void)nothing on the account actually changed.;
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id)h:error: /* Error: Ran out of types for this method. */;
-- (void)ocalDevice;
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)lic}@ %2i %{public}@  â crossfadeDuration:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *engineID; // @synthesize engineID=_engineID;

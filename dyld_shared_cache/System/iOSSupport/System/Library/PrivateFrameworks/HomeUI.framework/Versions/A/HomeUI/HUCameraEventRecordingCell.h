@@ -20,7 +20,7 @@
     CALayer *_debugMarkerLayer;
 }
 
-+ (id);
++ (id)illPresentForElement: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -52,19 +52,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)A&Ð!`Cù101b0@ù
-× ;
-- (id)Ä
-;
-- (unsigned long long)lÀÿÏI­;
+- (void);
+- (id);
+- (void)ectionModule conditionIsDisabled];
+- (id)orContext;
+- (unsigned long long)AAyAAyID~y6GGo}yAGGGtGG_	ôAAyAAyAkLy~SgGGAQGSgtGGL|yÖ¶GG;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *badgeLayer; // @synthesize badgeLayer=_badgeLayer;

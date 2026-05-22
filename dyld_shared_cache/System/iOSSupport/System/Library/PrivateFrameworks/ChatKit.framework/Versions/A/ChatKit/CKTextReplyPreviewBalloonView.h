@@ -12,22 +12,22 @@
     _Bool _shouldUseFilledBalloonStyle;
 }
 
-- (struct UIEdgeInsets)le: /* Error: Ran out of types for this method. */;
-- (_Bool)idFailWithError: /* Error: Ran out of types for this method. */;
-- (void)a;
-- (struct UIEdgeInsets)ote;
-- (struct CGSize)riptNotificationQueryEnteredKey;
+- (struct UIEdgeInsets);
+- (_Bool);
+- (void);
+- (struct UIEdgeInsets);
+- (struct CGSize);
 - (struct CGSize);
 - (void);
 - (struct CKBalloonDescriptor_t);
 - (void);
 - (_Bool);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)ctItem:inChat: /* Error: Ran out of types for this method. */;
-- (void)w: /* Error: Ran out of types for this method. */;
-- (id)lCompletion;
 
 // Remaining properties
 @property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;

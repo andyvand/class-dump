@@ -13,14 +13,15 @@
     double _scale;
 }
 
-+ (id)¹;
-- (struct CGSize)wPairedWatch;
++ (id);
+- (struct CGSize);
 - (id);
-- (void) /º;
-- (double)thName: /* Error: Ran out of types for this method. */;
-- (struct CGSize)xy;
-- (id)eading>",&,N,S_setStoredActivityItemsConfiguration: /* Error: Ran out of types for this method. */;
-- (id);
+- (struct CGSize)0@ù
+× ;
+- (double)dingBarState";
+- (id)edSubviewAdded: /* Error: Ran out of types for this method. */;
+- (id)FullHeightUntransformedFrameForDepthLevel;
+- (void):Ùþ^÷×Hd /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double pixelAspectRatio;

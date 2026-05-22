@@ -13,15 +13,15 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (int);
 - (void);
 - (id);
 - (id);
-- (id);
 - (_Bool);
-- (void);
-- (id)nelInputStreamAdapter seekToOffset:(id)arg1 ];
+- (id);
+- (id)× ;
+- (void)ûÿXà;
 
 // Remaining properties
 @property(nonatomic) int compactStyleStartUnit; // @synthesize compactStyleStartUnit=mCompactStyleStartUnit;

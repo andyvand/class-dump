@@ -5,6 +5,5 @@
 //
 
 @protocol SFUBufferedInputStream
-- (_Bool);
 @end
 

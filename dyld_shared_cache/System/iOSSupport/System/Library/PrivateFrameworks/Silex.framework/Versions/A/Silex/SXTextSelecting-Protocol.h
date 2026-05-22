@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol SXTextSelecting
+- (NSString *)<SXQuickLookModule>"16@?0@"<TFResolver>"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *selectedText;

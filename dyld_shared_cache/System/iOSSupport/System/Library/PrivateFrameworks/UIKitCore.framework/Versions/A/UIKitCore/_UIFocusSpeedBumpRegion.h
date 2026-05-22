@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool)adIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)tHighlightView;
 
 // Remaining properties
 @property(nonatomic) unsigned long long speedBumpEdges; // @synthesize speedBumpEdges=_speedBumpEdges;

@@ -15,39 +15,39 @@
     NSViewHost *_viewHost;
 }
 
-- (id)`;
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (struct CGSize)mFiltering;
-- (id)Style:foundChat: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)RGBA8Uint;
-- (_Bool);
 - (struct CGSize);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)Çð1¢!0@ù
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (struct CGSize);
+- (_Bool)0@ù
 × ;
+- (Class)v24@0:8@"<NSCopying><NSSecureCoding>"16 /* Error: Ran out of types for this method. */;
+- (void)Item:(id)arg1;
+- (id):(struct CGRect)arg1;
+- (void)ionContext>",&,N,V_context;
+- (void)e;
+- (void);
+- (id)¤ì ¡;
+- (_Bool)orresponding call toUIScene._extendStateRestoration;
+- (void)tionBottom;
 - (void);
-- (_Bool)sentationController: /* Error: Ran out of types for this method. */;
-- (void)ont:(id)arg1 suggestingTheDefaultFont:(id)arg2;
-- (void)hHeadroomSuppressionLimit:(id)arg1;
-- (id)tton: /* Error: Ran out of types for this method. */;
-- (_Bool)d;
-- (id)´ïñöÈ÷;
-- (_Bool)~;
-- (struct UIEdgeInsets)ly focused managed subview %@;
-- (id)´üÿÌ{þÿüÿ;
-- (_Bool)OOL _BRIsURLInMobileDocuments(NSURL *__strong);
-- (Class)t to assign a representative item from the bar button items of the target group (rep=%@, group=%@);
+- (struct UIEdgeInsets);
+- (void)¼Z;;
 
 // Remaining properties
 @property(nonatomic, readonly) Class _intelligenceBaseClass;

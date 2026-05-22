@@ -4,12 +4,12 @@
 
 class std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char>>> {
 public: // (access info unavailable from symbols alone)
-    _M_insert<false>(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, std::string const&) const;
-    _M_insert<true>(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, std::string const&) const;
-    do_put(std::ostreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, char, long double) const;
-    do_put(std::ostreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, char, std::string const&) const;
+    auto do_put(std::ostreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, char, long double) const;
+    auto do_put(std::ostreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, char, std::string const&) const;
+    auto put(std::ostreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, char, long double) const;
+    auto put(std::ostreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, char, std::string const&) const;
     money_put(unsigned long);
-    put(std::ostreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, char, long double) const;
-    put(std::ostreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, char, std::string const&) const;
+    std::ostreambuf_iterator<char, std::char_traits<char>> _M_insert<false>(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, std::string const&) const;
+    std::ostreambuf_iterator<char, std::char_traits<char>> _M_insert<true>(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, std::string const&) const;
     ~money_put();
 };

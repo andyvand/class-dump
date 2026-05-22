@@ -4,6 +4,6 @@
 
 class __gnu_cxx::__concurrence_lock_error {
 public: // (access info unavailable from symbols alone)
-    what() const;
+    auto what() const;
     ~__concurrence_lock_error();
 };

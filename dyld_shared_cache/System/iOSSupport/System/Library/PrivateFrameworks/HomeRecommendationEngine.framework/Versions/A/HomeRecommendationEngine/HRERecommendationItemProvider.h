@@ -42,12 +42,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HFAccessoryTypeGroup *accessoryTypeGroup; // @synthesize accessoryTypeGroup=_accessoryTypeGroup;

@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void)ager;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) SXMutableDOMAnalysis *analysis;

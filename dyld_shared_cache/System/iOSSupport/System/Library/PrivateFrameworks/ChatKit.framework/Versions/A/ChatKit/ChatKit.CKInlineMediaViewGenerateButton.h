@@ -22,11 +22,11 @@
 
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
-- (id)P`úÿ;
+- (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isGenerativeAssetAppearance; // @synthesize isGenerativeAssetAppearance;

@@ -7,15 +7,18 @@
 @class UIView, UIViewController;
 
 @protocol UIViewControllerContextTransitioning
-- (void)ems;
-- (_Bool)nBuilders;
-- (UIView *)G;
-- (struct CGRect);
-- (struct CGAffineTransform);
-- (void)ntifierRoomList;
-- (long long)n LANGUAGE Setup (%@);
-- (_Bool)gle.fill;
-- (UIViewController *)iew;
+- (UIView *)1â
+0@ù
+× ;
+- (long long)Td,N,V_endTime;
+- (struct CGRect)setControlView:(UIViewController *)arg1;
+- (UIViewController *);
+- (_Bool)Ä&;
+- (struct CGAffineTransform)¤;
+- (_Bool)non-zero value;
+- (UIView *)armEditViewControllerTableViewCellIdentifier;
+- (void)il_MultipleMeters;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

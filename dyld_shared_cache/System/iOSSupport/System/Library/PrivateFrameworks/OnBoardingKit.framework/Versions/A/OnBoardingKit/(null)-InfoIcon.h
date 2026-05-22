@@ -6,7 +6,7 @@
 
 @interface (null) (InfoIcon)
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 @end

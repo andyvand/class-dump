@@ -17,7 +17,7 @@
 + (unsigned long long);
 + (id);
 - (long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties

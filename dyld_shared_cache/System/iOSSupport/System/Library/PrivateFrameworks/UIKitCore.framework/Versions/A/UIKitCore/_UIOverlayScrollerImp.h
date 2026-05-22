@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGRect);
 - (void);
-- (id)ngCellMarginWidth: /* Error: Ran out of types for this method. */;
-- (void)astFocusIndicator;
+- (id);
+- (void);
 
 @end
 

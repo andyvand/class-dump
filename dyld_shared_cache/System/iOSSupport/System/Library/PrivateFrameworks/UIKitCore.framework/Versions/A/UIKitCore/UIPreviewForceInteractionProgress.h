@@ -24,27 +24,27 @@
     _Bool _completesAtTargetState;
 }
 
-- (void)pletionHandler:(_Bool)arg1;
-- (id)>",R,N;
-- (id)V_fileSize;
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (long long)e to check exit zone record Error:%@ /* Error: Ran out of types for this method. */;
-- (void)hat:(long long)arg1 %@;
-- (void)pdate chat services table with service %@ for chat with guid %@ error:(id)arg1 %@;
-- (void)ncomingSatelliteMessageCount to:(_Bool)arg1 %d;
-- (void)%@ };
-- (id)/IMDaemonCore/IMDChatRegistry.m;
-- (id)has expired;
-- (id)e occurrence exceeded;
-- (void)ollaborationNoticeController.NoticeArrayQueue;
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)¡ÿ©5Ø´e;
 
 // Remaining properties
 @property(nonatomic, setter=_setClassifierShouldRespectSystemGestureTouchFiltering:) _Bool _classifierShouldRespectSystemGestureTouchFiltering;

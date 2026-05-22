@@ -20,15 +20,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (id)BackgroundSettingsPeriodicAnalytics:Updated last report date to %@ (hour:%ld /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
+- (long long);
 - (_Bool);
 - (id);
-- (void)ationContext;
-- (long long);
 - (void);
+- (void)á÷ð!tAùqÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;

@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     int _outDirection;
 }
 
-+ (id):(_Bool)arg1 <%s:(double)arg2 %p>;
-- (id)ring;
++ (id)ompleteImmediatelyQueue;
 - (_Bool);
 - (id);
-- (void)¡8-º;
-- (int)º;
-- (_Bool)DynamicScale;
-- (id)¨dZÿæ²ÕP9q;
-- (id)An;
+- (id);
+- (_Bool)IndexTitleBarFocusGuide;
+- (int)_shouldCatchDecodingExceptions;
+- (id)learGlassView;
+- (id)on;
+- (void)actions;
 
 // Remaining properties
 @property(nonatomic) int outDirection; // @synthesize outDirection=_outDirection;

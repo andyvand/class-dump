@@ -75,18 +75,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -94,8 +94,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (unsigned long long);
+- (void)eUpdateMigrationInProgressTitleSingluar;
 
 // Remaining properties
 @property(retain, nonatomic) HFAccessoryCategoryItemProvider *allowedAccessoryCategoryItemProvider; // @synthesize allowedAccessoryCategoryItemProvider=_allowedAccessoryCategoryItemProvider;

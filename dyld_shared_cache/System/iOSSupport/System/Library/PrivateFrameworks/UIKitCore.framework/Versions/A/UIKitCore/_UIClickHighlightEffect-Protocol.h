@@ -7,11 +7,8 @@
 @class UITargetedPreview;
 
 @protocol _UIClickHighlightEffect
-+ (id);
-- (UITargetedPreview *)@;
-- (UITargetedPreview *)udKitSyncDebuggingInfo: /* Error: Ran out of types for this method. */;
-- (void)latform does not support AudioToolbox.framework;
-- (void (^)(id <_UIClickHighlightEffect>))et *const __strong, _UIMutableFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
+- (void (^)(id <_UIClickHighlightEffect>))ividerLine;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock;

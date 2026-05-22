@@ -12,12 +12,12 @@
     id <SXIssueCoverLayoutAttributesFactory> _layoutOptionsFactory;
 }
 
-- (id)R;
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)omponent;
+- (id);
+- (int);
+- (void)on"24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

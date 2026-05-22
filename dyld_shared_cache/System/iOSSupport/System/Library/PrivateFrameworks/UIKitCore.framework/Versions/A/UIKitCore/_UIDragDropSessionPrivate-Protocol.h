@@ -5,7 +5,6 @@
 //
 
 @protocol _UIDragDropSessionPrivate
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long _dataOwner;

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CALayer, NSString;
+@protocol CAAction;
+
 @protocol CALayerDelegate
+
+@optional
+- (id <CAAction>):(CALayer *)arg1 withOptions:(NSString *)arg2 change: /* Error: Ran out of types for this method. */;
 @end
 

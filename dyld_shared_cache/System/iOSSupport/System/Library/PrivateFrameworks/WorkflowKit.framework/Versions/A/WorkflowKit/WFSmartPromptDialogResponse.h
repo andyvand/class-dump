@@ -17,14 +17,14 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool)ction Name);
++ (_Bool);
 - (id);
+- (id);
+- (id)0çAÓ;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
+- (void)eErrorDomain;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *promptedStatesData; // @synthesize promptedStatesData=_promptedStatesData;

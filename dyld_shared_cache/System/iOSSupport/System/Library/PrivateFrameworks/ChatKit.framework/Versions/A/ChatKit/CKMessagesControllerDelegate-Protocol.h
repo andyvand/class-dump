@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMessagesController;
-
 @protocol CKMessagesControllerDelegate
-- (void)tFilteredModernSourceObjects:(CKMessagesController *)arg1;
-- (void)bject<ICTTTextUndoTarget>",W,V_overrideUndoTarget;
 @end
 

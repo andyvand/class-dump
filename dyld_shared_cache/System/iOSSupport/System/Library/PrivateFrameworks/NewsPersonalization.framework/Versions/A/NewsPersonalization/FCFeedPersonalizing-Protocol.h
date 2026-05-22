@@ -7,7 +7,6 @@
 @class FCFeedPersonalizingEnvironment;
 
 @protocol FCFeedPersonalizing
-- (double)9	;
 
 // Remaining properties
 @property(readonly, nonatomic) FCFeedPersonalizingEnvironment *feedPersonalizingEnvironment;

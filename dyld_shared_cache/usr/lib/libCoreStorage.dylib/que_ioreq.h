@@ -4,9 +4,9 @@
 
 class que_ioreq {
 public: // (access info unavailable from symbols alone)
-    deque(ioreq_ent*, long long);
-    enque(ioreq_ent const&);
+    auto deque(ioreq_ent*, long long);
+    auto enque(ioreq_ent const&);
+    auto wakeup_when_empty();
     que_ioreq(unsigned long);
-    wakeup_when_empty();
     ~que_ioreq();
 };

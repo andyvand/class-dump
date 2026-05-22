@@ -32,14 +32,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ä àÿ!àÿ\!àÿ !àÿÌ!àÿð!àÿ"àÿH"àÿ"àÿ¨"àÿ#àÿ@$àÿL$àÿx%àÿd&àÿ°&àÿÜ&àÿ;
 - (void);
+- (void)Ä;
+- (void)4O0/Library/Caches/com.apple.xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/VideoAdTracker.swift;
+- (void)øÐXÿ;
+- (void)<ã4;
 - (void);
 
 @end

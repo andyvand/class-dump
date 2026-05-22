@@ -11,10 +11,10 @@
     MISSING_TYPE *gpViewController;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
+- (void).l¬²ÿ;
 
 @end
 

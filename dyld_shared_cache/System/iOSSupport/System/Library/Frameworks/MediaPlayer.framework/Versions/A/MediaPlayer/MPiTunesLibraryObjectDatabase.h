@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (id);
-- (id)ng:(id)arg1;
-- (void);
 - (id);
+- (id);
+- (void)ingUpdates;
 
 // Remaining properties
 @property(nonatomic) _Bool hasRadioItem; // @synthesize hasRadioItem=_hasRadioItem;

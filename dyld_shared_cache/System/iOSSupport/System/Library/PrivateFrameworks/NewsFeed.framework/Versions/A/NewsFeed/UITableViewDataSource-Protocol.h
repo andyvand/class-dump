@@ -5,6 +5,5 @@
 //
 
 @protocol UITableViewDataSource
-- (long long);
 @end
 

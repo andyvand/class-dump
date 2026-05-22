@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ertZonesText;
-- (id)0;
+- (id);
+- (id)veUserWithoutConfirmation:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ger.m;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMAccessoryNetworkProtectionGroup *group; // @synthesize group=_group;

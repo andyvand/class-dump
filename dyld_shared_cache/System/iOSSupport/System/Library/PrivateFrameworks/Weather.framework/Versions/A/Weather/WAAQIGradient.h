@@ -21,9 +21,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (struct _NSRange);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *colorsByLocation; // @synthesize colorsByLocation=_colorsByLocation;

@@ -9,15 +9,12 @@
 }
 
 + (id);
-- (void)a;
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
-- (id);
+- (void);
 - (id);
-- (void);
+- (id);
 
 @end
 

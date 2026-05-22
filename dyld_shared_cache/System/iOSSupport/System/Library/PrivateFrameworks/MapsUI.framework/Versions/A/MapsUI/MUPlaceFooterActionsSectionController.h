@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)nalHeight: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

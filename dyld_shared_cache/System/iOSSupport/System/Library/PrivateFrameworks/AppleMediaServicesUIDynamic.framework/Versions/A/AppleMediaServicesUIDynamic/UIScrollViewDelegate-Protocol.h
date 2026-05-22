@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView, UIView;
-
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)lipped:(UIScrollView *)arg1 retinaScale:(UIView *)arg2 animate:(double)arg3;
-- (void)ÿ)ÿÿvÿÿÆ)ÿÿ;
+- (void)CùÑ1B50@ù
+× ;
 @end
 

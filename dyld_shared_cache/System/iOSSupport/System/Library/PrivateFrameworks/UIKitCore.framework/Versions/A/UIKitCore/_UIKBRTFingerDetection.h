@@ -20,35 +20,35 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGPoint)5;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (struct CGPoint);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)">56;
-- (void)40@"NSDictionary"48@?<v@?@"NSError">56;
-- (_Bool)tiveDeviceForHandle;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (void)yingInfoCenter;
-- (void)ricMovie;
 - (void);
-- (id)enu;
+- (void);
+- (id);
+- (id)× ;
+- (void)0ÒR0=43À`;
 
 // Remaining properties
 @property(retain, nonatomic) _UIKBRTFingerInfo *fakeLeftIndex; // @synthesize fakeLeftIndex=_fakeLeftIndex;

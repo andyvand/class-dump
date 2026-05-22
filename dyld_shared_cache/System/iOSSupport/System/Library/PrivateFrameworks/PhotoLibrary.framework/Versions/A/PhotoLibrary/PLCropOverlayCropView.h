@@ -17,11 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
 - (void);
 - (void);
 - (id);
 - (void);
+- (struct CGRect);
 
 @end
 

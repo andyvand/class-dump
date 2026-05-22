@@ -14,10 +14,10 @@
     MISSING_TYPE *observers;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void)ÿ;
 
 @end
 

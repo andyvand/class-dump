@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (id)dificationConfiguration;
+- (id)nitWithEffect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

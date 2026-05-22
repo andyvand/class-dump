@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -25,16 +25,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (id)IDSSession"32@"NSString"40@"NSData"48;
+- (id);
 - (struct CGRect);
-- (id)t, no existing chat found with GUID %@;
-- (void);
-- (void)0@ù
+- (id);
+- (void)!ìFùqaÐ1Â0@ù
 × ;
-- (void)llProperties;
-- (id)l name or attributed name. This is a programming error and may become a hard error in a future release. Break on _UIAccessibilityReportNilNameErroneouslyProvided to debug.;
-- (long long);
-- (id)IViewP33_FE53B1CE385CEEC5B789D2CA9BD7C0EB20MonochromaticDataVCM;
+- (void)tCollection",&,N,G_localOverrideTraitCollection,S_setLocalOverrideTraitCollection:(id)arg1;
+- (long long)ViewDiffableDataSource;
+- (id)onSettingsDomain;
+- (void)ÿ";
+- (id)ÌzDÿ`\ÔàFc;
 
 // Remaining properties
 @property(readonly, nonatomic) UIShape *contentShape;

@@ -27,23 +27,23 @@
 - (void);
 - (void);
 - (void);
-- (void)";
+- (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
-- (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id)¤;
-- (id)eanseOrpanedStickersInStickerCachePath nil stickerCachePath;
+- (void);
+- (id);
+- (id);
+- (id)tedItems;
+- (void)@ with ID %s;
 - (void);
 
 // Remaining properties

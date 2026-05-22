@@ -4,6 +4,6 @@
 
 class Retained {
 public: // (access info unavailable from symbols alone)
-    HandleNonRetained();
+    auto HandleNonRetained();
     ~Retained();
 };

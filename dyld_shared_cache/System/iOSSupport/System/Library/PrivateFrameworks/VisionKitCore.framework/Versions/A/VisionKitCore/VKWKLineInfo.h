@@ -18,10 +18,10 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)ue: /* Error: Ran out of types for this method. */;
-- (unsigned long long)dex %@, with item at index %@, but array size is %ld;
+- (void)FromBGRAPixelBuffer:(unsigned long long)arg1 cropRect: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Þöl;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *children; // @synthesize children=_children;

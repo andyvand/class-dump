@@ -29,13 +29,13 @@
 - (id);
 - (void);
 - (struct CGPath *);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
 - (int);
-- (void);
 - (id);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
+- (void)en as the last character;
 
 // Remaining properties
 @property(nonatomic) struct CGSize desiredSize; // @synthesize desiredSize=mDesiredSize;

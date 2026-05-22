@@ -24,13 +24,13 @@
 - (long long);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void)t:cornerRadius: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

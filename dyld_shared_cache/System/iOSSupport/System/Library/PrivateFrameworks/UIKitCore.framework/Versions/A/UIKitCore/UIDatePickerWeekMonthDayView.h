@@ -20,18 +20,18 @@ __attribute__((visibility("hidden")))
     double _weekdayWidth;
 }
 
-- (double)ParticipantIDHashForParticipants: /* Error: Ran out of types for this method. */;
-- (_Bool)er:receiverISOCountryCode:receivedViaRelay:containsOneTimeCode: /* Error: Ran out of types for this method. */;
-- (id)lay;
-- (void)ProcessingPipelineComponent;
-- (void);
-- (id)r Chat ID Handle ID Mismatch:%{BOOL}d  Repaired Blank Service Name:%{BOOL}d  Repaired Chat Identifier:%{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
-- (void);
+- (double);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id)ICollectionView internal inconsistency:(struct CGRect)arg1 unknown monochromatic treatment case (%ld);
-- (_Bool)8ue;
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id)tView;
+- (void)¥Gm;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *dateLabel; // @synthesize dateLabel=_dateLabel;

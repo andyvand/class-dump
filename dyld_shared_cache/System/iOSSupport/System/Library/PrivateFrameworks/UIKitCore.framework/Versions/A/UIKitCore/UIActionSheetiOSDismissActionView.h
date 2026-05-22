@@ -15,18 +15,17 @@ __attribute__((visibility("hidden")))
     UIButton *_dismissButton;
 }
 
-- (_Bool)herDelegate;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (double);
 - (id);
 - (id);
-- (void)tNewConnection:(id)arg1;
-- (void);
-- (id)1¢!0@ù
-× ;
-- (struct CGSize)kAÐ~Pg;
+- (struct CGSize);
+- (void)"UIPressesEvent",R,N;
+- (id)Dº^;
+- (void)h;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

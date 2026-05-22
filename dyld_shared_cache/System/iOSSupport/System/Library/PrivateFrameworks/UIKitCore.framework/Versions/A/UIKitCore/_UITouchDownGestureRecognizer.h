@@ -18,22 +18,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ary/Frameworks/Foundation.framework/Versions/C/Foundation;
-- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void)aqÐ!ÄCùqÄð1¢!0@ù
+- (void)@ù
 × ;
-- (void)
-× ;
-- (void)"24;
-- (_Bool)gnmentRectInsetsExplicit"b1"flipsForRightToLeftLayoutDirection"b1"hasCapHeight"b1"hasCommandBuffer"b1"hasLocalRenditionCache"b1};
-- (void)erNotificationCenter:(id)arg1 didReceiveNotificationResponse:(id)arg2 withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void);
-- (double)l:Error creating image for video:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGPoint)Põgþ;
+- (struct CGPoint)Lift:(id)arg1;
+- (void)eLayer:(id)arg1;
+- (void)anceInternalEnabled;
+- (void);
+- (void)fileRenameDidEndWithFinalURL:(double)arg1;
+- (_Bool)nment;
+- (double)NavigationItemView;
+- (void)as aquired %.2f seconds ago and might be stuck. This can have a serious impact on focus updates. Additional info:%@ /* Error: Ran out of types for this method. */;
+- (void)tion state before starting interactive transition. This means we MAY need to support implicit start/finish animator tracking.;
+- (void)So22UIHoverHighlightEffectC;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;

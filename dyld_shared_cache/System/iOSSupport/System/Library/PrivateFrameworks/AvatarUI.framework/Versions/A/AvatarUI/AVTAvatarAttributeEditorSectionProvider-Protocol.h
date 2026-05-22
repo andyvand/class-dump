@@ -7,7 +7,6 @@
 @class NSArray, NSString;
 
 @protocol AVTAvatarAttributeEditorSectionProvider
-- (NSString *)k error. Trying again later. Error:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;

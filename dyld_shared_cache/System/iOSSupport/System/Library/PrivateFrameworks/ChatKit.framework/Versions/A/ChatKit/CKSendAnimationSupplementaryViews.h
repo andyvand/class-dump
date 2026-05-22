@@ -19,26 +19,26 @@
     UIView *_blueTextFadeViewRTL;
 }
 
-- (id)ents;
-- (id)RLWithoutCreating;
-- (id)g: /* Error: Ran out of types for this method. */;
-- (void)eCreationWithVoiceOver;
-- (void)r;
-- (void)shouldInhibitAddingExtraNewlinesAtEndDuringFixup;
-- (void)tateChecker;
-- (void)hts;
-- (void)_cache;
-- (void)"ICAttachmentThumbnailOperationQueue",W,N,V_queue;
-- (void)AttributedString;
-- (void)N,V_selectedSizeAction;
 - (id);
 - (id);
 - (id);
-- (id)set asset thumbnails;
-- (id)ttachments(%@);;
-- (id).;
 - (void);
-- (id)pSound;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)atisfiesFilterMode: /* Error: Ran out of types for this method. */;
+- (void)P;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *audioMessagePillViewSnapshot; // @synthesize audioMessagePillViewSnapshot=_audioMessagePillViewSnapshot;

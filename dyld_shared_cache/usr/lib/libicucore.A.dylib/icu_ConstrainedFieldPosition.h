@@ -5,11 +5,11 @@
 class icu::ConstrainedFieldPosition {
 public: // (access info unavailable from symbols alone)
     ConstrainedFieldPosition();
-    constrainCategory(int);
-    constrainField(int, int);
-    matchesField(int, int) const;
-    reset();
-    setInt64IterationContext(long long);
-    setState(int, int, int, int);
+    auto constrainCategory(int);
+    auto constrainField(int, int);
+    auto matchesField(int, int) const;
+    auto reset();
+    auto setInt64IterationContext(long long);
+    auto setState(int, int, int, int);
     ~ConstrainedFieldPosition();
 };

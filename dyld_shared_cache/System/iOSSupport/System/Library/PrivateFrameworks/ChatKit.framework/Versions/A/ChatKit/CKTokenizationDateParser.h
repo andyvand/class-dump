@@ -15,21 +15,21 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _createDateRangeBlock;
 }
 
-+ (id)(;
-+ (id);
-+ (id)it contains attachments/inlineAttachments:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 + (id);
-- (void)Dictionary",&,N,V_folderListSectionIdentifiersToFolderItemIdentifiers;
++ (id);
++ (id);
++ (id);
+- (void);
 - (id);
 - (id);
-- (id)o;
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (unsigned long long)R;
-- (void);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType createDateRangeBlock; // @synthesize createDateRangeBlock=_createDateRangeBlock;

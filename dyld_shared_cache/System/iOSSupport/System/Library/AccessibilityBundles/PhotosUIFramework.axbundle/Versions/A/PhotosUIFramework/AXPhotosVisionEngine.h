@@ -19,10 +19,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AXMVisionEngine *engine; // @synthesize engine=_engine;

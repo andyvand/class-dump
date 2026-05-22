@@ -11,18 +11,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id)ntentSizeWhenEdgeAttached:,V__widthFollowsPreferredContentSizeWhenEdgeAttached /* Error: Ran out of types for this method. */;
-- (void)Nibs;
-- (long long)r path %@;
-- (id)name;
-- (id)rmine preferred focus movement style for nil focus environment.;
-- (void)questedSize;
-- (void)ackground;
-- (_Bool);
-- (id);
+- (_Bool)uration:(id)arg1;
+- (id)stureRecognizer;
+- (long long)child that is not being tracked by this registry;
+- (_Bool)me-transform;
+- (void)onController(StateRestoration) decodeRestorableStateWithCoder:(id)arg1 ];
+- (void)anþÅ13Ì­þ;
+- (id)Ç´;
+- (void)ümËQjc;
+- (id)gH=;
+- (id);
 
 @end
 

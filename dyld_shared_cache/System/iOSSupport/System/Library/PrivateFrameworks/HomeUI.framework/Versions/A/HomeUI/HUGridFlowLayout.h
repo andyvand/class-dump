@@ -34,16 +34,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void)1b0@ù
-× ;
-- (id);
+- (_Bool)ownloadControl"24;
+- (id)hContext:(struct CGRect)arg1;
+- (void)ccountLabel: /* Error: Ran out of types for this method. */;
+- (void)rophoneDisabled;
+- (id)âûdº;
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *childGridLayouts; // @synthesize childGridLayouts=_childGridLayouts;

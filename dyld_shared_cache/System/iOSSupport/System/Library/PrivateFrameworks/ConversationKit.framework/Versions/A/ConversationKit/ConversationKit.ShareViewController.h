@@ -12,10 +12,10 @@
     MISSING_TYPE *collaborationInitiationManager;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)y-ÐGG;
 
 @end
 

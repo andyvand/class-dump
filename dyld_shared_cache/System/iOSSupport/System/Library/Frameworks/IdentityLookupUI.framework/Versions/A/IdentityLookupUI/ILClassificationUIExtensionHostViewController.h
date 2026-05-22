@@ -44,8 +44,6 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
@@ -55,9 +53,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

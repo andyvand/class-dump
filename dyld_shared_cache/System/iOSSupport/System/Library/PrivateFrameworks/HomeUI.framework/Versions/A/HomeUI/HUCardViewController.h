@@ -99,10 +99,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (double);
+- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -126,34 +126,36 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (_Bool)1b0@ù
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void)
 × ;
-- (id)xtView:animate: /* Error: Ran out of types for this method. */;
-- (id)acing: /* Error: Ran out of types for this method. */;
-- (void)BeginInteractivePresentationWithTouchLocation:(id)arg1 view: /* Error: Ran out of types for this method. */;
-- (void)stination:(_Bool)arg1 consentVersion:uploadType: /* Error: Ran out of types for this method. */;
-- (id)ameraLiveStreamControllerDelegate;
-- (void)þÿÿ¸úÿtgÿüÂÿÿ;
-- (_Bool)PickerViewController.swift;
+- (void)Ñ°1â
+0@ù
+× ;
+- (id)ationData"24;
+- (id)acteristicStateItemProvider;
+- (void)View;
+- (void)onIdentifier;
+- (id)ýÿÿp#ÿÿDÿ;
 - (void);
-- (id);
-- (id)ÿÏ;
-- (void)·õÆ@;
-- (void)äÿð÷;;
-- (void)(íÿAp;
+- (void)L;
+- (void)bEýt§;
 
 // Remaining properties
 @property(retain, nonatomic) HUAnimationApplier *animationApplier; // @synthesize animationApplier=_animationApplier;

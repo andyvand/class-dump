@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)riptionRequired,V_subscriptionRequired;
 
 @end
 

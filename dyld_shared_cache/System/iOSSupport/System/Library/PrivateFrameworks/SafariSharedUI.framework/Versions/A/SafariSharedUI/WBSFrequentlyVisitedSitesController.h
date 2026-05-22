@@ -4,7 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WBSFrequentlyVisitedSitesBannedURLStore, WBSHistory;
+@class NSArray, NSObject, NSString, WBSFrequentlyVisitedSitesBannedURLStore, WBSHistory;
+@protocol OS_dispatch_queue;
 
 @interface WBSFrequentlyVisitedSitesController
 {
@@ -12,12 +13,13 @@
     NSString *_profileIdentifier;
     WBSHistory *_history;
     double _timeOfLastFrequentlyVisitedSitesComputation;
+    NSObject<OS_dispatch_queue> *_analyticsQueue;
 }
 
-+ (float);
++ (float);
 + (id);
 + (float);
-+ (id)w;
++ (id);
 + (id);
 - (_Bool);
 - (id);
@@ -29,13 +31,13 @@
 - (void);
 - (double);
 - (id);
-- (void)";
-- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)S;
-- (id)So14_WKFrameHandleCSg_So15WBSFormMetadataCSgt__G;
+- (id);
+- (void)em: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *frequentlyVisitedSites;

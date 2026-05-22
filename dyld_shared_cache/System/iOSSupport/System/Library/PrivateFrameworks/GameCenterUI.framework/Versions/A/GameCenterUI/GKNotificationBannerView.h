@@ -55,13 +55,13 @@
 - (void);
 - (void);
 - (void);
+- (double);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (void);
-- (double);
-- (id)GAVyZ-GGA12_GANGtGGAAyAAyAAyAAyA34_A12_GA39_GAXGANGG_2AAyAAyAAyHÁAHGATGANGSgtGGSSSgGSgGA29_GG¯!GùyA14_GGSgGATGtGGAHG©'ycyÁGGG;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *actionLabel; // @synthesize actionLabel=_actionLabel;

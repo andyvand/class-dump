@@ -4,16 +4,16 @@
 
 class ssl_credential_st {
 public: // (access info unavailable from symbols alone)
-    AppendIntermediateCert(std::__1::unique_ptr<crypto_buffer_st, bssl::internal::Deleter>);
-    ChainContainsIssuer(bssl::Span<unsigned char const>) const;
-    ClearCertAndKey();
-    ClearIntermediateCerts();
-    Dup() const;
-    Dup() const (.cold.1);
-    IsComplete() const;
-    SetLeafCert(std::__1::unique_ptr<crypto_buffer_st, bssl::internal::Deleter>, bool);
-    UsesPrivateKey() const;
-    UsesX509() const;
+    auto AppendIntermediateCert(std::__1::unique_ptr<crypto_buffer_st, bssl::internal::Deleter>);
+    auto ChainContainsIssuer(bssl::Span<unsigned char const>) const;
+    auto ClearCertAndKey();
+    auto ClearIntermediateCerts();
+    auto Dup() const;
+    auto Dup() const (.cold.1);
+    auto IsComplete() const;
+    auto SetLeafCert(std::__1::unique_ptr<crypto_buffer_st, bssl::internal::Deleter>, bool);
+    auto UsesPrivateKey() const;
+    auto UsesX509() const;
     ssl_credential_st(bssl::SSLCredentialType);
     ~ssl_credential_st();
 };

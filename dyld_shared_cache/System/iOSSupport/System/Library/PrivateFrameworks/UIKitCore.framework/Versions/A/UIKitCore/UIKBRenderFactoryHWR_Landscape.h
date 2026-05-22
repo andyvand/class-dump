@@ -11,16 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)anged:forService: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)afe;
-- (double)cState: /* Error: Ran out of types for this method. */;
-- (void)faults:service: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (struct CGPoint);
 - (double);
-- (struct UIEdgeInsets)};
+- (void);
+- (double);
+- (struct UIEdgeInsets);
 - (unsigned long long);
-- (struct CGPoint)p %s;
-- (id)ndling commands %@;
-- (double)yRecipients:info: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (id);
+- (double)VfromPlacement;
 
 @end
 

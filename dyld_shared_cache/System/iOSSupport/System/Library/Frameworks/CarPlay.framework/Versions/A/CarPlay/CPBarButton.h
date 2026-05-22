@@ -32,19 +32,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (_Bool);
 - (void);
-- (unsigned long long);
+- (void);
+- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (id);
+- (id);
+- (void);
+- (unsigned long long)",R,C,N,V_possessionIndicator;
 
 // Remaining properties
 @property(nonatomic) long long buttonStyle; // @synthesize buttonStyle=_buttonStyle;

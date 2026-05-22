@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)tchFinerGranularityInferredMapItem for visit, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

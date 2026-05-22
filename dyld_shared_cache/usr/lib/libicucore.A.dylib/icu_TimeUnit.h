@@ -6,11 +6,11 @@ class icu::TimeUnit {
 public: // (access info unavailable from symbols alone)
     TimeUnit(icu::TimeUnit const&);
     TimeUnit(icu::TimeUnit::UTimeUnitFields);
-    clone() const;
-    createInstance(icu::TimeUnit::UTimeUnitFields, UErrorCode&);
-    getDynamicClassID() const;
-    getStaticClassID();
-    getTimeUnitField() const;
-    operator=(icu::TimeUnit const&);
+    auto clone() const;
+    auto createInstance(icu::TimeUnit::UTimeUnitFields, UErrorCode&);
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto getTimeUnitField() const;
+    auto operator=(icu::TimeUnit const&);
     ~TimeUnit();
 };

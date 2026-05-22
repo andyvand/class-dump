@@ -15,12 +15,12 @@
     MISSING_TYPE *packageLayer;
 }
 
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (id);
-- (struct CGSize))Ð½¥0;
+- (id);
+- (void)ndHoldingChatItemsUpdatesForReason: /* Error: Ran out of types for this method. */;
+- (void)ÖÚ;
 
 @end
 

@@ -15,9 +15,9 @@
 + (id);
 + (id);
 + (id);
-- (id)te;
-- (void);
 - (id);
+- (id);
+- (void);
 
 @end
 

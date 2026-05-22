@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (void)ØZ;
+- (void)datingContentLayout;
+- (void)_borderStyle;
 
 @end
 

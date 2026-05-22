@@ -18,14 +18,14 @@
 - (double);
 - (_Bool);
 - (id);
+- (void);
+- (void);
+- (id);
 - (double);
+- (void);
+- (_Bool);
 - (double);
-- (void);
-- (_Bool);
-- (void);
-- (id)h;
-- (id)ingKeys;
-- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, getter=isIndeterminate) _Bool indeterminate;

@@ -22,7 +22,7 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (id);
-- (void);
+- (void)onView:%@ when the collectionViewController:%@ has dealloc already type:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *prioritizedRooms; // @synthesize prioritizedRooms=_prioritizedRooms;

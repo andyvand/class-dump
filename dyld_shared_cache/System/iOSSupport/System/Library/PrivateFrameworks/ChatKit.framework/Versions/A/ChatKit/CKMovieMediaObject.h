@@ -22,18 +22,18 @@
     struct CGSize _pxSize;
 }
 
-+ (id)DataIndexerStopIndexingNotification;
 + (id);
-+ (Class)B;
++ (id);
++ (Class);
 + (struct CGImage *);
 + (id);
 + (_Bool);
-- (_Bool)rorNameForResultAttachment: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)Tracker;
+- (_Bool);
 - (void);
 - (void);
-- (void)=;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,33 +46,33 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)r;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)e;
-- (id)e;
+- (_Bool);
 - (id);
-- (_Bool)password to diverge crypto;
+- (id);
+- (id);
+- (_Bool);
 - (struct CGSize);
 - (id);
 - (Class);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (void);
 - (int);
-- (id)anscriptControllerProtocol>"16@"IMTranscriptPluginChatItem"24;
-- (id)eight;
-- (void)acity;
+- (void)tGAWG¦ÀtGG_Qo__Qo__U]y_N]y_7]yytß]yAMyAGG_Qo_GQo_Qo_Qo__Qo_G_!]yAG7\GQo__­ ]yAAyABÂ]y¬ ]y ]yp]yACyAdFyAgEyAZyAG*ÀG_AZyAG&ÀGAZyAG#ÀGtGAWGG_Qo__Qo__A32_Qo__Qo_G_A38_Qo_t;
+- (id)Look document;
+- (id)as adaptive image glyph in tapback due to non-genmoji sticker type;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVURLAsset *asset; // @synthesize asset=_asset;

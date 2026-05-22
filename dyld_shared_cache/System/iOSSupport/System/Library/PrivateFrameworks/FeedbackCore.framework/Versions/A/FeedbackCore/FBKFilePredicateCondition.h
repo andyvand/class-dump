@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)FR [%{public}ld] storing draft devices %{public}s;
 - (void);
 - (id);
 

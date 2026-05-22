@@ -13,18 +13,18 @@
 }
 
 - (void);
-- (void)ocumentWithoutCreating;
-- (_Bool)hecklistItem;
-- (void)isDroppingChecklistItem;
-- (void)ntFontByFontPanel;
-- (_Bool);
-- (_Bool)t;
-- (_Bool);
-- (void)dUUIDs;
-- (_Bool);
-- (void)!;
 - (void);
-- (id)r;
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) TLAlert *alert; // @synthesize alert=_alert;

@@ -8,6 +8,5 @@
 
 @optional
 - (void);
-- (void)lected tool from %{private}@ to %{private}@;
 @end
 

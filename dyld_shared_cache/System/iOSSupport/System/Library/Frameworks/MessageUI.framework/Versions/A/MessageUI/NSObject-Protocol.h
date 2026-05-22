@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)BackgroundColor: /* Error: Ran out of types for this method. */;
-- (NSString *)ationAlertPresenter;
-- (id)P;
-- (_Bool)1¦¼;
+- (struct _NSZone *)xpanded: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

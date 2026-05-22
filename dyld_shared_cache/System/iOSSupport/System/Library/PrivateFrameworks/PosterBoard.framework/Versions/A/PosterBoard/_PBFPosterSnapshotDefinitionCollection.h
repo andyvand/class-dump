@@ -18,9 +18,9 @@
 - (long long);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void)bahn;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

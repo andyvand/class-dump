@@ -5,18 +5,18 @@
 class icu::RuleBasedBreakIterator::BreakCache {
 public: // (access info unavailable from symbols alone)
     BreakCache(icu::RuleBasedBreakIterator*, UErrorCode&);
-    addFollowing(int, int, icu::RuleBasedBreakIterator::BreakCache::UpdatePositionValues);
-    addPreceding(int, int, icu::RuleBasedBreakIterator::BreakCache::UpdatePositionValues);
-    current();
-    dumpCache();
-    following(int, UErrorCode&);
-    nextOL();
-    populateFollowing();
-    populateNear(int, UErrorCode&);
-    populatePreceding(UErrorCode&);
-    preceding(int, UErrorCode&);
-    previous(UErrorCode&);
-    reset(int, int);
-    seek(int);
+    auto addFollowing(int, int, icu::RuleBasedBreakIterator::BreakCache::UpdatePositionValues);
+    auto addPreceding(int, int, icu::RuleBasedBreakIterator::BreakCache::UpdatePositionValues);
+    auto current();
+    auto dumpCache();
+    auto following(int, UErrorCode&);
+    auto nextOL();
+    auto populateFollowing();
+    auto populateNear(int, UErrorCode&);
+    auto populatePreceding(UErrorCode&);
+    auto preceding(int, UErrorCode&);
+    auto previous(UErrorCode&);
+    auto reset(int, int);
+    auto seek(int);
     ~BreakCache();
 };

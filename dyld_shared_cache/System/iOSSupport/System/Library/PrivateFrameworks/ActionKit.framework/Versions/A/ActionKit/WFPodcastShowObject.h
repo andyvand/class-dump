@@ -17,14 +17,14 @@
 
 + (id);
 + (id);
-+ (_Bool)a new event and adds it to the selected calendar.;
-- (id);
-- (id);
-- (void);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)on:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *children; // @synthesize children=_children;

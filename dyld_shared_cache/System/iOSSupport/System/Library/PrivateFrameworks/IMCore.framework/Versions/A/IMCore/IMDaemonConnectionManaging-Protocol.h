@@ -7,9 +7,7 @@
 @protocol IMDaemonProtocol;
 
 @protocol IMDaemonConnectionManaging
-- (id);
-- (void)<¼Ì
-Ø`ô;
+- (void)_REPAIR_ACCOUNT_BUTTON_TITLE;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isConnected;

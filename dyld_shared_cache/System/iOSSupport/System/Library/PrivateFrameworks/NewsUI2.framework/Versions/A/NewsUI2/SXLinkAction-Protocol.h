@@ -7,7 +7,6 @@
 @class NSURL;
 
 @protocol SXLinkAction
-- (_Bool)`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL;

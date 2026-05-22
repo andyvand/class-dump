@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextRange;
+@class UITextRange;
 @protocol NSObject><NSCopying;
 
 @protocol UITextSearching
-- (void)TimerCenter:(NSString *)arg1 Removing the timer (no registered timers);
-
-@optional
-- (void)URLForURL:(UITextRange *)arg1;
-- (_Bool)xpanded;
-- (id <NSObject><NSCopying>): /* Error: Ran out of types for this method. */;
-- (void)wFontSizeOverrideStandard;
-- (long long)ng;
-- (void)Ôá	!tBù¶Ð1¢!0@ù
-× ;
-- (void)tsUsingBlock:(UITextRange *)arg1;
-- (_Bool);
+- (UITextRange *);
 
 // Remaining properties
 @property(readonly) UITextRange *selectedTextRange;

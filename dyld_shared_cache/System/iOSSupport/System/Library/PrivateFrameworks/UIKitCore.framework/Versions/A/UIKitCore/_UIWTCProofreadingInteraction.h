@@ -16,17 +16,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)mCloudKit:(id)arg1 indexOfTransfers:numberOfBatchesToFetch:activity:withCompletion: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (_Bool)Aw°!¼AùQÌ1¢!0@ù
-× ;
-- (id)lerForResponder:(id)arg1 editorView:containingResponder:traitCollection: /* Error: Ran out of types for this method. */;
-- (void)ImageLayoutSize;
-- (void)ion",N,V_annotation;
-- (id)kground;
 - (void);
 - (_Bool);
+- (id);
+- (void)!XAù±a°1Â0@ù
+× ;
+- (id)ringMode;
+- (_Bool)_forwardToDelegate:(id)arg1;
+- (id)ilityCanAddItemsToDragSession;
+- (void)s replacements;
+- (void)ÿ;
+- (void)lCSgIeggnno_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

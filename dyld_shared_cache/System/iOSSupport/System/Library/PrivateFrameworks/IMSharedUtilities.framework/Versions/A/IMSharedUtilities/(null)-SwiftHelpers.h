@@ -5,6 +5,6 @@
 //
 
 @interface (null) (SwiftHelpers)
-- (id)nLibraryKey getCHHapticPatternLibraryKeyKeyboardOther(void);
+- (id);
 @end
 

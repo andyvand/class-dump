@@ -14,22 +14,21 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)xwo;
-- (id)<;
-- (void);
-- (id)`;
-- (_Bool)WHAMetricsInfo:(id)arg1;
++ (_Bool)limited;
 - (id);
 - (id);
-- (void)!AùÑÄ1¢!0@ù
-× ;
-- (id)ionMode:targetContentIdentifier: /* Error: Ran out of types for this method. */;
-- (id)sentedItemURL;
-- (id)@ÿ;
-- (void)w;
-- (void);
 - (id);
-- (void)1ãÿ:(id)arg1 Ö»Ön;
+- (_Bool)lection:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)UseOverlay:(id)arg1;
+- (void)edPresentationSourceItem;
+- (id)ÄSðT@V$cpcqäqlu(y;
+- (id)smart replies for responseContextDidChange;
+- (id)FinishInitialization;
+- (id);
+- (void)$çþS;
+- (void)¸ól;
+- (void)4¿ÿBQÝÐîr;
+- (id)óþ;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *backgroundColor;

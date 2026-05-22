@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void)¬àá<â;
-- (id)DirectionalScrollAnimationBounce;
-- (void)ç;
-- (void);
+- (void);
+- (id)inator;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

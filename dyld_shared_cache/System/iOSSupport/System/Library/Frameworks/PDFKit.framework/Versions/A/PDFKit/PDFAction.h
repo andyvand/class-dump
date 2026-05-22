@@ -11,22 +11,22 @@
     PDFActionPrivate *_private;
 }
 
-+ (id)dStorageConnection";
-+ (Class)ForTraining;
++ (id);
++ (Class);
 - (id);
-- (id)roller";
-- (struct __CFDictionary *)24;
-- (id)6@"NSDictionary"24;
-- (void)Task"24;
-- (void)NSURLSession"16@"NSURLSessionTask"24;
-- (void):(struct CGPDFDictionary *)arg1 8@16@24q32@?40;
 - (id);
-- (id)?;
-- (id)zersOnView:(struct _NSZone *)arg1;
-- (void)s;
+- (struct __CFDictionary *);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 

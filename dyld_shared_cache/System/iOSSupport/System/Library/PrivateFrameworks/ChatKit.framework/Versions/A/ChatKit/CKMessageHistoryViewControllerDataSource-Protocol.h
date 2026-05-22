@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval;
-
 @protocol CKMessageHistoryViewControllerDataSource
-- (void)bleDictionary",&,N,V_callbacks;
-- (void)_webView:(NSDateInterval *)arg1 requestGeolocationPermissionForFrame:(void (^)(IMMessageHistoryDateRangeSummary *))arg2 decisionHandler: /* Error: Ran out of types for this method. */;
 @end
 

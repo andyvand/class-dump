@@ -8,6 +8,12 @@
 
 @protocol UITextInputTraits
 
+@optional
+- (unsigned long long)ù
+× ;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (void)class;
+
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;
 // Preceding property had unknown attributes: ?

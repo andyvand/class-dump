@@ -14,8 +14,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)1â
+0@ù
+× ;
+- (void)±§;
 
 // Remaining properties
 @property(nonatomic) __weak id <PBFEditingSceneNavigationControllerDelegate> dismissalDelegate; // @synthesize dismissalDelegate=_dismissalDelegate;

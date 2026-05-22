@@ -10,10 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)
-× ;
-+ (id)ñÌ1¢!0@ù
-× ;
++ (id)CGPoint=dd}16{CGRect={CGPoint=dd}{CGSize=dd}}32@64B72;
++ (id)IMovieScrubberEditingFill.png;
 
 @end
 

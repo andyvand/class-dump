@@ -18,8 +18,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)PhotosPersonGridConfiguration;
 
 @end
 

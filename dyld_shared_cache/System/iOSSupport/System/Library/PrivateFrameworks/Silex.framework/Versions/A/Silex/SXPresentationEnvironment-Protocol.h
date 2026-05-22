@@ -7,8 +7,6 @@
 @class UITraitCollection;
 
 @protocol SXPresentationEnvironment
-- (_Bool)b;
-- (struct UIEdgeInsets)State;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *presentationTraitCollection;

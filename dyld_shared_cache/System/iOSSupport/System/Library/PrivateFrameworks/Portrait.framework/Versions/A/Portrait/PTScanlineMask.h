@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void);
-- (struct CGRect);
+- (void)itySize:(struct CGRect)arg1 disparityFilteredSize:disparityPixelFormat:colorSize:colorPixelFormat:sensorPort: /* Error: Ran out of types for this method. */;
+- (struct CGRect)Ò;
 
 // Remaining properties
 @property struct CGRect placement; // @synthesize placement=_placement;

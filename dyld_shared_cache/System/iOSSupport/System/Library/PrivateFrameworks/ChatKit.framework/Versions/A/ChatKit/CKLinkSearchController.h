@@ -10,31 +10,30 @@
 {
 }
 
-+ (id)ocessingBuffer;
-+ (id)ngMethod;
-+ (id)
-;
++ (id);
++ (id);
++ (id);
 + (_Bool);
 + (Class);
 + (id);
 + (id);
 + (id);
-- (void)schedulingSerialQueue;
-- (_Bool);
-- (id)e;
-- (id)a;
-- (_Bool)ttachment that we could not create a text attachment for:(id)arg1 %@ at %@;
-- (void)t item;
-- (void)bnailbar.rectangle;
-- (id);
-- (Class);
+- (void);
+- (_Bool);
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (Class);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (double)ncludeUpcomingEventMembers;
-- (long long)¤};
+- (double);
+- (id);
+- (long long)received;
 
 @end
 

@@ -16,18 +16,18 @@
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool)ringSystem:userConfigured:preferredTimeMaxYPortrait:preferredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName:adaptiveTimeHeightUserConfigured:version: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

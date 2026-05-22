@@ -36,10 +36,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)D&ûÿh&ûÿB;
-- (void)areForListManagerCreation;
-- (id)Message;
+- (void)erOptions;
 
 // Remaining properties
 @property(nonatomic) _Bool animateDataSourceUpdates; // @synthesize animateDataSourceUpdates=_animateDataSourceUpdates;

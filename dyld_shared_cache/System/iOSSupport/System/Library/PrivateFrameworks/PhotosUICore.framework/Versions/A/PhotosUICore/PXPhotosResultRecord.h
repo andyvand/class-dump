@@ -26,10 +26,12 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool)Ðwûÿ;
+- (id)1â
+0@ù
+× ;
+- (id)CollectionFetchResults;
 
 // Remaining properties
 @property(readonly) PHFetchResult *exposedFetchResultBeforeFiltering;

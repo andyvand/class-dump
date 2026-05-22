@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)AÔ5;
+- (void)saveButtonPressed:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id)À;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *homes; // @synthesize homes=_homes;

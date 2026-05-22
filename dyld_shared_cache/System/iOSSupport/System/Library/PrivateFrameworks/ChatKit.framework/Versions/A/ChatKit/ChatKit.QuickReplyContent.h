@@ -17,19 +17,18 @@
 }
 
 - (double);
-- (id)backPauseNotification;
+- (id);
 - (long long);
-- (id)qS
-;
+- (id);
 - (long long);
 - (id);
 - (id);
-- (_Bool)$;
-- (void);
+- (id);
 - (struct CGSize);
-- (id);
-- (id);
-- (id)TTI_MESSAGE;
+- (_Bool);
+- (id)uC;
+- (void)$b\;
+- (id)1;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *debugDescription;

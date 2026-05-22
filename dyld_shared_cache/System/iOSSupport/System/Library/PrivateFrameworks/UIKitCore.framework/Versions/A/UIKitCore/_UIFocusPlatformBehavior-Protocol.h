@@ -4,40 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIControl;
 @protocol _UIFocusPlatformBehavior;
 
 @protocol _UIFocusPlatformBehavior
-+ (id <_UIFocusPlatformBehavior>);
-- (_Bool);
-- (_Bool)6xA;
-- (_Bool);
-- (_Bool)dler;
-- (_Bool)nModels;
-- (long long)Èß|¬;
-- (_Bool)!BùqÁ1¢!0@ù
++ (id <_UIFocusPlatformBehavior>)W/3yY/3yS/3y|/3ySOÙÊ;
+- (_Bool)
 × ;
-- (_Bool)1¢!0@ù
+- (_Bool)qZð1Â0@ù
 × ;
-- (_Bool)@"_UITraitTokenSet";
-- (_Bool)8{CAFrameRateRange=fff}16I28;
-- (_Bool)ReferenceColor:referenceContrast:legibilitySettings: /* Error: Ran out of types for this method. */;
-- (long long)r;
-- (_Bool)ngHeaderViewForWindow: /* Error: Ran out of types for this method. */;
-- (_Bool)FromAnimators;
-- (_Bool)ctionState: /* Error: Ran out of types for this method. */;
-- (_Bool)ct;
-- (long long): /* Error: Ran out of types for this method. */;
-- (long long),V_appliesTintAndBlurSettings;
-- (_Bool),R,N,V_scrollPocketCollectorInteraction;
-- (_Bool)ion;
-- (_Bool)´<$	;
-- (long long)ÄÓÔôÔ¼ÕdÖ×L×;
-- (_Bool)ternal layout spacing method;
-- (long long)Impl _updatePreferredColumnsPreferredEdge:] /* Error: Ran out of types for this method. */;
-- (_Bool)ting end of old gap for %@ of row at index path %@;
-- (_Bool)ers;
-- (_Bool)sparentInk;
-- (_Bool)item prevented the focus update from occurring: /* Error: Ran out of types for this method. */;
-- (_Bool)g Ratio;
+- (_Bool)!ØDùÑ[ð1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)!@Eù\ð1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)ù
+× ;
+- (long long)Qd1Â0@ù
+× ;
+- (long long)× ;
+- (long long)0@ù
+× ;
+- (_Bool)onDriving>"16Q24;
+- (long long)sualSeparatorDisplaying><UIInterfaceActionVisualSectionSeparatorDisplaying>";
+- (unsigned long long)er: /* Error: Ran out of types for this method. */;
+- (long long)ype: /* Error: Ran out of types for this method. */;
+- (_Bool)enuInteractionEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool)stemItem:primaryAction: /* Error: Ran out of types for this method. */;
+- (_Bool)Image:(UIControl *)arg1 contentViews:wobble: /* Error: Ran out of types for this method. */;
+- (_Bool)iders;
+- (_Bool)selectionHandler;
+- (_Bool)NxNO
+@P;
+- (_Bool)that isn't a subclass of _UINavigationControllerPalette. Requested class = %@. Making a _UINavigationControllerPalette instead on release builds of UIKit.;
+- (_Bool)lor;
+- (long long)KitLibrary(void);
 @end
 

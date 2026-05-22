@@ -52,7 +52,7 @@
     struct CGRect _clippingRect;
 }
 
-+ (struct CGSize)Áe/ÔHÿ±e/Ì.Pÿ;
++ (struct CGSize);
 - (void);
 - (void);
 - (id);
@@ -86,17 +86,18 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)riteIndexForSpriteReference: /* Error: Ran out of types for this method. */;
-- (id)ÌÅÔÆ;
-- (id)_TtC12PhotosUICoreP33_C3281DCD2CB9CD0A743AAAFB526C0D5E13TTRHeaderView;
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)0@ù
+× ;
+- (void)er getSKCloudServiceSetupMessageIdentifierPlayMusic(void);
+- (void)dPhotoLibrary.framework/CloudPhotoLibrary;
+- (id)ropManagerError;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

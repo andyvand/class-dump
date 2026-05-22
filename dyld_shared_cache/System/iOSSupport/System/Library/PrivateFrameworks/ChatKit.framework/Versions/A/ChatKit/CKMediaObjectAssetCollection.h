@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)i;
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -23,12 +23,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool)ence: /* Error: Ran out of types for this method. */;
-- (id)e;
-- (id)crepancy between the media objects and the syndication identifiers. Assuming none are saved. mediaObjects.count:%tu, syndicationIdentifiers:%@ /* Error: Ran out of types for this method. */;
+- (id)1Â0@ù
+× ;
+- (id)ToRegister;
+- (id)trollerDelegate>",W,N,V_delegate;
+- (id)Pã:tA. /* Error: Ran out of types for this method. */;
 
 @end
 

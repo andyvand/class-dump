@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)led;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)form3D:(id)arg1;
 
 @end
 

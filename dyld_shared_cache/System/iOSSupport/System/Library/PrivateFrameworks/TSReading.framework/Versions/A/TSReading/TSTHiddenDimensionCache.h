@@ -34,11 +34,11 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id)titleEmbedding;
-- (void)ints:(struct _NSRange)arg1;
-- (void);
+- (void)eDrawable:(struct _NSRange)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *visibleIndices; // @synthesize visibleIndices=mCachedVisible;

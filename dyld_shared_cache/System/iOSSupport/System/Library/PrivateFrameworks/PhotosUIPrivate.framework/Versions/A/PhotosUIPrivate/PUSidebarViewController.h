@@ -96,31 +96,34 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)Ô ;
-- (id);
-- (void)orAssets:(_Bool)arg1 targetSize:(_Bool)arg2 contentMode:options: /* Error: Ran out of types for this method. */;
-- (void)erHeight;
-- (void)u_ppt_scrollToContentOffset:(id)arg1 withCompletionHandler:(id)arg2;
-- (_Bool)verlayWasOKed:(id)arg1;
-- (id)palObject;
+- (_Bool);
 - (void);
-- (void)ine;
-- (void);
-- (id)ßáÿ;
+- (id)!Cù±"°1â
+0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)nCoordinator";
+- (_Bool)ansitionToSize:(id)arg1 withTransitionCoordinator:(id)arg2;
+- (id)Color;
+- (void)on: /* Error: Ran out of types for this method. */;
+- (_Bool)N,V_addPhotosBarButtonItem;
+- (id)t.;
+- (void)AR_SUBTITLE_NO_LOCATION;
+- (void)ÜÑÿÿº;ÿÿ¨Gÿÿ¶;ÿÿ;
+- (void)Ó ;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXActionProviderDelegate> actionProviderDelegate; // @synthesize actionProviderDelegate=_actionProviderDelegate;

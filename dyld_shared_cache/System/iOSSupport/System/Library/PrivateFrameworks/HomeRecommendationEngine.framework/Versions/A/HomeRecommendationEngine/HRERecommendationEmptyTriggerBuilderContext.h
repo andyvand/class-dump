@@ -46,8 +46,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionEditorInstructionsDescription; // @synthesize actionEditorInstructionsDescription;

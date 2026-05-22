@@ -15,10 +15,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)Ê1¢!0@ù
-× ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

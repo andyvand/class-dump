@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (id);
-- (void);
 - (CDUnknownBlockType);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

@@ -7,6 +7,9 @@
 @class NSArray;
 
 @protocol RCKeyPathObservance
+- (void (^)(NSObject *, NSString *, NSDictionary *, _Bool *))a@ð!LCùQÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *keyPaths;

@@ -19,16 +19,17 @@
 + (Class);
 + (id);
 + (CDUnknownBlockType);
-+ (id);
-+ (void);
-+ (CDUnknownBlockType);
-+ (void);
-+ (CDUnknownBlockType);
 + (Class);
-+ (void)etPreferredDynamicRange: /* Error: Ran out of types for this method. */;
++ (CDUnknownBlockType);
++ (CDUnknownBlockType);
++ (void);
++ (void);
++ (id)ndices;
++ (void)lculatedSize;
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,11 +38,10 @@
 - (id);
 - (id);
 - (struct os_unfair_lock_s);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *jsonDictionary; // @synthesize jsonDictionary=_jsonDictionary;

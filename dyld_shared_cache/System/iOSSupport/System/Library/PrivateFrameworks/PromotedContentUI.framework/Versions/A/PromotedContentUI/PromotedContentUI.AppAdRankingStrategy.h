@@ -8,14 +8,18 @@
 
 @interface PromotedContentUI.AppAdRankingStrategy
 {
-    MISSING_TYPE *filter;
-    MISSING_TYPE *rankAdSlot;
-    MISSING_TYPE *systemInfoProvider;
-    MISSING_TYPE *idAccount;
+    MISSING_TYPE *clientRequestID;
+    MISSING_TYPE *searchTerm;
+    MISSING_TYPE *locale;
+    MISSING_TYPE *adCandidateIDGenerator;
     MISSING_TYPE *coreSettings;
-    MISSING_TYPE *frequencyCapProvider;
-    MISSING_TYPE *fillSlots;
+    MISSING_TYPE *filter;
+    MISSING_TYPE *instanceIDGenerator;
+    MISSING_TYPE *instrumentation;
+    MISSING_TYPE *judge;
     MISSING_TYPE *locationManager;
+    MISSING_TYPE *storefrontIDSource;
+    MISSING_TYPE *tracker;
 }
 
 @end

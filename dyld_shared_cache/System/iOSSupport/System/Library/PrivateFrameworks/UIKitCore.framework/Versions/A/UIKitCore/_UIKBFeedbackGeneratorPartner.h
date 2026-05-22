@@ -8,12 +8,12 @@
 {
 }
 
-+ (id)^;
 + (void);
-+ (id)etCollapsedShadowStyle:(id)arg1;
-+ (void)d;
-+ (_Bool)rAtTopOfSections: /* Error: Ran out of types for this method. */;
-+ (_Bool);
++ (_Bool);
++ (void);
++ (id)iewController:(id)arg1 committedViewController: /* Error: Ran out of types for this method. */;
++ (id)ultraSmall;
++ (_Bool)tMenuInteraction;
 
 @end
 

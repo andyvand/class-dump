@@ -4,6 +4,6 @@
 
 class ExtendedOutOfLine {
 public: // (access info unavailable from symbols alone)
-    getNextOpcodeAndCount();
-    getNextOpcodeAndCount() (.cold.1);
+    auto getNextOpcodeAndCount();
+    auto getNextOpcodeAndCount() (.cold.1);
 };

@@ -30,9 +30,17 @@
     NSMutableDictionary *_lock_providerToExtensionInstance;
 }
 
-- (void);
-- (void);
+- (id);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -40,19 +48,6 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -60,14 +55,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)anticType(DNDModeSemanticType);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void)0@ù
+× ;
+- (id)idWithError:(id)arg1;
+- (void)ed resources directory (system container):(id)arg1 %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -28,12 +28,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void)nationVendingProtocol_p;
 
 // Remaining properties
 @property(nonatomic, retain) UILabel *chevronLabel;

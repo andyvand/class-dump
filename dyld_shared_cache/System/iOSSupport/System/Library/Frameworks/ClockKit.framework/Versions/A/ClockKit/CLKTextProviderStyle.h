@@ -35,14 +35,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (unsigned long long);
 - (_Bool);
-- (double);
+- (id);
 - (id);
 - (void);
-- (_Bool);
 - (void);
+- (_Bool);
+- (double);
 - (void);
 
 // Remaining properties

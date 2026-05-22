@@ -35,10 +35,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
-- (void);
-- (void);
 - (struct CGSize);
+- (void);
+- (void);
+- (void)eparator:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *animationImageView; // @synthesize animationImageView=_animationImageView;

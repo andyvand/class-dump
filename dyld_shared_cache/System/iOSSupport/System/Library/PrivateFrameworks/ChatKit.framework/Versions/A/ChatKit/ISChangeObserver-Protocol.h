@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ISObservable;
+
 @protocol ISChangeObserver
-- (void)`Æÿ¡,¿¼Æÿy,¿í²ÿy,¿|í²ÿa,¿DÆÿ;
+- (void)e content error:(ISObservable *)arg1 %ld;
 @end
 

@@ -4,10 +4,10 @@
 
 class icu::MessageFormat::DummyFormat {
 public: // (access info unavailable from symbols alone)
-    clone() const;
-    format(icu::Formattable const&, icu::UnicodeString&, UErrorCode&) const;
-    format(icu::Formattable const&, icu::UnicodeString&, icu::FieldPosition&, UErrorCode&) const;
-    format(icu::Formattable const&, icu::UnicodeString&, icu::FieldPositionIterator*, UErrorCode&) const;
-    operator==(icu::Format const&) const;
-    parseObject(icu::UnicodeString const&, icu::Formattable&, icu::ParsePosition&) const;
+    auto clone() const;
+    auto format(icu::Formattable const&, icu::UnicodeString&, UErrorCode&) const;
+    auto format(icu::Formattable const&, icu::UnicodeString&, icu::FieldPosition&, UErrorCode&) const;
+    auto format(icu::Formattable const&, icu::UnicodeString&, icu::FieldPositionIterator*, UErrorCode&) const;
+    auto operator==(icu::Format const&) const;
+    auto parseObject(icu::UnicodeString const&, icu::Formattable&, icu::ParsePosition&) const;
 };

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIGestureRecognizer;
+
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)!w!üEùÌÐ1¢!0@ù
-× ;
-- (_Bool)ingUnhighlight"b1"selected"b1"verticalAlignment"b3"horizontalAlignment"b3"wasLastHighlightSuccessful"b1"touchHasHighlighted"b1"enableSymbolAnimations"b1"hasPointerInteraction"b1"hasProxyPointerInteraction"b1"hasContextMenuInteraction"b1"highlightForMenuPresentation"b1"showsMenuFromSource"b1"currentlyDeferringFinalActions"b1"wasTouchInside"b1};
-- (_Bool)Type;
-- (_Bool)Pef¬gähÌp;
-- (_Bool)ewStyleForBlueBackgroundSmall;
+- (_Bool)ntsAccessories:(UIGestureRecognizer *)arg1;
+- (_Bool)eTraitsDidChange;
+- (_Bool)ring:(UIGestureRecognizer *)arg1 withInputStringIgnoringModifiers:(UIGestureRecognizer *)arg2;
 - (_Bool);
-- (_Bool);
 @end
 

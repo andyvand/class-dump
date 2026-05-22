@@ -4,6 +4,9 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __libcpp_verbose_abort(char const*, ...);
-    __throw_bad_optional_access[abi:nn200100]();
+    auto __libcpp_verbose_abort(char const*, ...);
+    auto __throw_bad_optional_access[abi:nqn210106]();
+    char const** __lower_bound_bisecting[abi:nqn210106]<std::__1::_ClassicAlgPolicy, char const**, char [4], std::__1::__identity, lsl::ConstCharStarCompare>(char const**, char const (&) [4], std::__1::iterator_traits<char const**>::difference_type, lsl::ConstCharStarCompare&, std::__1::__identity&);
+    char const** __lower_bound_bisecting[abi:nqn210106]<std::__1::_ClassicAlgPolicy, char const**, char const*, std::__1::__identity, lsl::ConstCharStarCompare>(char const**, char const* const&, std::__1::iterator_traits<char const**>::difference_type, lsl::ConstCharStarCompare&, std::__1::__identity&);
+    std::__1::__wrap_iter<char const**> __lower_bound_bisecting[abi:nqn210106]<std::__1::_ClassicAlgPolicy, std::__1::__wrap_iter<char const**>, char const*, std::__1::__identity, lsl::ConstCharStarCompare>(std::__1::__wrap_iter<char const**>, char const* const&, std::__1::iterator_traits<std::__1::__wrap_iter<char const**>>::difference_type, lsl::ConstCharStarCompare&, std::__1::__identity&);
 };

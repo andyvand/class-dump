@@ -4,22 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIMultiSelectInteraction, UIScrollView;
+
 @protocol UIMultiSelectInteractionDelegate
-- (void)roundColor;
-- (_Bool)on;
-- (_Bool)3D;
-- (void)U[;
+- (void)r.m;
+- (void)"8^B16;
+- (void)@ resultKind=%@;
+- (_Bool);
+- (_Bool)h`þÿÒVþÿÐVþÿ;
+- (_Bool)?¹?©?áz®Gáê?áz®Gáê¿}}}}}}í?zzzzzzê?ûúúúúúê?ÜÛÛÛÛÛë?×£p=
+×ë?ôIôIã?^^^^^^î?î?ÝÜÜÜÜÜì?]]]]]]í?þýýýýýí?;
 
 @optional
-- (_Bool)payloadTokenRemovalAction;
-- (_Bool)!AùqÄ1¢!0@ù
-× ;
-- (_Bool)egateTargetedPreviewOfActiveRangeForTextAnimation:(struct CGPoint)arg1 previewSubrangeIndex:contextID:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)ound.;
-- (void)rConfigurationCG;
-- (void)dþäòdþf4;
-- (void)ÿÿÿÿh;
-- (void);
-- (_Bool)M\=¬[;
+- (void)Ô ;
+- (_Bool);
+- (_Bool)n:(UIMultiSelectInteraction *)arg1 inLayout:(struct CGPoint)arg2;
+- (void)String",R,N,V_passwordRulesDescriptor;
+- (UIScrollView *)pºt»;
+- (_Bool)or;
+- (_Bool)ith three fingers to copy and paste a selection.;
+- (void)àþÿ;
+- (void)onyUtilities;
 @end
 

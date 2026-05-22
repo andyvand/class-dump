@@ -4,19 +4,13 @@
 
 // Global C++ functions
 
-ReleaseTransitionTable(__ThaiTokenizer*);
-getChunkType(unsigned short);
-getTokenType(unsigned short);
-getUnkProb(__CFString const*, long, long, long);
-isPunct(unsigned short);
-isThaiEndingChar(unsigned short);
-operator delete(void*);
-operator delete(void*, std::__type_descriptor_t);
-operator delete(void*, std::nothrow_t const&);
-operator delete[](void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
-operator new(unsigned long, std::nothrow_t const&);
-operator new[](unsigned long, std::__type_descriptor_t);
+auto ReleaseTransitionTable(__ThaiTokenizer*);
+auto getChunkType(unsigned short);
+auto getTokenType(unsigned short);
+auto getUnkProb(__CFString const*, long, long, long);
+auto isPunct(unsigned short);
+auto isThaiEndingChar(unsigned short);
+marisa::grimoire::vector::(anonymous namespace)::SELECT_TABLE;
 std::nothrow;
 typeinfo for Utils::CFBurstTrieWrapper;
 typeinfo for Utils::MarisaTrieWrapper;
@@ -30,6 +24,13 @@ typeinfo name for Utils::CFBurstTrieWrapper;
 typeinfo name for Utils::MarisaTrieWrapper;
 typeinfo name for Utils::TrieWrapper;
 typeinfo name for marisa::Exception;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void * operator new(unsigned long, std::nothrow_t const&);
+void * operator new[](unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
+void operator delete(void*, std::__type_descriptor_t);
+void operator delete(void*, std::nothrow_t const&);
+void operator delete[](void*, std::__type_descriptor_t);
 vtable for Utils::CFBurstTrieWrapper;
 vtable for Utils::MarisaTrieWrapper;
 vtable for __cxxabiv1::__class_type_info;

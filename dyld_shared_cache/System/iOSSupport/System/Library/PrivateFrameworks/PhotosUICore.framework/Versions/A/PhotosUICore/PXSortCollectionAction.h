@@ -23,9 +23,9 @@
 - (void);
 - (void);
 - (struct PXSortCollectionActionSortType);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties

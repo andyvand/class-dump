@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (id)istContent:error:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *lastReadDate; // @synthesize lastReadDate=_lastReadDate;

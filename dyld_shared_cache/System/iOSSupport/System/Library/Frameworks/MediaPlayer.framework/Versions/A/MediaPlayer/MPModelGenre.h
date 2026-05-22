@@ -12,7 +12,7 @@
 {
 }
 
-- (id)"b1};
+- (id);
 - (id);
 
 // Remaining properties

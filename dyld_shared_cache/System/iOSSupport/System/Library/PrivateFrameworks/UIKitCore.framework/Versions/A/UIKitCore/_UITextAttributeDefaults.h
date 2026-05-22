@@ -12,27 +12,25 @@ __attribute__((visibility("hidden")))
     _UIMutableTextAttributeDictionary *_attributes;
 }
 
-+ (id)Ôo°!p@ùñÁ°1¢!0@ù
-× ;
-+ (id)gPressGestureRecognizer",R,&,N;
-+ (void)ount:(long long)arg1;
++ (id);
++ (void);
++ (id)tocorrectionContext">16;
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)eIsPressed"b1"willBeginEditing"b1"editing"b1"editingHandle"I"rotationDisabled"I"isInNavigationBar"b1"delegateValueDidChange"b1"delegateStartValueDidChange"b1"delegateEndValueDidChange"b1"delegateWillBeginRequestingThumbnails"b1"delegateDidFinishRequestingThumbnails"b1"delegateWillBeginEditing"b1"delegateDidBeginEditing"b1"delegateDidCancelEditing"b1"delegateEditingAnimationFinished"b1"delegateWidthDeltaOriginXDelta"b1"delegateDidBeginAnimatingZoom"b1"delegateDidEndAnimatingZoom"b1"delegateWillZoom"b1"dataSourceRequestThumbnailImageIsSummmary"b1};
+- (void)ueForPreferenceKey:(id)arg1;
+- (void)l:(id)arg1;
+- (id)sions;
 - (id);
+- (void):(id)arg1 %@;
+- (id)_support_compression_all(struct ui_archive *);
+- (void)G;
 - (id);
-- (void);
-- (id);
-- (id)À°1¢!0@ù
-× ;
-- (void);
-- (id)cValueAnimationMatchingCASpringAnimationWithMass:stiffness:damping:velocity:fromValue:toValue: /* Error: Ran out of types for this method. */;
-- (void)G blend mode:(id)arg1 %d;
-- (id)iveDetent;
-- (id)UIKit33_UIConcentricCornerMaskingSupport;
-- (id)onOptionFailureInvocation;
-- (id)ow;
-- (void);
+- (id)3ÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) _UITextAttributeDictionary *_attributes;

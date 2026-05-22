@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Identifier;
 
 @end
 

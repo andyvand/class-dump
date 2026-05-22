@@ -28,32 +28,32 @@
 
 - (void);
 - (void);
-- (BOOL));
-- (void);
-- (void);
-- (void)o;
-- (void)e;
-- (void)ddddddd}16;
-- (void);
-- (_Bool)StreamPanelView;
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)P;
 - (BOOL);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (BOOL);
+- (void);
 - (id);
-- (id)@;
+- (id);
 - (void);
 - (void);
-- (id)!XFùÃ°1¢!0@ù
+- (id);
+- (id)@ù
 × ;
-- (id)¦»;
+- (void)ler"16@"CKChatItem"24;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

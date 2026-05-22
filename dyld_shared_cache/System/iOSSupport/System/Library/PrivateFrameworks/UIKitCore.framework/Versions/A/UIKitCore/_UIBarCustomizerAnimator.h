@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)îº;
-- (void)
-× ;
-- (id)yImageName;
-- (void)\o;
-- (void)«a;
+- (id)te a new velocity;
+- (void);
+- (void)AAyAAyAAyÃ¾7¥.3G`¾.3yp¾7½¾7GG¾¾7Gø¤.3GRº.3G;
+- (void)lêþ[
+;
+- (void)£;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *animations; // @synthesize animations=_animations;

@@ -18,9 +18,9 @@
 + (void);
 + (id);
 + (id);
-+ (int);
 + (void);
-+ (_Bool)40@0:8{CGPoint=dd}16@"UITextRange"32 /* Error: Ran out of types for this method. */;
++ (int);
++ (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -30,17 +30,17 @@
 - (void);
 - (void);
 - (void);
-- (void)*	;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)P;
-- (id)o:repeats: /* Error: Ran out of types for this method. */;
-- (struct CGRect)SString *TSTCellCustomFormatString(TSTCell *);
+- (struct CGRect);
+- (id);
+- (id)dant: /* Error: Ran out of types for this method. */;
+- (void)©ð©\ªÀªèª;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

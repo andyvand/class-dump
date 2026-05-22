@@ -5,6 +5,5 @@
 //
 
 @protocol PKPaletteHostViewDelegate
-- (void)objc_protorefs__DATA_CONST;
 @end
 

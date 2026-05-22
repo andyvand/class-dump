@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     struct CGRect _salientContentRectangle;
 }
 
-- (void)s;
+- (void);
 - (void);
 - (id);
 - (void);
+- (struct CGRect)er;
 - (void);
-- (struct CGRect);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *borderView; // @synthesize borderView=_borderView;

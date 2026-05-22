@@ -17,18 +17,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void);
-- (id)runResult;
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)rAccessibilityTraits:(id)arg1 forced:didAdjustFont: /* Error: Ran out of types for this method. */;
-- (id)Ø²P³Ä³¼µ\¶h·H¸|¹;
-- (id)nt is to be rendered for a section. This is a client error.;
+- (void);
+- (void);
+- (id)0@ù
+× ;
+- (id)l;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak _UIWindowSceneTraitProvider *_traitProvider; // @synthesize _traitProvider;

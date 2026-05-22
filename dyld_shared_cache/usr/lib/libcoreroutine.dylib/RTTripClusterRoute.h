@@ -19,25 +19,24 @@
 
 + (id);
 + (id);
-+ (_Bool)x);
++ (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (id);
 - (id);
 - (_Bool);
-- (unsigned short);
 - (id);
-- (id)nabledOnlyOnStandaloneDevices;
+- (_Bool);
 - (void);
-- (id);
+- (id);
 - (double);
-- (double);
-- (id);
-- (double)0@ù
-× ;
-- (id)edLocationsWithOptions for fetchInterval %@, error %@;
-- (_Bool):(id)arg1 I;
+- (id);
+- (id);
+- (unsigned short)?<v@?B@"NSError">24;
+- (double)setNextAOIRefreshDate: /* Error: Ran out of types for this method. */;
+- (void)heoreticalHome places stats, %{sensitive}@, required minDaysNonZeroDwellTime, %.2f, maxDaysNonZeroDwellTime, %.2f, minWeeklyAggregateDwellTimeBetweenDateRangeAverage, %.2f, totalWeeklyVisitCount, %.2f;
+- (double)egate not ready to evaluate export progress, skipping.;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long clRoadID; // @synthesize clRoadID=_clRoadID;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol NSObject><NSCopying;
 
 @protocol PXSectionedFetchResult
-
-@optional
-- (unsigned long long)adius;
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

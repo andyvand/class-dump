@@ -12,19 +12,20 @@
     NSString *_pluralTitle;
 }
 
-+ (_Bool)ayer;
-- (void);
++ (_Bool);
+- (void);
 - (id);
-- (id)a;
+- (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void)QÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *pluralTitle; // @synthesize pluralTitle=_pluralTitle;

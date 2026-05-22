@@ -11,10 +11,10 @@
     unsigned long long _type;
 }
 
-- (_Bool);
-- (void)sform=dddddd},R,N;
 - (id);
+- (void);
 - (unsigned long long);
+- (_Bool);
 - (id);
 
 // Remaining properties

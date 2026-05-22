@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void);
-- (id)ObjectContext:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)notification;
 
 // Remaining properties
 @property(readonly, nonatomic) IDSDevice *device; // @synthesize device=_device;

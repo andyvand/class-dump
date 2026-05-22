@@ -13,11 +13,12 @@ __attribute__((visibility("hidden")))
     UISceneSession *_session;
 }
 
+- (id);
 - (void);
-- (void)etForAccessories;
-- (id)dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
-- (void)gþÿÐcþÿ;
-- (id){z];
+- (void)á	!¬Aù1f°1Â0@ù
+× ;
+- (id);
+- (void)ô;
 
 // Remaining properties
 @property(retain, nonatomic) UIScene *scene; // @synthesize scene=_scene;

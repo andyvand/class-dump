@@ -4,6 +4,7 @@
 
 class lsl::Vector<dyld4::RuntimeState::DynamicReference> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
+    auto erase(dyld4::RuntimeState::DynamicReference*, dyld4::RuntimeState::DynamicReference*);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
 };

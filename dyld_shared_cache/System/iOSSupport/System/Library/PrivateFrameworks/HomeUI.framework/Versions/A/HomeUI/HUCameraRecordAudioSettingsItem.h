@@ -27,10 +27,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)k_invoke_5;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;

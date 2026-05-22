@@ -20,13 +20,13 @@
 - (const char *);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (unsigned long long);
-- (unsigned long long)ÿÿÿÿ¤;
-- (void)/eÃÜ=+>*LZcÚ[Óó@©!G´tÑW¡aY1¬Y4Úèrfnãez÷v[ÈnÓg°\D¦\ IÅ¹8z4lErÄº¹Ýÿ¿IF§Q¯Õ)w¼à[¡°÷ä`'ÛRTm0ºnWx0Z×eV®ÉÆa/ò¥«DõûÅq~Õ(çYòDÊÜ»Î,}¸ªJ¾2±ºaéìè	ò½è·tªK(]³!1ÊîHÃÑ¸ü·PÓ²ù9¨já¹äsFZxVvÏ*×î#A¿Çµ³ñ¡Nÿoá+Egç|0·ÑuüÈ^Ê¥£ç÷ Ú­j`1¢»±ô8>t~×Ò`,ôf9Àÿ_P§óhg$4Ù´¤IÔÍh¯uUµ<=.mê«ü_[Ekqé-)U5tßýõmOØ¨{ÆÛ~¡£¬	»»Ê­f-úypCf)Ç&w{ÿ_;
-- (void)fC	cÒÃdÄGïÙ27;CÝºÂ$CM¡QÄe*;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)ring;
+- (unsigned long long)rameter;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

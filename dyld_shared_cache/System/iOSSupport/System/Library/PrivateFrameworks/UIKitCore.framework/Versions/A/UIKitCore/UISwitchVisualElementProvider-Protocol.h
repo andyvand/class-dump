@@ -7,7 +7,10 @@
 @class UISwitchVisualElement;
 
 @protocol UISwitchVisualElementProvider
-+ (UISwitchVisualElement *)Ôatð!¤AùÈ1¢!0@ù
++ (UISwitchVisualElement *)ùÑ_ð1Â0@ù
 × ;
+
+@optional
++ (UISwitchVisualElement *)lassStyleProvider;
 @end
 

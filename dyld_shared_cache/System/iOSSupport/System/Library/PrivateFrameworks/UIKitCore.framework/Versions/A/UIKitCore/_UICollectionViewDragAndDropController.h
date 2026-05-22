@@ -34,157 +34,157 @@ __attribute__((visibility("hidden")))
     NSMutableArray *__reorderedItems;
 }
 
-- (id);
-- (id) ;
 - (void);
-- (_Bool);
 - (void);
-- (id);
 - (void);
-- (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (long long);
 - (void);
-- (void)/System/Library/PrivateFrameworks/MDSChannel.framework/Versions/A/MDSChannel;
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (unsigned long long),C,N,V_payloadDescription;
-- (id);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void)";
-- (void);
-- (id);
-- (long long)does not have url expiry;
-- (id)vd;
-- (_Bool);
-- (void);
-- (id);
-- (long long)6;
-- (void);
-- (void)idChangeNotification:(id)arg1;
-- (_Bool);
-- (void);
-- (id)>8;
-- (void)ncSource;
-- (void)tItemNotificationsSuppressedKey;
-- (void);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)i;
-- (void)¡8-º;
-- (id);
-- (id)£]º;
-- (id);
-- (CDUnknownBlockType)QÀð1¢!0@ù
-× ;
 - (void);
-- (void)0@ù
-× ;
-- (id)!CùÄð1¢!0@ù
-× ;
+- (void);
 - (id);
-- (id)1¢!0@ù
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool)
 × ;
-- (id)Atð!TDùQÈð1¢!0@ù
+- (void);
+- (void);
+- (CDUnknownBlockType)0@ù
 × ;
-- (id)
+- (void)!CùQ\1Â0@ù
 × ;
-- (id)ÑÈÐ1¢!0@ù
+- (long long);
+- (void)1Â0@ù
+× ;
+- (void)¡Ð!@ùñ]°1Â0@ù
+× ;
+- (unsigned long long)
+× ;
+- (id)Ñ^Ð1Â0@ù
 × ;
 - (void);
 - (id)0@ù
 × ;
-- (id)1¢!0@ù
+- (id)!ÄBùña1Â0@ù
 × ;
 - (void);
-- (void)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (void)y°!èAùQÏ1¢!0@ù
+- (id)¡
+!0Fù1gÐ1Â0@ù
 × ;
-- (void)neLabelRequiresCarefulMeasurement"b1"noNeedsDisplayCheckForBaselineCalculationNeeded"b1"overallWritingDirectionFollowsLayoutDirection"b1"hyphenationFactorIgnoredIfURLsDetected"b1"extendedAccessibilityAdjustments"b1"canUseUILabelLayer"b1"implementsDefaultAttributes"b1"textColorFollowsTintColor"b1"materialTextColorFollowsTintColor"b1"showsExpansionTextWhenTruncated"b1"adjustsFontForContentSizeCategory"b1"disableConfigurationUpdate"b1"temporarilyDisableHighlight"b1"wantsContentAwareTypesettingLanguage"b1"isExtremeSizingEnabled"b1"sizingRule"b1"verticalTextEnabled"b1"drawingLightReactiveLayer"b1"drawingLightInertLayer"b1"delegateRespondsToDidChangeGlyphPathsBoundingRect"b1"delegateRespondsToWillChangeGlyphPathsBoundingRect"b1};
-- (_Bool)ion"b1"delegateRespondsToShouldInsertText"b1"delegateRespondsToShouldReplaceWithText"b1"suppressScrollToSelection"b1"clearOnNextEdit"b1"needsInvalidationAfterObscuredRangeChange"b1"isAnimatingPaste"b1"contentInsetsFromFontsValid"b1"drawingFindIndicator"b1};
-- (void)isplayMode"b1"delegateConstrainPrimaryColumnWidthForResizeWidth"b1"delegateConstrainSupplementaryColumnWidthForResizeWidth"b1"delegateWillBeginResizingColumn"b1"delegateDidEndResizingColumn"b1"delegateShowViewController"b1"delegateShowDetailViewController"b1"delegatePrimaryViewControllerForCollapsingSplitViewController"b1"delegatePrimaryViewControllerForExpandingSplitViewController"b1"delegateCollapseSecondaryViewControllerOntoPrimaryViewController"b1"delegateSeparateSecondaryViewControllerFromPrimaryViewController"b1"delegatePreferredSearchColumnForSplitViewController"b1"delegateInteractivePresentationGestureWillBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
-- (_Bool)dd}{CGSize=dd}}40@0:(id)arg1 8{?={CGPoint=dd}d}16;
-- (void)i40@0:(id)arg1 8{CGPoint=dd}16^d32;
-- (void)?="isShowingMoreItem"b1"needsToRebuildItems"b1"barHiddenReasons"b2"editButtonOnLeft"b1"barLayoutIsValid"b1"reselectTab"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"preferTabBarFocused"b1"notifySplitViewControllerForSelectionChange"b1"suspendBarBackgroundUpdating"b1"isAwaitingLayoutAfterTransitioningSelected"b1"offscreen"b1"ignoreSelectionUpdate"b1"usingTabs"b1"isInSidebarTransition"b1"isUserInitiatedTabChange"b1"updatedScrollView"b1"forcedStandardTabBarAppearance"b1};
-- (_Bool)28i36;
-- (void)CellDefaultSelectionTintColor;
-- (void)PerspectiveDistance: /* Error: Ran out of types for this method. */;
-- (void)ode:(id)arg1;
-- (id)zeForPage:(id)arg1;
-- (id)tionForKeyView: /* Error: Ran out of types for this method. */;
-- (void)arCursorAccessory;
-- (id)teWithAlongsideActions:(id)arg1 completion:(id)arg2;
-- (_Bool)kgroundColor;
-- (void)d;
-- (void)requiresExplicitInvalidation;
-- (void)eAlertControllerWidth;
-- (void)eedbackForCursorMovement;
-- (_Bool)umWidth;
-- (void)y;
-- (void)AdPlugIn;
-- (void)ntalBiasForEndTables;
-- (long long)atesWithInvalidationContext:tentativelyForReordering:animator: /* Error: Ran out of types for this method. */;
-- (_Bool)nt;
-- (void)lor:(id)arg1;
-- (void)ontainerLayoutFrame;
-- (id)B,R,N,GisDisabled;
-- (id)ew;
-- (id)nBlocks;
-- (id)wScene",R,W,N;
-- (_Bool)tImage;
-- (void)itionalAnimatableKeypaths:(CDUnknownBlockType)arg1 ,V__additionalAnimatableKeyPaths;
-- (void)Background_TV;
+- (_Bool)GuideRegion"16@"_UIFocusMovementRequest"24;
+- (id)recatedSPISupport"b1"preferredBehavioralStyle"b4"implementsSetControl"b1};
+- (id)8@"UITextPosition"16;
+- (void)itCollection:usingImageCustomization: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long)lectionLollipopView;
-- (void)ø®;
-- (_Bool);
-- (void)Ü;
-- (void)X;
-- (id)ÿÿÿx#éÿþTþÿ;
-- (id),\þ;
-- (_Bool);
-- (_Bool);
-- (void)tionRestorationState(NSString *, NSString *, BOOL *);
-- (void)te;
-- (_Bool)iew;
-- (long long)Provider;
-- (id)Xó[;
+- (_Bool)shouldAllowCurrentKeyplaneReload;
+- (id)setSession:(id)arg1;
+- (void)tionSeparatorColor:(id)arg1;
+- (void)LeadingBarView:(id)arg1;
+- (id)ectionWillScroll: /* Error: Ran out of types for this method. */;
+- (id)ns;
+- (void)neTextCompletionAsMarkedText;
+- (_Bool)thScrollPositionIfNecessary: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)t:hasAlpha:extendedColors: /* Error: Ran out of types for this method. */;
+- (id)ield: /* Error: Ran out of types for this method. */;
+- (id)ionMenuWithAnimationStyle: /* Error: Ran out of types for this method. */;
+- (void)tItemStyle:(id)arg1 target: /* Error: Ran out of types for this method. */;
+- (void)rWithAsset:(id)arg1;
 - (void);
-- (_Bool)KS;
-- (id)Ý_;
-- (void)zl`;
-- (id)1;
-- (void)r
-;
-- (id)+a;
-- (id)pÈe9a;
+- (void)Changed;
+- (void)ryColumnWidth;
+- (_Bool)mUsesContentShapeForSelectionHighlight;
+- (_Bool)iers:visibleIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)ry:forDisplayMode: /* Error: Ran out of types for this method. */;
+- (void)ctionIfExists;
+- (void)teOnly:(id)arg1 notifyDelegate:(id)arg2;
+- (void)ntOffset:(id)arg1;
+- (id)dChangeToSize: /* Error: Ran out of types for this method. */;
+- (id)ontainer;
+- (void);
+- (long long)ock;
+- (id)onfigureSystemDefaultAnimation;
+- (id)tedWithPosition: /* Error: Ran out of types for this method. */;
+- (id)leX;
+- (id)ary",C,N,V_keyboardTrialParameters;
+- (long long)rEffect;
+- (void)barBorderColor;
+- (_Bool)ate;
+- (id)bserver:,V_changeObserver /* Error: Ran out of types for this method. */;
+- (id)m;
+- (void);
+- (CDUnknownBlockType)¼½;
 - (id);
+- (id);
+- (void);
+- (void)nfigurations;
+- (id)its;
+- (id)atusBar:BackBreadcrumb /* Error: Ran out of types for this method. */;
+- (_Bool)rayKeyLightShine;
+- (void)>;
+- (id)ibilityShadowAlpha;
+- (_Bool)displayMode = %d, ignoring. SplitViewController = %@;
+- (void)ted stateRequest;
+- (_Bool)overed by _collectionView:(id)arg1 layout:sizesForItemsInSection: /* Error: Ran out of types for this method. */;
+- (_Bool)d by a tab bar controller is not allowed.;
+- (void)ocess is not approved to use -[UIMenuSystem _setOverrideApplicationName];
 - (id);
-- (id);
+- (long long)È>];
+- (void)½à;
+- (void)<-,ÿ;
+- (id)isÿ¶aIç]b;
+- (_Bool)nÐt¡`;
+- (void)Ôad;
+- (_Bool)yÿßÛÔCe;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_reorderedItems; // @synthesize _reorderedItems=__reorderedItems;

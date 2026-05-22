@@ -11,76 +11,82 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)^h;
++ (id)P$}þ¦;
+- (void);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool)WithTitle:contents: /* Error: Ran out of types for this method. */;
-- (long long);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (long long);
-- (_Bool)tructing maintained structure took %.6fus;
-- (_Bool);
-- (_Bool)A;
-- (_Bool);
-- (_Bool);
-- (_Bool)able;
-- (_Bool);
-- (_Bool)ioStationEditorNotes;
-- (void)aryID;
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (long long);
-- (_Bool)1¢!0@ù
+- (id);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool)
 × ;
-- (_Bool)áqÐ!ÈAù1Å1¢!0@ù
+- (_Bool)! EùqZð1Â0@ù
 × ;
 - (_Bool);
-- (_Bool)ntIsWithinTrack: /* Error: Ran out of types for this method. */;
-- (_Bool)stringFromReport: /* Error: Ran out of types for this method. */;
-- (_Bool)setExclusiveDirectionalAxis: /* Error: Ran out of types for this method. */;
-- (_Bool)ler:transitionCoordinator: /* Error: Ran out of types for this method. */;
-- (long long)sociatedScaledMetrics: /* Error: Ran out of types for this method. */;
-- (long long)ditedText;
-- (_Bool)withLocationInWindow:withWindowBounds: /* Error: Ran out of types for this method. */;
-- (long long)enValue: /* Error: Ran out of types for this method. */;
-- (id)oller:animationController:interactionController:handoffData:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)ToImageConstraint;
-- (_Bool)oller;
-- (_Bool)lignToKeyboard:,V__shouldAlignToKeyboard /* Error: Ran out of types for this method. */;
-- (long long);
-- (_Bool)SizeFullScreen:inWindow: /* Error: Ran out of types for this method. */;
-- (long long)N,V_splitSliceMap;
-- (_Bool)ayer;
-- (_Bool)ScreenRight;
-- (long long)@;
-- (_Bool)ü;
-- (_Bool)Dë);
+- (_Bool)0@ù
+× ;
+- (_Bool)ð1Â0@ù
+× ;
+- (_Bool)°!\Cùñ_1Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)Á!ÄBùb1Â0@ù
+× ;
+- (_Bool)
+× ;
+- (_Bool)Ô ;
 - (_Bool);
-- (long long)ia absolute animations is not supported. Animation key path '%@' value '%@';
-- (_Bool)àúÿÿ|ÄçÿØ¬Qþ;
-- (_Bool);
-- (_Bool)ched;
-- (unsigned long long)collection class. Expected subclass of NSArray.;
-- (long long)-[_definitionTextView]-|;
-- (_Bool)lid initializer - use -initWithCurrentLayout:nextLayout:instead /* Error: Ran out of types for this method. */;
-- (_Bool)d;
-- (_Bool)gDescription;
-- (_Bool)ytics.framework/CoreAnalytics;
-- (_Bool)WO@ð0í»jxÀ9ò@d&~?;
-- (_Bool)(î;
+- (long long);
+- (long long)izedReservedLayoutSize"b1"hasCustomizedMaximumSize"b1"hasCustomizedAccessibilityIgnoresInvertColors"b1"hasCustomizedStrokeColor"b1"hasCustomizedStrokeColorTransformer"b1"hasCustomizedStrokeWidth"b1"hasCustomizedMonochromaticTreatment"b1};
+- (long long)B44@?48;
+- (long long)ngeObserver>";
+- (_Bool);
+- (long long)tMenuInteraction: /* Error: Ran out of types for this method. */;
+- (unsigned long long)cument;
+- (long long)amping;
+- (_Bool)pWithCapacity: /* Error: Ran out of types for this method. */;
+- (_Bool)s;
+- (_Bool)ling;
+- (_Bool)rCommandWithType:(id)arg1 action: /* Error: Ran out of types for this method. */;
+- (_Bool)nBehaviorSettings",N,&,VinteractiveSpring;
+- (_Bool)ntroller>",&,N,S_setSmartReplyFeedbackInputDashboardViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)FBSSceneIdentityToken",&,N,V_sceneIdentity;
+- (_Bool)t<;
+- (unsigned long long)ed request to show compact column when UISplitViewController is not collapsed. Using a default presentation. <%{public}@:%{public}p> /* Error: Ran out of types for this method. */;
+- (_Bool)al info:(id)arg1 %@;
+- (_Bool);
+- (_Bool)sed layout. Split view controller:(id)arg1 %@;
+- (_Bool)ndexPathCSo0a8ReusableB0CSgIeyByyya_;
+- (unsigned long long)®;
+- (long long)7ABSQ12CoreGraphicsyHCg_G;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

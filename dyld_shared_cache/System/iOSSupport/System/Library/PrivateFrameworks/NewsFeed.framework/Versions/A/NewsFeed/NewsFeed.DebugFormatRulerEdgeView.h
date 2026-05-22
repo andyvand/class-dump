@@ -23,12 +23,13 @@
     MISSING_TYPE *metricSelectionView;
 }
 
-- (void)=;
 - (void);
+- (id);
 - (void);
-- (id)!;
-- (void)r:maximumRequestCount: /* Error: Ran out of types for this method. */;
-- (id)¥üÿ;
+- (id)0@ù
+× ;
+- (void)ôH;
+- (void);
 
 @end
 

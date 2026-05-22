@@ -15,9 +15,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id)ot receive a response;
-- (void);
 - (id);
+- (void);
+- (id)ancelTransition:(id)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

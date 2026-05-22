@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @protocol UIWindowDelegate
-
-@optional
-- (void);
-- (void);
-- (_Bool)match to sealed key '%@';
-- (UIView *)J;
 @end
 

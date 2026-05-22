@@ -19,8 +19,8 @@
 + (id);
 + (id);
 + (_Bool);
-+ (void)ion(TSDCAAnimationAdditions) TSD_valueAtPercent:] /* Error: Ran out of types for this method. */;
-+ (id),OW¦ç;
++ (id);
++ (void);
 - (id);
 - (long long);
 - (id);

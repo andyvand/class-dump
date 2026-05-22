@@ -7,6 +7,6 @@
 @protocol NSObject;
 
 @protocol UIObjectTraitDefinition
-+ (id <NSObject>)unds;
++ (id <NSObject>)nputView(void);
 @end
 

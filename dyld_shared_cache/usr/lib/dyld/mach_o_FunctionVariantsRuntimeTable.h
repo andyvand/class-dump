@@ -4,5 +4,5 @@
 
 class mach_o::FunctionVariantsRuntimeTable {
 public: // (access info unavailable from symbols alone)
-    forEachVariant(void (mach_o::FunctionVariantsRuntimeTable::Kind, unsigned int, bool, std::__1::span<unsigned char const, 18446744073709551615ul>, bool&) block_pointer) const;
+    auto forEachVariant(void (mach_o::FunctionVariantsRuntimeTable::Kind, unsigned int, bool, std::__1::span<unsigned char const, 18446744073709551615ul>, bool&) block_pointer) const;
 };

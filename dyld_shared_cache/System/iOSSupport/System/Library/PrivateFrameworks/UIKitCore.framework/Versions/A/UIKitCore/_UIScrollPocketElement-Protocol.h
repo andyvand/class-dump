@@ -5,8 +5,7 @@
 //
 
 @protocol _UIScrollPocketElement
-- (_Bool)ObjectsUsingBlock: /* Error: Ran out of types for this method. */;
-- (long long)tionDifference";
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _requiresPocket;

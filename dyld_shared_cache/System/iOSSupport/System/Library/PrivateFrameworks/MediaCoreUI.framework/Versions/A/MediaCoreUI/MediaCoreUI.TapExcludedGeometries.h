@@ -8,8 +8,6 @@
 
 @interface MediaCoreUI.TapExcludedGeometries
 {
-    MISSING_TYPE *titleButton;
-    MISSING_TYPE *scrubber;
     MISSING_TYPE *leadingAccessories;
     MISSING_TYPE *trailingAccessories;
     MISSING_TYPE *_$observationRegistrar;

@@ -18,18 +18,18 @@
     void requestedAd;
 }
 
-- (id)sUI2/AlertFeedUnavailable.swift;
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
 - (void);
-- (id)cheduleRandomInitialDelay;
-- (id);
-- (id);
-- (id);
 - (struct CGSize);
 - (id);
-- (id)@;
+- (id)¨;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *adjacent;

@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _responseHandler;
 }
 
-- (void)StorefrontIdentifier;
-- (void)onary",R;
-- (void){public}@:(id)arg1 [%{public}@] The user signed into iCloud. We'll attempt to authenticate the account with iTunes.;
+- (void);
+- (void);
+- (void);
+- (id);
+- (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (id)blic}@ - timeStamp:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)isRenew=%{BOOL}u;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPCModelStorePlaybackItemsRequest *request; // @synthesize request=_request;

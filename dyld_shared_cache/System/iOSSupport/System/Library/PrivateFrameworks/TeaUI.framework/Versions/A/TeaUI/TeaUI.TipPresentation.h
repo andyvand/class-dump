@@ -15,9 +15,9 @@
     MISSING_TYPE *observedScrollViews;
 }
 
+- (id);
 - (void);
-- (id)ckElementForClipping:storeIntoSet: /* Error: Ran out of types for this method. */;
-- (void)B,N,V_last;
+- (void)Tùúÿxùúÿ¬ùúÿèùúÿúúÿ0úúÿTúúÿ¤ûúÿàûúÿ$üúÿÈüúÿìüúÿ(ýúÿ<ÿúÿXÿúÿ|ÿúÿ ;
 
 @end
 

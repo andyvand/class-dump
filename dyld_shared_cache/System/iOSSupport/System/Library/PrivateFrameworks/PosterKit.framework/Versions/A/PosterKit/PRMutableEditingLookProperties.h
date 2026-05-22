@@ -20,7 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)¨Ð!Fù±ñÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) PRTimeFontConfiguration *timeFontConfiguration; // @synthesize timeFontConfiguration=_timeFontConfiguration;

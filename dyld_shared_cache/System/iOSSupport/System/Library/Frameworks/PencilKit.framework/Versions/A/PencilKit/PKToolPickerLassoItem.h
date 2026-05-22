@@ -15,7 +15,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)@"UITextInputAssistantItem";
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PKLassoTool *lassoTool;

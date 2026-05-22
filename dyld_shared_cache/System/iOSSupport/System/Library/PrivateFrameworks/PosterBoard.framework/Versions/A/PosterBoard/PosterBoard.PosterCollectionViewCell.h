@@ -17,8 +17,8 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long pbf_layoutOrientation;

@@ -18,21 +18,22 @@
     NSArray *_uiEvents;
 }
 
-+ (_Bool)on} on ${DraftsInput};
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (double);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (double);
-- (id);
-- (double);
-- (id)TB,R,N,GisIgnoredByDefault,V_ignoredByDefault;
-- (id)arItemTitle,WFAlertEnabled(Alert),WFAlertCondition(When Messaging),WFAlertPerson;
+- (double)	
+;
+- (void)Properties:] /* Error: Ran out of types for this method. */;
+- (id)´Ïÿ;õàè;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;

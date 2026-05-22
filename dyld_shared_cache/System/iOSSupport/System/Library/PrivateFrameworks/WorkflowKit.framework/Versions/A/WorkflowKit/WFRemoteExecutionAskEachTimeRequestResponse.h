@@ -25,9 +25,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)Parameter Summary);
+- (void);
+- (id)ll match the order used in the Podcasts app.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;

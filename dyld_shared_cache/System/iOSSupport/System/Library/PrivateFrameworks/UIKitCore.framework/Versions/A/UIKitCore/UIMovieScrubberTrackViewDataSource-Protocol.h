@@ -5,6 +5,5 @@
 //
 
 @protocol UIMovieScrubberTrackViewDataSource
-- (double)mpletedTasks;
 @end
 

@@ -24,34 +24,34 @@
     struct CGPoint _liftAnchorPoint;
 }
 
-+ (id)Needs Deferred Indexing %@;
-+ (id)ent state:(id)arg1 %@;
++ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ionForChatIdentifier:(id)arg1;
-- (id)fterRow:withLimit: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void)ants. Not repairing participants.;
-- (id)from legacy service session, please file a radar-------*/;
-- (_Bool)service session, please file a radar-------*/;
-- (long long)en to:%@ /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ing;
-- (CDUnknownBlockType)@;
-- (id)d batch ID or message index in %@;
-- (id)DateOfLastEdit:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ssage;
-- (struct CGPoint);
-- (id);
 - (void);
-- (id)}Ç±F6b;
+- (void);
+- (id);
+- (_Bool);
+- (long long);
+- (struct CGPoint);
+- (CDUnknownBlockType);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (struct CGPoint);
+- (void)¤·a;
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=_applyTargetTransformToFlock, setter=_setApplyTargetTransformToFlock:) _Bool _applyTargetTransformToFlock; // @synthesize _applyTargetTransformToFlock=__applyTargetTransformToFlock;

@@ -54,11 +54,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

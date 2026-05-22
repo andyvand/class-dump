@@ -19,41 +19,41 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id)fectiveFirstBaselineOffsetFromContentTop;
 + (id);
 + (id);
 + (id);
-+ (id)i];
-+ (id)#;
-+ (id)ator was missing mapping for MPModelPropertyTVEpisodeLastDevicePlaybackDate;
 + (id);
-+ (id);
 + (id);
-+ (id))½%º;
-+ (id)XCùqÆð1¢!0@ù
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)ð!ü@ùQe°1Â0@ù
 × ;
-+ (id)Ay!¤BùñÎ1¢!0@ù
++ (id)f°1Â0@ù
 × ;
-+ (id)16@"UIEvent"24;
-+ (id)SString"24@0:8@"_UIPopoverHostManagerPopoverCreationConfiguration"16 /* Error: Ran out of types for this method. */;
-+ (id)roller:(id)arg1 shouldSelectViewController: /* Error: Ran out of types for this method. */;
-+ (id)ame:(id)arg1;
-+ (id): /* Error: Ran out of types for this method. */;
-+ (id)AutoFillKeywordsForKey:value:localizedKeywords: /* Error: Ran out of types for this method. */;
-+ (id)inationInvocation;
-+ (id)GPoint=dd}{CGSize=dd}},N,V_disabledScrollingRegion;
-+ (id)¼º4½ ½Ì½8¾À¾;
-+ (id)dded to a view, the constraint's items must be descendants of that view (or the view itself). This will crash if the constraint needs to be resolved before the view hierarchy is assembled. Break on %s to debug.;
-+ (id)per API contract!;
-+ (id)ÿ®"þÿ"ÿÿÿÿ;
-+ (id)nsets;
-+ (id)?;
-+ (id)SDFElementView;
-+ (id)B];
-+ (id)G©b;
-+ (id)/Örc;
-+ (unsigned long long)4¿uÿÐØ³^e;
++ (id)"24;
++ (id)c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24;
++ (id)egate>";
++ (id)tOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
++ (id)eyboard;
++ (id)refersExtendedRange: /* Error: Ran out of types for this method. */;
++ (id)mItem;
++ (id)nsWithTranslation:(id)arg1 location:ended:withVelocity: /* Error: Ran out of types for this method. */;
++ (id),S_setAccessoryPlacement:(id)arg1 ,V_accessoryPlacement;
++ (id)nimations;
++ (id)ÿÿ:(id)arg1;
++ (unsigned long long)SynchronizingWithKeyboard SPI has been deprecated.;
++ (id)yþÿ;
 + (id);
++ (id)`kïÿ°jïÿºkïÿ;
++ (id)y:cannot get the shadow update for a placeholder that was not inserted (missing shadow update) /* Error: Ran out of types for this method. */;
++ (id)ER_RESET;
++ (id)Xx;
++ (id)e;
++ (id)'o;
++ (id)Ûl;
++ (id)áÿÁ;
 - (void);
 - (id);
 - (_Bool);
@@ -61,18 +61,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)6;
-- (void)NSArray"16C24@"NSArray"28@"NSString"36;
-- (void):(long long)arg1 reply: /* Error: Ran out of types for this method. */;
-- (void)kHistory;
-- (void);
-- (id)frameRange;
 - (void);
 - (void);
-- (id)tartDataDetectors;
-- (id)ReceiveTouch:forEvent: /* Error: Ran out of types for this method. */;
-- (double)0;
-- (id)Presented;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double sampleRate; // @synthesize sampleRate=_sampleRate;

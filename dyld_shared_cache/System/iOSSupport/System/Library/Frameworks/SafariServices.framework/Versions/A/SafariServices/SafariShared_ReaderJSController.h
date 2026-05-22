@@ -4,17 +4,16 @@
 
 class SafariShared::ReaderJSController {
 public: // (access info unavailable from symbols alone)
-    evaluateLocalizedStringsScript(OpaqueJSContext const*);
-    evaluateSharedUINormalWorldScript(OpaqueJSContext const*);
-    isReaderViewInSeparateProcessEnabled();
-    loadNewArticle();
-    reloadArticle() const;
-    scriptObjectName();
-    setArticleLocale(NSString*);
-    setConfiguration(NSDictionary*);
-    setIsReaderViewInSeparateProcessEnabled(bool);
-    setReaderIsActive(bool);
-    staticFunctions();
-    staticJSClass();
+    auto evaluateLocalizedStringsScript(OpaqueJSContext const*);
+    auto evaluateSharedUINormalWorldScript(OpaqueJSContext const*);
+    auto isReaderViewInSeparateProcessEnabled();
+    auto loadNewArticle();
+    auto scriptObjectName();
+    auto setArticleLocale(NSString*);
+    auto setConfiguration(NSDictionary*);
+    auto setIsReaderViewInSeparateProcessEnabled(bool);
+    auto setReaderIsActive(bool);
+    auto staticFunctions();
+    auto staticJSClass();
     ~ReaderJSController();
 };

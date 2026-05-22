@@ -12,6 +12,8 @@
     MISSING_TYPE *transcription;
     MISSING_TYPE *date;
     MISSING_TYPE *message;
+    MISSING_TYPE *isRead;
+    MISSING_TYPE *appType;
 }
 
 @end

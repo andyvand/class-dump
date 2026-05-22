@@ -69,13 +69,13 @@
 - (float);
 - (void);
 - (void);
-- (void);
 - (id);
-- (float);
-- (void);
-- (float);
-- (void);
 - (struct CGPoint);
+- (float);
+- (float);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double additionalSpacingAtIndex; // @synthesize additionalSpacingAtIndex=_additionalSpacingAtIndex;

@@ -13,12 +13,12 @@
 }
 
 - (id);
-- (long long)@; this may not be accurate.;
 - (id);
-- (void);
-- (void);
 - (long long);
-- (id)s: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (long long);
+- (void)¨!ûÿô!ûÿ"ûÿT"ûÿ"ûÿô"ûÿP$ûÿt$ûÿ°$ûÿä$ûÿ %ûÿ8%ûÿX&ûÿ(ûÿT)ûÿÌ)ûÿð)ûÿ*ûÿ8*ûÿ\*ûÿØ+ûÿü+ûÿ ,ûÿ¬,ûÿè,ûÿ$-ûÿ0-ûÿ/ûÿ<ÿûÿXÿûÿtÿûÿÿûÿ¬ÿûÿÈÿûÿäÿûÿ;
 
 @end
 

@@ -14,16 +14,16 @@
     unsigned long long _alignment;
 }
 
-- (void)e;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)\,B;
-- (id);
-- (void);
-- (void);
-- (id)ystem/Library/PrivateFrameworks/NewsServicesInternal.framework/Versions/A/NewsServicesInternal;
-- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

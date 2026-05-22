@@ -44,15 +44,15 @@
 - (void);
 - (void);
 - (id);
-- (id)tentsObject:withObject: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (id)Point}}}24r^v40;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (void)ueryString;
 - (void);
-- (_Bool)'5�`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cacheDirectoryURL; // @synthesize cacheDirectoryURL=_cacheDirectoryURL;

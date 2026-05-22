@@ -14,11 +14,11 @@
 
 + (unsigned long long);
 + (id);
-+ (_Bool)Restart (WFShutdownMode);
++ (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)esource is greater than int32.;
+- (id)trol Center;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localIdentifier; // @synthesize localIdentifier=_localIdentifier;

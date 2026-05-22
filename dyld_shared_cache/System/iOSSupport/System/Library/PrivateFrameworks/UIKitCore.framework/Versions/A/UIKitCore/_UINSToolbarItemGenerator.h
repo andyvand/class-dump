@@ -18,20 +18,19 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id)sferCenter updating guid for transfer in cache map:%@ to %@ /* Error: Ran out of types for this method. */;
-+ (id)dCountDeltaThreshold;
++ (id);
++ (id);
 - (void);
-- (id)tionToken;
-- (id)"NSSet",&,N,V_senderRegistrationProperties;
-- (void);
-- (void);
-- (id)! AùÑÍ°1¢!0@ù
-× ;
-- (_Bool)ctionPullViewDelegate>"16@0:(id)arg1 8;
-- (id)SuppressionAssertion:(id)arg1;
-- (id)`M;
 - (id);
 - (id);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id)DirectionalEdgeInsets=dddd},N,V_sectionInsets;
+- (id)ôà¸;
+- (id)compute update value after shadow updates. Map:%@,, update:%@, shadowUpdatesMap:%@ /* Error: Ran out of types for this method. */;
+- (void)Ðwþ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *_nstoolbarItemIdentifier;

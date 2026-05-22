@@ -31,8 +31,8 @@
 - (id);
 - (id);
 - (id);
-- (id)ission;
-- (id)WFInput} to clipboard;
+- (id);
+- (id)Ë;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *additionalRepresentationsForSerialization;

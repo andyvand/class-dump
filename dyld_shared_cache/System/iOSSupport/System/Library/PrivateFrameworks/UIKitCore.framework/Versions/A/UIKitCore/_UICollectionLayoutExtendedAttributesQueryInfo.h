@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
     struct CGRect _queryRect;
 }
 
-- (_Bool);
-- (struct CGRect)";
-- (id)sEvenOddFillRule;
-- (id);
 - (id);
-- (long long)KeyboardCandidate"16@"UITextRange"24;
+- (long long);
+- (id);
+- (_Bool);
+- (struct CGRect)oint=dd}{CGSize=dd}},N,V_trackBounds;
+- (id)ns:(struct CGRect)arg1 ,V_allowsMultipleSessions;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isOrthoSection;

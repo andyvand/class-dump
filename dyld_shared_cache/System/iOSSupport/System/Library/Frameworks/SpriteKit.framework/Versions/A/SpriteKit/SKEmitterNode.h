@@ -25,7 +25,7 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -137,7 +137,6 @@
 - (void);
 - (unsigned int);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -151,10 +150,11 @@
 - (long long);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (double);
 - (void);
@@ -162,7 +162,7 @@
 - (id);
 - (id);
 - (void);
-- (void)%;
+- (void)articleColorBlendFactorRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *attributeValues; // @dynamic attributeValues;

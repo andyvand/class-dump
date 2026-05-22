@@ -83,26 +83,25 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_0b45e515);
+- (void);
+- (id);
 - (_Bool);
-- (long long);
+- (void);
+- (id);
+- (_Bool);
+- (float);
+- (void);
+- (_Bool);
+- (CDStruct_0b45e515);
+- (void);
 - (double);
 - (void);
-- (_Bool);
-- (id);
+- (long long)w;
+- (id)ition;
+- (id)_block_invoke_2;
+- (void)ityLocation;
 - (void);
-- (id);
-- (void)!\@ùy1b0@ù
-× ;
-- (void)GLayout<PXPhotosSectionedLayoutHeader>"16@"PXAssetsDataSource"24@"PXPhotosLayoutSpec"32;
-- (void);
-- (void)omPadding;
-- (id)P'¨'°+h,4. .6;
-- (id)ctionManageExitMode_Title;
-- (void)llerFactory;
-- (_Bool)ï¤4;
-- (float)%`¯;
-- (void)6;
+- (void)p;
 
 // Remaining properties
 @property(nonatomic) _Bool animateGainMapAppearance; // @synthesize animateGainMapAppearance=_animateGainMapAppearance;

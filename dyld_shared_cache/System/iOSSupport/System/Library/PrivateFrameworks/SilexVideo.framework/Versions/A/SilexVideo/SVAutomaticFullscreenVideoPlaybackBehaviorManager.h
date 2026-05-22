@@ -18,13 +18,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
 
 // Remaining properties
 @property(nonatomic) unsigned long long behavior; // @synthesize behavior=_behavior;

@@ -39,8 +39,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void)`;
-- (void)F;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id)ceConditionsToCheck;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -65,26 +65,27 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void)t;
 - (void);
-- (void);
-- (id);
-- (id)dex:(struct _NSZone *)arg1;
-- (id)ssing mapping for MPModelPropertyStaticAssetFlavorType;
+- (long long);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (long long)1¢!0@ù
+- (id)!¨Eù1^ð1Â0@ù
 × ;
-- (long long)older">32;
-- (id)ines;
-- (void)onDidChange;
-- (id)tePropertyWithKey: /* Error: Ran out of types for this method. */;
-- (void)TB,R,N,G_isContentViewHidden;
 - (void);
-- (void)ctivationReasonUserInfoKey;
+- (void)1Â0@ù
+× ;
+- (void)w:(id)arg1 didFailProvisionalLoadWithError:forFrame: /* Error: Ran out of types for this method. */;
+- (void)ithWhite:(id)arg1 alpha: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 scale:inContext: /* Error: Ran out of types for this method. */;
+- (id)_quietPeriod;
+- (id)be called for custom symbol images.;
+- (long long)lues:] called with NULL values array /* Error: Ran out of types for this method. */;
+- (void)4¬qþ;
+- (id)k`;
+- (void)6h;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType backButtonHandler; // @synthesize backButtonHandler=_backButtonHandler;

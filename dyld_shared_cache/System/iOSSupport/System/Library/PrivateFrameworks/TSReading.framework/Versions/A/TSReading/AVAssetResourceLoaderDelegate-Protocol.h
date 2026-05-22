@@ -5,8 +5,5 @@
 //
 
 @protocol AVAssetResourceLoaderDelegate
-
-@optional
-- (_Bool)rmatStruct"{?="mFractionAccuracy"b8}"mBaseFormatStruct"{?="mBase"b8"mBasePlaces"b8"mBaseUseMinusSign"b1}"mDateFormatStruct"{?="mSuppressDateFormat"b1"mSuppressTimeFormat"b1"mDateTimeFormat"@"NSString"}"mDurationFormatStruct"{?="mUseAutomaticUnits"b1"mDurationUnitSmallest"i"mDurationUnitLargest"i"mDurationStyle"i}"mCustomFormatStruct"{?="mCustomFormatID"I"mData"^{?}}"mControlFormatStruct"{?="mMinimum"d"mMaximum"d"mIncrement"d"mDisplayFormatType"i"mOrientation"b2"mPosition"b2}"mMultipleChoiceListFormatStruct"{?="mInitialValue"i"mMultipleChoiceListFormatID"I"mData"@"<TSUMultipleChoiceListChoiceProviding>"})};
 @end
 

@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
     _Bool _drawUnderline;
 }
 
-- (id)hed_person_id, flavor, url, mini_sinf, sinfs FROM assets WHERE identifier = @identifier AND hashed_person_id = @hashedPersonID AND flavor = @flavor;
-- (id)_existingView;
+- (id);
+- (id)T@"<UIDragInteractionEffect>",?,R,N;
 
 @end
 

@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (double);
 - (void);
 - (id);
-- (void)%@;
+- (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PRInvalidatable> assertion; // @synthesize assertion=_assertion;

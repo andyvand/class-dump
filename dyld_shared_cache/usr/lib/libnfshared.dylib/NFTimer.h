@@ -14,15 +14,15 @@
     _Bool _monotonic;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (double);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 
 @end
 

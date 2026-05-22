@@ -12,12 +12,12 @@
     MISSING_TYPE *tableViewSource;
 }
 
-- (void)G'<;
 - (void);
-- (id)tleText;
-- (id)@"NSURL",R,N,V_pollingURL;
+- (id);
+- (id);
 - (void);
-- (void);
+- (void)¦ûýÿ(ÿÿ;
+- (void)Éæÿ5;
 
 @end
 

@@ -9,10 +9,10 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);

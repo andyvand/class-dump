@@ -5,8 +5,8 @@
 class icu::number::IntegerWidth {
 public: // (access info unavailable from symbols alone)
     IntegerWidth(short, short, bool);
-    apply(icu::number::impl::DecimalQuantity&, UErrorCode&) const;
-    operator==(icu::number::IntegerWidth const&) const;
-    truncateAt(int);
-    zeroFillTo(int);
+    auto apply(icu::number::impl::DecimalQuantity&, UErrorCode&) const;
+    auto operator==(icu::number::IntegerWidth const&) const;
+    auto truncateAt(int);
+    auto zeroFillTo(int);
 };

@@ -7,7 +7,6 @@
 @class UIWindow;
 
 @protocol _UIGestureRecognizerDriverContext
-- (UIWindow *);
 
 // Remaining properties
 @property(readonly, nonatomic) UIWindow *eventReceivingWindow;

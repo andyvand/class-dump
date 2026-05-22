@@ -5,9 +5,5 @@
 //
 
 @protocol CKConversationListEmbeddedCollectionViewCellDelegate
-- (double);
-- (void)Save;
-- (void)B;
-- (void)t;
 @end
 

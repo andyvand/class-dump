@@ -19,10 +19,10 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ethod);
+- (void)invoke;
+- (id)>;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

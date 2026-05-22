@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void)';
+- (void);
 - (long long);
 - (void);
 - (_Bool);
@@ -38,27 +38,26 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (_Bool);
+- (struct CGSize);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (struct CGSize);
+- (id);
 - (_Bool);
-- (void);
+- (id);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)
-× ;
-- (struct CGSize)ectedMediaOptionInMediaSelectionGroup:(struct CGSize)arg1;
-- (id)groupingType: /* Error: Ran out of types for this method. */;
-- (void)ntOutputDevicesDidChange:(struct UIEdgeInsets)arg1;
-- (void):(id)arg1 didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
-- (id),N;
-- (struct UIEdgeInsets)Ü;
-- (void)howStoreCanonicalID;
+- (void);
+- (struct UIEdgeInsets);
+- (void)isodeType__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *accessoryImage; // @synthesize accessoryImage=_accessoryImage;

@@ -12,7 +12,7 @@
     id <IMServiceAvailabilityMonitoring> _serviceAvailabilityMonitor;
 }
 
-+ (id)£;
++ (id)bool}d;
 - (void);
 - (void);
 - (id);
@@ -22,22 +22,23 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (long long);
-- (long long);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (long long);
+- (long long);
 - (id);
-- (_Bool)ingStatus;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool)°!Eùqs°1Â0@ù
+× ;
+- (long long)tricsCollectorEventiMessageAppInstalledCount;
 
 // Remaining properties
 @property long long serviceAvailability; // @synthesize serviceAvailability=_serviceAvailability;

@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)J0M;
+- (id)sFactory;
 
 @end
 

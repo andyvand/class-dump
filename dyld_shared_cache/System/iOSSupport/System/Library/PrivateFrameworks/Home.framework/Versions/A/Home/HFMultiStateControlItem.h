@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (Class);
++ (Class)sFromNow:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)äHXL;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *multiStateCharacteristicType; // @synthesize multiStateCharacteristicType=_multiStateCharacteristicType;

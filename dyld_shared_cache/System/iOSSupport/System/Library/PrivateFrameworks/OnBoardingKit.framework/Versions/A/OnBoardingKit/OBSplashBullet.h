@@ -12,10 +12,10 @@
     OBImage *_icon;
 }
 
-- (id)PairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

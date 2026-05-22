@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
+- (void)iption:(id)arg1;
+- (void)"<CNUIUserActionRanking>",&,N,V_rankingHelper;
 
 @end
 

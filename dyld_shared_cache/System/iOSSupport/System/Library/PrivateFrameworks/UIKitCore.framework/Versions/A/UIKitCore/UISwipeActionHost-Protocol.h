@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UIColor, UIScrollView, UISwipeActionController, UISwipeActionsConfiguration, UIView;
+@class NSIndexPath, UIView;
 
 @protocol UISwipeActionHost
-- (UIView *)|¬;
-- (NSIndexPath *)× ;
-- (UIScrollView *)1¢!0@ù
-× ;
-- (long long)0@ù
-× ;
-- (UISwipeActionsConfiguration *)w;
-- (UIView *)hElementAddQuadCurveToPoint;
+- (UIView *);
+- (NSIndexPath *)ubviews"b1};
+- (UIView *);
 
 @optional
-- (void)failed.;
-- (void)calOptions allocation. Sealing failed.;
-- (struct UIEdgeInsets)allocation. Sealing failed.;
-- (void)t failed;
-- (void)taCreateSealingRequestInternal (MinimalSealing) failed;
-- (void)eMinimalSealingRequestPreCheck failed;
-- (UIColor *)ateSealingRequestInternal (MultiSealing) failed;
-- (void)lingRequestArray is NULL;
-- (void)!üDù±Áð1¢!0@ù
+- (void)0@ù
 × ;
-- (_Bool)boratingShapes:(UISwipeActionController *)arg1 insideShape:(NSIndexPath *)arg2 count: /* Error: Ran out of types for this method. */;
+- (void)erBarButtonItems;
+- (void)ould not be taken when linked against iOS 14 or newer.;
 @end
 

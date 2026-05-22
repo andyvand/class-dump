@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *catDescription; // @synthesize catDescription=_catDescription;

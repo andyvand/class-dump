@@ -9,8 +9,8 @@
 }
 
 - (id);
+- (_Bool);
 - (id);
-- (_Bool)lemetryEvent;
 
 @end
 

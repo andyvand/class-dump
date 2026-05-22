@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
 - (id);
+- (void)Size=dd}24B40;
 - (unsigned long long);
 
 // Remaining properties

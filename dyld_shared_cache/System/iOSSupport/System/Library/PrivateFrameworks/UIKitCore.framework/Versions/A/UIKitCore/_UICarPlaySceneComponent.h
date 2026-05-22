@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     UIScene *_scene;
 }
 
-- (_Bool)anslationsForMessagePart: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (_Bool)NeededWithMessage:reply: /* Error: Ran out of types for this method. */;
-- (void)t ;
-- (void);
-- (id)¡8-º;
-- (id)rTitle: /* Error: Ran out of types for this method. */;
-- (void)];
-- (id)Y^;
-- (id)¸^;
+- (_Bool);
+- (void);
+- (id)ions:emojiList:inlineCompletionList:proactiveTriggers: /* Error: Ran out of types for this method. */;
+- (id);
+- (void):0 /* Error: Ran out of types for this method. */;
+- (id)O ;
+- (void)x¯Ôÿ,¼;
+- (id)ÿ£úØ@wd;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

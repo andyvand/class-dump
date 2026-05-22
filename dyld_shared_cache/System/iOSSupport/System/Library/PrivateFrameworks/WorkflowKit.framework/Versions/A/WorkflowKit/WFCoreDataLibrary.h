@@ -10,9 +10,8 @@
 {
 }
 
-+ (id)ÔuýÿNLýÿ
-Kýÿ;
-- (id);
++ (id);
+- (id)Key: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *cloudKitRecordMetadata; // @dynamic cloudKitRecordMetadata;

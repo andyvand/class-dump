@@ -11,11 +11,11 @@
     MISSING_TYPE *curve;
 }
 
-+ (_Bool)r;
-- (void);
++ (_Bool)v48@0:8Q16Q24Q32Q40 /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)ctTag;
 
 @end
 

@@ -15,19 +15,20 @@
 
 + (id);
 + (id);
-+ (_Bool)LOI, %{sensitive}@, of %{public}.2f is less than threshold, %{public}.2f m. Setting state to INSIDE.;
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
++ (_Bool);
 - (_Bool);
 - (id);
-- (id)Status;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (id)ack to using all route locations,count,%lu;
-- (id),fetchTripSegmentsWithUUID error,%@,%@;
+- (id);
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)nfidence count, %lu, w.r.t the location, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;

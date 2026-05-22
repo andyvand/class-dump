@@ -4,21 +4,18 @@
 
 class asan::ReportGenerator {
 public: // (access info unavailable from symbols alone)
-    addGlobalBufferOverflowInfo(asan::Report&);
-    addGlobalBufferOverflowInfo(asan::Report&) (.cold.1);
-    addHeapBufferOverflowInfo(asan::Report&);
-    addHeapBufferOverflowInfo(asan::Report&) (.cold.1);
-    addStackBufferOverflowInfo(asan::Report&);
-    addStackBufferUnderflowInfo(asan::Report&);
-    addStackUseAfterReturnInfo(asan::Report&);
-    addStackUseAfterScopeInfo(asan::Report&);
-    addUseAfterFreeInfo(asan::Report&);
-    addUseAfterFreeInfo(asan::Report&) (.cold.1);
-    createReport(asan::Registers, asan::MemoryAccess);
-    createReport(asan::Registers, asan::MemoryAccess) (.cold.1);
-    fillStackVarInfo(asan::Report&);
-    fillStackVarInfo(asan::Report&) (.cold.1);
-    fillStackVarInfo(asan::Report&) (.cold.2);
-    fillStackVarInfo(asan::Report&) (.cold.3);
-    fillStackVarInfo(asan::Report&) (.cold.4);
+    auto addGlobalBufferOverflowInfo(asan::Report&);
+    auto addGlobalBufferOverflowInfo(asan::Report&) (.cold.1);
+    auto addHeapBufferOverflowInfo(asan::Report&);
+    auto addHeapBufferOverflowInfo(asan::Report&) (.cold.1);
+    auto addStackUseAfterReturnInfo(asan::Report&);
+    auto addUseAfterFreeInfo(asan::Report&);
+    auto addUseAfterFreeInfo(asan::Report&) (.cold.1);
+    auto createReport(asan::Registers, asan::MemoryAccess);
+    auto createReport(asan::Registers, asan::MemoryAccess) (.cold.1);
+    auto fillStackVarInfo(asan::Report&);
+    auto fillStackVarInfo(asan::Report&) (.cold.1);
+    auto fillStackVarInfo(asan::Report&) (.cold.2);
+    auto fillStackVarInfo(asan::Report&) (.cold.3);
+    auto fillStackVarInfo(asan::Report&) (.cold.4);
 };

@@ -28,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)PropertyLibraryPinPersistentID__MAPPING_MISSING__;
+- (unsigned long long);
+- (void)@"NSString",R,N,V_type;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MPMediaLibraryResultSet> resultSet; // @synthesize resultSet=_resultSet;

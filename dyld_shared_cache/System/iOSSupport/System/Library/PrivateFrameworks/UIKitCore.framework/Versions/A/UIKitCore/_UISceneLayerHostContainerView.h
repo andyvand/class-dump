@@ -29,69 +29,65 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (void);
-- (void);
-- (void)pTimer;
-- (void)mentStateCommand;
-- (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)}@;
+- (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (long long);
-- (_Bool)× ;
-- (id)!\@ùñÄ°1¢!0@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (void)ÅÐ1¢!0@ù
-× ;
-- (id)Ô ;
-- (void)
-× ;
-- (void)Ð!@DùqÆð1¢!0@ù
-× ;
-- (id)ÔAsð!üGùÇ°1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (id)!0EùñÎÐ1¢!0@ù
-× ;
-- (void)eRuleSettings;
-- (id)tOverlayContainerObserved:(id)arg1;
-- (id)nteractionDelegate: /* Error: Ran out of types for this method. */;
-- (void)Buttons:(id)arg1;
-- (id)KeyboardRect:(id)arg1;
-- (id)teSearchTextOnDidSelectSuggestion: /* Error: Ran out of types for this method. */;
-- (void)orHostedProcessConvertPoint:(id)arg1 forWindow:wasFromWindow: /* Error: Ran out of types for this method. */;
-- (void)Enabled;
-- (void):(id)arg1 keysForRow:context: /* Error: Ran out of types for this method. */;
-- (id)essibilityTraits:forced:didAdjustFont: /* Error: Ran out of types for this method. */;
-- (id)$11À1Ô203|4@5Ì5l7<8;
-- (void);
-- (void)íDî¬î;
-- (void);
-- (id)%lu locks total for this environment.;
-- (id)figuration (%@) effectiveBehavior (%@);
-- (id)Ð|þ;
-- (void)üÿ;
-- (void)ng to set transition handler with invalid event. State (@lu) is out of range for the initialized eventCount (%lu);
-- (id)ILongPressGestureRecognizer, you may see unexpected behaviors;
-- (id)on mode %@ -> %@;
-- (id)ntrollerAppearance;
-- (id)ftlink:(id)arg1 r:path:/System/Library/Frameworks/LinkPresentation.framework/LinkPresentation /* Error: Ran out of types for this method. */;
 - (id);
-- (void)H]ï2%¦4{;
-- (id):ÖÕ%Æ[ /* Error: Ran out of types for this method. */;
-- (void)çÞ;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool)¡°!HGù\Ð1Â0@ù
+× ;
+- (void)]Ð1Â0@ù
+× ;
+- (void)cÐ1Â0@ù
+× ;
+- (id);
+- (void)@ù
+× ;
+- (void)× ;
+- (void)UIEdgeInsets=dddd}16{NSDirectionalEdgeInsets=dddd}48B80;
+- (id)tRect;
+- (id);
+- (void)ggestionInfo:(id)arg1 state: /* Error: Ran out of types for this method. */;
+- (_Bool)wnScale;
+- (id)om:(struct CGRect)arg1;
+- (id)ionController;
+- (void)stLine:(id)arg1;
+- (void)bject:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)lectionEdgeInsets;
+- (void)liderVisuals;
+- (id)troller;
+- (id);
+- (void)stant;
+- (id)ùLù;
+- (void)ä±;
+- (void)ext choice assistant is stashing smart replies as scrolling begins;
+- (id)ifierPathProxyIdentifierPathKey;
+- (void)ectionCIego_|,üÿ_ABXcIego_Iggg_;
+- (void)½Ó03¯;
+- (id)¶;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <_UISceneLayerHostContainerViewDataSource> dataSource; // @synthesize dataSource=_dataSource;

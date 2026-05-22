@@ -20,10 +20,10 @@
 - (double);
 - (double);
 - (double);
-- (void);
-- (void);
 - (double);
 - (double);
+- (void);
+- (void)ÿ;
 
 // Remaining properties
 @property(nonatomic) double deviceScale; // @synthesize deviceScale=_deviceScale;

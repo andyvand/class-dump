@@ -30,22 +30,22 @@
     NSString *_signingStatus;
 }
 
-+ (id)nt;
-+ (id)çÿÌWÚ;
++ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)úÌ;
+- (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -54,18 +54,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)ì`aiØajôh;
-- (id)finder resized image;
-- (id)ëÿ:æ}Eu /* Error: Ran out of types for this method. */;
+- (void)ed;
+- (id)alking (WFGetDirectionsActionMode);
+- (id)Æ;
 
 // Remaining properties
 @property(readonly, nonatomic) CKRecordID *base; // @synthesize base=_base;

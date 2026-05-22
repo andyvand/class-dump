@@ -15,15 +15,16 @@
 }
 
 + (void);
-+ (double)H);
-+ (id)I;
++ (double);
 + (id);
 + (id);
-+ (_Bool)6@?<v@?@"NSSecurityScopedURLWrapper">24;
 + (id);
++ (_Bool)ùqA,°1Â0@ù
+× ;
++ (id)ìôúÿ95.I;
 - (void);
 - (void);
-- (void)C;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -34,12 +35,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)eceiveIntervalTriggerReporting;
 - (id);
-- (void);
-- (void)-]Ò;
+- (void)DRSetup,%{public}.3f;
+- (void)rror submitting RTVisitSettledStateMetrics:%@ /* Error: Ran out of types for this method. */;
+- (void)r, %@;
+- (id)Error fetching locations for tripID,%@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;

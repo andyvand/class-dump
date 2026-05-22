@@ -15,11 +15,11 @@
     MISSING_TYPE *bubbleTipSize;
 }
 
+- (struct CGSize);
+- (id);
 - (void);
 - (id);
-- (void)8B16;
-- (id)B11ServiceTypeP;
-- (struct CGSize)Âþ;
+- (void)lñðþÝC:h¤wþÝC:4Ü$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

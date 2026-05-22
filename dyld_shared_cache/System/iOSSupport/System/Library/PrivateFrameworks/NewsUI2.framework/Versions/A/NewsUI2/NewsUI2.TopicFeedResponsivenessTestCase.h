@@ -13,12 +13,12 @@
     unsigned long long aggregate;
 }
 
-- (void);
-- (void)P�0;
 - (id);
+- (double);
+- (void);
 - (unsigned long long);
-- (double)PresentationFailure error= %s;
-- (id)4øÿ²üÿXùÿ;
+- (void);
+- (id)" ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

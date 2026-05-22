@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id)ptionCover;
+- (void)_KEY;
+- (id)AddedDate__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *platformDictionary; // @synthesize platformDictionary=_platformDictionary;

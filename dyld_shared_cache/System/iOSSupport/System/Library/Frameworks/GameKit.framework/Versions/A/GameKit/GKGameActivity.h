@@ -66,23 +66,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (double);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id)ChallengeDefinitionSupport",N,R;
+- (unsigned long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSSet *achievements;

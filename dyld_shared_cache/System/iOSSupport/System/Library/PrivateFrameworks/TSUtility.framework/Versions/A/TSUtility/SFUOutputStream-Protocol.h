@@ -5,6 +5,5 @@
 //
 
 @protocol SFUOutputStream
-- (_Bool)Qf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/utility/sf/SFUBufferedInputStream.m;
 @end
 

@@ -21,18 +21,18 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (_Bool);
+- (id);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
-- (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool activatesAutomatically; // @synthesize activatesAutomatically=_activatesAutomatically;

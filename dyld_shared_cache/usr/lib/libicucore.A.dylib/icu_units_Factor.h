@@ -4,9 +4,10 @@
 
 class icu::units::Factor {
 public: // (access info unavailable from symbols alone)
-    applyPrefix(icu::UMeasurePrefix);
-    divideBy(icu::units::Factor const&);
-    multiplyBy(icu::units::Factor const&);
-    power(int);
-    substituteConstants();
+    auto applyPrefix(icu::UMeasurePrefix);
+    auto divideBy(icu::units::Factor const&);
+    auto divideBy(unsigned long long);
+    auto multiplyBy(icu::units::Factor const&);
+    auto power(int);
+    auto substituteConstants();
 };

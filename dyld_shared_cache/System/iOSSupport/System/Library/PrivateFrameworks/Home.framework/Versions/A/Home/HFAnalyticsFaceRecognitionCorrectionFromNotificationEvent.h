@@ -15,12 +15,12 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)ettingsForMediaAccessory;
+- (void)raryTableViewCellDescriptionTextOnlyMe;
+- (id)h)ðÿFeûð;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *errorCode; // @synthesize errorCode=_errorCode;

@@ -32,14 +32,14 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void)%s ---:Tokens %@ /* Error: Ran out of types for this method. */;
+- (id)lAccessCodeAvailable;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *checkingForUpdateSpinner; // @synthesize checkingForUpdateSpinner=_checkingForUpdateSpinner;

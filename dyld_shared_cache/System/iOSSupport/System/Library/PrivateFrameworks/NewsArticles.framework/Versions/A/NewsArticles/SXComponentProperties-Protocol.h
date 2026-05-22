@@ -8,8 +8,6 @@
 
 @protocol SXComponentProperties
 - (NSString *);
-- (SXComponentConditions *)ked but there is no offeredBundlePurchaseIDsMap configured;
-- (int).EndOfArticleModule;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityLabel;

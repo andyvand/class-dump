@@ -12,33 +12,32 @@
     _UIPresentationControllerNullVisualStyleProvider *_fallbackProvider;
 }
 
-+ (id)XÔõp;
-- (long long);
++ (id)âÿ=Øk;
+- (id);
+- (Class);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)P&	º;
-- (id)0@ù
+- (void)°1Â0@ù
 × ;
-- (id)!(FùñÅÐ1¢!0@ù
+- (long long)0@ù
 × ;
+- (id)dð1Â0@ù
+× ;
+- (id)× ;
+- (id)nd;
+- (id)nputIdentifier:(id)arg1;
+- (id)ppearanceTransitionsInViewController:(id)arg1;
+- (id)icScaleFactor;
+- (id)ndStyle;
+- (id)T@"<_UIAssertion>",N,&,VcollapsedPreviewBackgroundSuppression;
+- (long long)p@;
+- (id)rom a background thread is not supported. This will become an assert in a future version.;
 - (void);
-- (id)1¢!0@ù
-× ;
-- (long long);
-- (id)KBTree"24;
-- (void)8@"UIView<_UINavigationBarAugmentedTitleView>"16@"_UINavigationBarTitleViewOverlayRects"24;
-- (Class)ItemHandler;
-- (id)nimatedPlaceholderSupport;
-- (id)UUID",C,N,V_documentIdentifier;
-- (id)ourcePrefetching;
-- (id) ¢¢
-£¸£ü¥h§t¨¬¨;
-- (id);
-- (id)uch tracking;
-- (void)];
+- (id)Ps];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

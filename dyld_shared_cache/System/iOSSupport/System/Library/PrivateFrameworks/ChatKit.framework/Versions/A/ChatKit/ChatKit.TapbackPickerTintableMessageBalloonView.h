@@ -13,10 +13,10 @@
     MISSING_TYPE *tintBalloon;
 }
 
-- (void);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void)Q#l¬ø;
 
 @end
 

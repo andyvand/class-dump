@@ -25,14 +25,14 @@
     NSLayoutConstraint *_accessoryViewHeightConstraint;
 }
 
-- (void)erationTask;
 - (void);
-- (void)Ў;
 - (void);
-- (void)ic}@ failed with error:(id)arg1 %{public}@;
-- (void){public}@;
-- (void)ed downloading data (%lu bytes) to location %{public}@;
-- (void)twork operation with request %{public}@ finished downloading data (%lu bytes) to location %{public}@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -50,19 +50,19 @@
 - (id);
 - (void);
 - (void);
-- (void)estsFocusChangeToAccessibilityElement:(double)arg1;
+- (void);
+- (id);
 - (void);
 - (id);
 - (double);
 - (void);
 - (void);
+- (void)resentationConfiguring;
+- (id);
+- (id)48@?<v@?>56;
+- (id)ç;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)rStrokes:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)ause:(id)arg1;
+- (void)d·;
 
 // Remaining properties
 @property(retain, nonatomic) PKAccessoryView *accessoryView; // @synthesize accessoryView=_accessoryView;

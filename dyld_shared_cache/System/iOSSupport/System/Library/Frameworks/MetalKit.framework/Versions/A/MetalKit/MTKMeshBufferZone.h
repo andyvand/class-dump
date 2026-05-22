@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)unds;
 - (unsigned long long);
-- (id)e;
+- (void);
+- (id);
 - (id);
 
 // Remaining properties

@@ -26,7 +26,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ameraLensBlur;
++ (_Bool)etSerializer>"24@0:8@"MTL4PipelineDataSetSerializerDescriptor"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -64,9 +64,9 @@
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 

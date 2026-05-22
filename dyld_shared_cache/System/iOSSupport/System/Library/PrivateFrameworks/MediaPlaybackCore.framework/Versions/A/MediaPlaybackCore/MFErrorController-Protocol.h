@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @protocol MFErrorController
-- (void)ataclasses:(NSError *)arg1;
-- (void);
-- (void);
 @end
 

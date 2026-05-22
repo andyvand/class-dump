@@ -16,7 +16,8 @@
 }
 
 - (double);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,17 +34,17 @@
 - (void);
 - (void);
 - (id);
-- (void)Kit:(unsigned long long)arg1:FileSystemStorageHandle>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void)5!;
-- (id)q@;
 - (unsigned long long);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void){CGSize=dd},N,V_iconSize;
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;

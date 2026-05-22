@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void)v48@0:8@16@24@32@40 /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

@@ -21,34 +21,29 @@ __attribute__((visibility("hidden")))
     UIColor *_accessoryTintColor;
 }
 
-- (id);
+- (_Bool);
 - (void);
-- (void)m.apple.asset.book.store;
-- (void);
-- (void)*;
-- (void);
-- (void)P;
-- (void)¼£	º;
-- (void)ùÑÁ°1¢!0@ù
-× ;
-- (void)1È°1¢!0@ù
-× ;
-- (void)!@ùQÊ°1¢!0@ù
-× ;
-- (_Bool)44;
-- (void)ectionView:(id)arg1 didEndDisplayingCell:forItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (_Bool){CGPoint=dd}{CGSize=dd}},N,Vm_startEdge;
-- (id);
-- (id)Ä;
-- (struct CGSize)ting %s from NSValue containing %@ is deprecated. In future versions this will throw an exception.;
-- (void)environment lock for %@. Cleanup has already happened. Stack trace:(id)arg1 %@
-Additional info:%@ /* Error: Ran out of types for this method. */;
-- (id)adingBarButtonGroups={
-	%@
-};
 - (void);
 - (struct CGSize);
-- (void);
+- (void);
+- (void);
+- (id);
+- (void)0@ù
+× ;
+- (void)CGPoint=dd}{CGSize=dd}}24@56{CGRect={CGPoint=dd}{CGSize=dd}}64;
+- (void)fromOrientation: /* Error: Ran out of types for this method. */;
+- (void)r:(id)arg1 month:(id)arg2 assignedMonth: /* Error: Ran out of types for this method. */;
+- (void)g:(_Bool)arg1 displayInsets: /* Error: Ran out of types for this method. */;
+- (id)ngUnderlinesForRange:inContext:forProofreadingSuggestionID:recordDecorationInfo: /* Error: Ran out of types for this method. */;
+- (struct CGSize)w",&,N;
+- (void)ollerItems:(id)arg1;
+- (id)@L<MüM	DO;
+- (void);
+- (_Bool)secondaryLandscapeX;
+- (void), %g);
+- (void)ÉMÔd^;
+- (void)Â/;
+- (id)_áÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryTintColor; // @synthesize accessoryTintColor=_accessoryTintColor;

@@ -4,16 +4,16 @@
 
 class icu::UCharsTrie {
 public: // (access info unavailable from symbols alone)
-    branchNext(char16_t const*, int, int);
-    current() const;
-    findUniqueValue(char16_t const*, signed char, int&);
-    findUniqueValueFromBranch(char16_t const*, int, signed char, int&);
-    firstForCodePoint(int);
-    getNextBranchUChars(char16_t const*, int, icu::Appendable&);
-    getNextUChars(icu::Appendable&) const;
-    next(icu::ConstChar16Ptr, int);
-    next(int);
-    nextForCodePoint(int);
-    nextImpl(char16_t const*, int);
+    auto branchNext(char16_t const*, int, int);
+    auto current() const;
+    auto findUniqueValue(char16_t const*, signed char, int&);
+    auto findUniqueValueFromBranch(char16_t const*, int, signed char, int&);
+    auto firstForCodePoint(int);
+    auto getNextBranchUChars(char16_t const*, int, icu::Appendable&);
+    auto getNextUChars(icu::Appendable&) const;
+    auto next(icu::ConstChar16Ptr, int);
+    auto next(int);
+    auto nextForCodePoint(int);
+    auto nextImpl(char16_t const*, int);
     ~UCharsTrie();
 };

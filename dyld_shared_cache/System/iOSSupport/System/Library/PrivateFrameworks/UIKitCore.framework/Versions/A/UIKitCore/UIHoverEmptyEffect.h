@@ -8,11 +8,10 @@
 {
 }
 
-+ (id)ints for UITabBar managed by a controller;
++ (id)IntegratorDataSample}""{?="__cap_"^^{_UIVelocityIntegratorDataSample}}}"__start_"Q""{?="__size_"Q}};
 - (id);
-- (void)!äAùÑÄ1¢!0@ù
-× ;
-- (id),V_currentDropInsertionShadowUpdateIdentifier;
+- (id)À;
+- (void)>rÍ4ßl;
 
 @end
 

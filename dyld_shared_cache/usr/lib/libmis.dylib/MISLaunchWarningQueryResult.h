@@ -14,6 +14,7 @@
 }
 
 - (long long);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);

@@ -5,6 +5,5 @@
 //
 
 @protocol AVTPresenterDelegate
-- (void);
 @end
 

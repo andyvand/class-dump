@@ -23,9 +23,8 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
-- (id)A&Ð!Dù101b0@ù
-× ;
+- (id);
+- (void)tailText:icon:contentImage:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *doneButton; // @synthesize doneButton=_doneButton;

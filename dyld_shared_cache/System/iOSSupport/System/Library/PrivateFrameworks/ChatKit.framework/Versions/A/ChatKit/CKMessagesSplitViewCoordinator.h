@@ -15,31 +15,32 @@ __attribute__((visibility("hidden")))
     CDStruct_644752d7 _columnResizeParams;
 }
 
-+ (id)chment from inline drawing;
-- (void)ontentInfoType:attachmentContentInfoCount:account: /* Error: Ran out of types for this method. */;
-- (void)B,N,V_reduceMotion;
-- (void)ProtectedOnly;
-- (void)bleSet",&,N,V_smartFolderManagedObjectIDs;
-- (void)lt;
++ (id);
 - (void);
-- (void)x<$=;
-- (void)H,X;
-- (double);
 - (void);
-- (void)Sg;
-- (_Bool)D;
-- (_Bool)n;
-- (void)%d self.attachment.previewUpdateDate %@ has self.attachment.metadataData %d;
-- (double)s;
-- (CDStruct_644752d7)AppleInternal/Library/BuildRoots/4~CG-BugC_vsuSi25UhcCZL-obq9FqSoBPBx7ynGU/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/Mac/ICMAlertSheetTouchBarController.m;
-- (double);
-- (double)\h;
-- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (void);
 - (void);
-- (id)¨;
-- (id)ï//;
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (double);
+- (CDStruct_644752d7);
+- (double);
+- (double);
+- (double);
+- (double);
+- (void);
+- (id)th share:(id)arg1 %@, containerSetupInfo = %@, collaborationShareOptions = %@, isCollaboration = %@;
+- (void);
+- (id)BalloonViewDataSourceManager;
 
 // Remaining properties
 @property(nonatomic) CDStruct_644752d7 columnResizeParams; // @synthesize columnResizeParams=_columnResizeParams;

@@ -23,9 +23,8 @@
 - (id);
 - (void);
 - (void);
-- (void)
-× ;
-- (struct CGRect)teEdgeAntialiasingForViewport: /* Error: Ran out of types for this method. */;
+- (void)@"<SXComponent>"24@"SXDOM"32;
+- (struct CGRect)Resolver>"8;
 
 // Remaining properties
 @property(nonatomic) unsigned long long clippingMode; // @synthesize clippingMode=_clippingMode;

@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)_Nonnull WFInputActionParameterKeysForSelectingItemOfClass(Class  _Nonnull __unsafe_unretained);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *responseData; // @synthesize responseData=_responseData;

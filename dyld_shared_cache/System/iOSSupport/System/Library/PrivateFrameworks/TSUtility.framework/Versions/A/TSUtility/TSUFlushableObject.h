@@ -15,7 +15,8 @@
     NSObject<NSLocking> *_flushingManagerIvarLock;
 }
 
-+ (id)ir:(struct _NSZone *)arg1;
++ (id)0@ù
+× ;
 - (id);
 - (void);
 - (void);
@@ -23,13 +24,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (oneway void);
-- (void)U;
-- (void);
-- (void);
-- (id)3;
-- (id);
 - (unsigned long long);
+- (void);
+- (oneway void);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

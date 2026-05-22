@@ -14,16 +14,16 @@
     NSArray *_rootViews;
 }
 
-+ (void)l NOT check for duplicate chats after checking pref key %@:(id)arg1 merged-duplicate-chats;
-+ (void)iring a batch of duplicate chats;
++ (void);
++ (void);
 + (_Bool);
 + (id);
 + (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)(T^;
 
 @end
 

@@ -23,11 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (long long);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)eView;
+- (void)Yq:(id)arg1 4	;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *itemBackgroundColor; // @synthesize itemBackgroundColor=_itemBackgroundColor;

@@ -14,15 +14,14 @@
 - (void);
 - (id);
 - (void);
+- (double);
 - (id);
 - (void);
+- (unsigned long long);
 - (id);
-- (double);
-- (void)1¢!0@ù
-× ;
-- (unsigned long long)gineSendChangesContext"24;
-- (unsigned long long)izationDuration;
-- (void)TTripSegmentProvider:(unsigned long long)arg1 tripInputData,ID,%@,isFinalPart,%d,mode,%zd,locationCount,%tu,startDate,%@,endDate,%@,Interval,%.3lf,firstBreadcrumb,%{sensitive}@,lastBreadcrumb,%{sensitive}@,numChunks,%d,numTripSegments,%d;
+- (void);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long confidence; // @synthesize confidence=_confidence;

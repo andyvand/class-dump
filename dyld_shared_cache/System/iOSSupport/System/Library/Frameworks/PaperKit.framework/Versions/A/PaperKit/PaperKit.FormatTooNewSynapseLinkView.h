@@ -13,10 +13,10 @@
     MISSING_TYPE *$__lazy_storage_$_imageView;
 }
 
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)XOÿÿ(pþÿÌ±ýÿ;
 
 @end
 

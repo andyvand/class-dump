@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (double)syncStep:response:error: /* Error: Ran out of types for this method. */;
-- (id)ociatedMessageGUID:sender: /* Error: Ran out of types for this method. */;
-- (id)ageError:toError:forChat:completion: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)ed;
 - (double);
-- (void);
-- (id)tate;
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (id);
+- (double)Q16;
+- (void)_;
 
 // Remaining properties
 @property(readonly) double cornerRadius;

@@ -4,7 +4,7 @@
 
 class vector<pv_chunk_summary_ent> {
 public: // (access info unavailable from symbols alone)
-    push_back(pv_chunk_summary_ent const&);
-    reserve(unsigned long);
+    auto push_back(pv_chunk_summary_ent const&);
+    auto reserve(unsigned long);
     ~vector();
 };

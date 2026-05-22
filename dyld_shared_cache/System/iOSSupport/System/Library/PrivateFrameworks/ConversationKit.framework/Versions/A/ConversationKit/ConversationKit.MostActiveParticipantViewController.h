@@ -28,12 +28,12 @@
 
 - (void);
 - (long long);
-- (void);
-- (id);
+- (id)aXÁ$qXÁ8XÁàEXÁ§XÁütXÁ<XÁDXÁ´5(|E;
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void)GG_G;
 
 // Remaining properties
 @property(nonatomic) long long frontBoardInterfaceOrientation; // @synthesize frontBoardInterfaceOrientation;

@@ -22,11 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id)0
+BÓ;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)àH´ < èh°$;
+- (void)eating tracked filesystem node;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *archivedContentCollection; // @synthesize archivedContentCollection=_archivedContentCollection;

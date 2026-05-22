@@ -534,7 +534,11 @@ static BOOL debugMerge = NO;
             break;
     }
 
-    return nil;
+    // Unknown primitive: fall back to MISSING_TYPE so that callers that
+    // interpolate this via %@ never emit the literal "(null)" into dumped
+    // headers. MISSING_TYPE matches the existing convention used by
+    // CDTypeParser when a type name cannot be resolved.
+    return @"MISSING_TYPE";
 }
 
 - (NSString *)typeString;

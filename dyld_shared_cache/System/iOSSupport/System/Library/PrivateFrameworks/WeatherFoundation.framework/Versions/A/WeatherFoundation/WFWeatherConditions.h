@@ -16,9 +16,7 @@
 
 + (unsigned long long);
 + (_Bool);
-+ (id)AÐ!àCù­
-1¢!0@ù
-× ;
++ (id)ð¥;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -29,22 +27,22 @@
 - (struct os_unfair_lock_s);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id)stTouchBarItem: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)!;
-- (void)r / requestIdentifier are mandatory.;
+- (void);
+- (void)!;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *components; // @synthesize components=_components;

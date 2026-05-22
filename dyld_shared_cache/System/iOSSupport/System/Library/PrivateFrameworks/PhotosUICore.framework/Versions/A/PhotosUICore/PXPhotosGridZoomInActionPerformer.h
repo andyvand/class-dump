@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (id)_ñ5;
+- (id)onPerformerDelegate>",?,R,N;
 
 @end
 

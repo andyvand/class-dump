@@ -13,10 +13,10 @@
 }
 
 - (void);
-- (id);
-- (void);
 - (id);
-- (void)tocomplete recent %@ failed:(id)arg1 %@;
+- (id);
+- (void)ôL;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *internalGUID; // @synthesize internalGUID=_internalGUID;

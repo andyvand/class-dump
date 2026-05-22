@@ -11,13 +11,13 @@
     MISSING_TYPE *versionUUID;
 }
 
-+ (_Bool)9Ä;
-- (void);
++ (_Bool);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (void)>Kÿÿ;
 
 @end
 

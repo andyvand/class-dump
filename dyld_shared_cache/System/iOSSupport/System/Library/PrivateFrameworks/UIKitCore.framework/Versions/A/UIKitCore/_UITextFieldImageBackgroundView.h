@@ -11,9 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (double);
-- (void)#þP;
+- (_Bool)0@ù
+× ;
+- (double)index path:%@ /* Error: Ran out of types for this method. */;
+- (void)not supported;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius;

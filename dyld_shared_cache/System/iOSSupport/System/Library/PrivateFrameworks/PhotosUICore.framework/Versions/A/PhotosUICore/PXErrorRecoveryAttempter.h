@@ -15,7 +15,7 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)Ïþ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *recoveryOptions; // @synthesize recoveryOptions=_recoveryOptions;

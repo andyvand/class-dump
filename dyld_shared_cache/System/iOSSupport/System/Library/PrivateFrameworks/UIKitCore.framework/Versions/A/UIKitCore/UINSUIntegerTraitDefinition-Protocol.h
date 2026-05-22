@@ -5,6 +5,6 @@
 //
 
 @protocol UINSUIntegerTraitDefinition
-+ (unsigned long long)Bounds;
++ (unsigned long long)SString *getIAPayloadKeyMissingKeyboardIsCustomInputView(void);
 @end
 

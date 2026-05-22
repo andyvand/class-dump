@@ -30,17 +30,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (long long);
 - (void);
 - (void);
+- (void)ode: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) CADisplay *display;

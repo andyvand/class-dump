@@ -21,12 +21,12 @@
 }
 
 + (id);
-+ (_Bool)dBackgroundWithFadeOut;
-- (id);
++ (_Bool);
+- (id);
 - (void);
 - (void);
-- (id)@;
-- (id)(;
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -36,21 +36,22 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)v�;
-- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)0@ù
+× ;
+- (id);
+- (id)pplePhotosMoment;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

@@ -13,12 +13,12 @@
 }
 
 + (id);
-+ (id);
++ (id)n one FilePredicate matched Modal Question:%{public}s -> Predicates :%{public}s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (_Bool);
 - (id);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) FBKContentItem *contentItem; // @dynamic contentItem;

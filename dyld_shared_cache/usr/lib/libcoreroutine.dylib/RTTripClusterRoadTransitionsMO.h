@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)° ;
++ (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long clRoadIDFrom; // @dynamic clRoadIDFrom;

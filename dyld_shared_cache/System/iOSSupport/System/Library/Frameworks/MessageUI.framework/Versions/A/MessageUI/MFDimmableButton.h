@@ -18,11 +18,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)P;
-- (void)P;
-- (void);
-- (unsigned long long);
 - (_Bool);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long autohidePreference;

@@ -18,10 +18,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)L¿8ÀÂpÃ
-lÈ;
-- (id)vacy (WFCloudAppPrivacyType);
+- (id);
+- (id)_lazy_storage_$_addButtonParameter;
+- (void)ount of time it will take to travel to the location passed into this action.;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCallbackAction) _Bool callbackAction;

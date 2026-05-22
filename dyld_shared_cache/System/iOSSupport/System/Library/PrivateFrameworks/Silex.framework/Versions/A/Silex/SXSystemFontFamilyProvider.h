@@ -14,10 +14,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
-- (id)ngPromise",R,N,V_pendingPromise;
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)ionSequenceViewContentSizeDidChange;
-- (struct CGRect)ageDimension;
+- (struct CGRect)$;
+- (void)c;
 
 @end
 

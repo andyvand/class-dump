@@ -16,12 +16,12 @@
 
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (CDUnknownBlockType)PModelPropertyMovieKeepLocalManagedStatusReason__MAPPING_MISSING__;
+- (CDUnknownBlockType);
+- (void)NG_MISSING__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

@@ -12,10 +12,10 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
-- (id);
 - (void);
-- (unsigned long long)age;
+- (id);
+- (unsigned int);
+- (unsigned long long);
 
 @end
 

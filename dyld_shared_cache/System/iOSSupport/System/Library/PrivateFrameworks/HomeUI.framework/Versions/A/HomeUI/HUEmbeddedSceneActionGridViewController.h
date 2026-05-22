@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Home.Category.Energy.AccountLookup.FullName;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUEmbeddedSceneActionGridViewControllerDelegate> sceneActionGridDelegate; // @synthesize sceneActionGridDelegate;

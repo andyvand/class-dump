@@ -29,8 +29,8 @@
 - (_Bool);
 - (long long);
 - (long long);
-- (void)è;
 - (id);
+- (void)Ü£ÿ;
 
 @end
 

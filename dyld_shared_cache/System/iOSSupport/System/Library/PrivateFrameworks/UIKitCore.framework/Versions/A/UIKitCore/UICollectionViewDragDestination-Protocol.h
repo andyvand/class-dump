@@ -9,10 +9,10 @@
 @protocol UICollectionViewDragDestination
 
 @optional
-- (void);
-- (void);
-- (UICollectionViewDropProposal *)splay;
-- (void)%@ with layout to layout transitions but the top view controller is not a UICollectionViewController!;
-- (_Bool)onfigurationForImage=%@;
+- (_Bool);
+- (void)0;
+- (UICollectionViewDropProposal *)ay when a search returns no results;
+- (void)ooking for component with key %@;
+- (void)o(SEL _Nonnull);
 @end
 

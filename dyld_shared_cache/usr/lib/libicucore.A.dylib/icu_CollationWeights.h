@@ -5,15 +5,15 @@
 class icu::CollationWeights {
 public: // (access info unavailable from symbols alone)
     CollationWeights();
-    allocWeights(unsigned int, unsigned int, int);
-    allocWeightsInMinLengthRanges(int, int);
-    allocWeightsInShortRanges(int, int);
-    getWeightRanges(unsigned int, unsigned int);
-    incWeight(unsigned int, int) const;
-    incWeightByOffset(unsigned int, int, int) const;
-    initForPrimary(signed char);
-    initForSecondary();
-    initForTertiary();
-    lengthenRange(icu::CollationWeights::WeightRange&) const;
-    nextWeight();
+    auto allocWeights(unsigned int, unsigned int, int);
+    auto allocWeightsInMinLengthRanges(int, int);
+    auto allocWeightsInShortRanges(int, int);
+    auto getWeightRanges(unsigned int, unsigned int);
+    auto incWeight(unsigned int, int) const;
+    auto incWeightByOffset(unsigned int, int, int) const;
+    auto initForPrimary(signed char);
+    auto initForSecondary();
+    auto initForTertiary();
+    auto lengthenRange(icu::CollationWeights::WeightRange&) const;
+    auto nextWeight();
 };

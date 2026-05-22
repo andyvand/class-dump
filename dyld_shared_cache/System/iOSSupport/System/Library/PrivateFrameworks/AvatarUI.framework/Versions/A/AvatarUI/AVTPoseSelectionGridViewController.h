@@ -47,28 +47,27 @@
 - (id);
 - (id);
 - (id);
-- (void)P;
+- (void);
 - (id);
 - (id);
-- (long long)********s;
+- (void);
+- (void);
 - (id);
+- (void);
 - (struct UIEdgeInsets);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (long long);
 - (void);
 - (id);
-- (void)AssetCollectionWithGUID:(id)arg1 inAlbumWithGUID:info: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)Ds;
-- (void);
-- (void);
-- (void);
-- (void)0@ù
-× ;
-- (id)sForChangeTracker:(id)arg1 completionHandler:(id)arg2;
-- (void)ì6;
+- (id)rUpdate;
 
 // Remaining properties
 @property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;

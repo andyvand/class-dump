@@ -14,7 +14,7 @@
     id _placeholderUUID;
 }
 
-+ (id)Øí39;
++ (id);
 - (void);
 - (_Bool);
 - (id);
@@ -23,12 +23,11 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
+- (id)ï¤ð,ýý$þxþ0;
 - (id);
-- (id);
-- (id)0@ù
-× ;
+- (void)e;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *placeholderDate; // @synthesize placeholderDate=_placeholderDate;

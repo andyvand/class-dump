@@ -13,10 +13,10 @@
     MISSING_TYPE *observable;
 }
 
-+ (id)VL^: /* Error: Ran out of types for this method. */;
-- (void);
++ (id)#Pä·3;
 - (id);
-- (void)ntroller performChanges:(id)arg1 ];
+- (void);
+- (void)LemonadeDetailsNavigationButton;
 
 @end
 

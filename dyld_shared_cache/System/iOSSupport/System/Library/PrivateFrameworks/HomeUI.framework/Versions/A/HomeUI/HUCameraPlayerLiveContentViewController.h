@@ -20,14 +20,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (double);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)presentingController;
+- (double)Profile;
+- (void)ng;
+- (void)ion;
 
 // Remaining properties
 @property(retain, nonatomic) HUCameraView *cameraView; // @synthesize cameraView=_cameraView;

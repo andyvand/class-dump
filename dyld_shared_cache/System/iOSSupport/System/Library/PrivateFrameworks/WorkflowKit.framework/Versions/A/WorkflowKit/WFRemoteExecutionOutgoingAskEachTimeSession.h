@@ -21,9 +21,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (CDUnknownBlockType);
-- (void)r:(id)arg1;
-- (void)ock_invoke_2;
+- (void)WFInputAction.m;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

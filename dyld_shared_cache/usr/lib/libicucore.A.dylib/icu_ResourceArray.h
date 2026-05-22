@@ -4,6 +4,6 @@
 
 class icu::ResourceArray {
 public: // (access info unavailable from symbols alone)
-    getValue(int, icu::ResourceValue&) const;
-    internalGetResource(ResourceData const*, int) const;
+    auto getValue(int, icu::ResourceValue&) const;
+    auto internalGetResource(ResourceData const*, int) const;
 };

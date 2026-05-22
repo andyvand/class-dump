@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (_Bool)H®Ç×H;
++ (_Bool)ewPoolDescriptor"16^@24;
 - (void);
 - (void);
 - (void);
@@ -29,8 +29,8 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
 - (id);
+- (_Bool);
 - (void);
 - (struct btTypedConstraint *);
 - (id);

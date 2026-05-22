@@ -21,9 +21,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)ating face crops with UUIDs %@ to person with UUID %@ for source:%@ /* Error: Ran out of types for this method. */;
+- (void)p`p8qqprt0yd}Ø}Ü;
+- (id)%lu shouldOrderAscending:%d /* Error: Ran out of types for this method. */;
+- (id)rformBatchRequest:activity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;

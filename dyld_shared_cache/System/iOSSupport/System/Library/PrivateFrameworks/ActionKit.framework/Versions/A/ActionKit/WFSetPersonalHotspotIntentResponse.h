@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)ore file data for SCP file;
-- (void)ytes for KEXINIT cookie;
+- (long long)ction: /* Error: Ran out of types for this method. */;
+- (void)e>;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

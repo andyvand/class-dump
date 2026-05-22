@@ -4,5 +4,5 @@
 
 class pvg_node {
 public: // (access info unavailable from symbols alone)
-    get_pvge(unsigned int);
+    auto get_pvge(unsigned int);
 };

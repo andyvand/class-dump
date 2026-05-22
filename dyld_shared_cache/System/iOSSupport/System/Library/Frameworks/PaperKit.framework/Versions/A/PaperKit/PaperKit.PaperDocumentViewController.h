@@ -65,15 +65,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void)hesBeganTimestamp;
-- (void)ÁsGeGìtòÿµsG)Gøtòÿ©sG%GvòÿsG!GÀwòÿsG½G;
+- (void);
+- (void)ntTask;
+- (void)<?ýÿj<ýÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

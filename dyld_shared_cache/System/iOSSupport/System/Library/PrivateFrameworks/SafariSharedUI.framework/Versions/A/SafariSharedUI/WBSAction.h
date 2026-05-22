@@ -18,16 +18,16 @@
 + (id);
 + (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;

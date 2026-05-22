@@ -110,41 +110,43 @@
 - (id);
 - (struct CGImage *);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (void);
 - (int);
 - (void);
 - (id);
-- (double);
-- (CDUnknownBlockType);
+- (id);
 - (long long);
+- (unsigned long long);
+- (_Bool);
+- (double);
+- (id);
+- (void);
+- (CDUnknownBlockType);
+- (id);
+- (void);
 - (void);
 - (struct CGSize);
+- (id);
 - (void);
-- (struct __CVBuffer *)ñM1B0@ù
+- (unsigned long long);
+- (struct __CVBuffer *);
+- (void);
+- (void);
+- (void)1â
+0@ù
 × ;
-- (void)n:(_Bool)arg1 willPerformPreviewActionForMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
-- (void)tle:(CDUnknownBlockType)arg1 children:parent: /* Error: Ran out of types for this method. */;
-- (_Bool)FromRect:afterScreenUpdates:withCapInsets: /* Error: Ran out of types for this method. */;
-- (void)Øòÿÿ;
-- (unsigned long long)ÿh±üÿx';
-- (CDUnknownBlockType)eCount;
+- (void)ideoPreviewAvailableForImageAnalysisInteraction:(unsigned long long)arg1;
+- (id): /* Error: Ran out of types for this method. */;
+- (unsigned long long)ctionDidEnd: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
+- (CDUnknownBlockType)%@;
+- (void)øÿ;
+- (void)(U
+¤a;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;

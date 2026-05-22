@@ -11,11 +11,11 @@
 }
 
 - (id);
+- (void);
 - (id);
-- (void);
+- (id)sWillUpdate:(id)arg1;
+- (void)À·àºt»;
 - (unsigned long long);
-- (void);
-- (id)tifications;
 
 // Remaining properties
 @property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;

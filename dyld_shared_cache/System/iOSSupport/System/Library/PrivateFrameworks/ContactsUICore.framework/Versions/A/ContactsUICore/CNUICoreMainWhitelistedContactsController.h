@@ -53,11 +53,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
-- (id)¹÷/yCø1yAAyAAygö1yAAy>ó1yAAyAAyAAyÿã1AJGALGìè/G_Qo_AGyã/GG_Qo_$ñ/yARGGAGyARSgGG_Qo__SbQo_çò/ySbGGACGZñ/GtGG¡ñ/yATGGt;
+- (void)dSaveRequests;
+- (void)ta"8;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CNFuture *addContactsToWhitelistFuture; // @synthesize addContactsToWhitelistFuture=_addContactsToWhitelistFuture;

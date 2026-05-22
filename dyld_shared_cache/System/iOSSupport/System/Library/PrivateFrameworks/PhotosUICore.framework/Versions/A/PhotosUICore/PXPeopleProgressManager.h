@@ -43,17 +43,15 @@
 - (void);
 - (_Bool);
 - (struct os_unfair_lock_s);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (double)
-× ;
-- (id)|ù¤üøè$¼	Ì
-l;
-- (double)°¸;
-- (void)(ùÿÌ¤ûÿ;
-- (void)lt;
-- (id)eLibrary;
+- (void);
+- (double);
+- (void)t currently active.;
+- (void)Source;
+- (double)ÜÿZ9PÔ6;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPeopleProgressDataSource *dataSource; // @synthesize dataSource=_dataSource;

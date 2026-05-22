@@ -5,10 +5,5 @@
 //
 
 @protocol UIViewControllerAnimatedTransitioning
-- (void)ndSectionHeader;
-- (double)istrationProviderType;
-
-@optional
-- (void)alue;
 @end
 

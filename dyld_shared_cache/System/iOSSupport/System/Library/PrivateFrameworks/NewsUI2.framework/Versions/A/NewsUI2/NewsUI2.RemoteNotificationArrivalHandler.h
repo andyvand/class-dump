@@ -11,7 +11,7 @@
     MISSING_TYPE *cloudContext;
     MISSING_TYPE *offlineProvider;
     MISSING_TYPE *offlineContentManager;
-    MISSING_TYPE *pushHandler;
+    MISSING_TYPE *amsNotificationChecker;
 }
 
 @end

@@ -26,13 +26,12 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)ùÑ/°1b0@ù
-× ;
-- (id)SelfSizing: /* Error: Ran out of types for this method. */;
-- (void)outOptionsKeys;
+- (void)ewController itemSection:accessoryButtonPressedInHeader:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

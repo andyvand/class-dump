@@ -15,12 +15,13 @@
     MISSING_TYPE *identifier;
 }
 
-- (void);
-- (void);
 - (id);
-- (void)meToString: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)y]ðÂ_Qo_SgG_Qo_g¨y_©GG_Ç	©yq~¨_Qo_tGG_Qo_;
+- (void);
+- (id)0@ù
+× ;
+- (void)ÿÿÿÿ;
+- (void)ä0ïþ_:ä0ïþ_:Àwþ_:ø÷$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

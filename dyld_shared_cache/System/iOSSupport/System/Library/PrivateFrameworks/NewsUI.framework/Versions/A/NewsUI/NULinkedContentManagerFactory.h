@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *factories; // @synthesize factories=_factories;

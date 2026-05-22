@@ -4,7 +4,28 @@
 
 class PropertyList::Dictionary {
 public: // (access info unavailable from symbols alone)
-    Dictionary(lsl::Allocator&);
-    deallocate();
-    emit(unsigned char, ByteStream&);
+    Dictionary(PropertyList&);
+    PropertyList::Array& addObjectForKey<PropertyList::Array>(std::__1::basic_string_view<char, std::__1::char_traits<char>>);
+    PropertyList::Bitmap& addObjectForKey<PropertyList::Bitmap, unsigned long>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned long&&);
+    PropertyList::Data& addObjectForKey<PropertyList::Data, std::__1::span<std::byte, 18446744073709551615ul>&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::span<std::byte, 18446744073709551615ul>&);
+    PropertyList::Dictionary& addObjectForKey<PropertyList::Dictionary>(std::__1::basic_string_view<char, std::__1::char_traits<char>>);
+    PropertyList::Flags<long long>& addObjectForKey<PropertyList::Flags<long long>>(std::__1::basic_string_view<char, std::__1::char_traits<char>>);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, int const&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, int const&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, int>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, int&&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, long long>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, long long&&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, std::__1::atomic<unsigned long long>&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::atomic<unsigned long long>&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, unsigned char const&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned char const&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, unsigned char&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned char&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, unsigned int const&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned int const&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, unsigned int>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned int&&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, unsigned long long const&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned long long const&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, unsigned long long&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned long long&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, unsigned long long>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned long long&&);
+    PropertyList::Integer& addObjectForKey<PropertyList::Integer, unsigned long&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned long&);
+    PropertyList::String& addObjectForKey<PropertyList::String, char const*&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, char const*&);
+    PropertyList::String& addObjectForKey<PropertyList::String, char const*>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, char const*&&);
+    PropertyList::String& addObjectForKey<PropertyList::String, std::__1::basic_string_view<char, std::__1::char_traits<char>> const&>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>> const&);
+    PropertyList::UUID& addObjectForKey<PropertyList::UUID, unsigned char (&) [16]>(std::__1::basic_string_view<char, std::__1::char_traits<char>>, unsigned char (&) [16]);
+    auto emit(unsigned char, ByteStream&);
+    ~Dictionary();
 };

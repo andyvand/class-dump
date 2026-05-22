@@ -15,16 +15,15 @@
     id <VOSHapticPack> _cachedActiveHapticPack;
 }
 
-+ (id)1¢!0@ù
-× ;
-- (_Bool)q;
++ (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
 - (void);
 
 // Remaining properties

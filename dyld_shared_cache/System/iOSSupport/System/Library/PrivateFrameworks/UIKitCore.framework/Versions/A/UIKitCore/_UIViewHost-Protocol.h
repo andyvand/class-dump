@@ -7,7 +7,9 @@
 @class UIScreen;
 
 @protocol _UIViewHost
-- (_Bool)ngGuide;
+- (_Bool)0@ù
+× ;
+- (void)ault;
 
 // Remaining properties
 @property(readonly) UIScreen *hostingScreen;

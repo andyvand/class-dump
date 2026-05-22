@@ -28,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (struct PXGCameraConfiguration);
-- (void);
+- (id);
 - (id);
 - (struct CGRect);
-- (id);
-- (id);
+- (void);
 - (struct CGSize);
+- (id)/ ,þ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PXGAnimator *animator; // @synthesize animator=_animator;

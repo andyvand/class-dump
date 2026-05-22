@@ -35,7 +35,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)R;
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
@@ -43,7 +43,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)9h;
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -53,25 +53,26 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (int);
 - (long long);
 - (_Bool);
-- (void)86Z;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)r not satisfying:newLabel (in %s:%d) /* Error: Ran out of types for this method. */;
+- (id);
+- (void)QC,1Â0@ù
+× ;
+- (id)tus:handler:] /* Error: Ran out of types for this method. */;
+- (void)teRangeAveragePlaceCandidates, %.2f, totalWeeklyVisitCountPlaceCandidates, %.2f, minTopMedianDwellTimePlaceCandidates, %.2f:%{sensitive}@ /* Error: Ran out of types for this method. */;
+- (id).location.location, %{sensitive}@, error, %@;
+- (id)visits between start date, %@, end date, %@, error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *compoundedVisitIntervals; // @synthesize compoundedVisitIntervals=_compoundedVisitIntervals;

@@ -12,8 +12,8 @@
     MISSING_TYPE *uuids;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

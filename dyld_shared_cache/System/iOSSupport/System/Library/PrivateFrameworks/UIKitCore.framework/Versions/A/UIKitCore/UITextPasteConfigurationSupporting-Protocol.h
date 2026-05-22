@@ -7,7 +7,6 @@
 @protocol UITextPasteDelegate;
 
 @protocol UITextPasteConfigurationSupporting
-- (void)ed;
 
 // Remaining properties
 @property(nonatomic) __weak id <UITextPasteDelegate> pasteDelegate;

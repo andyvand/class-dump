@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (int);
-- (Class);
++ (int);
+- (id);
 - (_Bool);
-- (id)T;
+- (Class);
 
 @end
 

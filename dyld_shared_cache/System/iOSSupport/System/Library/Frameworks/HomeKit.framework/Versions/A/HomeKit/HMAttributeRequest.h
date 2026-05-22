@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)%{public}@diagnostics transfer completed successfully with metadata:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessoryProfile *accessoryProfile; // @synthesize accessoryProfile=_accessoryProfile;

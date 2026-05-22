@@ -56,33 +56,33 @@
 
 - (_Bool);
 - (void);
-- (void)4B68@?72;
-- (void)andles: /* Error: Ran out of types for this method. */;
-- (void):(struct CGPoint)arg1;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)erMap: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)entifier: /* Error: Ran out of types for this method. */;
-- (void)lity:(_Bool)arg1 requiredCapabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
-- (void)sForMessageGUID: /* Error: Ran out of types for this method. */;
-- (void)ecordID:(_Bool)arg1 handle: /* Error: Ran out of types for this method. */;
-- (void)eredArrayRemovingCKRecordDupes:(_Bool)arg1;
-- (void)WithOriginalGroupID:(_Bool)arg1 onService: /* Error: Ran out of types for this method. */;
-- (void)embershipEventType;
-- (void)erOfMessages;
-- (void)ountByEnumeratingWithState:(id)arg1 objects:count: /* Error: Ran out of types for this method. */;
-- (void)Array:(id)arg1;
-- (void)nvitationSentSuccessfully:(_Bool)arg1;
-- (void)sToCloudKitWithActivity:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)hCompletion:(_Bool)arg1;
-- (void)ompletion:(_Bool)arg1;
-- (void)rdsToAttachmentZone:(_Bool)arg1 activity:withCompletion: /* Error: Ran out of types for this method. */;
-- (id)erverSaysToUseOldContainer;
 - (void);
-- (void)rtialFailure: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ces:(struct CGPoint)arg1 requiredCapabilities:(int *)arg2;
-- (id)erSizeForSpatialImageFromServerBag:(id)arg1;
-- (void)ath: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (struct CGRect);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -91,12 +91,12 @@
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (struct CGRect)executorStates;
-- (void)ySSSo8NSNumberCG;
+- (struct CGRect);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)X(;
+- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGRect);
@@ -105,45 +105,45 @@
 - (struct CGPoint);
 - (void);
 - (id);
-- (_Bool)!;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)=;
+- (void);
 - (struct CGPDFDictionary *);
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (void)w;
-- (void)B24@?<B@?>28@?<v@?q^B>36;
-- (void);
-- (id)!ÌAùÍ1¢!0@ù
+- (id)
 × ;
-- (unsigned long long)updateViewState:animated: /* Error: Ran out of types for this method. */;
-- (id)straints;
-- (id);
-- (void)e UI Prompt View;
-- (void)T\;
-- (double);
-- (id);
-- (struct CGSize)wÂa;
-- (id)|Ønåa;
-- (void)e;
+- (id)±aÐ1Â0@ù
+× ;
+- (void):(id)arg1 8f16d20d28Q36;
+- (void)dRecents;
+- (void)0Â0ûÑÆDûÑ´ÚXûÑóxûÑTþ¬ûÑp!ÈûÑMðüÑôZLýÑèiýÑ ÌýÑ;
+- (id)bugAssertion;
+- (void)unt;
 - (void);
-- (void)u7Ízi;
-- (void)Ht¦ÿq@
-;
+- (id)AÿiûÔØ,d;
+- (id)HÎg;
+- (void)ô0h;
+- (void)i;
+- (double)Ëj;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowHighlighting; // @dynamic allowHighlighting;

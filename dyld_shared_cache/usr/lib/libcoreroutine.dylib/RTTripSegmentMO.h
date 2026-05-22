@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)ø;
++ (id);
 
 // Remaining properties
 @property(nonatomic) double destinationLatitude; // @dynamic destinationLatitude;

@@ -20,28 +20,30 @@
     struct CGPoint _locationInWindow;
 }
 
-+ (id)T;
 + (id);
 + (id);
-+ (id)4;
 + (id);
 + (id);
-+ (void)king that message as a failure ;
-- (id)tService:incomingMessageHandler:messageStore:chatRegistry:accountController:storageController:recentsController:attachmentStore: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (void);
 - (id);
 - (double);
+- (id);
 - (long long);
-- (struct CGPoint);
-- (double);
-- (unsigned long long)lationshipPlaylistAuthorPlaylist;
-- (id);
-- (void);
-- (unsigned long long)0@ù
+- (long long);
+- (id);
+- (double)!ÄBùQY1Â0@ù
 × ;
-- (id)tentsString;
-- (struct CGPoint)t}ÿ;
-- (long long)ö®ÿ¢ÇÐ;"i;
-- (id)4_ÿ»Ôèj;
+- (unsigned long long);
+- (id)1Â0@ù
+× ;
+- (struct CGPoint)!`EùQbð1Â0@ù
+× ;
+- (struct CGPoint)MagnifyingGlass;
+- (id)rceSceneSpecification;
+- (unsigned long long)IDoubleTapInteraction.tap;
+- (void)Ð¬f;
 
 // Remaining properties
 @property(readonly, nonatomic) long long inputSource; // @synthesize inputSource=_inputSource;

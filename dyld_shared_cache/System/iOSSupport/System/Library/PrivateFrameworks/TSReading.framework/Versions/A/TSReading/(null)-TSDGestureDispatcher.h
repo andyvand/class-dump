@@ -20,8 +20,8 @@
 - (void);
 - (struct CGPoint);
 - (id);
-- (int)mmand.m;
-- (_Bool)SDColorFill applyToCALayer:withScale:] /* Error: Ran out of types for this method. */;
+- (int);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) id <TSDGestureTarget> cachedGestureTarget;

@@ -16,7 +16,7 @@
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)Â;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

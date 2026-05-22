@@ -15,12 +15,13 @@ __attribute__((visibility("hidden")))
     double _progress;
 }
 
-- (void)>;
+- (void);
 - (id);
-- (void)(0l0\1$2;
-- (void);
+- (void);
 - (double);
 - (void);
+- (void)qð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double progress; // @synthesize progress=_progress;

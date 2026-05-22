@@ -5,7 +5,7 @@
 //
 
 @protocol _UITextAttributeDefaultFontSizes
-- (double)dentifier: /* Error: Ran out of types for this method. */;
+- (double)N,V_isPressed;
 
 // Remaining properties
 @property(readonly, nonatomic) double _buttonFontSize;

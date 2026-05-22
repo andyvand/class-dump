@@ -21,9 +21,9 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id)file:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SLDCollaborationFooterMetrics *metrics; // @synthesize metrics=_metrics;

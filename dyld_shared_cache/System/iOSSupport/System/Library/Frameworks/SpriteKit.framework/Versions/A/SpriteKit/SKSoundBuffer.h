@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 + (id);
 - (unsigned int);
 - (void);
-- (void);
-- (id);
 - (id);
 - (double);
+- (id);
+- (void)amebuffer>=^{jet_framebuffer}^{__shared_weak_count}}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int bufferId;

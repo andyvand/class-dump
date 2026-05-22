@@ -12,14 +12,15 @@
     struct CGRect _rootLayerFrame;
 }
 
-+ (id)n sender;
-+ (_Bool):m /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool)ess-level3;
 - (struct CGAffineTransform);
 - (struct CGRect);
-- (void)DItemProjects;
 - (int);
 - (id);
-- (unsigned int)iewsToDisappearWhenHighlighted;
+- (unsigned int)!ÄDùQað1Â0@ù
+× ;
+- (void)yDisplayIdentifier:(id)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;

@@ -24,12 +24,12 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)oSize;
+- (void)ret" parameter on the received callback was missing.;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *lastEditorId; // @synthesize lastEditorId=_lastEditorId;

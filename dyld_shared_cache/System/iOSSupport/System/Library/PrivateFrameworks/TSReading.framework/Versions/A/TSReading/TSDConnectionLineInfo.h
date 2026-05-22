@@ -33,8 +33,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (Class);
+- (void)y/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDMovieCompatibilityChecker.m;
 
 // Remaining properties
 @property(retain, nonatomic) TSDDrawableInfo *connectedFrom; // @synthesize connectedFrom=mConnectedFrom;

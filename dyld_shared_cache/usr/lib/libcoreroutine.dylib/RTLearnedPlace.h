@@ -17,32 +17,31 @@
     NSDate *_expirationDate;
 }
 
++ (id);
++ (_Bool);
 + (_Bool);
 + (id);
-+ (unsigned long long)ingRequest:(long long)arg1 result: /* Error: Ran out of types for this method. */;
++ (unsigned long long);
++ (unsigned long long);
 + (id);
 + (id);
 + (unsigned long long);
-+ (unsigned long long);
-+ (id)initialization failed, missing identity certificate;
-+ (id)valid proposal number 0;
-+ (_Bool)CleanUpClusterWithDuplicateWaypoints:(unsigned long long)arg1;
++ (id);
 - (id);
-- (id)iri data sharing opt in status undefined. siriDataSharingOptInStatus=%ld
-;
+- (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
 - (id);
 - (id);
-- (id)Queue;
-- (id);
-- (id);
-- (id);
-- (unsigned long long)4B32;
+- (id)includeSuppressed;
+- (unsigned long long)handler:] /* Error: Ran out of types for this method. */;
+- (void){sensitive}@;
+- (id)ter not satisfying:interval >= 0 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;

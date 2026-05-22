@@ -8,11 +8,7 @@
 @protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
-- (unsigned long long);
-- (_Bool)P;
-- (double);
-- (NSString *)owBackgroundObserverBlocks;
-- (NSString *)licationState;
+- (long long)RPROTOCOLLIVERPOOLConversionStats",R,N;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;

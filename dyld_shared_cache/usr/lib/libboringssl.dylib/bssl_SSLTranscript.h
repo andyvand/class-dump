@@ -4,20 +4,20 @@
 
 class bssl::SSLTranscript {
 public: // (access info unavailable from symbols alone)
-    AddToBufferOrHash(bssl::Span<unsigned char const>);
-    CopyToHashContext(env_md_ctx_st*, env_md_st const*) const;
-    Digest() const;
-    DigestLen() const;
-    FreeBuffer();
-    GetFinishedMAC(unsigned char*, unsigned long*, ssl_session_st const*, bool) const;
-    GetFinishedMAC(unsigned char*, unsigned long*, ssl_session_st const*, bool) const::kClientLabel;
-    GetFinishedMAC(unsigned char*, unsigned long*, ssl_session_st const*, bool) const::kServerLabel;
-    GetHash(unsigned char*, unsigned long*) const;
-    HashBuffer(env_md_ctx_st*, env_md_st const*) const;
-    Init();
-    InitHash(unsigned short, ssl_cipher_st const*);
     SSLTranscript(bool);
-    Update(bssl::Span<unsigned char const>);
-    UpdateForHelloRetryRequest();
+    auto AddToBufferOrHash(bssl::Span<unsigned char const>);
+    auto CopyToHashContext(env_md_ctx_st*, env_md_st const*) const;
+    auto Digest() const;
+    auto DigestLen() const;
+    auto FreeBuffer();
+    auto GetFinishedMAC(unsigned char*, unsigned long*, ssl_session_st const*, bool) const;
+    auto GetFinishedMAC(unsigned char*, unsigned long*, ssl_session_st const*, bool) const::kClientLabel;
+    auto GetFinishedMAC(unsigned char*, unsigned long*, ssl_session_st const*, bool) const::kServerLabel;
+    auto GetHash(unsigned char*, unsigned long*) const;
+    auto HashBuffer(env_md_ctx_st*, env_md_st const*) const;
+    auto Init();
+    auto InitHash(unsigned short, ssl_cipher_st const*);
+    auto Update(bssl::Span<unsigned char const>);
+    auto UpdateForHelloRetryRequest();
     ~SSLTranscript();
 };

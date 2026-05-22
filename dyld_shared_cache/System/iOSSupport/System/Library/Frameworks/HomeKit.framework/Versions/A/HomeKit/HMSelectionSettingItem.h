@@ -13,7 +13,7 @@
     NSString *_localizedTitle;
 }
 
-+ (_Bool)UsersNotAtHome;
++ (_Bool);
 
 @end
 

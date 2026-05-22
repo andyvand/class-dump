@@ -11,5 +11,9 @@
 // Remaining properties
 @property(copy, nonatomic) NSArray *destinationNameVariants;
 @property(nonatomic) _Bool sendsNavigationMetadata;
+@property(nonatomic) _Bool supportsRouteSharing;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,N
+
 @end
 

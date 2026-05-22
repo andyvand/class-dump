@@ -16,13 +16,13 @@
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
 - (id);
 - (struct CGSize);
 - (void);
-- (unsigned int);
 - (void);
+- (void);
+- (void);
+- (unsigned int);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;

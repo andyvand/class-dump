@@ -44,11 +44,10 @@
 - (void);
 - (void);
 - (float);
-- (void);
 - (id);
-- (id)
-× ;
-- (CDStruct_e83c9415)!ÿ¥ù/P!ÿù/ P!ÿ;
+- (id);
+- (CDStruct_e83c9415)ror;
+- (void);
 
 // Remaining properties
 @property(nonatomic) float audioQualityScore; // @synthesize audioQualityScore=_audioQualityScore;

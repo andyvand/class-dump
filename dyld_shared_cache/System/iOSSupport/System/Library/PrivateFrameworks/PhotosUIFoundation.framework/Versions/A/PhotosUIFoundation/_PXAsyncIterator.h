@@ -21,14 +21,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
 - (void);
 - (id);
-- (void);
 - (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType);
 - (unsigned long long);
-- (CDUnknownBlockType);
+- (unsigned long long);
+- (void);
+- (void)oÿÿ¶dÿÿ`ÿÿ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

@@ -25,14 +25,14 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id)5˿;
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)blic}@] _addAutoPlayPlaybackContext:| adding dataSource [] dataSource=%p section=%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

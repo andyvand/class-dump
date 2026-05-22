@@ -18,16 +18,16 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (void)account:(id)arg1 %@;
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void)8;
-- (void);
-- (id)¬$ô$H%"¬%	T&Ø&;
-- (_Bool)@||;
-- (long long);
-- (id)Ôfa;
+- (_Bool);
+- (id)ÜÐ;
+- (long long)Z­;
+- (void);
+- (void)OÿµÇ;
+- (id)5d;
 
 // Remaining properties
 @property(nonatomic) long long element; // @synthesize element=_element;

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UIScrollView *_observedScrollView;
 }
 
-- (id)TokenBlob;
+- (id);
 - (void);
 - (id);
 - (void);

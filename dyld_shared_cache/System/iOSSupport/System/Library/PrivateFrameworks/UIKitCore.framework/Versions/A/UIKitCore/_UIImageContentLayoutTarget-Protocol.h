@@ -4,14 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIImageContentRenderEnvironment;
+@protocol _UIImageContentLayoutSource, _UIImageContentRenderEnvironment;
 
 @protocol _UIImageContentLayoutTarget
-- (struct UIEdgeInsets);
-- (_Bool);
-- (id <_UIImageContentRenderEnvironment>)!0@ù
+- (_Bool)0@ù
 × ;
-- (long long)iateNonPrimaryHostedWindowNotification;
+- (long long)ForAction:propertyList: /* Error: Ran out of types for this method. */;
+- (long long)arget:action:menu: /* Error: Ran out of types for this method. */;
+- (_Bool)hlightedTextRangeWithReplacementString: /* Error: Ran out of types for this method. */;
+- (double)viewAnimationsForCurrentUpdate:cv == %p; readjusting content offset for anchor %@. New content offset:%@ /* Error: Ran out of types for this method. */;
+- (id <_UIImageContentRenderEnvironment>):(id <_UIImageContentLayoutSource>)arg1 the scene frame (%@) is too small to fit the scene's rounded corners:%@. Scene settings:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ment. %s
+	%@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _hasContentGravity;

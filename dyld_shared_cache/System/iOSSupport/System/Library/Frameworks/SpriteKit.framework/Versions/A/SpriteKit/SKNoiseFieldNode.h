@@ -10,15 +10,15 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (float);
 - (float);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

@@ -30,19 +30,18 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (void);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (struct CGPoint);
-- (id)¡Uð!8DùqX1b0@ù
-× ;
+- (id);
+- (struct CGRect);
+- (id);
+- (void);
+- (id);
+- (void)oadTask;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect contentBounds;

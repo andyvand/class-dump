@@ -35,19 +35,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
 - (unsigned long long);
-- (double)IDs;
-- (double)ier;
-- (double);
-- (double)%@ changeTag %@ error %@;
-- (id)ers;
-- (id)preparedForBoundsChanges;
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
+- (id)V_enforcesMinimumHeight;
 
 // Remaining properties
 @property(nonatomic) unsigned long long animationOptions; // @synthesize animationOptions=_animationOptions;

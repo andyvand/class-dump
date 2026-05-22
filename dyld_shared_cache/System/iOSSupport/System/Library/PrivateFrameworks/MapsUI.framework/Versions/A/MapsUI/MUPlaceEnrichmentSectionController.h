@@ -57,11 +57,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (_Bool)Ùê;
-- (id);
-- (_Bool)4Õ÷ÿ&ù*[	;
+- (_Bool);
+- (void)ctIfNotNil: /* Error: Ran out of types for this method. */;
+- (id)LÒ;
+- (_Bool)9;
 
 // Remaining properties
 @property(retain, nonatomic) MUPlaceEnrichmentActionManager *actionManager; // @synthesize actionManager=_actionManager;

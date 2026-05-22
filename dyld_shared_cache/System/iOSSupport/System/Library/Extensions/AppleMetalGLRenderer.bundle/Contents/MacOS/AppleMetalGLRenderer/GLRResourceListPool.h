@@ -5,8 +5,8 @@
 class GLRResourceListPool {
 public: // (access info unavailable from symbols alone)
     GLRResourceListPool();
-    dealloc();
-    initWithResourceListCapacity(unsigned int);
-    newResourceList();
+    auto dealloc();
+    auto initWithResourceListCapacity(unsigned int);
+    auto newResourceList();
     ~GLRResourceListPool();
 };

@@ -17,13 +17,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)e('ad--landscape');obj.classList.add('ad--portrait');}}if('large' === 'htmlinterstitial' && 'ipad' === 'iphone') {window.addEventListener('orientationchange', changeClass);window.addEventListener('resize', changeClass);window.addEventListener('load', changeClass);}</script></body></html>;
-- (void);
-- (_Bool)P;
 - (id);
-- (void);
 - (id);
-- (_Bool)tComposeRecipientAtom: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 
 @end
 

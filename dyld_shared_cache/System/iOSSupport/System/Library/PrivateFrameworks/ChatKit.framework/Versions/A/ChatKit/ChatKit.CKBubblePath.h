@@ -18,9 +18,9 @@
 - (double);
 - (const struct CGPath *);
 - (id);
-- (double);
-- (void);
 - (id);
+- (double):%s /* Error: Ran out of types for this method. */;
+- (void)%¬ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) UIBezierPath *bezierPath;

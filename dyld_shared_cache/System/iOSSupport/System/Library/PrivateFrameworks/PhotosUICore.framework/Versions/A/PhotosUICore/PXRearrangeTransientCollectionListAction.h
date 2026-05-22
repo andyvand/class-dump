@@ -28,8 +28,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)ýÿ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) id <PXFastEnumeration> movedObjects; // @synthesize movedObjects;

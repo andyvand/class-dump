@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)ResizingOption;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <PUTilingViewControllerTransition> currentTransition; // @synthesize currentTransition=_currentTransition;

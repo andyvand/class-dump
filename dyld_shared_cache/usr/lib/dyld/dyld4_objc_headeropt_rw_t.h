@@ -4,6 +4,6 @@
 
 class dyld4::objc_headeropt_rw_t {
 public: // (access info unavailable from symbols alone)
-    isLoaded(unsigned int) const;
-    isLoaded(unsigned int) const (.cold.1);
+    auto isLoaded(unsigned int) const;
+    auto isLoaded(unsigned int) const (.cold.1);
 };

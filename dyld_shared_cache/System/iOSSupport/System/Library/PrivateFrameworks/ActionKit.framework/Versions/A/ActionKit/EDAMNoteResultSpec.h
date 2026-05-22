@@ -38,7 +38,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)lass="linkified">$1</a>;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *includeAccountLimits; // @synthesize includeAccountLimits=_includeAccountLimits;

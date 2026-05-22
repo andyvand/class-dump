@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, UIKeyboardUISnapshot;
-
 @protocol UIKeyboardUIServiceProtocol
-- (UIKeyboardUISnapshot *)h:(NSNumber *)arg1 deallocator: /* Error: Ran out of types for this method. */;
-- (void)d trusted tag length;
 @end
 

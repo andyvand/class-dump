@@ -20,10 +20,11 @@
     MISSING_TYPE *layerDelegate;
 }
 
-- (void);
-- (id)-;
-- (void)ifier: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
+- (id)!àGùÿ1Â0@ù
+× ;
+- (void)fyþ;
 
 @end
 

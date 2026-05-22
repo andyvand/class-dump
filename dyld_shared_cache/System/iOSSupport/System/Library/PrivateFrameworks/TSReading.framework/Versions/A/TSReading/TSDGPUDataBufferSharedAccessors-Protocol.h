@@ -7,7 +7,7 @@
 @class NSArray;
 
 @protocol TSDGPUDataBufferSharedAccessors
-- (NSArray *);
+- (unsigned int)ts;
 
 // Remaining properties
 @property(nonatomic) unsigned int drawMode;

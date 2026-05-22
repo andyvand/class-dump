@@ -18,10 +18,10 @@
 
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)@~ÿ;
+- (id);
+- (void)wËÄ§ ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *actionIdentifier;

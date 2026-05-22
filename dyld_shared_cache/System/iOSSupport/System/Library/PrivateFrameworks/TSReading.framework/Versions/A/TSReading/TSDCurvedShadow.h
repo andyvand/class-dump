@@ -17,7 +17,7 @@
 - (double);
 - (struct CGImage *);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (double);
@@ -28,11 +28,11 @@
 - (struct CGRect);
 - (double);
 - (unsigned long long);
+- (double);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double curve; // @synthesize curve=mCurve;

@@ -68,8 +68,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (void);

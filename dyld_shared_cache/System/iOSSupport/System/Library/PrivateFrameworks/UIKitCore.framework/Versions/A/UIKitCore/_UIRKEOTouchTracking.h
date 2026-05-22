@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     Class _beganGestureClass;
 }
 
-- (void)questUUID;
+- (double);
 - (void);
-- (Class)× ;
-- (double)specified to handle documents in the application's info.plist;
-- (void)et;
-- (long long)×;
-- (_Bool)hostingContainerView;
-- (void)¿CÑ?æ²Ñ9?Åâ?vUånÆ@Täq3±À²ñ`Ý¾é?;
+- (void)Ô ;
+- (long long);
+- (Class)ize3D: /* Error: Ran out of types for this method. */;
+- (_Bool)atesFromResults:selectedText: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ttonItems=%@);
 - (void);
 
 // Remaining properties

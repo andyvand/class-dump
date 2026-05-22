@@ -38,14 +38,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)Ô ;
+- (void)ouldFinish;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setPausingChangesToken:) id _pausingChangesToken; // @synthesize _pausingChangesToken=__pausingChangesToken;

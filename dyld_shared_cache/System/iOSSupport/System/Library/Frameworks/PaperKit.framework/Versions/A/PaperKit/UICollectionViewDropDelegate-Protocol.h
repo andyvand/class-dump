@@ -5,8 +5,5 @@
 //
 
 @protocol UICollectionViewDropDelegate
-
-@optional
-- (void)ize;
 @end
 

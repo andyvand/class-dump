@@ -8,8 +8,6 @@
 @protocol PXDisplayAsset;
 
 @protocol PXGMutableItemPlacement
-- (void)0@ù
-× ;
 
 // Remaining properties
 @property(nonatomic) double alpha;

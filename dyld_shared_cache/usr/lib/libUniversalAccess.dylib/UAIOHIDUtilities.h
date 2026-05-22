@@ -8,17 +8,17 @@
 {
 }
 
-+ (_Bool)te",R,W,VmReaderState;
-+ (id)nshipNamespace;
-+ (_Bool)tAdjustment;
-+ (void)lor;
-+ (void)amespace",&,N,VmWXDrawingNamespace;
-+ (_Bool)handle;
-+ (_Bool)fragmentsCount;
-+ (_Bool)"CXNamespace",&,N,VmOAXTableNamespace;
-+ (struct __IOHIDEventSystemClient *)Namespace",&,N,VmOAXMathNamespace;
-+ (void *)ct;
-+ (_Bool)pace",&,N,VmOAXCompatNamespace;
++ (_Bool);
++ (id);
++ (_Bool);
++ (void);
++ (void);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (struct __IOHIDEventSystemClient *);
++ (void *);
++ (_Bool);
 
 @end
 

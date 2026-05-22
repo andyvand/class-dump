@@ -23,17 +23,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (_Bool);
-- (void)
-× ;
-- (void)±Éð1¢!0@ù
-× ;
-- (void)_UIDragSessionProperties"32@0:(_Bool)arg1 8@"UITableView"16@"<UIDragSession>"24;
-- (void)ponder: /* Error: Ran out of types for this method. */;
-- (void)dGestureEnabled:(_Bool)arg1;
-- (struct CGRect)Controller",&,N,V_disappearingViewController;
-- (void)µöh;
-- (void)m;
+- (void);
+- (_Bool)bleDataSourceSectionSnapshot"24@?0@8@"NSDiffableDataSourceSectionSnapshot"16;
+- (void)e.UIKit.ZoomInteractiveDismissLeadingEdgePan;
+- (void)Pþ×ÿ;
+- (struct CGRect)¡¶ÑÜëe;
+- (void)L\f;
+- (void)åµÿ¥Ò`¿f;
+- (void)ªÐPi;
+- (void)$ÞÑ<8k;
 
 @end
 

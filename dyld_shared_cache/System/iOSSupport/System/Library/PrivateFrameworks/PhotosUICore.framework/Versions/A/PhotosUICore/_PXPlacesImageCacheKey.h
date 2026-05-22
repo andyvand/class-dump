@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
-- (id)xRange=II}16@24;
+- (void)set;
 
 @end
 

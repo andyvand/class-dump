@@ -13,11 +13,11 @@
     id <PKPaletteTapToRadarCommandDelegate> _delegate;
 }
 
-- (void)M;
-- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)ider;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <PKPaletteTapToRadarCommandDelegate> delegate; // @synthesize delegate=_delegate;

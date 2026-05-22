@@ -4,9 +4,10 @@
 
 class xpc {
 public: // (access info unavailable from symbols alone)
-    array() const;
-    dict() const;
-    dyn_cast_or_default(xpc::object const&, bool);
-    dyn_cast_or_default(xpc::object const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
-    object() const;
+    auto dyn_cast_or_default(xpc::object const&, bool);
+    auto dyn_cast_or_default(xpc::object const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    xpc::array::object_proxy::operator dict() const;
+    xpc::array::object_proxy::operator object() const;
+    xpc::dict::object_proxy::operator array() const;
+    xpc::dict::object_proxy::operator object() const;
 };

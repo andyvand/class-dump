@@ -31,16 +31,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
 - (void);
 - (_Bool);
-- (_Bool)ratedByCharactersInSet: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool);
 - (void);
 - (id);
+- (void)wHourScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *viewController;

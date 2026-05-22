@@ -19,21 +19,20 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
-- (_Bool);
 - (id);
 - (_Bool);
-- (id)ntrollerDataSource>"16f24;
 - (void);
-- (void);
-- (id)1¢!0@ù
+- (long long);
+- (id);
+- (id);
+- (id)!°!Bùñc1Â0@ù
 × ;
-- (long long)au°!AùÑÉ1¢!0@ù
-× ;
-- (id)tForTargetedPreview: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)yboardsHostedWindowUserInfoKey;
-- (id)s(NSArray<_UICollectionCompositionalSolverPreferredSizesRebaseInfo *> *const __strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_5;
+- (_Bool)@0:(id)arg1 8@"<_UIBarInsertLayoutDataProtocol>"16d24;
+- (id)tingCount;
+- (void)InPortraitInvalid;
+- (id);
+- (id)st __strong, BOOL (^ _Nullable const __strong)(UIWindow * _Nonnull __strong));
+- (void)Q#13¬3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

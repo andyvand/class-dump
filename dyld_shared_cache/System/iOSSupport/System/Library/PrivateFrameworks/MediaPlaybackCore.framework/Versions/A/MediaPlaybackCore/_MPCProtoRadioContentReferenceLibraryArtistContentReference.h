@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     CDStruct_c223d907 _has;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (id);
+- (void)public}@:%{public}@] _addAutoPlayPlaybackContext:| calling completion [added data source] /* Error: Ran out of types for this method. */;
 
 @end
 

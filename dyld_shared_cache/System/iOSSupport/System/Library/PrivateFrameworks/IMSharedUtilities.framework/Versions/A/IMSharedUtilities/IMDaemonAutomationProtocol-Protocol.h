@@ -5,8 +5,5 @@
 //
 
 @protocol IMDaemonAutomationProtocol
-- (void)	j;
-- (void);
-- (void);
 @end
 

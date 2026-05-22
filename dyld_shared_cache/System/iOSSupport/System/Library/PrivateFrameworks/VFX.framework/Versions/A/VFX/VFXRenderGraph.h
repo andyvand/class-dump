@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (_Bool)Ø;
++ (_Bool)TLDevice>"16;
 - (struct __CFXWorld *);
 - (void);
 - (void);
@@ -35,17 +35,17 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)ÿA5H\Ì;
-- (id);
-- (id)¡±>#Û¾çâ{?Z)D>¹>	T¾¢v?LmY>¾Â>Ë¾¾¢s?Ñ<p>&Ì>$Ó¡¾zpo?g>\Ö>[Ñ¦¾°k?¾>gá>s«¾U¾g?2u>±¤ì>ÿ®¯¾c?Û®>;ù>¿d³¾Ö`? `½>Ù?Þ¶¾JÔ[?EHÍ>O¯?ïþ¸¾qV?åÝ>Å8?&«º¾¥÷Q?¬Vî>ÿ?G»¾9L?ßpÿ>§?»»¾;G?ýM?ä"?ÏÙº¾h@?7ú?á@(?%¹¾Ä":?t?æ-?i¶¾Ï2?&"?
-3?X /* Error: Ran out of types for this method. */;
+- (id)on"f"rotationSensitivity"f"translationSensitivity"f"velocity""timer"@"NSTimer"};
+- (void)unrecognized parameter at:(id)arg1;
+- (id)ltProtocol;
+- (id);òím?×9c+è>÷M?>ÃC½<¡*<¼C>¨©)?=ñ\>ïË}?X­=?V¼ù>Éà8ô¥ß>À²²>÷4==ñ\>Ótê;êêj?8Ú>$ðÅ;Ôò[?©ØØ=£®­>ðL,?)|À9 ¦¦>0>
+<=\;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *attachments;

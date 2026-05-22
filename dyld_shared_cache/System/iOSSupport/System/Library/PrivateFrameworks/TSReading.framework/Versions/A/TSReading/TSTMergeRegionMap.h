@@ -25,12 +25,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)rvice;
 - (_Bool);
-- (unsigned long long)yout;
-- (_Bool)rary/BuildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/tables/TSTHiddenRowsColumnsCache.m;
-- (id)readDispatcher resume];
+- (id);
+- (unsigned long long);
+- (id)>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std:(id)arg1:__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_charIndex"Q"_validThroughCharIndex"Q"_styleProvider"@"NSObject<TSWPStyleProvider>"} /* Error: Ran out of types for this method. */;
+- (void)p½;
+- (_Bool);
 
 @end
 

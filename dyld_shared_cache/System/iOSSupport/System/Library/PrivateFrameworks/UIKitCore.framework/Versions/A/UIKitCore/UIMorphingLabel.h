@@ -39,76 +39,81 @@
     struct CGRect _visibleRect;
 }
 
-+ (id)twork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16@0:(double)arg1 8;
-- (id);
++ (id)°!0Cùqf1Â0@ù
+× ;
 - (struct _NSRange);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ewallEnabled;
-- (void)nWindowDeclaration_Status;
-- (void);
-- (struct _NSRange);
 - (double);
-- (void);
 - (id);
-- (id)()`;
-- (void);
-- (double);
-- (void);
-- (void);
-- (unsigned long long):(unsigned long long)arg1;
-- (void)ersistentID:(unsigned long long)arg1;
-- (double);
-- (double);
-- (void);
 - (void);
 - (void);
 - (id);
+- (double);
 - (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (double);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)1Â0@ù
+× ;
+- (_Bool)A!ðEù±ZÐ1Â0@ù
+× ;
+- (void)
+× ;
+- (void)\1Â0@ù
+× ;
 - (id);
-- (void);
 - (id)0@ù
 × ;
-- (id)!ìDù1Åð1¢!0@ù
+- (struct _NSRange)!Cùqb1Â0@ù
 × ;
-- (_Bool)qÊð1¢!0@ù
+- (unsigned long long);
+- (double)Ôa	°!Aùe°1Â0@ù
 × ;
-- (struct CGRect)1¢!0@ù
+- (void)á	Ð!CùQf1Â0@ù
 × ;
-- (void)ontentView"16;
-- (void)oint=dd}80@96;
-- (void)eEstimatedSizeForSize:(double)arg1;
-- (double)izes:(unsigned long long)arg1 forItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
-- (_Bool)eadingGroupsMode: /* Error: Ran out of types for this method. */;
-- (void)hildrenBlock:(unsigned long long)arg1;
-- (void)t;
-- (void)_updateLayoutOnShowKeyboard;
-- (void):(id)arg1;
-- (void)KeyboardWithBias: /* Error: Ran out of types for this method. */;
-- (_Bool)lHidden:(id)arg1;
-- (void)Adjustment:(id)arg1;
-- (void)heduleCount;
-- (void)SceneSize;
-- (double),N,V_suppressEditing;
-- (void)ndStyleAttributes;
-- (void)iewHUDLayoutManager;
-- (double);
-- (void),¬;
+- (_Bool)Ô ;
+- (double)icker>";
+- (_Bool)TraitCollection"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)wShouldShareTouchesWithHost:(double)arg1;
+- (void)te;
+- (double)hRemoteViewControllerProxy:(unsigned long long)arg1 hostPID:hostBundleID:hostAuditToken:sessionIdentifier: /* Error: Ran out of types for this method. */;
+- (void)lassIfNeededForSuperview:(_Bool)arg1 traitCollection: /* Error: Ran out of types for this method. */;
+- (void)ryDragOffset;
+- (struct CGRect)poverController:textInputView:caretRect:isVerticalText:completion: /* Error: Ran out of types for this method. */;
+- (id)review",&,N,V_targetedPreview;
+- (double)olor",&,N,V_buttonTextColor;
+- (id)ationShortcutAction;
+- (void)Ðª;
+- (void)D2¼2Ü2¼344T445¬5Ì5¬6¤89:(unsigned long long)arg1 è:D; /* Error: Ran out of types for this method. */;
+- (_Bool)nt:%@ (currentPlacement:%@) /* Error: Ran out of types for this method. */;
+- (id)alled on the fileAccessQueue;
 - (void);
-- (double)ÄüÿÌþÿ;
-- (double);
-- (void)Library/PrivateFrameworks/SFSymbols.framework/CoreGlyphsPriority.bundle;
-- (id)xbs/Sources/UIKitCore/Sources/Gestures/Force Level Classifiers/_UIForceLevelClassifier.m;
-- (void)self(==_contentView)];
-- (void)vÏÿ#Ôê^;
-- (id)ÿÂ¬;
-- (double)½ÿÙaØá?h;
-- (long long)r@j;
-- (void)Ðk;
-- (_Bool)ÿóGÎõEn;
+- (id)>8;
+- (void)ionsConfigurationForRowAtIndexPath:(id)arg1 but returned %@.;
+- (void)te;
+- (void)/System/Library/PrivateFrameworks/EmojiFoundation.framework/EmojiFoundation;
+- (id)rnerRadii;
+- (void);
+- (double)q;
+- (void)hf?;
+- (void)ýìÿá`óf;
+- (void)#=;
+- (void)Fb%;
+- (void)ÿâ¦Ïø=i;
+- (long long)i;
+- (void)0;
+- (void)(l;
 
 // Remaining properties
 @property(nonatomic) _Bool enableAnimation; // @synthesize enableAnimation=_enableAnimation;

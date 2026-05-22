@@ -4,5 +4,5 @@
 
 class lsl {
 public: // (access info unavailable from symbols alone)
-    readPVLEUInt64(std::__1::span<std::byte, 18446744073709551615ul>&, unsigned long long&);
+    auto readPVLEUInt64(std::__1::span<std::byte, 18446744073709551615ul>&, unsigned long long&);
 };

@@ -15,14 +15,14 @@
 
 + (unsigned long long);
 + (id);
-- (id)requested.;
-- (void)ies:(id)arg1 %d;
-- (id)I32@"NSDictionary"36I44@"NSDictionary"48;
-- (id)perties;
-- (_Bool);
 - (id);
 - (void);
-- (id)ynchronizeStoredSettings;
+- (id);
+- (id);
+- (id);
+- (_Bool)304;
+- (id)eadDuration;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *targetSceneSessionPersistentIdentifier; // @synthesize targetSceneSessionPersistentIdentifier=_targetSceneSessionPersistentIdentifier;

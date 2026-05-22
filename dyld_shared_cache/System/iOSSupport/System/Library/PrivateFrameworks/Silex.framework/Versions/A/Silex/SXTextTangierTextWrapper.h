@@ -21,7 +21,7 @@
 - (unsigned long long);
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (unsigned long long);
@@ -31,7 +31,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct CGAffineTransform canvasSpaceToWrapSpace; // @synthesize canvasSpaceToWrapSpace=_canvasSpaceToWrapSpace;

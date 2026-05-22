@@ -4,7 +4,7 @@
 
 class icu::UCharsDictionaryMatcher {
 public: // (access info unavailable from symbols alone)
-    getType() const;
-    matches(UText*, int, int, int*, int*, int*, int*) const;
+    auto getType() const;
+    auto matches(UText*, int, int, int*, int*, int*, int*) const;
     ~UCharsDictionaryMatcher();
 };

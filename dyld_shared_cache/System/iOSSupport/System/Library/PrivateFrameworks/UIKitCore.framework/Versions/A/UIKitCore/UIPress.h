@@ -29,63 +29,62 @@
     unsigned long long _clickCount;
 }
 
-- (unsigned long long);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id)th_keyRatio_y;
-- (_Bool);
-- (double);
-- (void)ource:(_Bool)arg1 -URLSession:dataTask:didReceiveResponse:completionHandler:Decided on disposition %ld for dataTask:%{public}@. URL=%{public}@.storagePolicy=%lu expectedEntrySize=%lld diskCacheAvailableSize=%lld memoryCacheAvailableSize=%lld /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (long long);
+- (long long);
+- (SEL);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)0@ù
-× ;
-- (id)Ô ;
-- (void)!0@ù
-× ;
-- (unsigned long long)× ;
-- (void)É1¢!0@ù
-× ;
-- (long long)0@ù
-× ;
-- (_Bool)!ØDùñÎð1¢!0@ù
-× ;
-- (void)ainer"b1"delegateRespondsToClippingRect"b1"delegateRespondsToDidUpdateDeferralTarget"b1"delegateRespondsToHandleFailedMovementRequest"b1"delegateRespondsToShouldReverseLayoutDirectionForEnvironment"b1"delegateRespondsToShouldReverseLinearWrappingForEnvironment"b1"delegateRespondsToIsScrollingScrollableContainer"b1};
-- (id)ferredHeight:(long long)arg1;
-- (void)k:(long long)arg1;
-- (SEL)nibarView;
-- (void)putType,V_inputType;
-- (id)nNSToolbar: /* Error: Ran out of types for this method. */;
-- (_Bool)orForContext:(id)arg1;
-- (unsigned int)´¹;
-- (id)b;
-- (id)Ø;
-- (void)rs should be equal;
-- (long long)Solution.supplementaryFrames.count;
-- (id);
-- (void)»Ç\;
-- (void)¬ßþ<;
-- (void)(;
-- (void)l|;ÿB"Õ	.d;
-- (void)8^,ÿ4ï;
-- (void)PÅÆÿÄmØÑb;
-- (id)c;
-- (double)lÿ0ÿ=Õ;
-- (void)LWÒ_d;
-- (long long)è·éÿÿÇÒf;
-- (id)pS	ºg;
 - (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (double);
+- (void)0@ù
+× ;
+- (id)A°!ÐFù\Ð1Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (id)Qe°1Â0@ù
+× ;
+- (unsigned int);
+- (long long)GPoint=dd}{CGSize=dd}}16{CGSize=dd}48;
+- (_Bool)24@0:(id)arg1 8@"UIBarButtonItem"16;
+- (id)WantsDeleteButtonVisible: /* Error: Ran out of types for this method. */;
+- (unsigned long long)tionRect;
+- (void);
+- (id)ingBrowserDidEndDocumentCreation:importedURL:canceled:error: /* Error: Ran out of types for this method. */;
+- (id)Focused;
+- (void)ection:(long long)arg1;
+- (void)lassEffect;
+- (unsigned long long)uiringContentMargin;
+- (id):(long long)arg1;
+- (void)T@"UIView",&,N,G_fromView,S_setFromView:(double)arg1;
+- (void)w;
+- (id)p$;
+- (void)ì^;
+- (_Bool);
+- (unsigned long long)action;
+- (_Bool)"8#16^B24;
+- (_Bool)-BÙ@%Ì´ÝGÀ«ëPMIVê?;
+- (double);
+- (void)LëËÿÌÆb;
+- (void)¼Hd;
+- (void)ÙÔîi;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setEventComponentPhase:) _UIEventComponentPhaseValue *_eventComponentPhase;

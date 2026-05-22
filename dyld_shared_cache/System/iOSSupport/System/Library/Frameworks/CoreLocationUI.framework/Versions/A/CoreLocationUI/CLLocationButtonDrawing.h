@@ -33,11 +33,11 @@
 - (struct CGSize);
 - (struct CGImage *);
 - (void);
-- (unsigned int);
 - (struct CGSize);
+- (unsigned int);
+- (void);
 - (void);
 - (id);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect alignmentRect;

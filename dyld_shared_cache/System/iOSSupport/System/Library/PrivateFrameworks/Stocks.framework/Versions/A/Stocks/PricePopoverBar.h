@@ -19,13 +19,13 @@
 - (void);
 - (void);
 - (id);
-- (void)PI|l;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0:8@"UITableView"16@"UITableViewFocusUpdateContext"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *imageMaskColor; // @synthesize imageMaskColor=_imageMaskColor;

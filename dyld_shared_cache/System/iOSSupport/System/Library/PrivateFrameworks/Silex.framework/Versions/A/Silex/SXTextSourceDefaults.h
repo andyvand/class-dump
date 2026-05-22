@@ -9,7 +9,7 @@
     double _fontSize;
 }
 
-- (id);
+- (id);
 
 @end
 

@@ -4,5 +4,5 @@
 
 class std::__throw_with_nested<JetPack::UnableToParseDataSegmentException&, JetPack::UnableToParseDataSegmentException, true> {
 public: // (access info unavailable from symbols alone)
-    __do_throw[abi:ne200100](JetPack::UnableToParseDataSegmentException&);
+    auto __do_throw[abi:nqe210106](JetPack::UnableToParseDataSegmentException&);
 };

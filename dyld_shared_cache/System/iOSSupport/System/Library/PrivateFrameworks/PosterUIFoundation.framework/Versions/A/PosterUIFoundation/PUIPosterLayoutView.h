@@ -51,9 +51,6 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -61,8 +58,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)Ï;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView<PUIReusableView> *backdropView; // @synthesize backdropView=_backdropView;

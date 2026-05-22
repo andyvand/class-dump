@@ -25,12 +25,11 @@
 - (id);
 - (struct CGRect);
 - (void);
+- (id);
 - (struct CGAffineTransform);
 - (struct CGSize);
-- (void);
 - (struct CGSize);
-- (id)0@ù
-× ;
+- (void)AfterFirstLaunch;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;

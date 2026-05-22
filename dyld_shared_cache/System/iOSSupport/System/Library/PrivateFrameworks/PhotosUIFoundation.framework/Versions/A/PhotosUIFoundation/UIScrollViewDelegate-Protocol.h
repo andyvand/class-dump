@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void);
-- (void)r timed out waiting for space in a frame, ignoring CADisplayLink timestamps from now on.;
+- (void)T@"PXAspectFitLayoutMetrics",C,D,N;
 @end
 

@@ -11,10 +11,10 @@
     long long _trigger;
 }
 
-- (long long);
-- (id)edLength: /* Error: Ran out of types for this method. */;
-- (id)imumTLSVersion;
 - (id);
+- (id);
+- (id);
+- (long long)lu PLOIs, latency, %.3f;
 
 // Remaining properties
 @property(readonly, nonatomic) long long trigger; // @synthesize trigger=_trigger;

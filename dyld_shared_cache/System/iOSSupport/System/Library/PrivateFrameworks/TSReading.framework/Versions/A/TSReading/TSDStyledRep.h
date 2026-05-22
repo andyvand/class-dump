@@ -40,7 +40,7 @@
 - (struct CGRect);
 - (struct CGImage *);
 - (struct CGImage *);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,7 +57,7 @@
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (id)(=;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -65,16 +65,17 @@
 - (_Bool);
 - (id);
 - (struct CGRect);
-- (id);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (double);
-- (id)Translator;
-- (_Bool);
-- (void)D8;
+- (void);
+- (id)°1Â0@ù
+× ;
+- (id);
+- (void)Øêÿø[4;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

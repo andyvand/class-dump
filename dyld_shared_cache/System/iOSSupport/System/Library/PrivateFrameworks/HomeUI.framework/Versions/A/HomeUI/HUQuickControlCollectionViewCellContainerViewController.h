@@ -21,12 +21,13 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool)1b0@ù
+- (void)!DùÐ1â
+0@ù
 × ;
-- (void)dents_Details_AllResidents;
+- (void)nsform before beginning presentation!;
 
 // Remaining properties
 @property(readonly, nonatomic) HUQuickControlViewController *contentViewController; // @synthesize contentViewController=_contentViewController;

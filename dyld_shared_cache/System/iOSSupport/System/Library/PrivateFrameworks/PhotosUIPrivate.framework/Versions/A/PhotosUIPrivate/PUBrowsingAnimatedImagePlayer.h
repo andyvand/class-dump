@@ -38,17 +38,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void)urationForItemsAtIndexPaths:(id)arg1 point: /* Error: Ran out of types for this method. */;
-- (id)_savePosterEditConfigurationForCurrentPosterMediaWithEnvironment: /* Error: Ran out of types for this method. */;
+- (id)!\Eù"1â
+0@ù
+× ;
+- (void)hIndexPath:kind:dataSource:tileSource: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *_animatedImageLoadingDisablingReasons; // @synthesize _animatedImageLoadingDisablingReasons=__animatedImageLoadingDisablingReasons;

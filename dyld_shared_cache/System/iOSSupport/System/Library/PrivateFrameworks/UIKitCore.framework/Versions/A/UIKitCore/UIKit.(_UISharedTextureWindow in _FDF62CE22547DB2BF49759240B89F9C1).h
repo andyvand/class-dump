@@ -14,21 +14,20 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)ts: /* Error: Ran out of types for this method. */;
++ (_Bool)ZÐ1Â0@ù
+× ;
 - (void);
 - (_Bool);
-- (_Bool);
-- (id)(;
-- (_Bool)!0@ù
-× ;
-- (void)qÇ1¢!0@ù
-× ;
-- (id)tonBar",N,R,VbuttonBar;
-- (id);
-- (_Bool)	¡ÿ;
-- (_Bool)eÔn;
-- (id)ñp;
-- (_Bool)Ð&ÿ¬HÈVq;
+- (id);
+- (id);
+- (id);
+- (_Bool)ate>",N,V_delegate;
+- (id)lacement;
+- (_Bool)"UIViewAnimationState"8;
+- (_Bool)M1ÐXáa;
+- (void)Î°;
+- (_Bool)òÿ-¥p;
+- (_Bool)þaÙÿq;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *_roleHint;

@@ -44,15 +44,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ceDisplaySingleCameraUpgradeBanner;
 - (void);
 
 // Remaining properties

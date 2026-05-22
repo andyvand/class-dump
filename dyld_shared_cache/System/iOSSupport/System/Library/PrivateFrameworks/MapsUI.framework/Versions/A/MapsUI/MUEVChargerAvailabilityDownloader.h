@@ -18,10 +18,10 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)sForPlace;
 - (void);
 
 // Remaining properties

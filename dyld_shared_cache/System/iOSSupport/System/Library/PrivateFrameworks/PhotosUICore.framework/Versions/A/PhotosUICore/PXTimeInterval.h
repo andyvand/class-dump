@@ -24,15 +24,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)¬Ö0e;
-- (long long);
+- (double);
 - (id);
-- (double)v28@?0@"NSString"8@"NSString"16B24;
-- (double);
-- (double)eCollection;
-- (void)ËuK·>3;
-- (void)äôÿÑ¹I®5;
+- (double);
+- (void);
+- (long long);
+- (void);
+- (double);
+- (void);
+- (void)Ì¢ëÿ!aNTS4;
 
 // Remaining properties
 @property(nonatomic) double beginTime; // @synthesize beginTime=_beginTime;

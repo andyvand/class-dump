@@ -14,12 +14,12 @@
 
 + (id);
 + (id);
-- (void)o16AVAudioPCMBufferCSg;
 - (void);
-- (id)@;
 - (void);
-- (id)loadingPendingMessagesView",&,N,V_pendingMessagesContentView;
+- (id);
 - (void);
+- (id);
+- (void)ng *getkDataDetectorsReferenceDateKey(void);
 
 @end
 

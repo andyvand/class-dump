@@ -15,10 +15,10 @@
 - (double);
 - (id);
 - (id);
+- (double);
+- (double);
 - (struct CGAffineTransform);
-- (double)ÚÔ;
-- (double)úÖëÎ;
-- (double)Ð;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double a;

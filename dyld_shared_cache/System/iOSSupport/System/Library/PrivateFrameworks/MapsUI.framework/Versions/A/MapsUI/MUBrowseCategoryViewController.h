@@ -40,23 +40,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id)0@ù
-× ;
-- (void)32;
-- (void)etValueStringProvider:(id)arg1;
-- (id)ypSgSaySo13UIMenuElementCGSgSo0A0CSgIegngo_;
-- (void)ôþÿ;
+- (void)ceHeaderMetrics=d{MUPlaceCoverPhotoMetrics=dBB{CGSize=dd}dddd}},N,V_metrics;
+- (id)¤¯;
+- (void)àË	;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *browseItems; // @synthesize browseItems=_browseItems;

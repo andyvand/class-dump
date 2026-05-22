@@ -26,17 +26,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)WatchMockedPlaceHeaderViewModel;
+- (id);
+- (void);
+- (void)xpansionForVerifiedHeaderWithProgress: /* Error: Ran out of types for this method. */;
+- (void)ventValue:sharedStateButtonList:presentationOptions:classification: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic, retain) WKWebView *webView; // @synthesize webView;

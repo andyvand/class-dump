@@ -9,7 +9,7 @@
     _Bool expressiveTextEnabled;
 }
 
-+ (id);
++ (id)W;
 - (_Bool);
 - (id);
 

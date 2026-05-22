@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TSKSelection, UIView;
+@class NSArray, NSString, TSKSelection, UIView;
 @protocol TSDTextSelection;
 
 @protocol TSDTextInput
-- (void);
-- (NSArray *)1¢!0@ù
+- (UIView *)0@ù
 × ;
-- (long long)ð;
-- (UIView *)thInstantAlphaPath:withNaturalSize:forTargetImageGeometry:withTargetMaskGeometry:] /* Error: Ran out of types for this method. */;
-- (struct _NSRange)_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/persistence/src/TSPDatabaseInputStream.m;
-- (struct CGRect);
-- (UIView *)À;
+- (long long)mFormulaError;
+- (NSString *)election:(struct _NSRange)arg1 withInteractiveCanvasController: /* Error: Ran out of types for this method. */;
+- (UIView *)oundary:inDirection:preferPosition: /* Error: Ran out of types for this method. */;
+- (NSArray *)exturedRectangle",N;
+- (struct _NSRange)&) const;
+- (struct CGRect)g the write lock;
 
 @optional
-- (void);
-- (void);
-- (_Bool);
-- (_Bool)C;
-- (_Bool)u;
-- (UIView *)
-× ;
-- (void):(NSArray *)arg1;
-- (long long)d;
-- (_Bool)\;
+- (long long)Orientation;
+- (void)÷¬ø;
+- (NSArray *)inedLayoutForInstructionalText];
+- (UIView *)=%f; tail position=%@, tail size=%f natural size=%@;
 
 // Remaining properties
 @property(readonly, retain) UIView *inputAccessoryView;

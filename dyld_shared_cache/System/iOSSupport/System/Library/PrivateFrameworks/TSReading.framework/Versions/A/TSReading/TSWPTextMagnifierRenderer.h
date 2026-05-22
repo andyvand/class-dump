@@ -21,15 +21,15 @@
 - (int);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)tInterBarGapProperty;
+- (id);
+- (void);
+- (void)0@"TSDLayoutController"8;
+- (id)R;
+- (void)ôÁVíæ;
 
 // Remaining properties
 @property(nonatomic) int autoscrollDirections; // @synthesize autoscrollDirections=_autoscrollDirections;

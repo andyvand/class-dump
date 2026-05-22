@@ -27,9 +27,9 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id);
 - (CDUnknownBlockType);
+- (id);
+- (void)nerViewController initWithNibName:bundle:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long accessoryPool; // @synthesize accessoryPool=_accessoryPool;

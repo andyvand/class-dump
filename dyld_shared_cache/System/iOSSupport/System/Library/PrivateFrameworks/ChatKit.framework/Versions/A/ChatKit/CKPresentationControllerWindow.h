@@ -9,13 +9,13 @@
     _Bool _restrictedToPortraitOrientation;
 }
 
-- (void),V_updateContentDelayer;
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)A;
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)°£;
 
 // Remaining properties
 @property(nonatomic) _Bool restrictedToPortraitOrientation; // @synthesize restrictedToPortraitOrientation=_restrictedToPortraitOrientation;

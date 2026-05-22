@@ -23,13 +23,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)uestHTTPHeaders;
-- (void);
 - (_Bool);
-- (void)ct that was not first responder:(id)arg1 %@;
+- (void);
 - (id);
+- (void);
 - (id);
+- (void)ØúÿÄØúÿ$Úúÿ`ÚúÿÚúÿÀÚúÿDÜúÿÀÜúÿ¬ßúÿ¸àúÿÄàúÿáúÿÌáúÿðáúÿâúÿ`âúÿâúÿÀâúÿØâúÿàãúÿäúÿ@äúÿXäúÿdäúÿpäúÿlæúÿæúÿðçúÿLèúÿÈèúÿtéúÿéúÿ<ëúÿHëúÿÌëúÿíúÿíúÿüíúÿ îúÿ\îúÿîúÿîúÿïúÿ¸ïúÿÜïúÿ;
+- (id)alue;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityElements;

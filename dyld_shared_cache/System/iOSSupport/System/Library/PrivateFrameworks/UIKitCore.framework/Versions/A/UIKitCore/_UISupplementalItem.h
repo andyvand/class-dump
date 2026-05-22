@@ -14,18 +14,17 @@
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)@=%@;
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)1¢!0@ù
-× ;
-- (void)UpdateAccessories"b1"hasCustomIndentationLevel"b1"hasCustomIndentationWidth"b1"cellSelectionTogglesExpansionState"b1"indentsAccessories"b1"indentationMarginIsBasedOnCustomMargin"b1"isNextSelectionUpdateUserInitiated"b1"separatorLayoutGuideLeadingReferencesPrimaryText"b1"subclassOverridesSeparatorInsetsSPI"b1};
-- (unsigned long long)-Emoji-Split;
-- (void)Øk71Ò4ì;
+- (id);
+- (void)g;
+- (void):(id)arg1;
+- (id)le: /* Error: Ran out of types for this method. */;
+- (id)esponse:(struct _NSZone *)arg1 tracking:initialDampingRatio:initialResponse:dampingRatioSmoothing:responseSmoothing:targetSmoothing:projectionDeceleration:animations:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ation;
+- (void)9Â;
 
 // Remaining properties
 @property(copy, nonatomic) UIImage *icon; // @synthesize icon=_icon;

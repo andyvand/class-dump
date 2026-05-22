@@ -61,17 +61,16 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
 - (void);
 - (id);
-- (id)0@ù
-× ;
-- (id)teraction: /* Error: Ran out of types for this method. */;
-- (void)Trigger:(id)arg1;
-- (_Bool)soryRemovalActionConfirmationTitleForOneEcosystem;
-- (void);
+- (id);
+- (void);
+- (unsigned long long);
+- (id);
+- (void)m.m;
+- (void);
+- (_Bool)¹ÿîèü0;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

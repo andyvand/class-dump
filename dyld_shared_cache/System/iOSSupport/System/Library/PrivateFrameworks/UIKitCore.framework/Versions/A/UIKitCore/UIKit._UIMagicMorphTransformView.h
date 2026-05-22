@@ -18,17 +18,15 @@
     MISSING_TYPE *didHostSourceView;
 }
 
-- (void);
+- (id);
+- (struct CGSize);
 - (id);
 - (void);
-- (void)!øFù±ÄÐ1¢!0@ù
-× ;
-- (id)Ìð1¢!0@ù
-× ;
-- (_Bool);
-- (id)yMe;
-- (void)@;
-- (struct CGSize)|vìþ;
+- (id)peatedActionDelegate;
+- (void)vigationItemBarButtonItemGroupsDidChange:] /* Error: Ran out of types for this method. */;
+- (void)$ÐÜ;
+- (_Bool);
+- (void)]Ïüp;
 
 // Remaining properties
 @property(nonatomic) _Bool userInteractionEnabled;

@@ -16,12 +16,13 @@
     MISSING_TYPE *currentRopeAnimation;
     MISSING_TYPE *magicMorphView;
     MISSING_TYPE *intermediateShapeView;
+    MISSING_TYPE *traitObserver;
 }
 
-- (void)been deleted. Checking if current spam filter extension was deleted;
-- (id)found chat:(id)arg1 %@ (%@);
 - (void);
-- (id)eTextLabel;
+- (id);
+- (id);
+- (void)hÞ%ÿ°ÌøTl;
 
 @end
 

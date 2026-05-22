@@ -14,10 +14,10 @@
     MISSING_TYPE *subtitleLabel;
 }
 
-- (id)me;
-- (void);
 - (id);
 - (id);
+- (id);
+- (void)Dÿÿ<þÿ;
 
 @end
 

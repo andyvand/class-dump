@@ -5,6 +5,5 @@
 //
 
 @protocol TSKAVPlayerControllerDelegate
-- (void);
 @end
 

@@ -33,11 +33,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id)ts/4~CNrSugDYcx6sjASS2XskMirRBBIt5EXaGbmPAJc/Library/Caches/com.apple.xbs/TemporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/rsa/rsa_sign.c;
+- (void)riptionResponse;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *authenticationToken; // @synthesize authenticationToken=_authenticationToken;

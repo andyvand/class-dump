@@ -17,14 +17,13 @@
     MISSING_TYPE *previousBarFrame;
 }
 
-- (void);
 - (id);
-- (void);
-- (void)!üDùÄð1¢!0@ù
-× ;
-- (_Bool)on: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)seInfo *> *const __strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_5;
-- (id)lue ;
+- (void);
+- (_Bool)LayerDelegate;
+- (void)er",&,N,V_shouldPreferEndOfWord;
+- (id)er;
+- (void)xßÿÎórm;
+- (struct UIEdgeInsets)Ìcÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets alignmentRectInsets;

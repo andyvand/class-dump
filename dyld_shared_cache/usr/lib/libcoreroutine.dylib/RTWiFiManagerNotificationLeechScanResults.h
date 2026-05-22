@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)s checkInXPCTimerAlarm fireWithDate hit error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *scanResults; // @synthesize scanResults=_scanResults;

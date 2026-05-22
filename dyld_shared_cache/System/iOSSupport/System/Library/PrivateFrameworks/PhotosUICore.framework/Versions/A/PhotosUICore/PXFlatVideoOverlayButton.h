@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id) Ø;
+- (void)5;
 
 // Remaining properties
 @property(nonatomic, setter=_setDidConfigureForPause:) _Bool _didConfigureForPause; // @synthesize _didConfigureForPause=__didConfigureForPause;

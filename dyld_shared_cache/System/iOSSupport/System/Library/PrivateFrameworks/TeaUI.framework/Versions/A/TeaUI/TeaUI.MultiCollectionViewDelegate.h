@@ -15,49 +15,51 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void)hangedCallbackQueue;
-- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id)dLoadSystemAppAccessibilityBundle;
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)h;
-- (struct CGPoint)hh8;
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id)tureRecognizer:(id)arg1 shouldReceivePress:(id)arg2;
-- (void),;
-- (_Bool)ÜiýÿåüÿLýÿ;
-- (id)n"ÿÿ;
 - (id);
-- (_Bool);
-- (void)BlueprintViewController failed to become first responder in childTraversable(:(id)arg1 didExitTraversalWithDirection:(id)arg2 ), viewController=%{public}@;
 - (void);
-- (void)nloadState;
+- (void);
+- (id);
 - (_Bool);
-- (id)*;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (struct CGPoint)z	Ð1Â0@ù
+× ;
+- (id)@ù
+× ;
+- (void)È!ýÿT>ýÿ;
+- (void)tüÿüÿÄüÿ<üÿdüÿ|üÿüÿ¬üÿÄüÿÜüÿôüÿLüÿüÿÐüÿ¨üÿàüÿd üÿ| üÿ¼ üÿ¡üÿD¡üÿ(¢üÿT¢üÿ¢üÿ4£üÿì£üÿD¤üÿx¤üÿ¤üÿ¦üÿ,¦üÿT¦üÿ¦üÿ¤¦üÿ¼¦üÿÔ¦üÿ4§üÿl§üÿ§üÿ¼§üÿÔ§üÿì§üÿ,¨üÿD¨üÿ¨üÿ ¨üÿØ¨üÿð¨üÿ0ªüÿhªüÿðªüÿ(«üÿÈ«üÿ¬üÿô¬üÿ@­üÿ®üÿ¸®üÿ4¯üÿL¯üÿd¯üÿ|¯üÿÔ¯üÿì¯üÿ°üÿ°üÿ4°üÿ¬°üÿð°üÿ(±üÿx±üÿ ³üÿ`³üÿ³üÿ³üÿ¼³üÿ;
+- (_Bool)rget_ÚcÜ6offsett;
+- (void)loop!;
+- (_Bool)iáÜÝ;
 
 @end
 

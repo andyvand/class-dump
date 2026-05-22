@@ -26,7 +26,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)uture"16@?0@"HMNumberRange"8;
 
 // Remaining properties
 @property(retain, nonatomic) HUCameraView *cameraView; // @synthesize cameraView=_cameraView;

@@ -41,8 +41,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *cacheDirectory; // @synthesize cacheDirectory=_cacheDirectory;

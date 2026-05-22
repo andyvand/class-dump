@@ -32,12 +32,12 @@
 
 - (id);
 - (id);
-- (struct CGPoint)word account:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
 - (_Bool);
-- (void)t];
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,24 +48,23 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGSize);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (struct CGPoint);
-- (void)Ap°!äFùñÂÐ1¢!0@ù
-× ;
-- (void)oidanceClientApplicator>"16;
+- (void);
+- (struct CGPoint)AdvanceToPage: /* Error: Ran out of types for this method. */;
+- (void)¸;
 - (void);
 
 // Remaining properties

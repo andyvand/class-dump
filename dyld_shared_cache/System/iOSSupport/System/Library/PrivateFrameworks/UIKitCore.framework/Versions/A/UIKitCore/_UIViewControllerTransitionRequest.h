@@ -28,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
 - (id);
-- (id)6B24q28;
-- (id)ocorrection;
+- (void)w;
+- (id);
+- (id)M];
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIViewControllerAnimatedTransitioning> animator; // @synthesize animator=_animator;

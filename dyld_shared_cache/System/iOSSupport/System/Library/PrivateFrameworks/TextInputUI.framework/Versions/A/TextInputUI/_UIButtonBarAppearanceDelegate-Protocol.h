@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage, UIImageSymbolConfiguration, _UIBarButtonItemAppearanceStorage;
+@class UIColor, UIImageSymbolConfiguration, _UIBarButtonItemAppearanceStorage;
 
 @protocol _UIButtonBarAppearanceDelegate
-- (UIImage *)er: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _useLeadingAlignedTitle;

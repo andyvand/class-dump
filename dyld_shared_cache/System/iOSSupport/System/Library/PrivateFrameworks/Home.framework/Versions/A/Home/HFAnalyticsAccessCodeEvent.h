@@ -29,16 +29,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long)sDidInstall: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (unsigned long long);
+- (void)eristicTitleLockState;
+- (void)ptionValueOpen;
+- (void)pes (%@):(id)arg1 %@;
+- (id)dcÝÿeY¤¬;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *duringOnboarding; // @synthesize duringOnboarding=_duringOnboarding;

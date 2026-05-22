@@ -15,8 +15,8 @@
 
 + (id);
 + (_Bool);
-+ (id)ü`bÔn;
-+ (_Bool)nyUserAtHome;
++ (id);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -26,17 +26,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)erUUID;
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *accessAllowedToAccessories; // @synthesize accessAllowedToAccessories=_accessAllowedToAccessories;

@@ -23,21 +23,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)A;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (float)round;
+- (id);
 - (void);
-- (void)leResults;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (id)!;
-- (void);
-- (id);
+- (float);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

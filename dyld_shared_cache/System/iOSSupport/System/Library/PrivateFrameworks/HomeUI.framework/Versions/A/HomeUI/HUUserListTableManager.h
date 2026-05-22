@@ -56,30 +56,29 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (id);
-- (void);
 - (long long);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id)!'Ð!ÄAùQ1°1b0@ù
-× ;
-- (void)0:(id)arg1 8d16;
-- (id)ÌÀ;
-- (void)issing since Done button was pressed.;
-- (void);
-- (void);
-- (void);
-- (id)_pSgXw;
-- (id)count_Button_Title;
+- (void)boardViewController:viewWillDisappear] /* Error: Ran out of types for this method. */;
+- (void)imerObjectAtIndexPath:(id)arg1 ];
+- (id)sentationStyle;
+- (void)cÿÿë°ÿ8I;
+- (id)P;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;

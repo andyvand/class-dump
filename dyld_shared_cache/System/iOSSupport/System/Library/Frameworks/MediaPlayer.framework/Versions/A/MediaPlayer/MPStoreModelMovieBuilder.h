@@ -37,8 +37,8 @@
 }
 
 + (id);
-- (id).framework/Versions/C/Foundation;
-- (void);
+- (id);
+- (void)ArtworkCatalogsBlockExecution;
 
 @end
 

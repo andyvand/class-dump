@@ -19,10 +19,10 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id)nousResult:(CDUnknownBlockType)arg1 block: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long remainingChats;

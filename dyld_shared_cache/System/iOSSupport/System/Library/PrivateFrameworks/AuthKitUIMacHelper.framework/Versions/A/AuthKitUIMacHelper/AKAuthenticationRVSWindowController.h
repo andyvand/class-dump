@@ -16,9 +16,9 @@
 
 - (void);
 - (void);
-- (void)nreachable code:error in replaceObjectInChildNodesAtIndex /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
+- (void);
 
 @end
 

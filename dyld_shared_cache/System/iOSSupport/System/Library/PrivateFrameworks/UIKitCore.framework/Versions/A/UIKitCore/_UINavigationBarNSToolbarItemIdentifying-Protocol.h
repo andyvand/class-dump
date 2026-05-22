@@ -7,13 +7,8 @@
 @class NSString, NSToolbarItem;
 
 @protocol _UINavigationBarNSToolbarItemIdentifying
-- (NSToolbarItem *)0@ù
-× ;
-- (_Bool)!¸CùQÎð1¢!0@ù
-× ;
-- (NSToolbarItem *)ction"16@"<UIDropSession>"24;
-- (NSString *)ä;
-- (NSString *);
+- (NSString *)pHistory;
+- (NSToolbarItem *)`ÕÕ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *_nstoolbarItemIdentifier;

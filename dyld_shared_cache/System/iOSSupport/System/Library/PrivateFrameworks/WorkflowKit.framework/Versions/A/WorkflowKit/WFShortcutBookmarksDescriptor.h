@@ -12,13 +12,13 @@
     NSString *_path;
 }
 
-+ (_Bool)n Drafts settings, if it's required;
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)¸ÛûÿïDÜ8O;
+- (void)terchangeApp appInfo];
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *bookmarkData; // @synthesize bookmarkData=_bookmarkData;

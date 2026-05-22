@@ -14,20 +14,19 @@ __attribute__((visibility("hidden")))
     UITextFieldBackgroundView *_systemBackgroundView;
 }
 
-+ (id)
-× ;
-- (void);
-- (void);
-- (id)xtPosition"16q24q32;
-- (void)se of Show Original toggle activity. suggestionID = %@;
-- (void)XàþÿàþÿÀàþÿøàþÿáþÿ(áþÿ@áþÿXáþÿpáþÿáþÿ áþÿ¸áþÿÐáþÿðáþÿâþÿ âþÿ8âþÿlâþÿâþÿ¤âþÿ¼âþÿÔâþÿìâþÿãþÿãþÿ4ãþÿLãþÿdãþÿãþÿ¸ãþÿðãþÿ(äþÿ@äþÿXäþÿpäþÿäþÿ`èþÿxèþÿ°èþÿÈèþÿàèþÿ(êþÿ;
-- (Class)n;
-- (void)fectTagReceiverP;
-- (id)onding presentation controller.;
-- (void)ect view for upcoming animations;
-- (id)ªªªªú?«ªªªªªú?«ªªªªªú?;
-- (long long)ÜÆ;
++ (id)earchHosting;
 - (id);
+- (Class);
+- (id);
+- (void)rrow;
+- (id)ion needs to be pushed;
+- (void)û¾7Sg;
+- (void)fæøã<;
+- (long long)ÖX\;
+- (id)\`\;
+- (void)T: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)Ü;
 
 @end
 

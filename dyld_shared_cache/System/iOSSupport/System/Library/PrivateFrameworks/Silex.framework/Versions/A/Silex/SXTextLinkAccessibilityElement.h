@@ -18,14 +18,15 @@
 - (struct _NSRange);
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (id);
 - (id);
 - (struct CGRect);
 - (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (void)ïÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;

@@ -37,12 +37,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id)10Ð1b0@ù
-× ;
+- (id);
+- (void)ScenesSectionTitle;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *actionLabel; // @synthesize actionLabel=_actionLabel;

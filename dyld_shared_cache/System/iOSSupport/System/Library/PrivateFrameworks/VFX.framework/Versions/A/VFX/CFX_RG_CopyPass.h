@@ -5,6 +5,6 @@
 class CFX::RG::CopyPass {
 public: // (access info unavailable from symbols alone)
     CopyPass(CFX::ScratchAllocator, char const*, CFX::RG::CopyPass::Parameters);
-    execute(CFX::RG::RenderGraphContext const&, RGExecutionPhase, CFX::RG::Arguments const&);
-    init(CFX::RG::RenderGraphContext&);
+    auto execute(CFX::RG::RenderGraphContext const&, RGExecutionPhase, CFX::RG::Arguments const&);
+    auto init(CFX::RG::RenderGraphContext&);
 };

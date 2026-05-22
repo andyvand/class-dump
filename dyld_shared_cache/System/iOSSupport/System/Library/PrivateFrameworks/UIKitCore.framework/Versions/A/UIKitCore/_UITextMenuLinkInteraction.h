@@ -16,30 +16,33 @@ __attribute__((visibility("hidden")))
     _Bool _isModifyingSelectionForLinkPresentation;
 }
 
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)uires hosting in navigation bar is losing its navigation item
+	%@
+%@;
+- (id)h index:(id)arg1 %ld;
+- (void)ÿ;
+- (id)ble);
+- (void)!= nil;
+- (void);
+- (void)Sg;
+- (void)TrackingSessionCSg;
+- (void)wCSg;
+- (id)®Gáz®ã?Zd;ßOï?¼tVÖ?`åÐ"Ûù¾?Ñ"Ûù~jÔ?ÙÎ÷Sã¥ë?Év¾/­?Zd;ßO·?PnÀ?=
+×£p=î?¢E¶óýÔØ?Clçûé?®GázÖ?#Ûù~j¼è?¾/Ý$Þ?¢E¶óýÔÐ?é&1¬Ú?7A`åÐÒ?¬Zd;ï?¬Zd;ë?7A`åÐâ?;
 - (_Bool);
-- (id);
-- (id)e=QQ}16@0:(id)arg1 8;
+- (id);
+- (struct CGRect);
 - (id);
-- (struct CGRect)`;
-- (void);
-- (void);
+- (id)ã¥ÖÈ[;
+- (void)Þ`;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void)ø,/º;
-- (void)icy">32;
-- (void)rentBackgroundByDefault;
-- (id)actLabelBackgroundButtonConfiguration;
-- (id)uldMinimizeForHardwareKeyboard;
-- (void)imaryOffscreenGestureMode:(id)arg1 ,V_primaryOffscreenGestureMode;
-- (void)_textInputTraits;
-- (id)menuGutterWidth;
-- (id)0(;
-- (id);
-- (void)ype;
-- (void)e;
-- (id)ÄÏBÖ];
+- (id)ðJ];
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,6 +5,5 @@
 //
 
 @protocol StockGraphViewContainer
-- (void);
 @end
 

@@ -11,8 +11,8 @@
     MISSING_TYPE *assemblies;
 }
 
+- (id);
 - (void);
-- (id)tiallyAttributedSelectorForNonAttributedSelector:attributedSelector: /* Error: Ran out of types for this method. */;
 
 @end
 

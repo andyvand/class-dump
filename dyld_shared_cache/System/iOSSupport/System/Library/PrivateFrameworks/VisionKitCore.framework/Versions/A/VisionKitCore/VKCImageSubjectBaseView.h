@@ -116,27 +116,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (long long);
 - (id);
-- (struct CGSize);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (struct CGRect);
-- (id)1B0@ù
-× ;
-- (void)setSuppressReturnKeyStyling:(id)arg1;
+- (struct CGSize);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) UIImage *_cachedSubject; // @synthesize _cachedSubject=__cachedSubject;

@@ -13,14 +13,13 @@ __attribute__((visibility("hidden")))
     NSXPCInterface *_remoteViewControllerInterface;
 }
 
-+ (id)achmentRecordRef.;
++ (id);
 - (id);
 - (SEL);
 - (id);
-- (id);
-- (void);
-- (id)Au!p@ùÉ°1¢!0@ù
-× ;
+- (id);
+- (void)±.3yåV¾7G;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

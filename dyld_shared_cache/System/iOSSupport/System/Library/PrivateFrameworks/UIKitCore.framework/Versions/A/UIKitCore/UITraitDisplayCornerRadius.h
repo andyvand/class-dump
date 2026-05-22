@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)Me;
 + (_Bool);
 + (_Bool);
-+ (id)e:withReplacement:isUndoRedo: /* Error: Ran out of types for this method. */;
-+ (id)5UIKit26_UISharedTextureController33_FDF62CE22547DB2BF49759240B89F9C1LLC8DelegateP;
-+ (double)eÿº¯Ð3üe;
++ (_Bool);
++ (id);
++ (id)xpected non-nil windowScene;
++ (double)¨g;
 
 @end
 

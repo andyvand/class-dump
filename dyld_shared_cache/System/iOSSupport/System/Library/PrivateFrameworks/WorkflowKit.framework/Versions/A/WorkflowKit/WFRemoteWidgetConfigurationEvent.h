@@ -16,16 +16,16 @@
     NSString *_widgetIdentifier;
 }
 
-+ (Class)%EÉ;
++ (Class);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void)%@;
+- (void)@?0@"WFParameter"8Q16@?<v@?@"NSError">24^B32;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

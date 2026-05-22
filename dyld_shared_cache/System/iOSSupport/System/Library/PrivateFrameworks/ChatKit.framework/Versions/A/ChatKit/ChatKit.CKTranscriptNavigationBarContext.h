@@ -19,8 +19,8 @@
     MISSING_TYPE *nicknameOracleProvider;
 }
 
-- (void);
 - (id);
+- (void)layConfiguration;
 
 @end
 

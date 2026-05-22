@@ -5,6 +5,5 @@
 //
 
 @protocol CNNameListBuilderDelegate
-- (_Bool);
 @end
 

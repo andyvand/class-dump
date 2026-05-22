@@ -15,9 +15,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)eColors;
 - (void);
-- (id)hatOptedOut;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool hasAnyProgress;

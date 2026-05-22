@@ -8,10 +8,6 @@
 @protocol UIFocusEnvironment, UIFocusItemContainer;
 
 @protocol UIFocusEnvironment
-- (id <UIFocusItemContainer>)x;
-
-@optional
-- (NSString *)on: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;

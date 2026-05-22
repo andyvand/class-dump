@@ -18,13 +18,12 @@
 + (Class);
 - (void);
 - (void);
-- (id)essageSubject;
+- (id);
 - (void);
-- (void)mapping for MPModelPropertyPlaylistEntryReactionDate;
+- (void)tion;
+- (id)rray",&,N,S_setInternalConstraints:,V_internalConstraints /* Error: Ran out of types for this method. */;
 - (void);
-- (void)r!\GùñÅ°1¢!0@ù
-× ;
-- (id)orcePropagateToSegments: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 
 // Remaining properties

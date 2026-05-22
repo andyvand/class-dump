@@ -16,22 +16,21 @@
     long long _itemCount;
 }
 
-- (struct CGPoint)ssageWithMessageItem:newRange: /* Error: Ran out of types for this method. */;
-- (void)lter: /* Error: Ran out of types for this method. */;
-- (void)focus is active;
+- (struct CGPoint);
 - (void);
+- (void);
+- (long long);
 - (id);
 - (id);
-- (void)h;
-- (void)s;
-- (id);
-- (long long)ap!FùÃÐ1¢!0@ù
+- (void);
+- (void);
+- (void)
 × ;
-- (long long)
-× ;
-- (id)$Çþÿ;
-- (void)centerBarConstraints=%p;
-- (struct CGSize)×à	;
+- (void)onModeManager:(id)arg1 didChangeToMode: /* Error: Ran out of types for this method. */;
+- (id)earchController;
+- (id);
+- (struct CGSize)hX;
+- (long long)wift;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *_imageView; // @synthesize _imageView;

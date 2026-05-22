@@ -17,16 +17,16 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *actionHint;

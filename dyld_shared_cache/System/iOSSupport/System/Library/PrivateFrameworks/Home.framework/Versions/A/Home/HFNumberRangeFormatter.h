@@ -22,11 +22,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
+- (_Bool);
+- (void)Ô¸;
+- (id)instantiating with cached file:(id)arg1 %@; clip:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id)éÿÿ;
-- (id)"ùÿ*¼P;
-- (_Bool)ÿ·ô(ö;
-- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool consolidatesUnit; // @synthesize consolidatesUnit=_consolidatesUnit;

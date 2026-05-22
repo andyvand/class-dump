@@ -6,6 +6,6 @@
 
 @interface (null) (AKPlatformView_Extensions)
 - (void);
-- (double);
+- (double);
 @end
 

@@ -8,13 +8,6 @@
 @protocol NSObject><NSCopying;
 
 @protocol UITextSearching
-- (void);
-
-@optional
-- (void);
-- (id <NSObject><NSCopying>)C;
-- (void):(UITextRange *)arg1 error:(id <NSObject><NSCopying>)arg2;
-- (_Bool)4;
 
 // Remaining properties
 @property(readonly) UITextRange *selectedTextRange;

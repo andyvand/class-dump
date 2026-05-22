@@ -5,7 +5,8 @@
 //
 
 @protocol IMItemErrorProtocol
-- (unsigned int)ompletion: /* Error: Ran out of types for this method. */;
+- (void)ed only in SWY;
+- (unsigned int)d±üÿ¼¥[øÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode;

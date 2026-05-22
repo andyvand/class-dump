@@ -13,25 +13,25 @@
     id <SXFullscreenCanvasViewControllerDelegate> _delegate;
 }
 
-- (void)+;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (long long)a;
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id)C;
+- (_Bool);
 - (void);
-- (void)trollerFactory:(struct CGSize)arg1;
-- (void)Bold;
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void)iew"16@"NSString"24@?<v@?q>32;
+- (id)actionForURL: /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) __weak id <SXFullscreenCanvasViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

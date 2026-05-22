@@ -11,9 +11,12 @@
 }
 
 + (id);
-+ (id)HýÿNýÿNýÿ;
-- (id);
-- (id);
++ (id);
+- (id)forKey: /* Error: Ran out of types for this method. */;
+- (id)r privacy.
+
+**On-Device Model**
+Use the on-device model to handle simple requests without the need for a network connection.;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @dynamic data;

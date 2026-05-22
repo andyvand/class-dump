@@ -13,13 +13,13 @@
 }
 
 + (id);
-+ (_Bool)erveIconAspectRatioAndAlignmentWhenScaling;
++ (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool)gs;
 - (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
 - (id);
 
 // Remaining properties

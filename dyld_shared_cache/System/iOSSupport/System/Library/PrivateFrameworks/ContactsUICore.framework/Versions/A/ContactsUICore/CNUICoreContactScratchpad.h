@@ -26,12 +26,12 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)tinationID;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allContacts;

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     id <CALayerDelegate> _actionDelegate;
 }
 
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id)K;
+- (id)éþ;
 
 // Remaining properties
 @property(nonatomic) __weak id <CALayerDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;

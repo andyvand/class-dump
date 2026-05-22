@@ -24,49 +24,52 @@
     _TtC5UIKit20ScrollEdgeEffectView *rightPocket;
 }
 
-- (void) ;
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)successfully sent scheduleState Update to peer devices;
-- (void)ed plain text tapback %s for %s, attaching to %s with range %s, took %fs;
-- (void)ouldn't find chat, trying to create a new one!;
-- (void)ssage processing with guid %@;
-- (id)unk report:%@ /* Error: Ran out of types for this method. */;
-- (id)oaded;
-- (_Bool)aded our local nickname %@ %@;
-- (_Bool)quest for:%@ and received error:%@ /* Error: Ran out of types for this method. */;
-- (id)ch:%@ with record name:%@ /* Error: Ran out of types for this method. */;
-- (id)etter root-cause this issue. Critical workload time ranges:(unsigned long long)arg1;
-- (id)orted-size-override;
-- (struct UIEdgeInsets)d;
-- (id)ratedGroupID;
-- (id)tice:(_Bool)arg1 ];
-- (id)|g;
 - (void);
 - (void);
 - (void);
-- (void)s;
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)A°!¨Eù±^ð1Â0@ù
+× ;
+- (_Bool)
+× ;
+- (id)qað1Â0@ù
+× ;
+- (id)\z;
+- (void)ransfer finished for dragging session destination %p;
 - (id);
-- (id);
+- (id)rictions.minimumSize;
+- (id)ems = %@;;
+- (void);
 - (void);
-- (id)UIInputViewSetPlacement",&,N,VtoPlacement;
-- (id)¸ÛÝ,Þßßdâã8ãxãäãä¨äÔä;
-- (void)ü;
-- (id)oveKeyboards:do not signalKeyboardChanged since it has been suppressed for WritingTools /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void)ailed to create targetedPreview for %@ of %@;
-- (void);
-- (void)`;
-- (_Bool)°¢õÿÕ;
-- (id)T;
+- (void)¨ÓxFq;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *_view; // @synthesize _view;

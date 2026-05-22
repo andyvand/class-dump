@@ -23,8 +23,8 @@
     MISSING_TYPE *sinkSet;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

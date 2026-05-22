@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     CALayer *signatureLayer;
 }
 
-- (void)Point:inputType:visibleOnscreenStrokes: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

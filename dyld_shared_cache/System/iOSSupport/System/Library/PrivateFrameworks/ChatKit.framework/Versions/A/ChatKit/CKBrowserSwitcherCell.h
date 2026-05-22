@@ -16,11 +16,11 @@
 }
 
 - (id);
-- (void)16ObservableObjectP;
-- (void)a;
 - (void);
 - (void);
-- (void)v;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -28,12 +28,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)ÀDCÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *browserSnapshotView; // @synthesize browserSnapshotView=_browserSnapshotView;

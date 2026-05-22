@@ -9,11 +9,11 @@
 @protocol UICollectionViewFocusDelegate_Legacy
 
 @optional
-- (NSIndexPath *)become no-ops. Update to view-based UIFeedbackGenerator methods. This will become an assert in a future version.;
-- (void)e search bar. This will abruptly remove the search bar from the view hierarchy. Navigation item:(UICollectionView *)arg1 %@ Search controller:(NSIndexPath *)arg2 %@;
-- (void)ÿnrþ;
-- (_Bool)eStyleToScreen;
-- (_Bool)6;
-- (void)to set the interruptible property of an active animator (%@);
+- (_Bool)AdjoinToAdjacentFaces;
+- (_Bool)cedWindowingModeEnabled;
+- (void)achedInCompactHeight:(UICollectionView *)arg1;
+- (void)È|tÈ;
+- (void)\r´rxsHt;
+- (NSIndexPath *)ICollectionViewCompositionLayout.m;
 @end
 

@@ -32,18 +32,18 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void)ë@;
 - (long long);
-- (void);
-- (void);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (struct CGSize);
-- (unsigned long long)tion: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void);
+- (id)/p1Ô46¬6 74;;
+- (void)SetDefaultCardIntent;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

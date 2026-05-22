@@ -33,29 +33,29 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
-- (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (id)eate record without a salt;
-- (void)essage had no parts, don't wake me up. ;
-- (void)de To Device %@  to display to enroll them into SMS Relay;
-- (_Bool)tRecord  %@;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (struct CGRect);
-- (struct CGRect);
+- (void);
+- (void);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)pð!p@ù±Â°1¢!0@ù
-× ;
-- (void)Ü2;
-- (void)ckgroundStyleKey;
-- (void)àA\ÿÔ$ÒÅl;
-- (void)rÿÏ}m;
+- (void)ementsDidCancelHinting"b1"delegateImplementsShouldBegin"b1};
+- (struct CGRect)errideInputActionCountToZero:withLanguage: /* Error: Ran out of types for this method. */;
+- (void)IColor",C,N,V_arrowBackgroundColor;
+- (void)ô|¤}0
+ Àp;
+- (void)Àÿ;
+- (void)Ü;o;
+- (void)ý7;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

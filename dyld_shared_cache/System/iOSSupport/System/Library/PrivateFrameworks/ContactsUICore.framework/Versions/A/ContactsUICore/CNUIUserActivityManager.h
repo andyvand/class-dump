@@ -29,8 +29,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)circularContainerLayerForRect:backgroundStyle: /* Error: Ran out of types for this method. */;
+- (id)dedCodingKeys;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNLSApplicationWorkspace> applicationWorkspace; // @synthesize applicationWorkspace=_applicationWorkspace;

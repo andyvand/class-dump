@@ -4,7 +4,7 @@
 
 class asan::ReportGenerator::StackVar {
 public: // (access info unavailable from symbols alone)
-    getStackVar(char const*, unsigned long);
-    getStackVar(char const*, unsigned long) (.cold.1);
-    parse(char const*&);
+    auto getStackVar(char const*, unsigned long);
+    auto getStackVar(char const*, unsigned long) (.cold.1);
+    auto parse(char const*&);
 };

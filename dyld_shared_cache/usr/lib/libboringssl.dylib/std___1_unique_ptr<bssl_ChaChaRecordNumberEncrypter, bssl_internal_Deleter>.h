@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<bssl::ChaChaRecordNumberEncrypter, bssl::internal::Deleter> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](bssl::ChaChaRecordNumberEncrypter*);
+    auto reset[abi:nqe210106](bssl::ChaChaRecordNumberEncrypter*);
 };

@@ -17,15 +17,17 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
+- (void);
+- (id)!\@ùñ91â
+0@ù
+× ;
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;

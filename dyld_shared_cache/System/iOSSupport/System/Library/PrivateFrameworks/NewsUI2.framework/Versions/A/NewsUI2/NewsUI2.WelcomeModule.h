@@ -11,8 +11,8 @@
     MISSING_TYPE *resolver;
 }
 
-- (void);
 - (id);
+- (void)H½þ%F_FêþF_@½þåE_\éMÿåE_xéMÿåE_,½þF_(½þF_$½þµE_ ½þ;
 
 @end
 

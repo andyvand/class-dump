@@ -25,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)delRelationshipTVEpisodePlaybackPosition__MAPPING_MISSING__;
+- (id)ongPopularity;
 
 // Remaining properties
 @property(nonatomic) NSString *childKey; // @synthesize childKey=_childKey;

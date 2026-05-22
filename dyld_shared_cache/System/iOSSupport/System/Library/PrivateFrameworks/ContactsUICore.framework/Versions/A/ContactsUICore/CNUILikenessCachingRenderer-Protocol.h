@@ -5,6 +5,5 @@
 //
 
 @protocol CNUILikenessCachingRenderer
-- (void)Sg;
 @end
 

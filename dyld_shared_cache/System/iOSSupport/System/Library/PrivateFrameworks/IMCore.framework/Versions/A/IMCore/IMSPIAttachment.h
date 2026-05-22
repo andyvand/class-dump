@@ -29,21 +29,21 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)T;
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool)spendReply;
-- (void), unsigned long long>>];
-- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)0°1@3Ü5D6Ü6|7ì89¼:;L; /* Error: Ran out of types for this method. */;
-- (void)<å;
+- (id);
+- (id)IMHandles: /* Error: Ran out of types for this method. */;
+- (void)T	(Xøhì¼ä ¤"ä#;
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *adaptiveImageGlyphContentDescription; // @synthesize adaptiveImageGlyphContentDescription=_adaptiveImageGlyphContentDescription;

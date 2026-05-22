@@ -26,20 +26,20 @@
 }
 
 - (double);
-- (_Bool)ntext";
-- (void);
-- (void);
-- (void)FPExtensionResponse"@"NSError">;
-- (void)@@"FPItemID";
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)"<IDSXPCOffGridStateManager>"@"NSError">;
 - (void);
 - (void);
-- (unsigned long long)@@"IPCMuteSpokenGuidanceMessage";
-- (unsigned long long)x;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
@@ -50,9 +50,9 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (void)@@"NSSet";
+- (void);
 - (id);
 - (id);
 - (void);
@@ -60,19 +60,19 @@
 - (id);
 - (void);
 - (_Bool);
-- (void)";
 - (void);
-- (double)t<NFContactlessUICCSessionInterface>";
 - (void);
-- (void)ments";
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)@@;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -81,16 +81,16 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)orItemManager;
+- (void)ameraRecordingIntro_ContinueButton;
 
 // Remaining properties
 @property(retain, nonatomic) HUCameraRecordingSettingsModule *cameraRecordingItemModule; // @synthesize cameraRecordingItemModule=_cameraRecordingItemModule;

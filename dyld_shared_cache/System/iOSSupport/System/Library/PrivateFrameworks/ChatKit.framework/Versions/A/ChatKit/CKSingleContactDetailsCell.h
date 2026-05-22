@@ -17,17 +17,17 @@
 
 + (_Bool);
 + (id);
-- (void)ool:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (id)evice passcode or password for this account’s locked notes means you don’t have to create and remember a separate password, reducing the chances of losing access to your locked notes.;
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (struct CGSize);
 - (void);
-- (id)`;
-- (void);
-- (struct CGSize)enModal;
-- (id)¯rÿy3ÁÚ-;
+- (id)didTapMentionForTextView:(long long)arg1 atCharacterIndex:(id)arg2;
+- (void)L;
+- (id)¤èÐÜd¨;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *chervonImageView; // @synthesize chervonImageView=_chervonImageView;

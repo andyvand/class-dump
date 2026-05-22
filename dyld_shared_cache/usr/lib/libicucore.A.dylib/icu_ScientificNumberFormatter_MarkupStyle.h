@@ -4,6 +4,6 @@
 
 class icu::ScientificNumberFormatter::MarkupStyle {
 public: // (access info unavailable from symbols alone)
-    clone() const;
-    format(icu::UnicodeString const&, icu::FieldPositionIterator&, icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
+    auto clone() const;
+    auto format(icu::UnicodeString const&, icu::FieldPositionIterator&, icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
 };

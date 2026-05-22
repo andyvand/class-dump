@@ -18,17 +18,17 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
 - (CDUnknownBlockType);
-- (id)dgetId:widgetSize:localizedName:topic: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

@@ -17,26 +17,26 @@
     NSData *_data;
 }
 
-+ (id);
++ (id);
 + (id);
 - (const char *);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned char);
-- (unsigned char);
+- (unsigned char);
 - (_Bool);
 - (unsigned char);
 - (unsigned char);
+- (id);
 - (unsigned int);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id)listContents;
 - (id);
 
 // Remaining properties

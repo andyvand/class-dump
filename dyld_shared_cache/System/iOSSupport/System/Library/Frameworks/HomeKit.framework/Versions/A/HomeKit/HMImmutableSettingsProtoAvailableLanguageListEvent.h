@@ -16,18 +16,18 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void):(id)arg1 usingHome:context: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)$X;
+- (id)HM.FetchPowerAssertionsMessage;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *languages; // @synthesize languages=_languages;

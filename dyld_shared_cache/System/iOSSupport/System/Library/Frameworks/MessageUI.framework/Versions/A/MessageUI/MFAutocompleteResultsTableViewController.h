@@ -24,10 +24,10 @@
 
 - (id);
 - (_Bool);
-- (_Bool)T;
-- (void);
+- (_Bool);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,7 +35,7 @@
 - (Class);
 - (void);
 - (_Bool);
-- (void)V9hV;
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -43,7 +43,7 @@
 - (_Bool);
 - (void);
 - (double);
-- (void)T;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -51,23 +51,23 @@
 - (id);
 - (double);
 - (double);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (long long);
+- (void);
+- (long long);
+- (void);
 - (id);
 - (void);
-- (id),;
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allRecipients;

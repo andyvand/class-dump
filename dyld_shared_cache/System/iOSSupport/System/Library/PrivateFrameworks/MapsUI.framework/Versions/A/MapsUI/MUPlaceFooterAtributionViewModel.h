@@ -26,9 +26,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)_layoutSizeWithFractionalWidth:height: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *formatString; // @synthesize formatString=_formatString;

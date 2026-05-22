@@ -16,17 +16,16 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *backgroundVerticalAdjustmentsForBarMetrics;
 }
 
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (double)!qð!\Fù1ÄÐ1¢!0@ù
-× ;
-- (void)itingForInputUI:(id)arg1;
-- (void)dgesForSafeArea:(id)arg1;
-- (void)s not currently exist. layout=%@; collectionView=%@;
-- (id);
+- (void);
+- (void);
+- (id)DataStringEntry";
+- (void)orAdaptiveNonLinearCarplayKeyboard;
+- (double)ip_setTabBarHidden:(long long)arg1;
+- (void)9Äÿ®Óh£^;
 
 // Remaining properties
 @property(retain, nonatomic) NSValue *miniTitlePositionOffset; // @synthesize miniTitlePositionOffset;

@@ -5,5 +5,6 @@
 //
 
 @protocol NSFastEnumeration
+- (unsigned long long)@/%@/%@' :(CDStruct_70511ce9 *)arg1 value:(id *)arg2 %@;
 @end
 

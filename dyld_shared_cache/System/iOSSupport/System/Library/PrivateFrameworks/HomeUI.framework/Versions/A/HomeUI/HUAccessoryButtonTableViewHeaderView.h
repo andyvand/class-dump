@@ -28,8 +28,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
+- (void)nc_Detail_Multiple;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;

@@ -13,19 +13,19 @@
     NSString *_controllerID;
 }
 
-+ (_Bool)uestKey;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (id);
+- (void)X57ð7(8Ð8d9;
 
 // Remaining properties
 @property(readonly, copy) NSSet *attributePaths; // @synthesize attributePaths=_attributePaths;

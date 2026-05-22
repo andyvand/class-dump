@@ -139,42 +139,46 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (long long);
 - (id);
 - (long long);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (struct UIEdgeInsets);
-- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
-- (struct CGSize);
-- (void)addDefaultTranslationSpringWithVelocity:startTime: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);n;
+- (void);
+- (id);
+- (long long);
+- (void);
+- (_Bool);
+- (id);
+- (void)1â
+0@ù
+× ;
+- (id)A©! Gù±øð1â
+0@ù
+× ;
+- (struct UIEdgeInsets)eLogoURL:requestType:iconHandler: /* Error: Ran out of types for this method. */;
+- (id)@÷	yù@÷	yû<÷	_}?÷	yAByÔ5÷	y&=÷	yAEyý>÷	ø;÷	yj<÷	SgGG_Qo_;÷	y¯>÷	GG_ACtGGtGG;
+- (struct CGSize);
+- (_Bool)Ðûÿ/á );
 
 // Remaining properties
 @property(nonatomic) long long backgroundMode; // @synthesize backgroundMode=_backgroundMode;

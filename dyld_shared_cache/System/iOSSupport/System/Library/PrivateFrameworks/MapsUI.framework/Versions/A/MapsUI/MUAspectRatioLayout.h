@@ -16,10 +16,10 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void)numberOfLinesWhenCollapsed;
 - (double);
-- (void)öÿûÖ	;
 
 // Remaining properties
 @property(nonatomic) double aspectRatio;

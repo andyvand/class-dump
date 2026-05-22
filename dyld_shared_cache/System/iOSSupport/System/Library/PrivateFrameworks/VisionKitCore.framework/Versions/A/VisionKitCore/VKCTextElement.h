@@ -25,12 +25,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (long long);
 - (void);
 - (id);
-- (id)ndler: /* Error: Ran out of types for this method. */;
-- (void)andler;
+- (id);
+- (long long);
 - (void);
+- (void)nalyticsDictionary;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *_children; // @synthesize _children=__children;

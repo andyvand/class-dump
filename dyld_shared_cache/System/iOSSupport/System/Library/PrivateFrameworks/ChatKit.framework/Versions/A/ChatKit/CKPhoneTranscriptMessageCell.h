@@ -16,24 +16,24 @@
     UIImageView *_printableAvatarView;
 }
 
-- (void)nt: /* Error: Ran out of types for this method. */;
-- (void)hString;
-- (void)tTimeValid;
-- (void)xtAttributesCacheKey;
-- (id)rolActiveState;
-- (id);
 - (void);
-- (id)y** mentioned **%lld people**;
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)rator;
-- (void)-;
-- (id)
-.;
+- (id);
+- (id);
+- (void)!hDù±°1Â0@ù
+× ;
+- (void)¬Ìä;
 
 // Remaining properties
 @property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;

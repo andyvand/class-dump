@@ -66,24 +66,24 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (id);
+- (_Bool);
 - (void);
+- (id)ÑPÒÔÒØÔ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *arrayValues; // @synthesize arrayValues=_arrayValues;

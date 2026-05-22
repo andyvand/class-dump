@@ -4,8 +4,10 @@
 
 class lsl::Vector<std::byte> {
 public: // (access info unavailable from symbols alone)
-    insert(std::byte const*, unsigned long long, std::byte const&);
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
-    resize(unsigned long long);
+    auto insert(std::byte const*, unsigned long long, std::byte const&);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
+    auto resize(unsigned long long);
+    std::byte* insert<std::__1::__wrap_iter<std::byte*>>(std::byte const*, std::__1::__wrap_iter<std::byte*>, std::__1::__wrap_iter<std::byte*>);
+    std::byte* insert<std::byte*>(std::byte const*, std::byte*, std::byte*);
 };

@@ -14,9 +14,9 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFCloudKitItem> item; // @synthesize item=_item;

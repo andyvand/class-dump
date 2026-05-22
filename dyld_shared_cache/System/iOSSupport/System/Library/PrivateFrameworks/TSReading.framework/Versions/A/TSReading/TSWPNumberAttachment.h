@@ -20,9 +20,9 @@
 - (id);
 - (void);
 - (int);
-- (id);
 - (void);
-- (void)servingPlayerStatus;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) int numberFormat; // @synthesize numberFormat=_numberFormat;

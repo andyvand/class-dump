@@ -16,10 +16,10 @@
 
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)nterfaceStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *accessibilityDescription;

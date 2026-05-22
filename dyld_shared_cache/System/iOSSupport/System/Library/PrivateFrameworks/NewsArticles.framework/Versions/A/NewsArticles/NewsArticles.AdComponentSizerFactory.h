@@ -16,10 +16,10 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (int);
 - (void);
-- (id);
-- (id);
-- (int)¡n°¤;
 
 // Remaining properties
 @property(nonatomic, readonly) int role; // @synthesize role;

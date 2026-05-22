@@ -7,10 +7,7 @@
 @class CKServerChangeToken, NSDate;
 
 @protocol SCKDatabaseStore
-- (void);
-- (NSDate *)!8Bù1¢!0@ù
-× ;
-- (NSDate *)e;
+- (CKServerChangeToken *)nt;
 
 // Remaining properties
 @property(nonatomic, getter=isCloudBackupEnabled) _Bool cloudBackupEnabled;

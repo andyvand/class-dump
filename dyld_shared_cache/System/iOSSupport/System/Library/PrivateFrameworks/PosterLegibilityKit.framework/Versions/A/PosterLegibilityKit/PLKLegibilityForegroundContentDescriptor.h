@@ -16,11 +16,11 @@
 + (id);
 + (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *primaryColor; // @dynamic primaryColor;

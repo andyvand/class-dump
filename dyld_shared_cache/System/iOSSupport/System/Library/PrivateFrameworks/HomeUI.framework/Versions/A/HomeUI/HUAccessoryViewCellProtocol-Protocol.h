@@ -7,6 +7,8 @@
 @class UIView;
 
 @protocol HUAccessoryViewCellProtocol
+- (UIView *)hAlertNotificationForCell:didTurnOn:] /* Error: Ran out of types for this method. */;
+- (void)bleItemModuleControllerDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView;

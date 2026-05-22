@@ -12,7 +12,7 @@
     UIViewController *_viewController;
 }
 
-- (void);
+- (void)nvasShowable>"24;
 
 @end
 

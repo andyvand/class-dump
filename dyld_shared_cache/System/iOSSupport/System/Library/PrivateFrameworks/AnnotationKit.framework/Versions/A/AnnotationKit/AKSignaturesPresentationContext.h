@@ -13,10 +13,10 @@
 }
 
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;

@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)timer;
-- (id)sallows refreshing UI while syncing using timer;
 - (id);
-- (void)Gº;
+- (id);
+- (id);
+- (void)q;
 
 @end
 

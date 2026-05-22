@@ -6,14 +6,14 @@ class CADeprecated::CAPThread {
 public: // (access info unavailable from symbols alone)
     CAPThread(void* (*)(void*), void*, unsigned int, bool, bool, char const*);
     CAPThread(void* (*)(void*), void*, unsigned int, unsigned int, unsigned int, bool, bool, char const*);
-    Entry(void*);
-    GetScheduledPriority();
-    GetScheduledPriority(_opaque_pthread_t*);
-    SetName(char const*);
-    SetPriority(_opaque_pthread_t*, unsigned int, bool);
-    SetPriority(unsigned int, bool);
-    SetTimeConstraints(unsigned int, unsigned int, unsigned int, bool);
-    Start();
-    getScheduledPriority(_opaque_pthread_t*, int);
+    auto Entry(void*);
+    auto GetScheduledPriority();
+    auto GetScheduledPriority(_opaque_pthread_t*);
+    auto SetName(char const*);
+    auto SetPriority(_opaque_pthread_t*, unsigned int, bool);
+    auto SetPriority(unsigned int, bool);
+    auto SetTimeConstraints(unsigned int, unsigned int, unsigned int, bool);
+    auto Start();
+    auto getScheduledPriority(_opaque_pthread_t*, int);
     ~CAPThread();
 };

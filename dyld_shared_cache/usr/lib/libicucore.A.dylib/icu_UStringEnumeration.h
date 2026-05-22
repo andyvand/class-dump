@@ -5,12 +5,12 @@
 class icu::UStringEnumeration {
 public: // (access info unavailable from symbols alone)
     UStringEnumeration(UEnumeration*);
-    count(UErrorCode&) const;
-    fromUEnumeration(UEnumeration*, UErrorCode&);
-    getDynamicClassID() const;
-    getStaticClassID();
-    next(int*, UErrorCode&);
-    reset(UErrorCode&);
-    snext(UErrorCode&);
+    auto count(UErrorCode&) const;
+    auto fromUEnumeration(UEnumeration*, UErrorCode&);
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto next(int*, UErrorCode&);
+    auto reset(UErrorCode&);
+    auto snext(UErrorCode&);
     ~UStringEnumeration();
 };

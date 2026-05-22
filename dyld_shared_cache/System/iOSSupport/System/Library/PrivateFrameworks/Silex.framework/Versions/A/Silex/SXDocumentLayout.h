@@ -16,10 +16,10 @@
 
 - (id);
 - (long long);
+- (long long);
 - (id);
-- (long long);
-- (long long);
-- (unsigned long long);
+- (unsigned long long)_mapView;
+- (long long)olver>"8;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long columns; // @synthesize columns=_columns;

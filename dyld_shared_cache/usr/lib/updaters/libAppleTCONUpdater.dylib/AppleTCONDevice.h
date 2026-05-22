@@ -4,8 +4,8 @@
 
 class AppleTCONDevice {
 public: // (access info unavailable from symbols alone)
-    eventCmdPerformNextStage(__CFDictionary const*, __CFDictionary const*, unsigned char&);
-    eventCmdQueryInfo(__CFDictionary const*, __CFDictionary*);
-    getIORegPropertyValue(__CFString const*, unsigned char*, unsigned int);
+    auto eventCmdPerformNextStage(__CFDictionary const*, __CFDictionary const*, unsigned char&);
+    auto eventCmdQueryInfo(__CFDictionary const*, __CFDictionary*);
+    auto getIORegPropertyValue(__CFString const*, unsigned char*, unsigned int);
     ~AppleTCONDevice();
 };

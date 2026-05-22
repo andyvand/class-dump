@@ -25,17 +25,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)ressivelySortItems: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1 home: /* Error: Ran out of types for this method. */;
+- (void));
 
 // Remaining properties
 @property(nonatomic) __weak id <HUAccessoryTileCellDelegate> delegate; // @synthesize delegate;

@@ -5,18 +5,11 @@
 //
 
 @class TSKDocumentRoot;
-@protocol TSDGestureTarget;
 
 @protocol TSDInteractiveCanvasControllerDelegate
 
 @optional
-- (struct CGRect);
-- (unsigned long long)(=;
-- (void)h;
-- (void);
-- (void);
-- (id <TSDGestureTarget>);
-- (_Bool);
+- (void)anceComponentInsertionCondition;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowEditMenuToAppear;

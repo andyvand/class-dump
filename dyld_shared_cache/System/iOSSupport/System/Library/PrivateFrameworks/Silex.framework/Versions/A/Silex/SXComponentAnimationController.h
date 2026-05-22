@@ -17,10 +17,10 @@
 
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,8 +39,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)SDOwningAttachment>"16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *animatingComponents; // @synthesize animatingComponents=_animatingComponents;

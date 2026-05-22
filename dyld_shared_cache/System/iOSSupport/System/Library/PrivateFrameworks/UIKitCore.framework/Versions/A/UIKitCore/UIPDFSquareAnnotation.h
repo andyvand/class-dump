@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ngChat;
+- (void);
 - (int);
 
 @end

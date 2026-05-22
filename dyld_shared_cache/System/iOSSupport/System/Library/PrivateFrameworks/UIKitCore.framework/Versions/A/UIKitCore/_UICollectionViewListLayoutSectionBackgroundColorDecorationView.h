@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ceDataChunk.;
-- (id)P;
+- (id)ineView;
+- (void)X°;
 
 @end
 

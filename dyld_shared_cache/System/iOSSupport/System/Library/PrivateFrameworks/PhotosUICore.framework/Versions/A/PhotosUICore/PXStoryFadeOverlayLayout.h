@@ -22,9 +22,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id):8@16B24@?28@?36 /* Error: Ran out of types for this method. */;
+- (id)Styles;
+- (void)anorama;
 - (void);
 
 // Remaining properties

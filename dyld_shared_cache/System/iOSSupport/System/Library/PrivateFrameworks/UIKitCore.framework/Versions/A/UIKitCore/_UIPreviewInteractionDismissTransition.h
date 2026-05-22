@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     UIViewPropertyAnimator *_dismissAnimator;
 }
 
-- (id)entricGroupedChatsArrayWithMaximumNumberOfChats:skipsLastMessageLoading:usingChats:useCachedChatGroups:includingPinnedChatIdentifiers:repairInconsistentMergedChats: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)uenceViewArrangement;
-- (void)ationWasCancelled;
-- (void)±²ÿE.;
-- (double)c^;
+- (id);
+- (double);
+- (id);
+- (void)ags:(_Bool)arg1;
+- (void)ntentSizeNotificationToken:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

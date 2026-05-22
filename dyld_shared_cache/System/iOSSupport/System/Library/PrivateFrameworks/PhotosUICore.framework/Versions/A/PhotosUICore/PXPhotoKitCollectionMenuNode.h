@@ -18,11 +18,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)tdµ;
 - (id);
-- (id)XImportController removeDataSourceManager:]_block_invoke /* Error: Ran out of types for this method. */;
-- (id)dd}{CGSize=dd}}8q40;
+- (id)l³3;
 - (id);
 
 // Remaining properties

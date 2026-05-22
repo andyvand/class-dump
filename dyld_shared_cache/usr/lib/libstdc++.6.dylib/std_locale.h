@@ -4,20 +4,20 @@
 
 class std::locale {
 public: // (access info unavailable from symbols alone)
-    _M_coalesce(std::locale const&, std::locale const&, int);
-    _S_initialize();
-    _S_initialize_once();
-    _S_normalize_category(int);
-    classic();
-    global(std::locale const&);
+    auto _M_coalesce(std::locale const&, std::locale const&, int);
+    auto _S_initialize();
+    auto _S_initialize_once();
+    auto _S_normalize_category(int);
+    auto classic();
+    auto global(std::locale const&);
+    auto name() const;
+    auto operator=(std::locale const&);
+    auto operator==(std::locale const&) const;
     locale();
     locale(char const*);
     locale(std::locale const&);
     locale(std::locale const&, char const*, int);
     locale(std::locale const&, std::locale const&, int);
     locale(std::locale::_Impl*);
-    name() const;
-    operator=(std::locale const&);
-    operator==(std::locale const&) const;
     ~locale();
 };

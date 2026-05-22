@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSURLSession *_session;
 }
 
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

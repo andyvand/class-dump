@@ -9,6 +9,6 @@
 @protocol UIKBKeyplaneViewDelegate
 
 @optional
-- (UIView *)i;
+- (UIView *)ng = %@;
 @end
 

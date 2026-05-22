@@ -27,16 +27,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (void);
-- (void);
-- (void)6;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id):(long long)arg1 N, because there is no active locale.;
 - (id);
-- (void);
-- (id)@T;
+- (id);
+- (id);
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) float operationBackoffRatio; // @synthesize operationBackoffRatio=_operationBackoffRatio;

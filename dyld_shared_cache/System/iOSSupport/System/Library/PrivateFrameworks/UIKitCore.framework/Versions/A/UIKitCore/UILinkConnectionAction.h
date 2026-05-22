@@ -10,12 +10,11 @@
 {
 }
 
-- (id)gH_;
 - (id);
-- (id)0@ù
-× ;
-- (long long)erGroupC_GSg;
-- (id)+éÌb;
+- (id);
+- (id);
+- (id)_UISceneDestructionConditionCG;
+- (long long) h;
 
 // Remaining properties
 @property(readonly, nonatomic) LNConnectionAction *action;

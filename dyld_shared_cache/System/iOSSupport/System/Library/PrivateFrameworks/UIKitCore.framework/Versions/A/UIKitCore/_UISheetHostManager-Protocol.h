@@ -5,10 +5,5 @@
 //
 
 @protocol _UISheetHostManager
-
-@optional
-- (_Bool)cal FDR Data found and verified, but Update dataClass requested.;
-- (_Bool);
-- (_Bool)nEvent: /* Error: Ran out of types for this method. */;
 @end
 

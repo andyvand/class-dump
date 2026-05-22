@@ -33,12 +33,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)!<Eù0ð1b0@ù
-× ;
-- (id)Commit;
-- (void)ishedFetchingCameraEvents:(id)arg1;
-- (void);
+- (void);
+- (void)tHasOffState:(_Bool)arg1;
+- (void)oneButton;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *appleTVs; // @synthesize appleTVs=_appleTVs;

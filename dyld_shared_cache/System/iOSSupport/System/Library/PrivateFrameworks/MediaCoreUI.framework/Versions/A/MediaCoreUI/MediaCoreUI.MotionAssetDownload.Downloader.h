@@ -12,9 +12,9 @@
     MISSING_TYPE *downloadContainers;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)ø;
 
 @end
 

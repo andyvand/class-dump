@@ -5,9 +5,5 @@
 //
 
 @protocol SXComponentInteractionManager
-- (_Bool);
-
-@optional
-- (_Bool)+;
 @end
 

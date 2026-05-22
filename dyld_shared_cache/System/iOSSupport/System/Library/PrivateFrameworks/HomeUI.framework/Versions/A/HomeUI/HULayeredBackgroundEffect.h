@@ -14,11 +14,11 @@
 
 + (id);
 + (id);
-- (void);
-- (id);
-- (void)eachable,V_reachable;
-- (void)lectionQueueModifierShuffle;
-- (id)ÿyÚæ2;
+- (id)UpdateActivityZoneCanvas: /* Error: Ran out of types for this method. */;
+- (void)ZoneItem;
+- (id)ceState"8;
+- (void)ificationMotionNotificationsTitle;
+- (void)SelectionTableDelegateP;
 
 // Remaining properties
 @property(retain, nonatomic) UIBlurEffect *blurEffect; // @synthesize blurEffect=_blurEffect;

@@ -13,22 +13,22 @@
     unsigned long long _locationTechnologyAvailability;
 }
 
-+ (id)!R;
-+ (_Bool);
-+ (id);
 + (id);
-+ (_Bool)satisfying:platform (in %s:%d) /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (id);
++ (id);
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (void)s9OptionSetP;
-- (id)_TtCO7Sharing20SFAirDropInvocations26StopNearbySharingDiscovery;
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (void)recoverable error %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

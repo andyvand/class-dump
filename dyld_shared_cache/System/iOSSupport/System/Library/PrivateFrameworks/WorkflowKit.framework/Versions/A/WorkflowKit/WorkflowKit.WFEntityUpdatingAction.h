@@ -18,7 +18,7 @@
     MISSING_TYPE *$__lazy_storage_$_batchExecutor;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (long long);
@@ -28,7 +28,6 @@
 - (void);
 - (void);
 - (long long);
-- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -42,6 +41,7 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -49,7 +49,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)[WFShortcutPackageFile performShortcutDataExtractionWithCompletion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *availableSubjectValues;

@@ -7,9 +7,10 @@
 @class UIView;
 
 @protocol WFInputViewMutable
-- (UIView *)r_;
-- (UIView *);
-- (void)ð;
+- (void)1â
+0@ù
+× ;
+- (UIView *)DidChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *inputAccessoryView;

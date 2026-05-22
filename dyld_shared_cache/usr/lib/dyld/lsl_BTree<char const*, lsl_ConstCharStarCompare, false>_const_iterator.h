@@ -4,17 +4,16 @@
 
 class lsl::BTree<char const*, lsl::ConstCharStarCompare, false>::const_iterator {
 public: // (access info unavailable from symbols alone)
+    auto operator++();
+    auto operator++() (.cold.1);
+    auto operator++() (.cold.2);
+    auto operator--();
+    auto operator--() (.cold.1);
+    auto operator--() (.cold.2);
+    auto prepareForInsertion();
+    auto prepareForInsertion() (.cold.1);
+    auto prepareForInsertion() (.cold.2);
+    auto prepareForInsertion() (.cold.3);
     const_iterator(lsl::BTree<char const*, lsl::ConstCharStarCompare, false> const*, char const* const&, lsl::ConstCharStarCompare);
     const_iterator(lsl::BTree<char const*, lsl::ConstCharStarCompare, false> const*, char const* const&, lsl::ConstCharStarCompare) (.cold.1);
-    operator++();
-    operator++() (.cold.1);
-    operator++() (.cold.2);
-    operator--();
-    operator--() (.cold.1);
-    operator--() (.cold.2);
-    operator<=>(lsl::BTree<char const*, lsl::ConstCharStarCompare, false>::const_iterator const&) const;
-    prepareForInsertion();
-    prepareForInsertion() (.cold.1);
-    prepareForInsertion() (.cold.2);
-    prepareForInsertion() (.cold.3);
 };

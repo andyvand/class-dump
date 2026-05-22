@@ -48,27 +48,29 @@
 - (long long);
 - (long long);
 - (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (id);
-- (id)1b0@ù
+- (id)üÐ!¬DùJÐ1â
+0@ù
 × ;
-- (void)ns:(id)arg1;
-- (id)rray",&,V_nonVIPPersons;
-- (_Bool);
-- (void)ÿR;
-- (long long)unsupportedPlatform;
-- (void)tRenamePersonActionPerformer performUserInteractionTask];
-- (id)oolbarController.m;
+- (void)arsController"16B24;
+- (void)ategory:(id)arg1 songResource:cueSource:autoEditDecisionList:styleOptions:isCustomized: /* Error: Ran out of types for this method. */;
+- (void)n»úÿQ;
+- (_Bool);
+- (id)ifierDocuments;
+- (id)ssion play];
+- (void)ýz
+;
+- (long long);
+- (void);
+- (long long)M;
 
 // Remaining properties
 @property(nonatomic) long long curationKind; // @synthesize curationKind=_curationKind;

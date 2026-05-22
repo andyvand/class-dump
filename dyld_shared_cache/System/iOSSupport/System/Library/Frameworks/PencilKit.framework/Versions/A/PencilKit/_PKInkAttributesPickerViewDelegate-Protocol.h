@@ -5,9 +5,5 @@
 //
 
 @protocol _PKInkAttributesPickerViewDelegate
-
-@optional
-- (void);
-- (void)$;
 @end
 

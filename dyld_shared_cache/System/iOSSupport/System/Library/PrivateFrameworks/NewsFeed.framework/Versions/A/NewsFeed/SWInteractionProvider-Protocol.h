@@ -7,7 +7,6 @@
 @protocol SWInteraction;
 
 @protocol SWInteractionProvider
-- (id <SWInteraction>)Âþ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWInteraction> interaction;

@@ -21,23 +21,22 @@
     id <UICoordinateSpace> __shapeCoordinateSpace;
 }
 
-+ (id)e.IMPurgedAttachmentHandler;
 + (id);
 + (id);
 + (id);
-- (id)ey;
-- (id)ISS;
++ (id);
 - (id);
-- (id);
-- (_Bool);
 - (id);
-- (void)!`GùqÂ°1¢!0@ù
-× ;
-- (long long)ctiveTitle;
-- (void);
-- (void)IRequestedToolSmartReply;
 - (id);
-- (void)n;
+- (long long)idEnd: /* Error: Ran out of types for this method. */;
+- (_Bool)yUnderLeftIndexFinger;
+- (id)HI;
+- (id)@_;
+- (void)(Äæþ;
+- (void);
+- (void)ù*i;
+- (void)lÿ8ª;
+- (id)ik;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIShape *_shape; // @synthesize _shape=__shape;

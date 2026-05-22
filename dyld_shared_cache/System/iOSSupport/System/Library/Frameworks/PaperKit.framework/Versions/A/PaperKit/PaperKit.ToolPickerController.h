@@ -21,9 +21,9 @@
 - (void);
 - (void);
 - (long long);
-- (void);
 - (id);
-- (long long);
+- (void)þÿ¸Iÿÿ;
+- (long long);
 
 @end
 

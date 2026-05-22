@@ -12,14 +12,14 @@
     long long _version;
 }
 
-+ (_Bool)Face Classifications Enabled;
++ (_Bool);
 - (id);
 - (long long);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;

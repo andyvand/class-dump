@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)ouldBeExplorerElementWithoutSystemFocus;
+- (id);
 
 @end
 

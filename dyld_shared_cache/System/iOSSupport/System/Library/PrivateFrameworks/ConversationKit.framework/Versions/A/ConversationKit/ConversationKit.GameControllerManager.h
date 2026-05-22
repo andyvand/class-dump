@@ -26,9 +26,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)× yA+ * Gv GSg;
 
 // Remaining properties
 @property(nonatomic, readonly) GCSystemButtonServiceRevlock *systemButtonService; // @synthesize systemButtonService;

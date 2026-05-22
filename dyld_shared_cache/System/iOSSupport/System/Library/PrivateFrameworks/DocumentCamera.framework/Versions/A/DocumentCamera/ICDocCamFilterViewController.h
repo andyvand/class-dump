@@ -57,28 +57,29 @@
 - (id);
 - (void);
 - (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
 - (double);
-- (_Bool);
-- (struct CGSize);
 - (void);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)tractedDocumentControllerDelegate;
-- (void)ì;
-- (void)7©Ô;
+- (void)0@ù
+× ;
+- (void)ractionControllerForPresentation:(id)arg1;
+- (struct CGSize)pported color model;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

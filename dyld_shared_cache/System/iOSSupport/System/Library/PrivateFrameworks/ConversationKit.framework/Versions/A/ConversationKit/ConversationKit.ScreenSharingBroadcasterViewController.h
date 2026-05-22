@@ -14,11 +14,11 @@
     MISSING_TYPE *model;
 }
 
-- (void);
+- (id)XÁ´XÁ êXÁiXÁ°XÁì,XÁÔXÁ XÁ@'XÁ ZXÁàXÁ¤BXÁ:(id)arg1 XI;
 - (id);
-- (id);
-- (void);
 - (_Bool);
+- (void);
+- (void)ctPresentableP;
 
 @end
 

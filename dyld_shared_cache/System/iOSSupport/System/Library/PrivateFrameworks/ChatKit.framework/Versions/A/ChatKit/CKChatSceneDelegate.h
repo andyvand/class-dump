@@ -30,33 +30,27 @@
 - (void);
 - (void);
 - (void);
-- (void)e;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)t IDs:%@ /* Error: Ran out of types for this method. */;
-- (id)e (%@);
-- (void)CAttachmentWebModelIcon initWithFallbackURL:(id)arg1 withSize:(_Bool)arg2 ];
-- (_Bool)U/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/Views/ICLoadingPieLayer.m;
-- (void)o;
-- (struct UIEdgeInsets)e who can read and edit it.;
-- (struct UIEdgeInsets)red folders?;
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (id)nListView;
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
+- (_Bool);
 - (void);
-- (void));
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -64,8 +58,13 @@
 - (void);
 - (void);
 - (void);
-- (void)ڣ
-;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -77,25 +76,27 @@
 - (void);
 - (void);
 - (void);
-- (void)p;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void)h;
+- (long long);
 - (id);
-- (long long)¬yWîÿ_pSgG;
 - (void);
-- (void)erDragStarted;
-- (void) ;
 - (id);
-- (void)é80;
+- (id)!dBùqÐ1Â0@ù
+× ;
+- (void)@ù
+× ;
+- (void);
+- (void)ew.frame:(id)arg1 %@;
+- (void);
+- (void);
+- (id)­kìÂCÿ;
+- (void)Ý4¼U/;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *alertSuppressionContexts;

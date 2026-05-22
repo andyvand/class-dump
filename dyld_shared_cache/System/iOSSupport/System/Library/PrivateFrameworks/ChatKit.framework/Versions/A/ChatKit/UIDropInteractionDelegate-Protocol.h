@@ -4,21 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragItem, UIDropInteraction, UIDropProposal, UITargetedDragPreview;
-@protocol UIDragAnimating, UIDropSession;
+@class UIDropInteraction, UIDropProposal, UITargetedDragPreview;
 
 @protocol UIDropInteractionDelegate
 
 @optional
-- (void)ller:(UIDropInteraction *)arg1 Failed to activate audio session:(id <UIDropSession>)arg2 %@;
-- (void)changed, resetting SIM Filter state cache and SIM Filter Preference. Setting filter mode to no junk;
-- (void)DotsOffset;
-- (void)ViewActionButtonPlaybackStoppedNotification;
-- (void)ranscriptBackgroundChannelController _updateChannelUsingUpdater:(UIDropInteraction *)arg1 channel:(UIDragItem *)arg2 posterConfiguration:(id <UIDragAnimating>)arg3 chatGUID:deviceIndependentID:backgroundGUID:] /* Error: Ran out of types for this method. */;
-- (UITargetedDragPreview *)PTED;
-- (UIDropProposal *);
-- (_Bool)ì
-;
-- (void)N;
+- (_Bool)ntroller;
+- (void)urrentPrintableRect;
+- (void)edSticker;
+- (void)ÿ;
+- (UIDropProposal *)ÿÿÿôÙÿþÿÿÈþÿÿ;
+- (UITargetedDragPreview *)AEyAAyAAyAAy¤ò[G[G[GGGy[y[GGAEyAAyAAy%[yAT²[¨¸[GAMGG[y[GGSgGGv[G;
+- (void)t:(UIDropInteraction *)arg1 Attempting to generate preview in MobileSMS. transcoderPreviewGenerationFailed = YES;
+- (void)lete--------------------|
+|>>> Test Cases %tu
+|>>> Failed Tests %lu
+|>>> Suite Passed %@
+|-----------------------------------------------------|;
+- (void)ntent;
 @end
 

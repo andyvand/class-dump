@@ -26,12 +26,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)etHasFeedbackType:(Class)arg1;
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)KEY;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *dialogDictionary; // @synthesize dialogDictionary=_dialogDictionary;

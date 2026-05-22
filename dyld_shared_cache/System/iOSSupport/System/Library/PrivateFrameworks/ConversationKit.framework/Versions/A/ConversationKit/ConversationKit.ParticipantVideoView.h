@@ -19,11 +19,11 @@
     MISSING_TYPE *isViewFrozen;
 }
 
-- (void);
+- (id)lÊ(;
 - (id);
 - (void);
 - (id);
-- (id);
+- (void)SgGGA6_yÍ# GGG;
 
 @end
 

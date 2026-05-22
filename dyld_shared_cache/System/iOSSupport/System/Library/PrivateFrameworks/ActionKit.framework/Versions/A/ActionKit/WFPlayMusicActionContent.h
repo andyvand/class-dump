@@ -22,8 +22,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (id)thCache",&,N,V_authCache;
+- (void)was provided.;
 
 // Remaining properties
 @property(retain, nonatomic) MPMediaItemCollection *mediaCollection; // @synthesize mediaCollection=_mediaCollection;

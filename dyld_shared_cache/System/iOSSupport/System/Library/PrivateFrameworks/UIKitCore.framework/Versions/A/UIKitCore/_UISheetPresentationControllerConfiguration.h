@@ -38,77 +38,78 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)nmarkIfNecessary;
-+ (_Bool)Ð m;
-- (double);
-- (long long);
-- (_Bool);
-- (void);
-- (void);
++ (_Bool)tment=%@;
++ (_Bool);
 - (struct CGRect);
-- (void);
-- (void);
-- (void);
+- (struct CGRect);
 - (_Bool);
-- (_Bool);
-- (void);
 - (void);
-- (id)tableCopy;
-- (void)ed size;
-- (void);
-- (void);
-- (void)B;
-- (void)_MPModelPropertyMovieKeepLocalEnableState__MAPPING_MISSING__;
 - (id);
-- (void)B;
 - (_Bool);
 - (void);
 - (_Bool);
-- (double);
-- (void)+Ü¹;
-- (void)!$DùñÃð1¢!0@ù
-× ;
-- (void)ù
-× ;
-- (id)Ð!´Bù1Ê1¢!0@ù
-× ;
-- (void)áwð!°Fù1ÍÐ1¢!0@ù
-× ;
-- (long long)@64@0:8{CGPoint=dd}16d32@40@48@56 /* Error: Ran out of types for this method. */;
-- (struct CGRect)ontroller:sender: /* Error: Ran out of types for this method. */;
-- (void)erCbrtSpeed:(double)arg1;
-- (double)gibleForSearch: /* Error: Ran out of types for this method. */;
-- (void)ionInteraction;
-- (id)t;
-- (double)restoreLabelTextAfterSystemTextSizeChangeIfNeeded;
-- (id)Controller:willChangeToSearchBarPlacement: /* Error: Ran out of types for this method. */;
-- (void)ons;
-- (void)NavigationBarVisualProviderCarPlaySolarium;
-- (id)tentRegistry;
-- (_Bool)ÈL¬üh||´T 
-L!!h";
-- (void)¸;
-- (_Bool)X;
-- (id)X=þ{þÿ;
-- (void)_marginInRegularWidthRegularHeight;
-- (double);
-- (_Bool)%@;
-- (_Bool)eneDeactivationManager.m;
-- (void)cParameterID getCHHapticDynamicParameterIDAudioAttackTimeControl(void);
-- (void)s in the collection view;
-- (double)ontentAttribute=playback;
-- (id)odeHardLight;
+- (void);
+- (void);
 - (_Bool);
+- (void);
 - (id);
-- (double)Ó?¤??q=
-×£pÝ?×£p=
-×ã?Á?;
-- (_Bool)­þ;
 - (_Bool);
 - (void);
+- (_Bool);
+- (long long);
+- (id);
 - (void);
-- (_Bool)}ã4jþ;
 - (void);
+- (double);
+- (double);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (double)
+× ;
+- (void)1\Ð1Â0@ù
+× ;
+- (void)°!pAù]°1Â0@ù
+× ;
+- (_Bool)ù`ð1Â0@ù
+× ;
+- (id)!$Aù`°1Â0@ù
+× ;
+- (void)
+× ;
+- (void)!DGù±cÐ1Â0@ù
+× ;
+- (double)× ;
+- (void)2B40@?44;
+- (_Bool)oardImplHeldOperation";
+- (void)ngedSettings:(struct CGRect)arg1;
+- (void)exer;
+- (void)bilityForRepresentationWithTypeIdentifier:(long long)arg1;
+- (void)isplayedViewControllers:(long long)arg1;
+- (void)tClicks:(_Bool)arg1;
+- (void)operty;
+- (void)ButtonItem;
+- (double)tingOverlayView;
+- (double)ShouldRespectGestureServerInstructions;
+- (double)veCandidates;
+- (void)UIEdgeInsets=dddd},N,V_minimumContainerInsets;
+- (void)splayType:(double)arg1;
+- (id)eChange: /* Error: Ran out of types for this method. */;
+- (void)entInternalAdditions;
+- (void)ÿÿÿÿ´;
+- (id)<ä?@AlB	èB
+CDXEHFG;
+- (long long)in the category NavigationControllerVerboseLoggingForStrictRepeatedPushAssertion;
+- (void)erarchy for layout. This is a UIKit bug.;
+- (void)id pasteboardType.;
+- (void);
+- (id);
+- (_Bool)ÖþZ;
+- (void);
+- (id)°ÞÅÿ¤;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalMinimumTopInset:) double _additionalMinimumTopInset; // @synthesize _additionalMinimumTopInset=__additionalMinimumTopInset;

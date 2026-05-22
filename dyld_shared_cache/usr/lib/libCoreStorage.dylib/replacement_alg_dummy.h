@@ -4,17 +4,17 @@
 
 class replacement_alg_dummy {
 public: // (access info unavailable from symbols alone)
-    debug_print(bool);
-    io_demoted(phy_ext_addr const&, phy_ext_addr const&, unsigned long*);
-    io_demotion_canceled(phy_ext_addr const&, bool);
-    io_promoted(phy_ext_addr const&, phy_ext_addr const&, unsigned long const*);
-    io_promotion_canceled(phy_ext_addr const&, bool);
-    is_pinned(phy_ext_addr const&);
-    monitor_io(ioreq_ent const&, bool*);
-    pin_unit(phy_ext_addr const&);
-    register_extent(phy_ext_addr const&, unsigned long long);
-    reregister_extent(phy_ext_addr const&, phy_ext_addr const&, unsigned long long);
-    unpin_unit(phy_ext_addr const&);
-    unregister_extent(phy_ext_addr const&, unsigned long long);
+    auto debug_print(bool);
+    auto io_demoted(phy_ext_addr const&, phy_ext_addr const&, unsigned long*);
+    auto io_demotion_canceled(phy_ext_addr const&, bool);
+    auto io_promoted(phy_ext_addr const&, phy_ext_addr const&, unsigned long const*);
+    auto io_promotion_canceled(phy_ext_addr const&, bool);
+    auto is_pinned(phy_ext_addr const&);
+    auto monitor_io(ioreq_ent const&, bool*);
+    auto pin_unit(phy_ext_addr const&);
+    auto register_extent(phy_ext_addr const&, unsigned long long);
+    auto reregister_extent(phy_ext_addr const&, phy_ext_addr const&, unsigned long long);
+    auto unpin_unit(phy_ext_addr const&);
+    auto unregister_extent(phy_ext_addr const&, unsigned long long);
     ~replacement_alg_dummy();
 };

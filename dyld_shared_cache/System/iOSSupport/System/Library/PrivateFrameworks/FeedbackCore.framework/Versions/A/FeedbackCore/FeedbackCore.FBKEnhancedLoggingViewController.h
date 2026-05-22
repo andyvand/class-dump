@@ -14,11 +14,11 @@
     MISSING_TYPE *matcherPredicatesUsed;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

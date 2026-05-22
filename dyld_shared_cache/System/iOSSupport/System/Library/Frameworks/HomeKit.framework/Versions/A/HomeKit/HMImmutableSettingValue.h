@@ -10,7 +10,9 @@
 {
 }
 
-+ (id)ÈÁ;
++ (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -20,8 +22,6 @@
 - (id);
 - (id);
 - (id);
-- (id)_delegate;
-- (id)all users:[%@] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

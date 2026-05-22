@@ -14,16 +14,16 @@
     unsigned long long _numberOfPossibleOutcomes;
 }
 
-+ (_Bool)tor initialized for non-valid accessory;
++ (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)mber__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) long long highestValue; // @synthesize highestValue=_highestValue;

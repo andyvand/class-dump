@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
+@class NSArray, NSNumber, UIColor;
 
 @interface MPArtworkColorAnalysis
 {
@@ -16,36 +16,56 @@
     _Bool _secondaryTextColorLight;
     UIColor *_tertiaryTextColor;
     _Bool _tertiaryTextColorLight;
+    UIColor *_quaternaryTextColor;
+    UIColor *_gradientColor;
+    NSArray *_gradientTextColors;
+    NSNumber *_gradientColorStartPosition;
+    NSNumber *_gradientColorEndPosition;
 }
 
 + (id);
-+ (_Bool)stractNetworkArtworkDataSource:-URLSession:dataTask:didReceiveResponse:completionHandler:canceled data task [expectedEntrySize > memoryCapacity] dataTask=%{public}@ URL=%{public}@ expectedEntrySize=%lld memoryCapacity=%lu /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id)omputePipelineStateWithFunction:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)gned long long, id>, std:(id)arg1:hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, id>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::__hash_value_type<unsigned long long, id>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_mutex"{shared_mutex="__base_"{__shared_mutex_base="__mut_"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}} /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void)elPlaylist",&,D,N;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(readonly, nonatomic, getter=isBackgroundColorLight) _Bool backgroundColorLight; // @synthesize backgroundColorLight=_backgroundColorLight;
+@property(retain, nonatomic) UIColor *gradientColor; // @synthesize gradientColor=_gradientColor;
+@property(retain, nonatomic) NSNumber *gradientColorEndPosition; // @synthesize gradientColorEndPosition=_gradientColorEndPosition;
+@property(retain, nonatomic) NSNumber *gradientColorStartPosition; // @synthesize gradientColorStartPosition=_gradientColorStartPosition;
+@property(retain, nonatomic) NSArray *gradientTextColors; // @synthesize gradientTextColors=_gradientTextColors;
 @property(retain, nonatomic) UIColor *primaryTextColor; // @synthesize primaryTextColor=_primaryTextColor;
 @property(readonly, nonatomic, getter=isPrimaryTextColorLight) _Bool primaryTextColorLight; // @synthesize primaryTextColorLight=_primaryTextColorLight;
+@property(retain, nonatomic) UIColor *quaternaryTextColor; // @synthesize quaternaryTextColor=_quaternaryTextColor;
 @property(retain, nonatomic) UIColor *secondaryTextColor; // @synthesize secondaryTextColor=_secondaryTextColor;
 @property(readonly, nonatomic, getter=isSecondaryTextColorLight) _Bool secondaryTextColorLight; // @synthesize secondaryTextColorLight=_secondaryTextColorLight;
 @property(retain, nonatomic) UIColor *tertiaryTextColor; // @synthesize tertiaryTextColor=_tertiaryTextColor;

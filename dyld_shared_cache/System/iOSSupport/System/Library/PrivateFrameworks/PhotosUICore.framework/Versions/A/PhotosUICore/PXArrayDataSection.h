@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (long long)lpøÿh£ûÿ;
 - (long long);
+- (id);
+- (long long)(%{public}s) Image request succeeded with size=(%f, %f);
+- (void);
+- (unsigned long long) P@8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *sectionContent; // @synthesize sectionContent=_sectionContent;

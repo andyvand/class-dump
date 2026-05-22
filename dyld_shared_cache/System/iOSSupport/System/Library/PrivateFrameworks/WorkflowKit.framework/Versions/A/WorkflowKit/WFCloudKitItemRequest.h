@@ -37,17 +37,17 @@
 - (id);
 - (id);
 - (id);
-- (id)t;
 - (id);
-- (id)«HÌ;
-- (_Bool)0Ë²Ì;
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)acts (WFAskForType);
 - (id);
+- (id)* _Nonnull __strong, WFThreeWayMergingSearchDirection);
+- (void)ssword@host:port/path?query#fragment /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;

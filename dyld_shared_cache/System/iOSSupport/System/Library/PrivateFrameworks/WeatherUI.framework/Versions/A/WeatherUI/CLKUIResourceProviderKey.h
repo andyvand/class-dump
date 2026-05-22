@@ -11,9 +11,9 @@
     NSNumber *_key;
 }
 
-- (void);
 - (id);
 - (id);
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *key; // @synthesize key=_key;

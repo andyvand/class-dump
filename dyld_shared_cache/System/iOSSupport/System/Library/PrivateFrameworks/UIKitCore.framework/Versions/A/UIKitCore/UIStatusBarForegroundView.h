@@ -28,48 +28,49 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double)ingStorage;
-- (void)cController;
-- (void)er:(id)arg1 recentsController:(double)arg2 attachmentStore: /* Error: Ran out of types for this method. */;
-- (void)untController:(_Bool)arg1 storageController:recentsController:attachmentStore: /* Error: Ran out of types for this method. */;
-- (_Bool)on:(struct CGRect)arg1;
-- (_Bool)amFilterHelper:(struct CGRect)arg1;
-- (_Bool)patchToMain: /* Error: Ran out of types for this method. */;
-- (id):(struct CGRect)arg1;
-- (_Bool)tionaryUsingToken:zoneID:resultsLimit:desiredKeys: /* Error: Ran out of types for this method. */;
-- (struct CGRect)Array",C;
-- (struct CGRect)articipantsToAdd;
-- (_Bool)}};
+- (double);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (struct CGRect);
+- (struct CGRect);
+- (_Bool);
 - (id);
 - (id);
-- (void)oadcasting %s to:(id)arg1 %s;
-- (void)atches:(double)arg1 %@;
-- (void)rror %@ archivedRecordsHintIsPresent %@, currentBatchCount %@ maxNumberOfBatches:(double)arg1 %@;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)oller;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (double);
 - (id);
-- (void)@;
 - (void);
 - (void);
-- (void)s;
-- (id);
-- (_Bool);
 - (void);
-- (id);
+- (_Bool);
 - (void);
-- (void);
-- (void)× ;
-- (void)!XEùÑÌÐ1¢!0@ù
+- (id)
 × ;
-- (void)¨8;
-- (_Bool)ÿÿ;
-- (long long)ÿnh;
+- (void)Ñfð1Â0@ù
+× ;
+- (void)r:(_Bool)arg1;
+- (void)tDelegateConformsToWKInteraction;
+- (id)IToolTipInteraction",R,N;
+- (void)üfhÀh<iÔj l\l;
+- (_Bool)Ì#«;
+- (long long)ð¬;
+- (void)erredSecondaryColumnWidthFraction = %g;
+- (void)ÿ(ÿ²Ù0éb;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

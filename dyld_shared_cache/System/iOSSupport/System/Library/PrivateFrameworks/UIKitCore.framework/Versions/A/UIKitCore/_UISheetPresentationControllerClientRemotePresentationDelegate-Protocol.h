@@ -5,8 +5,5 @@
 //
 
 @protocol _UISheetPresentationControllerClientRemotePresentationDelegate
-- (void);
-- (void);
-- (void)yChatBotEnabled;
 @end
 

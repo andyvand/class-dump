@@ -18,12 +18,12 @@
 + (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
 - (double);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double maxWidth; // @synthesize maxWidth=_maxWidth;

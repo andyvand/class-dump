@@ -25,10 +25,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)DùñM1B0@ù
-× ;
-- (void)0@ù
-× ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak VKCImageAnalysis *analysis; // @synthesize analysis=_analysis;

@@ -10,18 +10,18 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)akThisStringRange:(id)arg1 string:wantsSentences: /* Error: Ran out of types for this method. */;
-- (void)ne;
-- (void)ne-Switch-Key;
+- (void);
+- (void);
+- (void)Q\;
 
 @end
 

@@ -7,7 +7,6 @@
 @protocol MDLMeshBufferAllocator;
 
 @protocol MDLMeshBufferZone
-- (id <MDLMeshBufferAllocator>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <MDLMeshBufferAllocator> allocator;

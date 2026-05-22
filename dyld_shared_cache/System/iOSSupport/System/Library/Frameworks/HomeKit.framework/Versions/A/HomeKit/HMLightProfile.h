@@ -15,7 +15,7 @@
     NSString *_logIdentifier;
 }
 
-+ (id)eraClipEncryptionManager;
++ (id)iveAssertionDidSendStateNotification;
 - (void);
 - (void);
 - (void);
@@ -24,11 +24,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)Àþ(ÿ¼ÿP;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

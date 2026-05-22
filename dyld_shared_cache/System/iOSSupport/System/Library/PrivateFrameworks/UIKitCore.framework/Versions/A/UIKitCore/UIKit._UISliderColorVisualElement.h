@@ -17,10 +17,9 @@
 
 - (id);
 - (id);
-- (void)qÐ!4Gù±Ä°1¢!0@ù
-× ;
-- (void)s:moveItemSourceIndexPaths:moveItemDestinationIndexPaths:oldModel:newModel:oldContentOffset:newContentOffset: /* Error: Ran out of types for this method. */;
+- (void)olIconSize;
 - (id);
+- (void)$GÿóWÚH¼l;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *additionalTrackingViews;

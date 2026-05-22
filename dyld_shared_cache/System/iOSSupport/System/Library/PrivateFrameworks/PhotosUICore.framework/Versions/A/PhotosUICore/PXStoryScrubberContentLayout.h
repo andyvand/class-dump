@@ -101,30 +101,29 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
 - (struct CGRect);
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (_Bool);
 - (id);
 - (void);
-- (id);
-- (void)0@ù
-× ;
-- (void)Type;
-- (void);
-- (_Bool)û;
-- (void)%;
 - (void);
-- (id)¶4;
+- (void);
+- (void)kedItemsCount;
+- (id)chromeOpacity;
+- (id)ck;
+- (void)ButtonTitle;
+- (void)ize;
+- (void);
+- (void);
+- (id)9úMÈà3;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXGAXResponder> axNextResponder; // @synthesize axNextResponder;

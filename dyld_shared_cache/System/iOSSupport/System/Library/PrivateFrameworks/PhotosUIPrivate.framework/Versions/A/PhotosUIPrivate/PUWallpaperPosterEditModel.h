@@ -28,10 +28,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)isSharedAlbum;
-- (id)·ÚÒ
-;
+- (void)ePickerItemIfNeeded;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool depthEffectDisabled; // @synthesize depthEffectDisabled=_depthEffectDisabled;

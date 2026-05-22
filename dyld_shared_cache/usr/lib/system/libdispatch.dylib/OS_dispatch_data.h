@@ -10,22 +10,22 @@
 {
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (void);
-- (void *);
-- (void);
-- (void)ag %@ on line %u;
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (unsigned long long);
 - (void);
+- (void *);
+- (id);
 - (const void *);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) const void *bytes;

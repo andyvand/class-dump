@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     long long _branchDepth;
 }
 
-+ (_Bool)plicitSettingEnabledForCurrentUser:] failed to set explicitSettingEnabled=%{BOOL}u [monitorForCurrentUser=nil] /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -35,14 +35,14 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void)SessionId:(long long)arg1;
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
-- (id)";
+- (id);
+- (id);
 - (long long);
+- (id);
+- (void);
+- (void)GenericSong__MAPPING_MISSING__;
 
 // Remaining properties
 @property(nonatomic) long long branchDepth; // @synthesize branchDepth=_branchDepth;

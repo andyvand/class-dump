@@ -14,16 +14,17 @@ __attribute__((visibility("hidden")))
     UITableView *_picker;
 }
 
-- (double)KitHooks;
+- (double);
 - (id);
 - (id);
 - (long long);
-- (id)ocal error;
-- (void);
-- (void);
-- (long long)ntext:(id)arg1;
-- (id)ementLinearHeadingKey;
-- (_Bool)¾{8(µ;
+- (long long);
+- (void)ÑYÐ1Â0@ù
+× ;
+- (id),R,&,N;
+- (id)ed and insidious behavior. trace=%@;
+- (_Bool)ük];
+- (void)P+Ù®j;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

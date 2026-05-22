@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)leStringInterpolation;
 
 // Remaining properties
 @property(readonly, nonatomic) id <LNValueMetadata> entityMetadata;

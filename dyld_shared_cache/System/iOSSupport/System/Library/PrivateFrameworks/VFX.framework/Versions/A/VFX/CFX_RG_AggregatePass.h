@@ -5,9 +5,9 @@
 class CFX::RG::AggregatePass {
 public: // (access info unavailable from symbols alone)
     AggregatePass(CFX::ScratchAllocator, CFX::StackAllocator, CFX::Array<CFX::RG::Pass*, 0u, CFX::ScratchAllocator>&&, unsigned long long, RGPassKind);
-    commonInit(CFX::StackAllocator);
-    commonRenderParameters();
-    execute(CFX::RG::RenderGraphContext const&, RGExecutionPhase, CFX::RG::Arguments const&);
-    initializePassName();
+    auto commonInit(CFX::StackAllocator);
+    auto commonRenderParameters();
+    auto execute(CFX::RG::RenderGraphContext const&, RGExecutionPhase, CFX::RG::Arguments const&);
+    auto initializePassName();
     ~AggregatePass();
 };

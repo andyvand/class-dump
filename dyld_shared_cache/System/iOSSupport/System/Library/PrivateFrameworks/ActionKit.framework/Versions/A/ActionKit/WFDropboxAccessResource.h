@@ -14,8 +14,8 @@
 
 - (void);
 - (id);
-- (Class);
 - (id);
+- (Class);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *accounts; // @dynamic accounts;

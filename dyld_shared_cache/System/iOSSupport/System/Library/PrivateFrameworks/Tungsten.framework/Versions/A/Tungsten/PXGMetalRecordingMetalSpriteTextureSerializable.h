@@ -19,9 +19,11 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void)e || ((shaderFlags & PXGShaderFlagYCbCrMatrixMask) != 0 && (shaderFlags & PXGShaderFlagYCbCrBitDepthMask) != 0);
+- (void);
+- (unsigned long long)1â
+0@ù
+× ;
+- (unsigned long long)ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool isAtlas; // @synthesize isAtlas=_isAtlas;

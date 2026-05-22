@@ -10,20 +10,20 @@
     struct _UIUpdateSequenceItemInternal *_item;
 }
 
-+ (id)ted;
-+ (id)Completed;
-+ (id)ChatSyncStarted;
-+ (id)leted;
-+ (id)yncInitiated;
 + (id);
 + (id);
-+ (id)7\;
 + (id);
 + (id);
-+ (id)];
-+ (id);
-- (struct _UIUpdateSequenceItemInternal *)on:(const char *)arg1 sessionID:(void *)arg2 type:(CDUnknownBlockType)arg3 userInfo:conference:account: /* Error: Ran out of types for this method. */;
-- (id)imaryAccountHasiCloudBackupEnabledWithCompletion:(int)arg1;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
+- (struct _UIUpdateSequenceItemInternal *);
+- (id);
 
 @end
 

@@ -35,7 +35,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -58,11 +58,11 @@
 - (Class);
 - (id);
 - (id);
+- (void);
 - (long long);
-- (void);
 - (_Bool);
-- (id)"ABAddressBook";
-- (void);
+- (id);
+- (void)ity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSDictionary *objectsRequiringAlteredSpan; // @synthesize objectsRequiringAlteredSpan=_objectsRequiringAlteredSpan;

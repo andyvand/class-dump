@@ -34,14 +34,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
 - (_Bool);
 - (id);
-- (id)n;
-- (id)=ûÿ;
-- (_Bool)te:] /* Error: Ran out of types for this method. */;
-- (id)ì1àI;
+- (id);
+- (id)ionalAccessoryTileKinds;
+- (id)_AAyAAyAAyAEyACyAAyAAy´ÉºÏÈºy±u»GGAWySiSgGG_AUtGGËÁºGA4_GÙÇºyÍºGGtGGAQGGGÄ¾ºyÃºGGASy¤ÆºyA17_JËºÍºGSgGG_A26_tGGA27_G_AAy*Êºyü»yAFyÓ;
+- (id)arySectionHeaderItemToggleAspectFitButtonOverBackground;
+- (_Bool)KeyPhotoAction;
+- (void)position;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *considerNewAfterDate; // @synthesize considerNewAfterDate=_considerNewAfterDate;

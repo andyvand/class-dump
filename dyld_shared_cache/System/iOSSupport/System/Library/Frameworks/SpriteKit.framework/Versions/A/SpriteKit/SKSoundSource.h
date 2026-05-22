@@ -22,17 +22,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (double);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (struct CGPoint);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
+- (void)beginTime"d"duration"d}"physics"{?="beginTime"d"duration"d"bodyCount"i}"constraints"{?="beginTime"d"duration"d"constraintCount"i}"render"{?="beginTime"d"duration"d"opCount"i"quadCount"i"nodeTraversalCount"i"sknodeTraversalCount"i"nodeRenderCount"i"drawCallCount"i"passCount"i"maxBatchElementCount"i}};
+- (double)(ð:NdúMmýû /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) int completedBufferCount;

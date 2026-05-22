@@ -26,12 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id)y;
+- (void)oupItems;
+- (void)x;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *controlPanelItems; // @synthesize controlPanelItems=_controlPanelItems;

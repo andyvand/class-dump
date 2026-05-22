@@ -16,7 +16,7 @@
 
 + (_Bool);
 + (id);
-+ (_Bool)teAbnormalReasons %lu;
++ (_Bool);
 
 @end
 

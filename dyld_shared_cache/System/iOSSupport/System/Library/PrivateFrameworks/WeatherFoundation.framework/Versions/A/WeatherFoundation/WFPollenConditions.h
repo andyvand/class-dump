@@ -19,17 +19,17 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)";
-- (unsigned long long);
-- (unsigned long long);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id)So9CNContactCIegg_;
-- (id);
+- (unsigned long long);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;

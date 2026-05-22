@@ -7,6 +7,7 @@
 @protocol CNKDestinationQueryControllerDelegate;
 
 @protocol CNKDestinationQueryControllerProtocol
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <CNKDestinationQueryControllerDelegate> delegate;

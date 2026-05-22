@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *activeModeUUID; // @dynamic activeModeUUID;

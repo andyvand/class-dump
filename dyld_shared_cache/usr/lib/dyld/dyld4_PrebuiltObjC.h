@@ -4,6 +4,6 @@
 
 class dyld4::PrebuiltObjC {
 public: // (access info unavailable from symbols alone)
-    forEachSelectorReferenceToUnique(dyld4::RuntimeState&, dyld4::Loader const*, unsigned long long, dyld4::ObjCBinaryInfo const&, void (unsigned long long, unsigned long long, char const*) block_pointer);
-    forEachSelectorReferenceToUnique(dyld4::RuntimeState&, dyld4::Loader const*, unsigned long long, dyld4::ObjCBinaryInfo const&, void (unsigned long long, unsigned long long, char const*) block_pointer) (.cold.1);
+    auto forEachSelectorReferenceToUnique(dyld4::RuntimeState&, dyld4::Loader const*, unsigned long long, dyld4::ObjCBinaryInfo const&, void (unsigned long long, unsigned long long, char const*) block_pointer);
+    auto forEachSelectorReferenceToUnique(dyld4::RuntimeState&, dyld4::Loader const*, unsigned long long, dyld4::ObjCBinaryInfo const&, void (unsigned long long, unsigned long long, char const*) block_pointer) (.cold.1);
 };

@@ -8,11 +8,12 @@
 {
 }
 
++ (double);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (double)Pm;
++ (id)0@ù
+× ;
 
 @end
 

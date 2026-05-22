@@ -11,13 +11,13 @@
     NSUUID *_identifier;
 }
 
-+ (_Bool)AuthorizationStatusNotDetermined;
++ (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)nt;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;

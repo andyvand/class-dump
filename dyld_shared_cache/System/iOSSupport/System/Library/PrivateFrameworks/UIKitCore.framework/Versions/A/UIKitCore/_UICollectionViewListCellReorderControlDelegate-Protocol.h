@@ -5,6 +5,5 @@
 //
 
 @protocol _UICollectionViewListCellReorderControlDelegate
-- (void);
 @end
 

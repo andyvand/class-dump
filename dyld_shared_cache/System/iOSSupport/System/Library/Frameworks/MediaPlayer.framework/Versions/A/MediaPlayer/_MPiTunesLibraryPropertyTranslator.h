@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (CDUnknownFunctionPointerType)://com.apple.iWork.Keynote /* Error: Ran out of types for this method. */;
-- (id)m.apple.iWork.Pages;
+- (CDUnknownFunctionPointerType);
 - (id);
-- (void);
+- (id);
 - (CDUnknownBlockType);
+- (void)nOutputDevices: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

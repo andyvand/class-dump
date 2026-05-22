@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)ì÷ÿB;
 
 // Remaining properties
 @property(readonly, nonatomic) CHUISWidgetSceneSettings *currSettings; // @synthesize currSettings=_currSettings;

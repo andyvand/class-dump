@@ -20,11 +20,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)Dh;
+- (id)x;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;

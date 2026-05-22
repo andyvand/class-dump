@@ -22,11 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)R,N,V_optionTitles;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setActivityType:) NSString *activityType; // @synthesize activityType=_activityType;

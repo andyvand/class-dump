@@ -17,14 +17,14 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *customizations; // @synthesize customizations=_customizations;

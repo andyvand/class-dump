@@ -21,20 +21,20 @@ __attribute__((visibility("hidden")))
     short _specLength;
 }
 
+- (void);
 - (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 
 // Remaining properties

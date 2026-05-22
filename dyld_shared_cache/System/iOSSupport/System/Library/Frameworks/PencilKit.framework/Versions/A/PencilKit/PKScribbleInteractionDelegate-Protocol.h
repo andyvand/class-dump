@@ -5,9 +5,5 @@
 //
 
 @protocol PKScribbleInteractionDelegate
-
-@optional
-- (void)\;
-- (void)\;
 @end
 

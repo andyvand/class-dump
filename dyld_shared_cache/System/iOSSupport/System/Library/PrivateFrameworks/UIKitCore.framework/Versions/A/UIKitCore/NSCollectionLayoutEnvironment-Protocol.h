@@ -8,8 +8,8 @@
 @protocol NSCollectionLayoutContainer;
 
 @protocol NSCollectionLayoutEnvironment
-- (id <NSCollectionLayoutContainer>)ngGroup;
-- (UITraitCollection *);
+- (id <NSCollectionLayoutContainer>)@?0@"UITabBarCustomizeView"8@"UITraitCollection"16;
+- (UITraitCollection *)ôýT?P¾Âõ¼;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCollectionLayoutContainer> container;

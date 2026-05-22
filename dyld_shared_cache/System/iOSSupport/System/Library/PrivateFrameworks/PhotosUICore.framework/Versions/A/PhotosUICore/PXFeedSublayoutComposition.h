@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ÈUÿôÓq´óø;
 
 // Remaining properties
 @property(readonly, nonatomic) long long scrollableAxis;

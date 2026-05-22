@@ -18,8 +18,8 @@
     MISSING_TYPE *presentPopoverForUnknownContact;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

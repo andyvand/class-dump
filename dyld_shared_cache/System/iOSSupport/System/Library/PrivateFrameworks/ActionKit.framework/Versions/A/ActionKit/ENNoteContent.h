@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)UserId;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *emml; // @synthesize emml=_emml;

@@ -5,9 +5,5 @@
 //
 
 @protocol NSURLSessionDelegate
-
-@optional
-- (void);
-- (void)d to encode metadata;
 @end
 

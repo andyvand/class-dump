@@ -27,29 +27,28 @@
 - (Class);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool)?;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool)'D�
-;
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)TtC8NewsFeed16FeedItemRenderer;
-- (void);
-- (void);
+- (id);
 - (Class);
-- (id);
-- (id);
 - (struct _NSRange);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText; // @synthesize anchoredToText;

@@ -84,20 +84,20 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *categoryList; // @synthesize categoryList=_categoryList;

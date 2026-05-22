@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)PrivateFrameworks/InertiaCam.framework/Versions/A/InertiaCam;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

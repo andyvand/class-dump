@@ -5,8 +5,5 @@
 //
 
 @protocol PKToolPickerDelegate
-
-@optional
-- (_Bool);
 @end
 

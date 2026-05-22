@@ -1282,7 +1282,7 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
 };
 
 struct unordered_map<unsigned long long, VFXMTLLightSetData, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, VFXMTLLightSetData>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, std::__unordered_map_hasher<unsigned long long, std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>>> {
+    struct __hash_table<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, std::__unordered_map_hasher<unsigned long long, std::pair<const unsigned long long, VFXMTLLightSetData>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::pair<const unsigned long long, VFXMTLLightSetData>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, VFXMTLLightSetData>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, void *>*> {
@@ -1443,6 +1443,13 @@ typedef struct {
 
 typedef struct {
     unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+} CDStruct_a06f635e;
+
+typedef struct {
+    unsigned char _field1;
     float _field2;
     float _field3;
     int _field4;
@@ -1468,11 +1475,6 @@ typedef struct {
     unsigned long long _field2;
     unsigned long long _field3;
 } CDStruct_14f26992;
-
-typedef struct {
-    unsigned long long _field1;
-    unsigned long long _field2;
-} CDStruct_4bcfbbae;
 
 typedef struct {
     unsigned long long _field1;
@@ -1608,11 +1610,6 @@ typedef struct {
     float b;
     float a;
 } CDStruct_83984b6f;
-
-typedef struct {
-    float edgeTessellationFactor;
-    float insideTessellationFactor;
-} CDStruct_6e663ddf;
 
 typedef struct {
     long long _field1;
@@ -1782,12 +1779,7 @@ typedef struct {
 } CDStruct_c651afbd;
 
 typedef struct {
-    struct {
-        unsigned char _field1;
-        unsigned char _field2;
-        unsigned char _field3;
-        unsigned char _field4;
-    } _field1;
+    CDStruct_a06f635e _field1;
     unsigned int :16;
     unsigned int :16;
     unsigned int :16;
@@ -1833,7 +1825,10 @@ typedef struct {
     unsigned int tessellationPartitionMode;
     unsigned char tessellationSmoothingMode;
     union {
-        CDStruct_6e663ddf uniform;
+        struct {
+            float edgeTessellationFactor;
+            float insideTessellationFactor;
+        } uniform;
         struct {
             float projectedEdgeLength;
         } screenSpaceAdaptive;

@@ -25,15 +25,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id)øä>`%;
+- (id)ingItems;
 
 // Remaining properties
 @property(nonatomic) __weak PXPhotosContentController *contentController; // @synthesize contentController=_contentController;

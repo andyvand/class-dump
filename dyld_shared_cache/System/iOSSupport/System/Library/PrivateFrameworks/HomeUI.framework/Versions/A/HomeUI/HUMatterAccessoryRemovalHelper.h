@@ -42,10 +42,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
+- (id)ventBuilder: /* Error: Ran out of types for this method. */;
+- (void)itWithDelegate:sourceItem:shouldGroupByRoom:shouldShowSectionHeaders:itemProvidersCreator:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *connectedEcosystems; // @synthesize connectedEcosystems=_connectedEcosystems;

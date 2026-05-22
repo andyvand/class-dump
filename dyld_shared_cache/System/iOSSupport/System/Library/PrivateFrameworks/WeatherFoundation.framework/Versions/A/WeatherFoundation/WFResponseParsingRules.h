@@ -13,9 +13,9 @@
 
 + (_Bool);
 - (_Bool);
-- (void);
-- (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFSettings> settings; // @synthesize settings=_settings;

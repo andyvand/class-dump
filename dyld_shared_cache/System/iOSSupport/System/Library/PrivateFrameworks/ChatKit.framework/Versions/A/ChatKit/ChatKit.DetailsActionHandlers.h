@@ -13,8 +13,8 @@
     MISSING_TYPE *participantActionHandlers;
 }
 
-- (void);
 - (id);
+- (void)èÿÿÿ;
 
 @end
 

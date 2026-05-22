@@ -22,10 +22,10 @@
 - (void);
 - (void);
 - (id);
-- (double);
-- (id);
-- (void);
-- (id);
+- (id)nce;
+- (double)or.;
+- (void)Ì7aÁIÉé;
+- (id)ÿINÒH5;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *cornerCurve; // @synthesize cornerCurve=_cornerCurve;

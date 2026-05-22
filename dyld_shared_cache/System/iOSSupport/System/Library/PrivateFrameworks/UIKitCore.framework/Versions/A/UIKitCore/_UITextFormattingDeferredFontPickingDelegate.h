@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)ExtendedAuthEnabled:(id)arg1 withAuthName:withDisableRedirect:withDisableMOBIKE:withUseConfigurationAttributeInternalIPSubnet:withEnablePFS:withEnableCertificateRevocationCheck:withAuthPassword:withDeadPeerDetectionRate:withCertificateType:withServerCertificateIssuerCommonName:withServerCertificateCommonName:withIKESecurityAssociationParameters:withChildSecurityAssociationParameters:withTLSMinimumVersion:withTLSMaximumVersion:withNATKeepAliveOffloadEnable:withNATKeepAliveInterval: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)=9\;
-- (double)ÖÌÒ];
+- (double)r;
+- (void)ollectionViewLayoutAttributes"8@"UICollectionViewLayoutAttributes"16@"UICollectionReusableView"24;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

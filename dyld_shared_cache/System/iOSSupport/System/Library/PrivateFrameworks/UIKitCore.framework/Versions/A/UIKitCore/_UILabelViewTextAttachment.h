@@ -19,8 +19,8 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)teDidChangeHandler:,V_minimizedStateDidChangeHandler /* Error: Ran out of types for this method. */;
+- (void)¨;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType layoutInRect; // @synthesize layoutInRect=_layoutInRect;

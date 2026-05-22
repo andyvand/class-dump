@@ -4,6 +4,6 @@
 
 class dyld3::Array<dyld4::Reaper::LoaderAndUse> {
 public: // (access info unavailable from symbols alone)
-    push_back(dyld4::Reaper::LoaderAndUse const&);
-    push_back(dyld4::Reaper::LoaderAndUse const&) (.cold.1);
+    auto push_back(dyld4::Reaper::LoaderAndUse const&);
+    auto push_back(dyld4::Reaper::LoaderAndUse const&) (.cold.1);
 };

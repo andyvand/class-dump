@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMUIBehaviorProtocol, IMUIThemeProtocol;
-
 @protocol IMUIBehaviorProtocol
-+ (id <IMUIBehaviorProtocol>)= nil);
-- (double);
-- (struct UIEdgeInsets)ctivityItem;
-- (id <IMUIThemeProtocol>)Mode;
 @end
 

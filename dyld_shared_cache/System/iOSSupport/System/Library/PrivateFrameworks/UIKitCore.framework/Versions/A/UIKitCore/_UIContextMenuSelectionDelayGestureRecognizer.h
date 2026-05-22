@@ -14,14 +14,12 @@ __attribute__((visibility("hidden")))
     UIDelayedAction *_delayedAction;
 }
 
-- (void)arrier. Carrier report junk address - %@;
-- (void)delPlaylistEntryReaction;
-- (void);
-- (void)0@ù
-× ;
-- (void)!Ä@ùQÈ°1¢!0@ù
-× ;
-- (void)IfNeeded:(id)arg1 animateScroll:(id)arg2;
+- (void);
+- (void);
+- (void)WithSplitViewController:(id)arg1;
+- (void)tRange:(id)arg1;
+- (void)/Frameworks/CoreHaptics.framework/CoreHaptics;
+- (void)é®];
 
 @end
 

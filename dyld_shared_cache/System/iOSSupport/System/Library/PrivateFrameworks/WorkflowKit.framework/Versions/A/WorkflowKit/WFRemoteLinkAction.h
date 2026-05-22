@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ction.m;
 
 // Remaining properties
 @property(retain, nonatomic) WFRemoteWidgetConnection *remoteWidgetConnection; // @synthesize remoteWidgetConnection=_remoteWidgetConnection;

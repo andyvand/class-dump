@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *$defaultActor;
     MISSING_TYPE *lastTaskHandle;
+    MISSING_TYPE *label;
 }
 
 @end

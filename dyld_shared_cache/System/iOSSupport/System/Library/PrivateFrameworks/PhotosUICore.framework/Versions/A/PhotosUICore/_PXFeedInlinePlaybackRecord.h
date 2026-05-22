@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (long long);
-- (void)0e;
+- (void)ing;
 
 // Remaining properties
 @property(nonatomic) __weak _PXFeedInlinePlaybackController *inlinePlaybackController; // @synthesize inlinePlaybackController=_inlinePlaybackController;

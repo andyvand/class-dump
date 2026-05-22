@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     PDFTimer *visibilityTimer;
 }
 
-- (void)ollectionViewHeightConstraint;
+- (void);
 
 @end
 

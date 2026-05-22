@@ -15,22 +15,21 @@
     void _view;
 }
 
-- (long long)UUIDs moment share with count %@:(unsigned long long)arg1 %@;
-- (id)- we will relay a low-quality transcoded result to the watch;
+- (long long);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)imumHeightPlaceholder;
-- (id)ü!;
-- (void)ôUWWXÈYZ0\$_aha,bbxccPe;
-- (void)¤";
-- (void);
 - (id);
-- (void);
+- (id)d;
+- (void)%ld; styleActivationCount:(id)arg1 %ld -> %ld; %@;
+- (void)2Øþÿ;
+- (void);
+- (void);
+- (void)Ïñÿ;
+- (id)Ú¤r;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *_view; // @synthesize _view;

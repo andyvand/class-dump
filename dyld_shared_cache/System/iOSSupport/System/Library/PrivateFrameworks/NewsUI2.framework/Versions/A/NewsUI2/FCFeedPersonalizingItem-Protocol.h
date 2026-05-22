@@ -7,30 +7,23 @@
 @class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
 
 @protocol FCFeedPersonalizingItem
-- (void)A`k;
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)ft/libswiftIOKit.dylib;
-- (NSArray *)8Ԫw;
-- (_Bool)dler: /* Error: Ran out of types for this method. */;
-- (NSString *)Ú;
-- (_Bool)ì;;
-- (void)°®óÿÜ®óÿ¯óÿÄ¯óÿü¯óÿ°óÿX°óÿH±óÿà±óÿø±óÿ0²óÿh²óÿ ²óÿè²óÿ ³óÿ³óÿØ³óÿ´óÿ(´óÿÄ´óÿü´óÿµóÿ8µóÿ`µóÿxµóÿ<¶óÿ¶óÿ´¶óÿT·óÿ·óÿ´·óÿÌ·óÿì·óÿ<¸óÿT¸óÿ¸óÿø·óÿl¸óÿ¸óÿÔ¸óÿ¹óÿ$¹óÿ\¹óÿ¹óÿ¸¹óÿð¹óÿ(ºóÿLºóÿlºóÿºóÿ »óÿX»óÿp»óÿ»óÿà»óÿ´¼óÿø¼óÿ½óÿ`½óÿ½óÿ¼½óÿÜ½óÿü½óÿ¾óÿ@¾óÿX¾óÿp¾óÿÐ¾óÿ¿óÿx¿óÿÐ¿óÿÀóÿ4ÀóÿLÀóÿÀóÿÄÀóÿÜÀóÿüÁóÿÂóÿÃóÿpÃóÿ¨ÃóÿÔÃóÿìÃóÿÄóÿ0ÄóÿPÄóÿÅóÿPÅóÿÅóÿ¨ÅóÿàÅóÿÆóÿ0ÆóÿHÆóÿhÆóÿÆóÿ¨ÆóÿÈÆóÿàÆóÿÇóÿPÇóÿhÇóÿ ÇóÿÀÇóÿØÇóÿðÇóÿ(Èóÿ@ÈóÿdÈóÿ|ÈóÿÈóÿÌÈóÿÉóÿÉóÿ4ÉóÿLÉóÿÉóÿEngagementManager:(FCFeedPersonalizedItemScoreProfile *)arg1 Using directory %{private}s;
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)umberOfItems;
-- (unsigned long long)eadlines;
-- (double)y¡}íyë]9ö|íyè]9GGG;
-- (NSDate *)eaderViewStylerTypeP;
-- (NSArray *)þ;
-- (_Bool)ºþ0ºþ;
-- (_Bool)ÿ;
-- (NSString *);
+- (NSDate *);
+- (NSString *);
+- (_Bool)êûÿ;
+- (NSArray *)iÿG;
+- (_Bool)`9;
+- (void)ces/Feldspar/Modules/news-reader/NewsUI/Modules/SportsFavorites/SportsFavoritesTracker.swift;
+- (NSArray *)á4Z ì
+;
+- (NSDate *)@;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *)%F_FêþF_@½þåE_\éMÿåE_xéMÿåE_,½þF_(½þF_$½þµE_ ½þ;
+- (NSString *)p9Í;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *)á©þm?bHn©þ;
 
 @optional
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration *)ndation;
-- (FCFeedPersonalizedItemScoreProfile *);
-- (unsigned long long)ipeFilterConfigManager;
-- (NSArray *);
-- (_Bool)P;
-- (_Bool)e title when the saved feed is not available due to device obsoletion;
-- (NSString *)çÚþ\çÚþépèÚþ¹êÚþùêÚþépëÚþù;
+- (NSData *)ì×äßðáäøæé(îpóóLô´ôlõÀõäùdú;
+- (_Bool)r;
+- (NSString *)allowExternalHeroCuration;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isANF) _Bool anf;

@@ -20,10 +20,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void)id;
+- (id)NIVERSALSTRING;
 
 // Remaining properties
 @property(nonatomic) __weak id <ENBusinessNoteStoreClientDelegate> delegate; // @synthesize delegate=_delegate;

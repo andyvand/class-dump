@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)llRule: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool attemptLynxProvisioning; // @synthesize attemptLynxProvisioning=_attemptLynxProvisioning;

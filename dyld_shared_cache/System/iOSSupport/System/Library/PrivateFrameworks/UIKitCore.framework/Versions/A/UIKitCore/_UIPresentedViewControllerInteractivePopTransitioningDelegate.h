@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     id <UIViewControllerInteractiveTransitioning> _interactor;
 }
 
-- (void)s;
-- (id);
 - (void);
 - (void);
-- (id);
 - (id);
-- (id)tion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ForPresentingInUIPDocumentLanding;
+- (void);
+- (id)ãÙ\`;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIViewControllerAnimatedTransitioning> animator; // @synthesize animator=_animator;

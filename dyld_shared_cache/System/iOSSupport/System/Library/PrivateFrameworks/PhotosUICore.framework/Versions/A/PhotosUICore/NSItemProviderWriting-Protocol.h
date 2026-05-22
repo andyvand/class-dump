@@ -7,12 +7,10 @@
 @class NSArray;
 
 @protocol NSItemProviderWriting
++ (NSArray *)ialBadgeImageIfNeeded;
 
 @optional
-+ (long long)ñ{1b0@ù
-× ;
-- (long long)Aw°!@ùñ{1b0@ù
-× ;
+- (NSArray *)ion;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;

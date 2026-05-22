@@ -28,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)gSection_Title;
 
 // Remaining properties
 @property(retain, nonatomic) HUAppleMusicAccountModule *appleMusicAccountModule; // @synthesize appleMusicAccountModule=_appleMusicAccountModule;

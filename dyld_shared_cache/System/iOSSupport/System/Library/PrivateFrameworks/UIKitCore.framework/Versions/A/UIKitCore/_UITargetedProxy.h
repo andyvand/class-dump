@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void)loadAllowFindMyFriendsModification;
-- (void);
-- (id)ews;
-- (id)iew:%@ /* Error: Ran out of types for this method. */;
-- (void)on;
+- (void)actions:(id)arg1;
+- (id);
+- (void)o7UIColorCG;
+- (void)7È;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setTarget:) id _target; // @synthesize _target=__target;

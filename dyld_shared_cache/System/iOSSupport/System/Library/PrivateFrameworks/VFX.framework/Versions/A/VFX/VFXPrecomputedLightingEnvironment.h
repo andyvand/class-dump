@@ -12,14 +12,14 @@
     NSData *_irradianceData;
 }
 
-+ (_Bool)ng;
++ (_Bool)>"24@0:8@"<MTL4BinaryFunction>"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *irradianceData; // @synthesize irradianceData=_irradianceData;

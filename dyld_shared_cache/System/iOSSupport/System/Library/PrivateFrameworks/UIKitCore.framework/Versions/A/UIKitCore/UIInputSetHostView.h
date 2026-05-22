@@ -13,14 +13,15 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)zontal %@/Vertical %@;
-- (_Bool);
-- (void)e"b1};
-- (id)ge=QQ}40@0:(struct CGPoint)arg1 8q16Q24@32;
-- (int);
-- (void)aggableRanges;
-- (void);
-- (unsigned long long),j;
++ (_Bool)entationModifier";
+- (id)¡	°!|Cùñe1Â0@ù
+× ;
+- (void)ableView: /* Error: Ran out of types for this method. */;
+- (int)sthrough;
+- (_Bool)lure:(struct CGPoint)arg1 "class_addMethod(uiImage, @selector(respondsToSelector:(id)arg2 ), (IMP)UIImage_respondsToSelector, ((void*)0))" -> %llu;
+- (void)eDetentCG;
+- (unsigned long long)µÖ(	m;
+- (void)ÎmÖ$×m;
 
 @end
 

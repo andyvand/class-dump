@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)z;
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)toggleButton;
-- (void)istryID;
-- (id)f;
+- (void);
+- (id);
+- (id);
+- (void)animationDelegate;
+- (void)HD;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_ck_setContextToken:) NSString *_ck_contextToken;

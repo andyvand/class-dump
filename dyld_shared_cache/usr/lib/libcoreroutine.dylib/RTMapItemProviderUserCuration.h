@@ -18,12 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
-- (void);
 - (id);
-- (id)che: /* Error: Ran out of types for this method. */;
-- (id)ù;
+- (id);
+- (id);
+- (void)edictability (before clamping):%f /* Error: Ran out of types for this method. */;
+- (id)Provider;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

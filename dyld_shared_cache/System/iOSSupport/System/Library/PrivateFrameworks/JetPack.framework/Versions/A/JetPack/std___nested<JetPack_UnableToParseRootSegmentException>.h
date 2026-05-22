@@ -4,6 +4,7 @@
 
 class std::__nested<JetPack::UnableToParseRootSegmentException> {
 public: // (access info unavailable from symbols alone)
-    __nested[abi:ne200100](JetPack::UnableToParseRootSegmentException const&);
+    auto __nested[abi:nqe210106](JetPack::UnableToParseRootSegmentException const&);
+    non-virtual thunk to ~__nested();
     ~__nested();
 };

@@ -22,14 +22,14 @@
 - (id);
 - (id);
 - (void);
+- (struct CGSize);
 - (void);
 - (struct CGColor *);
-- (struct CGSize);
 - (void);
 - (void);
 - (struct CGPoint);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLTexture> highlightTexture; // @synthesize highlightTexture=_highlightTexture;

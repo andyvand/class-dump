@@ -10,15 +10,15 @@
 {
 }
 
-- (_Bool)b;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct CGPoint);
-- (_Bool)eToRep;
+- (_Bool)eyboardWhenVerticallyCenteredInScrollView;
 
 @end
 

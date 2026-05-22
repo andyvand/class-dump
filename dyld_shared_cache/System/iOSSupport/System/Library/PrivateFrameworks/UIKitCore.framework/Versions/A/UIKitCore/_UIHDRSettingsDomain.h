@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)oadADMapUIDAttributeFlag;
 + (id);
-+ (Class)iguration;
-+ (id);
++ (id)Done: /* Error: Ran out of types for this method. */;
++ (id)egisterUserNotificationSettings: /* Error: Ran out of types for this method. */;
++ (Class);
 
 @end
 

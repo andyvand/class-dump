@@ -21,14 +21,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id)t nil service from HMCharacteristicWriteAction:%@, characteristic:%@ /* Error: Ran out of types for this method. */;
+- (void)Øô;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *additions; // @synthesize additions=_additions;

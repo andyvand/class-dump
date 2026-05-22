@@ -14,8 +14,8 @@
     UIView *_bottomBorder;
 }
 
-+ (double);
 + (id);
++ (double)fectView;
 - (void);
 - (void);
 - (_Bool);
@@ -27,7 +27,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ociatedSceneAndTriggerModule.m;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *bottomBorder; // @synthesize bottomBorder=_bottomBorder;

@@ -13,22 +13,22 @@ __attribute__((visibility("hidden")))
     long long _tapCount;
 }
 
-+ (id)icators:(struct __IOHIDEvent *)arg1 %@, RCS encryption test:%@ /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (unsigned int);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)_predicates;
-- (long long)1¢!0@ù
+- (void)
 × ;
-- (id)ár!BùqÆ1¢!0@ù
+- (id)qeÐ1Â0@ù
 × ;
+- (_Bool)tPosition:(id)arg1 inDirection: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)windowBackgroundColor;
-- (id)imationEnabled;
-- (id)_largeTitleTwoLineMode;
-- (id);
-- (void);
+- (id)enUndocked;
+- (long long)hÅîÿÑuþÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int gestureType; // @synthesize gestureType=_gestureType;

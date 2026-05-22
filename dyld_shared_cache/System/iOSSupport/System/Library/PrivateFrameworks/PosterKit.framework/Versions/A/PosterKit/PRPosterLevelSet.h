@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ontentsLuminance:alternateDateEnabled:groupName:adaptiveTimeHeightUserConfigured:version: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -26,16 +26,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (unsigned long long);
 - (id);
+- (_Bool);
+- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *levels;

@@ -44,10 +44,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (id);
-- (_Bool);
-- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void)edPlaceList;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

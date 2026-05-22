@@ -5,6 +5,5 @@
 //
 
 @protocol CKMacToolbarDelegate
-- (_Bool);
 @end
 

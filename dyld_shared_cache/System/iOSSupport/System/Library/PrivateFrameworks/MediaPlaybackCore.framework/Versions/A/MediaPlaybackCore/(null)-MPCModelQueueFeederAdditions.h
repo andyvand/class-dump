@@ -5,7 +5,7 @@
 //
 
 @interface (null) (MPCModelQueueFeederAdditions)
-- (id)re:(id)arg1 oldAccount: /* Error: Ran out of types for this method. */;
-- (id)idPerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 @end
 

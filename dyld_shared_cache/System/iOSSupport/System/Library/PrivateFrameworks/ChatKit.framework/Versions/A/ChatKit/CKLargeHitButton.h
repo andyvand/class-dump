@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct UIEdgeInsets);
-- (_Bool);
+- (_Bool)ipNextAdjustingOfTypingAttributes;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets ck_hitTestInsets; // @synthesize ck_hitTestInsets=_ck_hitTestInsets;

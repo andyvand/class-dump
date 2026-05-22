@@ -4,7 +4,7 @@
 
 class std::runtime_error {
 public: // (access info unavailable from symbols alone)
+    auto what() const;
     runtime_error(std::string const&);
-    what() const;
     ~runtime_error();
 };

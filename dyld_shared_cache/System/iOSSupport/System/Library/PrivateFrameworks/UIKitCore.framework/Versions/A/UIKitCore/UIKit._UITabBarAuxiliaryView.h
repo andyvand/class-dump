@@ -19,10 +19,10 @@
     MISSING_TYPE *minimizedPlatterView;
 }
 
-- (void);
 - (id);
 - (void);
-- (id)c",N,&,Vlarge;
+- (id)ionView;
+- (void)@«l;
 
 @end
 

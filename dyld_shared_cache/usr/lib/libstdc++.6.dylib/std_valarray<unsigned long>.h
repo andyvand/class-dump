@@ -4,8 +4,8 @@
 
 class std::valarray<unsigned long> {
 public: // (access info unavailable from symbols alone)
-    operator[](unsigned long);
-    size() const;
+    auto operator[](unsigned long);
+    auto size() const;
     valarray(std::valarray<unsigned long> const&);
     valarray(unsigned long);
     ~valarray();

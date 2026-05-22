@@ -34,11 +34,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (void)release;
+- (id)yAAyÒ!yÜ!ySayKNG-Np!y!yAAyAAy&!yAAyAAyò!yAAyAAyAAyó!n*#G`!yZ!SgGG¹û G_SNy;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *actions; // @synthesize actions=_actions;

@@ -14,31 +14,30 @@ __attribute__((visibility("hidden")))
     UIVisualEffectView *_blurView;
 }
 
+- (void)ction",&,N,G_dictationReplacementAction,S_setDictationReplacementAction:(id)arg1 ,V_dictationReplacementAction;
+- (id)tion. Bitmap orientation-adjusted size:(CDStruct_912cb5d2)arg1 {width=%lu, height=%lu}; Orientation:%@; Scale:%.1f; Coordinate space:%@ /* Error: Ran out of types for this method. */;
+- (double)failure:"nsImage != ((void*)0)" -> %llu /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (void)orageMode: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)felyReshuffleAfterItem:(id)arg1 inSection: /* Error: Ran out of types for this method. */;
-- (_Bool)ifiers;
-- (id)lusterPlaylist;
-- (_Bool);
 - (long long);
-- (_Bool);
+- (id)=~þÿ;
+- (_Bool)lidBaselineConstraints=%p;
+- (_Bool)transition before the split view controller's view has loaded. Split view controller:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)gureLaunchOptions. This is unexpected.;
+- (double)dInsetBottom;
+- (struct CGRect)Highlight;
+- (_Bool)d<UIFocusItem>  _Nullable __strong, NSArray<id<UIFocusItem>> *__strong _Nonnull, UIFocusHeading, BOOL);
+- (id)supported by UITabBar. Supported bar styles are UIBarStyleDefault and UIBarStyleBlack;
+- (id)isualProviderLegacy.m;
 - (void);
-- (id)!GùQÆ°1¢!0@ù
-× ;
+- (void);
+- (void)Ð¿7_úÿ¾7RzlXX;
+- (id)xG;
+- (void)lDR0é13ð;
+- (_Bool)·13¼¦þ;
 - (_Bool);
-- (id)nItem";
-- (void)originalText: /* Error: Ran out of types for this method. */;
-- (double)dal;
-- (id)rangeForSection:(id)arg1;
-- (_Bool)opoverWithKeyString: /* Error: Ran out of types for this method. */;
-- (_Bool)ge;
-- (struct CGRect)WithName:inBundle:idiom: /* Error: Ran out of types for this method. */;
-- (_Bool)cation;
-- (double)ctionEffectForTargetedPreview: /* Error: Ran out of types for this method. */;
-- (unsigned long long)¸2q;
+- (void)gXÆ\;
+- (_Bool)wV;
+- (_Bool)d¬Ù4·_;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;

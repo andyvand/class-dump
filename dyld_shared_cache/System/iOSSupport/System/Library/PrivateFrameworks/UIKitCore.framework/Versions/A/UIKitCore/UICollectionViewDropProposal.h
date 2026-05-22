@@ -11,13 +11,13 @@
     long long _intent;
 }
 
-- (id)ion block record %@ changeTag %@ error %@;
-- (id)ut creating chat zone *******;
-- (id)creating chat zone %@;
-- (long long)key %@:merged-duplicate-chats /* Error: Ran out of types for this method. */;
-- (id)leViewController;
-- (long long)ÿÎa;
-- (void)Qk;
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (void);
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long intent; // @synthesize intent=_intent;

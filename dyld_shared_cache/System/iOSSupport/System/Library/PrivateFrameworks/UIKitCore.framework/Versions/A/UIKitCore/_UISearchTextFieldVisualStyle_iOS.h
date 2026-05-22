@@ -11,16 +11,20 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double)ÎÎ·k;
++ (double);
+- (id);
+- (double);
+- (id);
 - (double);
 - (double);
-- (double)jaliscoInitialImport;
-- (id)ring *getITLibMediaItemPropertyBookmarkTime();
-- (id)ine;
-- (double)rBatchApply;
-- (id)Ø*´È+;
-- (double)elegate;
 - (double);
+- (double);
+- (void)@ù
+× ;
+- (double)entCaptureGroup;
+- (void)resis;
+- (double)ition;
+- (id)eInvokable;
 
 @end
 

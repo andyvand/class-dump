@@ -21,26 +21,27 @@ __attribute__((visibility("hidden")))
     UIKBResizingKeyplanePanGestureRecognizer *_gestureRecognizer;
 }
 
-+ (double)O\;
++ (double);
 - (_Bool);
-- (void)cation;
-- (void)=;
-- (void);
-- (void)0@ù
-× ;
-- (_Bool)definedKey:(id)arg1;
-- (void)dStop:finished: /* Error: Ran out of types for this method. */;
-- (void)enmojiImageTypeFromImageGlyph: /* Error: Ran out of types for this method. */;
-- (void)derivedTrailingControlKeyWidthForRow:(double)arg1 orientation:(_Bool)arg2;
-- (id)ferenceBounds;
-- (_Bool)extButtonOutsetBottom;
-- (void)_UITypedStorageC;
-- (id)oundSuppressionController;
-- (void);
+- (_Bool);
 - (id);
 - (void);
-- (void)âLg;
-- (double)gh;
+- (void);
+- (void)0@ù
+× ;
+- (void)!Bù[1Â0@ù
+× ;
+- (id);
+- (void)viorDelegate>"16@0:(id)arg1 8;
+- (void)ler",&,N,V_swipeActionController;
+- (_Bool)øvb;
+- (void)#i;
+- (double)F#ÿrpÛPÀf;
+- (void)pqÌh;
+- (void)½áÿ;
+- (id)ûÚ#i;
+- (void)tË<¡i;
+- (void)ÜI²ÿ_EÐ$±k;
 - (void);
 
 // Remaining properties

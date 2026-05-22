@@ -19,7 +19,7 @@
     HMHomeWiFiInfo *_wiFiInfo;
 }
 
-+ (_Bool)MHomeManager if possible. Current home managers: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -30,13 +30,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (void)0X ;
 
 // Remaining properties
 @property(readonly, copy) NSData *binaryIPv4NetworkSignature; // @synthesize binaryIPv4NetworkSignature=_binaryIPv4NetworkSignature;

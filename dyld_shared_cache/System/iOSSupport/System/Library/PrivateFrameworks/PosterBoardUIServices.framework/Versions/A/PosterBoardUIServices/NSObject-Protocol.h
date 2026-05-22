@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSObject
+- (struct _NSZone *)ditingType;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

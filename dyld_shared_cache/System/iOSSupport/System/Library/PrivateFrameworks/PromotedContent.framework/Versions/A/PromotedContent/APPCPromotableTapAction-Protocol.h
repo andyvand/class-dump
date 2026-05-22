@@ -5,6 +5,5 @@
 //
 
 @protocol APPCPromotableTapAction
-- (void);
 @end
 

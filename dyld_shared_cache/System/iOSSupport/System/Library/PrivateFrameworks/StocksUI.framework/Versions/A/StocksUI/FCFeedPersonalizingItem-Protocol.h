@@ -7,11 +7,11 @@
 @class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
 
 @protocol FCFeedPersonalizingItem
-- (_Bool);
-
-@optional
-- (long long);
-- (NSString *),6V;
+- (NSDate *);
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *)itleImageInsets;
+- (NSString *)watchlistCellViewStyler;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)î;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *)G;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isANF) _Bool anf;

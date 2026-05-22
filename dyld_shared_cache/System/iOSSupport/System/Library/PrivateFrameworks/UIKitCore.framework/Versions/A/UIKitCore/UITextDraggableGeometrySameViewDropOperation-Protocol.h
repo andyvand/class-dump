@@ -7,7 +7,7 @@
 @class NSArray, NSAttributedString, UITextRange;
 
 @protocol UITextDraggableGeometrySameViewDropOperation
-- (unsigned long long)dTopInset;
+- (unsigned long long)R0;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long operation;

@@ -10,10 +10,10 @@
 {
 }
 
-- (_Bool);
-- (void);
-- (id)0@ù
+- (_Bool);
+- (id)!Eù1^ð1Â0@ù
 × ;
+- (void)ement category:(id)arg1 %@; indexPath:(id)arg2 %@;;
 
 @end
 

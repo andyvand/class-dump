@@ -46,8 +46,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -67,30 +67,30 @@
 - (id);
 - (void);
 - (void);
-- (long long);
 - (id);
+- (id);
+- (id);
+- (CDStruct_1b6d18a9);
 - (void);
+- (id);
+- (id);
+- (long long);
 - (void);
 - (_Bool);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id)x°!äFùñ|°1b0@ù
+- (id)0@ù
 × ;
-- (id)AssetCollections;
-- (id)ä;
-- (id)requestFlexMusicCuration received reply for asset container (%@).;
-- (CDStruct_1b6d18a9);
-- (void)ÿõÓÖ7;
-- (id)¶yQRå8;
-- (void)9;
-- (id)¦9;
+- (id);
+- (unsigned long long)redStatusBarUpdateAnimation;
+- (void)taSource",&,N,S_setDataSource:(unsigned long long)arg1 ,V__dataSource;
+- (id),N,V_preheatedTileIndexes;
+- (id)íøÿL!øÿ;
+- (id)for shared album:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)ÔÿôdM6;
+- (void)¼ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumTitle; // @synthesize albumTitle=_albumTitle;

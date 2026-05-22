@@ -15,30 +15,29 @@
     unsigned long long _options;
 }
 
-- (id);
-- (unsigned long long)P;
-- (id)ifier;
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool)46Interface:(id)arg1;
-- (id)B8B12B16S20;
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool)ations %@  on service:(id)arg1 %@   from listenerID:(id)arg2 %@;
-- (void);
-- (id);
 - (long long);
-- (id)
-× ;
-- (id)s:pendingRetryCount:qos:completion: /* Error: Ran out of types for this method. */;
-- (void)on:(id)arg1;
-- (_Bool)ivityManager:(id *)arg1 peopleDiscoveryProvider:placeInferenceManager:predictedContextManager:purgeManager:scenarioTriggerManager:timerManager:tripSegmentManager:userCurationManager:vehicleLocationProvider:vehicleStore:visitManager:wifiManager:tripClusterManager:visitConsolidator: /* Error: Ran out of types for this method. */;
-- (void)ionCurationMetrics",&,N,V_curationMetrics;
-- (_Bool)ager processModifySessionConfigurationRemoteControlMessage:(id *)arg1 ]_block_invoke;
-- (id)@;
+- (void);
+- (_Bool);
+- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)24@32@40B48;
+- (void)of loops while exiting (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak id <RTPersistenceContextDelegate> delegate; // @synthesize delegate=_delegate;

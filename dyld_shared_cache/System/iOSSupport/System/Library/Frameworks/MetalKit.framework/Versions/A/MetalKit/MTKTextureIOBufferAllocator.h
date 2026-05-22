@@ -14,7 +14,7 @@
 
 - (id);
 - (id);
-- (void)ytesPerImage: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 
 // Remaining properties

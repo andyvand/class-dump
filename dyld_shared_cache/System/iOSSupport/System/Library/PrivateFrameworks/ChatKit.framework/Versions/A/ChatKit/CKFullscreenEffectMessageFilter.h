@@ -33,16 +33,16 @@
 - (id);
 - (void);
 - (double);
-- (void);
 - (id);
+- (int);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)pdateActiveEntryViewPositioningGuideForInlineReplyController:(int)arg1;
+- (int)th: /* Error: Ran out of types for this method. */;
+- (void)5;
 - (id);
-- (int)roundSuggestion;
-- (void)#´°%;
-- (int)ÿ]¬¿ÜãLÿe¬¿ÐâLÿ}¬¿p+©ÿ;
+- (void)Ü;
+- (void)ô;
+- (void)Y¼l/Î;
 
 // Remaining properties
 @property(nonatomic) double balloonAlpha; // @synthesize balloonAlpha=_balloonAlpha;

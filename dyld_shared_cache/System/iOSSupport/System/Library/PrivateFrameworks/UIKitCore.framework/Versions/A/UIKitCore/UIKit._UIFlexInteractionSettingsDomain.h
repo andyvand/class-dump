@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)curityDeclaration_Status;
-+ (id)ubtitleImage;
-+ (Class)nCG;
 + (id);
++ (id)View:didTransitionToLevel: /* Error: Ran out of types for this method. */;
++ (id):atIndexes:forPinningToVisibleRect: /* Error: Ran out of types for this method. */;
++ (Class);
 
 @end
 

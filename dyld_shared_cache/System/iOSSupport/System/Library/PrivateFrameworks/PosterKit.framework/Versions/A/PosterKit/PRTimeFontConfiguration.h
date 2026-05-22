@@ -14,20 +14,20 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (double);
+- (id);
 - (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 

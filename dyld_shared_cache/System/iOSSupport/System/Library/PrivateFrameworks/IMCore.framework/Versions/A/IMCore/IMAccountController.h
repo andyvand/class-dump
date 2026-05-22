@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (id)Ø-æÿà;
++ (id);
 
 // Remaining properties
 @property(retain) NSMutableDictionary *accountMap; // @synthesize accountMap=_accountMap;

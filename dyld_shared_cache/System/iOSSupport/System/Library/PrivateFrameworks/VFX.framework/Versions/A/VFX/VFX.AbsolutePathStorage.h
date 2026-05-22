@@ -12,8 +12,8 @@
     MISSING_TYPE *pathResolver;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

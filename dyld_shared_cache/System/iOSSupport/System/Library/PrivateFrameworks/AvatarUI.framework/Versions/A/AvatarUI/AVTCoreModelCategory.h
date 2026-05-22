@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)onfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) AVTCoreModelPairing *pairing; // @synthesize pairing=_pairing;

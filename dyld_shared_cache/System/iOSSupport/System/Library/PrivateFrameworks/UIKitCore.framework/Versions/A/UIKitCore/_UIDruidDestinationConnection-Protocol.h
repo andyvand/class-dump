@@ -5,18 +5,7 @@
 //
 
 @protocol _UIDruidDestinationConnection
-- (void);
-- (void)eGestaltfor key '%@';
-- (void)be missing if no sealing is intended;
-- (void)mbined;
-- (void)%llu;
-- (void)bCC digest for %u;
-- (void)Sign;
-- (void);
-- (void (^)(PBItemCollection *, NSArray *, unsigned long long, unsigned long long)): /* Error: Ran out of types for this method. */;
-- (void (^)(PBItemCollection *))s:forKeys: /* Error: Ran out of types for this method. */;
-- (id)ithName:depthRange:block: /* Error: Ran out of types for this method. */;
-- (void)leteWhenContinued;
+- (unsigned int);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType connectionBlock;

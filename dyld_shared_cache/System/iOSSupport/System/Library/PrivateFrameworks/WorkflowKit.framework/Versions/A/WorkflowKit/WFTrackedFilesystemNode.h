@@ -24,10 +24,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (_Bool);
-- (id);
+- (void);
+- (void)r handleStopRequest:service:account:fromID:context:] /* Error: Ran out of types for this method. */;
+- (id)com.apple.Spotlight.SearchSpotlightIntent;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *bookmark; // @synthesize bookmark=_bookmark;

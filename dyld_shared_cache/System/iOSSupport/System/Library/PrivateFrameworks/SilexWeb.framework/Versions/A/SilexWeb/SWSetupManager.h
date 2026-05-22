@@ -15,10 +15,10 @@
 
 - (void);
 - (id);
-- (id)w;
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (id)GRect={CGPoint=dd}{CGSize=dd}}16;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

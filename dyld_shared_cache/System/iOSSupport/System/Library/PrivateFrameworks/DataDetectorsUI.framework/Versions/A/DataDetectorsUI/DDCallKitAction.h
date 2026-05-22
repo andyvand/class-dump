@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain) TUCallProvider *callProvider; // @synthesize callProvider=_callProvider;

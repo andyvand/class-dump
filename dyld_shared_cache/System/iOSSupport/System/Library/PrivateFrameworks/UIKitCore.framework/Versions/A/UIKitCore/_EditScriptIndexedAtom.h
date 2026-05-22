@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     NSString *_replacementText;
 }
 
-+ (id)ullChatSyncStarted;
++ (id);
 - (void);
 - (void);
-- (id)MatchForMoc;
-- (unsigned long long)hDictionary: /* Error: Ran out of types for this method. */;
-- (unsigned long long)CountryCodesEligibleForJunkFiltering;
-- (long long)rror: /* Error: Ran out of types for this method. */;
-- (void)%@ Batch Message (%lld/%lld) isLast %{BOOL}d;
-- (void);
 - (id);
-- (id)rPanGestureEnabled:,V__exteriorPanGestureEnabled /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (unsigned long long);
+- (long long);
 - (void);
+- (id);
+- (id);
+- (void)¿?ÍÌÌÌÌÌÜ?Ä?ÜÛÛÛÛÛÛ?ÞÝÝÝÝÝÝ?ß?Ù?Û?Ü?Þ?ñðððððà?ÝÜÜÜÜÜÜ?000000à?³²²²²²â?ã?Î?______ß?ÑÐÐÐÐÐà?qqqqqqá?Û?Ü?YYYYYYÙ?ZZZZZZÚ?;
+- (void)t»ÿäÔX_;
 
 // Remaining properties
 @property(nonatomic) long long editOperation; // @synthesize editOperation=_editOperation;

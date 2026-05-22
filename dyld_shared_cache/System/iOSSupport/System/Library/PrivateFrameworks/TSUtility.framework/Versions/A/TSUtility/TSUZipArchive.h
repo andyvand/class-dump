@@ -14,16 +14,16 @@
 
 - (void);
 - (_Bool);
-- (void)D;
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 

@@ -12,15 +12,14 @@ __attribute__((visibility("hidden")))
     _Bool _finished;
 }
 
-+ (id)@ù
-× ;
-+ (id)gController";
++ (id);
++ (id)¸;
+- (_Bool);
 - (void);
-- (id)v40@0:(unsigned long long)arg1 8@"UITableView"16@"UIView"24q32;
+- (_Bool);
 - (void);
-- (_Bool)yASCIIToggle: /* Error: Ran out of types for this method. */;
-- (_Bool)ysDOMFocus: /* Error: Ran out of types for this method. */;
-- (void)âê;
+- (id);
+- (void)F1ÿüØHØ^;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isFinished) _Bool finished; // @synthesize finished=_finished;

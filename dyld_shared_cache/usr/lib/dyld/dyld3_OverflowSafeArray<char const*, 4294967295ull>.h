@@ -4,7 +4,7 @@
 
 class dyld3::OverflowSafeArray<char const*, 4294967295ull> {
 public: // (access info unavailable from symbols alone)
-    growTo(unsigned long long);
-    growTo(unsigned long long) (.cold.1);
-    push_back(char const* const&);
+    auto growTo(unsigned long long);
+    auto growTo(unsigned long long) (.cold.1);
+    auto push_back(char const* const&);
 };

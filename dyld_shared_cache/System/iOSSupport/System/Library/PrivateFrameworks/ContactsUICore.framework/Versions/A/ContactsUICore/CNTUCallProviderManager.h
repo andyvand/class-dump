@@ -49,10 +49,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)R,N,V_type;
 
 // Remaining properties
 @property(copy, nonatomic) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager=_callProviderManager;

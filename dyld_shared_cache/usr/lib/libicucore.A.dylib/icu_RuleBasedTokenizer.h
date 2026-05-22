@@ -7,7 +7,7 @@ public: // (access info unavailable from symbols alone)
     RuleBasedTokenizer(icu::UnicodeString const&, UParseError&, UErrorCode&);
     RuleBasedTokenizer(unsigned char const*, icu::RuleBasedTokenizer::EDontAdopt, UErrorCode&);
     RuleBasedTokenizer(unsigned char*, UErrorCode&);
-    init();
-    tokenize(int, RuleBasedTokenRange*, unsigned long*);
+    auto init();
+    auto tokenize(int, RuleBasedTokenRange*, unsigned long*);
     ~RuleBasedTokenizer();
 };

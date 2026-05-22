@@ -17,10 +17,10 @@
 
 - (CDStruct_14d5dc5e);
 - (CDStruct_14d5dc5e);
-- (void);
-- (id);
 - (unsigned long long);
 - (double);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties

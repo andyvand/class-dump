@@ -31,12 +31,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void)derlyingAssetsFromPreviewAssets:(id)arg1;
 - (id);
-- (void)CQZ©4;
-- (void)ÿ(MRð5;
-- (void)[6;
+- (void);
+- (void);
+- (void)edLibrarySectionHeaderItemZoomOutButtonOverBackground;
+- (void)ü;
+- (void)õ;
 
 // Remaining properties
 @property(nonatomic) long long completedDataSourceIdentifier; // @synthesize completedDataSourceIdentifier=_completedDataSourceIdentifier;

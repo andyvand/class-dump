@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)toreleasing *, NSString *__autoreleasing *, NSString *__autoreleasing *, NSString *__autoreleasing *);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *notebookCounts; // @synthesize notebookCounts=_notebookCounts;

@@ -7,14 +7,6 @@
 @protocol CKPinnedConversationActivityItem, CKPinnedConversationActivityItemViewDelegate;
 
 @protocol CKPinnedConversationActivityItemView
-- (_Bool);
-- (_Bool)Õ;
-- (void)wPreviewImageSource;
-- (void);
-- (void)ad;
-- (long long)_dataFileURL;
-- (long long);
-- (struct CGPoint)A;
 
 // Remaining properties
 @property(retain, nonatomic) id <CKPinnedConversationActivityItem> activityItem;

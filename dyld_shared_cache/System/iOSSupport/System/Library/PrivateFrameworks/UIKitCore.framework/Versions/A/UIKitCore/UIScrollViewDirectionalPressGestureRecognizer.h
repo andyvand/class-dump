@@ -17,19 +17,19 @@ __attribute__((visibility("hidden")))
     long long _activePressType;
 }
 
-- (void)itSyncEnabled:(_Bool)arg1 %d, wasReportedJunk:%d, senderIsPairedWatch:%d) /* Error: Ran out of types for this method. */;
-- (void)yndication type %ld for chat:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (void);
 - (long long);
-- (_Bool);
 - (void);
-- (void)hf	ë;
-- (void)@0:(id)arg1 8@"NSArray"16@?<v@?{CGRect={CGPoint=dd}{CGSize=dd}}@"NSArray"@"NSError">24;
-- (void)TQ,N,V_insertedTextLength;
-- (void)®}[;
-- (id)èN×ÿHí;
-- (id)dÇÿ6;
-- (void)Ý;
+- (void);
+- (id)ctivateForTargetContentIdentifierPredicate:(id)arg1;
+- (void)ontainerViewDelegate>",W,N,V_delegate;
+- (_Bool)T;
+- (void)$;
+- (id)ntOffset;
+- (void),¬e;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long activePressType; // @synthesize activePressType=_activePressType;

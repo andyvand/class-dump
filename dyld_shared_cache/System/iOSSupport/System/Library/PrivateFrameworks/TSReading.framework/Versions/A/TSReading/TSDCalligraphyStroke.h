@@ -19,7 +19,7 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool)S;
+- (_Bool);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -27,8 +27,8 @@
 - (_Bool);
 - (double);
 - (id);
-- (id);
 - (double);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double angle;

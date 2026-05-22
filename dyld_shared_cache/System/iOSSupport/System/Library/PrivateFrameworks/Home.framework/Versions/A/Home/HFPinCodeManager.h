@@ -27,6 +27,7 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -64,7 +65,6 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (long long);
 - (void);
 - (void);
@@ -74,20 +74,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)tartDate:(id)arg1;
+- (void)è ;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessCodeManager *accessCodeManager; // @synthesize accessCodeManager=_accessCodeManager;
@@ -101,7 +101,7 @@
 @property(readonly, copy) NSString *description;
 @property(nonatomic) long long fetchInProgress; // @synthesize fetchInProgress=_fetchInProgress;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMHome *home; // @synthesize home=_home;
+@property(nonatomic) __weak HMHome *home; // @synthesize home=_home;
 @property(retain) NAFuture *inProgressFetchFromAccessories; // @synthesize inProgressFetchFromAccessories=_inProgressFetchFromAccessories;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(readonly) Class superclass;

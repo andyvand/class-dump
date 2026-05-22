@@ -45,18 +45,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (CDStruct_0441cfb5);
 - (unsigned char);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -65,21 +65,21 @@
 - (_Bool);
 - (CDStruct_0441cfb5);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (int);
 - (id);
 - (void);
-- (id)CHChartInfoColumn3DScaleProperty;
 - (void);
-- (void)ÿ)ãXl2;
-- (id);
+- (id);
+- (void)lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/tables/TSTTableStyle.mm;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool cellWasEditedInCurrentSession;

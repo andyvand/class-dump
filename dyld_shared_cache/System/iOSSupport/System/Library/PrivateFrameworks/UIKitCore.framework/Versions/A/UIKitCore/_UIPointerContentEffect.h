@@ -22,17 +22,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (id);
+- (id);
+- (void)hDefaultShadow;
+- (void)stedVerticalOffsetPinnedToScrollableBounds: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)
-× ;
-- (id);
-- (void), UIScrollView *__strong);
-- (void);
+- (id)¨v^;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

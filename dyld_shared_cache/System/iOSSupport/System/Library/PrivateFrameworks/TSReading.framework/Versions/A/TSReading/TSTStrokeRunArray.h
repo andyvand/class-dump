@@ -15,10 +15,10 @@
     struct _opaque_pthread_rwlock_t mRWLock;
 }
 
+- (void);
+- (id);
 - (id);
 - (double);
-- (void);
-- (id)total;
 
 // Remaining properties
 @property(readonly, nonatomic) double maxWidth; // @synthesize maxWidth=mMaxWidth;

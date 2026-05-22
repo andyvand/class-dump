@@ -30,11 +30,11 @@
 - (struct CGSize);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
 - (unsigned long long);
+- (_Bool);
 - (id);
 - (id);
+- (void)afari_isICloudAppWithBundleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

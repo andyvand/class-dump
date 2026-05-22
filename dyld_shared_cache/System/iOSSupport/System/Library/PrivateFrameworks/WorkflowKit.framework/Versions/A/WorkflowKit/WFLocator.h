@@ -25,20 +25,19 @@
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (CDUnknownBlockType);
 - (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void)f°1B0@ù
-× ;
+- (void)utRunner";
+- (void)callbackScheme;
+- (double)Ì´n,o¬¸p$qD¡rH¢s¤t¦8©uH¬ ­v\²;
+- (void)tentItem appUsageResultCoercionHandler]_block_invoke;
+- (void)Save (WFAskWhereToSave);
+- (void)urce;
 
 // Remaining properties
 @property(retain, nonatomic) CLLocation *bestEffortLocation; // @synthesize bestEffortLocation=_bestEffortLocation;

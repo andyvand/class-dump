@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
-+ (_Bool)tionCounter;
 + (_Bool);
-+ (id)Character: /* Error: Ran out of types for this method. */;
-+ (id)käj8_G;
-+ (long long)ÿe;
++ (_Bool);
++ (id);
++ (id)wWillBecomeApplicationKeyNotification;
++ (long long)XÀö;
 
 @end
 

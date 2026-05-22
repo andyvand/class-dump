@@ -12,8 +12,8 @@
     MISSING_TYPE *initiateGroupVideoCall;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

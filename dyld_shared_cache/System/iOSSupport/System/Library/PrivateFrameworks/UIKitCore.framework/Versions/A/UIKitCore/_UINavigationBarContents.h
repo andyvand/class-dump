@@ -34,17 +34,17 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)efaultSuggestion: /* Error: Ran out of types for this method. */;
-- (void)ncurrentGestureRecognizers;
-- (id)ustomizationEvent: /* Error: Ran out of types for this method. */;
-- (void)imageForTraitCollection:(id)arg1;
-- (id)mRawValue;
-- (id)*__strong, _UIFocusEnvironmentPreferenceEnumerationContext *__strong, void (^__strong)(__strong id<_UIFocusEnvironmentPreferenceEnumerationContext>, _UIFocusEnvironmentPreferenceEnumerationResult *), _UIFocusEnvironmentPreferenceEnumerationResult *);
+- (id);
 - (void);
-- (id);
-- (void)Ô¶Ñþî­;
-- (id)ðõ`;
+- (void)uInteraction"16@"UIContextMenuConfiguration"24@"<NSCopying>"32;
+- (id)preferredFocusEnvironments;
+- (id)nShouldBeginFromPreviewItemController:forPosition: /* Error: Ran out of types for this method. */;
+- (void)22CAPresentationModifierCG;
+- (void)¤;
+- (id);
+- (id)Ðå\;
 
 // Remaining properties
 @property(retain, nonatomic) _UINavigationBarTitleView *augmentedTitleView; // @synthesize augmentedTitleView=_augmentedTitleView;

@@ -13,12 +13,12 @@
 }
 
 + (struct _xpc_type_s *);
-+ (_Bool)verifiedBy;
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (void)Q;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *object; // @synthesize object=_object;

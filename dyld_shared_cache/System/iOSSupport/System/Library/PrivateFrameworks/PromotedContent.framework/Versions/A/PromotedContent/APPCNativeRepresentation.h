@@ -16,12 +16,12 @@
     void campaignData;
 }
 
-- (id)erAvailableAlertTitle;
 - (id);
-- (id)?;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *advertiserName;

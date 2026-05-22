@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)tÂ£ÿ3HVõ5;
+- (id)merClass;
 
 @end
 

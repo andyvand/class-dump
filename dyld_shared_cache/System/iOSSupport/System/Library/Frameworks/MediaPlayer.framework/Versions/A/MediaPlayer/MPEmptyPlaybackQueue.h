@@ -10,10 +10,10 @@
 {
 }
 
-+ (_Bool)rkArtworkDataSource:-URLSession:dataTask:didReceiveData:creating data task using accumulatedData.length. %p dataTask=%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld accumulatedData.length=%lu /* Error: Ran out of types for this method. */;
-+ (id)ëÿCXÃS;
-- (id)C;
-- (id)ineDescriptor"16Q24@?<v@?@"<MTLRenderPipelineState>"@"MTLRenderPipelineReflection"@"NSError">32;
++ (id);
++ (_Bool);
+- (id);
+- (id);
 
 @end
 

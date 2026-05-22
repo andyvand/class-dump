@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSceneWorkspace;
-
 @protocol FBSceneWorkspaceDelegate
 
 @optional
-- (void)erver:(FBSceneWorkspace *)arg1;
-- (void)oÐ!äGù±Á°1¢!0@ù
-× ;
-- (void)ocusSystemSceneComponent:(FBSceneWorkspace *)arg1;
+- (void)ive;
+- (void)fset;
+- (void)oard Camera;
 @end
 

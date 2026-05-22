@@ -5,13 +5,13 @@
 class GLRResourceList {
 public: // (access info unavailable from symbols alone)
     GLRResourceList();
-    addFence(GLRResource*);
-    addResource(GLRResource*);
-    dealloc();
-    initWithCapacity(unsigned int);
-    makeResourcesBusy();
-    makeResourcesNotBusyAndReset();
-    releaseAllResources();
-    releaseToPool();
+    auto addFence(GLRResource*);
+    auto addResource(GLRResource*);
+    auto dealloc();
+    auto initWithCapacity(unsigned int);
+    auto makeResourcesBusy();
+    auto makeResourcesNotBusyAndReset();
+    auto releaseAllResources();
+    auto releaseToPool();
     ~GLRResourceList();
 };

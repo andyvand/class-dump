@@ -26,13 +26,14 @@
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (_Bool);
-- (_Bool)EditorModelManagerDelegateInternal;
-- (_Bool);
+- (void);
+- (_Bool)1Â0@ù
+× ;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType avatarUpdater; // @synthesize avatarUpdater=_avatarUpdater;

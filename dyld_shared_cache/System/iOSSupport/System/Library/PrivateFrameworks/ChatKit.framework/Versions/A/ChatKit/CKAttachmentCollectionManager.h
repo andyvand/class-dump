@@ -18,26 +18,26 @@ __attribute__((visibility("hidden")))
     NSSet *_photoTransferGUIDs;
 }
 
-- (id)MostRecentQuery;
-- (void);
-- (void)e;
-- (void)[;
-- (void);
-- (void)d;
-- (id)ect;
-- (id)triggerNotificationForMentionAttachments:context:]_block_invoke /* Error: Ran out of types for this method. */;
-- (id)oBPBx7ynGU/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/Text/TextAttachments/ICBaseAttachmentView.m;
-- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)<9®GG¦­y5®SgGGGGAFyA3GGGGGG_Qo_;
-- (void)ð®ë®G_AAy)É®<±®yöÁ®GGAFtGG¹®yT®GG;
+- (void)`&\;
 
 // Remaining properties
 @property(retain, nonatomic) IMChat *chat; // @synthesize chat=_chat;

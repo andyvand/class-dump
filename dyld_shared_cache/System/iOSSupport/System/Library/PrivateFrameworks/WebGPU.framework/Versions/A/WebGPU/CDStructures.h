@@ -6,6 +6,10 @@
 
 @class MISSING_TYPE;
 
+#pragma mark Blocks
+
+typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
+
 #pragma mark Named Structures
 
 struct BindableResources;
@@ -88,6 +92,13 @@ struct variant<WTF::RefPtr<WebGPU::Buffer>, WTF::RefPtr<const WebGPU::Texture>, 
 };
 
 #pragma mark Typedef'd Structures
+
+typedef struct {
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+} CDStruct_a06f635e;
 
 typedef struct {
     MISSING_TYPE *_field1[4];

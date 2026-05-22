@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PKApplePayUserEducationDemoControllerDelegate;
+@class NSDate, NSObject, NSString;
+@protocol OS_dispatch_source, PKApplePayUserEducationDemoControllerDelegate;
 
 @interface PKApplePayUserEducationDemoController
 {
@@ -16,12 +16,18 @@
     double _pitchAmountTarget;
     double _pitchAmountDelta;
     CDUnknownBlockType _boopSimulationCompletion;
+    _Bool _isPaused;
     CDStruct_4b7586ca _motionSampleStart;
     CDStruct_4b7586ca _motionSampleEnd;
     CDStruct_4b7586ca _motionSampleDeepDip;
     _Bool _isCollectingMotions;
+    NSObject<OS_dispatch_source> *_simulationTimer;
+    NSDate *_timerSimulationStartedTimestamp;
+    double _timerSimulationTimeRemaining;
 }
 
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,8 +39,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

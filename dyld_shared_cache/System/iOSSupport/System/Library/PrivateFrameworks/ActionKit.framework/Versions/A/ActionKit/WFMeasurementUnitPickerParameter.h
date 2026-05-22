@@ -16,11 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id)able;
+- (void)oadNote returned empty sharedNotebook; turning into NotFound.;
 
 // Remaining properties
 @property(nonatomic) __weak WFAction *action; // @synthesize action=_action;

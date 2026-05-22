@@ -15,29 +15,29 @@ __attribute__((visibility("hidden")))
     CKFullscreenEffectMessageFilter *_activeMessageEffectFilter;
 }
 
-- (void)tePicker;
-- (void)onPressedColor;
-- (void)T@"NSColor",C,N;
-- (void)celButton;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (double);
 - (id);
 - (id);
 - (id);
-- (void)"ICAttachment"8{_NSRange=QQ}16^B32;
-- (void)onStateItemTypeObjectID;
-- (void)notes only.;
-- (id)ontext %@;
-- (void)ctionWithSelectionAffinity: /* Error: Ran out of types for this method. */;
-- (void)eTimestamp:] /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)OscarChat;
-- (id)nkRecoveryChatItem;
-- (void)Q­ySX­yAAyJQ­Å­G_AAy[R­AKG«L­AMtGG#­GG_]BýÿQo_GGARG\B­G;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)Ð¨;
+- (void);
+- (void)@M64j/;
 
 // Remaining properties
 @property(retain, nonatomic) CKFullscreenEffectMessageFilter *activeMessageEffectFilter; // @synthesize activeMessageEffectFilter=_activeMessageEffectFilter;

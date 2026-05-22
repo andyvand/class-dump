@@ -7,6 +7,7 @@
 @class _UIActionSheetCompactPresentationController;
 
 @protocol _UIActionSheetCompactPresentationControllerDelegate
-- (void)to register item %lld in chunk store:(_UIActionSheetCompactPresentationController *)arg1 %{public}@.;
+- (void)unsigned short, 16>, std:(_UIActionSheetCompactPresentationController *)arg1:vector<unsigned long>>="__data"(__union<std::__variant_detail::_Trait::_Available, 0UL, _UIBitSet<256>, _UISmallVector<unsigned short, 16>, std::vector<unsigned long>>="__dummy"c"__head"{__alt<0UL, _UIBitSet<256>>="__value"{_UIBitSet<256UL>="_chunks"[4Q]}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 1UL, _UISmallVector<unsigned short, 16>, std::vector<unsigned long>>="__dummy"c"__head"{__alt<1UL, _UISmallVector<unsigned short, 16>>="__value"{_UISmallVector<unsigned short, 16UL>="_vector""_size"Q}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 2UL, std::vector<unsigned long>>="__dummy"c"__head"{__alt<2UL, std::vector<unsigned long>>="__value"{vector<unsigned long, std::allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}}}"__tail"(__union<std::__variant_detail::_Trait::_Available, 3UL>=))))"__index"I}} /* Error: Ran out of types for this method. */;
+- (_Bool)þÿ;
 @end
 

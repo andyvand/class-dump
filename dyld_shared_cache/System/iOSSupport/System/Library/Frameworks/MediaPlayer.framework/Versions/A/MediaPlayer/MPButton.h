@@ -17,30 +17,31 @@
 }
 
 + (struct UIEdgeInsets);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (double);
 - (_Bool);
 - (void);
-- (void) ;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool)tDimensionSizeRange: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool)";
-- (void);
+- (struct CGRect);
+- (_Bool);
 - (struct UIEdgeInsets);
-- (id);
-- (void)D;
+- (void)0@ù
+× ;
+- (void)bindBoolValue:toParameterNamed: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (void)ted] result=%@;
 - (void);
-- (struct CGRect)8ô;
-- (struct UIEdgeInsets)t tokens [not found] count=%lld;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;

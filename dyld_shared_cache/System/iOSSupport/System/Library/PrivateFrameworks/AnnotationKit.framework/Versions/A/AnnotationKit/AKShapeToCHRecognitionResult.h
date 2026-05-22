@@ -17,22 +17,23 @@
     struct CGRect _doodlePathBoundsInInputView;
 }
 
-- (void);
 - (void);
-- (void);
-- (id)4;
+- (void);
+- (void);
 - (id);
-- (_Bool);
-- (struct CGRect)8 ;
-- (id);
-- (void);
-- (void);
+- (id);
+- (_Bool);
+- (struct CGRect);
 - (id);
 - (void);
 - (id);
 - (void);
 - (long long);
-- (void)V_singleDotRect;
+- (id);
+- (void);
+- (void);
+- (void)êð1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain) AKAnnotation *annotation; // @synthesize annotation=_annotation;

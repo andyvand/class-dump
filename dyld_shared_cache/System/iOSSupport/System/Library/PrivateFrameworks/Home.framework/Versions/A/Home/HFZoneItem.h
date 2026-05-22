@@ -22,14 +22,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)ssing user action prediction:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

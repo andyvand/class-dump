@@ -4,16 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObjectAssetMenuBuilder, NSArray;
-
 @protocol CKMediaObjectAssetMenuBuilderDelegate
-- (_Bool)¬;
-- (NSArray *)ring",&,N,V_csEvaluatorMatchString;
-- (void)ColorDescription:(CKMediaObjectAssetMenuBuilder *)arg1;
-- (void)SString",&,N,S_icaxSetCachedApproximateColorDescription:(CKMediaObjectAssetMenuBuilder *)arg1;
-- (void)t",R,N;
-- (void)ringMatchingTokens;
-- (void)ToNotesVersionData:(CKMediaObjectAssetMenuBuilder *)arg1;
-- (void)&,N,V_observableProperties;
 @end
 

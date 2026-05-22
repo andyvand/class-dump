@@ -18,29 +18,30 @@ __attribute__((visibility("hidden")))
     NSUUID *_sessionIdentifier;
 }
 
-+ (_Bool)SupportedOrientationsUpdated: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)?;
-- (id)C;
-- (id)formChanges:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void)¡ò;
+- (id)a1Â0@ù
+× ;
 - (id);
-- (id)1H2235D6°8;
-- (id)ðüÿJ{þÿîüÿ;
-- (void)EMFSkinToneSpecifierTypeFitzpatrick1_2;
-- (void)Key;
-- (id)ÿÂ¬;
+- (void)toOrientation:(id)arg1 duration: /* Error: Ran out of types for this method. */;
+- (void)Connected;
+- (void)InteractionIfNeeded;
+- (void)e;
+- (id)const __strong, _UIFastIndexSet *const __strong, _UIFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
+- (void)ntrolPointerHoverStyleDriver;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak _UINavigationBarTitleRenamer *attachedRenamer; // @synthesize attachedRenamer=_attachedRenamer;

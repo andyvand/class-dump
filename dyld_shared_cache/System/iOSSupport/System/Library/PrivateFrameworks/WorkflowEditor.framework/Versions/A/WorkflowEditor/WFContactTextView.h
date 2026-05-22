@@ -26,16 +26,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void)1B0@ù
-× ;
-- (void)¡X] ×ÞÿaX]`×ÞÿX]\×ÞÿYX]X×ÞÿYX] ×ÞÿaX]è×ÞÿaX]ØÞÿ)X]ØÞÿ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Xß;
+- (void)ÅÓë.;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsTextEntry; // @synthesize allowsTextEntry=_allowsTextEntry;

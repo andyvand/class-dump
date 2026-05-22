@@ -11,12 +11,12 @@
     NSString *_domain;
 }
 
-- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id);
-- (id)Type;
+- (void)xperimentalFeature: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;

@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool)ibutedStringCtc;
++ (_Bool);
 + (_Bool);
 + (id);
 + (id);

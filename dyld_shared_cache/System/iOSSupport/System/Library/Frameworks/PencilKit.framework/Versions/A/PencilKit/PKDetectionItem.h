@@ -25,7 +25,7 @@
 
 - (void);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,13 +53,13 @@
 - (void);
 - (struct CGRect);
 - (id);
+- (id);
+- (id);
+- (id);
 - (double);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)<;
 
 // Remaining properties
 @property(readonly, nonatomic) UIBezierPath *_baselinePath;

@@ -4,6 +4,6 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
-    basic_string[abi:ne200100]<0>(char const*);
+    auto __throw_length_error[abi:nqe210106]();
+    auto basic_string[abi:nqe210106]<0>(char const*);
 };

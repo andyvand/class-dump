@@ -27,21 +27,21 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)shouldReduceAttributions: /* Error: Ran out of types for this method. */;
+- (_Bool)ÌÕ,Öø×;
+- (void);
+- (void)sAreLoaded];
 
 // Remaining properties
 @property(retain, nonatomic) NSString *addToSiriBundleIdentifier; // @synthesize addToSiriBundleIdentifier=_addToSiriBundleIdentifier;

@@ -15,14 +15,14 @@
 + (_Bool);
 - (id);
 - (id);
-- (void)«-È;
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (id);
 - (CDUnknownBlockType);
-- (id);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 

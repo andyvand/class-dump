@@ -43,17 +43,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (struct os_unfair_lock_s);
 - (void);
+- (id);
 - (struct CGSize);
-- (id);
-- (void)/;
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (struct os_unfair_lock_s);
+- (void)@0:8@"<SXDocumentStyle>"16@"SXDOM"24@"SXLayoutOptions"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak SXAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;

@@ -26,20 +26,21 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (unsigned long long)F	;
-- (_Bool);
-- (id);
-- (id)id.open('https:(struct _NSZone *)arg1 //apple.news/subscription')" id="ad-content" class="ad ad--ipad ad--large"></article><script>function changeClass() {var obj = document.getElementById('ad-content');if( Math.abs(window.orientation) === 90 ) {obj.classList.remove('ad--portrait');obj.classList.add('ad--landscape');} else {obj.classList.remove('ad--landscape');obj.classList.add('ad--portrait');}}if('large' === 'htmlinterstitial' && 'ipad' === 'iphone') {window.addEventListener('orientationchange', changeClass);window.addEventListener('resize', changeClass);window.addEventListener('load', changeClass);}</script></body></html>;
-- (id);
-- (void)0;
-- (id);
 - (long long);
 - (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void)Address:(id)arg1 style: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)Á÷Ð!EùQ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

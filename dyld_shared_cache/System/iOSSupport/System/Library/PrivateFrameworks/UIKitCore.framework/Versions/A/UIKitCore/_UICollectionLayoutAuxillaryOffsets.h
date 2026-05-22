@@ -12,29 +12,29 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_offsets;
 }
 
-- (void);
-- (struct _NSRange);
-- (void);
-- (id);
-- (long long);
-- (_Bool);
-- (void);
 - (id);
+- (struct _NSRange);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (long long);
 - (void);
-- (_Bool)¹;
-- (void)¿Á;
-- (void)ù
+- (void)Â0@ù
 × ;
-- (id)±Ë1¢!0@ù
+- (id)0@ù
 × ;
-- (id)rdState;
-- (id)rame:(id)arg1 inWindow:isAzulBLinked: /* Error: Ran out of types for this method. */;
-- (id)nfocusedShadowImage;
-- (id)dIds;
-- (_Bool)0 l;
-- (void)k;
-- (id)þ¹44Ãiþ©4Âiþ;
-- (void)ÿ;
+- (_Bool)Text:(id)arg1;
+- (void)artTime:(id)arg1 duration:curve: /* Error: Ran out of types for this method. */;
+- (void)hTextPasteCoordinator:(id)arg1;
+- (id)hScrollViewTransitionForController:(id)arg1;
+- (id)View>",&,N;
+- (void)tions;
+- (void)ÿl;
+- (void)Ôô;
+- (id)are IGNORING this invalidation since the area to layout in is 0.;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

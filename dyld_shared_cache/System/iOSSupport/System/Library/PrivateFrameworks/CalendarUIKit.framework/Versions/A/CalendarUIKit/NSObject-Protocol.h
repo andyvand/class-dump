@@ -7,13 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (id)1;
-- (oneway void);
-- (_Bool)tionEnabled,S_setFindInteractionEnabled:(id)arg1 ,V_findInteractionEnabled;
-- (struct _NSZone *)wWillCreateSnapshot;
-- (_Bool)n:(Class)arg1;
-- (id)rollerInterface;
+- (struct _NSZone *)i;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

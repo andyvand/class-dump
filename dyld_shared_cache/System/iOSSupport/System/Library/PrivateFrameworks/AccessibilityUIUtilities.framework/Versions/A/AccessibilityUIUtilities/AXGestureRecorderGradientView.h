@@ -10,13 +10,13 @@
 {
 }
 
-+ (Class)b;
-- (void)iderPresenterInfo";
-- (void)RL";
++ (Class);
 - (void);
-- (void)NSSet<__BSAction__>";
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)e;
+- (id);
 - (void);
 - (id);
 

@@ -16,11 +16,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)hare;
+- (id)(S´T´U;
+- (void)Item;
+- (void)U0ê?«>W[±¿ê?+öÝë?ç;dîð?ç;dîð¿)\Âõ(¬?Ãõ(\Âá?;
+- (id)Äÿ¨%¿;
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *animations; // @synthesize animations=_animations;

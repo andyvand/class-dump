@@ -10,27 +10,22 @@
 @interface CKCompositionTranslator
 {
     void delegate;
-    _Bool _isTranslating;
     MISSING_TYPE *task;
+    MISSING_TYPE *debounceTask;
     MISSING_TYPE *translator;
     MISSING_TYPE *streamStorage;
 }
 
 - (void);
-- (void)- JavaScript error:(_Bool)arg1 %@;
-- (void)(folderType != %d || SUBQUERY(notes, $n, $n.markedForDeletion != YES).@count > 0);
-- (_Bool);
 - (void);
 - (void);
-- (id);
-- (id)ß<?Sg;
-- (void)HÄ;
-- (_Bool)ÿØm1bÅ0;
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool _isTranslating; // @synthesize _isTranslating;
 @property(nonatomic) __weak id <CKCompositionTranslatorDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) _Bool isTranslating;
 
 @end
 

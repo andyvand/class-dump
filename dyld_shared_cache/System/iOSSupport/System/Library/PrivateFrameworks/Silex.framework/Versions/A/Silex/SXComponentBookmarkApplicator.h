@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)icGalleryCluster";
+- (void)ÿë;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

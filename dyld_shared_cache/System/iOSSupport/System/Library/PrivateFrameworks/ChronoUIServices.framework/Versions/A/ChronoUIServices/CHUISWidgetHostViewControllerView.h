@@ -11,14 +11,14 @@
     CHUISWidgetHostViewController *_parentController;
 }
 
-- (id);
 - (void);
+- (id);
 - (struct CGSize);
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (void);
 - (double);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak CHUISWidgetHostViewController *parentController; // @synthesize parentController=_parentController;

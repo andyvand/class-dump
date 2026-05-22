@@ -45,14 +45,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (long long);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

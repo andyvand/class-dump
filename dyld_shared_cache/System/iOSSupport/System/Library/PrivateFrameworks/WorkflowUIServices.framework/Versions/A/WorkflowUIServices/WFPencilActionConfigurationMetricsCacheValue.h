@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     CDStruct_b5e8865e _value;
 }
 
-- (CDStruct_b5e8865e);
 - (void);
+- (CDStruct_b5e8865e);
 - (id);
 
 // Remaining properties

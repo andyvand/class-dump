@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSCustomTextRendering, _NSCustomTextRenderingDisplayLink, _NSTextAnimator;
+@protocol NSCustomTextRendering, _NSCustomTextRenderingDisplayLink;
 
 @protocol _UICustomTextRenderController
-- (void)data;
-- (void)e a separate localDataStore for putting trust object.;
-- (id <_NSCustomTextRenderingDisplayLink>)32@0:8q16q24 /* Error: Ran out of types for this method. */;
-- (struct CGRect)@16B24@28@36;
-- (id <_NSTextAnimator>)cipients;
-- (id <_NSTextAnimator>)ssageIDs;
+- (id <NSCustomTextRendering>)3yACyACyACyACyñ¾7L¦.3G¿.3y@q¾7ë¾7GGì¾7G&¦.3G».3GtG;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect _customRenderBounds;

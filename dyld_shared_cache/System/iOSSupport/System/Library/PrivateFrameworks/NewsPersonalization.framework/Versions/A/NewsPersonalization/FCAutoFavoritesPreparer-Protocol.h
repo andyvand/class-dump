@@ -5,6 +5,5 @@
 //
 
 @protocol FCAutoFavoritesPreparer
-- (void)`@;
 @end
 

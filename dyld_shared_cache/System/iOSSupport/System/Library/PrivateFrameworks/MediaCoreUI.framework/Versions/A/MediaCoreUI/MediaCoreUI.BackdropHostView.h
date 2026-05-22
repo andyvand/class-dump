@@ -14,16 +14,15 @@
     MISSING_TYPE *isPaused;
     MISSING_TYPE *intensity;
     MISSING_TYPE *crossfadeDuration;
-    MISSING_TYPE *useMask;
     MISSING_TYPE *allowsDisplayCompositing;
 }
 
 - (void);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (void);
+- (void)m %{public}s to %{public}s. VideoSource:%{public}s. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool accessibilityIgnoresInvertColors;

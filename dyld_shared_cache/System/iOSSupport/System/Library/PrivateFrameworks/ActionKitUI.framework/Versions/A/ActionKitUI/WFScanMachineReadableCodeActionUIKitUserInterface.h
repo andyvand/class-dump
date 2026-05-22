@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 

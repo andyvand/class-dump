@@ -37,11 +37,11 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (id);
 - (void);
 
 // Remaining properties

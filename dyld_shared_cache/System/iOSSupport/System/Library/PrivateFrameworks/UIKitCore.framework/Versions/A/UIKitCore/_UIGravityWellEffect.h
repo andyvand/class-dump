@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     double _baseZOffset;
 }
 
-+ (id)message sent sound type:(id)arg1 %@, for message:(id)arg2 %@;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -33,26 +33,27 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (double);
-- (void)132@?136;
-- (void)RemoveChat: /* Error: Ran out of types for this method. */;
-- (void)etch;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)load:(double)arg1 %@;
-- (void)Starting to monitor...;
-- (id)own resource ULR callback over quick switch service %ld;
+- (void);
 - (id);
-- (void)BundleID:(double)arg1 originatingWebsiteURL:predictionAge:shouldAggregate:flags:score:source:sourceIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
 - (void);
+- (unsigned long long);
+- (void)!CùQ^1Â0@ù
+× ;
+- (long long);
+- (void)LineBreak;
+- (void)uration;
+- (void);
+- (id)efore deallocating;
 - (void);
-- (long long)rticalLayoutSpacer;
-- (unsigned long long)rtControllerVisualStyleProviding>",W,N,G_styleProvider,S_setStyleProvider:,V_styleProvider /* Error: Ran out of types for this method. */;
-- (id);
-- (void)pactScrollEdgeAppearance;
-- (void)h a view, which it needs to animate on displays different from the main one.;
-- (void)Ü*{ÿ;
+- (void)Ä{ÿ£Ùê_;
 
 // Remaining properties
 @property(nonatomic) unsigned long long animationCount; // @synthesize animationCount=_animationCount;

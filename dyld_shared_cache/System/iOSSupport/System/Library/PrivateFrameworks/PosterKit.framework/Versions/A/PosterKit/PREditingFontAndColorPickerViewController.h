@@ -88,23 +88,25 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
 - (void);
 - (unsigned long long);
-- (void)onStyle;
-- (id)rides;
-- (id)Appearance;
-- (void)HÆûÿ;
+- (CDUnknownBlockType);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)ù±ñ1â
+0@ù
+× ;
+- (void);
+- (void)iguration:(id)arg1 highlightPreviewForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *additionalFontConfigurations; // @synthesize additionalFontConfigurations=_additionalFontConfigurations;

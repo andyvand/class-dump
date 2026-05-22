@@ -27,31 +27,31 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)object {share:%@, objectID:%@} /* Error: Ran out of types for this method. */;
-- (void)Document;
-- (id)et;
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)cessibilityLinkedUIElementsBlock: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)ùá#;
-- (id)yÊ<GÄ¬G;
-- (void)GGAD_G;
+- (void)eteChatItems:(id)arg1;
+- (id)eadAtFileURL:isResolved: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buttonText; // @synthesize buttonText=_buttonText;

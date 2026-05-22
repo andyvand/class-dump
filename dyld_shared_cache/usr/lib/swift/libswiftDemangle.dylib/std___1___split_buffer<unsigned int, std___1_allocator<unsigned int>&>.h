@@ -4,5 +4,5 @@
 
 class std::__1::__split_buffer<unsigned int, std::__1::allocator<unsigned int>&> {
 public: // (access info unavailable from symbols alone)
-    emplace_back<unsigned int const&>(unsigned int const&);
+    void emplace_back<unsigned int const&>(unsigned int const&);
 };

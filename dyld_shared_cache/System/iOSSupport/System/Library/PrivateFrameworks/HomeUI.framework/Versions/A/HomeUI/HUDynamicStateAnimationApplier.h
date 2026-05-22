@@ -31,10 +31,9 @@
 - (double);
 - (double);
 - (void);
-- (void);
+- (_Bool);
 - (id);
-- (_Bool)Á&ð!¨@ùÑ0Ð1b0@ù
-× ;
+- (void)th identifier:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HUAnimationSettings *animationSettings; // @synthesize animationSettings=_animationSettings;

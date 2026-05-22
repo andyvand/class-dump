@@ -5,7 +5,6 @@
 //
 
 @protocol PXGMutableHostingControllerPresenterMutator
-- (void);
 
 // Remaining properties
 @property(nonatomic) double displayScale;

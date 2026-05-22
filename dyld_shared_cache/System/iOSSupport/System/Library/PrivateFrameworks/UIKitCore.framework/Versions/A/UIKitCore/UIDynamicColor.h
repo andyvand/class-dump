@@ -11,26 +11,25 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)¢!0@ù
-× ;
-- (id)erViewForSection:(long long)arg1;
-- (id)delay,S_setDelay:(id)arg1 ,V_delay;
-- (struct CGColor *);
-- (_Bool)seTelephonyUI;
-- (_Bool)tingModeDestination;
 - (id);
+- (id);
+- (id)"_UIContextMenuPresentation"16@24^B32;
+- (struct CGColor *);
+- (void)*$ÏÜ.k;
+- (id);
+- (void)Lî¤ÿKy;
+- (_Bool)ØÔÿ·ª;
+- (_Bool)Ì%ÿ|¯;
+- (_Bool)!;
+- (id);
+- (double)q;
+- (void)L¨ÿ;
+- (id)¶hÿ;
 - (_Bool);
-- (void)inputBleedColorMatrixWhite;
-- (void);
-- (void)©t4XØlþt4,þ;
+- (long long)ôÞuÿ;
+- (_Bool);
 - (id);
-- (_Bool)¸%;
-- (double)WD^;
-- (id)g;
-- (_Bool)@ïþ;
-- (id)§ÿ³ÙÒi;
-- (_Bool)ÿã¡×Ötm;
-- (long long)?;
+- (_Bool)ì;
 
 @end
 

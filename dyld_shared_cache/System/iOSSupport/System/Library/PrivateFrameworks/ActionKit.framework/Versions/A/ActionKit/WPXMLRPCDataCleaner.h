@@ -21,8 +21,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)or;
 
 @end
 

@@ -5,7 +5,7 @@
 class icu::numparse::impl::AffixPatternMatcher {
 public: // (access info unavailable from symbols alone)
     AffixPatternMatcher(icu::MaybeStackArray<icu::numparse::impl::NumberParseMatcher const*, 3>&, int, icu::UnicodeString const&, UErrorCode&);
-    fromAffixPattern(icu::UnicodeString const&, icu::numparse::impl::AffixTokenMatcherWarehouse&, int, bool*, UErrorCode&);
-    getPattern() const;
-    operator==(icu::numparse::impl::AffixPatternMatcher const&) const;
+    auto fromAffixPattern(icu::UnicodeString const&, icu::numparse::impl::AffixTokenMatcherWarehouse&, int, bool*, UErrorCode&);
+    auto getPattern() const;
+    auto operator==(icu::numparse::impl::AffixPatternMatcher const&) const;
 };

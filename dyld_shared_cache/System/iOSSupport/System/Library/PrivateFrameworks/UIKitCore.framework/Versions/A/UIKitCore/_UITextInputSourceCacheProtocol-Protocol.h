@@ -5,7 +5,8 @@
 //
 
 @protocol _UITextInputSourceCacheProtocol
-- (void)terSettings",&,N,V_freeformPointerSettings;
+- (void):(long long)arg1 asTap:(unsigned long long)arg2 precision: /* Error: Ran out of types for this method. */;
+- (long long)h!;
 
 // Remaining properties
 @property(readonly, nonatomic) long long lastEventSource;

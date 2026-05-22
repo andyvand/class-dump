@@ -4,6 +4,6 @@
 
 class vector<phy_ext_addr> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
+    auto reserve(unsigned long);
     ~vector();
 };

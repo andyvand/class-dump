@@ -20,13 +20,12 @@
     MISSING_TYPE *cancellables;
 }
 
-- (void);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)0@ù
-× ;
+- (void);
+- (void);
 
 @end
 

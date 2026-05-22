@@ -9,11 +9,11 @@
 }
 
 - (double);
-- (id)playController;
-- (id)0@ù
+- (id);
+- (id);
+- (long long)1Â0@ù
 × ;
-- (long long)geMedia;
-- (long long)ave either 1 or 2 elements:%@ /* Error: Ran out of types for this method. */;
+- (long long)þZÀ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type;

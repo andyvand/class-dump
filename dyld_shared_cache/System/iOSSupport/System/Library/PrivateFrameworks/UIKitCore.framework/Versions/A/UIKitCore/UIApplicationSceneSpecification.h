@@ -8,27 +8,27 @@
 {
 }
 
-- (id)DNotificationResponseUtilitiesAdditions;
-- (Class)ficationXPCEventStreamHandler;
-- (Class);
-- (Class)nabled, delaying send of %@ by %d seconds;
-- (_Bool)or ID (%@) on service (%@);
-- (id)No time sensitive content found for message.guid:%@ /* Error: Ran out of types for this method. */;
-- (id)blic}@ yet;
-- (id)as updated %@;
-- (id)d guid conversion;
-- (id)is not found %@, No retried remain ;
-- (id)ive event with expected type '%@' error:%@ /* Error: Ran out of types for this method. */;
-- (id)a to peers:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (_Bool)dgeDelegate;
-- (_Bool)blockedHandles;
+- (id);
 - (Class);
 - (Class);
 - (Class);
-- (Class);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (Class);
+- (Class);
+- (Class);
+- (Class);
 - (Class);
 - (id);
-- (_Bool)tomImageInset;
+- (_Bool)ÐT¤p;
 
 @end
 

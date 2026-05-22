@@ -14,7 +14,7 @@
     NSObject<OS_dispatch_queue> *_workQueue;
 }
 
-+ (id)rConnection;
++ (id);
 - (_Bool);
 - (void);
 - (void);

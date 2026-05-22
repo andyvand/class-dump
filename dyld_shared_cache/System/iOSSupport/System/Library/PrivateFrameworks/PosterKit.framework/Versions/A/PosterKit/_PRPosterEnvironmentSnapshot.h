@@ -59,54 +59,54 @@
 }
 
 - (id);
+- (_Bool);
+- (_Bool);
+- (struct CGSize);
 - (struct CGRect);
-- (_Bool);
-- (id);
-- (_Bool);
 - (unsigned long long);
+- (double);
+- (long long);
+- (struct CGSize);
+- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (struct CGSize);
 - (unsigned long long);
-- (struct CGRect);
+- (double);
 - (id);
+- (unsigned long long);
 - (long long);
 - (_Bool);
-- (struct CGSize);
-- (id);
-- (double);
-- (struct CGRect);
-- (id);
-- (void);
-- (double);
-- (id);
-- (CDUnion_520b3fa7);
-- (long long);
-- (double);
-- (double);
-- (struct CGSize);
-- (_Bool);
-- (struct CGRect);
-- (id);
-- (double);
-- (struct CGSize);
-- (_Bool);
-- (long long);
 - (struct CGPoint);
 - (id);
+- (long long);
 - (id);
 - (_Bool);
+- (double);
+- (id);
 - (_Bool);
+- (CDUnion_520b3fa7);
 - (_Bool);
-- (unsigned long long);
-- (long long);
+- (struct CGRect);
+- (_Bool);
+- (double);
 - (struct CGRect);
 - (id);
-- (id)dsAuthentication:displayOrder: /* Error: Ran out of types for this method. */;
-- (id)Style;
-- (id)SgGG$ÚXGAEyss[GGtíXyAN_Qo_G·òXGAAyöºAMGGATGzÝXG¿ÿÿG;
 - (id);
-- (unsigned long long)o active connection found;
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (id);
+- (double);
+- (struct CGRect);
+- (id);
+- (struct CGRect);
+- (void);
+- (id)tedContentStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)esetHomeScreenConfiguration;
+- (id)lookupInfo;
+- (long long)ynamicRotationEnabled;
+- (_Bool)Px;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAdaptiveTimeDisabled) _Bool adaptiveTimeDisabled; // @synthesize adaptiveTimeDisabled=_adaptiveTimeDisabled;

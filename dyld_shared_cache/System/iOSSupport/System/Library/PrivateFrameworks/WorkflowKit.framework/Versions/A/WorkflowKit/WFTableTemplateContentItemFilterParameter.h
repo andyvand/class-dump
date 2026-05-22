@@ -24,7 +24,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)WFChooseFromMenuAction;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowsMultipleValues;

@@ -19,12 +19,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void)6toolId_t;
+- (void);
+- (void);
+- (id)A2;
 
 // Remaining properties
 @property(retain, nonatomic) WFWidgetConfigurationContainerView *containerView; // @synthesize containerView=_containerView;

@@ -19,11 +19,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
 - (int);
-- (_Bool);
 - (id);
-- (long long);
+- (_Bool)ot enabled;
+- (long long);
+- (_Bool)¨@Ê|º4;
 
 // Remaining properties
 @property(nonatomic, readonly) long long authorizationStatus; // @synthesize authorizationStatus;

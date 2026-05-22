@@ -13,11 +13,12 @@ __attribute__((visibility("hidden")))
     _Bool _hasRequestedPreload;
 }
 
-+ (id);
++ (id)th mismatched input could not be reconciled with contextBeforeInput
+    %@;
 - (void);
-- (id);
-- (void)uð!CùÊ1¢!0@ù
+- (id)1Â0@ù
 × ;
+- (void)Ï\;
 
 // Remaining properties
 @property(readonly, nonatomic) UISDeviceContext *initialDeviceContext;

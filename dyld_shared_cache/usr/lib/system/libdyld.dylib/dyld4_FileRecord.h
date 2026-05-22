@@ -5,14 +5,14 @@
 class dyld4::FileRecord {
 public: // (access info unavailable from symbols alone)
     FileRecord(dyld4::FileRecord&&);
-    close();
-    fileManager() const;
-    getPath() const;
-    open(int);
-    open(int) (.cold.1);
-    operator=(dyld4::FileRecord&&);
-    size() const;
-    stat() const;
-    swap(dyld4::FileRecord&);
+    auto close();
+    auto fileManager() const;
+    auto getPath() const;
+    auto open(int);
+    auto open(int) (.cold.1);
+    auto operator=(dyld4::FileRecord&&);
+    auto size() const;
+    auto stat() const;
+    auto swap(dyld4::FileRecord&);
     ~FileRecord();
 };

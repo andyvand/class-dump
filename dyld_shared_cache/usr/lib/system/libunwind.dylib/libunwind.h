@@ -4,5 +4,5 @@
 
 class libunwind {
 public: // (access info unavailable from symbols alone)
-    findDynamicUnwindSections(void*, unw_dynamic_unwind_sections*);
+    auto findDynamicUnwindSections(void*, unw_dynamic_unwind_sections*);
 };

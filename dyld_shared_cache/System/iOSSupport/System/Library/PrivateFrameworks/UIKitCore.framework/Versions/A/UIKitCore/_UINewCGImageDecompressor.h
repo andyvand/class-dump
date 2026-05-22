@@ -25,13 +25,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct CMPhotoDecompressionSession *);
+- (void);
+- (void);
 - (id);
-- (struct CGImage *);
-- (void)ome:didRemoveUser: /* Error: Ran out of types for this method. */;
+- (struct CGImage *)1Â0@ù
+× ;
+- (void)sult:(CDUnknownBlockType)arg1;
+- (id)ew;
 - (void);
-- (void);
-- (id)ing:forAnimationKey:forLayer: /* Error: Ran out of types for this method. */;
-- (void)doesn't own it;
 
 @end
 

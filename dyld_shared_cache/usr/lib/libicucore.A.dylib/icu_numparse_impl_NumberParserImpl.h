@@ -5,15 +5,15 @@
 class icu::numparse::impl::NumberParserImpl {
 public: // (access info unavailable from symbols alone)
     NumberParserImpl(int);
-    addMatcher(icu::numparse::impl::NumberParseMatcher&);
-    createParserFromProperties(icu::number::impl::DecimalFormatProperties const&, icu::DecimalFormatSymbols const&, bool, UErrorCode&);
-    createSimpleParser(icu::Locale const&, icu::UnicodeString const&, int, UErrorCode&);
-    freeze();
-    getParseFlags() const;
-    parse(icu::UnicodeString const&, bool, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
-    parse(icu::UnicodeString const&, int, bool, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
-    parseGreedy(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
-    parseLongestRecursive(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, int, UErrorCode&) const;
-    toString() const;
+    auto addMatcher(icu::numparse::impl::NumberParseMatcher&);
+    auto createParserFromProperties(icu::number::impl::DecimalFormatProperties const&, icu::DecimalFormatSymbols const&, bool, UErrorCode&);
+    auto createSimpleParser(icu::Locale const&, icu::UnicodeString const&, int, UErrorCode&);
+    auto freeze();
+    auto getParseFlags() const;
+    auto parse(icu::UnicodeString const&, bool, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
+    auto parse(icu::UnicodeString const&, int, bool, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
+    auto parseGreedy(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
+    auto parseLongestRecursive(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, int, UErrorCode&) const;
+    auto toString() const;
     ~NumberParserImpl();
 };

@@ -16,9 +16,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)1Â0@ù
+× ;
+- (id)
+× ;
 - (void);
-- (void)T{CGPoint=dd},N,V_frameOffset;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;

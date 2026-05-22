@@ -13,22 +13,22 @@
     UIButton *_notifyAnywayButton;
 }
 
-+ (id)phrase;
 + (id);
-- (void)ingValue;
-- (void)steRange:(id)arg1 textStorage: /* Error: Ran out of types for this method. */;
++ (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)e;
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)hatMessagesLoad;
-- (id)col>",&,N,V_collectionViewController;
+- (id);
+- (void)iewColor;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

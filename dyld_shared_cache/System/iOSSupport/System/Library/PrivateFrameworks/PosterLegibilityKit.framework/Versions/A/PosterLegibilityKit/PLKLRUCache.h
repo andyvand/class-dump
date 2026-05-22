@@ -12,19 +12,19 @@
     unsigned long long _capacity;
 }
 
-+ (id)context:%@] Faulting in.... /* Error: Ran out of types for this method. */;
++ (id);
+- (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
 - (void);
 - (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;

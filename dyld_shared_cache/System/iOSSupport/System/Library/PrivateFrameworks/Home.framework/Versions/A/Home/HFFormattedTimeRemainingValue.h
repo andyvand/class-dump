@@ -26,11 +26,11 @@
 - (void);
 - (id);
 - (double);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (id)LTÈè;
+- (void)¼àC;
 
 // Remaining properties
 @property(retain, nonatomic) id <HFStringGenerator> currentFormattedValue; // @synthesize currentFormattedValue=_currentFormattedValue;

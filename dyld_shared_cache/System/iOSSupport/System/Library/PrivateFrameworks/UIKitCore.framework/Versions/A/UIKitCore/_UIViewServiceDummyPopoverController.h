@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (void){;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)ctContextMenuGroupLocation;
+- (_Bool)pleFenceProvider.m;
+- (void)llPocketContainerInteractionCSgG;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIViewServiceDummyPopoverControllerDelegate> dummyPopoverControllerDelegate; // @synthesize dummyPopoverControllerDelegate=_dummyPopoverControllerDelegate;

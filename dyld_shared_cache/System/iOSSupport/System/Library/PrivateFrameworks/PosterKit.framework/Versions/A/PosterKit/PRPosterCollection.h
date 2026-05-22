@@ -36,8 +36,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)¨°!ÈGù±ñ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly) NSSet *associatedPosterUUIDs;

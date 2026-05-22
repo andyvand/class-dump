@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     void *_clusterPlaylist;
 }
 
-+ (_Bool)c}@. URL=%{public}@.storagePolicy=%lu expectedEntrySize=%lld diskCacheAvailableSize=%lld memoryCacheAvailableSize=%lld;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -33,35 +33,35 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)24@32Q40B48;
-- (id)8;
-- (_Bool)CommunicationSafetyResultEventType:(id)arg1;
-- (void)iers:(id)arg1;
-- (void)ctivationCompletion:(id)arg1;
-- (void)ountHandles:(id)arg1;
-- (void)oveAllObjects;
-- (void)vities;
-- (void)UseCase:(id)arg1;
-- (id)eId: /* Error: Ran out of types for this method. */;
-- (void)ptionIdentifier:(CDUnknownBlockType)arg1 iTunesArtistIdentifier:iTunesAlbumIdentifier:groupIdentifier:isAirPlayVideo:isRemoteControl:outputDevices: /* Error: Ran out of types for this method. */;
-- (_Bool)ailPath:ageRating:starRating:productType: /* Error: Ran out of types for this method. */;
-- (_Bool)pseDelta;
-- (void)omMe;
-- (void)ostSiriEngagement;
 - (id);
-- (_Bool)P;
-- (unsigned long long)tifiers:style:services:numberOfMessagesBefore:numberOfMessagesAfter:threadIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (id);
+- (_Bool);
+- (unsigned long long);
 - (id);
+- (id);
+- (unsigned long long);
 - (void);
+- (_Bool);
 - (void);
 - (id);
-- (unsigned long long)R,N,V_type;
-- (id)tionCapacity;
+- (id);
+- (id);
+- (unsigned long long);
+- (void)alImport;
 
 @end
 

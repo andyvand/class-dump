@@ -5,6 +5,5 @@
 //
 
 @protocol TSWelcomeDataManagerTypeDelegate
-- (void);
 @end
 

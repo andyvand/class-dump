@@ -31,18 +31,18 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (long long);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)4@0:8@16 /* Error: Ran out of types for this method. */;
-- (double);
-- (void);
+- (id);
 - (void);
-- (id)Sk;
-- (void)sonCGGÑZyçÐZ_Qo_G;
-- (void)vedToLibrary;
+- (void);
+- (void);
+- (long long)etValue: /* Error: Ran out of types for this method. */;
+- (double)cHeaderViewModelTimeDelegateP;
+- (void)r.m;
+- (void)äó:ÿ,ô:ÿ%a /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXAutoloopVideoTaskDelegate> delegate;

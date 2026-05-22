@@ -19,17 +19,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (long long)ong type %@;
-- (struct _UIUpdatePresentationTiming)@?;
+- (long long);
+- (struct _UIUpdatePresentationTiming);
 - (void);
 - (void);
-- (id)omDropSession: /* Error: Ran out of types for this method. */;
-- (unsigned int)IGestureDelaying;
-- (id)ackView;
-- (void);
+- (id);
+- (id);
 - (void);
+- (unsigned int);
+- (_Bool)(layout=%p);
+- (void).3G`Á.3y"¡.3yD¾7GGGACyÁÕ.3ycÕ.3y½Ô.3y7Ô.3yACy¥.3y_Ï.3yµ²;
 - (_Bool);
-- (_Bool)ZP[;
 
 @end
 

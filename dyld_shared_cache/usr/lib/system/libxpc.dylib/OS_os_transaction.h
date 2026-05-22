@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (void);
 - (oneway void);
-- (void)_LSServer_SendStateChangedNotificationsForBundlesWithIdentifiers(LSContext *, NSSet<NSString *> *__strong, __strong id<LSMCStateProvider>);
 - (id);
-- (id)6;
-- (void)ctionary;
+- (id);
+- (void);
 
 @end
 

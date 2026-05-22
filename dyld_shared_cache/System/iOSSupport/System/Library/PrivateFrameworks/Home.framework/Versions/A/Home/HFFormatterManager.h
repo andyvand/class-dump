@@ -12,7 +12,7 @@
     HFPercentFormatter *_percentFormatter;
 }
 
-+ (id)©ó¨;
++ (id)leDashboardDebugViews;
 - (id);
 - (void);
 - (void);
@@ -30,8 +30,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)8äC;
 
 // Remaining properties
 @property(retain, nonatomic) HFPercentFormatter *percentFormatter; // @synthesize percentFormatter=_percentFormatter;

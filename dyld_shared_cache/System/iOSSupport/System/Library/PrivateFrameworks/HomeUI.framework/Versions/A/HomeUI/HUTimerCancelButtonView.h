@@ -19,12 +19,12 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)CellDelegate>";
-- (void)eView"16@"UITableViewFocusUpdateContext"24;
+- (void);
+- (id)te>",R,W,N,V_delegate;
+- (void)tialized item manager;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;

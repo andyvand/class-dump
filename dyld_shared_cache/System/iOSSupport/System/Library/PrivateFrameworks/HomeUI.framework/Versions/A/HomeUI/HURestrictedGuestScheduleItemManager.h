@@ -20,8 +20,8 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)sidents_Control_Description;
+- (id)ions.lineSpacing;
 
 // Remaining properties
 @property(readonly, nonatomic) HFSchedule *inviteUserSchedule; // @synthesize inviteUserSchedule=_inviteUserSchedule;

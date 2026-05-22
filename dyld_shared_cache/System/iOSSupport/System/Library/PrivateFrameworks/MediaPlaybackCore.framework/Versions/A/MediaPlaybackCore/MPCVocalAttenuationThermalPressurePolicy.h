@@ -25,27 +25,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void).bundle/Contents/MacOS/PassbookAccountNotificationPlugin;
 - (void);
-- (void)AccountStore"32^@40;
-- (void)tore"24@"NSDictionary"32@?<v@?@"ACAccount"@"NSError">40;
-- (long long);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (id);
-- (id)Frameworks/Accounts.framework/Versions/A/Accounts;
-- (long long)NSError">24;
-- (_Bool)n: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (struct os_unfair_lock_s);
-- (id);
 - (long long);
 - (id);
 - (void);
-- (long long)0@ù
-× ;
+- (long long);
+- (void);
+- (struct os_unfair_lock_s);
+- (void)ier registry [] identifierRegistry=%p;
+- (id)d state transition %@ -> %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;

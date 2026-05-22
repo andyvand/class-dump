@@ -5,7 +5,8 @@
 //
 
 @protocol _UISliderTick
-- (float)fyWindowNoLongerAwaitingSystemGestureNotification: /* Error: Ran out of types for this method. */;
+- (float)qb°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) float position;

@@ -5,5 +5,6 @@
 //
 
 @protocol DCDocumentCameraPublicViewController
+- (void)nBlocker;
 @end
 

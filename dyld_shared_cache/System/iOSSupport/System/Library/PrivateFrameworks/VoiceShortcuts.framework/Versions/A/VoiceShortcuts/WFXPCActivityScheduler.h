@@ -24,10 +24,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (struct os_unfair_lock_s);
 - (void);
-- (void)pState;
-- (id);
+- (void)mentDeviceDidEnterFieldWithProperties:(struct os_unfair_lock_s)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;

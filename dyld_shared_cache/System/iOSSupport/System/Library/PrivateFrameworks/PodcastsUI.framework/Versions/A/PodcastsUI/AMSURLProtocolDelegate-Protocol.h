@@ -5,11 +5,5 @@
 //
 
 @protocol AMSURLProtocolDelegate
-
-@optional
-- (void);
-- (void)�#;
-- (void)r %ld podcasts;
-- (void)illChange;
 @end
 

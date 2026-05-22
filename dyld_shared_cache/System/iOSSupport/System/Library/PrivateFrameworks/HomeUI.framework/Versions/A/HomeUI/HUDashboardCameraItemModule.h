@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)originalScheduleBuilder;
+- (void)em '%@' is nil! Aborting commit...;
 
 // Remaining properties
 @property(retain, nonatomic) HFCameraItemProvider *cameraItemProvider; // @synthesize cameraItemProvider=_cameraItemProvider;

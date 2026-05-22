@@ -24,10 +24,11 @@
 }
 
 - (id);
-- (long long);
 - (void);
-- (id);
-- (void);
+- (long long);
+- (id)!Eù°1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long unreadCount; // @synthesize unreadCount;

@@ -41,8 +41,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)PhototypeSupportInfo;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetFetchResult> allAssets; // @synthesize allAssets=_allAssets;

@@ -7,6 +7,7 @@
 @class NSDate, NSString;
 
 @protocol PXDisplayCollection
+- (NSString *)48@0:8@16@24@32@40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canContainAssets;

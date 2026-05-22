@@ -32,22 +32,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void)ed successfully;
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)44@0:(id)arg1 8@16@24@32i40;
-- (void):(id)arg1;
-- (id)H¬¼;
-- (void)chInfo *__strong _Nonnull);
-- (id)¬;
+- (void)FingerPanGestureRecognizer;
+- (id)¨ýþ;
+- (void)or UIAxisHorizontal;
+- (void);
+- (id)M;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;

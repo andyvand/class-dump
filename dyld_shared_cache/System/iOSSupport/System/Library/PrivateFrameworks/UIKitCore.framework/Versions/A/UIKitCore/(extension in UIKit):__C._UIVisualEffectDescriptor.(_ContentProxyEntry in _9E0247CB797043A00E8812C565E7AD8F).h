@@ -13,11 +13,10 @@
     MISSING_TYPE *contentView;
 }
 
+- (id);
 - (void);
-- (void)0@ù
-× ;
-- (id)sistantViewSupport",R,&,N,V_cachedFlickingAssistantViewController;
-- (void)eDelegate:(id)arg1 ,V__phaseChangeDelegate;
+- (void)"NSString",&,N,V_layoutTag;
+- (void)èl;
 
 @end
 

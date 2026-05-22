@@ -14,10 +14,10 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
 - (void);
 - (void);
-- (id)s: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)%{sensitive}@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *motionActivityTypeBins; // @synthesize motionActivityTypeBins=_motionActivityTypeBins;

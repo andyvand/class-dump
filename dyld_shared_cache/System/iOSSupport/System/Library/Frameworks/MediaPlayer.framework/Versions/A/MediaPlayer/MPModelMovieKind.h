@@ -12,18 +12,18 @@
     unsigned long long _options;
 }
 
-+ (id)ryState:(unsigned long long)arg1;
-+ (id)ery:results:contentProtection: /* Error: Ran out of types for this method. */;
-+ (_Bool)be ignored.;
++ (id);
++ (id);
++ (_Bool);
 - (id);
-- (id)u;
-- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (unsigned long long)Tracker;
-- (unsigned long long);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;

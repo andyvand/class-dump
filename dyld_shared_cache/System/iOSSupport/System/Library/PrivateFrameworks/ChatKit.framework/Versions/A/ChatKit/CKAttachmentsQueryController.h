@@ -11,15 +11,15 @@
 }
 
 - (_Bool);
-- (unsigned long long)ct search result;
-- (id)this note to see activity here.;
-- (id);
-- (unsigned long long)@?0@8@"ICTrackedParagraph"16^B24;
+- (unsigned long long);
 - (id);
 - (id);
-- (id)c(;
+- (unsigned long long);
 - (id);
-- (id){æ0;
+- (id);
+- (id);
+- (id);
+- (id)q;
 
 @end
 

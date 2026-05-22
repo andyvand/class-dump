@@ -13,12 +13,11 @@ __attribute__((visibility("hidden")))
     NSAttributedString *_title;
 }
 
-- (void);
-- (void)@;
-- (void);
-- (id)1¢!0@ù
-× ;
-- (double)|Ò¨Ò;
+- (double);
+- (void)sCompatibleWithTransitionInDirection:(double)arg1;
+- (void)efetchedCellForRowAtIndexPath:(id)arg1 willDisplay: /* Error: Ran out of types for this method. */;
+- (id)to avoid this assert.;
+- (void)Àjoþ;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *title; // @synthesize title=_title;

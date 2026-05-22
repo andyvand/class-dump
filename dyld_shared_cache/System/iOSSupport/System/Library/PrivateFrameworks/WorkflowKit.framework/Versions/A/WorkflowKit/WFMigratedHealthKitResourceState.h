@@ -11,10 +11,10 @@
     NSSet *entries;
 }
 
-+ (_Bool)WFPercentageTextBoxWidth);
-- (void);
++ (_Bool);
 - (id);
 - (void);
+- (void)wakeup-request;
 
 @end
 

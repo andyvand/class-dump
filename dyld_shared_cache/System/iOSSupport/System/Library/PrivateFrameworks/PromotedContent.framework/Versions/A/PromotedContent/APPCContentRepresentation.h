@@ -19,18 +19,18 @@
     APPCAdPolicyData *adPolicyData;
 }
 
-- (struct CGSize)eset all personalization;
-- (id)in;
-- (long long);
-- (long long)aE;
+- (struct CGSize);
 - (id);
-- (void);
-- (long long)d;
+- (long long);
+- (long long);
 - (long long);
 - (id);
 - (void);
 - (id);
 - (id);
+- (long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) APPCAdPolicyData *adPolicyData; // @synthesize adPolicyData;

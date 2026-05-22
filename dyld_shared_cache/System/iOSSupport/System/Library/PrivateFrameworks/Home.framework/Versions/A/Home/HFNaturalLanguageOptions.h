@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)	;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *extraOptions; // @synthesize extraOptions=_extraOptions;

@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)P;
-- (id)chiveAtPath: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)7V#¿7G;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *animationName; // @synthesize animationName=_animationName;

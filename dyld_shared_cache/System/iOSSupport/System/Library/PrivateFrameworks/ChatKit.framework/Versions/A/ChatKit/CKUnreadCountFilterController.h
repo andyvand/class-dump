@@ -10,8 +10,8 @@
 
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 @end
 

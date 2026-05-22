@@ -10,14 +10,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
-- (struct CGRect);
-- (struct CGRect);
 - (void);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
 
 @end
 

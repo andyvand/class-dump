@@ -16,14 +16,14 @@
 
 + (double);
 - (void);
-- (float);
-- (void);
 - (id);
 - (void);
 - (id);
 - (struct CGSize);
 - (void);
 - (id);
+- (void)e: /* Error: Ran out of types for this method. */;
+- (float)(îáÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <MULayoutItem> item;

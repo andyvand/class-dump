@@ -5,6 +5,5 @@
 //
 
 @protocol CKFocusFilterBannerDelegate
-- (void);
 @end
 

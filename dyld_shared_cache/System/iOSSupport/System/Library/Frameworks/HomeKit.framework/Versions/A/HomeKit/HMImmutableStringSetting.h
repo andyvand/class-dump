@@ -20,10 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
-- (void);
 - (id);
+- (id);
+- (void)üdÀeüe@f;
 
 // Remaining properties
 @property(readonly, copy) NSString *stringValue; // @synthesize stringValue=_stringValue;

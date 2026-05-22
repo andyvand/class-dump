@@ -19,21 +19,20 @@
 + (id);
 - (id);
 - (id);
-- (void)eted notice with guidString:(id)arg1 %s, %@;
-- (void)file for:(id)arg1 %s. Error:%@ /* Error: Ran out of types for this method. */;
-- (void)dataURL:(id)arg1 %s, mirror URL:%s /* Error: Ran out of types for this method. */;
-- (void)eption handling incomming local message read push:(id)arg1 %@;
-- (id)L IMDChat.;
-- (id):(struct CGSize)arg1 %@;
-- (id)CollaborationNoticeDispatcher handleIncomingNoticeProtobuf:(struct CGSize)arg1 service:account:fromID:context:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (id)H;
-- (void)qð!ÜEù±ÄÐ1¢!0@ù
-× ;
-- (id)lumnDidRequestToBecomeVisible: /* Error: Ran out of types for this method. */;
-- (void)arentingContainerView;
-- (id)BackgroundView;
-- (id)e;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)ttributes: /* Error: Ran out of types for this method. */;
+- (void)¨oþ0Û;
+- (id);
+- (void)´¾l;
+- (id)aÿ;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC5UIKit34_UIFlexInteractionLargeVariantSpec *large; // @synthesize large;

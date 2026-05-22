@@ -15,21 +15,21 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (const char *);
 - (BOOL);
 - (BOOL);
 - (BOOL);
 - (BOOL);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (unsigned int);
 - (_Bool);
-- (id);
-- (id)ance;
-- (id)ble]_block_invoke;
+- (void);
 - (id);
 - (id);
-- (unsigned int)cation failed.;
 
 // Remaining properties
 @property(readonly) BOOL char1; // @synthesize char1=_char1;

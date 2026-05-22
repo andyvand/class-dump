@@ -21,13 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (struct CGSize);
-- (void);
-- (void);
 - (id);
+- (id);
+- (double);
 - (void);
-- (double)n:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSString *displayedLabel; // @synthesize displayedLabel=_displayedLabel;

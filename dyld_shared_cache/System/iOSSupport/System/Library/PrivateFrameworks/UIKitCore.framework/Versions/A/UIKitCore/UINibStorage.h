@@ -19,23 +19,23 @@ __attribute__((visibility("hidden")))
     _Bool captureImplicitLoadingContextOnDecode;
 }
 
-- (void)oken:(id)arg1 messageGUID:timeStamp:isBeingReplayed:isInProxyMode:storageContext: /* Error: Ran out of types for this method. */;
-- (void)patchDelegate;
-- (void)sBlackholed:(id)arg1;
-- (void)atsWithIdentifier:(_Bool)arg1 style: /* Error: Ran out of types for this method. */;
-- (void)ses:(id)arg1 account: /* Error: Ran out of types for this method. */;
-- (id)simID: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool)2;
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)× ;
-- (void)}{_UIIntegralSize=qq}}60@0:(id)arg1 8{_UIIntegralRect={_UIIntegralPoint=qq}{_UIIntegralSize=qq}}16Q48B56;
-- (id)ý½j;
+- (void);
+- (id)pËþÿÚÁþÿØÁþÿ;
+- (void)h%e;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *archiveData; // @synthesize archiveData;

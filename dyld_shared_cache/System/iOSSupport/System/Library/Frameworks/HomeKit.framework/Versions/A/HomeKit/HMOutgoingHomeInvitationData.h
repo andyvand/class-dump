@@ -16,16 +16,16 @@
     NSUUID *_inviteeUUID;
 }
 
-+ (_Bool)ybackState:completionHandler:] /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)¸A;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *inviteeName; // @synthesize inviteeName=_inviteeName;

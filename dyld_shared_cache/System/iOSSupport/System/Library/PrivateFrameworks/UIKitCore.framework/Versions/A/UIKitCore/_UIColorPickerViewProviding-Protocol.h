@@ -4,8 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UIColorPickerViewControllerConfiguration;
+
 @protocol _UIColorPickerViewProviding
-- (void)DùÑÌð1¢!0@ù
-× ;
+- (void)ntentControlStateInContext:(_UIColorPickerViewControllerConfiguration *)arg1 withAnimationCoordinator:animated: /* Error: Ran out of types for this method. */;
 @end
 

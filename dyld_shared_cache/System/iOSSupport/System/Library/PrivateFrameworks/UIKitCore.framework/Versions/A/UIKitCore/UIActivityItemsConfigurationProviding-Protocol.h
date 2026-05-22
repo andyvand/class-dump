@@ -7,7 +7,6 @@
 @protocol UIActivityItemsConfigurationReading;
 
 @protocol UIActivityItemsConfigurationProviding
-- (id <UIActivityItemsConfigurationReading>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIActivityItemsConfigurationReading> activityItemsConfiguration;

@@ -94,25 +94,24 @@
 - (void);
 - (CDStruct_1b6d18a9);
 - (void);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (double);
+- (void)deDistance;
+- (id)H§Ô§ ª;
+- (id)SgXw;
+- (id)Fetch;
 - (void);
 - (void);
-- (void)9DA9x¸9 y9@ë9Ã9p9ñ9p²9hR909;
-- (id);
-- (void);
-- (id);
-- (void);
-- (id)!@Gù1|°1b0@ù
-× ;
-- (id)ect={CGPoint=dd}{CGSize=dd}}{CGPoint=dd}{CGSize=dd}{CGAffineTransform=dddddd}ddB{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}16{PXSimpleIndexPath=qqqq}24;
-- (void)hotosWithSettlingEffectIfPossible;
-- (id)es: /* Error: Ran out of types for this method. */;
-- (id)=>ÿÿÿÿÿ;
-- (id)wControllerFactory.swift;
-- (void)nMenuItemHideFromMemory;
-- (id)wantsPreviewImage;
+- (id)lightsDataFactory;
+- (id)dedAssetView;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 currentPlaybackTime;

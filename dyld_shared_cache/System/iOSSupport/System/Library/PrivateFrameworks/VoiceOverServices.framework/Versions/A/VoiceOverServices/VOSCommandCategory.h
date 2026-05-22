@@ -15,19 +15,19 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)"NSDictionary";
++ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id)v;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)LOfFinalizedAttachment:%@, uniformTypeIdentifierString:%@, finalizationState:%@, userName:%@, additionalMetadata:%@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 + (id);
 + (id);
 - (id);
@@ -35,9 +35,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *commands; // @synthesize commands=_commands;

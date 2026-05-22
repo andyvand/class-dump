@@ -11,10 +11,9 @@ __attribute__((visibility("hidden")))
     long long _typingDelaySampleCount;
 }
 
-- (void)constraints.
-;
-- (id)sanitizedPrompt;
-- (void)action;
+- (void);
+- (id);
+- (void)le:(double)arg1;
 
 @end
 

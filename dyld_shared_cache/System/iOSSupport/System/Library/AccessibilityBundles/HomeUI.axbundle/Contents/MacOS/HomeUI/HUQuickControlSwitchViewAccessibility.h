@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (double);
 - (id);
 - (id);
@@ -21,12 +21,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (struct CGRect);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
 - (id);
 - (id);
 

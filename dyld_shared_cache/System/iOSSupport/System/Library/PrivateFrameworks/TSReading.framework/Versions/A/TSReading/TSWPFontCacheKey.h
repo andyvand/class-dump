@@ -16,12 +16,12 @@
 
 + (id);
 - (id);
+- (double);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (id);
 - (double);
-- (id)no attributes!;
-- (double)½TK;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;

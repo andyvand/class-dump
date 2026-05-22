@@ -4,11 +4,11 @@
 
 class icu::CollationRoot {
 public: // (access info unavailable from symbols alone)
-    forceLoadFromFile(char const*, UErrorCode&);
-    getData(UErrorCode&);
-    getRoot(UErrorCode&);
-    getRootCacheEntry(UErrorCode&);
-    getSettings(UErrorCode&);
-    load(char const*, UErrorCode&);
-    loadFromFile(char const*, UErrorCode&);
+    auto forceLoadFromFile(char const*, UErrorCode&);
+    auto getData(UErrorCode&);
+    auto getRoot(UErrorCode&);
+    auto getRootCacheEntry(UErrorCode&);
+    auto getSettings(UErrorCode&);
+    auto load(char const*, UErrorCode&);
+    auto loadFromFile(char const*, UErrorCode&);
 };

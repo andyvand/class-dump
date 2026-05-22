@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ew.HomeHubMigration.IntroSetUp.DetailsLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool locationCanBeEdited;

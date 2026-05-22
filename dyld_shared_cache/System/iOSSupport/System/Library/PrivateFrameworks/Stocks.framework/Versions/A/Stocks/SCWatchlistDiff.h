@@ -18,16 +18,16 @@
 }
 
 + (id);
-- (id);
-- (id)z;
-- (id);
-- (id)z;
 - (id);
 - (id);
-- (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *addedStocks; // @synthesize addedStocks=_addedStocks;

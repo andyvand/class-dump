@@ -8,9 +8,8 @@
 @protocol MTLBuffer, MTLDevice;
 
 @protocol PXGMetalRenderState
-- (NSArray *);
-- (void)age:(NSArray *)arg1 options:adjustment:isDegraded:fromTextureProvider:withTextureConverter:requestID:requestDetails:deliveryOrder: /* Error: Ran out of types for this method. */;
-- (void)nd:] /* Error: Ran out of types for this method. */;
+- (NSArray *)_spriteIndexesByGroupIndex;
+- (void)teDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *captureSpriteTextures;

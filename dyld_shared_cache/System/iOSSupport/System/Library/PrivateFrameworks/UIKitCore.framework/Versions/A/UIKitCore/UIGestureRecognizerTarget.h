@@ -11,14 +11,13 @@ __attribute__((visibility("hidden")))
     SEL _action;
 }
 
-+ (id)ntifier;
-- (void);
-- (id)entDispatch.m;
-- (void)!DùQÂð1¢!0@ù
-× ;
-- (_Bool)entLayer;
-- (id)ordinator;
-- (SEL)[¡d;
++ (id);
+- (id);
+- (id);
+- (_Bool);
+- (void)iewConfigurationStyle);
+- (SEL)]13û\;
+- (void):ÒÄýg /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SEL action; // @synthesize action=_action;

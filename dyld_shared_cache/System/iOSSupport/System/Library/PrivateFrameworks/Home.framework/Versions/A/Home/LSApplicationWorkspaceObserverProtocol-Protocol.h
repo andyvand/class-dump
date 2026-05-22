@@ -7,8 +7,6 @@
 @protocol LSApplicationWorkspaceObserverProtocol
 
 @optional
-- (void)Ð!TGùQ	1b0@ù
-× ;
-- (void).]qÎÿP;
+- (void)eduleBuilder:(_Bool)arg1;
 @end
 

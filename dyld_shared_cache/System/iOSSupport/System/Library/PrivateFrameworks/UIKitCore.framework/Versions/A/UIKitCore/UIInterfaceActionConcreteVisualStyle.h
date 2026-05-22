@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)ionIntent;
+- (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -22,34 +22,34 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (struct CGSize);
 - (double);
-- (id)teria do not allow enablement on attempt %d, will not enable, won't try again.;
-- (double)operation;
-- (void)ent?:(id)arg1 %i;
-- (void)cannot be a favorite;
-- (void)icipant %@ is a favorite?:(id)arg1 %ld;
-- (_Bool)or %@ %d (%s);
-- (id)ave changed due to inconsistent properties;
-- (double)chats with group ID:%@ result:%@ /* Error: Ran out of types for this method. */;
-- (id)r chat with guid:(id)arg1 %@ result:%@ /* Error: Ran out of types for this method. */;
-- (id)y have changed due to inconsistent properties;
-- (id)hat GUID %@ doesn't match requested GUID %@, may have changed due to inconsistent properties;
-- (struct UIEdgeInsets)<IMCheckInMessageProcessingPipelineComponent> Message should be dropped;
-- (double)rocessingPipelineComponent> Message is not a Check In message;
-- (id)rocessingPipelineComponent> Started processing;
-- (id)ng on the ChatSessionClose command!;
-- (id)@;
-- (id)%@;
-- (id)son (reasons:%@) /* Error: Ran out of types for this method. */;
-- (id)MOCK Handling fetchRecordZoneChangesOperation;
-- (id)Failed to unarchive mock ck record data. Error:(id)arg1 %@;
-- (id)k Handle operation %@ identifier %@;
-- (void);
-- (void);
 - (id);
-- (void);
 - (double);
-- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (double);
+- (id);
+- (id);
+- (id);
 - (struct UIEdgeInsets);
+- (double);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (double);
+- (struct UIEdgeInsets);
+- (id)g;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

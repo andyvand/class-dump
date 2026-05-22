@@ -34,14 +34,14 @@
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (unsigned long long);
 - (id);
-- (unsigned long long)aths: /* Error: Ran out of types for this method. */;
-- (id)ex: /* Error: Ran out of types for this method. */;
-- (id)ÅD;
-- (unsigned long long)
-5;
-- (id)J5	;
+- (unsigned long long);
+- (id)¸	¬5À à¡,ä¤¸¦ø§¸¨t¬°­
+X°;
+- (id);
+- (void)SuggestionScopeSearch;
+- (id)¢OÜI4;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

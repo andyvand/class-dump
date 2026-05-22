@@ -20,14 +20,15 @@
 
 + (id);
 + (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)z;
-- (void)i;
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,22 +36,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id)0;
-- (void);
 - (id);
 - (id);
-- (id)R(	
-3;
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool)cessSymbolication: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)H;
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;

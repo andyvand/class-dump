@@ -7,7 +7,6 @@
 @protocol FCCoreConfiguration;
 
 @protocol FCCoreConfigurationManager
-- (void)2;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCCoreConfiguration> configuration;

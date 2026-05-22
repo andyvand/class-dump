@@ -4,9 +4,9 @@
 
 class bloom_filter<phy_ext_addr, unsigned int> {
 public: // (access info unavailable from symbols alone)
+    auto clear();
+    auto contains(phy_ext_addr const&);
+    auto insert(phy_ext_addr const&);
     bloom_filter(unsigned long, unsigned int (* const*)(phy_ext_addr const&), unsigned long);
-    clear();
-    contains(phy_ext_addr const&);
-    insert(phy_ext_addr const&);
     ~bloom_filter();
 };

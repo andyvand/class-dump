@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)19 private key file;
-- (void);
+- (long long)stedInvitations: /* Error: Ran out of types for this method. */;
+- (void)to your %@ account.;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

@@ -16,13 +16,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)odification;
-- (void)`;
-- (void);
 - (id);
-- (struct UIEdgeInsets)ence: /* Error: Ran out of types for this method. */;
-- (struct NSDirectionalEdgeInsets)ficationObserver;
-- (id)ng *getkMRMediaRemoteMediaTypeVideo(void);
+- (void)Â0@ù
+× ;
+- (struct UIEdgeInsets)@0:8q16@"UITableView"24B32 /* Error: Ran out of types for this method. */;
+- (id)Heights;
+- (void)Environment;
+- (struct NSDirectionalEdgeInsets)
+Ú;
+- (void)í;
 
 // Remaining properties
 @property(nonatomic, getter=_overriddenDefaultLayoutMargins, setter=_setOverriddenDefaultLayoutMargins:) struct NSDirectionalEdgeInsets overriddenDefaultLayoutMargins; // @synthesize overriddenDefaultLayoutMargins=_overriddenDefaultLayoutMargins;

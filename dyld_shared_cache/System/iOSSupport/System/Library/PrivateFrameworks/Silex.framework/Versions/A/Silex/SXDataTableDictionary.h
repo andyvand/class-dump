@@ -24,15 +24,15 @@
 - (id);
 - (CDStruct_2fea82da);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id)!;
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
-- (id)nts"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)hipBlock:(id)arg1;
-- (unsigned long long)mponentLayoutHosting:componentController:adIgnorableViewFactory:config:textAttributionProvider:shareHandler: /* Error: Ran out of types for this method. */;
+- (void)t=dd}{CGSize=dd}}32@0:8@"SXItemizedScrollView"16Q24 /* Error: Ran out of types for this method. */;
+- (unsigned long long)artInvertColorsEnabled; ;
+- (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableIndexSet *indexes; // @synthesize indexes=_indexes;

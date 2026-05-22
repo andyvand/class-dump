@@ -13,12 +13,13 @@ __attribute__((visibility("hidden")))
     _Bool _synchronizing;
 }
 
-+ (id)&ÿÈÔép;
-- (void);
++ (id)`k;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)howFullLengthTopSeparatorForTopOfSection;
+- (void)!4@ùY°1Â0@ù
+× ;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

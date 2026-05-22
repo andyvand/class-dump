@@ -14,14 +14,13 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (double);
-+ (id)Ƒ
-;
++ (id);
 + (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (void);
+- (void)¼Ð;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

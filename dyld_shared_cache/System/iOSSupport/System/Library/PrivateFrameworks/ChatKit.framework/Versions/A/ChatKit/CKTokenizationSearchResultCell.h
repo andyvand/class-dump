@@ -14,16 +14,16 @@
 }
 
 + (id);
-- (void)ManagedAndUnmanagedAccounts;
-- (void)t;
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id),V_dot;
+- (id);
+- (void)ÿ!;
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing;

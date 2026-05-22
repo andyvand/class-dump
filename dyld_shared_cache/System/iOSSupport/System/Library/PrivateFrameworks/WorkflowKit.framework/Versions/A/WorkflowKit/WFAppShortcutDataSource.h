@@ -11,10 +11,11 @@
     WFSwiftAppShortcutDataSource *_dataSource;
 }
 
-- (id)ons/A/CoreUtils;
+- (id);
 - (id);
 - (void);
-- (id)t log statement:%s /* Error: Ran out of types for this method. */;
+- (id);
+- (void)DFPageColorspace;
 
 // Remaining properties
 @property(readonly, nonatomic) WFSwiftAppShortcutDataSource *dataSource; // @synthesize dataSource=_dataSource;

@@ -14,18 +14,17 @@
 }
 
 + (id);
-+ (_Bool)-;
++ (_Bool)32{_NSRange=QQ}48{?=CCCC}64;
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)!GùQXÐ1B0@ù
-× ;
-- (void)ion_quat;
+- (void);
+- (void);
+- (id);
+- (id)pdatePrefab:withNewPrefab:options: /* Error: Ran out of types for this method. */;
+- (void)leScript[;
 
 // Remaining properties
 @property(readonly, nonatomic) VFXAnimation *animation; // @synthesize animation=_animation;

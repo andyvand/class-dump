@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (void);
 - (oneway void);
-- (void)r_UpdateDatabaseWithInfo;
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

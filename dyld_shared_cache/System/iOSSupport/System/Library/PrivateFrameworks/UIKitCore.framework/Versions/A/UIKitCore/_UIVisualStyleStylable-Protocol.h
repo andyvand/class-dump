@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSCopying;
-
 @protocol _UIVisualStyleStylable
-+ (id <NSCopying>)"NSMutableIndexSet",&,N,V_pointDecayQueue;
 @end
 

@@ -17,8 +17,8 @@
 + (Class);
 + (id);
 - (id);
-- (unsigned long long);
 - (_Bool);
+- (unsigned long long);
 - (_Bool);
 
 // Remaining properties

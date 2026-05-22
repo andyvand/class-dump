@@ -12,10 +12,9 @@
 }
 
 - (id);
-- (void)(;
 - (void);
-- (id)ù±xÐ1b0@ù
-× ;
+- (id);
+- (void)per-shelf;
 
 // Remaining properties
 @property(retain, nonatomic) TRIClient *trialClient; // @synthesize trialClient=_trialClient;

@@ -4,8 +4,9 @@
 
 class lsl::Vector<AuthenticatedValue<dyld4::PseudoDylib*>> {
 public: // (access info unavailable from symbols alone)
-    erase(AuthenticatedValue<dyld4::PseudoDylib*>*);
-    push_back(AuthenticatedValue<dyld4::PseudoDylib*>&&);
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
+    auto erase(AuthenticatedValue<dyld4::PseudoDylib*>*);
+    auto erase(AuthenticatedValue<dyld4::PseudoDylib*>*, AuthenticatedValue<dyld4::PseudoDylib*>*);
+    auto push_back(AuthenticatedValue<dyld4::PseudoDylib*>&&);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
 };

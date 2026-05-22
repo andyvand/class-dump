@@ -5,23 +5,22 @@
 //
 
 @interface (null) (UITextInputAdditions)
-+ (id)MessageProcessingPipelineComponent;
-+ (id)utput messageItems:(id)arg1 %lu};
-+ (id)PipelineParameter %p> { guid:(id)arg1 %@, timestamp:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
-+ (id)@"NSArray"16^B24;
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
-- (id)registry has finished loading. No deffered update request.;
-- (id)chat;
-- (id)t %@;
-- (id)PairedDevice:(id)arg1 %{BOOL}d isEnhanced:(long long)arg2 %{BOOL}d;
-- (id)veDate:(id)arg1 %@ readReceipt:(id)arg2 %@, read ReceiptDate %@>];
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (struct _NSRange);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)@ù
-× ;
+- (id);
 @end
 

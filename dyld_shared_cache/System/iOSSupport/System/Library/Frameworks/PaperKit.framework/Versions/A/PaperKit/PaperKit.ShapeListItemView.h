@@ -18,9 +18,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (_Bool)xÐüÿÈýÿÐüÿÌ¢ýÿpýÿÌþÿ;
+- (void)ìIÿÿ;
+- (_Bool)¼årâùÿÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool highlighted;

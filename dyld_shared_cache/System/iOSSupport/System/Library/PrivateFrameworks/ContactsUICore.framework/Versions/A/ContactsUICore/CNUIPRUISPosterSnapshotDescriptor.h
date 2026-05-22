@@ -13,17 +13,20 @@
 
 - (id);
 - (struct CGRect);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (long long);
 - (long long);
 - (void);
+- (struct CGRect);
+- (void)ionType: /* Error: Ran out of types for this method. */;
+- (long long)ø]ýÿnãÿÐ#;
 
 // Remaining properties
 @property(nonatomic) struct CGRect canvasBounds;
 @property(nonatomic) long long interfaceOrientation;
+@property(nonatomic) struct CGRect salientContentRectangle;
 @property(nonatomic) long long userInterfaceStyle;
 @property(readonly, nonatomic) PRUISMutablePosterSnapshotDescriptor *wrappedDescriptor; // @synthesize wrappedDescriptor=_wrappedDescriptor;
 

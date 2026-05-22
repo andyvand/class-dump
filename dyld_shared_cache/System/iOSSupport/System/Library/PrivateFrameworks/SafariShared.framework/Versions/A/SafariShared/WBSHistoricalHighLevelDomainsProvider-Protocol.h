@@ -5,6 +5,5 @@
 //
 
 @protocol WBSHistoricalHighLevelDomainsProvider
-- (void){z;
 @end
 

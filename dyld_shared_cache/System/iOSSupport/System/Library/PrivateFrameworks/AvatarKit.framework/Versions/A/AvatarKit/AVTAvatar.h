@@ -51,11 +51,11 @@
 + (_Bool);
 - (void);
 - (_Bool);
-- (unsigned long long)";
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void)C;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -117,7 +117,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (Class);
 - (id);
 - (void);
@@ -128,7 +128,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -137,8 +136,9 @@
 - (void);
 - (void);
 - (void);
-- (void)8h;
-- (id)Rb;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -150,20 +150,20 @@
 - (float);
 - (void);
 - (id);
-- (void)ithContentsOfURL:(id)arg1 options:(double)arg2 error: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (id)h;
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
+- (void);
+- (void);
+- (void);
 - (float);
-- (void);
-- (void);
 - (id);
-- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool arMode;

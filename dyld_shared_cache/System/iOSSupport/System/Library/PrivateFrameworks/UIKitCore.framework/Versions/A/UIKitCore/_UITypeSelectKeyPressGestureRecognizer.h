@@ -17,20 +17,22 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)u;
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void)a;
-- (void)didateBarHeightForOrientation:(id)arg1;
-- (void)3yAHyrzj8ALyR¡í3GGSOGGGAPG_rÂí3Qo__AFQo__dí3Qo__Qo_ALyTí3GGGG;
-- (id)ph:(id)arg1 scale:(SEL)arg2;
-- (_Bool)¤õdþLÿ3UÿLÿ3õdþLÿ3¸)|þLÿ3Ø±þ;
+- (void)Â0@ù
+× ;
+- (id)
+× ;
+- (_Bool);
+- (_Bool)LayoutArbiterOutput",&,N,V_expandedLayout;
+- (void)ers.lowercase;
+- (void)tWithSize:(id)arg1 ] is unavailable.;
+- (void)UIKeyboardInputModeIndicatorController keyboardWindowEnabled:(id)arg1 ];
+- (void)yAAyAAyAAyñÞ.3y»;
+- (void)ñj33D×;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableString *inputString; // @synthesize inputString=_inputString;

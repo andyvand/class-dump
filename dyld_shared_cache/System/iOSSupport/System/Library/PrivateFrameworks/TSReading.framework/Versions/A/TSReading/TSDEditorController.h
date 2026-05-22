@@ -24,15 +24,15 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,17 +50,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (id);
 - (id);
-- (_Bool)C;
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)a;
 - (id);
 - (void);
-- (void)Ù ;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isChangingCurrentEditorsWhenCommittingInspectorChanges) _Bool changingCurrentEditorsWhenCommittingInspectorChanges;

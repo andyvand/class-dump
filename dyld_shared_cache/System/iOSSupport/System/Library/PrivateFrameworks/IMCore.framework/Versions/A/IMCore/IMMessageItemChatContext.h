@@ -15,11 +15,12 @@
 }
 
 - (void);
-- (_Bool)ePrivateRemoteMessageReceiver_ProxyWaitForTargetReply;
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (void)L
+(;
 
 // Remaining properties
 @property(nonatomic) _Bool invitation; // @synthesize invitation=_invitation;

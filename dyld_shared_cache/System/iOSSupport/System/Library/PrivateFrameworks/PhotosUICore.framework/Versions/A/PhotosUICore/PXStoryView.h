@@ -94,8 +94,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -104,33 +104,34 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool)0@ù
+- (id);
+- (void);
+- (id)0@ù
 × ;
-- (id)!Ì@ù{1b0@ù
+- (_Bool)!DùqGÐ1â
+0@ù
 × ;
-- (void)ctory;
-- (id)f;
-- (void)Color;
-- (void)ÿ;
-- (_Bool)from distributeChangeOnMainQueue (runLoopMode:(id)arg1 %{public}@);
-- (id)ssetVideoContentProvider init];
-- (id)tyTypes;
-- (_Bool)uí/È;!ÿí/;
+- (_Bool)ker:didSelectContactProperties: /* Error: Ran out of types for this method. */;
+- (id)tiveRect;
+- (void),V_trackedTransform;
+- (_Bool)¬êÿ;
+- (void), state:(id)arg1 "%@", pause:(unsigned long long)arg2 "%@", activity:(void *)arg3 "%@", reset:%d, rebuild:%d, synced:%d, exiting:%d, failed:%lu, upgrade:%d, #photo/video/other:%lu/%lu/%lu> /* Error: Ran out of types for this method. */;
+- (_Bool)6@?0@"<PXStoryClipComposition>"8;
+- (void)Manager.imageQueue;
 - (void);
-- (id)a;
-- (_Bool)ÿ!HJ4;
+- (_Bool);
+- (void)ion;
+- (id)á§;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *activeRemoteGestureRecognizers; // @synthesize activeRemoteGestureRecognizers=_activeRemoteGestureRecognizers;

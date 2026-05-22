@@ -16,24 +16,24 @@ __attribute__((visibility("hidden")))
     _Atomic struct CGColor *_cachedColor;
 }
 
-- (id)DIDSService received registration status changed:(double)arg1 %@ (%@);
-- (unsigned long long);
-- (_Bool);
-- (struct CGColor *);
 - (id);
+- (struct CGColor *);
 - (void);
-- (id)ionAdditions;
-- (struct CGColor *);
-- (_Bool)dragFrom=%@ draggingItems=%@>;
-- (_Bool)= %@ point2 = %@>;
-- (id)leColumnLayout.swift;
-- (void);
-- (void)-;
-- (void);
+- (id);
+- (unsigned long long);
+- (_Bool)eToURL:(id)arg1;
+- (id),p;
+- (struct CGColor *)`#a;
+- (void)´ð^þ²ZÐälk;
+- (void)[;
 - (_Bool);
-- (double)r;
-- (id)d;
-- (_Bool)pÜþÁL;
+- (_Bool)|Í¸m;
+- (_Bool);
+- (id)ã;
+- (double)I.ÿE;
+- (void)«Ò<n;
+- (id)ÿ+&;
+- (_Bool)Ïûo;
 
 @end
 

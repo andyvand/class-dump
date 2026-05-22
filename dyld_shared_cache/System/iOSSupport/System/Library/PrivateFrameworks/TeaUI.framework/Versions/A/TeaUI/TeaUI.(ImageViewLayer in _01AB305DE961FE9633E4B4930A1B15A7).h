@@ -11,24 +11,24 @@
     MISSING_TYPE *coordinateWithLayer;
 }
 
+- (unsigned long long);
 - (void);
-- (unsigned long long);
-- (double)tMaxAge: /* Error: Ran out of types for this method. */;
-- (id)ime;
-- (void);
-- (void);
-- (void);
-- (double);
+- (id);
+- (id);
+- (id);
 - (float);
 - (void);
-- (id)pellOut;
-- (struct CGColor *);
 - (void);
-- (struct CGSize);
+- (void);
+- (struct CGColor *);
 - (const struct CGPath *);
-- (id)llViewScrollObserver:(id)arg1;
-- (void)ø;
-- (void)ôyÈÿ;
+- (double);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (double);
+- (void)ger;
 
 // Remaining properties
 @property(nonatomic) double cornerRadius;

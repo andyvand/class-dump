@@ -23,12 +23,12 @@
 - (int);
 - (void);
 - (double);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (double);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double actualWidth;

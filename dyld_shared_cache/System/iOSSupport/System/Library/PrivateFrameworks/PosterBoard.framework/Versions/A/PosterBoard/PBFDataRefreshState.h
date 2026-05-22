@@ -12,11 +12,13 @@
     NSString *_refreshReason;
 }
 
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)1	Ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool needsRefresh; // @synthesize needsRefresh=_needsRefresh;

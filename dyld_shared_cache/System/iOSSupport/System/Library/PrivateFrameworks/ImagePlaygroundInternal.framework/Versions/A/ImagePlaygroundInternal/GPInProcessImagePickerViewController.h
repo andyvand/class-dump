@@ -19,7 +19,7 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -32,16 +32,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (long long);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)y	
+ÿ
+AEG_ >ÿ
+Qo__7ÿ
+tGG;
+- (id)à¯;
 
 // Remaining properties
 @property(nonatomic, retain) GPAppleConnectTokenProvider *appleConnectTokenProvider; // @synthesize appleConnectTokenProvider;

@@ -32,13 +32,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
+- (id);
 - (void);
+- (void);
+- (id);
+- (id)SceneBundleIdentifierForPaymentAuthorizationController: /* Error: Ran out of types for this method. */;
+- (void)dDescription;
 
 // Remaining properties
 @property(readonly, nonatomic) AMSDialogAction *dialogAction; // @synthesize dialogAction=_dialogAction;

@@ -21,13 +21,13 @@
 + (id);
 + (id);
 + (id);
-+ (id)Ì;
-+ (id)°myl«°myl¬Ö0%EÉ;
++ (id);
++ (id);
 + (long long);
 + (_Bool);
 + (id);
 + (_Bool);
-+ (_Bool),WFPercentageTextY;
++ (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *selectedAccountDescriptions; // @synthesize selectedAccountDescriptions=_selectedAccountDescriptions;

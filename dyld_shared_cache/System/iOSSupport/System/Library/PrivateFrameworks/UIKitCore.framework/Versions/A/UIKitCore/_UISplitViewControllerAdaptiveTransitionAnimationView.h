@@ -11,8 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (id)rence %@;
+- (_Bool)
+× ;
+- (id)wift;
 
 @end
 

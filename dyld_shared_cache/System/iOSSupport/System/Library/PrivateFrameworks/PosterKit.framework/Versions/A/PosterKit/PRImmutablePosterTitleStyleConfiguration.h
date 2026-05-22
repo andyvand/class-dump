@@ -42,9 +42,9 @@
 - (unsigned long long);
 - (double);
 - (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

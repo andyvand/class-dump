@@ -9,9 +9,9 @@
 @interface (null) (UI_Extensions)
 - (id);
 - (_Bool);
-- (_Bool)9;
 - (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 
 // Remaining properties

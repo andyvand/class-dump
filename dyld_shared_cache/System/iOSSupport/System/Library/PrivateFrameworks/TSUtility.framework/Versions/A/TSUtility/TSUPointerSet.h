@@ -15,15 +15,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)8;
-- (void);
 - (id);
+- (id);
+- (void);
 - (unsigned long long);
+- (id);
+- (id);
 
 @end
 

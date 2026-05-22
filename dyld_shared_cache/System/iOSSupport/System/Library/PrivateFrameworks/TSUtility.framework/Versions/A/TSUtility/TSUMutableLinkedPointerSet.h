@@ -18,17 +18,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (void)rClient:transactionID:skipStatusSync:reply: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
+- (id);
+- (unsigned long long)_propertyListWithContentsOfURL:(CDStruct_70511ce9 *)arg1 options:(id *)arg2 error:(unsigned long long)arg3;
 
 @end
 

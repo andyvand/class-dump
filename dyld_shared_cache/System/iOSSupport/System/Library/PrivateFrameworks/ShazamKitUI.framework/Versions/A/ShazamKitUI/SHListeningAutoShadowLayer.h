@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)perience;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *autoShadowBackgroundLayer; // @synthesize autoShadowBackgroundLayer=_autoShadowBackgroundLayer;

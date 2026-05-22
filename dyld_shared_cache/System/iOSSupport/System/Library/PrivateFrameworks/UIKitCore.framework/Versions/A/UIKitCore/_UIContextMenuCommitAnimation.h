@@ -25,8 +25,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (double);
+- (id);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -37,25 +37,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)"NSDictionary"32@?<v@?B@"NSDictionary">40;
-- (id)ng"16@"NSError"24;
-- (id)nfoToChatID: /* Error: Ran out of types for this method. */;
-- (void)opic:(CDUnknownBlockType)arg1 userInfo:(CDUnknownBlockType)arg2 transferID:encryptFile:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void)c state;
-- (void);
-- (double);
 - (void);
 - (void);
-- (void)Èß|¬;
-- (void)!GùñÍÐ1¢!0@ù
+- (void);
+- (double);
+- (unsigned long long);
+- (id)
 × ;
-- (id)cketCollectorModel;
-- (id);
-- (unsigned long long)romView: /* Error: Ran out of types for this method. */;
-- (id)|È§ÿÍ½ÒÕ^;
-- (void)Oq_;
+- (void)ations:(id)arg1;
+- (id)lor",&,N,G_titleTextColor,S_setTitleTextColor:,V_titleTextColor /* Error: Ran out of types for this method. */;
+- (void)T;
+- (void)troller;
+- (id)R;
+- (void)×þ;
+- (void)ªc;
 
 // Remaining properties
 @property(retain, nonatomic) _UIContextMenuCommitContainerView *animationContainer; // @synthesize animationContainer=_animationContainer;

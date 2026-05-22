@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)r:(CDUnknownBlockType)arg1;
+- (id);
 
 @end
 

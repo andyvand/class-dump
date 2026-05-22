@@ -33,8 +33,9 @@
 - (struct CGRect);
 - (unsigned long long);
 - (void);
-- (id);
-- (void)ual;
+- (void)!LDùï°1Â0@ù
+× ;
+- (id)ost;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize adjustedInsets;

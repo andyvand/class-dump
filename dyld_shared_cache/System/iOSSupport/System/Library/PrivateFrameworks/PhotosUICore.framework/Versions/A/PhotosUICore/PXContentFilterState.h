@@ -82,24 +82,24 @@
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool)ÿÿ;
-- (id)ûÿ;
-- (id)ONS_LIKED_THIS_VIDEO_LIST_SEPARATOR;
-- (void)SX5;
-- (void)¶77;
-- (id)ü<¿ÿ¤ãr8;
-- (id);
+- (id)ct={CGPoint=dd}{CGSize=dd}}16Q48;
+- (id)ubtype;
+- (void) O´O;
+- (void)ItemPaletteContentContainer;
+- (void)T;
+- (id)¼<Pt6;
+- (void)pV7;
+- (_Bool)ÈTèÿbí;
 
 // Remaining properties
 @property(readonly, nonatomic) long long activeFilterCount;

@@ -15,11 +15,11 @@
 }
 
 + (Class);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)yF4¢y  G_µ;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

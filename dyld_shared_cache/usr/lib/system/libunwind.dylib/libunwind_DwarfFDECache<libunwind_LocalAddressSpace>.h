@@ -4,6 +4,6 @@
 
 class libunwind::DwarfFDECache<libunwind::LocalAddressSpace> {
 public: // (access info unavailable from symbols alone)
-    add(unsigned long, unsigned long, unsigned long, unsigned long);
-    dyldUnloadHook(mach_header const*, long);
+    auto add(unsigned long, unsigned long, unsigned long, unsigned long);
+    auto dyldUnloadHook(mach_header const*, long);
 };

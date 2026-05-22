@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ervice+LocalDevice;
-+ (id)eRateLimiter shouldSendNotice:(struct CGPoint)arg1 ];
 + (id);
-+ (id)prove15;
-- (void);
++ (id);
++ (id);
++ (id);
+- (void);
 
 @end
 

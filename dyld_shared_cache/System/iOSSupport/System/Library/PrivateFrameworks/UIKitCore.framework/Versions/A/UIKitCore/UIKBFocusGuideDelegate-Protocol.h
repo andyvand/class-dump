@@ -5,6 +5,5 @@
 //
 
 @protocol UIKBFocusGuideDelegate
-- (void);
 @end
 

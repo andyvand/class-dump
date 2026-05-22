@@ -74,32 +74,32 @@
 - (void);
 - (void);
 - (id);
-- (long long);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (void);
+- (void);
+- (long long);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)°;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

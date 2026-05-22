@@ -11,11 +11,11 @@
     MISSING_TYPE *button;
 }
 
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
+- (void)$;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

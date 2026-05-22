@@ -27,11 +27,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)omeIdentifierToFuturePromiseMapping;
-- (void)AlarmAdded;
+- (void)¤°Ä°;
 
 // Remaining properties
 @property(readonly, nonatomic) HFStateDumpBuilderContext *context; // @synthesize context=_context;

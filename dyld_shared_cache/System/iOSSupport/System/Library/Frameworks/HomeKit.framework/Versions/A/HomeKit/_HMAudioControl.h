@@ -28,18 +28,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
+- (id);
 - (float);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)ortsThreadNetworkCredentialSharing;
-- (id)}@<Runtime> Updating enabled from %@ to %@;
-- (_Bool)ccountIdentifier;
-- (id);
+- (_Bool)WithUUID: /* Error: Ran out of types for this method. */;
+- (void)SUUID",R,V_parentIdentifier;
+- (id)MImmutableStringSettingType;
 
 // Remaining properties
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;

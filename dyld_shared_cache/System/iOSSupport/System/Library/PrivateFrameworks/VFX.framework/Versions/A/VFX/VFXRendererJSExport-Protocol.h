@@ -7,28 +7,85 @@
 @class VFXNode, VFXWorld;
 
 @protocol VFXRendererJSExport
-- (id)¸ðÿd¿ÌÿÄÃ;
-- (void)P;
-- (double)at g = grid(uv, float2(s1));
-float g2 = grid(uv2, float2(s2));
+- (_Bool)_t breakthroughData;
+    MTLResourceID textureBreakthroughSDFMeshScene;
+    MTLResourceID textureBreakthroughDepth;
+#endif
+#endif
+};
 
-float4 color = float4(0.5, 0.5, 0.5, 0.8);
+struct re_scene_argument_buffer {
+#ifdef __METAL_VERSION__
+    metal::texture2d<half> textureSpecMaxEss;
+    constant half* specMaxEssAvgTable;
 
-float2 g0 = _gridFast(uv0, float2(s1)*0.003);
-g0 = smoothstep(0., 0.01, g0);
+    constant ClippingConstants& clippingConstants;
+    metal::texture2d_array<float> clippingSdfTextureArray;
 
-color = mix(color, colorU, g0.x);
-color = mix(color, colorV, g0.y);
+    metal::texture2d<half> blueNoiseTexture;
 
+    metal::texture1d<half> ispTonemapLUT;
+    metal::texture2d<half> textureFilter;
 
-float border = max(0., 1 - length(uv0));
+    constant ProbeConstantBuffer& probes;
+#if TARGET_OS_SIMULATOR
+    metal::texturecube<half> envProbeCube;
+    metal::texturecube<half> envProbeDiffuse;
+#else
+    metal::texturecube_array<half> envProbeCubeArray;
+    metal::texturecube_array<half> envProbeDiffuseArray;
+    metal::texture2d_array<half> envProbeTextureArray;
+    constant VirtualEnvironmentProbeLighting::TextureArgumentBuffer& virtualEnvProbeTextures;
+#endif
+    constant VirtualEnvironmentProbeLighting::ProbeConstantBuffer& virtualEnvProbeConstants;
 
+    metal::depth2d<float> textureShadow;
 
-float p = min(1.0, -(_surface.position.z + 0.1));
+    metal::texture2d_array<half> dmWarpedAlphaMask;
 
-_output.color = color * max(g, g2) * pow(border, 0.5) * p;
-;
-- (void);
+    metal::texture2d_array<half> textureVisualDepth;
+    metal::texture2d_array<half> textureImmersiveEnvironmentMask;
+    metal::texture2d_array<half> textureSUOcclusionAlphaMask;
+
+#else 
+#if !TARGET_OS_SIMULATOR
+    MTLResourceID textureSpecMaxEss;
+    uint64_t specMaxEssAvgTable;
+
+    uint64_t clippingConstants;
+    MTLResourceID clippingSdfTextureArray;
+
+    MTLResourceID blueNoiseTexture;
+
+    MTLResourceID ispTonemapLUT;
+    MTLResourceID textureFilter;
+
+    uint64_t probes;
+    MTLResourceID envProbeCubeArray;
+    MTLResourceID envProbeDiffuseArray;
+    MTLResourceID envProbeTextureArray;
+    uint64_t virtualEnvProbeTextures;
+    uint64_t virtualEnvProbeConstants;
+
+    MTLResourceID textureShadow;
+
+    MTLResourceID dmWarpedAlphaMask;
+    
+    MTLResourceID textureVisualDepth;
+    MTLResourceID textureImmersiveEnvironmentMask;
+    MTLResourceID textureSUOcclusionAlphaMask;
+#endif
+#endif 
+};
+
+struct re_vfx_object_constants {
+    uint16_t render_options;
+    uint16_t perceptual_blending_mode;
+};
+
+#endif 
+ /* Error: Ran out of types for this method. */;
+- (void)«ç¼¾×m?ªP?à?*Uº¾)_?Q?§êÔ?MÀ·¾îR?R?LË?µ¾4G?|S?DÂ?Ø±¾£<?®ÓT?,º?®¾Ýy2?¶HV?³?¬7ª¾ß)?BÒW?sÛ¬?ÌC¦¾m ?dY?,F§?,¢¾l_?[?î"¢?¾|H?¢ñ\?Í?;
 
 // Remaining properties
 @property(nonatomic) double currentTime;

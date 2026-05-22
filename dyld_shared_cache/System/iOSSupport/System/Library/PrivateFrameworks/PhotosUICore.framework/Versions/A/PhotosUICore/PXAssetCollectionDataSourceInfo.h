@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)á¬;
 
 // Remaining properties
 @property(nonatomic, setter=_setUUIDFilterHidesSomeAssets:) _Bool UUIDFilterHidesSomeAssets; // @synthesize UUIDFilterHidesSomeAssets=_UUIDFilterHidesSomeAssets;

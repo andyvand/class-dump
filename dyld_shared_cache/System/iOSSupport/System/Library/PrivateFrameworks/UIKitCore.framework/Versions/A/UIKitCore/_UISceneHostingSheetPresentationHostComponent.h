@@ -24,12 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)ock: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
+- (id)
+× ;
+- (id)gð1Â0@ù
+× ;
+- (void)d68 è<;
 - (void);
-- (id)ataFromDocumentURL:(id)arg1;
-- (id)on;
-- (void)à;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIRemoteSheet_Internal> _containedRemoteSheet;

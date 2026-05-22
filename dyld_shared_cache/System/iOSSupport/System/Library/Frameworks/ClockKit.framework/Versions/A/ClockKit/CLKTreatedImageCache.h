@@ -14,16 +14,16 @@
     NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
-+ (id)Ä;
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

@@ -269,13 +269,13 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -286,34 +286,35 @@
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
 - (void);
+- (void);
+- (long long);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
 - (void);
-- (long long);
-- (void);
-- (long long);
-- (id)
+- (id);
+- (long long)!P@ùqI1â
+0@ù
 × ;
-- (id)scale"i"flags"I"epoch"q}"startTime"d"startTimeIntoSegment"{?="value"q"timescale"i"flags"I"epoch"q}"timelineVersion"q"transitionKind"c"transitionCorrection"{?="value"q"timescale"i"flags"I"epoch"q}};
-- (void)eTitleTwoLineMode:(id)arg1;
-- (_Bool)hanges;
+- (void)GSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16i784@788;
+- (void)ater;
+- (_Bool)@;
 - (id);
-- (_Bool)²Ûøÿgjûÿ;
-- (unsigned long long)collections;
-- (void)PHOTO_SHORTCUT;
-- (long long)ems;
-- (id);
-- (void)onDestructive;
-- (id);
+- (void)¸Äùÿ]ìß;
+- (_Bool);
+- (void)set after error:%s /* Error: Ran out of types for this method. */;
+- (id)tionProjectsTitle;
+- (id)ng/unfavoriting is not supported for Placeholders.;
+- (void)é;
+- (long long);
 - (void);
-- (id)ÊæMZ6;
-- (id)äBÊÿYMâL6;
-- (void)OH6;
+- (void)Tã3ÿ¬3ÿ;
+- (id)o¥w¯6;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic, setter=_setPreviousCollectionsCount:) unsigned long long _previousCollectionsCount; // @synthesize _previousCollectionsCount=__previousCollectionsCount;

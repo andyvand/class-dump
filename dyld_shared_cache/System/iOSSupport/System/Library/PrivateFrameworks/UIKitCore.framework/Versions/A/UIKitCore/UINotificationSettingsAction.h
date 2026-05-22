@@ -12,14 +12,13 @@
 }
 
 - (id);
-- (id)QU;
-- (void)¡nÐ!GùÑÀÐ1¢!0@ù
+- (id);
+- (id)0@ù
 × ;
-- (id)
-× ;
-- (id)henTruncated;
-- (id);
-- (long long)ÿ8+þ;
+- (id)geViewAttributes;
+- (id)apterInfo;
+- (void)ÉÿÃå¹ðe;
+- (long long)ÿmÚøJh;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UNNotification *notification; // @synthesize notification=_notification;

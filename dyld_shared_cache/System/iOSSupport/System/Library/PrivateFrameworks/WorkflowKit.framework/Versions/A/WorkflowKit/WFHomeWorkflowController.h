@@ -17,14 +17,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (id);
-- (void)
-× ;
-- (void);
+- (_Bool);
+- (void)V_accessResourcePerWorkflowStates;
+- (void)assed into the action. ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

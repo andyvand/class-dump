@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIPMultiverseIdentifier, NSArray, NSString;
+@class NSArray, NSString;
 
 @protocol MPMediaLibraryDataProviderPrivate
 
 @optional
-+ (NSArray *)16B24@28@?36;
-- (id)terfaceWithProtocol:(NSString *)arg1;
-- (void)nName:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)apple.garageband10;
-- (void)le.iMovieApp;
-- (void)i;
-- (void)apple.MobileSMS;
-- (void)terest;
-- (_Bool)atchos:(id)arg1 //com.apple.NanoPhotos;
-- (void)Mandrake;
-- (void);
-- (void);
-- (void);
-- (void)/;
-- (void)ѿ#5�);
-- (void)rary/PrivateFrameworks/ContextKit.framework/Versions/A/ContextKit;
-- (_Bool)0;
-- (_Bool)blisher>"16@"NSArray"24@"<BMBookmark>"32;
-- (MIPMultiverseIdentifier *)4;
-- (_Bool)edEndDate"b1"sleepModeChangeReason"b1"sleepModeState"b1};
-- (void *)te"16@"_CDContextualKeyPath"24;
-- (void)8@0:(long long)arg1 8@16@24@32@40;
-- (NSString *)"__ptr_"^v}};
-- (void)P;
+- (NSString *)ckerCollectionViewController;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accountDSID;

@@ -12,12 +12,12 @@
 }
 
 - (_Bool);
-- (id);
-- (void);
 - (_Bool);
-- (struct CGRect);
-- (void);
 - (id);
+- (struct CGRect);
+- (id);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

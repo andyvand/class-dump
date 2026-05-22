@@ -47,10 +47,10 @@
 - (void);
 - (void);
 - (id);
-- (struct CGPoint);
 - (void);
 - (void);
 - (id);
+- (struct CGPoint);
 - (void);
 - (void);
 

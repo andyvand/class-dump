@@ -35,14 +35,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
-- (id)VerticalSpacingBetweenHeaderAndContent;
+- (id);
+- (void);
+- (id);
+- (void)StartingDirection;
+- (id)(	;
 
 // Remaining properties
 @property(nonatomic) long long accessoryStyle; // @synthesize accessoryStyle=_accessoryStyle;

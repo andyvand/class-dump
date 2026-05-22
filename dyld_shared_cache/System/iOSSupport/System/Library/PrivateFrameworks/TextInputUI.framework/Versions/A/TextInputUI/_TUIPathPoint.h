@@ -23,13 +23,13 @@
 - (void);
 - (double);
 - (void);
-- (double);
-- (struct CGPoint);
 - (id);
+- (double);
 - (void);
+- (void);
+- (struct CGPoint);
 - (double);
 - (double);
-- (void)isplayString;
 
 // Remaining properties
 @property(nonatomic) double absoluteTime; // @synthesize absoluteTime=_absoluteTime;

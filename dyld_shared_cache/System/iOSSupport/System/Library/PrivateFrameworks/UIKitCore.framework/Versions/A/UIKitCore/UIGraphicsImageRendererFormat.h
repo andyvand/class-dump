@@ -15,32 +15,31 @@
     long long _preferredRange;
 }
 
-+ (id)Ô¡n!Dù±Àð1¢!0@ù
-× ;
-+ (id)ation"b1"shouldSupressActiveIndirectMotionUpdates"b1"startDeferingFocusOnTapHoldEnded"b1};
-+ (id);
-- (void);
-- (double);
-- (_Bool)k;
++ (id)alizeRenditionContents;
++ (id)playsWhenSearchActive;
++ (id)XÿËÿ£k×&s;
 - (long long);
-- (void)ier;
 - (void);
-- (long long)out [was pending dispatch];
-- (_Bool)ips table [] error=%{public}@;
+- (_Bool);
+- (_Bool);
+- (void);
+- (struct CGColorSpace *);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool)Ð1¢!0@ù
+- (double);
+- (void)
 × ;
-- (void)nfo;
-- (double)tification: /* Error: Ran out of types for this method. */;
-- (id)N,S_setGrabberAlpha:,V__grabberAlpha /* Error: Ran out of types for this method. */;
-- (void)T@"NSArray",&,VnormalizedInputModes;
-- (struct CGColorSpace *)ìüÿ;
-- (_Bool);
-- (void)ÿ5ÌrMk;
+- (void)ith:(_Bool)arg1;
+- (void)rceView:(_Bool)arg1;
+- (void)tes;
+- (double)tEffectsWindowSafeAreaInsets;
+- (id)Kit24NavigationBarContentViewP33_345D3E4B07A261C8C2F7AC9E3003F3BA15DebugVisualizer;
+- (long long)wAnimationDelegate_;
+- (_Bool)econdary action.;
+- (void)rityOrderedLayout;
+- (_Bool)o. Previous accumulation={%lu, %lu} Replacement range={%lu, %lu} delta=%li;
+- (void)«þ;
+- (_Bool)ù¼ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_contextScale) double _contextScale;

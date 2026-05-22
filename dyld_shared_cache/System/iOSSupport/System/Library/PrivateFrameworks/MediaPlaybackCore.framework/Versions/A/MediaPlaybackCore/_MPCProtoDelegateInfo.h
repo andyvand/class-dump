@@ -34,16 +34,16 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
-+ (id)unt to exist or for one to be created. error = %{public}@;
++ (id);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void))@`@`;
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (void)US:%{public}@:%{public}@] _addAutoPlayPlaybackContext:| failed to convert to deferredNextContentItem PositionSpecified [deferredNextContentItemID is nil] /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -16,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (void)H87;
-- (void)reSize:(double)arg1 edgeInsets:downsampleScale:metalContext:capabilities: /* Error: Ran out of types for this method. */;
-- (void)úU¹v;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) TSUColor *TSUColor; // @dynamic TSUColor;

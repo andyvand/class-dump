@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)red=YES;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPModelGenericObject *startItem; // @synthesize startItem=_startItem;

@@ -57,12 +57,13 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void)on: /* Error: Ran out of types for this method. */;
-- (void)rentChildCollectionIndexPath;
-- (void)redicate;
-- (id);
+- (void);
+- (void);
+- (id)ø
+5;
 
 // Remaining properties
 @property(nonatomic, setter=_setDidReceiveGraphFractionCompleted:) _Bool _didReceiveGraphFractionCompleted; // @synthesize _didReceiveGraphFractionCompleted=__didReceiveGraphFractionCompleted;

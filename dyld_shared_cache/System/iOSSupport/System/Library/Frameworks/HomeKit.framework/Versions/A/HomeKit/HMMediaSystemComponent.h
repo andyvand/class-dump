@@ -17,8 +17,8 @@
 }
 
 + (id);
-+ (id)yticsMetricEventDispatcherFactory;
-+ (_Bool)etupPayload;
++ (_Bool);
++ (id)SupportsResidentSelectionCodingKey;
 
 @end
 

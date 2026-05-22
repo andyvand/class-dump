@@ -4,12 +4,14 @@
 
 class __gnu_cxx::free_list {
 public: // (access info unavailable from symbols alone)
-    _M_clear();
-    _M_get(unsigned long);
-    _M_get_free_list();
-    _M_get_free_list() (.cold.1);
-    _M_get_free_list()::_S_free_list;
-    _M_get_mutex();
-    _M_get_mutex() (.cold.1);
-    _M_get_mutex()::_S_mutex;
+    auto _M_clear();
+    auto _M_get(unsigned long);
+    auto _M_get_free_list();
+    auto _M_get_free_list() (.cold.1);
+    auto _M_get_free_list()::_S_free_list;
+    auto _M_get_mutex();
+    auto _M_get_mutex() (.cold.1);
+    auto _M_get_mutex()::_S_mutex;
+    guard variable for _M_get_free_list()::_S_free_list;
+    guard variable for _M_get_mutex()::_S_mutex;
 };

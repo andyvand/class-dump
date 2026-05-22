@@ -23,36 +23,34 @@
     UIColor *_nonTrackingBackgroundColor;
 }
 
-- (void)fetchedExitDateOnLaunch;
-- (_Bool)Handler:(id)arg1;
-- (void)entifier:toIdentifier:displayName:participants:groupID: /* Error: Ran out of types for this method. */;
-- (void)tCandidateGroupChatWithFromIdentifier:toIdentifier:displayName:participants:groupID: /* Error: Ran out of types for this method. */;
-- (double)ithChecks:priority:reason: /* Error: Ran out of types for this method. */;
-- (void)sNotifiedRecipientAndNotify:session:chat: /* Error: Ran out of types for this method. */;
-- (void)egate;
-- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
 - (id);
 - (double);
 - (void);
 - (double);
 - (void);
-- (id)ge to handleID "%@";
-- (void)y verification tokens %@ for message to handleID "%@";
-- (void)ges not installed, don't listen for pushes.;
-- (struct CGRect)fer we want to remove does not exist at its local path -- transfer (%@) local path (%@);
+- (id);
+- (void);
+- (void);
+- (struct CGRect);
 - (double);
 - (long long);
 - (double);
+- (_Bool);
+- (struct CGSize);
+- (void);
+- (_Bool);
+- (double)s:completion: /* Error: Ran out of types for this method. */;
+- (id), deleteBased:%@, hasInserts:%@ /* Error: Ran out of types for this method. */;
+- (void)q6k;
 - (id);
-- (double);
-- (void)
-× ;
-- (_Bool)ñË1¢!0@ù
-× ;
-- (_Bool)ðæÿ;
-- (struct CGSize)¨d;
-- (id)¤Ñ3Fh;
-- (void)çþ;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *nonTrackingBackgroundColor; // @synthesize nonTrackingBackgroundColor=_nonTrackingBackgroundColor;

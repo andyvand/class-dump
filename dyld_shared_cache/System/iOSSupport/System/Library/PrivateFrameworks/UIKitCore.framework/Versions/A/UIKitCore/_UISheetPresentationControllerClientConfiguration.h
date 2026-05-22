@@ -15,22 +15,22 @@ __attribute__((visibility("hidden")))
     struct CGRect _keyboardFrame;
 }
 
-+ (_Bool)ilingMode;
-+ (_Bool)DÄuÿZc;
++ (_Bool)butes=;
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
 - (id);
-- (void)â|¬;
-- (id)hlightingItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (id);
+- (_Bool)v52@0:(id)arg1 8@16B24@28d36@44;
+- (void)ge;
+- (void)originalSize;
 
 // Remaining properties
 @property(nonatomic) _Bool containsFirstResponder; // @synthesize containsFirstResponder=_containsFirstResponder;

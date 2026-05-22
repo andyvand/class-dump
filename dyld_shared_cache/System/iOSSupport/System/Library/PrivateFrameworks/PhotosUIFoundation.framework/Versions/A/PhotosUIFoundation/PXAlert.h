@@ -23,9 +23,9 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIAlertController *alertController; // @synthesize alertController=_alertController;

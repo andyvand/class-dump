@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id),V_pinCodeValue;
+- (void)essStateNotCapable;
+- (id)ount;
 
 // Remaining properties
 @property(readonly, nonatomic) HMUser *user; // @synthesize user=_user;

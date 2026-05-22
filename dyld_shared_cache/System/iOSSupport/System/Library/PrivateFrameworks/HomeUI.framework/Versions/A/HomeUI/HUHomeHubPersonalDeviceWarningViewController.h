@@ -34,14 +34,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)1b0@ù
-× ;
-- (id)tRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (void)Xöh;
+- (void);
+- (void);
+- (void);
+- (void)ff:(_Bool)arg1;
+- (id);
+- (void)InviteUser_Footer;
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *cancelButton; // @synthesize cancelButton=_cancelButton;

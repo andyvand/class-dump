@@ -16,12 +16,12 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 

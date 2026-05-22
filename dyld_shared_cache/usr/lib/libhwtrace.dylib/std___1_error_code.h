@@ -4,5 +4,5 @@
 
 class std::__1::error_code {
 public: // (access info unavailable from symbols alone)
-    message() const;
+    auto message() const;
 };

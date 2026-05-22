@@ -17,9 +17,8 @@
 }
 
 - (id);
-- (void)!xFùÄÐ1¢!0@ù
-× ;
-- (id);
+- (id)ayoutData;
+- (void)õ¬Ò^m;
 
 @end
 

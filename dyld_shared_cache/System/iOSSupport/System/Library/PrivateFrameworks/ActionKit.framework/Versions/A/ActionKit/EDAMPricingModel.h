@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)bookmark_id;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *gnomeActive; // @synthesize gnomeActive=_gnomeActive;

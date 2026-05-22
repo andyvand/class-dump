@@ -11,15 +11,12 @@
 
 + (Class);
 - (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (double)á$Ð!ÜGùQ.Ð1b0@ù
-× ;
-- (id)
-× ;
-- (void)ñ.Ð1b0@ù
-× ;
+- (id);
+- (double)ndowAppearance;
+- (void)lyHandlerAdapterBlock:(double)arg1;
 
 // Remaining properties
 @property(nonatomic) double progress; // @synthesize progress=_progress;

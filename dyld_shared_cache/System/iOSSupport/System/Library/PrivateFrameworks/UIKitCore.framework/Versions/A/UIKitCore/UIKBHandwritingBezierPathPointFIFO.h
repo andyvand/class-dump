@@ -21,13 +21,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void)1¢!0@ù
-× ;
-- (void)nline: /* Error: Ran out of types for this method. */;
-- (id)Edge: /* Error: Ran out of types for this method. */;
-- (void)aitCollectionWithHeadroomSuppressionLimit:(id)arg1;
-- (void)rray",R,N,V_viewerRoleDocumentUTTypes;
-- (void)@"BSProcessHandle"8@"NSError"16;
+- (void);
+- (void)rabberSuppressionAssertion;
+- (void)sentationCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)onDeferredFocusUpdate;
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType emissionHandler; // @synthesize emissionHandler=_emissionHandler;

@@ -5,11 +5,5 @@
 //
 
 @protocol _TtP7ChatKit33CKSuggestedActionsHandlerDelegate_
-- (void);
-- (void);
-- (void));
-- (void)(&;
-- (void);
-- (void)X;
 @end
 

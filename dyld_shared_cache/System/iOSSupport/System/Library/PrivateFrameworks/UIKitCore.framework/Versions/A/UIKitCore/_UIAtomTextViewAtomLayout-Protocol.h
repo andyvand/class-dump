@@ -5,10 +5,10 @@
 //
 
 @protocol _UIAtomTextViewAtomLayout
-- (void)tHMACSign;
-- (void)entSize3D:(_Bool)arg1;
-- (void)Assistants;
-- (_Bool)9ÿ3äº°þIÿ3àº°þ;
+- (void)ÈAùqg1Â0@ù
+× ;
+- (long long)ate>";
+- (void)d conversion; returning CGRectNull.;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;

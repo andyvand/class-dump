@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
     NSString *_explanation;
 }
 
-- (_Bool)WithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
-- (void)/Authentication/AppleIDSSOAuthenticationPlugin.bundle/Contents/MacOS/AppleIDSSOAuthenticationPlugin;
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (long long)P;
-- (_Bool);
-- (void);
+- (long long);
 - (void);
 - (id);
+- (_Bool);
+- (void)ate=%{public}@;
 
 // Remaining properties
 @property(nonatomic) _Bool canBeOverriden; // @synthesize canBeOverriden=_canBeOverriden;

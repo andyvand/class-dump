@@ -13,8 +13,8 @@
 
 - (_Bool);
 - (void);
+- (double);
 - (void);
-- (double)Ä;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

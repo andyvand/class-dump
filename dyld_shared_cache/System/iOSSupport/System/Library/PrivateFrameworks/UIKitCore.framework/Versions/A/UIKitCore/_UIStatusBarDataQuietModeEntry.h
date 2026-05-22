@@ -13,19 +13,20 @@
     NSString *_focusName;
 }
 
-+ (id)g transfer. Did not find a guid in %@;
-+ (_Bool)DhÿÄ;
++ (id);
++ (_Bool)_' but it looks like you are not Safari. I mean... what did you expect to happen?;
+- (id);
+- (id);
 - (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)1Ä1¢!0@ù
-× ;
-- (id)antViewWidth;
-- (void);
+- (_Bool)poverLayoutInfo";
+- (void)ont:(id)arg1 forWidth:lineBreakMode:letterSpacing: /* Error: Ran out of types for this method. */;
+- (id)er:inContext: /* Error: Ran out of types for this method. */;
+- (id)mands;
+- (void)¤p=
+×£Ð?q=
+×£pÍ?ffffffÖ?Év¾/Í?ffffffÖ?¸ëQ¸¾¿¿Év¾/½?Ñ"Ûù~j¼?#Ûù~j¼´?¬Zd;¯?ªñÒMbÈ?R¸ëQ¸?;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *focusName; // @synthesize focusName=_focusName;

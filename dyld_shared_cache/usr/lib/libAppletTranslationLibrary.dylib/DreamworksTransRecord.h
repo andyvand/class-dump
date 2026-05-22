@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (unsigned short);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDateComponents *datetime; // @synthesize datetime=_datetime;

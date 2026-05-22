@@ -13,16 +13,17 @@
     long long _maxNumberOfItems;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (double)umeView;
-- (id)tchAmount;
-- (long long)Appearance;
+- (long long);
 - (id);
-- (_Bool)oï3;
-- (double)ble);
 - (void);
+- (double);
+- (_Bool)1Â0@ù
+× ;
+- (void)rix;
+- (id)¼O;
+- (void)nFloating;
+- (_Bool)_;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canOverflowItems;

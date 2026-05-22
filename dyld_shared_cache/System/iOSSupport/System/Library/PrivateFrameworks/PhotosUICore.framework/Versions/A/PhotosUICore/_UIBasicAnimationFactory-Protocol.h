@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABasicAnimation, CAMediaTimingFunction, UIView;
+@class CABasicAnimation, CAMediaTimingFunction;
 
 @protocol _UIBasicAnimationFactory
-- (CABasicAnimation *);
+- (CABasicAnimation *)lity label for 1-Up badge!;
 
 @optional
-- (CAMediaTimingFunction *)r:(UIView *)arg1 %@;
-- (_Bool)¨(p;
+- (CAMediaTimingFunction *)ucerEventReceivedCuration;
+- (_Bool);
 @end
 

@@ -10,46 +10,45 @@
 {
 }
 
-- (_Bool)6;
-- (double);
-- (struct UIEdgeInsets)buildRequiredOnlyWithSourcePath:(int)arg1 withSourcePathInUserHome:(struct CGRect)arg2 withTargetPath:withTargetPathInUserHome: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (_Bool);
-- (_Bool);
-- (_Bool)blic}@ for data source:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (double);
 - (double);
 - (_Bool);
-- (id)
+- (id);
+- (struct UIEdgeInsets);
+- (double);
+- (_Bool);
+- (id)1Â0@ù
 × ;
-- (double)w!¼FùÌÐ1¢!0@ù
+- (double)Ôáð!äAù±c1Â0@ù
 × ;
-- (id)!0@ù
+- (_Bool)0@ù
 × ;
-- (double)Frame"40;
-- (_Bool)utomaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
-- (_Bool)hMVEGestureTrackingSession";
-- (id)ictationForResponder:(int)arg1 withOption:(_Bool)arg2 firstResponderSetupCompletion: /* Error: Ran out of types for this method. */;
-- (id)rToolbar: /* Error: Ran out of types for this method. */;
-- (double)hes:withEvent: /* Error: Ran out of types for this method. */;
-- (id)Location:(id)arg1;
-- (double)entationObserversIfNeeded;
-- (id)eCenter;
-- (_Bool)verrideExpandedCornerRadius;
-- (double)bBar;
-- (double)ð	l
-(À¤ô`;
-- (_Bool)Ì;
-- (id)TwTxy${ø~TäÌ´Ä¨¼ªð¸\¹¤¹è¹Dº;
-- (id)Controller;
-- (double)troller must call -[super initWithCoder:] /* Error: Ran out of types for this method. */;
-- (_Bool){88;
-- (id)qÿÒnr^;
-- (double);
+- (double)nsets=dddd}}24^{UIContentUnavailableViewLayoutInfo={UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
+- (double)dIndicator"b1};
+- (_Bool)ueForAnimatedKey: /* Error: Ran out of types for this method. */;
+- (_Bool)ial: /* Error: Ran out of types for this method. */;
+- (_Bool)tLegibilityTraitChangesOnView: /* Error: Ran out of types for this method. */;
+- (double)n_layoutSubviewsOfCell: /* Error: Ran out of types for this method. */;
+- (id)locity: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)tFollowsLayoutMargins;
+- (double)BArbiterClientKeyboardChangeDelegate>",W,N,V_changeInfoDelegate;
+- (id)D¬,\||Ô(ü \#p$´%ð')¤)Ø)@*Ø*+t+;
+- (_Bool)¼6;
+- (id)ø·L¸;
+- (id)xø;
+- (id)hiding overlay scrollers...;
+- (double)sible swipe actions view for index path:%@ /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)SharingController>"8@?<v@?@"CKShare"@"CKContainer"@"NSError">16;
+- (id)e greater than zero or UITableViewAutomaticDimension.;
+- (double)cessSectionUpdate(const NSUInteger, const _UIDataSourceUpdate, const _UIMapIndex, const _UIMapIndex, _UIMapIndex *, _UIMutableFastIndexSet *const __strong, _UIMutableFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
+- (_Bool)oþ;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool animateHighlightingSelectionByDefault;

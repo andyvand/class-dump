@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)NSString"16C24;
-- (id)/PrivateFrameworks/IMFoundation.framework/Versions/A/IMFoundation;
-- (struct CGRect)rOrBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (struct CGRect);
 
 @end
 

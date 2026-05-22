@@ -24,26 +24,26 @@
     unsigned long long _contentType;
 }
 
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)ange:toRange:inDocument: /* Error: Ran out of types for this method. */;
-- (id)cation:(struct CGPoint)arg1;
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (unsigned long long);
 - (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isBlurEnabled) _Bool blurEnabled; // @synthesize blurEnabled=_blurEnabled;

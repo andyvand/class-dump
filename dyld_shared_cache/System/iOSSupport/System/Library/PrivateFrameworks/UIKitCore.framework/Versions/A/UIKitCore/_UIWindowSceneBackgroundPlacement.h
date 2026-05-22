@@ -12,9 +12,9 @@
 
 + (unsigned long long);
 - (_Bool);
-- (id)essagesReceivedDuringStorage;
-- (id);
-- (id)orCurrentTouchForceProvider;
+- (id);
+- (id);
+- (id);
 
 @end
 

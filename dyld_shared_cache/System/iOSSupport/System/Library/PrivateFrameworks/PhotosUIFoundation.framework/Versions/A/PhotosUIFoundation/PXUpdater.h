@@ -34,12 +34,12 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool extraChecksEnabled; // @synthesize extraChecksEnabled=_extraChecksEnabled;

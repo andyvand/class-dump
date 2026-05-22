@@ -12,9 +12,9 @@
     id <SXAction> _action;
 }
 
-- (void);
 - (id);
 - (id);
+- (void)<SXAutoPlacementLayout>";
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAction> action; // @synthesize action=_action;

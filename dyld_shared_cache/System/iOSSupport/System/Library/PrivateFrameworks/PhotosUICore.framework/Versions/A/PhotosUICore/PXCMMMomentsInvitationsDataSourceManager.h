@@ -30,12 +30,14 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id)1E°1â
+0@ù
+× ;
 - (void);
-- (id);
-- (id);
-- (id)leKey];
-- (id);
-- (id)Â¬;
+- (id)¡bRÈG6;
 
 // Remaining properties
 @property(retain) NSMutableOrderedSet *_remainingAssetCollectionObjectIDsToFetch; // @synthesize _remainingAssetCollectionObjectIDsToFetch=__remainingAssetCollectionObjectIDsToFetch;

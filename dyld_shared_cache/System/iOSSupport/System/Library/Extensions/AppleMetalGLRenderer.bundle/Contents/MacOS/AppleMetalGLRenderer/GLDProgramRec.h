@@ -4,6 +4,6 @@
 
 class GLDProgramRec {
 public: // (access info unavailable from symbols alone)
-    dealloc();
+    auto dealloc();
     ~GLDProgramRec();
 };

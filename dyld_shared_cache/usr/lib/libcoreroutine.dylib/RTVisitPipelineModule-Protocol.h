@@ -7,6 +7,6 @@
 @protocol RTVisitPipelineModule
 
 @optional
-- (void), %{sensitive}f, intersectionArea, %{sensitive}f, unionArea, %{sensitive}f,;
+- (void)item from active navigation, %@, semaError, %@;
 @end
 

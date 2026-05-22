@@ -13,14 +13,14 @@
     MISSING_TYPE *cache;
 }
 
-- (_Bool);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id)P;
+- (void)UID:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

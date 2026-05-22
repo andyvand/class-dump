@@ -12,24 +12,24 @@
     NSUUID *_activityUUID;
 }
 
-+ (_Bool);
 + (id);
-+ (_Bool):preferredTitleLayout:titleContentStyle:timeNumberingSystem:userConfigured:preferredTimeMaxYPortrait:preferredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)ÿa: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;

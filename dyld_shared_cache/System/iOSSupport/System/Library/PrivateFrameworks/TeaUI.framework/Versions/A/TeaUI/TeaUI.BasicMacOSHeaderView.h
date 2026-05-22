@@ -12,25 +12,25 @@
     MISSING_TYPE *button;
 }
 
-- (void)<;
-- (void)5<;
+- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGPoint);
-- (id)l;
 - (void);
-- (void);
-- (id)rticleID;
-- (void)e due to size %{public}@;
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (void)iveCalloutBar;
-- (void);
-- (id)!@e;
 - (id);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (id)int;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint accessibilityActivationPoint;

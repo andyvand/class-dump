@@ -5,6 +5,5 @@
 //
 
 @protocol SVVideoURLProviding
-- (void (^)(void));
 @end
 

@@ -7,11 +7,8 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (_Bool);
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (id)ged: /* Error: Ran out of types for this method. */;
-- (_Bool)wB;
+- (struct _NSZone *)@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

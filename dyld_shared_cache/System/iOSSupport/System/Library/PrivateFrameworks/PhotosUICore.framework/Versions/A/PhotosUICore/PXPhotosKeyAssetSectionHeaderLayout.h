@@ -91,18 +91,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)abilities;
-- (void)youtMetrics;
-- (void)B,N,V_shouldShowBanner;
-- (void)ÄþÿÜ»üÿÞ0üÿ4¦ûÿ;
-- (id)ghsuggestions;
-- (void)ÿ8øG?Â4;
-- (id);
-- (id)t­ÿÅ]J¢=6;
+- (void);
+- (void);
+- (void);
+- (id)*ÿ;
+- (void)"8^v16^B24;
+- (void)ù
+Çh¿ÿù
+Çd¿ÿù
+Ç`¿ÿÇuÿ;
+- (id)t5;
+- (void)6;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXPhotosBannerProvider> bannerProvider; // @synthesize bannerProvider=_bannerProvider;

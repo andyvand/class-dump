@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ion.DetailsLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) id <HFMediaProfileContainer> mediaProfileContainer; // @synthesize mediaProfileContainer=_mediaProfileContainer;

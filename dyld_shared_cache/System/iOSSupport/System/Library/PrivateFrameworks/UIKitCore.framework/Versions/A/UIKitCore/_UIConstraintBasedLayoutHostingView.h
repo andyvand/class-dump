@@ -12,23 +12,25 @@
     _Bool _hasAddedConstraints;
 }
 
-+ (_Bool);
-- (struct CGSize);
++ (_Bool)orMatrix="m11"f"m12"f"m13"f"m14"f"m15"f"m21"f"m22"f"m23"f"m24"f"m25"f"m31"f"m32"f"m33"f"m34"f"m35"f"m41"f"m42"f"m43"f"m44"f"m45"f};
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)áw!@ùÍ°1¢!0@ù
-× ;
-- (void)llBegin:(_Bool)arg1 ,V_pendingCompletionForWritingToolsWillBegin;
-- (struct UIEdgeInsets);
 - (struct CGSize);
-- (CDStruct_c3b9c2ee)$ÚO;
-- (id),;
-- (void)Db;
+- (void);
+- (void);
+- (void);
+- (void)0@ù
+× ;
+- (CDStruct_c3b9c2ee);
+- (void)1Â0@ù
+× ;
+- (struct CGSize)Â0@ù
+× ;
+- (id)T@"_UILabelScaledMetrics",R,N,V_associatedScaledMetrics;
+- (void)ndencies:(id)arg1 %lu. System performance may be affected. Please investigate reducing gesture recognizers and/or their dependencies.;
+- (_Bool);
+- (struct UIEdgeInsets)æþ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *hostedView; // @synthesize hostedView=_hostedView;

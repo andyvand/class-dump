@@ -14,15 +14,14 @@
 
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (void)1¢!0@ù
+- (unsigned long long);
+- (id)
 × ;
-- (id)o°!TBùQÁ1¢!0@ù
-× ;
-- (id)ActiveMode: /* Error: Ran out of types for this method. */;
-- (id),V_separatorConfiguration;
+- (id);
+- (_Bool)on;
+- (id)d scene definition/restoration state for scene with identifier %@;
+- (void)ÖPÿ¸6ÊÐÛd;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

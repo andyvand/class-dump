@@ -21,36 +21,35 @@
 }
 
 + (id);
-+ (_Bool)(Dtÿ¯;
++ (_Bool)ries;
 - (id);
 - (id);
-- (_Bool)nBlock: /* Error: Ran out of types for this method. */;
-- (void)dActionWithPipeline:(_Bool)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1 handleInfo: /* Error: Ran out of types for this method. */;
-- (void)e:(unsigned long long)arg1 account: /* Error: Ran out of types for this method. */;
-- (void)iteRelayTextMessage:(long long)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)UniqueDirectoryWithName:(struct CGRect)arg1 atPath:ofType: /* Error: Ran out of types for this method. */;
-- (unsigned long long)emonListenerProtocol;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long);
 - (struct CGRect);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (id)raryPathDidChangeForTasteController:(struct _NSZone *)arg1;
-- (id);
-- (void)
-× ;
-- (id)eviousPage;
-- (id)ceViewNotSet;
-- (unsigned long long)pedZoomScale:allowRubberbanding:] /* Error: Ran out of types for this method. */;
-- (void)§Õ6©b;
 - (struct CGVector);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)hHardEdges:(id)arg1;
+- (id)mingViewTap;
+- (unsigned long long)sedIdle mode is no longer supported.;
+- (void)RotaryMovementAxis;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

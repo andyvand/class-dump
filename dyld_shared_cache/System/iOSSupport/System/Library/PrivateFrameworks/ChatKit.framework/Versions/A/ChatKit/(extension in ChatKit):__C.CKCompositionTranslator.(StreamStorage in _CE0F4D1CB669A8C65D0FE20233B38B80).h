@@ -8,7 +8,6 @@
 
 @interface (extension in ChatKit):__C.CKCompositionTranslator.(StreamStorage in _CE0F4D1CB669A8C65D0FE20233B38B80)
 {
-    MISSING_TYPE *stream;
     MISSING_TYPE *continuation;
 }
 

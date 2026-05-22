@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)uthorized %0.4lf seconds ago at %{public}@;
-- (_Bool)_alternateAttachmentPathIfExists: /* Error: Ran out of types for this method. */;
-- (id)nitializer instead.;
-- (double)]2\;
++ (_Bool);
+- (_Bool);
+- (id);
+- (double);
 
 @end
 

@@ -21,84 +21,83 @@ __attribute__((visibility("hidden")))
     _UIKeyboardIndirectTextSelectionGestureState *_previousRemoteGestureState;
 }
 
-+ (void)comming-message;
++ (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (double);
 - (void);
-- (void)std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_mutex"{shared_mutex="__base_"{__shared_mutex_base="__mut_"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}} /* Error: Ran out of types for this method. */;
-- (void);
-- (void)"NSNumber"24@?0@"MPModelAlbum"8@"MPIdentifierSet"16;
 - (void);
-- (id);
 - (void);
 - (struct CGPoint);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)1¢!0@ù
+- (void);
+- (_Bool);
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (void)!@ù\°1Â0@ù
 × ;
-- (id)ar°!øBùÑÅ1¢!0@ù
+- (void)Eù]ð1Â0@ù
 × ;
-- (void)
+- (void)1Â0@ù
 × ;
-- (void)Ð1¢!0@ù
+- (void)°!;
+- (void)H@ù±b°1Â0@ù
+× ;
+- (void)1Â0@ù
 × ;
 - (void);
-- (void)0@ù
+- (void)Ô!
+°!PFùfÐ1Â0@ù
 × ;
-- (void)@ù
-× ;
-- (void)Î1¢!0@ù
-× ;
-- (_Bool)1¢!0@ù
-× ;
-- (void)ze=dd}}48^Q56;
-- (void)eViews"b1"computeTrackRect"b1"clampingTrimRange"I"zoomed"b1"zoomAnimating"b1"trackIsPressed"b1"trackAnimating"b1"thumbIsVisible"b1"handleIsPressed"b1"willBeginEditing"b1"editing"b1"editingHandle"I"rotationDisabled"I"isInNavigationBar"b1"delegateValueDidChange"b1"delegateStartValueDidChange"b1"delegateEndValueDidChange"b1"delegateWillBeginRequestingThumbnails"b1"delegateDidFinishRequestingThumbnails"b1"delegateWillBeginEditing"b1"delegateDidBeginEditing"b1"delegateDidCancelEditing"b1"delegateEditingAnimationFinished"b1"delegateWidthDeltaOriginXDelta"b1"delegateDidBeginAnimatingZoom"b1"delegateDidEndAnimatingZoom"b1"delegateWillZoom"b1"dataSourceRequestThumbnailImageIsSummmary"b1};
-- (void)houldUseActualFrame;
-- (void)tableViewSpringLoadedInteraction;
-- (void):(id)arg1;
-- (void)edTouchCount:(id)arg1;
-- (void)erOfTitlesWithoutTruncationForHeight:(id)arg1;
-- (void)ltiplier:(id)arg1;
-- (void)ountDownDuration;
-- (void)_proceedShouldReturn;
-- (void)rvedScrollViewIfApplicable:(id)arg1 velocity: /* Error: Ran out of types for this method. */;
-- (_Bool)mInfo:(id)arg1;
-- (void)ismiss;
-- (void)reState;
-- (void)ropStyle;
-- (struct CGPoint)",&,N,V__options;
-- (struct CGPoint)ottomInset:(struct CGPoint)arg1;
-- (void)ait;
-- (void)H;
-- (void)%@. In a future release, this will render the gesture nonfunctional;
-- (void)tternLibraryKeyKeyboardDeletion;
-- (void)ifier;
-- (void)ming resolve.;
-- (void)st Recent;
-- (void)_7414260656797E7BB737FC627AD30E4912TargetAction;
-- (void)áz¤?;
-- (_Bool);
+- (void)on"b1"sessionSupportsSystemDrag"b1"customSpringAnimationBehaviorForCancellingItem"b1"sessionPropertiesForSession"b1"itemsForAddingToSessionAsync"b1"itemsForAddingToSession3D"b1"sessionForAddingItems3D"b1"dynamicallyUpdatesPrefersFullSizePreviews"b1"shouldBecomeDraggingSourceDelegate"b1"delayForLiftBeginningAtLocation"b1};
+- (void)fications;
+- (void)cutionToMainThreadWithTask: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)a;
+- (void)ObjectIdenticalTo:(id)arg1;
+- (void)llbackInteractions;
+- (struct CGPoint)is;
+- (void)GestureRecognizer:shouldInteractAtLocation:withEvent: /* Error: Ran out of types for this method. */;
+- (void)l:(struct CGPoint)arg1 atIndexPath:(id)arg2;
+- (void)nuElement;
+- (id)oadInputAccessoryViewsOnAppearance;
+- (void)reviousInputViewSize;
+- (void)h:(id)arg1 withFont:minFontSize:actualFontSize:lineBreakMode:baselineAdjustment: /* Error: Ran out of types for this method. */;
+- (_Bool)animatingOutDynamicShadow;
+- (void)ultPrevented,V_defaultPrevented;
+- (void)ControllerPalette",&,N,V_incomingTopPalette;
+- (void);
+- (void)rEffect;
+- (id);
+- (_Bool)re are only %ld rows in this section of the table view.;
+- (void)orm != NULL;
+- (void)IInputViewSetPlacementInvisibleForFloatingTransition placementWithPlacement:(id)arg1 forFloatingAssistantViewTransition:] /* Error: Ran out of types for this method. */;
+- (id)te.;
+- (void);
+- (void)ect(id<UIFocusEnvironment>  _Nonnull __strong, id<UIFocusItemContainer>  _Nonnull __strong, CGRect);
+- (void);
+- (void)G;
+- (id);
+- (void)¸§zþ;
+- (void)a;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

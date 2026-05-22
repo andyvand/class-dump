@@ -14,11 +14,11 @@
     MISSING_TYPE *iconView;
 }
 
+- (struct CGSize);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (struct CGSize)!6;
+- (void);
 
 @end
 

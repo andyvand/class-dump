@@ -30,8 +30,8 @@
 - (id);
 - (CDStruct_c3b9c2ee);
 - (void);
-- (void);
 - (id);
+- (void)t=INTERNAL_SETTINGS&path=Home;
 
 // Remaining properties
 @property(nonatomic) CDStruct_c3b9c2ee currentValueRange; // @synthesize currentValueRange=_currentValueRange;

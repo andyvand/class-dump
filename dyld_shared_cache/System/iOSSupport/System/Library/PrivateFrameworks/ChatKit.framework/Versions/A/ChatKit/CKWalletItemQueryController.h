@@ -10,15 +10,15 @@
 {
 }
 
-- (_Bool)&Ö;
-- (unsigned long long)Contacts:scope: /* Error: Ran out of types for this method. */;
-- (id)FromDestinationAccountInSource;
-- (id)ersToButtonIdentifiers;
+- (_Bool);
+- (unsigned long long);
 - (id);
-- (id)nagedObjectIDC_G;
-- (id)t;
-- (id)lerDataSource",&,N,V_qlPreviewDataSource;
-- (id)0;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)KBrowserSwitcherFooterAccessoryCell;
+- (id)ectionViewController;
 
 @end
 

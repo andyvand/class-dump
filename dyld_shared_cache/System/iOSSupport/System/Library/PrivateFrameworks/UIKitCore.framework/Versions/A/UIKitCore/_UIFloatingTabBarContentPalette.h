@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
+- (id)ceView:selectionWidget:orientation: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)tAtPoint: /* Error: Ran out of types for this method. */;
-- (id)awing;
-- (void)cene:(id)arg1;
-- (void)ßþþ	;
-- (id)2ªb;
+- (void)MÕlú[;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *highlightedColor; // @synthesize highlightedColor=_highlightedColor;

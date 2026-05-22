@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
+- (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long behavior; // @synthesize behavior=_behavior;

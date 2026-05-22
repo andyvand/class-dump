@@ -13,36 +13,36 @@
 }
 
 - (void);
-- (void)w:(id)arg1 ordered: /* Error: Ran out of types for this method. */;
-- (struct CGRect)age_$_applicationWillResignActivePublisher;
-- (id)sher;
-- (id)$_applicationDidBecomeActivePublisher;
-- (void)unt;
+- (void);
+- (struct CGRect);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)tContextObject;
-- (void)teAnalyticsAudioTranscriptInteractionNotificationTranscriptViewedKey;
-- (id)attachment will be overwritten;
+- (void);
+- (void);
+- (id);
 - (id);
 - (double);
 - (double);
-- (void);
-- (long long);
-- (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (long long);
-- (id);
 - (id);
+- (struct CGSize);
+- (id);
+- (id)mbinedHighlightsView;
 - (void);
+- (void)ound SMS spam filtering value:(long long)arg1 %{BOOL}d on iPad;
+- (void)ChatKit.BusinessDetailsController;
+- (long long)onaryKey;
+- (void)IME_AUDIO;
 - (void);
-- (id)onManager",&,N,V_throwSendAnimationManager;
-- (struct CGSize)ontact;
-- (long long)8%;
-- (void)0±;
-- (void)wÏ/ß-;
+- (long long)out;
+- (long long)ìm\al`;;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double _firstLineBaselineOffsetFromBoundsTop;

@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
     MPCFuture *_playbackStateFuture;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (void)blic}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

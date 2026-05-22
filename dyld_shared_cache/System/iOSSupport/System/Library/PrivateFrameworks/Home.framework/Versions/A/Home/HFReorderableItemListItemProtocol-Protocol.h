@@ -7,8 +7,8 @@
 @class NSString;
 
 @protocol HFReorderableItemListItemProtocol
-- (NSString *)9_{7t;
-- (NSString *)^éÿÿõÿÿ;
+- (NSString *)nServiceItems: /* Error: Ran out of types for this method. */;
+- (NSString *)te:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *uuidString;

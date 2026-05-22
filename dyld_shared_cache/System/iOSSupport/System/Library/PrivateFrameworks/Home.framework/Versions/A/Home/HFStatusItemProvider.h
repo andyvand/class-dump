@@ -30,10 +30,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id)eraClipPlayerItem"8;
+- (void)°E;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)ForItemChangeType: /* Error: Ran out of types for this method. */;
-- (id)respotlight.daemon.fileprovider;
-- (id);
-- (id);
-- (id)htConstraint;
+- (id)¸U;
+- (id)Ôä;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

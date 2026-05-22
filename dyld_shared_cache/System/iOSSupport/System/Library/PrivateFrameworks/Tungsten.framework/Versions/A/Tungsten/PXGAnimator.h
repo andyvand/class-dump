@@ -36,14 +36,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (long long);
 - (double);
+- (long long);
 - (_Bool);
+- (void);
 - (unsigned int);
-- (void)umerateKeysAndObjectsUsingBlock:(double)arg1;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;

@@ -5,6 +5,5 @@
 //
 
 @protocol _UITableViewIgnoreDragsToken
-- (void);
 @end
 

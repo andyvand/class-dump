@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void)V_qualityType;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

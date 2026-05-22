@@ -45,33 +45,35 @@
 
 - (id);
 - (void);
-- (void)MDService"16;
-- (void)ervice;
-- (double)UIDs:(id)arg1;
-- (struct UIEdgeInsets);
-- (struct CGRect)agePlayground: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CGPoint);
+- (void);
+- (double);
+- (struct UIEdgeInsets);
+- (id);
+- (struct CGRect);
 - (struct CGPoint);
 - (id);
-- (id);
-- (void)d$º;
-- (id)CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}24^{UIContentUnavailableViewLayoutInfo={UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
-- (double)@0:8@"_UISearchTabHostedFieldConfiguration"16 /* Error: Ran out of types for this method. */;
-- (double)lInteraction:(id)arg1;
-- (double);
-- (id)ughInteraction;
-- (long long)ictationKeyboard;
-- (unsigned long long)verlapAmount;
-- (struct CGRect)Width;
-- (id)ngth;
-- (double)ent;
-- (_Bool)(`à|¼;
-- (double)sQueue;
-- (_Bool)_STYLE;
-- (id)s %@, that is not a subclass of NSString. This is an illegal override. overrideImplementation=%p;
-- (struct CGRect)ormalizedChange;
-- (id)B|Òûb;
+- (void);
+- (id)!àBù±`1Â0@ù
+× ;
+- (struct CGRect);
+- (struct CGRect)1Â0@ù
+× ;
+- (double)dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
+- (_Bool)CGPoint=dd}{CGSize=dd}}24;
+- (id)ct={CGPoint=dd}{CGSize=dd}}24@56d64B72;
+- (unsigned long long)reviousLastBaselineOffsetForAttributeLowering;
+- (id)ions:completion: /* Error: Ran out of types for this method. */;
+- (double)TB,N,S_setInteractiveScrollActive: /* Error: Ran out of types for this method. */;
+- (id)ring",N;
+- (id)isualStyle;
+- (double)nSerifs ;
+- (double)ull __strong, _UIFocusGroup * _Nonnull __strong);
+- (_Bool)imationsNewRenderController(void);
+- (long long)ount:%ld (%ld bytes total) /* Error: Ran out of types for this method. */;
+- (double)G;
+- (struct CGPoint);ÿ4;
+- (void)X¹ÿ;
 
 // Remaining properties
 @property(nonatomic, retain) _UIBarButtonItemAppearanceStorage *appearanceStorage; // @synthesize appearanceStorage;

@@ -4,5 +4,5 @@
 
 class ctu::cf {
 public: // (access info unavailable from symbols alone)
-    assign(bool&, __CFBoolean const*);
+    auto assign(bool&, __CFBoolean const*);
 };

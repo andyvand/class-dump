@@ -37,9 +37,9 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void).HomeHubMigration.IntroSetUp.UpgradeLater;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

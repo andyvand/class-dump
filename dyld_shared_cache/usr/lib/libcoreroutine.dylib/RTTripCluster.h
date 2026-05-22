@@ -36,7 +36,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)g INSIDE distance threshold %{public}f m.;
++ (_Bool);
 - (void);
 - (double);
 - (double);
@@ -44,8 +44,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)I;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,13 +54,13 @@
 - (double);
 - (double);
 - (void);
-- (id);
-- (_Bool)#;
-- (id)c;
+- (id);
+- (_Bool);
+- (id);
 - (double);
 - (double);
 - (int);
-- (int)C;
+- (int);
 - (int);
 - (short);
 - (double);
@@ -68,7 +68,7 @@
 - (double);
 - (void);
 - (double);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -78,15 +78,16 @@
 - (double);
 - (id);
 - (long long);
-- (void);
 - (id);
 - (_Bool);
-- (id);
-- (id)m.apple.idsremoteurlconnectionagent.desktop.auth;
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (id)t;
-- (_Bool)ery, %{sensitive}@, error, %@;
-- (id)g:tripSegmentLocationsCount > 0 (in %s:%d) /* Error: Ran out of types for this method. */;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)sitive}@;
 
 // Remaining properties
 @property(nonatomic) double avgBikeDistance; // @synthesize avgBikeDistance=_avgBikeDistance;

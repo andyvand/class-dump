@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CAContext;
+
 @protocol _UIContextBinding
-- (void)ðó;
+- (void)eringMode:(CAContext *)arg1;
+- (void)ent:(CAContext *)arg1 ofCount:withSizeLeft: /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,7 +7,6 @@
 @class NSString, PFPosterPath;
 
 @protocol PFPosterContents
-- (NSString *):definition:interfaceOrientation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PFPosterPath *_path;

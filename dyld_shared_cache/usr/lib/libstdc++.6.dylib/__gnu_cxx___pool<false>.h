@@ -4,8 +4,8 @@
 
 class __gnu_cxx::__pool<false> {
 public: // (access info unavailable from symbols alone)
-    _M_destroy();
-    _M_initialize();
-    _M_reclaim_block(char*, unsigned long);
-    _M_reserve_block(unsigned long, unsigned long);
+    auto _M_destroy();
+    auto _M_initialize();
+    auto _M_reclaim_block(char*, unsigned long);
+    auto _M_reserve_block(unsigned long, unsigned long);
 };

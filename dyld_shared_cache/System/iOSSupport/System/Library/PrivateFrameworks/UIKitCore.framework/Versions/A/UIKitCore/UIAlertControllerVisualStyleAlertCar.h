@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool)ion is newer, but there is no transfer ID or asset. Incoming background is nil. Removing current asset.;
-- (id)evice conditions check if CloudKit sync is enabled:%d /* Error: Ran out of types for this method. */;
-- (id)hasAccounts %@;
-- (long long)these transfers, just moving along as a success!;
-- (long long)%@   success:%{BOOL}d /* Error: Ran out of types for this method. */;
-- (double)l time. ***;
-- (double)dDeletion:Dropping delete as IDS syncs it real time. *** /* Error: Ran out of types for this method. */;
-- (double)oken %@ for zone %@ limit %@;
-- (struct UIEdgeInsets)d metric with opGroupName %@ Error %@;
+- (_Bool);
 - (id);
-- (id)A;
+- (id);
+- (long long);
+- (long long);
+- (double);
+- (double);
+- (double);
+- (struct UIEdgeInsets);
+- (id);
+- (id)nt;
 
 @end
 

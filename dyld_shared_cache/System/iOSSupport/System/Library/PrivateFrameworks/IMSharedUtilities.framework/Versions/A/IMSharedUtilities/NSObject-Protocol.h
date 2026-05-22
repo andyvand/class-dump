@@ -7,12 +7,9 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (_Bool);
-- (unsigned long long)Creator;
-
-@optional
-- (NSString *)etReindexSchedulingContext: /* Error: Ran out of types for this method. */;
+- (_Bool)
+× ;
+- (struct _NSZone *);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

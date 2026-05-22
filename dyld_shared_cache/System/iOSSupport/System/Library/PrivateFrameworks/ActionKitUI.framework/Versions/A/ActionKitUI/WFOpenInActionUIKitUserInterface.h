@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     UIDocumentInteractionController *_documentController;
 }
 
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (id);
 - (void);
 - (void);
 

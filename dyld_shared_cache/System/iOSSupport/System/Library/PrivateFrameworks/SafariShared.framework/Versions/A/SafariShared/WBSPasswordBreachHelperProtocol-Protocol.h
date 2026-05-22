@@ -5,7 +5,5 @@
 //
 
 @protocol WBSPasswordBreachHelperProtocol
-- (void);
-- (void)w;
 @end
 

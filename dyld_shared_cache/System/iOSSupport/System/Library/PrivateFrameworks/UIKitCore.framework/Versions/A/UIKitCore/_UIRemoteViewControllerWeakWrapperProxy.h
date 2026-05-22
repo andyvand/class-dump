@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)m;
-- (void);
-- (id);
-- (id)·aÔnt[;
+- (void)outRTL:(id)arg1;
+- (id)putDestination handleKeyboardUIDidChange:(SEL)arg1 ]_block_invoke  Keyboard destination updating keyboardPosition %@ for %@ transition using %@;
+- (id)of sections:(id)arg1 %ld;
+- (void)ightSceneDelegate;
 
 @end
 

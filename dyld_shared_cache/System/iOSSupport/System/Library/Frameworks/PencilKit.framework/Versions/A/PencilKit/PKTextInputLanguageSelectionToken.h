@@ -12,10 +12,10 @@
 }
 
 + (id);
-- (id)S8u;
-- (void);
 - (void);
-- (void);
+- (void);
+- (id);
+- (void)nishHideCanvasTransaction;
 
 @end
 

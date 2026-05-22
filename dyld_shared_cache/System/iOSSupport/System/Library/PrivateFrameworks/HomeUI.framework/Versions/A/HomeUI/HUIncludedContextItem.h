@@ -23,10 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long)ggersKey;
+- (void)View.OwnerMustUpgrade.DetailsLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long contextType; // @synthesize contextType=_contextType;

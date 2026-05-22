@@ -30,19 +30,19 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
 - (long long);
 - (id);
 - (unsigned long long);
-- (unsigned long long)osUIPrivate40PUWallpaperShuffleConfigurationViewModel17PresentationState;
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (void)etAnimatedImageDidChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

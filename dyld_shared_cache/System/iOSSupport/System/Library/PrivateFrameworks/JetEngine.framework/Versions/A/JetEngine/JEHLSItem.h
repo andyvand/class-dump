@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     NSArray *_eventData;
 }
 
-+ (CDUnknownBlockType)(Î(;
++ (CDUnknownBlockType)¬¡ßÿ¸3ÿÿ;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (id);
 - (long long);
-- (id);
+- (void)BuiltDependency;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

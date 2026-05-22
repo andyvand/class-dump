@@ -10,10 +10,10 @@
 }
 
 - (id);
-- (id)chain;
 - (id);
-- (double)ion(RTExtensions) distanceFromLocation:locationShifter:handler:] /* Error: Ran out of types for this method. */;
-- (id)should request high accuracy locations, %@;
+- (id);
+- (double);
+- (id)n too long,%f,threshold,%lu;
 
 // Remaining properties
 @property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;

@@ -11,16 +11,16 @@
     Class _overrideClass;
 }
 
-+ (void)IDS:%@ /* Error: Ran out of types for this method. */;
++ (void)EnableAVLessSharePlay;
 - (id);
-- (id)m;
-- (void);
-- (id);
-- (_Bool)`;
 - (id);
 - (void);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
+- (void)x8ÿÿN¤ÿÿp8ÿÿDÿÿÒDÿÿ;
 
 @end
 

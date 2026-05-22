@@ -13,17 +13,17 @@
     NSString *_filename;
 }
 
-+ (_Bool);
++ (_Bool)te>"48@0:8@"MTLComputePipelineDescriptor"16Q24^@32^@40 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)xà(ØDÔÐ;
-- (id)Mÿôm%Â';
+- (void);
+- (id)Animation: /* Error: Ran out of types for this method. */;
+- (id)í*ïÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *filename;

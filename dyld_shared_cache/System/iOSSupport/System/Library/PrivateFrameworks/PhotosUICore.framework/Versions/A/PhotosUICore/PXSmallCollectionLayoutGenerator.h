@@ -28,10 +28,10 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
-- (unsigned long long);
 - (struct CGSize);
-- (long long)Xt ;
+- (id);
+- (long long)wiftUI4ViewP;
+- (unsigned long long)ification;
 
 // Remaining properties
 @property(copy, nonatomic) PXSmallCollectionLayoutMetrics *metrics; // @dynamic metrics;

@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     _Bool _needsEvaluation;
 }
 
-+ (id)ty;
-+ (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
++ (id)uéÿäð<|g;
++ (id);
 - (double);
-- (id)g battery data based on properties:(double)arg1 %{public}@;
+- (id)ble"24;
+- (_Bool)WillBegin:(id)arg1;
+- (id)T{CGSize=dd},N,V_footerReferenceSize;
+- (_Bool)on;
+- (_Bool);
 
 @end
 

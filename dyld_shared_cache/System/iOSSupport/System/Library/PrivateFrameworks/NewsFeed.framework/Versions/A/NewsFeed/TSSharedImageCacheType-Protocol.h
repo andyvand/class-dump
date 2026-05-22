@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIImage;
+
 @protocol TSSharedImageCacheType
-- (void)`_pIegg_;
+- (UIImage *)ðBöþ;
 @end
 

@@ -14,13 +14,13 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)p;
+- (id);
 - (void);
-- (void)Width;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *centerTileImage; // @synthesize centerTileImage=mCenterTileImage;

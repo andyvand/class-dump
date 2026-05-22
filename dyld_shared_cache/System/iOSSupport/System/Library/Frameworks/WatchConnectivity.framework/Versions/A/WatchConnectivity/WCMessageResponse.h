@@ -14,14 +14,14 @@
 }
 
 + (_Bool);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSError *error; // @synthesize error=_error;

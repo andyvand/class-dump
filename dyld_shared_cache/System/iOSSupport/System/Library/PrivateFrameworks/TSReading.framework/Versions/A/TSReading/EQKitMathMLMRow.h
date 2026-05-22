@@ -25,10 +25,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)@;
 - (id);
-- (id);
+- (id)namicOutsets;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

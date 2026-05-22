@@ -24,16 +24,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)1PosterBoard28PBFDebugViewFactoryUtilities;
+- (void);
+- (id);
+- (void)!¿Ð!Cù1	Ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak id <PBFStateComponentDelegate> delegate; // @synthesize delegate=_delegate;

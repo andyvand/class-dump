@@ -14,6 +14,7 @@
     MISSING_TYPE *urlSession;
     MISSING_TYPE *defaults;
     MISSING_TYPE *energyConfig;
+    MISSING_TYPE *pendingGuidanceRequests;
 }
 
 @end

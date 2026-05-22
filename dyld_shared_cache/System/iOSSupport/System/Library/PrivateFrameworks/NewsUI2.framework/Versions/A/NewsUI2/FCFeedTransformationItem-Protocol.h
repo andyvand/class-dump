@@ -8,19 +8,17 @@
 @protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
-- (long long)tvDxðy;
-- (NSString *)nViewC±LíyAEÙDíy[R8^R8G ú8£ú8GKíyAeMÄýÿGfMíyAeMGARGARG;
-- (double)¥ÿ;
-- (_Bool)¤eÊþÞfÊþÞPfÊþ%Þ°fPÿÞ¬fPÿÞgÊþÞØgÊþÍÝ hÊþ;
-- (unsigned long long)|ï;
-- (unsigned long long)QÞ¬´;
-- (NSString *)T\Êþqþ`rÕþ;
-- (NSString *);
+- (_Bool)w with timeDiff:%f, allowedWelcomeMessageTime:%lld /* Error: Ran out of types for this method. */;
+- (NSString *)onsFactory;
+- (unsigned long long)Q;
+- (NSString *)cription.entitlements.entitlements_override;
+- (unsigned long long)eZøÅ
+;
+- (long long)^d;
 
 @optional
-- (id <FCChannelProviding>)nvalidated;
-- (int);
-- (void);
+- (unsigned long long)e region configured;
+- (int);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;

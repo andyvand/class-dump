@@ -67,16 +67,16 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool){öY5lower_AA5uppert;
-- (id)OZGA8_GADyAGyAJ_ADyA6_GtGGGG_·¾;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

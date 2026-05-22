@@ -31,15 +31,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)nfigurationSettingsModule.m;
 
 // Remaining properties
 @property(readonly, nonatomic) HFSchedule *defaultAccessSchedule; // @synthesize defaultAccessSchedule=_defaultAccessSchedule;

@@ -27,11 +27,11 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id)4H³ðIPJ´ÔJµpK;
-- (id)Couldn't find processed parameter value for %s.;
-- (id)ault Output Name);
-- (id)aperFolder;
+- (id);
+- (id)eCommand:onRemoteDevice:usingClient:commandHandler:completion: /* Error: Ran out of types for this method. */;
+- (id)à©;
+- (void)ies} to ${container};
+- (id)µ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

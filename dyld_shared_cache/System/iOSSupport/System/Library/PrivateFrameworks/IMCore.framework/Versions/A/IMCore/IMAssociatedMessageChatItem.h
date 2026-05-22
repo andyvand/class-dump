@@ -22,7 +22,7 @@
 
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct IMAssociatedMessageGeometryDescriptor);
 - (void);
@@ -30,7 +30,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long)kI;
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -42,14 +42,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)Hash<IPC::ReceiverName>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = IPC::ReceiverName] /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)ñð1¢!0@ù
-× ;
+- (id);
+- (id);
+- (void)R;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *associatedMessageEmoji;

@@ -5,15 +5,17 @@
 // Global C++ functions
 
 VTT for std::__1::basic_stringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
-_getUnsupported(capabilities::txpower::Config*);
+auto _getUnsupported(capabilities::txpower::Config*);
+capabilities::txpower::operator<(capabilities::txpower::TimeoutConfig const&, capabilities::txpower::TimeoutConfig const&);
 ctu::Singleton<ctu::Gestalt, ctu::Gestalt, ctu::PthreadMutexGuardPolicy<ctu::Gestalt>>::sInstance;
 guard variable for ctu::Singleton<ctu::Gestalt, ctu::Gestalt, ctu::PthreadMutexGuardPolicy<ctu::Gestalt>>::sInstance;
-operator delete(void*);
-operator new(unsigned long);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(unsigned int);
 std::__1::ctype<char>::id;
 typeinfo for std::bad_array_new_length;
 typeinfo for std::length_error;
 typeinfo for std::out_of_range;
+void * operator new(unsigned long);
+void operator delete(void*);
 vtable for std::__1::basic_streambuf<char, std::__1::char_traits<char>>;
 vtable for std::__1::basic_stringbuf<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
 vtable for std::__1::basic_stringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;

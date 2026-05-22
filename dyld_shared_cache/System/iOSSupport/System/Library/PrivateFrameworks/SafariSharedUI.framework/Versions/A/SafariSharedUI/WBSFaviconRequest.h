@@ -15,20 +15,19 @@
 
 - (_Bool);
 - (_Bool);
-- (id)A;
-- (id);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (struct CGSize)x_is_filtered;
-- (void);
-- (id)ytes:length: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id)q1°1¢!0@ù
-× ;
+- (struct CGSize);
+- (id);
+- (id);
+- (void)ogram;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

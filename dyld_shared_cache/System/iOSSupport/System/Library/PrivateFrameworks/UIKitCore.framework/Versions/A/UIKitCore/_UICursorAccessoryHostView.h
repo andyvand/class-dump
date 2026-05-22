@@ -7,6 +7,7 @@
 #import <UIKitCore/_UITouchPassthroughView.h>
 
 @class UITapGestureRecognizer, _UIContainerWindowPortalInteraction, _UICursorAccessoryView, _UITouchFallbackView;
+@protocol _UIAssertion;
 
 __attribute__((visibility("hidden")))
 @interface _UICursorAccessoryHostView : _UITouchPassthroughView
@@ -14,6 +15,7 @@ __attribute__((visibility("hidden")))
     unsigned long long _resolvedPlacement;
     UITapGestureRecognizer *_dismissGestureRecognizer;
     _UITouchFallbackView *_touchFallbackView;
+    id <_UIAssertion> _uiAssertion;
     _Bool _collapsed;
     _Bool _touchFallbackEnabled;
     unsigned long long _preferredPlacementEdge;
@@ -23,24 +25,24 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id)pdateScheduled;
 - (id);
-- (id)@"NSDictionary">16;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (struct CGRect)ons: /* Error: Ran out of types for this method. */;
-- (void)E3;
 - (void);
-- (void);
-- (void)geometryDidUpdateWithTransitionContext: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (struct CGRect)&À&;
+- (void)ding delegate -barPositionForBar:! %@ /* Error: Ran out of types for this method. */;
+- (_Bool)o Deletion;
+- (void)K;
+- (void)¼òâþ;
 
 // Remaining properties
 @property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;

@@ -21,23 +21,21 @@
 - (int);
 - (int);
 - (id);
-- (id);
-- (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
-- (int);
 - (id);
-- (void)Q¶
-Ð1b0@ù
-× ;
-- (void)m>;
-- (id)TjÿáÊ;
+- (id);
+- (int)entForLinkedNotebookRef: /* Error: Ran out of types for this method. */;
+- (id)eparatorToConfirm: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ot match resource specifier '%@';
+- (void)e;
+- (void)±;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

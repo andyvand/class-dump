@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double):serverRecord:localRowID: /* Error: Ran out of types for this method. */;
-- (double)leMessageUpdateConflictType:serverRecord:localRowID: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (_Bool);
-- (void)e deleteing chat with error %@;
-- (void)Refreshing UI after time because device is unlocked;
-- (void)base housekeeping;
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (double);

@@ -20,16 +20,16 @@
 - (void);
 - (void);
 - (double);
-- (double)ranges containg ranges due to missing text storage;
-- (id)*%@** copied the folder;
-- (_Bool)d Password;
-- (void)lose it.;
+- (double);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)Dÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool finishedInitializing; // @synthesize finishedInitializing=_finishedInitializing;

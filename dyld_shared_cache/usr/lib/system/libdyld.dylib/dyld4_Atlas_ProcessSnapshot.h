@@ -9,9 +9,9 @@ public: // (access info unavailable from symbols alone)
     ProcessSnapshot(lsl::Allocator&, dyld4::FileManager&, bool, std::__1::span<std::byte, 18446744073709551615ul>) (.cold.1);
     ProcessSnapshot(lsl::Allocator&, dyld4::FileManager&, bool, std::__1::span<std::byte, 18446744073709551615ul>)::onceToken;
     ProcessSnapshot(lsl::Allocator&, dyld4::FileManager&, bool, std::__1::span<std::byte, 18446744073709551615ul>)::unwrapCompactInfoPtr;
-    addImage(dyld4::Atlas::Image&&);
-    forEachImage(void (dyld4::Atlas::Image*) block_pointer);
-    forEachImageNotIn(dyld4::Atlas::ProcessSnapshot const&, void (dyld4::Atlas::Image*) block_pointer);
-    sharedCache();
-    valid() const;
+    auto addImage(dyld4::Atlas::Image&&);
+    auto forEachImage(void (dyld4::Atlas::Image*) block_pointer);
+    auto forEachImageNotIn(dyld4::Atlas::ProcessSnapshot const&, void (dyld4::Atlas::Image*) block_pointer);
+    auto sharedCache();
+    auto valid() const;
 };

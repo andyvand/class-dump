@@ -11,9 +11,9 @@
     SXDocument *_document;
 }
 
+- (void)@"SXDataTableBorderSides"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)entIdentifierUsingThumbnailInComponents: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void)xPQ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

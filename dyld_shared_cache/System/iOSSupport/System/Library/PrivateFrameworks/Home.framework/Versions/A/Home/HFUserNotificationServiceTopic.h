@@ -33,13 +33,13 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (void)$;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *accessoryCategoryTypes; // @synthesize accessoryCategoryTypes=_accessoryCategoryTypes;

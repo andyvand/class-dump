@@ -26,12 +26,12 @@
 + (id);
 + (id);
 + (id);
-+ (id)!;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)shadowPath;
 
 @end
 

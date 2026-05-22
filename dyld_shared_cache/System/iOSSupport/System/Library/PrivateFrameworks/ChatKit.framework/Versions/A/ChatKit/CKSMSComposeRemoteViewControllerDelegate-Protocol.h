@@ -5,9 +5,5 @@
 //
 
 @protocol CKSMSComposeRemoteViewControllerDelegate
-- (void);
-- (void)ì;
-- (void)Õ;
-- (void);
 @end
 

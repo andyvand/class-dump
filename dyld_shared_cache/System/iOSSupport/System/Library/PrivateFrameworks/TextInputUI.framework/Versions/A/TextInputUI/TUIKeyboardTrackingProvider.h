@@ -15,27 +15,28 @@
 }
 
 + (id);
-- (void)|;
-- (void)|;
+- (void);
 - (id);
-- (id)|;
-- (id)æ|;
 - (void);
-- (void){;
-- (void)³|;
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (id);
 - (void);
 - (struct CGRect);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)ier;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIWindowScene *keyboardScene; // @synthesize keyboardScene=_keyboardScene;

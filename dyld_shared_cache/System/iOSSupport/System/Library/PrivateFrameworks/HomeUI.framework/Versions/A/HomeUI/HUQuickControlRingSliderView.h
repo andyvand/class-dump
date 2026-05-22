@@ -139,13 +139,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (CDStruct_c3b9c2ee);
+- (double);
 - (double);
 - (id);
 - (struct CGPoint);
 - (void);
-- (void);
-- (CDStruct_c3b9c2ee);
-- (double);
 - (void);
 - (unsigned long long);
 - (void);
@@ -157,17 +157,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
+- (id);
 - (void);
+- (_Bool);
 - (id);
 - (id);
+- (void)asSetControlSize;
+- (void)0g;
+- (void)ationAlertActionDisable;
 - (id);
-- (id)!´FùÑ.ð1b0@ù
-× ;
-- (void)_createTimeItem;
-- (_Bool)torIdentifyButtonFooterTitleIrrigation;
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundRingView; // @synthesize backgroundRingView=_backgroundRingView;

@@ -25,10 +25,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 
 @end

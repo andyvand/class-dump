@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIPopoverHostManagerPopoverCreationConfiguration;
-
 @protocol _UIPopoverHostManager
-- (_Bool);
-- (void);
-- (NSString *)gnedLongLong:(_UIPopoverHostManagerPopoverCreationConfiguration *)arg1;
 @end
 

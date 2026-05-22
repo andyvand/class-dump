@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSManagedObjectContext, NSMutableSet, NSObject, NSPersistentStoreDescription, NSString, NSURL, WFCoreDataChangeNotification, WFDebouncer, WFLibrary;
+@class NSArray, NSHashTable, NSManagedObjectContext, NSMutableDictionary, NSMutableSet, NSObject, NSPersistentStoreDescription, NSString, NSURL, WFCoreDataChangeNotification, WFDebouncer, WFLibrary;
 @protocol OS_dispatch_queue;
 
 @interface WFDatabase
@@ -30,16 +30,17 @@
     NSObject<OS_dispatch_queue> *_callbackQueue;
     NSManagedObjectContext *_suggestionsContext;
     WFLibrary *_library;
+    NSMutableDictionary *_libraryWorkflowQueryCache;
     NSManagedObjectContext *_context;
 }
 
-+ (id)%EÉ;
-+ (id)PöÌ;
 + (id);
 + (id);
 + (id);
-+ (void);
-+ (id)öÿÐÚR;
++ (id);
++ (id);
++ (id)3;
++ (void)Õÿ<Dä®;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *activeObjectObservers;
@@ -61,6 +62,7 @@
 @property(nonatomic) long long lastLoadedLibrarySyncHash; // @synthesize lastLoadedLibrarySyncHash=_lastLoadedLibrarySyncHash;
 @property(retain, nonatomic) WFLibrary *library; // @synthesize library=_library;
 @property(nonatomic) _Bool libraryNeedsSave; // @synthesize libraryNeedsSave=_libraryNeedsSave;
+@property(retain, nonatomic) NSMutableDictionary *libraryWorkflowQueryCache; // @synthesize libraryWorkflowQueryCache=_libraryWorkflowQueryCache;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(readonly, nonatomic) struct os_unfair_lock_s observersLock; // @synthesize observersLock=_observersLock;
 @property(readonly, nonatomic) NSMutableSet *pendingDeletedDescriptors; // @synthesize pendingDeletedDescriptors=_pendingDeletedDescriptors;

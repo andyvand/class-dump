@@ -44,15 +44,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void)toreCoordinator"16^B24;
+- (id)lic}@} Transaction finished executing; attempting to commit staged changes.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

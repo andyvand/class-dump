@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (void);
-- (id)continueButtonSize;
+- (id);
+- (void);
 
 @end
 

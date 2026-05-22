@@ -30,8 +30,8 @@
 - (double);
 - (double);
 - (unsigned long long);
-- (void)5JçW4;
-- (double)7V6;
+- (void);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double blurRadius; // @synthesize blurRadius=_blurRadius;

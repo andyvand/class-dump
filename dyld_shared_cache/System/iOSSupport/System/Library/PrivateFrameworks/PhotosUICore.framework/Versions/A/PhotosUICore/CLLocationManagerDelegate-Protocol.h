@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, CLRegion;
+@class CLLocationManager;
 
 @protocol CLLocationManagerDelegate
 
 @optional
+- (void)ûÿ;
 - (void);
-- (void)1b0@ù
-× ;
-- (void)ationRootDestination;
-- (void)ts:(CLLocationManager *)arg1;
-- (void)eference:(CLLocationManager *)arg1;
-- (void)hForObjectReference:(CLLocationManager *)arg1 restrictedToSection:(CLRegion *)arg2;
-- (void)ÿÿÿÿÿ$;
-- (void);
-- (void)tion;
+- (void)setsFetchResult countOfAssetsWithMediaType:(CLLocationManager *)arg1 ];
 @end
 

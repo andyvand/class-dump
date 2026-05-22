@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *_rotation;
 }
 
-+ (id)b;
++ (id);
 + (id);
 + (struct CGSize);
 + (MISSING_TYPE *);
@@ -49,25 +49,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)rmDate: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
-- (void)hxi;
+- (void);
+- (void);
 - (MISSING_TYPE *);
 - (id);
-- (id);
-- (void);
-- (void);
+- (MISSING_TYPE *);
 - (struct CGSize);
+- (id);
+- (MISSING_TYPE *);
 - (double);
-- (MISSING_TYPE *);
 - (id);
-- (id)ight"d};
-- (void)ackMetadataForImageAnalysisInteraction: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (MISSING_TYPE *);
+- (void);
+- (void);
+- (id)tGestureRecognizers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *adjustments; // @synthesize adjustments=_adjustments;

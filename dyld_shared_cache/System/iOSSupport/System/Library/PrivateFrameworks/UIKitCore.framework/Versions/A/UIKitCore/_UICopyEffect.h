@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)teWithDescriptor:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)â|¬;
-- (void);
-- (id)arExposure;
-- (_Bool)ightMode;
-- (long long)enu system is building.;
+- (long long);
+- (id);
+- (void)ntentProvider:(id)arg1;
+- (void)tIndices;
+- (_Bool)ferredCornerRadius;
+- (void)%];
 
 @end
 

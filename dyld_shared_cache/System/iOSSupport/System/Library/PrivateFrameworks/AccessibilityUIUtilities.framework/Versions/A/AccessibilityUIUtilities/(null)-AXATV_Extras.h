@@ -5,6 +5,6 @@
 //
 
 @interface (null) (AXATV_Extras)
-- (double)@@"SFDevice";
+- (double);
 @end
 

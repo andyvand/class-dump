@@ -4,23 +4,23 @@
 
 class std::ctype<char> {
 public: // (access info unavailable from symbols alone)
-    _M_widen_init() const;
-    classic_table();
+    auto _M_widen_init() const;
+    auto classic_table();
+    auto do_narrow(char const*, char const*, char, char*) const;
+    auto do_narrow(char, char) const;
+    auto do_tolower(char) const;
+    auto do_tolower(char*, char const*) const;
+    auto do_toupper(char) const;
+    auto do_toupper(char*, char const*) const;
+    auto do_widen(char const*, char const*, char*) const;
+    auto do_widen(char) const;
+    auto is(unsigned long, char) const;
+    auto narrow(char, char) const;
+    auto scan_is(unsigned long, char const*, char const*) const;
+    auto scan_not(unsigned long, char const*, char const*) const;
+    auto widen(char const*, char const*, char*) const;
+    auto widen(char) const;
     ctype(int*, unsigned long const*, bool, unsigned long);
     ctype(unsigned long const*, bool, unsigned long);
-    do_narrow(char const*, char const*, char, char*) const;
-    do_narrow(char, char) const;
-    do_tolower(char) const;
-    do_tolower(char*, char const*) const;
-    do_toupper(char) const;
-    do_toupper(char*, char const*) const;
-    do_widen(char const*, char const*, char*) const;
-    do_widen(char) const;
-    is(unsigned long, char) const;
-    narrow(char, char) const;
-    scan_is(unsigned long, char const*, char const*) const;
-    scan_not(unsigned long, char const*, char const*) const;
-    widen(char const*, char const*, char*) const;
-    widen(char) const;
     ~ctype();
 };

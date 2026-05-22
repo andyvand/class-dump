@@ -4,5 +4,5 @@
 
 class lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false> {
 public: // (access info unavailable from symbols alone)
-    insert_internal(lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false>::const_iterator&&, lsl::UniquePtr<dyld4::Atlas::Image>&&);
+    auto insert_internal(lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false>::const_iterator&&, lsl::UniquePtr<dyld4::Atlas::Image>&&);
 };

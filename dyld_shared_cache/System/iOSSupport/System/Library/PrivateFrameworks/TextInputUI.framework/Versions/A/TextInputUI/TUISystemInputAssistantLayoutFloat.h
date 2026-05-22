@@ -16,21 +16,21 @@
     unsigned long long _currentRectEdge;
 }
 
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void)lorRed;
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *centerViewCenterConstraint; // @synthesize centerViewCenterConstraint=_centerViewCenterConstraint;

@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)CSSearchableItemAttributeSetC;
 
 // Remaining properties
 @property(nonatomic, readonly) WFGradient *baseGradient;

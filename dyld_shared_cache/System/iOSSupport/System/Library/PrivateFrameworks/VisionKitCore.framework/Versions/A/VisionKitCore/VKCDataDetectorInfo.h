@@ -18,14 +18,13 @@
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
-- (id)@ù
-× ;
-- (void)Ô ;
-- (id)±0;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)setInstancePoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) VKCImageAnalysis *analysis; // @synthesize analysis=_analysis;

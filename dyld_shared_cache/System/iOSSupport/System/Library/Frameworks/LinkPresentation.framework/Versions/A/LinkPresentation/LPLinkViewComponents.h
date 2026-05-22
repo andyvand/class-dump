@@ -22,13 +22,13 @@ __attribute__((visibility("hidden")))
     UITextHighlightView *_textHighlightView;
 }
 
-- (id)";
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -36,16 +36,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)extViewDidTapHandwritingKey: /* Error: Ran out of types for this method. */;
-- (void)ifier:(id)arg1;
-- (void)_TITLE;
-- (id)iledAccountsAreIrreparable;
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) LPImageView *backgroundImage; // @synthesize backgroundImage=_backgroundImage;

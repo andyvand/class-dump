@@ -4,5 +4,5 @@
 
 class tx_info {
 public: // (access info unavailable from symbols alone)
-    ti_has_tx_waiting(txg const*);
+    auto ti_has_tx_waiting(txg const*);
 };

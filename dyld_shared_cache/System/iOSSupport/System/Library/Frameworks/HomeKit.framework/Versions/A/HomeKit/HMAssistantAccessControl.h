@@ -17,8 +17,8 @@
 }
 
 + (_Bool);
-+ (id)Ðj;
-+ (_Bool)= %@;
++ (id);
++ (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSArray *accessories;

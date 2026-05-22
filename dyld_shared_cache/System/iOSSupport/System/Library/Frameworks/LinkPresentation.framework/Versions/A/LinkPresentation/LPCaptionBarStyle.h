@@ -35,16 +35,16 @@ __attribute__((visibility("hidden")))
     LPCollaborationFooterStyle *_collaborationFooter;
 }
 
-- (_Bool)*;
+- (_Bool);
 - (id);
 - (id);
-- (id)y!;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)8h;
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,15 +71,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)rtTime;
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)0@ù
+× ;
+- (id): /* Error: Ran out of types for this method. */;
+- (id)$¦;
 
 // Remaining properties
 @property(nonatomic) _Bool addFullWidthLineForButton; // @synthesize addFullWidthLineForButton=_addFullWidthLineForButton;

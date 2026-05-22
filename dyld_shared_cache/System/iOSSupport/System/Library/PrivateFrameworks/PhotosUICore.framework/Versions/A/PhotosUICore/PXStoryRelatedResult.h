@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void)¼;
+- (id)ntWithText:name: /* Error: Ran out of types for this method. */;
+- (void)(ô;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *debugInfo; // @synthesize debugInfo=_debugInfo;

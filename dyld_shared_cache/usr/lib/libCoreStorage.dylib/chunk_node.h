@@ -4,8 +4,8 @@
 
 class chunk_node {
 public: // (access info unavailable from symbols alone)
-    insert_fe(unsigned long long, unsigned long long);
-    iterate_free_space(pv_node*, unsigned long long, int (*)(pv_node*, chunk_node*, fe_node*, void*), void*);
-    iterate_free_space_reverse(pv_node*, int (*)(pv_node*, chunk_node*, fe_node*, void*), void*);
-    remove_fe(unsigned long long, unsigned long long);
+    auto insert_fe(unsigned long long, unsigned long long);
+    auto iterate_free_space(pv_node*, unsigned long long, int (*)(pv_node*, chunk_node*, fe_node*, void*), void*);
+    auto iterate_free_space_reverse(pv_node*, int (*)(pv_node*, chunk_node*, fe_node*, void*), void*);
+    auto remove_fe(unsigned long long, unsigned long long);
 };

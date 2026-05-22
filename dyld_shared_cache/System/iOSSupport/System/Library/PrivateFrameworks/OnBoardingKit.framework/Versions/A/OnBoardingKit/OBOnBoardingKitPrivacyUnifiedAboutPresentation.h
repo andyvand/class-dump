@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void)ned long long>, WTF:(unsigned long long)arg1:Ref<WebKit::GPUConnectionToWebProcess>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::GPUConnectionToWebProcess>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleid; // @synthesize bundleid=_bundleid;

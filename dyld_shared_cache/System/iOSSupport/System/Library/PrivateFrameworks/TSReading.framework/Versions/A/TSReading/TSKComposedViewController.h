@@ -18,14 +18,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void)agicMove;
 - (void);
+- (void);
+- (id)á}ð!$DùqÐ1Â0@ù
+× ;
+- (void)gned long, std:(_Bool)arg1:allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}} /* Error: Ran out of types for this method. */;
+- (void)/YmQ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *composedViewController; // @synthesize composedViewController=mComposedViewController;

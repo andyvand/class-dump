@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)ddDidEvictHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PRUISPosterLevelSet *wrappedLevelSet; // @synthesize wrappedLevelSet=_wrappedLevelSet;

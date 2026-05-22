@@ -40,20 +40,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (struct NSDirectionalEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
 - (struct CGSize);
-- (id)Ð!,Aùq)°1b0@ù
-× ;
+- (id);
 - (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *contentBottomConstraint; // @synthesize contentBottomConstraint=_contentBottomConstraint;

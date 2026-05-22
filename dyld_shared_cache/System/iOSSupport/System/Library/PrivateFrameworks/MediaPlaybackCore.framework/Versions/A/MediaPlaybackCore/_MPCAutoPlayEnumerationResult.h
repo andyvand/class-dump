@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long)9-@9.@9/@9;
-- (void);
+- (long long);
 - (id);
 - (long long);
 - (_Bool);
-- (id)onState;
+- (void)d];
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long branchDepth;

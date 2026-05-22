@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
     struct CAPoint3D _locationInWindow;
 }
 
-+ (id)age accounts match up ? %@;
++ (id);
 - (unsigned int);
 - (void);
-- (struct CAPoint3D)T;
-- (CDStruct_59622bbb)*;
+- (struct CAPoint3D);
+- (CDStruct_59622bbb);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,10 +34,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (struct CAPoint3D)_wakeups;
-- (void);
-- (id)lineBreakMode;
-- (id):Ã_ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (struct CAPoint3D)1Â0@ù
+× ;
+- (void)9^;
 
 // Remaining properties
 @property(nonatomic) _Bool hasBeenDelivered; // @synthesize hasBeenDelivered=_hasBeenDelivered;

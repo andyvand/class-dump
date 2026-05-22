@@ -19,17 +19,17 @@
 
 - (void);
 - (double);
-- (long long)c;
+- (long long);
 - (void);
 - (void);
-- (void)sted thumbnail {key:(id)arg1 %@, error:%s} /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (long long);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)rMaterialLayer;
 
 // Remaining properties
 @property(nonatomic) long long coloredPart; // @synthesize coloredPart;

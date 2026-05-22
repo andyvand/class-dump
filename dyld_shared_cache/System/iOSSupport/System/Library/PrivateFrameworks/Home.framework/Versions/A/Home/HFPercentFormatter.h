@@ -20,14 +20,14 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)ing HFPinCodeManager to use current home {%@} now that home {%@} was removed.;
-- (void)ceBuilder:(id)arg1 Not updating state for context type %lu because it hasn't changed (currentState = %{BOOL}d);
-- (id)ssories available for this user;
-- (id)16@?0@"LSApplicationProxy"8;
-- (id);
+- (void)ì;
+- (void)t\;
+- (id)he commit futures failed with error %@;
+- (id)ster frame image for key:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

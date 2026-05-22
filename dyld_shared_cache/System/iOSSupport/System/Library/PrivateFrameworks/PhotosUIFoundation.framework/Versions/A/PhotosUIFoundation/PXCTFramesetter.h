@@ -18,13 +18,13 @@
 - (struct __CTFramesetter *);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (struct CGContext *);
+- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;

@@ -12,8 +12,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool adjustZoomScaleAfterRotation; // @synthesize adjustZoomScaleAfterRotation=_adjustZoomScaleAfterRotation;

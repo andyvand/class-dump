@@ -12,8 +12,8 @@
     MISSING_TYPE *proposedWidth;
 }
 
-- (void);
 - (id);
+- (void);
 - (id);
 
 @end

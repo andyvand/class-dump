@@ -17,11 +17,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void)p;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

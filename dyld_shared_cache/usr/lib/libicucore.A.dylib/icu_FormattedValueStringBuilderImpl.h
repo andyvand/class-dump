@@ -5,19 +5,19 @@
 class icu::FormattedValueStringBuilderImpl {
 public: // (access info unavailable from symbols alone)
     FormattedValueStringBuilderImpl(icu::FormattedStringBuilder::Field);
-    appendSpanInfo(UFieldCategory, int, int, int, UErrorCode&);
-    appendTo(icu::Appendable&, UErrorCode&) const;
-    getAllFieldPositions(icu::FieldPositionIteratorHandler&, UErrorCode&) const;
-    isIntOrGroup(icu::FormattedStringBuilder::Field);
-    isTrimmable(icu::FormattedStringBuilder::Field);
-    nextFieldPosition(icu::FieldPosition&, UErrorCode&) const;
-    nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
-    nextPositionImpl(icu::ConstrainedFieldPosition&, icu::FormattedStringBuilder::Field, UErrorCode&) const;
-    prependSpanInfo(UFieldCategory, int, int, int, UErrorCode&);
-    resetString();
-    toString(UErrorCode&) const;
-    toTempString(UErrorCode&) const;
-    trimBack(int) const;
-    trimFront(int) const;
+    auto appendSpanInfo(UFieldCategory, int, int, int, UErrorCode&);
+    auto appendTo(icu::Appendable&, UErrorCode&) const;
+    auto getAllFieldPositions(icu::FieldPositionIteratorHandler&, UErrorCode&) const;
+    auto isIntOrGroup(icu::FormattedStringBuilder::Field);
+    auto isTrimmable(icu::FormattedStringBuilder::Field);
+    auto nextFieldPosition(icu::FieldPosition&, UErrorCode&) const;
+    auto nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
+    auto nextPositionImpl(icu::ConstrainedFieldPosition&, icu::FormattedStringBuilder::Field, UErrorCode&) const;
+    auto prependSpanInfo(UFieldCategory, int, int, int, UErrorCode&);
+    auto resetString();
+    auto toString(UErrorCode&) const;
+    auto toTempString(UErrorCode&) const;
+    auto trimBack(int) const;
+    auto trimFront(int) const;
     ~FormattedValueStringBuilderImpl();
 };

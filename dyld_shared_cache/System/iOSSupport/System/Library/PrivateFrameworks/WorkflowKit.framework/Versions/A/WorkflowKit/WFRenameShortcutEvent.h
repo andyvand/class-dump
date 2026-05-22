@@ -14,12 +14,12 @@
     NSString *_source;
 }
 
-+ (Class)%EÉ;
-- (void);
-- (void);
++ (Class);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)ted Successfully;
+- (void)face:databaseApprovalResult:contentDestination:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;

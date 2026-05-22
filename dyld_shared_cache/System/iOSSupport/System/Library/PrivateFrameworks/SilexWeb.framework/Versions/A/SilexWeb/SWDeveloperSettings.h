@@ -9,7 +9,7 @@
     _Bool _allowRemoteInspection;
 }
 
-- (id)h;
+- (id);
 - (_Bool);
 
 // Remaining properties

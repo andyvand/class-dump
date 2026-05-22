@@ -5,7 +5,7 @@
 //
 
 @class HMAccessoryCategory, HMAccessoryInfoDataProvider, HMAccessoryLastSeenStatus, HMAccessorySettings, HMAccessorySettingsAdapter, HMAccessorySettingsController, HMAccessorySettingsDataSource, HMAccessoryWiFiController, HMApplicationData, HMDevice, HMFPairingIdentity, HMFSoftwareVersion, HMFWiFiNetworkInfo, HMHome, HMMediaDestination, HMMediaDestinationController, HMMutableArray, HMRemoteLoginHandler, HMRoom, HMSoftwareUpdateController, HMSupportedAccessoryDiagnostics, HMSymptomsHandler, NSArray, NSData, NSDictionary, NSNumber, NSString, NSUUID, _HMContext;
-@protocol HMAccessoryDelegate;
+@protocol HMAccessoryDelegate, HMAccessorySwiftExtensions;
 
 @interface HMAccessory
 {
@@ -136,6 +136,7 @@
     _HMContext *_context;
     HMMediaDestinationController *_audioDestinationController;
     HMMediaDestination *_audioDestination;
+    id <HMAccessorySwiftExtensions> _swiftExtensions;
     HMAccessoryLastSeenStatus *_lastSeenStatus;
     long long _communicationProtocol;
 }

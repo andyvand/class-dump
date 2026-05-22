@@ -53,27 +53,27 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
 - (void);
 - (double);
 - (id);
+- (void);
+- (struct CGRect);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void)rofileExpiredSymptom;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allConstraints; // @synthesize allConstraints=_allConstraints;

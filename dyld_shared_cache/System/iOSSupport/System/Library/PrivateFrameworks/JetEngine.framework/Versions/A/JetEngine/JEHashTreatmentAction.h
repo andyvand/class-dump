@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
+- (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void)íaîa;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;

@@ -4,16 +4,16 @@
 
 class lsl::BTree<char const*, lsl::ConstCharStarCompare, false>::NodeCore<31u, 15u> {
 public: // (access info unavailable from symbols alone)
-    deallocate(lsl::BTree<char const*, lsl::ConstCharStarCompare, false>::NodeCore<31u, 15u>*, lsl::Allocator*);
-    insert(unsigned char, char const*&&);
-    insert(unsigned char, char const*&&) (.cold.1);
-    insert(unsigned char, char const*&&) (.cold.2);
-    splitChild(unsigned char, lsl::Allocator&);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.1);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.2);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.3);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.4);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.5);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.6);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.7);
+    auto deallocate(lsl::BTree<char const*, lsl::ConstCharStarCompare, false>::NodeCore<31u, 15u>*, lsl::Allocator*);
+    auto insert(unsigned char, char const*&&);
+    auto insert(unsigned char, char const*&&) (.cold.1);
+    auto insert(unsigned char, char const*&&) (.cold.2);
+    auto splitChild(unsigned char, lsl::Allocator&);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.1);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.2);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.3);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.4);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.5);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.6);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.7);
 };

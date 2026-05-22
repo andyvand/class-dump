@@ -4,8 +4,8 @@
 
 class mach_o::PointerFormat_DYLD_CHAINED_PTR_64_OFFSET {
 public: // (access info unavailable from symbols alone)
-    description() const;
-    name() const;
-    unauthRebaseIsVmAddr() const;
-    value() const;
+    auto description() const;
+    auto name() const;
+    auto unauthRebaseIsVmAddr() const;
+    auto value() const;
 };

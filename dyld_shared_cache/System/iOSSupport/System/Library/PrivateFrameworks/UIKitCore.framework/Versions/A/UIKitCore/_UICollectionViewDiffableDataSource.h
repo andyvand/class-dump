@@ -15,12 +15,13 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id)lTextInput;
-- (void);
-- (void) %;
-- (id);
-- (CDUnknownBlockType)d media URL to be a file path, it was not;
-- (CDUnknownBlockType)oller.m;
+- (id);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (void);
+- (id)
+× ;
+- (void)ve its scroll view as its delegate.;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UICollectionView *collectionView;

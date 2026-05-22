@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)PMultiverseIdentifier"24@0:(id)arg1 8q16;
 - (void);
-- (void)>=\;
+- (void)nceAngle;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setSlotId:) _UISlotId *_slotId; // @synthesize _slotId=__slotId;

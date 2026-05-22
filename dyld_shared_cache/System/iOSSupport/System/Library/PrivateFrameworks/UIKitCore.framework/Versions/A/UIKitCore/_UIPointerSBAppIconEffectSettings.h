@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)ewLayouts: /* Error: Ran out of types for this method. */;
+- (void)r: /* Error: Ran out of types for this method. */;
 
 @end
 

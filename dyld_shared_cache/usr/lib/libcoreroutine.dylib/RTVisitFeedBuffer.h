@@ -14,18 +14,17 @@
     NSDate *_lastMaturedLocationDate;
 }
 
-- (void);
-- (void);
 - (id);
 - (double);
-- (id)ClientsImmediately;
-- (unsigned long long);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)!DCùÑ],°1¢!0@ù
-× ;
-- (void)%@;
+- (void);
+- (id);
+- (unsigned long long)nterestAttributes"@"NSError">24;
+- (void)lTimeAverage_home_bucketed;
+- (void)ler,contact %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *lastMaturedLocationDate; // @synthesize lastMaturedLocationDate=_lastMaturedLocationDate;

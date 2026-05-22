@@ -45,12 +45,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)] currentItem=%{public}s;
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)andCellRangeToCoverMergedCells(TSTTableModel *, TSTCellRange);
 
 @end
 

@@ -12,15 +12,15 @@
     NSDate *_timestamp;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (void);
+- (id)D;
+- (void)bledForHomePod;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name;

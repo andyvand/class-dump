@@ -7,7 +7,6 @@
 @class NSDictionary;
 
 @protocol NSSExternalAnalyticsEvent
-- (NSDictionary *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *requestQueryParameters;

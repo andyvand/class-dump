@@ -16,25 +16,25 @@
 }
 
 - (_Bool);
-- (void);
-- (void)%@;
-- (void)hdog check with interval:(struct CAPoint3D)arg1 %f, one is already scheduled with interval:%f /* Error: Ran out of types for this method. */;
-- (void)ndication action:(_Bool)arg1 %@;
-- (void):(id)arg1 %@;
-- (id)Item called on object %@ %@;
-- (_Bool)nAction:%@ /* Error: Ran out of types for this method. */;
-- (struct CAPoint3D)%@, as Messages is not the default text app;
-- (void)oWorld;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (struct CAPoint3D);
+- (void);
 - (struct CAPoint3D);
 - (struct CAPoint3D);
 - (_Bool);
 - (void);
-- (void)eAntialiasing"b1"ignoreAutomaticEdgeAntialiasing"b1"guardAgainstDegenerateBaselineCalculation"b1"preferredImageDynamicRange"b2"animateHDRHeadroomUsageTraitChange"b1};
-- (void)tivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
-- (void)currentStateMask;
-- (void)ertionIndex:(id)arg1;
-- (_Bool);
-- (id)ÔÈÑþÀØbúe;
+- (id)icatorViewText;
+- (void)verrideCornerRadii;
+- (void)ntLightMode;
+- (void)ewDelegate;
+- (_Bool)d not be called on ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool canPanInZ; // @synthesize canPanInZ;

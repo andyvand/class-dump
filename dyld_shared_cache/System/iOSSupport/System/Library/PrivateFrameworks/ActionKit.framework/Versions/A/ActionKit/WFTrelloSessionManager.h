@@ -26,13 +26,13 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id).actions.call-utilities;
-- (id);
+- (void)oo.com/mobile/s?p=%@;
+- (id)certificate;
+- (id)ÿIW'v;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;

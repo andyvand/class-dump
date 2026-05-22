@@ -6,16 +6,16 @@ class lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::Unique
 public: // (access info unavailable from symbols alone)
     NodeCore(lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false>::NodeCore<31u, 15u>*);
     NodeCore(lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false>::NodeCore<31u, 15u>*) (.cold.1);
-    deallocate(lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false>::NodeCore<31u, 15u>*, lsl::Allocator*);
-    insert(unsigned char, lsl::UniquePtr<dyld4::Atlas::Image>&&);
-    insert(unsigned char, lsl::UniquePtr<dyld4::Atlas::Image>&&) (.cold.1);
-    insert(unsigned char, lsl::UniquePtr<dyld4::Atlas::Image>&&) (.cold.2);
-    lower_bound_index(lsl::UniquePtr<dyld4::Atlas::Image> const&, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>) const;
-    splitChild(unsigned char, lsl::Allocator&);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.1);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.2);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.3);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.4);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.5);
-    splitChild(unsigned char, lsl::Allocator&) (.cold.6);
+    auto deallocate(lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false>::NodeCore<31u, 15u>*, lsl::Allocator*);
+    auto insert(unsigned char, lsl::UniquePtr<dyld4::Atlas::Image>&&);
+    auto insert(unsigned char, lsl::UniquePtr<dyld4::Atlas::Image>&&) (.cold.1);
+    auto insert(unsigned char, lsl::UniquePtr<dyld4::Atlas::Image>&&) (.cold.2);
+    auto lower_bound_index(lsl::UniquePtr<dyld4::Atlas::Image> const&, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>) const;
+    auto splitChild(unsigned char, lsl::Allocator&);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.1);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.2);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.3);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.4);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.5);
+    auto splitChild(unsigned char, lsl::Allocator&) (.cold.6);
 };

@@ -7,8 +7,7 @@
 @class NSError, PXObservable;
 
 @protocol PXAppleMusicStatusProvider
-- (NSError *);
-- (PXObservable *)mportAsset:asDuplicateOfLibraryAsset:applyToAll: /* Error: Ran out of types for this method. */;
+- (PXObservable *)hotosSearchUtilities;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error;

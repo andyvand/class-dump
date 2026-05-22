@@ -8,9 +8,9 @@
 {
 }
 
-+ (id):(id)arg1 K9;
++ (id)å7;
 - (_Bool);
-- (id);
+- (id)Uíÿ;
 
 @end
 

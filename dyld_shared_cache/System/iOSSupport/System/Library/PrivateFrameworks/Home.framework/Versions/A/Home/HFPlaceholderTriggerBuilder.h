@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)NSNumber"8;
+- (_Bool)¸J;
 
 // Remaining properties
 @property(nonatomic) _Bool isEditing; // @synthesize isEditing=_isEditing;

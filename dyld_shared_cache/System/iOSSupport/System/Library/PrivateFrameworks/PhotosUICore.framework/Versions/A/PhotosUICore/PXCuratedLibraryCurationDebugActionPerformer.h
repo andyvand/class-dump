@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)StoryContent;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PXGLayout *layoutForDiagnosticDescription; // @synthesize layoutForDiagnosticDescription=_layoutForDiagnosticDescription;

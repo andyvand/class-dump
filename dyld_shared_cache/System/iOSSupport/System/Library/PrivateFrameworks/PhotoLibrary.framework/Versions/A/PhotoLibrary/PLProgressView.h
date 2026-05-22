@@ -37,18 +37,18 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (float);
+- (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (CDUnknownBlockType);
 - (id);
 - (void);
+- (float);
+- (long long);
 
 // Remaining properties
 @property(retain, nonatomic) _UIBackdropView *backgroundBlurredView; // @synthesize backgroundBlurredView=_backgroundBlurredView;

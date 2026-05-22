@@ -18,11 +18,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *keyCommands;

@@ -23,72 +23,73 @@
 
 - (struct NSDirectionalEdgeInsets);
 - (id);
-- (void);
-- (id);
-- (void);
-- (struct NSDirectionalEdgeInsets)t;
-- (double)vailableDeviceCapacity;
-- (struct NSDirectionalEdgeInsets)OrganizationMagic:(struct NSDirectionalEdgeInsets)arg1;
-- (struct NSDirectionalEdgeInsets);
-- (id);
-- (struct NSDirectionalEdgeInsets);
-- (void)ion;
-- (void);
+- (struct UIEdgeInsets);
 - (_Bool);
-- (_Bool)th_ptr;
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)n;
-- (struct NSDirectionalEdgeInsets);
 - (void);
 - (long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (_Bool);
 - (struct UIEdgeInsets);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void)× ;
-- (id)@ù
-× ;
-- (struct NSDirectionalEdgeInsets)0@ù
-× ;
-- (_Bool)!XFùÆÐ1¢!0@ù
-× ;
-- (void)¢!0@ù
-× ;
-- (struct UIEdgeInsets)rPresentation"B"shouldPlayFeedback"B"shouldPresentWithCompletion"B"shouldBeDelayedByGestureRecognizer"B"secondaryPreviews"B"shouldMaintainKeyboardAssertion"B};
-- (long long)mViewController:toViewController: /* Error: Ran out of types for this method. */;
-- (void)tIsContentManaged:(id)arg1;
-- (struct NSDirectionalEdgeInsets)enumerationMode: /* Error: Ran out of types for this method. */;
-- (struct NSDirectionalEdgeInsets)arance:(struct _UIListMetricsSectionMetrics)arg1;
-- (_Bool)traintsLoggingSuspended: /* Error: Ran out of types for this method. */;
-- (id)arentHierarchyStyle;
-- (_Bool)tomView;
-- (id)yboardTouchInfo;
-- (void)er;
-- (double)layoutDelegate;
-- (id)0ÅÔÅ¸Æ;
-- (void)ð;
 - (_Bool);
 - (struct NSDirectionalEdgeInsets);
-- (id)topRight;
-- (_Bool);
-- (void)þÿ;
-- (id)í3yAAyAAy=þ;
-- (unsigned long long)wn selection style;
-- (void)lumnsPresentedSplitViewControllerColumn:(id)arg1 ];
+- (id);
 - (void);
-- (id)utOfRangeColorComponents;
-- (double)_set_options(struct ui_archive *, int);
-- (_Bool)@Â_;
-- (_Bool);
-- (void)c;
-- (void)Ñ=;
-- (void)ÿ;
-- (_Bool)ÿLÈ)d;
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (struct NSDirectionalEdgeInsets);
+- (_Bool)ù
+× ;
+- (id)!`FùÑ[Ð1Â0@ù
+× ;
+- (void)Ô!°!ÄEù1]ð1Â0@ù
+× ;
+- (void);
+- (void);
+- (struct NSDirectionalEdgeInsets)
+× ;
+- (id)1f1Â0@ù
+× ;
+- (id)Interaction>"16;
+- (unsigned long long)16@0:8 /* Error: Ran out of types for this method. */;
+- (struct NSDirectionalEdgeInsets)butedString"B>64;
+- (struct NSDirectionalEdgeInsets)ion;
+- (double)ataKind;
+- (double)TextualContext;
+- (id)setShouldInvokeCancelActionOnDimmingViewTap: /* Error: Ran out of types for this method. */;
+- (long long)eContentViewControllerContainerViewSubviews;
+- (double)omTransition;
+- (void)ath: /* Error: Ran out of types for this method. */;
+- (void)rtedAnimationTracking;
+- (id)ustomizationSession",&,N,V__activeSession;
+- (_Bool)tion",&,N,V_interactionForSpringLoading;
+- (_Bool)nterfaceActionRepresentationViewContext_GlassAppleTV;
+- (void);
+- (_Bool);
+- (struct NSDirectionalEdgeInsets);
+- (unsigned long long);
+- (id)(%@, %@) ;
+- (struct NSDirectionalEdgeInsets)fersGrabberVisible;
+- (id)ntroller must call -[super initWithCoder:] when created from -[%@ %@] /* Error: Ran out of types for this method. */;
+- (id)ISplitViewControllerAllowAutoHidesColumns;
+- (void)%@;
+- (id)ateLayoutWithContext:] is not an instance of type UICollectionViewFlowLayoutInvalidationContext or a subclass. Collection view:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)yïÜ.3yAHy¾¾7ALyN¼.3GGSOGGGAPG_¾Ý.3Qo__AFQo__7~.3Qo__Qo_ALyH­.3GGGG;
+- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets);
+- (id);
+- (void)táþÛ,¥];
+- (void)ÔC³ÿ;×t&^;
 
 // Remaining properties
 @property(readonly, nonatomic) struct NSDirectionalEdgeInsets _defaultDirectionalLayoutMargins; // @synthesize _defaultDirectionalLayoutMargins;

@@ -12,8 +12,8 @@
     MISSING_TYPE *completed;
 }
 
+- (id);
 - (void);
-- (id),R,N,V_shuffleType;
 
 @end
 

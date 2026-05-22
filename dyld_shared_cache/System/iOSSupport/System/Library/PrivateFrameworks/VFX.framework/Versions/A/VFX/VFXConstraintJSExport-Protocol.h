@@ -5,8 +5,8 @@
 //
 
 @protocol VFXConstraintJSExport
-- (_Bool);
-- (id)£ïeAÞ8m?nBÝz¾"ò(A;
+- (id)cP
+;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;

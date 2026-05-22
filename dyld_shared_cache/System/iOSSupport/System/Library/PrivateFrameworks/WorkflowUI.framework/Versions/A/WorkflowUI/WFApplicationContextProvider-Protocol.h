@@ -6,6 +6,9 @@
 
 @protocol WFApplicationContextProvider
 
+@optional
+- (long long)G;
+
 // Remaining properties
 @property(readonly, nonatomic) long long userInterfaceStyle;
 // Preceding property had unknown attributes: ?

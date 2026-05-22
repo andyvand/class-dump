@@ -13,7 +13,7 @@
     MISSING_TYPE *delegate;
 }
 
-- (void);
+- (void)2l¸;
 
 @end
 

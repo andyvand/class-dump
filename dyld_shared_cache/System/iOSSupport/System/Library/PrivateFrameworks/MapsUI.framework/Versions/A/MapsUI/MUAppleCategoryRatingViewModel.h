@@ -18,11 +18,11 @@
 - (unsigned long long);
 - (double);
 - (id);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (double);
-- (_Bool);
+- (void)B,R,N,V_shouldShowARPCallToAction;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *categoryTitle;

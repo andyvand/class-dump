@@ -17,7 +17,7 @@
 }
 
 + (double);
-+ (struct UIEdgeInsets);
++ (struct UIEdgeInsets);
 - (double);
 - (_Bool);
 - (double);
@@ -40,14 +40,14 @@
 - (struct CGSize);
 - (double);
 - (double);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (struct CGRect);
 - (struct CGSize);
 - (double);
 - (struct CGPoint);
-- (struct CGSize);
 - (struct CGSize);
-- (double)n;
+- (struct CGSize);
+- (double);
 - (struct CGSize);
 - (void);
 - (id);

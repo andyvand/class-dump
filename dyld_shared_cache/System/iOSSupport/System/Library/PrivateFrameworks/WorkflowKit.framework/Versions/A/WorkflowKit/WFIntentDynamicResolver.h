@@ -28,10 +28,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id)TlXmPn;
-- (id)subtitle and actions summary of workflow:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)f the text passed into the action.;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *activeRequests; // @synthesize activeRequests=_activeRequests;

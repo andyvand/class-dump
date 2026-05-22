@@ -5,7 +5,7 @@
 //
 
 @protocol MTLAllocation
-- (unsigned long long);
+- (unsigned long long)tick:%llu â setPaused:%{bool}d â includingAnimators:%{bool}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

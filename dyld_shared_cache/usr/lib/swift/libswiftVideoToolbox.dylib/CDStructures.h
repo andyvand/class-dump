@@ -4,3 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#pragma mark Typedef'd Structures
+
+typedef struct {
+    float _field1;
+    float _field2;
+} CDStruct_b2fbf00d;
+

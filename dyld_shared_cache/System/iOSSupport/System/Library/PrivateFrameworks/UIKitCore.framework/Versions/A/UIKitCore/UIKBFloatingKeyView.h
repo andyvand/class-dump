@@ -15,14 +15,13 @@ __attribute__((visibility("hidden")))
     _Bool _isUsingCustomSize;
 }
 
-- (id);
 - (id);
 - (id);
-- (void)it;
+- (id);
 - (void);
 - (void);
-- (void)o°!\FùñÁÐ1¢!0@ù
-× ;
+- (void);
+- (void)À?g;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFloatingContentView *floatingContentView;

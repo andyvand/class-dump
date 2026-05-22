@@ -13,9 +13,9 @@
 
 - (id);
 - (void);
-- (void);
-- (id)ent:direction:searchType:allowOutOfBoundsChild:range:shouldScrollToVisible:honorGroups:updatedContainer: /* Error: Ran out of types for this method. */;
-- (id)temPressedWithSender:(id)arg1;
+- (id);
+- (id);
+- (void);
 
 @end
 

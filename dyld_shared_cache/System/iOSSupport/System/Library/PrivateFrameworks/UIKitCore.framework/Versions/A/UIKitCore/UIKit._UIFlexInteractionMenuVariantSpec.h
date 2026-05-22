@@ -10,8 +10,8 @@
 {
 }
 
-- (void)ithSafeArea: /* Error: Ran out of types for this method. */;
-- (id),N,V_currentSwipeState;
+- (void)itialDestinationEnvironment: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

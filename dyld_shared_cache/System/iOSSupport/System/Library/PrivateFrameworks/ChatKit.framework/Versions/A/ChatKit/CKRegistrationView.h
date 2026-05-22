@@ -18,17 +18,17 @@
     UIView *_privacyLinkView;
 }
 
-- (id)der:searchString:performNLSearch:performTopHitSearch:tokens:modernResultsOnly: /* Error: Ran out of types for this method. */;
-- (id)nfirmedMentionToTextStorage:participants:range:textView:mentionString: /* Error: Ran out of types for this method. */;
-- (id)lickableTextView: /* Error: Ran out of types for this method. */;
-- (void)dHeightLayoutConstraint;
-- (void),V_keepOriginalAttributes;
-- (void)_keepNSTextTableAttributes;
-- (void)ls;
+- (id);
+- (id);
+- (id);
 - (void);
-- (struct CGSize)IDs_AB03rowB0t;
-- (id)er"8;
-- (void)ThumbnailCache;
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -37,8 +37,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)1.;
+- (void)ì;
+- (id)$;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *authKitSignInView; // @synthesize authKitSignInView=_authKitSignInView;

@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned char):forIndexPath: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (unsigned char);
 - (void);
 
 // Remaining properties

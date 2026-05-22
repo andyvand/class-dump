@@ -15,11 +15,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (unsigned long long)!;
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property _Bool expectsResponse; // @synthesize expectsResponse=_expectsResponse;

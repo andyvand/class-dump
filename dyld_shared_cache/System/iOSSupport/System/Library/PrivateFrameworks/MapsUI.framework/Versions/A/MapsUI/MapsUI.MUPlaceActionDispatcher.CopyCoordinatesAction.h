@@ -13,8 +13,8 @@
     MISSING_TYPE *coordinatesString;
 }
 
-- (void);
 - (id);
+- (void)ring",R,N,V_title;
 
 @end
 

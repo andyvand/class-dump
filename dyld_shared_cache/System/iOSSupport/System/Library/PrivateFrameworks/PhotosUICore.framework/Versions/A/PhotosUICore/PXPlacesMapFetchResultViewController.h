@@ -85,19 +85,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)Ü\þÿ;
-- (void)oï4;
+- (void)0@ù
+× ;
+- (void)ankedAssetSearchResults;
+- (void)ize:(_Bool)arg1 (%{public}f,%{public}f) | targetScale:%{public}f | candidateScale:%f | isHighestQuality:%{bool}d /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ðk6;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPlacesAssetsSelectionDelegate> assetSelectionDelegate; // @synthesize assetSelectionDelegate=_assetSelectionDelegate;

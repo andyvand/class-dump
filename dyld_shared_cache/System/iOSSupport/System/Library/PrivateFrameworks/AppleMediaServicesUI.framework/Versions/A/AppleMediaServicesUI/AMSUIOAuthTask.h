@@ -20,10 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id)ransitioning;
+- (id);
+- (void)yTrustSignature:handler: /* Error: Ran out of types for this method. */;
+- (void)0yLô0GGï0yð0SgGG_Qo_G_°õ0tGGAEGA3BSgt;
 
 // Remaining properties
 @property(retain, nonatomic) ASWebAuthenticationSessionCallback *callback; // @synthesize callback=_callback;

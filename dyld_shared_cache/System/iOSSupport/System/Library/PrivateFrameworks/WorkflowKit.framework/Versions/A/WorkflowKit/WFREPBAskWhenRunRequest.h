@@ -42,18 +42,18 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)@?@"WFFileSize">24;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

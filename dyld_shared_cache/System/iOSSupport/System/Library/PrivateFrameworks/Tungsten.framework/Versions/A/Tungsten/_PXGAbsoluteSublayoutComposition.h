@@ -32,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)NSString *_NSStringFromPXGAXInfoKind(PXGAXInfoKind);
 
 // Remaining properties
 @property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;

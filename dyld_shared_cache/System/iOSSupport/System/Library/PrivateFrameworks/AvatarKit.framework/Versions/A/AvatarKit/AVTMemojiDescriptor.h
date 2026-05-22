@@ -17,24 +17,24 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned char);
 + (_Bool);
++ (unsigned char);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void)ages;
-- (void)skType:(id)arg1;
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 
 @end
 

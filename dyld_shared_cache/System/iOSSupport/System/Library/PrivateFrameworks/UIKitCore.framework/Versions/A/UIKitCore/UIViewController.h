@@ -28,7 +28,8 @@
     UIResponder *_modalPreservedFirstResponder;
     id _dimmingView;
     id _dropShadowView;
-    UIViewControllerAction *_currentAction;
+    UIViewControllerAction *_currentDismissalAction;
+    UIViewControllerAction *_currentPresentationAction;
     UIStoryboard *_storyboard;
     NSDictionary *_externalObjectsTableForViewLoading;
     NSArray *_topLevelObjectsToKeepAliveFromStoryboard;

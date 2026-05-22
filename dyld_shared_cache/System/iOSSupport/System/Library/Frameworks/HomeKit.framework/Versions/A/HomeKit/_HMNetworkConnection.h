@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)rgeAccessories:usingContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

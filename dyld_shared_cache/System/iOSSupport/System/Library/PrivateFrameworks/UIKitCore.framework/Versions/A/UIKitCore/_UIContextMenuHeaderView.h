@@ -36,41 +36,39 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)r: /* Error: Ran out of types for this method. */;
-- (void)ne:resultsLimit:activity: /* Error: Ran out of types for this method. */;
-- (unsigned long long)dMessagesGroupPhoto: /* Error: Ran out of types for this method. */;
-- (id)ipant: /* Error: Ran out of types for this method. */;
-- (void)TransferAccept: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
 - (long long);
-- (_Bool)!;
-- (id)it has insufficient capabilities %s, needs %s;
-- (void)ircle;
-- (id)g request to resume task because it has higher priority work;
-- (void)preperation for compression - this means the downgrade completed ok. :-D /* Error: Ran out of types for this method. */;
-- (void)ng live messages, currentBatchCount %@ maxNumberOfBatches %@;
-- (void)essages:(_Bool)arg1 %@;
-- (id)ed name:%@ -> %@ guid:%@ -> %@ error:%d -> %d total bytes:%d -> %d created:%@ -> %@ commSafety:%d -> %d update reason:%d -> %d] /* Error: Ran out of types for this method. */;
-- (void)Identifier:(id)arg1 %{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
-- (id)rd with item (%@) and type %lld;
+- (_Bool);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id)exSetWithIndexesInRange: /* Error: Ran out of types for this method. */;
-- (double);
-- (void);
-- (id)ÑÃð1¢!0@ù
-× ;
+- (id);
 - (void);
-- (void)cale:(id)arg1;
-- (void)putAccessoryViewOnAppearance:(unsigned long long)arg1;
-- (void)BehaviorForEvent:(id)arg1;
-- (id)	
-;
-- (id)Rþÿ(RþÿTRþÿpRþÿRþÿ¨RþÿÄRþÿàRþÿüRþÿSþÿ4SþÿPSþÿlSþÿSþÿ¤SþÿÀSþÿÜSþÿøSþÿTþÿ0TþÿLTþÿhTþÿTþÿ Tþÿ¼TþÿØTþÿôTþÿUþÿ,UþÿHUþÿdUþÿUþÿUþÿ¸UþÿÔUþÿðUþÿVþÿ(VþÿDVþÿ`Vþÿ|VþÿVþÿ´VþÿÐVþÿìVþÿWþÿ$Wþÿ@Wþÿ\WþÿxWþÿWþÿXþÿ(XþÿDXþÿ`Xþÿ|XþÿXþÿ´XþÿÐXþÿìXþÿYþÿDYþÿ`Yþÿ|YþÿYþÿ´YþÿÐYþÿìYþÿZþÿ4Zþÿ`Zþÿ|Zþÿ¨ZþÿÄZþÿàZþÿüZþÿ[þÿ4[þÿP[þÿl[þÿ[þÿ¤[þÿÀ[þÿÜ[þÿø[þÿ\þÿ0\þÿX\þÿ\þÿ \þÿ¼\þÿØ\þÿWþÿì\þÿ]þÿ]þÿ8]þÿT]þÿp]þÿ]þÿ¨]þÿÔ]þÿð]þÿ$^þÿ@^þÿ\^þÿx^þÿ^þÿ°^þÿÌ^þÿè^þÿ_þÿ _þÿ<_þÿX_þÿt_þÿ_þÿ¬_þÿð_þÿ\`þÿ|`þÿ¨`þÿÈ`þÿè`þÿaþÿ8aþÿPaþÿ bþÿPbþÿpbþÿ°bþÿÈbþÿàbþÿ,cþÿcþÿÔdþÿeþÿDeþÿ\eþÿeþÿeþÿÀeþÿØeþÿfþÿ$fþÿ<fþÿ\fþÿtfþÿ¸fþÿÐfþÿèfþÿ;
-- (id)Ì{j8G~Äí3ySay%`j8GSOµí3y|j8"¬í3yü¢í3GGGG;
-- (void)ÐÎÓÿA;
-- (unsigned long long)þb;
-- (id)ÁÒK¤c;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (double)RangeAtPoint:inContainer: /* Error: Ran out of types for this method. */;
+- (id)rticalScrollIndicatorBaseInsets;
+- (void)tion:(id)arg1 processHandle:annotation:openInPlace: /* Error: Ran out of types for this method. */;
+- (id)splayInline;
+- (void)roller",W,N,S_setLocalSheetPresentationController:(id)arg1 ,V_localSheetPresentationController;
+- (id):animated:completion: /* Error: Ran out of types for this method. */;
+- (void)×þ;
+- (id)Ô(À];
+- (void)ÿ;
+- (void)Ã>;
+- (id)çUØøc;
+- (unsigned long long)ëÿgIÚXd;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAction *accessoryAction; // @synthesize accessoryAction=_accessoryAction;

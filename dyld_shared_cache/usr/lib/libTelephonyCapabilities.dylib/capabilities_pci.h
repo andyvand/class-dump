@@ -4,11 +4,11 @@
 
 class capabilities::pci {
 public: // (access info unavailable from symbols alone)
-    controlChannelCount();
-    controlChannelCountForVendor(TelephonyRadioVendor);
-    sSupportsPCIAudio(TelephonyProduct);
-    supportsPCIAudio();
-    supportsPCIAudioForProduct(TelephonyProduct);
-    supportsRxIOPool();
-    supportsRxIOPoolForVendor(TelephonyRadioVendor);
+    auto controlChannelCount();
+    auto controlChannelCountForVendor(TelephonyRadioVendor);
+    auto sSupportsPCIAudio(TelephonyProduct);
+    auto supportsPCIAudio();
+    auto supportsPCIAudioForProduct(TelephonyProduct);
+    auto supportsRxIOPool();
+    auto supportsRxIOPoolForVendor(TelephonyRadioVendor);
 };

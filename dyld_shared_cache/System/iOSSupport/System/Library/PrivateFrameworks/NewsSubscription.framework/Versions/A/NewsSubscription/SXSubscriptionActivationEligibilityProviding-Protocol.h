@@ -5,6 +5,7 @@
 //
 
 @protocol SXSubscriptionActivationEligibilityProviding
+- (long long)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long eligibility;

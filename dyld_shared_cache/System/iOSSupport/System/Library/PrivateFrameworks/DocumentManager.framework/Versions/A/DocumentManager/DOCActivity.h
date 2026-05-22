@@ -34,19 +34,19 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)ize, CGFloat, BSIOSurfaceOptions, CGColorSpaceRef, __strong BSBlock);
-- (void);
-- (id)IKInviteeDescriptionGenerator;
-- (void);
 - (id);
-- (id);
-- (id)SmartFolderDatabase;
-- (void)n:(id)arg1 %ld;
-- (void)talTableStackSpacing;
 
 // Remaining properties
 @property(readonly) id <DOCItemActivityPerformer> actionPerformerProxy; // @synthesize actionPerformerProxy=_actionPerformerProxy;

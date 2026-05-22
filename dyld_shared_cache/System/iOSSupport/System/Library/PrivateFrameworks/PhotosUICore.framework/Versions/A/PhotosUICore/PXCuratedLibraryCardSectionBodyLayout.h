@@ -71,14 +71,14 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void)celButton;
-- (id);
 - (long long);
-- (void)õÿü»¶}4;
-- (_Bool)7;
+- (void)trolPickerItem;
+- (void);
+- (long long)üò!w2ÿ¨w2ÿè,a;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect assetFrame;

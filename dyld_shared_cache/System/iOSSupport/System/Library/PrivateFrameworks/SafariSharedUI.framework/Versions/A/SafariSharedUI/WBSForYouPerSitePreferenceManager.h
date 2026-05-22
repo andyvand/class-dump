@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)CheckIntegrity:createIfNeeded:fallBackToMemoryStoreIfError:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

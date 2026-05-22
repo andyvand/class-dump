@@ -23,11 +23,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *addedRows;

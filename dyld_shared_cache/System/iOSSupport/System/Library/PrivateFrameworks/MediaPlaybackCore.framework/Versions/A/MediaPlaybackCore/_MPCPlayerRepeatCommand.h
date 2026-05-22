@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void)lic}@] _addPlaybackContext:| setting SIL shuffle type [first data source] shuffleType=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long currentRepeatType; // @synthesize currentRepeatType=_currentRepeatType;

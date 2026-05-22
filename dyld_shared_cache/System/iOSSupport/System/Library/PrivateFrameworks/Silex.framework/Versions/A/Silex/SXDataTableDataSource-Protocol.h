@@ -4,13 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXDataTableBorder, SXDataTableBorderSides;
-
 @protocol SXDataTableDataSource
-- (unsigned long long)#;
-- (SXDataTableBorderSides *);
-- (SXDataTableBorder *);
-- (unsigned long long)P;
-- (unsigned long long)hType: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 @end
 

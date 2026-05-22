@@ -39,7 +39,7 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)vided;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,7 +16,7 @@
     _Bool _showDebugGear;
 }
 
-+ (id)erContents;
++ (id);
 - (_Bool);
 - (void);
 - (void);

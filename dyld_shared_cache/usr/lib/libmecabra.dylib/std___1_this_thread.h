@@ -4,5 +4,5 @@
 
 class std::__1::this_thread {
 public: // (access info unavailable from symbols alone)
-    sleep_for(std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l>> const&);
+    auto sleep_for(std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l>> const&);
 };

@@ -8,6 +8,7 @@
 @protocol UIContentView;
 
 @protocol UIContentConfiguration
-- (UIView<UIContentView> *);
+- (id);
+- (UIView<UIContentView> *)ÕÑGOÑG;
 @end
 

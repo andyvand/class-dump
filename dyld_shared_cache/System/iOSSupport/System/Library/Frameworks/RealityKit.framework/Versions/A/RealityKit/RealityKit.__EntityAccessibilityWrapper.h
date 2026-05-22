@@ -28,9 +28,9 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
-- (id);
 - (unsigned long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *entityAccessibilityCustomActions;

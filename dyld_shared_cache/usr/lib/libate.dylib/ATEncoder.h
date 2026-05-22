@@ -4,13 +4,13 @@
 
 class ATEncoder {
 public: // (access info unavailable from symbols alone)
-    CompressTexels(at_texel_region_t const&, at_block_buffer_t const&, float, at_flags_t) const;
-    DecompressTexels(at_block_buffer_t const&, at_texel_region_t const&, at_flags_t) const;
-    GetBlockAddress(at_size_t, at_size_t, at_block_buffer_t const&) const;
-    GetBlockAlpha() const;
-    GetBlockFeatures(at_block_format_t, at_block_buffer_t*, at_size_t, unsigned long, unsigned long*, at_flags_t);
-    GetBlockFormat() const;
-    GetTexelAlpha() const;
-    GetTexelFormat() const;
+    auto CompressTexels(at_texel_region_t const&, at_block_buffer_t const&, float, at_flags_t) const;
+    auto DecompressTexels(at_block_buffer_t const&, at_texel_region_t const&, at_flags_t) const;
+    auto GetBlockAddress(at_size_t, at_size_t, at_block_buffer_t const&) const;
+    auto GetBlockAlpha() const;
+    auto GetBlockFeatures(at_block_format_t, at_block_buffer_t*, at_size_t, unsigned long, unsigned long*, at_flags_t);
+    auto GetBlockFormat() const;
+    auto GetTexelAlpha() const;
+    auto GetTexelFormat() const;
     ~ATEncoder();
 };

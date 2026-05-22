@@ -46,20 +46,20 @@
 - (const MISSING_TYPE **);
 - (id);
 - (const MISSING_TYPE **);
-- (void);
 - (id);
-- (void);
-- (_Bool);
 - (CDStruct_14d5dc5e);
+- (unsigned long long);
 - (double);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
+- (_Bool);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) const float *blendShapeCoefficients;

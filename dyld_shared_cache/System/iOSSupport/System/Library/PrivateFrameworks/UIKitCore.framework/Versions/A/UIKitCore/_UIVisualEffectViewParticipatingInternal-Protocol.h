@@ -7,9 +7,9 @@
 @protocol _UIVisualEffectViewSubviewMonitoring;
 
 @protocol _UIVisualEffectViewParticipatingInternal
-- (id <_UIVisualEffectViewSubviewMonitoring>);
-- (void)1¢!0@ù
+- (_Bool)!ÌFù^Ð1Â0@ù
 × ;
+- (void)þ@;
 
 // Remaining properties
 @property(nonatomic) _Bool disableGroupFiltering;

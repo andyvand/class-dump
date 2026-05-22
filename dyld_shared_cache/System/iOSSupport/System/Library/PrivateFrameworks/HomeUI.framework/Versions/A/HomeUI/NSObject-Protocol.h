@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, Protocol;
 
 @protocol NSObject
-- (_Bool);
-- (id)rray"24;
-- (unsigned long long)roller;
+- (id)ashboardCameraItemModuleController";
+- (_Bool)dIconWithDescriptor:(Protocol *)arg1;
+- (struct _NSZone *)y;By¥CyAAyAAyÁA¼>y.?SgGGAEyzASgGG_ByACyw?_AOtGGtGG	xG;
 
 @optional
-- (NSString *)boardingFlow;
+- (NSString *)ails: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

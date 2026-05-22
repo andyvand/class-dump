@@ -4,22 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
+@class NSString, UIView, UIViewController;
 
 @protocol UIViewControllerTransitionCoordinatorContext
-- (double);
-- (UIView *)asBeenReused"b1"preferredAttributesValid"b1"generatingPreferredAttributes"b1"didSetMasksToBounds"b1"didSetMaskedCorners"b1"didSetCornerRadius"b1"didSetMaskView"b1"hasBlocksToPerformWhenReused"b1"isBeingReused"b1"isDisplayed"b1"collectionViewHasBeenExplicitlySet"b1"shouldConstrainWidth"b1"shouldConstrainHeight"b1"hasDefaultLayoutMargins"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
-- (_Bool)data source returned a supplementary view with an unexpected element kind. Collection view:%@; requested element kind:%@; supplementary view element kind:%@; index path:%@; supplementary view:%@ This is a hard assert for other clients and requires immediate attention. /* Error: Ran out of types for this method. */;
-- (_Bool).1+.nib;
-- (UIView *)vityType = %@;
-- (_Bool)clipping view;
-- (double)8B16;
-- (struct CGAffineTransform)groundSuppressionAssertion;
-- (long long)Point=dd}{CGSize=dd}}16@48@56;
-- (_Bool);
-- (long long)e;
-- (_Bool)1¹a4Ä_;
-- (double)4hæ;
+- (UIView *)tion of text completion:(NSString *)arg1 %@;
+- (long long)tEnd;
+- (_Bool)stureArrowButtonAddress;
+- (double)eted from that section (%d inserted, %d deleted) and plus or minus the number of items moved into or out of that section (%d moved in, %d moved out). Collection view:%@ /* Error: Ran out of types for this method. */;
+- (UIViewController *)pplementary view:(NSString *)arg1 %@;
+- (_Bool)ator.State.inactive;
+- (struct CGAffineTransform)ustomized_font;
+- (_Bool)}24@?0{CGPoint=dd}8;
+- (_Bool)nÄþÿ*Äþÿ;
+- (_Bool)7G;
+- (UIView *);
+- (double)Unkick;
+- (double)ator;
+- (long long)ccessibilityHUDAssistant;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

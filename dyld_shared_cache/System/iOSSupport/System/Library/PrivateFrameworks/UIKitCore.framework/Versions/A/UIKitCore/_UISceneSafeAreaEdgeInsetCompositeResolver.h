@@ -13,16 +13,15 @@
     MISSING_TYPE *resolvers;
 }
 
-+ (_Bool):forTarget:object: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)ing archived messages:(long long)arg1 %@;
-- (id)ationError %@;
-- (_Bool)4;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)Info",&,N,V_templateNotificationInfo;
-- (id)@;
-- (id)CollapsedAppearanceInToolbar;
++ (_Bool)8¿7y+8¿7GSg;
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (id);
+- (id)v24@0:(id)arg1 8@"NSURL"16;
+- (_Bool)ormUndoingRemoteRootLayerTransform:(id)arg1 frame: /* Error: Ran out of types for this method. */;
+- (void)emplateStorage;
+- (void)àP¥ÿ×0Ol;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

@@ -30,8 +30,8 @@
     id <SWDatastoreManager> _localDatastoreManager;
 }
 
-- (id)TZ;
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -39,20 +39,21 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)ineFeedInteractorType;
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id)sFeedGroupConfig;
+- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -69,24 +70,23 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)ror are both nil;
-- (id);
-- (void);
 - (void);
-- (void);
-- (void)dRep;
-- (void);
+- (void);
+- (void);
 - (id);
-- (id)userChannelContextData;
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)Z;
 - (void);
 - (void);
-- (void)@Eù«ð1¢!0@ù
-× ;
-- (id)2@0:8@16@?24 /* Error: Ran out of types for this method. */;
-- (void)SObject<OS_dispatch_group>",R,N,V_dispatchGroup;
-- (void)V_interaction;
+- (id);
+- (void);
+- (id);
+- (void);
+- (id)ration"16;
+- (void)"<SWDocumentStateProviding>",R,N,V_documentStateProvider;
+- (id)nManager;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL;
@@ -105,6 +105,7 @@
 @property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isWebViewPresentingInFullScreen; // @synthesize isWebViewPresentingInFullScreen=_isWebViewPresentingInFullScreen;
 @property(retain, nonatomic) SWLoader *loader; // @synthesize loader=_loader;
+@property(readonly, nonatomic) NSURL *loadingURL;
 @property(readonly, nonatomic) id <SWDatastoreManager> localDatastoreManager; // @synthesize localDatastoreManager=_localDatastoreManager;
 @property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
 @property(readonly, nonatomic) id <SWMessageHandlerManager> messageHandlerManager; // @synthesize messageHandlerManager=_messageHandlerManager;

@@ -16,7 +16,7 @@
 - (struct CGImageSource *);
 - (struct CGDataProvider *);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,7 +24,7 @@
 - (id);
 - (unsigned long long);
 - (unsigned char);
-- (_Bool);
+- (_Bool)TB,R,N,V_selectionLastModifiedWithKeyboard;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)roller:didFailToHost:error: /* Error: Ran out of types for this method. */;
+- (void)G³0yyÞ2yä2yUÄ0yç¹0yéÀ0$Å0yACyADyAFyAHGò¾0yì¿0SgGG_ADygÄ0ANGÅ0tGGGGG_Õ2Qo_½0yåÃ0GG_ARtGG;
 
 // Remaining properties
 @property(nonatomic, getter=isLowLatency) _Bool lowLatency; // @synthesize lowLatency=_lowLatency;

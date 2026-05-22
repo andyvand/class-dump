@@ -16,27 +16,27 @@
     double _minimumScale;
 }
 
-- (_Bool),N,V_statusServerHash;
-- (long long)ha;
 - (void);
-- (double);
+- (void);
 - (id);
-- (void)server.StorageContainerErrorList;
 - (id);
 - (_Bool);
-- (void)Value:(_Bool)arg1;
-- (void);
-- (void)iredToFail"b1"privateDelegateCanCancel"b1"privateDelegateCanBeCancelled"b1"privateDelegateAcceptsBeingFailureRequirement"b1"privateDelegateAcceptsBeingFailureDependent"b1"subclassShouldRequireFailure"b1"subclassShouldBeRequiredToFail"b1"hasSubclassDynamicFailureRequirements"b1"hasDelegateDynamicFailureRequirements"b1"subclassTouchesEstimatedPropertiesUpdated"b1"subclassShouldReceiveTouchForEventRecognizerView"b1"queriedFailureRequirements"b1"cancelsTouchesInView"b1"delaysTouchesBegan"b1"delaysTouchesEnded"b1"disabled_DO_NOT_USE_DIRECTLY"b1"dirty"b1"delivered"b1"deliveredEndedOrCancelled"b1"continuous"b1"requiresDelayedBegan"b1"willBeginAfterSatisfyingFailureRequirements"b1"requiresSystemGesturesToFail"b1"requiresExclusiveTouchType"b1"initialTouchTypeIsValid"b1"forceRequirementSatisfied"b1"wantsDragEvents"b1"conformsToDragEventRespondable"b1"isDynamicGesture"b1"canExcludeWithActiveRequirements_DO_NOT_USE_DIRECTLY"b1"isObservingGesture"b1"didCheckForcePressShouldBegin"b1"canSendForcePressAction"b1"queriedShouldReceiveTouchesEvent"b1"shouldReceiveTouchesEvent"b1"queriedDelegateShouldReceiveTouchesEvent"b1"delegateShouldReceiveTouchesEvent"b1"queriedShouldReceivePressesEvent"b1"shouldReceivePressesEvent"b1"queriedDelegateShouldReceivePressesEvent"b1"delegateShouldReceivePressesEvent"b1"conformsToHoverEventRespondable"b1"conformsToScrollEventRespondable"b1"conformsToTransformEventRespondable"b1"conformsToLookupEventRespondable"b1"canBeCancelledByAffectedViews"b1"enqueuedForReset"b1"sendUpdateOnEventChange"b1"hasDriver"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
-- (void)@0:(double)arg1 8@"CAAnimation"16;
-- (id)equiresKeyEventsFromRemoteTextInput;
-- (id)ryContentFrame:supplementaryItemSize:frameOffset:layoutRTL: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
-- (void)R;
-- (void)thout timer;
-- (id)pted to inline a search text field that was already borrowed.;
 - (double);
-- (void)­3;
+- (void)@0:(id)arg1 8@"_UIInternalDraggingSessionSource"16@"UIDragItem"24;
+- (void):(double)arg1 loops:restrictEnteringSequence: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)estionsList;
+- (long long)TransformerIdentifier;
+- (id)tendedHoursFormat;
+- (void)erRingShapeLayer;
+- (void);
+- (void)d extensions;
+- (void)mationManagerP;
+- (double);
+- (void)V\;
 
 // Remaining properties
 @property(nonatomic) _Bool disableInPlaceFiltering; // @synthesize disableInPlaceFiltering=_disableInPlaceFiltering;

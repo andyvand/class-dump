@@ -4,6 +4,6 @@
 
 class JetPack::BaseStream {
 public: // (access info unavailable from symbols alone)
-    seekForward(unsigned long);
-    seekToEnd();
+    auto seekForward(unsigned long);
+    auto seekToEnd();
 };

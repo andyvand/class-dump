@@ -26,8 +26,8 @@
 + (id);
 + (id);
 + (id);
-- (void);
-- (id)ng",&,N,V_originalDrawing;
+- (id);
+- (void)arkAllUnsuccessFullySyncedAttachmentsAsNeedingSync ;
 
 @end
 

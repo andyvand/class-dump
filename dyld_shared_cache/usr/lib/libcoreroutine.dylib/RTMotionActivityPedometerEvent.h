@@ -14,17 +14,17 @@
 
 + (id);
 + (long long);
-+ (_Bool)visit log store for interval %{public}@ with %{public}d/%{public}d (%{public}d) sources;
++ (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long)P;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (long long);
 - (_Bool);
-- (id);
-- (void)(;
-- (id);
-- (id);
-- (long long)tor,sessionID:%@,%@,%@,message %@ is still scheduled for %@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)(in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

@@ -4,13 +4,13 @@
 
 class PhaseDeviation {
 public: // (access info unavailable from symbols alone)
-    Calc1DWith2DSparseRefinement(bool);
-    Initialize();
-    atanOver2PiQ16Octant18(int, int);
-    do2DSparsePD64_G(unsigned char*, unsigned char*, unsigned char*, unsigned short, unsigned short*);
-    do2DSparsePrecisePD(unsigned short*, unsigned short, unsigned short);
-    doPhaseEstimation(short const*, int const (*) [4]);
-    partialSort(unsigned short*, unsigned char, unsigned char, unsigned char*);
-    quadFitMinSearchQ15(unsigned int, unsigned int, unsigned int);
+    auto Calc1DWith2DSparseRefinement(bool);
+    auto Initialize();
+    auto atanOver2PiQ16Octant18(int, int);
+    auto do2DSparsePD64_G(unsigned char*, unsigned char*, unsigned char*, unsigned short, unsigned short*);
+    auto do2DSparsePrecisePD(unsigned short*, unsigned short, unsigned short);
+    auto doPhaseEstimation(short const*, int const (*) [4]);
+    auto partialSort(unsigned short*, unsigned char, unsigned char, unsigned char*);
+    auto quadFitMinSearchQ15(unsigned int, unsigned int, unsigned int);
     ~PhaseDeviation();
 };

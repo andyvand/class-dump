@@ -9,11 +9,11 @@
     CDUnknownBlockType _prefersPencilOnlyDrawsDidChangeHandler;
 }
 
-- (CDUnknownBlockType)n;
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
-- (void)ments:(id)arg1;
+- (void)reviewActiveForTesting: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType prefersPencilOnlyDrawsDidChangeHandler; // @synthesize prefersPencilOnlyDrawsDidChangeHandler=_prefersPencilOnlyDrawsDidChangeHandler;

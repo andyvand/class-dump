@@ -18,10 +18,10 @@
     MISSING_TYPE *bottomMarginLayer;
 }
 
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)"24;
+- (id);
+- (void)ØËÿýH:©wþýH:$²}þ /* Error: Ran out of types for this method. */;
 
 @end
 

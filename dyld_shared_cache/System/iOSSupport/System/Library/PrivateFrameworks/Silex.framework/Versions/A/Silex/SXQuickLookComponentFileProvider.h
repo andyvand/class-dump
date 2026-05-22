@@ -20,7 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)1ïÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

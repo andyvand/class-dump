@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void):8^{CGPath=}16B24 /* Error: Ran out of types for this method. */;
 
 @end
 

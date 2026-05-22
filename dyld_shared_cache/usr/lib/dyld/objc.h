@@ -4,5 +4,5 @@
 
 class objc {
 public: // (access info unavailable from symbols alone)
-    lookup8(unsigned char const*, unsigned long, unsigned long long);
+    auto lookup8(unsigned char const*, unsigned long, unsigned long long);
 };

@@ -19,13 +19,13 @@
 - (struct CGRect);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (double);
+- (double);
 - (_Bool);
 - (id);
-- (void);
-- (double);
-- (id);
-- (double);
-- (double)Á;
+- (double)äX;
 
 // Remaining properties
 @property(readonly, nonatomic) EQKitBox *box; // @synthesize box=mBox;

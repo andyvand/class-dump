@@ -15,9 +15,9 @@
     ISPerformanceDiagnosticsSettings *_performanceDiagnosticsSettings;
 }
 
-+ (id)tG;
 + (id);
-+ (id)prerollVideoAtRate:completionHandler: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

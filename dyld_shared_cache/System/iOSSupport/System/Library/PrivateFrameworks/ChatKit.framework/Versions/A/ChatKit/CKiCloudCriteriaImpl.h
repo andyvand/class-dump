@@ -8,9 +8,9 @@
 {
 }
 
-+ (long long)own;
++ (long long);
 + (_Bool);
-+ (id)Nú81;
++ (id);
 - (void);
 
 @end

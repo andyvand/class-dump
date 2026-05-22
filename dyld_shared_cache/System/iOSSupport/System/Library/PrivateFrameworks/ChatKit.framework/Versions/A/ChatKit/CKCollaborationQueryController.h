@@ -10,14 +10,14 @@
 {
 }
 
-- (unsigned long long)a;
-- (id)e;
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id)&d';
-- (id)x@nÿ(;
+- (id)¿;
+- (id)0boÿ*e6H¨/;
 
 @end
 

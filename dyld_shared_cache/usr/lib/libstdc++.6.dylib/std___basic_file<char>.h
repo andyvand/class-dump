@@ -5,18 +5,18 @@
 class std::__basic_file<char> {
 public: // (access info unavailable from symbols alone)
     __basic_file(_opaque_pthread_mutex_t*);
-    close();
-    fd();
-    file();
-    is_open() const;
-    open(char const*, std::_Ios_Openmode, int);
-    seekoff(long long, std::_Ios_Seekdir);
-    showmanyc();
-    sync();
-    sys_open(__sFILE*, std::_Ios_Openmode);
-    sys_open(int, std::_Ios_Openmode);
-    xsgetn(char*, long);
-    xsputn(char const*, long);
-    xsputn_2(char const*, long, char const*, long);
+    auto close();
+    auto fd();
+    auto file();
+    auto is_open() const;
+    auto open(char const*, std::_Ios_Openmode, int);
+    auto seekoff(long long, std::_Ios_Seekdir);
+    auto showmanyc();
+    auto sync();
+    auto sys_open(__sFILE*, std::_Ios_Openmode);
+    auto sys_open(int, std::_Ios_Openmode);
+    auto xsgetn(char*, long);
+    auto xsputn(char const*, long);
+    auto xsputn_2(char const*, long, char const*, long);
     ~__basic_file();
 };

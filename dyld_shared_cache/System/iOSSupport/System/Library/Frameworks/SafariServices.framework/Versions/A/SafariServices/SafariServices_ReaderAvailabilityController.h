@@ -5,21 +5,20 @@
 class SafariServices::ReaderAvailabilityController {
 public: // (access info unavailable from symbols alone)
     ReaderAvailabilityController(_SFWebProcessPlugInReaderEnabledPageController*);
-    additionalTextSamplesWereDetermined(WBSReaderAvailabilityCheckResult*);
-    articleContent();
-    articleContentDidChange();
-    availabilityWasDetermined(WBSReaderAvailabilityCheckResult*);
-    canInjectArticleFinder() const;
-    clearAvailability();
-    clearIsolatedWorld() const;
-    collectReadingListItemInformation();
-    createArticleFinderJSController() const;
-    determineAvailabilityForDynamicCheck();
-    didExtractReaderTextAndPageMetadata(NSString*, NSDictionary<NSString*, objc_object*>*, SafariShared::IsDeterminingAvailability);
-    isolatedWorld() const;
-    readerScriptWorldReady(WKWebProcessPlugInFrame*, WKWebProcessPlugInScriptWorld*);
-    readerScriptWorldReady(WKWebProcessPlugInFrame*, WKWebProcessPlugInScriptWorld*) (.cold.1);
-    setConfigurationForTesting(NSDictionary*);
-    targetFrameJSContext() const;
+    auto additionalTextSamplesWereDetermined(WBSReaderAvailabilityCheckResult*);
+    auto articleContent();
+    auto availabilityWasDetermined(WBSReaderAvailabilityCheckResult*);
+    auto canInjectArticleFinder() const;
+    auto clearAvailability();
+    auto clearIsolatedWorld() const;
+    auto collectReadingListItemInformation();
+    auto createArticleFinderJSController() const;
+    auto determineAvailabilityForDynamicCheck();
+    auto didExtractReaderTextAndPageMetadata(NSString*, NSDictionary<NSString*, objc_object*>*, SafariShared::IsDeterminingAvailability);
+    auto isolatedWorld() const;
+    auto readerScriptWorldReady(WKWebProcessPlugInFrame*, WKWebProcessPlugInScriptWorld*);
+    auto readerScriptWorldReady(WKWebProcessPlugInFrame*, WKWebProcessPlugInScriptWorld*) (.cold.1);
+    auto setConfigurationForTesting(NSDictionary*);
+    auto targetFrameJSContext() const;
     ~ReaderAvailabilityController();
 };

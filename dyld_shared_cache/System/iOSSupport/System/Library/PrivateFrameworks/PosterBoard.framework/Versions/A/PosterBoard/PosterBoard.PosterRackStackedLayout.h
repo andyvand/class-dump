@@ -54,21 +54,20 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGSize);
 - (_Bool);
 - (id);
-- (struct CGSize);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)Coordinator stageNewSupplementWithError:(id)arg1 ];
-- (id)È¯Ë
-;
+- (void);
+- (id)emoveSectionWithIdentifier:(id)arg1;
+- (id)ssociatedConfiguration:(id)arg1 reason:(id)arg2;
+- (id)1Ø;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize collectionViewContentSize;

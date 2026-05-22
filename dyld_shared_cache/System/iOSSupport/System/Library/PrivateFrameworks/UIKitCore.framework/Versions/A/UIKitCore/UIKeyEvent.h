@@ -22,34 +22,34 @@
 
 + (long long);
 + (id);
-+ (long long):(unsigned int)arg1 %@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
-- (id)le;
-- (void)Blackholed:(id)arg1;
-- (void)agePlayedReceiptForMessageID:(_Bool)arg1 date:attempts:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)rstFullSyncForLastSyncDate:(int)arg1 firstFullSyncCompletedDate: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (int);
++ (long long);
 - (id);
-- (id)it %@ serviceSession:(long long)arg1 %@;
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (int);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (double);
 - (id);
-- (void)Ao°!ØCùÁð1¢!0@ù
+- (long long);
+- (id);
+- (void);
+- (double)1YÐ1Â0@ù
 × ;
-- (long long)
+- (long long)!°!8AùZ°1Â0@ù
 × ;
-- (void)NSString"24;
-- (void)ect:(long long)arg1 keyPath:relationshipCandidates: /* Error: Ran out of types for this method. */;
-- (id)rstMovedTime;
-- (long long)ay",&,N,S_setSecondaryEdgeAdditionalBarButtonItemGroups: /* Error: Ran out of types for this method. */;
-- (long long)ntHiddenAncestorSheetIDs;
-- (void)BÚÞ;
-- (id)i;
+- (long long)32@0:8q16B24B28 /* Error: Ran out of types for this method. */;
+- (id)tionExtensionTapGesture: /* Error: Ran out of types for this method. */;
+- (void)iguration;
+- (id)ollerTransition;
+- (void)ä;
+- (void)lacement;
+- (void)À¾þ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *characters; // @synthesize characters=_characters;

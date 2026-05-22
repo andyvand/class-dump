@@ -5,6 +5,6 @@
 //
 
 @interface (null) (SXAccessibility)
-- (_Bool)9;
+- (_Bool);
 @end
 

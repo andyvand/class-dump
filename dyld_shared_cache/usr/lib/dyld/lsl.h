@@ -4,5 +4,5 @@
 
 class lsl {
 public: // (access info unavailable from symbols alone)
-    emitPVLEUInt64(unsigned long long, lsl::Vector<std::byte>&);
+    auto emitPVLEUInt64(unsigned long long, lsl::Vector<std::byte>&);
 };

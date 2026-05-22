@@ -12,8 +12,8 @@
     MISSING_TYPE *form;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

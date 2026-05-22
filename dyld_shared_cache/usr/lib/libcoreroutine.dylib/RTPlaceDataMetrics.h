@@ -23,7 +23,6 @@
 + (id);
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -33,7 +32,8 @@
 + (id);
 + (id);
 + (id);
-+ (CDStruct_b8464340)ate.alloy.siri.proxy;
++ (id);
++ (CDStruct_b8464340);
 - (id);
 - (_Bool);
 - (id);
@@ -52,15 +52,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (long long)@;
+- (id);
+- (long long);
 - (long long);
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)after filtering learned place, fused map item, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

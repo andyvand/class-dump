@@ -30,8 +30,8 @@
 + (id);
 + (_Bool);
 + (id);
++ (_Bool);
 + (id);
-+ (_Bool)ntextMenuInteractionAnimating>"32;
 - (id);
 - (void);
 - (int);
@@ -67,14 +67,14 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id)eID:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <SLHighlightCenterAPIAdapting> apiAdapterDelegate; // @synthesize apiAdapterDelegate=_apiAdapterDelegate;

@@ -33,58 +33,60 @@
 + (id);
 + (id);
 + (id);
-+ (id)1¢!0@ù
++ (id);
++ (id)ÔAð!FùÑZÐ1Â0@ù
 × ;
-+ (id)züÿ;
-+ (id)/Í?ffffffÖ?¸ëQ¸¾¿¿Év¾/½?Ñ"Ûù~j¼?#Ûù~j¼´?¬Zd;¯?ªñÒMbÈ?R¸ëQ¸?;
-+ (_Bool)oG;
++ (_Bool)tion context:%@
+ /* Error: Ran out of types for this method. */;
++ (id)ecifierTypeFitzpatrick6(void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
+- (void);
+- (void);
 - (struct CGRect);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)eclaration;
 - (double);
-- (id)WithCoder:(struct _NSZone *)arg1;
-- (void)angeLength;
+- (void);
 - (id);
-- (_Bool);
+- (int);
+- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (struct CGRect)0@ù
+- (_Bool);
+- (void)Ñ_1Â0@ù
 × ;
-- (void)!pEùÇÐ1¢!0@ù
+- (id)ù
 × ;
-- (id)uctor"16@"UIViewController"24@"UIViewController"32;
-- (id)onAtIndex:(double)arg1;
-- (id)earancePreferences;
-- (void)nsitionStore:(_Bool)arg1;
-- (id)gnment;
-- (int)View;
-- (_Bool)atePickerStyle",R,N,V_datePickerStyle;
-- (void)entPresentationSuperview;
-- (void)utableSet",&,N,V_pendingExcludedItems;
-- (_Bool)splitImage;
-- (void),N;
-- (int)ntationControllerDetentResolutionContext_Internal;
-- (_Bool)M;
+- (id)@ù
+× ;
+- (void)te>";
+- (void)lag:(_Bool)arg1;
+- (void)rowth:(id)arg1;
+- (void)ingMode;
 - (void);
-- (id)à8`:à:\;ð;<è<,=h== /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (id)ÀBþÿ;
-- (id)sWhenFloating;
-- (_Bool)C5UIKit20ScrollEdgeEffectViewP33_A8A62288E15893CDC14B9FB558CFED1E12TouchBlocker;
+- (id)stopDictationButton;
+- (_Bool);
+- (_Bool)tAnimation;
+- (id)e;
+- (void)tring;
 - (id);
-- (void)Â71Y4Àº;
-- (void)ºñ;
+- (void)sponder<UITextInput>",R,N,V_textInput;
+- (_Bool)Ä;
+- (_Bool):%@ /* Error: Ran out of types for this method. */;
+- (int)(þÿ;
+- (struct CGRect)utBleedHeight;
+- (void);
+- (id)M[;
+- (id);
+- (struct CGPoint);
 - (void);
-- (void)l¨rÿæ;
-- (_Bool)Háéÿ;
-- (struct CGPoint)ÀiþQà;
+- (id)´þ^;
+- (_Bool)Ñ_;
+- (void)®_;
+- (void)`;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticMinimizationEnabled; // @synthesize automaticMinimizationEnabled=_automaticMinimizationEnabled;

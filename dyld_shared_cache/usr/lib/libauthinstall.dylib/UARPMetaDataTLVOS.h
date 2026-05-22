@@ -21,14 +21,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
+- (id);
+- (id);
 - (void);
-- (id)x;
-- (id);
 
 // Remaining properties
 @property(readonly) unsigned int tlvLength; // @synthesize tlvLength=_tlvLength;

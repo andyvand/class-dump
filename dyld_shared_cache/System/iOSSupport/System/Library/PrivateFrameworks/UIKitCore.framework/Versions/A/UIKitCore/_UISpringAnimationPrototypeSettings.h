@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
+- (double);
+- (double)á;
+- (void)eraction: /* Error: Ran out of types for this method. */;
+- (void)FallbackAutofillGroup;
+- (void)eyplaneCacheToken;
 - (void);
-- (double)nge=QQ}24@"UIWritingToolsCoordinatorContext"40@?<v@?@"NSArray">48;
-- (void)geForChunkFromDelivery: /* Error: Ran out of types for this method. */;
-- (void)ingPadding;
-- (void)b;
-- (double)lerSourceTypeCamera;
 
 // Remaining properties
 @property(nonatomic) double dampingRatio; // @synthesize dampingRatio=_dampingRatio;

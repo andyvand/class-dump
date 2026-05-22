@@ -5,8 +5,5 @@
 //
 
 @protocol UIVideoEditorControllerDelegate
-
-@optional
-- (void);
 @end
 

@@ -32,11 +32,11 @@
 - (void);
 - (void);
 - (void);
-- (void)#;
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -45,13 +45,13 @@
 - (void);
 - (id);
 - (id);
-- (void)-;
+- (void);
 - (_Bool);
 - (long long);
-- (void)(;
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) TSDTextureSet *incomingTexture; // @synthesize incomingTexture=_incomingTexture;

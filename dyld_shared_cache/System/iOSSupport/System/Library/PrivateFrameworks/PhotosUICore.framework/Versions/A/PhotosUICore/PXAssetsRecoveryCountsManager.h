@@ -35,11 +35,11 @@
 - (void);
 - (long long);
 - (id);
-- (void);
 - (id);
-- (id)ûÿ;
-- (void)ÿÍOÀ¦7;
-- (id)áÏJÒ8;
+- (id)loadingTime:playbackStyle: /* Error: Ran out of types for this method. */;
+- (void)hotoLibrary;
+- (void)rSubtitleView;
+- (id)?Àÿ¿(TðÁ6;
 
 // Remaining properties
 @property(readonly, nonatomic) long long assetCollectionSubtype;

@@ -27,55 +27,56 @@
 }
 
 - (void);
-- (id)letionBlock: /* Error: Ran out of types for this method. */;
-- (id)storageContext:receivedViaRelay:serviceName:completionBlock: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id)lastAddressedHandle %@ lastAddressedSIMID %@;
-- (id)essage should handle.;
-- (void)hatProcessingPipelineComponent> Started processing;
-- (void)sted GroupID:%@ /* Error: Ran out of types for this method. */;
-- (void)to move message with OTP code (guid:%@) to recently deleted. /* Error: Ran out of types for this method. */;
-- (void)e to delete exit record when trying to change iCloud enabled state.  Error:%@ /* Error: Ran out of types for this method. */;
-- (void)ed, exit record state:%@, error (%@) /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)× ;
-- (id)áv!Cù±Ëð1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)1Â0@ù
+× ;
+- (void)á°!@Eù1^ð1Â0@ù
 × ;
 - (void)
 × ;
-- (id)?<v@?>32@?<v@?>40;
-- (_Bool)nsitionMaskImage;
-- (void)r was never called.;
-- (void)wController;
-- (void)àÓþ¿ÉÛf;
-- (void);
-- (void)¥k;
-- (void)Um;
-- (struct UIEdgeInsets)¾kn;
+- (void)imatedTextSpacerAnimationInfo;
+- (void)updates on tab bar controller.;
+- (_Bool)éj434Úsþ;
+- (struct UIEdgeInsets);
+- (void)DcÇÿÎÌÙàh;
+- (id)Ó("k;
+- (void)¬k;
+- (void)Üo;
+- (void)_;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isPresentedFromDocumentBrowser;

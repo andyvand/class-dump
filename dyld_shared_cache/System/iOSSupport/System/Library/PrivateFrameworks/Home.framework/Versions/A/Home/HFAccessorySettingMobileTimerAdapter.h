@@ -49,19 +49,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)oReload;
-- (id)eOnNextRunLoop;
-- (id):(id)arg1 ];
-- (id)SetupPairingControllerStatusDescriptionFailureAuthenticationFailed;
+- (id);
+- (void)initWithPresenceEvent:(id)arg1;
+- (void)@?0@"HMRoom"8;
+- (id);
+- (id)àÿíûp;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessoryCollectionSetting *alarmCollectionSetting;

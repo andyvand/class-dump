@@ -7,6 +7,7 @@
 @class ICStoreDialogResponse, NSError;
 
 @protocol ICStoreResponseProtocol
+- (NSError *)nge:[%3.2f, %3.2f] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ICStoreDialogResponse *dialog;

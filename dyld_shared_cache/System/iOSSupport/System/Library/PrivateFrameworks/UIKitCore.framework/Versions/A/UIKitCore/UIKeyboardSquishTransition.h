@@ -25,42 +25,41 @@ __attribute__((visibility("hidden")))
     double _previousProgress;
 }
 
-- (_Bool)meIntervalSince1970;
-- (void)ttachment:(id)arg1 associateWithMessageWithGUID:chatGUID:storeAtExternalLocation: /* Error: Ran out of types for this method. */;
-- (id)dID;
-- (id)eletedForChatsWithGUIDs:queryID:deletionDate: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (void)Token:(id)arg1 zoneID:resultsLimit:desiredKeys:operationGroupName:activity: /* Error: Ran out of types for this method. */;
-- (void)ck:(double)arg1;
-- (void)onChat:(_Bool)arg1;
-- (void)y:(double)arg1;
-- (void)ge:(id)arg1 storageContext:receivedViaRelay:serviceName:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)ccountAltDSID;
-- (void)ownSender:(id)arg1;
-- (void)ion;
-- (double)lass: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
 - (id);
 - (_Bool);
-- (double)x;
-- (id)W;
+- (double);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (void)t;
-- (void)d repair of group photo inconsistency.;
-- (id);
-- (id)	;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
-- (void)1ÁÐ1¢!0@ù
-× ;
-- (unsigned long long)tþZìÖÖak;
-- (void)zËz¨l;
+- (void);
+- (void);
+- (void)× ;
+- (void)WithFrame:paddedFrame: /* Error: Ran out of types for this method. */;
+- (unsigned long long)P	c;
+- (void)'!v;
 
 // Remaining properties
 @property(nonatomic) unsigned long long animationType; // @synthesize animationType=_animationType;

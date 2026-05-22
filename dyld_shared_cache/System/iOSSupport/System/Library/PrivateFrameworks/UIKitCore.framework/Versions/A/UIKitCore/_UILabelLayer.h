@@ -19,43 +19,42 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)oadCertificateAnchorUUID:(_Bool)arg1 withTLSTrustedCertificates:withTLSTrustedServerNames:withTLSAllowTrustExceptions:withTLSCertificateIsRequired:withTTLSInnerAuthentication:withTLSMinimumVersion:withTLSMaximumVersion:withOuterIdentity:withEAPFASTUsePAC:withEAPFASTProvisionPAC:withEAPFASTProvisionPACAnonymously:withEAPSIMNumberOfRANDs:withSystemModeCredentialsSource:withSystemModeUseOpenDirectoryCredentials:withOneTimeUserPassword:withEAPSIMAKAEncryptedIdentityEnabled: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct UIEdgeInsets)locate;
 - (id);
-- (_Bool)iptionAdamID: /* Error: Ran out of types for this method. */;
-- (void)lic}@ flavorString=%{public}@ urlString=%{public}@;
-- (_Bool)le.MediaPlayer.MPModelRequest.sharedNetworkQueue;
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void)pÐ!ðAù±Â1¢!0@ù
-× ;
-- (void)
+- (_Bool);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (_Bool)Â0@ù
 × ;
 - (_Bool);
-- (unsigned long long);
-- (void)0@ù
+- (unsigned long long)0@ù
 × ;
-- (void)Q}16@0:(id)arg1 8;
-- (void)ctsBackgroundBelowView:(_Bool)arg1;
-- (void)_exclusiveTouchWindows;
-- (void),N,V_titleViewGuide;
-- (id)6;
-- (void)ion;
-- (void)XÿÿÿP;
-- (void),|þ;
-- (_Bool)n;
-- (void)HeþHeþ8Q71;
 - (void);
+- (void);
+- (void)"24;
+- (id)le;
+- (void)withGesture:(_Bool)arg1 withState: /* Error: Ran out of types for this method. */;
+- (_Bool)ppendOverflowScrollForNode:offset:whileScrolling: /* Error: Ran out of types for this method. */;
+- (void):(struct CGRect)arg1;
+- (void)N,V_delegate;
+- (void)wasReset;
+- (void)6þÿÑîÿ;
+- (void)orage;
+- (_Bool)ring-spanner;
+- (void)---+;
+- (void)n;
+- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

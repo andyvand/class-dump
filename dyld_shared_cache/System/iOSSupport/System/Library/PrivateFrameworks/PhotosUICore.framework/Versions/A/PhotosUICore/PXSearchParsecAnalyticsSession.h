@@ -17,44 +17,44 @@
     NSObject<OS_dispatch_queue> *_reportingQueue;
 }
 
-+ (id);
++ (id)vailability:%{bool}d /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (int);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (long long);
-- (id);
-- (void);
-- (int);
-- (int);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (int);
 - (void);
+- (void)layFeedLayout;
+- (void)s;
+- (void)Tq,R,N,V_sectionContent;
+- (void)ansition:(long long)arg1 duration: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)ll PXLocalizedStringFromTable(NSString *__strong _Nonnull, NSString *__strong _Nonnull);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id)eUpPresentation:(id)arg1 styleForContextMenuInteraction:(id)arg2 configuration: /* Error: Ran out of types for this method. */;
-- (void)ndlePanDown: /* Error: Ran out of types for this method. */;
-- (void)$89|9ü9$:(id)arg1 ;;<?\I¸JLØP\QURÔSTØU Y(Z;
-- (void);
-- (void)ex out of bounds %li, count:%li /* Error: Ran out of types for this method. */;
-- (void)e shared to undisclosed recipients;
-- (void)apshot:assetReference:] /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
+- (void)éÇ@8ÿéÇ°Æÿ;
 
 // Remaining properties
 @property(nonatomic) long long currentQueryId; // @synthesize currentQueryId=_currentQueryId;

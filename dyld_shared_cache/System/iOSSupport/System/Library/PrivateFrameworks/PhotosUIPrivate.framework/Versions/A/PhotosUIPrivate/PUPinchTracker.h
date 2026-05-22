@@ -31,10 +31,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (void);
-- (CDUnknownBlockType);
+- (void)kCompletionHandler;
+- (void)ShouldEnablePaging:(CDUnknownBlockType)arg1 ,V_shouldEnablePaging;
+- (CDUnknownBlockType)ÿB;
 
 // Remaining properties
 @property(nonatomic) _Bool allowTrackingOutside; // @synthesize allowTrackingOutside=_allowTrackingOutside;

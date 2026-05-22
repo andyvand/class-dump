@@ -27,39 +27,39 @@
     UIView *_nonBlurView;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (id)ection pull quotes present;
+- (void)Type;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *backgroundEffects; // @synthesize backgroundEffects=_backgroundEffects;

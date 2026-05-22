@@ -15,13 +15,13 @@
 }
 
 - (id);
-- (long long);
 - (id);
-- (void);
-- (id);
 - (id);
+- (id);
+- (long long);
 - (void);
 - (long long);
+- (void)ð/;
 - (void);
 
 @end

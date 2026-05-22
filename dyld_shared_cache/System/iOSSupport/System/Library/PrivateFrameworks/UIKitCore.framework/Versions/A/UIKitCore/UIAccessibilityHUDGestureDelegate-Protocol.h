@@ -4,17 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAccessibilityHUDGestureManager;
-
 @protocol UIAccessibilityHUDGestureDelegate
-- (_Bool)GR;
-
-@optional
-- (void)HandlesMap:(UIAccessibilityHUDGestureManager *)arg1;
-- (_Bool)ry;
-- (void)useOriginalGroupID:(UIAccessibilityHUDGestureManager *)arg1;
-- (_Bool)rd;
-- (_Bool)fier;
-- (_Bool)hatGUID;
 @end
 

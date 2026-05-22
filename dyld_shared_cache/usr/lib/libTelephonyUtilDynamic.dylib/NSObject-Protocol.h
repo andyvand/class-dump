@@ -7,10 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (oneway void);
-- (_Bool)koutSchedulerMetricsMemoryFootprintDeferralDailyCount;
-- (_Bool);
-- (unsigned long long)tub;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

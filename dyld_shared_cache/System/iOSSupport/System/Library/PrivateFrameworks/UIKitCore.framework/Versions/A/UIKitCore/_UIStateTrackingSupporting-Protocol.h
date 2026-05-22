@@ -5,7 +5,6 @@
 //
 
 @protocol _UIStateTrackingSupporting
-- (long long)`;
 
 // Remaining properties
 @property(readonly, nonatomic) long long trackedState;

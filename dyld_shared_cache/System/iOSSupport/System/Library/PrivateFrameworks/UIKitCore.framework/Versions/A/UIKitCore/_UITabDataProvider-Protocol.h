@@ -7,10 +7,7 @@
 @class UITabBarAppearance;
 
 @protocol _UITabDataProvider
-- (UITabBarAppearance *)ntextPdct;
-- (_Bool)4	;
-- (_Bool);
-- (_Bool)UILayoutRuleEvaluationContext;
+- (_Bool)Ö.3y;Ö.3y¬.3y§.3y_Ð.3y¶´;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled;

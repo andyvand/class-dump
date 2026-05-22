@@ -38,17 +38,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
 - (void);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
 - (long long);
+- (_Bool);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void)<;
-- (id)ÐIðI4JJ¨J	ØKL;
-- (id)ect '%{public}@';
+- (id)ÂTÂdÂ´ÂÄÂÃdÃ´ÃÄÃÄ$ÄtÄÄÔÄäÄ4Å;
 
 // Remaining properties
 @property(readonly, nonatomic) PFSQLiteArchiver *archiver; // @synthesize archiver=_archiver;

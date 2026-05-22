@@ -13,17 +13,10 @@ __attribute__((visibility("hidden")))
     UIViewController<CKBrowserViewControllerProtocol> *_browserVC;
 }
 
-- (void)A3_tGGtGGAKtGGA6_GG;
-- (void)m;
 - (void);
-- (void)on %ld results %@;
-- (void)ed to the note;
-- (void)24;
-- (void)ue;
-- (void)ebPreviewGenerationQueue;
-- (id);
-- (void)s
-;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,10 +24,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

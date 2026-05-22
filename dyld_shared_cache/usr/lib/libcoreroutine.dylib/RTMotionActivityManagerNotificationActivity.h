@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) RTMotionActivity *activity; // @synthesize activity=_activity;

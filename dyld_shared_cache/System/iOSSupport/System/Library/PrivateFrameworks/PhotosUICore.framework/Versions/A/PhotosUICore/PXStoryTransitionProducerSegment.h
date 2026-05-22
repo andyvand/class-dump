@@ -21,7 +21,7 @@
 - (void);
 - (CDStruct_ae7b37d2);
 - (void);
-- (void)9f9<Q9,9 ÷9(¬9Ð)90Ê9°fÇï;
+- (void)ITLE;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *clipLayouts;

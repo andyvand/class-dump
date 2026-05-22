@@ -20,7 +20,7 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);

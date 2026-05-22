@@ -72,8 +72,8 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
@@ -84,10 +84,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)erInput:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *actionBuilderFactories; // @synthesize actionBuilderFactories=_actionBuilderFactories;

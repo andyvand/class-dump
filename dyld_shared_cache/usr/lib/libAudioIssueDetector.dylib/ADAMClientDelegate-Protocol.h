@@ -5,6 +5,5 @@
 //
 
 @protocol ADAMClientDelegate
-- (void);
 @end
 

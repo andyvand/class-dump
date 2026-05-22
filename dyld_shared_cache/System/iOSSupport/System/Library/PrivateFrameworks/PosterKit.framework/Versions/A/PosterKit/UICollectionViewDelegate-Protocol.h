@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UIContextMenuConfiguration;
+@class UICollectionView;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (NSIndexPath *)tensionBundleURL:(UICollectionView *)arg1;
-- (NSIndexPath *)State:(UICollectionView *)arg1;
-- (_Bool)sEqualToServiceEndpoint:(UICollectionView *)arg1;
-- (void):(UICollectionView *)arg1 blendConfiguration:(UIContextMenuConfiguration *)arg2;
-- (_Bool)QQÑ?¸ëQ¸®¿¸ëQ¸®?;
-- (NSIndexPath *);
+- (_Bool)}}16@0:(UICollectionView *)arg1 8;
+- (_Bool)xtViewAdapter.swift;
 @end
 

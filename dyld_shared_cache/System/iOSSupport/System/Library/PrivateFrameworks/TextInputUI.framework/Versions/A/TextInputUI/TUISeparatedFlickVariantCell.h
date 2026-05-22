@@ -16,15 +16,14 @@
 - (void);
 - (id);
 - (void);
-- (struct UIEdgeInsets)-§z;
-- (id);
-- (unsigned long long)³jæ|;
 - (struct UIEdgeInsets);
-- (void);
 - (id);
+- (unsigned long long);
 - (double);
-- (id)0@ù
-× ;
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIView *touchesForwardingView; // @synthesize touchesForwardingView=_touchesForwardingView;

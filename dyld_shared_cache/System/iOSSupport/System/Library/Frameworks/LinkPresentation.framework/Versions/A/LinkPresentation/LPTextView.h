@@ -43,30 +43,31 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (_Bool)k!;
-- (void);
-- (void);
-- (double);
 - (_Bool);
-- (id)etricCacheInvalidationNotification;
+- (void);
+- (void);
+- (_Bool);
+- (double);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
 - (double);
 - (id);
+- (void);
+- (struct CGSize);
+- (id);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id)!;
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (struct CGSize);
-- (id);
+- (void)Á÷ð!äBùQ°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSAttributedString *attributedString;

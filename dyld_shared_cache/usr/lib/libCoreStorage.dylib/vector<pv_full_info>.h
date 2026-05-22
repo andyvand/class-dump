@@ -4,9 +4,9 @@
 
 class vector<pv_full_info> {
 public: // (access info unavailable from symbols alone)
-    destruct_items(unsigned long, unsigned long);
-    push_back(pv_full_info const&);
-    reserve(unsigned long);
-    resize(unsigned long, pv_full_info const&);
+    auto destruct_items(unsigned long, unsigned long);
+    auto push_back(pv_full_info const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, pv_full_info const&);
     ~vector();
 };

@@ -4,7 +4,7 @@
 
 class vector<dsd_compress_action> {
 public: // (access info unavailable from symbols alone)
-    push_back(dsd_compress_action const&);
-    reserve(unsigned long);
+    auto push_back(dsd_compress_action const&);
+    auto reserve(unsigned long);
     ~vector();
 };

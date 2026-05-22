@@ -77,7 +77,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -85,16 +84,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)sterMedia;
+- (id)|;
 - (id);
 
 // Remaining properties

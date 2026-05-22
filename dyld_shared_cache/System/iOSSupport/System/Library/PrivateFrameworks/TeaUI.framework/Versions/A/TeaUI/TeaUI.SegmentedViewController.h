@@ -15,11 +15,11 @@
     MISSING_TYPE *$__lazy_storage_$_barButtonItem;
 }
 
-- (void)l=;
-- (id)edPuzzles;
-- (id),N,V_groupingEligibility;
 - (void);
-- (void);
+- (id);
+- (id);
+- (void);
+- (void)hbüÿ büÿpcüÿÐcüÿdüÿpdüÿ¨düÿ;
 
 @end
 

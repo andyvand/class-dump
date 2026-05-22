@@ -11,8 +11,8 @@
 }
 
 + (Class);
-- (id)B;
-- (id)icate command error log path when there were no duplicate commands. This is a UIKit internal bug.;
+- (id);
+- (id)atusBar_Placeholder;
 
 @end
 

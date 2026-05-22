@@ -25,14 +25,14 @@
 - (void);
 - (void);
 - (double);
-- (void);
 - (id);
+- (void);
 - (void);
 - (double);
+- (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)onfigured;
+- (void)TriggerActionEditorUnsupportedAccessoryTitle;
 
 // Remaining properties
 @property(nonatomic) double cellHeight; // @synthesize cellHeight=_cellHeight;

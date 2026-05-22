@@ -12,12 +12,12 @@
 }
 
 - (double);
-- (void);
-- (void)!;
+- (struct CGSize);
+- (id);
 - (void);
 - (id);
-- (id),;
-- (struct CGSize)letteFloatingMode;
+- (void);
+- (void)ickerDelegate>",&,N,V_delegate;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *backgroundCircleLayer; // @synthesize backgroundCircleLayer=_backgroundCircleLayer;

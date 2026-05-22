@@ -26,43 +26,44 @@ __attribute__((visibility("hidden")))
     struct CGRect _containerLayoutFrame;
 }
 
-- (void)@;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)r;
 - (void);
 - (void);
 - (void);
-- (struct CGVector);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGVector);
 - (double);
 - (long long);
 - (_Bool);
 - (double);
 - (double);
-- (_Bool)n"24@"TUConversationActivityEvent"32;
-- (struct CGRect)gesFirst: /* Error: Ran out of types for this method. */;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (double)r (%@) (guid:%@) /* Error: Ran out of types for this method. */;
-- (struct CGRect)ssage because we couldn't find a session (%@) or push handler (%@) (guid:%@) /* Error: Ran out of types for this method. */;
-- (struct NSDirectionalEdgeInsets);
-- (double);
+- (_Bool);
 - (struct CGRect);
-- (void)arÐ!FùÑÅÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (long long)ontrollerColumnSuspendingDelegateUpdates: /* Error: Ran out of types for this method. */;
-- (void)Animation:(long long)arg1;
+- (_Bool);
+- (struct CGRect);
+- (double);
+- (long long);
 - (void);
-- (struct CGPoint);
-- (void)`a;
-- (struct CGRect)ÀÖ;
-- (void)=ÿ°.;
-- (unsigned long long);
-- (void)Ù'd;
+- (void);
+- (void);
+- (void);
+- (struct NSDirectionalEdgeInsets);
+- (void)1Â0@ù
+× ;
+- (void)á°!ìEù_Ð1Â0@ù
+× ;
+- (unsigned long long)
+× ;
+- (struct CGPoint)utton: /* Error: Ran out of types for this method. */;
+- (struct CGRect)jëíÿ;
+- (double)shot.numberOfItems;
+- (void)¸;
+- (struct CGRect)£`Rc;
 
 // Remaining properties
 @property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;

@@ -16,26 +16,27 @@
     _UIFeedback<_UIFeedbackContinuousPlayable> *_playingContinuousFeedback;
 }
 
-+ (Class);
-- (id);
-- (void);
-- (void)lationStyle;
-- (void);
-- (_Bool);
-- (void);
-- (void)× ;
-- (id)0@ù
++ (Class)Ð! Fùq`Ð1Â0@ù
 × ;
 - (void);
-- (void)=ddd}16@?40;
-- (id)Preview:(id)arg1 committing:(id)arg2;
-- (id)ive;
-- (void)ognizer;
-- (id)ckingLevel;
-- (id)ãk8G;
-- (id)c[;
-- (id)Þ°[;
-- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)Ô ;
+- (id)ùQg°1Â0@ù
+× ;
+- (void)itivity;
+- (id)_UIGroupCompletion",R,N,V_selectionFrameGroupCompletion;
+- (void)ionState",R,N;
+- (void);
+- (id)íZ3;
+- (id);
+- (void)"8^B16;
+- (void);
+- (id)è?ÙØØØØØè?ü©Ñ>î|>¦¾;
+- (id)OÆÍP[;
+- (id)ÐÓÖþ;
+- (id)ÿH4;
 
 // Remaining properties
 @property(nonatomic, getter=_approachActivated, setter=_setApproachActivated:) _Bool approachActivated; // @synthesize approachActivated=_approachActivated;

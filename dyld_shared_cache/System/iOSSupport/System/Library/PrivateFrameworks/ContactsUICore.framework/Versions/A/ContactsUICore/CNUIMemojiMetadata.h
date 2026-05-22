@@ -30,9 +30,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)rPrediction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;

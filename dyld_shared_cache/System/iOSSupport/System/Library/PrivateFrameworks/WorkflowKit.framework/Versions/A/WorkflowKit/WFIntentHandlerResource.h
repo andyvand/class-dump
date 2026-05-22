@@ -18,9 +18,9 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)"WFContentProperty";
+- (void):(id)arg1;
 - (void);
-- (void);
-- (id)"WFParameterDefinition"24@?0@"LNValueType"8Q16;
 
 // Remaining properties
 @property(nonatomic) __weak WFHandleIntentAction *action; // @synthesize action=_action;

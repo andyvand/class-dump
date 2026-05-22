@@ -14,32 +14,32 @@ __attribute__((visibility("hidden")))
     CKDetailsNavigationController *_detailsNavigationController;
 }
 
-+ (void);
-- (id)Húpô;
-- (void)ngBlock:(id)arg1;
++ (void)ð?ÿn;
+- (id);
 - (void);
 - (void);
 - (void);
-- (struct UIEdgeInsets)articipantt;
+- (void);
+- (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (void);
-- (id)O;
-- (void);
-- (void)ata %@;
-- (void)or metadata for share %@;
-- (void)Using containerWithIdentifier.;
-- (void)tected. Fetching container and accountID.;
-- (void)or metadata selected accountID %@;
-- (void)with object {share:(id)arg1 %@, objectID:(id)arg2 %@};
-- (void)n didStopSharing:(id)arg1 %@;
-- (void)mselves from shared %@ share %@ recordID %@;
-- (void)ched cloudObject for share %@ recordID %@ accountID %@;
-- (void)dedWithOwnedObjectID :(id)arg1:(id)arg2 Deleting share for objectID %@ succeeded;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)´º;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)nsfer with GUID %@;
+- (void)roposal for session:(id)arg1 %@, dragItem:%@, previewCenter:%@, targetBalloonIndex:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -22,18 +22,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)=;
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void)%{public}@, %{public}@;
-- (_Bool)ag suggestions configuration, this user also has no auto favorites, this is indicative of a first ever launch, setting gems as auto favorites.;
-- (_Bool)yProperty;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

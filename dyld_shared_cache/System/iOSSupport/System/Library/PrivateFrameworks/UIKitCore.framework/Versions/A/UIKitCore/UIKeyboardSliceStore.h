@@ -14,13 +14,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (void)e;
-+ (id);
-- (id)s:(id)arg1;
++ (void);
++ (id)sController,V_motionEffectsController;
+- (id);
 - (void);
-- (void)
-× ;
-- (id)veRenderers;
+- (id);
+- (void);
 
 @end
 

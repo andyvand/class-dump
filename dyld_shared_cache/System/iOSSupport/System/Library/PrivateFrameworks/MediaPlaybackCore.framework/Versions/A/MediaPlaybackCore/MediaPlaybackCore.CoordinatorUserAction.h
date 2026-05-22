@@ -19,16 +19,16 @@
 
 - (id);
 - (void);
-- (void)@;
 - (void);
-- (id)@;
-- (void);
-- (long long);
 - (id);
 - (long long);
-- (id)e;
-- (void)Item Subscription Asset Loading [offline] - SOD/Cached Response/Server requests are unusable;
-- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *identifier;

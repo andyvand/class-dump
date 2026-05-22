@@ -31,11 +31,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)iqueFileSystemNameForPath:(long long)arg1 withAlternateExtension: /* Error: Ran out of types for this method. */;
-- (long long)ê;
-- (id)¡h3´&ÿ¡h3¸&ÿ;
+- (id);
+- (void);
+- (void)MÌôy;
+- (long long)Pðÿ|0P¸k9;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMMomentShareInvitationsDataSource *dataSource; // @dynamic dataSource;

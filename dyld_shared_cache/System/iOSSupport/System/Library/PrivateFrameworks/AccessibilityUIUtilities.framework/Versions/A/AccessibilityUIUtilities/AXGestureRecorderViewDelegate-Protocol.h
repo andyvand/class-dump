@@ -5,9 +5,5 @@
 //
 
 @protocol AXGestureRecorderViewDelegate
-- (unsigned long long);
-- (_Bool);
-- (void)@@"NSFileProviderItemVersion";
-- (_Bool)g";
 @end
 

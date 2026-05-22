@@ -14,7 +14,7 @@
 - (struct CGImage *);
 - (struct CGImage *);
 - (id);
-- (unsigned long long)able;
+- (unsigned long long)ÿÿt)ÿÿò)ÿÿ~èýÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;

@@ -14,22 +14,22 @@
     id <PKPaletteErasingAttributesViewControllerDelegate> _delegate;
 }
 
-- (void)ray",R,N,V_requestInfos;
-- (void)oggingKey;
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (long long);
+- (void);
+- (id);
 - (struct CGSize);
 - (void);
-- (void)sion;
+- (_Bool);
 - (void);
 - (double);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)PKTextInputTouchDetectionGestureRecognizerDelegate;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKPaletteErasingAttributesViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

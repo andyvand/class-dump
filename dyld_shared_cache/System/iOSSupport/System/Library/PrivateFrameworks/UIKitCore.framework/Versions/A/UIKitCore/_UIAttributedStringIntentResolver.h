@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)lueChanged:(long long)arg1;
 
 @end
 

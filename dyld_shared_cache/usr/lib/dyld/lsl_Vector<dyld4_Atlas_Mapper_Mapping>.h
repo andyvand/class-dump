@@ -5,8 +5,8 @@
 class lsl::Vector<dyld4::Atlas::Mapper::Mapping> {
 public: // (access info unavailable from symbols alone)
     Vector(lsl::Vector<dyld4::Atlas::Mapper::Mapping> const&, lsl::Allocator&);
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
-    resize(unsigned long long);
-    swap(lsl::Vector<dyld4::Atlas::Mapper::Mapping>&);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
+    auto resize(unsigned long long);
+    auto swap(lsl::Vector<dyld4::Atlas::Mapper::Mapping>&);
 };

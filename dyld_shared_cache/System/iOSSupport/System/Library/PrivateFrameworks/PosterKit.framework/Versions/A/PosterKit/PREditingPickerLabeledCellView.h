@@ -13,11 +13,12 @@
 }
 
 - (id);
-- (void);
 - (struct CGSize);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *contentLabel; // @synthesize contentLabel=_contentLabel;

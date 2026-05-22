@@ -5,6 +5,5 @@
 //
 
 @protocol MPCPlaybackErrorControllerDelegate
-- (void);
 @end
 

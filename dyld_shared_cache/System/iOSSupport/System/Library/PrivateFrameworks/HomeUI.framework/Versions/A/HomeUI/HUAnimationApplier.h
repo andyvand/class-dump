@@ -40,16 +40,15 @@
 - (double);
 - (_Bool);
 - (double);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool)1b0@ù
-× ;
-- (_Bool)SliderValueNormalizer;
-- (void)ue to OAuth onboarding with %@;
-- (void)kely failed during a previous dismissal - perhaps the presenting view controller has been deallocated prematurely. Attempting to force dismissal. Presentation delegate:(double)arg1 %@, presenting view controller:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void)voke_2;
+- (id)l#;
 
 // Remaining properties
 @property(copy, nonatomic) HUAnimationSettings *animationSettings; // @synthesize animationSettings=_animationSettings;

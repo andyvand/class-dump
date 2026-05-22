@@ -20,18 +20,18 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *actionUUID; // @synthesize actionUUID=_actionUUID;

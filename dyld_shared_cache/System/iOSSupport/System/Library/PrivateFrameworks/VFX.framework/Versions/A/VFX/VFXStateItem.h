@@ -23,717 +23,1214 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)°;
++ (_Bool)6;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void)G;
-- (id)eQuery;
-- (void)uint3 get_grid_dimensions(){
-        return grid_dimensions;
+- (id)terialProperty}^{__CFXMaterialProperty}^{__CFXMaterialProperty}^{__CFXMaterialProperty}^{__CFXMaterialProperty}^{__CFXMaterialProperty}^{__CFXMaterialProperty}^{__CFXMaterialProperty}^{__CFXMaterialProperty}^{__CFXMaterialProperty}ffffCiBb1b1b1b1b1b1b13}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)e:newDataOffset:newDataStride: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Lÿÿ,à;
+- (long long)*;
+- (void)r);
+    float tessLevel = max(1.0, OsdTessLevel * projLength);
+
+    // We restrict adaptive tessellation levels to half of the device
+    // supported maximum because transition edges are split into two
+    // halfs and the sum of the two corresponding levels must not exceed
+    // the device maximum. We impose this limit even for non-transition
+    // edges because a non-transition edge must be able to match up with
+    // one half of the transition edge of an adjacent transition patch.
+    return min(tessLevel, (float)(OSD_MAX_TESS_LEVEL / 2));
+}
+
+static void OsdGetTessLevelsUniform(const float OsdTessLevel, int3 patchParam,
+                        thread float4& tessOuterLo, thread float4& tessOuterHi)
+{
+    // Uniform factors are simple powers of two for each level.
+    // The maximum here can be increased if we know the maximum
+    // refinement level of the mesh:(long long)arg1 //     min(OSD_MAX_TESS_LEVEL, pow(2, MaximumRefinementLevel-1)
+    int refinementLevel = OsdGetPatchRefinementLevel(patchParam);
+    float tessLevel = min(OsdTessLevel, ((float)OSD_MAX_TESS_LEVEL / 2)) /
+                        pow(2, refinementLevel - 1.0f);
+
+//    float tessLevel = min(OsdTessLevel, (float)OSD_MAX_TESS_LEVEL);
+//    if(refinementLevel != 0)
+//         tessLevel /= (1 << (refinementLevel - 1));
+//    else
+//    {
+//        tessLevel /= pow(2.0, (0 - 1));
+//        tessLevel /= pow(2.0, (refinementLevel - 1));
+//    }
+
+    // tessLevels of transition edge should be clamped to 2.
+    int transitionMask = OsdGetPatchTransitionMask(patchParam);
+    float4 tessLevelMin = float4(1)
+    + float4(((transitionMask & 8) >> 3),
+             ((transitionMask & 1) >> 0),
+             ((transitionMask & 2) >> 1),
+             ((transitionMask & 4) >> 2));
+
+//    tessLevelMin =  (tessLevelMin - 1.0) * 2.0f + 1.0;
+//    tessLevelMin = float4(OsdTessLevel);
+
+
+    tessOuterLo = max(float4(tessLevel,tessLevel,tessLevel,tessLevel),
+                      tessLevelMin);
+    tessOuterHi = float4(0,0,0,0);
+
+//    tessOuterLo.x = refinementLevel;
+}
+
+static void OsdGetTessLevelsRefinedPoints(const float OsdTessLevel,
+                              const float4x4 OsdProjectionMatrix, const float4x4 OsdModelViewMatrix,
+                              float3 cp[16], int3 patchParam,
+                              thread float4& tessOuterLo, thread float4& tessOuterHi)
+{
+    // Each edge of a transition patch is adjacent to one or two patches
+    // at the next refined level of subdivision. We compute the corresponding
+    // vertex-vertex and edge-vertex refined points along the edges of the
+    // patch using Catmull-Clark subdivision stencil weights.
+    // For simplicity, we let the optimizer discard unused computation.
+
+    float3 vv0 = (cp[0] + cp[2] + cp[8] + cp[10]) * 0.015625 +
+    (cp[1] + cp[4] + cp[6] + cp[9]) * 0.09375 + cp[5] * 0.5625;
+    float3 ev01 = (cp[1] + cp[2] + cp[9] + cp[10]) * 0.0625 +
+    (cp[5] + cp[6]) * 0.375;
+
+    float3 vv1 = (cp[1] + cp[3] + cp[9] + cp[11]) * 0.015625 +
+    (cp[2] + cp[5] + cp[7] + cp[10]) * 0.09375 + cp[6] * 0.5625;
+    float3 ev12 = (cp[5] + cp[7] + cp[9] + cp[11]) * 0.0625 +
+    (cp[6] + cp[10]) * 0.375;
+
+    float3 vv2 = (cp[5] + cp[7] + cp[13] + cp[15]) * 0.015625 +
+    (cp[6] + cp[9] + cp[11] + cp[14]) * 0.09375 + cp[10] * 0.5625;
+    float3 ev23 = (cp[5] + cp[6] + cp[13] + cp[14]) * 0.0625 +
+    (cp[9] + cp[10]) * 0.375;
+
+    float3 vv3 = (cp[4] + cp[6] + cp[12] + cp[14]) * 0.015625 +
+    (cp[5] + cp[8] + cp[10] + cp[13]) * 0.09375 + cp[9] * 0.5625;
+    float3 ev03 = (cp[4] + cp[6] + cp[8] + cp[10]) * 0.0625 +
+    (cp[5] + cp[9]) * 0.375;
+
+    tessOuterLo = float4(0,0,0,0);
+    tessOuterHi = float4(0,0,0,0);
+
+    int transitionMask = OsdGetPatchTransitionMask(patchParam);
+
+    if ((transitionMask & 8) != 0) {
+        tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv0, ev03);
+        tessOuterHi[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv3, ev03);
+    } else {
+        tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp[5], cp[9]);
     }
-    
-    uint32_t get_grid_cell_count() device {
-        return grid_dimensions.x * grid_dimensions.y * grid_dimensions.z;
+    if ((transitionMask & 1) != 0) {
+        tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv0, ev01);
+        tessOuterHi[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv1, ev01);
+    } else {
+        tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp[5], cp[6]);
     }
+    if ((transitionMask & 2) != 0) {
+        tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv1, ev12);
+        tessOuterHi[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv2, ev12);
+    } else {
+        tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp[6], cp[10]);
+    }
+    if ((transitionMask & 4) != 0) {
+        tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv3, ev23);
+        tessOuterHi[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, vv2, ev23);
+    } else {
+        tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp[9], cp[10]);
+    }
+}
+
+static float3 miniMul(float4x4 a, float3 b)
+{
+    float3 r;
+    r.x = a[0][0] * b[0] + a[1][0] * b[1] + a[2][0] * b[2] + a[3][0];
+    r.y = a[0][1] * b[0] + a[1][1] * b[1] + a[2][1] * b[2] + a[3][1];
+    r.z = a[0][2] * b[0] + a[1][2] * b[1] + a[2][2] * b[2] + a[3][2];
+    return r;
+}
+
+static void OsdGetTessLevelsLimitPoints(const float OsdTessLevel, const float4x4 OsdProjectionMatrix, const float4x4 OsdModelViewMatrix,
+                            device OsdPerPatchVertexBezier* cpBezier,
+                            int3 patchParam, thread float4& tessOuterLo, thread float4& tessOuterHi)
+{
+    // Each edge of a transition patch is adjacent to one or two patches
+    // at the next refined level of subdivision. When the patch control
+    // points have been converted to the Bezier basis, the control points
+    // at the four corners are on the limit surface (since a Bezier patch
+    // interpolates its corner control points). We can compute an adaptive
+    // tessellation level for transition edges on the limit surface by
+    // evaluating a limit position at the mid point of each transition edge.
+
+    tessOuterLo = float4(0,0,0,0);
+    tessOuterHi = float4(0,0,0,0);
+
+    int transitionMask = OsdGetPatchTransitionMask(patchParam);
+
+#if OSD_PATCH_ENABLE_SINGLE_CREASE
+    // PERFOMANCE:we just need to pick the correct corner points from P, P1, P2
+    float3 p0 = OsdEvalBezier(cpBezier, patchParam, float2(0.0, 0.0));
+    float3 p3 = OsdEvalBezier(cpBezier, patchParam, float2(1.0, 0.0));
+    float3 p12 = OsdEvalBezier(cpBezier, patchParam, float2(0.0, 1.0));
+    float3 p15 = OsdEvalBezier(cpBezier, patchParam, float2(1.0, 1.0));
+
+    p0 = miniMul(OsdModelViewMatrix, p0);
+    p3 = miniMul(OsdModelViewMatrix, p3);
+    p12 = miniMul(OsdModelViewMatrix, p12);
+    p15 = miniMul(OsdModelViewMatrix, p15);
+
+    thread float3 * tPt;
+    float3 ev;
+
+    if ((transitionMask & 8) != 0) { // EVO3
+        ev = OsdEvalBezier(cpBezier, patchParam, float2(0.0, 0.5));
+
+        ev = miniMul(OsdModelViewMatrix, ev);
+
+        tPt = &ev;
+        tessOuterHi[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p12, ev);
+    } else {
+        tPt = &p12;
+    }
+    tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p0, *tPt);
     
+    if ((transitionMask & 1) != 0) { // EV01
+        ev = OsdEvalBezier(cpBezier, patchParam, float2(0.5, 0.0));
+
+        ev = miniMul(OsdModelViewMatrix, ev);
+
+        tPt = &ev;
+        tessOuterHi[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p3, ev);
+    } else {
+        tPt = &p3;
+    }
+    tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p0, *tPt);
+    
+    if ((transitionMask & 2) != 0) { // EV12
+        ev = OsdEvalBezier(cpBezier, patchParam, float2(1.0, 0.5));
+
+        ev = miniMul(OsdModelViewMatrix, ev);
+
+        tPt = &ev;
+        tessOuterHi[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p15, ev);
+    } else {
+        tPt = &p15;
+    }
+    tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p3, *tPt);
+    
+    if ((transitionMask & 4) != 0) { // EV23
+        ev = OsdEvalBezier(cpBezier, patchParam, float2(0.5, 1.0));
+
+        ev = miniMul(OsdModelViewMatrix, ev);
+
+        tPt = &ev;
+        tessOuterHi[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p15, ev);
+    } else {
+        tPt = &p15;
+    }
+    tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,p12, *tPt);
+
+#else // OSD_PATCH_ENABLE_SINGLE_CREASE
+    float3 p0 = OsdEvalBezier(cpBezier, patchParam, float2(0.0, 0.5));
+    float3 p3 = OsdEvalBezier(cpBezier, patchParam, float2(0.5, 0.0));
+    float3 p12 = OsdEvalBezier(cpBezier, patchParam, float2(1.0, 0.5));
+    float3 p15 = OsdEvalBezier(cpBezier, patchParam, float2(0.5, 1.0));
+
+    p0 = miniMul(OsdModelViewMatrix, p0);
+    p3 = miniMul(OsdModelViewMatrix, p3);
+    p12 = miniMul(OsdModelViewMatrix, p12);
+    p15 = miniMul(OsdModelViewMatrix, p15);
+
+    float3 c00 = miniMul(OsdModelViewMatrix, float3(cpBezier[0].P));
+    float3 c12 = miniMul(OsdModelViewMatrix, float3(cpBezier[12].P));
+    float3 c03 = miniMul(OsdModelViewMatrix, float3(cpBezier[3].P));
+    float3 c15 = miniMul(OsdModelViewMatrix, float3(cpBezier[15].P));
     
 
-#endif 
-};
 
-#ifdef __METAL_VERSION__
+    if ((transitionMask & 8) != 0) {
+        tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c00, p0);
+        tessOuterHi[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c12, p0);
+    } else {
+        tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c00, c12);
+    }
+    if ((transitionMask & 1) != 0) {
+        tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c00, p3);
+        tessOuterHi[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c03, p3);
+    } else {
+        tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c00, c03);
+    }
+    if ((transitionMask & 2) != 0) {
+        tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c03, p12);
+        tessOuterHi[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c15, p12);
+    } else {
+        tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c03, c15);
+    }
+    if ((transitionMask & 4) != 0) {
+        tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c12, p15);
+        tessOuterHi[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c15, p15);
+    } else {
+        tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix,c12, c15);
+    }
+#endif
+}
 
+static void OsdGetTessLevelsUniform(const float OsdTessLevel, int3 patchParam,
+                        thread float4& tessLevelOuter, thread float2& tessLevelInner,
+                        thread float4& tessOuterLo, thread float4& tessOuterHi)
+{
+    OsdGetTessLevelsUniform(OsdTessLevel, patchParam, tessOuterLo, tessOuterHi);
+    OsdComputeTessLevels(tessOuterLo, tessOuterHi, tessLevelOuter, tessLevelInner);
+}
 
+static void OsdGetTessLevelsAdaptiveRefinedPoints(const float OsdTessLevel, const float4x4 OsdProjectionMatrix, const float4x4 OsdModelViewMatrix,
+                                      float3 cpRefined[16], int3 patchParam,
+                                      thread float4& tessLevelOuter, thread float2& tessLevelInner,
+                                      thread float4& tessOuterLo, thread float4& tessOuterHi)
+{
+    OsdGetTessLevelsRefinedPoints(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cpRefined, patchParam, tessOuterLo, tessOuterHi);
 
-#define DEFAULT_POSITION float3(0.f)
-#define DEFAULT_VELOCITY float3(0.f)
-#define DEFAULT_AGE 0.f
-#define DEFAULT_LIFETIME 1.f
-#define DEFAULT_COLOR float4(1.f)
-#define DEFAULT_COLOR_H half4(1.h)
-#define DEFAULT_ORIENTATION vfx_float4_unit_w()
-#define DEFAULT_ANGULAR_VELOCITY 0.f
-#define DEFAULT_ANGLE 0.f
-#define DEFAULT_ANGLE_VELOCITY 0.f
-#define DEFAULT_TEXTURE_FRAME 0.f
-#define DEFAULT_SIZE 1.0f
-#define DEFAULT_LINEAR_FACTOR 1.f
-#define DEFAULT_ANGULAR_FACTOR 1.f
-#define DEFAULT_PIVOT 0x80808080
-#define DEFAULT_PIVOT_F float3(0.5f) 
-#define DEFAULT_TARGET 0.f
-#define DEFAULT_MASS 1.f
-#define DEFAULT_ROUGHNESS 0.5f
-#define DEFAULT_METALNESS 0.f
-#define DEFAULT_EMISSION 0.f
-#define DEFAULT_USER_DATA 0.f
+    OsdComputeTessLevels(tessOuterLo, tessOuterHi,
+                         tessLevelOuter, tessLevelInner);
+}
 
-#define is_defined_and_true(a) (is_function_constant_defined(a) && a)
+static void OsdGetTessLevelsAdaptiveLimitPoints(const float OsdTessLevel, const float4x4 OsdProjectionMatrix, const float4x4 OsdModelViewMatrix,
+                                    device OsdPerPatchVertexBezier* cpBezier,
+                                    int3 patchParam,
+                                    thread float4& tessLevelOuter, thread float2& tessLevelInner,
+                                    thread float4& tessOuterLo, thread float4& tessOuterHi)
+{
+    OsdGetTessLevelsLimitPoints(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cpBezier, patchParam, tessOuterLo, tessOuterHi);
 
-#define has_data(fc, index) (is_function_constant_defined(fc) ? fc :(long long)arg1 has(index))
+    OsdComputeTessLevels(tessOuterLo, tessOuterHi,
+                         tessLevelOuter, tessLevelInner);
+}
 
-#define get_data_u(fc, index, def) has_data(fc, index) ? get_uint32(index)[pid] :def;
-#define get_data_i(fc, index, def) has_data(fc, index) ? get_int32(index)[pid] :def;
-#define get_data_f(fc, index, def) has_data(fc, index) ? get_float(index)[pid] :def;
-#define get_data_f2(fc, index, def) has_data(fc, index) ? get_float2(index)[pid] :def;
-#define get_data_f3(fc, index, def) has_data(fc, index) ? get_float3(index)[pid] :def;
-#define get_data_f4(fc, index, def) has_data(fc, index) ? get_float4(index)[pid] :def;
+static void OsdGetTessLevels(const float OsdTessLevel, const float4x4 OsdProjectionMatrix, const float4x4 OsdModelViewMatrix,
+                 float3 cp0, float3 cp1, float3 cp2, float3 cp3,
+                 int3 patchParam,
+                 thread float4& tessLevelOuter, thread float2& tessLevelInner)
+{
+    float4 tessOuterLo = float4(0,0,0,0);
+    float4 tessOuterHi = float4(0,0,0,0);
 
-#define set_data_u(fc, index, val) if (has_data(fc, index)) { get_uint32(index)[pid] = val; }
-#define set_data_i(fc, index, val) if (has_data(fc, index)) { get_int32(index)[pid] = val; }
-#define set_data_f(fc, index, val) if (has_data(fc, index)) { get_float(index)[pid] = val; }
-#define set_data_f2(fc, index, val) if (has_data(fc, index)) { get_float2(index)[pid] = val; }
-#define set_data_f3(fc, index, val) if (has_data(fc, index)) { get_float3(index)[pid] = val; }
-#define set_data_f4(fc, index, val) if (has_data(fc, index)) { get_float4(index)[pid] = val; }
+    cp0 = mul(OsdModelViewMatrix, float4(cp0, 1.0)).xyz;
+    cp1 = mul(OsdModelViewMatrix, float4(cp1, 1.0)).xyz;
+    cp2 = mul(OsdModelViewMatrix, float4(cp2, 1.0)).xyz;
+    cp3 = mul(OsdModelViewMatrix, float4(cp3, 1.0)).xyz;
 
-struct particle_data {
-private:constant particle_data_header& particle_header;
-    device const uint8_t* data;
-    
-public:device particle_counters* counters() const {
-        
-        particle_data_description desc = particle_header.descriptions[ particle_data_index_counters ];
-        return (device particle_counters *)(data + desc.offset);
+#if OSD_ENABLE_SCREENSPACE_TESSELLATION
+    tessOuterLo[0] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp0, cp1);
+    tessOuterLo[1] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp0, cp3);
+    tessOuterLo[2] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp2, cp3);
+    tessOuterLo[3] = OsdComputeTessLevel(OsdTessLevel, OsdProjectionMatrix, OsdModelViewMatrix, cp1, cp2);
+    tessOuterHi = float4(0,0,0,0);
+#else //OSD_ENABLE_SCREENSPACE_TESSELLATION
+    OsdGetTessLevelsUniform(OsdTessLevel, patchParam, tessOuterLo, tessOuterHi);
+#endif //OSD_ENABLE_SCREENSPACE_TESSELLATION
+
+    OsdComputeTessLevels(tessOuterLo, tessOuterHi,
+                         tessLevelOuter, tessLevelInner);
+}
+
+#if OSD_FRACTIONAL_EVEN_SPACING || OSD_FRACTIONAL_ODD_SPACING
+static float OsdGetTessFractionalSplit(float t, float level, float levelUp)
+{
+    // Fractional tessellation of an edge will produce n segments where n
+    // is the tessellation level of the edge (level) rounded up to the
+    // nearest even or odd integer (levelUp). There will be n-2 segments of
+    // equal length (dx1) and two additional segments of equal length (dx0)
+    // that are typically shorter than the other segments. The two additional
+    // segments should be placed symmetrically on opposite sides of the
+    // edge (offset).
+
+#if OSD_FRACTIONAL_EVEN_SPACING
+    if (level <= 2) return t;
+
+    float base = pow(2.0,floor(log2(levelUp)));
+    float offset = 1.0/(int(2*base-levelUp)/2 & int(base/2-1));
+
+#elif OSD_FRACTIONAL_ODD_SPACING
+    if (level <= 1) return t;
+    float base = pow(2.0,floor(log2(levelUp)));
+    float offset = 1.0/(((int(2*base-levelUp)/2+1) & int(base/2-1))+1);
+#endif //OSD_FRACTIONAL_ODD_SPACING
+
+    float dx0 = (1.0 - (levelUp-level)/2) / levelUp;
+    float dx1 = (1.0 - 2.0*dx0) / (levelUp - 2.0*ceil(dx0));
+
+    if (t < 0.5) {
+        float x = levelUp/2 - round(t*levelUp);
+        return 0.5 - (x*dx1 + int(x*offset > 1) * (dx0 - dx1));
+    } else if (t > 0.5) {
+        float x = round(t*levelUp) - levelUp/2;
+        return 0.5 + (x*dx1 + int(x*offset > 1) * (dx0 - dx1));
+    } else {
+        return t;
+    }
+}
+#endif //OSD_FRACTIONAL_EVEN_SPACING || OSD_FRACTIONAL_ODD_SPACING
+
+static float OsdGetTessTransitionSplit(float t, float lo, float hi )
+{
+#if OSD_FRACTIONAL_EVEN_SPACING
+  float loRoundUp = OsdRoundUpEven(lo);
+  float hiRoundUp = OsdRoundUpEven(hi);
+
+  // Convert the parametric t into a segment index along the combined edge.
+  float ti = round(t * (loRoundUp + hiRoundUp));
+
+  if (ti <= loRoundUp) {
+      float t0 = ti / loRoundUp;
+      return OsdGetTessFractionalSplit(t0, lo, loRoundUp) * 0.5;
+   } else {
+      float t1 = (ti - loRoundUp) / hiRoundUp;
+      return OsdGetTessFractionalSplit(t1, hi, hiRoundUp) * 0.5 + 0.5;
     }
 
-    particle_data(constant particle_data_header& particle_header,
-                  device const uint8_t* data)
-    :particle_header(particle_header), data(data)
+#elif OSD_FRACTIONAL_ODD_SPACING
+  float loRoundUp = OsdRoundUpOdd(lo);
+  float hiRoundUp = OsdRoundUpOdd(hi);
+
+  // Convert the parametric t into a segment index along the combined edge.
+  // The +1 below is to account for the extra segment produced by the
+  // tessellator since the sum of two odd tess levels will be rounded
+  // up by one to the next odd integer tess level.
+  float ti = (t * (loRoundUp + hiRoundUp + 1));
+
+  OSD_UV_CORRECTION
+
+  ti = round(ti);
+
+  if (ti <= loRoundUp) {
+      float t0 = ti / loRoundUp;
+      return OsdGetTessFractionalSplit(t0, lo, loRoundUp) * 0.5;
+  } else if (ti > (loRoundUp+1)) {
+      float t1 = (ti - (loRoundUp+1)) / hiRoundUp;
+      return OsdGetTessFractionalSplit(t1, hi, hiRoundUp) * 0.5 + 0.5;
+  } else {
+      return 0.5;
+  }
+
+#else //OSD_FRACTIONAL_ODD_SPACING
+  // Convert the parametric t into a segment index along the combined edge.
+  float ti = round(t * (lo + hi));
+
+  if (ti <= lo) {
+      return (ti / lo) * 0.5;
+  } else {
+      return ((ti - lo) / hi) * 0.5 + 0.5;
+  }
+#endif //OSD_FRACTIONAL_ODD_SPACING
+}
+
+static float2 OsdGetTessParameterization(float2 uv, float4 tessOuterLo, float4 tessOuterHi)
+{
+    float2 UV = uv;
+	if (UV.x == 0 && tessOuterHi[0] > 0)
+	{
+		UV.y = OsdGetTessTransitionSplit(UV.y, tessOuterLo[0], tessOuterHi[0]);
+	} 
+	else if (UV.y == 0 && tessOuterHi[1] > 0)
+	{
+		UV.x = OsdGetTessTransitionSplit(UV.x, tessOuterLo[1], tessOuterHi[1]);
+	} 
+	else if (UV.x == 1 && tessOuterHi[2] > 0)
+	{
+		UV.y = OsdGetTessTransitionSplit(UV.y, tessOuterLo[2], tessOuterHi[2]);
+	} 
+	else if (UV.y == 1 && tessOuterHi[3] > 0)
+	{
+		UV.x = OsdGetTessTransitionSplit(UV.x, tessOuterLo[3], tessOuterHi[3]);
+	}
+
+    return UV;
+}
+
+
+
+static int4 OsdGetPatchCoord(int3 patchParam)
+{
+    int faceId = OsdGetPatchFaceId(patchParam);
+    int faceLevel = OsdGetPatchFaceLevel(patchParam);
+    int2 faceUV = OsdGetPatchFaceUV(patchParam);
+    return int4(faceUV.x, faceUV.y, faceLevel, faceId);
+}
+
+static float4 OsdInterpolatePatchCoord(float2 localUV, int3 patchParam)
+{
+    int4 perPrimPatchCoord = OsdGetPatchCoord(patchParam);
+    int faceId = perPrimPatchCoord.w;
+    int faceLevel = perPrimPatchCoord.z;
+    float2 faceUV = float2(perPrimPatchCoord.x, perPrimPatchCoord.y);
+    float2 uv = localUV/faceLevel + faceUV/faceLevel;
+    // add 0.5 to integer values for more robust interpolation
+    return float4(uv.x, uv.y, faceLevel+0.5, faceId+0.5);
+}
+
+
+// ----------------------------------------------------------------------------
+// GregoryBasis
+// ----------------------------------------------------------------------------
+
+
+static void OsdComputePerPatchVertexGregoryBasis(int3 patchParam, int ID, float3 cv,
+                                     device OsdPerPatchVertexGregoryBasis& result)
+{
+    result.P = cv;
+}
+
+// Regular BSpline to Bezier
+constant float4x4 Q(
+                    float4(1.f/6.f, 4.f/6.f, 1.f/6.f, 0.f),
+                    float4(0.f,     4.f/6.f, 2.f/6.f, 0.f),
+                    float4(0.f,     2.f/6.f, 4.f/6.f, 0.f),
+                    float4(0.f,     1.f/6.f, 4.f/6.f, 1.f/6.f)
+                    );
+
+// Infinitely Sharp (boundary)
+constant float4x4 Mi(
+                     float4(1.f/6.f, 4.f/6.f, 1.f/6.f, 0.f),
+                     float4(0.f,     4.f/6.f, 2.f/6.f, 0.f),
+                     float4(0.f,     2.f/6.f, 4.f/6.f, 0.f),
+                     float4(0.f,     0.f,     1.f,     0.f)
+                     );
+
+    
+static float4x4 OsdComputeMs2(float sharpness, float factor)
+{
+    float s = exp2(sharpness);
+    float s2 = s*s;
+    float s3 = s2*s;
+    float sx6 = s*6.0;
+    float sx6m2 = sx6 - 2;
+    float sfrac1 = 1-s;
+    float ssub1 = s-1;
+    float ssub1_2 = ssub1 * ssub1;
+    float div6 = 1.0/6.0;
+    
+    float4x4 m(
+               float4(0, s + 1 + 3*s2 - s3, 7*s - 2 - 6*s2 + 2*s3,    sfrac1 * ssub1_2),
+               float4(0,      1 + 2*s + s2,         sx6m2 - 2*s2,             ssub1_2),
+               float4(0,               1+s,                sx6m2,              sfrac1),
+               float4(0,                 1,                sx6m2,                 1));
+    
+    m *= factor * (1/sx6);
+    
+    m[0][0] = div6 * factor;
+    
+    return m;
+}
+
+
+
+// ----------------------------------------------------------------------------
+// BSpline
+// ----------------------------------------------------------------------------
+
+
+// convert BSpline cv to Bezier cv
+template<typename VertexType> //VertexType should be some type that implements float3 VertexType::GetPosition()
+static void OsdComputePerPatchVertexBSpline(int3 patchParam, unsigned ID, threadgroup VertexType* cv, device OsdPerPatchVertexBezier& result)
+{
+    int i = ID%4;
+    int j = ID/4;
+  
+#if OSD_PATCH_ENABLE_SINGLE_CREASE
+
+    float3 P  = float3(0,0,0); // 0 to 1-2^(-Sf)
+    float3 P1 = float3(0,0,0); // 1-2^(-Sf) to 1-2^(-Sc)
+    float3 P2 = float3(0,0,0); // 1-2^(-Sc) to 1
+    float sharpness = OsdGetPatchSharpness(patchParam);
+
+    int boundaryMask = OsdGetPatchBoundaryMask(patchParam);
+
+    if (sharpness > 0 && (boundaryMask & 15))
     {
-    }
-    
-    
+        float Sf = floor(sharpness);
+        float Sc = ceil(sharpness);
+        float Sr = fract(sharpness);
 
-    uint32_t get_active_count() const { return counters()->get_active_count(); }
-    void set_active_count(uint32_t v) { counters()->set_active_count(v); }
+        float4x4 Mj = OsdComputeMs2(Sf, 1-Sr);
+        float4x4 Ms = Mj;
+        Mj += (Sr * Mi);
+        Ms += OsdComputeMs2(Sc, Sr);
 
-    uint32_t get_live_count() { return counters()->get_live_count(); }
-    void set_live_count(uint32_t v) { counters()->set_live_count(v); }
-
-    uint32_t get_added_count() { return counters()->get_added_count(); }
-    void set_added_count(uint32_t v) { counters()->set_added_count(v); }
-
-    uint32_t get_dead_count() { return counters()->get_dead_count(); }
-    void set_dead_count(uint32_t v) { counters()->set_dead_count(v); }
-
-    uint32_t get_generated_count() { return counters()->get_generated_count(); }
-    void add_generated_count(uint32_t v) { counters()->add_generated_count(v); }
-    
-    uint32_t get_allocated_count() { return counters()->get_allocated_count(); }
-    void set_allocated_count(uint32_t v) { counters()->set_allocated_count(v); }
-    
-    uint32_t get_current_seed() { return counters()->get_current_seed(); }
-    void set_current_seed(uint32_t v) { counters()->set_current_seed(v); }
-    
-    uint32_t get_visible_count() const { return counters()->get_visible_count(); }
-    void set_visible_count(uint32_t v) { counters()->set_visible_count(v); }
-
-    uint32_t increment_live_count() { return counters()->increment_live_count(); }
-    uint32_t increment_dead_count() { return counters()->increment_dead_count(); }
-
-    bool is_outside(uint index) const { return counters()->is_outside(index); }
-    bool is_outside(thread uint* index, int spawnid) { return counters()->is_outside(index, spawnid); }
-    uint index_from_added(uint index) { return counters()->index_from_added(index); }
-    bool newly_created_is_outside(thread uint* index) { return counters()->newly_created_is_outside(index); }
-    bool newly_created_is_outside(thread uint* index, int spawnid) { return counters()->newly_created_is_outside(index, spawnid); }
-    int32_t get_spawn_id(uint index){ return counters()->get_spawn_id(index); }
-    int32_t get_spawn_id_if_present(uint index, int32_t dispatch_spawn_id){ return counters()->get_spawn_id_if_present(index, dispatch_spawn_id); }
-
-    float4x4 world_from_emitter() { return counters()->world_from_emitter; }
-    float3 emitter_scale() { return vfx_get_scale(world_from_emitter()); }
-    float4 emitter_orientation() { return vfx_quat_(world_from_emitter()); }
-
-    
-
-    uint32_t init_kernel_seed(uint32_t kernel_offset, uint32_t particle_offset) {
-        return counters()->get_current_seed() + kernel_offset + particle_offset;
-    }
-    uint32_t get_seed(int pid) {
-        return init_kernel_seed(0, pid);
-    }
-    
-    
-
-    device uint32_t* get_uint32(int data_index) const {
-        particle_data_description desc = particle_header.descriptions[ data_index ];
-        return (device uint32_t *)(data + desc.offset);
-    }
-    
-    device atomic_uint* get_atomic_uint(int data_index) const {
-        particle_data_description desc = particle_header.descriptions[ data_index ];
-        return (device atomic_uint *)(data + desc.offset);
-    }
-    
-    device int32_t* get_int32(int data_index) const {
-        particle_data_description desc = particle_header.descriptions[ data_index ];
-        return (device int32_t *)(data + desc.offset);
-    }
-
-    device float* get_float(int data_index) const {
-        particle_data_description desc = particle_header.descriptions[ data_index ];
-        return (device float *)(data + desc.offset);
-    }
-
-    device float2* get_float2(int data_index) const {
-        particle_data_description desc = particle_header.descriptions[ data_index ];
-        return (device float2 *)(data + desc.offset);
-    }
-
-    device float3* get_float3(int data_index) const {
-        particle_data_description desc = particle_header.descriptions[ data_index ];
-        return (device float3 *)(data + desc.offset);
-    }
-
-    device float4* get_float4(int data_index) const {
-        particle_data_description desc = particle_header.descriptions[ data_index ];
-        return (device float4 *)(data + desc.offset);
-    }
-
-    
-    
-    bool has(int data_index) const {
-        return particle_header.descriptions[ data_index ].offset > 0;
-    }
-    
-    bool has(int data_index, int16_t type) const {
-        particle_data_description desc = particle_header.descriptions[ data_index ];
-        return desc.offset > 0 && desc.type == type;
-    }
-
-    
-
-    float3 get_position(int pid) const {
-        return get_float3(particle_data_index_positions)[pid];
-    }
-
-    void set_position(int pid, float3 v) {
-        get_float3(particle_data_index_positions)[pid] = v;
-    }
-
-    float3 get_velocity(int pid) const {
-        return get_data_f3(has_velocity, particle_data_index_velocities, DEFAULT_VELOCITY);
-    }
-
-    void set_velocity(int pid, float3 v) {
-        set_data_f3(has_velocity, particle_data_index_velocities, v);
-    }
-
-    float4 get_color(int pid) const {
-        return get_data_f4(has_color, particle_data_index_colors, DEFAULT_COLOR);
-    }
-
-    half4 get_color_as_half(int pid) const {
-        half4 color = half4(get_color(pid));
-        color.a = saturate(color.a);
-        return color;
-    }
-
-    void set_color(int pid, float4 v) {
-        set_data_f4(has_color, particle_data_index_colors, v);
-    }
-
-    float2 get_ribbon_length(int pid) const {
-        return get_data_f2(has_ribbon_length, particle_data_index_ribbon_lengths, 0.f);
-    }
-
-    void set_ribbon_length(int pid, float2 v) {
-        set_data_f2(has_ribbon_length, particle_data_index_ribbon_lengths, v);
-    }
-
-    float3 get_size(uint pid) const {
+#if USE_PTVS_SHARPNESS
+#else
+        float s0 = 1 - exp2(-Sf);
+        float s1 = 1 - exp2(-Sc);
+        result.vSegments = float2(s0, s1);
+#endif
         
-        if (is_defined_and_true(has_size3D)) {
-            return get_float3(particle_data_index_sizes)[ pid ];
-        } else if (is_defined_and_true(has_size2D)) {
-            return float3(get_float2(particle_data_index_sizes)[ pid ], 0.001f); 
-        } else if (is_defined_and_true(has_size1D)) {
-            return float3(get_float(particle_data_index_sizes)[ pid ]);
-        }
+        bool isBoundary[2];
+        isBoundary[0] = (((boundaryMask & 8) != 0) || ((boundaryMask & 2) != 0)) ? true :false;
+        isBoundary[1] = (((boundaryMask & 4) != 0) || ((boundaryMask & 1) != 0)) ? true :false;
+        bool needsFlip[2];
+        needsFlip[0] = (boundaryMask & 8) ? true :false;
+        needsFlip[1] = (boundaryMask & 1) ? true :false;
+        float3 Hi[4], Hj[4], Hs[4];
         
-        particle_data_description desc = particle_header.descriptions[ particle_data_index_sizes ];
-        if (desc.offset > 0) {
-            switch (desc.type) {
-                case particle_data_type_float3:return get_float3(particle_data_index_sizes)[ pid ];
-                case particle_data_type_float2:return float3(get_float2(particle_data_index_sizes)[ pid ], 0.001f);
-                case particle_data_type_float:return float3(get_float(particle_data_index_sizes)[ pid ]);
+        if (isBoundary[0])
+        {
+            int t[4] = {0,1,2,3};
+            int ti = i, step = 1, start = 0;
+            if (needsFlip[0]) {
+                t[0] = 3; t[1] = 2; t[2] = 1; t[3] = 0;
+                ti = 3-i;
+                start = 3; step = -1;
             }
-        }
-        return DEFAULT_SIZE;
-    }
-
-    void set_size(int pid, float3 v) {
-        
-        if (is_defined_and_true(has_size3D)) {
-            get_float3(particle_data_index_sizes)[ pid ] = v;
-        } else if (is_defined_and_true(has_size2D)) {
-            get_float2(particle_data_index_sizes)[ pid ] = v.xy;
-        } else if (is_defined_and_true(has_size1D)) {
-            get_float(particle_data_index_sizes)[ pid ] = v.x;
-        } else {
-            
-            particle_data_description desc = particle_header.descriptions[ particle_data_index_sizes ];
-            if (desc.offset > 0) {
-                switch (desc.type) {
-                    case particle_data_type_float3:get_float3(particle_data_index_sizes)[ pid ] = v;
-                        break;
-                    case particle_data_type_float2:get_float2(particle_data_index_sizes)[ pid ] = v.xy;
-                        break;
-                    case particle_data_type_float:get_float(particle_data_index_sizes)[ pid ] = v.x;
-                        break;
+            for (int l=0; l<4; ++l) {
+                Hi[l] = Hj[l] = Hs[l] = float3(0,0,0);
+                for (int k=0, tk = start; k<4; ++k, tk+=step) {
+                    float3 p = cv[l*4 + k].GetPosition();
+                    Hi[l] += Mi[ti][tk] * p;
+                    Hj[l] += Mj[ti][tk] * p;
+                    Hs[l] += Ms[ti][tk] * p;
                 }
             }
         }
-    }
-
-    float2 get_size2D(uint pid) const {
-        return get_size(pid).xy;
-    }
-
-    void set_size2D(uint pid, float2 size) {
-        set_size(pid, float3(size, 1.f));
-    }
-
-    float get_size1D(uint pid) const {
-        return get_size(pid).x;
-    }
-
-    void set_size1D(uint pid, float size) {
-        set_size(pid, float3(size));
-    }
-
-    float4 get_orientation(int pid) const {
-        return get_data_f4(has_orientation, particle_data_index_orientations, DEFAULT_ORIENTATION);
-    }
-
-    void set_orientation(int pid, float4 v) {
-        set_data_f4(has_orientation, particle_data_index_orientations, v);
-    }
-
-    float4 get_angular_velocity(int pid) const {
-        return get_data_f4(has_angular_velocity, particle_data_index_angular_velocities, DEFAULT_ANGULAR_VELOCITY);
-    }
-
-    void set_angular_velocity(int pid, float4 v) {
-        set_data_f4(has_angular_velocity, particle_data_index_angular_velocities, v);
-    }
-
-    float get_angle(int pid) const {
-        return get_data_f(has_angle, particle_data_index_angles, DEFAULT_ANGLE);
-    }
-
-    void set_angle(int pid, float v) {
-        set_data_f(has_angle, particle_data_index_angles, v);
-    }
-
-    float get_angle_velocity(int pid) const {
-        return get_data_f(has_angle_velocity, particle_data_index_angle_velocities, DEFAULT_ANGLE_VELOCITY);
-    }
-
-    void set_angle_velocity(int pid, float v) {
-        set_data_f(has_angle_velocity, particle_data_index_angle_velocities, v);
-    }
-
-    
-
-    float get_age(int pid) const {
-        return get_data_f(has_age, particle_data_index_ages, DEFAULT_AGE);
-    }
-
-    void set_age(int pid, float v) {
-        set_data_f(has_age, particle_data_index_ages, v);
-    }
-
-    float get_lifetime(int pid) const {
-        return get_data_f(has_lifetime, particle_data_index_lifetimes, DEFAULT_LIFETIME);
-    }
-
-    void set_lifetime(int pid, float v) {
-        set_data_f(has_lifetime, particle_data_index_lifetimes, v);
-    }
-
-    float get_texture_frame(int pid) const {
-        return get_data_f(has_texture_frame, particle_data_index_frames, DEFAULT_TEXTURE_FRAME);
-    }
-
-    void set_texture_frame(int pid, float v) {
-        set_data_f(has_texture_frame, particle_data_index_frames, v);
-    }
-
-    float3 get_linear_factor(int pid) const {
-        return get_data_f3(has_linear_factor, particle_data_index_linear_factors, DEFAULT_LINEAR_FACTOR);
-    }
-
-    void set_linear_factor(int pid, float3 v) {
-        set_data_f3(has_linear_factor, particle_data_index_linear_factors, v);
-    }
-
-    float3 get_angular_factor(int pid) const {
-        return get_data_f3(has_angular_factor, particle_data_index_angular_factors, DEFAULT_ANGULAR_FACTOR);
-    }
-
-    void set_angular_factor(int pid, float3 v) {
-        set_data_f3(has_angular_factor, particle_data_index_angular_factors, v);
-    }
-
-    
-    float3 get_pivot(int pid) const {
-        return has_data(has_pivot, particle_data_index_pivots)
-        ? unpack_unorm4x8_to_float(get_uint32(particle_data_index_pivots)[pid]).xyz
-        :DEFAULT_PIVOT_F; 
-    }
-
-    
-    void set_pivot(int pid, float3 v) {
-        uint32_t u = pack_float_to_unorm4x8(float4(v, 0.f));
-        set_data_u(has_pivot, particle_data_index_pivots, u);
-    }
-    
-    
-    float3 get_signed_pivot(int pid) const {
-        return get_pivot(pid) * 2 - 1;
-    }
-
-    float3 get_target(int pid) const {
-        return get_data_f3(has_target, particle_data_index_targets, DEFAULT_TARGET);
-    }
-
-    void set_target(int pid, float3 v) {
-        set_data_f3(has_target, particle_data_index_targets, v);
-    }
-
-    
-
-    float get_mass(int pid) const {
-        return get_data_f(has_mass, particle_data_index_masses, DEFAULT_MASS);
-    }
-
-    void set_mass(int pid, float v) {
-        set_data_f(has_mass, particle_data_index_masses, v)
-    }
-
-    uint32_t get_id(int pid) const {
-        return get_data_u(has_particle_id, particle_data_index_ids, 0);
-    }
-
-    void set_id(int pid, uint32_t v) {
-        set_data_u(has_particle_id, particle_data_index_ids, v);
-    }
-
-    uint32_t get_parent_id(int pid) const {
-        return get_data_u(has_parent_id, particle_data_index_parent_ids, 0);
-    }
-
-    void set_parent_id(int pid, uint32_t v) {
-        set_data_u(has_parent_id, particle_data_index_parent_ids, v);
-    }
-
-    float get_roughness(int pid) const {
-        return has(particle_data_index_roughness) ? get_float(particle_data_index_roughness)[pid] :DEFAULT_ROUGHNESS;
-    }
-
-    void set_roughness(int pid, float v) {
-        if (has(particle_data_index_roughness)) { get_float(particle_data_index_roughness)[pid] = v; }
-    }
-
-    float get_metalness(int pid) const {
-        return has(particle_data_index_metalness) ? get_float(particle_data_index_metalness)[pid] :DEFAULT_METALNESS;
-    }
-
-    void set_metalness(int pid, float v) {
-        if (has(particle_data_index_metalness)) { get_float(particle_data_index_metalness)[pid] = v; }
-    }
-
-    float get_emission(int pid) const {
-        return has(particle_data_index_emission) ? get_float(particle_data_index_emission)[pid] :DEFAULT_EMISSION;
-    }
-
-    void set_emission(int pid, float v) {
-        if (has(particle_data_index_emission)) { get_float(particle_data_index_emission)[pid] = v; }
-    }
-
-    float4 get_user_data1(int pid) const {
-        return get_data_f4(has_user_data1, particle_data_index_user_data1s, DEFAULT_USER_DATA);
-    }
-
-    void set_user_data1(int pid, float4 v) {
-        set_data_f4(has_user_data1, particle_data_index_user_data1s, v);
-    }
-
-    float4 get_user_data2(int pid) const {
-        return get_data_f4(has_user_data2, particle_data_index_user_data2s, DEFAULT_USER_DATA);
-    }
-
-    void set_user_data2(int pid, float4 v) {
-        set_data_f4(has_user_data2, particle_data_index_user_data2s, v);
-    }
-
-    float4 get_user_data3(int pid) const {
-        return get_data_f4(has_user_data3, particle_data_index_user_data3s, DEFAULT_USER_DATA);
-    }
-
-    void set_user_data3(int pid, float4 v) {
-        set_data_f4(has_user_data3, particle_data_index_user_data3s, v);
-    }
-
-    float4 get_user_data4(int pid) const {
-        return get_data_f4(has_user_data4, particle_data_index_user_data4s, DEFAULT_USER_DATA);
-    }
-
-    void set_user_data4(int pid, float4 v) {
-        set_data_f4(has_user_data4, particle_data_index_user_data4s, v);
-    }
-
-    uint32_t get_index_from_id(int pid) const {
-        return get_data_u(has_particle_id, particle_data_index_index_from_id, VFX_PARTICLE_INVALID);
-    }
-    
-    
-    uint32_t safe_get_index_from_id(int32_t pid) const {
-        if (pid < 0 || pid >= int(counters()->get_allocated_count())){
-            return VFX_PARTICLE_INVALID;
-        }
-        return get_data_u(has_particle_id, particle_data_index_index_from_id, VFX_PARTICLE_INVALID);
-    }
-    
-    void set_index_from_id(int pid, uint32_t index) const {
-        set_data_u(has_particle_id, particle_data_index_index_from_id, index);
-    }
-    
-    uint32_t get_free_id(int pid) const {
-        return get_data_u(has_particle_id, particle_data_index_free_ids, VFX_PARTICLE_INVALID);
-    }
-    
-    void set_free_id(int pid, uint32_t v) const {
-        set_data_u(has_particle_id, particle_data_index_free_ids, v);
-    }
-    
-    
-    
-    uint32_t get_neighbor_grid_list_head(int cell) const {
-        return (counters()->has_neighbor_grid && cell < int(counters()->get_grid_cell_count())) ? get_uint32(particle_data_index_neighbor_grid_heads)[cell] :VFX_PARTICLE_INVALID;
-    }
-    
-    void set_neighbor_grid_list_head(int cell, uint32_t v) const { 
-        if (counters()->has_neighbor_grid) {
-            get_uint32(particle_data_index_neighbor_grid_heads)[cell] = v;
-        }
-    }
-    
-    uint32_t atomic_exchange_neighbor_grid_list_head(int cell, uint32_t v) const {
-        return atomic_exchange_explicit(&get_atomic_uint(particle_data_index_neighbor_grid_heads)[cell], v, memory_order_relaxed);
-    }
-    
-    uint32_t get_neighbor_grid_list_next(int pid) const {
-        return counters()->has_neighbor_grid ? get_uint32(particle_data_index_neighbor_grid_nexts)[pid] :VFX_PARTICLE_INVALID;
-    }
-    
-    void set_neighbor_grid_list_next(int pid, uint32_t v) const {
-        if (counters()->has_neighbor_grid) {
-            get_uint32(particle_data_index_neighbor_grid_nexts)[pid] = v;
-        }
-    }
-    
-    uint3 pos_to_cell_3d(simd_float3 pos) const {
-        int3 grid_dim = int3(counters()->grid_dimensions);
-        return uint3((int3(floor((pos - counters()->grid_origin) / counters()->grid_cell_size)) % grid_dim + grid_dim) % grid_dim);
-    }
-    
-    uint32_t cell_3d_to_cell_index(uint3 cell_3d) const {
-        uint3 cell = cell_3d * counters()->grid_cell_stride;
-        return cell.x + cell.y + cell.z;
-    }
-    
-    uint32_t pos_to_cell_index(simd_float3 pos) const {
-        return cell_3d_to_cell_index(pos_to_cell_3d(pos));
-    }
-    
-    bool particle_index_is_valid(uint32_t index) const {
-        return index < get_active_count();
-    }
-    
-    void get_27_neighboring_cells_lists(simd_float3 pos, thread uint32_t* cell_lists) const{
-        uint3 cell_3d = pos_to_cell_3d(pos);
-        int3 grid_dim = int3(counters()->grid_dimensions);
-        
-        
-        constexpr int3 cell_offsets[13] = {
-            { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 },
-            {-1, 1, 0 }, {-1, 0, 1 }, { 1, 1, 0 }, { 1, 0, 1 }, { 0,-1, 1 }, { 0, 1, 1 },
-            {-1,-1, 1 }, { 1,-1, 1 }, {-1, 1, 1 }, { 1, 1, 1 }
-        };
-        
-        
-        
-        cell_lists[0] = get_neighbor_grid_list_head(cell_3d_to_cell_index(cell_3d));
-        int index = 1;
-        
-        for(int i = 0; i < 13; i++){
-            uint3 current_cell = uint3(((int3(cell_3d) + cell_offsets[i]) % grid_dim + grid_dim) % grid_dim);
-            cell_lists[index] = get_neighbor_grid_list_head(cell_3d_to_cell_index(current_cell));
-            index++;
-            current_cell = uint3(((int3(cell_3d) - cell_offsets[i]) % grid_dim + grid_dim) % grid_dim);
-            cell_lists[index] = get_neighbor_grid_list_head(cell_3d_to_cell_index(current_cell));
-            index++;
-        }
-    }
-    
-    uint32_t get_neighbors_in_radius(simd_float3 pos, float radius, uint32_t max_neighbor_count, thread uint32_t* neighbors) const {
-        
-        
-        for(uint i = 0; i < max_neighbor_count; i++){
-            neighbors[i] = VFX_PARTICLE_INVALID;
-        }
-        
-        if(!counters()->has_neighbor_grid) return 0; 
-        
-        uint32_t cell_lists[27];
-        
-        get_27_neighboring_cells_lists(pos, cell_lists);
-        
-        
-        uint neighbor_count = 0;
-        float squared_radius = vfx_pow2(min(radius, counters()->grid_cell_size));
-        
-        for(int cell = 0; cell < 27; cell++){
-            uint32_t particle_index = cell_lists[cell];
-            for(uint i = 0; i < counters()->max_neighbors_per_cell; i++){
-                
-                if(particle_index != VFX_PARTICLE_INVALID){
-                    
-                    float3 their_pos = get_position(particle_index);
-                    float3 diff = their_pos - pos;
-                    float squared_dist = dot(diff, diff);
-                    
-                    if(squared_dist < squared_radius){
-                        neighbors[neighbor_count] = particle_index;
-                        neighbor_count++;
-                        if(neighbor_count >= max_neighbor_count){
-                            break;
-                        }
-                    }
-                } else {
-                    break;
+        else
+        {
+            for (int l=0; l<4; ++l) {
+                Hi[l] = Hj[l] = Hs[l] = float3(0,0,0);
+                for (int k=0; k<4; ++k) {
+                    float3 p = cv[l*4 + k].GetPosition();
+                    float3 val = Q[i][k] * p;
+                    Hi[l] += val;
+                    Hj[l] += val;
+                    Hs[l] += val;
                 }
-                particle_index = get_neighbor_grid_list_next(particle_index);
             }
         }
-        
-        
-        return neighbor_count;
-    }
-    
-    uint32_t get_nearest_neighbor_in_radius(simd_float3 pos, float radius) const {
-        
-        if(!counters()->has_neighbor_grid) return VFX_PARTICLE_INVALID; 
-            
-        uint32_t cell_lists[27];
-        
-        get_27_neighboring_cells_lists(pos, cell_lists);
-            
-        uint32_t closest = VFX_PARTICLE_INVALID;
-        float min_squared_dist = MAXFLOAT;
-            
-        float squared_radius = vfx_pow2(min(radius, counters()->grid_cell_size));
-        
-        for(int cell = 0; cell < 27; cell++){
-            uint32_t particle_index = cell_lists[cell];
-            for(uint i = 0; i < counters()->max_neighbors_per_cell; i++){
-                if(particle_index != VFX_PARTICLE_INVALID){
-                    
-                    float3 their_pos = get_position(particle_index);
-                    float3 diff = their_pos - pos;
-                    float squared_dist = dot(diff, diff);
-                    
-                    if(squared_dist < min_squared_dist && squared_dist < squared_radius){
-                        closest = particle_index;
-                        min_squared_dist = squared_dist;
-                    }
-                } else {
-                    break;
+        {
+            int t[4] = {0,1,2,3};
+            int tj = j, step = 1, start = 0;
+            if (needsFlip[1]) {
+                t[0] = 3; t[1] = 2; t[2] = 1; t[3] = 0;
+                tj = 3-j;
+                start = 3; step = -1;
+            }
+            for (int k=0, tk = start; k<4; ++k, tk+=step) {
+                if (isBoundary[1])
+                {
+                    P  += Mi[tj][tk]*Hi[k];
+                    P1 += Mj[tj][tk]*Hj[k];
+                    P2 += Ms[tj][tk]*Hs[k];
                 }
-                particle_index = get_neighbor_grid_list_next(particle_index);
+                else
+                {
+                    P  += Q[j][k]*Hi[k];
+                    P1 += Q[j][k]*Hj[k];
+                    P2 += Q[j][k]*Hs[k];
+                }
             }
         }
 
-        return closest;
-    }
-    
-    
-    
-    
-    float4x4 get_transform(int pid) const {
-        float3 pos = get_position(pid);
-        float4 ori = get_orientation(pid);
-        float3 scl = get_size(pid);
-        float4x4 emitter_from_particle = vfx_make_transform(ori, float4(pos, 1), scl);
-        if (has_pivot) {
-            float3 pvt = get_signed_pivot(pid);
-            emitter_from_particle = emitter_from_particle * vfx_make_translation(float4(-pvt, 1));
-        }
-        return emitter_from_particle;
-    }
-    
-    float4x4 get_world_transform(int pid) {
-        return counters()->world_from_emitter * get_transform(pid);
-    }
-    
-    half3 get_rme(int pid) const {
-        return half3(get_roughness(pid), get_metalness(pid), get_emission(pid));
-    }
-
-};
-
-template <int B = 4>
-struct particle_data_attachment {
-    constant particle_data_header& particle_header    [[ buffer(B) ]];
-    device const uint8_t* data                        [[ buffer(B+1) ]];
-    
-    particle_data unwrap() {
-            return particle_data(particle_header, data);
-    }
-};
-
+#if CFX_OPTIMIZE_OPENSUBDIV_STORAGE
+    result.P  = half3(P);
+    result.P1 = half3(P1);
+    result.P2 = half3(P2);
+#else
+    result.P  = P;
+    result.P1 = P1;
+    result.P2 = P2;
+#endif //CFX_OPTIMIZE_OPENSUBDIV_STORAGE
+    } else {
+#if USE_PTVS_SHARPNESS
+#else
+#if CFX_OPTIMIZE_OPENSUBDIV_STORAGE
+        result.vSegments = half2(0, 0);
+#else
+        result.vSegments = float2(0, 0);
+#endif //CFX_OPTIMIZE_OPENSUBDIV_STORAGE
 #endif
 
-typedef struct
+        OsdComputeBSplineBoundaryPoints(cv, patchParam);
+
+    float3 Hi[4];
+    for (int l=0; l<4; ++l) {
+        Hi[l] = float3(0,0,0);
+        for (int k=0; k<4; ++k) {
+            Hi[l] += Q[i][k] * cv[l*4 + k].GetPosition();
+        }
+    }
+    for (int k=0; k<4; ++k) {
+        P += Q[j][k]*Hi[k];
+    }
+        
+#if CFX_OPTIMIZE_OPENSUBDIV_STORAGE
+    result.P  = half3(P);
+    result.P1 = half3(P);
+    result.P2 = half3(P);
+#else
+    result.P  = P;
+    result.P1 = P;
+    result.P2 = P;
+#endif //CFX_OPTIMIZE_OPENSUBDIV_STORAGE
+}
+#else
+    OsdComputeBSplineBoundaryPoints(cv, patchParam);
+
+    float3 H[4];
+    for (int l=0; l<4; ++l) {
+        H[l] = float3(0,0,0);
+        for(int k=0; k<4; ++k) {
+            H[l] += Q[i][k] * (cv + l*4 + k)->GetPosition();
+        }
+    }
+
+    {
+        float3 P = float3(0,0,0);
+        for (int k=0; k<4; ++k){
+            P += Q[j][k]*H[k];
+        }
+#if CFX_OPTIMIZE_OPENSUBDIV_STORAGE
+        result.P = half3(P);
+#else
+        result.P = P;
+#endif
+    }
+#endif
+}
+
+template<typename PerPatchVertexBezier>
+static void OsdEvalPatchBezier(int3 patchParam, float2 UV,
+                   PerPatchVertexBezier cv,
+                   thread float3& P, thread float3& dPu, thread float3& dPv,
+                   thread float3& N, thread float3& dNu, thread float3& dNv,
+                   thread float2& vSegments)
 {
-    int resolution;
-    float edgeAtt;
-    simd_float4 worldPosSize;
-    simd_float4 scaleBiasNrm; 
-    simd_float4 scaleBiasTex; 
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    float B[4], D[4], C[4];
+    float3 BUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)},
+    DUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)},
+    CUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)};
+    OsdUnivar4x4(UV.x, B, D, C);
+#else
+    float B[4], D[4];
+    float3 BUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)},
+    DUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)};
+    OsdUnivar4x4(UV.x, B, D);
+#endif
 
-    float worldCellSize;
-    float invWorldCellSize;
+    // ----------------------------------------------------------------
+#if OSD_PATCH_ENABLE_SINGLE_CREASE
+#if USE_PTVS_SHARPNESS
+    float sharpness = OsdGetPatchSharpness(patchParam);
+    float Sf = floor(sharpness);
+    float Sc = ceil(sharpness);
+    float s0 = 1 - exp2(-Sf);
+    float s1 = 1 - exp2(-Sc);
 
-    simd_float2 opacityScaleBias;
-    simd_float2 colorScaleBias;
+    vSegments = float2(s0, s1);
+#else //USE_PTVS_SHARPNESS
+    vSegments = cv[0].vSegments;
+#endif //USE_PTVS_SHARPNESS
 
-    int frameCount;
-} VoxelDataUniforms;
+    float s = OsdGetPatchSingleCreaseSegmentParameter(patchParam, UV);
 
-NS_ASSUME_NONNULL_END
+    for (int i=0; i<4; ++i) {
+        for (int j=0; j<4; ++j) {
+            int k = 4*i + j;
+
+            float3 A = (s <= vSegments.x) ? float3(cv[k].P)
+            :((s <= vSegments.y) ?  float3(cv[k].P1)
+                 :float3(cv[k].P2));
+
+            BUCP[i] += A * B[j];
+            DUCP[i] += A * D[j];
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+            CUCP[i] += A * C[j];
+#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
+        }
+    }
+#else //OSD_PATCH_ENABLE_SINGLE_CREASE
+    // ----------------------------------------------------------------
+    for (int i=0; i<4; ++i) {
+        for (int j=0; j<4; ++j) {
+            float3 A = float3(cv[4*i + j].P);
+            BUCP[i] += A * B[j];
+            DUCP[i] += A * D[j];
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+            CUCP[i] += A * C[j];
+#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
+        }
+    }
+#endif //OSD_PATCH_ENABLE_SINGLE_CREASE
+    // ----------------------------------------------------------------
+
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    // used for weingarten term
+    OsdUnivar4x4(UV.y, B, D, C);
+
+    P = B[0] * BUCP[0];
+    dPu = B[0] * DUCP[0];
+    dPv = D[0] * BUCP[0];
+
+    float3 dUU = B[0] * CUCP[0];
+    float3 dVV = C[0] * BUCP[0];
+    float3 dUV = D[0] * DUCP[0];
+
+    for (int k=1; k<4; ++k) {
+        P   += B[k] * BUCP[k];
+        dPu += B[k] * DUCP[k];
+        dPv += D[k] * BUCP[k];
+
+        dUU += B[k] * CUCP[k];
+        dVV += C[k] * BUCP[k];
+        dUV += D[k] * DUCP[k];
+    }
+
+    int level = OsdGetPatchFaceLevel(patchParam);
+    dPu *= 3 * level;
+    dPv *= 3 * level;
+    dUU *= 6 * level;
+    dVV *= 6 * level;
+    dUV *= 9 * level;
+
+    float3 n = cross(dPu, dPv);
+    float ln = 1.0 / length(n);
+    N = ln * n;
+
+    float E = dot(dPu, dPu);
+    float F = dot(dPu, dPv);
+    float G = dot(dPv, dPv);
+    float e = dot(N, dUU);
+    float f = dot(N, dUV);
+    float g = dot(N, dVV);
+    float EGFF = 1.0 / (E*G - F*F);
+
+    dNu = (f*F-e*G) * EGFF * dPu + (e*F-f*E) * EGFF * dPv;
+    dNv = (g*F-f*G) * EGFF * dPu + (f*F-g*E) * EGFF * dPv;
+
+    float powrn = 1.0 / powr(dot(n,n), 1.5);
+
+    dNu = dNu * ln - n * (dot(dNu,n) * powrn);
+    dNv = dNv * ln - n * (dot(dNv,n) * powrn);
+#else //OSD_COMPUTE_NORMAL_DERIVATIVES
+    OsdUnivar4x4(UV.y, B, D);
+
+    P = B[0] * BUCP[0];
+    dPu = B[0] * DUCP[0];
+    dPv = D[0] * BUCP[0];
+
+    for (int k=1; k<4; ++k) {
+        P   += B[k] * BUCP[k];
+        dPu += B[k] * DUCP[k];
+        dPv += D[k] * BUCP[k];
+    }
+    int level = OsdGetPatchFaceLevel(patchParam);
+    dPu *= 3 * level;
+    dPv *= 3 * level;
+
+    N = normalize(cross(dPu, dPv));
+    dNu = float3(0,0,0);
+    dNv = float3(0,0,0);
+#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
+}
+
+// compute single-crease patch matrix
+static float4x4 OsdComputeMs(float sharpness)
+{
+    float s = exp2(sharpness);
+    float s2 = s*s;
+    float s3 = s2*s;
+
+    float4x4 m(
+        float4(0, s + 1 + 3*s2 - s3, 7*s - 2 - 6*s2 + 2*s3, (1-s)*(s-1)*(s-1)),
+        float4(0,       (1+s)*(1+s),        6*s - 2 - 2*s2,       (s-1)*(s-1)),
+        float4(0,               1+s,               6*s - 2,               1-s),
+        float4(0,                 1,               6*s - 2,                 1));
+
+    m[0] /= (s*6.0);
+    m[1] /= (s*6.0);
+    m[2] /= (s*6.0);
+    m[3] /= (s*6.0);
+
+    m[0][0] = 1.0/6.0;
+
+    return m;
+}
+
+// flip matrix orientation
+static float4x4 OsdFlipMatrix(float4x4 m)
+{
+    return float4x4(float4(m[3][3], m[3][2], m[3][1], m[3][0]),
+                    float4(m[2][3], m[2][2], m[2][1], m[2][0]),
+                    float4(m[1][3], m[1][2], m[1][1], m[1][0]),
+                    float4(m[0][3], m[0][2], m[0][1], m[0][0]));
+}
+
+static void OsdFlipMatrix(threadgroup float * src, threadgroup float * dst)
+{
+    for (int i = 0; i < 16; i++) dst[i] = src[15-i];
+}
+
+
+// ----------------------------------------------------------------------------
+// Legacy Gregory
+// ----------------------------------------------------------------------------
+#if OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+#if OSD_MAX_VALENCE<=10
+constant float ef[7] = {
+    0.813008, 0.500000, 0.363636, 0.287505,
+    0.238692, 0.204549, 0.179211
+};
+#else
+constant float ef[27] = {
+    0.812816, 0.500000, 0.363644, 0.287514,
+    0.238688, 0.204544, 0.179229, 0.159657,
+    0.144042, 0.131276, 0.120632, 0.111614,
+    0.103872, 0.09715, 0.0912559, 0.0860444,
+    0.0814022, 0.0772401, 0.0734867, 0.0700842,
+    0.0669851, 0.0641504, 0.0615475, 0.0591488,
+    0.0569311, 0.0548745, 0.0529621
+};
+#endif
+
+static float cosfn(int n, int j) {
+    return cospi((2.0f * j)/float(n));
+}
+
+static float sinfn(int n, int j) {
+    return sinpi((2.0f * j)/float(n));
+}
+
+#ifndef OSD_MAX_VALENCE
+#define OSD_MAX_VALENCE 4
+#endif
+
+
+template<typename OsdVertexBuffer>
+static float3 OsdReadVertex(int vertexIndex, OsdVertexBuffer osdVertexBuffer)
+{
+    int index = (vertexIndex /*+ OsdBaseVertex()*/);
+    return osdVertexBuffer[index].position;
+}
+
+template<typename OsdValenceBuffer>
+static int OsdReadVertexValence(int vertexID, OsdValenceBuffer osdValenceBuffer)
+{
+    int index = int(vertexID * (2 * OSD_MAX_VALENCE + 1));
+    return osdValenceBuffer[index];
+}
+
+template<typename OsdValenceBuffer>
+static int OsdReadVertexIndex(int vertexID, int valenceVertex, OsdValenceBuffer osdValenceBuffer)
+{
+    int index = int(vertexID * (2 * OSD_MAX_VALENCE + 1) + 1 + valenceVertex);
+    return osdValenceBuffer[index];
+}
+
+template<typename OsdQuadOffsetBuffer>
+static int OsdReadQuadOffset(int primitiveID, int offsetVertex, OsdQuadOffsetBuffer osdQuadOffsetBuffer)
+{
+    int index = int(4*primitiveID + offsetVertex);
+    return osdQuadOffsetBuffer[index];
+}
+
+
+static void OsdComputePerVertexGregory(unsigned vID, float3 P, threadgroup OsdPerVertexGregory& v, OsdPatchParamBufferSet osdBuffers)
+{
+    v.clipFlag = short3(0,0,0);
+
+    int ivalence = OsdReadVertexValence(vID, osdBuffers.valenceBuffer);
+    v.valence = ivalence;
+    int valence = abs(ivalence);
+
+    float3 f[OSD_MAX_VALENCE];
+    float3 pos = P;
+    float3 opos = float3(0,0,0);
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    v.org = pos;
+    int boundaryEdgeNeighbors[2];
+    int currNeighbor = 0;
+    int ibefore = 0;
+    int zerothNeighbor = 0;
+#endif
+
+    for (int i=0; i<valence; ++i) {
+        int im = (i+valence-1)%valence;
+        int ip = (i+1)%valence;
+
+        int idx_neighbor = OsdReadVertexIndex(vID, 2*i, osdBuffers.valenceBuffer);
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+        bool isBoundaryNeighbor = false;
+        int valenceNeighbor = OsdReadVertexValence(idx_neighbor, osdBuffers.valenceBuffer);
+
+        if (valenceNeighbor < 0) {
+            isBoundaryNeighbor = true;
+            if (currNeighbor<2) {
+                boundaryEdgeNeighbors[currNeighbor] = idx_neighbor;
+            }
+            currNeighbor++;
+            if (currNeighbor == 1) {
+                ibefore = i;
+                zerothNeighbor = i;
+            } else {
+                if (i-ibefore == 1) {
+                    int tmp = boundaryEdgeNeighbors[0];
+                    boundaryEdgeNeighbors[0] = boundaryEdgeNeighbors[1];
+                    boundaryEdgeNeighbors[1] = tmp;
+                    zerothNeighbor = i;
+                }
+            }
+        }
+#endif
+
+        float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
+
+        int idx_diagonal = OsdReadVertexIndex(vID, 2*i + 1, osdBuffers.valenceBuffer);
+        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+        int idx_neighbor_p = OsdReadVertexIndex(vID, 2*ip, osdBuffers.valenceBuffer);
+        float3 neighbor_p = OsdReadVertex(idx_neighbor_p, osdBuffers.vertexBuffer);
+
+        int idx_neighbor_m = OsdReadVertexIndex(vID, 2*im, osdBuffers.valenceBuffer);
+        float3 neighbor_m = OsdReadVertex(idx_neighbor_m, osdBuffers.vertexBuffer);
+
+        int idx_diagonal_m = OsdReadVertexIndex(vID, 2*im + 1, osdBuffers.valenceBuffer);
+        float3 diagonal_m = OsdReadVertex(idx_diagonal_m, osdBuffers.vertexBuffer);
+
+        f[i] = (pos * float(valence) + (neighbor_p + neighbor)*2.0f + diagonal) / (float(valence)+5.0f);
+
+        opos += f[i];
+        v.r[i] = (neighbor_p-neighbor_m)/3.0f + (diagonal - diagonal_m)/6.0f;
+    }
+
+    opos /= valence;
+    v.P = float4(opos, 1.0f).xyz;
+
+    float3 e;
+    v.e0 = float3(0,0,0);
+    v.e1 = float3(0,0,0);
+
+    for(int i=0; i<valence; ++i) {
+        int im = (i + valence -1) % valence;
+        e = 0.5f * (f[i] + f[im]);
+        v.e0 += cosfn(valence, i)*e;
+        v.e1 += sinfn(valence, i)*e;
+    }
+    v.e0 *= ef[valence - 3];
+    v.e1 *= ef[valence - 3];
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    v.zerothNeighbor = zerothNeighbor;
+    if (currNeighbor == 1) {
+        boundaryEdgeNeighbors[1] = boundaryEdgeNeighbors[0];
+    }
+
+    if (ivalence < 0) {
+        if (valence > 2) {
+            v.P = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
+                   OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
+                   4.0f * pos)/6.0f;
+        } else {
+            v.P = pos;
+        }
+
+        v.e0 = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) -
+                OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer))/6.0;
+
+        float k = float(float(valence) - 1.0f);    //k is the number of faces
+        float c = cospi(1.0/k);
+        float s = sinpi(1.0/k);
+        float gamma = -(4.0f*s)/(3.0f*k+c);
+        float alpha_0k = -((1.0f+2.0f*c)*sqrt(1.0f+c))/((3.0f*k+c)*sqrt(1.0f-c));
+        float beta_0 = s/(3.0f*k + c);
+
+        int idx_diagonal = OsdReadVertexIndex(vID, 2*zerothNeighbor + 1, osdBuffers.valenceBuffer);
+        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+        v.e1 = gamma * pos +
+            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
+            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
+            beta_0 * diagonal;
+
+        for (int x=1; x<valence - 1; ++x) {
+            int curri = ((x + zerothNeighbor)%valence);
+            float alpha = (4.0f*sinpi((float(x))/k))/(3.0f*k+c);
+            float beta = (sinpi((float(x))/k) + sinpi((float(x+1))/k))/(3.0f*k+c);
+
+            int idx_neighbor = OsdReadVertexIndex(vID, 2*curri, osdBuffers.valenceBuffer);
+            float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
+
+            idx_diagonal = OsdReadVertexIndex(vID, 2*curri + 1, osdBuffers.valenceBuffer);
+            diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+            v.e1 += alpha * neighbor + beta * diagonal;
+        }
+
+        v.e1 /= 3.0f;
+    }
+#endif
+}
+
+static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsigned primitiveID,
+                                threadgroup OsdPerVertexGregory* v,
+                                device OsdPerPatchVertexGregory& result,
+                                OsdPatchParamBufferSet osdBuffers)
+{
+    result.P = v[ID].P;
+
+    int i = ID;
+    int ip = (i+1)%4;
+    int im = (i+3)%4;
+    int valence = abs(v[i].valence);
+    int n = valence;
+
+    int start = OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev = (OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int start_m = OsdReadQuadOffset(primitiveID, im, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev_p = (OsdReadQuadOffset(primitiveID, ip, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int np = abs(v[ip].valence);
+    int nm = abs(v[im].valence);
+
+    // Control Vertices based on :// "Approximating Subdivision Surfaces with Gregory Patches
+    //  for Hardware Tessellation"
+    // Loop, Schaefer, Ni, Castano (ACM ToG Siggraph Asia 2009)
+    //
+    //  P3         e3-      e2+         P2
+    //     O--------O--------O--------O
+    //     |        |        |        |
+    //     |        |        |        |
+    //     |        | f3-    | f2+    |
+    //     |        O        O        |
+    // e3+ O------O            O------O e2-
+    //     |     f3+          f2-     |
+    //     |                          |
+    //     |                          |
+    //     |      f0-         f1+     |
+    // e0- O------O            O------O e1+
+    //     |        O        O        |
+    //     |        | f0+    | f1-    |
+    //     |        |        |        |
+    //     |        |        |        |
+    //     O--------O--------O--------O
+    //  P0         e0+      e1-         P1
+    //
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    float3 Em_ip;
+    if (v[ip].valence < -2) {
+        int j = (np + prev_p - v[ip].zerothNeighbor) % np;
+        Em_ip = v[ip].P + cospi(j/float(np-1))*v[ip].e0 + sinpi(j/float(np-1))*v[ip].e1;
+    } else {
+        Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    }
+
+    float3 Ep_im;
+    if (v[im].valence < -2) {
+        int j = (nm + start_m - v[im].zerothNeighbor) % nm;
+        Ep_im = v[im].P + cospi(j/float(nm-1))*v[im].e0 + sinpi(j/float(nm-1))*v[im].e1;
+    } else {
+        Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+    }
+
+    if (v[i].valence < 0) {
+        n = (n-1)*2;
+    }
+    if (v[im].valence < 0) {
+        nm = (nm-1)*2;
+    }
+    if (v[ip].valence < 0) {
+        np = (np-1)*2;
+    }
+
+    if (v[i].valence > 2) {
+        result.Ep = v[i].P + (v[i].e0*cosfn(n, start) + v[i].e1*sinfn(n, start));
+        result.Em = v[i].P + (v[i].e0*cosfn(n, prev) +  v[i].e1*sinfn(n, prev));
+
+        float s1=3-2*cosfn(n,1)-cosfn(np,1);
+        float s2=2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+    } else if (v[i].valence < -2) {
+        int j = (valence + start - v[i].zerothNeighbor) % valence;
+
+        result.Ep = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+        j = (valence + prev - v[i].zerothNeighbor) % valence;
+        result.Em = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+
+        float3 Rp = ((-2.0f * v[i].org - 1.0f * v[im].org) + (2.0f * v[ip].org + 1.0f * v[(i+2)%4].org))/3.0f;
+        float3 Rm = ((-2.0f * v[i].org - 1.0f * v[ip].org) + (2.0f * v[im].org + 1.0f * v[(i+2)%4].org))/3.0f;
+
+        float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+        float s2 = 2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+        if (v[im].valence < 0) {
+            s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+            result.Fp = result.Fm = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        } else if (v[ip].valence < 0) {
+            s1 = 3.0f-2.0f*cospi(2.0f/n)-cospi(2.0f/nm);
+            result.Fm = result.Fp = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+        }
+
+    } else if (v[i].valence == -2) {
+        result.Ep = (2.0f * v[i].org + v[ip].org)/3.0f;
+        result.Em = (2.0f * v[i].org + v[im].org)/3.0f;
+        result.Fp = result.Fm = (4.0f * v[i].org + v[(i+2)%n].org + 2.0f * v[ip].org + 2.0f * v[im].org)/9.0f;
+    }
+
+#else // not OSD_PATCH_GREGORY_BOUNDARY
+
+    result.Ep = v[i].P + v[i].e0 * cosfn(n, start) + v[i].e1*sinfn(n, start);
+    result.Em = v[i].P + v[i].e0 * cosfn(n, prev ) + v[i].e1*sinfn(n, prev );
+
+    float3 Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    float3 Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+
+    float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+    float s2 = 2*cosfn(n,1);
+
+    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
+
+#endif
+}
+
+#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+
+
+
+
+
+
  /* Error: Ran out of types for this method. */;
-- (long long)R_MODIFIERS;
-- (id);
 
 // Remaining properties
 @property(nonatomic) long long action; // @synthesize action=_action;

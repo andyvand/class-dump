@@ -15,14 +15,13 @@
 + (id);
 - (void);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)view;
 - (void);
-- (id)	
-;
 
 // Remaining properties
 @property(retain, nonatomic) UIWindowScene *attachmentHostWindowScene; // @synthesize attachmentHostWindowScene=_attachmentHostWindowScene;

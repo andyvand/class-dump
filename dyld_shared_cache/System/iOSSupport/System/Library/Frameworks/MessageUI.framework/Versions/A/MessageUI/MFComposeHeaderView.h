@@ -19,7 +19,7 @@
 + (id);
 + (double);
 + (double);
-+ (id)sPurgeable;
++ (id);
 + (double);
 - (struct CGRect);
 - (_Bool);
@@ -35,24 +35,24 @@
 - (double);
 - (id);
 - (struct CGRect);
-- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)mCount:(_Bool)arg1;
+- (id);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)ng save due to defaults;
-- (id);
-- (void))
-;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *label; // @dynamic label;

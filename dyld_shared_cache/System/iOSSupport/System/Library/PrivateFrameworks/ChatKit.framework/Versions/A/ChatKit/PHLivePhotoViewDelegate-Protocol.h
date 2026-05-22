@@ -5,11 +5,5 @@
 //
 
 @protocol PHLivePhotoViewDelegate
-
-@optional
-- (void)ent;
-- (double)ay",&,N,V_readOnlySharedSubObjectsInSource;
-- (void)RootObjectsInSource;
-- (_Bool);
 @end
 

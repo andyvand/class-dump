@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) PHKeyword *keyword; // @synthesize keyword=_keyword;

@@ -25,9 +25,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (_Bool);
 - (id);
-- (_Bool)ibleWithTraitCollection: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) LNAction *action; // @synthesize action=_action;

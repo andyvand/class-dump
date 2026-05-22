@@ -9,9 +9,9 @@ public: // (access info unavailable from symbols alone)
     CurrencyUnit(icu::CurrencyUnit const&);
     CurrencyUnit(icu::MeasureUnit const&, UErrorCode&);
     CurrencyUnit(icu::StringPiece, UErrorCode&);
-    clone() const;
-    getDynamicClassID() const;
-    getStaticClassID();
-    operator=(icu::CurrencyUnit const&);
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto operator=(icu::CurrencyUnit const&);
     ~CurrencyUnit();
 };

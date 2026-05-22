@@ -7,8 +7,6 @@
 @class UIBarButtonItem;
 
 @protocol CKBarButtonCustomViewCapable
-- (void)ibutes;
-- (UIBarButtonItem *)nEnabled;
 
 // Remaining properties
 @property(nonatomic) __weak UIBarButtonItem *parentBarButtonItem;

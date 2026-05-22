@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (id)overyKeyViewControllerDelegate;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

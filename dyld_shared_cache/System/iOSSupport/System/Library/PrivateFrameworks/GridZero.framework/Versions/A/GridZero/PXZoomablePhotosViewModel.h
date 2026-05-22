@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, PXAssetReference, PXAssetsDataSourceManager, PXGridInlinePlaybackController, PXLoadingStatusManager, PXMediaProvider, PXNumberAnimator, PXSectionedSelectionManager, PXSelectionSnapshot, PXUpdater, PXZoomableInlineHeadersDataSourceManager, PXZoomablePhotosAlphaAnimator, PXZoomablePhotosLayoutSpecManager, PXZoomablePhotosMiniModeAnimator;
+@class NSArray, NSSet, NSString, PXAssetReference, PXAssetsDataSource, PXAssetsDataSourceManager, PXGridInlinePlaybackController, PXLoadingStatusManager, PXMediaProvider, PXNumberAnimator, PXSectionedSelectionManager, PXSelectionSnapshot, PXUpdater, PXZoomableInlineHeadersDataSourceManager, PXZoomablePhotosAlphaAnimator, PXZoomablePhotosLayoutSpecManager, PXZoomablePhotosMiniModeAnimator;
 @protocol PXGDisplayAssetPixelBufferSourcesProvider, PXPhotosPreferredAssetCropDelegate, PXPhotosPreferredColumnCountsDelegate, PXZoomablePhotosUserDefaults, PXZoomablePhotosViewModelGeometryDelegate;
 
 @interface PXZoomablePhotosViewModel
@@ -57,6 +57,8 @@
     id <PXPhotosPreferredAssetCropDelegate> _preferredAssetCropDelegate;
     id <PXPhotosPreferredColumnCountsDelegate> _preferredColumnCountsDelegate;
     PXGridInlinePlaybackController<PXGDisplayAssetPixelBufferSourcesProvider> *_inlinePlaybackController;
+    PXAssetsDataSource *_currentDataSource;
+    PXSelectionSnapshot *_selectionSnapshot;
     NSSet *_draggedAssetReferences;
     PXAssetReference *_dropTargetAssetReference;
     double _interactiveZoomColumnIndex;
@@ -74,7 +76,6 @@
     id <PXZoomablePhotosViewModelGeometryDelegate> _geometryDelegate;
     PXUpdater *_updater;
     struct _NSRange _denseColumnsIndexRange;
-    struct PXSimpleIndexPath _sectionIndexPath;
     CDStruct_7c4e768e _pinchState;
     CDStruct_8bc229d5 _zoomState;
 }
@@ -168,7 +169,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct PXSimpleIndexPath);
 - (void);
 - (id);
@@ -189,38 +189,42 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void)tationPreventedForReasons;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)onLayout"24;
+- (id)pdateEffectiveBlurIntensity;
+- (id)selection:%i. Allows mac style selection:%i. Select mode enabled:%i. Key modifier flags:%lu. Connected to hardware keyboard:%i. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowDenseLevels;
@@ -235,6 +239,7 @@
 @property(readonly, nonatomic) _Bool captionsVisible; // @synthesize captionsVisible=_captionsVisible;
 @property(nonatomic) long long contentShiftStrategy; // @synthesize contentShiftStrategy=_contentShiftStrategy;
 @property(nonatomic) _Bool contentStartsAtEnd; // @synthesize contentStartsAtEnd=_contentStartsAtEnd;
+@property(retain, nonatomic) PXAssetsDataSource *currentDataSource; // @synthesize currentDataSource=_currentDataSource;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
@@ -271,9 +276,9 @@
 @property(readonly, nonatomic) CDStruct_7c4e768e pinchState; // @synthesize pinchState=_pinchState;
 @property(readonly, nonatomic) __weak id <PXPhotosPreferredAssetCropDelegate> preferredAssetCropDelegate; // @synthesize preferredAssetCropDelegate=_preferredAssetCropDelegate;
 @property(readonly, nonatomic) __weak id <PXPhotosPreferredColumnCountsDelegate> preferredColumnCountsDelegate; // @synthesize preferredColumnCountsDelegate=_preferredColumnCountsDelegate;
-@property(readonly, nonatomic) struct PXSimpleIndexPath sectionIndexPath; // @synthesize sectionIndexPath=_sectionIndexPath;
+@property(readonly, nonatomic) struct PXSimpleIndexPath sectionIndexPath;
 @property(readonly, nonatomic) PXSectionedSelectionManager *selectionManager; // @synthesize selectionManager=_selectionManager;
-@property(readonly, nonatomic) PXSelectionSnapshot *selectionSnapshot;
+@property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
 @property(nonatomic) _Bool shouldHideSurroundingContent; // @synthesize shouldHideSurroundingContent=_shouldHideSurroundingContent;
 @property(readonly, nonatomic) _Bool showSensitiveWarningBadges; // @synthesize showSensitiveWarningBadges=_showSensitiveWarningBadges;
 @property(readonly, nonatomic) PXZoomablePhotosLayoutSpecManager *specManager; // @synthesize specManager=_specManager;

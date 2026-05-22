@@ -21,22 +21,21 @@
 - (double);
 - (double);
 - (double);
-- (void);
 - (float);
+- (double);
+- (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (double);
 - (id);
+- (double);
+- (void);
 - (id);
-- (void)Ñ.1b0@ù
-× ;
-- (id)emManager;
-- (double)xPath: /* Error: Ran out of types for this method. */;
-- (void)rt = %{BOOL}d | isOn = %{BOOL}d | user %@;
-- (id)K`¶ÿ;
-- (double)JÁ;
-- (void)<¤ÿ ;
+- (id)bserver;
+- (void)tion_Header_Title;
+- (void)ò¾ÿ\rþz;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

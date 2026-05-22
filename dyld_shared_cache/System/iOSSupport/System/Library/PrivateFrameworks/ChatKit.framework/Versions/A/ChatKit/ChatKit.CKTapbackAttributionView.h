@@ -16,19 +16,19 @@
     MISSING_TYPE *transitionController;
 }
 
-- (void)í;
-- (id)oListInsertionDisabled: /* Error: Ran out of types for this method. */;
-- (id)|;
+- (void);
+- (id);
+- (id);
 - (struct CGSize);
-- (void);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)showPhotoPickerWithSourceType:(struct CGRect)arg1;
-- (void)erDelegate>",W,N,V_delegate;
-- (id)ÔT;
-- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP7ChatKit32CKTapbackAttributionViewDelegate_> delegate; // @synthesize delegate;

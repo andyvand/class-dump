@@ -14,17 +14,20 @@
     _UISearchTabHostedFieldConfiguration *_customSearchFieldConfiguration;
 }
 
-- (void)NumberOfChatsToFetch;
-- (void)viceName:(_Bool)arg1;
-- (_Bool);
-- (void)n_checkUsernameAndPassword:(_Bool)arg1 %@:%@  has pass:%@   bad pass:%@ /* Error: Ran out of types for this method. */;
-- (void)to mark send of played receipt, message is on a different service:(id)arg1 %@ vs %@;
-- (id)r asset:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)oxyMode %{BOOL}d ;
-- (_Bool)ytic zone.;
-- (id);
-- (id);
++ (id)extendStateRestoration called outside of state restoration!;
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void)T¿ÑDd;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCustomSearchFieldConfiguration:) _UISearchTabHostedFieldConfiguration *_customSearchFieldConfiguration; // @synthesize _customSearchFieldConfiguration;

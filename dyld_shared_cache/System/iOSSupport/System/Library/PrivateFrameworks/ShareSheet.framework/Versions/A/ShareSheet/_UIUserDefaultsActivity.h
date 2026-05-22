@@ -27,11 +27,11 @@
 - (long long);
 - (id);
 - (id);
+- (id);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)idInstallSubviews;
 
 // Remaining properties
 @property(readonly, nonatomic) long long activityCategory; // @synthesize activityCategory=_activityCategory;

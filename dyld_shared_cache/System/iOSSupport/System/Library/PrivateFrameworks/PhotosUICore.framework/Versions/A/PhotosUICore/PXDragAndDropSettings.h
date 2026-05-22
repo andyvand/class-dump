@@ -17,7 +17,7 @@
     double _dropGestureSpeedLimit;
 }
 
-+ (id)û79;
++ (id)ParameterKey;
 - (_Bool);
 - (void);
 - (void);
@@ -32,8 +32,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
 - (void);
-- (id)arySharingSuggestionPromise *__strong _Nonnull);
 
 // Remaining properties
 @property(nonatomic) _Bool alwaysAllowDragsWithinUserAlbums; // @synthesize alwaysAllowDragsWithinUserAlbums=_alwaysAllowDragsWithinUserAlbums;

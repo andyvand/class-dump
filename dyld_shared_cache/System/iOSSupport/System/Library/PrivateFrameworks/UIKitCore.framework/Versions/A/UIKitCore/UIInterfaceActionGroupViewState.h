@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     long long _resolvedPresentationStyle;
 }
 
-- (long long)ؚ=;
+- (long long);
 - (_Bool);
-- (id)Block Incoming Read Reciept Message;
-- (id)ing block to report junk to carrier;
-- (_Bool)does not exist, so creating it before resubmitting metric.;
-- (void);
-- (_Bool);
-- (id)G;
-- (id)ing:,V__backgroundViewConfigurationGrouping /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool)exPathForDragAndDropInsertion;
+- (id)tFragmentSurfaceHostingView;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isVerticalLayoutAxis; // @synthesize isVerticalLayoutAxis=_isVerticalLayoutAxis;

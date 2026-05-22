@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (void);
-- (void)0x¨È¨0üP;
-- (void)dMT;
+- (void)ewAlphaOverrideAssertionCGSg;
+- (void);
+- (void)èã[;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <CAAnimationDelegate> animationDelegate; // @synthesize animationDelegate=_animationDelegate;

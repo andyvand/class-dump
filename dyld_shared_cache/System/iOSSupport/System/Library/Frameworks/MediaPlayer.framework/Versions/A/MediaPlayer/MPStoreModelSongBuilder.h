@@ -66,19 +66,13 @@
         CDStruct_63a3d127 composer;
         CDStruct_63a3d127 genre;
         CDStruct_f9384266 homeSharingAsset;
-        struct {
-            unsigned int identifiers:1;
-            unsigned int text:1;
-            unsigned int hasStoreLyrics:1;
-            unsigned int hasTimeSyncedLyrics:1;
-            unsigned int hasDownloadedCatalogLyrics:1;
-        } lyrics;
+        CDStruct_4f99e7c1 lyrics;
     } _requestedSongProperties;
 }
 
-+ (id)WithRequestID:kind:status:eventTime:approvalTime:requesterDSID:responderDSID:websitePath:bundleID: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
-- (void);
+- (void)Dict;
 
 @end
 

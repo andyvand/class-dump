@@ -4,6 +4,6 @@
 
 class bssl::Vector<bssl::CertCompressionAlg> {
 public: // (access info unavailable from symbols alone)
-    MaybeGrow();
+    auto MaybeGrow();
     ~Vector();
 };

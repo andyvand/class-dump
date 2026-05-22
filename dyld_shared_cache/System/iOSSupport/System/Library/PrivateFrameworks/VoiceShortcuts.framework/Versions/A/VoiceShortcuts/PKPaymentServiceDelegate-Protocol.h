@@ -5,8 +5,5 @@
 //
 
 @protocol PKPaymentServiceDelegate
-
-@optional
-- (void)event received for trigger; not firing.;
 @end
 

@@ -5,7 +5,5 @@
 //
 
 @protocol AKToolsListViewControllerDelegate
-- (void)KeyUpdateEnvelope;
-- (void)AuthMessage;
 @end
 

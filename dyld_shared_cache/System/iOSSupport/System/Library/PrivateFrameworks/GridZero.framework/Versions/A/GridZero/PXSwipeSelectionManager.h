@@ -37,61 +37,63 @@
     struct PXSimpleIndexPath __currentIndexPath;
 }
 
-- (void);
-- (void);
-- (struct PXSimpleIndexPath);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct PXSimpleIndexPath);
-- (id);
 - (void);
 - (long long);
 - (void);
 - (struct PXSimpleIndexPath);
 - (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (struct PXSimpleIndexPath);
+- (struct PXSimpleIndexPath);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (_Bool);
+- (struct PXSimpleIndexPath);
 - (struct PXSimpleIndexPath);
 - (id);
 - (void);
-- (struct PXSimpleIndexPath);
-- (id);
-- (id);
 - (void);
 - (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void)olumnIndex"q"normalizedColumnWidth"d"isAnimating"B"isInteractive"B"isTracking"B"hasBeenInitialized"B"fromColumnIndex"q"toColumnIndex"q"interactiveProgress"d"animatedProgress"d"stickyHeaderOpacity"d};
-- (void)48B52B56d60q68;
-- (_Bool)24Q56;
-- (_Bool)lVelocity;
-- (id)edbackGenerator;
-- (id)ut:identifier:userData: /* Error: Ran out of types for this method. */;
-- (void)erence:(id)arg1;
-- (void)n;
-- (void)pdateTransitionInfo;
-- (void)tionModeToggleInNavBar;
-- (void)e;
-- (_Bool)xtMenuInteraction:(struct CGPoint)arg1 shouldBeDelayedByGestureRecognizer: /* Error: Ran out of types for this method. */;
-- (id)meTitleTopPadding;
-- (id)ndedImageConfiguration",R,N,V_behindContentBackgroundGradientImageConfiguration;
-- (id)ialNavigationObjectReference;
-- (_Bool)¨à;
-- (_Bool)ö;
 - (_Bool);
-- (void)ePhotosLayout willUpdate];
-- (_Bool);
+- (void)a°!TEùñ
+°1B50@ù
+× ;
+- (_Bool)Ô ;
+- (id)taSourceManager";
+- (void)or;
+- (id)ePendingZoom;
+- (id)oomingHeaderTintOpacity;
+- (_Bool)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXUIAutoScroller *_autoScroller; // @synthesize _autoScroller=__autoScroller;

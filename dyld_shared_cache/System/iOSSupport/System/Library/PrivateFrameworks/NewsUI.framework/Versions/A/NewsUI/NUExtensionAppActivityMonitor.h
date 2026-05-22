@@ -20,20 +20,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id)hFF9;
-- (id)i;
 - (void);
 - (void);
 - (long long);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

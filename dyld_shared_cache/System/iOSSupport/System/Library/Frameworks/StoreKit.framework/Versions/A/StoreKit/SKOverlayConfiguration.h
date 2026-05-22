@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) id <ASOOverlayConfiguration> _backing; // @synthesize _backing=__backing;

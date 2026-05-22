@@ -13,9 +13,9 @@
 }
 
 + (id);
-+ (id)Name:(Class)arg1 serviceName:roomName:serviceGroupName:zoneNames:homeName: /* Error: Ran out of types for this method. */;
-+ (id)e:accessoryUniqueIdentifier:serviceUniqueIdentifier:serviceType:characteristicType:serviceGroupUniqueIdentifier:zoneUniqueIdentifiers:roomUniqueIdentifier:accessoryName:serviceName:roomName:serviceGroupName:zoneNames:homeName: /* Error: Ran out of types for this method. */;
-+ (void)rceId;
++ (id);
++ (id);
++ (void);
 - (id);
 - (void);
 - (void);

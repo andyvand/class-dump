@@ -5,6 +5,5 @@
 //
 
 @protocol UIPDFSelectionLayer
-- (void)ULL, or other action code but valueDataArray has value;
 @end
 

@@ -27,13 +27,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *altURL; // @synthesize altURL=_altURL;

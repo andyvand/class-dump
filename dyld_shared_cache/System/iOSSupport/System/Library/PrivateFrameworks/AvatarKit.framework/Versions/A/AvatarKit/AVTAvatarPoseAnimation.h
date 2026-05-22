@@ -21,9 +21,9 @@
 + (void);
 + (id);
 + (id);
-- (id)!;
 - (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -36,7 +36,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -44,8 +43,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;

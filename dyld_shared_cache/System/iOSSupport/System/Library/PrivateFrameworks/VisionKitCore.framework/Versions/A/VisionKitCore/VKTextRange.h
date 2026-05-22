@@ -39,24 +39,24 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (id);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
 - (struct _NSRange);
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
+- (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsMultipleRanges;

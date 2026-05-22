@@ -22,31 +22,32 @@ __attribute__((visibility("hidden")))
     struct CGRect lastKnownKeyboardFrame;
 }
 
-+ (id)d¥º;
-+ (id)ConstraintsForEdge:(id)arg1;
++ (id);
++ (id);
 - (void);
-- (struct CGRect)n: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (struct CGRect);
+- (_Bool);
+- (int);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)Mï!º;
 - (id);
 - (void);
-- (id)sition;
-- (void)lementKindReuseQueues:(id)arg1 reuseQueue:forReuseIdentifier:elementKind:creatingIfNecessary: /* Error: Ran out of types for this method. */;
-- (id)@"NSCalendar",R,D,N;
-- (_Bool)allowsCaching;
-- (void)ðYüZ;
-- (int)ase = %@>;
-- (void)rror;
 - (void);
-- (void);
-- (_Bool)ðþ;
+- (_Bool);
+- (void)\ð1Â0@ù
+× ;
+- (id)t: /* Error: Ran out of types for this method. */;
+- (id)eLabel;
+- (id)rterHeightWhenCompactVertically: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)teGesture:(id)arg1;
+- (id);
+- (void)nt for %@. To control the document created for %@, implement -[UIDocumentBrowserViewControllerDelegate documentBrowser:(_Bool)arg1 didRequestDocumentCreationWithHandler:]. /* Error: Ran out of types for this method. */;
+- (void);êÿ #þ(þÿ;
+- (void)rastChangedNotification;
+- (void)Xÿ¨ÿQáô;
+- (unsigned long long)!a;
 
 // Remaining properties
 @property(retain, nonatomic) id <NSObject> animationContext; // @synthesize animationContext;

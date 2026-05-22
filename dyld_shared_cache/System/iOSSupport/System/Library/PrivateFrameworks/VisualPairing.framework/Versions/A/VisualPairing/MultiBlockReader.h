@@ -4,9 +4,9 @@
 
 class MultiBlockReader {
 public: // (access info unavailable from symbols alone)
-    Initialize(BlockConfigBase*);
-    ReadWatermark(ProgressCBHandler*, bool);
-    SetReadStatsImportance(ReadStatsPostImportance);
-    SetReadStatsProvider(ReadStatsBaseProvider*);
+    auto Initialize(BlockConfigBase*);
+    auto ReadWatermark(ProgressCBHandler*, bool);
+    auto SetReadStatsImportance(ReadStatsPostImportance);
+    auto SetReadStatsProvider(ReadStatsBaseProvider*);
     ~MultiBlockReader();
 };

@@ -8,11 +8,10 @@
 {
 }
 
-+ (id)er;
++ (id)e}"__end_"^^{_UIVelocityIntegratorDataSample}""{?="__cap_"^^{_UIVelocityIntegratorDataSample}}}"__start_"Q""{?="__size_"Q}};
 - (id);
-- (void)
-× ;
-- (id)ionId;
+- (id)èÞ;
+- (void)xöl;
 
 @end
 

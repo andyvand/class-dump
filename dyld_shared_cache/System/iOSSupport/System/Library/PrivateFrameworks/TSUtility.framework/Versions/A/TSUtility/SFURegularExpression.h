@@ -22,12 +22,12 @@
 - (const char *);
 - (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id)(!Ț;
+- (id);
 
 @end
 

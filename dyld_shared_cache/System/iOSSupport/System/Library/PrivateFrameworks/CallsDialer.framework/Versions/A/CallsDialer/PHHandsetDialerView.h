@@ -63,14 +63,14 @@
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
 - (void);
+- (void);
+- (struct CGSize);
+- (id);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (id);
-- (void);
 
 // Remaining properties
 @property(retain) NSLayoutConstraint *addContactButtonTopConstraint; // @synthesize addContactButtonTopConstraint=_addContactButtonTopConstraint;

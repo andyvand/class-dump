@@ -11,8 +11,8 @@
     NSXPCConnection *_timerManagerServiceConnection;
 }
 
+- (id)bserver;
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

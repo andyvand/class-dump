@@ -5,7 +5,5 @@
 //
 
 @protocol CKChatTipManagerDelegate
-- (void);
-- (void);
 @end
 

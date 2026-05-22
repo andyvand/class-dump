@@ -60,16 +60,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)
-× ;
-- (id)dAuthorizationStatus;
+- (id);
+- (id);
+- (id);
+- (void)tWithTrigger:(id)arg1 inHome:forceDisabled:ignoringDisabled: /* Error: Ran out of types for this method. */;
+- (id)ountIsMismatchedWithHomeMediaAccount;
+- (void)0Ø;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *firstSceneName; // @synthesize firstSceneName=_firstSceneName;

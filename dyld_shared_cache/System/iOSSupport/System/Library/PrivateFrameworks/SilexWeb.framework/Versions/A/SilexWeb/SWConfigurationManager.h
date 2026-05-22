@@ -18,13 +18,13 @@
 
 - (id);
 - (void);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ipts;
 
 // Remaining properties
 @property(copy, nonatomic) SWConfiguration *configuration; // @synthesize configuration=_configuration;

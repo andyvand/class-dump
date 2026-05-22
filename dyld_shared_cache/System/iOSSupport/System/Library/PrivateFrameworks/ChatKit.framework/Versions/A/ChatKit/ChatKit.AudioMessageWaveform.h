@@ -18,12 +18,14 @@
     MISSING_TYPE *cachedColor;
 }
 
-- (void);
 - (id);
 - (void);
-- (id);
-- (_Bool)T^;
+- (_Bool);
 - (void);
+- (id);
+- (void)ñ¬ÿe
+küð¬ÿ}
+k¨¤¬ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool opaque;

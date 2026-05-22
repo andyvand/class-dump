@@ -23,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)w;
 
 // Remaining properties
 @property(retain, nonatomic) FMFLocation *location; // @synthesize location=_location;

@@ -24,10 +24,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *createdAssetCollection; // @synthesize createdAssetCollection=_createdAssetCollection;

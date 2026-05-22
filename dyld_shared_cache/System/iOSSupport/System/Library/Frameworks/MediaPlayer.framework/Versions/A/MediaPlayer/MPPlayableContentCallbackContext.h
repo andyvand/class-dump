@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id)A;
-- (void);
+- (id);
+- (void)mURL__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;

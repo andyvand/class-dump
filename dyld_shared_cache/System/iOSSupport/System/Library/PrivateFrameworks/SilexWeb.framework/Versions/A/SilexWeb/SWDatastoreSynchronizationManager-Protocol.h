@@ -7,9 +7,6 @@
 @protocol SWDatastoreManager;
 
 @protocol SWDatastoreSynchronizationManager
-- (void);
-- (void)RendererType;
-- (id <SWDatastoreManager>)sS;
 
 // Remaining properties
 @property(nonatomic) __weak id <SWDatastoreManager> datastoreManager;

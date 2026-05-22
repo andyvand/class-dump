@@ -20,7 +20,7 @@
     id _programHashCode;
 }
 
-+ (_Bool);
++ (_Bool)ndBuffer>"16{_NSRange=QQ}24;
 - (void);
 - (void);
 - (void);
@@ -31,21 +31,21 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)ticNormal;
-- (long long)w?óT?£?ô½L#>!z?í(R?ßQÃ½4f>v6|?ÐîP?"à½(¹Ã=*á}?#¢P?>½Øô=ý?eP?Zõ¹¼Ì´ý<`Ç?}O?`¯0:öÏÓ¹ /* Error: Ran out of types for this method. */;
+- (long long)¬0Zÿq¹Ú0);
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLArgumentEncoder> argumentEncoder; // @synthesize argumentEncoder=_argumentEncoder;

@@ -17,28 +17,28 @@
     UICollectionViewCompositionalLayout *_suggestionViewLayout;
 }
 
-- (id)Controller",&,N,V_outlineController;
-- (id)N;
-- (void)@"ICNoteContext",R,N;
-- (id)eFetchedResultsControllers;
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (_Bool)rting drawing %@ %@;
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)SingleLineForContactVCardNames;
-- (void)fiedHandlesCount:(id)arg1;
-- (void)pamFilteringEnabled;
-- (id)Delegate>",W,D,N;
-- (id);
-- (id)lidColor;
-- (void)ÿG;
-- (id)troductionsLabel;
-- (void)isualIdentityPicker;
+- (void);
+- (id);
+- (void);
+- (void)PE_SATELLITE_SMS;
+- (void);
+- (void);1;
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

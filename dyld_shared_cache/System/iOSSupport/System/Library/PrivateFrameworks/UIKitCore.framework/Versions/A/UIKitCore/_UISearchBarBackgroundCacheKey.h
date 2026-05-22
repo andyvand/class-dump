@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id)ibraryDataProvider>";
 - (void);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)InlineSearch"b1"showsScopeBar"b1"activeSearchDeferringScopeBar"b1"showDictationButton"b1"allowedToShowDictationButton"b1"dictationButtonSetupComplete"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1"enforcedMaximumContentSizeWhileLendingView"b1"showsLargeContentViewerBeforeLendingView"b1};
+- (_Bool)ineFragmentRect;
+- (id);
 
 @end
 

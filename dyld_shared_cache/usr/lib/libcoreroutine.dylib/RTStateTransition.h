@@ -11,19 +11,19 @@
     NSMutableArray *_listTransitions;
 }
 
-+ (_Bool)lic}d,didTechCrossCheckPassAndDeviceInsideALOI,%{public}d,foundAnyWiFi,%{public}d,foundGps,%{public}d,foundHighIntegrityWiFi,%{public}d,isDeviceLocationInsideALOI,%{public}d,isDeviceLocationOutsideALOI,%{public}d,_technologiesMissingToLookForInLocationUpdates,%{public}lu;
++ (_Bool);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)˿;
+- (void);
+- (void);
 - (id);
-- (id)IDSMessageContextSnapTrustedUser;
-- (void);
-- (void);
-- (id)AllCaptiveNetworkPlugins: /* Error: Ran out of types for this method. */;
-- (void)pSequenceNumberBetweenOneTransition;
-- (void)@, tripSegmentExist,%d;
-- (long long)%@, session state, %lu;
+- (long long)Archive: /* Error: Ran out of types for this method. */;
+- (void)utableArray",&,N,V_evalPredictedLocationsOfInterest;
+- (void)port, %{sensitive}@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *listTransitions; // @synthesize listTransitions=_listTransitions;

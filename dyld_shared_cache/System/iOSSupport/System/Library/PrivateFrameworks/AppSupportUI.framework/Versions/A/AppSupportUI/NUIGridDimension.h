@@ -23,14 +23,14 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long)pacing-trim property;
 - (double);
-- (void)?;
+- (id);
+- (long long);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long alignment;

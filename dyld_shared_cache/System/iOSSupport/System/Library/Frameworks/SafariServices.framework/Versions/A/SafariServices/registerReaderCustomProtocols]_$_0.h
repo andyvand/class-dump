@@ -4,5 +4,5 @@
 
 class registerReaderCustomProtocols]::$_0 {
 public: // (access info unavailable from symbols alone)
-    __invoke();
+    +[_SFReaderCustomProtocols __invoke();
 };

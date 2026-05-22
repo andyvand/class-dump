@@ -21,12 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (void);
-- (id)l;
-- (int)<SXQuickLookInteractorDelegate>",W,N,Vdelegate;
+- (id);
+- (id);
+- (int);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;

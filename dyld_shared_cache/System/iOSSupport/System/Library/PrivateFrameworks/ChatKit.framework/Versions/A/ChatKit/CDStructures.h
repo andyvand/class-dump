@@ -133,6 +133,10 @@ struct IMPreviewConstraints {
     _Bool _field6;
 };
 
+struct MTLResourceID {
+    unsigned long long _field1;
+};
+
 struct NSDirectionalEdgeInsets {
     double _field1;
     double _field2;
@@ -193,6 +197,13 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+} CDStruct_a06f635e;
+
+typedef struct {
     unsigned long long photosCount;
     unsigned long long videosCount;
     unsigned long long othersCount;
@@ -230,11 +241,11 @@ typedef struct {
 } CDStruct_b2fbf00d;
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 typedef struct {
     unsigned long long _field1;
@@ -242,9 +253,4 @@ typedef struct {
     struct CGPoint _field3;
     unsigned long long _field4;
 } CDStruct_25eeeb71;
-
-typedef struct {
-    CDStruct_aa0b146f _field1;
-    CDStruct_aa0b146f _field2;
-} CDStruct_4c96eda1;
 

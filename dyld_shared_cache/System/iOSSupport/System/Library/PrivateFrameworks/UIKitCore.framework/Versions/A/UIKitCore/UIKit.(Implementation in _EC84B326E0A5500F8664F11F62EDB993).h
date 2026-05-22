@@ -22,16 +22,16 @@
     MISSING_TYPE *targetedReceivers;
 }
 
-- (struct UIEdgeInsets)orMessageGUID: /* Error: Ran out of types for this method. */;
-- (struct CGRect)versation initiator handle value %@;
-- (_Bool)d;
+- (struct UIEdgeInsets);
+- (struct CGRect);
+- (_Bool);
 - (void);
 - (void);
-- (long long)s;
-- (id)ressForBreathing;
-- (id)tShowsChevron: /* Error: Ran out of types for this method. */;
-- (void)lurEffectStyleRegular;
-- (void)C×î:(const CDStruct_6f49ea1d *)arg1 c;
+- (id);
+- (id);
+- (void)porting;
+- (void)P<ÓÀ!_;
+- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _requiresPocket;

@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)196B204B208@212;
-- (id)analyticDictionary:(id)arg1;
-- (_Bool)hLimit:(id)arg1 beforeDate:(struct CGPoint)arg2 predicate:(_Bool)arg3 completionHandler: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
-- (struct CGPoint)ReleaseTimeControl;
-- (id)ô@F;
 - (void);
+- (void);
+- (struct CGPoint)$Y1ÿX;
+- (id)d;
 
 // Remaining properties
 @property(nonatomic) _Bool isUserScroll; // @synthesize isUserScroll=_isUserScroll;

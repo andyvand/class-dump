@@ -10,8 +10,7 @@
 
 + (id);
 + (id);
-+ (id)(
-;
++ (id);
 + (id);
 + (struct CLLocationCoordinate2D);
 + (id);

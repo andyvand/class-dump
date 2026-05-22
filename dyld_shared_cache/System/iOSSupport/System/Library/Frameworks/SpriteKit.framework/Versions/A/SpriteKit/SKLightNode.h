@@ -15,7 +15,7 @@
 
 + (id);
 + (id);
-+ (_Bool)4¤;
++ (_Bool);
 - (void);
 - (void);
 - (double);
@@ -30,16 +30,16 @@
 - (id);
 - (void);
 - (double);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void)< Ø;
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *ambientColor;

@@ -11,17 +11,17 @@
     NSMutableArray *__logEntries;
 }
 
-- (id).dylib;
-- (void)@0:(CDUnknownBlockType)arg1 8I16;
-- (void):(id)arg1 lastModifiedString: /* Error: Ran out of types for this method. */;
-- (id)ved configuration %{public}@ with size:%@, total time:%f /* Error: Ran out of types for this method. */;
-- (_Bool)ic}@;
-- (id)configurationID:%{public}@ lastModified:%{public}@ lastFetched:%{public}@ maxAge:%@ treatmentIDs:%{public}@ segmentSetIDs:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
+- (id);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (void)eedbackController;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *_logEntries; // @synthesize _logEntries=__logEntries;

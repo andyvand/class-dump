@@ -5,8 +5,7 @@
 //
 
 @protocol UICoordinateSpace
-- (struct CGRect);
-- (struct CGPoint)tentContext:(struct CGPoint)arg1;
+- (struct CGPoint)XmL¬u;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

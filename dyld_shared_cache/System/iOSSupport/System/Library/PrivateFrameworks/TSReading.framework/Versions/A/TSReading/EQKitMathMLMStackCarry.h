@@ -18,8 +18,8 @@
 - (struct Schemata);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id)Count;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

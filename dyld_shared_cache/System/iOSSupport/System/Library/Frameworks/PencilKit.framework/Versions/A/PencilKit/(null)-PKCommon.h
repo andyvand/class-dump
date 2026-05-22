@@ -5,6 +5,6 @@
 //
 
 @interface (null) (PKCommon)
-+ (void)C;
++ (void);
 @end
 

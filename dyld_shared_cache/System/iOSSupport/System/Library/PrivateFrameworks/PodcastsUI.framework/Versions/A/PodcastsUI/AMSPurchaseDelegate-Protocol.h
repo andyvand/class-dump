@@ -5,6 +5,5 @@
 //
 
 @protocol AMSPurchaseDelegate
-- (void);
 @end
 

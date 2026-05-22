@@ -15,21 +15,21 @@
 + (double);
 + (Class);
 + (id);
-+ (_Bool)Þ³2Ç.;
-- (_Bool);
++ (_Bool)ediaObject: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id)pple.notes.thumbnail-cache-key;
-- (id)heKeyQueue;
-- (void)it(rootView:(id)arg1 );
-- (void)ssificationSummary == nil);
-- (id)ssword;
-- (_Bool)rType != %d;
-- (id)t:inContext:] /* Error: Ran out of types for this method. */;
 - (id);
-- (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (_Bool);
@@ -40,9 +40,9 @@
 - (id);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)Ü¨f1;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canUseAsBackground;

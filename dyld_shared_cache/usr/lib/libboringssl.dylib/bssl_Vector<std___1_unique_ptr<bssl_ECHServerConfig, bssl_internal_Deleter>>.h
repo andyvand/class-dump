@@ -4,5 +4,5 @@
 
 class bssl::Vector<std::__1::unique_ptr<bssl::ECHServerConfig, bssl::internal::Deleter>> {
 public: // (access info unavailable from symbols alone)
-    clear();
+    auto clear();
 };

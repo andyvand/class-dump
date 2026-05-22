@@ -26,13 +26,13 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (id);
 - (long long);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void)sition:(row:%ld, column:%ld) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

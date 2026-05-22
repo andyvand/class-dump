@@ -14,6 +14,7 @@
     MISSING_TYPE *articleFooterContext;
     MISSING_TYPE *trackerConfiguration;
     MISSING_TYPE *contentAvailabilityValidator;
+    MISSING_TYPE *articleDataFactory;
 }
 
 @end

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UIViewControllerAnimatedTransitioning;
+
 @protocol UIViewControllerTransitioningDelegate
+
+@optional
+- (id <UIViewControllerAnimatedTransitioning>)24@?0@"<PXAudioCueSource>"8@"NSError"16;
 @end
 

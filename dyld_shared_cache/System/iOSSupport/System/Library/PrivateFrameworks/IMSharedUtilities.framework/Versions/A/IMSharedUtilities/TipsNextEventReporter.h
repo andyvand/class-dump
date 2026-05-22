@@ -12,14 +12,14 @@
     MISSING_TYPE *logger;
 }
 
-+ (id)rypto operation failed {operation:%u, retval:%d} /* Error: Ran out of types for this method. */;
-- (void)yboardInputCandidate(void);
-- (void)icPatternLibraryKey getCHHapticPatternLibraryKeyKeyboardInputCandidate(void);
-- (void));
-- (void)pticPatternLibraryKeyKeyboardOther(void);
-- (void)ionRapid;
++ (id)[%s]:Success /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void){public}s because this is a new chat;
 
 @end
 

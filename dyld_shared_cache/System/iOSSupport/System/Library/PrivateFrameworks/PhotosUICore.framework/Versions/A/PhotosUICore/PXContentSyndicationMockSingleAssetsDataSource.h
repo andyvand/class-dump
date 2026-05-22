@@ -25,10 +25,9 @@
 - (struct PXSimpleIndexPath);
 - (id);
 - (id);
-- (void);
-- (long long)! Gùy1b0@ù
-× ;
+- (long long)r";
 - (long long);
+- (void)avôQ_;
 
 @end
 

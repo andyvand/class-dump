@@ -4,6 +4,6 @@
 
 // Global C++ functions
 
-simd_matrix4x4(simd_quatf);
-simd_quaternion(float vector[3], float vector[3]);
-simd_quaternion(simd_float4x4);
+auto simd_matrix4x4(simd_quatf);
+auto simd_quaternion(float vector[3], float vector[3]);
+auto simd_quaternion(simd_float4x4);

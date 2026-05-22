@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)ng;
 - (id);
-- (void);
-- (id)eometry={NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextReplacement *replacement; // @synthesize replacement=_replacement;

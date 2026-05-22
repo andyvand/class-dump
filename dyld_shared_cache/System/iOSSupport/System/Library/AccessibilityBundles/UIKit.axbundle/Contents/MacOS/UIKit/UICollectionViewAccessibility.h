@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (id);
@@ -34,11 +34,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (_Bool);
 - (struct CGRect);
 - (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -93,16 +93,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (struct CGRect);
-- (_Bool);
+- (void);
+- (void);
 - (id);
-- (id)!´BùGÐ1b0@ù
-× ;
-- (_Bool)-Exclamation-Mark;
+- (void)tFocusedChild:(id)arg1;
+- (void)D\u;
 
 @end
 

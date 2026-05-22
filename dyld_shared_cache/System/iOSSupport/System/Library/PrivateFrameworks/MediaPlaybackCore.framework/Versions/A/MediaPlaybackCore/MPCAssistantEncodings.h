@@ -8,10 +8,10 @@
 {
 }
 
-- (id)ServiceStatusMonitor;
-- (void)ser Tokens missing necessary method in ICCloudServiceStatusMonitor;
-- (id)ublic}@;
-- (void)e local privacy acknowledgement. account = %{public}@;
+- (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

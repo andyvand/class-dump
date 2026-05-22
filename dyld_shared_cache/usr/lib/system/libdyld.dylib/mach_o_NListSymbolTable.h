@@ -6,8 +6,8 @@ class mach_o::NListSymbolTable {
 public: // (access info unavailable from symbols alone)
     NListSymbolTable(unsigned int, nlist const*, unsigned int, char const*, unsigned int, unsigned int, unsigned int, unsigned int);
     NListSymbolTable(unsigned long long, nlist_64 const*, unsigned int, char const*, unsigned int, unsigned int, unsigned int, unsigned int);
-    forEachExportedSymbol(void (mach_o::Symbol const&, unsigned int, bool&) block_pointer) const;
-    forEachSymbol(unsigned int, unsigned int, void (char const*, unsigned long long, unsigned char, unsigned char, unsigned short, unsigned int, bool&) block_pointer) const;
-    symbolFromNList(char const*, unsigned long long, unsigned char, unsigned char, unsigned short) const;
-    valid(unsigned long long) const;
+    auto forEachExportedSymbol(void (mach_o::Symbol const&, unsigned int, bool&) block_pointer) const;
+    auto forEachSymbol(unsigned int, unsigned int, void (char const*, unsigned long long, unsigned char, unsigned char, unsigned short, unsigned int, bool&) block_pointer) const;
+    auto symbolFromNList(char const*, unsigned long long, unsigned char, unsigned char, unsigned short) const;
+    auto valid(unsigned long long) const;
 };

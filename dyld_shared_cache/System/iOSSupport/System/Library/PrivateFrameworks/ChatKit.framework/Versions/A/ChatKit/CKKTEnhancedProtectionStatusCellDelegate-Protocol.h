@@ -5,9 +5,5 @@
 //
 
 @protocol CKKTEnhancedProtectionStatusCellDelegate
-- (void)Section;
-- (void)UnsupportedTextAttachmentWithFallbackPDF;
-- (void)ICShareNoteExporter;
-- (void)ppGroupDefaultsController;
 @end
 

@@ -36,7 +36,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)e a natural light color!;
 
 // Remaining properties
 @property(retain, nonatomic) HFAccessorySettingDeviceOptionsAdapterUtility *adapterUtility; // @synthesize adapterUtility=_adapterUtility;

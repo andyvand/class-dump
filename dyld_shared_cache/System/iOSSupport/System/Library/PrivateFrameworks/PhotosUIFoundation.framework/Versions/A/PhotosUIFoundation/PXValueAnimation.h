@@ -19,14 +19,14 @@
 - (struct PXValueAnimationSpec);
 - (double);
 - (double);
+- (id);
 - (double);
 - (id);
-- (id);
-- (_Bool);
-- (double);
-- (double);
 - (void);
 - (double);
+- (double);
+- (_Bool);
+- (double)backCapitalization;
 
 // Remaining properties
 @property(readonly, nonatomic) double approximateVelocity;

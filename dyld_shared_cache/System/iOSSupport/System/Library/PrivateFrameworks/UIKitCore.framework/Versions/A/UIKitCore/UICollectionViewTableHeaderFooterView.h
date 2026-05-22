@@ -14,31 +14,30 @@
     UITableViewHeaderFooterView *_tableViewHeaderFooterView;
 }
 
-- (id)coverableMessageRecordZoneID;
-- (void);
-- (id)le;
-- (id)code and compare against IMFileTransferErrorReason.;
-- (id)onsDonationStore";
 - (id);
 - (void);
-- (void);
-- (void)rited"b1"libraryAdded"b1"isPinned"b1"genre"{?="identifiers"b1"name"b1}};
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void)1¢!0@ù
+- (id);
+- (void)±bÐ1Â0@ù
 × ;
-- (void)!wÐ!Aù1Ì1¢!0@ù
-× ;
-- (id)oyScene:withTransitionContext:completion: /* Error: Ran out of types for this method. */;
-- (id)ionIndexPaths:insertItems:oldCollectionViewData: /* Error: Ran out of types for this method. */;
-- (void)contextBeforePosition:(_Bool)arg1 inDocument:toBoundary: /* Error: Ran out of types for this method. */;
-- (id)groundLuminanceLevel;
-- (id)ctiveFullDetent;
-- (_Bool)etMaskPortal;
-- (id)v16@?0@"RTISupplementalLexicon"8;
-- (void);
-- (id)apshot.numberOfSections;
-- (void)Hfwþ;
+- (_Bool)atorItem;
+- (void)teTextAttachmentGeometry;
+- (void)rchBarGroupWithLeadingPadding:(_Bool)arg1 trailingPadding: /* Error: Ran out of types for this method. */;
+- (id)NavigationItem",&,N,V_viewControllerNavigationItem;
+- (id)Ð¤0Ä`¬ ;
+- (void)ac;
+- (void);
+- (id)n;
+- (void)1%ÙÐ'i;
+- (void)`Äl;
+- (id)¼iÞþ:ÌdÜn /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundView;

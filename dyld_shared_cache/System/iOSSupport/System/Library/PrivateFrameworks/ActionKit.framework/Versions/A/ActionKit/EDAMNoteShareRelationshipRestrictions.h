@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void), enable Dictation in Keyboard Settings.;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *noSetFullAccess; // @synthesize noSetFullAccess=_noSetFullAccess;

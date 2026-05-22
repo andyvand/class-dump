@@ -33,11 +33,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)dÖÿ;
+- (void)ViewControllerMacCatalystDelegateP;
 
 // Remaining properties
 @property(nonatomic) __weak id <CNKDestinationQueryControllerDelegate> delegate; // @synthesize delegate;

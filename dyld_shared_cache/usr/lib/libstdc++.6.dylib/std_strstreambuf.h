@@ -4,17 +4,18 @@
 
 class std::strstreambuf {
 public: // (access info unavailable from symbols alone)
-    _M_alloc(unsigned long);
-    _M_free(char*);
-    _M_setup(char*, char*, long);
-    freeze(bool);
-    overflow(int);
-    pbackfail(int);
-    pcount() const;
-    seekoff(long long, std::_Ios_Seekdir, std::_Ios_Openmode);
-    seekpos(std::fpos<__mbstate_t>, std::_Ios_Openmode);
-    setbuf(char*, long);
-    str();
+    auto _M_alloc(unsigned long);
+    auto _M_free(char*);
+    auto _M_setup(char*, char*, long);
+    auto freeze(bool);
+    auto overflow(int);
+    auto pbackfail(int);
+    auto pcount() const;
+    auto seekoff(long long, std::_Ios_Seekdir, std::_Ios_Openmode);
+    auto seekpos(std::fpos<__mbstate_t>, std::_Ios_Openmode);
+    auto setbuf(char*, long);
+    auto str();
+    auto underflow();
     strstreambuf(char const*, long);
     strstreambuf(char*, long, char*);
     strstreambuf(long);
@@ -23,6 +24,5 @@ public: // (access info unavailable from symbols alone)
     strstreambuf(unsigned char const*, long);
     strstreambuf(unsigned char*, long, unsigned char*);
     strstreambuf(void* (*)(unsigned long), void (*)(void*));
-    underflow();
     ~strstreambuf();
 };

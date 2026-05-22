@@ -18,22 +18,22 @@ __attribute__((visibility("hidden")))
     UILabel *_timeRemainingLabel;
 }
 
-+ (id)lt: /* Error: Ran out of types for this method. */;
++ (id)WithBeginTime:completionDelay:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (void)dex;
+- (void);
 - (void);
 - (double);
 - (id);
+- (void);
+- (void);
+- (id)attributes;
+- (void)pþ;
+- (void);
+- (void)ickerCollectionViewLayoutDelegate;
+- (id)kýÐ;
 - (id);
-- (void);
-- (id)@;
-- (id);
-- (void)(=;
-- (void);
-- (void);
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CKStandardButton *button; // @synthesize button=_button;

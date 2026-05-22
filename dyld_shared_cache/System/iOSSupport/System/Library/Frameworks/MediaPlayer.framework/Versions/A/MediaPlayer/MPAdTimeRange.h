@@ -9,12 +9,12 @@
     CDStruct_e83c9415 _timeRange;
 }
 
-- (id);
-- (_Bool);
 - (id);
 - (void);
-- (id)ments: /* Error: Ran out of types for this method. */;
-- (CDStruct_e83c9415),R,C,N,V_property;
+- (id);
+- (_Bool);
+- (id);
+- (CDStruct_e83c9415)or<std::pair<const unsigned short, unsigned long>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;

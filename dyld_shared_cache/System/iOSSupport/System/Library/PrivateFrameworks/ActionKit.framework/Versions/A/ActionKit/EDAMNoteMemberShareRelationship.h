@@ -29,9 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (void)qµ
-ð1b0@ù
-× ;
+- (void)tableContactClass(void)_block_invoke;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;

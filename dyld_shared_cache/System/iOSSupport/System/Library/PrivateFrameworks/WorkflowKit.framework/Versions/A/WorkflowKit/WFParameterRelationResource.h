@@ -24,9 +24,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)$;
-- (id)ordCSbIggd_;
+- (id)0@ù
+× ;
+- (void)tionWithURL:(id)arg1 withIdentifier:metadata:destinations:options: /* Error: Ran out of types for this method. */;
+- (void)teExecution];
 
 // Remaining properties
 @property(nonatomic) __weak WFAction *action; // @synthesize action=_action;

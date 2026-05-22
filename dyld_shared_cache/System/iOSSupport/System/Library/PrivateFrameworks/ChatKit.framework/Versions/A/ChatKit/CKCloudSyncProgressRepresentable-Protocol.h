@@ -4,14 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol CKCloudSyncProgressRepresentable
-- (void)Ö;
-- (void)esInDocumentWithPerTokenFallback:(_Bool)arg1;
-- (void)refixBeforeFallingBack:(NSString *)arg1;
-- (void)ionsForView: /* Error: Ran out of types for this method. */;
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isProgressViewHidden) _Bool progressViewHidden;

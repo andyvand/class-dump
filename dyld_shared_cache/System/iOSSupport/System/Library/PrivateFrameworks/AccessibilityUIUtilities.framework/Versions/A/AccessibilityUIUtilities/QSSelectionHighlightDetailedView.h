@@ -14,10 +14,10 @@
     struct CGRect _displayRect;
 }
 
-- (void)@;
-- (_Bool);
+- (void);
+- (_Bool);
 - (struct CGRect);
-- (void)";
+- (void);
 - (id);
 - (void);
 - (void);

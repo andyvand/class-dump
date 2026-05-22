@@ -12,16 +12,16 @@
     NSArray *_messages;
 }
 
-+ (_Bool)Utilities.IMActionSettings;
++ (_Bool);
 - (long long);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)rline;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;

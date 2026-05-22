@@ -5,9 +5,9 @@
 //
 
 @interface (null) (PDFExtensions)
-+ (id)iHorizontalPaddingPortrait;
-+ (id)ariants:(struct CGPoint)arg1;
-- (struct CGPoint)TopLandscape;
-- (struct CGRect)yPressed: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
+- (struct CGPoint);
+- (struct CGRect);
 @end
 

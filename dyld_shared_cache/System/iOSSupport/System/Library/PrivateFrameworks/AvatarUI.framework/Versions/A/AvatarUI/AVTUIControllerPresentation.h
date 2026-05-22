@@ -17,14 +17,14 @@
 + (void);
 + (id);
 + (id);
-- (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)ategories;
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *controller; // @synthesize controller=_controller;

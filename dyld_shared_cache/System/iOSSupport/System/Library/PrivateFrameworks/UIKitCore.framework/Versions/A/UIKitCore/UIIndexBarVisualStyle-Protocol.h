@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIIndexBarDisplayEntry, UIIndexBarView;
+@class UIIndexBarView;
 
 @protocol UIIndexBarVisualStyle
-- (void)SSL root;
-- (double)ID:(UIIndexBarDisplayEntry *)arg1 salt: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)saved state.;
-- (struct CGSize)traints;
+- (double);
+- (id);
 
 @optional
-- (void)l to add dictionary;
-- (double);
-- (long long)connectingAccounts;
-- (_Bool)× ;
-- (void)mþö4þ;
+- (_Bool)@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;

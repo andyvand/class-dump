@@ -5,6 +5,5 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)omeScreenPosterConfiguration: /* Error: Ran out of types for this method. */;
 @end
 

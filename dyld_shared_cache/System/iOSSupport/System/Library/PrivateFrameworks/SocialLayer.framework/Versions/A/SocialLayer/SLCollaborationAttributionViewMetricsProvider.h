@@ -19,8 +19,8 @@
 - (double);
 - (double);
 - (struct CGSize);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) double avatarDiameter;

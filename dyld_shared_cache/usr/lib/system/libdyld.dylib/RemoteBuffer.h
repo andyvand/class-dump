@@ -5,7 +5,7 @@
 class RemoteBuffer {
 public: // (access info unavailable from symbols alone)
     RemoteBuffer();
-    create(unsigned int, unsigned long long, unsigned long, bool);
-    map(unsigned int, unsigned long long, unsigned long);
+    auto create(unsigned int, unsigned long long, unsigned long, bool);
+    auto map(unsigned int, unsigned long long, unsigned long);
     ~RemoteBuffer();
 };

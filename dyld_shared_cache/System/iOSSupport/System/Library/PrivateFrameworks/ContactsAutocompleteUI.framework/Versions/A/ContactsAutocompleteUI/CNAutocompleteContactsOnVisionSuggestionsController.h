@@ -15,15 +15,14 @@
 
 - (double);
 - (id);
+- (id);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)¢!0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CNAutocompleteContactsOnVisionSuggestionsControllerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -19,11 +19,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)01b0@ù
-× ;
+- (id)leID;
+- (void)ccountUseFormatString;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;

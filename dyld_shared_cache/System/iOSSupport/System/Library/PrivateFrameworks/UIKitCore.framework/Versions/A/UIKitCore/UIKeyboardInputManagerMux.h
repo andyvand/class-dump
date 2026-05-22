@@ -15,26 +15,26 @@ __attribute__((visibility("hidden")))
     id <TIKeyboardInputManager> _systemInputManager;
 }
 
-+ (_Bool)ZoomAnchorPoint:(SEL)arg1;
-+ (id)ºq;
-- (_Bool);
++ (_Bool)ectly;
++ (id)Àl;
+- (void);
 - (id);
 - (void);
+- (_Bool)ion:(SEL)arg1;
+- (void)hTitle:(id)arg1 detail: /* Error: Ran out of types for this method. */;
+- (void)leRecordWithBundleIdentifier:(id)arg1 allowPlaceholder:error: /* Error: Ran out of types for this method. */;
+- (_Bool)ÐâPã;
+- (_Bool)ÿ;
+- (id)!inputView %@, responderRequiresKeyboard %d);
+- (void)¨\eþÌùÿÿ4üÿÿÀC§ÿýÿÿÄýÿÿ;
 - (void);
-- (void)rContentItemID;
-- (_Bool);
+- (_Bool)resentedViewForGrabber;
+- (id)andleAppKitEvents;
+- (_Bool)Ø=^;
+- (void)»Øàa;
+- (void)q;
 - (void);
-- (void);
-- (void);
-- (_Bool)?="delegateShouldHighlightItemAtIndexPath"b1"delegateDidHighlightItemAtIndexPath"b1"delegateDidUnhighlightItemAtIndexPath"b1"delegateShouldSelectItemAtIndexPath"b1"delegateShouldDeselectItemAtIndexPath"b1"delegateDidSelectItemAtIndexPath"b1"delegateDidDeselectItemAtIndexPath"b1"delegateSupportsMenus"b1"delegateWillDisplayCell"b1"delegateWillDisplaySupplementaryView"b1"delegateDidEndDisplayingCell"b1"delegateDidEndDisplayingSupplementaryView"b1"delegateIndexForReferenceItemDuringLayoutTransition"b1"delegateOverrideForTransitionOffsetSize"b1"delegateTargetContentOffsetForProposedContentOffsetSPI"b1"delegateTargetContentOffsetForProposedContentOffset"b1"delegateTargetIndexPathForMoveSPI"b1"delegateTargetIndexPathForMove_deprecated"b1"delegateTargetIndexPathForMoveOfItem"b1"delegateCanFocusItemAtIndexPath_deprecated"b1"delegateDidFocusItemAtIndexPath_deprecated"b1"delegateCanFocusItemAtIndexPath"b1"delegateDidFocusItemAtIndexPath"b1"delegateDidUnfocusItemAtIndexPath"b1"delegateIndexPathForPreferredFocusedItem"b1"delegateShouldUpdateFocusFromRowAtIndexPathToView"b1"delegateIndexPathForPreferredFocusedView"b1"delegateShouldUpdateFocusInContext"b1"delegateDidUpdateFocusInContext"b1"delegateHorizontalIndexTitleBarSelectedEntry"b1"delegateCanEditItemAtIndexPath"b1"delegateWasNonNil"b1"delegateContextMenuConfigurationForItemAtIndexPaths"b1"delegateContextMenuHighlightPreviewForItemAtIndexPath"b1"delegateContextMenuDismissalPreviewForItemAtIndexPath"b1"delegateContextMenuConfigurationForItemAtIndexPath_DEPR"b1"delegateContextMenuPreviewForHighlighting_DEPR"b1"delegateContextMenuPreviewForDismissing_DEPR"b1"delegateContextMenuwillPerformPreviewAction"b1"delegateWillDisplayContextMenu"b1"delegateWillEndContextMenuInteraction"b1"delegateStyleForContextMenu"b1"delegateAccessoriesForContextMenu"b1"delegate_dci_contextMenuConfigurationForItemsAtIndexPaths"b1"delegate_dci_contextMenuConfigurationForSelectedItemsAtIndexPaths"b1"delegate_dci_contextMenuPreviewForHighlightingItemAtIndexPath"b1"delegate_dci_contextMenuPreviewForDismissingToItemAtIndexPath"b1"delegateSceneActivationConfigurationAtIndexPath"b1"delegateSceneActivationConfigurationAtIndexPathSPI"b1"delegateOrthogonalScrollViewDidScrollSPI"b1"delegateSelectionFollowsFocusForItemAtIndexPath"b1"delegateCanPerformPrimaryActionForItemAtIndexPath"b1"delegatePerformPrimaryActionForItemAtIndexPath"b1"delegateIndexPathForContentOffsetPreservationSPI"b1"delegateTypeSelectStringForItemAtIndexPath"b1"delegateUpdateTypeSelectResultForCell"b1"dataSourceNumberOfSections"b1"dataSourceViewForSupplementaryElement"b1"dataSourceCanMoveItemAtIndexPathSPI"b1"dataSourceMoveItemAtIndexPathSPI"b1"dataSourceSectionIndexTitlesSPI"b1"dataSourceSectionIndexTitlesTrimmedToCountSPI"b1"dataSourceIndexPathForSectionIndexSPI"b1"dataSourceCanMoveItemAtIndexPath"b1"dataSourceMoveItemAtIndexPath"b1"dataSourceIndexTitles"b1"dataSourceIndexPathForIndex"b1"dataSourceWasNonNil"b1"dataSourceIsDiffableDataSource"b1"dataSourceCanEditItemAtIndexPath"b1"prefetchDataSourcePrefetchItemsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForItemsAtIndexPaths"b1"prefetchDataSourceWasNonNil"b1"reloadSkippedDuringSuspension"b1"scheduledUpdateVisibleCells"b1"scheduledUpdateVisibleCellLayoutAttributes"b1"allowsSelection"b1"allowsMultipleSelection"b1"allowsSelectionDuringEditing"b1"allowsUserInitiatedMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"allowsBandSelectionForMultipleSelection"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"displaysHorizontalIndexTitleBar"b1"fadeCellsForBoundsChange"b1"updatingLayout"b1"needsReload"b1"reloading"b1"skipLayoutDuringSnapshotting"b1"layoutInvalidatedSinceLastCellUpdate"b1"doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"ignoreBatchUpdatesAndFallBackToReloadData"b1"updatingVisibleCells"b1"backgroundColorSet"b1"preRotationBoundsSet"b1"updateFocusAfterItemAnimations"b1"remembersLastFocusedIndexPath"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"creatingViewFromPreferredFocusedView"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"editing"b1"clientSetDerivesVisibleBoundsFromContainingScrollView"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (id)rdWindowSnapshot;
-- (id)ResultsForEmptyField: /* Error: Ran out of types for this method. */;
-- (void)@AlA;
-- (_Bool)ToGIF;
-- (void)IScene _refreshActivationConditions]_block_invoke;
-- (_Bool)@ÿRP;
-- (void)¤ÕØªg;
-- (void).øn;
+- (void)Ðdäl;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSystemInputManager;

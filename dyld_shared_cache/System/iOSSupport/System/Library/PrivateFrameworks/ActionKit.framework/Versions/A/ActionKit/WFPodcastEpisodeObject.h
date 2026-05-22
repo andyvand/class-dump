@@ -26,20 +26,19 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)EventAction;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)ErrorDomain;
 - (id);
-- (id)	
-;
+- (id);
 - (id);
 
 // Remaining properties

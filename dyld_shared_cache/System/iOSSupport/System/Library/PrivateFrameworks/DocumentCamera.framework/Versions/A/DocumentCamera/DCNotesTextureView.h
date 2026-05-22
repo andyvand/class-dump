@@ -13,12 +13,11 @@ __attribute__((visibility("hidden")))
     struct CGSize _phase;
 }
 
+- (struct CGSize);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (struct CGSize)!Ð!lGùÑ«	1b0@ù
-× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

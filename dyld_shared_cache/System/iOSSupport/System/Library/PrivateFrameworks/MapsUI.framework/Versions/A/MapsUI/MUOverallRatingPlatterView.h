@@ -26,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
 - (void);
 - (id);
-- (id)K	;
+- (void)reApp:parameters: /* Error: Ran out of types for this method. */;
+- (id)Attribute;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *ratingString;

@@ -38,10 +38,10 @@
 - (void);
 - (void);
 - (void);
-- (id)thCancelHandlers:(id)arg1;
-- (_Bool)rver: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 didReceiveData:(struct CGPoint)arg2;
-- (void)ry/BuildRoots/4~CG4tugAb8POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCFallbackOperation.m;
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -49,12 +49,12 @@
 - (void);
 - (long long);
 - (CDUnknownBlockType);
-- (void)d;
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ViewHashtagsAndMentionsDelegate>",W,N,V_hashtagAndMentionsDelegate;
 
 // Remaining properties
 @property(nonatomic) _Bool _currentlyCollectingViews; // @synthesize _currentlyCollectingViews=__currentlyCollectingViews;

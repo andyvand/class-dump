@@ -15,9 +15,9 @@
 
 - (id);
 - (Class);
-- (void);
-- (id);
 - (CDUnknownBlockType);
+- (id)notifyResultsAboutChange:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void)le Storage;
 
 // Remaining properties
 @property(readonly, nonatomic) Class dialogRequestClass; // @synthesize dialogRequestClass=_dialogRequestClass;

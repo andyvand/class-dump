@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     struct unordered_map<void (*)(), _UITrackedTraitUsageRecord, std::hash<void (*)()>, std::equal_to<void (*)()>, std::allocator<std::pair<void (*const)(), _UITrackedTraitUsageRecord>>> _traitUsageRecordsByMethodIMP;
 }
 
-- (void)n=%@ Description=%@ code=%ld;
-- (void)t FDR supported;
-- (void)sposableKeys;
-- (void)->optionsDict is NULL;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -25,11 +25,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)hIDSService;
-- (id);
-- (void)ationsDisabled;
 - (void);
-- (id)pearanceForUserInterfaceStyle;
+- (void);
+- (id);
+- (id)
+× ;
+- (void)ySo13_UIBarSectionCG;
 
 @end
 

@@ -5,6 +5,5 @@
 //
 
 @protocol _UIColorPickerColorQueueDelegate
-- (void)24q32;
 @end
 

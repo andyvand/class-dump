@@ -15,15 +15,17 @@ __attribute__((visibility("hidden")))
     id <UIScrollViewMonitorDelegate> _delegate;
 }
 
-- (_Bool);
-- (void);
-- (void)DidChangeDirection:(id)arg1;
-- (void)<UIPopoverControllerDelegate>",W,N,V_delegate;
-- (id)egueTemplate;
-- (id)SourceSnapshot.numberOfSections;
-- (void)eter cannot be nil.;
-- (void)ger;
 - (void);
+- (_Bool)Ô;
+- (id)!°! AùZ°1Â0@ù
+× ;
+- (void)
+× ;
+- (void);
+- (void)TouchInfos:(id)arg1;
+- (id):(id)arg1;
+- (void)tInput;
+- (void)Ä(~d;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

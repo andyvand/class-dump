@@ -12,19 +12,19 @@
     NSString *_address;
 }
 
-+ (_Bool)January 3â, â8:00pmâ /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
 - (void);
+- (id)htnessWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)ck_invoke;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *address; // @synthesize address=_address;

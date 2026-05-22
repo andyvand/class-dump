@@ -6,9 +6,6 @@
 
 @protocol TSWPEditingControllerDelegate
 
-@optional
-- (void);
-
 // Remaining properties
 @property(readonly, nonatomic) _Bool editorAllowsCaret;
 // Preceding property had unknown attributes: ?

@@ -15,10 +15,10 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)es do you want to add to the event?;
++ (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)this Health sample.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

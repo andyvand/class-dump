@@ -19,12 +19,12 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (CDUnknownBlockType);
-- (void);
-- (id);
-- (id);
-- (double);
-- (void);
+- (double): /* Error: Ran out of types for this method. */;
+- (void)t download note;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

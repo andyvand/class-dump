@@ -27,14 +27,14 @@
 }
 
 + (_Bool);
-- (id)key:%{public}@ /* Error: Ran out of types for this method. */;
-- (struct CGPoint)enqueuing configuration fetch from endpoint with settings:%{public}@ /* Error: Ran out of types for this method. */;
-- (double)e to ignore cache policy:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)blic}@ will perform operation to fetch config with fallback URL:%@ /* Error: Ran out of types for this method. */;
-- (void)8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/BackgroundURLSessionSupport/RCURLSession.m;
-- (void)protocol cast. This is a serious problem and could lead to a crash, or worse.;
-- (void)Got %@;
-- (void)/Library/BuildRoots/4~CG4tugAb8POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCRequestInfo+News.m;
+- (id);
+- (struct CGPoint);
+- (double);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,36 +49,37 @@
 - (void);
 - (void);
 - (void);
-- (void)K;
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)itWithDictionary:(id)arg1;
-- (void)rForItemAtIndex:(struct CGPoint)arg1;
-- (struct CGPoint)not eligible;
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (void);
+- (struct CGPoint);
 - (struct CGAffineTransform);
 - (_Bool);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
 - (id);
-- (struct CGPoint)A$;
+- (_Bool);
+- (id);
+- (CDUnknownBlockType);
 - (void);
-- (_Bool)CanvasViewSnapshottingDisabled"b1"delegateCanvasViewDidRefineStrokes"b1"delegateCanvasViewScratchOutStrokes"b1};
-- (void)ules"16;
-- (void)ÿÐ0Íÿè1;
-- (_Bool)-ªêz-@Ç(Ï¼xG@Â'çÕJÎ-@GùîûÜ2F@ÝD F-@.ÄêÐE@¸¨»WRF@zÞ%.@&gÍ4¬E@ôNä/@­	ÈòbE@(åÿz>@Ò;¿Í¥:@Ê_k /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)!Gù(°1Â0@ù
+× ;
+- (void)¼;
 
 // Remaining properties
 @property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;

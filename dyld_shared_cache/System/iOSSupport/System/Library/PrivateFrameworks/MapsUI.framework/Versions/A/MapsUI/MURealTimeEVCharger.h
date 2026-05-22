@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (int);
 - (unsigned long long);
+- (int);
 - (unsigned long long);
 
 // Remaining properties

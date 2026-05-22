@@ -33,7 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -54,7 +54,6 @@
 - (id);
 - (id);
 - (id);
-- (id)@;
 - (id);
 - (id);
 - (id);
@@ -65,11 +64,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (void);
+- (id)%ld;
 
 // Remaining properties
 @property(retain, nonatomic) AVTEditingModelColors *colorCache; // @synthesize colorCache=_colorCache;

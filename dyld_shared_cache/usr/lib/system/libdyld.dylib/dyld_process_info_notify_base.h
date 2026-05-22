@@ -4,13 +4,13 @@
 
 class dyld_process_info_notify_base {
 public: // (access info unavailable from symbols alone)
-    disconnect();
+    auto disconnect();
+    auto handleEvent();
+    auto release();
+    auto replyToMonitoredProcess(mach_msg_header_t&);
+    auto setNotifyMain(void () block_pointer) const;
+    auto teardownMachPorts();
     dyld_process_info_notify_base(dispatch_queue_s*, void (bool, unsigned long long, unsigned long long, unsigned char const*, char const*) block_pointer, void () block_pointer, unsigned int, int*);
     dyld_process_info_notify_base(dispatch_queue_s*, void (bool, unsigned long long, unsigned long long, unsigned char const*, char const*) block_pointer, void () block_pointer, unsigned int, int*) (.cold.1);
-    handleEvent();
-    release();
-    replyToMonitoredProcess(mach_msg_header_t&);
-    setNotifyMain(void () block_pointer) const;
-    teardownMachPorts();
     ~dyld_process_info_notify_base();
 };

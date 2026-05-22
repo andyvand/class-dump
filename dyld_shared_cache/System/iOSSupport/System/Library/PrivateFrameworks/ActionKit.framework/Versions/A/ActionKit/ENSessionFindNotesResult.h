@@ -24,15 +24,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (_Bool)block_invoke;
+- (_Bool);
+- (void);
+- (id);
+- (void)ath:(id)arg1;
+- (void);
+- (void)tring"24@?0#8Q16;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *created; // @synthesize created=_created;

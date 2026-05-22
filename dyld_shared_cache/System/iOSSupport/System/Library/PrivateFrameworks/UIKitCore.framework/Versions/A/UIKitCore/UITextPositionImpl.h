@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)VP;
+- (id);
 - (void);
-- (_Bool);
-- (void);
-- (id): /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)w:(id)arg1;
+- (void)%a;
 
 // Remaining properties
 @property(retain, nonatomic) WebVisiblePosition *webVisiblePosition; // @synthesize webVisiblePosition=_webVisiblePosition;

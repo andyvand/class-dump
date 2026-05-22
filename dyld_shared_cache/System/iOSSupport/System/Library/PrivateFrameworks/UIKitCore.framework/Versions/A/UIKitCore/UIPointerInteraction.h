@@ -30,53 +30,57 @@
     long long _currentModifiers;
 }
 
-- (void);
 - (void);
-- (void)Touch:withEnableSpeakSelection:withEnableMonoAudio: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (_Bool)et",C,N,V_itemProperties;
-- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (void)n°!xDùÀð1¢!0@ù
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (void)!|DùYð1Â0@ù
+× ;
+- (id);
+- (_Bool)1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (id)@ù
 × ;
 - (void);
-- (void)1Î°1¢!0@ù
+- (id)@ù
 × ;
-- (void);
-- (void)etRightDriftFeedbackView:(id)arg1;
-- (_Bool)Threshold;
-- (void)otionForSize;
-- (_Bool)tions: /* Error: Ran out of types for this method. */;
-- (id)tterySizeForIconSize: /* Error: Ran out of types for this method. */;
-- (void)rizontal;
-- (id)_UIStatusBarImageView",&,N,V_iconView;
-- (void),&,V_toolbarFixedItems;
-- (id)TextDropSupporting;
-- (void);
-- (void);
-- (void)¦\¦¬¨`©(ª<³0´ø´8·¹Ð¹;
-- (void)Ø\;
-- (void);
-- (id);
-- (void)WritingToolsCoordinatorContext with mismatched WTContext;
-- (void)d tables.;
-- (void)ctArray.m;
-- (void)erpreted as %@;
-- (id)alSceneConfigurationAction should only be used to configure scenes with the role UISceneSessionRoleQuickLook. Provided Role:%@ /* Error: Ran out of types for this method. */;
-- (id)eRenamerSession *__strong);
-- (id)UIContentConfiguration>",N,&;
-- (void)n6a"j;
-- (id)G_;
-- (void);
-- (_Bool)K;
-- (void)D"êþ;
+- (void)0@ù
+× ;
+- (void)w";
+- (void)nge;
+- (void):(id)arg1;
+- (id)tyCount: /* Error: Ran out of types for this method. */;
+- (void)correctionContext;
+- (long long)ranceForEnabled: /* Error: Ran out of types for this method. */;
+- (void)ionsForAutoFill:(id)arg1;
+- (void)Through;
+- (id)entDirectionIsDown:(id)arg1;
+- (id)",&,N,V_stickerPrewarmingViewController;
+- (void)ngContent;
+- (id)edbackDragBehaviorConfiguration;
+- (id)hØ Ù¸Üá°ã;
+- (id)éoêp@ì¬ìq<íÐî;
+- (void)registration that was created inside -collectionView:(id)arg1 viewForSupplementaryElementOfKind:(_Bool)arg2 atIndexPath:or inside a UICollectionViewDiffableDataSource supplementary view provider. Creating a new registration each time a supplementary view is requested will prevent reuse and cause created supplementary views to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:%@ /* Error: Ran out of types for this method. */;
+- (void)asNoHomeButton;
+- (void)ttributes for a supplementary view with an invalid section index. View:(id)arg1 %@; view attributes:%@; collection view:%@; number of sections:%ld /* Error: Ran out of types for this method. */;
+- (void)iveNonDismissDetents;
+- (void)»b;
+- (void)¸2ÞþÌAÚxÈd;
+- (void)8·g;
+- (void)@h;
 
 // Remaining properties
 @property(nonatomic) long long currentModifiers; // @synthesize currentModifiers=_currentModifiers;

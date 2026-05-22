@@ -68,17 +68,18 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (float);
 - (void);
-- (id);
-- (id);
-- (void)nReference: /* Error: Ran out of types for this method. */;
-- (id)Changes:reloadAllIncludingAnchor: /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (void)u;
-- (long long)<Ê!hi/ÿi/ÿÐ*p;
-- (void)ÿÅûNÔ6;
+- (long long);
+- (void)eCuration:(id)arg1 %{bool}d;
+- (id)0@"PHAssetCollection"8@"PXPhotosResultTuple"16^B24;
+- (void)©Éd
+;
+- (void)Ä4;
+- (id)q;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsTextSelection; // @synthesize allowsTextSelection=_allowsTextSelection;

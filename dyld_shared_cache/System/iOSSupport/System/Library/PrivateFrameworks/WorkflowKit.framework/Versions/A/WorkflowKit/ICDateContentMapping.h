@@ -14,10 +14,10 @@
 }
 
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void)r (Folder);
+- (id)0{;
 
 // Remaining properties
 @property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;

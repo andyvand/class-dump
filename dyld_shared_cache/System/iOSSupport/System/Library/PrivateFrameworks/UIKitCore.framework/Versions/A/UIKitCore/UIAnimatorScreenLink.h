@@ -15,14 +15,13 @@ __attribute__((visibility("hidden")))
     unsigned short _animationCount;
 }
 
-+ (id);
-- (void)tTransition,V_inSmartTransition;
++ (id)LandedAllReplacementsForDelivery:(id)arg1 inContext:(CDUnknownBlockType)arg2;
 - (void);
+- (unsigned short);
 - (void);
-- (void)	
-;
-- (unsigned short);
-- (void)LSp;
+- (void)nTimeInterval;
+- (void)È¨¡ÿå1ÝT(j;
+- (void);
 
 // Remaining properties
 @property unsigned short animationCount; // @synthesize animationCount=_animationCount;

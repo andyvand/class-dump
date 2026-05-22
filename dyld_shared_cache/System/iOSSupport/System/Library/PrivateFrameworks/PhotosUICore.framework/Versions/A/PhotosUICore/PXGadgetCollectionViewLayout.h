@@ -37,17 +37,17 @@
 - (struct CGPoint);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (struct CGSize);
-- (void);
-- (double)eeUpCompositions;
-- (id)holderView;
-- (void);
 - (id);
-- (void)erred Processing Details:(double)arg1 %@;
-- (struct UIEdgeInsets);
-- (double)ÒÿO5;
+- (void);
+- (void);
+- (id);
+- (struct CGSize);
+- (double);
+- (struct UIEdgeInsets)stOptionsDegradedImagesToReturn:(id)arg1;
+- (double)ionCount;
+- (_Bool);
+- (void)pSharePlayAssetUploadRequirements;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double columnWidth; // @synthesize columnWidth=_columnWidth;

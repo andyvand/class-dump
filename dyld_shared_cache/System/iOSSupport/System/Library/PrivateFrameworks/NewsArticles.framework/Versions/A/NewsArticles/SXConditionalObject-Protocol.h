@@ -8,9 +8,6 @@
 
 @protocol SXConditionalObject
 
-@optional
-- (SXJSONArray *);
-
 // Remaining properties
 @property(readonly, nonatomic) SXJSONArray *conditional;
 // Preceding property had unknown attributes: ?

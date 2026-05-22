@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXMLParser;
-
 @protocol NSXMLParserDelegate
 
 @optional
-- (void){;
-- (void);
-- (void)Ô ;
-- (void)tency:(NSXMLParser *)arg1 registration missing reuse identifier %@;
+- (void)sentedViewControllerViewInSuperview;
+- (void)rollEnabled;
 @end
 

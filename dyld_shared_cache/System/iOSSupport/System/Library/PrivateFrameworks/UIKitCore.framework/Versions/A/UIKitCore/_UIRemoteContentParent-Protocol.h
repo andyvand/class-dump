@@ -7,7 +7,6 @@
 @class _UIChildRemoteContentRegistry;
 
 @protocol _UIRemoteContentParent
-- (_UIChildRemoteContentRegistry *);
 
 // Remaining properties
 @property(readonly, nonatomic) _UIChildRemoteContentRegistry *_childRemoteContentRegistry;

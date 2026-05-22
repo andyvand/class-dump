@@ -5,7 +5,6 @@
 //
 
 @protocol MPCModelPlaybackResponse
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long failedIDsCount;

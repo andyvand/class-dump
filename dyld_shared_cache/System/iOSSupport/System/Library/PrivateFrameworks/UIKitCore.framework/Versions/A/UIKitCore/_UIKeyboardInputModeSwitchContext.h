@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     UIKeyboardInputMode *_nextInputMode;
 }
 
-+ (id)tabaseUpdates called with suppressUpdates %d ;
++ (id);
 - (void);
 - (void);
-- (id)`;
-- (id);
-- (void);
+- (id);
+- (id);
+- (void),>;
 
 // Remaining properties
 @property(retain, nonatomic) UIKeyboardInputMode *nextInputMode; // @synthesize nextInputMode=_nextInputMode;

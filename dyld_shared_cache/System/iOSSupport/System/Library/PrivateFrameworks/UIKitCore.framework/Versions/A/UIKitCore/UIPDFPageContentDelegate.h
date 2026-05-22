@@ -24,33 +24,32 @@ __attribute__((visibility("hidden")))
     _Bool _isCancelled;
 }
 
-- (void)ontext:(unsigned long long)arg1 idsService:filteringContext: /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)d;
 - (void);
-- (void)t2Viewable;
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
 - (void);
+- (void);
+- (unsigned long long);
+- (void);
 - (struct CGAffineTransform);
-- (void)est %p);
-- (void);
 - (id);
-- (void);
-- (void)°1¢!0@ù
+- (void)
 × ;
-- (id)!äFùñÊÐ1¢!0@ù
-× ;
-- (id);
-- (unsigned long long)erlinesIfNeeded;
-- (id)eKeepingSelection: /* Error: Ran out of types for this method. */;
-- (void)ubviews _rotationInfo updated;
-- (_Bool)ansition has completed;
-- (void)UICollectionViewFlowLayoutBreakForInvalidSizes to catch this in the debugger.;
-- (void)e;
-- (struct CGColor *)Jg;
-- (void)ªªi;
+- (void)dataTransferSessionFinished;
+- (id)efaultNormalTitleColor;
+- (id)lder;
+- (struct CGColor *)eView == nil || [reusableView isKindOfClass:[UICollectionReusableView class]] /* Error: Ran out of types for this method. */;
+- (void)ellC¬È;
+- (_Bool)_;
+- (id)ßg;
+- (void)«CË¾Öh;
+- (void)÷z;
 
 // Remaining properties
 @property struct CGRect box; // @synthesize box=_box;

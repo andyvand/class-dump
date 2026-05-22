@@ -14,16 +14,12 @@
 
 + (id);
 - (id);
-- (void)__doneActionResignsFirstResponder;
 - (void);
 - (id);
 - (id);
-- (id)nsFirstVector:secondVector: /* Error: Ran out of types for this method. */;
-- (void)ections (only right-angle orientations are representable via EXIF):(id)arg1 right:%d
-left:%d
-up:%d
-down:%d
- /* Error: Ran out of types for this method. */;
+- (void);
+- (void)16{CGPoint=dd}24;
+- (id)8;
 
 // Remaining properties
 @property(retain) UIFont *defaultFont; // @synthesize defaultFont=_defaultFont;

@@ -5,8 +5,5 @@
 //
 
 @protocol EKChangeListenerDelegate
-
-@optional
-- (void);
 @end
 

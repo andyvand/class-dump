@@ -5,5 +5,6 @@
 //
 
 @protocol WBSDeallocationSentinelObserver
+- (void)¡R;
 @end
 

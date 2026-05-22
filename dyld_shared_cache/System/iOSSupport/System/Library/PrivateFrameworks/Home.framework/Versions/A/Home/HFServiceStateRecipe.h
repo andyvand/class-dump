@@ -17,12 +17,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)C¤CLD,H|I;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *characteristicRecipes; // @synthesize characteristicRecipes=_characteristicRecipes;

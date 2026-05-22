@@ -28,24 +28,24 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (_Bool);
+- (void)Xb,cdÀgØjl;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *availableDestinations; // @synthesize availableDestinations=_availableDestinations;

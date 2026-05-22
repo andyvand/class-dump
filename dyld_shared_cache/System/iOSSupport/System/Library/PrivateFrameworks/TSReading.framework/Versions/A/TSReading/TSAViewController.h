@@ -36,8 +36,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void)�h;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,11 +74,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)»;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *applicationBackgroundColor;

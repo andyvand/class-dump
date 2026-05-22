@@ -4,6 +4,6 @@
 
 class bssl::AESRecordNumberEncrypter {
 public: // (access info unavailable from symbols alone)
-    GenerateMask(bssl::Span<unsigned char>, bssl::Span<unsigned char const>);
-    SetKey(bssl::Span<unsigned char const>);
+    auto GenerateMask(bssl::Span<unsigned char>, bssl::Span<unsigned char const>);
+    auto SetKey(bssl::Span<unsigned char const>);
 };

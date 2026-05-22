@@ -23,12 +23,12 @@
 - (id);
 - (double);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
 - (double);
-- (id)i;
+- (id);
+- (void)`5T6à6<9Ì9F¬<==X>ÄB;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *color;

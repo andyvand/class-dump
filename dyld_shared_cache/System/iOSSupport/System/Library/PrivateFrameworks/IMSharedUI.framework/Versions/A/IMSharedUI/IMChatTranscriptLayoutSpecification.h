@@ -19,27 +19,27 @@
 }
 
 - (double);
-- (double)H;
-- (void)N;
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)_֠;
+- (void);
+- (void);
 - (double);
 - (double);
 - (struct CGSize);
 - (double);
 - (void);
 - (void);
-- (double)s<uint64_t>, unsigned long long>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::RemoteGradientIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
 - (double);
-- (unsigned long long);
-- (_Bool);
 - (void);
-- (double)-;
+- (double);
 - (id);
+- (unsigned long long);
+- (double);
 - (void);
+- (_Bool);
 - (id);
 - (double);
 

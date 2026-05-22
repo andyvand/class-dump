@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ÿdX¬<\;
 
 // Remaining properties
 @property(readonly, nonatomic) UIKeyCommand *keyCommand;

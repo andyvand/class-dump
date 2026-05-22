@@ -17,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -26,17 +26,17 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
 - (unsigned long long);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)teContext"16;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;

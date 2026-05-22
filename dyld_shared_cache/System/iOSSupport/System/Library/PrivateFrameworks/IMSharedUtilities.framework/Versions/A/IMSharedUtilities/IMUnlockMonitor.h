@@ -18,13 +18,13 @@
     MISSING_TYPE *stringboardLockstateNotifificationKey;
 }
 
-+ (id)Åè;
++ (id)ed live photo bundle for transfer %@ at path %@;
 - (_Bool);
-- (void);
 - (id);
 - (_Bool);
-- (_Bool)xForAttachmentMessagePartWithTransferGUID: /* Error: Ran out of types for this method. */;
-- (void)i¹5ä;
+- (void)cted file paths for guid:%s, files:%s /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)°²;
 - (void);
 
 @end

@@ -6,24 +6,24 @@
 
 @interface DDBridgeVertexAttributeFormat
 {
-    int semantic;
-    int format;
-    int layoutIndex;
-    int offset;
+    long long semantic;
+    unsigned long long format;
+    long long layoutIndex;
+    long long offset;
 }
 
-- (int);
+- (long long);
 - (id);
-- (int);
 - (id);
-- (int);
-- (int);
+- (long long);
+- (unsigned long long);
+- (long long)nonymous class)::operator()(auto &) const [arg:auto = const WGSL::ConstantValue] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) int format; // @synthesize format;
-@property(nonatomic, readonly) int layoutIndex; // @synthesize layoutIndex;
-@property(nonatomic, readonly) int offset; // @synthesize offset;
-@property(nonatomic, readonly) int semantic; // @synthesize semantic;
+@property(nonatomic, readonly) unsigned long long format; // @synthesize format;
+@property(nonatomic, readonly) long long layoutIndex; // @synthesize layoutIndex;
+@property(nonatomic, readonly) long long offset; // @synthesize offset;
+@property(nonatomic, readonly) long long semantic; // @synthesize semantic;
 
 @end
 

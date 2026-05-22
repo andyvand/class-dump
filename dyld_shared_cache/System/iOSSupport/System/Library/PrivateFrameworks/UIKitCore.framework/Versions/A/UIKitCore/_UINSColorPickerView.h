@@ -18,20 +18,21 @@ __attribute__((visibility("hidden")))
     id <_UINSColorPickerViewDelegate> _delegate;
 }
 
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void)oteContentItem;
 - (void);
-- (id)_sectionOffsetValid;
 - (void);
-- (id)CellReorderControl;
-- (void)w global row when computing end of new gap for %@ of row at index path %@;
-- (SEL)AppIntents;
-- (void)ÿ8UÕÔsc;
+- (id);
+- (id);
+- (void)!@ùÑc°1Â0@ù
+× ;
+- (void)ew:(id)arg1;
+- (SEL)ollectionViewAnimationContext *__strong _Nonnull, __strong id<_UICollectionViewUpdateExpandCollapseAnimationContext> _Nonnull)_block_invoke;
+- (void)entType;
 
 // Remaining properties
 @property __weak id <_UINSColorPickerViewDelegate> delegate; // @synthesize delegate=_delegate;

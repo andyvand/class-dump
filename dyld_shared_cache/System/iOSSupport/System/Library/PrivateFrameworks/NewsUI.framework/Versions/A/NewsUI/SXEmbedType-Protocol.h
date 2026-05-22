@@ -7,8 +7,6 @@
 @class NSString, NSURL;
 
 @protocol SXEmbedType
-- (NSString *)R3;
-- (double)<;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long autoPlayMedia;

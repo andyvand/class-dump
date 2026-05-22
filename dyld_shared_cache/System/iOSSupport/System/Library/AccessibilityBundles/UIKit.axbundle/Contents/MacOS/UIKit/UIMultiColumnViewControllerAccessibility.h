@@ -10,14 +10,14 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)illedContextMenuConfiguration;
+- (void);
 
 @end
 

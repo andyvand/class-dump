@@ -13,21 +13,21 @@
 }
 
 + (_Bool);
-+ (_Bool)ntConfiguration:preferredTitleAlignment:preferredTitleLayout:titleContentStyle:timeNumberingSystem:userConfigured:preferredTimeMaxYPortrait:preferredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName:version: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
+- (id);
 - (_Bool);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
+- (_Bool);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsModifyingLegibilityBlur; // @synthesize allowsModifyingLegibilityBlur=_allowsModifyingLegibilityBlur;

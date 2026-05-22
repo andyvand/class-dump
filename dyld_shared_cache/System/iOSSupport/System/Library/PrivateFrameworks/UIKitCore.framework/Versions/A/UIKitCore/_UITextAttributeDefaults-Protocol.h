@@ -7,10 +7,9 @@
 @class NSParagraphStyle, NSShadow, UIColor, UIFont, _UITextAttributeDictionary;
 
 @protocol _UITextAttributeDefaults
-- (NSParagraphStyle *)ÿ;
-- (UIColor *)x=%@ darkVibrantColorMatrix=%@;
-- (NSShadow *)enLarge;
-- (_UITextAttributeDictionary *);
+- (UIFont *)uProN-W3;
+- (NSShadow *);
+- (_UITextAttributeDictionary *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) _UITextAttributeDictionary *_attributes;

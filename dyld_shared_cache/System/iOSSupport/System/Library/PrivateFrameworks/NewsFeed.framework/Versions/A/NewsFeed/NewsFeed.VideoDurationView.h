@@ -11,11 +11,11 @@
     MISSING_TYPE *label;
 }
 
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
-- (void)dPriority;
-- (id)GG;
+- (void)¬kïþa:(Âwþa:ðªþ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

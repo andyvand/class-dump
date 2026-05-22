@@ -13,7 +13,7 @@
 }
 
 - (_Bool);
-- (id)?;
+- (id);
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
@@ -32,9 +32,9 @@
 - (unsigned int);
 - (double);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id)C;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -55,16 +55,17 @@
 - (unsigned long long);
 - (unsigned int);
 - (void);
-- (void);
-- (unsigned long long);
-- (struct CGPoint);
 - (struct CGSize);
 - (struct CGPoint);
+- (id);
+- (struct CGPoint);
+- (void)1Â0@ù
+× ;
+- (void)KWebView";
+- (struct CGSize)horPosition;
+- (id)lyName:matchesFontAttributes: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ors: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (void);
-- (struct CGSize)",R,N,V_shareURL;
-- (id)rcentageProvider;
-- (id)dColumnRange:%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsDescendersToClip;

@@ -15,9 +15,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (double);
 - (id);
-- (double)Õÿl¤PB.8;
+- (void)Ù÷;
 
 // Remaining properties
 @property(nonatomic) double accuracy; // @synthesize accuracy=_accuracy;

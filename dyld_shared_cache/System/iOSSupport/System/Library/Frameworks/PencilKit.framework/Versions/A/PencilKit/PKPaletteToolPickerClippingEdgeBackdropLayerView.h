@@ -13,12 +13,12 @@
 }
 
 + (Class);
-- (_Bool)ter;
-- (id)edge.news.apple.com/v1/configs;
+- (_Bool);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)!;
+- (id);
+- (void)KImageWandTipControllerDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) CABackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;

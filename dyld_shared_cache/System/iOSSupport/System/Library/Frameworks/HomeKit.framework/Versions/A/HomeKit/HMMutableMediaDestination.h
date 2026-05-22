@@ -12,7 +12,7 @@
 {
 }
 
-+ (id)onse;
++ (id)esolutions;
 - (id);
 
 // Remaining properties

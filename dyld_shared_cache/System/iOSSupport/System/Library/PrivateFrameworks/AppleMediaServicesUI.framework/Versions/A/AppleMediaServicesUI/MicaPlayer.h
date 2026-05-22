@@ -50,24 +50,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (void);
-- (_Bool);
-- (void);
 - (id);
+- (void);
+- (_Bool);
 - (void);
 - (double);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (_Bool)lic}@:[%{public}@] Caller did not specify a valid image size /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)setViewHasAppeared: /* Error: Ran out of types for this method. */;
+- (void)3yADG$
+1y1SgGG]1y_1GG_Qo__Qo__Qo__SSQo_AEG_Qo_tGGüü0GAZGAZGAZGú0G_AAyAAy°/3Ëü0GAZGAAyAAyAAyAAyAAyAByACyAF_
+,3y|.3y&.3yà(3yAAyÿ1yAAyAhPG_SSQo_AEG_Qo__Qo__Qo__Qo_tGGAZGAZGAZGAZGA3_Gt;
 
 // Remaining properties
 @property(nonatomic) __weak id <MicaPlayerDelegate> delegate; // @synthesize delegate=_delegate;

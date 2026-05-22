@@ -20,13 +20,13 @@
 }
 
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void);
+- (void);
+- (id);
+- (void)ction:(id)arg1;
+- (void).?ýÿ?ýÿ;
 
 @end
 

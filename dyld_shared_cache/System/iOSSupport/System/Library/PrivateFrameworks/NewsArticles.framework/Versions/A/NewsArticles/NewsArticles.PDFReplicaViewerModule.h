@@ -12,8 +12,8 @@
     MISSING_TYPE *tracker;
 }
 
-- (void);
 - (id);
+- (void)Descriptor;
 
 @end
 

@@ -16,15 +16,14 @@ __attribute__((visibility("hidden")))
     struct CGRect _solutionFrame;
 }
 
-- (struct CGRect);
 - (id);
 - (id);
+- (struct _NSRange);
 - (id);
-- (void);
-- (id)ÁwÐ!PCùñÌð1¢!0@ù
-× ;
-- (id)ntOnly;
-- (struct _NSRange)erIDHapticIntensity(void);
+- (id)tiveTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
+- (struct CGRect)Colors:middleLocation: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)@ØÿzbÒàc;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange itemRange; // @synthesize itemRange=_itemRange;

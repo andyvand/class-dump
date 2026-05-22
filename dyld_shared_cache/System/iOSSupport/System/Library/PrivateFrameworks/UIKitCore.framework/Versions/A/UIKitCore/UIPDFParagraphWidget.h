@@ -25,13 +25,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
-- (void)72@"NSString"180@"NSString"188@"IDSService"196@204B212B216B220B224B228q232q240@?<v@?>248;
-- (void)nge:(struct CGRect)arg1;
-- (void)odel:(unsigned long long)arg1;
-- (void)eStore:(id)arg1 storageController: /* Error: Ran out of types for this method. */;
-- (struct CGRect)orePublicNickname:nicknameLocation:encryptionKey:wallpaperDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:avatarRecipeDataTag: /* Error: Ran out of types for this method. */;
-- (struct CGRect)rticipants:usesPersonCentricID: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ToRecipient:(struct CGPoint)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
+- (struct CGRect);
+- (struct CGPoint);
 - (struct CGPoint);
 - (_Bool);
 - (void);
@@ -40,12 +40,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)!0@ù
-× ;
-- (id)tRange;
-- (void)eded;
-- (void);
+- (id);
+- (void)ension.;
+- (void)ÿ;
+- (void)dÎ`;
+- (void)¤ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint currentSelectionPointOnPage;

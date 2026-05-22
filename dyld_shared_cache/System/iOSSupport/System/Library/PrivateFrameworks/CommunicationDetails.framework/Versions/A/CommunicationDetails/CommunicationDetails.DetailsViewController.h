@@ -21,7 +21,7 @@
     MISSING_TYPE *detailsPageViewController;
     MISSING_TYPE *backgroundVisualEffectView;
     MISSING_TYPE *headerView;
-    MISSING_TYPE *posterViewController;
+    MISSING_TYPE *backgroundViewController;
     MISSING_TYPE *headerViewModel;
     MISSING_TYPE *styleGuide;
     MISSING_TYPE *isInitialPresentation;
@@ -33,14 +33,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)ationDetails;
+- (void);
+- (void)ÚZ;
 
 @end
 

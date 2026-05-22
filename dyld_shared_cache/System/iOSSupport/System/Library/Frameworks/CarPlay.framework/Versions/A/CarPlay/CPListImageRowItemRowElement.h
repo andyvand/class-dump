@@ -16,13 +16,15 @@
 
 + (_Bool);
 - (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;

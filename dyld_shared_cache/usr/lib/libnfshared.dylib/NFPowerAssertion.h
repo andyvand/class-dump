@@ -19,16 +19,16 @@
 }
 
 + (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void){os_unfair_lock_s="_os_unfair_lock_opaque"I};
-- (id)`;
 - (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool enableDebug; // @synthesize enableDebug=_enableDebug;

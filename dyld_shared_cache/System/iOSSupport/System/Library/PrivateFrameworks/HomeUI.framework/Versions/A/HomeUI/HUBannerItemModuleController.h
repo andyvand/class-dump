@@ -36,9 +36,9 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)setDisableActions: /* Error: Ran out of types for this method. */;
-- (void)angeBackgroundVisibility:(id)arg1;
+- (void)B16@?0@"HUQuickControlContext"8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

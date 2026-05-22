@@ -15,31 +15,31 @@
     id <UIKeyboardMediaServiceRemoteViewControllerDelegate> _delegate;
 }
 
-+ (id)t's last read message time date (%@) guid (%@) timestamp:(CDUnknownBlockType)arg1 (%@) Messages time date (%@) timestamp:(%@) Server timestamp:(%@) /* Error: Ran out of types for this method. */;
-+ (id)mark the new one is read;
++ (id);
++ (id);
 + (_Bool);
-+ (id);
-+ (id): /* Error: Ran out of types for this method. */;
-- (void)ChatsWithGUIDsToRecentlyDeleted:deleteDate: /* Error: Ran out of types for this method. */;
-- (void)ervices:(id)arg1;
-- (void)erAsNotSyncedSuccessfully:(id)arg1;
-- (void)loadedWithGUID:(id)arg1;
-- (void)nListenerFileProviderProtocol>",R,N;
-- (void)sForURLs:(CDUnknownBlockType)arg1;
-- (void)pControllerProviding;
++ (id);
++ (id)xxÿ;
 - (void);
 - (void);
 - (void);
-- (void)stdoor group relay message response %p received;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void)eforeTimeOut;
-- (void)Got NULL innerScope;
-- (void)!ØBùQÁ1¢!0@ù
+- (void);
+- (void);
+- (id)!ØFù[Ð1Â0@ù
 × ;
-- (_Bool)TH1;
-- (id)o update a section using a mismatched model;
-- (void)r;
+- (void)72@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGPoint=dd}48d64;
+- (_Bool)"isSystemItem"b1};
+- (void)È]rþ@;
 
 // Remaining properties
 @property(nonatomic, getter=_isShownInline, setter=_setShownInline:) _Bool _shownInline; // @synthesize _shownInline;

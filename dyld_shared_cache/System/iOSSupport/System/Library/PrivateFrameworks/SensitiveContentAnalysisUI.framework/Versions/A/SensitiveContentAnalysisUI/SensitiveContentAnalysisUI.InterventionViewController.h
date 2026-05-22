@@ -18,11 +18,11 @@
 - (long long);
 - (id);
 - (id);
+- (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)ËGG_ABy	£GySnySiGSiGyATyAAyAAyä¢GAPGGyAJGGAYGAYGGGAQtGGíGyAJGG;
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *contextDictionary;

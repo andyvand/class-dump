@@ -4,10 +4,10 @@
 
 class std::locale::facet {
 public: // (access info unavailable from symbols alone)
-    _S_clone_c_locale(int*&);
-    _S_create_c_locale(int*&, char const*, int*);
-    _S_destroy_c_locale(int*&);
-    _S_get_c_locale();
-    _S_get_c_name();
+    auto _S_clone_c_locale(int*&);
+    auto _S_create_c_locale(int*&, char const*, int*);
+    auto _S_destroy_c_locale(int*&);
+    auto _S_get_c_locale();
+    auto _S_get_c_name();
     ~facet();
 };

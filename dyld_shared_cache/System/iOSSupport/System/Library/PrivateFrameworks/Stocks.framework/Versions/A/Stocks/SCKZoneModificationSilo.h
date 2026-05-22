@@ -15,24 +15,23 @@
     NSMutableArray *_deletedRecordIDs;
 }
 
-- (id)B;
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void)#;
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)!hGùQ°1¢!0@ù
-× ;
-- (id);
+- (id)z;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *deletedRecordIDs; // @synthesize deletedRecordIDs=_deletedRecordIDs;

@@ -5,6 +5,5 @@
 //
 
 @protocol _TtP5UIKit33UITextEffectViewAnimationDelegate_
-- (void);
 @end
 

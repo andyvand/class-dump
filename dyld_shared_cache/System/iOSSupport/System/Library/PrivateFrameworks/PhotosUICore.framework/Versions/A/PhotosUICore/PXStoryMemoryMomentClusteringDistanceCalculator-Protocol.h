@@ -5,7 +5,6 @@
 //
 
 @protocol PXStoryMemoryMomentClusteringDistanceCalculator
-- (double)otationViewWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double faceWeight;

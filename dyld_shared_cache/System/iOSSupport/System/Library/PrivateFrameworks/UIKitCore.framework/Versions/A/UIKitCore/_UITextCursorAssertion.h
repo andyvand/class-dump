@@ -18,16 +18,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)ockOnQueue:block: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (unsigned long long);
-- (void)teraction:(id)arg1;
-- (id)ackgroundView;
-- (id)bleSet",&,N,V_leftDriftLockTouchIDs;
-- (id)pansionTextWhenTruncated = YES;
-- (void)icate keyboard shortcut error log path when there were no duplicate keyboard shortcuts. This is a UIKit internal bug.;
-- (void)­=4Ð¹;
-- (void)¶:Ôºæ^ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)
+× ;
+- (unsigned long long)Q`Ð1Â0@ù
+× ;
+- (void)ctions:(id)arg1;
+- (void)ismissGrantingAccessToURL:(id)arg1;
+- (id)hlightedBackgroundGradientStart;
+- (void)yt¿7G;
 
 // Remaining properties
 @property(nonatomic) __weak UITextCursorAssertionController *controller; // @synthesize controller=_controller;

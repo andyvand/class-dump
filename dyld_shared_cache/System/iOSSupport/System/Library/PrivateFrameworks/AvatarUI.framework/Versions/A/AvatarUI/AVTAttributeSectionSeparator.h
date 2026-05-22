@@ -12,14 +12,14 @@
     struct UIEdgeInsets _edgeInsets;
 }
 
-+ (id)H;
++ (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (struct UIEdgeInsets);
+- (void);
+- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

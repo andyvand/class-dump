@@ -32,7 +32,7 @@
 }
 
 + (id);
-+ (_Bool)Color:,V__hasComputedDominantImageBackgroundColor /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -50,7 +50,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)+;
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -64,42 +64,44 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void)?;
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void)edBeaconRecord;
-- (void);
-- (void)j";
 - (id);
-- (struct CLLocationCoordinate2D);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)u;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)0;
+- (struct CLLocationCoordinate2D);
 - (void);
+- (void);
+- (id);
+- (void)Qð1Â0@ù
+× ;
+- (long long)0@ù
+× ;
+- (void)pecializedMetadataProviderForURLWithContext:(id)arg1;
+- (id)ewVideo;
+- (void)î´;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *address; // @synthesize address=_address;

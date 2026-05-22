@@ -16,18 +16,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)lFetchFromCloud;
 - (void);
-- (void);
-- (void);
-- (id);
+- (struct CGSize);
 - (void);
 - (void);
 - (id);
-- (void)ssoryView";
-- (id)onOnboardingPageViewControllerDelegate>",W,N,V_delegate;
-- (struct CGSize)969E32TapbackPickerStrokeContainerView;
-- (_Bool)nelController;
+- (id)× ;
+- (void)roup;
+- (void)Óÿ;
+- (id)date channel for chat GUID %@ with configuration %@;
+- (void)as:(id)arg1 %@;
+- (void)ollerUninstalledPluginsKey;
+- (_Bool)è;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;

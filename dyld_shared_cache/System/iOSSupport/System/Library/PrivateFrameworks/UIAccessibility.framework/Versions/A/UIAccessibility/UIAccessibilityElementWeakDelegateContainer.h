@@ -9,8 +9,8 @@
     id _delegate;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

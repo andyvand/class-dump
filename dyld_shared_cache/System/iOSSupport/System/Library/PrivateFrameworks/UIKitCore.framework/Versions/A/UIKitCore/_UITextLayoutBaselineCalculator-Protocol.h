@@ -5,7 +5,6 @@
 //
 
 @protocol _UITextLayoutBaselineCalculator
-- (double)date;
 
 // Remaining properties
 @property(readonly, nonatomic) double firstBaselineOffsetFromTop;

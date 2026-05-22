@@ -12,7 +12,7 @@
     NSString *_keyPath;
 }
 
-+ (id)¸h¹°¹	¨º	 »¼x¼°¼@½¿pÁ;
++ (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

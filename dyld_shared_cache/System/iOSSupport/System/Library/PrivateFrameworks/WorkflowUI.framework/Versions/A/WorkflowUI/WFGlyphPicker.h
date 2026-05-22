@@ -51,20 +51,20 @@
 - (id);
 - (void);
 - (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (void)extItem"24@"UIMenu"32;
-- (id)already ended;
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void)ÿÿÿÿô;
+- (id)G;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

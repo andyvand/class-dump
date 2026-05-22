@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id)rticipants. Not repairing participants.;
-- (void);
+- (id);
+- (void)èf[;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *compatibleDescriptors;

@@ -19,36 +19,36 @@
 }
 
 + (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
+- (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)pConnection;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;

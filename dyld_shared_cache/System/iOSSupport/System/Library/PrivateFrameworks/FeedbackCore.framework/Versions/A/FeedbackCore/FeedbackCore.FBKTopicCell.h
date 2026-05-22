@@ -30,13 +30,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 - (struct CGRect);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id)item %lu;
 
 // Remaining properties
 @property(nonatomic) _Bool disclosesMoreForms; // @synthesize disclosesMoreForms;

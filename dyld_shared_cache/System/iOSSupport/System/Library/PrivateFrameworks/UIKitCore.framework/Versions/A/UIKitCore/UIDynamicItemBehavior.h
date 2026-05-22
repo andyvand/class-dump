@@ -35,28 +35,28 @@
 }
 
 + (_Bool);
-- (void)tionary",C,D,N;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
 - (_Bool);
-- (double)ng XPC Connection for IMDBackgroundMessagingAPIListener;
-- (void)ng handles %@ our incoming pending handles %@;
-- (double)g SMSFilteringSettings dict;
-- (double)ringSettings dictionary;
-- (void)e with GUID (%@); marking local attachment as synced, to skip to;
-- (void)cipantChangeItemFields called on object %@ %@;
+- (double);
+- (void);
+- (double);
+- (double);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (double);
-- (void);
+- (void);
 - (struct CGPoint);
 - (double);
 - (double);
-- (double);
+- (double);
 - (void);
 - (double);
 - (void);
@@ -67,20 +67,20 @@
 - (double);
 - (void);
 - (double);
-- (void)ithQuery:(_Bool)arg1 clientProcessName:error: /* Error: Ran out of types for this method. */;
-- (_Bool)or:namedEntityDissector:dataDetectorMatchClass:sqlDatabase: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
 - (void);
 - (double);
-- (double);
-- (void)hod;
-- (void)p!AùÂ°1¢!0@ù
+- (id);
+- (id);
+- (id)áÐ!xAùñ\°1Â0@ù
 × ;
-- (id)ngDisplayedOnValue;
-- (id)_Entry;
-- (void)wÌ;
-- (id)8ÿ&"È×¹k;
-- (void)ðBl;
-- (id)¬ÿþ;
+- (void)placingDOMRange:(id)arg1 givenAction: /* Error: Ran out of types for this method. */;
+- (id)dateReplacementPostCandidateInsertedText;
+- (void);
+- (void)&Ö;
+- (double)l|vÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsRotation; // @synthesize allowsRotation=_allowsRotation;

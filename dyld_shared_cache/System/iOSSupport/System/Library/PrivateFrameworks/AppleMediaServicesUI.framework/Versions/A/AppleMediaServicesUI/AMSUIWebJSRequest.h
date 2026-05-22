@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     NSString *_service;
 }
 
-+ (_Bool)TWpW\ZÐZP[;
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)etImageURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *logKey; // @synthesize logKey=_logKey;

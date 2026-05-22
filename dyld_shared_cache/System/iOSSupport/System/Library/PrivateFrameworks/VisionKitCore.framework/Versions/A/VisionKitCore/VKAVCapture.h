@@ -44,25 +44,26 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
+- (double);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (double);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (double);
-- (void);
-- (id);
-- (void);
-- (void)_textLength;
-- (id)rnionTransitionStartTime;
-- (double)Æ;
+- (void)0@ù
+× ;
+- (void)viderWriting>"@"NSError">8;
+- (double)Õ¿;
 
 // Remaining properties
 @property(retain, nonatomic) AVCaptureConnection *connection; // @synthesize connection=_connection;

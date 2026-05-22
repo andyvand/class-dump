@@ -29,29 +29,29 @@
 }
 
 - (void);
-- (id)Õ;
-- (double)Ð¾sô;
-- (void)RL;
-- (void)WithArray:(id)arg1;
-- (void)GroupName:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)ueue;
-- (_Bool)ndeterminate;
-- (_Bool)_inPreviewMode;
-- (id)nAccountInSource;
-- (void)neImageView;
-- (void)ingWindow;
-- (id)atedObjectIdentifiers: /* Error: Ran out of types for this method. */;
-- (void)rray",&,N,V_undoCommands;
+- (id);
+- (double);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)t;
-- (void)d;
-- (id)on) generatePreviewsForAttachment:paperIdentifier:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id)DøN;
-- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)m initWithNotification:maxWidth:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKCheckInTipsViewDelegate> checkInDelegate; // @synthesize checkInDelegate;

@@ -7,7 +7,6 @@
 @class MISSING_TYPE, NSString;
 
 @protocol VFXParameterInfo
-- (MISSING_TYPE *)ñÓÀ¹;
 
 // Remaining properties
 @property(readonly, nonatomic) long long bindingType;

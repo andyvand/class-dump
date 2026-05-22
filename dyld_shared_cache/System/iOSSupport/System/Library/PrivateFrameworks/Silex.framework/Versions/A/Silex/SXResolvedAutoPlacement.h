@@ -16,7 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdvertisementPlacementType> advertisement; // @synthesize advertisement=_advertisement;

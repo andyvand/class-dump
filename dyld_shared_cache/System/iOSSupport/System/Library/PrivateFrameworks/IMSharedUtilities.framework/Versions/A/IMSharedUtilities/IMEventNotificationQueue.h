@@ -16,7 +16,7 @@
     IMDoubleLinkedList *_eventNotificationList;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,27 +27,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void));
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (long long)dingNicknameUpdates;
-- (void)eÑ;
-- (_Bool)DÈ;
-- (void)£è2³¹5HÁ;
+- (long long);
+- (void)¤îÿ;
+- (_Bool)Q;
+- (_Bool)|<ßÿÈ­eÀ;
 
 // Remaining properties
 @property(readonly, getter=isBusy) _Bool busy; // @synthesize busy=_busy;

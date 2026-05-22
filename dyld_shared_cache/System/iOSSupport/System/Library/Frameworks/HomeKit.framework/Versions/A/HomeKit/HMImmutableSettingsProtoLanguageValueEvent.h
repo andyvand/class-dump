@@ -26,16 +26,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)UÜUDWìWY;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasInputLanguageCode;

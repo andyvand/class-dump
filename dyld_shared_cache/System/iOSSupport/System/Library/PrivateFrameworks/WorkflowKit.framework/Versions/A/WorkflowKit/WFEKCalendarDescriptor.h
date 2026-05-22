@@ -14,7 +14,7 @@
     NSNumber *_calendarRGBAValue;
 }
 
-+ (_Bool)FImage,WFTextPosition(Custom Position),WFPercentageTextX,WFPercentageTextY;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -23,10 +23,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (void);
 

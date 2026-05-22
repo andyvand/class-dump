@@ -57,8 +57,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)G½y_y½GG;
+- (void)onWithTitle:image:identifier:handler: /* Error: Ran out of types for this method. */;
+- (id)Ä;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *assetDirectory; // @synthesize assetDirectory=_assetDirectory;

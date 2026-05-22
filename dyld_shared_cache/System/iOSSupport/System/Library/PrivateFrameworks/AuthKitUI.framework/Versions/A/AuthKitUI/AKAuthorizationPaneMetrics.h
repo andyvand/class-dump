@@ -12,20 +12,8 @@
 + (double);
 + (double);
 + (double);
-+ (double)eyed encoding container.;
-+ (struct UIEdgeInsets)PC object for unkeyed encoding container.;
-+ (double)stDoor/XPCEncoder.swift;
-+ (double)to be encoded using this encoder.;
-+ (double)041611_XPCEncoder;
 + (double);
-+ (double)SWHighlightChangeEvent;
-+ (double)ent;
-+ (double)nt;
-+ (double)lastDoor.MembershipEventSecureCoding;
-+ (double),&,VattachmentSubtype;
-+ (double)FileTransferAttribute_ImageInfo",N,&,VimageInfo;
-+ (double)achmentSubtypeWrapper";
-+ (double)nary;
++ (struct UIEdgeInsets);
 + (double);
 + (double);
 + (double);
@@ -45,11 +33,23 @@
 + (double);
 + (double);
 + (double);
-+ (double);
-+ (struct CGSize);
 + (double);
 + (double);
-+ (struct CGSize)fSearchResult;
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (struct CGSize);
++ (double);
++ (double);
++ (struct CGSize);
 
 @end
 

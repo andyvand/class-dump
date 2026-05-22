@@ -24,8 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void)0@ù
-× ;
+- (void)o send the payment.;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *exportSessions; // @synthesize exportSessions=_exportSessions;

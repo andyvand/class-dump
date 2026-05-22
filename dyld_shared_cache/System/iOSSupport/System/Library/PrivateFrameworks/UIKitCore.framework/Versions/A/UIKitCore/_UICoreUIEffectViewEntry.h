@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void)thUnsignedLong:(id)arg1;
-- (id)est_options_for_options;
 - (void);
-- (_Bool)miss:(id)arg1;
-- (void)sition:(id)arg1;
-- (_Bool)Dælÿ»([;
+- (_Bool);
+- (void)estHoverEventsByContextID;
+- (_Bool)ÏÐL³Ù;
+- (void)"Ô¢`;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

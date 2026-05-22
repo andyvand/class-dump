@@ -15,7 +15,7 @@
 - (_Bool);
 - (void);
 - (Class);
-- (id);
+- (id)eating subscription failed. SERVICELOCATION_ID:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) Class cellClass;

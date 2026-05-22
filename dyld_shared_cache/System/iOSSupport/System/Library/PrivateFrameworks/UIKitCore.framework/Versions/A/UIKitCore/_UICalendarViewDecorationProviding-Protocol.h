@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 @protocol _UICalendarViewDecorationProviding
-- (void)ework/Versions/A/Security;
-- (NSString *)@16@24B32C36;
-- (UIView *)2@40@48C56;
-- (UIView *)account:category:spamExtensionName:isBlackholed:spamDetectionSource: /* Error: Ran out of types for this method. */;
-- (void)tate:(UIView *)arg1;
-- (UIView *);
+- (UIView *)uto invalidation of scene:%{public}@; assertionsCount:%lu; assertion:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setDecorationView:) UIView *_decorationView;

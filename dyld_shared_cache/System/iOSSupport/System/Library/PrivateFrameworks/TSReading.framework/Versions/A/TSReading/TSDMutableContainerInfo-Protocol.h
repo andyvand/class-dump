@@ -5,7 +5,5 @@
 //
 
 @protocol TSDMutableContainerInfo
-- (void);
-- (void);
 @end
 

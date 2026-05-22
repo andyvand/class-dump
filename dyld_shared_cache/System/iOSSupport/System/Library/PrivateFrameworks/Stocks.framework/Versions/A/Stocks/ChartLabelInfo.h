@@ -15,18 +15,18 @@
 }
 
 - (void);
-- (void)z;
-- (void)z;
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (id);
-- (void);
 - (struct CGSize);
 - (void);
 - (double);
+- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

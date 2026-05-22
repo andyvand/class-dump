@@ -15,10 +15,10 @@
 
 - (id);
 - (id);
-- (id)rView: /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)%@"; destination device UUID = "%@"; lastModified = %@>;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -34,10 +34,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
 - (double);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double time; // @synthesize time=_time;

@@ -24,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)alSpringVelocity:options:animations:completion: /* Error: Ran out of types for this method. */;
+- (void)(Ð	;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

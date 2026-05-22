@@ -28,13 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id)"NSArray"16;
+- (id);
+- (id)e;
+- (void)teBeyondMostRecentClip;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessoryBrowser *accessoryBrowser; // @synthesize accessoryBrowser=_accessoryBrowser;

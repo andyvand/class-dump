@@ -17,9 +17,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (long long)s;
-- (struct UIEdgeInsets);
-- (long long)$Mb3;
+- (struct UIEdgeInsets);
+- (long long)Fþÿ¢ûÿjFþÿ¢ûÿiFþÿ¢ûÿûÿèûÿ;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hidden; // @synthesize hidden=_hidden;

@@ -21,18 +21,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (id)	!BùµÐ1¢!0@ù
+- (id);
+- (void);
+- (void)!XFù1ð1Â0@ù
 × ;
+- (id)¨;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;

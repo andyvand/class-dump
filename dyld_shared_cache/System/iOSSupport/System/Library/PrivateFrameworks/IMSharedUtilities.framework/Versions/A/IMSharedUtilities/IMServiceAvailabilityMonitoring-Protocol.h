@@ -5,7 +5,8 @@
 //
 
 @protocol IMServiceAvailabilityMonitoring
-- (_Bool)Brand;
+- (_Bool)ÔÁ!|Cù1sÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isMMSEnabled;

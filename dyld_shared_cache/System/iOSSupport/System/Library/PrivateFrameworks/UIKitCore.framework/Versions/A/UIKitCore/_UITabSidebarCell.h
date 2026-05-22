@@ -18,21 +18,21 @@ __attribute__((visibility("hidden")))
     UIBackgroundConfiguration *_originalBackgroundConfiguration;
 }
 
-- (id)y MobileGestaltfor key '%@';
-- (_Bool);
-- (void)i;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id)rticipantChangeItem:withProtobufData:protobuf2Data: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)8;
-- (void)public}@] updateLaunchCommands | updated commands [] error=%{public}@;
+- (_Bool);
 - (void);
-- (void)1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void)!@ù±Y°1Â0@ù
 × ;
-- (id)Insets == %@; We are IGNORING this invalidation since the area to layout in is 0.;
+- (void)Format";
+- (id)ncludeEmoji:(struct CGRect)arg1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIBackgroundConfiguration *originalBackgroundConfiguration; // @synthesize originalBackgroundConfiguration=_originalBackgroundConfiguration;

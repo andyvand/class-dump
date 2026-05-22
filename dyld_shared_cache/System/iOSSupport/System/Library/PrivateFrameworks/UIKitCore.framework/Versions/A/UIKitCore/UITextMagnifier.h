@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
     long long _delayedAnimationType;
 }
 
-+ (Class)unt:forKey: /* Error: Ran out of types for this method. */;
++ (Class);
 - (void);
 - (void);
 - (void);
@@ -36,30 +36,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)ngByStandardizingPath;
-- (double)al: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)resetStorageIfNeeded;
-- (void)endingParticipantIDSets;
-- (void)ary",&,N,V_pendingNicknameUpdates;
-- (void)dingCodesToDevicesForApproval;
-- (void)e:(id)arg1 account:(id)arg2;
 - (void);
-- (struct CGPoint)SDictionary",R,C;
-- (void)T@"NSArray",R,N,V_accounts;
-- (void),V_priorityMessageGUIDs;
-- (struct CGPoint)@"<IMDaemonListenerProtocol>",R,N,V_broadcaster;
-- (void)block_invoke;
-- (void);
-- (_Bool)_;
-- (void)ew",&,N,V_detailFieldFootnoteAndAccessoryStackView;
-- (id)oadedAssetForAirPlayProperties;
+- (double);
+- (struct CGPoint);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id),ú;
-- (id)rt Reply feedback;
-- (void)t,×þ.qØLÄe;
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id)!ÐBùQ[1Â0@ù
+× ;
+- (void);
+- (id)N,V_imageReservation;
+- (void)w;
+- (void)Rîÿ;
+- (void)UsableForVFD;
+- (void)@e;
+- (void)A;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint animationPoint; // @synthesize animationPoint=_animationPoint;

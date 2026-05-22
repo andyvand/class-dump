@@ -17,17 +17,16 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void)0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;

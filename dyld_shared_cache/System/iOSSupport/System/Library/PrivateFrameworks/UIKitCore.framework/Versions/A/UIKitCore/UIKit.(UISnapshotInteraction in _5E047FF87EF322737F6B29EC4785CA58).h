@@ -12,11 +12,12 @@
 }
 
 - (id);
-- (void);
-- (id)onBackgroundColor;
-- (void),;
-- (void);
-- (void)Vdelegate;
+- (void)`°1Â0@ù
+× ;
+- (id)ø3;
+- (void)Â;
+- (void)fþÿÿÿÿ;
+- (void)ìBíþÜl;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *view; // @synthesize view;

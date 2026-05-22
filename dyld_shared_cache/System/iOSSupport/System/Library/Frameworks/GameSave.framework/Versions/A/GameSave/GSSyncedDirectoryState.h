@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (long long);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *conflictedVersions;

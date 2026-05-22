@@ -9,14 +9,13 @@
 @protocol FCNewsWidgetConfiguration
 
 @optional
-- (_Bool);
-- (long long)le;
-- (long long)icle;
-- (long long)¨üÿ¨üÿ¸¨üÿô¨üÿ©üÿ<©üÿ`©üÿ©üÿÀ©üÿä©üÿªüÿTªüÿ ªüÿìªüÿ8«üÿ\«üÿ«üÿÐ«üÿ¬üÿ@¬üÿd¬üÿ¬üÿÔ¬üÿø¬üÿ­üÿ@­üÿ|­üÿ ­üÿÄ­üÿè­üÿ$®üÿH®üÿl®üÿ®üÿÌ®üÿð®üÿ¯üÿ8¯üÿ¯üÿÐ¯üÿô¯üÿ°üÿp°üÿ±üÿX±üÿ|±üÿp²üÿÜ²üÿ;
-- (double)enAccessTextAndSubscribeButton;
-- (long long)ed to fetch Configurable Offer Configs due to error:%@ /* Error: Ran out of types for this method. */;
-- (long long)Config;
-- (long long)ubscriptionStatusCheckerType;
+- (long long)refront;
+- (long long);
+- (long long)Äþÿÿÿ;
+- (long long)e;
+- (_Bool)ionNotSubscribedAlertMessage;
+- (long long)r email with the publisher, they will contact you to set up an account.;
+- (long long)ic}@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;

@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol NSObject
+- (id)ô;
+- (struct _NSZone *)iscover %{public}@ actions for %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

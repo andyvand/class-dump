@@ -16,11 +16,11 @@
 - (struct UIEdgeInsets);
 - (struct CGSize);
 - (CDStruct_b5e8865e);
+- (id);
+- (id);
 - (void);
-- (id);
+- (void);
 - (struct os_unfair_lock_s);
-- (id);
-- (void)+¢é+¢:(id)arg1 ÷ÿQ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *cache; // @synthesize cache=_cache;

@@ -39,8 +39,7 @@
 + (id);
 + (void);
 + (void);
-+ (void)ÑMÐ1b0@ù
-× ;
++ (void)ndQueue;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -113,20 +112,20 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (float);
 - (unsigned long long);
 - (id);
+- (float);
+- (long long);
 - (_Bool);
 - (id);
-- (void);
-- (long long);
-- (id);
-- (void);
 - (CDStruct_1b6d18a9);
 - (id);
+- (void);
 - (float);
-- (_Bool)ÿï{µÿ÷{µÿÿ{µÿ;
-- (float)êD;
+- (void);
+- (_Bool)ÿ1Î;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_detectionTrackNumberSet;

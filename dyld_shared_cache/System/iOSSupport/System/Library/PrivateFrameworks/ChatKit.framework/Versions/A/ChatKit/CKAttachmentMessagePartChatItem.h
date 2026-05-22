@@ -16,11 +16,11 @@
     CKMediaObject *_mediaObject;
 }
 
-- (double)6ICNoteCGGSo0aB2IDCGSo17OS_dispatch_queueCGShyA1_GGA4_G;
-- (_Bool)igurationP;
+- (double);
+- (_Bool);
 - (void);
-- (id)note… {originalNote:(id)arg1 %@, folder:(struct _NSRange)arg2 %@, isPasswordProtected:%@, removingOriginalNote:%@}%s:%d /* Error: Ran out of types for this method. */;
-- (id)rvice-background;
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
 - (id);
@@ -29,7 +29,7 @@
 - (_Bool);
 - (Class);
 - (unsigned long long);
-- (struct CGSize)];
+- (struct CGSize);
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
@@ -38,11 +38,11 @@
 - (id);
 - (void);
 - (id);
-- (Class);
-- (void);
 - (_Bool);
 - (id);
-- (_Bool)«­A2BG;
+- (_Bool);
+- (Class);
+- (void)èN;
 
 // Remaining properties
 @property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;

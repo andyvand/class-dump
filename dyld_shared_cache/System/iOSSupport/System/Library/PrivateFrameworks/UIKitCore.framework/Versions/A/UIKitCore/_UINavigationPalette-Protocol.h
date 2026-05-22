@@ -7,22 +7,21 @@
 @class UINavigationController, UIView;
 
 @protocol _UINavigationPalette
-- (UINavigationController *);
-- (_Bool)ationKey:]:toPointValue contains a NaN! /* Error: Ran out of types for this method. */;
-- (void)%@;
-- (_Bool)ot already have a KLG transition assertion when starting a custom navigation transition;
-- (_Bool)ies:%@; Internal accessories:%@ /* Error: Ran out of types for this method. */;
-- (void)lÿÿèÿ;
-- (void)¤ûÿÿ=tèÿø½qþ¡þÿ;
-- (void)lue;
-- (unsigned long long)uetG;
-- (void)UIImageViewImageContentGuide;
-- (UIView *)t is not valid as a requested transition;
-- (_Bool)ection: /* Error: Ran out of types for this method. */;
-- (_Bool)lementFadeDistance;
-- (void)UIViewLayoutRegion;
-- (_Bool);
-- (void)£71;
+- (void)ceSceneWithRetry;
+- (_Bool)Ï;
+- (_Bool)__strong _Nonnull)(void), void (^__strong _Nonnull)(NSData * _Nullable __strong, NSInteger, CGRect));
+- (void)View-heightPlusMargin;
+- (unsigned long long)tte.itemBottom;
+- (_Bool)w;
+- (struct UIEdgeInsets);
+- (_Bool)UIKitCore/UITabBarAuxiliaryView.swift;
+- (void);
+- (UIView *)lÅ·þ;
+- (_Bool)y(¿7G;
+- (_Bool)s.framework/CoreAnalytics;
+- (void)Õ13s;
+- (_Bool)er;
+- (void)þ´33Ø¹þ;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setBackgroundView:) UIView *_backgroundView;

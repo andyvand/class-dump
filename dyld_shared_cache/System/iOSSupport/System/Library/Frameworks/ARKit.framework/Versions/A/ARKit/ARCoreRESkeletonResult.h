@@ -32,12 +32,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) double estimatedScaleFactor; // @synthesize estimatedScaleFactor=_estimatedScaleFactor;

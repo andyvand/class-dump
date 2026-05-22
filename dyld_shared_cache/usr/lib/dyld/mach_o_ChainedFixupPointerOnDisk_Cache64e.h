@@ -4,10 +4,10 @@
 
 class mach_o::ChainedFixupPointerOnDisk::Cache64e {
 public: // (access info unavailable from symbols alone)
-    high8() const;
-    high8() const (.cold.1);
-    signPointer(unsigned long long, void*, bool, unsigned short, unsigned char);
-    signPointer(unsigned long long, void*, bool, unsigned short, unsigned char) (.cold.1);
-    signPointer(void*, unsigned long long) const;
-    signPointer(void*, unsigned long long) const (.cold.1);
+    auto high8() const;
+    auto high8() const (.cold.1);
+    auto signPointer(unsigned long long, void*, bool, unsigned short, unsigned char);
+    auto signPointer(unsigned long long, void*, bool, unsigned short, unsigned char) (.cold.1);
+    auto signPointer(void*, unsigned long long) const;
+    auto signPointer(void*, unsigned long long) const (.cold.1);
 };

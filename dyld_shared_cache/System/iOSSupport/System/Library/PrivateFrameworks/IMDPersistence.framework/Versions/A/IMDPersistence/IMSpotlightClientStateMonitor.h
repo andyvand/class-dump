@@ -17,17 +17,17 @@
 }
 
 - (int);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (id)ller: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (CDUnknownBlockType);
-- (void);
-- (id)Ô ;
+- (id);
+- (id)viceName;
+- (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler=_changeHandler;

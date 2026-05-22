@@ -26,22 +26,22 @@
 - (_Bool);
 - (void);
 - (long long);
+- (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (id);
-- (void);
-- (id)`;
-- (void);
-- (id)ÿ;
+- (id);
+- (_Bool);
+- (id)EnabledForUK;
+- (void)ED_URGENCY;
 
 // Remaining properties
 @property(nonatomic) long long groupActionType; // @synthesize groupActionType=_groupActionType;

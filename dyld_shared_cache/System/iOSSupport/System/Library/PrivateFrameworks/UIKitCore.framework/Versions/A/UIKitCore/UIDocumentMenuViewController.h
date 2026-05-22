@@ -25,16 +25,16 @@
 
 - (void);
 - (void);
-- (id)age:(id)arg1 %f, number of messages:(unsigned long long)arg2 %ld;
-- (id)allerID Repair - Found another iMessage account:(id)arg1 [%@], displayName:(unsigned long long)arg2 [%@];
-- (unsigned long long)eInfo:%@ lastAddressedHandle %@ lastAddressedSIMID %@ /* Error: Ran out of types for this method. */;
-- (_Bool)@ Told us that they have turned off SMS Relay for us, revoking them now ;
-- (id)an empty set of attachments back - there are still more so increasing watermark by 20;
-- (id));
-- (void)r a CKRecord we failed to fetch asset for, recordID %@, error %@;
-- (void)g any unsuccessfully synced attachments as needing sync;
-- (void)nceagent.notification.lastaddressedidsmodified;
-- (_Bool)ownSenderRecordInfoKey;
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -53,16 +53,15 @@
 - (void);
 - (id);
 - (id);
-- (void)oad:(long long)arg1;
-- (id);
-- (id);
-- (void)±Â1¢!0@ù
-× ;
-- (void)p!FùÃÐ1¢!0@ù
-× ;
-- (id);
 - (void);
-- (void)¼¼ÿ@;
+- (id);
+- (id);
+- (id)ñ\Ð1Â0@ù
+× ;
+- (void)b1"leftItemsSupplementBackButton"b1"alwaysShowsSearchBar"b1"searchBarVisibilityWhenScrolling"b2"shouldNotDismissPresentedViewControllerWhenPopped"b1"searchBarPlacementIsChangingWhenMovingToTop"b1"searchBarPlacementIsChangingWhenMovingFromTop"b1"isExplicitBackgroundOpacity"b1"animateBackgroundOpacity"b1"doesNotAllowInteractivePop"b1"allowsInteractivePopWhenNavigationBarHidden"b1"allowsInteractivePopWhenBackButtonHidden"b1"hasCustomAbbreviatedBackButtonTitles"b1"preventSearchBarInToolbar"b1"searchBarPlacementAllowsExternalIntegration"b1"didRemoveStackEntryWithActiveSearch"b1};
+- (void)stValidatedStartNotifications:(id)arg1 withInfo: /* Error: Ran out of types for this method. */;
+- (void)troller;
+- (void)è~ÿTäÍ h;
 
 // Remaining properties
 @property(nonatomic, getter=_ignoreApplicationEntitlementForImport, setter=_setIgnoreApplicationEntitlementForImport:) _Bool _ignoreApplicationEntitlementForImport; // @synthesize _ignoreApplicationEntitlementForImport;

@@ -19,10 +19,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
 - (void);
-- (void)velopeV1Payload;
+- (void);
 - (struct CGSize);
+- (void);
 
 @end
 

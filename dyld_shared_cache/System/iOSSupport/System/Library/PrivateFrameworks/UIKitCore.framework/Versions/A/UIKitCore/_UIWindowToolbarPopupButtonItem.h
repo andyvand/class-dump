@@ -12,19 +12,19 @@
 {
 }
 
-- (_Bool)opic stream;
-- (void)te range:(_Bool)arg1 %@ - %@;
-- (id)ation;
+- (_Bool);
 - (void);
-- (id);
+- (void);
 - (id);
-- (void)ass;
-- (void)utAttributesTransformer;
-- (void)ieldIsBeginningEditing;
-- (id)Iegg_;
-- (id)ayModeOneBesideSecondary should only report nonzero width for one of the primary or supplementary columns;
-- (_Bool)s;
-- (void);
+- (_Bool);
+- (id);
+- (void)uttingView:(id)arg1 isTopHeader: /* Error: Ran out of types for this method. */;
+- (id)rsed;
+- (void)itP33_FDF62CE22547DB2BF49759240B89F9C129_UISharedTextureContainerView;
+- (void)versionSegments;
+- (id)Value must be greater than zero or UITableViewAutomaticDimension.;
+- (void)re are no items;
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;

@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool):) /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
-+ (id)anged: /* Error: Ran out of types for this method. */;
-+ (id)onCoordinator_p;
-+ (long long).Õ)¸f;
++ (_Bool);
++ (id);
++ (id)Presentation;
++ (long long)¨g;
 
 @end
 

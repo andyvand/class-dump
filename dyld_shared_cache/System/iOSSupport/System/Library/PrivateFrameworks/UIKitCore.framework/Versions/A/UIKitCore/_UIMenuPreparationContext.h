@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _elementSizeSolver;
 }
 
-+ (id)y marked as unpurgeable on disk, but Messages database lists it as purgeable.;
++ (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)`;
+- (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
@@ -37,14 +37,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool)/;
 - (void);
-- (id)%@ with groupId %@:%@ /* Error: Ran out of types for this method. */;
-- (id)yingItemFromGeniusMix;
-- (void);
-- (void)
-× ;
-- (id)enuOnTouchDown;
+- (_Bool);
+- (id);
+- (id)ningVelocityThreshold;
+- (id)CollectionViewAnimationContext *__strong _Nonnull, __strong id<_UICollectionViewUpdateExpandCollapseAnimationContext> _Nonnull);
+- (void)Focus is not currently enabled in this environment's focus system, updates will be delayed.;
+- (void)°ß,b;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIDeferredMenuElementDelegate> deferredElementDelegate; // @synthesize deferredElementDelegate=_deferredElementDelegate;

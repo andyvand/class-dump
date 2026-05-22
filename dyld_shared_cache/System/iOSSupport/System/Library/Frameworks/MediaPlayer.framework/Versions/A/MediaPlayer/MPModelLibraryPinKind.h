@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)omMe:isGroupThread:isJunk:isRead:isPinned:isBusinessChat:tapbackAssociatedMessageID:tapbackType:messageType:messagesService: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

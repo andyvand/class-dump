@@ -13,16 +13,16 @@
     MPModelAlbumKind *_albumKind;
 }
 
-+ (id)t;
-+ (id)tWithUniqueId:domainId:absoluteTimestamp:title:content:contentProtection: /* Error: Ran out of types for this method. */;
-+ (_Bool)state did change [%{BOOL}u -> %{BOOL}u] - Posting notifications [MPCloudControllerIsCloudEnabledDidChangeNotification];
-- (id)AssociatedImageRepresentation"b1};
-- (void);
++ (id);
++ (id);
++ (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
+- (void)le;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPModelAlbumKind *albumKind; // @synthesize albumKind=_albumKind;

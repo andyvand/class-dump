@@ -42,12 +42,13 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (id);
 - (void);
-- (id)FullScreen: /* Error: Ran out of types for this method. */;
-- (void)eConstraint;
-- (_Bool)t:(id)arg1;
-- (void)AEy§vSgGGSgA2BG_¼¢xQo_;
+- (void);
+- (unsigned long long)0@ù
+× ;
+- (_Bool);
+- (void)pProgrammableSwitchInSceneServicePickerTitle;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *analyticsPresentationContext; // @synthesize analyticsPresentationContext=_analyticsPresentationContext;

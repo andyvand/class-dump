@@ -8,13 +8,13 @@
 @protocol OS_dispatch_queue;
 
 @protocol PXDisplayLinkProtocol
-- (long long)ctionPerformer;
-- (SEL)¼¢;
-- (UIScreen *);
-- (double)rror:] /* Error: Ran out of types for this method. */;
-- (unsigned int)nager;
-- (void);
-- (void)ShelfAnimation;
+- (long long)Ô ;
+- (void)nProperties;
+- (NSObject<OS_dispatch_queue> *)urStyle;
+- (unsigned int)text.sourcePerson;
+- (SEL)={CGPoint=dd}{CGSize=dd}}12;
+- (double)inePlaybackMaxSupportedVisiblePlayers;
+- (UIScreen *);
 
 // Remaining properties
 @property(readonly, nonatomic) double currentMediaTime;

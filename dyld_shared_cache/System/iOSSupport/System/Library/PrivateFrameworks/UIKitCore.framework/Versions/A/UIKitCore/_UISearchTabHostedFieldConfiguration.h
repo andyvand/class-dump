@@ -25,13 +25,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool)RX;
+- (_Bool);
 - (void);
 - (id);
-- (id)Data;
 - (id);
 - (id);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIAssertion> _borrowedAssertion; // @synthesize _borrowedAssertion=__borrowedAssertion;

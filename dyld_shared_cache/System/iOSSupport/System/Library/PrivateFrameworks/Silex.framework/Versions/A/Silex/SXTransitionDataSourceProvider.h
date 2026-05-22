@@ -17,12 +17,12 @@
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)ighlightView;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentController> componentController; // @synthesize componentController=_componentController;

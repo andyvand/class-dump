@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     double _height;
 }
 
-+ (id)0=;
++ (id)er:(double)arg1 reason:(struct CGPoint)arg2;
 - (double);
-- (_Bool);
+- (_Bool)ntainerWidth;
 
 @end
 

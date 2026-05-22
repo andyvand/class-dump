@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIKeyEventContext;
+
 @protocol UIAsyncTextInputDelegate
-- (void)1¢!0@ù
-× ;
-- (void)Rþÿ(RþÿTRþÿpRþÿRþÿ¨RþÿÄRþÿàRþÿüRþÿSþÿ4SþÿPSþÿlSþÿSþÿ¤SþÿÀSþÿÜSþÿøSþÿTþÿ0TþÿLTþÿhTþÿTþÿ Tþÿ¼TþÿØTþÿôTþÿUþÿ,UþÿHUþÿdUþÿUþÿUþÿ¸UþÿÔUþÿðUþÿVþÿ(VþÿDVþÿ`Vþÿ|VþÿVþÿ´VþÿÐVþÿìVþÿWþÿ$Wþÿ@Wþÿ\WþÿxWþÿWþÿXþÿ(XþÿDXþÿ`Xþÿ|XþÿXþÿ´XþÿÐXþÿìXþÿYþÿDYþÿ`Yþÿ|YþÿYþÿ´YþÿÐYþÿìYþÿZþÿ4Zþÿ`Zþÿ|Zþÿ¨ZþÿÄZþÿàZþÿüZþÿ[þÿ4[þÿP[þÿl[þÿ[þÿ¤[þÿÀ[þÿÜ[þÿø[þÿ\þÿ0\þÿX\þÿ\þÿ \þÿ¼\þÿØ\þÿWþÿì\þÿ]þÿ]þÿ8]þÿT]þÿp]þÿ]þÿ¨]þÿÔ]þÿð]þÿ$^þÿ@^þÿ\^þÿx^þÿ^þÿ°^þÿÌ^þÿè^þÿ_þÿ _þÿ<_þÿX_þÿt_þÿ_þÿ¬_þÿð_þÿ\`þÿ|`þÿ¨`þÿÈ`þÿè`þÿaþÿ8aþÿPaþÿ bþÿPbþÿpbþÿ°bþÿÈbþÿàbþÿ,cþÿcþÿÔdþÿeþÿDeþÿ\eþÿeþÿeþÿÀeþÿØeþÿfþÿ$fþÿ<fþÿ\fþÿtfþÿ¸fþÿÐfþÿèfþÿ;
 - (void);
-- (_Bool)aticDataColorMatrix;
+- (_Bool)tInRange:(UIKeyEventContext *)arg1 typedString: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)Dn;
+- (void);
 @end
 

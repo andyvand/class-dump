@@ -17,12 +17,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id)ë;
-- (void)0@ù
-× ;
+- (id)× ;
+- (void)(ÏáþgüÒ(Tg;
 
 // Remaining properties
 @property(retain, nonatomic) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;

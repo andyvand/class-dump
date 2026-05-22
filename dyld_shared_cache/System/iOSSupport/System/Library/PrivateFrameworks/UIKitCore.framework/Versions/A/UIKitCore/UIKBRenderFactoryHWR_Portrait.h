@@ -11,19 +11,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)ictionary:resultHandler: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)WithGUID: /* Error: Ran out of types for this method. */;
-- (double)leteTable;
-- (_Bool)rForAVConferenceListeners;
-- (void)Controller:accountRemoved: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)eghH_;
+- (struct UIEdgeInsets);
+- (struct CGPoint);
+- (double);
+- (_Bool);
+- (void);
+- (struct CGPoint);
 - (double);
 - (struct UIEdgeInsets);
 - (struct CGPoint);
-- (struct CGPoint)opping.;
-- (double)g auto reply;
-- (id)iveryReceipt;
-- (double)t: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (double);
+- (id);
+- (double)tWindowController",W,N,V_owner;
 
 @end
 

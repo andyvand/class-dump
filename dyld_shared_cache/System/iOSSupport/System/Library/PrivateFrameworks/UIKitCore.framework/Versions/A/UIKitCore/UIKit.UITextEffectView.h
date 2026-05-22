@@ -17,13 +17,13 @@
     MISSING_TYPE *sharedEffectViews;
 }
 
-- (void);
-- (void);
 - (id);
 - (void);
-- (void)üZº;
-- (void)animationMode;
-- (id)ust be in the receiver's subtree.;
+- (void)r;
+- (id);
+- (void)int=dd}{CGSize=dd}},N,V_contentBounds;
+- (void)dzìz;
+- (void)¹ÿ+;
 
 @end
 

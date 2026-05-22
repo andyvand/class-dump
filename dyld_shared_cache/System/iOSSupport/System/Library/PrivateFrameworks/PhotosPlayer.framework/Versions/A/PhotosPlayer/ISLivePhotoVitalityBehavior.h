@@ -36,27 +36,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void)T_	;
-- (void)qS;
-- (_Bool);
 - (void);
-- (void)h@y;
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
 - (void);
+- (void);
+- (void);
+- (CDStruct_1b6d18a9);
 - (void);
 - (CDStruct_1b6d18a9);
 - (long long);
 - (void);
-- (void)hb;
 - (void);
 - (_Bool);
-- (float);
 - (_Bool);
+- (void);
+- (float);
 
 // Remaining properties
 @property(nonatomic, setter=_setShouldPlayAfterPreparation:) _Bool _shouldPlayAfterPreparation; // @synthesize _shouldPlayAfterPreparation=__shouldPlayAfterPreparation;

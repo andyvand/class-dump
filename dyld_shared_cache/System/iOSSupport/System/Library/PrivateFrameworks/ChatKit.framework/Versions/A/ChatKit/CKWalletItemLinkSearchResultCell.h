@@ -17,24 +17,24 @@
 }
 
 + (id);
-- (void)Weight:(struct UIEdgeInsets)arg1;
-- (void)noteEditorSecondaryLabelColor;
-- (void)nState;
+- (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
-- (void)8q16@24@32{CGSize=dd}40d56Q64B72@76B84B88B92B96;
-- (id)|;
-- (void)!;
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)@;
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)ersationID;
+- (id);
+- (void)tTrailingLayoutMarginSize: /* Error: Ran out of types for this method. */;
+- (void)ptionOptInOnboarding;
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;

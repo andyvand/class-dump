@@ -24,8 +24,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)his class currently only supports UILabel;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

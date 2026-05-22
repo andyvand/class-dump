@@ -28,15 +28,15 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (id);
+- (void);
+- (void)DebuggingOverlays;
 
 // Remaining properties
 @property(readonly, nonatomic) PXNewMagazineRectArray *currentBestLayout;

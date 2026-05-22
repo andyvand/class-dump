@@ -5,6 +5,6 @@
 //
 
 @protocol RenderingIntegration
-- (int)+ÿ;
+- (int)èÙÿøèÚÿÿèÚÿ;
 @end
 

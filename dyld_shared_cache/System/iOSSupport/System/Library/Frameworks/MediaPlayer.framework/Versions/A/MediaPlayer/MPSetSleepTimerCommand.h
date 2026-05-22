@@ -13,13 +13,14 @@
     long long _stopMode;
 }
 
-- (long long);
+- (long long);
 - (void);
 - (id);
-- (void)t %@ = %@;
 - (double);
-- (void)A;
+- (void);
 - (double);
+- (void)1@Ð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double fireDate; // @synthesize fireDate=_fireDate;

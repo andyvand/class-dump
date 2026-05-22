@@ -15,8 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (void)é,º;
+- (id)!XBù`1Â0@ù
+× ;
+- (void)ÊA4;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;

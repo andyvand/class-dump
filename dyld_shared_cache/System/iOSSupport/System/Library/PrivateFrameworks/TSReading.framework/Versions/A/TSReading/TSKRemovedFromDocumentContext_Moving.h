@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (_Bool)@;
-- (id)Event with probability ;
+- (id);
+- (_Bool);
 
 @end
 

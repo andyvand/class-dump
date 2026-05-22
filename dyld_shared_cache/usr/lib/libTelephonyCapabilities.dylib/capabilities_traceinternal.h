@@ -4,8 +4,10 @@
 
 class capabilities::traceinternal {
 public: // (access info unavailable from symbols alone)
-    supportsDataLoggingByDefault();
-    supportsDataLoggingByDefault()::ret;
-    supportsHighTPutByDefault();
-    supportsHighTPutByDefault()::ret;
+    auto supportsDataLoggingByDefault();
+    auto supportsDataLoggingByDefault()::ret;
+    auto supportsHighTPutByDefault();
+    auto supportsHighTPutByDefault()::ret;
+    guard variable for supportsDataLoggingByDefault()::ret;
+    guard variable for supportsHighTPutByDefault()::ret;
 };

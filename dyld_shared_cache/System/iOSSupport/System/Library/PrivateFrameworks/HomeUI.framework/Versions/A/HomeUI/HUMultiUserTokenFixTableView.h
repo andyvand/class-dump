@@ -26,13 +26,13 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (id);
 - (long long);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void)iceDetailsProgrammableSwitchSectionIdentifierPrefix-;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

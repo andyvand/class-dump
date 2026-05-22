@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)þÿðüÿ;
-- (void);
+- (id)leItem:(struct CGRect)arg1;
+- (void)íÍ33D;
+- (void)lWþÜ;
 
 @end
 

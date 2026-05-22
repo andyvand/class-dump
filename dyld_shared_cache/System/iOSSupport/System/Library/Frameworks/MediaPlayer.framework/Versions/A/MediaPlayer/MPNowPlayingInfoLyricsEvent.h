@@ -12,7 +12,7 @@
 }
 
 - (void *);
-- (id):(void *)arg1 locations:contentProtection: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (id);

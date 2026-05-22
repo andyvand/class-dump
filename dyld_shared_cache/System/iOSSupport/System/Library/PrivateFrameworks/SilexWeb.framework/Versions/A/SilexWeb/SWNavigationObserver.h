@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
-- (CDUnknownBlockType);
 - (id);
+- (CDUnknownBlockType);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

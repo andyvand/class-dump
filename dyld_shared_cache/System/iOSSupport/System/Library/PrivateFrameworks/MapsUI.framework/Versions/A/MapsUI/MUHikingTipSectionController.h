@@ -27,9 +27,9 @@
 - (id);
 - (_Bool);
 - (int);
-- (void);
 - (id);
 - (_Bool);
+- (void)raryWithAddSelection:environment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CLLocationCoordinate2D coordinateForTooltip;

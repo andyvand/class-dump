@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void){public}@;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *contextInfo; // @synthesize contextInfo=_contextInfo;

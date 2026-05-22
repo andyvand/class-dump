@@ -40,10 +40,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool)@à;
-- (struct CGSize)tungstenView;
-- (void);
+- (struct CGSize);
+- (void)essStatus PXStoryPlaybackReadinessStatusCombine(PXStoryPlaybackReadinessStatus, PXStoryPlaybackReadinessStatus);
+- (_Bool)gs.m;
+- (void)_LIBRARY_PLACEHOLDER_MESSAGE;
 
 // Remaining properties
 @property(nonatomic) double contentTileCornerRadius; // @synthesize contentTileCornerRadius=_contentTileCornerRadius;

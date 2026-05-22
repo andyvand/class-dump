@@ -19,19 +19,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)R;
-- (void);
-- (void)ers: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void)entBarButtonItemState;
-- (id);
-- (id)(
-;
 - (int);
-- (void)insertPage:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
-- (_Bool)Outline:forDestination: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void)ñu1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak PDFDocument *document; // @synthesize document=_document;

@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)hrase];
-+ (id)];
-+ (id)';
-+ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 
 @end

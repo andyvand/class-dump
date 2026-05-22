@@ -4,12 +4,12 @@
 
 class CASerializer {
 public: // (access info unavailable from symbols alone)
-    AllocWritePtr(unsigned int, unsigned int);
     CASerializer(__CFData*);
-    PrepareToWrite(unsigned int);
-    PrepareToWrite(unsigned int)::pad;
-    Write(void const*, unsigned int, unsigned int);
-    WriteData(__CFData const*);
-    WritePlist(void const*);
+    auto AllocWritePtr(unsigned int, unsigned int);
+    auto PrepareToWrite(unsigned int);
+    auto PrepareToWrite(unsigned int)::pad;
+    auto Write(void const*, unsigned int, unsigned int);
+    auto WriteData(__CFData const*);
+    auto WritePlist(void const*);
     ~CASerializer();
 };

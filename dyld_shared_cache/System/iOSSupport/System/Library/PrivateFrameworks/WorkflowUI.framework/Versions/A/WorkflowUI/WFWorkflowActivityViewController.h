@@ -38,7 +38,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)FieldViewControllerDelegate;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

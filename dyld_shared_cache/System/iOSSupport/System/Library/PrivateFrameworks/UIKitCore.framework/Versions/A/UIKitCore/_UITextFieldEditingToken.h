@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool)ViewController:contentScrollView:navBarFrame:topPaletteFrame:topLayoutType: /* Error: Ran out of types for this method. */;
-- (id);
+- (_Bool);
+- (id)view:%@; Visual style:%@ /* Error: Ran out of types for this method. */;
+- (void)extureController33_FDF62CE22547DB2BF49759240B89F9C1LLC8DelegateP;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *attributeNames; // @synthesize attributeNames=_attributeNames;

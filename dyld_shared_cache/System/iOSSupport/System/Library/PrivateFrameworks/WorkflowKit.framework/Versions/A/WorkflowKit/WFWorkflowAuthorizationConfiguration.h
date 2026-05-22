@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)cnnipad;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *localizedMessage; // @synthesize localizedMessage=_localizedMessage;

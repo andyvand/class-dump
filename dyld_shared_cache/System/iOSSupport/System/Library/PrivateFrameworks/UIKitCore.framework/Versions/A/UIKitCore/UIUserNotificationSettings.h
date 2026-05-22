@@ -13,24 +13,24 @@
 }
 
 + (id);
-+ (id);
 + (id);
-+ (_Bool)ð7hÿÚ"Ûïm;
++ (id);
++ (_Bool)ntrollerInColumn:layout:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool)pe;
-- (id)ker;
-- (id)ference:(unsigned long long)arg1 account:(id)arg2;
-- (unsigned long long)geTextByRemovingMessagePartIndex: /* Error: Ran out of types for this method. */;
-- (void)_kl;
+- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool)SGetChunks, chunkSignatures array element had incorrect type.;
-- (id)nfoKeyTitle;
 - (id);
-- (void);
-- (unsigned long long)initWithTraitCollection:value: /* Error: Ran out of types for this method. */;
-- (id)ractionGestureRecognizer",&,N,V_tapGesture;
-- (id)ÇÖ@b;
+- (id);
+- (unsigned long long);
+- (id)isplay"b1"generatesThumbnails"b1"skipImageStats"b1};
+- (_Bool)tsIsSingleValue:(id)arg1;
+- (void)Keyboard;
+- (id)sitionAnimationSettings;
+- (void);
+- (unsigned long long)Õnd;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *categories; // @synthesize categories=_categories;

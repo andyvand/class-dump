@@ -27,20 +27,20 @@
 }
 
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (void);
-- (long long);
 - (id);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (long long)ePendingCompletionHandlerWithToken:withError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <RCAssetWriterDelegate> delegate; // @synthesize delegate=_delegate;

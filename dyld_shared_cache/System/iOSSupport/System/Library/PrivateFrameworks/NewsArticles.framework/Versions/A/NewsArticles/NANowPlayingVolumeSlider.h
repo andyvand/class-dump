@@ -17,21 +17,21 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *volumeChangeHandler;
 }
 
-- (id);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (struct CGPoint);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void)roviders;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint accessibilityActivationPoint;

@@ -27,9 +27,8 @@
 - (id);
 - (void);
 - (void);
-- (id)
-× ;
-- (void)iseFloat3;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allTargetsFromAnimCodec; // @synthesize allTargetsFromAnimCodec=_allTargetsFromAnimCodec;

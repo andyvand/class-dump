@@ -27,8 +27,8 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (_Bool);
-+ (id)úÿ[3;
 - (_Bool);
 - (id);
 - (id);
@@ -55,19 +55,19 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (struct CGSize);
 - (void);
 - (_Bool);
 - (id);
+- (struct CGSize);
+- (void)x15@7:(id)arg1 x=;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;

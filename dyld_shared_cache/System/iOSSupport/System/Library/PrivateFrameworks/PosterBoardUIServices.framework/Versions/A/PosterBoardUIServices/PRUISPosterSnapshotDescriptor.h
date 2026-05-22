@@ -21,7 +21,7 @@
     long long _predicateOptions;
 }
 
-+ (id)øÿ;
++ (id);
 - (id);
 - (id);
 - (long long);
@@ -31,19 +31,19 @@
 - (struct CGRect);
 - (id);
 - (long long);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
+- (double);
 - (_Bool);
 - (id);
-- (void);
-- (double);
 - (struct CGRect);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (long long);
-- (id);
+- (void);
+- (long long)PRPosterConfigurableOptions";
 
 // Remaining properties
 @property(readonly, nonatomic) long long accessibilityContrast; // @synthesize accessibilityContrast=_accessibilityContrast;

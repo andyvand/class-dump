@@ -17,16 +17,16 @@
 + (id);
 + (_Bool);
 + (id);
-- (id)5ActivityStreamControllingP;
+- (id);
 - (struct CGRect);
-- (void)GG_Qo_t;
-- (CDUnknownBlockType)ctIDCSg06objectD0tG;
-- (struct CGSize)o;
-- (_Bool),;
-- (_Bool)m;
 - (void);
-- (void)lineControllerInternal;
-- (struct UIEdgeInsets)ure;
+- (CDUnknownBlockType);
+- (struct CGSize);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
 - (void);
 - (id);
 - (id);
@@ -43,19 +43,18 @@
 - (struct CKBalloonDescriptor_t);
 - (void);
 - (void);
-- (void)!;
+- (void);
 - (id);
 - (id);
 - (void);
-- (void)";
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (struct CGSize);
 - (id);
-- (id)/À/0À0h34 =X@´@8e´eTg;
-- (struct CGSize)Ô
-;
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void)P;
 
 // Remaining properties
 @property(retain, nonatomic) LPLinkView *attachmentView; // @synthesize attachmentView=_attachmentView;

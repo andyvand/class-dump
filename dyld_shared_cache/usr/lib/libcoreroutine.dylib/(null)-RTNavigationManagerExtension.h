@@ -5,8 +5,8 @@
 //
 
 @interface (null) (RTNavigationManagerExtension)
-- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
 @end
 

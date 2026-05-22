@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (void);
-- (void);
-- (id)is is probably not what you want.;
-- (void)wýj;
+- (id),&,N,V_tabsBecomingVisible;
+- (void)àÿ-À;
+- (void)õËH-q;
 
 // Remaining properties
 @property(nonatomic) unsigned long long buttonState; // @synthesize buttonState=_buttonState;

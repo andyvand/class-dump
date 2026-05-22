@@ -10,15 +10,15 @@
 - (void);
 - (void);
 - (id);
-- (id)NSString";
 - (id);
 - (id);
-- (id)psTransitMessage";
 - (id);
 - (id);
-- (id)larPlanManagerCameraScanAction";
 - (id);
-- (id)">;
+- (id);
+- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_atvaccessibilityITMLAccessibilityContent;

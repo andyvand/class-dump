@@ -31,7 +31,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)iewController tableView:didSelectRowAtIndexPath:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *customNearbyAccessories; // @synthesize customNearbyAccessories=_customNearbyAccessories;

@@ -24,8 +24,8 @@
 }
 
 + (double);
-+ (_Bool);
 + (id);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -35,7 +35,6 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -43,6 +42,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -54,12 +54,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)0@ù
-× ;
-- (void)ror;
-- (id)#<B-;
+- (void)hotosLibrarySettingsModule initWithItemUpdater:] /* Error: Ran out of types for this method. */;
+- (id)eviceButton;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;

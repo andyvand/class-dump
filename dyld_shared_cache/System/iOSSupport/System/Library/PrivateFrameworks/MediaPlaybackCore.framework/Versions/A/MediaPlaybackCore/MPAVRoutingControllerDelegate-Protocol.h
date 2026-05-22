@@ -5,9 +5,5 @@
 //
 
 @protocol MPAVRoutingControllerDelegate
-
-@optional
-- (void);
-- (void);
 @end
 

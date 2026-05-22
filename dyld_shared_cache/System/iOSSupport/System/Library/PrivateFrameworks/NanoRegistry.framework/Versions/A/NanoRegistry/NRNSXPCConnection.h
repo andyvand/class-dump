@@ -11,30 +11,30 @@
     NSXPCConnection *_connection;
 }
 
-- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (id);
 - (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (void)ble: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

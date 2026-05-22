@@ -4,15 +4,15 @@
 
 class std::collate<char> {
 public: // (access info unavailable from symbols alone)
-    _M_compare(char const*, char const*) const;
-    _M_transform(char*, char const*, unsigned long) const;
+    auto _M_compare(char const*, char const*) const;
+    auto _M_transform(char*, char const*, unsigned long) const;
+    auto compare(char const*, char const*, char const*, char const*) const;
+    auto do_compare(char const*, char const*, char const*, char const*) const;
+    auto do_hash(char const*, char const*) const;
+    auto do_transform(char const*, char const*) const;
+    auto hash(char const*, char const*) const;
+    auto transform(char const*, char const*) const;
     collate(int*, unsigned long);
     collate(unsigned long);
-    compare(char const*, char const*, char const*, char const*) const;
-    do_compare(char const*, char const*, char const*, char const*) const;
-    do_hash(char const*, char const*) const;
-    do_transform(char const*, char const*) const;
-    hash(char const*, char const*) const;
-    transform(char const*, char const*) const;
     ~collate();
 };

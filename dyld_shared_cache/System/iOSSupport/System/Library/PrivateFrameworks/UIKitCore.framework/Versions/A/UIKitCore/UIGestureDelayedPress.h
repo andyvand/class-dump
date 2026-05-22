@@ -18,25 +18,24 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (long long);
 - (id);
+- (double);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)0@ù
+- (void);
+- (long long)_°1Â0@ù
 × ;
-- (void)!pGùQÃ°1¢!0@ù
+- (id)Qfð1Â0@ù
 × ;
-- (_Bool)@ùÑÇ°1¢!0@ù
-× ;
-- (long long)!;
-- (long long)dateContext";
-- (void)oint:connectionHandler: /* Error: Ran out of types for this method. */;
-- (id)nt:(id)arg1;
-- (id)r",&,N,G_strongReferenceToOurself,S_setStrongReferenceToOurself:,V_strongReferenceToOurself /* Error: Ran out of types for this method. */;
-- (id)er;
-- (double)e)-[layoutView]-(rightTitleInset)-|;
-- (long long);
+- (id)TableFooterView;
+- (long long)tle;
+- (void)rolModernContentView;
+- (id);
+- (_Bool)Ý%ÿçÕDdb;
+- (void)°"h;
 
 // Remaining properties
 @property(nonatomic) _Bool clonedForSecondDelivery; // @synthesize clonedForSecondDelivery=_clonedForSecondDelivery;

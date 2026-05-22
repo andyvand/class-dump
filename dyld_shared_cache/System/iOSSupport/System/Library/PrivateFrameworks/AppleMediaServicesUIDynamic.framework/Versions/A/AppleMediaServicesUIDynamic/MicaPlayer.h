@@ -48,24 +48,24 @@
 - (id);
 - (double);
 - (void);
-- (_Bool);
-- (void);
 - (id);
+- (void);
+- (_Bool);
 - (void);
 - (double);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool)Òÿÿæ[ÿÿ;
+- (void)× ;
 
 // Remaining properties
 @property(nonatomic) __weak id <MicaPlayerDelegate> delegate; // @synthesize delegate=_delegate;

@@ -5,6 +5,5 @@
 //
 
 @protocol SXPresentationAttributesManager
-- (void);
 @end
 

@@ -22,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id)9	;
+- (void)Q,N,V_trailID;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

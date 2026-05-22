@@ -22,64 +22,67 @@
     NSString *_primaryLanguage;
 }
 
-+ (void)age GUID %@;
-+ (_Bool)postTickCallbacks;
++ (void);
++ (void);
++ (id);
++ (_Bool);
 - (_Bool);
-- (void)lues"24@?<v@?@"<MTLFunction>"@"NSError">32;
-- (void)C,N,V_payloadSafariDomains;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)X@;
-- (_Bool);
-- (_Bool);
+- (id);
 - (void);
-- (id)cs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)},N,V_hc;
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id)UserCloned,V_userCloned;
-- (void)ion to %f on %{public}@;
-- (void);
-- (struct CGSize);
-- (void);
 - (id);
 - (_Bool);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)1Â°1¢!0@ù
-× ;
+- (_Bool);
 - (void);
 - (_Bool)0@ù
 × ;
-- (void)!èFùQÇÐ1¢!0@ù
+- (void)!¤@ù]°1Â0@ù
 × ;
-- (void)É1¢!0@ù
+- (id);
+- (void)1Â0@ù
 × ;
-- (_Bool)1¢!0@ù
+- (void)A!P@ù±b°1Â0@ù
 × ;
-- (void)erAsymmetricExtender";
-- (id)AnimationControllerForPresentation: /* Error: Ran out of types for this method. */;
-- (void)veAllPrefetchedCells;
-- (void)boardInset;
-- (void)nTintMaskImage;
-- (void)dateViewPropertiesForHighlightStyle:(_Bool)arg1;
-- (id)kgroundColor;
-- (id)IVisualEffect",C,N,S_setBackgroundEffect:,V__backgroundEffect /* Error: Ran out of types for this method. */;
-- (_Bool)bel",R;
-- (_Bool)"NSHashTable",R,N,V_controlsPresentedAssertions;
-- (void)ðU;
-- (_Bool);
-- (void)ent;
-- (void)ayout engine; ;
-- (void)ticDynamicParameterID getCHHapticDynamicParameterIDHapticDecayTimeControl(void);
-- (void)brancyEffectStyleSecondaryFill;
-- (void);
-- (void);
-- (id)°ÿ7ÁÍ«&`;
-- (void);
-- (id)k"ÿ;
+- (void)
+× ;
+- (void)f°1Â0@ù
+× ;
+- (void)56@0:8@16@24@32{CGPoint=dd}40 /* Error: Ran out of types for this method. */;
+- (void)8q16{CGVector=dd}24B40;
+- (id)entHostNeedsUpdate"b1"allowsDithering"b1"allowsGroupFiltering"b1"useReducedTransparencyForContentHost"b1"isUpdatingSubviews"b1"hasBackdropBackgroundColorAlpha"b1"isContentStatic"b1"blurClippingMode"I};
+- (_Bool)terDuration: /* Error: Ran out of types for this method. */;
+- (void)useOfCell:(_Bool)arg1;
+- (_Bool)shiftTouches;
+- (void)ification;
+- (void)ignmentRectContext;
+- (id)¨$<hØ;
+- (void)è;
+- (id)¬%·;
+- (void)ntrollerAdaptiveImpl _prepareViewControllerInColumn:(_Bool)arg1 layout:] /* Error: Ran out of types for this method. */;
+- (struct CGSize)ated with a UIView.;
+- (void)ew insertion index for type %ld is too large, there should never be this many internal subviews. Subviews:(id)arg1 %@;
+- (id);
+- (void)ÔDëÿºØ/;h;
+- (void)ðâÿ1òØlh;
+- (id)Pj;
+- (_Bool) k;
+- (void)Ysq;
 
 // Remaining properties
 @property(nonatomic) _Bool _alignsToContentViewController; // @synthesize _alignsToContentViewController;

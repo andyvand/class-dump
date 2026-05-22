@@ -20,26 +20,26 @@
 + (id);
 + (id);
 + (double);
-- (void)n;
-- (void)tachmentWithFallbackImage;
-- (void)boardWriting;
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)CG;
 - (void);
 - (void);
-- (id)ebug.NotesImporter;
-- (id)mported HTML note from web archive;
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)essObserver:(long long)arg1;
 - (void);
 
 // Remaining properties

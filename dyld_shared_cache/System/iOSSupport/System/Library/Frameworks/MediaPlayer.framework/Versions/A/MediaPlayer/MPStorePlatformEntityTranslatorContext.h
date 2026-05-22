@@ -11,9 +11,9 @@
     NSString *_personID;
 }
 
-- (void)rProtocol;
-- (void)a;
-- (id)5;
+- (void);
+- (id);
+- (void)Behavior;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *personID; // @synthesize personID=_personID;

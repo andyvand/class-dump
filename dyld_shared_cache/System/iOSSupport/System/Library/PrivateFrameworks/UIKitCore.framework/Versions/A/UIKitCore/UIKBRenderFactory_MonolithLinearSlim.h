@@ -11,18 +11,18 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ablePersistentProperties;
-- (id)dForChatsWithGUIDs:queryID:deletionDate: /* Error: Ran out of types for this method. */;
-- (double)deletionDate: /* Error: Ran out of types for this method. */;
-- (double)eleted:forChatWithGUID:queryID:deletionDate: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (double);
+- (double);
 - (struct CGSize);
 - (id);
-- (id)};
-- (void)ding all attachments. {shouldDownloadAssets:(id)arg1 %@};
-- (void)syncing %@ with error %@;
-- (void)syncing is off;
-- (id)sage ID or thread ID %@;
-- (struct CGPoint)g SMS/MMS dictionary for GUID (%@) through BlastDoor;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (struct CGPoint);
 - (id);
 - (id);
 

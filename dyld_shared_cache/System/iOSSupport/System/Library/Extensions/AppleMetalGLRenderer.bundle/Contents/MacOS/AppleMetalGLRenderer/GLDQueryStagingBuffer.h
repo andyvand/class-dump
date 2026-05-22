@@ -4,9 +4,9 @@
 
 class GLDQueryStagingBuffer {
 public: // (access info unavailable from symbols alone)
-    allocateResultOffset(unsigned int*, unsigned int);
-    dealloc();
-    deferProcessResults(GLDContextRec*, GLRQueryResultBuffer*, unsigned long long);
-    initWithShareGroup(GLDShareGroupRec*);
+    auto allocateResultOffset(unsigned int*, unsigned int);
+    auto dealloc();
+    auto deferProcessResults(GLDContextRec*, GLRQueryResultBuffer*, unsigned long long);
+    auto initWithShareGroup(GLDShareGroupRec*);
     ~GLDQueryStagingBuffer();
 };

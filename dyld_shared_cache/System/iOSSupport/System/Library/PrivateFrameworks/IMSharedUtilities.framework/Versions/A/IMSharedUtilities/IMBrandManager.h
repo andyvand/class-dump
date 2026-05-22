@@ -4,36 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSUIBrandManager, NSOperationQueue;
+@class BSUIBrandManager, IMBrandRBMBrandDataSourceObjcShim, NSOperationQueue;
 
 @interface IMBrandManager
 {
     BSUIBrandManager *_mapKitBrandManager;
+    IMBrandRBMBrandDataSourceObjcShim *_rbmShim;
     BSUIBrandManager *_chatBotBrandManager;
     NSOperationQueue *_brandFetchQueue;
 }
 
-+ (id)-úeÑ;
-- (void)cv%d  ch%d  cd%d;
-- (void)ounds;
-- (id)untime-issues;
-- (void)vice side;
-- (id)ontroller Class %@ not found service side;
-- (id)nPrincipalClass must be specified in the extension's Info.plist file but not both.;
-- (id)xtension's Info.plist;
-- (void)onContainingViewControllerClass;
-- (void);
++ (id)[%s]:final url:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)nCG;
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *brandFetchQueue; // @synthesize brandFetchQueue=_brandFetchQueue;
 @property(retain, nonatomic) BSUIBrandManager *chatBotBrandManager; // @synthesize chatBotBrandManager=_chatBotBrandManager;
 @property(retain, nonatomic) BSUIBrandManager *mapKitBrandManager; // @synthesize mapKitBrandManager=_mapKitBrandManager;
+@property(retain, nonatomic) IMBrandRBMBrandDataSourceObjcShim *rbmShim; // @synthesize rbmShim=_rbmShim;
 
 @end
 

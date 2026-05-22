@@ -7,6 +7,7 @@
 @class HFMediaPlaybackActionBuilder, HMHome, NSArray;
 
 @protocol HFActionSetBuilderProtocol
+- (void)orkProfileInstallSymptom;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *actions;

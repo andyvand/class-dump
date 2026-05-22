@@ -11,9 +11,9 @@
     MISSING_TYPE *_timerManagerServiceConnection;
 }
 
-- (void);
 - (id);
 - (id);
+- (void)upancySensor;
 
 @end
 

@@ -16,17 +16,17 @@
     NSString *_activeStateName;
 }
 
-+ (_Bool)IÑ×;
++ (_Bool)nction>"32@0:8@"MTLIntersectionFunctionDescriptor"16^@24 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;

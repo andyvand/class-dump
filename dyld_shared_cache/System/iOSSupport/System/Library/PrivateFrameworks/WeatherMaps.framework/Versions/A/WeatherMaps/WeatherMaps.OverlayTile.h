@@ -12,9 +12,9 @@
     MISSING_TYPE *resourceProviders;
 }
 
+- (id);
 - (_Bool);
 - (void);
-- (id);
 
 @end
 

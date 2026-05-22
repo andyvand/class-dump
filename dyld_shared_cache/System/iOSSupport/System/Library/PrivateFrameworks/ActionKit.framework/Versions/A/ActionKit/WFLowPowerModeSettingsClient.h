@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)x.evernote.com;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

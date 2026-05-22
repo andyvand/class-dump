@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol IMService
-- (_Bool);
+- (_Bool)n;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ignoresNetworkConnectivity;

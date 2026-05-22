@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol UIDragInteractionDelegate_Private
-
-@optional
-- (NSArray *)@;
-- (_Bool)`2;
 @end
 

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)995-DisableParticipantConverging;
++ (id);
 
 @end
 

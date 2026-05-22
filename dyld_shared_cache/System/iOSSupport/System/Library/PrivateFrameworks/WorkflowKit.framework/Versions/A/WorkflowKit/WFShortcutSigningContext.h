@@ -17,8 +17,8 @@
 }
 
 + (id);
-+ (id)«¸Ì;
-+ (id)²Ì;
++ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,8 +37,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)operty %s
+;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *appleIDCertificateChain; // @synthesize appleIDCertificateChain=_appleIDCertificateChain;

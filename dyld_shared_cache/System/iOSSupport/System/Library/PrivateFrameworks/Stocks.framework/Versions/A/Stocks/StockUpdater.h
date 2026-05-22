@@ -22,22 +22,22 @@
 
 - (CDUnknownBlockType);
 - (void);
-- (void)y;
-- (void);
-- (id)z;
+- (void);
+- (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool)y;
-- (void);
+- (id);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (id);
 - (void);
-- (void)Ô!!;
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <StockUpdaterDelegate> delegate; // @synthesize delegate=_delegate;

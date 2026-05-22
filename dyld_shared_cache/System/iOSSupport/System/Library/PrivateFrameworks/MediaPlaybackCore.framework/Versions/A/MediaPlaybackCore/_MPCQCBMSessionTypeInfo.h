@@ -17,21 +17,20 @@ __attribute__((visibility("hidden")))
     NSString *_exportableReason;
 }
 
-+ (id)dealloc;
++ (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id)ATA_CONST;
-- (id);
-- (void);
-- (void)F;
+- (id);
+- (id);
 - (void);
 - (id);
-- (void)8
-;
+- (void);
+- (void)| autoplay waiting for trigger [new supported content];
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) MPCPlaybackAccount *account; // @synthesize account=_account;

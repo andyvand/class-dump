@@ -9,8 +9,8 @@
 }
 
 + (Class);
-- (void);
 - (id);
+- (void);
 - (id);
 
 @end

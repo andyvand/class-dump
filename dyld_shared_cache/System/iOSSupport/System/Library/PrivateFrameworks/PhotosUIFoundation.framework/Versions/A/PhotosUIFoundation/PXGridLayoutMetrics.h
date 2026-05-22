@@ -29,15 +29,15 @@
 - (void);
 - (void);
 - (void);
+- (struct CGSize);
+- (struct CGSize);
+- (void);
 - (struct UIEdgeInsets);
+- (void);
+- (long long);
+- (void);
 - (struct CGSize);
 - (id);
-- (struct CGSize);
-- (void);
-- (struct CGSize);
-- (void);
-- (long long)vertingChanges:fromIndexPath:hasIncrementalChanges:objectChanged:changedProperties: /* Error: Ran out of types for this method. */;
-- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long additionalTileCount; // @synthesize additionalTileCount=_additionalTileCount;

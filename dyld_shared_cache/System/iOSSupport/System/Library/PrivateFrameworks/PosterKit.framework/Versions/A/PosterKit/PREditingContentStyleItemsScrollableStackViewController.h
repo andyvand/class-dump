@@ -25,10 +25,11 @@
 - (id);
 - (void);
 - (void);
-- (id)bientWidgetLayout;
-- (void)ntrol to %{public}@ with category %{public}ld;
-- (void)ðÿØL;
-- (void)Ütýÿ ÙZB;
+- (id);
+- (void);
+- (void)
+× ;
+- (void)rviceClientDelegate;
 
 // Remaining properties
 @property(nonatomic) _Bool needsScrollToSelectedItem; // @synthesize needsScrollToSelectedItem=_needsScrollToSelectedItem;

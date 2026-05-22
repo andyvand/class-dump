@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)KeyboardGrabs;
-- (void)$H;
+- (void);
+- (void)turalPromptContainerHeight;
 
 @end
 

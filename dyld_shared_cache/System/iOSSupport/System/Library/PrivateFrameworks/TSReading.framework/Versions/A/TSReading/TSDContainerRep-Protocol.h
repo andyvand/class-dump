@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol TSDContainerInfo;
 
 @protocol TSDContainerRep
-
-@optional
-- (void)P;
-- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<TSDContainerInfo> *containerInfo;

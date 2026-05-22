@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (void)inObservingCloudLibraryEnabled;
-- (unsigned int)erDelegate;
-- (_Bool)pGenericSong;
+- (unsigned int);
+- (_Bool);
+- (void)hQuota:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

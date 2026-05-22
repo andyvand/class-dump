@@ -36,7 +36,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)r">8;
 
 // Remaining properties
 @property(retain, nonatomic) NAFuture *changeLanguageFuture; // @synthesize changeLanguageFuture=_changeLanguageFuture;

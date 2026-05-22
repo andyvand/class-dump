@@ -34,16 +34,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)ssChatURLToOpenForURL: /* Error: Ran out of types for this method. */;
-- (id)ormalizedLanguageIdentifier:(struct CGPoint)arg1 dedupLanguageKey:(id)arg2 forInputModeIdentifier: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)a;
-- (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long containerOrientation; // @synthesize containerOrientation=_containerOrientation;

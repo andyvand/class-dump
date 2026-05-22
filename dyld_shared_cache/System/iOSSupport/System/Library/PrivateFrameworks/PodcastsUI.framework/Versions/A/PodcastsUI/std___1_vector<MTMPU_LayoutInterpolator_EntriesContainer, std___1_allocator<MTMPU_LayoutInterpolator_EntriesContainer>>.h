@@ -4,11 +4,13 @@
 
 class std::__1::vector<MTMPU::LayoutInterpolator::EntriesContainer, std::__1::allocator<MTMPU::LayoutInterpolator::EntriesContainer>> {
 public: // (access info unavailable from symbols alone)
-    __move_range(MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*);
-    __swap_out_circular_buffer(std::__1::__split_buffer<MTMPU::LayoutInterpolator::EntriesContainer, std::__1::allocator<MTMPU::LayoutInterpolator::EntriesContainer>&>&, MTMPU::LayoutInterpolator::EntriesContainer*);
-    __throw_length_error[abi:ne200100]();
-    __vallocate[abi:ne200100](unsigned long);
-    __vdeallocate();
-    clear[abi:ne200100]();
-    insert(std::__1::__wrap_iter<MTMPU::LayoutInterpolator::EntriesContainer const*>, MTMPU::LayoutInterpolator::EntriesContainer const&);
+    auto __move_range(MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*);
+    auto __swap_out_circular_buffer(std::__1::__split_buffer<MTMPU::LayoutInterpolator::EntriesContainer, std::__1::allocator<MTMPU::LayoutInterpolator::EntriesContainer>&>&, MTMPU::LayoutInterpolator::EntriesContainer*);
+    auto __throw_length_error[abi:nqe210106]();
+    auto __vallocate[abi:nqe210106](unsigned long);
+    auto __vdeallocate();
+    auto clear[abi:nqe210106]();
+    auto insert(std::__1::__wrap_iter<MTMPU::LayoutInterpolator::EntriesContainer const*>, MTMPU::LayoutInterpolator::EntriesContainer const&);
+    void __assign_with_size[abi:nqe210106]<MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*>(MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::EntriesContainer*, long);
+    void __emplace_back_assume_capacity[abi:nqe210106]<MTMPU::LayoutInterpolator::EntriesContainer const&>(MTMPU::LayoutInterpolator::EntriesContainer const&);
 };

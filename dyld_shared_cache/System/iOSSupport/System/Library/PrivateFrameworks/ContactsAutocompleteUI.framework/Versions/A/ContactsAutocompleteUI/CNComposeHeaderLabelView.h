@@ -12,7 +12,7 @@
 - (struct CGPoint);
 - (void);
 - (void);
-- (id)@;
+- (id);
 
 @end
 

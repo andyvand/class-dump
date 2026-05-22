@@ -23,7 +23,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)Ô_;
 - (id);
 - (_Bool);
 - (void);
@@ -53,10 +53,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)System/Library/Frameworks/MapKit.framework/Versions/A/MapKit;
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -64,11 +64,11 @@
 - (id);
 - (long long);
 - (id);
-- (void);
 - (id);
-- (id)wResponse;
 - (id);
-- (id)How many reminders?;
+- (id)IntentExecutionAction completeLoadingPossibleStatesForEnumerationParameter:result:error:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)ys Round Down (WFRoundMode);
+- (id)­3;
 
 // Remaining properties
 @property(readonly, nonatomic) NSCache *bannerImageCache; // @synthesize bannerImageCache=_bannerImageCache;

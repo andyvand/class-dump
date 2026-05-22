@@ -27,14 +27,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)brary/BuildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/CALayerAdditions.mm;
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *publishDate; // @synthesize publishDate=_publishDate;

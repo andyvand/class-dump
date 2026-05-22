@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool proposeFuture; // @synthesize proposeFuture=_proposeFuture;

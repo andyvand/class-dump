@@ -17,19 +17,19 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (id);
 - (id);
+- (void);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (CDUnknownBlockType);
 - (id);
-- (_Bool);
-- (CDUnknownBlockType)Ô ;
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *array; // @synthesize array=_array;

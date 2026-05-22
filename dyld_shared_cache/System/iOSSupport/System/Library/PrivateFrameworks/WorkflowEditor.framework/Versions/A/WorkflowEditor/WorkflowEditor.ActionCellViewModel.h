@@ -16,7 +16,7 @@
     MISSING_TYPE *cancellables;
 }
 
-- (void);
+- (void)8%;
 
 @end
 

@@ -20,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)(;
++ (_Bool);
 - (MISSING_TYPE *);
 - (_Bool);
 - (_Bool);
@@ -31,14 +31,14 @@
 - (const MISSING_TYPE **);
 - (id);
 - (id);
-- (void);
 - (id);
 - (long long);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (long long);
+- (void)=dd}16B32i36;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) const MISSING_TYPE **destPositions;

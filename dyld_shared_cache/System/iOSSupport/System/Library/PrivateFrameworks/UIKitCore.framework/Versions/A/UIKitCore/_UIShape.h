@@ -17,28 +17,27 @@
 }
 
 + (id);
-+ (id)Ð1¢!0@ù
-× ;
-+ (id):(struct CGRect)arg1;
-+ (id).;
-- (struct CACornerRadii);
-- (struct CGRect);
++ (id);
++ (id);
++ (id);
+- (unsigned long long);
 - (id);
-- (_Bool);
-- (id)TimingParameters";
-- (double)A;
-- (void);
-- (id)áo!<AùqÂ1¢!0@ù
-× ;
-- (unsigned long long)
-× ;
-- (id):8@"_UIImageViewSymbolAnimationPresetManager"16@"NSSymbolEffect"24@"NSSymbolEffectOptions"32@?<v@?@"UISymbolEffectCompletionContext">40 /* Error: Ran out of types for this method. */;
+- (id);
 - (struct CGSize);
-- (id)ognizer:(id)arg1 canCancelGestureRecognizer:(id)arg2;
-- (id)dataChanged;
-- (_Bool)((void*)0))" -> %llu;
-- (id)lidated host container;
-- (struct CGRect)¡;
+- (id)ÔÁÐ!ðBùÑ`1Â0@ù
+× ;
+- (struct CGRect)A!8Cùd1Â0@ù
+× ;
+- (_Bool)UITextInputTraits"16@0:(id)arg1 8;
+- (_Bool)er"16@"UIPress"24;
+- (struct CACornerRadii);
+- (struct CGRect)edAppKitFocus: /* Error: Ran out of types for this method. */;
+- (id)edStrokes;
+- (id)T,@;
+- (id)èÿÀÖèÿôÖèÿ×èÿd×èÿ×èÿ¸×èÿ ÜèÿÜÜèÿàèÿ¤àèÿlãèÿäèÿääèÿ0åèÿHåèÿåèÿæèÿ@æèÿìæèÿ(çèÿLçèÿpçèÿ¼çèÿÈçèÿÌèèÿ0éèÿDêèÿêèÿíèÿ;
+- (double)plication state or doesn't implement state restoration, clearing previous saved state.;
+- (void)StateReadonlyCoreListMetricsState;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

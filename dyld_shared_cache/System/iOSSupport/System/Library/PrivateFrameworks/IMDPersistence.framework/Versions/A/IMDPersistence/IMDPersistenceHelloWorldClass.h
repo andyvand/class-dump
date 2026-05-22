@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
-- (id)ButtonItemsProvider:,V__barButtonItemsProvider /* Error: Ran out of types for this method. */;
+- (id);
+- (void)$¸	;
 
 @end
 

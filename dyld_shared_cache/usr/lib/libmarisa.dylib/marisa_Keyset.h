@@ -5,15 +5,21 @@
 class marisa::Keyset {
 public: // (access info unavailable from symbols alone)
     Keyset();
-    append_base_block();
-    append_extra_block(unsigned long);
-    append_key_block();
-    clear();
-    push_back(char const*);
-    push_back(char const*, unsigned long, float);
-    push_back(marisa::Key const&);
-    push_back(marisa::Key const&, char);
-    reserve(unsigned long);
-    reset();
-    swap(marisa::Keyset&);
+    auto append_base_block();
+    auto append_base_block() (.cold.1);
+    auto append_extra_block(unsigned long);
+    auto append_extra_block(unsigned long) (.cold.1);
+    auto append_key_block();
+    auto append_key_block() (.cold.1);
+    auto clear();
+    auto push_back(char const*);
+    auto push_back(char const*) (.cold.1);
+    auto push_back(char const*, unsigned long, float);
+    auto push_back(char const*, unsigned long, float) (.cold.1);
+    auto push_back(char const*, unsigned long, float) (.cold.2);
+    auto push_back(marisa::Key const&);
+    auto push_back(marisa::Key const&, char);
+    auto reserve(unsigned long);
+    auto reset();
+    auto swap(marisa::Keyset&);
 };

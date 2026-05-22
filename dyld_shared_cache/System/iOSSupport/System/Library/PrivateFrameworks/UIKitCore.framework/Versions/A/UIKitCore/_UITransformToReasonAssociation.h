@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
     NSString *_reason;
 }
 
-+ (id)ated.;
++ (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)@;
+- (_Bool)@24q32;
+- (void)tMonthYearContainerEdgeInsets:(id)arg1;
 - (void);
-- (id)ÈÊÒ¹;
-- (void)ExternalTrackingInfo:(id)arg1;
-- (void)sLandscapeRightWithBlock:(id)arg1;
+- (void)G;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;

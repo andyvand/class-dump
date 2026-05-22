@@ -27,25 +27,25 @@
     long long _totalBytesExpectedToBeDownloaded;
 }
 
-- (id)(;
+- (id);
 - (void);
 - (long long);
 - (void);
-- (void);
-- (void)4;
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)H;
+- (void);
 - (long long);
-- (_Bool)H;
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
 - (id);
+- (_Bool);
+- (void);
 - (id);
 - (_Bool);
 - (void);

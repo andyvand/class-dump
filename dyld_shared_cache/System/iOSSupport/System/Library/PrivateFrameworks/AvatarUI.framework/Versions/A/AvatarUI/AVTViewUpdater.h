@@ -30,8 +30,8 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)5';
 - (id);
 
 // Remaining properties

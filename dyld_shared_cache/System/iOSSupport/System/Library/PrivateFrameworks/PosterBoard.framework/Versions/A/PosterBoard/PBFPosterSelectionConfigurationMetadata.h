@@ -17,7 +17,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *cachedSnapshot; // @synthesize cachedSnapshot=_cachedSnapshot;

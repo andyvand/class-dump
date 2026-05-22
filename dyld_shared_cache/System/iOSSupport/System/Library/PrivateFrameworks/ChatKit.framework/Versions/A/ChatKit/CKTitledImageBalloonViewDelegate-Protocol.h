@@ -5,6 +5,5 @@
 //
 
 @protocol CKTitledImageBalloonViewDelegate
-- (void);
 @end
 

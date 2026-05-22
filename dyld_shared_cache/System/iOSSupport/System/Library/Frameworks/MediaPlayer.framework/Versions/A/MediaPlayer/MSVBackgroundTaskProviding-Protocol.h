@@ -5,6 +5,5 @@
 //
 
 @protocol MSVBackgroundTaskProviding
-- (unsigned long long);
 @end
 

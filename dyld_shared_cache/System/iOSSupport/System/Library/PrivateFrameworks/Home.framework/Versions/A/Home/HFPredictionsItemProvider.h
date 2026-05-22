@@ -45,14 +45,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id)ns: /* Error: Ran out of types for this method. */;
-- (id)on;
+- (id);
+- (id);
+- (id);
+- (void)Dß<à;
+- (id)ÿÏûÖ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *allItems; // @synthesize allItems=_allItems;

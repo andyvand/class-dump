@@ -12,12 +12,12 @@
     MPModelGenericObject *_item;
 }
 
-- (id)_protolist__DATA_CONST;
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (id);
-- (id);
+- (void)}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelGenericObject *item; // @synthesize item=_item;

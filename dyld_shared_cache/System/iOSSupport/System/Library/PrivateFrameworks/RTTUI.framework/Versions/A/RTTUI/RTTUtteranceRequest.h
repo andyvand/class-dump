@@ -18,12 +18,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

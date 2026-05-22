@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
-- (_Bool);
-- (void);
++ (id)­;
 - (void);
-- (void);
-- (void)",C,N,V_liquidDetectionEntry;
-- (void)Àþÿÿÿÿ°;
+- (void)Section:(struct CGRect)arg1;
+- (void)ion;
+- (void)gacyFocusingAnimations;
+- (void)d.;
+- (_Bool)éZ;
 
 // Remaining properties
 @property(nonatomic) _Bool tightWrappingDisabled; // @synthesize tightWrappingDisabled=_tightWrappingDisabled;

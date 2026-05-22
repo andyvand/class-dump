@@ -23,13 +23,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (id)oþ¸ù;
+- (id);
+- (id)ithPixelBuffer: /* Error: Ran out of types for this method. */;
+- (void)No Service Available;
+- (void)operation.lock;
+- (void)rary/Frameworks/AVFoundation.framework/AVFoundation;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *businessId; // @synthesize businessId=_businessId;

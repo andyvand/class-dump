@@ -195,7 +195,8 @@
 + (id);
 + (CDStruct_d80e62f2);
 + (void);
-+ (void);
++ (void)0@ù
+× ;
 - (_Bool);
 - (struct CGRect);
 - (struct CGRect);
@@ -618,6 +619,15 @@
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -631,15 +641,6 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
@@ -688,18 +689,10 @@
 - (_Bool);
 - (short);
 - (id);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (long long);
 - (void);
 - (void);
 - (long long);
@@ -707,23 +700,31 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (void)resentBlock:(long long)arg1;
-- (id)actionLabelledButton;
-- (void)_captureNavigationItem;
-@property(nonatomic) __weak NSLayoutConstraint *userPromptViewVerticalConstraint; // @synthesize userPromptViewVerticalConstraint=_userPromptViewVerticalConstraint;
-- (void)¸	;
+- (void)× ;
+- (id)imumVisualConfidence60Frames;
+- (void)entInfoCollectionActivityItemSource;
+- (long long)onLeft;
+- (void)ì ;
 
 // Remaining properties
 @property _Bool adjustingFocus; // @synthesize adjustingFocus=_adjustingFocus;
@@ -906,6 +907,7 @@
 @property(readonly) _Bool useDocumentSegmentation;
 @property(nonatomic) __weak UILabel *userPromptLabel; // @synthesize userPromptLabel=_userPromptLabel;
 @property(nonatomic) __weak UIView *userPromptView; // @synthesize userPromptView=_userPromptView;
+@property(nonatomic) __weak NSLayoutConstraint *userPromptViewVerticalConstraint; // @synthesize userPromptViewVerticalConstraint=_userPromptViewVerticalConstraint;
 @property(retain, nonatomic) AVCaptureConnection *videoConnection; // @synthesize videoConnection=_videoConnection;
 @property(retain, nonatomic) AVCaptureVideoDataOutput *videoDataOutput; // @synthesize videoDataOutput=_videoDataOutput;
 @property(retain, nonatomic) AVCaptureDeviceInput *videoDeviceInput; // @synthesize videoDeviceInput=_videoDeviceInput;

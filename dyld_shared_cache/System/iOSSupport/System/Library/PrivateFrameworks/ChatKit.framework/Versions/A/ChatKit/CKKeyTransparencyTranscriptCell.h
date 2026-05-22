@@ -20,43 +20,41 @@
     UIImageView *_warningImageView;
 }
 
-+ (double),
-;
++ (double);
 + (id);
 + (id);
-+ (id)X
-;
 + (id);
-- (id)portsPlainLink;
++ (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)n;
 - (id);
-- (id)H;
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (id)orRange:] /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)Ø;
-- (id);
-- (void)jHGSgAMtGGAHQo_;
+- (id);
+- (id)rsations;
+- (void)Adding loading indicator to chatController with guid:(id)arg1 %s;
+- (void)cation=%@&Reproducibility=%@&IncludeDevicePrefixInTitle=1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *actionButton; // @synthesize actionButton=_actionButton;

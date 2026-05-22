@@ -4,14 +4,14 @@
 
 class icu::UTF8CollationIterator {
 public: // (access info unavailable from symbols alone)
-    backwardNumCodePoints(int, UErrorCode&);
-    forbidSurrogateCodePoints() const;
-    forwardNumCodePoints(int, UErrorCode&);
-    foundNULTerminator();
-    getOffset() const;
-    handleNextCE32(int&, UErrorCode&);
-    nextCodePoint(UErrorCode&);
-    previousCodePoint(UErrorCode&);
-    resetToOffset(int);
+    auto backwardNumCodePoints(int, UErrorCode&);
+    auto forbidSurrogateCodePoints() const;
+    auto forwardNumCodePoints(int, UErrorCode&);
+    auto foundNULTerminator();
+    auto getOffset() const;
+    auto handleNextCE32(int&, UErrorCode&);
+    auto nextCodePoint(UErrorCode&);
+    auto previousCodePoint(UErrorCode&);
+    auto resetToOffset(int);
     ~UTF8CollationIterator();
 };

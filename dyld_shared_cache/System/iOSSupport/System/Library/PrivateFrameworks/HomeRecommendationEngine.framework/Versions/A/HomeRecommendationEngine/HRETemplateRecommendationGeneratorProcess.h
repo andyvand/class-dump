@@ -39,8 +39,8 @@
 - (id);
 - (long long);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *activeTemplates; // @synthesize activeTemplates=_activeTemplates;

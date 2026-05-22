@@ -21,39 +21,39 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)temTitle;
-- (id)ring:animatedRange: /* Error: Ran out of types for this method. */;
-- (void)t;
-- (void)splayInRect:(id)arg1;
-- (void)bitmapImageRepForCachingDisplayInRect:(id)arg1;
-- (void)kDomains:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)xtension;
-- (void);
-- (id);
-- (id)AttachmentInsertionController",N,W,VattachmentInsertionController;
-- (void);
-- (id);
-- (void)
-;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)S;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id)utton;
-- (id)ailedCounts;
-- (void)ACGÄ¬y¬yACG_Qo_GAAy­¬y«yAF_SbQo__Qo_SgACGG;
+- (void)0@ù
+× ;
+- (void);
+- (id)ó7x|.;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *avatarViews; // @synthesize avatarViews=_avatarViews;

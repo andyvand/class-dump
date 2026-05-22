@@ -20,11 +20,11 @@
 - (void);
 - (void);
 - (CDStruct_6b48f683 *);
+- (id);
 - (CDStruct_6b48f683);
 - (id);
 - (void);
 - (const CDStruct_6b48f683 *);
-- (id);
 - (void);
 
 // Remaining properties

@@ -16,22 +16,23 @@
     CDUnknownBlockType _completionHandler;
 }
 
-+ (id)Apple Account by using the passcode or password for that device.;
-+ (id)e or password for that device.;
-- (void)gAccessibilityUndoableTextInsertion;
-- (void)antItemIdentifier;
-- (void)AppearanceInfo",R,N;
-- (id)yClass;
-- (unsigned long long)<;
-- (id);
-- (id);
++ (id);
++ (id);
 - (void);
-- (id)hResult"8Q16^B24;
+- (void);
 - (void);
 - (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (id);
+- (void)AAyAAyý
+]ywªªw\ADGABy£A2DGGAAyABy_ªA2DGD\yAKyý]yAdKyADÁ:(CDUnknownBlockType)arg1 \GCªG[\yç]GGXh\yúý\SgGGGGALyA3DGG;
+- (void)ìè°ð¤;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *appCardContentViewController; // @synthesize appCardContentViewController=_appCardContentViewController;

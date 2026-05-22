@@ -6,8 +6,8 @@ class icu::numparse::impl::ArraySeriesMatcher {
 public: // (access info unavailable from symbols alone)
     ArraySeriesMatcher();
     ArraySeriesMatcher(icu::MaybeStackArray<icu::numparse::impl::NumberParseMatcher const*, 3>&, int);
-    begin() const;
-    end() const;
-    length() const;
-    toString() const;
+    auto begin() const;
+    auto end() const;
+    auto length() const;
+    auto toString() const;
 };

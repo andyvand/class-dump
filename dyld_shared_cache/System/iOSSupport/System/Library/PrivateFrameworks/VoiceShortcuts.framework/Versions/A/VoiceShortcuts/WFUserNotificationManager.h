@@ -17,17 +17,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)ñ;ð1B0@ù
-× ;
+- (void);
+- (id);
+- (void);
+- (void)chSize:(id)arg1 fetcher:(id)arg2 completionBlock:(CDUnknownBlockType)arg3 ]_block_invoke_2;
+- (id)temProviderRequestMetadata:type:openInPlace:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *categories; // @synthesize categories=_categories;

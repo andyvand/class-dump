@@ -12,18 +12,18 @@
 {
 }
 
-+ (id)IsUserCancelled;
-+ (id)ccHandles;
-+ (id)basePath;
-+ (id)entURL;
-+ (id)irectory:fileManager: /* Error: Ran out of types for this method. */;
-+ (id)pe;
-+ (void)y",&,N,V_accountHandles;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (void);
-+ (void)a;
-+ (void)libraryPathForStreamIdentifier: /* Error: Ran out of types for this method. */;
-+ (void)ry",R,C,N,V_accessoryStateString;
-+ (void)isUserAbandoned;
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *TTML; // @dynamic TTML;

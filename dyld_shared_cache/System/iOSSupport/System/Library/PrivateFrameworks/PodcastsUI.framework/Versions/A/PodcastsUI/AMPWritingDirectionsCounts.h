@@ -25,14 +25,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long)set;
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (unsigned long long);
+- (unsigned long long);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

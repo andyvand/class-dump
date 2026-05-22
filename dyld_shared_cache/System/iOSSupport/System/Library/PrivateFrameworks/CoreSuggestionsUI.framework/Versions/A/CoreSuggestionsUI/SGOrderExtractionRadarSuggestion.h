@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)Sg;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;

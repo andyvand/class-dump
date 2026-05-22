@@ -25,16 +25,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
-- (void)];
-- (id);
 - (long long);
-- (id)ller;
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) FCArticle *article; // @synthesize article=_article;

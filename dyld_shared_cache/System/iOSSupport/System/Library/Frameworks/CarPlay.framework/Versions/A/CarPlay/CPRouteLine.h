@@ -8,8 +8,8 @@
 
 @interface CPRouteLine
 {
-    unsigned char _geodeticSystem;
     NSUUID *_identifier;
+    long long _geodeticSystem;
     CPNavigationWaypoint *_originLocation;
     CPNavigationWaypoint *_destinationLocation;
     NSArray *_routeLegs;
@@ -21,18 +21,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned char);
+- (long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -42,7 +42,7 @@
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) MKMapItem *destination; // @synthesize destination=_destination;
 @property(readonly, nonatomic) CPNavigationWaypoint *destinationLocation; // @synthesize destinationLocation=_destinationLocation;
-@property(readonly, nonatomic) unsigned char geodeticSystem; // @synthesize geodeticSystem=_geodeticSystem;
+@property(readonly, nonatomic) long long geodeticSystem; // @synthesize geodeticSystem=_geodeticSystem;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) MKMapItem *origin; // @synthesize origin=_origin;

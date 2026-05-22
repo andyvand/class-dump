@@ -13,15 +13,14 @@ __attribute__((visibility("hidden")))
     UIImageConfiguration *_configuration;
 }
 
-- (id)CK Sync state;
+- (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (void)ds;
+- (id)N,VinstantiatingForSimulator;
 - (void);
-- (id);
-- (void)0@ù
-× ;
-- (id)ngToolsCoordinator"16@"NSArray"24;
-- (id);
 
 @end
 

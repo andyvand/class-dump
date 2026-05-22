@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (double);
@@ -34,22 +34,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)sageItem"16B24Q28@"NSString"36;
-- (void)er:(struct CGPoint)arg1 didReceiveNotificationResponse:withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)n:(struct CGPoint)arg1;
-- (id)emType;
-- (void);
-- (id)teType:%lu /* Error: Ran out of types for this method. */;
-- (id)equest %@. Error:%@ /* Error: Ran out of types for this method. */;
-- (void)ifier:(_Bool)arg1 %@   style:%d  guid:%@ handleInfo:%@ lastAddressedHandle %@ lastAddressedSIMID %@ /* Error: Ran out of types for this method. */;
-- (void)e length is wrong;
-- (void);
-- (void)olor;
 - (void);
 - (void);
-- (void)øð;
-- (id);
-- (void)çþU^;
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)llLayoutSubviewsWithObservationTracking;
+- (void)lRegistration;
+- (void)unt == 1;
+- (void)0;
+- (void);
+- (void)ÓTîb;
 
 // Remaining properties
 @property(retain, nonatomic) TIHandwritingStrokes *accumulatedStrokes; // @synthesize accumulatedStrokes=_accumulatedStrokes;

@@ -15,19 +15,19 @@
 }
 
 + (void);
-- (void)LPTextSearchableNode;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void)$;
+- (_Bool);
+- (void);
 - (struct CGRect);
-- (double)@;
-- (id)0;
+- (double);
+- (id);
 - (void);
 - (void);
 - (double);
@@ -46,7 +46,7 @@
 - (void);
 - (void);
 - (id);
-- (id)troller:committing: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 
 // Remaining properties

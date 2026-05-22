@@ -21,38 +21,37 @@ __attribute__((visibility("hidden")))
     unsigned long long _lastChooseSupplementalItemToInsertCallbackIdentifier;
 }
 
-+ (id)ôÕÇq;
-+ (id)ue;
-- (_Bool);
-- (_Bool);
++ (id)$Ra;
++ (id)ÀtÿÌ/;
 - (void);
 - (_Bool);
-- (struct UIPeripheralAnimationGeometry);
-- (void);
-- (void);
-- (void);
-- (void)Ð! Bù±Ä1¢!0@ù
+- (_Bool);
+- (_Bool)0@ù
 × ;
-- (void)*)()>>, std:(id)arg1:allocator<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)ticReleaseTimeControl(void);
-- (void)nÚå
-^;
-- (_Bool)áfÕ0^;
-- (void)8_;
+- (void)OppositeLayoutDirection;
+- (void)To:(double)arg1;
+- (struct UIPeripheralAnimationGeometry)windowsWithActiveTouchMaps;
+- (void)teRestingTouchBeginTimerIfNecessary;
+- (id)sLightStyle;
+- (_Bool)tered;
+- (void)"UIView"16d24@"UIViewController"32;
+- (_Bool)view class or nib) %@;
+- (void)_Leading_Leading;
+- (void)Wº;
+- (void)ViewControllerContextTransitioning_p;
 - (void);
-- (id)hÅpÿêíØÕb;
-- (void)ÿOe;
-- (void)`åÐÿÆËÖd;
-- (void)4|Ô¹Ýd;
-- (_Bool)-ée;
-- (void)úéþöSff;
-- (unsigned long long)ÛÑØÉf;
-- (void);
-- (_Bool);
-- (id)Ö_i;
-- (id)ðìj;
-- (void)p=,ÿ;
-- (void)ÿå´Ó@ál;
+- (id)t43Î;
+- (void);
+- (_Bool)Tå\;
+- (id).];
+- (void)Õÿ0;
+- (void);
+- (unsigned long long)ò;
+- (id)rþ;
+- (void)<pf;
+- (void)87g;
+- (void)5;
+- (void)8QsÿÙ¸Ôm;
 
 // Remaining properties
 @property(retain, nonatomic) id <UITextCursorAssertion> blinkAssertion; // @synthesize blinkAssertion=_blinkAssertion;

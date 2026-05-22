@@ -17,8 +17,8 @@
     UILongPressGestureRecognizer *_longPressGestureRecognizer;
 }
 
-+ (_Bool);
 + (id);
++ (_Bool);
 - (void);
 - (id);
 - (void);
@@ -31,21 +31,21 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (CDUnknownBlockType);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void)toPoint:(CDUnknownBlockType)arg1;
-- (void)update;
-- (_Bool)ItemManager;
+- (_Bool);
+- (id);
+- (void);
+- (void)AlertMessageFormat;
+- (void)sViewRepresentable;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

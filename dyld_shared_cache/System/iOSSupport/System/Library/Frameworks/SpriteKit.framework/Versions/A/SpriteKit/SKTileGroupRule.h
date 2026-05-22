@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (_Bool)Ø;
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -28,15 +28,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (void)Hint"16;
+- (id)Ë;
 
 // Remaining properties
 @property(nonatomic) unsigned long long adjacency;

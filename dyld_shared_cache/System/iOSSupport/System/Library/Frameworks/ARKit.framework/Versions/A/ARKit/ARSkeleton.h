@@ -14,8 +14,8 @@
 
 - (_Bool);
 - (unsigned long long);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) ARSkeletonDefinition *definition; // @synthesize definition=_definition;

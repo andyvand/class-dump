@@ -15,21 +15,21 @@
 
 + (id);
 + (id);
-+ (id)R;
 + (id);
-+ (CDStruct_b8464340)ple.private.alloy.screentime.invite;
 + (id);
-- (_Bool);
++ (CDStruct_b8464340);
++ (id);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id)andler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)Ñ;
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void)n with nonexistent endpoints. origin, identifier, %@, visit, %{sensitive}@, destination, identifier, %@, visit, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

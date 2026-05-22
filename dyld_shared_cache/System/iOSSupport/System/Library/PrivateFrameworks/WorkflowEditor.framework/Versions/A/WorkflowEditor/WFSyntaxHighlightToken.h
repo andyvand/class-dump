@@ -17,15 +17,15 @@
 + (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
-- (void);
+- (int);
 - (id);
+- (int);
+- (struct _NSRange);
 - (void);
-- (int);
-- (int);
-- (struct _NSRange)overlay;
-- (void)xGk[o9[y©4[yANy V[yj:(int)arg1 [yAGyAGyVU[y0X[yAGyçT[yX[y³:[ye;[yAHSg_ATtGGAGyANyANy\3[y_U2[yTxGANye[y 9[_A_Qo_m7[yg9[GGG2[y:[GG7[y¬y /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ÿÿÿÿ$;
+- (void)%s Failed to get map item:(int)arg1 %{public}@;
 
 // Remaining properties
 @property int length; // @synthesize length=_length;

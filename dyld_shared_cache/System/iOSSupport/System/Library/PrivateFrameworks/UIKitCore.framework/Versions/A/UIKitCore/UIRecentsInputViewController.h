@@ -28,52 +28,54 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)"32@"NSString"40;
-- (double)"NSString"24C32@"NSDictionary"36@"NSDictionary"44;
-- (_Bool)t"16@?<v@?>24;
-- (_Bool)4Q32Q40q48@?<v@?>56;
-- (_Bool)@?@"NSArray">36;
-- (void)letionBlock:(id)arg1;
-- (void)fiedForPhoneNumber:(id)arg1 simID: /* Error: Ran out of types for this method. */;
-- (void)plete;
-- (void)iC;
-- (void)ingController:(id)arg1;
-- (void)oTransferMap;
-- (void)ly:(long long)arg1;
-- (void)ansfersOnPreviewGenerationFailure;
-- (void)th;
-- (id)PartRange;
-- (id)synchronizeMMSCapabilityToWatch: /* Error: Ran out of types for this method. */;
-- (id)Reason;
+- (id);
+- (double);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (_Bool);
-- (void)d an empty proirity message guid list.;
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (id);
 - (void);
-- (id)missing mapping for MPModelPropertyFileAssetFileSize;
 - (void);
-- (void)tions"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
-- (long long)eIndexes:(id)arg1;
-- (void)TÖ;
-- (void)À¸´¹;
-- (void)`þÿ;
-- (id);
-- (void)#þW ÔP©;
+- (long long);
+- (void)á
+°!0Aùg°1Â0@ù
+× ;
+- (id)int;
+- (id)Settings<_UISceneLayoutPreferences>"8@"FBSSceneTransitionContext"16;
+- (void)t~[;
+- (void)P"d;
+- (void)Lh;
+- (id)äÕpk;
 
 // Remaining properties
 @property(nonatomic) _Bool canManageList; // @synthesize canManageList=_canManageList;

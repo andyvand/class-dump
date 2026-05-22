@@ -4,7 +4,7 @@
 
 class lsl::Vector<dyld4::RuntimeState::MissingFlatSymbol> {
 public: // (access info unavailable from symbols alone)
-    erase(dyld4::RuntimeState::MissingFlatSymbol*, dyld4::RuntimeState::MissingFlatSymbol*);
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
+    auto erase(dyld4::RuntimeState::MissingFlatSymbol*, dyld4::RuntimeState::MissingFlatSymbol*);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
 };

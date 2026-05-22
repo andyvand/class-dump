@@ -23,26 +23,26 @@
 - (void);
 - (void);
 - (void);
-- (void)u;
 - (void);
 - (void);
-- (long long)edSyndicationRanges for message guid %@ ;
-- (_Bool)is already delivered, and we're not forcing an error here (%@);
-- (_Bool)ameController is already in scrutiny mode before attempting to load data from disk. Will delete existing data.;
-- (_Bool)ng archived nickname for handle id %@ from record id %@ to new record id %@;
-- (_Bool)eting old watch wallpaper image at path during mark as updated %@;
-- (struct UIEdgeInsets)called on the wrong session;
-- (_Bool)ansparencyProtocol>",N,R;
 - (void);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (struct UIEdgeInsets);
+- (_Bool);
 - (long long);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool)s: /* Error: Ran out of types for this method. */;
-- (_Bool)cg;
+- (void);
+- (_Bool)ewPropertiesApplierChanged"b1"chargeChanged"b1"dynamicChanged"b1};
+- (_Bool)WithType: /* Error: Ran out of types for this method. */;
+- (_Bool)ocumentTraitsForAutoFillPanel;
+- (id)p_Ä_/ ete	 f;
 
 // Remaining properties
 @property _Bool applicationIsFullscreen; // @synthesize applicationIsFullscreen=_applicationIsFullscreen;

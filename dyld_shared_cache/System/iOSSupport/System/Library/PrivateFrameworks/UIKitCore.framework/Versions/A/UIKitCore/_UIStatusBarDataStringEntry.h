@@ -13,18 +13,18 @@
     NSString *_stringValue;
 }
 
-+ (id);
-+ (_Bool)%ùl;
-- (void);
-- (id)Address:(const CDStruct_aa1ce654 *)arg1 withResourcePath:(int)arg2 withPort:(const char *)arg3 withForceTLS:(int)arg4;
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
++ (id);
++ (_Bool)Safari. I mean... what did you expect to happen?;
 - (id);
 - (void);
 - (id);
-- (void)pported;
+- (unsigned long long);
+- (_Bool)ffectsWindow"b1"isEmbeddingInView"b1"embeddedPresentationBounces"b1"isRepositioningRectDisabled"b1"sendingDelegateWillRepositionToRect"b1"isObservingFocusUpdateNotification"b1};
+- (void)ity;
+- (id)Font:scale: /* Error: Ran out of types for this method. */;
+- (id)g;
+- (id)C,N,V_keyboardLayout;
+- (void)×£;;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;

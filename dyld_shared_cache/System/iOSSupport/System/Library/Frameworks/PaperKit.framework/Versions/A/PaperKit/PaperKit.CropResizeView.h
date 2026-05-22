@@ -27,14 +27,14 @@
 
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void)aþÿx?ýÿ?ýÿú?ýÿ;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id)ß;
+- (id);
 
 @end
 

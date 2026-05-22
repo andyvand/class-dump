@@ -4,5 +4,5 @@
 
 class std::__use_cache<std::__moneypunct_cache<char, true>> {
 public: // (access info unavailable from symbols alone)
-    operator()(std::locale const&) const;
+    auto operator()(std::locale const&) const;
 };

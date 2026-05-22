@@ -18,8 +18,8 @@
 }
 
 + (id);
-+ (id)accept;
-+ (id)d processing recover junk command for message GUID:(CDUnknownBlockType)arg1 %@;
++ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
@@ -28,10 +28,10 @@
 + (id);
 + (id);
 + (id);
-+ (id)nviteToProgramCommand_Status;
++ (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -44,20 +44,21 @@
 - (double);
 - (void);
 - (void);
+- (double);
+- (id);
+- (_Bool)!Gù^Ð1Â0@ù
+× ;
+- (void)ChangeFromHeight:(id)arg1 toHeight:windowSizedViewController: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)tLineFragments;
+- (void);
+- (void)e;
+- (id)t: /* Error: Ran out of types for this method. */;
+- (struct CGVector)= %@;
 - (void);
 - (void);
-- (id),V_KBMenuSelectedAction;
-- (void)gleSecondaryOnlyBarButtonItem;
-- (struct CGPoint)nativesButtons;
-- (id)>.úÿÕDé3Â;
-- (void)ôvþÿüÿÉûÿ;
-- (double)en_Lock;
-- (void)applying snapshots either always on the main queue or always off the main queue, and make sure you are not applying a snapshot as a side effect of updates from (i.e. underneath) another snapshot apply call. View updated by this diffable data source:(struct CGPoint)arg1 %@;
-- (struct CGVector);
 - (void);
-- (id);
-- (void)ÖÿÂ¬;
-- (_Bool)¼x ÿ;
+- (void)t©ÊÿnÒõ®h;
+- (id)bkÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPhysicsField *_field;

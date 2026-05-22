@@ -33,11 +33,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
-- (long long)iguration:width:changeHandler: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) long long direction; // @synthesize direction=_direction;

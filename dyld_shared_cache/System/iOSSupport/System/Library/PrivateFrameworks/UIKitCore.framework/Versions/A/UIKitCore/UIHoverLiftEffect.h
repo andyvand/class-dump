@@ -12,11 +12,10 @@
 }
 
 + (id);
-+ (id)tBarOrientation:] /* Error: Ran out of types for this method. */;
++ (id)orDataSample}}}"__start_"Q""{?="__size_"Q}};
 - (id);
-- (void)!ðAùÑÄ1¢!0@ù
-× ;
-- (id)ransition;
+- (id)tð;
+- (void)ØÓÚ¤Ál;
 
 @end
 

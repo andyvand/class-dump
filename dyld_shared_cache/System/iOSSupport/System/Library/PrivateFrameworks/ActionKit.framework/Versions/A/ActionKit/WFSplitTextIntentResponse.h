@@ -13,9 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)ad Public Key
-;
-- (void)w size;
+- (long long)t: /* Error: Ran out of types for this method. */;
+- (void)extAction runAsynchronouslyWithInput:(long long)arg1 ]_block_invoke_2;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

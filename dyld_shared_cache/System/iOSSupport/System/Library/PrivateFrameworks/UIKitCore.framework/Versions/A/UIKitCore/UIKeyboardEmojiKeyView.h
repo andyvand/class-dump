@@ -15,12 +15,11 @@ __attribute__((visibility("hidden")))
     UIKeyboardEmojiKeyDisplayController<UIKeyboardEmojiCategoryUpdateDelegate> *emojiKeyManager;
 }
 
-- (long long):(double)arg1 isPhotoRefresh: /* Error: Ran out of types for this method. */;
-- (void)hatID:(long long)arg1 identifier:style:account:isPhotoRefresh: /* Error: Ran out of types for this method. */;
+- (long long);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (id)TitleTextAttributes: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)zÿ(ÀÚÌú];
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id)ayoutAngle(CGContextRef, CGFloat)_block_invoke;
-- (id)%;
-- (void);
-- (id)oup;
-- (id)Á`kÿ;
+- (id);
+- (id);
+- (id)D;
+- (void)(:ã /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCHeadlineProviding> headline; // @synthesize headline=_headline;

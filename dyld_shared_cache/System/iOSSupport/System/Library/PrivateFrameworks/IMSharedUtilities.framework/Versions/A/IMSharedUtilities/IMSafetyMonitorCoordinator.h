@@ -15,8 +15,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (long long)8b;
-- (void);
+- (long long);
+- (void);
 - (void);
 - (void);
 - (void);

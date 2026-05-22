@@ -40,15 +40,15 @@
 - (id);
 - (CDStruct_14d5dc5e);
 - (MISSING_TYPE *);
-- (void);
 - (long long);
-- (void);
-- (MISSING_TYPE *);
-- (id);
-- (void);
 - (id);
 - (id);
 - (MISSING_TYPE *);
+- (MISSING_TYPE *);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MISSING_TYPE *center; // @synthesize center=_center;

@@ -12,9 +12,9 @@
     MISSING_TYPE *tracker;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)´nüÿÆüÿ4§üÿ;
 
 @end
 

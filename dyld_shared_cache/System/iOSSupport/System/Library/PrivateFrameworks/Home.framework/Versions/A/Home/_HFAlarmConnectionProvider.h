@@ -11,8 +11,8 @@
     NSXPCConnection *_alarmManagerServiceConnection;
 }
 
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *alarmManagerServiceConnection; // @synthesize alarmManagerServiceConnection=_alarmManagerServiceConnection;

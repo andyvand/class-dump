@@ -15,10 +15,10 @@
     MISSING_TYPE *tapAndHoldTimeout;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void)²sýÿ;
 
 @end
 

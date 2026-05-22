@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)k_invoke;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessoryToAdd; // @synthesize accessoryToAdd=_accessoryToAdd;

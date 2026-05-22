@@ -19,10 +19,10 @@
     MISSING_TYPE *minimumSwipeActionAreaWidth;
 }
 
-- (void);
-- (id)upergroupKnobs;
-- (void)Hݐ;
 - (id);
+- (void);
+- (id);
+- (void)¤7þÿÄÿÿ;
 
 @end
 

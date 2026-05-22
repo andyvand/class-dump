@@ -7,13 +7,9 @@
 @class NSArray, NSString;
 
 @protocol FCChannelProviding
-- (_Bool);
-- (_Bool)Z(õÿJ8úÿÌ÷öÿL8úÿÆ¹ôÿ4ùöÿðÐôÿ;
-- (NSString *);
-- (NSArray *)eFrame;
-- (NSString *)Controller;
-- (unsigned long long)ÿÿÿÿ¨;
-- (NSArray *)ÕqÀµ;
+- (NSString *){~Ðd\|ÄHÔpÄ ô£¤`¥;
+- (NSArray *)n content marker with no parent, cursor=%@;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *backIssuesListID;

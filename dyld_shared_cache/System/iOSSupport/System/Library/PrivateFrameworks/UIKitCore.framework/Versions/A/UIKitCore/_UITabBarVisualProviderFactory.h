@@ -9,7 +9,7 @@
 }
 
 + (Class);
-- (id),&,N,V_popover;
+- (id);
 
 @end
 

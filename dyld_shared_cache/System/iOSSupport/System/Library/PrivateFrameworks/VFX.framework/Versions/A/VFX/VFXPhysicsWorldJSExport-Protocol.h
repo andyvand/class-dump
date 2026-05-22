@@ -8,8 +8,6 @@
 @protocol VFXPhysicsContactDelegate;
 
 @protocol VFXPhysicsWorldJSExport
-- (float)dgeArrayCreateFromMeshElement (%ld != %ld);
-- (void)ÜÖ¬vÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allBehaviors;

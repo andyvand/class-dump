@@ -10,15 +10,15 @@
 {
 }
 
-- (_Bool)hableAttachments;
-- (BOOL)hTable:startingRow:rowSpan:startingColumn:columnSpan: /* Error: Ran out of types for this method. */;
-- (struct CGSize)G;
-- (id);
-- (_Bool)o;
 - (_Bool);
-- (Class);
+- (BOOL);
+- (struct CGSize);
+- (id);
+- (_Bool);
+- (_Bool);
 - (struct UIEdgeInsets);
-- (unsigned long long)mpletion: /* Error: Ran out of types for this method. */;
+- (Class);
+- (unsigned long long)32@0:8@"IMCNMeCardSharingOnboardingEditViewController"16@"<IMCNMeCardSharingResult>"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSelectableText;

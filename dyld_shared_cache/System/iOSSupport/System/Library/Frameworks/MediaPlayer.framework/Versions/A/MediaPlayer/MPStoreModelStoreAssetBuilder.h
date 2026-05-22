@@ -19,7 +19,7 @@
     } _requestedStoreAssetProperties;
 }
 
-+ (id)s:eventTime:approvalTime:requesterDSID:responderDSID:websitePath:bundleID: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

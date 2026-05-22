@@ -19,14 +19,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 
 @end
 

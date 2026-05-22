@@ -29,12 +29,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
+- (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long edge; // @synthesize edge=_edge;

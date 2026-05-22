@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (unsigned long long)8;
 - (void);
 - (id);
 - (id);
+- (unsigned long long);
 
 @end
 

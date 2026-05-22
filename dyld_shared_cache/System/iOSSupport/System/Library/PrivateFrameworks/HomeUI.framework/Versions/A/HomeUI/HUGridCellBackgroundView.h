@@ -56,12 +56,12 @@
 - (void);
 - (void);
 - (void);
-- (double);
 - (void);
-- (void);
-- (void)ySettingsItemManager initWithDelegate:(double)arg1 sourceItem:] /* Error: Ran out of types for this method. */;
-- (void)Ýó}¨X£ÿÍó}èX£ÿ½ó}Y£ÿ;
-- (id)`µ;
+- (double)t: /* Error: Ran out of types for this method. */;
+- (id)iewController>",&,N,V_setupViewController;
+- (void)V_borderView;
+- (void)N,V_locksItemProvider;
+- (void)tionDetectionSettings;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUBackgroundEffectViewGrouping> backgroundEffectViewGrouper; // @synthesize backgroundEffectViewGrouper=_backgroundEffectViewGrouper;

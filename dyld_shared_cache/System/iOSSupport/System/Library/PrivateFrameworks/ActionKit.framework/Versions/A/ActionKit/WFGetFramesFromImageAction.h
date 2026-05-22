@@ -11,11 +11,10 @@
 
 + (_Bool);
 - (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void)0@ù
-× ;
+- (void)lass(void)_block_invoke;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;

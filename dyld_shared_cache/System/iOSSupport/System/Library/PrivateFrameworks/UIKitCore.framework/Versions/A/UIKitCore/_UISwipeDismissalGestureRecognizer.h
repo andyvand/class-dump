@@ -13,19 +13,20 @@ __attribute__((visibility("hidden")))
     struct CGPoint _originalTouchPoint;
 }
 
-+ (_Bool)eOrientation"b1"subclassOverridesFrontMostAppOrientation"b1"isResigningActive"b1"receivedUnhandledMenuButton"b1"disablingBecomeFirstResponder"b1"hasMultiwindowAttributes"b1"supportedOnLockScreen"b1"inBackgroundBeforeSuspending"b1"hasPendingKeyCommandSerializationRequest"b1"hasBackgroundTaskCompletionHandler"b1"supportsTabbedWindowScenes"b1"subclassOverridesCreateStatusBarWithRequestedStyle"b1"implementsEffectiveSceneConfigurationForConnectingConfiguration"b1};
-+ (_Bool)urText value of _UIDatePickerCalendarTimeLabel while it is first responder results in undefined behavior. This will become a hard assert in the future.;
-- (void)Route";
++ (_Bool);
++ (_Bool);
 - (void);
-- (void)!EùñÄÐ1¢!0@ù
+- (struct CGPoint)@ù
 × ;
-- (void);
-- (void)b1b1[100c][100c][256c][256c]}16i24;
-- (void)ationDamping;
-- (struct CGPoint)ø;
-- (void)Q;
-- (double)wController. We don't have a window.;
-- (id)next launch:(id)arg1 %@;
+- (id)1Â0@ù
+× ;
+- (void)0:(struct CGPoint)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16@48i56;
+- (void)ctionViewAlpha:(id)arg1;
+- (void)reRecipients:(id)arg1;
+- (void)btreeFromSnapshotter:(id)arg1 atIndex:(id)arg2 adjustedIndex: /* Error: Ran out of types for this method. */;
+- (void)missAnimated:(double)arg1 triggeringAction: /* Error: Ran out of types for this method. */;
+- (double);
+- (void)= nil;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;

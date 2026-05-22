@@ -34,7 +34,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ø¦\§;
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *invalidationTimer; // @synthesize invalidationTimer=_invalidationTimer;

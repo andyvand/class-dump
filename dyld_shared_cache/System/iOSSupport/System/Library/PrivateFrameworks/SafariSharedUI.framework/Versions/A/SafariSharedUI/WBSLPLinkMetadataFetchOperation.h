@@ -13,14 +13,14 @@
     CDUnknownBlockType _operationCompletionHandler;
 }
 
-+ (id);
++ (id);
 + (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void)1);
+- (void);
+- (void)ficationName:object:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType operationCompletionHandler; // @synthesize operationCompletionHandler=_operationCompletionHandler;

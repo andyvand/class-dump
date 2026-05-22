@@ -29,12 +29,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGPoint);
 - (_Bool);
 - (id);
 - (long long);
 - (struct CGPoint);
+- (void);
 - (void);
 - (void);
 

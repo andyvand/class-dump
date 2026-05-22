@@ -37,16 +37,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)w;
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
+- (struct _NSRange);
+- (_Bool);
 - (void);
-- (id)>"24@0:8@"<UIViewControllerContextTransitioning>"16 /* Error: Ran out of types for this method. */;
-- (id)gUnmuted;
 - (id);
-- (struct _NSRange)\;
-- (void);
-- (id)¬;
+- (id);
+- (id)À;
 
 // Remaining properties
 @property(retain, nonatomic) id <TSKAnnotation> annotation; // @synthesize annotation;

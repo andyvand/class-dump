@@ -12,11 +12,11 @@
 }
 
 + (id);
-- (void)ed chatStatus:(id)arg1 %d for chatIdentifier:%s /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
-- (void)Candidates: /* Error: Ran out of types for this method. */;
-- (id)quiringContentMargin;
+- (id);
+- (void)cusedItemHightlightVisible: /* Error: Ran out of types for this method. */;
+- (id)l;
+- (void)¸&ÿ¥A;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC5UIKit35_UINavigationBarTitleTransitionSpec *titleTransition; // @synthesize titleTransition;

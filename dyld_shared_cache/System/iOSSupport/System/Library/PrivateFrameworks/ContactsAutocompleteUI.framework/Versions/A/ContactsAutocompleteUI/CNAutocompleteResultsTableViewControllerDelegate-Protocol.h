@@ -5,9 +5,5 @@
 //
 
 @protocol CNAutocompleteResultsTableViewControllerDelegate
-
-@optional
-- (void);
-- (void);
 @end
 

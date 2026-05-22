@@ -15,10 +15,10 @@
 
 - (void);
 - (void);
-- (id):8@"<NEProfilePayloadBaseDelegate>"16@"NSString"24 /* Error: Ran out of types for this method. */;
-- (_Bool)referencesWithCompletionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
-- (void)to client, %@, error, %@;
-- (void);
+- (id);
+- (_Bool);
+- (void)Index,%d/%d,returned false,tripStart,%@,tripEnd,%@;
+- (void)tyCache,Receiver,sessionID:(id)arg1 %@,%@,%@,missing invitation token;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,10 +13,9 @@ __attribute__((visibility("hidden")))
     NSEnumerator *_nameEnum;
 }
 
-- (void)±Á1¢!0@ù
-× ;
-- (id)rage:(id)arg1;
-- (id)llerAdaptiveImpl _restoreLayoutStateIfNeededWithProposedLayout:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)¡Ò;
 
 @end
 

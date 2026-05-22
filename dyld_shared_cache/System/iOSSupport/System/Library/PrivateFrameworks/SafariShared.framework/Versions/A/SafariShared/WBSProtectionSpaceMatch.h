@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)PreferenceManagerDelegate>",W,N;
+- (id);
+- (void)Other>!$_;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *credentials; // @synthesize credentials=_credentials;

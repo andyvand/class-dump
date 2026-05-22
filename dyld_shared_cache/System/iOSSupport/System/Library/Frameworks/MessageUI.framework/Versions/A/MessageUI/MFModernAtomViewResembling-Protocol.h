@@ -7,11 +7,7 @@
 @class UIFont;
 
 @protocol MFModernAtomViewResembling
-- (void);
-- (void)byFeatureVersion;
-- (void)E;
-- (void)/swift/libswiftQuartzCore.dylib;
-- (long long)leKeyDescriptor;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint baselinePoint;

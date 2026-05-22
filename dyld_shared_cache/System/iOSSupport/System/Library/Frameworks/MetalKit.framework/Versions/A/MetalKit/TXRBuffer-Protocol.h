@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TXRBufferMap;
-
 @protocol TXRBuffer
-- (id <TXRBufferMap>)AND m.is_from_me == 0     AND m.item_type == 0     AND m.is_system_message == 0     %s )AND cmj.chat_id %@ORDER BY cmj.message_date;
 @end
 

@@ -13,15 +13,15 @@
     long long _messagePartCount;
 }
 
-+ (_Bool)gs;
++ (_Bool);
 - (long long);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)eturnType;
+- (id)tion;
+- (void)shouldForceOfflineTranslation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

@@ -16,11 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)e:(id)arg1 queryControllerWrapper:scheduler: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)tManagementState: /* Error: Ran out of types for this method. */;
+- (void)removing contacts:(id)arg1 %@ from contacts of family member:%@ /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <CNLSApplicationWorkspace> applicationWorkspace; // @synthesize applicationWorkspace=_applicationWorkspace;

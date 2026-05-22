@@ -22,8 +22,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain) NSMutableArray *notificationLayoutsInProgress; // @synthesize notificationLayoutsInProgress=_notificationLayoutsInProgress;

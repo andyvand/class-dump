@@ -5,7 +5,6 @@
 //
 
 @protocol SXSubscriptionStatusProviding
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long bundleSubscriptionStatus;

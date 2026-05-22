@@ -7,22 +7,20 @@
 @protocol UIAsyncTextInputClient
 
 @optional
-- (void);
-- (void)sPreviousScanDate;
-- (void)P=;
 - (void);
-- (void);
-- (_Bool)
+- (void)0@ù
 × ;
-- (void)ÑË°1¢!0@ù
+- (void)!°!Aùb°1Â0@ù
 × ;
-- (void)ectionViewManager:(struct CGPoint)arg1 convertPointToRenderSpace:(long long)arg2 textPosition:(_Bool)arg3;
-- (void)AnimationCoordinator:(long long)arg1;
-- (void)#þQ;
-- (void)_;
-- (void)DH;
-- (void)[;
-- (void)Û\;
+- (void)RL;
+- (void)view:(struct CGPoint)arg1 imageComponent:(void (^)(_Bool))arg2 sourceView: /* Error: Ran out of types for this method. */;
+- (void)lta;
+- (void),C,N,V_searchIconMatchedViewIdentifier;
+- (void)(;
+- (void)ter if necessary on main thread:(CDStruct_912cb5d2)arg1 %@;
+- (void)cell. Dequeued reuse identifier:(struct CGPoint)arg1 %@; Original reuse identifier:(struct CGPoint)arg2 %@; Existing cell:(long long)arg3 %@;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldSuppressEditMenu;

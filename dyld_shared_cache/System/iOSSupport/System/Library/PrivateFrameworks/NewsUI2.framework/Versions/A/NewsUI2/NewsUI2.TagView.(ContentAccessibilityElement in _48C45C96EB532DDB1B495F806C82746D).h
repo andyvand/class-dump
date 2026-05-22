@@ -13,18 +13,18 @@
 - (_Bool);
 - (void);
 - (struct CGPoint);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
 - (void);
 - (id);
+- (void);
 - (void);
 - (struct CGRect);
-- (void)ñâÿòâÿ¤òâÿóâÿDóâÿhóâÿ¼óâÿàóâÿôâÿdôâÿôâÿ¬ôâÿèôâÿõâÿlöâÿ¸öâÿp÷âÿ÷âÿÈ÷âÿøâÿxøâÿ¬øâÿtùâÿùâÿüùâÿ úâÿLúâÿpúâÿìúâÿøûâÿ4üâÿhýâÿ¤ýâÿÈýâÿ\þâÿþâÿÄþâÿüþâÿ$ÿâÿHÿâÿ$;
-- (id)OfflineIssueAutoDownloader;
-- (id)ingKeys;
 - (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (void)nForTab:(id)arg1;
+- (id)neCategoryRouteModel;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint accessibilityActivationPoint;

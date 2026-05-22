@@ -11,16 +11,16 @@
     CDUnknownBlockType _actionHandler;
 }
 
-+ (_Bool)µ0n;
-- (_Bool);
-- (id);
-- (_Bool);
-- (long long);
-- (void);
-- (CDUnknownBlockType)ter;
-- (long long)ttributes in Writing Tools replacement for %@;
-- (void);
-- (id)y_;
++ (_Bool):%@; Existing cell:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)v24@0:8@"<UIInteractionEffect>"16 /* Error: Ran out of types for this method. */;
+- (void)ContentTitle:(CDUnknownBlockType)arg1;
+- (_Bool)imationCoordinator:(id)arg1;
+- (long long)nsitionToHighlight;
+- (id)t;
+- (_Bool)ason:(id)arg1 %{public}@.;
+- (id)²ç;
+- (long long)ÿh;
+- (void)"Ëc,j;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

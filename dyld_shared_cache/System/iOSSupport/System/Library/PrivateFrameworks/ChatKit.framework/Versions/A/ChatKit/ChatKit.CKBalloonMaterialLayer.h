@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)P;
+- (id);
+- (void)ÿÿ;
+- (void)dù¬ÿ;
 
 @end
 

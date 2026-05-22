@@ -13,10 +13,10 @@
     MISSING_TYPE *pageRenderMetrics;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 
 @end

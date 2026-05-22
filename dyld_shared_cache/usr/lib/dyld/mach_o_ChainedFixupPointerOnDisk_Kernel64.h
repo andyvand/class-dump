@@ -4,5 +4,5 @@
 
 class mach_o::ChainedFixupPointerOnDisk::Kernel64 {
 public: // (access info unavailable from symbols alone)
-    keyName() const::names;
+    auto keyName() const::names;
 };

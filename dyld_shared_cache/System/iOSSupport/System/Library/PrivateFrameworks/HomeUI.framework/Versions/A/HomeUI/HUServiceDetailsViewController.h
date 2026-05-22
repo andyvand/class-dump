@@ -19,6 +19,7 @@
     _Bool _supportsCustomIconEditing;
     _Bool _shouldTrackProgrammableSwitchActivations;
     _Bool _isPresentingRoomsList;
+    _Bool _waitingForCommit;
     id <HUPresentationDelegate> _presentationDelegate;
     HUNameItemModuleController *_nameItemModuleController;
     HUAccessorySettingsItemModuleController *_accessorySettingsItemModuleController;
@@ -49,11 +50,12 @@
 
 + (id);
 + (id);
-- (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -68,6 +70,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -196,11 +199,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -226,25 +229,26 @@
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool)1b0@ù
+- (void)±Ð1â
+0@ù
 × ;
-- (void)× ;
-- (void)houldHidePlaceholderService:(_Bool)arg1;
-- (void);
+- (void)ze=dd},N,V_maxSize;
+- (void)troller(HUAdditions) alertControllerForAddingDestinationWithTypeString:andProceed:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)ItemManager:(id)arg1 tableViewStyle:] /* Error: Ran out of types for this method. */;
+- (void)@iûÿoü;
 
 // Remaining properties
 @property(retain, nonatomic) HUChildServiceItemModuleController *accessoryServicesEditorItemModuleController; // @synthesize accessoryServicesEditorItemModuleController=_accessoryServicesEditorItemModuleController;
@@ -289,6 +293,7 @@
 @property(retain, nonatomic) HUTelevisionSettingsItemModuleController *televisionSettingsItemModuleController; // @synthesize televisionSettingsItemModuleController=_televisionSettingsItemModuleController;
 @property(retain, nonatomic) HUServiceDetailsTextViewDelegate *textViewDelegate; // @synthesize textViewDelegate=_textViewDelegate;
 @property(retain, nonatomic) HUChildServiceItemModuleController *valveEditorItemModuleController; // @synthesize valveEditorItemModuleController=_valveEditorItemModuleController;
+@property(nonatomic) _Bool waitingForCommit; // @synthesize waitingForCommit=_waitingForCommit;
 
 @end
 

@@ -21,8 +21,8 @@
 }
 
 + (id);
-+ (_Bool)N,V__canDeferAsynchronousFieldsMetadataUpdateUntilCompletion;
-- (id);
++ (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -38,19 +38,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id)17AdPlatformsCommon44TrialDistributedNotificationLifecycleService;
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)`;
-- (void)nkPresentation.AudioFetching;
+- (void);
+- (void);
+- (void);
+- (id)ì;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

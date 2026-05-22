@@ -21,9 +21,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)e type "%@";
+- (void);
+- (void)entEmailDate;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *longIdentifier; // @synthesize longIdentifier=_longIdentifier;

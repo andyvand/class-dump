@@ -24,15 +24,16 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (unsigned long long)nitWithItemManager:collectionViewLayout:] /* Error: Ran out of types for this method. */;
+- (id);
+- (void)0@ù
+× ;
+- (CDUnknownBlockType)ourceItemDescriptions:showFooter:valueSource:filter:itemFilter: /* Error: Ran out of types for this method. */;
+- (void)FThermostatActivityNotificationsFooter;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

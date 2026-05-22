@@ -5,6 +5,6 @@
 class CFX::RG::RegisterResourcePass {
 public: // (access info unavailable from symbols alone)
     RegisterResourcePass(CFX::ScratchAllocator, CFX::RG::Resource*, void (RGContext, RGResource) block_pointer);
-    execute(CFX::RG::RenderGraphContext const&, RGExecutionPhase, CFX::RG::Arguments const&);
-    storeManaged(std::__1::unique_ptr<CFX::RG::Resource, CFX::RG::Resource::ManagedDeleter>&);
+    auto execute(CFX::RG::RenderGraphContext const&, RGExecutionPhase, CFX::RG::Arguments const&);
+    auto storeManaged(std::__1::unique_ptr<CFX::RG::Resource, CFX::RG::Resource::ManagedDeleter>&);
 };

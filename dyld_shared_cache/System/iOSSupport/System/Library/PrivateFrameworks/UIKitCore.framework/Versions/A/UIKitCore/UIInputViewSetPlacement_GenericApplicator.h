@@ -18,31 +18,33 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (struct CGRect);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (_Bool)a;
-- (_Bool);
-- (void)oes not contain mapping for identifierSet [] matchingEntityType='%@' relationshipKey=%@;
-- (void);
-- (_Bool);
-- (void)!äCùÂð1¢!0@ù
-× ;
-- (void);
-- (struct UIEdgeInsets)× ;
-- (_Bool)ontalPadding"b1"indicatorSpacing"b1"backgroundView"b1};
-- (void)ithPreferredFrameRateRange:updateReason:animations: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)crollDidScrolled: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)tedMinimumContentMargins: /* Error: Ran out of types for this method. */;
-- (id)erFirstTitleWithExcessiveHeightChanged;
-- (id)ions;
-- (id)ÇTokXãÇxkxãÇ;
-- (id)´¬ð;
 - (struct CGRect);
-- (id)=Î);
-- (struct CGRect)ÿeh;
 - (id);
-- (void)Tm;
+- (_Bool);
+- (struct UIEdgeInsets);
+- (void)1Â0@ù
+× ;
+- (struct UIEdgeInsets)Áð!\Bù1^1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (id)× ;
+- (id);
+- (_Bool)ithEvent:(id)arg1;
+- (_Bool)eScrollAnimationDidEnd;
+- (void)cacyAccumulatorEntry;
+- (void)lSceneHostingEnvironmentHostComponent;
+- (id)RotationFollowing;
+- (_Bool)øv;
+- (struct CGPoint)H¿ÔÁLÂ;
+- (id)g;
+- (void)Trait definitions with the same identifier must have the same defaultValueRepresentsUnspecified value.;
+- (id)zÖ(ñb;
+- (void)Øg;
 
 // Remaining properties
 @property(readonly) UIView *backdropContainer;

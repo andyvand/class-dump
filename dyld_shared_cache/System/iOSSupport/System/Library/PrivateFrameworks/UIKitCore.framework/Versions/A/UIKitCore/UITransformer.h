@@ -14,13 +14,13 @@
     NSMutableArray *_transformReasonAssociations;
 }
 
-- (id)artSendingMessage] Not notifying for RCS Encryption test messages.;
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool)nkSignatures.;
-- (void);
-- (id)initWithCoordinateSpace:(id)arg1 boundingRect: /* Error: Ran out of types for this method. */;
+- (_Bool)ntHandler:(id)arg1;
+- (void)`;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

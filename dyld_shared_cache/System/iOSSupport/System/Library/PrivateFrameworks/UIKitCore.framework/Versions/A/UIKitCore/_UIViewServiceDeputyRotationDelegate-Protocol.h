@@ -4,11 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIHostedWindow;
-
 @protocol _UIViewServiceDeputyRotationDelegate
-- (void)id ECDSADerSignature:(_UIHostedWindow *)arg1 %@;
-- (void)type %@;
-- (void)B40@0:(long long)arg1 8{CGSize=dd}16@32;
+- (void)teraction;
 @end
 

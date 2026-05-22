@@ -11,7 +11,7 @@
 + (void);
 + (void);
 + (void);
-+ (void)BA9Ȃ;
++ (void);
 + (void);
 + (void);
 + (void);

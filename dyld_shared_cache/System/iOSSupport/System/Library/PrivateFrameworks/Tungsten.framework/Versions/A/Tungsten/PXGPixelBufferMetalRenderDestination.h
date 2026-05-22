@@ -65,26 +65,26 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (long long);
-- (double);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (struct CGSize);
+- (double);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (CDStruct_3ead2808);
 - (id);
-- (CDStruct_3ead2808)ullPageSnapshotMaximumNumberOfTiles;
-- (void)onsideredAsSubgroup;
-- (struct CGColorSpace *)é;
-- (void)üyzðz;
-- (struct CGSize)pcodeMatrix;
+- (id);
+- (void);
+- (struct CGColorSpace *)ncodableValue;
+- (long long)ler;
+- (void)ecorationHitTesting;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

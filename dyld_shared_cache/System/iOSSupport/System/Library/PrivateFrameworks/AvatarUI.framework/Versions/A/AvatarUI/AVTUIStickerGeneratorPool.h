@@ -29,9 +29,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (long long);
+- (void);
+- (id)$#%À%h*ø*,-;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *availableStickerGenerators; // @synthesize availableStickerGenerators=_availableStickerGenerators;

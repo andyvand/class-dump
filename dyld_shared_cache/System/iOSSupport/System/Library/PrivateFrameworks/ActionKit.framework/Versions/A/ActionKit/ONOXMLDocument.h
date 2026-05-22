@@ -34,28 +34,28 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
 - (void);
 - (struct _xmlDoc *);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)ÅP¹?­a5<p¢rÂ@¾vÑfPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿúQ¿/kÌH÷	¥Ð;µÉ¸G®»o·8d	0E®oÈB/díW(Ó êá!Õÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþÿÿÿÿÿÿÿüd!åç§é«r$0Iþ¸ÞìÁF¹±¨°0ö|¿ ëC¡;
-- (id)}÷;
-- (void)L«;
+- (void)is %@;
+- (id)ÿ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;

@@ -5,9 +5,9 @@
 class AXRImageGroup {
 public: // (access info unavailable from symbols alone)
     AXRImageGroup(void const*&, unsigned long&, unsigned int, axr_flags_t, axr_error_t*);
-    Deserialize(void const*&, unsigned long&, unsigned int, axr_flags_t, axr_error_t*);
-    GetDebugDescription(char const*) const;
-    GetSerializedSize() const;
-    IsEqual(AXRImageGroup const*) const;
-    Serialize(void*&, unsigned long&) const;
+    auto Deserialize(void const*&, unsigned long&, unsigned int, axr_flags_t, axr_error_t*);
+    auto GetDebugDescription(char const*) const;
+    auto GetSerializedSize() const;
+    auto IsEqual(AXRImageGroup const*) const;
+    auto Serialize(void*&, unsigned long&) const;
 };

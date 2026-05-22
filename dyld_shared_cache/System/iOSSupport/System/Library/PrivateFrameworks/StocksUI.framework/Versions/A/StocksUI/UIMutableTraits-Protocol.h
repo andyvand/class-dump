@@ -7,7 +7,9 @@
 @class NSString;
 
 @protocol UIMutableTraits
-- (long long)ß6hf;
+- (long long)not load any more stories due to device obsoletion;
+- (void);
+- (long long)rModuleType;
 
 // Remaining properties
 @property(nonatomic) long long accessibilityContrast;

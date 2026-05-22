@@ -4,13 +4,16 @@
 
 class CADeprecated::XMachServer {
 public: // (access info unavailable from symbols alone)
-    AddMachClient(CADeprecated::XMachServer::Client*);
-    CreateServerPort(char const*, int, int&);
-    DoForEachClient(void (*)(CADeprecated::XMachServer::Client*, void*), void*);
-    DoForEachClient(void (CADeprecated::XMachServer::Client*) block_pointer);
-    GetDebugName();
-    PortDied(unsigned int);
-    RemoveMachClient(CADeprecated::XMachServer::Client*);
     XMachServer(CADeprecated::XMIGServerInfo const&, char const*, int);
+    auto AddMachClient(CADeprecated::XMachServer::Client*);
+    auto CreateServerPort(char const*, int, int&);
+    auto DoForEachClient(void (*)(CADeprecated::XMachServer::Client*, void*), void*);
+    auto DoForEachClient(void (CADeprecated::XMachServer::Client*) block_pointer);
+    auto GetDebugName();
+    auto PortDied(unsigned int);
+    auto RemoveMachClient(CADeprecated::XMachServer::Client*);
+    non-virtual thunk to GetDebugName();
+    non-virtual thunk to PortDied(unsigned int);
+    non-virtual thunk to ~XMachServer();
     ~XMachServer();
 };

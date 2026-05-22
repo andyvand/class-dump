@@ -23,16 +23,16 @@
 }
 
 + (id);
-+ (void);
 + (void);
-+ (_Bool);
-+ (id)pdateBarTintColor: /* Error: Ran out of types for this method. */;
++ (void);
++ (_Bool);
++ (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,7 +45,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -53,13 +53,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (void).apple.SafariShared.WBSLPLinkMetadataProvider.%@.%p._internalQueue;
-- (_Bool);
-- (id)runningLock;
 - (id);
-- (id);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *carrierTemplateParameterValues; // @synthesize carrierTemplateParameterValues=_carrierTemplateParameterValues;

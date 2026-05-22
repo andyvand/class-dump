@@ -22,37 +22,36 @@ __attribute__((visibility("hidden")))
     NSArray *_conversationCache;
 }
 
-- (void)hManagedObjectContext:folder: /* Error: Ran out of types for this method. */;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (id)butedStringValue;
-- (_Bool)HTMLObjectsToModernDestination;
-- (void)s;
-- (void),N,V_allowsManagedToUnmanagedMove;
-- (void)ntsWhenReachable;
-- (void)rvedProgress;
-- (void)T@"NSManagedObjectID",R,N,V_finalAttachmentID;
-- (void)ainsObject:(id)arg1;
-- (void)dress;
 - (void);
-- (void)UndoTarget;
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (_Bool)l;
-- (void)s;
-- (void)w;
-- (long long)r;
-- (id)t;
+- (_Bool);
+- (void);
+- (void);
+- (long long);
 - (id);
-- (id)return type from -[NSMutableAttributedString copy];
-- (id)%s:(id)arg1 %d;
-- (id)d note if needed… {note:%@}%s:%d /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 %@, section:(id)arg2 %@};
-- (void)bs/Sources/NotesFramework/Ironcade/SharedUI/WebView/NoteHTMLEditorView.m;
-- (id)L;
-- (BOOL)mItem;
-- (id)b
-;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (BOOL);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -60,20 +59,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
-- (id)1Äð1¢!0@ù
+- (void)ð1Â0@ù
 × ;
-- (id);
-- (_Bool)è|@}
-~;
-- (void);
-- (void)Y]8Uw-;
+- (void)SLayoutManager"16@"NSTextContainer"24B32;
+- (void)s;
+- (void)ÿ1";
+- (id)};
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *conversationCache; // @synthesize conversationCache=_conversationCache;

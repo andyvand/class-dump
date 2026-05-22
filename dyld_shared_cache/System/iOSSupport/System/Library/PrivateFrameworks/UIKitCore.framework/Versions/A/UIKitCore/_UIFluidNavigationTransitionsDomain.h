@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)t be synced to the cloud transfer %@;
 + (id);
-+ (id)ePlatter;
-+ (Class)s5UIKit12_UITabButtonC06TabBarC8DelegateP;
 + (id);
++ (id)tmentForBarMetrics: /* Error: Ran out of types for this method. */;
++ (id)ViewInTableView:amountScrolledUnder: /* Error: Ran out of types for this method. */;
++ (Class);
 
 @end
 

@@ -17,15 +17,15 @@
 - (void);
 - (void);
 - (void);
-- (void)(;
+- (void);
 - (double);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void)T);
-- (id)vedFromPush;
-- (id)kSorterC6ScoresV12IPPreferenceP;
+- (void);
+- (id);
+- (id)Å;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

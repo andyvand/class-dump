@@ -16,17 +16,17 @@
 }
 
 + (id);
-- (void)5;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *attachmentData; // @synthesize attachmentData=_attachmentData;

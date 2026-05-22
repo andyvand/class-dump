@@ -81,23 +81,23 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (CDStruct_6fbdf7c2);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void)t;
-- (void);Ô¬Ì;
-- (id)ô\;
+- (id)EventSerializable";
 
 // Remaining properties
 @property(nonatomic) _Bool allowLargerImagesDuringScrollingInLowMemoryMode; // @synthesize allowLargerImagesDuringScrollingInLowMemoryMode=_allowLargerImagesDuringScrollingInLowMemoryMode;

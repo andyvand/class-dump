@@ -12,14 +12,14 @@
     TSDTextInputResponder *_textInputResponder;
 }
 
-- (id);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id)_processTransactionDict:(id)arg1 forTransaction:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
-- (id)clearBackPointerToParentInfoIfNeeded:(id)arg1;
+- (id);
+- (id);
+- (_Bool);
 - (id);
 
 // Remaining properties

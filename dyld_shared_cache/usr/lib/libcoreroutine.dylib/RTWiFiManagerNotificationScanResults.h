@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)to %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *scanResults; // @synthesize scanResults=_scanResults;

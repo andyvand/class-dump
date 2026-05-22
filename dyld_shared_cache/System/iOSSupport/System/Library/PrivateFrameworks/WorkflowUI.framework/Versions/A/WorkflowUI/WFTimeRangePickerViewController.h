@@ -19,22 +19,22 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ionController;
-- (id)yAAyæÊÉéÊÉGCG;
-- (void)èóÿ,èóÿÀ7;
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
+- (void)or;
+- (void)o18WFSmartPromptStateCGG;
+- (void)?+;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFTimeRangePickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

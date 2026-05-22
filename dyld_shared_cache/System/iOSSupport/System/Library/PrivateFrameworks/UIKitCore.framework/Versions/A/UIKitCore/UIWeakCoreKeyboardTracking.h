@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     id <UICoreKeyboardTrackingElement> _base;
 }
 
-- (void)Óì-º;
-- (id)ntSaturation;
-- (id)visionOS visual provider. This is a UIKit bug.;
+- (id)ürTþ¼¸;
+- (void)ÔÉ_;
+- (id)Ú(çc;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UICoreKeyboardTrackingElement> base; // @synthesize base=_base;

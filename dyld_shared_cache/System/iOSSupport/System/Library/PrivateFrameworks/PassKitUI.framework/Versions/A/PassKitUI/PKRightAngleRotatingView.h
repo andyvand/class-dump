@@ -16,13 +16,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (struct CGSize);
 - (void);
+- (struct CGSize);
 - (long long);
 - (void);
-- (void);
-- (struct CGSize);
+- (void)!Gùqøð1â
+0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long orientation; // @synthesize orientation=_orientation;

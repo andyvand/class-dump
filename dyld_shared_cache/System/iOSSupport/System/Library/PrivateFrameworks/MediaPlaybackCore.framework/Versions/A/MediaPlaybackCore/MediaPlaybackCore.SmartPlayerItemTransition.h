@@ -22,6 +22,7 @@
     MISSING_TYPE *transitionDidBegin;
     MISSING_TYPE *hasReachedPivotPoint;
     MISSING_TYPE *hasCompletedSuccessfully;
+    MISSING_TYPE *complexity;
     MISSING_TYPE *setupFailureReason;
     MISSING_TYPE *cachedSmartTransitionData;
     MISSING_TYPE *delegate;

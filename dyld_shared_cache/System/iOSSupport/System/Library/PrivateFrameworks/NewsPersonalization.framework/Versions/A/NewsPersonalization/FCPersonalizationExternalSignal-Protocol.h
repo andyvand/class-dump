@@ -7,7 +7,6 @@
 @class NSDate, NSString;
 
 @protocol FCPersonalizationExternalSignal
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *content;

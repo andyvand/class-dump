@@ -5,8 +5,5 @@
 //
 
 @protocol ISVitalitySettings
-- (double);
-- (double);
-- (long long)p asset promise:%@ /* Error: Ran out of types for this method. */;
 @end
 

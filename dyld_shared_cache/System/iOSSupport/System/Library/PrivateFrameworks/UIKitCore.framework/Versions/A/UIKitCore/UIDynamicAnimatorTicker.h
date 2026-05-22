@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     UIDynamicAnimator *_animator;
 }
 
-- (void)rror:(double)arg1 %@;
 - (void);
 - (void);
-- (id)ueSourceViewIfPortal;
-- (void)alueCellContentViewConfiguration;
+- (void);
+- (void)4Áÿ;
+- (id)¬o;
 
 // Remaining properties
 @property __weak UIDynamicAnimator *animator; // @synthesize animator=_animator;

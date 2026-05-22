@@ -15,12 +15,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool)bubble-mask-local;
 - (id);
 - (id);
+- (_Bool);
 - (void);
-- (id)!5;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *stops; // @synthesize stops=_stops;

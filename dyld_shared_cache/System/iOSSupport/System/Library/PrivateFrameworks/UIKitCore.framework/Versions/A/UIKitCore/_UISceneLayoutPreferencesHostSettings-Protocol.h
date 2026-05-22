@@ -5,8 +5,6 @@
 //
 
 @protocol _UISceneLayoutPreferencesHostSettings
-- (void)a9;
-- (void)n:(_Bool)arg1 messageGUID:timeStamp:isBeingReplayed:isInProxyMode:storageContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool _hostObservesLayoutPreferenceChanges;

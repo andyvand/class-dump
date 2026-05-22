@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)yOnboardingQuickLookup_ContactInformation;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUEmbeddedTriggerActionGridViewControllerDelegate> triggerActionGridDelegate; // @synthesize triggerActionGridDelegate;

@@ -5,8 +5,8 @@
 //
 
 @protocol SFUInputStream
-- (void);
-- (long long);
-- (_Bool);
+- (void)(DùñÐ1Â0@ù
+× ;
+- (long long)nvasViewController hitKnobWithTouch:returningRep:] /* Error: Ran out of types for this method. */;
 @end
 

@@ -13,20 +13,20 @@
     AXDispatchTimer *_timer;
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

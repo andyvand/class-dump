@@ -21,29 +21,28 @@
 
 + (id);
 - (long long);
-- (long long)LoadDate: /* Error: Ran out of types for this method. */;
-- (long long)essagesWithCompletion: /* Error: Ran out of types for this method. */;
-- (void)torageController:(long long)arg1;
-- (void)destinationCallerID:(long long)arg1 failed:fromMe: /* Error: Ran out of types for this method. */;
-- (void)tchingParticipantHandles:(long long)arg1;
-- (void)numerateResponseHandlersWithBlock:(long long)arg1;
-- (void)rentToneIdentifierForAlertType:(long long)arg1;
-- (void)nBlock:(long long)arg1;
-- (void)nt:(long long)arg1 avAction:withArguments:toAVChat:isVideo: /* Error: Ran out of types for this method. */;
-- (void)emergeForPersonCentricID:(long long)arg1;
-- (long long)",R,N;
-- (long long)ayMessageToSuper_FILE_Frame;
 - (long long);
-- (long long);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
 - (id);
 - (long long);
-- (unsigned long long)createMTLBufferFromRects:device:storageMode:maxRectWidth:maxRectHeight: /* Error: Ran out of types for this method. */;
-- (_Bool)@;
 - (id);
-- (void)Ánð!LGùÁ°1¢!0@ù
-× ;
-- (id)ontrollerWillAppear: /* Error: Ran out of types for this method. */;
-- (id)tton;
+- (id);
+- (unsigned long long);
+- (_Bool)itingFilterProvider;
+- (id)ularButton;
+- (void)l:¸ÿø /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long documentPreference; // @synthesize documentPreference=_documentPreference;

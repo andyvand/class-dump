@@ -19,18 +19,17 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)ngDevices:(id)arg1;
-- (void)sToCheck:(long long)arg1;
+- (void);
+- (void);
 - (id);
 - (long long);
 - (void);
 - (void);
 - (id);
-- (void)(;
-- (void)0@ù
-× ;
-- (id)$#\;
-- (CDUnknownBlockType)Ûþ¦P;
+- (id)etricsCompactPrompt;
+- (void);
+- (void)ðE(ÿ;
+- (CDUnknownBlockType);
 
 // Remaining properties
 @property(nonatomic) long long childViewControllerIndex; // @synthesize childViewControllerIndex=_childViewControllerIndex;

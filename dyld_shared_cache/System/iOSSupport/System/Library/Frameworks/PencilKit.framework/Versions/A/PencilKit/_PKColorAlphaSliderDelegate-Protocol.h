@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _PKColorAlphaSlider;
-
 @protocol _PKColorAlphaSliderDelegate
-- (void)ish background URL session, id:(id <_PKColorAlphaSlider>)arg1 %{public}@;
-
-@optional
-- (void)ings initWithRequestKey:(id <_PKColorAlphaSlider>)arg1 responseKey:userID:storefrontID:bundleID:deviceInfo:] /* Error: Ran out of types for this method. */;
-- (void)ion/Utilities/RCMath.m;
 @end
 

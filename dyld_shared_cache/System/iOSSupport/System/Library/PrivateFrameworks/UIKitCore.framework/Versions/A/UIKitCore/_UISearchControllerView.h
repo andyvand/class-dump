@@ -22,35 +22,36 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (void);
 - (_Bool);
-- (void)bleView:(_Bool)arg1 didUpdateFocusInContext:withAnimationCoordinator: /* Error: Ran out of types for this method. */;
-- (void)kRate;
-- (void);
-- (void)k;
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (void)(@ùqÇ°1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)0@ù
 × ;
-- (void)
+- (void)!ÀAùb°1Â0@ù
 × ;
-- (id)qÊð1¢!0@ù
-× ;
-- (void)umberOfPages: /* Error: Ran out of types for this method. */;
-- (void)e: /* Error: Ran out of types for this method. */;
-- (void)gInlineCalculation:(_Bool)arg1;
-- (void)boardPositionWithIAV;
-- (id)éÿäªþÄzþÿ;
-- (void);
-- (_Bool)IAssertValidUpdateIndexPath(NSIndexPath * _Nullable __strong);
-- (id)mpting to define a trait for a placeholder token that corresponds to a trait that was already defined:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void)youtGuideSupport;
+- (void)INavigationBarLargeTitleView";
+- (id)ackgroundProviderForced:(struct CGRect)arg1;
+- (void)conSize: /* Error: Ran out of types for this method. */;
+- (void)rolHost;
+- (void)tal-code;
+- (void)lerMinimumForce;
+- (_Bool)stContainsOrderedItems;
+- (void)ise;
+- (void)ionView internal inconsistency:(id)arg1 attempted to rebase shadow updates with a nil update map and/or initial snapshot. Collection view:%@ /* Error: Ran out of types for this method. */;
+- (void)ew"8{CGRect={CGPoint=dd}{CGSize=dd}}16^B48;
+- (void)ìúlþE»13ûlþE»13,ûlþe»13Hûlþ»13Tûlþ»13`ûlþåº13lûlþ5»13xûlþÅº13ûlþÅº13´0qþ»13ûlþE»13¤ûlþ»13´ûlþ;
 
 // Remaining properties
 @property(nonatomic) _Bool _ensureSystemInputViewAboveSearchBarContainerView; // @synthesize _ensureSystemInputViewAboveSearchBarContainerView=__ensureSystemInputViewAboveSearchBarContainerView;
+@property(readonly, nonatomic) struct CGRect _occludedFrame;
 @property(nonatomic) _Bool inlineSearchFieldAccessoryIsOffscreenForPresentationAnimation; // @synthesize inlineSearchFieldAccessoryIsOffscreenForPresentationAnimation=_inlineSearchFieldAccessoryIsOffscreenForPresentationAnimation;
 @property(retain, nonatomic) _UISearchControllerInlineSearchFieldAccessoryView *inlineSearchFieldAccessoryView; // @synthesize inlineSearchFieldAccessoryView=_inlineSearchFieldAccessoryView;
 

@@ -123,12 +123,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (id);
-- (void)orientationOffset;
-- (id);
+- (void);
 - (id);
-- (void)reases source because its semantic is not VFXMeshSourceSemanticEdgeCrease;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) VFXNode *authoringOverlayLayer;

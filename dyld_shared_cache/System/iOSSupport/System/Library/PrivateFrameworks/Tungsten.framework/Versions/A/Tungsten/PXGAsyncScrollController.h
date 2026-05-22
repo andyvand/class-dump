@@ -40,19 +40,19 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (_Bool);
+- (void);
+- (struct CGRect);
+- (id);
+- (void);
 - (struct UIEdgeInsets);
-- (void);
 - (_Bool);
-- (void);
 - (struct CGRect);
-- (void);
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (struct CGRect);
+- (void)(Ä[;
+- (void)?=f{?=(?={?=ffff}[4f])}ffffSCf{?=[4]}}28r^{?=CCfqSC}36@"PXGLayout"44I52^B56;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect activeRect; // @synthesize activeRect=_activeRect;

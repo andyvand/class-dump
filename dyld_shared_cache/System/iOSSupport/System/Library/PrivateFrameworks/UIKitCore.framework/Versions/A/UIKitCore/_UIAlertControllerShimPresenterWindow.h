@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)rdCompletionBlock;
 - (id);
-- (void)"[º;
-- (id)edLayoutMarginsIfNeeded;
-- (id)´ÿg8;
+- (id);
+- (id);
+- (id);
+- (void)ÐÙ^;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIAlertController *alertController;

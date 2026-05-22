@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     ICUserIdentityProperties *_delegatedIdentityProperties;
 }
 
-- (id)countsDaemon;
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)rce:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) ICUserIdentityProperties *delegatedIdentityProperties; // @synthesize delegatedIdentityProperties=_delegatedIdentityProperties;

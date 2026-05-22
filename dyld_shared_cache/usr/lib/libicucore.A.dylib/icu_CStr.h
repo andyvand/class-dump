@@ -5,6 +5,6 @@
 class icu::CStr {
 public: // (access info unavailable from symbols alone)
     CStr(icu::UnicodeString const&);
-    operator()() const;
+    auto operator()() const;
     ~CStr();
 };

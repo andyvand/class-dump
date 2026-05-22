@@ -6,16 +6,16 @@ class dyld4::FileManager {
 public: // (access info unavailable from symbols alone)
     FileManager(lsl::Allocator&);
     FileManager(lsl::Allocator&, dyld4::SyscallDelegate const*);
-    fileRecordForFileID(dyld4::FileID const&);
-    fileRecordForPath(lsl::Allocator&, char const*);
-    fileRecordForVolumeDevIDAndObjID(unsigned long long, unsigned long long);
-    fsidForUUID(lsl::UUID const&) const;
-    getPath(lsl::UUID const&, unsigned long long);
-    getPath(unsigned long long, unsigned long long);
-    reloadFSInfos() const;
-    reloadFSInfos() const (.cold.1);
-    reloadFSInfos() const (.cold.2);
-    reloadFSInfos() const (.cold.3);
-    uuidForFileSystem(unsigned long long) const;
-    uuidForFileSystem(unsigned long long) const (.cold.1);
+    auto fileRecordForFileID(dyld4::FileID const&);
+    auto fileRecordForPath(lsl::Allocator&, char const*);
+    auto fileRecordForVolumeDevIDAndObjID(unsigned long long, unsigned long long);
+    auto fsidForUUID(lsl::UUID const&) const;
+    auto getPath(lsl::UUID const&, unsigned long long);
+    auto getPath(unsigned long long, unsigned long long);
+    auto reloadFSInfos() const;
+    auto reloadFSInfos() const (.cold.1);
+    auto reloadFSInfos() const (.cold.2);
+    auto reloadFSInfos() const (.cold.3);
+    auto uuidForFileSystem(unsigned long long) const;
+    auto uuidForFileSystem(unsigned long long) const (.cold.1);
 };

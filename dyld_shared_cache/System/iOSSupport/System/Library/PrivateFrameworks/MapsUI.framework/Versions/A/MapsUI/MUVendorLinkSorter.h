@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)groundEffects;
 
 @end
 

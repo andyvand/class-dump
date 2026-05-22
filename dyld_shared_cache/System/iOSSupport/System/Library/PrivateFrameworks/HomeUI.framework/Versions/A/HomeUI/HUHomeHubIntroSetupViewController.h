@@ -35,23 +35,22 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)hboardLaunchCoordinator",N,R;
 - (id);
-- (void)1b0@ù
-× ;
-- (id)ions;
-- (void)rMode:(id)arg1;
-- (void)¨ûÿ1ø.r;
+- (void)@"MFComposeRecipient"8;
 
 // Remaining properties
 @property(retain, nonatomic) OBLinkTrayButton *cancelButton; // @synthesize cancelButton=_cancelButton;

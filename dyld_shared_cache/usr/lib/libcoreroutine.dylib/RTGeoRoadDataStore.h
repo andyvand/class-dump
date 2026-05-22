@@ -25,9 +25,9 @@
 - (void);
 - (void);
 - (void);
-- (void)Xu;
-- (id)setRemoteRAT:(id)arg1;
+- (void);
 - (id);
+- (id)g~;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

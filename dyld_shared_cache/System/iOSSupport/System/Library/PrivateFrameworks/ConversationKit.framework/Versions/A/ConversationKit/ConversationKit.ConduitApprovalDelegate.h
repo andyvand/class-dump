@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void)on;
+- (void);
+- (void)y_byytÒ¢GSo9NSRunLoopCG;
 
 @end
 

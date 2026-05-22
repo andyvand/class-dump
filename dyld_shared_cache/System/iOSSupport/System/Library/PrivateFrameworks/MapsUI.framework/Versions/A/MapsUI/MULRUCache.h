@@ -18,15 +18,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long)etMenuProvider: /* Error: Ran out of types for this method. */;
+- (void)rAvailability:mapItem: /* Error: Ran out of types for this method. */;
+- (unsigned long long)llu succeeded but did not return relatedPlaceList;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

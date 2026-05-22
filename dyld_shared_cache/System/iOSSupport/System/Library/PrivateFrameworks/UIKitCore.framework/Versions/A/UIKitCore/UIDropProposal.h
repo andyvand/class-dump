@@ -12,19 +12,19 @@
     long long _preferredBadgeStyle;
 }
 
-+ (id)r;
++ (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (long long);
-- (void)ource edits] items=(:(_Bool)arg1 %lld)[%{public}@];
 - (id);
-- (id)Enabled;
-- (id)ngMode;
-- (unsigned long long)ÿøeÔ'0`;
-- (void)d;
+- (id);
+- (void)neMaskingClientComponent;
+- (id);
+- (unsigned long long)l;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long operation; // @synthesize operation=_operation;

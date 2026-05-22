@@ -7,7 +7,9 @@
 @class NSDictionary;
 
 @protocol PXStoryMutableAutoEditClip
-- (CDStruct_3ac0dd7e)ateTokenKey;
+- (NSDictionary *)gnpost:forEventName:withPayload: /* Error: Ran out of types for this method. */;
+- (CDStruct_618113c1)<ì;
+- (CDStruct_3ac0dd7e)tAssetCollectionAbstractFavoriteActionPerformer _targetFavoriteStateForAssetCollectionReference:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) CDStruct_273850af audioInfo;

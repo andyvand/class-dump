@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     UIImage *_image;
 }
 
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)kPickerSuggestionsScrolledLayout;
-- (void)ONE_LINK_FORMAT_;
+- (id);
+- (void)í#j;
+- (void) ÿi\g¼»2;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

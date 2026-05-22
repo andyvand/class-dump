@@ -11,8 +11,8 @@
     MISSING_TYPE *menuItemProviders;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long)i100@104@112@120@128@136B144B148@152;
-- (id)HasUiLocation:(id)arg1;
+- (unsigned long long);
 - (id);
-- (void)a;
+- (id);
+- (void)deletedSections;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSNumber *persistentID; // @synthesize persistentID=_persistentID;

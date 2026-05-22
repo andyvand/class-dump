@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void)/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+- (void);
 - (void);
 - (id);
-- (void)t strokes from canvas. Frame:(struct CGRect)arg1 %@, strokes:%@ /* Error: Ran out of types for this method. */;
+- (void)Path",C,N,V_shadowPath;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *visualizationElements; // @synthesize visualizationElements=_visualizationElements;

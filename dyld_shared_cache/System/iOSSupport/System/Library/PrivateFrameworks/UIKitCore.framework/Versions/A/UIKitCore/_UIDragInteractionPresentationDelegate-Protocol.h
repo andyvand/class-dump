@@ -4,12 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITargetedDragPreview;
-
 @protocol _UIDragInteractionPresentationDelegate
 - (void);
-- (void)GùÍ°1¢!0@ù
-× ;
-- (UITargetedDragPreview *)¸;
 @end
 

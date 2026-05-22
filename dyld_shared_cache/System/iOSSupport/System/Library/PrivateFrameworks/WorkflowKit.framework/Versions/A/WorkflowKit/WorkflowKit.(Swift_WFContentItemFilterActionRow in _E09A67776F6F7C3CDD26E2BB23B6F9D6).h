@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)vernoteShareInAppLink);
 
 // Remaining properties
 @property(nonatomic, readonly) WFContentProperty *contentProperty;

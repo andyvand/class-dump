@@ -36,13 +36,14 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)Lock_stageNewConfigurationStoreCoordinatorForPosterUUID:descriptorIdentifier:role:error:] /* Error: Ran out of types for this method. */;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly) NSCountedSet *affectedRoles; // @synthesize affectedRoles=_affectedRoles;

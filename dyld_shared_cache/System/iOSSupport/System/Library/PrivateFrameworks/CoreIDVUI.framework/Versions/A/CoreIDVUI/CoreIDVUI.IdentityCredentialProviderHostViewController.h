@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor;
+@class MISSING_TYPE;
 
 @interface CoreIDVUI.IdentityCredentialProviderHostViewController
 {
@@ -14,12 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void)0d;
-
-// Remaining properties
-@property(nonatomic, readonly) UIColor *_backgroundColorForModalFormSheet;
+- (void);
 
 @end
 

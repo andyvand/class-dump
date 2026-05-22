@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCachedURLResponse, NSInputStream, NSURLConnection;
-
 @protocol NSURLConnectionDataDelegate
-
-@optional
-- (NSInputStream *);
-- (NSCachedURLResponse *)ContentType:(NSURLConnection *)arg1 options:(NSCachedURLResponse *)arg2 timeZoneLookup: /* Error: Ran out of types for this method. */;
-- (void)ibraryPath:(NSURLConnection *)arg1;
-- (void);
-- (void)A;
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)td;
++ (Class);
 - (_Bool);
 - (void);
 - (void);
@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (id);
-- (void)InviteURL:(CDUnknownBlockType)arg1;
 - (void);
-- (double)ggg_;
-- (id)ÿ6xVþ;
-- (void)view:(double)arg1 %@; previous location in view:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)ngDifferences:(struct CGRect)arg1 viewPropertyAnimator:animationsProvider:isOnDiffableApplyQueue:completion: /* Error: Ran out of types for this method. */;
+- (double)g id<UIFocusEnvironment> _Nonnull);
+- (void)onBar.maximumAlignmentSize;
 
 // Remaining properties
 @property(nonatomic) double progress;

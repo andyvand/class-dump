@@ -12,20 +12,20 @@
     HMSiriEndpointOnboardingSelections *_onboardingSelections;
 }
 
-+ (id)ccessoryPayload;
-+ (id)¨~Ü¬°¬ÀÈ;
++ (id);
++ (id)e.dismissedAccessoryAnalyticsOnboarding;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)g,V_browsing;
-- (id)lic}@Failed to unarchive logged in account from logged in account data:%@ /* Error: Ran out of types for this method. */;
-- (id)gsManager;
+- (id)andler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;

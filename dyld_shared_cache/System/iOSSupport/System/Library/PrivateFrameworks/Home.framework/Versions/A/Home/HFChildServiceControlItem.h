@@ -14,7 +14,7 @@
     HFChildServiceFilter *_childServiceFilter;
 }
 
-+ (Class)(LßÿI=Í&;
++ (Class)tipleUnlocking;
 - (id);
 - (_Bool);
 - (id);

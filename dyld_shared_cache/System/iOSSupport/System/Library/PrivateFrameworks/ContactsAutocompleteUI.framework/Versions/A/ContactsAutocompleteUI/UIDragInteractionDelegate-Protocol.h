@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class UIDragInteraction;
+@protocol UIDragSession;
 
 @protocol UIDragInteractionDelegate
-- (NSArray *);
 
 @optional
-- (void)=;
-- (void)C;
-- (void));
-- (_Bool)!;
+- (_Bool)ollectionView:(UIDragInteraction *)arg1 contextMenuConfiguration:(id <UIDragSession>)arg2 dismissalPreviewForItemAtIndexPath: /* Error: Ran out of types for this method. */;
 @end
 

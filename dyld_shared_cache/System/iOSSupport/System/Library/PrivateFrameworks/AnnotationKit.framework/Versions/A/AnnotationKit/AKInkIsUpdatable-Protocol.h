@@ -5,6 +5,5 @@
 //
 
 @protocol AKInkIsUpdatable
-- (_Bool)er<%d>:using zero-click fetch mode /* Error: Ran out of types for this method. */;
 @end
 

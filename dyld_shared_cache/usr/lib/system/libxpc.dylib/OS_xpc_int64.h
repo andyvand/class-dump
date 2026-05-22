@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (oneway void);
-- (_Bool)RTMENT;
-- (_Bool);
-- (id);
 - (unsigned long long);
+- (oneway void);
+- (id);
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

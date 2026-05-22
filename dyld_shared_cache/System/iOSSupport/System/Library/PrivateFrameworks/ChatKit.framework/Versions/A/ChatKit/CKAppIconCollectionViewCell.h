@@ -15,19 +15,19 @@
 }
 
 + (id);
-- (void)ting all sketches in note %@;
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (long long);
+- (void);
 - (id);
+- (void);
+- (void)+;
 
 // Remaining properties
 @property(retain, nonatomic) CKAppIconView *appContentView; // @synthesize appContentView=_appContentView;

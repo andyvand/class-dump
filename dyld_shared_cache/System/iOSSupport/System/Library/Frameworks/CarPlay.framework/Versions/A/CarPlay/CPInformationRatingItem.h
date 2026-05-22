@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *maximumRating; // @synthesize maximumRating=_maximumRating;

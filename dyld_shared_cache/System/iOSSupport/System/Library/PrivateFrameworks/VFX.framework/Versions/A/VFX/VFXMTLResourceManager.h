@@ -16,7 +16,9 @@
     VFXMTLLibraryManager *_libraryManager;
     VFXMTLShaderBindingsGenerator *_bindingsGenerator;
     struct __CFDictionary *_availablePipelineStates;
-    struct os_unfair_lock_s _availablePipelineStatesLock;
+    struct {
+        struct _opaque_pthread_mutex_t handle;
+    } _availablePipelineStatesLock;
     VFXMTLBufferAllocator *_commonProfileBuffersAllocator;
     CDStruct_06e3b152 _availableIrradianceTextures;
     CDStruct_06e3b152 _availableRadianceTextures;

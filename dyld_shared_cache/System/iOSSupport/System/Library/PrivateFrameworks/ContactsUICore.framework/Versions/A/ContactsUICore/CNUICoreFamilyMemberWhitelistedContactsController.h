@@ -55,11 +55,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
-- (id)Dyfý/yACyADyADyADyADyAEoö/ya÷/SgGG¨é/Gé/G<ñ/y~è/yADy}û/xõ/y¸þÿGGGGG_ADyADyADy¾ú/yHû1yADyADylù1yADyCö1yADyADyADyç1ALGANGñë/G_Qo_AIy¤æ/GG_Qo_)ô/yATGGAIyATSgGG_Qo__SbQo_ìõ/ySbGGAFG_ô/GtGG¦ô/yAVGGtGG;
+- (void)yDataWithOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)y"8;
+- (id);ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) CNFuture *addContactsToWhitelistFuture; // @synthesize addContactsToWhitelistFuture=_addContactsToWhitelistFuture;

@@ -16,12 +16,12 @@
 }
 
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)\Iÿÿ;
 
 @end
 

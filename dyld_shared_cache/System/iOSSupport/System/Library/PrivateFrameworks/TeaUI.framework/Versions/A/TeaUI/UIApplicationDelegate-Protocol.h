@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIApplication, UIWindow;
+@class UIWindow;
 
 @protocol UIApplicationDelegate
 
 @optional
-- (void);
-- (void)j;
-- (void);
-- (void)ler:(UIApplication *)arg1 sender: /* Error: Ran out of types for this method. */;
-- (UIWindow *)ocessing.;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *window;

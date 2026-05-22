@@ -35,104 +35,107 @@
     } _flags;
 }
 
+- (struct UIOffset);
+- (void);
 - (double);
-- (struct CGRect);
-- (id);
-- (void);
+- (struct UIOffset);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)F9edGkGuS6TSSvve4LSm3o/Library/Caches/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/s3_enc.c;
 - (double);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (double);
+- (struct UIOffset);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (struct UIOffset);
-- (id);
-- (id)f;
-- (void)0;
-- (void);
-- (void);
-- (id);
-- (void)acklist:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)descriptionText;
-- (id)oreItemID;
-- (void)pecialSeekCommandEvent;
-- (struct UIEdgeInsets);
-- (void);
-- (double);
-- (void);
-- (double);
-- (id);
 - (void);
 - (_Bool);
-- (double);
 - (void);
+- (void)Ð!;
+- (id)@ùÑY°1Â0@ù
+× ;
+- (id)1Â0@ù
+× ;
+- (void)Ð!Fùq`Ð1Â0@ù
+× ;
+- (id)
+× ;
+- (void)qb1Â0@ù
+× ;
+- (struct UIEdgeInsets)0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)ÔÁð!GùÑdÐ1Â0@ù
+× ;
+- (void)Ô ;
+- (void)ardInputMode"16;
+- (id)ollectionLayoutSection"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)redicate:(id)arg1;
+- (void)y:(double)arg1;
+- (void)apseItem: /* Error: Ran out of types for this method. */;
+- (id)efaultPrevented;
+- (id)dexPath:withInsets: /* Error: Ran out of types for this method. */;
+- (double)_willHandoffLoupeMagnifier;
+- (id)SizeGuide;
+- (id)ingTimingParameters;
+- (id)ationAttributedText:(_Bool)arg1 lastDictationAttributedTextRange:currentDictationAttributedTextRange: /* Error: Ran out of types for this method. */;
+- (id)ngUnderneathDescendantForDepthLevel;
+- (id)terfaceOrientationForPresentation: /* Error: Ran out of types for this method. */;
+- (void)ordSet;
+- (id)Delegate>",W,N,V_delegate;
+- (struct CGSize)",R,N,V_substrate;
+- (void)4ä& èXÈð4;
+- (void)¤	;
+- (void)Has fill:(id)arg1 NO;
+- (void)UIStackView = %@,
+ cosntraints = %@;
+- (struct UIEdgeInsets)%@;
+- (void);
+- (void);
+- (id)nimation;
+- (void)n=%ld, newSectionCount=%ld);
+- (double)%ld-%.2fx;
+- (double)apDataFromDataWithRectAndRadii(const _UIBoundingPathBitmapData, const _UIIntegralRect, const _UIIntegralCornerRadii);
+- (_Bool)ngeNotification;
 - (id);
-- (void);
-- (void);
+- (struct UIOffset)Ê;
+- (id)3ySbGG_SbQo_;
 - (void);
-- (void);
-- (id)Áo°!ÄGùQÂ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)1ÇÐ1¢!0@ù
-× ;
-- (double);
-- (struct UIEdgeInsets)0@ù
-× ;
-- (struct UIOffset)!ÜBùË1¢!0@ù
-× ;
-- (void);
-- (struct UIOffset)@ùQÌ°1¢!0@ù
-× ;
-- (id)InFlushedViews"b1};
-- (void)leView"16@"NSIndexPath"24;
-- (struct CGSize)on"b1"isInSidebarSection"b1"wantsHighPriority"b1"nstoolbarItemIdentifierNeedsPointerForUniqueness"b1};
-- (id)pletionBlock;
-- (void)ct:(double)arg1;
-- (void)thCalendar:(struct UIOffset)arg1 locale:(struct NSDirectionalEdgeInsets)arg2 selectedDate:(_Bool)arg3;
-- (id)edDataAvailable;
-- (id)n: /* Error: Ran out of types for this method. */;
-- (void)adjustFontForVerticalColonIfNecessary:(_Bool)arg1;
-- (_Bool)ateForAttachingToActionRepresentationView: /* Error: Ran out of types for this method. */;
-- (void)_zoomToCenter:(struct UIEdgeInsets)arg1 scale:(unsigned long long)arg2 duration:(double)arg3;
-- (void)heckeredPattern;
-- (id)orBounds:pinnedArrowSide:arrowBase:arrowOffset: /* Error: Ran out of types for this method. */;
-- (id)ateConstraints;
-- (_Bool)bolConfiguration",&,N,V_overridingSymbolConfiguration;
-- (void)__panDriver;
-- (void)prepareForTransitionToSettings:(struct NSDirectionalEdgeInsets)arg1;
-- (Class)xtCanvasView;
-- (id)ainer;
-- (void)c SPI. Please remove.;
-- (void)the index. Hopefully it's already been undrawn. Associated proofreadingSuggestionID = %@;
-- (void)c}ld;
+- (_Bool);
+- (void)b;
+- (void)Cÿ[C;
+- (void)É× c;
+- (_Bool)UØTc;
+- (void)k1ÿ;
+- (Class)Y«ÿ»Øçh;
+- (_Bool);
+- (_Bool)³ÿ­ÞÖHd;
+- (void)Üöc;
+- (id)Hu;
+- (id)É¤×d;
+- (struct CGPoint)|d;
 - (id);
-- (struct UIOffset)$þÿ;
-- (_Bool)¦jüÿ;
-- (id)dismissCornerRadius;
-- (void)nGesture;
-- (_Bool)for constraint group %@;
-- (id)tTouchPhase;
-- (void)CGImage;
-- (void)UIToolbar;
-- (void)led;
-- (id)P@;
-- (id);
-- (void)<;
-- (void)ÿÙö;
-- (_Bool)d;
-- (struct CGPoint)ñþéÁ;
-- (void)ðþ;
+- (id)QØÈ[d;
+- (void)d;
+- (void)ëÿÛl¸d;
+- (void);
+- (struct CGRect)çe;
+- (_Bool)èÉe;
 
 @end
 

@@ -21,10 +21,10 @@
     AXDragSession *_dragSession;
 }
 
-- (void);
 - (void);
 - (void);
-- (void)@@;
+- (void);
+- (void);
 - (void);
 - (int);
 - (void);
@@ -32,22 +32,22 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)Dictionary";
+- (void);
 - (void);
 - (_Bool);
-- (void)Model"@"NSError">;
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)T;
-- (id);
-- (id);
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void)ntVendor;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,8 +12,8 @@
 
 - (struct CGRect);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

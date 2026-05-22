@@ -20,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (void);
-- (void)L^±èÿ¡L^nðÿ;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isPaused) _Bool paused;

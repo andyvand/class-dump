@@ -26,9 +26,9 @@
 - (struct CGAffineTransform);
 - (void);
 - (struct CGRect);
-- (struct CGSize);
-- (void);
 - (double);
+- (void);
+- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) struct CGSize dimensions; // @synthesize dimensions=_dimensions;

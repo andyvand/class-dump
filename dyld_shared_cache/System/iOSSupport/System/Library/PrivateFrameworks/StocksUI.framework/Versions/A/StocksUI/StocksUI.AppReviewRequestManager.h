@@ -21,9 +21,9 @@
     MISSING_TYPE *$__lazy_storage_$_appReviewPromptConfig;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)àúÿäúÿXúÿ$úÿúÿúÿúÿúÿ<úÿ úÿÜúÿ;
 
 @end
 

@@ -48,19 +48,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)Ô*ð!TAùÑ?1b0@ù
-× ;
-- (void)ÿ¤µ­ÿ;
-- (void)fKeyboard;
+- (void);
+- (void);
+- (void)le: /* Error: Ran out of types for this method. */;
+- (void)$þÿ;
+- (void)olbarViewController;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *actionsButton; // @synthesize actionsButton=_actionsButton;

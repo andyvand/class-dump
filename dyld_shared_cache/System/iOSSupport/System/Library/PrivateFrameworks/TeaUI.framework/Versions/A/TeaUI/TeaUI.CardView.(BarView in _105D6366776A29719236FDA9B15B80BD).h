@@ -10,12 +10,12 @@
 {
 }
 
-- (id)XClientNone was passed to -setAppAssetPromiseResponsibleClient:error:, but that doesn't make sense /* Error: Ran out of types for this method. */;
-- (id)n;
+- (id);
 - (void);
-- (void)string for localized string '%@'.;
 - (id);
+- (void);
 - (id);
+- (id)utMargins;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityHint;

@@ -17,7 +17,7 @@
     long long _snapshotType;
 }
 
-+ (_Bool)B-0000-1000-8000-0026BB765291;
++ (_Bool);
 - (long long);
 - (void);
 - (_Bool);
@@ -27,11 +27,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)nent role:%@ during merge /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *delay; // @synthesize delay=_delay;

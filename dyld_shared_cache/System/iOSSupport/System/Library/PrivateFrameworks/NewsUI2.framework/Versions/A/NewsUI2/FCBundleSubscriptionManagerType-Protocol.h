@@ -8,10 +8,11 @@
 @protocol FCEntitlementsOverrideProviderType;
 
 @protocol FCBundleSubscriptionManagerType
-- (void);
-- (FCBundleSubscription *);
-- (void)AssetLoadProperties:(unsigned long long)arg1 allowingCachedAssets:(_Bool)arg2 defaults:(void (^)(FCBundleSubscription *))arg3;
-- (id <FCEntitlementsOverrideProviderType>)'%{public}s';
+- (void)Ôáð!ÈAùñð1Â0@ù
+× ;
+- (void)p;
+- (FCBundleSubscription *)a;
+- (void)(;
 
 // Remaining properties
 @property(readonly, nonatomic) FCBundleSubscription *cachedSubscription;

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, _UITreeDataSourceSnapshotter;
+@class NSString;
 
 @protocol _UITreeDataSourceSnapshotter
-- (_UITreeDataSourceSnapshotter *);
-- (NSIndexSet *)ontentStr is NULL;
-- (NSIndexSet *);
-- (_Bool)hFloat:(long long)arg1;
-- (NSIndexSet *)ationFromRemoteNotificationDictionary: /* Error: Ran out of types for this method. */;
-- (long long)Play;
+- (long long)Variant;
+- (NSString *);
 @end
 

@@ -11,14 +11,13 @@
     MISSING_TYPE *contents;
 }
 
-+ (_Bool)rView: /* Error: Ran out of types for this method. */;
-- (long long);
-- (_Bool)OfRowsInSection:(id)arg1;
++ (_Bool)ÿÆéoþ;
+- (id);
+- (long long);
+- (id)ary"24@0:(id)arg1 8@"NSDictionary"16;
+- (_Bool)Duration;
 - (void);
-- (void)0@ù
-× ;
-- (id)or",&,N,V_primaryButtonTint;
-- (id)cketStatistics;
+- (void)üíþÿØæÊl;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

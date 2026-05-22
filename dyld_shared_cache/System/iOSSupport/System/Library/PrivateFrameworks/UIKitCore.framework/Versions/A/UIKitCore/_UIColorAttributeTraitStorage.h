@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)ompletionHandler:(id)arg1;
-- (id);
 - (void);
 - (id);
-- (void)²Ó,º;
+- (id);
+- (void)iew:(id)arg1;
+- (void)( ];
 
 @end
 

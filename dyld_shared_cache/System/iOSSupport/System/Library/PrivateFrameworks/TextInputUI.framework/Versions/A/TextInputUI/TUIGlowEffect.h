@@ -40,20 +40,19 @@
 - (void);
 - (double);
 - (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (double);
 - (struct CGColor *);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (struct CAFrameRateRange);
-- (void)!hCù|1b0@ù
-× ;
-- (double)ion: /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CAFrameRateRange)ghtBackgroundView;
+- (void)P;
+- (void)dow bounds did change <%@:(struct CGColor *)arg1 %p> scene frame %@;
 
 // Remaining properties
 @property(nonatomic) double blurRadius; // @synthesize blurRadius=_blurRadius;

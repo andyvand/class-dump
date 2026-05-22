@@ -8,8 +8,7 @@
 @protocol MTLCommandQueue, MTLDevice, MTLLogContainer;
 
 @protocol MTLCommandBuffer
-- (void);
-- (void)te;
+- (void)tionState;
 
 // Remaining properties
 @property(readonly) double GPUEndTime;

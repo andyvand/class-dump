@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)calendar? (WFGetUpcomingItemCalendar);
 
 // Remaining properties
 @property(readonly, nonatomic) LNAction *lnAction; // @synthesize lnAction=_lnAction;

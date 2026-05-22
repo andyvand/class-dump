@@ -16,15 +16,16 @@
 + (id);
 + (id);
 + (id);
-+ (id)dNewTransitionsForProcessing;
-- (void);
-- (void);
++ (id)(Ð!0DùqC,°1Â0@ù
+× ;
+- (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id)nelActivated;
-- (id)ntGNSSLastRegistrationDate;
+- (id);
+- (void);
+- (id);
+- (void)ion for client with bundleIdentifier, %@, restorationIdentifier, %@;
+- (id)%@,%@,successfully fetch record %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *entitlementsDictionary; // @synthesize entitlementsDictionary=_entitlementsDictionary;

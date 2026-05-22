@@ -4,5 +4,5 @@
 
 class Utils::TrieWrapper {
 public: // (access info unavailable from symbols alone)
-    loadTrie(__CFString const*);
+    auto loadTrie(__CFString const*);
 };

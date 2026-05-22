@@ -23,12 +23,12 @@
 - (int);
 - (void);
 - (double);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (double);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color;

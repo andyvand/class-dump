@@ -14,21 +14,21 @@
     _VOSProfileCommand *_primaryProfileCommand;
 }
 
-+ (id)!;
-+ (id)in undefined behavior.;
 + (_Bool);
-- (void);
++ (id);
++ (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id)";
 - (unsigned long long);
-- (void)N,V_sustainLevel;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

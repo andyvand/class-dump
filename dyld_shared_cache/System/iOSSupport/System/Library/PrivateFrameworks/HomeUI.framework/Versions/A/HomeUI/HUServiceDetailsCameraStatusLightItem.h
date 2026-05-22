@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)[leftHomePodDetailView][leadingSwapButtonMargin][swapButton][trailingSwapButtonMargin][rightHomePodDetailView][rightSpeakerMargin]|;
 
 // Remaining properties
 @property(retain, nonatomic) HUServiceDetailsCameraSettingsReaderWriter *settingsReaderWriter; // @synthesize settingsReaderWriter=_settingsReaderWriter;

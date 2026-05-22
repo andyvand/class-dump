@@ -22,14 +22,14 @@
 - (void);
 - (void);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)eMessagesPerService: /* Error: Ran out of types for this method. */;
-- (id)r: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)8¾Q¬;
 - (id);
-- (id)0[;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id)n response;
+- (void)PH³ÿ&wÝ¨^;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIClickPresentationTransition> appearanceTransition; // @synthesize appearanceTransition=_appearanceTransition;

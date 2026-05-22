@@ -4,5 +4,5 @@
 
 class std::__num_base {
 public: // (access info unavailable from symbols alone)
-    _S_format_float(std::ios_base const&, char*, char);
+    auto _S_format_float(std::ios_base const&, char*, char);
 };

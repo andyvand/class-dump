@@ -17,9 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)NSchedulerProvider",R,N;
+- (void);
 
 @end
 

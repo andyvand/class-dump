@@ -61,8 +61,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool)ptomTypePrimaryResidentUnreachable;
+- (void)è;
+- (_Bool);
 
 // Remaining properties
 @property(getter=isAccessAllowed) _Bool accessAllowed; // @synthesize accessAllowed=_accessAllowed;

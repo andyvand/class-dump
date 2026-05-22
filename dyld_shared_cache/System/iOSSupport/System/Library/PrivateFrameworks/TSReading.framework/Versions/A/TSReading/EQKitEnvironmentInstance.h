@@ -18,20 +18,20 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (const void *);
 - (id);
 - (const struct Config *);
-- (const void *);
+- (const void *);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (const struct Manager *);
 - (void);
-- (id);
 - (void);
-- (_Bool)dComponent;
-- (const struct Manager *)thTitle:] /* Error: Ran out of types for this method. */;
+- (id)TSWPAttributeIndex, TSWPCharIndex, UInt16, UInt16);
 
 // Remaining properties
 @property(nonatomic) _Bool kerning;

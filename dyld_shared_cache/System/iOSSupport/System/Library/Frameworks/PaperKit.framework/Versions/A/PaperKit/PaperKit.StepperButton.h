@@ -18,14 +18,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool)~íýÿ;
-- (_Bool)TType"24B32@"NSDictionary"36@?<v@?B@"NSError">44;
-- (_Bool)Üúÿý;
+- (void);
+- (void);
+- (void);
+- (_Bool)5;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool enabled;

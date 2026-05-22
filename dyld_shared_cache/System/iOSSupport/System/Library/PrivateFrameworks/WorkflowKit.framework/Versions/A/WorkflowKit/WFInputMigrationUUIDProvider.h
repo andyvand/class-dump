@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (void);
 - (unsigned long long);
-- (id)con:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id):8@16@24@32Q40 /* Error: Ran out of types for this method. */;
+- (void)This device does not have Cellular Data.;
 
 // Remaining properties
 @property(readonly, nonatomic) WFAction *action; // @synthesize action=_action;

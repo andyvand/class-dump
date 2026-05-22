@@ -12,8 +12,8 @@
     MISSING_TYPE *tracker;
 }
 
-- (void)rResource: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 @end
 

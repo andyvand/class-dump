@@ -53,14 +53,14 @@
 - (void);
 - (id);
 - (id);
+- (long long);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (long long)ÄÐÆÿÄÐÆÿ;
+- (void)ot specify which blog to post to.;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableData *bodyDataBuffer; // @synthesize bodyDataBuffer=_bodyDataBuffer;

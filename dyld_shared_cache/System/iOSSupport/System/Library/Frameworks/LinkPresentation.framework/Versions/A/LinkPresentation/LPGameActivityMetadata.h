@@ -17,26 +17,27 @@
 }
 
 + (id);
-+ (_Bool)LoadingMediaWithAutoPlayDisabled:,V_allowsLoadingMediaWithAutoPlayDisabled /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)q9?;
-- (id);
-- (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (id)d;
-- (id);
-- (id);
-- (void)e;
-- (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

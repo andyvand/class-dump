@@ -24,13 +24,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;

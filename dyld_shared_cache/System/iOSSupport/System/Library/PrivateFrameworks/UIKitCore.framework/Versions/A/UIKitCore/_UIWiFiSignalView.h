@@ -17,25 +17,24 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void);
+- (long long);
 - (struct CGSize);
+- (void);
+- (void)date:(long long)arg1;
+- (void)ntSelectionContainsPoint:(long long)arg1;
+- (id);
+- (id)¤ô;
+- (void)mojiCategoryPrepopulated(void);
+- (void)¨Âþ;
 - (id);
 - (void);
-- (id)!¸FùÅÐ1¢!0@ù
-× ;
-- (long long)ÔÁvð!;
-- (void)oint;
-- (long long)¸;
-- (id)}@:(struct CGRect)arg1 %{public}@ - rebuilding layers for reason:%{public}@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void)ÚûZ;
-- (void);
-- (long long)¼[;
-- (void):(id)arg1 \;
+- (void)ô;
+- (id);
 - (long long);
 - (id);
-- (id);
+- (long long);
 - (void);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

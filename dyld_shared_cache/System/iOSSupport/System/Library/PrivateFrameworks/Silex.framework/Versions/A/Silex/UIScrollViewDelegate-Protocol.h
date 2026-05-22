@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
-
 @protocol UIScrollViewDelegate
 
 @optional
-- (void);
-- (void)WithRange:(UIScrollView *)arg1;
-- (void)tStyle;
+- (void),N,V_mediaResumePosition;
 @end
 

@@ -21,28 +21,27 @@ __attribute__((visibility("hidden")))
     struct CGAffineTransform _finalInputViewTransform;
 }
 
-- (void)houldHandleInternalPhishingAttempts;
-- (void)ntifier:(struct UIEdgeInsets)arg1;
-- (void)isFirstLoad;
-- (void)icesforSMSRelay;
-- (void)roxyBlock:(struct CGAffineTransform)arg1;
-- (struct CGRect)v;
-- (struct UIEdgeInsets);
-- (struct CGRect)kInterpreterC;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
+- (struct UIEdgeInsets);
+- (struct CGRect);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
-- (double);
+- (void);
 - (struct CGPoint);
+- (void)chor",R,N,V_centerYAnchor;
+- (id)p$4x,<¼Ü;
+- (void);
+- (double)ment;
+- (id)PaÒìZ[;
+- (void)<ª^;
+- (double)£a;
+- (void)>ÿÏxÚ;
 - (void);
-- (double);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)ction:(struct CGPoint)arg1;
-- (id)Constraint;
-- (void)­<Ð©êg;
-- (void)H½ÿ1L;
-- (id)ej;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;

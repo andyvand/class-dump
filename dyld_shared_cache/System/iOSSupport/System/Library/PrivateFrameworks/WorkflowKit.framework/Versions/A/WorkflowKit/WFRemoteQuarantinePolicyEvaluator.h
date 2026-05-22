@@ -26,11 +26,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)1B0@ù
-× ;
-- (void)O;
+- (id);
+- (void);
+- (void)setParameterState:forKey:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFRemoteQuarantinePolicyEvaluatorDelegate> delegate; // @synthesize delegate=_delegate;

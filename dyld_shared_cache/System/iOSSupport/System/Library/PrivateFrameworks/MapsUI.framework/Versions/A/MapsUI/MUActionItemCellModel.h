@@ -25,14 +25,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)setApplicationActivities:(id)arg1;
-- (_Bool)ggestions;
+- (void)N,V_showHoursAndOpenState;
+- (id)TRAY;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;

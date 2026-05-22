@@ -11,8 +11,8 @@
     MISSING_TYPE *entitlementVerifier;
 }
 
-- (void);
 - (id);
+- (void)ContactProperty",R,N,V_contactProperty;
 
 @end
 

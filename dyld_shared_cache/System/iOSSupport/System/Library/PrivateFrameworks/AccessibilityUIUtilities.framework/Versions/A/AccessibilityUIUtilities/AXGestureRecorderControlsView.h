@@ -16,9 +16,9 @@
     UIButton *_middleButton;
 }
 
-+ (double)';
++ (double);
 - (void);
-- (void)@@"FPSandboxingURLWrapper";
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,15 +27,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (float);
+- (void);
 - (id);
-- (void)ating message;
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

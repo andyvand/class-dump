@@ -18,9 +18,9 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (id);
+- (void)_addNonNilObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

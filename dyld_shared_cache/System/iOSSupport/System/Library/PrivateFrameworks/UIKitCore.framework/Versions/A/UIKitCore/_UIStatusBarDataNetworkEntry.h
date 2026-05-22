@@ -12,18 +12,17 @@
     long long _status;
 }
 
-+ (_Bool)Ð©iÿ;
++ (_Bool)d prefixed with '_safari_' but it looks like you are not Safari. I mean... what did you expect to happen?;
 - (void);
 - (_Bool);
-- (long long)P;
+- (id);
 - (void);
-- (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id)0@ù
-× ;
+- (_Bool)6#24;
+- (void)edToSize:(id)arg1 lineBreakMode: /* Error: Ran out of types for this method. */;
+- (id)weight:transform:color:fill: /* Error: Ran out of types for this method. */;
+- (id)cay;
+- (long long),S_setUuid:,V__uuid /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool lowDataModeActive; // @synthesize lowDataModeActive=_lowDataModeActive;

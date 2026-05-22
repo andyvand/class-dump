@@ -18,13 +18,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
-- (id)tification;
-- (void);
+- (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id rootElement; // @synthesize rootElement=_rootElement;

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id)IsInsideHourSide:(id)arg1;
+- (id)´m;
+- (void)ð>Ðä \;
 
 @end
 

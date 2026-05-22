@@ -13,17 +13,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
-- (void)DAttachmentRecordStruct=}16;
-- (_Bool);
-- (struct CGRect);
-- (struct CGPoint);
-- (id)m;
 - (void);
-- (id)TraitEnvironment;
-- (struct CGRect)wExpandCollapseAnimationGeneration.m;
-- (id)ÿUpÓ&ú`;
-- (void)Éyh;
-- (double)%j;
+- (_Bool);
+- (struct CGRect);
+- (struct CGPoint);
+- (id);
+- (void);
+- (id);
+- (id);
+- (struct CGRect)a;
+- (double)ôå¨ÿE{Îì¼`;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint bottomPoint; // @synthesize bottomPoint=_bottomPoint;

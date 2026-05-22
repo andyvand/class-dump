@@ -10,11 +10,13 @@
     unsigned long long _token;
 }
 
-- (unsigned long long);
 - (id);
+- (_Bool);
 - (void);
-- (void)(%{public}s for asset %{public}s. Switching to compatible.;
-- (_Bool)_TtC12PhotosUICoreP33_305A4B5AB4AFF50DE413F9BA216CA8C220TTRWorkflowViewModel;
+- (unsigned long long);
+- (void)FÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canceled; // @synthesize canceled=_canceled;

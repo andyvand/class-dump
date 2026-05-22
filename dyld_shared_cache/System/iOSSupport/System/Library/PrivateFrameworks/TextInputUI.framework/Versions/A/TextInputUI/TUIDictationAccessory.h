@@ -13,17 +13,16 @@
     NSArray *_languages;
 }
 
-+ (_Bool)0@ù
-× ;
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
-- (id);
 - (void);
+- (void);
+- (id)minesLayerHitTestState;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *languages; // @synthesize languages=_languages;

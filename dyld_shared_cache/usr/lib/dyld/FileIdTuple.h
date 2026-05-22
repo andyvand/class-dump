@@ -6,7 +6,8 @@ class FileIdTuple {
 public: // (access info unavailable from symbols alone)
     FileIdTuple(stat const&);
     FileIdTuple(unsigned long long, unsigned long long);
-    fsID() const;
-    getPath(char*) const;
-    inode() const;
+    auto fsID() const;
+    auto getPath(char*) const;
+    auto inode() const;
+    operator bool() const;
 };

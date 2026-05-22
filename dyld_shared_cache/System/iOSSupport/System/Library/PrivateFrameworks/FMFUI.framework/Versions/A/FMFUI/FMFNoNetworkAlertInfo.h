@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *actionURL; // @synthesize actionURL=_actionURL;

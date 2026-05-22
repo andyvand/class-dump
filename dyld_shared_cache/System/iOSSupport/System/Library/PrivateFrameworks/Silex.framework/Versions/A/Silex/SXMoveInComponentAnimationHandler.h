@@ -16,11 +16,10 @@
 - (void);
 - (double);
 - (void);
-- (void)h8h;
 - (void);
 - (void);
-- (void)Að!EùQ¤1¢!0@ù
-× ;
+- (void);
+- (void)XScalableImageComponentSizerFactory"16@?0@"<TFResolver>"8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

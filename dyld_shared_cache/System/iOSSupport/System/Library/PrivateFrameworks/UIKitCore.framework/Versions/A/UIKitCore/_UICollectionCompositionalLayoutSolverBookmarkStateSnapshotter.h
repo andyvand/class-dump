@@ -13,10 +13,11 @@ __attribute__((visibility("hidden")))
     long long _originalSectionIndex;
 }
 
-- (void);
-- (long long)Rect={CGPoint=dd}{CGSize=dd}}24;
-- (void)nuAnchor;
-- (id)ibutes:(id)arg1;
+- (void);
+- (id)Ð1Â0@ù
+× ;
+- (long long)ion;
+- (void)H\9ÿ°ð;
 
 // Remaining properties
 @property(readonly, nonatomic) long long originalSectionIndex; // @synthesize originalSectionIndex=_originalSectionIndex;

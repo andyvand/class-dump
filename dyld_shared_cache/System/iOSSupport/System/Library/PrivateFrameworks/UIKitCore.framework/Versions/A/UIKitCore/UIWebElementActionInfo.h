@@ -9,8 +9,8 @@
     struct CGPoint _interactionLocation;
 }
 
-- (struct CGPoint)nter"16;
-- (void)lidMessage;
+- (struct CGPoint);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint interactionLocation; // @synthesize interactionLocation=_interactionLocation;

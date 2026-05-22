@@ -34,12 +34,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
+- (id);
 - (void);
+- (unsigned long long);
 - (struct _NSRange);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id)okup;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *_children; // @synthesize _children=__children;

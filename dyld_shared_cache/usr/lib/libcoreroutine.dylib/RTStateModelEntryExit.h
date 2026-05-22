@@ -10,18 +10,17 @@
     double _exit_s;
 }
 
-+ (_Bool)@;
++ (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (id)stTimeKey;
-- (double);
-- (id):callbackQueue:callback: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (id);
+- (void);
+- (id);
+- (double);
+- (double);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double entry_s; // @synthesize entry_s=_entry_s;

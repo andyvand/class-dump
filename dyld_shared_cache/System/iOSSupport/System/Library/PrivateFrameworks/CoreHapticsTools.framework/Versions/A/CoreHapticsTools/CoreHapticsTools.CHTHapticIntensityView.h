@@ -14,11 +14,11 @@
     MISSING_TYPE *overlayParamCurve;
 }
 
-- (void);
+- (id);
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

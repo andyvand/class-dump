@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)Handles;
 + (_Bool);
 + (_Bool);
-+ (id)pdateHostedSearchLayoutIfNeeded;
++ (_Bool);
 + (id);
-+ (long long)TIÿsá;
++ (id)m.apple.UIKit.ScreenshotForceSRGB;
++ (long long)½Îdg;
 
 @end
 

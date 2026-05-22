@@ -14,16 +14,16 @@
     UIVisualEffectView *_vibrantView;
 }
 
-- (void)WithDocument:(id)arg1;
-- (void)ent:(id)arg1 includeMarkupModelData:embedMarkupModelDataInImage: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 - (id);
-- (void)ueue;
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
-- (struct CGSize)onfiguration;
+- (struct CGSize);
+- (void)stalledPluginsKey;
 - (void);
 
 @end

@@ -14,9 +14,9 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)hlight: /* Error: Ran out of types for this method. */;
 
 @end
 

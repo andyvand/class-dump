@@ -15,9 +15,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
 - (void);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isDepthEffectDisabled) _Bool depthEffectDisabled; // @synthesize depthEffectDisabled=_depthEffectDisabled;

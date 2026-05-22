@@ -15,8 +15,8 @@
 
 - (void);
 - (id);
-- (void);
-- (id)æ;
+- (id);
+- (void)bumParticipantError;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;

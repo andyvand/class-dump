@@ -24,19 +24,19 @@ __attribute__((visibility("hidden")))
     long long _desiredFontSize;
 }
 
-- (_Bool)ctRecoverChatToPeerDevicesForMessageGUID: /* Error: Ran out of types for this method. */;
-- (id)DevicesForMessageGUIDs: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void)romPerson:(_Bool)arg1;
-- (void)ccount:(id)arg1 notifyInvitationCancelledFromPerson: /* Error: Ran out of types for this method. */;
-- (void)cessModifyPerRecordCallBack:(id)arg1 error:recordIDtoGUIDmap: /* Error: Ran out of types for this method. */;
-- (void)yPerRecordCallBack:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)dWithIMMessageItemFields:(id)arg1;
-- (void)dReceiptForMessageID:(double)arg1 date:attempts:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)napTrustedSender:(long long)arg1 wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)ject:(long long)arg1 userInfo: /* Error: Ran out of types for this method. */;
-- (void)ns;
-- (id)>;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (double);
@@ -47,16 +47,15 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (void);
 - (void);
-- (void);
-- (void);
-- (void)Á1¢!0@ù
-× ;
 - (id);
-- (id)ect: /* Error: Ran out of types for this method. */;
-- (id)ll, _UIFocusSearchInfo *__strong _Nonnull);
-- (id)Øéÿ;
+- (void);
+- (void);
+- (id)ibutedStringsForTextRanges:(struct CGRect)arg1;
+- (id)õ13§®þõ130¬¹þ;
+- (void)(²þÿÿÿÿ;
+- (id);
+- (void)~Ùºg;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;

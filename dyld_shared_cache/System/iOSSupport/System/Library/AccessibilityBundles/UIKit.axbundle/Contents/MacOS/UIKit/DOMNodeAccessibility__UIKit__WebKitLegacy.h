@@ -10,11 +10,11 @@
 {
 }
 
-+ (id);
 + (Class);
++ (id);
 - (void);
-- (id);
-- (id)_UISearchBarContainerView;
+- (id)ctiveFocusLayersForClient:(_Bool)arg1;
+- (id)cessibility;
 
 @end
 

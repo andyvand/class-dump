@@ -92,17 +92,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 

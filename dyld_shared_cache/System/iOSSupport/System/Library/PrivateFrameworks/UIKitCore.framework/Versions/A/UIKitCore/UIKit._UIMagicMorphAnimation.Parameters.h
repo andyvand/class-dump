@@ -23,11 +23,11 @@
     MISSING_TYPE *tracksPresentationLayer;
     MISSING_TYPE *kick;
     MISSING_TYPE *animationSmoothness;
+    MISSING_TYPE *forceCrossfade;
 }
 
-- (void)
-× ;
-- (id)e;
+- (id);
+- (void)§ÿÒÎ°l;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, MPMediaLibrary, MPMediaLibraryArtwork, NSNumber, NSString;
+@class ICUserIdentity, MPMediaLibrary, MPMediaLibraryArtwork, NSDictionary, NSNumber, NSString;
 
 @interface MPMediaLibraryArtworkRequest
 {
@@ -21,10 +21,11 @@
     long long _variantType;
     MPMediaLibraryArtwork *_libraryArtwork;
     MPMediaLibrary *_library;
+    NSDictionary *_colorInfo;
     ICUserIdentity *_userIdentity;
 }
 
-+ (id)Name;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -38,26 +39,29 @@
 - (id);
 - (id);
 - (id);
-- (void)1};
-- (id)isherOptions"32;
-- (id)MPublishers"44@0:8@"NSArray"16d24B32@?<@"<BPSPublisher>"@?@"BMBookmarkablePublisher">36 /* Error: Ran out of types for this method. */;
-- (void)asUsageType: /* Error: Ran out of types for this method. */;
-- (long long)NULL;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (long long);
+- (long long);
+- (unsigned long long);
+- (id);
+- (long long);
+- (unsigned long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (long long);
-- (void)P;
-- (id);
-- (unsigned long long);
-- (id);
-- (long long)aque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}};
-- (id);
-- (unsigned long long)bâÍ
-;
+- (id)>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_mutex"{shared_mutex="__base_"{__shared_mutex_base="__mut_"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}} /* Error: Ran out of types for this method. */;
+- (void),V_donatingAppEligible;
+- (id)teForMediaType:artworkType:artworkVariantType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long artworkType; // @synthesize artworkType=_artworkType;
 @property(copy, nonatomic) NSString *availableArtworkToken; // @synthesize availableArtworkToken=_availableArtworkToken;
+@property(copy, nonatomic) NSDictionary *colorInfo; // @synthesize colorInfo=_colorInfo;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

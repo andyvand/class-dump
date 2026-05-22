@@ -16,26 +16,26 @@
     struct NSDirectionalEdgeInsets _insetsForBoundarySeparators;
 }
 
-+ (id);
-+ (_Bool)(m;
-- (id);
-- (void)<;
++ (id)ngAnimationFinished:(long long)arg1;
++ (_Bool)UIAbbreviatedWeekdayMonthDayFormat;
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id)Type:(struct _NSZone *)arg1 atIndex: /* Error: Ran out of types for this method. */;
-- (void);
+- (long long);
 - (id);
 - (struct NSDirectionalEdgeInsets);
-- (void);
 - (void);
-- (void)=dd}}80@0:(struct NSDirectionalEdgeInsets)arg1 8Q16{CGSize=dd}24{UIRectCornerRadii=dddd}40d72;
-- (struct NSDirectionalEdgeInsets)}16@"NSTextContainer"32;
-- (long long)xt:alternativeInterpretations: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1 style: /* Error: Ran out of types for this method. */;
-- (id)R,N,V_task;
-- (long long);
+- (_Bool)ibleDomain;
+- (void)s:(id)arg1;
+- (void)avigational;
+- (long long)Info;
+- (void)oint=dd}{CGSize=dd}},N,V_trailingItemsRect;
+- (id),V__maximumDistance;
+- (void)	êÿêÿêÿ<êÿêÿdêÿêÿ|êÿêÿÐêÿôêÿ$êÿêÿ¬êÿèêÿ$êÿ`êÿêÿØêÿêÿPêÿêÿÈêÿêÿ@êÿ|êÿêÿ¸êÿtêÿêÿÔêÿêÿÄêÿÐêÿôêÿpêÿØêÿüêÿ8êÿêÿ¤êÿàêÿ`êÿ´êÿ êÿ¸êÿ`êÿ¬êÿÄêÿèêÿêÿ@êÿ`êÿêÿ¨êÿÌêÿäêÿêÿ êÿ êÿ¨ êÿô!êÿ0"êÿT"êÿx"êÿ´"êÿØ"êÿÌ*êÿ;
+- (_Bool)mEdge;
+- (id);
+- (void)û];
+- (id)¬^;
+- (struct NSDirectionalEdgeInsets);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_shouldAdjustColorForMultipleSelection, setter=_setAdjustColorForMultipleSelection:) _Bool _adjustColorForMultipleSelection; // @synthesize _adjustColorForMultipleSelection;

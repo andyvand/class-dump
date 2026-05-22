@@ -14,18 +14,16 @@ __attribute__((visibility("hidden")))
     id <AMSUICommonCollectionViewDelegate> _delegate;
 }
 
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void)ñ
-Ð1b0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak AMSUICommonCollectionView *collectionView; // @synthesize collectionView=_collectionView;

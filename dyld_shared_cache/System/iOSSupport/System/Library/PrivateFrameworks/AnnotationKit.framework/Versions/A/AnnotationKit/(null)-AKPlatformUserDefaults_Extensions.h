@@ -5,10 +5,10 @@
 //
 
 @interface (null) (AKPlatformUserDefaults_Extensions)
-+ (id);
 + (id);
 + (id);
-- (id);
++ (id);
+- (id);
 - (void);
 - (void);
 - (void);

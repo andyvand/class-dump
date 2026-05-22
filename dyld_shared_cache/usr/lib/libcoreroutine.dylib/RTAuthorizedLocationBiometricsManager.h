@@ -22,11 +22,11 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (id);
-- (id)SnippetLocationString;
+- (id);
+- (id)fication:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)DelegateInitialization:notification name, %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *dateOfLastUpdate; // @synthesize dateOfLastUpdate=_dateOfLastUpdate;

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+@protocol UIViewControllerAnimatedTransitioning;
+
 @protocol UIViewControllerTransitioningDelegate
+
+@optional
+- (id <UIViewControllerAnimatedTransitioning>)placeString:(UIViewController *)arg1;
 @end
 

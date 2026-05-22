@@ -7,8 +7,8 @@
 @class UIImage;
 
 @protocol UIButtonDeprecatedSPISupportingVisualProvider
-- (UIImage *)× ;
-- (void)sUpdateActionSequenceViewArrangement;
-- (void)Category:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (struct CGRect)eyboardWindowSceneForScreen:create: /* Error: Ran out of types for this method. */;
+- (void)omConfiguration:(long long)arg1;
+- (UIImage *)rance can only be used on iPad;
 @end
 

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
++ (void)eginZooming:(CDUnknownBlockType)arg1 withView: /* Error: Ran out of types for this method. */;
 
 @end
 

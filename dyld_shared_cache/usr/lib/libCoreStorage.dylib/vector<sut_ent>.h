@@ -4,7 +4,7 @@
 
 class vector<sut_ent> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
-    resize(unsigned long, sut_ent const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, sut_ent const&);
     ~vector();
 };

@@ -4,11 +4,11 @@
 
 class objc_visitor::MethodList {
 public: // (access info unavailable from symbols alone)
-    getMethod(objc_visitor::Visitor const&, unsigned int) const;
-    getMethod(objc_visitor::Visitor const&, unsigned int) const (.cold.1);
-    getMethod(objc_visitor::Visitor const&, unsigned int) const (.cold.2);
-    numMethods() const;
-    numMethods() const (.cold.1);
-    usesRelativeOffsets() const;
-    usesRelativeOffsets() const (.cold.1);
+    auto getMethod(objc_visitor::Visitor const&, unsigned int) const;
+    auto getMethod(objc_visitor::Visitor const&, unsigned int) const (.cold.1);
+    auto getMethod(objc_visitor::Visitor const&, unsigned int) const (.cold.2);
+    auto numMethods() const;
+    auto numMethods() const (.cold.1);
+    auto usesRelativeOffsets() const;
+    auto usesRelativeOffsets() const (.cold.1);
 };

@@ -29,7 +29,7 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)uterDelegate>";
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdvertisingSettingsFactory> advertisingSettingsFactory; // @synthesize advertisingSettingsFactory=_advertisingSettingsFactory;

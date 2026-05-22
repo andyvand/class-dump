@@ -33,12 +33,12 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)ayout;
-- (void):(id)arg1;
+- (void)hange;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

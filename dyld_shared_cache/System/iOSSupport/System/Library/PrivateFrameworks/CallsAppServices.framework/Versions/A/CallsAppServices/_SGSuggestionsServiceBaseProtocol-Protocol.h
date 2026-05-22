@@ -5,8 +5,7 @@
 //
 
 @protocol _SGSuggestionsServiceBaseProtocol
-- (void)iceProvider;
-- (_Bool)countController;
-- (double)s16CallsAppServices11CallServiceP;
+- (void)	
+;
 @end
 

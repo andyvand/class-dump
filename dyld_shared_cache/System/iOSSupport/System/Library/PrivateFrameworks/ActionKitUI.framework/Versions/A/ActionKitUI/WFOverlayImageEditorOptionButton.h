@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (id);
 - (struct CGSize);
+- (id);
 - (struct CGRect);
-- (id);
-- (id);
 - (struct CGRect);
 
 @end

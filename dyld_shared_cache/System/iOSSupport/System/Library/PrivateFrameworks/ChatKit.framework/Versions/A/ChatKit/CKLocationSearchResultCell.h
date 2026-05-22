@@ -24,24 +24,24 @@
 - (void);
 - (void);
 - (id);
-- (struct UIEdgeInsets)l;
-- (void)SETTINGS_TEXT_STYLE_BODY;
-- (id);
-- (void);
+- (struct UIEdgeInsets);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
 - (void);
 - (unsigned long long);
+- (id);
 - (void);
-- (void)@;
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)ÂàªáªÏ/õ;
-- (void)ChatGUID:(id)arg1 items:reply: /* Error: Ran out of types for this method. */;
-- (void),N,V_showingInStandAloneWindow;
-- (id)»h¾°¾ÀÁ;
+- (void)iceControllerDidStartRecording:(id)arg1 successfully: /* Error: Ran out of types for this method. */;
+- (id)ged;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;

@@ -51,26 +51,26 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (float);
 - (void);
-- (_Bool);
 - (void);
-- (id);
 - (void);
-- (void)tionView"16@"NSIndexPath"24{CGPoint=dd}32;
-- (id)ªÿÿ;
+- (void)rkflowUI17AllShortcutsGroup;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

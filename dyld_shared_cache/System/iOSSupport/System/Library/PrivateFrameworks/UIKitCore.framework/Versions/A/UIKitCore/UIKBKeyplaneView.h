@@ -36,104 +36,101 @@ __attribute__((visibility("hidden")))
     id <UIKBKeyplaneViewDelegate> _delegate;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
-- (long long)eContext>"32@0:8@"NSEnumerator"16@"MPPropertySet"24 /* Error: Ran out of types for this method. */;
-- (id)EntryProperties:completion: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (void);
-- (id)AùÑÀ1¢!0@ù
-× ;
-- (id)Aù1Á1¢!0@ù
-× ;
-- (void)!¨BùñÁ1¢!0@ù
-× ;
-- (unsigned long long)pÐ!lBù±Â1¢!0@ù
-× ;
-- (void)ù
-× ;
 - (void);
-- (void)
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)ð!¬@ùQ[°1Â0@ù
 × ;
-- (void)È1¢!0@ù
+- (id)a!Fù1\Ð1Â0@ù
+× ;
+- (id)^1Â0@ù
+× ;
+- (id)ð!¬FùQ^Ð1Â0@ù
+× ;
+- (id)(Aù_°1Â0@ù
+× ;
+- (struct CGRect)a°!¤@ùa°1Â0@ù
+× ;
+- (unsigned long long)!EùQeð1Â0@ù
 × ;
 - (id);
-- (void)ð1¢!0@ù
-× ;
-- (id)!üDùÌð1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24B28;
-- (void)"q"item"q};
-- (id)outAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std:(struct CGPoint)arg1:(id)arg2 __hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)ange:(id)arg1 affinity:stillSelecting: /* Error: Ran out of types for this method. */;
-- (id)ed: /* Error: Ran out of types for this method. */;
-- (id)nableDeepPress: /* Error: Ran out of types for this method. */;
-- (void)AdjustsImageWhenDisabled:(id)arg1;
-- (void)rgeWithNewAllowedItems:(id)arg1;
-- (id)attributes:(id)arg1 compressionResistancePriority: /* Error: Ran out of types for this method. */;
-- (_Bool)ckedAnimationsUserInteractionEnabled;
-- (id)tionTraitsIfNeeded;
-- (id)DidChange;
-- (void)d:(id)arg1;
-- (id)tionContentPortalView;
-- (id)ontrollerStoredWeakly;
-- (void)bElement",&,N,S_setSelectedElement:,V_selectedElement /* Error: Ran out of types for this method. */;
-- (id)IWebPDFView",R,N;
-- (_Bool)urrentPresentationSuperview:(long long)arg1 ,V__currentPresentationSuperview;
-- (void)tKinds:(id)arg1;
-- (_Bool)atorVisualStyle>",R,N,G_visualStyle;
-- (_Bool)ontrollerConfiguration",R,C,N,V_configuration;
-- (void)L6;
+- (id)="x"d"y"d}"size"{CGSize="width"d"height"d}}};
+- (void)PCCoder"24@32;
+- (void)eneUpdate"24;
+- (_Bool)onControllerDidChangeNavigationBarHidden:(id)arg1;
+- (void)ot:finalSnapshot:source:difference:finalSectionSnapshots: /* Error: Ran out of types for this method. */;
+- (id)rmForKey:(id)arg1;
+- (void)WithSize:(id)arg1 inFrame: /* Error: Ran out of types for this method. */;
+- (void)inksOnly;
+- (id)ontrolClass;
+- (void)quiresProxyInterface;
+- (void)CheckForRequest:(_Bool)arg1;
+- (id),N,V_state;
+- (void)IDForChosenSuggestion;
+- (_Bool)ackGenerator",&,N,V_selectionRetargetFeedbackGenerator;
+- (void)[;
+- (void)Ä¾;
+- (void)lic}p; contextId:(id)arg1 0x%{public}X; scene identity:%{public}s /* Error: Ran out of types for this method. */;
+- (void)âÎîÿºÎîÿ;
+- (id)ject %@ from State Restoration archive;
+- (void)changed;
+- (id)chive_read_data_block;
+- (_Bool)eCurlControllerIncomingLeftViewControllerKey;
+- (id)om view:(id)arg1 %@; collection view:%@ /* Error: Ran out of types for this method. */;
+- (id)a;
+- (double)IsContentStatic;
+- (_Bool)und.inputBleedBlurRadius;
+- (_Bool)ð/þÿò/þÿü/þÿ;
+- (int);
 - (void);
-- (_Bool)äb@cgÌglh;
-- (int)%@) for layer forwarding;
-- (void)þÿ;
-- (id);
-- (void)¿;
-- (void)onActivationModeForeground;
-- (_Bool)yAssetAttributesWillBePurged;
-- (id)f;
-- (id)ilder went down the duplicate action error log path when there were no duplicate actions. This is a UIKit internal bug.;
-- (void)urRadius;
+- (_Bool);
 - (void);
-- (void)"Íc;
-- (id)ëÿ;
-- (_Bool)ÊSÖÂEg;
-- (double)ÿ©Í¶h;
-- (long long)h;
-- (id)Ùi;
-- (struct CGRect)Ùi;
-- (_Bool)¸ßÿ+Ï4k;
-- (void)¨Rÿ­hÌk;
-- (_Bool)ÿ!ÿKÖ;
-- (void)§]Ì=sk;
-- (void)2;
-- (_Bool);
-- (void)ßg;
+- (void)t;
+- (long long);
+- (_Bool);
+- (void)ÌÍ2ÿÃÝl#^;
+- (id)è^;
+- (void)l_;
+- (void);
+- (_Bool)hîtþ;
+- (void)P&vÿ;
+- (long long)4²>ÿõÿ;
+- (void)t*îÿGý;
+- (void)<e;
+- (void)Hg;
+- (void)ªg;
+- (_Bool)>~ÍÞ×n;
+- (id)o;
+- (void);
+- (void)ð<yÿ;
+- (id)<{¥ÿ)²Ü8Gl;
+- (id)ñ5;
+- (id)$gÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long assetIdiom;

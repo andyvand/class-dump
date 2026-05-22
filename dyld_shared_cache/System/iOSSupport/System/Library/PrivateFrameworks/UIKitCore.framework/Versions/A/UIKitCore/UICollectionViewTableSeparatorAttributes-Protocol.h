@@ -7,13 +7,14 @@
 @class UIColor, UIVisualEffect;
 
 @protocol UICollectionViewTableSeparatorAttributes
-- (void);
-- (void)ewCount;
-- (void);
-- (UIColor *)_UITransitionOverlayView.swift;
-- (_Bool)71]ÿ3ð;
-- (void)yle;
-- (UIVisualEffect *)4!';
+- (_Bool)ng,V_handlingWriting;
+- (void)iew",&,N,V_tableView;
+- (UIColor *)3ø»þ;
+- (void)s,XoþXoþ0òR0;
+- (struct UIEdgeInsets)tMode;
+- (UIVisualEffect *)tonConfigurationCornerStyle;
+- (void)derStyle;
+- (long long)P\;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *separatorColor;

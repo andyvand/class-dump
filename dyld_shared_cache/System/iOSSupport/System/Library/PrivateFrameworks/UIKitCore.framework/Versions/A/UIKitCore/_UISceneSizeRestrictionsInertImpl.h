@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id):(id)arg1 %@, ;
++ (id);
 - (void);
 - (_Bool);
-- (struct CGSize),S_setProgress:,V_progress /* Error: Ran out of types for this method. */;
-- (void)lic}@;
-- (struct CGSize)NUITEM_FORMAT_FONT_UNDERLINE;
 - (void);
+- (struct CGSize)withVelocity: /* Error: Ran out of types for this method. */;
+- (void)6à9(:(struct CGSize)arg1 ;D<À=¬AxB|C;
+- (struct CGSize)H/;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsFullScreen; // @synthesize allowsFullScreen;

@@ -15,19 +15,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void)lastDoorTextMessage:(long long)arg1;
-- (double):(double)arg1;
+- (void);
+- (double);
 - (id);
 - (void);
-- (void);
-- (void)!oÐ!CùqÁð1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (id)RectInsets;
-- (void)@û;
-- (void)reaInsets;
-- (double);
-- (struct UIEdgeInsets)ìlþKÀª;
-- (double)¬¾éþ;
+- (id)viderImageBackground:traitCollection:tintColor:size: /* Error: Ran out of types for this method. */;
+- (double)ut;
+- (struct UIEdgeInsets)óàóhøüÐþ;
+- (double)Ä0;
+- (void)llback transition. To correct the error, be sure to a provide a view that's visible and in a window. View:%{public}s /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 @end
 

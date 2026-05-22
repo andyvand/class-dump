@@ -16,13 +16,13 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (int);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *providerQueue; // @synthesize providerQueue=_providerQueue;

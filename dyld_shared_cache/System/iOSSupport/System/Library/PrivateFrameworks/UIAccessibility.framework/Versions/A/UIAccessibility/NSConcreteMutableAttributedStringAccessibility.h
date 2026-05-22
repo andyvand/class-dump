@@ -10,14 +10,14 @@
 {
 }
 
++ (Class);
 + (id);
-+ (Class)faceType;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)citContent;
-- (id)OptInStatus;
+- (id);
+- (id);
 
 @end
 

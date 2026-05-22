@@ -26,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)v48@?0{PXSimpleIndexPath=qqqq}8^B40;
+- (id)ler registerChangeObserver:(id)arg1 ];
+- (void)(¦3;
 
 @end
 

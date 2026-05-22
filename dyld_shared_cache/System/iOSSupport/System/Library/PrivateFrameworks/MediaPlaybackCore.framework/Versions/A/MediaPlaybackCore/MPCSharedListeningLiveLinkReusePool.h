@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)t.framework/Versions/A/AppleAccount;
+- (void);
 - (id);
-- (void)0	;
 - (id);
+- (void)t:%g | overriding timeout to %g [%{public}@] id=%{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

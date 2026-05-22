@@ -29,27 +29,25 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)"40@"NSData"48@"NSError"56;
-- (void)MessagesCKOperationUsingRecordsToSave:operationGroupName:activity: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 hfsCreator:hfsFlags: /* Error: Ran out of types for this method. */;
-- (void)checkAndUpdateSMSSpamFilterExtensionForUnregisteredOrUpdatedPlugins:(id)arg1 arePluginsRegistered:(id)arg2;
-- (void)ageBodyWithNativeAttributes;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (CDStruct_c8d2f6fa);
-- (struct CGAffineTransform)H9;
-- (id);
+- (struct CGAffineTransform);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void)@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (id)State: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)40!;
-- (_Bool)ì[;
+- (void);
+- (void)ButtonReplaceAction:forText:checkAutocorrection: /* Error: Ran out of types for this method. */;
+- (void)gationBar:(_Bool)arg1 preferredHeightForTransitionToHeightRange: /* Error: Ran out of types for this method. */;
+- (id)ide;
+- (id)ghtForSymbolImage;
+- (void)nfiguration;
+- (_Bool)»\;
+- (_Bool);
+- (_Bool)ÿ^Ú÷^;
 
 // Remaining properties
 @property(nonatomic, getter=_additionalRootLayerAffineTransform, setter=_setAdditionalRootLayerAffineTransform:) struct CGAffineTransform additionalRootLayerAffineTransform; // @synthesize additionalRootLayerAffineTransform=_additionalRootLayerAffineTransform;

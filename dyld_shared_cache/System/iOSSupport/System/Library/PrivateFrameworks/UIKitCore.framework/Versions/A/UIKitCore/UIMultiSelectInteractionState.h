@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath;
+@class NSArray, NSIndexPath, NSMutableSet, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface UIMultiSelectInteractionState
 {
     unsigned long long _ignoringSelectionChangedNotificationsCounter;
     unsigned long long _multiselectInteractionCounter;
+    NSMutableSet *_indexPathsWithProgrammaticSelectionChanges;
     _Bool _selecting;
     NSIndexPath *_startIndexPath;
     NSIndexPath *_endIndexPath;
@@ -19,17 +20,19 @@ __attribute__((visibility("hidden")))
     struct CGPoint _startPoint;
 }
 
-- (void)24B32;
-- (void)2Q40@48;
-- (_Bool)Data:(id)arg1 toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
-- (id)ame:activity: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 body:attributes:fileTransferGUIDs:flags:error:guid:threadIdentifier: /* Error: Ran out of types for this method. */;
-- (void)unt:(id)arg1 isBlackholed: /* Error: Ran out of types for this method. */;
-- (void)recordID:(id)arg1;
-- (void)rSyncEndedWithSuccces:(id)arg1;
-- (id)ancedStorageMetrics",&,N,V_enhancedStorageMetrics;
-- (id)ordTypes;
-- (id): /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -39,18 +42,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool)ilesWithURLCompletionHandlers;
-- (void)
-× ;
-- (void)¸Áïþ;
+- (_Bool);
 - (struct CGPoint);
-- (_Bool)ÿ®cÌ)sk;
+- (void)iewControllerControlStatusBarAppearance;
+- (void);
+- (_Bool)Ïöþ°î;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allSelectedIndexPaths; // @synthesize allSelectedIndexPaths=_allSelectedIndexPaths;
 @property(retain, nonatomic) NSIndexPath *endIndexPath; // @synthesize endIndexPath=_endIndexPath;
 @property(readonly, nonatomic) _Bool ignoringSelectionChangedNotifications;
 @property(readonly, nonatomic, getter=isInMultiselectInteraction) _Bool inMultiselectInteraction;
+@property(readonly, nonatomic) NSSet *indexPathsWithProgrammaticSelectionChanges;
 @property(copy, nonatomic) NSArray *originallySelectedIndexPaths; // @synthesize originallySelectedIndexPaths=_originallySelectedIndexPaths;
 @property(nonatomic, getter=isSelecting) _Bool selecting; // @synthesize selecting=_selecting;
 @property(retain, nonatomic) NSIndexPath *startIndexPath; // @synthesize startIndexPath=_startIndexPath;

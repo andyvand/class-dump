@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (void);
-- (void);
+- (void)ience;
 
 // Remaining properties
 @property(nonatomic) double innerCircleRelativeSize; // @dynamic innerCircleRelativeSize;

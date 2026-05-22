@@ -23,17 +23,19 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (int);
-- (void);
-- (void);
-- (void)HI;
+- (void)±Ð1â
+0@ù
+× ;
+- (void)alogResponse"@"NSError">32;
+- (void);
+- (int)Ôÿÿÿrõÿ 	ÿ¸};
+- (void)eIdentifier;
 
 // Remaining properties
 @property(nonatomic) int authorizationStatus; // @synthesize authorizationStatus=_authorizationStatus;

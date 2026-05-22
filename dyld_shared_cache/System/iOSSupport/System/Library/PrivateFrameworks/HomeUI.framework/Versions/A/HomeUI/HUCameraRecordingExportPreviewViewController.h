@@ -66,14 +66,13 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
-- (void)0@ù
-× ;
-- (void)riptionView:(CDUnknownBlockType)arg1;
-- (void)ÿôöú;
+- (void)@"NSString",R,C,N,V_alertBody;
+- (void);
+- (void)6HomeUI9HUAppInfo"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *backgroundSessionQueue; // @synthesize backgroundSessionQueue=_backgroundSessionQueue;

@@ -15,17 +15,17 @@
 }
 
 + (id);
+- (void)ø&il«-È;
+- (void);
 - (id);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void)GG;
-- (void)entifiersKey;
+- (id)ndleIDToCNIDMap;
+- (void)istentIdentifier;
+- (void)¨;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *address; // @synthesize address=_address;

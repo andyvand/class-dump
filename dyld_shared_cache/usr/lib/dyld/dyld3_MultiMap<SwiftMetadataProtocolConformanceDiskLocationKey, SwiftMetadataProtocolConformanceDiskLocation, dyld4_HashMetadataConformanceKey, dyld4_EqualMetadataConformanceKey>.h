@@ -4,5 +4,5 @@
 
 class dyld3::MultiMap<SwiftMetadataProtocolConformanceDiskLocationKey, SwiftMetadataProtocolConformanceDiskLocation, dyld4::HashMetadataConformanceKey, dyld4::EqualMetadataConformanceKey> {
 public: // (access info unavailable from symbols alone)
-    find(SwiftMetadataProtocolConformanceDiskLocationKey const&);
+    auto find(SwiftMetadataProtocolConformanceDiskLocationKey const&);
 };

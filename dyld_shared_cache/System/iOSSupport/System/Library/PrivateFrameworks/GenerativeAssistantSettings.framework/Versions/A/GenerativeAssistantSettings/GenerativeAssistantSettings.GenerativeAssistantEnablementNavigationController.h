@@ -11,9 +11,9 @@
     MISSING_TYPE *enablementNavigationController;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 @end

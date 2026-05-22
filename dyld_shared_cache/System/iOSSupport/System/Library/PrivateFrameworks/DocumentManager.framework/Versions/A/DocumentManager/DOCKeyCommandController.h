@@ -13,13 +13,13 @@
 - (void);
 - (id);
 - (id);
-- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)oller siriSessionDidReceiveOpenLinkCommand:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 
 @end
 

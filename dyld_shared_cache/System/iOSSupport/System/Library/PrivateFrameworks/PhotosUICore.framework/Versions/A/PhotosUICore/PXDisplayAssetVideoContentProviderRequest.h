@@ -36,15 +36,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (double);
 - (void);
-- (long long);
+- (id);
 - (void);
-- (id)taSectionManager:childChangeDetails: /* Error: Ran out of types for this method. */;
-- (id)n;
-- (void)yDÕ yAGyAGyAGyÍ#yâ GAEyAEyçYyMæY_Qo_LÔ G&È yÏ GGGAJGAEyAFyAGy$"#ALGGAMGGG`#GGÉ GAMGG;
-- (void)ection;
-- (id)Ðÿÿÿ;
+- (void)AssetResources;
+- (id)VideoFrameActionName;
+- (void);
+- (long long)p«SÄ(7;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;

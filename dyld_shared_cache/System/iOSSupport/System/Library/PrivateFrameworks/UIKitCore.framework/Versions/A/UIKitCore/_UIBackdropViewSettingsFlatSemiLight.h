@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)erItemMetadataProvider;
+- (void)nDistance;
 
 @end
 

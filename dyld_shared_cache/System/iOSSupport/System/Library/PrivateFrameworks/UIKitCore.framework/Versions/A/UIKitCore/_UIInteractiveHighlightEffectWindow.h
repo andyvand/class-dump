@@ -10,11 +10,12 @@
 {
 }
 
-+ (_Bool)gsAsNil;
-- (_Bool)zeForHighQualityPhotoSize:commonCapabilities: /* Error: Ran out of types for this method. */;
-- (id)¡Xÿ3 Ã;
-- (_Bool);
-- (_Bool)3ÿòSÒFB];
++ (_Bool)0@ù
+× ;
+- (_Bool);
+- (id);
+- (_Bool)%@, right->left=%@>;
+- (_Bool)roll views found for edges:%ld /* Error: Ran out of types for this method. */;
 
 @end
 

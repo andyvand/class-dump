@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_operations;
 }
 
-+ (id)cementObjectForXPCConnection:(id)arg1 encoder:object: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
-- (id)8@56;
 - (id);
-- (void)�;
 - (id);
+- (id);
+- (void)N,GisHomePodRoute,V_homePodRoute;
 
 @end
 

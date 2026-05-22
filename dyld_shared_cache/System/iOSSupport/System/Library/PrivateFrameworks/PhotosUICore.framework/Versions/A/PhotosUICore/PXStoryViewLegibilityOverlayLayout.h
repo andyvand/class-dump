@@ -28,11 +28,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)urces;
 - (void);
-- (id)±ÿOTIÃN4;
+- (void)Queue;
+- (void)tDateTime;
+- (id)NË%x;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *alphaOverride; // @synthesize alphaOverride=_alphaOverride;

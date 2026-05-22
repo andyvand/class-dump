@@ -18,19 +18,19 @@
     id <PRPosterScriptInterpreterDelegate> _delegate;
 }
 
-+ (id)2Ó;
++ (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)o a better value but... - please try a new color.  This may default to white.;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

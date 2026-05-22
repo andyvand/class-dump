@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id)tCoreImage.dylib;
+- (id);
 - (id);
 
 @end

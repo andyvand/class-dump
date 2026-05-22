@@ -4,7 +4,7 @@
 
 class std::__1::__assoc_sub_state {
 public: // (access info unavailable from symbols alone)
-    __on_zero_shared();
-    set_value();
-    wait();
+    auto __on_zero_shared();
+    auto set_value();
+    auto wait();
 };

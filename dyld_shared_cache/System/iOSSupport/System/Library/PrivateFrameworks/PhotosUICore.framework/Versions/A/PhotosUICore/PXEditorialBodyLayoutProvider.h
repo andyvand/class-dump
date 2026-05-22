@@ -26,8 +26,8 @@
 - (CDStruct_2bd92d94);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool avoidsFullWidthHeroes; // @synthesize avoidsFullWidthHeroes=_avoidsFullWidthHeroes;

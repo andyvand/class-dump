@@ -16,17 +16,16 @@
     _TtCE5UIKitCSo49_UISearchControllerInlineSearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView *cancelButtonPlatterView;
 }
 
-- (void)king:(id)arg1 New participant (%@) added to chat (%@) is not a known contact.;
-- (id)eoPath;
+- (void);
 - (id);
-- (id)fp;
+- (id);
+- (id);
+- (id);
 - (void);
 - (struct CGSize);
-- (id);
-- (void)aqÐ!dCùqÄð1¢!0@ù
-× ;
-- (id)it failed to generate the result payload;
-- (id)ternal inconsistency:(struct CGRect)arg1 expected new layout;
+- (id)eractionDelegate;
+- (id)wä;
+- (void)gs;
 
 // Remaining properties
 @property(nonatomic, retain) UISearchTextField *borrowedSearchTextField; // @synthesize borrowedSearchTextField;

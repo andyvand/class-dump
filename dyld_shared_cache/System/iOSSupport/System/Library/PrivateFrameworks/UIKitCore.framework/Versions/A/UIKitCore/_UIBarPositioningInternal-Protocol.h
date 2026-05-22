@@ -5,6 +5,5 @@
 //
 
 @protocol _UIBarPositioningInternal
-- (long long)tainerSize;
 @end
 

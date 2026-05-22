@@ -13,11 +13,12 @@
     NSNumber *_location;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)Þð!xCùÑà1B50@ù
+× ;
+- (void)ngChangedForAdminUser;
+- (void)Í«ùÙ ;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *location; // @synthesize location=_location;

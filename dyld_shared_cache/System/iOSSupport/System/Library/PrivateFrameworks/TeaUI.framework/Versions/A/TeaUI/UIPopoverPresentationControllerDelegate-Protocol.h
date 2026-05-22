@@ -7,7 +7,6 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
-- (_Bool);
-- (void)ZD¿îÿ;
+- (void)TeaUI/PromiseCardViewController.swift;
 @end
 

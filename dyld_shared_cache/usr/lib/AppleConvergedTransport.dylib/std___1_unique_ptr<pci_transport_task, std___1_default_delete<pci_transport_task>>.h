@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<pci::transport::task, std::__1::default_delete<pci::transport::task>> {
 public: // (access info unavailable from symbols alone)
-    ~unique_ptr[abi:ne200100]();
+    auto ~unique_ptr[abi:nqe210106]();
 };

@@ -84,15 +84,15 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id)ntextWillBeginPresentingSecondaryUI: /* Error: Ran out of types for this method. */;
-- (void)quency;
+- (id)ant;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageSymbolConfiguration *_effectiveImageSymbolConfiguration;

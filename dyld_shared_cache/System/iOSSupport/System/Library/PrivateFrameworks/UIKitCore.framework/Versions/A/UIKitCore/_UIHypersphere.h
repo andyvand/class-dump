@@ -13,22 +13,21 @@
     double __radius;
 }
 
-+ (id)bct='%@';
-+ (_Bool)9m;
-- (void)eEdited:(double)arg1 dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
-- (void)dle;
-- (const double *)StateDidChange;
++ (id)setCaretVisible: /* Error: Ran out of types for this method. */;
++ (_Bool)rstPerson-%@;
+- (void);
+- (void);
+- (const double *);
 - (double);
-- (void)ndPlist failed;
-- (_Bool);
+- (void);
 - (id);
-- (id)eEndActions;
-- (void)lator was missing mapping for MPModelPropertyRadioStationEventDescriptionText;
 - (id);
 - (unsigned long long);
-- (void)1¢!0@ù
-× ;
-- (id)verlaps;
+- (_Bool)lFrame;
+- (void)etCurrentPageIndicatorTintColor:(id)arg1;
+- (id);
+- (id)ners;
+- (void)with view %p from %@ to %@;
 
 // Remaining properties
 @property(readonly, nonatomic) const double *_center;

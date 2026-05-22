@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (void);
+- (void)eadingDecorationView;
+- (void)Åã\;
 
 @end
 

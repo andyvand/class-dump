@@ -14,12 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)tº;
-- (void)Ð1¢!0@ù
-× ;
-- (void)wManagerDelegate>";
-- (id)GPoint=dd},N,V_modelPosition;
-- (_Bool)tributes=;
+- (void);
+- (_Bool)orTurnedOn;
+- (void)fectViewBackdropCaptureGroup",N,&;
+- (id){public}@;
+- (void)È¶^;
 
 // Remaining properties
 @property(nonatomic) _Bool called; // @synthesize called=_called;

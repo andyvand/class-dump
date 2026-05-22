@@ -5,8 +5,6 @@
 //
 
 @protocol NSISVariableDelegate
-- (void)1¢!0@ù
-× ;
-- (int)oller;
+- (void);
 @end
 

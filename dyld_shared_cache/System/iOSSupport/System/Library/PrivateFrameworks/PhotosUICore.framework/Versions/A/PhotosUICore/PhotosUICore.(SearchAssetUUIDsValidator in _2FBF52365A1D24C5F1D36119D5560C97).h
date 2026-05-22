@@ -20,8 +20,8 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)P$ÿ;
 
 @end
 

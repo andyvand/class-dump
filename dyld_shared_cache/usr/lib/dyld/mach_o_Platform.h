@@ -6,16 +6,16 @@ class mach_o::Platform {
 public: // (access info unavailable from symbols alone)
     Platform(unsigned int);
     Platform(unsigned int) (.cold.1);
-    basePlatform() const;
-    current();
-    empty() const;
-    epoch(mach_o::Version32) const;
-    isExclaveCore() const;
-    isExclaveKit() const;
-    isKernelKit() const;
-    isSimulator() const;
-    libSystemDir() const;
-    name() const;
-    valid() const;
-    value() const;
+    auto basePlatform() const;
+    auto current();
+    auto empty() const;
+    auto epoch(mach_o::Version32) const;
+    auto isExclaveCore() const;
+    auto isExclaveKit() const;
+    auto isKernelKit() const;
+    auto isSimulator() const;
+    auto libSystemDir() const;
+    auto name() const;
+    auto valid() const;
+    auto value() const;
 };

@@ -23,52 +23,51 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGSize);
-- (struct CGSize);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (id)HA384;
-- (void)emptedBundleIDs;
-- (double);
-- (void);
 - (long long);
-- (struct CGSize);
-- (struct CGSize)H;
-- (void)layerPath"16@0:(id)arg1 8;
-- (void)32@0:8Q16@24 /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (double);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void)`!º;
-- (struct CGSize)º;
-- (long long)¢!0@ù
-× ;
-- (struct CGSize)1¢!0@ù
-× ;
-- (long long)ñÍ°1¢!0@ù
-× ;
 - (id);
-- (void)Ï°1¢!0@ù
+- (struct CGSize);
+- (void);
+- (void);
+- (id);
+- (struct CGSize);
+- (void);
+- (struct CGSize);
+- (void);
+- (struct CGSize);
+- (struct CGSize);
+- (void);
+- (struct CGSize);
+- (id);
+- (struct CGSize)× ;
+- (void);
+- (void)°!,GùdÐ1Â0@ù
 × ;
-- (void)× ;
-- (id)mateUpdateBars;
-- (struct CGSize)visualStyleOverrideTitleLabelFont;
-- (id)rizontalIndexTitleBar: /* Error: Ran out of types for this method. */;
-- (struct CGSize)den;
-- (long long)crollView;
-- (id)|¦Ð¦à§p©d« ­è­;
-- (void);
+- (void)!tFùdÐ1Â0@ù
+× ;
+- (struct CGSize),FùqgÐ1Â0@ù
+× ;
+- (void)gCurrentSelection:(long long)arg1;
+- (void)IfNecessary:(id)arg1;
+- (id): /* Error: Ran out of types for this method. */;
+- (id)dateContentMargins;
+- (double)abBarBackgroundUpdates;
+- (id)tSecondaryAuxiliarySwitchState: /* Error: Ran out of types for this method. */;
+- (id)ndexPaths:forUserSelectedIndexPath:session: /* Error: Ran out of types for this method. */;
+- (void)onfiguration;
+- (long long)|;
+- (long long)ýÑ2 ;
+- (void)edFilter;
+- (id)uches:(long long)arg1 phase:event:index:] /* Error: Ran out of types for this method. */;
+- (struct CGSize)dDisplayStringKey;
+- (void)Appearance;
+- (long long)¤ÿÿ;
+- (id)cÄ;
 - (void);
-- (void);
-- (id)ounds=%@, indicatorInsets=%@, effectiveIndicatorInsets=%@, additionalInset=%f, verticalScrollIndicatorInsets=%@, cachedVerticalScrollIndicatorBaseInsets=%@, contentOffset=%@, cornerAdjust=%f, _accuracy=%f, CONTENT_MINY=%f, CONTENT_HEIGHT=%f, _parentAdjustment=%@, scrollView=%@;
-- (void)romBottom;
-- (id)d _DCSDictionaryAssetAttributesWillBePurged(CFDictionaryRef);
-- (long long);
+- (long long)ÿø;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIPageIndicatorStoreDelegate> delegate; // @synthesize delegate=_delegate;

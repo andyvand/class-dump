@@ -9,11 +9,11 @@ public: // (access info unavailable from symbols alone)
     Pool(lsl::Allocator*, lsl::Allocator::Pool*, unsigned long long, bool);
     Pool(lsl::Allocator*, lsl::Allocator::Pool*, unsigned long long, bool) (.cold.1);
     Pool(lsl::Allocator*, lsl::Allocator::Pool*, unsigned long long, bool) (.cold.2);
-    aligned_alloc(unsigned long long, unsigned long long);
-    aligned_alloc(unsigned long long, unsigned long long) (.cold.1);
-    aligned_alloc(unsigned long long, unsigned long long) (.cold.2);
-    aligned_alloc_best_fit(unsigned long long, unsigned long long);
-    aligned_alloc_best_fit(unsigned long long, unsigned long long) (.cold.1);
-    aligned_alloc_best_fit(unsigned long long, unsigned long long) (.cold.2);
-    allocator() const;
+    auto aligned_alloc(unsigned long long, unsigned long long);
+    auto aligned_alloc(unsigned long long, unsigned long long) (.cold.1);
+    auto aligned_alloc(unsigned long long, unsigned long long) (.cold.2);
+    auto aligned_alloc_best_fit(unsigned long long, unsigned long long);
+    auto aligned_alloc_best_fit(unsigned long long, unsigned long long) (.cold.1);
+    auto aligned_alloc_best_fit(unsigned long long, unsigned long long) (.cold.2);
+    auto allocator() const;
 };

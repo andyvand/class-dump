@@ -9,7 +9,7 @@
     struct __CFDictionary *_proxies;
 }
 
-+ (id);
++ (id)SKRoleTypeVector;
 - (id);
 - (id);
 - (void);

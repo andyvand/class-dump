@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool)9`;
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -21,8 +21,8 @@
 + (_Bool);
 + (id);
 + (id);
-- (void)a;
-- (id);
+- (id);
+- (void)Availability changed from %{bool}d to %{bool}d;
 
 @end
 

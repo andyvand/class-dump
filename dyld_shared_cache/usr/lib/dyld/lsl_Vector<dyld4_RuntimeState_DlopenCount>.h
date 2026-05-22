@@ -4,6 +4,8 @@
 
 class lsl::Vector<dyld4::RuntimeState::DlopenCount> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
+    auto erase(dyld4::RuntimeState::DlopenCount*);
+    auto erase(dyld4::RuntimeState::DlopenCount*, dyld4::RuntimeState::DlopenCount*);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
 };

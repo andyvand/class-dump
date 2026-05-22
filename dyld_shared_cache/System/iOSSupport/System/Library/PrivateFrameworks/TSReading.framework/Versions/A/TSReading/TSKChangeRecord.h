@@ -14,8 +14,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (int)#;
-- (id)ôÿpßVH;
+- (int);
+- (id)Level > TSDMovieCompatibilityLevelNone;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowedInCommit;

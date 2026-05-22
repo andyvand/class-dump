@@ -17,11 +17,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ù±/°1b0@ù
-× ;
+- (id);
+- (void)FooterFormat;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -12,10 +12,9 @@
     MISSING_TYPE *action;
 }
 
-- (void);
 - (id);
-- (id)AxÐ!@ùQ}1b0@ù
-× ;
+- (id);
+- (void)E';
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

@@ -5,7 +5,6 @@
 //
 
 @protocol _UISceneFocusSystemSettings
-- (void)is empty;
 
 // Remaining properties
 @property(nonatomic, getter=isHostAssertingActiveFocusSystem) _Bool hostAssertingActiveFocusSystem;

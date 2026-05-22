@@ -13,14 +13,14 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (id)GPoint=dd}{CGSize=dd}}16{CGAffineTransform=dddddd}48{CGRect={CGPoint=dd}{CGSize=dd}}96d128d136d144;
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
+- (void);
+- (void)ÿÿÿXÿÿ;
 
 @end
 

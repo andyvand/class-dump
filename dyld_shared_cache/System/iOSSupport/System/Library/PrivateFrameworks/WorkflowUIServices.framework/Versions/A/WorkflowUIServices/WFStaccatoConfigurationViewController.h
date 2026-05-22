@@ -22,10 +22,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);

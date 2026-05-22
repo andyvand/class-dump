@@ -23,9 +23,9 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (void);
 - (id);
 - (struct CGRect);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

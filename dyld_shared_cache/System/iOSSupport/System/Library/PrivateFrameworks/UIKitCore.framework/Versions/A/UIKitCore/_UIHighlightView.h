@@ -25,12 +25,12 @@
 - (void);
 - (void);
 - (void);
-- (void)d;
-- (id)ess;
-- (id)fixed;
-- (void);
+- (void)gmentAtIndex:(id)arg1;
+- (id)delegateSupportsMenuInteraction;
+- (void)lElement;
+- (void)ionController. You must provide either a sourceView and sourceRect or a barButtonItem.  If this information is not known when you present the alert controller, you may provide it in the UIPopoverPresentationControllerDelegate method -prepareForPopoverPresentation.;
 - (void);
-- (void)Ôÿ;
+- (id)\;
 
 @end
 

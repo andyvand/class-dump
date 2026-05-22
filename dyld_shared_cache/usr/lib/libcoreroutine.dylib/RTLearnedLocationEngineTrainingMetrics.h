@@ -29,8 +29,8 @@
 }
 
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -51,25 +51,25 @@
 - (double);
 - (unsigned long long);
 - (double);
-- (id)T;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long)ATA_CONST;
-- (id);
-- (void)eState;
-- (unsigned long long)1	?װ;
 - (unsigned long long);
-- (void);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
-- (id)Action;
+- (unsigned long long);
 - (id);
-- (void)uration, %@;
-- (double)errno, %{errno}d;
+- (id);
+- (void);
+- (void);
+- (void);
+- (double);
+- (void)not supported by RTHint+CoreDataTransformable (in %s:%d) /* Error: Ran out of types for this method. */;
+- (unsigned long long), %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *awdPlaces; // @synthesize awdPlaces=_awdPlaces;

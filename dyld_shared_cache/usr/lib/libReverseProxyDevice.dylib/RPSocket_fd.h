@@ -4,21 +4,21 @@
 
 class RPSocket_fd {
 public: // (access info unavailable from symbols alone)
-    accept(unsigned long long);
-    cancel_handler(void*);
-    closeFD();
-    close_fd(void*);
-    copy_entitlements();
-    copy_type_description();
-    event_handler(void*);
-    get_port();
-    invalidate();
-    latch_target_queues();
-    pause();
-    read(void*, unsigned long);
-    shutdownFD();
-    shutdown_fd(void*);
-    unpause();
-    write(void const*, unsigned long);
+    auto accept(unsigned long long);
+    auto cancel_handler(void*);
+    auto closeFD();
+    auto close_fd(void*);
+    auto copy_entitlements();
+    auto copy_type_description();
+    auto event_handler(void*);
+    auto get_port();
+    auto invalidate();
+    auto latch_target_queues();
+    auto pause();
+    auto read(void*, unsigned long);
+    auto shutdownFD();
+    auto shutdown_fd(void*);
+    auto unpause();
+    auto write(void const*, unsigned long);
     ~RPSocket_fd();
 };

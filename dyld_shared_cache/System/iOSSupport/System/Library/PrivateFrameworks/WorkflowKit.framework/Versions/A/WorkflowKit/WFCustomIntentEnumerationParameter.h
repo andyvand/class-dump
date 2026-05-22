@@ -18,14 +18,14 @@
 }
 
 - (id);
-- (id)ation.framework/Versions/A/DiskArbitration;
 - (id);
 - (id);
 - (Class);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void).badge.plus;
 
 // Remaining properties
 @property(readonly, nonatomic) INCodableEnumAttribute *enumAttribute; // @synthesize enumAttribute=_enumAttribute;

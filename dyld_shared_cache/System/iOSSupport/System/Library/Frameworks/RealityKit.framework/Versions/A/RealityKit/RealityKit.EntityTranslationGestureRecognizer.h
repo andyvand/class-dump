@@ -21,13 +21,13 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 @end
 

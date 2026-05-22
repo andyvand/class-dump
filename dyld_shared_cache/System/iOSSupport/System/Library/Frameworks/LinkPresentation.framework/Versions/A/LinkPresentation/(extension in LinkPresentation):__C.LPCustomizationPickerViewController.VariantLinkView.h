@@ -13,9 +13,10 @@
     MISSING_TYPE *linkView;
 }
 
-- (id)alPayload;
-- (void);
 - (id);
+- (id);
+- (void)øÐ!LFùð1Â0@ù
+× ;
 
 @end
 

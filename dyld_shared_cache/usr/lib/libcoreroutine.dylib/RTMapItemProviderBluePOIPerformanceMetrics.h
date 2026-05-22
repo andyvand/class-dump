@@ -16,10 +16,10 @@
 + (void);
 + (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)tReturningItems:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ryWithEntityName:propertiesToFetch:handler:] /* Error: Ran out of types for this method. */;
-- (id)',Ì;
+- (void)ining event metrics submission error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;

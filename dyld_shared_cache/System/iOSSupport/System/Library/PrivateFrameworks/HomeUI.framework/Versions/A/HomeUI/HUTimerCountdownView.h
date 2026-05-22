@@ -28,21 +28,22 @@
 - (id);
 - (void);
 - (id);
+- (double);
 - (void);
+- (id);
+- (double);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id)nViewController";
-- (unsigned long long)apView"16@"VKLabelMarker"24;
-- (void)6;
-- (double)onSetItemManager;
-- (double)Ìµüÿ;
+- (void);
+- (unsigned long long)
+× ;
+- (void)@;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *circleBackgroundView; // @synthesize circleBackgroundView=_circleBackgroundView;

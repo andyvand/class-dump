@@ -5,9 +5,9 @@
 class icu::CollationTailoring {
 public: // (access info unavailable from symbols alone)
     CollationTailoring(icu::CollationSettings const*);
-    ensureOwnedData(UErrorCode&);
-    getUCAVersion() const;
-    makeBaseVersion(unsigned char const*, unsigned char*);
-    setVersion(unsigned char const*, unsigned char const*);
+    auto ensureOwnedData(UErrorCode&);
+    auto getUCAVersion() const;
+    auto makeBaseVersion(unsigned char const*, unsigned char*);
+    auto setVersion(unsigned char const*, unsigned char const*);
     ~CollationTailoring();
 };

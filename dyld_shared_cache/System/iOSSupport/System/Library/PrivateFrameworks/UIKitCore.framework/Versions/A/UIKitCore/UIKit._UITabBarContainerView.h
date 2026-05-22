@@ -18,16 +18,15 @@
 
 - (void);
 - (id);
-- (long long)perties. Invalid type provided for plist.;
-- (struct CGRect)met;
+- (long long);
+- (struct CGRect);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)qð!Fù±ÄÐ1¢!0@ù
-× ;
-- (void)ctions.;
-- (id)riantSpec",N,&,Vloupe;
+- (void);
+- (void)tion: /* Error: Ran out of types for this method. */;
+- (id)ingualKeyboardIntroductionView;
+- (void)q;
 
 // Remaining properties
 @property(nonatomic, retain) UITabBar *tabBar; // @synthesize tabBar;

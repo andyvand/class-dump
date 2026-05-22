@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     _UIDimmingKnockoutBackdropView *_inlineBackgroundView;
 }
 
-- (double)rePendingNicknameForHandleID: /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
 - (id);
 - (struct CGSize);
 - (double);
-- (id)4;
+- (id);
 - (id);
 - (double);
-- (struct UIEdgeInsets);
-- (void);
+- (struct UIEdgeInsets);
+- (void)ülÿ	ÏÚPNg;
 
 @end
 

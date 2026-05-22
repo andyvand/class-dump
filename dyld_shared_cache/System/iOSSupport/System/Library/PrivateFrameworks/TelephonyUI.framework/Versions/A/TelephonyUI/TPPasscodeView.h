@@ -16,8 +16,8 @@
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
 - (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);

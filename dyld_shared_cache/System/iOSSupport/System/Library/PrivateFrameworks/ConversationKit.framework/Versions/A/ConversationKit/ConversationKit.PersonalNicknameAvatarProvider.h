@@ -14,8 +14,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)ÈËGGAÌycåGGÜyÚGGtGG;
 
 @end
 

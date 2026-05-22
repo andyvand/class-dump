@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
-
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)tections;
-- (void)terPreview; request finished for %{public}@ && context %{public}@; snapshotBundle:(UIScrollView *)arg1 %{public}@;
+- (void)²;
 @end
 

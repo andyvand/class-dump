@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long)`;
-- (double)lve curated shortcuts, error=%@;
-- (id);
-- (long long);
+- (void);
+- (id)-(aØ ÿ-(aü ÿ-(aÊ¨þ-(aôÀþ;
+- (long long)É?b·ä;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

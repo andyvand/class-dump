@@ -14,9 +14,10 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id)4;
+- (id)0@ù
+× ;
+- (void)rameworks/UserSafety.framework/UserSafety;
+- (id)¬º!ÿmæÊ¨º!ÿmæÊ¨º!ÿuæÊ!ÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

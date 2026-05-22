@@ -8,8 +8,8 @@
 {
 }
 
-- (id)dedDropTarget;
-- (long long)rþ`¡þÿ;
+- (id);
+- (long long);
 
 @end
 

@@ -14,17 +14,18 @@
 }
 
 + (id);
-+ (_Bool)_setCollaborative:,V_collaborative /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (void);
 - (id);
 - (id);
-- (void)0;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

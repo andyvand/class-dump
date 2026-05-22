@@ -4,11 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @protocol _UIContextDescribing
-- (NSDictionary *)updateLastMessageForChat:(NSDictionary *)arg1 hintMessage:historyQuery: /* Error: Ran out of types for this method. */;
-- (CDStruct_c8d2f6fa)portNotJunkMessageGUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_c8d2f6fa _bindingDescription;

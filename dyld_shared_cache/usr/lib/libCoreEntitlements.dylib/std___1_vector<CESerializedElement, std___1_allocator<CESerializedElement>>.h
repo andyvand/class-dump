@@ -4,6 +4,6 @@
 
 class std::__1::vector<CESerializedElement, std::__1::allocator<CESerializedElement>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
-    push_back[abi:ne200100](CESerializedElement&&);
+    auto __throw_length_error[abi:nqe210106]();
+    auto push_back[abi:nqe210106](CESerializedElement&&);
 };

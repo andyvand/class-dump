@@ -21,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)SetTile;
 
 @end
 

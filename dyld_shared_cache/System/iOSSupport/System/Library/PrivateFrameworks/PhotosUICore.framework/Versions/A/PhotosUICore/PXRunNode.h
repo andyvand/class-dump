@@ -24,22 +24,22 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (void)roller: /* Error: Ran out of types for this method. */;
-- (void)üÿ´üÿÔüÿôüÿôûÿüÿTüÿüÿ(üÿ@üÿXüÿpüÿÈüÿLüÿdüÿ|üÿØüÿðüÿ(üÿ¼üÿüüÿüÿôûÿ¼üÿÜüÿôüÿüÿÀüÿèüÿ,üÿýûÿtüÿüÿüÿÌüÿ° üÿÌ üÿ¼óûÿä üÿ;
-- (void)¸eÿ;
-- (id)Ô_;
-- (void)eTranslation;
-- (void)dq}8;
-- (_Bool)gnosticsDrawTextConfiguration>"8;
 - (_Bool);
+- (void);
+- (_Bool)LÞ`ßXà¬à;
+- (void)pected nil delegate instead of %@ on data controller %@;
+- (_Bool);
+- (void)UÇGÿ;
+- (_Bool)ExpandedHitAreaLabel;
+- (void)p­;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_dependencySet; // @synthesize _dependencySet=__dependencySet;

@@ -5,7 +5,5 @@
 //
 
 @protocol PKRulerDelegate
-- (void);
-- (_Bool)e;
 @end
 

@@ -32,7 +32,7 @@
 }
 
 + (id);
-+ (id)@5H";
++ (id)ÏWÇ;
 - (void);
 - (id);
 - (id);
@@ -58,13 +58,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

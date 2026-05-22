@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *language; // @synthesize language=_language;

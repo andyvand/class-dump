@@ -12,9 +12,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (void);
 - (void);
@@ -30,13 +30,13 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void);
 - (id);
 
 // Remaining properties

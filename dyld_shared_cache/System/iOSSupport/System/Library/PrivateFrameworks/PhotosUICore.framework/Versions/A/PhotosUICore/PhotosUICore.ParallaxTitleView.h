@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id)ÁV íúÿ¨íúÿB;
+- (id);
+- (void)LemonadeVisionPeopleShelfCell;
 
 @end
 

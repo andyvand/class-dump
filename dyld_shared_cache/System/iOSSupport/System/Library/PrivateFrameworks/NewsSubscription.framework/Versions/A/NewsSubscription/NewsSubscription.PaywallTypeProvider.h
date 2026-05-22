@@ -15,7 +15,6 @@
     MISSING_TYPE *bundleArticleSoftPaywallMeter;
     MISSING_TYPE *alacarteArticleSoftPaywallMeter;
     MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *recipeAccessProvider;
 }
 
 @end

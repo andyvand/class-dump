@@ -18,17 +18,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)4B32;
-- (void)tProxySend:(id)arg1 dontSendTo: /* Error: Ran out of types for this method. */;
-- (void)hasActualService;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)auto reply from me. isFromMe:%ld, isAutoReply:%ld /* Error: Ran out of types for this method. */;
-- (void);
-- (id)reRotationInputAccessoryViewTransform;
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *feedbackWindows; // @synthesize feedbackWindows=_feedbackWindows;

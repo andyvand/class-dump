@@ -5,7 +5,6 @@
 //
 
 @protocol TSPDocumentResourceDownloader
-- (_Bool)@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long estimatedDownloadSize;

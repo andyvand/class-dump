@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
+- (void)ncidentCellForRow: /* Error: Ran out of types for this method. */;
 
 @end
 

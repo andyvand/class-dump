@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (id)8@36@44@52@60@68@76B84;
-- (_Bool)alGUID:error: /* Error: Ran out of types for this method. */;
-- (void)ing:(id)arg1 index: /* Error: Ran out of types for this method. */;
-- (id)h GUID %@.;
-- (void)indexes (%@) from message with guid:(id)arg1 %@, scheduleType:%lu, scheduleState %lu /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id)ier:,V_tintColorTransformerIdentifier /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UITextRange *replacementRange; // @synthesize replacementRange=_replacementRange;

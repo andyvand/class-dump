@@ -30,9 +30,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)D9;
+- (void);
+- (id)¨08;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsFloatingBackground; // @synthesize allowsFloatingBackground=_allowsFloatingBackground;

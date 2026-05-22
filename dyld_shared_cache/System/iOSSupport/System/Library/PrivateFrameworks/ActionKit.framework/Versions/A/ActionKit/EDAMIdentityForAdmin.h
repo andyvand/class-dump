@@ -22,8 +22,8 @@
 - (void);
 - (void);
 - (id);
-- (void)u;
-- (id)#|-f;
+- (id);
+- (void)s;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMIdentity *identity; // @synthesize identity=_identity;

@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)3MPPropertySetCtG;
 
 // Remaining properties
 @property(nonatomic) __weak IMAVPlayer *im_player; // @synthesize im_player=_im_player;

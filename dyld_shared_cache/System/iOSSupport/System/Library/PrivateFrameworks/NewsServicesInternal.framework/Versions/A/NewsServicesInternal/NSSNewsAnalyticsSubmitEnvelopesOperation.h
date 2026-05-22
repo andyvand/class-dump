@@ -15,12 +15,12 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id)IT;
-- (void)7ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/TSDTexturedRectangle.m;
+- (id);
 - (id);
 - (void);
-- (_Bool)utEnvironmentProviderTypeP;
 - (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *envelopes; // @synthesize envelopes=_envelopes;

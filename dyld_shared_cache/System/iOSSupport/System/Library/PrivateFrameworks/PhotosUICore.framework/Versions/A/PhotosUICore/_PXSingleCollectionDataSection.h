@@ -27,9 +27,9 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (long long);
+- (void)flowCache:unable to find last workflow when navigating back /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void)¬Ö0e;
-- (long long)at least one of the following is true:1) Has substantial processing remaining: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessoryTitle; // @synthesize accessoryTitle=_accessoryTitle;

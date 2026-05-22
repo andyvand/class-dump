@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
-- (void)Ëÿÿ;
-- (id);
-- (void)nimationBlurFilterRadius;
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isActive, setter=setActive:) _Bool active; // @synthesize active=_active;

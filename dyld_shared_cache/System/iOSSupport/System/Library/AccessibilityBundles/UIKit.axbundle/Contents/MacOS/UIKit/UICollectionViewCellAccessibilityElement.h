@@ -66,18 +66,18 @@
 - (id);
 - (struct CGPoint);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
+- (id);
 - (struct CGRect);
 - (id);
+- (unsigned long long);
+- (void);
 - (id);
-- (void)x;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionViewCell *cell; // @synthesize cell=_cell;

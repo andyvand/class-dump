@@ -17,20 +17,20 @@
     MISSING_TYPE *stateController;
 }
 
-- (struct UIEdgeInsets)datesUserRecordIfNeeded;
-- (void)ontInTextStorage:inRange: /* Error: Ran out of types for this method. */;
-- (void)Field",W,N,V_passwordAndVerifyDoNotMatchLabel;
-- (void)SString",R,C,N,V_associatedObjectIdentifier;
-- (double)m;
-- (void)es-in-the-notes-app-sec1782bcab1;
+- (struct UIEdgeInsets);
 - (void);
 - (void);
-- (id)A;
 - (void);
-- (id)Size;
-- (id)ÌU»;
-- (void);
-- (_Bool)Yù¾øº¯ÿIù¾¤»¯ÿ;
+- (double);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)rowserDisplayName contains[cd] %@;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;

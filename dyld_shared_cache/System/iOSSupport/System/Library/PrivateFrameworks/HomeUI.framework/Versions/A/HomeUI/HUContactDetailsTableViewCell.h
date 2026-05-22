@@ -25,19 +25,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id)yBlock: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)ameraItem"8;
-- (id)ÿ$÷1°;
-- (id)n_;
-- (id)µòÿÌ'¿¨T;
+- (id);
+- (id);
+- (void)howValue;
+- (id)OARRequired_Details;
+- (id)uIconCollectionListCell;
 
 // Remaining properties
 @property(readonly, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;

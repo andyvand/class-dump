@@ -30,8 +30,8 @@
 - (double);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double altitudeJitterNoise; // @synthesize altitudeJitterNoise=_altitudeJitterNoise;

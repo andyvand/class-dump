@@ -7,6 +7,6 @@
 @protocol PXAudioAssetMediaProvider;
 
 @protocol PXAudioAssetMediaProvider
-+ (id <PXAudioAssetMediaProvider>)Uký7;
++ (id <PXAudioAssetMediaProvider>)InAppNotifications;
 @end
 

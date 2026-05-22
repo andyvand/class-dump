@@ -13,10 +13,12 @@
 
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id)ontent;
+- (id)1â
+0@ù
+× ;
+- (id)DisplayAsset>"16;
+- (void)alculator;
+- (void)Y;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

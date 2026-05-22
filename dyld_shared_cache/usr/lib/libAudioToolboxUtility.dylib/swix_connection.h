@@ -4,14 +4,14 @@
 
 class swix::connection {
 public: // (access info unavailable from symbols alone)
-    audit_token() const;
-    check_valid_reply(applesauce::xpc::object const&) const;
-    configure_rebuilt_connection(applesauce::xpc::connection const&);
+    auto audit_token() const;
+    auto check_valid_reply(applesauce::xpc::object const&) const;
+    auto configure_rebuilt_connection(applesauce::xpc::connection const&);
+    auto description() const;
+    auto send(swix::encode_message const&);
+    auto send_and_await_reply(swix::encode_message const&);
+    auto send_with_async_reply(swix::encode_message const&, void (void*) block_pointer);
+    auto xpc_connection();
     connection(swix::connection_config const&);
-    description() const;
-    send(swix::encode_message const&);
-    send_and_await_reply(swix::encode_message const&);
-    send_with_async_reply(swix::encode_message const&, void (void*) block_pointer);
-    xpc_connection();
     ~connection();
 };

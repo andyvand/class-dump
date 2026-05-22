@@ -14,13 +14,13 @@
     struct UIEdgeInsets _contentInsets;
 }
 
+- (void);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)secondaryTitle;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;

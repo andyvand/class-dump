@@ -19,9 +19,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void);
+- (long long)rAddItemRow;
+- (void)àÿ +;
 
 @end
 

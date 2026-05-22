@@ -22,22 +22,22 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id)(q`;
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)for %s;
-- (unsigned long long);
+- (id);
 - (void);
-- (id)chEvents;
-- (long long)ForStateIfNeeded: /* Error: Ran out of types for this method. */;
-- (void)twoPart;
-- (void)>ÿÿhüÿDýÿýÿ;
-- (void)ridge;
-- (void)IndexSet"16^B24;
-- (struct CGSize)g;
-- (CDUnknownBlockType)on_shadow;
+- (void);
+- (unsigned long long)edback loop.%@;
+- (void)anslationJitterAnimation;
+- (CDUnknownBlockType)Asked for view at index path %@ but already have size cached!;
+- (void)d}{CGSize=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40@"NSTextContainer"72{_NSRange=QQ}80^B96;
+- (void)oþ°|R0;
+- (void)dv\;
+- (long long)q;
+- (struct CGSize)?;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

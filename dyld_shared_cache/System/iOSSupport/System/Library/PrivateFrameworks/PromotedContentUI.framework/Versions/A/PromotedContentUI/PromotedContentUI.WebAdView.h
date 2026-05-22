@@ -10,19 +10,33 @@
 
 @interface PromotedContentUI.WebAdView : APPCPromotedContentView
 {
-    MISSING_TYPE *webView;
     MISSING_TYPE *videoProgressMetricThresholds;
-    MISSING_TYPE *webViewDebugging;
     MISSING_TYPE *outstreamVisibleThreshold;
     MISSING_TYPE *nonOutstreamVisibleThreshold;
     MISSING_TYPE *mraidActionTypes;
+    MISSING_TYPE *webView;
+    MISSING_TYPE *webViewDebugging;
     MISSING_TYPE *videoProgressMetricStatus;
     MISSING_TYPE *unfairLock;
-    MISSING_TYPE *isAppActive;
     MISSING_TYPE *needToUpdateVisibility;
+    MISSING_TYPE *isAppActive;
 }
 
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,31 +46,16 @@
 - (void);
 - (void);
 - (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)no change detected [current target valid] targetContentItemID=%{public}@;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ramework/Versions/A/CoreAnalytics;
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

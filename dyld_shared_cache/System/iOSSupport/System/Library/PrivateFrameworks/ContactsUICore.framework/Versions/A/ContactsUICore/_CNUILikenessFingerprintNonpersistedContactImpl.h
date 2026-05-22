@@ -23,19 +23,19 @@
 - (id);
 - (_Bool);
 - (long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)tenate: /* Error: Ran out of types for this method. */;
+- (id)ySiSgGGAHG_ADyADyADyAK ÍNGAPGAHGSgtGGí!ADyADydì!ALGAHGtGG_Qo_AHG_Qo__ADyADyADyAJyAFyADyAkHG_Ûí!ySayÐNGA9_Õ|ÿÿGSgAFyADyk$AHG_A11_tGSgtGGÙ!G9Ü!GA20_GQo_ABGGOé!y
+$yADyACyABA5_ABG-â!yÇî!GG_SSµ$yAKGAKQo__Qo_G;
+- (id)P;
 - (id);
-- (id)1b0@ù
-× ;
-- (id)DyA8_yADyANA2_GGAZGAVG_A22_tGGtGG;
-- (id)miss for %@ (%@);
-- (id);
 
 // Remaining properties
 @property(readonly) long long contactType; // @synthesize contactType=_contactType;

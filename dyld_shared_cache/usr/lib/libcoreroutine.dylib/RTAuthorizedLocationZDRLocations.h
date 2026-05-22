@@ -18,7 +18,7 @@
 
 + (id);
 + (id);
-+ (_Bool)ng:confirmationStatusStore (in %s:%d) /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (double);
 - (double);
 - (id);
@@ -31,12 +31,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void)j;
 - (id);
 - (id);
-- (id)DB;
+- (id);
 - (void);
 - (id);
+- (void)tion with name received, %@ (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

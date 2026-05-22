@@ -16,10 +16,10 @@
     MISSING_TYPE *customCornerRadius;
 }
 
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)WÿÏªóÏG;
 
 @end
 

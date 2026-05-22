@@ -13,18 +13,17 @@ __attribute__((visibility("hidden")))
     NSDate *_date;
 }
 
-+ (unsigned long long)e %lu default(%@);
++ (unsigned long long);
 + (id);
-- (unsigned long long);
-- (_Bool);
-- (id)orkResizingOperations;
-- (void);
-- (id)LabelWidth;
-- (id)G;
-- (id)n not be changed;
 - (id);
-- (id)ü
-"ÿÕÕÛb;
+- (id);
+- (unsigned long long);
+- (_Bool)rpness;
+- (id)nsetDeltaForViewController:(id)arg1;
+- (id)eWords;
+- (id)N,V_sourceViewSnapshot;
+- (void);
+- (id)xc;
 
 // Remaining properties
 @property(readonly, nonatomic) NSCalendar *calendar;

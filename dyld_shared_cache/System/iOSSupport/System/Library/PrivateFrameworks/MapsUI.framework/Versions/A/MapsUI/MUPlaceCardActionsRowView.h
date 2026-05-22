@@ -25,10 +25,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
+- (void)OffsetBeforeScrolling;
+- (id),N,GisEnabled;
 - (void);
 
 // Remaining properties

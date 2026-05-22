@@ -5,5 +5,7 @@
 //
 
 @protocol _TtP14FamilyControls29ActivityPickerClientInterface_
+- (void)QîÐ1B50@ù
+× ;
 @end
 

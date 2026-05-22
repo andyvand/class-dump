@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (float);
 - (float);
-- (id);
 - (void);
+- (id);
 - (void);
 
 // Remaining properties

@@ -10,9 +10,8 @@
 }
 
 - (void);
+- (void);
 - (_Bool);
-- (void)¡T°!(@ùñVÐ1b0@ù
-× ;
 
 // Remaining properties
 @property(getter=_isCancelled, setter=_setCancelled:) _Bool _cancelled; // @synthesize _cancelled=__cancelled;

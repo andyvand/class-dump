@@ -4,11 +4,12 @@
 
 class dyld4::Atlas::ProcessSnapshot::Serializer {
 public: // (access info unavailable from symbols alone)
-    emit<unsigned int>(unsigned int, lsl::Vector<std::byte>&);
-    emit<unsigned long long>(unsigned long long, lsl::Vector<std::byte>&);
-    emitMappedFileInfo(unsigned long long, lsl::UUID const&, dyld4::FileRecord const&, lsl::Vector<std::byte>&);
-    emitMappedFileInfo(unsigned long long, lsl::UUID const&, dyld4::FileRecord const&, lsl::Vector<std::byte>&) (.cold.1);
-    emitMappedFileInfo(unsigned long long, lsl::UUID const&, dyld4::FileRecord const&, lsl::Vector<std::byte>&) (.cold.2);
-    emitStringRef(char const*, lsl::Vector<std::byte>&);
-    serialize();
+    Serializer(dyld4::Atlas::ProcessSnapshot&);
+    auto emitMappedFileInfo(unsigned long long, lsl::UUID const&, dyld4::FileRecord const&, lsl::Vector<std::byte>&);
+    auto emitMappedFileInfo(unsigned long long, lsl::UUID const&, dyld4::FileRecord const&, lsl::Vector<std::byte>&) (.cold.1);
+    auto emitMappedFileInfo(unsigned long long, lsl::UUID const&, dyld4::FileRecord const&, lsl::Vector<std::byte>&) (.cold.2);
+    auto emitStringRef(char const*, lsl::Vector<std::byte>&);
+    auto serialize();
+    void emit<unsigned int>(unsigned int, lsl::Vector<std::byte>&);
+    void emit<unsigned long long>(unsigned long long, lsl::Vector<std::byte>&);
 };

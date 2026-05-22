@@ -11,7 +11,7 @@
 }
 
 - (_Bool);
-- (void)t;
+- (void);
 - (void);
 - (Class);
 - (void);
@@ -21,11 +21,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (_Bool);
 - (void);
-- (void);
-- (_Bool)nalized;
-- (void)erProxy;
+- (void);
+- (void)Range=QQ}32;
+- (id)enBalloonViewControllerPhoneC;
 
 @end
 

@@ -58,8 +58,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)er;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *_messageFontDictionary; // @synthesize _messageFontDictionary=__messageFontDictionary;

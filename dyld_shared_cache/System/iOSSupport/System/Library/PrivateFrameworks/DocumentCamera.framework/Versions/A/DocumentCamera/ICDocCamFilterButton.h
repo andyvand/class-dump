@@ -33,20 +33,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (short);
-- (void);
-- (unsigned long long);
-- (id);
 - (_Bool);
 - (void);
-- (id);
 - (struct CGRect);
+- (unsigned long long);
+- (id);
+- (double);
+- (short);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void)Point=dd},R;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *activeBackgroundViewColor;

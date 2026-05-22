@@ -16,10 +16,10 @@
 
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (void)ingController";
-- (id);
+- (void);
 
 @end
 

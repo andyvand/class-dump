@@ -37,22 +37,24 @@
 - (long long);
 - (float);
 - (id);
-- (_Bool);
-- (_Bool);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (unsigned long long)initWithSpec: /* Error: Ran out of types for this method. */;
-- (unsigned short);
-- (_Bool)SgG;
-- (double)t.framework/PersonalizationPortrait;
 - (unsigned long long);
-- (id)[O?7;
+- (id);
+- (unsigned short);
+- (long long);
+- (_Bool);
+- (double);
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (_Bool)1â
+0@ù
+× ;
+- (id)_NSRange=QQ}32@0:(struct _NSZone *)arg1 8@16@24;
+- (_Bool)leHeight: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

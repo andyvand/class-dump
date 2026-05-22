@@ -14,16 +14,16 @@
     NSUUID *_clipUUID;
 }
 
-+ (_Bool)iceTargetAccessoryUUID;
++ (_Bool);
 - (double);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
+- (void)à;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *clipUUID; // @synthesize clipUUID=_clipUUID;

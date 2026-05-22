@@ -16,9 +16,10 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)ñ(°1B50@ù
+× ;
 
 @end
 

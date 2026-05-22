@@ -37,7 +37,7 @@ __attribute__((visibility("hidden")))
     _Bool isSpringLoaded;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
@@ -50,34 +50,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (struct CGRect);
 - (void);
-- (void);
-- (void);
-- (double);
-- (struct CGRect);
-- (id);
-- (void)!ÀEùqÄÐ1¢!0@ù
-× ;
-- (void)Ð1¢!0@ù
-× ;
-- (void)Height;
+- (_Bool);
+- (struct CGSize);
 - (id);
 - (void);
-- (void)ns. Collection view:(struct CGRect)arg1 %@. This will become an assert in a future version.;
-- (unsigned long long)it for investigation, and include the following recursive description.
-%@;
-- (void)dataContentSafeAreaInsets;
-- (_Bool)!= nil;
-- (id)bled;
-- (void)î|;
-- (void)$ßþ;
-- (_Bool)nDb;
-- (struct CGSize)Ê²Ô	i;
-- (_Bool)uj;
-- (void)Õÿ;
-- (struct CGPoint)]Õ4p;
-- (_Bool)2¾q;
+- (_Bool);
+- (void);
+- (void);
+- (id)ñ]ð1Â0@ù
+× ;
+- (struct CGPoint)trainedContentSize"b1"constrainedContentSizeNeedsUpdate"b1"updateInsetBottom"b1"beingDraggedByChildScrollView"b1"adjustsTargetsOnContentOffsetChanges"b1"skipsContentOffsetAdjustmentsIfScrolling"b1"forwardsTouchesUpResponderChain"b1"firstResponderKeyboardAvoidanceDisabled"b1"hasGradientMaskView"b1"configureForObservingByTVSearchController"b1"interruptingDeceleration"b1"delegateScrollViewAdjustedOffset"b1"delegateAsynchronouslyHandleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
+- (struct CGRect)onReferenceView: /* Error: Ran out of types for this method. */;
+- (void)dWriteboardKeyToCachedKeyListWithShape:(_Bool)arg1 rendering: /* Error: Ran out of types for this method. */;
+- (struct CGRect)nvironment: /* Error: Ran out of types for this method. */;
+- (void)_setAllowsForwardingFocusMovementActions:(struct CGRect)arg1;
+- (id)UITextReplacementGeneratorForDictation;
+- (void);
+- (void)ionary"8Q16@"NSString"24;
+- (void);
+- (void)T;
+- (double)(¬ÿ+GÝZ^;
+- (void);
+- (void)üc¥ÿÖüDl;
+- (_Bool),¤fÿÙµÔ£n;
+- (_Bool)n;
+- (unsigned long long)ì)Ìÿ¢ÏÕ­q;
 
 // Remaining properties
 @property(nonatomic) _Bool _selected;

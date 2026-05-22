@@ -15,18 +15,18 @@
     UIPinchGestureRecognizer *_pinchGestureRecognizer;
 }
 
-- (void)ers:(_Bool)arg1;
-- (id)I;
+- (void);
+- (id);
 - (void);
 - (void);
-- (_Bool)moved from the folder;
+- (_Bool);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)ts;
+- (void);
+- (void)@"NSTextRange"24^B32;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKTranscriptPhotoStackCellDelegate> delegate; // @synthesize delegate=_delegate;

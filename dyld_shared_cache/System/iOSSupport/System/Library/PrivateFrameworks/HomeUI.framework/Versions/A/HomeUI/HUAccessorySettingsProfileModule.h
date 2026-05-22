@@ -23,10 +23,10 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)icallyUpdatesViewControllerTitle: /* Error: Ran out of types for this method. */;
-- (void)rKey:(id)arg1 languageCode: /* Error: Ran out of types for this method. */;
-- (id)erUtility: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)HFHomeObserver>"8;
 
 // Remaining properties
 @property(readonly, nonatomic) HFAccessorySettingManagedConfigurationAdapter *adapter; // @synthesize adapter=_adapter;

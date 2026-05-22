@@ -32,8 +32,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (id)onPerformer.m;
+- (void);
 
 @end
 

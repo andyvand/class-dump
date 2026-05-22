@@ -144,17 +144,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -162,8 +158,12 @@
 - (id);
 - (id);
 - (id);
-- (void)tationsByURL:(id)arg1;
-- (_Bool)TypeOrder;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSURL *URL;

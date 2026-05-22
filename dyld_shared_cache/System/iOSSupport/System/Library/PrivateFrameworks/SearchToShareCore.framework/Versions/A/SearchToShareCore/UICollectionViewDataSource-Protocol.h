@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UICollectionReusableView;
+
 @protocol UICollectionViewDataSource
+
+@optional
+- (UICollectionReusableView *)q³°1â
+0@ù
+× ;
 @end
 

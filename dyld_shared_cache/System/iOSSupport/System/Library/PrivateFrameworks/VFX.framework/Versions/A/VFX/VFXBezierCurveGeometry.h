@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)neState>"8@"MTLRenderPipelineReflection"16@"NSError"24;
 - (void);
 - (void);
 - (void);
@@ -28,15 +28,14 @@
 - (void);
 - (struct CGPath *);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
 - (CDStruct_a7a0fb92);
-- (id)Á=Ð!HAùQX1B0@ù
-× ;
+- (void);
+- (void);
+- (id);
+- (id)ting;
+- (void)ration.anyType:(id)arg1 unsupported type ;
 
 // Remaining properties
 @property(readonly) struct CGPath *CGPath;

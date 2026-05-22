@@ -19,12 +19,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)@U½ÿ;
+- (void)diagnostic collection, %@;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

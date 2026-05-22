@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)6@"<MKAnnotation>"24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXIssueCoverLayoutAttributesFactory> layoutOptionsFactory; // @synthesize layoutOptionsFactory=_layoutOptionsFactory;

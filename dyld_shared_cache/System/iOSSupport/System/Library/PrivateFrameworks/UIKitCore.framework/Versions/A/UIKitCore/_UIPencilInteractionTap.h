@@ -13,12 +13,12 @@
     _UIPencilHoverState *_hoverState;
 }
 
-+ (id)CCz=;
-- (id)erride;
-- (id)isplayName:strictDisplayNameMatching:serviceName:toIdentifier: /* Error: Ran out of types for this method. */;
++ (id);
+- (id);
+- (id);
 - (double);
-- (void);
-- (id)ableContentMargins: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)try;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIPencilHoverState *_hoverState;

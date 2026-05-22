@@ -18,49 +18,48 @@
     id <CKFullScreenEffectDelegate> _delegate;
 }
 
-+ (id)g;
 + (id);
 + (id);
 + (id);
-- (id)ray",C,N,V_attachmentsToLoad;
-- (_Bool),&,N,V_participants;
++ (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void)(~;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (BOOL)t;
-- (id)i;
-- (_Bool)ectID %@ succeeded;
-- (_Bool)ecisionTypeAllow;
+- (BOOL);
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)y
-;
+- (_Bool);
 - (int);
 - (void);
 - (void);
 - (void);
+- (void);
 - (Class);
-- (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (double);
 - (id);
-- (id)matedCells;
-- (id)$s7ChatKit31CKTextEffectCoordinatorDelegateP;
-- (void)¬GG¦¬G° ¬GtGG¯¦¬yAByAByAByh=;¬GAMGAMGGGARG;
-- (double);
+- (void);
+- (void);
+- (id)ssion:willEndWithOperation: /* Error: Ran out of types for this method. */;
+- (id)ý;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

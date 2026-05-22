@@ -11,11 +11,11 @@
 }
 
 + (id);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (void);
+- (_Bool);
 - (id);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property _Bool clientReadyForSessionState; // @synthesize clientReadyForSessionState=_clientReadyForSessionState;

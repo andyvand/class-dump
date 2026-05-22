@@ -26,9 +26,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)tions;
 
 // Remaining properties
 @property(retain, nonatomic) HFColorPalette *colorPalette; // @synthesize colorPalette=_colorPalette;

@@ -16,65 +16,64 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void)|;
-- (void);
-- (void)';
-- (id)0q48^@56;
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (double);
-- (void)1¢!0@ù
+- (void)@ù
 × ;
-- (void)ùÌÐ1¢!0@ù
-× ;
-- (id)0@ù
-× ;
-- (id)fect;
-- (void)er;
-- (void)th:(id)arg1 rowSpacing: /* Error: Ran out of types for this method. */;
-- (id)esentViewControllerFromViewController:highlighter:presentationCompletion:dismissalCompletion: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (id)undingBoxLayoutGuideConstraintsIfNecessary;
-- (void):(double)arg1;
-- (id)utAttributesForAttributes:inLayout: /* Error: Ran out of types for this method. */;
-- (_Bool)detailFocusContainerGuide;
-- (void)¢;
-- (id)°;
-- (_Bool)àRSäST;
-- (void)0Þ\ßæ°ç0ê;
-- (void)ÀXÁ¸ÂÃÀÄpÅÆ;
-- (void)ø;
-- (unsigned int)InputDestination inputDestinationDidChange:withIAVHeight:isIAVRelevant:notifyRemote:forScene:]  returning early due to shouldIgnoreInputDestinationChange: /* Error: Ran out of types for this method. */;
-- (id)g;
-- (_Bool)}¨4,°|þ¨4<hþe¨4 °|þ;
-- (id)<&;
-- (void);
 - (id);
-- (void)¸Laþ-ûz_;
-- (id)a;
+- (id)Point=dd}{CGSize=dd}}32;
+- (void)ion"b1"searchResultDisplayStyle"b1"selectedTextSearchDocument"b1"compareOrderFromDocument"b1"compareFoundRangeToRange"b1};
+- (id)"UICollectionViewLayout"24q32;
+- (id)ew: /* Error: Ran out of types for this method. */;
+- (_Bool)ForInitialUpdate: /* Error: Ran out of types for this method. */;
+- (id)ndColorForState: /* Error: Ran out of types for this method. */;
+- (void)Necessary;
+- (_Bool);
+- (long long)Duration;
+- (void)VdisablePrediction;
+- (void)ransientState;
+- (void)ictationUnderlineDisplayTimer;
+- (id)Context;
+- (void)it29_UIPinchDismissSubInteraction;
+- (void)	
+;
+- (void)ransaction token:(_Bool)arg1 %@;
+- (void)ðªþ;
+- (double)asteAndMatchStyle;
+- (id)pAutofill.loginPassword.fromKeyboard;
+- (id)eparateNestedEqualRotaryMovementAxis;
+- (void)DocumentURLFromBookmarkableString(CFStringRef, CFErrorRef *);
+- (void)cessibilityButtonShapesEnabledStatusDidChangeNotification;
+- (void);
+- (void);
+- (_Bool);
+- (void)y;
+- (void)¨;
+- (id);
+- (_Bool)Ûþ;
+- (void)¤ìLÿ];
+- (unsigned int)Ò`;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) _UIImageCIImageRenderer *CIRenderer;

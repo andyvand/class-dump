@@ -5,6 +5,5 @@
 //
 
 @protocol NUArticleActivityOptionsProvider
-- (long long);
 @end
 

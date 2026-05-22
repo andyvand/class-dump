@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)RNýÿHýÿ6Nýÿ;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionUUID; // @dynamic actionUUID;

@@ -8,17 +8,25 @@
 @protocol PLAssetID, PLResourceDataStore, PLResourceDataStoreKey;
 
 @protocol PLResource
-- (id <PLAssetID>)ht0;
-- (long long);
-- (unsigned long long)ateEmptyShelves;
-- (int)V;
-- (_Bool);
-- (long long);
-- (NSDate *)8'p;
-- (short);
-- (long long)1U3(Ã"ÿ;
-- (long long)£;
-- (unsigned int)Ø?p;
+- (short);
+- (_Bool)1â
+0@ù
+× ;
+- (NSString *)â
+0@ù
+× ;
+- (long long)24@0:8Q16 /* Error: Ran out of types for this method. */;
+- (int);
+- (_Bool)¸þìÿ$&@ÿT;
+- (NSString *)ò)ûÿ *ûÿÐ;
+- (unsigned int)ÿpµûÿ;
+- (_Bool)eSize;
+- (id <PLResourceDataStoreKey>)=cccc)(?=ddc)}{?=qqfdddd}}16q784^B792;
+- (long long)sion;
+- (long long)tos.CPAnalytics.filterSharedLibraryAllSelected;
+- (_Bool)sset:shifted:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)le;
+- (NSDate *)onInfo;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) id <PLAssetID> assetID;

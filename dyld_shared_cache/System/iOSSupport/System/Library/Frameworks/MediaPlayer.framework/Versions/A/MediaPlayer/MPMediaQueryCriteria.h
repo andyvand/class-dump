@@ -42,24 +42,24 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (id)k>"16;
-- (void)"BMBookmarkablePublisher">36;
-- (void)"16d24B32@?<@"<BPSPublisher>"@?@"BMBookmarkablePublisher">36;
-- (void)bsoluteTimestamp:(unsigned long long)arg1 modeIdentifier:origin:originBundleId:originAnchorType:isAutomationEnabled:uiLocation:isStart:confidenceScore:uuid:serializedTriggers: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 isOnScreen:isFirstView: /* Error: Ran out of types for this method. */;
-- (void)dSecurityResponsePreReboot;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
 - (id);
+- (_Bool)ngIsFinalMetadata: /* Error: Ran out of types for this method. */;
+- (void)mage:(_Bool)arg1 forState: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)count=%zu;
+- (_Bool)ntainedWithinSyncIDs:groupingType:existentPID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *collectionPropertiesToFetch; // @synthesize collectionPropertiesToFetch=_collectionPropertiesToFetch;

@@ -16,19 +16,20 @@
     double _layoutRatioThreshold;
 }
 
-- (_Bool)*;
-- (_Bool)Rj;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void)h;
+- (void);
 - (double);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (void)á÷ð!¤Eùqð1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;

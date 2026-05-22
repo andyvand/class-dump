@@ -7,7 +7,14 @@
 @class NSAttributedString, NSString, UIColor, UIFont;
 
 @protocol MULabelViewProtocol
-- (long long)¼®ÿÿ;
+- (void)ù1Að1â
+0@ù
+× ;
+- (long long)phoneNumber;
+- (void)tionHandling>",N,W,VexternalActionHandler;
+- (void)tion.;
+- (long long)TLY_VIEWED_ITEM;
+- (long long)\­ÿÿ;
 - (void);
 
 // Remaining properties

@@ -12,15 +12,15 @@
     NSMutableDictionary *_stateModelLut;
 }
 
-+ (_Bool)or,%{public}@ Or no locations.;
++ (_Bool);
 - (long long);
-- (void);
-- (void);
-- (id)ManualAckKey;
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)fetching LOIs from homekit location;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *stateModelLut; // @synthesize stateModelLut=_stateModelLut;

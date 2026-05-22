@@ -23,8 +23,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VKQuad *quad; // @synthesize quad=_quad;

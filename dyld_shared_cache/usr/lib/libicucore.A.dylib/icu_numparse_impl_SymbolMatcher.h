@@ -5,8 +5,8 @@
 class icu::numparse::impl::SymbolMatcher {
 public: // (access info unavailable from symbols alone)
     SymbolMatcher(icu::UnicodeString const&, icu::unisets::Key);
-    getSet() const;
-    match(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
-    smokeTest(icu::StringSegment const&) const;
-    toString() const;
+    auto getSet() const;
+    auto match(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
+    auto smokeTest(icu::StringSegment const&) const;
+    auto toString() const;
 };

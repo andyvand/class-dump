@@ -12,12 +12,11 @@
 }
 
 - (id);
-- (unsigned long long)2;
-- (id)h;
+- (unsigned long long);
 - (id);
-- (void);
-- (id)±§1¢!0@ù
-× ;
+- (id);
+- (id);
+- (void)entationSize;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *events;

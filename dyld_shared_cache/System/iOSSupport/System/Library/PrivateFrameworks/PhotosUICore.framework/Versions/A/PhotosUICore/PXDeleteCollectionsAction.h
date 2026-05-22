@@ -21,11 +21,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id)llpaperSmartAlbumPeoplePickerDataSource.m;
+- (id);
+- (void)YÉ°CPÿ;
+- (id)p6;
+- (id)ÿP6à:(id)arg1 8;
 
 @end
 

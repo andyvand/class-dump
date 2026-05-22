@@ -11,13 +11,13 @@
     NSTimer *_tzSupportDayRolloverTimer;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)ize=dd}16@?32;
 - (void);
-- (id)RawValue;
+- (id);
+- (void)arator: /* Error: Ran out of types for this method. */;
 
 @end
 

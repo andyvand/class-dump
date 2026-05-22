@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISwipeActionsConfiguration;
+@class NSIndexPath, UISwipeActionsConfiguration;
 
 @protocol _UICollectionViewLayoutSwipeActions
-- (UISwipeActionsConfiguration *);
-- (_Bool)q!$GùÄÐ1¢!0@ù
-× ;
-- (UISwipeActionsConfiguration *)subclass with an editor role is defined in the Info.plist's CFBundleDocumentTypes dictionary.;
-- (void)ort;
-- (void);
-- (void)4;
+- (void)AnimationIfNeeded;
+- (_Bool)View:(NSIndexPath *)arg1;
+- (void)okeUsingIMP: /* Error: Ran out of types for this method. */;
+- (void)window, but it is not. (container:(UISwipeActionsConfiguration *)arg1 %@);
 @end
 

@@ -5,6 +5,5 @@
 //
 
 @protocol SWContentRuleManager
-- (void);
 @end
 

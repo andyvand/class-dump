@@ -15,13 +15,13 @@
 - (void);
 - (id);
 - (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void)etry;
-- (_Bool)tionFactory;
+- (void)ry>";
+- (void)N,V_options;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

@@ -12,8 +12,8 @@
 
 - (double);
 - (void);
-- (void);;
-- (unsigned long long)-;
+- (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long ringPosition; // @synthesize ringPosition=_ringPosition;

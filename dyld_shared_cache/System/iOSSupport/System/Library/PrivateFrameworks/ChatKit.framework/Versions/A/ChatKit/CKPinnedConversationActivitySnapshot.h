@@ -12,9 +12,9 @@
     NSArray *_contactItems;
 }
 
-+ (id);
++ (id)ÿÿ;
 - (id);
-- (id)i;
+- (id);
 - (long long);
 - (double);
 - (double);
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *activityItems; // @synthesize activityItems=_activityItems;

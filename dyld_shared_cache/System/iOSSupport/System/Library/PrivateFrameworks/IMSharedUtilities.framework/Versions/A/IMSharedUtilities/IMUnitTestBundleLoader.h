@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
-- (id)@9}S;
-- (void);
 - (id);
+- (void);
+- (id)Ñ;
 
 // Remaining properties
 @property(readonly) IMUnitTestLogger *logger; // @synthesize logger=_logger;

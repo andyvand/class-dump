@@ -12,8 +12,9 @@
 }
 
 - (void);
-- (void);
-- (id)sSystem",R,W,N,G_hostFocusSystem;
+- (id);
+- (void)ä"ÿJ
+Ó(~l;
 
 @end
 

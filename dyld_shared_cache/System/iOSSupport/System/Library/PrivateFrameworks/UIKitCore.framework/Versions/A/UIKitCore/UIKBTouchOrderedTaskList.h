@@ -20,22 +20,22 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)ransferGuids: /* Error: Ran out of types for this method. */;
-- (void)terned;
+- (void);
 - (void);
 - (double);
-- (_Bool)P;
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)Record:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (unsigned long long)r was missing mapping for MPModelPropertyPlaylistHasAnyCleanDownloadedTracks;
+- (id);
+- (id);
 - (void);
-- (void)1¢!0@ù
+- (unsigned long long)
 × ;
-- (void)ithSetup:(id)arg1 target: /* Error: Ran out of types for this method. */;
+- (void)tContainerView";
+- (_Bool);
+- (void)PÇf;
 
 // Remaining properties
 @property(readonly, nonatomic) NSValue *currentTouchPoint; // @synthesize currentTouchPoint=_currentTouchPoint;

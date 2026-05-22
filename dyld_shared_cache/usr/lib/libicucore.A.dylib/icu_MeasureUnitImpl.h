@@ -5,14 +5,14 @@
 class icu::MeasureUnitImpl {
 public: // (access info unavailable from symbols alone)
     MeasureUnitImpl(icu::SingleUnitImpl const&, UErrorCode&);
-    appendSingleUnit(icu::SingleUnitImpl const&, UErrorCode&);
-    build(UErrorCode&) &&;
-    copy(UErrorCode&) const;
-    copyAndSimplify(UErrorCode&) const;
-    extractIndividualUnitsWithIndices(UErrorCode&) const;
-    forIdentifier(icu::StringPiece, UErrorCode&);
-    forMeasureUnit(icu::MeasureUnit const&, icu::MeasureUnitImpl&, UErrorCode&);
-    forMeasureUnitMaybeCopy(icu::MeasureUnit const&, UErrorCode&);
-    serialize(UErrorCode&);
-    takeReciprocal(UErrorCode&);
+    auto appendSingleUnit(icu::SingleUnitImpl const&, UErrorCode&);
+    auto build(UErrorCode&) &&;
+    auto copy(UErrorCode&) const;
+    auto copyAndSimplify(UErrorCode&) const;
+    auto extractIndividualUnitsWithIndices(UErrorCode&) const;
+    auto forIdentifier(icu::StringPiece, UErrorCode&);
+    auto forMeasureUnit(icu::MeasureUnit const&, icu::MeasureUnitImpl&, UErrorCode&);
+    auto forMeasureUnitMaybeCopy(icu::MeasureUnit const&, UErrorCode&);
+    auto serialize(UErrorCode&);
+    auto takeReciprocal(UErrorCode&);
 };

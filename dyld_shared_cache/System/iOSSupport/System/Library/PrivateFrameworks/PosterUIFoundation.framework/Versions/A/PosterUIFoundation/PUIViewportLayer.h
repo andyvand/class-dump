@@ -14,13 +14,13 @@
 
 - (id);
 - (id);
+- (id);
 - (double);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CALayer *contentLayer; // @synthesize contentLayer=_contentLayer;

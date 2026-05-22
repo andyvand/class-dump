@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)letionBlock:(_Bool)arg1;
-- (_Bool){public}@:Missing Catalyst implementation for grouping %u!. /* Error: Ran out of types for this method. */;
-- (id)hAnimator:(id)arg1;
+- (id);
+- (id)item passed to %@ must be an instance of UIDragItem;
+- (_Bool)DisplayState;
 
 @end
 

@@ -4,14 +4,14 @@
 
 class std::__1::moneypunct<wchar_t, false> {
 public: // (access info unavailable from symbols alone)
-    do_curr_symbol() const;
-    do_decimal_point() const;
-    do_frac_digits() const;
-    do_grouping() const;
-    do_neg_format() const;
-    do_negative_sign() const;
-    do_pos_format() const;
-    do_positive_sign() const;
-    do_thousands_sep() const;
+    auto do_curr_symbol() const;
+    auto do_decimal_point() const;
+    auto do_frac_digits() const;
+    auto do_grouping() const;
+    auto do_neg_format() const;
+    auto do_negative_sign() const;
+    auto do_pos_format() const;
+    auto do_positive_sign() const;
+    auto do_thousands_sep() const;
     ~moneypunct();
 };

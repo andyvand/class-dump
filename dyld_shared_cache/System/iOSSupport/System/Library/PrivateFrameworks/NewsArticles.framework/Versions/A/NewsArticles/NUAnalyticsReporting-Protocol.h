@@ -5,6 +5,5 @@
 //
 
 @protocol NUAnalyticsReporting
-- (void)C;
 @end
 

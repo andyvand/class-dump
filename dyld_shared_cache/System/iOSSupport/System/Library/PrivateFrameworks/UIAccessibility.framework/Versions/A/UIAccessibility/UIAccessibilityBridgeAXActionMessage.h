@@ -13,15 +13,15 @@
     NSData *_elementRefData;
 }
 
-+ (_Bool)@;
++ (_Bool);
 - (void);
 - (void);
-- (id);
 - (id);
-- (int);
 - (id);
-- (void)ns;
-- (void)Controllers:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (int);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 

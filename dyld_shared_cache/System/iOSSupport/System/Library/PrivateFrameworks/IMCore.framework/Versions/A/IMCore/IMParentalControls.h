@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (id)';
++ (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -34,12 +34,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool)viousState;
+- (void);
+- (_Bool)teMyStatus:message:] /* Error: Ran out of types for this method. */;
+- (_Bool)À;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _disableAV; // @synthesize _disableAV;

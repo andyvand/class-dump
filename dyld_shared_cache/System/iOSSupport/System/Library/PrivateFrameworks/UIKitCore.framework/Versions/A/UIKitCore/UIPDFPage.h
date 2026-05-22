@@ -19,39 +19,39 @@
     NSMutableArray *_annotations;
 }
 
-- (void):(id)arg1 brandInfoDictionary:brandLogoData: /* Error: Ran out of types for this method. */;
-- (id)er: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ndicationAction",R,N,V_syndicationAction;
-- (struct CGRect)thCompletion: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
+- (id);
+- (struct CGRect);
+- (struct CGRect);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
-- (id)};
-- (struct CGRect);
+- (id);
+- (struct CGRect);
 - (struct CGPDFPage *);
 - (unsigned long long);
-- (void);
-- (void)bers;
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (id)ure_matches;
+- (unsigned long long);
 - (void);
-- (id)0@ù
+- (id);
+- (unsigned long long);
+- (struct CGSize)bð1Â0@ù
 × ;
-- (unsigned long long)onContext;
-- (struct CGSize)serInfo:error: /* Error: Ran out of types for this method. */;
-- (unsigned long long)h;
-- (void)¬i;
-- (void)ÿVj;
-- (id)­j;
-- (void)k;
-- (id)k;
+- (void);
+- (void)âW;
+- (id)VÿëÌ\lg;
+- (void)èÄg;
+- (id)i;
+- (id)Åj;
 
 // Remaining properties
 @property(readonly) struct CGPDFPage *CGPage; // @synthesize CGPage=_cgPage;

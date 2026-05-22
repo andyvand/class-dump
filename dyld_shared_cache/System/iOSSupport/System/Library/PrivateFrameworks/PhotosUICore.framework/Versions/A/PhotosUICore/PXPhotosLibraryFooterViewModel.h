@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
+- (id)tationItem_p;
+- (void)ctionBodyLayout setSpec:(id)arg1 ];
 - (void);
 - (id);
-- (void)¿½4;
-- (id)KQî6;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPhotoKitAssetsDataSourceManager *assetsDataSourceManager; // @synthesize assetsDataSourceManager=_assetsDataSourceManager;

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)icIsOn:(unsigned long long)arg1 %@;
-- (void)y:(unsigned long long)arg1 sendCancel:(double)arg2 toPerson:account: /* Error: Ran out of types for this method. */;
++ (id);
+- (void);
 
 @end
 

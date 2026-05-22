@@ -25,10 +25,11 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void)hBackgroundPriorityLock;
-- (id)n17StateMachineEventP;
+- (void);
+- (id)
+× ;
+- (void)xÁwþí`:Pù$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -85,10 +85,6 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
@@ -98,9 +94,13 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void)ingsDisplayDiffInspector;
-- (id)",R,N,V_dataTypesByItemUUID;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool)sInTableView: /* Error: Ran out of types for this method. */;
+- (void)a;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *activityImageView; // @synthesize activityImageView=_activityImageView;

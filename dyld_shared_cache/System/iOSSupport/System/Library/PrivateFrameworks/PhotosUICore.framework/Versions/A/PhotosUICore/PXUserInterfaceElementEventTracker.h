@@ -28,16 +28,16 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void)unifiedContactsMatchingPredicate:keysToFetch:error: /* Error: Ran out of types for this method. */;
-- (id);
-- (void)x¨ûÿ;
-- (void)0wúÿ,ûÿ;
-- (_Bool)StatusPauseActionConfirmationAlertTitles(PXCPLStatusActivity, NSString *__autoreleasing *, NSString *__autoreleasing *, NSString *__autoreleasing *);
-- (id)tItemInput>"8Q16^B24;
 - (void);
 - (void);
+- (id);
+- (void){public}@ Merge skipped, no assets selected.;
+- (void)ntext.swift;
+- (_Bool);
+- (void)"a;
+- (id)¹;
 
 // Remaining properties
 @property(readonly, nonatomic) double currentTimestamp;

@@ -24,19 +24,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)_MAPPING_MISSING__;
 - (void);
-- (void)"_UIImageLoader"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)ectRadius;
-- (void)ateForKey:(_Bool)arg1;
-- (long long)userHasSelectedSkinToneEmoji;
-- (void)nalSafeAreaInsets;
-- (id)ìs;
-- (void)(¿èÿrþþÿ;
-- (id)filled.bottomleft.bottomright.rectangle;
-- (void)pplication _cancelAllTouches];
-- (id)tQueue(Boolean);
-- (void)Title.accessoryView;
+- (void);
+- (id);
+- (void)!<GùQ^Ð1Â0@ù
+× ;
+- (id);
+- (void)1Â0@ù
+× ;
+- (long long)a
+Ð!H@ùñf°1Â0@ù
+× ;
+- (void)ction:offset:affinity:anchorPositionOffset: /* Error: Ran out of types for this method. */;
+- (void)InsetsPopulated;
+- (void)avigationBar:delegate: /* Error: Ran out of types for this method. */;
+- (void)ä¾Ü¿ÈÀÀÂÄ¼ÄÅ¬ÈÉlÉ8Ë ËlÏÔÏ¬Ð;
+- (id)Ôúxûü¬ü8ýÜýþþÿÈÿ;
+- (void)XÜ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIFocusTestDelegate> delegate; // @synthesize delegate=_delegate;

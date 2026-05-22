@@ -7,10 +7,6 @@
 @class NSArray, NSSet, WBSKnownTrackingThirdParty;
 
 @protocol WBSPrivacyReportDataProvider
-- (NSSet *)chTransparencyURL;
-- (NSArray *)FromCache;
-- (void)er.notifyQueue;
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *blockedKnownTrackers;

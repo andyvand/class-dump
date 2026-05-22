@@ -5,8 +5,5 @@
 //
 
 @protocol PKAutoRefineViewDelegate
-- (_Bool)@;
-- (_Bool);
-- (void)ionTask"24q32q40q48;
 @end
 

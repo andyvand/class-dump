@@ -107,36 +107,36 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)0@ù
-× ;
-- (void)uggingSize:(id)arg1;
-- (id)ChangePlaybackTime;
-- (id)C,N,V_fallbackBlock;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void)oller:didUpdateSize: /* Error: Ran out of types for this method. */;
+- (id)InsetsToSubviews;
+- (void)emAtIndexPath:(id)arg1 withContext: /* Error: Ran out of types for this method. */;
+- (id)	
+;
+- (id)e;
+- (id)pecifier;
+- (void)N;
+- (void)ime sign:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

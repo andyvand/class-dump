@@ -6,14 +6,15 @@ class HVF::LoaderHVGL {
 public: // (access info unavailable from symbols alone)
     LoaderHVGL(HVF::LoaderHVGL const&);
     LoaderHVGL(void const*, unsigned long, void const*, unsigned long);
-    asPartLoader();
-    checkVersion() const;
-    countParts() const;
-    glyphCount() const;
-    loadComposite(std::__1::span<unsigned char const, 18446744073709551615ul>&, unsigned long, HVF::PartCache&);
-    loadPartAtIndex(unsigned long, HVF::PartCache&, unsigned int);
-    loadShape(std::__1::span<unsigned char const, 18446744073709551615ul>&, unsigned long, HVF::PartCache&);
-    partDataAtIndex(unsigned long) const;
-    version() const;
+    auto asPartLoader();
+    auto checkVersion() const;
+    auto countParts() const;
+    auto glyphCount() const;
+    auto loadComposite(std::__1::span<unsigned char const, 18446744073709551615ul>&, unsigned long, HVF::PartCache&);
+    auto loadPartAtIndex(unsigned long, HVF::PartCache&, unsigned int);
+    auto loadShape(std::__1::span<unsigned char const, 18446744073709551615ul>&, unsigned long, HVF::PartCache&);
+    auto markValidated(unsigned long);
+    auto partDataAtIndex(unsigned long) const;
+    auto version() const;
     ~LoaderHVGL();
 };

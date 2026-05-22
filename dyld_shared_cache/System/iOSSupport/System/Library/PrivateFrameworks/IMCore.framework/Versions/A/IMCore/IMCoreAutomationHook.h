@@ -13,10 +13,10 @@
 
 + (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)D3;
 
 // Remaining properties
 @property(readonly) IMAccount *bestiMessageAccount;

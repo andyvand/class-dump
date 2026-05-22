@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
 - (id);
+- (_Bool);
+- (void)launchcenteripad;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *localWorkflowID; // @synthesize localWorkflowID=_localWorkflowID;

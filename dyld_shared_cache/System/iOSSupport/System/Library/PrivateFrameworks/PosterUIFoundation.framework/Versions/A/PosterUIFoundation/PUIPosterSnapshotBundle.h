@@ -52,22 +52,24 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
 - (long long);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (struct CGSize);
 - (double);
+- (_Bool);
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (id)Ô ;
+- (void);
+- (id)1â
+0@ù
+× ;
+- (long long)gnedLongLongValue;
 
 // Remaining properties
 @property(readonly) long long accessibilityContrast;

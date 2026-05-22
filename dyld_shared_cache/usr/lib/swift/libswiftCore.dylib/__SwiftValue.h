@@ -9,16 +9,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)`úÜ`
-ì`5ùü`/ûaIù aØù0a2øBaãPaÚhaþ0aa#ù®aLùÀae0Ða½ùìazùÞ6 üaNb=øb·ù,bÑ<bùNbMø^b®"lbybËùbu"¨b$ÀbçÔb0äbOøb#a	c°,c}ù<c|ùLccú\clc<ø~cúcú- c¬c-¼cøÔcîùæc°ôcùdw0d@8d!DdøTd6ùddùvdêødò;
-- (unsigned long long);
-- (_Bool);
-- (id)(;
++ (id)ÿ;
 - (void);
 - (id);
+- (id);
+- (unsigned long long);
 - (const void *);
-- (const struct OpaqueValue *)meratingWithState:objects:count: /* Error: Ran out of types for this method. */;
-- (id)3c]b7b1}{__long=*Qb63b1})}}{optional<std::weak_ptr<MixTapToUplinkHost>>=(?=c{weak_ptr<MixTapToUplinkHost>=^{MixTapToUplinkHost}^{__shared_weak_count}})B}^{element_t}}{shared_ptr<MixTapToUplinkHost>=^{MixTapToUplinkHost}^{__shared_weak_count}}}24@0:8@16 /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (const struct OpaqueValue *);
 - (id);
 
 @end

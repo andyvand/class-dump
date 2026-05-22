@@ -7,19 +7,7 @@
 @class CAFilter, UIButton, UIColor;
 
 @protocol CKSendMenuButtonProtocol
-- (void)0EmÕ;
-- (void)´pô;
-- (void);
-- (void)okensForParticipants;
-- (void)icationSnippetForAttachmentType:(CAFilter *)arg1;
-- (void)n:(double)arg1;
-- (void)ediaData;
-- (void)mNumberOfNotesPerAccount;
-- (_Bool)thEnabled;
-- (double)temImageName;
-- (UIColor *)lderInContext: /* Error: Ran out of types for this method. */;
-- (CAFilter *);
-- (double)s;
+- (UIButton *)$À;
 
 // Remaining properties
 @property(nonatomic) double backgroundBlurRadiusDarkMode;

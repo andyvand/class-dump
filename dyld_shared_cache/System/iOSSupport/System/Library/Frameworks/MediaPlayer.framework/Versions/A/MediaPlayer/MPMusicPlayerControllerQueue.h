@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (id)skCacheAvailableSize] dataTask=%{public}@ URL=%{public}@ expectedEntrySize=%lld diskCacheAvailableSize=%lld;
+- (id);
+- (void)AlbumPreorder__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *items;

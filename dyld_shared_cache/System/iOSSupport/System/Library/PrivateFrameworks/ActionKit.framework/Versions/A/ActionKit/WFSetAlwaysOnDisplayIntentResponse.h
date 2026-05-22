@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)s192-cbc;
-- (void)ge request;
+- (long long)ReceiptRequested;
+- (void)oice:(long long)arg1 rate:pitch:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

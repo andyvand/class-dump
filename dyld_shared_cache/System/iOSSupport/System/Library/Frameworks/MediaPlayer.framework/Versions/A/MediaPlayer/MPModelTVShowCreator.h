@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)ookmark;
-+ (void)homeUniqueIdentifier;
++ (id);
++ (void);
 - (id);
 
 // Remaining properties

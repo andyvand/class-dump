@@ -39,24 +39,24 @@
 - (CDStruct_1b6d18a9);
 - (id);
 - (void);
-- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (double);
 - (void);
 - (_Bool);
+- (id)eSublayoutAtIndex:frame:zIndex: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9);
+- (void)rary suggestions;
+- (void)ntBack;
 - (id);
-- (id);
-- (void)r: /* Error: Ran out of types for this method. */;
-- (id)straints;
-- (void);
-- (void)ÿÿ;
-- (CDStruct_1b6d18a9);
-- (double);
-- (id)iption;
-- (id)natedUIFeedProvider.swift;
-- (void)ironment>"8@"NSError"16;
-- (id)XObservable",N,R,Vobservable;
-- (void);
-- (CDStruct_1b6d18a9)ÿ;
-- (void)¤åÌÿÔEL¯6;
+- (void)!Ã;
+- (CDStruct_1b6d18a9);
+- (id)ÄséÿüH(44;
+- (_Bool)66836;
+- (void)Ô:(CDStruct_1b6d18a9)arg1 Ùÿû©P {6;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBePaused; // @synthesize canBePaused=_canBePaused;

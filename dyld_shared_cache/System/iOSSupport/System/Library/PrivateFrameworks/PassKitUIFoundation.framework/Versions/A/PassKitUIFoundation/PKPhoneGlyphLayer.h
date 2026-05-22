@@ -27,11 +27,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void)tion;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool showQRCode; // @synthesize showQRCode=_showQRCode;

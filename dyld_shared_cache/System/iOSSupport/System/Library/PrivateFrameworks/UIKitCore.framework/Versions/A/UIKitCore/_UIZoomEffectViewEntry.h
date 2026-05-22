@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (void)PropertiesForDevice;
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void)0@ù
+- (void)fð1Â0@ù
 × ;
-- (_Bool)HasOtherDragInteraction;
-- (id)SystemItemStyle:title:image:selectedImage:action:forBarStyle:landscape:alwaysBordered:usingSystemItem:usingItemStyle: /* Error: Ran out of types for this method. */;
-- (void)elegate while a drag session is active will lead to undefined behavior. %@;
+- (void)escriptor;
+- (_Bool)dPopoverViewController;
+- (void)ES; ;
 
 // Remaining properties
 @property(nonatomic) double zoomAmount; // @synthesize zoomAmount=_zoomAmount;

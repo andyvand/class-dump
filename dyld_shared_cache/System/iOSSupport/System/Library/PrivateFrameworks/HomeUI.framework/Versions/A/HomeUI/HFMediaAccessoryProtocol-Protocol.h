@@ -7,8 +7,6 @@
 @class HFMediaAccessoryCommonSettingsManager;
 
 @protocol HFMediaAccessoryProtocol
-- (_Bool)0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) HFMediaAccessoryCommonSettingsManager *commonSettingsManager;

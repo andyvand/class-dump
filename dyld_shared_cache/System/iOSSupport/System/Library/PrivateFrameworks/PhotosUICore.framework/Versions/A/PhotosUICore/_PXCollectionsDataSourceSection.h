@@ -24,12 +24,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
 - (id);
-- (void)Pè;
-- (id)eTransform=dddddd}d}12r^{?={?=ddd}}20r^{?=f{?=(?={?=ffff}[4f])}ffffSCf{?=[4]}}28r^{?=CCfqSC}36@"PXGLayout"44I52^B56;
-- (long long)tionary"16;
+- (unsigned long long);
+- (long long)nRegistrar;
+- (id)?0@8@"NSArray"16;
+- (void)es;
+- (unsigned long long)(Ý}ÃÊ4¡;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCollectionsDataSource *collectionsDataSource; // @synthesize collectionsDataSource=_collectionsDataSource;

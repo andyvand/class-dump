@@ -73,15 +73,15 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)elBaselineToBottom;
 
 // Remaining properties
 @property(retain) WeatherCloudPreferences *cloudPreferences; // @synthesize cloudPreferences=_cloudPreferences;

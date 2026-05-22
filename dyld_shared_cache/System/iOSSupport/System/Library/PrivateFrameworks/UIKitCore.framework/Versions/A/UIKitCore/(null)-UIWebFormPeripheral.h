@@ -5,25 +5,25 @@
 //
 
 @interface (null) (UIWebFormPeripheral)
-- (_Bool)me:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)rtialSyncFirstCompletedDate to %@;
-- (_Bool)ving on;
-- (_Bool)enter for guid:%@. /* Error: Ran out of types for this method. */;
-- (id)iMessage maximum;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)@;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void)0@ù
+- (id)A°!XAù`°1Â0@ù
 × ;
-- (id)\&;
-- (long long)¡ÉÜøi;
-- (_Bool);
-- (_Bool)NöÓím;
+- (_Bool)DÝ¼ÿ;
+- (_Bool)æ;
+- (long long)(;
+- (void);<ÌXn;
 @end
 

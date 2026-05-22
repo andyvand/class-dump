@@ -9,14 +9,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)°1Â0@ù
+× ;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)S;
-- (void)1¢!0@ù
-× ;
-- (void)dStickerShouldEditNotificationUserInfoSourceRectKey;
+- (void);
+- (void)eading:(id)arg1;
+- (void)`	ÖäHc;
 
 @end
 

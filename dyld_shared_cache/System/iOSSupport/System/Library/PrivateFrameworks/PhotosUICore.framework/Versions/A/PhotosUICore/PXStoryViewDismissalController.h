@@ -62,16 +62,15 @@
 - (void);
 - (id);
 - (void);
-- (long long);
-- (id);
-- (void)0@ù
-× ;
-- (void)alysisTypes;
-- (id)e;
 - (struct CGSize);
-- (void)Áx;
-- (void)Ó"ÿ;
-- (id)U4;
+- (long long);
+- (void);
+- (id)er (%@) with JSON serialization error:%@. /* Error: Ran out of types for this method. */;
+- (void)lable;
+- (void)r>"8;
+- (void)alization due to no current reference available;
+- (id)¸Å+ÿdÿ;
+- (id)ut;
 
 // Remaining properties
 @property(retain, nonatomic) PXPointAnimator *centerOffsetAnimator; // @synthesize centerOffsetAnimator=_centerOffsetAnimator;

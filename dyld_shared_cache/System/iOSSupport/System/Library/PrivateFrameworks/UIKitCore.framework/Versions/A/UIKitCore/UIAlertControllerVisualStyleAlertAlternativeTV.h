@@ -13,19 +13,19 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (double);
-- (id)dKit sync is enabled:%@ has accounts %@ /* Error: Ran out of types for this method. */;
-- (id)evice conditions check if CloudKit sync is enabled:%@ has accounts %@ /* Error: Ran out of types for this method. */;
-- (double)ath:%@ /* Error: Ran out of types for this method. */;
-- (double)ading transfer:%@   success:%@  error:%@ /* Error: Ran out of types for this method. */;
-- (double)T ******;
-- (double)amongst chats;
-- (_Bool)view generation state change, but has not been persisted to the database yet. It will be indexed once the message is stored.;
-- (struct UIEdgeInsets)dIfNeeded We have already done this. Not doing again unless you do defaults delete com.apple.madrid initialSyncRecordHasBeenWritten;
-- (double)an exclamation from "%@";
-- (double)ed a laugh from "%@";
-- (double);
 - (id);
-- (double)ws;
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (_Bool);
+- (struct UIEdgeInsets);
+- (double);
+- (double);
+- (double);
+- (id)mentFrame;
+- (double)`;
 
 @end
 

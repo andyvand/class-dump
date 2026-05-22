@@ -11,9 +11,9 @@
     NSString *_originatingItemIdentifier;
 }
 
-- (void)es:(id)arg1 subframeArchives: /* Error: Ran out of types for this method. */;
-- (id)t;
-- (void)";
+- (void);
+- (id);
+- (void)hotChangedMessageGUIDKey;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *originatingItemIdentifier; // @synthesize originatingItemIdentifier=_originatingItemIdentifier;

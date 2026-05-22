@@ -30,14 +30,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)idBeginEditing:item: /* Error: Ran out of types for this method. */;
-- (void)etInnerTrailingMargin:(id)arg1;
+- (void);
+- (void)yDueToSchedule_Alert_SingleGuest;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

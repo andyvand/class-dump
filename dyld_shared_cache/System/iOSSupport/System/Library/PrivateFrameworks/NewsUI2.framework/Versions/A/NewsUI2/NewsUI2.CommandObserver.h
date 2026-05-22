@@ -11,6 +11,7 @@
     MISSING_TYPE *commandCenter;
     MISSING_TYPE *channelDataFactory;
     MISSING_TYPE *scienceDataFactory;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *tagService;
     MISSING_TYPE *navigator;
     MISSING_TYPE *webEmbedDataSourceManager;

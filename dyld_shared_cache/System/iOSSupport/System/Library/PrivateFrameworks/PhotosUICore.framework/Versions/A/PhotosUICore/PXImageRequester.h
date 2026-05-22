@@ -71,37 +71,38 @@
 - (id);
 - (void);
 - (void);
-- (struct CGRect);
-- (long long);
-- (double);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (double);
-- (void);
-- (void);
 - (struct CGSize);
-- (_Bool);
-- (double);
 - (void);
 - (void);
 - (id);
-- (id)
-× ;
-- (id)rySummaryHelperShouldUpdateImmediately: /* Error: Ran out of types for this method. */;
-- (void)apeAspectRatio;
-- (void)ved;
-- (void)Error;
-- (struct CGSize)}; keyPageSize={%g, %g}; regularInterpageSpacing=%g; keyInterpageSpacing=%g; displayOneAssetPerPage=%@>;
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (double);
 - (struct CGRect);
-- (void)ÿù¾-Vÿ;
+- (id);
 - (void);
-- (void)¨¾ÿ;
-- (id)ationProxy;
+- (long long);
+- (_Bool);
+- (double);
 - (void);
+- (id);
+- (void);
+- (void);
+- (_Bool)!HDù1HÐ1â
+0@ù
+× ;
+- (void)tionType;
+- (void)tion type as %@, took %.1fs;
+- (id)ight be limited.;
+- (void)hotoCollectionHeaderSubtitleFontForStyle(PXPhotosGridSectionHeaderStyle);
+- (void)backLabel;
+- (void)l;
+- (struct CGRect)¬;
+- (void)6;
+- (struct CGSize)1R :7 /* Error: Ran out of types for this method. */;
+- (double)ãÚÿv,7;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCurrentImageSourceAsset:) id <PXDisplayAsset> _currentImageSourceAsset; // @synthesize _currentImageSourceAsset=__currentImageSourceAsset;

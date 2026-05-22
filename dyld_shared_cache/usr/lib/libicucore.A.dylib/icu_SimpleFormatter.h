@@ -4,14 +4,14 @@
 
 class icu::SimpleFormatter {
 public: // (access info unavailable from symbols alone)
-    applyPatternMinMaxArguments(icu::UnicodeString const&, int, int, signed char, UErrorCode&);
-    format(char16_t const*, int, icu::UnicodeString const* const*, icu::UnicodeString&, icu::UnicodeString const*, signed char, int*, int, UErrorCode&);
-    format(icu::UnicodeString const&, icu::UnicodeString const&, icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
-    format(icu::UnicodeString const&, icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
-    format(icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
-    formatAndAppend(icu::UnicodeString const* const*, int, icu::UnicodeString&, int*, int, UErrorCode&) const;
-    formatAndReplace(icu::UnicodeString const* const*, int, icu::UnicodeString&, int*, int, UErrorCode&) const;
-    getTextWithNoArguments(char16_t const*, int, int*, int);
-    operator=(icu::SimpleFormatter const&);
+    auto applyPatternMinMaxArguments(icu::UnicodeString const&, int, int, signed char, UErrorCode&);
+    auto format(char16_t const*, int, icu::UnicodeString const* const*, icu::UnicodeString&, icu::UnicodeString const*, signed char, int*, int, UErrorCode&);
+    auto format(icu::UnicodeString const&, icu::UnicodeString const&, icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
+    auto format(icu::UnicodeString const&, icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
+    auto format(icu::UnicodeString const&, icu::UnicodeString&, UErrorCode&) const;
+    auto formatAndAppend(icu::UnicodeString const* const*, int, icu::UnicodeString&, int*, int, UErrorCode&) const;
+    auto formatAndReplace(icu::UnicodeString const* const*, int, icu::UnicodeString&, int*, int, UErrorCode&) const;
+    auto getTextWithNoArguments(char16_t const*, int, int*, int);
+    auto operator=(icu::SimpleFormatter const&);
     ~SimpleFormatter();
 };

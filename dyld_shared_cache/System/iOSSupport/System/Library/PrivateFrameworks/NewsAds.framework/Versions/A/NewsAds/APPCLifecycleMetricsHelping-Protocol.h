@@ -5,6 +5,5 @@
 //
 
 @protocol APPCLifecycleMetricsHelping
-- (void)(=;
 @end
 

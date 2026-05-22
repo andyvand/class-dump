@@ -4,5 +4,5 @@
 
 class icu::MessagePattern::Part {
 public: // (access info unavailable from symbols alone)
-    operator==(icu::MessagePattern::Part const&) const;
+    auto operator==(icu::MessagePattern::Part const&) const;
 };

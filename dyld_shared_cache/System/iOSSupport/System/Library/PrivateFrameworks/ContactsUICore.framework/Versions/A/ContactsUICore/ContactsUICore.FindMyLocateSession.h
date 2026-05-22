@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *session;
     MISSING_TYPE *contact;
+    MISSING_TYPE *locationSharingModificationCheck;
     MISSING_TYPE *bestHandle;
 }
 

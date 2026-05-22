@@ -10,12 +10,12 @@
 }
 
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)res maxExternalEvents be >= 0, was supplied %{public}@, falling back to default %lu;
+- (void)Ô ;
+- (void)pertySummary;
+- (void)InteriorCookie;
 
 @end
 

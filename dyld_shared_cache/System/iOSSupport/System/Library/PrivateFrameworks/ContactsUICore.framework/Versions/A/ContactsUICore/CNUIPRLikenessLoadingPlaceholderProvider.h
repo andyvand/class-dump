@@ -19,10 +19,10 @@
 - (unsigned long long);
 - (id);
 - (struct CGImage *);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)ddingContactsFuture;
 
 // Remaining properties
 @property(readonly, nonatomic) CNCache *cache; // @synthesize cache=_cache;

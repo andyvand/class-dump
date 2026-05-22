@@ -14,11 +14,11 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (CDUnknownBlockType);
-- (id);
-- (void);
 - (void);
 
 // Remaining properties

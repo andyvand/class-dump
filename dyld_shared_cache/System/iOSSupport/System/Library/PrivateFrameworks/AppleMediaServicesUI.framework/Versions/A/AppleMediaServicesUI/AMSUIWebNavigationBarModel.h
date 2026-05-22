@@ -36,16 +36,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
 - (long long);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (long long)olbarItems:animated: /* Error: Ran out of types for this method. */;
-- (void)cessorySecondaryButtonFont;
+- (void)straints: /* Error: Ran out of types for this method. */;
+- (long long)namicViewControllerDelegate>",W,N,V_delegate;
 
 // Remaining properties
 @property(retain, nonatomic) AMSUIWebBarButtonItemModel *accessoryBarButtonItemModel; // @synthesize accessoryBarButtonItemModel=_accessoryBarButtonItemModel;

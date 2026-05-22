@@ -15,20 +15,19 @@ __attribute__((visibility("hidden")))
     UIView *_candidateKey;
 }
 
-- (void)pt:(id)arg1 deliveryContext:(id)arg2 storageContext: /* Error: Ran out of types for this method. */;
-- (void)ntifier:fromIdentifier:fromToken:fromIDSID:timeStamp:needsDeliveryReceipt:deliveryContext:storageContext: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id)P;
-- (void)ctions is not enabled;
-- (id)CoreTelephony subscriptions;
+- (id);
+- (void);
+- (id);
+- (void);
 - (CDStruct_227bb23d);
 - (void);
-- (void);
-- (void)0@ù
-× ;
-- (id)!;
-- (void)Æ;
+- (id)Ç;
+- (void)@+ÿ;
+- (void)ü:ÿ7EÌ@*g /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *candidateKey; // @synthesize candidateKey=_candidateKey;

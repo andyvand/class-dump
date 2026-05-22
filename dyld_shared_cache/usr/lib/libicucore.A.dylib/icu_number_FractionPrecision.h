@@ -4,7 +4,7 @@
 
 class icu::number::FractionPrecision {
 public: // (access info unavailable from symbols alone)
-    withMaxDigits(int) const;
-    withMinDigits(int) const;
-    withSignificantDigits(int, int, UNumberRoundingPriority) const;
+    auto withMaxDigits(int) const;
+    auto withMinDigits(int) const;
+    auto withSignificantDigits(int, int, UNumberRoundingPriority) const;
 };

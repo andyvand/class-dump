@@ -26,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property unsigned long long maximumDistance; // @synthesize maximumDistance;

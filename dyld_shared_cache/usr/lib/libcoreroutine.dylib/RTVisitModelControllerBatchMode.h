@@ -18,11 +18,11 @@
 
 - (const float *);
 - (const float *);
-- (void)WithSequenceNumber:streamID:expectsPeerResponse:wantsAppAck:compressed:didWakeHint:peerResponseIdentifier:messageUUID:data:expiryDate: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id)8@"NSDictionary"16@"NSDictionary"24@"NSDictionary"32;
+- (id);
+- (void)companion device, %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

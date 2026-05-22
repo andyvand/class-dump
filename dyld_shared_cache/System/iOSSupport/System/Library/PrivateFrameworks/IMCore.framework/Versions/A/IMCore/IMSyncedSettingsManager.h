@@ -11,14 +11,14 @@
     IMSyncedSettingsManager_Impl *_impl;
 }
 
-+ (id)?;
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)\ä;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

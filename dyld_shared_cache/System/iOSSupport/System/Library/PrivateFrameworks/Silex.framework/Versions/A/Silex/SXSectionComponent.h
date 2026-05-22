@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id);
++ (id)Cache",&,N,V_tokenizersCache;
 
 @end
 

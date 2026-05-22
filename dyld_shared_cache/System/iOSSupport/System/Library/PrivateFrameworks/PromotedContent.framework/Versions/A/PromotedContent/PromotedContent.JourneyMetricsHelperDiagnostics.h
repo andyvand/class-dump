@@ -14,8 +14,8 @@
     MISSING_TYPE *lastReadyIdentifier;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

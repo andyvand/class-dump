@@ -7,7 +7,6 @@
 @class APPCAdPolicyData, APPCTapAction, NSString, NSUUID;
 
 @protocol APPCPromotableContentRepresentation
-- (APPCTapAction *)ne2:inLine3:inLine4: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) APPCAdPolicyData *adPolicyData;

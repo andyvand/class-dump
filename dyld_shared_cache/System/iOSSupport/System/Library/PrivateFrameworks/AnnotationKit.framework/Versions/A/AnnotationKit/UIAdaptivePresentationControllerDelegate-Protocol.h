@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPresentationController;
-
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void).;
-- (long long);
-- (void)assForSubtype:(UIPresentationController *)arg1;
+- (_Bool)otations;
+- (long long)upportsImageDescriptionEditing;
+- (void)47Ä5;
 @end
 

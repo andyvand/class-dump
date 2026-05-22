@@ -18,23 +18,21 @@
     double _springStiffness;
 }
 
-+ (_Bool)ionAction: /* Error: Ran out of types for this method. */;
-+ (_Bool)tÖÏãl;
-- (double);
-- (void);
++ (_Bool)ive dictionary:<%@> %@ /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (_Bool);
+- (id);
+- (double);
+- (double);
 - (double);
 - (double);
 - (id);
-- (double);
-- (void);
-- (double)Ð1¢!0@ù
-× ;
-- (long long)ð1¢!0@ù
-× ;
-- (id)ationStyle once presentationController has been accessed will have no effect until %@ is presented, dismissed, and presented again.;
-- (double)ÿZÆþÿTÐüÿ[Æþÿ^ÐüÿÐüÿÐüÿ;
-- (double)ButtonView"8Q16^B24;
+- (double)CGPoint=dd}{CGSize=dd}}{CGPoint=dd}{CGPoint=dd}{CGAffineTransform=dddddd}}24@0:8@16 /* Error: Ran out of types for this method. */;
+- (void)View;
+- (long long)boardTransition: /* Error: Ran out of types for this method. */;
+- (double)onExtractionRootPath: /* Error: Ran out of types for this method. */;
+- (void)ntBackdropView;
+- (double)rence.removals.count <= 2;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_curve) long long curve;

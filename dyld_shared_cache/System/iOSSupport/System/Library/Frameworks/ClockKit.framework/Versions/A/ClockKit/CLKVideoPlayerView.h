@@ -61,16 +61,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)getWidgetMigrationConfigurationFrom:withHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <CLKVideoPlayerViewDelegate> delegate; // @synthesize delegate=_delegate;

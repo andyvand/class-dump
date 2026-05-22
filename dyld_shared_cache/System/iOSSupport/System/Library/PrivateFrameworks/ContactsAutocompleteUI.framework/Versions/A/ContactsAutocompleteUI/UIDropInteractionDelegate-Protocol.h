@@ -5,11 +5,5 @@
 //
 
 @protocol UIDropInteractionDelegate
-
-@optional
-- (void)K	;
-- (void);
-- (void)A¨ð!XFùq¿1¢!0@ù
-× ;
 @end
 

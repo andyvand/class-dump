@@ -14,10 +14,10 @@
 + (id);
 + (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

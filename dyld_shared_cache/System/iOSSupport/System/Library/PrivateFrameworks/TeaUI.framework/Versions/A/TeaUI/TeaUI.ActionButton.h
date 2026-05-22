@@ -14,10 +14,10 @@
     MISSING_TYPE *onMenuPresentation;
 }
 
-- (id)csConfig;
-- (void)++;
-- (id)omRotorName: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (id);
+- (void);
 
 @end
 

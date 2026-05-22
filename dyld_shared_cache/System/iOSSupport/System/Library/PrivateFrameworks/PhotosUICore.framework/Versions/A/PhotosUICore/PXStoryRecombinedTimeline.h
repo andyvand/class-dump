@@ -45,12 +45,12 @@
 - (void);
 - (CDStruct_e83c9415);
 - (long long);
-- (CDStruct_e83c9415);
-- (void);
-- (struct CGSize);
 - (long long);
 - (id);
+- (struct CGSize);
 - (CDStruct_e83c9415);
+- (CDStruct_e83c9415)aringAlertMessage;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long firstTargetSegmentIndex; // @synthesize firstTargetSegmentIndex=_firstTargetSegmentIndex;

@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)eEnabled,V_toggleEnabled;
+- (id);
+- (void)atisfying:RTSettledStateIsValid(transitionFromType) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;

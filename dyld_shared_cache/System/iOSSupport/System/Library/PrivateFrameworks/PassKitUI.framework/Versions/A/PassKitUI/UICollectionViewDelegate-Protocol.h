@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout;
+@class NSIndexPath, UICollectionView;
+@protocol UISpringLoadedInteractionContext;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (UICollectionViewTransitionLayout *)0@ù
-× ;
-- (NSIndexPath *)IdentifierMapping:(UICollectionView *)arg1;
-- (NSIndexPath *)ndingSource;
-- (_Bool)BucketTemplate",R,N,V_headerBucketTemplate;
-- (void)$D%;
-- (_Bool)t;
-- (NSIndexPath *)QIa.;
+- (_Bool);
+- (_Bool)er:(UICollectionView *)arg1 presentingViewController:(NSIndexPath *)arg2 sourceViewController:(id <UISpringLoadedInteractionContext>)arg3;
+- (_Bool);
 @end
 

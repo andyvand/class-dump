@@ -20,48 +20,47 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_propertyAnimators;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)× ;
++ (id)4@32;
++ (id);
 - (_Bool);
-- (id)ngerSwitch: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)ImageInView;
-- (_Bool);
-- (void)completionHandler:(CDUnknownBlockType)arg1;
 - (id);
 - (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (_Bool)atÐ!EùqÈð1¢!0@ù
-× ;
-- (unsigned long long)ontentRectForBounds: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)itSourceApplication_Private;
-- (void);
+- (id);
+- (id);
+- (id);
 - (double);
-- (_Bool)|6ÿ»ØÉZÅf;
-- (_Bool)lþn¶Çvk;
-- (double)ml;
-- (void)ö2;
-- (id)Þ;
-- (long long)¤ÿ÷;
-- (id)ûÒÿNêÕm;
-- (struct CGAffineTransform)m;
-- (void)m;
-- (void)0aÿFk;
-- (void)ÿï#;
-- (void)ùÙ¾ým;
-- (_Bool)n;
-- (id)ÿù½ Òn;
-- (id)j;
-- (_Bool)Òwn;
-- (void)n;
-- (_Bool)ÿÝÛ`Èn;
+- (id);
 - (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)Ô ;
+- (_Bool)!Ð!FùñcÐ1Â0@ù
+× ;
+- (void)× ;
+- (struct CGAffineTransform)erDelegate>";
+- (void)wGroupOpacityAfterAnimation:(_Bool)arg1;
+- (void):(unsigned long long)arg1 auxillaryKind:isSupplementary: /* Error: Ran out of types for this method. */;
+- (_Bool)nstraintForInputViewSet:(id)arg1 hostView:containerView: /* Error: Ran out of types for this method. */;
+- (double)mAppearance;
+- (id)Entry;
+- (_Bool);
+- (id)alScrollIndicatorBaseInsets=%@, contentOffset=%@, cornerAdjust=%f, _accuracy=%f, CONTENT_MINX=%f, CONTENT_WIDTH=%f, _parentAdjustment=%@, scrollView=%@;
+- (id)onent;
+- (void)Ètþÿ;
+- (_Bool)_UIVisualEffectIsContentStaticTrait;
+- (void)èðNÿ%ßÛèV`;
+- (_Bool)G©Ó$"`;
+- (long long)¬ÿu!;
+- (void)êÿ{ÍÖ`/g;
+- (void);Õ¦g;
+- (id)ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated;

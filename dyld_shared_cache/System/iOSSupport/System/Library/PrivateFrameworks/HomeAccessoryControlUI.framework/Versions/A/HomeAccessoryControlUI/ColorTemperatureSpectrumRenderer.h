@@ -40,11 +40,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id)ÓZÿÿGÕîyADîG_G;
 - (void);
+- (void)ÿÿÿÿD;
+- (id)yAEyAAyAFyAgAy¼7;
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;

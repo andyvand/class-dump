@@ -15,18 +15,18 @@
 
 + (id);
 - (id);
-- (double);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
+- (double)16B24@?28;
+- (void);
+- (void)PàÿTR;
 - (id);
-- (id)±Wð1b0@ù
-× ;
-- (void)erlayView",&,N,S_setRoundedCornerOverlayView:(id)arg1 ,V__roundedCornerOverlayView;
-- (void)azamEventInfo;
+- (void)ÿú<ü
+;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *borderColor; // @synthesize borderColor=_borderColor;

@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (void));
 - (id);
-- (id)È;
+- (id);
+- (id)tUpdatingPower;
 - (void);
-- (id)\/;
+- (void)iÊk|6Gÿ;
 
 @end
 

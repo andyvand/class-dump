@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) long long idiom;

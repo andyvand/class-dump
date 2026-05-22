@@ -4,12 +4,12 @@
 
 // Global C++ functions
 
-operator delete(void*);
-operator delete(void*, std::align_val_t);
-operator delete[](void*);
-operator new(unsigned long);
-operator new(unsigned long, std::align_val_t);
-operator new(unsigned long, std::nothrow_t const&);
-operator new[](unsigned long);
 std::nothrow;
+void * operator new(unsigned long);
+void * operator new(unsigned long, std::align_val_t);
+void * operator new(unsigned long, std::nothrow_t const&);
+void * operator new[](unsigned long);
+void operator delete(void*);
+void operator delete(void*, std::align_val_t);
+void operator delete[](void*);
 vtable for std::__1::__assoc_sub_state;

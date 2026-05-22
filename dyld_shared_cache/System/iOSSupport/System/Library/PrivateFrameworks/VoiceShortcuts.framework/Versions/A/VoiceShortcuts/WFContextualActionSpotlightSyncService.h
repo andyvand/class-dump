@@ -25,7 +25,6 @@
 + (long long);
 - (void);
 - (void);
-- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -48,18 +47,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);

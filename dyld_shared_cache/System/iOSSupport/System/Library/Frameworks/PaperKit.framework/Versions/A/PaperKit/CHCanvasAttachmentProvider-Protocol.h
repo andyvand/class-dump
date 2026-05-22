@@ -7,7 +7,7 @@
 @class NSArray;
 
 @protocol CHCanvasAttachmentProvider
-- (NSArray *);
+- (NSArray *)Selection;
 
 // Remaining properties
 @property(readonly, copy) NSArray *attachments;

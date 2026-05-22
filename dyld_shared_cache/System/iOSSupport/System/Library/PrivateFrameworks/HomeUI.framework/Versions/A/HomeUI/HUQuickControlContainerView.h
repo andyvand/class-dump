@@ -104,15 +104,15 @@
 - (void);
 - (id);
 - (void);
-- (struct CGRect);
+- (void);
+- (id);
 - (_Bool);
 - (void);
+- (struct CGRect);
 - (void);
+- (void)&,N,V_descriptionText;
+- (void)16@?0@"HMCHIPAccessoryPairing"8;
 - (void);
-- (void);
-- (void);
-- (id)Field"32@0:8@"HUItemModuleController"16@"HFItem"24 /* Error: Ran out of types for this method. */;
-- (void)Recording Setup;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *activeControlView; // @synthesize activeControlView=_activeControlView;

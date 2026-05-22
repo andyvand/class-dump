@@ -59,15 +59,15 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (struct CGSize);
 - (void);
 - (long long);
-- (struct CGSize);
-- (id);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (struct CGPoint);
-- (void);
 - (void);
 
 // Remaining properties

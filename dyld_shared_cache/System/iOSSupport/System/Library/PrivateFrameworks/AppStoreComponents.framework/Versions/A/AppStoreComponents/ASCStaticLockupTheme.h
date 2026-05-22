@@ -56,14 +56,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (double);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

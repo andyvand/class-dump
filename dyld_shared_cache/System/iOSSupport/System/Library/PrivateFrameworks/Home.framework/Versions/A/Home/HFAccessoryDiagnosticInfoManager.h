@@ -22,14 +22,14 @@
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)erInfo:(id)arg1;
 - (void);
-- (id);
-- (void)@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *accessoryUniqueIDToDiagnosticInfoMapTable; // @synthesize accessoryUniqueIDToDiagnosticInfoMapTable=_accessoryUniqueIDToDiagnosticInfoMapTable;

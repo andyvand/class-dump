@@ -12,18 +12,18 @@
     NSUUID *_messageTargetUUID;
 }
 
-+ (id)ponse;
-+ (id)¤	;
++ (id);
++ (id)rts Resident Selection;
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)terName: /* Error: Ran out of types for this method. */;
-- (id)for accessory :%@ /* Error: Ran out of types for this method. */;
-- (id)remove face crops:%@ /* Error: Ran out of types for this method. */;
-- (id)?;
+- (id);
+- (id);
+- (id);
+- (void)øähéØéêÈêì°ðpñDô¼õ;
+- (id)ublic}@[%{public}@] Successfully handled feedback submission for clips %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

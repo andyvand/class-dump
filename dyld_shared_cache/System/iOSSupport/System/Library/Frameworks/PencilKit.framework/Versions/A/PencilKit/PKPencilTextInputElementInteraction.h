@@ -15,14 +15,14 @@
 }
 
 + (id);
-- (id)ramework/Versions/A/SiriUI;
 - (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void)atesEnabled:,V__visibilityUpdatesEnabled /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

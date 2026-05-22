@@ -30,17 +30,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (CDStruct_aa0b146f);
+- (void);
 - (void);
 
 // Remaining properties

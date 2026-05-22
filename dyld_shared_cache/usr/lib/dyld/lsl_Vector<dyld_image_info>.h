@@ -4,8 +4,11 @@
 
 class lsl::Vector<dyld_image_info> {
 public: // (access info unavailable from symbols alone)
-    insert<dyld_image_info*>(dyld_image_info const*, dyld_image_info*, dyld_image_info*);
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
-    resize(unsigned long long);
+    auto erase(dyld_image_info*);
+    auto erase(dyld_image_info*, dyld_image_info*);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
+    auto resize(unsigned long long);
+    dyld_image_info* insert<dyld_image_info*>(dyld_image_info const*, dyld_image_info*, dyld_image_info*);
+    dyld_image_info* insert<std::__1::__wrap_iter<dyld_image_info const*>>(dyld_image_info const*, std::__1::__wrap_iter<dyld_image_info const*>, std::__1::__wrap_iter<dyld_image_info const*>);
 };

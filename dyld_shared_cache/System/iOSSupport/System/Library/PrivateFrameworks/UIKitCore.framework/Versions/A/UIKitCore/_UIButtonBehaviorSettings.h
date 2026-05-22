@@ -33,14 +33,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (double);
-- (double);
 - (double);
 - (double);
 - (double);
 - (double);
-- (void);
-- (void);
-- (void);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -48,18 +45,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)@9l;
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -74,12 +74,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double)pients;
-- (double)ecentsController;
-- (_Bool)eCKRecordForUpdateT1:zoneID:salt: /* Error: Ran out of types for this method. */;
-- (_Bool)ontext: /* Error: Ran out of types for this method. */;
-- (_Bool)odedSystemFields;
-- (void)edItem;
+- (double);
+- (double);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)ustomizationIdentifier:inDefaultCustomization:representativeItem:items: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double closeButtonMinSize; // @synthesize closeButtonMinSize=_closeButtonMinSize;

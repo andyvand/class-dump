@@ -146,7 +146,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)"NSNumber",C,N,V_allPhotosLibraryPreferredIndividualItemsColumns;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canContainAssets;

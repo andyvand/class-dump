@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (id)ved remote file request %@;
 - (id);
+- (id)á¤i;
 
 @end
 

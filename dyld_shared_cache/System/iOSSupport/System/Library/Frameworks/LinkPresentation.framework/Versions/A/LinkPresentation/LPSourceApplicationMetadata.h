@@ -13,19 +13,20 @@
     LPImage *_icon;
 }
 
-+ (_Bool)sSpaceAffordanceForDeleteButton;
++ (_Bool);
+- (id);
 - (void);
 - (id);
-- (void)ը;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)p;
-- (id);
-- (void)veCloudShareInfo;
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)Á÷ð!ìAùQ°1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

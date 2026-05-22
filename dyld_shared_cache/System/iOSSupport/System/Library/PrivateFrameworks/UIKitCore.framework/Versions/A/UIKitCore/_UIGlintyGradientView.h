@@ -13,9 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
-- (id);
-- (id)ompleteWidth;
++ (Class);
+- (id)Â0@ù
+× ;
+- (id)ineObjectTraitWithName:(struct CGRect)arg1 identifier:defaultValue:affectsColorAppearance:defaultValueRepresentsUnspecified:isPrivate:placeholderToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CAGradientLayer *gradientLayer;

@@ -5,7 +5,6 @@
 //
 
 @protocol SWInteraction
-- (void),R,N,V_colorTexCoordAttribute;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long type;

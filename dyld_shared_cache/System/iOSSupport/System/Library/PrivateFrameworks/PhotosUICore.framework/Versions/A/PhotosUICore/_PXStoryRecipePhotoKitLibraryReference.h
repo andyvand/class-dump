@@ -12,9 +12,8 @@
 }
 
 - (id);
-- (void)HÈ;
-- (id)	
-;
+- (id);
+- (void)yEmptyWallpaperTitle;
 - (id);
 
 // Remaining properties

@@ -7,7 +7,7 @@
 @class NSArray, NSString, UIColor;
 
 @protocol PRPosterContentStyle
-- (id)xtension/%@;
+- (id)PRPosterDescriptorGalleryOptions";
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

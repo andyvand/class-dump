@@ -5,9 +5,5 @@
 //
 
 @protocol UITextFieldDelegate
-
-@optional
-- (void)N�;
-- (void);
 @end
 

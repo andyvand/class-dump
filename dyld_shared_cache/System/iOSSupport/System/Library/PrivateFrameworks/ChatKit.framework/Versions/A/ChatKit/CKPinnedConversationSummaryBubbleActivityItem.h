@@ -15,22 +15,21 @@
     NSAttributedString *_summaryText;
 }
 
-- (id)ID;
-- (id)lwaysUsesSmallSize;
-- (id)n;
-- (id)i;
 - (id);
-- (id), color:%@, aboveExistingHighlights:%@, removedOnCompletion:%@> /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (double);
 - (_Bool);
-- (id);
 - (id);
+- (id);
+- (id)contentViewHorizontalInsetForPillCornerRadius;
 - (void);
-- (id)0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;

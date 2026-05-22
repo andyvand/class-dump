@@ -7,9 +7,11 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol FCPersonalizationAggregate
-- (double);
+- (unsigned long long)leAccessProvider;
+- (double)ü;
+- (NSDictionary *)xÄëÿÆëÿhÇëÿÈëÿPÊëÿ|Ìëÿ0Îëÿ(ÖëÿØÖëÿÜÚëÿàëÿdáëÿ¬ãëÿÄåëÿ@æëÿæëÿçëÿÈéëÿtëëÿíëÿ,òëÿxòëÿü÷ëÿ¨øëÿàùëÿPûëÿüëÿ0ÿëÿhìÿìÿ ìÿDìÿìÿ ìÿ¸ìÿðìÿ¼	ìÿðìÿXìÿlìÿünìÿoìÿrìÿ¬wìÿÜwìÿyìÿ°zìÿX{ìÿ ìÿ°ìÿ,ìÿ8ìÿ|ìÿäìÿ8ìÿ4ìÿ\ìÿ¼ìÿìÿìÿìÿèìÿ¤ìÿÌìÿp ìÿ`¡ìÿ(¢ìÿ£ìÿP¤ìÿÈªìÿ0¬ìÿ¤¬ìÿ\­ìÿd®ìÿ8¯ìÿh°ìÿø³ìÿLµìÿ°¶ìÿ,¹ìÿìºìÿl¼ìÿÌ¿ìÿÐÀìÿÂìÿpÂìÿÈìÿ¸ËìÿèÏìÿÑìÿìÑìÿDÒìÿäÓìÿ4Öìÿp×ìÿXØìÿÙìÿÚìÿÛìÿÛìÿÄÞìÿáìÿâìÿäìÿåìÿ éìÿëìÿ ììÿíìÿðìÿ¨òìÿ\÷ìÿDøìÿðøìÿ;
 - (double);
-- (double);
+- (double)?;
 
 // Remaining properties
 @property(readonly, nonatomic) double clicks;

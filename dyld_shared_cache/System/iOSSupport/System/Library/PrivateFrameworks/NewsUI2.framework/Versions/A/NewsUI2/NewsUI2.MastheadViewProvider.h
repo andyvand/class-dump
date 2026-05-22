@@ -23,9 +23,9 @@
 }
 
 - (void);
-- (void)x;
+- (id);
 - (void);
-- (id);
+- (void);
 
 @end
 

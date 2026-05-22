@@ -26,10 +26,11 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (id)50@ù
+× ;
+- (void)24@?0@"NSString"8Q16;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

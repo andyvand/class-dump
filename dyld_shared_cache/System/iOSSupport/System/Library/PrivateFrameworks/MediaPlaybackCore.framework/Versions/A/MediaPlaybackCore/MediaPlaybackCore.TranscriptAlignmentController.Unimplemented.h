@@ -15,10 +15,10 @@
 + (unsigned int);
 + (void);
 + (id);
-- (void)@?48;
-- (void)erfaceWithProtocol:(id)arg1;
+- (void);
 - (void);
 - (id);
+- (void)completed with error %@;
 
 @end
 

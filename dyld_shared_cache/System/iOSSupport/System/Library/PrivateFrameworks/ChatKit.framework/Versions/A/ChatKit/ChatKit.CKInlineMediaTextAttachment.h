@@ -14,18 +14,18 @@
     MISSING_TYPE *delegate;
 }
 
-+ (_Bool)ÅÍÿÔ34àÃ;
++ (_Bool)sets;
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)heics;
 
 // Remaining properties
 @property(nonatomic, retain) UIImage *image;

@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (CDUnknownBlockType);
-- (void)orBundleIdentifiers:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)ultsAboutChange:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)ctionParameterDefinitions_block_invoke_2;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

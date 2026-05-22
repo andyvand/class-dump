@@ -12,9 +12,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (_Bool);
 - (void);
 - (void);
@@ -50,10 +50,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
 - (id);
-- (id)onAttributes:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

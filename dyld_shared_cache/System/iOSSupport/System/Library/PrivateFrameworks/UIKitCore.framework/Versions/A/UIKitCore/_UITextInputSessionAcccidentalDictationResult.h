@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     _UITextInputSessionKeyboardDockItemButtonPressAction *_triggerAction;
 }
 
-- (void)8@"NSError"12;
-- (id);
 - (void);
-- (unsigned long long)32;
-- (void)IKeyboardEmoji;
+- (id);
+- (unsigned long long)dEnd;
+- (void)CollectionViewLayoutAttributes instance for -layoutAttributesForItemAtIndexPath:(unsigned long long)arg1 %@;
+- (void)tableVectorP;
 
 // Remaining properties
 @property(nonatomic) unsigned long long result; // @synthesize result=_result;

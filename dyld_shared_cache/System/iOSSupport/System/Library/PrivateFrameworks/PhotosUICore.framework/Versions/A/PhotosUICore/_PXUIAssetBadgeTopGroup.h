@@ -33,18 +33,19 @@
 - (id);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
-- (void);
+- (id);
 - (struct CGRect);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)0@ù
+- (id)¡ûÐ!EùñH°1â
+0@ù
 × ;
+- (void)fAsset:(struct CGRect)arg1 withSnapshotOptions:snapshotTraitCollection:andCompletion: /* Error: Ran out of types for this method. */;
+- (void)ataSourceStylesAttributes;
+- (void);
+- (id)ly as iCloud Photos is exiting;
+- (void)sonUri;
+- (void)agnostics;
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

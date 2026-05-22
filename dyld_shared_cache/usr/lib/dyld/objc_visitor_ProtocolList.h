@@ -4,11 +4,11 @@
 
 class objc_visitor::ProtocolList {
 public: // (access info unavailable from symbols alone)
-    dump(objc_visitor::Visitor const&) const;
-    getProtocolField(objc_visitor::Visitor const&, unsigned long long) const;
-    getProtocolField(objc_visitor::Visitor const&, unsigned long long) const (.cold.1);
-    getProtocolField(objc_visitor::Visitor const&, unsigned long long) const (.cold.2);
-    getProtocolField(objc_visitor::Visitor const&, unsigned long long) const (.cold.3);
-    numProtocols(objc_visitor::Visitor const&) const;
-    numProtocols(objc_visitor::Visitor const&) const (.cold.1);
+    auto dump(objc_visitor::Visitor const&) const;
+    auto getProtocolField(objc_visitor::Visitor const&, unsigned long long) const;
+    auto getProtocolField(objc_visitor::Visitor const&, unsigned long long) const (.cold.1);
+    auto getProtocolField(objc_visitor::Visitor const&, unsigned long long) const (.cold.2);
+    auto getProtocolField(objc_visitor::Visitor const&, unsigned long long) const (.cold.3);
+    auto numProtocols(objc_visitor::Visitor const&) const;
+    auto numProtocols(objc_visitor::Visitor const&) const (.cold.1);
 };

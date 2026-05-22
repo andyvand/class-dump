@@ -36,17 +36,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)ailDataSourceDelegate>";
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)A
-Ð!èDùq,Ð1¢!0@ù
-× ;
 
 // Remaining properties
 @property(retain) NSString *bookmarkableString; // @synthesize bookmarkableString=_bookmarkableString;

@@ -31,9 +31,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)ñµ
-Ð1b0@ù
-× ;
+- (void)martChargeClientHelper temporarilyOverrideMCLTargetSoC:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <WFSaveDropboxFileActionUserInterface> actionUserInterface; // @synthesize actionUserInterface=_actionUserInterface;

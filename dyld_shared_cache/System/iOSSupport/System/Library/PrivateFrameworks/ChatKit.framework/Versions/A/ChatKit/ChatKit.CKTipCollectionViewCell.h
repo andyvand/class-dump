@@ -13,12 +13,12 @@
 
 + (id);
 - (void);
-- (void)attachment:(id)arg1 %@;
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) UIView *miniTipUIView; // @synthesize miniTipUIView;

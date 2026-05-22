@@ -5,12 +5,5 @@
 //
 
 @protocol UITabBarDelegate
-
-@optional
-- (void)ted %@ (required=%d, matching=%d);
-- (void)ing manifest (ignored);
-- (void)ailed to get property %@ from sealing manifest (ignored);
-- (void)from sealing manifest (required=%d, matching=%d);
-- (void)aledDataGetSikOverride;
 @end
 

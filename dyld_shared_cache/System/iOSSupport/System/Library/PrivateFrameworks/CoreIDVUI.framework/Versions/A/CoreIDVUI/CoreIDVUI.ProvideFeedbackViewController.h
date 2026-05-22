@@ -14,8 +14,8 @@
     MISSING_TYPE *continuation;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

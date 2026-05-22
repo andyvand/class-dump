@@ -7,8 +7,8 @@
 @class MPCPlayerAudioFormat, MPCPlayerAudioRoute, NSArray;
 
 @protocol MPCPlayerResponseItemMusicAudio
-- (unsigned long long)System.B.dylib;
 - (MPCPlayerAudioFormat *);
+- (MPCPlayerAudioFormat *)¬BÏÿÿÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCPlayerAudioFormat *activeFormat;

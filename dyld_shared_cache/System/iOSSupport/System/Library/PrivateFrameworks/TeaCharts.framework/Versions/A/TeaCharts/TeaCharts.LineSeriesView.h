@@ -12,10 +12,10 @@
     MISSING_TYPE *zoneLineViews;
 }
 
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

@@ -47,13 +47,13 @@
 - (long long);
 - (void);
 - (_Bool);
-- (void)portConcernButtonView";
+- (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)rt;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *completionHandlers; // @synthesize completionHandlers=_completionHandlers;

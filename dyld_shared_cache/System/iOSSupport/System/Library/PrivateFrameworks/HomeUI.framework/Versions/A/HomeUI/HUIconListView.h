@@ -22,9 +22,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)OnboardingView.NaturalLighting.SetUp.DetailsLabel;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *iconDescriptors; // @synthesize iconDescriptors=_iconDescriptors;

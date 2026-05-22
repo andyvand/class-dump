@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (id);
-- (id)__TEXT;
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned int isRequired; // @synthesize isRequired=_isRequired;

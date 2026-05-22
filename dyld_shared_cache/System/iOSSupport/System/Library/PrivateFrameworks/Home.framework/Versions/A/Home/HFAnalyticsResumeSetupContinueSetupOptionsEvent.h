@@ -16,11 +16,11 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)ectly.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessoryType; // @synthesize accessoryType=_accessoryType;

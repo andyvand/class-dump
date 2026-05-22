@@ -7,7 +7,8 @@
 @class NSURL;
 
 @protocol _UIFeedbackFilePlayable_Internal
-- (NSURL *)Shape;
+- (NSURL *)u§»é»ý@{®Gáz´?×£p=
+×ï?;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *fileURL;

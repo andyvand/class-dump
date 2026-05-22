@@ -39,12 +39,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)dArticlesMaximumCountWiFi;
 - (id);
-- (id)q}16{?=qq}32d48@?56;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)ForObject: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUURLHandling> URLHandler; // @synthesize URLHandler=_URLHandler;

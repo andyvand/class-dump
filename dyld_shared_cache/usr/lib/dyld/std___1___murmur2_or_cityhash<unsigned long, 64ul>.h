@@ -4,8 +4,8 @@
 
 class std::__1::__murmur2_or_cityhash<unsigned long, 64ul> {
 public: // (access info unavailable from symbols alone)
-    __hash_len_0_to_16[abi:nn200100](char const*, unsigned long);
-    __hash_len_17_to_32[abi:nn200100](char const*, unsigned long);
-    __hash_len_33_to_64[abi:nn200100](char const*, unsigned long);
-    operator()[abi:nn200100](void const*, unsigned long) const;
+    auto __hash_len_0_to_16[abi:nqn210106](char const*, unsigned long);
+    auto __hash_len_17_to_32[abi:nqn210106](char const*, unsigned long);
+    auto __hash_len_33_to_64[abi:nqn210106](char const*, unsigned long);
+    auto operator()[abi:nqn210106](void const*, unsigned long) const;
 };

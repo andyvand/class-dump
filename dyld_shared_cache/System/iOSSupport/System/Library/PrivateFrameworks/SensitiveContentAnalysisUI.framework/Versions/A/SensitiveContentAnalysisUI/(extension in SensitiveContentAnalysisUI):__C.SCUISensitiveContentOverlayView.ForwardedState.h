@@ -11,9 +11,9 @@
     MISSING_TYPE *options;
     MISSING_TYPE *_kind;
     MISSING_TYPE *_kinds;
+    MISSING_TYPE *_streams;
     MISSING_TYPE *_contentDescription;
     MISSING_TYPE *_analysis;
-    MISSING_TYPE *_layout;
     MISSING_TYPE *_wrapper;
     MISSING_TYPE *_isShieldUp;
     MISSING_TYPE *_$observationRegistrar;

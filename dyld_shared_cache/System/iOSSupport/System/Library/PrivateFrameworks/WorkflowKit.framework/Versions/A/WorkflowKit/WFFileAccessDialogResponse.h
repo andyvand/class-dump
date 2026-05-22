@@ -13,16 +13,16 @@
 }
 
 + (_Bool);
-+ (_Bool)xtOffset;
++ (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void)es,Enabled(1),AssertionType(I Leave);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;

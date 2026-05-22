@@ -12,18 +12,18 @@
 }
 
 + (id);
-- (void)z;
-- (id);
-- (id);
-- (id);
-- (_Bool)i;
 - (void);
-- (void)I|l;
-- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
+- (void);
 
 @end
 

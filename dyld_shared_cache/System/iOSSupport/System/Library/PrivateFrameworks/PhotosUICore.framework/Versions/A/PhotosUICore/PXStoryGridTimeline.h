@@ -24,8 +24,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (struct CGSize);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXExploreLayoutGenerator *layoutGenerator; // @synthesize layoutGenerator=_layoutGenerator;

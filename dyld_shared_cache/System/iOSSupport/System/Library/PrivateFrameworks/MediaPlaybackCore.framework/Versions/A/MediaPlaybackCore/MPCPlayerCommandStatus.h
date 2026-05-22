@@ -13,17 +13,17 @@
     MPRemoteCommandStatus *_status;
 }
 
-- (id)etion:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
+- (void)â   â step:%{public}-28@ [%0.3f] /* Error: Ran out of types for this method. */;
 - (long long);
-- (id)]-âï¸MPCErrorControllerImplementation %p <%{public}@> - Unrecoverable failure [subscription required for playback] - Proposed resolution:%{public}@ - canResolve:%{BOOL}u - errorForResolution:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *customData;

@@ -5,8 +5,8 @@
 //
 
 @protocol PXCuratedLibraryOverlayButtonSpec
-- (_Bool)osVirtualCollection;
-- (long long);
+- (_Bool)<PXPeopleBootstrapFlowDelegate>",&,N,V_bootstrapDelegate;
+- (long long)itor();
 
 // Remaining properties
 @property(readonly, nonatomic) double buttonHeight;

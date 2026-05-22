@@ -4,8 +4,8 @@
 
 class GLDSamplerRec {
 public: // (access info unavailable from symbols alone)
-    dealloc();
-    initWithShareGroup(GLDShareGroupRec*, GLDSamplerStateRec const*, GLDPluginSamplerStateRec*);
-    update(unsigned int);
+    auto dealloc();
+    auto initWithShareGroup(GLDShareGroupRec*, GLDSamplerStateRec const*, GLDPluginSamplerStateRec*);
+    auto update(unsigned int);
     ~GLDSamplerRec();
 };

@@ -19,14 +19,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (CDUnknownBlockType);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id)ition"8@?0;
+- (void);
+- (id)legate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager; // @synthesize appConfigurationManager=_appConfigurationManager;

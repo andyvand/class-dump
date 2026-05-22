@@ -15,23 +15,25 @@ __attribute__((visibility("hidden")))
     struct CGPoint _translation;
 }
 
-+ (_Bool)(¢sÿ'\;
++ (_Bool)leInputBars:%@
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (_Bool);
+- (struct CGPoint);
+- (unsigned long long);
 - (id);
-- (unsigned long long)
+- (unsigned long long);
+- (void)ñ]1Â0@ù
 × ;
-- (struct CGPoint)× ;
-- (long long)tionStateComponent;
-- (unsigned long long)Groups: /* Error: Ran out of types for this method. */;
-- (void)ackAlignmentFrame;
-- (long long)it;
-- (void)ug4¬rdþug4Àhþ½g4Ärdþõg4ÌrdþÅg4Ürdþ;
-- (_Bool)â`;
+- (long long);
+- (long long)0@ù
+× ;
+- (_Bool)w:(id)arg1;
+- (void)s:(id)arg1;
+- (void)UITextViewCommonMethods;
+- (_Bool)§Í;
 
 // Remaining properties
 @property(nonatomic) unsigned long long flickDirection; // @synthesize flickDirection=_flickDirection;

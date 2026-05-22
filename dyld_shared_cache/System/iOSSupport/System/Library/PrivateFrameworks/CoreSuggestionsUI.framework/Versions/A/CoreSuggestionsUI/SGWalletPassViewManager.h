@@ -15,12 +15,12 @@
 - (double);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)SGFoundInSuggestionPresenter - Load %{public}lu extractions (after filtering);
 
 // Remaining properties
 @property(readonly, nonatomic) PKPass *pass; // @synthesize pass=_pass;

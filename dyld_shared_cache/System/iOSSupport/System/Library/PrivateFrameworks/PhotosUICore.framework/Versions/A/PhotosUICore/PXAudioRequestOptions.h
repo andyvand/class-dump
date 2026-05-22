@@ -21,18 +21,18 @@
 - (CDStruct_1b6d18a9);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
+- (long long);
+- (CDStruct_1b6d18a9);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (CDStruct_1b6d18a9);
-- (id);
+- (id)^v}304@"<NSObject>"496;
 - (void);
-- (void);
-- (CDStruct_1b6d18a9);
-- (id);
-- (long long)cationPhotosSavedTitleFormat;
-- (void)Ú­ÿ.¿;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXAudioAssetEntryPoint> entryPoint; // @synthesize entryPoint=_entryPoint;

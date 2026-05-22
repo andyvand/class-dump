@@ -15,10 +15,10 @@
 
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (_Bool)ÉÓ¡Â;
+- (void);
+- (void)wDelegate;
+- (_Bool)ó§ÿÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayTitle; // @synthesize displayTitle=_displayTitle;

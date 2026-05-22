@@ -8,13 +8,13 @@
 {
 }
 
-- (oneway void);
-- (_Bool);
+- (unsigned long long);
+- (oneway void);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (unsigned long long);
 - (void);
+- (_Bool);
 
 @end
 

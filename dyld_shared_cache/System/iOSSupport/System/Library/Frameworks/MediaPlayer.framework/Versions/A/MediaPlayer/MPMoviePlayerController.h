@@ -23,7 +23,7 @@
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -40,12 +40,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
+- (long long);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (double);
-- (void);
-- (long long);
 - (void);
 - (void);
 - (double);
@@ -63,29 +63,29 @@
 - (_Bool);
 - (id);
 - (id);
-- (long long)ationID;
-- (void):(long long)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (long long);
 - (void);
 - (void);
 - (void);
-- (long long)r:content:dateSent:sender:recipients:groupName:messageType:serviceName: /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
+- (long long);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (double);
+- (long long);
+- (void);
 - (id);
 - (void);
-- (unsigned long long)6;
-- (void);
-- (double)ateProgressWithCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)eAccess:(id)arg1;
-- (_Bool)eRoutingDataSource] Received active audio route did change notification:%{public}@ /* Error: Ran out of types for this method. */;
-- (long long)roller.m;
-- (struct CGSize);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void)k;
+- (void)is_itunes_store_stream FROM hls_assets WHERE identifier = @identifier AND hashed_person_id = @hashedPersonID AND url_expiration_date > @now;
+- (struct CGSize)lRelationshipGenericTVShow;
+- (unsigned long long)ID;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAirPlayVideoActive) _Bool airPlayVideoActive;

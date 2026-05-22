@@ -30,20 +30,19 @@
     MISSING_TYPE *observableState;
 }
 
-+ (_Bool)ticInput;
-- (void);
-- (id);
-- (void);
++ (_Bool);
 - (void);
 - (id);
-- (void)pGÚ¹;
-- (void)!ôDù±Äð1¢!0@ù
-× ;
-- (id)groundImage:(struct CGPoint)arg1;
-- (id)äø°;
-- (struct UIEdgeInsets)ron.down;
-- (_Bool)";
 - (id);
+- (void);
+- (id)ontPickerViewControllerDelegate>";
+- (id)rtLoadWithRequest:(struct CGRect)arg1 navigationType: /* Error: Ran out of types for this method. */;
+- (void)hes;
+- (id)PickerMode_DateWithOptionalYear;
+- (void)nvoke;
+- (void)íl	m;
+- (struct UIEdgeInsets)M;
+- (_Bool)þòÊ×r;
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets alignmentRectInsets;

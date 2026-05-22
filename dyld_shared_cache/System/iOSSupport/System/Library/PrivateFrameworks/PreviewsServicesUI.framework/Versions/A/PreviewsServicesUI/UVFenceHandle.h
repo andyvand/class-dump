@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
 - (id);
 - (void);
-- (id)ext: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

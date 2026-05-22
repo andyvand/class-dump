@@ -35,12 +35,11 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void)c;
 - (id);
-- (id)0@ù
-× ;
-- (id)Nullable __strong, NSString *__strong _Nonnull);
 - (id);
+- (id)numberOfSectionsWithEnrichmentState: /* Error: Ran out of types for this method. */;
+- (void).PXUpdateBookmarksOrderAction;
+- (id)n;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *memoryLocalIdentifiersToAvoid; // @synthesize memoryLocalIdentifiersToAvoid=_memoryLocalIdentifiersToAvoid;

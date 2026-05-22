@@ -4,7 +4,7 @@
 
 class std::__1::vector<unsigned short, std::__1::allocator<unsigned short>> {
 public: // (access info unavailable from symbols alone)
-    __append(unsigned long);
-    __throw_length_error[abi:ne200100]();
-    resize(unsigned long);
+    auto __append(unsigned long);
+    auto __throw_length_error[abi:nqe210106]();
+    auto resize(unsigned long);
 };

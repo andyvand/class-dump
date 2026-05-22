@@ -27,21 +27,21 @@
 - (void);
 - (double);
 - (unsigned long long);
-- (id);
-- (double);
-- (double);
-- (double);
+- (void);
 - (_Bool);
+- (id);
+- (double);
+- (double);
+- (void);
+- (double);
 - (void);
 - (void);
-- (void);
+- (long long);
 - (void);
 - (id);
-- (long long);
-- (double);
 - (unsigned int);
-- (void)XAssetActionTypeRemove;
-- (void)Options;
+- (void);
+- (double)endingIndexPath;
 
 // Remaining properties
 @property(nonatomic) _Bool isHighFrameRateActive; // @synthesize isHighFrameRateActive=_isHighFrameRateActive;

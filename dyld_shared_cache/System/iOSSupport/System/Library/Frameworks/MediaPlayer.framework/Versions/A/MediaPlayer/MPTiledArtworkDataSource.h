@@ -16,26 +16,26 @@
     NSOperationQueue *_tilingArtworkCatalogOperationQueue;
 }
 
-+ (struct CGSize)nitWithIDSHandle:(struct CGSize)arg1 locationChangeType:(unsigned long long)arg2;
-+ (id)identifier:(id)arg1 privateStreamBasePath:(_Bool)arg2 eventDataClass: /* Error: Ran out of types for this method. */;
-+ (id)ourceId:(id)arg1 intentClass:intentVerb:intentType:intentHandlingStatus:interaction:itemID: /* Error: Ran out of types for this method. */;
++ (struct CGSize);
++ (id);
++ (id);
 + (id);
 + (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (id);
 - (void);
-- (id)%@;
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void)tsMap;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

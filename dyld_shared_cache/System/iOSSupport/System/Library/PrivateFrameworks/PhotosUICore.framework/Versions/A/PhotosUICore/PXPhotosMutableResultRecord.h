@@ -67,14 +67,15 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool)Poøÿjxûÿ;
+- (id)0@ù
+× ;
+- (void)PXTilingController"16@"PXTilingChange"24;
+- (void)rce",&,N,V_presentedDataSource;
+- (id)thClipComposition;
+- (void)¼ëvÿ0ìvÿÁ`;
 
 // Remaining properties
 @property(retain, nonatomic) PHFetchResult *curatedFetchResult; // @synthesize curatedFetchResult=_curatedFetchResult;

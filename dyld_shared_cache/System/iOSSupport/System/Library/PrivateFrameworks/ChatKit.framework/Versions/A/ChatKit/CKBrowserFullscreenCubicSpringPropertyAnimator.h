@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)G;
+- (id)hatGuid %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

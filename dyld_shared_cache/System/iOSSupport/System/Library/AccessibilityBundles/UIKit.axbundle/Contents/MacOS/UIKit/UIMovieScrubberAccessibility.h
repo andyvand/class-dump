@@ -10,9 +10,9 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (_Bool);
@@ -26,11 +26,11 @@
 - (long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (_Bool)ingTabBarItemViewAccessibility;
 
 @end
 

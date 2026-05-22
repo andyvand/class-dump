@@ -27,9 +27,9 @@
 - (void);
 - (id);
 - (id);
+- (id)\»D¼T¿xÀ;
 - (void);
-- (id);
-- (void)allbackTransitionKind: /* Error: Ran out of types for this method. */;
+- (void)P'ù7;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_string; // @synthesize _string=__string;

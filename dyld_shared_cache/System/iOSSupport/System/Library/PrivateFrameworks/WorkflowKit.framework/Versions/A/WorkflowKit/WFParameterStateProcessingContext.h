@@ -26,8 +26,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (long long);
+- (long long)minimumValue;
+- (void)ount;
 
 // Remaining properties
 @property(readonly, nonatomic) WFContentAttributionTracker *contentAttributionTracker; // @synthesize contentAttributionTracker=_contentAttributionTracker;

@@ -12,41 +12,41 @@
     CTXPCServiceSubscriptionInfo *_subscriptionInfo;
 }
 
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)yPartIndex;
-- (id)f4;
-- (id)r;
-- (id)¸5|bÐÿ;
+- (id)X;
+- (void)s30RemoteIntentRequestDispatchingP;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *phoneNumbersOfActiveSubscriptions; // @synthesize phoneNumbersOfActiveSubscriptions=_phoneNumbersOfActiveSubscriptions;

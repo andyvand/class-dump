@@ -4,22 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAcceptedContactsChangeNotifier, NSCache, NSData;
+@class IMAcceptedContactsChangeNotifier, NSCache, NSData, NSObject, NSString;
+@protocol IMDCNContactStore, IMDIndexingQueries, OS_dispatch_queue;
 
 @interface IMDContactCache
 {
     NSData *_currentHistoryToken;
+    id <IMDCNContactStore> _contactStore;
+    id <IMDIndexingQueries> _indexingProvider;
+    NSObject<OS_dispatch_queue> *_queue;
+    CDUnknownBlockType _fullChangeBlock;
     NSCache *_cache;
     NSCache *_fullNameCache;
     IMAcceptedContactsChangeNotifier *_acceptedContactsChangeNotifier;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (id);
-+ (id)àØì1úÿàØ|êøÿ­ßØ2úÿeßØ¬êøÿÝÞØÐêøÿÍÞØàêøÿÕÞØðêøÿÕÞØëøÿÕÞØ(ëøÿåÞØ<ëøÿåÞØ`ëøÿåÞØëøÿåÞØ¨ëøÿíÞØ¼ëøÿ­ÞØÐëøÿÕÞØäëøÿÝÞØ0ìøÿÝÞØ|ìøÿÝÞØÐìøÿÝÞØäìøÿÞØøìøÿ-ÞØ1úÿÞØ¤1úÿ5ÞØ 1úÿ%ÞØ1úÿ;
++ (id)rs:%@ on services:%@  skipping:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -29,25 +47,40 @@
 - (void);
 - (void);
 - (void);
+- (CDUnknownBlockType);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)ogEntry;
-- (void)rokeAcceptanceState rejecting stroke. targetSearchFailed:%@, targetSearchSatisfied:%@, targetSearchTimedOut:%@, timeSinceStart:%0.3f, cancelTime:%0.3f /* Error: Ran out of types for this method. */;
 - (id);
-- (void)chatStyle ;
-- (void)ON chat_message_join.message_id = message.rowid JOIN chat ON chat.rowid = chat_message_join.chat_id ;
-- (id)e;
+- (void);
+- (void)ngDescriptors:(id)arg1 inChatsFilteredUsingPredicate:fromHandlesUsingPredicate:parentedOnly:limit:completionHandler: /* Error: Ran out of types for this method. */;
+- (void), falling back to service lookup;
+- (id)ge_processing_task_idx_guid_task_flags;
+- (id)gBUenMtSYK4MPyVjsThvFQkdoFwfn9C-p8/Library/Caches/com.apple.xbs/TemporaryDirectory.BjhHsK/Sources/MessagesCore_iosmac/IMCore/IMDPersistence/Source/IMDSqlStatement.m;
 
 // Remaining properties
 @property(retain, nonatomic) IMAcceptedContactsChangeNotifier *acceptedContactsChangeNotifier; // @synthesize acceptedContactsChangeNotifier=_acceptedContactsChangeNotifier;
 @property(retain, nonatomic) NSCache *cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
+@property(readonly, nonatomic) id <IMDCNContactStore> contactStore; // @synthesize contactStore=_contactStore;
+@property(readonly, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
+@property(copy, nonatomic) CDUnknownBlockType fullChangeBlock; // @synthesize fullChangeBlock=_fullChangeBlock;
 @property(retain, nonatomic) NSCache *fullNameCache; // @synthesize fullNameCache=_fullNameCache;
+@property(readonly) unsigned long long hash;
+@property(readonly, nonatomic) id <IMDIndexingQueries> indexingProvider; // @synthesize indexingProvider=_indexingProvider;
+@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
+@property(readonly) Class superclass;
 
 @end
 

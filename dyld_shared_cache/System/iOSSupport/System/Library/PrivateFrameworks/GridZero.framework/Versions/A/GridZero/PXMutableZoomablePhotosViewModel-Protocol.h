@@ -29,7 +29,6 @@
 @property(nonatomic) _Bool layoutExtendsContentBelowBounds;
 @property(nonatomic) _Bool lowMemoryMode;
 @property(retain, nonatomic) PXAssetReference *miniModeAnchorAssetReference;
-@property(nonatomic) struct PXSimpleIndexPath sectionIndexPath;
 @property(nonatomic) _Bool showSensitiveWarningBadges;
 @property(nonatomic) _Bool useLowMemoryDecode;
 @property(nonatomic) _Bool viewBasedDecorationsEnabled;

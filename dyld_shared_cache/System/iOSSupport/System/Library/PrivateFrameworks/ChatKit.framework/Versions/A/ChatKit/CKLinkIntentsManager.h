@@ -12,13 +12,13 @@
     MISSING_TYPE *chatController;
 }
 
-+ (id)";
++ (id)ned;
 - (void);
-- (void)cer processIndexableContentWithCompletion:(id)arg1 ]_block_invoke;
-- (void)ged drawing;
+- (void);
 - (void);
 - (void);
 - (id);
+- (void)SharingSection;
 
 @end
 

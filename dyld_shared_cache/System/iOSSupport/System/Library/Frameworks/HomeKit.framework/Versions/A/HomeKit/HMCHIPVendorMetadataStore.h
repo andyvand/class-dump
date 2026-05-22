@@ -13,16 +13,16 @@
     NSUUID *_uuid;
 }
 
-+ (id)teristic;
-- (void);
++ (id)8-2998-49E3-AC95-E3969BE2957C;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)121-0000-1000-8000-0026BB765291;
-- (id)Ý õ;
+- (id);
+- (id);
+- (void)eforeSignificantEvent:(id)arg1;
+- (void)¸;
 
 // Remaining properties
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;

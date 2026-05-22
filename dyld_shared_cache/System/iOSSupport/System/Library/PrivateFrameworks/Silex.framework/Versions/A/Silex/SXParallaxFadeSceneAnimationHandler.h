@@ -30,9 +30,9 @@
 - (double);
 - (void);
 - (void);
-- (void);
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
 - (void)0@ù
 × ;

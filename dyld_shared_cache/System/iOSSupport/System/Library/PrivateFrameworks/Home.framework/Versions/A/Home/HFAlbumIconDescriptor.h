@@ -14,14 +14,14 @@
 
 - (_Bool);
 - (id);
-- (unsigned long long);
 - (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (id);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (void)haracteristicTitleBrightness;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

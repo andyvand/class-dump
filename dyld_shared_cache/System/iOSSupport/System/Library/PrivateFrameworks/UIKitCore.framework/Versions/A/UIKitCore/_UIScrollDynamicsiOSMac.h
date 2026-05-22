@@ -25,10 +25,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (struct CGVector)eRepresentation for SNClassificationResult;
-- (struct CGPoint);
-- (double);
-- (id)pIndexOverlayManagerIfNecessary;
+- (struct CGVector);
+- (struct CGPoint);
+- (double);
+- (id);
 
 @end
 

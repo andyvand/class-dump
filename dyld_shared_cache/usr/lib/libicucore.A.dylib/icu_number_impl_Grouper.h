@@ -4,10 +4,10 @@
 
 class icu::number::impl::Grouper {
 public: // (access info unavailable from symbols alone)
-    forProperties(icu::number::impl::DecimalFormatProperties const&);
-    forStrategy(UNumberGroupingStrategy);
-    getPrimary() const;
-    getSecondary() const;
-    groupAtPosition(int, icu::number::impl::DecimalQuantity const&) const;
-    setLocaleData(icu::number::impl::ParsedPatternInfo const&, icu::Locale const&);
+    auto forProperties(icu::number::impl::DecimalFormatProperties const&);
+    auto forStrategy(UNumberGroupingStrategy);
+    auto getPrimary() const;
+    auto getSecondary() const;
+    auto groupAtPosition(int, icu::number::impl::DecimalQuantity const&) const;
+    auto setLocaleData(icu::number::impl::ParsedPatternInfo const&, icu::Locale const&);
 };

@@ -15,14 +15,14 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void)Ømyl¬Ö0%EÉ;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)low.actions.image.rotate;
 
 // Remaining properties
 @property(readonly, nonatomic) WFWorkflowRunningContext *runningContext; // @synthesize runningContext=_runningContext;

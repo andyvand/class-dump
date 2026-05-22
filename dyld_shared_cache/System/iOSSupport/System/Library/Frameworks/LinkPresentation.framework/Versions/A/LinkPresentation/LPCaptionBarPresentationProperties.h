@@ -44,7 +44,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (void);
 - (void);
@@ -56,8 +56,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)q!;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -86,20 +86,20 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)hUpgrade:(id)arg1;
-- (id)espace;
-- (void);
-- (void)0;
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (id)MediaHorizontalEdges: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)¨";
+- (id)$;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) LPCaptionRowPresentationProperties *aboveTop;

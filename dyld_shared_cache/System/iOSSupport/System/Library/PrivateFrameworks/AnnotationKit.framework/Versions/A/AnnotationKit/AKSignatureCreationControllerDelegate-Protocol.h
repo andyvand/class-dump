@@ -5,9 +5,5 @@
 //
 
 @protocol AKSignatureCreationControllerDelegate
-- (void);
-
-@optional
-- (void)reBeacon;
 @end
 

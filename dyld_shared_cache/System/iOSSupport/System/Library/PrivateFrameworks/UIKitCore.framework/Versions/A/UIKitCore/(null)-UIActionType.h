@@ -5,7 +5,7 @@
 //
 
 @interface (null) (UIActionType)
-- (long long)boardPreferredNonASCIICapableInputMode;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long UIActionType;

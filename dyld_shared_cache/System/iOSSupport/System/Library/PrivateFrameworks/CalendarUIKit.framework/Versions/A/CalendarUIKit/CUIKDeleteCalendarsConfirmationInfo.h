@@ -15,16 +15,15 @@
 }
 
 - (id);
-- (void)R;
-- (id);
-- (void)r;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
-- (void)0@ù
-× ;
+- (id);
+- (void);
+- (void);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dialog; // @synthesize dialog=_dialog;

@@ -10,17 +10,17 @@
 {
 }
 
-- (void)ver:(long long)arg1 willEncodeObject:(struct CGSize)arg2 ];
-- (void)coding:(long long)arg1 %s<%p>;
-- (id)oots(NSObject<UIStateRestoring> *);
 - (void);
 - (void);
-- (id);
 - (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 

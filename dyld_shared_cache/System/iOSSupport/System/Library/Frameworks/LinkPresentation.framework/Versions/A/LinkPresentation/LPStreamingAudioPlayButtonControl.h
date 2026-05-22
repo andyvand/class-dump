@@ -19,11 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)2;
-- (void);
-- (id)8@16{?=dd}24@40@48@56@64;
 - (void);
 - (void);
+- (void);
+- (id);
+- (void)0@ù
+× ;
 
 @end
 

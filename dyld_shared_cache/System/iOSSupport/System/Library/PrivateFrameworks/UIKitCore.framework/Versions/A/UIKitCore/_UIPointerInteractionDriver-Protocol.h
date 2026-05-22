@@ -7,10 +7,13 @@
 @class UIView;
 
 @protocol _UIPointerInteractionDriver
-- (void)ü;
-- (long long)ò-ûÿQ;
-- (struct CAPoint3D)Offset;
-- (void);
+- (_Bool)0@ù
+× ;
+- (long long)!ØDùñ_ð1Â0@ù
+× ;
+- (struct CAPoint3D)startAutoscroll:(UIView *)arg1;
+- (UIView *)ent;
+- (_Bool)indowSceneDrag;
 
 // Remaining properties
 @property(nonatomic) __weak UIView *view;

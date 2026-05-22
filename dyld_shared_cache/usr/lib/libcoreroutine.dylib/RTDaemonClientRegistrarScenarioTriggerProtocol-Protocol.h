@@ -5,6 +5,5 @@
 //
 
 @protocol RTDaemonClientRegistrarScenarioTriggerProtocol
-- (void)SMCloudKitFunction",&,N,V_cloudKitFunction;
 @end
 

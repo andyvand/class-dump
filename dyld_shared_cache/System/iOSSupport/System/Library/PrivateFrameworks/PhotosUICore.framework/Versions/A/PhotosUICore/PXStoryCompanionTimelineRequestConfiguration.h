@@ -21,12 +21,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (struct CGSize);
 - (id);
+- (void);
+- (id);
+- (id)efaultPresenterWithViewController: /* Error: Ran out of types for this method. */;
+- (void)¤
+;
 
 // Remaining properties
 @property(retain, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;

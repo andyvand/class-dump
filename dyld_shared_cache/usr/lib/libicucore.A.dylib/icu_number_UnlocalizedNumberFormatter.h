@@ -10,8 +10,8 @@ public: // (access info unavailable from symbols alone)
     UnlocalizedNumberFormatter(icu::number::UnlocalizedNumberFormatter&&);
     UnlocalizedNumberFormatter(icu::number::impl::MacroProps const&);
     UnlocalizedNumberFormatter(icu::number::impl::MacroProps&&);
-    locale(icu::Locale const&) &&;
-    locale(icu::Locale const&) const &;
-    operator=(icu::number::UnlocalizedNumberFormatter const&);
-    operator=(icu::number::UnlocalizedNumberFormatter&&);
+    auto locale(icu::Locale const&) &&;
+    auto locale(icu::Locale const&) const &;
+    auto operator=(icu::number::UnlocalizedNumberFormatter const&);
+    auto operator=(icu::number::UnlocalizedNumberFormatter&&);
 };

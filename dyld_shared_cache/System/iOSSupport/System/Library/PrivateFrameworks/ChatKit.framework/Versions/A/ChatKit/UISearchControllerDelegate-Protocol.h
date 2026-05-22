@@ -9,9 +9,7 @@
 @protocol UISearchControllerDelegate
 
 @optional
-- (void);
-- (void)@0:(UISearchController *)arg1 8@16*24Q32@40;
-- (void)c¬yÖ«yÒ¬ySaypg<GGSSAAyAAy¡Ð«y#<_Qo_²}<G´}<GGGÌ¥«G;
-- (void)$­GGtGGG_AYSgA2YtGAHG_AGyAhFyÈ­yAIyAJyAFyAQ_ArStGGG_Qo__A3_A3_tGAHGAGyAHA3_AHGtGG 0­yAMSgGG¬ì=GABy«ì=®ì=G_G;
+- (void)nkConversations;
+- (void)ler Warning:(UISearchController *)arg1 Not viewing junk conversation controller. Not performing any action;
 @end
 

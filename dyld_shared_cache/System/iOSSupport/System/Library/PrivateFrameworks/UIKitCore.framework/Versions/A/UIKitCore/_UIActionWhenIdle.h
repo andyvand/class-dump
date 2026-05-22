@@ -12,17 +12,16 @@ __attribute__((visibility("hidden")))
     NSInvocation *_invocation;
 }
 
-+ (id)mpactStatusBarHiding;
-- (id)?;
++ (id);
+- (void);
+- (void);
 - (_Bool);
-- (void)=¿%º;
-- (void);
-- (id)¡o!Ü@ùÂ°1¢!0@ù
-× ;
-- (void)nizeTapIn:(id)arg1 atPoint: /* Error: Ran out of types for this method. */;
-- (id)MovementIndicator:(id)arg1;
-- (void)fyDelegate: /* Error: Ran out of types for this method. */;
-- (void)\f;
+- (void)S;
+- (id)ink requires a non-null view.;
+- (void)Ì#;
+- (id)Í;
+- (void)°¸ÿ;
+- (id)Ø^äþ×X;
 
 // Remaining properties
 @property(retain, nonatomic) NSInvocation *invocation; // @synthesize invocation=_invocation;

@@ -5,11 +5,12 @@
 class marisa::grimoire::trie::LoudsTrie {
 public: // (access info unavailable from symbols alone)
     LoudsTrie();
-    find_child(marisa::Agent&) const;
-    lookup(marisa::Agent&) const;
-    map(marisa::grimoire::io::Mapper&);
-    map_(marisa::grimoire::io::Mapper&);
-    match_(marisa::Agent&, unsigned long) const;
-    swap(marisa::grimoire::trie::LoudsTrie&);
+    auto find_child(marisa::Agent&) const;
+    auto lookup(marisa::Agent&) const;
+    auto map(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&) (.cold.1);
+    auto match_(marisa::Agent&, unsigned long) const;
+    auto swap(marisa::grimoire::trie::LoudsTrie&);
     ~LoudsTrie();
 };

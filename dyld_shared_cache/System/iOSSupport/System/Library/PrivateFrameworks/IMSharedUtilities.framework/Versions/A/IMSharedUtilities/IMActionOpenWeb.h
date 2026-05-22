@@ -14,15 +14,15 @@
 }
 
 - (id);
-- (id);
-- (id)`;
 - (long long);
+- (id);
 - (long long);
-- (_Bool)P;
-- (id)0;
-- (void);
+- (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)for chats with filter modes %s countType %s;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

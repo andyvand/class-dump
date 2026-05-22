@@ -22,89 +22,85 @@ __attribute__((visibility("hidden")))
     UIColor *_accessibilityBackgroundTintColor;
 }
 
-- (_Bool)_;
-- (void);
 - (_Bool);
+- (void);
 - (id);
 - (void);
+- (_Bool);
+- (struct CGSize);
 - (double);
-- (_Bool)tSymbolImage:withContentTransition: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (double);
-- (void)/swift/libswiftQuartzCore.dylib;
-- (id)g;
-- (void)rage_container_stream_setup_for_next_chunk;
-- (void);
-- (id)populateLocationPropertiesWithPath:(long long)arg1;
-- (void)tableEnumerationResults;
-- (_Bool);
-- (void)emToTail:%{public}@ /* Error: Ran out of types for this method. */;
-- (unsigned long long);
+- (id)!ÀEùQ]ð1Â0@ù
+× ;
 - (void);
+- (void)1Â0@ù
+× ;
+- (double)sformDecorationLayoutAttributes:(long long)arg1 isDisappearing: /* Error: Ran out of types for this method. */;
+- (_Bool)ultVibrancyEffect;
+- (void)jiButtonVisible;
+- (id)eometryDidUpdateWithTransitionContext:(struct CGRect)arg1;
+- (struct UIOffset)effectiveSafeAreaInsets;
+- (unsigned long long)eGeometryChanges;
+- (void)tionHandler;
+- (void)R,W,N,V_representedView;
+- (void)_setMaterial:(id)arg1;
+- (_Bool)vel;
+- (id)leForFloatingAssistantTransition;
+- (id)mageContainer;
+- (void);
+- (void)i columns as there are only %li preferredContentSizes;
+- (void)%@; Accessories:(_Bool)arg1 %@;
+- (void)ÿh$­þØzþÿ@ìÿ;
+- (void)R;
+- (Class);
+- (_Bool)²ïíÿþÿ;
+- (void)¶Èîÿ;
+- (void)>îÿ<þÿ;
 - (id);
-- (void);
-- (void);
-- (id)!pDùñÁð1¢!0@ù
-× ;
-- (void)!\DùqÃð1¢!0@ù
-× ;
-- (void);
-- (void)
-× ;
-- (void)ùÆð1¢!0@ù
-× ;
-- (_Bool)tÐ!TDùñÇð1¢!0@ù
-× ;
-- (struct UIOffset);
-- (_Bool)0@ù
-× ;
-- (void)nsets;
-- (void)ecordRewrittenText:(id)arg1 forRange:withContext:finished: /* Error: Ran out of types for this method. */;
-- (void)itialClientSettingsUpdater;
-- (struct CGSize)SizedSectionSeparators;
-- (_Bool)_dataOwnerForDropSession:(id)arg1 atIndexPath:(id)arg2;
-- (id)appInitializationContextFactoryClass;
-- (id)iveAssertionCount;
+- (void)&öîÿ<øîÿ;
 - (_Bool);
-- (struct UIEdgeInsets)ment saving on resign active expired with error %@:%@ /* Error: Ran out of types for this method. */;
+- (void)us;
+- (void)empt to extend state restoration made after restoration is finalized.;
+- (void)ionaryRef);
+- (void)ompositing;
+- (_Bool)t;
+- (_Bool)izedBody;
+- (void)checkmark.circle.platter;
+- (_Bool)isplayID=%li;
 - (void);
+- (struct CGSize)ist;
+- (id)s:Decoded scene restoration activity user info:%@ /* Error: Ran out of types for this method. */;
+- (void)owControllerHosting;
+- (id).backboardd.unambiguousOrientation;
+- (void)lor;
+- (id):[self(==_contentView)] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)@ fillColor=%@;
+- (void)ft;
+- (void)àþÿ;
+- (_Bool)åÜ13¢uþ;
+- (id)l;
+- (void);
 - (void);
-- (_Bool);
-- (void)19UIGestureRecognizerC;
-- (void)nge the owning view of a system-vended UILayoutGuide;
-- (id)roller replace segue (identifier '%@') with destination '%@';
-- (_Bool);
-- (void)object %@;
-- (void)onWithIdentifier:(id)arg1 forRemoteNotification:(unsigned long long)arg2 withResponseInfo:completionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
-- (void).;
-- (void)nputMode;
-- (id)er = %@;
-- (struct CGSize)10Key;
-- (void)own relationship candidates.;
-- (void)onse"8;
-- (double)s which match is currently highlighted, in an abbreviated form.;
-- (_Bool)HapticEngineOptionKeyPriority(void);
-- (void)iting-ended;
-- (void)ampingRatioSmoothing;
-- (id)client attempt to nest wrapped navigation controllers.;
-- (void)ly on a UINavigationBar managed by a controller.;
-- (id)tSequence;
-- (void)efersCollapsedAppearance;
+- (void);
+- (struct UIEdgeInsets)$Ù@È[;
+- (void)¡Ñç;
 - (void);
-- (id)on:(unsigned long long)arg1;
-- (struct CGSize)}{CGSize=dd}{CGPoint=dd}{CATransform3D=dddddddddddddddd}q@@@@}16@24;
-- (void)eworks/AppIntents.framework/AppIntents;
-- (void);
-- (void);
-- (void)UÐ;
-- (void);
-- (id)¾ñZ;
-- (void)ÂÔ`\;
-- (void)Ö,];
-- (void);
-- (void)$U`;
-- (Class)º`;
 
 // Remaining properties
 @property(nonatomic, setter=_setAbbreviatedTitleIndex:) unsigned long long _abbreviatedTitleIndex; // @synthesize _abbreviatedTitleIndex;

@@ -11,12 +11,11 @@
     long long _alignment;
 }
 
-+ (id)0@ù
-× ;
-- (_Bool);
-- (void)vQº;
-- (id),W;
-- (long long)layoutChangeScheduler;
++ (id);
+- (long long);
+- (id);
+- (void)ted;
+- (_Bool)^Ù¶[;
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;

@@ -13,12 +13,12 @@
 }
 
 + (id);
-+ (_Bool)2 hours before (WFAlertTime);
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)dit;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

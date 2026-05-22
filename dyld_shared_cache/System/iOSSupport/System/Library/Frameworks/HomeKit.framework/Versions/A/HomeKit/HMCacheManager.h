@@ -29,9 +29,9 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)t: /* Error: Ran out of types for this method. */;
+- (void)ô;
 
 // Remaining properties
 @property(readonly) NSMapTable *cacheMap; // @synthesize cacheMap=_cacheMap;

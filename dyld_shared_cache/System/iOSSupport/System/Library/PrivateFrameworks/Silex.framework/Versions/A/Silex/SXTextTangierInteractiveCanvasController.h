@@ -20,7 +20,7 @@
 
 + (void);
 - (void);
-- (id)a;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -35,7 +35,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -44,13 +47,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id)ylesheet",R,N,V_aStylesheet;
-- (void)nManager;
-- (void)f-layout (%@);
+- (void)ï°1Â0@ù
+× ;
+- (void)W,N,V_textComponentLayoutHosting;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <SXTextTangierInteractiveCanvasControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;

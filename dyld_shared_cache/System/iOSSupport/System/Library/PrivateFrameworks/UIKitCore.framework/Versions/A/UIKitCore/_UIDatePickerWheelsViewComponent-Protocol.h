@@ -7,11 +7,6 @@
 @class UIColor;
 
 @protocol _UIDatePickerWheelsViewComponent
-- (void)create a separate amfdr object for revert;
-- (void);
-- (_Bool)opulateCacheWithAvailabilityVerificationTokensForHandleID: /* Error: Ran out of types for this method. */;
-- (_Bool)rMissingGUID: /* Error: Ran out of types for this method. */;
-- (UIColor *)ssibilityBoldTextStatusDidChangeNotification;
 
 // Remaining properties
 @property(nonatomic, getter=_allowsZeroCountDownDuration, setter=_setAllowsZeroCountDownDuration:) _Bool allowsZeroCountDownDuration;

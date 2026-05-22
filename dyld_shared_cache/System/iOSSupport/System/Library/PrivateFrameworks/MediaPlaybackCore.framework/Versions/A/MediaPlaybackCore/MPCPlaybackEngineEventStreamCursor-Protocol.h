@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEvent, NSArray, NSDictionary;
-@protocol MPCPlaybackEngineEventStreamCursor;
+@class MPCPlaybackEngineEvent;
 
 @protocol MPCPlaybackEngineEventStreamCursor
-- (MPCPlaybackEngineEvent *);
-- (void)TEXT;
-- (id <MPCPlaybackEngineEventStreamCursor>);
-- (long long)@32@0:(NSArray *)arg1 8:(NSDictionary *)arg2 16@24;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCPlaybackEngineEvent *endEvent;

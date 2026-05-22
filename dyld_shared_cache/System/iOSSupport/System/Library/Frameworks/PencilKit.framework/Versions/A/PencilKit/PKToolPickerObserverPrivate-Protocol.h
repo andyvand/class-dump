@@ -5,9 +5,5 @@
 //
 
 @protocol PKToolPickerObserverPrivate
-
-@optional
-- (void)Y;
-- (void);
 @end
 

@@ -23,11 +23,11 @@
 - (void);
 - (void);
 - (void);
-- (id)P;
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)3;
+- (id);
 - (void);
 
 // Remaining properties

@@ -5,10 +5,6 @@
 //
 
 @protocol IMTypingIndicatorLayerProtocol
-- (void)M;
-- (void)A;
-- (_Bool);
-- (void)dentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::NetworkConnectionToWebProcess>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hasDarkBackground;

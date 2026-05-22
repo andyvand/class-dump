@@ -20,8 +20,8 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id)TË;
 
 // Remaining properties
 @property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;

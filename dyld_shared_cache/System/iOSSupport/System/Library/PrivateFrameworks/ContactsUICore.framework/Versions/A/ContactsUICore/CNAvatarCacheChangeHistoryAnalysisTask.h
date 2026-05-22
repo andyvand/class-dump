@@ -21,16 +21,16 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)V14ContactsUICore27SensitiveContentActionsView5Model;
+- (void)UIView",R,N;
 - (id);
 
 // Remaining properties

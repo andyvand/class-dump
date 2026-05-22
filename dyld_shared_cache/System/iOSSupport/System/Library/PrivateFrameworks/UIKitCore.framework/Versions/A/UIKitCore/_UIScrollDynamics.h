@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct CGPoint);
 - (id);
 - (struct CGPoint);
@@ -31,18 +31,17 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGSize);
 - (void);
-- (struct CGVector)lSpectrogram;
+- (struct CGVector);
 - (_Bool);
 - (void);
 - (struct CGPoint);
 - (double);
-- (void)1¢!0@ù
-× ;
-- (id)ForUseAsImageButton;
-- (struct CGSize),VcaptureImplicitLoadingContextOnDecode;
-- (struct CGRect)Ó;
-- (struct CGVector)m4Ìþ;
-- (void)ÈØ¿];
+- (void);
+- (id);
+- (struct CGSize)vigationController: /* Error: Ran out of types for this method. */;
+- (struct CGRect)âÎÿLîÜ×];
+- (void)@ d;
+- (struct CGVector)¸ÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;

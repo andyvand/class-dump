@@ -19,14 +19,17 @@ __attribute__((visibility("hidden")))
     id <_UITextKit1CanvasContext> _context;
 }
 
-+ (Class)ä;
++ (Class);
 - (void);
 - (void);
 - (id);
-- (_Bool)ationTokens: /* Error: Ran out of types for this method. */;
-- (_Bool)AutoReplier;
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,28 +37,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)isUserMoved,V_userMoved;
-- (void)udUserCount;
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool)1¢!0@ù
+- (id);
+- (_Bool)°1Â0@ù
 × ;
-- (void)e"b8"rendering"b8"padding"b8}"intValue"i);
-- (void)icy;
-- (void)ctions:animated: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)pressed;
-- (id)renceLibraryViewController_UIViewExtensions;
-- (void)verflowing beyond length of text. Please file a radar on UIKit if you have repro steps;
-- (id)ath:(struct CGRect)arg1 %@; supplementary view:%@ This is a hard assert for other clients and requires immediate attention. /* Error: Ran out of types for this method. */;
-- (void)le;
-- (void)restoration info ignore snapshot string is %@;
-- (void)ed;
-- (void);
-- (void)ØB3[;
+- (void)ressFirstResponderOnTransitionToLayoutStateSearching: /* Error: Ran out of types for this method. */;
+- (void)itWithProcessIdentity: /* Error: Ran out of types for this method. */;
+- (void)ger;
+- (void)llChangeToIdiom:(struct CGRect)arg1 onScreen: /* Error: Ran out of types for this method. */;
+- (id)eenSizeEnabled;
+- (void)hedTouchEvents;
+- (void),V__detentDirectionWhenFloating;
+- (void)wControllerInteractiveTransitioning>",&,N,S_setInteractor:(struct CGRect)arg1 ,V__interactor;
+- (void)mMetrics;
+- (void)C5UIKitP33_DDE14AA6B49FCAFC5A54255A118E1D8713ButtonWrapper18AppearanceDelegate;
+- (void)26UIParentComponentProvidingP;
+- (void)u13é¹;
+- (void));
 
 // Remaining properties
 @property(nonatomic, setter=_setDrawsDebugBaselines:) _Bool _drawsDebugBaselines;

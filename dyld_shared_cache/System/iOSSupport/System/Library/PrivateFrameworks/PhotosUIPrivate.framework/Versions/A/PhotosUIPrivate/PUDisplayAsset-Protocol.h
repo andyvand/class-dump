@@ -7,9 +7,8 @@
 @class CLLocation, NSDate, NSString;
 
 @protocol PUDisplayAsset
-- (double)est: /* Error: Ran out of types for this method. */;
-- (NSString *)¼ì;
-- (unsigned long long)EXT_BUTTON_TITLE;
+- (NSDate *)o failed to load:%@ /* Error: Ran out of types for this method. */;
+- (double)CSg;
 
 // Remaining properties
 @property(readonly, nonatomic) double aspectRatio;

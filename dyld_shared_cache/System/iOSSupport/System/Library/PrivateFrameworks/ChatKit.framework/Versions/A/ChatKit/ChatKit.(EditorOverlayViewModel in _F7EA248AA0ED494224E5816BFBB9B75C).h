@@ -19,12 +19,11 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void)cellSize;
-- (void)er:(id)arg1 proposedLineFragment:(id)arg2 glyphPosition:characterIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)2hV
-y5;
+- (void);
+- (id);
+- (void)y and Paste;
 
 @end
 

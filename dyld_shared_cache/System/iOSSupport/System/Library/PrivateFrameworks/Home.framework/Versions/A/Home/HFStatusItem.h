@@ -42,16 +42,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
+- (void)üÞßxàà@áDá;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

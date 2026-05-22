@@ -25,16 +25,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (id);
 - (struct CGSize);
-- (void);
 - (id);
-- (void);
+- (void)excludingStreamedVideosFilter;
+- (id)onTypeDidChange;
+- (id)ckView;
 - (id);
-- (id);
-- (id);
-- (id)¾Û
-;
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool cachesResults; // @synthesize cachesResults=_cachesResults;

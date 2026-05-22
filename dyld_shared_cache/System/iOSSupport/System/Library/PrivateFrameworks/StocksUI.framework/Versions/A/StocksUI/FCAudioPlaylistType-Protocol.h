@@ -7,7 +7,8 @@
 @class NSArray, NSDate;
 
 @protocol FCAudioPlaylistType
-- (void)t.;
+- (NSArray *);
+- (NSDate *)he alert.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *articleIDs;

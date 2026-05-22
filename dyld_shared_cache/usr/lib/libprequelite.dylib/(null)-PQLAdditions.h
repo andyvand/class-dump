@@ -9,8 +9,8 @@
 @interface (null) (PQLAdditions)
 + (id);
 + (id);
-+ (id)d:(struct sqlite3 *)arg1:(id)arg2 allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}};
-+ (id)T_;
++ (id);
++ (id);
 + (id);
 + (id);
 - (_Bool);

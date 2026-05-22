@@ -38,80 +38,76 @@
     struct CGSize _floatingContentViewControlFocusedBaseSize;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
++ (id)FùqbÐ1Â0@ù
+× ;
++ (id)eBreakMode;
++ (id)nModifierGroupCIegg_;
 - (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (double);
-- (double);
-- (_Bool);
-- (double);
-- (void)form;
-- (id)_sectionDataSources;
-- (void)_MAPPING_MISSING__;
-- (void)CurrentAccessory:(id)arg1 ] failed to set enabled=%{BOOL}u [currentAccessory=nil];
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
 - (long long);
 - (id);
-- (void)ÑÀ°1¢!0@ù
-× ;
-- (id)án°!EùÁð1¢!0@ù
-× ;
-- (void)
-× ;
-- (_Bool)ùÑÅ1¢!0@ù
-× ;
-- (void);
-- (void)× ;
-- (id)ÈÐ1¢!0@ù
-× ;
-- (void);
-- (void)áu!GùqÊ°1¢!0@ù
-× ;
-- (void)(GùÑÊÐ1¢!0@ù
-× ;
-- (struct CGSize)
-× ;
-- (_Bool)Ï1¢!0@ù
-× ;
-- (id)nge=QQ}48@64;
-- (void)e"40;
-- (id)conBackgroundView"b1"hasScopeBar"b1"hasPromptLabel"b1"hasSearchBarBackground"b1"hasSearchBarBackdrop"b1"hasSeparator"b1"isHostedInlineByNavigationBar"b1"isHostedInlineByToolbar"b1"isFloating"b1"isTextFieldManagedInNSToolbar"b1"allowSearchFieldShrinkage"b1"searchFieldUsesCustomBackgroundImage"b1"searchFieldEffectivelySupportsDynamicType"b1"isProspective"b1"isHostingNavBarTransitionActive"b1"alwaysForceReadableWidth"b1"needsReconfigurationForScopeBar"b1};
-- (id)HostedWindows"b1};
-- (void)ge:(id)arg1 forState:barMetrics: /* Error: Ran out of types for this method. */;
-- (id)lStateForKeyState: /* Error: Ran out of types for this method. */;
-- (void)ntTransformView;
-- (void)romTextCompletion:(_Bool)arg1;
-- (void)oNavigationViewController:(double)arg1 withWrapper: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)ation:(double)arg1;
 - (double);
-- (void)RemoteViewController",R,W,N,V_owningRemoteViewController;
-- (void)nizer",R,N,V_passthroughScrollGestureRecognizer;
-- (id)T@"NSError",R;
-- (struct CGSize)"NSDictionary",R,N,V_childReplacements;
-- (id),N,V_delegate;
-- (_Bool)leProgressLayer;
-- (long long)à;
-- (double)ÿø®èÿLdþþÿ;
-- (void)þÿ;
-- (id)reaInCompactHeight;
-- (void)ction to %@ disconnecting %@;
-- (void)eparators;
-- (void)ardWillToggleCandidateBar;
-- (void)ewFrame;
-- (void)ÿ`;
-- (id)«f;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (struct CGSize)@ù
+× ;
+- (id)0@ù
+× ;
+- (void);
+- (_Bool);
+- (long long)0@ù
+× ;
+- (void)× ;
+- (id)ÔÐ!ÐBùÑg1Â0@ù
+× ;
+- (void)okenSet";
+- (void)0:(_Bool)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16^{CGContext=}48d56;
+- (id)ingSwipeActions"b1"trailingSwipeActions"b1"contextMenuConfiguration"b1"willBeginDisplayingTab"b1"didEndDisplayingTab"b1"itemsForBeginningSession"b1"itemsForAddingToSession"b1"operationForAcceptingIntoAction"b1"acceptItemsIntoAction"b1};
+- (id)CGPoint=dd}{CGSize=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48 /* Error: Ran out of types for this method. */;
+- (void)utSubviews;
+- (_Bool)edSuggestion:(id)arg1;
+- (id)ectorsWithWebLock;
+- (void);
+- (id)lSetupNewDelegate;
+- (void)imateTransitions;
+- (id)icationToken;
+- (void)_bundleID;
+- (double)tionBarTraits;
+- (double)itTestResponder>",W,N,V_hitTestResponder;
+- (void)f:(id)arg1;
+- (void)setCellHandler:(id)arg1;
+- (void)ndexPath;
+- (id)orView;
+- (id)?;
+- (_Bool);
+- (_Bool)	;
+- (void)nvoke;
+- (void)tantBarButtonItemStyleDictationMicOn is not supported on this platform.;
+- (double)onSemanticContext;
+- (void)entHighlight;
+- (void)iew than %@;
+- (_Bool)®þÿ;
+- (id)Ñÿ·ÿÜ@^;
+- (void)XB_;
+- (id)dÿÁE×¸7e;
+- (id)þ;
+- (void)(?'ÿ;
+- (void)@^k;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBGradient *backgroundGradient; // @synthesize backgroundGradient=_backgroundGradient;

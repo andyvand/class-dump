@@ -31,77 +31,80 @@
     } _assetManagerFlags;
 }
 
-+ (id);
++ (void);
++ (void);
 + (void);
 + (double);
-+ (id)Array"16@?<v@?@"NSArray">24;
++ (void);
++ (void);
++ (id);
++ (id);
++ (id)angedSelection:(id)arg1;
++ (id)tmentInteraction;
++ (void)roperties;
++ (id);
++ (id)igation bar with no stack entries;
++ (id)UØ¯a;
 + (long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void)ctForAlphaTransitionWillBegin: /* Error: Ran out of types for this method. */;
-+ (id)tionInToolbar;
-+ (void)},N,V_errorVector;
-+ (void)<ïdïÜïð|ð¤ðôñ¨ò;
-+ (void)onBoundsPath;
-+ (void)333333Ó? ?ÑÐÐÐÐÐÐ?òñññññá?¹?áz®Gáê?áz®Gáê¿}}}}}}í?zzzzzzê?ûúúúúúê?ÜÛÛÛÛÛë?ôIôIã?^^^^^^î?î?ÝÜÜÜÜÜì?]]]]]]í?þýýýýýí?¸ëQ¸î?é?B;
-- (void);
-- (id)nts: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (double);
-- (id)K;
 - (id);
 - (id);
-- (id)constraintEqualToAnchor:(id)arg1;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id)!¨BùÑÀ1¢!0@ù
-× ;
+- (void);
 - (_Bool);
-- (id)r!ÜDù±Åð1¢!0@ù
+- (id)Â0@ù
 × ;
-- (_Bool)v!ìDù±Êð1¢!0@ù
+- (id)ð!´EùqZð1Â0@ù
 × ;
+- (id)ù
+× ;
+- (void)ÔáÐ!¬Gùñ\Ð1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (void)!0Eùqbð1Â0@ù
+× ;
+- (_Bool)Cùf1Â0@ù
+× ;
+- (_Bool)tRange"b1"textRangeFromNSRange"b1"nsTextRangeForRange"b1"rangeForTextKitRanges"b1"unobscuredContentRect"b1"textLayoutManager"b1"caretTransformForPosition"b1"legacyCaretTransformForPosition"b1"selectionContainerViewBelowText"b1"selectionContainerViewAboveText"b1};
 - (id);
-- (id)DefaultsSyncDisabled"b1"headsetButtonClickCount"b4"isHeadsetButtonDown"b1"isFastForwardActive"b1"isRewindActive"b1"shakeToEdit"b1"ignoreHeadsetClicks"b1"touchRotationDisabled"b1"taskSuspendingUnsupported"b1"taskSuspendingOnLockUnsupported"b1"isUnitTests"b1"singleUseLaunchOrientation"b3"delegateWantsNextResponder"b1"delegateWantsStatusBarTouchesEnded"b1"interfaceLayoutDirectionIsValid"b1"interfaceLayoutDirection"b3"restorationExtended"b1"normalRestorationInProgress"b1"normalRestorationCompleted"b1"isDelayingTintViewChange"b1"isUpdatingTintViewColor"b1"isHandlingMemoryWarning"b1"couldNotRestoreStateWhenLocked"b1"disableStyleOverrides"b1"legibilityAccessibilitySettingEnabled"b1"viewControllerBasedStatusBarAppearance"b1"isStatusBarFading"b1"systemWindowsSecure"b1"isFrontBoardForeground"b1"appSwitcherLayoutState"b2"isObservingPIP"b1"shouldRestoreKeyboardInputState"b1"subclassOverridesInterfaceOrientation"b1"subclassOverridesFrontMostAppOrientation"b1"isResigningActive"b1"receivedUnhandledMenuButton"b1"disablingBecomeFirstResponder"b1"hasMultiwindowAttributes"b1"supportedOnLockScreen"b1"inBackgroundBeforeSuspending"b1"hasPendingKeyCommandSerializationRequest"b1"hasBackgroundTaskCompletionHandler"b1"supportsTabbedWindowScenes"b1"subclassOverridesCreateStatusBarWithRequestedStyle"b1"implementsEffectiveSceneConfigurationForConnectingConfiguration"b1};
+- (id)setMaximumRelativeValue:(id)arg1;
+- (id)encodeInt32:(id)arg1 forKey:(id)arg2;
+- (void)uches;
+- (id)icNavBarButtonItem:(id)arg1 trailingPosition:(_Bool)arg2;
+- (id)etHeading:(id)arg1;
 - (id);
-- (id)traitCollectionByFilteringTraits: /* Error: Ran out of types for this method. */;
-- (id)thGranularity:(id)arg1;
-- (id)ock:(id)arg1;
-- (id)ouldAdjustValueForProposedValue:(id)arg1 adjustedValue:(id *)arg2 startValue:(CDUnknownBlockType)arg3 endValue: /* Error: Ran out of types for this method. */;
-- (id)ActivationStateForType:(id)arg1;
-- (id)xiliaryChildEnvironmentForTraitInvalidations: /* Error: Ran out of types for this method. */;
-- (_Bool)shouldCreateIfNecessary:(id)arg1;
-- (id)w: /* Error: Ran out of types for this method. */;
-- (_Bool)Controller;
-- (id)lateRectsUsingTextLayoutManager:(id)arg1;
-- (void)leAnimationResponse;
-- (void)onViewActivation;
-- (id)eedsFirstTimeUpdateForTraitCollection:,V__needsFirstTimeUpdateForTraitCollection /* Error: Ran out of types for this method. */;
-- (id)IActionSheet;
+- (_Bool)_UIScrollPocketContainerInteraction",R,N,V_bottomBarViewPocketContainerInteraction;
+- (id)rProxy;
+- (id);
+- (id)input destination protocol for %@, remote:%@, exported:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)|{
-8|;
-- (_Bool);
-- (_Bool)wProviderBlock;
-- (id)tTestExtension;
+- (id)Ñ;
+- (id)aþÿ;
+- (id)îÿrþÿ;
+- (_Bool)%@, isMainThread = %@;
 - (id);
-- (void)omptEntryViewP33_75F9C46457AA903D9A8178C1F5C6F2105Chunk;
+- (void)G;
 - (id);
-- (id);
+- (void)à¡ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;

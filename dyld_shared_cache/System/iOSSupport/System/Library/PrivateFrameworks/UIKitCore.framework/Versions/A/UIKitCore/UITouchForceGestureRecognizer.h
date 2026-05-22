@@ -32,48 +32,49 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)P;
-- (CDUnknownBlockType);
-- (void);
 - (double);
 - (double);
 - (double);
-- (unsigned long long)riptor;
-- (_Bool)ueueControlOptions;
-- (void)elPropertyTVShowCreatorArtwork;
-- (double)ctionNotification;
-- (double);
+- (_Bool);
+- (void);
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (_Bool)º;
+- (void);
+- (void)Ô¡!Bù\1Â0@ù
+× ;
+- (_Bool)¡!°DùÑ]ð1Â0@ù
+× ;
 - (_Bool)
 × ;
-- (void)±É1¢!0@ù
+- (double)±f°1Â0@ù
 × ;
+- (_Bool)View";
+- (void)";
+- (void)lor:(unsigned long long)arg1;
+- (_Bool)terInSection: /* Error: Ran out of types for this method. */;
+- (id)ngText;
+- (void)tPlainHeaderFooterFont;
+- (void)yViewsIncludingHiddenBackButtonViews: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Command: /* Error: Ran out of types for this method. */;
+- (void)set:(double)arg1;
+- (void)umResizableSize;
+- (void)eractiveChangeHandlers;
+- (void)B,R,N,V_isRepeating;
+- (void)usTest",&,N,S_setCurrentTest:(double)arg1;
+- (_Bool)egate;
+- (void)0718E70CF655EC048F6C17ObservableStorage;
+- (void)0 D!Ð!;
+- (double);
+- (double)hed on a UINavigationController is not supported and at high risk of a layout feedback loop when built on iOS 13.0 or later. Problem occurs for %@;
+- (void)õ(33¼;
 - (void);
-- (double)1¢!0@ù
-× ;
-- (void)CGPoint=dd}16;
-- (void)dateBaseAndExtentPointsFromEdges;
-- (void)setSelectedIndexPath:(id)arg1;
-- (void)ys: /* Error: Ran out of types for this method. */;
-- (void)Recognizer;
-- (void)llersForPendingSpineLocation:(double)arg1;
-- (void);
-- (void);
-- (void)UICollectionViewDiffableDataSourceReorderingHandlersC;
-- (void));
-- (void)e;
-- (double)%2g;
-- (_Bool)t *__strong);
-- (double);
-- (id);
-- (_Bool);
-- (_Bool)w;
-- (void)`;
+- (void)ÿ8Ø,þ];
+- (void)·b;
+- (double),÷É(M`;
+- (void);
+- (double)´b;
+- (_Bool)¸ÿ÷Ö×d;
 
 // Remaining properties
 @property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;

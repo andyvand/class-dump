@@ -33,11 +33,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (struct CGSize);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

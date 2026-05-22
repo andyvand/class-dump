@@ -6,12 +6,12 @@ class dyld4::FileRecord {
 public: // (access info unavailable from symbols alone)
     FileRecord(dyld4::FileManager&, unsigned long long, unsigned long long, unsigned long long);
     FileRecord(dyld4::FileRecord&&);
-    getPath() const;
-    objectID() const;
-    operator=(dyld4::FileRecord&&);
-    persistent() const;
-    stat() const;
-    swap(dyld4::FileRecord&);
-    volume() const;
+    auto getPath() const;
+    auto objectID() const;
+    auto operator=(dyld4::FileRecord&&);
+    auto persistent() const;
+    auto stat() const;
+    auto swap(dyld4::FileRecord&);
+    auto volume() const;
     ~FileRecord();
 };

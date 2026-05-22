@@ -4,7 +4,7 @@
 
 // Global C++ functions
 
-operator delete(void*);
-operator new(unsigned long, std::__type_descriptor_t);
 typeinfo for std::length_error;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
 vtable for std::length_error;

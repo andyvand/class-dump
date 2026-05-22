@@ -6,7 +6,7 @@
 
 #import <CarPlay/CPTemplate.h>
 
-@class CPBarButton, CPNavigationAlert, NAFuture, NSArray, NSMutableDictionary, NSString, UIColor;
+@class CPBarButton, CPNavigationAlert, CPNavigationSession, NAFuture, NSArray, NSMutableDictionary, NSString, UIColor;
 @protocol CPBannerProviding, CPMapTemplateDelegate, CPNavigationSessionProviding;
 
 @interface CPMapTemplate : CPTemplate
@@ -23,6 +23,7 @@
     id <CPBannerProviding> _bannerProvider;
     id <CPNavigationSessionProviding> _navigationSessionProvider;
     NSArray *_tripPreviews;
+    CPNavigationSession *_currentNavigationSession;
 }
 
 + (_Bool);
@@ -46,6 +47,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -60,6 +62,14 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -92,23 +102,24 @@
 - (void);
 - (void);
 - (long long);
-- (id);
-- (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyHidesNavigationBar; // @synthesize automaticallyHidesNavigationBar=_automaticallyHidesNavigationBar;
 @property(retain, nonatomic) CPBarButton *backButton;
 @property(retain, nonatomic) id <CPBannerProviding> bannerProvider; // @synthesize bannerProvider=_bannerProvider;
 @property(readonly, nonatomic) CPNavigationAlert *currentNavigationAlert; // @synthesize currentNavigationAlert=_currentNavigationAlert;
+@property(retain, nonatomic) CPNavigationSession *currentNavigationSession; // @synthesize currentNavigationSession=_currentNavigationSession;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

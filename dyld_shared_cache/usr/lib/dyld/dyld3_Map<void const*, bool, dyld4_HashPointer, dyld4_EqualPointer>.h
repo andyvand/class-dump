@@ -5,6 +5,6 @@
 class dyld3::Map<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer> {
 public: // (access info unavailable from symbols alone)
     Map();
-    insert(dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>&&);
-    insert(dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>&&) (.cold.1);
+    auto insert(dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>&&);
+    auto insert(dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>&&) (.cold.1);
 };

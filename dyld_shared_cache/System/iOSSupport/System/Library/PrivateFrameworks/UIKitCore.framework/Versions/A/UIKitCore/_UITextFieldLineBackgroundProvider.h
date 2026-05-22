@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)nd incoming attachment from CKRecord at %@;
++ (id);
 - (void);
-- (void)	;
-- (id)iew not loaded);
-- (long long);
+- (long long);
+- (id)lw^;
+- (void);
 
 @end
 

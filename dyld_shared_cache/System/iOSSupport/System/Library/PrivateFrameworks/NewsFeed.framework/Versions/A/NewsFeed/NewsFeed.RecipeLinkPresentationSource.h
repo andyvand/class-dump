@@ -12,9 +12,9 @@
     MISSING_TYPE *imageShareAttributeProvider;
 }
 
-- (id)Cannot begin inspector dynamic operation while in non-inspector dynamic operation;
-- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) LPLinkMetadata *linkMetadata;

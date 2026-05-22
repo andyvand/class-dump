@@ -14,12 +14,12 @@
     MISSING_TYPE *_preferredHeight;
 }
 
-- (void);
-- (void);
 - (id);
 - (void);
-- (id)\EúÿA<U;
-- (struct NSDirectionalEdgeInsets)HÜ;;
+- (id);
+- (struct NSDirectionalEdgeInsets)È;
+- (void)ultAppleMusicStatusProvider;
+- (void)»5;
 
 // Remaining properties
 @property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;

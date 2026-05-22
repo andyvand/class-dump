@@ -42,10 +42,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void)ÿs1Bÿ{1Bÿ1Bÿ1Bÿ1Bÿ1Bÿ¥1Bÿ­1Bÿµ1Bÿ½1BÿÅ2BÿÎ2BÿÖ2BÿÞ2Bÿæ2Cÿï3Cÿ÷3Cÿÿ4Cÿ;
 
 // Remaining properties
 @property _Bool didCacheIsNextFrameAvailable; // @synthesize didCacheIsNextFrameAvailable=_didCacheIsNextFrameAvailable;

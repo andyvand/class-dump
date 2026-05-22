@@ -26,16 +26,16 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)ÈN;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *frontLeftDestinationIdentifier; // @synthesize frontLeftDestinationIdentifier=_frontLeftDestinationIdentifier;

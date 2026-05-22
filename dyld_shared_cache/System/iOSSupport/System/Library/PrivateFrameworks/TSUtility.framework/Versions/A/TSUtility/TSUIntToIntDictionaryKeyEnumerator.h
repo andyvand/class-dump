@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (long long)C;
+- (long long);
 - (void);
 
 @end

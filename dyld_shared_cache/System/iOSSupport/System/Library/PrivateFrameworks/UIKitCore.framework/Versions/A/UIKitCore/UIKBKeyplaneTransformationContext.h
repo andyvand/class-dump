@@ -20,24 +20,23 @@ __attribute__((visibility("hidden")))
     struct CGSize _keyboardSize;
 }
 
-- (_Bool)ddressedSIMID:joinProperties: /* Error: Ran out of types for this method. */;
-- (void)trictions:(_Bool)arg1 hasAttachments:requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)_inlineAttachmentsDictionary;
-- (void)uietlyReceiptProcessingPipelineComponent;
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (struct CGSize)|;
-- (id):%@ /* Error: Ran out of types for this method. */;
-- (id)from me:%@ /* Error: Ran out of types for this method. */;
-- (id)rom archived zone. Kicking off another batch of fetching;
-- (id)tionZoneID serverChangeToken %@ moreComing %@ recordZoneError %@;
-- (void)y be called from -initWithPlayerPath:(double)arg1;
-- (void)!<BùñÁ1¢!0@ù
-× ;
-- (id)tedContentLayout: /* Error: Ran out of types for this method. */;
-- (void)n view:(id)arg1 %@;
-- (double)Õh;
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)writingStrokePointFIFO";
+- (id);
+- (void)èþIÿ;
+- (double)Üf;
+- (void)g;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBTree *activeKeyboard; // @synthesize activeKeyboard=_activeKeyboard;

@@ -23,11 +23,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (id)tö ÿ;
-- (_Bool)7;
-- (id)*ÍK:7 /* Error: Ran out of types for this method. */;
+- (id)=dd}40d56;
+- (void);
+- (id);
+- (id)SÄ4;
+- (_Bool)¼ÿ|Oð49;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *image;

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (double)nt to validate aliases:%@  account:%@ /* Error: Ran out of types for this method. */;
+- (double);
 - (double);
 
 @end

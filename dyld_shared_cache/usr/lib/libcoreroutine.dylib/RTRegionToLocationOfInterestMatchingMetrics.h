@@ -19,13 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id)7
-;
-- (unsigned long long)T;
-- (void);
-- (id)nfo;
 - (id);
-- (void)uleBurstNoiseFilter identifyNoiseInWindowRange:] /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (id);
+- (void);
+- (void)ted, from, %d, to, %d;
+- (id), %@, fetched %lu learned location of interest from learned location store;
 
 // Remaining properties
 @property(readonly, nonatomic) RTLearnedLocationOfInterest *locationOfInterest; // @synthesize locationOfInterest=_locationOfInterest;

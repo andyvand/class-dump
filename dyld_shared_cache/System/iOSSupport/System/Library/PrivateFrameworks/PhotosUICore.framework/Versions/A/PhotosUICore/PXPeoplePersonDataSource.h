@@ -34,14 +34,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)alBlock;
+- (void)wCurationButton;
 
 // Remaining properties
 @property(retain, nonatomic) PXPeopleDataSourceSection *dataSourceSection; // @synthesize dataSourceSection=_dataSourceSection;

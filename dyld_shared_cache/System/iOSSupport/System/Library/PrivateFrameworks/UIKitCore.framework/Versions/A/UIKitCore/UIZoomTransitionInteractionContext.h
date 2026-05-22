@@ -13,10 +13,11 @@
 
 - (_Bool);
 - (void);
-- (void);
-- (struct CGPoint)ceType;
-- (struct CGVector)ationName;
-- (void)$ÿZ¸¸;
+- (struct CGVector)!¸Eùñeð1Â0@ù
+× ;
+- (struct CGPoint)essionTracker.m;
+- (void)ä\;
+- (void)h³þLðv;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;

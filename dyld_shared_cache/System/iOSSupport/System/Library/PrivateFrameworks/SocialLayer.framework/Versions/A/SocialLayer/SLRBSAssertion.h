@@ -14,11 +14,11 @@
 + (id);
 + (id);
 - (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (void)teBlock: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) RBSAssertion *assertion; // @synthesize assertion=_assertion;

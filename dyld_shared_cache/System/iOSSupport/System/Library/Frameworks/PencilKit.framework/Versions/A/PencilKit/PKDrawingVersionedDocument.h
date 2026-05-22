@@ -16,7 +16,7 @@
 }
 
 + (unsigned int);
-+ (unsigned int)0@ù
++ (unsigned int)q'ð1Â0@ù
 × ;
 - (void);
 - (void);
@@ -26,11 +26,11 @@
 - (id);
 - (id);
 - (Class);
-- (void)A;
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)pGH;
 
 // Remaining properties
 @property(retain, nonatomic) PKDrawingConcrete *drawing; // @synthesize drawing=_drawing;

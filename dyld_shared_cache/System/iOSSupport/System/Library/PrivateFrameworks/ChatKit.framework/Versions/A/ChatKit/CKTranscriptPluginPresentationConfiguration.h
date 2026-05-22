@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     unsigned long long _permittedArrowDirections;
 }
 
-- (_Bool)TextFindingMatchRange: /* Error: Ran out of types for this method. */;
-- (id)yk?;
-- (unsigned long long);
-- (void);
+- (_Bool);
 - (id);
+- (id);
+- (unsigned long long)d;
+- (void)ation:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long permittedArrowDirections; // @synthesize permittedArrowDirections=_permittedArrowDirections;

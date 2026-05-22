@@ -12,28 +12,28 @@
     SXLayoutOptions *_layoutOptions;
 }
 
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (unsigned long long)*;
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (long long);
-- (long long);
-- (id);
-- (void);
 - (struct CGSize);
-- (id);
-- (_Bool);
-- (double);
+- (id);
 - (long long);
-- (id)actory:analyticsReporting:appStateMonitor:sceneStateMonitor:resourceDataSource:reachabilityProvider:scrollObserverManager:videoPlayerViewControllerManager:bookmarkManager:prerollAdFactory: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ex: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (double);
+- (id);
+- (long long);
+- (void)uch"16@"UIGestureRecognizer"24;
+- (long long)escriptor;
+- (unsigned long long)Ðy;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isBundleSubscriber) _Bool bundleSubscriber;

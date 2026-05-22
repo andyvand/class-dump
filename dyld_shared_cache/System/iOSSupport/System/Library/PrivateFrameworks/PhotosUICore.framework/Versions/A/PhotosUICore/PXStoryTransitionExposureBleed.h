@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)capability.;
 
 @end
 

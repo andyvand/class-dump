@@ -11,7 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)"implementsDeprecatedAPISupport"b1"implementsDeprecatedSPISupport"b1"preferredBehavioralStyle"b4"implementsSetControl"b1};
+- (id)!	!Fù1eÐ1Â0@ù
+× ;
 
 @end
 

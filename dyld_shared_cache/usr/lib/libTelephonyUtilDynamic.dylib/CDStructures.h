@@ -17,7 +17,7 @@ struct SessionTaskContext;
 struct __shared_weak_count;
 
 struct map<unsigned long, std::shared_ptr<SessionTaskContext>, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, std::shared_ptr<SessionTaskContext>>>> {
-    struct __tree<std::__value_type<unsigned long, std::shared_ptr<SessionTaskContext>>, std::__map_value_compare<unsigned long, std::__value_type<unsigned long, std::shared_ptr<SessionTaskContext>>, std::less<unsigned long>>, std::allocator<std::__value_type<unsigned long, std::shared_ptr<SessionTaskContext>>>> {
+    struct __tree<std::__value_type<unsigned long, std::shared_ptr<SessionTaskContext>>, std::__map_value_compare<unsigned long, std::pair<const unsigned long, std::shared_ptr<SessionTaskContext>>, std::less<unsigned long>>, std::allocator<std::pair<const unsigned long, std::shared_ptr<SessionTaskContext>>>> {
         void *__begin_node_;
         struct {
             struct __tree_end_node<std::__tree_node_base<void *>*> {

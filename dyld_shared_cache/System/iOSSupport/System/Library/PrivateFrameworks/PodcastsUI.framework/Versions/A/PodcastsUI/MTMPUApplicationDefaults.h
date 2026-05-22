@@ -20,10 +20,6 @@
 - (void);
 - (struct __CFString *);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -34,13 +30,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
 - (_Bool);
+- (long long);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)SECONDS;
-- (long long)dClientRequest"16@?0@"MTImageDownloadClientRequest"8;
+- (void);
+- (void);
+- (id)¨pþÿ©ñÿÄS;
+- (void)SgG;
+- (void)1x_Sd1ySd1zt;
 
 @end
 

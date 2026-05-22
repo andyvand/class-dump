@@ -4,18 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
+@class MISSING_TYPE, NSUUID;
 @protocol CPBridgeNavigationSystemInfo, CPVehicleStateManagerDelegate;
 
 @interface CPVehicleStateManager
 {
     void delegate;
     MISSING_TYPE *routeSharingState;
+    _Bool receivedAllValues;
+    MISSING_TYPE *lastRouteSource;
 }
 
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,18 +34,22 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
+@property(nonatomic, copy) NSUUID *currentLegIdentifier;
 @property(nonatomic) __weak id <CPVehicleStateManagerDelegate> delegate; // @synthesize delegate;
+@property(nonatomic) _Bool receivedAllValues; // @synthesize receivedAllValues;
 @property(nonatomic) _Bool routeLineUnavailableForRegion;
 @property(nonatomic, readonly) _Bool routeSharingActive;
 @property(nonatomic, readonly) _Bool routeSharingUserEnabled;

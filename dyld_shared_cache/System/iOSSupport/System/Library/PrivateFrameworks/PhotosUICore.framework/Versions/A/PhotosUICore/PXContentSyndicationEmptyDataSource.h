@@ -11,8 +11,7 @@
 }
 
 - (id);
-- (long long)!u!TGùy°1b0@ù
-× ;
+- (long long)@16{?=QBB}24;
 
 @end
 

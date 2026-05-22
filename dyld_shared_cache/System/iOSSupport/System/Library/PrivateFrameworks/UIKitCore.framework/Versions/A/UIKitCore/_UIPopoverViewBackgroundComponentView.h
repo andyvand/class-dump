@@ -18,10 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)abContextIfAppropriate: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (id);
+- (_Bool)0@ù
+× ;
 - (void);
-- (id)Attributes;
+- (id)0 ¹;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *directionSelector; // @synthesize directionSelector=_directionSelector;

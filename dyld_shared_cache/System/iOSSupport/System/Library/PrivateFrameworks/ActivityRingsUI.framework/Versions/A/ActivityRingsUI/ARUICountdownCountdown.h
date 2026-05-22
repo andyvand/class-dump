@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double);
-- (id);
-- (id);
 - (id);
 - (double);
 - (_Bool);
+- (id);
+- (double);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double percent; // @synthesize percent=_percent;

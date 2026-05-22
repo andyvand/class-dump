@@ -7,11 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (Class);
-- (_Bool);
-- (struct _NSZone *)DynamicRangeContent;
-- (_Bool);
-- (id)` ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

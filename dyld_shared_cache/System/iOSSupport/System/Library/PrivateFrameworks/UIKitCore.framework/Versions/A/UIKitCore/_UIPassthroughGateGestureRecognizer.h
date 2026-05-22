@@ -15,19 +15,21 @@ __attribute__((visibility("hidden")))
     _Bool _acceptsFailureRequirements;
 }
 
-+ (_Bool)nID;
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool)°1¢!0@ù
++ (_Bool)!Bùq`1Â0@ù
 × ;
-- (void)Range=QQ}16i32;
-- (void)";
-- (void)ew:(id)arg1;
-- (_Bool)P8;
-- (void)= %@;
-- (_Bool)>"8;
-- (id)orted when forcing the legacy provider. Remove your +_forceLegacyVisualProvider override.;
+- (void);
+- (void);
+- (_Bool)¡
+ð!ÜEùQgÐ1Â0@ù
+× ;
+- (id)b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}24i32;
+- (void);
+- (_Bool)gAppearance;
+- (void)_videoWidth;
+- (void)_ui_encodeTextAttributes:(id)arg1 forKey:(id)arg2;
+- (_Bool)referredIndexPath;
+- (_Bool)ldScaleContentViewToAspectFitPlatter;
+- (_Bool)ocessID;
 
 // Remaining properties
 @property(nonatomic, getter=_acceptsFailureRequirements, setter=_setAcceptsFailureRequirements:) _Bool acceptsFailureRequirements; // @synthesize acceptsFailureRequirements=_acceptsFailureRequirements;

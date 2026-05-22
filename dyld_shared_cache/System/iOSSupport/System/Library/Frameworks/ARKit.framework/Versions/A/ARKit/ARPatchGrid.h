@@ -15,12 +15,12 @@
 - (const CDStruct_183601bc *);
 - (float);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
 - (unsigned long long);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) const CDStruct_183601bc *patches;

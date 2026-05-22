@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (struct CGSize);
 - (_Bool);
-- (id);
 - (void);
+- (id);
 - (void);
 
 // Remaining properties

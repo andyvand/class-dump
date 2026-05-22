@@ -38,11 +38,11 @@
 - (void);
 - (void);
 - (CDStruct_8e0628e6);
-- (void);
-- (void);
-- (_Bool);
-- (double);
 - (id);
+- (double);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

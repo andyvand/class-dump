@@ -8,8 +8,8 @@
 {
 }
 
-- (void)onPlugin:(id)arg1 [%{public}@] Apple ID GDPR acknowledgement recorded.;
-- (void)dgement for Apple ID.;
+- (void);
+- (void);
 
 @end
 

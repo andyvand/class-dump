@@ -21,18 +21,18 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)DIRTY;
+- (void);
 - (void);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
-- (id)rsonaIDIfCurrentPersonaIsEnterprise;
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)P;
 - (void);
-- (void)Media services unavailable]- identifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)ata;
+- (void)payload:â¦ atTime:%{time_t}zd | failed [json bind failure] event.id=%{public}@ error=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCSamplesRecorder *currentRecorder; // @synthesize currentRecorder=_currentRecorder;

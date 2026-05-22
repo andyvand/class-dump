@@ -41,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)eUpdateDocumentationAssetExtractor>",&,N,V_extractor;
 
 // Remaining properties
 @property(retain, nonatomic) HMCharacteristic *currentHorizontalTilt; // @synthesize currentHorizontalTilt=_currentHorizontalTilt;

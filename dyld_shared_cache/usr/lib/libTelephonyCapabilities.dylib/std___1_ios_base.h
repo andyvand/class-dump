@@ -4,8 +4,8 @@
 
 class std::__1::ios_base {
 public: // (access info unavailable from symbols alone)
-    __set_badbit_and_consider_rethrow();
-    clear(unsigned int);
-    getloc() const;
-    init(void*);
+    auto __set_badbit_and_consider_rethrow();
+    auto clear(unsigned int);
+    auto getloc() const;
+    auto init(void*);
 };

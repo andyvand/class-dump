@@ -82,15 +82,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)er;
 
 // Remaining properties
 @property(retain, nonatomic) HFMediaPlaybackActionBuilder *actionBuilder; // @synthesize actionBuilder=_actionBuilder;

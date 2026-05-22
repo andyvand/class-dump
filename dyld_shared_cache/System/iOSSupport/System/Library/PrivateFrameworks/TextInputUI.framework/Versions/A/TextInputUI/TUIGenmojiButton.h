@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *hostingController;
 }
 
-- (_Bool)y;
-- (void);
-- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool showText;

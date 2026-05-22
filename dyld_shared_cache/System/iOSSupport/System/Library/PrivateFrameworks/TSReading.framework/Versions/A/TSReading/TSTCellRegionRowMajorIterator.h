@@ -15,10 +15,10 @@
 
 - (id);
 - (CDStruct_0441cfb5);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)popAnimation;
+- (void)ôi;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

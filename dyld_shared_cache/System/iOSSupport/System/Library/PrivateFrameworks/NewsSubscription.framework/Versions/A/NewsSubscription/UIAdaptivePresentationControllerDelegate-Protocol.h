@@ -7,6 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (long long);
+- (_Bool);
+- (long long)all for free article %@;
+- (void)w;
 @end
 

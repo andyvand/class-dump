@@ -4,7 +4,7 @@
 
 class mach_o::PlatformInfo {
 public: // (access info unavailable from symbols alone)
-    minorVersionForSpring(unsigned short) const;
-    yearForMajorVersion(mach_o::Version32, unsigned short&, bool&) const;
-    yearForVersion(mach_o::Version32, unsigned short&, bool&) const;
+    auto minorVersionForSpring(unsigned short) const;
+    auto yearForMajorVersion(mach_o::Version32, unsigned short&, bool&) const;
+    auto yearForVersion(mach_o::Version32, unsigned short&, bool&) const;
 };

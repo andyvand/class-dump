@@ -5,6 +5,5 @@
 //
 
 @protocol _UIFencedQueueingProxy
-- (void)r: /* Error: Ran out of types for this method. */;
 @end
 

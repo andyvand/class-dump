@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)y",&,N,V_controlPoints;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *originalStrokes; // @synthesize originalStrokes=_originalStrokes;

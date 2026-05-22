@@ -5,11 +5,5 @@
 //
 
 @protocol _UIScrollerImpPairDelegate
-- (void)ntsFollowingLocation;
-- (struct CGPoint)Graph_SignalDetectorBox.cpp;
-- (struct CGRect);
-
-@optional
-- (_Bool)Sdt;
 @end
 

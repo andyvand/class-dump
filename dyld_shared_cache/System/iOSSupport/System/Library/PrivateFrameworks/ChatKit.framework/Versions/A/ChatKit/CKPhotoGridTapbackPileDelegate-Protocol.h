@@ -5,6 +5,5 @@
 //
 
 @protocol CKPhotoGridTapbackPileDelegate
-- (void)í;
 @end
 

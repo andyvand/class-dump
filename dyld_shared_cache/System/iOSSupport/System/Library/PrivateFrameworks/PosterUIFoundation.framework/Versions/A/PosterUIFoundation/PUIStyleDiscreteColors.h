@@ -39,17 +39,17 @@
 - (_Bool);
 - (double);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

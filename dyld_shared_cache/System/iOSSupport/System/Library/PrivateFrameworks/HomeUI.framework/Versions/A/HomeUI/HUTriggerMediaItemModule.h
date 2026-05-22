@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)le before enabling Voice Recognition;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

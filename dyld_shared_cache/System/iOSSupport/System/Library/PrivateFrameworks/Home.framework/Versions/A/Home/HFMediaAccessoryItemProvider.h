@@ -39,13 +39,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)yticsCCPredictionEvent predictionStage is invalid;
+- (void)llectionSettingFuture;
+- (void)xpÐÄ Ô \!\"à"à#d$;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

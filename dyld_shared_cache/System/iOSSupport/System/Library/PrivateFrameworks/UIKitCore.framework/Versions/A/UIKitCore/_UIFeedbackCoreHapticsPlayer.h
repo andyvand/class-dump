@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)=;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -28,16 +28,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)=;
+- (id);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (id)!(@ù±`°1Â0@ù
+× ;
 - (void);
+- (CDUnknownBlockType)@ù
+× ;
+- (_Bool)pplyHighlightTransform;
+- (void)ing CATransaction flush now.;
 - (void);
-- (void);
-- (id)b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16;
-- (_Bool)terThreshold;
 
 // Remaining properties
 @property(retain, nonatomic) id <CHHapticPatternPlayer> coreHapticsPlayer; // @synthesize coreHapticsPlayer=_coreHapticsPlayer;

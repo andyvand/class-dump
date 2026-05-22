@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)mePage>!$_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

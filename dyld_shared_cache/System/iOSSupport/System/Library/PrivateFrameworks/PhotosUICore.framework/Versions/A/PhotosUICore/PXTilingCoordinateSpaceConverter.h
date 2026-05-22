@@ -19,7 +19,7 @@
 - (struct CGAffineTransform);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ource identifier mismatch.;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldCache; // @synthesize shouldCache=_shouldCache;

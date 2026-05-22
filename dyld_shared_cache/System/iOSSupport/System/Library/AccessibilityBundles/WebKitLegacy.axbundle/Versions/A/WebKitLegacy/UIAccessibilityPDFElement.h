@@ -10,12 +10,12 @@
     long long _pageCount;
 }
 
-- (void);
 - (struct CGRect);
+- (void);
 - (long long);
 - (struct CGRect);
-- (long long);
 - (void);
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long page; // @synthesize page=_page;

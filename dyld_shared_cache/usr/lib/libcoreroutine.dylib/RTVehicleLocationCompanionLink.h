@@ -26,10 +26,10 @@
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)ion:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)ey:] /* Error: Ran out of types for this method. */;
-- (void)groundProcessingPermissionForStoreURL:(id)arg1 cacheFileExtension: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)3lf,waypointCountAvg,%{public}.3lf,clusterProcessingRunTimeAvg,%{public}.3lf;
 
 // Remaining properties
 @property(retain, nonatomic) RPCompanionLinkClient *client; // @synthesize client=_client;

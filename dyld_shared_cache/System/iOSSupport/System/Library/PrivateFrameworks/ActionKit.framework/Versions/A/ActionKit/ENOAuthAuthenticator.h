@@ -75,24 +75,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (long long);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
 - (void);
-- (id)ation;
-- (void)¥®$|KæI(fQìæSÿÿÿÿÿÿÿÿ;
+- (void);
+- (void);
+- (void)setObject:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)ungedTags;
+- (void)ies;
+- (void)ishSwatDynamite¦1Ñ¬µßÛrý/·ßÐí¯á¸~&jE|º,ñG¡$÷l³âòüØ iciNWq£þX¤~=ôtX¶rXÍqîJ¤T{µYZÂ9Õ0`ò*#°ÑÅð`(yAÊï8Û¸°Üy:(_Bool)arg1 `l>°Áw×'K1½Ú/¯x`\`Uó%Uæ«UªbHW@ècj9ÊU¶«*4\Ì´ÎèA¯T¡ér|î³*¼oc]Å©+ö1t>\Î3ºÖ¯\Ï$lS2zw(H;¯¹Kkè¿Ä!(fÌ	Øa©!û`¬|H2ì]]]ï±ué#&Üeë>#Å¬Óóom9BôD. ¤JðÈi^BhÆ!léöagðÓ«Ò Qjh/TØ(§£3Q«lïnä;zPð;º*û~eñ¡v¯9>YÊfCî´oEÃ¥}¾^;Øuoàs ÁD@¦jÁVbªÓNw?6rßþ=B$×Ð7H
+ÐÓêÛÀñIÉrS{ØyÔ%÷ÞèöPþã;Ly¶½àlºÀ¶O©ÁÄ`@Â\^c$j¯oûhµSl>ë²9oìR;Qüm,0DEÌ	½^¯Ðã¾ýJ3Þ(f³K.W¨ËÀtÈE9_ÒÛûÓ¹½ÀyU
+2`Æ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *consumerKey; // @synthesize consumerKey=_consumerKey;

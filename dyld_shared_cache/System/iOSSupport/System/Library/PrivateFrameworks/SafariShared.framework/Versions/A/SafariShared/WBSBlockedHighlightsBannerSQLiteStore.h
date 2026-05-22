@@ -14,7 +14,7 @@
     WBSSQLiteDatabase *_database;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -25,11 +25,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
+- (void)\;
 
 @end
 

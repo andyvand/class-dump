@@ -24,15 +24,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)!¨Gùf°1B0@ù
-× ;
+- (id);
 - (void);
+- (id);
+- (id);
+- (void)share %1$@.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

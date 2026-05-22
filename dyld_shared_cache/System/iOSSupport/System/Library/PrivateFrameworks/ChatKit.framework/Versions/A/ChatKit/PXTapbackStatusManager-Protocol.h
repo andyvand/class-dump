@@ -4,12 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXTapbackUserData;
-
 @protocol PXTapbackStatusManager
-
-@optional
-- (id <PXTapbackUserData>);
 
 // Remaining properties
 @property(readonly, nonatomic) Class decorationViewClass;

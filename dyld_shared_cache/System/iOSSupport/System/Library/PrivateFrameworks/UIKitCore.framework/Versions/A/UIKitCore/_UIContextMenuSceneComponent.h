@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_activePresentations;
 }
 
-+ (id);
-- (void);
-- (void)I!;
++ (id)Ô ;
 - (void);
 - (void);
-- (id)d:toChatID:identifier:style:transferID:account: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)\;
-- (id)ºb;
-- (id)vÿuËUº];
+- (void);
+- (id);
+- (id),G[;
+- (void)q;
+- (id)Ä`;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

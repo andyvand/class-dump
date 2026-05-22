@@ -15,44 +15,46 @@
 }
 
 - (id);
+- (float);
 - (void);
+- (void);
+- (float);
+- (long long);
 - (id);
 - (_Bool);
-- (void);
+- (long long);
 - (struct UIOffset);
-- (void);
-- (_Bool);
 - (struct NSDirectionalEdgeInsets);
-- (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float);
-- (void);
-- (_Bool);
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (float);
-- (void);
-- (void);
-- (void);
 - (long long);
+- (void);
+- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (long long);
-- (void)eItem;
-- (void)enExploreGuidesWithGuideLocation:(struct NSDirectionalEdgeInsets)arg1;
-- (id)rlay",&,N;
-- (void)an expensive operation on the main thread.;
-- (long long)%@;
-- (void)A¬çÿQ;
-- (void)ÿ;
-- (long long);
-- (double)2	;
+- (double);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id)1â
+0@ù
+× ;
+- (void)x:accessibilityLabel: /* Error: Ran out of types for this method. */;
+- (void)4¨ÿÿJ°;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long alignment;

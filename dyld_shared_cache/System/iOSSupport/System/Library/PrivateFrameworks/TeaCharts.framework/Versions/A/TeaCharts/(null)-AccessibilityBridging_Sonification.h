@@ -6,32 +6,32 @@
 
 @interface (null) (AccessibilityBridging_Sonification)
 - (void);
-- (id)ountSignOutServiceInterface>";
-- (id)@;
-- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (id);
-- (_Bool)Data">;
+- (_Bool);
 - (_Bool);
 - (double);
-- (id)haringGroup";
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (long long);
 - (_Bool);
 - (double);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 @end
 

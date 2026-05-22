@@ -24,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void):presentingController:sourceController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

@@ -22,13 +22,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id)r.m;
+- (void)PüC;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

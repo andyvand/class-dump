@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 
 - (struct CGRect);
 - (struct CGRect);
-- (id)<'9
-;
 - (id);
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect replyLineBoundingRect;

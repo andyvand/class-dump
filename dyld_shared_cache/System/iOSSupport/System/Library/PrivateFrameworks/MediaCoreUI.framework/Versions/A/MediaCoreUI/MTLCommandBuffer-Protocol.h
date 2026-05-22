@@ -5,17 +5,13 @@
 //
 
 @class NSError, NSString;
-@protocol MTLCommandQueue, MTLDevice, MTLLogContainer;
+@protocol MTLCommandQueue, MTLComputeCommandEncoder, MTLDevice, MTLLogContainer;
 
 @protocol MTLCommandBuffer
-- (void)DZÐ[h \ô ]¡^ä¢_@¤`ø¤ah¦b §c¨©dªeè«fX­Ì­gT®h´¯8°i¼±j³k´;
-- (void),wÿÿ;
-- (void)ðüÿÐÿÿÄVýÿ;
-- (void)ueuePlayerCSgÐ´GG;
-- (id <MTLCommandQueue>)ompactMesh;
-- (void);
-- (void)¹Y³(N;
-- (void)±áÿô¾áÿô¾áÿ;
+- (id <MTLComputeCommandEncoder>);
+- (void)+;
+- (id <MTLCommandQueue>)ÿ"Øÿ;
+- (void)Èÿÿÿ;
 
 // Remaining properties
 @property(readonly) double GPUEndTime;

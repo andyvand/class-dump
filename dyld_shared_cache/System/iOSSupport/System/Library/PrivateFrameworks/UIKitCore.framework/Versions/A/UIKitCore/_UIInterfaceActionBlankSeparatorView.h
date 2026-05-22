@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (double);
-- (void));
-- (void)! FùÑËÐ1¢!0@ù
+- (id);
+- (void)!èBùq`1Â0@ù
 × ;
-- (id)iewsNotInCurrentDocCoordsRect;
+- (void)È¯R0²43¸;
 
 // Remaining properties
 @property(nonatomic) double constantAxisDimension;

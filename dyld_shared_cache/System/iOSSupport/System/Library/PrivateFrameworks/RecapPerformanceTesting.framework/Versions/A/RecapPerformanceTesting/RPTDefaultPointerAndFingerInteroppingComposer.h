@@ -35,14 +35,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (void);
 - (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint _currentlySetAbsolutePosition; // @synthesize _currentlySetAbsolutePosition=__currentlySetAbsolutePosition;

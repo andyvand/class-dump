@@ -12,7 +12,7 @@
     long long _numPointsToCoalesce;
 }
 
-- (void)R;
+- (void);
 - (long long);
 - (void);
 

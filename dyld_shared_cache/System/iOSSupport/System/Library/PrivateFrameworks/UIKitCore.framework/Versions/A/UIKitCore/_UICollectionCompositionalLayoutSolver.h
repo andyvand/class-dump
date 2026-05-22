@@ -56,229 +56,229 @@ __attribute__((visibility("hidden")))
     struct CGSize _actualContentSize;
 }
 
-+ (struct CGRect)PipelineState>"@"MTLRenderPipelineReflection"@"NSError">32;
++ (struct CGPoint);
 + (struct CGRect);
 + (id);
-+ (struct CGRect);
-+ (id)× ;
-+ (struct CGPoint)@ù
-× ;
-+ (struct CGRect)t;
-+ (id)`Yÿ0Ùbd;
++ (id)ernName;
++ (struct CGRect)ttributes:(struct CGRect)arg1;
++ (struct CGRect)ryFrozen:(id)arg1 ,V__geometryFrozen;
++ (id)oggleBlock;
++ (struct CGRect)groundStyle;
+- (_Bool);
 - (void);
-- (void)!;
+- (struct CGRect);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (long long);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id)elerationStructureDescriptor"16;
-- (void);
-- (void);
-- (struct CGRect)AccountModification: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)s_contentCompressionResistancePriorityForAxis:(id)arg1;
-- (id)dle:(id)arg1;
-- (void)eViewForFirstBaselineLayout;
-- (void);
-- (void);
-- (struct CGPoint);
-- (void);
 - (struct CGRect);
 - (id);
-- (id);
-- (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CGRect);
-- (void);
-- (id);
-- (id);
-- (struct CGRect)tyPodcastEpisodeTranscriptIdentifier__MAPPING_MISSING__;
-- (Class);
-- (double)ditor State] Summary:%lu tracks, %lu transaction(s) containing %lu change(s) 
- /* Error: Ran out of types for this method. */;
-- (void)Controller.contentDuration;
-- (void)mKeepLocalManagedStatusReason;
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (CDUnknownBlockType);
-- (id);
-- (struct CGRect);
-- (void)i;
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (struct CGRect);
-- (void);
-- (id);
-- (void);
-- (id)"ò;
-- (id);
-- (_Bool);
-- (id);
-- (struct CGRect)× ;
-- (void)
-× ;
-- (id)Áð1¢!0@ù
-× ;
-- (void);
-- (_Bool)0@ù
-× ;
-- (struct CGRect)!;
-- (void)@ù
-× ;
-- (id)1¢!0@ù
-× ;
-- (struct CGRect)r!|Cù1Åð1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (id)0@ù
-× ;
-- (void)ð1¢!0@ù
-× ;
-- (void)Ô ;
-- (id)!4Dù1Æð1¢!0@ù
-× ;
-- (void);
-- (struct CGPoint)1¢!0@ù
-× ;
-- (_Bool)uð!pDùQÉð1¢!0@ù
-× ;
-- (void)× ;
-- (id)Ê1¢!0@ù
-× ;
-- (_Bool);
-- (id)0@ù
-× ;
-- (_Bool)!(EùñÌð1¢!0@ù
-× ;
-- (id);
-- (void)1¢!0@ù
-× ;
-- (void)Range=QQ}16;
-- (void)ion"{_UIBoundingPathBitmapDataSkipRegion="y"Q"height"Q}"nodeCount"Q"maximumNodesPerRow"Q"rows"^S};
-- (id);
-- (void)2"delegateHiddenMasterAspectRatios"b2"delegateImplementsShouldHide"b1"hidden"b3"masterOnSlide"b1"delegateWantsWillShowCallback"b1"delegateWantsWillHideCallback"b1"delegateWantsWillPresentCallback"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"delegateWantsShowViewController"b1"delegateWantsShowDetailViewController"b1"delegateWantsCollapseSecondaryViewController"b1"delegateWantsSeparateSecondaryViewController"b1"delegateWantsPrimaryViewControllerForCollapse"b1"delegateWantsPrimaryViewControllerForExpanding"b1"collapsedState"b2"primaryHidingState"b2"primaryHidingStateForCurrentOrientation"b2"delegateWantsWillChangeToDisplayMode"b1"delegateWantsTargetDisplayModeForAction"b1"delegateCanModifyFirstResponderOnTraitCollectionTransition"b1"pendingPresentMasterViewController"b1"pendingUpdateTargetDisplayMode"b1"collapsingClockwise"b1"firstResponderChangedFromPostTransitionResponder"b1"firstResponderChangedFromPostTransitionResponderToNil"b1"inWillTransitionToSize"b1"hasTransitioningToInternalMode"b1"delegateImplementsPrivateIsPrimaryVisible"b1"delegateImplementsPrivateCollapseSecondaryViewControllerWhileSuspended"b1"usesExtraWidePrimaryColumn"b1"usesDeviceOverlayPreferences"b1"prefersOverlayInRegularWidthPhone"b1};
-- (_Bool)@0:(id)arg1 8{CGPoint=dd}16@32{CGAffineTransform=dddddd}40@88;
-- (struct CGRect)InsertDataForSearchBar:(id)arg1 collapsibleScopeBar:forLayoutState: /* Error: Ran out of types for this method. */;
-- (unsigned long long)eplyFeedbackInputDashboardViewController;
-- (void)WifiEntry:(id)arg1;
-- (id)rBackgroundImage;
-- (void)acements;
-- (id)mbnails: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ontroller: /* Error: Ran out of types for this method. */;
-- (id)ViewEnabled;
-- (struct CGRect)er;
-- (id)mRemoteSource_autoFillIsMenuPresented:(unsigned long long)arg1;
-- (void)ationContext;
-- (CDUnknownBlockType)targetIndexPathForMoveOfItemFromOriginalIndexPath:atCurrentIndexPath:toProposedIndexPath: /* Error: Ran out of types for this method. */;
-- (id)dState;
 - (unsigned long long);
-- (CDUnknownBlockType)ortedInterfaceOrientationsForWindow: /* Error: Ran out of types for this method. */;
-- (void)FromOldBackItem:(id)arg1 oldTopItem:newBackItem:newTopItem:withTransitionAssistant:completion: /* Error: Ran out of types for this method. */;
-- (id)nsformAnimation;
-- (_Bool)pareLargeTitleView;
-- (void)TabBarItems;
-- (id)age2;
-- (_Bool)opyOfConstraint:replaceItem:withItem: /* Error: Ran out of types for this method. */;
-- (id)t=dd},R,N,Vm_basePoint;
-- (void)tionFlags;
-- (struct CGRect)equired:(id)arg1;
-- (id)hangingViewControllerParentage;
-- (void)eObserver",&,N,V_urlChangeObserver;
-- (id)paratorLabel;
-- (void)xtPropertiesInternal>",R,N,V_labelProperties;
-- (id)ngLoading;
-- (void)IWebViewScrollView;
-- (id)CalendarDateComponent;
-- (void)layGestureView;
-- (void)dControl;
-- (id);
-- (Class)\;
+- (struct CGPoint);
+- (CDUnknownBlockType);
 - (id);
-- (void)style for region %@ provided to %@ attached to %@ since its view is not in a window. This most likely means the view (or an ancestor) was removed from the view hierarchy after receiving the pointer region.;
-- (id)X;
-- (void)ess is not approved to use the UIMenuOptionsPrivateShowAlternates SPI. Ignoring.;
-- (void)llBegin may result in incorrect visibility of search scope bar;
-- (_Bool);
-- (CDUnknownBlockType)dúþÿ;
-- (unsigned long long)gViewControllerComponentGroupCG;
-- (id)DMatchPhoneNumberCG;
-- (_Bool)n this platform.;
-- (void)mSize;
-- (_Bool)ithIdentifier:(struct CGRect)arg1 forLocalNotification:(struct CGRect)arg2 completionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
-- (id)> 0;
-- (id)ryKeylayout;
-- (id)voidanceFrame;
-- (id)eterIDAudioPanControl;
-- (_Bool)inconsistency:No attributes returned for invalidated supplementary view. Element kind:%@; index path:%@; supplementary view:%@; attributes from layout:%@; attributes from view:%@; collection view:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)y(void);
+- (id);
 - (struct CGSize);
-- (id);
-- (_Bool)4&;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool)õZ;
-- (void);
-- (struct CGSize);
-- (void);
-- (long long)~^;
-- (id)ëÃ^;
-- (void)súÒ"`;
-- (id)Zb;
-- (_Bool)¹;
-- (double)5ÿ;
 - (id);
-- (void)¼¿(ÿ%Ì¾;
-- (CDUnknownBlockType)ec;
-- (_Bool);
-- (void)ë;
+- (id);
 - (void);
-- (_Bool)<ÊC³c;
-- (id)ò>ÿ"<ÖªÅc;
-- (void)âc;
-- (id)çÿ ÓÓ·d;
-- (id)$ÿ;
-- (long long)SµÿóÙf<d;
-- (void)Cd;
-- (id)¨æIÿnê×iud;
-- (long long)Hðþx²;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (Class);
+- (id);
+- (_Bool);
+- (_Bool);
+- (struct CGRect);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)0@ù
+× ;
+- (void)!ÔGùZ°1Â0@ù
+× ;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)á°!ÐGùñ\°1Â0@ù
+× ;
+- (struct CGRect)
+× ;
+- (_Bool)q]1Â0@ù
+× ;
+- (void);
+- (id)0@ù
+× ;
+- (id)Ô¡°!°Cùña1Â0@ù
+× ;
+- (void);
+- (id)Ð!È@ùñc°1Â0@ù
+× ;
+- (id)!Ð!dGùñcÐ1Â0@ù
+× ;
+- (struct CGRect)
+× ;
+- (void)Ñf°1Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (struct CGRect)0@ù
+× ;
+- (void)!|FùgÐ1Â0@ù
+× ;
+- (id);
+- (id)"b1"delegateSupportsWillMoveCaret"b1"delegateSupportsDidMoveCaret"b1"viewSupportsTextStorage"b1"textStorageDidChange"b1"dropPerformed"b1"defaultDropHandling"b1"didHandleSameViewDropOperation"b1};
+- (void)q24;
+- (void)_UIContextMenuViewDelegate>";
+- (void)PathInArchive:forExtractionRootedAtStandardizedSubpathInArchive: /* Error: Ran out of types for this method. */;
+- (void)BeTriggeredBySwipe:(id)arg1;
+- (void)tDidAcceptRestrictedDistributionTerms:(_Bool)arg1;
+- (void)ctedRange:(CDUnknownBlockType)arg1;
+- (void)ipler;
+- (void)ttleTimer;
+- (id)sertChildMenu:atEndOfMenuForIdentifier: /* Error: Ran out of types for this method. */;
+- (void)inputViewController;
+- (void)r:(CDUnknownBlockType)arg1;
+- (id)abBarVisibilityAffectsTitle;
+- (_Bool);
+- (struct CGRect)eMenus;
+- (CDUnknownBlockType)intGreaterThanOrEqualToSystemSpacingAfterAnchor: /* Error: Ran out of types for this method. */;
+- (id)erTransition;
+- (void)Rect:(Class)arg1 forUpdateItem: /* Error: Ran out of types for this method. */;
+- (void)lor:(id)arg1;
+- (void)nfo;
+- (id)ssionFlags;
+- (Class)ollerViewFromHierarchy;
+- (id)originalLocation;
+- (id)tOffsetChanges;
+- (void)tingsScene;
+- (void)agArea;
+- (id)layWarningEntry;
+- (struct CGRect)ntroller:(id)arg1;
+- (void)onstraintsForWindow:(id)arg1 interfaceOrientation: /* Error: Ran out of types for this method. */;
+- (void)VisibleKeys;
+- (id)ateWithDelta: /* Error: Ran out of types for this method. */;
+- (_Bool)geForPage:(id)arg1;
+- (void)extAttributesForState;
+- (double)GPoint=dd}{CGSize=dd}},R,N,V_targetRectInSourceView;
+- (id)eAnchorPoint;
+- (id)teractionMenuVariantSpec",N,&,Vmenu;
+- (_Bool)ewCell",&,N,G_swipeToDeleteCell,S_setSwipeToDeleteCell: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_previewInteractionController;
+- (struct CGRect)dexPath",R,N,V_highlightedIndexPath;
+- (struct CGRect)tionStreams:(id)arg1;
+- (void)V__emphasisStyleKey;
+- (id)nerLeadingPinConstraint;
+- (id)tionBandVisualProviding>",&,N,V_visualProvider;
+- (void)N;
+- (void)bledObserver;
+- (_Bool)Kit32NavigationBarTransitionContainer;
+- (void);
+- (void)¤d;
+- (double)!"$
+(&&	H'
+$(;
+- (id),Ç;
+- (id)øÕ;
+- (id)Ü>0?;
+- (id)Ôà
+;
+- (id)ot _UITabBarMetricsTV in _UITabBarVisualProviderLegacyTVOS. _tabBar = %@;
+- (void)mething is artificially prolonging the life of UIWindowScene's coordinate space object;
+- (void)pt) font! This will yield invalid results.;
+- (CDUnknownBlockType)hÿÿ¨ÿÿÀÿÿØÿÿÿÿ0ÿÿHÿÿ¨ÿÿÀÿÿØÿÿðÿÿPÿÿhÿÿpÿÿÿÿ ÿÿ¤ÿÿÄÿÿüÿÿDÿÿ\ÿÿ¨ÿÿÈÿÿàÿÿøÿÿÿÿ(ÿÿ`ÿÿ¤ÿÿ¼ÿÿÔÿÿìÿÿ ÿÿ ÿÿ4 ÿÿL ÿÿ<#ÿÿ#ÿÿ¤#ÿÿÌ#ÿÿ$ÿÿ%ÿÿx%ÿÿ%ÿÿ¸%ÿÿà%ÿÿø%ÿÿ&ÿÿH&ÿÿ&ÿÿÀ&ÿÿø&ÿÿ'ÿÿ('ÿÿ@'ÿÿX'ÿÿp'ÿÿ'ÿÿ 'ÿÿ¸'ÿÿÐ'ÿÿè'ÿÿt(ÿÿ¸(ÿÿ)ÿÿø)ÿÿ`*ÿÿ*ÿÿ*ÿÿ+ÿÿ0+ÿÿH+ÿÿ`+ÿÿx+ÿÿ+ÿÿ¨+ÿÿ;
+- (id)0Çêÿx¥þH~þÿ;
+- (void);
+- (void)^îÿnîÿ;
+- (void)ostingView;
+- (_Bool)egistrar;
+- (void)ControllerColumn:(id)arg1 ];
+- (void)agged row height:(id)arg1 %g; section data:%@ /* Error: Ran out of types for this method. */;
+- (void)Warning:(id)arg1 Decoded class %@ doesn't exist in runtime for object from state restoration archive:(id)arg2 Object = %@;
+- (struct CGRect)oder:(struct CGRect)arg1 %@;
+- (void)tificationSettings"8;
+- (void)Kit file url representation cache queue;
+- (void)ePID:(id)arg1 ];
+- (id)tuationKeyCount;
+- (id)ientation:(id)arg1 %li;
+- (_Bool)h;
+- (void)B24;
+- (_Bool)ibraryKey getCHHapticPatternLibraryKeyDeviceUnsilenced(void);
+- (struct CGPoint).m;
+- (void)e._UIObjCIdentityWeakBox;
+- (void)ConfigurationCG;
+- (_Bool)W;
+- (void);
+- (id)CACornerRadii;
+- (_Bool)â;
+- (CDUnknownBlockType);
+- (void)^;
+- (void)¬ÿ`Ü1Wa;
+- (id)ARÐPLa;
+- (void)È^ÔdLb;
+- (void)Zïþ;
+- (unsigned long long)c;
+- (id)hØc;
+- (long long)×Áïf;
+- (_Bool)d;
+- (id)Øðmg;
+- (void)ÿfÈÚlQd;
+- (struct CGSize);
+- (id)¢ÑþfäÚ4d;
+- (id);
+- (id)<Õ`ªd;
+- (_Bool)Îd;
+- (id)<e;
+- (unsigned long long)e;
+- (struct CGRect);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) struct CGSize actualContentSize; // @synthesize actualContentSize=_actualContentSize;

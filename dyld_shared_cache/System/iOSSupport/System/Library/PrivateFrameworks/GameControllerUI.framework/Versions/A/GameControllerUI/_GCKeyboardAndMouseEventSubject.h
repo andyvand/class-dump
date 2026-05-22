@@ -32,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(copy) NSArray *buttonEventObservers; // @synthesize buttonEventObservers=_buttonEventObservers;

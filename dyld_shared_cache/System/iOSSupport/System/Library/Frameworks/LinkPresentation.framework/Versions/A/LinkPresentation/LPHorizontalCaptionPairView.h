@@ -23,19 +23,18 @@ __attribute__((visibility("hidden")))
     LPTextView *_rightView;
 }
 
-- (void)_;
-- (void)@y_;
+- (void);
+- (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (double);
 - (id);
 - (id);
 - (long long);
 - (struct CGSize);
+- (_Bool);
 - (double);
-- (_Bool)"
-P;
 - (id);
 - (id);
 - (void);
@@ -44,10 +43,11 @@ P;
 - (id);
 - (double);
 - (double);
-- (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

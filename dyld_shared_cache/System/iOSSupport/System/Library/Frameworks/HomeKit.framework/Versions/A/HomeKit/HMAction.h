@@ -15,8 +15,8 @@
     HMActionSet *_actionSet;
 }
 
-+ (_Bool)ts:completionHandler:] /* Error: Ran out of types for this method. */;
 + (id);
++ (_Bool);
 
 @end
 

@@ -20,7 +20,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)navailableExplanation;
 
 @end
 

@@ -4,5 +4,5 @@
 
 class std::__1::_AllocatorDestroyRangeReverse<std::__1::allocator<MTMPU::LayoutInterpolator::EntriesContainer>, MTMPU::LayoutInterpolator::EntriesContainer*> {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:ne200100]() const;
+    auto operator()[abi:nqe210106]() const;
 };

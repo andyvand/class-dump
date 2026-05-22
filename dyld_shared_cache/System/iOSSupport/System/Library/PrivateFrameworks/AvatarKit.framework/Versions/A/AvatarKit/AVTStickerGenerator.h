@@ -26,17 +26,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void)`;
+- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool async; // @synthesize async=_async;

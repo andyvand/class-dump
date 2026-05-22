@@ -14,13 +14,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (long long)@kuøl9+h*¹@khøQ8+h.¹@khøN8+s2¹ 8°;
-- (void);
-- (void)¶b7â»1;
+- (void)ûð!XEùÑ°1Â0@ù
+× ;
+- (void)d;
+- (long long)2;
 
 @end
 

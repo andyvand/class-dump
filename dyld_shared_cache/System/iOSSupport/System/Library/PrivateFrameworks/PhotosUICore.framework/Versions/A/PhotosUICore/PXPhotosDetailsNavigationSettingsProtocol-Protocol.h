@@ -5,7 +5,6 @@
 //
 
 @protocol PXPhotosDetailsNavigationSettingsProtocol
-- (_Bool)@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowZoomBounce;

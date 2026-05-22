@@ -14,12 +14,12 @@
 
 + (id);
 - (id);
-- (id)on 1-1 chat;
-- (void);
 - (id);
-- (void);
-- (id)rCurrentTransition block, aborting _scheduleTransition: /* Error: Ran out of types for this method. */;
-- (id)Ô¥ÿ;
+- (id);
+- (id);
+- (void)assAppearanceIfNeeded;
+- (void)¸Äjþç·ÍTi;
+- (id)rþ;
 
 @end
 

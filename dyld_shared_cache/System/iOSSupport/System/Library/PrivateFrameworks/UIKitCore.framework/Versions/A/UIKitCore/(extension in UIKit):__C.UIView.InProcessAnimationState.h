@@ -18,13 +18,11 @@
     MISSING_TYPE *startingVelocity;
 }
 
-- (_Bool)aq!pAùqÄ1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)e:(id)arg1;
-- (id),R,C,N;
-- (_Bool)cÛþ;
+- (_Bool);
+- (id);
+- (id)pdateMaskViewUsingAttributes:(id)arg1;
+- (_Bool)qáÿ Û$Ñl;
+- (void)§ÿüMÒHÚl;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isInProcess;

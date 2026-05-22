@@ -18,12 +18,12 @@
 - (struct CGPoint);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (struct CGPoint);
 - (void);
-- (void)2~ýÿ;
-- (id)ring"8@"NSString"16B24@"_SWCollaborationShareOptions"28;
+- (void);
+- (struct CGPoint)À¤.;
 
 @end
 

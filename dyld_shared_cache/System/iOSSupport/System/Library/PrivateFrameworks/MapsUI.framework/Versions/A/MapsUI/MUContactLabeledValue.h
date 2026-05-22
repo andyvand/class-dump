@@ -38,11 +38,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (long long);
 - (id);
-- (id)_scaledValueForValue: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)ns;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;

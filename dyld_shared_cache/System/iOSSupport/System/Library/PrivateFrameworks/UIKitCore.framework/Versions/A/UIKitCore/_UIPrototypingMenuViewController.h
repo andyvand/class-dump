@@ -18,22 +18,22 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void)rverTimestampInNanoseconds;
-- (void);
-- (void):(id)arg1 path:/System/Library/Frameworks/SharedWithYou.framework/SharedWithYou /* Error: Ran out of types for this method. */;
-- (long long);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)@"UIViewController"24@"UIBarButtonItem"32@"UIPopoverController"40;
-- (void)StyleStylable.;
+- (long long);
 - (void);
-- (id)þ;
-- (void)s^;
+- (id)letionLength;
+- (void)adius:thickness:rounded: /* Error: Ran out of types for this method. */;
+- (id)troller_Internal;
+- (void)ging priorities must be >= 1.;
+- (void);
+- (void);
+- (id)ëóÕP];
+- (void)T}ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allSettings; // @synthesize allSettings=_allSettings;

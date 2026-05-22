@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
+@class UIScrollView, UIView;
 
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)tifying client session did deactivate;
-- (void)|;
-- (void)4;
-- (void)visibleBoundsForTilingLayer:(UIScrollView *)arg1 ];
-- (void)FontAttributes;
+- (UIView *):(UIScrollView *)arg1;
+- (void)nt for curve;
 @end
 

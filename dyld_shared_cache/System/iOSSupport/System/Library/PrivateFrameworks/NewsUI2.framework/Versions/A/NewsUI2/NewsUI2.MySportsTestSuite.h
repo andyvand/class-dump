@@ -15,9 +15,9 @@
     MISSING_TYPE *sportTagIDs;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)QQ_ð§þ;
 
 @end
 

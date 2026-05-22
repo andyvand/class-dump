@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)TML;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *inputSurfaces; // @synthesize inputSurfaces=_inputSurfaces;

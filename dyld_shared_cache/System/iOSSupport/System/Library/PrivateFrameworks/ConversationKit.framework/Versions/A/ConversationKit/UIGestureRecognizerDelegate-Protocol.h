@@ -7,8 +7,6 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)<;
-- (_Bool)t8Defaults;
-- (_Bool)reeningTrackingState;
+- (_Bool)O¦¢yAAyÂO;
 @end
 

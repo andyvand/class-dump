@@ -11,9 +11,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)amicFlickKeycapOnKeysWithLayoutInfo: /* Error: Ran out of types for this method. */;
-+ (id)Óãj8_G;
-+ (long long).;
++ (id);
++ (id)edNotification;
++ (long long)g;
 
 @end
 

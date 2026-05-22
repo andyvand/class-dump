@@ -25,34 +25,33 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *feedbackGenerator;
 }
 
-+ (struct CGSize).security.firewall;
-+ (_Bool)Dý ;
++ (struct CGSize)n:subrangeIndex: /* Error: Ran out of types for this method. */;
++ (_Bool)tableSceneClientSettings<_UISceneHostingContentSizePreferenceClientSettings>"8;
 - (id);
-- (void)groundUpload:(id)arg1 chatIdentifier:style:transferID: /* Error: Ran out of types for this method. */;
-- (void)amCheckTimerMap;
-- (void)rIDForRelay;
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void)getFile->tempReaderWriter;
-- (void)or: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (_Bool)"UIInterfaceActionConcreteVisualStyle<UIInterfaceActionConcreteVisualStyleImpl>";
-- (void)PeriodStateForString:(id)arg1;
-- (void)gDuration;
-- (_Bool)peKeyplanSwitchKeyFontSize;
-- (void)tleAtIndex:(id)arg1;
-- (void)hMode:(id)arg1 visiblePath:backgroundColor: /* Error: Ran out of types for this method. */;
-- (id)taSourceHeadingForMove:duringIteration: /* Error: Ran out of types for this method. */;
-- (void)#;
-- (_Bool)nedLargeTitle;
-- (void)smatch;
-- (id)apid;
-- (void)LegibilitySetting;
-- (_Bool)ë!e;
+- (void);
+- (void)× ;
+- (void)ableView"16@"NSArray"24;
+- (void)erDelegate>";
+- (void)ews;
+- (void)hBundleIdentifier:(id)arg1 flags:reason:name: /* Error: Ran out of types for this method. */;
+- (_Bool)lowsDragEventsToPassthrough;
+- (id)riority:(struct CGRect)arg1;
+- (_Bool)T@"_UINavigationInteractiveTransitionBase",W,N,V_interactionController;
+- (_Bool)@"NSString",R,C,N,V_customizationIdentifier;
+- (void)HÌ ;
+- (void)tMenuInteraction in Mac Catalyst apps.;
+- (void)ð³b;
+- (_Bool)Ò¨Áb;
+- (void)´ÕÄUi;
 
 // Remaining properties
 @property(nonatomic, retain) id <UISwitchControl> switchControl;

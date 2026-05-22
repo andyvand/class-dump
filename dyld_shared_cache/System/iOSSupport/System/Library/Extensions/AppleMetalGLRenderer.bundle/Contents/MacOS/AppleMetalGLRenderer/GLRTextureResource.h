@@ -5,13 +5,13 @@
 class GLRTextureResource {
 public: // (access info unavailable from symbols alone)
     GLRTextureResource();
-    dealloc();
-    initWithMetalTexture(id<MTLTexture>, unsigned long);
-    setBaseLevelMaxLevel(unsigned int, unsigned int);
-    setForceASTC_LP(bool);
-    setSwizzleKey(unsigned int);
-    testIdle();
-    updateSampleViewIfNeeded(MTLPixelFormat, MTLTextureType, _NSRange);
-    waitIdle(GLDShareGroupRec*);
+    auto dealloc();
+    auto initWithMetalTexture(id<MTLTexture>, unsigned long);
+    auto setBaseLevelMaxLevel(unsigned int, unsigned int);
+    auto setForceASTC_LP(bool);
+    auto setSwizzleKey(unsigned int);
+    auto testIdle();
+    auto updateSampleViewIfNeeded(MTLPixelFormat, MTLTextureType, _NSRange);
+    auto waitIdle(GLDShareGroupRec*);
     ~GLRTextureResource();
 };

@@ -34,10 +34,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void)0:(id)arg1 8@"HFItem"16d24;
+- (id);
+- (void)d personalRequestsDevices = %lu;
 
 // Remaining properties
 @property(nonatomic) _Bool buttonColorFollowsTintColor; // @synthesize buttonColorFollowsTintColor=_buttonColorFollowsTintColor;

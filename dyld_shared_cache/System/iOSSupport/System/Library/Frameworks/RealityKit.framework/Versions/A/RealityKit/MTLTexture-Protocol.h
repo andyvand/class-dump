@@ -7,7 +7,7 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
-- (unsigned long long)Âûÿ;
+- (unsigned long long)ed;
 
 // Remaining properties
 @property(readonly) _Bool allowGPUOptimizedContents;

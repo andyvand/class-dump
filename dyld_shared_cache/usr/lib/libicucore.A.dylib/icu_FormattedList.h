@@ -5,10 +5,10 @@
 class icu::FormattedList {
 public: // (access info unavailable from symbols alone)
     FormattedList(icu::FormattedList&&);
-    appendTo(icu::Appendable&, UErrorCode&) const;
-    nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
-    operator=(icu::FormattedList&&);
-    toString(UErrorCode&) const;
-    toTempString(UErrorCode&) const;
+    auto appendTo(icu::Appendable&, UErrorCode&) const;
+    auto nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
+    auto operator=(icu::FormattedList&&);
+    auto toString(UErrorCode&) const;
+    auto toTempString(UErrorCode&) const;
     ~FormattedList();
 };

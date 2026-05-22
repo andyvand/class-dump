@@ -15,7 +15,7 @@
     NUTrait *_labelMaxWidthTrait;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -24,14 +24,14 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void)ation and line truncation should not occur at the same time;
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
+- (void);
 - (id);
 - (long long);
-- (void)yAppendingPathComponent:(long long)arg1;
+- (void)ion:(long long)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) NUErrorMessage *errorMessage; // @synthesize errorMessage=_errorMessage;

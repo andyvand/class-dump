@@ -69,7 +69,7 @@ struct condition_variable {
 };
 
 struct map<long, MPIdentifierSet *, std::less<long>, std::allocator<std::pair<const long, MPIdentifierSet *>>> {
-    struct __tree<std::__value_type<long, MPIdentifierSet *>, std::__map_value_compare<long, std::__value_type<long, MPIdentifierSet *>, std::less<long>>, std::allocator<std::__value_type<long, MPIdentifierSet *>>> {
+    struct __tree<std::__value_type<long, MPIdentifierSet *>, std::__map_value_compare<long, std::pair<const long, MPIdentifierSet *>, std::less<long>>, std::allocator<std::pair<const long, MPIdentifierSet *>>> {
         void *__begin_node_;
         struct {
             struct __tree_end_node<std::__tree_node_base<void *>*> {
@@ -133,7 +133,7 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, voi
 };
 
 struct unordered_map<unsigned long long, id, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, id>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long long, id>, std::__unordered_map_hasher<unsigned long long, std::__hash_value_type<unsigned long long, id>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, id>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::__hash_value_type<unsigned long long, id>>> {
+    struct __hash_table<std::__hash_value_type<unsigned long long, id>, std::__unordered_map_hasher<unsigned long long, std::pair<const unsigned long long, id>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::pair<const unsigned long long, id>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, id>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *>*> {
@@ -146,7 +146,7 @@ struct unordered_map<unsigned long long, id, std::hash<unsigned long long>, std:
 };
 
 struct unordered_map<unsigned short, unsigned long, std::hash<unsigned short>, std::equal_to<unsigned short>, std::allocator<std::pair<const unsigned short, unsigned long>>> {
-    struct __hash_table<std::__hash_value_type<unsigned short, unsigned long>, std::__unordered_map_hasher<unsigned short, std::__hash_value_type<unsigned short, unsigned long>, std::hash<unsigned short>, std::equal_to<unsigned short>>, std::__unordered_map_equal<unsigned short, std::__hash_value_type<unsigned short, unsigned long>, std::equal_to<unsigned short>, std::hash<unsigned short>>, std::allocator<std::__hash_value_type<unsigned short, unsigned long>>> {
+    struct __hash_table<std::__hash_value_type<unsigned short, unsigned long>, std::__unordered_map_hasher<unsigned short, std::pair<const unsigned short, unsigned long>, std::hash<unsigned short>, std::equal_to<unsigned short>>, std::__unordered_map_equal<unsigned short, std::pair<const unsigned short, unsigned long>, std::equal_to<unsigned short>, std::hash<unsigned short>>, std::allocator<std::pair<const unsigned short, unsigned long>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *>*> {
@@ -264,6 +264,14 @@ typedef struct {
 } CDStruct_e83c9415;
 
 // Ambiguous groups
+typedef struct {
+    unsigned int identifiers:1;
+    unsigned int text:1;
+    unsigned int hasStoreLyrics:1;
+    unsigned int hasTimeSyncedLyrics:1;
+    unsigned int hasDownloadedCatalogLyrics:1;
+} CDStruct_4f99e7c1;
+
 typedef struct {
     unsigned int identifiers:1;
 } CDStruct_f9384266;

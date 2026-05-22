@@ -51,18 +51,18 @@
 - (void);
 - (float);
 - (void);
+- (MISSING_TYPE *);
+- (id);
 - (void);
+- (id);
 - (unsigned long long);
 - (float);
 - (_Bool);
-- (id);
-- (void);
-- (MISSING_TYPE *);
-- (void);
-- (id);
 - (float);
 - (id);
+- (void);
 - (float);
+- (void);
 - (void);
 
 // Remaining properties

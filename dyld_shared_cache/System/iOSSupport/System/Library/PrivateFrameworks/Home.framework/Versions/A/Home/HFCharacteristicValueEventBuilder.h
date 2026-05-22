@@ -24,11 +24,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)Pt;
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *characteristic;

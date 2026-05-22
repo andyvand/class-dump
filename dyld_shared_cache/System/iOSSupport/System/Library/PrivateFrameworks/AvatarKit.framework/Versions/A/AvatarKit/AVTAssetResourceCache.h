@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)irected,   junk_level_set_by_user,   junk_level,   has_red_flag,   has_orange_flag,   has_yellow_flag,   has_green_flag,   has_blue_flag,   has_purple_flag,   has_gray_flag,   is_icloud_cleanup ) VALUES (  :(id)arg1 scope,   :conversation_id,   :date,   :display_date,   :read_later_date,   (SELECT count(DISTINCT ifnull(message_id, ROWID || '-fake-message-id')) FROM temp_thread_scope_message WHERE conversation_id = :conversation_id),   :journaled,   :has_unflagged,   :has_attachments,   :read,   :flagged,   :draft,   :replied,   :forwarded,   :redirected,   :junk_level_set_by_user,   :junk_level,   :has_Red_flag,   :has_Orange_flag,   :has_Yellow_flag,   :has_Green_flag,   :has_Blue_flag,   :has_Purple_flag,   :has_Gray_flag,   :is_icloud_cleanup ) ON CONFLICT (scope, conversation) DO UPDATE SET   date = max(date, excluded.date),   display_date = max(display_date, excluded.display_date),   read_later_date = max(read_later_date, excluded.read_later_date),   count = excluded.count,   journaled = journaled OR excluded.journaled,   has_attachments = has_attachments OR excluded.has_attachments,   has_attachments = has_attachments OR excluded.has_attachments,   read = read AND excluded.read,   flagged = flagged OR excluded.flagged,   draft = draft OR excluded.draft,   replied = replied OR excluded.replied,   forwarded = forwarded OR excluded.forwarded,   redirected = redirected OR excluded.redirected,   junk_level_set_by_user = junk_level_set_by_user OR excluded.junk_level_set_by_user,   junk_level = min(junk_level, excluded.junk_level),   has_red_flag = has_red_flag OR excluded.has_red_flag,   has_orange_flag = has_orange_flag OR excluded.has_orange_flag,   has_yellow_flag = has_yellow_flag OR excluded.has_yellow_flag,   has_green_flag = has_green_flag OR excluded.has_green_flag,   has_blue_flag = has_blue_flag OR excluded.has_blue_flag,   has_purple_flag = has_purple_flag OR excluded.has_purple_flag,   has_gray_flag = has_gray_flag OR excluded.has_gray_flag,   is_icloud_cleanup = is_icloud_cleanup OR excluded.is_icloud_cleanup WHERE count != excluded.count; /* Error: Ran out of types for this method. */;
 - (void);
-- (id)P;
+- (id);
 - (unsigned long long);
-- (void)seshoe_broad;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long policy; // @synthesize policy=_policy;

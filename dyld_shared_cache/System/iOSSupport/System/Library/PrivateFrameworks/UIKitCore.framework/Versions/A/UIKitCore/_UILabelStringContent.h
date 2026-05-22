@@ -17,23 +17,24 @@ __attribute__((visibility("hidden")))
     } _flags;
 }
 
+- (_Bool);
+- (_Bool);
+- (long long);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (id);
+- (_Bool);
 - (id);
-- (id)orAxis:(id)arg1;
-- (id);
-- (_Bool);
-- (id)initWithLibrary:(struct _NSZone *)arg1 identifier:entityType:artworkType: /* Error: Ran out of types for this method. */;
+- (id)ù
+× ;
+- (_Bool)etEnableLiftOnSelected: /* Error: Ran out of types for this method. */;
+- (id)_resetTextLabelDefaultFontInCell:(id)arg1;
+- (id),R,V_cgPage;
+- (_Bool)ionsController",&,N,V_previewActionsController;
+- (id)NavigationBarPlatterSubviewContainerView;
+- (id)P[Ä[\	ä\ð_\`°a;
 - (void);
-- (id)Ô ;
-- (_Bool)EditMenuInteraction"16@"UIMenu"24@"UIEditMenuConfiguration"32;
-- (_Bool)´xøt;
-- (id)ortedOrientations;
-- (id)ationInteraction;
-- (long long)`rê?þ&"ØdÍÀÀÍâRq@"9¸UÐó?;
-- (_Bool)¤#;
-- (_Bool)E;
-- (_Bool)HÿÚ;
 
 @end
 

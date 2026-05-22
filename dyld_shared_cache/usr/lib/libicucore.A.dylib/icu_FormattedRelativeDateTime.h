@@ -5,10 +5,10 @@
 class icu::FormattedRelativeDateTime {
 public: // (access info unavailable from symbols alone)
     FormattedRelativeDateTime(icu::FormattedRelativeDateTime&&);
-    appendTo(icu::Appendable&, UErrorCode&) const;
-    nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
-    operator=(icu::FormattedRelativeDateTime&&);
-    toString(UErrorCode&) const;
-    toTempString(UErrorCode&) const;
+    auto appendTo(icu::Appendable&, UErrorCode&) const;
+    auto nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
+    auto operator=(icu::FormattedRelativeDateTime&&);
+    auto toString(UErrorCode&) const;
+    auto toTempString(UErrorCode&) const;
     ~FormattedRelativeDateTime();
 };

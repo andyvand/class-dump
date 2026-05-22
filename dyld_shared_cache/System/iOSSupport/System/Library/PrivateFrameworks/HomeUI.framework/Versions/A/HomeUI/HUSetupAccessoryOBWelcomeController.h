@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (double);
-- (void);
 - (id);
+- (void)troller collectionCellClassForItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HUHomeAccessoryTileView *homeAccessoryTileView; // @synthesize homeAccessoryTileView=_homeAccessoryTileView;

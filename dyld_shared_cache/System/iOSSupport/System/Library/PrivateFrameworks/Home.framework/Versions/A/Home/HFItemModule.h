@@ -33,11 +33,11 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool);
-- (id)manager:failedToFindImageAtTimeOffset:forClip: /* Error: Ran out of types for this method. */;
-- (id)tionProfiles;
+- (id);
+- (id);
+- (_Bool)erInfo;
+- (void)ô;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allItems;

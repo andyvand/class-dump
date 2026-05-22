@@ -10,11 +10,12 @@
 {
 }
 
-- (id)L;
 - (id);
+- (_Bool);
+- (long long);
 - (id);
-- (long long)PreviewWithEnvironment:datasourceItemIndex:allDatasourceItems:supplementryItems:] /* Error: Ran out of types for this method. */;
-- (long long)ÿJÿ;
+- (long long)lloonAlignmentRectInsets;
+- (id);
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @protocol _UIAssertionControllerSubject
-- (_Bool)eHandler;
-- (void)ore;
+- (_Bool)tion;
+- (void)pandableTextView;
 @end
 

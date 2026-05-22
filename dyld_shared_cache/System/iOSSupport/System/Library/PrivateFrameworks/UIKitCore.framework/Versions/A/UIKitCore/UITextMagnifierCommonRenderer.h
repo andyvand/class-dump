@@ -22,14 +22,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)dInstanceForBagType:(CDUnknownBlockType)arg1;
-- (id)tifier:answer:error: /* Error: Ran out of types for this method. */;
-- (void)r: /* Error: Ran out of types for this method. */;
-- (id)fBuddy:to: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ØÕÄ¹;
-- (void)Wþÿ$Wþÿ@Wþÿ\WþÿxWþÿWþÿXþÿ(XþÿDXþÿ`Xþÿ|XþÿXþÿ´XþÿÐXþÿìXþÿYþÿDYþÿ`Yþÿ|YþÿYþÿ´YþÿÐYþÿìYþÿZþÿ4Zþÿ`Zþÿ|Zþÿ¨ZþÿÄZþÿàZþÿüZþÿ[þÿ4[þÿP[þÿl[þÿ[þÿ¤[þÿÀ[þÿÜ[þÿø[þÿ\þÿ0\þÿX\þÿ\þÿ \þÿ¼\þÿØ\þÿWþÿì\þÿ]þÿ]þÿ8]þÿT]þÿp]þÿ]þÿ¨]þÿÔ]þÿð]þÿ$^þÿ@^þÿ\^þÿx^þÿ^þÿ°^þÿÌ^þÿè^þÿ_þÿ _þÿ<_þÿX_þÿt_þÿ_þÿ¬_þÿð_þÿ\`þÿ|`þÿ¨`þÿÈ`þÿè`þÿaþÿ8aþÿPaþÿ bþÿPbþÿpbþÿ°bþÿÈbþÿàbþÿ,cþÿcþÿÔdþÿeþÿDeþÿ\eþÿeþÿeþÿÀeþÿØeþÿfþÿ$fþÿ<fþÿ\fþÿtfþÿ¸fþÿÐfþÿèfþÿ;
-- (void)äÃÿ;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)rrentMenuLayout;
+- (void)a;
 
 @end
 

@@ -32,49 +32,45 @@ __attribute__((visibility("hidden")))
     } _stateFlags[5];
 }
 
-+ (id)@;
 + (id);
-- (id);
-- (id);
-- (struct UIOffset);
++ (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)mand;
 - (void);
 - (id);
 - (struct UIOffset);
+- (void);
+- (void);
+- (void);
+- (id);
 - (struct UIOffset);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)º;
-- (id)oð!DùQÁð1¢!0@ù
-× ;
 - (void);
-- (void)
+- (id);
+- (id);
+- (_Bool);
+- (void)ð!XGùQ[Ð1Â0@ù
 × ;
-- (id)ð1¢!0@ù
+- (id)ù±[°1Â0@ù
 × ;
-- (void)qÍ°1¢!0@ù
-× ;
-- (void)!@ù±Î°1¢!0@ù
-× ;
-- (id)ngDeleteConfirmation:(long long)arg1;
-- (_Bool)straint;
-- (void)",&,N,V_storedSettings;
-- (void)°ìh;
-- (void);
-- (id)HT;
-- (void);
-- (long long);
-- (id)ewDelegate;
-- (id)%@
-;
-- (void)2@?0@"UIKeyboardEmojiSectionHeader"8@"NSString"16@"NSIndexPath"24;
-- (void)layout constraints are used inside it. Custom view:(id)arg1 %@;
-- (_Bool)0@?0{UIEdgeInsets=dddd}8;
-- (id)3WÓ;
+- (void)× ;
+- (id)tionToDefaultHeight;
+- (id)ginDragWithTouches:(long long)arg1 itemUpdater:(id)arg2;
+- (struct UIOffset)ion;
+- (id)cc;
+- (long long)aceholder trait (%@) is not supported;
+- (_Bool);
+- (void)iew controller with an unexpected presentation controller:(id)arg1 %@;
+- (void)ath:/System/Library/PrivateFrameworks/TextInputUI.framework/TextInputUI /* Error: Ran out of types for this method. */;
+- (void);
+- (void)pdate;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfiguration;

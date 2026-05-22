@@ -23,7 +23,7 @@
 + (long long);
 + (_Bool);
 + (id);
-+ (id)TUSenderIdentity"16;
++ (id);
 - (void);
 - (_Bool);
 - (void);

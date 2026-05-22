@@ -23,7 +23,7 @@
 + (id);
 + (double);
 + (void *);
-+ (double)>;
++ (double);
 + (CDStruct_2da3c04e);
 + (void);
 + (double);
@@ -37,11 +37,11 @@
 - (id);
 - (double);
 - (id);
-- (double);
-- (id);
-- (id);
 - (id);
 - (double);
+- (id);
+- (double);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double azimuth;

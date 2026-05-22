@@ -7,18 +7,18 @@
 @class NSString;
 
 @protocol FCNewsWidgetConfiguration
-- (long long);
 
 @optional
-- (long long);
-- (long long)í÷ùBÁà;
-- (long long)AiÁ<=;
-- (long long)ìÛlÜ oá;
-- (long long)oá;
-- (NSString *);
+- (_Bool);
+- (long long);
+- (long long)vþ;
+- (long long)I:Ì /* Error: Ran out of types for this method. */;
+- (long long)í;(FþþÝ;<Fþþ;
+- (long long);
 - (long long);
-- (long long)matLayoutFeedItem;
-- (long long)øUßÌë;
+- (long long)ewButtonAction;
+- (long long)P;
+- (long long)ñ	@,;;
 
 // Remaining properties
 @property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;

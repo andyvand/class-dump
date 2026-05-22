@@ -14,10 +14,12 @@
     struct CGSize _contactlessIconSize;
 }
 
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
-- (struct CGSize);
+- (void)ø1â
+0@ù
+× ;
 
 @end
 

@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)temEffectViewClass;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *filterMenuItems;

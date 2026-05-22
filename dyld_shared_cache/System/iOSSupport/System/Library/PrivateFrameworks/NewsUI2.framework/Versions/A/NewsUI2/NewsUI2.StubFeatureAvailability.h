@@ -37,15 +37,23 @@
     _Bool allowCIPBestOffer;
     _Bool allowSIWAOnMac;
     _Bool configurableOffersEnabled;
+    _Bool localOnboardingEnabled;
+    _Bool featurePromotionEnabled;
     MISSING_TYPE *sports;
     _Bool sportsNativeAdsEnabled;
     _Bool allowPaidBundleViaOffer;
     _Bool useFineGrainedNewsletterManagement;
     MISSING_TYPE *liveActivitiesEnabled;
     MISSING_TYPE *enableAIAttribution;
-    MISSING_TYPE *feedDifferentiationModeEnabled;
-    _Bool useFeedDifferentiationMode;
     _Bool useFood;
+    _Bool recipeHistoryFeedEnabled;
+    _Bool recipeUnitConversionEnabled;
+    _Bool multipartRecipesEnabled;
+    _Bool recipeRatingsEnabled;
+    _Bool ingredientScalingEnabled;
+    _Bool recipeNotesEnabled;
+    _Bool imagesInStepsEnabled;
+    _Bool nutritionInfoEnabled;
     _Bool widgetUpsellFeaturesEnabled;
     _Bool useSearchInArticle;
 }
@@ -68,7 +76,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -78,36 +85,55 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)tputBuffer;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool)ion: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
-- (_Bool)equest] selecting shuffle ID | failed [no playable assets];
-- (_Bool)ccelerationAccount;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (id)ÝÿXiÝÿ|iÝÿ°iÝÿìiÝÿjÝÿkÝÿìkÝÿlÝÿÄlÝÿmÝÿ4mÝÿÜmÝÿ;
 - (_Bool);
-- (_Bool)Kmï;
-- (_Bool)in Game Center for non-authenticated users;
-- (_Bool)e¼öÓþ;
-- (_Bool)8;
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)w;
+- (_Bool)Router;
+- (_Bool)H;
+- (_Bool)bility;
+- (_Bool)d·v;
+- (_Bool)e,Y¹þE&eY¹þ-&eÔY¹þE&eZ¹þ&edZ¹þ&e¬Z¹þ­&eôZ¹þµ&eD[¹þ&e¤[¹þý%eô[¹þe&eD\¹þ;
+- (_Bool)e{;
+- (_Bool)Suggestion;
+- (_Bool)eedRouter;
+- (_Bool)e°°þje°°þ½je°°þ½je°°þíje°°þke°°þje °°þ5ke¤°°þÕje¨°°þUje¬°°þ5ke°°°þåje´°°þje¸°°þ]je¼°°þmjeÀ°°þ=jeÄ°°þõjeÀ°°þÕjeÄ°°þjeÈ°°þÍjeÌ°°þMjeÐ°°þujeÔ°°þujeØ°°þjeÜ°°þÅieØ°°þÍieÜ°°þ­jeØ°°þjeÜ°°þmjeà°°þmjeä°°þjeè°°þ;
+- (_Bool);
+- (_Bool);
+- (_Bool)±È;
 
 // Remaining properties
 @property(nonatomic) _Bool allowCIPBestOffer; // @synthesize allowCIPBestOffer;
@@ -119,14 +145,23 @@
 @property(nonatomic) _Bool articleLinkBehaviorImprovementsEnabled; // @synthesize articleLinkBehaviorImprovementsEnabled;
 @property(nonatomic) _Bool configurableOffersEnabled; // @synthesize configurableOffersEnabled;
 @property(nonatomic) _Bool dimNonSubscriberContentOffline; // @synthesize dimNonSubscriberContentOffline;
+@property(nonatomic) _Bool featurePromotionEnabled; // @synthesize featurePromotionEnabled;
+@property(nonatomic) _Bool imagesInStepsEnabled; // @synthesize imagesInStepsEnabled;
+@property(nonatomic) _Bool ingredientScalingEnabled; // @synthesize ingredientScalingEnabled;
 @property(nonatomic) _Bool interstellarEnabled; // @synthesize interstellarEnabled;
+@property(nonatomic) _Bool localOnboardingEnabled; // @synthesize localOnboardingEnabled;
+@property(nonatomic) _Bool multipartRecipesEnabled; // @synthesize multipartRecipesEnabled;
 @property(nonatomic) _Bool narrativeAudio; // @synthesize narrativeAudio;
+@property(nonatomic) _Bool nutritionInfoEnabled; // @synthesize nutritionInfoEnabled;
 @property(nonatomic, retain) _TtC16NewsSubscription26PaidBundleViaOfferSettings *paidBundleViaOfferAvailability; // @synthesize paidBundleViaOfferAvailability;
 @property(nonatomic) _Bool puzzlesEnabled; // @synthesize puzzlesEnabled;
 @property(nonatomic) _Bool puzzlesGameCenterEnabled; // @synthesize puzzlesGameCenterEnabled;
+@property(nonatomic) _Bool recipeHistoryFeedEnabled; // @synthesize recipeHistoryFeedEnabled;
+@property(nonatomic) _Bool recipeNotesEnabled; // @synthesize recipeNotesEnabled;
+@property(nonatomic) _Bool recipeRatingsEnabled; // @synthesize recipeRatingsEnabled;
+@property(nonatomic) _Bool recipeUnitConversionEnabled; // @synthesize recipeUnitConversionEnabled;
 @property(nonatomic) _Bool sportsNativeAdsEnabled; // @synthesize sportsNativeAdsEnabled;
 @property(nonatomic) _Bool useContinueReading; // @synthesize useContinueReading;
-@property(nonatomic) _Bool useFeedDifferentiationMode; // @synthesize useFeedDifferentiationMode;
 @property(nonatomic) _Bool useFineGrainedNewsletterManagement; // @synthesize useFineGrainedNewsletterManagement;
 @property(nonatomic) _Bool useFood; // @synthesize useFood;
 @property(nonatomic) _Bool useMoreFromIssueEOA; // @synthesize useMoreFromIssueEOA;

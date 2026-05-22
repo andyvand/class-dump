@@ -12,18 +12,18 @@
     id <PKImageGenerationControllerDelegate> _delegate;
 }
 
-- (_Bool)ng startIndex=%lu endIndex=%lu excerpt='%{public}@';
-- (_Bool)ode:%{public}@ message:%{public}@ stacktrace:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)(Ðð%¤øè¼;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKImageGenerationControllerDelegate> delegate; // @synthesize delegate=_delegate;

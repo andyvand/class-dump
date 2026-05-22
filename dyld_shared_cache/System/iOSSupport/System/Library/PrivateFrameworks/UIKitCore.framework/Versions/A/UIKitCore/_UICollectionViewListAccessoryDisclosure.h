@@ -28,36 +28,39 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (double);
-- (CDUnknownBlockType)tarted processing for Message GUID:%@ /* Error: Ran out of types for this method. */;
-- (void)Provider;
+- (CDUnknownBlockType);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (double);
-- (id);
-- (void);
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (id)!èEù1YÐ1Â0@ù
+× ;
+- (_Bool)0@ù
+× ;
+- (CDUnknownBlockType)!4Cùe1Â0@ù
+× ;
+- (void)lerForCollapsingSplitViewController"b1"delegatePrimaryViewControllerForExpandingSplitViewController"b1"delegateCollapseSecondaryViewControllerOntoPrimaryViewController"b1"delegateSeparateSecondaryViewControllerFromPrimaryViewController"b1"delegatePreferredSearchColumnForSplitViewController"b1"delegateInteractivePresentationGestureWillBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
+- (void)mage;
+- (id)t:rect:layout:scale:applyContentsTransform: /* Error: Ran out of types for this method. */;
+- (struct CGSize)ayerPresentationContext",R,C,N;
 - (void);
 - (id);
+- (void)e-constraint;
+- (void)tConfiguration _defaultConfigurationForStyle:state:] /* Error: Ran out of types for this method. */;
+- (id)ÿö°þ;
+- (id);
 - (void);
-- (_Bool);
-- (void)àçÙ¹;
-- (id);
-- (void)× ;
-- (void);
-- (void)zedViewController;
-- (id)on: /* Error: Ran out of types for this method. */;
-- (void)ndTable:(id)arg1;
-- (CDUnknownBlockType)ngInsets;
-- (void)IFBSSceneCatalystSettings;
-- (unsigned long long)KBFocusGuideDelegate;
-- (id)$;
-- (id)bDc$ehf;
-- (struct CGSize). Set a breakpoint on %s to debug. This message will only be logged once.;
-- (void)mputeAuxiliaryUpdates must be called by the layout first;
-- (void)itViewController must return an instance of a UISplitViewController subclass. %@ returned %@, which is not a kind of UISplitViewController.;
-- (struct CGSize);
-- (id)¡ëÿ;
+- (id)`;
+- (unsigned long long)èa;
+- (void)Ø¸d;
+- (id)°ûd;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryTintColor; // @synthesize accessoryTintColor=_accessoryTintColor;

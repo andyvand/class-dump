@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (double);
-- (void);
 - (id);
 - (id);
+- (void)ations;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *allMetadata;

@@ -31,13 +31,13 @@
 - (void);
 - (id);
 - (void);
-- (void)I;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)elper"16;
 - (void);
-- (void)´;
+- (void);
+- (void)tedOccurrence: /* Error: Ran out of types for this method. */;
 
 @end
 

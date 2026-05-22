@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (double);
-- (double)%;
 - (double);
-- (void);
+- (double);
 - (void);
 - (id);
 - (void);
+- (void)¨º;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKInputPointAltitudeAndAzimuthEdgeFilterDelegate> delegate; // @synthesize delegate=_delegate;

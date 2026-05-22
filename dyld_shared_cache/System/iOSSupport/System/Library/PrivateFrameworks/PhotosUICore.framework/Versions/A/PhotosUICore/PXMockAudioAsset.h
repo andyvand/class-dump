@@ -47,23 +47,25 @@
 - (long long);
 - (id);
 - (void);
+- (CDStruct_1b6d18a9);
+- (void);
+- (id);
+- (id);
+- (void);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id)idateCachesOutsideRect: /* Error: Ran out of types for this method. */;
-- (id)dLibraryAnalysisStatusC;
-- (CDStruct_1b6d18a9);
-- (void)5;
-- (id)7;
+- (id)Áù!°CùQFÐ1â
+0@ù
+× ;
+- (id)ffineTransform=dddddd}}72{CGRect={CGPoint=dd}{CGSize=dd}}120{CGSize=dd}152{?=qiIq}168{?=q(?=d)}192;
+- (unsigned long long)ssetsFetchResultChangeDetails;
+- (void)stance;
+- (id)oopingEnabled;
+- (id)c;
+- (id)tSolverPreferred;
+- (void){CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{UIEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}8r^{CGRect={CGPoint=dd}{CGSize=dd}}16;
+- (void)~;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumTitle; // @synthesize albumTitle=_albumTitle;

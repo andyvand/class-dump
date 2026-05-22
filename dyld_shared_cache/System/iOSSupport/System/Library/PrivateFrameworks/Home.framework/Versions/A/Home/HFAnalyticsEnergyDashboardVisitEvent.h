@@ -19,11 +19,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void)vel;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *gridID; // @synthesize gridID=_gridID;

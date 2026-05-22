@@ -5,8 +5,5 @@
 //
 
 @protocol CUIKOccurrenceCacheDataSourceProtocol
-- (void);
-- (void)P;
-- (void)°;
 @end
 

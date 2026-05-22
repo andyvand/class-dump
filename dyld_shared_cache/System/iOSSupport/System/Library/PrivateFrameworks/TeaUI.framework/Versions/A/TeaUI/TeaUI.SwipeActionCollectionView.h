@@ -20,28 +20,28 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)Pe<;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)try == nil;
-- (void)stionsETARequester ETAsFromLocation:(id)arg1 toEntries:completion:] /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)FHtmlIDSignature,HTMLDocument.prototype.mf_getQuickReplyStyleElement=function(){return this.querySelector("#"+MFHtmlIDQuickReplyStyle)},HTMLDocument.prototype.mf_quickReplyDisplayHiddenNodes=function(e){if(!isQuickReplyEnabled)return;let t=this.mf_getQuickReplyStyleElement();if(e){if(t&&t.remove(),this.quickReplyHiddenNodes)for(let e of this.quickReplyHiddenNodes)this.body.appendChild(e)}else if(this.quickReplyHiddenNodes===undefined)(t=this.createElement("style")).setAttribute("id",MFHtmlIDQuickReplyStyle),this.head.appendChild(t),t.sheet.insertRule(HTMLDocument.mf_quickReplyElementsToHideSelector+" {display:(CDUnknownBlockType)arg1 none;}");else for(let e of this.quickReplyHiddenNodes)e.remove()},HTMLDocument.prototype.mf_quickReplyClearStylesAndSaveNodesIfNeeded=function(){if(!isQuickReplyEnabled||this.quickReplyHiddenNodes!==undefined)return;let e=this.querySelectorAll(HTMLDocument.mf_quickReplyElementsToHideSelector);this.quickReplyHiddenNodes=Array.from(e);for(let t=0;t<e.length;++t){let i=e[t];for(let l=t+1;l<e.length;++l){let t=e[l];if(i.contains(t)){let e=this.quickReplyHiddenNodes.indexOf(t);e>-1&&this.quickReplyHiddenNodes.splice(e,1)}}}for(let e of this.quickReplyHiddenNodes)e.remove();let t=this.mf_getQuickReplyStyleElement();t&&t.remove()};;
-- (id);
-- (void)ize;
-- (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
 - (_Bool);
-- (void)T;
-- (struct CGPoint)÷;
+- (void);
+- (void);
+- (void)DqüÿrüÿTrüÿ¬rüÿärüÿürüÿsüÿLsüÿpsüÿsüÿ¬süÿÔsüÿDtüÿltüÿtüÿðtüÿ4uüÿÈuüÿðvüÿTwüÿÔwüÿ\xüÿxüÿ¬xüÿôxüÿyüÿDyüÿ\yüÿtyüÿyüÿ¤yüÿ¼yüÿDzüÿlzüÿzüÿT{üÿð{üÿh|üÿ¬|üÿì|üÿ<}üÿÐ}üÿè}üÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsSelection;

@@ -13,11 +13,11 @@
     id <SXComponentActionHandler> _actionHandler;
 }
 
-- (id)R7;
 - (id);
 - (id);
-- (void);
-- (id);
+- (id);
+- (id);
+- (void)@0:8@"UIViewController"16@"NSURL"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;

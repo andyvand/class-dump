@@ -12,7 +12,7 @@
 {
 }
 
-+ (_Bool)t;
++ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -20,12 +20,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)Notification;
-- (id)"NSDictionary"8@"NSError"16;
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -34,7 +33,8 @@
 - (_Bool);
 - (id);
 - (double);
-- (long long);
+- (id);
+- (long long)n;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

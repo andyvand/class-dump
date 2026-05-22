@@ -27,17 +27,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

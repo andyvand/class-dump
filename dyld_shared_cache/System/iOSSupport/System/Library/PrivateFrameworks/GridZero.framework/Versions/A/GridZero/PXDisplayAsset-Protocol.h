@@ -7,11 +7,10 @@
 @class NSData, NSDate, NSNumber, NSString;
 
 @protocol PXDisplayAsset
-- (unsigned long long)ookupLock_recordsByDisplayAsset;
 
 @optional
-- (struct CGRect);
-- (NSNumber *)er;
+- (double)@
+;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

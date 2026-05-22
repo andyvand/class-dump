@@ -16,19 +16,19 @@
     NSHashTable *_observers;
 }
 
-+ (id)ring transition. Underlying view controller is nil.;
++ (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

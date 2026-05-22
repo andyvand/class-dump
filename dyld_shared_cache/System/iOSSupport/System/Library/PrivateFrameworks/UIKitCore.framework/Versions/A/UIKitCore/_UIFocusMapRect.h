@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (struct CGRect);
-- (void);
-- (id): /* Error: Ran out of types for this method. */;
+- (id);
+- (struct CGRect)ToggleLetterCaseNext: /* Error: Ran out of types for this method. */;
+- (void)p¼[;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;

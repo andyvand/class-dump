@@ -5,9 +5,7 @@
 //
 
 @protocol PXMutableAppleMusicPlayerController
-- (void)ychDurationMultiplier;
-- (double);
-- (void);
+- (void)ÉÈC^ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long playbackState;

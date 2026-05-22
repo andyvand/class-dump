@@ -15,8 +15,8 @@
     MISSING_TYPE *deviceController;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

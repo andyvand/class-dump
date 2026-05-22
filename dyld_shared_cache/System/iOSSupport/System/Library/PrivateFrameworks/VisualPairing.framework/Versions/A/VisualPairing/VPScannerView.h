@@ -43,19 +43,19 @@
 - (void);
 - (double);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (long long);
 - (void);
-- (long long);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (long long)6;
 
 // Remaining properties
 @property(nonatomic) long long autoFocusRangeRestriction; // @synthesize autoFocusRangeRestriction=_autoFocusRangeRestriction;

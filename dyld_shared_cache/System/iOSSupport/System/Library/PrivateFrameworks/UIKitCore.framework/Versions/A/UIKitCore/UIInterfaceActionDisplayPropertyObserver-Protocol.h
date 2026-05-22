@@ -5,6 +5,5 @@
 //
 
 @protocol UIInterfaceActionDisplayPropertyObserver
-- (void)a;
 @end
 

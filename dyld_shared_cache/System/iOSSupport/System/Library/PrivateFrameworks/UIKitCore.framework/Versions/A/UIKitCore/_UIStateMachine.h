@@ -20,15 +20,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void *)[def blockSize ;
+- (void *);
 - (void);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long)e:screen: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ñdÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) void *spec;

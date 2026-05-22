@@ -4,5 +4,5 @@
 
 class std::__1::shared_ptr<TSUStringChunk> {
 public: // (access info unavailable from symbols alone)
-    shared_ptr[abi:ne200100]<TSUStringChunk, 0>(TSUStringChunk*);
+    auto shared_ptr[abi:nqe210106]<TSUStringChunk, 0>(TSUStringChunk*);
 };

@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _block;
 }
 
-- (void);
-- (id);
 - (id);
-- (CDUnknownBlockType)q;
 - (void);
 - (id);
 - (void);
-- (void)"AVAssetResourceLoader"16@"NSURLAuthenticationChallenge"24;
-- (void)¾ ÿÿCÿÿt#ÿÿ;
-- (id)andID: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void)ybackContext:| adding data source [] position=Start section=%{public}@ /* Error: Ran out of types for this method. */;
+- (id)ngKeys;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

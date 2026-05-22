@@ -26,7 +26,7 @@
 - (_Bool);
 - (const CDStruct_cd85e889 *);
 - (void);
-- (_Bool)alPoint3DForAttribute:atIndex: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasColumnIndices; // @synthesize hasColumnIndices=mHasColumnIndices;

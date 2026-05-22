@@ -18,13 +18,12 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id)!ÔFùq|°1b0@ù
-× ;
-- (long long);
+- (id)Image";
+- (long long)completion handler.;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_dateRanges; // @synthesize _dateRanges=__dateRanges;

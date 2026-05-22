@@ -26,12 +26,12 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
 - (CDUnknownBlockType);
-- (id);
 - (id);
 
 // Remaining properties

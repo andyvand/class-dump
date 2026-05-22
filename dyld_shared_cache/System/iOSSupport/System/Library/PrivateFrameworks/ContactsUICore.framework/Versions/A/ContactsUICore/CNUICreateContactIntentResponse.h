@@ -10,8 +10,8 @@
 }
 
 - (id);
-- (long long)A17_y³2GGGA_y 0SgGGGQo_A34_GGGGA23_yA43_GGA_y-¤0SgGG0y&¯SgGGGtG;
-- (void)y]UÿÿG;
+- (long long);
+- (void)IJK;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

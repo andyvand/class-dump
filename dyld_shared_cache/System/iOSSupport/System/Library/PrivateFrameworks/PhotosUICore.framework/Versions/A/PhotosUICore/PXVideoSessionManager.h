@@ -20,7 +20,7 @@
 
 + (CDStruct_1b6d18a9);
 + (_Bool);
-+ (id)hrèÿFAO£å8;
++ (id);
 - (id);
 - (id);
 - (id);
@@ -36,11 +36,11 @@
 - (id);
 - (id);
 - (void);
-- (void)0e;
 - (id);
 - (id);
-- (id)Client: /* Error: Ran out of types for this method. */;
-- (void)ÿ´g8ÿÑl4¯;
+- (id);
+- (void)toryViewLayout willUpdate];
+- (void)tosDynamicHeaderLayoutProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *activeSessions;

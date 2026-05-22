@@ -11,8 +11,8 @@
     MISSING_TYPE *contentWidthForCalculatedFittingFont;
 }
 
-- (void);
 - (id);
+- (void);
 - (id);
 
 @end

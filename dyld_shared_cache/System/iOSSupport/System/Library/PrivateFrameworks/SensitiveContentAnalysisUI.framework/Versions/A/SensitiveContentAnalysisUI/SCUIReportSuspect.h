@@ -20,16 +20,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)Xè¤èéhé=|êë´ì>íØî;
-- (id)¬Ç¨í;
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *accountID; // @synthesize accountID=_accountID;

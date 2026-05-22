@@ -14,19 +14,18 @@
 }
 
 + (_Bool);
-+ (id)¨èhìÄ<t;
++ (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)
-× ;
-- (id)MDelegateCaller",R,N,V_delegateCaller;
+- (id)nfo;
+- (void)Ä¸;
 
 // Remaining properties
 @property(readonly, copy) NSArray *accessories;

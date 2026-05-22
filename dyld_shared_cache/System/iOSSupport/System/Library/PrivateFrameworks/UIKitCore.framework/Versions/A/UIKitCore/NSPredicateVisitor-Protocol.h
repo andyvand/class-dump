@@ -5,8 +5,7 @@
 //
 
 @protocol NSPredicateVisitor
-
-@optional
 - (void);
+- (void)Ø];
 @end
 

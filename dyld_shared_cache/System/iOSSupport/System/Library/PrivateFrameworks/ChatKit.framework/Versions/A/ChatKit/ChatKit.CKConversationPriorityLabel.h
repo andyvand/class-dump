@@ -10,12 +10,12 @@
     _Bool ck_highlighted;
 }
 
-- (void)er title query;
+- (void);
 - (_Bool);
 - (id);
-- (long long)tyOfWordBuffer:length:languageObject:forPrediction:alreadyCapitalized: /* Error: Ran out of types for this method. */;
-- (id)º:(struct CGRect)arg1 üÿ;
-- (void)i15newSegmentIndex_R?11segmentViewtG;
+- (long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool ck_highlighted; // @synthesize ck_highlighted;

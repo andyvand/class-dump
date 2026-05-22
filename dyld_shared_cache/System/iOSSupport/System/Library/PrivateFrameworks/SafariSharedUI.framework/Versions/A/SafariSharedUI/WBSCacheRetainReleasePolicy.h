@@ -16,15 +16,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)etchUsedWebView:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *retainedKeyStrings;

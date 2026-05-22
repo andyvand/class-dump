@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)rredOffscreenSetNeedsDisplay;
+- (void)tDirection:sizeClassHorizontal:sizeClassVertical:appearanceName:locale: /* Error: Ran out of types for this method. */;
 
 @end
 

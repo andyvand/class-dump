@@ -5,7 +5,6 @@
 //
 
 @protocol CPSelectableListItem
-- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler;

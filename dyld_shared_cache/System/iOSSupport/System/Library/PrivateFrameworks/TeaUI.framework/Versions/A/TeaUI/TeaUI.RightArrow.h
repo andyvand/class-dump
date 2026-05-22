@@ -11,10 +11,10 @@
     MISSING_TYPE *arrowColor;
 }
 
-- (id)ScoringConfig;
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)(ÿÿB=þÿ;
 
 @end
 

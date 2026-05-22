@@ -13,8 +13,7 @@
 }
 
 + (id);
-+ (void)ÑM°1b0@ù
-× ;
++ (void)XGraphBinding>",&,N,V_durationBinding;
 - (_Bool);
 - (unsigned int);
 - (void);

@@ -15,12 +15,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)ÊÿÿÊ­ýÿ;
+- (void)dAppDescriptor;
 
 // Remaining properties
 @property(readonly, nonatomic) INCExtensionConnection *connection; // @synthesize connection=_connection;

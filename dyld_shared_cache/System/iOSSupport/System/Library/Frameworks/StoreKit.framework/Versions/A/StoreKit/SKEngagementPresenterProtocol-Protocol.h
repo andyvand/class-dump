@@ -5,6 +5,5 @@
 //
 
 @protocol SKEngagementPresenterProtocol
-- (void);
 @end
 

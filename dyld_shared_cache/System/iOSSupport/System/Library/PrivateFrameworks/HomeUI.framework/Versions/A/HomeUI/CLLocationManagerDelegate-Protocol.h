@@ -9,7 +9,10 @@
 @protocol CLLocationManagerDelegate
 
 @optional
+- (void)Q1â
+0@ù
+× ;
 - (void);
-- (void)peAlarm:(CLLocationManager *)arg1;
+- (void)oSizeByConstrainingWidth:(CLLocationManager *)arg1;
 @end
 

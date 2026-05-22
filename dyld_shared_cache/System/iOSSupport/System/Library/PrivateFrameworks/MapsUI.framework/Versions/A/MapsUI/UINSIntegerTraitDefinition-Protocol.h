@@ -5,5 +5,8 @@
 //
 
 @protocol UINSIntegerTraitDefinition
++ (long long)A°1â
+0@ù
+× ;
 @end
 

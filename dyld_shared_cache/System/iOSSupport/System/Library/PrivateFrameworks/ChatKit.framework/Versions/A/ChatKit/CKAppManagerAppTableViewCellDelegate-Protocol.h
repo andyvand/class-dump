@@ -5,6 +5,5 @@
 //
 
 @protocol CKAppManagerAppTableViewCellDelegate
-- (void);
 @end
 

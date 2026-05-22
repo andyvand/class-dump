@@ -16,19 +16,18 @@
     PRSPosterUpdateSessionInfo *_sessionInfo;
 }
 
-+ (id)úÿ
-¡ÿd;
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id)tion:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <PFPosterContents> existingPoster; // @synthesize existingPoster=_existingPoster;

@@ -20,22 +20,22 @@
 - (id);
 - (unsigned long long);
 - (CDStruct_aeb9a598);
-- (id)ion:(id)arg1;
 - (id);
-- (double)/FMCoreLite;
-- (_Bool)c}@:(id)arg1 value = %{public}@ | oldValue = %{public}@;
+- (id);
+- (double);
+- (_Bool);
 - (id);
 - (int);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (void);
+- (id);
 - (long long);
-- (id);
-- (id)@;
-- (id)P;
-- (id);
-- (id);
-- (unsigned long long)heFileAssetForGenericObject:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void)%{public}@ %2i %{public}@  â userTransitionPreference:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date;

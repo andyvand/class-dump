@@ -11,10 +11,10 @@
     id <TSKModalShieldDelegate> mDelegate;
 }
 
-- (void);
-- (void)+@9);
 - (id);
 - (void);
+- (void);
+- (void)InBackground:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) id <TSKModalShieldDelegate> delegate; // @synthesize delegate=mDelegate;

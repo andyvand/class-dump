@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)aredMomentSharePhotoLibrary;
-- (id)hClientID:capabilities:context:reply: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (double)ýÙ~e;
+- (id);
+- (double)w;
+- (double)extInputSessionUndoAction;
+- (double)IndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

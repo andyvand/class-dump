@@ -5,11 +5,13 @@
 //
 
 @class NSString, _HMContext;
+@protocol HMDarwinNotificationProvider;
 
 @interface HMClientConnection
 {
     _Bool _homesConfigured;
     _HMContext *_context;
+    id <HMDarwinNotificationProvider> _darwinNotificationProvider;
 }
 
 + (id);
@@ -25,8 +27,8 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id)tingsDataSourceDataSource;
-+ (id)t½;
++ (id)ttingsForMetrics;
++ (id);
 - (void);
 - (void);
 - (id);
@@ -34,12 +36,14 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
 - (id);
+- (void)Ü#;
+- (id)rceP;
 
 // Remaining properties
 @property(readonly) _HMContext *context; // @synthesize context=_context;
+@property(readonly, nonatomic) id <HMDarwinNotificationProvider> darwinNotificationProvider; // @synthesize darwinNotificationProvider=_darwinNotificationProvider;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

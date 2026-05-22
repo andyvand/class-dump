@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (double);
-- (double)tationToChatID:(struct CGRect)arg1 identifier:(long long)arg2 style:(double)arg3 account:(double)arg4;
-- (void)ctivity:(id)arg1 attemptCount:(struct CGRect)arg2 startTime:(struct CGPoint)arg3 error:(struct CGPoint)arg4 retry:(struct CGPoint)arg5;
-- (void)t;
-- (void)entShareFetchForContext:(id)arg1 momentShare:(struct CGRect)arg2 error:(struct CGPoint)arg3;
+- (double);
 - (void);
-- (struct CGPoint);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
 - (struct CGPoint);
 
 @end

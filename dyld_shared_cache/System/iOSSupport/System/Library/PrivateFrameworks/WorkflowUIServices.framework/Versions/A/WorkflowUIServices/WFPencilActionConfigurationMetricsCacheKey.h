@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (struct CGSize);
 - (void);
 - (long long);
+- (unsigned long long);
+- (_Bool);
+- (struct CGSize);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;

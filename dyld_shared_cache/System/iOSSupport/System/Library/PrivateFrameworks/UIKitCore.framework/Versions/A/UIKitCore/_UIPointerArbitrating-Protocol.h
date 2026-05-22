@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPointerRegion, UIPointerStyle, _UIPointerLensView;
+@class _UIPointerLensView;
 
 @protocol _UIPointerArbitrating
-- (_UIPointerLensView *)ork.dnsproxy;
-- (void)chForce:(UIPointerRegion *)arg1;
-- (void):(UIPointerRegion *)arg1 followingItem:isPrecededByVisibleItem:isFollowedByVisibleItem: /* Error: Ran out of types for this method. */;
-- (long long)s;
-- (void)cene identity:(UIPointerStyle *)arg1 %@;
+- (void);
+- (long long)dCùQ\1Â0@ù
+× ;
+- (void)ace;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIPointerLensView *lensView;

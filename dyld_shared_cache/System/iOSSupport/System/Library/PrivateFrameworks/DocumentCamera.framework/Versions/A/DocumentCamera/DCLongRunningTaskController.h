@@ -54,22 +54,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (_Bool);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (id);
 - (void);
 - (CDUnknownBlockType);
+- (_Bool);
 - (void);
 - (void);
-- (id)
-× ;
-- (id)iewControllerTransitionCoordinatorContext>"8;
+- (void)cingConstraint;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

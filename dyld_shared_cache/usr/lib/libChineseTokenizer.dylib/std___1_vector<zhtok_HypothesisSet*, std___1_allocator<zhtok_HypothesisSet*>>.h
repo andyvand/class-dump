@@ -4,5 +4,5 @@
 
 class std::__1::vector<zhtok::HypothesisSet*, std::__1::allocator<zhtok::HypothesisSet*>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
+    auto __throw_length_error[abi:nqe210106]();
 };

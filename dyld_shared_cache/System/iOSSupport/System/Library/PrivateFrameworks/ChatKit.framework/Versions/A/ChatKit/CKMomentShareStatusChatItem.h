@@ -10,15 +10,15 @@
 {
 }
 
-- (_Bool)Objects;
-- (BOOL)henticationMechanism;
+- (_Bool);
+- (BOOL);
 - (id);
-- (struct CGSize)a;
-- (id)n;
+- (struct CGSize);
 - (id);
-- (Class);
+- (id);
 - (struct UIEdgeInsets);
-- (unsigned long long)omaticallyTranslate;
+- (Class);
+- (unsigned long long)tem"24@"NSIndexPath"32@40;
 
 @end
 

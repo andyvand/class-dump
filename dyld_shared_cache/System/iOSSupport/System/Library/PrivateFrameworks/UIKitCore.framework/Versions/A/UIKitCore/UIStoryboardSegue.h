@@ -18,20 +18,19 @@
 
 + (id);
 - (id);
-- (id)lineComponent;
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void)
-× ;
-- (id)entlyPressedTypes;
-- (id)t for %{public}@ failed to return a synchronizer for pid=%i - synchronization with scenes will not be possible;
-- (id)À[;
+- (id)be at least 0.0, or UITableViewAutomaticDimension.;
+- (id)a possible system item;
+- (void)?F`¬o`rê?j¾J>®ÉÀmUÙw@£<órØ½ó?;
+- (void)ÞÈe;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *destinationViewController; // @synthesize destinationViewController=_destinationViewController;

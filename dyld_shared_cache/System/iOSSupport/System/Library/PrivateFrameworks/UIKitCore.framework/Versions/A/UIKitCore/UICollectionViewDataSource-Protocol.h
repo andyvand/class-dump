@@ -7,14 +7,15 @@
 @class NSArray, NSIndexPath, UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)jeþjeþp71;
+- (long long)roller",R,N,V_actionSelectionController;
+- (UICollectionViewCell *);
 
 @optional
-- (NSArray *)nerRadiusEnabled;
-- (_Bool)t;
+- (long long)stDegenerateBaselineCalculation;
+- (_Bool)÷<ø;
+- (NSArray *)UIKBRenderFactoryWordsSystemCompactFontName;
+- (NSIndexPath *)tor, timer;
 - (void);
-- (long long)The number of provided view controllers (%ld) doesn't match the number required (%ld) for the requested spine location (%@);
-- (NSIndexPath *)ingContentViewEnableBackgroundFills;
-- (UICollectionReusableView *)ractionEnabled;
+- (UICollectionReusableView *)o[;
 @end
 

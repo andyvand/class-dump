@@ -15,15 +15,15 @@
 - (long long);
 - (id);
 - (struct Schemata);
-- (_Bool);
+- (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)rver];
-- (void)ôW0v;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

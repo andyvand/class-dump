@@ -5,15 +5,15 @@
 class icu::UTF16CollationIterator {
 public: // (access info unavailable from symbols alone)
     UTF16CollationIterator(icu::UTF16CollationIterator const&, char16_t const*);
-    backwardNumCodePoints(int, UErrorCode&);
-    forwardNumCodePoints(int, UErrorCode&);
-    foundNULTerminator();
-    getOffset() const;
-    handleGetTrailSurrogate();
-    handleNextCE32(int&, UErrorCode&);
-    nextCodePoint(UErrorCode&);
-    operator==(icu::CollationIterator const&) const;
-    previousCodePoint(UErrorCode&);
-    resetToOffset(int);
+    auto backwardNumCodePoints(int, UErrorCode&);
+    auto forwardNumCodePoints(int, UErrorCode&);
+    auto foundNULTerminator();
+    auto getOffset() const;
+    auto handleGetTrailSurrogate();
+    auto handleNextCE32(int&, UErrorCode&);
+    auto nextCodePoint(UErrorCode&);
+    auto operator==(icu::CollationIterator const&) const;
+    auto previousCodePoint(UErrorCode&);
+    auto resetToOffset(int);
     ~UTF16CollationIterator();
 };

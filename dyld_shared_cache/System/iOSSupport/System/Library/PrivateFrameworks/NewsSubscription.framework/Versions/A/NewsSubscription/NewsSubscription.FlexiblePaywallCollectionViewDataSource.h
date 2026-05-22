@@ -15,11 +15,11 @@
     MISSING_TYPE *subscribeButtonDebouncer;
 }
 
+- (id);
 - (long long);
 - (void);
-- (id);
-- (id);
-- (id)newssubscription.bundle_subscriptions.prewarm_refresh_period;
+- (id);
+- (id)NPAlreadySubscribedNoPublisherNameAlertTitle;
 
 @end
 

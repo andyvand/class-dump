@@ -16,9 +16,8 @@
 }
 
 - (id);
-- (void)
-× ;
-- (id)ewContainer;
+- (id)_UITableViewSubviewManagerDelegate;
+- (void)*é°;
 
 @end
 

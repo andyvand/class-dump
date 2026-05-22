@@ -27,22 +27,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)NAppToAppLayerMappingDeclaration_AppLayerVPNMappingItem"8;
-- (void);
-- (void);
-- (double);
-- (void);
 - (unsigned long long);
-- (_Bool)tRewriteMatchingUndoRedoReplacementText:(id)arg1;
-- (void)noresSearchSuggestionsForStackedSearch:(id)arg1;
-- (void)ÿÿÿÿ´;
-- (void)tWpY;
-- (id){;
-- (void)cation;
-- (CDStruct_5aea72b4)2252C983512ClippingView;
 - (struct CGSize);
-- (_Bool)ê;
+- (double);
 - (void);
+- (_Bool)!¬@ùc°1Â0@ù
+× ;
+- (void);
+- (id)gestion;
+- (void)t properly implemented when there's no search controller;
+- (void);
+- (void);
+- (_Bool)roupedBackgroundColorLegacyWhite;
+- (CDStruct_5aea72b4);
+- (void)ü\;
+- (_Bool)æþ;
+- (void)4_;
+- (void)´îâþÁi;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

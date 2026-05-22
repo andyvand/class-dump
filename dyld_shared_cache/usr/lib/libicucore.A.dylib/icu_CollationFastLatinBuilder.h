@@ -5,19 +5,19 @@
 class icu::CollationFastLatinBuilder {
 public: // (access info unavailable from symbols alone)
     CollationFastLatinBuilder(UErrorCode&);
-    addContractionEntry(int, long long, long long, UErrorCode&);
-    addUniqueCE(long long, UErrorCode&);
-    encodeCharCEs(UErrorCode&);
-    encodeContractions(UErrorCode&);
-    encodeTwoCEs(long long, long long) const;
-    encodeUniqueCEs(UErrorCode&);
-    forData(icu::CollationData const&, UErrorCode&);
-    getCEs(icu::CollationData const&, UErrorCode&);
-    getCEsFromCE32(icu::CollationData const&, int, unsigned int, UErrorCode&);
-    getCEsFromContractionCE32(icu::CollationData const&, unsigned int, UErrorCode&);
-    getMiniCE(long long) const;
-    inSameGroup(unsigned int, unsigned int) const;
-    loadGroups(icu::CollationData const&, UErrorCode&);
-    resetCEs();
+    auto addContractionEntry(int, long long, long long, UErrorCode&);
+    auto addUniqueCE(long long, UErrorCode&);
+    auto encodeCharCEs(UErrorCode&);
+    auto encodeContractions(UErrorCode&);
+    auto encodeTwoCEs(long long, long long) const;
+    auto encodeUniqueCEs(UErrorCode&);
+    auto forData(icu::CollationData const&, UErrorCode&);
+    auto getCEs(icu::CollationData const&, UErrorCode&);
+    auto getCEsFromCE32(icu::CollationData const&, int, unsigned int, UErrorCode&);
+    auto getCEsFromContractionCE32(icu::CollationData const&, unsigned int, UErrorCode&);
+    auto getMiniCE(long long) const;
+    auto inSameGroup(unsigned int, unsigned int) const;
+    auto loadGroups(icu::CollationData const&, UErrorCode&);
+    auto resetCEs();
     ~CollationFastLatinBuilder();
 };

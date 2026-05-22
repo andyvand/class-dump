@@ -18,26 +18,25 @@
     unsigned long long _contentType;
 }
 
-- (id)ardizedContent:account: /* Error: Ran out of types for this method. */;
-- (void)scuredContentInsets:(id)arg1 immediate: /* Error: Ran out of types for this method. */;
-- (void)timelineSectionsForNoteObjectIDs:(unsigned long long)arg1 dates:referenceDate:direction: /* Error: Ran out of types for this method. */;
-- (void)onTextAttachment;
-- (id)zR;
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id)llerWillPerformHighlightUpdatesNotification;
-- (id)word for all your locked notes.;
-- (void)icationPrompt update];
-- (void)ǈ<(q
-;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void)te:(id)arg1 [%lu];
-- (unsigned long long);
-- (id)uO o©,;
-- (void)·/-;
+- (unsigned long long)nameBannerIfNeeded because this chat cannot suggest recipient contact;
+- (void);
+- (void);
+- (id)^ìÿ;
 
 // Remaining properties
 @property(nonatomic) __weak CKSearchTokenFilter *associatedStagedFilter; // @synthesize associatedStagedFilter=_associatedStagedFilter;

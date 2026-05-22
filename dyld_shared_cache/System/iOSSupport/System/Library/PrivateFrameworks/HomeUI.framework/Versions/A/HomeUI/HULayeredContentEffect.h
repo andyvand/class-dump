@@ -16,9 +16,9 @@
 + (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
+- (void)ationsTitle;
+- (void)8±Åÿ?þ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;

@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _dynamicAccumulatorIncreaseBlock;
 }
 
-+ (id)ithin3Days;
++ (id);
 - (void);
-- (CDUnknownBlockType)ing",C,N,V_associatedMessageFallbackHash;
+- (CDUnknownBlockType);
 - (void);
-- (void)ation;
-- (void)nAnimationSubranges;
-- (id)stPage;
+- (id)ePlain: /* Error: Ran out of types for this method. */;
+- (void)solving configuration (%@) effectiveBehavior (%@);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType dynamicAccumulatorIncreaseBlock; // @synthesize dynamicAccumulatorIncreaseBlock=_dynamicAccumulatorIncreaseBlock;

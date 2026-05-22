@@ -18,12 +18,12 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (id)Ø;
-- (id)üQ;
-- (id)ewBannerAdjustablePreview;
+- (id);
+- (_Bool);
+- (id)playableAssetForAsset;
+- (id)fter an update cycle;
+- (void)|&ÿ&ÿð%a;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;

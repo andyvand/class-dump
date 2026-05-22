@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView, UICollectionViewLayout;
-
 @protocol UICollectionViewDelegateFlowLayout
-
-@optional
-- (struct CGSize)oContinueUserActivityWithType:(UICollectionView *)arg1 error:(UICollectionViewLayout *)arg2;
-- (double);
 @end
 

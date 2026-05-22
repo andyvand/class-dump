@@ -15,10 +15,9 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
 - (_Bool);
-- (void);
-- (id)0@ù
-× ;
+- (void)unexpected filter case;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id recoveryAttempter; // @synthesize recoveryAttempter=_recoveryAttempter;

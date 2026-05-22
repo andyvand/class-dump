@@ -13,10 +13,10 @@
     MISSING_TYPE *swipeAction;
 }
 
+- (id);
 - (void);
-- (id)Ls;
-- (void);
-- (id)Q;
+- (id);
+- (void)ýÿ;
 
 @end
 

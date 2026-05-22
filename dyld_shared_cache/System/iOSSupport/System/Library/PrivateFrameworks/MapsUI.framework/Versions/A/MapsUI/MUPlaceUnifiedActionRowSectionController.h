@@ -40,8 +40,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (_Bool);
 - (id);
 - (int);
@@ -53,9 +53,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void)ouldBlur;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUPlaceUnifiedActionRowSectionControllerDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;

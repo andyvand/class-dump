@@ -4,5 +4,5 @@
 
 class os_detail::panic_trapping_policy {
 public: // (access info unavailable from symbols alone)
-    trap(char const*);
+    auto trap(char const*);
 };

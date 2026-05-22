@@ -4,8 +4,11 @@
 
 class JetPack::SignedStreamDecoder {
 public: // (access info unavailable from symbols alone)
-    fill(unsigned long);
-    inputIsFinished();
-    readBlock();
+    auto fill(unsigned long);
+    auto inputIsFinished();
+    auto readBlock();
+    auto readBlock() (.cold.1);
+    auto readBlock() (.cold.2);
+    auto readBlock() (.cold.3);
     ~SignedStreamDecoder();
 };

@@ -18,10 +18,11 @@
     MISSING_TYPE *feedServiceConfig;
     MISSING_TYPE *featureAvailability;
     MISSING_TYPE *feedPluginManager;
+    MISSING_TYPE *searchResultsProcessor;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

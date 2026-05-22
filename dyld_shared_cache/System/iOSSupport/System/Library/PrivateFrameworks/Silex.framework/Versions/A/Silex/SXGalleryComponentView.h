@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void):8@"TSWPDrawableAttachment"16Q24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) SXDragManager *dragManager; // @synthesize dragManager=_dragManager;

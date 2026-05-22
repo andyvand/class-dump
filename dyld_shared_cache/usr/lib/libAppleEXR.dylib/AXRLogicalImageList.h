@@ -8,11 +8,11 @@ public: // (access info unavailable from symbols alone)
     AXRLogicalImageList(NSObject<OS_axr_data>*) (.cold.1);
     AXRLogicalImageList(NSObject<OS_axr_data>*) (.cold.2);
     AXRLogicalImageList(void const*&, unsigned long&, axr_error_t*, axr_flags_t);
-    IsEqual(AXRLogicalImageList const*) const;
-    LoadDefaultGroups(AXRData const*, bool&);
-    LoadDefaultGroups(AXRData const*, bool&) (.cold.1);
-    LoadDefaultGroups(AXRData const*, bool&) (.cold.2);
-    LoadDefaultGroups(AXRData const*, bool&) (.cold.3);
-    LoadDefaultGroups(AXRData const*, bool&) (.cold.4);
+    auto IsEqual(AXRLogicalImageList const*) const;
+    auto LoadDefaultGroups(AXRData const*, bool&);
+    auto LoadDefaultGroups(AXRData const*, bool&) (.cold.1);
+    auto LoadDefaultGroups(AXRData const*, bool&) (.cold.2);
+    auto LoadDefaultGroups(AXRData const*, bool&) (.cold.3);
+    auto LoadDefaultGroups(AXRData const*, bool&) (.cold.4);
     ~AXRLogicalImageList();
 };

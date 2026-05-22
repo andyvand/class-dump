@@ -29,8 +29,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)mething in the initializer probably called something that loaded the view. This is bad, because it makes us do extra unnecessary work.;
 
 // Remaining properties
 @property(retain, nonatomic) HFPinCodeListModule *guestsListModule; // @synthesize guestsListModule=_guestsListModule;

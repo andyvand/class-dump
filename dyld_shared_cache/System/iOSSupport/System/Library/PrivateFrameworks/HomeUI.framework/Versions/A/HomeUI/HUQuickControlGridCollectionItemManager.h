@@ -69,9 +69,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)0@ù
+× ;
+- (void)eRuleEditor_RemoveTimes;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) HFAccessoryControlItem *accessoryControlItem; // @synthesize accessoryControlItem=_accessoryControlItem;

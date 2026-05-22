@@ -11,8 +11,8 @@
 }
 
 - (void);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(getter=isImportingFromPhotoLibraryEnabled) _Bool importingFromPhotoLibraryEnabled; // @dynamic importingFromPhotoLibraryEnabled;

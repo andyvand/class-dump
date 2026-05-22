@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)String:internalOnly:initialSync: /* Error: Ran out of types for this method. */;
-- (void)MessageToPeers:messageType:guid:originalSender:forcedCallerID:hasAttachment:watchOnly: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id)find localized string for key %s with localization %s, falling back to system lookup behavior;
-- (id)Sending message received receipt to AskTo;
 - (id);
 - (void);
-- (id)y.í;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)rTVOnly;
+- (void)0U];
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *activityIndicatorView; // @synthesize activityIndicatorView=_activityIndicatorView;

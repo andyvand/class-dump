@@ -12,7 +12,7 @@
     NSMutableArray *_filenames;
 }
 
-+ (id)¬w;
++ (id)che sharedCache];
 - (id);
 - (id);
 - (id);

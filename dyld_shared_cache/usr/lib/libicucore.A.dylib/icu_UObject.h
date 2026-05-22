@@ -4,6 +4,6 @@
 
 class icu::UObject {
 public: // (access info unavailable from symbols alone)
-    getDynamicClassID() const;
+    auto getDynamicClassID() const;
     ~UObject();
 };

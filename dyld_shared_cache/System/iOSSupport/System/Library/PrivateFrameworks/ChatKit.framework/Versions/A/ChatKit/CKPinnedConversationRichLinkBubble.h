@@ -16,16 +16,16 @@
     LPLinkView *_linkView;
 }
 
-- (_Bool)ange;
-- (_Bool)teInsertion;
+- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (id)s;
+- (id);
+- (id);
 - (double);
-- (long long):8B16B20 /* Error: Ran out of types for this method. */;
+- (long long);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -33,7 +33,7 @@
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (void)ode;
+- (void)ÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

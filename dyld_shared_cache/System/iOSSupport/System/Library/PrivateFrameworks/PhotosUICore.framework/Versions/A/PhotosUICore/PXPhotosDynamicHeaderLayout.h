@@ -34,10 +34,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)TB,N,V_needsParticipantSetup;
-- (void)centAddedDateEverSeen;
+- (void);
+- (void);
+- (void)¤Ú+ÿÈtÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSIndexSet *axSpriteIndexes;

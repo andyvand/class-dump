@@ -42,13 +42,13 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id)tWithItemUpdater:home:serviceLikeItem:context: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)ddPersonRoleViewController.;
+- (unsigned long long)con:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HFCondition *condition; // @synthesize condition=_condition;

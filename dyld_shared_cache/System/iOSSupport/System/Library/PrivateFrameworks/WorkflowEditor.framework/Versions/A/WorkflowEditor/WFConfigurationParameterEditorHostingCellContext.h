@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)AÀd;
 
 // Remaining properties
 @property(retain, nonatomic) MTVisualStylingProvider *fillProvider; // @synthesize fillProvider=_fillProvider;

@@ -23,10 +23,10 @@ __attribute__((visibility("hidden")))
     UIColor *_contentBlendingColor;
 }
 
-+ (Class)litiesyHCg_G;
-+ (Class)d pipeline;
++ (Class);
++ (Class);
 + (struct UIEdgeInsets);
-+ (double)shotter>",R,N;
++ (double);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -34,34 +34,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (struct CGRect);
 - (double);
 - (_Bool);
-- (void);
+- (long long);
 - (id);
-- (long long);
-- (_Bool);
 - (void);
-- (unsigned long long);
-- (double);
-- (id)1¢!0@ù
-× ;
-- (double)idateView;
-- (void)dShapeInsets;
-- (struct UIEdgeInsets)rKeyCommand;
-- (void)¤ø#;
-- (id);
+- (struct UIEdgeInsets);
+- (double)ResponderCapabilitiesChangedNotificationWithOutput:selectionChanged: /* Error: Ran out of types for this method. */;
+- (id)oadedContents;
+- (_Bool)orPortalInteraction;
+- (double)raction;
+- (void)OfTouchesRequired;
+- (_Bool)`µ;
+- (id)Äþÿ;
+- (struct CGRect)Auto shutdown(For audio only);
 - (void);
-- (void);
-- (_Bool)ewClass(void)_block_invoke;
-- (long long);
-- (id)!\;
-- (void)ÍÓÿ;
+- (void)efaultHeightForBarSize:(long long)arg1 ];
+- (unsigned long long)ar;
+- (void)_h=¾7tc;
+- (id)ius_&¿70A5Curve:"¿713maskedCornerst /* Error: Ran out of types for this method. */;
+- (void)s;
+- (void)assFlexInteraction;
+- (long long)0,tþ°43;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *arrowBackgroundColor; // @synthesize arrowBackgroundColor=_arrowBackgroundColor;

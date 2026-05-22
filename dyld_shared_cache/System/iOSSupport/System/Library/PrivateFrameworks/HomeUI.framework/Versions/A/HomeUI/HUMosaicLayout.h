@@ -19,14 +19,15 @@
 - (id);
 - (void);
 - (struct CGRect);
-- (_Bool);
-- (struct CGSize);
 - (id);
 - (void);
-- (void);
-- (id)Animator: /* Error: Ran out of types for this method. */;
-- (void)ctionViewHidden:(id)arg1;
-- (id)lÆÐ;
+- (struct CGSize);
+- (_Bool)0@ù
+× ;
+- (id)ctionView"16@"UIContextMenuConfiguration"24@"NSIndexPath"32;
+- (void)dingCurrentSample: /* Error: Ran out of types for this method. */;
+- (void)tionItem"8;
+- (id)Ûþ0;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *attributeCache; // @synthesize attributeCache=_attributeCache;

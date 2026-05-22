@@ -4,5 +4,6 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100](char const*);
+    auto __throw_length_error[abi:nqe210106](char const*);
+    std::__1::__allocation_result<std::__1::allocator_traits<std::__1::allocator<float>>::pointer> __allocate_at_least[abi:nqe210106]<std::__1::allocator<float>>(std::__1::allocator<float>&, unsigned long);
 };

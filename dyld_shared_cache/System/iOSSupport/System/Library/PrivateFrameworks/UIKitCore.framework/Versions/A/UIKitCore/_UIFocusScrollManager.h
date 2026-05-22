@@ -24,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)cords;
+- (_Bool);
 - (void);
-- (id)en validating tokens, no further action needed.;
-- (_Bool)level changed to %@;
 - (id);
-- (void)a;
-- (id)EmojiCategoryNature;
+- (_Bool);
+- (id)HeaderHeight;
+- (void)[;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIScreen *screen; // @synthesize screen=_screen;

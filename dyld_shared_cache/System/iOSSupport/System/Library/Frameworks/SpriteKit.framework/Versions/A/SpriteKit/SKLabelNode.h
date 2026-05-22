@@ -20,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)4Ü;
++ (_Bool);
 - (void);
 - (long long);
 - (void);
@@ -37,32 +37,41 @@
 - (id);
 - (void);
 - (double);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
+- (id);
+- (void);
 - (struct CGRect);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)4;
-- (id)4;
-- (void)Ë÷ÿÌøÿÈöÿÈõÿj²ÿÆôÿÂòÿÃóÿÁòÿÀñÿ¾ðÿµæÿ(8õ;
 - (id);
 - (double);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long)
+× ;
+- (id)t{;
+- (void)2 v_tex_coord;
+varying lowp vec4 v_color_mix;
+varying highp float v_path_distance;
+
+lowp vec4 SKDefaultShading() {
+return v_color_mix * texture2D(u_texture, v_tex_coord);
+}
+#line 0
+;
+- (long long);
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText;

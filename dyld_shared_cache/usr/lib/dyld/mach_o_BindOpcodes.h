@@ -5,6 +5,6 @@
 class mach_o::BindOpcodes {
 public: // (access info unavailable from symbols alone)
     BindOpcodes(unsigned char const*, unsigned long, bool);
-    hasDoneBetweenBinds() const;
-    implicitLibraryOrdinal() const;
+    auto hasDoneBetweenBinds() const;
+    auto implicitLibraryOrdinal() const;
 };

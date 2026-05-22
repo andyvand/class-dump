@@ -23,13 +23,13 @@
 - (void);
 - (void);
 - (void);
-- (void)z;
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -40,11 +40,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void)tricWithResult:error: /* Error: Ran out of types for this method. */;
-- (_Bool)d to fetch changes for zones:%{public}@ with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

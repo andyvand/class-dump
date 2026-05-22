@@ -4,5 +4,5 @@
 
 class AXRBufferPool {
 public: // (access info unavailable from symbols alone)
-    allocate();
+    auto allocate();
 };

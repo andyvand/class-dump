@@ -20,10 +20,9 @@
 - (void);
 - (void);
 - (id);
-- (void)¡q!ÀDù±Äð1¢!0@ù
-× ;
-- (id);
-- (void)Ô,Zq;
+- (id)SceneRequestOptionsFactory;
+- (void);
+- (void)ÚÖÜ$ül;
 
 @end
 

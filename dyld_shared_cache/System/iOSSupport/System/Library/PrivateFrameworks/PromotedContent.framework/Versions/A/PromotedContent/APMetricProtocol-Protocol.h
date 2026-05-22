@@ -7,15 +7,8 @@
 @class NSArray, NSDate, NSDictionary, NSString;
 
 @protocol APMetricProtocol
-- (void)issue from My Magazines on all your iCloud devices?;
-- (void)from My Magazines on all your iCloud devices?;
-- (NSArray *)r;
-- (NSString *)gationController.swift;
-- (void);
-- (NSString *)ion range max.;
-- (NSString *): /* Error: Ran out of types for this method. */;
-- (long long);
-- (NSString *)ã@ñÿ;
+- (void)ôþÿþÿ4þÿXþÿ|þÿ þÿ¸þÿÜþÿ;
+- (NSString *);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *branch;

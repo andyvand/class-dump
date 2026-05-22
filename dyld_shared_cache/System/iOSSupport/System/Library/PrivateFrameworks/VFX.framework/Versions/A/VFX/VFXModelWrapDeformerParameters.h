@@ -32,7 +32,7 @@
     unsigned long long _legacyDeformedNodeUVChannel;
 }
 
-+ (_Bool)i××¬;
++ (_Bool)Descriptor"16Q24^@32^@40;
 - (id);
 - (id);
 - (void);
@@ -40,8 +40,8 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bindingMode;

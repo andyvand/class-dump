@@ -26,20 +26,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)sferGUID;
-- (id)D:(id)arg1;
-- (id)nference:(id)arg1 receivedCancelInvitationFrom:properties: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (id);
 - (struct UIEdgeInsets);
 - (id);
 - (id);
 - (id);
-- (void)v;
-- (void)1¢!0@ù
-× ;
-- (void)$b;
-- (_Bool)]h;
-- (id)¼ËRÿ2;
+- (void);
+- (_Bool);
+- (void)®Ùlwd;
+- (id)°øqh;
+- (void)j;
 
 // Remaining properties
 @property(readonly, nonatomic) UIRemoteInputViewInfo *assistantViewInfo;

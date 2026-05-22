@@ -18,8 +18,8 @@
 + (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PHImageManagerSettings *imageManagerSettings; // @synthesize imageManagerSettings=_imageManagerSettings;

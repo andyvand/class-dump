@@ -17,7 +17,7 @@
     double _productionReportsTimeInterval;
 }
 
-+ (id)Ä7¨ÿ¬¢K2í8;
++ (id);
 - (double);
 - (void);
 - (void);
@@ -32,8 +32,8 @@
 - (long long);
 - (double);
 - (_Bool);
+- (id);
 - (void);
-- (id))_[AAy±w"y+e"yADyADy·²$yQo_¶p"yèu"SgGG§f"Gñn"yAGGGGÎ¸$GG;
 
 // Remaining properties
 @property(nonatomic) _Bool isFeatureEnabled; // @synthesize isFeatureEnabled=_isFeatureEnabled;

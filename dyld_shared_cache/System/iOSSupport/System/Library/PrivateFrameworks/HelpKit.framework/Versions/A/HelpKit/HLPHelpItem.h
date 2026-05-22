@@ -21,21 +21,20 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (long long);
+- (void);
 - (id);
 - (id);
 - (id);
-- (long long)
-× ;
-- (void)RequestsDataMap:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (long long)ror:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *decodedName;

@@ -26,10 +26,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id)$;
+- (id);
 
 // Remaining properties
 @property(readonly) _Bool isRegisteredForNotification;

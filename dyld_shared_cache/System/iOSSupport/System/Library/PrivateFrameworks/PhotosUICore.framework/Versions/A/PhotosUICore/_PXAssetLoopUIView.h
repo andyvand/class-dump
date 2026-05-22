@@ -13,8 +13,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)AQHD1_AmRHA6_xAQHD1_AmRHA6_HCg0_G;
+- (void)Result;
+- (void)ion;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType visibilityChangeHandler; // @synthesize visibilityChangeHandler=_visibilityChangeHandler;

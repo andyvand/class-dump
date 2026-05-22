@@ -14,12 +14,11 @@
 - (double);
 - (double);
 - (void);
+- (struct CGSize);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id)1b0@ù
-× ;
-- (struct CGSize)sicAccountViewController initWithAccessoryGroupItem:(struct CGSize)arg1 ] called without a HFMediaProfileContainer;
 
 // Remaining properties
 @property(nonatomic) double innerRadius; // @synthesize innerRadius=_innerRadius;

@@ -13,9 +13,9 @@
     MISSING_TYPE *currentLocation;
 }
 
-- (void);
 - (id);
 - (_Bool);
+- (void);
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKBalloonView.h>
 
-@class NSString, NSURL, UIButton, UIImageView, UILabel, UIView, UIVisualEffectView, _TtC7ChatKit18CKBalloonMaskLayer;
+@class CALayer, NSString, NSURL, UIButton, UIImageView, UILabel, UIView, UIVisualEffectView;
 @protocol CKObscurableBalloonViewDelegate;
 
 @interface CKObscurableBalloonView : CKBalloonView
@@ -15,7 +15,7 @@
     UIButton *_warningButton;
     UIButton *_showButton;
     UIView *_obscuringView;
-    _TtC7ChatKit18CKBalloonMaskLayer *_maskLayer;
+    CALayer *_obscuringViewMaskLayer;
     NSURL *_commSafetyTransferLocalURL;
     NSString *_commSafetyTransferGUID;
     UIVisualEffectView *_blurEffect;
@@ -23,28 +23,24 @@
     UIImageView *_obscuredContentBadgeView;
 }
 
-- (id)dingSpaces: /* Error: Ran out of types for this method. */;
-- (void)setNotesButton;
-- (void)Generator;
-- (void)GalleryAttachmentUtilities;
-- (void)tachment;
+- (id);
 - (void);
 - (void);
-- (id)4	l;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)gnr_;
-- (void)A6_yA55_A8_GAIGA10_GAIGGtGG;
+- (void);
 - (id);
-- (void)ing back to default preview thumbnail;
-- (void)note — skipping {note:(id)arg1 %@};
-- (void)not migrate note because its account is not authenticated — skipping {note:(id)arg1 %@};
-- (id)dingStoppedNotificationDidAppBackgroundOccurKey;
-- (id)Error"8;
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
@@ -52,19 +48,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (_Bool)0@ù
-× ;
 - (void);
-- (id)wÝ-;
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id)Manager;
+- (id);
+- (void);
+- (void)ÜÄDÿÜÄDÿÜÄDÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurEffect; // @synthesize blurEffect=_blurEffect;
@@ -76,11 +77,11 @@
 
 @property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _TtC7ChatKit18CKBalloonMaskLayer *maskLayer; // @synthesize maskLayer=_maskLayer;
 @property(nonatomic) __weak id <CKObscurableBalloonViewDelegate> obscurableBalloonDelegate; // @synthesize obscurableBalloonDelegate=_obscurableBalloonDelegate;
 @property(readonly, nonatomic, getter=isObscured) _Bool obscured;
 @property(retain, nonatomic) UIImageView *obscuredContentBadgeView; // @synthesize obscuredContentBadgeView=_obscuredContentBadgeView;
 @property(retain, nonatomic) UIView *obscuringView; // @synthesize obscuringView=_obscuringView;
+@property(retain, nonatomic) CALayer *obscuringViewMaskLayer; // @synthesize obscuringViewMaskLayer=_obscuringViewMaskLayer;
 @property(retain, nonatomic) UILabel *sensitiveContentDescription; // @synthesize sensitiveContentDescription=_sensitiveContentDescription;
 @property(retain, nonatomic) UIButton *showButton; // @synthesize showButton=_showButton;
 @property(readonly) Class superclass;

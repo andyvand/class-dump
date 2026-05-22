@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     NSDateComponents *_significantEventOffset;
 }
 
-+ (void)d to notify client of updated supportsMediaContentProfile support due to missing delegateCaller:%@ /* Error: Ran out of types for this method. */;
++ (void)pdateAutomaticSoftwareUpdateEnabled:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -32,13 +32,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (Class);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)oControl",&,N,V_speakerControl;
+- (id)nalytics.framework/CoreAnalytics;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionSets;

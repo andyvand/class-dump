@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)didFlushCacheForKTPeerURI:(id)arg1;
-- (id);
-- (void);
+- (_Bool);
+- (id)Constraints:(id)arg1;
+- (void)Ãõ(\ÂÅ?;
 
 // Remaining properties
 @property(nonatomic, setter=_setSuppressCrossFadeNavigationBarAnimation:) _Bool _suppressCrossFadeNavigationBarAnimation; // @synthesize _suppressCrossFadeNavigationBarAnimation=__suppressCrossFadeNavigationBarAnimation;

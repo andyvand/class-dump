@@ -16,10 +16,10 @@
 - (id);
 - (void);
 - (id);
+- (unsigned long long);
+- (double);
 - (id);
 - (void);
-- (double);
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PXGLayout *layout; // @synthesize layout=_layout;

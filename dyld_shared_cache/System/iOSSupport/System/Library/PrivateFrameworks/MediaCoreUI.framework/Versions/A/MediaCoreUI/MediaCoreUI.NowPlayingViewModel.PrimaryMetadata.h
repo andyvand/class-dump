@@ -13,7 +13,8 @@
     MISSING_TYPE *_titleBadges;
     MISSING_TYPE *_subtitle;
     MISSING_TYPE *_subtitleStyle;
-    MISSING_TYPE *metadataStyle;
+    MISSING_TYPE *_interaction;
+    MISSING_TYPE *_showsAccessories;
 }
 
 @end

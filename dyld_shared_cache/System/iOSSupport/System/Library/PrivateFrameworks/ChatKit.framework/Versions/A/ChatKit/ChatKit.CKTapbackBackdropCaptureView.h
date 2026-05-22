@@ -11,10 +11,10 @@
     MISSING_TYPE *backdropLayer;
 }
 
+- (id);
 - (void);
 - (id);
-- (void)";
-- (id);
+- (void)ø[¯ÿ ;
 
 @end
 

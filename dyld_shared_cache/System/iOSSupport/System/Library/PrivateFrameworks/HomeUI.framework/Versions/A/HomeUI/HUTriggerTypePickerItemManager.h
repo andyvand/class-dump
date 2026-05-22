@@ -51,7 +51,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)be nil to show the editor.;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *alarmTriggerItem; // @synthesize alarmTriggerItem=_alarmTriggerItem;

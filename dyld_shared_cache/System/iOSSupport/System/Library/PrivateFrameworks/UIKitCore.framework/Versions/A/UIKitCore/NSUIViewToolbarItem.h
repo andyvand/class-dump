@@ -14,11 +14,10 @@
 }
 
 - (void);
-- (id)xisting historical identifier %@.;
 - (id);
 - (id);
-- (void)Áp°!tDùÃð1¢!0@ù
-× ;
+- (id);
+- (void)8úÿ%4;
 
 // Remaining properties
 @property(retain, nonatomic, setter=setUIView:) UIView *uiView;

@@ -38,12 +38,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
 - (id);
-- (id)hCondition:functionName:simulateCrash:showAlert:format: /* Error: Ran out of types for this method. */;
-- (unsigned long long)View",&,N,V__backgroundVisualEffectView;
-- (void)parameters are missing;
+- (unsigned long long);
+- (void);
+- (void)rrectionContext;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *autoFillContentType;

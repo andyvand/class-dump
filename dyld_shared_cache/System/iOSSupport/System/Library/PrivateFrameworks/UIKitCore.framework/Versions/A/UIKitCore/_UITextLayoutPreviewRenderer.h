@@ -20,18 +20,18 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (struct CGRect);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)º;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bodyRect;

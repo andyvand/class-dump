@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *outputQueue; // @synthesize outputQueue=_outputQueue;

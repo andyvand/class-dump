@@ -19,19 +19,18 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)dnsSettings;
-- (void);
-- (id)^,1¢!0@ù
-× ;
-- (void)à;
-- (void).ùÉ;
+- (void)ToUnconcreteMap;
+- (void)Age,%{public}f,isZdrLocStale,%{public}d,isZdrSetupLoc,%{public}d;
+- (void)Metrics, devices, %lu, error, %@;
+- (void)f.locationStore storeLocations:(id)arg1 sanitizedLocations for , dateInterval %@, error %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *observersMap; // @synthesize observersMap=_observersMap;

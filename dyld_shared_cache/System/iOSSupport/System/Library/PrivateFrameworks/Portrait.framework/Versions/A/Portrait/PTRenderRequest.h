@@ -84,18 +84,18 @@
 - (void);
 - (CDStruct_5f3a0cd7);
 - (void);
-- (float);
-- (float);
+- (void);
 - (int);
 - (void);
 - (id);
-- (int);
-- (void);
-- (id);
-- (id);
-- (void);
-- (int);
 - (float);
+- (float);
+- (int);
+- (id);
+- (float);
+- (id);
+- (int);
+- (void);
 
 // Remaining properties
 @property(nonatomic) int AGC; // @synthesize AGC=_AGC;

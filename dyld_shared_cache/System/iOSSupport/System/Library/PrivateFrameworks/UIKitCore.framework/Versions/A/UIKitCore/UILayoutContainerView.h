@@ -28,39 +28,41 @@ __attribute__((visibility("hidden")))
     UIColor *_defaultBackgroundColor;
 }
 
-- (id)leInternal/Library/BuildRoots/4~CG4qugCAwx2HRnOmeF9edGkGuS6TSSvve4LSm3o/Library/Caches/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/s23_lib.c;
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id)veDataBuffer;
-- (void);
-- (void)itToken:(long long)arg1;
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)1¢!0@ù
+- (void)Á;
+- (id)
 × ;
-- (id);
-- (void)etActivateAction:(id)arg1;
-- (void)actor: /* Error: Ran out of types for this method. */;
-- (void)updateColumnTrackingIfNeededForChangeInChildModalViewControllers;
-- (void)lySetHiddenForBackdropMaskViews: /* Error: Ran out of types for this method. */;
-- (id)egate>",W,N,V_delegate;
-- (void)ÐlÑLÒ4ÓÔüÔÐÕ¸Ö×|ØôÙ ÚÛ¬ÛÜ¬ÜÝðÝ;
-- (_Bool)e:]_block_invoke  Keyboard destination updating keyboardPosition %@ for %@ transition using %@ /* Error: Ran out of types for this method. */;
-- (void)versal_autofill_panel_ipad;
-- (id)>"8;
-- (_Bool)ve a hosting environment if we're forwarding kb layers.;
-- (id);
-- (void)bottomLeftRadius;
-- (_Bool)immingView;
-- (void)X;
+- (id)q[Ð1Â0@ù
+× ;
+- (_Bool)× ;
+- (id)0@ù
+× ;
+- (void)@0:(id)arg1 8{?={CGPoint=dd}d}16;
+- (void)geTitleHeightRange: /* Error: Ran out of types for this method. */;
+- (id)ionLeadingAnchor;
+- (void)contentViewMaxHeightConstraint;
+- (void)itiveBoundsWithInfiniteEdges:(id)arg1;
+- (void)OffsetForNewFrame:(struct CGRect)arg1 oldFrame:newContentSize:andOldContentSize: /* Error: Ran out of types for this method. */;
+- (id)Input;
+- (void)chControl;
+- (void)ider;
+- (void)<;
+- (void)ÿÿ;
+- (void)d dequeued view to be returned to the collection view in preparation for display. When the collection view's data source is asked to provide a view for a given index path, ensure that a single view is dequeued and returned to the collection view. Avoid flushing layout before returning the view to the collection view. Avoid dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
+- (_Bool)o}þÿ;
+- (void)ction:(id)arg1 withSender:RESULT %@ <%p> /* Error: Ran out of types for this method. */;
 - (void);
-- (void)H×ÿJÖGKi;
+- (void)°hoþ°hoþè©R0;
+- (void)ÙÊÈ\;
+- (void)ó7ÔôI^;
+- (void)ÿ.ÐÙ+d;
+- (void)­;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool backgroundColorIsDefault;

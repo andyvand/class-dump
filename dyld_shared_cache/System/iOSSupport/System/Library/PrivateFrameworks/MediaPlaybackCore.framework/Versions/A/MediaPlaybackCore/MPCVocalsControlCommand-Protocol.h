@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandRequest;
-
 @protocol MPCVocalsControlCommand
-- (MPCPlayerCommandRequest *)ount:(_Bool)arg1 %@ };
-- (MPCPlayerCommandRequest *)a;
-- (float);
-- (long long);
-- (_Bool)blic}@ %{public}@ %2i %{public}@ â²â­ EQ:%{public}@ /* Error: Ran out of types for this method. */;
-- (float)onSource;
+- (_Bool)ayed;
+- (float);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

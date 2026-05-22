@@ -16,26 +16,25 @@
 + (Class);
 - (id);
 - (void);
-- (void)ndFailed:(id)arg1 toHandle:(id)arg2 withError:(struct CGPoint)arg3;
-- (void)sToHighlightsQueue;
-- (void)cipients:(id)arg1;
-- (void)sFlags:(id)arg1;
-- (id)isteningP;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (struct CGRect);
-- (void)dles;
-- (struct CGSize)pt: /* Error: Ran out of types for this method. */;
-- (_Bool)k;
+- (void);
+- (void);
 - (id);
-- (void))'º;
-- (void)
-× ;
-- (id)ViewHiding:(id)arg1;
-- (void)erIsVisible:(id)arg1;
-- (id)iguration;
-- (id)¤H;
-- (id)rClassName;
 - (id);
-- (id)P9µÿ·óÊ:(struct CGRect)arg1 ?d;
+- (id)0:(struct CGRect)arg1 8Q16Q24@32:40@48 /* Error: Ran out of types for this method. */;
+- (struct CGSize)(£;
+- (id)e control only has %ld pages.;
+- (void)ht=%lu}; Orientation:%@; Scale:%.1f; Coordinate space:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)xèþ¬Á;
+- (id)(Ô^;
+- (id)ÿ;
+- (id)¼gÿ5Î8Òd;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *sublayouts;

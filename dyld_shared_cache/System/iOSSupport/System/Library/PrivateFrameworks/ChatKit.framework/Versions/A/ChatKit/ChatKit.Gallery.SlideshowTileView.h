@@ -15,10 +15,10 @@
     MISSING_TYPE *badgeIconImageView;
 }
 
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
 
 @end
 

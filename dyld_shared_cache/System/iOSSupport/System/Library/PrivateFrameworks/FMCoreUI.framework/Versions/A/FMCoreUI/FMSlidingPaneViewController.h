@@ -74,11 +74,11 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (double);
-- (void);
-- (id);
 - (void);
 - (void);
 

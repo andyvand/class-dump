@@ -18,8 +18,8 @@
 - (void);
 - (struct HUGridSize);
 - (id);
-- (void);
 - (id);
+- (void)tilityOnboardingIntroViewController;
 
 @end
 

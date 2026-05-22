@@ -18,7 +18,7 @@
     unsigned long long _explicitMemoryLimit;
 }
 
-+ (id);
++ (id)Àå±ÿ;
 - (void);
 - (id);
 - (void);
@@ -42,7 +42,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long explicitMemoryLimit; // @synthesize explicitMemoryLimit=_explicitMemoryLimit;

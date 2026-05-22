@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSValue;
-
 @protocol _TtP10PodcastsUIP33_3C4E783A8FFBD95D004ED56D8040DD4317JSLocalizerExport_
-- (JSValue *);
-- (JSValue *);
 @end
 

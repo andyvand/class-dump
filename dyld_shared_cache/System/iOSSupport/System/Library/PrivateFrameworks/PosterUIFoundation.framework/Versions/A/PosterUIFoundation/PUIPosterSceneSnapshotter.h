@@ -37,20 +37,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)ure the path is reachable, and that the device supports the type identifier;
-- (id)ûÿCÇ¦Ù;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -11,10 +11,10 @@
     NSXPCConnection *_connection;
 }
 
-+ (_Bool)cator<CLRangingPeerInternal> >=^{}}};
++ (_Bool);
+- (void);
 - (void);
 - (id);
-- (void);
 - (void);
 
 @end

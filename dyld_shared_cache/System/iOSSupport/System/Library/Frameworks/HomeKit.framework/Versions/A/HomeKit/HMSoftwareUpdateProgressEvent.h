@@ -12,10 +12,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id)ÔÐ!DùÑ¨1b0@ù
-× ;
+- (id);
+- (void)ponseValue;
 
 // Remaining properties
 @property(readonly) HMSoftwareUpdateProgress *progress; // @synthesize progress=_progress;

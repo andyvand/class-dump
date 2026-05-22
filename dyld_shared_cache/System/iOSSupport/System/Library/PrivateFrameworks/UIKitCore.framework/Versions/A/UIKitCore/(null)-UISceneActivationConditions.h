@@ -8,16 +8,16 @@
 
 @interface (null) (UISceneActivationConditions)
 + (id);
-+ (id);
-+ (id)6@24;
-- (id)on:(id)arg1 %@};
-- (id);
++ (id)obal;
++ (id)w internal inconsistency:missing identifier for placeholder insertion update /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)ictationPopoverController";
-- (id)16@24@32{CAPoint3D=ddd}40;
+- (id)J;
+- (void)M";
 
 // Remaining properties
 @property(readonly, nonatomic) BSProcessHandle *_originatingProcess;

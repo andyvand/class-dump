@@ -4,5 +4,5 @@
 
 class dyld4::HashForeignConformanceKey {
 public: // (access info unavailable from symbols alone)
-    hash(SwiftForeignTypeProtocolConformanceDiskLocationKey const&, void*);
+    auto hash(SwiftForeignTypeProtocolConformanceDiskLocationKey const&, void*);
 };

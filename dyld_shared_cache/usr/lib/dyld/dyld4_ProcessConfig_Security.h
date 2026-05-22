@@ -5,6 +5,6 @@
 class dyld4::ProcessConfig::Security {
 public: // (access info unavailable from symbols alone)
     Security(dyld4::ProcessConfig::Process&, dyld4::SyscallDelegate&);
-    getAMFI(dyld4::ProcessConfig::Process const&, dyld4::SyscallDelegate&);
-    pruneEnvVars(dyld4::ProcessConfig::Process&);
+    auto getAMFI(dyld4::ProcessConfig::Process const&, dyld4::SyscallDelegate&);
+    auto pruneEnvVars(dyld4::ProcessConfig::Process&);
 };

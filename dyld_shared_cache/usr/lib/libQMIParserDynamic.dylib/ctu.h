@@ -4,8 +4,9 @@
 
 class ctu {
 public: // (access info unavailable from symbols alone)
-    hex0(unsigned char);
-    hex0(unsigned short);
-    hex_sp(void const*, unsigned long);
-    py_escape(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, bool);
+    auto hex0(unsigned char);
+    auto hex0(unsigned short);
+    auto hex_sp(void const*, unsigned long);
+    auto py_escape(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, bool);
+    std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> join<std::__1::__wrap_iter<char const**>>(std::__1::__wrap_iter<char const**>, std::__1::__wrap_iter<char const**>, ctu::llvm::StringRef);
 };

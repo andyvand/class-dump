@@ -10,16 +10,16 @@
 {
 }
 
-+ (id)name to nil instead.;
-- (void)iceEraseCommand_Status;
++ (id);
 - (_Bool);
-- (id);
-- (_Bool)× ;
-- (_Bool)d}{CGSize=dd}}24;
-- (double)aints: /* Error: Ran out of types for this method. */;
-- (void)tViewControllerDelegate;
-- (struct CGColor *)ow=%s; texture=%s; viewport=%s;
-- (id)ftAnchor;
+- (_Bool);
+- (_Bool)ItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)ointCallback:(id)arg1;
+- (id)sItem;
+- (id)nsHandler;
+- (double)ºèÿ;
+- (void)d;
+- (struct CGColor *)È´;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

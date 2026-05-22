@@ -4,6 +4,6 @@
 
 class icu::MessageImpl {
 public: // (access info unavailable from symbols alone)
-    appendReducedApostrophes(icu::UnicodeString const&, int, int, icu::UnicodeString&);
-    appendSubMessageWithoutSkipSyntax(icu::MessagePattern const&, int, icu::UnicodeString&);
+    auto appendReducedApostrophes(icu::UnicodeString const&, int, int, icu::UnicodeString&);
+    auto appendSubMessageWithoutSkipSyntax(icu::MessagePattern const&, int, icu::UnicodeString&);
 };

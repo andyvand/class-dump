@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id)ge_join ON chat_message_join.message_id = message.rowid %@ JOIN chat ON chat.rowid = chat_message_join.chat_id  ;
++ (id)on *);
 - (id);
 - (id);
 - (id);
@@ -27,9 +27,9 @@
 - (const CDStruct_7ef4fb35 *);
 - (struct __CFArray **);
 - (id);
-- (id)nizer;
-- (unsigned long long);
-- (long long)èÿ;
+- (id);
+- (long long)0;
+- (unsigned long long)sage WHERE guid IN ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *ID; // @dynamic ID;

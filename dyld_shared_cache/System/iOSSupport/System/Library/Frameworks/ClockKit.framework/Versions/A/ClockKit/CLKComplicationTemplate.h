@@ -35,8 +35,8 @@
 + (id);
 + (id);
 + (_Bool);
++ (id);
 + (_Bool);
-+ (id);
 - (id);
 - (id);
 - (_Bool);
@@ -86,23 +86,23 @@
 - (void);
 - (id);
 - (long long);
+- (id);
 - (void);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (_Bool);
-- (void)lientIdentifier:bundlePath: /* Error: Ran out of types for this method. */;
+- (_Bool)ected nil annotated start string (startDate = %@);
+- (void)drDevice %{public}@ - isNil:(id)arg1 %lu hasEntitlement:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CLKComplicationBackgroundDescriptor *backgroundDescriptor; // @synthesize backgroundDescriptor=_backgroundDescriptor;

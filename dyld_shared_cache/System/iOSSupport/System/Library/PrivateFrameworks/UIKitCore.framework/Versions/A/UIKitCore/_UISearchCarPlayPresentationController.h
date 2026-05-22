@@ -14,31 +14,29 @@ __attribute__((visibility("hidden")))
     UIVisualEffectView *_blurView;
 }
 
+- (id)emoji cell is selected. Unsupported.;
+- (double)n thread is not safe!;
+- (void);
+- (long long)ÀñÿÿPhéÿF]þ;
+- (id){þÿ;
+- (_Bool)StateMachine(Legacy) setTransitionHandlerForState:withEvent:transitionHandler:postTransitionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)ntTextStyleSubhead;
+- (unsigned long long)idBecomeApplicationKeyNotification;
+- (double)855982);
+- (struct CGRect)e file handle for archived UIScene state:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)FocusSystemEnabledStateDidChangeNotification;
+- (id)viceOrientationSettingsDiffAction.m;
+- (id)d to the background view that renders a UIBackgroundConfiguration. Manually adding subviews to the background view is not allowed. Any view set to the customView property of the UIBackgroundConfiguration will be automatically added to the view hierarchy when necessary. Subview added:%@; Background view:%@ /* Error: Ran out of types for this method. */;
+- (void)ight;
+- (void).swift;
 - (void);
-- (id);
-- (void)Promise";
-- (void);
-- (void)erations:(id)arg1;
-- (_Bool)ropertySet: /* Error: Ran out of types for this method. */;
-- (id)listProperty:(CDStruct_912cb5d2)arg1;
+- (id)_L03ySaySDyÃ×¾7ypGG²K03_pGIegg_;
+- (void);
 - (_Bool);
-- (long long);
 - (_Bool);
 - (void);
-- (id)1¢!0@ù
-× ;
-- (_Bool)Av!¬AùñÊ1¢!0@ù
-× ;
-- (id)tentSizeCategory"b1"disableAutomaticTitleAnimations"b1"overridesRectAccessors"b1"hasActivePointerEffect"b1"automaticallyUpdatesConfiguration"b1"changesSelectionAsPrimaryAction"b1};
-- (void)ottom: /* Error: Ran out of types for this method. */;
-- (double)utFrame;
-- (id)eloadInputViewsForPersistentDelegate;
-- (_Bool)aits: /* Error: Ran out of types for this method. */;
-- (_Bool)seWithText:alternativeInterpretations: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ementalLexicon:iconProvider: /* Error: Ran out of types for this method. */;
-- (_Bool)initWithCKSharePreparationHandler:allowedSharingOptions: /* Error: Ran out of types for this method. */;
-- (double)WhenNotifyingDelegate: /* Error: Ran out of types for this method. */;
-- (unsigned long long)$D¨DÔEdI;
+- (_Bool)âÁ;
+- (_Bool)8_;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;

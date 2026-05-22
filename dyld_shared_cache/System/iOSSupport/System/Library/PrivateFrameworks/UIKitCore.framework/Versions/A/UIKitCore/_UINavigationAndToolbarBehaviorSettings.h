@@ -34,11 +34,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)@;
+- (_Bool);
 - (double);
 - (double);
 - (double);
@@ -49,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (void)ewScenePreference: /* Error: Ran out of types for this method. */;
+- (void)tHorizontallyCenteredFramesNeedUpdate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double backButtonLeadingPadding; // @synthesize backButtonLeadingPadding=_backButtonLeadingPadding;

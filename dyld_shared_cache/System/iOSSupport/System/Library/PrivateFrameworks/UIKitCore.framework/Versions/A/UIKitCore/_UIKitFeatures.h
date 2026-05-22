@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-- (id),N,VscopeBarBackgroundImage;
+- (id);
 
 @end
 

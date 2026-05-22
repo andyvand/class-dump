@@ -15,21 +15,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)"SAEVoiceTrainingIntroController";
-- (_Bool):(id)arg1 8@"SiriUISiriView"16@?<v@?>24;
+- (id);
+- (_Bool);
 - (long long);
 - (double);
 - (double);
 - (double);
 - (void);
 - (double);
+- (void);
 - (double);
-- (long long);
+- (struct CGRect);
+- (long long);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (void)sSignatureWidget:(long long)arg1;
 
 // Remaining properties
 @property long long index; // @synthesize index=_index;

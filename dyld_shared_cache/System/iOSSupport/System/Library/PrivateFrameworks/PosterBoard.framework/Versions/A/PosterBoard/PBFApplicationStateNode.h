@@ -22,14 +22,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void)1â
+0@ù
+× ;
+- (id)helper;
 
 // Remaining properties
 @property(copy) NSSet *components; // @synthesize components=_components;

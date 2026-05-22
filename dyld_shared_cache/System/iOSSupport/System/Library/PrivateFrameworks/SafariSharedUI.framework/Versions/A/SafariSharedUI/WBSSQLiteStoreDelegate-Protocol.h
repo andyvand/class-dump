@@ -5,7 +5,5 @@
 //
 
 @protocol WBSSQLiteStoreDelegate
-- (void);
-- (void)pt;
 @end
 

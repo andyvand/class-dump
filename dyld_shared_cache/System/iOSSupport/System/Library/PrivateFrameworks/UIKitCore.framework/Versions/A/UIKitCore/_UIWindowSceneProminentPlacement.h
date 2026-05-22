@@ -10,10 +10,10 @@
 {
 }
 
-- (void)optionsDict=%@;
-- (_Bool)orMessageWithGUID:toState: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)dateFromTransformer: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool preferLargeSize;

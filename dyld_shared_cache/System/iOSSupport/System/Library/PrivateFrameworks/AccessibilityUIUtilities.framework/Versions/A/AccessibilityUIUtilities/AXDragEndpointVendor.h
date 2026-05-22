@@ -14,13 +14,13 @@
     id <AXDragEndpointVendorDelegate> _delegate;
 }
 
-- (void)"LSRecordPromise"@"<_LSPendingSaveToken>"@"NSError">;
+- (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (_Bool);
-- (id)g;
-- (id);
 - (void);
 
 // Remaining properties

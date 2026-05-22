@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
     struct ui_archive *_underlyingArchive;
 }
 
-+ (id)nwanted chat %@;
-- (struct ui_archive_entry *);
++ (id);
+- (struct ui_archive_entry *);
 - (struct ui_archive *);
 
 // Remaining properties

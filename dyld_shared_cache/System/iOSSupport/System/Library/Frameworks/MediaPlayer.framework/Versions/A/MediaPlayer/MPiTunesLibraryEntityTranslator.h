@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void)p:playbackState:album:artist:duration:genre:title:elapsed:mediaType:iTunesStoreIdentifier:iTunesSubscriptionIdentifier:iTunesArtistIdentifier:iTunesAlbumIdentifier:isAirPlayVideo:outputDevices: /* Error: Ran out of types for this method. */;
++ (void);
 - (id);
 - (void);
-- (void)#�I;
+- (void);
 - (void);
 - (void);
 - (void);

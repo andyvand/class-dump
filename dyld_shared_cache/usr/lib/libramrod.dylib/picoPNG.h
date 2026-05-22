@@ -4,5 +4,5 @@
 
 class picoPNG {
 public: // (access info unavailable from symbols alone)
-    decodePNG(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>&, unsigned long&, unsigned long&, unsigned char const*, unsigned long, bool);
+    auto decodePNG(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>&, unsigned long&, unsigned long&, unsigned char const*, unsigned long, bool);
 };

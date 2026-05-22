@@ -11,15 +11,16 @@
     long long _type;
 }
 
-+ (_Bool),ÙÀÿ}ý;
-- (void);
++ (_Bool)stem_SafariOnly.m;
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void)ed;
+- (long long)!LBù±a1Â0@ù
+× ;
+- (_Bool)ngView"16;
+- (void)rTraitCollection:(id)arg1;
+- (id)angles: /* Error: Ran out of types for this method. */;
+- (id)ngAcrossConstrainedAxisToBeginMultiSelectInteractionInSection:(struct _NSZone *)arg1;
+- (void)ns;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

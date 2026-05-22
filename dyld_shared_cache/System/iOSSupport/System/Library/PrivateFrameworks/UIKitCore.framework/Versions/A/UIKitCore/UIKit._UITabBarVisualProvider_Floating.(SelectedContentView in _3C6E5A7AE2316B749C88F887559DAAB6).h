@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)t internal bug.;
+- (id)troller;
 
 @end
 

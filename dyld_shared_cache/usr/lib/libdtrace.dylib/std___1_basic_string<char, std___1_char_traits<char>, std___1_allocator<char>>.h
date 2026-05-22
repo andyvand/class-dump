@@ -4,13 +4,13 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __init_copy_ctor_external(char const*, unsigned long);
-    __throw_length_error[abi:nn200100]();
-    append(char const*);
-    append(char const*, unsigned long);
-    basic_string[abi:nn200100](std::__1::__uninitialized_size_tag, unsigned long, std::__1::allocator<char> const&);
-    basic_string[abi:nn200100]<0>(char const*);
-    operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
-    push_back(char);
-    resize(unsigned long, char);
+    auto __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
+    auto __init_copy_ctor_external(char const*, unsigned long);
+    auto __throw_length_error[abi:nqn210106]();
+    auto append(char const*);
+    auto append(char const*, unsigned long);
+    auto basic_string[abi:nqn210106]<0>(char const*);
+    auto operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    auto push_back(char);
+    auto resize(unsigned long, char);
 };

@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (unsigned int)k!;
-- (id);
-- (void);
+- (unsigned int);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (Class)l;
+- (Class);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) LPEvent *_event; // @synthesize _event;

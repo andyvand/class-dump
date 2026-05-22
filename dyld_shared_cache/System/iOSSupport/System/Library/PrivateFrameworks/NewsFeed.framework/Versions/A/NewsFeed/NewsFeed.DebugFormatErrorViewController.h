@@ -15,13 +15,13 @@
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (id);
-- (id);
+- (long long);
 - (void);
-- (long long)K;
 - (void);
 
 @end

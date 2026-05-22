@@ -14,13 +14,12 @@
     NSArray *_options;
 }
 
-+ (id)***;
-- (id)Keys:(id)arg1 ognSuffix:(id)arg2 removeTombstones:activity:completion: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)
++ (id);
+- (id);
+- (id)f°1Â0@ù
 × ;
-- (id)ÑÆ°1¢!0@ù
-× ;
+- (id)`åP=ÓMB?;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *options; // @synthesize options=_options;

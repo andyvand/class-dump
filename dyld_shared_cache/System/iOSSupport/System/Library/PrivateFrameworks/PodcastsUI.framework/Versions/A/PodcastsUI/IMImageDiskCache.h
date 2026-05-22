@@ -21,15 +21,15 @@
     NSMutableDictionary *_pendingPerformWhenAvailableOnDiskBlocks;
 }
 
-- (id)b;
-- (double);
-- (void);
-- (id);
 - (id);
 - (double);
+- (void);
+- (id);
+- (id);
+- (double);
 - (id);
 - (void);
-- (_Bool)`;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -44,18 +44,18 @@
 - (void);
 - (id);
 - (id);
-- (struct CGImageSource *){;
+- (struct CGImageSource *);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)lectedCopySubviewOfView:(id)arg1;
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *completionHandlers; // @synthesize completionHandlers=_completionHandlers;

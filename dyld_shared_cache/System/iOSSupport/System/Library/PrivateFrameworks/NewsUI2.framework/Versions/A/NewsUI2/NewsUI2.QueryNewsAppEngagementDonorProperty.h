@@ -28,7 +28,7 @@
     MISSING_TYPE *locationDetectionManager;
 }
 
-- (void);
+- (void);
 
 @end
 

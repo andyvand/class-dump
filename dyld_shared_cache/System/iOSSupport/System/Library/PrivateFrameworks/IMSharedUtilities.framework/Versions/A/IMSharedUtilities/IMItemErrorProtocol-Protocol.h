@@ -5,6 +5,8 @@
 //
 
 @protocol IMItemErrorProtocol
+- (void)r with non-local URL:(unsigned int)arg1 %@;
+- (unsigned int)XÿÌÿ÷4lÞÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode;

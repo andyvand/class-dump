@@ -13,8 +13,8 @@
     MISSING_TYPE *sizeCache;
 }
 
-- (void);
 - (id);
+- (void)ñ¯k}Û;
 
 @end
 

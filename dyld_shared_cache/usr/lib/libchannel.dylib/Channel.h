@@ -5,17 +5,17 @@
 class Channel {
 public: // (access info unavailable from symbols alone)
     Channel(bool, MessageRingBuffer, MessageRingBuffer, CASPage*, unsigned int, unsigned int, unsigned int, unsigned int);
-    abandon_message(MessageSharedMemory*);
-    advance_commit_assert_head();
-    assert_message_in_allocation_region(MessageSharedMemory*);
-    assert_recv_sane();
-    assert_send_sane();
-    commit_message(MessageSharedMemory*);
-    msg_notify();
-    msg_wait(unsigned int);
-    poll_dead_name_notification();
-    poll_dead_name_notification() (.cold.1);
-    receive_message(AssertableValue&, bool&);
-    reserve_message(unsigned int, unsigned long, unsigned long);
+    auto abandon_message(MessageSharedMemory*);
+    auto advance_commit_assert_head();
+    auto assert_message_in_allocation_region(MessageSharedMemory*);
+    auto assert_recv_sane();
+    auto assert_send_sane();
+    auto commit_message(MessageSharedMemory*);
+    auto msg_notify();
+    auto msg_wait(unsigned int);
+    auto poll_dead_name_notification();
+    auto poll_dead_name_notification() (.cold.1);
+    auto receive_message(AssertableValue&, bool&);
+    auto reserve_message(unsigned int, unsigned long, unsigned long);
     ~Channel();
 };

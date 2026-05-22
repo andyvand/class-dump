@@ -23,12 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)=ÿÿ>Âûÿ;
+- (void);
+- (void)n drafts;
+- (void);
 
 @end
 

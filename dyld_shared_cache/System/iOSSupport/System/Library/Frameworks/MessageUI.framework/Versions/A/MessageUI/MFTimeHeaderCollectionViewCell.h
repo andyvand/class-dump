@@ -13,15 +13,15 @@
     UISwitch *_switchView;
 }
 
-+ (id)K;
++ (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)RS;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <MFTimeHeaderCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;

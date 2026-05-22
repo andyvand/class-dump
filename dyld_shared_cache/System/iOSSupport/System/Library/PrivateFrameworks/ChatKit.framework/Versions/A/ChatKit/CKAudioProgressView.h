@@ -18,25 +18,25 @@
 }
 
 + (id);
-+ (id)a;
-+ (float)ionTypesKey;
 + (id);
-- (void),;
++ (float);
++ (id);
 - (void);
-- (void)Error">16;
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (BOOL);
-- (void)tifier:(BOOL)arg1;
-- (float)´;
-- (id)¼è;
-- (void);
 - (struct CGSize);
-- (_Bool)0;
+- (BOOL);
+- (void);
+- (id);
+- (float)yADy[yAPãº[Á[G°[G¢¤[y\[GGSgGGAJyÎ[yADyADyADyúj[G<[GA_GGSgGG6¨[G_ADyADyADyº[yADyU¶[ ±[y"[GG_Qo_·©[yÑ¤[GGAWGAWGSgtGG;
+- (void)s scrolling to bottom;
+- (_Bool)e=Messages&ComponentVersion=Conversation List&Classification=Serious Bug&Description=;
+- (void)| ;
+- (void)p50c3;
 
 // Remaining properties
 @property(nonatomic) BOOL color; // @synthesize color=_color;

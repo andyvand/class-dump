@@ -18,17 +18,16 @@ __attribute__((visibility("hidden")))
     UIColor *_normalColor;
 }
 
+- (id);
+- (id);
 - (void);
-- (void)nedIdentifierListEntry",&,N,V_endEntry;
 - (void);
-- (void)ÁÐ1¢!0@ù
-× ;
-- (void);
-- (id)vior;
-- (id)V_searchFieldBackgroundPositionAdjustment;
-- (void)d.;
-- (id)PresentationControllerDetentResolutionContext>"8;
-- (id);
+- (void)Recognizer;
+- (id)tSelectionDirectionNavigation;
+- (void)P ;
+- (id)Þd;
+- (void))ÌXhf;
+- (void)øm;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *normalColor; // @synthesize normalColor=_normalColor;

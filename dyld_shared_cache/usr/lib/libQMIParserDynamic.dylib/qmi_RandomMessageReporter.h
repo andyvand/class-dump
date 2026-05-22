@@ -4,11 +4,11 @@
 
 class qmi::RandomMessageReporter {
 public: // (access info unavailable from symbols alone)
-    reportMismatch(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
-    reportParseUnderrun();
-    reportTlvMissing(unsigned char);
-    reportTlvParseFailure(unsigned char);
-    verifyMessageId(unsigned short, unsigned short);
-    verifyTlvId(unsigned char, unsigned char);
+    auto reportMismatch(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    auto reportParseUnderrun();
+    auto reportTlvMissing(unsigned char);
+    auto reportTlvParseFailure(unsigned char);
+    auto verifyMessageId(unsigned short, unsigned short);
+    auto verifyTlvId(unsigned char, unsigned char);
     ~RandomMessageReporter();
 };

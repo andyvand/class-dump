@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Value=dQ}32;
 
 // Remaining properties
 @property(readonly, nonatomic) SXDataTableBorder *bottom; // @dynamic bottom;

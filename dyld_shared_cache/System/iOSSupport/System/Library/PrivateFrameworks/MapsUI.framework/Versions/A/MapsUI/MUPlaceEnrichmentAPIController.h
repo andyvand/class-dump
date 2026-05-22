@@ -26,19 +26,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (void);
 - (long long);
-- (void)latterViewDelegate>";
-- (void)idingP;
+- (id);
+- (void);
+- (void)erOfPhotosAvailableForFlatList;
 
 // Remaining properties
 @property(readonly, nonatomic) long long currentState;

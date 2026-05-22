@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ftwareUpdateRequiredDescriptionMultipleHomePodsSingularHome;
 
 // Remaining properties
 @property(retain, nonatomic) HFEventBuilder<HFLocationEventBuilder> *eventBuilder; // @synthesize eventBuilder=_eventBuilder;

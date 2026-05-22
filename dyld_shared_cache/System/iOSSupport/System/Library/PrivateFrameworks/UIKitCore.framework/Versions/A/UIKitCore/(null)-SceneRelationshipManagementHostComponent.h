@@ -8,10 +8,10 @@
 @protocol _UISceneIntelligenceSupportHost, _UISceneLayoutPreferencesCoordinator, _UISceneMaskingDelegate, _UISceneOrientationHostComponent, _UISceneTouchSharing, _UISceneWindowingControlHost;
 
 @interface (null) (SceneRelationshipManagementHostComponent)
-- (id)%;
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -20,24 +20,24 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)success:%@ /* Error: Ran out of types for this method. */;
-- (id)toller:Found an empty message payload while replaying /* Error: Ran out of types for this method. */;
-- (id)Severe Messages Bug Detected;
-- (id)ltThreshold;
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)4@;
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)P;
 - (id);
+- (id);
+- (id);
+- (id)@"NSUserActivity"8@"NSError"16;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIApplicationSceneDisplayHostComponent *_displayHostComponent;

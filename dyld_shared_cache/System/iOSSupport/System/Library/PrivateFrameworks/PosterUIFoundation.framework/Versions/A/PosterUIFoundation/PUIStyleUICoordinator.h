@@ -29,9 +29,9 @@
 - (void);
 - (double);
 - (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) double contentsLuminance; // @synthesize contentsLuminance=_contentsLuminance;

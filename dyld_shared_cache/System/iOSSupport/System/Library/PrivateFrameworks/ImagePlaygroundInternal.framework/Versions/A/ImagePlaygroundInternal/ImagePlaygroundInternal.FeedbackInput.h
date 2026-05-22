@@ -13,12 +13,14 @@
     MISSING_TYPE *generatedImage;
     MISSING_TYPE *prompt;
     MISSING_TYPE *imageDescription;
+    MISSING_TYPE *promptAfterAssembly;
     MISSING_TYPE *conceptAnalysisState;
     MISSING_TYPE *id;
     MISSING_TYPE *recipe;
     MISSING_TYPE *isSaved;
     MISSING_TYPE *diffusionModelSpecification;
     MISSING_TYPE *error;
+    MISSING_TYPE *imageIdentifier;
     MISSING_TYPE *generationStateProvider;
 }
 

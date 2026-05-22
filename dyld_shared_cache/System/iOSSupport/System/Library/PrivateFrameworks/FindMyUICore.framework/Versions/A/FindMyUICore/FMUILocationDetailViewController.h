@@ -25,8 +25,6 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
@@ -34,7 +32,9 @@
 - (id);
 - (void);
 - (void);
-- (void)Ðßÿ¨Ì;
+- (void);
+- (id);
+- (void)tionalStringValue;
 - (void);
 
 // Remaining properties

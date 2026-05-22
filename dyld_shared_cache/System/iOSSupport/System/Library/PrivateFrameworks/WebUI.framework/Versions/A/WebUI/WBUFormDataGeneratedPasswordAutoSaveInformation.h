@@ -11,12 +11,12 @@
     WBSSavedAccount *passwordsAppAccount;
 }
 
-- (id)xtFormattingOptions: /* Error: Ran out of types for this method. */;
-- (_Bool)rsationListForIPadPPTTest;
-- (id)ddenChatItemGUIDs;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

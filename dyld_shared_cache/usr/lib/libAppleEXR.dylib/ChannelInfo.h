@@ -4,5 +4,5 @@
 
 class ChannelInfo {
 public: // (access info unavailable from symbols alone)
-    operator==(ChannelInfo&);
+    auto operator==(ChannelInfo&);
 };

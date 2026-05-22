@@ -26,12 +26,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
 - (id);
-- (void);
 - (long long);
+- (void);
 - (float);
+- (void);
 
 // Remaining properties
 @property(nonatomic) float floatValue;

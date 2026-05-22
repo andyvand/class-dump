@@ -4,16 +4,16 @@
 
 class bt_node {
 public: // (access info unavailable from symbols alone)
-    alloc_node<lv_key>(btree<lv_key>*, unsigned char, bt_node*, tx*, bool);
-    alloc_node<lvf_refc_key>(btree<lvf_refc_key>*, unsigned char, bt_node*, tx*, bool);
-    alloc_node<phy_ext_addr>(btree<phy_ext_addr>*, unsigned char, bt_node*, tx*, bool);
-    alloc_node<unsigned long long>(btree<unsigned long long>*, unsigned char, bt_node*, tx*, bool);
-    get_node<lv_key>(btree<lv_key>*, unsigned long long, bt_node*, bt_node*, int, int, lvg*, tx*);
-    get_node<lvf_refc_key>(btree<lvf_refc_key>*, unsigned long long, bt_node*, bt_node*, int, int, lvg*, tx*);
-    get_node<phy_ext_addr>(btree<phy_ext_addr>*, unsigned long long, bt_node*, bt_node*, int, int, lvg*, tx*);
-    get_node<unsigned long long>(btree<unsigned long long>*, unsigned long long, bt_node*, bt_node*, int, int, lvg*, tx*);
-    kill_node<lv_key>(btree<lv_key>*, tx*);
-    kill_node<lvf_refc_key>(btree<lvf_refc_key>*, tx*);
-    kill_node<phy_ext_addr>(btree<phy_ext_addr>*, tx*);
-    kill_node<unsigned long long>(btree<unsigned long long>*, tx*);
+    int alloc_node<lv_key>(btree<lv_key>*, unsigned char, bt_node*, tx*, bool);
+    int alloc_node<lvf_refc_key>(btree<lvf_refc_key>*, unsigned char, bt_node*, tx*, bool);
+    int alloc_node<phy_ext_addr>(btree<phy_ext_addr>*, unsigned char, bt_node*, tx*, bool);
+    int alloc_node<unsigned long long>(btree<unsigned long long>*, unsigned char, bt_node*, tx*, bool);
+    int get_node<lv_key>(btree<lv_key>*, unsigned long long, bt_node*, bt_node*, int, int, lvg*, tx*);
+    int get_node<lvf_refc_key>(btree<lvf_refc_key>*, unsigned long long, bt_node*, bt_node*, int, int, lvg*, tx*);
+    int get_node<phy_ext_addr>(btree<phy_ext_addr>*, unsigned long long, bt_node*, bt_node*, int, int, lvg*, tx*);
+    int get_node<unsigned long long>(btree<unsigned long long>*, unsigned long long, bt_node*, bt_node*, int, int, lvg*, tx*);
+    int kill_node<lv_key>(btree<lv_key>*, tx*);
+    int kill_node<lvf_refc_key>(btree<lvf_refc_key>*, tx*);
+    int kill_node<phy_ext_addr>(btree<phy_ext_addr>*, tx*);
+    int kill_node<unsigned long long>(btree<unsigned long long>*, tx*);
 };

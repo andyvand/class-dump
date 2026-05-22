@@ -14,19 +14,17 @@
 
 + (id);
 - (_Bool);
-- (double);
-- (double);
 - (struct CGVector);
+- (double);
+- (struct CGPoint);
 - (void);
-- (struct CGPoint)Á%ð!PCù/1b0@ù
-× ;
-- (struct CGVector)
-× ;
-- (struct CGPoint)tResidentDeviceFooterView;
-- (void)ons;
-- (void)hing clip:(double)arg1 %@.;
-- (double)%@;
-- (void)ºVôÊ°;
+- (struct CGVector);
+- (struct CGPoint);
+- (double);
+- (void);
+- (double).;
+- (void)ble;
+- (void)Æ;
 
 // Remaining properties
 @property(readonly, nonatomic) double dt;

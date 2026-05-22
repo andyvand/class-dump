@@ -12,13 +12,13 @@
     double _maxHighlightFractionForDisplay;
 }
 
-+ (id)´èÿNªâ8;
++ (id)(w+ÿw+ÿ¨gÿ;
 - (void);
 - (void);
 - (double);
 - (_Bool);
+- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool isDownloadingVideoSegmentsEnabled; // @synthesize isDownloadingVideoSegmentsEnabled=_isDownloadingVideoSegmentsEnabled;

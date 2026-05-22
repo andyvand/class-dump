@@ -26,11 +26,11 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void)$;
 - (id);
 - (id);
-- (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *clientVersions;

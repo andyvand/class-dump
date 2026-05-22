@@ -20,33 +20,33 @@ __attribute__((visibility("hidden")))
     struct CGPoint _drawingOrigin;
 }
 
-+ (void)t with guid %@ as a historical identifier;
++ (void);
 + (id);
-- (id)Ds:chatIdentifiers:style:onServices:batchNumber:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)eactivatingAccount;
-- (void)le:onService: /* Error: Ran out of types for this method. */;
-- (void)GUID:error: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)<;
-- (void);
-- (void);
-- (void)A4;
-- (id)0;
-- (id);
-- (id);
-- (struct CGPoint)o SMS Relay, This is your first time trying, You only get 1 chance;
 - (id);
 - (_Bool);
-- (void)1¢!0@ù
-× ;
-- (id)CoordinateSpace>"16@0:(struct CGPoint)arg1 8;
-- (id),V_showsRemoteInputDashViewController;
 - (void);
-- (id)_UIContentViewCellProminence);
-- (_Bool)XÚ?îk;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (id);
+- (_Bool);
+- (id);
+- (void)Ôáð!¨AùQb°1Â0@ù
+× ;
+- (id);
+- (id)s;
+- (_Bool)ìEÿÇ¬Å;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool checkingTouches; // @synthesize checkingTouches=_checkingTouches;

@@ -4,7 +4,8 @@
 
 class lsl::Vector<dyld4::Loader const*> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
-    resize(unsigned long long);
+    auto Vector<dyld4::Loader const**>(dyld4::Loader const**, dyld4::Loader const**, lsl::Allocator&);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
+    auto resize(unsigned long long);
 };

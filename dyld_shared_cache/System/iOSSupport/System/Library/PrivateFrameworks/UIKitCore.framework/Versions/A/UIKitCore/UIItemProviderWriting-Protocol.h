@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress;
+@class NSArray;
 
 @protocol UIItemProviderWriting
-- (NSProgress *)0@ù
-× ;
+
+@optional
++ (NSArray *)nderFactory10Key;
 @end
 

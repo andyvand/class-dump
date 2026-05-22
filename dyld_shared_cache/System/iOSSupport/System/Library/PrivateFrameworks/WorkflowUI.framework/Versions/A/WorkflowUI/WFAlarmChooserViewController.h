@@ -22,17 +22,18 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)s;
+- (void)	
+;
+- (id)fÿÿ;
+- (void)öÿð×;
 
 // Remaining properties
 @property(readonly, nonatomic) MTAlarmDataSource *alarmDataSource; // @synthesize alarmDataSource=_alarmDataSource;

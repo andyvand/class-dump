@@ -15,9 +15,9 @@
 
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (id);
+- (void)mage;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;

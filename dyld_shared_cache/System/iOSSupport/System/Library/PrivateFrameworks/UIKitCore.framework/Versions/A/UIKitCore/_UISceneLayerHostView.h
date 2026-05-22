@@ -22,27 +22,27 @@ __attribute__((visibility("hidden")))
     UIScenePresentationContext *_currentPresentationContext;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)ÔÁr°!ôBùQÆ1¢!0@ù
-× ;
-- (id);
-- (_Bool)validateData;
-- (id)singItemAnimationCoordinator;
-- (id);
-- (void)able;
-- (_Bool)istory;
-- (_Bool)_Nonnull __strong, CGRect, NSMutableArray * _Nonnull __strong);
 - (_Bool);
-- (void);
-- (void)°;
-- (void)ø^;
-- (_Bool)ö_;
+- (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (id)1Â0@ù
+× ;
+- (void)¡°!¸Dù1cð1Â0@ù
+× ;
+- (_Bool)g: /* Error: Ran out of types for this method. */;
+- (id)ontext:(struct CGRect)arg1 tableView: /* Error: Ran out of types for this method. */;
+- (id)ion;
+- (id);
+- (void)or;
+- (void)pointOnRectClosestToCorner(CGRect, UIRectCorner);
+- (void)ewControllerDetachedInheritsContentOverlayInsetsFromSuperview;
+- (id)03yW*¿7G;
+- (void)å;
+- (void)ý;
+- (void)¾33¬¡þ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIScenePresentationContext *currentPresentationContext; // @synthesize currentPresentationContext=_currentPresentationContext;

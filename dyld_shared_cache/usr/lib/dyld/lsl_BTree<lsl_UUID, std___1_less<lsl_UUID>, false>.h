@@ -4,5 +4,5 @@
 
 class lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false> {
 public: // (access info unavailable from symbols alone)
-    insert_internal(lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false>::const_iterator&&, lsl::UUID&&);
+    auto insert_internal(lsl::BTree<lsl::UUID, std::__1::less<lsl::UUID>, false>::const_iterator&&, lsl::UUID&&);
 };

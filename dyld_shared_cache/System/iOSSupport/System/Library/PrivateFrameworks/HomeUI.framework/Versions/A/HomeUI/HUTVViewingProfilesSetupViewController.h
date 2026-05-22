@@ -33,13 +33,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)MediaAccessoriesGridViewControllerDelegate_legacy>";
-- (void)IDropSession>"24;
+- (void);
+- (id);
+- (void);
+- (void)me snapshot for %@;
 
 // Remaining properties
 @property(retain, nonatomic) OBLinkTrayButton *customizeButton; // @synthesize customizeButton=_customizeButton;

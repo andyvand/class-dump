@@ -16,19 +16,19 @@
     long long accountUsageCount;
 }
 
-+ (_Bool)sqlite3 handle;
++ (_Bool);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (long long)d;
+- (long long);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)ontainerView;
-- (id);
+- (void)d;
 
 // Remaining properties
 @property(nonatomic, readonly) long long accountUsageCount; // @synthesize accountUsageCount;

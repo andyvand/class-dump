@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *badgeLabel; // @synthesize badgeLabel=_badgeLabel;

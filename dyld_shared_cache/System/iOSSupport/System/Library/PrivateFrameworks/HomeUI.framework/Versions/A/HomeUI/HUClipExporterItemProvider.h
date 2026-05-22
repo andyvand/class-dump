@@ -15,9 +15,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)uage_PersonalDevice_Customize);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *clipURL; // @synthesize clipURL=_clipURL;

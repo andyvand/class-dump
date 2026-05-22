@@ -12,16 +12,16 @@
     NSSet *_substitutionVariables;
 }
 
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (void);
 - (id);
-- (void)e transition from state, %{sensitive}@, to state, %{sensitive}@;
-- (void)ÿ?};
+- (_Bool);
+- (void)trics (in %s:%d) /* Error: Ran out of types for this method. */;
+- (void)Ð-;
+- (void);
+- (void)Ã;
 
 // Remaining properties
 @property(nonatomic) _Bool predicateContainsSubstitutionVariables; // @synthesize predicateContainsSubstitutionVariables=_predicateContainsSubstitutionVariables;

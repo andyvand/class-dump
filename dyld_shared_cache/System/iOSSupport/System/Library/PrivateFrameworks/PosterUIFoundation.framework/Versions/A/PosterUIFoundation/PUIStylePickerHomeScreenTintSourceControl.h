@@ -24,10 +24,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void)Analysis_DETERMINE_COLOR_BOXES;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long iconTintSource; // @synthesize iconTintSource=_iconTintSource;

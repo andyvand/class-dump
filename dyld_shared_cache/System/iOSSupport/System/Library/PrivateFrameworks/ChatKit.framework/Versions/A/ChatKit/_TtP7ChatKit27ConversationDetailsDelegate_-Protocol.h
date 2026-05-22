@@ -5,10 +5,5 @@
 //
 
 @protocol _TtP7ChatKit27ConversationDetailsDelegate_
-
-@optional
-- (void);
-- (void)UUIDs;
-- (void)ender view to image from view's backing store;
 @end
 

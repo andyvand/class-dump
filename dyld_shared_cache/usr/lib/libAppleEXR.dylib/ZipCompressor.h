@@ -4,8 +4,8 @@
 
 class ZipCompressor {
 public: // (access info unavailable from symbols alone)
-    CompressData(CompressionInfo&) const;
-    Destroy();
-    GetCompressedMaxSize(CompressionInfo&) const;
+    auto CompressData(CompressionInfo&) const;
+    auto Destroy();
+    auto GetCompressedMaxSize(CompressionInfo&) const;
     ~ZipCompressor();
 };

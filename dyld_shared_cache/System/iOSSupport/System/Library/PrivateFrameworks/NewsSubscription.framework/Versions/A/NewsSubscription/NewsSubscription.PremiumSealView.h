@@ -15,10 +15,10 @@
     MISSING_TYPE *innerImageView;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

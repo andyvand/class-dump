@@ -5,9 +5,9 @@
 class Hunzip {
 public: // (access info unavailable from symbols alone)
     Hunzip(char const*, char const*);
-    fail(char const*, char const*);
-    getbuf();
-    getcode(char const*);
-    getline();
+    auto fail(char const*, char const*);
+    auto getbuf();
+    auto getcode(char const*);
+    auto getline();
     ~Hunzip();
 };

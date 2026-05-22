@@ -56,9 +56,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)reshold;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *additionalAlertActions; // @synthesize additionalAlertActions=_additionalAlertActions;

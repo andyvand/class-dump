@@ -14,21 +14,20 @@
     MISSING_TYPE *backgroundColor;
 }
 
-+ (_Bool)lock;
-- (_Bool);
++ (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (long long);
 - (id);
+- (double);
+- (id);
+- (id)hImage:(id)arg1 shadowImage: /* Error: Ran out of types for this method. */;
+- (void)eAlignment;
+- (void)UIInterfaceActionGroup",R,C,N,V_actionGroup;
 - (_Bool);
-- (void)0@ù
-× ;
-- (id)",R,N;
-- (void)¼;
-- (id)ationArgsHintIsUITextAttribute;
-- (void)lObjects;
-- (void)q;
-- (double)Ýþ;
+- (void);
+- (void)¼Ý%ÿ"ôá;
 
 // Remaining properties
 @property(nonatomic, readonly) long long _navigationBarTransitionVariant;

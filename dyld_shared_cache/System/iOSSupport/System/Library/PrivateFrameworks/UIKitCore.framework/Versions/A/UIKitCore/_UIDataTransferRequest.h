@@ -14,12 +14,12 @@
 }
 
 - (void);
-- (void);
-- (void)ageWithFormat:(id)arg1;
-- (id)0Ì;
-- (id);
-- (void)g;
-- (id)WillDisappear: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)tKind: /* Error: Ran out of types for this method. */;
+- (void)ionTypeDismiss;
+- (id)extAttribute;
+- (void)entifierProvider);
+- (void)f\;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;

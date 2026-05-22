@@ -23,14 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void)P;
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -40,8 +38,11 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
 - (void);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)t",R,N;
 
 // Remaining properties
 @property(nonatomic) unsigned long long fillMode; // @synthesize fillMode=_fillMode;

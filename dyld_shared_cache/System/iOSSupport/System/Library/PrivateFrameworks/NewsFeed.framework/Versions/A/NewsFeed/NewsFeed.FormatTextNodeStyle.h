@@ -23,6 +23,7 @@
     MISSING_TYPE *underline;
     MISSING_TYPE *ignoresSmartInvertColors;
     MISSING_TYPE *baselineOffset;
+    MISSING_TYPE *encapsulation;
 }
 
 @end

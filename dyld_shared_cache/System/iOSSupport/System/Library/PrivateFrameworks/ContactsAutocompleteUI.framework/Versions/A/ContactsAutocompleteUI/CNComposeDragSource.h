@@ -28,20 +28,19 @@
 
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
 - (void);
+- (long long);
 - (id);
-- (id);
-- (long long)!;
-- (void);
-- (_Bool);
-- (id)1¢!0@ù
-× ;
-- (void)ightWhenTouched;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsDragOverridingMasterSwitch; // @synthesize allowsDragOverridingMasterSwitch=_allowsDragOverridingMasterSwitch;

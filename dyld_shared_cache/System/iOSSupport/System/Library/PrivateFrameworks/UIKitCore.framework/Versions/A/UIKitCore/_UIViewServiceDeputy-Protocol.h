@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIAsyncInvocationObserver;
-
 @protocol _UIViewServiceDeputy
-- (_UIAsyncInvocationObserver *)extAlignment;
 @end
 

@@ -36,12 +36,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)UEventTypePickerSectionIdentifierTriggerTypes;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *dailyOptionItem; // @synthesize dailyOptionItem=_dailyOptionItem;

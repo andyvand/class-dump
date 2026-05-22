@@ -9,10 +9,11 @@
 @protocol UITextInputTraits
 
 @optional
-- (_Bool)bjectsFromArray: /* Error: Ran out of types for this method. */;
-- (long long);
-- (long long)B;
-- (long long);
+- (long long)@24;
+- (long long)nBatchingHook: /* Error: Ran out of types for this method. */;
+- (unsigned long long)n: /* Error: Ran out of types for this method. */;
+- (_Bool)URL:toDestinationItemBookmark: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

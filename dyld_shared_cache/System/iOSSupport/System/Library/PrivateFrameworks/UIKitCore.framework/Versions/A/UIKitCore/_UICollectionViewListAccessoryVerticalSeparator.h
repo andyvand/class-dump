@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
 - (struct CGSize);
+- (id):(struct CGRect)arg1;
 
 @end
 

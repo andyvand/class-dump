@@ -7,7 +7,6 @@
 @class NSOrderedSet;
 
 @protocol PXPlacesMapLayoutItem
-- (struct CLLocationCoordinate2D)SourceP;
 
 // Remaining properties
 @property struct CLLocationCoordinate2D coordinate;

@@ -11,11 +11,11 @@
     MISSING_TYPE *application;
 }
 
-- (void)<;
 - (void);
-- (void)y;
 - (id);
-- (id)ForOperation: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)â=þÿ;
 
 @end
 

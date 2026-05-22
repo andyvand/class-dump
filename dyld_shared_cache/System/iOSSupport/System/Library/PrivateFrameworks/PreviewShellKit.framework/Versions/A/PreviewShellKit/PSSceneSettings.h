@@ -11,9 +11,9 @@
     UVPreviewSceneSettings *_settings;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UVPreviewSceneSettings *settings; // @synthesize settings=_settings;

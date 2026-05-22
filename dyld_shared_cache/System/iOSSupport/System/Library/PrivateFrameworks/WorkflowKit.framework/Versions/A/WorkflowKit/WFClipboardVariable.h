@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)tingAction;
+- (_Bool)MCharacteristicTypeNightVision;
 
 @end
 

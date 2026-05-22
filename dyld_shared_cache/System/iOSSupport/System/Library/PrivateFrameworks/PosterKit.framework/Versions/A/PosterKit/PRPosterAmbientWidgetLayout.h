@@ -12,21 +12,22 @@
 }
 
 + (_Bool);
-+ (_Bool)portedDataLayout:creationBehavior:editingBehavior:deletionBehavior:isHidden:needsAuthentication:displayOrder: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

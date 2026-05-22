@@ -26,11 +26,11 @@
 - (void);
 - (void);
 - (void);
-- (void)`;
-- (id);
-- (id);
-- (void);
-- (id)5;
+- (id)source change, got %lu;
+- (void)6;
+- (void): /* Error: Ran out of types for this method. */;
+- (id)ets;
+- (id)xWQ´ß3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

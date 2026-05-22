@@ -13,17 +13,17 @@
     BSCornerRadiusConfiguration *_cornerRadiusConfiguration;
 }
 
-+ (_Bool)chedImageNamed: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (void);
-- (id)0@ù
+- (id);
+- (id)!Aùñ`°1Â0@ù
 × ;
-- (id)tToViewService;
-- (id)Dxÿÿ;
-- (void)ent:(id)arg1 forFloatingAssistantViewTransition:] /* Error: Ran out of types for this method. */;
-- (id)g;
+- (id);
+- (void)nt;
+- (void)ForAxis:(id)arg1;
+- (id)learAsCancelButtonVisibilityWhenEmpty:HIDES /* Error: Ran out of types for this method. */;
+- (void)tionsDomain;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

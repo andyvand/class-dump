@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ptionNoNamePhoto;
+- (id);
+- (void)ã4;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PFStoryRecipe> persistableRecipe; // @synthesize persistableRecipe=_persistableRecipe;

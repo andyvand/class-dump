@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIEditMenuInteraction, UIResponder, UIView;
+@class UIView;
 
 @protocol _UIEditMenuInteractionDelegateInternal
 
 @optional
-- (UIResponder *)story:(UIEditMenuInteraction *)arg1;
-- (void)nPartIndex:(UIEditMenuInteraction *)arg1;
-- (UIView *)etIsLoadedNotification;
-- (NSArray *);
-- (void);
-- (void)ntHostViewConstraints;
+- (UIView *)@ù
+× ;
 @end
 

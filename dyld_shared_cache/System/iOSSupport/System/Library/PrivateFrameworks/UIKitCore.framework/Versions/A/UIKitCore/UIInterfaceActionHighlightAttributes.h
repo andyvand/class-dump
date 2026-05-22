@@ -15,17 +15,16 @@
 
 - (id);
 - (_Bool);
-- (_Bool);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (id)Columns;
-- (id)S_setButtonItemStyle:,V_buttonItemStyle /* Error: Ran out of types for this method. */;
-- (double)lue;
-- (id)0;
-- (void)ELLING_CHECK_SPELLING;
-- (void)ollectionChange;
-- (void)Åéþ;
+- (id)ation: /* Error: Ran out of types for this method. */;
+- (_Bool)exPathForItem:(id)arg1;
+- (void)_trackWidthProportion;
+- (double)itCollectionChanged;
+- (id)wMonitoring;
+- (void)<%@:(double)arg1 %p>; backtrace:%@ /* Error: Ran out of types for this method. */;
+- (id)selectedDetentIdentifier;
+- (void)]13ýÿE13ÀönþE13ÔþM13¸õ¸þ;
+- (void)¬yÝþ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

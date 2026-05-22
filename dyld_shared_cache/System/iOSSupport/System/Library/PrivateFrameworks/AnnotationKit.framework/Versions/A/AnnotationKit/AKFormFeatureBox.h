@@ -18,21 +18,21 @@
     struct CGRect _enclosingRegionRect;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGRect);
 - (void);
-- (void);
-- (void);
-- (void)ipeline;
-- (_Bool)eindexedData == false;
-- (unsigned long long);
 - (id);
+- (_Bool);
 - (void);
 - (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long alignment; // @synthesize alignment=_alignment;

@@ -21,7 +21,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)legate: /* Error: Ran out of types for this method. */;
 
 @end
 

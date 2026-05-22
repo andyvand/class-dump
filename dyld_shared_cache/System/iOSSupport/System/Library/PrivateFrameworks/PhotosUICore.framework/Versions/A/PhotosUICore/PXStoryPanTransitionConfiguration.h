@@ -19,11 +19,12 @@
 - (void);
 - (void);
 - (void);
-- (id)Pøt;
-- (void);
+- (CDStruct_1b6d18a9);
 - (id);
-- (id)icationTypeInBackground;
-- (CDStruct_1b6d18a9)ed;
+- (id);
+- (id)Renders;
+- (void)È
+;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;

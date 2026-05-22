@@ -5,7 +5,6 @@
 //
 
 @protocol SWPreferredSizeManager
-- (void);
 
 // Remaining properties
 @property(copy, nonatomic, setter=onPreferredSize:) CDUnknownBlockType preferredSizeBlock;

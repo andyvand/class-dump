@@ -15,18 +15,18 @@
     IMServiceReachabilityContext *_context;
 }
 
-+ (_Bool)ot implemented on ;
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)wnloadTaskLimit;
+- (void)ummaryInfo;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;

@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)s: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWDatastoreManager> datastoreManager; // @synthesize datastoreManager=_datastoreManager;

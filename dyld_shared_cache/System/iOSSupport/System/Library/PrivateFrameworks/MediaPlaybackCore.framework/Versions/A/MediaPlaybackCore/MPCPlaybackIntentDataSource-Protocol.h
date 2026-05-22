@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackIntent;
-
 @protocol MPCPlaybackIntentDataSource
-+ (_Bool)setProxyingForApp:(MPCPlaybackIntent *)arg1;
-+ (_Bool)count:(MPCPlaybackIntent *)arg1 store:(int)arg2 options:(long long)arg3 completion:(unsigned long long)arg4;
-
-@optional
-- (void)onType:(MPCPlaybackIntent *)arg1;
-- (void)ngAppleIDAuthAccount:(MPCPlaybackIntent *)arg1;
 @end
 

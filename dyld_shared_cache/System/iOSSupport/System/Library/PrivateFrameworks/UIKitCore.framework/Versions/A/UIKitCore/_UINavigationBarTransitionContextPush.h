@@ -20,22 +20,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)b;
 - (void);
 - (void);
-- (void);
 - (void);
-- (void)1¢!0@ù
+- (void);
+- (void)ùQ`ð1Â0@ù
 × ;
-- (void)rray"48@"NSArray"56B64;
-- (void)legatesWithDelegate: /* Error: Ran out of types for this method. */;
-- (void)tonShapesSupport;
-- (void)©;
-- (void)ntroller:%@ /* Error: Ran out of types for this method. */;
+- (void)ment: /* Error: Ran out of types for this method. */;
+- (void)entPosition;
+- (void): /* Error: Ran out of types for this method. */;
+- (void)T@"<UIScenePresentationBinderDelegate>",W,N,V_delegate;
 - (void);
-- (void)sAutolayoutFlagPropagation;
-- (void)ewControllers;
-- (long long)superview=%p window=%p;
+- (void)supplementary view element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
+- (void)@"UICellAccessory"8Q16^B24;
+- (void)(SpokeLayer in _E7ADF61CB2C5BE84A3CEAD4215D687DF);
+- (void)gViewControllerCSg;
+- (long long);
 
 @end
 

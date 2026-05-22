@@ -12,20 +12,20 @@
     NSString *_homeUUID;
 }
 
-+ (id)P¸Ü¸	 ¹ôºð»	4½;
++ (id);
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (id)ChangeRegistrationsMessage;
-- (id)oded personUUID:%@ /* Error: Ran out of types for this method. */;
+- (void)ÿÿ0p;
 
 // Remaining properties
 @property(readonly, copy) NSArray *addedAccessoryUUIDs; // @synthesize addedAccessoryUUIDs=_addedAccessoryUUIDs;

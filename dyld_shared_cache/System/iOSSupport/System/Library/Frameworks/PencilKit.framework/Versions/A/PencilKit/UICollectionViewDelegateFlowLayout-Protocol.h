@@ -5,14 +5,5 @@
 //
 
 @protocol UICollectionViewDelegateFlowLayout
-
-@optional
-- (struct CGSize)ConversationReport.conversationId;
-- (double)Â1¢!0@ù
-× ;
-- (struct CGSize)troller"16;
-- (struct UIEdgeInsets)gToVisible;
-- (struct CGSize)8É;
-- (double);
 @end
 

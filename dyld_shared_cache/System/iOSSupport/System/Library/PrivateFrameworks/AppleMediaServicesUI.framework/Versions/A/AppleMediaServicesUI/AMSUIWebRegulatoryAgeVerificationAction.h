@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id)ired parameter, unable to process the authenticate request. request = %{public}@ presentingViewController = %{public}@;
+- (id);
+- (void)r;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-- (id)stenedClickValue;
+- (id);
 - (id);
 
 @end

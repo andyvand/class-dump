@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (long long)QualityStatus: /* Error: Ran out of types for this method. */;
-- (void)enShareForParticipant: /* Error: Ran out of types for this method. */;
-- (id)dVC should be in a UIWindow;
+- (long long);
+- (void);
+- (id)ecessaryForSizing;
 
 // Remaining properties
 @property(nonatomic) long long decorationSize; // @synthesize decorationSize=_decorationSize;

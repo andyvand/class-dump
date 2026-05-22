@@ -15,29 +15,28 @@ __attribute__((visibility("hidden")))
     UILabel *_badgeTextLabel;
 }
 
-- (void);
+- (void);
 - (id);
+- (void);
+- (struct CGSize);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void)lClass:(id)arg1 pickerResponder: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
-- (id);
-- (void)!|GùñÄ°1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (id)Ìð1¢!0@ù
-× ;
-- (void)V_beforeElements;
-- (void)Size:(_Bool)arg1;
-- (void)p; type:(id)arg1 %li; subtype:%li; backing type:%i; shouldSend:%d; ignoreInteractionEvents:%d, systemGestureStateChange:%d /* Error: Ran out of types for this method. */;
-- (id)ems. Please file an enhancement request on UICollectionView.;
-- (void)RemoveStoreOnCleanupKey;
-- (struct CGSize)intStatusChangedNotification;
-- (_Bool);
-- (_Bool)\;
+- (void)ingFiler:(id)arg1;
+- (void)pdateSingleLayerNoMaskFromLayerStack;
+- (id)elta;
+- (void)ketContainerInteraction;
+- (id)Äü!¸ýpþlÿ$;
+- (void)'((;
+- (void)e;
+- (void)ApplicationTesting) _performIOSMacResizeTestUsingTestName:(id)arg1 ];
+- (void)nsitionContext"16;
+- (_Bool)eOverrideCallRinging;
+- (void)ÿöñoþ;
+- (_Bool)ightEffect;
+- (_Bool)33ÄÁ;
 
 // Remaining properties
 @property(nonatomic) _Bool accessoryUsesMonochromaticTreatment;

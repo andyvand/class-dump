@@ -5,6 +5,5 @@
 //
 
 @protocol WCXPCManagerSharedProtocol
-- (void);
 @end
 

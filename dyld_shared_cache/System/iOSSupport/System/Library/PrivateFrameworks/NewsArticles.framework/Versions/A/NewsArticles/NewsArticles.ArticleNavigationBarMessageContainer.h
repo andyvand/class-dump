@@ -17,11 +17,11 @@
 
 - (id);
 - (id);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (struct CGSize)Configuration",?,R,N;
+- (void)er;
 
 @end
 

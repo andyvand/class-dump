@@ -27,10 +27,10 @@
 - (void);
 - (unsigned char);
 - (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (void);
+- (void),V_interactionView;
+- (id)ñÿ;
 
 // Remaining properties
 @property(nonatomic) struct _NSRange bufferRange; // @synthesize bufferRange=_bufferRange;

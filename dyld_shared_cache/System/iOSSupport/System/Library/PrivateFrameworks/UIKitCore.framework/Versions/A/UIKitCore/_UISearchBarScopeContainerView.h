@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     _UISearchBarScopeContainerLayout *_layout;
 }
 
+- (struct CGSize);
+- (id);
 - (void);
-- (void);
-- (id)rame:queryResult: /* Error: Ran out of types for this method. */;
-- (id)thForMatchingBackButtonView:titleView:withBackButtonWidth: /* Error: Ran out of types for this method. */;
-- (_Bool)ø¤þ;
-- (id)}þÿ;
-- (void)void);
-- (struct CGSize)dgeEffect",N,R,VleftEdgeEffect;
-- (void)rk/AssistantServices;
+- (_Bool);
+- (id)edForFocusSystemSceneComponent:(struct CGRect)arg1;
+- (void)4ñìÿ;
+- (id)_stacksWithChild;
+- (void)tionDefinitionStorageInvokable;
+- (void)8Á[;
 
 // Remaining properties
 @property(retain, nonatomic) _UISearchBarScopeContainerLayout *layout; // @synthesize layout=_layout;

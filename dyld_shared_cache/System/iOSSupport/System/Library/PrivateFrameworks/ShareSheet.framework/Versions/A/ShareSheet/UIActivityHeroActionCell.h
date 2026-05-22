@@ -30,11 +30,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)sToBounds:(_Bool)arg1;
-- (id)tInitialValidLayoutWasCalled: /* Error: Ran out of types for this method. */;
+- (void)d+`,¤,Ô-X.ì0À12¼2`3;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *activityImageView; // @synthesize activityImageView=_activityImageView;

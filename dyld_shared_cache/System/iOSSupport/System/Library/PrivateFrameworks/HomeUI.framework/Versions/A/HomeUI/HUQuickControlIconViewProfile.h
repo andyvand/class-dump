@@ -24,9 +24,9 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)d be initialized with exactly one control item, but instead found:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<HFIconDescriptor> *iconDescriptor; // @synthesize iconDescriptor=_iconDescriptor;

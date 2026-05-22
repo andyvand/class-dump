@@ -28,7 +28,7 @@
     PRUISPosterChannelModelCoordinator *_modelCoordinator;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -84,18 +84,18 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (unsigned long long);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void)rConfigurationUtilities] Unable to load title style configuration:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PRUISPosterChannelContext *channelContext;

@@ -16,16 +16,16 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
 - (long long);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;

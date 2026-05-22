@@ -14,10 +14,9 @@ __attribute__((visibility("hidden")))
     id <UINSColor> _otherMacSystemColor;
 }
 
-- (id)tusSubscriptionMatchesSubscriptionValidationToken:(id)arg1 fromSender:(SEL)arg2 completion:(SEL)arg3;
-- (void)
-× ;
-- (id)d;
+- (id);
+- (void)d÷Âÿ;
+- (id);
 
 @end
 

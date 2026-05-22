@@ -5,9 +5,5 @@
 //
 
 @protocol UIPDFAnnotationControllerDelegate
-
-@optional
-- (struct CGSize);
-- (void);
 @end
 

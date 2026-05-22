@@ -41,19 +41,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id)';
-- (void)Mode;
-- (id);
-- (id)":Ö /* Error: Ran out of types for this method. */;
+- (void)se:handleWindowRequest:purchaseQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)afeArea;
+- (void)q;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *audioSessionCategory; // @synthesize audioSessionCategory=_audioSessionCategory;

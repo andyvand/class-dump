@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol NSSNewsAnalyticsSessionManagerObserving
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *sceneSessionIdentifier;

@@ -30,9 +30,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)n;
 - (void);
-- (_Bool)°ùPúàû üÌýþ;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain) PDFRenderingProperties *renderingProperties; // @synthesize renderingProperties=_renderingProperties;

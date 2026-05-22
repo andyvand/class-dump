@@ -12,10 +12,10 @@
     struct CGRect _sourceRect;
 }
 
-- (id);
-- (struct CGRect);
-- (void);
 - (id);
+- (struct CGRect);
+- (id);
+- (void)@"SXFullscreenCanvasController"16@"UIView"24@"<SXFullscreenCanvasShowable>"32;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

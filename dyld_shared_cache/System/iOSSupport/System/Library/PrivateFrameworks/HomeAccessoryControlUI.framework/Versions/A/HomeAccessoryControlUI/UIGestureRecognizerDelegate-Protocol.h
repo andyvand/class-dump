@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIGestureRecognizer;
+
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)!ìy#ìyAByAByAByìªìyAByAByABy ì~ìypìSgGG'÷GAHyìSgGGGGAQGìG_AWtGG|ìySbGGìG_SbQo_G;
-- (_Bool);
+- (_Bool)d areas to all areas, command:(UIGestureRecognizer *)arg1 %{public}s;
 @end
 

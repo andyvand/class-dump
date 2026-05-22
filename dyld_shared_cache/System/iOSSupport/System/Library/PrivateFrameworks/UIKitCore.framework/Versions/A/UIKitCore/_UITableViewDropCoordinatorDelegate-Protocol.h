@@ -8,10 +8,12 @@
 @protocol UIDragAnimating;
 
 @protocol _UITableViewDropCoordinatorDelegate
-- (id <UIDragAnimating>)1¢!0@ù
+- (id <UIDragAnimating>)!FùñfÐ1Â0@ù
 × ;
-- (id <UIDragAnimating>)(!x!;
-- (void)üÿ­|þÿ;
-- (UITableView *);
+- (id <UIDragAnimating>)e=dd}}28B60B64;
+- (id <UIDragAnimating>)Manager;
+- (void);
+- (id <UIDragAnimating>)%@;
+- (UITableView *)+¸þh®xþ;
 @end
 

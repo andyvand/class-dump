@@ -12,17 +12,16 @@
     long long _addressKind;
 }
 
-+ (id)çÿ:Nà9 /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)0@ù
-× ;
+- (id)"PHPerson"8^B16;
+- (void)¹¶Æ°Ë;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *address; // @synthesize address=_address;

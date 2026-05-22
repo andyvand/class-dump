@@ -5,6 +5,5 @@
 //
 
 @protocol IMDRemoteDatabaseProtocol
-- (void)w;
 @end
 

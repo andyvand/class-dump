@@ -16,17 +16,17 @@ __attribute__((visibility("hidden")))
     NSArray *_insertsAfter;
 }
 
-+ (id)update IMMessageItem's syndication ranges for SyndicationAction %@;
-+ (_Bool)*Tm;
++ (id);
++ (_Bool)boardSuggestionOptions;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void):(CDUnknownBlockType)arg1;
-- (_Bool)ToUploadToCloudKitWithLimit:(CDUnknownBlockType)arg1;
 - (void);
+- (_Bool);
 - (id);
-- (void)hä{¬;
+- (void)MaximumMovementDecay;
+- (void)¤Áÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _UICommandIdentifier *anchor; // @dynamic anchor;

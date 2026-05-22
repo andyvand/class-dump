@@ -5,8 +5,8 @@
 //
 
 @protocol _UIALAPropertySource
-- (void);
-- (unsigned long long)¸ÿÿÿ¤ôèÿÜâþþÿ;
+- (unsigned long long);
+- (void)decompression-completed;
 
 // Remaining properties
 @property(nonatomic) unsigned long long alignment;

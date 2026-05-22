@@ -39,8 +39,9 @@
 - (id);
 - (void);
 - (id);
-- (void)erAdapter.m;
-- (id)but instead, we're in the %@ phase;
+- (id)!AùÑá°1B50@ù
+× ;
+- (void)8ÖxÖÖÀÖÈÖ××P×X×× ×à×è×(Ø0ØpØxØ¸ØÀØ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long detailLevel; // @synthesize detailLevel=_detailLevel;

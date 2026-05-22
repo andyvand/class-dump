@@ -5,7 +5,5 @@
 //
 
 @protocol NUIArrangementItem
-- (_Bool);
-- (float);
 @end
 

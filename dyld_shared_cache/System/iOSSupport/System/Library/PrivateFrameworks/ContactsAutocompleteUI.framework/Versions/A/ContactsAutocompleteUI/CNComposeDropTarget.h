@@ -38,22 +38,20 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (long long);
-- (id);
-- (_Bool);
-- (id)1¢!0@ù
-× ;
-- (void)0@ù
-× ;
+- (void)Allowed;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *acceptableUTIs; // @synthesize acceptableUTIs=_acceptableUTIs;

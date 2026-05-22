@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (_Bool)D:countryCode: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (id)splay name:(id)arg1 %@;
+- (id);
 - (double);
 
 @end

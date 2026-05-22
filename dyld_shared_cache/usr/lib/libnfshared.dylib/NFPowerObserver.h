@@ -18,15 +18,15 @@
     _Bool _willSleep;
 }
 
-- (_Bool)!;
 - (void);
-- (void);
-- (void);
-- (_Bool)riveSheet;
-- (void)v;
 - (void);
 - (id);
+- (void);
 - (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly) _Bool willSleep; // @synthesize willSleep=_willSleep;

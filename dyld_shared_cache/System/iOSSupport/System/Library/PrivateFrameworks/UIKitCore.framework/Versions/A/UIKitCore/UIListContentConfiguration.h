@@ -41,127 +41,129 @@
 + (id);
 + (id);
 + (id);
-+ (void)A9h;
 + (id);
-+ (id)CachePolicy: /* Error: Ran out of types for this method. */;
-+ (id);
-+ (id)<;
++ (void);
 + (id);
 + (id);
-+ (id);
 + (id);
-+ (id)¥Û,º;
 + (id);
-+ (id)éóº;
-+ (id)Ð1¢!0@ù
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)Ô ;
++ (id)!¨Eù]ð1Â0@ù
 × ;
-+ (id)Ôu!ØGùñÉ°1¢!0@ù
++ (id);
++ (id)1Â0@ù
 × ;
++ (id)Á!Gù±dÐ1Â0@ù
+× ;
++ (id)
+× ;
++ (id)Ôá	ð!AùQf°1Â0@ù
+× ;
++ (id)ts=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{CGSize=dd}}16;
 + (id);
-+ (id)ew"32@0:(id)arg1 8{CGPoint=dd}16;
-+ (id)nt;
-+ (id)rnerRadius;
-+ (id)tPackage:(id)arg1;
-+ (id)uteDeferredOrientationUpdate;
-+ (id)ngBehavior;
-+ (id)enuItemBehavior;
-+ (id)ientToHostRelationshipGestureInteraction;
-+ (id)plicationSceneKeyboardExtension;
-+ (id)Ü;
-+ (id)ð©;
++ (id)onToStateRequest:(id)arg1 predictedDetailSize:(id)arg2 predictedDuration: /* Error: Ran out of types for this method. */;
++ (id)ingUnderneathDescendantForDepthLevel;
++ (id)malizedForceVelocity;
++ (id)istantView;
 + (id);
++ (id)ple.UIKit.large;
++ (_Bool)roxyUpdateRelatedToolbarsNotification;
++ (id)tegoryXS;
++ (id)ttings>"8;
++ (id)V;
++ (id);
++ (void)@Y_;
 + (id);
-+ (id)Identifier instead.;
-+ (id)Library/PrivateFrameworks/RevealCore.framework/RevealCore;
-+ (id)ù[;
-+ (void)§ÿ&;
-+ (id);
-+ (id)®ÿ;
-+ (id)ÏT¤l;
-+ (_Bool)dcgÿ;
-- (void);
-- (id);
-- (double)T;
-- (_Bool)tory;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id);
 - (void);
 - (id);
 - (void);
-- (double)boardWriting>"32@0:(id)arg1 8@"NSTableView"16q24;
 - (void);
 - (void);
-- (unsigned long long)(;
-- (double),@;
+- (void);
+- (_Bool);
 - (struct NSDirectionalEdgeInsets);
 - (id);
+- (void);
+- (long long);
+- (void);
 - (id);
-- (void);
-- (_Bool)%;
-- (id)erverConfiguration;
-- (double);
+- (void);
+- (void);
 - (_Bool);
-- (id)RPQ:(_Bool)arg1 initWithMediaRemotePlaybackQueue:[firstItem] source=pid firstItem=(null) /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (double);
 - (void);
-- (void);
-- (id);
-- (double);
-- (_Bool),Ø5º;
-- (_Bool)!dFùÑÀÐ1¢!0@ù
+- (id)¡ð!,Bù±\1Â0@ù
 × ;
-- (void);
-- (id)1¢!0@ù
+- (double)]°1Â0@ù
 × ;
-- (void)@ù
+- (id)°!XFù]Ð1Â0@ù
 × ;
-- (unsigned long long)
+- (void)ù1]°1Â0@ù
 × ;
-- (_Bool)È°1¢!0@ù
+- (id)!ôFùq]Ð1Â0@ù
 × ;
-- (id);
-- (_Bool)0@ù
-× ;
-- (void)!Aù1Ï°1¢!0@ù
-× ;
-- (id)rInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (void);
-- (_Bool)msAtIndexPaths: /* Error: Ran out of types for this method. */;
-- (double)vent: /* Error: Ran out of types for this method. */;
-- (double)n;
-- (void)emphasisStyleKey;
-- (unsigned long long)setRootPresentationController: /* Error: Ran out of types for this method. */;
-- (void),&,N,V_shouldPreferEndOfWord;
-- (id)ction;
-- (id)eaf;
-- (void)0î;
-- (long long)êHëë4íHï ð;
-- (void)x;
-- (id)°¤àh,¼¤¶ì¶.T»½lÎ4ÑÈÒÓ ÙôÜ$ì{ð¸ñPòóPóô`ô|õ}ö~÷@ùàèüÄ;
-- (void);
-- (void)h;
-- (id)release.;
-- (long long)D	èÿH
-èÿ 
-èÿì
-èÿTèÿÈèÿàèÿLèÿàèÿ,èÿ èÿÌèÿðèÿ,èÿèÿÜèÿhèÿ°èÿ¤èÿàèÿèÿ(èÿdèÿøèÿ4èÿØèÿìèÿ8èÿ|èÿÈèÿl"èÿ¸"èÿ,#èÿ$èÿÜ%èÿ 'èÿ(èÿ`(èÿ4)èÿ)èÿè)èÿ4*èÿä+èÿ0,èÿH,èÿ0-èÿ|-èÿ -èÿ|.èÿ .èÿè.èÿ/èÿÜ/èÿL1èÿ1èÿ¬1èÿè1èÿ`2èÿ2èÿÀ2èÿä2èÿ 9èÿÐ:èÿ;èÿ;èÿ0<èÿl<èÿ<èÿÌ<èÿ=èÿ=èÿ¤=èÿÈ=èÿ>èÿ>èÿ°?èÿÈ?èÿ@èÿ(@èÿ@@èÿL@èÿx@èÿ¬@èÿpAèÿüAèÿ´DèÿØDèÿEèÿ EèÿÄEèÿÐEèÿFèÿÄFèÿDGèÿ´Gèÿ¨HèÿIèÿ8IèÿdIèÿôJèÿKèÿ<KèÿLèÿ¨LèÿÌLèÿMèÿ,MèÿPMèÿtMèÿ°MèÿÔMèÿøMèÿNèÿXNèÿ|Nèÿ NèÿÄNèÿ /* Error: Ran out of types for this method. */;
-- (void);
-- (void)maps:(_Bool)arg1 q=%@;
-- (void)nterfaceSemanticContext;
 - (_Bool);
-- (id)$ÎÓÿvz;
-- (double)¤ßÿ;
-- (id)%Ðpk;
-- (void)k;
-- (id)Îk;
-- (void)þ¿;
-- (struct NSDirectionalEdgeInsets)¨ÿçÄ;
+- (_Bool)`Ð1Â0@ù
+× ;
+- (void)meInterval:(long long)arg1 onQueue:do: /* Error: Ran out of types for this method. */;
+- (_Bool)e: /* Error: Ran out of types for this method. */;
+- (void)ementaryNib:(double)arg1 elementKind:configurationHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ultValue: /* Error: Ran out of types for this method. */;
+- (_Bool)ble;
+- (double)leToTypeFast;
+- (void):(id)arg1;
+- (void)DataSource;
+- (_Bool)fromASP: /* Error: Ran out of types for this method. */;
+- (void)sideActions:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (double)nces: /* Error: Ran out of types for this method. */;
+- (double)sible;
+- (void)dentifier:(id)arg1;
+- (double)ataWhenPossible: /* Error: Ran out of types for this method. */;
+- (void)InputExpected;
+- (void)sualStyleOverrideSeparatorAttributes;
+- (id)er;
+- (unsigned long long)ewFlags.hasFocusEffect (%d).;
+- (double)ndow:(id)arg1 %@.;
+- (id)scription;
+- (long long)lFillDenominator=%f;
+- (void)pdate:(id)arg1 invalid number of rows in section %lu. Attempt to delete more rows than exist in section. Table view:%@ /* Error: Ran out of types for this method. */;
+- (id)statusBarIsHidden;
+- (double)Found activity to become current:%@, title = %@, identifier = %@ /* Error: Ran out of types for this method. */;
 - (void);
-- (long long)Ul;
+- (id)tCore/UIPasteboard.swift;
+- (id);
+- (double)A`Å?ï§ÆKw-Àü©ñÒM²N@/Ý$ÑH@C\A@lçû©ñ>ÀÛù~j¼´:@Év¾o0ÀHáz®&@R¸ëR@®Gázô:@VVVVVVæ?ÒÑÑÑÑÑá?Ò?Ò?Õ?è?ë?ë?Ì?¼?à?À?í?É?ìQ¸ëÑ?
+×£p=
+×? ï?Âõ(\â?¹ëQ¸Î?Ý?Ý?¹ëQ¸¾?¿¾¾¾¾¾î?ï?Ú?Á?]]]]]]Ý?ëQ¸Û?Âõ(\ê?[[[[[[Û?666666æ?´³³³³³ã?ÍÌÌÌÌÌÜ?ffffffÖ?333333ã?ffffffæ?¶óý<ªñÒ=
+×#< /* Error: Ran out of types for this method. */;
+- (void);
+- (struct NSDirectionalEdgeInsets)e;
+- (void)ÿ*ô\;
+- (double)@´;
+- (void);
+- (id)e;
+- (id)8Ãâÿ$&;
+- (_Bool)ÙtAf;
+- (void)§f;
+- (void)¬%g;
+- (void)éÉäÙg;
+- (id)Êÿ×)eåh;
+- (id)>ÿÛ¨qh;
+- (id)þ,ùÑ¤j;
+- (long long)×õ5k;
+- (id)¿ck;
+- (void)ØÞj;
 
 // Remaining properties
 @property(nonatomic, setter=__setEnforcesMinimumHeight:) _Bool __enforcesMinimumHeight; // @synthesize __enforcesMinimumHeight=_enforcesMinimumHeight;

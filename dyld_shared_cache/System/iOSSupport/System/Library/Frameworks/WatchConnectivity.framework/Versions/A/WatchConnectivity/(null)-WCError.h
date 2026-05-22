@@ -7,7 +7,7 @@
 @interface (null) (WCError)
 + (id);
 + (id);
-+ (id)<;
++ (id);
 + (id);
 + (id);
 + (id);

@@ -65,16 +65,15 @@
 - (double);
 - (id);
 - (_Bool);
-- (double);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (double);
 - (void);
-- (void)! Ð!Aù °1b0@ù
-× ;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contextIdentifier; // @synthesize contextIdentifier=_contextIdentifier;

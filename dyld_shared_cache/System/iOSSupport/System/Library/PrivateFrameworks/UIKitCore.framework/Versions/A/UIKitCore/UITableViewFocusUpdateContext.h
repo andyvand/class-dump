@@ -18,11 +18,11 @@
 }
 
 + (id);
-- (id)ateCallbackID:willSendToDestinations:skippedDestinations:registrationPropertyToDestinations: /* Error: Ran out of types for this method. */;
-- (id)teItemDone:batchContext: /* Error: Ran out of types for this method. */;
-- (id)ces are nil or empty from IDS so just returning;
-- (void);
-- (id)þ-ÙNc;
+- (id);
+- (id);
+- (id);
+- (void),ía;
+- (id)è}f;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexPath *nextFocusedIndexPath; // @synthesize nextFocusedIndexPath=_nextFocusedIndexPath;

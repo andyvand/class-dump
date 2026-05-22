@@ -4,15 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACADMUser, LACUIAuthenticationSheetConfiguration, LACUIAuthenticationSheetHelperAHP, LACUIAuthenticationSheetHelperAvailability, NSArray, NSData, NSMutableDictionary, NSString, NSXPCConnection, UIImage;
+@class LACADMUser, LACUIAuthenticationSheetConfiguration, LACUIAuthenticationSheetHelperAHP, LACUIAuthenticationSheetHelperAvailability, NSArray, NSData, NSImage, NSMutableDictionary, NSString, NSXPCConnection, UIImage;
 @protocol LACADMUserProviding, LACAHP, LACContext, LACContextProviding, LACUIAuthenticationSheetViewModelDelegate;
 
 @interface LACUIAuthenticationSheetViewModel
 {
     id <LACContextProviding> _contextProvider;
     id <LACADMUserProviding> _admUserProvider;
+    NSImage *_callerIcon;
+    NSString *_callerIconPath;
     LACADMUser *_currentUser;
     NSString *_clientDisplayName;
+    NSString *_selectedUsername;
     unsigned long long _noMatchCount;
     _Bool _isBiometryEvaluationRunning;
     long long _activeMechanisms;
@@ -21,7 +24,6 @@
     long long _pamMechanism;
     NSMutableDictionary *_longNames;
     _Bool _shouldExpandOnCardInsert;
-    _Bool _smartCardInserted;
     NSXPCConnection *_smartCardConnection;
     id <LACAHP> _smartCardProvider;
     NSXPCConnection *_watchConnection;
@@ -41,9 +43,7 @@
     NSString *_pamUsername;
     LACUIAuthenticationSheetConfiguration *_uiConfiguration;
     long long _sheetState;
-    UIImage *_badge;
     UIImage *_icon;
-    NSString *_userName;
     NSArray *_userNamesList;
 }
 
@@ -53,13 +53,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -69,6 +69,7 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -78,13 +79,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -135,7 +139,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -144,27 +148,28 @@
 - (void);
 - (long long);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)mainForName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long authenticator; // @synthesize authenticator=_authenticator;
-@property(readonly, nonatomic) UIImage *badge; // @synthesize badge=_badge;
+@property(readonly, nonatomic) UIImage *badge;
 @property(readonly, copy, nonatomic) NSString *callerIconPath;
 @property(readonly, nonatomic) NSString *callerName;
 @property(readonly, nonatomic) id <LACContext> context; // @synthesize context=_context;
+@property(nonatomic) __weak id <LACContextProviding> contextProvider;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
@@ -176,7 +181,6 @@
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *hint;
 @property(readonly, nonatomic) UIImage *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) _Bool isAdminRequired;
 @property(readonly, nonatomic) _Bool isCancelButtonEnabled; // @synthesize isCancelButtonEnabled=_isCancelButtonEnabled;
 @property(readonly, nonatomic) _Bool isMultiUserAuthentication;
 @property(nonatomic) _Bool isPasswordExtractable; // @synthesize isPasswordExtractable=_isPasswordExtractable;
@@ -199,7 +203,7 @@
 @property(readonly, nonatomic) _Bool touchIDInhibited;
 @property(readonly, nonatomic) long long touchIDPolicy;
 @property(retain, nonatomic) LACUIAuthenticationSheetConfiguration *uiConfiguration; // @synthesize uiConfiguration=_uiConfiguration;
-@property(readonly, nonatomic) NSString *userName; // @synthesize userName=_userName;
+@property(readonly, nonatomic) NSString *userName;
 @property(readonly, nonatomic) NSArray *userNamesList; // @synthesize userNamesList=_userNamesList;
 @property(retain, nonatomic) NSXPCConnection *watchConnection; // @synthesize watchConnection=_watchConnection;
 @property(readonly, nonatomic) _Bool watchInhibited;

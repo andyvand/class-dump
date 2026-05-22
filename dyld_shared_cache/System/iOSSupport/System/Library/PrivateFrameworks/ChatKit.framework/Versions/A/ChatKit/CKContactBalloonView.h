@@ -19,29 +19,28 @@
 
 + (_Bool);
 - (CDUnknownBlockType);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
-- (id)on cancelled for:%@ /* Error: Ran out of types for this method. */;
-- (void)read-only on your devices using an older OS version;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)Ա;
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
+- (id);
 - (void);
-- (id)0@ù
-× ;
-- (id)TÚ°Ýäâå;
-- (id)ng %@;
+- (void);
+- (id);
+- (id)t: /* Error: Ran out of types for this method. */;
+- (void)6;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *chevron; // @synthesize chevron=_chevron;

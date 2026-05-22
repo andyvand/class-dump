@@ -52,9 +52,11 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)!¿!pAù	ð1â
+0@ù
+× ;
+- (id)mpletion:(id)arg1;
+- (id)ic}@':%{public}@... readonly... skipping... %{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool assocPostersExist;

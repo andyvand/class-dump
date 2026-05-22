@@ -4,5 +4,5 @@
 
 class agp_control {
 public: // (access info unavailable from symbols alone)
-    generate_checksum(void*, int);
+    auto generate_checksum(void*, int);
 };

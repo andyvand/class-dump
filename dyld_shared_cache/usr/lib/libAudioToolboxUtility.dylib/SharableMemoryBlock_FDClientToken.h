@@ -4,5 +4,5 @@
 
 class SharableMemoryBlock::FDClientToken {
 public: // (access info unavailable from symbols alone)
-    Reset();
+    auto Reset();
 };

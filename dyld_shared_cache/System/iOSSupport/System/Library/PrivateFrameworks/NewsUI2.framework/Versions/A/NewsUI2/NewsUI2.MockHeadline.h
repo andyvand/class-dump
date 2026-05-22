@@ -12,11 +12,11 @@
     MISSING_TYPE *_isIssueOnly;
 }
 
-- (_Bool)e;
-- (void)P;
 - (id);
-- (id)alScrollIndicator: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 - (void);
+- (void)qÍ^xdªþQÍ^çþYÍ^4æMÿIÍ^Leªþ;
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *displayDate;

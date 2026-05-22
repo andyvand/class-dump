@@ -5,18 +5,16 @@
 //
 
 @class UICollectionView, UICollectionViewDropProposal, UIDragPreviewParameters;
-@protocol UIDropSession;
+@protocol UICollectionViewDropCoordinator;
 
 @protocol UICollectionViewDropDelegate
-- (void)Ax°!|GùQ}1b0@ù
-× ;
+- (void):(UICollectionView *)arg1 viewModel:(id <UICollectionViewDropCoordinator>)arg2 layout:hitSpriteReference: /* Error: Ran out of types for this method. */;
 
 @optional
-- (_Bool)aSourceManagerWithAsset:(UICollectionView *)arg1 options:(id <UIDropSession>)arg2;
-- (void)´¡Ð;
-- (UICollectionViewDropProposal *);
-- (void)Ø^V;
-- (UIDragPreviewParameters *)l;
-- (void)hapterCollection>"8;
+- (void)tBackgroundView:(UICollectionView *)arg1;
+- (UICollectionViewDropProposal *);
+- (UIDragPreviewParameters *)yback;
+- (_Bool);
+- (void)þÿ;
 @end
 

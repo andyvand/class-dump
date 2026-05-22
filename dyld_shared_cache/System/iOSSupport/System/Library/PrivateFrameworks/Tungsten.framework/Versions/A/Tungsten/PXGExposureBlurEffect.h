@@ -20,10 +20,10 @@
 - (void);
 - (id);
 - (double);
-- (double);
+- (void);
 - (void);
 - (double);
-- (void);
+- (double);
 - (void);
 
 // Remaining properties

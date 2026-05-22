@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void)ldWithIdentifier:(id)arg1 withLDAPAccountDescription:withLDAPAccountHostName:withLDAPAccountUseSSL:withLDAPSearchSettings:withCommunicationServiceRules:withLDAPCredentials: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
 - (void);
-- (long long)@?0@"UIAlertAction"8;
 - (id);
-- (long long)lock: /* Error: Ran out of types for this method. */;
-- (void)neFocusSystemExtension;
+- (void)roundImage;
+- (void)awsTopShadowInGroupedSections:(long long)arg1;
+- (long long)(¸;
+- (long long)@;
 
 // Remaining properties
 @property(nonatomic) long long modalPresentationStyle; // @synthesize modalPresentationStyle=_modalPresentationStyle;

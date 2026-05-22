@@ -4,7 +4,7 @@
 
 class AttributeListNode {
 public: // (access info unavailable from symbols alone)
-    CreateAttributeListNode(char const*, char const*, unsigned long, unsigned char const*, unsigned long, void (*)(void const*, unsigned long));
-    Destroy();
-    Encode(EncoderStream*) const;
+    auto CreateAttributeListNode(char const*, char const*, unsigned long, unsigned char const*, unsigned long, void (*)(void const*, unsigned long));
+    auto Destroy();
+    auto Encode(EncoderStream*) const;
 };

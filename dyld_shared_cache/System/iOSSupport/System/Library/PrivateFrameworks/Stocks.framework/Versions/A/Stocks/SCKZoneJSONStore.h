@@ -17,6 +17,10 @@
 }
 
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -26,13 +30,9 @@
 - (void);
 - (id);
 - (id);
-- (void)lderValue;
-- (void);
-- (void)P;
 - (void);
 - (void);
-- (id)0@0:8i16 /* Error: Ran out of types for this method. */;
-- (id)ntSize;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *lastDirtyDate; // @synthesize lastDirtyDate=_lastDirtyDate;

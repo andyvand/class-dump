@@ -5,7 +5,5 @@
 //
 
 @protocol CKAssociatedMessageTranscriptCellDelegate
-- (void);
-- (void)n;
 @end
 

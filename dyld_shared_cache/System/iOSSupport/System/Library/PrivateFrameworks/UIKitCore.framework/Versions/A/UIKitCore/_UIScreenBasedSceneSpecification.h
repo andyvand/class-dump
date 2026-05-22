@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)NSISVariable it doesn't know anything about. This is an internal UIKit bug.;
+- (_Bool);
 
 @end
 

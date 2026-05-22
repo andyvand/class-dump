@@ -4,26 +4,26 @@
 
 class dyld3 {
 public: // (access info unavailable from symbols alone)
-    deallocateExistingSharedCache();
-    fstatat(int, char const*, stat*, int);
-    hash_rank(CS_CodeDirectory const*);
-    hash_rank_watchOS_dylibs(CS_CodeDirectory const*);
-    kdebug_trace_dyld_cache(unsigned long long, unsigned long long, unsigned long long, unsigned char const*);
-    kdebug_trace_dyld_duration_end(unsigned long long, unsigned int, dyld3::kt_arg, dyld3::kt_arg, dyld3::kt_arg);
-    kdebug_trace_dyld_duration_start(unsigned int, dyld3::kt_arg, dyld3::kt_arg, dyld3::kt_arg);
-    kdebug_trace_dyld_enabled(unsigned int);
-    kdebug_trace_dyld_image(unsigned int, char const*, unsigned char const (*) [16], fsobj_id, fsid, void const*, unsigned int);
-    kdebug_trace_dyld_marker(unsigned int, dyld3::kt_arg, dyld3::kt_arg, dyld3::kt_arg, dyld3::kt_arg);
-    kdebug_trace_dyld_region(unsigned int, int, int, char const*, unsigned char const (*) [16], fsobj_id, fsid, void const*);
-    loadDyldCache(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*);
-    mapSplitCachePrivate(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*);
-    mapSplitCacheSystemWide(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*);
-    open(char const*, int, int);
-    openat(int, char const*);
-    preflightCacheFile(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*, dyld3::CacheInfo*, int, std::__1::array<char [32], 128ul>*);
-    preflightMainCacheFile(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*, dyld3::CacheInfo*, char*, std::__1::array<char [32], 128ul>*);
-    preflightSubCacheFile(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*, dyld3::CacheInfo*, char*, char const*);
-    reuseExistingCache(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*);
-    stat(char const*, stat*);
-    verboseSharedCacheMappings(DyldSharedCache const*);
+    auto deallocateExistingSharedCache();
+    auto fstatat(int, char const*, stat*, int);
+    auto hash_rank(CS_CodeDirectory const*);
+    auto hash_rank_watchOS_dylibs(CS_CodeDirectory const*);
+    auto kdebug_trace_dyld_cache(unsigned long long, unsigned long long, unsigned long long, unsigned char const*);
+    auto kdebug_trace_dyld_duration_end(unsigned long long, unsigned int, dyld3::kt_arg, dyld3::kt_arg, dyld3::kt_arg);
+    auto kdebug_trace_dyld_duration_start(unsigned int, dyld3::kt_arg, dyld3::kt_arg, dyld3::kt_arg);
+    auto kdebug_trace_dyld_enabled(unsigned int);
+    auto kdebug_trace_dyld_image(unsigned int, char const*, unsigned char const (*) [16], fsobj_id, fsid, void const*, unsigned int);
+    auto kdebug_trace_dyld_marker(unsigned int, dyld3::kt_arg, dyld3::kt_arg, dyld3::kt_arg, dyld3::kt_arg);
+    auto kdebug_trace_dyld_region(unsigned int, int, int, char const*, unsigned char const (*) [16], fsobj_id, fsid, void const*);
+    auto loadDyldCache(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*);
+    auto mapSplitCachePrivate(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*);
+    auto mapSplitCacheSystemWide(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*);
+    auto open(char const*, int, int);
+    auto openat(int, char const*);
+    auto preflightCacheFile(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*, dyld3::CacheInfo*, int, std::__1::array<char [32], 128ul>*);
+    auto preflightMainCacheFile(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*, dyld3::CacheInfo*, char*, std::__1::array<char [32], 128ul>*);
+    auto preflightSubCacheFile(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*, dyld3::CacheInfo*, char*, char const*);
+    auto reuseExistingCache(dyld3::SharedCacheOptions const&, dyld3::SharedCacheLoadInfo*);
+    auto stat(char const*, stat*);
+    auto verboseSharedCacheMappings(DyldSharedCache const*);
 };

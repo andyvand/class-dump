@@ -13,9 +13,9 @@
     NSLocale *_locale;
 }
 
-- (void);
+- (void);
 - (id);
-- (id){hashtagLabels:%s, error:%s} /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void);

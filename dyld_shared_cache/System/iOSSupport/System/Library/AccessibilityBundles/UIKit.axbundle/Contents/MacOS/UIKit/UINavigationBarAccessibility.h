@@ -13,9 +13,9 @@
     _UIAccessibilityNavigationViewInfo *__accessibilityNavigationViewInfo;
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (id);
 - (id);
@@ -23,9 +23,9 @@
 - (_Bool);
 - (id);
 - (double);
-- (id);
-- (_Bool);
 - (long long);
+- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);

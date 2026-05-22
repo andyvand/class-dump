@@ -11,13 +11,13 @@
     _Bool _penGestureDetected;
 }
 
-- (void)+;
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

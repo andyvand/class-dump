@@ -4,112 +4,115 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TIKeyboardLayoutState, UIAutocorrectInlinePrompt, UIEvent, UIKeyboardCandidateController, UIKeyboardEmojiPopoverController, UIKeyboardLayout, UIKeyboardNumberpadPopoverController;
+@class NSArray, NSDictionary, NSString, TIKeyboardLayoutState, UIDictationPopoverController, UIKeyboardCandidateController, UIKeyboardEmojiPopoverController, UIKeyboardLayout, UIKeyboardNumberpadPopoverController, UIPressAndHoldPopoverController;
 @protocol UIKeyboardImplGeometryDelegate;
 
 @protocol _UIKeyboardPresentationDelegate
-+ (void)-;
-+ (void);
-+ (NSArray *)ntentInsets:(NSArray *)arg1 overriddenEdges:(long long)arg2;
-- (void)KE_PROFILES;
-- (void)eamErrorHTTPSProxyAuthRequired;
-- (void)24;
-- (void)ISSING__;
-- (_Bool);
-- (void)±Àð1¢!0@ù
++ (NSArray *)d;
++ (void):(NSString *)arg1;
+- (void)1Â0@ù
 × ;
-- (id <UIKeyboardImplGeometryDelegate>);
-- (void)0@ù
+- (UIKeyboardNumberpadPopoverController *)áð!0Cù±[1Â0@ù
 × ;
-- (_Bool)Ôánð!Ü@ù1Á°1¢!0@ù
+- (void)
 × ;
-- (_Bool)}40@0:8@16{CGSize=dd}24 /* Error: Ran out of types for this method. */;
-- (void)ansition:isOrientationChange: /* Error: Ran out of types for this method. */;
-- (void)tingAtPoint:(UIEvent *)arg1 withEvent: /* Error: Ran out of types for this method. */;
-- (void)Container: /* Error: Ran out of types for this method. */;
-- (UIKeyboardLayout *)_forcePresentationControllerDelegate;
-- (void)_centerPredictionViewVisibleForInputDelegate:inputViews: /* Error: Ran out of types for this method. */;
-- (void)ô`õ;
-- (void)CD;
-- (void)Animating;
-- (_Bool)nguageAwareLineHeightRatio;
-- (_Bool)rovider;
-- (void)hars:%@, charsIgnoringModifiers:%@, type:%@, repeating:%d, keyCode:0x%.4lX, timestamp:%lf, modifierFlags:%lX> /* Error: Ran out of types for this method. */;
-- (void)rBar=%p view=%p;
-- (_Bool)@"UITextInputAssistantItem"8@?0;
-- (_Bool).itemFrameCount == 1;
-- (void)houtAnimations;
-- (void)ntMorphables;
-- (TIKeyboardLayoutState *)é?é?;
-- (void)2åC×?;
-- (_Bool)á?K«!q/¶Á@;
-- (_Bool)433333Ã?ÿÿÿÿÿÿïÿÿÿÿÿÿï=
-×£p=Ú?ö(\Âõð?x:æÑx@ùªf pF@¢-¬¾VÚ?´<k¥@OÇw.j@\¹Ü~Æ?kvb'v@á¿×£p=
-×Ó?/£Xniuø?333333Ó?333333ã?
-×#=ð#tI /* Error: Ran out of types for this method. */;
-- (UIAutocorrectInlinePrompt *)!@;
-- (void)ÿÿÿÿÿï;
-- (void);
-- (void);
-- (void)tableContext;
-- (void);
-- (void)pResult;
-- (void)¾;
-- (_Bool)ÜùdþÕPÿ3<Yÿ½Pÿ3Ìùdþ½Pÿ3ð-|þÅPÿ3±þ;
-- (void);
-- (_Bool),-71¡aÿ3Ð;
-- (UIKeyboardNumberpadPopoverController *)(Ô;
-- (void)ýR;
-- (_Bool);
-- (void)»°þ;
-- (_Bool);
-- (void)qþ;
-- (void)¥80ÙdþÀ<71;
+- (void)qað1Â0@ù
+× ;
+- (TIKeyboardLayoutState *);
+- (void)ewsForMaskingEnabled;
+- (void)ContentRect;
+- (void)GenmojiUsageType;
+- (_Bool);
+- (_Bool)ode = %ld;
+- (_Bool)asMuteDidChangeNotification. remoteHasMute=%@;
+- (_Bool)ðÇçÿÈçÿ$ÈçÿXÈçÿtÈçÿÈçÿÈçÿÈçÿ¤Èçÿ°Èçÿ¼ÈçÿÈÈçÿÔÈçÿàÈçÿìÈçÿøÈçÿÉçÿÉçÿÉçÿ(Éçÿ4Éçÿ@ÉçÿLÉçÿXÉçÿdÉçÿpÉçÿ|ÉçÿÉçÿÉçÿ Éçÿ¬Éçÿ¸ÉçÿÄÉçÿàçÿ¬àçÿìàçÿáçÿ<áçÿdáçÿáçÿ¼áçÿüáçÿDâçÿlâçÿâçÿ¼âçÿäâçÿãçÿ,ãçÿPãçÿãçÿ¨ãçÿàãçÿäçÿ8äçÿäçÿ¨äçÿàäçÿåçÿ(åçÿPåçÿåçÿ¸åçÿàåçÿ æçÿhæçÿæçÿÈæçÿøæçÿ ççÿhççÿççÿÈççÿøççÿ èçÿhèçÿèçÿÈèçÿøèçÿ éçÿhéçÿéçÿÈéçÿøéçÿ êçÿhêçÿêçÿÈêçÿøêçÿ ëçÿhëçÿëçÿ¸ëçÿìëçÿ°ìçÿäìçÿíçÿDíçÿpíçÿ¤íçÿhîçÿîçÿÀîçÿôîçÿ ïçÿDïçÿïçÿ°ïçÿàïçÿ ðçÿhðçÿðçÿÀðçÿ;
+- (void)²mìÿ¯3;
+- (void);
+- (void)dyþüþÿ;
+- (_Bool)or %@ default key for State Restoration Debug Logging:%@ /* Error: Ran out of types for this method. */;
+- (void)devices);
+- (UIKeyboardLayout *)ave a keyboard layer added to a host if we're not eligible for forwarding.;
+- (void)°¶}G@Ì¸©úÆÀx^*6æ5@;
+- (void)ÿÿÿÿÿ;
+- (_Bool)¹?©?áz®Gáê?áz®Gáê¿}}}}}}í?zzzzzzê?ûúúúúúê?ÜÛÛÛÛÛë?×£p=
+×ë?ôIôIã?^^^^^^î?î?ÝÜÜÜÜÜì?]]]]]]í?þýýýýýí?;
+- (void)ñ;
+- (_Bool);
+- (_Bool)p;
+- (_Bool)ñ`À7lú;
+- (void)¼TR0;
+- (void)þ;
+- (void)Driver;
+- (void)÷ÿ]13Øðnþ]13ìþe13Ðï¸þ;
+- (void)indDescendants;
+- (UIPressAndHoldPopoverController *)tUntransformedFrame;
+- (void);
+- (void)æ®;
+- (_Bool);
+- (void)+13ù;
 - (void);
-- (void)L«þ<C71;
-- (void)omeUnavailableMessage;
-- (void)Q»;
-- (void)eldBackgroundView;
-- (void)omposer;
-- (_Bool);
-- (void)cessProgressAnimationState;
-- (_Bool)©4äNfþ4l!rþ;
-- (struct CGRect)j;
-- (_Bool),îþ;
-- (_Bool)iew;
-- (UIKeyboardLayout *)ë4;
-- (UIKeyboardCandidateController *)mþmñ4;
-- (int)ð2NavigationBarTransitionContextPresentSearch;
-- (void)þ;
-- (void)ÿ;
-- (_Bool)ó;
-- (void)UIKitTester;
-- (void)71;
-- (void)þÕ4ÇiþÕ4;
-- (void)4üù;
-- (_Bool)0;
-- (void)æiþ´4äæiþ;
-- (void)çiþ;
-- (UIKeyboardEmojiPopoverController *)¡¹4p;
-- (void)ì½71I»4;
-- (void)Í4Èjiþ;
-- (_Bool)%Ã4\øiþÃ4ôöiþÃ4ðöiþ;
-- (void);
-- (void)wiþqÝ4wiþqÝ4Ôwiþ;
-- (void)þÉß4Hjþ¡ß4Hjþñß4àjþß4Üjþß4ÌjþÉß4\jþà4¬jþÑß4`jþ;
-- (void);
-- (void);
-- (void)ContentTextTransform;
-- (_Bool)lEdgeInsets;
-- (void)Z;
-- (_Bool);
-- (_Bool):[ /* Error: Ran out of types for this method. */;
-- (_Bool)ª
-[;
-- (_Bool)[;
-- (_Bool)ÕI,[;
-- (void)Ú9[;
-- (void)%@[;
-- (void)fK[;
+- (void)©13ìo;
+- (void)Ünþframe;
+- (void)23´.¯þ;
+- (void)Ú;
+- (void)0;
+- (void)3`ê¦þ;
+- (UIKeyboardEmojiPopoverController *)olbar;
+- (_Bool)¥þ1Ë13°Þ¥þ1Ë13¬Þ¥þùÊ13¨Þ¥þ;
+- (_Bool)mentKey;
+- (void)uÁ7¬;
+- (_Bool)MetricsGeometryProviding;
+- (_Bool);
+- (void)SDFView;
+- (_Bool)Å);
+- (_Bool)þ ;
+- (_Bool)I33_-;
+- (_Bool)3èÆ;
+- (void)þ;
+- (void)dChangeMessage;
+- (void)essDidChangeMessage;
+- (void)þÿÿÿÿ;
+- (void);
+- (UIDictationPopoverController *)tÂþ koþ;
+- (_Bool)icsContentMetrics;
+- (_Bool)þEµ33¨×þ;
+- (void)33´asþì33,oþEì33¤,oþì33´,oþ;
+- (void)4;
+- (void)òþ;
+- (_Bool);
+- (void)ÛR0Ó23;
+- (void)ent;
+- (void)IShapeProvider;
+- (_Bool)3ìlyþ;
+- (void)nSpec;
+- (_Bool)wþ;
+- (void)þ;
+- (_Bool)tingView;
+- (void)èCÞ2;
+- (void)Y^43×sþI^43Øsþ;
+- (void)I[43Ã¶;
+- (void)ticContext;
+- (_Bool)sþ­43pûsþ;
+- (void)¡Ø;
+- (void)43ü];
+- (UIKeyboardCandidateController *)435æ;
+- (id <UIKeyboardImplGeometryDelegate>)tþ)43tþ43
+tþQ43ä
+tþá43à
+tþá43Ð
+tþ)43 tþa43ètþ143tþ;
+- (void)tþ43¤tþ;
+- (NSDictionary *);
+- (void)°ºR0Å§43°~;
+- (_Bool)tþµ¦43´tþµ¦43¤tþý¦43ôtþ5§43¼tþ§43ìtþ;
+- (_Bool)"[;
+- (void);
+- (void)ì+;
+- (void)§-;
+- (void);
+- (void)[;
+- (void)[;
+- (_Bool)ÎÜ[;
+- (struct CGRect)F®[;
 @end
 

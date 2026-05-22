@@ -22,25 +22,25 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)8;
+- (id);
+- (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *contextIdentifier; // @synthesize contextIdentifier=_contextIdentifier;

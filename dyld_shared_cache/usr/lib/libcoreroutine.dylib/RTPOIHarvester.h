@@ -26,15 +26,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (id);
-- (id)tivePID:version: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (id)ementMonitor;
+- (id);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)ProviderID;
+- (void), %@, deviceModel, %{sensitive}@, idx, %lu, carrying count, %lu, journey count, %lu;
+- (id), %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTFingerprintManager *fingerprintManager; // @synthesize fingerprintManager=_fingerprintManager;

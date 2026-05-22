@@ -7,7 +7,6 @@
 @class MRPlayerPath, NSDictionary, NSString;
 
 @protocol MPNowPlayingInfoTransportableSessionRequest
-- (NSDictionary *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *destinationCommandInfo;

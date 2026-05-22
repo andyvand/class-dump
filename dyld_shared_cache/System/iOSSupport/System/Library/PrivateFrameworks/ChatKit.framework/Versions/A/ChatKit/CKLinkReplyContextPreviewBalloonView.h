@@ -14,7 +14,7 @@
     _TtC7ChatKit18CKBalloonMaskLayer *_linkViewMaskLayer;
 }
 
-- (struct CGSize)ate;
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
@@ -24,8 +24,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)ØÄÈ;
+- (id);
+- (void)ÿI=;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,6 +5,5 @@
 //
 
 @protocol _UIViewServiceDeputy_UIViewServiceInterface
-- (void)D:(void (^)(id, NSError *))arg1 completion: /* Error: Ran out of types for this method. */;
 @end
 

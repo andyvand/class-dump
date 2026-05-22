@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @protocol CKMediaObjectMetadataPreview
-- (_Bool)@Etô;
-- (NSString *)ent: /* Error: Ran out of types for this method. */;
-
-@optional
-- (_Bool);
-- (id)t:(NSURL *)arg1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *previewMetadataFilenameExtension;

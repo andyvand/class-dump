@@ -17,14 +17,14 @@
 }
 
 + (id);
-+ (id)R;
++ (id);
 - (double);
 - (void);
 - (void);
 - (double);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -32,22 +32,22 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
-- (struct CGSize)indButton;
-- (void);
+- (struct CGSize);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)alDebug;
 
 // Remaining properties
 @property(nonatomic) __weak id <NANowPlayingBottomControlsDelegate> delegate; // @synthesize delegate=_delegate;

@@ -7,13 +7,11 @@
 @protocol _UIDragInteractionDriving;
 
 @protocol _UIDragInteractionDriverDelegate
-- (void);
-- (_Bool)ng data provider %@;
-- (_Bool)s missing mapping for MPModelPropertyRecordLabelName;
-- (_Bool);
-- (_Bool)oð!(Gù±ÁÐ1¢!0@ù
+- (_Bool);
+- (void)0@ù
 × ;
-- (_Bool)lickSoundOnUpForKey:(id <_UIDragInteractionDriving>)arg1;
-- (_Bool)T OF UIKIT:(id <_UIDragInteractionDriving>)arg1 %@ %s:(struct CGPoint)arg2 Registering the scene itself results in a retain cycle.;
+- (_Bool)nHandler:(id <_UIDragInteractionDriving>)arg1;
+- (void)_systemGestureGateType;
+- (void)entInsets;
 @end
 

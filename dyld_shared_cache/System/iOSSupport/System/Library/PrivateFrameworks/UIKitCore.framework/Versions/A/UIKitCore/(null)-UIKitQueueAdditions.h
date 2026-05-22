@@ -5,9 +5,9 @@
 //
 
 @interface (null) (UIKitQueueAdditions)
-- (void)@;
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -16,7 +16,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)ry file:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)ontroller: /* Error: Ran out of types for this method. */;
 @end
 

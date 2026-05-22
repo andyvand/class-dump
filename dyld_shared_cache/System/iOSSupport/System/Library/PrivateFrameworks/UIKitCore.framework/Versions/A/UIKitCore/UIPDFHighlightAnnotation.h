@@ -11,14 +11,13 @@
     struct CGColor *_highLightColor;
 }
 
-- (_Bool)thGUID: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void);
 - (Class);
 - (int);
-- (void)Ôan!¸GùqÀ°1¢!0@ù
-× ;
-- (void)s:(struct CGContext *)arg1 count:expandedIndexes: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ô¿þ;
 
 @end
 

@@ -11,11 +11,11 @@
     MISSING_TYPE *label;
 }
 
+- (id);
 - (void);
 - (struct CGSize);
-- (id);
-- (void)lWithBackgroundPriority: /* Error: Ran out of types for this method. */;
-- (id)eed27BoundGroupLayoutFactoryTypeP;
+- (id)Interaction"40;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

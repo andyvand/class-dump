@@ -4,12 +4,12 @@
 
 class std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char>>> {
 public: // (access info unavailable from symbols alone)
-    _M_extract<false>(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
-    _M_extract<true>(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
-    do_get(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, std::_Ios_Iostate&, long double&) const;
-    do_get(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
-    get(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, std::_Ios_Iostate&, long double&) const;
-    get(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
+    auto do_get(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, std::_Ios_Iostate&, long double&) const;
+    auto do_get(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
+    auto get(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, std::_Ios_Iostate&, long double&) const;
+    auto get(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, bool, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
     money_get(unsigned long);
+    std::istreambuf_iterator<char, std::char_traits<char>> _M_extract<false>(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
+    std::istreambuf_iterator<char, std::char_traits<char>> _M_extract<true>(std::istreambuf_iterator<char, std::char_traits<char>>, std::istreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
     ~money_get();
 };

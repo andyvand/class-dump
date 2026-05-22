@@ -22,7 +22,7 @@
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)Ô_;
 - (void);
 - (id);
 - (id);
@@ -31,28 +31,28 @@
 - (id);
 - (id);
 - (void);
-- (void).;
-- (_Bool)EÉ;
-- (id)0%EÉ;
+- (void);
 - (_Bool);
-- (id)Ì;
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void)imit:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void),;
 - (void);
-- (void)do you want to search for?;
-- (id)em;
-- (id);
-- (_Bool)^;
+- (_Bool);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

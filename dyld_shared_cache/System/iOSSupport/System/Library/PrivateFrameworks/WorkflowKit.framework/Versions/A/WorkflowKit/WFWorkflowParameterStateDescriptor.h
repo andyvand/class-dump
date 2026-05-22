@@ -18,7 +18,7 @@
 
 + (unsigned long long);
 + (id);
-+ (_Bool)ebuggerAction;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -27,7 +27,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)ral);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *cachedDisplayName; // @synthesize cachedDisplayName=_cachedDisplayName;

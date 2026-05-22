@@ -4,5 +4,5 @@
 
 class TLE::Operation {
 public: // (access info unavailable from symbols alone)
-    shouldIgnore();
+    auto shouldIgnore();
 };

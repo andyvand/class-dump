@@ -13,18 +13,18 @@
 }
 
 + (_Bool);
-- (void);
-- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (unsigned long long);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long changeType; // @synthesize changeType=_changeType;

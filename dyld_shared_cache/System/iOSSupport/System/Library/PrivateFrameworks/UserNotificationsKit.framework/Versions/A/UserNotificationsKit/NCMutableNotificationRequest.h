@@ -38,6 +38,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -47,12 +52,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ithName:(id)arg1;
+- (void)× ;
 
 // Remaining properties
 @property(retain, nonatomic) NCNotificationAlertOptions *alertOptions; // @dynamic alertOptions;

@@ -7,7 +7,6 @@
 @protocol SXFormatInteractorDelegate;
 
 @protocol SXFormatInteractor
-- (id <SXFormatInteractorDelegate>)`;
 
 // Remaining properties
 @property(nonatomic) __weak id <SXFormatInteractorDelegate> delegate;

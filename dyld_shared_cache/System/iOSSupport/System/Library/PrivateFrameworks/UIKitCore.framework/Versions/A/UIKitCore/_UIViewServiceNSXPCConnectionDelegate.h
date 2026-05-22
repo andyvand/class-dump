@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _replyHandler;
 }
 
-- (void)ing minimal sealing manifests;
-- (id);
 - (void);
-- (id)ttomBarHiddenState;
-- (void)llection;
+- (id);
+- (id);
+- (void)7¸;
+- (void)ÜÓwþ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

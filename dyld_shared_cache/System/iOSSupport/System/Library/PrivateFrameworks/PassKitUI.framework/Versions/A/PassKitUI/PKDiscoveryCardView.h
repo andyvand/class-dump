@@ -41,8 +41,8 @@
 + (double);
 + (unsigned long long);
 + (unsigned long long);
-+ (_Bool);
 + (double);
++ (_Bool);
 + (struct CGSize);
 + (double);
 + (struct CGSize);
@@ -80,15 +80,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (void);
 - (CDUnknownBlockType);
+- (struct CGSize);
+- (void);
+- (void);
 - (id);
 - (void);
-- (struct CGSize);
-- (void)on"24;
+- (void);
+- (void)
+× ;
+- (long long)¸M
+7elementtG;
 
 // Remaining properties
 @property(retain, nonatomic) PKDiscoveryArticleLayout *articleLayout; // @synthesize articleLayout=_articleLayout;

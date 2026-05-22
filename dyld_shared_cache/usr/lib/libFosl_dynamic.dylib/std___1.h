@@ -4,10 +4,11 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __libcpp_verbose_abort(char const*, ...);
-    generic_category();
-    stod(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long*);
-    stof(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long*);
-    stoi(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long*, int);
-    system_category();
+    auto __libcpp_verbose_abort(char const*, ...);
+    auto generic_category();
+    auto stod(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long*);
+    auto stof(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long*);
+    auto stoi(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long*, int);
+    auto system_category();
+    std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> operator+<char, std::__1::char_traits<char>, std::__1::allocator<char>>(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
 };

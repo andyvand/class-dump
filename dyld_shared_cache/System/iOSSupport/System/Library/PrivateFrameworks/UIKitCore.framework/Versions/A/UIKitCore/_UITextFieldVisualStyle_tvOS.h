@@ -18,18 +18,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id):chatRegistry: /* Error: Ran out of types for this method. */;
-- (id)entifier:groupName:participants:groupID:serviceName:chatRegistry: /* Error: Ran out of types for this method. */;
-- (id)teForSuccess: /* Error: Ran out of types for this method. */;
-- (id):error: /* Error: Ran out of types for this method. */;
-- (id)hangesCompletionBlock;
 - (id);
-- (id)n.system.airdrop;
 - (id);
-- (_Bool)h;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (id)Descriptor>"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)rDidChangeForGroup: /* Error: Ran out of types for this method. */;
+- (id)le;
+- (id)l inactiveLayout). %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

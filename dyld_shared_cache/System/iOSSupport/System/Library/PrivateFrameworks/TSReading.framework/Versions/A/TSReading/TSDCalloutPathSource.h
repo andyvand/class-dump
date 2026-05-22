@@ -20,7 +20,7 @@
 - (id);
 - (struct CGPoint);
 - (struct CGPoint);
-- (struct CGPoint)$;
+- (struct CGPoint);
 - (void);
 - (void);
 - (void);
@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,7 +44,7 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (id)�;
+- (id);
 - (id);
 - (id);
 - (struct CGPoint);
@@ -53,16 +53,17 @@
 - (double);
 - (_Bool);
 - (double);
+- (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (double);
-- (id);
-- (id);
-- (void)isabled;
-- (struct CGSize)¼D;
-- (void)Ùÿ<Y^;
+- (double)
+× ;
+- (void)lectsCellOnInitialTap;
+- (void)å?;
+- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) double cornerRadius;

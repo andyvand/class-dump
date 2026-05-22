@@ -25,46 +25,45 @@
     unsigned long long _contentHuggingElements;
 }
 
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (long long)v;
-- (void);
-- (_Bool)mingParameters";
-- (void)ionStringID;
-- (void);
-- (id);
+- (double);
+- (long long);
 - (_Bool);
-- (void);
-- (id)º;
-- (void)1¢!0@ù
-× ;
-- (void)ap°!ÌCùÃð1¢!0@ù
-× ;
-- (long long)!ÜEù±ÃÐ1¢!0@ù
-× ;
-- (_Bool)× ;
-- (void)0@ù
-× ;
-- (double)elay: /* Error: Ran out of types for this method. */;
-- (unsigned long long)WithName: /* Error: Ran out of types for this method. */;
-- (double)cognizer;
-- (id)ationAttributedText:lastDictationAttributedTextRange:currentDictationAttributedTextRange: /* Error: Ran out of types for this method. */;
-- (id)cs;
-- (long long)Hâ<ã¨ãüã;
-- (void)png;
-- (void)tionState;
-- (CDUnknownBlockType)dingPath.m;
-- (CDUnknownBlockType)h 1 only;
 - (void);
-- (void)¶Ã[;
-- (void)/;
-- (void)j;
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)ÁÿÐ!`CùÑX1Â0@ù
+× ;
+- (void)ù
+× ;
+- (CDUnknownBlockType)ØEù1bÐ1Â0@ù
+× ;
+- (CDUnknownBlockType)@0:8@16@24d32 /* Error: Ran out of types for this method. */;
+- (double)ementaryItemGeometricIndexer: /* Error: Ran out of types for this method. */;
+- (void)setRequiresTintViews:(_Bool)arg1;
+- (id):reorderedItemIdentifiers:difference:sectionTransactions: /* Error: Ran out of types for this method. */;
+- (void)henOverridden:(id)arg1;
+- (unsigned long long)tesForPossibleChangesOfIdiom:orScreen:traverseHierarchy: /* Error: Ran out of types for this method. */;
+- (void)rationBounceAnimationSpec",N,&,VscaleOut;
+- (id)ler;
+- (id)tÉÔÉÐÊÀÍlÐðÐ Ñ0ÒðÒÓ;
+- (long long);
+- (CDUnknownBlockType)h\Ì ;
+- (long long)Map;
+- (CDUnknownBlockType)ntimeOutletCollectionConnection.m;
+- (void)containerView]|;
+- (id)onLegacyVisualProviderC;
+- (_Bool)ÂÿîÙÈ^;
+- (void);
+- (void);
+- (void)i;
+- (_Bool)Ýfk;
 
 // Remaining properties
 @property(nonatomic, getter=_cornerRadius, setter=_setCornerRadius:) double _cornerRadius; // @synthesize _cornerRadius;

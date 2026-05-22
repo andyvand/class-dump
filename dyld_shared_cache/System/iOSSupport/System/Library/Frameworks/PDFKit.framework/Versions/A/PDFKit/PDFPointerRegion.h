@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)BarButtons;
+- (void);
+- (struct CGRect);
+- (id);
 - (void);
 - (void);
-- (id)D;
-- (struct CGRect)ÚÐ;
 
 @end
 

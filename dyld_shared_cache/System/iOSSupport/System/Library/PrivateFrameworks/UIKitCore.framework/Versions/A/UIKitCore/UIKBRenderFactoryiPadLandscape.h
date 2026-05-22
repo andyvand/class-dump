@@ -11,43 +11,43 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)perties;
-- (struct CGPoint)ncomingDownloadMessage:storageContext: /* Error: Ran out of types for this method. */;
-- (double)leResponse:storageContext: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)fier:forChat:style:account: /* Error: Ran out of types for this method. */;
-- (double)eteAttachmentWithGUID: /* Error: Ran out of types for this method. */;
-- (double)ersation: /* Error: Ran out of types for this method. */;
-- (double)ctivitySessionsChangedForConversation: /* Error: Ran out of types for this method. */;
-- (double)rson: /* Error: Ran out of types for this method. */;
-- (struct CGRect)essagesToReplayDatabase: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ithChecks:priority:reason: /* Error: Ran out of types for this method. */;
-- (double)ginPeriodicSyncWithActivity: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id);
 - (double);
+- (struct CGPoint);
 - (double);
-- (double)V;
+- (struct CGPoint);
 - (double);
 - (double);
 - (double);
-- (struct UIEdgeInsets)M@;
-- (struct UIEdgeInsets);
-- (double)};
-- (struct CGPoint)L;
+- (double);
 - (struct CGRect);
 - (struct CGPoint);
 - (double);
-- (double)date chats with summaries, but there were no summaries provided.;
-- (double)sage count:%ld, total elapsed:%f /* Error: Ran out of types for this method. */;
-- (double)age match found %s;
-- (double)syndicationIdentifier:%@, asset:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (double);
 - (double);
 - (double);
-- (struct CGPoint)nHandler: /* Error: Ran out of types for this method. */;
-- (double)Style:possibleTitles:possibleSystemItems:tintColor:applyBezel:forButtonItemStyle: /* Error: Ran out of types for this method. */;
+- (double);
+- (double);
+- (double);
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
+- (double);
+- (struct CGPoint);
+- (struct CGRect);
+- (struct CGPoint);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
+- (double);
+- (double);
+- (double);
+- (struct CGPoint)ayColor;
+- (double)rdLayout",W,N,V_activeLayout;
 
 @end
 

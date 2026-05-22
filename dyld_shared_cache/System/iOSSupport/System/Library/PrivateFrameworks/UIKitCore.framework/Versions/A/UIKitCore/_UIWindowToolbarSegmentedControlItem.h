@@ -14,27 +14,28 @@
     SEL _action;
 }
 
-- (void)RStringInstanceIsValid;
-- (void)iled to copy common name from certificate;
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (void)Iegn_So10SNDSPGraphCSo0A3BoxCAC_pIeggorzo_;
 - (void);
 - (void);
 - (void);
-- (_Bool)actorBase;
+- (void);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (id);
 - (id);
 - (void);
+- (id)1Â0@ù
+× ;
+- (SEL)$__lazy_storage_$_lensingView;
+- (void)nt types of header/footer views to avoid this.;
 - (void);
-- (id)_UIContextMenuLiquidMorphPresentationAnimationCSgXw;
-- (void)dEmojiCategoryStickers;
-- (SEL)d UICollectionViewCompositionalLayoutAlertForInvalidLayout(UICollectionViewCompositionalLayout *const __strong, NSInteger, _UICollectionLayoutContainer *const __strong, _UIContentInsetsEnvironment *const __strong, NSString *const __strong, BOOL);
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

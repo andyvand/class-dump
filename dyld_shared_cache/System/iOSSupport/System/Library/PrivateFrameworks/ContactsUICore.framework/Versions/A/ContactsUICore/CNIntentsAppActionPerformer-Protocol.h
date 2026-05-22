@@ -5,6 +5,6 @@
 //
 
 @protocol CNIntentsAppActionPerformer
-- (void);
+- (void);
 @end
 

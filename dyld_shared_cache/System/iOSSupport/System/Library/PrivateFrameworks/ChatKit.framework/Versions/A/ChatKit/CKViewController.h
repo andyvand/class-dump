@@ -13,26 +13,26 @@
 }
 
 - (void);
-- (void)t:(_Bool)arg1;
-- (void)ck:(_Bool)arg1;
-- (void):(_Bool)arg1 didFailToFormatString:errorDescription: /* Error: Ran out of types for this method. */;
-- (void)tentView;
-- (void)ce;
-- (void)tFromDestinationAccountInSource;
-- (void)SmallSize;
-- (void)der;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)u;
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)TextEffects;
-- (void)angePublisher;
-- (void)ListHelper;
+- (void)Ä\ye\yÿ¸\ú\G_ëS]y]¿\ySayØGSSAByAByî¹\yABymð¦\y"Ä\GG_Qo__ðGaðGGGAByN¾\A\GtGSg;
+- (void)è.;
 
 // Remaining properties
 @property(nonatomic) _Bool appeared; // @synthesize appeared=_appeared;

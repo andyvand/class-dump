@@ -5,10 +5,10 @@
 class CFX::RG::Subgraph {
 public: // (access info unavailable from symbols alone)
     Subgraph(char const*);
-    build(CFX::RG::RenderGraphContext&, CFX::RG::RenderGraphBuilder&, CFX::RG::SubgraphBuildArguments const&);
-    buildResourceIdentifier(unsigned short, unsigned int);
-    hash(CFX::RG::RenderGraphContext&, CFX::RG::SubgraphBuildArguments const&);
-    init(CFX::RG::RenderGraphContext&);
-    output(CFX::RG::RenderGraphContext&);
-    requirement(CFX::RG::RenderGraphContext&);
+    auto build(CFX::RG::RenderGraphContext&, CFX::RG::RenderGraphBuilder&, CFX::RG::SubgraphBuildArguments const&);
+    auto buildResourceIdentifier(unsigned short, unsigned int);
+    auto hash(CFX::RG::RenderGraphContext&, CFX::RG::SubgraphBuildArguments const&);
+    auto init(CFX::RG::RenderGraphContext&);
+    auto output(CFX::RG::RenderGraphContext&);
+    auto requirement(CFX::RG::RenderGraphContext&);
 };

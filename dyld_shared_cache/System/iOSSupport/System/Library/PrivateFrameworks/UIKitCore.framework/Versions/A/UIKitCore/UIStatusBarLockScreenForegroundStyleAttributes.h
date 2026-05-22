@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (double);
-- (struct CGPoint):(struct CGRect)arg1;
-- (id)rRoom:(long long)arg1 account:chatIdentifier:guid: /* Error: Ran out of types for this method. */;
-- (id),N,V_GUID;
-- (struct UIEdgeInsets)eStore;
-- (long long)yB_;
+- (struct CGPoint);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (long long);
 
 @end
 

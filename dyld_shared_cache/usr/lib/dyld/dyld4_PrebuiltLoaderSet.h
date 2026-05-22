@@ -4,17 +4,17 @@
 
 class dyld4::PrebuiltLoaderSet {
 public: // (access info unavailable from symbols alone)
-    contains(void const*, unsigned long) const;
-    forEachCachePatch(void (dyld4::PrebuiltLoaderSet::CachePatch const&) block_pointer) const;
-    forEachMustBeMissingPath(void (char const*, bool&) block_pointer) const;
-    hasOptimizedSwift() const;
-    isValid(dyld4::RuntimeState&) const;
-    logDuplicateObjCClasses(dyld4::RuntimeState&) const;
-    objcClassMap() const;
-    objcProtocolMap() const;
-    objcSelectorMap() const;
-    swiftForeignTypeProtocolTable() const;
-    swiftMetadataProtocolTable() const;
-    swiftTypeProtocolTable() const;
-    validHeader(dyld4::RuntimeState&) const;
+    auto contains(void const*, unsigned long) const;
+    auto forEachCachePatch(void (dyld4::PrebuiltLoaderSet::CachePatch const&) block_pointer) const;
+    auto forEachMustBeMissingPath(void (char const*, bool&) block_pointer) const;
+    auto hasOptimizedSwift() const;
+    auto isValid(dyld4::RuntimeState&) const;
+    auto logDuplicateObjCClasses(dyld4::RuntimeState&) const;
+    auto objcClassMap() const;
+    auto objcProtocolMap() const;
+    auto objcSelectorMap() const;
+    auto swiftForeignTypeProtocolTable() const;
+    auto swiftMetadataProtocolTable() const;
+    auto swiftTypeProtocolTable() const;
+    auto validHeader(dyld4::RuntimeState&) const;
 };

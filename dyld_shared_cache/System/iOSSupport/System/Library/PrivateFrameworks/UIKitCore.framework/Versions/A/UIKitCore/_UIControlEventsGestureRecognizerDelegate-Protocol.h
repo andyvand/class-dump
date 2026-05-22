@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIControlEventsGestureRecognizer;
-
 @protocol _UIControlEventsGestureRecognizerDelegate
-- (void)mHorizontalContentMarginForView:(_UIControlEventsGestureRecognizer *)arg1 preservingContentWidth:(unsigned long long)arg2;
+- (void)izontallyResizable;
 @end
 

@@ -17,10 +17,10 @@
     struct CGSize _representationSize;
 }
 
-+ (id)dex:(struct CGSize)arg1;
 + (id);
-+ (id)UIStream;
-+ (id)uldContinue:(id)arg1;
++ (id);
++ (id);
++ (id);
 - (id);
 - (id);
 - (void);
@@ -28,15 +28,15 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (_Bool)sSinceReferenceDate;
+- (_Bool);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)$;
-- (long long)r:%s /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void)ertyPlaylistKeepLocalEnableState__MAPPING_MISSING__;
+- (long long);
+- (void)T@"MPMusicPlayerControllerNowPlayingTimeSnapshot",&,N,V_timeSnapshot;
+- (id)rPropertySet=%@;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

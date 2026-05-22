@@ -16,15 +16,15 @@
 + (void);
 + (id);
 + (id);
-+ (id);
 + (id);
-+ (id)P;
 + (id);
-+ (void);
-+ (void);
++ (id);
 + (id);
 + (void);
-+ (void)A;
++ (void);
++ (id);
++ (void);
++ (void);
 + (id);
 
 @end

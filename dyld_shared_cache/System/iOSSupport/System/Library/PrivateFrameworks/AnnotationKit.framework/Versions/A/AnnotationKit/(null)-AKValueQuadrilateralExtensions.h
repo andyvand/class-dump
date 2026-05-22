@@ -8,10 +8,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
 + (id);
-- (struct CGSize)D;
-- (struct CGRect);
++ (id);
+- (struct CGSize);
+- (struct CGRect);
 - (struct CGPoint);
 - (struct AKQuadrilateral);
 - (struct CGRect);

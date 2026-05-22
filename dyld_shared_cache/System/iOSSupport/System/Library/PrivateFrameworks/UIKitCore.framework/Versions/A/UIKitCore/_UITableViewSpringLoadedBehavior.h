@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)entationControllerSourceItemForTab:(id)arg1;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -72,8 +72,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -98,7 +98,7 @@
 - (id);
 - (id);
 - (void *);
-- (struct PKOutputFunction)0;
+- (struct PKOutputFunction);
 - (struct _PKStrokePoint);
 - (double);
 - (_Bool);
@@ -106,9 +106,9 @@
 - (id);
 - (id);
 - (void);
-- (id)B%;
-- (id);
-- (id)%;
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -120,16 +120,16 @@
 - (double);
 - (void);
 - (double);
-- (void);
 - (double);
+- (void);
 - (unsigned long long);
 - (id);
-- (double)%;
-- (void);
 - (id);
-- (id)InScrollView: /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
-- (id)dded strokes;
+- (id);
+- (void)`ÄT;
+- (id)(à;
 
 // Remaining properties
 @property(retain, nonatomic) PKInkAnimationDescriptor *animationDescriptor; // @synthesize animationDescriptor=_animationDescriptor;

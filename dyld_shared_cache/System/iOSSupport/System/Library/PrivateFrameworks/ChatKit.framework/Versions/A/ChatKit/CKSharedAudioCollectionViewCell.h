@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)TTZoomController",?,&,N;
-- (id)C;
-- (id)m;
-- (void)ge… {reason:(id)arg1 %s};
-- (id)omFactorIndexKey;
 - (void);
+- (id);
+- (id);
 - (void);
+- (id);
+- (void);
+- (void)Èà;
 
 // Remaining properties
 @property(retain, nonatomic) CKAudioProgressView *audioPlaybackView; // @synthesize audioPlaybackView=_audioPlaybackView;

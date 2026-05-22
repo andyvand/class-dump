@@ -13,8 +13,8 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)gForEvent: /* Error: Ran out of types for this method. */;
 
 @end
 

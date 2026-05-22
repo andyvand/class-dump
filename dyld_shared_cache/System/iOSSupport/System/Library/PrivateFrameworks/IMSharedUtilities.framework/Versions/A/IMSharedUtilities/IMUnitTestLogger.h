@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (void)ough BlastDoor for maxPxWidth:(id)arg1 %f and scale:%f /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

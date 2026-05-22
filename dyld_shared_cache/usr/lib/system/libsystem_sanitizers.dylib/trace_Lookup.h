@@ -4,6 +4,6 @@
 
 class trace::Lookup {
 public: // (access info unavailable from symbols alone)
-    create(unsigned char (&) [24]);
-    create(unsigned char (&) [24]) (.cold.1);
+    auto create(unsigned char (&) [24]);
+    auto create(unsigned char (&) [24]) (.cold.1);
 };

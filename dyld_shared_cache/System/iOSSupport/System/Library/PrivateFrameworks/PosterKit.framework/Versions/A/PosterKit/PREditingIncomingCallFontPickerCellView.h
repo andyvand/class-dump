@@ -20,8 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)!DùÑñð1â
+0@ù
+× ;
+- (id)ueSceneInvalidated called while disconnected (%{BOOL}u) or disconnecting (%{BOOL}u);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

@@ -27,18 +27,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)0@ù
-× ;
-- (void)FùQ+Ð1b0@ù
-× ;
 - (void);
+- (void)q;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;

@@ -19,15 +19,16 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
 - (id);
-- (void)TL"b1"hasAmbiguousIndexPath"b1"didReloadData"b1};
-- (int)kdropAnimated: /* Error: Ran out of types for this method. */;
-- (double)nlyWhenKeepingFirstResponder;
-- (void)alProviderIOS updateArtForSearchField:(double)arg1 ];
+- (int)!ÔFù]Ð1Â0@ù
+× ;
+- (struct CGRect)ressProperty;
+- (double)bBrowserView: /* Error: Ran out of types for this method. */;
+- (void)_view;
+- (void)rgetedPreview",N,&,VstashedDismissalPivot;
+- (void)ÿ;
+- (void)ER_HINT_TEXT;
+- (void);á;BBñï¿^-³®?;
 
 // Remaining properties
 @property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;

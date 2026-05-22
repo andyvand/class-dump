@@ -16,13 +16,15 @@
 - (void);
 - (id);
 - (struct UIEdgeInsets);
+- (struct CGSize);
+- (struct CGSize);
 - (struct UIEdgeInsets);
-- (id);
-- (struct CGSize);
 - (_Bool);
-- (void);
 - (id);
-- (struct CGSize);
+- (id);
+- (void)ññ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UITapGestureRecognizer *actionTapGestureRecognizer; // @synthesize actionTapGestureRecognizer=_actionTapGestureRecognizer;

@@ -7,9 +7,6 @@
 @protocol AVTAvatarRecord, AVTStickerDisclosureValidationDelegate, AVTStickerSheetControllerDelegate;
 
 @protocol AVTStickerSheetController
-- (void);
-- (id <AVTStickerSheetControllerDelegate>)}d;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarRecord> avatarRecord;

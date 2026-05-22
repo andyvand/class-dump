@@ -13,19 +13,19 @@
     NSUUID *_metadataDigestUUID;
 }
 
-+ (_Bool)ntProfileAssistantActiveTypeActive;
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)lipEncryptionContext;
+- (id)Key;
 
 // Remaining properties
 @property(readonly, copy) NSURL *URL; // @synthesize URL=_URL;

@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (id)ûÿ.öe;
-- (void)»âÿ;
+- (void)ionBar.InviteButton;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *homes; // @synthesize homes=_homes;

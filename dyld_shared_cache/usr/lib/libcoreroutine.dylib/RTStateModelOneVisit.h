@@ -14,23 +14,22 @@
     long long _numOfDataPts;
 }
 
-+ (_Bool)TechCrossCheckPass,%{public}d,didTechCrossCheckPassAndDeviceInsideALOI,%{public}d,foundAnyWiFi,%{public}d,foundGps,%{public}d,foundHighIntegrityWiFi,%{public}d,isDeviceLocationInsideALOI,%{public}d,isDeviceLocationOutsideALOI,%{public}d,_technologiesMissingToLookForInLocationUpdates,%{public}lu;
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)# SFAppleIDSignedHashForData failed with err=%#m!
-;
-- (id)IDSMessageContextTargettedPseudonymKey;
-- (void)P;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)gDataTransferKey got data size %u;
-- (id)ionalKEMProtocols: /* Error: Ran out of types for this method. */;
-- (long long)rCommand"8;
+- (void);
 - (id);
-- (id);
-- (_Bool)ly for zoneID %@;
+- (id)ceInstanceWithIdentifier:uiPlacement:assistanceType:assistanceValue: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void)@, %@, input contextLocation, %{sensitive}@;
+- (_Bool)map item, %{sensitive}@;
+- (void)%P;
 
 // Remaining properties
 @property(retain, nonatomic) RTStateModelEntryExit *EntryExit_s; // @synthesize EntryExit_s=_EntryExit_s;

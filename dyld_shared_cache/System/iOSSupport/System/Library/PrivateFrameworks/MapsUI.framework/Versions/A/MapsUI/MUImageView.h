@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (struct CGSize);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
-- (struct CGSize)UIView"24;
+- (id);
+- (struct CGSize);
+- (void)disableReduceTransparency;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *contentImageView; // @synthesize contentImageView=_contentImageView;

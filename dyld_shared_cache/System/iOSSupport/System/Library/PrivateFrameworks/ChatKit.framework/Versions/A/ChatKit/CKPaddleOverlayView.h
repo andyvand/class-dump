@@ -21,35 +21,36 @@
     struct CGRect _anchorRect;
 }
 
-- (id)singTest: /* Error: Ran out of types for this method. */;
-- (void)ToFailByGestureRecognizer: /* Error: Ran out of types for this method. */;
-- (void)irstResponderChanges;
-- (void)jectContext",R,N,V_workerContext;
+- (id);
 - (void);
 - (void);
-- (id)r;
-- (id)m;
-- (id)ithout a file wrapper.;
 - (void);
 - (void);
-- (void),;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)D;
-- (void);
-- (void);
-- (void);
-- (void)ª;
-- (void);
-- (id)oing;
-- (id)roupConversation;
-- (id)tProxy;
-- (void)sQtG;°«GGAXGGp<Gòs«Gt;
+- (void)0@ù
+× ;
+- (void){CGPoint=dd}40@0:(id)arg1 8{CGPoint=dd}16@32;
+- (void)create media object for folder at:(id)arg1 %@;
+- (void)ÌH;
+- (id)Ðr/;
 
 // Remaining properties
 @property(nonatomic) struct CGRect anchorRect; // @synthesize anchorRect=_anchorRect;

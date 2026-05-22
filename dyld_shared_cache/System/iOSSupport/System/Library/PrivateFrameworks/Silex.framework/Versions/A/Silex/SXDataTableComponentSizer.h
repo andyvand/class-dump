@@ -23,17 +23,17 @@
 - (id);
 - (void);
 - (void);
-- (void)@9i;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)?;
+- (id);
 - (id);
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)owIndex"Q"columnIndex"Q};
 
 // Remaining properties
 @property(retain, nonatomic) id <SXLayoutContext> currentLayoutContext; // @synthesize currentLayoutContext=_currentLayoutContext;

@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDRep;
-
 @protocol TSWPHyperlinkHostRepProtocol
-- (void);
-- (TSDRep *)=;
-
-@optional
-- (void)A;
 @end
 

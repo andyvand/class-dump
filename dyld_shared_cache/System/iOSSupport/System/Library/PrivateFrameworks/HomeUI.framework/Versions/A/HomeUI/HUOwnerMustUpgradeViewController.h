@@ -20,9 +20,9 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)16q24@"UIViewController"32@"UIViewController"40;
-- (void)eViewControllerModule:(id)arg1;
+- (void)ockCategorySettingsItemManager _buildItemProvidersForHome:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) OBTrayButton *continueButton; // @synthesize continueButton=_continueButton;

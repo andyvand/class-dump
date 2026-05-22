@@ -18,8 +18,8 @@
     NSDictionary *_syncStats;
 }
 
-+ (id)¡ft;
-- (id);
++ (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -41,22 +41,22 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool)utableArray",&,N,V_cdmaNeighbors;
-- (long long)aphi;
+- (_Bool);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)chIdentifierType, WTF:(long long)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FetchIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ThreadSafeWeakPtr<WebKit::ServiceWorkerDownloadTask>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FetchIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::FetchIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (long long)igned int>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (_Bool)in) VALUES (?);
+- (void);
+- (long long);
+- (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
 - (_Bool);
-- (id)ÌXï(ê;
-- (id)F;
+- (id);
+- (id);
+- (void);
+- (void)ÑäÿÀÓäÿÑäÿ¸Óäÿ@<óÿôòÿ8øòÿ@@óÿ|Ñäÿ Óäÿ óÿpÑäÿXWõÿÌõÿÜõÿhÊõÿ¾õÿðÁõÿT<öÿÔ@öÿPãÿÔãÿÜÁõÿÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *IMCloudKitSyncErrors;

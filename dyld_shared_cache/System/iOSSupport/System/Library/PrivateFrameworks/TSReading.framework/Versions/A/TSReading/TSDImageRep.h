@@ -49,7 +49,7 @@
 
 + (struct CGPath *);
 - (void);
-- (void)B9	9;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -66,13 +66,13 @@
 - (_Bool);
 - (void);
 - (struct CGPoint);
-- (void)�u;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,7 +81,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)T;
+- (_Bool);
 - (_Bool);
 - (void);
 - (long long);
@@ -97,7 +97,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGSize);
 - (void);
@@ -111,14 +111,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)@;
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (int);
-- (struct CGPoint)"A�8;
+- (struct CGPoint);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -128,7 +128,7 @@
 - (double);
 - (id);
 - (void);
-- (void)!;
+- (void);
 - (_Bool);
 - (void);
 - (struct CGImage *);
@@ -148,8 +148,8 @@
 - (void);
 - (id);
 - (_Bool);
+- (void);
 - (id);
-- (void)a;
 - (struct CGImage *);
 
 // Remaining properties

@@ -15,14 +15,14 @@
 }
 
 - (id);
-- (void)ces/RemoteConfiguration/RemoteConfiguration/RCRequestInfo.m;
-- (void).news.apple.com/v1/configs;
-- (void):(id)arg1 //staging.news-edge.news.apple.com/v1/configs;
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void)T¡;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (struct CGSize);
 - (double);
+- (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize centerOffset;

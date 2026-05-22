@@ -23,41 +23,40 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_coverConstraintBottomAnchor;
 }
 
-+ (id)estContext available for current thread, -currentContext caller may not be within a client request handler;
-- (void)andler;
-- (void)Chat:(double)arg1;
-- (void)Status:(id)arg1 transfersToSyncRowIDs: /* Error: Ran out of types for this method. */;
-- (void)yToChat:(id)arg1 withUrgentBreakthroughInstructions: /* Error: Ran out of types for this method. */;
-- (void)_refresh;
-- (void)e;
-- (void)eptedContactsChangeNotifier;
-- (id)eSession;
-- (void)?2_pG;
++ (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)ice:%s /* Error: Ran out of types for this method. */;
-- (id)r:'%s /* Error: Ran out of types for this method. */;
-- (id)Unable to find service from placeholder:'%s /* Error: Ran out of types for this method. */;
-- (id)'%s'
-found:'%s' /* Error: Ran out of types for this method. */;
-- (id)entifiers for the following chats:(long long)arg1 %s;
+- (void);
 - (id);
-- (unsigned int)s app moved a message to Spam folder.;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned int);
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool){;
-- (void)!4Bù±Á1¢!0@ù
-× ;
-- (id)";
-- (id)edPreview"32@0:8@"UIContextMenuInteraction"16@"UIContextMenuConfiguration"24 /* Error: Ran out of types for this method. */;
-- (void)ouldBeIncreasedByTabBarHeight;
-- (id)artWatchingForKeyboardNotificationsIfNecessary;
-- (void)nfo",&,N,V_focusedItemInfo;
-- (long long);
-- (void)_DefinitionIDSetting;
-- (void)1e;
-- (id)×sÿdc;
+- (void);
+- (id);
+- (void)vicesMenuDataProviding>"24@0:(id)arg1 8@"NSString"16;
+- (long long)InteractionContext=@}BQ@@?@?}16;
+- (id)ght;
+- (void)(Ü&;
+- (_Bool)ntroller. Window:(struct CGPoint)arg1 %@, delegate:(id)arg2 %@;
+- (id)Guide class:%@> /* Error: Ran out of types for this method. */;
+- (id)H0c;
+- (void)À¾ÿ
+Û×Ü\c;
+- (void)ØPþvß;
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *coverConstraintBottomAnchor; // @synthesize coverConstraintBottomAnchor=_coverConstraintBottomAnchor;

@@ -17,13 +17,13 @@
 
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
 - (long long);
-- (id);
-- (id);
+- (void)Ì;
+- (id)kWasInterruptedByRouteChange;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long comparisonType; // @synthesize comparisonType=_comparisonType;

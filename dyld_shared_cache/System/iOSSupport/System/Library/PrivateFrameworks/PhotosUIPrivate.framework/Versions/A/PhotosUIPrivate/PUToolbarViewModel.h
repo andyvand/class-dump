@@ -19,24 +19,24 @@
     UIViewController *__viewController;
 }
 
-- (double);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (double);
+- (double);
+- (double);
+- (id);
+- (void);
+- (id);
 - (_Bool);
+- (void)Controller:(double)arg1;
+- (void)ha;
+- (id)urces: /* Error: Ran out of types for this method. */;
+- (id)playBlock:,V__onReadyToDisplayBlock /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (double);
-- (id);
-- (void);
-- (id)ÿ;
 
 // Remaining properties
 @property(nonatomic, setter=_setViewController:) __weak UIViewController *_viewController; // @synthesize _viewController=__viewController;

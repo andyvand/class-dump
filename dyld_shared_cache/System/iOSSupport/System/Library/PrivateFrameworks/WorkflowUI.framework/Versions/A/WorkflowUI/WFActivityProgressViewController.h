@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *_state;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long state;

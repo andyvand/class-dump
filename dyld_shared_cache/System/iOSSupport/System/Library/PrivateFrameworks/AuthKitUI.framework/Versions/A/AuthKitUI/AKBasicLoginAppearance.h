@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)MembershipEvent;
++ (id);
 + (id);
 + (long long);
 

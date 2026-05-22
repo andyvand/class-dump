@@ -13,6 +13,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (void);
 + (void);
 + (void);
@@ -29,6 +30,7 @@
 + (_Bool);
 + (void);
 + (void);
++ (void);
 + (id);
 + (void);
 + (_Bool);
@@ -36,6 +38,8 @@
 + (id);
 + (id);
 + (void);
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);

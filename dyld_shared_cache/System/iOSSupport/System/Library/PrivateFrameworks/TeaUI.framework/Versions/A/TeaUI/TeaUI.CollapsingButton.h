@@ -20,18 +20,18 @@
 
 - (void);
 - (struct CGSize);
-- (void);
-- (struct CGSize);
-- (id)ggregateForFeatureKey:(id)arg1;
-- (void)ClusterSizeAutoFavorite;
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (id);
-- (struct CGSize);
 - (void);
+- (struct CGSize);
 - (id);
-- (struct CGSize);
+- (id);
+- (void);
+- (struct CGSize);
+- (unsigned long long);
+- (id);
+- (void);
+- (struct CGSize);
+- (void)(ýúÿ<ÿúÿXÿúÿ|ÿúÿ ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long accessibilityTraits;

@@ -5,6 +5,5 @@
 //
 
 @protocol AVTAttributeEditorSectionHeaderViewDelegate
-- (void);
 @end
 

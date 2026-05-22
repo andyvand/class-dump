@@ -16,28 +16,27 @@
 }
 
 + (_Bool);
-+ (_Bool)+>;
++ (_Bool);
 + (id);
 + (_Bool);
-- (void)UUID:(BOOL)arg1;
-- (Class)currentOriginUsage:currentDatabaseUsage:expectedUsage:decisionHandler: /* Error: Ran out of types for this method. */;
-- (Class)thenticationAction;
-- (Class)tring",R,C,N,V_searchString;
-- (id)roller;
+- (void);
+- (Class);
+- (Class);
 - (id);
-- (id)ver;
-- (_Bool)er;
-- (id)estion;
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (BOOL);
 - (id);
-- (_Bool)DocumentMergeController;
-- (void)pple.50onPaletteIM;
-- (_Bool)hangeCalculatePreviewBehavior;
-- (void);
-- (id);
+- (_Bool);
 - (void);
+- (_Bool);
+- (void);
+- (id);
 - (int);
-- (double)ÿ;
+- (double)H;
+- (void)duration calculation;
 
 // Remaining properties
 @property(nonatomic) BOOL cachedOrientation; // @synthesize cachedOrientation=_cachedOrientation;

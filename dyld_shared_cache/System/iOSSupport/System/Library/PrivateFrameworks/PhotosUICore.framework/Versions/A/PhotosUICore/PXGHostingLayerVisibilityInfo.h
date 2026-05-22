@@ -12,12 +12,12 @@
     id <PXGHostingLayerVisibilityInfoDelegate> _delegate;
 }
 
+- (id);
 - (void);
 - (id);
-- (void);
-- (id)tSelection;
-- (void)ZþÿbZþÿ;
-- (_Bool)ntroller takePowerAssertionIfNeeded];
+- (void);
+- (void);
+- (_Bool)5;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXGHostingLayerVisibilityInfoDelegate> delegate; // @synthesize delegate=_delegate;

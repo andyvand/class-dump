@@ -11,9 +11,9 @@
     MISSING_TYPE *searchResultsBlock;
 }
 
-- (void);
-- (void)eB;
+- (void);
 - (id);
+- (void)t~7;
 
 @end
 

@@ -5,7 +5,5 @@
 //
 
 @protocol IMDPersistentTaskQueries
-- (void);
-- (void);
 @end
 

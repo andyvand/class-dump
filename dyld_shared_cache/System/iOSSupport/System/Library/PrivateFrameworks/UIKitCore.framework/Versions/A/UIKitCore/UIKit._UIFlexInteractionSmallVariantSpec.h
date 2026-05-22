@@ -10,8 +10,8 @@
 {
 }
 
-- (void)DragDestinationVisualStyle: /* Error: Ran out of types for this method. */;
-- (id)ionMask;
+- (void)ySeparators: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_pendingFocusMovementActions;
 }
 
-- (void)ch:(id)arg1 totalTransfers: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void);
-- (id)_setTextPathCornerRadius: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)X;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

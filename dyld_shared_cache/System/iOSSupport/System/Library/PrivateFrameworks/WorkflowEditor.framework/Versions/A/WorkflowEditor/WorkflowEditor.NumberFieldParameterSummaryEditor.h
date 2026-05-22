@@ -29,7 +29,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)$ö;
 
 // Remaining properties
 @property(nonatomic, retain) id <WFVariableProvider> variableProvider;

@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id)numerateParagraphsInRange:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)rcDataDetectors;
+- (void)o;
 
 // Remaining properties
 @property(retain, nonatomic) VKCActionInfoButton *button; // @synthesize button=_button;

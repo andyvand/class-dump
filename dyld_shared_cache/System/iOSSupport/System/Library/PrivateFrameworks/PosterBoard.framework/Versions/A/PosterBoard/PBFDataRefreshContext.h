@@ -19,10 +19,12 @@
 + (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)erRoleCoordinatorChangeUserInfoKeyOrderedUUIDs;
+- (void)!XDù1	Ð1â
+0@ù
+× ;
+- (id)û;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *component; // @synthesize component=_component;

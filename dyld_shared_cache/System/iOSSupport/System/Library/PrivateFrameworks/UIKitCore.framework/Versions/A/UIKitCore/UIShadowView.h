@@ -13,12 +13,12 @@
     UIImage *_image;
 }
 
-+ (id)ve;
-+ (id)Alpha50;
-- (void)40@0:(id)arg1 8@"IMDCollaborationNoticeDispatcher"16@"IMCollaborationNoticeTransmission"24@"NSString"32;
-- (void);
-- (id)xtFormattingViewControllerIncreaseFontSizeChange;
-- (void)Ë¢°g;
++ (id);
++ (id);
+- (void);
+- (void);
+- (id)VhidePrediction;
+- (void);
 
 @end
 

@@ -12,38 +12,36 @@
 {
 }
 
-+ (_Bool));
 + (_Bool);
-+ (id)without your login password—not even Apple.;
-+ (id)CMGlobalZoomFactorIndexKey;
-+ (id)
-;
++ (_Bool);
++ (id);
++ (id);
++ (id);
 + (Class);
 + (id);
 + (id);
-- (_Bool)egory:isForPrint: /* Error: Ran out of types for this method. */;
-- (void)reNoColorAlreadyExists:(id)arg1;
+- (_Bool);
 - (void);
 - (void);
-- (id)r;
+- (void);
 - (id);
-- (Class)c;
-- (void)n;
-- (id)onTintColor;
+- (id);
+- (Class);
+- (void);
+- (id);
 - (struct NSDirectionalEdgeInsets);
 - (double);
 - (void);
-- (id)*~>~
-;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (double)geInState: /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
+- (id);
 - (unsigned long long);
-- (long long);
-- (void)-;
+- (long long)service with CKPendingConversationStatusRefreshContext after adding recipient.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -19,12 +19,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void)omputeDistance:toFeaturePrintObservation:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
 - (void);
+- (id);
 - (void);
 
 // Remaining properties

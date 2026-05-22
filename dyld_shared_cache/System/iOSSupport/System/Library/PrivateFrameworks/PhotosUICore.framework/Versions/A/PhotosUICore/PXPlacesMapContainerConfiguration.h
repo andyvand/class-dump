@@ -14,7 +14,7 @@
     CDStruct_b7cb895d _initialCoordinateRegion;
 }
 
-+ (id)9;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -23,9 +23,9 @@
 - (_Bool);
 - (void);
 - (CDStruct_b7cb895d);
-- (void);
 - (id);
-- (id);
+- (id)$qàqtr,s;
+- (void)ñg;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

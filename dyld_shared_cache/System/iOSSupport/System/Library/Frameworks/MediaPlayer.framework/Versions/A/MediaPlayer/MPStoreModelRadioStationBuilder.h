@@ -29,8 +29,8 @@
     } _requestedRadioStationProperties;
 }
 
-+ (id)domain:delegate:computePublisherStreamName: /* Error: Ran out of types for this method. */;
-- (id)tion;
++ (id);
+- (id);
 
 @end
 

@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)reblog;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *body; // @synthesize body=_body;

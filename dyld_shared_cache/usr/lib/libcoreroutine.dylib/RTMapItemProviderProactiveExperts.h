@@ -18,17 +18,17 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)A;
 - (id);
-- (id)andler: /* Error: Ran out of types for this method. */;
-- (id)p;
-- (void);
-- (id)9;
-- (id)ntext:handler:] /* Error: Ran out of types for this method. */;
+- (void)Ô;
+- (void)sensitive}@, loiIdentifier, %@, entry, %@, prior visit count, %lu, timeWindowHalfWidthSeconds:%f /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,19 +7,15 @@
 @class NSString;
 
 @protocol FCNewsWidgetConfiguration
-- (NSString *)¸ýúÿÜýúÿÿúÿ¸ÿúÿÜÿúÿ;
 
 @optional
-- (_Bool);
-- (long long)ûÿ¢ûÿà¢ûÿ4£ûÿX£ûÿà£ûÿ¤ûÿ(¤ûÿd¤ûÿ¤ûÿØ¤ûÿü¤ûÿ ¥ûÿH¦ûÿl¦ûÿ¦ûÿÌ¦ûÿð¦ûÿH§ûÿl§ûÿ¨§ûÿÜ§ûÿ;
-- (long long)onContextData;
-- (long long)õÿ;
-- (long long)unknown group types;
-- (long long)pa;
-- (double)÷ÿoö³÷ÿoö¤ÎÿoöXTÔÿ;
-- (long long)ÕÊ÷GÝ;
-- (long long);
-- (long long)ù|Öÿ]¬ùlEÑÿ]¬ù¼¬Ôÿ;
+- (long long)offensiveGraphicContent;
+- (long long);
+- (long long)ÍúÿÎúÿ8ÎúÿtÎúÿ¨ÎúÿÌÎúÿ0ÏúÿÏúÿ¨ÏúÿÐúÿ8Ðúÿ\ÐúÿÐúÿ¼ÐúÿÑúÿ4ÑúÿXÑúÿÒúÿ0ÒúÿTÒúÿÒúÿ´ÒúÿÓúÿ4ÓúÿpÓúÿ¤ÓúÿlÔúÿ ÔúÿÕúÿ,ÕúÿhÕúÿÕúÿÀÕúÿ$ÖúÿxÖúÿÖúÿ×úÿ0×úÿT×úÿ×úÿ´×úÿØúÿhØúÿØúÿDÙúÿhÙúÿÙúÿÈÙúÿìÙúÿDÚúÿhÚúÿ¤ÚúÿØÚúÿüÚúÿÛúÿÛúÿÀÛúÿäÛúÿèÜúÿÝúÿ0ÝúÿlÝúÿÝúÿÜÝúÿ0ÞúÿTÞúÿØÞúÿüÞúÿ ßúÿ\ßúÿßúÿàúÿ@àúÿdàúÿHáúÿláúÿáúÿÌáúÿðáúÿ<âúÿ`âúÿâúÿÐâúÿôâúÿHãúÿlãúÿ¨ãúÿÜãúÿ;
+- (long long)a;
+- (long long);
+- (_Bool)$;
+- (long long)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;

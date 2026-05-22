@@ -16,8 +16,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)der Implementation;
 
 @end
 

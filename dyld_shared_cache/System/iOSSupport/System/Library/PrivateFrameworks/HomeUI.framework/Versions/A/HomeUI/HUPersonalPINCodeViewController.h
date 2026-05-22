@@ -41,10 +41,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (_Bool);
-- (id)e"16@"HMRoom"24@"HMAccessory"32;
-- (void)TextFieldLeadingConstraint:(id)arg1;
+- (void);
+- (void)meKeyToWalletItem _subclass_updateWithOptions:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

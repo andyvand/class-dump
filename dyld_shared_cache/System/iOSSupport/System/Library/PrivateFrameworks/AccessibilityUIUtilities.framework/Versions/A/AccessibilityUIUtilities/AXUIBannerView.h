@@ -17,9 +17,9 @@
 }
 
 - (id);
-- (void)t";
-- (void)tring";
-- (id);
+- (void);
+- (void);
+- (id);
 - (double);
 - (double);
 - (double);
@@ -27,12 +27,12 @@
 - (double);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id)~;
 - (id);
-- (void)etShouldSkipMakingNextViewVisible:(id)arg1;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double defaultPlatterToTextVerticalSpacing;

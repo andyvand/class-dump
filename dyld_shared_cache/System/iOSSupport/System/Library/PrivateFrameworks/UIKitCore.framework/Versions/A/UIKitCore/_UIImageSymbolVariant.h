@@ -10,17 +10,18 @@
 }
 
 + (id);
-+ (id)ng transfer:%@   success:%@  error:%@ /* Error: Ran out of types for this method. */;
 + (id);
-+ (_Bool);
++ (id);
++ (_Bool)%@
+;
 - (long long);
-- (void)};
+- (void);
 - (_Bool);
-- (void)g();
-- (unsigned long long);
-- (_Bool);
-- (id)braryFilterPredicate:(struct _NSZone *)arg1;
 - (id);
+- (unsigned long long);
+- (_Bool)IntegerValue:(id)arg1 forTrait: /* Error: Ran out of types for this method. */;
+- (void)ion:(id)arg1;
+- (id)tion;
 
 // Remaining properties
 @property(nonatomic) long long fillVariant; // @synthesize fillVariant=_fillVariant;

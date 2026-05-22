@@ -36,13 +36,13 @@
 - (id);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (long long);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

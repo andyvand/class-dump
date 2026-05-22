@@ -4,6 +4,6 @@
 
 class CMCKey {
 public: // (access info unavailable from symbols alone)
-    Initialize(unsigned char const*, int);
+    auto Initialize(unsigned char const*, int);
     ~CMCKey();
 };

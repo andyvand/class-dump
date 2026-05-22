@@ -25,38 +25,39 @@ __attribute__((visibility("hidden")))
     UISwipeActionController *_swipeController;
 }
 
-- (void);
 - (_Bool);
-- (void);
-- (CDStruct_9b6dff2a);
-- (id);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void)eOptionGroupAdditions;
-- (void);
 - (CDStruct_324b76a9);
-- (unsigned long long);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
+- (CDStruct_9b6dff2a);
 - (unsigned long long);
 - (void);
-- (void);
-- (void)Ô ;
-- (_Bool)
-× ;
-- (void)set_systemBehaviorsToOutPrioritize:(id)arg1;
-- (id)hGesture:withState: /* Error: Ran out of types for this method. */;
-- (void)thKeys:inRect:scale: /* Error: Ran out of types for this method. */;
-- (void)phasized;
-- (_Bool)xtAttributes;
-- (_Bool)p;
-- (_Bool)olumnWidth = %g;
-- (void)PonderingEffectEnabled;
-- (void)2öþÿ;
-- (_Bool)ationSettings;
 - (void);
+- (void);
+- (void);
+- (void)^1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)0@ù
+× ;
+- (id)mageLoader"16;
+- (id)rAlignedAccessoryView;
+- (unsigned long long)ionInset: /* Error: Ran out of types for this method. */;
+- (_Bool)lizeManagedDictationViews;
+- (void)senter: /* Error: Ran out of types for this method. */;
+- (void)Anchor",R,N,V_bottomAnchor;
+- (void)collapsed %@ UISplitViewController;
+- (void)3yÇ§.3yé¾7GGGAMyfÜ.3yÜ.3ybÛ.3yÜÚ.3yAMyABy_ACy`¹;
+- (void);
+- (void),;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

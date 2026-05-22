@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     id <STMenuButtonDelegate> _delegate;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -16,14 +16,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (long long);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long mode; // @synthesize mode=_mode;

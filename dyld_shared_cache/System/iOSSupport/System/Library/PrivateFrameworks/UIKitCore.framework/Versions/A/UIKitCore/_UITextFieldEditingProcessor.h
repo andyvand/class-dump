@@ -14,9 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)!Eùbð1Â0@ù
+× ;
+- (void)LP;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextFieldEditingProcessorDelegate> delegate; // @synthesize delegate=_delegate;

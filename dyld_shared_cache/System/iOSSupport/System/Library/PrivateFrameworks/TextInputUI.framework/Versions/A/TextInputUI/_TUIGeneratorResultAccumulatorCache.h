@@ -15,16 +15,20 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void)lback;
+- (unsigned long long)Áí°!øBù4Ð1â
+0@ù
+× ;
+- (id)
+× ;
+- (void)@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long maxSize; // @synthesize maxSize=_maxSize;

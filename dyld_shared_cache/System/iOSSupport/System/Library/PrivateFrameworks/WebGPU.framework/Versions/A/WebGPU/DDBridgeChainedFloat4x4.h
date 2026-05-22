@@ -12,11 +12,11 @@
 
 - (id);
 - (CDStruct_f1db2b5e);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void)Traits = WTF:(id)arg1:HashMap<WTF::String, WGSL::RewriteGlobalVariables::Global>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::String, WGSL::RewriteGlobalVariables::Global>::KeyValuePairTraits, WTF::DefaultHash<String>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::String] /* Error: Ran out of types for this method. */;
+- (void);
+- (void)~CN9SugDQ7XfdI6wkt5BVrjTZQAbhvWn9-4IHbbI/Library/Caches/com.apple.xbs/TemporaryDirectory.l1tWzK/Sources/WebGPU_iosmac/Source/WebGPU/WGSL/ConstantFunctions.h:(id)arg1 516:71) &)::(anonymous class)::operator()(auto &) const [arg:auto = const WGSL::ConstantValue] /* Error: Ran out of types for this method. */;
+- (id)TF::KeyValuePair<WTF::GenericHashKey<std::array<unsigned int, 5>>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::GenericHashKey<std::array<unsigned int, 5>>>, Traits = WTF::HashMap<WTF::GenericHashKey<std::array<unsigned int, 5>>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::GenericHashKey<std::array<unsigned int, 5>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) DDBridgeChainedFloat4x4 *next; // @synthesize next;

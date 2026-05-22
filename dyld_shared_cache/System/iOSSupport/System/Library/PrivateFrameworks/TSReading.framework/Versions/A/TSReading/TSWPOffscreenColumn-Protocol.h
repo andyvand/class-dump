@@ -5,7 +5,6 @@
 //
 
 @protocol TSWPOffscreenColumn
-- (struct _NSRange)_autoscroll;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange anchoredRange;

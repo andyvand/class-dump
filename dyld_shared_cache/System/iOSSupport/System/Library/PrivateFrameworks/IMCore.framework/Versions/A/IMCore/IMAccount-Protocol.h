@@ -4,11 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol IMAccount
-- (NSArray *);
-- (_Bool);
+- (_Bool)|;
 
 // Remaining properties
 @property(readonly, nonatomic) long long accountType;

@@ -19,17 +19,17 @@
 
 - (id);
 - (long long);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void)dPersonalNotebooks;
-- (void)ID;
+- (void)PC response;
+- (void)Ñÿü=;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

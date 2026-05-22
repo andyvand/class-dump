@@ -16,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void)stCropRectForItem:(CDStruct_cf12f03d)arg1 withAspectRatio: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 @end
 

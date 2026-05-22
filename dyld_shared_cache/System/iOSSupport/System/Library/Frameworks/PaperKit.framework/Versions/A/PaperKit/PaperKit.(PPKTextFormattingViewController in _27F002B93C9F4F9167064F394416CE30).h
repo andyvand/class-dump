@@ -12,14 +12,15 @@
     MISSING_TYPE *lastFirstResponder;
 }
 
-- (void);
 - (id);
-- (void);
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (void);
+- (void)#Mÿÿ
+mþÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

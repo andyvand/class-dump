@@ -25,12 +25,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)À;
 
 // Remaining properties
 @property(nonatomic) __weak id <_TtP14WorkflowEditor42ParameterValuePickerViewControllerDelegate_> delegate; // @synthesize delegate;

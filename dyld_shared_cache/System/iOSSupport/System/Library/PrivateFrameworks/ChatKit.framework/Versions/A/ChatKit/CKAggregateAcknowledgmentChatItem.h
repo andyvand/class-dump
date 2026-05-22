@@ -20,15 +20,14 @@
 - (BOOL);
 - (void);
 - (void);
-- (id)te.;
-- (_Bool)ile attempting secondary authentication;
+- (id);
+- (_Bool);
 - (_Bool);
 - (struct CGSize);
 - (long long);
 - (_Bool);
 - (id);
-- (long long).
-;
+- (long long);
 - (Class);
 - (BOOL);
 - (id);
@@ -43,11 +42,11 @@
 - (id);
 - (void);
 - (id);
-- (Class);
-- (struct UIEdgeInsets);
-- (_Bool);
-- (void);
 - (id);
+- (struct UIEdgeInsets);
+- (Class);
+- (_Bool);
+- (void)ê;
 
 // Remaining properties
 @property(readonly) UIColor *acknowledgmentImageColor;

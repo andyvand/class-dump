@@ -23,9 +23,9 @@
 }
 
 + (id);
-- (_Bool)g",&,N,V_chatIdentifier;
-- (void)MParticipantChangeItem:withProtobufData:protobuf2Data: /* Error: Ran out of types for this method. */;
-- (void)N,V_trackingContexts;
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,31 +36,30 @@
 - (void);
 - (double);
 - (double);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void)workInfo;
-- (id);
-- (void)0@ù
-× ;
-- (id)!¤@ù±É°1¢!0@ù
-× ;
-- (id)DeviceMetrics: /* Error: Ran out of types for this method. */;
-- (void)rstResponderFocusSystem;
-- (unsigned long long)w input mode key found - initializing new entry for source:%lu actionType:%lu flagOptions%lu inputMode:"%@" /* Error: Ran out of types for this method. */;
-- (id)in the collection view, use -[UICollectionView cellForItemAtIndexPath:(id)arg1 ] or -[UICollectionView supplementaryViewForElementKind:(id)arg2 atIndexPath:(id)arg3 ]. Dequeued view:%@; Collection view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
-- (id)tInsets (%@) leave space for its subitems after being applied to the group's effective size (%@).;
-- (id)ÙF];
-- (void)Ýþ9Ë];
-- (void)·²a;
-- (struct CGSize)c²1;
-- (_Bool);
-- (id)¬|ÿ;
-- (_Bool)ØGËÊ'l;
-- (void)¤ýÕVÁl;
 - (struct CGSize);
-- (id)n;
+- (id);
+- (void);
+- (void)
+× ;
+- (void)nimationProgress:(id)arg1 completed: /* Error: Ran out of types for this method. */;
+- (_Bool)nningBehavior: /* Error: Ran out of types for this method. */;
+- (id)tusBarDataStringEntry",C,N,V_dateEntry;
+- (void)olHost",&,N;
+- (id)TextInput>",R,N,G_proxyTextInput;
+- (struct CGSize);
+- (id)Restoration file:(id)arg1 %@, error = %@;
+- (_Bool)ViewFlowLayout instance is %@, and it is attached to %@.;
+- (id)&ÛÄ*];
+- (id)c¡0;
+- (void)zÉÌ`;
+- (void)c;
+- (void)øÊd;
+- (id)+¬h;
+- (void)`!Ãÿ;
+- (unsigned long long)¦l;
+- (_Bool)(­n;
+- (id);
+- (void)}×ÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIColorWellDelegate> _delegate; // @synthesize _delegate=__delegate;

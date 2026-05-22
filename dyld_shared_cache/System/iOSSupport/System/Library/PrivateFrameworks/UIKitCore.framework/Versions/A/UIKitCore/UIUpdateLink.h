@@ -14,33 +14,34 @@
 }
 
 + (id);
-+ (id)x^;
-+ (id);
-+ (id)/<;
 + (id);
-+ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id)ctivity:completion: /* Error: Ran out of types for this method. */;
-- (void)lineAttachmentsDictionary:(id)arg1;
-- (void)lastPublisherOfOffGridStatus;
-- (void)tchRecordsCompletionBlock:(id)arg1;
-- (void)tring",&,N,V_lastAddressedHandle;
-- (void);
-- (void)%@ from guid %@ and salt %@ as one or both are nil;
-- (_Bool)Message app template image with BlastDoor copy for %@ and transfer %@;
-- (void)om Disk;
-- (void)@;
 - (id);
-- (void)r;
-- (void)TB,R,N,GisLooping,V_looping;
-- (void)264E596Button;
-- (struct CAFrameRateRange);
-- (_Bool)Ü2d;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool)1Â0@ù
+× ;
+- (void)item:(_Bool)arg1 %@, last item:%@, deleteBased:%@, hasInserts:%@ /* Error: Ran out of types for this method. */;
+- (void)%g" y="%g"/><Point id="bottomRight" x="%g" y="%g"/></Rectangle>;
+- (struct CAFrameRateRange)¨ûd;
 
 // Remaining properties
 @property(nonatomic, getter=_isEngaged, setter=_setEngaged:) _Bool _engaged;

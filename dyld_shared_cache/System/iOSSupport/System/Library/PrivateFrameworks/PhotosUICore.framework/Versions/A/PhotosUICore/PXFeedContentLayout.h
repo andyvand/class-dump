@@ -32,12 +32,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)ableArray",&,N,V_bootstrappedSourceUUIDs;
-- (void)N,V_headerAsset;
-- (void)~6;
-- (id)ÁìÿoÈIf8;
+- (void);
+- (void);
+- (void)electKeyPhoto;
+- (void)Ðú;
+- (id)(×6;
 
 // Remaining properties
 @property(readonly, nonatomic) PXGStackedSublayoutComposition *composition; // @dynamic composition;

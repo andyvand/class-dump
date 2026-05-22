@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPRouteGuidance, CPRouteLine, NSArray;
+@class CPRouteGuidance, CPRouteLeg, CPRouteLine, NSArray;
 
 @interface CPRouteInfo
 {
@@ -13,6 +13,7 @@
     NSArray *_laneGuidances;
     CPRouteGuidance *_routeGuidance;
     CPRouteLine *_routeLine;
+    CPRouteLeg *_currentLeg;
 }
 
 + (_Bool);
@@ -24,11 +25,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties
+@property(readonly, nonatomic) CPRouteLeg *currentLeg; // @synthesize currentLeg=_currentLeg;
 @property(readonly, copy, nonatomic) NSArray *laneGuidances; // @synthesize laneGuidances=_laneGuidances;
 @property(readonly, copy, nonatomic) NSArray *maneuvers; // @synthesize maneuvers=_maneuvers;
 @property(readonly, copy, nonatomic) CPRouteGuidance *routeGuidance; // @synthesize routeGuidance=_routeGuidance;

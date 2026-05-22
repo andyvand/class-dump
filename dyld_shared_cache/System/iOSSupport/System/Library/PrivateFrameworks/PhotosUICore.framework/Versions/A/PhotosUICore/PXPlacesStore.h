@@ -42,17 +42,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void):(CDStruct_02837cd9)arg1;
-- (void)arySectionHeaderLayoutSpec",&,N,V_effectiveSpec;
-- (long long)Ì: <<	ø<x=¬= /* Error: Ran out of types for this method. */;
-- (id)híÿ;
-- (void)FilterViewMode;
-- (id)idateSprites];
-- (void)ð;
 - (void);
-- (CDStruct_02837cd9)ÄÿÏ4M~p6;
+- (void);
+- (void);
+- (CDStruct_02837cd9);
+- (void)Xw;
+- (long long)e,public}@ ;
+- (void)sonItem"8;
 
 // Remaining properties
 @property(readonly) NSSet *allItems;

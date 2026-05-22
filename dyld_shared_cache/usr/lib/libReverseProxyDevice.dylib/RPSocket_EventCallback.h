@@ -4,9 +4,9 @@
 
 class RPSocket::EventCallback {
 public: // (access info unavailable from symbols alone)
-    invoke();
-    invoke_and_delete_fn(RPSocket::EventCallback*);
-    invoke_fn(RPSocket::EventCallback*);
-    release_all() const;
-    retain_all() const;
+    auto invoke();
+    auto invoke_and_delete_fn(RPSocket::EventCallback*);
+    auto invoke_fn(RPSocket::EventCallback*);
+    auto release_all() const;
+    auto retain_all() const;
 };

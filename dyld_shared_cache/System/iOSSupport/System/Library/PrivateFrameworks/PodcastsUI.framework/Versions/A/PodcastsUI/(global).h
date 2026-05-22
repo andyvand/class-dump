@@ -5,13 +5,14 @@
 // Global C++ functions
 
 VTT for std::__1::basic_ostringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
-operator delete(void*);
-operator new(unsigned long, std::__type_descriptor_t);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(double);
 std::__1::ctype<char>::id;
 typeinfo for std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
 typeinfo for std::bad_array_new_length;
 typeinfo for std::length_error;
 typeinfo name for std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
 vtable for __cxxabiv1::__class_type_info;
 vtable for std::__1::basic_ostringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
 vtable for std::__1::basic_streambuf<char, std::__1::char_traits<char>>;

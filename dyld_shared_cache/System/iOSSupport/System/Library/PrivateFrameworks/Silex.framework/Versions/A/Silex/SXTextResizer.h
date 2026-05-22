@@ -13,7 +13,8 @@
     SXComponentTextStyle *_defaultTextStyle;
 }
 
-- (void);
+- (void)áÝ°!\BùïÐ1Â0@ù
+× ;
 
 @end
 

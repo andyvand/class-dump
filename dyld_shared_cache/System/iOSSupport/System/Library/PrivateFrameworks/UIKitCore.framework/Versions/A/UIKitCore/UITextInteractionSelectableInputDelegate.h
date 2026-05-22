@@ -15,63 +15,61 @@ __attribute__((visibility("hidden")))
     UIResponder<UITextInput> *_textInput;
 }
 
-+ (id)rom legacy service session, please file a radar-------*/;
-- (id);
++ (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void)ý/º;
-- (void)1¢!0@ù
+- (void);
+- (void);
+- (void)°!¤@ù_°1Â0@ù
 × ;
-- (id)avð!Eù1ËÐ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (id)Item;
-- (id)wsForwardingFocusMovementActions: /* Error: Ran out of types for this method. */;
-- (id)_UIGestureRecognizerDriver;
-- (void)DFAnnotationTypeText;
-- (struct CGRect)rticalOffset;
-- (long long)ink;
-- (void)ryDisplayStrings = %@;
-- (id)d_lookup;
-- (void)guring bar buttons. %@;
-- (id)id);
-- (id)@?0;
-- (void)ouldDimmingIgnoreTouches;
+- (void)ForPresentation: /* Error: Ran out of types for this method. */;
+- (id)lidateAppearanceForSubviewsOfClass:(id)arg1;
+- (void)stage;
+- (_Bool);
+- (id)[ÿ;
+- (id)`²!ÿ'ÞÚøÒ`;
+- (void)X±ßþí;
+- (long long)ÒÜþ¨À";
+- (id)Æa;
+- (id)ëöÜtGa;
+- (long long)ÿHÛ|¨a;
 - (id);
-- (id)Û?es-8RÁÐ?;
+- (long long)VÿUÕäb;
 - (id);
-- (id);
-- (id)Øäþ;
+- (id)/: þb /* Error: Ran out of types for this method. */;
+- (id)ðDc;
+- (struct CGRect)¬c;
 - (void);
-- (void);
+- (id)hÿ¿6¬]d;
+- (id)`Ød;
+- (id)Ü»d;
+- (id)Üd;
 - (id);
-- (id)«[;
-- (long long)æÃ\;
-- (id)¹];
-- (id)Ó];
-- (id)ü_;
-- (void)Ó7`;
-- (id)`;
-- (long long)$b;
-- (_Bool)Öéþ;
-- (void)ÿ;
-- (id)ÒUóc;
+- (id)XÔ;
 - (id);
-- (id);
-- (id);
-- (void)ÿ;
-- (id);
-- (id)²f;
-- (void)I\f;
-- (id)´Öéßf;
-- (void);
-- (id)4«ÿé)Ë+g;
-- (struct CGRect)ÿ@Ê;
-- (id)g;
-- (void)Ï;
-- (id)\;
+- (id)±È;
+- (id)ÿÄÙð:(_Bool)arg1 f;
+- (id)@kf;
+- (id);
+- (id)·f;
+- (void)h;
+- (struct CGRect)ÀËUDóf;
+- (id)üg;
+- (void)ÏéÿxpÝÅ¢k;
+- (id)Ë¸2g;
+- (void)Ø3g;
+- (id):(id)arg1 ÞÉ g;
+- (void)¸Ö4Kg;
+- (void)0}·ÿxÕ¼;g;
+- (id)vÝþÕ;
+- (void)ì»g;
+- (id)fþ-þË@Âg;
+- (id)È@ÿ?vÊg;
+- (id)õhg;
+- (void)þüÓ;
+- (void)-i;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;
@@ -182,6 +180,10 @@ __attribute__((visibility("hidden")))
 // Original attribute string: T@"UIView",?,R,N
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @property long long writingToolsBehavior;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?

@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id)r;
-- (id)minute;
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)pendingBackdropContext;
+- (id)ardEdges;
+- (void)þý´13ÐÈ¦þ;
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *currentCommitEffectWindow; // @synthesize currentCommitEffectWindow=_currentCommitEffectWindow;

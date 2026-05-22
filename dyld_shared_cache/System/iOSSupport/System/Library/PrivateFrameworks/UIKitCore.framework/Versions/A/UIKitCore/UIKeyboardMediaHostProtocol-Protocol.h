@@ -5,8 +5,5 @@
 //
 
 @protocol UIKeyboardMediaHostProtocol
-- (void)ist;
-- (void)i;
-- (void);
 @end
 

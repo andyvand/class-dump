@@ -13,20 +13,19 @@
 - (struct __CFDictionary *);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)I
-;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (unsigned long long);
 
 @end

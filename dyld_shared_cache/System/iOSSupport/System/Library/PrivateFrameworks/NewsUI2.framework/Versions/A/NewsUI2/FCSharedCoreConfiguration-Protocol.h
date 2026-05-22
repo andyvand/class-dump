@@ -7,19 +7,15 @@
 @class FCPersonalizationPublisherDampeningConfig, FCTopStoriesConfiguration, NSArray, NSString;
 
 @protocol FCSharedCoreConfiguration
-- (NSArray *);
-- (_Bool)];
-- (NSArray *)💢;
-- (_Bool)mentTimeout;
-- (long long)Õó;
+- (_Bool),;
 
 @optional
-- (NSString *);
-- (_Bool)t
-;
-- (double)6�!;
-- (long long)sPlugin;
-- (double)d;
+- (_Bool);
+- (double)ð@x°èHp¨à@hÈLx Èø(l ì HÀ	L		Ì	;
+- (long long);
+- (_Bool)d{;
+- (long long)toryType;
+- (NSString *)åe¼;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool articleEmbeddingsEnabled;

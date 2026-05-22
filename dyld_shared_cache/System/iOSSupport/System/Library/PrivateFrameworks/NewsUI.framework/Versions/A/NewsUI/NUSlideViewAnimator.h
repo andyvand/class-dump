@@ -16,24 +16,24 @@
     struct CGRect _bounds;
 }
 
+- (void);
+- (void);
+- (void);
+- (struct CGAffineTransform);
+- (id);
 - (double);
+- (void);
 - (unsigned long long);
 - (struct CGRect);
 - (struct CGAffineTransform);
-- (struct CGAffineTransform)9;
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id)";
-- (void);
-- (void);
-- (id);
-- (_Bool)A;
 - (double);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;

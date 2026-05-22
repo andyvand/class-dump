@@ -5,10 +5,13 @@
 //
 
 @protocol _UIViewConfigurationStateReadonly
-- (long long)omMac"b1"bridgedPresentationWasPresented"b1};
+- (long long)preferredContentSizeForItem: /* Error: Ran out of types for this method. */;
+- (_Bool)|Å;
+- (unsigned long long)Key;
+- (_Bool)inspectorPreference;
+- (_Bool)ion_t;
+- (_Bool)þ;
 - (_Bool);
-- (_Bool)xt"8;
-- (_Bool)content tearDown ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _contextMenuGroupLocation;

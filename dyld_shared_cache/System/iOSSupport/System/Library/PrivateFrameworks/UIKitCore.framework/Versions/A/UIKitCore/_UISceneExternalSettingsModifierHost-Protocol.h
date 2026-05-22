@@ -7,8 +7,6 @@
 @class BSServiceConnectionEndpoint;
 
 @protocol _UISceneExternalSettingsModifierHost
-- (void)tLegacyData:(_Bool)arg1 kAMFDROptionExportLegacyDataClasses is not array;
-- (void)FDRSealingMapCopyLocalData returned error:(BSServiceConnectionEndpoint *)arg1 %@;
 
 // Remaining properties
 @property(copy, nonatomic) BSServiceConnectionEndpoint *externalSettingsModifierEndpoint;

@@ -12,22 +12,22 @@
     NSString *_source;
 }
 
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool)yúScTyDáÚ¿Û_pGG;
+- (_Bool)V;
+- (void)t %{public}@ didn't);
+- (_Bool)Value"8Q16;
+- (void)trust;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;

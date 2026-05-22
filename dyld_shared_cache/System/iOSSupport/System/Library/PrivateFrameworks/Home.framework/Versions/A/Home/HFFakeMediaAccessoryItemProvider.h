@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ItemModule"8;
+- (id);
+- (void)%;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *mediaAccessoryItemTypes; // @synthesize mediaAccessoryItemTypes=_mediaAccessoryItemTypes;

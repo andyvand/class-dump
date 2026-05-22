@@ -32,15 +32,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void)cxûÿ;
-- (void)ers;
-- (id)l;
-- (id)Ã¬5;
-- (void)6;
+- (id)reProvider"16^{__CVBuffer=}24{?=BffB}32@"<PXGDisplayAssetAdjustment>"64i72;
+- (void)ntroller",&,N,V_bufferingController;
+- (void);
+- (void)nadeActiveSearchUpdater;
+- (void)Øý;
+- (id);
+- (void)O6;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *completions; // @synthesize completions=_completions;

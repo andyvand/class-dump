@@ -50,9 +50,9 @@
 - (struct CGSize);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (double)pletion: /* Error: Ran out of types for this method. */;
+- (double)iveTemperatureEnabled;
+- (void)ough it is not presented modally! Presented VC:%@ /* Error: Ran out of types for this method. */;
+- (void)tyLogo;
 
 // Remaining properties
 @property(nonatomic) double interitemSpacingForExtraSmallControlSize; // @synthesize interitemSpacingForExtraSmallControlSize=_interitemSpacingForExtraSmallControlSize;

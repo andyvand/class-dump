@@ -11,24 +11,24 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (id)ibraryID="%@";
-- (id)int:(id)arg1 peakPoint:pinnedArrowSide:cornerRadii:arrowBase: /* Error: Ran out of types for this method. */;
-- (id)dLayoutSizeRoundingDelta;
-- (struct CGColor *);
-- (_Bool)xtSelectionZoomScaleDidChange;
-- (_Bool)ickerUseCurrentDateDuringDecoding;
-- (_Bool)e:didTransitionFromActivationState:withReasonsMask:] /* Error: Ran out of types for this method. */;
-- (id)ritingTransparentBackgroundGradient;
-- (void)nAction.m;
-- (void)oller impl;
-- (void);
-- (_Bool)eValue;
-- (double)kground.inputRefractionOpacity;
-- (_Bool)î];
+- (unsigned long long);
+- (_Bool)utton:(id)arg1;
+- (id)dSplitTransitionIfNeeded;
+- (id)ctionLayoutSectionSolver>",R,N,V_solution;
+- (_Bool)o be in paused or stopped state when deallocating while Active. Actual state %i;
+- (struct CGColor *);
+- (void)I?;
+- (void)"¿ÔÀºd;
+- (_Bool)ðûd;
+- (_Bool)p;
+- (_Bool)èe;
+- (double)Úÿ;
+- (void)¬Ðÿ¥;
+- (id)¼ßðþ¿KË ¢f;
 - (_Bool);
+- (id);
+- (_Bool)ÐYh;
 
 @end
 

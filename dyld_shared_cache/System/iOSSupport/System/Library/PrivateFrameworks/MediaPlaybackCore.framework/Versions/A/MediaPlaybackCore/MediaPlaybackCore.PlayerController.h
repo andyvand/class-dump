@@ -40,11 +40,11 @@
 - (void);
 - (void);
 - (void);
-- (void)p�;
+- (void);
+- (float);
 - (void);
 - (id);
-- (float);
-- (_Bool)ilently;
+- (_Bool)diaPlaybackCore26PlaybackStatisticsConsumer;
 
 // Remaining properties
 @property(nonatomic) _Bool isMuted;

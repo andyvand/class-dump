@@ -24,26 +24,24 @@
 }
 
 + (id);
-+ (id)ÊÓ=i;
++ (id)de;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
 - (_Bool);
-- (_Bool)EùqÀÐ1¢!0@ù
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)× ;
+- (_Bool)0@ù
 × ;
-- (void);
-- (_Bool)ÂÐ1¢!0@ù
-× ;
-- (id)!ÄGùÃ°1¢!0@ù
-× ;
-- (_Bool)ePrefetchedCells: /* Error: Ran out of types for this method. */;
-- (_Bool)ViewFont:isDefaultForIdiom: /* Error: Ran out of types for this method. */;
-- (_Bool)ìÓ8Ô¬ÔÕÔÕ;
-- (_Bool);
-- (void).apple.uikit.useractivity;
-- (_Bool);
-- (_Bool)\;
+- (void)on:(_Bool)arg1 forceAtLeastKnobsVisible: /* Error: Ran out of types for this method. */;
+- (id)resolvedPaletteColors;
+- (_Bool)B,N,V_supportsFloatingSidebar;
+- (id)tainerView;
+- (_Bool)hitePointAdaptivityStyleStandard;
+- (void)¨k)ÿ½`<;
+- (_Bool)íþUÑìl;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canCopy; // @synthesize canCopy=_canCopy;

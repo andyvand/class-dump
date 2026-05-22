@@ -7,7 +7,7 @@ public: // (access info unavailable from symbols alone)
     StringPiece(char const*);
     StringPiece(icu::StringPiece const&, int);
     StringPiece(icu::StringPiece const&, int, int);
-    compare(icu::StringPiece);
-    find(icu::StringPiece, int);
-    set(char const*);
+    auto compare(icu::StringPiece);
+    auto find(icu::StringPiece, int);
+    auto set(char const*);
 };

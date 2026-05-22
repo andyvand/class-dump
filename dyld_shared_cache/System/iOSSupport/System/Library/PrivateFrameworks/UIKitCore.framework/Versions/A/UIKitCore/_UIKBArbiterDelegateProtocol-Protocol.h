@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIKeyboardChangedInformation;
-
 @protocol _UIKBArbiterDelegateProtocol
-- (void);
-- (void)mentedControl;
-- (void)vel:(_UIKeyboardChangedInformation *)arg1;
-- (void)error:(void (^)(NSDictionary *))arg1 invalid initial or starting node index. Global index:%ld; Initial:%ld; Starting:%ld; Node count:%ld /* Error: Ran out of types for this method. */;
+- (void)Á;
+- (void)
+× ;
+- (void):(double)arg1 type:(void (^)(void))arg2;
+- (void)ssDuration;
+- (void)´	;
 @end
 

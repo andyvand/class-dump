@@ -12,10 +12,10 @@
     CKContainer *_container;
 }
 
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

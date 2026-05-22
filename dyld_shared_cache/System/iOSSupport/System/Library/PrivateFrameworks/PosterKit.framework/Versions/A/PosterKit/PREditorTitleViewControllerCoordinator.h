@@ -25,9 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)"<PRPosterContentStyle>",R,N;
+- (id);
+- (void)
+× ;
+- (void)ðÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *role; // @synthesize role=_role;

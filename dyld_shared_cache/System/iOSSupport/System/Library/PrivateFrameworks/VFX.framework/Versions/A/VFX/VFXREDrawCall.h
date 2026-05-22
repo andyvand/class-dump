@@ -51,12 +51,18 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (unsigned char);
-- (long long);
-- (void);
 - (id);
+- (long long);
 - (_Bool);
-- (long long)f>ð@@&ç¾ab@;>Ë'@ç¾È@uV>Pà@xæ¾Id@w>s@[Îå¾J@¹þ>ý¼ë?å¾oH5@¹«>×Ô?ùNä¾qW#@-¡>fÁ?ãoã¾F%@yÍ£>/4±?Êâ¾z6@$C¦>	k£?óá¾·cø?Ý%©>i¬? à¾íaå?~W¬>åÓ?ß¾1(Õ?C;
+- (unsigned char)uv0));
+
+
+float p = min(1.0, -(_surface.position.z + 0.1));
+
+_output.color = color * max(g, g2) * pow(border, 0.5) * p;
+;
+- (void)D;
+- (long long)Ð~(;
 
 // Remaining properties
 @property(nonatomic, readonly) CDUnknownBlockType customHandler;

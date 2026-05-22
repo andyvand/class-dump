@@ -42,74 +42,78 @@
     UIBandSelectionInteraction *_bandSelectionInteraction;
 }
 
+- (long long);
+- (_Bool);
+- (unsigned long long);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long)i*;
-- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void)@;
-- (void)ded initial cloud library enabled state [cloudEnabled=%{BOOL}u];
-- (id);
-- (long long)l;
 - (void);
-- (id);
-- (void)!@CùñÀð1¢!0@ù
+- (void);
+- (_Bool)áÿ!DùÑXð1Â0@ù
 × ;
-- (_Bool);
-- (_Bool)@ùQÈ°1¢!0@ù
+- (void)ùÑYð1Â0@ù
 × ;
-- (void)átÐ!Gù1É°1¢!0@ù
+- (id)0@ù
+× ;
+- (void)!0Cùq\1Â0@ù
+× ;
+- (_Bool)ùñ\Ð1Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (void)1Â0@ù
 × ;
 - (void)
 × ;
-- (id)chiver"16;
-- (double)d: /* Error: Ran out of types for this method. */;
-- (_Bool)izeFittingSize:(id)arg1;
-- (void)troller:(_Bool)arg1;
-- (void)SwipeView:(id)arg1 toPosition: /* Error: Ran out of types for this method. */;
-- (void)tationStyle;
-- (id)hColor:withBlock: /* Error: Ran out of types for this method. */;
-- (id)seTableViewCell:withIndexPath:didEndDisplaying: /* Error: Ran out of types for this method. */;
-- (id)rver;
-- (void)nalUnconstrainedPoint:(id)arg1;
-- (void):(struct CGPoint)arg1;
-- (id)idebarKeyCommandAction;
-- (_Bool)AccessibilityFilters;
-- (_Bool);
-- (void)isconnection,S_setNeedsDisconnection:(_Bool)arg1;
-- (_Bool)rollerTransitionCoordinator>",&,N,V_transitionCoordinator;
-- (void)er;
-- (void)sclosureIndicator;
-- (void)teRequest;
-- (void)H$	T%Ä%;
-- (void)¸&	à'\)@++À/;
-- (void)z;
-- (void)RS;
-- (void)äaXcexeüh\iôiHj,kXlìl;
-- (void)àÙÆ(uÚ;
-- (void) °Ð;
-- (void)°?¡þX~þÿ;
-- (long long)L1x.3x¿þB;
-- (void)raitCollectionCc;
-- (void)rtSecondary;
-- (_Bool)KBColorBlack_Alpha50;
-- (void)contentInset={%g, %g, %g, %g};
-- (id)callyRelaunchesAfterAppCrash;
-- (void);
-- (_Bool);
-- (_Bool)«[;
-- (_Bool)¿Ìg;
-- (_Bool)`ÒLôh;
-- (id)i¬j;
-- (id)¢"k;
-- (_Bool)¡ÿ;
+- (void)× ;
+- (void)8@0:(id)arg1 8@"NSString"16{CGPoint=dd}24@?<v@?>40;
+- (id)HasInlineSearchBar: /* Error: Ran out of types for this method. */;
+- (id)h: /* Error: Ran out of types for this method. */;
+- (id)AXHUDImage: /* Error: Ran out of types for this method. */;
+- (void)rderedRowsForType:(id)arg1;
+- (_Bool)lIndexValid:(id)arg1;
+- (void)ntrollerContainerViewTopAlignmentConstraint;
+- (void)mage: /* Error: Ran out of types for this method. */;
+- (_Bool)ebar;
+- (void)d:(id)arg1 animationCurve:animationAdjustsForContentOffsetDelta:animation:animationConfigurator: /* Error: Ran out of types for this method. */;
+- (long long)iveContainerSizeForContainer:(id)arg1;
+- (double),V_preview;
+- (void)IButton",R,N,G_secondaryButton,V_secondaryButton;
+- (_Bool)s:(struct CGPoint)arg1 ,V__alongsideAnimationViews;
+- (_Bool)ouchForceDuration;
+- (void)setStrokeColor:(id)arg1 ,V_strokeColor;
+- (id)ontroller;
+- (void)ms in section %ld. Collection view:(struct CGPoint)arg1 %@. This will become an assert in a future version.;
+- (void)þLþÿ;
+- (_Bool)t(UIView *, CGSize);
+- (_Bool)utionArrangement=%p alignmentArrangement=%p;
+- (id)martRepliesThumbsDown(void);
+- (id)ardLayout.deferredTouchTaskLists;
+- (void)tom instantiated view controller must call -[super initWithCoder:(_Bool)arg1 ] when created from -[%@ %@];
+- (void)(%ld) beyond bounds (%ld).;
+- (id)nal inconsistency:reusable view %@ returning nil preferred layout attributes for fitting attributes:%@ /* Error: Ran out of types for this method. */;
+- (void)rientationModeChange(UIApplicationSceneInterfaceOrientationMode, UIApplicationSceneInterfaceOrientationMode);
+- (_Bool)duplicate commands. This is a UIKit internal bug.;
+- (id)];
+- (void)Oe;
+- (_Bool)ùuÜ¸f;
+- (_Bool)ÐlÀÿJÊ;
+- (id);
+- (id)zk;
 
 // Remaining properties
 @property(retain, nonatomic) UIPanGestureRecognizer *_multiFingerPan; // @synthesize _multiFingerPan;

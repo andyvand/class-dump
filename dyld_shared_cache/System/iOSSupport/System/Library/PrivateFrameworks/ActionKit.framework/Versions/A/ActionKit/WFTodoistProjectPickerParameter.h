@@ -26,8 +26,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void));
 
 // Remaining properties
 @property(nonatomic) __weak WFAccountAccessResource *accessResource; // @synthesize accessResource=_accessResource;

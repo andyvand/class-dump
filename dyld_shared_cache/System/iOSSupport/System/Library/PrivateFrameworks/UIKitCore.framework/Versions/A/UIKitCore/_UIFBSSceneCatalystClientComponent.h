@@ -19,22 +19,23 @@
 - (void);
 - (void);
 - (void);
-- (id)L;
-- (id)NSData"16@"NSString"24@"NSArray"32;
+- (id);
+- (id);
 - (long long);
 - (void);
 - (_Bool);
-- (void)Predicate"16@"NSDate"24q32@"NSString"40;
-- (id)2B56B60;
-- (void)lightCenter;
-- (void)at:(id)arg1;
-- (void)em:(id)arg1 itemFromCKRecord: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)dddd},N,V_eventTransform;
-- (void)finitions with the same identifier must have the same _isPrivate value.;
-- (void)0f;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)áÿ!ìDùÑXð1Â0@ù
+× ;
+- (void);
+- (void)H<\;
 
 // Remaining properties
 @property(retain, nonatomic) _UIScrollPocketAppearanceObserverInteraction *appearanceObserverInteraction; // @synthesize appearanceObserverInteraction=_appearanceObserverInteraction;

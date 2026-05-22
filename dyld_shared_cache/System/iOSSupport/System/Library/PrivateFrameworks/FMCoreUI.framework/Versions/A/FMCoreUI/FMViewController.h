@@ -25,17 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ObjectOfClass:(id)arg1 fromData:error: /* Error: Ran out of types for this method. */;
+- (void)ect:(_Bool)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *controllerNibName;

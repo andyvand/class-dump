@@ -17,16 +17,16 @@
 
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (struct os_state_data_s *);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (unsigned long long);
 - (CDUnknownBlockType);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType capture; // @synthesize capture=_capture;

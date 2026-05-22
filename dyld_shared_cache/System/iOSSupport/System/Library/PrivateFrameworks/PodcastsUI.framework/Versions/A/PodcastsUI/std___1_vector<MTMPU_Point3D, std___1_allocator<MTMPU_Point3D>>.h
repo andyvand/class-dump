@@ -4,6 +4,6 @@
 
 class std::__1::vector<MTMPU::Point3D, std::__1::allocator<MTMPU::Point3D>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
-    insert(std::__1::__wrap_iter<MTMPU::Point3D const*>, MTMPU::Point3D const&);
+    auto __throw_length_error[abi:nqe210106]();
+    auto insert(std::__1::__wrap_iter<MTMPU::Point3D const*>, MTMPU::Point3D const&);
 };

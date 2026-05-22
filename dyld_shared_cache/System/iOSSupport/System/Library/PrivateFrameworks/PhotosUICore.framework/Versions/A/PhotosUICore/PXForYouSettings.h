@@ -37,7 +37,7 @@
 }
 
 + (id);
-+ (id)©VP/49;
++ (id)X;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -90,9 +90,9 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (long long);
 - (void);
-- (id)ic}s;
 
 // Remaining properties
 @property(nonatomic) _Bool allowGIFPlayback; // @synthesize allowGIFPlayback=_allowGIFPlayback;

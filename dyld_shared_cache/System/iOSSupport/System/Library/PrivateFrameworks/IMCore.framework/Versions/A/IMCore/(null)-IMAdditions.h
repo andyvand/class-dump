@@ -6,10 +6,10 @@
 
 @interface (null) (IMAdditions)
 + (id);
-- (id)e;
-- (id)entationWidth;
-- (_Bool)tationHeight;
-- (id)usAudioSessionOptions;
-- (id)thActivityTypes: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 @end
 

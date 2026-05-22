@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id)_lastUsedInputMode;
-- (void);
+- (id);
+- (void)eController:(struct CGRect)arg1;
+- (void)psþÿÿÿÿ0;
 
 @end
 

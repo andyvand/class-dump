@@ -29,8 +29,8 @@
 + (double);
 + (id);
 + (_Bool);
-+ (_Bool);
 + (struct CGSize);
++ (_Bool);
 + (id);
 - (int);
 - (int);
@@ -49,8 +49,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)acOS;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

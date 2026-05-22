@@ -10,15 +10,15 @@
 {
 }
 
-- (_Bool)serviceAllowedTrafficClassifiersDidReset:(struct CGPoint)arg1;
-- (_Bool)_existingItemRequiresUpgrade:itemFromCKRecord: /* Error: Ran out of types for this method. */;
-- (_Bool)WithActivity:(struct CGPDFArray *)arg1;
-- (struct CGRect)NumbersEnabledForMultipleSubscriptionDevice;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (struct CGRect);
 - (unsigned long long);
-- (unsigned long long)_;
+- (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id)hnology: /* Error: Ran out of types for this method. */;
+- (id)4ºtº;
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)/Versions/A/AppleIDSSOAuthentication;
+- (id);
 - (id);
 - (_Bool);
 - (id);

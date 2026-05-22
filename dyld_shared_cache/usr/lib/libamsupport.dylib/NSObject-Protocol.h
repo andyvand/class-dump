@@ -7,11 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (id);
-- (id)	;
-- (Class);
-- (_Bool)edToReceive;
-- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

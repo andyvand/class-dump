@@ -4,7 +4,9 @@
 
 class lsl::Vector<lsl::UUID> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
-    resize(unsigned long long);
+    auto Vector<lsl::OrderedSet<lsl::UUID, std::__1::less<lsl::UUID>>::const_iterator>(lsl::OrderedSet<lsl::UUID, std::__1::less<lsl::UUID>>::const_iterator, lsl::OrderedSet<lsl::UUID, std::__1::less<lsl::UUID>>::const_iterator, lsl::Allocator&);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
+    auto resize(unsigned long long);
+    auto swap(lsl::Vector<lsl::UUID>&);
 };

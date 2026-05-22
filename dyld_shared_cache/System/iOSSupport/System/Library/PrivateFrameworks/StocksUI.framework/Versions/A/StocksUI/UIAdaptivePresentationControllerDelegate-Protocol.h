@@ -5,5 +5,9 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool)r New Window menu item;
+- (long long);
 @end
 

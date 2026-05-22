@@ -16,8 +16,8 @@
 + (id);
 + (id);
 + (id);
-+ (id)Dictionary: /* Error: Ran out of types for this method. */;
-+ (id);
++ (id);
++ (id);
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool);
++ (_Bool)_topLegibilityGradientHeight;
 @end
 

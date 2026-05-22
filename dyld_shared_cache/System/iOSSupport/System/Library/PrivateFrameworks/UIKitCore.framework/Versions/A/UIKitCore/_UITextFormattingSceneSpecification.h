@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)terMode: /* Error: Ran out of types for this method. */;
+- (id)_preferredTraitCollection;
 
 @end
 

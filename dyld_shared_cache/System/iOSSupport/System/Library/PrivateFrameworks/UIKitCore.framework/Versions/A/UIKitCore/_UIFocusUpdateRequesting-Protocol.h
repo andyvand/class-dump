@@ -7,31 +7,6 @@
 @class UIFocusSystem, _UIFocusInputDeviceInfo;
 
 @protocol _UIFocusUpdateRequesting
-- (_Bool)+nE1hlJxSQU0TutWjH2N2dUwCQYD
-VR0TBAIwADALBgNVHQ8EBAMCBeAwGgYJKoZIhvdjZAYQBA0MC3Blcm1pc3Npb25z
-MBcGCSqGSIb3Y2QGEQQKDAhjbGllbnRpZDANBgkqhkiG9w0BAQUFAAOCAQEAFjVa
-sSNfZOzLK10c16i06IRkqLx7xRo7ycnbSazwgNLxsGYNqzueBKI634nX4/MkFzgn
-sIz3rayMogDSgcZmrMe63JmvKJwOWYNFQDs2fTCFNyHBU3lQRL67dddJ8vKKUgPF
-4zLSbg80sYVkMAxpAjdIxDoXAGZX9ss8l4Z7QtbNHEUZoihXz5dWhjTUHfsNZsG4
-MxCIO9wniOpG5C/bUquZXq+Q75j4P4fC/KEfC70G/LVXzCTii+vEE6WTz8XhG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
-- (_Bool)fvKMBl5jKkmANEZYmHu7
-VFiy3/7S4ca064Lfq1lNefMc0OM9oxulXlAICBwiwxiJKoPOa3/fgdx61lzMnWRa
-U72XCh8jZdDBJDd5wFgPVGYJMFCbAlgKrEvLPT0Ih9TiWZO97YlnvTeO2PrJtztb
-c3coQKfq9fOkLL9CyUrMUY4q7IJGBI1z4pB+UBS/ZgJ3/cBNvdhW5is2JVx113hl
-IskfCQIDAQABo24wbDAdBgNVHQ4EFgQU0QoF+nE1hlJxSQU0TutWjH2N2dUwCQYD
-VR0TBAIwADALBgNVHQ8EBAMCBeAwGgYJKoZIhvdjZAYQBA0MC3Blcm1pc3Npb25z
-MBcGCSqGSIb3Y2QGEQQKDAhjbGllbnRpZDANBgkqhkiG9w0BAQUFAAOCAQEAFjVa
-sSNfZOzLK10c16i06IRkqLx7xRo7ycnbSazwgNLxsGYNqzueBKI634nX4/MkFzgn
-sIz3rayMogDSgcZmrMe63JmvKJwOWYNFQDs2fTCFNyHBU3lQRL67dddJ8vKKUgPF
-4zLSbg80sYVkMAxpAjdIxDoXAGZX9ss8l4Z7QtbNHEUZoihXz5dWhjTUHfsNZsG4
-MxCIO9wniOpG5C/bUquZXq+Q75j4P4fC/KEfC70G/LVXzCTii+vEE6WTz8XhG2Ek
-oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
-/Ry4bOUy5w0BVWlJEA==
------END CERTIFICATE-----;
-- (_UIFocusInputDeviceInfo *)ionAction:idsTrustedData:pipelineResources: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsDeferral;

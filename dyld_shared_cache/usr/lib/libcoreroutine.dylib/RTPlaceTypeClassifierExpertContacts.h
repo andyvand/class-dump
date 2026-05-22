@@ -23,18 +23,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)thHandler:(id)arg1;
-- (void)¨}¸;
-- (id)ializeSentinelZoneInterval;
+- (void);
+- (id);
+- (void)entTimeZoneAbbreviation, %@;
+- (id)te.;
+- (void)encyUnlabeledLearnedVisit, when trying to retrieve unlabeled firstVisit, got error %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;

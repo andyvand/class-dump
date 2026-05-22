@@ -4,6 +4,7 @@
 
 class bssl::Array<unsigned short> {
 public: // (access info unavailable from symbols alone)
-    InitUninitialized(unsigned long);
+    auto CopyFrom(bssl::Span<unsigned short const>);
+    auto InitUninitialized(unsigned long);
     ~Array();
 };

@@ -18,15 +18,15 @@
 + (_Bool);
 - (id);
 - (id);
-- (long long);
-- (_Bool)";
-- (id);
-- (void);
-- (id);
 - (id);
 - (long long);
-- (id)bèb;
-- (id)¢NfxC;
+- (long long);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)g;
+- (void)ChatBot Brand - %s from CT:%{bool}d, from chat cache:%{bool}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) id <IMChipActionProtocol> action; // @synthesize action;

@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id)ngBundleIdentifier;
-- (id);
 - (void);
-- (struct CGPoint)rag;
-- (void)üÿ;
+- (_Bool)an;
+- (id)llBeingTouched;
+- (id)ndView;
+- (struct CGPoint)ng enabled;
+- (void)¶Ï|­[;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

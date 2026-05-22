@@ -8,9 +8,6 @@
 @protocol FCEntitlementsOverrideProviderType;
 
 @protocol FCBundleSubscriptionManagerType
-- (void);
-- (void)s;
-- (id <FCEntitlementsOverrideProviderType>)enCanvasShowable>"40;
 
 // Remaining properties
 @property(readonly, nonatomic) FCBundleSubscription *cachedSubscription;

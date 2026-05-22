@@ -7,7 +7,7 @@
 @class NSDictionary;
 
 @protocol SXDarkModeConfiguration
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAutoDarkModeEnabled) _Bool autoDarkModeEnabled;

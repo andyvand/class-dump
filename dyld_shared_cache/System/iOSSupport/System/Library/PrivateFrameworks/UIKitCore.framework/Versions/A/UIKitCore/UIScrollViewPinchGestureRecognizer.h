@@ -17,19 +17,18 @@ __attribute__((visibility("hidden")))
     _Bool _nestedHysteresisEnabled;
 }
 
-- (void)ddSectionWithHeaderTitle:(id)arg1 sectionIndexTitleIndex:count: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)ùQÇ1¢!0@ù
+- (void)!CùQa1Â0@ù
 × ;
-- (void)
-× ;
-- (void)ent:(id)arg1;
-- (void)g=%@; layerConfigs={%@};
-- (_Bool);
-- (id) M;
-- (void)f;
-- (id)¯½g;
-- (void)<ÿ;
+- (void)6;
+- (id)us:(id)arg1;
+- (void)ties:(id)arg1;
+- (void)ollectionLayoutContainer",R,N;
+- (_Bool)bility contrast for slot:(long long)arg1 %ld;
+- (void)$s5UIKit31InProcessAnimationManagerDriverP;
+- (id)ü0R0&13X8;
+- (void)gÚdÁc;
+- (void);
+- (void)íÔ`´j;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

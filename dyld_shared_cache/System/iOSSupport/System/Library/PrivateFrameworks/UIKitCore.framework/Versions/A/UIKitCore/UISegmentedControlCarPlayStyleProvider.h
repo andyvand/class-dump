@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)h;
 - (struct UIEdgeInsets);
-- (double)ndimmedDetentIdentifierWhenEdgeAttachedInCompactHeight:(int)arg1;
-- (double)Ìð;
+- (_Bool)ancyStyle: /* Error: Ran out of types for this method. */;
+- (double)ource>",R,W,N,V_source;
+- (double)lu - %lu) (global item index %lu), but there are only %lu total items.;
 
 @end
 

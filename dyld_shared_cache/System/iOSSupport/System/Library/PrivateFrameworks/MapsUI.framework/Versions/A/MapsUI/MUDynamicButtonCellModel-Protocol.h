@@ -8,7 +8,9 @@
 @protocol MUDynamicButtonCellModelChangeDelegate;
 
 @protocol MUDynamicButtonCellModel
-- (_Bool)ypeRate;
+
+@optional
+- (UIMenu *);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock;

@@ -46,7 +46,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)inMapVisibility;
++ (_Bool)_invalidateTimeline;
 - (_Bool);
 - (id);
 - (void);
@@ -105,33 +105,33 @@
 - (void);
 - (void);
 - (id);
+- (long long);
+- (void);
+- (long long);
+- (id);
+- (void);
 - (id);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id)e;
-- (id)Àÿÿt>üÿÄüÿÄUüÿ;
-- (void)wModel;
-- (void);
-- (long long)no moment share to notify on upload completion;
-- (void)servableModel:(id)arg1 ];
-- (id);
-- (unsigned long long)á
-;
-- (void)²5;
-- (void)O Æ5;
+- (void)0@ù
+× ;
+- (void)nitWithAsset:(id)arg1 targetSize: /* Error: Ran out of types for this method. */;
+- (void)view:(id)arg1;
+- (void)groundFetching;
+- (id)owsMoveToSharedLibraryAction;
+- (id)be >= the preferred duration (%0.2fs);
+- (void)tLayout init];
+- (void)MusicPreparedToPlay;
+- (void)ns];
+- (void)¬ì;
+- (unsigned long long)¬æ1ÿÌæ1ÿÑ	É;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionButtonTitle; // @synthesize actionButtonTitle=_actionButtonTitle;

@@ -8,7 +8,7 @@
 
 @interface (null) (UIActivityItemsConfiguration)
 - (void);
-- (id)riteTransactionWithHandle:block: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <UIActivityItemsConfigurationReading> activityItemsConfiguration;

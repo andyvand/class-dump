@@ -13,22 +13,21 @@
     _UIRotationGestureRecognizerDriver *_driver;
 }
 
-+ (_Bool)onMap";
-+ (_Bool);
-+ (_Bool);;
++ (_Bool);
++ (_Bool);
++ (_Bool)yScreenBasedWindowLookup;
 - (void);
-- (void);
-- (void)!àAùqÀ1¢!0@ù
-× ;
-- (struct CGPoint)iewWithRegistration:forIndexPath:or -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath:. Collection view:%@; element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
-- (double)e;
-- (_Bool);
-- (double)LAÈÿEtÐ;
-- (void);
-- (struct CGPoint);
-- (double)ºRg;
-- (double)þvcÏ*i;
-- (id)'j;
+- (double);
+- (double)nizer"24@"UIView"32;
+- (struct CGPoint)ingViewsUnnecessary;
+- (double)uAvoidanceSceneComponent;
+- (void)ø;
+- (_Bool)%@;
+- (id)UISceneLifecycle(FBSDisplayIdentity *__strong, BOOL);
+- (struct CGPoint)verticalFittingPriority:which is not allowed. If you have implemented a custom content view, you need to add constraints inside it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:%@ /* Error: Ran out of types for this method. */;
+- (double);
+- (void)Ð4jþ;
+- (void)e!ÿ;
 
 // Remaining properties
 @property(nonatomic) double rotation;

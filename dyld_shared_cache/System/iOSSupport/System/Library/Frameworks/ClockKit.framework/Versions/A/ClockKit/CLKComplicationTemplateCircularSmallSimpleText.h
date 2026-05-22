@@ -23,8 +23,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long maxDynamicFontSize; // @synthesize maxDynamicFontSize=_maxDynamicFontSize;

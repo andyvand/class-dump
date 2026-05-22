@@ -22,17 +22,19 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (double)øûÿf|;
+- (void)Á¨!ä@ùññ°1â
+0@ù
+× ;
+- (_Bool)ithView: /* Error: Ran out of types for this method. */;
+- (double)ûÿH;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets backgroundInsets; // @synthesize backgroundInsets=_backgroundInsets;

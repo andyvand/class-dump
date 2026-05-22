@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome;
-
 @protocol HMHomeDelegate
 
 @optional
-- (void)error:(HMHome *)arg1 %@;
-- (void);
+- (void)adFuture;
+- (void)ld) sections;
 @end
 

@@ -13,8 +13,10 @@
 
 - (unsigned long long);
 - (id);
-- (unsigned long long)rlayHostViewController;
-- (struct CGRect);
+- (struct CGRect);
+- (unsigned long long)Qò°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;

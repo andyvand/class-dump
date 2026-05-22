@@ -4,10 +4,10 @@
 
 class dyld4::Atlas::Mapper {
 public: // (access info unavailable from symbols alone)
-    map(dyld4::Atlas::SafePointer, unsigned long long) const;
-    map(dyld4::Atlas::SafePointer, unsigned long long) const (.cold.1);
-    mapperForMachO(lsl::Allocator&, dyld4::FileRecord&, lsl::UUID const&, dyld4::Atlas::SafePointer);
-    unmap(dyld4::Atlas::SafePointer, unsigned long long) const;
+    auto map(dyld4::Atlas::SafePointer, unsigned long long) const;
+    auto map(dyld4::Atlas::SafePointer, unsigned long long) const (.cold.1);
+    auto mapperForMachO(lsl::Allocator&, dyld4::FileRecord&, lsl::UUID const&, dyld4::Atlas::SafePointer);
+    auto unmap(dyld4::Atlas::SafePointer, unsigned long long) const;
     ~Mapper();
     ~Mapper() (.cold.1);
 };

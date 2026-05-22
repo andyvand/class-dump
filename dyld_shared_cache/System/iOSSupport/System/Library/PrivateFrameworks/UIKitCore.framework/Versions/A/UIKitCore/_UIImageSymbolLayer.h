@@ -17,25 +17,23 @@
 
 + (id);
 + (id);
-+ (id)´@ùñÄ°1¢!0@ù
-× ;
-+ (id)toreUsingBecomeFirstResponder:(id)arg1;
-+ (id)h;
-- (double);
-- (void);
-- (_Bool);
++ (id);
++ (id):(id)arg1;
++ (id)TSÛxÊd;
 - (id);
-- (id)0@ù
+- (id)
 × ;
-- (id)ecognizer;
-- (void)H	I
-JK;
-- (struct CGPoint)e:phase:timestamp:contextID: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)sibilityCarPlayBoldTextStatusDidChangeNotification;
-- (void)SuggestionContainerView;
-- (void)ÿ;
-- (void)AØ6Wa;
+- (_Bool)DisablesOccludedBackdropBlurs: /* Error: Ran out of types for this method. */;
+- (void)etDimmingView:(id)arg1;
+- (void)windowScene:(id)arg1 %p; scene identity:%@ /* Error: Ran out of types for this method. */;
+- (double)Üÿÿÿ8Dêÿ Ãþþÿ¬Öìÿ;
+- (void)kit.protocol-creation-queue;
+- (void)fluid slider methods on non-fluid slider.;
+- (id)AChannelMissingKeyboard;
+- (void)ntGestureRecognizer;
+- (id)tricsC;
+- (void)Z[;
+- (struct CGPoint)Ü^;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageAsset *asset; // @synthesize asset=_asset;

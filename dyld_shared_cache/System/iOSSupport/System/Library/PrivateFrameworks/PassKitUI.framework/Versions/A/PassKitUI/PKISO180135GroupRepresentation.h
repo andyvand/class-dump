@@ -15,11 +15,11 @@
 
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)øh;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *analyticsTag; // @synthesize analyticsTag=_analyticsTag;

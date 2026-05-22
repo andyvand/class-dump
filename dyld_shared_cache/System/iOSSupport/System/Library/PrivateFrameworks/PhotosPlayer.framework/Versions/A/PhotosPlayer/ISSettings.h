@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)onLayer;
++ (id);
 - (void);
 
 @end

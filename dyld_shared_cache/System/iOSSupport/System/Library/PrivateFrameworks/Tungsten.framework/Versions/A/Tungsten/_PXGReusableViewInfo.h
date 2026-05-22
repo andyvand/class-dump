@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
     struct CGPoint _anchorPoint;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

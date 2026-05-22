@@ -19,7 +19,7 @@
 - (Class);
 - (void);
 - (id);
-- (void);
+- (void)lityEventCellIdentifier;
 
 @end
 

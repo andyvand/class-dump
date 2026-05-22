@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_adjustedPlaylistPropertySeedItemsOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelSong *song; // @synthesize song=_song;

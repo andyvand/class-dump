@@ -15,11 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)Message:(struct CGPoint)arg1 %@;
-- (void)0@ù
-× ;
-- (id)roller.;
-- (void)Hÿ;
+- (void);
+- (void);
+- (id)ortFormatter;
+- (void);
 
 @end
 

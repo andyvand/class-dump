@@ -17,20 +17,19 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (double);
-- (void)omAccount: /* Error: Ran out of types for this method. */;
-- (id)Sending:toChat:style:allowWatchdog:account:completionBlock: /* Error: Ran out of types for this method. */;
-- (struct CGRect)hBlastDoorTextMessage:(id)arg1;
-- (id);
-- (struct CGRect)exes required after initial indexing. Success:(id)arg1 %@;
 - (void);
 - (id);
+- (struct CGRect);
+- (id);
+- (struct CGRect);
 - (void);
-- (id)alogsWithMaximumCount: /* Error: Ran out of types for this method. */;
+- (id);
+- (struct CGSize);
 - (void);
-- (id)0@ù
-× ;
-- (struct CGSize);
+- (id);
 - (long long);
+- (void)Íÿ^;
+- (id)]æþ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;

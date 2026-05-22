@@ -57,19 +57,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (struct __DDScanQuery *);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)t;
+- (void);
+- (void)16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}32@40;
 
 // Remaining properties
 @property(retain, nonatomic) id container; // @synthesize container=_container;

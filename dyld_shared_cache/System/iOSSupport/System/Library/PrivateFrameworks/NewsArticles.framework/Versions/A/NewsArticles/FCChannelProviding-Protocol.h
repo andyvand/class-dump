@@ -7,9 +7,7 @@
 @class NSArray, NSString;
 
 @protocol FCChannelProviding
-- (NSString *)ble: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (NSArray *);
+- (NSString *)pÿÿbýÿ\óýÿÑýÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *backIssuesListID;

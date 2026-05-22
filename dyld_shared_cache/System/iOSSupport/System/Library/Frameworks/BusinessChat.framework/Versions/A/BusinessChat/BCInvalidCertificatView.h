@@ -22,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);

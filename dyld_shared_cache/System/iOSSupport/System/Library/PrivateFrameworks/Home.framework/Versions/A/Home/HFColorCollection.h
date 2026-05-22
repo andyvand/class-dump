@@ -21,11 +21,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)è;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HFRGBColor *RGBColor; // @synthesize RGBColor=_RGBColor;

@@ -56,8 +56,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)È;
+- (void)!Fùñ°1â
+0@ù
+× ;
+- (void)Future"16@?0@"UINavigationController"8;
 
 // Remaining properties
 @property(retain, nonatomic) HUCameraActivityZoneCanvasView *activityZoneCanvas; // @synthesize activityZoneCanvas=_activityZoneCanvas;

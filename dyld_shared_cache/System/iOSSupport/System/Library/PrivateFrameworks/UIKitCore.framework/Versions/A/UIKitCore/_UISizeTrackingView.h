@@ -29,43 +29,44 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)ttributes: /* Error: Ran out of types for this method. */;
-- (void)d AP Ticket;
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)etTag:(id)arg1;
-- (void)nnection;
+- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (struct CGSize)ass_Impl";
-- (void)nsfersWithCKRecord:recordWasFetched:downloadAsset: /* Error: Ran out of types for this method. */;
-- (long long)FailedMessageDateChanged:(id)arg1;
-- (_Bool)nversationsChangedForConversationManager: /* Error: Ran out of types for this method. */;
-- (void)dSize: /* Error: Ran out of types for this method. */;
-- (_Bool),V_capability;
-- (struct CGRect)ictionary: /* Error: Ran out of types for this method. */;
-- (id)g",&,N,V_countryCode;
-- (_Bool);
+- (struct CGSize);
+- (void);
+- (long long);
+- (_Bool);
+- (void);
+- (_Bool);
+- (struct CGRect);
 - (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id)nerateListSectionDataForLayoutAttributes:interactionState: /* Error: Ran out of types for this method. */;
-- (void)ionalSidebarInsets;
-- (void)condaryButtonPadding;
-- (void)eloads;
-- (id);
-- (void)Class(void)_block_invoke;
-- (_Bool)oteTouchSurfaceTypeDidChangeNotification;
-- (struct CGSize)³[;
 - (void);
+- (void);
+- (id)1Â0@ù
+× ;
+- (void);
+- (id)veLayerTargetsToInclude;
+- (void)N,S_setOwningAppearance:(struct CGRect)arg1 ,V_owningAppearance;
+- (struct CGSize)L;
+- (_Bool)¼NôO0P;
+- (void)óR>;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

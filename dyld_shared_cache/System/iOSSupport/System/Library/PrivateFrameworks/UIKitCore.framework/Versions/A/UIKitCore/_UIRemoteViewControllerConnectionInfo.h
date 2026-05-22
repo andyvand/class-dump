@@ -39,18 +39,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (int);
 - (void);
-- (id);
-- (void);
-- (long long)"<UIInteractionEffect>";
-- (id)placer;
-- (void);
-- (void)ectRuleMajorDimensionThreshold;
-- (id)+ÿ;
+- (id);
+- (id);
+- (void)á	ð!¼FùQfÐ1Â0@ù
+× ;
+- (id)W;
+- (void)3-Âþ¢13-Âþ}¢13-Âþ;
+- (void);
+- (long long)_;
 
 // Remaining properties
 @property(retain) _UIHostedWindowHostingHandle *hostedWindowHostingHandle; // @synthesize hostedWindowHostingHandle=_hostedWindowHostingHandle;

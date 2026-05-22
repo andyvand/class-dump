@@ -24,15 +24,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
 - (struct CGRect);
 - (void);
-- (struct CGRect);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)*ÿÿ;
+- (void);
+- (struct CGRect);
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;
@@ -151,6 +151,10 @@ __attribute__((visibility("hidden")))
 
 @property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
 @property(nonatomic) _Bool typingAllowsMultipleLines; // @synthesize typingAllowsMultipleLines=_typingAllowsMultipleLines;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
 @property long long writingToolsBehavior;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?

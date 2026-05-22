@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (int)ComponentInteractionHandlerFactory;
+- (int);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

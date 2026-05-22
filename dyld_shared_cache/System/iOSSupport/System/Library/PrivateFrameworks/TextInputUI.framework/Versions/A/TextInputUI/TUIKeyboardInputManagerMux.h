@@ -18,39 +18,39 @@
 }
 
 + (_Bool);
-+ (id)tor;
-- (_Bool);
-- (id);
-- (void);
++ (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void)ickerPickerService;
-- (id)h;
-- (void)nMicButtonPressed;
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)teInForwardDirection:(id)arg1 granularity:inGridType: /* Error: Ran out of types for this method. */;
+- (void)ingPoint: /* Error: Ran out of types for this method. */;
+- (void)tInputContextHistory.threadIdentifier="%{private}@";
 
 // Remaining properties
 @property(nonatomic) __weak id <TUICandidateInterceptor> candidateMultiplexer; // @synthesize candidateMultiplexer=_candidateMultiplexer;

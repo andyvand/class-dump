@@ -14,8 +14,8 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void)atial_denoise;
 
 @end
 

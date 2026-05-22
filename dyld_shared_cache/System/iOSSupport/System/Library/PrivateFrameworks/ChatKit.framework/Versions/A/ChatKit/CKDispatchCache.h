@@ -17,17 +17,17 @@
     long long _dispatchPriority;
 }
 
-- (_Bool)meOffset:(id)arg1;
-- (void);
+- (_Bool);
 - (void);
 - (void);
-- (id)m;
-- (_Bool)) to attributed string (length=%ld);
-- (id)@?32;
-- (void)erRecordUpdate:(CDUnknownBlockType)arg1 %@>;
-- (void)ssword:(CDUnknownBlockType)arg1 %@, hasDivergedKey:(long long)arg2 %@, needsUserRecordUpdate:%@> /* Error: Ran out of types for this method. */;
-- (void)ared note?;
-- (long long)lectionAffinity:] /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -39,15 +39,17 @@
 - (void);
 - (id);
 - (void);
-- (void)N;
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (void)toNames:firstPerson:primaryRecipients:secondaryRecipients:info: /* Error: Ran out of types for this method. */;
-- (id)rEditingViewController",&,N,V_editor;
-- (void)IndicatorCell;
+- (void)°1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)tMenuBuilder";
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long dispatchPriority; // @synthesize dispatchPriority=_dispatchPriority;

@@ -42,9 +42,9 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id)ParentGridLayout: /* Error: Ran out of types for this method. */;
-- (void)ting:(id)arg1;
+- (void)Changed_MissingVoiceProfile;
 
 // Remaining properties
 @property(retain, nonatomic) HFItemBuilder<HFServiceLikeBuilder> *activelyEditingNameServiceBuilder; // @synthesize activelyEditingNameServiceBuilder=_activelyEditingNameServiceBuilder;

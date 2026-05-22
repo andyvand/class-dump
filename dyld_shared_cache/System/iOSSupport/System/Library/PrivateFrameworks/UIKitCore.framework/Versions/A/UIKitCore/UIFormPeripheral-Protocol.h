@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @protocol UIFormPeripheral
-- (void)t;
-- (void)ected element kind. Collection view:%@; requested element kind:%@; supplementary view element kind:%@; index path:%@; supplementary view:%@ This is a hard assert for other clients and requires immediate attention. /* Error: Ran out of types for this method. */;
-- (UIView *)xcludeFromHitTesting;
 @end
 

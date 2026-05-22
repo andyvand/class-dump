@@ -27,13 +27,13 @@ __attribute__((visibility("hidden")))
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (void);
-- (MISSING_TYPE *);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
 - (double);
+- (id);
+- (id);
+- (void);
+- (MISSING_TYPE *);
+- (_Bool);
+- (void);
 - (void);
 
 // Remaining properties

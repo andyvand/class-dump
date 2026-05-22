@@ -24,20 +24,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ration;
 - (void);
-- (void)SXDocumentMetadataProviding>",R,N,V_documentMetadataProvider;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)Condition"16@0:8 /* Error: Ran out of types for this method. */;
+- (void),R,N,V_aboveRepsHost;
+- (id)ayers;
+- (id)mponentStyleFactory;
 
 // Remaining properties
 @property(retain, nonatomic) UITargetedPreview *activePreview; // @synthesize activePreview=_activePreview;

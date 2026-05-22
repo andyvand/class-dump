@@ -12,10 +12,10 @@
 }
 
 + (Class);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CAShapeLayer *shapeLayer;

@@ -23,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
-- (id)quest with control extension %@ started with identifier %@;
 - (id);
+- (id);
+- (id);
+- (void)client, %@, has a reason outlive client connection;
 
 // Remaining properties
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;

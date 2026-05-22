@@ -22,13 +22,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (int);
 - (struct CGSize);
-- (void);
 - (double);
 - (void);
 - (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

@@ -13,9 +13,9 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *logLabel; // @synthesize logLabel=_logLabel;

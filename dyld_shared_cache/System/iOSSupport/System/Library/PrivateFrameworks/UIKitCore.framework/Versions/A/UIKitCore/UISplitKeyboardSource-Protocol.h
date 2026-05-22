@@ -8,21 +8,21 @@
 @protocol UIInputViewSetPlacementApplicator;
 
 @protocol UISplitKeyboardSource
-- (void)1¢!0@ù
-× ;
-- (void)sitionWithIAV;
-- (UIView *)d;
-- (_Bool)GPoint);
-- (_Bool)apple.focus._UIFocusGestureTap;
-- (id <UIInputViewSetPlacementApplicator>)ation for <%s> object.;
-- (UIInputViewSetNotificationInfo *)troller;
-- (double)nation=%@;
-- (struct CGPoint)ertValidFittingSize(UIView * _Nonnull __strong, CGSize, UILayoutPriority, UILayoutPriority);
-- (UIInputViewSetPlacement *)g proofreading replacements;
-- (UIView *)1BBB264E5918BackButtonMaskView;
-- (UIViewController *)ï?Âõ(\â?¹ëQ¸Î?Ý?Ý?¹ëQ¸¾?¿¾¾¾¾¾î?ï?Ú?Á?]]]]]]Ý?ëQ¸Û?Âõ(\ê?[[[[[[Û?666666æ?´³³³³³ã?;
-- (void)Egÿ3¼ß²þEgÿ3ü°±þ;
-- (void);
+- (UIView *)ionIfURLsDetected: /* Error: Ran out of types for this method. */;
+- (id <UIInputViewSetPlacementApplicator>)ttonBarKeyboardCopy.png;
+- (void)IKBColorWhite_Alpha12;
+- (UIView *)tion containing UIUserInterfaceIdiomUnspecified.;
+- (UIView *)runcating array:%@ /* Error: Ran out of types for this method. */;
+- (UIViewController *)tributesFittingAttributes:in view %@. Original attributes:%@. Collection view:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)d_autotracksTextToFit;
+- (void)Puþÿ;
+- (void)7Sg;
+- (UIInputViewSetNotificationInfo *)ath:(unsigned long long)arg1 /System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/HIToolbox;
+- (_Bool)ZqþMä13YqþMä13@Zqþmä13´Yqþä13[qþä13[qþíã13|Yqþ=ä13ÐYqþÍã13ÌYqþÍã13¼Yqþä13ZqþMä13ÔZqþä13Zqþ;
+- (_Bool);
+- (UIInputViewSetPlacement *)xnþ13|$¦þ13¬$¦þm13¨$¦þ;
+- (void)dii;
+- (double)øåsþ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *_inputViewController;

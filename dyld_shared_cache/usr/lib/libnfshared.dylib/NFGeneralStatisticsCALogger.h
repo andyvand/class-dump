@@ -14,11 +14,12 @@
 + (void);
 + (void);
 + (void);
++ (long long);
 + (void);
-+ (void)ckgroundColor;
 + (void);
 + (void);
-+ (void);
++ (void);
++ (void);
 
 @end
 

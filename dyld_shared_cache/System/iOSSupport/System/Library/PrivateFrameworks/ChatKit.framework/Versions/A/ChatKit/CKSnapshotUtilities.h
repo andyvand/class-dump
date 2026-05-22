@@ -8,14 +8,14 @@
 {
 }
 
-+ (id)t;
-+ (_Bool)a;
++ (id);
++ (_Bool);
 + (_Bool);
 + (void);
-+ (void)8;
 + (void);
 + (void);
-+ (id)#;
++ (void);
++ (id);
 + (_Bool);
 + (_Bool);
 + (long long);

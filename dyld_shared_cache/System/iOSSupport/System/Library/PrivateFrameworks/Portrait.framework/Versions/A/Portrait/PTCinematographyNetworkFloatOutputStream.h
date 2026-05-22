@@ -19,8 +19,8 @@
 - (unsigned long long);
 - (float *);
 - (unsigned long long);
-- (void);
 - (unsigned long long);
+- (void)t_fireworks_graph_394;
 
 // Remaining properties
 @property(readonly) unsigned long long count; // @synthesize count=_count;

@@ -5,8 +5,5 @@
 //
 
 @protocol ENTTransport
-- (void)Ñµ
-Ð1b0@ù
-× ;
 @end
 

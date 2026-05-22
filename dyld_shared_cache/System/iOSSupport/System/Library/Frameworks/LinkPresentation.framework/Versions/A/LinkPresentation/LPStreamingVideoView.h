@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)R(;
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -34,16 +34,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)Py!4k!-;
-- (void)BottomTranscriptSpace;
 - (void);
 - (void);
-- (void)lper;
+- (void);
+- (void);
+- (void);
 - (double);
-- (void)!=;
-- (void);
 - (void);
 - (_Bool);
+- (void)!hBùQ°1Â0@ù
+× ;
+- (void)@"NSDictionary"16;
 
 // Remaining properties
 @property(readonly, nonatomic) LPVideo *media; // @dynamic media;

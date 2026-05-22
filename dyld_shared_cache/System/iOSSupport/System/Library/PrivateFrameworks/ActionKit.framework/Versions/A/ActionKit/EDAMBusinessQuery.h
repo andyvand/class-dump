@@ -24,9 +24,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void)¼£;
+- (void)tion;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMNoteFilter *filter; // @synthesize filter=_filter;

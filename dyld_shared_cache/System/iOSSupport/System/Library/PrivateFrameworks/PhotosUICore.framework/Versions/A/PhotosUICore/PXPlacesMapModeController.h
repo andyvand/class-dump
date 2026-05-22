@@ -22,9 +22,9 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
-- (id)-scrollView;
+- (void)nadeCollectionCustomizationViewSpec;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool is3DPerspectiveActive;

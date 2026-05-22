@@ -7,6 +7,7 @@
 @protocol UICoordinateSpace;
 
 @protocol _UIFocusMapArea
+- (struct CGRect)?<v@?@"<_UIRemoteKeyboardDistributedViewSource>">16;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <UICoordinateSpace> coordinateSpace;

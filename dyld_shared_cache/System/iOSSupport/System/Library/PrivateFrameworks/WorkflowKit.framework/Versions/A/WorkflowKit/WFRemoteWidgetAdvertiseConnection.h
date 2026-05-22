@@ -24,22 +24,21 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (long long);
-- (_Bool);
-- (id)0@ù
-× ;
-- (void)!;
-- (void)4;
-- (id)tension proxy %@;
-- (void)¯ÿ]åãÜ¦ÿ;
+- (void);
+- (void);
+- (id);
+- (void)ÈqÿC;
+- (_Bool)tate initWithValue:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)Coding><NSObject>"16^@24^@32;
+- (id)to the Editorial workflow.;
+- (void)0x2160 (WFMediaSize);
 
 // Remaining properties
 @property(nonatomic) long long connectionType; // @synthesize connectionType=_connectionType;

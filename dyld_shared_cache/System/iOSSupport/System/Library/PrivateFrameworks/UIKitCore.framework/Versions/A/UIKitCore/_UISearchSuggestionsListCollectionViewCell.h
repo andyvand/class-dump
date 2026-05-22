@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (id)ateRestingTouchRecoveryTimerIfNecessary;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UISearchSuggestion_dci> representedSuggestion; // @synthesize representedSuggestion=_representedSuggestion;

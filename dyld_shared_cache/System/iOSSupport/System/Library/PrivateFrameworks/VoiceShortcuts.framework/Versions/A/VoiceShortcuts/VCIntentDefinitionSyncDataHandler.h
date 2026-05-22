@@ -6,11 +6,8 @@
 
 #import <VoiceShortcuts/VCSyncDataHandler.h>
 
-@class SwiftVCDaemonXPCEventHandler;
-
 @interface VCIntentDefinitionSyncDataHandler : VCSyncDataHandler
 {
-    SwiftVCDaemonXPCEventHandler *_eventHandler;
 }
 
 + (int);
@@ -19,14 +16,6 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-
-// Remaining properties
-@property(readonly, nonatomic) SwiftVCDaemonXPCEventHandler *eventHandler; // @synthesize eventHandler=_eventHandler;
 
 @end
 

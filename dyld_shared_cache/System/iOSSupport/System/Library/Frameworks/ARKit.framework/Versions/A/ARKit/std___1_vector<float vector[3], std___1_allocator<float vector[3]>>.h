@@ -4,12 +4,12 @@
 
 class std::__1::vector<float vector[3], std::__1::allocator<float vector[3]>> {
 public: // (access info unavailable from symbols alone)
-    __assign_with_size[abi:ne200100]<float vector[3]*, float vector[3]*>(float vector[3]*, float vector[3]*, long);
-    __init_with_size[abi:ne200100]<float vector[3] const*, float vector[3] const*>(float vector[3] const*, float vector[3] const*, unsigned long);
-    __init_with_size[abi:ne200100]<float vector[3]*, float vector[3]*>(float vector[3]*, float vector[3]*, unsigned long);
-    __move_assign(std::__1::vector<float vector[3], std::__1::allocator<float vector[3]>>&, std::__1::integral_constant<bool, true>);
-    __throw_length_error[abi:ne200100]();
-    __vallocate[abi:ne200100](unsigned long);
-    reserve(unsigned long);
-    vector[abi:ne200100](unsigned long);
+    auto __move_assign(std::__1::vector<float vector[3], std::__1::allocator<float vector[3]>>&, std::__1::integral_constant<bool, true>);
+    auto __throw_length_error[abi:nqe210106]();
+    auto __vallocate[abi:nqe210106](unsigned long);
+    auto reserve(unsigned long);
+    auto vector[abi:nqe210106](unsigned long);
+    void __assign_with_size[abi:nqe210106]<float vector[3]*, float vector[3]*>(float vector[3]*, float vector[3]*, long);
+    void __init_with_size[abi:nqe210106]<float vector[3] const*, float vector[3] const*>(float vector[3] const*, float vector[3] const*, unsigned long);
+    void __init_with_size[abi:nqe210106]<float vector[3]*, float vector[3]*>(float vector[3]*, float vector[3]*, unsigned long);
 };

@@ -5,14 +5,13 @@
 //
 
 @protocol _UICellConfigurationStateReadonly
-- (_Bool);
-- (long long)nf identifier=%{public}@ person=%{public}@;
-- (_Bool)om.apple.mediaplayer.MPAbstractNetworkArtworkDataSource.callbackQueue;
-- (_Bool);
-- (_Bool)0@ù
+- (_Bool)
 × ;
-- (long long)@"UIImageSymbolConfiguration"32@0:8@"UITraitCollection"16q24 /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (_Bool)ontSizeToFitWidth"b1"hasCustomizedMinimumScaleFactor"b1"hasCustomizedAllowsDefaultTighteningForTruncation"b1"hasCustomizedAdjustsFontForContentSizeCategory"b1};
+- (long long)lowsWritingDirection"b1"textAlignmentMirrored"b1"usesSimpleTextEffects"b1"overallWritingDirectionFollowsLayoutDirection"b1"hyphenationFactorIgnoredIfURLsDetected"b1"supportMultilineShrinkToFit"b1"baselineAdjustment"b2"hasCustomized_autotracksTextToFit"b1"hasCustomized_shouldDrawUnderlinesLikeWebKit"b1"hasCustomized_textAlignmentFollowsWritingDirection"b1"hasCustomized_textAlignmentMirrored"b1"hasCustomized_usesSimpleTextEffects"b1"hasCustomized_cuiCatalog"b1"hasCustomized_cuiStyleEffectConfiguration"b1"hasCustomized_lineSpacing"b1"hasCustomized_hyphenationFactorIgnoredIfURLsDetected"b1"hasCustomized_baselineAdjustment"b1"hasCustomized_overallWritingDirectionFollowsLayoutDirection"b1"hasCustomized_supportMultilineShrinkToFit"b1"hasCustomized_disabledTextColor"b1};
+- (long long)rentTraitEnvironment: /* Error: Ran out of types for this method. */;
+- (_Bool)tureRecognizerChanged: /* Error: Ran out of types for this method. */;
+- (_Bool));
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _inMultiSelectGroup;

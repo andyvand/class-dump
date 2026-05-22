@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuInteraction;
+@class UIContextMenuInteraction, UITargetedPreview;
 
 @protocol UIContextMenuInteractionDelegate
 
 @optional
-- (void)ameComponents:(UIContextMenuInteraction *)arg1;
+- (UITargetedPreview *);
+- (UITargetedPreview *)SLDServiceMultiplexDelegate;
+- (void)ÿÿÿÿ`;
+- (UITargetedPreview *)rticipants failed:(UIContextMenuInteraction *)arg1 %@;
 @end
 

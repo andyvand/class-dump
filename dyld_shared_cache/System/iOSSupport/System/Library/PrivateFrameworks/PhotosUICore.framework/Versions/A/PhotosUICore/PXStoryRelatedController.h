@@ -49,21 +49,21 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void)èâ;
-- (void);
-- (id);
-- (id)idgetRefreshTimeInterval;
-- (void)x;
-- (id)¨èøÜ;
-- (void),¦;
-- (void);
-- (id)Ì4;
+- (id)Úüÿàüÿ¼Oüÿ;
+- (void)ç¿å;
+- (id)monotonic;
+- (void)aUtilitiesCameraDevice.m;
+- (void)initWithObservableModel:(id)arg1 ];
+- (void);
+- (void)3;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canStartProducingRelated; // @synthesize canStartProducingRelated=_canStartProducingRelated;

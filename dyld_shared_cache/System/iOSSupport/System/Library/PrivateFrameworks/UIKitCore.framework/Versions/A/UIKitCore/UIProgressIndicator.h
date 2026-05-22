@@ -10,13 +10,15 @@
 {
 }
 
-+ (struct CGSize)lipsGlyphPathFrame:shouldContinueSuperviewTraversal: /* Error: Ran out of types for this method. */;
-- (void):(int)arg1;
-- (int)SIMID: /* Error: Ran out of types for this method. */;
++ (struct CGSize)Á	!tCùf1Â0@ù
+× ;
 - (void);
-- (void);
-- (void)re were no duplicate actions. This is a UIKit internal bug.;
-- (void)üÿlÓd;
+- (int);
+- (void);
+- (void)0@ù
+× ;
+- (void)Ayi.3ys×.36Ð.3G¨.3GÂ.3Gä§.3G;
+- (void)6ÿ:ËRh /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int progressIndicatorStyle;

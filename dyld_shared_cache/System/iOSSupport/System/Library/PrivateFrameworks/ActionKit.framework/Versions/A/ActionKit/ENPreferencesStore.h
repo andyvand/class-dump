@@ -20,16 +20,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
+- (void)heme:userInterface:bundleIdentifier:successHandler:failureHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)eApplicationDataEntryWithGuid:key:completion: /* Error: Ran out of types for this method. */;
-- (void)J;
+- (void)wn;
+- (void)@å;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *pathname; // @synthesize pathname=_pathname;

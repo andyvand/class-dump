@@ -14,28 +14,28 @@
 
 + (Class);
 + (Class);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (unsigned long long);
 - (void);
-- (id);
-- (void)erDidDiscoverDevice;
+- (void)*;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *devices; // @synthesize devices=_devices;

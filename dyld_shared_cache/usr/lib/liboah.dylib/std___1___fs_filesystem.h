@@ -4,5 +4,5 @@
 
 class std::__1::__fs::filesystem {
 public: // (access info unavailable from symbols alone)
-    __status(std::__1::__fs::filesystem::path const&, std::__1::error_code*);
+    auto __status(std::__1::__fs::filesystem::path const&, std::__1::error_code*);
 };

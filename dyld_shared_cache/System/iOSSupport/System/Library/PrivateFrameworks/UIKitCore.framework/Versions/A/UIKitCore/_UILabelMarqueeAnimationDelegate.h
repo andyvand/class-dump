@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
+- (id);
+- (id)ic}s;
+- (void)E¶ë?];
 - (void);
-- (id);
-- (void)tPoint:(id)arg1 toPoint: /* Error: Ran out of types for this method. */;
-- (void)øU0Zh`8aLg<kk;
-- (void)-0-0-L;
-- (id);
+- (void)@µµÿ;
+- (void)Ø\þ?è`;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,9 +13,9 @@
     MISSING_TYPE *startedCallback;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)×;
 
 @end
 

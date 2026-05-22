@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ystem library: /* Error: Ran out of types for this method. */;
 
 @end
 

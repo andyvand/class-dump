@@ -15,6 +15,7 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (long long);
 - (id);
 - (_Bool);
@@ -24,10 +25,11 @@
 - (id);
 - (long long);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSURL *OAuthURL;
@@ -39,7 +41,9 @@
 @property(nonatomic, readonly) NSString *name;
 @property(nonatomic, readonly) _TtC19HomeUtilityServices19UtilityOrganization *organizationInformation;
 @property(nonatomic, readonly) long long refreshTokenValidity;
+@property(nonatomic, readonly) NSString *registerPublicKeyEndpoint;
 @property(nonatomic, readonly) NSString *shortName;
+@property(nonatomic, readonly) _Bool supportsEncryption;
 @property(nonatomic, readonly) NSArray *tafFields;
 @property(nonatomic, readonly) NSArray *tafSections;
 @property(nonatomic, readonly) NSString *termsAndAgreement;

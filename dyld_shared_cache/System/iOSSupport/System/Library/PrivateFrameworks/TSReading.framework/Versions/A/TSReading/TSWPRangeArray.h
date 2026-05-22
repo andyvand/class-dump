@@ -11,20 +11,20 @@
 
 - (struct _NSRange *);
 - (id);
-- (void);
-- (void);
-- (unsigned long long)c;
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id)ring %{public}@;
-- (void);
-- (struct _NSRange);
-- (_Bool);
 - (unsigned long long);
-- (unsigned long long)annotationAuthorStorage;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (struct _NSRange);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long finish;

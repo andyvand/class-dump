@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ry"32@0:(id)arg1 8q16^@24;
-- (void)tyle:(id)arg1 services:reply: /* Error: Ran out of types for this method. */;
-- (void)and:(id)arg1 senderContext:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
 
 @end
 

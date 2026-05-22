@@ -13,10 +13,10 @@
     MISSING_TYPE *associationKind;
 }
 
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);

@@ -18,7 +18,7 @@
     unsigned long long _totalFetchedObjectsCount;
 }
 
-+ (id)ventTriggerBuilderInternal;
++ (id)CD2B760D11DA;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -34,10 +34,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)tionStatus;
+- (id);
+- (void)¨;
 
 // Remaining properties
 @property(readonly) _Bool canHandleMoreFetchedObjects;

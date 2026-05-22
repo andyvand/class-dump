@@ -22,18 +22,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void);
 - (id);
 - (void);
-- (void)_wakeServerIfConnectedForReason:(unsigned long long)arg1;
-- (void)ers;
-- (void);
-- (void)0@ù
-× ;
-- (void)!Cù1Èð1¢!0@ù
-× ;
-- (void)fsetForSearchResultsAnimated:(id)arg1;
-- (void)djustsLetterSpacingToFitWidth:(id)arg1;
-- (id)¬Oc;
+- (void)owActionWithStyle:(unsigned long long)arg1 title:(id)arg2 handler: /* Error: Ran out of types for this method. */;
+- (void)tionName:(id)arg1;
+- (void)tionGrouping:(id)arg1 considerNextCellGrouping:(id)arg2 interactionState: /* Error: Ran out of types for this method. */;
+- (void)iewControllerContainerViewConstraints;
+- (id)àgüh8iüi;
+- (void)oþ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UITouch *activeTouch; // @synthesize activeTouch=_activeTouch;

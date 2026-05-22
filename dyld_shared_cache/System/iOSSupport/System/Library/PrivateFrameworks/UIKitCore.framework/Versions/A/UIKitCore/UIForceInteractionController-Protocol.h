@@ -5,5 +5,8 @@
 //
 
 @protocol UIForceInteractionController
+
+@optional
+- (void);
 @end
 

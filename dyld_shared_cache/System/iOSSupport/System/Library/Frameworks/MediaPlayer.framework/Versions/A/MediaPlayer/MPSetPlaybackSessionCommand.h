@@ -26,9 +26,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void)× ;
+- (id);
+- (void)countIdentifier_KEY;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currentPlaybackSessionIdentifier; // @synthesize currentPlaybackSessionIdentifier=_currentPlaybackSessionIdentifier;

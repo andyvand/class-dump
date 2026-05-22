@@ -14,6 +14,7 @@
     MISSING_TYPE *recipeAccessProvider;
     MISSING_TYPE *fallbackTracker;
     MISSING_TYPE *sceneProvider;
+    MISSING_TYPE *recipeCoordinator;
 }
 
 @end

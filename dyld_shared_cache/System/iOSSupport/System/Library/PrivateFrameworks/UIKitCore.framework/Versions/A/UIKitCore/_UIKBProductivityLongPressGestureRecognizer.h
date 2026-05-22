@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-- (_Bool)@"_UICollectionLayoutItemSolver"8@?0;
++ (id)CBXMw/Library/Caches/com.apple.xbs/TemporaryDirectory.539LWn/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift;
+- (_Bool)lf;
 
 @end
 

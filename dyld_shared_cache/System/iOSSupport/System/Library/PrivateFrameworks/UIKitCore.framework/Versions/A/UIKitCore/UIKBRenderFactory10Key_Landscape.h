@@ -12,18 +12,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (void)ge:(double)arg1;
+- (void);
 - (struct CGPoint);
 - (struct CGPoint);
 - (double);
 - (struct CGPoint);
-- (double)ulling isAutoDonating and donationDate;
-- (double)%@;
-- (double)sinessThread. Setting all chats to ReadOnly.;
-- (struct CGPoint)writing messages. isLastBatch %@, write error %@, writeSuccess %@;
+- (double);
+- (double);
+- (double);
 - (struct CGPoint);
-- (double)de: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)jÉe;
+- (struct CGPoint);
+- (struct UIEdgeInsets);
+- (double)interactionRect;
 
 @end
 

@@ -34,9 +34,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)sBrowsingSpeedRegimeInvalidationScheduled;
 
 // Remaining properties
 @property(retain, nonatomic) PUParallaxLayerStackDebugPaletteView *colorBGPaletteView; // @synthesize colorBGPaletteView=_colorBGPaletteView;

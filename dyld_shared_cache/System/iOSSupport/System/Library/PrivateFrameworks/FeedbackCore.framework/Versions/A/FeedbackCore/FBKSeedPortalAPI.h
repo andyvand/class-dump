@@ -29,7 +29,6 @@
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -43,7 +42,6 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (id);
 - (void);
 - (void);
@@ -102,8 +100,6 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -120,9 +116,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);

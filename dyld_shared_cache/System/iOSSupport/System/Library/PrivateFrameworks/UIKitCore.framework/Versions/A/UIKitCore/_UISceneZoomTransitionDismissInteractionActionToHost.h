@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)HighlightsDidChange:(id)arg1 ];
-+ (id)ice:(struct CGPoint)arg1 notify:] /* Error: Ran out of types for this method. */;
-+ (id)astNoticesDidChangeForChatGUIDs:(struct CGPoint)arg1 ];
-+ (id)ationNotice"8@"NSDictionary"16;
++ (id);
++ (id);
++ (id);
++ (id);
 - (void);
 
 @end

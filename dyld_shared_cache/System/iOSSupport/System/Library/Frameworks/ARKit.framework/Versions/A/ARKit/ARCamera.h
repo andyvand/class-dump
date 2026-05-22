@@ -32,7 +32,7 @@
 - (long long);
 - (CDStruct_14d5dc5e);
 - (id);
-- (double);
+- (double)sformsSRT:numberOfTransforms:liftedSkeletonData:identifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MISSING_TYPE *eulerAngles; // @synthesize eulerAngles=_eulerAngles;

@@ -4,5 +4,5 @@
 
 class icu::number::CurrencyPrecision {
 public: // (access info unavailable from symbols alone)
-    withCurrency(icu::CurrencyUnit const&) const;
+    auto withCurrency(icu::CurrencyUnit const&) const;
 };

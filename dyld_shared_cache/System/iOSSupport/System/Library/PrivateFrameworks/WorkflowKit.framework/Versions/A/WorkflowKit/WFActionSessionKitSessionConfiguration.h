@@ -14,10 +14,10 @@
 }
 
 - (double);
-- (id)ª¶Ì;
-- (_Bool);
-- (void);
 - (id);
+- (_Bool);
+- (id);
+- (void)ming Events (Action Name);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

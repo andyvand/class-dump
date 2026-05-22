@@ -15,6 +15,7 @@
     MISSING_TYPE *groupItems;
     MISSING_TYPE *systemFactory;
     MISSING_TYPE *logger;
+    MISSING_TYPE *commandCenter;
     MISSING_TYPE *debugData;
 }
 

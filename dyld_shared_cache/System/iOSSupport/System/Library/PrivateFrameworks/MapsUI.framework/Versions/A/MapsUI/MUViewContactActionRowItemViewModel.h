@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool)"32@0:8@"MUHikingTipSectionController"16@"MUHikingTipViewModel"24 /* Error: Ran out of types for this method. */;
 
 @end
 

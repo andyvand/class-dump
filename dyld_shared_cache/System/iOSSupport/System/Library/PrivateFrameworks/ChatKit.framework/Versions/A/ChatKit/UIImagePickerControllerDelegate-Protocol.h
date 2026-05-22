@@ -5,8 +5,5 @@
 //
 
 @protocol UIImagePickerControllerDelegate
-
-@optional
-- (void);
 @end
 

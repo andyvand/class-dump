@@ -6,9 +6,6 @@
 
 @protocol TSWPStyleProvider
 
-@optional
-- (unsigned long long)U;
-
 // Remaining properties
 @property(readonly, nonatomic) _Bool supportsBoldItalicUnderlineShortcuts;
 // Preceding property had unknown attributes: ?

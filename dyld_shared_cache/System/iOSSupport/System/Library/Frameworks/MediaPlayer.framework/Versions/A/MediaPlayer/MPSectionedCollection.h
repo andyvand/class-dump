@@ -12,7 +12,7 @@
     NSArray *_sections;
 }
 
-+ (_Bool)L}u [monitorForCurrentUser=nil];
++ (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

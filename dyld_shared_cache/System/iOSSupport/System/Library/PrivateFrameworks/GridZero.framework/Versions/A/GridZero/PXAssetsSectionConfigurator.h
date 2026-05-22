@@ -21,9 +21,9 @@
 - (void);
 - (id);
 - (struct UIEdgeInsets);
-- (void);
 - (id);
-- (long long)Controllers;
+- (void);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetsSectionLayoutSpec *assetsSectionLayoutSpec;

@@ -29,7 +29,6 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)token;
 - (void);
 - (void);
 - (void);
@@ -44,30 +43,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)@:(id)arg1 [%{public}@] Successfully synced the privacy acknowledgement.;
-- (void)}@:(id)arg1 [%{public}@] oldAccount.cookies = %{public}@;
-- (void)NotificationPlugin:(id)arg1 [%{public}@] An iCloud account was added, recording GDPR acknowledgement for Apple ID.;
-- (void)doesn't need to be updated. account = %{public}@;
-- (void){public}@] Posting a com.apple.StoreServices.SSAccountStore.activeaccountchanged notification.;
-- (void)countToDelete = %{public}@ | error = %{public}@;
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void);
-- (void)es;
-- (id)e item is a place holder;
+- (id);
 - (void);
+- (id);
+- (void);
+- (void)ic}@;
+- (id)for ;
+- (void)Ó
+`Áÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -49,17 +49,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)ll:(unsigned long long)arg1;
-- (unsigned long long)Publisher;
-- (id)HFIncludedContextProtocol) hf_hasSetForContextType:] /* Error: Ran out of types for this method. */;
-- (id)tivityLogCoordinator;
+- (void)8kXkk;
+- (id)tching '%@';
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool accessoryRequiresCode; // @synthesize accessoryRequiresCode=_accessoryRequiresCode;

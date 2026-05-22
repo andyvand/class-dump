@@ -40,16 +40,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (double);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)ue;
-- (id)¼;
-- (double)ice=%{BOOL}d, recommendationContainsLocationEvent=%{BOOL}d, locationAvailable=%{BOOL}d, allEventsAreValid=%{BOOL}d;
+- (id);
+- (id)erCategoryCellLayoutOptions;
+- (void)­
+®à®0·;
+- (void)le_Multiple;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *audioFileURL; // @synthesize audioFileURL=_audioFileURL;

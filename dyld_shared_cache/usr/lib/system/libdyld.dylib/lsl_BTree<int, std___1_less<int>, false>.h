@@ -4,9 +4,9 @@
 
 class lsl::BTree<int, std::__1::less<int>, false> {
 public: // (access info unavailable from symbols alone)
-    erase(int const&);
-    erase(lsl::BTree<int, std::__1::less<int>, false>::const_iterator);
-    erase(lsl::BTree<int, std::__1::less<int>, false>::const_iterator) (.cold.1);
-    find(int const&) const;
-    insert_internal(lsl::BTree<int, std::__1::less<int>, false>::const_iterator&&, int&&);
+    auto erase(int const&);
+    auto erase(lsl::BTree<int, std::__1::less<int>, false>::const_iterator);
+    auto erase(lsl::BTree<int, std::__1::less<int>, false>::const_iterator) (.cold.1);
+    auto find(int const&) const;
+    auto insert_internal(lsl::BTree<int, std::__1::less<int>, false>::const_iterator&&, int&&);
 };

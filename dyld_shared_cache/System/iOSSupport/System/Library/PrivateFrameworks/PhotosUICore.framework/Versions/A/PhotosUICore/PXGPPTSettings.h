@@ -19,7 +19,7 @@
 
 + (id);
 + (id);
-+ (id)|éÿ`Q09;
++ (id)PersonKind;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -31,13 +31,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (long long)!Eùx°1b0@ù
+- (void)1â
+0@ù
 × ;
-- (long long)ÿÿ;
-- (id)ch %s;
+- (long long)
+× ;
+- (long long)only support a floating gradient sprite extending to either both or neither lateral visible edges;
+- (void)ï7;
 - (long long);
 
 // Remaining properties

@@ -20,16 +20,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)P;
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id)t;
 - (id);
+- (void);
 - (id);
-- (void)DefaultTopicClusteringKnobsPaidBundleArticleQuotas;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void):8@"<TSDInfo>"16 /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;

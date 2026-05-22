@@ -10,7 +10,7 @@
 {
     MISSING_TYPE *isSubscribed;
     MISSING_TYPE *computeService;
-    MISSING_TYPE *sessionDataProvider;
+    MISSING_TYPE *userEventHistory;
     MISSING_TYPE *userContextProvider;
     MISSING_TYPE *localAreasManager;
     MISSING_TYPE *locationDetectionManager;

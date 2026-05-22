@@ -8,8 +8,8 @@ public: // (access info unavailable from symbols alone)
     Endpoint(NSObject<OS_xpc_object>*);
     Endpoint(NSObject<OS_xpc_object>*) (.cold.1);
     Endpoint(unsigned int, unsigned int);
-    decode_reply(NSObject<OS_xpc_object>*);
-    encode(NSObject<OS_xpc_object>*);
-    release();
+    auto decode_reply(NSObject<OS_xpc_object>*);
+    auto encode(NSObject<OS_xpc_object>*);
+    auto release();
     ~Endpoint();
 };

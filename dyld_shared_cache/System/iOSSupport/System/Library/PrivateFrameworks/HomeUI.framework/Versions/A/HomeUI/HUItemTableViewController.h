@@ -159,26 +159,28 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (long long);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)1ð1â
+0@ù
+× ;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)xt:(_Bool)arg1;
-- (void)essWithoutRemoteCapabilityFooter;
-- (void)¢öy+;
-- (void)PøIu;
+- (void)tificationTopicListModuleController",&,N,V_notificationTopicModuleController;
+- (void)eelColor.m;
+- (id)HUHomeHubSharedUserWarningItemManager initWithDelegate:(long long)arg1 sourceItem:] /* Error: Ran out of types for this method. */;
+- (void)Ô;
+- (void)4½ü;
 
 // Remaining properties
 @property(nonatomic) unsigned long long appearState; // @synthesize appearState=_appearState;

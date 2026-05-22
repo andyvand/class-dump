@@ -49,12 +49,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (float)®5ÿ;
-- (void)Øºÿÿ)ëÿLÝÿ´S;
-- (void *)@;
-- (void)Kinds;
+- (float);
+- (void)installPlaybackEndHandler:(void *)arg1;
+- (void)ðãøÿ=zûÿ;
+- (void *)e either PXSettingsImplementRootSettings() or PXSettingsImplementChildSettings() macro for this.;
+- (_Bool)type;
+- (void)InteractiveMemoryActionMenuItemAddToFavoriteMemories;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsExternalPlayback; // @synthesize allowsExternalPlayback=_allowsExternalPlayback;

@@ -25,8 +25,8 @@
     MISSING_TYPE *featureAvailability;
 }
 
-- (void);
 - (id);
+- (void)X½þMF_T½þ]F_P½þ]F_L½þ]F_H½þ%F_FêþF_@½þåE_\éMÿåE_xéMÿåE_,½þF_(½þF_$½þµE_ ½þ;
 
 @end
 

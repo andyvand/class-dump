@@ -7,8 +7,6 @@
 @class NSString, UIImage;
 
 @protocol _UIMenuImageOrName
-- (NSString *)conds;
-- (UIImage *)hContext;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *_asMenuElementImage;

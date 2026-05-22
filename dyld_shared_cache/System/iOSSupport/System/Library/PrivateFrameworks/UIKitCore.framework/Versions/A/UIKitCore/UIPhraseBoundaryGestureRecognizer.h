@@ -19,22 +19,21 @@ __attribute__((visibility("hidden")))
     id _userData;
 }
 
-- (void)ntAdded:(id)arg1;
-- (_Bool)unt:vettedAliasesChanged: /* Error: Ran out of types for this method. */;
-- (double)ount:statusChanged: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)�T;
+- (_Bool);
+- (double);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (void);
-- (void)
+- (void);
+- (id);
+- (void)!,GùÑbÐ1Â0@ù
 × ;
-- (void)hBùÍ1¢!0@ù
-× ;
-- (void)ollectionViewSectionContainerGuide",&,N,V_sectionEndFocusGuide;
-- (id)Ú!^;
+- (id)faceOrientations:(id)arg1;
+- (void)ñAÛP~d;
+- (void)ÙÊ%k;
 
 // Remaining properties
 @property(nonatomic) double secondDelay; // @synthesize secondDelay=_secondDelay;

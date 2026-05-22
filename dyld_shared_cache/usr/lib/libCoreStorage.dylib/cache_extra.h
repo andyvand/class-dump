@@ -4,10 +4,12 @@
 
 class cache_extra {
 public: // (access info unavailable from symbols alone)
+    auto destroy_persistent_var();
+    auto destroy_pool();
+    auto init_persistent_var();
+    auto init_pool(unsigned long);
+    auto reserve(unsigned long);
     cache_extra();
-    destroy_persistent_var();
-    destroy_pool();
-    init_persistent_var();
-    init_pool(unsigned long);
-    reserve(unsigned long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
 };

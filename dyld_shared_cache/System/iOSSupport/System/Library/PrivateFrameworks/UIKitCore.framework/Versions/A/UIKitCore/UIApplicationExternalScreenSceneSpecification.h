@@ -11,10 +11,10 @@
 }
 
 - (id);
-- (id)overy:did not find any chats for chat metadata %@ /* Error: Ran out of types for this method. */;
-- (id)ady overriding the default, ending previous override;
-- (id)eter Failed to create SyndicationAction from BlastDoorSyndicationAction data;
-- (id)ay;
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

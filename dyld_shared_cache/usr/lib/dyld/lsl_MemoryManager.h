@@ -5,19 +5,19 @@
 class lsl::MemoryManager {
 public: // (access info unavailable from symbols alone)
     MemoryManager(char const**, char const**, void*, bool);
-    adoptLock(lsl::Lock&&);
-    defaultAllocator();
-    defaultAllocator() (.cold.1);
-    init(char const**, char const**, void*);
-    init(char const**, char const**, void*) (.cold.1);
-    init(char const**, char const**, void*)::$_0::operator()() const;
-    init(char const**, char const**, void*)::$_0::operator()() const (.cold.1);
-    lockGuard();
-    memoryManager();
-    memoryManager() (.cold.1);
-    setDyldCacheAddr(void*);
-    setProtectedStack(lsl::ProtectedStack&);
-    vm_allocate_bytes(unsigned long long, bool);
-    vm_allocate_bytes(unsigned long long, bool) (.cold.1);
-    writeProtect(bool);
+    auto adoptLock(lsl::Lock&&);
+    auto defaultAllocator();
+    auto defaultAllocator() (.cold.1);
+    auto init(char const**, char const**, void*);
+    auto init(char const**, char const**, void*) (.cold.1);
+    auto init(char const**, char const**, void*)::$_0::operator()() const;
+    auto init(char const**, char const**, void*)::$_0::operator()() const (.cold.1);
+    auto lockGuard();
+    auto memoryManager();
+    auto memoryManager() (.cold.1);
+    auto setDyldCacheAddr(void*);
+    auto setProtectedStack(lsl::ProtectedStack&);
+    auto vm_allocate_bytes(unsigned long long, bool);
+    auto vm_allocate_bytes(unsigned long long, bool) (.cold.1);
+    auto writeProtect(bool);
 };

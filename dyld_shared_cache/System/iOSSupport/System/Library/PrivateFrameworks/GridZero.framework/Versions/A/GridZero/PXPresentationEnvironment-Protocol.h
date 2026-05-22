@@ -7,7 +7,6 @@
 @class UIViewController;
 
 @protocol PXPresentationEnvironment
-- (_Bool)­|;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canPresentPopovers;

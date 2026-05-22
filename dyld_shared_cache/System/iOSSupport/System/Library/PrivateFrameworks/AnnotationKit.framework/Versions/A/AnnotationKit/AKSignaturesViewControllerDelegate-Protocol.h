@@ -5,7 +5,5 @@
 //
 
 @protocol AKSignaturesViewControllerDelegate
-- (void);
-- (void);
 @end
 

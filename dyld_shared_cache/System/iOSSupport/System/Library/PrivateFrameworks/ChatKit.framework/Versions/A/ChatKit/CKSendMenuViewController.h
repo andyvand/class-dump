@@ -37,35 +37,34 @@
     MISSING_TYPE *indexPathsToCollapseIntoPlusButton;
 }
 
-- (void)Context;
-- (void)STextTableAttributes;
-- (void),&,N,V_accountsOfHTMLSourceObjects;
-- (id)CNotesImporterClient;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void)aranceAlwaysShowLightContentDidChangeNotification;
-- (void)Mk
-;
-- (_Bool);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)acksCallBack;
-- (_Bool)AppInstallation;
-- (_Bool);
-- (_Bool)ontext menu:(id)arg1 no mapped chat items were selected.;
-- (void)DSettings;
-- (void)Ý2È-;
-- (void)D1 ÿÚ_1Pg.;
+- (void);
+- (void);
+- (void);
+- (void)ForResult:(id)arg1;
+- (void)Reason;
+- (_Bool)tKit38TapbackPickerSuggestionsScrolledLayout;
+- (void)to determine legacy screen sharing status.;
+- (_Bool)%@;
+- (_Bool)r %@, allowing retry;
+- (void)ü,¤;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityCustomActions;

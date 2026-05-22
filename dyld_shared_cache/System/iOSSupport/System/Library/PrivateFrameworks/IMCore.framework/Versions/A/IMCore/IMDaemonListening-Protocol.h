@@ -7,9 +7,6 @@
 @class NSDictionary, NSString;
 
 @protocol IMDaemonListening
-- (void);
-- (void)!;
-- (NSDictionary *)p§;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isHoldingChatMessages) _Bool holdingChatMessages;

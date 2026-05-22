@@ -8,10 +8,10 @@
 {
 }
 
-+ (_Bool)rokeWidth;
++ (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
 
 @end
 

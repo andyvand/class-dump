@@ -18,15 +18,15 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (id);
 - (void);
-- (void)C;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)D;
 - (void);
-- (void)oundation.framework/Versions/A/CoreFoundation;
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

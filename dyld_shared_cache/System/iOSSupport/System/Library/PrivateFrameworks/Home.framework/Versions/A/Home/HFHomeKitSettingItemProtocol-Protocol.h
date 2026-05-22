@@ -8,7 +8,6 @@
 @protocol HFHomeKitSettingsVendor;
 
 @protocol HFHomeKitSettingItemProtocol
-- (HFAccessorySettingsEntity *)on for session %@:%@ -> %@  (Transaction ID %@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HFAccessorySettingsEntity *entity;

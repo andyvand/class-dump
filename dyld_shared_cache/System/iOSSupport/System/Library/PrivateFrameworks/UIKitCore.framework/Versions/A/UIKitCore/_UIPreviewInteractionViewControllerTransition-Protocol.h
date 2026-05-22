@@ -8,10 +8,6 @@
 
 @protocol _UIPreviewInteractionViewControllerTransition
 
-@optional
-- (UITargetedPreview *)@;
-- (void)LocalMultiCombinedDataAddDataClass when adding the entire data;
-
 // Remaining properties
 @property(copy, nonatomic) UITargetedPreview *sourcePreview;
 // Preceding property had unknown attributes: ?

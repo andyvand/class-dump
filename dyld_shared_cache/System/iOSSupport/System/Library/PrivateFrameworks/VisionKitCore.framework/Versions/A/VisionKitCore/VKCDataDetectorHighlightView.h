@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-+ (id)rackingView;
++ (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hideDashedLine; // @synthesize hideDashedLine=_hideDashedLine;

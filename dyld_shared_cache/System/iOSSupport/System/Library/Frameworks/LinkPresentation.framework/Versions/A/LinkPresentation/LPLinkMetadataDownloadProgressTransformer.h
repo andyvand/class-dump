@@ -14,12 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (unsigned long long)ext attachment.;
-- (void)removeSubsharesAndSendFileProviderComposition permissionType:(unsigned long long)arg1 %ld, allowOthersToInvite=%@, new phone numbers:%@, new email addresses:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
+- (void)á÷Ð!,Cùq°1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long bytesLoaded; // @synthesize bytesLoaded=_bytesLoaded;

@@ -30,8 +30,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
 - (struct CGSize);
+- (id);
 - (void);
 - (void);
 - (struct CGRect);
@@ -48,15 +48,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (unsigned long long);
 - (struct CGRect);
-- (void);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (void)!ÄDù±ñð1â
+0@ù
+× ;
+- (void)ontallyFlippedOrientation;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long alignment;

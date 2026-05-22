@@ -4,8 +4,8 @@
 
 class mach_o::ChainedFixups::PointerFormat {
 public: // (access info unavailable from symbols alone)
-    badBindOrdinal(mach_o::Fixup const&) const;
-    forEachFixupLocationInChain(void const*, unsigned long long, mach_o::MappedSegment const*, std::__1::span<unsigned long long const, 18446744073709551615ul>, unsigned int, unsigned int, void (mach_o::Fixup const&, bool&) block_pointer) const;
-    make(unsigned short);
-    ptrAlignmentSize() const;
+    auto badBindOrdinal(mach_o::Fixup const&) const;
+    auto forEachFixupLocationInChain(void const*, unsigned long long, mach_o::MappedSegment const*, std::__1::span<unsigned long long const, 18446744073709551615ul>, unsigned int, unsigned int, void (mach_o::Fixup const&, bool&) block_pointer) const;
+    auto make(unsigned short);
+    auto ptrAlignmentSize() const;
 };

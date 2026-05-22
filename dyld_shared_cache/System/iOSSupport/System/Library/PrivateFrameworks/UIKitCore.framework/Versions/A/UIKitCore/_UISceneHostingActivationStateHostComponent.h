@@ -31,20 +31,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)ag9;
 - (id);
-- (void)alSyncCompletedRecordIfNeeded;
-- (void);
 - (id);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void)!H@ùÈ°1¢!0@ù
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)1Â0@ù
 × ;
-- (void)igationGesture;
-- (void)ontrollerFromStack:(id)arg1 Removing Alert from stack :%@ /* Error: Ran out of types for this method. */;
-- (void)ÿ;
+- (void)ScrollViewGradientMaskView;
+- (void);
+- (void)É13£;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UISceneHostingActivationControlling> activationController; // @synthesize activationController=_activationController;

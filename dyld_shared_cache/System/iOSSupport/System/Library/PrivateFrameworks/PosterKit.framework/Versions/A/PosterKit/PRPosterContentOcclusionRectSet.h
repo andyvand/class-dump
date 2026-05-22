@@ -12,22 +12,22 @@
 
 + (id);
 + (_Bool);
-+ (_Bool)ferredTimeMaxY:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
-+ (id)psideDown;
++ (_Bool);
++ (id)yµYéy]éyAEyAEyAEyADyADyADyADy$aéy¦`é_Qo_½_éy/`éSgGGAHySiSgGGmVéGAHyêGG5aéyAQ_Qo_G(déGADy×=APGGAWGïÓÿÿGSg_ADyAXA1_GA4_SgtGG;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (void);
 - (Class);
 - (id);
+- (unsigned long long);
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void)ccountID:(id)arg1 container:(id)arg2 qualityOfService:completionHandler:] /* Error: Ran out of types for this method. */;
++ (void);
 + (_Bool);
 + (void);
 

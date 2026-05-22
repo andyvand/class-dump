@@ -7,7 +7,6 @@
 @class UIColor, UIFont;
 
 @protocol PRMutablePosterPreferences
-- (void)V_variant;
 
 // Remaining properties
 @property(nonatomic) unsigned long long adaptiveTimeMode;

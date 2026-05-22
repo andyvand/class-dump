@@ -5,15 +5,12 @@
 //
 
 @protocol _UIFocusBehavior
-- (_Bool)P;
-- (_Bool);
-- (long long)ithEvent: /* Error: Ran out of types for this method. */;
-- (_Bool)Change;
-- (_Bool)rView;
-- (long long)tation;
-- (_Bool)gClientComponent;
-- (_Bool);
-- (unsigned long long)neConnectionOptionDefinitionDelegateInvokableP;
-- (_Bool)IEW_IS_NOT_IN_A_WINDOW(Class  _Nonnull __unsafe_unretained, UIView * _Nonnull __strong);
+- (long long)!,Cùc1Â0@ù
+× ;
+- (_Bool)g: /* Error: Ran out of types for this method. */;
+- (_Bool)dInteractionController;
+- (_Bool)text;
+- (unsigned long long)­®;
+- (unsigned long long)MENUITEM_APP_HIDE;
 @end
 

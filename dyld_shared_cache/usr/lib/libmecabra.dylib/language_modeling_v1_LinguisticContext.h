@@ -5,6 +5,6 @@
 class language_modeling::v1::LinguisticContext {
 public: // (access info unavailable from symbols alone)
     LinguisticContext();
-    push_back(language_modeling::v1::Token const&);
+    auto push_back(language_modeling::v1::Token const&);
     ~LinguisticContext();
 };

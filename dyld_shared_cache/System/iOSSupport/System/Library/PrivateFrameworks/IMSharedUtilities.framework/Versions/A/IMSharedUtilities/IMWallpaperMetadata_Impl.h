@@ -28,20 +28,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
 - (double);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
+- (double);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id)EnableAVLessSharePlay;
-- (double)#e;¨;
+- (void)to complete it again with a new result. This is a programmer error.;
 
 // Remaining properties
 @property(nonatomic, retain) IMWallpaperMetadataColor_Impl *backgroundColor; // @synthesize backgroundColor;

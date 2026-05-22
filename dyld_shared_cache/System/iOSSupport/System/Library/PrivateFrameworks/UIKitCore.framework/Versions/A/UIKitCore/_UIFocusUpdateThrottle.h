@@ -18,13 +18,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)at: /* Error: Ran out of types for this method. */;
-- (void)refix is unlocalized in %s;
+- (void);
+- (void);
 - (id);
-- (void)SeasonStoreCanonicalID__MAPPING_MISSING__;
-- (void)hA9�;
-- (void)Áxð!$DùQÎð1¢!0@ù
-× ;
+- (void);
+- (void)6@"NSString"24q32;
+- (void);
 
 @end
 

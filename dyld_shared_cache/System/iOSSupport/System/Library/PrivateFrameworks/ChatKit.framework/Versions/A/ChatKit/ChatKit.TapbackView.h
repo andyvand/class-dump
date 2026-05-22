@@ -11,9 +11,9 @@
 - (void);
 - (void);
 - (void);
-- (id)@`I;
-- (void);
 - (id);
+- (id);
+- (void)ertyEditorView;
 
 @end
 

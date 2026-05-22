@@ -16,8 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)YÂ
+;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *edits; // @synthesize edits=_edits;

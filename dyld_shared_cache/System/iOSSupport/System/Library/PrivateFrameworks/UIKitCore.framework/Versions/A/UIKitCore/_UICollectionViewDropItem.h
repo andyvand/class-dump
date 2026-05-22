@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
-- (id)v56@0:8i16@20C28@32@40@48 /* Error: Ran out of types for this method. */;
-- (id)at:%@ lastAddressedHandle %@ /* Error: Ran out of types for this method. */;
-- (void)Successfully sent personal nickname to message (%@) to destinations %@;
-- (void);
-- (id)nChanging;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)Ërh^;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

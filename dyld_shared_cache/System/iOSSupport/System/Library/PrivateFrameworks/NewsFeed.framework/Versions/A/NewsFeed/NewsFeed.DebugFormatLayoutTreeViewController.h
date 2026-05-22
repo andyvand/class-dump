@@ -17,11 +17,11 @@
 }
 
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void)ÜbüÿæÂùÿ;
+- (void)Ü})1:äI /* Error: Ran out of types for this method. */;
+- (void)Æ;
 
 @end
 

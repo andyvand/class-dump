@@ -5,6 +5,5 @@
 //
 
 @protocol CKDetailsSearchResultsFooterCellDelegate
-- (void)terEditingWantsUndoCommand;
 @end
 

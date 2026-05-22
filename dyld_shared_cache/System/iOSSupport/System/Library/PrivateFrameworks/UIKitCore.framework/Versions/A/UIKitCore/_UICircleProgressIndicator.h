@@ -27,36 +27,37 @@ __attribute__((visibility("hidden")))
     UIColor *_unhighlightedBackgroundColor;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
 - (struct UIEdgeInsets);
-- (id)seCachedChatGroups:includingPinnedChatIdentifiers:repairInconsistentMergedChats: /* Error: Ran out of types for this method. */;
-- (void)hTimeout: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)Lookup failed, NIL or empty message GUID.;
-- (void)g nickname info from disk;
-- (void)Failed to unarchive ckrecord. Error:(id)arg1 %@;
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)0@ù
+- (void);
+- (void);
+- (id);
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)ùqY1Â0@ù
 × ;
-- (_Bool)errideAssertion";
-- (void)Ø&;
-- (double)dowSceneFullscreenPlacementCG;
-- (id)Su;
-- (void)nchor;
-- (struct CGSize);
-- (_Bool);
-- (void)Óþ¶ÊÇösb;
+- (_Bool)
+× ;
+- (id)e:(struct CGRect)arg1 selectionIsKey:state:traitCollection: /* Error: Ran out of types for this method. */;
+- (void)¿ð¿<ÁÜK;
+- (void);
+- (double)rences>"8@"FBSSceneTransitionContext"16;
+- (void)ttempt to upcast a locked metrics object;
+- (void)ï6;
+- (_Bool)`;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *borderImage; // @synthesize borderImage=_borderImage;

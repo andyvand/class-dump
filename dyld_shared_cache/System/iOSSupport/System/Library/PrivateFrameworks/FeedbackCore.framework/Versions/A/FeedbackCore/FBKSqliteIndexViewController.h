@@ -25,15 +25,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (long long);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)bsForPickerWithPredicate:(_Bool)arg1 called with nil predicate, defaulting to none predicate.;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *dbUrl; // @synthesize dbUrl=_dbUrl;

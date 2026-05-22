@@ -19,11 +19,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long)A%ð!ÄEùÑ.ð1b0@ù
-× ;
-- (void)erUUID;
-- (struct CGSize)HUHomeHubMigrationBannerItem;
+- (unsigned long long);
+- (void)T@"HFItem",R,N,V_chooseInputsSelectionItem;
+- (void)cosystem"8;
+- (struct CGSize)Ô}ÍÿMýXG;
 
 // Remaining properties
 @property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;

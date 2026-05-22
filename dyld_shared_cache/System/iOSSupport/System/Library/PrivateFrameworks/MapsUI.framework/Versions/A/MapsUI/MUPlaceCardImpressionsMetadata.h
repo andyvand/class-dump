@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (int);
 - (void);
-- (unsigned long long);
 - (id);
-- (void)d;
+- (unsigned long long);
+- (void)ttonWithSecondaryActionController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long businessId; // @synthesize businessId=_businessId;

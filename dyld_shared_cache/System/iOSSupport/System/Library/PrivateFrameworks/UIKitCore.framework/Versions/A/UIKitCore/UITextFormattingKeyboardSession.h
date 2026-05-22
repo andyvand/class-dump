@@ -17,9 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)
-× ;
-- (id)stion",&,N,S_setChosenSuggestion:,V_chosenSuggestion /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 @end
 

@@ -4,10 +4,11 @@
 
 class std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>> {
 public: // (access info unavailable from symbols alone)
+    auto rdbuf() const;
+    auto str() const;
+    auto str(std::string const&);
     basic_ostringstream(std::_Ios_Openmode);
     basic_ostringstream(std::string const&, std::_Ios_Openmode);
-    rdbuf() const;
-    str() const;
-    str(std::string const&);
+    virtual thunk to ~basic_ostringstream();
     ~basic_ostringstream();
 };

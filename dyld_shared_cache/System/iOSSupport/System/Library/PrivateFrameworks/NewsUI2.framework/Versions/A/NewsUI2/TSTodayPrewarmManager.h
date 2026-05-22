@@ -9,8 +9,8 @@
 }
 
 + (void);
-- (void)P;
-- (id);
+- (id);
+- (void);
 
 @end
 

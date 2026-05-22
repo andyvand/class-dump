@@ -4,5 +4,5 @@
 
 class prebuilt_objc::EqualObjCStringKeyOnDisk {
 public: // (access info unavailable from symbols alone)
-    equal(prebuilt_objc::ObjCStringKeyOnDisk const&, std::__1::basic_string_view<char, std::__1::char_traits<char>> const&, void*);
+    auto equal(prebuilt_objc::ObjCStringKeyOnDisk const&, std::__1::basic_string_view<char, std::__1::char_traits<char>> const&, void*);
 };

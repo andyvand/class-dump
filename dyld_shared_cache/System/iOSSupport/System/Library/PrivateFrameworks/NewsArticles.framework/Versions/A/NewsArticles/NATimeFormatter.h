@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVTimeFormatter *elapsedDurationFormatter; // @synthesize elapsedDurationFormatter=_elapsedDurationFormatter;

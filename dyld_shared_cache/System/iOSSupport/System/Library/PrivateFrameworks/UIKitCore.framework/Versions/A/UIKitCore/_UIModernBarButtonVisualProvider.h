@@ -10,10 +10,10 @@
 {
 }
 
-- (void);
-- (void);
-- (id)ionIndex:(struct CGRect)arg1 endRegionIndex: /* Error: Ran out of types for this method. */;
-- (id)utton;
+- (id);
+- (id);
+- (void)tusDidChange;
+- (void)e=dd}},N,V_caretRectBeforeInsertion;
 
 @end
 

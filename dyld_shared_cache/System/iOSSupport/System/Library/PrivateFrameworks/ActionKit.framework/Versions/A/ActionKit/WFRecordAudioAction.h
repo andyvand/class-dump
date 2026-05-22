@@ -18,7 +18,7 @@
 - (void);
 - (double);
 - (id);
-- (long long)lÿ£«;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long outputFormat;

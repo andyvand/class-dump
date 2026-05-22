@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)R;
+- (id);
 - (void);
-- (void)UIWebBrowserViewForWebFrame:(unsigned long long)arg1;
-- (void)ÞÓi&];
+- (void)dy active;
+- (void)ÕG¸`;
 
 @end
 

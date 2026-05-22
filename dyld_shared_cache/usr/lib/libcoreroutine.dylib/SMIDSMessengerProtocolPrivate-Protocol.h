@@ -5,8 +5,5 @@
 //
 
 @protocol SMIDSMessengerProtocolPrivate
-
-@optional
-- (void);
 @end
 

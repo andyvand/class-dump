@@ -18,13 +18,12 @@
 
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id)Ôáv°!ÀEùq{°1b0@ù
-× ;
-- (id)²Ð7;
+- (id)lðýÿ¤ðýÿüðýÿÔñýÿìñýÿòýÿóýÿôÖûÿ@óýÿ`óýÿóýÿÀóýÿ;
+- (id)¿Æb;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UTType *contentType;

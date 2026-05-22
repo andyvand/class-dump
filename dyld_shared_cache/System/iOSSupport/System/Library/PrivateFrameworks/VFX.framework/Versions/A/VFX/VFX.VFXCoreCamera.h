@@ -27,18 +27,135 @@
 - (CDStruct_14d5dc5e);
 - (float);
 - (float);
+- (id);
 - (float);
+- (id);
+- (float);
+- (MISSING_TYPE *);
 - (float);
 - (_Bool);
-- (id);
 - (CDStruct_183601bc);
-- (void);
-- (id);
-- (MISSING_TYPE *);
-- (void);
-- (float);
-- (float);
-- (float)ÿ 0é(;
+- (void)ôLðÿ`½ÿð¶;
+- (float)specMaxEssAvgTable;
+
+    uint64_t clippingConstants;
+    MTLResourceID clippingSdfTextureArray;
+
+    MTLResourceID blueNoiseTexture;
+
+    MTLResourceID ispTonemapLUT;
+    MTLResourceID textureFilter;
+
+    uint64_t probes;
+    MTLResourceID envProbeCubeArray;
+    MTLResourceID envProbeDiffuseArray;
+    MTLResourceID envProbeTextureArray;
+    uint64_t virtualEnvProbeTextures;
+    uint64_t virtualEnvProbeConstants;
+
+    MTLResourceID textureShadow;
+
+    MTLResourceID dmWarpedAlphaMask;
+    
+    MTLResourceID textureVisualDepth;
+    MTLResourceID textureImmersiveEnvironmentMask;
+    MTLResourceID textureSUOcclusionAlphaMask;
+#endif
+#endif 
+};
+
+struct re_vfx_object_constants {
+    uint16_t render_options;
+    uint16_t perceptual_blending_mode;
+};
+
+#endif 
+;
+- (void)ender_option_enable_breakthrough) != 0;
+}
+
+static inline bool renderOptionsIsNearfieldVignettingEnabled(uint16_t flags) {
+    return false;
+    return (flags & vfx_render_option_enable_nearfield_vignetting) != 0;
+}
+
+static inline bool renderOptionsIsDitherFadeEnabled(uint16_t flags) {
+    return (flags & vfx_render_option_enable_dither_fade) != 0;
+}
+
+static inline bool renderOptionsPortalClipPlaneEnabled(uint16_t flags) {
+    return (flags & vfx_render_option_enable_portal_clipping) != 0;
+}
+
+static inline bool renderOptionsIsDepthMitigationEnabled(uint16_t flags) {
+    return (flags & vfx_render_option_enable_depth_mitigation) != 0;
+}
+
+static inline bool renderOptionsIsSpatialFocusEnabled(uint16_t flags) {
+    return (flags & vfx_render_option_enable_spatial_focus) != 0;
+}
+
+static inline bool renderOptionsIsRenderingForBlur(uint16_t flags) {
+    return (flags & vfx_render_option_render_for_blur) != 0;
+}
+
+static inline bool renderOptionsIsVisualDepthStaticOcclusionEnabled(uint16_t flags) {
+    return (flags & vfx_render_option_enable_visual_depth_static_occlusion) != 0;
+}
+
+static inline bool renderOptionsIsSceneUnderstandingStaticOcclusionEnabled(uint16_t flags) {
+    return (flags & vfx_render_option_enable_scene_understanding_static_occlusion) != 0;
+}
+
+static inline bool renderOptionsIsVisualDepthStaticOcclusionTextureAvailableEnabled(uint16_t flags) {
+    return (flags & vfx_render_option_enable_visual_depth_static_occlusion_texture_available) != 0;
+}
+
+#ifdef __cplusplus
+struct render_options_override {
+    uint16_t overrideBits = 0;
+    uint16_t overrideValues = 0;
+
+    void disableClipping() {
+        disable(vfx_render_option_enable_clipping);
+    }
+
+    void disableDitherFade() {
+        disable(vfx_render_option_enable_dither_fade);
+    }
+
+    void enableDitherFade() {
+        enable(vfx_render_option_enable_dither_fade);
+    }
+
+    void disableBreakthrough() {
+        disable(vfx_render_option_enable_breakthrough);
+    }
+
+    void enableNearFieldVignetting() {
+        enable(vfx_render_option_enable_nearfield_vignetting);
+    }
+
+    uint16_t applyOverrideOn(uint16_t optionFlags) const {
+        return (optionFlags | (overrideValues & overrideBits)) & (overrideValues | ~overrideBits);
+    }
+
+    void enable(uint16_t flag) {
+        overrideBits |= flag;
+        overrideValues |= flag;
+    }
+
+    void disable(uint16_t flag) {
+        overrideBits |= flag;
+        overrideValues &= ~flag;
+    }
+};
+#endif
+
+#endif 
+;
+- (float)uç?F?
+?;
 
 // Remaining properties
 @property(nonatomic, readonly) float aperture;

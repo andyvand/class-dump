@@ -17,9 +17,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (void):animated: /* Error: Ran out of types for this method. */;
+- (void)sentationOptions",N,R,VpresentationOptions;
 
 @end
 

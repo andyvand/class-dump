@@ -5,6 +5,5 @@
 //
 
 @protocol CUIKEditor
-- (void);
 @end
 

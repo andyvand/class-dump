@@ -15,8 +15,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)$;
+- (void)ü{h|;
+- (id)AE_AfGy¨±ÐAMy¯ÐSgGGtGACyA0__AEtGGG §ÐGA5_G^²ÐyACyAF_A8_yA3_GtGGGG_X{;
 
 // Remaining properties
 @property(nonatomic) __weak WFParameterEditorHostingCell *cell; // @synthesize cell=_cell;

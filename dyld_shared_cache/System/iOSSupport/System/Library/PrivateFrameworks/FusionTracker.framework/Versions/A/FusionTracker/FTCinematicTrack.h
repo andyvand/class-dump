@@ -38,16 +38,16 @@
 - (float);
 - (float);
 - (unsigned long long);
+- (void);
 - (struct CGRect);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 - (long long);
+- (void);
 - (void);
 
 // Remaining properties

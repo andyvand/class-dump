@@ -14,18 +14,18 @@
     _Bool _needsUpdate;
 }
 
-+ (id)B[(;
-- (id);
-- (void);
-- (void);
-- (void)Object:(id)arg1 inSortedRange:options:usingComparator: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)Store:(id)arg1 deferring filtering of named entities after constructing filter.;
-- (void);
++ (id)ediaRemoteCommandType;
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)PlayableDuration;
 
 // Remaining properties
 @property(readonly, nonatomic) id mainContext;

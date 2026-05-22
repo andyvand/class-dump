@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (id);
-- (id)+;
-- (id)Am;
-- (id);#;
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ect={CGPoint=dd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXURLActionFactory> URLActionFactory; // @synthesize URLActionFactory=_URLActionFactory;

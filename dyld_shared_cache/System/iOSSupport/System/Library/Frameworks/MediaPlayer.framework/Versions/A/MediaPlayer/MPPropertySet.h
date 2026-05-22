@@ -12,28 +12,25 @@
     NSDictionary *_relationships;
 }
 
-+ (id)4@32@40i48B52B56@60;
-+ (id)mentEventSignalDeltaEvent";
-+ (id)tor: /* Error: Ran out of types for this method. */;
-+ (_Bool)legatePrivate homeManagerDidRemoveCurrentAccessory:%{public}@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool)"<TLKObserver>",W,Vobserver;
-- (id)
-× ;
-- (id)Zû|Zh|Zm|Z|Z£|Z|ZÙ|Zï|Z|ZI|ZZ|Z1|Z|Z|Z¼|ZÒ|ZÆ|ZB|ZÐ|Zu|ZG|Z|Z¡|Z*|Z§|Z|Z|Zª|Z|ZÃ|ZL|Z |Z	|Z×|Z:|Z|ZÛ|Z¦|Z¾|ZM|ZH|Z^|Ze|ZP|Z$|Z|Z<|Z|Zè|Z|Zx|ZÖ|Z)|Z&|ZÜ|Z|Z¸|ZÑ|Z4|Z5|Zk|Zc|ZÁ|Zð|Zù|Z|ZN|Z¬|Zv|Z|Zò|Z|Zo|Z|ZÌ|Z|Zú|Zb|Z%|Z|Z;|Z(|ZÅ|Z\|ZF|ZÀ|Z0|Z|Z|ZS|Zø|Z|Z|ZÚ|Z»|Zj|Z¶|Z_|Z-|ZQ|Z=|Z@|Zë|Zé|Z'|Z|Z |Z|Z|Z¨|Z?|Z|Z|Z,|Z|ZÝ|Z]|Zq|ZÇ|Zt|ZA|Z|Z|ZÎ|Z°|Z9|Z!|Z/|ZÊ|ZX|Zi|Zÿ|Z{|Z­|Z|Zõ|ZW|Zê|Z|Zß|Z|ZT|ZÞ|Z.|Zº|ZR|Z|Z|ZK|Zñ|Zf|Z´|Z¿|ZÓ|Z|Z|ZÏ|Zç|Zî|Zs|Zí|ZC|ZÔ|Zg|Zý|Z|Z|Z||Z«|Z|Z|Z|Z|ZE|Z|Zã|Z2|Z+|Z¹|Z6|Z|Z|Z¯|Zl|Z3|Zå|Z÷|Z|Zn|Z~|Z|ZÄ|Z}|Z½|ZV|ZÕ|Zü|Z
-|Z|ZÍ|Z¢|Z7|ZÂ|ZË|Z¥|Zr|sÜZõÒ}ãLÙvð_hÇIæõZÜs´eÊ_ðvÙîAÏ`~ÑWøßpîAÔ{ýReÊDëøWÑ~yÖhÇRý{ÔãLÂmþQ×x_ðnÁTû}ÒåJÄkx×Qþ¹èGÒ}ûTcÌBísÜZõÒ}ãLÙvð_hÇIæõZÜstÛeÊ_ðvÙîAÏ`KäbÍêEÛtáNÈgPÿqÞÍbäK#]ògÈNáÖy÷XFéoÀçHÖyìCÅj]ò|ÓÀoéFAîPÿjÅCìÛtúUÆiï@gÈVùlÃEêÝrüS@ïiÆ.ÐêEÃl[ôzÕKäbÍêEÛtáNÈgPÿqÞÍbäKLã]ògÈNáÖy÷X¯>ÔWx×à08¹¾ðÖ<ØnQ¢=S*s%pb£ÀùèÌëîd½F"÷ã¬Ü	Ð¯_²Í@eEagñî·éócÑËgrn³hK0>(4f­éÉõ+Þ(tÅ!0S|&ÅsP7ÃÏ{y+q?#!è!¬¯sÅ\ÞYvöÿ[Hißcµ5â jÒSÚ¸IîõUÃü¶ô¹Lvÿ}Ù«ÓT¥§}`Ê,m¨á n½ÕáÇN	kÑA
-ºä[Ä!ØO±»-¾æ«ouþ /* Error: Ran out of types for this method. */;
+- (void)elName__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

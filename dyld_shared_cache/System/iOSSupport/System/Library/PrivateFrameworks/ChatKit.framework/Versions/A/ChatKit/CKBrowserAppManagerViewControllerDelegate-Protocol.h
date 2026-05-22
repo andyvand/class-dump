@@ -5,6 +5,5 @@
 //
 
 @protocol CKBrowserAppManagerViewControllerDelegate
-- (void);
 @end
 

@@ -24,24 +24,22 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long)! GùK
-1b0@ù
-× ;
-- (void)8DGafNSe4eRKEkdcEZ4/Library/Caches/com.apple.xbs/Binaries/Chrono_UI_iosmac/install/Symbols/BuiltProducts/ChronoUIServices.framework/Headers/CHUISControlInstance.h;
 
 // Remaining properties
 @property(nonatomic, retain) CHUISControlInstanceConfiguration *configuration;

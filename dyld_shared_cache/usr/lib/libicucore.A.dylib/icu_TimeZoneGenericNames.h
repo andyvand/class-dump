@@ -5,11 +5,11 @@
 class icu::TimeZoneGenericNames {
 public: // (access info unavailable from symbols alone)
     TimeZoneGenericNames();
-    clone() const;
-    createInstance(icu::Locale const&, UErrorCode&);
-    findBestMatch(icu::UnicodeString const&, int, unsigned int, icu::UnicodeString&, UTimeZoneFormatTimeType&, UErrorCode&) const;
-    getDisplayName(icu::TimeZone const&, UTimeZoneGenericNameType, double, icu::UnicodeString&) const;
-    getGenericLocationName(icu::UnicodeString const&, icu::UnicodeString&) const;
-    operator==(icu::TimeZoneGenericNames const&) const;
+    auto clone() const;
+    auto createInstance(icu::Locale const&, UErrorCode&);
+    auto findBestMatch(icu::UnicodeString const&, int, unsigned int, icu::UnicodeString&, UTimeZoneFormatTimeType&, UErrorCode&) const;
+    auto getDisplayName(icu::TimeZone const&, UTimeZoneGenericNameType, double, icu::UnicodeString&) const;
+    auto getGenericLocationName(icu::UnicodeString const&, icu::UnicodeString&) const;
+    auto operator==(icu::TimeZoneGenericNames const&) const;
     ~TimeZoneGenericNames();
 };

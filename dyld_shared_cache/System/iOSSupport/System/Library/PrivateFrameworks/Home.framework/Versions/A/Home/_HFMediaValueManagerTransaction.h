@@ -16,12 +16,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (long long);
 - (id);
 - (id);
-- (long long)manual priorities. This is not supported!;
+- (id);
+- (void)!hAùñá°1B50@ù
+× ;
+- (void)8éÈÿÿÿÿÿ<;
 
 // Remaining properties
 @property(nonatomic) long long playbackState; // @synthesize playbackState=_playbackState;

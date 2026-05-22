@@ -50,18 +50,17 @@
 - (void);
 - (void);
 - (long long);
+- (id);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void)Øºâ;
-- (void);
-- (id);
-- (void);
-- (id)0@ù
-× ;
-- (_Bool)L"ÿ*p;
-- (void);
+- (void):(_Bool)arg1 localIdentifier:assetLocalIdentifier:deeplink:contentType:sourceIdentifier:relevanceScore:proactiveCriterion:suggestedCrop:rejectReason: /* Error: Ran out of types for this method. */;
+- (void)l, PHPhotoLibrary *__strong _Nonnull, void (^ _Nullable __strong)(BOOL, NSError * _Nullable __strong));
+- (id)namicHeaderViewModel;
+- (void)@;
+- (void)3;
 
 // Remaining properties
 @property(nonatomic) long long bufferingEvents; // @synthesize bufferingEvents=_bufferingEvents;

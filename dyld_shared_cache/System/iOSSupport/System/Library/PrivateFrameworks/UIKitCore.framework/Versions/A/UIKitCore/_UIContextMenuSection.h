@@ -23,24 +23,23 @@ __attribute__((visibility("hidden")))
     unsigned long long _actionLineLimit;
 }
 
-+ (id)s a lightweight member - skipping:(id)arg1 %@;
++ (id);
 - (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
-- (long long)stedContext;
-- (id)nc:Stop syncing, feature enabled %@ hasMatchingAccounts %@. /* Error: Ran out of types for this method. */;
-- (_Bool)noring update message T1:no message ID or thread ID %@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)ght;
+- (long long);
+- (_Bool);
+- (id);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
+- (_Bool)ions:(id)arg1;
 - (_Bool);
-- (void);
-- (id)ÑÃ1¢!0@ù
-× ;
-- (_Bool)ureChanged: /* Error: Ran out of types for this method. */;
-- (long long)GshouldUsePresentationValue;
+- (id)dexPaths;
+- (long long);
+- (void)¨];
 
 // Remaining properties
 @property(readonly, nonatomic) UIAction *accessoryAction; // @synthesize accessoryAction=_accessoryAction;

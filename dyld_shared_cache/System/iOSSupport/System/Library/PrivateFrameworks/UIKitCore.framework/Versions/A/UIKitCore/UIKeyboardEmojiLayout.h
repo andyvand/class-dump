@@ -17,18 +17,16 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (_Bool);
-- (void)ice.;
-- (_Bool);
-- (_Bool);
 - (void);
-- (void)0@ù
-× ;
-- (void)!ÐAùÏ1¢!0@ù
-× ;
-- (id)it:(id)arg1 extraResults:(id)arg2;
-- (void)rceViewIsInViewHierarchy;
+- (void);
+- (void);
 - (id);
-- (id)³Í9'l;
+- (id)tonBackground:(struct CGRect)arg1;
+- (_Bool)@;
+- (id)glassBackground.inputSDRGradientDistance1;
+- (void);
+- (_Bool)h4³ÿ ×8-^;
+- (void)Ñ;
 - (id);
 
 @end

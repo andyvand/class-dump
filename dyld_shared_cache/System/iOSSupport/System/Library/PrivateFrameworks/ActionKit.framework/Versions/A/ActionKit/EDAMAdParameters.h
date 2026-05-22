@@ -22,13 +22,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void)µ
-1b0@ù
-× ;
+- (void)Ô ;
+- (void)Lô<$dì¼;
+- (void)eedURL;
+- (id)natorInfo;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *clientLanguage; // @synthesize clientLanguage=_clientLanguage;

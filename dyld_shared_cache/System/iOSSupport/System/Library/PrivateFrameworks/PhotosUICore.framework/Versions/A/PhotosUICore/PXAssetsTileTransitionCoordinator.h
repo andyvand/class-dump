@@ -44,7 +44,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void) ÿêÉ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXBasicTileAnimationOptions *_basicAnimationOptions; // @synthesize _basicAnimationOptions=__basicAnimationOptions;

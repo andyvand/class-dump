@@ -18,21 +18,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)=QQ}40^q56;
-- (struct CGPDFString *)4:32 /* Error: Ran out of types for this method. */;
-- (struct __CFDictionary *)SearchReviewList";
-- (void)@"AFUISiriSession"16B24@?<v@?q>28;
-- (void)ew"16;
-- (void)24@0:(id)arg1 8@"NSCollectionViewLayoutAttributes"16;
 - (id);
-- (id)urrencesOfQueryString:(struct _NSZone *)arg1 usingOptions:withText: /* Error: Ran out of types for this method. */;
+- (struct CGPDFString *);
+- (struct __CFDictionary *);
 - (void);
-- (void)ExternalElement;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void):(id)arg1;
+- (void);
+- (id);
+- (void)0@ù
+× ;
 
 @end
 

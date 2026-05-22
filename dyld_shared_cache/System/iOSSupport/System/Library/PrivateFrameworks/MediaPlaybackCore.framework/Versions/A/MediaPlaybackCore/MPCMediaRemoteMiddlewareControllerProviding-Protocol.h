@@ -7,7 +7,8 @@
 @class MPCFuture, MPCMediaRemoteController;
 
 @protocol MPCMediaRemoteMiddlewareControllerProviding
-- (MPCFuture *)lChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (MPCMediaRemoteController *)T°!4Bù±`°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCMediaRemoteController *controller;

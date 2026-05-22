@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)onAnnounceAccessAllowedCodingKey;
+- (id)com.apple.HomeKit.SoftwareUpdate;
 
 // Remaining properties
 @property(readonly) id <HMDarwinNotificationProvider> darwinNotificationProvider;

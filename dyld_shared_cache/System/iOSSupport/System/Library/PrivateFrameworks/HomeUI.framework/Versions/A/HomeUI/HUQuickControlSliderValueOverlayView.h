@@ -39,12 +39,12 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
-- (unsigned long long)tatusBarVisiblityHandler;
+- (void)tionBuilder"8;
+- (void)GridItemManager initWithDelegate:(unsigned long long)arg1 shouldGroupByRoom:itemProvidersCreator:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long controlSize; // @synthesize controlSize=_controlSize;

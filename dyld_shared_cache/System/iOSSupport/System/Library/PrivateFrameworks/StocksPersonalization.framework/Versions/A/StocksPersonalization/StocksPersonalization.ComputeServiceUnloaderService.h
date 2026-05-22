@@ -12,8 +12,6 @@
     MISSING_TYPE *workService;
 }
 
-- (void);
-- (void);
 - (id);
 - (void);
 

@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)ýeX¬;
++ (id)rror while attempting to download transfer guid:%s. Not forwarding to listener. Error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

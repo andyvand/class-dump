@@ -14,20 +14,20 @@
 }
 
 + (id);
-- (void)<v@?@"NSArray">16;
+- (void);
 - (CDUnknownBlockType);
 - (long long);
-- (void)PerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
-- (void)iTunes account's username. iTunesAccount = %{public}@;
-- (float)nge.;
-- (long long)idn't change. We don't need to send a storefront changed notification for it.;
-- (long long)send a storefront changed notification for the local account.;
-- (void)4;
+- (void);
+- (void);
+- (float);
+- (long long);
+- (long long);
+- (void);
 - (float);
 - (void);
 - (float);
 - (void);
-- (void);
+- (void)] - item:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long numberOfBands; // @synthesize numberOfBands=_numberOfBands;

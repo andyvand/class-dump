@@ -27,18 +27,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)Q¶
-°1b0@ù
-× ;
-- (void)nk;
-- (id)tumblr.com/oauth/authorize?oauth_token=%@;
-- (void)ÿA;
-- (id)éÿ/|Få;
+- (id);
+- (void);
+- (id);
+- (id)PÕÖ;
+- (void)ncy Test Result;
+- (void)CDH;
+- (void)*;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;

@@ -12,12 +12,11 @@
 {
 }
 
-- (void);
-- (id);
-- (void)0@ù
-× ;
-- (void)thEnvironmentScrollableContainer:(double)arg1 focusItemInfo:focusUpdateContext: /* Error: Ran out of types for this method. */;
-- (void)TM;
+- (void);
+- (void);
+- (void);
+- (void)etItemIdentifierDiffer:(_Bool)arg1;
+- (id)UITextInputSessionDictationEndedAction;
 
 // Remaining properties
 @property(nonatomic) _Bool opaque; // @dynamic opaque;

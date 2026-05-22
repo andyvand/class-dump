@@ -15,7 +15,7 @@
 - (id);
 - (long long);
 - (void);
-- (id)Úð5;
+- (id)"<PXActionProviderDelegate>",W,N;
 
 @end
 

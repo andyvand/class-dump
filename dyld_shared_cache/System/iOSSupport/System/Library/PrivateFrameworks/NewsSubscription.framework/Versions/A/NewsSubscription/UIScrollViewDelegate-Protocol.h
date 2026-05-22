@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
-
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)was asked for %@);
-- (_Bool)$;
-- (void)ainer;
-- (void)setMetric:(UIScrollView *)arg1;
-- (void)ubscription0B26OffersViewModelFactoryTypeP;
-- (void)eAlertTitle;
+- (void);
 @end
 

@@ -23,7 +23,7 @@
 }
 
 + (id);
-+ (id)@;
++ (id);
 + (double);
 + (id);
 + (double);
@@ -44,9 +44,9 @@
 - (double);
 - (void);
 - (struct CGRect);
-- (_Bool)P;
+- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -57,28 +57,29 @@
 - (id);
 - (double);
 - (id);
-- (struct CGRect)kA;
+- (struct CGRect);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void)@;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
+- (void)ùÑÐ1Â0@ù
+× ;
+- (void)sition"16;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *composeFieldInfoLabel; // @synthesize composeFieldInfoLabel=_composeFieldInfoLabel;

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     _UIStatusBarDataEntry *_entry;
 }
 
-+ (id)eIntersection:(id)arg1;
-- (void);
-- (void);
++ (id);
 - (id);
-- (_Bool);
-- (void)ª];
+- (void);
+- (void);
+- (_Bool)argin-top:%dpx; %@; color:rgba(%d, %d, %d, %f); word-wrap:break-word; -webkit-nbsp-mode:space; -webkit-line-break:after-white-space; /* Error: Ran out of types for this method. */;
+- (void)R¸ëQð?;
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated=_animated;

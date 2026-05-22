@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMessageEntryView, CKThrowAnimationManager;
-
 @protocol CKThrowAnimationManagerDelegate
-- (struct CGRect);
-- (void)Ö;
-- (CKMessageEntryView *)[ICAuthorHighlightsController performHighlightUpdatesForRange:(CKThrowAnimationManager *)arg1 inTextStorage:updates:] /* Error: Ran out of types for this method. */;
-- (double)CAudioPlaybackTimeChangedNotification;
 @end
 

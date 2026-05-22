@@ -15,25 +15,26 @@ __attribute__((visibility("hidden")))
     _Bool _valid;
 }
 
-+ (id)ateHash;
-- (id);
++ (id);
 - (id);
-- (id)e;
-- (id)Member: /* Error: Ran out of types for this method. */;
-- (long long)Once;
-- (void)L;
-- (void)se when no override database was set;
-- (void)play database;
-- (void)lt, ending previous override;
-- (void)ase was already overriding the default, ending previous override;
-- (void)troller, previous store controller with database at path %@ remains active;
-- (void)h:(id)arg1 %@;
-- (void)lock;
+- (id);
+- (id);
+- (id);
+- (long long);
 - (void);
-- (void);
-- (long long)@"UIUpdateInfo"16;
-- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long)0@ù
+× ;
+- (_Bool),S_setSlotAnyContentProvider: /* Error: Ran out of types for this method. */;
+- (void)dÿy;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIAlertControllerActionView *alertControllerActionView; // @dynamic alertControllerActionView;

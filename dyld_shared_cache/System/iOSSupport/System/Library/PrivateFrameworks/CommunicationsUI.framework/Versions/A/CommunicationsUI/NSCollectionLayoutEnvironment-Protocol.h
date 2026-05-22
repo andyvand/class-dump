@@ -8,7 +8,6 @@
 @protocol NSCollectionLayoutContainer;
 
 @protocol NSCollectionLayoutEnvironment
-- (id <NSCollectionLayoutContainer>)p%;
 - (UITraitCollection *);
 
 // Remaining properties

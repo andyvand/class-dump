@@ -11,17 +11,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)%d
+;
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void));
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)ition:(id)arg1;
+- (id)houldConfigureFloatingContentView;
 
 // Remaining properties
 @property(nonatomic) _Bool didBeginOutput; // @synthesize didBeginOutput=_didBeginOutput;

@@ -11,7 +11,7 @@
 - (id);
 - (id);
 - (id);
-- (id)Input:processedParameters:completion: /* Error: Ran out of types for this method. */;
+- (id)adata;
 
 @end
 

@@ -16,17 +16,17 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ÿÿ,ü;
++ (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (double);
 - (double);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

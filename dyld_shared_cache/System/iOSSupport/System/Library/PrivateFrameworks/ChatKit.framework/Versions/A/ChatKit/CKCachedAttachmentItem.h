@@ -13,13 +13,13 @@
     CKAttachmentItem *attachmentItem;
 }
 
-- (void)riggering coalesced mention notification to %@, expecting %@;
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void)%Æÿ;
 
 // Remaining properties
 @property(nonatomic, retain) CKAttachmentItem *attachmentItem; // @synthesize attachmentItem;

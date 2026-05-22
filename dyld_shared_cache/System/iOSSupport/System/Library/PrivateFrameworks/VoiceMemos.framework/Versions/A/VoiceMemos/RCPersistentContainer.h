@@ -16,10 +16,7 @@
 
 + (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
@@ -27,6 +24,9 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;

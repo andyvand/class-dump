@@ -41,21 +41,21 @@
 - (void);
 - (void);
 - (double);
+- (id);
+- (id);
 - (struct CGSize);
 - (void);
 - (void);
 - (long long);
 - (long long);
-- (id);
+- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (id);
-- (void);
 - (void);
 - (void);
 - (long long);
 - (struct CGPoint);
-- (void);
 - (void);
 
 // Remaining properties

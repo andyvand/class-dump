@@ -27,10 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (unsigned long long);
+- (void);
+- (void)ected:isForActionBar:actionBarMoreMenu: /* Error: Ran out of types for this method. */;
+- (unsigned long long)	
+;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *activitySourceTitle;

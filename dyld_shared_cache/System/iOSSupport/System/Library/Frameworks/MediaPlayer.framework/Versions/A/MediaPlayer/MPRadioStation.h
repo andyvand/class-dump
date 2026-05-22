@@ -14,24 +14,23 @@
     NSString *_stationStringID;
 }
 
-+ (_Bool)upIfNecessary:] Ignoring - Device is not valid home accessory /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)pruneWithDeletedContactIdentifiers: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
+- (void);
+- (long long);
+- (void);
 - (id);
 - (void);
-- (id)pleInternal/Library/BuildRoots/4~CG4qugCAwx2HRnOmeF9edGkGuS6TSSvve4LSm3o/Library/Caches/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/s23_srvr.c;
-- (void);
-- (long long)1¢!0@ù
-× ;
-- (id);
+- (void)APPING_MISSING__;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;

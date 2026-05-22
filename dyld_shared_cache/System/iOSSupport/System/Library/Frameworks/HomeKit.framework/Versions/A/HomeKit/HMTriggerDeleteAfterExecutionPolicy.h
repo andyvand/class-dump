@@ -11,13 +11,13 @@
 }
 
 + (id);
-+ (_Bool)dings;
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 
 @end
 

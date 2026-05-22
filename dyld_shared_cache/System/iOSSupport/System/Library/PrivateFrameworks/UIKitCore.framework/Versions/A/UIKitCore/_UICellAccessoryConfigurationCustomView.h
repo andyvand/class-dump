@@ -14,19 +14,19 @@
     UIView *_customView;
 }
 
-+ (_Bool)Zm;
++ (_Bool)cking remote view controller:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)tkt?);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void)éóº;
-- (id)essLocked;
-- (id)ÿ`;
+- (_Bool)aint:(id)arg1;
+- (void)h:(id)arg1;
+- (id)",&,N,V_grayscaleTintMaskViewContainer;
+- (id)ingDebugInfo(SEL _Nonnull);
+- (void)Ë_Ìt^;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *customView; // @synthesize customView=_customView;

@@ -14,14 +14,15 @@
 }
 
 - (id);
-- (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (void);
-- (void)upported;
-- (_Bool)dleIdentifierScorerCache;
+- (_Bool)!ÔBùñÐ1B50@ù
+× ;
+- (void):saturation:brightness:alpha: /* Error: Ran out of types for this method. */;
+- (_Bool)áiÿÿ;
+- (void)k/AccessibilityUIUtilities (%d);
 
 // Remaining properties
 @property(nonatomic) _Bool available; // @synthesize available=_available;

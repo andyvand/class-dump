@@ -10,13 +10,13 @@
 {
 }
 
-- (id)ry",&,N,V_handledNicknames;
-- (id)oken;
-- (id);
-- (long long);
 - (id);
 - (id);
-- (id)é+ÿS;
+- (id);
+- (id)led with nil scene, skipping save;
+- (id)ettings;
+- (id);
+- (long long)ÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) BSAction *action;

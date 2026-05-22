@@ -22,12 +22,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -36,13 +36,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id)ÔÁ_Ð!|@ùp
-°1b0@ù
-× ;
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIControl *addContactButton; // @synthesize addContactButton=_addContactButton;

@@ -19,14 +19,14 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
 - (id);
+- (id);
+- (void);
 - (long long);
 - (void);
-- (void)ks;
-- (long long);
+- (void);
+- (void)ring",R,C,N,V_copyrightText;
+- (long long)A;
 
 // Remaining properties
 @property(nonatomic) long long fileSize; // @synthesize fileSize;

@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
-
 @protocol UIDataSourceTranslating
-- (void)tChanged:(void (^)(void))arg1;
-- (NSIndexPath *)OnIdle:(NSIndexPath *)arg1;
 @end
 

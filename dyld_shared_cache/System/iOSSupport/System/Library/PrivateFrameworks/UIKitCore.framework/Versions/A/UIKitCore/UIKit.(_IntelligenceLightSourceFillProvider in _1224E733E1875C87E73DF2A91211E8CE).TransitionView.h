@@ -16,11 +16,10 @@
     MISSING_TYPE *lightSourceView;
 }
 
-- (void);
 - (id);
-- (void)
-× ;
-- (id)edly found duplicate commands. This is a UIKit internal bug.;
+- (void);
+- (id)ngCell;
+- (void)Hël;
 
 @end
 

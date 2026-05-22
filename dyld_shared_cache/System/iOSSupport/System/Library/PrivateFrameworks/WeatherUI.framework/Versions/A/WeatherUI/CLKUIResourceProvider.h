@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)Xüÿ\ÆÔÿ(;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <CLKUIResourceProviderDelegate> delegate; // @synthesize delegate=_delegate;

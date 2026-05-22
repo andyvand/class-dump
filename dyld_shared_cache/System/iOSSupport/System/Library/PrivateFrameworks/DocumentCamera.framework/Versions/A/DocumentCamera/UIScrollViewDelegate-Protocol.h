@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)sentingViewController;
-- (void)igationItem;
+- (void);
 @end
 

@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMDExportedRecordBatch
 {
-    void batchIterationKeys;
     long long examinedRecordsCount;
     _Bool isDone;
     double databaseQueryDuration;
     long long recordCount;
 }
 
-+ (_Bool)StorageDirectoryLogger;
++ (_Bool);
 - (void);
 - (double);
 - (id);
 - (long long);
 - (double);
 - (id);
-- (void);
-- (long long);
-- (void);
 - (id);
-- (void);
-- (id)ionTool",R,N;
-- (void);
-- (id)?;
+- (id);
 - (_Bool);
-- (_Bool)ansfer guids when updating CMM syndicationRanges on message %@;
+- (void);
+- (void);
+- (long long);
+- (void);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *batchIterationKeys;
 @property(nonatomic) double databaseQueryDuration; // @synthesize databaseQueryDuration;
 @property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) long long examinedRecordsCount; // @synthesize examinedRecordsCount;

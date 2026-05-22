@@ -8,8 +8,6 @@
 @protocol SXTextStyleFontAttributes;
 
 @protocol SXTextStyleFontDescribing
-- (id <SXTextStyleFontAttributes>)~өC;
-- (NSString *)vider:resourceDataSource:loadingPolicyProvider:dataSourceProvider:layoutInvalidator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXTextStyleFontAttributes> fontAttributes;

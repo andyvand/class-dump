@@ -18,6 +18,7 @@
     MISSING_TYPE *appConfigManager;
     MISSING_TYPE *bundleSubscriptionManager;
     MISSING_TYPE *bundleSessionManager;
+    MISSING_TYPE *bundleCampaignSessionManager;
     MISSING_TYPE *bundleSubscriptionDetectionManager;
     MISSING_TYPE *subscriptionList;
     MISSING_TYPE *nativeAdService;
@@ -35,13 +36,13 @@
     MISSING_TYPE *offlineFeedPrimer;
     MISSING_TYPE *offlineFeatures;
     MISSING_TYPE *blockNextAutoRefresh;
-    MISSING_TYPE *shortcutsModule;
-    MISSING_TYPE *shortcutsPluginConfig;
+    MISSING_TYPE *contentShortcutsModule;
+    MISSING_TYPE *contentShortcutsPluginConfig;
 }
 
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (unsigned long long);
 - (id);
+- (struct CLLocationCoordinate2D);
 - (id);
-- (id);
-- (struct CLLocationCoordinate2D)_defaultActiveValue;
-- (unsigned long long)HUCharacteristicEventOptionInstructionsHeader;
+- (id)mentModule;
+- (void)peat;
 
 // Remaining properties
 @property(readonly, nonatomic) CLCircularRegion *circularRegion; // @synthesize circularRegion=_circularRegion;

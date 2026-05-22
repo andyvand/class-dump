@@ -13,26 +13,26 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)C§;
-- (_Bool)e;
-- (void)ÒÓe;
 - (_Bool);
-- (double)be;
-- (void)e;
-- (double);
-- (void)ÿýJÚº3g;
-- (_Bool)QÿÇÏag;
-- (void)d¯ÿÀÉ9,g;
-- (void)úVzÅh;
-- (id)g;
-- (void)Ó
-òh;
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
-- (void)\(íþRDÙîÓg;
-- (struct UIEdgeInsets)7h;
-- (_Bool)h;
-- (double);
+- (void)0@ù
+× ;
+- (void)mit;
+- (_Bool)CategoryImageAdjusting;
+- (_Bool)õ;
+- (void)¶;
+- (void);
+- (void)Ïg;
+- (id);
+- (void)Èg;
+- (double)üih;
+- (double)P³Ô0h;
+- (double)½ÿ´>Ô4h;
+- (struct UIEdgeInsets)¤Èÿ;
 
 // Remaining properties
 @property(nonatomic) long long accessoryType;

@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAssetFetchResult> allAssetsFetchResult; // @synthesize allAssetsFetchResult=_allAssetsFetchResult;

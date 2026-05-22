@@ -5,18 +5,18 @@
 class dyld4::ProcessConfig::Process {
 public: // (access info unavailable from symbols alone)
     Process(dyld4::KernelArgs const*, dyld4::SyscallDelegate&, lsl::Allocator&);
-    appleParam(char const*) const;
-    defaultTproStack() const;
-    environ(char const*) const;
-    evaluateFunctionVariantFlags(dyld4::ProcessConfig const&);
-    fileIDFromFileHexStrings(char const*);
-    findVersionSetEquivalent(mach_o::Platform, unsigned int) const;
-    getDyldFileID();
-    getDyldPath(dyld4::SyscallDelegate&, lsl::Allocator&);
-    getMainArchs(dyld4::SyscallDelegate&);
-    getMainFileID();
-    getMainPath(dyld4::SyscallDelegate&, lsl::Allocator&);
-    getMainPlatform();
-    getMainUnrealPath(dyld4::SyscallDelegate&, lsl::Allocator&);
-    selectFromFunctionVariants(mach_o::FunctionVariants const&, unsigned int) const;
+    auto appleParam(char const*) const;
+    auto defaultTproStack() const;
+    auto environ(char const*) const;
+    auto evaluateFunctionVariantFlags(dyld4::ProcessConfig const&);
+    auto fileIDFromFileHexStrings(char const*);
+    auto findVersionSetEquivalent(mach_o::Platform, unsigned int) const;
+    auto getDyldFileID();
+    auto getDyldPath(dyld4::SyscallDelegate&, lsl::Allocator&);
+    auto getMainArchs(dyld4::SyscallDelegate&);
+    auto getMainFileID();
+    auto getMainPath(dyld4::SyscallDelegate&, lsl::Allocator&);
+    auto getMainPlatform();
+    auto getMainUnrealPath(dyld4::SyscallDelegate&, lsl::Allocator&);
+    auto selectFromFunctionVariants(mach_o::FunctionVariants const&, unsigned int) const;
 };

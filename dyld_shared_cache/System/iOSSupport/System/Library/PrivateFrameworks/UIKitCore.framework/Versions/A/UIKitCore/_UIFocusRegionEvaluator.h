@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)g;
-+ (id)essages.SMSReceivedRelaySendDownloadRequest;
-+ (id)essage;
-+ (struct CGRect)ChatRecord %@;
++ (id);
++ (id);
++ (id);
++ (struct CGRect);
 + (id);
 + (id);
 

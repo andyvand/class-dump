@@ -11,26 +11,25 @@
 {
     NSString *_identifier;
     id <SXHost> _host;
+    id <SXResourceDataSource> _resourceDataSource;
     SXDocumentController *_documentController;
     id <SXTextContentProvider> _textContentProvider;
-    id <SXResourceDataSource> _resourceDataSource;
 }
 
-+ (void)kòÿ©S6G;
-- (id);
-- (id);
-- (void);
++ (void);
 - (id);
 - (id);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (id);
+- (void)@0:8@"SXTextTangierInteractiveCanvasController"16@"UITextInteraction"24{CGPoint=dd}32 /* Error: Ran out of types for this method. */;
+- (id)onary;
 
 // Remaining properties
 @property(readonly, nonatomic) SXDocumentController *documentController; // @synthesize documentController=_documentController;
 @property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) __weak id <SXResourceDataSource> resourceDataSource; // @synthesize resourceDataSource=_resourceDataSource;
+@property(readonly, nonatomic) id <SXResourceDataSource> resourceDataSource; // @synthesize resourceDataSource=_resourceDataSource;
 @property(readonly, nonatomic) id <SXTextContentProvider> textContentProvider; // @synthesize textContentProvider=_textContentProvider;
 
 @end

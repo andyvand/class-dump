@@ -4,5 +4,5 @@
 
 class dyld {
 public: // (access info unavailable from symbols alone)
-    finalizeListTLV(void*);
+    auto finalizeListTLV(void*);
 };

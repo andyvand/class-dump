@@ -15,11 +15,11 @@
 }
 
 + (Class);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)ve smart prompt state:(id)arg1 %@;
+- (void)nateRequestClass(void)_block_invoke;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;

@@ -25,15 +25,15 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool),V_useSafeAreaInsetWithPadding;
++ (_Bool);
 - (id);
-- (id)];
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)i;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -43,7 +43,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)`;
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -51,22 +51,22 @@
 - (id);
 - (id);
 - (id);
-- (void)ustomImage;
+- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (void);
-- (id)ected N:(struct _NSZone *)arg1 %ld responses from XPC.;
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void)1ð1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *application; // @synthesize application=_application;

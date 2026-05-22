@@ -42,17 +42,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void)alendar;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;

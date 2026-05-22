@@ -37,15 +37,15 @@
 - (id);
 - (id);
 - (void);
-- (void)1;
-- (long long);
+- (void);
+- (long long);
 - (id);
-- (void)B;
 - (id);
 - (unsigned long long);
-- (id)ingSignals;
 - (void);
+- (id);
 - (void);
+- (void)s="top"d"left"d"bottom"d"right"d};
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarStoreInternal> avatarStore; // @synthesize avatarStore=_avatarStore;

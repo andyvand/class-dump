@@ -12,8 +12,8 @@
     MISSING_TYPE *windowsPerScene;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

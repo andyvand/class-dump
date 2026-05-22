@@ -47,32 +47,31 @@
 - (void);
 - (id);
 - (void);
-- (struct CGRect);
 - (void);
 - (void);
-- (id);
 - (double);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (struct CGRect);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)!Fù±/ð1b0@ù
-× ;
-- (id)O: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)HUCameraRecordingSettingsUnsupportedHomeHub_Message;
+- (id)UMobileTimerObject must wrap an alarm;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allConstraints; // @synthesize allConstraints=_allConstraints;

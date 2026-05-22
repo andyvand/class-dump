@@ -11,13 +11,13 @@
     PKDrawingPaletteInputAssistantView *_inputAssistantView;
 }
 
-- (void)tWithRequestKey:(id)arg1 responseKey:userID:storefrontID:bundleID:deviceInfo:debugOverrides:backgroundFetchConfiguration:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (id)ngEnabled: /* Error: Ran out of types for this method. */;
-- (void)g:(id)arg1;
-- (struct CGSize)ÿ`þÿþÿÐþÿôþÿ þÿTþÿþÿ þÿÔþÿøþÿþÿàþÿþÿ8þÿdþÿþÿ¬þÿàþÿþÿ@þÿtþÿþÿ¼þÿèþÿ þÿ0 þÿT þÿx þÿ þÿÀ þÿä þÿ ¥þÿÄ¥þÿè¥þÿ$¦þÿH¦þÿl¦þÿ¦þÿÌ¦þÿð¦þÿ§þÿ8§þÿt§þÿ§þÿ¼§þÿà§þÿ¨þÿ@¨þÿd¨þÿ¨þÿ¼¨þÿø¨þÿ©þÿ@©þÿd©þÿ ©þÿÄ©þÿè©þÿªþÿHªþÿlªþÿªþÿ´ªþÿðªþÿ«þÿ8«þÿ\«þÿ«þÿ¼«þÿà«þÿ¬þÿP¬þÿ¬þÿè¬þÿ4­þÿ­þÿÌ­þÿ®þÿd®þÿd¯þÿ¯þÿ¬¯þÿè¯þÿ°þÿ;
+- (void)loseButtonVisible;
+- (void)etteViewPrivateDelegate;
+- (id)ðü;
+- (struct CGSize)_ptr_pointerIPNS_6vectorIN12_GLOBAL__N_112StrokeVertexENS_9allocatorIS3_EEEENS_10shared_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS4_IS6_EEEE;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

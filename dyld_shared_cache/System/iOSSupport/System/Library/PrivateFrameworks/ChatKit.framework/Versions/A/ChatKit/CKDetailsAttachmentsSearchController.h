@@ -15,8 +15,8 @@
 
 + (id);
 - (id);
-- (void);
-- (id)for content ID %@;
+- (void);
+- (id);
 - (void);
 
 // Remaining properties

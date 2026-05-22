@@ -29,9 +29,9 @@
 - (struct CGRect);
 - (id);
 - (id);
+- (void);
 - (struct CGColor *);
-- (void);
-- (void);
+- (void)D5T7;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool equationIsValid; // @synthesize equationIsValid=_equationIsValid;

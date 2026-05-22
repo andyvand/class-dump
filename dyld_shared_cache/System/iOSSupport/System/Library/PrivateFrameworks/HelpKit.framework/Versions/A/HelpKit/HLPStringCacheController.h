@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)eRecognizer"16@"UITouch"24;
++ (id);
 - (id);
 - (_Bool);
 - (void);

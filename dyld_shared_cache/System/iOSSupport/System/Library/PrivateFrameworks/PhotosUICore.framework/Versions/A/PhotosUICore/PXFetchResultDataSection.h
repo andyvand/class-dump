@@ -16,12 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id)!|CùQ{Ð1b0@ù
-× ;
-- (long long);
+- (id)ewedActionPerformer;
+- (long long)eManager.remainingProducers;
+- (void)lÀ#ÿä{Wÿ;
+- (unsigned long long)àØµÿ;
+- (id)ÜÁN|¾8;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;

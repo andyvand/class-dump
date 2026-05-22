@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (void)°!BùQÇ1¢!0@ù
+- (void);
+- (id);
+- (void)Ð1Â0@ù
 × ;
-- (id)ntView: /* Error: Ran out of types for this method. */;
-- (void)th context %{public}@. No additional info available.;
+- (void)Mÿ,7;
 
 // Remaining properties
 @property(retain, nonatomic) id <UISpringLoadedInteractionEffect> blinkEffect; // @synthesize blinkEffect=_blinkEffect;

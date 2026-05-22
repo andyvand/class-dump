@@ -5,6 +5,5 @@
 //
 
 @protocol PKPalettePopoverUpdating
-- (void)gAb8POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Utilities/RCAsyncSerialQueue.m;
 @end
 

@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)ionActivityItem>"16;
+- (unsigned long long)sationConfirmationAlertsDisplayConfiguration";
 
 @end
 

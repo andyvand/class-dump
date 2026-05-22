@@ -32,7 +32,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)of ${Input};
++ (_Bool);
 
 @end
 

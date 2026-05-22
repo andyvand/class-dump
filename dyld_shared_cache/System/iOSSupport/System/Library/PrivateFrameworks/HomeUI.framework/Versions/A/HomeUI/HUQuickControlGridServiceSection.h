@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)marySectionIdentifierNamingSection;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *gridControlItems; // @synthesize gridControlItems=_gridControlItems;

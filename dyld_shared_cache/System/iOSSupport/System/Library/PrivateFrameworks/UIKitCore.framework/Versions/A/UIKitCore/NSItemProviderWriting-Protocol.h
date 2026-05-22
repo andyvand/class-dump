@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSProgress;
+@class NSArray;
 
 @protocol NSItemProviderWriting
-- (NSProgress *);
++ (NSArray *)ryiPadLandscapePasscode;
 
 @optional
-+ (long long)anager;
-- (NSArray *)R;
-- (long long)e;
++ (long long)WithHostedWindow;
+- (long long)usDeferral;
+- (NSArray *)oardCameraSession;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;

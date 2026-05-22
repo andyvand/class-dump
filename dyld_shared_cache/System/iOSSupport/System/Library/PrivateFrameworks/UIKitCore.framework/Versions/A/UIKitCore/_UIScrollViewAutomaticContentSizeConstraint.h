@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ction:shouldBeDelayedByGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

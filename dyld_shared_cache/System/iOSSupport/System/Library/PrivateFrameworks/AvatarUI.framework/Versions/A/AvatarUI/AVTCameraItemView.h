@@ -16,13 +16,13 @@
 - (void);
 - (void);
 - (id);
-- (void))a;
 - (void);
-- (id);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageSymbolConfiguration *cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;

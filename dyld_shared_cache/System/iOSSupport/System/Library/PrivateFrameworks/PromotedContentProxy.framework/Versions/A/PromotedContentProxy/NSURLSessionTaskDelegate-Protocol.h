@@ -7,8 +7,6 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void);
-- (void);
-- (void)ntRequestQueue;
+- (void)rDefaults;
 @end
 

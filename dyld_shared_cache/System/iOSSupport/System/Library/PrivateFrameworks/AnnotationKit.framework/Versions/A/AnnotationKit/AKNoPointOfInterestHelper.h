@@ -10,7 +10,7 @@
 {
 }
 
-+ (void)<;
++ (void);
 + (unsigned long long);
 
 @end

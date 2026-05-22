@@ -23,15 +23,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *eventScore; // @synthesize eventScore=_eventScore;

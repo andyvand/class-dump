@@ -26,20 +26,20 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id)|aripods;
+- (id)T;
+- (_Bool)D;
+- (void)deallocated without [invalidate] being called...;
+- (void)[WFActionDonationRecommender _fetchDonationsWithLimit:applicationBundleIdentifier:includeSuggestedForAllApps:completionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *automationType; // @synthesize automationType=_automationType;

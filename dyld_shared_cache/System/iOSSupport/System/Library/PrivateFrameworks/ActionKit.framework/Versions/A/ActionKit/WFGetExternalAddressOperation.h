@@ -18,22 +18,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)
+- (void);
+- (id);
+- (_Bool);
+- (struct __CFReadStream *);
+- (id)A«°!ÜFù´°1B50@ù
 × ;
-- (_Bool)Dì;
-- (void)tiveSelectionType);
-- (struct __CFReadStream *)¡`ÞÚ( ç¼')dM;
+- (void)rOrigin:(id)arg1;
+- (void)der's alert.;
+- (void)6S»;
+- (_Bool)~-Ö{Ä;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableData *data; // @synthesize data=_data;

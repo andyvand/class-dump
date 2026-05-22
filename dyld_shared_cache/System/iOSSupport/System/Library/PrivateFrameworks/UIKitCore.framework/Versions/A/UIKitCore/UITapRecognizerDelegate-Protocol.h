@@ -7,13 +7,12 @@
 @class UIView;
 
 @protocol UITapRecognizerDelegate
-- (void);;
-- (_Bool);
-- (double)ShouldPlayFeedback: /* Error: Ran out of types for this method. */;
+- (UIView *)imuthUnitVector;
+- (void)enterY;
+- (_Bool)éÿXtéÿtéÿøtéÿDuéÿhuéÿøwéÿpyéÿ;
 
 @optional
-- (void)°!èAùÑÂ1¢!0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *view;

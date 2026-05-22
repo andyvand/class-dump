@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)SelectSameSuggestion:(id)arg1;
-- (id)X94¼¼t½-r?;
+- (id)customViewAnimatorBlock;
+- (void)InContent;
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

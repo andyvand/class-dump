@@ -28,7 +28,7 @@
     long long _globalFooterVisibility;
 }
 
-+ (id)Ð[ùÿýÒ;
++ (id)tPage;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -68,9 +68,9 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowDynamicDetailsTitles; // @synthesize allowDynamicDetailsTitles=_allowDynamicDetailsTitles;

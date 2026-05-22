@@ -17,19 +17,19 @@
 }
 
 - (void);
-- (void)Count;
-- (unsigned long long)d on object %@ %@;
-- (id)account, but found no service; %@;
 - (void);
-- (void);
+- (unsigned long long);
 - (id);
 - (void);
 - (id);
-- (id)1¢!0@ù
+- (void);
+- (id)1Â0@ù
 × ;
-- (id)Snapshot;
-- (id)etAdditionalTouchesCancelLift:,V_additionalTouchesCancelLift /* Error: Ran out of types for this method. */;
-- (id)ë;
+- (id)"_UIEditMenuPresentation",R,N,V__outgoingPresentation;
+- (id)SValue",C,N,V_environmentScrollInitialContentOffset;
+- (id)utton;
+- (id)T¨Ã2À9þ;
+- (void)`\_;
 
 // Remaining properties
 @property(nonatomic, setter=_setAnimationSource:) unsigned long long _animationSource; // @synthesize _animationSource=__animationSource;

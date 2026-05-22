@@ -16,12 +16,12 @@
 
 - (double);
 - (id);
-- (double)ent search:unknown search query /* Error: Ran out of types for this method. */;
-- (double)56@?0@"NSString"8{_NSRange=QQ}16{_NSRange=QQ}32^B48;
-- (long long)|oq[-äl;
-- (double)ð;
+- (double)lignment;
+- (long long)$;
+- (double)esend invitation to participant:%@ in shared album:%@ /* Error: Ran out of types for this method. */;
 - (double);
-- (void)xÂÿvSLc34;
+- (double)ErrorDomain;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long count; // @synthesize count=_count;

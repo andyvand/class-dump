@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)4ÀXÃ;
 
 // Remaining properties
 @property(retain, nonatomic) HMPresenceEvent *presenceEvent; // @synthesize presenceEvent=_presenceEvent;

@@ -16,18 +16,18 @@ __attribute__((visibility("hidden")))
     struct CGRect _typeBounds;
 }
 
-- (struct CGRect)Skip data class '%@';
-- (void);
-- (void);
-- (struct CGPoint);
-- (void);
 - (struct CGRect);
+- (void);
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)awImageForLegibilityStyle:size: /* Error: Ran out of types for this method. */;
-- (void)oveEvent:(struct CGRect)arg1 ,V_moveEvent;
-- (id);
+- (id);
+- (id);
+- (struct CGRect);
+- (void)w;
+- (void)text_p;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint baselinePoint; // @synthesize baselinePoint=_baselinePoint;

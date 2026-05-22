@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)ô$à+;
++ (id);
 
 // Remaining properties
 @property(nonatomic) double altitude; // @dynamic altitude;

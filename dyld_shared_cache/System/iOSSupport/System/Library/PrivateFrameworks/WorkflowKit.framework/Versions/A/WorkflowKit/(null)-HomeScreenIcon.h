@@ -5,6 +5,6 @@
 //
 
 @interface (null) (HomeScreenIcon)
-- (id)à ³Ì;
+- (id);
 @end
 

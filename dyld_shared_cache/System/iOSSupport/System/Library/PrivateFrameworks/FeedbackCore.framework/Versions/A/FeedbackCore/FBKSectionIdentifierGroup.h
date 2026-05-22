@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *givenRowIdentifiers; // @synthesize givenRowIdentifiers=_givenRowIdentifiers;

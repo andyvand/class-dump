@@ -21,8 +21,8 @@
 - (double);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id)lection>"16;
+- (void)beddingOnlyResultsInExactMatches;
 
 @end
 

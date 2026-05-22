@@ -28,17 +28,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)× ;
-- (id)thCapacity: /* Error: Ran out of types for this method. */;
-- (id)y®7y 7yAByú­7-¬7ySiSgGGADy­7SgGG_Qo__@²7yAAy¿²7_AByABy¹>7GÀ©9GANtGGtGSg;
-- (void)Identifier;
+- (void);
+- (id)itWithAccount:accountParameters:bag:metrics:viewController:userInfo: /* Error: Ran out of types for this method. */;
+- (id)dOnStackBooleanURL:(id)arg1;
+- (void)Ø13y13yAAyAAyv33yADGå1yß1SgGG1y 	1GG_Qo__Qo__Qo__SSQo_AEG_Qo_tGG½ÿ0GAZGAZGAZG;
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;

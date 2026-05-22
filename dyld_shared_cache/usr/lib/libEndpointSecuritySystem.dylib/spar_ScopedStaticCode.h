@@ -4,5 +4,5 @@
 
 class spar::ScopedStaticCode {
 public: // (access info unavailable from symbols alone)
-    fromPath(char const*);
+    auto fromPath(char const*);
 };

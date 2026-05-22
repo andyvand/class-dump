@@ -120,13 +120,13 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (float);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 
 // Remaining properties

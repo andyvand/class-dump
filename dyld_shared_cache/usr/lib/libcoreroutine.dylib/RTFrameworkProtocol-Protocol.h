@@ -4,14 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol RTFrameworkProtocol
-- (void)DayThisWeek, %@;
-- (void)ssionConfig handles, %@;
-- (void)actionNumber, %lld, transactionCount, %lu;
-- (void)n, %lu, detected %lu visits from %lu locations ranging from %@ to %@;
-- (void)n, %{sensitive}@, distance, %.3f, cached locations count, %lu;
-- (void)nvalid parameter not satisfying:(NSArray *)arg1 tripSegmentRoadTransitionsStore;
+- (void)ache receivers;
 @end
 

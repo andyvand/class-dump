@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)gePartIndex;
-- (id)DRelayAttachmentController;
-- (id),;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)viewSizeDidChange;
-- (void)`;
-- (id)Ý)a;
+- (id);
+- (id);
+- (void)8ï[;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isGroupMode) _Bool groupMode;

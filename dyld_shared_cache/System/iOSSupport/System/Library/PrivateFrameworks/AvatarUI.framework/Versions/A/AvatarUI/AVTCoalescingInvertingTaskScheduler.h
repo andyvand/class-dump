@@ -25,10 +25,10 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)ce;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTTaskScheduler> backingScheduler; // @synthesize backingScheduler=_backingScheduler;

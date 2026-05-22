@@ -12,9 +12,10 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (struct CGRect);
+- (void)1Â0@ù
+× ;
+- (void)16lL±ÿ;
 
 @end
 

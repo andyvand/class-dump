@@ -50,17 +50,17 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)tors;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PRSPosterGalleryLayout *currentGalleryConfiguration;

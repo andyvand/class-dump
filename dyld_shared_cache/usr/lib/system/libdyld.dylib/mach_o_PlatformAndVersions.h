@@ -4,6 +4,6 @@
 
 class mach_o::PlatformAndVersions {
 public: // (access info unavailable from symbols alone)
-    unzip(void (mach_o::PlatformAndVersions) block_pointer) const;
-    zip(mach_o::PlatformAndVersions const&);
+    auto unzip(void (mach_o::PlatformAndVersions) block_pointer) const;
+    auto zip(mach_o::PlatformAndVersions const&);
 };

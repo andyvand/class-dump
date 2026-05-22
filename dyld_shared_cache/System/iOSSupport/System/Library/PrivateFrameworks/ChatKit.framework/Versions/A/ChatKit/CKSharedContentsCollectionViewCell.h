@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)ivityItemsForSharingForRange: /* Error: Ran out of types for this method. */;
-- (void)ryString;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,19 +30,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)k
-;
 - (id);
-- (id)LayerDelegate;
-- (id)F7üÿ;
-- (void)nDelegate;
-- (void)meters;
-- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id)InsetsReference: /* Error: Ran out of types for this method. */;
+- (_Bool)ðóêÿ°ôêÿìôêÿõêÿ;
+- (void);
+- (_Bool)Ä;
+- (void)ü,;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *checkmarkView; // @synthesize checkmarkView=_checkmarkView;

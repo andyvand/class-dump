@@ -9,10 +9,10 @@
     unsigned int _lastKnownPassthroughCapableAudioDeviceID;
 }
 
-- (_Bool)56@0:8d16Q24@32@40@?48 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (unsigned int)_CONST;
+- (_Bool);
+- (unsigned int);
 - (_Bool);
 - (id);
 

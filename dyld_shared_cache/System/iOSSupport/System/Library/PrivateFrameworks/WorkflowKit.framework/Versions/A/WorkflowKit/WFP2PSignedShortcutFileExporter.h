@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)nEnabled;
 
 // Remaining properties
 @property(retain, nonatomic) WFFileRepresentation *signedShortcutFile; // @synthesize signedShortcutFile=_signedShortcutFile;

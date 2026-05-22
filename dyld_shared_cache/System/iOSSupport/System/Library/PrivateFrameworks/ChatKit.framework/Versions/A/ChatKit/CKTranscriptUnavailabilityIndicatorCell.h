@@ -21,22 +21,22 @@
 - (id);
 - (id);
 - (id);
-- (void)achment:(id)arg1 withFallbackPDFData: /* Error: Ran out of types for this method. */;
-- (void)enerateImageForAttachment:(id)arg1 fullResolution:appearanceInfo: /* Error: Ran out of types for this method. */;
-- (void)awing:(id)arg1 fullResolution:appearanceInfo: /* Error: Ran out of types for this method. */;
-- (void)ingExtraNewlinesAtEndDuringFixup;
 - (void);
 - (void);
-- (_Bool);
-- (void));
-- (id)storage_$_scanner;
-- (void)lKey.swift;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
-- (id)dConversations;
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)h:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

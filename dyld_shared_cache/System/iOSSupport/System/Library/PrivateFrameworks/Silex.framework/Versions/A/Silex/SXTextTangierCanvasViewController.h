@@ -15,15 +15,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)xt:(id)arg1;
-- (_Bool);
-- (long long)4˟;
 - (void);
-- (void)?;
+- (_Bool);
+- (void);
+- (long long);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void)umber of components:(id)arg1 %lu;
 
 // Remaining properties
 @property(nonatomic) _Bool selectAllEnabled; // @synthesize selectAllEnabled=_selectAllEnabled;

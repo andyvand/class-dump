@@ -17,10 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)$ûÿ;
-- (void)8;
+- (id)
+× ;
+- (void)ationWithShouldIncludeLocation:(id)arg1;
+- (void)À;
+- (void)6;
 
 @end
 

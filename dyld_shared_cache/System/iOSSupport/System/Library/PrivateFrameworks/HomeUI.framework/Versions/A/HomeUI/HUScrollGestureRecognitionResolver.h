@@ -31,8 +31,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ro.ContinueButton;
 
 // Remaining properties
 @property(nonatomic) double conflictingGestureActivationDelay; // @synthesize conflictingGestureActivationDelay=_conflictingGestureActivationDelay;

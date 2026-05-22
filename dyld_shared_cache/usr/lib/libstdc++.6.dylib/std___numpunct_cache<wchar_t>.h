@@ -4,7 +4,7 @@
 
 class std::__numpunct_cache<wchar_t> {
 public: // (access info unavailable from symbols alone)
-    _M_cache(std::locale const&);
     __numpunct_cache(unsigned long);
+    auto _M_cache(std::locale const&);
     ~__numpunct_cache();
 };

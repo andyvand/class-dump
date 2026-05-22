@@ -18,24 +18,25 @@ __attribute__((visibility("hidden")))
     NSDictionary *_placementInfo;
 }
 
-- (_Bool)ble;
+- (void);
 - (id);
 - (void);
-- (void)!@DùÑÌð1¢!0@ù
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool)Ôá°!<Gù[Ð1Â0@ù
 × ;
-- (id)tTitlebarBackgroundStyle: /* Error: Ran out of types for this method. */;
-- (void)tant:(id)arg1 keepAccessories: /* Error: Ran out of types for this method. */;
-- (void)m:(_Bool)arg1;
-- (_Bool)lacement: /* Error: Ran out of types for this method. */;
-- (void)prepareKeyboardForTransition:(_Bool)arg1 fromView: /* Error: Ran out of types for this method. */;
-- (id)tifier:containerViewBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)nent;
-- (_Bool)cutoutHeight;
-- (id)Ä«4®;
-- (void)d;
-- (void)ocus system, and so cannot request a focus update.;
-- (void)UIFeedbackPlayer_Internal>"8;
-- (id)zÐ];
+- (void)!à@ùÑ\°1Â0@ù
+× ;
+- (void);
+- (id)std::allocator<_UIVelocityIntegratorDataSample *>>="__first_"^^{_UIVelocityIntegratorDataSample}"__begin_"^^{_UIVelocityIntegratorDataSample}"__end_"^^{_UIVelocityIntegratorDataSample}""{?="__cap_"^^{_UIVelocityIntegratorDataSample}}}"__start_"Q""{?="__size_"Q}} /* Error: Ran out of types for this method. */;
+- (id):8@"NSToolbar"16 /* Error: Ran out of types for this method. */;
+- (void)omSignature;
+- (id)Presentations;
+- (_Bool)B;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UIStatusBarData *data; // @synthesize data=_data;

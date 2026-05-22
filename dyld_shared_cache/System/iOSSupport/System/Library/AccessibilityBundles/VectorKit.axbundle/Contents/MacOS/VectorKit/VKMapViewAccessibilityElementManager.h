@@ -101,19 +101,19 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (CDStruct_2c43369c);
+- (void);
 - (CDStruct_aca18c62);
 - (void);
-- (void);
-- (_Bool);
 - (long long);
 - (void);
+- (void);
+- (void);
 - (double);
-- (id);
+- (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (CDStruct_2c43369c);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessibilityElements; // @synthesize accessibilityElements=_accessibilityElements;

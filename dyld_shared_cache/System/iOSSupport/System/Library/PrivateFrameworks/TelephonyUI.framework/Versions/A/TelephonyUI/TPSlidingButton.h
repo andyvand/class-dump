@@ -26,11 +26,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (int);
 - (id);
+- (int);
+- (void);
 - (void);
 - (void);
 

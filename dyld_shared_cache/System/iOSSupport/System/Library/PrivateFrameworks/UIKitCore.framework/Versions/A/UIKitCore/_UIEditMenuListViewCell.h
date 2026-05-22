@@ -26,41 +26,41 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _arrowEdgeInsets;
 }
 
-+ (struct CGSize)ith originalGroupID as regular groupID (%@) in %llu chats, trying with client groupID (%@);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib;
-- (_Bool)ringMessageGUID:chat:sentToDevices: /* Error: Ran out of types for this method. */;
-- (void)IDs;
-- (void)dated: /* Error: Ran out of types for this method. */;
-- (unsigned int)nder:service:groupID:originalGroupID:guid:destinationCallerID:fromMe: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets)ier:%@, asset:%@ /* Error: Ran out of types for this method. */;
-- (void)%@);
-- (double)tamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
++ (struct CGSize);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (void);
-- (void)0@ù
+- (unsigned int);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (double);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)að!4FùQ\Ð1Â0@ù
 × ;
-- (void)WithIntensity:(id)arg1 sharpness: /* Error: Ran out of types for this method. */;
-- (void)InitialController;
-- (id)traints:,V_sourceOverlayViewConstraints /* Error: Ran out of types for this method. */;
-- (id)ntentView;
-- (void)acker;
-- (void)hÛ Ü;
+- (void)ectedIndicatorViewWithImage:(struct CGRect)arg1;
+- (id)additionalInsets:(struct CGRect)arg1 containingScrollViewBounds: /* Error: Ran out of types for this method. */;
+- (id)IRemoteViewService",R,N,V_service;
+- (void):|; /* Error: Ran out of types for this method. */;
+- (void)npost.telemetry:(_Bool)arg1 string1,public}s to=%{signpost.telemetry:string2,public}s /* Error: Ran out of types for this method. */;
+- (void)utes"16@"UICollectionViewLayoutAttributes"24@"NSCollectionLayoutItem"32@40;
+- (void)Ôd\;
 - (id);
-- (void)°-gþ;
-- (id)¥b;
-- (id)c;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets arrowEdgeInsets; // @synthesize arrowEdgeInsets=_arrowEdgeInsets;

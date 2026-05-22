@@ -15,11 +15,10 @@ __attribute__((visibility("hidden")))
     struct __CFDictionary *_headerWidthDict;
 }
 
-- (double);
-- (id)bleSpaceClass;
 - (void);
-- (void)0@ù
-× ;
+- (id);
+- (double);
+- (void)ìmÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *invalidatedSections; // @synthesize invalidatedSections=_invalidatedSections;

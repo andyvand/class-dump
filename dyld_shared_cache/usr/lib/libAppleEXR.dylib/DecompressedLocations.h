@@ -4,5 +4,5 @@
 
 class DecompressedLocations {
 public: // (access info unavailable from symbols alone)
-    CreateDecompressedLocations(TileSize const&, axr_size_t, axr_size_t, axr_size_t);
+    auto CreateDecompressedLocations(TileSize const&, axr_size_t, axr_size_t, axr_size_t);
 };

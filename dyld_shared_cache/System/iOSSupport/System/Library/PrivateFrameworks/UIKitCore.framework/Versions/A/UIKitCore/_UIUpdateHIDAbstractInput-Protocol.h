@@ -5,7 +5,6 @@
 //
 
 @protocol _UIUpdateHIDAbstractInput
-- (void)Ô ;
-- (void)g4(Àþ;
+- (void);
 @end
 

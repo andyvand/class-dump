@@ -8,13 +8,17 @@
 
 @interface FindMyUICore.EmbeddedPeopleSummaryMapViewModel
 {
-    MISSING_TYPE *_state;
     MISSING_TYPE *dependencies;
     MISSING_TYPE *subscriber;
     MISSING_TYPE *logger;
+    MISSING_TYPE *_state;
+    MISSING_TYPE *_emptyContent;
+    MISSING_TYPE *_detailsState;
     MISSING_TYPE *_listController;
     MISSING_TYPE *_detailsController;
+    MISSING_TYPE *_mapViewModel;
     MISSING_TYPE *_fullScreenInteractiveMap;
+    MISSING_TYPE *_observation;
     MISSING_TYPE *_$observationRegistrar;
 }
 

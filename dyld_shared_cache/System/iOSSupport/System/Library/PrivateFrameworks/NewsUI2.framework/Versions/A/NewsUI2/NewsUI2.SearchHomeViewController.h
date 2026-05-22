@@ -17,12 +17,13 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)ÔßÿÄÔßÿHÕßÿtÕßÿ°ÕßÿtÖßÿüÖßÿ×ßÿ@ØßÿØßÿ4ÙßÿôÙßÿ;
+- (void)
+;
+- (void)ineDownloadsConfig.sharedWithYouFeedRules.maxArticleDownloads;
+- (void);
 
 @end
 

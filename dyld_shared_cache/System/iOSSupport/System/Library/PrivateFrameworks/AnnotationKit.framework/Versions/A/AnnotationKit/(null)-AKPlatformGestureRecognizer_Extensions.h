@@ -5,7 +5,7 @@
 //
 
 @interface (null) (AKPlatformGestureRecognizer_Extensions)
-- (unsigned long long)@;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long akNumberOfTapsRequired;

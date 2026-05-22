@@ -13,12 +13,12 @@
     NSData *_data;
 }
 
-+ (id)4@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144@152@160@168@176@184;
-- (id);
-- (void);
++ (id);
 - (id);
 - (id);
-- (id)<;
+- (id);
+- (void)ExplicitContent__MAPPING_MISSING__;
+- (id)lic}@:Needs reload [request by client] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

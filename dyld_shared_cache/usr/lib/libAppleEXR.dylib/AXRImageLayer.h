@@ -4,10 +4,10 @@
 
 class AXRImageLayer {
 public: // (access info unavailable from symbols alone)
-    CreateDecoder(NSObject<OS_axr_data>*, double, bool, unsigned long, axr_flags_t) const;
-    Deserialize(void const*&, unsigned long&, unsigned int, axr_flags_t, axr_error_t*);
-    Deserialize(void const*&, unsigned long&, unsigned int, axr_flags_t, axr_error_t*) (.cold.1);
-    GetDebugDescription(char const*) const;
-    IsEqual(AXRImageLayer const*) const;
-    Serialize(void*&, unsigned long&) const;
+    auto CreateDecoder(NSObject<OS_axr_data>*, double, bool, unsigned long, axr_flags_t) const;
+    auto Deserialize(void const*&, unsigned long&, unsigned int, axr_flags_t, axr_error_t*);
+    auto Deserialize(void const*&, unsigned long&, unsigned int, axr_flags_t, axr_error_t*) (.cold.1);
+    auto GetDebugDescription(char const*) const;
+    auto IsEqual(AXRImageLayer const*) const;
+    auto Serialize(void*&, unsigned long&) const;
 };

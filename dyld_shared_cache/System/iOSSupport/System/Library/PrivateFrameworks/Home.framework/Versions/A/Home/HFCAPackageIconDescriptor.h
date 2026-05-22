@@ -21,14 +21,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
+- (id);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)IdentifierSiriOrbRegular;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

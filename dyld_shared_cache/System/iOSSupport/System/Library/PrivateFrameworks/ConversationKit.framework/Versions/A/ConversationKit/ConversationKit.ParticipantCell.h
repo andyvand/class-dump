@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)¢yS;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityDisplayName;

@@ -31,7 +31,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)"HUItemModuleController"8@?0;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUServicePickerViewControllerDelegate> delegate; // @dynamic delegate;

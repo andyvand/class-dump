@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
     struct CGPoint _location;
 }
 
-- (void);
+- (id);
 - (double);
-- (void);
-- (struct CGPoint)lectionViewSectionFocusGuideController";
-- (id)eWithInsets:paddingEdges:additionalPadding: /* Error: Ran out of types for this method. */;
+- (void)prefersDimmingVisible;
+- (struct CGPoint)focus map snapshot's map area and search area must be expressed in the same coordinate space.;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;

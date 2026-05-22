@@ -34,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)d will lead to undefined behavior. Array:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *byAccessories; // @synthesize byAccessories=_byAccessories;

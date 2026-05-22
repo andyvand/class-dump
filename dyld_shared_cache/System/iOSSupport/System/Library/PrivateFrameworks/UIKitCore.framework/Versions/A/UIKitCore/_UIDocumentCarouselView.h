@@ -28,26 +28,26 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)ror:(double)arg1;
-- (void)ranscodeController;
 - (void);
 - (void);
 - (void);
-- (void)<;
 - (void);
 - (void);
 - (void);
-- (_Bool)ly;
 - (void);
 - (void);
 - (void);
-- (_Bool)QueriedSharedSeparatorMetrics"b1"hasQueriedSharedListBehaviors"b1};
-- (void)iguration"16;
-- (void),&,N,V_scopeContainerLayout;
-- (void)ÖÌÖüØpÙ;
-- (id);
-- (id);
-- (void)6ÏØCc;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)ing;
+- (id)eItemHostView;
+- (void)tivate:(struct CGRect)arg1;
+- (id)tForMenuFrame:(struct CGRect)arg1 previewFrame: /* Error: Ran out of types for this method. */;
+- (void)pdateReportFormatter;
+- (void)Keyboards proxy]_block_invoke;
+- (void);
+- (void)+ÉØÜ\;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

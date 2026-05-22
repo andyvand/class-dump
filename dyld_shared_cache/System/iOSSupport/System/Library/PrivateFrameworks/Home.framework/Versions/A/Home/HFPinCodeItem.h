@@ -41,17 +41,16 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (_Bool)a	°!(AùQ	ð1b0@ù
-× ;
-- (id);
+- (_Bool)e;
+- (void)H;;
+- (id)ryAllowedHost"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessories; // @synthesize accessories=_accessories;

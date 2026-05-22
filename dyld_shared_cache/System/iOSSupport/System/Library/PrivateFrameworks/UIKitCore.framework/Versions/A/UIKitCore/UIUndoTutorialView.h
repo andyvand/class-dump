@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)y"48;
-- (id)lt: /* Error: Ran out of types for this method. */;
-- (id)gesInChatsWithGUIDs:(long long)arg1 queryID: /* Error: Ran out of types for this method. */;
-- (void)ÎÐ1¢!0@ù
+- (_Bool);
+- (id);
+- (id);
+- (void)0@ù
 × ;
 
 @end

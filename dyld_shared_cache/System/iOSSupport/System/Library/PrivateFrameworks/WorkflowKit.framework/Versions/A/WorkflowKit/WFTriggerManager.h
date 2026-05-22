@@ -26,11 +26,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id)etItemState);
+- (id);
+- (void)nator handleUnknownRequestMessage:] /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

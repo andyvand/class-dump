@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)ntifier;
-- (void)Source;
-- (void)d,N,V_backButtonAlpha;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

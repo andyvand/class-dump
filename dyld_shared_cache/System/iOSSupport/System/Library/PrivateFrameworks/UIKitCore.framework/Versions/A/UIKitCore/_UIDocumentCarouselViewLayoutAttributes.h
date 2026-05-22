@@ -16,22 +16,25 @@ __attribute__((visibility("hidden")))
     struct CGAffineTransform _transform;
 }
 
+- (_Bool);
+- (id);
 - (void);
 - (struct CGAffineTransform);
-- (double);
-- (double);
-- (void)ItemAtURL:(struct CGAffineTransform)arg1 options:error:byAccessor: /* Error: Ran out of types for this method. */;
-- (struct CGSize)SectionContainers;
-- (id)AttributedString:pasteAsRichText: /* Error: Ran out of types for this method. */;
-- (void)dow;
-- (void)eration:(double)arg1 fromViewController:toViewController: /* Error: Ran out of types for this method. */;
-- (id)Mode: /* Error: Ran out of types for this method. */;
-- (void)&,V_labelContainerCenterXConstraint;
-- (_Bool)nInteractionDelegate;
-- (void)theses;
-- (void)entUpdate != nil;
-- (struct CGPoint)Z;
-- (struct NSDirectionalEdgeInsets)c;
+- (id);
+- (struct CGSize)!!ÌBù^1Â0@ù
+× ;
+- (struct CGPoint)
+× ;
+- (void)dÐ1Â0@ù
+× ;
+- (double)cyPhases,V_performingLowLatencyPhases;
+- (void)@"UIView",&,N,V_anchorView;
+- (void)X23;
+- (void)aint"8;
+- (double)WarningTimerFired(CFRunLoopTimerRef, void *);
+- (struct NSDirectionalEdgeInsets)<d\;
+- (void)¬^;
+- (void)a¢Ðva;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

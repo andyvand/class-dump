@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void)aragraphStyle;
 
 // Remaining properties
 @property(nonatomic) __weak id <AMSUINotificationInAppSettingsTableViewCellDelegate> delegate; // @synthesize delegate=_delegate;

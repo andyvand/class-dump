@@ -5,8 +5,8 @@
 class mach_o::ChainedFixups {
 public: // (access info unavailable from symbols alone)
     ChainedFixups(dyld_chained_fixups_header const*, unsigned long);
-    forEachBindTarget(void (int, char const*, long long, bool, bool&) block_pointer) const;
-    forEachBindTarget(void (mach_o::Fixup::BindTarget const&, bool&) block_pointer) const;
-    valid(unsigned long long, std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>, bool) const;
-    validLinkedit(unsigned long long, std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>) const;
+    auto forEachBindTarget(void (int, char const*, long long, bool, bool&) block_pointer) const;
+    auto forEachBindTarget(void (mach_o::Fixup::BindTarget const&, bool&) block_pointer) const;
+    auto valid(unsigned long long, std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>, bool, bool) const;
+    auto validLinkedit(unsigned long long, bool, std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>) const;
 };

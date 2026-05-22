@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (const char *)T;
++ (const char *);
 
 @end
 

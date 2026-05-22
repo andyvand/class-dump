@@ -18,11 +18,10 @@
     MISSING_TYPE *circle;
 }
 
-- (void);
 - (id);
-- (void)!ÐEù±ÄÐ1¢!0@ù
-× ;
-- (id)iantSpec";
+- (void);
+- (id)_UIPickerViewTestParameters;
+- (void)¨¢l;
 
 @end
 

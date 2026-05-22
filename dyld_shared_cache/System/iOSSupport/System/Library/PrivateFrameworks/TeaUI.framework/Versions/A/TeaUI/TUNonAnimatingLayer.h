@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id)ren:maxArrayCount:honorsModalViews: /* Error: Ran out of types for this method. */;
+- (id);
+- (void) ùÿ, ùÿ¡ùÿ¼¡ùÿà¡ùÿ´¢ùÿÀ¢ùÿÌ¢ùÿx£ùÿÄ£ùÿè£ùÿ,¤ùÿP¤ùÿä¤ùÿð¤ùÿD¥ùÿh¥ùÿ¤¥ùÿÈ¥ùÿ|¦ùÿ ¦ùÿh¨ùÿx¨ùÿ¨ùÿÈ¨ùÿt©ùÿ©ùÿÔ©ùÿªùÿDªùÿªùÿ¤ªùÿh«ùÿ«ùÿÀ«ùÿì«ùÿ¬ùÿL¬ùÿd¬ùÿ¬ùÿ¼¯ùÿø¯ùÿ°ùÿX°ùÿ|°ùÿ¸°ùÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) TUNonAnimatingLayerDelegate *layerDelegate; // @synthesize layerDelegate=_layerDelegate;

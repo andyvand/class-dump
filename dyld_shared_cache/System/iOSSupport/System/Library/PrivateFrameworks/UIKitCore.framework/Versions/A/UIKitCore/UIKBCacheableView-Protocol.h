@@ -4,16 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSDictionary, NSString;
 
 @protocol UIKBCacheableView
-- (NSString *)ew Item AppIntents Payload;
-- (double)apeRatio;
-- (long long)Duration;
-- (_Bool)Size;
+- (NSDictionary *);
+- (double)ch controller, configuring for %@ may result in broken search bar layout. This is an internal UIKit problem.;
+- (_Bool)`¹îÿ;
+- (long long)rdProxyLayerForwardingPresentationViewService.m;
+- (_Bool)ccurred while trying to get BOOL value for %@ default key for State Restoration Debug Logging:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)n;
+- (NSString *)\Úô\;
 
 @optional
-- (_Bool);
+- (void)(vertically stacked);
+- (long long)CollectionViewCellPrefetchingMode;
 
 // Remaining properties
 @property(readonly, nonatomic) long long assetIdiom;

@@ -5,5 +5,8 @@
 //
 
 @protocol WFHomeManagerEventObserver
+
+@optional
+- (void)"NSDictionary"48;
 @end
 

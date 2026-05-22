@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotationRendererOptions, NSDictionary, NSString, NSTextStorage, UIColor;
+@class NSDictionary, NSString, NSTextStorage, UIColor;
 
 @protocol AKTextAnnotationProtocol
-- (_Bool)estOptions: /* Error: Ran out of types for this method. */;
-- (_Bool)etSpeechFileURL: /* Error: Ran out of types for this method. */;
-- (_Bool)Text: /* Error: Ran out of types for this method. */;
-- (_Bool)othMicrophones: /* Error: Ran out of types for this method. */;
-- (void)apsGatekeeperEnabled:(_Bool)arg1;
-- (void)bText:(unsigned long long)arg1;
-- (void)ontroller:(_Bool)arg1;
-- (void)t:(_Bool)arg1;
-- (void)ollapseLoadingSize:(unsigned long long)arg1;
-- (void)wDelegate:(UIColor *)arg1;
-- (void)ds:(UIColor *)arg1;
-- (unsigned long long)eedbackLoggingContent;
-- (_Bool)erDidClose: /* Error: Ran out of types for this method. */;
-- (_Bool)thEvent:forView: /* Error: Ran out of types for this method. */;
-- (UIColor *)mouseLocationOutsideOfEventStream;
-- (UIColor *)re: /* Error: Ran out of types for this method. */;
-- (UIColor *)r:(AKAnnotationRendererOptions *)arg1 context:eventNumber:clickCount:pressure: /* Error: Ran out of types for this method. */;
-- (unsigned long long)onSnippetViews;
-- (void);
-- (UIColor *);
-- (NSString *)ressFormat;
-- (void)nation coordinate.;
-- (NSDictionary *)ting mode for PDFView:%@ /* Error: Ran out of types for this method. */;
+- (void)1Â0@ù
+× ;
+- (void)ges;
+- (UIColor *)Printing;
+- (NSDictionary *)\î,ðñÄôàô;
 
 // Remaining properties
 @property(retain) NSTextStorage *annotationText;

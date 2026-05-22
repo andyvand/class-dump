@@ -4,5 +4,5 @@
 
 class std::__1::vector<double vector[3], std::__1::allocator<double vector[3]>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:nn200100]();
+    auto __throw_length_error[abi:nqn210106]();
 };

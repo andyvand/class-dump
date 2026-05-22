@@ -5,10 +5,10 @@
 class JetPack::CallbackStream {
 public: // (access info unavailable from symbols alone)
     CallbackStream(std::__1::function<unsigned long (unsigned char*, unsigned long)>, std::__1::optional<std::__1::function<void (unsigned long)>>, std::__1::optional<std::__1::function<unsigned long ()>>);
-    isFinished();
-    position();
-    read(unsigned char*, unsigned long);
-    seekForward(unsigned long);
-    seekToEnd();
+    auto isFinished();
+    auto position();
+    auto read(unsigned char*, unsigned long);
+    auto seekForward(unsigned long);
+    auto seekToEnd();
     ~CallbackStream();
 };

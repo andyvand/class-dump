@@ -28,7 +28,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -41,9 +41,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)For: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

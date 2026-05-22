@@ -71,26 +71,26 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (long long);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id)tionWithExtensionBundle:luminanceReduced: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *accessibilityContrast; // @synthesize accessibilityContrast=_accessibilityContrast;

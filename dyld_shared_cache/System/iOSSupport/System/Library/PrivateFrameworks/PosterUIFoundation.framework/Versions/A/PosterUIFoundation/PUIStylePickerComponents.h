@@ -15,14 +15,14 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfComponents;

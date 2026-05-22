@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     NSArray *_focusGuides;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void)tælþ¦13|ælþí¥13ælþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *focusGuides; // @synthesize focusGuides=_focusGuides;

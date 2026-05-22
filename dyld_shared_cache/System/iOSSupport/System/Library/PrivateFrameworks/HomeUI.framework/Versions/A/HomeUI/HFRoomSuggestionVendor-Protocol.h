@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol HFRoomSuggestionVendor
+- (NSSet *)Ô ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *roomSuggestions;

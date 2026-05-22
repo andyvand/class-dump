@@ -21,12 +21,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)&;
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *backgroundColors;

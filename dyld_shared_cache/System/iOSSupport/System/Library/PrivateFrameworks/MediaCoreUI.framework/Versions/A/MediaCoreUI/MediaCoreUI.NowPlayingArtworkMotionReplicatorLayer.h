@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)ntroller triggering collapse;
 
 @end
 

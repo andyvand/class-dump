@@ -112,23 +112,23 @@
 - (void);
 - (long long);
 - (void);
+- (unsigned long long);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (double);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
 - (id);
 - (void);
-- (_Bool)nitWithLowMemoryMode:mediaAnalyzer: /* Error: Ran out of types for this method. */;
-- (id)ing;
-- (void)ionStartContentOffset;
-- (void)veProvider>",R,N,V_animationCurve;
 - (void);
+- (void);
+- (_Bool);
+- (double);
+- (void);
+- (void)eRequiredDecelerationDistance;
+- (id)__isKeyboardAware;
+- (_Bool)etSynchronous: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setBackgroundView:) UIView *_backgroundView; // @synthesize _backgroundView=__backgroundView;

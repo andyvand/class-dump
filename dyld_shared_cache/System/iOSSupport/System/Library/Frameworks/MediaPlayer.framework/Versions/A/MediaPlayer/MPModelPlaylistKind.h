@@ -15,18 +15,18 @@
     unsigned long long _options;
 }
 
-+ (id)Gender:(unsigned long long)arg1;
-+ (id)issuer;
-+ (_Bool)S treating Add as a Set;
++ (id);
++ (id);
++ (_Bool);
 - (id);
-- (void);
-- (unsigned long long)ast item -- lastItemIsTypingMessage %@ lastItemIsErrorCase %@ Last item %@;
-- (_Bool);
-- (id);
-- (unsigned long long)predict:freeInputsAfterUse: /* Error: Ran out of types for this method. */;
-- (void);
 - (unsigned long long);
 - (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (void)evel;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;

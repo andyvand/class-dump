@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UILabel *_feedbackLabel;
 }
 
-+ (id)arted processing;
++ (id);
 - (void);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)pearance;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *feedbackLabel; // @synthesize feedbackLabel=_feedbackLabel;

@@ -23,11 +23,11 @@
 }
 
 + (unsigned long long);
-- (void);
+- (id);
 - (void);
 - (long long);
-- (id);
-- (id)ionalAccessoryTileKinds;
+- (void)lN(h3;
+- (id)\ÒÿZµN`Ð9;
 
 // Remaining properties
 @property(nonatomic, readonly) PXObservable *observable; // @synthesize observable;

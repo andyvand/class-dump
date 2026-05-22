@@ -13,10 +13,10 @@
     MISSING_TYPE *model;
 }
 
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 @end
 

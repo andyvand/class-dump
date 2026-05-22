@@ -4,6 +4,6 @@
 
 class bssl::Vector<std::__1::unique_ptr<ssl_credential_st, bssl::internal::Deleter>> {
 public: // (access info unavailable from symbols alone)
-    MaybeGrow();
-    clear();
+    auto MaybeGrow();
+    auto clear();
 };

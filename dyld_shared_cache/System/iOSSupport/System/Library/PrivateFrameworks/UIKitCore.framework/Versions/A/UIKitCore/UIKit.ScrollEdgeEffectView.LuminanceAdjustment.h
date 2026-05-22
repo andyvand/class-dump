@@ -30,12 +30,11 @@
     MISSING_TYPE *alphaValues;
 }
 
-- (void);
 - (id);
 - (void);
-- (void)
-× ;
-- (id)enus;
+- (id)iew;
+- (void)Title5;
+- (void)\Ífþ¾MÎðl;
 
 @end
 

@@ -16,9 +16,9 @@
     UIVisualEffectView *_effectView;
 }
 
-- (void)o;
-- (void)t;
-- (struct UIEdgeInsets)or;
+- (void);
+- (void);
+- (struct UIEdgeInsets);
 - (void);
 - (void);
 - (id);
@@ -29,11 +29,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)inkingDots;
-- (id)¥-;
-- (id)0Éÿ-;
+- (void)E
+tFG	GÀHI
+ìKM ÌQôRÔSàT	XUU\V#8WX[¬[
+]ô]^	ð^¨_ÐbXd;
+- (id)CyACyNACyæZ[yP_SS;
+- (id)y&§\G\yª;]GGABG_AAyAEj>]yA]yAEÔ¿;
+- (void)@\;
+- (id)#ÿ-!;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *chevron; // @synthesize chevron=_chevron;

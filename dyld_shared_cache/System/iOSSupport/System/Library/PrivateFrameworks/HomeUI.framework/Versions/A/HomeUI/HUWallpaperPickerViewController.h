@@ -32,16 +32,16 @@
 - (void);
 - (id);
 - (id);
-- (long long);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (id);
 - (long long);
+- (void);
+- (void);
+- (long long);
 - (id);
+- (long long);
+- (void)wing Profiles for all devices;
+- (id)s Updating to new titleView %@;
 
 // Remaining properties
 @property(nonatomic) long long collectionType; // @synthesize collectionType=_collectionType;

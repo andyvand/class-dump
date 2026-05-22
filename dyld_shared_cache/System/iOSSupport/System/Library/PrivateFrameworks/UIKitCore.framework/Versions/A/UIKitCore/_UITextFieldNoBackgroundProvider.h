@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)eted preview is missing", caused by race condition ending %@ between storing and fetching the preview.;
-- (long long);
+- (long long);
+- (void);
 
 @end
 

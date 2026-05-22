@@ -29,12 +29,12 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (long long);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *businessID; // @synthesize businessID=_businessID;

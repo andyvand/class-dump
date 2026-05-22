@@ -18,19 +18,19 @@
 + (_Bool);
 + (_Bool);
 - (id);
-- (void);
-- (struct CGRect);
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (long long);
+- (unsigned long long);
+- (id);
+- (struct CGRect);
+- (_Bool);
+- (void);
 - (double);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

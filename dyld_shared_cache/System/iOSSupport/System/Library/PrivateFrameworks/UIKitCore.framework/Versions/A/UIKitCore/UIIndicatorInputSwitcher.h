@@ -15,17 +15,16 @@ __attribute__((visibility("hidden")))
     id <UITextCursorAssertion> _inputModeAssertion;
 }
 
-- (_Bool)edCallerIDToChat:(id)arg1;
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void)but already logged in;
-- (void)tivated;
-- (void)
-× ;
-- (_Bool)ég`;
-- (void)Y>l;
-- (id);
+- (void);
+- (void);
+- (void);
+- (id)_buttonTouchBarItemsToActions;
+- (void)#nÍ¨Ëg;
+- (_Bool)l;
 
 // Remaining properties
 @property(retain, nonatomic) id <UITextCursorAssertion> inputModeAssertion; // @synthesize inputModeAssertion=_inputModeAssertion;

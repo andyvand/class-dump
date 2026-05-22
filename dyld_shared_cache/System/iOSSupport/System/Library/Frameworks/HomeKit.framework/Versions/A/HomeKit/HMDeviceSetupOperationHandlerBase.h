@@ -11,16 +11,16 @@
     HMDeviceSetupSession *_setupSession;
 }
 
-+ (id)CollectionSetting;
++ (id)UUIDs;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)P;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

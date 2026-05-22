@@ -15,10 +15,9 @@
 
 + (id);
 - (id);
-- (void)0@ù
-× ;
-- (id)FÚx^;
-- (id)o;
+- (id);
+- (id)figurableSharedTextureP;
+- (void)(éi;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *contents; // @synthesize contents=_contents;

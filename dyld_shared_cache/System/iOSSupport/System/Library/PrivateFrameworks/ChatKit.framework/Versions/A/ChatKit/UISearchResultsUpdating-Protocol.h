@@ -5,10 +5,5 @@
 //
 
 @protocol UISearchResultsUpdating
-- (void)GAKyÃÕ®GGtGG;
-
-@optional
-- (void)FùqÃ1¢!0@ù
-× ;
 @end
 

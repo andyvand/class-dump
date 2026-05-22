@@ -5,6 +5,5 @@
 //
 
 @protocol SWNavigationManager
-- (void);
 @end
 

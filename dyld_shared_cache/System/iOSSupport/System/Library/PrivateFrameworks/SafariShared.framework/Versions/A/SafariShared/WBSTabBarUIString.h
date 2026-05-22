@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)s clean;
++ (id);
 
 @end
 

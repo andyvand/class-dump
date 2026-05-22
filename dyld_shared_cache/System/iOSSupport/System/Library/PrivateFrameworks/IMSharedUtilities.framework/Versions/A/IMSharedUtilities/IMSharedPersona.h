@@ -13,16 +13,16 @@
 }
 
 + (id);
-+ (_Bool)nted by IMStickerTapback;
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)er;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;

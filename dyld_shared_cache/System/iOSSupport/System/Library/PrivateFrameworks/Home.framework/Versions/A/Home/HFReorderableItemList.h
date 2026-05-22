@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (_Bool);
+- (void)atusTitleUnreachable_One;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isEmpty;

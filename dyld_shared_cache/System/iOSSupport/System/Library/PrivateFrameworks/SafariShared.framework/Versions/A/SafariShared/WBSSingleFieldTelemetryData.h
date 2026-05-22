@@ -20,18 +20,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)<;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (unsigned long long);
 - (id);
-- (void)kCoordinator"16@0:(long long)arg1 8;
 - (unsigned long long);
+- (id);
 - (void);
 - (unsigned long long);
-- (long long)?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}{btVector3=(?=[4f])}f}]{btTransform={btMatrix3x3=[3{btVector3=(?=[4f])}]}{btVector3=(?=[4f])}}{btTransform={btMatrix3x3=[3{btVector3=(?=[4f])}]}{btVector3=(?=[4f])}}ff{btAngularLimit=fffffffB}ffffBBBBBfifff};
+- (long long);
+- (unsigned long long);
+- (void)tring"32@?0@"NSString"8@"NSString"16@"NSString"24;
 
 // Remaining properties
 @property(nonatomic) unsigned long long autoFillOfferedType; // @synthesize autoFillOfferedType=_autoFillOfferedType;

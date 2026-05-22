@@ -8,7 +8,6 @@
 
 @protocol MPSectionedIdentifierListEnumerationItem
 - (NSString *);
-- (NSString *)nnection;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *itemIdentifier;

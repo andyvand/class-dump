@@ -14,7 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (id);
-- (unsigned long long)ming;
+- (unsigned long long)0õhõöDöö@÷<øtøùDùèù úÄúüúTûý
+Äþÿ èàÔ0x|Ä°8;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long providedEdges; // @synthesize providedEdges=_providedEdges;

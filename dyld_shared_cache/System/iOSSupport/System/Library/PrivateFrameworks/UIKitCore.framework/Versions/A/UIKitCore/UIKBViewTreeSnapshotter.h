@@ -12,10 +12,9 @@
     UIView *_snapshotView;
 }
 
-+ (id);
++ (id);
+- (void)f;
 - (id);
-- (void)AoÐ!(Cù±Á1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *snapshotView; // @synthesize snapshotView=_snapshotView;

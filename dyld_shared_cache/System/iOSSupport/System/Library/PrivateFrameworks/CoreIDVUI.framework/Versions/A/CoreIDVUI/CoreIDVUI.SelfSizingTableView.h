@@ -11,11 +11,11 @@
     MISSING_TYPE *maxHeight;
 }
 
-- (struct CGSize);
 - (id);
+- (struct CGSize);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)e:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGSize contentSize;

@@ -80,16 +80,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
+- (void);
 - (id);
 - (id);
-- (id)rtLayoutMatchesPlayback;
-- (id)È;ëÿø$"ÿ°J;
-- (void)alue;
-- (void)À;
-- (id)0ÔÿÚ¾Jê]5;
-- (id)5;
+- (id)titleTextAttributes;
+- (id)ÔÆ;
+- (void)PXNavigationListDataSectionManager.m;
+- (void);
+- (id)pTa;
 
 // Remaining properties
 @property(readonly, nonatomic) PXSidebarDataContext *context; // @synthesize context=_context;

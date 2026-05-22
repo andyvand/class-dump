@@ -11,54 +11,55 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void)cessingPipelineComponent> Started processing;
++ (void);
 + (_Bool);
 - (_Bool);
-- (struct UIEdgeInsets)andler: /* Error: Ran out of types for this method. */;
-- (id)eStatistics;
-- (id)Name:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)ChatSliceForChatWithGUID:serviceName:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)ptionWithID:completionHandler: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)k: /* Error: Ran out of types for this method. */;
-- (_Bool)ecipientEncryptionValidationToken;
-- (_Bool)ctWithAccount: /* Error: Ran out of types for this method. */;
-- (_Bool)tedMessageFallbackHash;
-- (id)ID;
-- (id)ctualParentChatId;
-- (void)EmergencyQuestionnaireReceived:(double)arg1;
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
 - (struct CGPoint);
 - (struct CGPoint);
 - (double);
-- (void)q_;
+- (void);
 - (struct CGPoint);
-- (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (long long);
 - (double);
 - (struct CGPoint);
 - (unsigned long long);
-- (id)inished reporting message count of %lld to DAS;
-- (struct CGPoint)ed messages accordingly;
 - (id);
-- (id)ributes up %@;
-- (id)CKRecord. Returning nil.;
-- (id)******Cannot create record without a salt;
-- (id)asset. Asset from ckrecord has path %@;
-- (double)Chat %@ has groupPhotoGuid %@;
-- (id)ing to lookup using SCIs.;
-- (struct CGPoint)ing on.;
-- (id)load, as we could not find an associated message;
-- (_Bool), Not processing message;
+- (struct CGPoint);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
+- (id);
+- (struct CGPoint);
+- (id);
+- (_Bool);
 - (id);
 - (struct CGPoint);
 - (id);
 - (double);
-- (double)placementRange: /* Error: Ran out of types for this method. */;
-- (id)etSuggestionsMenuDismissalPassthroughViews: /* Error: Ran out of types for this method. */;
-- (id);
-- (long long)sþph;
+- (id);
+- (id)
+× ;
+- (double)conHighlightImageView;
+- (long long)<sþ;
 
 @end
 

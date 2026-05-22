@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-- (id)};
++ (_Bool)nd blocks to show and dismiss the keyboard for the keyboard show/hide test;
+- (id);
 - (double);
 
 @end

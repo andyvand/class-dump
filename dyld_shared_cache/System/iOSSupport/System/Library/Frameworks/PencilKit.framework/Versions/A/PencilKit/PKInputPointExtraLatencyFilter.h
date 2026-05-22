@@ -16,7 +16,7 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)L;
 
 // Remaining properties
 @property(nonatomic) long long numFramesExtraLatency; // @synthesize numFramesExtraLatency=_numFramesExtraLatency;

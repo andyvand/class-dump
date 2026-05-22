@@ -29,10 +29,10 @@
 - (void);
 - (void);
 - (double);
-- (void);
-- (id);
 - (double);
 - (void);
+- (id);
+- (void)36@0:8@16Q24B32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double amplitude; // @synthesize amplitude=_amplitude;

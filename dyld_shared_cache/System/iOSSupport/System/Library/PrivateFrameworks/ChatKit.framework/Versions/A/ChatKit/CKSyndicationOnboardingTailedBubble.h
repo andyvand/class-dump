@@ -19,15 +19,15 @@
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (double);
+- (double);
 - (double);
 - (void);
 - (id);
 - (void);
+- (struct CGSize);
 - (void);
+- (long long);
 - (void);
-- (struct CGSize)2@?0@"CKThrowBalloonViewAttributes"8Q16^B24;
-- (long long)ry;
 
 // Remaining properties
 @property(nonatomic) long long appName; // @synthesize appName=_appName;

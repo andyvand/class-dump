@@ -4,22 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @protocol CKBrowserViewControllerSendDelegate
-- (void)blueValue;
-- (void)aint;
-- (void)eSystemPaper:(NSURL *)arg1;
-- (void)ldPasswordContainer;
-
-@optional
-- (void);
-- (void);
-- (void)ô;
-- (void)tachmentContentForURLSchemeTask:(_Bool)arg1;
-- (void)hedListsInAttributedString:(NSString *)arg1;
-- (void)nDocumentText:(NSString *)arg1;
-- (void)ring:(_Bool)arg1 options:(NSString *)arg2 range: /* Error: Ran out of types for this method. */;
-- (_Bool)orNote:mode:window:completionHandler:] /* Error: Ran out of types for this method. */;
 @end
 

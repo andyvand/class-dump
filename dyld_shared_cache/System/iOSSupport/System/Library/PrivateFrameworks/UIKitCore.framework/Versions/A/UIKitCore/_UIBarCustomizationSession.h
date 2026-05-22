@@ -16,18 +16,18 @@
     NSMutableArray *__mutableAdditionalItems;
 }
 
-+ (id)tialized!  (Environment:(id)arg1 %@);
++ (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id)sageProcessingEnabled;
+- (void);
 - (id);
 - (id);
-- (void)ount (%@) using accountController:(id)arg1 %@;
 - (id);
 - (id);
-- (void)r­;
+- (void);
+- (id);
+- (id)ew:completion: /* Error: Ran out of types for this method. */;
+- (void)¯Ñ×x¶^;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_mutableAdditionalItems) NSMutableArray *_mutableAdditionalItems; // @synthesize _mutableAdditionalItems=__mutableAdditionalItems;

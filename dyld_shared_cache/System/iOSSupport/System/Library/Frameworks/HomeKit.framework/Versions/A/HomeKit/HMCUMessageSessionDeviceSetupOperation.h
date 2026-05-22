@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id)eKeyExpressEnablementConflictingPassDescription:] /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly) __weak CUMessageSession *session;

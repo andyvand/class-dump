@@ -6,6 +6,9 @@
 
 @protocol GPMagicPaperImageGenerationEvent
 
+@optional
+- (long long)eraction;
+
 // Remaining properties
 @property(nonatomic) unsigned long long handwrittenWordsCount;
 // Preceding property had unknown attributes: ?

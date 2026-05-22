@@ -22,25 +22,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool)erviceName:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)Z;
 - (void);
-- (void)dH;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void)@;
 - (void);
-- (void)-0-0-L;
-- (id)8;
+- (void)tterDynamicsController;
+- (void)þP23þ;
+- (id)­Óþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;

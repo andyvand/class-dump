@@ -13,13 +13,13 @@
 
 + (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void)adedAtleastOneImage;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *userKeyboards; // @synthesize userKeyboards=_userKeyboards;

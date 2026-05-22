@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (double)«×¢V;
 - (double);
+- (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double a; // @synthesize a=_a;

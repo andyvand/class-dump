@@ -13,14 +13,14 @@
     unsigned long long _weekdays;
 }
 
-+ (_Bool)derProfileC8DelegateP;
++ (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
-- (id)reference was nil in handleDidUpdateHomeAccessCodesMessage for homeAccessCodeValues:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)riteAction;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateComponents *endTime; // @synthesize endTime=_endTime;

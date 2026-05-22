@@ -17,10 +17,10 @@
 - (id);
 - (const void *);
 - (id);
-- (id)g>"16@"NSString"24@?<v@?>32;
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)uttonGroupView",&,N,V__leadingButtonGroupView;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PKStrokeRenderCache> renderCache; // @synthesize renderCache=_renderCache;

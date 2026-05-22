@@ -26,11 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)°1b0@ù
-× ;
-- (id)ator;
+- (id);
+- (id);
+- (void)Button;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *defaultSelectedValue; // @synthesize defaultSelectedValue=_defaultSelectedValue;

@@ -15,11 +15,11 @@
 }
 
 + (Class);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void)ü;
+- (void)stManagedObject;
+- (void)sirikit.intents.custom.com.apple.ActionKit.BundledIntentHandler.WFSetSilenceUnknownCallersIntent;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

@@ -11,9 +11,9 @@
     MISSING_TYPE *overrideHeight;
 }
 
-- (id)etTopicsConfig;
+- (struct CGSize);
 - (id);
-- (struct CGSize)°;
+- (id);
 
 @end
 

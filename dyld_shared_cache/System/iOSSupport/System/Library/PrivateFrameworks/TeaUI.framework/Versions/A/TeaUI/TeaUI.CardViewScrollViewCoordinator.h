@@ -17,9 +17,9 @@
 }
 
 - (void);
+- (id);
 - (void);
-- (id)elf:wantsContainers: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)ØÒüÿÓüÿ4ÓüÿXÓüÿÓüÿÔÓüÿìÓüÿ|ÔüÿìÔüÿ0ÕüÿXÕüÿ;
 
 @end
 

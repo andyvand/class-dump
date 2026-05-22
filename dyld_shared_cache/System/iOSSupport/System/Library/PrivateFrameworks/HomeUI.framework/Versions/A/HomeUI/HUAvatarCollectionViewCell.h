@@ -30,14 +30,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)DiàÿÊU¥ì;
+- (void)nboardingFlow.onboardingFuture is not marked as finished;
 
 // Remaining properties
 @property(retain, nonatomic) HUAvatarContentView *avatarContentView; // @synthesize avatarContentView=_avatarContentView;

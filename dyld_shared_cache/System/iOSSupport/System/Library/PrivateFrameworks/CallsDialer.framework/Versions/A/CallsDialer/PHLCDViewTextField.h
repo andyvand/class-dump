@@ -28,14 +28,14 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (void);
+- (_Bool);
 - (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) __weak id <PHLCDViewTextFieldDelegate> lcdViewTextFieldDelegate; // @synthesize lcdViewTextFieldDelegate=_lcdViewTextFieldDelegate;

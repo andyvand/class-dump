@@ -18,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HMActionSet *actionSet; // @synthesize actionSet=_actionSet;

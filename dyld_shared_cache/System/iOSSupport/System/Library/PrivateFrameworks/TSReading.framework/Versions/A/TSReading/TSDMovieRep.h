@@ -43,7 +43,7 @@
 - (void);
 - (_Bool);
 - (double);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -67,7 +67,7 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (void)�;
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -78,7 +78,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -88,7 +88,6 @@
 - (void);
 - (_Bool);
 - (void);
-- (void) ;
 - (void);
 - (void);
 - (void);
@@ -96,7 +95,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -104,16 +104,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
 - (void);
-- (void)Ҹ";
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -135,17 +135,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool)N;
+- (id);
+- (_Bool);
+- (void);
 - (id);
 - (void);
-- (void);
 - (float);
-- (_Bool)! CùñRÐ1¢!0@ù
-× ;
-- (void)t:(id)arg1 withContext:(id)arg2;
-- (_Bool);
-- (id)×ÿÉV\®;
+- (void);
+- (_Bool)AtPoint:withRecognizer: /* Error: Ran out of types for this method. */;
+- (_Bool)m-Regular;
+- (id)[¿;
 
 // Remaining properties
 @property(nonatomic) struct CGImage *alternatePosterImage; // @synthesize alternatePosterImage=mAlternatePosterImage;

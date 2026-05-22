@@ -4,7 +4,7 @@
 
 class Demodulator {
 public: // (access info unavailable from symbols alone)
-    Demodulate(short*, short*, int, int, int);
-    GenBitLut();
+    auto Demodulate(short*, short*, int, int, int);
+    auto GenBitLut();
     ~Demodulator();
 };

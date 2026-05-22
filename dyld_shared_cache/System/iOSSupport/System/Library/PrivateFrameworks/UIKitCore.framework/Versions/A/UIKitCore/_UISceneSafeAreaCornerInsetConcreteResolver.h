@@ -13,17 +13,15 @@
     MISSING_TYPE *safeAreaCornerInsets;
 }
 
-+ (_Bool)thOriginalAttributes: /* Error: Ran out of types for this method. */;
-- (struct _UICornerInsets)rdZoneError %@;
-- (id)nGroupName %@ only.;
-- (id)sInternal:(struct _UICornerInsets)arg1 %@ isSeed:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)spatch_group>";
-- (void)1¢!0@ù
-× ;
-- (void)as°!ÌCùÇð1¢!0@ù
-× ;
-- (id)UIInputViewSet",R,N;
++ (_Bool)orphableInternal_p;
+- (struct _UICornerInsets);
 - (id);
+- (id);
+- (id);
+- (id)@0:(id)arg1 8@"TIKeyboardCandidate"16@"NSString"24;
+- (_Bool)pplyToSolver:(id)arg1;
+- (void)olderContexts,S_setPlaceholderContexts:(id)arg1 ,V_placeholderContexts;
+- (void)¸il;
 
 @end
 

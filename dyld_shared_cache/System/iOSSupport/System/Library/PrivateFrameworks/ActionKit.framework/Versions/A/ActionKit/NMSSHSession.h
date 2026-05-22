@@ -58,31 +58,32 @@
 - (id);
 - (long long);
 - (void);
+- (struct __CFSocket *);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)areNotesWithBusiness:(id)arg1;
-- (id)eters:progress:completionHandler: /* Error: Ran out of types for this method. */;
-- (struct __CFSocket *)ber",&,N,V_businessSummaryUpdated;
-- (id);
-- (void)HealthKitAccessResource"8Q16;
-- (void)x;
-- (void)_Ü~f°â;
-- (void);
+- (id);
 - (struct _LIBSSH2_AGENT *);
+- (_Bool);
+- (id)44@?<v@?@"WFFileRepresentation"@"NSError">52;
+- (void)rencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
+- (id)orGroupNumber;
+- (void)^{_xmlNode}^{_xmlDoc}^{_xmlNs}*^{_xmlAttr}^{_xmlNs}^vSS},N,V_xmlNode;
+- (void);
+- (_Bool)rnal/Library/BuildRoots/4~CNrSugDYcx6sjASS2XskMirRBBIt5EXaGbmPAJc/Library/Caches/com.apple.xbs/TemporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/engine/tb_digest.c;
+- (id)NrSugDYcx6sjASS2XskMirRBBIt5EXaGbmPAJc/Library/Caches/com.apple.xbs/TemporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/ec/ec_asn1.c;
+- (void)emory;
+- (_Bool)oreLocation;
+- (void)ÿÿÿÿÿÿþÿÿü/;
+- (void):(_Bool)arg1:è:ÍÒt÷ii¹ioÐÒii¹ioÐÒ		$	H-A		$	H-AppÝp§­à×ppÝp§­à×¶¶â¶ÙTqo¶¶â¶ÙTqoÐÐgÐÎ·½ÐÐgÐÎ·½ííí;~ÇÖííí;~ÇÖÌÌÌ.ÛâÌÌÌ.ÛâBBB*WhBBB*WhZ´Â-,Z´Â-,¤¤ª¤IUí¤¤ª¤IUí(( (]Pu(( (]Pu\\m\Ú1¸\\m\Ú1¸øøÇø?íkøøÇø?ík"D¤Â"D¤Â#Æè¸O6¦ÒõyoR`¼£{5à×Â.KþWw7åðJÚXÉ)
+± k½]ôË>gä'A§}Øûî|fÝGÊ-¿­Z3èÿÿÿÿÿÿÿðÿÿÿÿÿÿÿØÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct _LIBSSH2_AGENT *agent; // @synthesize agent=_agent;

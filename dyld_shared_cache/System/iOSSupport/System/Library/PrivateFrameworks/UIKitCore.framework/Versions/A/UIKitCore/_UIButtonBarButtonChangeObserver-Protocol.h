@@ -5,6 +5,5 @@
 //
 
 @protocol _UIButtonBarButtonChangeObserver
-- (void)ents;
 @end
 

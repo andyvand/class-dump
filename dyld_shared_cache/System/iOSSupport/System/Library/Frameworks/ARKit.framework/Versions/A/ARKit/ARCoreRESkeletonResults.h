@@ -21,9 +21,9 @@
 - (struct CGSize);
 - (void);
 - (CDStruct_8e0628e6);
-- (void);
 - (double);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 

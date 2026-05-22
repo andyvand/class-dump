@@ -13,20 +13,20 @@
     struct _NSRange _range;
 }
 
-+ (_Bool)%{public}@;
++ (_Bool);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct _NSRange);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct _NSRange)ration;
 
 // Remaining properties
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;

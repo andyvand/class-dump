@@ -7,7 +7,6 @@
 @class NSArray;
 
 @protocol TFBundleAssembly
-- (NSArray *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assemblies;

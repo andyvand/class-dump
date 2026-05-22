@@ -17,9 +17,9 @@
     MISSING_TYPE *constraintsForAvatarViewVisible;
 }
 
+- (id)XÁô5XÁ°§XÁLåXÁØÚXÁ|[XÁ¼°XÁ<XÁÔu;
 - (id);
-- (void);
-- (id);
+- (void)w, Ê+ G¬ GSgG;
 
 @end
 

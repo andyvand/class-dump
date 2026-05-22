@@ -20,22 +20,24 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (long long);
 - (id);
 - (void);
 - (void);
-- (long long)hedule:handler: /* Error: Ran out of types for this method. */;
-- (id)ingleWorkoutClusteringTaskState: /* Error: Ran out of types for this method. */;
-- (id)g:handler: /* Error: Ran out of types for this method. */;
-- (void)ons;
-- (void)ionID:(id)arg1 %@,%@,%@,schedule cleanup fired;
-- (id)@, overlapping visits count, %lu;
-- (void)equest failed to exceeding maximum memory threshold;
-- (void)y LOI count, %lu;
-- (void)sfying:(id)arg1 modeBinIndex < _invalidBinIndex;
-- (_Bool)Ì+Þ;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)0@ù
+× ;
+- (void)Ô!(Ð!¬CùñB,°1Â0@ù
+× ;
+- (_Bool)Ô;
+- (void)updated _tripSegmentTransitions[%tu] to, %@;
+- (void)valid parameter not satisfying:(_Bool)arg1 message (in %s:%d) /* Error: Ran out of types for this method. */;
+- (_Bool)(|ïÿ+rD;
+- (void)L;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

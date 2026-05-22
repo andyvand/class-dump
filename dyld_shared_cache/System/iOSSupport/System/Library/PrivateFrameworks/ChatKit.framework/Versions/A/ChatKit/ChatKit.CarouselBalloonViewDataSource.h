@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (long long)ype;
-- (long long)';
+- (long long);
+- (long long)4³ÿaöj0³ÿIöjð_Æÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long numberOfSections;

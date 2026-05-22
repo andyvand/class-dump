@@ -22,34 +22,34 @@ __attribute__((visibility("hidden")))
     CALayer *_maskLayer;
 }
 
-- (void)ceContext;
-- (void)erDocumentBundle;
-- (void)oundColor;
-- (void)ngth;
 - (void);
 - (void);
-- (void)L;
 - (void);
-- (void)o;
-- (void)l;
-- (void)"16@"ICThumbnailConfiguration"24;
-- (void)cription"24@0:8@"ICThumbnailConfiguration"16 /* Error: Ran out of types for this method. */;
-- (void)lCache",N,R;
-- (void)yle();;
-- (id);;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)asShownKey_%@;
-- (id)es password, click Learn More for next steps.;
-- (id)word;
-- (void)editing this attachment or discard the change you made.;
-- (void)-[ICAudioController registerForRemoteControlEvents];
-- (void)ptNotificationQueryEnteredKey;
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -59,14 +59,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id)L,Ä,<-d-Ü-.t.à/H°0 12I\3D4l4L5;
-- (void)þÿG;
-- (void)à;
-- (void)3ÿ¢-;
-- (void)´.;
+- (void);
+- (void);
+- (id)ptBackground: /* Error: Ran out of types for this method. */;
+- (void)super view;
+- (void)Ä;
+- (void)°ô;
+- (void)Âÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool blendingEnabled; // @synthesize blendingEnabled=_blendingEnabled;

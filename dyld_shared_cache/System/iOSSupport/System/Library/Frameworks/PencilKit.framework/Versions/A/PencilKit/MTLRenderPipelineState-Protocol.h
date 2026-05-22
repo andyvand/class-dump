@@ -5,18 +5,13 @@
 //
 
 @class MTLRenderPipelineReflection, NSString;
-@protocol MTLDevice, MTLFunction, MTLFunctionHandle, MTLRenderPipelineState, MTLVisibleFunctionTable;
+@protocol MTLDevice;
 
 @protocol MTLRenderPipelineState
-- (id <MTLVisibleFunctionTable>);
-- (id <MTLRenderPipelineState>);
-- (CDStruct_14f26992)&;
-- (id <MTLFunctionHandle>)nd:(id <MTLFunction>)arg1;
-- (unsigned long long);
-- (id <MTLDevice>);
-- (long long)Ô;
-- (_Bool)/A;
-- (CDStruct_14f26992)ed;
+- (MTLRenderPipelineReflection *);
+- (CDStruct_14f26992)eousItemStableIdentifiers: /* Error: Ran out of types for this method. */;
+- (_Bool)KPalette;
+- (long long)ÜpÆ;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

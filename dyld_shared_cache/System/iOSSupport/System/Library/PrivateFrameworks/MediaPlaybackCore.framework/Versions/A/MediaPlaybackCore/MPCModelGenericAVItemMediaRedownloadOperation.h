@@ -18,15 +18,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)cationsIfNeededForAccount:oldAccount:changeType: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
+- (id);
 - (CDUnknownBlockType);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)[request revision mismatch] previousRequestID=%{public}@ currentRequestID=%{public}@;
+- (void)change];
 - (id);
-- (void)nt=dd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
-- (void)rkValue:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) MPCModelGenericAVItemAssetLoadProperties *assetLoadProperties; // @synthesize assetLoadProperties=_assetLoadProperties;

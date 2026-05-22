@@ -54,9 +54,9 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)%s;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WFDatabaseProvider> databaseProvider; // @synthesize databaseProvider=_databaseProvider;

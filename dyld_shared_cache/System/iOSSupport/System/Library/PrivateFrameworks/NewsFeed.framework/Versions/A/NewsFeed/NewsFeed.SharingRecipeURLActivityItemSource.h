@@ -11,14 +11,14 @@
     MISSING_TYPE *url;
     MISSING_TYPE *linkPresentationSource;
     MISSING_TYPE *recipe;
-    MISSING_TYPE *externalRecipeFactory;
+    MISSING_TYPE *recipeFactory;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)D8;
 
 @end
 

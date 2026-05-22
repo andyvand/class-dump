@@ -21,6 +21,7 @@
     NSNumber *_multiLayer;
     NSNumber *_multiLayerMix;
     NSSecurityScopedURLWrapper *_wrappedURL;
+    NSString *_exportCleanupToken;
 }
 
 + (_Bool);
@@ -29,6 +30,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,19 +43,19 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *codecs; // @synthesize codecs=_codecs;
@@ -60,6 +63,7 @@
 @property(retain, nonatomic) NSNumber *deletionTimeMillis; // @synthesize deletionTimeMillis=_deletionTimeMillis;
 @property(retain, nonatomic) NSNumber *durationMillis; // @synthesize durationMillis=_durationMillis;
 @property(retain, nonatomic) NSNumber *enhanced; // @synthesize enhanced=_enhanced;
+@property(retain, nonatomic) NSString *exportCleanupToken; // @synthesize exportCleanupToken=_exportCleanupToken;
 @property(retain, nonatomic) NSNumber *favorite; // @synthesize favorite=_favorite;
 @property(retain, nonatomic) NSString *folder; // @synthesize folder=_folder;
 @property(retain, nonatomic) NSNumber *multiLayer; // @synthesize multiLayer=_multiLayer;

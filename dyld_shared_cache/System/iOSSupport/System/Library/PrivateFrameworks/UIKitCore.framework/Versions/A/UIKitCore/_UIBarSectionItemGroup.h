@@ -12,14 +12,14 @@
     UIBarButtonItemGroup *_group;
 }
 
-- (id)ck:(id)arg1;
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void)ËÛ	º;
-- (id)_clientWantsBackgroundHidden;
-- (id)@ðc;
-- (id)Â¬;
-- (id)¨ÿé,Öjh;
+- (id);
+- (_Bool)achTime:(id)arg1;
+- (id)SafariSignal:payload: /* Error: Ran out of types for this method. */;
+- (id)iew * _Nullable _viewFromCoordinateSpace(__strong id<UICoordinateSpace> _Nullable);
+- (void)o¡;
 
 // Remaining properties
 @property(readonly, nonatomic) UIBarButtonItemGroup *group; // @synthesize group=_group;

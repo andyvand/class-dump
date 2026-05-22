@@ -25,13 +25,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (struct UIEdgeInsets);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

@@ -20,13 +20,13 @@
 }
 
 + (id);
-+ (_Bool)erInitiated;
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)>;
-- (void)(;
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -34,20 +34,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool)f;
 - (id);
-- (id)dropped on client side;
-- (id);
+- (_Bool);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id)°+Ôð;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;

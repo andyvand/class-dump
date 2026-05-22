@@ -37,15 +37,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)setContext"8@"NSError"16;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *connectUtilityItem; // @synthesize connectUtilityItem=_connectUtilityItem;

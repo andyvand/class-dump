@@ -22,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id)¢þÿÈù3=	;
+- (void);
+- (id);
+- (void)ocaleDidChange;
+- (id)sPaymentsViewModel;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUPlaceCollectionPullQuotePlatterViewDelegate> delegate; // @synthesize delegate=_delegate;

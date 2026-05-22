@@ -7,6 +7,7 @@
 @class HREActionVarianceCollection, NSSet;
 
 @protocol HREActionRecommendation
+- (void)ity.LocationSelection.Icon;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *actions;

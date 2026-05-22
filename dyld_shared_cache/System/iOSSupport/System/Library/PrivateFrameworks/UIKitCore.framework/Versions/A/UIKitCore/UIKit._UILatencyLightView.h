@@ -13,11 +13,10 @@
     MISSING_TYPE *emitterMaskView;
 }
 
-- (void)pthread_setugid_np failed for root;
+- (id);
 - (void);
-- (id)!;
-- (void)¡q!ØDù±Äð1¢!0@ù
-× ;
+- (void)eCellsRecords;
+- (void)¹l;
 
 @end
 

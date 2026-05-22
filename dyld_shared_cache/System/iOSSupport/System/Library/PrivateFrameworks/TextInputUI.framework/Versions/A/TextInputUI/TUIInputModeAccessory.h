@@ -13,17 +13,16 @@
     NSString *_inputMode;
 }
 
-+ (_Bool)ñ|°1b0@ù
-× ;
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id)ItemAtIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;

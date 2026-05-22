@@ -19,17 +19,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (unsigned long long);
-- (unsigned long long);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id)ñ	1b0@ù
-× ;
+- (id);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;

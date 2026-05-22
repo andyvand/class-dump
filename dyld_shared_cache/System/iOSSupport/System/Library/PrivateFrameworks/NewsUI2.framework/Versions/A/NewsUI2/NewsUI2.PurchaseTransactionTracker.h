@@ -10,6 +10,7 @@
 {
     MISSING_TYPE *tracker;
     MISSING_TYPE *channelDataFactory;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *headlineService;
     MISSING_TYPE *sanitizer;
 }

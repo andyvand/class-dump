@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16;
+- (void)ôiÿ¼ôiÿwallpaperLoadingArtificialDelay;
 
 @end
 

@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     id <CKTranscriptLegibilityInternalButtonDelegate> _legibilityButtonDelegate;
 }
 
-- (void)dateFileBasedAttributes:(id)arg1 analytics: /* Error: Ran out of types for this method. */;
-- (void)erformedInitialLayout;
-- (id)ntAlignment;
-- (_Bool);
-- (void)�;
 - (void);
-- (void)dentityPickerDidFinish:(_Bool)arg1;
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void)henticationUI:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)Error"16;
 
 // Remaining properties
 @property(nonatomic) _Bool dimsOnHighlight; // @synthesize dimsOnHighlight=_dimsOnHighlight;

@@ -4,6 +4,6 @@
 
 class objc::objc_headeropt_rw_t<unsigned long> {
 public: // (access info unavailable from symbols alone)
-    isLoaded(unsigned int) const;
-    isLoaded(unsigned int) const (.cold.1);
+    auto isLoaded(unsigned int) const;
+    auto isLoaded(unsigned int) const (.cold.1);
 };

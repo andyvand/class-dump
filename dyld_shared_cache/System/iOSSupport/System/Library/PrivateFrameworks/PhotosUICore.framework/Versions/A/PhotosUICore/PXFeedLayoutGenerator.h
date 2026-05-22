@@ -94,14 +94,14 @@
 - (long long);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (long long);
 - (id);
-- (void)oAudioStrategy;
-- (id),V_startTime;
-- (_Bool);
+- (void)onsDataSection:(CDUnknownBlockType)arg1;
+- (void)tstrap;
+- (void);
+- (void);
+- (id)íÿÆTN­7;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets captionPadding; // @synthesize captionPadding=_captionPadding;

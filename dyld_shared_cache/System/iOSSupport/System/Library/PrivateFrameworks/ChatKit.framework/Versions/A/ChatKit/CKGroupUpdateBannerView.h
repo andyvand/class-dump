@@ -14,12 +14,12 @@
     long long _updateBannerType;
 }
 
-- (long long)e: /* Error: Ran out of types for this method. */;
+- (long long);
 - (void);
-- (void);
-- (id)tring",N,R;
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *groupUpdates; // @synthesize groupUpdates=_groupUpdates;

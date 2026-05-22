@@ -11,12 +11,11 @@
     MISSING_TYPE *transitionManager;
 }
 
-- (void)ame for recordID %@;
 - (void);
 - (void);
-- (void)
-× ;
+- (void);
 - (id);
+- (void)ôëÍhl;
 
 @end
 

@@ -15,15 +15,15 @@
 }
 
 - (id);
-- (long long);
 - (id);
+- (id);
+- (id);
+- (long long);
 - (void);
-- (id)U;
-- (id);
-- (void)TA_CONST;
 - (void);
-- (long long);
-- (void);
+- (long long);
+- (void)ý:GÎ /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

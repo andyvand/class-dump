@@ -4,9 +4,9 @@
 
 class GLDVertexArrayRec {
 public: // (access info unavailable from symbols alone)
-    dealloc();
-    updateBuffers(unsigned long long);
-    updateSharedState(unsigned long long);
-    updateVertexArrayBuffers(unsigned long long, unsigned long long);
+    auto dealloc();
+    auto updateBuffers(unsigned long long);
+    auto updateSharedState(unsigned long long);
+    auto updateVertexArrayBuffers(unsigned long long, unsigned long long);
     ~GLDVertexArrayRec();
 };

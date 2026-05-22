@@ -16,28 +16,28 @@ __attribute__((visibility("hidden")))
     UIView *_backgroundOnePixelView;
 }
 
-- (void) ;
 - (void);
 - (void);
-- (struct CGSize)!;
+- (void);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize);
+- (struct CGSize);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)`;
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id)R;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -52,10 +52,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -65,23 +65,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)t",&,N,V_paletteContainerCompactRightConstraint;
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id)%;
-- (long long)ring",?,R,C;
+- (long long)1Â0@ù
+× ;
+- (id)v1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPageReordering;

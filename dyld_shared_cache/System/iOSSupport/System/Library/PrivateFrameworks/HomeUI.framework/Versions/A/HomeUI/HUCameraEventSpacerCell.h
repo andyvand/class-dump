@@ -15,9 +15,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)
-× ;
-- (void)µÿ³w,ú;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool needsFullDashedLineWidth; // @synthesize needsFullDashedLineWidth=_needsFullDashedLineWidth;

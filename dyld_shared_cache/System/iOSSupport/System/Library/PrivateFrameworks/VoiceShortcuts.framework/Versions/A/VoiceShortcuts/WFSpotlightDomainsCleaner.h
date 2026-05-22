@@ -10,13 +10,14 @@
 {
     MISSING_TYPE *observers;
     MISSING_TYPE *index;
+    MISSING_TYPE *daemonTaskScheduler;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
++ (id);
 - (id);
+- (void);
+- (void);
+- (void);
 
 @end
 

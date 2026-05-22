@@ -13,16 +13,16 @@
     _Bool _isAutomaticSharingEnabled;
 }
 
-+ (id)ìL7;
++ (id)$ÿ;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)deleteGenerativeMemories;
+- (void)ThreadObjectWrapper;
+- (id)ü"8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

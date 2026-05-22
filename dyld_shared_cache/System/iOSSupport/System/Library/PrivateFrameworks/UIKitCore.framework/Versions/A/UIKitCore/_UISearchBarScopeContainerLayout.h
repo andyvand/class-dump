@@ -25,36 +25,38 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _defaultScopeBarInsets;
 }
 
-- (id);
 - (double);
-- (void);
-- (struct CGRect);
-- (void);
-- (id)ng"24@"MPIdentifierSet"32B40q44@"NSDate"52;
-- (double)er;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)x!CùñÍ1¢!0@ù
-× ;
-- (id)ion:attributesForNewModel: /* Error: Ran out of types for this method. */;
-- (void)iewIdentifier:(_Bool)arg1;
-- (unsigned long long)ssertion>",W,N,V_grabberSuppressionAssertion;
-- (struct UIEdgeInsets)Ä;
-- (_Bool)¤úû<ü4ý¨þØÿ;
 - (id);
-- (id)y´j8ypGÒ ï3_pGIegg_;
-- (void)IViewDeferredKeyframeAnimation"16^B24;
-- (void)sDuration;
-- (double)ld have parent view controller:%@ but requested parent is:%@ /* Error: Ran out of types for this method. */;
-- (void)sForeground.inputAberrationHeight;
-- (void);
-- (CDUnknownBlockType)d;
-- (struct UIEdgeInsets)3\;
-- (void);
-- (void)iÿ;
-- (_Bool)«ö^;
-- (CDUnknownBlockType)ÿ;
+- (struct UIEdgeInsets);
+- (id);
+- (double)ù
+× ;
+- (id);
+- (double)1Â0@ù
+× ;
+- (void)a°!hCùñb1Â0@ù
+× ;
+- (void)sibilityValueChanged:(id)arg1;
+- (void)nCentroid;
+- (id)nnectionWithCompletionHandler:(struct _NSZone *)arg1;
+- (struct CGRect);
+- (_Bool)for rendering the bitmap data corner.;
+- (void)ssed with an option not previously specified?;
+- (void)ntaining view:(unsigned long long)arg1 %@ at index path:%@
+Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_UIContextMenuCellSize _UIContextMenuCellSizeForElementSize(UIMenuElementSize);
+- (_Bool)r message when the attempt to start renaming a document fails.;
+- (void);
+- (void);
+- (id)y.¾7GG;
+- (void);
+- (void)Üíÿ13;
+- (CDUnknownBlockType);
+- (struct UIEdgeInsets)AtomicBox;
+- (void);
+- (unsigned long long);
+- (void)ÎÇ$l\;
+- (void)FÒ]_;
 
 // Remaining properties
 @property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;

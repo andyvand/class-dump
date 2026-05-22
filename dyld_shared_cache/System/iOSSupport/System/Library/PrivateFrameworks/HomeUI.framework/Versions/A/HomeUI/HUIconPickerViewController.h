@@ -21,16 +21,18 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (id)Now;
-- (void)Items:(id)arg1;
+- (long long);
+- (void)!LEùQ°1â
+0@ù
+× ;
 - (_Bool);
-- (long long)\;
-- (void)n label.attributedText, feel free to add label.text support too!;
-- (id)³\;
-- (void){+;
+- (void)sher;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak id <HUIconPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

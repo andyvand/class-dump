@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)ªHýÿÊKýÿHIýÿ;
-- (id);
++ (id);
+- (id)yncState;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *account; // @dynamic account;

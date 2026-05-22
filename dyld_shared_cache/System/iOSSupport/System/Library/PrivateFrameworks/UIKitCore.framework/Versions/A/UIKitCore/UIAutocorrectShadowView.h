@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     int m_edgeType;
 }
 
-- (void);
-- (void)gÿ;
+- (void);
+- (void);
 
 @end
 

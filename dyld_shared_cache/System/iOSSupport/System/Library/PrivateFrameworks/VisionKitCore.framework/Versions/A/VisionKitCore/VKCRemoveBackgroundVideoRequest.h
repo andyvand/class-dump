@@ -44,11 +44,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (struct os_unfair_lock_s);
 - (void);
-- (void);
-- (id);
-- (void)"UITextRange"24;
+- (void)nt=dd}{CGSize=dd}}16B48;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

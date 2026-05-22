@@ -43,11 +43,11 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)uvriVo8sto3Enauleme;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *announceRecordingIsForHome; // @synthesize announceRecordingIsForHome=_announceRecordingIsForHome;

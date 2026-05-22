@@ -5,11 +5,15 @@
 class marisa::Agent {
 public: // (access info unavailable from symbols alone)
     Agent();
-    clear();
-    init_state();
-    set_query(char const*);
-    set_query(char const*, unsigned long);
-    set_query(unsigned long);
-    swap(marisa::Agent&);
+    auto clear();
+    auto init_state();
+    auto init_state() (.cold.1);
+    auto init_state() (.cold.2);
+    auto set_query(char const*);
+    auto set_query(char const*) (.cold.1);
+    auto set_query(char const*, unsigned long);
+    auto set_query(char const*, unsigned long) (.cold.1);
+    auto set_query(unsigned long);
+    auto swap(marisa::Agent&);
     ~Agent();
 };

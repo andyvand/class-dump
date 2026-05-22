@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol FCSectionProviding
+- (NSString *)oryService;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isFoodSection;

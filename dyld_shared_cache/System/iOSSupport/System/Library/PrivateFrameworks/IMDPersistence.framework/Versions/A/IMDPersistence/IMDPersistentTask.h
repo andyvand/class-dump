@@ -23,24 +23,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)T
-    chat.guid,
-    CASE WHEN chat.style = 45 THEN NULL ELSE chat.group_id END,
-    CASE WHEN chat.style = 45 THEN NULL ELSE chat.original_group_id END,
-    chat.last_addressed_handle,
-    chat.last_addressed_sim_id,
-    chat.is_filtered,
-    chat.is_blackholed,
-    chat.is_archived,
-    chat_participants.participants,
-    CASE WHEN chat.is_filtered == 2 THEN NULL ELSE chat_unreads.time_sensitive_refresh_date END,
-    CASE WHEN chat.is_filtered == 2 THEN 0 ELSE chat_unreads.time_sensitive_unreads END,
-    chat_unreads.unread_count,
-    chat.is_pending_review
-FROM chat_unreads
-INNER JOIN chat ON chat.rowid = chat_unreads.chat_id
-INNER JOIN chat_participants ON chat_participants.chat_id = chat_unreads.chat_id
-WHERE chat_unreads.unread_count > 0 AND ;
++ (_Bool);
 - (long long);
 - (id);
 - (id);
@@ -49,17 +32,17 @@ WHERE chat_unreads.unread_count > 0 AND ;
 - (long long);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
+- (id);
 - (long long);
 - (id);
-- (void);
-- (id);
 - (unsigned long long);
-- (long long);
-- (id);
-- (long long)tion, not allowing indexing, lastBuild:%@, currentBuild:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)t guid = ? WHERE ROWID = ?;;
+- (id);
+- (void);
+- (unsigned long long);
+- (id)tificationRequests:isMostActiveDevice: /* Error: Ran out of types for this method. */;
+- (long long)tateMonitor;
+- (void);
+- (long long)eMessageSyndicationRanges:shouldHideFromSyndication:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long flag; // @synthesize flag=_flag;

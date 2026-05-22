@@ -5,5 +5,9 @@
 //
 
 @protocol UNUserNotificationCenterDelegate
+
+@optional
+- (void)ticsEvent+Subclass.h for more information.;
+- (void)Profile"8;
 @end
 

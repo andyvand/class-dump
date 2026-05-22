@@ -24,13 +24,13 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (id);
 - (unsigned long long);
+- (id):(struct _NSZone *)arg1 8{PXSimpleIndexPath=qqqq}16Q48;
+- (id)vailableStreamingFormat;
+- (id){#;
+- (void){CGSize=dd}}8q40^B48;
 - (void);
-- (id);
-- (id)|6Rÿõj3ÐJ!ÿÅj3p6Rÿ;
-- (id);
+- (id)ÃMÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *collection; // @synthesize collection=_collection;

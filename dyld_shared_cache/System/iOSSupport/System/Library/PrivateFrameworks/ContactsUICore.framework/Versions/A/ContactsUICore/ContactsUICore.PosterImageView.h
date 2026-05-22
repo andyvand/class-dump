@@ -13,10 +13,10 @@
     MISSING_TYPE *contentOffset;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)LayerStackLock;
 
 @end
 

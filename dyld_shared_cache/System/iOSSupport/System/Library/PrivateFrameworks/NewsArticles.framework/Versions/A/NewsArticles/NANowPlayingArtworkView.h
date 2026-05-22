@@ -16,12 +16,12 @@
 - (void);
 - (struct CGSize);
 - (struct CGSize);
-- (void);
+- (_Bool);
+- (struct CGSize);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id)!;
-- (struct CGSize)T@"<SXAdvertisingSettings>",R,N;
+- (id);
+- (void)visibilityProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize artworkSize;

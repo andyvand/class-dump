@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol PKSelectionInteractionDelegate
-
-@optional
-- (void)Q;
-- (NSArray *)P;
-- (void);
-- (void)T;
 @end
 

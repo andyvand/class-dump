@@ -36,13 +36,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void)óÿ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)QrÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain) WFWidgetConfigurationCardView *cardView; // @synthesize cardView=_cardView;

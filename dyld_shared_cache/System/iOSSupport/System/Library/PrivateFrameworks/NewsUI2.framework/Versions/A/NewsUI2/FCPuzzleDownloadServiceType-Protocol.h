@@ -5,6 +5,5 @@
 //
 
 @protocol FCPuzzleDownloadServiceType
-- (_Bool);
 @end
 

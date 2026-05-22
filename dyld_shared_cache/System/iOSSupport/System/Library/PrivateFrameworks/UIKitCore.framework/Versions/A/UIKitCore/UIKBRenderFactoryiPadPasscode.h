@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)riginalGroupID:serviceName: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
-- (id)9,;
-- (id)ailable;
-- (id)th %@ with error:%@ /* Error: Ran out of types for this method. */;
-- (id)for message %@ attachment index %lu ;
-- (id)Service Session Received an incomming approval response from:%@ to:%@ /* Error: Ran out of types for this method. */;
-- (id)h %@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

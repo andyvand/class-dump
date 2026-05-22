@@ -20,11 +20,12 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id)sContentMapping;
+- (_Bool)	
+;
+- (void)wRunViewSource"8@"NSError"16;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

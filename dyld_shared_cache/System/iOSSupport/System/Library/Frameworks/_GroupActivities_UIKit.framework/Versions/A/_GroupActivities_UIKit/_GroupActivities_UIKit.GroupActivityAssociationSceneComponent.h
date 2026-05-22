@@ -14,11 +14,11 @@
     void _scene;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

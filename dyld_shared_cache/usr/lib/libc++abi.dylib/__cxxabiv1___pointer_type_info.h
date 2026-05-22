@@ -4,7 +4,7 @@
 
 class __cxxabiv1::__pointer_type_info {
 public: // (access info unavailable from symbols alone)
-    can_catch(__cxxabiv1::__shim_type_info const*, void*&) const;
-    can_catch_nested(__cxxabiv1::__shim_type_info const*) const;
+    auto can_catch(__cxxabiv1::__shim_type_info const*, void*&) const;
+    auto can_catch_nested(__cxxabiv1::__shim_type_info const*) const;
     ~__pointer_type_info();
 };

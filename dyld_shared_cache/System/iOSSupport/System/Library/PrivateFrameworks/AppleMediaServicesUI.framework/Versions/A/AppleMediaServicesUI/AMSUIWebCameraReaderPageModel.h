@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, AMSUIWebAction, AMSUIWebClientContext, AMSUIWebNavigationBarModel, NSString, UIViewController;
+@class AMSMetricsEvent, AMSPromise, AMSUIImageQualityRequest, AMSUIWebAction, AMSUIWebClientContext, AMSUIWebNavigationBarModel, NSArray, NSNumber, NSString, UIViewController, UTType;
 @protocol AMSUIWebActionRunnable;
 
 __attribute__((visibility("hidden")))
@@ -17,12 +17,22 @@ __attribute__((visibility("hidden")))
     NSString *_backgroundColor;
     AMSMetricsEvent *_impressionEvent;
     AMSUIWebNavigationBarModel *_navigationBar;
+    long long _userInterfaceStyle;
     NSString *_bottomLinkLabel;
     id <AMSUIWebActionRunnable> _bottomLinkAction;
+    long long _pageStyle;
     long long _pageType;
     NSString *_primaryLabel;
     NSString *_secondaryLabel;
     NSString *_textFieldPlaceholder;
+    NSArray *_ctaButtons;
+    NSNumber *_outputImageWidth;
+    NSNumber *_manualCaptureImagePadding;
+    UTType *_outputFormat;
+    NSNumber *_outputFormatCompression;
+    AMSUIImageQualityRequest *_imageQualityRequest;
+    AMSPromise *_imageQualityPromise;
+    id <AMSUIWebActionRunnable> _invalidDocumentAction;
     id <AMSUIWebActionRunnable> _action;
     AMSUIWebClientContext *_context;
     UIViewController *_presentedViewController;
@@ -39,32 +49,54 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (struct CGSize)Identifier;
-- (id)und;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)cheduledTimerWithTimeInterval:target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
+- (void)lFrameForViewController:(id)arg1;
+- (id)	
+;
+- (void)/{;
+- (long long)'1yT3y¿R3yáX3y;51G_P3Qo__Qo_H&1G_ACy^91yG3yr;1ANGGAJGACyACyALyACy¢81]11y781GGGAJG"1GtGG;
+- (long long)ResultC·3_pGSg;
+- (id)(coder:) has not been implemented /* Error: Ran out of types for this method. */;
+- (struct CGSize)etLoader;
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSUIWebActionRunnable> action; // @synthesize action=_action;
@@ -74,6 +106,7 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) id <AMSUIWebActionRunnable> bottomLinkAction; // @synthesize bottomLinkAction=_bottomLinkAction;
 @property(retain, nonatomic) NSString *bottomLinkLabel; // @synthesize bottomLinkLabel=_bottomLinkLabel;
 @property(retain, nonatomic) AMSUIWebClientContext *context; // @synthesize context=_context;
+@property(retain, nonatomic) NSArray *ctaButtons; // @synthesize ctaButtons=_ctaButtons;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
@@ -82,8 +115,16 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) _Bool disableReappearPlaceholder;
 @property(nonatomic, getter=isFullScreen) _Bool fullScreen; // @synthesize fullScreen=_fullScreen;
 @property(readonly) unsigned long long hash;
+@property(retain, nonatomic) AMSPromise *imageQualityPromise; // @synthesize imageQualityPromise=_imageQualityPromise;
+@property(retain, nonatomic) AMSUIImageQualityRequest *imageQualityRequest; // @synthesize imageQualityRequest=_imageQualityRequest;
 @property(readonly, nonatomic) AMSMetricsEvent *impressionEvent; // @synthesize impressionEvent=_impressionEvent;
+@property(retain, nonatomic) id <AMSUIWebActionRunnable> invalidDocumentAction; // @synthesize invalidDocumentAction=_invalidDocumentAction;
+@property(retain, nonatomic) NSNumber *manualCaptureImagePadding; // @synthesize manualCaptureImagePadding=_manualCaptureImagePadding;
 @property(readonly, nonatomic) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
+@property(retain, nonatomic) UTType *outputFormat; // @synthesize outputFormat=_outputFormat;
+@property(retain, nonatomic) NSNumber *outputFormatCompression; // @synthesize outputFormatCompression=_outputFormatCompression;
+@property(retain, nonatomic) NSNumber *outputImageWidth; // @synthesize outputImageWidth=_outputImageWidth;
+@property(nonatomic) long long pageStyle; // @synthesize pageStyle=_pageStyle;
 @property(nonatomic) long long pageType; // @synthesize pageType=_pageType;
 @property(nonatomic) _Bool prefersSessionTeardown; // @synthesize prefersSessionTeardown=_prefersSessionTeardown;
 @property(nonatomic) __weak UIViewController *presentedViewController; // @synthesize presentedViewController=_presentedViewController;
@@ -95,6 +136,7 @@ __attribute__((visibility("hidden")))
 // Original attribute string: T@"AMSUIWebAction",?,R,N
 
 @property(retain, nonatomic) NSString *textFieldPlaceholder; // @synthesize textFieldPlaceholder=_textFieldPlaceholder;
+@property(readonly, nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 @property(readonly, nonatomic) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end

@@ -198,7 +198,6 @@
         unsigned int shouldContinueRemovingFromSuperview:1;
         unsigned int isMaskingIntermediateLayer:1;
         unsigned int hasLayoutRules:1;
-        unsigned int maskingConfigurationIsInvalid:1;
         unsigned int needsCornersUpdate:1;
         unsigned int invalidatesCornersForGeometryChange:1;
         unsigned int suppressesBackground:1;

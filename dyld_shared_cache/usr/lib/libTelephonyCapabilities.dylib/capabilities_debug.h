@@ -4,24 +4,24 @@
 
 class capabilities::debug {
 public: // (access info unavailable from symbols alone)
-    asString(capabilities::debug::BootLoggerType);
-    asString(capabilities::debug::Environment);
-    bootLoggerType();
-    bootLoggerTypeForVendor(TelephonyRadioVendor);
-    environment();
-    operator&(capabilities::debug::BootLoggerType, capabilities::debug::BootLoggerType);
-    operator&(capabilities::debug::Environment, capabilities::debug::Environment);
-    operator&=(capabilities::debug::BootLoggerType&, capabilities::debug::BootLoggerType);
-    operator&=(capabilities::debug::Environment&, capabilities::debug::Environment);
-    operator^(capabilities::debug::BootLoggerType, capabilities::debug::BootLoggerType);
-    operator^(capabilities::debug::Environment, capabilities::debug::Environment);
-    operator^=(capabilities::debug::BootLoggerType&, capabilities::debug::BootLoggerType);
-    operator^=(capabilities::debug::Environment&, capabilities::debug::Environment);
-    operator|(capabilities::debug::BootLoggerType, capabilities::debug::BootLoggerType);
-    operator|(capabilities::debug::Environment, capabilities::debug::Environment);
-    operator|=(capabilities::debug::BootLoggerType&, capabilities::debug::BootLoggerType);
-    operator|=(capabilities::debug::Environment&, capabilities::debug::Environment);
-    operator~(capabilities::debug::BootLoggerType);
-    operator~(capabilities::debug::Environment);
-    shouldTriggerStackshotOnSnapshot();
+    auto asString(capabilities::debug::BootLoggerType);
+    auto asString(capabilities::debug::Environment);
+    auto bootLoggerType();
+    auto bootLoggerTypeForVendor(TelephonyRadioVendor);
+    auto environment();
+    auto operator&(capabilities::debug::BootLoggerType, capabilities::debug::BootLoggerType);
+    auto operator&(capabilities::debug::Environment, capabilities::debug::Environment);
+    auto operator&=(capabilities::debug::BootLoggerType&, capabilities::debug::BootLoggerType);
+    auto operator&=(capabilities::debug::Environment&, capabilities::debug::Environment);
+    auto operator^(capabilities::debug::BootLoggerType, capabilities::debug::BootLoggerType);
+    auto operator^(capabilities::debug::Environment, capabilities::debug::Environment);
+    auto operator^=(capabilities::debug::BootLoggerType&, capabilities::debug::BootLoggerType);
+    auto operator^=(capabilities::debug::Environment&, capabilities::debug::Environment);
+    auto operator|(capabilities::debug::BootLoggerType, capabilities::debug::BootLoggerType);
+    auto operator|(capabilities::debug::Environment, capabilities::debug::Environment);
+    auto operator|=(capabilities::debug::BootLoggerType&, capabilities::debug::BootLoggerType);
+    auto operator|=(capabilities::debug::Environment&, capabilities::debug::Environment);
+    auto operator~(capabilities::debug::BootLoggerType);
+    auto operator~(capabilities::debug::Environment);
+    auto shouldTriggerStackshotOnSnapshot();
 };

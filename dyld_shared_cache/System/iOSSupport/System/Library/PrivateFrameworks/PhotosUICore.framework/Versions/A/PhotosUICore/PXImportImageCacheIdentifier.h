@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)Xª!ÿâÈª!ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetUuid; // @synthesize assetUuid=_assetUuid;

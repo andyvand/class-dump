@@ -15,10 +15,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void)ô;
-- (id)|9
-Ð: /* Error: Ran out of types for this method. */;
+- (void)cyNumbers;
+- (void);
+- (id).;
 
 // Remaining properties
 @property(retain) NSString *fileURL; // @synthesize fileURL=_fileURL;

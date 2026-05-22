@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (void)bumsMap;
-- (id)rSizing: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)¨þ;
+- (id);
+- (void);
+- (struct CGPoint);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint frameOffset; // @synthesize frameOffset=_frameOffset;

@@ -27,125 +27,32 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (double)sults;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)d adequate (and is what the GPU shaders use) so we continue to use that here.
-    //
-    //  An implementation of the true derivatives is provided for future reference -- it is
-    //  unclear if the approximations will hold up under surface analysis involving higher
-    //  order differentiation.
-    //
-    if (OSD_OPTIONAL(wDs && wDt)) {
-        bool find_second_partials = OSD_OPTIONAL(wDs && wDst && wDtt);
-        //  Remember to include derivative scaling in all assignments below:(id)arg1 float d2Scale = dScale * dScale;
-
-        //  Combined weights for boundary points -- simple (scaled) tensor products:for (int i = 0; i < 12; ++i) {
-            int iDst = boundaryGregory[i];
-            int tRow = boundaryBezTRow[i];
-            int sCol = boundaryBezSCol[i];
-
-            wDs[iDst] = Bds[sCol] * Bt[tRow] * dScale;
-            wDt[iDst] = Bdt[tRow] * Bs[sCol] * dScale;
-
-            if (find_second_partials) {
-                wDss[iDst] = Bdss[sCol] * Bt[tRow] * d2Scale;
-                wDst[iDst] = Bds[sCol] * Bdt[tRow] * d2Scale;
-                wDtt[iDst] = Bs[sCol] * Bdtt[tRow] * d2Scale;
-            }
-        }
-
-        // dclyde's note:skipping half of the product rule like this does seem to change the result a lot in my tests.
-        // This is not a runtime bottleneck for cloth sims anyway so I'm just using the accurate version.
-#ifndef OPENSUBDIV_GREGORY_EVAL_TRUE_DERIVATIVES
-        //  Approximation to the true Gregory derivatives by differentiating the Bezier patch
-        //  unique to the given (s,t), i.e. having F = (g^+ * f^+) + (g^- * f^-) as its four
-        //  interior points://
-        //  Combined weights for interior points -- (scaled) tensor products with G+ or G-:for (int i = 0; i < 8; ++i) {
-            int iDst = interiorGregory[i];
-            int tRow = interiorBezTRow[i];
-            int sCol = interiorBezSCol[i];
-
-            wDs[iDst] = Bds[sCol] * Bt[tRow] * G[i] * dScale;
-            wDt[iDst] = Bdt[tRow] * Bs[sCol] * G[i] * dScale;
-
-            if (find_second_partials) {
-                wDss[iDst] = Bdss[sCol] * Bt[tRow] * G[i] * d2Scale;
-                wDst[iDst] = Bds[sCol] * Bdt[tRow] * G[i] * d2Scale;
-                wDtt[iDst] = Bs[sCol] * Bdtt[tRow] * G[i] * d2Scale;
-            }
-        }
-#else
-        //  True Gregory derivatives using appropriate differentiation of composite functions://
-        //  Note that for G(s,t) = N(s,t) / D(s,t), all N' and D' are trivial constants (which
-        //  simplifies things for higher order derivatives).  And while each pair of functions
-        //  G (i.e. the G+ and G- corresponding to points f+ and f-) must sum to 1 to ensure
-        //  Bezier equivalence (when f+ = f-), the pairs of G' must similarly sum to 0.  So we
-        //  can potentially compute only one of the pair and negate the result for the other
-        //  (and with 4 or 8 computations involving these constants, this is all very SIMD
-        //  friendly...) but for now we treat all 8 independently for simplicity.
-        //
-        //float N[8] = OSD_ARRAY_8(float,    s,     t,      t,     sC,      sC,     tC,      tC,     s );
-        float D[8] = OSD_ARRAY_8(float,  df0,   df0,    df1,    df1,     df2,    df2,     df3,   df3 );
-
-        OSD_DATA_STORAGE_CLASS const float Nds[8] = OSD_ARRAY_8(float, 1.0f, 0.0f,  0.0f, -1.0f, -1.0f,  0.0f,  0.0f,  1.0f );
-        OSD_DATA_STORAGE_CLASS const float Ndt[8] = OSD_ARRAY_8(float, 0.0f, 1.0f,  1.0f,  0.0f,  0.0f, -1.0f, -1.0f,  0.0f );
-
-        OSD_DATA_STORAGE_CLASS const float Dds[8] = OSD_ARRAY_8(float, 1.0f, 1.0f, -1.0f, -1.0f, -1.0f, -1.0f,  1.0f,  1.0f );
-        OSD_DATA_STORAGE_CLASS const float Ddt[8] = OSD_ARRAY_8(float, 1.0f, 1.0f,  1.0f,  1.0f, -1.0f, -1.0f, -1.0f, -1.0f );
-
-        //  Combined weights for interior points -- (scaled) combinations of B, B', G and G':for (int i = 0; i < 8; ++i) {
-            int iDst = interiorGregory[i];
-            int tRow = interiorBezTRow[i];
-            int sCol = interiorBezSCol[i];
-
-            //  Quotient rule for G' (re-expressed in terms of G to simplify (and D = 1/D)):float Gds = (Nds[i] - Dds[i] * G[i]) * D[i];
-            float Gdt = (Ndt[i] - Ddt[i] * G[i]) * D[i];
-
-            //  Product rule combining B and B' with G and G' (and scaled):wDs[iDst] = (Bds[sCol] * G[i] + Bs[sCol] * Gds) * Bt[tRow] * dScale;
-            wDt[iDst] = (Bdt[tRow] * G[i] + Bt[tRow] * Gdt) * Bs[sCol] * dScale;
-
-            if (find_second_partials) {
-                float Dsqr_inv = D[i]*D[i];
-
-                float Gdss = 2.0f * Dds[i] * Dsqr_inv * (G[i] * Dds[i] - Nds[i]);
-                float Gdst = Dsqr_inv * (2.0f * G[i] * Dds[i] * Ddt[i] - Nds[i] * Ddt[i] - Ndt[i] * Dds[i]);
-                float Gdtt = 2.0f * Ddt[i] * Dsqr_inv * (G[i] * Ddt[i] - Ndt[i]);
-
-                wDss[iDst] = (Bdss[sCol] * G[i] + 2.0f * Bds[sCol] * Gds + Bs[sCol] * Gdss) * Bt[tRow] * d2Scale;
-                wDst[iDst] = (Bt[tRow] * (Bs[sCol] * Gdst + Bds[sCol] * Gdt) + Bdt[tRow] * (Bds[sCol] * G[i] + Bs[sCol] * Gds)) * d2Scale;
-                wDtt[iDst] = (Bdtt[tRow] * G[i] + 2.0f * Bdt[tRow] * Gdt + Bt[tRow] * Gdtt) * Bs[sCol] * d2Scale;
-            }
-        }
-#endif
-    }
-}
-
-#endif /* OPENSUBDIV3_OSD_PATCH_BASIS_COMMON_H */
-
- /* Error: Ran out of types for this method. */;
-- (long long);
-- (id)!h";
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)@;
 - (long long);
 - (void);
-- (id)tAnnotation:onPageModelController: /* Error: Ran out of types for this method. */;
-- (id)reen:(id)arg1 blue:(id)arg2 alpha: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (long long);
+- (double);
+- (long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)nitWithFrame:(id)arg1 controller:(id)arg2;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

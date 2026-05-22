@@ -14,7 +14,7 @@
 + (id);
 - (id);
 - (id);
-- (void)ectWithSize:options:context: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <BSPathProviding> containerPathProvider;

@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     id <VKCLookupButtonDelegate> _delegate;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

@@ -28,13 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
 - (void);
 - (CDUnknownBlockType);
-- (id);
 - (void);
-- (id)	;
+- (id);
+- (void)Selected;
+- (id)y¶£;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

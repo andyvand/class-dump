@@ -7,6 +7,6 @@
 @class NSDictionary;
 
 @protocol TIKeyboardInputManagerToImplProtocol
-- (void)eForItemAtIndexPath:(NSDictionary *)arg1;
+- (void)w:(NSDictionary *)arg1;
 @end
 

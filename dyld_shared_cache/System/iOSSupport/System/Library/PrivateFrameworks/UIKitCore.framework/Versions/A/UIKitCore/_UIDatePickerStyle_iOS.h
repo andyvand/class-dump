@@ -10,12 +10,12 @@
 {
 }
 
-- (_Bool)orDisplayedPeople;
-- (double)dentifier;
-- (double)chanism;
-- (double)ageAppearance;
-- (double)ue;
-- (double)tation;
+- (_Bool);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
 - (struct UIEdgeInsets);
 - (double);
 - (double);
@@ -25,13 +25,13 @@
 - (struct CGSize);
 - (long long);
 - (id);
-- (id)e>";
-- (double)8@16;
-- (double)24;
-- (struct CGSize)n";
-- (id)2;
-- (id)ge=QQ}32@48@56@64@72@80@88;
-- (void)ges:(id)arg1;
+- (id);
+- (double);
+- (double);
+- (struct CGSize);
+- (id);
+- (id);
+- (void);
 
 @end
 

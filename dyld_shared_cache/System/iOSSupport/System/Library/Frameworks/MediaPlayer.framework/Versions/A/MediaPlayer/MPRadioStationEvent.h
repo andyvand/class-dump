@@ -14,19 +14,20 @@
     NSDate *_endTime;
 }
 
-+ (_Bool)- Device is not valid home accessory;
++ (_Bool);
 - (void);
-- (id)certificate reference;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
-- (id)`";
-- (void)_currentUser;
-- (id)lectionDataSource %p:identifiersForItemAtIndexPath returning MPIdentifierSet.emptyIdentifierSet [unpersonalizedContentDescriptors did not contain MPStoreLibraryPersonalizationContentDescriptor] indexPath=%{public}@ possibleObject=%{public}@ /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (id);
+- (void)gCloudStatus__MAPPING_MISSING__;
+- (void)Pº
+;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

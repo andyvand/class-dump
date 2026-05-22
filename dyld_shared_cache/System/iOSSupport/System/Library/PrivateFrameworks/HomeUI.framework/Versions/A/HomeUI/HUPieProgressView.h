@@ -43,23 +43,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (long long);
 - (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (void);
-- (double)0@ù
-× ;
-- (id)!BùQ/°1b0@ù
-× ;
 - (void);
-- (id)uickControlContentRequiringHelper>";
-- (void)onPrimaryLabel:(id)arg1;
-- (void)ViewCell:(long long)arg1 didSelectValueAtIndex: /* Error: Ran out of types for this method. */;
-- (_Bool): /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (_Bool);
+- (id)0@ù
+× ;
+- (double)onfiguration: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)tailsSplitAccountDescription;
+- (id)HUMediaSourceListItemManager;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUPieProgressViewDelegate> delegate; // @synthesize delegate=_delegate;

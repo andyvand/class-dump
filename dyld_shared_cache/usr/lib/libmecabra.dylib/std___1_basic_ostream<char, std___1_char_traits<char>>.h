@@ -4,16 +4,8 @@
 
 class std::__1::basic_ostream<char, std::__1::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    flush();
-    operator<<(bool);
-    operator<<(double);
-    operator<<(float);
-    operator<<(int);
-    operator<<(long);
-    operator<<(unsigned int);
-    operator<<(unsigned long);
-    operator<<(unsigned short);
-    put(char);
-    write(char const*, long);
+    auto flush();
+    auto put(char);
+    auto write(char const*, long);
     ~basic_ostream();
 };

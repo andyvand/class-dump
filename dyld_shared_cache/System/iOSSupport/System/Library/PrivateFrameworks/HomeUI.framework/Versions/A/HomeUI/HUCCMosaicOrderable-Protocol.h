@@ -5,6 +5,7 @@
 //
 
 @protocol HUCCMosaicOrderable
+- (unsigned long long)y¬}GG;
 
 // Remaining properties
 @property(nonatomic) double itemPriority;

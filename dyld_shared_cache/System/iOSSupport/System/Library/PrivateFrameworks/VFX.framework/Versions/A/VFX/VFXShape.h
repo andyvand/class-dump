@@ -20,7 +20,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)v@?@"NSError">24;
 - (void);
 - (void);
 - (void);
@@ -46,12 +46,14 @@
 - (long long);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id);
+- (id)!x@ùQÐ1â
+0@ù
+× ;
 - (id);
 
 // Remaining properties

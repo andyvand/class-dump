@@ -10,8 +10,8 @@
     double confirmedClickInterval;
 }
 
-+ (id)dPuzzleProgressCommandHandler;
-- (id)d. %{public}@;
++ (id);
+- (id);
 - (double);
 - (void);
 - (id);

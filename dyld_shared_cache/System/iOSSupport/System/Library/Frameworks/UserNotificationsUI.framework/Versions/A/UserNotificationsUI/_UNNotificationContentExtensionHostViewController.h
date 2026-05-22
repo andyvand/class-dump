@@ -21,16 +21,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void)ctForKey:(_Bool)arg1;
 
 // Remaining properties
 @property(nonatomic) __weak NSExtension *extension; // @synthesize extension=_extension;

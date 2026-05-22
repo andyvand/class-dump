@@ -15,25 +15,23 @@ __attribute__((visibility("hidden")))
     UIColor *_shadowColor;
 }
 
-- (_Bool)C;
+- (_Bool);
+- (void);
+- (void);
+- (double);
 - (void);
 - (_Bool);
-- (void)entalContexts;
-- (double);
+- (double)rKeyboardState: /* Error: Ran out of types for this method. */;
+- (id)ghtRowAtIndexPath:(struct CGRect)arg1 animated:scrollPosition:usingPresentationValues:playFeedback: /* Error: Ran out of types for this method. */;
+- (id)d e;
+- (double)dy saved. Skipping save of stateRestorationActivity for scene session %@;
+- (void)side it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:(double)arg1 %@;
+- (void)\¬þy23 ¬þi23¬þ;
 - (void);
+- (struct CGSize)ºÐÁB];
+- (void)ÿ;
 - (double);
-- (void)!HAù1Æ1¢!0@ù
-× ;
-- (id)Necessary;
-- (struct CGSize)ebugColorBoundsView;
-- (id);
-- (void)ã?=
-×£p=ð?;
-- (double);
-- (void);
-- (void);
-- (double)n¤\;
-- (void)ç^;
+- (void)ÒÝÿÿúÚ<c_;
 
 // Remaining properties
 @property(nonatomic) double blurRadius; // @dynamic blurRadius;

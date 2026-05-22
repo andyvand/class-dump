@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void)0é;
 - (id);
-- (id)¸Z;
+- (id)DetailedSaliencyProducer;
+- (void)ookmarksAction;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

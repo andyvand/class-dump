@@ -26,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (long long);
-- (void);
 - (long long);
 - (id);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *assets;

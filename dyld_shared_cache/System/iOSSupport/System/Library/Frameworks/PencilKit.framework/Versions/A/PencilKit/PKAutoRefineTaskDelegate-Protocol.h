@@ -5,6 +5,5 @@
 //
 
 @protocol PKAutoRefineTaskDelegate
-- (void)q@"NSURLCredential">40;
 @end
 

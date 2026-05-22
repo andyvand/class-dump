@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

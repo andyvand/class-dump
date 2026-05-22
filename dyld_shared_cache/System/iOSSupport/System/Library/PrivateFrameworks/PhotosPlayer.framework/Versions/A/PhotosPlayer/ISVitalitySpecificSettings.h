@@ -24,15 +24,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)vent: /* Error: Ran out of types for this method. */;
++ (id);
 - (double);
-- (void);
-- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -41,37 +41,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (double);
+- (long long);
+- (void);
 - (void);
 - (double);
-- (void)validMax) - k1;
-vec2 a = clamp(A / (A + B), 0, 1);
-vec2 b = clamp((A + B) / z, 0, 1);
-int oY = int(k0.y + 1 <= validMax.y);
-int oX = int(k0.x + 1 <= validMax.x);
-vec4 t00 = texelFetch2DRect(sampler, ivec2(k0.x, k0.y));
-vec4 t01 = texelFetch2DRect(sampler, ivec2(k0.x, k0.y + oY));
-vec4 t10 = texelFetch2DRect(sampler, ivec2(k0.x + oX, k0.y));
-vec4 t11 = texelFetch2DRect(sampler, ivec2(k0.x + oX, k0.y + oY));
-vec4 t0 = mix(t01, t00, a.y);
-vec4 t1 = mix(t11, t10, a.y);
-vec4 t = mix(t1, t0, a.x);
-return t;
-}
-uniform sampler2DRect texture;
-uniform vec2 scaleInv;
-uniform vec4 textureValidRect;
-uniform vec4 debugColor;
-uniform vec4 channelMask;
-noperspective centroid varying vec2 texCoord;
-void main()
-{
-vec4 texColor = linearSample2DRect(texture, texCoord, scaleInv, textureValidRect);
-texColor = texColor + debugColor;
-gl_FragColor = texColor * channelMask;
-}
-;
 - (void);
-- (long long)containers for %@ as it's unsupported on this platform.;
 
 // Remaining properties
 @property(nonatomic) long long behavior; // @synthesize behavior=_behavior;

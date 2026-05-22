@@ -44,22 +44,22 @@
 - (_Bool);
 - (void);
 - (id);
-- (struct UIEdgeInsets);
+- (id);
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
-- (id);
+- (void);
+- (struct CGSize);
+- (struct UIEdgeInsets);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (struct CGRect);
-- (struct CGSize);
 - (void);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bottomSuggestions; // @synthesize bottomSuggestions=_bottomSuggestions;

@@ -22,8 +22,8 @@
     } _requestedCuratorProperties;
 }
 
-+ (id)t:localComputePublisher: /* Error: Ran out of types for this method. */;
-- (id)ameworks/ContextKit.framework/Versions/A/ContextKit;
++ (id);
+- (id);
 
 @end
 

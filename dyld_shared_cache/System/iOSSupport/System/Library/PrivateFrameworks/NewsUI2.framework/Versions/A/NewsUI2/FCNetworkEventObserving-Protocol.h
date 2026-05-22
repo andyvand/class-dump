@@ -5,6 +5,5 @@
 //
 
 @protocol FCNetworkEventObserving
-- (void)ublic}@;
 @end
 

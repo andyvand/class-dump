@@ -20,34 +20,38 @@
     MISSING_TYPE *accessoryContainerView;
     double keyboardAdjustment;
     _Bool isUpdatingHostedElements;
+    _Bool isAnimatingBottomAccessory;
     _Bool isHostingSearchTextField;
     _Bool isUpdatingContentLayout;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void),;
-- (void)mode;
-- (void)lastAddressedLocalHandle, falling back to account's loginID;
-- (void)t for conversation:(_Bool)arg1 %@;
-- (void)tionDate:(_Bool)arg1 %lu, skipping;
-- (void)delete message with GUID %@;
-- (id)@  to display to enroll them into SMS Relay;
-- (_Bool)w sync %@;
-- (_Bool)eady in progress, ignoring request;
-- (_Bool)bailing;
-- (_Bool)nqueued item for key:%@    timeout:%f /* Error: Ran out of types for this method. */;
-- (_Bool)cannot continue sending!;
-- (double)h.;
-- (id)RecordIfNeeded last sync date %@ was not in last 7 days;
-- (void)mg;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (double);
+- (id);
+- (void);
+- (struct CGSize);
 - (struct CGRect);
 - (void);
 - (void);
@@ -58,24 +62,24 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (struct CGSize);
 - (void);
-- (void);
 - (double);
-- (void)0@ù
+- (id);
+- (id);
+- (id)@ù
 × ;
-- (id)ÔyÐ!pAù±Î1¢!0@ù
-× ;
-- (id)youts;
-- (void)e(ÿ<;
-- (id)UÆj;
-- (id)îl;
-- (void)sKn;
+- (id)ä3i;
+- (void)Ô¦¥ÿÜ¸{l;
+- (void)eÕs;
+- (void)sÓt;
 
 // Remaining properties
 @property(nonatomic, readonly) _TtC5UIKit26_UITabBarAnimationSettings *animationSettings;
 @property(nonatomic) __weak UIView *container; // @synthesize container;
 @property(nonatomic, readonly) id <_UITabBarContentLayoutHost> host; // @synthesize host;
+@property(nonatomic) _Bool isAnimatingBottomAccessory; // @synthesize isAnimatingBottomAccessory;
 @property(nonatomic) _Bool isHostingSearchTextField; // @synthesize isHostingSearchTextField;
 @property(nonatomic, readonly) _Bool isLandscapeOnPhone;
 @property(nonatomic) _Bool isUpdatingContentLayout; // @synthesize isUpdatingContentLayout;

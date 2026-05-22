@@ -21,9 +21,8 @@ __attribute__((visibility("hidden")))
     double _processingDelay;
 }
 
-+ (id);
-+ (id);
-- (void)methname;
++ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -31,10 +30,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)@"MPCReportingIdentityProperties"@"NSError">16;
+- (void)| restoration failed [adding playback context failed] dataSourceState=%p sectionID=%{public}@ error=%{public}@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;

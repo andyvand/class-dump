@@ -44,15 +44,15 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
-- (long long)teCurrentScrollPosition;
-- (struct UIEdgeInsets)È+»ÿ;Ð;
-- (void)Êÿ;
-- (struct UIEdgeInsets)ÿ®>Z#7;
+- (id)ollectionView"16{CGPoint=dd}24;
+- (long long)eforeChanges:anchorIndexBeforeChanges:countAfterChanges:anchorIndexAfterChanges:anchorFan:anchorReload: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (id);
+- (void)PersonFaceView_Previews;
+- (struct UIEdgeInsets)Z;
+- (void)«Ñ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType acceptableLargeHeroPredicate; // @synthesize acceptableLargeHeroPredicate=_acceptableLargeHeroPredicate;

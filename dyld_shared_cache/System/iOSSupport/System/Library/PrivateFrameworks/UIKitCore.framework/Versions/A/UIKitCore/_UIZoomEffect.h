@@ -12,14 +12,14 @@
     _Bool _isUnderlay;
 }
 
-+ (id)ipelineParameter;
 + (id);
-+ (_Bool)È´[ÿ/õ;
-- (id)!;
++ (id);
++ (_Bool)._UIRemoteViewControllerCreationRequest %@ %p;
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void)etSplitterDragXOffsetForPrimary:(id)arg1;
-- (id)temStyle:title:image:selectedImage:action:forBarStyle:landscape:alwaysBordered: /* Error: Ran out of types for this method. */;
+- (_Bool)=dd}{CGSize=dd}}16@48q56q64i72B76;
+- (void)isMenuVisible;
 
 @end
 

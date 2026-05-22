@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
+@class UIScrollView, UIView;
 
 @protocol _UIWebDoubleTapDelegate
-- (struct CGRect);
-- (struct CGRect)pleSigned;
-- (double)6;
-- (UIView *)¸ü;
-
-@optional
-- (void)C;
-- (_Bool)ata but faic is set. Skipping update asid metadata;
+- (UIScrollView *)3©;
+- (UIView *)D¹;
 @end
 

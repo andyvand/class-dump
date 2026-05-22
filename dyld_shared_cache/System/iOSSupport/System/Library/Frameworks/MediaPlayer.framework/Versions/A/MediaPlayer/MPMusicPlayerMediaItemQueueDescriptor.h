@@ -15,7 +15,7 @@
     MPMediaItem *_startItem;
 }
 
-+ (_Bool)DidUpdateSoundCheck;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) MPMediaItemCollection *itemCollection;

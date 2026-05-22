@@ -36,19 +36,19 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
 - (double);
+- (void);
+- (id)onfiguration;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *badge;

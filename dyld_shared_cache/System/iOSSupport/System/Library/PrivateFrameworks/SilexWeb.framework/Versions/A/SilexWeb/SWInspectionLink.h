@@ -13,10 +13,10 @@
     struct CGRect _frame;
 }
 
-- (struct CGRect);
-- (void);
-- (id);
 - (id);
+- (struct CGRect);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties

@@ -4,6 +4,6 @@
 
 class CMCKeyChain {
 public: // (access info unavailable from symbols alone)
-    AddKey(CMCKey*);
+    auto AddKey(CMCKey*);
     ~CMCKeyChain();
 };

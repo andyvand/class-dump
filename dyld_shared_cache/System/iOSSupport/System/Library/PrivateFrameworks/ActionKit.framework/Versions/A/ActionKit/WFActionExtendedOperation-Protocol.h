@@ -5,6 +5,5 @@
 //
 
 @protocol WFActionExtendedOperation
-- (void);
 @end
 

@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (void);
+- (id)ÿÿÿÿ¬;
 - (void);
-- (id)îÚ9;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *activityType;

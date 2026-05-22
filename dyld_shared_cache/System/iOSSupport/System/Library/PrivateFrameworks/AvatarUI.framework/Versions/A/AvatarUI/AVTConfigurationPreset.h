@@ -15,11 +15,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long)h;
+- (id);
+- (unsigned long long);
 - (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isDefaultPreset) _Bool defaultPreset; // @synthesize defaultPreset=_defaultPreset;

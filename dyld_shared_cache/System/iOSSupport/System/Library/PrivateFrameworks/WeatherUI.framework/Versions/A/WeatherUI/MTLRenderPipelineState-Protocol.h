@@ -8,12 +8,9 @@
 @protocol MTLDevice;
 
 @protocol MTLRenderPipelineState
-- (long long);
-- (unsigned long long)±ÿ½jêÄY·ÿ;
-- (_Bool)¥Óù=.xÿ=+>{>Ðg>k]>ç[>Hc>s>Ë>ö®>Ú>3!>NK$>l'>à*>Á8.>1>T5>¿w8>Eô;>êy?>³C>¤ F>¿AJ>
-ìM>Q><\U>+"Y>Xñ\>ÇÉ`>|«d>zh>Æl>bp>St>x>@¹|>"n>U>;>Ö¾>(ã>2>ö9>vl>³£>°ß>m >íe>1°>;ÿ>S>¨«¡>	¤>?k¦>>Ò¨>>«>®®­>"$°>i²>µ>|¡·>J*º>ó·¼>xJ¿>ÛáÁ>~Ä>?Ç>CÅÉ>,pÌ>úÏ>®ÔÑ>JÔ>ÑL×>BÚ> ØÜ>ì¥ß>'xâ>TOå>r+è>ë>òí>Ýð>Íó>rÂö>\¼ù>C»ü>(¿ÿ>d?øê?kt?_;
-- (CDStruct_14f26992):i0Ømÿ /* Error: Ran out of types for this method. */;
-- (unsigned long long)¶Tôdÿ;
+- (_Bool);
+- (long long)í>í>)¯í>ÁÆí>7Þí>Ïõí>gî>ÿ$î>u<î>ëSî>kî>ùî>pî>æ±î>\Éî>Jðî>Høî>¿ï>'ï>>ï>ÞUï>Umï>©ï>þï>S³ï>§Êï>üáï>Qùï>¥ð>ú'ð>-?ð>Vð>µmð>
+ð>=ð>p³ð>£Êð>9òð>	ùð>=ñ>p'ñ>£>ñ>´Uñ>èlñ>ùñ>,ñ>>²ñ>OÉñ>aàñ>s÷ñ>ò>%ò>§<ò>¹Sò>©jò>ºò>«ò>¼¯ò>¬Æò>Ýò>Iôò>|ó>l"ó>\9ó>LPó><gó>~ó>ûó>ë«ó>¹Âó>Ùó>xðó>Fô>ô>ã4ô>²Kô>bô>-yô>üô>Ê¦ô>w½ô>EÔô>8öô>õ>nõ>/õ>ÈEõ>t\õ>!sõ>Îõ>Z õ>·õ>³Íõ>?äõ>ìúõ>wö>(ö>>ö>;Uö>Ækö>Qö>»ö>G¯ö>ÒÅö>]Üö>Høö>S	÷>¼÷>H6÷>²L÷>c÷>y÷>ï÷>Y¦÷>Ã¼÷>,Ó÷>é÷>Þÿ÷>Hø>²,ø>úBø>CYø>¬oø>õø>=ø>²ø>ÍÈø>ßø>Yúø>¦ù>Í!ù>8ù>]Nù>dù>«zù>óù>§ù>@½ù>gÓù>éù>µÿù>Ûú>,ú>)Bú>.Xú>Tnú>{ú>ú>°ú>¬Æú>±Üú>Hüú>¼û>Áû>Æ4û>ËJû>Ð`û>´vû>¹û>¾¢û>¢¸û>§Îû>äû>núû>Rü>W&ü>:<ü>Rü>hü>å}ü>§ü>©ü>n¿ü>0Õü>Xþü>Ö /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
@@ -27,9 +24,9 @@
 @property(readonly) unsigned long long meshThreadExecutionWidth;
 @property(readonly) unsigned long long objectThreadExecutionWidth;
 @property(readonly) MTLRenderPipelineReflection *reflection;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerMeshThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerObjectThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerTileThreadgroup;
+@property(readonly) struct requiredThreadsPerMeshThreadgroup;
+@property(readonly) struct requiredThreadsPerObjectThreadgroup;
+@property(readonly) struct requiredThreadsPerTileThreadgroup;
 @property(readonly, nonatomic) long long shaderValidation;
 @property(readonly) _Bool supportIndirectCommandBuffers;
 @property(readonly) _Bool threadgroupSizeMatchesTileSize;

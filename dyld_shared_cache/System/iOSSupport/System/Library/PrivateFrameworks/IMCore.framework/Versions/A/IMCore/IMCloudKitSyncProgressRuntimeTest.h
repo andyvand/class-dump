@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)r:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property unsigned long long maxProgressCount; // @synthesize maxProgressCount=_maxProgressCount;

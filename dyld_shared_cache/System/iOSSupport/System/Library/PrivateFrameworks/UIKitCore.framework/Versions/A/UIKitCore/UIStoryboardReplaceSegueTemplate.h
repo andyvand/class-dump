@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (void);
-- (void)y:(long long)arg1;
-- (long long)anager;
+- (void);
+- (long long);
 - (CDUnknownBlockType);
-- (void)dia:(id)arg1 withMandatory:withInstallWhenActivated:withRemoveWhenDeactivated: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)rAppearanceComparedToTraitCollection:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) long long destinationContainmentContext; // @synthesize destinationContainmentContext=_destinationContainmentContext;

@@ -16,7 +16,7 @@
     struct NSDirectionalEdgeInsets _textInsets;
 }
 
-+ (double);
++ (double);
 - (id);
 - (id);
 - (void);
@@ -24,20 +24,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (struct NSDirectionalEdgeInsets);
-- (void);
-- (void);
-- (void)with payload=%@ for %@;
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
-- (void)Ã;
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *activeConstraints; // @synthesize activeConstraints=_activeConstraints;

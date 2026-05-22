@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (id);
-- (id)__TEXT;
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned int payloadIndex; // @synthesize payloadIndex=_payloadIndex;

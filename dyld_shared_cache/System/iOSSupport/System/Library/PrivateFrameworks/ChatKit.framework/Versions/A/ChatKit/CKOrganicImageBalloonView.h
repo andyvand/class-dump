@@ -18,39 +18,39 @@
 }
 
 + (_Bool);
-- (void)itingDelayedToEndOfRunLoop;
-- (id)rstMouse: /* Error: Ran out of types for this method. */;
-- (_Bool)ebView:requestNotificationPermissionForSecurityOrigin:decisionHandler: /* Error: Ran out of types for this method. */;
-- (struct CGSize)htedMultiplier;
-- (void)abel;
-- (void)xerBackgroundTask;
-- (void)ustomizableTextFieldCell;
+- (void);
+- (id);
+- (_Bool);
+- (struct CGSize);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)c;
-- (id)(;
-- (void)file promise:%@ /* Error: Ran out of types for this method. */;
-- (id)@ self.attachment.modificationDate %@;
-- (id)om note that has non-nil data %@;
-- (void)tifier != %@;
-- (_Bool)e.notes.handwritingrecognition;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (struct CKBalloonDescriptor_t);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)!à@ùQÅð1¢!0@ù
+- (id);
+- (id)1Â0@ù
 × ;
-- (id)nalLayout;
+- (void)@96;
+- (void)ext:(id)arg1 containerView:popoverViewController: /* Error: Ran out of types for this method. */;
+- (void)è;
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *dashedBorder; // @synthesize dashedBorder=_dashedBorder;

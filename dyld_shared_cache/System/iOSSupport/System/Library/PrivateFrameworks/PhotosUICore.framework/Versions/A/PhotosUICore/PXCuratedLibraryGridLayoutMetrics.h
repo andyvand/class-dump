@@ -24,16 +24,16 @@
 - (double);
 - (void);
 - (double);
+- (long long);
 - (void);
 - (id);
+- (double);
 - (void);
-- (long long);
-- (id);
-- (double)ectionIndexPath: /* Error: Ran out of types for this method. */;
-- (void)should never be 0;
-- (long long);
-- (void)DÃÿXMh7;
-- (struct UIEdgeInsets)ÿëP$¡7;
+- (void);
+- (id)ilLocationCurator";
+- (struct UIEdgeInsets)q;
+- (void)%îÿùºKß¡8;
+- (long long)ÿ:ªR®8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double headerAspectRatio; // @synthesize headerAspectRatio=_headerAspectRatio;

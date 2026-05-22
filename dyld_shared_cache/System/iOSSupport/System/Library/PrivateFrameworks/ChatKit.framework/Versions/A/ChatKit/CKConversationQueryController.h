@@ -16,32 +16,32 @@
     NSSet *_intermediaryResults;
 }
 
-+ (_Bool)onfigurationC;
-+ (unsigned long long)kens:(unsigned long long)arg1 %@;
-- (_Bool)rStackView;
++ (_Bool);
++ (unsigned long long);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void)e;
+- (void);
 - (void);
 - (id);
-- (id)e;
-- (id));
-- (id)c;
-- (unsigned long long)ting for reload to complete;
-- (id)ed? ;
-- (_Bool)ains shared notes. People who currently have access to these notes may lose it.;
-- (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)ÄK;
-- (id)Â  t/;
+- (id);
+- (id)`¬;
+- (void);
+- (id)6/;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *currentZKWSuggestions; // @synthesize currentZKWSuggestions=_currentZKWSuggestions;

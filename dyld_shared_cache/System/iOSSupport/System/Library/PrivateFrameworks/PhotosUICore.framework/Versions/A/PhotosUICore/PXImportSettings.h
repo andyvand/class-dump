@@ -34,7 +34,7 @@
     unsigned long long _assetEnumerationBatchSize;
 }
 
-+ (id)|ªÿ;
++ (id)LazyObjectCreator;
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -83,8 +83,8 @@
 - (double);
 - (_Bool);
 - (long long);
+- (id);
 - (void);
-- (id)s;
 
 // Remaining properties
 @property(nonatomic) long long alreadyImportedTruncationMode; // @synthesize alreadyImportedTruncationMode=_alreadyImportedTruncationMode;

@@ -11,15 +11,15 @@
     NSUserDefaults *_userDefaults;
 }
 
-+ (id)rversBlock: /* Error: Ran out of types for this method. */;
++ (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
 - (void);
 - (id);
-- (_Bool);
 - (id);
+- (void);
+- (_Bool)ed;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enableOverdubForAllDevices;

@@ -11,9 +11,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id)ateImage:forPage: /* Error: Ran out of types for this method. */;
-+ (id)g;
-+ (long long)Kòe;
++ (id);
++ (id)rvice;
++ (long long)¸g;
 
 @end
 

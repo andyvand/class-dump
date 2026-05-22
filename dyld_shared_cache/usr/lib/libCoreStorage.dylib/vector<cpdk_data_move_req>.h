@@ -4,8 +4,8 @@
 
 class vector<cpdk_data_move_req> {
 public: // (access info unavailable from symbols alone)
-    push_back(cpdk_data_move_req const&);
-    reserve(unsigned long);
-    resize(unsigned long, cpdk_data_move_req const&);
+    auto push_back(cpdk_data_move_req const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, cpdk_data_move_req const&);
     ~vector();
 };

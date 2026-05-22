@@ -18,16 +18,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (struct CGSize);
 - (id);
-- (void)0@ù
+- (void);
+- (_Bool)]1Â0@ù
 × ;
-- (void)!Bù1Í1¢!0@ù
-× ;
-- (void)BackingLayer: /* Error: Ran out of types for this method. */;
-- (id);
-- (struct CGSize)UIKitCore/_UISliderFluidVisualElement.swift;
+- (void)eyOnOrderFront: /* Error: Ran out of types for this method. */;
+- (id)End;
+- (void)ng;
+- (struct CGSize)teStatusBarIfNecessary;
 
 // Remaining properties
 @property(nonatomic) _UIPageIndicatorView *indicatorView; // @synthesize indicatorView=_indicatorView;

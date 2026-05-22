@@ -22,12 +22,12 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (void)yÆï¡yADyãyADyAfJySiSgGGSgGÒGGA3_G_Qo_t;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC15ConversationKit23ConversationDetailsView *conversationDetailsView;

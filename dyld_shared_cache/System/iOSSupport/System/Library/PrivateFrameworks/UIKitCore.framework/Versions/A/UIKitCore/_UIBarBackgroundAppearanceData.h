@@ -32,50 +32,49 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)DЄ;
-+ (id)lNotification: /* Error: Ran out of types for this method. */;
-+ (id)Ð;
++ (id);
++ (id)Ô ;
++ (id)lorAssetName;
 - (void);
 - (id);
-- (long long);
 - (id);
-- (void);
 - (_Bool);
+- (id);
 - (void);
-- (void);
-- (long long)Èþ¹;
 - (void);
-- (id)ÆÐ1¢!0@ù
+- (void);
+- (long long)@ù
 × ;
-- (id)_UIEditMenuPresentation"16@"UIEditMenuConfiguration"24;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)hRaw:(id)arg1 bars:enableRSSI:showFailure:useSmallBars: /* Error: Ran out of types for this method. */;
-- (id)tatusBarIfNecessary;
-- (void)flushUpdates;
+- (void)WithLabel:(id)arg1 sourceNode:targetNode:directed: /* Error: Ran out of types for this method. */;
+- (id)dleRecordForAuditToken:error: /* Error: Ran out of types for this method. */;
+- (double)ntinuation:scene: /* Error: Ran out of types for this method. */;
+- (id)emoveFindOnPageHighlighter: /* Error: Ran out of types for this method. */;
+- (void)tionEnter;
+- (void)sResponderSender;
+- (id):,V__scrollPocketContainerInteraction /* Error: Ran out of types for this method. */;
+- (void)ndicator;
+- (id)OfDocument;
+- (long long)ory;
+- (void)ôÌhÍÌÍ;
+- (id)g the translatesAutoresizingMaskIntoConstraints property of a UITableViewHeaderFooterView that is managed by a UITableView is not supported, and will result in incorrect self-sizing. View:%@ /* Error: Ran out of types for this method. */;
+- (id)hText:'%{sensitive}@' /* Error: Ran out of types for this method. */;
+- (id)u}, passed in %@ that overflows the adjusted resolvedRange, {%lu, %lu}. Stopping Writing Tools;
+- (void)nLayout;
+- (long long)ScrollViewInteractionActivityTrackingBaseName;
+- (id)view to an out-of-bounds row (%ld) when there are only %ld rows in section %ld. Table view:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)EdgeProgress=%f;
+- (id)LaunchOptionsSearchResultIdentifierKey;
+- (_Bool)*__strong);
+- (long long)nst NSUInteger, const _UIDataSourceUpdate, const _UIMapIndex, const _UIDataSourceModel, const _UIDataSourceModel, _UIMapIndex *, _UIMutableFastIndexSet *const __strong, _UIMutableFastIndexSet *const __strong, _UIFastIndexSet *const __strong, _UIFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
+- (void)_UINavigationControllerNavigationBarVisibilityDidChangeNotification;
+- (void)­¿7G;
+- (void)ÐénþU13äúþ]13Èè¸þ;
+- (void)¥ÿ4#ÍD¡^;
+- (void)X`;
+- (id)Üfa;
 - (void);
-- (long long)Delegate>",W,N,V_delegate;
-- (id)_UITraitMonochromaticTreatment;
-- (void)T¤;
-- (void)©¸©T²Ø²P³Ä³¼µ\¶h·H¸|¹;
-- (id)E;
-- (_Bool);
-- (void)race] to provide additional detail.
-%@;
-- (void)øûÿÄ;
-- (void);
-- (double)dKey;
-- (void)EndEditingNotification;
-- (void)ITableViewAutomaticDimension.;
-- (long long)Controller:(long long)arg1 %@;
-- (id)rong id<UIFocusEnvironment> _Nonnull, BOOL * _Nullable);
-- (void)E_UNDO_REDO;
-- (void)nSettings";
-- (_Bool);
-- (id)iòÈ¯¨[;
-- (void)#x\;
-- (id)Ô/ÿÂ¥×2ô];
-- (id)èÂ~ÿwÍ>`;
-- (id)ÿ/Ù>ya;
+- (void)húþ.4ÚTb;
+- (void)bb;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

@@ -7,7 +7,7 @@
 @class SXJSONDictionary;
 
 @protocol SXComponentAdvertisingMetadataProviding
-- (SXJSONDictionary *)t;
+- (SXJSONDictionary *)ø;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONDictionary *advertising;

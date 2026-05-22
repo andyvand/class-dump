@@ -5,6 +5,5 @@
 //
 
 @protocol CKFullScreenEffectManagerDelegate
-- (void);
 @end
 

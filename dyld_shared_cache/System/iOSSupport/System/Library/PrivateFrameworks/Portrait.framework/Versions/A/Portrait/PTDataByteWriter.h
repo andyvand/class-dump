@@ -16,11 +16,11 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain) NSMutableData *data; // @synthesize data=_data;

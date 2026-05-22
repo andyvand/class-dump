@@ -7,8 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void);
-- (void)ut;
-- (_Bool);
+- (_Bool)disallowInCompactLayouts;
+- (long long)å5TÂíÿ;
+- (void);
 @end
 

@@ -4,6 +4,6 @@
 
 class __cxxabiv1::__pbase_type_info {
 public: // (access info unavailable from symbols alone)
-    can_catch(__cxxabiv1::__shim_type_info const*, void*&) const;
+    auto can_catch(__cxxabiv1::__shim_type_info const*, void*&) const;
     ~__pbase_type_info();
 };

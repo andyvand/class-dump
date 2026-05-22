@@ -22,10 +22,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)"PXPhotosViewModel"24;
 - (id);
-- (void);
-- (id)w6;
-- (id)øÁFÿ ;
+- (void)ÃÇqk;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollectionList *collection; // @synthesize collection=_collection;

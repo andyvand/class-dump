@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)actionsForPhoneNumbers:contact:group:options:discoveringEnvironment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *assetDirectory; // @synthesize assetDirectory=_assetDirectory;

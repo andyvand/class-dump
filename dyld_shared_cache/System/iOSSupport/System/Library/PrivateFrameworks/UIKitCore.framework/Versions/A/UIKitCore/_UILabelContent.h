@@ -12,51 +12,52 @@ __attribute__((visibility("hidden")))
     NSDictionary *_defaultAttributes;
 }
 
+- (long long);
+- (_Bool);
 - (id);
-- (id);
 - (id);
-- (_Bool)ayloadSMIMEEncryptByDefaultOverrideable;
+- (id);
+- (_Bool);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (_Bool);
+- (long long);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id)buttonWithTitle:(id)arg1 target:(id)arg2 action:(struct _NSRange)arg3;
 - (id);
-- (long long);
-- (id);
-- (_Bool)Ja;
 - (_Bool);
-- (id)load trailer at offset %lu;
-- (id);
-- (id)ithErrorResolver:(struct _NSZone *)arg1;
 - (id);
 - (id);
 - (id);
-- (void);
-- (long long);
-- (_Bool);
-- (id)@ù
+- (id);
+- (id)× ;
+- (id)@ù^°1Â0@ù
 × ;
-- (id)
+- (id)0@ù
 × ;
-- (_Bool)DocumentView"16@"<UIDropSession>"24;
-- (id)ndScheduled;
-- (id)ittingWidth: /* Error: Ran out of types for this method. */;
-- (id)bleSeparatorColor;
-- (id)ubviews;
-- (id)wnDisallowedIsVertical;
-- (_Bool);
-- (id)È!;
-- (long long)implement the UITextViewDelegate API textView:(id)arg1 editMenuForTextInRange:suggestedActions:instead. /* Error: Ran out of types for this method. */;
-- (id);
-- (id)eworks/TextInputUI.framework;
-- (id)ef *);
-- (id)if the view controller already has a tab owner.;
-- (id)replacement effect;
 - (long long);
-- (id);
-- (_Bool);
-- (_Bool)@Öúu^;
-- (_Bool)©;
+- (_Bool)dedAfterPosition:(id)arg1;
+- (_Bool)rExtendedLayout: /* Error: Ran out of types for this method. */;
+- (id)iers:(id)arg1;
+- (_Bool)entChangeCallbackIfNecessaryWillChange:(id)arg1;
+- (_Bool)hanged;
+- (id)enderTreeSize;
+- (id)ossfadeTransition:,V__wantsTabCrossFadeTransition /* Error: Ran out of types for this method. */;
+- (_Bool)former;
+- (id)ccessories;
+- (id)eyInput>",&,N;
+- (id)F9A7668188D4F11SegmentView;
+- (id)Ä¹¸º»¼Ø½P¾Ô¿Á	 Â
+ØÂ	LÃ|Å;
+- (id)ØÄØ4Ù;
+- (id)g;
+- (id)arator;
+- (id);
+- (void)SubtitleContent;
 
 @end
 

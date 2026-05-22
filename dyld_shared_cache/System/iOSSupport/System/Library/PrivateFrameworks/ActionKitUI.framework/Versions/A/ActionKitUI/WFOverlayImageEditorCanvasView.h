@@ -27,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIImageView *backgroundImageView; // @synthesize backgroundImageView=_backgroundImageView;

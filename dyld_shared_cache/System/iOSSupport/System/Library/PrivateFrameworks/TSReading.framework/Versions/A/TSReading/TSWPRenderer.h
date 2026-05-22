@@ -28,13 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)9;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)9;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,8 +51,8 @@
 - (id);
 - (double);
 - (void);
-- (void)?;
-- (id)mumLabelProperty;
+- (void);
+- (id)^v32;
 
 // Remaining properties
 @property(nonatomic) _Bool flipShadows; // @synthesize flipShadows=_flipShadows;

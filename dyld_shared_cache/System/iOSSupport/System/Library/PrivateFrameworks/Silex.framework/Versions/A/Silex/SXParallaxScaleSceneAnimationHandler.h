@@ -15,7 +15,7 @@
 }
 
 - (void);
-- (_Bool)f;
+- (_Bool);
 - (void);
 - (void);
 - (struct CGRect);
@@ -24,7 +24,8 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long attachmentType; // @synthesize attachmentType=_attachmentType;

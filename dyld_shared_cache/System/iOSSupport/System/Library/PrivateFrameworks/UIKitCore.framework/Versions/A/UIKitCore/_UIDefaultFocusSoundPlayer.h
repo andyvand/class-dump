@@ -16,21 +16,20 @@ __attribute__((visibility("hidden")))
     NSTimer *_unregisterTimer;
 }
 
-+ (id)wýÉ+q;
++ (id)1VÿgdÊÐdk;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void)`;
-- (id)wing upgrade of finished message for %@;
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)¡pÐ!ÐCùqÃð1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

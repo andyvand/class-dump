@@ -16,7 +16,7 @@
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);

@@ -53,21 +53,21 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;

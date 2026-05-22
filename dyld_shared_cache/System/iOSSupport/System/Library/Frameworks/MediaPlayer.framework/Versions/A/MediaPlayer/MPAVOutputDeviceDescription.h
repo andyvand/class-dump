@@ -15,15 +15,15 @@
 }
 
 - (long long);
-- (id)rs:(long long)arg1;
+- (id);
 - (id);
 - (long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
-- (id)LObjCProxy_;
+- (_Bool);
+- (id);
+- (void)BSVideoURLMatchingSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *modelID; // @synthesize modelID=_modelID;

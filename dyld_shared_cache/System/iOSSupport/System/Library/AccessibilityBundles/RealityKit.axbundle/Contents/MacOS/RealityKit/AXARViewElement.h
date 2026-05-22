@@ -17,13 +17,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (id);
 - (_Bool);
 - (struct CGRect);
-- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

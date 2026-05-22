@@ -8,12 +8,11 @@
 {
 }
 
-+ (_Bool)ouldInvokeRepeatedAction:forTarget:object: /* Error: Ran out of types for this method. */;
-- (struct _UICornerInsets)ived zone. Kicking off another batch of fetching;
-- (void)Çð1¢!0@ù
-× ;
-- (id)nputUI;
-- (id)nToolbar;
++ (_Bool)7yvýÿ_pSgyScMYccGSg;
+- (struct _UICornerInsets);
+- (id);
+- (id)ate"24;
+- (void)n;
 
 @end
 

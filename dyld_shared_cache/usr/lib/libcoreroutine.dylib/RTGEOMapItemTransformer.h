@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-+ (Class)n;
-- (id);
-- (id)ReleaseTimerIdentifierBase;
++ (Class);
+- (id);
+- (id)ø;
 
 @end
 

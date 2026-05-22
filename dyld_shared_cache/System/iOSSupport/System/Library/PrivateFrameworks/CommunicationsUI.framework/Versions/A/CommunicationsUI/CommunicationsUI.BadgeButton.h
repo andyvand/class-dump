@@ -15,10 +15,10 @@
     MISSING_TYPE *$__lazy_storage_$_buttonConfiguration;
 }
 
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
+- (void)enuConfiguration"24;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

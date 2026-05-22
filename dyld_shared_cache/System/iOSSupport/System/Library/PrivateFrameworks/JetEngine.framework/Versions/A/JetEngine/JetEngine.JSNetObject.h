@@ -12,8 +12,33 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)PvÅÿ¥Qu
+dvÅÿ­Qu
+tvÅÿ­Qu
+vÅÿ­Qu
+vÅÿ½Qu
+¤vÅÿ½Qu
+´vÅÿ½Qu
+ÄvÅÿ½Qu
+ÔvÅÿÅQu
+ävÅÿQu
+ôvÅÿ­Qu
+wÅÿµQu
+wÅÿµQu
+$wÅÿµQu
+4wÅÿµQu
+DwÅÿ]Qu
+TwÅÿPu
+twÅÿPu
+wÅÿPu
+wÅÿPu
+¤wÅÿPu
+¸wÅÿ¥Pu
+ÈwÅÿ¥Pu
+ØwÅÿ¥Pu
+ìwÅÿ¥Pu
+;
 
 @end
 

@@ -12,7 +12,7 @@
 
 + (id);
 + (unsigned long long);
-- (id)ansfer:(id *)arg1 %@, hasAsset:%@ /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

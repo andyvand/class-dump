@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)_postHubbleDownloadFailedForTransfer:(long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 @end
 

@@ -27,9 +27,9 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
-- (struct CGSize);
 - (void);
+- (struct CGSize);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) PXAspectFitLayoutMetrics *metrics; // @dynamic metrics;

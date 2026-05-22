@@ -22,6 +22,7 @@
     NSArray *_peopleSuggestionBundleIds;
     NSData *_processedImageResultsData;
     double _peopleSuggestionsTimeout;
+    NSArray *_linkMetadata;
     unsigned long long _xrRenderingMode;
 }
 
@@ -41,7 +42,7 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void)ë;
+- (void);
 - (double);
 - (void);
 - (id);
@@ -49,15 +50,17 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
+- (_Bool)sformer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *assetIdentifiers; // @synthesize assetIdentifiers=_assetIdentifiers;
@@ -65,6 +68,7 @@
 @property(nonatomic) _Bool hideSuggestions; // @synthesize hideSuggestions=_hideSuggestions;
 @property(nonatomic) _Bool instantShareSheet; // @synthesize instantShareSheet=_instantShareSheet;
 @property(nonatomic) _Bool isSharePlayAvailable; // @synthesize isSharePlayAvailable=_isSharePlayAvailable;
+@property(copy, nonatomic) NSArray *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
 @property(copy, nonatomic) NSArray *peopleSuggestionBundleIds; // @synthesize peopleSuggestionBundleIds=_peopleSuggestionBundleIds;
 @property(nonatomic) double peopleSuggestionsTimeout; // @synthesize peopleSuggestionsTimeout=_peopleSuggestionsTimeout;
 @property(copy, nonatomic) NSData *processedImageResultsData; // @synthesize processedImageResultsData=_processedImageResultsData;

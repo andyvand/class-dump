@@ -5,21 +5,28 @@
 //
 
 @class NSArray;
+@protocol IMAssistiveAccessIndirectContactsQueryDelegate;
 
 @interface IMAssistiveAccessCommunicationLimitManager
 {
+    id <IMAssistiveAccessIndirectContactsQueryDelegate> _indirectContactsQueryDelegate;
 }
 
-+ (id)!`;
++ (id);
 - (_Bool);
 - (_Bool);
+- (void);
 - (_Bool);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)Oññ4yõÙ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *favoriteHandleStrings;
+@property(nonatomic) __weak id <IMAssistiveAccessIndirectContactsQueryDelegate> indirectContactsQueryDelegate; // @synthesize indirectContactsQueryDelegate=_indirectContactsQueryDelegate;
 @property(readonly, nonatomic) _Bool isAssistiveAccessRunning;
 @property(readonly, nonatomic) _Bool shouldFilterIncomingMessages;
 @property(readonly, nonatomic) _Bool shouldFilterOutgoingMessages;

@@ -18,23 +18,7 @@
     NSMapTable *_undoGroupOldPropertiesPerAnnotation;
 }
 
-- (id)Failed to decode LPLinkMetadata 'specialization2' with exception:%@ /* Error: Ran out of types for this method. */;
-- (void)CGPoint;
-- (void)J;
-- (void);
-- (void);
-- (void);
-- (void)8;
 - (id);
-- (id);
-- (void)9;
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -42,17 +26,33 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)";
 - (void);
 - (void);
-- (id)e;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (id)erredLanguageCode;
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 
 // Remaining properties

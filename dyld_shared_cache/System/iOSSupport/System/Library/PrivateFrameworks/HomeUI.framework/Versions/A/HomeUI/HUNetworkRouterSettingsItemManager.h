@@ -30,7 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Array"16@?0@"HFItemModule"8;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *homeProtectionItem; // @synthesize homeProtectionItem=_homeProtectionItem;

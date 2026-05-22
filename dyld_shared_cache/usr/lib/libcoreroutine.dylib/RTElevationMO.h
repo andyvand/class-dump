@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)à;
++ (id);
 
 // Remaining properties
 @property(nonatomic) double elevation; // @dynamic elevation;

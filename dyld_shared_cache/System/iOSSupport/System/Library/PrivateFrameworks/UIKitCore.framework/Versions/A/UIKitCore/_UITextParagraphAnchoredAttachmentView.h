@@ -22,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (void)pertyFilterForFilterText:(id)arg1;
 - (void);
-- (id);
-- (void);
+- (id)namer:session:fileRenameDidFail: /* Error: Ran out of types for this method. */;
+- (void)enuElementCG;
+- (void)ÿ0>R;
 
 // Remaining properties
 @property(readonly) __weak NSTextParagraphAnchoredAttachment *anchoredAttachment; // @synthesize anchoredAttachment=_anchoredAttachment;

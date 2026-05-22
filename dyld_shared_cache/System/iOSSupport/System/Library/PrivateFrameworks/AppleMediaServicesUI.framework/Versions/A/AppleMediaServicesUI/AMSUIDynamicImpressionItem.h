@@ -15,9 +15,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (struct CGRect);
 - (void);
+- (void)m:category:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;

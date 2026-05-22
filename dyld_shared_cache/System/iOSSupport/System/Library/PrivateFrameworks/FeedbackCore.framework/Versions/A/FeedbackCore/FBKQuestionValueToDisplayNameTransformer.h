@@ -14,9 +14,9 @@
 + (Class);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(copy) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;

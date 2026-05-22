@@ -24,11 +24,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)mHTML;
-- (id)G;
+- (void)n;
+- (id)large;
+- (id)or;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;

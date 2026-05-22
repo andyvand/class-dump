@@ -18,8 +18,8 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)derView;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableOrderedSet *blocklistMessageGUIDs; // @synthesize blocklistMessageGUIDs=_blocklistMessageGUIDs;

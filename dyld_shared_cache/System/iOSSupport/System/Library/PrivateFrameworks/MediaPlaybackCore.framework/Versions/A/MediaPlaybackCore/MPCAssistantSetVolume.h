@@ -9,9 +9,9 @@
 }
 
 - (void);
-- (void):(float)arg1;
-- (void)activateAllAccountsExcept:(id)arg1 inStore:(unsigned long long)arg2;
-- (void)public}@] Error disabling bookkeeper. error = %{public}@;
+- (void);
+- (void);
+- (void);
 
 @end
 

@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)irectIM;
-- (void)oReplyDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)setsAfterRow:withLimit: /* Error: Ran out of types for this method. */;
-- (void)oArray;
-- (id);
-- (id);
-- (long long);
+- (_Bool);
 - (void);
-- (id)SearchDeferringScopeBar;
-- (id)r",&,N,V_pan;
-- (void)zR;
+- (void);
+- (void);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id)maryMenu;
+- (void)ired scene update for candidate window:(_Bool)arg1 %p; scene:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_actionContentView;

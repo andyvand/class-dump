@@ -30,16 +30,16 @@
 - (id);
 - (void);
 - (void);
+- (struct CGSize);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (struct CGSize)
-× ;
-- (id)´;
+- (void)	
+;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) WFConfiguredTrigger *configuredTrigger; // @synthesize configuredTrigger=_configuredTrigger;

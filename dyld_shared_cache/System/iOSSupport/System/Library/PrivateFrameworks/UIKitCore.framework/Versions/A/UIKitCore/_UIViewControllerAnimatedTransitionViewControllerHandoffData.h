@@ -18,16 +18,16 @@ __attribute__((visibility("hidden")))
     struct CGRect _targetFrame;
 }
 
-- (double)P header extensiondictionary;
+- (double);
 - (id);
 - (double);
 - (struct CGRect);
-- (struct CGRect);
-- (void)P;
-- (id)ûÿÐþÿ;
-- (id)outGroupCustomItem"8Q16^B24;
-- (id)SceneWillMoveToScreenNotification;
-- (void)3\;
+- (struct CGRect)lostNavigationControllerDelegate"b1"didSetAppearanceProperty"b1};
+- (id)¼]ÿÿP;
+- (void)eP;
+- (void)onConditionCG;
+- (id)r;
+- (id)terfaceActiveAppearance;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;

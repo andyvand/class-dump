@@ -4,8 +4,8 @@
 
 class dyld3::OverflowSafeArray<dyld3::MapBase<char const*, bool, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>, 4294967295ull> {
 public: // (access info unavailable from symbols alone)
-    growTo(unsigned long long);
-    growTo(unsigned long long) (.cold.1);
-    operator[](unsigned long long);
-    push_back(dyld3::MapBase<char const*, bool, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>&&);
+    auto growTo(unsigned long long);
+    auto growTo(unsigned long long) (.cold.1);
+    auto operator[](unsigned long long);
+    auto push_back(dyld3::MapBase<char const*, bool, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>&&);
 };

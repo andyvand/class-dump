@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     _UISystemBackgroundView *_systemBackgroundView;
 }
 
-- (void);
 - (void);
-- (id)KeyboardState;
+- (id)stViewAxisForTraitCollection:(struct CGRect)arg1;
+- (void)rC_GG;
 
 @end
 

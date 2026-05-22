@@ -24,12 +24,13 @@
 - (double);
 - (struct CGRect);
 - (id);
-- (void);
 - (id);
 - (double);
 - (id);
-- (id)yFollowedDurationThreshold;
-- (unsigned long long)idth;
+- (id);
+- (void)1Â0@ù
+× ;
+- (unsigned long long)Pã;
 
 // Remaining properties
 @property(readonly, nonatomic) SXMosaicGalleryCluster *cluster; // @synthesize cluster=_cluster;

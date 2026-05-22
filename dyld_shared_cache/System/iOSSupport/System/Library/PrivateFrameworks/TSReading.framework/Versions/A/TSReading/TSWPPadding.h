@@ -13,21 +13,21 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
+- (void);
+- (double);
+- (void);
+- (id);
+- (id);
+- (double);
+- (void);
+- (void);
+- (double);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (double);
-- (double);
-- (double);
-- (void);
-- (id);
-- (id);
-- (void);
-- (double)owValueLabelsProperty;
 
 // Remaining properties
 @property(nonatomic) double bottomInset; // @synthesize bottomInset=_bottomInset;

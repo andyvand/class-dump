@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)T@"UIImage",R,N,V_image;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *currentChangeHistoryToken; // @synthesize currentChangeHistoryToken=_currentChangeHistoryToken;

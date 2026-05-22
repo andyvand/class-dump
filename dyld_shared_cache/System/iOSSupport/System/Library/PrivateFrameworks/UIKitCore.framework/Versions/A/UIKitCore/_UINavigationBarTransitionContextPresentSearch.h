@@ -16,16 +16,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)ib;
+- (void);
+- (void)Items;
+- (void)ateForFirstResponderChangeWithAnimations: /* Error: Ran out of types for this method. */;
+- (void)view's data source returned a supplementary view with an unexpected element kind. Collection view:%@; requested element kind:%@; supplementary view element kind:%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
+- (void)returned an invalid index (%llu) to insert accessory:%@ into accessories array:%@ /* Error: Ran out of types for this method. */;
+- (void)fectView;
 - (void);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)\;
-- (void);
-- (void)the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.;
-- (void)om.apple.DocumentManagerUICore.Service;
-- (long long)haPrimary={%f %f %f %f} additiveColor={%f %f %f %f}};
+- (long long);
 
 @end
 

@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
     HMApplicationData *_applicationData;
 }
 
-+ (void)y client of updated supportsRMVonAppleTV support due to missing delegateCaller:%@ /* Error: Ran out of types for this method. */;
++ (void)etionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -29,15 +29,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (Class);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 - (_Bool);
-- (id);
-- (_Bool)ame;
+- (void);
+- (void)rManager>",R,V_removedMediaSystemTimerManager;
+- (void)nconfigure on already unconfigured object;
+- (_Bool)d;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionSetType;

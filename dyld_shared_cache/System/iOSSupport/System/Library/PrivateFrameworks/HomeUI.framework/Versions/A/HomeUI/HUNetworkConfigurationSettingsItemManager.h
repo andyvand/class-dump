@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)r:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUNetworkConfigurationSettingsModule *networkConfigurationSettingsModule; // @synthesize networkConfigurationSettingsModule=_networkConfigurationSettingsModule;

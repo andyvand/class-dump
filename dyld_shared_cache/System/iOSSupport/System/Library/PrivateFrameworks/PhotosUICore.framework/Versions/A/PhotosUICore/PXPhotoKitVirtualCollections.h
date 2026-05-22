@@ -73,9 +73,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)Cb7;
+- (void)½Ó;
+- (id)¨â3;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *allAlbumsCollection; // @synthesize allAlbumsCollection=_allAlbumsCollection;

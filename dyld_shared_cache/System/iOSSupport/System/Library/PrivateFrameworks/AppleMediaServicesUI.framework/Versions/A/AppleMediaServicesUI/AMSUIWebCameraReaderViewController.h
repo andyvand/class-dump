@@ -11,6 +11,7 @@
 __attribute__((visibility("hidden")))
 @interface AMSUIWebCameraReaderViewController : AMSUICommonViewController
 {
+    _Bool _detectedInvalidDocument;
     AMSUIWebAppearance *_appearance;
     UIViewController *_childController;
     AMSUIWebClientContext *_context;
@@ -25,31 +26,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -62,13 +45,29 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)uest;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)ndaryNavigationBar;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AMSUIWebAppearance *appearance; // @synthesize appearance=_appearance;
@@ -79,6 +78,7 @@ __attribute__((visibility("hidden")))
 // Original attribute string: T@"NSString",?,R,C
 
 @property(readonly, copy) NSString *description;
+@property(nonatomic) _Bool detectedInvalidDocument; // @synthesize detectedInvalidDocument=_detectedInvalidDocument;
 @property(readonly) unsigned long long hash;
 @property(retain, nonatomic) AMSUIWebCameraReaderInfoView *infoView; // @synthesize infoView=_infoView;
 @property(retain, nonatomic) AMSUIWebCameraReaderPageModel *model; // @synthesize model=_model;

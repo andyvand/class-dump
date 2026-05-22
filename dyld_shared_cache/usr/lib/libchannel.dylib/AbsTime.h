@@ -4,7 +4,7 @@
 
 class AbsTime {
 public: // (access info unavailable from symbols alone)
-    nano_time() const;
-    nano_time(mach_timebase_info) const;
-    now();
+    auto nano_time() const;
+    auto nano_time(mach_timebase_info) const;
+    auto now();
 };

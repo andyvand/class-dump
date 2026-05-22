@@ -5,6 +5,5 @@
 //
 
 @protocol _UIKeyboardMediaService
-- (oneway void)_primaryItem;
 @end
 

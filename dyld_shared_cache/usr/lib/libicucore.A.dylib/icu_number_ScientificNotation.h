@@ -5,6 +5,6 @@
 class icu::number::ScientificNotation {
 public: // (access info unavailable from symbols alone)
     ScientificNotation(signed char, bool, short, UNumberSignDisplay);
-    withExponentSignDisplay(UNumberSignDisplay) const;
-    withMinExponentDigits(int) const;
+    auto withExponentSignDisplay(UNumberSignDisplay) const;
+    auto withMinExponentDigits(int) const;
 };

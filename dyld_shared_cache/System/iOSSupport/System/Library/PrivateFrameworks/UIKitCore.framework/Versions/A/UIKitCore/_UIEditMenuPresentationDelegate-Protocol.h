@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIEditMenuPresentation;
+@class NSArray;
 
 @protocol _UIEditMenuPresentationDelegate
-- (void)tings:(_UIEditMenuPresentation *)arg1;
-- (NSArray *)ForSplitViewControllerColumn:(_UIEditMenuPresentation *)arg1;
-- (void);
 - (void);
+- (NSArray *)<féÿð^]þüÈþÿ;
 @end
 

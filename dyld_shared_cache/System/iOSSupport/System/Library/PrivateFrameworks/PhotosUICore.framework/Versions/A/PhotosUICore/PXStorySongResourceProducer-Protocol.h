@@ -5,6 +5,7 @@
 //
 
 @protocol PXStorySongResourceProducer
+- (void)Name:(unsigned long long)arg1;
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext;

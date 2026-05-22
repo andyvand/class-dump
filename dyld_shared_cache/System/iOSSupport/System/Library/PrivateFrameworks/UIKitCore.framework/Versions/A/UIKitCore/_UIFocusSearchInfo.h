@@ -11,17 +11,16 @@
     CDUnknownBlockType _evaluator;
 }
 
-+ (id)!0@ù
-× ;
++ (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id)onst;
+- (id);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType)AB3ECBB2C378B4FCEB681A4D7DB7430UIPlatformGlassFlexInteraction;
-- (void);
+- (CDUnknownBlockType);
+- (void)àÖ[;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType evaluator; // @synthesize evaluator=_evaluator;

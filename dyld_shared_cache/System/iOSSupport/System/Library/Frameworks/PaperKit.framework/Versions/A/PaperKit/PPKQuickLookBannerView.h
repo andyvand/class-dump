@@ -41,15 +41,15 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)psýÿHPÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *actionButton; // @synthesize actionButton=_actionButton;

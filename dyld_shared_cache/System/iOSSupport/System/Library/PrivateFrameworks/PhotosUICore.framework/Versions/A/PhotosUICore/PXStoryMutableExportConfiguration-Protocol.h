@@ -8,8 +8,7 @@
 @protocol PXStoryErrorReporter;
 
 @protocol PXStoryMutableExportConfiguration
-- (void)y people.;
-- (NSString *);
+- (NSString *)stenceConfirmationStyle;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *activityCategory;

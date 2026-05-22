@@ -18,35 +18,35 @@
     CDUnknownBlockType _calculateSelectionHullBlock;
 }
 
-- (void)urce not valid due to mismatched environments:(id)arg1 %{public}@;
+- (void);
 - (void);
 - (id);
 - (vector_9651d273);
 - (id);
 - (id);
 - (id);
-- (struct CGPoint)c;
+- (struct CGPoint);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)=;
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (struct CGColor *);
-- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h}¸};
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType calculateSelectionHullBlock; // @synthesize calculateSelectionHullBlock=_calculateSelectionHullBlock;

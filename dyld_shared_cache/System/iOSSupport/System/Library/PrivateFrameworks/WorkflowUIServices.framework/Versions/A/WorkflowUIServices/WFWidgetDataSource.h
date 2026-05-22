@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

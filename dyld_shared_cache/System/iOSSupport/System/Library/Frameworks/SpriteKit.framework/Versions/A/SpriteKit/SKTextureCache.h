@@ -37,15 +37,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (struct CGSize);
+- (void);
 - (id);
 - (void);
-- (void);
-- (struct CGSize);
 - (int);
-- (id);
-- (void);
-- (void);
 - (struct CGSize);
+- (void)xt_vector_type(2))), std::allocator<float __attribute__((ext_vector_type(2)))>>="__begin_"^"__end_"^""{?="__cap_"^}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) shared_ptr_bb77cfd9 backingTexture; // @synthesize backingTexture=_backingTexture;

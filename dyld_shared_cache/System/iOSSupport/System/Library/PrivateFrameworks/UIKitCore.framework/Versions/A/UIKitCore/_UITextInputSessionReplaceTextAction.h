@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 
 // Remaining properties

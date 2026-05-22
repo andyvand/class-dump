@@ -13,9 +13,8 @@
 + (id);
 - (id);
 - (double);
-- (struct CGRect);
-- (id)QzÐ1b0@ù
-× ;
+- (id);
+- (struct CGRect)a;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;

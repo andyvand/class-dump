@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIKeyboardCandidateList;
-
 @protocol UIKeyboardCandidateListDelegate
 
 @optional
-- (void)oupedChatsByPersonCentricIdWithSortedChats:(id <UIKeyboardCandidateList>)arg1;
-- (void)1¢!0@ù
-× ;
-- (void)\;
-- (void)Áÿ;
-- (void)Ë;
+- (void)sion;
+- (void)D¬;
+- (void)àþÿ;
+- (void)_UISharedTextureWrapper;
 @end
 

@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (struct CGSize);
-- (struct CGRect)KSyncController when trying report _PCSTestBackupStateDidChange;
-- (struct CAPoint3D)tly:(_Bool)arg1 %@;
+- (struct CGRect);
+- (struct CAPoint3D);
 - (void);
 - (id);
 - (id);
-- (void)hä{¬;
+- (void)Ç´;
 
 // Remaining properties
 @property(nonatomic) _Bool isAnimatingMenuAddition; // @synthesize isAnimatingMenuAddition=_isAnimatingMenuAddition;

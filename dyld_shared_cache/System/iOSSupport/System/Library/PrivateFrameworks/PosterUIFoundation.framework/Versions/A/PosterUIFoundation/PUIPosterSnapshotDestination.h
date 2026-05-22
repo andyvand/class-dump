@@ -19,19 +19,19 @@
 + (id);
 + (id);
 + (id);
-+ (id)ùÿØþ];
++ (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (long long);
 - (void);
-- (void)path isServerPosterPath];
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @dynamic URL;

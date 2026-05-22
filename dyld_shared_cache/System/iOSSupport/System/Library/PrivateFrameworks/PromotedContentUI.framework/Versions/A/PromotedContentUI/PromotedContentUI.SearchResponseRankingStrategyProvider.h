@@ -9,13 +9,24 @@
 @interface PromotedContentUI.SearchResponseRankingStrategyProvider
 {
     MISSING_TYPE *bundleID;
+    MISSING_TYPE *adCandidateIDGenerator;
     MISSING_TYPE *appStore;
+    MISSING_TYPE *birthYearSource;
+    MISSING_TYPE *birthYearSourceAnalytics;
+    MISSING_TYPE *clock;
     MISSING_TYPE *featureFlag;
+    MISSING_TYPE *instanceIDGenerator;
+    MISSING_TYPE *policyInstrumentation;
+    MISSING_TYPE *storefrontIDSource;
     MISSING_TYPE *systemInfoProvider;
     MISSING_TYPE *idAccount;
     MISSING_TYPE *coreSettings;
-    MISSING_TYPE *frequencyCapProvider;
     MISSING_TYPE *locationManager;
+    MISSING_TYPE *metricHelper;
+    MISSING_TYPE *executionEnvironment;
+    MISSING_TYPE *routingInfoProvider;
+    MISSING_TYPE *frequencyCapProvider;
+    MISSING_TYPE *timer;
 }
 
 @end

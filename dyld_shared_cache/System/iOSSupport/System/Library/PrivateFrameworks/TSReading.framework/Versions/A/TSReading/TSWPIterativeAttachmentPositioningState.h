@@ -26,7 +26,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (struct CGPoint)ation;
+- (struct CGPoint);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint bestPosition; // @synthesize bestPosition=_bestPosition;

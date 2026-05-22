@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)#;
+- (id);
+- (id);
+- (double)andscape Orientation;
 - (void);
-- (double);
-- (id)text: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double baselineOffset; // @synthesize baselineOffset=_baselineOffset;

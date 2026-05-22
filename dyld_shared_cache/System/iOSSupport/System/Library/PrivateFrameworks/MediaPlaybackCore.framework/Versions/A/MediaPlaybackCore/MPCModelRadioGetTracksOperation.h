@@ -15,13 +15,14 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _completionHandler;
 }
 
-- (id)ONST;
+- (id);
 - (void);
-- (id)nesLocal-421A04EA-479A-4E46-B49D-556F7144518D;
-- (void);
+- (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)
+× ;
+- (void){BOOL}u; video:%{BOOL}u; artistUploaded:%{BOOL}u /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

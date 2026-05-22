@@ -20,14 +20,14 @@
 - (void);
 - (void);
 - (id);
-- (long long);
 - (long long);
-- (void);
-- (void)must be >= preferred duration (%0.2fs);
+- (long long);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

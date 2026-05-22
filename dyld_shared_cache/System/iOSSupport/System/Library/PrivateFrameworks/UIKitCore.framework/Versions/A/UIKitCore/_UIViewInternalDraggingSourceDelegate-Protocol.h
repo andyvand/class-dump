@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIDragSessionProperties;
-
 @protocol _UIViewInternalDraggingSourceDelegate
-- (_Bool)ate configuration plist (%@) ;
-- (NSArray *)u°!AùQÉ1¢!0@ù
+- (_Bool)1Â0@ù
 × ;
-- (_UIDragSessionProperties *)
-× ;
-- (void)|;
+- (void);
 @end
 

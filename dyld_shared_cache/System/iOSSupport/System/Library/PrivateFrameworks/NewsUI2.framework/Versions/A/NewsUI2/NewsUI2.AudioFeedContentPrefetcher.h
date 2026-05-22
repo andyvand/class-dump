@@ -14,9 +14,9 @@
     MISSING_TYPE *backgroundAppRefreshEnabled;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

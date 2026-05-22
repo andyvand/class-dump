@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSArray *attachmentIdentifiers; // @synthesize attachmentIdentifiers=_attachmentIdentifiers;

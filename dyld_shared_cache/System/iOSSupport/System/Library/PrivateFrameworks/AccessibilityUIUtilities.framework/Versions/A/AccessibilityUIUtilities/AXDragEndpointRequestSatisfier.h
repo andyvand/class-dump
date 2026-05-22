@@ -13,9 +13,9 @@
     id <AXDragEndpointRequestSatisfierDelegate> _delegate;
 }
 
-- (void)@@"SASPresentationState";
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
 

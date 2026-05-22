@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *pickerView;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)05;
 
 @end
 

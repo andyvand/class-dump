@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
 - (int);
 - (id);
-- (id);
-- (void)ocationInWindow:window:highlighter:contextDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) DDRemoteActionViewController *viewController; // @dynamic viewController;

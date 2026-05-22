@@ -14,13 +14,13 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (unsigned long long);
-- (id)App;
-- (id)Áñù{Ïæ¥ÛB[ïçäAÿ¡%øáÄzî©ÆzÓ¤0XþÞN?èwiy{ú$[Èá;
-- (id)rvice;
+- (id);
+- (id);
 - (_Bool);
+- (unsigned long long);
+- (id)ÿÿ;
+- (void)ils;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessGroup; // @synthesize accessGroup=_accessGroup;

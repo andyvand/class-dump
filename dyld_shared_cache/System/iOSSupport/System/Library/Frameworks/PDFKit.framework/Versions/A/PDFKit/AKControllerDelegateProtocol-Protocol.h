@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSIndexSet, NSString;
+@class NSString;
 
 @protocol AKControllerDelegateProtocol
-- (struct CGPoint)undation;
-
-@optional
-- (NSData *);
-- (void)Tu;
-- (NSArray *)L;
-- (NSString *);
-- (void)R\u;
-- (void)q;
-- (void)P;
-- (void)sz;
-- (void)`;
-- (void)rivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking;
-- (NSIndexSet *)m/Library/PrivateFrameworks/CoreDuet.framework/Versions/A/CoreDuet;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *originalImageDescription;

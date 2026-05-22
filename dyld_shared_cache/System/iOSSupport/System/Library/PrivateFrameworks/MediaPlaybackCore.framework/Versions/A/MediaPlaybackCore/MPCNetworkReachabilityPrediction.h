@@ -22,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (double);
-- (id)ommandKeysForUUIDs:dateInterval:completion: /* Error: Ran out of types for this method. */;
-- (id);
-- (long long)/Versions/C/Foundation;
+- (id);
+- (id);
 - (long long);
-- (void);
+- (long long);
+- (void)c}@ %{public}@ %2i %{public}@ â²â­ activeFormat:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

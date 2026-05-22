@@ -24,26 +24,26 @@ __attribute__((visibility("hidden")))
     NSArray *_tagRequests;
 }
 
-- (id)Member: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (double);
 - (long long);
-- (void)tSTQyd__;
-- (void)ding pendingNickname %@;
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
 - (void);
 - (long long);
-- (void);
 - (id);
 - (void);
-- (void)
+- (id)! @ùQ\°1Â0@ù
 × ;
-- (id)ollers is discouraged %@.;
-- (id)56B88;
-- (void)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
+- (void)nalState";
+- (id)_highlightRects;
+- (void)HÀÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

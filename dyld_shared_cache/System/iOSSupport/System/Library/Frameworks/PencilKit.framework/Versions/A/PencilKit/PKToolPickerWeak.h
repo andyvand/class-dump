@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void)R,N,V_rulerController;
 
 // Remaining properties
 @property(nonatomic) __weak PKToolPicker *toolPicker; // @synthesize toolPicker=_toolPicker;

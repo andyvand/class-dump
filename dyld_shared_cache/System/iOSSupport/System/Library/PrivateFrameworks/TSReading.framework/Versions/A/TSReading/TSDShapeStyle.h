@@ -15,8 +15,8 @@
 + (id);
 + (float);
 + (_Bool);
-+ (void)tial value not equal! Current:%@, Cached:%@ /* Error: Ran out of types for this method. */;
-+ (id)Æ§;
++ (id);
++ (void)TØ;
 - (_Bool);
 - (long long);
 - (id);

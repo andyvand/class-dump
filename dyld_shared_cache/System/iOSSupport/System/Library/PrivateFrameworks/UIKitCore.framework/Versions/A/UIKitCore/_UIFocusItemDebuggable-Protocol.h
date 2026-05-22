@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _UIDebugIssueReporting;
-
 @protocol _UIFocusItemDebuggable
-
-@optional
-- (void)e:(id <_UIDebugIssueReporting>)arg1;
-- (void)tKitTimeline:(id <_UIDebugIssueReporting>)arg1;
 @end
 

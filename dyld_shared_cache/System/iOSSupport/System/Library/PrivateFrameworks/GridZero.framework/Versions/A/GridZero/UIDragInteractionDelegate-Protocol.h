@@ -7,9 +7,6 @@
 @protocol UIDragInteractionDelegate
 
 @optional
-- (void)
-× ;
-- (_Bool)Á/Ð!¨CùÑ<	ð1b0@ù
-× ;
+- (_Bool)eColor;
 @end
 

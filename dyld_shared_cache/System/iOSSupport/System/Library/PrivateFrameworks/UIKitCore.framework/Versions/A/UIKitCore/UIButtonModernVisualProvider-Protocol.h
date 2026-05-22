@@ -5,22 +5,22 @@
 //
 
 @protocol UIButtonModernVisualProvider
-- (double);
-- (void)re:(double)arg1 keypointLocationsBuffer:outputORBDescriptorBuffer:keypointCountBuffer:keypointCount: /* Error: Ran out of types for this method. */;
-- (struct CGSize)t;
-- (_Bool)
-× ;
-- (double)qÊ1¢!0@ù
-× ;
-- (void)ions;
-- (_Bool)caleDownBehindDescendants: /* Error: Ran out of types for this method. */;
-- (void)rgeSize;
-- (struct CGSize)ionTimeInterval;
-- (void)ataForDictation;
-- (void)ew;
-- (double)ed;
-- (void)î3ykñ;
-- (_Bool)ingToolsUICandidateBar(void);
+- (double)>";
+- (double)ate for candidate window:%p; scene:%@ /* Error: Ran out of types for this method. */;
+- (struct CGSize)ocket %p.;
+- (void)nât get here!;
+- (double)îÿ;
+- (_Bool);
+- (void)rect:%@ fraction:%g->%g curve:%d from current position:%@ delete after anim:%@ editing:%@ /* Error: Ran out of types for this method. */;
+- (void)troller.m;
+- (void)UITableConstants> _UITableConstantsForTraitCollection(UITraitCollection *__strong);
+- (void)ndaryTextProperties;
+- (void)nfo;
+- (void)tifierForInstance(id  _Nonnull __strong);
+- (void)= %@;
+- (void)'t begin a drag session from state %d;
+- (void)stMetricsShadowD0P;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasBaseline;

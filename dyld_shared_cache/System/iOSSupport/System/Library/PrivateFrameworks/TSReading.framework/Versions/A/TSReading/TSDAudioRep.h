@@ -19,12 +19,12 @@
     id <TSDAudioHUDController> mAudioHUDController;
 }
 
-- (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (id)?״o5�(;
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,8 +47,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)Q);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,7 +57,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)7;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -67,11 +67,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (id);
 - (Class);
+- (void);
+- (void);
 - (float);
-- (void)reRecognizer;
-- (id)VÅw;
 
 // Remaining properties
 @property(readonly, nonatomic) id <TSDAudioHUDController> audioHUDController; // @synthesize audioHUDController=mAudioHUDController;

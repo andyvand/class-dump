@@ -11,12 +11,12 @@
     MISSING_TYPE *artworkModel;
 }
 
+- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)public}@;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

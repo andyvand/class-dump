@@ -28,11 +28,11 @@
 - (float);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)teractionTypeTileTap;
 
 // Remaining properties
 @property(nonatomic) _Bool alarmAddedSuccessfully; // @synthesize alarmAddedSuccessfully=_alarmAddedSuccessfully;

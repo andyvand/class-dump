@@ -57,13 +57,13 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGSize cellSize; // @synthesize cellSize=_cellSize;

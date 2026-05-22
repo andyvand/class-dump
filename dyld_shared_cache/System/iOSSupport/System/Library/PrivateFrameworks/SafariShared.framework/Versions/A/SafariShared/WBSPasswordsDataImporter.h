@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ted '%C' (0x%X), but got '%C' (0x%X);
 
 @end
 

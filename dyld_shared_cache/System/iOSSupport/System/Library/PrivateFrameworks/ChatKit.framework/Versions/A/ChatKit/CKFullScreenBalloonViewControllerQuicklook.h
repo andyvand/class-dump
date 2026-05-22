@@ -10,17 +10,17 @@
 {
 }
 
-- (_Bool)_authenticationMechanism;
+- (_Bool);
 - (void);
 - (_Bool);
-- (id)_storage_$_didUpdateSystemPaperNotesImmediately;
-- (id)$_cacheDidInvalidateObject;
 - (id);
-- (_Bool)n;
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

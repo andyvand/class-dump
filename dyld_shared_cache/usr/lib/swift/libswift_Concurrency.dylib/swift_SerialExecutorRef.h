@@ -4,5 +4,5 @@
 
 class swift::SerialExecutorRef {
 public: // (access info unavailable from symbols alone)
-    isMainExecutor() const;
+    auto isMainExecutor() const;
 };

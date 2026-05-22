@@ -21,20 +21,20 @@
     UIColor *_fillColor;
 }
 
-+ (id)AllowedSMSRelay:(id)arg1 newAllowedDeviceUUIDs count:%d allowedDeviceUUIDs count:%d /* Error: Ran out of types for this method. */;
-- (id)ID:message:messageContext:trustedData:powerAssertion: /* Error: Ran out of types for this method. */;
-- (void)itemID;
-- (id)WithPipeline:(CDUnknownBlockType)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
-- (void):(CDUnknownBlockType)arg1 chatPersonCentricID:messageReceived: /* Error: Ran out of types for this method. */;
-- (void)gePipelineComponent;
++ (id);
+- (id);
 - (void);
-- (id)mID:%@,  /* Error: Ran out of types for this method. */;
-- (void)';
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (id)onnection is already in progress.;
-- (void)angeRecord;
+- (id)Y7HwPgNF7O1ShqV5hLdg1iCBXMw/Library/Caches/com.apple.xbs/TemporaryDirectory.539LWn/Sources/UIKitCore/Sources/Controllers/UISplitViewController/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift;
+- (void)olorMatrixFillColor;
+- (void)èa;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;

@@ -17,10 +17,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (struct CGVector)0@ù
-× ;
+- (struct CGVector);
+- (void). value = %@;
 
 // Remaining properties
 @property(retain, nonatomic) HUVelocitySample *currentSample; // @synthesize currentSample=_currentSample;

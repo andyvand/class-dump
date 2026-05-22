@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)G;
+- (void)sAsProposed;
+- (id)";
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNAvatarCacheChangeListenerDelegate> delegate; // @synthesize delegate=_delegate;

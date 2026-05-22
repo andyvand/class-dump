@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     _UINavigationControllerPalette *_outgoingTopPalette;
 }
 
-- (void);
-- (void);
 - (id);
-- (void);
-- (id)m: /* Error: Ran out of types for this method. */;
+- (void)n:(id)arg1;
+- (id)onstraint;
+- (void)dFixedOffsetObj;
+- (void)ÐöÿaPÑøe;
 
 // Remaining properties
 @property(retain, nonatomic) _UINavigationControllerPalette *incomingTopPalette; // @synthesize incomingTopPalette=_incomingTopPalette;

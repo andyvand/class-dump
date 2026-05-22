@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (id);
+- (void)5Qf3;
 
 @end
 

@@ -19,39 +19,40 @@ __attribute__((visibility("hidden")))
     UITableView *_tableView;
 }
 
-- (void);
-- (id);
-- (void)hm;
-- (id));
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
 - (long long);
 - (void);
 - (void);
-- (long long)qÁÐ1¢!0@ù
-× ;
-- (void)@ù
-× ;
-- (void)
-× ;
-- (long long)× ;
-- (void)wÐ!0CùñËð1¢!0@ù
-× ;
-- (id)sLargeContentImage: /* Error: Ran out of types for this method. */;
-- (void)shRegistry:(id)arg1 didReceiveIncomingPushWithPayload:(id)arg2 forType: /* Error: Ran out of types for this method. */;
-- (id)ionControllerIOSBase",&,N,S_setSuggestionController:(id)arg1 ,V_suggestionController;
-- (void)øÓ$Ô;
-- (id)rgeBackground;
-- (id)h:/System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices /* Error: Ran out of types for this method. */;
-- (void)å;
-- (void)7Ðþ¼æÒµ¾];
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)é(ÿË$\c;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)0@ù
+× ;
+- (id)
+× ;
+- (_Bool)!¨Aùf°1Â0@ù
+× ;
+- (long long)dd}24{CGPoint=dd}40B56B60;
+- (id)ToTrailing:(id)arg1;
+- (id)on: /* Error: Ran out of types for this method. */;
+- (_Bool)eForegroundColor;
+- (long long)le:animated: /* Error: Ran out of types for this method. */;
+- (void)arity;
+- (id)etsReference "%@" to collection view frame %@.
+UICollectionView behavior with this layout is undefined. Break on UICollectionViewCompositionalLayoutAlertForInvalidLayout to catch this in the debugger.
+Error:(id)arg1 %@;
+- (void)te space's bounds (in pixels), adjusted for orientation. Bitmap orientation-adjusted size:(id)arg1 {width=%lu, height=%lu}; Orientation:%@; Scale:%.1f; Coordinate space:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)À;
+- (void);
+- (id)e^;
+- (void);
+- (id)_a;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

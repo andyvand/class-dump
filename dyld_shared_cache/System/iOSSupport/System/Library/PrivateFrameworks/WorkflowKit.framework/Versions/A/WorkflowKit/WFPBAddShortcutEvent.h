@@ -29,19 +29,19 @@
 - (id);
 - (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
+- (_Bool)õ¨öàö4÷÷;
+- (void)ting dictionary;
+- (void)y;
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

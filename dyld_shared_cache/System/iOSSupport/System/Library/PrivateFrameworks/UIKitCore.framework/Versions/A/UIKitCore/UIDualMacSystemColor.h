@@ -14,10 +14,9 @@ __attribute__((visibility("hidden")))
     id <UINSColor> _darkMacSystemColor;
 }
 
-- (id)found for serviceName:(id)arg1 %s;
-- (void)! GùÂ°1¢!0@ù
-× ;
-- (id)ingNormals;
+- (id);
+- (void);
+- (id)ÌØ×`n;
 
 @end
 

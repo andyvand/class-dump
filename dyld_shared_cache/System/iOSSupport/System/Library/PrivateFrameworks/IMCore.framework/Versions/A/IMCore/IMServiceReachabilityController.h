@@ -14,11 +14,12 @@
 
 + (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)@;
+- (id);
+- (void)Ä®ÿÿªg;
 
 @end
 

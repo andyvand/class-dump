@@ -22,7 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)y>"32@0:8@"NSString"16^@24 /* Error: Ran out of types for this method. */;
 - (struct __CFXWorld *);
 - (void);
 - (void);
@@ -63,18 +63,18 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (CDStruct_a7a0fb92);
+- (void);
+- (void);
 - (id);
+- (id)cesTexture"@"<MTLTexture>""cellSize""clusterScale""cellPixelSize""omniLightsRange""spotLightsRange""probeLightsRange""lightsBuffer"{BufferSlice="impl"{?="_buffer"^v"_offset"I"_length"I}}"lightsBufferLightCount"I"shadowTexture"@"<MTLTexture>""iesOrGoboTextures"[8@"<MTLTexture>"]"samplerStates"[8@"<MTLSamplerState>"]"areaBuffer"@"<MTLBuffer>""areaBufferOffset"Q"areaBufferOffsets"[8Q]}"reflectionProbesTextureArray"@"<MTLTexture>"};
+- (void)om01_float3;
+- (id)5QàÎÿ;
 - (id);
-- (id)0], %translation[1], %translation[2], 1.0);
-- (id)êÔ4¨;
 
 // Remaining properties
 @property(nonatomic) CDStruct_a7a0fb92 boundingBox;

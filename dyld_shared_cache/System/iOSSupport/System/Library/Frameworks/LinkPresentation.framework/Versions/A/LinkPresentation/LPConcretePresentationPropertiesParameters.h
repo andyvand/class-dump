@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (id)!;
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -34,7 +34,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)qð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsTapping; // @synthesize allowsTapping=_allowsTapping;

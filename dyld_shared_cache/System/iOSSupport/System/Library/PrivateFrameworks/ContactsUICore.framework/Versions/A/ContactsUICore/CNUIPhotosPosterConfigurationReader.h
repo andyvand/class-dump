@@ -77,8 +77,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)onTypesForBlockedContact;
 
 // Remaining properties
 @property(retain, nonatomic) PFWallpaperCompoundLayerStack *compoundLayerStack; // @synthesize compoundLayerStack=_compoundLayerStack;

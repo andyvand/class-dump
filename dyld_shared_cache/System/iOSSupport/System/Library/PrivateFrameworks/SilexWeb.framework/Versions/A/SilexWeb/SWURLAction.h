@@ -16,12 +16,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void)R,N,VmConnectedLayouts;
-- (void);
-- (id)ed;
 - (id);
+- (void);
 - (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

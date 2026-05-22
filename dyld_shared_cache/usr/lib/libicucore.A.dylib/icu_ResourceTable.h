@@ -4,6 +4,6 @@
 
 class icu::ResourceTable {
 public: // (access info unavailable from symbols alone)
-    findValue(char const*, icu::ResourceValue&) const;
-    getKeyAndValue(int, char const*&, icu::ResourceValue&) const;
+    auto findValue(char const*, icu::ResourceValue&) const;
+    auto getKeyAndValue(int, char const*&, icu::ResourceValue&) const;
 };

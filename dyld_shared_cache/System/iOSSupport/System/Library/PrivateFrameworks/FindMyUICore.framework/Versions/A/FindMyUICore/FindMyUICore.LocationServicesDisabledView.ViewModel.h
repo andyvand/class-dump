@@ -12,9 +12,9 @@
     MISSING_TYPE *_authorizationStatus;
 }
 
-- (void);
 - (id);
 - (void);
+- (void)ailViewController"16@?<v@?@"NSError">24;
 
 @end
 

@@ -15,15 +15,15 @@
 }
 
 - (id);
-- (id);
 - (_Bool);
+- (id);
 - (id);
 - (void);
 - (double);
 - (id);
 - (id);
-- (id)py;
-- (void)atMetrics;
+- (id)ue:(id)arg1 handler:(id)arg2 ]_block_invoke_2;
+- (void)esterday, %@, earliest start date for visits ending yesterday, %@, latest end date for visits ending yesterday, %@, last 24 hour inference request count, %lu, predictions ending yesterday count, %lu, inferences with predictions ending yesterday count, %lu, total fetched visit count, %lu, visits ending yesterday count, %lu, visits before that, %lu;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

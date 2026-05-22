@@ -23,8 +23,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)HomeTheater.NotNowButton;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HUScheduleRecurrenceEditorViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

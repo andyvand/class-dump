@@ -5,7 +5,6 @@
 //
 
 @protocol _UITextViewCanvasViewContext
-- (void)vÐ!AùÑÊ°1¢!0@ù
-× ;
+- (void)mentWithHeading:(struct CGRect)arg1 acceleratedVelocity:focusSystem:studyLogData: /* Error: Ran out of types for this method. */;
 @end
 

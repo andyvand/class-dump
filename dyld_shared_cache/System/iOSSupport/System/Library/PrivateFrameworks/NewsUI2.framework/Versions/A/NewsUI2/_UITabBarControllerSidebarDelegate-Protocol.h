@@ -5,8 +5,5 @@
 //
 
 @protocol _UITabBarControllerSidebarDelegate
-
-@optional
-- (void);
 @end
 

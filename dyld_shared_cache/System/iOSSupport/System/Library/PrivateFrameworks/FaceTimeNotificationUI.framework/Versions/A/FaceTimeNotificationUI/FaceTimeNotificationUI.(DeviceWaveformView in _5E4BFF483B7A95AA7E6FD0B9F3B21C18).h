@@ -13,10 +13,10 @@
     MISSING_TYPE *bandViews;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

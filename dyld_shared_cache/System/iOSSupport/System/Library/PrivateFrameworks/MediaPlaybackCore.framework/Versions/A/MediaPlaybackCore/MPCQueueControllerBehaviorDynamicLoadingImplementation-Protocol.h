@@ -5,7 +5,6 @@
 //
 
 @protocol MPCQueueControllerBehaviorDynamicLoadingImplementation
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long preferredUpcomingItemCount;

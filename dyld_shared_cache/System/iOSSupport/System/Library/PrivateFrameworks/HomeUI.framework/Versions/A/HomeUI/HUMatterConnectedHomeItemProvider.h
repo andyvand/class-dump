@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)mity;
+- (id);
+- (void)riggerEditorItemManager initWithDelegate:sourceItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

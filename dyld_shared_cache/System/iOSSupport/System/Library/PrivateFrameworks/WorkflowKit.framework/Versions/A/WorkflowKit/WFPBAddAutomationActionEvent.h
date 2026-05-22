@@ -26,20 +26,20 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
+- (_Bool)pàøààãhäÀä;
+- (void)ta:(id)arg1 %{public}@;
+- (void)tionEnabled;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

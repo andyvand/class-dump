@@ -23,18 +23,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (void);
-- (id)tRep: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (id);
 
 // Remaining properties

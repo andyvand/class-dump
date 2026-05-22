@@ -25,20 +25,20 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (long long);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (long long);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void)ÕÆ;
-- (void);
+- (void)ParameterState;
+- (void)AeFÕ+tGGG|aG_TÿÿQo__SSQo__Qo__So16WFWorkflowRecordC5TÿÿQo_;
 
 // Remaining properties
 @property(nonatomic) _Bool anyOptionSelected; // @synthesize anyOptionSelected=_anyOptionSelected;

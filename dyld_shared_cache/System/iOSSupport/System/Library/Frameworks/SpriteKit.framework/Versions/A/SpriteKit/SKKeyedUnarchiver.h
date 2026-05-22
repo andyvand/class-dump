@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *searchPaths; // @synthesize searchPaths;

@@ -11,8 +11,8 @@
 }
 
 + (void);
-+ (id);
 + (Class);
++ (id);
 - (_Bool);
 - (_Bool);
 - (id);

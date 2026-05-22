@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UNUserNotificationCenter;
+
 @protocol UNUserNotificationCenterDelegate
+
+@optional
+- (void)ühj0kDmàm;
+- (void)SpotlightSyncService domainCleanerDidClearDomains:(UNUserNotificationCenter *)arg1 ]_block_invoke;
 @end
 

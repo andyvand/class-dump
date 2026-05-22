@@ -21,7 +21,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)5,¨øÿñ5¨øÿá5¨øÿ;
++ (id);
 - (void);
 - (_Bool);
 - (id);
@@ -29,11 +29,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)ÿ;
+- (id);
+- (void)ypeVoiceURLWithHandle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

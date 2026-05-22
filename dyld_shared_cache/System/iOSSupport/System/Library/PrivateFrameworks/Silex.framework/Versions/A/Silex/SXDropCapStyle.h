@@ -13,7 +13,7 @@
 {
 }
 
-+ (Class)@#;
++ (Class);
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *backgroundColor; // @dynamic backgroundColor;

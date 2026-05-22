@@ -5,8 +5,8 @@
 class PowerMeter {
 public: // (access info unavailable from symbols alone)
     PowerMeter();
-    Process(float const*, int, int);
-    ProcessVector(float const*&, int&, float&);
-    Reset();
-    SetSampleRate(double);
+    auto Process(float const*, int, int);
+    auto ProcessVector(float const*&, int&, float&);
+    auto Reset();
+    auto SetSampleRate(double);
 };

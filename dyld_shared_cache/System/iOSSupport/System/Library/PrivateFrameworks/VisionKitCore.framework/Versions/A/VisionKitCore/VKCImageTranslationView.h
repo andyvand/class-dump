@@ -27,12 +27,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIView *presentationAnchorView; // @synthesize presentationAnchorView=_presentationAnchorView;

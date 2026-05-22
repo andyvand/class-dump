@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIMenu;
+@class UIEditMenuConfiguration, UIEditMenuInteraction, UIMenu;
 
 @protocol UIEditMenuInteractionDelegate
 
 @optional
-- (UIMenu *)G;
+- (void)o snapshot; %@;
+- (void)h NSError = [%@];
+- (UIMenu *)@. Error (%@);
+- (struct CGRect)tWithDelegate:(UIEditMenuInteraction *)arg1 sourceItem:(UIEditMenuConfiguration *)arg2 ];
 @end
 

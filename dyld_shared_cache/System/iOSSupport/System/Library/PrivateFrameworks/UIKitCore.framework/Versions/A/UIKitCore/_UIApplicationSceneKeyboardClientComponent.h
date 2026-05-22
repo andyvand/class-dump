@@ -9,10 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (void);
+- (void)Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isKeyboardDockDisabled;

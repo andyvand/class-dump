@@ -15,10 +15,10 @@
 
 - (_Bool);
 - (id);
-- (unsigned long long)%EÉ;
+- (unsigned long long);
 - (id);
-- (void);
-- (id)ôñÐó´ô;
+- (id);
+- (void)to pick a person from your contacts and passes the selection to the next action.;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long ballpark; // @synthesize ballpark=_ballpark;

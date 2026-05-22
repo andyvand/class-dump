@@ -13,16 +13,16 @@
     _Bool _parentMessageIsFromMe;
 }
 
-- (void)e;
-- (void)MenuItem"16@?0@"NSNumber"8;
-- (void)Range=QQ}8{_NSRange=QQ}24;
 - (void);
 - (void);
-- (id)=;
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CKAcknowledgmentBalloonView *balloonView;

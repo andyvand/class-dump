@@ -10,7 +10,7 @@
 {
 }
 
-- (struct CGSize)leCG15paragraphStylestG;
+- (struct CGSize);
 - (Class);
 
 @end

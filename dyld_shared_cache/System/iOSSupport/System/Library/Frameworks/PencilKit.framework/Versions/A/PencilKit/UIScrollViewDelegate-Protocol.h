@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
+@class UIScrollView, UIView;
 
 @protocol UIScrollViewDelegate
 
 @optional
-- (void);
-- (void)4;
-- (void)didReceiveInformationalResponse:(UIScrollView *)arg1;
-- (void)ÿ;
-- (void)iption] Successfully fetched transcription from CoreHandwriting;
+- (UIView *)keWithInk:(UIScrollView *)arg1 rollAngleDelta: /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

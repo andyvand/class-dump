@@ -14,10 +14,10 @@
 - (long long);
 - (void);
 - (long long);
-- (void)/;
-- (void);
 - (id);
-- (long long);
+- (void);
+- (void);
+- (long long)acksResponse"8@"ICURLAggregatedPerformanceMetrics"16@"NSError"24;
 
 // Remaining properties
 @property(nonatomic) long long endFrame; // @synthesize endFrame=_endFrame;

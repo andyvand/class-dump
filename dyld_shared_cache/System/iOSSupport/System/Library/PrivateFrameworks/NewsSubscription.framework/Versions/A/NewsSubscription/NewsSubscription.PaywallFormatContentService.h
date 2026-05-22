@@ -17,9 +17,9 @@
 
 - (void);
 - (void);
-- (void)DawnC+ For You All News+;
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

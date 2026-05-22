@@ -20,10 +20,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)Current Location failed because a network error occurred.;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *body; // @synthesize body=_body;

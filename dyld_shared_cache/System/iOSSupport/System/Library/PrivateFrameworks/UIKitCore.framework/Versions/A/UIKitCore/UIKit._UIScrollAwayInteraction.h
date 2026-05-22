@@ -24,14 +24,13 @@
 - (void);
 - (void);
 - (id);
-- (void)
+- (void)1Â0@ù
 × ;
-- (id)iguration;
-- (void)Ø;
-- (void)¼
-;
+- (void)estureRecognizer;
+- (id)~0Ñ¨~PÑÐÔÑ@ÑÄ(Ñ$´Ñ¬ðÑ;
 - (void);
 - (void);
+- (void)Pl;
 
 // Remaining properties
 @property(nonatomic, retain) UIView *view; // @synthesize view;

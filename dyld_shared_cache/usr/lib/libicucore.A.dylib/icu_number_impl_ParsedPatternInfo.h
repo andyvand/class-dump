@@ -4,25 +4,25 @@
 
 class icu::number::impl::ParsedPatternInfo {
 public: // (access info unavailable from symbols alone)
-    charAt(int, int) const;
-    consumeAffix(icu::number::impl::Endpoints&, UErrorCode&);
-    consumeExponent(UErrorCode&);
-    consumeFormat(UErrorCode&);
-    consumeFractionFormat(UErrorCode&);
-    consumeIntegerFormat(UErrorCode&);
-    consumeLiteral(UErrorCode&);
-    consumePadding(UNumberFormatPadPosition, UErrorCode&);
-    consumePattern(icu::UnicodeString const&, UErrorCode&);
-    consumeSubpattern(UErrorCode&);
-    containsSymbolType(icu::number::impl::AffixPatternType, UErrorCode&) const;
-    currencyAsDecimal() const;
-    getEndpoints(int) const;
-    getLengthFromEndpoints(icu::number::impl::Endpoints const&);
-    getString(int) const;
-    hasBody() const;
-    hasCurrencySign() const;
-    hasNegativeSubpattern() const;
-    length(int) const;
-    negativeHasMinusSign() const;
-    positiveHasPlusSign() const;
+    auto charAt(int, int) const;
+    auto consumeAffix(icu::number::impl::Endpoints&, UErrorCode&);
+    auto consumeExponent(UErrorCode&);
+    auto consumeFormat(UErrorCode&);
+    auto consumeFractionFormat(UErrorCode&);
+    auto consumeIntegerFormat(UErrorCode&);
+    auto consumeLiteral(UErrorCode&);
+    auto consumePadding(UNumberFormatPadPosition, UErrorCode&);
+    auto consumePattern(icu::UnicodeString const&, UErrorCode&);
+    auto consumeSubpattern(UErrorCode&);
+    auto containsSymbolType(icu::number::impl::AffixPatternType, UErrorCode&) const;
+    auto currencyAsDecimal() const;
+    auto getEndpoints(int) const;
+    auto getLengthFromEndpoints(icu::number::impl::Endpoints const&);
+    auto getString(int) const;
+    auto hasBody() const;
+    auto hasCurrencySign() const;
+    auto hasNegativeSubpattern() const;
+    auto length(int) const;
+    auto negativeHasMinusSign() const;
+    auto positiveHasPlusSign() const;
 };

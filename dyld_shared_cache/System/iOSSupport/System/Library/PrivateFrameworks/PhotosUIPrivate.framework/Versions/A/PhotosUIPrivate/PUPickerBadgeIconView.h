@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)rogressToFreezeMagnifier;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *photosImageView; // @synthesize photosImageView=_photosImageView;

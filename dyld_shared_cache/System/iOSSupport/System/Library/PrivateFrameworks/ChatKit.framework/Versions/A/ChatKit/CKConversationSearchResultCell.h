@@ -26,15 +26,15 @@
 - (double);
 - (id);
 - (_Bool);
-- (void)nC;
-- (void)AAy-@;
 - (void);
 - (void);
-- (id)i;
-- (void)l;
-- (struct UIEdgeInsets)d or not needed:%@ /* Error: Ran out of types for this method. */;
-- (void)?0@"NSManagedObject"8;
-- (void)ocument;
+- (void);
+- (void);
+- (id);
+- (void);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -42,17 +42,17 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)ÿ#ÕÐÊP;
-- (id);
-- (void)e:(id)arg1;
-- (void)dentifier;
-- (id)Äî;
-- (id)AyÉ4¬yAOGø¬Gz¬yAPSdX>¬ySd_O>¬ySd_F>¬ySd_%¬ySdGAWQo_AWQo_¢¬ySdGQo_GQo_r3¬yJ¬GG;
-- (void)GtGG_A16_t;
+- (id)lugin view controller view %@;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing;

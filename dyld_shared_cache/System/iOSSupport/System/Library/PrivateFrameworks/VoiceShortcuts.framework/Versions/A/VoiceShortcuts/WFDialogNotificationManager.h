@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)rAccessWrapper createBookmarkWithURL:(id)arg1 workflowID:(id)arg2 completion:(CDUnknownBlockType)arg3 ]_block_invoke;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

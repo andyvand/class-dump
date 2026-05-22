@@ -19,17 +19,16 @@ __attribute__((visibility("hidden")))
     _Bool _inFrame;
 }
 
-- (id);
 - (_Bool);
-- (id)/lib/libobjc.A.dylib;
 - (void);
-- (void)ditorNotes__MAPPING_MISSING__;
 - (id);
-- (void);
-- (void)Ì1¢!0@ù
-× ;
-- (id)ForHeaderInSection:useRowData: /* Error: Ran out of types for this method. */;
-- (void)ø;
+- (id);
+- (void);
+- (id)sWindowSupportedAndPreferredOrientationsChanged"b1"delegateSupportsDeprecatedWindowSupportedOrientationsChanged"b1};
+- (void)code path is a UIKit bug.;
+- (id)nizedTextInfo;
+- (void)tÕ_;
+- (void)e;
 
 @end
 

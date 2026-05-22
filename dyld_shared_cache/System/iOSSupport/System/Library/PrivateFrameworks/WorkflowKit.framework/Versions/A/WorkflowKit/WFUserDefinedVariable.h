@@ -30,10 +30,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (_Bool)serInterfaceIfNeeded(id<WFUserInterfaceHost>  _Nonnull __strong);
+- (_Bool)ror"16;
+- (void)lShortcut;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *cachedAvailablility; // @synthesize cachedAvailablility=_cachedAvailablility;

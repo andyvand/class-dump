@@ -28,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,23 +45,23 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (unsigned int);
+- (id);
+- (unsigned int);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (unsigned int);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)+¹5ü?óÿ;
-- (id)5§àÿd¹5ð¦àÿd¹5ä¦àÿ;
+- (id)rIdentityManager;
+- (void)found:(id)arg1 '%@';
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actualParentChatId; // @synthesize actualParentChatId=_actualParentChatId;

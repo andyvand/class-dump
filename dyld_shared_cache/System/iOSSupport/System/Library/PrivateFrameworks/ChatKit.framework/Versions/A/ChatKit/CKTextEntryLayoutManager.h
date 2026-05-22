@@ -20,33 +20,33 @@ __attribute__((visibility("hidden")))
     struct CGSize _currentMentionOffset;
 }
 
-- (void)letionHandler: /* Error: Ran out of types for this method. */;
-- (void)kgroundTask:(id)arg1;
-- (void)dIndex;
-- (void)ts:(_Bool)arg1;
-- (void)Point;
-- (void)gs;
-- (void)EditSinceFixupAfterEditing;
-- (void)nedModernSourceObjects;
-- (void)nstraint;
-- (void)"NSLayoutConstraint",&,N,V_leadingConstraint;
-- (void)eViewRightLayoutConstraint;
-- (void)te;
-- (void)ring",C,N,V_mimeType;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)o;
-- (double)p;
+- (id);
+- (double);
 - (struct CGSize);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)P;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *animationsByIdentifier; // @synthesize animationsByIdentifier=_animationsByIdentifier;

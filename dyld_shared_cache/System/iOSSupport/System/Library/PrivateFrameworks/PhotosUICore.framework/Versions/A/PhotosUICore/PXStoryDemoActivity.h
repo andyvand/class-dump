@@ -15,8 +15,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)t;
-- (id)£ù;
+- (id)SaliencyResult;
+- (id)Attribution: /* Error: Ran out of types for this method. */;
 
 @end
 

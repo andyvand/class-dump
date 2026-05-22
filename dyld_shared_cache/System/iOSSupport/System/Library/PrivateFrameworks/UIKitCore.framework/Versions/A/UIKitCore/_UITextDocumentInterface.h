@@ -29,41 +29,41 @@
 - (void);
 - (void);
 - (void);
-- (void)es:(id)arg1 excludesWatch:onlyWatch: /* Error: Ran out of types for this method. */;
-- (id)rID:auditToken:capabilities:replyProxy: /* Error: Ran out of types for this method. */;
-- (void)dentifier:fromToken:messageGUID:timeStamp:isBeingReplayed:storageContext: /* Error: Ran out of types for this method. */;
-- (void)tyRequestPayload:error: /* Error: Ran out of types for this method. */;
-- (id)e: /* Error: Ran out of types for this method. */;
-- (id)MessageItemWithRecordRef:handle: /* Error: Ran out of types for this method. */;
-- (id)D;
-- (void)ing cached application identifier %@ for bundle ID:(id)arg1 %@;
-- (_Bool);
-- (_Bool);
-- (_Bool)riptionAvailability;
+- (void);
 - (id);
 - (void);
-- (void)!hGùñÆ°1¢!0@ù
-× ;
-- (id)@:current:%@ /* Error: Ran out of types for this method. */;
-- (void)Ëí3GGACySbGG;
-- (void)litViewControllerIndex;
-- (id)isplayItem"8Q16^B24;
-- (id)f -[%@ toolbar] is returning an object that is not a kind of UIToolbar. toolbarIMP:%s /* Error: Ran out of types for this method. */;
-- (long long)UIInterface_Internal.h;
-- (long long)ectiveSolariumInsetsAndCornerRadiusEnabled;
-- (long long)&,V_traitCollectionForGlassContent;
-- (void)Time;
-- (long long)it22UIPromptBackgroundView;
-- (long long)frame;
-- (long long);
-- (long long)ä8_UISceneConnectionOptionFailureInvocation;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (long long)/+;
-- (id);
-- (long long)f·[;
-- (void)`\;
-- (id)²*`;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)bð1Â0@ù
+× ;
+- (_Bool)iodPreference;
+- (void)setsForType:dividerWidth: /* Error: Ran out of types for this method. */;
+- (long long)onvenience initializers;
+- (id)ds good! Kje se dobimo?;
+- (long long)nance Map Image must be non-zero size;
+- (_Bool)r;
+- (long long);
+- (long long);
+- (long long)3UITableViewHeaderFooterB0CÜÉ;
+- (long long)AEFA2D5LLP;
+- (long long)_!.3y+Ù.3îÑ.3GSg¶¶.3yAIyAIy:Ò.3¥.3yAJÝ².3GGAIyAmKyAJ}©.3GGGAJGSgAIyAjKyAKyAKyAG.3G3.3GAOGGSgtG /* Error: Ran out of types for this method. */;
+- (void)G;
+- (long long);
+- (id);
+- (id);
+- (void);
+- (long long)À;
+- (_Bool);
+- (id)q;
+- (id)8ù];
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

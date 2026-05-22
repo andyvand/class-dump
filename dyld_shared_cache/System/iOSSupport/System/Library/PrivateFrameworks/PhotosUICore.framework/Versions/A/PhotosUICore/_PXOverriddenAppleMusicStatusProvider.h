@@ -17,10 +17,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)tingItems;
+- (void)ng Stiffness;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error;

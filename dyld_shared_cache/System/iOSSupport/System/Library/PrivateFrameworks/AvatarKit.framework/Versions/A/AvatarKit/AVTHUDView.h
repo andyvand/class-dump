@@ -29,12 +29,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)X;
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)roller:(struct CGRect)arg1 presentingViewController:sourceViewController: /* Error: Ran out of types for this method. */;
+- (void)child.heic;
 
 @end
 

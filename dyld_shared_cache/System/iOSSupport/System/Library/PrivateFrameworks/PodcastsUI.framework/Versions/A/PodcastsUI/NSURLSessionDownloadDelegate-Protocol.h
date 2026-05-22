@@ -5,10 +5,5 @@
 //
 
 @protocol NSURLSessionDownloadDelegate
-- (void);
-
-@optional
-- (void);
-- (void)=;
 @end
 

@@ -9,15 +9,15 @@
 }
 
 + (_Bool);
-+ (id)estedMergeBlock;
-+ (id)with %@ and %lu others;
-+ (id)in the specified folder because it is read only;
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (double);
 + (id);
-+ (id)E;
++ (id);
 
 @end
 

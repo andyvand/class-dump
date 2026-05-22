@@ -31,18 +31,18 @@
 - (float);
 - (void);
 - (void);
-- (double);
+- (void);
 - (double);
 - (void);
 - (void);
-- (void);
 - (void);
 - (id);
-- (void)layer: /* Error: Ran out of types for this method. */;
-- (double);
-- (id)le;
 - (void);
-- (void)llectionResults;
+- (void);
+- (double);
+- (double)uthenticated: /* Error: Ran out of types for this method. */;
+- (void)-;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double currentTime;

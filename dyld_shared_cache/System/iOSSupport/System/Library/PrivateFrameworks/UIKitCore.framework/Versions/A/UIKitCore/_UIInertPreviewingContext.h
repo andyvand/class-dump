@@ -21,15 +21,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (id);
-- (struct CGRect);
+- (id);
 - (void);
 - (void);
-- (void)Controller:(struct CGRect)arg1;
-- (id)eduleAutosaving;
-- (id)estTextCompletion;
-- (id)@. Serialization Error=%@;
-- (void)le;
-- (void);
+- (id);
+- (void);
+- (struct CGRect)llBeginSystemProvidedPresentationOfAlertController: /* Error: Ran out of types for this method. */;
+- (void)lAngle;
+- (id);
+- (void)er;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *customViewForInteractiveHighlight; // @synthesize customViewForInteractiveHighlight=_customViewForInteractiveHighlight;

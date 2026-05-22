@@ -21,25 +21,24 @@ __attribute__((visibility("hidden")))
     _Bool _disableAnimatedReenablingOfAutorotation;
 }
 
-- (void)mReadReceipts:(_Bool)arg1;
-- (_Bool)us;
-- (void)p:(id)arg1 storageContext: /* Error: Ran out of types for this method. */;
-- (void)imeSensitiveMessagesDetected:(id)arg1;
-- (void)chedAliasToCNIDMap;
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)rate a safe render file for:%s. Error:%@ /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)PropertyPlayEventDatePlayed;
 - (void);
-- (void)!lEùÊÐ1¢!0@ù
-× ;
-- (_Bool)eVisualStyle";
-- (void)dering;
-- (struct CGRect)rame;
 - (_Bool);
-- (long long)B_;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)`+þÔþÿ;
+- (_Bool)TextItemInteractionHandler.presentMenu.action;
+- (long long)stFactor;
+- (_Bool)G;
+- (struct CGRect);
+- (void);
+- (void);
+- (void)UEÝ¤9`;
 
 @end
 

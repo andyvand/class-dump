@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <PXFeedViewLayoutSpec> spec; // @synthesize spec=_spec;

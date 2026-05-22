@@ -4,31 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISplitViewController, UIViewController;
-
 @protocol UISplitViewControllerDelegate
-
-@optional
-- (unsigned long long)ata;
-- (long long)ror %@;
-- (void)_copySealingManifestProperty failed for '%@';
-- (void)ak;
-- (void)nifests;
-- (void)ManifestPropertiesInternal failed, adding to dataFailedToReport list;
-- (void)s/failureProperties;
-- (void)subCCDataClass:(UISplitViewController *)arg1 %@;
-- (void)ype for subCCListEntry:(UISplitViewController *)arg1 '%@';
-- (void)ones failed;
-- (long long)seal attribute failed;
-- (_Bool)lingMapCopyDataClassesAndInstancesInternal for required to seal attribute failed;
-- (_Bool)stFullKeysForSealingMapEntry;
-- (_Bool)es is NULL;
-- (UIViewController *)or %@:(UISplitViewController *)arg1 %@;
-- (void)Data;
-- (long long)aledInstance;
-- (void)found with live queries based on sealing map;
-- (void)e data match to sealed key '%@';
-- (_Bool)ubCCList:(UISplitViewController *)arg1 %@;
-- (void);
 @end
 

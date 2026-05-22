@@ -7,6 +7,8 @@
 @class FMAccuracyOverlay, NSString, UIColor, UIImage;
 
 @protocol FMAnnotation
+- (void)ajð!øCùQoð1B50@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate;

@@ -14,11 +14,11 @@
 
 + (id);
 - (unsigned long long);
-- (_Bool);
-- (id)5;
-- (void);
 - (id);
-- (int)gate;
+- (_Bool);
+- (id);
+- (int);
+- (void)InsertionConditionEngine>";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

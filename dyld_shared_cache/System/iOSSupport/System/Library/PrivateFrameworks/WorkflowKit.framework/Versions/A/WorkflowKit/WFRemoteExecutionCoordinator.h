@@ -4,16 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, NSMapTable, NSMutableArray, NSObject, NSString;
+@class IDSService, NSArray, NSMapTable, NSMutableArray, NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface WFRemoteExecutionCoordinator
 {
-    _Bool _allowRunRequests;
     NSMutableArray *_activeSessions;
+    _Bool _allowRunRequests;
     NSMapTable *_completionsForSessions;
     IDSService *_service;
     NSObject<OS_dispatch_queue> *_queue;
+    NSObject<OS_dispatch_queue> *_sessionsQueue;
 }
 
 + (id);
@@ -54,23 +55,28 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (_Bool);
 - (id);
+- (id);
 - (void);
+- (void)Ð1â
+0@ù
+× ;
+- (void)rkflowController:didRunAction:error:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (void)æ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *activeSessions; // @synthesize activeSessions=_activeSessions;
+@property(retain, nonatomic) NSArray *activeSessions; // @synthesize activeSessions=_activeSessions;
 @property(readonly, nonatomic) _Bool allowRunRequests; // @synthesize allowRunRequests=_allowRunRequests;
 @property(retain, nonatomic) NSMapTable *completionsForSessions; // @synthesize completionsForSessions=_completionsForSessions;
 @property(readonly, copy) NSString *debugDescription;
@@ -82,6 +88,7 @@
 @property(readonly, nonatomic) NSString *pairedDeviceModelIdentifier;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) IDSService *service; // @synthesize service=_service;
+@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sessionsQueue; // @synthesize sessionsQueue=_sessionsQueue;
 @property(readonly) Class superclass;
 
 @end

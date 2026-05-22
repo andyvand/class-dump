@@ -23,9 +23,6 @@ __attribute__((visibility("hidden")))
     unsigned int _zoomed:1;
 }
 
-- (void)dle:(int)arg1;
-- (void);
-- (void)networkMonitor says we're not reachable;
 - (void);
 - (void);
 - (void);
@@ -35,9 +32,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)ÓJÆe;
-- (void)e;
+- (void);
+- (void)container:(_Bool)arg1;
+- (id)selectedRange;
+- (void);
+- (void)»¥Ùàyd;
+- (void)øóÿÅ@ë;
 
 @end
 

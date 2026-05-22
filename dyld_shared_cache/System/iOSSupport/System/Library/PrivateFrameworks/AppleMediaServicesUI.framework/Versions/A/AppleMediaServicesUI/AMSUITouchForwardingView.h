@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSArray *_passthroughViews;
 }
 
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)Gà7yQÛ9yá9yÍà9yÿÏ7yAAyâ9yXÝ7GÛ7y|Ü7SgGGëÙ7yõ×7GG_Qo__Qo__Qo__SSQo_;
+- (void)ierRequest:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *passthroughViews; // @synthesize passthroughViews=_passthroughViews;

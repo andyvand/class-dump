@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
 - (double);
 - (void);
+- (void)del;
 
 // Remaining properties
 @property(readonly, nonatomic) double height; // @synthesize height=_height;

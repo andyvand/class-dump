@@ -8,11 +8,11 @@
 {
 }
 
-+ (id):rows:columns:clockwiseOctagonalLocations:horizontallyCenteredLocation: /* Error: Ran out of types for this method. */;
++ (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)RepliesResponse"@"NSError">;
+- (id);
 - (id);
 - (id);
 - (id);

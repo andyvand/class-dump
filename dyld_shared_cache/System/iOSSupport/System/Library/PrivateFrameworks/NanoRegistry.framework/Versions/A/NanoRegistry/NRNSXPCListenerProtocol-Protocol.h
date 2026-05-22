@@ -7,8 +7,6 @@
 @protocol NRNSXPCListenerDelegate;
 
 @protocol NRNSXPCListenerProtocol
-- (void)Oð1b0@ù
-× ;
 
 // Remaining properties
 @property(retain, nonatomic) id <NRNSXPCListenerDelegate> delegate;

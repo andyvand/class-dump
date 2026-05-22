@@ -14,12 +14,12 @@
 }
 
 - (void);
-- (void);
 - (int);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool animated; // @synthesize animated=_animated;

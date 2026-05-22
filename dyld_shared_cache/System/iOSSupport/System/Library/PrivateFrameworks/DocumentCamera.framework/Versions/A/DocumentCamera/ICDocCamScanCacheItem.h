@@ -20,9 +20,9 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *docInfos; // @synthesize docInfos=_docInfos;

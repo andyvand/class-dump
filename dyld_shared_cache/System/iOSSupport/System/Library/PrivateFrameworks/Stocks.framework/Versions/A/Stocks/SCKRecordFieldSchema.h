@@ -14,16 +14,16 @@
     Class _valueClass;
 }
 
-- (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (Class)ferredFontForTextStyle: /* Error: Ran out of types for this method. */;
+- (Class);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted; // @synthesize encrypted=_encrypted;

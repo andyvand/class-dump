@@ -19,8 +19,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) VKRoadFeatureAccessibilityElement *road; // @synthesize road=_road;

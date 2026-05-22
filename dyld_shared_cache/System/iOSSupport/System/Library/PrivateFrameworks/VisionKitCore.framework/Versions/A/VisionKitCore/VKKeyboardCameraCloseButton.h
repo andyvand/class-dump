@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGSize);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *uiButton;

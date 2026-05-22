@@ -12,14 +12,14 @@
     unsigned long long _cornerMaskForBackground;
 }
 
-- (void)ÒKæ|;
+- (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (struct UIEdgeInsets);
-- (double);
 - (unsigned long long);
+- (_Bool);
+- (unsigned long long);
+- (double);
+- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(nonatomic) unsigned long long cornerMaskForBackground; // @synthesize cornerMaskForBackground=_cornerMaskForBackground;

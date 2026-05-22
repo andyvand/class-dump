@@ -18,10 +18,6 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -33,13 +29,17 @@
 + (id);
 + (id);
 + (id);
-+ (id)lator;
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)ect<TSDOwningAttachment>",N,V_owningAttachment;
++ (id)on/common/TSABaseApplicationDelegate.mm;
 - (double);
-- (long long);
+- (long long);
 - (id);
 - (SEL);
 - (_Bool);
@@ -57,23 +57,23 @@
 - (id);
 - (_Bool);
 - (int);
+- (void);
+- (id);
+- (id);
 - (double);
-- (unsigned long long);
 - (id);
 - (_Bool);
+- (unsigned long long);
 - (id);
-- (void);
-- (id)?	;
+- (id);
+- (_Bool);
+- (double);
 - (id);
 - (double);
-- (struct CGColor *);
-- (id);
-- (_Bool)üÀ;
-- (id)ÿÿ;
-- (double)HXþ0;
-- (double)ÿÔÁXÝ;
-- (id);
-- (double)¹¡;
+- (id)dRasterize:(double)arg1;
+- (struct CGColor *)w:boundsRect: /* Error: Ran out of types for this method. */;
+- (double)í;
+- (double)òÿ°K;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColor *CGColor;

@@ -11,16 +11,16 @@
 }
 
 + (id);
-+ (id)ons.IMDiagnosticExtension;
-+ (id)ed by DAS;
-+ (id)TATON_REMOVED_STRAIGHT_QUOTES;
-+ (id)@ from "%@";
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
-- (unsigned long long)v;
-- (_Bool);
-- (id)ection:(struct _NSZone *)arg1 dataSource:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)n"b1"delegateRespondsToTextInputShouldExtendCaretHeight"b1"delegateRespondsToIsSingleLine"b1"delegateRespondsToUndoRedoDidApplyText"b1"delegateRespondsToTextInputDidFinishUndoRedo"b1"delegateRespondsToTextInputDidApplyText"b1"delegateRespondsToTextInputPasteDelegateWillPaste"b1"delegateRespondsToTextInputPasteDelegateDidPaste"b1"delegateRespondsToTextInputWillChangeCharacters"b1"delegateRespondsToAttributesForApplyingFormattingModification"b1"textOrSelectionChangeOriginatesWithKeyboard"b1"undoRedoInProgress"b1"textOrSelectionChangeOriginatesWithMarkedText"b1"nextSelectionChangeMustUpdate"b1"hasTextAlternatives"b1"hasDictationResultMetadata"b1"suppressDelegateChangeNotifications"b1"adaptiveImageGlyphsDisabled"b1"isWritingToolsStreamingReplacements"b1"isWritingToolsStreamingUndoGroupPrematurelyEnded"b1"automaticallyAdjustsWritingDirection"b1};
 - (struct CGPoint);
+- (struct CGPoint);
+- (unsigned long long);
+- (_Bool)istantView;
+- (id)dAlwaysCollapse;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint rotation; // @synthesize rotation=_rotation;

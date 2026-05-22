@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (void);
 - (_Bool);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;

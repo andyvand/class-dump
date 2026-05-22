@@ -11,13 +11,13 @@
     CSSearchableIndex *_searchableIndex;
 }
 
-+ (id)Bµ;
++ (id)from path alone, checking with the guid instead.;
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (void)val;
 
 // Remaining properties
 @property(retain, nonatomic) CSSearchableIndex *searchableIndex; // @synthesize searchableIndex=_searchableIndex;

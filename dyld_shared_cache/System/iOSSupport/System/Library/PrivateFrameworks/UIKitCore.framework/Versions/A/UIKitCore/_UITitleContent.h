@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
-- (id)!äBùqÀ1¢!0@ù
+- (id);
+- (double)0@ù
 × ;
 - (void);
-- (id)ngCachedPasteboardWithName: /* Error: Ran out of types for this method. */;
-- (double)butes;
+- (id)nterfaceIdiom;
+- (void)x_GSg;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *title;

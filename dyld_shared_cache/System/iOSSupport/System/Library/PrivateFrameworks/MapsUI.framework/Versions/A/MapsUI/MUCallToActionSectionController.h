@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (void)colades;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

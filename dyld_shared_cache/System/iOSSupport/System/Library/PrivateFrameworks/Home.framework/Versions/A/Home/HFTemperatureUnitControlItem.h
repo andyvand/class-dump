@@ -13,14 +13,14 @@
     NSString *_temperatureUnitCharacteristicType;
 }
 
-+ (Class)g;
++ (Class)ledAccessory;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`	;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *temperatureUnitCharacteristicType; // @synthesize temperatureUnitCharacteristicType=_temperatureUnitCharacteristicType;

@@ -29,41 +29,38 @@ __attribute__((visibility("hidden")))
     UIView *_navigationHighlightView;
 }
 
-- (void)untilDate: /* Error: Ran out of types for this method. */;
-- (void)calFileTransfer:(id)arg1 attachmentIndex:path:requestURLString:ownerID:signature:decryptionKey:requestedSize:fileSize:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)ompletionBlock:(id)arg1;
-- (void)edTransfers:(id)arg1 displayID:token:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)MessageSyncToken;
-- (void)teBySettingHour:(id)arg1 minute:second:ofDate:options: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void)t:(_Bool)arg1 deleteContext:error: /* Error: Ran out of types for this method. */;
-- (void)cterIsMember:(id)arg1;
-- (void)tedLastReceivedOnGridMessageDate:(_Bool)arg1;
-- (void)tachments:(id)arg1 requiredCapabilities: /* Error: Ran out of types for this method. */;
-- (void)ed:(_Bool)arg1 responseHandler: /* Error: Ran out of types for this method. */;
-- (id)dJettison: /* Error: Ran out of types for this method. */;
-- (void)ue;
-- (id)",&,N,V_processingQueue;
-- (void)tate;
-- (_Bool)rsistenceQueue;
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (_Bool)Critical lane for %{public}s has exhausted allotted time, and will be deferred until %s;
-- (void)rticipants:%@] /* Error: Ran out of types for this method. */;
-- (void)d chat guids:(_Bool)arg1 %@ for message guid:%@ /* Error: Ran out of types for this method. */;
-- (void)to get a bundle identifier from appLink:(_Bool)arg1 %@ for URL:%@ /* Error: Ran out of types for this method. */;
-- (void)n;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (id);
-- (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -71,29 +68,32 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id)";
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void)ánð!$Gù1ÁÐ1¢!0@ù
+- (id);
+- (_Bool);
+- (void);
+- (id)1Â0@ù
 × ;
-- (void)
+- (void)áð!¨Dùñ`ð1Â0@ù
 × ;
-- (id)Íð1¢!0@ù
+- (id)
 × ;
-- (id)Q}16;
-- (_Bool)nterfaceOrientationMode: /* Error: Ran out of types for this method. */;
-- (id)elivery ID for retrieving chunk rewrite;
-- (id)ables;
-- (void)ackgroundSuppressionController;
-- (void)Oÿ;
-- (id)þÐMpk;
-- (id):(id)arg1 ·l;
+- (void)utoFillTestTaggerView";
+- (void)_initWithServiceBundleIdentifier:(id)arg1 service: /* Error: Ran out of types for this method. */;
+- (id),V_navigationBar;
+- (void)%¿13;
+- (id);
+- (void)­e;
+- (id)|ÞÚþ>¢ÊÀf;
+- (id)ÿ¯»Ül]g;
+- (id)ÿz5ÌðÁg;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsDistribution; // @synthesize allowsDistribution=_allowsDistribution;

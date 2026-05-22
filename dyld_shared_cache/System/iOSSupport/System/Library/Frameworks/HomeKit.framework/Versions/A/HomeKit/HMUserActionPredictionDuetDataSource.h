@@ -15,13 +15,13 @@
     id <HMCache> _predictionCache;
 }
 
-+ (id)essory",W,N,V_accessory;
++ (id)ld be between %@ & %@;
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)ion;
 - (id);
-- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

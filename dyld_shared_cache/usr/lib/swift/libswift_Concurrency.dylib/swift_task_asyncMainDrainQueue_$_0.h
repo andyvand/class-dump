@@ -4,5 +4,5 @@
 
 class swift_task_asyncMainDrainQueue::$_0 {
 public: // (access info unavailable from symbols alone)
-    __invoke(void*);
+    auto __invoke(void*);
 };

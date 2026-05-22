@@ -7,7 +7,6 @@
 @class FCPersonalizationWhitelist;
 
 @protocol FCPersonalizationAllowlistProvider
-- (unsigned long long)r callout autoreleasepool feature;
 
 // Remaining properties
 @property(readonly) FCPersonalizationWhitelist *allowlist;

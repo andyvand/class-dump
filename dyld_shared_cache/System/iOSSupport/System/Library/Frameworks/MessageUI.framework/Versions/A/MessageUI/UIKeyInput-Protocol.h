@@ -5,8 +5,6 @@
 //
 
 @protocol UIKeyInput
-- (_Bool);
-- (void)electedDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;

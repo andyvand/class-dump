@@ -8,10 +8,10 @@
 
 @interface (null) (MPAVItemAdditions)
 - (void);
-- (id)laceType:starting: /* Error: Ran out of types for this method. */;
-- (id)entifier;
-- (void);
-- (id).2f;
+- (id);
+- (id);
+- (id)sToMappingResponse;
+- (void)ingID;
 
 // Remaining properties
 @property(retain, nonatomic) MPAVItem *MPAVItem;

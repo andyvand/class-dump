@@ -8,15 +8,14 @@
 @protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
-- (long long)Léÿpéÿ¤éÿÈéÿìéÿéÿDéÿhéÿéÿÈéÿìéÿéÿ4éÿpéÿéÿàéÿ4éÿLéÿdéÿéÿ¬éÿÐéÿÜéÿ8éÿPéÿhéÿéÿ°éÿÔéÿìéÿ$éÿxéÿéÿ¨éÿÌéÿðéÿéÿ°éÿ¼éÿàéÿøéÿéÿXéÿéÿ°éÿäéÿ éÿDéÿléÿéÿéÿ¨éÿÌéÿðéÿÜéÿ éÿ4 éÿh éÿ¤ éÿÈ éÿ(¡éÿP¡éÿ|¡éÿ°¡éÿÔ¡éÿø¡éÿ¢éÿ¢éÿ¬¢éÿÐ¢éÿ£éÿ0£éÿ£éÿ£éÿ´£éÿØ£éÿü£éÿ ¤éÿÌ¥éÿØ¥éÿä¥éÿð¥éÿt¦éÿ¦éÿ°¦éÿÔ¦éÿø¦éÿ(§éÿL§éÿ¸§éÿÜ§éÿ;
-- (NSString *)`ü	;
-- (unsigned long long)t§;
-- (unsigned long long)ã¤þ;
-- (NSString *);
-- (NSString *)P;
+- (_Bool)ÿÚûÿÝøÿ;
+- (NSString *)o^ÿ;
+- (unsigned long long)½à+|(æÿ;
+- (NSString *)\ónþ;
 
 @optional
-- (void);
+- (unsigned long long)]×2´ÿM×2°ÿ=×2¬ÿ;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;

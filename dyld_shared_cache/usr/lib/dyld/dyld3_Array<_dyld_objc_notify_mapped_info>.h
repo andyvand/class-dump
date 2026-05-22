@@ -4,6 +4,6 @@
 
 class dyld3::Array<_dyld_objc_notify_mapped_info> {
 public: // (access info unavailable from symbols alone)
-    push_back(_dyld_objc_notify_mapped_info const&);
-    push_back(_dyld_objc_notify_mapped_info const&) (.cold.1);
+    auto push_back(_dyld_objc_notify_mapped_info const&);
+    auto push_back(_dyld_objc_notify_mapped_info const&) (.cold.1);
 };

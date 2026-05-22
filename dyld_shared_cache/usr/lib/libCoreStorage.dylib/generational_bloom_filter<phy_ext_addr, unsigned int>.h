@@ -4,9 +4,9 @@
 
 class generational_bloom_filter<phy_ext_addr, unsigned int> {
 public: // (access info unavailable from symbols alone)
-    clear();
-    contains(phy_ext_addr const&);
+    auto clear();
+    auto contains(phy_ext_addr const&);
+    auto insert(phy_ext_addr const&);
     generational_bloom_filter(unsigned long, unsigned int (* const*)(phy_ext_addr const&), unsigned long, unsigned long, unsigned long);
-    insert(phy_ext_addr const&);
     ~generational_bloom_filter();
 };

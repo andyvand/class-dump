@@ -15,13 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)a: /* Error: Ran out of types for this method. */;
-- (void)ëp.º;
-- (id)ressScrollToSelection"b1"clearOnNextEdit"b1"needsInvalidationAfterObscuredRangeChange"b1"isAnimatingPaste"b1"contentInsetsFromFontsValid"b1"drawingFindIndicator"b1};
-- (void)´o
-´p;
 - (id);
-- (void)g¶Øô\;
+- (id)emMenuConfiguration"32@0:8@"_UITextInteractableItem"16@"UIMenu"24 /* Error: Ran out of types for this method. */;
+- (void)WithConfiguration:(id)arg1 selectedFonts: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool)çéÿúØa;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

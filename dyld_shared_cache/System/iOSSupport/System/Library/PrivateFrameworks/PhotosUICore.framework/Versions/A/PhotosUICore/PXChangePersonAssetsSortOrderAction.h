@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (long long);
+- (id);
+- (long long)itionsState;
+- (id);
+- (void)OneUpSharePlayRequestInitializationMessagePayload;
 
 // Remaining properties
 @property(readonly, nonatomic) long long originalSortOrder; // @synthesize originalSortOrder=_originalSortOrder;

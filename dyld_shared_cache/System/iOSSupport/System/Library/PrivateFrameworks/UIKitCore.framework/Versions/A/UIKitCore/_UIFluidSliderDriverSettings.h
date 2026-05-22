@@ -15,11 +15,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id)24@32;
-- (void);
-- (void)BehindAssistantView: /* Error: Ran out of types for this method. */;
-- (void)lIndicatorInsets;
-- (id)0;
+- (id);
+- (id);
+- (void)0@ù
+× ;
+- (void)nSelected;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UISpringAnimationPrototypeSettings *acceleratedUpdate; // @synthesize acceleratedUpdate=_acceleratedUpdate;

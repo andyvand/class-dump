@@ -7,7 +7,6 @@
 @class NSUndoManager;
 
 @protocol CUIKUndoDelegate
-- (void);
 
 // Remaining properties
 @property _Bool disableUndoForOrganizerScheduling;

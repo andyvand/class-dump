@@ -8,7 +8,7 @@
 @protocol UIScrollViewDelegate;
 
 @interface (null) (ISScrollViewVitalityController)
-- (void)Tv;
+- (void);
 - (id);
 - (id);
 - (id);

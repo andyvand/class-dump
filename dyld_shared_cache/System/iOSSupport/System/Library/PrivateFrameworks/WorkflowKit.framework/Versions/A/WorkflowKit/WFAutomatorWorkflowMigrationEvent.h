@@ -18,13 +18,12 @@
 + (id);
 + (Class);
 - (void);
-- (unsigned int)±Ì;
-- (void);
-- (void);
+- (unsigned int);
 - (void);
 - (id);
-- (_Bool)0@ù
-× ;
+- (_Bool)N,V_workflow;
+- (void)cePlatformViewAvailableResource:(id)arg1 error checking view status:%@ /* Error: Ran out of types for this method. */;
+- (void)service|phone|airplane|turn;
 
 // Remaining properties
 @property(nonatomic) unsigned int automatorActionCount; // @synthesize automatorActionCount=_automatorActionCount;

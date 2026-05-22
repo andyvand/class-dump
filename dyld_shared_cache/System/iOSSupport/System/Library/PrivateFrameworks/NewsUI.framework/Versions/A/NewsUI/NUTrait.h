@@ -17,10 +17,10 @@
 - (double);
 - (id);
 - (id);
-- (id)@`;
-- (void);
+- (id);
 - (id);
 - (double);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double defaultValue; // @synthesize defaultValue=_defaultValue;

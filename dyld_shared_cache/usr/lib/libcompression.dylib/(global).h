@@ -4,6 +4,10 @@
 
 // Global C++ functions
 
-counter_get_quantizer(cosl_counter const*) (.lut);
-lzma_copy_with_pattern(unsigned char*, unsigned int, unsigned int) (.repeat_off);
-lzma_copy_with_pattern(unsigned char*, unsigned int, unsigned int) (.repeat_perm);
+auto PalCopyFirst16(unsigned char*, unsigned int) (.rep_distance);
+auto PalCopyFirst16(unsigned char*, unsigned int) (.rep_distance4);
+auto PalCopyFirst16(unsigned char*, unsigned int) (.rep_distance8);
+auto PalFilterMatch(unsigned int, unsigned int) (.maxDistance);
+auto counter_get_quantizer(cosl_counter const*) (.lut);
+auto lzma_copy_with_pattern(unsigned char*, unsigned int, unsigned int) (.repeat_off);
+auto lzma_copy_with_pattern(unsigned char*, unsigned int, unsigned int) (.repeat_perm);

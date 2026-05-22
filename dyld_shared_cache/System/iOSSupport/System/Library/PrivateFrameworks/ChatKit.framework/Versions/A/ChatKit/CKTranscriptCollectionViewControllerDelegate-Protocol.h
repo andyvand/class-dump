@@ -5,25 +5,5 @@
 //
 
 @protocol CKTranscriptCollectionViewControllerDelegate
-- (void)Duô;
-- (_Bool)@Î&Ö;
-- (_Bool)Õ;
-- (void)&Ö;
-- (void)è;
-- (void);
-- (void)ÖÕ;
-- (void)(;
-- (void)gering coalesced mention notification to %@, expecting %@;
-
-@optional
-- (void);
-- (_Bool);
-- (_Bool)í;
-- (void);
-- (void)¬;
-- (void)3Ö;
-- (_Bool)Ö;
-- (void)geAndMovieThumbnailView",&,N,V_thumbnailView;
-- (void)ification for note %@, expecting %@;
 @end
 

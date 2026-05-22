@@ -25,8 +25,8 @@
 }
 
 - (void);
-- (void);
-- (id)P;
+- (id);
+- (void);
 
 @end
 

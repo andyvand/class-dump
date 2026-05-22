@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class)K;
++ (Class);
 - (id);
-- (id)nt=dd}24B40@44;
+- (id)legate;
 
 @end
 

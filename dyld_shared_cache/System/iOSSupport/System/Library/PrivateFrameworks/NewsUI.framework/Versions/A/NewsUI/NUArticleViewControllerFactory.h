@@ -27,10 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
-- (id)etTypeUTI: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 
 // Remaining properties

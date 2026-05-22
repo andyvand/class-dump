@@ -16,22 +16,22 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id):(id)arg1 inStore:oldAccount: /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (_Bool);
+- (id);
+- (id);
+- (unsigned int);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
 - (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsAccessibilitySizes; // @synthesize allowsAccessibilitySizes=_allowsAccessibilitySizes;

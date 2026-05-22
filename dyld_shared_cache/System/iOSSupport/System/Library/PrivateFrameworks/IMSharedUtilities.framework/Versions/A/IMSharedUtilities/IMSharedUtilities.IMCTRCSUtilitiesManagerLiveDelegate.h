@@ -12,8 +12,8 @@
 }
 
 - (_Bool);
-- (void);
 - (id);
+- (void)e last used service is %s;
 
 @end
 

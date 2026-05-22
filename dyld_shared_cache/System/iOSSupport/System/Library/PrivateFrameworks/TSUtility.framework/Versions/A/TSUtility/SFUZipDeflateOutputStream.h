@@ -21,9 +21,9 @@
 - (void);
 - (id);
 - (void);
-- (long long);
+- (_Bool);
 - (id);
-- (_Bool)startSingleResultQuery:error:] /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

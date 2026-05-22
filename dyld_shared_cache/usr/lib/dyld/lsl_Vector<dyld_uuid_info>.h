@@ -4,8 +4,8 @@
 
 class lsl::Vector<dyld_uuid_info> {
 public: // (access info unavailable from symbols alone)
-    insert<dyld_uuid_info*>(dyld_uuid_info const*, dyld_uuid_info*, dyld_uuid_info*);
-    reserve(unsigned long long);
-    reserveExact(unsigned long long);
-    resize(unsigned long long);
+    auto reserve(unsigned long long);
+    auto reserveExact(unsigned long long);
+    auto resize(unsigned long long);
+    dyld_uuid_info* insert<dyld_uuid_info*>(dyld_uuid_info const*, dyld_uuid_info*, dyld_uuid_info*);
 };

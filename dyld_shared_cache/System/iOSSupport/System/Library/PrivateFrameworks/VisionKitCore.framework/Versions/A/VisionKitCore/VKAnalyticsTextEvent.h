@@ -33,11 +33,11 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (long long);
 - (id);
 - (long long);
-- (long long)6^@24;
+- (long long);
+- (void);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long eventType; // @synthesize eventType=_eventType;

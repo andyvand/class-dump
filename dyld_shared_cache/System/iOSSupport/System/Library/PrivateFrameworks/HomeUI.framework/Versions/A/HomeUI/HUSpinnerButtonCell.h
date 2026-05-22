@@ -23,9 +23,9 @@
 - (id);
 - (void);
 - (struct CGRect);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)the item order:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool showSpinner; // @synthesize showSpinner=_showSpinner;

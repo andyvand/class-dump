@@ -16,8 +16,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)inspecting %ld root directories.;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;

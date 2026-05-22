@@ -22,22 +22,21 @@
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
 - (void);
 - (id);
-- (long long);
-- (void)guration:(long long)arg1 primaryAction: /* Error: Ran out of types for this method. */;
-- (long long)ictionary"16@?0@"NSDictionary"8;
-- (void)ûÿÿ
-ïþÿÜUæÿ¤³ÿÿ;
+- (struct CGSize);
 - (void);
 - (long long);
-- (double)ß*	;
+- (long long);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (double);
+- (struct CGSize);
+- (void);
+- (void)tring;
+- (void)Dÿÿÿ40þÿ±Úÿd¨ÿÿYÿÿ;
 
 // Remaining properties
 @property(nonatomic) long long alignment;

@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
     int backgroundQuality;
 }
 
-- (void)__cachedLanguageIdentifiers;
+- (void);
 
 @end
 

@@ -11,12 +11,12 @@
 
 - (void);
 - (void);
-- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)mShouldRenderFrameStroke;
 
 @end
 

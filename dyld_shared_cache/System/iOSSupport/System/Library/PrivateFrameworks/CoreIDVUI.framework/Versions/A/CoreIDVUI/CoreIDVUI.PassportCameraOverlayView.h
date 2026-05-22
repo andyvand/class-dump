@@ -24,10 +24,10 @@
     MISSING_TYPE *outlineGradientMaskEndY;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

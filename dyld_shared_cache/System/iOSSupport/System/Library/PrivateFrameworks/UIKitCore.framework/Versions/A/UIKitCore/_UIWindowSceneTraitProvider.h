@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)ertType: /* Error: Ran out of types for this method. */;
+- (void)a:(id)arg1;
+- (id)date;
+- (id)>> * _Nonnull _UIFocusItemContainerGatherAllExtantChildFocusableItemsInRect(id<UIFocusEnvironment>  _Nonnull __strong, id<UIFocusItemContainer>  _Nonnull __strong, CGRect);
 - (void);
-- (void);
-- (id)ationContexts:forResponseOnQueue:withHandler: /* Error: Ran out of types for this method. */;
-- (id)ntScrollableContainer: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)earance;
-- (id)rgins of a private view;
+- (id)LXR0FÁ7|;
+- (void)È)Ä7;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

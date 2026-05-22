@@ -18,15 +18,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ibswiftos.dylib;
+- (id);
+- (void)0:8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40Q72 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAction> action; // @synthesize action=_action;

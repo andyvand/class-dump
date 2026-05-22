@@ -5,6 +5,5 @@
 //
 
 @protocol _DUIClientSessionCommon
-- (oneway void);
 @end
 

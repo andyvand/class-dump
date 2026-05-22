@@ -24,21 +24,22 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (struct os_unfair_lock_s);
+- (void);
 - (id);
-- (CDUnknownBlockType);
+- (void);
 - (id);
-- (_Bool);
+- (id);
 - (void);
 - (CDUnknownBlockType);
-- (struct os_unfair_lock_s)N;
-- (id)seConnection _handleNewConnection:] /* Error: Ran out of types for this method. */;
-- (_Bool)Latest Bursts;
-- (void)low.actions.properties.articles;
+- (void);
+- (_Bool);
+- (void)ÜN±ÿÿÿÿÿð;
+- (struct os_unfair_lock_s)H
+$;
+- (_Bool)success, performing handoff;
+- (CDUnknownBlockType)lassName:actionUUID:actionIdentifier:actionIndex:count:reference:] /* Error: Ran out of types for this method. */;
+- (void)tion;
 
 // Remaining properties
 @property(retain, nonatomic) BSServiceConnection<BSServiceConnectionClient> *connection; // @synthesize connection=_connection;

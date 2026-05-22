@@ -33,23 +33,23 @@
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (void);
-- (long long);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (long long);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)Handler:(_Bool)arg1;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (void)es;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -17,28 +17,29 @@ __attribute__((visibility("hidden")))
     NSArray *_filters;
 }
 
-- (id)C;
-- (id);
-- (void);
-- (void)buildWithIdentifier:(id)arg1 withMode:withApps:withExemptApps: /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (void);
 - (void);
-- (void)2Z;
 - (void);
 - (id);
-- (void)w!AùñË1¢!0@ù
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool)1Â0@ù
 × ;
-- (void)Ô¡xð!Ô@ù1Î°1¢!0@ù
+- (_Bool)ð!0Bù1_1Â0@ù
 × ;
-- (id)Factor;
-- (id)ary;
-- (void)ttern;
-- (_Bool)	
-;
-- (void)ction:(id)arg1 %{private}@;
-- (id)onManager initialization :asking for asPlugIn=%i but already initialized with a delegate :delegate = %@ /* Error: Ran out of types for this method. */;
-- (void)pRequestID;
+- (id)
+× ;
+- (id)g1Â0@ù
+× ;
+- (id)FrameInvalid: /* Error: Ran out of types for this method. */;
+- (void)iew;
+- (void)Platters;
+- (id)attempt to transition from a transitioning helper effect.;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *containedView;

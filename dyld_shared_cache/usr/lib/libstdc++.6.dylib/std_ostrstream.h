@@ -4,11 +4,12 @@
 
 class std::ostrstream {
 public: // (access info unavailable from symbols alone)
-    freeze(bool);
+    auto freeze(bool);
+    auto pcount() const;
+    auto rdbuf() const;
+    auto str();
     ostrstream();
     ostrstream(char*, int, std::_Ios_Openmode);
-    pcount() const;
-    rdbuf() const;
-    str();
+    virtual thunk to ~ostrstream();
     ~ostrstream();
 };

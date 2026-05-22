@@ -13,10 +13,10 @@
 
 - (id);
 - (id);
-- (void)t: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)QJ:W /* Error: Ran out of types for this method. */;
 
 @end
 

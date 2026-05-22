@@ -24,6 +24,9 @@
     MISSING_TYPE *resultCount;
     MISSING_TYPE *guidanceRepeatCount;
     MISSING_TYPE *isShowingIneligibleMRZ;
+    MISSING_TYPE *partialMRZCount;
+    MISSING_TYPE *partialMRZThreshold;
+    MISSING_TYPE *isShowingPartialMRZ;
     MISSING_TYPE *noCandidatesCount;
     MISSING_TYPE *resetMRZCount;
     MISSING_TYPE *onImageQualityFeedback;

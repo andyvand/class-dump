@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (struct CGSize),V_customContainerView;
+- (struct CGSize)ifier;
 
 // Remaining properties
 @property(nonatomic) _Bool usesSquareIntrinsicSize; // @synthesize usesSquareIntrinsicSize=_usesSquareIntrinsicSize;

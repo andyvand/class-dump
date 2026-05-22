@@ -13,7 +13,7 @@
     MISSING_TYPE *seenOnceOnScreen;
 }
 
-- (void);
+- (void)resolve template reference '%{public}s' but will continue attempts, error=%{public}@;
 
 @end
 

@@ -15,15 +15,15 @@
     NSString *_toStamp;
 }
 
-+ (_Bool)er;
++ (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

@@ -4,5 +4,5 @@
 
 class GLRDepthStencilKey {
 public: // (access info unavailable from symbols alone)
-    copyDescriptor() const;
+    auto copyDescriptor() const;
 };

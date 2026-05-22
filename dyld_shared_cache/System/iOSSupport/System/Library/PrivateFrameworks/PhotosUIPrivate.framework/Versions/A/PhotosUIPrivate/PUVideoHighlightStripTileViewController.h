@@ -27,15 +27,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (CDStruct_1b6d18a9);
-- (void)romGridLayout:(CDStruct_1b6d18a9)arg1 isAppearing: /* Error: Ran out of types for this method. */;
-- (void)ewContentImage;
-- (id)ex;
+- (id);
+- (void)ateCurrentTimeRangeIndex;
 
 // Remaining properties
 @property(retain, nonatomic) PUAssetViewModel *assetViewModel; // @synthesize assetViewModel=_assetViewModel;

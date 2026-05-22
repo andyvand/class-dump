@@ -5,15 +5,15 @@
 class icu::HinduSolarMalayalamCalendar {
 public: // (access info unavailable from symbols alone)
     HinduSolarMalayalamCalendar(icu::Locale const&, UErrorCode&);
-    clone() const;
-    getDayTransition(int) const;
-    getDynamicClassID() const;
-    getLookupTable() const;
-    getLookupTableBaseYear() const;
-    getLookupTableLength() const;
-    getMonthOffset() const;
-    getStaticClassID();
-    getType() const;
-    getYearOffset() const;
+    auto clone() const;
+    auto getDayTransition(int) const;
+    auto getDynamicClassID() const;
+    auto getLookupTable() const;
+    auto getLookupTableBaseYear() const;
+    auto getLookupTableLength() const;
+    auto getMonthOffset() const;
+    auto getStaticClassID();
+    auto getType() const;
+    auto getYearOffset() const;
     ~HinduSolarMalayalamCalendar();
 };

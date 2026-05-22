@@ -34,13 +34,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *applicationActivityTypes; // @synthesize applicationActivityTypes=_applicationActivityTypes;

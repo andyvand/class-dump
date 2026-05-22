@@ -20,23 +20,21 @@ __attribute__((visibility("hidden")))
     double _smallSystemFontSize;
 }
 
-- (double);
-- (double);
-- (id)thDeviceName:(long long)arg1 withOSVersion:withBuildVersion:withModelName:withModel:withProductName:withMarketingName:withSerialNumber:withDeviceCapacity:withAvailableDeviceCapacity:withIMEI:withMEID:withModemFirmwareVersion:withCellularTechnology:withBatteryLevel:withIsSupervised:withIsMultiUser:withIsDeviceLocatorServiceEnabled:withIsActivationLockEnabled:withIsDoNotDisturbInEffect:withDeviceID:withEASDeviceIdentifier:withIsCloudBackupEnabled:withActiveManagedUsers:withOSUpdateSettings:withAutoSetupAdminAccounts:withSystemIntegrityProtectionEnabled:withIsMDMLostModeEnabled:withMaximumResidentUsers:withPushToken:withDiagnosticSubmissionEnabled:withAppAnalyticsEnabled:withICCID:withBluetoothMAC:withWiFiMAC:withEthernetMACs:withCurrentCarrierNetwork:withSIMCarrierNetwork:withSubscriberCarrierNetwork:withCarrierSettingsVersion:withPhoneNumber:withDataRoamingEnabled:withVoiceRoamingEnabled:withPersonalHotspotEnabled:withIsNetworkTethered:withIsRoaming:withSIMMCC:withSIMMNC:withSubscriberMCC:withSubscriberMNC:withCurrentMCC:withCurrentMNC: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (id);
 - (double);
-- (void);
-- (id)ùQÅð1¢!0@ù
-× ;
-- (id)CùñÅ1¢!0@ù
-× ;
-- (id)ion:(long long)arg1 fromViewController:withSender: /* Error: Ran out of types for this method. */;
-- (id)ePredicate:(long long)arg1 compileTimeIssues:runTimeIssues: /* Error: Ran out of types for this method. */;
-- (double)tions;
-- (id)n;
-- (id)extCanvasContext>",W,N;
-- (id)ontroller on target %@.;
+- (id);
+- (id);
+- (double);
+- (double);
+- (id)Destination:(long long)arg1;
+- (id)w:(long long)arg1 resetPrevious: /* Error: Ran out of types for this method. */;
+- (double)CollectionLayoutContainer",&,N,V_memoizedSupplementaryHostContainer;
+- (id)_drawsOneHandedAffordance;
+- (id);
+- (void)odifierCG;
 
 // Remaining properties
 @property(readonly, nonatomic) double _buttonFontSize; // @synthesize _buttonFontSize;

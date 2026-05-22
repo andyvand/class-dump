@@ -7,6 +7,7 @@
 @class NSDate, NSDateComponents, NSTimeZone;
 
 @protocol HMTimerTriggerBuilder
+- (NSTimeZone *)UnsubscribeMessageName;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *fireDate;

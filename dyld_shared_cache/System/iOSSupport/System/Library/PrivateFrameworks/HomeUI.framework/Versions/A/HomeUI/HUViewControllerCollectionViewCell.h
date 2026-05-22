@@ -23,12 +23,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (struct CGSize);
-- (id)¨FXGôGXJ8K¼LÄLN<PHPQPR(U;
+- (id)1â
+0@ù
+× ;
+- (void)raints = %@);
 
 // Remaining properties
 @property(nonatomic) _Bool allowSelfSizing; // @synthesize allowSelfSizing=_allowSelfSizing;

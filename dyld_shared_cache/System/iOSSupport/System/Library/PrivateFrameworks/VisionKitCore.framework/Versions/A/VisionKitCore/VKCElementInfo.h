@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)guidanceView;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;

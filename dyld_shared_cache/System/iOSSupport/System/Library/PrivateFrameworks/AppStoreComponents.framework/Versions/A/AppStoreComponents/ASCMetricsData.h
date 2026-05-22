@@ -22,14 +22,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (id)r;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *excludingFields; // @synthesize excludingFields=_excludingFields;

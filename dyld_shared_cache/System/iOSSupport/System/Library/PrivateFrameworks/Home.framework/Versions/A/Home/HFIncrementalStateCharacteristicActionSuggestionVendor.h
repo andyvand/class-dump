@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)Ì^;
+- (id)|RÉÿ0;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;

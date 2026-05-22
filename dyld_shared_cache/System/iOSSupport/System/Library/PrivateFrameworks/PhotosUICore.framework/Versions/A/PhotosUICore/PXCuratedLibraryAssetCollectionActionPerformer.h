@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)PHAssetCollectionTitleModel;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetCollectionReference *assetCollectionReference; // @synthesize assetCollectionReference=_assetCollectionReference;

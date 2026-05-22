@@ -25,7 +25,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)EventTypePickerTimerButtonDescription;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *addCustomSceneItem; // @synthesize addCustomSceneItem=_addCustomSceneItem;

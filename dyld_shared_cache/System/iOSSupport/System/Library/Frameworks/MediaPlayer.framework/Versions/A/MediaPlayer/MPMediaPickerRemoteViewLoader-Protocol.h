@@ -7,7 +7,6 @@
 @class MPMediaPickerController, UIViewController;
 
 @protocol MPMediaPickerRemoteViewLoader
-- (void)y;
 
 // Remaining properties
 @property(nonatomic) __weak MPMediaPickerController *mediaPickerController;

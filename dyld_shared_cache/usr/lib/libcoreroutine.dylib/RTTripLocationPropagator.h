@@ -9,11 +9,11 @@
     _Bool _recordDebuggingDataInFile;
 }
 
-- (id)qA;
-- (id)q!;
 - (id);
 - (id);
-- (id)records with recordID %@;
+- (id);
+- (id);
+- (id)ion, %{sensitive}@, delta, %.2f;
 
 @end
 

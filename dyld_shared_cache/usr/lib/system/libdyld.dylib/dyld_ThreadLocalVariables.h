@@ -4,14 +4,14 @@
 
 class dyld::ThreadLocalVariables {
 public: // (access info unavailable from symbols alone)
-    addTermFunc(void (*)(void*), void*);
-    exit();
-    finalizeList(void*);
-    findInitialContent(mach_o::Header const*, std::__1::span<unsigned char const, 18446744073709551615ul>&, bool&);
-    forEachThunkSpan(mach_o::Header const*, mach_o::Error (std::__1::span<dyld::ThreadLocalVariables::Thunk, 18446744073709551615ul>) block_pointer);
-    initialize();
-    initializeThunksFromDisk(mach_o::Header const*);
-    initializeThunksInDyldCache(DyldSharedCache const*, mach_o::Header const*);
-    instantiateVariable(dyld::ThreadLocalVariables::Thunk const&);
-    setUpImage(DyldSharedCache const*, mach_o::Header const*);
+    auto addTermFunc(void (*)(void*), void*);
+    auto exit();
+    auto finalizeList(void*);
+    auto findInitialContent(mach_o::UnsafeHeader const*, std::__1::span<unsigned char const, 18446744073709551615ul>&, bool&);
+    auto forEachThunkSpan(mach_o::UnsafeHeader const*, mach_o::Error (std::__1::span<dyld::ThreadLocalVariables::Thunk, 18446744073709551615ul>) block_pointer);
+    auto initialize();
+    auto initializeThunksFromDisk(mach_o::UnsafeHeader const*);
+    auto initializeThunksInDyldCache(DyldSharedCache const*, mach_o::UnsafeHeader const*);
+    auto instantiateVariable(dyld::ThreadLocalVariables::Thunk const&);
+    auto setUpImage(DyldSharedCache const*, mach_o::UnsafeHeader const*);
 };

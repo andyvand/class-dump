@@ -15,23 +15,23 @@ __attribute__((visibility("hidden")))
     long long _splitViewColumn;
 }
 
-- (id)oreDuetSyncForMaxBatchCount:(id)arg1 activity:(long long)arg2;
+- (id);
 - (void);
-- (void)ticipant but 1-1 chat style, rewriting GUID and chat identifier;
-- (void)er!;
-- (void)NSError"16;
+- (void);
+- (void);
+- (void);
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
 - (long long);
 - (id);
 - (void);
-- (void);
 - (_Bool);
-- (id);
+- (void)Dc;
+- (id)q;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

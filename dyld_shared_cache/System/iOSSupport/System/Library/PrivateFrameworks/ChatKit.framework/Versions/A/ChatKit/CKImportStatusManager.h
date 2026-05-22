@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)Sg;
-- (long long)attachments/inlineAttachments:(id)arg1 %@;
-- (void);
+- (void);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

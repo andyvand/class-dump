@@ -4,8 +4,8 @@
 
 class mach_o {
 public: // (access info unavailable from symbols alone)
-    appendNumber(char*&, unsigned int);
-    hasWarningHandler();
-    stringOverflow(load_command const*, unsigned int, unsigned int);
-    warning(void const*, char const*, ...);
+    auto appendNumber(char*&, unsigned int);
+    auto hasWarningHandler();
+    auto stringOverflow(load_command const*, unsigned int, unsigned int);
+    auto warning(void const*, char const*, ...);
 };

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 
 + (void);
 + (void);
-+ (double)essage timestamp on load:%@ /* Error: Ran out of types for this method. */;
-+ (double)is %@;
++ (double);
++ (double);
 
 @end
 

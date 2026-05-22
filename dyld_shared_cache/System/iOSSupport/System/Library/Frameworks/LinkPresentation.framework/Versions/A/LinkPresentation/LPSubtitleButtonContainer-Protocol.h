@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPSubtitleButtonView;
-
 @protocol LPSubtitleButtonContainer
-- (LPSubtitleButtonView *)ew",&,V_checkmarkImageView;
 @end
 

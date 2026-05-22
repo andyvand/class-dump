@@ -12,10 +12,10 @@
     MISSING_TYPE *identifier;
 }
 
-- (void)orPaintAfterViewDidMoveToWindow: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)H;
-- (id);
+- (id)ÿüÿ;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id <FCAssetDataProvider> dataProvider;

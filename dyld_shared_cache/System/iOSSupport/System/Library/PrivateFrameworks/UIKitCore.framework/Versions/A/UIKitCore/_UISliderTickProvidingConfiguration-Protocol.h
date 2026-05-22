@@ -7,8 +7,6 @@
 @class NSArray;
 
 @protocol _UISliderTickProvidingConfiguration
-- (double)CleanWithROWID: /* Error: Ran out of types for this method. */;
-- (long long)%@:%p %@ %@%@%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long behavior;

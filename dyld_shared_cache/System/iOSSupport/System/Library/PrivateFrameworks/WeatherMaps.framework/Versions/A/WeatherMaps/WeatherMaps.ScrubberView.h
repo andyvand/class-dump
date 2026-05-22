@@ -13,11 +13,11 @@
     MISSING_TYPE *barView;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

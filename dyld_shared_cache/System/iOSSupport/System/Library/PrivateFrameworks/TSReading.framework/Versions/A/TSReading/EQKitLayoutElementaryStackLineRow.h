@@ -16,13 +16,13 @@
 }
 
 - (_Bool);
-- (void)T4;
+- (void);
 - (void);
 - (id);
 - (id);
 - (double);
 - (unsigned long long);
-- (long long);
+- (long long);
 - (unsigned long long);
 
 // Remaining properties

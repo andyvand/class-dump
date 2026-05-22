@@ -28,15 +28,14 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
-- (double)!Aù{1b0@ù
-× ;
-- (void)anager;
-- (void)cipient new];
-- (id)nitWithStoryQueue:] /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (_Bool)8S;
+- (void)ÔÃ`ò;
+- (double)oÈÿèåRì»5;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setDataSource:) PXPhotosDataSource *dataSource; // @synthesize dataSource=_dataSource;

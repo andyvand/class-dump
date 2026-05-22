@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
-- (id);
-- (void);
-- (id);
-- (unsigned long long)!;
-- (long long);
-- (long long)ø:L; ;<h< /* Error: Ran out of types for this method. */;
-- (double)te offline feed, time=%{public}lldms;
-- (id)øÿ_üÿ;
 - (long long);
+- (id);
+- (double);
+- (id);
+- (unsigned long long);
+- (long long);
+- (void)ä¦þ5B_r¦þ;
+- (id)\Z±	Yax¾;
+- (long long)ùþ;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
-- (void);
++ (id)lic}@Not merging from new resident device:context is nil /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)ress;
 
 // Remaining properties
 @property(nonatomic) __weak id <HMUserManagementRemoteHost> delegate; // @synthesize delegate=_delegate;

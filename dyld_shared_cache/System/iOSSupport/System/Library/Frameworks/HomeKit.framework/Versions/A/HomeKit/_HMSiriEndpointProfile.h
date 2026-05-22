@@ -24,9 +24,9 @@
     HMSiriEndpointProfilesMessenger *_messenger;
 }
 
-+ (id)V_delegate;
-+ (id)üjLm8n;
-+ (_Bool)SDy;
++ (id);
++ (_Bool);
++ (id)etion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -53,21 +53,21 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (unsigned long long);
-- (long long);
 - (id);
 - (void);
-- (void)andler:(long long)arg1;
+- (void);
 - (id);
-- (id){public}@There is already a builder session ID in progress, cannot submit another commit;
-- (id)otifying clients settings:%@ didUpdateForIdentifier:%@ keyPath:%@ delegate:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (id);
+- (long long);
+- (void)edSupportedFeatures;
+- (id)cteristic;
 
 // Remaining properties
 @property(retain) NSNumber *activeIdentifier; // @synthesize activeIdentifier=_activeIdentifier;

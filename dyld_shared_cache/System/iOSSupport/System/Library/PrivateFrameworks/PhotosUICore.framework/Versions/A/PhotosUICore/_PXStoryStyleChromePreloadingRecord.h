@@ -16,11 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (double);
-- (void);
-- (id);
+- (void)com.apple.photos.story.async-player;
 
 // Remaining properties
 @property(readonly, nonatomic) double displayScale; // @synthesize displayScale=_displayScale;

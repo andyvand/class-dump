@@ -15,9 +15,9 @@
     UIImage *_testImage;
 }
 
-- (id)Number",C,N,V_toValue;
+- (id);
 - (void);
-- (long long)a;
+- (long long);
 - (id);
 - (_Bool);
 - (id);
@@ -27,8 +27,8 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

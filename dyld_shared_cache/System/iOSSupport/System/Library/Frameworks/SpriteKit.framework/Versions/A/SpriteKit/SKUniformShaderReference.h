@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void);
+- (void)e=dd}24;
 
 // Remaining properties
 @property(nonatomic) __weak SKShader *targetShader; // @synthesize targetShader=_targetShader;

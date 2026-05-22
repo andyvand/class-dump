@@ -16,10 +16,9 @@
 
 - (id);
 - (void);
-- (void)ÄÐ1¢!0@ù
-× ;
-- (id)no duplicate actions. This is a UIKit internal bug.;
-- (void)p;
+- (id)eActivationInteraction;
+- (void)wLatency:%s /* Error: Ran out of types for this method. */;
+- (void)ô#ÿ}ÈÐÈl;
 
 @end
 

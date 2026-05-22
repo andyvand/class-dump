@@ -24,12 +24,8 @@
     RTWalletManager *_walletManager;
 }
 
-+ (id);
 + (long long);
-- (void);
-- (void)gerProximitySetup:(id)arg1;
-- (void)eNotification;
-- (void);
++ (id);
 - (void);
 - (id);
 - (void);
@@ -37,31 +33,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)eActiveParticipants:(id)arg1 %@ for group session:%@ /* Error: Ran out of types for this method. */;
-- (void)oups {error:(id)arg1 %{public}@, groupIDs:%{private}@} /* Error: Ran out of types for this method. */;
-- (void)onIDAliasWithSalt:(id)arg1 delegateQueueCompletionHandler:(CDUnknownBlockType)arg2 ];
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)";
-- (id)w_protocol_identifier}^{nw_protocol_callbacks}^{nw_protocol}^v^{nw_protocol}^v},N,V_protocol;
-- (void)swordReference;
 - (id);
 - (void);
 - (void);
@@ -69,19 +44,43 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)!|FùÑ\,ð1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)1Â0@ù
 × ;
+- (void)72Q80@88B96;
+- (void)romCacheDownloadFailedToCachePersistenceDueToEvent:(id)arg1;
+- (void)te:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)T;
+- (id)ÿÿº;
+- (void)arEventsLatency;
+- (id)RTSourceMapsSupportFavoritePlace;
+- (void)y_visits_weekdays_others_bucketed;
+- (void), aggregateTime %{sensitive}f [h], latestVisit %{sensitive}f, density Daily %{sensitive}f, density Weekly %{sensitive}f ;
 - (void);
-- (id)1¢!0@ù
-× ;
-- (id)oredVisitsWithOptions:handler: /* Error: Ran out of types for this method. */;
+- (id)%@,watchCacheIdentifier,%@;
 - (void);
-- (void)n of event, %{sensitive}@;
-- (void)t doens't have map item, %@, destinationLearnedLOI, %{sensitive}@;
-- (void)on interval %@ prior to adding %ld locations;
-- (void)+¶ò;
-- (void)'Á*N];
+- (void)¦.Ã;
+- (void)Yx;
+- (void)?¶ÿ÷!+¦Ä;
+- (void);
+- (void)7!;
 
 // Remaining properties
 @property(retain, nonatomic) RTBatteryManager *batteryManager; // @synthesize batteryManager=_batteryManager;

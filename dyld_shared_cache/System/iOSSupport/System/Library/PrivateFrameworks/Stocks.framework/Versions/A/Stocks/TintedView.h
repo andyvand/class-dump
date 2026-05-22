@@ -12,13 +12,13 @@
     UIColor *_tintColor;
 }
 
-- (id)*!;
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)outAxesAndXLabels;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

@@ -4,5 +4,5 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100](char const*);
+    auto __throw_length_error[abi:nqe210106](char const*);
 };

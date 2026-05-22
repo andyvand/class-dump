@@ -13,7 +13,7 @@
 {
 }
 
-- (id)id: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 
 // Remaining properties

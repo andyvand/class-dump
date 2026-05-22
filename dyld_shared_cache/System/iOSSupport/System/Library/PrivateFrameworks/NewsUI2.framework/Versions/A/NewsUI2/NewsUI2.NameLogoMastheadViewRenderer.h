@@ -9,8 +9,13 @@
 @interface NewsUI2.NameLogoMastheadViewRenderer
 {
     MISSING_TYPE *logoImageCache;
+    MISSING_TYPE *flagImageCache;
     MISSING_TYPE *backgroundImageCache;
+    MISSING_TYPE *sportsDataService;
+    MISSING_TYPE *assetHandleFactory;
     MISSING_TYPE *styler;
+    MISSING_TYPE *appConfigManager;
+    MISSING_TYPE *imageRenderTask;
 }
 
 @end

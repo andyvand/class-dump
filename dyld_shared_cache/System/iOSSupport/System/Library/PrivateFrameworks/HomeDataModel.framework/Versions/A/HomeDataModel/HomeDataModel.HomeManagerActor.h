@@ -15,8 +15,8 @@
     MISSING_TYPE *internalHomeManager;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

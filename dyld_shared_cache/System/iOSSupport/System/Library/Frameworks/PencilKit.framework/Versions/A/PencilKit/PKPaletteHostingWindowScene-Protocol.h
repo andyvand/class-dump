@@ -5,7 +5,6 @@
 //
 
 @protocol PKPaletteHostingWindowScene
-- (struct CGRect)ndpointUrl;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect paletteHostingWindowSceneBounds;

@@ -18,8 +18,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak PXBlockActionManager *actionManager; // @synthesize actionManager=_actionManager;

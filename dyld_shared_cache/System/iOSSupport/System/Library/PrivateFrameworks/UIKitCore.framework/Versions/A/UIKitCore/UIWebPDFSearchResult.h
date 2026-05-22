@@ -17,19 +17,18 @@
 }
 
 - (void);
-- (void)ontrolBar;
+- (void);
 - (id);
-- (void)pG;
+- (void);
 - (id);
-- (void)withContainerDisplayName:(id)arg1 withContainerIdentifier:withPath:withVersion:withUserElection: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (void)0@ù
-× ;
-- (unsigned long long)viousValue:timeSinceLastAction: /* Error: Ran out of types for this method. */;
-- (struct CGRect)cancelTransitionToSearchLayoutState: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
+- (void)ystickRepeatDurationForTimeInMovementZone:(id)arg1;
+- (id)Å,ÆðÆ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect boundingBox; // @synthesize boundingBox;

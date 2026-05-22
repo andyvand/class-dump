@@ -12,8 +12,8 @@
     MISSING_TYPE *newAccessoryControlsBearer;
 }
 
-- (void);
 - (id);
+- (void)e;
 
 @end
 

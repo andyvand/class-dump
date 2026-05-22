@@ -35,10 +35,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool displayChevron;

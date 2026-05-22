@@ -10,7 +10,7 @@
 }
 
 + (id);
-- (struct CGRect)ùÿÛ1+ÉZ;
+- (struct CGRect);
 
 @end
 

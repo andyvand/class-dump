@@ -6,13 +6,13 @@ class icu::number::impl::CurrencySymbols {
 public: // (access info unavailable from symbols alone)
     CurrencySymbols(icu::CurrencyUnit, icu::Locale const&, UErrorCode&);
     CurrencySymbols(icu::CurrencyUnit, icu::Locale const&, icu::DecimalFormatSymbols const&, UErrorCode&);
-    getCurrencySymbol(UErrorCode&) const;
-    getFormalCurrencySymbol(UErrorCode&) const;
-    getIntlCurrencySymbol(UErrorCode&) const;
-    getIsoCode() const;
-    getNarrowCurrencySymbol(UErrorCode&) const;
-    getPluralName(icu::StandardPlural::Form, UErrorCode&) const;
-    getVariantCurrencySymbol(UErrorCode&) const;
-    hasEmptyCurrencySymbol() const;
-    loadSymbol(UCurrNameStyle, UErrorCode&) const;
+    auto getCurrencySymbol(UErrorCode&) const;
+    auto getFormalCurrencySymbol(UErrorCode&) const;
+    auto getIntlCurrencySymbol(UErrorCode&) const;
+    auto getIsoCode() const;
+    auto getNarrowCurrencySymbol(UErrorCode&) const;
+    auto getPluralName(icu::StandardPlural::Form, UErrorCode&) const;
+    auto getVariantCurrencySymbol(UErrorCode&) const;
+    auto hasEmptyCurrencySymbol() const;
+    auto loadSymbol(UCurrNameStyle, UErrorCode&) const;
 };

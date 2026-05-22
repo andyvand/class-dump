@@ -45,10 +45,10 @@
 + (struct CGPath *);
 + (struct CGPath *);
 + (void);
-+ (void)%;
 + (void);
 + (void);
-- (id)p;
++ (void);
+- (id);
 - (void);
 - (struct CGRect);
 - (id);
@@ -63,7 +63,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -103,17 +103,17 @@
 - (id);
 - (id);
 - (double);
-- (double)C;
+- (double);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void)oints;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

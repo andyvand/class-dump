@@ -35,7 +35,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -48,17 +48,17 @@
 - (id);
 - (void);
 - (id);
-- (void)P;
-- (id)istener;
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)ditorControllerSubSelectionDelegate;
+- (void);
+- (void);
+- (void);
+- (id)d cached image;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *centerCircleColor; // @synthesize centerCircleColor=_centerCircleColor;

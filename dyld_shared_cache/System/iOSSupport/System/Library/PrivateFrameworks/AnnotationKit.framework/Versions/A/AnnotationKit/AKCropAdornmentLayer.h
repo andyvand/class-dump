@@ -15,8 +15,8 @@
 }
 
 - (void);
-- (void)#;
-- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -24,7 +24,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

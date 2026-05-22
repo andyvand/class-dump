@@ -5,6 +5,5 @@
 //
 
 @protocol AVTAvatarConfigurationMetric
-- (unsigned long long);
 @end
 

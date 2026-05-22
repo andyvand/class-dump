@@ -9,8 +9,8 @@
 }
 
 + (_Bool);
-+ (id)ject;
-- (id)rokeFIFO;
++ (id);
+- (id);
 
 @end
 

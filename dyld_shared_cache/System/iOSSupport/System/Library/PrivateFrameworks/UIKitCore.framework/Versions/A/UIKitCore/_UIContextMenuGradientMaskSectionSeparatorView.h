@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)í3y¬|j8G^Åí3yPÁî3ySay÷`j8GG¨|j8¨í3yí3yAMytÄí3í3Gé¬í3yÛí3y|j8GGGAMyÁí3y´Àí3yÀí3y¿í3yAMyABy_ACy0ü;
+- (id)anCommitPresentation;
 
 @end
 

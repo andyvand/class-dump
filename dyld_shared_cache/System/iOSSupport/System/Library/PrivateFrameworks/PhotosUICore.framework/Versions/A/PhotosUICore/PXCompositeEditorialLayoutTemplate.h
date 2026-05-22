@@ -20,12 +20,12 @@
 - (double);
 - (void);
 - (void);
+- (void);
 - (double);
 - (void);
-- (void);
 - (id);
-- (long long)ionType: /* Error: Ran out of types for this method. */;
-- (long long)à3;
+- (long long)int: /* Error: Ran out of types for this method. */;
+- (long long)Üé8;
 
 // Remaining properties
 @property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;

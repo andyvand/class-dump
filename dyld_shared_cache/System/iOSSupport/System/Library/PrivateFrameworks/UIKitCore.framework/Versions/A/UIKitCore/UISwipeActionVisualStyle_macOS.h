@@ -11,8 +11,8 @@
 }
 
 - (double);
-- (double)C;
-- (double)ÿ ;
+- (double)tion"16@"CALayer"24@"NSString"32;
+- (double);
 
 @end
 

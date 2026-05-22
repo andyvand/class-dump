@@ -21,7 +21,6 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -29,20 +28,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (long long);
 - (double);
-- (double);
 - (double);
 - (double);
 - (double);
 - (double);
-- (double) ;
+- (double);
+- (double);
 - (double);
 - (double);
 - (id);
-- (double)",R,N;
-- (void)ones.;
+- (double)required minimum interval, %.2f;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double averageDistanceBetweenLocationsInTrace; // @synthesize averageDistanceBetweenLocationsInTrace=_averageDistanceBetweenLocationsInTrace;

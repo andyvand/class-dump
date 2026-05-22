@@ -11,8 +11,8 @@
     _Bool _active;
 }
 
-- (id)KKnowledgeSaving>";
-- (_Bool)p7;
+- (id);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

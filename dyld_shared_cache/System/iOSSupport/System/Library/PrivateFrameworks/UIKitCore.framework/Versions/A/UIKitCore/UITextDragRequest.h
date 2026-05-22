@@ -19,13 +19,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id)orChat:(id)arg1;
-- (id)ZoneCreatedOverride;
-- (id)gesToReindexForPreviewGeneration;
-- (void)P;
-- (void)+Âì;
-- (id)tachmentEdge;
-- (_Bool)úi;
+- (id);
+- (id);
+- (id);
+- (id)e;
+- (void)sAnimationManager;
+- (void)ôa;
+- (_Bool)Ôiâÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

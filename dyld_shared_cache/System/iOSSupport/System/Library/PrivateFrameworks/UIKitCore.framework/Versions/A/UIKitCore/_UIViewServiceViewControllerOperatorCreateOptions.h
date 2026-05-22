@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
     long long _initialInterfaceOrientation;
 }
 
-+ (_Bool)JÜl;
++ (_Bool)nDuration;
 - (void);
 - (void);
 - (void);
@@ -28,17 +28,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (void)ection;
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (long long);
 - (id);
 - (void);
-- (void);
-- (void)d;
-- (id)©ç[;
+- (void)ble:(id)arg1;
+- (void)Size;
+- (long long)eView setUserInteractionEnabled:] /* Error: Ran out of types for this method. */;
+- (void)¸þ;
+- (id)isualProvider;
 
 // Remaining properties
 @property(nonatomic) long long availableTextServices; // @synthesize availableTextServices=_availableTextServices;

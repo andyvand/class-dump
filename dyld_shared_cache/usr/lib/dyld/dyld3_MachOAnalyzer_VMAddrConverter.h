@@ -4,5 +4,5 @@
 
 class dyld3::MachOAnalyzer::VMAddrConverter {
 public: // (access info unavailable from symbols alone)
-    convertToVMAddr(unsigned long long, dyld3::Array<unsigned long long> const&) const;
+    auto convertToVMAddr(unsigned long long, dyld3::Array<unsigned long long> const&) const;
 };

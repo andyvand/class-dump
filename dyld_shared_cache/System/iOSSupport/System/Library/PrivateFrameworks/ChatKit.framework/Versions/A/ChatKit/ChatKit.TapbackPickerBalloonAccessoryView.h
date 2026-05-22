@@ -20,9 +20,10 @@
 }
 
 - (void);
-- (void);
-- (id);
-- (void)ations;
+- (id)±°1Â0@ù
+× ;
+- (void)pre;
+- (void)ð.;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *tintColor;

@@ -45,15 +45,14 @@
 - (double);
 - (double);
 - (_Bool);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (double);
-- (id);
-- (id);
-- (_Bool)Á&°!PCùÑ01b0@ù
-× ;
-- (unsigned long long);
-- (void)ModuleControllers = [%@];
+- (unsigned long long);
+- (id)t/;
 
 // Remaining properties
 @property(nonatomic) _Bool applyOnlyOnProgressChanges; // @synthesize applyOnlyOnProgressChanges=_applyOnlyOnProgressChanges;

@@ -20,7 +20,7 @@
     NSArray *_filteredToSessionIds;
 }
 
-+ (_Bool)ecute retro-registration.;
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -28,18 +28,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
+- (id);
 - (Class);
-- (id);
-- (id)j';
-- (void);
-- (id);
-- (id)thod;
-- (_Bool);
-- (id);
-- (unsigned long long)16@0:8 /* Error: Ran out of types for this method. */;
-- (unsigned long long)eTripClusterTable:reply: /* Error: Ran out of types for this method. */;
-- (unsigned long long)arPlay:preventAutomaticRemoval:expirationDate:userInfo:handler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)mOfDataPts: /* Error: Ran out of types for this method. */;
+- (void)panionLink, onDeviceLost, id, %@, name, %@, model, %@;
+- (unsigned long long)cated SPI, %@;
+- (unsigned long long)Õë;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;

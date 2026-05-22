@@ -5,6 +5,5 @@
 //
 
 @protocol TUICandidateBackdropViewDelegate
-- (_Bool)z;
 @end
 

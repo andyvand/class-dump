@@ -14,22 +14,22 @@
     UILabel *_satelliteNoNotificationTitleLabel;
 }
 
-+ (id)wProviderError;
 + (id);
-- (void)uest:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)copyValuesFromLegacyNote:(id)arg1 toNote:styler:attachmentPreviewGenerator: /* Error: Ran out of types for this method. */;
-- (id)W,N,V_textStorage;
++ (id);
 - (void);
-- (void);
-- (void)g;
-- (id)word for this account’s locked notes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
-- (void)t.swift;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)itsChanged: /* Error: Ran out of types for this method. */;
-- (id)onProperties",&,N,V_linkMetadata;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void):%@, frame in window:%@, rotation:%f, scale:%f> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *SMSFallbackStatusTitleLabelAttributedText; // @synthesize SMSFallbackStatusTitleLabelAttributedText=_SMSFallbackStatusTitleLabelAttributedText;

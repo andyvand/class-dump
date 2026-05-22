@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)elayTextMessage:error: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
 - (struct CGPoint);
 - (struct CGPoint);
-- (double)onQueue:do:owner: /* Error: Ran out of types for this method. */;
+- (double)onProgress",&,N,V_interactionProgressForCommit;
 
 @end
 

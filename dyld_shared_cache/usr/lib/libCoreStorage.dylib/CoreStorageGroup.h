@@ -5,16 +5,16 @@
 class CoreStorageGroup {
 public: // (access info unavailable from symbols alone)
     CoreStorageGroup();
-    addLogicalFamily(CoreStorageFamily*);
-    addLogicalVolume(CoreStorageLogical*);
-    addLogicalVolumes(bool);
-    copyPropsFilter(__CFDictionary*);
-    getCoreStorageLogical(unsigned long long, unsigned long long);
-    getGroupProperties();
-    getGroupUUIDString()::s;
-    initWithHeader(__CFDictionary*);
-    removeLogicalVolume(CoreStorageLogical*);
-    removeLogicalVolumeFamily(CoreStorageFamily*, CoreStorageLogical*);
-    synchronizeInternal(unsigned int);
+    auto addLogicalFamily(CoreStorageFamily*);
+    auto addLogicalVolume(CoreStorageLogical*);
+    auto addLogicalVolumes(bool);
+    auto copyPropsFilter(__CFDictionary*);
+    auto getCoreStorageLogical(unsigned long long, unsigned long long);
+    auto getGroupProperties();
+    auto getGroupUUIDString()::s;
+    auto initWithHeader(__CFDictionary*);
+    auto removeLogicalVolume(CoreStorageLogical*);
+    auto removeLogicalVolumeFamily(CoreStorageFamily*, CoreStorageLogical*);
+    auto synchronizeInternal(unsigned int);
     ~CoreStorageGroup();
 };

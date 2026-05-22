@@ -16,14 +16,14 @@
 
 - (unsigned long long);
 - (id);
-- (void)k;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (long long);
-- (_Bool)ate formatter for date preference change notification;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

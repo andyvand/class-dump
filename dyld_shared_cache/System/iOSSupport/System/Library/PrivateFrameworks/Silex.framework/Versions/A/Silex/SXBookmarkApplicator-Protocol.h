@@ -5,6 +5,6 @@
 //
 
 @protocol SXBookmarkApplicator
-- (void);
+- (void)g_threshold_override_enabled;
 @end
 

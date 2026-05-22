@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFont, UITableViewIndex, UIView;
+@class UIFont, UITableViewIndex;
 
 @protocol UITableViewIndexVisualStyle
-- (void)is NULL;
-- (UIFont *) ;
-- (void)ModeDidChangeNotification;
-
-@optional
-+ (UIView *)D:(UITableViewIndex *)arg1 maxMessagesToReport:totalMessageCount:notifyInternalSecurity:isJunkReportedToCarrier:reportReason: /* Error: Ran out of types for this method. */;
-- (double);
+- (double)g1Â0@ù
+× ;
+- (UIFont *)¨ª;
+- (void)__percentFullHeight;
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *font;

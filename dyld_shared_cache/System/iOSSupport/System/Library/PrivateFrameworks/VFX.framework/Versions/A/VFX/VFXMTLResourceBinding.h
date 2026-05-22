@@ -31,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLArgumentEncoder> argumentEncoder; // @synthesize argumentEncoder=_argumentEncoder;

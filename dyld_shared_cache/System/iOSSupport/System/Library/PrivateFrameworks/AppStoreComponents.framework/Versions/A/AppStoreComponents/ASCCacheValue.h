@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     id <NSObject> _value;
 }
 
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <NSObject> value; // @synthesize value=_value;

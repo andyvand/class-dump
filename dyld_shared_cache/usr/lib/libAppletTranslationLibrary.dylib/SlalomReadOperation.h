@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (unsigned short);
 - (unsigned short);
-- (void)L;
+- (void);
 - (void);
 - (id);
 

@@ -37,24 +37,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)6;
-- (void)mulateDowngradeRequestFromID:(id)arg1 fromService:toService:expirationDate: /* Error: Ran out of types for this method. */;
-- (id)vateAccount:(id)arg1;
+- (void);
+- (void);
+- (id);
 - (void);
 - (long long);
-- (id)etedDeferredSetup;
-- (void)public.prior;
 - (id);
-- (void);
-- (void)áu°!HEùqÊÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)setFrameOfPresentedViewInContainerView:(id)arg1;
-- (void)inCoordinateSpace:(id)arg1 includeMenuControllerItems: /* Error: Ran out of types for this method. */;
-- (void)initWithRequestedInterfaceOrientationMask:(id)arg1 callbackQueue:(id)arg2 completion: /* Error: Ran out of types for this method. */;
-- (id),W,N,V_tracker;
-- (id)soon be required.;
+- (void);
+- (void)e:(id)arg1;
+- (void)ecessary;
+- (void)ginOnKey;
+- (id)esBarsOnTap;
+- (void);
+- (id)ø;
+- (void);
+- (void)hétÿ;
+- (id)PÉd;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *availableItems; // @synthesize availableItems=_availableItems;

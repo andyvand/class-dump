@@ -85,15 +85,15 @@
 - (double);
 - (void);
 - (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
 - (_Bool);
-- (void)tics;
-- (void)le snapshotter was idle (expected);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PUIStylePickerHomeScreenTintSourceControl *customTintSourceControl; // @synthesize customTintSourceControl=_customTintSourceControl;

@@ -13,13 +13,13 @@
     struct CGRect _startFrame;
 }
 
-- (id)Storage:textView:forceUpdateAttributes: /* Error: Ran out of types for this method. */;
-- (void)StateDidDeauthenticate:(id)arg1;
-- (void)edStringForTimeIndex:(id)arg1;
-- (struct CGRect);
-- (void);
 - (id);
 - (void);
+- (void);
+- (struct CGRect);
+- (void);
+- (void)Ìh;
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGRect startFrame; // @synthesize startFrame=_startFrame;

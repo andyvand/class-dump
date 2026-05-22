@@ -14,9 +14,9 @@
 }
 
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) AVBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;

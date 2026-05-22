@@ -37,20 +37,20 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
-- (struct CGSize);
-- (id);
-- (unsigned long long)tomContextMenuInteractionDelegate;
+- (unsigned long long);
 - (unsigned short);
-- (double)tLocalAvailabilityHelper:Action was cancelled /* Error: Ran out of types for this method. */;
-- (unsigned long long)7;
+- (long long);
+- (id);
+- (_Bool);
+- (struct CGSize);
+- (unsigned long long);
+- (_Bool);
+- (id)t"{?="t"{CGAffineTransform="a"d"b"d"c"d"d"d"tx"d"ty"d}}};
+- (_Bool)ymbolicTraits:options: /* Error: Ran out of types for this method. */;
+- (id)0q;
+- (void)EÉÌÞ=ÿ;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

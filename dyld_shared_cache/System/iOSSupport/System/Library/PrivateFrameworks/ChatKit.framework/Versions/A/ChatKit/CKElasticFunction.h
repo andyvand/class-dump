@@ -14,18 +14,17 @@
     double _tension;
 }
 
-+ (id)a
-;
++ (id);
 - (void);
 - (void);
 - (double);
-- (double)Q;
+- (double);
+- (double);
+- (id);
+- (double);
+- (double);
 - (void);
-- (id);
-- (void)rmats:(double)arg1;
-- (double)eDestOut;
-- (double)ndler;
-- (double)>/;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double friction; // @synthesize friction=_friction;

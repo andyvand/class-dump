@@ -11,8 +11,8 @@
 + (void);
 + (_Bool);
 + (id);
-- (void);
 - (id);
+- (void)dViewController;
 
 @end
 

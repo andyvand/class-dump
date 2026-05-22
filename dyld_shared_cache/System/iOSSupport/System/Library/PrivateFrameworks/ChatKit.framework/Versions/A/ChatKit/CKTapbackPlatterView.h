@@ -43,12 +43,12 @@
 }
 
 - (struct CGRect);
-- (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)°ð;
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *backgroundColor;

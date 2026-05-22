@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     double _blurScale;
 }
 
-- (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void)n:(id)arg1 invalidationBlock:(id)arg2;
-- (void)Èÿl;
+- (_Bool)PrimaryRecipientIdentifiers:(id)arg1;
+- (void)mTextOperations:(id)arg1;
+- (id)plySnapshot;
+- (void)oShape>",R,D,N;
+- (void)_UIMaterialDefinitionView;
 
 @end
 

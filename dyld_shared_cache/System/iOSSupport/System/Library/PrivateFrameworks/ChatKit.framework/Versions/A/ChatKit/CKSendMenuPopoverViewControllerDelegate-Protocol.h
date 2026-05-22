@@ -5,6 +5,5 @@
 //
 
 @protocol CKSendMenuPopoverViewControllerDelegate
-- (void);
 @end
 

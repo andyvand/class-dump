@@ -62,7 +62,7 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)nputValue.integerValue == HULanguageOnboardingValue_SetupLanguage_AssistantDevice_Cancelled) || (userInputValue.integerValue == HULanguageOnboardingValue_SetupLanguage_AssistantDevice_Customize);
 
 // Remaining properties
 @property(nonatomic) double avatarDiameter; // @synthesize avatarDiameter=_avatarDiameter;

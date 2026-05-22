@@ -17,8 +17,8 @@
 
 - (void);
 - (void);
-- (void)@;
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
@@ -29,10 +29,10 @@
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) struct CGRect inputAccessoryViewFrame; // @synthesize inputAccessoryViewFrame=_inputAccessoryViewFrame;

@@ -15,11 +15,11 @@
     MISSING_TYPE *allowEnhanceDialogue;
 }
 
-- (void)¦c;
 - (void);
-- (id)update the local account's storefront when inactive accounts change.;
 - (void);
 - (id);
+- (id);
+- (void)k type:%ld /* Error: Ran out of types for this method. */;
 
 @end
 

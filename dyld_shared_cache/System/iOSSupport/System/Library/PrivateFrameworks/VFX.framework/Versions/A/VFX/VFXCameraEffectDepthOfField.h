@@ -18,7 +18,7 @@
 }
 
 + (id);
-+ (_Bool)¹Ô×­;
++ (_Bool)g"16;
 - (_Bool);
 - (void);
 - (void);
@@ -33,13 +33,13 @@
 - (float);
 - (void);
 - (float);
-- (void);
-- (void);
 - (long long);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void)'s client attributes. %@ %@;
 - (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) float fStop;

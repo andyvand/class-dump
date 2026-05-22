@@ -4,6 +4,7 @@
 
 class marisa::scoped_ptr<marisa::grimoire::trie::LoudsTrie> {
 public: // (access info unavailable from symbols alone)
-    reset(marisa::grimoire::trie::LoudsTrie*);
+    auto reset(marisa::grimoire::trie::LoudsTrie*);
+    auto reset(marisa::grimoire::trie::LoudsTrie*) (.cold.1);
     ~scoped_ptr();
 };

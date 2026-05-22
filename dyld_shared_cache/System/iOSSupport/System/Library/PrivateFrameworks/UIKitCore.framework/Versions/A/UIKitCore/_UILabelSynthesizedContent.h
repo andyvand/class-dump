@@ -29,21 +29,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)60;
-- (void)tionaryWithFetchOptions:(id)arg1 andZoneID: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
+- (unsigned long long);
 - (id);
-- (_Bool);
-- (id)Properties:(struct _NSZone *)arg1 authorProfile: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)oPresentingView;
-- (long long)ck setting was changed;
+- (_Bool)tedConfigurationForButton:(id)arg1;
+- (long long)esture:touchBeganAtDigitizerLocation: /* Error: Ran out of types for this method. */;
+- (id)V_hidEvent;
 - (id)@;
-- (unsigned long long)ãÂÀ»
-)?©qÀ;ÆGeõ?;
-- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _UILabelContent *content; // @synthesize content=_content;

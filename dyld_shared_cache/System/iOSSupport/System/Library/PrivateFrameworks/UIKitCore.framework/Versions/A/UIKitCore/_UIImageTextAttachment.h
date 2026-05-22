@@ -14,14 +14,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (struct CGRect)@ù
+- (struct CGRect);
+- (struct CGRect);
+- (id)1Â0@ù
 × ;
-- (id)earance;
-- (id)UIImageSymbolConfiguration:(struct CGRect)arg1;
-- (id)ctionHighlightView;
-- (struct CGRect)yOfRemoteView;
-- (void)ceIndexPathsAsNeeded:(struct CGRect)arg1;
-- (id)ilInteractionDelegate>",W,N,V_delegate;
+- (id)1Â0@ù
+× ;
+- (id)uchPoints"^{_UIWebTouchPoint}"touchPointCount"I"isPotentialTap"B};
+- (id):(id)arg1 container: /* Error: Ran out of types for this method. */;
+- (void)setRawLeadingBorderWidth:(struct CGRect)arg1;
 
 @end
 

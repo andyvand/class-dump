@@ -38,11 +38,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)h;
-- (id);
-- (id);
-- (id);
+- (id)nItemLoadingTask;
+- (id)gurationPreset"8Q16^B24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

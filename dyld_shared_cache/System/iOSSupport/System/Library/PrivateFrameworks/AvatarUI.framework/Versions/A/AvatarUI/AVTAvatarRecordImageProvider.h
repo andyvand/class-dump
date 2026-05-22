@@ -12,12 +12,12 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)pple.corespotlight.daemon.messages;
 
 // Remaining properties
 @property(readonly, nonatomic) _AVTAvatarRecordImageProvider *backingProvider; // @synthesize backingProvider=_backingProvider;

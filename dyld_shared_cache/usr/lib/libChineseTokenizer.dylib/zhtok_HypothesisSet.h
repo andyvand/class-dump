@@ -4,9 +4,9 @@
 
 class zhtok::HypothesisSet {
 public: // (access info unavailable from symbols alone)
-    bestBacktraceCost() const;
-    clear();
-    connectPreviousHypotheses(zhtok::Word const*, zhtok::HypothesisSet const*, zhtok::Word const*, zhtok::ConnectionContext const*);
-    costOfNewHypothesis(zhtok::Hypothesis const*, zhtok::Word const*, zhtok::ConnectionContext const*);
-    initializeBeginSentinelHypothesis(zhtok::Hypothesis* () block_pointer);
+    auto bestBacktraceCost() const;
+    auto clear();
+    auto connectPreviousHypotheses(zhtok::Word const*, zhtok::HypothesisSet const*, zhtok::Word const*, zhtok::ConnectionContext const*);
+    auto costOfNewHypothesis(zhtok::Hypothesis const*, zhtok::Word const*, zhtok::ConnectionContext const*);
+    auto initializeBeginSentinelHypothesis(zhtok::Hypothesis* () block_pointer);
 };

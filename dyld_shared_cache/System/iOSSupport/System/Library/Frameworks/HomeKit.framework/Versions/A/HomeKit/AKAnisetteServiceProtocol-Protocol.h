@@ -5,8 +5,5 @@
 //
 
 @protocol AKAnisetteServiceProtocol
-
-@optional
-- (void);
 @end
 

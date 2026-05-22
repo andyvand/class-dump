@@ -18,11 +18,10 @@
     PRUISPosterChannelModelCoordinator *_modelCoordinator;
 }
 
-+ (id)øÿäÜWþ;
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -34,8 +33,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

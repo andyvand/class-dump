@@ -14,13 +14,13 @@
 
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
 - (unsigned long long);
+- (void);
+- (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain) NSData *data; // @synthesize data=_data;

@@ -14,12 +14,13 @@
     MISSING_TYPE *_showingLeaveConversationConfirmation;
     MISSING_TYPE *_showingBlockSenderConfirmation;
     MISSING_TYPE *conversation;
+    MISSING_TYPE *keysForBlockList;
     MISSING_TYPE *_$observationRegistrar;
 }
 
 - (id);
-- (void);
 - (id);
+- (void);
 
 @end
 

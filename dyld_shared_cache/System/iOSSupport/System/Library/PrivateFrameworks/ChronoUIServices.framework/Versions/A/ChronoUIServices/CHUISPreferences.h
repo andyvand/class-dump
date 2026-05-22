@@ -19,7 +19,7 @@
     NSString *_widgetRenderer;
 }
 
-+ (id)Render scheme changed to:%{public}@ /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -27,9 +27,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 
 // Remaining properties

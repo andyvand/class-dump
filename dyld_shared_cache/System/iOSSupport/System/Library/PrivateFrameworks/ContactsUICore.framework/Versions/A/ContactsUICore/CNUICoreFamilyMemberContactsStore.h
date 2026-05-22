@@ -29,9 +29,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)yACyü/ö/y°¹þÿGGGGG_ACyACyACyÔû/y^ü1yACyACyú1yACyY÷1yACyACyACyè1AKGAMGí/G_Qo_AHyºç/GG_Qo_?õ/yASGGAHyASSgGG_Qo__SbQo_÷/ySbGGAEGuõ/GtGG¼õ/yAUGGtGG;
+- (id);
+- (void)ger;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNScheduler> backgroundOrImmediateScheduler;

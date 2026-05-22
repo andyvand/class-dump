@@ -13,12 +13,12 @@
     void cloudKitMetadata;
 }
 
-- (id)Ì;
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)(Action Name);
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *cloudKitMetadata;

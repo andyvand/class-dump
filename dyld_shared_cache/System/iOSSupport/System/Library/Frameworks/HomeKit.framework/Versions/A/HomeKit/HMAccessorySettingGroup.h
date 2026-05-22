@@ -17,7 +17,7 @@
     HMAccessorySettingGroup *_group;
 }
 
-+ (id)ion;
++ (id)r:] /* Error: Ran out of types for this method. */;
 
 @end
 

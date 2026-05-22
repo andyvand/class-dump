@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
     struct CGColor *_color;
 }
 
-- (unsigned long long)W4;
-- (_Bool);
-- (id);
-- (void)ItemToken",R,N;
-- (id);
-- (_Bool);
+- (void);
+- (unsigned long long);
+- (_Bool)ToStopAccessingSecurityScopedResource"b1"replacedDefaultUserActivity"b1};
+- (_Bool)ck:(id)arg1;
+- (id)backing_isHidden;
+- (id), textFieldContainer;
 
 @end
 

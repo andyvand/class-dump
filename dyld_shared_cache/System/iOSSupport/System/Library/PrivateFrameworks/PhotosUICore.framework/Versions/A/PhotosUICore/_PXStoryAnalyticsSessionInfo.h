@@ -14,17 +14,17 @@
     id <CPAnalyticsEventProtocol> _endEvent;
 }
 
-- (void);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id);
 - (void);
-- (void);
-- (id)\ÚþÿzLüÿvLüÿÀõûÿ;
+- (void);
+- (id);
+- (id);
+- (void)animating from: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long appSuspensionCount; // @synthesize appSuspensionCount=_appSuspensionCount;

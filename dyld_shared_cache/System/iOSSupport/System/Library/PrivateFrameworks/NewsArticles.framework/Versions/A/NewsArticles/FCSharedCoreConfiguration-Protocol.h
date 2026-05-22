@@ -7,11 +7,14 @@
 @class FCPersonalizationPublisherDampeningConfig, FCTopStoriesConfiguration, NSArray, NSString;
 
 @protocol FCSharedCoreConfiguration
-- (long long)ngDockedView;
+- (long long)`þÿLÒ;
+- (FCTopStoriesConfiguration *);
 
 @optional
-- (NSString *)@;
-- (double);
+- (double)$Ëÿÿÿÿÿ;
+- (_Bool) ÿÿÿ;
+- (long long)ô4Çÿa}ÈøÉÿ;
+- (NSString *)Ã;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool articleEmbeddingsEnabled;

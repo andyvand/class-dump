@@ -4,6 +4,6 @@
 
 class dyld3::OverflowSafeArray<char, 4294967295ull> {
 public: // (access info unavailable from symbols alone)
-    resize(unsigned long long);
-    resize(unsigned long long) (.cold.1);
+    auto resize(unsigned long long);
+    auto resize(unsigned long long) (.cold.1);
 };

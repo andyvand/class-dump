@@ -5,6 +5,5 @@
 //
 
 @protocol SXDocumentSectionItemProvider
-- (double)@;
 @end
 

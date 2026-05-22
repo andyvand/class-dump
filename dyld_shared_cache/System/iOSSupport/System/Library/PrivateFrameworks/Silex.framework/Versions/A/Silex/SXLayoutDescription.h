@@ -12,8 +12,9 @@
 }
 
 - (id);
-- (void);
-- (id)seekToStartWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)1Â0@ù
+× ;
+- (id)legate;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;

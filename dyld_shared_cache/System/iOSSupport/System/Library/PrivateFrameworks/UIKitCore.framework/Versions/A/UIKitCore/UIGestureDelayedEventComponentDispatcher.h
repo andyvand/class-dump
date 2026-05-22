@@ -15,26 +15,25 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_delayedPressesToSend;
 }
 
-- (void)tion;
 - (void);
 - (void);
-- (void)L ;
-- (void);
-- (void)p;
-- (_Bool)ed for PID %d;
-- (_Bool)%s;
-- (void)om legacy service session, please file a radar-------*/;
-- (void)oadTranslationAssetsForLanguageCodes from legacy service session, please file a radar-------*/;
-- (id)being removed.;
-- (id)dating isFiltered to NO, chat ID is a business chat:(id)arg1 %@;
-- (void)nd sibling chat with different participants than its iMessage sibling. Chat:(id)arg1 %@. Updating participants using %@;
-- (void)group ID %@ new display name %@, new group ID %@;
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)
-× ;
-- (id)or;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)ndexPath: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasDelayedPressesToSend;

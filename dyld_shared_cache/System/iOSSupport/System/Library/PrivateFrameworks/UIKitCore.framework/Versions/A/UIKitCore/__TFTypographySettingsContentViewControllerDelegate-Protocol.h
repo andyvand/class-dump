@@ -5,6 +5,5 @@
 //
 
 @protocol __TFTypographySettingsContentViewControllerDelegate
-- (void);
 @end
 

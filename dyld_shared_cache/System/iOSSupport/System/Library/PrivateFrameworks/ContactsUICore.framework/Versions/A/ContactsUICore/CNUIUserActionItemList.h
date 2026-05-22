@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)êÿ;
+- (id);
+- (void)lor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *icon; // @synthesize icon=_icon;

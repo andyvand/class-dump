@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
     BSSimpleAssertion *__activeSystemInputInteraction;
 }
 
-- (id)separate amfdr object for verifying minimal sealing manifests;
-- (void);
 - (id);
 - (void);
-- (id)Version;
+- (id);
 - (void);
-- (void);
-- (id)UUC@«ªªªªªJ@UUUUUUG@;
-- (id)UITransitionComponentEvent;
+- (id);
+- (id);
+- (void)É?333333ã?;
+- (id)wþ	643;
+- (void)943|f;
 
 // Remaining properties
 @property(nonatomic) __weak BSSimpleAssertion *_activeSystemInputInteraction; // @synthesize _activeSystemInputInteraction=__activeSystemInputInteraction;

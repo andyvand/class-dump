@@ -7,9 +7,10 @@
 @class NSArray, NSString;
 
 @protocol _UINavigationBarNSToolbarItemGroupProviding
-- (NSString *)enuation: /* Error: Ran out of types for this method. */;
-- (void);
-- (NSArray *)brancyEffect;
+- (void)ckActionViewSelected;
+- (NSString *)@i;
+- (void)PreviewAtLocation;
+- (NSArray *)eSchedulerMinScheduledDurationSeconds;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setSectionForGeneratingToolbarIdentifiers:) NSString *_sectionForGeneratingToolbarIdentifiers;

@@ -37,39 +37,34 @@
 }
 
 + (void);
-- (void)acket:(id)arg1 toID:account: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 andZoneID: /* Error: Ran out of types for this method. */;
-- (void)onsDictionaryWithFetchOptions:(id)arg1 andZoneID: /* Error: Ran out of types for this method. */;
-- (void)N,V_stateCaptureAssistant;
-- (void)ckgroundCommandTypeWrapper;
-- (void)Parameter;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (long long)H;
+- (long long);
 - (id);
-- (double)t a missing service in routing dictionary for GUID (%@):%@ /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)pt %@;
-- (_Bool)toring transfer;
+- (double);
+- (struct UIEdgeInsets);
 - (_Bool);
-- (void)state changed to None;
-- (void)dating iMessage to nil last addressed handle;
-- (id)dy exists;
-- (_Bool)mer fired to clear code with GUID:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)em:%@ /* Error: Ran out of types for this method. */;
-- (id)%lu;
-- (id)mber of accounts:%lu /* Error: Ran out of types for this method. */;
-- (id)nished setting Up Relay Service (Service:(unsigned long long)arg1 %@), number of accounts:%lu /* Error: Ran out of types for this method. */;
-- (void)allManagement;
-- (void)t="0%" height="30%" width="100%" fit="scroll"/>
-<region id="Image" top="0%" left="0%" height="70%" width="100%" fit="meet"/>
-</layout>
-</head>
-<body>
-;
-- (void)bleDeleteDate;
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -77,32 +72,30 @@
 - (struct CGSize);
 - (double);
 - (void);
-- (id)#;
 - (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (struct CGSize);
-- (_Bool);
-- (id);
+- (struct CGSize);
+- (void)16@24@32{UIEdgeInsets=dddd}40q72d80;
+- (void)oll;
+- (void)longEdge:(struct CGSize)arg1;
+- (void)af:(struct CGRect)arg1;
+- (void)ed;
+- (void)segueResponsibleForModalPresentation;
+- (id)dinatorDelegate>",W,N,V_delegate;
+- (void)y;
 - (void);
-- (void)0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)vementInfo:(double)arg1;
-- (void)BackgroundImage:forStates: /* Error: Ran out of types for this method. */;
-- (struct CGSize)boldKeyOffset;
-- (id)oteNotification: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)8N;
-- (void)À;
-- (void)outThrowExceptionOnUnsatisfiableConstraints;
-- (id)eCurl.m;
-- (void)xah;
-- (void)zÏi;
-- (unsigned long long)L¿ÿ;
-- (_Bool)Àém;
+- (id)onSmallLoupeVariantSpec;
+- (void);
+- (_Bool)evContext:(struct CGPoint)arg1 %@, newContext:(id)arg2 %@,  prevDefaultContext:%@, newDefaultContext:%@ /* Error: Ran out of types for this method. */;
+- (void)úîÿ¾ûîÿ;
+- (void)Ö_;
+- (void);
+- (void)üÂµÿ;
+- (_Bool)@^þ²vÉ`bk;
+- (unsigned long long)q;
+- (void)ì¥n;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *_mergedImage; // @synthesize _mergedImage;

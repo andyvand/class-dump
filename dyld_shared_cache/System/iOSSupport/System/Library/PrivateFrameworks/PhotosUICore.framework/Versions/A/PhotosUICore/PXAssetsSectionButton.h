@@ -21,13 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)1â
+0@ù
+× ;
+- (void)úSÌn3;
 
 // Remaining properties
 @property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect;

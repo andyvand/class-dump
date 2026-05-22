@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
+@class NSIndexPath, UICollectionView;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)PARTask"8@"PARResponse"16@"NSError"24;
-- (NSIndexPath *)ÿÿ;
+- (_Bool)Zooming:(UICollectionView *)arg1 withView:(NSIndexPath *)arg2;
 @end
 

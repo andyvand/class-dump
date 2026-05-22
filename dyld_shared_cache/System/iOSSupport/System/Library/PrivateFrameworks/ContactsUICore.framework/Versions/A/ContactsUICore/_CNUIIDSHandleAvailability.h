@@ -14,10 +14,11 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
-- (_Bool)pl;
+- (_Bool)
+× ;
+- (void)nicationServiceType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAvailable) _Bool available; // @synthesize available=_available;

@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)omponent"8;
 
 // Remaining properties
 @property(readonly) __weak TRSession *session;

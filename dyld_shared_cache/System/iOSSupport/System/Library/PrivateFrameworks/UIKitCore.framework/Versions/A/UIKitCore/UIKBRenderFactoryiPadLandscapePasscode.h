@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)riginalGroupID: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
 - (id);
-- (id)leted processing %ld nickname entries;
-- (id)d! :-) /* Error: Ran out of types for this method. */;
-- (id)ave the message but no transfer guids - %@;
-- (id)This is your first time trying, You only get 1 chance;
-- (id)d %@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

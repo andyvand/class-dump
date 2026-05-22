@@ -11,8 +11,8 @@
 }
 
 - (void);
-- (void)Ì;
-- (void)µÌ;
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);

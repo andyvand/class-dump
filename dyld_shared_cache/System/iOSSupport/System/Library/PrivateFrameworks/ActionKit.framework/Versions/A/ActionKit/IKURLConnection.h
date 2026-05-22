@@ -23,12 +23,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (int);
-- (id)÷ÔtSg;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

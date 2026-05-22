@@ -14,11 +14,10 @@
 }
 
 - (id);
-- (void)nceNow:(id)arg1;
 - (void);
 - (void);
-- (id)~¹
-;
+- (id);
+- (void)",W,N,V_mItemCountLabel;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *personID; // @synthesize personID=_personID;

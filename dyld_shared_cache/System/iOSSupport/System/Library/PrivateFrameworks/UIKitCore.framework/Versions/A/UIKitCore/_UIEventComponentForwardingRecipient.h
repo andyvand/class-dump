@@ -21,12 +21,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (long long)48@?56;
+- (long long);
 - (void);
-- (id)GPoint=dd},N,V_beginPanCentroid;
-- (id)Ô
-;
-- (void)\;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long autocompletedPhase; // @synthesize autocompletedPhase;

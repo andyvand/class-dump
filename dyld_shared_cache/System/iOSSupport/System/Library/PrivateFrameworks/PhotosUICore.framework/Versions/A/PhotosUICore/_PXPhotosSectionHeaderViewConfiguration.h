@@ -42,23 +42,22 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (struct UIEdgeInsets);
 - (id);
-- (id);
-- (void);
-- (void)«èÒ;
+- (long long);
 - (id);
 - (void);
-- (id)GSpriteReference",R,D,N;
-- (struct UIEdgeInsets)	
-;
-- (void)$oÔop,q¼qØr;
-- (id)equest;
-- (long long)= %d;
-- (void)nvalidateContentSize];
-- (unsigned long long)tatusBarHidden;
-- (void);
-- (void)opleShelfCell;
+- (void);
+- (id);
+- (void)e:(id)arg1 subtype:forBuiltInAlbumName: /* Error: Ran out of types for this method. */;
+- (void)eLabel;
+- (void)iewDelegate;
+- (id);
+- (id)ô_þÿ;
+- (void)ind best clip composition;
+- (void)from %s with error %@;
+- (void)hreshold;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) long long actionType; // @synthesize actionType=_actionType;

@@ -18,14 +18,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (void);
-- (id);
-- (double);
-- (void)ctionQueueGroupingID;
-- (void);
-- (void)leSystemVibrantBackgroundUltraThin;
 - (struct CGSize);
+- (id);
+- (void)ultCountUpdate;
+- (id)¸Z;
+- (void)nternalUserInfo:(id)arg1 %@;
+- (double)copeTitles=%lu scopeBar=%p;
+- (void)_;
 
 // Remaining properties
 @property(readonly, nonatomic) double baselineOffset;

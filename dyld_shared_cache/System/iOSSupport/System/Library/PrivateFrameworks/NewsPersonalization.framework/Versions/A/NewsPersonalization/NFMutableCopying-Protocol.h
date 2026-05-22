@@ -5,6 +5,5 @@
 //
 
 @protocol NFMutableCopying
-- (id)g;
 @end
 

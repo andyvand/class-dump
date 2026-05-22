@@ -17,7 +17,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)iew"40@0:8@"UIDragInteraction"16@"UIDragItem"24@"<UIDragSession>"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long componentTraits;

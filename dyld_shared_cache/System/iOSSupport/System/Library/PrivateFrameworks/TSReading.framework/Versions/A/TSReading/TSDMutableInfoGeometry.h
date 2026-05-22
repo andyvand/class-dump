@@ -15,11 +15,11 @@
 - (void);
 - (void);
 - (void);
-- (void)#;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)r"24;
 
 @end
 

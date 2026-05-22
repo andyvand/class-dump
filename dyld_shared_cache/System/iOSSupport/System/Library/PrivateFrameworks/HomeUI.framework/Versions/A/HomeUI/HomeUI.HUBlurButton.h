@@ -15,9 +15,8 @@
 }
 
 - (id);
-- (void);
-- (id)&ð!Cù01b0@ù
-× ;
+- (id);
+- (void)SelectionUnsupportedHomePodMessage_trigger;
 
 @end
 

@@ -27,8 +27,8 @@
 }
 
 - (void);
-- (id)interactionPossibleWithAttachment: /* Error: Ran out of types for this method. */;
-- (void)2$Ö1;c;
+- (id);
+- (void)¯,Ó,ý^;
 
 @end
 

@@ -22,12 +22,12 @@
 - (int);
 - (void);
 - (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (unsigned int);
-- (void);
 - (id);
+- (unsigned int);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *infos; // @synthesize infos=mInfos;

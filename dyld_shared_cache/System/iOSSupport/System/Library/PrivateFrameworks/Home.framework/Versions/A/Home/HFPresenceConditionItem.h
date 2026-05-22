@@ -16,11 +16,11 @@
 
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)¢øB;
+- (id);
+- (void);
+- (void)Ù;
 
 // Remaining properties
 @property(retain, nonatomic) HFPresenceCondition *condition; // @synthesize condition=_condition;

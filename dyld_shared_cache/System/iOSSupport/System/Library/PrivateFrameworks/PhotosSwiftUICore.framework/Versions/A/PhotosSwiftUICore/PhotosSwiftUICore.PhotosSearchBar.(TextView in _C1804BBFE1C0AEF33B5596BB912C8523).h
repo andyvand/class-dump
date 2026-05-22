@@ -15,9 +15,9 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
 - (void);
-- (_Bool)CGGACG;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canResignFirstResponder;

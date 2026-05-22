@@ -11,16 +11,19 @@
     MISSING_TYPE *titleKey;
     _Bool primary;
     long long actionID;
+    _Bool isLinkStyle;
 }
 
+- (_Bool);
 - (long long);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) long long actionID; // @synthesize actionID;
+@property(nonatomic, readonly) _Bool isLinkStyle; // @synthesize isLinkStyle;
 @property(nonatomic, readonly) _Bool primary; // @synthesize primary;
 @property(nonatomic, readonly) NSString *title;
 

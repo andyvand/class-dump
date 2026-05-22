@@ -5,7 +5,7 @@
 //
 
 @class NSArray, NSError, NSHashTable, NSNumber, NSObject, NSPredicate, WFDatabase, WFDatabaseResultState;
-@protocol OS_dispatch_queue;
+@protocol OS_dispatch_queue, WFDatabaseResultLoader;
 
 @interface WFDatabaseResult
 {
@@ -18,44 +18,45 @@
     NSObject<OS_dispatch_queue> *_queue;
     NSHashTable *_observersTable;
     NSNumber *_cachedCount;
+    id <WFDatabaseResultLoader> _loader;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (id)¸ÏÌ;
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)setContext:(id)arg1;
-- (id)
-;
-- (id)esult action request:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)ndler]_block_invoke;
 - (void);
-- (id)?@"LNDynamicOptionsResult"@"NSError">32;
-- (void)Notes;
+- (id);
+- (id)QÐ1â
+0@ù
+× ;
+- (unsigned long long)orContentAttributionSet:contentDestination:actionUUID:actionIdentifier:actionIndex:reference:allowedOnceStates: /* Error: Ran out of types for this method. */;
+- (id)tsParameterDefinition;
+- (void)aultIfNecessary;
+- (void)action as a dictionary.;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *cachedCount; // @synthesize cachedCount=_cachedCount;
 @property(readonly, nonatomic) unsigned long long count;
-@property(retain, nonatomic) WFDatabase *database; // @synthesize database=_database;
+@property(readonly, nonatomic) WFDatabase *database; // @synthesize database=_database;
 @property(retain, nonatomic) NSArray *descriptors; // @synthesize descriptors=_descriptors;
 @property(retain, nonatomic) NSError *fetchError; // @synthesize fetchError=_fetchError;
+@property(readonly, nonatomic) id <WFDatabaseResultLoader> loader; // @synthesize loader=_loader;
 @property(readonly, nonatomic) NSArray *observers;
 @property(readonly, nonatomic) NSHashTable *observersTable; // @synthesize observersTable=_observersTable;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFPromise, NSArray, NSString;
+@class NSArray, NSString;
 
 @protocol FCNewsletterManager
-- (_Bool)%@ hours %@ min;
+- (_Bool)edFetchResult;
+- (void)zR;
+- (_Bool)ÿäÚ÷ÿ;
+- (long long)G;
+- (_Bool)ôÿÿÿrîÿÔþì7;
 - (_Bool);
-- (_Bool);
-- (long long)7;
-- (void)`R;
-- (NFPromise *));
-- (void)Next;
-- (_Bool)B,N,V_skipEncodingMediaLibraryUniqueID;
-- (long long)P;
-- (long long)eViewLeadingMargin;
-- (_Bool)0·ùÿpIõÿ<·ùÿ¶föÿTöõÿ2õÿ;
-- (NSArray *)wProviderTypeP;
-- (void)ryViewProvider.swift;
+- (void)s;
+- (void){Z½¡þ{Zô¥þ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long activeNewsletter;

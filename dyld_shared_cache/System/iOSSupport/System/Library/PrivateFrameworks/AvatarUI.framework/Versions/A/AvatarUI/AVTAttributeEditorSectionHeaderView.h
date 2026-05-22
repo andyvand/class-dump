@@ -22,18 +22,19 @@
 - (void);
 - (void);
 - (id);
-- (void)PrivateFrameworks/HomeKitFeatures.framework/Versions/A/HomeKitFeatures;
-- (void)h;
 - (void);
 - (id);
-- (_Bool)mageinfo__DATA_CONST;
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
 - (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)!ÔBùqI1Â0@ù
+× ;
 - (void);
 
 // Remaining properties

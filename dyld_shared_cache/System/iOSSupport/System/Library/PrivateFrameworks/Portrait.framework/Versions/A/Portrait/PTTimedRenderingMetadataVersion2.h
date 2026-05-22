@@ -46,10 +46,10 @@
 - (unsigned int);
 - (void);
 - (void);
+- (void);
+- (unsigned int);
 - (float);
 - (unsigned int);
-- (unsigned int);
-- (void);
 - (unsigned int);
 
 // Remaining properties

@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITableViewCell;
-
 @protocol UITableViewDataSource
-- (long long)onsWithRequest_serving;
-- (UITableViewCell *)t;
-
-@optional
-- (NSString *);
-- (long long)criptNavigationBarTitleViewDelegate;
-- (_Bool)TapbackIntentType;
 @end
 

@@ -10,7 +10,10 @@
 {
     MISSING_TYPE *analyticsDataProvider;
     MISSING_TYPE *sessionManager;
+    MISSING_TYPE *tracker;
     MISSING_TYPE *channelDataFactory;
+    MISSING_TYPE *articleDataFactory;
+    MISSING_TYPE *exposureStartTime;
 }
 
 @end

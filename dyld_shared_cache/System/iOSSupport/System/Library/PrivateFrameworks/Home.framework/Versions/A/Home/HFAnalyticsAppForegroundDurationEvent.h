@@ -19,11 +19,11 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)SArray"16@?0@"HFItemSection"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *foregroundDuration; // @synthesize foregroundDuration=_foregroundDuration;

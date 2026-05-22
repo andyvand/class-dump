@@ -12,21 +12,21 @@
     NSString *_localizedCategoryName;
 }
 
-+ (id)tionContext";
-+ (id)rtisementContext";
-+ (id)";
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 - (void);
 - (id);
-- (id)"NSArray";
-- (_Bool)ocationOptions";
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (void)];
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *localizedCategoryName; // @synthesize localizedCategoryName=_localizedCategoryName;

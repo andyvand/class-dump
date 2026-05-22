@@ -25,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)ageContext";
-- (void)sMetadataWithQueryID:(_Bool)arg1;
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -34,9 +34,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)à-ò;
-- (id)q@@@BqqddB@qd{NSDirectionalEdgeInsets=dddd}}32@0:(struct CGPoint)arg1 8@"<_UICellConfigurationStateReadonly>"16@"UITraitCollection"24;
-- (void)al;
+- (void);
+- (id)!H@ùÑc°1Â0@ù
+× ;
+- (void)>.;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *behindView; // @synthesize behindView=_behindView;

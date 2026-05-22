@@ -18,13 +18,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
-- (void)Ô!oð!°BùÁ1¢!0@ù
-× ;
-- (id)ùñÁ1¢!0@ù
-× ;
-- (id)kground.inputShadowDistanceOffset;
+- (void)r;
+- (void)Ô~[;
+- (id)ð];
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *gestureRecognizers;

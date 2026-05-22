@@ -13,14 +13,14 @@
     UIColor *_color;
 }
 
-+ (id);
++ (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id);
-- (id)8@16B24@?28;
-- (id);
+- (void)ì`ü;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *color; // @synthesize color=_color;

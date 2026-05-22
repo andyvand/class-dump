@@ -4,91 +4,77 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, RTIInputSystemSourceSession, TIKeyboardOutput, UIKeyboardTaskQueue, UIResponder, UITextInputTraits;
-@protocol UIAsyncTextInputClient, UIKeyInput, UITextInput, UIWKInteractionViewProtocol;
+@class NSDictionary, UIDictationInputModeOptions, UIKeyboardInputMode, UIKeyboardTaskQueue, UIResponder;
+@protocol UIAsyncTextInputClient, UIWKInteractionViewProtocol;
 
 @protocol UIKBRTIPartnerDelegate
-- (void);
-- (void)payloadOneCardPerUser;
-- (void)be NULL.;
-- (void)emId:%llu rsig:%s itemOffset:%lld itemLength:%lld /* Error: Ran out of types for this method. */;
-- (void)@0:(_Bool)arg1 8@16@24@32@40@48@56@64;
-- (void)1¢!0@ù
+- (void)¡;
+- (_Bool)
 × ;
-- (void)pÐ!ø@ùQÃ°1¢!0@ù
+- (void)Qeð1Â0@ù
 × ;
-- (void)
-× ;
-- (void)QÇ°1¢!0@ù
-× ;
-- (void);
-- (void)0@ù
-× ;
-- (void)!;
-- (void)EventSource:options:responder: /* Error: Ran out of types for this method. */;
-- (void)CharacterSet;
-- (_Bool)ObservationTracking:(TIKeyboardOutput *)arg1;
-- (UIKeyboardTaskQueue *): /* Error: Ran out of types for this method. */;
-- (UITextInputTraits *)clearLastKnownInterfaceOrientation;
-- (void)rForActive:(NSAttributedString *)arg1;
-- (void)action:wordTerminator: /* Error: Ran out of types for this method. */;
-- (void)ostMorphDragItemUpdate;
-- (void)rchyLayout>",&,N,V_layout;
-- (void)iew;
-- (unsigned long long)table item %@;
-- (RTIInputSystemSourceSession *)Hµûÿñzþÿ;
-- (UIResponder<UIKeyInput> *)àBüÿ;
-- (void)lLayout;
-- (UIResponder<UIWKInteractionViewProtocol> *)ionPulseScalePtsX;
-- (_Bool)lay_region;
-- (_Bool)t;
-- (void)oid)_block_invoke;
-- (UIResponder<UIAsyncTextInputClient> *)pplications!;
-- (UIResponder *)nt=dd}8d24d32;
-- (void)berBandExtentBeyondMaximumOffset;
-- (void)ccessibilityHUDAssistant;
-- (void)imations;
-- (void)3ø5²þ;
-- (_Bool)ç;
-- (void)terItemView;
-- (void)©þ C71­¥;
-- (void)Zÿ3pã¨þZÿ3lã¨þ;
-- (void);
-- (void)3;
-- (void)ementChunk;
-- (void)NSDiffableDataSourceSectionSnapshot;
-- (void);
-- (_Bool)4\þÅ~4Üþm~4þm~4Üþ5~4ð0þ~4ð0þ~4è0þ5~4Ü0þ%~4Ì0þE~4À0þÝ}4þÍ}4¬þÕ}4Àþõ}4Ôþ-~4äþ;
-- (void);
-- (void)£p=ê?áz®GáÚ?;ßOn?_UIZoomTransitionSettingsDomain;
-- (_Bool)ýÂ4¼;
+- (void)ection:(UIDictationInputModeOptions *)arg1;
+- (void)ateCenterBarConstraints;
+- (void)nly:returningDeviceMetricsOfFirstLine: /* Error: Ran out of types for this method. */;
+- (void)tion:(UIKeyboardInputMode *)arg1;
+- (void)R,N,V__cggetriWorkspaceSize;
+- (NSDictionary *)LayoutConstraint",R,&,N,V_bottomBarInsetGuideConstraint;
+- (void)¨t0d$t ÔÀ;
+- (void)M;
+- (void)ÿ*þÿ¹îÿ;
+- (void)a translate session;
+- (void)splayContents"8Q16^B24;
+- (void)olorCandidateVerticalLight;
+- (UIKeyboardTaskQueue *)nally reloading the same delegate;
+- (void)MorphableProvider;
+- (UIResponder<UIAsyncTextInputClient> *);
+- (UIResponder<UIWKInteractionViewProtocol> *);
+- (void)q;
+- (void){\;
+- (void)hLevelIncrement;
+- (_Bool)zþ;
+- (void)ç²þ!213ç²þ;
+- (_Bool)ge;
+- (void)34°þ;
+- (void)ion;
+- (_Bool);
+- (void)°ß;
+- (void)oþðjR0;
+- (void)rollerWantsAnimation;
 - (void);
-- (void)ements;
-- (void)ì§;
-- (_Bool)isplayedState;
-- (void)Þ;
-- (void)e4Ìõ;
-- (void);
-- (void)icator;
-- (NSDictionary *)TextEffectStyle;
-- (unsigned int)À;
-- (void)9[;
-- (void);
-- (void)À;
-- (void)5;
-- (void),D[;
+- (_Bool)kgroundMaterial;
+- (void)33ünþ;
+- (_Bool)ider;
+- (UIResponder *)"n;
+- (void)Ì¾R0©»33hö;
+- (void)roperties;
+- (_Bool)3Ôù{þ;
+- (void)ø;
+- (void)§zþ¸§zþ;
+- (void)WaveAnimation;
+- (void);
+- (void)iner;
+- (void)F;
+- (void)ôI;
+- (void)ì;
+- (void);
+- (void)ù;
+- (void)¤êÉ·a;
 - (void)[;
-- (void);
-- (_Bool)úT[;
-- (void)Ò[;
-- (void)j[;
-- (void)À;
-- (void)°±[;
-- (void);
-- (_Bool)ÿØú·[;
-- (void);
-- (UIResponder<UITextInput> *)~û[;
-- (void);
+- (void)®;
+- (void);
+- (void);
+- (void)µ[;
+- (void)L½[;
+- (unsigned long long)tÕ[;
+- (void)Ü\Î[;
+- (void)\;
+- (void)Ê¸\;
+- (void);
+- (void)ØP\;
+- (void);
+- (void)<H\;
+- (void)\;
 
 // Remaining properties
 @property(nonatomic) _Bool canSuggestSupplementalItemsForCurrentSelection;

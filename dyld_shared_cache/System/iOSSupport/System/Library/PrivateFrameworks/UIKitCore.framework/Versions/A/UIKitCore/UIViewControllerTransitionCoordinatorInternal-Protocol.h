@@ -5,8 +5,5 @@
 //
 
 @protocol UIViewControllerTransitionCoordinatorInternal
-
-@optional
-- (void);
 @end
 

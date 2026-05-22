@@ -4,16 +4,16 @@
 
 class mach_o::ChainedFixupPointerOnDisk::Arm64e {
 public: // (access info unavailable from symbols alone)
-    keyName(unsigned char);
-    keyName(unsigned char) (.cold.1);
-    signExtendedAddend() const;
-    signExtendedAddend() const (.cold.1);
-    signExtendedAddend() const (.cold.2);
-    signPointer(unsigned long long, void*, bool, unsigned short, unsigned char);
-    signPointer(unsigned long long, void*, bool, unsigned short, unsigned char) (.cold.1);
-    signPointer(void*, unsigned long long) const;
-    signPointer(void*, unsigned long long) const (.cold.1);
-    unpackTarget() const;
-    unpackTarget() const (.cold.1);
-    unpackTarget() const (.cold.2);
+    auto keyName(unsigned char);
+    auto keyName(unsigned char) (.cold.1);
+    auto signExtendedAddend() const;
+    auto signExtendedAddend() const (.cold.1);
+    auto signExtendedAddend() const (.cold.2);
+    auto signPointer(unsigned long long, void*, bool, unsigned short, unsigned char);
+    auto signPointer(unsigned long long, void*, bool, unsigned short, unsigned char) (.cold.1);
+    auto signPointer(void*, unsigned long long) const;
+    auto signPointer(void*, unsigned long long) const (.cold.1);
+    auto unpackTarget() const;
+    auto unpackTarget() const (.cold.1);
+    auto unpackTarget() const (.cold.2);
 };

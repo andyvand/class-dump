@@ -7,6 +7,6 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
-- (void)_ßÏÿßÏÿ d;
+- (void)ionary.swift;
 @end
 

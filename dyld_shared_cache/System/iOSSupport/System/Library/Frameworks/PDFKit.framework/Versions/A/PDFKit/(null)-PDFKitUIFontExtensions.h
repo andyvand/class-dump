@@ -5,6 +5,6 @@
 //
 
 @interface (null) (PDFKitUIFontExtensions)
-- (id)ooseLanguageController";
+- (id);
 @end
 

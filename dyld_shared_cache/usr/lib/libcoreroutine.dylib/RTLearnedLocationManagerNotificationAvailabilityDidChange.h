@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (_Bool);
 - (id);
+- (_Bool)}@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool available; // @synthesize available=_available;

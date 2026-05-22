@@ -4,6 +4,6 @@
 
 class spar::SliceIterator<es_event_type_t> {
 public: // (access info unavailable from symbols alone)
-    next();
+    auto next();
     ~SliceIterator();
 };

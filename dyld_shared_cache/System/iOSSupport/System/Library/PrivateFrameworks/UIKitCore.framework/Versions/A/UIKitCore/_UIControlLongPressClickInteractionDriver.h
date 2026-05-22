@@ -11,8 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-- (double)etion: /* Error: Ran out of types for this method. */;
++ (_Bool)Ð!ÄAùq^°1Â0@ù
+× ;
+- (double)FingerPanGesture"16;
 
 @end
 

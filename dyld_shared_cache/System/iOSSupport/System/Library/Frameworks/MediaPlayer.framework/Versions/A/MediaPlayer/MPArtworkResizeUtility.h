@@ -19,14 +19,14 @@
 - (void);
 - (void);
 - (id);
-- (void)er;
-- (id)ersForDevices:withUseCase:startTime:includeLocal:pipeline: /* Error: Ran out of types for this method. */;
-- (id)tN:reversed:includeLocal:pipeline: /* Error: Ran out of types for this method. */;
-- (id)UseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)rdFormat;
 - (id);
-- (long long)andCenter;
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (void)animateWithDuration:animations: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

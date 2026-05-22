@@ -47,12 +47,12 @@
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (id);
-- (void);
+- (id);
 - (double);
 - (id);
-- (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *anchors; // @synthesize anchors=_anchors;

@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)8¦;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;

@@ -14,7 +14,7 @@
     unsigned long long _avMode;
 }
 
-+ (_Bool)gurations;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) unsigned long long avMode; // @synthesize avMode=_avMode;

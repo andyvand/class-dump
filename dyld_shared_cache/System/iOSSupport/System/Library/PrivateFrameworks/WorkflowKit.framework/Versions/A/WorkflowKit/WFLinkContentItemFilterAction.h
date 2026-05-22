@@ -16,12 +16,13 @@
     _Bool _fetchingUniqueEntity;
     LNQueryMetadata *_queryMetadata;
     LNEntityMetadata *_entityMetadata;
-    LNFullyQualifiedActionIdentifier *_fullyQualifiedLinkActionIdentifier;
     INAppIntentDescriptor *_appIntentDescriptor;
+    LNFullyQualifiedActionIdentifier *_fullyQualifiedLinkActionIdentifier;
 }
 
 - (id);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -30,7 +31,6 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -42,20 +42,21 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)content|item|class;
 
 // Remaining properties
 @property(readonly, nonatomic) INAppIntentDescriptor *appIntentDescriptor; // @synthesize appIntentDescriptor=_appIntentDescriptor;
@@ -66,7 +67,7 @@
 @property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) LNEntityMetadata *entityMetadata; // @synthesize entityMetadata=_entityMetadata;
 @property(readonly, nonatomic, getter=isFetchingUniqueEntity) _Bool fetchingUniqueEntity; // @synthesize fetchingUniqueEntity=_fetchingUniqueEntity;
-@property(readonly, nonatomic) LNFullyQualifiedActionIdentifier *fullyQualifiedLinkActionIdentifier; // @synthesize fullyQualifiedLinkActionIdentifier=_fullyQualifiedLinkActionIdentifier;
+@property(retain, nonatomic) LNFullyQualifiedActionIdentifier *fullyQualifiedLinkActionIdentifier; // @synthesize fullyQualifiedLinkActionIdentifier=_fullyQualifiedLinkActionIdentifier;
 @property(readonly) unsigned long long hash;
 @property(nonatomic, readonly) LNPropertyQuery *propertyQuery;
 @property(readonly, copy, nonatomic) LNQueryMetadata *queryMetadata; // @synthesize queryMetadata=_queryMetadata;

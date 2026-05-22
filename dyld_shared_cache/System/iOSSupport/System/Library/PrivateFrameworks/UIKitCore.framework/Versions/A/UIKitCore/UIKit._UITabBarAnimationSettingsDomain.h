@@ -8,10 +8,10 @@
 {
 }
 
-+ (id)tion;
-+ (id)ubtitleLabel;
-+ (Class)alEffectDescriptorC;
-+ (id)þe: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)groundMargins;
++ (id)Keys;
++ (Class);
 
 @end
 

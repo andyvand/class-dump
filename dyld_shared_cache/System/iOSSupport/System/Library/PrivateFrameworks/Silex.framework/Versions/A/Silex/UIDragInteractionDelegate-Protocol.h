@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragInteraction;
-@protocol UIDragSession;
-
 @protocol UIDragInteractionDelegate
 
 @optional
-- (void);
-- (id <UIDragSession>)t=dd}{CGSize=dd}}16@48;
-- (void)Context:(UIDragInteraction *)arg1;
-- (_Bool)WithName:(UIDragInteraction *)arg1 reason:(id <UIDragSession>)arg2 userInfo: /* Error: Ran out of types for this method. */;
+- (_Bool);
 @end
 

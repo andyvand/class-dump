@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)tadata %@;
-- (void)IMTextMessageProcessingPipelineComponent> Found associated GUID %@ for %@. Cross Service Association message has already binded this message to an IML. Dropping.;
+- (void);
+- (void);
 
 @end
 

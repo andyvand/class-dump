@@ -4,17 +4,17 @@
 
 class icu::Edits {
 public: // (access info unavailable from symbols alone)
-    addReplace(int, int);
-    addUnchanged(int);
-    append(int);
-    copyArray(icu::Edits const&);
-    copyErrorTo(UErrorCode&) const;
-    growArray();
-    mergeAndAppend(icu::Edits const&, icu::Edits const&, UErrorCode&);
-    moveArray(icu::Edits&);
-    operator=(icu::Edits const&);
-    operator=(icu::Edits&&);
-    releaseArray();
-    reset();
+    auto addReplace(int, int);
+    auto addUnchanged(int);
+    auto append(int);
+    auto copyArray(icu::Edits const&);
+    auto copyErrorTo(UErrorCode&) const;
+    auto growArray();
+    auto mergeAndAppend(icu::Edits const&, icu::Edits const&, UErrorCode&);
+    auto moveArray(icu::Edits&);
+    auto operator=(icu::Edits const&);
+    auto operator=(icu::Edits&&);
+    auto releaseArray();
+    auto reset();
     ~Edits();
 };

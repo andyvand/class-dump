@@ -307,37 +307,35 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (double);
 - (void);
 - (double);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool)@ù
-× ;
-- (void)0@ù
-× ;
+- (void);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PFVideoAdjustments *_adjustmentsToCommit; // @synthesize _adjustmentsToCommit=__adjustmentsToCommit;

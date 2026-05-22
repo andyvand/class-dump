@@ -4,5 +4,5 @@
 
 class spar::RefCountedFinalSubclass<spar::TypedMessageQueueReceiver<ESMessageReaderConfig>> {
 public: // (access info unavailable from symbols alone)
-    unsafeDelete_doNotOverrideExceptFromRefCountedFinalSubclass();
+    auto unsafeDelete_doNotOverrideExceptFromRefCountedFinalSubclass();
 };

@@ -12,7 +12,7 @@
     NSString *_overridePreferredContentSizeCategory;
 }
 
-+ (id)Ô¨ÿÿÔnþÿÌGûÿÔý;
++ (id)oposedTimeEvent;
 - (_Bool);
 - (void);
 - (void);
@@ -24,8 +24,8 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
+- (void)tKeepRedundantDesignator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long overrideLayoutDirection; // @synthesize overrideLayoutDirection=_overrideLayoutDirection;

@@ -4,22 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TIAutocorrectionList, TIKeyboardState, UIKBInputDelegateManager, UIResponder, UIView;
+@class TIKeyboardState, UIKBInputDelegateManager, UIResponder;
 @protocol BETextInput, UIAsyncTextInputClient, UITextInput, UIWKInteractionViewProtocol;
 
 @protocol _UITextChoicesAssistantDelegate
-- (TIAutocorrectionList *)gin failed;
-- (void)ngLabel;
-- (UIResponder<BETextInput> *)arked as having an ambiguous index path:%@ /* Error: Ran out of types for this method. */;
-- (UIResponder<UIWKInteractionViewProtocol> *)üÿ:ýÿÐýÿ /* Error: Ran out of types for this method. */;
-- (UIResponder<UIAsyncTextInputClient> *)TV;
-- (UIView *);
-- (UIKBInputDelegateManager *)@;
-- (void)HÁ;
-- (void)UIPointerEffect;
-- (void)lassState;
-- (void){4,Ù;
-- (UIResponder<UITextInput> *)«ÈùßZ;
+- (void)1Â0@ù
+× ;
+- (void)gUpdates;
+- (void)llection;
+- (UIResponder<UIAsyncTextInputClient> *)rces/Controllers/UISplitViewController/Adaptive Impl/Layout/_UISplitViewControllerAdaptiveLayoutTransition.swift;
+- (UIResponder<UIWKInteractionViewProtocol> *)ÂËþÿ;
+- (TIKeyboardState *);
+- (void)ïÀ¼±ô¶;{ ÚñRÊ¬­pb31ÿ¨ãB!fÁá9Ê©§ÇR3ÜìánÕ/¯Þ?¥·¹"d7Ô<èßØnsý
+XªÆ,#]aªß72s;C«=Àçé¾»?Dô.eM;
+- (UIResponder<UITextInput> *)(BR0UÂ03¬E;
+- (void);
+- (void);
+- (void)q$;
+- (void)R0¾33÷;
+- (UIResponder<BETextInput> *);
+- (void)þH430btþ;
+- (UIKBInputDelegateManager *)ize;
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardState *keyboardState;

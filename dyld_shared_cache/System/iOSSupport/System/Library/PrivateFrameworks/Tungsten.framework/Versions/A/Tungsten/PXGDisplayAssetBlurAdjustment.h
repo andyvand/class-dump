@@ -22,8 +22,8 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
+- (double);
 - (id);
-- (double)ngStatus: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsUnadjustedOpportunisticDelivery;

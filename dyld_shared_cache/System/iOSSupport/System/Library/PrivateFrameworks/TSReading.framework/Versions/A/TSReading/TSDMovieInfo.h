@@ -33,7 +33,7 @@
 + (id);
 + (double);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (Class);
@@ -44,9 +44,9 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (id)P;
 - (id);
-- (long long);
+- (id);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -54,7 +54,7 @@
 - (id);
 - (unsigned long long);
 - (int);
-- (id)˿;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -76,30 +76,29 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (int);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void)=;
+- (void);
 - (_Bool);
 - (_Bool);
-- (double);
-- (void);
-- (void);
-- (id)@;
-- (Class);
 - (id);
+- (void);
+- (double);
+- (Class);
+- (void);
+- (void);
+- (void);
 - (id);
 - (float);
+- (double);
+- (id);
+- (_Bool)Negative;
+- (void)legal selection type;
 - (void);
-- (void)0@ù
-× ;
-- (void)¸Ç;
-- (_Bool)veDocument];
-- (double)oke;
-- (void)åO;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsAirPlayVideo;

@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)lsViewController tableView:didSelectRowAtIndexPath:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

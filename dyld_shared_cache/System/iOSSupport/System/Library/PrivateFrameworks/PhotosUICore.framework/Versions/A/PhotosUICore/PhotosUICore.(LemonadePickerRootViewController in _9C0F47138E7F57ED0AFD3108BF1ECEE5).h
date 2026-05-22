@@ -9,21 +9,18 @@
 @interface PhotosUICore.(LemonadePickerRootViewController in _9C0F47138E7F57ED0AFD3108BF1ECEE5)
 {
     MISSING_TYPE *rootModel;
-    MISSING_TYPE *photosSelection;
     MISSING_TYPE *pickerConfiguration;
     MISSING_TYPE *navigationContext;
-    MISSING_TYPE *delegate;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)¨É>ìÊ$XÌ;
+- (void);
+- (void)ceCapability;
+- (void)$Ð£ÿT8_: /* Error: Ran out of types for this method. */;
 
 @end
 

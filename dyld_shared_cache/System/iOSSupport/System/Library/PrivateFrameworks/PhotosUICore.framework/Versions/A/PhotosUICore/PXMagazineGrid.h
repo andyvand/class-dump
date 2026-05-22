@@ -29,7 +29,9 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentRowsUsed;

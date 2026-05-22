@@ -5,6 +5,5 @@
 //
 
 @protocol SWMessageHandler
-- (void)printModifier;
 @end
 

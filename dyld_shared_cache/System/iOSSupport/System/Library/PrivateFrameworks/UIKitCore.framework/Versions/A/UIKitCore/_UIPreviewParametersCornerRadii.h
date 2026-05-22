@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct CACornerRadii);
-- (_Bool);
-- (id)nID:(struct _NSZone *)arg1;
-- (id)ContentInsets:forRectEdges: /* Error: Ran out of types for this method. */;
-- (id)dImage;
-- (void)\E71¹Dÿ3P·;
+- (id);
+- (void);
+- (id);
+- (_Bool)4@?68;
+- (id)=dd}},N,V_containingFrame;
 
 // Remaining properties
 @property(nonatomic) NSString *curve; // @synthesize curve=_curve;

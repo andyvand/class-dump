@@ -11,16 +11,15 @@
     unsigned long long _senderID;
 }
 
-+ (id)ame=(%@); reason=(%@);
-+ (_Bool)äësÿ²¤;
-- (id);
++ (id);
++ (_Bool)er(_UISticker *__strong);
+- (id);
 - (void);
 - (id);
-- (id)rtAfterContentItemID;
 - (id);
-- (void)!´Cù1Ãð1¢!0@ù
-× ;
-- (unsigned long long)AFlush];
+- (void)tBackgroundShape:(id)arg1;
+- (unsigned long long)tentCount:view:indirectFeedbackPlayer: /* Error: Ran out of types for this method. */;
+- (id)efersLargeSize:(struct _NSZone *)arg1 ,V_prefersLargeSize;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

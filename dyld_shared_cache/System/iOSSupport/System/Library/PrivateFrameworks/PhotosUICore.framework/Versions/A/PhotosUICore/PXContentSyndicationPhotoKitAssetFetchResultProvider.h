@@ -29,8 +29,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)istManagerProtocol;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)nTypes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *AMPMSymbols; // @synthesize AMPMSymbols=_AMPMSymbols;

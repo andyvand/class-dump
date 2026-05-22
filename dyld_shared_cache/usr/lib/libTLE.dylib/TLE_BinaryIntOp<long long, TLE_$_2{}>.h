@@ -4,6 +4,6 @@
 
 class TLE::BinaryIntOp<long long, TLE::$_2{}> {
 public: // (access info unavailable from symbols alone)
-    Execute(TLE::Encyclopedia&);
+    auto Execute(TLE::Encyclopedia&);
     ~BinaryIntOp();
 };

@@ -16,49 +16,48 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_performerClassByType;
 }
 
-- (_Bool)_sortType;
-- (_Bool)DebugTooltips;
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)(;
-- (void);
-- (void)e;
-- (void)t;
 - (void);
 - (void);
-- (id)ordID %@;
 - (void);
-- (id)oid*)0) || string.length == attributedHighlightedString.length;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)R
-;
-- (void)-J
-;
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)#;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (SEL);
-- (_Bool)nyy_;
-- (id);
-- (id);
-- (void);
 - (_Bool);
+- (id);
+- (id)aûÐ!`BùÐ1Â0@ù
+× ;
+- (_Bool)ÌÚîÿÀ#ÿ¨;
+- (void)};
 
 // Remaining properties
 @property(readonly, nonatomic) UIMenu *actionContextMenu;

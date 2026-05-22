@@ -24,13 +24,13 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long iconContentMode; // @synthesize iconContentMode=_iconContentMode;

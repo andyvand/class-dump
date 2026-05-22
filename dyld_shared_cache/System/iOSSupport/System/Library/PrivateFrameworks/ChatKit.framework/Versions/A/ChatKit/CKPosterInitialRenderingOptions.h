@@ -16,18 +16,19 @@ __attribute__((visibility("hidden")))
     struct CGRect _salientContentRectangle;
 }
 
-- (void)onIfAvailable;
-- (void)thenticateObjectWithKeychain:(id)arg1;
-- (void)rTextContainer:(struct CGRect)arg1;
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (struct CGRect);
-- (unsigned long long)amTask"32;
+- (void);
+- (void);
 - (id);
 - (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (void)ÀEù±°1Â0@ù
+× ;
+- (struct CGRect)ntentOverTranscriptBackground;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PRPosterContentOcclusionRectSet *contentOcclusionRectangles; // @synthesize contentOcclusionRectangles=_contentOcclusionRectangles;

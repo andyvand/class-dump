@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
 - (double);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)oup: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;

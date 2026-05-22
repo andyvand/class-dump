@@ -54,23 +54,23 @@
 - (id);
 - (id);
 - (double);
-- (_Bool)v½Õ|;
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
 - (id);
-- (void);
+- (id);
+- (id);
 - (double);
-- (id);
-- (id);
 - (id);
 - (id);
 - (_Bool);
-- (long long)tion: /* Error: Ran out of types for this method. */;
-- (id)Properties;
-- (struct UIEdgeInsets)etReference;
+- (id);
+- (void);
+- (long long);
+- (struct UIEdgeInsets)tionsInLayout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *badgeColor; // @synthesize badgeColor=_badgeColor;

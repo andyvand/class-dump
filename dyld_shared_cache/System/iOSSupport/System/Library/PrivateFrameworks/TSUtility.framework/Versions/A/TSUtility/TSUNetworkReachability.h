@@ -22,9 +22,9 @@
 - (long long);
 - (long long);
 - (void);
-- (long long);
-- (id);
 - (_Bool);
+- (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool connectionRequired;

@@ -13,19 +13,20 @@
     NSDictionary *_colors;
 }
 
-+ (_Bool),V_highlightedForAttribution;
++ (_Bool);
+- (void);
+- (id);
+- (void);
 - (unsigned int);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)°1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

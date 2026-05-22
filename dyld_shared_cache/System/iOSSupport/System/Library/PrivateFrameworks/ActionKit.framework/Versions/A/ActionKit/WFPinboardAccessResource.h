@@ -17,11 +17,12 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)°1B50@ù
+× ;
 
 @end
 

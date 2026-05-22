@@ -24,24 +24,25 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (unsigned int)	
+;
+- (_Bool)¼m;
+- (void)request;
+- (_Bool)essiveMigration;
+- (void)[WFRemoteQuarantinePolicyManager updatePolicyWithXPCActivity:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hasHasTrackpad;

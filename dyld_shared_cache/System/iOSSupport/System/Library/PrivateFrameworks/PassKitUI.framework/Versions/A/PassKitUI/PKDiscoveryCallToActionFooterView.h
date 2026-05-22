@@ -39,15 +39,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (long long);
+- (void);
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
-- (void)16;
-- (id)GG\ï\GSg_Û]yACyAAyADýû\ySiSgGGSg_AWtGGtGGæñ\G;
+- (void)!Eù±ø1â
+0@ù
+× ;
+- (id)k´÷	yéo;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

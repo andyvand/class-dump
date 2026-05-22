@@ -19,8 +19,8 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

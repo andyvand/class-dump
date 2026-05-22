@@ -29,14 +29,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned int);
 - (unsigned long long);
-- (struct __IOHIDEvent *)cation, syncing enabled:(struct __IOHIDEvent *)arg1 %@;
-- (unsigned int)o mark message with GUID=%@:message not found /* Error: Ran out of types for this method. */;
+- (unsigned int);
+- (struct __IOHIDEvent *);
 - (void);
 - (unsigned long long);
-- (void)PropertyPlaylistCollaborationMode;
 - (void);
-- (void)ne:(id)arg1;
-- (id)lElapsedTime;
+- (id);
+- (void);
+- (void)T;
 
 // Remaining properties
 @property(nonatomic) unsigned long long digitizerSenderID; // @synthesize digitizerSenderID=_digitizerSenderID;

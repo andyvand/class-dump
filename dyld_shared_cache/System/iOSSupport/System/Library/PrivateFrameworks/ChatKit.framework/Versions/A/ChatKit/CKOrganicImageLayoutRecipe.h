@@ -19,27 +19,27 @@
     struct CGSize _targetSize;
 }
 
-- (_Bool)ithSingleLineA;
-- (void)NSColor",R,C,N;
+- (_Bool);
+- (void);
 - (void);
 - (id);
-- (id)e;
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (double);
-- (void)@;
 - (void);
-- (id);
-- (id)taSource;
-- (double).¬yþ<GAkEGGAGGtG;
-- (void);
+- (id);
+- (double);
+- (id);
 - (struct CGSize);
-- (void)kR;
-- (double);
-- (void)óß$i.;
+- (void);
+- (void);
+- (void)°Ì±8²ø²;
+- (void);
+- (double);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;

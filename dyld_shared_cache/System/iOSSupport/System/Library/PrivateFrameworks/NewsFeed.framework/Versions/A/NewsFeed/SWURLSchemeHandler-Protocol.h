@@ -7,10 +7,6 @@
 @protocol WKURLSchemeTask;
 
 @protocol SWURLSchemeHandler
-- (void)pFÿÜJ
-;
-- (void)åç¶Ècþ;
-- (void)¬{Iÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WKURLSchemeTask> task;

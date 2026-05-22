@@ -15,7 +15,7 @@
     NSHashTable *_idleTimerDisabledRequesters;
 }
 
-+ (id)£;
++ (id)AnotherCodeButton;
 - (_Bool);
 - (id);
 - (id);
@@ -28,9 +28,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
 - (id);
+- (_Bool)akeNetworkProfileFixSymptom;
+- (void)tyOnboardingOTPSelectionViewController viewWillDisappear:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *idleTimerDisabledRequesters; // @synthesize idleTimerDisabledRequesters=_idleTimerDisabledRequesters;

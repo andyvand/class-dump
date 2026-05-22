@@ -13,16 +13,16 @@
     NSString *_userAgentString;
 }
 
-+ (id);
++ (id);
 - (void);
-- (void)1;
-- (void);
-- (id);
-- (void);
-- (void)states;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)rsecSearchSuggestionIdentifier;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

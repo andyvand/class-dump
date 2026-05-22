@@ -35,8 +35,8 @@
 - (struct CGSize);
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

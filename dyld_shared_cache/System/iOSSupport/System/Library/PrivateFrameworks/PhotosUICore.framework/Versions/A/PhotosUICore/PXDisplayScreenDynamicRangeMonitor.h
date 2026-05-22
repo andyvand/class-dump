@@ -28,10 +28,9 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)qz1b0@ù
-× ;
+- (_Bool);
+- (void)htsHitTestResult;
 - (void);
-- (void)Ë¡6;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

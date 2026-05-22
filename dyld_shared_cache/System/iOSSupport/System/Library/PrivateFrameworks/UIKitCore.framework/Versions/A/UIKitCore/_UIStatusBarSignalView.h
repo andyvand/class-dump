@@ -20,31 +20,30 @@
     long long _iconSize;
 }
 
-+ (struct CGSize)1¢!0@ù
-× ;
++ (struct CGSize);
+- (long long)ormattingCoordinator";
+- (void)Size:(long long)arg1;
+- (void)hangesForWindow:(long long)arg1;
+- (void)S_setContentBackgroundHidden:(_Bool)arg1;
+- (void)z4{;
 - (void);
-- (long long);
+- (id);
 - (void);
-- (void)n"16@"UIFocusUpdateContext"24;
-- (void)placeWithCandidateType: /* Error: Ran out of types for this method. */;
-- (void)initWithView:(long long)arg1 traits:delegate: /* Error: Ran out of types for this method. */;
-- (long long);
+- (void)ÿ¨;
+- (void)$7];
 - (void);
-- (void);
-- (void);
-- (void)>	];
-- (void)%{;
-- (void);
-- (void)»^þ;
-- (_Bool)ÿP:ÖËQ] /* Error: Ran out of types for this method. */;
-- (long long)U];
-- (void)^;
-- (long long)H;
-- (void)];
-- (_Bool)°~6ÿ;
-- (id)¹;
-- (id)°Ç×¢1^;
-- (void);
+- (id);
+- (long long)GÊÿâúÏ»];
+- (long long)T^Rþbí;
+- (_Bool);
+- (_Bool)r²ÿq;
+- (void)É;
+- (void)÷Ô¤+^;
+- (void)LÑþZ?ÌH.^;
+- (long long)®^;
+- (void)^;
+- (void)rÝþ;
+- (void)¨^;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

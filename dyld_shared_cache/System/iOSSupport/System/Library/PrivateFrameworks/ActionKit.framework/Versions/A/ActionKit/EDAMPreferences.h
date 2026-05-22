@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)key in its list of authorized keys.;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *preferences; // @synthesize preferences=_preferences;

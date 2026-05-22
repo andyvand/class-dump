@@ -8,18 +8,8 @@
 @protocol MPVolumeControllerDataSourceDelegate;
 
 @protocol MPVolumeControllerDataSource
-- (_Bool)q_7FailureAA9PublisherPRts_x6OutputAERtsXP;
-- (id <MPVolumeControllerDataSourceDelegate>)rk/Versions/A/CoreVideo;
-- (void)ndor Response Received, Inline PutCompleteAtEdge Required.;
-- (float)ost_chunk_list;
-- (void)±¨°1¢!0@ù
-× ;
-- (_Bool)0@"MPNowPlayingInfoTransportableSessionResponse"8@"NSError"16;
-- (unsigned int)bumLibraryAdded;
-
-@optional
-- (void);
-- (void)e;
+- (_Bool)0:8@16q24 /* Error: Ran out of types for this method. */;
+- (void)or was missing mapping for MPModelRelationshipTVEpisodeStoreAsset;
 
 // Remaining properties
 @property(readonly, nonatomic) float EUVolumeLimit;

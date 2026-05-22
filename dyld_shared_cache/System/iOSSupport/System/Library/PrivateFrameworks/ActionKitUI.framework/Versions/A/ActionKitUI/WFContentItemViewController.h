@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (id);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

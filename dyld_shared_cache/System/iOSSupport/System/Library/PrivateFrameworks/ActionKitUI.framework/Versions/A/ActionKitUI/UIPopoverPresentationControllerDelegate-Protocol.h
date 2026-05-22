@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPopoverPresentationController;
-
 @protocol UIPopoverPresentationControllerDelegate
-
-@optional
-- (void)Controller:(UIPopoverPresentationController *)arg1;
 @end
 

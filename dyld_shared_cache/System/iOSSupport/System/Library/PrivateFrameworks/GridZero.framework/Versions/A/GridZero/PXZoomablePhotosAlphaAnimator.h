@@ -58,10 +58,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 - (_Bool);
 - (void);
 

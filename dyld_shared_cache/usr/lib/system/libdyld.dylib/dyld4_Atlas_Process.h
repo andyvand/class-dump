@@ -5,20 +5,20 @@
 class dyld4::Atlas::Process {
 public: // (access info unavailable from symbols alone)
     Process(lsl::Allocator&, dyld4::FileManager&, unsigned int, int*);
-    getSnapshot(int*);
-    handleNotifications();
-    registerAtlasChangedEventHandler(int*, dispatch_queue_s*, void (dyld4::Atlas::Image*, bool) block_pointer);
-    registerEventHandler(int*, unsigned int, dispatch_queue_s*, void () block_pointer);
-    setupNotifications(int*);
-    setupNotifications(int*) (.cold.1);
-    setupNotifications(int*) (.cold.2);
-    setupNotifications(int*) (.cold.3);
-    synthesizeSnapshot(int*);
-    teardownNotifications();
-    teardownNotifications() (.cold.1);
-    teardownNotifications() (.cold.2);
-    teardownNotifications() (.cold.3);
-    teardownNotifications() (.cold.4);
-    unregisterEventHandler(unsigned int);
+    auto getSnapshot(int*);
+    auto handleNotifications();
+    auto registerAtlasChangedEventHandler(int*, dispatch_queue_s*, void (dyld4::Atlas::Image*, bool) block_pointer);
+    auto registerEventHandler(int*, unsigned int, dispatch_queue_s*, void () block_pointer);
+    auto setupNotifications(int*);
+    auto setupNotifications(int*) (.cold.1);
+    auto setupNotifications(int*) (.cold.2);
+    auto setupNotifications(int*) (.cold.3);
+    auto synthesizeSnapshot(int*);
+    auto teardownNotifications();
+    auto teardownNotifications() (.cold.1);
+    auto teardownNotifications() (.cold.2);
+    auto teardownNotifications() (.cold.3);
+    auto teardownNotifications() (.cold.4);
+    auto unregisterEventHandler(unsigned int);
     ~Process();
 };

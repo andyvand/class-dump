@@ -41,17 +41,17 @@
 - (void);
 - (void);
 - (id);
-- (id)PaywallStyler;
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void)h: /* Error: Ran out of types for this method. */;
-- (void)yCustomRotorItemResult"8Q16^B24;
+- (void);
+- (void);
+- (void)ýÿÊVØ=;
+- (id)OyÙ;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *errorLabel; // @synthesize errorLabel=_errorLabel;

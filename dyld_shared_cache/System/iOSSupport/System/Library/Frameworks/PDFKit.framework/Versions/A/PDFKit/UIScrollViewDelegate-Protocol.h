@@ -9,10 +9,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void);
-- (void)sitive;
-- (void)y(CFStringRef, CSDBLockedStatement, IMFileLocation_t *);
-- (void)zoomScale:(UIScrollView *)arg1;
-- (void)tField;
+- (void)@0:(UIScrollView *)arg1 8{CGSize=dd}16q32;
 @end
 

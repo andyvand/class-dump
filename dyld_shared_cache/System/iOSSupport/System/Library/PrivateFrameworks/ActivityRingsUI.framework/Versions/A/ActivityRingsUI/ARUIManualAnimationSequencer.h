@@ -16,11 +16,11 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
 - (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;

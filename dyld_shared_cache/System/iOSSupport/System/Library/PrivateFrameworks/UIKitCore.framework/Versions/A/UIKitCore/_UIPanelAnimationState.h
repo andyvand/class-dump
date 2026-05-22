@@ -21,10 +21,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (double)sOfView:toCornerPosition: /* Error: Ran out of types for this method. */;
++ (double)Changed;
 - (id);
 - (_Bool);
-- (void)ց;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,12 +35,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
+- (id);
+- (id);
+- (double)eight;
+- (void)on;
 - (void);
-- (id)efaultForIdiom: /* Error: Ran out of types for this method. */;
-- (id)canSendViewServiceActualBoundingPath;
-- (double);
-- (void)'þÿ;
-- (id)£¢\;
+- (id)pÿ;
 
 // Remaining properties
 @property(nonatomic) long long affectedSides; // @synthesize affectedSides=_affectedSides;

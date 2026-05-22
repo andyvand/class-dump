@@ -9,6 +9,7 @@
 @interface ContactsUICore.AvatarUIView
 {
     MISSING_TYPE *borderStyle;
+    MISSING_TYPE *contactStore;
     MISSING_TYPE *personaIdentifier;
     MISSING_TYPE *listener;
     MISSING_TYPE *model;
@@ -17,10 +18,10 @@
 }
 
 + (Class);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)tion:options:useSuggestionsSortOrder: /* Error: Ran out of types for this method. */;
 
 @end
 

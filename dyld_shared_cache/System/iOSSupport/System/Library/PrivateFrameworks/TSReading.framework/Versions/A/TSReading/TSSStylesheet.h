@@ -31,8 +31,8 @@
 - (id);
 - (id);
 - (void);
-- (void)=;
-- (void)`R;
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -72,28 +72,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool)";
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (id)=;
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (void);
-- (id)j0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/text/TSWPTrackedInsertion.mm;
-- (id)=== FPS LOGGING BEGIN =====
-;
-- (id)persistence/src/NSError_TSPersistence.mm;
-- (_Bool);
 - (void);
+- (id)SArray"16@?<v@?q>24;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool canCullStyles;

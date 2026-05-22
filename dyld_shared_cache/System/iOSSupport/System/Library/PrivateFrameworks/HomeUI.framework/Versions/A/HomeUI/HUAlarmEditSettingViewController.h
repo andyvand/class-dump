@@ -41,6 +41,9 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (id);
 - (long long);
 - (void);
 - (id);
@@ -48,17 +51,14 @@
 - (void);
 - (void);
 - (void);
+- (void)atter";
+- (void)meraCount: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (id)quiresHelper: /* Error: Ran out of types for this method. */;
-- (void)ated:(id)arg1;
-- (void)tem;
-- (void)PresenceActivationOptionState"8;
-- (void)port too!;
-- (id)ity;
-- (void)ailsCallButtonTitle;
-- (void)`ßÿrðóª¸;
+- (unsigned long long);
+- (void)NetworkConfigurationItemListModuleSectionFooterIncompatibleVersion;
+- (void)?;
+- (void)ñsÿ([;
+- (id)0ÂÄÿûýiÉ;
 
 // Remaining properties
 @property(copy, nonatomic) MTMutableAlarm *alarm; // @synthesize alarm=_alarm;

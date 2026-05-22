@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
     } _has;
 }
 
-- (void)";
 - (void);
 - (void);
 - (void);
-- (void)_CONST;
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -35,20 +35,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long)Registration failure reason updated from:%@ to:%@ /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (void);
 - (id);
 - (void);
-- (void);
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
 - (int);
-- (void)ntWithError:(int)arg1;
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool)ionIdentifierSets: /* Error: Ran out of types for this method. */;
+- (void)ies:(_Bool)arg1;
+- (void)MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) MPPCompoundPredicate *compoundPredicate; // @synthesize compoundPredicate=_compoundPredicate;

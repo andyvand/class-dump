@@ -5,8 +5,5 @@
 //
 
 @protocol UITextFormattingViewControllerDelegate
-
-@optional
-- (_Bool);
 @end
 

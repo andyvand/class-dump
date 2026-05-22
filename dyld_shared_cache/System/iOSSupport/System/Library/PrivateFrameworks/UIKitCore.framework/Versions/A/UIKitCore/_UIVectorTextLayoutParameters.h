@@ -16,23 +16,23 @@ __attribute__((visibility("hidden")))
     struct CGSize _withinSize;
 }
 
-+ (id)r %@ while writing up record %@ ;
++ (id);
 - (struct CGSize);
-- (void)led with %@;
-- (_Bool);
-- (void)adSuccessfulQuery:(id)arg1 engramID:serverChangeToken:cloudKitSyncState:originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
+- (_Bool);
+- (void);
+- (id)rstRectForRange:(id)arg1;
+- (id)e;
+- (id)x¬dt´ì	Ü
+L4ÀXô;
+- (void)ht;
+- (void)rRange;
+- (void)@; cell:(long long)arg1 %@;
+- (long long)oþÿ;
+- (void)±.3y/±.3yABy.3yACyÍÍ.3¤.3G¶.3yÔ.3yö¾7GGGACyACyAD.3GAKGG<Í.3yACyACyª;
+- (void);
 - (id);
-- (void)e=%ld;
-- (void);
-- (long long);
-- (id);
-- (id)!DùQÊð1¢!0@ù
-× ;
-- (void)tionToInterfaceOrientation:(id)arg1 duration: /* Error: Ran out of types for this method. */;
-- (void)pdate;
-- (id)/$\;
+- (unsigned long long);
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;

@@ -11,7 +11,7 @@
     NSData *_mappedSurfaceData;
 }
 
-- (void)Front: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

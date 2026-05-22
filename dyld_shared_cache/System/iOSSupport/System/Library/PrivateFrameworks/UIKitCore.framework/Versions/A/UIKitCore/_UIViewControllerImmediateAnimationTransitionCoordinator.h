@@ -12,28 +12,27 @@ __attribute__((visibility("hidden")))
     UIView *_containerView;
 }
 
-- (void);
-- (void);
-- (double)±Ç°1¢!0@ù
-× ;
-- (id)IEditMenuInteractionAnimating>"16;
-- (void)cope:(CDUnknownBlockType)arg1;
-- (id)nDuration;
-- (_Bool);
-- (_Bool)sentationAnimationCXo;
-- (_Bool)osition = %.2f, size = %@, transform = %@;
-- (id)iom(UIScene *__unsafe_unretained, UIUserInterfaceIdiom);
-- (_Bool)taModel";
-- (_Bool)ers: /* Error: Ran out of types for this method. */;
-- (double)lassBackground.inputBlurOpacity3;
-- (struct CGAffineTransform);
-- (long long);
-- (_Bool);
-- (long long);
-- (_Bool)ion;
-- (id);
-- (double)õ[;
-- (void);
+- (id)xtInputSessionActionAnalytics] inputMode - overrode source with '%{private}@';
+- (long long)skWillExpireNotification;
+- (_Bool)gationControllerLastVisibleViewController;
+- (double)onBarPressedIndicator.png;
+- (id)ionY;
+- (_Bool)feAreaEdgeInsetResolver.swift;
+- (struct CGAffineTransform)Impl/Layout/_UISplitViewControllerAdaptiveLayoutTransition.swift;
+- (_Bool)ÿÊÅþÿøþÿ;
+- (_Bool)onCG;
+- (void)25FBSSceneTransitionContextCSgIggggg_;
+- (void)putModelP;
+- (_Bool)pIgl_;
+- (_Bool)eFrameworks/MediaRemote.framework/MediaRemote;
+- (void)veParentScrollViewAndSubview;
+- (_Bool)2¥Á03HE;
+- (id);
+- (double)(~þ;
+- (double);
+- (id)gþÿÿÿÿ;
+- (void)43ÜNoþ43Ooþ=43 OoþÝ43,Ooþå438Ooþ½43DOoþ43POoþ43\Ooþ43sþå43tOoþ43|Ooþí43Ooþ;
+- (long long)m43ËÅ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

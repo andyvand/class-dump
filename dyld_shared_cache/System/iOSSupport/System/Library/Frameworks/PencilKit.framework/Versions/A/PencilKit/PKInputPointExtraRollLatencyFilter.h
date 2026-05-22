@@ -12,12 +12,12 @@
     long long _numFramesExtraLatency;
 }
 
-- (void);
+- (void);
 - (long long);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)´S<TÀT\U;
 
 // Remaining properties
 @property(nonatomic) long long numFramesExtraLatency; // @synthesize numFramesExtraLatency=_numFramesExtraLatency;

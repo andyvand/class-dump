@@ -18,11 +18,11 @@
 
 - (id);
 - (id);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
+- (_Bool)otocol>",W,N,V_delegate;
+- (void)zedLocationsForAltitudeSpeedAccuracy;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;

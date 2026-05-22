@@ -7,8 +7,6 @@
 @class NSString;
 
 @protocol _UISceneRenderingEnvironmentClient
-- (void)eteManifest;
-- (_Bool)4 ;
 
 // Remaining properties
 @property(nonatomic) _Bool prefersContentProtection;

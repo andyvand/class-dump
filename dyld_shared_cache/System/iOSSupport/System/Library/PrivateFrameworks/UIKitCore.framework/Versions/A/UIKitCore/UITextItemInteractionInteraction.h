@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)@;
-+ (_Bool)dropped;
++ (_Bool);
++ (_Bool);
 - (_Bool);
 
 @end

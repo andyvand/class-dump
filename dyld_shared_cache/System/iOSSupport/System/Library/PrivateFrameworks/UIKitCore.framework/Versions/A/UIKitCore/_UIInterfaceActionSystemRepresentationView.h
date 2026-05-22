@@ -21,26 +21,26 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)@;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)dispatch_group>";
-- (void)geCode: /* Error: Ran out of types for this method. */;
-- (void)ArrayWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
-- (void)cation;
 - (void);
-- (void)ssedComingBackFromStorage;
-- (void)oCheck;
-- (_Bool)eue>",R,N,V_queue;
-- (_Bool)rvice:account:inviteDroppedForSessionID:fromID:context:error: /* Error: Ran out of types for this method. */;
-- (void)T@"IMMultiQueue",&,N,V_incomingMessageMultiQueue;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -54,14 +54,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)}};
 - (void);
-- (id)ervice %@  identifier:%@   style:%c  (Chat:%@) /* Error: Ran out of types for this method. */;
-- (id)rvice %@ and it did not have an error;
 - (void);
-- (void)!üGùÑË°1¢!0@ù
+- (id);
+- (id);
+- (void)0@ù
 × ;
-- (id)epareForReuse;
+- (id)tion;
+- (void)°43Ì};
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

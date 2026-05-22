@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)rQualityGood;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *primaryCharacteristicType; // @synthesize primaryCharacteristicType=_primaryCharacteristicType;

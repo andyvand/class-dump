@@ -7,11 +7,10 @@
 @class UIView;
 
 @protocol UISpringLoadedInteractionContext
-- (void)ù
+- (long long)á!Bùc1Â0@ù
 × ;
-- (long long)ithDuration:timingParameters: /* Error: Ran out of types for this method. */;
-- (UIView *)ap;
-- (struct CGPoint)hidesCollapsedSourceView;
+- (struct CGPoint)load;
+- (UIView *)32@?0@"NSArray"8@"BKSAnimationFenceHandle"16@?<v@?>24;
 
 // Remaining properties
 @property(readonly, nonatomic) long long state;

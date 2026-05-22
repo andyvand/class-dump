@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Open in BlindSquare;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *preprocessedDate; // @synthesize preprocessedDate=_preprocessedDate;

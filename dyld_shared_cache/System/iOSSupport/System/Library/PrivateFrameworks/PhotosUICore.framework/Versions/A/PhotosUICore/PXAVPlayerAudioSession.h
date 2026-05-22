@@ -64,10 +64,10 @@
 - (void);
 - (void);
 - (void);
-- (void)stPlaybackRect;
-- (CDStruct_1b6d18a9);
-- (id);
-- (void);
+- (CDStruct_1b6d18a9)alTo: /* Error: Ran out of types for this method. */;
+- (void)¡¼Ê¼p5ÿ¼ÊPx%ÿ¼Êp5ÿ;
+- (void)7;
+- (id)æ7;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPlaybackDesired; // @synthesize isPlaybackDesired=_isPlaybackDesired;

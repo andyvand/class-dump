@@ -17,13 +17,13 @@
 
 + (id);
 - (id);
-- (id)BagObjectExports33_CD4A13C520117F75F11731052EDCF02BLLP;
-- (void)*;
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id)©lpLdp;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

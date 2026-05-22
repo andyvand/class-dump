@@ -40,16 +40,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (unsigned long long);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGRect acceptableCropRect; // @synthesize acceptableCropRect=_acceptableCropRect;

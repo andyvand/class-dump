@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long)pletion: /* Error: Ran out of types for this method. */;
-
-@optional
-- (NSString *);
+- (struct _NSZone *)on;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

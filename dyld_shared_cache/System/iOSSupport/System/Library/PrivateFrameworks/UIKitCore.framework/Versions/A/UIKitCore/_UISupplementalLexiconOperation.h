@@ -16,9 +16,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (id)ContainerViewController;
-- (unsigned long long)interactiveChangeState;
+- (id);
+- (unsigned long long)
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak _UISupplementalLexicon *lexicon; // @synthesize lexicon=_lexicon;

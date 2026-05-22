@@ -14,11 +14,11 @@
 
 - (void);
 - (void);
-- (void);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (CDUnknownBlockType);
 - (void);
+- (void)iewDidPausePlayback:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

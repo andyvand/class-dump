@@ -23,9 +23,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void)ligencePlatformDataActionsAppIntentsExtension.AppUsageAppEntity;
+- (void)calendar?;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

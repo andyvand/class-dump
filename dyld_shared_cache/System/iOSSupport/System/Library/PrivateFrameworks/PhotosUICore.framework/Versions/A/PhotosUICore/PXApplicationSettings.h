@@ -23,7 +23,7 @@
 
 + (id);
 + (id);
-+ (id)'C9;
++ (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -43,9 +43,9 @@
 - (double);
 - (_Bool);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)XPeopleCandidatePhotosForReviewNoNameMessage;
+- (void)¸"aíÊ4;
 
 // Remaining properties
 @property(nonatomic) double backgroundThresholdDurationForUndoActionsInvalidation; // @synthesize backgroundThresholdDurationForUndoActionsInvalidation=_backgroundThresholdDurationForUndoActionsInvalidation;

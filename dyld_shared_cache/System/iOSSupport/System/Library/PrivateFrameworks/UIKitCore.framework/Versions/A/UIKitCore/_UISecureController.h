@@ -23,38 +23,38 @@
     struct CGSize _intrinsicContentSize;
 }
 
-- (void)geCallback;
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void)`;
 - (void);
-- (id).;
 - (_Bool);
 - (_Bool);
-- (void);
-- (unsigned int)R;
 - (id);
-- (_Bool);
 - (id);
 - (void);
+- (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (unsigned int);
+- (void);
+- (long long);
+- (unsigned long long);
+- (void);
 - (struct CGColor *);
-- (void);
 - (struct CGSize);
 - (void);
-- (void)missing mapping for MPModelPropertyRadioStationSubtype;
-- (double);
+- (id)tCFRunLoop;
+- (void)geNotification:(struct CGColor *)arg1;
+- (struct CGColor *)aletteIsHidden;
+- (void)ation %@;
+- (double)-initiated-fetch;
+- (void)ple.facetime;
+- (void)©13¼§Áþí¨13¸§Áþí¨13À§Áþí¨13à§Áþ;
 - (void);
-- (id)n: /* Error: Ran out of types for this method. */;
-- (void)lor;
-- (struct CGColor *)ÿô5èÿNWþ\ºþÿ2ûÿ;
-- (unsigned long long)tedOptions.pointsPerMeter;
-- (void)htþ;
-- (void);
-- (long long)tµ©ÿ4Úm^;
-- (void)ëT^;
 
 // Remaining properties
 @property(nonatomic) struct CGColor *baseBackgroundColor; // @synthesize baseBackgroundColor=_baseBackgroundColor;

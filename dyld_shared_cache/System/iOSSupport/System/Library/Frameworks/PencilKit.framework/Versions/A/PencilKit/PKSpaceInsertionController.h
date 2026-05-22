@@ -39,24 +39,24 @@
 
 - (void);
 - (void);
-- (void)SURLSession"16@"NSURLSessionDataTask"24@"NSURLSessionStreamTask"32;
-- (void)cOffset:(struct CGPath *)arg1 dstOffset:(struct CGRect)arg2 appVersion:osVersion:countryCode: /* Error: Ran out of types for this method. */;
-- (double)essage;
-- (_Bool)SString",R,N,V_requestID;
-- (void)ing",R,C,N,V_deviceClass;
-- (void)maxAge;
-- (id)hResult;
-- (void)$b;
-- (void)%{public}@ segmentSetIDs:(id)arg1 %{public}@;
-- (id)SON request:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)uration/RCConfigurationSettings.m;
-- (void)@16^B24;
-- (void)rary/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Operations/RCOperationThrottler.m;
+- (void);
+- (void);
+- (double);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)H;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,12 +70,12 @@
 - (void);
 - (void);
 - (void);
-- (void)[;
+- (void);
 - (id);
 - (void);
 - (id);
-- (id)ingVisitor.swift;
-- (void);
+- (id)letteTooltipPresentationHandle",R,N,V_tooltipPresentationHandle;
+- (void)ingDidChangeVisibleStrokes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool didMoveStrokes; // @synthesize didMoveStrokes=_didMoveStrokes;

@@ -4,8 +4,7 @@
 
 class icu::units {
 public: // (access info unavailable from symbols alone)
-    addSingleFactorConstant(icu::StringPiece, int, icu::units::Signum, icu::units::Factor&, UErrorCode&);
-    extractCompoundBaseUnit(icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
-    extractConvertibility(icu::MeasureUnitImpl const&, icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
-    getAllConversionRates(icu::MaybeStackVector<icu::units::ConversionRateInfo, 8>&, UErrorCode&);
+    auto addSingleFactorConstant(icu::StringPiece, int, icu::units::Signum, icu::units::Factor&, UErrorCode&);
+    auto extractConvertibility(icu::MeasureUnitImpl const&, icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
+    auto getAllConversionRates(icu::MaybeStackVector<icu::units::ConversionRateInfo, 8>&, UErrorCode&);
 };

@@ -13,10 +13,10 @@
     PHPhotoLibrary *_photoLibrary;
 }
 
-- (void);
-- (void)Controller;
-- (id)©O§R6;
-- (void)6;
+- (void)et picked, falling back to last available asset;
+- (void)PhotosPageLayout;
+- (id);
+- (void)R,_7;
 
 // Remaining properties
 @property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;

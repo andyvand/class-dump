@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)ypassing WiFi check;
 
 // Remaining properties
 @property(readonly, nonatomic) RTScenarioTrigger *scenarioTrigger; // @synthesize scenarioTrigger=_scenarioTrigger;

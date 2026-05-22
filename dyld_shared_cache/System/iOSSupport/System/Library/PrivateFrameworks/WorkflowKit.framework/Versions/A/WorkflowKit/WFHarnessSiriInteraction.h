@@ -15,9 +15,9 @@
 
 - (Class);
 - (id);
-- (void);
-- (id);
-- (CDUnknownBlockType)teAppValueContentItem;
+- (CDUnknownBlockType);
+- (id)r>"8@"NSMutableArray"16^B24;
+- (void)xt;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType interaction; // @synthesize interaction=_interaction;

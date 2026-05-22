@@ -8,10 +8,6 @@
 @protocol UIFocusEnvironment, UIFocusItemContainer;
 
 @protocol UIFocusEnvironment
-- (_Bool)lh;
-
-@optional
-- (UIView *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;

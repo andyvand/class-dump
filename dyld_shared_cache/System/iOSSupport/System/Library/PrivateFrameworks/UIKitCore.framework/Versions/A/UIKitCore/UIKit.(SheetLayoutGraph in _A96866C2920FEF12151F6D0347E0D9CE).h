@@ -21,19 +21,19 @@
 
 - (void);
 - (void);
-- (void)tX;
-- (double)deviceConditionstoCheck is set to IMCheckNoDeviceConditions, changing it to IMCheckAllDeviceConditions;
-- (id).;
+- (void);
+- (double);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
-- (_Bool)RE;
+- (_Bool);
 - (struct CGRect);
 - (struct CGAffineTransform);
 - (struct UIEdgeInsets);
-- (struct CGRect)˟;
+- (struct CGRect);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
@@ -42,7 +42,6 @@
 - (void);
 - (void);
 - (void);
-- (void)A9	A;
 - (void);
 - (void);
 - (void);
@@ -77,8 +76,9 @@
 - (void);
 - (void);
 - (void);
-- (void)#;
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -93,8 +93,8 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (_Bool)\;
-- (id)%;
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (double);
@@ -103,10 +103,10 @@
 - (id);
 - (long long);
 - (id);
-- (double);
 - (double);
 - (double);
-- (double);
+- (double);
+- (double);
 - (double);
 - (double);
 - (id);
@@ -118,7 +118,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)?;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -151,114 +151,110 @@
 - (id);
 - (double);
 - (CDUnknownBlockType);
-- (double);
+- (double);
 - (_Bool);
 - (id);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (struct CGRect);
 - (double);
 - (double);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (id);
+- (_Bool);
+- (_Bool);
 - (double);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (double);
-- (double);
 - (_Bool);
 - (void);
 - (struct CGRect);
+- (struct CGRect);
 - (void);
-- (void)T@"NSMutableArray",&,VframeArray;
-- (double);
-- (void);
-- (id);
-- (_Bool);
-- (void):(double)arg1;
-- (_Bool)te;
-- (void)Section:(_Bool)arg1;
-- (id)iled [SQL error] upsertAssetError=%{public}@;
-- (void)ertyMovieLibraryAdded;
-- (void)bMediaItemPropertySortArtistName;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)Åð1¢!0@ù
-× ;
-- (void);
-- (id)Ð1¢!0@ù
-× ;
-- (double)¡wÐ!ð@ùÑÌ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)gConstraints;
-- (_Bool)setInnerHTML: /* Error: Ran out of types for this method. */;
-- (void)edWidthForHeaderInSection:(_Bool)arg1;
-- (long long)ghtForTableViewStyle:screen: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ity:forKey: /* Error: Ran out of types for this method. */;
-- (double)tionariesForOnScreenElementsForUpdate: /* Error: Ran out of types for this method. */;
-- (_Bool)allowInheritance;
-- (id)awBackgroundInRect:withStyle: /* Error: Ran out of types for this method. */;
-- (double)estureInitialLocation;
-- (id)@ÿ ÿ(`ìÐ(
-\Äð
-°4	l	,|à
-ø\*ä;
-- (void),Â;
-- (void)ion visualState:(_Bool)arg1 %li animationType:%li interactive:%@ /* Error: Ran out of types for this method. */;
-- (void)ers %@ from environment:(_Bool)arg1 <%p:%@>. /* Error: Ran out of types for this method. */;
-- (_Bool)ÿÿ,ÿÿXÿÿÿÿdÿÿ|ÿÿÿÿ´ÿÿ(ÿÿLÿÿÿÿÿÿÿÿüÿÿÿÿ$ÿÿ|ÿÿpÿÿ°ÿÿÈÿÿàÿÿ ÿÿ8ÿÿPÿÿ°ÿÿÈÿÿàÿÿøÿÿXÿÿpÿÿxÿÿÿÿ¨ÿÿ¬ÿÿÌÿÿÿÿLÿÿdÿÿ°ÿÿÐÿÿèÿÿ;
-@property(nonatomic, readonly) NSArray *_activeDetents;
 - (id);
-- (_Bool)HostedScene-%@-%@;
-- (void)ceneSession:(double)arg1;
-- (void)0:(_Bool)arg1 8q16q24;
 - (void);
 - (void);
-- (void)ÄfþyA4Láqþ;
-- (_Bool)´c;
-- (struct CGSize)!öz;
-- (void)¢;
-- (double)g;
-- (id)þg;
-- (_Bool)à,;
-- (struct CGAffineTransform)ÿ0Æ;
-- (id)¬ÙÚÛk;
-- (double)ºª÷k;
-- (void)<=h;
-- (_Bool)>ül;
-- (_Bool)¬m;
-- (void)ên;
-- (void)`ön;
-- (_Bool)U&ÓãZo;
-- (id)ÿ;
 - (void);
-- (void)ÓÖÝ	r;
-- (id);
 - (_Bool);
-- (void)à£©ÿ6Ú§Òr;
+- (void);
+- (double);
+- (struct CGAffineTransform);
+- (void);
+- (_Bool);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (double);
+- (double);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)Fù1dÐ1Â0@ù
+× ;
+- (double)Ô	!Bùe1Â0@ù
+× ;
+- (void);
+- (void)ration";
+- (void)stedActions:(double)arg1;
+- (void);
+- (_Bool)setInitialLocation: /* Error: Ran out of types for this method. */;
+- (void)Presented;
+- (void)ne;
+- (void)int;
+- (double)utAndPerformImmediately: /* Error: Ran out of types for this method. */;
+- (_Bool)lyphsAndTextLayout;
+- (void)dicator;
+- (void)mainQ_resetForLoader:(_Bool)arg1 delegate: /* Error: Ran out of types for this method. */;
+- (void)oardExclusivityIdentifier;
+- (double)9D2CA9BD7C0EB20MonochromaticDataVCM;
+- (void)H	I
+;
+- (double)kÜk0l°münxo;
+- (double)PvDwLyz°{|}DÈ,ôT,¬;
+- (double)C;
+- (void)\	Ü\è^_ð_$`Ä`;
+- (void)ðÈ;
+- (struct CGSize)pà;
+- (void)reference angle requested for contextID %i -> %.0f;
+- (id)t presenting scene is already being presented.;
+- (void)lly contains:(_Bool)arg1 %@;
+- (id);
+- (void)ties;
+- (id)te received call to -application:performFetchWithCompletionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
+- (void)ITraitCollectionCIeggg_;
+- (id)Qà?ffffffö?;
+- (void)y`;
+- (_Bool)°à-ÿÞù;
+- (id)H>«ÿ#aG;
+- (void)À¶iþ;
+- (_Bool)Øäm;
+- (id);
+- (_Bool)3ºÐÈ7p;
+- (_Bool)r;
+- (id)@^r;
+- (void)\r;
+- (void)F;
+- (_Bool)<&|ÿ»ÝPSs;
+- (id);
+- (void);
 
 // Remaining properties
+@property(nonatomic, readonly) NSArray *_activeDetents;
 @property(nonatomic) double _additionalMinimumTopInset;
 @property(nonatomic, readonly) long long _adjustedIndexOfCurrentActiveDetentForContainedFirstResponder;
 @property(nonatomic) _Bool _allowsAsymmetricVerticalMargins;

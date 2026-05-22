@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void)iled to recording Apple ID GDPR acknowledgement.. error = %{public}@;
 - (void);
-- (id)eue.swift;
+- (id);
+- (void)[No audio tap setup possible] - item:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

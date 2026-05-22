@@ -29,25 +29,25 @@
 - (struct UAMeasureFormat *);
 - (int);
 - (_Bool);
-- (id)Ț;
 - (id);
 - (id);
-- (void);
+- (id);
+- (void);
 - (int);
-- (void)s;
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (id)ailed to save uncommitted reminder {error:%s, reminderID:%@} /* Error: Ran out of types for this method. */;
-- (void)UpButton;
 - (void);
-- (void);
-- (id);
 - (void);
-- (id));
 - (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (void);
-- (id)plicates:(id)arg1;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *fallbackTemperatureString; // @synthesize fallbackTemperatureString=_fallbackTemperatureString;

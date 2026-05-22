@@ -18,24 +18,24 @@
     NSString *_macAddress;
 }
 
-+ (_Bool)fem;
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)öÿ;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)p')è)h*;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *BSSID; // @synthesize BSSID=_BSSID;

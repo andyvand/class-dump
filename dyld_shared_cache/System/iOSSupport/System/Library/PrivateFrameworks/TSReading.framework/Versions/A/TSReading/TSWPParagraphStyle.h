@@ -28,8 +28,8 @@
 + (float);
 + (id);
 + (id);
-+ (void)ue degradedImageRefForForProvider:quality:canvasScale:] /* Error: Ran out of types for this method. */;
-+ (id)ðµÝÿ=X¦×;
++ (id);
++ (void);
 - (_Bool);
 - (id);
 - (void);
@@ -48,8 +48,8 @@
 - (struct __CTFont *);
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *presetKind;

@@ -47,98 +47,99 @@ __attribute__((visibility("hidden")))
     struct CGPoint _startingContentOffsetForObservedScrollView;
 }
 
-+ (id)ze:%lu /* Error: Ran out of types for this method. */;
-+ (id)sioning;
 + (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
++ (id);
++ (id);
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType)@8;
+- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (void): /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)ream;
-- (void);
-- (void);
-- (id)(;
-- (_Bool);
-- (struct CGPoint);
-- (void);
-- (void)B;
-- (void);
 - (id);
-- (unsigned long long)A0º;
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (_Bool);
+- (void);
+- (void)1Â0@ù
+× ;
+- (struct CGPoint)Á!´Bù^1Â0@ù
+× ;
 - (void)
 × ;
-- (id)ñÄÐ1¢!0@ù
+- (void)!¸Fù±`Ð1Â0@ù
 × ;
-- (void);
+- (void)Ð1Â0@ù
+× ;
 - (_Bool)0@ù
 × ;
-- (void)@ù
-× ;
+- (void)b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
+- (CDUnknownBlockType): /* Error: Ran out of types for this method. */;
+- (void)ar:shouldChangeTextInRanges:replacementText: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Named:action: /* Error: Ran out of types for this method. */;
+- (id)gmentState:isMini:withFallback: /* Error: Ran out of types for this method. */;
+- (_Bool)ete;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)wActionsPanningGestureRecognizer;
+- (void)Leaf:(double)arg1 translationMap:(CDUnknownBlockType)arg2 translator:(CDUnknownBlockType)arg3 addingModifiers:ignoringModifiers: /* Error: Ran out of types for this method. */;
+- (void)nFrame;
+- (void)etingAnimations:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)uiringContentMargin;
+- (void)onItem;
+- (void)kGeneratorConfiguration;
+- (double)àQ^Ô^;
+- (void);
+- (_Bool);
+- (void)nce map for object %@:(id)arg1 existing count is %ld;
+- (_Bool)"%@";
+- (_Bool)oryCompareToCategory cannot be used to order arbitrary strings, only UIContentSizeCategory objects (comparing %@ to %@).;
+- (void)entEffectivePreferredFocusEnvironments(__strong id<UIFocusEnvironment> _Nonnull, BOOL * _Nullable);
+- (id)@);
+- (id)ionViewDiffableDataSource supplementary view provider. Creating a new registration each time a supplementary view is requested will prevent reuse and cause created supplementary views to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:%@ /* Error: Ran out of types for this method. */;
+- (void)onfiguredReusableCellWithRegistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
+- (id)ateForSelection);
+- (void)"UICollectionViewUpdateItem"8Q16^B24;
+- (void)of spacing and size specified. This group cannot fit even a single item. Inspect the spacing and size of the items in this group and ensure that they fit into the group when its effective size is %@.
+Group:%@ /* Error: Ran out of types for this method. */;
+- (void)namingHandler != NULL;
+- (void)text attributes in this older app are only respected for UIControlStateNormal, UIControlStateSelected and UIControlStateDisabled. state = %d is interpreted as UIControlStateSelected. Linking with a current SDK causes custom text attributes for UIControlStateHighlighted to be respected separately.;
+- (long long)on With Pencil;
+- (_Bool)result in a corrupted navigation bar;
+- (void)move your +_forceLegacyVisualProvider override.;
+- (void)eATVLight;
+- (void)e;
+- (_Bool)ponsePhaseContextMutation;
+- (void)UIColor"16@?0@"UITraitCollection"8;
+- (void)UILeadingButtonToggle;
 - (void);
-- (void)Ô ;
-- (_Bool)y°!dAùQÏ1¢!0@ù
-× ;
-- (void)w"B>28@0:(id)arg1 8@"UITextRange"16B24;
-- (void)ect={CGPoint=dd}{CGSize=dd}}40;
-- (void)ying>"16@0:(_Bool)arg1 8;
-- (_Bool)lidatedNewIndexPathForSupplementaryElementOfKind:oldIndexPath: /* Error: Ran out of types for this method. */;
-- (void)usesSinglePixelLineWidth;
-- (void)owAtIndexPath:(id)arg1;
-- (id)markButton;
-- (void)StatusBarAppearanceUpdate;
-- (void)tation: /* Error: Ran out of types for this method. */;
-- (void)asuredNumberOfSubTitleLines;
-- (_Bool)initWithName:image:target:selector: /* Error: Ran out of types for this method. */;
-- (void)extraResults:(double)arg1;
-- (void)Configuration;
-- (void)EndZoom;
-- (id)leLayout:editingStyleForRowAtIndexPath: /* Error: Ran out of types for this method. */;
-- (_Bool)_registerImage:withConfiguration: /* Error: Ran out of types for this method. */;
-- (void)r;
-- (void)esolvedActivityIndicatorSize;
-- (double)tion: /* Error: Ran out of types for this method. */;
-- (id)ryMovementRequestWithFocusSystem: /* Error: Ran out of types for this method. */;
-- (void)t:(CDUnknownBlockType)arg1 collectionView:(CDUnknownBlockType)arg2 cachedPreviouslyFocusedIndexPath: /* Error: Ran out of types for this method. */;
-- (id)ngDropIntoCell: /* Error: Ran out of types for this method. */;
-- (id)yPresentation",W,N,V_overlayPresentation;
-- (void)pÌ7¸hè
-¨`	 @	´è0 ;
-- (void)¾;
-- (id)dDisplayMode = %ld; preferredDisplayMode = %ld;
-- (void)service did terminate with error:(id)arg1 %@;
-- (void)ith UIScene lifecycle;
-- (id)ng request to call completion handler for already finished session deputy shim:'%@' :%{public}@ /* Error: Ran out of types for this method. */;
-- (void)þÔþÿ;
 - (void);
-- (void)í3G3í3GUí3GGSg;
-- (void)disabled); ;
-- (void)Offset;
-- (void)vior;
-- (void)ding;
-- (_Bool)eNotificationsForStart:1 /* Error: Ran out of types for this method. */;
-- (void)FileURLCacheDeletionTimeInterval;
-- (id)empt to revert document at URL (%@) to URL (%@) that is not yet open;
-- (void)ndowSceneAccessibilityContrastSettingsDiffAction.m;
-- (void)llCentering;
-- (void)tionLevel;
-- (_Bool)\;
-- (_Bool)øºÿ;
+- (_Bool);
+- (void)þÿ;
+- (void);
+- (_Bool)½þÿ^ÔþÿúÓþÿ;
+- (_Bool)3GGSOGGGAIyQ¢.3ys¾7GGG_ºÚ.3Qo_;
 - (void);
-- (long long)Ð'_;
-- (id)1ÿ;
-- (void);
-- (void)èm;
+- (void)iddenViewsContributeToPocketC;
+- (void)zOþ;
+- (void)U	¿7_G;
+- (void)E03ySo8UIScreenC03G;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)lEffectContentProxy;
+- (_Bool)13;[;
+- (void);
 - (id);
+- (void)23ð|;
+- (void)R0;
+- (void);
+- (void)erTransitionComponent;
+- (void)±þ;
+- (id);
+- (void);
+- (void);
+- (id)$3\;
+- (id)«Á;
 
 // Remaining properties
 @property(nonatomic) _Bool allowLargeTitles;

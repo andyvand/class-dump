@@ -7,8 +7,6 @@
 @class NSArray, NSString;
 
 @protocol FCChannelProviding
-- (_Bool);
-- (NSArray *)`";
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *backIssuesListID;

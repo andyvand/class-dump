@@ -16,16 +16,16 @@
 + (id);
 + (id);
 + (id);
-- (id)B;
+- (id);
 - (unsigned long long);
 - (id);
-- (id)2;
+- (id);
 - (unsigned long long);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id)building context for headline %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long charCount; // @synthesize charCount=_charCount;

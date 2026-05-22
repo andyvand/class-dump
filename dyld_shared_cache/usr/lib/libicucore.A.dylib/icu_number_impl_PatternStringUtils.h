@@ -4,10 +4,10 @@
 
 class icu::number::impl::PatternStringUtils {
 public: // (access info unavailable from symbols alone)
-    convertLocalized(icu::UnicodeString const&, icu::DecimalFormatSymbols const&, bool, UErrorCode&);
-    escapePaddingString(icu::UnicodeString, icu::UnicodeString&, int, UErrorCode&);
-    ignoreRoundingIncrement(double*, int);
-    patternInfoToStringBuilder(icu::number::impl::AffixPatternProvider const&, bool, icu::number::impl::PatternSignType, bool, icu::StandardPlural::Form, bool, bool, icu::UnicodeString&);
-    propertiesToPatternString(icu::number::impl::DecimalFormatProperties const&, UErrorCode&);
-    resolveSignDisplay(UNumberSignDisplay, icu::number::impl::Signum);
+    auto convertLocalized(icu::UnicodeString const&, icu::DecimalFormatSymbols const&, bool, UErrorCode&);
+    auto escapePaddingString(icu::UnicodeString, icu::UnicodeString&, int, UErrorCode&);
+    auto ignoreRoundingIncrement(double*, int);
+    auto patternInfoToStringBuilder(icu::number::impl::AffixPatternProvider const&, bool, icu::number::impl::PatternSignType, bool, icu::StandardPlural::Form, bool, bool, icu::UnicodeString&);
+    auto propertiesToPatternString(icu::number::impl::DecimalFormatProperties const&, UErrorCode&);
+    auto resolveSignDisplay(UNumberSignDisplay, icu::number::impl::Signum);
 };

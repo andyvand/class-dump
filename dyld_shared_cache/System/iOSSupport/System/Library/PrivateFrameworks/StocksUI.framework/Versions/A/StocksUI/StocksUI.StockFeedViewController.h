@@ -39,19 +39,19 @@
 }
 
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)¹E6;
+- (void);
+- (void);
+- (void)\úÿ¨úÿÜúÿúÿLúÿØúÿüúÿ8úÿlúÿúÿ´úÿØúÿDúÿhúÿúÿÀúÿüúÿ  úÿ´ úÿè úÿ$!úÿ<!úÿT!úÿð!úÿ"úÿ@"úÿd"úÿx#úÿ#úÿÈ#úÿì#úÿp$úÿ¤$úÿ;
+- (long long)¾ÿ;
+- (void)terType;
+- (void)ù^¥Hê½ÿù^¥Dê½ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) long long preferredStatusBarStyle;

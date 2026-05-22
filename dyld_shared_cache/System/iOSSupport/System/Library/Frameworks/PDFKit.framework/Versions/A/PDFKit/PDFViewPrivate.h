@@ -78,7 +78,7 @@ __attribute__((visibility("hidden")))
     PDFViewDebugFlags *debugFlags;
 }
 
-- (void)delegate;
+- (void);
 
 @end
 

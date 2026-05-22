@@ -13,9 +13,9 @@
 
 + (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ted:extractedBackgroundColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;

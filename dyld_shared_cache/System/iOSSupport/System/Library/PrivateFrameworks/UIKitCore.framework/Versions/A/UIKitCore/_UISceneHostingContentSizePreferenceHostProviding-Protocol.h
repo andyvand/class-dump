@@ -7,7 +7,6 @@
 @protocol _UISceneHostingContentSizePreferenceHostReceiving;
 
 @protocol _UISceneHostingContentSizePreferenceHostProviding
-- (void)ength;
 
 // Remaining properties
 @property(nonatomic, setter=setContentSizePreferenceReceiver:) __weak id <_UISceneHostingContentSizePreferenceHostReceiving> contentSizePreferenceReceiver;

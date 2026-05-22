@@ -11,15 +11,15 @@
     NSMutableArray *_notificationsContext;
 }
 
-+ (id)grator;
++ (id)to %ld for Message Processing Task with guid:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id)showBrushIndicator,SsetShowBrushIndicator: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ÿqb;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *notificationsContext; // @synthesize notificationsContext=_notificationsContext;

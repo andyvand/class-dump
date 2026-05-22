@@ -5,18 +5,21 @@
 class mach_o::Image {
 public: // (access info unavailable from symbols alone)
     Image(mach_header const*);
-    makeBindOpcodes();
-    makeChainedFixups();
-    makeExportsTrie();
-    makeFunctionStarts();
-    makeFunctionVariantFixups();
-    makeFunctionVariants();
-    makeLazyBindOpcodes();
-    makeRebaseOpcodes();
-    makeSplitSegInfo();
-    makeSymbolTable();
-    makeWeakBindOpcodes();
-    segment(unsigned int) const;
-    segmentCount() const;
-    withSegments(void (std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>) block_pointer) const;
+    auto forEachLazyLoadDylib(void (unsigned int*, CString, bool) block_pointer) const;
+    auto forEachLazyLoadDylibSymbol(unsigned int*, void (CString, void*, mach_o::Image::PACInfo) block_pointer) const;
+    auto makeBindOpcodes();
+    auto makeChainedFixups();
+    auto makeDataInCode();
+    auto makeExportsTrie();
+    auto makeFunctionStarts();
+    auto makeFunctionVariantFixups();
+    auto makeFunctionVariants();
+    auto makeLazyBindOpcodes();
+    auto makeRebaseOpcodes();
+    auto makeSplitSegInfo();
+    auto makeSymbolTable();
+    auto makeWeakBindOpcodes();
+    auto segment(unsigned int) const;
+    auto segmentCount() const;
+    auto withSegments(void (std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>) block_pointer) const;
 };

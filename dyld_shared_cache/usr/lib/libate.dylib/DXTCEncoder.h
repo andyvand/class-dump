@@ -4,20 +4,20 @@
 
 class DXTCEncoder {
 public: // (access info unavailable from symbols alone)
-    CompressTexels(at_texel_region_t const&, at_block_buffer_t const&, float, at_flags_t) const;
-    CompressTexels(at_texel_region_t const&, at_block_buffer_t const&, float, at_flags_t) const::kSRGBprimaries;
     DXTCEncoder(CommonData const&);
     DXTCEncoder(CommonData const&)::once_control;
-    DebugDescription(char*, unsigned long) const;
-    DecompressTexels(at_block_buffer_t const&, at_texel_region_t const&, at_flags_t) const;
-    GetBlockCounts(at_size_t) const;
-    GetBlockDimensions() const;
-    GetBlockFeaturesStatic(at_block_format_t, at_flags_t);
-    GetBlockSize() const;
-    GetEncoderType() const;
-    GetHash() const;
-    IsCompressionMonolithic(at_flags_t) const;
-    IsDecompressionMonolithic(at_flags_t) const;
-    operator==(ATEncoder const&) const;
+    auto CompressTexels(at_texel_region_t const&, at_block_buffer_t const&, float, at_flags_t) const;
+    auto CompressTexels(at_texel_region_t const&, at_block_buffer_t const&, float, at_flags_t) const::kSRGBprimaries;
+    auto DebugDescription(char*, unsigned long) const;
+    auto DecompressTexels(at_block_buffer_t const&, at_texel_region_t const&, at_flags_t) const;
+    auto GetBlockCounts(at_size_t) const;
+    auto GetBlockDimensions() const;
+    auto GetBlockFeaturesStatic(at_block_format_t, at_flags_t);
+    auto GetBlockSize() const;
+    auto GetEncoderType() const;
+    auto GetHash() const;
+    auto IsCompressionMonolithic(at_flags_t) const;
+    auto IsDecompressionMonolithic(at_flags_t) const;
+    auto operator==(ATEncoder const&) const;
     ~DXTCEncoder();
 };

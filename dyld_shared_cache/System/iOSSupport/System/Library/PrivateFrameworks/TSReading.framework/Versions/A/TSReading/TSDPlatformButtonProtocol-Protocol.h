@@ -5,6 +5,6 @@
 //
 
 @protocol TSDPlatformButtonProtocol
-- (void);
+- (void)È;
 @end
 

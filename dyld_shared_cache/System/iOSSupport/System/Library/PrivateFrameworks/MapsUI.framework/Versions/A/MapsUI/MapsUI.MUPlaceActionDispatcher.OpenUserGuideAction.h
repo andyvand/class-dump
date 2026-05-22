@@ -13,8 +13,8 @@
     MISSING_TYPE *collectionId;
 }
 
-- (void);
 - (id);
+- (void),N,V_guideID;
 
 @end
 

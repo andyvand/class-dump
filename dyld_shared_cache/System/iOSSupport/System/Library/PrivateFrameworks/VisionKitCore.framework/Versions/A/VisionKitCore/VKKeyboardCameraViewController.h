@@ -124,28 +124,27 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (void)QN1B0@ù
-× ;
-- (void)?={?=qiIq}{?=qiIq}}16@0:(id)arg1 8;
-- (void)onvertingFromView:(_Bool)arg1 toView:isNormalized: /* Error: Ran out of types for this method. */;
-- (void)¬Ì0;
-- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)iew;
+- (void)orView:(id)arg1;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) VKKeyboardCameraCloseButton *closeButton; // @synthesize closeButton=_closeButton;

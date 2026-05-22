@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)ü0;
++ (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)Content;
 
 @end
 

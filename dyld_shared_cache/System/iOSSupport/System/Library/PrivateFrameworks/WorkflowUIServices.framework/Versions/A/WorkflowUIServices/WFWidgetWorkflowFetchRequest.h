@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
 - (unsigned long long);
 - (CDUnknownBlockType);
+- (id);
+- (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)stry;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

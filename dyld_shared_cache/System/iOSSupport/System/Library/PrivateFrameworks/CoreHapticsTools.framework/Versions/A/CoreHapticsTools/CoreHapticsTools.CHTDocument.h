@@ -27,8 +27,8 @@
     MISSING_TYPE *url;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

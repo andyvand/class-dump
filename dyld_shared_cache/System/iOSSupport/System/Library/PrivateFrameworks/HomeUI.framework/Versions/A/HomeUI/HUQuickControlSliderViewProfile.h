@@ -36,8 +36,8 @@
 - (double);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)DetailsNoRemoteAccessNotAtHomeTitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

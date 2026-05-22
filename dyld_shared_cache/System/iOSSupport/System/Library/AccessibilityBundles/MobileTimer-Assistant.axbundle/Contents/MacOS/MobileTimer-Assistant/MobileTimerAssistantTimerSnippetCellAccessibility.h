@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
 + (Class);
-- (unsigned long long);
++ (id);
 - (_Bool);
+- (unsigned long long);
 - (id);
 
 @end

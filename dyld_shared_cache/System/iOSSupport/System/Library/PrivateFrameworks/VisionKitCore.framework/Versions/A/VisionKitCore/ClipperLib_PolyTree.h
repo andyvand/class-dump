@@ -4,7 +4,7 @@
 
 class ClipperLib::PolyTree {
 public: // (access info unavailable from symbols alone)
-    Clear();
-    GetFirst() const;
-    Total() const;
+    auto Clear();
+    auto GetFirst() const;
+    auto Total() const;
 };

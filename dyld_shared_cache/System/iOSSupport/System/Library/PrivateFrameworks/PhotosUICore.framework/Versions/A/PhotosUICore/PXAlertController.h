@@ -20,11 +20,11 @@
 + (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)4ÔÔ;
-- (void)d time:(_Bool)arg1 %f, loaded segments ahead count:%ld, loaded segments:%@ /* Error: Ran out of types for this method. */;
-- (void)ÈNúÿÏ;
+- (void)le;
+- (void)tResult;
+- (void)híõ;
+- (id)ô38;
+- (void)9;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

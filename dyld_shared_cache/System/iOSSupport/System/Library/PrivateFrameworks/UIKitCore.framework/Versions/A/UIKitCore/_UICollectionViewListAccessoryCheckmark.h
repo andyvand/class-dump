@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _accessoryUsesMonochromaticTreatment;
 }
 
-- (_Bool);
-- (void)!0@ù
+- (void);
+- (_Bool)0@ù
 × ;
 
 // Remaining properties

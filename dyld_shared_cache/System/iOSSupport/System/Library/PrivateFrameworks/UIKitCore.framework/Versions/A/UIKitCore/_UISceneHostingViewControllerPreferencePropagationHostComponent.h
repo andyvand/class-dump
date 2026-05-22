@@ -16,18 +16,20 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (long long);
-- (int)Date;
-- (unsigned long long)lFieldStackView;
-- (long long);
+- (int);
+- (_Bool);
+- (id);
 - (void);
-- (_Bool)!0@ù
+- (id)0@ù
 × ;
-- (long long)rClass:position: /* Error: Ran out of types for this method. */;
-- (void)ExportedHostingObject:(id)arg1 successHandler: /* Error: Ran out of types for this method. */;
-- (id)L;
-- (void);
-- (id)ôk8G;
-- (void)agUntilUsed;
+- (long long)@ù
+× ;
+- (void);
+- (long long)1Â0@ù
+× ;
+- (void)¼;
+- (unsigned long long)%@;
+- (void)cationIntelligenceCollector;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

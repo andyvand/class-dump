@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CAAction;
+
 @protocol CALayerDelegate
 
 @optional
-- (void)Ä|zÆþ;
-- (void)/;
+- (void)for the current article;
+- (void)¥ê7d@ÿ;
+- (id <CAAction>);
 @end
 

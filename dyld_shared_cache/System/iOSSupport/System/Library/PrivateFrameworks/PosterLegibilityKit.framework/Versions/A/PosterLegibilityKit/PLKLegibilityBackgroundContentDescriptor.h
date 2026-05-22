@@ -37,12 +37,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (double);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (double);
-- (id);
+- (id)ererContext"8;
 
 // Remaining properties
 @property(readonly, nonatomic) double renderScale; // @synthesize renderScale=_shadowRenderScale;

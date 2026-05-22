@@ -15,16 +15,16 @@
     NSData *_localizedIntentData;
 }
 
-+ (_Bool)as the GPS coordinates where the photo was taken, will be stripped from the image file.;
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void)e;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;

@@ -148,14 +148,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
@@ -167,15 +167,19 @@
 - (struct CGPoint);
 - (float);
 - (unsigned long long);
+- (long long);
 - (struct CGAffineTransform);
-- (_Bool);
-- (double);
 - (struct CGSize);
-- (id);
-- (struct CLLocationCoordinate2D)tence request failed;
-- (long long)ortrait;
-- (id)Title;
-- (id)Vþ3;
+- (struct CLLocationCoordinate2D)1â
+0@ù
+× ;
+- (_Bool)1â
+0@ù
+× ;
+- (double)pdateSectionObjectLookupDataForChildItem: /* Error: Ran out of types for this method. */;
+- (id)ton:destination is nil /* Error: Ran out of types for this method. */;
+- (id)liedCompositionAction initWithCompositionController:] /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

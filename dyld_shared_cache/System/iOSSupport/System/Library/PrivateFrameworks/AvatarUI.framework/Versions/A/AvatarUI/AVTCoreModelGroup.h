@@ -15,13 +15,12 @@
 }
 
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id)°!ÈCù1Éð1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *categories; // @synthesize categories=_categories;

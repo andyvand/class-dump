@@ -17,19 +17,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ptions:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)mpletion returned %d;
-- (id)%@;
-- (void);
-- (void);
-- (id);
-- (void);
-- (id)X;
 - (void);
 - (id);
-- (void)ÜB;
-- (id)ableErrors;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)eCommandEvent"16@?<v@?@"MPRemoteCommandStatus">24;
+- (void)pletion:| committing edit [update after reshuffle] sugggestedStartingContentItemID=%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;

@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id)à;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *activeDeviceIdentifier; // @dynamic activeDeviceIdentifier;

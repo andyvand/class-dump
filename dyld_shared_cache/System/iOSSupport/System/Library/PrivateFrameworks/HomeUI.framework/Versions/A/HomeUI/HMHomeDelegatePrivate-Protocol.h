@@ -7,9 +7,6 @@
 @protocol HMHomeDelegatePrivate
 
 @optional
-- (void)&Ð!BùÑ/°1b0@ù
-× ;
-- (void)Ô¡&!Aù0°1b0@ù
-× ;
+- (void)_sendFilterBarViewToBackIfNeeded;
 @end
 

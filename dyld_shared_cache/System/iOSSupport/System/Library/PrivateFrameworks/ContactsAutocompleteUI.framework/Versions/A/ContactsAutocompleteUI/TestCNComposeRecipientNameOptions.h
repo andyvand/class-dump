@@ -10,7 +10,8 @@
 
 + (Class);
 + (id);
-+ (id)View;
++ (id)0@ù
+× ;
 
 @end
 

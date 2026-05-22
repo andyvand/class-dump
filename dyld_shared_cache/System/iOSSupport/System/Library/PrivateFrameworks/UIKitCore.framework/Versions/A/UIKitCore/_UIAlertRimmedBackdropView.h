@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (void)0@ù
-× ;
-- (void)d;
-- (id)ognizerDelegate>",W,N,V_pinchDelegate;
+- (void)lB	èB
+CDXEHFG;
+- (void)èO<PÐPdQ;
+- (void)ÿ!;
+- (id);
 
 @end
 

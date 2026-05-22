@@ -14,10 +14,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)'%s' - already processed with siblings;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;

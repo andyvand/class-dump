@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void)ntFrame;
-- (void)ngDragExclusionRects;
-- (_Bool)¼4ÇÿcÏèg;
 - (_Bool);
+- (_Bool)iewOffset;
+- (void);
+- (void)ompletion:(id)arg1;
+- (void)d; levelsAreDifferent:(id)arg1 %d;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -25,33 +25,30 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *transformView;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void)(%@);
-- (void)d message;
-- (void)tching participants chat %ld received %ld;
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (struct UIEdgeInsets)cusedView;
+- (void)upPresentationStyles;
+- (void)_prepareHighlightForInteraction:(struct UIEdgeInsets)arg1;
+- (id);
+- (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void)o°!´GùQÁ°1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)1È1¢!0@ù
-× ;
-- (struct UIEdgeInsets):horizontalTranslation:gestureState:resetPanTranslationBlock: /* Error: Ran out of types for this method. */;
-- (id)AdvanceResponder;
-- (id)iguration;
-- (id);
-- (id);
-- (id)þ.CÍGôf;
-- (void) ;
-- (id)sßl;
+- (void)h¸íþYÛôGl;
+- (id)þ;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsUserInteraction; // @synthesize allowsUserInteraction;

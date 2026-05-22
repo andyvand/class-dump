@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PRPosterFocusConfiguration, PRPosterHomeScreenConfiguration, PRPosterRenderingConfiguration, PRPosterTitleStyleConfiguration;
-@protocol PBFComplicationLookupInfo, PBFPosterDescriptorLookupInfo;
+@class NSString, PRPosterFocusConfiguration, PRPosterHomeScreenConfiguration;
+@protocol PBFPosterDescriptorLookupInfo;
 
 @protocol PBFPosterPreview
-- (_Bool)Label;
-- (unsigned long long)¢ÿÿ¯ìÿÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *complicationLayoutType;
-@property(readonly, nonatomic) _Bool complicationsUseBottomLayout;
 @property(readonly, copy, nonatomic) NSString *displayNameLocalizationKey;
 @property(readonly, copy, nonatomic) PRPosterFocusConfiguration *focusConfiguration;
 @property(readonly, nonatomic) unsigned long long galleryDisplayStyle;
 @property(readonly, copy, nonatomic) PRPosterHomeScreenConfiguration *homeScreenConfiguration;
 @property(readonly, copy, nonatomic) id <PBFPosterDescriptorLookupInfo> posterDescriptorLookupInfo;
 @property(readonly, nonatomic) unsigned long long presentationStyle;
-@property(readonly, copy, nonatomic) PRPosterRenderingConfiguration *renderingConfiguration;
-@property(readonly, copy, nonatomic) id <PBFComplicationLookupInfo> subtitleComplication;
-@property(readonly, copy, nonatomic) NSArray *suggestedComplications;
-@property(readonly, copy, nonatomic) NSArray *suggestedLandscapeComplications;
-@property(readonly, copy, nonatomic) PRPosterTitleStyleConfiguration *titleStyleConfiguration;
 @end
 

@@ -4,7 +4,7 @@
 
 class vector<phy_ext> {
 public: // (access info unavailable from symbols alone)
-    push_back(phy_ext const&);
-    reserve(unsigned long);
+    auto push_back(phy_ext const&);
+    auto reserve(unsigned long);
     ~vector();
 };

@@ -8,20 +8,17 @@
 @protocol FCPuzzleTypeProviding;
 
 @protocol FCPuzzleProviding
-- (NSString *)C;
-- (NSString *)(;
-- (NSString *);
-- (NSString *)ictionCSg;
-- (NSString *)$;
-- (long long)Ðª;
-- (NSDate *)ÿçäÿ4èäÿ|èäÿ èäÿÄèäÿ(éäÿ@éäÿéäÿ¨éäÿÌéäÿðéäÿêäÿ8êäÿtêäÿêäÿëäÿDëäÿhëäÿëäÿ¼ëäÿàëäÿìäÿ@ìäÿÔìäÿøìäÿíäÿLíäÿpíäÿíäÿÐíäÿôíäÿ@îäÿ|îäÿ°îäÿÔîäÿøîäÿðäÿHðäÿlðäÿðäÿ¸ðäÿôðäÿñäÿTñäÿ¼òäÿàòäÿ<óäÿxóäÿóäÿôäÿXôäÿ|ôäÿ ôäÿÄôäÿðôäÿõäÿHõäÿtõäÿõäÿ¼õäÿàõäÿöäÿ(öäÿLöäÿpöäÿ¨öäÿ ÷äÿÔ÷äÿø÷äÿ$øäÿHøäÿÄøäÿLùäÿØùäÿäùäÿúäÿxúäÿúäÿÌúäÿðúäÿûäÿPûäÿtûäÿüäÿ¬üäÿýäÿ¬ýäÿ¸ýäÿÄýäÿÐýäÿþäÿ(þäÿTþäÿ`þäÿþäÿØþäÿ4ÿäÿXÿäÿÿäÿ¬ÿäÿÐÿäÿ;
-- (NSDate *)peP;
-- (NSString *);
-- (NSArray *)`ìyÿÍ
-;
-- (_Bool)í¿;
-- (void)`î\ýBÿP%;
-- (_Bool)Àþ;
+- (NSArray *)_TtC7NewsUI221IssueBookmarkProvider;
+- (NSDate *);
+- (NSArray *)\ST\T¸TUdU;
+- (NSString *)$;
+- (void)ate;
+- (NSString *)when opened from Safari through open in News.;
+- (_Bool)Zèªþ*Zªþ¥*Z0ªþ*ZTªþ­*Z¬¼ÿ*Z;
+- (NSDate *)|!;
+- (_Bool);
+- (NSDate *)e\×±þ;
+- (_Bool)4;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allowedStorefrontIDs;

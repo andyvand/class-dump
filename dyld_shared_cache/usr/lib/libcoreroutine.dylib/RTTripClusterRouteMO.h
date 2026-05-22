@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)?E;
-+ (id)¸;
++ (id);
++ (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long clRoadID; // @dynamic clRoadID;

@@ -14,12 +14,11 @@ __attribute__((visibility("hidden")))
     UILabel *_sceneIdentifierLabel;
 }
 
-- (void)ssMentionForPersonHandle: /* Error: Ran out of types for this method. */;
-- (_Bool)erging is disabled. Not establishing an accepted contact change observer.;
 - (void);
 - (_Bool);
-- (id)Ýþ/
-;
+- (id);
+- (void)ìµ\;
+- (_Bool)ßÿvÉü`;
 
 @end
 

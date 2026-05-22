@@ -12,17 +12,18 @@
     NSDateComponents *_end;
 }
 
-+ (id)Array",R,C,V_ipv4Addresses;
-+ (_Bool)So8NSObjectC;
++ (_Bool);
++ (id)sory;
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id)ð1B50@ù
+× ;
+- (void)orySetting;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

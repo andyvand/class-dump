@@ -20,13 +20,13 @@
 - (_Bool);
 - (struct CGRect);
 - (struct CGPoint);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *rootLayer; // @synthesize rootLayer=_rootLayer;

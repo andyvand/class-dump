@@ -18,17 +18,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id)16@?24;
-- (id)s;
-- (void)ChatCount;
+- (id);
+- (id);
+- (void);
 - (double);
-- (_Bool)viderProtocol;
-- (_Bool)ityTracker;
+- (_Bool);
+- (_Bool);
 - (double);
-- (void)ing scrutiny mode;
-- (id)ServiceSession networkConditionsAllowLogin]:%@ (%@)   (Fallback) /* Error: Ran out of types for this method. */;
-- (void);
-- (id)gineState: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void)äóÿ;
 
 // Remaining properties
 @property(nonatomic) __weak UIAlertController *alertController; // @synthesize alertController=_alertController;

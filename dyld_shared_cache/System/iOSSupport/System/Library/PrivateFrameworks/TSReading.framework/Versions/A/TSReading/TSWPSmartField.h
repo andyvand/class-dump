@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (id);
++ (id)_;
 - (void);
 - (void);
 - (void);
@@ -25,15 +25,15 @@
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (int);
-- (void)?;
+- (void);
 - (id);
+- (struct _NSRange);
 - (_Bool);
-- (struct _NSRange)DisplayText;
-- (id);
+- (int);
+- (id)ze>>>="__bucket_list_"{unique_ptr<std:(id)arg1:__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int attributeArrayKind;

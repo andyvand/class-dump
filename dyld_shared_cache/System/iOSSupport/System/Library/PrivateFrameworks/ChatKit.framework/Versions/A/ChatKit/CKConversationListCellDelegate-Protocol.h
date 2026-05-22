@@ -5,11 +5,5 @@
 //
 
 @protocol CKConversationListCellDelegate
-
-@optional
-- (double);
-- (_Bool)mÕ;
-- (void)sible;
-- (_Bool)ح;
 @end
 

@@ -51,20 +51,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (long long);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void)îW;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;

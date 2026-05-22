@@ -19,10 +19,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)!FùQf°1B0@ù
-× ;
-- (void);
+- (void)tion:runningContext:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFOSAScriptEditorParameterDelegate> delegate; // @synthesize delegate=_delegate;

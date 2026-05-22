@@ -23,7 +23,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,25 +38,26 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (_Bool);
-- (_Bool)dKitHooks:(struct CGPoint)arg1;
+- (_Bool);
 - (void);
 - (void);
-- (void)P;
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
 - (void);
-- (_Bool)Extension:(id)arg1;
-- (void)hItems:(id)arg1 afterStandardItem: /* Error: Ran out of types for this method. */;
-- (_Bool)lacement:(id)arg1;
-- (id)tialDistanceFromTargetFrame;
-- (void),V__shadowUpdates;
-- (void)arDataWifiEntry;
-- (void)stored(NSString *, NSString *);
-- (void)ke;
-- (_Bool)ôëÿG;Z;
+- (id)een: /* Error: Ran out of types for this method. */;
+- (_Bool)sConfiguration:(id)arg1;
+- (_Bool)kOption;
+- (id)gQuadCurvePointFIFO",&,N,V_pointInterpolator;
+- (void)åîÿ>ïÿéîÿ;
+- (void)ed row height:(id)arg1 %g; section data:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)estamp;
+- (void)1¾7G;
+- (void)D§\;
+- (void)Oÿgk;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

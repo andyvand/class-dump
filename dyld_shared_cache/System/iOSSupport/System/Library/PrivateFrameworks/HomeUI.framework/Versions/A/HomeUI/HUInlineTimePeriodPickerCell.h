@@ -34,16 +34,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 - (void);
 - (id);
-- (id)leTimer;
-- (void)nkedApplicationView:(id)arg1;
-- (_Bool):] /* Error: Ran out of types for this method. */;
-- (void);
+- (id)alidateNextButton;
+- (void)UDownloadButtonTitle_View;
+- (_Bool);
+- (void)¸V;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allConstraints; // @synthesize allConstraints=_allConstraints;

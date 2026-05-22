@@ -15,8 +15,8 @@
     UITextEffectsWindow *_textEffectsWindow;
 }
 
-- (id)tionsLock;
-- (void)ion should never be deallocated while it is still executing;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,11 +25,11 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void)sDragging;
-- (id);
+- (void)KStrokeProviderSliceIdentifier",R,N,V_identifier;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKTextEffectsWindowObserverDelegate> delegate; // @synthesize delegate=_delegate;

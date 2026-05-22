@@ -28,13 +28,13 @@
 }
 
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)rViewController wrapper:%{public}@. No player view controller found. /* Error: Ran out of types for this method. */;
 
 @end
 

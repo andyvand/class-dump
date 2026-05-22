@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIDatePickerCalendarTime, _UIDatePickerCompactTimeLabel;
-
 @protocol _UIDatePickerCompactTimeLabelDelegate
-- (void)AtURL:(_UIDatePickerCompactTimeLabel *)arg1 withIntermediateDirectories:(_UIDatePickerCalendarTime *)arg2 attributes:error: /* Error: Ran out of types for this method. */;
 @end
 

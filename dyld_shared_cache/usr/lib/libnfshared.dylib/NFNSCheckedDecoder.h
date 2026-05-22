@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id)ationService"16@"GEOStep"24@"NSArray"32i40@"NSString"44i52Q56B64;
++ (id);
 
 @end
 

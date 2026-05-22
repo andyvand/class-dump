@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void)onHandler:] /* Error: Ran out of types for this method. */;
+- (id)e (Description Summary);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,7 +5,5 @@
 //
 
 @protocol CKBrowserDragControllerDelegate
-- (_Bool);
-- (_Bool);
 @end
 

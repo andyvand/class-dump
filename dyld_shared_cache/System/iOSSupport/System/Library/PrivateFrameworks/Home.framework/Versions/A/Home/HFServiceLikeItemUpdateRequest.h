@@ -22,14 +22,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)tM;
+- (void)éïÿ;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

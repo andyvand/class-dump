@@ -4,6 +4,6 @@
 
 class icu::number::NumberRangeFormatter {
 public: // (access info unavailable from symbols alone)
-    with();
-    withLocale(icu::Locale const&);
+    auto with();
+    auto withLocale(icu::Locale const&);
 };

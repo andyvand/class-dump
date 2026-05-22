@@ -4,8 +4,8 @@
 
 class mach_o::GradedArchitectures {
 public: // (access info unavailable from symbols alone)
-    currentLoad(bool, bool);
-    forEachArch(bool, void (mach_o::Architecture) block_pointer) const;
-    hasCompatibleSlice(std::__1::span<mach_o::Architecture const, 18446744073709551615ul>, bool, unsigned int&) const;
-    isCompatible(mach_o::Architecture, bool) const;
+    auto currentLoad(bool, bool);
+    auto forEachArch(bool, void (mach_o::Architecture) block_pointer) const;
+    auto hasCompatibleSlice(std::__1::span<mach_o::Architecture const, 18446744073709551615ul>, bool, unsigned int&) const;
+    auto isCompatible(mach_o::Architecture, bool) const;
 };

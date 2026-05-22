@@ -4,103 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4PipelineDataSetSerializerDescriptor, MTLArchitecture, MTLComputePipelineDescriptor, MTLSharedEventHandle, NSArray, NSString;
-@protocol MTL4Archive, MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTL4Compiler, MTL4PipelineDataSetSerializer, MTLAccelerationStructure, MTLArgumentEncoder, MTLCommandQueue, MTLComputePipelineState, MTLCounterSampleBuffer, MTLDynamicLibrary, MTLEvent, MTLFunctionHandle, MTLHeap, MTLIOFileHandle, MTLLibrary, MTLLogState, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSharedEvent, MTLTexture;
+@class MTLArchitecture, NSArray, NSString, NSURL;
+@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTLAccelerationStructure, MTLBuffer, MTLCommandQueue, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSharedEvent, MTLTensor;
 
 @protocol MTLDevice
-- (CDStruct_14f26992)h8?;
-- (void);
-- (void)d,R,N,V_fadeOutDuration;
-- (_Bool)TQ,R,N,V_pixelFormat;
-- (_Bool)portEnabled;
-- (CDStruct_4bcfbbae)antsCanvasViewLoaded;
-- (id <MTLEvent>)SsetSwitchEnabled: /* Error: Ran out of types for this method. */;
-- (id <MTLIOFileHandle>)ontrollerProvider;
-- (_Bool)pGestureRecognizer",R,N,V_editMenuGR;
-- (unsigned long long)",&,N,V_noOpTapGestureRecognizer;
-- (id <MTLDynamicLibrary>)KPaletteOptionTitleCell",&,N,V_resetImageWandOnboardingPaneCell;
-- (unsigned long long)isabled;
-- (id <MTLLogState>)CachesToPurge;
-- (id <MTL4CommandQueue>)tConstraint",&,N,V_paletteContainerCompactLeftConstraint;
-- (_Bool),V_trailingBarButtons;
-- (void)paceInAttachment:(MTLComputePipelineDescriptor *)arg1;
-- (void)ew;
-- (id <MTLRasterizationRateMap>)elegate",&,N,V__keyboardSuppressionPolicyDelegate;
-- (id <MTL4PipelineDataSetSerializer>)t:(MTL4PipelineDataSetSerializerDescriptor *)arg1;
-- (id <MTLLibrary>)dererTile",R,N,V_tile;
-- (id <MTLLibrary>)doRedoView",R,N,V_undoRedoView;
-- (id <MTL4CommandAllocator>)N,V_scrubbedVariableDrawing;
-- (void)nstraint",&,N,V_scrollViewHeightConstraint;
-- (unsigned long long)Constraint;
-- (id <MTLRenderPipelineState>)"<PKTextInputHandwritingControllerDelegate>",W,N,V_delegate;
-- (id <MTLCounterSampleBuffer>)etalView",&,N,V_metalView;
-- (_Bool)KPerforatedOpacitySliderKnobView;
-- (void)gSynthesisDataCollectionViewController;
-- (id <MTLComputePipelineState>)ckerClippingEdgeView;
-- (id <MTLCommandQueue>)ritingSession;
-- (unsigned long long)ChangeObserver;
-- (id <MTLLibrary>)iewDelegate;
-- (_Bool)ÿ<;
-- (id <MTL4CommandQueue>);
-- (id <MTLIOFileHandle>)|@ÀÀTÄ;
-- (id <MTL4Archive>)Øë;
-- (id <MTLRenderPipelineState>)Üj;
-- (_Bool)$¢
-¨£¥¦;
-- (id <MTLCommandQueue>)üÂHÃ¼ÅàÅxÆÇÄÇ$ÈhÉTÊÜÊ;
-- (id <MTL4CommandBuffer>)x\°Ø¸@ ¢£CÀ¥¦¦l§«;
-- (id <MTLIOFileHandle>)ÔR;
-- (_Bool)¤;
-- (id <MTL4Compiler>);
-- (id <MTLFunctionHandle>)8;
-- (id <MTLAccelerationStructure>)4;
-- (id <MTLRenderPipelineState>);
-- (void);
-- (CDStruct_4bcfbbae)L;
-- (id <MTLTexture>);
-- (_Bool)¨;
-- (_Bool);
-- (_Bool)¤;
-- (id <MTLLibrary>)ì;
-- (_Bool);
-- (id <MTLArgumentEncoder>);
-- (id <MTLAccelerationStructure>);
-- (_Bool)¤;
-- (unsigned long long)$;
-- (id <MTL4CommandAllocator>);
-- (_Bool);
-- (id <MTLDynamicLibrary>)Ð;
-- (unsigned long long)ÿÿM;
-- (void)Ü¬;
-- (id <MTLRenderPipelineState>)e, assuming piecewise;
-- (id <MTLLibrary>)ling back to a regular framebuffer to avoid crashing.;
-- (CDStruct_14f26992)cel task given query item.;
-- (unsigned long long)ask %p becomes current;
-- (void)/multiply layers.;
-- (id <MTLLibrary>)odel availability did change notification, isGenerationModelAvailable:(NSString *)arg1 %{BOOL}d;
-- (MTLArchitecture *)not match current drawing;
-- (id <MTLSharedEvent>)wrong class:(MTLSharedEventHandle *)arg1 %{public}@ from:%@ /* Error: Ran out of types for this method. */;
-- (id <MTLIOFileHandle>)g tiles normally after EDR change.;
-- (unsigned long long)add a refinable stroke when auto-refine wasn't enabled.;
-- (id <MTLCommandQueue>)ÿÿ^ÍÿÿæÎÿÿÌÊÿÿ;
-- (_Bool)UIImageCIeyBya_;
-- (unsigned int)o13PKStrokePointC;
-- (id <MTLComputePipelineState>);
-- (unsigned long long)ng result command;
-- (unsigned int).txt;
-- (id <MTLTexture>)rOriginalBackbufferWorkaround;
-- (id <MTLComputePipelineState>)=dd}}24^B56;
-- (id <MTLFunctionHandle>)onDisablingDelay;
-- (unsigned long long)InputSettingsRecognitionLocaleIdentifierDidChangeNotification;
-- (_Bool)dt.xctest.tool;
-- (_Bool)^B24;
-- (unsigned long long)IImage",N,R;
-- (_Bool)"PKDrawing"24@"UIView"32{CGAffineTransform=dddddd}40@?<v@?>88;
-- (unsigned long long);
-
-@optional
-- (void),N,V_refinableStrokes;
-- (id <MTLHeap>);
+- (id <MTLBuffer>)Ñ&°1Â0@ù
+× ;
+- (unsigned long long);
+- (id <MTLIOFileHandle>)ntendedText:(NSURL *)arg1;
+- (id <MTLAccelerationStructure>)dGroupID;
+- (unsigned int)ynamicRange: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ction:itemsForAddingToSession:withTouchAtPoint: /* Error: Ran out of types for this method. */;
+- (_Bool)lectionWithInput:modificationType:liveScrollOffset:completion: /* Error: Ran out of types for this method. */;
+- (id <MTLIOCommandQueue>)AnimationHandler;
+- (id <MTLAccelerationStructure>)iner;
+- (unsigned long long);
+- (_Bool)D;
+- (id <MTLEvent>)h %p, shouldBeginDrawing:N, because the touch is on a higher level window %@ /* Error: Ran out of types for this method. */;
+- (id <MTL4Archive>)but persistence is disabled.;
+- (unsigned long long)%ld elements, timed out:%@ /* Error: Ran out of types for this method. */;
+- (id <MTLRenderPipelineState>)recognition results available;
+- (id <MTLDynamicLibrary>)the -_toolWithInk:(id <MTLLibrary>)arg1 method.;
+- (id <MTL4ArgumentTable>)es;
+- (id <MTLCommandQueue>)chIndicatorActive;
+- (_Bool)6q24;
+- (void)locity;
+- (void)g;
+- (void)sible);
+- (id <MTLRasterizationRateMap>)ize=dd}}16^B48;
+- (_Bool)iting Feedback;
+- (id <MTLFunctionHandle>)d;
+- (_Bool)eFadeOutDuration;
+- (_Bool)tion.hue;
+- (id <MTLDynamicLibrary>)ath;
+- (id <MTLSharedEvent>)nalDelegate;
+- (id <MTLFence>)ÿ;
+- (_Bool)12PKInputPoint14_PKStrokePointE;
+- (unsigned long long)ê-q=-Cëâ6?-DTû!	À-DTû!	@ñhãµøä>20PKRulerExtremaFilter;
+- (id <MTLFunctionHandle>)d_ptrIS6_E27__shared_ptr_default_deleteIS6_S6_EENS4_IS6_EEEE;
+- (id <MTL4CommandAllocator>)©?;
+- (_Bool)PKFunctionPiecewiseBezier;
+- (_Bool)terIP23PKProtobufUnknownFieldsNS_14default_deleteIS1_EENS_9allocatorIS1_EEEE;
+- (id <MTLIndirectCommandBuffer>)úbÏÿ;
+- (unsigned long long);
+- (unsigned long long)ÿMcämÎÿ;
+- (unsigned long long);
+- (_Bool)Æ·;
+- (unsigned long long)].Ü·;
+- (void);
+- (id <MTLTensor>)+ ;
 
 // Remaining properties
 @property(readonly) MTLArchitecture *architecture;
@@ -138,6 +90,7 @@
 @property(readonly) _Bool supportsDynamicLibraries;
 @property(readonly) _Bool supportsFunctionPointers;
 @property(readonly) _Bool supportsFunctionPointersFromRender;
+@property(readonly) _Bool supportsPlacementSparse;
 @property(readonly) _Bool supportsPrimitiveMotionBlur;
 @property(readonly) _Bool supportsPullModelInterpolation;
 @property(readonly) _Bool supportsQueryTextureLOD;

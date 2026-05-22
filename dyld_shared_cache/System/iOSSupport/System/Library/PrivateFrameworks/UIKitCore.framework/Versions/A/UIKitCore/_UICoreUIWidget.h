@@ -21,23 +21,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (id);
-- (struct UIEdgeInsets)"IDSService"16@"NSString"24d32@"NSError"40;
-- (struct UIEdgeInsets)etFetchPropertySets:(struct CGRect)arg1;
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id)0:(id)arg1 8@"<UIDropSession>"16@"_UITableViewDropCoordinatorImpl"24B32;
-- (int):origin: /* Error: Ran out of types for this method. */;
-- (void)_dropDelegateActual;
-- (void)omViewController:(int)arg1 allowShrink: /* Error: Ran out of types for this method. */;
-- (void)|²;
-- (void)Lkþ;
-- (_Bool);X;
-- (id)Gÿ÷M;
+- (_Bool)
+× ;
+- (int)±^ð1Â0@ù
+× ;
+- (void);
+- (id)a;
+- (void)tary provider;
+- (void)escriptor=%@;
+- (void);
+- (id)÷[b;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;

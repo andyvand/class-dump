@@ -21,13 +21,12 @@
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
 - (id);
-- (void)0@ù
-× ;
-- (id)mpletionHandler: /* Error: Ran out of types for this method. */;
-- (void)*__autoreleasing  _Nullable * _Nullable);
+- (void);
+- (CDUnknownBlockType);
+- (id);
+- (void)lRepresentationsForSerialization;
+- (void)plural);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionIdentifierKey;

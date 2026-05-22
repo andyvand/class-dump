@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet;
+@class NSDictionary, NSSet;
 
 @interface CKMenuBarManager
 {
-    _Bool _conversationListReady;
-    _Bool _shouldForceFilterImageReload;
+    _Bool _hasCompletedDraftsPreloading;
     _Bool _shouldGenerateFilters;
     _Bool _shouldConfigureAttributedTextStyleTitles;
     NSDictionary *_labelByPhoneNumber;
     NSSet *_activeFilterModes;
-    NSArray *_filterCommands;
-    NSDictionary *_filterImagesByFilterMode;
 }
 
-+ (id)ìaÿ6ÊÁ1;
-- (_Bool)AttachmentView;
-- (_Bool)rator;
-- (_Bool)hmentView;
-- (void)@;
++ (id)¡u;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)pe;
-- (id)c;
 - (id);
-- (id)t;
-- (_Bool)g;
-- (id)Note:%@, duplicatedNote:%@} /* Error: Ran out of types for this method. */;
-- (id)g duplicated note {originalNote:%@, duplicatedNote:%@} /* Error: Ran out of types for this method. */;
-- (void)ratePreviewIfNeededForAttachmentWithObjectID:] /* Error: Ran out of types for this method. */;
-- (void)rSummary == nil);
 - (id);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -51,18 +40,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)\;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *activeFilterModes; // @synthesize activeFilterModes=_activeFilterModes;
-@property(nonatomic, getter=isConversationListReady) _Bool conversationListReady; // @synthesize conversationListReady=_conversationListReady;
-@property(retain, nonatomic) NSArray *filterCommands; // @synthesize filterCommands=_filterCommands;
-@property(retain, nonatomic) NSDictionary *filterImagesByFilterMode; // @synthesize filterImagesByFilterMode=_filterImagesByFilterMode;
+@property(nonatomic, getter=hasCompletedDraftsPreloading) _Bool hasCompletedDraftsPreloading; // @synthesize hasCompletedDraftsPreloading=_hasCompletedDraftsPreloading;
 @property(retain, nonatomic) NSDictionary *labelByPhoneNumber; // @synthesize labelByPhoneNumber=_labelByPhoneNumber;
 @property(nonatomic) _Bool shouldConfigureAttributedTextStyleTitles; // @synthesize shouldConfigureAttributedTextStyleTitles=_shouldConfigureAttributedTextStyleTitles;
-@property(nonatomic) _Bool shouldForceFilterImageReload; // @synthesize shouldForceFilterImageReload=_shouldForceFilterImageReload;
 @property(nonatomic) _Bool shouldGenerateFilters; // @synthesize shouldGenerateFilters=_shouldGenerateFilters;
 
 @end

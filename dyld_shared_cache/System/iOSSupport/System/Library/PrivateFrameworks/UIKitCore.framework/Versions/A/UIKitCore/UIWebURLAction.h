@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)going to write an empty dictionary to the kSMSDefaultsAllowedKey;
-+ (void)IDs count:(id)arg1 %d allowedDeviceUUIDs count:(id)arg2 %d;
++ (_Bool);
++ (void);
 
 @end
 

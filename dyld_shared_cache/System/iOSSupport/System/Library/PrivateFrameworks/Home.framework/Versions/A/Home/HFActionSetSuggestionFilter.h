@@ -12,9 +12,9 @@
 }
 
 + (id);
-- (void);
 - (id);
-- (void);
+- (void)rior;
+- (void)get;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *services; // @synthesize services=_services;

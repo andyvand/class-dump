@@ -4,14 +4,14 @@
 
 class std::__1::vector<_NUIGridArrangementCell, std::__1::allocator<_NUIGridArrangementCell>> {
 public: // (access info unavailable from symbols alone)
-    __construct_one_at_end[abi:nn200100]<_NUIFlowRowContainer* const&, _NSRange, _NSRange, NUIContainerAlignment, NUIContainerAlignment>(_NUIFlowRowContainer* const&, _NSRange&&, _NSRange&&, NUIContainerAlignment&&, NUIContainerAlignment&&);
-    __emplace_back_slow_path<UIView __kindof*&, _NSRange, _NSRange, NUIContainerAlignment, NUIContainerAlignment>(UIView __kindof*&, _NSRange&&, _NSRange&&, NUIContainerAlignment&&, NUIContainerAlignment&&);
-    __emplace_back_slow_path<UIView*&, _NSRange&, _NSRange&, NUIContainerAlignment&, NUIContainerAlignment>(UIView*&, _NSRange&, _NSRange&, NUIContainerAlignment&, NUIContainerAlignment&&);
-    __emplace_back_slow_path<UIView*&, _NSRange&, _NSRange&, NUIContainerAlignment, NUIContainerAlignment&>(UIView*&, _NSRange&, _NSRange&, NUIContainerAlignment&&, NUIContainerAlignment&);
-    __emplace_back_slow_path<_NUIFlowArrangementDummyItem*, _NSRange, _NSRange, NUIContainerAlignment, NUIContainerAlignment>(_NUIFlowArrangementDummyItem*&&, _NSRange&&, _NSRange&&, NUIContainerAlignment&&, NUIContainerAlignment&&);
-    __emplace_back_slow_path<_NUIFlowRowContainer* const&, _NSRange, _NSRange, NUIContainerAlignment, NUIContainerAlignment>(_NUIFlowRowContainer* const&, _NSRange&&, _NSRange&&, NUIContainerAlignment&&, NUIContainerAlignment&&);
-    __emplace_back_slow_path<id<NUIArrangementItem>&, _NSRange&, _NSRange, NUIContainerAlignment&, NUIContainerAlignment>(id<NUIArrangementItem>&, _NSRange&, _NSRange&&, NUIContainerAlignment&, NUIContainerAlignment&&);
-    __emplace_back_slow_path<id<NUIArrangementItem>, _NSRange, id<NUIArrangementItem>, NUIContainerAlignment, _NSRange>(id<NUIArrangementItem>&&, _NSRange&&, id<NUIArrangementItem>&&, NUIContainerAlignment&&, _NSRange&&);
-    __throw_length_error[abi:nn200100]();
-    reserve(unsigned long);
+    _NUIGridArrangementCell* __emplace_back_slow_path<UIView __kindof*&, _NSRange, _NSRange, NUIContainerAlignment, NUIContainerAlignment>(UIView __kindof*&, _NSRange&&, _NSRange&&, NUIContainerAlignment&&, NUIContainerAlignment&&);
+    _NUIGridArrangementCell* __emplace_back_slow_path<UIView*&, _NSRange&, _NSRange&, NUIContainerAlignment&, NUIContainerAlignment>(UIView*&, _NSRange&, _NSRange&, NUIContainerAlignment&, NUIContainerAlignment&&);
+    _NUIGridArrangementCell* __emplace_back_slow_path<UIView*&, _NSRange&, _NSRange&, NUIContainerAlignment, NUIContainerAlignment&>(UIView*&, _NSRange&, _NSRange&, NUIContainerAlignment&&, NUIContainerAlignment&);
+    _NUIGridArrangementCell* __emplace_back_slow_path<_NUIFlowArrangementDummyItem*, _NSRange, _NSRange, NUIContainerAlignment, NUIContainerAlignment>(_NUIFlowArrangementDummyItem*&&, _NSRange&&, _NSRange&&, NUIContainerAlignment&&, NUIContainerAlignment&&);
+    _NUIGridArrangementCell* __emplace_back_slow_path<_NUIFlowRowContainer* const&, _NSRange, _NSRange, NUIContainerAlignment, NUIContainerAlignment>(_NUIFlowRowContainer* const&, _NSRange&&, _NSRange&&, NUIContainerAlignment&&, NUIContainerAlignment&&);
+    _NUIGridArrangementCell* __emplace_back_slow_path<id<NUIArrangementItem>&, _NSRange&, _NSRange, NUIContainerAlignment&, NUIContainerAlignment>(id<NUIArrangementItem>&, _NSRange&, _NSRange&&, NUIContainerAlignment&, NUIContainerAlignment&&);
+    _NUIGridArrangementCell* __emplace_back_slow_path<id<NUIArrangementItem>, _NSRange, id<NUIArrangementItem>, NUIContainerAlignment, _NSRange>(id<NUIArrangementItem>&&, _NSRange&&, id<NUIArrangementItem>&&, NUIContainerAlignment&&, _NSRange&&);
+    auto __throw_length_error[abi:nqn210106]();
+    auto reserve(unsigned long);
+    void __emplace_back_assume_capacity[abi:nqn210106]<_NUIFlowRowContainer* const&, _NSRange, _NSRange, NUIContainerAlignment, NUIContainerAlignment>(_NUIFlowRowContainer* const&, _NSRange&&, _NSRange&&, NUIContainerAlignment&&, NUIContainerAlignment&&);
 };

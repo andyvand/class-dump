@@ -13,7 +13,7 @@
     NSUUID *_identity;
 }
 
-+ (void)ation.framework/Versions/A/DiskArbitration;
++ (void);
 + (Class);
 - (id);
 - (void);
@@ -22,11 +22,11 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ettingsShortcuts.AXToggleColorFiltersIntent;
-- (id)¢Üÿò¨Ûe;
+- (void)geFormat} image from ${WFInput};
+- (id)ringSubstitutableStateCSg;
+- (id)Ýëÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

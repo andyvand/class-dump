@@ -21,7 +21,7 @@
 - (void);
 - (Class);
 - (id);
-- (void);
+- (void)ruction provided when the menu is presented.;
 
 // Remaining properties
 @property(nonatomic, readonly) WFParameter *underlyingParameter; // @synthesize underlyingParameter;

@@ -16,9 +16,8 @@
 }
 
 - (id);
-- (void)!XBù±Ä1¢!0@ù
-× ;
-- (id)keyboard with final height:(struct CGRect)arg1;
+- (id)ationItemButton;
+- (void)EíþoêÛl;
 
 @end
 

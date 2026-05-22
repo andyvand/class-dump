@@ -5,9 +5,10 @@
 //
 
 @protocol _UIAnimatedKeyboardElement
-- (void);
-- (void)UICompositingModeDarkenSourceOver;
-- (void)x71ñb4`;
-- (struct CGSize)ù4è;
+- (void)ordinatorKey;
+- (void)ta is invalid:(long long)arg1 width=%lu; height=%lu; skipRegionY=%lu; skipRegionHeight=%lu; nodeCount=%lu; maximumNodesPerRow=%lu;
+- (void)tingTabBar;
+- (void)estSessionInsertion;
+- (struct CGSize){®Gáz´?Ù?;
 @end
 

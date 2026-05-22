@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id)EIKEv2CompanionDatapath;
-- (_Bool)ess;
+- (id);
+- (_Bool)ManagedObjectContext"8;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=activeUser) _Bool activeUser; // @synthesize activeUser=_activeUser;

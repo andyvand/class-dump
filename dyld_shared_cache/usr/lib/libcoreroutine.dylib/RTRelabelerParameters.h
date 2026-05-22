@@ -24,20 +24,20 @@
 - (unsigned long long);
 - (double);
 - (double);
-- (unsigned long long)#;
+- (unsigned long long);
 - (double);
 - (id);
 - (double);
 - (double);
-- (double)T;
+- (double);
 - (double);
 - (unsigned long long);
 - (double);
 - (double);
 - (id);
 - (id);
-- (double);
-- (id)%.f, error, %@;
+- (double)l;
+- (id)ifier, %@, from, %@, for loi, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) double baseCount; // @synthesize baseCount=_baseCount;

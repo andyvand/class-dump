@@ -17,17 +17,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (_Bool);
-- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (id)ewController.m;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *colorName; // @synthesize colorName=_colorName;

@@ -4,10 +4,10 @@
 
 class icu::UnicodeStringAppendable {
 public: // (access info unavailable from symbols alone)
-    appendCodePoint(int);
-    appendCodeUnit(char16_t);
-    appendString(char16_t const*, int);
-    getAppendBuffer(int, int, char16_t*, int, int*);
-    reserveAppendCapacity(int);
+    auto appendCodePoint(int);
+    auto appendCodeUnit(char16_t);
+    auto appendString(char16_t const*, int);
+    auto getAppendBuffer(int, int, char16_t*, int, int*);
+    auto reserveAppendCapacity(int);
     ~UnicodeStringAppendable();
 };

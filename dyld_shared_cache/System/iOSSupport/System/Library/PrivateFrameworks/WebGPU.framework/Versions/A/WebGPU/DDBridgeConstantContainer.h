@@ -8,20 +8,20 @@
 
 @interface DDBridgeConstantContainer
 {
-    int constant;
+    long long constant;
     void constantValues;
     void name;
 }
 
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (int);
+- (long long)executeBundles:validation failed /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) int constant; // @synthesize constant;
+@property(nonatomic, readonly) long long constant; // @synthesize constant;
 @property(nonatomic, readonly) NSArray *constantValues;
 @property(nonatomic, readonly) NSString *name;
 

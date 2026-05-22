@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)cs-reporting;
++ (id);
 - (void);
 
 @end

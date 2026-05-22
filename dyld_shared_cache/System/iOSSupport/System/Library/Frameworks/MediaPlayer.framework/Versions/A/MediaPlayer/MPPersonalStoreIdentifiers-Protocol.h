@@ -7,8 +7,6 @@
 @class NSString;
 
 @protocol MPPersonalStoreIdentifiers
-- (unsigned long long);
-- (NSString *)r;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *cloudAlbumID;

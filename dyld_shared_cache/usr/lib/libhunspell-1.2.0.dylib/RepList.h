@@ -5,11 +5,11 @@
 class RepList {
 public: // (access info unavailable from symbols alone)
     RepList(int);
-    add(char*, char*);
-    conv(char const*, char*);
-    get_pos();
-    item(int);
-    match(char const*, int);
-    near(char const*);
+    auto add(char*, char*);
+    auto conv(char const*, char*);
+    auto get_pos();
+    auto item(int);
+    auto match(char const*, int);
+    auto near(char const*);
     ~RepList();
 };

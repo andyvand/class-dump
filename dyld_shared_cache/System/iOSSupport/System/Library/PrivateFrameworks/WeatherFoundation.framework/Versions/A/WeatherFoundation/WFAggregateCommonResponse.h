@@ -26,7 +26,6 @@
 + (_Bool);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -34,11 +33,13 @@
 - (void);
 - (void);
 - (void);
-- (void)7h;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (id));
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -47,7 +48,6 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (id);
 - (void);
 

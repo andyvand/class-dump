@@ -17,18 +17,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)*;
+- (void)Translator;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *chipList;

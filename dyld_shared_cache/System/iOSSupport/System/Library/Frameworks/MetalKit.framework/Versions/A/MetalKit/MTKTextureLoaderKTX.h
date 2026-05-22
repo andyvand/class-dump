@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void)ackgroundColorForStyle: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 
 @end
 

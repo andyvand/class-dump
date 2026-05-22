@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)À¤;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCalculation) _Bool calculation;

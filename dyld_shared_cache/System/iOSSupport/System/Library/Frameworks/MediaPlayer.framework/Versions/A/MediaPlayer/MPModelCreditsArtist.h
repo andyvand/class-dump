@@ -12,12 +12,12 @@
 {
 }
 
-+ (long long)eamId:storeConfig:streamsAccessClient:eventDataClass: /* Error: Ran out of types for this method. */;
-+ (id),N,V_placeType;
-+ (id)pe;
-+ (void)nt;
-+ (void)@"BMContentAttachment",R,N,V_attachment;
-- (id)eyPath"24;
++ (long long);
++ (id);
++ (id);
++ (void);
++ (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) MPModelArtist *artist; // @dynamic artist;

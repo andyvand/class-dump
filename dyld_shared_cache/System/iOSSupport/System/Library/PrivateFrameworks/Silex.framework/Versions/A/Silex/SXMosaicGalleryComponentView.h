@@ -47,7 +47,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (struct CGSize);
@@ -58,7 +58,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)P;
+- (void);
 - (void);
 - (id);
 - (struct CGRect);
@@ -74,7 +74,7 @@
 - (id);
 - (id);
 - (void);
-- (id)A;
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -85,9 +85,10 @@
 - (void);
 - (void);
 - (void);
-- (id)ry"8@"NSError"16;
-- (void);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -33,11 +33,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (CDUnknownBlockType);
-- (id);
 - (void);
-- (id)ñøÿ;
+- (id);
+- (void)ingleProvider: /* Error: Ran out of types for this method. */;
+- (id)Action;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;

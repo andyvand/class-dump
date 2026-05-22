@@ -6,13 +6,14 @@
 
 #import <CarPlay/CPTemplate.h>
 
-@class CPAssistantCellConfiguration, CPBarButton, NAFuture, NSArray, NSMutableSet, NSString;
+@class CPAssistantCellConfiguration, CPBarButton, CPListTemplateDetailsHeader, NAFuture, NSArray, NSMutableSet, NSString;
 @protocol CPListTemplateDelegate;
 
 @interface CPListTemplate : CPTemplate
 {
     _Bool _showsSpinnerWhileEmpty;
     _Bool _reloadHeaderButtons;
+    CPListTemplateDetailsHeader *_listHeader;
     id <CPListTemplateDelegate> _delegate;
     NSArray *_sections;
     NSString *_title;
@@ -27,6 +28,9 @@
 + (unsigned long long);
 + (struct CGSize);
 + (void);
++ (void);
++ (void);
++ (void);
 + (unsigned long long);
 + (_Bool);
 - (void);
@@ -38,6 +42,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -45,30 +50,32 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
-- (id);
 - (void);
 
 // Remaining properties
@@ -87,6 +94,7 @@
 @property(readonly, nonatomic) unsigned long long itemCount;
 @property(retain, nonatomic) NSMutableSet *itemsToReload; // @synthesize itemsToReload=_itemsToReload;
 @property(retain, nonatomic) NSArray *leadingNavigationBarButtons;
+@property(retain, nonatomic) CPListTemplateDetailsHeader *listHeader; // @synthesize listHeader=_listHeader;
 @property(nonatomic) _Bool reloadHeaderButtons; // @synthesize reloadHeaderButtons=_reloadHeaderButtons;
 @property(readonly, nonatomic) unsigned long long sectionCount;
 @property(readonly, copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;

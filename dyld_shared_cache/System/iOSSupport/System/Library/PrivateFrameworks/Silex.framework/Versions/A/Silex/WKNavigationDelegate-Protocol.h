@@ -5,9 +5,5 @@
 //
 
 @protocol WKNavigationDelegate
-
-@optional
-- (void);
-- (void)creenViewControllerProvider;
 @end
 

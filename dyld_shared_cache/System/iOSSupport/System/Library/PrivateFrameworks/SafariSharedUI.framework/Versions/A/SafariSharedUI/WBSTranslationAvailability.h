@@ -19,7 +19,7 @@
     NSArray *_availableLocalePairsCompletionHandlers;
 }
 
-+ (id)@;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -28,9 +28,9 @@
 - (void);
 - (void);
 - (void);
-- (void)+;
 - (void);
 - (id);
+- (void)safari_longestEdgeInPixels;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

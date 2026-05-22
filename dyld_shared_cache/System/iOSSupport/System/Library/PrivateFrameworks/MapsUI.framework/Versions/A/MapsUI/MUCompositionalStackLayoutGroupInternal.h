@@ -11,49 +11,48 @@
     MISSING_TYPE *group;
 }
 
+- (float);
+- (id);
 - (void);
+- (void);
+- (float);
+- (long long);
 - (id);
 - (_Bool);
-- (void);
+- (long long);
 - (struct UIOffset);
-- (void);
-- (_Bool);
-- (id);
-- (struct NSDirectionalEdgeInsets);
-- (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (float);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (struct NSDirectionalEdgeInsets);
 - (id);
-- (id);
+- (void);
+- (struct NSDirectionalEdgeInsets);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (float);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (long long);
+- (id);
 - (_Bool);
-- (long long);
-- (void)nView",&,N,V_collectionView;
-- (void)SString",R,N,V_formatString;
-- (long long);
-- (void)howAllCollectionsAction;
 - (void);
-- (long long)Pôÿ3¸ù¿b	;
-- (double)$üÿkxùb'
-;
+- (id);
+- (long long);
+- (double);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)ler",R,N,V_actionController;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long alignment;

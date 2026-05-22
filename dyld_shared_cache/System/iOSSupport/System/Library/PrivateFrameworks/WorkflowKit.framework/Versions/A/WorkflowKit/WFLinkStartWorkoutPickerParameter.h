@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id)pple.Home.HomeEntity;
+- (id)?@"NSCachedURLResponse">40;
+- (void)tingObservers;
+- (void)ty"8@16;
 
 // Remaining properties
 @property(nonatomic) __weak WFLinkAction *action; // @synthesize action=_action;

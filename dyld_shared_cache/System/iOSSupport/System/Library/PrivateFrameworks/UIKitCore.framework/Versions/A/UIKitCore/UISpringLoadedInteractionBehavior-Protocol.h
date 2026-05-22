@@ -4,9 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISpringLoadedInteraction;
-
 @protocol UISpringLoadedInteractionBehavior
-- (_Bool)HideInlineCandidates:(UISpringLoadedInteraction *)arg1;
+
+@optional
+- (void);
 @end
 

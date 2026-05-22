@@ -41,8 +41,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id):andActionText: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)teRequiredErrorTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) HUTriggerConditionEditorItemModuleController *conditionEditorModuleController; // @synthesize conditionEditorModuleController=_conditionEditorModuleController;

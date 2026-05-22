@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)t©üÿ;
+- (void)teShouldTrackContentAnimation;
+- (id)nGallery;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

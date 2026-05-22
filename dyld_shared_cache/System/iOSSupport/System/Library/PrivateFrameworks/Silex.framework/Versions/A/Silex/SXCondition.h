@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)lViewFactory>",R,N,V_repeatableImageFillViewFactory;
 - (long long);
 - (unsigned long long);
 - (long long);
@@ -30,7 +30,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)rdHeight;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *app; // @dynamic app;

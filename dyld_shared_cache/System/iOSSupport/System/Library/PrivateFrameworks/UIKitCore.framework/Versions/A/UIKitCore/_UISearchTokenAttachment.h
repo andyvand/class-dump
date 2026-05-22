@@ -13,22 +13,20 @@ __attribute__((visibility("hidden")))
     UISearchToken *_token;
 }
 
-+ (_Bool)É
-m;
++ (_Bool)ed.IconColor;
 - (id);
 - (id);
-- (id)SSypG;
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)r: /* Error: Ran out of types for this method. */;
+- (id)keyboard;
 - (void);
-- (id)qÆÐ1¢!0@ù
-× ;
-- (id)PortWrapper:(struct CGRect)arg1;
-- (id)r;
 
 // Remaining properties
 @property(readonly, nonatomic) _UISearchTokenAttachmentViewProvider *_viewProvider; // @synthesize _viewProvider;

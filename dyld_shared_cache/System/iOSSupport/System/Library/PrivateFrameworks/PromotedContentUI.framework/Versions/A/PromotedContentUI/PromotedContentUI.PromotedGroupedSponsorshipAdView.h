@@ -10,11 +10,11 @@
 
 @interface PromotedContentUI.PromotedGroupedSponsorshipAdView : APPCPromotedContentView
 {
-    MISSING_TYPE *groupedSponsorshipLockupView;
-    MISSING_TYPE *text;
+    MISSING_TYPE *lockupView;
+    MISSING_TYPE *configuration;
 }
 
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 
 // Remaining properties

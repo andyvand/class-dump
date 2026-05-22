@@ -38,10 +38,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)ate;
+- (id)e;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;

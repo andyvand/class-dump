@@ -4,13 +4,13 @@
 
 class EncoderLayer {
 public: // (access info unavailable from symbols alone)
-    CompareNames(void*, void const*, void const*);
-    CompressTileRow(void*, unsigned long, CompressionInfo&) const;
-    CreateEncoderLayer(char const*, axr_type_t, unsigned int, unsigned int, bool, axr_channel_type_t const*, char const**, unsigned long, long (*)(void*, unsigned long, unsigned long, axr_size_t, unsigned long), void (*)(unsigned long), CGColorSpaceModel, unsigned long, axr_flags_t);
-    CreateEncoderLayer(char const*, axr_type_t, unsigned int, unsigned int, bool, axr_channel_type_t const*, char const**, unsigned long, long (*)(void*, unsigned long, unsigned long, axr_size_t, unsigned long), void (*)(unsigned long), CGColorSpaceModel, unsigned long, axr_flags_t) (.cold.1);
-    Destroy();
     EncoderLayer(char const*, axr_type_t, unsigned int, unsigned int, bool, axr_channel_type_t const*, char const**, unsigned long, long (*)(void*, unsigned long, unsigned long, axr_size_t, unsigned long), void (*)(unsigned long), CGColorSpaceModel, unsigned long);
-    GetEncodedNameForChannel(unsigned long, CGColorSpaceModel) const;
-    PrintChannels(char*, unsigned long, CGColorSpaceModel);
-    SetColorSpaceModel(CGColorSpaceModel);
+    auto CompareNames(void*, void const*, void const*);
+    auto CompressTileRow(void*, unsigned long, CompressionInfo&) const;
+    auto CreateEncoderLayer(char const*, axr_type_t, unsigned int, unsigned int, bool, axr_channel_type_t const*, char const**, unsigned long, long (*)(void*, unsigned long, unsigned long, axr_size_t, unsigned long), void (*)(unsigned long), CGColorSpaceModel, unsigned long, axr_flags_t);
+    auto CreateEncoderLayer(char const*, axr_type_t, unsigned int, unsigned int, bool, axr_channel_type_t const*, char const**, unsigned long, long (*)(void*, unsigned long, unsigned long, axr_size_t, unsigned long), void (*)(unsigned long), CGColorSpaceModel, unsigned long, axr_flags_t) (.cold.1);
+    auto Destroy();
+    auto GetEncodedNameForChannel(unsigned long, CGColorSpaceModel) const;
+    auto PrintChannels(char*, unsigned long, CGColorSpaceModel);
+    auto SetColorSpaceModel(CGColorSpaceModel);
 };

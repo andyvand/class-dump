@@ -20,39 +20,38 @@
 - (void);
 - (id);
 - (id);
-- (void)	;
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
-- (void)B;
+- (void);
 - (void);
 - (double);
 - (void);
 - (id);
 - (void);
 - (void);
+- (double);
 - (void);
-- (CDUnknownBlockType)ñÇåò0ÁÚCøåª	áªâªý{B©ôOA©öWÃ¨ÿ#ÕÐÊP;
-- (id)0@ù
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (float);
+- (void)±°1Â0@ù
 × ;
-- (void)ithUserInterfaceStyle:interfaceOrientation:snapshotDefinition: /* Error: Ran out of types for this method. */;
-- (void)serviceViewControllerProxy;
-- (void)ViewControllerProtocol;
-- (id)/®yÛ­y¤­yAAyAAyAAyG>ùf­G3o­Gµ­G_AAyAAy,®y:­y,®ySays/>GGSSò­yAAyi+®yë­y½­y×L>_Qo__j­yç`­GQo__Qo_ÂF>GSSGGG×n­GA3_GtGGG'®G_Qo_ /* Error: Ran out of types for this method. */;
-- (void)yAByAByABy«®Ë¦®y-«®GGADySiSgGGADyª|®GG¡®Gí¶®y±®_AByÖ«®yAByAByÒ¯®ADyy®SgGGADyª®SgGG_Qo_ADy¯®GGtGSgt;
-- (float)\ÓÿÙ2@ý2@Ð^ÓÿÍ2@ù2@ø_Óÿ
-@µ@eÓÿµ2@é2@ wÓÿ©2@å2@yÓÿÝ	@@x{ÓÿÑ	@­@p~ÓÿÅ	@@Óÿ¹	@}@4Óÿ­	@@;
-- (void)or.;
-- (double)tKit/UITests/IMMockChat.m;
-- (void);
-- (double)ÿ);
-- (void)f;
-- (void)Xó;
-- (id)þ?0;
-- (_Bool)¾71Û0;
+- (double)t=dd}{CGSize=dd}}48;
+- (void)¨:(CDUnknownBlockType)arg1;
+- (CDUnknownBlockType)üÿÿ;
+- (id)gGAAyA6_ySay3ÀGSSAAyA10_GGGSgGA5_yAAyAByA9_Sg_A6_ySayçGi [AAyAByA9__A9_A9_A9_A9_A20_tGGGtGGSgAAyA6_ySay§GA23_ADyAByACyì}[/G[G_AAyAByA9__A9_A9_A9_A9_A9_tGGtGGGGSgGGA5_yA5_yA12_A5_yAgEGGn[GGGtGG;
+- (_Bool);
+- (void)!bkPÓÆÿ;
+- (void)A¢ÿ;
+- (id)pg0Ø3;
 
 // Remaining properties
 @property(retain, nonatomic) CKInternalAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;

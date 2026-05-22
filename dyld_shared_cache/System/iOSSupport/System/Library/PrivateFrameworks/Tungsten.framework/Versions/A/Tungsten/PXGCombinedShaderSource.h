@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isEmpty; // @synthesize isEmpty=_isEmpty;

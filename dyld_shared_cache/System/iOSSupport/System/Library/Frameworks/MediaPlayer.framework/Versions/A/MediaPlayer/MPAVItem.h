@@ -104,9 +104,8 @@
     long long _explicitContentState;
 }
 
-+ (id)MNameComponents",R,N,V_nameComponents;
-+ (_Bool)ÁW!HBù¨°1¢!0@ù
-× ;
++ (id);
++ (_Bool)ateHomeSettings;
 
 @end
 

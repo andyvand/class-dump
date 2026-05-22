@@ -20,20 +20,25 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void)5ò;
-- (id);
-- (void)tionOn:(id)arg1 pressed: /* Error: Ran out of types for this method. */;
-- (void)pplyDistanceWeightToValue:(id)arg1;
-- (void)",&,N,V_accessibilityLabel;
-- (id);
-- (void)eContentImageInsets;
-- (void)view reuse identifier in nib (%@) does not match the element kind used to register the nib (%@);
-- (id)eDataSourceImpl.m;
-- (id);
-- (id);
+- (void);
+- (id): /* Error: Ran out of types for this method. */;
+- (void);
+- (id)À2;
+- (id);
+- (void);
+- (id)@
+;
+- (id)searchGroup=%p;
+- (void)ntentIdentifierPayload;
+- (void)ug Info:(id)arg1 action = %@, 
+	presentingViewController = %@, view = %@, window = %@, 
+	triggeredByPopoverDimmingView = %@, 
+	local.performActionInvoked = %@, 
+	_actionsWithInvokedHandlers = %@;
+- (void);
+- (void)eetPresentationControllerDetentIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *backgroundImage; // @synthesize backgroundImage;

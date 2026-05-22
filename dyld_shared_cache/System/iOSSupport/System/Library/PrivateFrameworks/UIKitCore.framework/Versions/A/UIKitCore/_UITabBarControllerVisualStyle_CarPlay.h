@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     UITapGestureRecognizer *_nudgeRightGestureRecognizer;
 }
 
-- (_Bool)ns string for     data class '%@', data instance '%@', action '%d';
-- (_Bool)outError;
-- (long long)agus;
-- (_Bool)to add data to attributeEncoder;
+- (_Bool);
+- (_Bool);
+- (long long);
+- (_Bool);
 - (_Bool);
 - (id);
 - (struct CGRect);
-- (void)?56;
-- (void)8@16i24;
-- (unsigned long long);
 - (void);
-- (void)èÿÿÿ;
+- (void);
+- (unsigned long long);
+- (void)Vá?ã¥Ä °â?¤p}?;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

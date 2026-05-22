@@ -4,22 +4,22 @@
 
 class D3DX_BC6H {
 public: // (access info unavailable from symbols alone)
-    AssignIndices(D3DX_BC6H::EncodeParams const*, INTEndPntPair const*, unsigned long*, float*) const;
-    EmitBlock(D3DX_BC6H::EncodeParams const*, INTEndPntPair const*, unsigned long const*);
-    Encode(bool, HDRColorA const*);
-    EndPointsFit(D3DX_BC6H::EncodeParams const*, INTEndPntPair const*);
-    FinishUnquantize(int, bool);
-    GeneratePaletteQuantized(D3DX_BC6H::EncodeParams const*, INTEndPntPair const&, INTColor*) const;
-    GeneratePaletteUnquantized(D3DX_BC6H::EncodeParams const*, unsigned long, INTColor*);
-    MapColors(D3DX_BC6H::EncodeParams const*, unsigned long, unsigned long, unsigned long const*) const;
-    MapColorsQuantized(D3DX_BC6H::EncodeParams const*, INTColor const*, unsigned long, INTEndPntPair const&) const;
-    OptimizeEndPoints(D3DX_BC6H::EncodeParams const*, float const*, INTEndPntPair const*, INTEndPntPair*) const;
-    OptimizeOne(D3DX_BC6H::EncodeParams const*, INTColor const*, unsigned long, float, INTEndPntPair const&, INTEndPntPair&) const;
-    PerturbOne(D3DX_BC6H::EncodeParams const*, INTColor const*, unsigned long, unsigned char, INTEndPntPair const&, INTEndPntPair&, float, int) const;
-    Quantize(int, int, bool);
-    QuantizeEndPts(D3DX_BC6H::EncodeParams const*, INTEndPntPair*) const;
-    Refine(D3DX_BC6H::EncodeParams*);
-    RoughMSE(D3DX_BC6H::EncodeParams*) const;
-    SwapIndices(D3DX_BC6H::EncodeParams const*, INTEndPntPair*, unsigned long*);
-    Unquantize(int, unsigned char, bool);
+    auto AssignIndices(D3DX_BC6H::EncodeParams const*, INTEndPntPair const*, unsigned long*, float*) const;
+    auto EmitBlock(D3DX_BC6H::EncodeParams const*, INTEndPntPair const*, unsigned long const*);
+    auto Encode(bool, HDRColorA const*);
+    auto EndPointsFit(D3DX_BC6H::EncodeParams const*, INTEndPntPair const*);
+    auto FinishUnquantize(int, bool);
+    auto GeneratePaletteQuantized(D3DX_BC6H::EncodeParams const*, INTEndPntPair const&, INTColor*) const;
+    auto GeneratePaletteUnquantized(D3DX_BC6H::EncodeParams const*, unsigned long, INTColor*);
+    auto MapColors(D3DX_BC6H::EncodeParams const*, unsigned long, unsigned long, unsigned long const*) const;
+    auto MapColorsQuantized(D3DX_BC6H::EncodeParams const*, INTColor const*, unsigned long, INTEndPntPair const&) const;
+    auto OptimizeEndPoints(D3DX_BC6H::EncodeParams const*, float const*, INTEndPntPair const*, INTEndPntPair*) const;
+    auto OptimizeOne(D3DX_BC6H::EncodeParams const*, INTColor const*, unsigned long, float, INTEndPntPair const&, INTEndPntPair&) const;
+    auto PerturbOne(D3DX_BC6H::EncodeParams const*, INTColor const*, unsigned long, unsigned char, INTEndPntPair const&, INTEndPntPair&, float, int) const;
+    auto Quantize(int, int, bool);
+    auto QuantizeEndPts(D3DX_BC6H::EncodeParams const*, INTEndPntPair*) const;
+    auto Refine(D3DX_BC6H::EncodeParams*);
+    auto RoughMSE(D3DX_BC6H::EncodeParams*) const;
+    auto SwapIndices(D3DX_BC6H::EncodeParams const*, INTEndPntPair*, unsigned long*);
+    auto Unquantize(int, unsigned char, bool);
 };

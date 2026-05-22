@@ -5,6 +5,5 @@
 //
 
 @protocol CKCheckInTipsViewDelegate
-- (void)ineWidthUnitIsInPoint;
 @end
 

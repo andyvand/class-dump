@@ -4,5 +4,5 @@
 
 // Global C++ functions
 
-_swift_stdlib_malloc_size(void const*);
-mach_task_self();
+auto _swift_stdlib_malloc_size(void const*);
+auto mach_task_self();

@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     CALayer *_selectionLayer;
 }
 
-- (void)Date:fromMe: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)!0@ù
-× ;
-- (id)_assetForName: /* Error: Ran out of types for this method. */;
-- (void)HÒ{ÿ;
-- (void)z}i;
+- (void);
+- (id);
+- (void)termine the intialIndexPath before shadow update;
+- (void)8¾7yÿ¾7_G0¾7G;
+- (void)
+l;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

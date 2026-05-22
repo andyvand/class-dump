@@ -23,23 +23,24 @@
 - (id);
 - (id);
 - (id);
-- (id)@0:(id)arg1 8@"NSArray"16@"NSString"24@"NSString"32@"NSDate"40;
-- (void)pingContext;
-- (id)nIdentifier;
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (struct CGPoint);
 - (id);
+- (void)qdð1Â0@ù
+× ;
+- (id)sBarDataDuringAnimation;
+- (_Bool)__nonFullHeightOffset;
+- (id)ayoutContainer",&,N,V_supplementaryContainer;
+- (void);
 - (void);
-- (id)ackHidden;
-- (struct CGPoint)nce;
-- (void)",&,N,V_smoothingFIFO;
-- (void)<UISpringLoadedInteractionBehaviorDelegate>",W,N,Vdelegate;
-- (id)ntInsertIntoDestinationIndexPath;
-- (void)ete of restoration archive even though app has previously crashed during state restoration;
-- (_Bool)Â^;
+- (void)@j[;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

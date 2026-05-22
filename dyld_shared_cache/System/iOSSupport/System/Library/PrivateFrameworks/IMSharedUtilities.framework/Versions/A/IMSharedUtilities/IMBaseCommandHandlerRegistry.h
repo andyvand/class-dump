@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id)'ÿÿ;
+- (id)pEÿÿEÿÿ;
+- (void)TTranslatorCSg;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *handlers;

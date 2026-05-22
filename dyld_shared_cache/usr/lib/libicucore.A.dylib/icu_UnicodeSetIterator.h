@@ -6,13 +6,13 @@ class icu::UnicodeSetIterator {
 public: // (access info unavailable from symbols alone)
     UnicodeSetIterator();
     UnicodeSetIterator(icu::UnicodeSet const&);
-    getDynamicClassID() const;
-    getStaticClassID();
-    getString();
-    loadRange(int);
-    next();
-    nextRange();
-    reset();
-    reset(icu::UnicodeSet const&);
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto getString();
+    auto loadRange(int);
+    auto next();
+    auto nextRange();
+    auto reset();
+    auto reset(icu::UnicodeSet const&);
     ~UnicodeSetIterator();
 };

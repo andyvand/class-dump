@@ -63,19 +63,19 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)¬Ö0e;
 - (struct UIEdgeInsets);
-- (long long)d}{CGSize=dd}BBqB}8;
-- (void)layBadgesView.m;
-- (unsigned long long)emIdentifier;
+- (long long);
+- (id);
 - (void);
-- (void)StoryPlayerView;
-- (void)JÁ4;
+- (id);
+- (void)ryCountsManager;
+- (void)ewDataSection:(long long)arg1;
+- (void)ocol;
+- (id);
+- (void)for %s;
+- (void)MapItemListManager.fetch;
+- (unsigned long long);
+- (id)ÜÚCÿÿÿÿÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionText; // @synthesize actionText=_actionText;

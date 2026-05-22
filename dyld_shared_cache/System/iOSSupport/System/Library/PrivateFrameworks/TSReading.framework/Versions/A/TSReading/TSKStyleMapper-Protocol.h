@@ -5,6 +5,5 @@
 //
 
 @protocol TSKStyleMapper
-- (void);
 @end
 

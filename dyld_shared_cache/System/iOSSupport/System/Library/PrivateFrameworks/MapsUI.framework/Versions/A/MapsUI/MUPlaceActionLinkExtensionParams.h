@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
 - (id);
-- (id)nu;
+- (id);
+- (void)_inlineRapArgument;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appBundleIdentifier;

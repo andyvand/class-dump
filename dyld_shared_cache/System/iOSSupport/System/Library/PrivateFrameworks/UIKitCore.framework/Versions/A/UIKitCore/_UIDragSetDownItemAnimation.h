@@ -53,7 +53,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -74,7 +74,6 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -94,10 +93,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)*;
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (void)R`;
+- (void);
 - (_Bool);
 - (long long);
 - (void);
@@ -106,7 +106,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -128,34 +128,37 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)eHistorySyncController";
-- (id)@72;
-- (void)@40;
-- (_Bool)ound: /* Error: Ran out of types for this method. */;
-- (void)mumServerBagClientValue;
-- (CDUnknownBlockType)FindMy team. Error:%@ /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)%@;
-- (void)t %@;
-- (_Bool)@';
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (_Bool);
+- (CDUnknownBlockType);
 - (void);
 - (struct CGRect);
 - (CDUnknownBlockType);
 - (void);
-- (_Bool);
+- (int);
 - (id);
-- (void);
-- (CDUnknownBlockType)controls using a deprecated class:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void)action:(id)arg1;
-- (void)r;
-- (int)ackgroundConfigurationInternal>",C,N,V_configuration;
-- (id)iew;
-- (void)QuadPoints;
-- (id)fficient;
-- (void)ationActivity was already saved. Skipping save of stateRestorationActivity for scene session %@;
-- (CDUnion_c6a188fc)L]Hÿ;
-- (struct CAPoint3D)î`;
-- (void)³ÿ;
+- (id);
+- (id)q\1Â0@ù
+× ;
+- (struct CAPoint3D)0@ù
+× ;
+- (void)!ÜDùñdð1Â0@ù
+× ;
+- (CDUnknownBlockType)HoverEffect;
+- (void)¼;
+- (void)oResizeMaskCn;
+- (void)lectionLayoutSectionEstimatedSolver _solveWithParameters:(CDUnknownBlockType)arg1 ]_block_invoke_6;
+- (void)ntKind;
+- (void);
+- (_Bool);
+- (void)Tôb;
+- (CDUnion_c6a188fc)¼×þ<çÖbÇc;
 
 // Remaining properties
 @property(nonatomic) _Bool almostToTarget; // @synthesize almostToTarget=_almostToTarget;

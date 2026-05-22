@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)n, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisitRedactionDetails *redactionDetails; // @synthesize redactionDetails=_redactionDetails;

@@ -4,11 +4,11 @@
 
 class CoreStorageFamily {
 public: // (access info unavailable from symbols alone)
-    copyFamilyProperties(bool);
-    createFamily(__CFDictionary*, lvf_handle*, CoreStorageGroup*);
-    initWithProps(__CFDictionary*);
-    removeLogicalVolume(CoreStorageLogical*);
-    setFamilyProperties(__CFDictionary*, CoreStorageLogical*, tx*);
-    updateFamilyProperties(__CFDictionary*, CoreStorageLogical*, tx*);
+    auto copyFamilyProperties(bool);
+    auto createFamily(__CFDictionary*, lvf_handle*, CoreStorageGroup*);
+    auto initWithProps(__CFDictionary*);
+    auto removeLogicalVolume(CoreStorageLogical*);
+    auto setFamilyProperties(__CFDictionary*, CoreStorageLogical*, tx*);
+    auto updateFamilyProperties(__CFDictionary*, CoreStorageLogical*, tx*);
     ~CoreStorageFamily();
 };

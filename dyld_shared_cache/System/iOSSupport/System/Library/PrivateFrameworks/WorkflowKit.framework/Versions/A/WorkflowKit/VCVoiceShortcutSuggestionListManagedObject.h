@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)Çÿÿ;
-- (id);
++ (id);
+- (id)waysShowsButton;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *associatedAppBundleIdentifier; // @dynamic associatedAppBundleIdentifier;

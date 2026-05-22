@@ -13,7 +13,7 @@
 - (id);
 - (const int *);
 - (int);
-- (id)eBufferDelegate>";
+- (id);
 
 @end
 

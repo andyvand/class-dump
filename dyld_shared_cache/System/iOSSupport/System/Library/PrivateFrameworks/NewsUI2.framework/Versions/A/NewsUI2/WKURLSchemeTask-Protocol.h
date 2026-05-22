@@ -7,9 +7,6 @@
 @class NSURLRequest;
 
 @protocol WKURLSchemeTask
-- (void)ed the 'allow-local-news-injection' property set to true.;
-- (NSURLRequest *)m¤ÿ¸c;
-- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURLRequest *request;

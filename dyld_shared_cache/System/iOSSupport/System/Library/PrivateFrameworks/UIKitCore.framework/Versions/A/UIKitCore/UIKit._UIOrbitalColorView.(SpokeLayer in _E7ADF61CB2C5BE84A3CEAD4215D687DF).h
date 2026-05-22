@@ -16,11 +16,11 @@
 }
 
 - (id);
-- (void)!ØDùÄð1¢!0@ù
-× ;
-- (id)_confinedDimmingView;
 - (id);
-- (void)Õãj;
+- (id)1^°1Â0@ù
+× ;
+- (void)olderLabel;
+- (void)(5jþiLÍh°l;
 
 @end
 

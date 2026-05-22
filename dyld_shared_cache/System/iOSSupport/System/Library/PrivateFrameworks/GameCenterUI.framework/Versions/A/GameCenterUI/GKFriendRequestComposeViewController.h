@@ -35,15 +35,15 @@
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (unsigned long long);
-- (void)ntForView:(_Bool)arg1 baselineAlignedUnderView:offsetBy: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIAlertController *alertController; // @synthesize alertController=_alertController;

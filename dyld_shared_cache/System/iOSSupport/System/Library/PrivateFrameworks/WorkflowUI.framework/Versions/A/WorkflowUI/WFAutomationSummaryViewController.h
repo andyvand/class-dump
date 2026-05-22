@@ -37,8 +37,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (unsigned long long);
+- (id);
+- (long long);
+- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
@@ -46,12 +49,9 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (long long);
-- (id);
-- (void);
-- (id)mparators;
-- (void);
+- (id)yëG;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *actionIcons; // @synthesize actionIcons=_actionIcons;

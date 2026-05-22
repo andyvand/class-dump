@@ -27,9 +27,9 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (void);
-- (id)iew: /* Error: Ran out of types for this method. */;
-- (void)dgeSettingsForAccessory:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (void)ActionSetSectionIdentifier;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

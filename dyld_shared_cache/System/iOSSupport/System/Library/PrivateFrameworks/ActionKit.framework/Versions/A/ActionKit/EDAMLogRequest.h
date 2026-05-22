@@ -17,7 +17,7 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)eSiri;
 
 // Remaining properties
 @property(retain, nonatomic) EDAMSearchRecord *searchRecord; // @synthesize searchRecord=_searchRecord;

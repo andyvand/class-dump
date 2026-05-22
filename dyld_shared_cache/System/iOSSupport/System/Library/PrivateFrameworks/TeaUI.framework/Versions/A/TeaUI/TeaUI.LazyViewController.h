@@ -14,16 +14,16 @@
 }
 
 - (id);
-- (void);
-- (id)eAssetHandle;
-- (id)rterFetchBaseURLString;
-- (void);
-- (id)teDataEncryptionLevel: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)erSteadyState:(_Bool)arg1;
-- (void)Ù¼B;
+- (id);
+- (void);
+- (void);
+- (void)^ þÿÿÿ;
+- (id)rocessing was suspended while app is in the foreground during keyboard dismissal. Resuming processing...;
+- (void)Xr;
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;

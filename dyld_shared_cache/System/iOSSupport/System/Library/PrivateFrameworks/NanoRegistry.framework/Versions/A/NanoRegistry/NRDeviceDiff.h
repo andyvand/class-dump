@@ -14,19 +14,19 @@
 }
 
 + (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (unsigned long long);
+- (void);
 - (unsigned long long);
 
 // Remaining properties

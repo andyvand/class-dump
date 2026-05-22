@@ -129,16 +129,16 @@
 - (float);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (void)MUWebBridgeDelegate>",W,N,V_delegate;
+- (id);
+- (void),R,N;
 
 // Remaining properties
 @property(nonatomic, retain) MUAMSResultProvider *amsResultProvider; // @synthesize amsResultProvider;

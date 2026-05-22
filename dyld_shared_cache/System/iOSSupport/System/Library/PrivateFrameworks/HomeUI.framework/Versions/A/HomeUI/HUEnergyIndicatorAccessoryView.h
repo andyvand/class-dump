@@ -20,10 +20,10 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
-- (struct CGSize)omeKeyAccessItem, hidden = %{BOOL}d | missingWalletKeys = %@ | restoreFuture.isFinished = YES;
+- (struct CGSize);
 - (id);
+- (void);
+- (void)ncelText;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *constraints; // @synthesize constraints=_constraints;

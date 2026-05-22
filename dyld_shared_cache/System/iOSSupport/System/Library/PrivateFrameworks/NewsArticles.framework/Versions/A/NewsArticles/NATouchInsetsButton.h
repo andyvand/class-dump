@@ -9,9 +9,9 @@
     struct UIEdgeInsets _touchInsets;
 }
 
-- (_Bool);
-- (struct UIEdgeInsets);
 - (void);
+- (struct UIEdgeInsets);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets touchInsets; // @synthesize touchInsets=_touchInsets;

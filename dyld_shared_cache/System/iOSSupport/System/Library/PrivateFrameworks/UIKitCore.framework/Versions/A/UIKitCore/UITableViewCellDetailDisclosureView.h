@@ -17,18 +17,18 @@ __attribute__((visibility("hidden")))
     UIColor *_accessoryTintColor;
 }
 
-- (id)urrentStorageOnDevice;
-- (void)mFilteringHelperC;
-- (id);
-- (void)nControllerForPresentedViewController:(long long)arg1 presentingViewController:sourceViewController: /* Error: Ran out of types for this method. */;
-- (void)@dº;
-- (void)ize:(id)arg1;
-- (void)der;
-- (id)hru
-¨uÔu;
-- (void);
-- (struct CGSize)qÍ^;
-- (void)£×¼Öa;
+- (id);
+- (void);
+- (id);
+- (struct CGSize);
+- (void);
+- (void)!,Fù±]Ð1Â0@ù
+× ;
+- (void);
+- (void)4aþÁ`Í;
+- (void)Fh;
+- (void)Üçh;
+- (id)Èi;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;

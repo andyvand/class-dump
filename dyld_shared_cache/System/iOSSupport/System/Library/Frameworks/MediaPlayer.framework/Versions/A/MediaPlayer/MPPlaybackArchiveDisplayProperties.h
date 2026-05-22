@@ -15,27 +15,27 @@
     NSMutableDictionary *_storage;
 }
 
-+ (_Bool)rver %p> HMHomeManagerDelegatePrivate homeManager:%{public}@ didRemoveHome:%{public}@ /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
-- (void)NKEDIT;
+- (void);
 - (id);
 - (id);
-- (id)in:isClient: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (void)siness;
-- (unsigned long long)rning nil chat (found %@);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id)itness: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void)ers;
+- (void)deo__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *artworkImageData; // @synthesize artworkImageData=_artworkImageData;

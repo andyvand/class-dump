@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id)tHasModeSemanticType:(id)arg1;
-- (void)Case:(id)arg1 options:(id)arg2;
-- (id)ons: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (id);
+- (void)onCategory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

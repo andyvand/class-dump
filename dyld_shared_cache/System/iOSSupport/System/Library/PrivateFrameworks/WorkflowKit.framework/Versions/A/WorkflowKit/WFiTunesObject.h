@@ -18,14 +18,14 @@
     NSDictionary *_artworkURLs;
 }
 
-+ (id);
-+ (id)Ì;
-+ (id)Ì;
++ (id);
++ (id);
++ (id);
 + (id);
 + (Class);
 + (id);
 + (id);
-+ (_Bool)arrow.down.app.2.stack.3d;
++ (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *artworkURLs; // @synthesize artworkURLs=_artworkURLs;

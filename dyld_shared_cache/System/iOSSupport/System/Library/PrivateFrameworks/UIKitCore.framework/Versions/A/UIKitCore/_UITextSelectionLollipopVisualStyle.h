@@ -9,20 +9,20 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)CharacterInsertionRate: /* Error: Ran out of types for this method. */;
-- (_Bool)ct is NULL;
-- (double)DRDataLocalMake is not implemented;
++ (id);
+- (_Bool);
+- (double);
 - (struct CGSize);
 - (double);
 - (id);
 - (double);
-- (double)v;
 - (double);
 - (double);
 - (double);
 - (double);
-- (double);
-- (struct CGSize)"UIDragItem",R,N;
+- (double);
+- (struct CGSize)ýÙ33´;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double bigPaddedInset;

@@ -19,12 +19,12 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id)gs;
-- (long long)rdPrefs;
-- (_Bool)ccount.entity == %@;
+- (id);
+- (long long);
+- (_Bool);
 - (_Bool);
 - (void);
 - (long long);
@@ -33,16 +33,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void)uô;
-- (id)AAy¨m­D­GACGACG¿[­yy\­GG;
-- (void)rollIntentTrigger_p;
-- (_Bool)T¤ÿ;
-- (void)ncÿ00;
+- (void)splay as blank space.;
+- (_Bool)nes, via messages settings;
+- (id)cation;
+- (void)å(j¸Êÿ;
+- (void)O9¨3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

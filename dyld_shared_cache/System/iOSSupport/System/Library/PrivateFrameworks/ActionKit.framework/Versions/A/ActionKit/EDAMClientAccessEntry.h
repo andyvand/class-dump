@@ -39,16 +39,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void)}}Ì'Á
-ÿÿy;
-- (id)der. iCloud only supports getting links to regular files.;
-- (id)okeLongSession;
-- (void);
+- (id);
+- (id)0@ù
+× ;
+- (id)!Aùq´1B50@ù
+× ;
+- (void)rking.operation.start;
+- (void)Window (WFTakeScreenshotActionInteractiveSelectionType);
+- (void)ÞÑ;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *accessTime; // @synthesize accessTime=_accessTime;

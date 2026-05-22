@@ -21,8 +21,8 @@
 - (void);
 - (struct CGPoint);
 - (id);
-- (void);
 - (id);
+- (void)Ikô¾«ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) CKTapbackPickerBalloonParentView *pickerBalloonParentView; // @synthesize pickerBalloonParentView;

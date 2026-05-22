@@ -4,6 +4,5 @@
 
 class spar {
 public: // (access info unavailable from symbols alone)
-    Defer<void () block_pointer __strong>::~Defer();
-    createReceivePort();
+    auto createReceivePort();
 };

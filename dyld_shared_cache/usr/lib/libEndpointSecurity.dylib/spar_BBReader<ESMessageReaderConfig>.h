@@ -6,13 +6,13 @@ class spar::BBReader<ESMessageReaderConfig> {
 public: // (access info unavailable from symbols alone)
     BBReader(spar::SharedPtrIsh<spar::TypedMessageQueueReceiver<ESMessageReaderConfig>, (spar::SharedPtrVariant)0>, spar::SharedPtrIsh<spar::MachReceiveWrapper, (spar::SharedPtrVariant)0>, spar::ScopedBlock<es_message_t*, unsigned long, spar::Unit>, dispatch_workloop_s*, dispatch_queue_s*, dispatch_source_s*, dispatch_semaphore_s*);
     BBReader(spar::SharedPtrIsh<spar::TypedMessageQueueReceiver<ESMessageReaderConfig>, (spar::SharedPtrVariant)0>, spar::SharedPtrIsh<spar::MachReceiveWrapper, (spar::SharedPtrVariant)0>, spar::ScopedBlock<es_message_t*, unsigned long, spar::Unit>, dispatch_workloop_s*, dispatch_queue_s*, dispatch_source_s*, dispatch_semaphore_s*) (.cold.1);
-    canceled(void*);
-    checkPendingSyncs();
-    create(spar::SharedPtrIsh<spar::MachReceiveWrapper, (spar::SharedPtrVariant)0> const&, spar::DPRBucketRef const&, spar::Unit (es_message_t*, unsigned long) block_pointer);
-    create(spar::SharedPtrIsh<spar::MachReceiveWrapper, (spar::SharedPtrVariant)0> const&, spar::DPRBucketRef const&, spar::Unit (es_message_t*, unsigned long) block_pointer) (.cold.1);
-    enqueueCheckPendingSyncs<true>()::'lambda'(void*)::__invoke(void*);
-    handleItems();
-    sync(spar::ScopedBlock<void>);
-    woke(void*);
+    auto canceled(void*);
+    auto checkPendingSyncs();
+    auto create(spar::SharedPtrIsh<spar::MachReceiveWrapper, (spar::SharedPtrVariant)0> const&, spar::DPRBucketRef const&, spar::Unit (es_message_t*, unsigned long) block_pointer);
+    auto create(spar::SharedPtrIsh<spar::MachReceiveWrapper, (spar::SharedPtrVariant)0> const&, spar::DPRBucketRef const&, spar::Unit (es_message_t*, unsigned long) block_pointer) (.cold.1);
+    auto handleItems();
+    auto sync(spar::ScopedBlock<void>);
+    auto woke(void*);
+    void enqueueCheckPendingSyncs<true>()::'lambda'(void*)::__invoke(void*);
     ~BBReader();
 };

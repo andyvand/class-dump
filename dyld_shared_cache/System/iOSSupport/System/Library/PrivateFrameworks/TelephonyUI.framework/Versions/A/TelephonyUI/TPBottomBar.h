@@ -19,11 +19,11 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 @end
 

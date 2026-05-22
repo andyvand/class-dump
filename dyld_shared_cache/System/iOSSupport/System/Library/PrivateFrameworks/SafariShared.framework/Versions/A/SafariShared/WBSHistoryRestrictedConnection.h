@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)°;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSHistoryService *historyService; // @synthesize historyService=_historyService;

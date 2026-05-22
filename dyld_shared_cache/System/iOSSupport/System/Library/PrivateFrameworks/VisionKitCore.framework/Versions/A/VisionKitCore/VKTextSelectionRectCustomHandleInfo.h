@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     struct CGPoint _topRight;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
+- (void);
+- (void);
 - (struct CGPoint);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint bottomLeft; // @synthesize bottomLeft=_bottomLeft;

@@ -5,8 +5,6 @@
 //
 
 @protocol SXVideoAdStateReporting
-- (void);
-- (void);
-- (void)em.B.dylib;
+- (void)edChildren;
 @end
 

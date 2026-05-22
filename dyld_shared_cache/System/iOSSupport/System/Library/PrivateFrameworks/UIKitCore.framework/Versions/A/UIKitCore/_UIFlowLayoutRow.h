@@ -22,32 +22,33 @@ __attribute__((visibility("hidden")))
     struct CGRect _rowFrame;
 }
 
+- (id);
+- (void);
 - (struct CGSize);
-- (void);
 - (id);
 - (void);
-- (struct CGRect);
-- (long long);
-- (id);
 - (void);
-- (void)Nº;
-- (long long)1¢!0@ù
+- (void);
+- (void);
+- (void)0@ù
 × ;
-- (id)eForScreen:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)rection;
-- (void)³üÿµüÿ;
-- (id)e = %@;
-- (void)ws in section %lu. Attempt to delete more rows than exist in section. Table view:(long long)arg1 %@;
-- (_Bool)Q16Q24;
-- (double)teComponents * _Nonnull _UIDatePickerCombinedDateComponents(NSDateComponents * _Nonnull __strong, NSDateComponents * _Nonnull __strong);
-- (_Bool)ormAccessibilitySettingsDefinition;
-- (void)cA;
-- (void)Á;
-- (void)üÍ°ÿ°kÇ;
-- (id)ËÓÿÑs;
-- (void)a;
-- (void)5a;
-- (void);
+- (void)!lEùÑað1Â0@ù
+× ;
+- (_Bool);
+- (long long)eType:(struct CGPoint)arg1;
+- (id)te;
+- (void)imated:(id)arg1;
+- (id)SuspendedConfiguration;
+- (void)ppSettingsFromURL;
+- (void)owThanInitialPresentationViewController:(id)arg1 ,V__allowsSourceViewInDifferentWindowThanInitialPresentationViewController;
+- (struct CGRect);
+- (long long)Q16^B24;
+- (double);
+- (_Bool)rks/LinkPresentation.framework/LinkPresentation;
+- (void)\ù[;
+- (void)zKÿ\ÔP¯];
+- (void)T`;
+- (id)Øþ;
 
 // Remaining properties
 @property(nonatomic) double availableSpace; // @synthesize availableSpace=_availableSpace;

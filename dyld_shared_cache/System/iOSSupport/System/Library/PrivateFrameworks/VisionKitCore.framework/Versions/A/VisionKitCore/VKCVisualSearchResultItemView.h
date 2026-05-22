@@ -98,24 +98,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)res;
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyShowVisualSearchResults; // @synthesize automaticallyShowVisualSearchResults=_automaticallyShowVisualSearchResults;

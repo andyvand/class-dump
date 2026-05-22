@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
     _Bool _shouldRenderWithoutTextField;
 }
 
-+ (id);
-+ (id)equiredPeripheralSupportLevel;
++ (id)d];
++ (id)pe;
+- (_Bool);
 - (void);
-- (void)±Æ°1¢!0@ù
-× ;
-- (_Bool)anUpBlock: /* Error: Ran out of types for this method. */;
-- (void)iewSet",R,N;
-- (_Bool)sent, to perform a push segue for index %ld.;
+- (_Bool)× ;
+- (void)Ô ;
+- (void)";
 
 // Remaining properties
 @property(nonatomic) _Bool shouldRenderWithoutTextField; // @synthesize shouldRenderWithoutTextField=_shouldRenderWithoutTextField;

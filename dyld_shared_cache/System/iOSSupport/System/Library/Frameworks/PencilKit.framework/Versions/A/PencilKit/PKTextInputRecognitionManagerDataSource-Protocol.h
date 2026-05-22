@@ -5,6 +5,5 @@
 //
 
 @protocol PKTextInputRecognitionManagerDataSource
-- (void)ellationHandler;
 @end
 

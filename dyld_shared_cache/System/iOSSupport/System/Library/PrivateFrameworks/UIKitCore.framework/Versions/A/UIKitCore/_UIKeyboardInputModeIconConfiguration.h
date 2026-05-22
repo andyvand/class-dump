@@ -14,22 +14,22 @@ __attribute__((visibility("hidden")))
     struct CGSize _size;
 }
 
-+ (id)Ôxð!pCùQÍð1¢!0@ù
-× ;
++ (id)e.UICoreHostingKeyboardTrackingElement;
 - (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (double);
-- (_Bool)Ô!vÐ!¼@ùÑÊ°1¢!0@ù
+- (struct CGSize)1Â0@ù
 × ;
-- (long long)nizer";
-- (void)ocusUpdateInContext:(long long)arg1;
-- (struct CGSize)Icon;
-- (void);
-- (id)s;
-- (void)ssesDenied;
-- (_Bool)ëÑ?p}þ;
-- (void)s;
+- (void)Ð!üDùcð1Â0@ù
+× ;
+- (_Bool)aints;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (long long);
+- (void)oÄp;
+- (double);
+- (void)erviceSessionActivityRecord"8;
+- (void)T¥f;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool background; // @synthesize background=_background;

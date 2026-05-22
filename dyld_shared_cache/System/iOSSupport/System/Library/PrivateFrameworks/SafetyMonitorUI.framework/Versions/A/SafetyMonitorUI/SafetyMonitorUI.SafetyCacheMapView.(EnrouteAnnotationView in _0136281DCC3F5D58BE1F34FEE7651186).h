@@ -14,10 +14,10 @@
 
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void)MRGA7_GGA22_GQo_];
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) id <MKAnnotation> annotation;

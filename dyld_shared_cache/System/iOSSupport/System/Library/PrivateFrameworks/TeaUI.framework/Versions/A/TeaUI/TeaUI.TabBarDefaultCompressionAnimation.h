@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (double);
-- (double))<;
+- (double);
 - (_Bool);
 - (void);
-- (double)edWithPayload: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)erformIncrementOrDecrement;
+- (double);
+- (id);
+- (void)	ÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldCloseGapOnScroll; // @synthesize shouldCloseGapOnScroll;

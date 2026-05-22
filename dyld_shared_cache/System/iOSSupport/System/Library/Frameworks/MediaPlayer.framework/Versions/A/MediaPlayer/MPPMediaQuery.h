@@ -26,19 +26,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-+ (Class)onActivityState;
++ (Class);
 - (id);
 - (int);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void)C;
-- (void));
-- (void));
-- (void)?;
 - (void);
-- (void)Ra?;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,22 +59,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (int)absoluteTimestamp:(id)arg1 userInput:completedQuery:entities:contentProtection: /* Error: Ran out of types for this method. */;
-- (id)nitWithUniqueId:(unsigned long long)arg1 personaId:absoluteTimestamp:query:results:contentProtection: /* Error: Ran out of types for this method. */;
-- (void)ad:(int)arg1 isPinned:isBusinessChat:tapbackAssociatedMessageID:tapbackType:messageType:messagesService:messageEffect:isKnownSender:conversationUUID: /* Error: Ran out of types for this method. */;
-- (_Bool)ent:textContent:isFullyDownloaded:securityMethod:accountHandles:replyTo:mailboxIdentifiers:listId:accountType:attachments:contentProtection:conversationId:dateReceived:mailCategories:isNew:isTwoFactorCode:isFromMe:isJunk:isRead:isVIP:isFlagged: /* Error: Ran out of types for this method. */;
-- (int)ccountIdentifier:(id)arg1 accountHandles:accountType:attachment:URL:contentProtection: /* Error: Ran out of types for this method. */;
-- (int)name:(id)arg1 suggestedPhotoPath:content:accountIdentifier:accountHandles:accountType:attachment:URL:contentProtection: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ut it wasn't in vetted set (%@);
-- (_Bool);
 - (id);
-- (void);
-- (void)OperandDescriptor;
 - (void);
 - (_Bool);
+- (int);
+- (int);
+- (int);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) int entityOrder; // @synthesize entityOrder=_entityOrder;

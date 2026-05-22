@@ -5,11 +5,10 @@
 //
 
 @protocol NSXPCProxyCreating
-- (id)
-× ;
-- (id)AnimationFactoryTransition"16;
+- (id)yMirrored;
+- (id)8¶êÿ|¶êÿ¸¶êÿÜ¶êÿ|·êÿ¬·êÿè·êÿì¸êÿø¸êÿ4¹êÿX¹êÿ¹êÿÈ¹êÿìºêÿ»êÿ@»êÿd»êÿ»êÿ(¼êÿd¼êÿ¼êÿ¬¼êÿÐ¼êÿt½êÿ ½êÿÄ½êÿø½êÿ¼¾êÿø¾êÿÁêÿÔÁêÿìÁêÿÂêÿDÂêÿ°ÆêÿäÆêÿ ÇêÿDÇêÿhÇêÿ¤ÇêÿÈêÿ,ÈêÿhÈêÿÌÈêÿøÈêÿÉêÿXÉêÿdÉêÿÊêÿ´Êêÿ ËêÿTËêÿËêÿ´ËêÿðËêÿÌêÿpÎêÿÎêÿ¸ÎêÿÜÎêÿ;
 
 @optional
-- (id)Position"28@0:(void (^)(NSError *))arg1 8@"UITextPosition"16i24;
+- (id)howFocusItemWithInfo:(void (^)(NSError *))arg1 proposedContentOffset: /* Error: Ran out of types for this method. */;
 @end
 

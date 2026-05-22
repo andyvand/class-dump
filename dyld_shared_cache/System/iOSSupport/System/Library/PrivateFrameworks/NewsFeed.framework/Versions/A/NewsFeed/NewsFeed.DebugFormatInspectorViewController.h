@@ -14,12 +14,12 @@
     MISSING_TYPE *$__lazy_storage_$_paneViewController;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ÿÿÿÿÿÿÿÿ;
+- (void);
+- (void)x@;
 
 @end
 

@@ -15,36 +15,33 @@
     _UIStatusBarCycleAnimation *_cycleAnimation;
 }
 
++ (struct CGSize);
 + (double);
-+ (double)alert decompression failure;
 + (double);
-+ (struct CGSize)Ìð1¢!0@ù
-× ;
-+ (double)PoppedPatternName;
++ (double)tion;
++ (double)> *__strong);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (void);
+- (struct CGSize);
 - (id);
-- (void);
-- (void);
-- (struct CGSize)";
-- (void)iblePlaylist"b1"subscribed"b1"userEditableComponents"b1"shareURL"b1"shareShortURL"b1"descriptionText"b1"cloudVersionHash"b1"traits"b1"versionHash"b1"isFavorite"b1"isDisliked"b1"dateFavorited"b1"favoriteSongsPlaylist"b1"coverArtworkRecipe"b1"collaborative"b1"collaborationSharingMode"b1"collaborationMode"b1"collaboratorPermissions"b1"collaborationInvitationURL"b1"collaborationInvitationURLExpirationDate"b1"collaborationJoinRequestIsPending"b1"collaboratorStatus"b1"storeRedownloadable"b1"isPinned"b1"hasAnyCleanTracks"b1"hasAnyCleanDownloadedTracks"b1"curator"{?="identifiers"b1"name"b1"handle"b1}};
-- (void);
-- (void);
-- (void)
-× ;
-- (void);
-- (void)ð!@Eù±ÍÐ1¢!0@ù
-× ;
-- (double)}}40@0:(long long)arg1 8{_NSRange=QQ}16d32;
-- (void)tingAt: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
-- (_Bool)Í;
-- (id)need to add permission to send to com.apple.SBUserNotification);
-- (double)r;
-- (void)@¤Ýÿ;Î²)];
-- (void)Ùö9];
-- (void);
-- (void)^;
+- (_Bool);
+- (void)rTranslucentGapsForGeometry:key:onKeyplane: /* Error: Ran out of types for this method. */;
+- (double)cloneGenericView:(long long)arg1;
+- (void)vailableConfigurationState",N,R;
+- (void)viewParametersCornerRadii;
+- (void)paØa;
+- (void);
+- (void)8];
+- (id)ôç];
+- (void)±È;
+- (void)ÏÿVÕp£^;
+- (void)-: /* Error: Ran out of types for this method. */;
+- (void)ê^;
 
 // Remaining properties
 @property(retain, nonatomic) _UIStatusBarCycleAnimation *cycleAnimation; // @synthesize cycleAnimation=_cycleAnimation;

@@ -8,17 +8,18 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (void);
 + (void);
-+ (void);
++ (void);
++ (void);
 + (id);
 + (id);
 + (id);
 + (unsigned long long);
 + (id);
-+ (id)!;
++ (id);
 + (id);
 + (void);
 + (id);

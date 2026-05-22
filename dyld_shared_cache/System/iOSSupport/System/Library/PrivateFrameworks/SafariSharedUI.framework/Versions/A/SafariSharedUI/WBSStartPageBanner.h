@@ -28,39 +28,40 @@
 }
 
 + (id);
-+ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-- (void);
++ (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (long long);
-- (id);
 - (long long);
-- (id);
+- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
-- (void);
-- (id);
+- (void);
 - (id);
-- (unsigned long long)@;
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (long long)ocation:%@ /* Error: Ran out of types for this method. */;
-- (id);
 - (_Bool);
-- (void);
-- (CDUnknownBlockType)CompletionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (void)tring:forURLString:completionHandler: /* Error: Ran out of types for this method. */;
+- (long long)is.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"observedActionInFormTextField",action:a,controlMetadata:o,formMetadata:r})}submitEventHandler(e){const t=this.jsController.getMetadataForForm(e);e.setUserInfo(t)}}class AutoFillButtonManager{jsController;constructor(e){this.jsController=e}addEventListeners(){formMetadataEventDispatcher.addGlobalListener("webkitautofillrequest",this.webKitAutofillRequestEventHandler.bind(this))}webKitAutofillRequestEventHandler(e){let[t,a]=this.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"manualAutoFillRequest",focusedElementMetadata:t,formMetadata:a})}}let formMetadataJSController=new FormMetadataJSController;eventQueue.setDelegate(formMetadataEventDispatcher);
+0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

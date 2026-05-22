@@ -8,10 +8,9 @@
 @protocol NUImageBuffer, PFParallaxAssetRegions;
 
 @protocol PISegmentationItem
-- (double)ons;
-- (id <PFParallaxAssetRegions>)led to acquire system photo library:%@ /* Error: Ran out of types for this method. */;
-- (NSURL *)@0:8@16{CGPoint=dd}24@40 /* Error: Ran out of types for this method. */;
-- (NSDictionary *)ayout"8^B16;
+- (double)setDownloadExtensionNotAvailable;
+- (NSDictionary *)ewConfiguration * _Nonnull PXDeduplicationPhotosViewConfiguration(PHAssetCollection *__strong _Nonnull, PXSelectionCoordinator *__strong _Nullable, BOOL);
+- (NSURL *)scrollThresholdForTopCenteredTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUImageBuffer> HDRGainMap;
@@ -22,6 +21,7 @@
 @property(readonly, copy, nonatomic) NSArray *defaultStyles;
 @property(readonly, nonatomic) NSURL *fileURL;
 @property(readonly, nonatomic) double focalLengthIn35mm;
+@property(readonly, nonatomic) _Bool headroomInfillQualified;
 @property(readonly, nonatomic) _Bool isSettlingEffectAvailable;
 @property(readonly, nonatomic) _Bool isSpatialPhotoAvailable;
 @property(readonly, nonatomic) PFWallpaperCompoundDeviceConfiguration *layoutConfiguration;

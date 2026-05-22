@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, UIImage, UIPreviewItemController, UIViewController;
+@class NSDictionary, UIPreviewItemController;
 
 @protocol UIPreviewItemDelegate
-- (NSDictionary *)ationVector;
+- (NSDictionary *)bleViewAutomaticDimension.;
 
 @optional
-- (UIImage *)hecksum 0x%x;
-- (void)oxy request;
-- (void)!XBùQÁ1¢!0@ù
-× ;
-- (_Bool);
-- (NSArray *)r:(UIPreviewItemController *)arg1 location: /* Error: Ran out of types for this method. */;
-- (void)owsKeyboardShortcuts;
-- (UIViewController *)h;üÿ(|þÿ.üÿ;
-- (void);
+- (struct CGRect);
+- (_Bool)ardOutput:(UIPreviewItemController *)arg1 withInputForSmartPunctuation:(struct CGPoint)arg2 keyboardConfiguration: /* Error: Ran out of types for this method. */;
+- (void)ndowScenes;
 @end
 

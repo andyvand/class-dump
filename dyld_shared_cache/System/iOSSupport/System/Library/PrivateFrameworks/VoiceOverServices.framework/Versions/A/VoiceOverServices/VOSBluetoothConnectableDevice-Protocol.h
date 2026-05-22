@@ -5,8 +5,6 @@
 //
 
 @protocol VOSBluetoothConnectableDevice
-- (void)VXW;
-- (void);
-- (_Bool);
+- (_Bool)tCommandSystemActivateSpeakScreen;
 @end
 

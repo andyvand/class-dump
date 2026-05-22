@@ -24,34 +24,34 @@ __attribute__((visibility("hidden")))
     struct CAPoint3D _initialLocation;
 }
 
-- (void)htURLs;
 - (void);
 - (void);
-- (void)p>=;
+- (void);
+- (void);
 - (_Bool);
-- (_Bool)ty state to done. Success:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (void);
 - (struct CAPoint3D);
-- (void)1¢!0@ù
+- (void);
+- (void)1Â0@ù
 × ;
-- (void)fNeeded;
-- (CDUnknownBlockType)t;
-- (void)ew;
-- (long long)croll;
-- (void)",&,N,V_bubble1;
-- (CDUnknownBlockType)êüÿ;
-- (id);
-- (_Bool)lÿ;
-- (void);
-- (void)»C;
-- (void)ø2äþ²þ;
-- (id)yzl;
-- (void),éçÿ!eÎån;
+- (_Bool)Context: /* Error: Ran out of types for this method. */;
+- (long long)ismissShouldBeginHandler: /* Error: Ran out of types for this method. */;
+- (void)ion:(_Bool)arg1 withGranularity:inDirection: /* Error: Ran out of types for this method. */;
+- (id)ForBackButtonMenu: /* Error: Ran out of types for this method. */;
+- (void)aryAssetCatalog:(struct CAPoint3D)arg1;
+- (id)0;
+- (CDUnknownBlockType);
+- (CDUnknownBlockType)e;
+- (void)onalEdgeInsets=dddd}8;
+- (void)<8R0Q13ì-;
+- (void);
+- (void);
+- (void)üÑ\m;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType _sessionDidBegin; // @synthesize _sessionDidBegin=__sessionDidBegin;

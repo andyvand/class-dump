@@ -10,7 +10,7 @@
 {
 }
 
-- (void)ultiManifests;
+- (void);
 - (unsigned long long);
 - (void);
 - (unsigned long long);

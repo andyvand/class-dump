@@ -4,6 +4,6 @@
 
 class dyld4::EqualTypeConformanceLookupKey {
 public: // (access info unavailable from symbols alone)
-    equal(SwiftTypeProtocolConformanceDiskLocationKey const&, unsigned long long, unsigned long long, dyld4::RuntimeState*);
-    equal(SwiftTypeProtocolConformanceDiskLocationKey const&, unsigned long long, unsigned long long, dyld4::RuntimeState*) (.cold.1);
+    auto equal(SwiftTypeProtocolConformanceDiskLocationKey const&, unsigned long long, unsigned long long, dyld4::RuntimeState*);
+    auto equal(SwiftTypeProtocolConformanceDiskLocationKey const&, unsigned long long, unsigned long long, dyld4::RuntimeState*) (.cold.1);
 };

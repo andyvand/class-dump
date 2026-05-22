@@ -5,7 +5,5 @@
 //
 
 @protocol UIViewControllerAnimatedTransitioning
-- (void)InfoForShadowContext(CGContextRef, CGFloat)_block_invoke;
-- (double)num;
 @end
 

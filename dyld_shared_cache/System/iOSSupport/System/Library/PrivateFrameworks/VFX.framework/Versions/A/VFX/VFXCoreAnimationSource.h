@@ -15,9 +15,647 @@
 
 - (id);
 - (void);
-- (id);
-- (_Bool)4¡;
-- (void);
+- (_Bool);
+- (id)LegacyBlur;
+    float probeIntensityScale;
+    VFX_RE_C_LocalizedProbeConstant localizedProbes[kVFXMaxLocalizedProbeCountDefault];
+    VFX_RE_C_GlobalProbeConstant globalProbes[kVFXMaxGlobalProbeCountDefault];
+    
+    simd_float3x3 combinedMatrix;
+    float probeClampFloor;
+    float probeClampCeil;
+} VFX_RE_C_ProbeConstantBuffer;
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_PROBES
+typedef re::ProbeCounts ProbeCounts;
+typedef re::LocalizedProbeConstant LocalizedProbeConstant;
+typedef re::GlobalProbeConstant GlobalProbeConstant;
+typedef re::ProbeConstantBuffer ProbeConstantBuffer;
+constant uint32_t kMaxLocalizedProbeCount = re::kMaxLocalizedProbeCount;
+constant uint32_t kMaxGlobalProbeCount = re::kMaxGlobalProbeCount;
+#else
+typedef VFX_RE_C_ProbeCounts ProbeCounts;
+typedef VFX_RE_C_LocalizedProbeConstant LocalizedProbeConstant;
+typedef VFX_RE_C_GlobalProbeConstant GlobalProbeConstant;
+typedef VFX_RE_C_ProbeConstantBuffer ProbeConstantBuffer;
+#  if __METAL_VERSION__
+constant uint32_t kMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCount;
+constant uint32_t kMaxGlobalProbeCount = kVFXMaxGlobalProbeCount;
+#  elif defined(__cplusplus)
+constexpr uint32_t kMaxLocalizedProbeCount = kVFXMaxLocalizedProbeCount;
+constexpr uint32_t kMaxGlobalProbeCount = kVFXMaxGlobalProbeCount;
+#  endif
+#endif 
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_PROBES && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+static_assert(sizeof(VFX_RE_C_ProbeCounts) == sizeof(re::ProbeCounts), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_LocalizedProbeConstant) == sizeof(re::LocalizedProbeConstant), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_GlobalProbeConstant) == sizeof(re::GlobalProbeConstant), "vfx_re_shaders:struct size mismatch");
+static_assert(sizeof(VFX_RE_C_ProbeConstantBuffer) == sizeof(re::ProbeConstantBuffer), "vfx_re_shaders:struct size mismatch");
+
+static_assert(alignof(VFX_RE_C_ProbeCounts) == alignof(re::ProbeCounts), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_LocalizedProbeConstant) == alignof(re::LocalizedProbeConstant), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_GlobalProbeConstant) == alignof(re::GlobalProbeConstant), "vfx_re_shaders:struct alignof mismatch");
+static_assert(alignof(VFX_RE_C_ProbeConstantBuffer) == alignof(re::ProbeConstantBuffer), "vfx_re_shaders:struct alignof mismatch");
+
+static_assert(kVFXMaxLocalizedProbeCount == re::kMaxLocalizedProbeCount, "vfx_re_shaders:max probe count mismatch");
+static_assert(kVFXMaxGlobalProbeCount == re::kMaxGlobalProbeCount, "vfx_re_shaders:max probe count mismatch");
+#endif 
+
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_VIRTUAL_ENV_PROBES
+#  import <REShaders/SharedVirtualEnvironmentProbes.h>
+#endif
+
+
+
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_BREAKTHROUGH
+#  import <REShaders/SharedBreakthrough.h>
+#endif
+
+#if VFX_IMPORT_RE_SHADERS_SHARED_BREAKTHROUGH
+typedef re::BreakthroughGPUData BreakthroughGPUData;
+#elif defined(__METAL_VERSION__)
+struct BreakthroughGPUData;
+#endif
+
+
+
+
+typedef VFX_RE_SHADERS_ENUM(int32_t) {
+    revfx_portal_clipping_mode_none                 = 0,
+    revfx_portal_clipping_mode_clipping             = 1,
+    revfx_portal_clipping_mode_crossing_inside      = 2,
+    revfx_portal_clipping_mode_crossing_outside     = 3,
+    revfx_portal_clipping_mode_no_clipping_inside   = 4,
+    revfx_portal_clipping_mode_count
+} revfx_portal_clipping_mode;
+
+#define VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED 1
+#define VFX_RE_RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION (!TARGET_OS_SIMULATOR)
+
+
+typedef VFX_RE_SHADERS_ENUM(int32_t)
+{
+    revfx_function_constants_EdgeBevelShadowMode,
+    revfx_function_constants_EnableGlow,
+    revfx_function_constants_EnableNormalMap,
+    revfx_function_constants_EnableDetailMapping,
+    revfx_function_constants_EnableIBL,
+    revfx_function_constants_EnableAreaLight,
+    revfx_function_constants_EnableRMAS,
+    revfx_function_constants_EnableSeparateRMAS,
+    revfx_function_constants_EnableSRGBOutput,
+    revfx_function_constants_EnableTransparency,
+    revfx_function_constants_DiffuseOption,
+    revfx_function_constants_EnableLightmap,
+    revfx_function_constants_EnableDynamicLighting,
+    revfx_function_constants_EnableNdfFiltering,
+    revfx_function_constants_LodCrossFading,
+    revfx_function_constants_EnableAlphaCutoutShadows,
+    revfx_function_constants_EnableScreenSpaceAdaptiveTessellation,
+    revfx_function_constants_EnableUnlitTexture,
+    revfx_function_constants_EnableAREnvProbe,
+    revfx_function_constants_EnableSRGBToLinearConversion,
+    revfx_function_constants_EnableBaseColorMap,
+    revfx_function_constants_EnableEmissiveMap,
+    revfx_function_constants_EnableRoughnessMap,
+    revfx_function_constants_EnableMetallicMap,
+    revfx_function_constants_EnableAOMap,
+    revfx_function_constants_EnableSpecularMap,
+    revfx_function_constants_EnableClearcoat,
+    revfx_function_constants_EnableVertexColor,
+    revfx_function_constants_VertexColorOption,
+    revfx_function_constants_ShadowPcfFilterOption,
+    revfx_function_constants_EnableOpacityMap,
+    revfx_function_constants_UseBaseColorMapAsTintMask,
+    revfx_function_constants_EnableTension,
+    revfx_function_constants_EnableOpacityThreshold,
+    revfx_function_constants_EnablePerTileLightCulling,
+    revfx_function_constants_EnableClipping,
+    revfx_function_constants_EnableCloth,
+    revfx_function_constants_EnableCustomBlend,
+    revfx_function_constants_EnablePassthrough,
+    revfx_function_constants_EnableSSAO,
+    revfx_function_constants_EnableSSDO,
+    revfx_function_constants_EnableDebug,
+    revfx_function_constants_EnableSphericalSkybox,
+    revfx_function_constants_MeshShadow,
+    revfx_function_constants_EnableSamplerArray,
+    revfx_function_constants_EnablePassthroughBlurPlane,
+    revfx_function_constants_EnableDitherFade,
+    revfx_function_constants_EnableProjectiveShadow,
+    revfx_function_constants_EnablePostProcessBlur,
+    revfx_function_constants_BaseColorHasPremultipliedAlpha,
+    revfx_function_constants_EnableMultiUVs,
+    revfx_function_constants_EnableVRROnCapableDevice,
+    revfx_function_constants_AllowAlphaBlendingWithOpacityThreshold,
+    revfx_function_constants_EnableAnisotropy,
+    revfx_function_constants_EnablePlanarReflection,
+    revfx_function_constants_SupportsCubeArray,
+    revfx_function_constants_EnableBlurMeshScaling,
+    revfx_function_constants_SupportsPrefilteredProbes,
+    revfx_function_constants_EnableMultiscatter,
+    revfx_function_constants_EnableShaderColorToLinearConversion,
+    revfx_function_constants_EnablePtCrossing,
+    revfx_function_constants_EnableFoveatedCARendering,
+    revfx_function_constants_EnableInstancing,
+    revfx_function_constants_EnableIBLRotation,
+    revfx_function_constants_EnableIBLDirectionsBend,
+    revfx_function_constants_EnableWorldSpaceNormalMap,
+    revfx_function_constants_EnablePlatter,
+    revfx_function_constants_EnableVCABlurPlane,
+    revfx_function_constants_SpecularOption,
+    revfx_function_constants_EnableShadowedDynamicLight,
+    revfx_function_constants_EnableCAEdgeBevel,
+    revfx_function_constants_EnableCAShaderDebug,
+    revfx_function_constants_EnableCAPerEyeTransform,
+    revfx_function_constants_EnableInset,
+    revfx_function_constants_VideoPlaybackOption,
+    revfx_function_constants_EnableTriPlanarVideoSupport,
+    revfx_function_constants_EnableInverseToneMapping,
+#if VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED
+    revfx_function_constants_EyeFilter,
+    revfx_function_constants_ExperienceMode,
+    revfx_function_constants_EnableHDRCroppingUVRemapping,
+#endif
+    revfx_function_constants_EnableSurfaceShaderCustomParams,
+    revfx_function_constants_EnableSurfaceShaderWithCustomParams,
+    revfx_function_constants_EnableGeometryModifierWithCustomParams,
+    revfx_function_constants_CAEdgeSpecularMode,
+    revfx_function_constants_EnableVideoColorSpaceConversion,
+    revfx_function_constants_EnableVideoColorSpaceTransformation,
+    revfx_function_constants_IsPtSurface,
+    revfx_function_constants_EnableSurfaceShaderPremultipliedOutput,
+    revfx_function_constants_RenderToCompositeLayer,
+    revfx_function_constants_EnableDepthMitigation,
+    revfx_function_constants_EnableBtMask,
+    revfx_function_constants_EnableTonemapInPlace,
+    revfx_function_constants_EnableDragUIShadow,
+    revfx_function_constants_EnableVideoColorTransformation,
+    revfx_function_constants_EnableBtTransition,
+    revfx_function_constants_UseFullscreenQuadForImmersionMask,
+    revfx_function_constants_UseDirectionalLight,
+    revfx_function_constants_EnableUserEnvironment,
+    revfx_function_constants_DisableFoveatedCA,
+    revfx_function_constants_EnableRuntimeFunctionConstants,
+    revfx_function_constants_EnableScreenVideoLetterBoxPadding,
+    revfx_function_constants_EnableREShadersTonemapInPlace,
+    revfx_function_constants_RenderForBlur,
+    revfx_function_constants_EnableNearFieldVignetting,
+    revfx_function_constants_EnableCAPreSamplerDegamma,
+    revfx_function_constants_GlobalProbeCount,
+    revfx_function_constants_LocalProbeCount,
+    revfx_function_constants_EnableCrossBlending,
+    revfx_function_constants_EnableSpecularPerQuadRoughness,
+    revfx_function_constants_EnableCAVertexObjPos,
+    revfx_function_constants_PerceptualBlendingMode,
+    revfx_function_constants_MatchUnlitColor,
+    revfx_function_constants_EnableEdgeAnalyticAA,
+    revfx_function_constants_EnableSpatialFocus,
+    revfx_function_constants_EnableNonVRRAnisotropy,
+    revfx_function_constants_EnableSurfaceShaderColorDithering,
+    revfx_function_constants_EnablePlatterFakeFresnel,
+    revfx_function_constants_SurfaceShaderAttributeSet,
+    revfx_function_constants_EnablePlatterContainerSDF,
+    revfx_function_constants_EnableCALayerSurfaceShaderConstants,
+    revfx_function_constants_EnableSurfaceShaderVideo,
+    revfx_function_constants_EnableSurfaceShaderEnvInputs,
+    revfx_function_constants_EnablePlatterSpecularViewAngleFade,
+    revfx_function_constants_DitherMode,
+    revfx_function_constants_EnableSampleMaskReadWrite,
+    revfx_function_constants_DisableFadeOpacity,
+    revfx_function_constants_EnableDitherFadeOverride,
+    revfx_function_constants_DisableSystemTreatmentOpacity,
+    revfx_function_constants_EnablePtClipPlane,
+    revfx_function_constants_EnableVideoEdgeAnalyticAA,
+    revfx_function_constants_PortalClippingMode,
+    revfx_function_constants_EnableDepthDither,
+    revfx_function_constants_EnableSurfaceShaderMeshShadow,
+    revfx_function_constants_IsPointPrimitive,
+    revfx_function_constants_EnableProgrammableBlending,
+    revfx_function_constants_EnableManualVertexFetch,
+    revfx_function_constants_EnableAdditiveBlending,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableEscapedLayer,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex11,
+#endif
+    revfx_function_constants_VideoSamplingMode,
+    revfx_function_constants_FunctionConstantPlaceholderIndex12,
+    revfx_function_constants_EnableSurfaceShaderLighting,
+    revfx_function_constants_EnableVirtualEnvironmentProbes,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableTexturePlatterMask,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex13,
+#endif
+    revfx_function_constants_EnableClearcoatNormalMap,
+    revfx_function_constants_EnableIBLBlending,
+#if VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED
+    revfx_function_constants_EnableIMDynamicMask,
+    revfx_function_constants_EnableIMMonoMask,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex14,
+    revfx_function_constants_FunctionConstantPlaceholderIndex15,
+#endif
+    revfx_function_constants_EnableBarycentricCoordinates,
+    revfx_function_constants_EnableISPTonemap,
+#if VFX_RE_RE_VIDEO_VRR_SUPPORTED
+    revfx_function_constants_EnableVideoVrrRendering,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex16,
+#endif
+    revfx_function_constants_UseSDFVertDistanceForFakeFresnel,
+    revfx_function_constants_EnableShaderGraphLightSpill,
+    revfx_function_constants_EnableVideoColorInvert,
+    revfx_function_constants_SupportsQuadReduction,
+    revfx_function_constants_EnableVideoLegacyMode,
+    revfx_function_constants_EnableCustomTextureArray,
+    revfx_function_constants_EnableInvertColors,
+    revfx_function_constants_EnableInvertBlurColorMatrix,
+    revfx_function_constants_ImmersivePortalShadersFastPath,
+#if UNAUDITED_SUPPORTS_XR_RENDER_SERVER_OR_TOOLS
+    revfx_function_constants_EnableDitherFadeNFV,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex17,
+#endif
+    revfx_function_constants_EnableOpenSubDivViewBasedCulling,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableVideoSpecularAndFresnel,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex18,
+#endif
+    revfx_function_constants_UseVCOnlyBlur,
+    revfx_function_constants_EnableLightClustering,
+    revfx_function_constants_PortalEnableProbeLightingBlend,
+    revfx_function_constants_FunctionConstantEnableVideoSpatialRendering,
+#if VFX_RE_RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+    revfx_function_constants_IsVisualDepthStaticOcclusionTextureAvailable,
+    revfx_function_constants_EnableVisualDepthStaticOcclusion,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex19,
+    revfx_function_constants_FunctionConstantPlaceholderIndex21,
+#endif
+    revfx_function_constants_VideoTriangleFillMode,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableImageSpecularAndFresnel,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex20,
+#endif
+    revfx_function_constants_EnableWrapLighting,
+    revfx_function_constants_EnableThicknessMap,
+    revfx_function_constants_EnableSphericalGaussian,
+    revfx_function_constants_EnableSSS,
+    revfx_function_constants_EnableSSSAndIBL,
+    revfx_function_constants_SystemEnvironmentsFastPath,
+#if VFX_RE_CARE_CG_COMPONENTS_ENABLED
+    revfx_function_constants_EnableCAStereoContent,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex22,
+#endif
+    revfx_function_constants_EnableVideoFoveaRendering,
+    revfx_function_constants_EnableUIShadowReceiver,
+    revfx_function_constants_EnableOpenSubDivOutputTessellationFactors,
+    revfx_function_constants_EnablePrimitiveIdentifier,
+#if VFX_RE_RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+    revfx_function_constants_EnableSceneUnderstandingStaticOcclusion,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex23,
+#endif
+#if VFX_RE_UNAUDITED_SUPPORTS_XR_RENDER_SERVER_OR_TOOLS
+    revfx_function_constants_EnableBreakthroughMaskGeneration,
+    revfx_function_constants_EnableBlendingMaskGeneration,
+#else
+    revfx_function_constants_FunctionConstantPlaceholderIndex24,
+    revfx_function_constants_FunctionConstantPlaceholderIndex25,
+#endif
+    revfx_function_constants_SharedFunctionConstantCount
+} revfx_function_constants;
+
+#if VFX_IMPORT_RE_SHADERS_ENGINE_CONSTANTS && VFX_CHECK_RE_SHADERS_STRUCT_SIZE
+#  pragma clang diagnostic push
+#  pragma clang diagnostic ignored "-Wdeprecated-declarations"
+
+#define IMMERSIVE_MEDIA_SUPPORT_ENABLED VFX_RE_IMMERSIVE_MEDIA_SUPPORT_ENABLED
+#define RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION VFX_RE_RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+
+#  import "REShaders/SharedFunctionConstants.h"
+
+static_assert((int32_t)revfx_function_constants_EnableNdfFiltering == (int32_t)kEnableNdfFilteringIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableAREnvProbe == (int32_t)kEnableAREnvProbeIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_SupportsCubeArray == (int32_t)kSupportsCubeArrayIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_SpecularOption == (int32_t)kSpecularOptionIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableRuntimeFunctionConstants == (int32_t)kEnableRuntimeFunctionConstantsIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableClipping == (int32_t)kEnableClippingIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableBtMask == (int32_t)kEnableBtMaskIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableDepthMitigation == (int32_t)kEnableDepthMitigationIndex, "vfx_re_shaders:function constant mismatch");
+#if RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+static_assert((int32_t)revfx_function_constants_EnableVisualDepthStaticOcclusion == (int32_t)kEnableVisualDepthStaticOcclusionIndex, "vfx_re_shaders:function constant mismatch");
+static_assert((int32_t)revfx_function_constants_EnableSceneUnderstandingStaticOcclusion == (int32_t)kEnableSceneUnderstandingStaticOcclusionIndex, "vfx_re_shaders:function constant mismatch");
+#endif
+
+#undef IMMERSIVE_MEDIA_SUPPORT_ENABLED
+#undef RUNTIME_SUPPORTS_VISUAL_DEPTH_STATIC_OCCLUSION
+
+
+
+#  pragma clang diagnostic pop
+#endif 
+
+#undef VFX_RE_SHADERS_ALIGN_AS
+#undef VFX_RE_SHADERS_ENUM
+
+struct re_entity_argument_buffer {
+#ifdef __METAL_VERSION__
+    metal::texture2d_array<half> breakthroughTextureArray;
+    constant BreakthroughGPUData* breakthroughData;
+    metal::texture2d<ushort> textureBreakthroughSDFMeshScene;
+    metal::texture2d<half> textureBreakthroughDepth;
+#else
+#if !TARGET_OS_SIMULATOR
+    MTLResourceID breakthroughTextureArray;
+    uint64_t breakthroughData;
+    MTLResourceID textureBreakthroughSDFMeshScene;
+    MTLResourceID textureBreakthroughDepth;
+#endif
+#endif
+};
+
+struct re_scene_argument_buffer {
+#ifdef __METAL_VERSION__
+    metal::texture2d<half> textureSpecMaxEss;
+    constant half* specMaxEssAvgTable;
+
+    constant ClippingConstants& clippingConstants;
+    metal::texture2d_array<float> clippingSdfTextureArray;
+
+    metal::texture2d<half> blueNoiseTexture;
+
+    metal::texture1d<half> ispTonemapLUT;
+    metal::texture2d<half> textureFilter;
+
+    constant ProbeConstantBuffer& probes;
+#if TARGET_OS_SIMULATOR
+    metal::texturecube<half> envProbeCube;
+    metal::texturecube<half> envProbeDiffuse;
+#else
+    metal::texturecube_array<half> envProbeCubeArray;
+    metal::texturecube_array<half> envProbeDiffuseArray;
+    metal::texture2d_array<half> envProbeTextureArray;
+    constant VirtualEnvironmentProbeLighting::TextureArgumentBuffer& virtualEnvProbeTextures;
+#endif
+    constant VirtualEnvironmentProbeLighting::ProbeConstantBuffer& virtualEnvProbeConstants;
+
+    metal::depth2d<float> textureShadow;
+
+    metal::texture2d_array<half> dmWarpedAlphaMask;
+
+    metal::texture2d_array<half> textureVisualDepth;
+    metal::texture2d_array<half> textureImmersiveEnvironmentMask;
+    metal::texture2d_array<half> textureSUOcclusionAlphaMask;
+
+#else 
+#if !TARGET_OS_SIMULATOR
+    MTLResourceID textureSpecMaxEss;
+    uint64_t specMaxEssAvgTable;
+
+    uint64_t clippingConstants;
+    MTLResourceID clippingSdfTextureArray;
+
+    MTLResourceID blueNoiseTexture;
+
+    MTLResourceID ispTonemapLUT;
+    MTLResourceID textureFilter;
+
+    uint64_t probes;
+    MTLResourceID envProbeCubeArray;
+    MTLResourceID envProbeDiffuseArray;
+    MTLResourceID envProbeTextureArray;
+    uint64_t virtualEnvProbeTextures;
+    uint64_t virtualEnvProbeConstants;
+
+    MTLResourceID textureShadow;
+
+    MTLResourceID dmWarpedAlphaMask;
+    
+    MTLResourceID textureVisualDepth;
+    MTLResourceID textureImmersiveEnvironmentMask;
+    MTLResourceID textureSUOcclusionAlphaMask;
+#endif
+#endif 
+};
+
+struct re_vfx_object_constants {
+    uint16_t render_options;
+    uint16_t perceptual_blending_mode;
+};
+
+#endif 
+ /* Error: Ran out of types for this method. */;
+- (void)edRoughness; 
+    
+    ushort const sampleCountSpecular = 128;
+    for (ushort i = 0; i < sampleCountSpecular; ++i) {
+        float2 random = vfx_sampleHammersley(i, sampleCountSpecular);
+        float3 h = vfx_importanceSampleGGX_brdf(random, correctedRoughness, n); 
+        float3 l = reflect(-v, h); 
+        
+        float NoL = saturate(dot(n, l));
+        float NoH = saturate(dot(n, h));
+        float LoH = saturate(dot(l, h));
+        
+        if (NoH * NoV > 0) {
+            float3 Li = environment.sample(linearSampler, vfx:(id)arg1:mat4_mult_float3(localDirToWorldCubemapDir, l), level(environmentSamplingLevel)).rgb * environmentIntensity;
+            float3 F = vfx_brdf_F(reflectance, LoH);
+            float G = vfx_brdf_G(alpha, NoL, NoV);
+#if 0
+            float D = vfx_brdf_D(alpha, NoH);
+            float pdf = (D * NoH) / (4.0f * LoH);
+            
+            if (pdf >= 0) {
+                float3 l = D * F * G / (4.0f * NoV); 
+                specular += Li * l / pdf;
+                specularWeight += 1.0f;
+            }
+#else
+            specular += Li * F * G * LoH / (NoH * NoV);
+            specularWeight += 1.0f;
+#endif
+        }
+    }
+    
+    specular /= specularWeight;
+    
+    
+    return ambientOcclusion * (effectiveAlbedo * irradiance + specular);
+}
+
+
+
+inline float3x3 vfx_ltc_matrix_invert_transpose(float3x3 m)
+{
+    float a = m[0][0];
+    float b = m[1][0];
+    float c = m[0][1];
+    float d = m[1][1];
+    float det = a * d - b * c;
+    m[0][0] = +det * d;
+    m[1][0] = -det * b;
+    m[1][0] = -det * c;
+    m[1][1] = +det * a;
+    m[2][2] = 1.f / m[2][2];
+    return m;
+}
+
+inline float3x3 vfx_sample_area_light_precomputed_data(float3                 v,
+                                                       float3                 n,
+                                                       float                  roughness,
+                                                       thread float*          brdfNorm,
+                                                       texture2d_array<float> bakedDataTexture)
+{
+    constexpr sampler linearSampler = sampler(address::clamp_to_edge, filter::linear);
+    
+    float theta = acos(fabs(dot(n, v)));
+    float2 uv = float2(roughness, theta * M_2_PI_F);
+    
+    float4 dataA = bakedDataTexture.sample(linearSampler, uv, 0);
+    float4 dataB = bakedDataTexture.sample(linearSampler, uv, 1);
+    
+    *brdfNorm = dataB.y;
+    
+    return float3x3(float3(dataA.x, dataA.y, 0.f),
+                    float3(dataA.z, dataA.w, 0.f),
+                    float3(0.f, 0.f, dataB.x));
+}
+
+inline float3 vfx_area_light_polygon_edge_vector_form_factor(float3 cornerDirectionA,
+                                                             float3 cornerDirectionB)
+{
+    
+    
+    
+#if 0
+    float theta = acos(dot(cornerDirectionA, cornerDirectionB));
+    return (0.5f * M_1_PI_F) * cross(cornerDirectionA, cornerDirectionB) * ((theta > 0.001) ? theta/sin(theta) :1.0);
+#else
+    float x = dot(cornerDirectionA, cornerDirectionB);
+    float y = abs(x);
+    
+    float a = 5.42031f + (3.12829f + 0.0902326 * y) * y;
+    float b = 3.45068f + (4.18814f + y) * y;
+    float thetaOverSinTheta = a / b;
+    
+    if (x < 0.f)
+        thetaOverSinTheta = M_PI_F * rsqrt(1.f - x * x) - thetaOverSinTheta;
+    
+    float3 u = cross(cornerDirectionA, cornerDirectionB);
+    return (0.5f * M_1_PI_F) * thetaOverSinTheta * u;
+#endif
+}
+
+inline float vfx_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(float3 vectorFormFactor)
+{
+#if 1
+    
+    float l = length(vectorFormFactor);
+    return max((l * l + vectorFormFactor.y) / (l + 1.f), 0.f);
+#else
+    
+    return max(vectorFormFactor.y, 0.f);
+#endif
+}
+
+inline float pbr_area_light_eval_rectangle(float4x3 corners)
+{
+    
+    
+    
+    float3 corner0 = normalize(corners[0]);
+    float3 corner1 = normalize(corners[1]);
+    float3 corner2 = normalize(corners[2]);
+    float3 corner3 = normalize(corners[3]);
+    
+    float3 vectorFormFactor = float3(0.f);
+    vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner0, corner1);
+    vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner1, corner2);
+    vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner2, corner3);
+    vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner3, corner0);
+    
+    return vfx_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_eval_polygon(float3                position,
+                                         float3                lightCenter,
+                                         float3                lightRight,
+                                         float3                lightTop,
+                                         uint32_t              vertexCount,
+                                         device packed_float2 *vertexPositions)
+{
+    
+    
+    
+    float3 vectorFormFactor = float3(0.f);
+    for (uint32_t vertexIndex = 0; vertexIndex < vertexCount; ++vertexIndex) {
+        packed_float2 localCorner0 = vertexPositions[vertexIndex];
+        packed_float2 localCorner1 = vertexPositions[(vertexIndex + 1) % vertexCount];
+        
+        
+        
+        float3 cornerDirection0 = lightCenter - localCorner0[0] * lightRight + localCorner0[1] * lightTop;
+        float3 cornerDirection1 = lightCenter - localCorner1[0] * lightRight + localCorner1[1] * lightTop;
+        
+        float3 corner0 = normalize(cornerDirection0 - position);
+        float3 corner1 = normalize(cornerDirection1 - position);
+        
+        vectorFormFactor += vfx_area_light_polygon_edge_vector_form_factor(corner0, corner1);
+    }
+    
+    return vfx_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_line_integral_position(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l / (d * (d_squared + l_squared)) + atan(l / d) / d_squared;
+}
+
+inline float pbr_area_light_line_integral_direction(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l_squared / (d * (d_squared + l_squared));
+}
+
+inline float pbr_area_light_eval_line(float2x3 cornerDirections)
+{
+    
+    
+    
+    float3 corner0 = normalize(cornerDirections[0]);
+    float3 corner1 = normalize(cornerDirections[1]);
+    
+    float3 direction = normalize(corner1 - corner0);
+    
+    if (corner0.y <= 0.f && corner1.y <= 0.f) return 0.f;
+    if (corner0.y < 0.f) corner0 = (+corner0 * corner1.y - corner1 * corner0.y) / (+corner1.y - corner0.y);
+    if (corner1.y < 0.f) corner1 = (-corner0 * corner1.y + corner1 * corner0.y) / (-corner1.y + corner0.y);
+    
+    float l1 = dot(corner0, direction);
+    float l2 = dot(corner1, direction);
+    
+    float3 position = corner0 - l1 * direction;
+    float d = length(position);
+    
+    float I = (pbr_area_light_line_integral_position(d, l2) - pbr_area_light_line_integral_position(d, l1)) * position.y
+            + (pbr_area_light_line_integral_direction(d, l2) - pbr_area_light_line_integral_direction(d, l1)) * direction.y;
+    
+    return M_1_PI_F * I;
+}
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *layer; // @synthesize layer=_layer;

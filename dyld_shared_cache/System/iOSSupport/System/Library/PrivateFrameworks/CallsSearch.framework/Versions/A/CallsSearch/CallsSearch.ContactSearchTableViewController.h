@@ -28,11 +28,11 @@
 - (void);
 - (long long);
 - (void);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);

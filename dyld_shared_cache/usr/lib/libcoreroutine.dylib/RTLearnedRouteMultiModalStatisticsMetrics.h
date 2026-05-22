@@ -42,7 +42,6 @@
 
 - (void);
 - (void);
-- (void)!;
 - (void);
 - (void);
 - (void);
@@ -65,7 +64,8 @@
 - (void);
 - (void);
 - (void);
-- (void)h;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,10 +83,10 @@
 - (float);
 - (float);
 - (float);
-- (float);
+- (float);
 - (float);
 - (int);
-- (int)ԟE;
+- (int);
 - (float);
 - (float);
 - (float);
@@ -96,16 +96,16 @@
 - (float);
 - (float);
 - (float);
-- (float)9h;
+- (float);
 - (float);
 - (float);
 - (id);
-- (float)_;
-- (float)R	;
+- (float);
+- (float);
 - (float);
 - (int);
 - (float);
-- (id)ler;
+- (id);
 
 // Remaining properties
 @property float multiModalBikeDistanceAfterDriveAvg; // @synthesize multiModalBikeDistanceAfterDriveAvg=_multiModalBikeDistanceAfterDriveAvg;

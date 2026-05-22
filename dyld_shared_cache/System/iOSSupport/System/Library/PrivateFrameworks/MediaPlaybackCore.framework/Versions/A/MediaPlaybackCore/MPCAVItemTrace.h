@@ -16,22 +16,23 @@ __attribute__((visibility("hidden")))
     double _ended;
 }
 
-+ (void)Error">24;
-+ (id)@"NSUUID"16@?<v@?@"NSData">24;
++ (void);
++ (id);
 - (void);
 - (void);
 - (double);
-- (void)s;
-- (unsigned int)Ha;
 - (void);
 - (void);
+- (unsigned int);
+- (id);
 - (void);
 - (id);
-- (void)FileProtectionType;
-- (id);
-- (double);
-- (void)nse";
-- (void):(double)arg1 source:reason:time: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)!´Eùq`ð1Â0@ù
+× ;
+- (void)blic}@]-%{public}@:(double)arg1 Transforming error network unavailable instead of original:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)%{public}@;
+- (double)e=%f, uncertainty=%f, reliability=%d;
 
 // Remaining properties
 @property(nonatomic) unsigned int endEvent; // @synthesize endEvent=_endEvent;

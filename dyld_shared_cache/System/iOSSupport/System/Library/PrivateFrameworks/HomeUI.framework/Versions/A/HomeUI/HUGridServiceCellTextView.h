@@ -40,20 +40,20 @@
 - (void);
 - (id);
 - (double);
-- (id);
-- (void);
+- (struct CGSize);
 - (unsigned long long);
-- (id);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (struct CGSize)icture.;
-- (void);
+- (id);
+- (id);
+- (void)equiredSubpredicates:(id)arg1 optionalSubpredicates: /* Error: Ran out of types for this method. */;
+- (void)sourceItem:] /* Error: Ran out of types for this method. */;
+- (void)yyyu_ACSgtGG;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;

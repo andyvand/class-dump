@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void)ons:(id)arg1;
 - (void);
+- (void):â¦ | unable to create events database [] url=%{public}@ error=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsChangingCurrentItem; // @dynamic allowsChangingCurrentItem;

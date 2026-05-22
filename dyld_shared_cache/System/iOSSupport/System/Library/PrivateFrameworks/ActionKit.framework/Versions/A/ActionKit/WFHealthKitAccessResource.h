@@ -26,11 +26,11 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)Down;
 
 // Remaining properties
 @property(readonly, nonatomic) HKHealthStore *healthStore; // @synthesize healthStore=_healthStore;

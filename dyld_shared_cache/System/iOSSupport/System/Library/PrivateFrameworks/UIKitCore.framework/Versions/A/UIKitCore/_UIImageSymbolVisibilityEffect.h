@@ -13,27 +13,28 @@
     long long _style;
 }
 
-+ (id)ining zones %@;
-+ (id)IMDChatForChatRecordRef;
 + (id);
-+ (id)ontroller setContentViewController:animated:] called with a nil viewController. /* Error: Ran out of types for this method. */;
-+ (_Bool)\tÿÕ;
-- (void)\;
-- (long long)mID:context: /* Error: Ran out of types for this method. */;
-- (id)gory:deviceID:completion: /* Error: Ran out of types for this method. */;
-- (_Bool)NameCapabilityCache;
-- (long long);
-- (_Bool)fetch initiator from conversation %@;
++ (id);
++ (id);
++ (id)ayPresentationDelegate>";
++ (_Bool)allowedWritingToolsResultOptions:%ld
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id)thGlobalID:(struct _NSZone *)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long)!Aù1Ë°1¢!0@ù
+- (_Bool);
+- (long long);
+- (_Bool);
+- (long long);
+- (id);
+- (unsigned long long);
+- (void)
 × ;
-- (void)ntBefore;
+- (_Bool)ctionDidChange;
+- (void)etDeferredSystemView:(id)arg1;
+- (id)eedsHoverStyleUpdate;
+- (long long)Activation;
+- (void)øà];
 
 // Remaining properties
 @property(nonatomic) _Bool byLayer; // @synthesize byLayer=_byLayer;

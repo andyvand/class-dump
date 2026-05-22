@@ -49,17 +49,17 @@
 - (_Bool);
 - (_Bool);
 - (struct UIEdgeInsets);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
 - (struct UIEdgeInsets);
 - (void);
-- (struct CGSize);
 - (void);
-- (void);
+- (_Bool);
 - (struct CGPoint);
+- (void);
+- (struct CGSize)a;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool alwaysBounceHorizontal; // @synthesize alwaysBounceHorizontal=_alwaysBounceHorizontal;

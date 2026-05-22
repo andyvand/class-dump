@@ -4,9 +4,9 @@
 
 class Decode {
 public: // (access info unavailable from symbols alone)
-    DoRealWork(short*, bool*);
-    ExtractPayloadInfo(PayloadInfo*);
-    Initialize(CMCKeyChain*);
-    SetParamsExtensible(unsigned char);
+    auto DoRealWork(short*, bool*);
+    auto ExtractPayloadInfo(PayloadInfo*);
+    auto Initialize(CMCKeyChain*);
+    auto SetParamsExtensible(unsigned char);
     ~Decode();
 };

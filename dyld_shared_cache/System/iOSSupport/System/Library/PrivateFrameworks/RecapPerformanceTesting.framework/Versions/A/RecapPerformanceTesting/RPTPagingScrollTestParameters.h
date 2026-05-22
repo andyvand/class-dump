@@ -33,18 +33,18 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
 - (double);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
-- (id);
 - (void);
+- (void);
+- (CDUnknownBlockType);
 - (long long);
+- (void);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double amplitude; // @synthesize amplitude=_amplitude;

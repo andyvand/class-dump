@@ -23,8 +23,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)DetailInfoListModuleController;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *phoneNumberServer;

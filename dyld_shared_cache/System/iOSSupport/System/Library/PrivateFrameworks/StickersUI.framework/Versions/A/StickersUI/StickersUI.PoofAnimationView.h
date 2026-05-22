@@ -13,10 +13,10 @@
     MISSING_TYPE *completionHandler;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

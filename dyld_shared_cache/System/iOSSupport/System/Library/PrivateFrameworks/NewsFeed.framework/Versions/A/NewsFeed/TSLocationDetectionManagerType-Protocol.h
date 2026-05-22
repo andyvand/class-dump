@@ -7,9 +7,12 @@
 @class CLLocation;
 
 @protocol TSLocationDetectionManagerType
+- (CLLocation *);
+- (void)0íoþ@3È²pþ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool authorized;
+@property(nonatomic, readonly) CLLocation *currentLocation;
 @property(nonatomic, readonly) _Bool locationServicesEnabled;
 @property(nonatomic, readonly) CLLocation *mostFrequentLocation;
 @property(nonatomic, readonly) id observableMostFrequentLocation;

@@ -8,15 +8,9 @@
 @protocol UICoordinateSpace, _UITextSelectionWidgetAnimating;
 
 @protocol _UITextLoupeView
-- (void)revert;
-- (void)festCheck;
-- (double);
-- (id <UICoordinateSpace>)h	;
-- (void)egory:(_Bool)arg1 reportDictionary:(_Bool)arg2;
-- (_Bool)eClient;
-- (void)eamingAnimationDisplayLink;
-- (_Bool)olDurationProgress:shouldAdvanceToPage: /* Error: Ran out of types for this method. */;
-- (void)extureSharingContext;
+- (void)perancy;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) __weak UIView<_UITextSelectionWidgetAnimating> *animatableSelectionWidget;

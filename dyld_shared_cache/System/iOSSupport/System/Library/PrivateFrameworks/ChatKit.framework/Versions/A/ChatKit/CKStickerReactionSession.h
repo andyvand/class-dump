@@ -14,18 +14,17 @@
     MISSING_TYPE *_didSendSticker;
 }
 
-- (void)edAt;
-- (void)pdatesNotification;
-- (id)ъ
-;
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)!;
 - (void);
-- (id)	;
 
 // Remaining properties
 @property(nonatomic, retain) CKTranscriptBalloonCell *cell; // @synthesize cell;

@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (CDUnknownFunctionPointerType)eForDomainName:withCompletionHandler:] /* Error: Ran out of types for this method. */;
-- (id)e.InstallAssistant.*;
+- (CDUnknownFunctionPointerType);
 - (id);
-- (void);
+- (id);
 - (CDUnknownBlockType);
+- (void)L;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

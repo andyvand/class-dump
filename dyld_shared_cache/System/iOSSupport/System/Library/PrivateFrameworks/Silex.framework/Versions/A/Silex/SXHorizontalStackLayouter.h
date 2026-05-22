@@ -18,9 +18,9 @@
 }
 
 - (void);
+- (id);
 - (void);
-- (id)R;
-- (void)cient;
+- (void)int=dd}{CGSize=dd}}16Q24r^{CGRect={CGPoint=dd}{CGSize=dd}}32Q40d48;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

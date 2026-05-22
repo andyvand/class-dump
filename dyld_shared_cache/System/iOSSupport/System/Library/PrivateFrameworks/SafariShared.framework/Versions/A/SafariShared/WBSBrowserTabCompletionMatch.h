@@ -20,16 +20,16 @@
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
 - (id);
-- (void);
 - (id);
-- (unsigned long long)iled. _updateAffineScale - no valid rep;
+- (void)¼;
 
 // Remaining properties
 @property(nonatomic, getter=isHighlyRelevant) _Bool highlyRelevant; // @synthesize highlyRelevant=_highlyRelevant;

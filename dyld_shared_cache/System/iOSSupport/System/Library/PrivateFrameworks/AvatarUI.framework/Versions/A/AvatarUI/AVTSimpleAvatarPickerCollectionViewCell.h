@@ -19,7 +19,7 @@
 + (double);
 + (id);
 - (void);
-- (void)֮;
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -31,11 +31,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void)3_stmt=}16^q24;
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *displaySessionUUID; // @synthesize displaySessionUUID=_displaySessionUUID;

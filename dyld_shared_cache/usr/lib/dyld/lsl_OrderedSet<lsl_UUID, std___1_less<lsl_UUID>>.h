@@ -4,5 +4,5 @@
 
 class lsl::OrderedSet<lsl::UUID, std::__1::less<lsl::UUID>> {
 public: // (access info unavailable from symbols alone)
-    insert(lsl::UUID const&);
+    auto insert(lsl::UUID const&);
 };

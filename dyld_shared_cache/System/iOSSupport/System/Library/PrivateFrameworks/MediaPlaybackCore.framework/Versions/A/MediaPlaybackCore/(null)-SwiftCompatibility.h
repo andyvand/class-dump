@@ -5,6 +5,6 @@
 //
 
 @interface (null) (SwiftCompatibility)
-+ (_Bool)f:(id *)arg1;
++ (_Bool);
 @end
 

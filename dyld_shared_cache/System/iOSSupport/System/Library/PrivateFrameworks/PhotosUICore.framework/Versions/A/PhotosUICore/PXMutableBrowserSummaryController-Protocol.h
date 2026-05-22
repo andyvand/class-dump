@@ -7,7 +7,7 @@
 @class NSDictionary;
 
 @protocol PXMutableBrowserSummaryController
-- (void)TypeByBarButtonItem;
+- (NSDictionary *)%@;
 
 // Remaining properties
 @property(nonatomic) unsigned long long containerDateFormatGranularity;

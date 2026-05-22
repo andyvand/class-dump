@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ess;
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *circle; // @synthesize circle=_circle;

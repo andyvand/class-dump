@@ -11,9 +11,10 @@
     UIColor *_borderColor;
 }
 
-- (_Bool);
-- (void);
 - (id);
+- (_Bool);
+- (void)0@ù
+× ;
 
 @end
 

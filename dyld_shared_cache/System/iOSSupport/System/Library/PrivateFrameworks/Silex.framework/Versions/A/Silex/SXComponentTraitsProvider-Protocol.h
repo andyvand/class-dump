@@ -5,6 +5,5 @@
 //
 
 @protocol SXComponentTraitsProvider
-- (unsigned long long);
 @end
 

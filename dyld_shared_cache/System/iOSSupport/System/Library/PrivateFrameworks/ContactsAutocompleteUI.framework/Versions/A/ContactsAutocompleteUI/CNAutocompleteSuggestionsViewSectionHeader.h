@@ -16,9 +16,9 @@
 + (id);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)AdditionalAtoms;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;

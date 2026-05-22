@@ -28,22 +28,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)tFoundFromCKPartialError: /* Error: Ran out of types for this method. */;
-- (void)_recordIDToTransferMap;
+- (_Bool);
+- (void);
 - (void);
 - (id);
-- (void):%@ /* Error: Ran out of types for this method. */;
-- (void)transfer:(id)arg1 %@;
-- (void)dpointRoutingDataSource.m;
 - (void);
 - (void);
-- (_Bool);
-- (id)@ù
-× ;
-- (id)eTextShortAudioBrightness;
 - (void);
-- (void)e`;
-- (id)a;
+- (void);
+- (_Bool);
+- (id);
+- (void)orActiveWindowingMode;
+- (id)43¥sþ;
+- (id);
+- (void)¤\;
+- (void)¢\Õ a;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

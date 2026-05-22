@@ -37,25 +37,25 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *associatedGroupIdentifier; // @synthesize associatedGroupIdentifier=_associatedGroupIdentifier;

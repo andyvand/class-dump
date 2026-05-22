@@ -4,6 +4,6 @@
 
 class std::__1::vector<std::__1::unique_ptr<drawing::StrokeID, std::__1::default_delete<drawing::StrokeID>>, std::__1::allocator<std::__1::unique_ptr<drawing::StrokeID, std::__1::default_delete<drawing::StrokeID>>>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
-    clear[abi:ne200100]();
+    auto __throw_length_error[abi:nqe210106]();
+    auto clear[abi:nqe210106]();
 };

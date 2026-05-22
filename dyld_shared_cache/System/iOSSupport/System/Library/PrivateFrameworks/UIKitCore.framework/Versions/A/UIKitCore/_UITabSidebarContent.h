@@ -15,17 +15,18 @@ __attribute__((visibility("hidden")))
     _UITabOutlineNode *_node;
 }
 
-+ (id)country code (%@) is a candidate for Oscar filtering.;
-+ (id)try code:(id)arg1 %@;
++ (id);
++ (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)Type: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (id);
+- (id)h;
+- (id)erSizeClassParametersClass(void)_block_invoke;
 - (void);
-- (id)ng.m;
-- (id)ottomLeading;
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIAction *action; // @synthesize action=_action;

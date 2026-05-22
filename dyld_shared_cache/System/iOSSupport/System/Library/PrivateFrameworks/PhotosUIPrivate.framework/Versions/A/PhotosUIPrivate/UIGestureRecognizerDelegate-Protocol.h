@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer;
-
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)figuationForAssetPicker:(UIGestureRecognizer *)arg1 assetCollection:(UIGestureRecognizer *)arg2;
-- (_Bool)nt;
+- (_Bool)istance;
 @end
 

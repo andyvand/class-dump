@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     NSDate *_endDate;
 }
 
-- (id)on: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)oid RCDispatchGroupWrap(__strong dispatch_group_t _Nonnull, void (^__strong _Nonnull)(__strong dispatch_block_t));
-- (id)d;
-- (id)eferred state config for state %lu. identifier:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)H;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;

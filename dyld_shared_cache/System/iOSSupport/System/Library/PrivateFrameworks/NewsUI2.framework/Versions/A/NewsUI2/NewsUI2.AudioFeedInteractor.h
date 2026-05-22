@@ -21,9 +21,9 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)ÁÎ^©;
 
 @end
 

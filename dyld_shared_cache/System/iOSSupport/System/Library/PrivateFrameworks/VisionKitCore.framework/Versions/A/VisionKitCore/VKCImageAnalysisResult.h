@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     double _totalQuadTextArea;
 }
 
-+ (_Bool)IndexSet: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -49,13 +49,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (_Bool);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)ð1B0@ù
-× ;
-- (void)ngBox;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) int analysisRequestID; // @synthesize analysisRequestID=_analysisRequestID;

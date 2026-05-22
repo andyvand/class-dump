@@ -5,7 +5,6 @@
 //
 
 @protocol PXFastEnumeration
-- (id)undation26PhotosDraftClosePermission;
 
 // Remaining properties
 @property(readonly) unsigned long long count;

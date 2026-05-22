@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id)to reposition - nil sticker;
+- (id)enCollectionViewContentSize;
+- (void)@¦#ÿ);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *debugDescription;

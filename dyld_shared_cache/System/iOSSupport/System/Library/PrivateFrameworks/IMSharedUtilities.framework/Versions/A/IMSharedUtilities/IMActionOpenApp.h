@@ -16,9 +16,9 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ount filtering.;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

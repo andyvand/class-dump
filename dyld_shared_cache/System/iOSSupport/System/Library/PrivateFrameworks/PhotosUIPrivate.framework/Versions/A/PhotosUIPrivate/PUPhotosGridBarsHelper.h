@@ -64,16 +64,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)derDismissedBefore;
 
 // Remaining properties
 @property(nonatomic, setter=_setHadSelectionOnLastUpdate:) _Bool _hadSelectionOnLastUpdate; // @synthesize _hadSelectionOnLastUpdate=__hadSelectionOnLastUpdate;

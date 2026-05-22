@@ -5,9 +5,5 @@
 //
 
 @protocol AMSURLProtocolDelegate
-
-@optional
-- (void)sUI.Coordinator;
-- (void);
 @end
 

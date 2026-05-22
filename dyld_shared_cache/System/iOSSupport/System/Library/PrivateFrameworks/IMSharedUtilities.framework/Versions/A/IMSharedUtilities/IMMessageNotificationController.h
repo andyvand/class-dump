@@ -11,7 +11,7 @@
     IDSService *_messageNotificationControllerIDSService;
 }
 
-+ (id)¥f½¸;
++ (id)he ITU country code;
 - (void);
 - (void);
 - (void);
@@ -27,7 +27,7 @@
 - (void);
 - (id);
 - (void);
-- (void)1Ìe³/;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

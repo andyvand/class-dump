@@ -14,11 +14,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (struct CGSize);
 - (void);
 - (struct CGSize);
-- (struct CGSize)\âP;
+- (struct CGSize)!øDù1°1â
+0@ù
+× ;
+- (void)PersonalDeviceWarningViewController:_cancelFlow] User tapped cancel button /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *innerContentView; // @synthesize innerContentView=_innerContentView;

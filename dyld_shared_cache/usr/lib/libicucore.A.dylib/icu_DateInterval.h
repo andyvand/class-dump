@@ -6,10 +6,10 @@ class icu::DateInterval {
 public: // (access info unavailable from symbols alone)
     DateInterval(double, double);
     DateInterval(icu::DateInterval const&);
-    clone() const;
-    getDynamicClassID() const;
-    getStaticClassID();
-    operator=(icu::DateInterval const&);
-    operator==(icu::DateInterval const&) const;
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto operator=(icu::DateInterval const&);
+    auto operator==(icu::DateInterval const&) const;
     ~DateInterval();
 };

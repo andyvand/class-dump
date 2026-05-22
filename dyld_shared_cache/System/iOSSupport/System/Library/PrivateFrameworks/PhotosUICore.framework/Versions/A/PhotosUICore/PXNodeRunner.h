@@ -15,10 +15,10 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (id);
 - (long long);
-- (void)ÒcHv67;
+- (id);
+- (void)æiÿenableHybridMatchResults;
+- (void)âÉàv!ÿYâÉÔ§"ÿâÉì§"ÿaâÉÈ§"ÿ;
 
 // Remaining properties
 @property long long maxConcurrentRunNodeCount;

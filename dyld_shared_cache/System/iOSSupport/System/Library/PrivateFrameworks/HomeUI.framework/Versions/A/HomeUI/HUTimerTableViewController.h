@@ -52,10 +52,10 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)±}}ðÕ¸ÿÉ}}ìÕ¸ÿ;
+- (void)reateOffCCMaterialViewIfNecessary;
+- (void)button;
 
 // Remaining properties
 @property(retain, nonatomic) id addNotificationObserver; // @synthesize addNotificationObserver=_addNotificationObserver;

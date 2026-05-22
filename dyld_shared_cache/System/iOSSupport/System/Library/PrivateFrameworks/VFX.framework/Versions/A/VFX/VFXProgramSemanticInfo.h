@@ -13,13 +13,13 @@
 }
 
 + (id);
-+ (_Bool)9Ä×Ø,bÿ)Ä×Ì,bÿÄ×À,bÿ;
++ (_Bool)escriptor"16Q24^@32;
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 - (id);
 
 // Remaining properties

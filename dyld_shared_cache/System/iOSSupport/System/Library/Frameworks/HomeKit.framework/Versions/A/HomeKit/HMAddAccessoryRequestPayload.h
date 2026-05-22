@@ -24,9 +24,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id) ;
+- (void)cution of actions failed (%@);
+- (id);
 
 // Remaining properties
 @property(nonatomic, retain) HMSetupAccessoryDescription *accessoryDescription;

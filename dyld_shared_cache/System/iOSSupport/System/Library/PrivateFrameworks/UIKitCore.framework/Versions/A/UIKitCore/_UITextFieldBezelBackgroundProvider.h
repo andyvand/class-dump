@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)to-defer-nightly-sync;
++ (id);
 - (void);
+- (long long);
+- (id);
 - (void);
-- (void)s is a WritingTools error;
-- (id)a shared view!;
-- (long long)ÄÂþEcÿ3(Ò±þ;
+- (void)Ëÿ9tÊI8^;
 
 @end
 

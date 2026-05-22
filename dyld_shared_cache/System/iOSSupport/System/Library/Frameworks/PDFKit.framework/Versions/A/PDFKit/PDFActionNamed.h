@@ -13,16 +13,16 @@
     PDFActionNamedPrivateVars *_private2;
 }
 
-- (id)Q48@0:(struct CGPDFDictionary *)arg1 8@16@24^q32^q40;
-- (struct __CFDictionary *)e=dd}56@0:8@16{CGSize=dd}24{CGSize=dd}40 /* Error: Ran out of types for this method. */;
-- (void)4;
 - (id);
+- (struct __CFDictionary *);
 - (void);
 - (id);
-- (void)bugLogEntryRerun;
+- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

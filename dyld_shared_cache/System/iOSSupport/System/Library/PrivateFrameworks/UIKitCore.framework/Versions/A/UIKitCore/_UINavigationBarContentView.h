@@ -80,233 +80,228 @@ __attribute__((visibility("hidden")))
     struct UIOffset _titlePositionAdjustment;
 }
 
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (double);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id)@;
-- (void)X�p;
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
-- (void);
-- (_Bool)i;
-- (void);
-- (void)ayIncomingRequests;
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (double);
 - (void);
 - (void);
-- (void)tle: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (double);
 - (void);
-- (id)5;
+- (struct CGSize);
 - (void);
 - (void);
-- (void)exBuffer: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (double);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (struct CGRect);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (_Bool);
 - (id);
-- (_Bool);
-- (void)C;
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (id);
+- (double);
+- (double);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void)ountLimit:(_Bool)arg1;
-- (struct CGRect)dexPath:(id)arg1;
-- (struct CGRect)pointWrapper;
-- (id);
 - (_Bool);
-- (double);
-- (void);
-- (double);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (double);
-- (long long);
-- (id);
+- (struct CGRect);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (CDStruct_c3b9c2ee);
-- (void)Ìt	ë;
-- (double)³þ¹;
-- (long long)º;
-- (_Bool);
-- (double)0@ù
+- (id)°!¨BùqY1Â0@ù
 × ;
-- (_Bool)!@ùñÀ°1¢!0@ù
+- (void)Ñ\ð1Â0@ù
 × ;
 - (void);
-- (id)1¢!0@ù
-× ;
-- (id)áo°!P@ùqÂ°1¢!0@ù
-× ;
-- (_Bool)@ù
-× ;
-- (void)Ã°1¢!0@ù
-× ;
-- (_Bool);
 - (id)0@ù
 × ;
-- (void)!ØAù1Å1¢!0@ù
+- (void)!`EùÑ^ð1Â0@ù
 × ;
-- (CDUnknownBlockType);
-- (_Bool)1¢!0@ù
+- (long long);
+- (void)1Â0@ù
 × ;
-- (_Bool)au°!CùÑÉ1¢!0@ù
+- (id)¡ð!,Eùñað1Â0@ù
 × ;
-- (_Bool)
+- (void)
 × ;
-- (void)Ì1¢!0@ù
+- (void)Ñc1Â0@ù
 × ;
 - (void);
-- (long long)0@ù
+- (void)0@ù
 × ;
-- (void):(id)arg1 8@"<UINSCloudSharingController>"16;
-- (id)space"16@"NSSet"24;
-- (double)"UIEvent"32;
-- (id)dingToSession3D"b1"sessionForAddingItems3D"b1"dynamicallyUpdatesPrefersFullSizePreviews"b1"shouldBecomeDraggingSourceDelegate"b1"delayForLiftBeginningAtLocation"b1};
-- (void)ationConstraintNeedsInitialization"b1"shouldFadeStaticNavBarButton"b1"staticNavBarButtonLingers"b1"staticNavBarButtonIsActingAsFakeBackButton"b1"hostedTabBarEnabled"b1};
-- (void)@0:(struct UIEdgeInsets)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16B48;
-- (double)ntinuousSelectionGestureRecognizer";
-- (_Bool)aryElementOfKind:oldIndexPath: /* Error: Ran out of types for this method. */;
-- (double)ndex: /* Error: Ran out of types for this method. */;
-- (long long)dBeginSwipeForItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (_Bool)ubtitleFont;
-- (void)sibilityOnScrollDistance: /* Error: Ran out of types for this method. */;
+- (void)!4Cù1g1Â0@ù
+× ;
 - (void);
-- (_Bool)inimumZoomScale: /* Error: Ran out of types for this method. */;
-- (void)eyPressGesture: /* Error: Ran out of types for this method. */;
-- (void)ionOptions:(struct CGRect)arg1;
-- (long long)gettingEitherSideItemHistory;
-- (void);
-- (double)sFullscreen;
-- (_Bool)ngOptions:attachCatalogImage: /* Error: Ran out of types for this method. */;
-- (void)ationRadius;
-- (void)rokesIfNeededAndNotify:(id)arg1;
-- (id)ttonTapped: /* Error: Ran out of types for this method. */;
-- (void)tSessionWithID:(id)arg1 documentTraits:(id)arg2 initialDocumentState: /* Error: Ran out of types for this method. */;
-- (double)thLayout:edge: /* Error: Ran out of types for this method. */;
-- (long long)ionInterrupted;
-- (void)onWasCancelled;
-- (long long)isitor:(long long)arg1 withView: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ureDidEnd:(id)arg1;
-- (void)tupMotionFeedbackGenerator;
-- (void)utoresizingMaskConstraints:(id)arg1 returningConstraintsForViewsNeedingSecondPass:currentTargetWidth: /* Error: Ran out of types for this method. */;
-- (id):liesBeyondFrame:inDirection: /* Error: Ran out of types for this method. */;
-- (void)sterization: /* Error: Ran out of types for this method. */;
-- (_Bool)nteractionWillEnd;
-- (void)ata;
-- (void)ognizer:canBeCancelledByGestureRecognizer: /* Error: Ran out of types for this method. */;
-- (void)iew;
-- (void)backing_insertPrivateSubview:(_Bool)arg1 atIndex: /* Error: Ran out of types for this method. */;
-- (id)ntPoint;
-- (id)lectedRangeInMarkedText;
-- (void)ey;
-- (void)_sectionTitleForAuxiliarySwitches,S_setSectionTitleForAuxiliarySwitches:(_Bool)arg1 ,V_sectionTitleForAuxiliarySwitches;
-- (void)ents;
-- (double)etDetents: /* Error: Ran out of types for this method. */;
-- (void)ayoutUpdateContainerOffsetResult;
-- (id)xtMenuInteractionDelegate;
-- (void)èí;
-- (double)à;
-- (double)ier (%d).;
-- (void)odifiers for %{public}@ from endpoint %{public}@;
-- (void)ation!;
-- (double)xist:%{public}@ /* Error: Ran out of types for this method. */;
-- (id)ú;
-- (id)Ôýÿÿ½YþûÿÿÐýÿÿÀ§Yþûÿÿ¬ýÿÿ¨Yþûÿÿýÿÿ¤£ÿtûÿÿýÿÿ£ÿhûÿÿÐýÿÿ½Yþ\ûÿÿ,þÿÿçYþPûÿÿ8þÿÿä­YþDûÿÿlþÿÿPµYþ8ûÿÿþÿÿ½YþP;
-- (id)tüÿ;
-- (id)ent;
-- (id);
-- (id)r should never be nil. This likely means that the UIKit_Artwork.bundle inside UIKitCore.framework is missing.;
-- (_Bool)ry to force.;
-- (void);
-- (void)ation;
-- (void)ce;
-- (void)tionProgress;
+- (void)e=dd}}16#48B56B60B64@68;
+- (_Bool)rnal>"16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool):8@?<@"NSDictionary"@?@"NSDictionary">16 /* Error: Ran out of types for this method. */;
+- (void)namicShadow"b1"animatingOutDynamicShadow"b1"animatingSeleciton"b1"animatingHoverOut"b1"styleProviderSupportsExtraTraitCollectionChanges"b1"styleProviderSupportsFocusWithoutSelection"b1"styleProviderSupportsHidingSelectionOnFocusUpdate"b1"styleProviderSupportsSegmentHighlightAnimation"b1"appCustomizedSelectedVisualEffect"b1"overridesCustomInfoViewForSegments"b1"styleProviderSupportsFeedbackGeneration"b1"styleProviderSupportsLegacyActiveSegmentControl"b1"hasBackdropView"b1"hasMaterial"b1"forceUseGlass"b1"backdropIsVisualEffectView"b1"shouldPlayFeedback"b1"styleProviderSupportsGlassProvider"b1"styleProviderWantsLensView"b1"styleProviderWantsC2Animation"b1"useSpringBoardVibrancy"b1"styleProviderWantsFreeSlidingSelection"b1"shouldLiftLensView"b1};
+- (id)ze=dd}}16@48@56;
+- (void)8@?<v@?@"FBSSceneTransitionContext">16;
+- (_Bool)rticalSpacing;
+- (void)w:didFailLoadWithError:forFrame: /* Error: Ran out of types for this method. */;
+- (void)eForSize:(_Bool)arg1;
+- (_Bool)tepCount;
+- (_Bool)sModelValues: /* Error: Ran out of types for this method. */;
+- (void)t_externalEvent:(id)arg1;
+- (unsigned long long)dByAcceptingCandidate:(id)arg1;
+- (id)vironment: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)rLibrary(void);
-- (void)olumn to resize from view %@;
-- (void)d;
-- (void)ionViewCompositionLayout cannot place a sublayout relative to both the top and bottom edge of a sibling layout;
-- (_Bool)M(%lu -> %lu)>;
-- (void)key press;
-- (_Bool)h.;
-- (id)te;
-- (id)MER_SESSION__(_UINavigationBarVisualProviderModernIOS *__strong, _UINavigationBarTitleRenamerSession *__strong);
-- (_Bool)containerModel;
-- (_Bool)gsDefinition;
-- (void)gin;
-- (void)erAdaptivePanelLayout;
-- (void)dowColorMatrixFillColor;
-- (struct CGSize);
-- (void);
-- (void)ázÄ¿ÍÌÌÌÌÌ
-@R¸ëQð¿¸ëQ¸þ?¸ëQ¸þ¿ÍÌÌÌÌÌ
-Àffffff)@®Gáz®@(ÀHáz®GE@(@{®Gáº2Àáz®Ga @ö(\Âõ%Àffffff@ëQ¸ë¿áz®Gáþ?ö(\Âõ@ö(\Âõ;
-- (void);
+- (double)vent:(id)arg1;
+- (void)bleWithKeyOptions:(id)arg1 valueOptions: /* Error: Ran out of types for this method. */;
+- (long long)sEqualToTarget:action: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ToolbarKeyboardAssistant;
-- (void);
-- (void)6ñ;
-- (void)þ]¥4Ðiþ]¥4Ðiþ;
+- (void)OrderOutAutomatic;
+- (id)nPrecedence:options: /* Error: Ran out of types for this method. */;
+- (void)teDropWithAnimator:(id)arg1;
+- (void)ndexPath;
 - (id);
-- (void)UITraitDefinition;
-- (void)¸;
-- (_Bool);
+- (struct CGRect)aveCorner;
+- (_Bool)activeRenamerSession;
+- (id)n:(struct CGPoint)arg1;
+- (CDStruct_c3b9c2ee)tion:(id)arg1;
+- (void)ate:(_Bool)arg1 withOriginalAttributes:isExistingView: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)ffset: /* Error: Ran out of types for this method. */;
+- (void)eChanged:(id)arg1;
+- (long long)veContentViewControllerContainerViewSubviews;
+- (void)m:(id)arg1;
+- (void)aultMenu:(id)arg1;
+- (void)t;
+- (void)ionTarget;
+- (void)or;
+- (void)_leadingSeparatorIdentifier;
+- (void)w;
+- (void)ng:(id)arg1;
+- (void)BackgroundView;
+- (void)PresentationInteractionShouldAssociateWithDrag:(id)arg1;
+- (double)reClass;
+- (double)backgroundVisible;
+- (id);
+- (_Bool)ragItemUpdate;
+- (id)rentInlineTextCompletionMode;
+- (_Bool)reason;
+- (id)imators;
+- (void)nlineTextCompletionControllerDelegate>",W,N,V_delegate;
+- (void)ceneHostingEventDeferringExtension;
+- (void)KeyboardShiftTransition;
+- (double);
+- (void)VisualStyle;
+- (void)ate;
+- (_Bool);
+- (id)ÑTÓhÔ	Õ;
+- (id);
+- (double)0J;
+- (double)¨S,Vha;
+- (void)Ø;
+- (id)´#;
+- (void);
+- (void)ic}d.;
+- (id)tion handler for already finished session deputy shim:(struct CGRect)arg1 '%@' :(id)arg2 %{public}@;
+- (void)èÿÐèÿ<èÿèÿLèÿèÿ¬èÿèÿØèÿdèÿtèÿèÿÈèÿèÿLèÿhèÿèÿèÿèÿÀèÿÌèÿ(èÿ\èÿèÿ¤èÿàèÿìèÿøèÿ,èÿhèÿèÿ èÿèÿðèÿ`èÿèÿd èÿ èÿ\¡èÿ¡èÿ´¡èÿà¡èÿ¢èÿ@¢èÿ(¤èÿL¤èÿ¸¤èÿÈ¥èÿà¥èÿ¦èÿ@¦èÿh§èÿ,¨èÿT¨èÿ|¨èÿ@©èÿÔ«èÿô«èÿ0¬èÿT¬èÿx¬èÿ´¬èÿØ¬èÿ­èÿP­èÿt­èÿ­èÿ¼­èÿà­èÿ®èÿ(®èÿL®èÿp®èÿ®èÿ¸®èÿÜ®èÿ;
+- (void)ÿÿÿêÿdßþþÿ;
 - (void);
-- (void);Ò\;
-- (long long)¤æÿD;
-- (id)Ô}Èÿ¬ÈÑqc;
-- (struct UIOffset)|þ;
-- (void)¹VÉ©S];
-- (void)üÿ;
-- (id)f2^;
-- (id)ß\^;
-- (_Bool)Ùÿ-í£;
-- (void)æ;
-- (void)õð^;
-- (void);
-- (void)HXÿÎ ;
-- (void)ùkÿ;
-- (void)R`;
-- (id)ÄÖ%[`;
+- (double)d;
+- (void)tItemAppearanceNeedsUpdate;
+- (_Bool)UICollectionViewCell"32@?0@"UICollectionView"8@"NSIndexPath"16@"NSString"24;
+- (void)id)_block_invoke;
+- (double)eing tracked by this registry;
+- (_Bool)ple.UIKit.multi-select;
+- (_Bool)ds;
+- (void)ds;
+- (id)ark;
+- (long long)d;
+- (long long)Controller(StateRestoration) encodeRestorableStateWithCoder:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)ransform:requires that all members in the transform matrix be finite numbers. Attributes:%@; new transform:%@ /* Error: Ran out of types for this method. */;
+- (void)nvoke;
+- (void)ffect removed from UIBarButtonItem.;
+- (void)ged horizontal size class without updating search bar to new placement. Fixing, but delegate searchBarPlacement callbacks have been skipped. navigationBar = ;
+- (struct UIOffset)yboard update with size: /* Error: Ran out of types for this method. */;
+- (id)lligenceSupport19IntelligenceElementV13AsyncLoadable_px1TAcDPRts_XP;
+- (long long);
+- (double);
+- (void)U 13÷s;
+- (void)±X33PÏ;
+- (void);
+- (void);
+- (id);
+- (void)4^;
+- (_Bool)ñ;
+- (id)h!];
+- (void)çÒÛ ];
+- (_Bool)T!éþ¤;
+- (_Bool)ÿ!ÕTë];
+- (_Bool)Ü×ëþéQ¹;
+- (void);
+- (void)ÌXÿ¦>Ó¨ ^;
+- (double)\^;
+- (void)tö6ÿd;
+- (void)ñ^;
+- (void);
+- (void)|9_;
+- (void)¼ÖÝÿFÊà+_;
+- (id)ÿ¥;
+- (id);
+- (void);
 - (void)ÿ;
-- (void)Ýþ´;
+- (void)*ï_;
+- (void),Ì_;
+- (void)ëIÿ:(long long)arg1 Öð×_;
+- (void)>;
+- (void)ú_;
+- (void)H`;
+- (CDUnknownBlockType)ÿ¬ßõ;
+- (void)q;
+- (void)Ä;
+- (void)ÿ;
+- (long long);
+- (void)`;
+- (void)T`;
+- (id)Ï`;
+- (id)¿	;
+- (id);
+- (void)­;
+- (void)³/ÿ;
+- (void)]ãþ<¡;
 - (void);
 - (void);
+- (id)t;
+- (void)°ua;
+- (id)èma;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_effectiveTitleView;

@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     NSArray *_ownedGroups;
 }
 
-+ (id)ification date with non-default autoDonationBehavior;
++ (id);
 - (id);
-- (void)story with sender:(id)arg1 %@;
 - (void);
-- (id)B;
-- (void)ó¬%º;
+- (void);
+- (id)6@24@32@40@48q56;
+- (void)Ô4ÿÚaØèX^;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

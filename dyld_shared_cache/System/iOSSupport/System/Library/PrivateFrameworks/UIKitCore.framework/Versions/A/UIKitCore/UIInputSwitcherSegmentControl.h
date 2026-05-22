@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
     UIStackView *_stackView;
 }
 
-- (_Bool)ler: /* Error: Ran out of types for this method. */;
-- (_Bool)DsToHighlight:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)CapabilitiesOptions:(_Bool)arg1 filterExtensionName: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void)age:(id)arg1;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -33,12 +33,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)1ÂÐ1¢!0@ù
-× ;
 - (void);
-- (void);
-- (void)rSymbolConfiguration;
-- (id);
+- (void)nputManagerSyncForKeyboardOutputCallbacks:(id)arg1;
+- (id)N,S_setTransitionDelegate:(struct CGRect)arg1 ,V__transitionDelegate;
+- (void)xProgress:(id)arg1;
+- (void)°ºg;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfSegments;

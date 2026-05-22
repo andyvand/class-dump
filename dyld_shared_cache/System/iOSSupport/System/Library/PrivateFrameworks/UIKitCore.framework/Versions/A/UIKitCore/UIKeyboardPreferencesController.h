@@ -10,64 +10,70 @@
 {
 }
 
-+ (id)oughEffect;
++ (id)lementVisibility;
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool)thWhitelistedBookmarks:(id)arg1 withUserDefinedName:withPluginBundleID:withServerAddress:withUserName:withPassword:withCertificate:withOrganization:withVendorConfig:withFilterBrowsers:withFilterSockets: /* Error: Ran out of types for this method. */;
-- (_Bool)loadADAllowMultiDomainAuthFlag;
+- (void);
+- (void);
 - (id);
-- (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
 - (void);
-- (_Bool);
+- (void);
 - (double);
-- (long long);
-- (_Bool)h;
-- (id)plicitBadge:(id)arg1;
-- (_Bool)SArray",R,C,N,V_keys;
-- (_Bool)"8;
+- (_Bool);
 - (void);
 - (_Bool);
-- (id)Ö0º;
-- (void);
-- (void)Ô ;
-- (id)1¢!0@ù
-× ;
-- (long long)Atð!DùQÈð1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (void)1¢!0@ù
-× ;
-- (_Bool)aryItems: /* Error: Ran out of types for this method. */;
-- (void)tendForCandidateViewHeight:(long long)arg1 width: /* Error: Ran out of types for this method. */;
-- (void)ntext:(_Bool)arg1;
-- (_Bool)eInWindowForContentOverlayInsetsCalculation;
-- (void)shouldDeferTransitions;
-- (_Bool)ge: /* Error: Ran out of types for this method. */;
-- (long long)tOfType: /* Error: Ran out of types for this method. */;
-- (id)tionWithPreviewMenuItem: /* Error: Ran out of types for this method. */;
-- (_Bool)WithVolumeButtons;
-- (void)tHasCustomizableInstanceAppearanceModifications:,V_hasCustomizableInstanceAppearanceModifications /* Error: Ran out of types for this method. */;
-- (id)edForCommitInternally: /* Error: Ran out of types for this method. */;
-- (_Bool)igurationAction;
+- (_Bool);
+- (id);
 - (void);
-- (_Bool)`Ô;
-- (_Bool)with image=%p error=(OSStatus) %d;
-- (void)cene identity:(id)arg1 %{public}s; reason:%{public}s /* Error: Ran out of types for this method. */;
-- (void)_UNDO;
-- (_Bool)eInsets, UIAxis);
-- (void);
-- (id);
-- (_Bool)ð?yÿÓÍÖQ];
-- (void)iþ÷¦Ëïjg;
-- (void)ø!¹ÿDÑÒ3¹h;
-- (void)ÿ|ÌÒk;
+- (_Bool);
+- (id);
+- (_Bool);
+- (long long)1Y°1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)0@ù
+× ;
+- (void)!lBù±c1Â0@ù
+× ;
+- (id)Ôa
+Ð!ðEùñfÐ1Â0@ù
+× ;
+- (_Bool)sPresentedFromDocumentBrowser"b1"hasReceivedDocumentDidOpen"b1"needsDocumentUnavailableConfigurationUpdate"b1};
+- (_Bool)ngeNavigationItemDisplayWithSystemNavigationAction: /* Error: Ran out of types for this method. */;
+- (_Bool)rLabelWithUserScrolling:(id)arg1 animated:(id)arg2;
+- (_Bool)alExtensions:(SEL)arg1;
+- (void)m_geometryDelegate;
+- (void)ransitions;
+- (void)Subviews;
+- (_Bool)e: /* Error: Ran out of types for this method. */;
+- (_Bool)ointerLocation:(id)arg1;
+- (_Bool)ceForCollectionView: /* Error: Ran out of types for this method. */;
+- (void)t;
+- (_Bool)ContainerLayoutCustomizationDelegate:,V_searchFieldContainerLayoutCustomizationDelegate /* Error: Ran out of types for this method. */;
+- (id)r;
+- (id)defXgìghhèh<i;
+- (_Bool)tO¨O;
+- (_Bool)¬ÿ;
+- (long long)to recover from error with description:%@ reason:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)À¥êÿ " þ;
+- (id)ibute;
+- (void)plicationShortcutIconTypeMail;
+- (id)àÿ&öÛu^;
+- (_Bool)Ì"Àÿ¬;
+- (_Bool)¸ãc;
+- (void)äöÆÿ;
+- (_Bool)ri;
+- (void)Ùÿ§*Ô8mj;
+- (void)Xé¼ÿ;
+- (long long)l;
 
 // Remaining properties
+@property(readonly, nonatomic) _Bool _shouldShowDebugHitArea;
+@property(readonly, nonatomic) _Bool _shouldUseModifiedHitArea;
 @property long long compactAssistantBarPersistentLocation;
 @property _Bool enableProKeyboard;
 @property long long handBias;

@@ -14,13 +14,13 @@
 }
 
 - (unsigned long long);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)P;
 - (void);
+- (void);
+- (void);
+- (void)tType;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long viewingLocation;

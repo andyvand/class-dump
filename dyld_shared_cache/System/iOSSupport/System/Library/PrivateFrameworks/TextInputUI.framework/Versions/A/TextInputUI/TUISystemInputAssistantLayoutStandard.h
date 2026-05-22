@@ -15,19 +15,18 @@
 
 - (void);
 - (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (double);
-- (double);
 - (void);
-- (void)isInputSource;
-- (void)nimated:(double)arg1;
-- (_Bool)InputManager>",&,N,V_systemInputManager;
-- (unsigned long long)p7d>ÀAlB	´C\D
-EäG
-@IXQDVøV¸W;
-- (void)window bounds did change <%@:(double)arg1 %p> scene frame %@;
-- (void)orWhite_Alpha20;
+- (unsigned long long);
+- (_Bool)@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool isSplit; // @synthesize isSplit=_isSplit;

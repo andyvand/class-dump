@@ -17,11 +17,11 @@
 
 - (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)æáÿÿÿÿÿ;
 
 @end
 

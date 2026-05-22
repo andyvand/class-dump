@@ -4,7 +4,7 @@
 
 class asan::GlobalsRegistryImpl {
 public: // (access info unavailable from symbols alone)
-    getGlobalVar(unsigned long) const;
-    registerSection(array_view<asan::GlobalVar const>);
-    registerSection(array_view<asan::GlobalVar const>) (.cold.1);
+    auto getGlobalVar(unsigned long) const;
+    auto registerSection(array_view<asan::GlobalVar const>);
+    auto registerSection(array_view<asan::GlobalVar const>) (.cold.1);
 };

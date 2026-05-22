@@ -26,19 +26,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id)P;
+- (_Bool);
+- (id);
 - (id);
 - (Class);
 - (id);
 - (double);
 - (void);
-- (long long)eHeldChatMessages;
+- (id);
+- (long long);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)ringID;
 
 // Remaining properties
 @property(readonly, nonatomic) Class cellClassToUse;

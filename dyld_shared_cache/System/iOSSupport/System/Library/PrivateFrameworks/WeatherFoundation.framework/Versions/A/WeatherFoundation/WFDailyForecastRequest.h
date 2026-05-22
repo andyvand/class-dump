@@ -16,7 +16,7 @@
 + (_Bool);
 - (void);
 - (id);
-- (id)gneeID:%@, reminderID:%@} /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void);

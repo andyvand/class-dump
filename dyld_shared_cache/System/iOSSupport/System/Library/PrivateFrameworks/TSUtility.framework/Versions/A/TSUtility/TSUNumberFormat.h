@@ -45,9 +45,9 @@
 
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -69,7 +69,7 @@
 - (id);
 - (id);
 - (id);
-- (id)H2;
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -102,20 +102,20 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id)ceConfigurationReporter;
-- (void);
-- (double);
-- (id)oolbarItemsMaximumWidth;
-- (id);
-- (unsigned short);
-- (id);
-- (_Bool);
-- (id);
 - (int);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (double);
+- (unsigned short);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

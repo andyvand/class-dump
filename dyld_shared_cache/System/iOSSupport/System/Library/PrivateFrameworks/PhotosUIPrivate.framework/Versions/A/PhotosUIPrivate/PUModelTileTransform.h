@@ -25,14 +25,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (double);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (void)tView;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasUserInput; // @synthesize hasUserInput=_hasUserInput;

@@ -11,15 +11,16 @@
     _Bool _previouslyActiveUser;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)0@ù
+× ;
++ (id)@;
 - (void);
 - (_Bool);
+- (id);
 - (unsigned int);
-- (id)ngSA: /* Error: Ran out of types for this method. */;
-- (_Bool)!= %zu) (initiator rekey child followup KE);
-- (void)essionID:(id)arg1 %@,%@,%@,sending session status update to observers;
-- (void);
+- (_Bool)rtTime:excludeRouteLocations:] /* Error: Ran out of types for this method. */;
+- (void)SessionManager,Initiator,sessionID:(id)arg1 %@,%@,%@,Entering hysteresis state %lu;
+- (void)cy, %.2f;
 
 // Remaining properties
 @property(readonly, getter=activeUser) _Bool activeUser;

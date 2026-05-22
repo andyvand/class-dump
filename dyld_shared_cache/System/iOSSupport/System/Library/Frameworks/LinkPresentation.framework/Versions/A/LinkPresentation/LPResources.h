@@ -42,7 +42,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)nge=QQ}24@0:8@"UITextRange"16 /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
 + (id);
 + (id);

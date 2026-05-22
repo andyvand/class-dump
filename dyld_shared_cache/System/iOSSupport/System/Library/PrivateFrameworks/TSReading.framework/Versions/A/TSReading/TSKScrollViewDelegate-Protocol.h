@@ -5,10 +5,5 @@
 //
 
 @protocol TSKScrollViewDelegate
-
-@optional
-- (void)er;
-- (void);
-- (void)erUndoObserver.m;
 @end
 

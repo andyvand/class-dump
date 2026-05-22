@@ -7,11 +7,7 @@
 @class NSArray;
 
 @protocol MUContentStackViewProtocol
-- (void)aultMeasurements;
-- (long long)v16@?0@"<UIViewControllerTransitionCoordinatorContext>"8;
-- (void)íÿ;
 - (void);
-- (long long)ÛºêLD;
 
 // Remaining properties
 @property(nonatomic) long long alignment;

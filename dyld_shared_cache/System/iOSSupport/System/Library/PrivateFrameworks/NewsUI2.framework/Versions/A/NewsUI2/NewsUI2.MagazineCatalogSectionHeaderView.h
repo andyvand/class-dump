@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void);
-- (id)ionEnabled;
+- (id);
+- (void)¬dTÿu_fTÿu_´fTÿu_ÄfTÿ;
 
 @end
 

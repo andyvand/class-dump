@@ -13,10 +13,10 @@
 - (id);
 - (void);
 - (struct CGAffineTransform);
-- (void);
-- (void);
 - (id);
-- (void *)pproximateLocation;
+- (void)={CGRect={CGPoint=dd}{CGSize=dd}}{CGPoint=dd}{CGSize=dd}{CGAffineTransform=dddddd}ddB{CGSize=dd}{CGRect={CGPoint=dd}{CGSize=dd}}^v}304@496;
+- (void *)duleTransitionTable;
+- (void)EventSuggestionLabel;
 
 // Remaining properties
 @property(readonly, nonatomic) void *identifier;

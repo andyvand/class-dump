@@ -4,16 +4,17 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __assign_external(char const*, unsigned long);
-    __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
-    __grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*);
-    __init_copy_ctor_external(char const*, unsigned long);
-    __throw_length_error[abi:ne200100]();
-    append(char const*, unsigned long);
-    append(unsigned long, char);
-    basic_string[abi:ne200100]<0>(char const*);
-    insert(unsigned long, char const*, unsigned long);
-    operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
-    resize(unsigned long, char);
+    auto __assign_external(char const*);
+    auto __assign_external(char const*, unsigned long);
+    auto __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
+    auto __grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*);
+    auto __init_copy_ctor_external(char const*, unsigned long);
+    auto __throw_length_error[abi:nqe210106]();
+    auto append(char const*, unsigned long);
+    auto append(unsigned long, char);
+    auto basic_string[abi:nqe210106]<0>(char const*);
+    auto insert(unsigned long, char const*, unsigned long);
+    auto operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    auto resize(unsigned long, char);
     ~basic_string();
 };

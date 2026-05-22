@@ -17,20 +17,20 @@
 }
 
 + (id);
-+ (id)39;
++ (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id)h;
+- (id);
 - (void);
-- (id)eHorizontalSizeClass;
-- (void)ultStatey^;
-- (id)e.m;
+- (id)ialCollection:(id)arg1 options:resultHandler: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXFavoritesSettingsDelegate> delegate; // @synthesize delegate=_delegate;

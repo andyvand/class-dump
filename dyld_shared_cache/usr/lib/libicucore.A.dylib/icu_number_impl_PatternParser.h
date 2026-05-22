@@ -4,10 +4,10 @@
 
 class icu::number::impl::PatternParser {
 public: // (access info unavailable from symbols alone)
-    parseToExistingProperties(icu::UnicodeString const&, icu::number::impl::DecimalFormatProperties&, icu::number::impl::IgnoreRounding, UErrorCode&);
-    parseToExistingPropertiesImpl(icu::UnicodeString const&, icu::number::impl::DecimalFormatProperties&, icu::number::impl::IgnoreRounding, UErrorCode&);
-    parseToPatternInfo(icu::UnicodeString const&, icu::number::impl::ParsedPatternInfo&, UErrorCode&);
-    parseToProperties(icu::UnicodeString const&, UErrorCode&);
-    parseToProperties(icu::UnicodeString const&, icu::number::impl::IgnoreRounding, UErrorCode&);
-    patternInfoToProperties(icu::number::impl::DecimalFormatProperties&, icu::number::impl::ParsedPatternInfo&, icu::number::impl::IgnoreRounding, UErrorCode&);
+    auto parseToExistingProperties(icu::UnicodeString const&, icu::number::impl::DecimalFormatProperties&, icu::number::impl::IgnoreRounding, UErrorCode&);
+    auto parseToExistingPropertiesImpl(icu::UnicodeString const&, icu::number::impl::DecimalFormatProperties&, icu::number::impl::IgnoreRounding, UErrorCode&);
+    auto parseToPatternInfo(icu::UnicodeString const&, icu::number::impl::ParsedPatternInfo&, UErrorCode&);
+    auto parseToProperties(icu::UnicodeString const&, UErrorCode&);
+    auto parseToProperties(icu::UnicodeString const&, icu::number::impl::IgnoreRounding, UErrorCode&);
+    auto patternInfoToProperties(icu::number::impl::DecimalFormatProperties&, icu::number::impl::ParsedPatternInfo&, icu::number::impl::IgnoreRounding, UErrorCode&);
 };

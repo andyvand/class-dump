@@ -4,7 +4,7 @@
 
 class std::ios_base::failure {
 public: // (access info unavailable from symbols alone)
+    auto what() const;
     failure(std::string const&);
-    what() const;
     ~failure();
 };

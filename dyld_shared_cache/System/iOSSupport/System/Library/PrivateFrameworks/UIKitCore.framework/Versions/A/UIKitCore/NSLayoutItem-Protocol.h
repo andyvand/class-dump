@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSISVariable, NSLayoutAnchor;
+@class NSISVariable;
 
 @protocol NSLayoutItem
-- (_Bool);
-- (struct CGSize)\;
-- (unsigned long long);
 
 @optional
-- (_Bool)Q;
-- (NSLayoutAnchor *)j;
-- (struct CGSize);
-- (_Bool)2kR;
-- (NSArray *);
-- (_Bool)-S;
-- (void);
-- (NSISVariable *)nectionHandlerWithSuccess;
-- (NSISVariable *)GestureRecognizer",&,N,V_tapGesture;
+- (NSISVariable *)Ð!´CùÑa1Â0@ù
+× ;
+- (NSISVariable *)0@ù
+× ;
+- (NSISVariable *)figuration",C,N,V_configuration;
 
 // Remaining properties
 @property(setter=nsli_setPiercingToken:) unsigned long long nsli_piercingToken;

@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
     _UIBackdropView *_backdropView;
 }
 
-+ (double);
-- (void)e:(id)arg1 atPoint: /* Error: Ran out of types for this method. */;
++ (double)^Qo_ALy_J^GGALyõ]GGAGG]GAEyAEyAEytº]yAEyAwLy?¹]SgGG_Qo_ALyG¾]GGALyAYSgGGA11_GGtGG;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -30,23 +30,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (void);
-- (id)nViewLayoutAttributes",C,N,V_layoutAttributes;
-- (id)~oûÿì@ûÿ;
-- (void)ationScaleY;
-- (id)äÄÿ<É;
-- (id)undProtocol_>"16@"NSString"24;
-- (void)$Ä;
-- (void)oContentContainerView;
-- (void)hatItemDetail;
-- (_Bool)e;
+- (_Bool);
+- (id);
+- (id)ranscriptCollectionViewController:balloonView:doubleTappedItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)ConversationEntity.;
+- (void)pinner;
+- (void)nColor1;
+- (void)Ã±ÿ;
+- (void)t5H,/;
 
 // Remaining properties
 @property(retain, nonatomic) _UIBackdropView *backdropView; // @synthesize backdropView=_backdropView;

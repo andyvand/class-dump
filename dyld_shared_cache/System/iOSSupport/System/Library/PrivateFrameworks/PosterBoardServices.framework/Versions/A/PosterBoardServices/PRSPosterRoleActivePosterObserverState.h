@@ -15,11 +15,11 @@
 
 - (id);
 - (id);
+- (id);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PRSPosterConfiguration *activePoster; // @synthesize activePoster=_activePoster;

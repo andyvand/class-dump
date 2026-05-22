@@ -29,8 +29,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)× ;
+- (id);
+- (void)RecognitionLanguages called before _fetchSupportedMultiUserLanguagesSynchronously - this should not happen!;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

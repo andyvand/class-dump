@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ot locked into Single App Mode.;
+- (id)_attributedMessage;
 
 @end
 

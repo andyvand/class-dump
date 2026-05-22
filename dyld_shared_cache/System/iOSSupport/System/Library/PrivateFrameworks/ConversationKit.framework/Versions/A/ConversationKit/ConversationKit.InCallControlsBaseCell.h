@@ -18,12 +18,12 @@
 }
 
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id)ÿÿÿ;
+- (void)Ç;
+- (id)yAAyAAyAAyAUA13_GA4_y` SgGGA66_GA4_y GGA1_G¢¢GSgtGY ySSGGtGG_Qo__Qo_A80_G_>pÐSgSgtGGA1_G&z GhT;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _TtC15ConversationKit19InCallControlButton *button; // @synthesize button;

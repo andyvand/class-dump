@@ -34,8 +34,8 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)tlingCollection;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsAlbums; // @synthesize allowsAlbums=_allowsAlbums;

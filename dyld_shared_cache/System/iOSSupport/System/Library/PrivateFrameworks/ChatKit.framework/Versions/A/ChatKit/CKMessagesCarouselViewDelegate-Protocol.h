@@ -5,6 +5,5 @@
 //
 
 @protocol CKMessagesCarouselViewDelegate
-- (void)e;
 @end
 

@@ -21,12 +21,12 @@
 - (id);
 - (_Bool);
 - (id);
+- (double);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (double);
-- (id);
+- (id)justsFontSize:%d, /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _UILegibilitySettings *legibilitySettings; // @synthesize legibilitySettings=_legibilitySettings;

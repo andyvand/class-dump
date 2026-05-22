@@ -13,7 +13,7 @@
 }
 
 + (_Bool);
-+ (_Bool)leContentStyle:titleColor:timeNumberingSystem:userConfigured:preferredTimeMaxYPortrait:preferredTimeMaxYLandscape:contentsLuminance:alternateDateEnabled:groupName:version: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -22,13 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

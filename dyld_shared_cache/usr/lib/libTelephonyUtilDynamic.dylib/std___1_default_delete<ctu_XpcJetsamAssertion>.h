@@ -4,5 +4,5 @@
 
 class std::__1::default_delete<ctu::XpcJetsamAssertion> {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:ne200100](ctu::XpcJetsamAssertion*) const;
+    auto operator()[abi:nqe210106](ctu::XpcJetsamAssertion*) const;
 };

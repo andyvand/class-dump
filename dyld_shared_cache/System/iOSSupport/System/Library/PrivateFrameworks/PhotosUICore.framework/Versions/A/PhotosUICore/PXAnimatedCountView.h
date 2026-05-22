@@ -21,8 +21,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (id);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -30,14 +30,15 @@
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
 - (id);
-- (id);
-- (void);
 - (id);
-- (id);
-- (void)oryURL;
-- (void)T¬ãÿÙÒ4;
+- (id)
+× ;
+- (id)iner;
+- (void)MôMXN;
+- (void)±Ä;
+- (void):(id)arg1 %f;
+- (void)r;
 
 // Remaining properties
 @property(retain) PXAnimatedLabel *currentLabel; // @synthesize currentLabel=_currentLabel;

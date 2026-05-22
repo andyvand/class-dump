@@ -23,14 +23,14 @@
 - (id);
 - (long long);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (_Bool);
-- (id);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

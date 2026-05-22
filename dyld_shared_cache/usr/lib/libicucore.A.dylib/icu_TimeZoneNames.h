@@ -4,11 +4,11 @@
 
 class icu::TimeZoneNames {
 public: // (access info unavailable from symbols alone)
-    createInstance(icu::Locale const&, UErrorCode&);
-    createTZDBInstance(icu::Locale const&, UErrorCode&);
-    getDisplayName(icu::UnicodeString const&, UTimeZoneNameType, double, icu::UnicodeString&) const;
-    getDisplayNames(icu::UnicodeString const&, UTimeZoneNameType const*, int, double, icu::UnicodeString*, UErrorCode&) const;
-    getExemplarLocationName(icu::UnicodeString const&, icu::UnicodeString&) const;
-    loadAllDisplayNames(UErrorCode&);
+    auto createInstance(icu::Locale const&, UErrorCode&);
+    auto createTZDBInstance(icu::Locale const&, UErrorCode&);
+    auto getDisplayName(icu::UnicodeString const&, UTimeZoneNameType, double, icu::UnicodeString&) const;
+    auto getDisplayNames(icu::UnicodeString const&, UTimeZoneNameType const*, int, double, icu::UnicodeString*, UErrorCode&) const;
+    auto getExemplarLocationName(icu::UnicodeString const&, icu::UnicodeString&) const;
+    auto loadAllDisplayNames(UErrorCode&);
     ~TimeZoneNames();
 };

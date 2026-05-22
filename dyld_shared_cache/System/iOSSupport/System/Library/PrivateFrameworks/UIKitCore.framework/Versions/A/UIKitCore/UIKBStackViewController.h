@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)legate;
 
 // Remaining properties
 @property(readonly, nonatomic) UIStackView *stackView;

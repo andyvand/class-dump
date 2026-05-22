@@ -7,17 +7,17 @@
 @class CKRecord, NSDate, NSString;
 
 @protocol FCReadingHistoryItem
-- (NSDate *)7;
-- (_Bool)_;
-- (NSDate *);
-- (NSString *)emote::triggerCapture Triggering remote capture with reason=%s /* Error: Ran out of types for this method. */;
-- (NSString *)a config update, publishDate=%@, and the feed was last updatedDate=%@;
-- (NSString *)ú;
+- (unsigned long long)P;
+- (NSString *)àP;
+- (NSString *)eration;
+- (CKRecord *)F16ProviderDelegateP;
+- (NSString *)reason=%{public}@, state=%{public}@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;
 @property(readonly, nonatomic) unsigned long long articleLikingStatus;
 @property(readonly, nonatomic) CKRecord *asCKRecord;
+@property(readonly, copy, nonatomic) NSString *clusterID;
 @property(readonly, copy, nonatomic) NSString *deviceID;
 @property(readonly, copy, nonatomic) NSDate *firstSeenAt;
 @property(readonly, copy, nonatomic) NSDate *firstSeenAtOfMaxVersionSeen;

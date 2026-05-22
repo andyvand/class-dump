@@ -20,21 +20,23 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void)ing could not be created with "%s" 0x%s;
-- (void);
-- (long long);
-- (void);
 - (void);
-- (void)ý/º;
-- (id)Ô ;
 - (void);
-- (void)abBarMinimizeBehavior;
 - (void);
-- (void)or;
-- (id);
+- (void);
+- (_Bool)ð1Â0@ù
+× ;
+- (void)@ù
+× ;
+- (id)delegateAllowsPanVertically"b1"queriedDelegateAllowsPanHorizontally"b1"queriedDelegateAllowsPanVertically"b1"failsPastMaxTouches"b1"multitouchTimerOn"b1"requiresImmediateMultipleTouches"b1"sawNonzeroStifledDeltaX"b1"sawNonzeroStifledDeltaY"b1"shouldConsiderAllowedScrollTypeCompatibility"b1"evaluatedAllowedScrollTypeCompatibility"b1};
+- (void)ering:(long long)arg1;
+- (long long)ingDrag;
+- (id)anMode;
+- (id)r;
+- (id)andidatePocketShadow;
+- (void)ver> _Nonnull);
+- (void)Ýa;
+- (void)ägÿý7;
 
 // Remaining properties
 @property(nonatomic, getter=isMultiselect) _Bool multiselect; // @synthesize multiselect=_multiselect;

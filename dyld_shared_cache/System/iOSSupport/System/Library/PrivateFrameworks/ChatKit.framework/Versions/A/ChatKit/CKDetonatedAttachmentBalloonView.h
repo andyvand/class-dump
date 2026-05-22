@@ -14,15 +14,13 @@
 }
 
 - (struct CGSize);
-- (struct CKBalloonDescriptor_t)TML("%@");;
+- (struct CKBalloonDescriptor_t);
 - (struct UIEdgeInsets);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)l«°«	h¬ð¬
-´­ø­
-X¯à¯L±4µ|µ;
+- (id);
+- (void)aR;
 
 // Remaining properties
 @property(retain, nonatomic) CKDetonatedAttachmentView *attachmentView; // @synthesize attachmentView=_attachmentView;

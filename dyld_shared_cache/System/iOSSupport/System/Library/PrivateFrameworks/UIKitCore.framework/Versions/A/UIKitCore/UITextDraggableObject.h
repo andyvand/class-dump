@@ -14,16 +14,16 @@
     CDUnknownBlockType _previewProvider;
 }
 
-+ (id)ault:(id)arg1 [%@] for key:(id)arg2 [%@];
++ (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (CDUnknownBlockType)3;
+- (CDUnknownBlockType);
 - (void);
-- (void);
-- (void)8;
 - (id);
-- (id);
+- (id)ellProviding>"16@"<UITableConstantsTableProviding>"24;
+- (void)nitialSpringVelocity:(id)arg1 options:animations:completion: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;

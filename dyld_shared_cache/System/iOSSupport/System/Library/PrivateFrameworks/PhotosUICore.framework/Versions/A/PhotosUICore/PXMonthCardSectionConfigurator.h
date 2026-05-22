@@ -13,12 +13,12 @@
     PXMonthsAssetsSectionHeaderLayoutSpec *_floatingHeaderSpec;
 }
 
-+ (long long)òµ3;
++ (long long)+S Å3;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

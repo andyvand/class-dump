@@ -15,7 +15,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)wController initWithCoder:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activationGranularity; // @synthesize activationGranularity=_activationGranularity;

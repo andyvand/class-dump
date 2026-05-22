@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKBalloonImageView.h>
 
-@class IMManualUpdater, UIImage;
+@class IMManualUpdater, UIColor, UIImage;
 
 @interface CKWaveformProgressView : CKBalloonImageView
 {
@@ -16,29 +16,33 @@
     double _duration;
     double _currentTime;
     UIImage *_waveform;
+    UIColor *_serviceColor;
     IMManualUpdater *_displayUpdater;
 }
 
-- (void)entage:maximumNumberOfDigitsAfterDecimalSeparator: /* Error: Ran out of types for this method. */;
-- (void)PlainText:(id)arg1 forStandardizedText:fixAttachments:insertListMarkers: /* Error: Ran out of types for this method. */;
-- (void)lternativeAuthenticationIfAvailable;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void)geSetEdges;
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (double);
 - (void);
 - (BOOL);
-- (void)4@"NSString"32@"NSString"40Q48;
-- (id)tAlignmentDebugLayer;
-- (double)it should be suppressed. Transitioning to nil.;
-- (double)TranscriptNavigationBarChange;
-- (void)XØ;
-- (_Bool)alloonContainer;
+- (void);
+- (id);
+- (void);
+- (double)ÔaýÐ!GùQ1Â0@ù
+× ;
+- (_Bool):/System/Library/PrivateFrameworks/DataDetectorsUI.framework/DataDetectorsUI /* Error: Ran out of types for this method. */;
+- (void)Result"8;
+- (void){]6^®,;
 
 // Remaining properties
 @property(nonatomic) BOOL color; // @synthesize color=_color;
@@ -47,6 +51,7 @@
 @property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(nonatomic, getter=isPlayed) _Bool played; // @synthesize played=_played;
 @property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
+@property(retain, nonatomic) UIColor *serviceColor; // @synthesize serviceColor=_serviceColor;
 @property(retain, nonatomic) UIImage *waveform; // @synthesize waveform=_waveform;
 
 @end

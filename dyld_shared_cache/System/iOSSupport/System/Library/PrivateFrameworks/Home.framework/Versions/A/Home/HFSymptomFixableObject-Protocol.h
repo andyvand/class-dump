@@ -7,7 +7,6 @@
 @class HMSymptomsHandler, NSSet, NSUUID;
 
 @protocol HFSymptomFixableObject
-- (NSUUID *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accessories;

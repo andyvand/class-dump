@@ -4,10 +4,10 @@
 
 class TileDecoder_B44A {
 public: // (access info unavailable from symbols alone)
-    ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const;
-    ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const::kFuncTable;
-    GetCompressionMethod() const;
-    Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const;
-    Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const::funcTable;
+    auto ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const;
+    auto ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const::kFuncTable;
+    auto GetCompressionMethod() const;
+    auto Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const;
+    auto Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const::funcTable;
     ~TileDecoder_B44A();
 };

@@ -20,7 +20,7 @@
 
 + (id);
 + (id);
-+ (id),V_onboardingSelections;
++ (id)xpc;
 - (void);
 - (id);
 - (void);
@@ -37,17 +37,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (long long);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)mpletion: /* Error: Ran out of types for this method. */;
-- (void)ler:(long long)arg1;
-- (void)ying client did update destination:(id)arg1 %@ delegate:%@ /* Error: Ran out of types for this method. */;
+- (void)changeDataRequest;
+- (id)cess to HAP accessories (options %@) - not going to write synced metadata to cache;
+- (void)lue;
 
 // Remaining properties
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;

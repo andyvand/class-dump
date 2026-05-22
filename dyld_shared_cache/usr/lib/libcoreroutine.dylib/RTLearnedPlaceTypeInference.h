@@ -18,23 +18,23 @@
 
 + (id);
 + (id);
-+ (_Bool)evice not unlocked since last boot, unable to execute retro-registration.;
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (void)B;
-- (id)undle-/System/Library/LocationBundles/TimeZone.bundle;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (unsigned long long);
-- (id)tificateReference;
 - (id);
 - (id);
-- (id)tring: /* Error: Ran out of types for this method. */;
+- (id)y:maxRetries:handler:] /* Error: Ran out of types for this method. */;
+- (void)from event, %{sensitive}@, to address, "%{sensitive}@", error, %@, resolvedMapItem, %{sensitive}@;
+- (unsigned long long)onID:%@,%@,%@,messageID:%@,conversation:%@,associatedGUID:%@,messsage:%{sensitive}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;

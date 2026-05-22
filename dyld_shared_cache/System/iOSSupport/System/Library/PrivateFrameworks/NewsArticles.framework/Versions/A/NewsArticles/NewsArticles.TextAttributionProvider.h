@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)delegate;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *attribution;

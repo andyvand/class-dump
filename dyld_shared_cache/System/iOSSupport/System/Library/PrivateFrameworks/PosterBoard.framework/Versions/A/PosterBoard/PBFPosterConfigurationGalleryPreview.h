@@ -12,6 +12,7 @@
     _Bool _complicationsUseBottomLayout;
     NSString *_previewUniqueIdentifier;
     NSString *_semanticIdentifier;
+    NSString *_accessibilityIdentifier;
     NSString *_displayNameLocalizationKey;
     NSString *_galleryLocalizedTitle;
     NSString *_galleryLocalizedDescription;
@@ -41,20 +42,24 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool)eWhenDone: /* Error: Ran out of types for this method. */;
-- (unsigned long long)A41EditingConfirmationViewControllerDelegateP;
+- (unsigned long long);
+- (void)!¿!Gù1	1â
+0@ù
+× ;
 
 // Remaining properties
+@property(readonly, copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
 @property(readonly, copy, nonatomic) NSString *complicationLayoutType; // @synthesize complicationLayoutType=_complicationLayoutType;
 @property(readonly, nonatomic) _Bool complicationsUseBottomLayout; // @synthesize complicationsUseBottomLayout=_complicationsUseBottomLayout;
 @property(readonly, nonatomic) PRPosterConfiguration *configuration; // @synthesize configuration=_configuration;

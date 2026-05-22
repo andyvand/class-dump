@@ -17,7 +17,7 @@
     HMMutableArray *_currentRooms;
 }
 
-+ (_Bool)_p;
++ (_Bool);
 
 @end
 

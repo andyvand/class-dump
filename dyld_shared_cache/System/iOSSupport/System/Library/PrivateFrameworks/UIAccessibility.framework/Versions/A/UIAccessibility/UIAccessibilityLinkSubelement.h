@@ -14,13 +14,13 @@
 
 - (id);
 - (unsigned long long);
-- (id);
-- (void)y;
-- (void)`;
-- (void);
-- (unsigned long long);
 - (struct CGRect);
+- (unsigned long long);
 - (struct _NSRange);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;

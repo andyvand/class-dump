@@ -15,11 +15,11 @@
 
 + (id);
 + (void);
-+ (id): /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (id);
-- (id)ctOfClass:fromData:error: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
+- (void),&,N,V_quaternaryTextColor;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *artworkID; // @synthesize artworkID=_artworkID;

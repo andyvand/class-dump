@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     id <UIFocusItemContainer> _itemContainer;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id)T{_NSRange=QQ},N,VvalidTextRange;
+- (_Bool)Path:(id)arg1;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isScrollableContainer; // @synthesize isScrollableContainer=_isScrollableContainer;

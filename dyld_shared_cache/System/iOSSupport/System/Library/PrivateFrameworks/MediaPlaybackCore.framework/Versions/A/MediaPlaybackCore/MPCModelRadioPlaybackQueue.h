@@ -24,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)pe;
+- (void);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -33,10 +33,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void);
+- (long long)0@ù
+× ;
+- (void)ic}@ %2i %{public}@  â source:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (long long);
 
 // Remaining properties
 @property(retain, nonatomic) MPCModelGenericAVItemUserIdentityPropertySet *identityPropertySet;

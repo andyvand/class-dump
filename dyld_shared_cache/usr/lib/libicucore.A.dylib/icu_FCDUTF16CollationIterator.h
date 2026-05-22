@@ -5,19 +5,19 @@
 class icu::FCDUTF16CollationIterator {
 public: // (access info unavailable from symbols alone)
     FCDUTF16CollationIterator(icu::FCDUTF16CollationIterator const&, char16_t const*);
-    backwardNumCodePoints(int, UErrorCode&);
-    forwardNumCodePoints(int, UErrorCode&);
-    foundNULTerminator();
-    getOffset() const;
-    handleNextCE32(int&, UErrorCode&);
-    nextCodePoint(UErrorCode&);
-    nextSegment(UErrorCode&);
-    normalize(char16_t const*, char16_t const*, UErrorCode&);
-    operator==(icu::CollationIterator const&) const;
-    previousCodePoint(UErrorCode&);
-    previousSegment(UErrorCode&);
-    resetToOffset(int);
-    switchToBackward();
-    switchToForward();
+    auto backwardNumCodePoints(int, UErrorCode&);
+    auto forwardNumCodePoints(int, UErrorCode&);
+    auto foundNULTerminator();
+    auto getOffset() const;
+    auto handleNextCE32(int&, UErrorCode&);
+    auto nextCodePoint(UErrorCode&);
+    auto nextSegment(UErrorCode&);
+    auto normalize(char16_t const*, char16_t const*, UErrorCode&);
+    auto operator==(icu::CollationIterator const&) const;
+    auto previousCodePoint(UErrorCode&);
+    auto previousSegment(UErrorCode&);
+    auto resetToOffset(int);
+    auto switchToBackward();
+    auto switchToForward();
     ~FCDUTF16CollationIterator();
 };

@@ -22,40 +22,40 @@
 }
 
 + (id);
-+ (_Bool)owsTapping;
++ (_Bool);
 - (double);
-- (id)H;
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (id)C;
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id)Placeholder is no longer replacable;
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)erSpecialization.m;
+- (void);
+- (void)4;
+- (id)Ðìí;
+- (id)ources/app_icons/icloud@2x.png;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;

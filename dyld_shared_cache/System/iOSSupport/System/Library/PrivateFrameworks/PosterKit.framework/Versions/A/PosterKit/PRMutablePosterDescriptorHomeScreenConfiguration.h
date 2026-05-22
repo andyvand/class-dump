@@ -13,7 +13,7 @@
 }
 
 + (_Bool);
-+ (_Bool)on:displayOrder: /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsModifyingLegibilityBlur; // @dynamic allowsModifyingLegibilityBlur;

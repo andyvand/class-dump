@@ -18,15 +18,15 @@
 
 + (id);
 + (id);
-+ (_Bool)onal Hotspot password (Parameter Summary);
-- (id);
-- (void);
++ (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)A/Library/Caches/com.apple.xbs/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/evp/m_sigver.c;
 - (id);
+- (id)ð(<)ì+- //L05;
+- (void)sage type;
+- (unsigned long long)py;
 
 // Remaining properties
 @property(retain, nonatomic) WFImage *cachedImage; // @synthesize cachedImage=_cachedImage;

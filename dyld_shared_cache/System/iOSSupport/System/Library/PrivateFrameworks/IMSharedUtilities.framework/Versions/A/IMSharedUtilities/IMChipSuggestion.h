@@ -18,14 +18,14 @@
 - (id);
 - (id);
 - (void);
-- (long long)_;
-- (void);
+- (id);
+- (id);
+- (long long);
 - (_Bool);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void)edChats chat dictionaries.;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *displayText;

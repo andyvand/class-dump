@@ -58,11 +58,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (void)ttribute:(id)arg1 value: /* Error: Ran out of types for this method. */;
-- (id)e processing this request;
+- (id)esourceApplicationDataEntry:guid:key: /* Error: Ran out of types for this method. */;
+- (void)os:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)Error"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *email; // @synthesize email=_email;

@@ -31,20 +31,20 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool)24B28B32;
-- (void)tionLock: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *pairingID;

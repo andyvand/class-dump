@@ -18,12 +18,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)Image: /* Error: Ran out of types for this method. */;
-- (void)ialTimeRange:(id)arg1;
+- (void);
+- (id);
+- (void)vice:] /* Error: Ran out of types for this method. */;
+- (void)¸uüìß;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

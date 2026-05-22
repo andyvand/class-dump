@@ -20,9 +20,9 @@
 - (void);
 - (id);
 - (void);
-- (id)ework/Versions/A/DiagnosticRequest;
-- (void);
 - (id);
+- (void);
+- (id)View"8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *consumers; // @synthesize consumers=_consumers;

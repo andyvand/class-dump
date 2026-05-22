@@ -43,10 +43,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
+- (id)ð1â
+0@ù
+× ;
+- (void)tributionURLs:presentingViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

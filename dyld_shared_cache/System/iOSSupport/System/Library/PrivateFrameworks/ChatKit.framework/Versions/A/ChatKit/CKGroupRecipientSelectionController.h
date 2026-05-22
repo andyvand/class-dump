@@ -6,68 +6,83 @@
 
 #import <ChatKit/CKRecipientSelectionController.h>
 
-@class NSString, UIBarButtonItem, UIButton;
+@class IMService, NSString, UIBarButtonItem, UIButton;
 
 @interface CKGroupRecipientSelectionController : CKRecipientSelectionController
 {
+    _Bool _resolvedEncryption;
     UIBarButtonItem *_cancelButton;
     UIBarButtonItem *_doneButton;
     UIButton *_macDialogCancelButton;
     UIButton *_macDialogAddButton;
+    IMService *_resolvedService;
 }
 
-- (double)e;
-- (void)oRootRecordID;
-- (double)edSize:scale:appearance: /* Error: Ran out of types for this method. */;
-- (_Bool)6u;
+- (double);
 - (void);
-- (void)anges;
-- (_Bool)P;
-- (void);
-- (void);
-- (void);
-- (void)s;
-- (void) %;
-- (void);
-- (void)l;
-- (void)s;
-- (void)n;
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets)n;
-- (id);
-- (id)r;
-- (_Bool)ount id for container %@;
+- (double);
 - (_Bool);
-- (void)%d;
-- (void)te>",N,W,VsuggestionsDelegate;
-- (void)sion;
-- (void)ject is nil;
-- (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)Data: /* Error: Ran out of types for this method. */;
-- (void)¥Ö.;
-- (void)Ää{ÿý/ "0;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void)!ÔGùñð1Â0@ù
+× ;
+- (void);
+- (void)ardAppearanceAnimationProperties;
+- (void)on without a valid destination index path, returning unspecified move drop proposal;
+- (id)llowing communications:%@ /* Error: Ran out of types for this method. */;
+- (void)ÿ);
 
 // Remaining properties
 @property(retain, nonatomic) UIBarButtonItem *cancelButton; // @synthesize cancelButton=_cancelButton;
@@ -80,6 +95,8 @@
 @property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIButton *macDialogAddButton; // @synthesize macDialogAddButton=_macDialogAddButton;
 @property(retain, nonatomic) UIButton *macDialogCancelButton; // @synthesize macDialogCancelButton=_macDialogCancelButton;
+@property(nonatomic) _Bool resolvedEncryption; // @synthesize resolvedEncryption=_resolvedEncryption;
+@property(nonatomic) __weak IMService *resolvedService; // @synthesize resolvedService=_resolvedService;
 @property(readonly) Class superclass;
 
 @end

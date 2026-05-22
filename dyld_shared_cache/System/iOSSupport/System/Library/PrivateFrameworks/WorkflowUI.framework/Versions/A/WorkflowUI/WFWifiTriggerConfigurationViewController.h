@@ -27,12 +27,12 @@
 - (id);
 - (id);
 - (id);
-- (long long);
 - (id);
-- (void);
+- (long long);
 - (void);
 - (long long);
-- (void)x5;
+- (void);
+- (void)lugInTriggerConfigurationViewController;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allNetworks; // @synthesize allNetworks=_allNetworks;

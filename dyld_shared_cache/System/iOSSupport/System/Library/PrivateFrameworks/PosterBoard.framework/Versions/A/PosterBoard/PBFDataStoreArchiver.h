@@ -13,13 +13,15 @@
 }
 
 + (_Bool);
-+ (id)ntimeAssertionProvider:extensionProvider:observer:wasMigrationJustPerformed:applicationStateMonitor:error:] /* Error: Ran out of types for this method. */;
++ (id)PBFPosterRoleCoordinatorChangeUserInfoKeyAttributeType;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void)!¿Ð!Dù1	Ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *dataStoreURL; // @synthesize dataStoreURL=_dataStoreURL;

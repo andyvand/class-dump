@@ -16,17 +16,17 @@
 }
 
 + (id);
-- (void)mmingWhitespace;
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)yIterator for '%s' failed at '%s' with error:%@  /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)Ry^;
+- (void);
+- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIAction *dismissAction; // @synthesize dismissAction=_dismissAction;

@@ -19,11 +19,11 @@
 - (void);
 - (id);
 - (MISSING_TYPE *);
-- (void);
 - (id);
-- (id);
-- (void);
 - (MISSING_TYPE *);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *anchors; // @synthesize anchors=_anchors;

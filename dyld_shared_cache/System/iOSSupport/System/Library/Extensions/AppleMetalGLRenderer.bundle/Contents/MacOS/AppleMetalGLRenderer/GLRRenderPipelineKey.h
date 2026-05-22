@@ -4,7 +4,7 @@
 
 class GLRRenderPipelineKey {
 public: // (access info unavailable from symbols alone)
-    copyDescriptor(GLRFunctionCache const&) const;
-    destroy();
-    init();
+    auto copyDescriptor(GLRFunctionCache const&) const;
+    auto destroy();
+    auto init();
 };

@@ -28,8 +28,8 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
-- (id)¬û;
+- (id);
+- (void)em:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HMCameraClip *cameraClip; // @synthesize cameraClip=_cameraClip;

@@ -30,11 +30,11 @@
 - (long long);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id)ÄÌ,L!Ü!x"\#;
 - (void);
-- (id)ximumTrailing;
 
 // Remaining properties
 @property(nonatomic) long long completedItemsCount; // @synthesize completedItemsCount=_completedItemsCount;

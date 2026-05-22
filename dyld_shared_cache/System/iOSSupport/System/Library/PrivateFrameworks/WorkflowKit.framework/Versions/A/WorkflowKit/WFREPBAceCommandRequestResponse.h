@@ -17,19 +17,19 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool)cMathOperation(Modulus),WFScientificMathOperand;
+- (void)etchRootItemURLForDomainWithID:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)low.actions.lightroom.import;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *aceCommandResponseData; // @synthesize aceCommandResponseData=_aceCommandResponseData;

@@ -16,29 +16,28 @@
     NSDictionary *__springboardParameters;
 }
 
-+ (struct CGSize)I: /* Error: Ran out of types for this method. */;
-+ (id)%@;
-+ (id)nt path for cachedelete, not in attachment store:(id)arg1 %@;
-+ (struct CGSize)RecordInfoStore.db;
++ (struct CGSize);
 + (id);
-- (void)ead:(_Bool)arg1;
-- (void)C,N,V_associatedMessageGUID;
++ (id);
++ (struct CGSize);
++ (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGPoint);
-- (id)value from Sync State %{bool}d;
-- (_Bool)opping pending nickname update;
-- (_Bool)ta = %@; OUTPUT chat = %@; numMessageItems = %lu};
-- (id)sLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id)¸qàrt0udvXx~;
+- (id)adaptiveImageGlyph is nil;
+- (void)Äyh;
 - (id);
-- (id);
-- (id);
-- (void)1¢!0@ù
-× ;
-- (id)ä%È;
 
 // Remaining properties
 @property(readonly, nonatomic) _DUIPreview *_duiPreview;

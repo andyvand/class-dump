@@ -4,48 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NTPBPublisherPaidDescriptionStrings;
+@class FCAssetHandle, FCColor, FCPaywallConfiguration, FCSectionSupergroupKnobs, FCSportsRecommendationMappings, NSArray, NSData, NSDate, NSDictionary, NSString, NSURL, NTPBPublisherPaidDescriptionStrings;
 @protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagStocksFields, FCTopicProviding;
 
 @protocol FCTagProviding
-- (id <FCSectionProviding>)<;
-- (void);
-- (NSString *);
-- (_Bool)tory;
-- (FCAssetHandle *);
-- (NSString *);
-- (NSString *)a";
-- (_Bool);
-- (long long)h;
-- (_Bool)H;
-- (_Bool)yticsTests,NewsPersonalization,NewsPersonalizationTests,NewsTag,NewsToday2,NewsArticles,NewsArticlesTests,NewsFeed,NewsFeedTests,Stocks,StocksAnalytics,StocksAnalyticsTests,StocksCore,StocksCoreTests,StocksTests,StocksToday,StocksUI,StocksUITests,NewsSubscription,StocksPersonalization,XavierCore,XavierCoreTests,XavierNews,XavierNewsTests;
-- (FCPaywallConfiguration *);
-- (NSArray *)RepeatableImageView";
-- (double)tifierObserving>"16;
-- (NSDate *)subscriptionStatus;
-- (FCAssetHandle *)tmentBehavior: /* Error: Ran out of types for this method. */;
-- (FCSportsRecommendationMappings *)ewWillBeginDragging: /* Error: Ran out of types for this method. */;
-- (_Bool)ent:DOM: /* Error: Ran out of types for this method. */;
-- (void)ge;
-- (NSDate *)eTransformInRootDictionary;
-- (_Bool)sentingContentViewController;
-- (NSArray *)DOMAnalysis;
-- (_Bool)dImageViewCacheDelegate;
-- (NSString *)t;
-- (long long){public}@;
-- (_Bool)`;
-- (_Bool);
-- (NTPBPublisherPaidDescriptionStrings *)ledForESL;
-- (void)ÿÿÿÿ¼;
-- (NSString *)¸V;
-- (_Bool)ager;
-- (_Bool)'Ò;
-- (NSArray *)ver_p;
-- (_Bool)ar display due to not being launched from widget;
-- (NSString *)for an action that removes an audio track.;
-- (_Bool)ý­n«P;
-- (_Bool)!pG;
-- (_Bool)Ç;
+- (FCAssetHandle *)leViaOfferFeatureAvailability;
+- (_Bool);
+- (double)p;
+- (_Bool)hU;
+- (_Bool)ncRecipeViewerRecipeTask;
+- (_Bool)eViewerModuleType;
+- (_Bool)5)atxi;
+- (NSString *)~øl;
+- (NSDate *)ageArticleBottomPaletteFeatureDescriptor;
+- (NSURL *)tentsBlueprintModifierFactoryType;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *adTargetingKeywords;
@@ -71,6 +44,8 @@
 @property(readonly, nonatomic) _Bool disableFollow;
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *displayName;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageHQAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageHQAssetHandle;
 @property(readonly, nonatomic) NSDate *fetchDate;
@@ -97,6 +72,7 @@
 @property(readonly, nonatomic) _Bool isHidden;
 @property(readonly, nonatomic) _Bool isInternal;
 @property(readonly, nonatomic) _Bool isLocal;
+@property(readonly, nonatomic) _Bool isLocalHub;
 @property(readonly, nonatomic) _Bool isMagazine;
 @property(readonly, nonatomic) _Bool isMySports;
 @property(readonly, nonatomic) _Bool isNewspaper;

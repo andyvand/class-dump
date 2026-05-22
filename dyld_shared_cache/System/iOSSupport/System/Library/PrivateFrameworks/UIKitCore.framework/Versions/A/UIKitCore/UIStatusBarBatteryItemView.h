@@ -25,30 +25,30 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)Handler:(id)arg1;
-- (void)ecutorWithTaskLimit:(_Bool)arg1 groupName:lane:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ichCardOriginalGuid;
-- (void)thBlastDoorBasicMessage:(unsigned long long)arg1;
-- (void)dChatGUIDs;
-- (void)d;
-- (void)erID:(int)arg1 account: /* Error: Ran out of types for this method. */;
-- (double)dTranslation:toMessageItem:partIndex:toChatIdentifier:style:account: /* Error: Ran out of types for this method. */;
-- (double)ue;
-- (id);
-- (id);
-- (_Bool)<;
-- (int)x;
-- (unsigned long long)e;
-- (unsigned long long)<;
-- (id)C;
-- (int).;
 - (void);
-- (_Bool)drid EnableCacheDelete -bool YES;
-- (id)r;
-- (struct CGSize)B[;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
 - (id);
 - (id);
-- (void)%Âì;
+- (_Bool);
+- (int);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (int);
+- (void);
+- (_Bool);
+- (id);
+- (struct CGSize);
+- (id);
+- (void)Tþb;
+- (id);
 
 // Remaining properties
 @property(nonatomic) int cachedAXHUDCapacity; // @synthesize cachedAXHUDCapacity=_cachedAXHUDCapacity;

@@ -19,10 +19,11 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
 - (void);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) SXViewportDebuggerOverlayView *appearStateIndicator; // @synthesize appearStateIndicator=_appearStateIndicator;

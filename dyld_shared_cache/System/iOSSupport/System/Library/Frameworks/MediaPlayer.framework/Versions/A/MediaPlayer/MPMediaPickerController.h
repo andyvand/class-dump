@@ -17,9 +17,9 @@
 + (void);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -31,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -52,27 +52,27 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long)geGUID:callerOrigin: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (long long);
 - (id);
-- (void)r:(_Bool)arg1 guid:subject:threadIdentifier: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (long long);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id)the chunklist for item %lld was it registered and chunked?;
-- (void)renced unknown chunk/file in chunkList.;
 - (id);
-- (unsigned long long)ìµp¶·¸;
-- (void)sHD();
-- (long long)iorDidChangeNotification;
+- (long long);
+- (id);
+- (void);
+- (void);
+- (long long)e:animated: /* Error: Ran out of types for this method. */;
+- (unsigned long long)rtworkToken:artworkType:sourceType:mediaType: /* Error: Ran out of types for this method. */;
+- (void)sableQueueModifications;
+- (void)listHasAnyCleanDownloadedTracks;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPickingMultipleItems;

@@ -11,12 +11,14 @@
     _PKEducationalMessageView *_internalView;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
 - (_Bool);
+- (id);
+- (void)!ìFùøð1â
+0@ù
+× ;
 - (void);
 
 @end

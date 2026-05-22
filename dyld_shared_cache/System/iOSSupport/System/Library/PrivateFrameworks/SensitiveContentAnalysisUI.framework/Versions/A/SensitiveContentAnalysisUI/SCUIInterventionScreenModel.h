@@ -4,41 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString, SCUIReportAuthority;
+@class MISSING_TYPE, NSArray, NSString;
 
 @interface SCUIInterventionScreenModel
 {
     long long screen;
     MISSING_TYPE *config;
-    SCUIReportAuthority *authority;
     MISSING_TYPE *participantContactCache;
     MISSING_TYPE *$__lazy_storage_$_canShowScreenTimePasscodeWarningBullet;
 }
 
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (id);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (void);
 - (long long);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
+- (id);
+- (void);
+- (long long)INCLUDED_IN_REPORT;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *actions;
-@property(nonatomic, retain) SCUIReportAuthority *authority; // @synthesize authority;
 @property(nonatomic, readonly) NSArray *bullets;
 @property(nonatomic, readonly) NSString *emoji;
 @property(nonatomic, readonly) NSString *imageName;

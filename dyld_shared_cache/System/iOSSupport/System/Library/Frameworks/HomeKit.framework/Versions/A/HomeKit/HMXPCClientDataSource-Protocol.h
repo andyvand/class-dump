@@ -8,6 +8,8 @@
 @protocol HMDarwinNotificationProvider;
 
 @protocol HMXPCClientDataSource
+- (NSNotificationCenter *)OwnedActionSets;
+- (id <HMDarwinNotificationProvider>)KeyAuthData;
 
 // Remaining properties
 @property(readonly) id <HMDarwinNotificationProvider> darwinNotificationProvider;

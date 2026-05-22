@@ -18,19 +18,19 @@
 }
 
 - (_Bool);
-- (unsigned long long)R(;
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
+- (_Bool);
 - (void);
-- (void);
-- (void)`;
 - (long long);
-- (_Bool)ode.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

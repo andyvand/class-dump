@@ -5,6 +5,6 @@
 //
 
 @protocol PXChangeObserver
-- (void);
+- (void)UPLICATES_SECTION_ACTION;
 @end
 

@@ -7,8 +7,6 @@
 @class UIImage;
 
 @protocol _UITextPreviewRenderer
-- (void)ateSigningRequest() failed:(_Bool)arg1 %@;
-- (void)populate data failed - foundData is NULL;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bodyRect;

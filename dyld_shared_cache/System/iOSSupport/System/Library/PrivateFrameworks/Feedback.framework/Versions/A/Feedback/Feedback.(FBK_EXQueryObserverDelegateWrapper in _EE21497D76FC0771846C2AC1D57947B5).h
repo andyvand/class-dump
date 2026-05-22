@@ -11,11 +11,12 @@
     MISSING_TYPE *controller;
     MISSING_TYPE *hostViewController;
     MISSING_TYPE *extensionKitHostViewControllerDelegate;
+    MISSING_TYPE *isBeginningHosting;
 }
 
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

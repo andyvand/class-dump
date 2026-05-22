@@ -19,7 +19,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)oardingEnterOTP_TooManyAttempts_Title;
 - (id);
 
 @end

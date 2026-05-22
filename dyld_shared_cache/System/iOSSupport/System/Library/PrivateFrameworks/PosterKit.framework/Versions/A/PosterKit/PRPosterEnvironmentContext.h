@@ -19,9 +19,9 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
 - (id);
 - (_Bool);
+- (_Bool)ollerDidDismissPopover: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long mode; // @synthesize mode=_mode;

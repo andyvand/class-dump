@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)nHeaderButtonTapped;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *authorText;

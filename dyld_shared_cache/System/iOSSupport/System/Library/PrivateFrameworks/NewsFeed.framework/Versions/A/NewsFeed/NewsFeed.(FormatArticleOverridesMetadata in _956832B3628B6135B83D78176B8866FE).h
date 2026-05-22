@@ -17,13 +17,13 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)Íõÿø&öÿ;
-- (id)0;
+- (void);
+- (id)LCg<ðP;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSDate *displayDate;

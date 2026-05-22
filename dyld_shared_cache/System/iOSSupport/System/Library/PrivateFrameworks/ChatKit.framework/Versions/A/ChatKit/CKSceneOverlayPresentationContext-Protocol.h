@@ -7,9 +7,7 @@
 @class UIView;
 
 @protocol CKSceneOverlayPresentationContext
-- (void);
-- (void)account;
-- (long long)¸v¼;
+- (long long)G;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect anchorRect;

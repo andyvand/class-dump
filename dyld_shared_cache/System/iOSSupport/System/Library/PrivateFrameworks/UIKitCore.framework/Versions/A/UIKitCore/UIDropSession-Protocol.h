@@ -7,7 +7,6 @@
 @protocol UIDragSession;
 
 @protocol UIDropSession
-- (void)FDRSealedDataConfigureOptionsForRecover failed.;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIDragSession> localDragSession;

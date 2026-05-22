@@ -29,13 +29,13 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)Ì:(struct CGRect)arg1 ûÿ;
-- (id)14CKConversationC7elementtGSiv+¯yØ®ADy¾®yS2SSg_GSSù5?SgGù¡®GGGG;
-- (void)LÿÿÄÂñÿÐÈÿl¿;
+- (void)¼Áªÿ;
 
 // Remaining properties
 @property(nonatomic, retain) id <CKPopRendererViewDelegate> delegate; // @synthesize delegate;

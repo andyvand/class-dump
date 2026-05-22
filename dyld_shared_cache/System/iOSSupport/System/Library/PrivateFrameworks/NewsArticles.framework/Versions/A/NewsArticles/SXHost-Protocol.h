@@ -5,8 +5,7 @@
 //
 
 @protocol SXHost
-- (_Bool)Ĩ;
-- (_Bool)$NÐN;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool active;

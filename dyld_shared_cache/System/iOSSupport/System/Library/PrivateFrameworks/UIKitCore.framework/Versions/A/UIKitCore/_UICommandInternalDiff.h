@@ -21,14 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void):(id)arg1 8@16@24@32@40@48@56@?64;
-- (void)4;
+- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void)@3ç;
-- (id)rsorLocationIfNotFirstResponder;
-- (id)nce Recorder is checking the hint for a third-argument type of id, %{public}@];
+- (id);
+- (id);
+- (id)!xFùÑ[Ð1Â0@ù
+× ;
+- (void)HXþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *inserts; // @synthesize inserts=_inserts;

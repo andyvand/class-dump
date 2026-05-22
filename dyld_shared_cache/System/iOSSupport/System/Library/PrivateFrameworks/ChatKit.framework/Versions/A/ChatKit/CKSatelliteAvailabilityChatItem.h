@@ -13,20 +13,19 @@
     NSAttributedString *_satelliteAvailabilityTitleLabelAttributedText;
 }
 
-- (void)lData:sourceImageData:embedData: /* Error: Ran out of types for this method. */;
-- (BOOL)ionIndex:usingComparator: /* Error: Ran out of types for this method. */;
-- (void)nSourceObjects;
-- (id);
-- (id);
-- (struct CGSize)yAVGGAYG;
-- (id)G_Qo_AEtGG;
-- (_Bool);
-- (id)'b
-;
-- (Class);
-- (struct UIEdgeInsets);
 - (void);
-- (unsigned long long)pdatedCollaborationMetadataWithUpdatedMetadata:ckShare:sharingURL: /* Error: Ran out of types for this method. */;
+- (BOOL);
+- (void);
+- (id);
+- (id);
+- (struct CGSize);
+- (id);
+- (_Bool);
+- (id);
+- (struct UIEdgeInsets);
+- (Class);
+- (unsigned long long)IMCloudKitEventNotificationManager"16@"IMCloudKitSyncProgress"24;
+- (void)è$ÿUG;
 
 // Remaining properties
 @property(readonly, nonatomic) IMSatelliteAvailabilityChatItem *imSatelliteAvailabilityChatItem;

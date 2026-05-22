@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)6Q24Q32@40B48q52B60B64@68;
 + (_Bool);
 + (_Bool);
-+ (id)lectionWithExecutionContext: /* Error: Ran out of types for this method. */;
-+ (id)22547DB2BF49759240B89F9C1LLP;
-+ (long long)èvËnùe;
++ (_Bool);
++ (id);
++ (id)ing windows without first creating a scene. They should know better. Aborting.;
++ (long long)^þX·ÊÀg;
 
 @end
 

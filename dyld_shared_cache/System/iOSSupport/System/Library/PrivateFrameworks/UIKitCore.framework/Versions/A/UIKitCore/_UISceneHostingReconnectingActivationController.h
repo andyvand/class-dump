@@ -20,17 +20,18 @@
 - (void);
 - (double);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void)sword;
-- (unsigned long long);
 - (void);
 - (void);
-- (id)AuthenticationRecord: /* Error: Ran out of types for this method. */;
-- (id)k8cSg;
-- (void)l error, attribute not supported;
+- (id);
+- (void);
+- (id);
+- (void)0@ù
+× ;
+- (unsigned long long)ToTextPadding"b1"hasCustomizedTextToValuePadding"b1};
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

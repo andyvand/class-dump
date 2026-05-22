@@ -16,14 +16,14 @@
 
 + (id);
 - (void);
-- (void)øÔ ;
-- (id);
-- (id)È;
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

@@ -13,17 +13,16 @@ __attribute__((visibility("hidden")))
     struct CGRect _keyboardAvoidanceArea;
 }
 
-+ (id);
++ (id)ØXl;
 - (void);
 - (void);
-- (void):(id)arg1 %@;
-- (void)ndex-scheduling-resume;
-- (void)h;
-- (void)%@. output message has type %@;
 - (void);
-- (void)!(FùÃÐ1¢!0@ù
-× ;
-- (id)tureRecognizer",&,N,V_steadyTouchForceGestureRecognizer;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSFetchRequest;
+
 @protocol RTEnumerableStore
+- (NSFetchRequest *)al, startDate, %@, endDate, %@, fetched lois uuids count, %lu, latency %.2f, error(s), %@;
 @end
 

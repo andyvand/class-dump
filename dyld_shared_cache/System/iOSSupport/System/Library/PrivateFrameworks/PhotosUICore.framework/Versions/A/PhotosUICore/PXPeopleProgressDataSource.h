@@ -53,14 +53,16 @@
 - (long long);
 - (void);
 - (id);
-- (long long);
 - (_Bool);
+- (long long);
 - (struct os_unfair_lock_s);
 - (void);
-- (void);
-- (_Bool);
-- (id)D¬Ed`IeJfPSèh¨<LÔLèP¦p¦¬§<ª,«;
-- (id)*!Mh6;
+- (id);
+- (_Bool)E°1â
+0@ù
+× ;
+- (void)#È4µjÿ}#È¬µjÿ;
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long allowedAssetCount; // @synthesize allowedAssetCount=_allowedAssetCount;

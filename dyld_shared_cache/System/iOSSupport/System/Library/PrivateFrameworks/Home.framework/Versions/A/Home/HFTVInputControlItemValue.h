@@ -16,16 +16,16 @@
 
 + (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (void)p;
 - (_Bool);
-- (_Bool)LearnMore;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;

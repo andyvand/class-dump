@@ -13,10 +13,11 @@
     MISSING_TYPE *label;
 }
 
-- (void);
 - (id);
-- (void)BackgroundPriority;
-- (id)_SSSg11replacementt;
+- (void);
+- (id)!Ü@ùñþð1Â0@ù
+× ;
+- (void);
 
 @end
 

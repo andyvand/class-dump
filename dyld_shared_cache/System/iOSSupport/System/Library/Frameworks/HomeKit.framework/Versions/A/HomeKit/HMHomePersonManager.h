@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id)MetricsDispatcherFactory;
++ (id)cationSnapshot;
 - (id);
 - (id);
 

@@ -15,9 +15,9 @@
 + (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)H¬ÈÿP;
+- (id);
+- (void)public}@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;

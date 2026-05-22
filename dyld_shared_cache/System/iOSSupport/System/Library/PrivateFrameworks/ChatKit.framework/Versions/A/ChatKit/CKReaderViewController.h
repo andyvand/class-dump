@@ -16,37 +16,36 @@
     struct _NSRange _textRangeToRestore;
 }
 
-+ (id)th %@;
-+ (id)with %@ and %@;
-+ (id)hared folder with %@ and %lu others;
-+ (id)ith %lu people;
-- (void)tation:(struct UIEdgeInsets)arg1;
-- (struct _NSRange)mageName;
-- (void)tion;
-- (void)traint",&,N,V_imageViewBottomLayoutConstraint;
++ (id);
++ (id);
++ (id);
++ (id);
+- (void);
+- (struct _NSRange);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (struct _NSRange);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void)B;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)funCameraAppViewController;
-- (void)ã;
-- (id);
-- (void)rs;
-- (unsigned long long)E½ÄCJÿM½¸BJÿe½(ëÿ;
-- (void)TÛ­ÿ
-OF;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)elineStateWithDescriptor:options:reflection:error: /* Error: Ran out of types for this method. */;
+- (void)ortBlock:(id)arg1;
+- (void)ility;
+- (unsigned long long)MPACT_PICKER_INVISIBLE_INK_NAME;
+- (void)ÿÿS;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

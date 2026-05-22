@@ -49,10 +49,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
 - (id);
 - (_Bool);
+- (id);
+- (void)ailActionInputAttachments;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contentClasses; // @synthesize contentClasses=_contentClasses;

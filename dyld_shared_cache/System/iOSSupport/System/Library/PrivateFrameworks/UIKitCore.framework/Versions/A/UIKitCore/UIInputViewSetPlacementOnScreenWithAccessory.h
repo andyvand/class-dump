@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)ým;
-- (_Bool)anguageInMultilingualKeyboard:activeDictationlanguage: /* Error: Ran out of types for this method. */;
++ (_Bool)eltaUnits;
+- (_Bool);
 
 @end
 

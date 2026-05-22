@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -25,13 +25,13 @@
 + (void);
 + (id);
 + (id);
-+ (id)bjectAtIndexedSubscript: /* Error: Ran out of types for this method. */;
-+ (id);
-+ (id);
-+ (id)G;
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id)};
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *serviceProperties; // @synthesize serviceProperties=_serviceProperties;

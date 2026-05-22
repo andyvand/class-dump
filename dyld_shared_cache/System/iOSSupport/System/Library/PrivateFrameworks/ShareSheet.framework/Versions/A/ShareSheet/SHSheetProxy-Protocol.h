@@ -7,6 +7,7 @@
 @class NSUUID;
 
 @protocol SHSheetProxy
+- (_Bool)yle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier;

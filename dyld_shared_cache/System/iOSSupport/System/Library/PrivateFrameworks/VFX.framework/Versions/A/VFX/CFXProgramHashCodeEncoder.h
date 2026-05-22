@@ -10,12 +10,12 @@
 }
 
 + (id);
-+ (_Bool)ored;
++ (_Bool)esource>"16Q24;
 - (id);
 - (struct __CFXProgramHashCode *);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

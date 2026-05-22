@@ -4,5 +4,5 @@
 
 class bssl::RefCounted<ssl_credential_st> {
 public: // (access info unavailable from symbols alone)
-    DecRefInternal();
+    auto DecRefInternal();
 };

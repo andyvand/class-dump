@@ -20,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ryTime;
+- (void)@ýõ;
 
 // Remaining properties
 @property(retain, nonatomic) PXAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;

@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     UIWindow *_window;
 }
 
-+ (id)rror moving file from path %@ to new path %@ with error %@;
++ (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)tionManager:sharePlayAvailableChanged: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (id);
+- (id);
 
 @end
 

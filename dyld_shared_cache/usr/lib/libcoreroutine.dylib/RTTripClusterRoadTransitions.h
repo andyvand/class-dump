@@ -31,7 +31,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)%@, found technology (%{public}d):%{sensitive}@ /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (double);
@@ -54,20 +54,21 @@
 - (unsigned long long);
 - (unsigned long long);
 - (double);
-- (id);
 - (double);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id)tification;
-- (void);
-- (void);
 - (id);
 - (id);
-- (unsigned int)r %@ to paired companion device, caching for future;
-- (id)tions older than %@;
+- (id);
+- (id);
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (id)0@ù
+× ;
+- (void)rsToWatch:(unsigned int)arg1 filteringDistanceThreshold:topNWorkouts:isSchedulerTriggered:reply: /* Error: Ran out of types for this method. */;
+- (unsigned int)apItem:oldCandidate:error: /* Error: Ran out of types for this method. */;
+- (void)rs",&,N,V_parameters;
+- (void)emaphore error while fetching current device from store, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long clRoadIDFrom; // @synthesize clRoadIDFrom=_clRoadIDFrom;

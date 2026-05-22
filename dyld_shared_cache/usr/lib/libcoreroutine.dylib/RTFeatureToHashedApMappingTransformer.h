@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-+ (Class)@:SecKeychainItemDelete failed:%@ /* Error: Ran out of types for this method. */;
++ (Class);
 - (id);
-- (id)predominantMotionActivityType, %@;
+- (id)\;
 
 @end
 

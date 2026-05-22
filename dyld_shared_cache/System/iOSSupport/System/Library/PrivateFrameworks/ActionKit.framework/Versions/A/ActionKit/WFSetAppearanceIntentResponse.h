@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)nding initial wakeup;
-- (void)d;
+- (long long)Request: /* Error: Ran out of types for this method. */;
+- (void)LinearPCMIsNonInterleaved;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

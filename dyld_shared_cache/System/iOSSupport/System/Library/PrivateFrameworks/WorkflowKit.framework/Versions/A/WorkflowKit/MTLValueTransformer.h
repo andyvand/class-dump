@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-+ (id)e;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -22,10 +22,10 @@
 + (Class);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType)ÐÌ;
+- (CDUnknownBlockType);
 - (id);
-- (void);
-- (id);
+- (id)¸ÿ;
+- (void)from running and cycling to playing a sport.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

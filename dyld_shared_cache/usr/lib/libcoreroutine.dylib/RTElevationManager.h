@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ÌÚÿ.H&;
+- (void)legacy buffer that was compresssed;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -40,9 +40,9 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (id)essories: /* Error: Ran out of types for this method. */;
-- (void)ssion;
+- (void)tructionTitle;
 
 // Remaining properties
 @property(retain) NSMapTable *cellToItemMap; // @synthesize cellToItemMap=_cellToItemMap;

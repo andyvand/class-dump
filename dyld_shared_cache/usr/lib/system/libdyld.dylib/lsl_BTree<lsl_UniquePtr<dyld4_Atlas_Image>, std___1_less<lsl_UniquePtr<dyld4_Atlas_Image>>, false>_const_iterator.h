@@ -4,17 +4,16 @@
 
 class lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false>::const_iterator {
 public: // (access info unavailable from symbols alone)
+    auto operator++();
+    auto operator++() (.cold.1);
+    auto operator++() (.cold.2);
+    auto operator--();
+    auto operator--() (.cold.1);
+    auto operator--() (.cold.2);
+    auto prepareForInsertion();
+    auto prepareForInsertion() (.cold.1);
+    auto prepareForInsertion() (.cold.2);
+    auto prepareForInsertion() (.cold.3);
     const_iterator(lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false> const*, lsl::UniquePtr<dyld4::Atlas::Image> const&, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>);
     const_iterator(lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false> const*, lsl::UniquePtr<dyld4::Atlas::Image> const&, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>) (.cold.1);
-    operator++();
-    operator++() (.cold.1);
-    operator++() (.cold.2);
-    operator--();
-    operator--() (.cold.1);
-    operator--() (.cold.2);
-    operator<=>(lsl::BTree<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>, false>::const_iterator const&) const;
-    prepareForInsertion();
-    prepareForInsertion() (.cold.1);
-    prepareForInsertion() (.cold.2);
-    prepareForInsertion() (.cold.3);
 };

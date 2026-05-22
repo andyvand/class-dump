@@ -14,18 +14,18 @@
 }
 
 + (_Bool);
-- (void)@ ae;
-- (_Bool);
-- (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)opertiesData;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *recipeData; // @synthesize recipeData=_recipeData;

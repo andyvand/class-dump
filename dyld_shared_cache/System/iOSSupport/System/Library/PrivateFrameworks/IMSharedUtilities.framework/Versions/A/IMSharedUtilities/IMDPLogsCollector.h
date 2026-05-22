@@ -14,18 +14,18 @@
 }
 
 + (id);
-+ (id)»;
-- (void)BarStyleGray;
-- (void)credential-provider-ui;
-- (id)lable;
-- (id)ication;
-- (void)ionSceneOcclusionChangedNotification;
-- (id)licationWillTerminateNotification;
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (id)st is outgoing, it should have a version.;
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _DPBitValueRecorder *privatizedImageReceivedRecorder; // @synthesize privatizedImageReceivedRecorder=_privatizedImageReceivedRecorder;

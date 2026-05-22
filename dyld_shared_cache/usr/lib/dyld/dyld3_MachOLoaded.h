@@ -4,17 +4,17 @@
 
 class dyld3::MachOLoaded {
 public: // (access info unavailable from symbols alone)
-    findClosestSymbol(unsigned long long, char const**, unsigned long long*) const;
-    findExportedSymbol(Diagnostics&, char const*, bool, dyld3::MachOLoaded::FoundSymbol&, dyld3::MachOLoaded const* (dyld3::MachOLoaded const*, unsigned int) block_pointer) const;
-    findSectionContent(char const*, char const*, unsigned long long&) const;
-    fixupAllChainedFixups(Diagnostics&, dyld_chained_starts_in_image const*, unsigned long, dyld3::Array<void const*>, void (void*, void*) block_pointer) const;
-    forEachFixupInAllChains(Diagnostics&, dyld_chained_starts_in_image const*, bool, void (mach_o::ChainedFixupPointerOnDisk*, dyld_chained_starts_in_segment const*, bool&) block_pointer) const;
-    forEachFixupInSegmentChains(Diagnostics&, dyld_chained_starts_in_segment const*, bool, void (mach_o::ChainedFixupPointerOnDisk*, dyld_chained_starts_in_segment const*, bool&) block_pointer) const;
-    forEachGlobalSymbol(Diagnostics&, void (char const*, unsigned long long, unsigned char, unsigned char, unsigned short, bool&) block_pointer) const;
-    getLinkEditContent(dyld3::MachOLoaded::LayoutInfo const&, unsigned int) const;
-    getLinkEditLoadCommands(Diagnostics&, dyld3::MachOLoaded::LinkEditInfo&) const;
-    getLinkEditPointers(Diagnostics&, dyld3::MachOLoaded::LinkEditInfo&) const;
-    getSlide() const;
-    hasExportedSymbol(char const*, dyld3::MachOLoaded const* (dyld3::MachOLoaded const*, unsigned int) block_pointer, void**, bool*) const;
-    segmentName(unsigned int) const;
+    auto findClosestSymbol(unsigned long long, char const**, unsigned long long*) const;
+    auto findExportedSymbol(Diagnostics&, char const*, bool, dyld3::MachOLoaded::FoundSymbol&, dyld3::MachOLoaded const* (dyld3::MachOLoaded const*, unsigned int) block_pointer) const;
+    auto findSectionContent(char const*, char const*, unsigned long long&) const;
+    auto fixupAllChainedFixups(Diagnostics&, dyld_chained_starts_in_image const*, unsigned long, dyld3::Array<void const*>, void (void*, void*) block_pointer) const;
+    auto forEachFixupInAllChains(Diagnostics&, dyld_chained_starts_in_image const*, bool, void (mach_o::ChainedFixupPointerOnDisk*, dyld_chained_starts_in_segment const*, bool&) block_pointer) const;
+    auto forEachFixupInSegmentChains(Diagnostics&, dyld_chained_starts_in_segment const*, bool, void (mach_o::ChainedFixupPointerOnDisk*, dyld_chained_starts_in_segment const*, bool&) block_pointer) const;
+    auto forEachGlobalSymbol(Diagnostics&, void (char const*, unsigned long long, unsigned char, unsigned char, unsigned short, bool&) block_pointer) const;
+    auto getLinkEditContent(dyld3::MachOLoaded::LayoutInfo const&, unsigned int) const;
+    auto getLinkEditLoadCommands(Diagnostics&, dyld3::MachOLoaded::LinkEditInfo&) const;
+    auto getLinkEditPointers(Diagnostics&, dyld3::MachOLoaded::LinkEditInfo&) const;
+    auto getSlide() const;
+    auto hasExportedSymbol(char const*, dyld3::MachOLoaded const* (dyld3::MachOLoaded const*, unsigned int) block_pointer, void**, bool*) const;
+    auto segmentName(unsigned int) const;
 };

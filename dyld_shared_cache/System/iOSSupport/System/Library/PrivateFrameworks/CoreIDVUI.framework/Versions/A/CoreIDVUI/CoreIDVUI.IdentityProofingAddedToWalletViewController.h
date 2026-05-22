@@ -14,8 +14,8 @@
     MISSING_TYPE *viewConfig;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

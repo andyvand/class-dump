@@ -13,6 +13,7 @@
     MISSING_TYPE *tagController;
     MISSING_TYPE *assetManager;
     MISSING_TYPE *appConfigManager;
+    MISSING_TYPE *paidAccessChecker;
 }
 
 @end

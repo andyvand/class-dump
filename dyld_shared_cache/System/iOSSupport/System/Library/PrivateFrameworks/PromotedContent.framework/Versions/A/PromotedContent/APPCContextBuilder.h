@@ -19,26 +19,26 @@
     MISSING_TYPE *adjacentInternal;
 }
 
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (_Bool);
-- (id)xtWriter=}16r*24r*32^i40;
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)tificationsEnabled;
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (struct CGSize);
-- (id);
-- (void)Key:(id)arg1;
-- (id)sionUnfilledReason;
-- (void)ÊûI¨>;
+- (void);
+- (void);
+- (id)o§ÿÿ;
+- (id);½|ùÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *adjacent;

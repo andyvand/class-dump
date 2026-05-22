@@ -29,65 +29,65 @@ __attribute__((visibility("hidden")))
     struct NSDirectionalEdgeInsets _layoutMargins;
 }
 
-- (void);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (double);
-- (struct CGSize);
-- (void)dCalendarIdentifier;
 - (void);
+- (struct CGSize);
 - (id);
+- (double);
 - (void);
-- (_Bool);
-- (double){;
-- (struct CGRect);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id)PMutablePlaybackArchiveDisplayProperties;
-- (unsigned long long)ernal device:%{public}@ changed endpoint to:%{public}@ /* Error: Ran out of types for this method. */;
-- (id)balID;
-- (struct CGSize);
 - (struct CGRect);
-- (id);
-- (_Bool);
+- (unsigned long long);
 - (void);
-- (void);
-- (double);
-- (struct CGSize);
-- (void);
-- (void);
-- (id)
+- (id)á°!¤Dù1^ð1Â0@ù
 × ;
-- (double)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (long long);
-- (void)ù1Î°1¢!0@ù
+- (struct CGRect)1Â0@ù
 × ;
-- (void)tRequiresFullScreen:(id)arg1;
-- (void)edScreenScale:(id)arg1;
-- (void)ex: /* Error: Ran out of types for this method. */;
-- (void)FromExternalUpdate;
-- (id)nabled;
-- (struct CGSize):(double)arg1;
-- (void)setSource: /* Error: Ran out of types for this method. */;
-- (struct CGRect)text:(_Bool)arg1;
-- (id)roundImageForState:barMetrics: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)ndWithOperation:without current drag session /* Error: Ran out of types for this method. */;
-- (struct NSDirectionalEdgeInsets)HostingView;
-- (unsigned long long)bounding rect:%@
- /* Error: Ran out of types for this method. */;
-- (void)store content directory from %@ to %@ -- %@;
-- (id)_impl.numberOfSections;
-- (void)AreaInsets;
-- (void)rmatting;
+- (void)f1Â0@ù
+× ;
+- (struct CGSize)sentationPhase:(struct CGSize)arg1;
+- (void)ate:(struct UIOffset)arg1;
+- (double)instantiateWithOwner:(struct CGSize)arg1 options:(long long)arg2;
+- (double)ilOfSize:(struct CGSize)arg1;
 - (void);
-- (void)èÓ®5_;
-- (id)?`;
+- (void)rch:(_Bool)arg1;
+- (struct CGRect)aceStyleViewController;
+- (void)iewsForTransitionLayout;
+- (void)r;
+- (void)der;
+- (id)	T;
+- (id)icsRendererContext subclass as a UIGraphicsRenderer context.;
+- (_Bool)ection (%ld);
+- (void)ate a cell with invalid attributes. Collection View:(long long)arg1 %@, Attributes:%@, Index Path:%@ /* Error: Ran out of types for this method. */;
+- (struct CGSize)animation;
+- (void)derLegacyIOS.m;
+- (void)<%@(%p) [%@]%@%@%@>;
+- (void)Conditions]_block_invoke;
+- (void)le already renaming a different navigation item (;
+- (void)texts, ignoring.;
+- (id)_G;
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)or;
+- (struct NSDirectionalEdgeInsets);
+- (id)3Ä;
+- (id)ÿÚhó];
+- (long long)¼³ÿo4;
+- (id)DY;
+- (id)0v;
+- (void);
+- (void);
+- (void)Ø°ú`;
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView; // @synthesize accessoryView=_accessoryView;

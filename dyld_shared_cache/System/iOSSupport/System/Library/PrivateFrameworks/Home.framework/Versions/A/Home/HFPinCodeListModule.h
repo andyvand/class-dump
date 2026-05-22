@@ -38,9 +38,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
 - (id);
+- (void)TÑ;
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

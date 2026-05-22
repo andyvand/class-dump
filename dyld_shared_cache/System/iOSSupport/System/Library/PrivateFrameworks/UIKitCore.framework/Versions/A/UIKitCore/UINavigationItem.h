@@ -44,6 +44,7 @@
         unsigned int hasCustomAbbreviatedBackButtonTitles:1;
         unsigned int preventSearchBarInToolbar:1;
         unsigned int searchBarPlacementAllowsExternalIntegration:1;
+        unsigned int didRemoveStackEntryWithActiveSearch:1;
     } _navigationItemFlags;
     _Bool _manualScrollEdgeAppearanceEnabled;
     _Bool _alwaysUseManualScrollEdgeAppearance;
@@ -67,6 +68,7 @@
     UIBarButtonItem *_searchBarPlacementBarButtonItem;
     double _manualScrollEdgeAppearanceProgress;
     double _autoScrollEdgeTransitionDistance;
+    _UINavigationBarItemStackEntry *_stackEntry;
     NSArray *_leadingItemGroups;
     NSArray *_centerItemGroups;
     NSArray *_trailingItemGroups;
@@ -87,7 +89,6 @@
     UINavigationBarAppearance *_scrollEdgeAppearance;
     UINavigationBarAppearance *_compactScrollEdgeAppearance;
     id <_UINavigationItemChangeObserver> __changeObserver;
-    _UINavigationBarItemStackEntry *__stackEntry;
     double __titleViewWidthForAnimations;
     double __idealCustomTitleWidth;
     unsigned long long __largeTitleAccessoryViewHorizontalAlignment;
@@ -106,8 +107,8 @@
     struct NSDirectionalEdgeInsets _largeTitleInsets;
 }
 
-+ (void)ginalItem:(id)arg1;
-+ (id)eading;
++ (void)Interaction",R,&,N;
++ (id)];
 
 @end
 

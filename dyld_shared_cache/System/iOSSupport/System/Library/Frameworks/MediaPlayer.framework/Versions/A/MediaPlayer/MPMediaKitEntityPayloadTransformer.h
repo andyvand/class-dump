@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)orwardingTargetForSelector: /* Error: Ran out of types for this method. */;
-- (id)5;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id).dylib;
 - (id);
-- (id)Block: /* Error: Ran out of types for this method. */;
+- (void)T@"UIImageView",&,N,V_accessoryImageView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *attributes; // @synthesize attributes=_attributes;

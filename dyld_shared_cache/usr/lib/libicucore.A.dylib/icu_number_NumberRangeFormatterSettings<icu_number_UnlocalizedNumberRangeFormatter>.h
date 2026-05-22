@@ -4,23 +4,23 @@
 
 class icu::number::NumberRangeFormatterSettings<icu::number::UnlocalizedNumberRangeFormatter> {
 public: // (access info unavailable from symbols alone)
-    clone() &&;
-    clone() const &;
-    collapse(UNumberRangeCollapse) &&;
-    collapse(UNumberRangeCollapse) const &;
-    copyErrorTo(UErrorCode&) const;
-    identityFallback(UNumberRangeIdentityFallback) &&;
-    identityFallback(UNumberRangeIdentityFallback) const &;
-    numberFormatterBoth(icu::number::UnlocalizedNumberFormatter const&) &&;
-    numberFormatterBoth(icu::number::UnlocalizedNumberFormatter const&) const &;
-    numberFormatterBoth(icu::number::UnlocalizedNumberFormatter&&) &&;
-    numberFormatterBoth(icu::number::UnlocalizedNumberFormatter&&) const &;
-    numberFormatterFirst(icu::number::UnlocalizedNumberFormatter const&) &&;
-    numberFormatterFirst(icu::number::UnlocalizedNumberFormatter const&) const &;
-    numberFormatterFirst(icu::number::UnlocalizedNumberFormatter&&) &&;
-    numberFormatterFirst(icu::number::UnlocalizedNumberFormatter&&) const &;
-    numberFormatterSecond(icu::number::UnlocalizedNumberFormatter const&) &&;
-    numberFormatterSecond(icu::number::UnlocalizedNumberFormatter const&) const &;
-    numberFormatterSecond(icu::number::UnlocalizedNumberFormatter&&) &&;
-    numberFormatterSecond(icu::number::UnlocalizedNumberFormatter&&) const &;
+    auto clone() &&;
+    auto clone() const &;
+    auto collapse(UNumberRangeCollapse) &&;
+    auto collapse(UNumberRangeCollapse) const &;
+    auto copyErrorTo(UErrorCode&) const;
+    auto identityFallback(UNumberRangeIdentityFallback) &&;
+    auto identityFallback(UNumberRangeIdentityFallback) const &;
+    auto numberFormatterBoth(icu::number::UnlocalizedNumberFormatter const&) &&;
+    auto numberFormatterBoth(icu::number::UnlocalizedNumberFormatter const&) const &;
+    auto numberFormatterBoth(icu::number::UnlocalizedNumberFormatter&&) &&;
+    auto numberFormatterBoth(icu::number::UnlocalizedNumberFormatter&&) const &;
+    auto numberFormatterFirst(icu::number::UnlocalizedNumberFormatter const&) &&;
+    auto numberFormatterFirst(icu::number::UnlocalizedNumberFormatter const&) const &;
+    auto numberFormatterFirst(icu::number::UnlocalizedNumberFormatter&&) &&;
+    auto numberFormatterFirst(icu::number::UnlocalizedNumberFormatter&&) const &;
+    auto numberFormatterSecond(icu::number::UnlocalizedNumberFormatter const&) &&;
+    auto numberFormatterSecond(icu::number::UnlocalizedNumberFormatter const&) const &;
+    auto numberFormatterSecond(icu::number::UnlocalizedNumberFormatter&&) &&;
+    auto numberFormatterSecond(icu::number::UnlocalizedNumberFormatter&&) const &;
 };

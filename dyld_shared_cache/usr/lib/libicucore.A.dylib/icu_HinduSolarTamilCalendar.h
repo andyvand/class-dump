@@ -5,18 +5,18 @@
 class icu::HinduSolarTamilCalendar {
 public: // (access info unavailable from symbols alone)
     HinduSolarTamilCalendar(icu::Locale const&, UErrorCode&);
-    clone() const;
-    getDayTransition(int) const;
-    getDynamicClassID() const;
-    getLookupTable() const;
-    getLookupTableBaseYear() const;
-    getLookupTableLength() const;
-    getStaticClassID();
-    getType() const;
-    getYearOffset() const;
-    hinduCalendarYear(double) const;
-    siderealYear() const;
-    solarLongitude(double) const;
-    zodiac(double) const;
+    auto clone() const;
+    auto getDayTransition(int) const;
+    auto getDynamicClassID() const;
+    auto getLookupTable() const;
+    auto getLookupTableBaseYear() const;
+    auto getLookupTableLength() const;
+    auto getStaticClassID();
+    auto getType() const;
+    auto getYearOffset() const;
+    auto hinduCalendarYear(double) const;
+    auto siderealYear() const;
+    auto solarLongitude(double) const;
+    auto zodiac(double) const;
     ~HinduSolarTamilCalendar();
 };

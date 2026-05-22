@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool)@�;
-- (id)gPredicate:limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)erThan:limit: /* Error: Ran out of types for this method. */;
-- (id)singPredicate:sortedUsingLastMessageDateAscending:limit: /* Error: Ran out of types for this method. */;
-- (id)nfo:account:isBlackholed: /* Error: Ran out of types for this method. */;
-- (struct CGRect)Nÿ;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGRect)tLargeTitleTwoLineMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;

@@ -7,12 +7,7 @@
 @class NSUUID, UIResponder;
 
 @protocol UITextInputSessionActionAnalyticsDelegateSource
-- (UIResponder *);
-- (NSUUID *)d÷XøPù;
-
-@optional
-- (void)ExtensionName: /* Error: Ran out of types for this method. */;
-- (void)tShape: /* Error: Ran out of types for this method. */;
-- (void)vices: /* Error: Ran out of types for this method. */;
+- (UIResponder *)sal;
+- (NSUUID *)v[;
 @end
 

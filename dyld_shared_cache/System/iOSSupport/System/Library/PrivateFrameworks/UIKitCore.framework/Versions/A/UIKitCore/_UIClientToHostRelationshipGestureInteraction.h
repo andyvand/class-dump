@@ -15,24 +15,23 @@
     id <_UIAssertion> _pointerUpdatePauseAssertion;
 }
 
-+ (id)sync;
-+ (void)complete.;
++ (id);
++ (void);
 + (id);
 - (id);
 - (id);
 - (void);
-- (void)ssage guid:(id)arg1 %@ calculateUnreadCount %{BOOL}d;
-- (void)destinations %@;
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (id);
-- (void)Ùº;
-- (void)Ô ;
-- (id)!|Cù1Ãð1¢!0@ù
-× ;
-- (_Bool)ect={CGPoint=dd}{CGSize=dd}}16^{CGAffineTransform=dddddd}48d56d64{CGSize=dd}72;
-- (void)wController;
-- (void)Transition;
-- (void);
+- (void);
+- (id)railingBarGroups;
+- (void)em.Preferences;
+- (void)s;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

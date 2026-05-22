@@ -8,7 +8,6 @@
 @protocol PXMenuAction;
 
 @protocol PXMenuAction
-- (unsigned long long)|;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXMenuAction> alternateAction;

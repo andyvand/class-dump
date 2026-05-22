@@ -18,27 +18,28 @@
     struct UIEdgeInsets _alignmentRectInsets;
 }
 
-- (id);
-- (_Bool)Y;
-- (id);
-- (void)ateSettingsWithPostNotifications:(id)arg1;
-- (void)tputContextDevicesDidChangeNotification:(_Bool)arg1;
 - (void);
-- (void);
+- (long long);
 - (id);
-- (void);
-- (void);
-- (long long)@ù
+- (id);
+- (_Bool);
+- (_Bool);
+- (void)ð!Eùq`ð1Â0@ù
 × ;
-- (id)× ;
-- (void)<_UITextDocumentInterfaceDelegate>";
-- (_Bool)Delegate: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)d a storyboard named "%@" from bundle "%@", but the storyboard could not be found.;
-- (id)ost window yet;
-- (void)ectiveSolariumInsetsAndCornerRadiusEnabled;
-- (_Bool)TextAttributes;
-- (void)9D1A21A7AEB2711DestOutView;
+- (void)1Â0@ù
+× ;
+- (id)nobMaxXInset;
+- (_Bool)},N,V_unscaledLayoutMargins;
+- (void)xt;
+- (void)ReportFormatter;
+- (void)dLü`;
+- (void)th TextKit 2. Break on %{public}s to debug.;
+- (id)tion: /* Error: Ran out of types for this method. */;
 - (void);
+- (struct UIEdgeInsets)roller;
+- (void)7H`;
+- (id);
+- (void)bí;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;

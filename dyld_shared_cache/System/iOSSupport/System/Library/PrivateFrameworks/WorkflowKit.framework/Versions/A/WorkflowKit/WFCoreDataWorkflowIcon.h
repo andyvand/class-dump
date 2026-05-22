@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)]ýÿ;
++ (id);
 
 // Remaining properties
 @property(nonatomic) long long backgroundColorValue; // @dynamic backgroundColorValue;

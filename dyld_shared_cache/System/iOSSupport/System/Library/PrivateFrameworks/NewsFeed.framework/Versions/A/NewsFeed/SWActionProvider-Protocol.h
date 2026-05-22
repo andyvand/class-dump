@@ -7,7 +7,7 @@
 @protocol SWEmbedAction;
 
 @protocol SWActionProvider
-- (id <SWEmbedAction>)CodingType;
+- (id <SWEmbedAction>)Unbound types should not exist at this level;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWEmbedAction> action;

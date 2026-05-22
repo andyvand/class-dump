@@ -13,8 +13,8 @@
     MISSING_TYPE *proofingFlowManager;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

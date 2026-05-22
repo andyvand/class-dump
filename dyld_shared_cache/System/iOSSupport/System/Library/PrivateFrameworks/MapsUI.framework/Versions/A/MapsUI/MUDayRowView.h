@@ -30,8 +30,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)4òÿ;
+- (void)ticallyFlipsForRTL;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

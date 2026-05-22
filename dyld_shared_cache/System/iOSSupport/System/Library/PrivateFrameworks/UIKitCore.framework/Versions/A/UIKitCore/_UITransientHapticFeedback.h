@@ -16,20 +16,21 @@ __attribute__((visibility("hidden")))
     float _sharpness;
 }
 
-+ (id)<;
-+ (id)Í¸;
-+ (_Bool)Òãl;
-- (unsigned long long)nosecondTimeIntervalSinceReferenceDate: /* Error: Ran out of types for this method. */;
-- (float);
++ (id);
++ (id)@"UIScenePresentationManager"16@"_UIScenePresenter"24;
++ (_Bool)@, targetRect:%@, canOverlapSourceViewRect:%@, preferLandscapeOrientations:%@     OUTPUTS:frame:%@, offset:%f, arrowDirection:%@, candidates:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (float)áo!CùqÂ1¢!0@ù
+- (float)0@ù
 × ;
-- (id)eSet;
-- (id)ô©4«¬«;
+- (_Bool)ù
+× ;
+- (_Bool)dd}16@64;
+- (id)anHaveTitle;
+- (id)ration",R,C,N,V_configuration;
+- (float);
+- (id)¸÷íÿ¼xþÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canReuseCoreHapticsPlayer;

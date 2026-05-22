@@ -18,9 +18,9 @@
 - (id);
 - (_Bool);
 - (long long);
-- (void);
 - (long long);
-- (void)dateContentDynamicRangeWithPlayerItem:(long long)arg1;
+- (void)MaskView;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long scanLocation; // @synthesize scanLocation=_scanLocation;

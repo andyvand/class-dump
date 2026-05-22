@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (void);
+- (void);
+- (CDStruct_3ead2808);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (CDStruct_3ead2808)nent:: /* Error: Ran out of types for this method. */;
-- (void)s, WTF:(CDStruct_3ead2808)arg1:DefaultHash<unsigned long long>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = unsigned long long] /* Error: Ran out of types for this method. */;
+- (id)°;
 
 // Remaining properties
 @property(nonatomic) CDStruct_3ead2808 clearColor; // @synthesize clearColor=_clearColor;

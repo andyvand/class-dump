@@ -36,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)enPossible: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PXTabBadgeModel *collectionsTabBadgeModel; // @synthesize collectionsTabBadgeModel=_collectionsTabBadgeModel;

@@ -19,30 +19,21 @@
     JEMediaTimeTracker *_timeTracker;
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (void)L;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)#;
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +42,16 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *eventData; // @synthesize eventData=_eventData;

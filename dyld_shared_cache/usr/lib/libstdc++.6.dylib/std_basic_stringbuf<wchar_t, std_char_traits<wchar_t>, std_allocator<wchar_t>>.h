@@ -4,19 +4,19 @@
 
 class std::basic_stringbuf<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> {
 public: // (access info unavailable from symbols alone)
-    _M_stringbuf_init(std::_Ios_Openmode);
-    _M_sync(wchar_t*, unsigned long, unsigned long);
-    _M_update_egptr();
+    auto _M_stringbuf_init(std::_Ios_Openmode);
+    auto _M_sync(wchar_t*, unsigned long, unsigned long);
+    auto _M_update_egptr();
+    auto overflow(int);
+    auto pbackfail(int);
+    auto seekoff(long long, std::_Ios_Seekdir, std::_Ios_Openmode);
+    auto seekpos(std::fpos<__mbstate_t>, std::_Ios_Openmode);
+    auto setbuf(wchar_t*, long);
+    auto showmanyc();
+    auto str() const;
+    auto str(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&);
+    auto underflow();
     basic_stringbuf(std::_Ios_Openmode);
     basic_stringbuf(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&, std::_Ios_Openmode);
-    overflow(int);
-    pbackfail(int);
-    seekoff(long long, std::_Ios_Seekdir, std::_Ios_Openmode);
-    seekpos(std::fpos<__mbstate_t>, std::_Ios_Openmode);
-    setbuf(wchar_t*, long);
-    showmanyc();
-    str() const;
-    str(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&);
-    underflow();
     ~basic_stringbuf();
 };

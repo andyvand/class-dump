@@ -30,7 +30,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (unsigned long long);
@@ -38,16 +38,17 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (double);
 - (id);
-- (id)d;
-- (id)lscreenCanvasControllerFactory>"16@?0@"<TFResolver>"8;
+- (unsigned long long);
+- (double);
+- (_Bool);
+- (id);
+- (void)!TEùQï°1Â0@ù
+× ;
+- (id)est:inFrame: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long bundleSubscriptionStatus; // @synthesize bundleSubscriptionStatus=_bundleSubscriptionStatus;

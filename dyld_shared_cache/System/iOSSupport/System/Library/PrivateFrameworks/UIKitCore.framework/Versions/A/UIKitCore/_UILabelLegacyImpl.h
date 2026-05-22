@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     double _minimumScaleFactor;
 }
 
-- (double)ringWithFormat: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)eProvidedCornerRadius;
+- (id);
+- (void)ømþÿ nþÿ¸nþÿÐnþÿðnþÿhoþÿoþÿ¤oþÿ¼oþÿÔoþÿ<pþÿpþÿÄpþÿ,qþÿpqþÿ¨qþÿÀqþÿØqþÿðqþÿHuþÿÄvþÿìvþÿwþÿLxþÿdxþÿÀxþÿàxþÿpyþÿzþÿ zþÿ8{þÿä{þÿ(|þÿP|þÿt|þÿ|þÿ¤|þÿ¼|þÿÔ|þÿì|þÿ}þÿ<}þÿd}þÿ}þÿ´}þÿÜ}þÿô}þÿ~þÿ8~þÿX~þÿp~þÿ~þÿ ~þÿ¸~þÿ\þÿ¤þÿÄþÿÜþÿôþÿþÿ$þÿ<þÿTþÿlþÿþÿ´þÿÌþÿäþÿüþÿþÿ,þÿÔþÿþÿ`þÿþÿþÿþÿ¸þÿþÿÄþÿÜþÿtþÿþÿDþÿþÿþÿ¼þÿþÿÄþÿðþÿþÿ(þÿÔþÿ,þÿ\þÿØþÿ;
+- (double);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

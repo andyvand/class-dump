@@ -5,9 +5,5 @@
 //
 
 @protocol LPLinkMetadataStatusTransformer
-
-@optional
-- (void);
-- (void)ka;
 @end
 

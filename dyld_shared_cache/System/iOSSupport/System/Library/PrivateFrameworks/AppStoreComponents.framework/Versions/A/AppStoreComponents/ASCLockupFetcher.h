@@ -26,12 +26,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) ASCLazy *bundleCoordinator; // @synthesize bundleCoordinator=_bundleCoordinator;

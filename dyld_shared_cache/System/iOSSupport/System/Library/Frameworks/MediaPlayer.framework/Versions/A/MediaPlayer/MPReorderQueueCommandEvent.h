@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)PModelPropertyTVEpisodeKeepLocalEnableState__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) long long destinationOffset; // @synthesize destinationOffset=_destinationOffset;

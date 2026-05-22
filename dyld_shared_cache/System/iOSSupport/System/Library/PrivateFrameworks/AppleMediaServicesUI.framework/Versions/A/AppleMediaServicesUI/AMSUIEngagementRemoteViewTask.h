@@ -34,23 +34,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)1b0@ù
-× ;
-- (id)t: /* Error: Ran out of types for this method. */;
-- (void)yÚÇ7ÝÃ9G_¦Å9y`Ë9y"Ë9y,Ó_Qo__Qo__Qo_tGG(¹7GAMGAMG;
-- (void)rentVerified;
+- (void)ue: /* Error: Ran out of types for this method. */;
+- (id)ackURL;
+- (void)ãD3þ1GAIGAmCyACyACyACyACyADyBA3y´C3y^C3y>3yACy7#1yACyAqYG_SSQo_AFG_Qo__Qo__Qo__Qo_GAIGAIGAIGAIGANGtGG;
+- (void)l;
 
 // Remaining properties
 @property(retain, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;

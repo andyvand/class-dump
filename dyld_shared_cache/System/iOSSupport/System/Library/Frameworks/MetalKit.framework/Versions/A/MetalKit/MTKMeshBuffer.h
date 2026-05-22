@@ -24,16 +24,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)me: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id)tonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id FROM message WHERE reply_to_guid = ?;;
-- (unsigned long long);
-- (id)n;
 - (unsigned long long);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) MTKMeshBufferAllocator *allocator; // @synthesize allocator=_allocator;

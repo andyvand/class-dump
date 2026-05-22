@@ -21,14 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (CDUnknownBlockType);
 - (void);
-- (void);
-- (void)onductor;
-- (_Bool)B,N,V_hasInteractivePreview;
-- (void)ToClient.m;
-- (void);
-- (long long)[Ó¼ãÝ?;
+- (CDUnknownBlockType)prefersScrollingExpandsToLargerDetentWhenScrolledToEdge;
+- (void)sReparenting;
+- (void)_presentViewController:(long long)arg1 withAnimationController:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)ring"12;
+- (void)ates can only be committed on the main thread.;
+- (void)\c\;
+- (long long)ÚÿQãÑ¨¼b;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

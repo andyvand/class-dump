@@ -16,15 +16,14 @@ __attribute__((visibility("hidden")))
     CAPackage *_package;
 }
 
-- (id)rmSelector:(long long)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (long long);
 - (void);
 - (void);
-- (void)@"NSString"24q32;
-- (long long)tPageLength: /* Error: Ran out of types for this method. */;
-- (id):%@
- /* Error: Ran out of types for this method. */;
-- (void)i¸Ó2\;
-- (void)?;
+- (void);
+- (void)ô`;
+- (id)¤%f;
 
 // Remaining properties
 @property(nonatomic) long long appearance; // @synthesize appearance=_appearance;

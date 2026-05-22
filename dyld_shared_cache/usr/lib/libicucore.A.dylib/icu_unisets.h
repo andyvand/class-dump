@@ -4,7 +4,7 @@
 
 class icu::unisets {
 public: // (access info unavailable from symbols alone)
-    chooseFrom(icu::UnicodeString, icu::unisets::Key);
-    chooseFrom(icu::UnicodeString, icu::unisets::Key, icu::unisets::Key);
-    get(icu::unisets::Key);
+    auto chooseFrom(icu::UnicodeString, icu::unisets::Key);
+    auto chooseFrom(icu::UnicodeString, icu::unisets::Key, icu::unisets::Key);
+    auto get(icu::unisets::Key);
 };

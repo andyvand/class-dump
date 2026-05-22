@@ -52,14 +52,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)sDisplayed: /* Error: Ran out of types for this method. */;
-- (void)sBeginsFromInitialInputProgress;
-- (void);
+- (void);
+- (void)ridServiceCell",R,N,V_tileView;
+- (void)HeaderViewReuseIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) HUTriggerConditionEditorItemModuleController *conditionModuleController; // @synthesize conditionModuleController=_conditionModuleController;

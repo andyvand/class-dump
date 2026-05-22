@@ -12,13 +12,13 @@
     long long _fontSize;
 }
 
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (long long)lÏõÿcL;
+- (long long);
+- (void)nteractionPreview";
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXFontAttributes> fontAttributes; // @synthesize fontAttributes=_fontAttributes;

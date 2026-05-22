@@ -5,7 +5,7 @@
 //
 
 @protocol MFExternalPlaybackConfigurable
-- (void)ountsDaemon;
+- (_Bool)lved = %@);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsExternalPlayback;

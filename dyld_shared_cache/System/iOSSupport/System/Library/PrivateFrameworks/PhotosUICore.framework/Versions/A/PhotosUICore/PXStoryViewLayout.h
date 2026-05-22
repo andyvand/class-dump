@@ -113,8 +113,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (_Bool);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
@@ -122,14 +122,14 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id)yImportedGroupIdentifier;
-- (void)hedAssetsCountHUDDescription;
-- (void)P;
-- (id)10k_Grid;
-- (void);
-- (id)¡IS4;
+- (void)q784^B792;
+- (id);
+- (void)T;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryChromeLayout *chromeLayout; // @synthesize chromeLayout=_chromeLayout;

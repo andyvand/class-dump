@@ -20,10 +20,10 @@
 - (id);
 - (unsigned char);
 - (void);
-- (unsigned int);
-- (struct CGImage *);
-- (struct CGSize);
 - (_Bool);
+- (unsigned int);
+- (struct CGSize);
+- (struct CGImage *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *imageRef; // @synthesize imageRef=_imageRef;

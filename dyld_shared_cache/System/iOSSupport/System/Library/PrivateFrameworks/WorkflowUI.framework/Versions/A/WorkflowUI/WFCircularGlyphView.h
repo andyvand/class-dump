@@ -27,13 +27,13 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)fîÿÿÿÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundColorView; // @synthesize backgroundColorView=_backgroundColorView;

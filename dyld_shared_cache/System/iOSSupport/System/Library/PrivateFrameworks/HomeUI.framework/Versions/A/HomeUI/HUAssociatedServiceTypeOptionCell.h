@@ -16,11 +16,11 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void)üí<îüîØï#ó;
 - (_Bool);
 - (void);
-- (void);
-- (_Bool)itiveStrings-HRAP;
-- (void)e÷ ö;
 
 // Remaining properties
 @property(nonatomic, getter=isChecked) _Bool checked; // @synthesize checked=_checked;

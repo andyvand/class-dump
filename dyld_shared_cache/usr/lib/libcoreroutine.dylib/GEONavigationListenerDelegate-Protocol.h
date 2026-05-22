@@ -5,11 +5,5 @@
 //
 
 @protocol GEONavigationListenerDelegate
-
-@optional
-- (void);
-- (void);
-- (void)ith nil alias -- returning;
-- (void)ble! [%@];
 @end
 

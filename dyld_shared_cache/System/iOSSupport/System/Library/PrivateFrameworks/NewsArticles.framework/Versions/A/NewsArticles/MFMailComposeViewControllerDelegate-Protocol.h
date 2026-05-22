@@ -5,8 +5,5 @@
 //
 
 @protocol MFMailComposeViewControllerDelegate
-
-@optional
-- (void)jc_intobj;
 @end
 

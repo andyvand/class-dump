@@ -20,11 +20,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (CDUnknownBlockType)ner>"16;
-- (id)llularNetworkingAllowed;
 - (void);
+- (CDUnknownBlockType);
+- (id)gestureRecognizerForPreviewActions;
+- (void)¸¹\;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType childSnapshotForExpandingParentHandler; // @synthesize childSnapshotForExpandingParentHandler=_childSnapshotForExpandingParentHandler;

@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PKColorPickerView;
-
 @protocol _PKColorPickerViewDelegate
-- (void)%{public}@ became invalid with error:(_PKColorPickerView *)arg1 %{public}@;
-- (void)ublic}@) of network session (%{public}@);
 @end
 

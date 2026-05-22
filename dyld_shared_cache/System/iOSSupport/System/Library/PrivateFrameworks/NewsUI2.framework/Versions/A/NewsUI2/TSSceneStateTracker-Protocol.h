@@ -5,7 +5,6 @@
 //
 
 @protocol TSSceneStateTracker
-- (void)#�(;
 - (void);
 @end
 

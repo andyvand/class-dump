@@ -13,9 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)	à	H
-¬
-\È;
++ (Class);
 - (id);
 
 // Remaining properties

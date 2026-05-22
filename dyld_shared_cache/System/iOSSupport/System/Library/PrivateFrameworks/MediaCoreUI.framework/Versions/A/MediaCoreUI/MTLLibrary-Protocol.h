@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLFunctionReflection, NSArray, NSString;
-@protocol MTLDevice;
+@class NSArray, NSString;
+@protocol MTLDevice, MTLFunction;
 
 @protocol MTLLibrary
-- (MTLFunctionReflection *)¬À¬;
-- (void)ÿÿ;
+- (id <MTLFunction>)lledRequestIDs;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

@@ -21,9 +21,9 @@
     id <AVTTransition> _currentTransition;
 }
 
-- (void)7;
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -48,16 +48,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)h;
-- (void);
-- (id)callback %@;
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)ntentCorruptError;
-- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)ð;
 - (void);
 
 // Remaining properties

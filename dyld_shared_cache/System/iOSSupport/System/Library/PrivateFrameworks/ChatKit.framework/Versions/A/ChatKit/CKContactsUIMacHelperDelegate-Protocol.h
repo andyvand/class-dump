@@ -5,7 +5,5 @@
 //
 
 @protocol CKContactsUIMacHelperDelegate
-- (void);
-- (void)s/AVFAudio.framework/Versions/A/AVFAudio;
 @end
 

@@ -24,8 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -33,10 +37,6 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id)}ÕÆe;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

@@ -23,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (id)ing:(double)arg1;
 - (id);
 - (void);
-- (void);
+- (id);
+- (void)serEditableComponents_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) double eventCadence; // @synthesize eventCadence=_eventCadence;

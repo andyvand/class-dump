@@ -22,24 +22,23 @@
     MISSING_TYPE *sequenceIndex;
 }
 
-- (void);
-- (struct UIEdgeInsets);
-- (void);
 - (void);
-- (double)rval;
-- (void)default;
-- (_Bool)r"16;
-- (void)}
-;
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (double);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)ceControllerDelegate>",W,N,V_composeDelegate;
-- (id)|ýÿ;
-- (void)ems;
-- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void)¬(ü;
+- (_Bool)¸ó;
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;

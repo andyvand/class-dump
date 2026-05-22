@@ -28,9 +28,9 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)LemonadeAnalyticsCustomization;
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollectionList *collectionList; // @synthesize collectionList=_collectionList;

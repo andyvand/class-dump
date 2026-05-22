@@ -21,27 +21,27 @@ __attribute__((visibility("hidden")))
     UIView *_view;
 }
 
-- (id);
-- (_Bool);
-- (_Bool)kwOverrideValue;
-- (void)Number;
+- (double);
+- (void);
+- (void);
 - (id);
 - (void);
-- (double)!0@ù
-× ;
-- (void)0@ù
-× ;
-- (long long);
-- (void)egories:(id)arg1;
+- (void);
+- (void);
 - (_Bool);
-- (long long)coordinateSelectionChange: /* Error: Ran out of types for this method. */;
-- (void);
-- (long long)18_UIFlexInteractionC;
-- (void)itViewControllerAdaptivePanelLayout:(id)arg1;
-- (struct CAPoint3D);
-- (void)CÎþ];
-- (void)bî];
-- (void)h	;
+- (long long)Ña1Â0@ù
+× ;
+- (long long)!x@ùb°1Â0@ù
+× ;
+- (struct CAPoint3D)hResultsListButtonOffset;
+- (void)ntaryViewsOfKind:(id)arg1;
+- (void)on;
+- (id)N,V_appliesVisualEffectsToPresentingView;
+- (long long);
+- (void)ewBackingObserver;
+- (_Bool)ship found between the objects.;
+- (_Bool);
+- (void)Qî238\£þ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

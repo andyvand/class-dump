@@ -5,8 +5,6 @@
 //
 
 @protocol _UIPointerInteractionDriverSink
-- (void)int;
-- (void)ncelledItemsBlock;
-- (void)nimumDateComponents;
+- (void);
 @end
 

@@ -4,8 +4,8 @@
 
 class dyld3::FatFile {
 public: // (access info unavailable from symbols alone)
-    forEachSlice(Diagnostics&, unsigned long long, bool, void (unsigned int, unsigned int, void const*, unsigned long long, bool&) block_pointer) const;
-    forEachSlice(Diagnostics&, unsigned long long, void (unsigned int, unsigned int, void const*, unsigned long long, bool&) block_pointer) const;
-    isFatFile(void const*);
-    isValidSlice(Diagnostics&, unsigned long long, unsigned int, unsigned int, unsigned int, unsigned long long, unsigned long long) const;
+    auto forEachSlice(Diagnostics&, unsigned long long, bool, void (unsigned int, unsigned int, void const*, unsigned long long, bool&) block_pointer) const;
+    auto forEachSlice(Diagnostics&, unsigned long long, void (unsigned int, unsigned int, void const*, unsigned long long, bool&) block_pointer) const;
+    auto isFatFile(void const*);
+    auto isValidSlice(Diagnostics&, unsigned long long, unsigned int, unsigned int, unsigned int, unsigned long long, unsigned long long) const;
 };

@@ -9,9 +9,9 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void)y_CurrentMediaItem;
+- (void);
+- (void);
 
 @end
 

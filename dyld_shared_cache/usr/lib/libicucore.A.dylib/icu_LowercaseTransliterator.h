@@ -4,5 +4,5 @@
 
 class icu::LowercaseTransliterator {
 public: // (access info unavailable from symbols alone)
-    getStaticClassID();
+    auto getStaticClassID();
 };

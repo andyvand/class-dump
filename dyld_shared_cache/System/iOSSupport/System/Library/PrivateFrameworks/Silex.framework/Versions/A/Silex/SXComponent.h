@@ -17,19 +17,19 @@
 }
 
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
 + (Class);
++ (CDUnknownBlockType);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id)_ր6;
+- (id);
 - (_Bool);
-- (void);
-- (id);
 - (unsigned long long);
 - (id);
-- (int)Èlm	¤mn	¸nPpqXr¼rsôs8t°t0wyz,{;
+- (id);
+- (int);
+- (void)@"SXVideoFill";
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityLabel; // @dynamic accessibilityLabel;

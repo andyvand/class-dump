@@ -13,8 +13,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long action;

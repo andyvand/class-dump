@@ -12,8 +12,8 @@
 }
 
 + (id);
-- (id)achmentController:(struct CGRect)arg1;
-- (struct CGRect);
+- (id);
+- (struct CGRect)ewsOfCell: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect caretRect; // @synthesize caretRect=_caretRect;

@@ -35,16 +35,16 @@
 - (void);
 - (void);
 - (id);
-- (double);
 - (void);
+- (id);
 - (_Bool);
-- (void);
 - (id);
 - (void);
-- (id);
+- (double);
 - (id);
 - (void);
 - (void);
+- (void)RequestLocation;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *containerLayer; // @synthesize containerLayer=_containerLayer;

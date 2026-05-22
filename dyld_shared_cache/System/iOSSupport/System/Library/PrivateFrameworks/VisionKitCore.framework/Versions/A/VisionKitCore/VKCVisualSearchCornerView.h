@@ -41,19 +41,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (double);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id)0@ù
-× ;
-- (void)× ;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *_customAnalyticsIdentifier; // @synthesize _customAnalyticsIdentifier=__customAnalyticsIdentifier;

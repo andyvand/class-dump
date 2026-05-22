@@ -14,16 +14,15 @@
 + (id);
 + (void);
 + (void);
-+ (void)moveObserver:name:object: /* Error: Ran out of types for this method. */;
++ (void);
 + (id);
-+ (id);
-+ (void)find chat, lets look for it as chatGUID:%@ /* Error: Ran out of types for this method. */;
++ (void);
++ (id),°@;
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)*;
 - (void);
 - (void);
 - (void);
@@ -31,9 +30,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id)a;
+- (void);
+- (id);
+- (id)ccountAuthorizationTokenChangedNotification;
 
 @end
 

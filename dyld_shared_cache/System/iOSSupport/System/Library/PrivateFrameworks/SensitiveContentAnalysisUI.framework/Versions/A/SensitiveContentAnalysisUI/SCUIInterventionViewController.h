@@ -25,11 +25,11 @@
 - (long long);
 - (id);
 - (id);
-- (void);
 - (long long);
+- (long long);
+- (void);
 - (void);
 - (id);
-- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *contextDictionary;

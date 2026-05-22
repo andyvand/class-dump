@@ -32,7 +32,7 @@
 - (id);
 - (void);
 - (void);
-- (void)_invalidateButtonTitleMediaVersion;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXZoomableInlineHeadersDataSourceManager *dataSourceManager; // @synthesize dataSourceManager=_dataSourceManager;

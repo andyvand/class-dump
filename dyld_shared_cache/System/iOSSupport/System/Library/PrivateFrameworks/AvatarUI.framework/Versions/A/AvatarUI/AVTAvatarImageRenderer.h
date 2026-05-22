@@ -28,11 +28,11 @@
 - (double);
 - (id);
 - (id);
-- (id);
-- (void)";
-- (id)ueryResultsQueue findResultsQueueWithIdentifier:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id)Layer",R,N,V_selectionLayer;
+- (id);
+- (void);
+- (id);
+- (id)2;
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;

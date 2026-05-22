@@ -16,24 +16,24 @@
     id <WBSSiteMetadataProviderDelegate> _providerDelegate;
 }
 
-+ (_Bool)4HM;
++ (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id)tor;
-- (void)=%qu extraFieldLength=%hu;
-- (void)-;
-- (id);
-- (void)S;
 - (id);
 - (void);
 - (id);
@@ -41,10 +41,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)5;
-- (id)date;
 - (id);
 - (id);
+- (id);
+- (void)PasswordForURL:inContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allFolderUUIDs;

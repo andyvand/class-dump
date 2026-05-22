@@ -29,11 +29,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)ðð;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

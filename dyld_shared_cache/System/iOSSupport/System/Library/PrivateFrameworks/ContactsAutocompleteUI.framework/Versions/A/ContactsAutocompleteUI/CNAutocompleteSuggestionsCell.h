@@ -18,14 +18,14 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)iconLanguage;
-- (id);
-- (void):(id)arg1;
-- (id)ngContactWithKeysToFetch:contactStore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *avatarView; // @synthesize avatarView=_avatarView;

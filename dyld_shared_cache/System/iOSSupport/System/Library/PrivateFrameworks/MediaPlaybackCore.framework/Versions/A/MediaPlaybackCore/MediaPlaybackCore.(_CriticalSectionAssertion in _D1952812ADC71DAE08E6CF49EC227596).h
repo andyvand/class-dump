@@ -14,11 +14,11 @@
 }
 
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
 - (_Bool);
-- (id);
-- (void)@êÿ1«Yä;
+- (void)Resolved devices:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool invalidated;

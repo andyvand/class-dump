@@ -15,16 +15,17 @@ __attribute__((visibility("hidden")))
     ITLibPlaylist *_itLibPlaylist;
 }
 
-+ (unsigned long long)ent;
++ (unsigned long long);
 - (id);
-- (id)ame;
-- (id)afetyResultEventType:(id)arg1;
-- (void)redicateWithFormat:(CDUnknownBlockType)arg1 argumentArray: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long)rtedSupportedSizesForCatalog: /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long);
+- (void)ð!¬EùQ?ð1Â0@ù
+× ;
+- (void)x: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) ITLibPlaylist *itLibPlaylist; // @synthesize itLibPlaylist=_itLibPlaylist;

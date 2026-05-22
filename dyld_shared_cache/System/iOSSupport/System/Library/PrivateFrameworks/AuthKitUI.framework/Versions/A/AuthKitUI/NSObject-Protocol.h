@@ -7,15 +7,8 @@
 @class NSString;
 
 @protocol NSObject
-- (Class);
-- (id)s;
-- (id)System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
-- (id)BaseBoard;
-- (id)seBoard.framework/Versions/A/BaseBoard;
-- (Class);
-- (unsigned long long);
-- (_Bool);
-- (id)x(visit_time) AS max FROM history_visits WHERE history_visits.history_item IN (;
+- (struct _NSZone *)@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

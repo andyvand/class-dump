@@ -10,18 +10,17 @@
 {
 }
 
++ (void);
 + (id);
-+ (void)},R,N,V_accessoryInsets;
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (_Bool)dow: /* Error: Ran out of types for this method. */;
-- (void)gment:containerOrigin:containerSize:clipRect: /* Error: Ran out of types for this method. */;
-- (void)raversal.;
+- (void)× ;
+- (void)ed;
+- (void)eRecognizers;
+- (void)er says snapshot is OK, don't ignore it;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

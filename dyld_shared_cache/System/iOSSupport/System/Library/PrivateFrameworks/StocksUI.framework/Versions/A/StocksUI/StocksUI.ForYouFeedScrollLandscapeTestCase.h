@@ -19,18 +19,18 @@
     _Bool waitForCommitToFinish;
 }
 
-- (id);
-- (void);
 - (long long);
 - (id);
+- (double);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (long long);
 - (long long);
-- (double);
-- (id);
-- (_Bool);
-- (long long);
+- (void)dKùÿKùÿKùÿ Kùÿ¬KùÿÐKùÿüKùÿ`LùÿLùÿ0MùÿDMùÿhMùÿ¤MùÿüNùÿ|OùÿàOùÿtPùÿPùÿ¼PùÿQùÿ QùÿPRùÿÔRùÿDSùÿTùÿ4TùÿäTùÿUùÿTUùÿxUùÿUùÿÔUùÿøUùÿVùÿÜVùÿWùÿ<Wùÿ°WùÿÜWùÿ(XùÿLXùÿtYùÿYùÿüYùÿ8Zùÿ\ZùÿôZùÿP[ùÿÐ[ùÿH\ùÿp]ùÿ¸]ùÿ^ùÿ<^ùÿ`^ùÿ^ùÿ¸^ùÿô^ùÿ_ùÿ_ùÿÐ_ùÿ`ùÿ0`ùÿ´`ùÿØ`ùÿaùÿÄaùÿÐaùÿÜaùÿTbùÿ`bùÿlbùÿÔbùÿcùÿ8dùÿ\dùÿdùÿeùÿTeùÿäeùÿfùÿdfùÿ fùÿÄfùÿTgùÿgùÿ´gùÿìgùÿhùÿLhùÿhùÿÀhùÿ´iùÿ(jùÿ¨jùÿ\kùÿØkùÿ lùÿÄlùÿðlùÿmùÿmùÿDnùÿnùÿÄnùÿ¸oùÿäoùÿpùÿpùÿÈpùÿ0qùÿTqùÿ¬rùÿèrùÿsùÿ0sùÿdsùÿpsùÿtùÿtùÿ¬tùÿètùÿHuùÿ¨uùÿÌuùÿvùÿ4vùÿXvùÿðvùÿ$wùÿPwùÿüwùÿ(xùÿLxùÿpxùÿ xùÿÄxùÿèxùÿ$yùÿHyùÿDzùÿPzùÿ\zùÿzùÿ¬zùÿèzùÿ{ùÿX{ùÿ{ùÿè{ùÿ|ùÿ`|ùÿ|ùÿÈ|ùÿ }ùÿ}ùÿ°~ùÿ ùÿÜùÿùÿ8ùÿüùÿ0ùÿ<ùÿHùÿùÿÐùÿ8ùÿlùÿäùÿùÿ¨ùÿ´ùÿÀùÿÌùÿØùÿTùÿxùÿÜùÿùÿ<ùÿ¸ùÿèùÿùÿèùÿLùÿ¬ùÿ;
+- (id);
+- (long long)atchlistsStylerTypeP;
+- (id)zontalLayoutOptions;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

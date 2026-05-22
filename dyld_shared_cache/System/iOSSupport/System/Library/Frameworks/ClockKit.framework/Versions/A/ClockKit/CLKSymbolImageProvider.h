@@ -38,19 +38,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (long long);
 - (id);
+- (id);
 - (void);
 - (id);
-- (id)ificationLog:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool ignoreHierarchicalLayers; // @synthesize ignoreHierarchicalLayers=_ignoreHierarchicalLayers;

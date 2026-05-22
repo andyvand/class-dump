@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id)ients:isIncoming:completionHandler: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
+- (id);
+- (void)îoþ;
+- (void)À®];
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setForcedTintColor:) UIColor *_forcedTintColor; // @synthesize _forcedTintColor;

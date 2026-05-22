@@ -11,8 +11,8 @@
 + (id);
 + (id);
 + (_Bool);
-- (void)chment:(unsigned long long)arg1 %@;
-- (unsigned long long)oke;
+- (void);
+- (unsigned long long);
 - (void);
 - (id);
 

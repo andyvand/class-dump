@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)a;
 - (_Bool);
-- (_Bool)otMessageRecordZoneID;
-- (id)s not match the participant's handle ID %s. Not repairing chat identifier.;
+- (_Bool);
+- (_Bool);
 - (id);
-- (id)I;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)ewControllerWindowSceneDidUpdateEffectiveGeometry: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIFocusSystem *focusSystem;

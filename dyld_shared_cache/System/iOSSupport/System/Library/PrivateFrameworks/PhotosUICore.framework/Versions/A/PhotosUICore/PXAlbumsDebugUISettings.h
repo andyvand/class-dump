@@ -20,7 +20,7 @@
     NSString *_customDebugPredicate;
 }
 
-+ (id)C9;
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,9 +37,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)yyyy;
+- (void)tÂ ÿÊpÂ ÿÊlÂ ÿÊXì6ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *customDebugAlbumTitle; // @synthesize customDebugAlbumTitle=_customDebugAlbumTitle;

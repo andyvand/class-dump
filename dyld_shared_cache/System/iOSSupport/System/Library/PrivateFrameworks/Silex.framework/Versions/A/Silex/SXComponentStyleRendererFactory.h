@@ -16,14 +16,14 @@
     SXViewport *_viewport;
 }
 
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void)esentationDelegateProvider>";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,5 +4,8 @@
 
 class std::__1::shared_ptr<pci::event::Listener> {
 public: // (access info unavailable from symbols alone)
-    ~shared_ptr[abi:ne200100]();
+    auto shared_ptr[abi:nqe210106]<pci::event::Listener, 0>(pci::event::Listener*);
+    auto shared_ptr[abi:nqe210106]<pci::event::Listener, 0>(std::__1::weak_ptr<pci::event::Listener> const&);
+    auto ~shared_ptr[abi:nqe210106]();
+    void __enable_weak_this[abi:nqe210106]<pci::event::Listener, pci::event::Listener, 0>(std::__1::enable_shared_from_this<pci::event::Listener> const*, pci::event::Listener*);
 };

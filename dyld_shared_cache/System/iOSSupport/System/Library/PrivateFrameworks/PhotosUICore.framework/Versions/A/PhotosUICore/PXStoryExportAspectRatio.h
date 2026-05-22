@@ -26,12 +26,13 @@
 - (id);
 - (double);
 - (unsigned long long);
+- (long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long);
+- (id)0@ù
+× ;
+- (void)\`ÁÆüZ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *localizedTitle;

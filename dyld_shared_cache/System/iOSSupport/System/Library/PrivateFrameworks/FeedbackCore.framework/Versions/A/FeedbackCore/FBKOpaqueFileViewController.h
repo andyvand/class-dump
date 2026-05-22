@@ -25,12 +25,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *debugLabel; // @synthesize debugLabel=_debugLabel;

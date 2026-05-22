@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void)e@9*c;
+- (void)V__webTextInput;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

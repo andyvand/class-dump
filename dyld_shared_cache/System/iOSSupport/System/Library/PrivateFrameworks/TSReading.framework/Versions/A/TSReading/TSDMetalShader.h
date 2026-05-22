@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,12 +48,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
 - (id);
-- (id)(;
-- (id)rovider;
+- (id);
+- (unsigned long long);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)bs/TemporaryDirectory.AbPtYx/Sources/AlderShared/tables/TSTTableBadge.m;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bufferIndex; // @synthesize bufferIndex=_bufferIndex;

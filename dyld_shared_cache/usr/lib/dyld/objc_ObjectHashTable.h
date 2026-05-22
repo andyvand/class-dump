@@ -4,6 +4,6 @@
 
 class objc::ObjectHashTable {
 public: // (access info unavailable from symbols alone)
-    forEachObject(char const*, void (unsigned long long, unsigned short, bool&) block_pointer) const;
-    forEachObject(void (unsigned int, char const*, dyld3::Array<std::__1::pair<unsigned long long, unsigned short>> const&) block_pointer) const;
+    auto forEachObject(char const*, void (unsigned long long, unsigned short, bool&) block_pointer) const;
+    auto forEachObject(void (unsigned int, char const*, dyld3::Array<std::__1::pair<unsigned long long, unsigned short>> const&) block_pointer) const;
 };

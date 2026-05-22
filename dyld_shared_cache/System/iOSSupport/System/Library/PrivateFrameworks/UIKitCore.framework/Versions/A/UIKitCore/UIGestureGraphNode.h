@@ -18,31 +18,29 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)Q;
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool)pe:(id)arg1 titleOverride:identifier: /* Error: Ran out of types for this method. */;
-- (unsigned long long)PreferencesChanged];
 - (void);
+- (_Bool)0@ù
+× ;
+- (id);
+- (unsigned long long);
+- (id)nceSupportClientComponent;
 - (void);
-- (void)qÂ1¢!0@ù
-× ;
-- (id)ÑÂð1¢!0@ù
-× ;
-- (unsigned long long)Åð1¢!0@ù
-× ;
-- (id)t={CGPoint=dd}{CGSize=dd}}16@24@32@40@48^d56^d64^d72;
-- (id)eLayout:forState: /* Error: Ran out of types for this method. */;
-- (_Bool)atePickerModeForInputType:(id)arg1;
-- (id)=dd},N,V_initialTapLocationInView;
-- (void)m;
-- (id)lderContextDelegate;
-- (void)H½XÀ;
-- (_Bool)eholder:(id)arg1 size=%@ [previous size=%@];
-- (_Bool)rStyleOverrideWebRTCCapture;
-- (unsigned long long)lters.glassBackground.inputFaceColorMatrixWhite;
-- (void)ì^;
-- (id)·;
+- (void)LayoutFragmentView>"8;
+- (_Bool)(Òf;
+- (void)ìúg;
+- (unsigned long long)è¤ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allEdges;

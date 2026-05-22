@@ -12,9 +12,10 @@
     MISSING_TYPE *backgroundState;
 }
 
-- (id);
-- (void)ier: /* Error: Ran out of types for this method. */;
-- (id)TypeP;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void);
 
 @end
 

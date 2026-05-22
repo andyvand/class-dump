@@ -26,7 +26,7 @@
 
 + (id);
 + (id);
-+ (id)>;
++ (id);
 + (id);
 - (unsigned long long);
 - (void);
@@ -43,19 +43,18 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (long long);
+- (void);
 - (double);
+- (double);
+- (struct CGImageSource *);
+- (long long);
+- (id);
 - (void);
+- (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (struct CGSize);
-- (double)1¢!0@ù
-× ;
-- (struct CGImageSource *);
+- (void)16;
 
 // Remaining properties
 @property(readonly, nonatomic) SXAnimatedImageViewCache *cache; // @synthesize cache=_cache;

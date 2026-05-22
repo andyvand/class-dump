@@ -8,11 +8,9 @@
 @protocol PXRunNodeDelegate;
 
 @protocol PXRunNode
-- (id <PXRunNodeDelegate>)Tûøÿûÿ;
-- (void)Q;
-- (void)o find segmentIdentifier for timeRange:%@ asset:%@. Player won't seek to tapped asset. /* Error: Ran out of types for this method. */;
-- (_Bool)pple.photos.CPAnalytics.deduplicationMerge%@;
-- (_Bool)7]ÿÕÁ287]ÿíÁ2\7]ÿÍÁ2X7]ÿÁ2T7]ÿÁ2P7]ÿuÁ2L7]ÿÁ2H7]ÿ;
+- (_Bool)erController;
+- (_Bool)ollectionDetailedCountDescriptionAlbumsFolders;
+- (_Bool)a~ÿ;
 
 // Remaining properties
 @property(readonly, getter=isCanceled) _Bool canceled;

@@ -26,7 +26,7 @@
 }
 
 + (void);
-+ (id)8c]}16;
++ (id);
 - (void);
 - (id);
 - (id);
@@ -65,21 +65,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (float);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (void);
-- (void)B24@0:(id)arg1 8:16 /* Error: Ran out of types for this method. */;
+- (void)wBackgroundColor;
 
 // Remaining properties
 @property(nonatomic) _Bool backgroundOriginUpdate; // @synthesize backgroundOriginUpdate=_backgroundOriginUpdate;

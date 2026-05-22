@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (_Bool)xPath:withItemIdentifier: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
 - (_Bool);
@@ -23,8 +23,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property _Bool canSelect; // @synthesize canSelect=_canSelect;

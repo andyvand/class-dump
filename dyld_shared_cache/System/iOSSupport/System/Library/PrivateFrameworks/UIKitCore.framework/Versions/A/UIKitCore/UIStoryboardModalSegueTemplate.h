@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void)ag:(id)arg1 withADDefaultUserShell:withADMapUIDAttributeFlag:withADMapUIDAttribute:withADMapGIDAttributeFlag:withADMapGIDAttribute:withADMapGGIDAttributeFlag:withADMapGGIDAttribute:withADPreferredDCServerFlag:withADPreferredDCServer:withADDomainAdminGroupListFlag:withADDomainAdminGroupList:withADNamespaceFlag:withADNamespace:withADPacketSignFlag:withADPacketSign:withADPacketEncryptFlag:withADPacketEncrypt:withADRestrictDDNSFlag:withADRestrictDDNS:withADTrustChangePassIntervalDaysFlag:withADTrustChangePassIntervalDays: /* Error: Ran out of types for this method. */;
 - (void);
-- (long long)[%@] siriReferenceIdentifier=%@ privateListeningOverride=%@ mediaRemoteQueueAsDictionary=%@>;
 - (id);
-- (long long)extResponderWithResponder:forType: /* Error: Ran out of types for this method. */;
-- (void)KeyboardEmojiFamilyConfigurationView;
+- (void)ctForKey:(id)arg1;
+- (void)State:(long long)arg1;
+- (long long);
+- (long long)Ä;
 
 // Remaining properties
 @property(nonatomic) long long modalPresentationStyle; // @synthesize modalPresentationStyle=_modalPresentationStyle;

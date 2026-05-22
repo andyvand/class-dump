@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (CDUnknownBlockType);
-- (void)oadIconWithBundleIdentifier:(id)arg1 desiredSize:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)reateIfNecessary:properties:] /* Error: Ran out of types for this method. */;
+- (void)KeyValuePair.m;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

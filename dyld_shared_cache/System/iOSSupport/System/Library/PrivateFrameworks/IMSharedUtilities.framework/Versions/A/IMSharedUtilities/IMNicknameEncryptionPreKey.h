@@ -15,16 +15,16 @@
 + (id);
 + (id);
 - (void);
-- (id)}9;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void)xpirationHandler:(id)arg1;
+- (void)chatPropertiesData;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *derivedData; // @synthesize derivedData=_derivedData;

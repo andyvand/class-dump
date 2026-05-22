@@ -26,39 +26,38 @@
 }
 
 + (id);
-- (void)cceeded, but could not find metadata in map for %s;
-- (void)ting subscription validation token:(double)arg1 %@;
-- (void)rom %@ with date:(double)arg1 %@;
-- (void)tion token "%@" for old message from %@ with date:(double)arg1 %@;
-- (void)e limit:(double)arg1 %lu is default:(%@) /* Error: Ran out of types for this method. */;
-- (void)asLTE:(double)arg1 (%@);
-- (void)dle for the mentioned identity, and it is a valid alias:(double)arg1 %@;
-- (void)fer matching group photo guid:(double)arg1 %@;
-- (void)r:(double)arg1 %@, asset:%@ /* Error: Ran out of types for this method. */;
-- (void)asset's syndicationIdentifier. syndicationIdentifier:(double)arg1 %@, asset:%@ /* Error: Ran out of types for this method. */;
-- (void)nding file transfer was not found using the asset's syndicationIdentifier. syndicationIdentifier:(double)arg1 %@, asset:%@ /* Error: Ran out of types for this method. */;
-- (void)%@;
-- (void)record:(double)arg1 %@ encountered error:%@ /* Error: Ran out of types for this method. */;
-- (id)of first unlock. Continuing to wait;
-- (double)fied that chats were loaded;
-- (double)t kicking off a write because cachedSalt is not present.;
-- (double)achment write after fetching messages;
-- (double)ne *******;
-- (double)ed out creating attachment zone *******;
-- (double)d for chat %@, error %@, marking ck_sync_state as %d;
-- (double)has syncState 1;
-- (double)to submit CK metric operation with ID %@;
-- (double)operation name %@ using DB %@;
-- (double)ytic submission is not enabled;
-- (double)erationGroupName not submitting as analytic submission is not enabled;
-- (double);
-- (double);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
 - (double);
 - (void);
-- (void)!$@ù±Ä°1¢!0@ù
-× ;
-- (id)TQ,N,V_shiftState;
+- (double);
+- (void);
+- (id)ðÿk;
+- (void)Èl;
 
 // Remaining properties
 @property(nonatomic) double associatedDimension; // @synthesize associatedDimension;

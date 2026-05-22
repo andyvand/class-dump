@@ -14,11 +14,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id)L;
-- (void);
 - (long long);
 - (id);
 - (long long);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long height;

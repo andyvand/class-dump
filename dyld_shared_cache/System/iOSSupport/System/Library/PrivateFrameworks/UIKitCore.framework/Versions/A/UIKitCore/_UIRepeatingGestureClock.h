@@ -16,14 +16,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)cate;
-- (void)ckFromStorage;
 - (void);
 - (void);
 - (void);
-- (void)`;
-- (id)dSelectionInteraction"8{CGPoint=dd}16;
-- (void)sInteractiveKey;
+- (id);
+- (void)1Â0@ù
+× ;
+- (void){CGPath=}16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGPoint=dd}56;
+- (void)g23xè²þ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIRepeatingGestureClockDelegate> delegate; // @synthesize delegate=_delegate;

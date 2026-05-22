@@ -20,8 +20,8 @@
     NSString *_shadowCompositingFilterName;
 }
 
-+ (id)lyWithSourcePath:(long long)arg1 withSourcePathInUserHome:withTargetPath:withTargetPathInUserHome: /* Error: Ran out of types for this method. */;
-+ (_Bool)»(m;
++ (_Bool)_selectedFontDescriptors;
++ (id)eAppearance;
 - (id);
 - (void);
 - (void);
@@ -35,30 +35,29 @@
 - (id);
 - (void);
 - (void);
-- (void)*KKK0;
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id)IdentifierList:(struct _NSZone *)arg1 options:startEntry:endEntry:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
-- (void)iAssetInfo;
-- (id);
-- (id);
 - (void);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (double);
-- (void)!Ü@ùÂ°1¢!0@ù
+- (void);
+- (id);
+- (id)1]ð1Â0@ù
 × ;
-- (void)0@ù
-× ;
-- (long long)1¢!0@ù
-× ;
-- (id)lPhaseDefaultsForCadence: /* Error: Ran out of types for this method. */;
-- (id)_setCrossfadingOutTabBar:(long long)arg1;
-- (id)ckInteraction;
-- (void)p>>;
-- (void)te;
+- (void);
+- (_Bool)ect;
+- (void)t:(id)arg1;
+- (id)_setAltitudeAngle:(struct _NSZone *)arg1 ,V_altitudeAngle;
+- (id)8¬
+°¬;
+- (id)t:Invalid frame %@ generated when rounding frame %@ to screen scale (%g). /* Error: Ran out of types for this method. */;
+- (id);
+- (void)°tÿY[Ð ¾];
+- (void);
 - (double);
-- (void)¼ÍÆ0`;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *contentColor; // @synthesize contentColor=_contentColor;

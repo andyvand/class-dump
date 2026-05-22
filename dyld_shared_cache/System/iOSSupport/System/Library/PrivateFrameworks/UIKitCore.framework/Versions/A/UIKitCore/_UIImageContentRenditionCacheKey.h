@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
     } _flags;
 }
 
-+ (id)unexpectedly nil;
-- (unsigned long long);
-- (_Bool);
-- (void);
++ (id);
+- (unsigned long long);
+- (_Bool)idth;
+- (void)çÜ¥[;
 
 @end
 

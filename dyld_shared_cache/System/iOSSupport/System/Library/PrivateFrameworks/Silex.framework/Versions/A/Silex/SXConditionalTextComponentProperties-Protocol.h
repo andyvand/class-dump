@@ -7,6 +7,7 @@
 @class NSString, SXJSONArray;
 
 @protocol SXConditionalTextComponentProperties
+- (NSString *)ject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONArray *inlineTextStyles;

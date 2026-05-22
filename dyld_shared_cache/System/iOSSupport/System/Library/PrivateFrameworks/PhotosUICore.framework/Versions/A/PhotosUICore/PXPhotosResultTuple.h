@@ -23,10 +23,9 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
-- (id)
-× ;
-- (id)T@"NSMutableOrderedSet",&,V__remainingAssetCollectionObjectIDsToFetch;
+- (id)ry",C,N;
+- (id)S_BUTTON_TITLE;
+- (void)x;
 
 // Remaining properties
 @property(readonly, nonatomic) PHFetchResult *curatedFetchResult; // @synthesize curatedFetchResult=_curatedFetchResult;

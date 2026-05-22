@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGSize);
-- (struct CGSize)ferReplicatedMessagePipelineComponent> Started processing;
-- (id)fully sending edit of message. GUID:(id)arg1 %@;
-- (_Bool)ld not find message to update after succesfully sending edit of message. GUID:(id)arg1 %@;
+- (struct CGSize);
+- (id);
+- (_Bool);
 - (struct CGRect);
 
 @end

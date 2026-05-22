@@ -30,14 +30,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (int);
+- (id);
 - (void);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appPath; // @synthesize appPath=_appPath;

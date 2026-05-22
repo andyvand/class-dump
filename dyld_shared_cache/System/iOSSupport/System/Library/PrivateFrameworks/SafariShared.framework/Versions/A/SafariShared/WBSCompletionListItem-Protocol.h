@@ -7,14 +7,9 @@
 @class NSString, SFSearchResult, WBSQuerySuggestion;
 
 @protocol WBSCompletionListItem
-- (NSString *)|;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long engagementDestination;
-@property(readonly, nonatomic) NSString *lastSearchQuery;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) NSString *parsecDomainIdentifier;
 @property(nonatomic) long long parsecQueryID;
 @property(readonly, nonatomic) SFSearchResult *sfSearchResultValue;

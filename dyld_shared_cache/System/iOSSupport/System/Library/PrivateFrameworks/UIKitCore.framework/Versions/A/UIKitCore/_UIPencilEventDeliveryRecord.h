@@ -18,15 +18,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (id)rÐ!¸EùQÅÐ1¢!0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)
 × ;
-- (id)al:(id)arg1;
-- (id)rsorAccessory;
-- (id)FluidTrackHidden: /* Error: Ran out of types for this method. */;
-- (id)ithName: /* Error: Ran out of types for this method. */;
-- (id)ublic}s:%{public}p; scene identity:%{public}s; for evaluation strategy:%{public}s; reason:%{public}s /* Error: Ran out of types for this method. */;
-- (void);
+- (id)qd1Â0@ù
+× ;
+- (id)alPlatterRect;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long deliveredPhase; // @synthesize deliveredPhase=_deliveredPhase;

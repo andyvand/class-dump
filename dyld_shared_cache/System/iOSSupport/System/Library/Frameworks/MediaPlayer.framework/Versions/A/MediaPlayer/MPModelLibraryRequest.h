@@ -28,7 +28,7 @@
     struct _NSRange _contentRange;
 }
 
-+ (_Bool)Unhandled MPMediaEntityProperty %@;
++ (_Bool);
 
 @end
 

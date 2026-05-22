@@ -14,7 +14,7 @@
     NSString *_framingMode;
 }
 
-+ (_Bool)<AVTTransitionScheduler>";
++ (_Bool);
 - (float);
 - (void);
 - (id);
@@ -22,11 +22,11 @@
 - (void);
 - (void);
 - (long long);
+- (id);
 - (void);
-- (id)stener;
 - (void);
 - (void);
-- (double);
+- (double)orAccessibilityContentSizeCategory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double fieldOfView; // @synthesize fieldOfView=_fieldOfView;

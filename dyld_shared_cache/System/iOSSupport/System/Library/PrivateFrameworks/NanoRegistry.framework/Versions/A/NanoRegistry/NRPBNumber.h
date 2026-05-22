@@ -40,27 +40,27 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (int);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (int);
+- (_Bool);
 - (long long);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
 - (double);
+- (void);
+- (id);
+- (float);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (float)toFile: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;

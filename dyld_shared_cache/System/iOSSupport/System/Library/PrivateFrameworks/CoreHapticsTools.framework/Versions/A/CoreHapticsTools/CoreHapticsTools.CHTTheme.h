@@ -33,8 +33,8 @@
     MISSING_TYPE *secondaryBackgroundColor;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

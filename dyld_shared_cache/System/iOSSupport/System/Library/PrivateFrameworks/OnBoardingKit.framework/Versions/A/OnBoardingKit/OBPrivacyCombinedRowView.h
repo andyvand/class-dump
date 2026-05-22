@@ -30,22 +30,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id):HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, int>::KeyValuePairTraits, WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
-- (void);
+- (id)straintToImageContainer;
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *chevronWidthConstraint; // @synthesize chevronWidthConstraint=_chevronWidthConstraint;

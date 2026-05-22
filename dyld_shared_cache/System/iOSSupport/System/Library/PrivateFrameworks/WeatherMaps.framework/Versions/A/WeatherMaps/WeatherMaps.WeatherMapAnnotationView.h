@@ -31,21 +31,21 @@
 - (void);
 - (id);
 - (struct CGPoint);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
 - (id);
-- (id);
+- (void);
+- (void);
 - (struct CGSize);
+- (struct CGRect);
+- (id);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (id)Descriptor:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint accessibilityActivationPoint;

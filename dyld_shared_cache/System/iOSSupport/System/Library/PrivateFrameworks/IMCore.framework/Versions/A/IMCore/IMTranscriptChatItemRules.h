@@ -37,7 +37,6 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,10 +53,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)B;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -78,7 +78,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -100,12 +101,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -117,11 +118,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)eceiveQueue<WebKit:(id)arg1:RemoteXRBinding>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRSubImage>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRProjectionLayer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRView>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebGPUIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, mpark::variant<std::monostate, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteAdapter>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteBindGroup>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteBindGroupLayout>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteBuffer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteCommandBuffer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteCommandEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteCompositorIntegration>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteComputePassEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteComputePipeline>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteDevice>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteExternalTexture>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemotePipelineLayout>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemotePresentationContext>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteQuerySet>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteQueue>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderBundleEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderBundle>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderPassEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderPipeline>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteSampler>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteShaderModule>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteTexture>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteTextureView>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRBinding>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRSubImage>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRProjectionLayer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRView>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebGPUIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebGPUIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, mpark::variant<std::monostate, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteAdapter>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteBindGroup>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteBindGroupLayout>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteBuffer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteCommandBuffer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteCommandEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteCompositorIntegration>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteComputePassEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteComputePipeline>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteDevice>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteExternalTexture>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemotePipelineLayout>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemotePresentationContext>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteQuerySet>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteQueue>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderBundleEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderBundle>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderPassEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderPipeline>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteSampler>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteShaderModule>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteTexture>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteTextureView>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRBinding>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRSubImage>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRProjectionLayer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRView>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebGPUIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebGPUIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, mpark::variant<std::monostate, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteAdapter>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteBindGroup>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteBindGroupLayout>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteBuffer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteCommandBuffer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteCommandEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteCompositorIntegration>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteComputePassEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteComputePipeline>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteDevice>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteExternalTexture>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemotePipelineLayout>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemotePresentationContext>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteQuerySet>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteQueue>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderBundleEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderBundle>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderPassEncoder>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteRenderPipeline>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteSampler>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteShaderModule>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteTexture>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteTextureView>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRBinding>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRSubImage>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRProjectionLayer>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteXRView>>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebGPUIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::WebGPUIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void)edCodingKeys;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak IMChat *chat; // @synthesize chat=_chat;

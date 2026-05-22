@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     UITargetedPreview *_targetedPreview;
 }
 
-+ (id)age ID, ignoring;
++ (id);
 - (id);
 - (_Bool);
-- (id)handleReachabilityResult:messageID:fromToken: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 
 // Remaining properties

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (void)tentOutsetsFromFonts;
 - (void);
 
 // Remaining properties

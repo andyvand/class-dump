@@ -41,13 +41,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void)áùÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <ASCServices> connection; // @synthesize connection=_connection;

@@ -13,11 +13,15 @@
     MISSING_TYPE *localAreasManager;
     MISSING_TYPE *locationManager;
     MISSING_TYPE *personalizationService;
+    MISSING_TYPE *featureAvailability;
+    MISSING_TYPE *localDataManager;
     MISSING_TYPE *refreshQueue;
     MISSING_TYPE *_lastKnownChannelIDs;
     MISSING_TYPE *_hasKnownChannelIDs;
     MISSING_TYPE *_lastKnownForYouChannelIDs;
     MISSING_TYPE *_hasKnownForYouChannelIDs;
+    MISSING_TYPE *_lastKnownPrimaryChannelIDs;
+    MISSING_TYPE *_hasKnownPrimaryChannelIDs;
 }
 
 - (void);

@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)CloudKit in-memory transfer:(long long)arg1 %@ newGUID:%@ /* Error: Ran out of types for this method. */;
-+ (id)cess %{BOOL}d;
-+ (id)roupID %@ for chat with guid %@. Adding it now to domain %@;
-+ (id)transfer generated for guid:(long long)arg1 %@;
++ (id);
++ (id);
++ (id);
++ (id);
 
 @end
 

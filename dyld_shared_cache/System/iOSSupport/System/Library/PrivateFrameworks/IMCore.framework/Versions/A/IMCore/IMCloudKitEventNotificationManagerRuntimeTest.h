@@ -24,10 +24,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (void);
-- (void);
+- (void),óÿ?óÿÔWóÿlXóÿx~óÿèóÿØ§óÿøCõÿüõÿõÿ ¢õÿD¨õÿ¢õÿ4¼õÿ(½õÿ ÂõÿÄ8öÿ\AöÿöÿöÿÂõÿbãÿnãÿ`ÒäÿÔäÿôåÿÄ	åÿìåÿÀåÿ¼åÿ¸åÿHåÿåÿ;
+- (void)entifier:%@ /* Error: Ran out of types for this method. */;
+- (void)(;
 
 // Remaining properties
 @property(retain, nonatomic) IMCloudKitHookTestSingleton *cloudKitHooks; // @synthesize cloudKitHooks=_cloudKitHooks;

@@ -29,9 +29,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void)JJ;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,29 +48,31 @@
 - (void);
 - (void);
 - (void);
-- (void)J;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void)@40@48@56q64;
-- (id)idBecomeDownload: /* Error: Ran out of types for this method. */;
-- (void)sedElementInformation:(id)arg1;
-- (void);
-- (void);
-- (void)h;
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (float);
+- (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (float);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)!¿
+Ð!Cùqêð1Â0@ù
+× ;
+- (_Bool)3)<X;
 
 // Remaining properties
 @property(retain, nonatomic) IMAudioPlayer *audioPlayer; // @synthesize audioPlayer=_audioPlayer;

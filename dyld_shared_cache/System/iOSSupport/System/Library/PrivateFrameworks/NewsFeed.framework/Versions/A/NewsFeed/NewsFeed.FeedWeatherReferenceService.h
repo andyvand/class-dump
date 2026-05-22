@@ -9,6 +9,8 @@
 @interface NewsFeed.FeedWeatherReferenceService
 {
     MISSING_TYPE *weatherService;
+    MISSING_TYPE *channelLocationService;
+    MISSING_TYPE *tagService;
 }
 
 @end

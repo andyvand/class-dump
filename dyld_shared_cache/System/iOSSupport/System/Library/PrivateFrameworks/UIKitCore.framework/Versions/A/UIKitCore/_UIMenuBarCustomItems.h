@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_deletedItems;
 }
 
-+ (id);
++ (id)ScenePresentationManager"16@"_UIScenePresenter"24;
 - (_Bool);
 - (void);
 - (void);
@@ -22,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id)orks/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (id);
 - (id);
@@ -30,8 +29,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)searchBarSuperviewChanged;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *customItems; // @synthesize customItems=_customItems;

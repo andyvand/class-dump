@@ -15,13 +15,12 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (CDUnknownBlockType);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)!að!Ô@ùqÐ1¢!0@ù
-× ;
+- (void)PH3;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *ID; // @synthesize ID=_ID;

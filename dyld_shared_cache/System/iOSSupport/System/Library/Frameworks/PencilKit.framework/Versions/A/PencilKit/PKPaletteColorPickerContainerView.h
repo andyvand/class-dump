@@ -20,13 +20,13 @@
     PKPaletteInputAssistantViewController *_inputAssistantViewController;
 }
 
-- (_Bool):responseKey:fallbackURL: /* Error: Ran out of types for this method. */;
-- (void)alBytesExpectedToSend:(_Bool)arg1;
-- (void)bserver:(id)arg1;
-- (void)rAtIndex:(id)arg1;
-- (void)sionTaskDelegate;
-- (id)undSessionWithIdentifier:sharedContainerIdentifier:timeout:delegateReference:] /* Error: Ran out of types for this method. */;
-- (id)l *, id<NSObject>);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -36,19 +36,19 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (id)sisGetPreparedTextForIdentifier:completion: /* Error: Ran out of types for this method. */;
-- (void)Timestamp:(id)arg1;
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void)7199CF2EF5F41F5CBE091B25SixChannelCompositeFilter;
+- (id)@7;
 - (long long);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) PKPaletteColorPickerView *colorPickerView; // @synthesize colorPickerView=_colorPickerView;

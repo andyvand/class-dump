@@ -15,19 +15,19 @@
 
 + (id);
 + (id);
-+ (id)ÿ(ºUÏå;
++ (id)y9v¾x;
 - (_Bool);
 - (void);
 - (CDStruct_7660b417);
+- (unsigned long long);
+- (void);
 - (oneway void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)StayedUpTooLongAfterTap;
+- (void);
 
 @end
 

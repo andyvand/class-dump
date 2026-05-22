@@ -19,9 +19,9 @@
     CDUnknownBlockType _completion;
 }
 
-- (void)bleByArrayLiteralP;
-- (id)X;
-- (id)ile transfer:(id)arg1 %@   error:(id)arg2 <NO OUTPUT PATH FOR ENCODED ITEM>;
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,15 +30,14 @@
 - (id);
 - (id);
 - (void);
-- (void)
-× ;
-- (void)ency;
-- (id)emGroup;
-- (void)ibutes;
-- (id)¬	;
-- (CDUnknownBlockType)listBackground;
-- (_Bool)o[;
-- (void);
+- (void);
+- (id)dLayerContentProvider>"16@0:8 /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)<¹¹Ü¹TºRLÓ°Ó2àÚ&ÛlÜÐÜ7ÞLßß\àÔàPá;
+- (_Bool)´ÈDÀÜ;
+- (id)!äþ>PZ;
+- (void)rÛøc;
+- (void)gðx;
+- (void)ÿ<ÄÏØÌi;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;

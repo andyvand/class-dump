@@ -18,9 +18,9 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id):initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)raphing;
+- (id);
+- (void)p°£H¤x¨`ª	,¬­<®Ü®<±±;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

@@ -21,17 +21,17 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool compressed; // @synthesize compressed=_compressed;

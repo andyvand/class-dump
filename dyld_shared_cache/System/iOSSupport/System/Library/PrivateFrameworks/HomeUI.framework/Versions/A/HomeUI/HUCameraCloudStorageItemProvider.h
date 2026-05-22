@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)HUExcludeFromHomeStatusTitle;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;

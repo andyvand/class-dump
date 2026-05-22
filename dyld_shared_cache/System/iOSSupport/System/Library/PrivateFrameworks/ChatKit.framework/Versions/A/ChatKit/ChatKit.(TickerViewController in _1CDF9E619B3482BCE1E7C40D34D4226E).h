@@ -11,11 +11,12 @@
     MISSING_TYPE *tickCounter;
 }
 
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)0@ù
+× ;
 
 @end
 

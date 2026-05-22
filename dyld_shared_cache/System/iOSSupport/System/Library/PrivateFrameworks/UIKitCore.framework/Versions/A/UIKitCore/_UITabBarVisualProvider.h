@@ -16,19 +16,18 @@
 }
 
 + (_Bool);
-- (void)lu bytes.;
-- (_Bool);
-- (id)taInstance Array in sealing map entry ;
-- (void)Recovery/verify success. Local store has %d entries.;
-- (void)s null;
-- (id)to allocated digest data
-;
-- (_Bool);
 - (void);
-- (void);;
+- (_Bool);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)a;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -37,64 +36,61 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (double)O;
+- (double);
 - (long long);
 - (void);
 - (void);
 - (id);
-- (void)eURL;
 - (id);
 - (void);
-- (id)gBufferToAVAudioBuffer;
-- (void)elationResult;
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (double);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void)Bù±Â1¢!0@ù
+- (id)1Â0@ù
 × ;
-- (id)
+- (id)!ð!lBù±b1Â0@ù
 × ;
-- (void)ñÄð1¢!0@ù
+- (void)
 × ;
+- (void)32@0:8^B16^Q24 /* Error: Ran out of types for this method. */;
+- (void)6@0:(id)arg1 8@16@24@32@40^{UIEdgeInsets=dddd}48;
+- (void)v32@0:(double)arg1 8@"_TtC5UIKit21UITextEffectTextChunk"16@?<v@?@"UITargetedPreview">24;
+- (void)setLargeTitleViewOverlaysContentView:(id)arg1;
+- (void)SupplementalColumnWidth;
+- (_Bool)PreviousArrows;
+- (id)gate: /* Error: Ran out of types for this method. */;
+- (id)antiateViewControllerWithInputItems:asAccessory:traitCollection:listenerEndpoint:connectionHandler: /* Error: Ran out of types for this method. */;
+- (void)egateForEverythingExceptForms;
+- (void)dSetAsString;
+- (void)mpressorCreatingIfNecessary;
+- (double)youtConstraint",&,N,V_minimumLabelWidth;
+- (void)mbolScale:(id)arg1;
+- (double)ly;
+- (void)_setContainerClassNames:(double)arg1 ,V_containerClassNames;
+- (id)°HÐ;
+- (void);
 - (void);
-- (void)0@ù
-× ;
-- (void)!DùñËð1¢!0@ù
-× ;
-- (void);
-- (_Bool);
-- (struct CGSize)!y°!BùÑÎ1¢!0@ù
-× ;
-- (void)r"b1"unconstrainedExtent"b1"constrainedFraction"b1"constrainedPoint"b1"constrainedVelocity"b1"presentationPoint"b1};
-- (void)tureRecognizer;
-- (id)utesForImageView:imageProperty:actionViewState: /* Error: Ran out of types for this method. */;
-- (id)eIfNecessary:(id)arg1;
-- (void)sUpdate;
-- (void)tingsSafeAreaInsetsDidChangeForWindow:(id)arg1;
-- (id)ippedTargetRect: /* Error: Ran out of types for this method. */;
-- (id)r;
-- (void)ordinateSpace;
-- (void)onLayoutSectionFixedSolver;
+- (void)rmined;
+- (void)cial case path:(long long)arg1 skipping initial load of ViewController's views for %@;
+- (struct CGSize)ttingViewControllerIncreaseFontSizeChange;
+- (id)oller=%p;
+- (_Bool)BIB_Bottom_Baseline;
+- (void)UIScenePresenterGeometryDriverStorage;
+- (void)_² ;
+- (void)pport;
+- (id)Àg[;
+- (_Bool)»[;
 - (double);
-- (void)poüÿJþÿàvüÿ;
-- (id);
-- (void)3yÝ¹í3_ßí3yADyADyADy¸rj8{í3G£í3yPj8²rj8GGKªí3ySbGGí3GtGG;
-- (double)esentableP;
-- (void)Unable to instantiate the UIApplication singleton.;
-- (void)ssionState = %@; reorderingState = %@; dropProposalState = %@>;
-- (void)rt when renaming a document failed.;
-- (double)ive;
-- (_Bool);
-- (id)chromaticKey;
-- (void);
+- (void)×¼^;
+- (void)-~;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIBarAppearanceChangeObserver> appearanceObserver;

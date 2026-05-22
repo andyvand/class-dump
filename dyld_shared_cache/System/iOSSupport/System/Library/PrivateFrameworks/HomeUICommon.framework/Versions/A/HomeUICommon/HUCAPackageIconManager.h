@@ -37,10 +37,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *packageDataCache; // @synthesize packageDataCache=_packageDataCache;

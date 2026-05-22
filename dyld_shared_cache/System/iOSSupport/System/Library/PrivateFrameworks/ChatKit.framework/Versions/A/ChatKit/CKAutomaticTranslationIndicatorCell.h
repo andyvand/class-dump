@@ -21,39 +21,32 @@
     MISSING_TYPE *displayState;
     NSAttributedString *titleAttributedString;
     NSAttributedString *buttonAttributedString;
-    double languageDownloadProgress;
 }
 
-+ (id)};
-+ (id)s;
++ (id);
++ (id);
 + (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool)t;
-- (_Bool)e;
-- (void).;
+- (_Bool);
 - (void);
 - (void);
-- (void)ne Sections:(_Bool)arg1 %s;
-- (void)Outline Section:(id)arg1 %s;
-- (void)here is no way to recover access to these locked notes.;
-- (void)e;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (double);
-- (void)Ҳ
-;
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double)R!;
-- (void);
-- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -62,23 +55,21 @@
 - (void);
 - (id);
 - (id);
-- (void)*	;
-- (id)ìfühðij;
-- (id)AByÀ#®yACyAByAByA­yAEyAByADyAEyABy­§­y­SgGG_AByAByÙ­APy¡­SgGGà­yAQGGtGG;^­G_,­tGGtl­G~f­GABy=­yA6_GA8_GGGÍ­ySbGGtGGA19_GA8_G~­y®GG_AByAHD­yæ­GGQo_AG_G;
-- (void)rCSg;
-- (id);
-- (id)­ÿ;
+- (id);
+- (void);
+- (id);
+- (void)TTRWrongServiceTypeView;
+- (id)Dÿ¨³Dÿð>\;
+- (id)Ã';¤è/;
 
 // Remaining properties
 @property(nonatomic, retain) NSAttributedString *buttonAttributedString; // @synthesize buttonAttributedString;
 @property(nonatomic) _Bool buttonPresentsMenu; // @synthesize buttonPresentsMenu;
 @property(nonatomic, readonly) UIView *containerView; // @synthesize containerView;
 @property(nonatomic) __weak id <CKAutomaticTranslationIndicatorCellDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) double languageDownloadProgress; // @synthesize languageDownloadProgress;
 @property(nonatomic, retain) UIView *progressIndicator; // @synthesize progressIndicator;
 @property(nonatomic, readonly) _Bool shouldShowTitleLabel;
 @property(nonatomic, readonly) _Bool shouldShowToggleButton;
-@property(nonatomic, readonly) _Bool shouldShowWatchProgress;
 @property(nonatomic, retain) NSAttributedString *titleAttributedString; // @synthesize titleAttributedString;
 @property(nonatomic, retain) CKTranscriptLegibilityLabel *titleLabel; // @synthesize titleLabel;
 @property(nonatomic, retain) NSLayoutConstraint *titleToButtonVerticalConstraint; // @synthesize titleToButtonVerticalConstraint;

@@ -4,6 +4,7 @@
 
 class std::ostream::sentry {
 public: // (access info unavailable from symbols alone)
+    operator bool() const;
     sentry(std::ostream&);
     ~sentry();
 };

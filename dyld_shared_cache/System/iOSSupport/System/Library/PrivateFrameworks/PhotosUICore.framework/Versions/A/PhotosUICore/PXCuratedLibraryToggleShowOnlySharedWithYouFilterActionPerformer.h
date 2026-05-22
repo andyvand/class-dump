@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)JB8;
+- (id)hangeObserver;
 
 @end
 

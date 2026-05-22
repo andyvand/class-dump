@@ -22,8 +22,8 @@
     MISSING_TYPE *softwareUpdateControllerV2Delegate;
 }
 
-- (void);
 - (id);
+- (void)nsor;
 
 @end
 

@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void)ntInsertionCacheItem;
+- (void)2@0:8@"SXItemizedScrollView"16Q24 /* Error: Ran out of types for this method. */;
 
 @end
 

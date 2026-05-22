@@ -15,7 +15,7 @@
     unsigned long long _targetSleepWakeState;
 }
 
-+ (_Bool)s.Setting;
++ (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
@@ -26,15 +26,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;

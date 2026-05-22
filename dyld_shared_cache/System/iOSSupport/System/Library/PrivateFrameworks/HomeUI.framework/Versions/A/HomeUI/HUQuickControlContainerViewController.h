@@ -93,29 +93,27 @@
 - (id);
 - (id);
 - (void);
-- (struct CGRect);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (void)1b0@ù
-× ;
-- (_Bool)a&ð! AùQ0Ð1b0@ù
-× ;
-- (id)16@"NSSet"24;
-- (void)oardTitle:(id)arg1 forHome:animated: /* Error: Ran out of types for this method. */;
-- (void)etFooterView:(_Bool)arg1;
-- (id)perPickerItem;
-- (void):(struct CGSize)arg1 ];
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (struct CGRect);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)N,V_verticalStackView;
+- (void)ntroller controlItemClass];
+- (void)¤Ð¼ÿq;
 
 // Remaining properties
 @property(retain, nonatomic) HUQuickControlViewController *activeControlViewController; // @synthesize activeControlViewController=_activeControlViewController;

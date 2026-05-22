@@ -21,18 +21,18 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)vb;
+- (id);
+- (void)ateFormatFromTemplate: /* Error: Ran out of types for this method. */;
 
 @end
 

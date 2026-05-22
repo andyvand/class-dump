@@ -13,9 +13,9 @@
 
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) id <WFHarnessTestRunnerClientDelegate> testDelegate; // @synthesize testDelegate=_testDelegate;

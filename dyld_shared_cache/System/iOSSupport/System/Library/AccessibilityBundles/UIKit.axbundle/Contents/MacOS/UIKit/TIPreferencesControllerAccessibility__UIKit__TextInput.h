@@ -13,12 +13,12 @@
     NSNumber *__accessibilityMouseKeysEnabled;
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

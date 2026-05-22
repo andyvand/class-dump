@@ -26,12 +26,12 @@
 
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (struct CGRect);
-- (id);
 - (void);
-- (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

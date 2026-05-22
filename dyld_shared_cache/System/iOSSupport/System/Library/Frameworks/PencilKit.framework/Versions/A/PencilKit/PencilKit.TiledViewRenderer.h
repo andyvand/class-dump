@@ -12,8 +12,8 @@
     MISSING_TYPE *duration;
 }
 
-- (void)@V;
-- (void);
+- (void);
+- (void);
 - (id);
 
 @end

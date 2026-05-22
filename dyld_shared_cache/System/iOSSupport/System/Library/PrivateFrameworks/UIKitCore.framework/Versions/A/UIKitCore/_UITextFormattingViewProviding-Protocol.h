@@ -4,8 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITextFormattingViewControllerConfiguration;
+
 @protocol _UITextFormattingViewProviding
-- (void)!0@ù
-× ;
+- (void)thHandler:(UITextFormattingViewControllerConfiguration *)arg1 configurator: /* Error: Ran out of types for this method. */;
 @end
 

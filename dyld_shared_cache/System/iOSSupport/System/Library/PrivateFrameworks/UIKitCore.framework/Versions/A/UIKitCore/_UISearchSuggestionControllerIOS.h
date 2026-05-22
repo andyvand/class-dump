@@ -14,24 +14,26 @@
     UITapGestureRecognizer *_suggestionsRecoveryGesture;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id)× ;
-- (_Bool)× ;
 - (_Bool);
-- (_Bool)ext:toTextRange: /* Error: Ran out of types for this method. */;
-- (id)plementBackItem: /* Error: Ran out of types for this method. */;
-- (void)dVariantIndexForKey:(id)arg1 atPoint: /* Error: Ran out of types for this method. */;
-- (void)nnection:withContext: /* Error: Ran out of types for this method. */;
-- (void)imated:(id)arg1 forTopNavigationItem:backNavigationItem:previousTopItem: /* Error: Ran out of types for this method. */;
-- (void)boardObserver;
 - (id);
-- (_Bool)ller;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (id)0@ù
+× ;
+- (id)Ð!Dù]ð1Â0@ù
+× ;
+- (void);
+- (void)nfo;
+- (void)undColor;
+- (id)sion;
+- (void);
+- (void)m¨13I-;
+- (id)þ¦#;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,6 +5,5 @@
 //
 
 @protocol CKAppGrabberViewDelegate
-- (void);
 @end
 

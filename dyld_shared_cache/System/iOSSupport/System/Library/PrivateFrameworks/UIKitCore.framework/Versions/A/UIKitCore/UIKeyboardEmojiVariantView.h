@@ -16,18 +16,17 @@ __attribute__((visibility("hidden")))
     UIView *_touchForwardingView;
 }
 
-+ (struct CGSize)load chat for unsupported service (%@):(id)arg1 %@;
-- (_Bool)gnificantDigit:(id)arg1;
-- (void)unt:(id)arg1;
-- (void)ngRequestsWithID:(long long)arg1;
-- (void)Reason:(id)arg1 containsOneTimeCode:(id)arg2 spamDetectionSource:decisionInfo:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)eComplete;
-- (void)oto1;
-- (_Bool);
-- (void)0@ù
-× ;
-- (id)roller: /* Error: Ran out of types for this method. */;
-- (id)dentity;
++ (struct CGSize);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id)rtView;
+- (void)<f;
+- (id)hÝä_j;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,14 +13,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (unsigned long long);
+- (struct CGSize);
+- (_Bool)orScene:(id)arg1;
 - (_Bool);
-- (void)loudEnabledValid:(struct CGSize)arg1;
-- (struct CGSize)!v°!äAùÑÊ1¢!0@ù
-× ;
-- (_Bool)t={CGPoint=dd}{CGSize=dd}}24B56@60{CGRect={CGPoint=dd}{CGSize=dd}}68{CGSize=dd}100d116;
-- (void):(struct CGSize)arg1;
-- (struct CGSize)xtAnimationCandidate: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)ableScrollViewInContainerForEdge:(struct CGSize)arg1;
+- (struct CGSize);
+- (id)Øªÿ;
+- (void)Õa;
 
 @end
 

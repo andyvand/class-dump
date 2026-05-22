@@ -133,14 +133,14 @@
 - (long long);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
 

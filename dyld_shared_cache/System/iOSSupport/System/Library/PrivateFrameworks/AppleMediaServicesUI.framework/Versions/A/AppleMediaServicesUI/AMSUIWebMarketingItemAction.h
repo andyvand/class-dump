@@ -26,10 +26,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void): /* Error: Ran out of types for this method. */;
+- (id)1yAAy@1c(3G_´,3yAAy»1yå)3y/3yÁ.3yAAyAAyµ03yADG$
+1y1SgGG]1y_1GG_Qo__Qo__Qo__SSQo_AEG_Qo_tGGüü0GAZGAZGAZGú0G_AAyAAy°/3Ëü0GAZGAAyAAyAAyAAyAAyAByACyAF_
+,3y|.3y&.3yà(3yAAyÿ1yAAyAhPG_SSQo_AEG_Qo__Qo__Qo__Qo_tGGAZGAZGAZGAZGA3_Gt;
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;

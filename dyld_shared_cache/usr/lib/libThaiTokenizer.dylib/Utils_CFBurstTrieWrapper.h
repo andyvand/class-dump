@@ -4,7 +4,7 @@
 
 class Utils::CFBurstTrieWrapper {
 public: // (access info unavailable from symbols alone)
-    isValid() const;
-    lookup(__CFString const*, CFRange, float&) const;
+    auto isValid() const;
+    auto lookup(__CFString const*, CFRange, float&) const;
     ~CFBurstTrieWrapper();
 };

@@ -16,27 +16,27 @@
     UIImage *__customImage;
 }
 
-+ (_Bool)W[ÿ;
-+ (id)r;
++ (id);
++ (_Bool)year, .month, .day];
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id)g;
+- (id);
 - (void);
 - (double);
-- (void)ify message;
 - (id);
-- (_Bool);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void)0@ù
+- (id)°1Â0@ù
 × ;
-- (id)lastNotifiedTopColumnForCollapse;
-- (long long)ualElement;
-- (id)ationPreview;
-- (id)_commandIdentifierToMenuLeafMap;
+- (_Bool)rvice:(id)arg1;
+- (void)ctionView;
+- (id)stment;
+- (id)paratorView;
+- (id)ng. (selector);
+- (long long)$];
+- (void)|Ä&ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *_customImage; // @synthesize _customImage=__customImage;

@@ -4,8 +4,8 @@
 
 class icu::UnicodeFunctor {
 public: // (access info unavailable from symbols alone)
-    getStaticClassID();
-    toMatcher() const;
-    toReplacer() const;
+    auto getStaticClassID();
+    auto toMatcher() const;
+    auto toReplacer() const;
     ~UnicodeFunctor();
 };

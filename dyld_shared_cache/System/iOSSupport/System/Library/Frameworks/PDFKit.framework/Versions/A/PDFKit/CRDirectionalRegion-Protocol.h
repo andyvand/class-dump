@@ -5,7 +5,7 @@
 //
 
 @protocol CRDirectionalRegion
-- (unsigned long long);
+- (unsigned long long)Improper value for key %@.;
 
 // Remaining properties
 @property(readonly) unsigned long long layoutDirection;

@@ -18,14 +18,15 @@ __attribute__((visibility("hidden")))
     _Bool _inputReversed;
 }
 
-- (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id)× ;
-- (void);
-- (void)renaming a navigation item (%@) that's already being renamed. This request is ignored.;
+- (id)Ñ_Ð1Â0@ù
+× ;
+- (_Bool)aElement"16@"WebFrame"24;
+- (void)chInfo:(id)arg1 atPoint:executionContext: /* Error: Ran out of types for this method. */;
+- (id)rphDragItemUpdate:(id)arg1;
+- (void)onBlock;
+- (void)FittingPriority:(id)arg1 which is not allowed. If you have implemented a custom content view, you need to add constraints inside it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:%@ /* Error: Ran out of types for this method. */;
+- (void)IBarBackgroundLayoutCSg;
 
 @end
 

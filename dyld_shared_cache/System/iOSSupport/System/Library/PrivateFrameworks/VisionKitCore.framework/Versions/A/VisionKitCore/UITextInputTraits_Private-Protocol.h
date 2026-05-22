@@ -7,25 +7,25 @@
 @class NSIndexSet, NSString, UIColor, UIImage, UIInputContextHistory, UITextRange, _UISupplementalLexicon;
 
 @protocol UITextInputTraits_Private
-- (void),N;
+- (void)bleArray",&,N,V_ddEvents;
 
 @optional
-- (NSString *)¡3!p@ùMÐ1B0@ù
+- (void)0@ù
 × ;
-- (void)ÔÁ3°!´CùÑM°1B0@ù
-× ;
-- (void)ñM°1B0@ù
-× ;
-- (void)
-× ;
-- (void)meToViewScale:(long long)arg1 shouldRound: /* Error: Ran out of types for this method. */;
-- (UIInputContextHistory *)edBoundingBox: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1 mipmapLevel:slice:withBytes:bytesPerRow:bytesPerImage: /* Error: Ran out of types for this method. */;
-- (UIColor *)n;
-- (_Bool)reviewContainer;
-- (void);
-- (NSString *)Q;
-- (void)ts.;
+- (void)× ;
+- (UIInputContextHistory *);
+- (void)erSampleBuffer>"32@0:(NSString *)arg1 8@"MTLCounterSampleBufferDescriptor"16^@24;
+- (void)getedPreviewWithTarget:(long long)arg1;
+- (void)isedFeedbackAttachementsForImageAnalysisInteraction:(UIColor *)arg1;
+- (void)ouldAnimateQuickActionVisibilityChanges;
+- (void)tifier;
+- (long long)ath: /* Error: Ran out of types for this method. */;
+- (void)t;
+- (_Bool)etBorderWidth: /* Error: Ran out of types for this method. */;
+- (void)FrameProviderDelegate>",R,W,N;
+- (_Bool)V_delegate;
+- (void)Ý¨ÍýÿÍÍýÿ½Íýÿ;
+- (UIColor *);
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;

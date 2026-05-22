@@ -20,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)�%�;
++ (id);
 - (id);
 - (double);
 - (void);
@@ -28,20 +28,21 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)s;
-- (id)";
+- (void);
+- (id);
 - (long long);
-- (double *);
+- (double);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long)($)à)(+;
-- (double)etalDevice;
+- (double *);
+- (unsigned long long)á}ð!CùqÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

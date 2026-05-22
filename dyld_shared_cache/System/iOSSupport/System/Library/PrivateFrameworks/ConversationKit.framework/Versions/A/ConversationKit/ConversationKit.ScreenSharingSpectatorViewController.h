@@ -15,14 +15,14 @@
     MISSING_TYPE *screenInfoDidChangeSubject;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long)NDED;
+- (void);
+- (unsigned long long);
+- (void)yùGG;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long supportedInterfaceOrientations;

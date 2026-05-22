@@ -21,9 +21,9 @@
 - (long long);
 - (double);
 - (void);
-- (struct CGPoint);
-- (id)embly;
+- (id);
 - (long long);
+- (struct CGPoint);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint point; // @synthesize point=mPoint;

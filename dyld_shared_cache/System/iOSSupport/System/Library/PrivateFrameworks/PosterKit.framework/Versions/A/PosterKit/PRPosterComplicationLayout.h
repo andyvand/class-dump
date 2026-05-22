@@ -17,30 +17,32 @@
 }
 
 + (_Bool);
-+ (_Bool)eFontConfiguration:preferredTitleAlignment:preferredTitleLayout:titleColor:timeNumberingSystem:userConfigured:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (_Bool);
 - (unsigned long long);
 - (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool)tedColorItem;
+- (void)¨Ð!@ù±ñ°1â
+0@ù
+× ;
+- (id)roundStyle:(id)arg1;
+- (id)tingSceneViewControllerDidFinishShowingContent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *complicationIconLayout; // @synthesize complicationIconLayout=_complicationIconLayout;

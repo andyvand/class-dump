@@ -22,8 +22,8 @@
     NSArray *_deletedItemIndexPaths;
 }
 
-+ (id)ext;
-+ (id)2õÿgX;
++ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -32,38 +32,37 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)ray"24@0:(long long)arg1 8@"NSArray"16;
-- (void)scribedSystemStreams:(CDUnknownBlockType)arg1;
-- (void)reLocationOption:(CDUnknownBlockType)arg1;
-- (void)n:(CDUnknownBlockType)arg1;
-- (void)etSourceBundleId:(CDUnknownBlockType)arg1;
-- (void)setSlotValue:(CDUnknownBlockType)arg1;
-- (void)SleepModeChangeReason:(CDUnknownBlockType)arg1;
-- (id)ndler: /* Error: Ran out of types for this method. */;
-- (void)eline: /* Error: Ran out of types for this method. */;
-- (void)thStartTime:(long long)arg1 endTime:(long long)arg2 maxEvents:lastN:reversed: /* Error: Ran out of types for this method. */;
-- (void)lisherWithPublisher:(long long)arg1 upstreams:(long long)arg2 bookmarkState:(_Bool)arg3;
-- (void)lisherForQuery:(id)arg1;
-- (void)orDevice:(id)arg1 options:(id)arg2;
-- (id)dsHandle;
-- (void)t;
-- (void),V_eventType;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id)eStateWithMeshDescriptor:options:reflection:error: /* Error: Ran out of types for this method. */;
-- (id)nPOSIX;
-- (void)g chunks for item %lld because they need to be %sencrypted.;
-- (id)
-× ;
-- (_Bool)PropertyArtwork();
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)perties;
+- (_Bool)odeAuthor;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSIndexSet *deletedIndexes;

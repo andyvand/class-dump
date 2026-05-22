@@ -24,9 +24,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)es). But the client requested a value source for some other services:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *homeID; // @synthesize homeID=_homeID;

@@ -5,6 +5,5 @@
 //
 
 @protocol NANowPlayingViewControllerDelegate
-- (void)H;
 @end
 

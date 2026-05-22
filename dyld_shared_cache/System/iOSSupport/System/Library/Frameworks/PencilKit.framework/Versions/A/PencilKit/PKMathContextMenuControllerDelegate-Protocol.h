@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol PKMathContextMenuControllerDelegate
-- (NSString *);
-- (void);
-- (void)ier;
 @end
 

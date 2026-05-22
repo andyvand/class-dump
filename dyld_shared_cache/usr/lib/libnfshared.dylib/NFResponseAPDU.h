@@ -13,13 +13,12 @@
 }
 
 + (id);
-- (unsigned short);
-- (unsigned short);
-- (void)
-;
-- (id);
 - (id);
-- (id)ToLength:(id)arg1 withString:startingAtIndex: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (unsigned short);
+- (unsigned short);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;

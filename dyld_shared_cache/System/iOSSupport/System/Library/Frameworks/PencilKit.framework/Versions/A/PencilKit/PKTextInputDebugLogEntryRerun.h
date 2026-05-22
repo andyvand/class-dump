@@ -15,16 +15,16 @@
     PKTextInputDebugArchivedLogEntry *_logEntry;
 }
 
-- (id)24@32@?40;
-- (id)@32Q40@48Q56@64;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)se;
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
+- (void)dddddd}16;
+- (void)letteController",&,N,V__paletteController;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

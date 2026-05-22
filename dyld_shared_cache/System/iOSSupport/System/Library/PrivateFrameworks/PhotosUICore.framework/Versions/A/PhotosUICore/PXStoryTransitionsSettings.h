@@ -43,7 +43,7 @@
 }
 
 + (id);
-+ (id)ë8;
++ (id)á§;
 - (double);
 - (double);
 - (double);
@@ -102,15 +102,15 @@
 - (double);
 - (_Bool);
 - (double);
-- (void);
-- (double);
-- (double);
 - (_Bool);
 - (void);
 - (double);
-- (double);
 - (void);
+- (double);
+- (double);
+- (double);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double crossfadeTransitionCueAlignment; // @synthesize crossfadeTransitionCueAlignment=_crossfadeTransitionCueAlignment;

@@ -8,13 +8,13 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
-- (_Bool);
-- (unsigned long long)kingTool;
-- (unsigned long long)Ì;
-- (unsigned long long)H¼;
-- (unsigned long long);
-- (unsigned long long)average pixel alpha value:%ld, texture:%@ /* Error: Ran out of types for this method. */;
-- (int)gSettingsObserverCSg;
+- (unsigned long long)2;
+- (unsigned long long)q24;
+- (unsigned long long)kView;
+- (void)tion;
+- (unsigned long long)on;
+- (unsigned long long)ì;
+- (id <MTLHeap>);
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

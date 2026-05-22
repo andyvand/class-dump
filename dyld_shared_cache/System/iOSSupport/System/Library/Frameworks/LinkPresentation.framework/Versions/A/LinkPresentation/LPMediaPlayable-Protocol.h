@@ -5,9 +5,7 @@
 //
 
 @protocol LPMediaPlayable
-- (void)j;
-- (_Bool)(@y(;
-- (_Bool)Èý;
+- (void)earchable.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMuteControl;

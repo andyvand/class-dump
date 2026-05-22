@@ -5,20 +5,20 @@
 class icu::LocaleBuilder {
 public: // (access info unavailable from symbols alone)
     LocaleBuilder();
-    addUnicodeLocaleAttribute(icu::StringPiece);
-    build(UErrorCode&);
-    clear();
-    clearExtensions();
-    copyErrorTo(UErrorCode&) const;
-    copyExtensionsFrom(icu::Locale const&, UErrorCode&);
-    removeUnicodeLocaleAttribute(icu::StringPiece);
-    setExtension(char, icu::StringPiece);
-    setLanguage(icu::StringPiece);
-    setLanguageTag(icu::StringPiece);
-    setLocale(icu::Locale const&);
-    setRegion(icu::StringPiece);
-    setScript(icu::StringPiece);
-    setUnicodeLocaleKeyword(icu::StringPiece, icu::StringPiece);
-    setVariant(icu::StringPiece);
+    auto addUnicodeLocaleAttribute(icu::StringPiece);
+    auto build(UErrorCode&);
+    auto clear();
+    auto clearExtensions();
+    auto copyErrorTo(UErrorCode&) const;
+    auto copyExtensionsFrom(icu::Locale const&, UErrorCode&);
+    auto removeUnicodeLocaleAttribute(icu::StringPiece);
+    auto setExtension(char, icu::StringPiece);
+    auto setLanguage(icu::StringPiece);
+    auto setLanguageTag(icu::StringPiece);
+    auto setLocale(icu::Locale const&);
+    auto setRegion(icu::StringPiece);
+    auto setScript(icu::StringPiece);
+    auto setUnicodeLocaleKeyword(icu::StringPiece, icu::StringPiece);
+    auto setVariant(icu::StringPiece);
     ~LocaleBuilder();
 };

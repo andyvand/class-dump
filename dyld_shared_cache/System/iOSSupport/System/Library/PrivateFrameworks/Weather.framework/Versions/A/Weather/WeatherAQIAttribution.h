@@ -32,10 +32,10 @@
 - (void);
 - (long long);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *cachedLogoImage; // @synthesize cachedLogoImage=_cachedLogoImage;

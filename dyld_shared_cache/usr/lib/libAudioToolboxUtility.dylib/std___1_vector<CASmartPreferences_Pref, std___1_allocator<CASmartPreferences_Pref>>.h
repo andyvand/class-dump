@@ -4,5 +4,5 @@
 
 class std::__1::vector<CASmartPreferences::Pref, std::__1::allocator<CASmartPreferences::Pref>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
+    auto __throw_length_error[abi:nqe210106]();
 };

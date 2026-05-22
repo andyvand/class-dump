@@ -10,10 +10,10 @@
 {
 }
 
-- (id)o15NSManagedObjectCGG;
-- (struct CGSize)17OS_dispatch_queueC_Z;
+- (id);
+- (struct CGSize);
 - (Class);
-- (unsigned long long)tialFrameIndex:stickerPositionVersion:externalURI: /* Error: Ran out of types for this method. */;
+- (unsigned long long)estionViewDelegate>";
 
 @end
 

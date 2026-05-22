@@ -17,16 +17,18 @@ __attribute__((visibility("hidden")))
     NSDictionary *_auxillaryRangeIndexerKindDict;
 }
 
-- (void);
 - (id);
-- (id);
-- (void)#º;
-- (id);
-- (id)R,N,G_isActive;
-- (id)V__shouldSuppressHDRDuringPresentation;
-- (id)suppressShiftKeyplaneAnimation;
-- (id)MultiColumnViewController;
-- (id)ApplicationLaunchOptionsUserActivityDictionaryKey;
+- (id);
+- (id);
+- (id);
+- (id)Ð!XFùq[Ð1Â0@ù
+× ;
+- (void)^Ð1Â0@ù
+× ;
+- (id)pearanceCallbacksFor:(id)arg1;
+- (id)æÒþ­°j];
+- (void)Ìô];
+- (id)(^;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *auxillaryRangeIndexerKindDict; // @synthesize auxillaryRangeIndexerKindDict=_auxillaryRangeIndexerKindDict;

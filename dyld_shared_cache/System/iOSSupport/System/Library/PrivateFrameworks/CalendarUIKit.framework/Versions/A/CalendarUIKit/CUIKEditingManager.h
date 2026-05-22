@@ -56,19 +56,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)Z;
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)ddingObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *changeHistory; // @synthesize changeHistory=_changeHistory;

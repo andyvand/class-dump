@@ -33,13 +33,13 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)erature;
+- (void)ortable Bitmap Format;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;

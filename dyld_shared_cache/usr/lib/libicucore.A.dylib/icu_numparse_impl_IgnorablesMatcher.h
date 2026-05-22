@@ -5,8 +5,8 @@
 class icu::numparse::impl::IgnorablesMatcher {
 public: // (access info unavailable from symbols alone)
     IgnorablesMatcher(int);
-    accept(icu::StringSegment&, icu::numparse::impl::ParsedNumber&) const;
-    isDisabled(icu::numparse::impl::ParsedNumber const&) const;
-    isFlexible() const;
-    toString() const;
+    auto accept(icu::StringSegment&, icu::numparse::impl::ParsedNumber&) const;
+    auto isDisabled(icu::numparse::impl::ParsedNumber const&) const;
+    auto isFlexible() const;
+    auto toString() const;
 };

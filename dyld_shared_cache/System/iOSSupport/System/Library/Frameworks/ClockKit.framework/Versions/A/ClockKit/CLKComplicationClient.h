@@ -46,15 +46,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (CDUnknownBlockType);
-- (void);
-- (id);
 - (void);
 - (void);
 

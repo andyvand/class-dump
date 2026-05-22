@@ -64,11 +64,11 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);

@@ -12,8 +12,10 @@
     MISSING_TYPE *maximumNumberOfCachedIconContentViews;
 }
 
-- (void);
 - (id);
+- (void)!¿ð!HAù1	ð1â
+0@ù
+× ;
 
 @end
 

@@ -13,8 +13,8 @@
 
 + (id);
 - (id);
-- (void);
 - (id);
+- (void)er _buildItemProvidersForHome:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIPageControl *pageControl; // @synthesize pageControl=_pageControl;

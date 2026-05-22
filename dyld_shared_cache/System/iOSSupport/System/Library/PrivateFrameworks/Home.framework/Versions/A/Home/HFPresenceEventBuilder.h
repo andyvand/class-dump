@@ -28,10 +28,10 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)Watches for home %@ %@ notification and %@ enabling express mode, error occurred:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)¤¼;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activationGranularity; // @synthesize activationGranularity=_activationGranularity;

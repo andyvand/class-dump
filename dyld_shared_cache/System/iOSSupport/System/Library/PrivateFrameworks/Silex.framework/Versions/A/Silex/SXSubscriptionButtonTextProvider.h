@@ -11,9 +11,9 @@
     NSString *_title;
 }
 
-- (void);
 - (id);
-- (id)zeCanvasController:(id)arg1;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

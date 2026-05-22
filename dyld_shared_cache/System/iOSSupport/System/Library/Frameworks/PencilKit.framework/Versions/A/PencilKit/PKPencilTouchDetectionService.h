@@ -20,26 +20,26 @@
 }
 
 + (void);
-+ (id);
++ (id)Ð6;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void)08@0:(_Bool)arg1 8@16@24@32@40@48@56B64@68Q76@84d92d100;
-- (void)56@64;
-- (void)llationError;
-- (void)delegate;
-- (void)ronment;
-- (void)elds;
-- (void): /* Error: Ran out of types for this method. */;
-- (void)NSURL",R,N,V_fallbackURL;
-- (void)Operations;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)not available, falling back to the config to look for the endpointURL;
-- (void)ublic}@;
-- (id)rary/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/Categories/NSDate+RCAdditions.m;
+- (void);
+- (void);
+- (id);
 - (id);
 - (double);
 - (void);
@@ -47,14 +47,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (_Bool);
 - (_Bool);
 - (id);
-- (void)InfoByTargetID:(id)arg1;
-- (id)orAdditionalStrokes;
+- (void);
+- (id);
+- (_Bool);
+- (void)PaletteViewDelegate>",W,D,N;
+- (void)¶;
 
 // Remaining properties
 @property(nonatomic) double activePencilUsageTimestamp; // @synthesize activePencilUsageTimestamp=_activePencilUsageTimestamp;

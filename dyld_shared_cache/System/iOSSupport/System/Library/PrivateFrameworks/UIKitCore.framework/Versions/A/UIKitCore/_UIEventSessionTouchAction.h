@@ -16,15 +16,16 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (long long);
-- (void);
-- (void)$;
+- (void);
+- (void);
 - (void);
 - (long long);
-- (long long);
-- (id);
-- (id)eplinkURL__MAPPING_MISSING__;
-- (id)ListFromLocation;
-- (long long)llPocketContainerModelTrait;
+- (long long);
+- (id);
+- (id);
+- (long long)1Â0@ù
+× ;
+- (id)G_additionalTouchesCancelLift,S_setAdditionalTouchesCancelLift:(struct _NSZone *)arg1 ,V_additionalTouchesCancelLift;
 
 // Remaining properties
 @property(nonatomic) long long numFingers; // @synthesize numFingers=_numFingers;

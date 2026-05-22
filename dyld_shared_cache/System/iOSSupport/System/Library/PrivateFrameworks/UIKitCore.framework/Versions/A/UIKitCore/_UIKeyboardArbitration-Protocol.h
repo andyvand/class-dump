@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @protocol _UIKeyboardArbitration
-- (void)(;
-- (void);
-- (void)orize;
-- (void)dDataFromMultiCombined;
-- (void)MFDRDecodeIterateTrustObjectTrustedBegin;
-- (void)toCopyRefKeyPub;
-- (void)a;
-- (void)h:(NSString *)arg1;
-- (void)
+- (void)Y°1Â0@ù
 × ;
-- (void)ould have parent view controller:(NSArray *)arg1 %@ but requested parent is:%@ /* Error: Ran out of types for this method. */;
+- (void)nDimmingViewTap;
 @end
 

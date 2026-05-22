@@ -4,6 +4,6 @@
 
 class TLE::BinaryStrOp<CEBuffer, TLE::$_7{}> {
 public: // (access info unavailable from symbols alone)
-    Execute(TLE::Encyclopedia&);
+    auto Execute(TLE::Encyclopedia&);
     ~BinaryStrOp();
 };

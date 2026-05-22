@@ -5,6 +5,6 @@
 //
 
 @interface (null) (PDFKitDebugging)
-- (id)ingLandscape;
+- (id);
 @end
 

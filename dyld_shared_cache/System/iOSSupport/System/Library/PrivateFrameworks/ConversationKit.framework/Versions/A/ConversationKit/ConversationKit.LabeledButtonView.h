@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)andleCSg;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *preferredFocusEnvironments;

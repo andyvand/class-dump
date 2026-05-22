@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
 + (Class);
++ (id);
 - (id);
 - (_Bool);
 - (id);
@@ -24,10 +24,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
+- (unsigned long long);
 - (id);
 
 @end

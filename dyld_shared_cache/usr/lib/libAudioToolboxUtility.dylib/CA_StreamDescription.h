@@ -4,5 +4,5 @@
 
 class CA::StreamDescription {
 public: // (access info unavailable from symbols alone)
-    IsEquivalent(AudioStreamBasicDescription const&, AudioStreamBasicDescription const&, CA::StreamDescription::IsEquivalentFlags);
+    auto IsEquivalent(AudioStreamBasicDescription const&, AudioStreamBasicDescription const&, CA::StreamDescription::IsEquivalentFlags);
 };

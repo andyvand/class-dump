@@ -7,7 +7,7 @@
 @class PXPhotosViewModel;
 
 @protocol PXPhotosCustomSectionBodyLayoutProvider
-- (PXPhotosViewModel *)tAutomationManager;
+- (PXPhotosViewModel *);
 
 // Remaining properties
 @property(retain, nonatomic) PXPhotosViewModel *viewModel;

@@ -17,17 +17,19 @@
     MISSING_TYPE *activity;
 }
 
-- (void);
-- (void)�H;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)B;
 - (void);
 - (id);
+- (void)àÅÿNu
+ðÅÿ5Nu
+;
 
 @end
 

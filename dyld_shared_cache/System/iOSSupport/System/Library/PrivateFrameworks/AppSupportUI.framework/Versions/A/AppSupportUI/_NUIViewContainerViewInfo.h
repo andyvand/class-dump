@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
     } _flags;
 }
 
-- (id)+;
-- (void);
 - (id);
+- (id);
+- (void);
 
 @end
 

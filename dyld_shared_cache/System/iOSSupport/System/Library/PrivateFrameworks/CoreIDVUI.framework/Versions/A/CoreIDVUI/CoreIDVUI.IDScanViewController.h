@@ -34,9 +34,9 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 
 @end

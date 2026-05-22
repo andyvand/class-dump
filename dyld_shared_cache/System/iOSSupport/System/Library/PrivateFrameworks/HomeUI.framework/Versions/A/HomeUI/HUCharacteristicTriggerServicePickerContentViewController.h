@@ -46,11 +46,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (CDUnknownBlockType).Ð1b0@ù
-× ;
-- (_Bool),V_maxWidth;
-- (void);
+- (CDUnknownBlockType)stDisplayedEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)iewController;
+- (void):(CDUnknownBlockType)arg1 %@:...Personal Identity Device Siri language set to %@ (but failed to check for 'Hey Siri' Voice Profile) /* Error: Ran out of types for this method. */;
+- (void)ionReusableView"8;
 
 // Remaining properties
 @property(retain, nonatomic) NAFuture *characteristicReadFuture; // @synthesize characteristicReadFuture=_characteristicReadFuture;

@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTextInputTarget, NSArray;
+@class NSArray;
 
 @protocol CHTextInputQueryTargetDataSource
-- (CHTextInputTarget *);
-- (void)+;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *textInputTargets;

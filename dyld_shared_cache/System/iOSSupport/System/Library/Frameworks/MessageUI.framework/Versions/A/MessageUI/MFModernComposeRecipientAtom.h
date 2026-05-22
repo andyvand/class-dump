@@ -23,15 +23,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void)@`;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void):(id)arg1 uniqueIdentifier='%@' cachesPath='%@' :acquired_paths=%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <MFComposeRecipientAtomDelegate> delegate; // @synthesize delegate=_delegate;

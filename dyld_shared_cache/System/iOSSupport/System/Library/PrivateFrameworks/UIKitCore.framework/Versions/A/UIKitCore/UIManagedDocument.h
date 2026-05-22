@@ -22,32 +22,32 @@
     NSString *modelConfiguration;
 }
 
-+ (_Bool)er of bytes to delete so we don't want to delete anything;
++ (_Bool);
 + (id);
 + (id);
-+ (void)$q¡ÿ;
-- (_Bool)0C28;
-- (void)roupID:(id)arg1 lastAddressedHandle:handleInfo: /* Error: Ran out of types for this method. */;
-- (void)adCountReports;
++ (void)x	ÕÿÖ;
 - (_Bool);
-- (id)riptBackgroundCommandTypeWrapper",&,N,V_type;
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (id)geMonitor;
-- (_Bool)Not repairing participant.;
-- (id)ror %@;
-- (void);
-- (void);
-- (_Bool)ʄ;
-- (_Bool);
-- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (void)recomputeColors;
-- (id)chain)>;
-- (id)HðJ;
-- (id)Òk;
+- (void);
+- (id);
+- (id)ectionalEdgeInsets=dddd},N,V_minimumInsets;
+- (id)af_AA_ACXc011conflictingD0t;
+- (void)ä7õþIØ;
+- (id)ÿ6ËxÙl;
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;

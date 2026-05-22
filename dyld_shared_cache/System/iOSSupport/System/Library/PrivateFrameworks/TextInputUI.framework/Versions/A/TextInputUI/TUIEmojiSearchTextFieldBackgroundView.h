@@ -12,9 +12,11 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
 - (void);
-- (void)ttributeNameIsKanaPlane;
+- (unsigned long long)!hBù4Ð1â
+0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;

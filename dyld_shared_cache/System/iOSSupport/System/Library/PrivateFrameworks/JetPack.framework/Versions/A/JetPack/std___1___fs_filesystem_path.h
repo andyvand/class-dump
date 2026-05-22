@@ -4,11 +4,11 @@
 
 class std::__1::__fs::filesystem::path {
 public: // (access info unavailable from symbols alone)
-    __compare(std::__1::basic_string_view<char, std::__1::char_traits<char>>) const;
-    __filename() const;
-    __parent_path() const;
-    __root_directory() const;
-    begin() const;
-    end() const;
-    lexically_normal() const;
+    auto __compare(std::__1::basic_string_view<char, std::__1::char_traits<char>>) const;
+    auto __filename() const;
+    auto __parent_path() const;
+    auto __root_directory() const;
+    auto begin() const;
+    auto end() const;
+    auto lexically_normal() const;
 };

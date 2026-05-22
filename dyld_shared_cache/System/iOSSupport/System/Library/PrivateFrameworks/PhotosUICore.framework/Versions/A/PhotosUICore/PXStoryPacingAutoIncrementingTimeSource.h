@@ -25,16 +25,15 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void)àf;
 - (id);
-- (id)<;
-- (void);
-- (id)Èíþÿ´ìÿëGÿ
-;
-- (void);
-- (CDStruct_1b6d18a9)tionIdentifier(PHCollection *__strong _Nonnull);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (CDStruct_1b6d18a9)mportingAssets: /* Error: Ran out of types for this method. */;
+- (void)xÿÃÅxÿÃÅxÿ¥ÃÅHÿ;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

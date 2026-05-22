@@ -15,7 +15,7 @@
     float _lastKnownVolume;
 }
 
-+ (id)dÂñÿFþIs99;
++ (id)à;
 - (id);
 - (id);
 - (void);

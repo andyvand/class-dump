@@ -13,7 +13,7 @@
     HKUnit *_caloriesUnit;
 }
 
-+ (_Bool)essage);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -24,10 +24,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void)ported_grant_type;
 
 // Remaining properties
 @property(retain, nonatomic) HKUnit *caloriesUnit; // @synthesize caloriesUnit=_caloriesUnit;

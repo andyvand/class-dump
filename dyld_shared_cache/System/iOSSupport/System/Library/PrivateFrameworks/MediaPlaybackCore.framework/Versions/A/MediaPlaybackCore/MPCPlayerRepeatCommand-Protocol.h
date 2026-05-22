@@ -7,7 +7,6 @@
 @class NSArray;
 
 @protocol MPCPlayerRepeatCommand
-- (NSArray *)6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *supportedRepeatTypes;

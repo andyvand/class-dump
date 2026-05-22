@@ -21,13 +21,13 @@
 - (int);
 - (double);
 - (id);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (int);
-- (double)nizer;
-- (int)TSCHChartSeriesBubbleLineTypeProperty;
+- (_Bool);
+- (id);
+- (int);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double alphaThreshold; // @synthesize alphaThreshold=_alphaThreshold;

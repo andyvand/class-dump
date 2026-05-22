@@ -4,6 +4,6 @@
 
 class lsl::BTree<std::__1::pair<unsigned long long, lsl::UUID>, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare, false> {
 public: // (access info unavailable from symbols alone)
-    find(std::__1::pair<unsigned long long, lsl::UUID> const&) const;
-    insert_internal(lsl::BTree<std::__1::pair<unsigned long long, lsl::UUID>, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare, false>::const_iterator&&, std::__1::pair<unsigned long long, lsl::UUID>&&);
+    auto find(std::__1::pair<unsigned long long, lsl::UUID> const&) const;
+    auto insert_internal(lsl::BTree<std::__1::pair<unsigned long long, lsl::UUID>, lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>>::value_compare, false>::const_iterator&&, std::__1::pair<unsigned long long, lsl::UUID>&&);
 };

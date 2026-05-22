@@ -50,13 +50,13 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void)tLocationRemoveHomeAlertTitle;
-- (id)R÷¾Ö;
+- (void)ionKey;
+- (id)ingKey_UserInput;
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *actionBottomConstraint; // @synthesize actionBottomConstraint=_actionBottomConstraint;

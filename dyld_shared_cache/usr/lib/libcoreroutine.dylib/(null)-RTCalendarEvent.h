@@ -7,10 +7,10 @@
 @interface (null) (RTCalendarEvent)
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
-- (id)R;
++ (id);
+- (id);
 - (id);
 @end
 

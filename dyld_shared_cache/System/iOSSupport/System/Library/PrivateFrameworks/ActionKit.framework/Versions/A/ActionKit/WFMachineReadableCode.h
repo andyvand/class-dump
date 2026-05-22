@@ -17,7 +17,9 @@
 }
 
 + (id);
-+ (_Bool)ion Name);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,13 +27,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id)edAddresses: /* Error: Ran out of types for this method. */;
-- (_Bool)öX9I|êjåÒ&úrZªÄ-­3Pz3¨U!«ßºdìûXÛï
-êqW]}³¦áäÇ«õ®Û	3×àJ%aÎãÒ&Òîkñ/úÙdØvs>ÈjdR+{ »áWza]lw	ÀºÙFââO tå«1CÛ[üàýKÑ ©!r<§æ×q½º[&Ã'jôâ<h4¶Ú%éÊ*ÔLèÛ»ÂÛÞù.ü¾Ê¦(|YGNkÀ]²O Ã¢#;¡Q[çía)pÎâ×¯¸Ýv!pHÐ'Õ°Z©´êÝÁÿ·Ü¦ÀMô5É46Ãú´Ò|p&ÁÔÜ²`&FÞÉuv=º7½øÿ­SåÛ8/A0®°jSí'Ø1'°ZÚ>ÛëÏíDÎlºÎÔ»ÛGæÌ%K3 QQ+×¯Bo¸ô7Ò¿YÊÆKìð2êÑrô×ÎntþöÕ^p/Fµ¨@1YçÉ¾Çèó#©z~6Ì¾E·ÿXZÅKÔ²+ATªÌm~¿HáØÌ^Ò7à§îòã(¡Õ·ÅÚvõPª=¿ðëÌ±£Õ\ÚVÉì.ò28è×n<h>f?H`î¿-[ttÖæùm¾Yt£oþåä8w|¶©2ßØ¾ÄÐs¹1º;È2¶Ó;
+- (void)ote-China;
+- (id)æÇ¡ßÞºXx¥õWcr"ÿÃFÂë
+³ÍT0.SäHÙ(1¼mïòëXêÿÆ4aí(þs<|îÙJ]ã·dè]Bà> ¶âîEê«ª£OlÛÐOËúBôBÇµ»jï;Oe!ÍAyØÇMjGKäPb=ò¡bÏF&[ ü£¶ÇÁÃ$tËiG²V;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) WFColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

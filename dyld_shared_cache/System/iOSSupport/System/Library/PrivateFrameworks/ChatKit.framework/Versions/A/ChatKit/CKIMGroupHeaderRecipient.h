@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSString *_displayString;
 }
 
-- (void);
-- (void)èÞÄß;
-- (id);
+- (void)caches;
+- (void)Hô;
+- (id)derProvider;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;

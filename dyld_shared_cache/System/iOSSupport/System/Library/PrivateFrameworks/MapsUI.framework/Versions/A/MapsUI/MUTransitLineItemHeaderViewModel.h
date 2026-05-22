@@ -35,7 +35,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)Identifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *addressDescriptionForContact;

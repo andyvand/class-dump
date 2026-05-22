@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)44q52B60B64B68;
-- (void)for %s;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)fier;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPMoviePlayerController *controller; // @synthesize controller=_controller;

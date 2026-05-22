@@ -73,16 +73,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)ùù;
-- (id);
-- (void)õ=;
-- (void)ÛÿL¿ö¢Ã;
+- (id)
+× ;
+- (void)ancelButton;
+- (id)ÿH1þDH;
+- (void)q;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *appleTVsToUpdate; // @synthesize appleTVsToUpdate=_appleTVsToUpdate;

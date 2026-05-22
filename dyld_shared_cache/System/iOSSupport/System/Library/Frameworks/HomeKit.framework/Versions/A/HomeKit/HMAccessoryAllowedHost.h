@@ -14,16 +14,15 @@
     NSSet *_addresses;
 }
 
-+ (_Bool)00E1-0000-1000-8000-0026BB765291;
++ (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long)0@ù
-× ;
+- (unsigned long long)24;
+- (id)ActionSet: /* Error: Ran out of types for this method. */;
+- (void)ighting %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *address;

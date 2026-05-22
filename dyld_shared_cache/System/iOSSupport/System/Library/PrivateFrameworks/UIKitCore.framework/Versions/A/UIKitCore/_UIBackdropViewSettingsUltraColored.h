@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)State: /* Error: Ran out of types for this method. */;
+- (void): /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)µÞµÿ½ÞµÿÅÞµÿÎÞ¶ÿ×ß¶ÿßß¸ÿçà¹ÿðá»ÿøá½ÿÿã¾ÿ;
+- (void);
+- (id)or;
 
 // Remaining properties
 @property(nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;

@@ -17,22 +17,22 @@
     double downscaleMultiplier;
 }
 
-+ (_Bool);
-- (_Bool)üì;
-- (void)omArrangedObjects:(double)arg1 fromArrangedObjectsItemsPerSection:toArrangedObjects:toArrangedObjectsItemsPerSection:duration:completion: /* Error: Ran out of types for this method. */;
-- (void)withStyle:inAttrString: /* Error: Ran out of types for this method. */;
-- (double)ssAlerts;
-- (id)CSearchResultSection;
++ (_Bool)essBalloonMaskAlignmentRectInsets;
+- (_Bool);
+- (void);
+- (void);
+- (double);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (double);
 - (double);
@@ -43,9 +43,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (id)CONVERSATION_GUID;
+- (void)n:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) CKEmbeddedRichLinkConfiguration *configuration; // @synthesize configuration;

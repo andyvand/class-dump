@@ -19,14 +19,14 @@
     struct __CFRunLoopObserver *_notificationObserver;
 }
 
-+ (id)ï;
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void)�;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -35,8 +35,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)|ËÐË;
 - (id);
 
 @end

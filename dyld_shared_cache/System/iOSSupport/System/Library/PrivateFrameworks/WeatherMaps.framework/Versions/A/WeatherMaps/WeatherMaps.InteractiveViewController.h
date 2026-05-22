@@ -91,15 +91,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void)Xê;
+- (void);
+- (void);
+- (id)Þ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *keyCommands;

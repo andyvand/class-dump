@@ -22,15 +22,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (_Bool);
+- (double);
 - (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void)P;
-- (void)ngedNotifications;
-- (void)iummathspace;
-- (double)Ü;
+- (void)rProtoIndex:(_Bool)arg1;
+- (id)eadOnly;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

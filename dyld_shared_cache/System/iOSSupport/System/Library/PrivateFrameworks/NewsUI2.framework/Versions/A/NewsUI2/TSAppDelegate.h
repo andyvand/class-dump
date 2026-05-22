@@ -28,17 +28,18 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (id);
 - (void);
 - (void);
-- (_Bool)@#;
-- (_Bool);
-- (void);
-- (id)f;
-- (void)|ÄÈÜäXè;
+- (id);
+- (id);
 - (void);
-- (void)xØ\;
-- (id)å¥;
-- (id)peDelegate;
+- (void);
+- (void);
+- (_Bool)ÜCùñÐ1Â0@ù
+× ;
+- (_Bool)þÿðÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) UIWindow *window; // @synthesize window;

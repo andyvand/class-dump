@@ -20,21 +20,21 @@
 
 - (void);
 - (id);
-- (id)7;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)P;
+- (void);
 - (void);
 - (id);
-- (id)ET_SEGMENT_AND_OFFSET_ULEB;
+- (id);
+- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)PropertyASTCUseLZFSE;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;

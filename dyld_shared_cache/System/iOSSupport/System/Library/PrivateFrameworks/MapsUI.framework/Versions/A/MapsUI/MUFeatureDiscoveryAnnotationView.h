@@ -32,22 +32,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (double);
-- (void);
-- (void);
 - (void);
 - (id);
 - (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
 - (double);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (double);
-- (void)andableBlurb;
+- (_Bool):8@"MUPlaceInfoSectionController"16q24 /* Error: Ran out of types for this method. */;
+- (void)tColor;
+- (void)for bundle ids %@.;
 
 // Remaining properties
 @property(readonly, nonatomic) double arrowOffset;

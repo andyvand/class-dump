@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (struct CGRect);
+- (struct CGRect)endingAnimatedChanges: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;

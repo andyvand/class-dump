@@ -47,14 +47,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)0@ù
-× ;
+- (void);
+- (id);
+- (id);
+- (void)nButtonSpec: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long allowedLayoutStrategies; // @synthesize allowedLayoutStrategies=_allowedLayoutStrategies;

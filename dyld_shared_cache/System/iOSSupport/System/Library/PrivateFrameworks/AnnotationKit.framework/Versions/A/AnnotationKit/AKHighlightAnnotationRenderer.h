@@ -10,9 +10,9 @@
 {
 }
 
-+ (struct CGRect);
++ (struct CGRect);
 + (double);
-+ (void)O;
++ (void);
 + (void);
 + (_Bool);
 + (_Bool);

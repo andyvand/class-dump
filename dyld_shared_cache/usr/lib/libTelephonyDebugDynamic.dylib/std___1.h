@@ -4,6 +4,7 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100](char const*);
-    to_string(int);
+    auto __throw_length_error[abi:nqe210106](char const*);
+    auto to_string(int);
+    std::__1::basic_ostream<char, std::__1::char_traits<char>>& __put_character_sequence[abi:nqe210106]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long);
 };

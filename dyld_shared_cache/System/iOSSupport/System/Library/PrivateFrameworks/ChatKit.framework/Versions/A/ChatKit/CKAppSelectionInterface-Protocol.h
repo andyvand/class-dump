@@ -5,6 +5,5 @@
 //
 
 @protocol CKAppSelectionInterface
-- (void);
 @end
 

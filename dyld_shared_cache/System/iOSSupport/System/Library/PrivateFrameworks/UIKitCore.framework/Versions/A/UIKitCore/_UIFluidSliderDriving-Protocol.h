@@ -9,15 +9,8 @@
 
 @protocol _UIFluidSliderDriving
 - (void);
-- (void)eck (trustobject unset);
-- (UIView *)?;
-- (NSString *)1¢!0@ù
-× ;
-- (void)ge:(_Bool)arg1;
-- (_Bool)teMachine:currentState:timestamp: /* Error: Ran out of types for this method. */;
-- (void)o;
-- (void)t`¤;
-- (void)'%@' that has the same identifier '%@' as a previously used trait named '%@' with a different affectsColorAppearance value. Trait definitions with the same identifier must have the same affectsColorAppearance value.;
+- (UIView *)outPoint;
+- (_Bool)s (the argument was '%@');
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIFluidSliderDrivable> drivable;

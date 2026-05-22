@@ -15,19 +15,18 @@
 }
 
 - (void);
-- (id)agedObjectIDCG;
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void)LSessionTask"24@?<v@?@"NSInputStream">32;
-- (id)!¤DùñÆÐ1¢!0@ù
-× ;
-- (id)À õ§ÿ;
+- (void)ageCount;
+- (void)scriptPluginViewManager;
+- (void)Èìì;
+- (id)1;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *children; // @synthesize children=_children;

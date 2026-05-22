@@ -5,6 +5,5 @@
 //
 
 @protocol PXGCaptureSpriteSource
-- (unsigned long long);
 @end
 

@@ -14,9 +14,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)rance: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)upportedLocale;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *homeKitObjects; // @synthesize homeKitObjects=_homeKitObjects;

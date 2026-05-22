@@ -11,8 +11,8 @@
     MISSING_TYPE *assemblies;
 }
 
-- (void)t=dd}16^@32;
 - (id);
+- (void);
 
 @end
 

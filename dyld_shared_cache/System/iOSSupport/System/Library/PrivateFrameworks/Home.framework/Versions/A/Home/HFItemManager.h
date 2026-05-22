@@ -278,8 +278,6 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -288,7 +286,9 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -453,10 +453,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -467,25 +464,28 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (id)From: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)delegate operation, but it never committed. Will recover by forcibly committing batch. Remaining uncommittedBatchingReasons:(id)arg1 %@;
-- (void)ed=%d and sharing=%d;
+- (void);
+- (void);
+- (void)ateFromComponents:(id)arg1;
+- (void);
+- (void)h;
 
 // Remaining properties
 @property(retain, nonatomic) NAFuture *UIDiffableDataInitializationFuture; // @synthesize UIDiffableDataInitializationFuture=_UIDiffableDataInitializationFuture;

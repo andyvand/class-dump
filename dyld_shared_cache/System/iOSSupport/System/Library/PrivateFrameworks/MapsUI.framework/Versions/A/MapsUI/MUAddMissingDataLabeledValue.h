@@ -37,11 +37,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (long long);
 - (id);
 - (id);
-- (id)tate: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)nt;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;

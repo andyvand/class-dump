@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
+- (void)ewControllerDelegate;
 - (void);
-- (void)á3ÉÜ2;
 
 @end
 

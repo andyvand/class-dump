@@ -8,18 +8,8 @@
 
 @protocol CKConversationListControllerDelegate
 - (void);
-- (void);
-- (_Bool);
-- (void)EmÕ;
-- (void)NoteCGGSo0aB2IDCGSo17OS_dispatch_queueCGShyA0_GG;
-- (void)oopCGAHGGSo6ICNoteCGGSo0aB2IDCG;
-- (void)ShySo15NSManagedObjectCGG;
-- (void)queueCGShyAUGG;
-- (id)fGG;
-- (void)s;
-- (void)al-queue;
-- (_Bool)tionIdentifier:pluginID:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)61333F7360F8ABF333TapbackPickerCellSelectionPlatter;
+- (_Bool)KSg_A2WtGAEGALGf[yfZAFyADyAeByAK_ACyIm[ykp[yAHSSAByFÜZySay=~ZGA3_\yAH_SSQo_G_A5_SgtGG_f[Qo_AFyp[yAHGALGGSgtGAEGALGGSgAFyÓm[yAFyA13_FÒZySbGG_A13_Qo_ALGSgAFy¬m[yA13__A13_Qo_ALGSgtGG_SSAByA13__A13_tGQo_;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id composeChatController;

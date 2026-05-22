@@ -27,7 +27,6 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -37,11 +36,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)t;
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (void);
-- (_Bool)Úþÿ2§E0;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasObservers; // @synthesize hasObservers=_hasObservers;

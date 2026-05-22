@@ -11,6 +11,7 @@
     MISSING_TYPE *data;
     MISSING_TYPE *coordinator;
     MISSING_TYPE *metadata;
+    MISSING_TYPE *playMethod;
 }
 
 - (void);
@@ -24,8 +25,8 @@
 - (void);
 - (void);
 - (double);
-- (void)yURL: /* Error: Ran out of types for this method. */;
-- (id)ND;
+- (id);
+- (void)ÁS:üT /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) double impressionThreshold;

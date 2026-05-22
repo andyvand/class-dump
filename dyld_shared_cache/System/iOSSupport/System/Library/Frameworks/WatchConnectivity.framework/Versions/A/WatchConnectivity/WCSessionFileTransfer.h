@@ -19,31 +19,31 @@
 }
 
 + (_Bool);
-- (id)A;
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void)	;
-- (id);
-- (void)Context;
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
 - (long long);
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) WCSessionFile *file; // @synthesize file=_file;

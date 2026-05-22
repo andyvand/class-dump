@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIHyperInteractor, _UISpringParameters;
+@class _UIHyperInteractor;
 
 @protocol _UIHyperAnimator_Internal
-- (void);
-- (unsigned long long);
-- (void)24@0:(_UISpringParameters *)arg1 8@"UITextRangeAdjustmentInteraction"16;
-- (void)nDisconnectionPreventionAssertion,V_screenDisconnectionPreventionAssertion;
+- (void)@ù
+× ;
+- (_UIHyperInteractor *)Ù33Hþ;
+- (void)430^;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _dimensions;

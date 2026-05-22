@@ -14,7 +14,8 @@
     UIImage *_right;
 }
 
-- (void);
+- (void)1ï°1Â0@ù
+× ;
 
 @end
 

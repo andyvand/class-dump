@@ -21,14 +21,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)ÿ;
-- (id);
+- (void);
+- (void);
+- (id)rAdd;
 
 // Remaining properties
 @property(readonly, nonatomic) UIContentUnavailableConfiguration *configuration; // @synthesize configuration=_configuration;

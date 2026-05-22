@@ -17,15 +17,16 @@ __attribute__((visibility("hidden")))
     NSDictionary *_publishedObjectMap;
 }
 
-- (_Bool);
-- (void);
 - (id);
-- (void);
-- (id)n:(id)arg1;
-- (_Bool)urceSnapshot:(id)arg1;
-- (id)ayer: /* Error: Ran out of types for this method. */;
-- (id)oardTaskSubqueue;
-- (struct CGSize)e%[;
+- (struct CGSize);
+- (id);
+- (void);
+- (_Bool)0@ù
+× ;
+- (id)V_targetOffset;
+- (id)lerDuringAdaptation,S_setChangedPresentingViewControllerDuringAdaptation:,V_changedPresentingViewControllerDuringAdaptation /* Error: Ran out of types for this method. */;
+- (_Bool)ìÐÌ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *publishedObjectNames;

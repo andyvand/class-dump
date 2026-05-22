@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     unsigned long long serialized_session_length;
 }
 
-- (void)KmJ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

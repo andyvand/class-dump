@@ -29,8 +29,8 @@ __attribute__((visibility("hidden")))
     NSLocale *_locale;
 }
 
-+ (id)le to find default file transfer info to download;
-+ (id)d, using signature %@ file size %@;
++ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -49,17 +49,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (long long)ionary"16@"NSString"24@"NSString"32@"NSString"40C48;
-- (id)on instead;
-- (id)or thread ID %@;
+- (long long);
 - (id);
 - (id);
-- (id)ntexts;
-- (id)oupingAlbumArtistRecentlyPlayed;
-- (void)hf3ç;
-- (id)1¢!0@ù
-× ;
-- (long long)àO¹ÿê.;
+- (id);
+- (id);
+- (id)dingQuickActionView: /* Error: Ran out of types for this method. */;
+- (id)emGeometricIndexer;
+- (long long)ontroller must present a UISearchController;
+- (void)Ooc;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *AMSymbol; // @synthesize AMSymbol=_AMSymbol;

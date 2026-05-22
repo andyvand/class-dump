@@ -24,9 +24,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)descriptionLabel;
 
 // Remaining properties
 @property(nonatomic, retain) id executeActionSetFuture; // @synthesize executeActionSetFuture;

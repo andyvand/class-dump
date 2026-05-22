@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PKScribbleInteractionWrapper;
-
 @protocol PKScribbleInteractionWrapperProvider
-- (id <PKScribbleInteractionWrapper>)h8;
 @end
 

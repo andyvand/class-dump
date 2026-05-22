@@ -25,8 +25,8 @@
 - (id);
 - (void);
 - (double);
-- (void)p;
-- (double)L;
+- (void);
+- (double);
 - (id);
 - (void);
 - (void);

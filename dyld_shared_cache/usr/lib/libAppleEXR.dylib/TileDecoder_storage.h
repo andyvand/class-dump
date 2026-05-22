@@ -4,5 +4,5 @@
 
 class TileDecoder_storage {
 public: // (access info unavailable from symbols alone)
-    Init(axr_compression_t, axr_decoder*, Part const*, axr_flags_t, axr_error_t*);
+    auto Init(axr_compression_t, axr_decoder*, Part const*, axr_flags_t, axr_error_t*);
 };

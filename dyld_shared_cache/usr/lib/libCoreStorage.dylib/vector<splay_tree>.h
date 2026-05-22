@@ -4,7 +4,7 @@
 
 class vector<splay_tree> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
-    resize(unsigned long, splay_tree const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, splay_tree const&);
     ~vector();
 };

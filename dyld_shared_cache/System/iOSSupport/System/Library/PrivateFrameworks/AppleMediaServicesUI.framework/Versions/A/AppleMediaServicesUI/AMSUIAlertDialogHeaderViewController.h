@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void)er;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

@@ -10,15 +10,15 @@
     double _upperAngleLimit;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (double);
 - (double);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 
 // Remaining properties

@@ -10,8 +10,8 @@
 {
 }
 
-- (id)tantFlickGestureCompletion: /* Error: Ran out of types for this method. */;
-- (void)¬D;
+- (void);
+- (id);
 
 @end
 

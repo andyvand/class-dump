@@ -33,15 +33,14 @@
 + (const char *);
 + (const char *);
 - (_Bool);
-- (void)*;
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -56,20 +55,21 @@
 - (id);
 - (double);
 - (_Bool);
-- (id)�: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (void);
-- (double)16S20S24*28;
-- (_Bool);
-- (_Bool);
 - (void);
 - (_Bool);
-- (unsigned long long);
 - (double);
-- (id)ect<OS_nw_channel>";
+- (id);
 - (id);
 - (double);
+- (_Bool);
+- (double)tionsDidRelease;
+- (_Bool),%{sensitive}0.7f,%{sensitive}0.7f;
+- (void)o modify session;
+- (unsigned long long)e computation error, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *additionalCriteria; // @synthesize additionalCriteria=_additionalCriteria;

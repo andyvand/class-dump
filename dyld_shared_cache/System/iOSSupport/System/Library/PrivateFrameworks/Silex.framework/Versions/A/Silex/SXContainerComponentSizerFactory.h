@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (id)emocratizationFactor;
-- (int)cyException;
+- (id);
+- (int);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

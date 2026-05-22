@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tonItem;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *AMPMStrings; // @synthesize AMPMStrings=_AMPMStrings;

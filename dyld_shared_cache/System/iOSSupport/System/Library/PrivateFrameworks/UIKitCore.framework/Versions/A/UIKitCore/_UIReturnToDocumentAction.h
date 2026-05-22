@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)o:(id)arg1 __localURI__@__local__URI.com;
-+ (_Bool)C;
++ (id);
++ (_Bool);
 
 @end
 

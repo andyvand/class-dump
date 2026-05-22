@@ -21,42 +21,42 @@
 
 - (id);
 - (void);
-- (void);
-- (void)ags:(id)arg1 timestamp:windowNumber:context:eventNumber:clickCount:pressure: /* Error: Ran out of types for this method. */;
-- (void)one:(id)arg1;
-- (void)eImageURL:(id)arg1;
-- (void)ion:(_Bool)arg1 scale: /* Error: Ran out of types for this method. */;
-- (void)Handler:(id)arg1;
-- (void)bView:(id)arg1 runWebAuthenticationPanel:initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)atedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)UnloadConfirmPanelWithMessage:initiatedByFrame:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)Handler: /* Error: Ran out of types for this method. */;
-- (id)setCachedImage: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)t;
 - (void);
 - (void);
-- (void)*?;
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)adius:(id)arg1;
 - (id);
-- (id)iew;
-- (id)hareBalloonViewDelegate>",W,D,N;
-- (void)7GalleryP33_99FE8760838F51A859574FB00D81095318BlurrableImageView;
-- (_Bool)Ð
-';
+- (id);
+- (_Bool);
+- (void)0@ù
+× ;
+- (_Bool)L;
+- (void)ization - likely due to service capabilities.;
+- (void)redServiceToIDMap;
+- (void)eceived `%@`;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

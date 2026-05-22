@@ -14,14 +14,13 @@
 }
 
 - (void);
+- (id);
 - (void);
-- (id);
 - (void);
-- (void)݃;
-- (void);
-- (void)!XDù1],1¢!0@ù
-× ;
-- (_Bool)Ä2;
+- (_Bool);
+- (void)à²Øµ	¶¸ºÀTÂxÆ;
+- (void)llowTombstones.;
+- (void)ter not satisfying:triggerEndDateUpdateNotification (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

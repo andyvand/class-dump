@@ -4,7 +4,7 @@
 
 class GLDFenceRec {
 public: // (access info unavailable from symbols alone)
-    dealloc();
-    getStatus();
+    auto dealloc();
+    auto getStatus();
     ~GLDFenceRec();
 };

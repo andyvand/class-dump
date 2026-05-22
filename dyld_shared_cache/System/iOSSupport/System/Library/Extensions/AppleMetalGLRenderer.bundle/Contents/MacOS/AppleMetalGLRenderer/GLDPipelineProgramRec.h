@@ -4,8 +4,8 @@
 
 class GLDPipelineProgramRec {
 public: // (access info unavailable from symbols alone)
-    createMetalFunction(GLDProgramRec*, unsigned int, unsigned int);
-    dealloc();
-    update(GLDProgramRec*, unsigned int, id<MTLFunction>&);
+    auto createMetalFunction(GLDProgramRec*, unsigned int, unsigned int);
+    auto dealloc();
+    auto update(GLDProgramRec*, unsigned int, id<MTLFunction>&);
     ~GLDPipelineProgramRec();
 };

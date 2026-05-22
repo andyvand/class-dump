@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)geProgress: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
 
 @end
 

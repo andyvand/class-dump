@@ -19,16 +19,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)not validate tokens;
-- (id)t address handle to be my phone number %@;
-- (id)cated message %@;
 - (void);
-- (_Bool);
-- (void);
-- (void)Ax°!ÄDùÍð1¢!0@ù
-× ;
-- (id)tos or videos.;
-- (id)ÿêÄÏ¹c;
+- (id);
+- (id);
+- (void);
+- (id)× ;
+- (void);
+- (id)tsForView:(struct CGRect)arg1;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *banners; // @synthesize banners=_banners;

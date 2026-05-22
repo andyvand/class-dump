@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol MTLModel
+- (NSDictionary *)priority full task;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;

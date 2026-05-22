@@ -20,14 +20,14 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (long long);
-- (_Bool)(;
+- (_Bool);
 - (id);
-- (void)@;
+- (void)È01¼1°4;
 
 // Remaining properties
 @property(nonatomic) _Bool isSpamOrUnknown; // @synthesize isSpamOrUnknown=_isSpamOrUnknown;

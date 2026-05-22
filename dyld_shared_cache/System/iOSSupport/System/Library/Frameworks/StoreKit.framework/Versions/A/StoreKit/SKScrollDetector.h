@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)b_;
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void)rror;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <SKScreenTrackingDelegate> screenTrakingDelegate; // @synthesize screenTrakingDelegate=_screenTrakingDelegate;

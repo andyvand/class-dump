@@ -5,9 +5,9 @@
 //
 
 @interface (null) (UIWebFormExtensions)
-- (void)age item.;
-- (id)_CLEANUP_ALERT_MESSAGE;
-- (id)ice;
+- (void);
+- (id);
+- (id);
 - (id);
 @end
 

@@ -4,9 +4,9 @@
 
 class PatchTableV2 {
 public: // (access info unavailable from symbols alone)
-    clientsExportsForImageAndClient(unsigned int, unsigned int) const;
-    forEachPatchableCacheUseOfExport(unsigned int, unsigned int, unsigned long long, unsigned long long (unsigned int) block_pointer, void (unsigned long long, dyld3::MachOFile::PointerMetaData, unsigned long long, bool) block_pointer) const;
-    forEachPatchableExport(unsigned int, void (unsigned int, char const*, PatchKind) block_pointer) const;
-    forEachPatchableUseOfExportInImage(unsigned int, unsigned int, unsigned int, void (unsigned int, dyld3::MachOFile::PointerMetaData, unsigned long long, bool) block_pointer) const;
-    imageHasClient(unsigned int, unsigned int) const;
+    auto clientsExportsForImageAndClient(unsigned int, unsigned int) const;
+    auto forEachPatchableCacheUseOfExport(unsigned int, unsigned int, unsigned long long, unsigned long long (unsigned int) block_pointer, void (unsigned long long, dyld3::MachOFile::PointerMetaData, unsigned long long, bool) block_pointer) const;
+    auto forEachPatchableExport(unsigned int, void (unsigned int, char const*, PatchKind) block_pointer) const;
+    auto forEachPatchableUseOfExportInImage(unsigned int, unsigned int, unsigned int, void (unsigned int, dyld3::MachOFile::PointerMetaData, unsigned long long, bool) block_pointer) const;
+    auto imageHasClient(unsigned int, unsigned int) const;
 };

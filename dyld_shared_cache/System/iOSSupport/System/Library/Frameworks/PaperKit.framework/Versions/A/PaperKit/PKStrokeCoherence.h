@@ -36,23 +36,23 @@
 - (struct CGAffineTransform);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
 - (CDStruct_b73f67e6);
+- (struct CGAffineTransform);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (struct CGAffineTransform)ÿÀ;
+- (void)óýÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect _bounds;

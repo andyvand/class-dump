@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (long long);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id)tureTranslation;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *array; // @synthesize array=_array;

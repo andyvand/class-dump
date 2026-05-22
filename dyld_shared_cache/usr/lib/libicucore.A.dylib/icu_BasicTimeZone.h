@@ -7,10 +7,10 @@ public: // (access info unavailable from symbols alone)
     BasicTimeZone();
     BasicTimeZone(icu::BasicTimeZone const&);
     BasicTimeZone(icu::UnicodeString const&);
-    getOffsetFromLocal(double, UTimeZoneLocalOption, UTimeZoneLocalOption, int&, int&, UErrorCode&) const;
-    getOffsetFromLocal(double, int, int, int&, int&, UErrorCode&) const;
-    getSimpleRulesNear(double, icu::InitialTimeZoneRule*&, icu::AnnualTimeZoneRule*&, icu::AnnualTimeZoneRule*&, UErrorCode&) const;
-    getTimeZoneRulesAfter(double, icu::InitialTimeZoneRule*&, icu::UVector*&, UErrorCode&) const;
-    hasEquivalentTransitions(icu::BasicTimeZone const&, double, double, signed char, UErrorCode&) const;
+    auto getOffsetFromLocal(double, UTimeZoneLocalOption, UTimeZoneLocalOption, int&, int&, UErrorCode&) const;
+    auto getOffsetFromLocal(double, int, int, int&, int&, UErrorCode&) const;
+    auto getSimpleRulesNear(double, icu::InitialTimeZoneRule*&, icu::AnnualTimeZoneRule*&, icu::AnnualTimeZoneRule*&, UErrorCode&) const;
+    auto getTimeZoneRulesAfter(double, icu::InitialTimeZoneRule*&, icu::UVector*&, UErrorCode&) const;
+    auto hasEquivalentTransitions(icu::BasicTimeZone const&, double, double, signed char, UErrorCode&) const;
     ~BasicTimeZone();
 };

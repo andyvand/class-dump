@@ -20,13 +20,13 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setHandler:) CDUnknownBlockType _handler; // @synthesize _handler=__handler;

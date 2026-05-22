@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)x;
+- (id);
 - (_Bool);
 - (id);
 - (id);

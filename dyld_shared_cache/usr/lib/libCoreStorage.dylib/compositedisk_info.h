@@ -4,7 +4,7 @@
 
 class compositedisk_info {
 public: // (access info unavailable from symbols alone)
-    resume_migration(int);
-    suspend_migration(int, char const*);
+    auto resume_migration(int);
+    auto suspend_migration(int, char const*);
     ~compositedisk_info();
 };

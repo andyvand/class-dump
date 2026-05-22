@@ -15,9 +15,9 @@
 }
 
 - (double);
-- (id)@0:(id)arg1 8@16@24;
 - (id);
-- (void);
+- (id);
+- (void)ormDialogActionCommand;
 
 // Remaining properties
 @property(readonly, nonatomic) double positionTime; // @synthesize positionTime=_positionTime;

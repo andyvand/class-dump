@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)pplying edits to the content of message:%@ /* Error: Ran out of types for this method. */;
-- (void)";
-- (void)vider:(double)arg1 perRecordDecayRate: /* Error: Ran out of types for this method. */;
-- (double)OfService: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (double)s %d, with %d channels;
 - (void);
-- (double)2B40;
-- (struct CGPoint)r;
-- (id)ed:,V_manualScrollEdgeAppearanceEnabled /* Error: Ran out of types for this method. */;
+- (double);
 - (void);
-- (double)å6\;
-- (double)iM^;
-- (void)UÙc;
+- (double);
+- (void);
+- (id);
+- (double);
+- (void);
+- (void)ription:(double)arg1 %@ reason:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (double);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double absoluteTime; // @synthesize absoluteTime=_absoluteTime;

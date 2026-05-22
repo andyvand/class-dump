@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)FNetworkConfigurationAllowedHostPurpose_HomeEcosystem;
+- (id);
+- (void)Ð;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *groupItems; // @synthesize groupItems=_groupItems;

@@ -18,29 +18,26 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id)csTargetReportSizeForHighQualityPhotoSize:(id)arg1 commonCapabilities:(double)arg2;
-- (void);
-- (void);
-- (double)!t°!ÐCùÈð1¢!0@ù
-× ;
-- (id)ew:(id)arg1 presentedFromRect:textHighlightColor: /* Error: Ran out of types for this method. */;
-- (void)ess:(CDUnknownBlockType)arg1;
-- (_Bool)hÃþÿ;
-- (_Bool)gnnd_;
-- (_Bool)v32@?0@"NSNumber"8@"UIImage"16^B24;
-- (id)istSeparatorConfiguration"16;
-- (_Bool)______ï?Ó?¤??q=
-×£pÝ?×£p=
-×ã?Á?;
-- (_Bool);
-- (double);
-- (struct CGAffineTransform)M÷ÿ3@Ãdþ=÷ÿ3°eþ;
-- (long long);
+- (id);
+- (id)mode if necessary for change in width from %g to %g;
+- (long long)aseTime;
+- (_Bool)ring *getIAPayloadKeySafariScale(void);
+- (double)hangedNotification;
+- (id)n;
 - (_Bool);
-- (long long)ô¥ÌÊ [;
+- (struct CGAffineTransform);
+- (_Bool)¢;
+- (_Bool)yxG;
+- (void);
+- (_Bool)n;
+- (_Bool)NR013dð;
+- (void)HÃ,<ä;
 - (_Bool);
-- (id)k\;
-- (double)Ù\;
+- (id)Driver;
+- (double)¸Fqþ;
+- (double)É43@tþ;
+- (void)[;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

@@ -16,7 +16,7 @@
 
 - (void);
 - (void);
-- (void)y;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,11 +24,11 @@
 - (double);
 - (id);
 - (void);
-- (CDUnknownBlockType);
 - (void);
-- (id)a;
 - (id);
-- (id);
+- (id);
+- (CDUnknownBlockType);
+- (id);
 - (void);
 - (void);
 

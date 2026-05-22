@@ -74,27 +74,29 @@
 - (long long);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
 - (struct CGSize);
 - (void);
-- (id);
-- (void)flightExportWithOptions:assetAvailability:isProcessingRequired:fileURLs:info: /* Error: Ran out of types for this method. */;
-- (id)Result:changedObjects: /* Error: Ran out of types for this method. */;
-- (id)ions:,V__badgeOptions /* Error: Ran out of types for this method. */;
-- (id);
-- (id)òûÿ;
-- (id);
-- (void);
 - (void);
-- (id)@òeÿpòeÿmockEmptyContentUpdates;
-- (void)InLo5;
+- (id);
 - (void);
-- (void)oÛ6;
-- (id)$8;
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (void);
+- (id)1â
+0@ù
+× ;
+- (void)CurrentStartSearchFeedback:(id)arg1;
+- (void)ionProvider;
+- (id)with allowedOIDs, pick one.;
+- (void);
+- (void);
+- (id)á è·6;
+- (id)è7;
+- (id)ô7;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsTextSelection; // @synthesize allowsTextSelection=_allowsTextSelection;

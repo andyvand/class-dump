@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
     unsigned long long _hash;
 }
 
-+ (id)quested identifier %@, may have changed due to inconsistent properties;
++ (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)ppearanceTransition;
+- (void);
 
 @end
 

@@ -18,25 +18,25 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
 - (int);
-- (id);
-- (unsigned long long)ng:%@ (not allowed) /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void)identified no items;
-- (void);
-- (void)L^;
-- (void)p;
-- (_Bool);
-- (id);
-- (id);
-- (id)g *getITLibMediaItemPropertyArtwork();
+- (void)eedURL__MAPPING_MISSING__;
+- (void)ionPropertiesToFetch:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) int comparisonType; // @synthesize comparisonType=_comparisonType;

@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)HasIsActionUserDevice:(id)arg1;
 - (void);
 - (id);
+- (void)NSDictionary",C,N,V_assetStoreFronts;
 
 @end
 

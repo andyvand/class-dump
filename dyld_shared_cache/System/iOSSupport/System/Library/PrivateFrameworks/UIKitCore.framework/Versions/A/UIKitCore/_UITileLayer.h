@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     _Atomic _Bool pendingDeferredOffscreenSetNeedsDisplay;
 }
 
-- (void)>;
-- (void)nMenuDisappears"b1"waitingForSelectionAnimationHalfwayPoint"b1"contentViewWantsSystemLayoutSizeFittingSize"b1"selectionOrHighlightStateChangedSinceBackgroundUpdate"b1"allowsStateUpdatesWhenEvaluatingBackgroundAppearance"b1"lastNormalBackgroundConfigurationWasClearedForListAppearanceChange"b1"needsFocusEffectUpdateAfterLayout"b1"shouldSkipPrepareForConfigurationStateUpdate"b1"ignoreFocusStateForFetchingLastNormalConfigurationState"b1};
-- (id)î­3;
 - (void);
+- (id)ize;
+- (void);
+- (void)¾];
 
 @end
 

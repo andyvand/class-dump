@@ -14,7 +14,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (void);
@@ -24,13 +24,13 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool)7h"A9;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool)ureFlagTestSwizzerUnswizzlingFailedNotSwizzling;
++ (_Bool);
++ (_Bool);
 
 @end
 

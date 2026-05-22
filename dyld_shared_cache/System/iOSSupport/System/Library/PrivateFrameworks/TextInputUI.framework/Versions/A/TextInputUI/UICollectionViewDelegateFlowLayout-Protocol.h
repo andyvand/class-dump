@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView, UICollectionViewLayout;
-
 @protocol UICollectionViewDelegateFlowLayout
-
-@optional
-- (struct CGSize);
-- (double)Name:(UICollectionView *)arg1 withProperties:(UICollectionViewLayout *)arg2 withSubtrees:(long long)arg3 withCache: /* Error: Ran out of types for this method. */;
 @end
 

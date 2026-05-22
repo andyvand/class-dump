@@ -6,6 +6,7 @@
 #import "CDLCChainedFixups.h"
 
 #import "CDMachOFile.h"
+#import "CDLCSegment.h"
 
 #import <mach-o/fixup-chains.h>
 
@@ -52,6 +53,9 @@ static NSString *ImportsFormatName(uint32_t fmt)
     NSArray<NSString *> *_importNames;
     BOOL _parsed;
     struct dyld_chained_fixups_header _header;
+    // VM address (uint64_t boxed as NSNumber) → import symbol name (NSString).
+    // Populated lazily during -applyToMutableData:imageBase:.
+    NSMutableDictionary<NSNumber *, NSString *> *_bindNameByAddress;
 }
 
 - (uint32_t)fixupsVersion { [self ensureParsed]; return _header.fixups_version; }
@@ -192,17 +196,20 @@ static NSString *ImportsFormatName(uint32_t fmt)
 
 #pragma mark - Chain walking
 
-// Resolve a raw 64-bit chain entry into (resolvedAddress, nextStrideUnits, isBind).
+// Resolve a raw 64-bit chain entry into (resolvedAddress, nextStrideUnits, isBind, ordinal).
+// `outOrdinal` is set to the import-table ordinal for binds, 0 for rebases.
 // Returns YES if the slot represents a valid entry; NO to stop the chain
 // (e.g. corrupt/unsupported).
 static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase,
                                uint64_t *outResolved, uint32_t *outNextStrideUnits,
-                               BOOL *outIsBind, uint32_t *outStrideBytes)
+                               BOOL *outIsBind, uint32_t *outStrideBytes,
+                               uint32_t *outOrdinal)
 {
     uint64_t resolved = 0;
     uint32_t next = 0;
     BOOL isBind = NO;
     uint32_t stride = 4; // default for arm64e family
+    uint32_t ordinal = 0;
 
     switch (format) {
         case DYLD_CHAINED_PTR_ARM64E:
@@ -224,6 +231,12 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
                     stride = 4; break;
             }
             if (isBind) {
+                // USERLAND24 / auth_bind24 use a 24-bit ordinal; the other
+                // ARM64E variants use 16 bits.
+                if (format == DYLD_CHAINED_PTR_ARM64E_USERLAND24)
+                    ordinal = (uint32_t)(raw & 0xFFFFFFULL);
+                else
+                    ordinal = (uint32_t)(raw & 0xFFFFULL);
                 resolved = 0;
             } else if (auth) {
                 // auth_rebase: target is 32-bit runtimeOffset (image-relative)
@@ -247,6 +260,7 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
             next   = (uint32_t)((raw >> 51) & 0xFFF);
             stride = 4;
             if (isBind) {
+                ordinal = (uint32_t)(raw & 0xFFFFFFULL); // 24-bit ordinal
                 resolved = 0;
             } else {
                 uint64_t target = raw & 0xFFFFFFFFFULL; // 36 bits in modern _64? Actually 43 in classic _64.
@@ -262,6 +276,7 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
             next   = (uint32_t)((raw >> 51) & 0xFFF);
             stride = 4;
             if (isBind) {
+                ordinal = (uint32_t)(raw & 0xFFFFFFULL); // 24-bit ordinal
                 resolved = 0;
             } else {
                 uint64_t target = raw & 0xFFFFFFFFFULL; // 36 bits
@@ -293,6 +308,7 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
     if (outNextStrideUnits) *outNextStrideUnits = next;
     if (outIsBind) *outIsBind = isBind;
     if (outStrideBytes) *outStrideBytes = stride;
+    if (outOrdinal) *outOrdinal = ordinal;
     return YES;
 }
 
@@ -311,6 +327,14 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
 
     NSUInteger fileLen = [data length];
     uint8_t *fileBytes = (uint8_t *)[data mutableBytes];
+
+    // Snapshot of segments for file-offset → VM-address translation. We can't
+    // ask self.machOFile.segments inside the inner loop because that triggers
+    // weak-reference loads on every bind slot; cache once up front.
+    NSArray<CDLCSegment *> *machoSegments = [self.machOFile segments];
+
+    if (_bindNameByAddress == nil)
+        _bindNameByAddress = [[NSMutableDictionary alloc] init];
 
     for (uint32_t s = 0; s < image->seg_count; s++) {
         uint32_t segInfoOff = image->seg_info_offset[s];
@@ -344,8 +368,30 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
                 uint64_t resolved = 0;
                 uint32_t nextUnits = 0;
                 BOOL isBind = NO;
-                if (!CDDecodeChainEntry(raw, fmt, imageBase, &resolved, &nextUnits, &isBind, &strideBytes)) {
+                uint32_t ordinal = 0;
+                if (!CDDecodeChainEntry(raw, fmt, imageBase, &resolved, &nextUnits, &isBind, &strideBytes, &ordinal)) {
                     break;
+                }
+
+                // For binds, record VM address → import symbol name BEFORE
+                // we overwrite the slot. CDObjectiveC2Processor later asks
+                // for an external class name at this VM address.
+                if (isBind && ordinal < [_importNames count]) {
+                    NSString *importName = [_importNames objectAtIndex:ordinal];
+                    if ([importName length] > 0) {
+                        uint64_t vmAddr = 0;
+                        for (CDLCSegment *cdSeg in machoSegments) {
+                            NSUInteger fo = cdSeg.fileoff;
+                            NSUInteger sz = cdSeg.filesize;
+                            if (cursor >= fo && cursor < fo + sz) {
+                                vmAddr = (uint64_t)cdSeg.vmaddr + (cursor - (uint64_t)fo);
+                                break;
+                            }
+                        }
+                        if (vmAddr != 0) {
+                            _bindNameByAddress[@(vmAddr)] = importName;
+                        }
+                    }
                 }
 
                 memcpy(fileBytes + cursor, &resolved, 8);
@@ -358,6 +404,11 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
             }
         }
     }
+}
+
+- (NSString *)bindNameForAddress:(uint64_t)address;
+{
+    return _bindNameByAddress[@(address)];
 }
 
 @end

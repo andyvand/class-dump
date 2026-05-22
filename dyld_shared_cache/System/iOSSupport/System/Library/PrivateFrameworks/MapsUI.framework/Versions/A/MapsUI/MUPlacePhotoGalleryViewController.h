@@ -119,22 +119,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void)PlaceRibbonSectionControllerConfiguration";
-- (void)ionControllerInit;
-- (_Bool)CH_MAP_PRESS_MENU;
-- (id);
-- (void)¤ù4ï;
-- (void);
+- (void)ercentageStringComponentsFromCurrentViewModel;
+- (id)ard];
+- (void)ÀÍ¦
+;
 
 // Remaining properties
 @property(readonly, nonatomic) UIBarButtonItem *addPhotoBarButtonItem; // @synthesize addPhotoBarButtonItem=_addPhotoBarButtonItem;

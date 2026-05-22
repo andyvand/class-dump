@@ -36,85 +36,82 @@ __attribute__((visibility("hidden")))
     NSArray *_clonedDecorationAttributes;
 }
 
+- (struct CGRect);
 - (id);
-- (_Bool);
 - (id);
-- (void)s:(id)arg1;
-- (id)yloadCheckCertificateTrust;
-- (_Bool);
+- (id);
+- (id);
 - (void);
-- (_Bool)ic.m;
 - (void);
-- (id);
-- (id);
-- (id);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (id);
 - (struct CGRect);
-- (struct CGRect)ÛÓþ¹;
-- (void)
-× ;
-- (id)qÄð1¢!0@ù
-× ;
+- (id);
 - (void);
-- (id)ù
-× ;
-- (_Bool);
-- (id)
-× ;
-- (long long)1¢!0@ù
-× ;
+- (long long);
+- (void);
 - (id);
-- (void)t=dd}{CGSize=dd}}24;
-- (void)ded"b1"isSwiped"b1"isReordering"b1"cellDragState"b2"cellDropState"b2"usesAnyPlainListStyle"b1"inMultiSelectGroup"b1"typeSelectState"b2};
-- (_Bool)dedCorners"b4"resizesToFullScreen"b1"keepContextInBackground"b1"forceVisibleOnInit"b1"settingFirstResponder"b1"windowResizedToFullScreen"b1"statusBarFollowsOrientation"b1"secure"b1"isSceneSized"b1"didSetRestorationIdentifier"b1"resigningFirstResponderFromHost"b1"needsBoundingPathUpdate"b1"avoidUpdatingSafeAreaInsets"b1"sceneIsWindowScene"b1"needsFramePositionAdjustmentWhenWindowSceneIsAttached"b1"enqueuedDeferredOrientationUpdate"b1"isNotifyingColorTraitChangeForSubtree"b1"allowsResponderChainSceneHopping"b1"needsCleanupOfOrientationTransaction"b1"wantsSuperlayerSecurityAnalysis"b1};
-- (long long)nerInsetResolver"16@0:(long long)arg1 8;
-- (void)uldClear: /* Error: Ran out of types for this method. */;
-- (id)ewBounds:(id)arg1;
-- (struct CGRect):(id)arg1 force:delayEndInputSession: /* Error: Ran out of types for this method. */;
-- (id)iers;
-- (id)ributedText;
-- (id)nuLeaf:(long long)arg1;
-- (id)uttonMarginX;
-- (void)wsEffectiveFocus;
-- (void)Rect={CGPoint=dd}{CGSize=dd}},N,S_setToEndFrame:(_Bool)arg1 ,V_toEndFrame;
-- (long long)er: /* Error: Ran out of types for this method. */;
-- (void)sCustomizableInstanceAppearanceModifications:(id)arg1 ,V_hasCustomizableInstanceAppearanceModifications;
-- (id)youtControllerBase<_UITextLayoutController>",R,N;
-- (long long)Intent: /* Error: Ran out of types for this method. */;
-- (void)ing",C,N,V_sessionActionString;
-- (id)lock:(struct CGRect)arg1;
-- (_Bool)T@"UIDragEvent",W,N,V_dragEvent;
+- (id);
 - (id);
 - (_Bool);
-- (struct CGRect)øþÿÿèÿLèxþäþÿ;
-- (id)ÿ"üÿ;
-- (long long);
-- (void)3yÍvj8GGG;
-- (id)(UIView *__strong);
-- (void)ightChangedDurationKey;
-- (void)t:(id)arg1 %@;
+- (void);
+- (_Bool);
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
 - (id);
-- (long long)ntifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
-- (struct CGRect)onBarCameraSmall.png;
-- (long long)ed:(long long)arg1;
-- (void)¤þ;
-- (id){Ðl1^;
-- (id)a`;
-- (void)Ða;
-- (void)¾È96b;
-- (struct CGSize)H9.ÿË×É¹b;
-- (long long)½;
-- (void)-e;
-- (void)åÆg;
-- (struct CGRect)i;
-- (void)j;
-- (id)ÿ¾
-Îãj;
-- (id)Ö§o;
+- (id);
+- (id)ù1Y°1Â0@ù
+× ;
+- (id)1Â0@ù
+× ;
+- (long long)@ù1_°1Â0@ù
+× ;
+- (id);
+- (id)× ;
+- (_Bool)× ;
+- (id)rollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
+- (id)CGPoint=dd}{CGSize=dd}}24@56B64B68B72;
+- (id)oint=dd}{CGSize=dd}}24;
+- (id);
+- (void)View;
+- (id)ck:(struct CGRect)arg1 failureBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)ctionPrefetchingContexts;
+- (void)utoDeactivationCount;
+- (id)mentPoint;
+- (void)ViewServiceViewControllerDeputyXPCInterface;
+- (long long)nteractionSettings;
+- (id)d;
+- (long long);
+- (_Bool)d;
+- (void)¤;
+- (void)*;
+- (id);
+- (void)utoresizesArchivedViewToFullSize;
+- (struct CGRect)on_allowsDefaultTighteningForTruncation;
+- (void)inputBlurDistance4;
+- (void)Presentation.framework/LinkPresentation;
+- (id)DçJWÆ¿DçJWÆ?ÐM!Ð¤?ó18Ã?-DTû!	@;
+- (void)bLayer;
+- (void)Ò­;
+- (_Bool);
+- (_Bool)2^;
+- (long long)04ÿÜÚ46^;
+- (struct CGRect)á^;
+- (void)¨úþ#.Öìb;
+- (void);
+- (long long)xsd;
+- (long long)±Îf;
+- (id)Ädsÿ@H_;
+- (void)Sû;
+- (struct CGRect)lLÊÿ¬ÜÔ*h;
+- (long long)¼¸Àÿ¼ÀL;
+- (void)5;
+- (id)2j;
+- (struct CGSize)ØÑÿÙ;
+- (id)¨=p;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *clonedCellAttributes; // @synthesize clonedCellAttributes=_clonedCellAttributes;

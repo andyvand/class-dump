@@ -13,12 +13,12 @@
 }
 
 + (_Bool);
-+ (_Bool)i;
-+ (id)icsWithPrompt:(unsigned long long)arg1 displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (id);
 + (id);
 + (Class);
 + (id);
-+ (id)!;
++ (id);
 - (id);
 - (_Bool);
 - (void);
@@ -26,11 +26,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (id);
 - (double);
-- (long long)1­6/;
+- (id);
+- (long long)%p, %@, %@] duration and power levels restored from metadataDict %@.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

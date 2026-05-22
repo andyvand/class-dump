@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)w;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)emove key for identifier, %@ in keychain, error, %d;
 
 // Remaining properties
 @property(retain, nonatomic) RTLearnedPlace *existingVersion; // @synthesize existingVersion=_existingVersion;

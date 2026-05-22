@@ -16,9 +16,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool)AUð!|DùñW1b0@ù
-× ;
+- (void)_libraryStateImage;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool isVisible; // @synthesize isVisible;

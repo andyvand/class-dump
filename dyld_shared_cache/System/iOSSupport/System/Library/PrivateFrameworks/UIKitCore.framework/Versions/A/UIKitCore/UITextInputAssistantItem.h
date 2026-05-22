@@ -25,9 +25,9 @@
 
 + (id);
 - (void);
-- (void)y">52;
-- (id)ication;
-- (_Bool)er;
+- (void);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -37,31 +37,31 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)ded store:%s /* Error: Ran out of types for this method. */;
-- (_Bool)er | Recently Deleted:returning nil record. recordID nil for metadata:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ge:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)g data from KVStore %@;
-- (id)%@, tried rowid %lld instead, found? %{BOOL}d;
-- (id)o retries remain ;
-- (id)Message with %@ is not yet complete, no retries remain ;
-- (id)rying it a bit ;
-- (id)tributes:%@ /* Error: Ran out of types for this method. */;
-- (void)HashId;
-- (double)rsistentTaskExecutorStatus;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool)^;
-- (void);
-- (id)ller;
-- (id)ivationConditions: /* Error: Ran out of types for this method. */;
-- (void)ü;
+- (double);
+- (id);
+- (id);
 - (void);
-- (void)Õ;
-- (void)\Ð`;
-- (void)Á?ÔRb;
-- (void)jËd;
-- (void)~þ;
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void)m.apple.language.changed;
+- (void)Ð"ÿ$;
+- (void)¦¬ó;
+- (void)ÿ5°Ì;
+- (void)2Û0*g;
+- (void)<ú¶;
+- (void)cþ²;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsHidingShortcuts; // @synthesize allowsHidingShortcuts=_allowsHidingShortcuts;

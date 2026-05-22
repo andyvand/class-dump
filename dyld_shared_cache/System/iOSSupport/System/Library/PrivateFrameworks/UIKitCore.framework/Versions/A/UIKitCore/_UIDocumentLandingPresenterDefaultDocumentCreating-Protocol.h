@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, UIDocumentBrowserViewController;
-
 @protocol _UIDocumentLandingPresenterDefaultDocumentCreating
-- (void);
-- (void)yReceipt:(UIDocumentBrowserViewController *)arg1 deliveryContext:(NSURL *)arg2 storageContext:(NSURL *)arg3 batchContext:messageContext:isBeingReplayed:mergeID:wantsCheckpointing:isSnapTrustedUser: /* Error: Ran out of types for this method. */;
 @end
 

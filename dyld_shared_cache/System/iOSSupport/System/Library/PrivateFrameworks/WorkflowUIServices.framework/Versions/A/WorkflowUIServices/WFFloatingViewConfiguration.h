@@ -30,16 +30,16 @@
 - (void);
 - (long long);
 - (void);
-- (double);
-- (void);
-- (double);
-- (void);
-- (double);
-- (float);
 - (void);
 - (id);
-- (struct CGSize);
+- (float);
 - (void);
+- (double);
+- (double);
+- (void);
+- (struct CGSize)tionalInsets: /* Error: Ran out of types for this method. */;
+- (double);
+- (void)l)ÿÿ$tôÿ8A;
 
 // Remaining properties
 @property(nonatomic) _Bool appliesCornerRadiusDuringTouchDownOnly; // @synthesize appliesCornerRadiusDuringTouchDownOnly=_appliesCornerRadiusDuringTouchDownOnly;

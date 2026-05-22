@@ -10,8 +10,8 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)xists does not match the consumer key. The user has been logged out.;
 
 @end
 

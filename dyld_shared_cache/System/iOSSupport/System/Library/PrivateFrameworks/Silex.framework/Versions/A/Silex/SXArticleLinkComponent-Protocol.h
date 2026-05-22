@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol SXArticleLinkComponent
-- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *articleIdentifier;

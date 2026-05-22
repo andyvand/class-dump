@@ -4,9 +4,9 @@
 
 class NoneCompressor {
 public: // (access info unavailable from symbols alone)
-    CompressData(CompressionInfo&) const;
-    ConfigureScratchBuffer(CompressionInfo&) const;
-    Destroy();
-    GetCompressedMaxSize(CompressionInfo&) const;
+    auto CompressData(CompressionInfo&) const;
+    auto ConfigureScratchBuffer(CompressionInfo&) const;
+    auto Destroy();
+    auto GetCompressedMaxSize(CompressionInfo&) const;
     ~NoneCompressor();
 };

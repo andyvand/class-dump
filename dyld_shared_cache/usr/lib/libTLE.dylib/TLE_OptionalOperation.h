@@ -4,7 +4,7 @@
 
 class TLE::OptionalOperation {
 public: // (access info unavailable from symbols alone)
-    Execute(TLE::Encyclopedia&);
-    shouldIgnore();
+    auto Execute(TLE::Encyclopedia&);
+    auto shouldIgnore();
     ~OptionalOperation();
 };

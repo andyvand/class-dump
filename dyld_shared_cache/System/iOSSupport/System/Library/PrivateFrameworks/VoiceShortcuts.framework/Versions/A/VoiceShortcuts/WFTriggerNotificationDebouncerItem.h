@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
-- (id)ne %{public}@;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WFConfiguredTrigger *configuredTrigger; // @synthesize configuredTrigger=_configuredTrigger;

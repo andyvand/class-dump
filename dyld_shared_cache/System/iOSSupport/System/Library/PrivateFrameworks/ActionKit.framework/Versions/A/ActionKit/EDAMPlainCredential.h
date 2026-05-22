@@ -17,10 +17,10 @@
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id)?q=%@;
+- (id);
+- (void)|;
+- (void)found on this device.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *password; // @synthesize password=_password;

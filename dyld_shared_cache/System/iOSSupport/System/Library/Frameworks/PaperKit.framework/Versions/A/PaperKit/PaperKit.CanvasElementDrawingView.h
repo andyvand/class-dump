@@ -44,15 +44,15 @@
 - (void);
 - (struct CGAffineTransform);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void)ôNÿÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *additionalStrokes;

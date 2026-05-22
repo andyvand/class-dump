@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id)cription;
-- (id)ame;
-- (_Bool);
-- (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)(l;
+- (void)ype¸;
 
 @end
 

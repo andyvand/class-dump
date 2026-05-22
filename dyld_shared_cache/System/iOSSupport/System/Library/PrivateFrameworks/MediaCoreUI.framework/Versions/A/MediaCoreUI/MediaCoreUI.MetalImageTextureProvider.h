@@ -15,8 +15,8 @@
     MISSING_TYPE *$__lazy_storage_$_displayModePublisher;
 }
 
-- (void);
 - (id);
+- (void)show context menu preview for touch at %{public}s. Will expand = %{bool}d based on excluded tap areas:%{public}s. /* Error: Ran out of types for this method. */;
 
 @end
 

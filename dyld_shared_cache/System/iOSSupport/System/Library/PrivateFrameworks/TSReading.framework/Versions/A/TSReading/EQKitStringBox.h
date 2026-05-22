@@ -21,22 +21,22 @@
 }
 
 - (void);
-- (double)A!;
+- (double);
 - (void);
 - (id);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (double)?;
-- (struct CGColor *);
 - (id);
+- (struct __CTLine *);
 - (id);
 - (double);
-- (id): /* Error: Ran out of types for this method. */;
-- (struct __CTLine *)V½/;
-- (double)V*;
+- (double);
+- (struct CGColor *);
+- (_Bool);
+- (id);
+- (id);
+- (double)¥;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=mAttributedString;

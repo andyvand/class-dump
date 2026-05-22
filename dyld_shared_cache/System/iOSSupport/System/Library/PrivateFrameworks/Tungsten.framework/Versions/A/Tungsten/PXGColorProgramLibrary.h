@@ -21,9 +21,9 @@
 - (id);
 - (struct CGColorSpace *);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColorSpace *destinationColorSpace; // @synthesize destinationColorSpace=_destinationColorSpace;

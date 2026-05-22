@@ -24,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)b;
+- (void);
 - (_Bool);
 - (_Bool);
 - (struct _NSRange);
 - (void);
-- (void)Process>:(id)arg1:get() const [T = WebKit::NetworkProcess, WeakPtrImpl = WTF::DefaultWeakPtrImpl] /* Error: Ran out of types for this method. */;
-- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

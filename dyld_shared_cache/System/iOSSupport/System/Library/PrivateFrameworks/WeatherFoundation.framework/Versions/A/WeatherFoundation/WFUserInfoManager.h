@@ -21,12 +21,12 @@
 - (void);
 - (id);
 - (void);
-- (void)ModeState;
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

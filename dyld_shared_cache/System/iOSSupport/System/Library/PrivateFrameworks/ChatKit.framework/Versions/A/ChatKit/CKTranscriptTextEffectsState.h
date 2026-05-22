@@ -15,10 +15,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (_Bool);
-- (id));
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool hasAttention; // @synthesize hasAttention;

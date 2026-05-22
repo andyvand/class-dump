@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXGAXResponder;
+@class NSObject;
+@protocol PXAnonymousScrollView, PXGAXResponder;
 
 @protocol PXGAXResponder
-- (void);
-- (_Bool)t{;
+- (void)}ffffSCf{?=[4]}}24N^{?=CCfqSC}32{_PXGSpriteIndexRange=II}40B48;
+- (NSObject<PXAnonymousScrollView> *)itle;
+- (void)ViewModulator.m;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXGAXResponder> axNextResponder;

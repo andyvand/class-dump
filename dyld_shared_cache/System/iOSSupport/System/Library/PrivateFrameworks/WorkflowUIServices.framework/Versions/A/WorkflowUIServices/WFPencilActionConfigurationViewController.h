@@ -13,8 +13,8 @@
 - (void);
 - (id);
 - (id);
-- (void)ñþÿR;
-- (void)izedEnvironmentKey;
+- (void);
+- (void);
 
 @end
 

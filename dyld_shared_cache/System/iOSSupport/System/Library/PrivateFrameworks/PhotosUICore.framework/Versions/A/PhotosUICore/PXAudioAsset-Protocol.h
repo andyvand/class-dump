@@ -8,9 +8,9 @@
 @protocol PXAudioAsset, PXDisplayAsset;
 
 @protocol PXAudioAsset
-- (NSString *)eOverrideCoordinateSystem;
-- (CDStruct_1b6d18a9)osUICore/ActionsCore/PXRenamePersonAction.m;
-- (NSString *);
+- (unsigned long long)atedAudioAssets;
+- (NSString *)brary:includingDebugAlbums: /* Error: Ran out of types for this method. */;
+- (NSString *)oupIdentifier;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *albumTitle;

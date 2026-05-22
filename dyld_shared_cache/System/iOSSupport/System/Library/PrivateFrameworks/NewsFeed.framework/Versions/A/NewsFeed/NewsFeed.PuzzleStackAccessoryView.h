@@ -14,10 +14,11 @@
     MISSING_TYPE *stackViews;
 }
 
+- (id);
 - (void);
-- (id)l;
-- (void)nnectionProxyDictionary: /* Error: Ran out of types for this method. */;
-- (id)ß©;
+- (id)
+× ;
+- (void);
 
 @end
 

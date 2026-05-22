@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)hatWithGUID:(id)arg1 chatIdentifiers:style:services:limit:reply: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void)x:(_Bool)arg1 additionalFrameOffset:interSolutionSpacing:repeatAxis: /* Error: Ran out of types for this method. */;
-- (_Bool)move row at index path %@ to both %@ and %@;
 - (id);
+- (void);
+- (void);
+- (void);
+- (id)UIViewHostingSceneSpecification;
+- (_Bool);
+- (void)hçÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

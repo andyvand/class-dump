@@ -7,8 +7,8 @@
 @protocol _UISceneLayoutPreferencesCoordinatorDelegate;
 
 @protocol _UISceneLayoutPreferencesCoordinator
-- (id <_UISceneLayoutPreferencesCoordinatorDelegate>)àbûÿsþÿ;
-- (void)6züÿ|xüÿ;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UISceneLayoutPreferencesCoordinatorDelegate> delegate;

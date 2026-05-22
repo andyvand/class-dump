@@ -18,19 +18,18 @@ __attribute__((visibility("hidden")))
     struct CGPoint _offset;
 }
 
-- (void)uplicateChatsSortedFromWinningToLosingWithLimit: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)<;
+- (void);
+- (void);
 - (id);
-- (void)ing archived currentBatchCount %@ maxNumberOfBatches %@;
-- (id)j;
-- (void)
-× ;
-- (struct CGPoint)¸?;
-- (id)ÎEf;
-- (_Bool)p	 ÿÉe;
-- (void)øãÿKØÞ×n;
-- (void)ÀH;
+- (void);
+- (id);
+- (void)oid);
+- (void)ô¿þ;
+- (_Bool)L¥];
+- (void)øîh;
+- (id)ð<yÿ;
+- (struct CGPoint)0Ol;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *containerView;

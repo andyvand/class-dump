@@ -15,25 +15,26 @@
     unsigned long long _currentReachability;
 }
 
-+ (id)*;
++ (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)tate;
-- (void)uest:(id)arg1 %@ for %@;
+- (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (void)c;
-- (id);
-- (id)assBytes;
 - (void);
-- (unsigned long long);
-- (void);
-- (void)ToInferredMapItemsMap;
-- (void)onnection_duration;
-- (void)B@Ø*Áâpy^À³Bî-N@;
-- (void)-lx;
+- (void)0@ù
+× ;
+- (void)RedactionDetails";
+- (void)ntage_of_days_with_static_motion_bucketed;
+- (void)ce stats for the same best identifier %@. Aborting fallback.;
+- (void)blocked by user defaults or feature flag;
+- (void)arted, identifier, %@;
+- (void)location, %{sensitive}@;
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentReachability; // @synthesize currentReachability=_currentReachability;

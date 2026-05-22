@@ -36,15 +36,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)MediaAccessControlItem init];
 
 // Remaining properties
 @property(retain, nonatomic) NAFuture *accountArbitrationFuture; // @synthesize accountArbitrationFuture=_accountArbitrationFuture;

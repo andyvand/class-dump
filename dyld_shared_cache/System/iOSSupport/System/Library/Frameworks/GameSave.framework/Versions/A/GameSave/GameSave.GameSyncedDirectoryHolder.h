@@ -27,13 +27,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) NSOperationQueue *presentedItemOperationQueue; // @synthesize presentedItemOperationQueue;

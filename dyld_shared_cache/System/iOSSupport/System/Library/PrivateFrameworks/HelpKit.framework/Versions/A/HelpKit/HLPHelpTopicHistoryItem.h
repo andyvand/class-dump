@@ -16,20 +16,20 @@
 }
 
 + (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (struct CGSize);
 - (void);
 - (struct CGPoint);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (struct CGSize)"HLPHelpTopicViewController"16@"NSError"24;
+- (void)habilityManagerConnectionStatusChanged:(id)arg1 connected: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *anchor; // @synthesize anchor=_anchor;

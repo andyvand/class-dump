@@ -20,10 +20,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)ü´Àÿßöiÿ;
-- (void)òÿû+;
+- (id)°1â
+0@ù
+× ;
+- (void)@?0@"HMOutgoingHomeInvitation"8;
+- (void)ìÌÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *devices; // @synthesize devices=_devices;

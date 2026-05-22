@@ -4,7 +4,7 @@
 
 class std::__1::__shared_ptr_emplace<JetPack::ReaderConfig, std::__1::allocator<JetPack::ReaderConfig>> {
 public: // (access info unavailable from symbols alone)
-    __on_zero_shared();
-    __on_zero_shared_weak();
+    auto __on_zero_shared();
+    auto __on_zero_shared_weak();
     ~__shared_ptr_emplace();
 };

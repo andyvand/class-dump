@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)tBaselineCalculation:,V_fontForShortcutBaselineCalculation /* Error: Ran out of types for this method. */;
++ (Class)ÞÎäÝ\;
 
 @end
 

@@ -8,10 +8,11 @@
 @protocol MTLDevice, MTLHeap;
 
 @protocol MTLResource
-- (unsigned long long)g high likelihood of heavy snow;
-- (unsigned long long)Èè¤8ñÿ;
-- (unsigned long long)H;
-- (unsigned long long);
+- (unsigned long long)Døÿøÿ¤øÿðøÿ<øÿøÿÀøÿtøÿ¨øÿôøÿ@øÿøÿøÿ$øÿ`øÿøÿÀøÿäøÿüøÿ8øÿ\øÿtøÿ°øÿ\øÿtøÿ¨øÿÌøÿðøÿøÿ°øÿÔøÿøÿ4øÿ¼øÿàøÿøÿXøÿ|øÿ øÿÜøÿ;
+- (void)f	ýÿ°]ÿÿ;
+- (unsigned long long)G_ACyª*^U$^GSgtGG;
+- (unsigned long long)®Gá>;
+- (id <MTLHeap>)hÿ;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

@@ -5,11 +5,10 @@
 //
 
 @protocol CKTypingIndicatorLayerProtocol
-- (id)MESSAGE_STATUS_EXPIRING;
+- (void)H;
 
 @optional
-- (void);
-- (void)ckSuggestionsForBanner, another banner is already up;
+- (void)8NSNumberCG;
 
 // Remaining properties
 @property(nonatomic) _Bool hasDarkBackground;

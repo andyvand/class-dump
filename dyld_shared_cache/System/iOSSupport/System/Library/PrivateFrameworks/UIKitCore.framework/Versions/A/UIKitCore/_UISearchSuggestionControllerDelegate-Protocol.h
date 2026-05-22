@@ -7,11 +7,9 @@
 @class UIColor, UITextField;
 
 @protocol _UISearchSuggestionControllerDelegate
-- (void)PresentationContext",R,C,N;
 
 @optional
-- (UIColor *)ChatID:identifier:didDeleteConversation:style:account: /* Error: Ran out of types for this method. */;
-- (UITextField *);
+- (UITextField *)_internal_coreHapticsEngineStoppedForReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *searchPlaceholderColor;

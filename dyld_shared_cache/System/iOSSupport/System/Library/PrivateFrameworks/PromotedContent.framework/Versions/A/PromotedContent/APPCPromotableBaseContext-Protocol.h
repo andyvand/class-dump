@@ -8,9 +8,7 @@
 @protocol APPCPromotableContentDepiction;
 
 @protocol APPCPromotableBaseContext
-- (NSArray *)rvalHoneymoon;
-- (struct CGSize);
-- (id <APPCPromotableContentDepiction>)!±I`íõÿ±Iîõÿ±I¼îõÿ;
+- (NSArray *);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *adjacent;

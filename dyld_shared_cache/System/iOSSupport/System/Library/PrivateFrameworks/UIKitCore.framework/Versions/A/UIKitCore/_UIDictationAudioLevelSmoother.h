@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
     float _exponentMultiplier;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (float);
-- (void)9 ;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,15 +37,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (float);
-- (float)ationNoticeDispatcher"16@"IMCollaborationClearTransmission"24@"NSString"32;
-- (float)nStatusForAlias: /* Error: Ran out of types for this method. */;
-- (float)ChatsWithGUIDs:(float)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (id)C;
-- (void)to reply not supported becuase local device does not have a SIM matching the last addressed SIM ID;
+- (float);
+- (float);
+- (float);
+- (id);
+- (void);
 - (void);
 - (float);
 - (void);
-- (void);
+- (void)16d24q32i40B44;
 
 // Remaining properties
 @property(nonatomic) float attackSpeed; // @synthesize attackSpeed=_attackSpeed;

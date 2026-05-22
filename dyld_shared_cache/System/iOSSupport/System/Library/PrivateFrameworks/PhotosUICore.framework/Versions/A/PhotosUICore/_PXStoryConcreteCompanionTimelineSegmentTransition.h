@@ -10,9 +10,9 @@
 }
 
 - (id);
-- (CDStruct_cac3ced6);
-- (long long);
-- (CDStruct_1b6d18a9)sMapInfoViewController initWithCoder:] /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9);
+- (CDStruct_cac3ced6)!;
+- (long long)P;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 duration;

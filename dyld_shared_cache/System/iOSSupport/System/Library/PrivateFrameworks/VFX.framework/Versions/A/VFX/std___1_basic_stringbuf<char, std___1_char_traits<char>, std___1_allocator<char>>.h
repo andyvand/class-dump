@@ -4,6 +4,6 @@
 
 class std::__1::basic_stringbuf<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
+    auto str() const;
     basic_stringbuf(std::__1::basic_stringbuf<char, std::__1::char_traits<char>, std::__1::allocator<char>>&&);
-    str() const;
 };

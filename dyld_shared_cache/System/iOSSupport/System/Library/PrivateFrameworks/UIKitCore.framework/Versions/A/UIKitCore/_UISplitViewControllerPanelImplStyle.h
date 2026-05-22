@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (double);
 - (double);
-- (_Bool)K;
-- (id);
-- (void);
-- (long long)ureDelegate;
-- (id);
-- (id)^;^;
+- (_Bool);
+- (id)6@0:8@16i24B28B32 /* Error: Ran out of types for this method. */;
+- (long long)rState"24{CGSize=dd}32;
+- (id)have a valid container.;
+- (void)ÌÌä?;
+- (id);
 
 @end
 

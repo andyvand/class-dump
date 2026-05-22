@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id)ckTimeChangedNotification;
+- (id);
 - (void);
-- (void);
+- (void)tton;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

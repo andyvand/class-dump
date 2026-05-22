@@ -26,10 +26,10 @@
 - (id);
 - (void);
 - (long long);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)r;
+- (void)ð;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollection *collection; // @synthesize collection=_collection;

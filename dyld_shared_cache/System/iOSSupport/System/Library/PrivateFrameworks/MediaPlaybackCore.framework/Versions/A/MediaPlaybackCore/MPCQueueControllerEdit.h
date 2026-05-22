@@ -20,17 +20,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id)ID: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)ueEndAction:completion: /* Error: Ran out of types for this method. */;
-- (void)ic}@ datePlayed=%{public}s;
+- (void);
+- (void)¦ | unable to create directory [] url=%{public}@ error=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsChangingCurrentItem; // @synthesize allowsChangingCurrentItem=_allowsChangingCurrentItem;

@@ -15,12 +15,12 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)	;
-- (id)u;
+- (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;

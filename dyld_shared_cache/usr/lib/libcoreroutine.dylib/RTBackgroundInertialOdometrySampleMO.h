@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *cfAbsTimestamp; // @dynamic cfAbsTimestamp;

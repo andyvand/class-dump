@@ -7,6 +7,6 @@
 @interface (null) (RTStateModel)
 - (id);
 - (id);
-- (id)@;
+- (id);
 @end
 

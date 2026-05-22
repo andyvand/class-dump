@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (id)Øüÿ<ÚüÿXÚüÿÄÛüÿHÝüÿpÝüÿ\Þüÿ¸ßüÿXæüÿléüÿéüÿ`÷üÿ@;
+- (void)ØÿÆTÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateComponentsFormatter *dateComponentsFormatter; // @synthesize dateComponentsFormatter=_dateComponentsFormatter;

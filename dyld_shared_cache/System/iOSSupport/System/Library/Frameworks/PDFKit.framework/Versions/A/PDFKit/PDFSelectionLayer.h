@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     long long styleMask;
 }
 
-- (void)houldBeSolved;
+- (void);
 
 @end
 

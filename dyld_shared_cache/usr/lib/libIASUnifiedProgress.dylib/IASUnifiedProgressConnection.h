@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_callers;
 }
 
-+ (id)public}s extension directly. Adding to cache.;
++ (id);
 - (void);
 - (_Bool);
 - (id);
@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 

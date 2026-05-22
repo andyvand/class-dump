@@ -14,13 +14,12 @@ __attribute__((visibility("hidden")))
     NSDocumentDifferenceSize *_betweenPreviousSavingAndSaving;
 }
 
-- (id)sage (%@) and we are not the default app (%@):not relaying message /* Error: Ran out of types for this method. */;
 - (id);
-- (id)tocol>",N,R;
-- (void)0@ù
-× ;
-- (id)gs;
-- (id),;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDocumentDifferenceSize *betweenPreservingPreviousVersionAndSaving; // @synthesize betweenPreservingPreviousVersionAndSaving=_betweenPreservingPreviousVersionAndSaving;

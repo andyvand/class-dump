@@ -15,12 +15,12 @@
 
 - (id);
 - (id);
-- (_Bool);
-- (void),N,V_customMarkString;
-- (void);
-- (id)pe;
 - (id);
+- (void);
 - (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

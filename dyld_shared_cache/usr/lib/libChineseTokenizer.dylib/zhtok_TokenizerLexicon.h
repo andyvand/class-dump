@@ -6,11 +6,11 @@ class zhtok::TokenizerLexicon {
 public: // (access info unavailable from symbols alone)
     TokenizerLexicon();
     TokenizerLexicon(ChineseTokenizerLanguage);
-    cursorByAdvancingWithCharacters(void*, unsigned short const*, long) const;
-    cursorHasEntry(void*) const;
-    getTraversedLength(void*) const;
-    getWordID(void*) const;
-    reset();
-    setLexicon(void*);
+    auto cursorByAdvancingWithCharacters(void*, unsigned short const*, long) const;
+    auto cursorHasEntry(void*) const;
+    auto getTraversedLength(void*) const;
+    auto getWordID(void*) const;
+    auto reset();
+    auto setLexicon(void*);
     ~TokenizerLexicon();
 };

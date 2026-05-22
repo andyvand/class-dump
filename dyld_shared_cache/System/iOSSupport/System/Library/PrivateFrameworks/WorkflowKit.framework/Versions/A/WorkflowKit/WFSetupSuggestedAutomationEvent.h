@@ -20,12 +20,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (unsigned int);
-- (_Bool);
-- (void)$@·ÿÿÿÿÿ¸;
+- (void);
+- (_Bool)nState;
+- (unsigned int)cale;
+- (void);
+- (void)Error"40;
 
 // Remaining properties
 @property(nonatomic) _Bool completed; // @synthesize completed=_completed;

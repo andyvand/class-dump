@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id);
-- (void);
+- (id)Play;
+- (void)ð21ÊV;
 
 // Remaining properties
 @property(readonly, nonatomic) UIDatePicker *datePicker; // @synthesize datePicker=_datePicker;

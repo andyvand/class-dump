@@ -28,11 +28,11 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long)@"PXExploreParsingState",R,N,V_localState;
-- (id)È.pá2$Ò;
+- (unsigned long long);
+- (void)x½(ÿ±`;
+- (id)Configuration;
 
 // Remaining properties
 @property(readonly, nonatomic) PHCollection *collection; // @synthesize collection=_collection;

@@ -21,12 +21,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (void);
-- (unsigned long long);
 - (struct CGRect);
 - (id);
+- (unsigned long long);
+- (void);
+- (void);
 - (id);
 
 @end

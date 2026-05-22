@@ -129,21 +129,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (void);
+- (_Bool);
+- (void);
 - (long long);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id)!Fùq|°1b0@ù
-× ;
-- (id)tionsById;
-- (void)axPreloadPlayers;
-- (void)ectRatioConstant:(_Bool)arg1;
-- (void)ÅÿTLió5;
-- (void)vr6;
-- (void);
-- (_Bool)¨7;
+- (id)setCollectionActionManager;
+- (void)Úøÿ;
+- (id);
+- (void)group customization model. Dismissing.;
+- (void);
+- (void)ority;
+- (void)Û6t7;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXDisplayCollection> assetCollectionToObserve; // @synthesize assetCollectionToObserve=_assetCollectionToObserve;

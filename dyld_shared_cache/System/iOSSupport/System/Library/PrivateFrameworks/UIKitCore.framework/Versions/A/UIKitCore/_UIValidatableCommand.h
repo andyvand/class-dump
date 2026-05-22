@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
     UICommandAlternate *_alternate;
 }
 
-- (void)ealingMetaPropertyCheck;
-- (id);
 - (void);
-- (id)nbloom;
 - (id);
-- (SEL)bserver.m;
+- (id);
+- (SEL)ble;
+- (void)ansitionP;
+- (id);
 
 @end
 

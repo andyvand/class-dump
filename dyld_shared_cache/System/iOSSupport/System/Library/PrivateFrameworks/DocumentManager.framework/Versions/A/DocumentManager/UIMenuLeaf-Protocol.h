@@ -8,8 +8,6 @@
 @protocol UIPopoverPresentationControllerSourceItem;
 
 @protocol UIMenuLeaf
-- (void)fileManager;
-- (UIImage *)";
 
 // Remaining properties
 @property(nonatomic) unsigned long long attributes;

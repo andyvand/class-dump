@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)rName;
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarImageRenderer *monogrammer; // @synthesize monogrammer=_monogrammer;

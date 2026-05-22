@@ -4,7 +4,7 @@
 
 class PropertyList::Bitmap {
 public: // (access info unavailable from symbols alone)
-    Bitmap(lsl::Allocator&, unsigned long long);
-    setBit(unsigned long long);
-    setBit(unsigned long long) (.cold.1);
+    Bitmap(PropertyList&, unsigned long long);
+    auto setBit(unsigned long long);
+    auto setBit(unsigned long long) (.cold.1);
 };

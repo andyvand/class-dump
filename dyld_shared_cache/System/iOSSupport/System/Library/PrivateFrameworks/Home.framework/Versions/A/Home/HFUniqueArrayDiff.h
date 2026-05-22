@@ -33,9 +33,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSIndexSet *changedIndexes; // @synthesize changedIndexes=_changedIndexes;

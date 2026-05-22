@@ -7,13 +7,9 @@
 @class NSArray, NSString;
 
 @protocol UINamedLayerStack
-- (NSArray *),C,N,V_payloadSSIDSTR;
-- (NSString *)!¨FùÈÐ1¢!0@ù
+- (struct CGSize)1Â0@ù
 × ;
-- (struct CGSize)MaxY;
-
-@optional
-- (struct CGSize);
+- (NSArray *)nd.doneButton;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool flatImageContainsCornerRadius;

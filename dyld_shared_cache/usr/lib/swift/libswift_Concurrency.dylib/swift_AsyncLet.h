@@ -4,6 +4,9 @@
 
 class swift::AsyncLet {
 public: // (access info unavailable from symbols alone)
-    getPreallocatedSpace();
-    getSizeOfPreallocatedSpace();
+    auto didAllocateFromParentTask();
+    auto getPreallocatedSpace();
+    auto getSizeOfPreallocatedSpace();
+    auto getTask() const;
+    auto setDidAllocateFromParentTask(bool);
 };

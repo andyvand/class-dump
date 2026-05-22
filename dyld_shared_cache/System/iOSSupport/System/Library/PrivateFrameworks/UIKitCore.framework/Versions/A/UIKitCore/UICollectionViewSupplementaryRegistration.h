@@ -16,19 +16,19 @@
     NSString *_reuseIdentifier;
 }
 
-+ (id)BatchCount %@, coreduet says to continue syncing;
-+ (id)tBatchCount %@, coreduet says to defer syncing;
-- (id)DCKUtilities",&,N,V_ckUtilities;
-- (Class)tate",R,N;
-- (id)ptionValidationToken:(Class)arg1 fromSender:(id)arg2 completion:(id)arg3;
-- (_Bool)e notify about message, message is on an incompatible service:%@ vs %@ /* Error: Ran out of types for this method. */;
-- (_Bool)for messageID:%@   chat:%@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (id);
+- (Class);
 - (id);
-- (void)Ap°!;
-- (CDUnknownBlockType)
+- (_Bool);
+- (_Bool);
+- (CDUnknownBlockType);
+- (id);
+- (id)0@ù
 × ;
-- (id)ewAnimator;
+- (id)etStyle;
+- (void)!¿;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UICollectionView *_collectionViewRequestingViewWhenCreated; // @synthesize _collectionViewRequestingViewWhenCreated=__collectionViewRequestingViewWhenCreated;

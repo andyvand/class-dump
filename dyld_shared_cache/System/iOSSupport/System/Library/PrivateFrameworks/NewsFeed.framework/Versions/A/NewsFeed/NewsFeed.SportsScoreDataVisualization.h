@@ -20,6 +20,8 @@
     MISSING_TYPE *debugData;
     MISSING_TYPE *config;
     MISSING_TYPE *traits;
+    MISSING_TYPE *groupingIdentifier;
+    MISSING_TYPE *representsCollapsedEventGroup;
 }
 
 @end

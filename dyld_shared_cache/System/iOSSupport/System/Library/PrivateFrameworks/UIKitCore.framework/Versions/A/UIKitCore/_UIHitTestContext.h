@@ -13,14 +13,13 @@
     struct CGPoint _point;
 }
 
-+ (id)valid entry type - expected IMSimulatedNickname;
++ (id);
 + (id);
 - (id);
-- (id);
+- (id)nsformEventRespondable"b1"conformsToLookupEventRespondable"b1"canBeCancelledByAffectedViews"b1"enqueuedForReset"b1"sendUpdateOnEventChange"b1"hasDriver"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
+- (double)T@"UIView",N,R,VcaptureView;
+- (struct CGPoint)%{public}d hasExternalConnected=%{public}d isCharging=%{public}d isFullyCharged=%{public}d;
 - (void);
-- (double)
-× ;
-- (struct CGPoint)de:splitBehavior:isCompact:shouldUseOverlay: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIEvent *event; // @synthesize event=_event;

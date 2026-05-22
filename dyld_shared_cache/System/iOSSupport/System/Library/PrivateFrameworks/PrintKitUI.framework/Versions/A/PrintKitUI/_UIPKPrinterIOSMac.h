@@ -31,13 +31,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (void *);
 - (id);
+- (long long);
 - (_Bool);
 - (void);
-- (id);
 - (long long);
-- (void *);
+- (id);
 
 @end
 

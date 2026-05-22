@@ -14,9 +14,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
-- (id)uggestions with transaction ID %@;
+- (id);
+- (void)G;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;

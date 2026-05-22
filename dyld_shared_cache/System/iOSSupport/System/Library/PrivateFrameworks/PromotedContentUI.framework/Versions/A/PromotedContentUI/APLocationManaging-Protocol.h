@@ -5,6 +5,5 @@
 //
 
 @protocol APLocationManaging
-- (_Bool)me;
 @end
 

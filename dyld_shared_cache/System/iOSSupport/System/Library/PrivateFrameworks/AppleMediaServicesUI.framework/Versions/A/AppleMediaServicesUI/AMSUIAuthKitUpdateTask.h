@@ -25,8 +25,8 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)mSafeArea;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=getPresentingViewController) UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;

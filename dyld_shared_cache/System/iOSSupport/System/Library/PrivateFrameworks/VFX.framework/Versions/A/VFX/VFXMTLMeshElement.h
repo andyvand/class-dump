@@ -21,8 +21,8 @@
     long long _drawIndexedPrimitivesIndirectBufferOffset;
 }
 
-- (id);
 - (void);
+- (id);
 - (id);
 
 @end

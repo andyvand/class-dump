@@ -14,13 +14,13 @@
 }
 
 - (void);
-- (id)d;
+- (id);
 - (void);
-- (void)ticipantId:(long long)arg1 %s;
-- (long long)l all my clients that message with GUID %@ has been delivered;
-- (void)éóº;
-- (id);
-- (id)Lûiþ¥Ì4LûiþõÌ4äûiþÌ4àûiþÌ4ÐûiþÍÌ4`üiþÍ4°ûiþÕÌ4dûiþ;
+- (void);
+- (long long);
+- (id)Ht_;
+- (void)ÜÒþÅæÎìob;
+- (id)`?h;
 
 // Remaining properties
 @property(nonatomic, setter=_setEnvironment:) long long _environment; // @synthesize _environment;

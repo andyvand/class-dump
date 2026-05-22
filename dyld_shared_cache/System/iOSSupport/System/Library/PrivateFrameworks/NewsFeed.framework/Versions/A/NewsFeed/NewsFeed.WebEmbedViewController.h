@@ -60,11 +60,11 @@
 - (void);
 - (id);
 - (id);
-- (void)t: /* Error: Ran out of types for this method. */;
-- (void)feed.debug.format.show_layout_pane_on_snapshot;
 - (void);
-- (void)P÷ªþ;
-- (void);
+- (void)ewsVersion;
+- (void);
+- (void)X;
+- (void)¨@;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityElements;

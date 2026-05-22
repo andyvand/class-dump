@@ -5,6 +5,5 @@
 //
 
 @protocol MUContactStoreObserver
-- (void)Ò;
 @end
 

@@ -21,8 +21,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,10 +30,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (void);
-- (id)dateHH2State:(id)arg1;
-- (id)µë;
+- (id);
+- (void)cted item %@;
 
 // Remaining properties
 @property(nonatomic) double avatarSize; // @synthesize avatarSize=_avatarSize;

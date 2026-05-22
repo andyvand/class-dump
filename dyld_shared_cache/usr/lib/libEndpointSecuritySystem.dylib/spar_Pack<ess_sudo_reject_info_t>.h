@@ -4,5 +4,5 @@
 
 class spar::Pack<ess_sudo_reject_info_t> {
 public: // (access info unavailable from symbols alone)
-    pack(spar::PackedDataBufferWriter&, ess_sudo_reject_info_t const&);
+    auto pack(spar::PackedDataBufferWriter&, ess_sudo_reject_info_t const&);
 };

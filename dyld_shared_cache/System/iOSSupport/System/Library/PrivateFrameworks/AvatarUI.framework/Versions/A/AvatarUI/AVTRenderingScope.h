@@ -27,7 +27,7 @@
 + (id);
 + (id);
 + (double);
-+ (_Bool)erDelegate>";
++ (_Bool);
 - (float);
 - (long long);
 - (id);
@@ -46,15 +46,15 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (double);
-- (_Bool)a;
-- (id)oadedXPCListener;
-- (void);
+- (struct CGSize);
 - (unsigned long long);
-- (struct CGSize)5;
-- (id);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *framingMode; // @synthesize framingMode=_framingMode;

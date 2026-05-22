@@ -8,7 +8,6 @@
 @protocol MTLDevice;
 
 @protocol MTLCommandEncoder
-- (void)Horizontal;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

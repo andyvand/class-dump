@@ -12,6 +12,7 @@
     MISSING_TYPE *activityDefinitionLoader;
     MISSING_TYPE *liveActivitiesEnabled;
     MISSING_TYPE *scheduledLiveActivityFactory;
+    MISSING_TYPE *staleActivityTaskScheduler;
     MISSING_TYPE *observerManager;
     MISSING_TYPE *activities;
     MISSING_TYPE *activityReconciler;

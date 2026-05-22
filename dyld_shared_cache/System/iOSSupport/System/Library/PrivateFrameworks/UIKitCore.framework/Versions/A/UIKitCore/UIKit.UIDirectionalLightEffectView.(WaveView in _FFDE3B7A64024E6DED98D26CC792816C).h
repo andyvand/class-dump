@@ -19,11 +19,10 @@
     MISSING_TYPE *fillTrailView;
 }
 
-- (void);
 - (id);
-- (void)
-× ;
-- (id)retrieve a parent for the element:(struct CGRect)arg1;
+- (void);
+- (id)ððððððððððU;
+- (void)4ªÿÙÎ`fl;
 
 @end
 

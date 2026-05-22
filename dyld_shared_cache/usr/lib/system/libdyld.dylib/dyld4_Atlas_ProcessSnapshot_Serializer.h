@@ -4,6 +4,7 @@
 
 class dyld4::Atlas::ProcessSnapshot::Serializer {
 public: // (access info unavailable from symbols alone)
-    deserialize(std::__1::span<std::byte, 18446744073709551615ul>);
-    readMappedFileInfo(std::__1::span<std::byte, 18446744073709551615ul>&, unsigned long long&, lsl::UUID&, dyld4::FileRecord&);
+    Serializer(dyld4::Atlas::ProcessSnapshot&);
+    auto deserialize(std::__1::span<std::byte, 18446744073709551615ul>);
+    auto readMappedFileInfo(std::__1::span<std::byte, 18446744073709551615ul>&, unsigned long long&, lsl::UUID&, dyld4::FileRecord&);
 };

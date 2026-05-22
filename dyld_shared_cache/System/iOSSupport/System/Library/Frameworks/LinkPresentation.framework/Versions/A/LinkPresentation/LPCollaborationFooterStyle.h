@@ -37,19 +37,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void)?!(ka;
-- (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
-- (id)a;
+- (void);
 - (void);
 - (id);
-- (id)IdentifierFromCountryCode: /* Error: Ran out of types for this method. */;
-- (void)inText;
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)  ;
+- (id);
+- (id)È±ðÿ8c« ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

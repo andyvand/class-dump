@@ -5,10 +5,8 @@
 //
 
 @protocol _UISceneLayoutPreferenceBuilding
-- (void)to add ProductionMode attribute;
-- (void).3;
-- (void)licationEnterpriseDeclaration_AppPackage";
-- (void)leCaption1;
-- (void);
+- (void)letion:(double)arg1;
+- (void)l);
+- (void)ce1;
 @end
 

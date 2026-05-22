@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void *)d = %@; ;
+- (void *)WithSearchBarHostedByNavBarDidEnd: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) void *mark; // @synthesize mark=_mark;

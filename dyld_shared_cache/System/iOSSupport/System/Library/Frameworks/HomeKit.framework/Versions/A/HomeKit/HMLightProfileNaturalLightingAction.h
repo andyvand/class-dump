@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (_Bool)ngAction;
++ (_Bool);
 
 // Remaining properties
 @property(readonly) HMLightProfile *lightProfile; // @synthesize lightProfile=_lightProfile;

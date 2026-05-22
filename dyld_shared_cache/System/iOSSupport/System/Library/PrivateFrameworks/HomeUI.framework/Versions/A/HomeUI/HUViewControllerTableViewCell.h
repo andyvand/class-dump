@@ -23,9 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
-- (id)<½ä½;
+- (struct CGSize)0@ù
+× ;
+- (id)! Eù±°1â
+0@ù
+× ;
+- (void)ontroller:viewWillAppear] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

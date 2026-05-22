@@ -17,16 +17,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)keychainError;
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id)nts;
-- (id)panGestureRecognizer;
-- (void)xÜþÿ|Üþÿ;
-- (void)ld rows in section %ld. Consider using fewer rows;
-- (_Bool);
-- (void)ÃLØ~}[;
+- (id);
+- (id);
+- (void)
+× ;
+- (void)dateFormatterForCalendarUnit: /* Error: Ran out of types for this method. */;
+- (_Bool)IBlurEffectStyleLight;
+- (void)ß.3y½»;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

@@ -8,10 +8,10 @@
 {
 }
 
-- (void)ain;
-- (id)edClickValue;
 - (id);
-- (_Bool);
+- (void);
+- (id);
+- (_Bool)sourceIdentifier=%{public}s;
 
 @end
 

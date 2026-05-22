@@ -24,43 +24,39 @@ __attribute__((visibility("hidden")))
     UIDelayedAction *ignoreTouch;
 }
 
-+ (_Bool)2;
-+ (_Bool);
++ (_Bool);
++ (_Bool);
 - (void);
 - (void);
-- (void)Q;
+- (void);
 - (_Bool);
 - (double);
 - (double);
-- (id)ackup;
-- (void)ndexes:%@ editType:%@ previousMessage:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)notification, I will now exit.;
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (struct CGPoint)elOfService: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)pá{¬;
-- (void);
-- (void)p!àEùÂÐ1¢!0@ù
-× ;
-- (double)1¢!0@ù
-× ;
-- (void)Í1¢!0@ù
-× ;
-- (void);
-- (void)0@ù
-× ;
-- (double)6@40;
-- (void)shiftDeleteGlyphTraits;
-- (void)ialSize;
-- (void)stingPID:(id)arg1 callerID:(id)arg2;
-- (id)C;
 - (id);
+- (void)e:(id)arg1;
+- (double)ppearanceData;
+- (void):(id)arg1 relativeDuration:(id)arg2 animations: /* Error: Ran out of types for this method. */;
+- (double)tUndockedWithOffset:animated: /* Error: Ran out of types for this method. */;
+- (void)tions;
+- (void)iew;
+- (void)bleForFloatingTransition placementWithPlacement:(id)arg1 forFloatingAssistantViewTransition:] /* Error: Ran out of types for this method. */;
+- (void)a different cell from -collectionView:cellForItemAtIndexPath:than the cell being reconfigured, which is not allowed. When reconfiguring an item, you must obtain the existing cell by dequeuing a cell for the index path specified, using the same registration or reuse identifier that was used to dequeue the cell originally, and return the same cell. Index path:%@; Existing cell:%@; Returned cell:%@ /* Error: Ran out of types for this method. */;
+- (void)°fÔ@Wb;
+- (void)¬ÿû´Ì|¬h;
+- (id)ã«ÿè]j;
+- (void)½ÿ´-Õq;
 
 // Remaining properties
 @property(nonatomic) double angle; // @synthesize angle=_angle;

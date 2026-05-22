@@ -7,8 +7,6 @@
 @protocol PXStoryPacingTimeSourceDelegate;
 
 @protocol PXStoryPacingTimeSource
-- (void)3ûÿ;
-- (id <PXStoryPacingTimeSourceDelegate>);
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

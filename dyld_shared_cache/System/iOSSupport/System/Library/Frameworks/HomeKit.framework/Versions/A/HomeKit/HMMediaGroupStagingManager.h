@@ -18,16 +18,11 @@
     id <HMFTimerManager> _timerManager;
 }
 
-+ (id)yNotificationCondition;
-+ (id)¤((;
++ (id);
++ (id)n-pairing;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -37,17 +32,27 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id)Active: /* Error: Ran out of types for this method. */;
-- (id)ger",R;
-- (id)ion status:%ld /* Error: Ran out of types for this method. */;
-- (void)ÿ©¢ë;
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)teAndReturnError:(id)arg1;
+- (void)<ôtô÷t÷ø8ùôù;
 
 // Remaining properties
 @property __weak id <HMMediaGroupStagingManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;

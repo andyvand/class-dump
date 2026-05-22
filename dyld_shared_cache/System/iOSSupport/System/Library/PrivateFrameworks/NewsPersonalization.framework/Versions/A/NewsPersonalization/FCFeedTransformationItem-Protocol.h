@@ -8,16 +8,11 @@
 @protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
-- (_Bool);
-- (_Bool));
-- (double)P;
-- (_Bool)OutputName;
-- (unsigned long long)e.news.personalizationStorage.CompressedSessionEventTagFollowed;
-- (NSString *)TagSuggestion;
-- (NSString *)ñm}F;
+- (long long)£âÿ;
 
 @optional
-- (unsigned long long)s human readable user event history aggregate store:%{public}@ /* Error: Ran out of types for this method. */;
+- (int)	
+;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;

@@ -17,6 +17,7 @@ __attribute__((visibility("hidden")))
     NSString *_backgroundColor;
     AMSMetricsEvent *_impressionEvent;
     AMSUIWebNavigationBarModel *_navigationBar;
+    long long _userInterfaceStyle;
     NSString *_callbackScheme;
     NSDictionary *_data;
     AMSUIWebLoadingPageModel *_loadingModel;
@@ -37,19 +38,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)lityOfService: /* Error: Ran out of types for this method. */;
+- (id);
+- (long long)"3yêhN_Qo__Qo__Qo_GAGGAGGAGGAGGt;
 - (id);
-- (struct CGSize)@"NSError"24;
-- (id)24@?0@"WKContentRuleList"8@"NSError"16;
+- (struct CGSize)L ðÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
@@ -75,6 +77,7 @@ __attribute__((visibility("hidden")))
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"AMSUIWebAction",?,R,N
 
+@property(readonly, nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 @property(readonly, nonatomic) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end

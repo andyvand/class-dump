@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (double);
 - (void);
 - (void);
 - (id);
-- (void)t does not contain topic:(id)arg1 %@;
-- (double);
+- (void)Controller;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -30,11 +30,11 @@
 + (id);
 + (id);
 - (struct CGRect);
-- (_Bool)onThrottler;
-- (void)operation request:(struct CGRect)arg1 @%{public}@ failed to find existing task. Tasks:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)ation/RCURLFetchOperation.m;
-- (void)figuration/RemoteConfiguration/RCURLFetchOperation.m;
-- (void)kground;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -50,18 +50,19 @@
 - (void);
 - (void);
 - (long long);
-- (id)Pj;
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)k;
 - (void);
-- (void)locationValue;
-- (id)DÎÿ3ÎÿHÎÿ3Îÿ¼3Îÿ½`Îÿ]lÎÿeÈ3Îÿ=Ô3Îÿà3Îÿì3Îÿ¼=Îÿeð3Îÿø3Îÿm4Îÿ;
+- (id);
+- (void)1Â0@ù
+× ;
+- (id)onstraint:(id)arg1;
+- (void)Constraints;
+- (void)P¢ì¢´¦ä¦ ¨;
+- (id);
+- (id)âï;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

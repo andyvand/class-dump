@@ -12,10 +12,10 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isTrackingMouse) _Bool trackingMouse; // @synthesize trackingMouse=_trackingMouse;

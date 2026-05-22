@@ -20,25 +20,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long)36B44@48;
-- (id)Timestamp"b1"inferredHelpfulnessScore"b1"restatementScore"b1};
-- (id)Client";
-- (long long)ber"16@"NSNumber"24@"NSNumber"32@"NSNumber"40B48;
-- (id)ss;
-- (id)mStarRating:(id)arg1;
-- (void)reamIdentifiers;
-- (id)WithUniqueId:(long long)arg1 domainId:personaId:absoluteTimestamp:title:content:summary:publication:contentProtection: /* Error: Ran out of types for this method. */;
-- (void)suggestedNickname:suggestedPhotoPath:content:accountIdentifier:accountHandles:accountType:attachment:URL:contentProtection: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)";
+- (long long);
+- (id);
+- (id);
+- (long long);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (long long)ng && wroteEverything) || hadNonFatalReadError || hadWriteError;
-- (unsigned long long)N,V_filterText;
 - (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void)Ô!èð!EùQ?ð1Â0@ù
+× ;
+- (void)V_endpoints;
+- (long long)braryPlaylistEditAlbumDataSource;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

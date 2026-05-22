@@ -10,10 +10,10 @@
 {
 }
 
-- (id)P;
 - (id);
+- (id)0;
+- (id)usBarActionableLockScreenStyleAttributes;
 - (_Bool);
-- (id):(struct CGRect)arg1 16@24;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isTransparentFocusItem;

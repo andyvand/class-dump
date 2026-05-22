@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
     SMConversation *_conversation;
 }
 
-- (void)@;
+- (void);
 - (void);
 - (void);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void)SignatureOverData:(id)arg1 withRequestUUID: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)Ì!;
-- (id)r not satisfying:expertClassifications (in %s:%d) /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ype: /* Error: Ran out of types for this method. */;
+- (void)ripReconstructionBasedOnCountryCheck,%d;
+- (void),commuteID,%@,using tripSegmentID,%@;
 
 // Remaining properties
 @property(copy, nonatomic) id callback; // @synthesize callback=_callback;

@@ -13,20 +13,20 @@
     struct UIEdgeInsets marginInsets;
 }
 
-+ (id)r;
++ (id);
 + (double);
 + (id);
-- (void)inkColor;
+- (void);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
+- (id);
 - (double);
-- (id);
-- (id);
+- (void)ÿ9+;
 
 // Remaining properties
 @property(nonatomic) double bottomPadding; // @synthesize bottomPadding=_bottomPadding;

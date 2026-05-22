@@ -24,8 +24,8 @@
 - (void);
 - (void);
 - (id);
-- (void)stem on %@;
-- (void)];
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

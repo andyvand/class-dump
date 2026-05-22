@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol UIPreviewActionItem
-- (NSString *)b¬;
+- (NSString *)UITextInputController"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *title;

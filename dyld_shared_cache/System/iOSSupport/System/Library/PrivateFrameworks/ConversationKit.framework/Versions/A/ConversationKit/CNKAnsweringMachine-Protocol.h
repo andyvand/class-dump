@@ -5,7 +5,6 @@
 //
 
 @protocol CNKAnsweringMachine
-- (_Bool)9]¶¬;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isEnabled;

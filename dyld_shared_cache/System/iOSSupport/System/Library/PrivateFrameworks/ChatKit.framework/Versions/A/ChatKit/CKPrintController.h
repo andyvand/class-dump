@@ -14,23 +14,23 @@ __attribute__((visibility("hidden")))
     NSCache *_avatarCache;
 }
 
-+ (id)(scaledReadRect.size.width / scaledReadRect.size.height, drawRect.size.width / drawRect.size.height);
-+ (void)) != nil);
-+ (id)extStorage:updates:] /* Error: Ran out of types for this method. */;
-+ (void)performHighlightUpdatesForRange:(struct CKBalloonDescriptor_t *)arg1 inTextStorage:updates:] /* Error: Ran out of types for this method. */;
-+ (id):] /* Error: Ran out of types for this method. */;
-+ (id)oalesceAuthorHighlightUpdates:(id)arg1 ];
-+ (id)W>82´1;
-- (void)cCamImageQuad",C,N;
-- (_Bool)r;
-- (void)* were added to the folder;
++ (id);
++ (void);
++ (id);
++ (void);
++ (id);
++ (id);
++ (id)ä^ªÿå÷kÐìFÿÕ÷k_ªÿ;
 - (void);
-- (id);
-- (id)ction:(id)arg1;
-- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)ð;
 
 // Remaining properties
 @property(retain, nonatomic) NSCache *avatarCache; // @synthesize avatarCache=_avatarCache;

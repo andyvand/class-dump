@@ -15,14 +15,14 @@
 }
 
 - (void);
-- (void));
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)½;
+- (void)ColorForState:(_Bool)arg1;
+- (void)ä¸ãÿ Y4;
 
 @end
 

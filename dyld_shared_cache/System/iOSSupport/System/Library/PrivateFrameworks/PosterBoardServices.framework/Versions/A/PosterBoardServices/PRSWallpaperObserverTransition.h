@@ -12,8 +12,8 @@
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
 - (void);
-- (unsigned long long)%{public}@ for client %{public}@ due to bad auditToken %{public}@;
 
 // Remaining properties
 @property(nonatomic) unsigned long long changed; // @synthesize changed=_changed;

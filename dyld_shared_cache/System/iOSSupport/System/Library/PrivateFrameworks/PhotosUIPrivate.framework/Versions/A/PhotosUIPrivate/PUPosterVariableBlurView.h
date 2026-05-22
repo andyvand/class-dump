@@ -19,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
 - (unsigned long long);
-- (void)@"NSProgress"48@0:(unsigned long long)arg1 8@"NSArray"16Q24@"NSArray"32@?<v@?@"NSArray">40;
-- (id)meDidChange;
-- (id)tosGridBarsHelper:didChange: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void)umeIncreaseDidOccur: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long appearance; // @synthesize appearance=_appearance;

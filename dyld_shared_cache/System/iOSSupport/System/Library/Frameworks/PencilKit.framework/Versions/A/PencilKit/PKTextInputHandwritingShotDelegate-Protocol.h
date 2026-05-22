@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, PKTextInputElement;
-
 @protocol PKTextInputHandwritingShotDelegate
-- (NSSet *);
-- (PKTextInputElement *)CONST;
-- (long long)__AUTH_CONST;
 @end
 

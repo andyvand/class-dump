@@ -14,11 +14,11 @@
 + (id);
 - (_Bool);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCurrentSession;

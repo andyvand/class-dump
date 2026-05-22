@@ -17,30 +17,28 @@ __attribute__((visibility("hidden")))
     double _repeatCount;
 }
 
-- (void)ERROR:(double)arg1 %s netfs_ParseURL failed to get path;
-- (double)h;
-- (void)ResponsesBuffer:(CDUnknownBlockType)arg1 maxRegionHeight:maxRegionWidth: /* Error: Ran out of types for this method. */;
-- (void)mputeResponseMap;
-- (void)t.;
-- (id)| removing [user removed];
-- (_Bool)iliary-content;
-- (void)lPreviewAsset.m;
+- (void);
+- (double);
+- (id);
+- (id);
+- (double);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void)Apð! BùÃ1¢!0@ù
+- (void);
+- (void);
+- (id)1^°1Â0@ù
 × ;
-- (void)
-× ;
-- (id)Ì1¢!0@ù
-× ;
-- (void)hFrameWithToken:(id)arg1;
-- (void)tionByApplyingOverridesFromParentViewControllerToTraitCollection:(id)arg1;
-- (id)spatchPendingEvents;
-- (id),V_handler;
-- (_Bool)ìh;
-- (_Bool)apsed will result in broken UI;
-- (id);
-- (double)ansitionNotification;
+- (void)Dictionary"24;
+- (_Bool)int=dd}{CGSize=dd}}16@48Q56@64q72B80;
+- (void)ext:(id)arg1 withTextInput:withView: /* Error: Ran out of types for this method. */;
+- (void)nControllerSlide;
+- (_Bool)ì;
+- (void)tReplacement;
+- (_Bool)larBG;
+- (void)ellCIegg_;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *animationFrames;

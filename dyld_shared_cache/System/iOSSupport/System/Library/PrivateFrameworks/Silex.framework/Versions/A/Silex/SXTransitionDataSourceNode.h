@@ -25,9 +25,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (void);
+- (void)ï°1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXTransitionableComponentView> componentView; // @synthesize componentView=_componentView;

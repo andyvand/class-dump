@@ -15,7 +15,7 @@
 }
 
 - (void);
-- (void)J;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -24,11 +24,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
+- (void)
+× ;
+- (void)D;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allIdentifiers;

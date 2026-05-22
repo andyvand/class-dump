@@ -4,14 +4,14 @@
 
 class std::codecvt<wchar_t, char, __mbstate_t> {
 public: // (access info unavailable from symbols alone)
+    auto do_always_noconv() const;
+    auto do_encoding() const;
+    auto do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const;
+    auto do_length(__mbstate_t&, char const*, char const*, unsigned long) const;
+    auto do_max_length() const;
+    auto do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const;
+    auto do_unshift(__mbstate_t&, char*, char*, char*&) const;
     codecvt(int*, unsigned long);
     codecvt(unsigned long);
-    do_always_noconv() const;
-    do_encoding() const;
-    do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const;
-    do_length(__mbstate_t&, char const*, char const*, unsigned long) const;
-    do_max_length() const;
-    do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const;
-    do_unshift(__mbstate_t&, char*, char*, char*&) const;
     ~codecvt();
 };

@@ -14,23 +14,23 @@
     TSTTableStyleNetwork *mStyleNetwork;
 }
 
-- (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (unsigned long long);
-- (void);
-- (id)addAuthor:(id)arg1 isFromDocumentSupport:] /* Error: Ran out of types for this method. */;
+- (id)16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGPoint=dd}56{_NSRange=QQ}72;
+- (void)ataProperty;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

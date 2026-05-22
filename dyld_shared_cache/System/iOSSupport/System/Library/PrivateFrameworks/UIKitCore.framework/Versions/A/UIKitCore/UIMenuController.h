@@ -17,19 +17,19 @@
 }
 
 + (id);
-- (void)k:(id)arg1;
-- (void)er:(struct CGRect)arg1 service:(id)arg2 groupID:originalGroupID:guid:destinationCallerID:failed:fromMe: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1 completionHandler:(_Bool)arg2;
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
 - (void);
-- (void)?2GG;
-- (id)Family member with handle %@;
-- (struct CGRect)not be normalized for IDS lookup:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)t seen message guid needs updating, old %@ new %@;
-- (void)esponse failed with error %@;
-- (void)re26IMDaemonCoreBridgeDelegate;
-- (id)B;
-- (void);
+- (void);
+- (id);
+- (struct CGRect);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -38,16 +38,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
-- (void)Á°1¢!0@ù
+- (id);
+- (void)
 × ;
-- (long long);
-- (void)orScene:(id)arg1;
-- (id)mators;
-- (void)Bar;
-- (void)have one block (failing invocation:(long long)arg1 %@);
-- (id)"Æ;
+- (long long)èÒÿSµØ z`;
+- (void)\ªÑþ,Øìd;
+- (void);
+- (void),fe;
+- (void)X¬e;
+- (id);
+- (struct CGRect)ÌGh;
 
 // Remaining properties
 @property(nonatomic) long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;

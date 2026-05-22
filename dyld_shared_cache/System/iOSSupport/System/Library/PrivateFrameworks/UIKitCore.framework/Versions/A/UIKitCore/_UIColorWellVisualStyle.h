@@ -31,18 +31,18 @@
 - (void);
 - (id);
 - (id);
-- (id)NSString"52@?<v@?>60;
-- (void)d read:(id)arg1 %{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (double);
-- (void);
-- (struct CGSize)DisableKeyboard;
-- (id)yChildEnvironmentForTraitInvalidations: /* Error: Ran out of types for this method. */;
-- (void);
+- (id)Shown;
+- (struct CGSize)intrinsicContentSizeInvalidationHandler;
+- (void)¼nþ]»13øùqþ;
+- (void)8];
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIColorWellControl> colorWell; // @synthesize colorWell=_colorWell;

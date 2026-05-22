@@ -4,6 +4,7 @@
 
 class marisa::grimoire::vector::FlatVector {
 public: // (access info unavailable from symbols alone)
-    map(marisa::grimoire::io::Mapper&);
-    map_(marisa::grimoire::io::Mapper&);
+    auto map(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&) (.cold.1);
 };

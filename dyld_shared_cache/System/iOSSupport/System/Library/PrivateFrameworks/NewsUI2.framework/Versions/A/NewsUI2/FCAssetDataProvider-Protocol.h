@@ -7,7 +7,7 @@
 @class NSData, NSString;
 
 @protocol FCAssetDataProvider
-- (NSString *)itterCursor;
+- (NSString *)t;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data;

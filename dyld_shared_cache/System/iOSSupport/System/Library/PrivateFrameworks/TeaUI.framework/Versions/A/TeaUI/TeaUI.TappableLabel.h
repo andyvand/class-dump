@@ -14,14 +14,14 @@
 }
 
 - (void);
-- (id)TransactionObserver:(id)arg1;
-- (void);
-- (unsigned long long);
 - (_Bool);
-- (void)xied view changes %@;
+- (void);
 - (void);
 - (id);
+- (unsigned long long);
 - (id);
+- (void)lÈúÿÈúÿ4ÊúÿpÊúÿÊúÿ¸Êúÿ´ÌúÿÍúÿ4ÍúÿÏúÿ¨ÏúÿäÏúÿÐúÿTÐúÿlÐúÿÐúÿÌÐúÿ;
+- (id)tBuilder;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

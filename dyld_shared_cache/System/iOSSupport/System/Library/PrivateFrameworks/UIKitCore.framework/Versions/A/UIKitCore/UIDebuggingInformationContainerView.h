@@ -14,10 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)0@ù
-× ;
-- (void)Úæj;
-- (_Bool)ÿjÖ{îm;
+- (void);
+- (void);
+- (_Bool)Ú;
 
 // Remaining properties
 @property(nonatomic) _Bool shadowHidden; // @synthesize shadowHidden=_shadowHidden;

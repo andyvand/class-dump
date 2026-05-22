@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)ageDownload;
 
 // Remaining properties
 @property(nonatomic) __weak id <MKPlaceActionManagerProtocol> actionDelegate; // @synthesize actionDelegate=_actionDelegate;

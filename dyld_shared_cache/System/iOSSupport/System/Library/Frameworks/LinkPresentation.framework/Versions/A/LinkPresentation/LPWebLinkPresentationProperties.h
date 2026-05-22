@@ -36,13 +36,13 @@
 
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -57,16 +57,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)_;
+- (_Bool);
 - (void);
 - (id);
-- (void)eTransfer.isDownloading;
-- (id)itlePocketInteraction;
-- (void)plePayIcon;
-- (id)WELCOME_CHAT_TITLE;
-- (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -74,15 +70,20 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)b;
-- (void);
-- (id);
-- (void)$8;
+- (void)Q1Â0@ù
+× ;
+- (id)× ;
+- (id)onents;
 
 // Remaining properties
 @property(nonatomic, setter=_setHasComputedDominantImageBackgroundColor:) _Bool _hasComputedDominantImageBackgroundColor; // @synthesize _hasComputedDominantImageBackgroundColor=__hasComputedDominantImageBackgroundColor;

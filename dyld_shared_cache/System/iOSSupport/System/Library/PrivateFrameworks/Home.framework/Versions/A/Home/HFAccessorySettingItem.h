@@ -36,8 +36,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)anHideKey;
+- (id);
+- (void)ntersectsSet:objects] || [_deletions intersectsSet:objects] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

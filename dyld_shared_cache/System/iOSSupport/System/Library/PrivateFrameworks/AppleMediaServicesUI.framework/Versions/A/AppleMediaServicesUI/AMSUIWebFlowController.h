@@ -49,9 +49,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)ð!p@ù
-1b0@ù
-× ;
+- (void)issDelayTimeInterval: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak AMSUIWebClientContext *context; // @synthesize context=_context;

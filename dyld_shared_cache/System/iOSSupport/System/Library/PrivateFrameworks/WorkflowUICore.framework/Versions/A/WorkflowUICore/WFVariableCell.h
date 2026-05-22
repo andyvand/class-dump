@@ -27,13 +27,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (id);
 - (_Bool);
+- (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool currentAvailable; // @synthesize currentAvailable=_currentAvailable;

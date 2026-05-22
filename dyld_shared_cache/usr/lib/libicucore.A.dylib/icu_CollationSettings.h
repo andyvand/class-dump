@@ -5,19 +5,19 @@
 class icu::CollationSettings {
 public: // (access info unavailable from symbols alone)
     CollationSettings(icu::CollationSettings const&);
-    aliasReordering(icu::CollationData const&, int const*, int, unsigned int const*, int, unsigned char const*, UErrorCode&);
-    copyReorderingFrom(icu::CollationSettings const&, UErrorCode&);
-    hashCode() const;
-    operator==(icu::CollationSettings const&) const;
-    reorderEx(unsigned int) const;
-    reorderTableHasSplitBytes(unsigned char const*);
-    resetReordering();
-    setAlternateHandling(UColAttributeValue, int, UErrorCode&);
-    setCaseFirst(UColAttributeValue, int, UErrorCode&);
-    setFlag(int, UColAttributeValue, int, UErrorCode&);
-    setMaxVariable(int, int, UErrorCode&);
-    setReorderArrays(int const*, int, unsigned int const*, int, unsigned char const*, UErrorCode&);
-    setReordering(icu::CollationData const&, int const*, int, UErrorCode&);
-    setStrength(int, int, UErrorCode&);
+    auto aliasReordering(icu::CollationData const&, int const*, int, unsigned int const*, int, unsigned char const*, UErrorCode&);
+    auto copyReorderingFrom(icu::CollationSettings const&, UErrorCode&);
+    auto hashCode() const;
+    auto operator==(icu::CollationSettings const&) const;
+    auto reorderEx(unsigned int) const;
+    auto reorderTableHasSplitBytes(unsigned char const*);
+    auto resetReordering();
+    auto setAlternateHandling(UColAttributeValue, int, UErrorCode&);
+    auto setCaseFirst(UColAttributeValue, int, UErrorCode&);
+    auto setFlag(int, UColAttributeValue, int, UErrorCode&);
+    auto setMaxVariable(int, int, UErrorCode&);
+    auto setReorderArrays(int const*, int, unsigned int const*, int, unsigned char const*, UErrorCode&);
+    auto setReordering(icu::CollationData const&, int const*, int, UErrorCode&);
+    auto setStrength(int, int, UErrorCode&);
     ~CollationSettings();
 };

@@ -11,9 +11,9 @@
 }
 
 + (_Bool);
-- (struct CGSize)H;
+- (struct CGSize);
 - (_Bool);
-- (_Bool)T;
+- (_Bool);
 - (_Bool);
 
 @end

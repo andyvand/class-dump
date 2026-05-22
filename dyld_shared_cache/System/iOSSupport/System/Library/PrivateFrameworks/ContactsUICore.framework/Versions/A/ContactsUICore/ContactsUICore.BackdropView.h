@@ -13,10 +13,10 @@
 }
 
 + (Class);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)Recorder>",R,N;
 
 @end
 

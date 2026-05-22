@@ -12,11 +12,11 @@
     NSString *_identifier;
 }
 
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

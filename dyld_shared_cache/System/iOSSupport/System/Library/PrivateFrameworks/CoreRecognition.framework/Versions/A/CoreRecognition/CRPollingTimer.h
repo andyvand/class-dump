@@ -19,14 +19,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (SEL);
+- (void);
 - (_Bool);
 - (CDStruct_1b6d18a9);
 - (void);
+- (SEL);
 - (void);
-- (void)tableDictionary",&,V_cardNumberCounts;
+- (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 fireTime;

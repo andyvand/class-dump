@@ -14,12 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)emonListenerServiceProtocol>"24@0:(id)arg1 8@"IMDService"16;
-- (void)er";
-- (id);
-- (id);
-- (void);
-- (id)0_;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id)
+× ;
+- (void);
 
 @end
 

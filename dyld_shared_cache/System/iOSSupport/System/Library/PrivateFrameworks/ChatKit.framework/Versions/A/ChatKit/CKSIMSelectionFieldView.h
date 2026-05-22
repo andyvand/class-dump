@@ -18,28 +18,28 @@ __attribute__((visibility("hidden")))
     UIStackView *_contentStackView;
 }
 
-- (id)tic;
-- (void)geGeneratorWithPaperAttachment:(id)arg1 useActivePaper:(id)arg2;
-- (id)tion: /* Error: Ran out of types for this method. */;
-- (id)ation;
-- (id)eLoadLimitSemaphore;
-- (void)ge=QQ},N,V_characterRange;
-- (void)ange=QQ},N,V_beforeEndEditedRange;
-- (void)R,N;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (id)gationController;
+- (id);
+- (void)¨;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *captionLabel; // @synthesize captionLabel=_captionLabel;

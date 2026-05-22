@@ -28,9 +28,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
-- (void)mÚÿ9âûT¦6;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=areChangesPaused) _Bool changesPaused;

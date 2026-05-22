@@ -4,5 +4,5 @@
 
 class __gnu_cxx::rope<char, std::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    _S_fetch(__gnu_cxx::_Rope_RopeRep<char, std::allocator<char>>*, unsigned long);
+    auto _S_fetch(__gnu_cxx::_Rope_RopeRep<char, std::allocator<char>>*, unsigned long);
 };

@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<bssl::hm_fragment, bssl::internal::Deleter> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](bssl::hm_fragment*);
+    auto reset[abi:nqe210106](bssl::hm_fragment*);
 };

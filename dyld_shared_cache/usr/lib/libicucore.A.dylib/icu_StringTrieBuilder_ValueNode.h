@@ -4,5 +4,5 @@
 
 class icu::StringTrieBuilder::ValueNode {
 public: // (access info unavailable from symbols alone)
-    operator==(icu::StringTrieBuilder::Node const&) const;
+    auto operator==(icu::StringTrieBuilder::Node const&) const;
 };

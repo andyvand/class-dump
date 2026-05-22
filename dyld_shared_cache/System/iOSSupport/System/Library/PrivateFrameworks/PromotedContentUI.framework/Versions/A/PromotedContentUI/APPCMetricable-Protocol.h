@@ -7,8 +7,7 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol APPCMetricable
-- (NSDictionary *)s released too early in inner check.;
-- (long long);
+- (NSString *)ÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *contentId;

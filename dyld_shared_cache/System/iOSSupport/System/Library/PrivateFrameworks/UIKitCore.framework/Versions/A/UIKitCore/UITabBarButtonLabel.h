@@ -23,47 +23,46 @@ __attribute__((visibility("hidden")))
     UITabBarButton *_tabBarButton;
 }
 
-+ (double)0@ù
-× ;
++ (double)UIAbbreviatedWeekdayMonthDayFormat;
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)ge=}16B24;
-- (_Bool);
+- (void);
+- (long long);
 - (void);
 - (void);
-- (void)ngth:(id)arg1 withString:startingAtIndex: /* Error: Ran out of types for this method. */;
-- (id)String:(long long)arg1;
-- (void)f %p to delegate %p;
-- (_Bool);
-- (void);
-- (void)2º;
-- (void)1¢!0@ù
+- (void);
+- (id)1Â0@ù
 × ;
-- (void)0@ù
+- (_Bool)Að!ÌDùqað1Â0@ù
 × ;
-- (void)@ùQÉ°1¢!0@ù
+- (id)0@ù
 × ;
-- (long long)essedSuggestionMenuBeforeHorizontalSizeClassChange"b1"wasShowingSuggestionsWhenChangedToInline"b1"isLayingOutNavigationBarToActivateInlineSearch"b1"isDismissingOrAboutToDismiss"b1"hasDeferredActivation"b1"shouldUpdateHelperMessage"b1"clearSuggestionsOnSelection"b1"shouldFocusResultsOnNextFocusUpdate"b1"updateSearchTextOnDidSelectSuggestion"b1"shouldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2};
+- (id)0@ù
+× ;
+- (void):(id)arg1 8q16@?24;
+- (void)IDragItem"24@"UITargetedDragPreview"32;
+- (void)oreInput;
+- (void)sitionFromTopOfCaret:(id)arg1 distanceFromCaret:(unsigned long long)arg2;
+- (id)MinWidth;
+- (_Bool)orAnimations;
+- (id)OnViewportResize;
+- (void)V_headerAction;
+- (void)S_setRegion:(id)arg1 ,V__region;
+- (void)¿;
+- (void)¬;
 - (void);
-- (void)tatingContentLayer;
-- (id)andOffCancelledItemsBlock;
-- (id)tate;
-- (void)¤$;
-- (void);
-- (id)th capacity:(struct CGRect)arg1 %lu;
-- (void)ackdrop;
-- (id)ze_t, size_t, _UIBoundingPathBitmapDataNode *, size_t, size_t, BOOL, size_t);
-- (void)ewCell"32@?0@"UICollectionView"8@"NSIndexPath"16@24;
-- (void)VÍwK[;
-- (void)t^;
-- (id)8Ìþ
-Ú6;
-- (void);
-- (void)¾uÿ@ÖÔG_e;
-- (Class)i;
+- (void)inputPosition;
+- (Class);
+- (void)%@);
+- (void)glassBackground.inputBleedDistance0;
+- (void)XÇþÿ;
+- (void)&¹þ;
+- (void)Ìw^;
+- (id)b;
+- (void)ÿ;
+- (void)àTb;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAppearanceGuideClass:) Class _appearanceGuideClass; // @synthesize _appearanceGuideClass;

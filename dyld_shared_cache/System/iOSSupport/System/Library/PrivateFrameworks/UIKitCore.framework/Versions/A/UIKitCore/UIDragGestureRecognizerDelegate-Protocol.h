@@ -5,8 +5,5 @@
 //
 
 @protocol UIDragGestureRecognizerDelegate
-
-@optional
-- (_Bool)mand",R,N,V_stopCommand;
 @end
 

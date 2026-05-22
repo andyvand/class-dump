@@ -21,43 +21,42 @@
     unsigned long long _edges;
 }
 
-+ (_Bool)?=di}16@0:8 /* Error: Ran out of types for this method. */;
-+ (_Bool)nderChainForSender: /* Error: Ran out of types for this method. */;
-+ (_Bool)P;
-+ (_Bool)Pî;
-- (void)mber",C,N,V_payloadChangeAtNextAuth;
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool)ripleTap;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)eController;
-- (void)ategy:(unsigned long long)arg1;
-- (unsigned long long)on.pasteAndGo;
-- (id)TopInset;
-- (id)UIKBKeyVariantsTypeExtendedSkinToneEmoji;
-- (_Bool);
-- (double)Output"8@"TIKeyboardConfiguration"16;
-- (double)es;
-- (_Bool)View;
-- (unsigned long long)plicate menus. This is a UIKit internal bug.;
-- (void)47DB2BF49759240B89F9C122_UISharedTextureWindow;
-- (void);
-- (void)¬lÖ©[[;
-- (void)(¢ÛH^;
-- (id)Ôüÿ<;
-- (long long)ÏÔ_;
-- (void)]Égk`;
-- (void)Æqÿ0Èab;
-- (void);
-- (double)[¢;
-- (void)ÏóPe;
-- (void)ÿ*1Ä;
-- (unsigned long long)ÙFÿ©b;
-- (_Bool);
-- (id)ÿ ;
+- (id);
+- (void)lowOrthogonalScrollingContainer:(id)arg1;
+- (void)eAction;
+- (void)AtOffset:(id)arg1 fromKey:(id)arg2;
+- (double)ronShimmerColor;
+- (void)utgoingAnimationPreview;
+- (long long)on",&,N,V_separatorConfiguration;
+- (void)d;
+- (_Bool)Ly´y<z<{¼{|}D};
+- (unsigned long long)üu;
+- (void)<°$ôhÜPÄ8¬  ,¡ ¡°;
+- (id)ÈÒ©;
+- (void)e screens:(double)arg1 %{public}s:%{public}p; from %{public}@ to %{public}@; scene identity:%{public}s /* Error: Ran out of types for this method. */;
+- (_Bool)Pæþp}þÿdeìÿ;
+- (unsigned long long)Backdrop;
+- (double)VectorTextLayoutGlyph>"8^B16;
+- (id)ory _Nonnull);
+- (_Bool)d of UICollectionViewCell but found %@.;
+- (double)le one already exists.;
+- (void)id;
+- (void)ínþ13Tôÿý13xínþý13þþ13pì¸þ;
+- (void)ej33þUj33¸þ;
+- (void)\G;
+- (void)ÉP^;
+- (id)(Fa;
+- (unsigned long long)øc;
+- (void)T´;
+- (void)Ø0òe;
+- (void)Àÿ£/Ýh;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -5,16 +5,17 @@
 //
 
 @class MTLComputePipelineReflection, NSString;
-@protocol MTLDevice, MTLFunction, MTLFunctionHandle;
+@protocol MTL4BinaryFunction, MTLDevice, MTLFunction, MTLFunctionHandle;
 
 @protocol MTLComputePipelineState
-- (unsigned long long);
-- (id <MTLDevice>);
-- (long long)ñú;
-- (_Bool)F_=ÛÀ½=å½¼K?©. =%ZÒ=öaý½$^J?r¿C=gGê=¥¾ñJ?l=²>nÃ¾1[J?`:=`>¹&¾(eJ?ð§=ñ·>¡ 4¾^*J?ÀÃ=å},>ÔB¾·I?@ã=By?>Q¾L?ã>UMP>÷_¾Þ:K?Ëò>ãb>¤©n¾ØÓJ?*>1xx>jú|¾!L?eª@>¦í>¾¸\M?ºX>Lá><j¾²-K?»q>C>á¾ÖK?¥->5«>]â¾eÂK?]>½¸>ó¾zpK?ÁÅ¢>@Ã>~o£¾X®G?ö¶±>ÒRÑ>[@¨¾HùE?+¾Á>µ¥Þ>áë«¾¸ÊC?º¡Ñ>aì>é¯¾¡/A?5â>Íú>¸X±¾ýO>?ò>?,Ô²¾;ª:?¢?;û
-?J{³¾ÁÅ6?µû	?vR?üV³¾B/?\Y?èÜ?ê<²¾³*?a?	ß?c°¾1Ñ$?j¾"?!?Ð­¾êÏ?´*?2'?Hù©¾?ën2?â,?P¥¾?ö9?1?TU ¾6#?{0A?6;2?ñ¾© /* Error: Ran out of types for this method. */;
-- (id <MTLFunctionHandle>)@¢ïî¾s:(id <MTLFunction>)arg1 @l>*?Ýi@-èí¾'@¨¨*?þGS@7ãì¾Ùy@/+?	@@Ùë¾5	@+?7¨/@Ðê¾_û?,?ïY!@×2é¾æ?´¯,?ü@î²ç¾Ô?^-?¾.
-@éHæ¾ê´Ä?³.?#Ü;
+- (unsigned long long)r:(CDStruct_14f26992)arg1 CFXAnimationManagerGetTimeForNode - can't ensure animation continuity since animation manager is dead;
+- (MTLComputePipelineReflection *)ion;
+- (_Bool)c?hu^?Uik¾Ð²>rh?ýÛ]?P9V¾K >	m?õ \?¿ï?¾*>¦&q?¤Z?ß(¾ðh>pÎt?9X?*È¾kC>ãw?¬VV?îî½ã¤ >{iz?T?X7¾½Q;
+- (id <MTLFunctionHandle>)o?t~Ê¾:(id <MTL4BinaryFunction>)arg1 Yâ?ç>1`?ßÊ¾!Ò?_b>è¿S?9ÒÉ¾&ßÄ?å·>ÄìI?¯É¾øl¹?p>±øA?Á§É¾ñ¯?w>:Ì;?JÎÉ¾0ö¦?=+>ã7?ÐÊ¾f?îè>µ3?/kÊ¾!?R§>ª1?mäÊ¾­K?F|¯>Ñ@0?rË¾ó?L¸>	Ä/?GÿË¾?;ÂÁ>Ó0?mÌ¾³µ?ÂÛË>¹P1?:æÌ¾ /* Error: Ran out of types for this method. */;
+- (id <MTLFunctionHandle>)X¾\{?L©s?Þ{@Æ¨[¾¿e?zs?Æf@:(id <MTLFunction>)arg1 w[¾ïuR?¦}s?ccT@LX¾N|A?%²s?MD@ÑV¾`s2?_Ós?Õ±5@Ï-T¾)%?
+òs?h!)@bQ¾Þv?t?¼ë@x*P¾¢?Û6t?õ@ PO¾.É?¿Ht?3û
+@kL¾üú>þ{t?×Ù@I¾têê>9¸t?¨9÷?øªE¾ÐÜ>4÷t?5ê?ôB¾ÐÐ>-u?ãpÞ?¥K?¾©2Ä>`tu?E¼Ó?·:¾d¹>Íu?Ê?±6¾Ê®> v?kÁ?ß32¾»)¥>F}v?ù¹?!É,¾ï>)ìv?ÞV²?¹Æ'¾oH>Ww?¶Ö«?{"¾sò>OÏw?Çõ¥?Ð%¾ì>Mx? ?î¾êvv>Îx?¯±?1}¾bg>Vy?C?ïã¾â¬X>Ußy?m7?ö¾XVJ>kz?|?Íõ½CU<>wõz?#?-zç½¨.>t}{??¦Ø½Ì_!>¬|?$?\åÉ½y>|?/?îº½ïÅ>~ý|?!?ò`«½,óö=p}?ª×}? /* Error: Ran out of types for this method. */;
+- (long long);
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

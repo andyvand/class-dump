@@ -15,17 +15,17 @@
 }
 
 - (void);
-- (id);
-- (void);
-- (void)ionalStyleMatchingCell: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)ta.sectionId;
+- (void);
+- (void);
+- (void);
 - (CDUnknownBlockType);
-- (id);
 - (void);
+- (id)@"SWDatastore"24@0:8@"<SWMessage>"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic, setter=onCompletion:) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;

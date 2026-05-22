@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionReusableView, UICollectionViewCell;
+@class UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
-- (UICollectionViewCell *)rView;
+- (UICollectionViewCell *);
 
 @optional
-- (long long)ion;
-- (NSIndexPath *)¼½;
-- (UICollectionReusableView *)(ÿÿN<þÿ;
+- (void);
+- (UICollectionReusableView *)Áo ;
 @end
 

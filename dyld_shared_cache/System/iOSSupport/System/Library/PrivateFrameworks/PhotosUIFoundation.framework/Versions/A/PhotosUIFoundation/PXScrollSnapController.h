@@ -34,10 +34,10 @@
 - (double);
 - (void);
 - (long long);
-- (void);
+- (id);
 - (struct CGRect);
 - (void);
-- (id);
+- (void)exPaths=%@>;
 
 // Remaining properties
 @property(nonatomic) double maximumAccelerationFactor; // @synthesize maximumAccelerationFactor=_maximumAccelerationFactor;

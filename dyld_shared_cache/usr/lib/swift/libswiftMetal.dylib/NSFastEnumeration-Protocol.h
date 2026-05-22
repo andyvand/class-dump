@@ -5,6 +5,5 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long);
 @end
 

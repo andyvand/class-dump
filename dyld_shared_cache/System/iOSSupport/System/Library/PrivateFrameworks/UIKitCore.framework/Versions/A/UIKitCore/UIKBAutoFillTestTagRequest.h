@@ -14,10 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (void)!<DùñÁð1¢!0@ù
-× ;
-- (long long)AnimationController:completion: /* Error: Ran out of types for this method. */;
+- (id)0¥;
+- (void)Té;
+- (long long)ÈÕj;
 
 // Remaining properties
 @property(readonly, nonatomic) long long requestType; // @synthesize requestType=_requestType;

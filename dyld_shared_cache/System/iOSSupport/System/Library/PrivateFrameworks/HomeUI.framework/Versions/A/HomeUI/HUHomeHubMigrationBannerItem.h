@@ -16,10 +16,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id)ù
+- (id);
+- (id)
 × ;
-- (id)Vü;
+- (void)ole_Title;
 
 // Remaining properties
 @property(readonly) NSSet *devices; // @synthesize devices=_devices;

@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
 - (id);
+- (void);
+- (unsigned long long)¨7;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *debugValues; // @synthesize debugValues=_debugValues;

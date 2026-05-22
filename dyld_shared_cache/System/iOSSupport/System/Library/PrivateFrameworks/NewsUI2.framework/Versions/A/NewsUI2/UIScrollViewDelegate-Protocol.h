@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol UIScrollViewDelegate
 
 @optional
-- (void);
-- (void)	;
-- (void)¨YðYs\;
-- (void)rticle;
-- (void)á ûþ;
+- (void)hÉûÿ;
+- (UIView *)°	øY¬Ö
+;
+- (void)b¸®þ;
 @end
 

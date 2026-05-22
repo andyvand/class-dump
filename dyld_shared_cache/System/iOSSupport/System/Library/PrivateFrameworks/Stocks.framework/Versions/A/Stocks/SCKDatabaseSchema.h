@@ -15,18 +15,17 @@
 }
 
 - (id);
-- (id);
-- (void);
 - (void);
-- (id);
-- (long long);
+- (id);
+- (id);
 - (id);
 - (void);
 - (long long);
 - (_Bool);
 - (id);
-- (id)Ô!ÀGùq°1¢!0@ù
-× ;
+- (long long);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CKContainerID *containerID;

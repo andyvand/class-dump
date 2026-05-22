@@ -7,7 +7,6 @@
 @class UIView;
 
 @protocol _UITextSelectionWidgetAnimating
-- (void)are NULL;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool crossfadeOnDismissal;

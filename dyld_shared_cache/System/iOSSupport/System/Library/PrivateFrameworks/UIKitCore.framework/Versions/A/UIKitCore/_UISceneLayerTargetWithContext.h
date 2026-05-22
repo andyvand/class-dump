@@ -14,18 +14,17 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _block;
 }
 
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)36@0:(struct _NSZone *)arg1 8Q16B24@?28;
-- (void);
-- (id)Áq°!¤@ùñÄ°1¢!0@ù
-× ;
-- (id)tiveWidth:(id)arg1;
-- (id)correctionAnimationView;
-- (id)romWindowIfNecessary;
-- (id)rities;
-- (id)ently exist. layout=%@; collectionView=%@;
-- (_Bool)rtyPreventPaddle;
+- (id);
+- (_Bool)6@24B32;
+- (id)dingAutocorrection;
+- (id)_activationObserver;
+- (_Bool)!Ìüø¸;
+- (void)M;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

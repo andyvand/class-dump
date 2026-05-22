@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)rmAction:fromAlertController: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

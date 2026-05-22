@@ -29,68 +29,67 @@ __attribute__((visibility("hidden")))
     double _rightHitTestExtension;
 }
 
-- (double);
+- (struct CATransform3D);
+- (id);
 - (void);
-- (struct CATransform3D)Lf;
+- (_Bool);
 - (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
 - (struct CGRect);
+- (struct CGRect);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (_Bool);
-- (struct _NSRange);
-- (void);
-- (_Bool);
+- (id);
+- (id);
 - (id);
 - (struct CATransform3D);
-- (void);
 - (id);
+- (void);
+- (void);
+- (long long);
+- (_Bool);
 - (struct CGRect);
-- (_Bool)Ô ;
+- (id);
+- (id);
+- (void)1Â0@ù
+× ;
+- (_Bool)aÐ!ØCù]ð1Â0@ù
+× ;
 - (void)
 × ;
-- (_Bool)ùÁ1¢!0@ù
+- (struct CGRect)g1Â0@ù
 × ;
-- (struct CATransform3D)Ô ;
-- (id)0@ù
-× ;
-- (void)Ô ;
-- (void)ð1¢!0@ù
-× ;
-- (_Bool)1¢!0@ù
-× ;
-- (void)Set"b1"needsSetup"b1"usingMultiselectbackgroundView"b1"deleteAnimationInProgress"b1"animating"b1"animatingEditing"b1"shouldHaveFullLengthBottomSeparator"b1"shouldHaveFullLengthTopSeparator"b1"topSeparatorFollowsLayoutMargins"b1"drawsSeparatorAtTopOfSection"b1"drawsSeparatorAtBottomOfSection"b1"separatorBackdropOverlayBlendMode"b3"separatorDrawsInVibrantLightMode"b1"separatorHidden"b1"hidingSeparatorsForSelection"b1"wantsClipping"b1"allowsReorderingWhenNotEditing"b1"needsHeightCalculation"b1"focusStyle"b3"accessoryViewsHidden"b1"skipsLayout"b1"separatorInsetIsRelativeToCellEdges"b1"highlightingInteractively"b1"userInteractionEnabledWhileDragging"b1"userInteractionEnabledBeforeDragging"b2"insetsContentViewsToSafeArea"b1"needsAccessoriesUpdate"b1"needsAccessoriesUpdateForced"b1"badgeVisible"b1"shouldRestoreTextLabelAfterSystemTextSizeChange"b1"shouldRestoreDetailTextLabelAfterSystemTextSizeChange"b1"shouldRestoreEditableTextFieldAfterSystemTextSizeChange"b1"tableViewHasBeenExplicitlySet"b1"ignoresMultipleSelectionDuringEditing"b1"hasEverUsedRoundedGroups"b1"preserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
-- (id)64@72;
-- (id)dd}{CGSize=dd}}16@48@56;
-- (_Bool)angeCharactersInRanges:replacementString: /* Error: Ran out of types for this method. */;
-- (void)rowForValue:(id)arg1 forCalendarUnit:(long long)arg2 currentRow:(long long)arg3;
-- (_Bool)ingStaticItemRect;
-- (void)ys;
-- (double)toredWeakly;
-- (struct CGRect)erSize: /* Error: Ran out of types for this method. */;
-- (id)ant;
-- (void)Change;
-- (id):(struct CGRect)arg1 ,V__hasGrabber;
-- (_Bool)V__forcingImmediateCompletion;
-- (id)eHandlers:,V__interactiveChangeHandlers /* Error: Ran out of types for this method. */;
-- (void)",R,N,Vm_inlineTextCompletionController;
-- (struct CGRect)IRemoteViewControllerConnectionRequest;
-- (void)ontroller;
-- (double)W;
-- (double)¼½;
-- (void)¼;
-- (_Bool)ding a touch for the current window;
-- (id)versions this will throw an exception. Returning empty values.;
-- (long long)ttom;
-- (void)l4àniþl4ü<fþul4oiþ;
-- (_Bool)YÜ4ø;
-- (id)d;
-- (void)>q;
+- (_Bool)ITable_RowDataSource>";
+- (_Bool)ewManager";
+- (_Bool)dd}}40;
+- (double)tate: /* Error: Ran out of types for this method. */;
+- (void)on: /* Error: Ran out of types for this method. */;
+- (_Bool)raitCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)Inset:(id)arg1 bottomInset:(_Bool)arg2 forBarMetrics:barPosition: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)ransitionIndicatorsFromPage:toPage:ripple: /* Error: Ran out of types for this method. */;
+- (void)ackingRect;
+- (double)alizeTentativeViewContainers;
+- (void)fableDataSource",&,N,V_impl;
+- (_Bool)eOverride:(long long)arg1;
+- (double)erGestureRecognizerImpDelegate>",W,N,V_delegate;
+- (id)leControl;
+- (long long)E55D530921B5D45A8EA231E2252C983511DimmingView;
+- (struct CATransform3D)¶;
+- (id);
+- (void)þÿ;
+- (id)UnavailableView.m;
+- (double)me;
+- (id)CenterY;
+- (id)E¾7z_Xx;
+- (void)DidEndEditingMessage;
+- (void)ÌÕç¦\;
+- (void)ûc;
+- (void)Öd;
+- (id).ÿnaÛ¤Ef;
+- (void)ÿ!;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_textColor, setter=_setTextColor:) UIColor *_textColor; // @synthesize _textColor=__textColor;

@@ -16,16 +16,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void)ortsRequestToScreenShare;
-- (void);
-- (id);
-- (_Bool);
-- (id);
 - (struct CGSize);
 - (id);
-- (id)ä;
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void)á÷ð!tFùqð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <LPComponentViewHost> host; // @synthesize host=_host;

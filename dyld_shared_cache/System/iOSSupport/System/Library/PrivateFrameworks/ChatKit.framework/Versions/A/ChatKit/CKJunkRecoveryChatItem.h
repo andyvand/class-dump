@@ -14,10 +14,10 @@
     CKJunkRecoveryTranscriptCell *_sizingCell;
 }
 
-- (id)ryVersion;
+- (id);
 - (void);
 - (id);
-- (struct CGSize)l;
+- (struct CGSize);
 - (void);
 - (id);
 - (Class);

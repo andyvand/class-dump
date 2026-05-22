@@ -20,8 +20,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long historyLimit; // @synthesize historyLimit=_historyLimit;

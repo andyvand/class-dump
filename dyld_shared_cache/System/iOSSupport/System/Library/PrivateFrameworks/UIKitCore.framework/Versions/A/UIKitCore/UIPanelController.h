@@ -67,207 +67,201 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _additionalSidebarSafeAreaInsets;
 }
 
-+ (id)àÊ³'`;
-- (id);
-- (_Bool);
++ (id)onContextTable,S_setInvalidationContextTable:(_Bool)arg1;
 - (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id)QQ}24@0:(id)arg1 8Q16;
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void)ials:(id)arg1;
-- (void)wShowingUndownloadedTV;
-- (void)dAutohide;
-- (void);
-- (void)ockTokenCommand;
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (id);
-- (id)@16@24@32@40@?48;
-- (void)OL:(id)arg1 forTag:(_Bool)arg2;
-- (id)trolLabel;
-- (void)ntingAppBundleID;
-- (long long)alized] event=%{public}@;
-- (id)| begin [] propertySet=%@;
-- (void)lectionDataSource %p:(id)arg1 identifiersForItemAtIndexPath returning MPIdentifierSet.emptyIdentifierSet [unpersonalizedContentDescriptors did not contain MPStoreLibraryPersonalizationContentDescriptor] indexPath=%{public}@ possibleObject=%{public}@;
-- (void)lSize;
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void)ou;
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (double);
 - (long long);
-- (void);
-- (void)z	ë;
-- (id);
 - (void);
 - (void);
-- (_Bool)@"Âì;
-- (void)!Fù±ÀÐ1¢!0@ù
-× ;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
 - (long long);
-- (void)1¢!0@ù
-× ;
-- (void)ap!ÌEùÃÐ1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (_Bool)QÃ°1¢!0@ù
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (double);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (double);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (double);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)±Y°1Â0@ù
 × ;
 - (void);
-- (void)!GùqÄ°1¢!0@ù
+- (void)0@ù
+× ;
+- (id)! Bù[1Â0@ù
 × ;
 - (id);
-- (id);
-- (id)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (id)ar!¼Dù±Åð1¢!0@ù
+- (void)aÐ!¼BùQ\1Â0@ù
 × ;
 - (void)
 × ;
-- (void)ÑÅð1¢!0@ù
+- (struct CGSize)]°1Â0@ù
 × ;
-- (void)!GùñÅ°1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (id)¢!0@ù
-× ;
-- (_Bool)!0@ù
-× ;
-- (void)× ;
-- (double)xð!pDùQÍð1¢!0@ù
-× ;
-- (id)
-× ;
-- (id)ñÎ1¢!0@ù
-× ;
-- (double)onFeedbackGeneratorConfiguration";
-- (long long)ewControllerAdaptiveLayoutTransitionController";
-- (id)TypeIsValid"b1"forceRequirementSatisfied"b1"wantsDragEvents"b1"conformsToDragEventRespondable"b1"isDynamicGesture"b1"canExcludeWithActiveRequirements_DO_NOT_USE_DIRECTLY"b1"isObservingGesture"b1"didCheckForcePressShouldBegin"b1"canSendForcePressAction"b1"queriedShouldReceiveTouchesEvent"b1"shouldReceiveTouchesEvent"b1"queriedDelegateShouldReceiveTouchesEvent"b1"delegateShouldReceiveTouchesEvent"b1"queriedShouldReceivePressesEvent"b1"shouldReceivePressesEvent"b1"queriedDelegateShouldReceivePressesEvent"b1"delegateShouldReceivePressesEvent"b1"conformsToHoverEventRespondable"b1"conformsToScrollEventRespondable"b1"conformsToTransformEventRespondable"b1"conformsToLookupEventRespondable"b1"canBeCancelledByAffectedViews"b1"enqueuedForReset"b1"sendUpdateOnEventChange"b1"hasDriver"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
-- (id)tePicker:wheelsChanged: /* Error: Ran out of types for this method. */;
-- (void)creenShortcutButtonIfApplicable;
-- (void)FromString:(id)arg1;
-- (void)ewController;
-- (id)atedMinimumContentMargins:(struct CGSize)arg1;
-- (void)imeStamp:(id)arg1 location:modifiers: /* Error: Ran out of types for this method. */;
-- (void)on:(id)arg1;
-- (void)nd:(id)arg1;
-- (void)ypingAttributes: /* Error: Ran out of types for this method. */;
-- (void)ForBoundingRectWithoutAdditionalLayout:(struct UIEdgeInsets)arg1 inTextContainer: /* Error: Ran out of types for this method. */;
-- (id)onvertRectToViewCoordinates: /* Error: Ran out of types for this method. */;
-- (id)llBeginRenamingHandler;
-- (void)adURL;
-- (void)pperContentInset;
-- (void)undPlacement;
-- (void)essEnded;
-- (id)adHover: /* Error: Ran out of types for this method. */;
-- (id)labelFlags;
-- (id)initWithLength: /* Error: Ran out of types for this method. */;
-- (void)entifier:(id)arg1;
-- (id)KeyPath: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)nt:(id)arg1;
-- (void)ractionShouldPlayFeedback:(_Bool)arg1;
-- (_Bool)ilityContrastChangeInScene:transitionContext:applyChangesBlock: /* Error: Ran out of types for this method. */;
-- (id)rRadii={CGSize=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}},R,N;
-- (void)ingAppearance:(id)arg1 ,V__floatingAppearance;
-- (void)PassthroughScrollInteraction",&,N,V_passthroughInteraction;
-- (void)teMap",&,N,V_updateMap;
-- (void)bleView;
-- (void)ipWidth:(_Bool)arg1 arrowTipHeight: /* Error: Ran out of types for this method. */;
-- (void)ctionCompositionalLayoutSolver",&,N,V_solver;
-- (id)rol;
-- (_Bool)e",R,N,V_timeZone;
-- (void)mber",C,N;
-- (id)rentSettings;
-- (void)nBarTitleControlVisualProvider>",&,N,V_visualProvider;
-- (void)er;
-- (id)ayoutObserving;
-- (id)xm8nàolpÐq rpsÀt;
-- (id)P;
-- (void);
-- (void)Ì"T$%L%¬% &#(D+¸,.4//ì/X0¬1P2ü4;
-- (_Bool)<;
-- (id)ø¼<½8¾ ¾ÌÀ;
-- (_Bool);
-- (struct CGSize)ew one was requested:(id)arg1 %@;
-- (_Bool)Úþÿ¸rüÿ;
-- (id)þÿ;
-- (struct UIEdgeInsets)y:Xj8GSOÊí3y4tj87¤í3yí3GGG /* Error: Ran out of types for this method. */;
-- (id)onstraint may only be created with proxied anchors.;
-- (id)getSTUIStatusBarCellularSignalViewClass(void)_block_invoke;
-- (void)orotation for window on behalf of controller. scrollToDismiss=%@; controller=%@; window=%@;
-- (id)andidateGridCellOutlineShadow;
-- (id)red;
-- (void)e;
 - (id);
-- (void);
-- (void)ion;
-- (void)ntContainerView;
-- (void);
-- (void)4L[;
-- (void)ntViewProperties;
-- (_Bool)À;
-- (id)Àßþ»;
-- (struct CGSize)a;
-- (void);
-- (void)°äþ;
-- (void)¼d;
-- (void)&;
-- (void)e;
-- (id)E;
-- (void)¾ãÚæf;
+- (_Bool)0@ù
+× ;
+- (void)Ô ;
 - (_Bool);
-- (void)9òf;
-- (id)ÿÐÍg;
-- (id)%ÿ;
-- (id)ÿ3sÏÈg;
+- (id)1Â0@ù
+× ;
+- (id);
+- (id)ð1Â0@ù
+× ;
 - (void);
-- (id)ìh;
-- (void)ÜÄÿ'áÉ-n;
-- (void)ªÿ]ÏIi;
-- (void)i;
-- (void)j;
-- (void)àÿÐeØj;
+- (id);
+- (void)Cù1e1Â0@ù
+× ;
+- (void)!¸Dùñfð1Â0@ù
+× ;
 - (void);
-- (void)I
-ÿu;
+- (void)ionController<_UISearchControllerPresenting>";
+- (void)@0:(id)arg1 8Q16Q24Q32B40Q44;
+- (id)erInterfaceStyle"q"layoutDirection"q"forceTouchCapability"q"preferredContentSizeCategory"q"displayCornerRadius"d"legibilityWeight"q"semanticContext"q"presentationSemanticContext"q"splitViewControllerContext"q"accessibilityContrast"q"userInterfaceLevel"q"vibrancy"q"userInterfaceRenderingMode"q"activeAppearance"q"focusSystemState"q"selectionIsKey"q"toolbarItemPresentationSize"q};
+- (void)ustomizeDisplayOrder"b1};
+- (void)TabContainerView"16@0:(id)arg1 8;
+- (void)ning>"48@0:(_Bool)arg1 8@"UIPanelController"16@"UISlidingBarStateRequest"24@"UISlidingBarState"32d40;
+- (void)IndexPath:(id)arg1;
+- (void)elected;
+- (void);
+- (void)undColor:(id)arg1;
+- (id)uringInsert: /* Error: Ran out of types for this method. */;
+- (void)hts:(_Bool)arg1;
+- (void)ght:(id)arg1;
+- (void)retain;
+- (void)lastTouchDownTimestamp;
+- (struct CGSize)sponse:(id)arg1;
+- (_Bool)leSupplementariesOfElementKind:enumerator: /* Error: Ran out of types for this method. */;
+- (void)rominentConfiguration;
+- (id)taSource;
+- (void)ectedHourForColumn:(_Bool)arg1;
+- (id)epresentsLayeredImage;
+- (void)oadHistoryItem;
+- (void)temsInGroupUseSameSize;
+- (void)ting;
+- (_Bool)iers:executionContext: /* Error: Ran out of types for this method. */;
+- (id)se;
+- (void)ounceEdges;
+- (id)aratorInsets;
+- (void)gestureStarted: /* Error: Ran out of types for this method. */;
+- (void)tor;
+- (void)ryIdentifier;
+- (id)ive;
+- (id)nteractionDriverDelegate;
+- (double)`è;
+- (id);
+- (long long)'$);
+- (_Bool)º;
+- (void);
+- (void)[\ 8_ øa8cpdxe Ìj n¼qÐs Äv,x{tD ÔHÔ;
+- (void)4;
+- (void)4P;
+- (void)<¤	;
+- (id) ;
+- (_Bool)ontroller setParentViewController:] SPI in client code. Please stop calling this deprecated SPI. Child with stale reference:%@ /* Error: Ran out of types for this method. */;
+- (void)%@, update:(struct CGSize)arg1 %@, newBaseMap:%@ /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)= %@;
+- (void)ÿìÿÿ ÿÿ ÿÿ4 ÿÿL ÿÿ<#ÿÿ#ÿÿ¤#ÿÿÌ#ÿÿ$ÿÿ%ÿÿx%ÿÿ%ÿÿ¸%ÿÿà%ÿÿø%ÿÿ&ÿÿH&ÿÿ&ÿÿÀ&ÿÿø&ÿÿ'ÿÿ('ÿÿ@'ÿÿX'ÿÿp'ÿÿ'ÿÿ 'ÿÿ¸'ÿÿÐ'ÿÿè'ÿÿt(ÿÿ¸(ÿÿ)ÿÿø)ÿÿ`*ÿÿ*ÿÿ*ÿÿ+ÿÿ0+ÿÿH+ÿÿ`+ÿÿx+ÿÿ+ÿÿ¨+ÿÿ;
+- (_Bool);
+- (void);
+- (long long)ÃÅþÿüîÿ:(id)arg1 ïÿïÿ;
+- (id)ew;
+- (_Bool)ization :asking for asPlugIn=%i but already initialized with a delegate :delegate = %@ /* Error: Ran out of types for this method. */;
+- (_Bool)stance.;
+- (void)eConnection<BSServiceConnectionContext>"8;
+- (void)ryInfo"8Q16^B24;
+- (void)tBarActiveGradientStart;
+- (id)ControllerColumn = %@;
+- (void);
+- (void)%g);
+- (id)Restoration) encodeRestorableStateWithCoder:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)veWithParameters:(id)arg1 ]_block_invoke_6;
+- (_Bool)7NavigationButtonBarDelegateP;
+- (id)[¿7AAw03Iegnnd_;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)ÜÖR0ùû33h;
+- (id);
+- (void)<];
+- (id)ÿõ×©b;
+- (void)4ßAÿ;
+- (id)<½Ðÿ;
+- (void)4ìvÿL);
+- (void)É¸Bc;
+- (id)ËÿÿÜHXc;
+- (void)Ó×äìd;
+- (void);
+- (id)L$e;
+- (id)l5g;
+- (void)Òxg;
+- (_Bool)ÒL²g;
+- (id)¯Ù(k;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setMaterialThemesCaptureView:) _UIMTCaptureView *_captureView; // @synthesize _captureView=__captureView;

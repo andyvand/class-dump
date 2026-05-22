@@ -13,8 +13,8 @@
 + (id);
 + (_Bool);
 + (_Bool);
-- (void)between table.;
-- (unsigned long long)ationContext"8;
+- (void);
+- (unsigned long long);
 - (void);
 - (id);
 

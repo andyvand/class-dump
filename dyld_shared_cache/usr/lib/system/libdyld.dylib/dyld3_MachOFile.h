@@ -4,8 +4,8 @@
 
 class dyld3::MachOFile {
 public: // (access info unavailable from symbols alone)
-    forEachLoadCommand(Diagnostics&, void (load_command const*, bool&) block_pointer) const;
-    isMachO(Diagnostics&, unsigned long long) const;
-    isMainExecutable() const;
-    pointerSize() const;
+    auto forEachLoadCommand(Diagnostics&, void (load_command const*, bool&) block_pointer) const;
+    auto isMachO(Diagnostics&, unsigned long long) const;
+    auto isMainExecutable() const;
+    auto pointerSize() const;
 };

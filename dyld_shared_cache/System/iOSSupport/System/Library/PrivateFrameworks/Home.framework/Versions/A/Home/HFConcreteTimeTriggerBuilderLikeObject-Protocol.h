@@ -8,6 +8,9 @@
 @protocol HFTimeEventBuilder;
 
 @protocol HFConcreteTimeTriggerBuilderLikeObject
+- (void)1B50@ù
+× ;
+- (NSTimeZone *)MediaStateFetchManager;
 
 // Remaining properties
 @property(retain, nonatomic) HFEventBuilder<HFTimeEventBuilder> *eventBuilder;

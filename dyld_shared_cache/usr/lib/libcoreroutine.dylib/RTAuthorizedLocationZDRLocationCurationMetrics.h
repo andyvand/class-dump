@@ -17,7 +17,7 @@
 }
 
 - (int);
-- (void)5;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,11 +28,11 @@
 - (int);
 - (int);
 - (int);
-- (_Bool)R;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)eOffloadEnabled;
+- (_Bool);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property _Bool isZDRHomeLearnedALoi; // @synthesize isZDRHomeLearnedALoi=_isZDRHomeLearnedALoi;

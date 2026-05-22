@@ -25,18 +25,21 @@
 - (id);
 - (void);
 - (CDStruct_77e3d9bc);
+- (void);
 - (double);
+- (void);
+- (id);
 - (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)!¼Fùqøð1â
+0@ù
+× ;
+- (id)	
+;
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;

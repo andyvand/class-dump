@@ -11,17 +11,17 @@
     unsigned long long _type;
 }
 
-+ (_Bool)rvers;
++ (_Bool);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) PKAMSMediaLookupItemMusic *musicItem;

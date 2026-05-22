@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (unsigned long long)Ü:ÿuC0È!ÿ /* Error: Ran out of types for this method. */;
+- (unsigned long long)[ºGG;
+- (void)èÿ}XÆäÿXÆÀwÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryChapterCollection> chapterCollection; // @synthesize chapterCollection=_chapterCollection;

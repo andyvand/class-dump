@@ -48,17 +48,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (long long);
-- (id)32@0:8@"SHSheetScene"16@"SHSheetAction"24 /* Error: Ran out of types for this method. */;
-- (void)CollaborationShareOptions",R,N;
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) SFCollaborationCloudSharingRequest *cloudShareRequest; // @synthesize cloudShareRequest=_cloudShareRequest;

@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKInkAttributesPicker;
-
 @protocol PKInkAttributesPickerDelegate
-
-@optional
-- (void);
-- (void)l tasks on background URLSession:(PKInkAttributesPicker *)arg1 %{public}@;
-- (void)loading configuration resource:(PKInkAttributesPicker *)arg1 %{public}@;
 @end
 

@@ -23,14 +23,14 @@
 - (id);
 - (unsigned long long);
 - (double);
+- (double);
+- (double);
 - (_Bool);
 - (id);
-- (void);
-- (double);
 - (id);
-- (double);
 - (id);
-- (struct UIEdgeInsets);
+- (void)r: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)IWebPlacecardBridgePool;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool darkMode; // @synthesize darkMode=_darkMode;

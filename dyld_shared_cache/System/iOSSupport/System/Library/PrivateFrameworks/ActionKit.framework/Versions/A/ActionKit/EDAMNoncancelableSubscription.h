@@ -51,11 +51,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)	
-;
-- (void)oDxÛ¯Êóh¹>Ä$8,4£Â_@rÃâ¼%<(IÿA¨9qÞ³´ØäVdÁË{a2Õp¶lHt\¸ÐBWQP§ô~SeAÃ¤:(id)arg1 ^';Ëk«ñE¬«XúKã Uú0­ömvvÌõ%LOü×åÅ×Ë*&D5µ£bÞIZ±%gºEê]áÀþÃu/ðL£FkÆùÓç_¿ëzmÚYRÔ-¾XÓ!tI)iàDÈÉujÂôxyk>X'Ýq¹¾¶Oáð­Éf¬ }´:ÎcJßå1`3QbES±àwd»®kþ ù+pXhHýElÞR·ø{«#ÓsrâKãWf*«U²(ë/Âµ{ÅÓ¥70ò(#²¥¿ºjí\+Ï§´yóðòN¡âieÍôÚÕ¾Ñb4Äþ¦4S.¢ Uó2á¤uëö9ì@ªï`^q½Qn>ù!=ÝÝ®>MF½æµTq]ÄoÔ`ÿP$ûÖé½ÌC@gwÙ°½Bèç8[yÛîÈ¡G
-||éBøÉ /* Error: Ran out of types for this method. */;
+- (void)"http://xml.evernote.com/pub/enml2.dtd"> /* Error: Ran out of types for this method. */;
+- (id)t Output Name);
+- (void)÷ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *amazonPurchaseToken; // @synthesize amazonPurchaseToken=_amazonPurchaseToken;

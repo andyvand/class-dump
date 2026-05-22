@@ -26,20 +26,19 @@
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (unsigned short);
-- (id);
-- (void);
 - (void);
 - (long long);
 - (id);
-- (id)ñ{Ð1b0@ù
-× ;
-- (void)Menu;
-- (void)ÿ¦CQFÊ5;
-- (id)Ô£¾ÿ;
-- (id)`;ÕÿjËKE7;
+- (id);
+- (unsigned short);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (id)vityItemsConfigurationReading>"16@0:(struct _NSZone *)arg1 8;
+- (void)ontentActionPerformer_MergeAlbumsTitle;
+- (void);
+- (id)oÇ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,9 +13,9 @@
 
 + (id);
 - (struct CGRect);
-- (struct CGRect)?2G;
+- (struct CGRect);
 - (id);
-- (unsigned long long);
+- (unsigned long long)date: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long corners; // @synthesize corners=_corners;

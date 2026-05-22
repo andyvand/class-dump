@@ -7,7 +7,6 @@
 @protocol _UIDataSourceSnapshotTranslating;
 
 @protocol NSCollectionLayoutEnvironment_Private
-- (long long)GAGGÓ­®GAEyAEyAEy|Õ®yAEyAuKyGÔ®SgGG_Qo_AKyGÙ®GGAKyAWSgGGA9_GGt;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIDataSourceSnapshotTranslating> _dataSourceSnapshot;

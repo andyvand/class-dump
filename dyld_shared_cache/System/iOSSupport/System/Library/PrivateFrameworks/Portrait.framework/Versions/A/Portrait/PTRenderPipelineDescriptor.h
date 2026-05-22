@@ -35,14 +35,14 @@
 - (struct CGSize);
 - (unsigned long long);
 - (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (struct CGAffineTransform);
-- (_Bool)TPrecomputeRandom;
-- (void)¦Êÿ;
-- (id)s;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly) struct CGSize colorInputSize; // @synthesize colorInputSize=_colorInputSize;

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LNFullyQualifiedActionIdentifier;
+
 @protocol WFLinkActionProtocol
+
+// Remaining properties
+@property(readonly, nonatomic) LNFullyQualifiedActionIdentifier *fullyQualifiedLinkActionIdentifier;
 @end
 

@@ -8,8 +8,8 @@
 {
 }
 
-- (id)wAlpha: /* Error: Ran out of types for this method. */;
-- (long long)erticalMask;
+- (id);
+- (long long)k;
 
 @end
 

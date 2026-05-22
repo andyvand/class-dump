@@ -12,10 +12,10 @@
 
 - (void);
 - (void *);
-- (_Bool)96@0:8@16@24@32@40d48@56@64@72@80@88 /* Error: Ran out of types for this method. */;
-- (id),V_communicationSafetyResultEventType;
+- (_Bool);
+- (id);
 - (void);
-- (id)ateWithDescriptor:options:reflection:error: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isNullRef) _Bool nullRef; // @synthesize nullRef=_nullRef;

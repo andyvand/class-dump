@@ -23,16 +23,16 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
 - (void);
-- (id);
-- (void)Èsé;
-- (id);
 - (_Bool);
 - (id);
-- (id)be initialized with an assetCollection;
-- (long long)w;
-- (void);
+- (id)ithAnimationCoordinator: /* Error: Ran out of types for this method. */;
+- (id)%è%	h&@'ä(;
+- (void)ement;
+- (long long);
+- (void)hotoKitMemoryCustomizeActionPerformer.swift;
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;

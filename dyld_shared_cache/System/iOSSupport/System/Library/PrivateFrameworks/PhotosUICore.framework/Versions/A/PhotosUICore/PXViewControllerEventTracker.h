@@ -29,10 +29,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)h4¬;
-- (id)ê3;
+- (id);
+- (void)erFractionCompleted;
+- (void)lectionCustomizationFoldersModel;
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<PXAnonymousViewController> *currentViewController; // @synthesize currentViewController=_currentViewController;

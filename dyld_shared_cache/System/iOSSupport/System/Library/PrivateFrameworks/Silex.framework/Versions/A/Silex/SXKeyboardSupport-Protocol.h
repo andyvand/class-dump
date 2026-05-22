@@ -5,6 +5,5 @@
 //
 
 @protocol SXKeyboardSupport
-- (void);
 @end
 

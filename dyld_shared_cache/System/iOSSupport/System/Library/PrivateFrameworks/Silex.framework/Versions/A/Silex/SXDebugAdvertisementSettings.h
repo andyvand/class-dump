@@ -18,9 +18,9 @@
 - (struct _SXConvertibleValue);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
 - (id);
+- (void)nentMask"16@0:8 /* Error: Ran out of types for this method. */;
+- (unsigned long long)ôÿtVâ0;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bannerType; // @synthesize bannerType=_bannerType;

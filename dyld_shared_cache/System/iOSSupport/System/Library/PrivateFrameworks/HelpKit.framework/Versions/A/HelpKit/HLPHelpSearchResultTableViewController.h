@@ -21,13 +21,13 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void)*;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *footerView; // @synthesize footerView=_footerView;

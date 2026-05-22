@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (id);
-- (unsigned long long)%{public}s;
-- (id)be indexed;
+- (unsigned long long);
 - (id);
+- (id)Q;
 
 @end
 

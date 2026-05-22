@@ -15,22 +15,22 @@
 }
 
 - (void);
-- (void)pToLimit:(_Bool)arg1 flag:lane:reason:userInfo:completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)y:restoringAttachments:retryCount:numAttachmentsDownloaded:transfers:completion: /* Error: Ran out of types for this method. */;
-- (id)setUpdateTimer:(id)arg1;
+- (void);
 - (_Bool);
-- (void)ldn't find a chat to send nickname info to for guid %@;
-- (_Bool)ties:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
 - (void);
-- (void)eImage;
+- (_Bool);
 - (void);
-- (void);
-- (void)entifier AND hashed_person_id = @hashedPersonID AND flavor = @flavor;
+- (id);
 - (id);
 - (void);
-- (id)-[layoutView]-(>=bottomTitleInset)-|;
-- (void)eFloat";
-- (void)<ÿ;
+- (void);
+- (void)withBlock:(id)arg1;
+- (void).;
+- (void)"3ÿ;
+- (void)°i;
+- (void)P¸j;
 
 // Remaining properties
 @property(nonatomic) _Bool isPresentingSearchController; // @synthesize isPresentingSearchController=_isPresentingSearchController;

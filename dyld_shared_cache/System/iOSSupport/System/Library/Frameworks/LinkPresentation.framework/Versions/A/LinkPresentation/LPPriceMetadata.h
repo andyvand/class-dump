@@ -12,19 +12,20 @@
     NSString *_currency;
 }
 
-+ (_Bool)erInteractionWithVideoPlayer;
++ (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (void);
 - (id);
-- (void)nfiguration;
-- (id);
-- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *amount; // @synthesize amount=_amount;

@@ -29,16 +29,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool)6µýÿÔåþÿ;
+- (void);
+- (void)stLayoutSection;
+- (_Bool)wñÿÿÿÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *defaultImage; // @synthesize defaultImage=_defaultImage;

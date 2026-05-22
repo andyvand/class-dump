@@ -20,37 +20,38 @@
     UICellConfigurationState *_configurationState;
 }
 
-+ (id)D:(id)arg1 %@;
-- (void)tSizeEnabled;
-- (void)Extension;
-- (id)me;
-- (id)R,N,V_baseAttachmentController;
-- (id)tory;
++ (id);
+- (void);
+- (void);
 - (id);
-- (id)o31BGNonRepeatingSystemTaskRequestCSgIegr_;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void)%s, mirror URL:(id)arg1 %s;
-- (void)g participant.;
-- (void)%@;
-- (id)D %@ failed chat validation:(id)arg1 %@;
-- (id)ng SMS Push Hander Regiration State to:%@ /* Error: Ran out of types for this method. */;
-- (id)outstanding asset requested for message %@, setting IMCMMStateCompleted;
-- (id)amEventID;
-- (id)rd;
-- (id)s;
-- (id)rpreterState;
-- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)gDocumentIds;
 - (id);
-- (_Bool);
-- (id)bumTitle;
-- (void)Hq	ë;
-- (id)iderEndpoint:initialCentroidInSourceWindow:sourceView: /* Error: Ran out of types for this method. */;
-- (id)®Øsç^;
+- (id);
+- (id)0@ù
+× ;
+- (_Bool)ed:(id)arg1;
+- (id)isAccessibilityElementByDefault;
+- (id)u;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UITab *_tab;

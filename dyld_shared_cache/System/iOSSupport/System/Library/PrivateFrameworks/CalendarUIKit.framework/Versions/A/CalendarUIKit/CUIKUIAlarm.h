@@ -18,11 +18,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)[p,;
 - (id);
-- (void);
+- (id);
 - (id);
 - (_Bool);
+- (void)ortedArrayUsingDescriptors: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) EKAlarm *alarm; // @synthesize alarm=_alarm;

@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol UIItemProviderReadingAugmentationProviding
-+ (NSArray *);
-+ (id)tion;
 @end
 

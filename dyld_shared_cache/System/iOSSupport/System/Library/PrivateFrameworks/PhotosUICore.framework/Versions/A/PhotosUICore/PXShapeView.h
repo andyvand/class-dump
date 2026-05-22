@@ -13,15 +13,15 @@
     UIColor *_strokeColor;
 }
 
-+ (Class)gAccessoryView;
++ (Class);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)äa@b;
-- (id);
-- (void)ghtForSpecSet(PXMemoryFontSet, PXMemorySpecSet, PXMemorySpecVariant);
-- (void)childItemListManager;
+- (id)_hasLeftSuboptimalRow;
+- (id)HáàÿÐ;
+- (id)ºy÷l;
+- (void)ySbGG_AItGGSg_[ºyAFyAGG_HºyAP_å|ºQo_Qo_tGGQo_;
+- (void)lete %ld comments from shared asset %{public}s, with error:(id)arg1 %@;
+- (void)x±;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;

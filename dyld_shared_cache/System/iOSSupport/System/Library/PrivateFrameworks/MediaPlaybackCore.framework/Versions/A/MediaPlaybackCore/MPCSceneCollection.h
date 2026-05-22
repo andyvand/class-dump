@@ -13,13 +13,13 @@
     NSArray *_scenes;
 }
 
-- (void)0:(id)arg1 8@16@24@32@?40;
-- (void);
-- (id)SponsoredSearchSessionProviding;
 - (void);
 - (void);
-- (double)f÷ÿ0f÷ÿèf÷ÿdj÷ÿj÷ÿÄj÷ÿøj÷ÿDm÷ÿpm÷ÿ¬m÷ÿäm÷ÿ n÷ÿ@p÷ÿdp÷ÿpp÷ÿèq÷ÿhr÷ÿ¤r÷ÿTu÷ÿ`u÷ÿlu÷ÿxu÷ÿ¸u÷ÿôu÷ÿ\v÷ÿ@÷ÿt÷ÿ°÷ÿÔ÷ÿø÷ÿL÷ÿp÷ÿ÷ÿ¸÷ÿt÷ÿ÷ÿ¼÷ÿX÷ÿ|÷ÿ°÷ÿì÷ÿ ÷ÿ\÷ÿ÷ÿ¤÷ÿÈ÷ÿ@÷ÿX÷ÿ|÷ÿ ÷ÿh÷ÿ÷ÿ4÷ÿX÷ÿ÷ÿP÷ÿ÷ÿ¨÷ÿÌ÷ÿ< ÷ÿü ÷ÿ¨ó÷ÿø÷÷ÿø÷ÿXø÷ÿ;
 - (id);
+- (double);
+- (void);
+- (id);
+- (void)ivery] lastEventSuccessTimestamp=%llu;
 
 // Remaining properties
 @property(nonatomic) double frameRate; // @synthesize frameRate=_frameRate;

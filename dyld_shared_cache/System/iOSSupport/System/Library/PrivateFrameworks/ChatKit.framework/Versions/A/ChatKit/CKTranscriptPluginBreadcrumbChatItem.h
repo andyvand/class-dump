@@ -14,21 +14,21 @@
     CKTranscriptPluginChatItem *_previousPluginChatItem;
 }
 
-- (BOOL):inTextStorage: /* Error: Ran out of types for this method. */;
-- (void)loseProgressDialog;
-- (id)onV2;
+- (BOOL);
+- (void);
+- (id);
 - (id);
 - (struct CGSize);
 - (id);
-- (struct CGSize)AttachmentC;
-- (_Bool)serDefaultName. Fetching accountID and container.;
+- (struct CGSize);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (Class);
-- (void);
-- (unsigned long long)et"24;
-- (id)};
+- (id);
+- (unsigned long long)4;
+- (void)_STICKER;
 
 // Remaining properties
 @property(readonly, nonatomic) IMTranscriptPluginBreadcrumbChatItem *IMChatItem; // @dynamic IMChatItem;

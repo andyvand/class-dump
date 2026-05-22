@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (id);
-- (void)BlastDoorBasicMessage:(long long)arg1;
-- (_Bool)roupChatWithFromIdentifier:(long long)arg1 toIdentifier:(long long)arg2 displayName:(unsigned long long)arg3 participants:groupID: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
 
 @end
 

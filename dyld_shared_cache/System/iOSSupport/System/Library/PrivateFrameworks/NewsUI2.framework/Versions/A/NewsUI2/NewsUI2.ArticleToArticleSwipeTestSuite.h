@@ -13,9 +13,9 @@
     MISSING_TYPE *activity;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (id);
+- (void)Í3;
 
 // Remaining properties
 @property(readonly, nonatomic) FMFLocation *fmfLocation; // @synthesize fmfLocation=_fmfLocation;

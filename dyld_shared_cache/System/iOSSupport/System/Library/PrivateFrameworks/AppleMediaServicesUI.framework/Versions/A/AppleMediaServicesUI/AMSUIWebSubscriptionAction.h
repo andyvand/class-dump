@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (void);
-- (long long)[%{public}@] Rendering message as Banner;
-- (void){                resolve();            }, 0);        });    });});;
+- (void)Ð8Ü;
+- (long long)ButtonFont;
 
 // Remaining properties
 @property(nonatomic) long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;

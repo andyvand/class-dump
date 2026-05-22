@@ -18,45 +18,45 @@
     NSArray *_defaultSystemTrailingBarButtonGroups;
 }
 
+- (SEL);
 - (void);
-- (void)ption:withConfiguredAccounts:withCredentials: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void)`;
-- (void)RegisterItem cannot be NULL.;
 - (id);
-- (_Bool)5;
 - (void);
-- (_Bool)hr;
-- (void);
-- (void);
-- (void);
-- (void)× ;
-- (void)!øDù1Èð1¢!0@ù
+- (id);
+- (id)ñYÐ1Â0@ù
 × ;
 - (void);
-- (void)× ;
-- (void)°1¢!0@ù
+- (void)cð1Â0@ù
 × ;
-- (void)DocumentPickerViewController>";
-- (void)ion: /* Error: Ran out of types for this method. */;
-- (void)ollection: /* Error: Ran out of types for this method. */;
-- (void)aptureTouchesRecognizer: /* Error: Ran out of types for this method. */;
-- (void)ginOneFingerSelectWithTranslation:executionContext: /* Error: Ran out of types for this method. */;
-- (void)sNow: /* Error: Ran out of types for this method. */;
-- (id)dSearchBarPlacement;
-- (void)T@"UITitlebar",R,W,N,V_owningTitlebar;
-- (id)HññðòõÄõ`ö
-0÷¬÷lú8û;
-- (void)ng from loader=%p;
-- (void)AutomaticDimension.;
-- (void)e cell, which will cause substandard performance in cell autosizing. Please leave the contentView's translatesAutoresizingMaskIntoConstraints true or else provide constraints between the contentView and the cell. %@;
+- (void)@ù
+× ;
 - (void);
-- (void)ToolbarDeleteTemplate;
-- (id)rrent is %i);
-- (void)%ld);
-- (void)om;
-- (SEL)ò9Ð¿\;
+- (void){CGPoint=dd}32@"UIView"48;
+- (void)e"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
+- (void)Container: /* Error: Ran out of types for this method. */;
+- (void)tputOnInputSourceSession:shouldFlush: /* Error: Ran out of types for this method. */;
+- (void)doubleSided;
+- (void)utocorrect;
+- (void)ect: /* Error: Ran out of types for this method. */;
+- (void)nedAlertController;
+- (_Bool)PendingAnimations;
+- (void)abel;
+- (_Bool)ionTintColor;
+- (void)`;
+- (void)b;
+- (void)°e;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *defaultSystemLeadingBarButtonGroups; // @synthesize defaultSystemLeadingBarButtonGroups=_defaultSystemLeadingBarButtonGroups;

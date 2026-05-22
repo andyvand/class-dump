@@ -13,12 +13,12 @@
     MISSING_TYPE *webArchiveService;
 }
 
-- (void);
 - (id);
 - (id);
-- (void)derViewRenderer;
-- (void)ot invalidate Continue Reading prompt presentation, activity=%{public}@;
 - (void);
+- (void);
+- (void);
+- (void)ý°	µ7_v;
 
 // Remaining properties
 @property(nonatomic, readonly) id <WKURLSchemeTask> task; // @synthesize task;

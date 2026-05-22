@@ -7,7 +7,6 @@
 @class UIBezierPath;
 
 @protocol UIDynamicItem
-- (struct CGPoint)aranceStyleStacked;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

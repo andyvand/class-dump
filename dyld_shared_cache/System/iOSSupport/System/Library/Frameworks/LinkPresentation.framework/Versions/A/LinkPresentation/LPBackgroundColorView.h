@@ -12,11 +12,12 @@ __attribute__((visibility("hidden")))
     UIColor *_color;
 }
 
-- (void);
+- (void);
 - (id);
-- (void)eoMetadata;
 - (id);
 - (void);
+- (void)ø!ðCù1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

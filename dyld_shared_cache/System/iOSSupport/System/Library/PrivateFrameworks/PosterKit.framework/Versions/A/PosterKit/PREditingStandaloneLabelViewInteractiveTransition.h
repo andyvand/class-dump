@@ -17,12 +17,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)SceneRole:posterRole: /* Error: Ran out of types for this method. */;
+- (void)¡¨°!¨FùÑñÐ1â
+0@ù
+× ;
+- (void)tionary",R,C,N,V_sidebarComplicationIconLayout;
+- (void)ð;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *currentText; // @synthesize currentText=_currentText;

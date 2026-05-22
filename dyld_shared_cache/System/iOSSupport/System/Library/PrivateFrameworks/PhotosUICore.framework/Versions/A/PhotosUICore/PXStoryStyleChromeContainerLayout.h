@@ -41,13 +41,13 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void) 9èG;
 - (id);
-- (id);
-- (void)a;
-- (void)«O;
-- (id)tH;
+- (void);
+- (void)tionPhotoKitAssetFetchResultProvider;
+- (void);
+- (id)SþStn3;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *artworkPreloadingRecords; // @synthesize artworkPreloadingRecords=_artworkPreloadingRecords;

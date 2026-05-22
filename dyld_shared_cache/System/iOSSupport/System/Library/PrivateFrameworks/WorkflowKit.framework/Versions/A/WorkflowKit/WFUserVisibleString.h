@@ -13,19 +13,18 @@
     unsigned long long kind;
 }
 
-- (id)ì´Ì;
+- (id);
+- (id);
+- (void);
 - (id);
 - (long long);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
 - (_Bool);
-- (id);
-- (id)ssed parameter value:%@ /* Error: Ran out of types for this method. */;
-- (void)RemoteUIService.ToggleCaptionsIntent;
-- (void)¹Ãã<¼
-;
+- (id)etion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ription: /* Error: Ran out of types for this method. */;
+- (id)%s;
+- (void)ArrayParameter;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *content;

@@ -15,16 +15,15 @@
     NSString *_modelIdentifier;
 }
 
-+ (id)etActionSetType:(id)arg1;
-- (id);
-- (void);
-- (id)ForceITunesStorePasswordEntry:withAllowMarketPlaceAppInstallation: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)Q¨1¢!0@ù
++ (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)!Bù?°1Â0@ù
 × ;
-- (_Bool);
-- (id)÷
-;
+- (void)el: /* Error: Ran out of types for this method. */;
+- (id)rInfoKeyDeltaRequest;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;

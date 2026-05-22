@@ -40,25 +40,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (struct CGPoint);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (long long);
+- (void);
 - (id);
 - (void);
-- (struct CGPoint);
-- (id);
 - (void);
-- (id)hEvent: /* Error: Ran out of types for this method. */;
-- (void)pha;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXLocalDragSessionDelegate> delegate; // @synthesize delegate=_delegate;

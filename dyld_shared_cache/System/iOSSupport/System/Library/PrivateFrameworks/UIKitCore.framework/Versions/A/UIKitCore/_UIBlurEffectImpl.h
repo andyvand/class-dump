@@ -9,21 +9,23 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ne ;
-- (void);
-- (unsigned long long);
-- (_Bool);
++ (id);
 - (long long);
-- (id);
-- (void)nitWithISize:(id)arg1 jSize:(id)arg2;
-- (_Bool)oidDefaultTitleAndImageLayout;
-- (_Bool)tedContentSizeForPopover: /* Error: Ran out of types for this method. */;
-- (void)(É;
-- (_Bool)´ÿÿÿ<Zéÿ0ûþhþÿ;
-- (_Bool)display mode ;
-- (id)MeshTransform;
-- (void)jÌþ`­Ì];
-- (_Bool)Jd;
+- (unsigned long long);
+- (_Bool)
+× ;
+- (void)Qdð1Â0@ù
+× ;
+- (_Bool)tRespectsSystemGestureTouchFiltering:(id)arg1;
+- (void)SpringAnimations:(id)arg1;
+- (id)titleView;
+- (void):(id)arg1;
+- (_Bool)nimations parameter of +[UIView addKeyframeWithStartTime:(id)arg1 duration:(id)arg2 animations:(long long)arg3 ] must be non-nil;
+- (_Bool)t.;
+- (id)ntainerCSbIggyygd_;
+- (void)Wê;
+- (_Bool)·\;
+- (_Bool)Û-ÿq;
 
 @end
 

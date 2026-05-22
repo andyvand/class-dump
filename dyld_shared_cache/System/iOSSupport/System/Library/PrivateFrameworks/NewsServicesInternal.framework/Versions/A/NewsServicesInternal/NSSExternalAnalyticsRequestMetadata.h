@@ -22,11 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)TSDPulseAnimationKey;
+- (id);
 - (int);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contentViewedIdentifier; // @synthesize contentViewedIdentifier=_contentViewedIdentifier;

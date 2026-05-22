@@ -23,28 +23,27 @@
 + (id);
 - (id);
 - (void);
-- (void)hed batch, has more work to do, but is cancelled;
-- (void)ame:(double)arg1 %@, identifier:%@ /* Error: Ran out of types for this method. */;
-- (void)endsWithCompletion failed with an error. This breaks our ability to get FindMy friendship updates throughout the app. If you see this error, please file a radar to the FindMy team. Error:(double)arg1 %@;
-- (void)e, current focus semantic type is %ld;
-- (void)erval:(double)arg1 %f;
-- (void)Updating with handleInfo:(double)arg1 %@;
-- (void)=> Found chat, but it had no particpants. Updating with handleInfo:(double)arg1 %@;
-- (double)lGroupID %@. Assigning identifier for domain %@ to chat with guid %@ as a historical identifier;
-- (double)hat using groupID %@ rather than originalGroupID %@. Assigning identifier for domain %@ to chat with guid %@ as a historical identifier;
-- (double)riginalGroupID:%@ and service:%@ /* Error: Ran out of types for this method. */;
-- (double)ners;
-- (double)DiMessageIDSTrustedData"24@"IMDiMessagePipelineResources"32@"IDSMessageContext"40@"IMPowerAssertion"48;
-- (double)oll;
-- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
+- (double);
 - (double);
 - (void);
 - (void);
-- (double)was missing mapping for MPModelPropertyPlaylistParentPersistentID;
-- (void)qÐ!àAù±Ä1¢!0@ù
-× ;
-- (void)_setPrefersSeparatePlatter: /* Error: Ran out of types for this method. */;
-- (id)64c][64c][256c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]},R,N;
+- (double)tingsWithDuration:timingFunction: /* Error: Ran out of types for this method. */;
+- (void)emplateImage: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ø¦l;
 
 // Remaining properties
 @property(nonatomic) double coneOfInfluenceLeftAngle; // @synthesize coneOfInfluenceLeftAngle;

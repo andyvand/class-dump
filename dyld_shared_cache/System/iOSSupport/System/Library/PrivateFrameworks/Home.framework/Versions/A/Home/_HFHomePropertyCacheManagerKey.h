@@ -14,11 +14,11 @@
 
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void)ÄÅÈÿÿÿÿÿT;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;

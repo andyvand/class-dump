@@ -4,15 +4,15 @@
 
 class icu::CollationRootElements {
 public: // (access info unavailable from symbols alone)
-    findP(unsigned int) const;
-    findPrimary(unsigned int) const;
-    firstCEWithPrimaryAtLeast(unsigned int) const;
-    getFirstSecTerForPrimary(int) const;
-    getPrimaryAfter(unsigned int, int, signed char) const;
-    getPrimaryBefore(unsigned int, signed char) const;
-    getSecondaryAfter(int, unsigned int) const;
-    getSecondaryBefore(unsigned int, unsigned int) const;
-    getTertiaryAfter(int, unsigned int, unsigned int) const;
-    getTertiaryBefore(unsigned int, unsigned int, unsigned int) const;
-    lastCEWithPrimaryBefore(unsigned int) const;
+    auto findP(unsigned int) const;
+    auto findPrimary(unsigned int) const;
+    auto firstCEWithPrimaryAtLeast(unsigned int) const;
+    auto getFirstSecTerForPrimary(int) const;
+    auto getPrimaryAfter(unsigned int, int, signed char) const;
+    auto getPrimaryBefore(unsigned int, signed char) const;
+    auto getSecondaryAfter(int, unsigned int) const;
+    auto getSecondaryBefore(unsigned int, unsigned int) const;
+    auto getTertiaryAfter(int, unsigned int, unsigned int) const;
+    auto getTertiaryBefore(unsigned int, unsigned int, unsigned int) const;
+    auto lastCEWithPrimaryBefore(unsigned int) const;
 };

@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     struct CGSize _size;
 }
 
-+ (id)0¹ÿ=J;
-- (_Bool);
-- (id);
-- (struct CGSize)tAllowsForwardingFocusMovementActions: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ë'[;
++ (id)HorizontalIndexTitleBarCell;
+- (struct CGSize);
+- (struct CGSize);
+- (_Bool)eViewShouldShareTouchesWithHost:(id)arg1;
+- (id)uage;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;

@@ -17,21 +17,22 @@
 
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id)01b0@ù
+- (void)qð1â
+0@ù
 × ;
-- (id)r: /* Error: Ran out of types for this method. */;
-- (void)nitWithSourceProvider:(id)arg1 transformationBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)ontextMenuAccessoryDetailsTitle;
-- (_Bool)s;
-- (_Bool)t@éÿø=3;
-- (void)³­ÿ;
+- (void)Content:(_Bool)arg1;
+- (void)iew.Utility.LocationSelection.HeaderLabel;
+- (_Bool);
+- (_Bool)|	|X;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) id <_TtP6HomeUI34HUCollectionViewSwitchCellDelegate_> delegate; // @synthesize delegate;

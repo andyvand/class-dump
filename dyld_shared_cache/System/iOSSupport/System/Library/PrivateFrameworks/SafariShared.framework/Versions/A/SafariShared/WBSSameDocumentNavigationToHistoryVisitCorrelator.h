@@ -13,8 +13,8 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)?0@"WBSTestResultsReport"8;
 
 @end
 

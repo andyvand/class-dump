@@ -4,7 +4,7 @@
 
 class std::__1::__shared_weak_count {
 public: // (access info unavailable from symbols alone)
-    __release_shared[abi:nn200100]();
-    __release_weak();
+    auto __release_shared[abi:nqn210106]();
+    auto __release_weak();
     ~__shared_weak_count();
 };

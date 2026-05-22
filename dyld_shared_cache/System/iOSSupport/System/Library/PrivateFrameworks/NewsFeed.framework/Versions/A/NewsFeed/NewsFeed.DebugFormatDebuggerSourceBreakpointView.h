@@ -13,10 +13,11 @@
     MISSING_TYPE *breakpointSize;
 }
 
-- (_Bool);
 - (id);
-- (void);
-- (id)egn_;
+- (id);
+- (_Bool);
+- (void)@
+ÿ;
 
 @end
 

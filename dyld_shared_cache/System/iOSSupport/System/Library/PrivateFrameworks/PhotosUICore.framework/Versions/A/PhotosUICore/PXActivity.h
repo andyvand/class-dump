@@ -45,17 +45,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)!HEùñ|Ð1b0@ù
-× ;
-- (void)adius;
-- (id);
-- (id)@24@0:8@16 /* Error: Ran out of types for this method. */;
-- (id);
-- (id)k;
-- (void)05;
-- (id)XÒÔÿÕIø8;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)tionController;
+- (id);
+- (void);
+- (id)RÄâ7;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_systemImageName;

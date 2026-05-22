@@ -25,26 +25,26 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)}@;
-- (void);
-- (id)pple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCFallbackOperation.m;
-- (void)@;
+- (void);
+- (void);
+- (id);
+- (void);
 - (double);
 - (double);
-- (id)H;
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)c;
-- (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)CHEncodedStrokeIdentifier",R,N,V_encodedStrokeIdentifier;
 
 // Remaining properties
 @property(nonatomic) double _beganRecognitionTimestamp; // @synthesize _beganRecognitionTimestamp=__beganRecognitionTimestamp;

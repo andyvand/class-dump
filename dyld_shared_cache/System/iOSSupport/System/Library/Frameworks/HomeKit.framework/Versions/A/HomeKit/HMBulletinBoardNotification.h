@@ -18,8 +18,8 @@
     _HMContext *_context;
 }
 
-+ (id)eraSnapshotControlDelegate;
-+ (_Bool)ss:[NSArray class]] /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (id)nagerTestErrorCaseResetAccessoryKey;
 - (_Bool);
 - (id);
 - (void);
@@ -29,20 +29,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (_Bool);
 - (id);
 - (void);
-- (id)rManagement;
-- (_Bool)anionInitiatedObliterate;
-- (id)äÿWÏ¡½B;
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSPredicate *condition; // @synthesize condition=_condition;

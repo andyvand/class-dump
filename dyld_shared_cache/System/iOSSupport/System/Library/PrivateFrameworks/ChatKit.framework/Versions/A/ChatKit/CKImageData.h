@@ -19,44 +19,43 @@
 }
 
 + (id);
-+ (_Bool)Tû!é¿-DTû!é?Ò!3|Ù@;
-- (id)stentStore;
-- (id)ay",&,N,V_nonSystemPaperNotesInSource;
-- (id)@"NSMutableArray",&,N,V_nonCallNotesInSource;
-- (id)y",&,N,V_mathNotesNotesInSource;
-- (id)InSource;
-- (id)ontext:(unsigned long long)arg1;
++ (_Bool)¥91;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (struct CGSize);
 - (void);
-- (void)trackedShareMetricsObservers;
-- (struct CGSize)r;
+- (void);
 - (struct CGSize);
-- (_Bool)aveShare:forObject:qualityOfService:completionHandler:shareArgument is nil /* Error: Ran out of types for this method. */;
-- (id)Capacity;
-- (id);
-- (id)M
-;
+- (struct CGSize);
+- (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (id)`";
-- (id)h;
-- (void);
-- (id)1¢!0@ù
-× ;
-- (unsigned long long);
 - (struct CGImageSource *);
-- (void)ã_ÿ;
+- (id);
+- (void);
+- (void);
+- (id);
+- (long long);
+- (id);
+- (id);
+- (id)Q°1Â0@ù
+× ;
+- (void)ïøÿÞ/ùÿ;
+- (void)GABG_G;
+- (unsigned long long)%\G_õW\tGGÕ3\Gç-\GABy]\yAYGA_GG;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *MIMEType;

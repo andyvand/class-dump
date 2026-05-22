@@ -72,11 +72,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)oller;
-- (id)E«5;
+- (void);
+- (id)Library:] /* Error: Ran out of types for this method. */;
+- (void)]ÇÆÈ{ÿ]ÇÆÄ{ÿeÇÆôç}ÿ;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *assetCountChangedTimer; // @synthesize assetCountChangedTimer=_assetCountChangedTimer;

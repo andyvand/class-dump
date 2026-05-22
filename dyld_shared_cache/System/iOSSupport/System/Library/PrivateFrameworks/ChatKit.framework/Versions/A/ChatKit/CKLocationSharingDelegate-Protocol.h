@@ -5,6 +5,5 @@
 //
 
 @protocol CKLocationSharingDelegate
-- (void)edMultiplier;
 @end
 

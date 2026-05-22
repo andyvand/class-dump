@@ -13,8 +13,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
 - (void);
+- (id);
 - (double);
 
 // Remaining properties

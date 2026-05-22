@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     id <_UISwipeActionDynamicButtonDelegate> _swipeActionButtonDelegate;
 }
 
-- (id)DeviceRefKeyCopyAttestation;
-- (void)a;
+- (id);
 - (void);
-- (void)ouped dynamic animations may not be run independent of their group;
+- (void)utomatic;
+- (void)UUUUUUõ?;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UISwipeActionDynamicButtonDelegate> swipeActionButtonDelegate; // @synthesize swipeActionButtonDelegate=_swipeActionButtonDelegate;

@@ -26,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)9V;
+- (id);
+- (void)onFrames: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

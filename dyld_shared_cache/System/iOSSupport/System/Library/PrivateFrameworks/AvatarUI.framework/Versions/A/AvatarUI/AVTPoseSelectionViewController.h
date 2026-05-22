@@ -54,7 +54,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -67,7 +67,7 @@
 - (double);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -86,7 +86,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)C;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -95,17 +95,16 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id)|;
-- (id)g"8@"NSArray"16^B24;
 - (void);
-- (void)!@Cù1Éð1¢!0@ù
-× ;
-- (void)endingSession;
+- (void);
+- (void);
+- (id);
+- (void)c±;
 
 // Remaining properties
 @property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;

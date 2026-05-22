@@ -82,13 +82,12 @@
 - (id);
 - (void);
 - (void);
-- (id)!HEùÑ{Ð1b0@ù
-× ;
-- (void):(id)arg1;
-- (id);
-- (void);
-- (void)ient-not-authenticated;
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)AssociatedData;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *allAssetCollections; // @synthesize allAssetCollections=_allAssetCollections;

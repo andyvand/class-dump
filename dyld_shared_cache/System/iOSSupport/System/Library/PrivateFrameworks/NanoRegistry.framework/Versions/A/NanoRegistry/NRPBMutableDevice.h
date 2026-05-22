@@ -20,22 +20,22 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (void);
-- (id)writerQueue;
+- (id)^©;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *names; // @synthesize names=_names;

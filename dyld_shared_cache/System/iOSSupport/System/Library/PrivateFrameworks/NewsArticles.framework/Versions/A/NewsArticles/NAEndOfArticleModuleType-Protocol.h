@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-@protocol NAArticleFooterType><NAEndOfArticleResultProviderType;
-
 @protocol NAEndOfArticleModuleType
-- (UIViewController<NAArticleFooterType><NAEndOfArticleResultProviderType> *);
 @end
 

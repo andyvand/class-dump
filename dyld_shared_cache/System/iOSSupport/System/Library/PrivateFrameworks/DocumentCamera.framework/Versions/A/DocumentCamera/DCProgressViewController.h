@@ -29,13 +29,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (_Bool);
-- (void)\ixoÀoppHz;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;

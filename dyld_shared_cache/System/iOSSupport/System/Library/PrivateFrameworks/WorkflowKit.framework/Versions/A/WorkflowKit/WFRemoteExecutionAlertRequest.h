@@ -23,8 +23,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)WFVariableFieldParameter;
+- (id);
+- (void)cutRunner workflowControllerWillRun:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) WFAlert *alert; // @synthesize alert=_alert;

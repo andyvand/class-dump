@@ -14,10 +14,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ÔÁ%°!¸Bùq/°1b0@ù
-× ;
+- (id);
+- (void)cessorySettingsItemModuleController.m;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

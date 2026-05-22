@@ -5,7 +5,7 @@
 //
 
 @class CUIKEditingContextGroup, CUIKEditingManager, EKEventStore, NSArray, NSError, NSSet, NSString;
-@protocol CUIKCommitDelegate, CUIKDecisionDelegate, CUIKEditingContextObserver, CUIKUndoDelegate;
+@protocol CUIKActionDelegate, CUIKCommitDelegate, CUIKDecisionDelegate, CUIKEditingContextObserver, CUIKUndoDelegate;
 
 @interface CUIKEditingContext
 {
@@ -17,6 +17,7 @@
     CUIKEditingManager *_editingManager;
     unsigned long long _interfaceType;
     id <CUIKDecisionDelegate> _decisionDelegate;
+    id <CUIKActionDelegate> _actionDelegate;
     id <CUIKUndoDelegate> _undoDelegate;
     id <CUIKCommitDelegate> _commitDelegate;
     id <CUIKEditingContextObserver> _observer;
@@ -44,15 +45,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)aF;
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)P;
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -66,13 +67,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (void);
@@ -81,50 +82,52 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)jA;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
+- (id);
 - (void);
-- (void)@"<PKVariableSliderViewDelegate>";
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id)!;
-- (void)`;
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void)0@ù
-× ;
-- (id):2yÞò2y ó2yAF__î2Qo__Qo_]2yí2GGæô2yPþÿy_Yg2yAByAE_Íg2Põ2yATyAByAESg_AKyf2§U2y)f2GGtGGGtGGG_± Qo_tGGSg /* Error: Ran out of types for this method. */;
-- (void)ýÿp¦åÿ<;
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)ardItemProvider:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)nName;
+- (void);
+- (void)C;
+- (void)d attachmentâ¦;
+- (unsigned long long)our invitees. However, some invitees may not be available in the new account.;
+- (id)darModelDidUnlockNotification;
+- (void)y of Chinese Month;
+- (_Bool)ÈâÔ;
 
 // Remaining properties
+@property __weak id <CUIKActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
 @property __weak id <CUIKCommitDelegate> commitDelegate; // @synthesize commitDelegate=_commitDelegate;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

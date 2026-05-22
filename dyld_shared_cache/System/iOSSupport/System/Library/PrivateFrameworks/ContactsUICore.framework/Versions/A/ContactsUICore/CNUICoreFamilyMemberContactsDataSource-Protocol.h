@@ -8,6 +8,8 @@
 @protocol CNUICoreFamilyMemberContactsObserver;
 
 @protocol CNUICoreFamilyMemberContactsDataSource
+- (void)te contact intent;
+- (id <CNUICoreFamilyMemberContactsObserver>)for badge with key %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *countOfFamilyMemberContacts;

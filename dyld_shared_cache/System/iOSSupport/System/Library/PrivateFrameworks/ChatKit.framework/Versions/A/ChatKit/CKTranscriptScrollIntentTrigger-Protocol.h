@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKTranscriptScrollIntentTriggerUpdateContext, CKTranscriptScrollIntentUpdateRequest;
-
 @protocol CKTranscriptScrollIntentTrigger
-- (CKTranscriptScrollIntentUpdateRequest *)D:(CKTranscriptScrollIntentTriggerUpdateContext *)arg1 container:qualityOfService:retryPrepHandler:completionHandler:] /* Error: Ran out of types for this method. */;
 @end
 

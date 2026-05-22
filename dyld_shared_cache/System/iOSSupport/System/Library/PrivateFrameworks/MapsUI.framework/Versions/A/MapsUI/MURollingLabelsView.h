@@ -14,12 +14,12 @@
     MISSING_TYPE *transitioningContentSize;
 }
 
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)Configuration;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

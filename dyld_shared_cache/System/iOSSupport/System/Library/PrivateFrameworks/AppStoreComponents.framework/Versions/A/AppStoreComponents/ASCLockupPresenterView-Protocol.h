@@ -5,6 +5,7 @@
 //
 
 @protocol ASCLockupPresenterView
+- (void)× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize preferredIconSize;

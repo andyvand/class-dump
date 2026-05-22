@@ -7,10 +7,11 @@
 @protocol UIViewImplicitlyAnimating;
 
 @protocol UIViewControllerAnimatedTransitioning
-- (void);
+- (void)_userHasSelectedSkinToneEmoji;
 
 @optional
-- (id <UIViewImplicitlyAnimating>);
-- (void)ustPushButtonForMiniBar:(_Bool)arg1 isChangingBarHeight: /* Error: Ran out of types for this method. */;
+- (id <UIViewImplicitlyAnimating>)
+× ;
+- (void)Array"24@0:(_Bool)arg1 8@"_UIButtonBarGroupOrderer"16;
 @end
 

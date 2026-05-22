@@ -17,22 +17,21 @@
     NSString *__textAnimationName;
 }
 
-+ (_Bool);
++ (_Bool)a.m;
 - (id);
 - (id);
 - (id);
-- (id)u;
 - (id);
-- (void);
-- (id),C,N,V_payloadAllowShowingUndownloadedTV;
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id)л;
-- (void);
-- (id);
-- (id)À1¢!0@ù
-× ;
+- (_Bool)ation"@"_UIKeyboardUIInformation"qB>48;
+- (void)ame:(id)arg1;
+- (id)ontroller;
+- (id)_strong, NSData *__strong, NSObject<UIApplicationDelegate> *__strong, NSURL *__strong, NSString *__strong, __strong UIStateRestorationRestoreStateBeginHandler)_block_invoke;
+- (void)acementCG;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *_subcomponents; // @synthesize _subcomponents=__subcomponents;

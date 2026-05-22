@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)sLayout update];
+- (id);
+- (void)¼ç)ÿÜç)ÿ°±`;
 
 // Remaining properties
 @property(readonly) id <PXPlacesGeotaggedItemDataSource> dataSource; // @synthesize dataSource=_dataSource;

@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (unsigned long long);
-- (_Bool))`;
-- (struct CAColorMatrix)tDidChange;
+- (struct CAColorMatrix);
+- (_Bool)msMap";
 
 // Remaining properties
 @property(nonatomic) struct CAColorMatrix colorMatrix; // @synthesize colorMatrix=_colorMatrix;

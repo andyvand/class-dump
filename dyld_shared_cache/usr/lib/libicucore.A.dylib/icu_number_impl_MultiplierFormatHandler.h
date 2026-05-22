@@ -4,6 +4,6 @@
 
 class icu::number::impl::MultiplierFormatHandler {
 public: // (access info unavailable from symbols alone)
-    processQuantity(icu::number::impl::DecimalQuantity&, icu::number::impl::MicroProps&, UErrorCode&) const;
-    setAndChain(icu::number::Scale const&, icu::number::impl::MicroPropsGenerator const*);
+    auto processQuantity(icu::number::impl::DecimalQuantity&, icu::number::impl::MicroProps&, UErrorCode&) const;
+    auto setAndChain(icu::number::Scale const&, icu::number::impl::MicroPropsGenerator const*);
 };

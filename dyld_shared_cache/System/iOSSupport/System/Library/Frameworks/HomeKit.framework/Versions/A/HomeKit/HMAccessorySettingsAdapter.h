@@ -39,12 +39,13 @@
 + (_Bool);
 + (id);
 + (id);
++ (id);
 + (float);
 + (id);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)AnalyticsIntegerFieldData;
++ (id)ccessory _listPairingsWithCompletionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -95,19 +96,19 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (void);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)Service: /* Error: Ran out of types for this method. */;
+- (void)ect:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _HMContext *accessoryContext; // @synthesize accessoryContext=_accessoryContext;

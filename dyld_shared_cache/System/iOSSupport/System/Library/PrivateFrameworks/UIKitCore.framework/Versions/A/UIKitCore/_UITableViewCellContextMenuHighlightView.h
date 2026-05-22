@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)eView",&,N,V_haloView;
 
 // Remaining properties
 @property(nonatomic) _Bool isSourceList; // @synthesize isSourceList=_isSourceList;

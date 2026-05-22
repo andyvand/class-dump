@@ -9,7 +9,7 @@
     _Bool dontClearBackground;
 }
 
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties

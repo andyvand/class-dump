@@ -31,25 +31,25 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (_Bool);
+- (id);
 - (void);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)X9;
+- (_Bool)Ðmxo qrTt;
+- (void)4%^;
+- (void)rted;
+- (void)ouch.addtask;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

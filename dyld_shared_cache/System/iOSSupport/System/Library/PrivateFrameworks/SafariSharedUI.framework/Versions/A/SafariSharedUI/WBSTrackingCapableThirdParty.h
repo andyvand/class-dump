@@ -14,11 +14,11 @@
 
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void)H;
 - (id);
-- (id);
+- (void)SVGFromImages: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;

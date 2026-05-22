@@ -12,11 +12,12 @@
     NSString *_text;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void)0@ù
+× ;
 
 @end
 

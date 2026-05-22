@@ -5,6 +5,5 @@
 //
 
 @protocol BSInvalidatable
-- (void)ottom:%{bool}u /* Error: Ran out of types for this method. */;
 @end
 

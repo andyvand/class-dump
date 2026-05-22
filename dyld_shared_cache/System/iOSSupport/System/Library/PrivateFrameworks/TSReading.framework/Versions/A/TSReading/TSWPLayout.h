@@ -19,10 +19,10 @@
 - (id);
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (void);
 - (id);
@@ -39,7 +39,7 @@
 - (id);
 - (_Bool);
 - (struct CGPoint);
-- (double)x;
+- (double);
 - (id);
 - (struct CGRect);
 - (void);
@@ -58,7 +58,7 @@
 - (id);
 - (id);
 - (const void *);
-- (id);
+- (id);
 - (id);
 - (int);
 - (unsigned int);
@@ -78,7 +78,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)A;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -92,21 +92,22 @@
 - (struct CGRect);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned int);
 - (void);
 - (id);
-- (unsigned long long);
-- (struct CGPoint)mmendationsOutputName;
-- (struct CGSize)ion;
-- (struct CGPoint);
 - (struct CGSize);
-- (void);
-- (id)1¢!0@ù
-× ;
-- (id)sEditor;
-- (struct CGSize)FillUseSeriesStrokeProperty;
-- (id)ry/Caches/com.apple.xbs/Sources/AlderShared/persistence/src/TSPExternalReferenceDataStorage.mm;
+- (unsigned int);
 - (id);
+- (struct CGPoint);
+- (id);
+- (struct CGPoint);
+- (void)@
+ôP
+ä,;
+- (struct CGSize)r ranged selection is not meaningful;
+- (id);
+- (id)nimation stopped;
+- (unsigned long long)rtSeriesDefaultErrorBarFixedValueScatterXProperty;
+- (struct CGSize)ðñÿßD\\;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsDescendersToClip;

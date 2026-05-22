@@ -25,11 +25,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 - (unsigned long long);
+- (void);
 - (void);
 
 // Remaining properties

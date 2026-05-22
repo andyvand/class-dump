@@ -5,9 +5,10 @@
 class AppleTCONUpdateController {
 public: // (access info unavailable from symbols alone)
     AppleTCONUpdateController();
-    AppleTCONUpdateControllerGetDevice();
-    execCmdQueryInfo(__CFDictionary const*, __CFDictionary const**);
-    execCommand(__CFString const*, __CFDictionary const*, __CFDictionary const**);
-    execPerformNextStage(__CFDictionary const*);
-    start(__CFDictionary const*, __CFError**);
+    auto AppleTCONUpdateControllerGetDevice();
+    auto execCmdQueryInfo(__CFDictionary const*, __CFDictionary const**);
+    auto execCommand(__CFString const*, __CFDictionary const*, __CFDictionary const**);
+    auto execPerformNextStage(__CFDictionary const*);
+    auto start(__CFDictionary const*, __CFError**);
+    auto start(__CFDictionary const*, __CFError**) (.cold.1);
 };

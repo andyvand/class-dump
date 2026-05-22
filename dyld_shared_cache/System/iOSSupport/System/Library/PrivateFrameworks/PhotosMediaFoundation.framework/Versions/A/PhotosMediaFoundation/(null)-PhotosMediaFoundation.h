@@ -5,10 +5,6 @@
 //
 
 @interface (null) (PhotosMediaFoundation)
-- (_Bool);
-- (long long);
-
-// Remaining properties
-@property(readonly, nonatomic) long long photosAudioSessionCategory;
+- (void);
 @end
 

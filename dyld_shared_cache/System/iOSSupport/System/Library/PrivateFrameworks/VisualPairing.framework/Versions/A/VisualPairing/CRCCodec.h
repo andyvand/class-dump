@@ -4,6 +4,6 @@
 
 class CRCCodec {
 public: // (access info unavailable from symbols alone)
-    AppendEncodedCRC(char*, int, CRCCodec::tGeneratorPoly);
-    CheckCRC(char const*, int, CRCCodec::tGeneratorPoly);
+    auto AppendEncodedCRC(char*, int, CRCCodec::tGeneratorPoly);
+    auto CheckCRC(char const*, int, CRCCodec::tGeneratorPoly);
 };

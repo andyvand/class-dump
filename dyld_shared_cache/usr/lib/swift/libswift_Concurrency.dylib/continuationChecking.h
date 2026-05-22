@@ -4,6 +4,7 @@
 
 class continuationChecking {
 public: // (access info unavailable from symbols alone)
-    willResume(swift::AsyncTask*);
-    willResume(swift::AsyncTask*) (.cold.1);
+    auto CurrentState (.0);
+    auto willResume(swift::AsyncTask*);
+    auto willResume(swift::AsyncTask*) (.cold.1);
 };

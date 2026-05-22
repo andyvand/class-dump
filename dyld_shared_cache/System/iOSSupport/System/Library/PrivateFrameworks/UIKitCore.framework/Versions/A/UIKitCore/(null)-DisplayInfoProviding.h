@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface (null) (DisplayInfoProviding)
-- (id)omponent.m;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

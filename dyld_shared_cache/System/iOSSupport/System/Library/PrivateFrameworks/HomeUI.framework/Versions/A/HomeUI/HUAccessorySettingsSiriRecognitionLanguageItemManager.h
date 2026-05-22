@@ -33,9 +33,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ger",R,N,V_editOutgoingInvitationItemManager;
+- (id);
+- (void)equestsSetup_MessagesBulletText_JUST_SIRI;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem<HFServiceLikeItem> *accessoryItem; // @synthesize accessoryItem=_accessoryItem;

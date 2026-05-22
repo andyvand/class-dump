@@ -5,6 +5,5 @@
 //
 
 @protocol NAZoomable
-- (void)=;
 @end
 

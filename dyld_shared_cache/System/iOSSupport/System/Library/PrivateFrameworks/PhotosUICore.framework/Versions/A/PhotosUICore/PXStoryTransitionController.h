@@ -49,14 +49,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)¨ë;
-- (void);
 - (id);
-- (CDStruct_b1a1f14e);
-- (id)Ô!vð!¨Aùqzð1b0@ù
-× ;
-- (void)CoreP33_2FB71D9C7E23262EADDD20DCB32B093624GridSublayoutComposition;
 - (void);
+- (CDStruct_b1a1f14e);
+- (void);
+- (id)ñI1â
+0@ù
+× ;
+- (void)8Q16^B24;
+- (void)nGrid.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_b1a1f14e activeTransition; // @synthesize activeTransition=_activeTransition;

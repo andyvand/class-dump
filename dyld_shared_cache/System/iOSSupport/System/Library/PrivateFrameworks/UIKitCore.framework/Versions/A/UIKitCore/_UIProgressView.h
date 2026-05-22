@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
-- (void)ic}@ privateListeningOverride=%{public}@;
 - (void);
-- (id)PreferredRecessedCornerRadius: /* Error: Ran out of types for this method. */;
-- (id){lþ¡f8íf8´{lþf8éf8|lþQ;
-- (void)t={CGPoint=dd}{CGSize=dd}}24@56@?64;
+- (id);
+- (struct CGSize);
+- (void);
+- (id)tSearch;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSProgress *trackedProgress; // @synthesize trackedProgress=_trackedProgress;

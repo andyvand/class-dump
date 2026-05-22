@@ -25,14 +25,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool)QI}S);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)Z;
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -42,6 +41,7 @@
 - (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain) NSString *adamID; // @synthesize adamID=_adamID;

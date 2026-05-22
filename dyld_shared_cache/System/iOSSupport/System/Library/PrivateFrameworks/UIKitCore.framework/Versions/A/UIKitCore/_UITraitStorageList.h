@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     NSSet *_descendants;
 }
 
-- (id)fer is NULL;
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id)_externalSystemSuperDarkGrayColor;
+- (id);
+- (id);
+- (void)arget:(id)arg1 selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
+- (void)h_queueC;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *descendants; // @synthesize descendants=_descendants;

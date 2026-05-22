@@ -17,17 +17,17 @@
     double _startTime;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (double);
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) SXDOM *DOM; // @synthesize DOM=_DOM;

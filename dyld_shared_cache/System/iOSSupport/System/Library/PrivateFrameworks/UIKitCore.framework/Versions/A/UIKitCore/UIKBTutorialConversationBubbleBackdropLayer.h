@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id),V_backgroundToContentInsets;
-- (long long)arTextFieldTokenCounter;
-- (void)o:(long long)arg1 path:/System/Library/PrivateFrameworks/TextInput.framework/TextInput /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ViewBlurBlob;
+- (long long)`>ÿÄÛxëj;
 
 // Remaining properties
 @property(nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;

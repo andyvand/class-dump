@@ -56,20 +56,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)_promptSuggestionRefreshOnReload;
-- (id)youtSpec",&,N,V_effectiveSpec;
-- (id)dProvider;
-- (id)able;
-- (void)on;
-- (void)yLiteralElement;
-- (void)ots;
+- (void);
+- (void);
+- (void)ryDidChange returned from distributeChangeOnMainQueue (runLoopMode:(id)arg1 %{public}@);
+- (id)strong, void (^ _Nullable __strong)(PHAssetCollection *__strong, NSError * _Nullable __strong));
+- (void)ÓÒ;
+- (void);
+- (id)ç3;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPeopleDataSourceDelegate> delegate; // @synthesize delegate=_delegate;

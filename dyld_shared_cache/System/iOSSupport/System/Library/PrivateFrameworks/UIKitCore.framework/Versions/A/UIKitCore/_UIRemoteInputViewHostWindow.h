@@ -15,25 +15,25 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
+- (_Bool);
 - (id);
+- (void);
+- (id)ntSizeGivenSize: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)edImageContainerModifyTransformMinHeight;
+- (_Bool)IApplicationGetPrincipalClass(NSString *__strong);
+- (_Bool)s(CGSize, BOOL, CGFloat, BOOL);
+- (long long)d **, size_t *, off_t *);
+- (void)Å23øFvþ;
+- (_Bool)otView;
+- (long long)|~;
+- (_Bool)];
+- (double)m];
+- (_Bool)ÿ;
+- (_Bool)Õ;
+- (long long)ôèÿF;
+- (_Bool)ÿ;
 - (_Bool);
-- (void);
-- (void);
-- (void)elayingUpdatesForEntryKeys:(id)arg1;
-- (_Bool)usFromHorizontalIndexBarToCellContent: /* Error: Ran out of types for this method. */;
-- (_Bool)tleReparentingHelper;
-- (_Bool);
-- (long long)tentSize;
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool)\;
-- (long long):·\ /* Error: Ran out of types for this method. */;
-- (id)\;
-- (_Bool);
-- (_Bool)ì;
-- (double)òP;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIRemoteInputViewHostWindowDelegate> hostWindowDelegate; // @synthesize hostWindowDelegate=_hostWindowDelegate;

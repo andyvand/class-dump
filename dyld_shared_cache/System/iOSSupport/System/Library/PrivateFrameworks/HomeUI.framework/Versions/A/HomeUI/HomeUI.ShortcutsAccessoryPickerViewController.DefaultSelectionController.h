@@ -13,8 +13,8 @@
     MISSING_TYPE *services;
 }
 
-- (void);
 - (id);
+- (void)outer.swift;
 
 @end
 

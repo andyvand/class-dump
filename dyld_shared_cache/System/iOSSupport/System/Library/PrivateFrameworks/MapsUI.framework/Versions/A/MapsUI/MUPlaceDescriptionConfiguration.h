@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)OneAttributionShowPhotosLocally;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapItemAttribution *attribution; // @synthesize attribution=_attribution;

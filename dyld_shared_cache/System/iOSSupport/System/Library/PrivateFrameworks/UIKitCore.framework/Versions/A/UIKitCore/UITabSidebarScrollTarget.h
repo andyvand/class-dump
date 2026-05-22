@@ -13,11 +13,11 @@
 }
 
 + (id);
-+ (id)a;
++ (id);
 + (id);
 - (id);
-- (_Bool)new container;
-- (void)lq	ë;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _isHeader; // @synthesize _isHeader;

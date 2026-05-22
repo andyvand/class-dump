@@ -27,9 +27,9 @@
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id)ollStatus;
+- (_Bool);
+- (id);
+- (void)9þÿ;
 
 @end
 

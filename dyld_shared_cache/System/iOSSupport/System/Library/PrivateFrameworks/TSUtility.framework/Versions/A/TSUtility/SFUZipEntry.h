@@ -38,14 +38,14 @@
 - (unsigned int);
 - (void);
 - (long long);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (long long);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (void)y/PrivateFrameworks/NewsAnalytics.framework/Versions/A/NewsAnalytics;
 
 @end
 

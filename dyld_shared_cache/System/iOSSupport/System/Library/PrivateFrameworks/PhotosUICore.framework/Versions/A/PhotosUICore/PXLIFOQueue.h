@@ -15,10 +15,10 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
-- (id)xAudio/;
+- (id)eMemoriesFeatureFavoriteMemoriesTabButtonTitle;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;

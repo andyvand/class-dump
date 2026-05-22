@@ -20,10 +20,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)Ôa%!°Dùñ.1b0@ù
-× ;
+- (id);
+- (void)edLocationItem init];
 
 // Remaining properties
 @property(readonly, nonatomic) HUMediaAccessControlEditorModuleController *accessControlEditorModuleController; // @synthesize accessControlEditorModuleController=_accessControlEditorModuleController;

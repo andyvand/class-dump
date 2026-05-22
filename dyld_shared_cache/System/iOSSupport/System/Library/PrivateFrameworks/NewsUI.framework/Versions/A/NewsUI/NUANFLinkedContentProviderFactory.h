@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)peViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;

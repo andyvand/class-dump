@@ -5,11 +5,5 @@
 //
 
 @protocol WBSSiteMetadataImageCacheDelegate
-
-@optional
-- (void)dReadChannelHelper;
-- (void)s;
-- (void)tory;
-- (void);
 @end
 

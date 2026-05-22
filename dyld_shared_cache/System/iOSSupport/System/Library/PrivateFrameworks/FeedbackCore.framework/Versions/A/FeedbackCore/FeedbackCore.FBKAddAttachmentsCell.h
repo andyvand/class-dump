@@ -18,13 +18,13 @@
 - (double);
 - (id);
 - (void);
-- (id);
 - (struct CGRect);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)´;
+- (id)tomDetentHeight: /* Error: Ran out of types for this method. */;
+- (id)n [%{public}@]. Will report .uploadsFinished;
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame;

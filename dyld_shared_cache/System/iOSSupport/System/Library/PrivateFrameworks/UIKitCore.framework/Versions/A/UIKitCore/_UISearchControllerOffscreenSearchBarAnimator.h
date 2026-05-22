@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)÷dta;
+- (void)ceItemBounds:(id)arg1 intoBoundaryWithInsets: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,10 +4,10 @@
 
 class mach_o::Universal {
 public: // (access info unavailable from symbols alone)
-    bestSlice(mach_o::GradedArchitectures const&, bool, mach_o::Universal::Slice&) const;
-    forEachSlice(void (mach_o::Architecture, unsigned long long, unsigned long long, bool&) block_pointer) const;
-    forEachSlice(void (mach_o::Universal::Slice, bool&) block_pointer) const;
-    isUniversal(std::__1::span<unsigned char const, 18446744073709551615ul>);
-    valid(unsigned long long) const;
-    validSlice(mach_o::Architecture, unsigned long long, unsigned long long) const;
+    auto bestSlice(mach_o::GradedArchitectures const&, bool, mach_o::Universal::Slice&) const;
+    auto forEachSlice(void (mach_o::Architecture, unsigned long long, unsigned long long, unsigned char, bool&) block_pointer) const;
+    auto forEachSlice(void (mach_o::Universal::Slice, bool&) block_pointer) const;
+    auto isUniversal(std::__1::span<unsigned char const, 18446744073709551615ul>);
+    auto valid(unsigned long long) const;
+    auto validSlice(mach_o::Architecture, unsigned long long, unsigned long long) const;
 };

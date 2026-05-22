@@ -17,10 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (unsigned long long)q?°1b0@ù
+- (unsigned long long);
+- (void)1â
+0@ù
 × ;
+- (id)aStoreVersion;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

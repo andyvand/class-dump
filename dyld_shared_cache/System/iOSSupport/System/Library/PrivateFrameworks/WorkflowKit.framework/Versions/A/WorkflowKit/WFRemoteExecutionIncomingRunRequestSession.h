@@ -27,10 +27,10 @@
 - (void);
 - (void);
 - (void);
-- (id)parameterKey:collectionIdentifier:limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)etionHandler:(id)arg1;
 - (void);
-- (void)ibrary.m;
+- (void);
+- (id)gerType;
+- (void)apple.printcenter.PrintDocuments;
 
 // Remaining properties
 @property(retain, nonatomic) WFOutOfProcessWorkflowController *controller; // @synthesize controller=_controller;

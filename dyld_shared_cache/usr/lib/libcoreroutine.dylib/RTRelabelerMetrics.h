@@ -17,10 +17,10 @@
 + (id);
 + (id);
 + (id);
-+ (id)Z;
 + (id);
-+ (CDStruct_b8464340)eSync;
-- (_Bool);
++ (id);
++ (CDStruct_b8464340);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -36,7 +36,7 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)%s, gps location received, %{sensitive}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

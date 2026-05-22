@@ -4,5 +4,5 @@
 
 class debug {
 public: // (access info unavailable from symbols alone)
-    print(char const*, ...);
+    auto print(char const*, ...);
 };

@@ -11,19 +11,18 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)lector:object: /* Error: Ran out of types for this method. */;
++ (Class);
 - (void);
 - (void);
 - (_Bool);
-- (id)xF;
+- (id);
 - (struct UIEdgeInsets);
 - (void);
-- (void)
+- (id);
+- (void)1\°1Â0@ù
 × ;
-- (id)abelShadowOffset:(id)arg1;
-- (void)Xð|4À	 " à0
-@ø	;
-- (_Bool);
+- (void)g revert with newModifcationDate:(_Bool)arg1 %@ and oldModificationDate:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ÌÌ^;
 
 @end
 

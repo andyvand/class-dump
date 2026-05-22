@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)ForSettingSymbolImage: /* Error: Ran out of types for this method. */;
-- (void)ÄP(RS4S;
+- (void);
+- (void)oller;
 
 @end
 

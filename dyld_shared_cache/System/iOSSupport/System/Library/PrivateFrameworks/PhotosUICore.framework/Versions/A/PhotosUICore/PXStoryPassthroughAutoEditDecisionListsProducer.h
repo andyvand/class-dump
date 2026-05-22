@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)eaturedItemListManager Model PickerKeyAssetContent;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *autoEditDecisionLists; // @synthesize autoEditDecisionLists=_autoEditDecisionLists;

@@ -12,10 +12,10 @@
 {
 }
 
-+ (id)rator;
-+ (id)conversationURL;
-+ (void)ciatedURLString;
-+ (void),&,N,V_artist;
++ (id);
++ (id);
++ (void);
++ (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasSocialPosts; // @dynamic hasSocialPosts;

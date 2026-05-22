@@ -12,12 +12,12 @@
     MISSING_TYPE *containerViewMaskLayer;
 }
 
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)lable;
-- (id);
+- (void)¤ú;
+- (id)?s`;
 
 // Remaining properties
 @property(nonatomic, retain) UIView *contentView; // @synthesize contentView;

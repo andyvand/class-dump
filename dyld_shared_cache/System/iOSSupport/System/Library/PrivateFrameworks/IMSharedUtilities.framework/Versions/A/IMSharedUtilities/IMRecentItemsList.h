@@ -12,7 +12,7 @@
     NSObject<OS_dispatch_queue> *_diskWritingQueue;
 }
 
-+ (id)d«;
++ (id)Unblocking contact:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

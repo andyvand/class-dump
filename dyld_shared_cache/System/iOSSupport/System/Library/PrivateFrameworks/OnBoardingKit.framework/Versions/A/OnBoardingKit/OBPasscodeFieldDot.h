@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     _Bool _filled;
 }
 
-- (void)mesEnabled;
-- (_Bool);
 - (void);
-- (void)SERT OR REPLACE INTO TopFrameLinkDecorationsFrom (toDomainID, lastUpdated, fromDomainID) SELECT ?, ?, domainID FROM ObservedDomains WHERE registrableDomain in ( ;
-- (struct CGSize);
+- (_Bool);
+- (void);
 - (id);
+- (struct CGSize);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isFilled) _Bool filled; // @synthesize filled=_filled;

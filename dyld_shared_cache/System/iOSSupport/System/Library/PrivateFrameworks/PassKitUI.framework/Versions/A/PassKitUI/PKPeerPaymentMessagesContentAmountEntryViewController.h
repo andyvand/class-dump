@@ -48,19 +48,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)s"d"shape"q"style"q"highlightEffect"q"disabledEffect"q};
-- (unsigned long long)y¼^yGC;
-- (void)ackgroundContactlessInterfaceSessionController:(_Bool)arg1 Start called twice;
-- (void)àS*a<;
+- (void)_Small_Logo;
+- (unsigned long long);
+- (void)ü0	É^ø	Ôe;
+- (void)eName;
 
 // Remaining properties
 @property(copy, nonatomic) PKCurrencyAmount *amount; // @synthesize amount=_amount;

@@ -23,11 +23,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (unsigned char);
+- (void);
 - (void);
 
 // Remaining properties

@@ -5,8 +5,5 @@
 //
 
 @protocol SKPaymentTransactionObserver
-
-@optional
-- (void)#;
 @end
 

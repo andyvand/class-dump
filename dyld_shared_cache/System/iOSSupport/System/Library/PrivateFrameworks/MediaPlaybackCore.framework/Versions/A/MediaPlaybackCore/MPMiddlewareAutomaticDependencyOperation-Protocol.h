@@ -7,7 +7,6 @@
 @class NSArray, NSMapTable;
 
 @protocol MPMiddlewareAutomaticDependencyOperation
-- (NSMapTable *)acon:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *inputOperations;

@@ -4,11 +4,12 @@
 
 class objc_visitor::Method {
 public: // (access info unavailable from symbols alone)
-    getName(objc_visitor::Visitor const&) const;
-    getName(objc_visitor::Visitor const&) const (.cold.1);
-    getNameField(objc_visitor::Visitor const&) const;
-    getNameField(objc_visitor::Visitor const&) const (.cold.1);
-    getNameField(objc_visitor::Visitor const&) const (.cold.2);
-    getNameVMAddr(objc_visitor::Visitor const&) const;
-    getNameVMAddr(objc_visitor::Visitor const&) const (.cold.1);
+    auto getName(objc_visitor::Visitor const&) const;
+    auto getName(objc_visitor::Visitor const&) const (.cold.1);
+    auto getNameField(objc_visitor::Visitor const&) const;
+    auto getNameField(objc_visitor::Visitor const&) const (.cold.1);
+    auto getNameField(objc_visitor::Visitor const&) const (.cold.2);
+    auto getNameField(objc_visitor::Visitor const&) const (.cold.3);
+    auto getNameVMAddr(objc_visitor::Visitor const&) const;
+    auto getNameVMAddr(objc_visitor::Visitor const&) const (.cold.1);
 };

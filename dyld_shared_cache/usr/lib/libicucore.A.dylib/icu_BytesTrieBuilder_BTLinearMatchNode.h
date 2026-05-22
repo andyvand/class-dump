@@ -5,6 +5,6 @@
 class icu::BytesTrieBuilder::BTLinearMatchNode {
 public: // (access info unavailable from symbols alone)
     BTLinearMatchNode(char const*, int, icu::StringTrieBuilder::Node*);
-    operator==(icu::StringTrieBuilder::Node const&) const;
-    write(icu::StringTrieBuilder&);
+    auto operator==(icu::StringTrieBuilder::Node const&) const;
+    auto write(icu::StringTrieBuilder&);
 };

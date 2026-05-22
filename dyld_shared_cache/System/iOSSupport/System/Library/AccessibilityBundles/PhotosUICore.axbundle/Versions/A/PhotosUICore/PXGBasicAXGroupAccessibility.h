@@ -10,13 +10,13 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (id);
 - (void);
-- (void);
 - (struct CGRect);
+- (void);
 
 @end
 

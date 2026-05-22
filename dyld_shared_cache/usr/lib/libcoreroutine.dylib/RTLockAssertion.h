@@ -8,8 +8,8 @@
 {
 }
 
-- (void)WDAllocateTime;
-- (id): /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 
 @end
 

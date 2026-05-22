@@ -31,14 +31,15 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
 - (void);
+- (void);
+- (id);
 - (long long);
 - (void);
-- (void)ramework/Versions/A/CoreGraphics;
+- (void)qÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

@@ -24,23 +24,23 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)dlesForID: /* Error: Ran out of types for this method. */;
-- (void)utorStatusReportsUpdated: /* Error: Ran out of types for this method. */;
-- (id)d;
-- (id)tManateeStatusAsync:timeout: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void)(;
-- (void);
-- (void)item %lld :%@ /* Error: Ran out of types for this method. */;
-- (void)pe;
+- (void);
+- (id);
 - (id);
 - (void);
-- (id)actor;
-- (id)R,N,V_sidebarResizeIndirectPanGestureRecognizer;
-- (void)he minimum or after the maximum date.;
-- (id)E71IÓÿ3¼;
-- (id)Bb;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)rimaryViewControllerForExpandingSplitViewController:(id)arg1;
+- (id)EdgeInsets=dddd},N,G_cropInsets,S_setCropInsets: /* Error: Ran out of types for this method. */;
+- (id)ÄÐèÿèÐèÿÑèÿ0ÑèÿHÑèÿÑèÿ¸ÑèÿÜÑèÿ`ÒèÿÒèÿÈÒèÿÖèÿPÖèÿhÖèÿÖèÿÀÖèÿôÖèÿ×èÿd×èÿ×èÿ¸×èÿ ÜèÿÜÜèÿàèÿ¤àèÿlãèÿäèÿääèÿ0åèÿHåèÿåèÿæèÿ@æèÿìæèÿ(çèÿLçèÿpçèÿ¼çèÿÈçèÿÌèèÿ0éèÿDêèÿêèÿíèÿ;
+- (void)%s;
+- (id)tations will soon be required.;
+- (id)ntrolAddGlass;
+- (void)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIInterfaceAction *action; // @synthesize action=_action;

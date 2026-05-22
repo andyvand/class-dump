@@ -10,10 +10,10 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
-- (id);
+- (id)lement: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -24,7 +24,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)iteActiveSessionDetailsCKLatency;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisitPipelineMotionAccumulatorParams *params; // @synthesize params=_params;

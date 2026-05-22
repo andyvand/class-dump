@@ -57,22 +57,22 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id)alNumber: /* Error: Ran out of types for this method. */;
+- (void)oller:options:bag: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)gAction:(id)arg1 target:action: /* Error: Ran out of types for this method. */;
-- (id)ionDelegate: /* Error: Ran out of types for this method. */;
-- (id)0B8@"NSError"12;
+- (void)àÿµP3AáÿÍP3@?ùÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryButtonBackgroundColor; // @synthesize accessoryButtonBackgroundColor=_accessoryButtonBackgroundColor;

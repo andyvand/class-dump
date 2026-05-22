@@ -12,7 +12,7 @@
 - (struct CGPath *);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 
 @end
 

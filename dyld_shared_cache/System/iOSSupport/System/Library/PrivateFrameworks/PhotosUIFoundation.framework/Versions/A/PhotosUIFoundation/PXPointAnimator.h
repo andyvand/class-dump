@@ -32,22 +32,22 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (struct CGPoint);
 - (void);
+- (struct CGPoint);
+- (double);
 - (_Bool);
 - (double);
 - (id);
 - (void);
-- (double);
-- (void)4NSUserDefaultsC;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

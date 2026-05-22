@@ -13,13 +13,12 @@
 }
 
 - (id);
-- (struct CGImage *);
-- (void);
+- (long long);
 - (id);
-- (id)0@ù
-× ;
-- (struct CLLocationCoordinate2D)dded;
-- (long long)ded.;
+- (id);
+- (struct CGImage *);
+- (struct CLLocationCoordinate2D);
+- (void)entLocation;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

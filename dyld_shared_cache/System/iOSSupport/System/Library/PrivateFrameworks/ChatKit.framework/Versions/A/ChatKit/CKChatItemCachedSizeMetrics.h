@@ -17,7 +17,7 @@
     struct UIEdgeInsets _textAlignmentInsets;
 }
 
-+ (_Bool)ê;
++ (_Bool);
 - (struct CGSize);
 - (struct UIEdgeInsets);
 - (void);
@@ -25,18 +25,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (struct CGSize);
+- (id);
 - (void);
-- (id)a«ð!4GùÃ1¢!0@ù
-× ;
-- (id)
-× ;
+- (void);
+- (void)teringSettingsConfirmedKey;
+- (void)-ci;
 - (id);
 
 // Remaining properties

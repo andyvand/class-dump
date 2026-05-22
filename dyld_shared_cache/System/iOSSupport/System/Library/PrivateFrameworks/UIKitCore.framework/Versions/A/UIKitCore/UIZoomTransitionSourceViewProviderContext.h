@@ -15,7 +15,7 @@
 + (id);
 - (id);
 - (id);
-- (void)a5º;
+- (void)¥_;
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *sourceViewController; // @synthesize sourceViewController=_sourceViewController;

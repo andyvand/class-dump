@@ -4,6 +4,6 @@
 
 class swift::runtime {
 public: // (access info unavailable from symbols alone)
-    lzma_stream_init();
-    zlib_stream_init();
+    auto lzma_stream_init();
+    auto zlib_stream_init();
 };

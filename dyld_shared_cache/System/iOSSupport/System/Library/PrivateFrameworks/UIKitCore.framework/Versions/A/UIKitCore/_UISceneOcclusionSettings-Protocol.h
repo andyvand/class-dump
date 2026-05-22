@@ -7,9 +7,6 @@
 @class NSArray;
 
 @protocol _UISceneOcclusionSettings
-- (NSArray *)k`;
-- (void)Object Revoked sequence;
-- (NSArray *)@;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *applicationOcclusionRects;

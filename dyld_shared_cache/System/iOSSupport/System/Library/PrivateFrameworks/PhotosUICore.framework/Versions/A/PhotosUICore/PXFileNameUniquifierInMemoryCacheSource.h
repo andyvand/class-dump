@@ -14,9 +14,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
-- (id)<UIViewControllerTransitionCoordinatorContext>"8;
+- (id)_G;
+- (void)Åì;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

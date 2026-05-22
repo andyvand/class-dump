@@ -18,15 +18,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id)isLocalUserAvailableForContactInActiveMode:error: /* Error: Ran out of types for this method. */;
-- (void)dingMessageItem:chatIdentifier:chatStyle:foundChat:didSendSMS:attemptingReplication:shouldForceFail:watchSendsOverCellular:forceReflection:forceRelay:callerID: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)urceViewWidth;
-- (id)anceVariables;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)é;
+- (void)¸?«ÿ["ì;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

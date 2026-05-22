@@ -5,6 +5,5 @@
 //
 
 @protocol _UIViewServiceHostSceneComponentDelegate
-- (void)anifest;
 @end
 

@@ -15,11 +15,11 @@
 
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id)yVyAFyAES;
+- (void)Úÿÿÿÿÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long state;

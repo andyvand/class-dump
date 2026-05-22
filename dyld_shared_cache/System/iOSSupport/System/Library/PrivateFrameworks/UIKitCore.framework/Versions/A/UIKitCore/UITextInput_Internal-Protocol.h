@@ -4,73 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UIResponder, UITextPosition, UITextRange, UIView;
+@class NSArray, NSString, UIResponder, UITextPosition, UITextRange, UIView;
 @protocol UITextInput, UITextInputPrivate;
 
 @protocol UITextInput_Internal
-- (UITextPosition *);
-- (UITextRange *)1;
-- (UITextRange *);
-- (void)`;
-- (UITextRange *)thDistinctSignaturesForGetChunks;
-- (UIResponder<UITextInput> *)uest.;
-- (unsigned long long)6;
-- (_Bool):(UITextRange *)arg1;
-- (unsigned int),N,V_loadingKey;
-- (struct _NSRange)dentifierSet;
-- (void);
-- (void)ao°!ôBùÑÁ1¢!0@ù
+- (UITextPosition *)!üFùñXÐ1Â0@ù
+× ;
+- (_Bool);
+- (UITextRange *)1Â0@ù
+× ;
+- (void)Ð!xCùÑ[1Â0@ù
 × ;
 - (void)
 × ;
-- (UITextPosition *)1Âð1¢!0@ù
+- (UITextRange *)]°1Â0@ù
 × ;
-- (NSString *)0@ù
+- (NSString *)ð!hDùq^ð1Â0@ù
 × ;
-- (UITextRange *)!ÌAùqÄ1¢!0@ù
+- (void)0@ù
 × ;
-- (UITextPosition *)sð!@ù±Æ°1¢!0@ù
-× ;
-- (NSArray *)!t°!CùÈð1¢!0@ù
-× ;
-- (void)Ìð1¢!0@ù
-× ;
-- (void)erView;
-- (long long)etAdjustmentsAnimated;
-- (UITextRange *)t:(UITextRange *)arg1 options:attributes:context: /* Error: Ran out of types for this method. */;
-- (UITextRange *)ntHostViewConstraints;
-- (UITextPosition *)HostBundleIdentifier:(UITextRange *)arg1;
-- (UIColor *)ssing:,V__remoteDismissing /* Error: Ran out of types for this method. */;
-- (void)ÀÆ¨Ç¤ÉÊDËÔÌôÍ;
-- (UITextRange *)l+;
-- (_Bool);
-- (_Bool)This is likely due to a different presentation occuring during the lifecycle of the interaction.;
-- (void)essfully:%@ /* Error: Ran out of types for this method. */;
-- (void)stent state. %@;
-- (UITextRange *)ForInvalidItemSize to catch this in the debugger. Invalid size:(struct _NSRange)arg1 %@; collection view:%@ /* Error: Ran out of types for this method. */;
-- (void)begin session because end session was previously skipped for:%@ /* Error: Ran out of types for this method. */;
-- (void)emFrame. focusItemFrame will be used instead of converting the frame of the focusItemInfo to the scrollableContainer.coordinateSpace, which may result in stale self.focusItemFrame access after scrolling.;
-- (void)<eoþ;
-- (_Bool)entationValueChangedWithoutAnimationCallback;
-- (unsigned int)nDefinitionP;
-- (NSString *)olocationSites.plist;
-- (int)onHandler must be non-nil;
-- (UITextPosition *)tegoryControl;
-- (UITextRange *)EmojiCategoryControl;
-- (void)odel, const _UIDataSourceModel, _UIMapIndex *, _UIMutableFastIndexSet *const __strong, _UIMutableFastIndexSet *const __strong, _UIFastIndexSet *const __strong, _UIFastIndexSet *const __strong, const _UIDataSourceUpdateProcessingCallbacks *, NSString *__autoreleasing *);
-- (UITextPosition *)null);
-- (void)ineAdjustment;
-- (_Bool)ration_highlightedTextColor;
-- (void)35_UINavigationItemSwiftRenameHandler;
-- (_Bool)Height;
-- (void)3kð;
+- (void)mBars"b1"delegateShouldUseBuiltinInteractionController"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"delegateLayoutTransitioningClass"b1"delegateWasNonNil"b1"navigationBarHidesCompletelyOffscreen"b1"clipUnderlapWhileTransitioning"b1"isCrossfadingOutTabBar"b1"isCrossfadingInTabBar"b1"skipContentInsetCalculation"b1"useStandardStatusBarHeight"b1"allowUserInteractionDuringTransition"b1"enableBackButtonDuringTransition"b1"allowsGroupBlending"b1"allowNestedNavigationControllers"b1"allowChildSplitViewControllers"b1"nestedNavigationBarWasHidden"b1"nestedToolbarWasHidden"b1"isAnimatingExchangeBetweenInnerAndOuterToolbars"b1"isNested"b1"searchHidNavigationBar"b1"disappearingViewControllerIsBeingRemoved"b1"disappearingViewControllerNeedsToBeRemoved"b1"isWrappingDuringAdaptation"b1"cannotPerformShowViewController"b1"navigationSoundsEnabled"b1"didSetNeedsFocusInTransition"b1"layingOutTopViewController"b1"hasScheduledDeferredUpdateNavigationBarHostedRefreshControl"b1"allowsFreezeLayoutForOrientationChangeOnDismissal"b1"interactiveScrollActive"b1"scrollViewObservationReasonHasVariableHeightNavigationBar"b1"scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
+- (UITextPosition *)lighted:(UITextPosition *)arg1;
+- (UITextRange *)tem:(CDStruct_912cb5d2)arg1;
+- (_Bool)ithData:options:format:error: /* Error: Ran out of types for this method. */;
+- (void)emIndexPath:(_Bool)arg1;
+- (UITextRange *)yPadding;
+- (_Bool)estureType;
+- (NSString *)eferredTouchTasks;
+- (struct _NSRange)ject;
+- (UITextRange *)CellSegmentView;
+- (NSString *)ð;
+- (UITextRange *)èÌü ì¡;
+- (_Bool);
+- (UITextRange *)ew * _Nonnull __strong, UILabel * _Nullable __strong * _Nonnull, UIContentUnavailableTextProperties * _Nonnull __strong);
+- (unsigned int)ISceneLayoutGestureActionErrorDomain;
+- (int)iselect;
+- (UITextRange *)nalSmartRepliesComposeFieldInFocus(void);
+- (void)IFocusSystemEnabledStateDidChangeNotification;
+- (UITextPosition *)tting;
+- (unsigned int)cy:(int)arg1 attempted to rebase the focused item state outside of an update. Collection view:%@ /* Error: Ran out of types for this method. */;
+- (UITextPosition *)onfigurationContentInset;
+- (void)gnore.;
+- (UITextRange *)mentWithBaseWritingDirection;
+- (_Bool)ÿÅþÿÅþÿ6Óþÿ8Óþÿ;
+- (void)egnngd_;
+- (void)AN;
+- (void)Ç13ÄÝoþ;
+- (void)Ìg;
+- (UITextRange *)23ÈÃmþ;
+- (void)8vR0½Á7Ø­;
+- (_Bool));
+- (_Bool)hÃR0;
+- (unsigned int)<Ésþ;
+- (void)Á]43Ä×sþ;
+- (void)L;
+- (void)PËR0%43k;
 
 @optional
-- (struct _NSRange);
-- (void)!;
-- (void)forwardingInputDelegateConformsToBETextInput;
-- (_Bool)ptiveNavigationItemObserverDelegate;
-- (UIView<UITextInputPrivate> *)e update for reason:%s; wantsKeyboard:%d /* Error: Ran out of types for this method. */;
+- (void)!°!´Dù1að1Â0@ù
+× ;
+- (_Bool)ButtonAppearance;
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_proxyTextInput) UIResponder<UITextInput> *__content;

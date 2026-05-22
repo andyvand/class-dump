@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (double);
-- (id);
+- (_Bool);
 - (id);
 - (double);
-- (_Bool);
+- (id);
 
 @end
 

@@ -14,11 +14,11 @@
 
 - (void);
 - (id);
-- (void);
-- (int)=QQ}16;
-- (void);
+- (int);
 - (id);
-- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak AKCalloutBar *bar; // @synthesize bar=_bar;

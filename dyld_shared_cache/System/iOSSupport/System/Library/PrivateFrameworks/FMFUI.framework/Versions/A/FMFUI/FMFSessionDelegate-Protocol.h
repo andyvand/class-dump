@@ -7,6 +7,7 @@
 @protocol FMFSessionDelegate
 
 @optional
-- (void);
+- (void)@ù
+× ;
 @end
 

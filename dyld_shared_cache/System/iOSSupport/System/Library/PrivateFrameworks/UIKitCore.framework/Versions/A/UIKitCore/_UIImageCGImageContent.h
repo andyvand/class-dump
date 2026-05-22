@@ -12,35 +12,33 @@ __attribute__((visibility("hidden")))
     _Atomic struct CGImage *_imageRef;
 }
 
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (id)"MPModelSongKind",R,N,V_songKind;
-- (void)lPersonUncensoredName;
-- (struct CGImage *)a;
+- (double);
 - (id);
 - (id);
-- (struct CGSize)1¢!0@ù
-× ;
-- (_Bool)v!PCù1Ëð1¢!0@ù
-× ;
 - (id)
 × ;
-- (_Bool)ctionViewPosition;
-- (void)eRepresentationForTypeIdentifier:(struct CGSize)arg1 options:(double)arg2 completionBlock:(struct CGContext *)arg3;
-- (_Bool)Dict;
-- (id)n;
-- (id)sourceDisplayIdentifier;
-- (id)enu;
-- (id)sectionFrameForSection:layout: /* Error: Ran out of types for this method. */;
-- (struct CGImage *)e;
+- (_Bool)ror;
+- (_Bool)essories;
+- (id)ontentsForCIImageBackedImage:(struct CGSize)arg1;
+- (struct CGImage *)nDefaultUnfocusingDurationScaleFactorLowerBound;
+- (id)transition;
+- (id)SInteger) const;
 - (_Bool);
-- (_Bool)È¾a;
-- (id)Ôa;
-- (double)Øô%b;
-- (id)$ÿCýê;
+- (struct CGImage *)¼ÿ;
+- (struct CGSize);
+- (id)da;
+- (_Bool)a;
+- (void)F;
+- (_Bool);
 
 @end
 

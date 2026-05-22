@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (struct CGPoint);
-- (struct CGPoint)T;
+- (struct CGPoint);
 - (void);
-- (void);
-- (void)·ÿ;
-- (double)t_;
+- (double);
+- (void)restingTouchRangeForCurrentTouchLocation;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

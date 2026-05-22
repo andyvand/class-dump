@@ -7,7 +7,6 @@
 @class NSSet;
 
 @protocol CNKDestinationVendingProtocol
-- (_Bool)ÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *idsDestinations;

@@ -8,13 +8,7 @@
 @protocol FCNewsAppConfiguration, FCNewsAppConfiguration><FCJSONEncodableObjectProviding;
 
 @protocol FCNewsAppConfigurationManager
-- (void)_clearPromotionInfo;
-- (id <FCNewsAppConfiguration>)@;
-
-@optional
-- (NSArray *)ibswiftCallKit.dylib;
-- (NSString *)CurrentEditorsWhenCommittingInspectorChanges;
-- (id <FCNewsAppConfiguration><FCJSONEncodableObjectProviding>)_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/TSDTilingLayer.m;
+- (id <FCNewsAppConfiguration>)mÒÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfiguration> appConfiguration;

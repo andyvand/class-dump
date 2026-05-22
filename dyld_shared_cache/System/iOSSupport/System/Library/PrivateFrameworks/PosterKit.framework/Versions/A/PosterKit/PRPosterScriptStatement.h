@@ -20,23 +20,23 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (_Bool);
-+ (_Bool): /* Error: Ran out of types for this method. */;
-+ (id)6Ó;
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (double);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)k: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

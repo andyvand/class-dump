@@ -9,12 +9,12 @@
     unsigned long long _handle;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)ß;
 
 // Remaining properties
 @property(nonatomic) unsigned long long handle; // @synthesize handle=_handle;

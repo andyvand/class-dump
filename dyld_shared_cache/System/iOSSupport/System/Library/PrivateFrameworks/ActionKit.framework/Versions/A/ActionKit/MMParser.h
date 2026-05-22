@@ -37,9 +37,9 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
 - (id);
+- (unsigned long long);
+- (void)emClass(void)_block_invoke;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long extensions; // @synthesize extensions=_extensions;

@@ -5,7 +5,7 @@
 //
 
 @protocol _UITextDocumentInterfaceDelegate
-- (void)y %llu exceeded.;
-- (void);
+- (void)Áÿð!¨@ùÑX°1Â0@ù
+× ;
 @end
 

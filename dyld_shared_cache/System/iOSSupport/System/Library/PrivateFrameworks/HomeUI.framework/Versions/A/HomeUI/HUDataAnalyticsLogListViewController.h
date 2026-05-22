@@ -29,9 +29,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)ìùíÿözÞ;
+- (void)en;
+- (void)isDevice if we are in 'Show Only Device List' mode;
 
 // Remaining properties
 @property(readonly, nonatomic) HUActivityLoadingView *activityLoadingView; // @synthesize activityLoadingView=_activityLoadingView;

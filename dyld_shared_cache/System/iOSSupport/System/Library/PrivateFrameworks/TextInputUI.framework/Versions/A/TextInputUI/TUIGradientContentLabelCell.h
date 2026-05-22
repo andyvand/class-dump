@@ -16,16 +16,16 @@
 
 + (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
-- (id);
 - (void);
+- (void);
+- (id)IKBTree"16;
 
 // Remaining properties
 @property(retain, nonatomic) TUICandidateGradientContentLabel *gradientLabel; // @synthesize gradientLabel=_gradientLabel;

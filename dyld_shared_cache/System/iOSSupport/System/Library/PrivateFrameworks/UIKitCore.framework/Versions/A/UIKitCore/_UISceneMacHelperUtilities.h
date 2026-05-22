@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (void);
 - (id);
@@ -28,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (void);
-- (id)!@�;
+- (id);
 - (_Bool);
 - (long long);
-- (id);
 - (id);
 - (double);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -11,14 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)forwardMessageToPeers:messageType:guid:originalSender:forcedCallerID:hasAttachment:watchOnly: /* Error: Ran out of types for this method. */;
-- (id):guid:originalSender:forcedCallerID: /* Error: Ran out of types for this method. */;
-- (id)orwardMessageToPeers:messageType:guid:originalSender:forcedCallerID: /* Error: Ran out of types for this method. */;
-- (id)egistryWithQueryID: /* Error: Ran out of types for this method. */;
-- (double):limit: /* Error: Ran out of types for this method. */;
-- (id)ableMatches;
-- (id)rrorWithAutoBugCapture;
-- (id)verwriteOriginalGroupIDForChat: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -26,21 +23,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)e to find service from placeholder:'%s /* Error: Ran out of types for this method. */;
-- (double)ation change reason is NSUbiquitousKeyValueStoreServerChange.;
+- (id);
+- (id);
+- (id);
+- (id);
+- (double);
 - (void);
-- (double)handling message sent push:%@ /* Error: Ran out of types for this method. */;
-- (double)ion handling outgoing message  push:%@ /* Error: Ran out of types for this method. */;
-- (id)ervice (%@). Creating one instead.;
-- (id)achmentRecordHasAsset %@;
-- (id)eceivedNotifyReceipt;
+- (double);
+- (double);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)=;
-- (long long)s;
+- (id);
+- (long long)°m;
 
 // Remaining properties
 @property(readonly, nonatomic) double carScale;

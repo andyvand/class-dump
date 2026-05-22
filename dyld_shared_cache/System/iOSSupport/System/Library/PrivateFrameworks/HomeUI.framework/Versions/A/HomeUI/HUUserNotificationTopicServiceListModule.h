@@ -27,8 +27,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)open URL to contact owner {%@} with email {%@} in home {%@};
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

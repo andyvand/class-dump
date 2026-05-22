@@ -8,29 +8,33 @@
 @protocol UIPopoverPresentationControllerSourceItem;
 
 @protocol _UINavigationItemChangeObserver
-- (void)1Áð1¢!0@ù
+- (void)¡;
+- (void)
 × ;
-- (_Bool)uÐ!lEùQÉÐ1¢!0@ù
+- (void)ñ_°1Â0@ù
 × ;
 - (void);
-- (void)Context"16@0:(UINavigationItem *)arg1 8;
-- (void)0@0:(UINavigationItem *)arg1 8@"<_UINavigationBarTitleViewDataSource>"16@"UINavigationItem"24q32;
-- (void)ViewController:(UINavigationItem *)arg1;
-- (void)sWithActiveTouchMaps;
-- (void)rightConstraint;
-- (void)ayCompletion;
-- (void)idOffset;
-- (void)dentifier:(UINavigationItem *)arg1;
-- (void)ë;
-- (_Bool)6;
-- (void)Ð;
-- (void)rn -> %@;
+- (void)0@ù
+× ;
+- (void)IMTCaptureView";
+- (void)temBarButtonItemGroupsDidChange:(UINavigationItem *)arg1;
+- (_Bool)tionType;
+- (void)dPresentation:(UINavigationItem *)arg1;
+- (_Bool)awSeparatorAtTopOfSectionForCellAtIndexPath:(UINavigationItem *)arg1;
+- (void)veBackgroundWithDependencyTracking;
+- (void)ollerBase;
+- (void)e not supported off the main thread. This will become a hard exception in a future release. This will become an assert in a future version.;
+- (void)apshotting a view (%p, %@) that is not in a visible window requires afterScreenUpdates:(UINavigationItem *)arg1 YES.;
+- (void)ainer;
 
 @optional
+- (void)fÐ1Â0@ù
+× ;
+- (void)48@0:(UINavigationItem *)arg1 8d16d24d32d40;
+- (void)4@0:(UINavigationItem *)arg1 8@"UINavigationItem"16;
 - (void);
-- (_Bool)eInnerParallaxTransform;
-- (id <UIPopoverPresentationControllerSourceItem>)Time;
-- (void)yle;
-- (void),GisProgressVisible,V_progressVisible;
+- (id <UIPopoverPresentationControllerSourceItem>)erpretations;
+- (_Bool)dView;
+- (void)tersis;
 @end
 

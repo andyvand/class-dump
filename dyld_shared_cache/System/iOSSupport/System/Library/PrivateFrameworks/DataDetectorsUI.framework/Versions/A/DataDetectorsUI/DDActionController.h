@@ -51,19 +51,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)ntainer:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) UIAlertController *alertController; // @synthesize alertController=_alertController;

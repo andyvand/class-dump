@@ -14,6 +14,7 @@
     _Bool _standaloneTextAttachment;
     _Bool _preferContextMenu;
     _Bool _representsButton;
+    _Bool _prefersHighlightedColorsWhenTyping;
     WFSlotIdentifier *_identifier;
     NSString *_localizedName;
     NSString *_localizedPlaceholder;
@@ -46,6 +47,7 @@
 @property(copy, nonatomic) NSString *localizedPlaceholder; // @synthesize localizedPlaceholder=_localizedPlaceholder;
 @property(readonly, nonatomic, getter=isPopulated) _Bool populated;
 @property(nonatomic) _Bool preferContextMenu; // @synthesize preferContextMenu=_preferContextMenu;
+@property(nonatomic) _Bool prefersHighlightedColorsWhenTyping; // @synthesize prefersHighlightedColorsWhenTyping=_prefersHighlightedColorsWhenTyping;
 @property(nonatomic) _Bool prefersNoWrapping; // @synthesize prefersNoWrapping=_prefersNoWrapping;
 @property(nonatomic) _Bool representsButton; // @synthesize representsButton=_representsButton;
 @property(nonatomic) _Bool standaloneTextAttachment; // @synthesize standaloneTextAttachment=_standaloneTextAttachment;

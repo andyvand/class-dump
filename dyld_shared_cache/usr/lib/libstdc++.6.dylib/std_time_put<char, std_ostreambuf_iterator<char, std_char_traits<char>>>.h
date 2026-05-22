@@ -4,9 +4,9 @@
 
 class std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char>>> {
 public: // (access info unavailable from symbols alone)
-    do_put(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, tm const*, char, char) const;
-    put(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, tm const*, char const*, char const*) const;
-    put(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, tm const*, char, char) const;
+    auto do_put(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, tm const*, char, char) const;
+    auto put(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, tm const*, char const*, char const*) const;
+    auto put(std::ostreambuf_iterator<char, std::char_traits<char>>, std::ios_base&, char, tm const*, char, char) const;
     time_put(unsigned long);
     ~time_put();
 };

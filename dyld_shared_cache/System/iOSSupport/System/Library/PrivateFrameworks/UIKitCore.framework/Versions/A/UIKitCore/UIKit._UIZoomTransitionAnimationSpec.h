@@ -16,21 +16,20 @@
 }
 
 + (id);
-- (void)clearing cache. Subscription:(id)arg1 %@;
-- (void)t re-fetching transcript background, subclass for iMessage should handle.;
-- (id);
-- (id)ationHighlight:(id)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
-- (id)iod: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void)1¢!0@ù
-× ;
-- (void)PocketPreferredUserInterfaceStyle:forEdge: /* Error: Ran out of types for this method. */;
-- (void)sedForReordering;
-- (id)cusedChildViewControllerIndex;
-- (id)Ðäxx;
-- (void)T@"NSArray",N,C;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)setFloatingContentView: /* Error: Ran out of types for this method. */;
+- (void)xOfLastUndimmedDetentWhenEdgeAttachedInCompactHeight: /* Error: Ran out of types for this method. */;
+- (void)ed and probably won't work properly.;
+- (id)O^þ0¸þÿ;
+- (void);
+- (id);
+- (void)2À;
 
 // Remaining properties
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *cornerRadiusAdjustment; // @synthesize cornerRadiusAdjustment;

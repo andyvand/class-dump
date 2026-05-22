@@ -22,13 +22,13 @@
 - (_Bool);
 - (struct _NSRange);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void)ordinator;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

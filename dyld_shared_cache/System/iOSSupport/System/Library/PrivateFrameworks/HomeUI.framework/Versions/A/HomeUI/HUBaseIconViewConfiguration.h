@@ -14,10 +14,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
 - (id);
+- (void);
 - (long long);
-- (void)g uiViewController:(long long)arg1 %@;
+- (void)ity.IntroView.HeaderLabel;
 
 // Remaining properties
 @property(nonatomic) long long appearance;

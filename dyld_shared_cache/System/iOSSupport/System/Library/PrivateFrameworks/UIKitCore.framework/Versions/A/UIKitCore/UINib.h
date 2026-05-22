@@ -9,33 +9,32 @@
     id storage;
 }
 
-+ (id)plugin;
-+ (id)onent> Message is not a balloon plugin;
-- (id)e"16@"IDSAccount"24@"NSDictionary"32@"NSString"40@48;
-- (void)tStatus:(_Bool)arg1 chat:style:handleInfo: /* Error: Ran out of types for this method. */;
-- (void)fier:(id)arg1 style:groupID:originalGroupID:properties:lastAddressedLocalHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
-- (void)UserNotification:(_Bool)arg1 listener:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)sfers:(_Bool)arg1;
++ (id);
++ (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)<;
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)(%lu, max = %lu), should drop message;
-- (id);
-- (id);
-- (id);
-- (void)tion;
-- (id)?;
-- (void):(id)arg1 8Q16q24;
 - (void);
 - (id);
-- (void)!¬FùÑÀÐ1¢!0@ù
-× ;
-- (id)llView]|;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)bleViewStyle:(id)arg1 focused: /* Error: Ran out of types for this method. */;
+- (void)¤eËÀ7e;
+- (id)ÿ×7×X9i;
+- (id)­ÿ;
 
 @end
 

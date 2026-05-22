@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol MUExtensionPlaceDataProviding
-- (NSString *)apsUI18WebPlacecardBridge23MUUserInteractionActionP33_9A83CFEC3FB8C3B4457258B202DFC6E313_StorageClass;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appBundleIdentifier;

@@ -28,13 +28,12 @@
 - (_Bool);
 - (void);
 - (id);
+- (struct CGSize);
 - (void);
+- (void)vacyController [%{public}@]:(double)arg1 Context was popped:%{public}@. Context became current:%{public}@. Total:%tu /* Error: Ran out of types for this method. */;
+- (double)ssetsWithMediaType:] /* Error: Ran out of types for this method. */;
 - (id);
-- (double)ooter;
-- (void)rs];
-- (struct CGSize)ionViewSpec;
-- (void)&
-4;
+- (void)@;
 
 // Remaining properties
 @property double fractionComplete; // @synthesize fractionComplete=_fractionComplete;

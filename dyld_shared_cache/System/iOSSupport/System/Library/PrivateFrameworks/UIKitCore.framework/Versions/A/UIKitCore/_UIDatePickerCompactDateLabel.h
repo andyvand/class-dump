@@ -30,31 +30,31 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void)etAttributionInfoArray: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (double);
-- (void);
-- (void);
-- (id)ñÁð1¢!0@ù
+- (_Bool)áÿÐ!TGùñXÐ1Â0@ù
 × ;
-- (_Bool);
-- (void)0@ù
+- (id);
+- (void)1eÐ1Â0@ù
 × ;
-- (id)stureNeedsUpdate: /* Error: Ran out of types for this method. */;
-- (void):(_Bool)arg1;
-- (id)startAnimating;
-- (void)gacyVoipAllowed;
-- (id)CXD;
-- (id)yLinkC;
-- (id)setting_multilingual_education_ui_ko;
-- (void)ckerKit.StickerPickerService;
-- (void)<;
-- (_Bool)§`;
-- (long long)àa;
-- (void)Øn¸c;
+- (id)nstraints;
+- (void);
+- (id)appreset;
+- (void)KeyboardWidth(void);
+- (id);
+- (id)ÑþÿÇþÿ;
+- (double)\;
+- (void);
+- (void)ÌoÿöòÌì¡`;
+- (id);
+- (long long)<;
+- (_Bool)OÝþ;
+- (void)8c;
+- (void);c;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontSizeToFitWidth;

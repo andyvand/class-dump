@@ -17,14 +17,14 @@
     MISSING_TYPE *lastSafeAreaInsets;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
-- (id);
 - (void);
-- (void)esture: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)@;
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets overrideSafeAreaInsets;

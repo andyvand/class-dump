@@ -18,11 +18,11 @@
 
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void)>;
+- (void);
+- (void);
 - (void);
 - (int);
 - (int);
@@ -32,7 +32,7 @@
 - (int);
 - (int);
 - (int);
-- (id)tIKESecurityAssociationParametersArray: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) int clusterOrderAfterDrive_sumOfTraversalCountOfAllRoutes; // @synthesize clusterOrderAfterDrive_sumOfTraversalCountOfAllRoutes=_clusterOrderAfterDrive_sumOfTraversalCountOfAllRoutes;

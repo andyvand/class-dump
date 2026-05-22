@@ -15,9 +15,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *associatedViews; // @synthesize associatedViews=_associatedViews;

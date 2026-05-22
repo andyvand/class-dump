@@ -14,48 +14,42 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ntermediatesBuffer;
-- (id);
-- (unsigned long long)ic}@;
 - (void);
-- (id)`;
-- (void);
-- (void)
-× ;
-- (id)1ÃÐ1¢!0@ù
-× ;
-- (unsigned long long)× ;
-- (void)@ù
-× ;
-- (void)!CùËð1¢!0@ù
-× ;
-- (unsigned long long)QË°1¢!0@ù
-× ;
-- (void)EùQËÐ1¢!0@ù
-× ;
-- (id);
-- (void)
-× ;
-- (void)ansform3D=dddddddddddddddd}16;
-- (void)xt:(id)arg1 updateConfigurations: /* Error: Ran out of types for this method. */;
-- (void)ranularityToHandOff;
-- (void)urationForState:(id)arg1 traitCollection:(CDUnknownBlockType)arg2;
-- (id)eryInsidesInsets;
-- (id)ter;
-- (unsigned long long)d}{CGSize=dd}{CGSize=dd}},N,V_cornerRadii;
-- (id)ollapsed;
-- (id)Radius;
-- (id)ameraBasePresentationController;
-- (id)ø;
 - (void);
-- (id)ÿ;
-- (void)m;
-- (id)dLÿUdÕ;
-- (void)¬d;
-- (id)rìþBÛËAi;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)að1Â0@ù
+× ;
+- (id)Ô ;
+- (id)}16@0:(id)arg1 8;
+- (id);
+- (id)PredictionEnabled: /* Error: Ran out of types for this method. */;
+- (void)calToRepresentationView:(id)arg1;
+- (void)Mode;
+- (id)dlers;
+- (void)text:(CDUnknownBlockType)arg1;
+- (unsigned long long)nappedFeedback;
+- (id)Layer;
+- (id)¤²´ô´XµD·H´º;
+- (void);
+- (void);
+- (void);
+- (void)licationSupportsMultipleScenes;
+- (void)ü¥ÿÁH;
+- (unsigned long long)H°k;
+- (unsigned long long)`Åÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long edgeCount;

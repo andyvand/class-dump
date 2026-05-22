@@ -27,12 +27,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)WFContactEmails;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *notes; // @synthesize notes=_notes;

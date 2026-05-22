@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
+- (void)nIndex;
 
 // Remaining properties
 @property(retain, nonatomic) PUWallpaperPosterMotionEffect *motionEffect; // @synthesize motionEffect=_motionEffect;

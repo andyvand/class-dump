@@ -5,7 +5,7 @@
 //
 
 @interface (null) (MediaPlayer)
-- (_Bool)itWithName:category:probabilityScore:topics: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool iTunesStoreDemoMode;

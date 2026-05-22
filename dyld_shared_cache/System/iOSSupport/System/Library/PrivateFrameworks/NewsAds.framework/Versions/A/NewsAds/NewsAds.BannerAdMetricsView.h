@@ -17,16 +17,16 @@
     MISSING_TYPE *metricsView;
     MISSING_TYPE *promotedContentInfoObserver;
     MISSING_TYPE *unfilledReasonObserver;
-    MISSING_TYPE *impressionFrame;
     MISSING_TYPE *padding;
+    MISSING_TYPE *onSizeResolved;
 }
 
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (void)roller>";
-- (id);
+- (void);
 
 @end
 

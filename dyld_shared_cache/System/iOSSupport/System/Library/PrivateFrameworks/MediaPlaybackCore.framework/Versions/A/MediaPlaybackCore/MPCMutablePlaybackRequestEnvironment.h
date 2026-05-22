@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void)pping subscription key check.;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clientIdentifier; // @dynamic clientIdentifier;

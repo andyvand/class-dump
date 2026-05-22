@@ -5,9 +5,7 @@
 //
 
 @protocol UITextDragFinishState
-- (_Bool);
-- (struct CGPoint)ÑÎð1¢!0@ù
-× ;
+- (struct CGPoint)Manager"8@"NSTextContainer"16;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool dragTearoffOccured;

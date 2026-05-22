@@ -14,8 +14,8 @@
 + (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)alRequestOpener>",R,N;
 
 @end
 

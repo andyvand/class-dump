@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     NSString *identifier;
 }
 
-- (void),N,V_errors;
+- (void);
 
 @end
 

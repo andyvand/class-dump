@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer;
-
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)reeUpForTransformer:(UIGestureRecognizer *)arg1;
-- (_Bool)tP;
+- (_Bool)1Â0@ù
+× ;
 @end
 

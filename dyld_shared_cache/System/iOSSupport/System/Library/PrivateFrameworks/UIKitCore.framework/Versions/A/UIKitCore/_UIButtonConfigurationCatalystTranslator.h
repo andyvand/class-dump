@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)%lu unique recordID;
++ (id);
 
 @end
 

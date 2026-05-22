@@ -31,21 +31,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ageWhenDisabled:(_Bool)arg1;
+- (void)ransition:animated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

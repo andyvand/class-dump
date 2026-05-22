@@ -17,39 +17,39 @@
     RTXPCActivityManager *_xpcActivityManager;
 }
 
++ (double);
 + (int);
 + (int);
-+ (double)nterfaceName;
 + (id);
 + (id);
 + (int);
-- (void)dressType:(unsigned long long)arg1 directAddressType:(CDUnknownBlockType)arg2 directAddress:advertisingChannelMap:advertisingFilterPolicy: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)C;
 - (id);
-- (void)*:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)text:(id)arg1 messagingCapabilities:triggeredLocally:lightweightStatusDict: /* Error: Ran out of types for this method. */;
-- (void)cipantIDWithSalt(async) created %llu from %llu and %@;
-- (id);
-- (id);
-- (id)#;
-- (id)ads;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (void);
+- (id);
 - (void);
-- (void)s;
-- (void)resClassA, %@;
-- (_Bool)dates endDate, %@ (in %s:(id)arg1 %d);
+- (void)Øä;
+- (void)LocationsCountWithOptions:(CDUnknownBlockType)arg1 handler:] /* Error: Ran out of types for this method. */;
+- (void)ValidConfidence(favoriteConfidence);
+- (_Bool)r,sessionID:(id)arg1 %@,%@,%@,contact should be cleaned up;
+- (void)ng transaction history for the local store, error, %@;
 
 // Remaining properties
 @property(retain, nonatomic) AWDServerConnection *awdServerConnection; // @synthesize awdServerConnection=_awdServerConnection;

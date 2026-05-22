@@ -20,13 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
 - (id);
-- (CDUnknownBlockType);
-- (id)Ô ;
-- (id)16;
+- (id);
+- (id);
+- (CDUnknownBlockType)cription;
+- (void)N;
+- (void)abled;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

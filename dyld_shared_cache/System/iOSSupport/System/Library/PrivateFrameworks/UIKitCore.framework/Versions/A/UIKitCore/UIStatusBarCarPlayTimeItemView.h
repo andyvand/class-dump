@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (double)er:(id)arg1;
-- (double)ueue;
-- (double)_persistenceQueue;
+- (double);
+- (double);
+- (double);
 - (id);
 - (id);
 - (id);
-- (void);
-- (long long)ouchOptions: /* Error: Ran out of types for this method. */;
+- (void)EÚÐøb;
+- (long long)Àa;
 
 @end
 

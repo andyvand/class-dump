@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long)¤Ø;
-- (double)shortcuts from subscription change;
-- (id)Ïüÿ;
-- (long long);
+- (void)Tn;
+- (id)&aØüÿ&aÉ¨þ&aV¨þ;
+- (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

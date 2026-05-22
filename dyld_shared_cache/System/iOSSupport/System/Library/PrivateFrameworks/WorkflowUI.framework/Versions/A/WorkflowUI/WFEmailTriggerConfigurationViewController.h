@@ -40,13 +40,13 @@
 - (id);
 - (void);
 - (void);
-- (long long);
 - (id);
+- (long long);
+- (void);
+- (long long);
 - (id);
 - (void);
 - (void);
-- (long long);
-- (void)Á¯;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allAccounts; // @synthesize allAccounts=_allAccounts;

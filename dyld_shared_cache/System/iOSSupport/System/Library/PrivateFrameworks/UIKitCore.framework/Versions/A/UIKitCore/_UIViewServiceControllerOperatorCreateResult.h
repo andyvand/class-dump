@@ -16,30 +16,20 @@ __attribute__((visibility("hidden")))
     BSMachPortSendRight *_accessibilityServerPort;
 }
 
-+ (_Bool)Ö()m;
-- (void)matchedDataInstances;
-- (void)uMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
-- (void)KIuSTh+uKkrod3chBgHrh0PvJafOhcmYqhRbqV4guMXi53UrTLi
-VP68jydKSP2+gLinzYw/J0G/fE88SoWNBcihGjgNrfn8MIAZpVVEQ34PLozWKiXq
-hZ1VOA54XfeKlNp9Fxuuif0ZNPZ4q7ztbeR3aALN8lVkh/AfmpHNi6oN6LBu0zJw
-Z9AX2sUNOH0DOOMdojFblTdyuINrt2Tr4ccpHS1htnNR0ro82kZpkJH/zES/oYTA
-h0Sm4iIj1I5P1NFGq/jR8A==
------END CERTIFICATE-----;
-- (void)b;
++ (_Bool)csIntegrator;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (int);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
-- (long long)stomRenderBounds"b1"hasOverrideOfInsertTextSuggestion"b1"delegateWillBeginTextAssistantSession"b1"delegateDidEndTextAssistantSession"b1"delegateWritingToolsWillBegin"b1"delegateWritingToolsDidEnd"b1"delegateWritingToolsIgnoredRanges"b1"delegateWritingToolsUndoCoalescingWillBegin"b1"delegateWritingToolsUndoCoalescingDidEnd"b1"textStorageOverridesReplaceCharactersInRangeWithAttributedString"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"delegateRespondsToTextViewEditMenuForTextInRangeSuggestedActions"b1"delegateRespondsToTextViewEditMenuForTextInRangesSuggestedActions"b1};
-- (id);
+- (void)traitStorages;
+- (id)uration while the main menu system is building.;
+- (void)SayàA¾7y_ypGG;
+- (long long);
 
 // Remaining properties
 @property(retain, nonatomic) BSMachPortSendRight *accessibilityServerPort; // @synthesize accessibilityServerPort=_accessibilityServerPort;

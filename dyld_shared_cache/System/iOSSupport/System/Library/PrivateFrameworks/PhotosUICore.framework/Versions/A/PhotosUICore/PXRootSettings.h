@@ -68,7 +68,7 @@
 }
 
 + (id);
-+ (id)²·K·ÿ8;
++ (id)DË£;
 - (id);
 - (id);
 - (id);
@@ -163,18 +163,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
@@ -182,12 +170,27 @@
 - (id);
 - (id);
 - (void);
-- (id)el",R,N,V_zoomablePhotosViewModel;
-- (void)sets;
-- (id)@;
-- (void)ion;
 - (id);
-- (id)selectionSnapshot;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id)1â
+0@ù
+× ;
+- (id)eTransform=dddddd}32@0:8@16@24 /* Error: Ran out of types for this method. */;
+- (id)ceholder;
+- (void)	
+H;
+- (void)¤¯`PXAvailableSizeKey;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PXAlbumsDebugUISettings *albumsDebugUISettings; // @synthesize albumsDebugUISettings=_albumsDebugUISettings;

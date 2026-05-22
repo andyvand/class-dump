@@ -10,20 +10,21 @@
 {
 }
 
+- (double);
+- (double);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
 - (double);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
 - (double);
-- (double);
-- (double);
-- (double)
+- (_Bool)°1â
+0@ù
 × ;
-- (_Bool)s: /* Error: Ran out of types for this method. */;
+- (double)(contentWarning: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageSymbolConfiguration *barButtonImageSymbolConfiguration;

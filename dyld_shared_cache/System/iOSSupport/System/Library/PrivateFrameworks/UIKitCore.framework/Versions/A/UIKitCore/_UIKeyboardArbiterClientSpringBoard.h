@@ -12,16 +12,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (void)!`@ùÑÉ°1¢!0@ù
+- (id);
+- (_Bool)Áð!¬@ùÑ\°1Â0@ù
+× ;
+- (void)Â0@ù
 × ;
 - (void);
-- (_Bool)24;
-- (id)aseFirstResponderViewWithUpdateSupport:indexPathMapping: /* Error: Ran out of types for this method. */;
-- (void)tionCoordinator:(int)arg1;
-- (void)e;
-- (void)_a_;
-- (void)ÄÈVè_;
+- (void)inerSubrangesOfAdjustedOriginalRange;
+- (void)w:(int)arg1;
+- (void)dSpringWithDelay:(id)arg1 initialSpringVelocity:(CDUnknownBlockType)arg2 options:animations:start:completion: /* Error: Ran out of types for this method. */;
+- (void)õhöùù;
+- (void)agicShadowOpacity;
 
 @end
 

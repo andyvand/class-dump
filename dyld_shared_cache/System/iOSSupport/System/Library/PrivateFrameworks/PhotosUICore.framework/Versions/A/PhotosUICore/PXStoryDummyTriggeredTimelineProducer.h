@@ -23,11 +23,11 @@
 - (long long);
 - (void);
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
 - (id);
+- (void);
+- (CDUnknownBlockType)PHOTOS_DETAILS_TITLE_TIMEZONE_AX_HINT;
+- (void));
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PXStoryTimelineProducerConfiguration *configuration; // @synthesize configuration=_configuration;

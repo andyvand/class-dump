@@ -13,22 +13,21 @@ __attribute__((visibility("hidden")))
     double _hysteresis;
 }
 
-+ (_Bool):notifyDelegate:deselectPrevious:performPrimaryAction:performCustomSelectionAction:isUserInitiated: /* Error: Ran out of types for this method. */;
-- (_Bool)cordStore;
++ (_Bool);
 - (_Bool);
-- (void){sensitive}@ reachability results=%@;
 - (_Bool);
-- (double);
 - (void);
-- (void)1¢!0@ù
-× ;
-- (void)torDuringReordering"b1"sectionLocation"b3"selectionGrouping"b3"tableViewStyle"b5"shouldIndentWhileEditing"b1"fontSet"b1"usingDefaultSelectedBackgroundView"b1"usingDefaultBackgroundView"b1"wasSwiped"b1"highlighted"b1"separatorDirty"b1"drawn"b1"drawingDisabled"b1"style"b12"shouldShowMenu"b1"animatingSelection"b1"backgroundColorSet"b1"needsSetup"b1"usingMultiselectbackgroundView"b1"deleteAnimationInProgress"b1"animating"b1"animatingEditing"b1"shouldHaveFullLengthBottomSeparator"b1"shouldHaveFullLengthTopSeparator"b1"topSeparatorFollowsLayoutMargins"b1"drawsSeparatorAtTopOfSection"b1"drawsSeparatorAtBottomOfSection"b1"separatorBackdropOverlayBlendMode"b3"separatorDrawsInVibrantLightMode"b1"separatorHidden"b1"hidingSeparatorsForSelection"b1"wantsClipping"b1"allowsReorderingWhenNotEditing"b1"needsHeightCalculation"b1"focusStyle"b3"accessoryViewsHidden"b1"skipsLayout"b1"separatorInsetIsRelativeToCellEdges"b1"highlightingInteractively"b1"userInteractionEnabledWhileDragging"b1"userInteractionEnabledBeforeDragging"b2"insetsContentViewsToSafeArea"b1"needsAccessoriesUpdate"b1"needsAccessoriesUpdateForced"b1"badgeVisible"b1"shouldRestoreTextLabelAfterSystemTextSizeChange"b1"shouldRestoreDetailTextLabelAfterSystemTextSizeChange"b1"shouldRestoreEditableTextFieldAfterSystemTextSizeChange"b1"tableViewHasBeenExplicitlySet"b1"ignoresMultipleSelectionDuringEditing"b1"hasEverUsedRoundedGroups"b1"preserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
-- (void)anagerDidFinishUndoRedo;
-- (void)r;
+- (double);
 - (_Bool);
-- (id);
-- (_Bool)®ì\;
-- (_Bool)·¶ÿHûÐÏ#_;
+- (_Bool)TabBarBehaviorSettings";
+- (id)nterPlaceholder"b1"disabled"b1"reliesOnNavigationBarBackdrop"b1"drawsBackgroundInPalette"b1"hideBackground"b1"backgroundLayoutNeedsUpdate"b1"usesEmbeddedAppearance"b1"showsCancelButton"b1"autoDisableCancelButton"b1"showsDeleteButton"b1"showsSearchResultsButton"b1"searchResultsButtonSelected"b1"showsBookmarkButton"b1"isPlacedInNavigationBar"b1"isPlacedInToolbar"b1"isInNavigationPalette"b1"isHostedByNavigationBar"b1"showsScopeBar"b1"allowsInlineScopeBar"b1"isAnimatingScopeBarIn"b1"isAnimatingScopeBarOut"b1};
+- (_Bool)mConstraint:(id)arg1;
+- (void)WithMaxIndex:(id)arg1 prefetchItemCount:(id)arg2 refreshPrefetchThresholdCount:cancelThresholdCount: /* Error: Ran out of types for this method. */;
+- (void)chActive;
+- (void);
+- (_Bool)UIApplicationWantsViewsToDisappearNotification;
+- (void)eviceOrientationIsValidInterfaceOrientation(orientation);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double hysteresis; // @synthesize hysteresis=_hysteresis;

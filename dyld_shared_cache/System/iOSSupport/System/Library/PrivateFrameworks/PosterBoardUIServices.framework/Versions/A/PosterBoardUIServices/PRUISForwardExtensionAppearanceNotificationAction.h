@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ionActive;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *notificationName;

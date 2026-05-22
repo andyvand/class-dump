@@ -16,24 +16,24 @@
     struct CGSize _preferredThumbnailSize;
 }
 
-- (void)count;
-- (void)connectTimer;
-- (void)t;
-- (void)IMETypeOfPath:(double)arg1;
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (struct CGSize);
 - (double);
-- (void)at"8;
+- (void);
 - (id);
-- (id)K;
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool)v;
 - (id);
-- (id)ierLabelWidth;
+- (unsigned long long);
+- (_Bool)hasBeganCancelling;
+- (id)e3;
 
 // Remaining properties
 @property(nonatomic, setter=_setSkipImageStats:) _Bool _skipImageStats;

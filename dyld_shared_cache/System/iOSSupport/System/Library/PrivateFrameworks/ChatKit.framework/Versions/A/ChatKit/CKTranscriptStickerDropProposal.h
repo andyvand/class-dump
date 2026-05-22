@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     struct CGPoint _previewCenter;
 }
 
-- (id)hType:location:modifierFlags:timestamp:windowNumber:context:eventNumber:clickCount:pressure: /* Error: Ran out of types for this method. */;
-- (void)ultingState;
-- (void)ndBySelector:(struct CGPoint)arg1;
-- (struct CGPoint)",&,N;
+- (id);
+- (void);
+- (void);
+- (struct CGPoint);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)OTOS_TITLE;
 
 // Remaining properties
 @property(retain, nonatomic) UIDragItem *dragItem; // @synthesize dragItem=_dragItem;

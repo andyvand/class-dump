@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void)itWithRequest:bag:delegate: /* Error: Ran out of types for this method. */;
+- (id)±þÿmÈÿÿ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType fallbackBlock; // @synthesize fallbackBlock=_fallbackBlock;

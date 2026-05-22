@@ -33,9 +33,9 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (void)ÿêzxÿ;
+- (void)coordinator. Ending session immediately;
 - (void);
 
 // Remaining properties

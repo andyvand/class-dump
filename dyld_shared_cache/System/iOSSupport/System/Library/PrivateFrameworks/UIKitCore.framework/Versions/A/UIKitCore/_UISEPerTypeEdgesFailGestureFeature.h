@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     NSDictionary *_edgeTypeSubfeatures;
 }
 
-- (id)",&,N,V_title;
-- (void);
-- (void)utSettingsAutomaticallyEnabledComputesColorSettings:(const struct _UISEGestureFeatureSample *)arg1;
-- (id)èäé`êlíLîÀî;
-- (id)øþÿ;
-- (unsigned long long)ed outside of decoding a session from another process.;
-- (void)kþSÿ3Ù¨þ;
+- (void)aceOrientations:(const struct _UISEGestureFeatureSample *)arg1;
+- (id);
+- (unsigned long long)8ë;
+- (id);
+- (void)%ld from section %ld which only contains %ld items before the update;
+- (id)StQyd__;
+- (void)¥;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

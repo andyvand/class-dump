@@ -23,32 +23,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)slist__DATA_CONST;
+- (_Bool);
 - (struct CGSize);
 - (id);
 - (void);
 - (void);
-- (id)erformOneTimeAccountUpgradeCheckIfNeeded;
-- (void)isEqualToSet:(struct CGSize)arg1;
-- (_Bool)ut:hadChat: /* Error: Ran out of types for this method. */;
-- (void)eTransfer_CKRecord *** fileName [%@] or utiType [%@] is nil;
-- (_Bool)his as a non error case;
 - (id);
+- (void);
 - (_Bool);
-- (struct UIEdgeInsets){public}@;
 - (_Bool);
-- (void);
-- (void)áq°! DùÅð1¢!0@ù
-× ;
-- (void): /* Error: Ran out of types for this method. */;
-- (struct CGRect)ImplementsEstimatedHeightForRowAtIndexPath;
-- (_Bool)ÿÿ;
-- (_Bool)insert/delete type:%ld
- /* Error: Ran out of types for this method. */;
-- (id)HeadsetOriginatedMediaRemoteCommand:] /* Error: Ran out of types for this method. */;
-- (id)Ã5`;
-- (void):(id)arg1 Ù;
-- (long long)EÔWHa;
+- (void);
+- (id);
+- (id)eLoaderWithDataFromItemProvider:typeIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)r item in layout arrangement is out of bounds;
+- (void)n't get object in root set for index [%d] for identifier path %@;
+- (_Bool)s remote service:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ckingLoggingEnabled;
+- (long long)_q0_q1__qd__G;
+- (struct UIEdgeInsets)gXw;
+- (void);
+- (struct CGRect)ÔQ[;
+- (void);
+- (_Bool)JrÏ¸d;
+- (id)t]ÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIContextMenuPreviewPresentationControllerDelegate> menuPresentationDelegate; // @synthesize menuPresentationDelegate=_menuPresentationDelegate;

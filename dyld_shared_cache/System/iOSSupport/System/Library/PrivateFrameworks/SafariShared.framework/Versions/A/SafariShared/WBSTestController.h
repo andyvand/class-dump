@@ -18,11 +18,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void)_;
+- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,7 +30,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)angesThrottlingPolicy;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleType;

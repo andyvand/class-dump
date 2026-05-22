@@ -5,8 +5,5 @@
 //
 
 @protocol CKAudioRecorderDelegate
-- (void)t;
-- (void);
-- (void)-serial-queue;
 @end
 

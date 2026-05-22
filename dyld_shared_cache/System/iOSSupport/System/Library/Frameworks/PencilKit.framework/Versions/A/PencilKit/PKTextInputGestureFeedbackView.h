@@ -22,22 +22,22 @@
 - (void);
 - (void);
 - (id);
-- (id)y",&,N,V_runningOperations;
-- (void)missing fallbackURL;
-- (void)uestKey:%{public}@, skip updating last fetch date, treatmentIDs and segmentSetIDs /* Error: Ran out of types for this method. */;
-- (void)serInitiated;
+- (id);
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (struct CGRect);
-- (struct UIEdgeInsets);
-- (void);
+- (struct UIEdgeInsets);
+- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void)gDataCollector;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *_highlightViews; // @synthesize _highlightViews=__highlightViews;

@@ -45,12 +45,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *authenticationHint; // @synthesize authenticationHint=_authenticationHint;

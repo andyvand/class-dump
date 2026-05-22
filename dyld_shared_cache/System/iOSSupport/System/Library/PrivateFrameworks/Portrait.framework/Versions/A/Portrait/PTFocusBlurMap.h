@@ -63,8 +63,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
 - (unsigned long long);
+- (id);
 - (unsigned long long);
 
 // Remaining properties

@@ -13,13 +13,13 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (long long);
 + (id);
 + (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -27,9 +27,9 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id)ForOrigin:initiatedByFrame:decisionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

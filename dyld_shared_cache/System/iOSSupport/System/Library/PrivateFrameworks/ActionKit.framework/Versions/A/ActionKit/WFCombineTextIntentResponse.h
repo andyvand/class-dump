@@ -13,16 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)ELECT
-            json_extract(name, ?) AS name,
-            isA,
-            json_extract(occurances, ?) AS dates
-        FROM "Intelligenceplatform.Entity"."HolidayEvent"
-    )
-    SELECT DISTINCT name, isA
-    FROM extracted_dates
-    WHERE json_type(dates) = 'array' AND json_array_length(dates) > 0 AND name IS NOT NULL;;
-- (void);
+- (long long)s:adParameters: /* Error: Ran out of types for this method. */;
+- (void)ect:(long long)arg1 %@;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

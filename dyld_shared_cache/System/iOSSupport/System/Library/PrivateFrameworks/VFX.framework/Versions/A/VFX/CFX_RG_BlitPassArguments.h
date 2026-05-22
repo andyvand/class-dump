@@ -6,6 +6,6 @@ class CFX::RG::BlitPassArguments {
 public: // (access info unavailable from symbols alone)
     BlitPassArguments(CFX::RG::BlitPassArguments const&);
     BlitPassArguments(id<MTLBlitCommandEncoder>);
-    encoder() const;
+    auto encoder() const;
     ~BlitPassArguments();
 };

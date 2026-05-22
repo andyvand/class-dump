@@ -19,9 +19,9 @@
 
 + (void);
 + (void);
-+ (long long)dentifier: /* Error: Ran out of types for this method. */;
-+ (long long)t;
-+ (_Bool)update. shouldAllowExplicit=%{BOOOL}u error=%{public}@;
++ (long long);
++ (long long);
++ (_Bool);
 - (long long);
 - (id);
 - (id);
@@ -62,11 +62,10 @@
 - (long long);
 - (void);
 - (id);
-- (void)ntifier:(long long)arg1;
-- (id);
 - (void);
-- (id)0@ù
-× ;
+- (id);
+- (id);
+- (void)assicalExperienceAvailable_KEY;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

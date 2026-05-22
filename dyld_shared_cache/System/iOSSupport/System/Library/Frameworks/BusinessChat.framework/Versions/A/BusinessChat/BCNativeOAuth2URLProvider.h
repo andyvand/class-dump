@@ -32,8 +32,6 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -41,10 +39,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id)e;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *accessTokenURL; // @synthesize accessTokenURL=_accessTokenURL;

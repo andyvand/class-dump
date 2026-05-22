@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     UIView *_parent;
 }
 
-- (void)t;
-- (id)eaning up tombstone table as CloudKit syncing is off;
-- (id)er of devices for iMessage account:(id)arg1 %@;
-- (id)n service %@ with context %@;
-- (void)ëº;
-- (void)tainers;
-- (id)c;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)%@:%p; types:( /* Error: Ran out of types for this method. */;
+- (void)ø;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setDecorationView:) UIView *_decorationView; // @synthesize _decorationView;

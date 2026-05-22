@@ -12,18 +12,18 @@
     unsigned long long _options;
 }
 
-+ (id):(unsigned long long)arg1;
-+ (id)ndRemoteEventsWithReason:usingPredicateBlock: /* Error: Ran out of types for this method. */;
-+ (_Bool)erObserver %p> userMonitorWithHomeIdentifiers:forcing update [no monitor found] homeIdentifiers=%{private}@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (_Bool);
 - (id);
-- (id)@;
-- (void);
-- (unsigned long long)or is nil;
-- (_Bool);
 - (id);
-- (unsigned long long)eanup;
 - (unsigned long long);
-- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;

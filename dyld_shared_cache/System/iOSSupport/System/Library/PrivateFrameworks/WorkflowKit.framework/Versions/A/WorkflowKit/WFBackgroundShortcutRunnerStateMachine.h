@@ -19,21 +19,20 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void)øâÌ;
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id)!TBù±fð1B0@ù
-× ;
-- (void)ate>"32@0:(id)arg1 8@"WFWorkflowController"16@"WFAction"24;
-- (void).nightshift.set;
-- (void)¹A;
+- (void);
+- (id);
+- (void)pt for Mac Automation;
+- (void)÷úÿeRßP(;
 
 // Remaining properties
 @property(nonatomic) __weak id <WFBackgroundShortcutRunnerStateMachineDelegate> delegate; // @synthesize delegate=_delegate;

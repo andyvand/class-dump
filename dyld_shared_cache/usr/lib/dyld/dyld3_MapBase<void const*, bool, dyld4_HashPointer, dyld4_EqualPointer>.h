@@ -4,7 +4,7 @@
 
 class dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer> {
 public: // (access info unavailable from symbols alone)
-    find<unsigned char*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>>&, void*, void const* const&);
-    find<unsigned char*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>>&, void*, void const* const&) (.cold.1);
-    find<unsigned char*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>>&, void*, void const* const&) (.cold.2);
+    dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>* find<unsigned char*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>>&, void*, void const* const&);
+    dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>* find<unsigned char*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>>&, void*, void const* const&) (.cold.1);
+    dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>* find<unsigned char*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<void const*, bool, dyld4::HashPointer, dyld4::EqualPointer>::NodeImplT<false>>&, void*, void const* const&) (.cold.2);
 };

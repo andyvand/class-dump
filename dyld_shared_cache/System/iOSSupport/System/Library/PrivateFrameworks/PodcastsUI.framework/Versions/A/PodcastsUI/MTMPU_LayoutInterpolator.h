@@ -4,6 +4,6 @@
 
 class MTMPU::LayoutInterpolator {
 public: // (access info unavailable from symbols alone)
-    _EntriesContainerAppendEntryDescriptionToStringStream(MTMPU::LayoutInterpolator::EntriesContainer*, std::__1::basic_ostringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>&, MTMPU::LayoutInterpolator::Entry);
-    _EntriesContainerMakeInsertionError(MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::Entry::InsertionError::Code, MTMPU::LayoutInterpolator::Entry, MTMPU::LayoutInterpolator::Entry);
+    auto _EntriesContainerAppendEntryDescriptionToStringStream(MTMPU::LayoutInterpolator::EntriesContainer*, std::__1::basic_ostringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>&, MTMPU::LayoutInterpolator::Entry);
+    auto _EntriesContainerMakeInsertionError(MTMPU::LayoutInterpolator::EntriesContainer*, MTMPU::LayoutInterpolator::Entry::InsertionError::Code, MTMPU::LayoutInterpolator::Entry, MTMPU::LayoutInterpolator::Entry);
 };

@@ -27,12 +27,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)?	;
+- (void)BackgroundColor;
+- (id)vider;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUPlaceAppLockupViewDelegate> delegate; // @synthesize delegate=_delegate;

@@ -15,11 +15,11 @@
     MISSING_TYPE *hostingView;
 }
 
-- (void);
 - (id);
 - (void);
-- (void)RunnerClient:(id)arg1 didStartRunningWorkflowWithProgress:(id)arg2;
-- (void)P ÿÿÆ­T~\	;
+- (void);
+- (void);
+- (void);
 
 @end
 

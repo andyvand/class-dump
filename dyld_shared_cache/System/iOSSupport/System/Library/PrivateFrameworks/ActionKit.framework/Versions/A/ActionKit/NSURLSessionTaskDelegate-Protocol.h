@@ -7,7 +7,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)ScreenshotScreenshotType);
-- (void)tion} ${WFApp};
+- (void);
+- (void)Ëÿt|¸Ëÿ¥t|xÄÿt|XPÄÿ;
+- (void)üÄÿ=»|JÄÿ»|ðÄÿ;
 @end
 

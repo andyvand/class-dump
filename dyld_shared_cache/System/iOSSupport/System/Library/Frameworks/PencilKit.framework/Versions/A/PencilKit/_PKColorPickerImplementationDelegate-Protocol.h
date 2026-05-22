@@ -5,6 +5,5 @@
 //
 
 @protocol _PKColorPickerImplementationDelegate
-- (void);
 @end
 

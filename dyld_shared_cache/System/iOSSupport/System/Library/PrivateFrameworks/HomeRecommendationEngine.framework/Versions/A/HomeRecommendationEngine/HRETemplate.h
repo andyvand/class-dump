@@ -25,14 +25,14 @@
 - (id);
 - (void);
 - (double);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

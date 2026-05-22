@@ -24,31 +24,31 @@
 }
 
 - (id);
-- (id);
-- (id)ns/A/FMCore;
-- (id)FMCore.framework/Versions/A/FMCore;
 - (id);
-- (void)ams_saveAccount:(id)arg1;
 - (id);
-- (void);
-- (id)XT;
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (_Bool)SManagedObjectIDCSg;
-- (id){X;
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
-- (void)J;
-- (id);
-- (void)ion successful for account=%s;
-- (id);
 - (_Bool);
-- (void);
+- (id)FGaplessParameters>"16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)äDàH;
+- (void)ueSectionIdentifier/itemIdentifier event=%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)no image data for artwork request.;
+- (id)ContextEndTimeModifications;
+- (void)onseTimeSum;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;

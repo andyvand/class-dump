@@ -7,9 +7,9 @@
 @class UIBezierPath;
 
 @protocol _UIVectorTextLayoutGlyph
-- (UIBezierPath *);
-- (unsigned short)rrectionObserver;
-- (struct CGRect)ÛêZ;
+- (struct CGRect)t: /* Error: Ran out of types for this method. */;
+- (unsigned short)tached:didComplete: /* Error: Ran out of types for this method. */;
+- (UIBezierPath *)iewConfiguration",C,N,V_configuration;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short glyph;

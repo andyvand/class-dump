@@ -5,6 +5,5 @@
 //
 
 @protocol _UIPreviewInteractionHighlighting
-- (void);
 @end
 

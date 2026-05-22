@@ -28,11 +28,11 @@
 - (float);
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)16@?0@"HFCameraClipPosition"8;
 
 // Remaining properties
 @property(nonatomic) _Bool alarmUpdatedSuccessfully; // @synthesize alarmUpdatedSuccessfully=_alarmUpdatedSuccessfully;

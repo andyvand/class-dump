@@ -17,16 +17,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGRect)ing participant, re-added %@ to %@;
+- (struct CGRect);
 - (id);
 - (void);
 - (void);
-- (void)
-× ;
-- (id)Ã1¢!0@ù
-× ;
 - (id);
-- (id)n:reuseTargetRect:isValid: /* Error: Ran out of types for this method. */;
+- (id)0@ù
+× ;
+- (id)`T`;
+- (void)¸¦ÿËj;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBHandwritingCandidateView *candidateView; // @synthesize candidateView=_candidateView;

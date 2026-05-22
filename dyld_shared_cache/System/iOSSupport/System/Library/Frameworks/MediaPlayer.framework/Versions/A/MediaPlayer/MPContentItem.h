@@ -13,39 +13,40 @@
 }
 
 + (_Bool);
-+ (void)tureAssessment:(CDUnknownBlockType)arg1;
-+ (void)dentifier:(CDUnknownBlockType)arg1;
-+ (_Bool)rationWithProtectionClass: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)estedNickname: /* Error: Ran out of types for this method. */;
-- (void)g:(CDUnknownBlockType)arg1;
-- (void *)isFlagged;
-- (void)a;
-- (id)ontentProtection:(void *)arg1 isNew:isTwoFactorCode:isFromMe:isGroupThread:isJunk:isRead:isPinned:isBusinessChat:tapbackAssociatedMessageID:tapbackType:messageType:messagesService: /* Error: Ran out of types for this method. */;
-- (id)requestOnly;
-- (void);
-- (void)ionHandler:(_Bool)arg1;
-- (void)vice;
-- (_Bool)B;
++ (void);
++ (void);
++ (_Bool);
 - (void);
 - (id);
 - (void);
+- (void *);
 - (void);
-- (id)omNotification:explanationSet: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
-- (void)gKeys;
-- (float);
-- (id);
-- (id)6Q24;
-- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool)redoAvailable;
-- (_Bool)Ä0X1Ä12ô2¼3¸4;
-- (void)ror=%{public}@;
+- (id);
+- (void)s;
+- (_Bool)forced uninitialized property:%@ /* Error: Ran out of types for this method. */;
+- (void)Ê
+;
+- (float)Î;
+- (void)Õ;
 
 // Remaining properties
 @property(readonly, nonatomic) void *_mediaRemoteContentItem; // @synthesize _mediaRemoteContentItem;

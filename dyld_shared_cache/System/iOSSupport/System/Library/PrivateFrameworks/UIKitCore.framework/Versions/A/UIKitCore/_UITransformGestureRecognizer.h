@@ -16,22 +16,21 @@
     struct CGPoint _eventTranslation;
 }
 
-- (struct CGAffineTransform)mpHttpBodyOnFailure;
+- (struct CGAffineTransform);
 - (void);
-- (struct CGPoint)age:withIndexesOfDeletedItems:withIndexToRangeMapOfDeletedItems:deleteDate: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
+- (struct CGPoint);
+- (void);
+- (struct CGPoint);
+- (double);
 - (struct CGAffineTransform);
 - (double);
 - (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint)ÔÁwÐ!ìDùñÌð1¢!0@ù
-× ;
-- (_Bool)Alpha;
-- (struct CGPoint);
-- (double)tionBounce;
-- (id);
+- (struct CGPoint)oundStyle:(id)arg1;
+- (_Bool)leView;
+- (id);
+- (void)dByTextDelegate;
+- (void)28_UISceneDestructionConditionCG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

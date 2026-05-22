@@ -15,17 +15,16 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)Ñ|1b0@ù
-× ;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;

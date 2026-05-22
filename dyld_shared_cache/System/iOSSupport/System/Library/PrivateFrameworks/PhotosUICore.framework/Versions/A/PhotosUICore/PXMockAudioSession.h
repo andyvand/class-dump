@@ -21,9 +21,9 @@
 - (void);
 - (void);
 - (void);
+- (CDStruct_1b6d18a9)interFunctionsWithOptions: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)tionUUID;
-- (CDStruct_1b6d18a9)etadataTags;
+- (void)æÿ;
 
 @end
 

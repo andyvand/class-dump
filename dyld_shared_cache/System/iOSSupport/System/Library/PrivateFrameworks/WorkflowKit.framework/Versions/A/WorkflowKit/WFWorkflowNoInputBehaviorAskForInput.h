@@ -18,9 +18,9 @@
 - (id);
 - (Class);
 - (id);
-- (void);
-- (id)ion;
-- (id)avior);
+- (id);
+- (void)al);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) Class contentItemClass; // @synthesize contentItemClass=_contentItemClass;

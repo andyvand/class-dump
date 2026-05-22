@@ -19,20 +19,20 @@
 + (_Bool);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool)ing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

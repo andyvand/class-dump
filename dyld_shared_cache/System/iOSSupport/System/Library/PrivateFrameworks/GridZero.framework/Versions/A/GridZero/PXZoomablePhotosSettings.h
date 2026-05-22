@@ -78,7 +78,7 @@
 
 + (id);
 + (id);
-+ (id)anager for the selected asset section.;
++ (id);
 - (double);
 - (double);
 - (double);
@@ -209,12 +209,11 @@
 - (double);
 - (void);
 - (double);
-- (double);
-- (void);
 - (id);
-- (void)!Cùq<	1b0@ù
-× ;
-- (id);
+- (void);
+- (double);
+- (void);
+- (id)Ô ;
 
 // Remaining properties
 @property(nonatomic) double alphaCrossfadeMaxDuration; // @synthesize alphaCrossfadeMaxDuration=_alphaCrossfadeMaxDuration;

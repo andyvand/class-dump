@@ -14,16 +14,16 @@
     unsigned long long _dropPerformer;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)ationMechanism;
-- (unsigned long long)essageTimerMap;
+- (id);
 - (unsigned long long);
-- (unsigned long long)ErrorForModifyingRecordCompletion: /* Error: Ran out of types for this method. */;
-- (id)anslator was missing mapping for MPModelPropertyPodcastTitle;
+- (unsigned long long);
+- (unsigned long long);
+- (id)setShouldIncludeConstantOffset:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(nonatomic) unsigned long long dropAction; // @synthesize dropAction=_dropAction;

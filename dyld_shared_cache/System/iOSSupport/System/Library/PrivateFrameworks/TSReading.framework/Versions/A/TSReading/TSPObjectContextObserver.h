@@ -11,10 +11,10 @@
 }
 
 - (id);
-- (void);
-- (id)P;
-- (id)setAppliesToHidden:(id)arg1;
-- (SEL)ithTextureDescription: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (SEL);
+- (void)8µ;
 
 // Remaining properties
 @property(readonly, nonatomic) SEL action; // @synthesize action=_action;

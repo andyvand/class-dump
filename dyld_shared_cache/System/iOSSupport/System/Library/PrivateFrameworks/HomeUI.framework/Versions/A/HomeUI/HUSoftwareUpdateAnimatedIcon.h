@@ -19,9 +19,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)set or auth code.;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *innerGearView;

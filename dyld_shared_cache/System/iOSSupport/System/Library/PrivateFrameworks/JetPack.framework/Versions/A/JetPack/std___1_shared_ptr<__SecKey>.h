@@ -4,5 +4,5 @@
 
 class std::__1::shared_ptr<__SecKey> {
 public: // (access info unavailable from symbols alone)
-    ~shared_ptr[abi:ne200100]();
+    auto ~shared_ptr[abi:nqe210106]();
 };

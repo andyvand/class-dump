@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

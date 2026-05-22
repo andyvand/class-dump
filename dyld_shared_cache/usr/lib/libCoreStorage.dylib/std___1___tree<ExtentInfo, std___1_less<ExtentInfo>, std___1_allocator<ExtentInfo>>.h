@@ -4,11 +4,11 @@
 
 class std::__1::__tree<ExtentInfo, std::__1::less<ExtentInfo>, std::__1::allocator<ExtentInfo>> {
 public: // (access info unavailable from symbols alone)
-    __emplace_hint_unique_key_args<ExtentInfo, ExtentInfo const&>(std::__1::__tree_const_iterator<ExtentInfo, std::__1::__tree_node<ExtentInfo, void*>*, long>, ExtentInfo const&, ExtentInfo const&);
-    __emplace_unique_key_args<ExtentInfo, ExtentInfo const&>(ExtentInfo const&, ExtentInfo const&);
-    __find_equal<ExtentInfo>(std::__1::__tree_const_iterator<ExtentInfo, std::__1::__tree_node<ExtentInfo, void*>*, long>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, ExtentInfo const&);
-    __find_equal<ExtentInfo>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, ExtentInfo const&);
-    __insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*);
-    __remove_node_pointer(std::__1::__tree_node<ExtentInfo, void*>*);
-    destroy(std::__1::__tree_node<ExtentInfo, void*>*);
+    auto __insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*);
+    auto __remove_node_pointer(std::__1::__tree_node<ExtentInfo, void*>*);
+    auto destroy(std::__1::__tree_node<ExtentInfo, void*>*);
+    std::__1::__tree_node_base<void*>*& __find_equal<ExtentInfo>(std::__1::__tree_const_iterator<ExtentInfo, std::__1::__tree_node<ExtentInfo, void*>*, long>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, ExtentInfo const&);
+    std::__1::__tree_node_base<void*>*& __find_equal<ExtentInfo>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, ExtentInfo const&);
+    std::__1::pair<std::__1::__tree_iterator<ExtentInfo, std::__1::__tree_node<ExtentInfo, void*>*, long>, bool> __emplace_hint_unique_key_args<ExtentInfo, ExtentInfo const&>(std::__1::__tree_const_iterator<ExtentInfo, std::__1::__tree_node<ExtentInfo, void*>*, long>, ExtentInfo const&, ExtentInfo const&);
+    std::__1::pair<std::__1::__tree_iterator<ExtentInfo, std::__1::__tree_node<ExtentInfo, void*>*, long>, bool> __emplace_unique_key_args<ExtentInfo, ExtentInfo const&>(ExtentInfo const&, ExtentInfo const&);
 };

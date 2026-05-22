@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void);
-- (id)xt;
+- (id);
+- (void)bNÿ;
 
 @end
 

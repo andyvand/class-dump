@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSSiteMetadataResponse;
 @protocol WBSSiteMetadataProviderDelegate;
 
 @protocol WBSSiteMetadataProvider
-
-@optional
-- (void)ficationDateIfSizeAndCRCMatches;
-- (WBSSiteMetadataResponse *);
-- (void)(;
 
 // Remaining properties
 @property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate;

@@ -6,15 +6,15 @@ class icu::LocaleMatcher {
 public: // (access info unavailable from symbols alone)
     LocaleMatcher(icu::LocaleMatcher&&);
     LocaleMatcher(icu::LocaleMatcher::Builder const&, UErrorCode&);
-    getBestMatch(icu::Locale const&, UErrorCode&) const;
-    getBestMatch(icu::Locale::Iterator&, UErrorCode&) const;
-    getBestMatchForListString(icu::StringPiece, UErrorCode&) const;
-    getBestMatchResult(icu::Locale const&, UErrorCode&) const;
-    getBestMatchResult(icu::Locale::Iterator&, UErrorCode&) const;
-    getBestSuppIndex(icu::LSR, icu::LocaleLsrIterator*, UErrorCode&) const;
-    internalMatch(icu::Locale const&, icu::Locale const&, UErrorCode&) const;
-    isMatch(icu::Locale const&, icu::Locale const&, UErrorCode&) const;
-    operator=(icu::LocaleMatcher&&);
-    putIfAbsent(icu::LSR const&, int, int, UErrorCode&);
+    auto getBestMatch(icu::Locale const&, UErrorCode&) const;
+    auto getBestMatch(icu::Locale::Iterator&, UErrorCode&) const;
+    auto getBestMatchForListString(icu::StringPiece, UErrorCode&) const;
+    auto getBestMatchResult(icu::Locale const&, UErrorCode&) const;
+    auto getBestMatchResult(icu::Locale::Iterator&, UErrorCode&) const;
+    auto getBestSuppIndex(icu::LSR, icu::LocaleLsrIterator*, UErrorCode&) const;
+    auto internalMatch(icu::Locale const&, icu::Locale const&, UErrorCode&) const;
+    auto isMatch(icu::Locale const&, icu::Locale const&, UErrorCode&) const;
+    auto operator=(icu::LocaleMatcher&&);
+    auto putIfAbsent(icu::LSR const&, int, int, UErrorCode&);
     ~LocaleMatcher();
 };

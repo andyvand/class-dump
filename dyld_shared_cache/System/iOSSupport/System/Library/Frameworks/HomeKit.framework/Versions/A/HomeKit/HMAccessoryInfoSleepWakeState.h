@@ -14,10 +14,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly) unsigned long long sleepWakeState; // @synthesize sleepWakeState=_sleepWakeState;

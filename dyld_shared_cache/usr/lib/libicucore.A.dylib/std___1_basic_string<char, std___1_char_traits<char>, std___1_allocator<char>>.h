@@ -4,6 +4,6 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    append(char const*, unsigned long);
-    resize(unsigned long, char);
+    auto append(char const*, unsigned long);
+    auto resize(unsigned long, char);
 };

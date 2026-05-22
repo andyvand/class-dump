@@ -5,5 +5,9 @@
 //
 
 @protocol CAAnimationDelegate
+
+@optional
+- (void)t;
+- (void)¸ì;
 @end
 

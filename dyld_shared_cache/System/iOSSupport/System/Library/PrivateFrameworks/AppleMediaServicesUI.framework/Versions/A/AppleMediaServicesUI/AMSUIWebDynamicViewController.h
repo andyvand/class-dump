@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)tion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AMSUIWebClientContext *context; // @synthesize context=_context;

@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
     id <UIFocusItem> _item;
 }
 
-+ (id)sage through Blastdoor name=(%@); reason=(%@);
++ (id);
 + (id);
 - (_Bool);
 - (void);
@@ -30,11 +30,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id):(struct _NSZone *)arg1;
-- (void);
-- (id)sRestrictionStateForIdentifier: /* Error: Ran out of types for this method. */;
-- (id)T@"<_UIImageViewLoadingDelegate>",&,N,V_loadingDelegate;
-- (id);
+- (id);
+- (id);
+- (id);
+- (id)ingResizesWhenDetentDirectionIsDown;
+- (void)oàO;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *ancestorEnvironmentScrollableContainers; // @synthesize ancestorEnvironmentScrollableContainers=_ancestorEnvironmentScrollableContainers;

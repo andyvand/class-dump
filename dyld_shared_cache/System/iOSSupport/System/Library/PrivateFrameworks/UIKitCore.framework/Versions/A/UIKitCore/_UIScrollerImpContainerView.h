@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)nsition;
-- (id)Ð;
+- (void)erSafeAreaInsets:(id)arg1;
+- (id)_inputResponderReloaded:(struct CGRect)arg1;
 
 @end
 

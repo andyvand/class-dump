@@ -19,12 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (struct CGRect);
+- (void)p;
 
 // Remaining properties
 @property(readonly, nonatomic) WFParameter *parameter; // @synthesize parameter=_parameter;

@@ -22,7 +22,11 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)endars;
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,14 +34,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (Class);
-- (id);
-- (void)TENT;
-- (id)DAI|lU;
+- (void)kenSecret;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *comment; // @synthesize comment=_comment;

@@ -11,17 +11,16 @@
 {
 }
 
-+ (id)ÿÐÔ<dp;
++ (id)EOÿ¨É×ûo;
 - (id);
 - (id);
 - (id);
-- (id)0@ù
+- (void);
+- (id);
+- (id);
+- (id)
 × ;
-- (void)!@ùÂ°1¢!0@ù
-× ;
-- (id)imer: /* Error: Ran out of types for this method. */;
-- (void)_layoutSystemBackgroundView;
-- (id)kB;
+- (void)nager:(CDUnknownBlockType)arg1 configureProgressUIWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *contextToken; // @dynamic contextToken;

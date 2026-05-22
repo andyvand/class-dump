@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)T¸<;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *strokeDataUUID; // @synthesize strokeDataUUID=_strokeDataUUID;

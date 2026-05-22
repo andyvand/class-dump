@@ -16,12 +16,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)pFailed;
 
 // Remaining properties
 @property(nonatomic, copy) NSDictionary *custom;

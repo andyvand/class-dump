@@ -45,25 +45,23 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (void);
-- (id);
 - (long long);
-- (id);
+- (long long);
 - (_Bool);
-- (double);
-- (void);
-- (void);
-- (id)!PDù±{Ð1b0@ù
-× ;
-- (_Bool)0@ù
-× ;
-- (id)ithConfidencePersonsForPerson:options: /* Error: Ran out of types for this method. */;
-- (void)erFactory;
 - (id);
 - (void);
-- (long long)¸¡MÖ36;
-- (id)ª»Mây6;
+- (void);
+- (void);
+- (double)!;
+- (id)cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16@784q792;
+- (id);
+- (void)zip the asset, attaching unzipped;
+- (id)r:[%{public}ld](%{public}s) Failed video player item request:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)OptionsMenuSubtitle];
+- (void)nePlayerFrameLatencyApproximation;
+- (id)èdÿÌõ)4;
+- (void)µ6;
+- (id)ÏPün7;
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;

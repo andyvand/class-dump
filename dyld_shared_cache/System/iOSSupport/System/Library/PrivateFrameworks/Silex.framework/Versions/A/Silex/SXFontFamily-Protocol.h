@@ -7,7 +7,7 @@
 @class NSSet, NSString;
 
 @protocol SXFontFamily
-- (NSString *);
+- (NSString *)kManager;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *familyName;

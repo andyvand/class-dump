@@ -7,13 +7,10 @@
 @class UIDragInteraction, UIDropInteraction;
 
 @protocol UITextDragDropSupport
-- (void)in;
-- (_Bool):8@16q24{CAPoint3D=ddd}32@56@64@72 /* Error: Ran out of types for this method. */;
-- (_Bool)enu:reason: /* Error: Ran out of types for this method. */;
-- (void)N,V_sectionMargins;
-- (UIDragInteraction *)keyed coding.;
-- (UIDropInteraction *)ct.;
-- (_Bool);
+- (_Bool)Ña1Â0@ù
+× ;
+- (UIDropInteraction *)¸ÿÿÿ`áéÿàôcþÈ¹þÿ;
+- (UIDragInteraction *);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isDragActive) _Bool dragActive;

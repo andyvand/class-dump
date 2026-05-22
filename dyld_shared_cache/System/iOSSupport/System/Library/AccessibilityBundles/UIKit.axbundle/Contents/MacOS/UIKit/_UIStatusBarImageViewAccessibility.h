@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
 + (Class);
++ (id);
 - (unsigned int);
 - (id);
 - (unsigned long long);

@@ -21,21 +21,23 @@
 + (id);
 + (id);
 + (id);
-- (id)5;
+- (id);
 - (void);
-- (id)reviewAttachmentSizeEnabled;
-- (id)istChanged: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (void);
-- (id)*;
-- (void);
-- (id)lattenImage;
-- (void)electionWidget;
-- (void)e;
-- (void)ìÐÑàÑ;
-- (id)hreshold;
-- (void)s not a subclass of NSString. This is an illegal override. overrideImplementation=%p;
-- (_Bool)rd;
+- (void);
+- (id);
+- (id)Y°1Â0@ù
+× ;
+- (_Bool);
+- (void)0@ù
+× ;
+- (id)StringIfNeeded;
+- (void)d this.;
+- (void)imatedTextSpacer;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

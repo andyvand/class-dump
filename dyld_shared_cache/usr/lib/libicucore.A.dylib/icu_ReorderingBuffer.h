@@ -5,17 +5,17 @@
 class icu::ReorderingBuffer {
 public: // (access info unavailable from symbols alone)
     ReorderingBuffer(icu::Normalizer2Impl const&, icu::UnicodeString&, UErrorCode&);
-    append(char16_t const*, int, signed char, unsigned char, unsigned char, UErrorCode&);
-    appendSupplementary(int, unsigned char, UErrorCode&);
-    appendZeroCC(char16_t const*, char16_t const*, UErrorCode&);
-    appendZeroCC(int, UErrorCode&);
-    equals(char16_t const*, char16_t const*) const;
-    equals(unsigned char const*, unsigned char const*) const;
-    init(int, UErrorCode&);
-    insert(int, unsigned char);
-    previousCC();
-    remove();
-    removeSuffix(int);
-    resize(int, UErrorCode&);
-    skipPrevious();
+    auto append(char16_t const*, int, signed char, unsigned char, unsigned char, UErrorCode&);
+    auto appendSupplementary(int, unsigned char, UErrorCode&);
+    auto appendZeroCC(char16_t const*, char16_t const*, UErrorCode&);
+    auto appendZeroCC(int, UErrorCode&);
+    auto equals(char16_t const*, char16_t const*) const;
+    auto equals(unsigned char const*, unsigned char const*) const;
+    auto init(int, UErrorCode&);
+    auto insert(int, unsigned char);
+    auto previousCC();
+    auto remove();
+    auto removeSuffix(int);
+    auto resize(int, UErrorCode&);
+    auto skipPrevious();
 };

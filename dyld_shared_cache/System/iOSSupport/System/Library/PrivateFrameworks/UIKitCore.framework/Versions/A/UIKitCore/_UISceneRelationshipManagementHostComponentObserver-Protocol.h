@@ -5,6 +5,5 @@
 //
 
 @protocol _UISceneRelationshipManagementHostComponentObserver
-- (void)VP user defined program id;
 @end
 

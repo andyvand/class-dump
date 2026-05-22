@@ -22,8 +22,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)0__AItGSgtGG_A41_AAyAzAyA35_yADyA40__A4_A40_tGGA4_GGADyA40__A35_yADyA40__A22_A40_tGGtGSgtGG_Qo_A21_GA18_yÊñºGGAJGA28_yA29_y¶%»GA32_GGGAJGG;
+- (void)d;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPhotoKitLivePhotoVideoContentProviderSpec *spec; // @dynamic spec;

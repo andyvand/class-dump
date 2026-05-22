@@ -19,21 +19,21 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)9;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)AndRenderState"16;
-- (id)Pîêÿ;
+- (void);
+- (id)Z[[3;
 
 // Remaining properties
 @property(readonly, nonatomic) long long compatibilityLevel; // @synthesize compatibilityLevel=mCompatibilityLevel;

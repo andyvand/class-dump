@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (struct _NSRange)+�J;
+- (struct _NSRange);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -45,7 +45,7 @@
 - (id);
 - (void);
 - (void);
-- (CDStruct_0441cfb5)Q;
+- (CDStruct_0441cfb5);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -54,11 +54,11 @@
 - (_Bool);
 - (_Bool);
 - (int);
+- (void);
+- (id);
+- (struct _NSRange);
 - (_Bool);
 - (id);
-- (void);
-- (id)P_TYPE_LATEST_STORIES;
-- (struct _NSRange)StackRow;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_0441cfb5 anchorCellID; // @synthesize anchorCellID=mAnchorCellID;

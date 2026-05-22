@@ -21,8 +21,7 @@
     CDUnknownBlockType _artworkCatalogBlock;
 }
 
-+ (_Bool)0@ù
-× ;
++ (_Bool)equentially:beforeTailOfSection: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -36,18 +35,18 @@
 - (_Bool);
 - (double);
 - (CDUnknownBlockType);
-- (_Bool)tection:(id)arg1;
-- (void)->base.descriptor == &pg_query__a__const__descriptor;
-- (id)_descriptor;
 - (_Bool);
 - (void);
-- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (id)`;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)ontent;
-- (id)delPlayEvent"8;
+- (id);
+- (void)NG_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *album; // @synthesize album=_album;

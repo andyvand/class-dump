@@ -31,10 +31,10 @@
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
 - (id);
-- (id)onActionPerformer:] /* Error: Ran out of types for this method. */;
+- (id);
+- (long long);
+- (void)xÉtÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPhotosGridAssetDecorationSource *assetDecorationSource; // @synthesize assetDecorationSource=_assetDecorationSource;

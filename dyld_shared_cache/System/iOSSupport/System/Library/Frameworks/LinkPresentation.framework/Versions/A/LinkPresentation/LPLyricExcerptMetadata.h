@@ -14,21 +14,22 @@
     NSNumber *_endTime;
 }
 
-+ (_Bool)ePlaybackControls;
++ (_Bool);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void)Request;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)4;
-- (id)$;
-- (void)Ý;
+- (id);
+- (id);
+- (void)
+× ;
+- (void)minantBackgroundColorAsCaptionBackgroundForProperties:(id)arg1;
+- (id)o/x-wav;
+- (void)/¦;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *endTime; // @synthesize endTime=_endTime;

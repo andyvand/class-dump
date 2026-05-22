@@ -15,9 +15,9 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)mePod StereoPair;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *payloadDictionary; // @synthesize payloadDictionary=_payloadDictionary;

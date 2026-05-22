@@ -5,6 +5,5 @@
 //
 
 @protocol AVTAvatarDynamic
-- (void);
 @end
 

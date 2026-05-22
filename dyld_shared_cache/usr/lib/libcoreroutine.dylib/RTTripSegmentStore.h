@@ -28,8 +28,8 @@
 - (void);
 - (void);
 - (id);
-- (id)";
 - (void);
+- (id)is before 8-week retention boundary (%@), capping to retention boundary;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

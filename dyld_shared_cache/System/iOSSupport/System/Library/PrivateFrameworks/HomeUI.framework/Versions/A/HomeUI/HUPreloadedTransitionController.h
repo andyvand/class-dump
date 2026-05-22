@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
+- (double);
 - (id);
 - (void);
-- (double)r;
+- (void)ontroller _presentEcosystemAccessoryRemoveConfirmation:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NAFuture *completionFuture; // @synthesize completionFuture=_completionFuture;

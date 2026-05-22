@@ -54,9 +54,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
-- (double)Manager: /* Error: Ran out of types for this method. */;
+- (double)on_weekend_work;
+- (void)dState:%{Bool}d /* Error: Ran out of types for this method. */;
+- (void)ts with new device MOID %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

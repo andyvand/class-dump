@@ -24,15 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct NSDirectionalEdgeInsets);
-- (id)nkMessageProcessingPipelineComponent;
-- (void)or suggested action response.;
 - (id);
 - (void);
-- (id)!pCùñÂð1¢!0@ù
-× ;
 - (id);
-- (void)hTitleOffset:bottomOffset:useBaselineAlignment: /* Error: Ran out of types for this method. */;
-- (void)rwþ{wþà|wþ|wþØwþüwþ¬wþ\wþ<wþTwþ,õþ$þ`£þ8§þDôþ¬öþ`øþxúþ°ûþøýþþþ¼;
+- (id)Insets;
+- (void)oViewLayerOriginalRasterizationScale;
+- (void);
+- (void);
+- (id)­^;
 
 // Remaining properties
 @property(nonatomic) struct NSDirectionalEdgeInsets iconInsets; // @synthesize iconInsets=_iconInsets;

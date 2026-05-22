@@ -4,33 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMessageEntryView, UIView;
-
 @protocol CKMessageEntryViewInputDelegate
-- (_Bool)ecognitionContext;
-- (void);
-- (void)tConstraint",&,N,V_imageViewBottomLayoutConstraint;
-- (_Bool)tSizeCategory:(CKMessageEntryView *)arg1 isForPrint: /* Error: Ran out of types for this method. */;
-- (_Bool)AttributeDelegate;
-- (_Bool)cessibility;
-
-@optional
-- (_Bool)Õ;
-- (_Bool)rWebView:(CKMessageEntryView *)arg1;
-- (void)ifiersToTouchBarItems;
-- (void)_attachmentObjectID;
-- (void)mentIDsPending;
-- (void)hment;
-- (void)ers;
-- (void)ogress;
-- (void)extStorage:(CKMessageEntryView *)arg1 atTextRange:(UIView *)arg2;
-- (void)rrectionPanels;
-- (void)ctionHandler;
-- (void)tsOfHTMLSourceObjects;
-- (void):(CKMessageEntryView *)arg1;
-- (void)eForURL:(CKMessageEntryView *)arg1 create:(UIView *)arg2 error: /* Error: Ran out of types for this method. */;
-- (void)LastPathComponent;
-- (void)n;
-- (void),V_ttEditedRange;
 @end
 

@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)smissalTaps;
-- (void)Mode:keyboardVariantIndludes: /* Error: Ran out of types for this method. */;
-- (id)DragSession:atIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ion;
-- (_Bool)tings;
-- (_Bool)U6];
-- (_Bool)Z±;
+- (void);
+- (void);
+- (id);
+- (void)ns;
+- (_Bool)ïtñóöPø'øú\ü;
+- (_Bool)'ÉÿNÿÒkd;
+- (_Bool);
 
 // Remaining properties
 @property(retain) UIPDFPageRenderJob *job; // @synthesize job=_job;

@@ -21,7 +21,7 @@
     double _workAround156719235Value;
 }
 
-+ (id)JZá8;
++ (id)%ü;
 - (double);
 - (long long);
 - (_Bool);
@@ -44,9 +44,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (long long);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldWorkAround102440195; // @synthesize shouldWorkAround102440195=_shouldWorkAround102440195;

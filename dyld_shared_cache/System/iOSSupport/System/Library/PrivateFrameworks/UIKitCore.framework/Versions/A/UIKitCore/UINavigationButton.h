@@ -35,145 +35,141 @@
     struct UIEdgeInsets __additionalSelectionInsets;
 }
 
-+ (id)"NSLayoutConstraint",&,N,V_labelStackViewTrailingToKeyboardShortcutLeading;
-+ (void)%f vs %f) Imperfection:(id)arg1 %f; threshold:(long long)arg2 %f;
++ (void);
++ (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (long long);
+- (void);
+- (int);
+- (id);
+- (void);
 - (_Bool);
-- (void)nown success code %d. sig:(_Bool)arg1 %s ref:%s len:%llu /* Error: Ran out of types for this method. */;
-- (id)mmcs_item_setup_chunk_references;
+- (_Bool);
 - (void);
+- (struct UIEdgeInsets);
 - (id);
 - (id);
-- (void);
+- (id);
+- (int);
+- (id);
 - (void);
-- (id)Queue;
-- (void)ssetAndPlayerItem %{public}@;
-- (void)ass getAVRoutePickerViewClass(void)_block_invoke;
-- (long long)]|;
-- (void);
+- (id);
 - (void);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (long long);
+- (void);
+- (long long);
 - (id);
 - (struct CGSize);
-- (void);
-- (_Bool);
-- (id);
 - (double);
-- (_Bool);
 - (_Bool);
-- (void)1¢!0@ù
+- (id)0@ù
 × ;
-- (_Bool)
+- (id)Ð1Â0@ù
 × ;
-- (void)Ápð!À@ù±Ã°1¢!0@ù
-× ;
-- (void)× ;
-- (id);
-- (id)0@ù
-× ;
-- (id)!¸@ùqÈ°1¢!0@ù
-× ;
-- (_Bool);
-- (void)ÔAwð!¼DùQÌð1¢!0@ù
-× ;
-- (long long)0@ù
-× ;
-- (void)
-× ;
-- (void)dListBehaviors"b1};
-- (int)EndContextMenuInteractionWithConfiguration"b1"delegateSelectionFollowsFocusForRowAtIndexPath"b1"delegateWasNonNil"b1"style"b2"isInSidebar"b1"separatorStyle"b3"headerFooterPinningBehavior"b2"wasEditing"b1"isEditing"b1"isEditingAllRows"b1"scrollsToSelection"b1"reloadSkippedDuringSuspension"b1"displaySkippedDuringSuspension"b1"needsReload"b1"needsRebuildGeometry"b1"suppressRebuildGeometry"b1"scheduledUpdateVisibleCells"b1"lastScheduledUpdateVisibleCellsIgnored"b1"scheduledUpdateVisibleCellsFrames"b1"displayTopSeparator"b1"countStringInsignificantRowCount"b4"needToAdjustExtraSeparators"b1"overlapsSectionHeaderViews"b1"ignoreTouchSelect"b1"lastHighlightedRowActive"b1"reloading"b1"dequeuedSectionViewIsFooter"b1"allowsSelection"b1"allowsSelectionDuringEditing"b1"allowsMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"indexHidden"b1"indexHiddenForSearch"b1"defaultShowsHorizontalScrollIndicator"b1"defaultShowsVerticalScrollIndicator"b1"sectionIndexTitlesLoaded"b1"tableHeaderViewShouldAutoHide"b1"tableHeaderViewIsHidden"b1"tableHeaderViewWasHidden"b1"tableHeaderViewShouldPin"b1"hideScrollIndicators"b1"sendReloadFinished"b1"keepFirstResponderWhenInteractionDisabled"b1"keepsFirstResponderVisibleOnBoundsChange"b1"forceStaticHeadersAndFooters"b1"inInit"b1"inSetBackgroundColor"b1"isApplyingAppearanceDefaults"b1"usingCustomBackgroundColor"b1"usingCustomBackgroundView"b1"usingCustomSeparatorColor"b1"usingCustomSeparatorEffect"b1"usingCustomSeparatorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
-- (void)esture"b1"didCheckForcePressShouldBegin"b1"canSendForcePressAction"b1"queriedShouldReceiveTouchesEvent"b1"shouldReceiveTouchesEvent"b1"queriedDelegateShouldReceiveTouchesEvent"b1"delegateShouldReceiveTouchesEvent"b1"queriedShouldReceivePressesEvent"b1"shouldReceivePressesEvent"b1"queriedDelegateShouldReceivePressesEvent"b1"delegateShouldReceivePressesEvent"b1"conformsToHoverEventRespondable"b1"conformsToScrollEventRespondable"b1"conformsToTransformEventRespondable"b1"conformsToLookupEventRespondable"b1"canBeCancelledByAffectedViews"b1"enqueuedForReset"b1"sendUpdateOnEventChange"b1"hasDriver"b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
-- (_Bool)erSelectedSmartReply:isLongForm:withMailOrMsgThreadId:withConversationType:withSmartReplyFeedbackManagerInstance: /* Error: Ran out of types for this method. */;
-- (id)mentedTitleViewLayout;
-- (void)rWithViewController:(unsigned long long)arg1;
-- (void)codingName:(long long)arg1 baseURL: /* Error: Ran out of types for this method. */;
-- (double)editingActionSelector;
-- (id)ing;
-- (_Bool)ibExternalObjectsTables;
-- (id)roceedShouldReturnIfPossibleForASP;
-- (void)ingIteration:(struct CGRect)arg1;
-- (void)isScrubbing;
-- (double)sLock: /* Error: Ran out of types for this method. */;
-- (id)hDuration:(id)arg1 animations:(double)arg2;
-- (id)applyQueue;
-- (id)e;
-- (long long)scrollDelegate;
-- (id)oardStickerEditorViewController;
-- (void)þÿÿÿÿ¼;
-- (id);
-- (void)ÿÿÿÿ<;
-- (void)á°äå;
-- (id)ôg;
-- (void)property.;
-- (_Bool)preferredEdge = %ld;
-- (struct UIOffset)to add items into text menus is deprecated. Please implement the UITextInput API editMenuForTextRange:(long long)arg1 suggestedActions:instead. /* Error: Ran out of types for this method. */;
-- (void)he same identifier must have the same defaultValueRepresentsUnspecified value.;
-- (void)uþÿ;
-- (id)t method;
-- (void);
-- (void)DeviceRemoteHasMicrophoneDidChangeNotification;
-- (void)IT_SPELLING_CORRECT_SPELLING;
-- (void)onView internal inconsistency:(id)arg1 attempting to update attributes for a decoration view with an invalid section index. View:(unsigned long long)arg2 %@; view attributes:(long long)arg3 %@; collection view:%@; number of sections:%ld /* Error: Ran out of types for this method. */;
-- (id):(unsigned long long)arg1 %p; dimensions = %lu>;
-- (void)locity = %@; effectiveVelocity = %@; projectedPoint = %@; closestPoint = %@; constrainedPoint = %@; constrainedVelocity = %@>;
-- (id)d}}8;
-- (_Bool)asAnimationItems;
-- (void)oller internal inconsistency:(int)arg1 unexpected column (;
-- (void);
-- (void)å?ÙØØØØØØ?Ö?______ï?Ó?¤??q=
-×£pÝ?×£p=
-×ã?Á?;
-- (void);
-- (id);
-- (void)4Neþ;
-- (void);
-- (double);
-- (_Bool);
-- (void)'=[;
-- (void)BÍB\;
-- (id)µ\;
-- (void):ø\ /* Error: Ran out of types for this method. */;
-- (void)9];
-- (struct CGRect);
-- (void)^;
-- (long long)Oj^;
-- (void)Ìi}ÿvy;
-- (int)R;
 - (struct UIEdgeInsets);
-- (id)C;
+- (id)0@ù
+× ;
+- (double);
+- (void)@ù
+× ;
+- (_Bool)× ;
+- (id)Ô ;
+- (void)1Â0@ù
+× ;
+- (void)¡°!èCù1cð1Â0@ù
+× ;
 - (void);
-- (void)Ca;
-- (id)·Ó;
-- (void)ÝÚzöa;
-- (struct CGSize)_Ûù
-b;
-- (void)|¢ÿÀª;
-- (_Bool)Õb;
-- (long long);
-- (void)ô¨þò#ÏØ;
-- (void)FWc;
+- (double)Ô ;
 - (void);
-- (id)ÎþôÏØ#7d;
-- (void)¡Ód;
-- (void)rÿ;
-- (_Bool)ÿW¥Úzµe;
-- (struct UIEdgeInsets)q4;
+- (id)Qgð1Â0@ù
+× ;
+- (struct UIEdgeInsets)ction;
+- (void)TrackingUpdateInProgress:(struct CGRect)arg1;
+- (id)turnKeyAutomatically:(long long)arg1;
+- (long long)on;
+- (long long)neFragmentRectForGlyphAtIndex:effectiveRange:withoutAdditionalLayout: /* Error: Ran out of types for this method. */;
+- (long long)legibilityStrength: /* Error: Ran out of types for this method. */;
+- (id)ndicator;
+- (void)ons;
+- (void)form:(id)arg1 ,V_additionalRootLayerAffineTransform;
+- (void)T@?,R,C,N,V_predicate;
+- (id)&,N,G_customFontDesign,S_setCustomFontDesign:(id)arg1;
+- (id)te>",N,V_delegate;
+- (void) Y;
+- (void)ntent view. We're considering the collapse unintentional and using standard height instead. Cell:(Class)arg1 %@;
+- (struct CGSize);
+- (void)%p:(_Bool)arg1 Window scene transitioned from %@ to %@;
+- (void)ing:(struct UIOffset)arg1 %@;
+- (void)agedconfiguration.passcodechanged;
+- (void)ressGestureRecognizer.allowableMovement;
+- (void);
+- (Class)-ops. Update to view-based UIFeedbackGenerator methods.;
+- (_Bool)ormance.;
+- (void)CSDictionaryAssetGetCompatibilityVersion;
+- (void)ntrollerLastVisibleViewController;
+- (void)attempt to insert section %ld but there are only %ld sections after the update;
+- (void)__strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_3;
+- (_Bool)er"8;
+- (void)ew for search bar layout. The application must not remove %@ from the hierarchy.;
+- (void)of the UINavigationController's barHideOnSwipeGestureRecognizer;
+- (struct UIOffset)he maximum active value for a boundary is based on the target value and can not be changed;
+- (_Bool)ightUntransformedFrame;
+- (void)t size is not valid for layout calculations;
+- (void)£þÿdþÿ;
+- (void)So24_UIVisualEffectViewEntryC;
 - (id);
-- (void)cèÿ;
-- (void)g;
-- (_Bool)g;
-- (void)üÆoþ,Êog;
-- (_Bool)¦h;
-- (struct CGSize)Â;
-- (void)p3ÿn´;
-- (void)ÎÓºk;
-- (Class)9l;
+- (void)4¸;
+- (_Bool)cR0;
+- (id)¹ú23è²;
+- (void);
+- (void);
+- (double);
+- (id)ÿ½v9;
+- (void)¸°Ñ`;
+- (void)5;
+- (void)\ãþSz;
+- (_Bool)ý7;
+- (id)d ëÿ;
+- (void)ÇWËÌðd;
+- (void)NÛ;
+- (void);
+- (struct CGRect)¬;
+- (void)¨=jþÑËÈØf;
+- (void)Ôhëÿ2Pö;
+- (void)XØÿÏ.Fn;
+- (void)h;
+- (_Bool)>;
+- (_Bool)ô;
+- (void):(_Bool)arg1 j;
+- (void)ÿ¨×|fj;
+- (_Bool)`Ìj;
+- (long long)¼÷xþ8DÊ4Vk;
+- (void)W£ØD÷k;
+- (void);
+- (struct UIEdgeInsets)ÑLl;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAccessibilityBackgroundTintColor:) UIColor *_accessibilityBackgroundTintColor; // @synthesize _accessibilityBackgroundTintColor;

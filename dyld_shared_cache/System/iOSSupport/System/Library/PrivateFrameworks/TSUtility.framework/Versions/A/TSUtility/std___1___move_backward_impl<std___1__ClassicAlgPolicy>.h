@@ -4,5 +4,5 @@
 
 class std::__1::__move_backward_impl<std::__1::_ClassicAlgPolicy> {
 public: // (access info unavailable from symbols alone)
-    operator()[abi:ne200100]<std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*>(std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*) const;
+    std::__1::pair<std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*> operator()[abi:nqe210106]<std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*>(std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*, std::__1::shared_ptr<TSUStringChunk>*) const;
 };

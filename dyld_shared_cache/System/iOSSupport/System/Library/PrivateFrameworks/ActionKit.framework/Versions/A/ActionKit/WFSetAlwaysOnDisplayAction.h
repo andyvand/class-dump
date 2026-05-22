@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)block_invoke;
 
 // Remaining properties
 @property(retain, nonatomic) WFSettingsClientBookmark *stateBeforeRun; // @synthesize stateBeforeRun=_stateBeforeRun;

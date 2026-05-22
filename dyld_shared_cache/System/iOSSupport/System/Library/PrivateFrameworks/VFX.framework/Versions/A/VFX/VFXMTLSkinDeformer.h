@@ -26,7 +26,7 @@
 
 + (unsigned long long);
 + (unsigned long long);
-+ (unsigned long long)4;
++ (unsigned long long);
 - (unsigned long long);
 - (void);
 - (id);

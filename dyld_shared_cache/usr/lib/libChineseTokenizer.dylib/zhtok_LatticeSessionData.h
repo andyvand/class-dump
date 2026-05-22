@@ -5,12 +5,12 @@
 class zhtok::LatticeSessionData {
 public: // (access info unavailable from symbols alone)
     LatticeSessionData();
-    logStatistics();
-    makeHypothesis(zhtok::Word const*, double, zhtok::Hypothesis const*);
-    makeHypothesisSet();
-    makeLatticeWord(zhtok::Word::WordType, unsigned int, CFRange);
-    makeWord(zhtok::Word::WordType, unsigned int, CFRange);
-    reset();
-    resetSentinels();
+    auto logStatistics();
+    auto makeHypothesis(zhtok::Word const*, double, zhtok::Hypothesis const*);
+    auto makeHypothesisSet();
+    auto makeLatticeWord(zhtok::Word::WordType, unsigned int, CFRange);
+    auto makeWord(zhtok::Word::WordType, unsigned int, CFRange);
+    auto reset();
+    auto resetSentinels();
     ~LatticeSessionData();
 };

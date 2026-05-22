@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage;
+@class UIColor;
 @protocol UITableConstants;
 
 @protocol _UICollectionViewListDetailAccessoryView
-- (_Bool);
-- (void)Ð!ÈAù±Ã1¢!0@ù
+- (long long)1`1Â0@ù
 × ;
-- (void)n:(id <UITableConstants>)arg1;
-- (void (^)(void))eToSelectedRangeInDocument: /* Error: Ran out of types for this method. */;
-- (UIImage *)Td,N,V_averageVelocity;
-- (UIColor *)ngeHandler;
-- (id <UITableConstants>)SearchBarForTableView;
-- (void)`5;
-- (long long);
-- (void)14EnvironmentKeyP;
-- (void)lConfiguration_minimumScaleFactor;
+- (void (^)(void));
+- (void)0@ù
+× ;
+- (UIColor *)ew:dropInteraction:item:willAnimateDropWithAnimator: /* Error: Ran out of types for this method. */;
+- (id <UITableConstants>)onvertingFromSpace:toSpace: /* Error: Ran out of types for this method. */;
+- (void)",?,&,N;
+- (void);
+- (void);
+- (UIColor *)º\2;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryBackgroundColor;

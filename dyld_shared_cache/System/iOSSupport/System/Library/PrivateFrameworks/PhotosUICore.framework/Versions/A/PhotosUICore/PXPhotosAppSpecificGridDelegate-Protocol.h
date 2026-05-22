@@ -8,9 +8,6 @@
 
 @protocol PXPhotosAppSpecificGridDelegate
 
-@optional
-- (id <PXMemoryAssetsActionFactory>)gs;
-
 // Remaining properties
 @property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
 // Preceding property had unknown attributes: ?

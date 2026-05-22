@@ -5,7 +5,6 @@
 //
 
 @protocol MFCrossFadeParameters
-- (double)Ü5d7È7:H;t@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) double duration;

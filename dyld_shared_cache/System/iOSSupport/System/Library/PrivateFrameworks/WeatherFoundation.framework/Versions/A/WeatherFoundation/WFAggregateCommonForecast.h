@@ -24,9 +24,9 @@
 - (void);
 - (void);
 - (void);
-- (void)ɚ;
 - (void);
-- (void)6;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);

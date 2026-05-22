@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)d Recipient %@;
 + (_Bool);
-+ (id)runJavaScriptTextInputPanelWithPrompt:defaultText: /* Error: Ran out of types for this method. */;
-+ (id)$s10Foundation30DecodingConfigurationProvidingP;
-+ (long long)R>e;
++ (_Bool);
++ (id);
++ (id)itingAccessoryType;
++ (long long)ÀÌ¬½f;
 
 @end
 

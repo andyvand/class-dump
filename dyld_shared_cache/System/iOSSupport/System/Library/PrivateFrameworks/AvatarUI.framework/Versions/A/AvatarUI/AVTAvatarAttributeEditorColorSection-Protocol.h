@@ -7,7 +7,6 @@
 @class AVTAvatarColorVariationStore, NSArray;
 
 @protocol AVTAvatarAttributeEditorColorSection
-- (AVTAvatarColorVariationStore *);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool alwaysShowExtended;

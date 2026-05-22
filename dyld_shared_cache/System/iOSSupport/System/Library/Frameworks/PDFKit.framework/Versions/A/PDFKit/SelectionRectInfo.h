@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     long long type;
 }
 
-- (void)nscreenStrokes: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

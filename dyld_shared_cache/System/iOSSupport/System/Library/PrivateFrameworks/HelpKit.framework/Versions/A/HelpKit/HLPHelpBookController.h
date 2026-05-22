@@ -79,12 +79,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 

@@ -28,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)ndler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *bottomLink; // @synthesize bottomLink=_bottomLink;

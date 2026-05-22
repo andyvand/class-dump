@@ -16,7 +16,7 @@
 + (id);
 + (void);
 + (void);
-+ (id)H°;ùÒ;
++ (id);
 - (id);
 - (id);
 - (unsigned int);
@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)´i;
 
 @end
 

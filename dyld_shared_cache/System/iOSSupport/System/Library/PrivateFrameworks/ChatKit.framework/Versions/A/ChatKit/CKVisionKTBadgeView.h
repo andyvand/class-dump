@@ -12,14 +12,14 @@
     CKConversation *_conversation;
 }
 
-- (id)nts;
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void)}Si;
+- (void);
+- (id);
 - (void);
 
 // Remaining properties

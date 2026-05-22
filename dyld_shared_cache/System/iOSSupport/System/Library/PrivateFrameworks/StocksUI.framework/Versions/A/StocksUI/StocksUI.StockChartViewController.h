@@ -26,12 +26,12 @@
     MISSING_TYPE *errorView;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void)RúÿTRúÿxRúÿRúÿÐRúÿSúÿ0SúÿTSúÿSúÿÄSúÿèSúÿTúÿtTúÿ;
 
 @end
 

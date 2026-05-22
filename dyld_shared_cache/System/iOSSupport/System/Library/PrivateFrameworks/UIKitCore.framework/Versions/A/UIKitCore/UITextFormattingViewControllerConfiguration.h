@@ -24,7 +24,7 @@
 }
 
 + (id);
-+ (_Bool)ÿòl¤m;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -33,34 +33,34 @@
 - (void);
 - (void);
 - (void);
-- (id)eCoding:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)ionManagerC;
-- (_Bool)/FamilyCircle.framework/FamilyCircle;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool)g off a sync on power and wifi isSyncing %@ isUnderFirstUnlock %@ lastSyncDate %@ deviceConditionsAllowSync %@;
-- (_Bool)overable message record:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)* This was an initial fetch. Not writing messages *****;
-- (_Bool)first set of messages ***;
-- (_Bool)loading the data store %@;
-- (_Bool)mes - Failed to unarchive transitioned list %@;
-- (_Bool)ler;
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)ddEligible;
+- (_Bool)nging;
+- (void)purchaser:(id)arg1 eventMessage: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id)t"b1"interactionWasCancelled"b1"previousProgressWasNegativeOrZero"b1"currentState"b3"nextUpdateShouldTransitionToPreview"b1"nextPreviewShouldPreventHapticFeedback"b1};
-- (id)olor;
+- (void)ðÆ;ÿåxÚLoa;
+- (id)¼ºc;
 
 // Remaining properties
 @property(nonatomic) _Bool _allowContentToScroll; // @synthesize _allowContentToScroll=__allowContentToScroll;

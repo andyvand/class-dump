@@ -24,12 +24,12 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (void)SgGG# Gå	 G;
 
 @end
 

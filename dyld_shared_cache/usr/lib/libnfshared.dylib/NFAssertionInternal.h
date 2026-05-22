@@ -4,11 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface NFAssertionInternal
 {
-    NSString *_assertionTimeString;
     int _pid;
     unsigned long long _assertionType;
     NSDate *_assertionTime;
@@ -16,16 +15,17 @@
 
 + (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (id);
 - (int);
 - (id);
 - (id);
+- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (unsigned long long)erversWithKeyPath:routing: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly) NSDate *assertionTime; // @synthesize assertionTime=_assertionTime;

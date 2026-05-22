@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSString *_identifierPath;
 }
 
-+ (_Bool)À[ÿ(n;
++ (_Bool)s:Skipping call to didFail and willContinue for new activity since type is same as the activity we were already waiting for /* Error: Ran out of types for this method. */;
 - (void);
-- (void)d accessory;
 - (id);
-- (id)lculateIfNeeded;
-- (id)fset;
+- (id);
+- (void)referredAttachmentEdge:(id)arg1;
+- (id)Èþÿ;
 
 @end
 

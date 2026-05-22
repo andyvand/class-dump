@@ -8,10 +8,8 @@
 
 @interface NewsArticles.ContentPrefetchManager
 {
-    MISSING_TYPE *articlePrefetcher;
-    MISSING_TYPE *articleAudioPrewarmer;
-    MISSING_TYPE *recipePrefetcher;
-    MISSING_TYPE *tagPrefetcher;
+    MISSING_TYPE *unthrottledPrefetchManager;
+    MISSING_TYPE *throttleQueue;
 }
 
 @end

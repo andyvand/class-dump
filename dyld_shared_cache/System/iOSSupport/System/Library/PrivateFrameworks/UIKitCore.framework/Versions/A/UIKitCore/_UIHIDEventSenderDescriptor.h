@@ -13,21 +13,22 @@ __attribute__((visibility("hidden")))
     unsigned long long _senderID;
 }
 
-+ (id)f transfer GUID %@ at path %@ size %llu to watch;
++ (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)Token:(struct _NSZone *)arg1;
-- (id)0@ù
+- (unsigned int);
+- (void)1Â0@ù
 × ;
-- (id)faults;
-- (id);
-- (id)lightNearestRangeToSelectedRangeIfNecessary;
-- (id)ntainerInteraction;
-- (id)ÎvüÿDþÿ;
-- (unsigned long long)text> _Nonnull)_block_invoke;
-- (void)llection"@?>16@?<@"UITraitCollection<UIMutableTraitsInternal>"@?>24;
-- (unsigned int)÷\;
+- (id)A	°!Bùqe1Â0@ù
+× ;
+- (_Bool)ffset;
+- (unsigned long long)rameters: /* Error: Ran out of types for this method. */;
+- (id)eateRenderingBufferFromRect:padding:gamut: /* Error: Ran out of types for this method. */;
+- (id)e;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

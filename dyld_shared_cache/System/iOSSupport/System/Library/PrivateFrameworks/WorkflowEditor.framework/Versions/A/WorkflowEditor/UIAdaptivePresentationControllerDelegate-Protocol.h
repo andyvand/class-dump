@@ -5,5 +5,10 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool)!ÒtGGGGÍÒG;
+- (long long);
+- (void)_;
 @end
 

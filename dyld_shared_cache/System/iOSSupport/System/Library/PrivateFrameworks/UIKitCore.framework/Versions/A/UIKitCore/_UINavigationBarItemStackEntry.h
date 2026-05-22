@@ -17,29 +17,31 @@
 }
 
 + (id);
-+ (id)ô;
++ (id)ype:(id)arg1 inDirectory:(_Bool)arg2;
+- (_Bool);
+- (void);
 - (void);
 - (double);
 - (void);
 - (double);
-- (id)not init item;
-- (CDStruct_39925896);
 - (id);
-- (void)EndpointRoute;
+- (id);
 - (void);
-- (id)FùÑÄÐ1¢!0@ù
+- (id);
+- (void);
+- (id)°!8@ùZ°1Â0@ù
+× ;
+- (_Bool)0@ù
+× ;
+- (id)
 × ;
 - (id);
-- (_Bool)crollViews;
-- (_Bool)inatingFrame: /* Error: Ran out of types for this method. */;
-- (id)_backgroundConfigurationShadowType;
-- (void)actionDelegate>",R,N;
-- (id)refetchedCells;
-- (id)t;
-- (id)TouchTypes:,V_allowedTouchTypes /* Error: Ran out of types for this method. */;
-- (void)jectCache;
-- (void)llerAdaptiveImpl _presentationControllerWillBeginDismissalTransition:(_Bool)arg1 ];
-- (id);
+- (id)e;
+- (CDStruct_39925896)ha;
+- (id)lestUndimmedDetentIdentifierWhenFloating: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)ÿ!;
 
 // Remaining properties
 @property(readonly, nonatomic) _UITypedStorage *_typedStorage; // @synthesize _typedStorage;

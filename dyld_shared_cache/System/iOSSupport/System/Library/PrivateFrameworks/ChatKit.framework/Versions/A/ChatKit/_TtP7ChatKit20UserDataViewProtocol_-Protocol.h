@@ -7,7 +7,6 @@
 @protocol NSCopying;
 
 @protocol _TtP7ChatKit20UserDataViewProtocol_
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <NSCopying> userData;

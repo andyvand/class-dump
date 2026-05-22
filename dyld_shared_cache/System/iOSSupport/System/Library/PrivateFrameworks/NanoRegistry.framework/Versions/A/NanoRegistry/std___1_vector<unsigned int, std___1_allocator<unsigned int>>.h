@@ -4,6 +4,6 @@
 
 class std::__1::vector<unsigned int, std::__1::allocator<unsigned int>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
-    reserve(unsigned long);
+    auto __throw_length_error[abi:nqe210106]();
+    auto reserve(unsigned long);
 };

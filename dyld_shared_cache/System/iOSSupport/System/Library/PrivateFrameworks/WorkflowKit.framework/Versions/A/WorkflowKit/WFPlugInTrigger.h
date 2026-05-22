@@ -17,17 +17,17 @@
 + (id);
 + (id);
 + (id);
-+ (id)Internal.framework/Versions/A/GRDBInternal;
++ (id);
 + (_Bool);
-+ (id)%EÉ;
++ (id);
 + (id);
 + (id);
 + (id);
 + (long long);
 + (id);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool)Transcribes what you say aloud into text and passes the result to the next action.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

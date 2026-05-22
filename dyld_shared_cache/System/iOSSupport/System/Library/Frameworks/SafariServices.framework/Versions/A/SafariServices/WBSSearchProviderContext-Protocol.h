@@ -7,8 +7,6 @@
 @class NSDictionary, NSString;
 
 @protocol WBSSearchProviderContext
-- (_Bool);
-- (NSString *)tionStartTime;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *carrierTemplateParameterValues;

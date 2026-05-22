@@ -29,10 +29,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)llowed;
-- (id)ÿ
-;
+- (void)TargetedDragPreview"40@0:(id)arg1 8@"UIDropInteraction"16@"UIDragItem"24@"UITargetedDragPreview"32;
+- (void)Type;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

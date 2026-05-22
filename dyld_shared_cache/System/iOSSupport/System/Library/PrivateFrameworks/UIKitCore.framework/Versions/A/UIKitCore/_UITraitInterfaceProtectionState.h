@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool)t sync date %@ was not in last 7 days;
 + (_Bool);
-+ (id)onnectionPropertiesForResource:dataSource: /* Error: Ran out of types for this method. */;
-+ (id)14IntelligenceUIO15PromptEntryViewC8DelegateP;
-+ (long long)°½ÔþNÞØ:Ke /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (id);
++ (id)ipeStatePerformingAction;
++ (long long)ÏÊg;
 
 @end
 

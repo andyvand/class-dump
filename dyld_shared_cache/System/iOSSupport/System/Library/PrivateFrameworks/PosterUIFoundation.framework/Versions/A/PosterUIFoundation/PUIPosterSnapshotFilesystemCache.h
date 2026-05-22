@@ -45,14 +45,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void)IStylePickerSelectionChange"8;
-- (id)destination failed to be created to Data.;
+- (void);
+- (id)edHeight;
+- (id)<§;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;

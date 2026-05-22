@@ -21,9 +21,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)Action:eventValue:feedbackType: /* Error: Ran out of types for this method. */;
 
 @end
 

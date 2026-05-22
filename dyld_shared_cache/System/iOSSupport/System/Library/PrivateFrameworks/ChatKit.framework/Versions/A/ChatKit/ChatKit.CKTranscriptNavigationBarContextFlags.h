@@ -14,13 +14,13 @@
 }
 
 - (_Bool);
-- (void) %;
-- (void)to generate it:(_Bool)arg1 %@;
-- (void)per sketch image:(_Bool)arg1 %@ => %g %g;
-- (void)nerate System Paper image for attachment %@;
-- (void)that we could not create a text attachment for:(_Bool)arg1 %@ at %@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);

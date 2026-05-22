@@ -14,14 +14,14 @@
     MISSING_TYPE *connection;
 }
 
-- (id);
-- (void);
-- (void);
-- (void)U;
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void)C;
 
 // Remaining properties
 @property(nonatomic) __weak id <IMSPICollaborationMessageListenerDelegate> delegate; // @synthesize delegate;

@@ -12,20 +12,20 @@
     unsigned long long _byteOffset;
 }
 
-+ (id)èëüíhîïXðñèñ;
-+ (_Bool)ionState;
++ (id);
++ (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id)tionContainer;
-- (id)f length %lu using encrypted data context %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

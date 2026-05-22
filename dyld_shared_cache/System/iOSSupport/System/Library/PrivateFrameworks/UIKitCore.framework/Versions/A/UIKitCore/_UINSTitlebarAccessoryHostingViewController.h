@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)Highlighters;
+- (void)7v;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *hostedUIView; // @synthesize hostedUIView=_hostedUIView;

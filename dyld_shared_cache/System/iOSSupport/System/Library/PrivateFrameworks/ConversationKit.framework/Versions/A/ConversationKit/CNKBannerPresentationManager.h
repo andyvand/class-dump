@@ -46,11 +46,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (unsigned long long);
+- (id);
+- (void)So9UIControlCSg;
 
 // Remaining properties
 @property(nonatomic, readonly) TUCall *activeCall;

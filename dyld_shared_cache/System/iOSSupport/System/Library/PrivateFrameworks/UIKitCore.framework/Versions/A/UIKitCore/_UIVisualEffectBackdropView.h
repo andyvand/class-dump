@@ -13,23 +13,23 @@
     _UIVisualEffectViewBackdropCaptureGroup *_captureGroup;
 }
 
-+ (Class)Ô)+8,;
-- (_Bool);
++ (Class);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)QÇð1¢!0@ù
+- (_Bool)1Â0@ù
 × ;
-- (void)ù1Î°1¢!0@ù
+- (void)f°1Â0@ù
 × ;
-- (void)0@ù
-× ;
-- (id)viousCompleteHandler;
-- (_Bool)ssion beginning session with ID:%@, but current session has ID:%@ /* Error: Ran out of types for this method. */;
-- (long long);
-- (id)napshotsByGroup;
+- (long long)"16@"NSData"24;
+- (id)nsitionDidEnd:popoverIdentifier: /* Error: Ran out of types for this method. */;
+- (id)rsFor: /* Error: Ran out of types for this method. */;
+- (void)faceActionRepresentationViewContext_AppleTV;
+- (void)sLabels:(id)arg1 [%@]
+	edgesLabels:[%@] /* Error: Ran out of types for this method. */;
+- (void)¯+¾7y±+¾7GIegn_;
+- (void);
+- (_Bool)`;
 
 // Remaining properties
 @property(readonly, nonatomic) CABackdropLayer *backdropLayer;

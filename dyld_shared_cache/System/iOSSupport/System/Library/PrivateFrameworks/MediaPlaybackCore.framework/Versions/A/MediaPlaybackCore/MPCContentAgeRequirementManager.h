@@ -16,27 +16,27 @@ __attribute__((visibility("hidden")))
     ICAgeVerificationState *_lastKnownAgeVerificationState;
 }
 
-+ (id)?;
-- (void)v32@0:(id)arg1 8@"NSUUID"16@?<v@?B>24;
-- (void):(id)arg1;
++ (id);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (long long)[%{public}@] There's no corresponding iTunes account. We can ignore this change.;
-- (id)S account changed.;
-- (void)lic}@] The account is a duplicate. existingAccount = %{public}@;
-- (_Bool)Reporting empty username;
-- (void)n unknown error occurred;
-- (id)countChangeTypeAdded;
+- (long long);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (id)B;
-- (void);
+- (void)ut reason [No audio tap setup possible] - item:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSError *authorizationError; // @synthesize authorizationError=_authorizationError;

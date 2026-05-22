@@ -11,10 +11,10 @@
     MISSING_TYPE *model;
 }
 
-- (id)cScoresOutputName;
-- (void);
 - (id);
 - (void);
+- (id);
+- (void),_ýÿ_ýÿ;
 
 @end
 

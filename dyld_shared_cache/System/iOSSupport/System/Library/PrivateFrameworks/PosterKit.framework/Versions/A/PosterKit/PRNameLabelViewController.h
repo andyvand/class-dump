@@ -41,16 +41,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)0@ù
 × ;
-- (void);";
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *baseFont; // @synthesize baseFont=_baseFont;

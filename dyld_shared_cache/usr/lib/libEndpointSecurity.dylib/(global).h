@@ -4,14 +4,11 @@
 
 // Global C++ functions
 
-_updateClientMuteState(es_client_s*, es_mute_path_type_t, char const*, std::__1::unique_ptr<spar::Iterator<es_event_type_t>, std::__1::default_delete<spar::Iterator<es_event_type_t>>>&&, bool, bool);
-createMutePathData(es_muted_path_t*, es_mute_path_type_t, spar::Slice<unsigned char> const&, spar::BitSet<151ul> const&);
-isSystemExtensionPath(char const*);
-mailboxAddr(es_client_s*);
-msg_contains_new_nullable_field(es_client_s*, es_message_t const*);
-operator delete(void*);
-operator delete(void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
+auto _updateClientMuteState(es_client_s*, es_mute_path_type_t, char const*, std::__1::unique_ptr<spar::Iterator<es_event_type_t>, std::__1::default_delete<spar::Iterator<es_event_type_t>>>&&, bool, bool);
+auto createMutePathData(es_muted_path_t*, es_mute_path_type_t, spar::Slice<unsigned char> const&, spar::BitSet<157ul> const&);
+auto isSystemExtensionPath(char const*);
+auto mailboxAddr(es_client_s*);
+auto msg_contains_new_nullable_field(es_client_s*, es_message_t const*);
 typeinfo for spar::BBReader<ESMessageReaderConfig>;
 typeinfo for spar::Iterator<es_event_type_t>;
 typeinfo for spar::MachReceiveWrapper;
@@ -35,6 +32,9 @@ typeinfo name for spar::RefCountedFinalSubclass<spar::MachReceiveWrapper>;
 typeinfo name for spar::RefCountedFinalSubclass<spar::TypedMessageQueueReceiver<ESMessageReaderConfig>>;
 typeinfo name for spar::SliceIterator<es_event_type_t>;
 typeinfo name for spar::TypedMessageQueueReceiver<ESMessageReaderConfig>;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
+void operator delete(void*, std::__type_descriptor_t);
 vtable for __cxxabiv1::__class_type_info;
 vtable for __cxxabiv1::__si_class_type_info;
 vtable for spar::BBReader<ESMessageReaderConfig>;

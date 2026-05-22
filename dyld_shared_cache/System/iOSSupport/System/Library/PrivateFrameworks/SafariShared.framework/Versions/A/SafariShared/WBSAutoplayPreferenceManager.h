@@ -17,19 +17,19 @@
 
 - (id);
 - (void);
-- (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)UP;
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSPerSitePreference *autoplayPreference; // @synthesize autoplayPreference=_autoplayPreference;

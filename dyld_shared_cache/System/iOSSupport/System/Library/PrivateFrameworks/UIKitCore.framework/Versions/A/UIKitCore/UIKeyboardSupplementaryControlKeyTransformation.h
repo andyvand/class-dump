@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (void)s;
 + (void);
 + (void);
 + (void);
 + (void);
-+ (id);
-+ (struct CGSize)ur handled map, add to pending;
-+ (id);
 + (void);
 + (id);
-+ (id);
++ (struct CGSize);
++ (id);
++ (void);
++ (id);
++ (id);
 + (id);
 + (id);
 + (double);
@@ -33,7 +33,7 @@ __attribute__((visibility("hidden")))
 + (double);
 + (double);
 + (id);
-+ (double)P;
++ (double);
 + (double);
 
 // Remaining properties

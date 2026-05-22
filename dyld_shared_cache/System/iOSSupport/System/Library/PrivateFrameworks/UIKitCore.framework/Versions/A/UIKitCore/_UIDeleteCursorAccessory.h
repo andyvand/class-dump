@@ -12,10 +12,16 @@
 
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
 - (id);
-- (id)äã;
+- (unsigned long long);
+- (void)hlighted;
+- (id),
+Ñ\L
+Ñ¼\
+Ñd7 
+ÑÀJÜ
+Ñôsô
+Ñ;
 
 @end
 

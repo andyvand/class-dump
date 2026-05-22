@@ -26,84 +26,87 @@ __attribute__((visibility("hidden")))
     long long _distribution;
 }
 
-+ (Class);
++ (Class)´k;
+- (_Bool);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (double);
+- (void);
+- (_Bool);
+- (long long);
+- (double);
 - (id);
+- (double);
+- (void);
+- (void);
 - (long long);
 - (id);
-- (double);
-- (void);
 - (void);
-- (double);
-- (id)iagnosticSubmissionEnabled;
+- (long long);
 - (void);
-- (void)N,V_tableRow;
 - (void);
-- (id);
-- (void)item_setup_chunk_references_still_outstanding;
+- (void);
 - (_Bool);
-- (id)ces: /* Error: Ran out of types for this method. */;
-- (void)r %p> Setting privateListening for accessory. userID=%{private}@ routID=%{public}@ enabled=%{BOOL}u;
-- (id)pID;
-- (_Bool)ChildAlbumArtists;
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)× ;
-- (_Bool)0@ù
+- (id)Ð!DGùq\Ð1Â0@ù
 × ;
-- (long long)!¨BùÈ1¢!0@ù
+- (void)°1Â0@ù
 × ;
-- (void)Éð1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (void);
-- (void)rol>";
-- (void)e"Q"edgePositionsUseLargeValues"B"referenceEdgePositionsByRow"^v"referenceEdgePositionsByCol"^v};
-- (void)@"_UIPresentationControllerVisualStyle";
-- (double)e:(unsigned long long)arg1 frame: /* Error: Ran out of types for this method. */;
-- (void)esStrictTargetContentOffsetAdjustmentBehavior;
-- (_Bool)ex: /* Error: Ran out of types for this method. */;
-- (void)Space:(double)arg1;
-- (id)me:topPaletteFrame:topLayoutType: /* Error: Ran out of types for this method. */;
-- (_Bool)ion:delay:options:completion: /* Error: Ran out of types for this method. */;
-- (long long)veBarMetrics;
-- (void)ferring;
-- (void)Insets=dddd},N,G_insetsForBoundarySeparators,S_setInsetsForBoundarySeparators:(id)arg1 ,V_insetsForBoundarySeparators;
-- (void)>Ø@(A¤PS¨UäW8[ô\x^´aðbhh¬lthv<zdz;
-- (double)1;
-- (id)ide-by-side combination;
-- (void)¯þÿÜ¯þÿü°þÿ$±þÿL±þÿd±þÿ|±þÿ±þÿ¼±þÿ²þÿ$³þÿp³þÿ ³þÿÈ³þÿh´þÿ´þÿ°´þÿÈ´þÿµþÿµþÿl¶þÿ´¶þÿ·þÿH·þÿ·þÿ8ºþÿXºþÿpºþÿ°ºþÿÈºþÿ0¼þÿH¼þÿt¼þÿ¼þÿ;
-- (void);
-- (long long)thing to Paste;
-- (id)neSettings<_UISceneZoomTransitionSettings>"8;
-- (_Bool)dd}}24@0:8@16 /* Error: Ran out of types for this method. */;
-- (void);
-- (void)¡°÷;
-- (id)Q];
-- (void)>µ\;
-- (void)ÿ·ÆÓ'b;
-- (void)ÒÈ];
-- (void)ÿ;
-- (void)ÿJ¯;
-- (void)^;
-- (void)ürÿÚðO^;
-- (_Bool)öàþ;
-- (void)ÿ(³;
-- (_Bool)êÇ°é^;
+- (_Bool)¡Ð!°Eù`ð1Â0@ù
+× ;
+- (id)
+× ;
+- (void)Qgð1Â0@ù
+× ;
+- (void)nListener"16@"BSServiceConnection<BSServiceConnectionHost>"24@"<BSXPCDecoding>"32;
+- (id)iewFeedbackLoopDebugger";
+- (id)extSpellingIndicatorColor;
 - (_Bool);
-- (void)«þ^;
+- (void)Began: /* Error: Ran out of types for this method. */;
+- (double)y:(unsigned long long)arg1;
+- (long long)ertAtRange:animations:completion: /* Error: Ran out of types for this method. */;
+- (void)estinationNavigationItem:(id)arg1 sourceNavigationItem: /* Error: Ran out of types for this method. */;
+- (id)onConfiguration;
+- (_Bool)dSessionIfNecessary;
+- (void)ctiveSelection;
+- (void)aceStyle;
+- (_Bool)@?,C,N,V_didTimeOut;
+- (id)Ôí;
+- (_Bool),ç;
+- (void)ÜqÐsu|uväwy;
+- (void)¸q´r;
+- (double)üÐ(e;
+- (void)Ü`;
+- (void)iew controller's view is in a window without the view controller being properly added to the hierarchy. viewController=%@; window=%@;
+- (_Bool)not properly establish the bidirectional parent-child relationship; use the -addChildViewController:and -removeFromParentViewController APIs to manage view controller containment. Make a symbolic breakpoint at -[UIViewController setParentViewController:] to catch this in the debugger. Child:%@; Parent:%@ /* Error: Ran out of types for this method. */;
+- (void)îÿd{þÿ;
+- (void)yph;
+- (void)onState;
+- (long long)for class %@, since class does not conform to _UIVisualStyleStylable.;
+- (unsigned long long)ecomeHiddenNotification;
+- (void)ication" to the list of your supported UIBackgroundModes in your Info.plist.;
+- (id)@;
+- (void)Evaluation;
+- (void)createRegionFromRect:(id)arg1 targetView:(unsigned long long)arg2 identifier:selected:to create regions /* Error: Ran out of types for this method. */;
+- (void)ct with the visible bounds %@. Please file a bug against UICollectionView.;
+- (void)lectionPreferredSizes.m;
+- (void)ustomized_isEnabled;
+- (_Bool);
+- (id);
 - (void);
-- (long long)ÿâ;
-- (_Bool)ß_;
-- (unsigned long long)_;
-- (id)É}ÿ;
-- (void)#`;
-- (_Bool)`;
-- (id)mQÿ;
-- (double)Î`;
-- (void)`;
+- (void)ô¾;
+- (id)E];
+- (id)^;
+- (void)q;
 
 // Remaining properties
 @property(nonatomic, setter=_setItemFittingSizeChanged:) _Bool _itemFittingSizeChanged; // @synthesize _itemFittingSizeChanged;

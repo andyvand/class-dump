@@ -29,10 +29,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)Ô!&ð!ôDù01b0@ù
-× ;
+- (id);
+- (void)Tapped();
 
 @end
 

@@ -4,8 +4,7 @@
 
 class PropertyList::String {
 public: // (access info unavailable from symbols alone)
-    String(lsl::Allocator&, std::__1::basic_string_view<char, std::__1::char_traits<char>>);
-    deallocate();
-    emit(unsigned char, ByteStream&);
-    emitUnicode(unsigned char, unsigned long long, ByteStream&) const;
+    String(PropertyList&, std::__1::basic_string_view<char, std::__1::char_traits<char>>);
+    auto emit(unsigned char, ByteStream&);
+    auto emitUnicode(unsigned char, unsigned long long, ByteStream&) const;
 };

@@ -9,9 +9,9 @@
     double _height;
 }
 
+- (struct CGRect);
 - (double);
 - (void);
-- (struct CGRect);
 
 // Remaining properties
 @property(nonatomic) double height; // @synthesize height=_height;

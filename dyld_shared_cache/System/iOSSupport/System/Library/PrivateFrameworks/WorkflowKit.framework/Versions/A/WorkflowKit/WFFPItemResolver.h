@@ -22,12 +22,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (CDUnknownBlockType);
+- (id);
+- (void)s;
+- (void)s};
+- (id)dcar;
 - (void);
-- (void)AO;
-- (void)h;
-- (id)tent]];
 
 // Remaining properties
 @property(retain, nonatomic) FPItemCollection *collection; // @synthesize collection=_collection;

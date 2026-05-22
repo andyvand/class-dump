@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)stantViewEdgeConstraints;
-- (void)ß`;
+- (void)th;
+- (_Bool);
 
 @end
 

@@ -17,8 +17,8 @@
     MISSING_TYPE *$__lazy_storage_$_routeDelegate;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

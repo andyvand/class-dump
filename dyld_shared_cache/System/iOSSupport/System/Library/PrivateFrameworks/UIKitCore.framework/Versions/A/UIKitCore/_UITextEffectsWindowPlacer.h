@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
-- (id);
 - (id);
-- (void);
+- (id);
+- (void)'¿7_G;
 
 // Remaining properties
 @property(readonly) __weak UITextEffectsWindow *owningWindow; // @synthesize owningWindow=_owningWindow;

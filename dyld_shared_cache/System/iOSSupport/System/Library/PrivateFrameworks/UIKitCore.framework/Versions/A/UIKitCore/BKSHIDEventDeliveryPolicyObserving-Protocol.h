@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BKSHIDEventDeliveryPolicyObserver;
+
 @protocol BKSHIDEventDeliveryPolicyObserving
+
+@optional
+- (void)ancestorDefinesTintAdjustmentMode,S_setAncestorDefinesTintAdjustmentMode:(BKSHIDEventDeliveryPolicyObserver *)arg1;
 @end
 

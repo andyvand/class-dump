@@ -16,14 +16,14 @@
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)ðòô8ù;
 
 // Remaining properties
 @property(retain, nonatomic) CHPrefixQueryItem *coreHandwritingPrefixQueryItem; // @synthesize coreHandwritingPrefixQueryItem=_coreHandwritingPrefixQueryItem;

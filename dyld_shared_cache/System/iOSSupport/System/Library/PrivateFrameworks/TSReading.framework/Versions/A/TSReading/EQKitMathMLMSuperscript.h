@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id)(;
+- (id);
 - (struct Schemata);
 - (_Bool);
 

@@ -13,10 +13,10 @@
 - (void);
 - (void);
 - (void);
-- (void)hHighlightLabel;
 - (unsigned long long);
-- (void)4;
-- (void)PUPosterLoadingView;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setTouchCount:) unsigned long long _touchCount; // @synthesize _touchCount=__touchCount;

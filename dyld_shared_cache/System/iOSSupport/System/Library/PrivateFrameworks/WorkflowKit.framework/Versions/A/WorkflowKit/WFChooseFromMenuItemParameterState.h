@@ -25,11 +25,11 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id)ons.properties.itunesartist;
+- (void)Gets the most recent screenshots from the photo library.;
+- (id)_;
+- (id)Cbâ;
 
 // Remaining properties
 @property(readonly, nonatomic) WFVariableString *subtitle; // @synthesize subtitle=_subtitle;

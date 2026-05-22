@@ -4,6 +4,6 @@
 
 class std::__1::basic_istream<char, std::__1::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    get();
-    putback(char);
+    auto get();
+    auto putback(char);
 };

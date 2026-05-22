@@ -16,11 +16,11 @@
 }
 
 - (void);
-- (void)�;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void)SportsManagementTitleViewStylerType;
 
 @end
 

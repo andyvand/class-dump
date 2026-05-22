@@ -14,9 +14,9 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)d configuration set to skip reprocessing trip segment data.;
 
 // Remaining properties
 @property(readonly, nonatomic) SMMessage *message; // @synthesize message=_message;

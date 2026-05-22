@@ -12,18 +12,18 @@
 }
 
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (void)`;
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)L;
+- (void)version;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -18,8 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (struct CGPoint);
 - (id);
+- (struct CGPoint)Ø!´Eù#1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint parallaxOffset; // @synthesize parallaxOffset=_parallaxOffset;

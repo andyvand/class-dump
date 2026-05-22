@@ -23,12 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
+- (void)rTarget;
+- (id)ÈÔ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXGComponentDataStore *dataStore;

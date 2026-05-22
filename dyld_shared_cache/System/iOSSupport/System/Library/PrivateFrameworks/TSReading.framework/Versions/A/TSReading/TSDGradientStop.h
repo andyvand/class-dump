@@ -18,22 +18,22 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (double)�;
+- (double);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (id);
+- (unsigned long long);
+- (id);
 - (double);
-- (id)@;
+- (id);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) TSUColor *color; // @synthesize color=mColor;

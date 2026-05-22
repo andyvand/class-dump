@@ -27,8 +27,8 @@ __attribute__((visibility("hidden")))
     long long cachedContinuousSizeDisplayDirection;
 }
 
-- (id);
-- (void)ect<PKTiledViewDelegate>",W,N,V_delegate;
+- (id);
+- (void);
 
 @end
 

@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)th success:%d and error:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id)"NSDate";
-- (void)rizedLocationVisitLogFetchOptions;
 
 // Remaining properties
 @property(retain, nonatomic) RTVisit *lastLowConfidenceVisitIncident; // @synthesize lastLowConfidenceVisitIncident=_lastLowConfidenceVisitIncident;

@@ -23,10 +23,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *defaultProxyURL; // @synthesize defaultProxyURL=_defaultProxyURL;

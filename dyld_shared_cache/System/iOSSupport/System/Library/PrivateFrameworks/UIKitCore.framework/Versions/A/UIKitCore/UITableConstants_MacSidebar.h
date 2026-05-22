@@ -15,38 +15,38 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_memoizedTintFilterGenerators;
 }
 
-+ (id);
++ (id)rackDodgeView;
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
 - (int);
-- (id)erDelegate>",W,V_delegate;
-- (id)@"<IMDAutoReplyDelegate>",W,N;
-- (struct UIEdgeInsets)dateTime;
-- (double)oChangedNotification;
-- (double)eTimer;
-- (_Bool)geTimer;
-- (long long)ssageTime:(_Bool)arg1;
-- (double)Unformatted;
-- (_Bool)tring",&,N,V_originalGroupID;
-- (double)WithReplicationSourceID:(_Bool)arg1;
-- (double)unt:(_Bool)arg1 inviteDroppedForSessionID:(id)arg2 fromID:context:error: /* Error: Ran out of types for this method. */;
-- (double)bject<OS_dispatch_queue>",R,N,V_mappingChatsToHighlightsQueue;
-- (id)@"NSObject<OS_dispatch_queue>",R,N,V_ckQueue;
-- (id)bject<OS_dispatch_queue>",R,N;
-- (id)Timestamp;
-- (struct UIEdgeInsets)ntroller;
-- (Class)hState:(long long)arg1 reason: /* Error: Ran out of types for this method. */;
-- (id),V_subscriptionCreatedOverride;
-- (double)ictionary",R,C;
-- (double)ystemMessage;
-- (struct _UITableConstantsBackgroundProperties),C,N,V_changedParticipants;
-- (double)te",&,N,V_messageTime;
-- (CDStruct_1c347ee2)ckMonitorListener;
-- (id)ge for message[%@];
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (double);
+- (double);
+- (_Bool);
+- (long long);
+- (double);
+- (_Bool);
+- (double);
+- (double);
+- (double);
+- (id);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (Class);
+- (id);
+- (double);
 - (double);
 - (struct _UITableConstantsBackgroundProperties);
-- (void);
+- (double);
+- (CDStruct_1c347ee2);
+- (id);
+- (double);
+- (struct _UITableConstantsBackgroundProperties)rerIdentifier;
+- (void)\×@bi;
 
 @end
 

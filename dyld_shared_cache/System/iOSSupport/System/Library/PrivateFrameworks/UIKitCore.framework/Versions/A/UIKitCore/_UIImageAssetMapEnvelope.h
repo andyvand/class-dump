@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     NSString *_assetName;
 }
 
-+ (id)Ú$ÿg;
-- (id));
++ (id);
 - (void);
-- (void)xPath:(id)arg1 viewType:endRect:endAlpha:startFraction:endFraction:curve:animateFromCurrentPosition:shouldDeleteAfterAnimation:editing: /* Error: Ran out of types for this method. */;
-- (id)ewDelegate;
-- (id)6a;
-- (void)"b;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)ðb;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetName; // @synthesize assetName=_assetName;

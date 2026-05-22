@@ -12,7 +12,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id)e:fromNexus: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

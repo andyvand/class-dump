@@ -33,15 +33,15 @@
 - (id);
 - (void);
 - (_Bool);
-- (CDStruct_2c43369c);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
+- (CDStruct_2c43369c);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) CDStruct_2c43369c coordinates; // @synthesize coordinates=_coordinates;

@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (id)rHelper;
+- (id);
+- (_Bool);
+- (void)t %lld;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isValid;

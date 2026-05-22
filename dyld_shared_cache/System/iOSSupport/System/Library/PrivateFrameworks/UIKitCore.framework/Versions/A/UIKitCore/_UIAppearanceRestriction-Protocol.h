@@ -5,6 +5,5 @@
 //
 
 @protocol _UIAppearanceRestriction
-+ (_Bool);
 @end
 

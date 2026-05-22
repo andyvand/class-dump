@@ -14,13 +14,13 @@
     UIAction *_action;
 }
 
-- (id)notice:(id)arg1 %p;
-- (id)hareURL %@ for message %@ with state %@ (%lu);
-- (id)leURLKey;
 - (id);
-- (void);
-- (id)Cé^;
-- (unsigned long long)Ûþ;
+- (id);
+- (id);
+- (id);
+- (id)UIContentUnavailableWrapperView.m;
+- (void);
+- (unsigned long long)ÿ}`Õ?n;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _attributes; // @synthesize _attributes;

@@ -5,8 +5,5 @@
 //
 
 @protocol AVPlayerViewControllerDelegatePrivate
-
-@optional
-- (void);
 @end
 

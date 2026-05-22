@@ -13,10 +13,10 @@
     MISSING_TYPE *lastRenderedBounds;
 }
 
+- (id);
 - (void);
 - (id);
-- (void)ort;
-- (id)ßßÂyxG8FeedPoolVÕÂQzSgAJXEA2BXEtc;
+- (void);
 
 @end
 

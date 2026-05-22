@@ -4,22 +4,22 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
-    __grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*);
-    __init(char const*, unsigned long);
-    append(char const*);
-    append(char const*, unsigned long);
-    append(unsigned long, char);
-    assign(char const*);
-    assign(char const*, unsigned long);
+    auto __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
+    auto __grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*);
+    auto __init(char const*, unsigned long);
+    auto append(char const*);
+    auto append(char const*, unsigned long);
+    auto append(unsigned long, char);
+    auto assign(char const*);
+    auto assign(char const*, unsigned long);
+    auto erase(unsigned long, unsigned long);
+    auto find(char const*, unsigned long, unsigned long) const;
+    auto insert(unsigned long, char const*, unsigned long);
+    auto operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    auto push_back(char);
+    auto replace(unsigned long, unsigned long, char const*, unsigned long);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, char);
     basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long, unsigned long, std::__1::allocator<char> const&);
-    erase(unsigned long, unsigned long);
-    find(char const*, unsigned long, unsigned long) const;
-    insert(unsigned long, char const*, unsigned long);
-    operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
-    push_back(char);
-    replace(unsigned long, unsigned long, char const*, unsigned long);
-    reserve(unsigned long);
-    resize(unsigned long, char);
     ~basic_string();
 };

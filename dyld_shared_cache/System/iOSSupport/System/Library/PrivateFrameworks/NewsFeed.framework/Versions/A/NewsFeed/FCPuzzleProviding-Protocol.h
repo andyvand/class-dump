@@ -8,17 +8,15 @@
 @protocol FCPuzzleTypeProviding;
 
 @protocol FCPuzzleProviding
-- (NSString *)k!;
-- (NSArray *);
-- (NSArray *)£È¤;
-- (NSString *);
-- (long long)³êÿ<³êÿ`³êÿ³êÿ´³êÿØ³êÿ´êÿ8´êÿ\´êÿ´êÿ¼´êÿà´êÿ,µêÿ|µêÿµêÿ¬µêÿÐµêÿôµêÿ@·êÿL·êÿX·êÿd·êÿp·êÿ|·êÿ·êÿ·êÿ ·êÿ¬·êÿ¸·êÿÄ·êÿÐ·êÿÜ·êÿè·êÿô·êÿ;
-- (NSDate *)successfully fetched feed pool, elapsed time=%fms;
-- (NSString *)package;
-- (NSArray *)ickname;
-- (void)½þù½þ;
-- (_Bool)raceChildrenView;
-- (_Bool)¡øÑÆÌz;
+- (NSString *)rKey:immediately: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (NSArray *)!;
+- (NSDate *)`;
+- (NSArray *)ìlöÿ;
+- (NSString *);
+- (void);
+- (NSDate *)bEmbedNodeBinding;
+- (_Bool)@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allowedStorefrontIDs;

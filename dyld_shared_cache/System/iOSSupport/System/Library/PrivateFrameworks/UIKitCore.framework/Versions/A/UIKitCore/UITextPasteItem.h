@@ -27,19 +27,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)SMSFilterCapabilitiesOptions:(id)arg1;
-- (_Bool)ciationForActivitySession: /* Error: Ran out of types for this method. */;
-- (id)ContactsChangeNotifier",&,N,V_acceptedContactsChangeNotifier;
-- (id)processNotice:(id)arg1;
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)nt;
-- (void)en:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)View"16@?0@"UIZoomTransitionSourceViewProviderContext"8;
-- (id)eÊÚëg;
+- (id);
+- (id);
+- (void)tivate:(id)arg1 constraintsToDeactivate: /* Error: Ran out of types for this method. */;
+- (id)°;
+- (id);
+- (void)M;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPasteCoordinator *coordinator; // @synthesize coordinator=_coordinator;

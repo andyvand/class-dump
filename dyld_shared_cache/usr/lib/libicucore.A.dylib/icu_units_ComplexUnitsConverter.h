@@ -7,8 +7,8 @@ public: // (access info unavailable from symbols alone)
     ComplexUnitsConverter(icu::MeasureUnitImpl const&, icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
     ComplexUnitsConverter(icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
     ComplexUnitsConverter(icu::StringPiece, icu::StringPiece, UErrorCode&);
-    applyRounder(icu::MaybeStackArray<long long, 5>&, double&, icu::number::impl::RoundingImpl*, UErrorCode&) const;
-    convert(double, icu::number::impl::RoundingImpl*, UErrorCode&) const;
-    greaterThanOrEqual(double, double) const;
-    init(icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
+    auto applyRounder(icu::MaybeStackArray<long long, 5>&, double&, icu::number::impl::RoundingImpl*, UErrorCode&) const;
+    auto convert(double, icu::number::impl::RoundingImpl*, UErrorCode&) const;
+    auto greaterThanOrEqual(double, double) const;
+    auto init(icu::MeasureUnitImpl const&, icu::units::ConversionRates const&, UErrorCode&);
 };

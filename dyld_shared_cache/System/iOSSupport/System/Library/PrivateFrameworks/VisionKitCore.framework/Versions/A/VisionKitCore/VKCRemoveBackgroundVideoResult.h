@@ -22,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
 - (struct CGSize);
 - (id);
-- (id);
-- (void)nKeyAutomatically;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *animatedStickerScore; // @synthesize animatedStickerScore=_animatedStickerScore;

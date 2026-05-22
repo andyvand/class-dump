@@ -57,12 +57,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)thday;
+- (id);
+- (void)Bounds;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNLSApplicationWorkspace> applicationWorkspace; // @synthesize applicationWorkspace=_applicationWorkspace;

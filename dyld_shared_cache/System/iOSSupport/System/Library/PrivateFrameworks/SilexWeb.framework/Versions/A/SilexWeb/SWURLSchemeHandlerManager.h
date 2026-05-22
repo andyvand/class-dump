@@ -24,10 +24,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ment;
 - (void);
 - (id);
-- (id);
+- (void);
+- (id)uest";
 
 // Remaining properties
 @property(readonly, nonatomic) __weak WKWebViewConfiguration *configuration; // @synthesize configuration=_configuration;

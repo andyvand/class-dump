@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (double)erMap;
+- (double);
 - (id);
 - (_Bool);
-- (id)TA_DIRTY;
-- (void)ý/º;
-- (long long)ew: /* Error: Ran out of types for this method. */;
-- (long long)¢Øg;
+- (void),ðÅÿV=;
+- (long long)e;
+- (long long):0 /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

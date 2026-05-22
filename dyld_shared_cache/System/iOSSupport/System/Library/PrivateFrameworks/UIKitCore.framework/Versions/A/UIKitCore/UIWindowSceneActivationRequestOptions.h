@@ -20,25 +20,25 @@
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id)ionCenter!;
-- (_Bool)bled because network is ultra constrained;
-- (_Bool)elivery of %@, found existing item %@;
-- (_Bool)agePipelineComponent> Allowing instant delivery of %@, found existing item %@;
-- (_Bool)ipDeferral is set;
-- (_Bool)counts, good to go;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
-- (id)`;
-- (void);
-- (id)rectionIgnoringCaseAndDiacriticsAndSupplementalItemPrefix;
-- (void);
-- (id)¬ãÇÿ;
+- (id);
+- (id)tionInfo;
+- (void)°8_;
+- (void)"ÿ;
+- (id)T0d;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _effectivelyWantsBackground;

@@ -13,17 +13,17 @@
     MPArtworkGradientInfo *_gradient;
 }
 
-+ (_Bool)onHandler:canceled data task [expectedEntrySize > memoryCapacity] dataTask=%{public}@ URL=%{public}@ expectedEntrySize=%lld memoryCapacity=%lu /* Error: Ran out of types for this method. */;
-- (id)32;
-- (id)b1"starting"b1};
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
-- (id)+;
 - (id);
-- (void);
-- (id)ionMethod:error: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)tingArtworkCatalogsWithCount: /* Error: Ran out of types for this method. */;
+- (void)roller>",R,N;
 
 // Remaining properties
 @property(readonly, nonatomic) MPArtworkGradientInfo *gradient; // @synthesize gradient=_gradient;

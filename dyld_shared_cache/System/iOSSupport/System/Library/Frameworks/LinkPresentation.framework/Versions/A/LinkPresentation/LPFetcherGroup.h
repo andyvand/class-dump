@@ -29,10 +29,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)ct;
-- (void);
 - (unsigned int);
 - (void);
+- (void);
+- (void)qð1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int loggingID; // @synthesize loggingID=_loggingID;

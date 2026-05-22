@@ -22,9 +22,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (struct CGColorSpace *);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,9 +15,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (struct CGSize);
+- (id);
+- (void);
 
 @end
 

@@ -17,9 +17,9 @@
     NSUUID *_pdfSelectionUUID;
 }
 
-+ (id)velUpdater"16f24f28;
-+ (id)@"SRUIFSpeechRequestHandler"16;
-+ (id)SpeechRequestHandler"16;
++ (id);
++ (id);
++ (id);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -46,25 +46,25 @@
 - (id);
 - (id);
 - (_Bool);
-- (struct __CFArray *)t";
-- (id)e=dd}24@0:8d16 /* Error: Ran out of types for this method. */;
-- (struct CGPDFSelection *)@?@"NSArray"@"NSError">24;
-- (id)g>"24@"<CRKIdentifiedProviding>"32;
-- (id)g>"24;
-- (id)nd"16@"NSViewController<CRKCardViewControlling>"24;
-- (void)SharedUIViewControlling>"16@"NSViewController"24;
-- (void)lling>"16@"NSString"24@?<v@?>32;
-- (void)=}24;
-- (void)__CFDictionary=}16;
-- (void)B>24;
-- (void)16@"NSViewController"24@?<v@?B>32;
-- (void)r";
+- (struct __CFArray *);
+- (id);
+- (struct CGPDFSelection *);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct _NSRange);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
 - (struct CGPoint);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -76,17 +76,17 @@
 - (void);
 - (id);
 - (id);
-- (id)reviewURL:(struct _NSZone *)arg1;
 - (void);
-- (void)cheduledSaveSettingsTriggered;
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (long long);
-- (id);
-- (id);
 - (void);
-- (_Bool);
 - (id);
 
 // Remaining properties

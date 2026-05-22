@@ -16,14 +16,14 @@
     _Bool _queue_isEffectivelyLockedAuthentic;
 }
 
-+ (id)roller.;
++ (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 
 @end
 

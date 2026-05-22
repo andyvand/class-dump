@@ -12,18 +12,18 @@
     NSArray *_questionAnswerPairs;
 }
 
-+ (_Bool)ndexPath: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *questionAnswerPairs; // @synthesize questionAnswerPairs=_questionAnswerPairs;

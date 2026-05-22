@@ -13,7 +13,7 @@
     MISSING_TYPE *queue;
 }
 
-- (void)܋;
+- (void);
 
 @end
 

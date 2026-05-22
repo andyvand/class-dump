@@ -13,8 +13,8 @@
     MISSING_TYPE *symbol;
 }
 
-- (void);
 - (id);
+- (void)dateAccessoryView;
 
 @end
 

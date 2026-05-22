@@ -21,8 +21,8 @@
 - (id);
 - (long long);
 - (id);
-- (long long);
 - (unsigned long long);
+- (long long)¾ÿÿL¾ÿÿ°¾ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;

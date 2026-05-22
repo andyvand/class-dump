@@ -41,19 +41,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)0@0:(long long)arg1 8@16@24@32;
-- (id)risPlayerChange: /* Error: Ran out of types for this method. */;
-- (void)nt;
-- (void)¤¹ 9:(id)arg1 15;
-- (void)XæûÿYþ+;
+- (void);
+- (void);
+- (void)erView";
+- (void)er;
+- (id)hedViewSizeTransitionContextSize:,V__cachedViewSizeTransitionContextSize /* Error: Ran out of types for this method. */;
+- (void);
+- (void)¯I;
 
 // Remaining properties
 @property(readonly, nonatomic) PUPickerConfiguration *configuration; // @synthesize configuration=_configuration;

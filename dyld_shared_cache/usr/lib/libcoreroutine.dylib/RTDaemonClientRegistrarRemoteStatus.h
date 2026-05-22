@@ -26,13 +26,14 @@
 - (id);
 - (void);
 - (id);
-- (void)?y;
 - (void);
-- (id)dUpDate: /* Error: Ran out of types for this method. */;
-- (id)sionedDataclasses;
-- (void)PlayNotificationForNotificationType:(id)arg1 sessionManagerState:handler: /* Error: Ran out of types for this method. */;
-- (void)s:(id)arg1 %@;
-- (_Bool)ô>;
+- (id);
+- (id);
+- (void)!ØDùQA,°1Â0@ù
+× ;
+- (void);
+- (void)ot adding LOI;
+- (_Bool)NC;
 
 // Remaining properties
 @property(nonatomic) __weak id <RTDaemonClientRegistrarRemoteStatusProtocol> delegate; // @synthesize delegate=_delegate;

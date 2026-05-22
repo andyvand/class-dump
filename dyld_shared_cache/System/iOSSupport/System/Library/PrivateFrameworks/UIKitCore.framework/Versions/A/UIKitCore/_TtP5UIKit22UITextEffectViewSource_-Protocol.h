@@ -5,8 +5,5 @@
 //
 
 @protocol _TtP5UIKit22UITextEffectViewSource_
-
-@optional
-- (void);
 @end
 

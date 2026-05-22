@@ -35,7 +35,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct CGPath *);
 - (struct CGRect);
 - (void);
@@ -51,9 +51,9 @@
 - (_Bool);
 - (int);
 - (int);
-- (int);
 - (int);
 - (int);
+- (int);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
 - (struct CGAffineTransform);
@@ -72,12 +72,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)s;
-- (void);
-- (void)2(;
 - (void);
 - (void);
-- (id)";
+- (void);
+- (void);
+- (void);
+- (id);
 - (struct CGRect);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -94,7 +94,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)!ɚ;
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -104,8 +104,8 @@
 - (id);
 - (_Bool);
 - (void);
+- (_Bool);
 - (id);
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isInInstantAlphaMode) _Bool inInstantAlphaMode; // @synthesize inInstantAlphaMode=mInInstantAlphaMode;

@@ -44,15 +44,15 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (unsigned long long);
+- (void)cation(void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allNotebooks; // @synthesize allNotebooks=_allNotebooks;

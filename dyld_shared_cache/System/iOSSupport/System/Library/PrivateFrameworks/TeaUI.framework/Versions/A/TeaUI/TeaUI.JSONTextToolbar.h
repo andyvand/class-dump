@@ -11,10 +11,10 @@
     MISSING_TYPE *toolbar;
 }
 
+- (id);
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     LPTextViewStyle *_characterLimitIndicatorStyle;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -26,11 +26,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)QÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) LPTextViewStyle *characterLimitIndicatorStyle; // @synthesize characterLimitIndicatorStyle=_characterLimitIndicatorStyle;

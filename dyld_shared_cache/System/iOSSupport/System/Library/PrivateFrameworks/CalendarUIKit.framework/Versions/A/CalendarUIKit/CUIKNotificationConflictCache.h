@@ -14,13 +14,13 @@
     EKEventStore *_store;
 }
 
-+ (id)O¢ ìóòÿìóòÿ6ô;
++ (id)on: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void));
 - (id);
+- (void)stViewedDate: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -44,12 +44,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (void)NSMutableSet"16^B24;
+- (void);
+- (void)!HFù	°1â
+0@ù
+× ;
+- (void)ntEditingDelegate:(id)arg1;
 
 // Remaining properties
 @property(readonly) id <PBFPosterExtensionDataStorage> dataStorage; // @synthesize dataStorage=_dataStorage;

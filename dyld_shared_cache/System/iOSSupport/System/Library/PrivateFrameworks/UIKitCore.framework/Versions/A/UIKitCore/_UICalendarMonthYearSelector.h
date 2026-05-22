@@ -21,18 +21,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)ering;
-- (void)d;
-- (void)DeadlineSeconds;
-- (id)SendWithoutEncryption: /* Error: Ran out of types for this method. */;
-- (void)NSMutableDictionary",R,N,V_trackedRecords;
-- (void)sion:(id)arg1 %@;
-- (void)error %@;
-- (void);
-- (void);
-- (id)te"8@?<v@?@"UIKeyboardTaskExecutionContext">16^B24;
-- (void)ectionTintColor;
-- (void)ÍÜþ¾ï;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UICalendarDataModel *dataModel; // @synthesize dataModel=_dataModel;

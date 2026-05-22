@@ -5,13 +5,13 @@
 class icu::StringEnumeration {
 public: // (access info unavailable from symbols alone)
     StringEnumeration();
-    clone() const;
-    ensureCharsCapacity(int, UErrorCode&);
-    next(int*, UErrorCode&);
-    operator!=(icu::StringEnumeration const&) const;
-    operator==(icu::StringEnumeration const&) const;
-    setChars(char const*, int, UErrorCode&);
-    snext(UErrorCode&);
-    unext(int*, UErrorCode&);
+    auto clone() const;
+    auto ensureCharsCapacity(int, UErrorCode&);
+    auto next(int*, UErrorCode&);
+    auto operator!=(icu::StringEnumeration const&) const;
+    auto operator==(icu::StringEnumeration const&) const;
+    auto setChars(char const*, int, UErrorCode&);
+    auto snext(UErrorCode&);
+    auto unext(int*, UErrorCode&);
     ~StringEnumeration();
 };

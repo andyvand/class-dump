@@ -15,19 +15,19 @@
     NSOrderedSet *_layers;
 }
 
-+ (id)þÿ*ÿ²;
++ (id);
 - (id);
 - (id);
 - (struct CGAffineTransform);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
 - (struct CGImage *);
-- (_Bool);
-- (_Bool);
-- (id)thTransitionContext: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *CGImage;

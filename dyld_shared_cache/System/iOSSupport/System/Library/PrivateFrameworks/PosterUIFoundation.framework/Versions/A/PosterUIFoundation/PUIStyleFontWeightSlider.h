@@ -11,10 +11,10 @@
     _PUIFontWeightSliderTrackView *_trackView;
 }
 
-- (void);
+- (id);
 - (void);
 - (struct CGRect);
-- (id);
+- (void);
 
 @end
 

@@ -11,28 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool)lingTitle;
-- (long long);
-- (_Bool)GM;
-- (unsigned long long);
++ (id)äyÿ_8z;
 - (_Bool);
 - (long long);
-- (_Bool)wnloading container %@ does not have a status;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)er;
 - (_Bool);
-- (_Bool)actionSocialProfile;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -40,45 +27,62 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool)vº;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (long long);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (_Bool);
 - (_Bool)0@ù
 × ;
-- (_Bool)!DAù1Å1¢!0@ù
+- (_Bool)ð! DùqZð1Â0@ù
 × ;
 - (_Bool);
-- (_Bool)pletion: /* Error: Ran out of types for this method. */;
-- (_Bool)stringByPaddingToLength:withString:startingAtIndex: /* Error: Ran out of types for this method. */;
-- (_Bool)gCornerRadii: /* Error: Ran out of types for this method. */;
-- (_Bool)eCornerRadius;
-- (long long)hColorWell: /* Error: Ran out of types for this method. */;
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)ù_ð1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)Q`ð1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)0@ù
+× ;
+- (_Bool)× ;
+- (_Bool);
 - (long long);
-- (_Bool)dDockItemButtonPress:buttonType:buttonSize:touchDown:touchUp:touchDuration:inputSource:inputType:uiInterfaceOrientation: /* Error: Ran out of types for this method. */;
-- (long long)ntainsDate: /* Error: Ran out of types for this method. */;
-- (_Bool)teView;
-- (_Bool);
-- (_Bool)ChangedDiscontinuouslyOnChange;
-- (long long)ackView",&,N,V_contentsView;
-- (_Bool)Driven;
-- (long long)lableContentPaddingIncludingContentWithCollapsedAffinity: /* Error: Ran out of types for this method. */;
-- (_Bool)ogressIndicator;
-- (_Bool)EmojiGraphicsTraits;
-- (long long);
-- (_Bool)+ø+;
-- (_Bool)s;
-- (_Bool);
-- (long long)the first view it is loaded into.;
-- (_Bool)ðþÿÿLÃçÿ\®Qþ;
-- (_Bool)*QûÿZþÿ;
-- (_Bool);
-- (unsigned long long)bilityHint;
-- (long long)?B>16;
-- (_Bool)nib (%@) does not match the element kind used to register the nib (%@);
-- (_Bool)IKitCSo6UIView22HybridPropertyAnimatorP33_951652591F802488C3A1E19FBAD6684F8Keyframe;
-- (_Bool)rideCornerRadii;
-- (_Bool)eworks/StickerKit.framework/StickerKit;
-- (_Bool)ûï?;
-- (_Bool);
+- (long long)"all"@"NSMutableArray""html"@"NSMutableArray""javascript"@"NSMutableArray""css"@"NSMutableArray""error"@"NSMutableArray""warning"@"NSMutableArray""tip"@"NSMutableArray""log"@"NSMutableArray"};
+- (long long)Configuration"24@"<UIEditMenuInteractionAnimating>"32;
+- (long long)Adjustment"b1"hasCustomized_overallWritingDirectionFollowsLayoutDirection"b1"hasCustomized_supportMultilineShrinkToFit"b1"hasCustomized_disabledTextColor"b1};
+- (_Bool)nts:(id)arg1;
+- (long long)Required: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ideSystemWithPreference: /* Error: Ran out of types for this method. */;
+- (long long)eractionTypes: /* Error: Ran out of types for this method. */;
+- (_Bool)grammarAlternativesForString: /* Error: Ran out of types for this method. */;
+- (_Bool)thAnimationCoordinator:animated: /* Error: Ran out of types for this method. */;
+- (_Bool)tle;
+- (_Bool)dedSetOverrideSettings:(id)arg1;
+- (_Bool),R,VanimationProgress;
+- (_Bool)on;
+- (_Bool)N,V_animationMode;
+- (_Bool)ncelled:withEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)|FDGðG;
+- (unsigned long long)ior in double-column UISVC;
+- (_Bool)internal inconsistency:(id)arg1 UICollectionView %@ asked layout to prepare for update %@ without computing deleted sections;
+- (_Bool)Ìîÿ;
+- (_Bool)in navigation controller. Split view controller:(id)arg1 %@;
+- (_Bool)øÊ;
+- (unsigned long long)tSTQZ;
+- (long long)tatisticsC;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -8,7 +8,6 @@
 @protocol NSCollectionLayoutContainer;
 
 @protocol NSCollectionLayoutEnvironment
-- (UITraitCollection *)OS_dispatch_groupC;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCollectionLayoutContainer> container;

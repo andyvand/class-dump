@@ -14,15 +14,15 @@
     UITextInputTraits *_textInputTraits;
 }
 
-- (void)@"NSArray",&,N,V_replicatedFallbackGUIDs;
-- (void)stKitManager;
-- (void)rver;
 - (void);
-- (id)teraction;
-- (id)¸\;
-- (void)@; index path:(id)arg1 %@; cell:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)®j;
-- (_Bool)ÙÕÐj;
+- (void);
+- (id);
+- (void);
+- (id)ontrollerTransitionContext"24;
+- (void);
+- (void)¥×Dg;
+- (_Bool)ä¶¼ÿÝ¡ØLÅj;
+- (_Bool)$ïFÿÚGm;
 
 // Remaining properties
 @property(nonatomic) _Bool isAutoShifted; // @synthesize isAutoShifted=_isAutoShifted;

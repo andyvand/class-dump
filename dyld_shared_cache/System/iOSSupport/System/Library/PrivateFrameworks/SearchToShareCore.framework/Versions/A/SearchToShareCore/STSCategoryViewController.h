@@ -39,21 +39,21 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (long long);
 - (void);
+- (void);
+- (id);
 - (struct UIEdgeInsets);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 

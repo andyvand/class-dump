@@ -16,15 +16,14 @@
 }
 
 - (void);
-- (_Bool);
-- (id)etHidesRouteLabelWhenNoRouteChoice:(struct _NSZone *)arg1;
-- (void);
-- (void)× ;
 - (id);
-- (id)rSizeChange:withVisibleHeight:pinningEdge:toValue: /* Error: Ran out of types for this method. */;
-- (id)ISceneHosting-%@;
-- (_Bool)P¸ÿýbÐ
-Û^;
+- (_Bool)@0:(id)arg1 8q16@"UINavigationItem"24;
+- (id)nfiguration;
+- (id),V_originalModifiers;
+- (void)ion in -commitPreviewViewController:(_Bool)arg1 committedViewController:on UIViewControllerPreviewingDelegate. /* Error: Ran out of types for this method. */;
+- (id)ionAmount;
+- (void)eType;
+- (_Bool)ªD;
 
 // Remaining properties
 @property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;

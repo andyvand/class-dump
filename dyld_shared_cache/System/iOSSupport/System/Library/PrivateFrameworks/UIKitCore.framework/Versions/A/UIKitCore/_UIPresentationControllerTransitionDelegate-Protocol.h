@@ -5,9 +5,5 @@
 //
 
 @protocol _UIPresentationControllerTransitionDelegate
-- (void)e;
-- (void)iption;
-- (void)t;
-- (void)tState;
 @end
 

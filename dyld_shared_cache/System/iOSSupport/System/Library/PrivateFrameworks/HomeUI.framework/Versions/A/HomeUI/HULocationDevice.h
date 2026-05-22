@@ -17,13 +17,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool)yG;
+- (void)ssoryFirmwareUpdateOnboardingValue_DontSetup);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCurrentDevice) _Bool currentDevice; // @synthesize currentDevice=_currentDevice;

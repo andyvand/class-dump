@@ -5,7 +5,6 @@
 //
 
 @protocol APPCPromotableDesiredPlacement
-- (long long)aryKey;
 
 // Remaining properties
 @property(nonatomic, readonly) long long count;

@@ -14,20 +14,20 @@
 }
 
 + (id);
-+ (void)ST;
++ (void);
 + (id);
-+ (id),dÚÿ¥F7;
-- (id)h;
++ (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
+- (_Bool);
+- (unsigned int);
 - (void);
+- (id);
 - (_Bool);
 - (void);
-- (_Bool)f;
-- (void)asonCode;
-- (unsigned int)0j;
-- (id)esultCG;
+- (void)I;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *listeners; // @synthesize listeners=_listeners;

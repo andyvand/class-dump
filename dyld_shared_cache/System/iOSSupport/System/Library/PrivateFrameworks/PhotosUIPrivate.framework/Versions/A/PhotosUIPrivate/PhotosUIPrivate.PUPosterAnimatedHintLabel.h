@@ -26,9 +26,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long hintLabelKind; // @synthesize hintLabelKind;

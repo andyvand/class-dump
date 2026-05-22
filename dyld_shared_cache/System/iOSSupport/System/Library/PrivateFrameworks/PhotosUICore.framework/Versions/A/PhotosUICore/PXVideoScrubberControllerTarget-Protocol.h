@@ -4,12 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem;
-
 @protocol PXVideoScrubberControllerTarget
-- (float)0@ù
-× ;
-- (AVPlayerItem *)assetViewFactory;
+- (float)ÿP®`;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType durationChangeHandler;

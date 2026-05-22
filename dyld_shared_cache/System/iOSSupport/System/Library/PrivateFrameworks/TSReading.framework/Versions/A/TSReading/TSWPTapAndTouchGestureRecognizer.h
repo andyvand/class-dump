@@ -12,14 +12,14 @@
     unsigned long long _numberOfTapsRequired;
 }
 
-- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)Q\yZ\G;
+- (void)ovider;
 
 // Remaining properties
 @property(retain, nonatomic) id <TSDGestureTarget> cachedGestureTarget; // @dynamic cachedGestureTarget;

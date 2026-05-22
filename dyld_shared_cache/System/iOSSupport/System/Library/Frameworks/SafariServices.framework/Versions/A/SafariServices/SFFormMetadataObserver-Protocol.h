@@ -5,7 +5,5 @@
 //
 
 @protocol SFFormMetadataObserver
-- (void);
-- (void)S;
 @end
 

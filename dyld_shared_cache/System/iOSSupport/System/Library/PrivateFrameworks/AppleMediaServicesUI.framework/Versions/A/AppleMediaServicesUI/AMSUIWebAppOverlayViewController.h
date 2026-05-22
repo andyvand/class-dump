@@ -20,12 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id)Ð!,Fù1ð1B50@ù
+× ;
+- (void)elativeTabBarController;
 
 @end
 

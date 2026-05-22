@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (id);
+- (void)e;
+- (id)L¢;
 
 @end
 

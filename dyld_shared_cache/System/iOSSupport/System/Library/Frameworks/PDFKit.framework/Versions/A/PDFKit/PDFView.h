@@ -26,8 +26,8 @@
 }
 
 + (_Bool);
-+ (void)lling>"16@"<CRKCardSectionViewProviderManaging>"24;
-+ (void)uckAudioFromTimer;
++ (void);
++ (void);
 + (void);
 
 // Remaining properties

@@ -14,10 +14,10 @@
 
 - (void);
 - (id);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (id)"24;
+- (id)r frame visibility to %d;
 
 // Remaining properties
 @property(retain, nonatomic) AVAssetImageGenerator *imageGenerator; // @synthesize imageGenerator=_imageGenerator;

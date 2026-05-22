@@ -5,6 +5,5 @@
 //
 
 @protocol APPCCarouselMetricsHelping
-- (void)ewsUI2.TagFeedViewerDataManager;
 @end
 

@@ -84,20 +84,20 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool addToLockScreenWhenUnlocked; // @synthesize addToLockScreenWhenUnlocked=_addToLockScreenWhenLocked;

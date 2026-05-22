@@ -16,16 +16,15 @@ __attribute__((visibility("hidden")))
     long long _idiom;
 }
 
-- (void)idToHandlesMap;
+- (void);
 - (_Bool);
 - (void);
-- (void)!AùqÈ1¢!0@ù
-× ;
-- (id)ognition;
-- (id)rvalRelevant=%u;
-- (void)cene's view controller.;
 - (id);
-- (long long)¤Viþ;
+- (void);
+- (long long)TapAction;
+- (id)at;
+- (void)reHostingKeyboardTrackingElement;
+- (id)¢;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

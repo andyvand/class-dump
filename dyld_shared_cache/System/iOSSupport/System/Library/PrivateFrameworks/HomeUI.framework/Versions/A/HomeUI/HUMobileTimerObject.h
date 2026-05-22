@@ -19,13 +19,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
-- (long long);
 - (id);
-- (id);
-- (id)¤` p¨;
+- (long long)1â
+0@ù
+× ;
+- (void)iaAccessoryAudioSettings;
 
 // Remaining properties
 @property(readonly, nonatomic) MTAlarm *alarm; // @synthesize alarm=_alarm;

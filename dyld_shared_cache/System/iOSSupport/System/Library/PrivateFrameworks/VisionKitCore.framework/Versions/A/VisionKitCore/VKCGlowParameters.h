@@ -31,8 +31,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (unsigned long long);
-- (void)@"MTLSamplerDescriptor"16;
-- (double)TextSelectionLength;
+- (void);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double blurRadius; // @synthesize blurRadius=_blurRadius;

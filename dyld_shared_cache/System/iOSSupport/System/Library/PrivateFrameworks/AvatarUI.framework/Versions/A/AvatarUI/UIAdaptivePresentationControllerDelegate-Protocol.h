@@ -7,9 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void);
-- (void)Lite9FieldTypeE9ELSF_9ELi0EEE;
-- (void);
-- (long long)abledForMaintenance;
+- (_Bool)lastContentOffset;
+- (long long)rGenerator;
+- (void)airClassification;
 @end
 

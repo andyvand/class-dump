@@ -5,10 +5,7 @@
 //
 
 @protocol MFPlayerConfigurable
-- (void)Daemon.framework/Versions/A/AccountsDaemon;
-- (void)%s, waitingTime:(long long)arg1 %llums);
-- (void);
-- (_Bool)-load-error;
+- (_Bool)edSessionParticipant;
 
 // Remaining properties
 @property(nonatomic) _Bool isMuted;

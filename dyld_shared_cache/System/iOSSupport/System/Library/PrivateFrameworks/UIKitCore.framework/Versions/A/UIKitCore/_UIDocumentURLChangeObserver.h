@@ -16,16 +16,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
-- (void)@"NSPointerArray"16@0:(CDUnknownBlockType)arg1 8;
-- (_Bool)bleCells;
-- (CDUnknownBlockType)Q,N,V_orientation;
-- (void)j;
-- (id)þ
-a;
-- (id)t¯a;
-- (id)Õ;
+- (void)panGestureRecognizer;
+- (CDUnknownBlockType)internalQueue;
+- (id)t allowed to be unspecified. This is a serious application bug and will cause undefined behavior. This issue may be caused by your class overriding the traitCollection property getter, which is not supported. Make sure to use the appropriate API if you are trying to override traits. Trait Environment:(id)arg1 %@; Trait Collection:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler=_changeHandler;

@@ -13,25 +13,22 @@
     NSMutableDictionary *_animatorScreenLinks;
 }
 
-+ (void);
-+ (void)
-× ;
-+ (id)oWidth: /* Error: Ran out of types for this method. */;
++ (void)rentView:referenceTextView:presentedFromRect:textHighlightColor: /* Error: Ran out of types for this method. */;
++ (void)eContact: /* Error: Ran out of types for this method. */;
++ (id)03y/3yw¿7yy¿7GcG;
 - (_Bool);
 - (void);
 - (void);
-- (void)ingControllerAvailableRoutesDidChange:(id)arg1;
 - (void);
 - (void);
-- (void)¢þ¹;
-- (void)1¢!0@ù
-× ;
-- (void)ùÅ°1¢!0@ù
-× ;
-- (void)0:(id)arg1 8@"UIStatusBarServer"16B24q28;
-- (id)nProvider,S_setContentViewConfigurationProvider: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)aÉÏ)l;
+- (id);
+- (void);
+- (void)leConstantsCellProviding>"16@"<UITableConstantsTableProviding>"24;
+- (void)LoadingProperties";
+- (void)stureRecognizer:(id)arg1;
+- (void)ire background assertion %@;
+- (void)e;
+- (void)àª¡ÿ;
 
 @end
 

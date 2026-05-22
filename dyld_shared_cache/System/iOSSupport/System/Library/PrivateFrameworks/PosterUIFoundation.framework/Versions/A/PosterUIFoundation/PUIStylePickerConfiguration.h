@@ -34,23 +34,23 @@
 - (id);
 - (id);
 - (void);
+- (struct NSDirectionalEdgeInsets);
 - (id);
 - (double);
-- (double);
+- (id);
 - (void);
+- (id);
+- (double);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (struct NSDirectionalEdgeInsets);
 - (void);
-- (id);
 - (void);
-- (void)ating _PUIPosterSnapshotCapture...;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) PUIStylePickerComponents *components; // @synthesize components=_components;

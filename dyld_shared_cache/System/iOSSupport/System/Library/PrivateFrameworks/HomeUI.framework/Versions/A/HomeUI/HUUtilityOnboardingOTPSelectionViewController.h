@@ -6,13 +6,13 @@
 
 #import <HomeUI/HUItemTableOBWelcomeController.h>
 
-@class HFItem, HUUtilityOnboardingOTPSelectionTableViewController, NSString, OBTrayButton, _TtC6HomeUI24UtilityOnboardingContext;
-@protocol HUConfigurationViewControllerDelegate;
+@class HFItem, HUUtilityOnboardingOTPSelectionTableViewController, NSString, OBTrayButton;
+@protocol HUConfigurationViewControllerDelegate, _TtP6HomeUI31UtilityOnboardingObjCCompatible_;
 
 @interface HUUtilityOnboardingOTPSelectionViewController : HUItemTableOBWelcomeController
 {
     id <HUConfigurationViewControllerDelegate> _delegate;
-    _TtC6HomeUI24UtilityOnboardingContext *_context;
+    id <_TtP6HomeUI31UtilityOnboardingObjCCompatible_> _context;
     HUUtilityOnboardingOTPSelectionTableViewController *_tableView;
     OBTrayButton *_continueButton;
     HFItem *_selectedOTPMethod;
@@ -29,21 +29,19 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (id);
-- (void)
-× ;
-- (id)Q11b0@ù
-× ;
-- (void)rController";
-- (void)temProvider:(id)arg1;
 - (void);
-- (id)tGGAWGSg_A50_A50_tGA35_G_A34_yApAyA46_AWGA35_GtGG_A34_yA35_AAyA1_yAPGAWGA35_GACyAAyA1_yAYyA3_yAP_A12_#èxyA35_A35_GSgtGGGAWGA66_GSgtGGA12_t;
-- (id)HUPersonalRequestsSetup_MessagesBulletText_HEY_SIRI;
-- (void)roller;
+- (void);
+- (void)omeAppButton;
+- (id)ager:(id)arg1 home:initialPinCodeValue: /* Error: Ran out of types for this method. */;
+- (void)teScrollViewContentSize> maintaining content size (%f, %f);
+- (void)ersonalRequestsEditorItemManager.m;
+- (id);
 
 // Remaining properties
-@property(retain, nonatomic) _TtC6HomeUI24UtilityOnboardingContext *context; // @synthesize context=_context;
+@property(retain, nonatomic) id <_TtP6HomeUI31UtilityOnboardingObjCCompatible_> context; // @synthesize context=_context;
 @property(retain, nonatomic) OBTrayButton *continueButton; // @synthesize continueButton=_continueButton;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

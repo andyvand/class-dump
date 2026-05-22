@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
-
 @protocol UICollectionViewDelegate
 
 @optional
-- (NSIndexPath *)!lGù|Ð1b0@ù
+- (_Bool)
 × ;
-- (NSIndexPath *);
-- (_Bool)1b0@ù
-× ;
-- (void)Name;
-- (_Bool);
-- (NSIndexPath *)9¿½;
+- (_Bool)oken"8Q16^B24;
 @end
 

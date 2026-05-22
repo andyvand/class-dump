@@ -32,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void)#;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,27 +41,26 @@
 - (id);
 - (id);
 - (id);
-- (void):updatedWithResponseCode:error:lastCall:messageContext: /* Error: Ran out of types for this method. */;
-- (void)Default:(id)arg1;
-- (id):(id)arg1;
-- (id)okupChatUsingParentChatID:service: /* Error: Ran out of types for this method. */;
-- (_Bool)gPacket:toID:account: /* Error: Ran out of types for this method. */;
-- (id)ityInformation:(id)arg1;
-- (id)@"NSDate",&,N,V_expirationDate;
+- (void);
+- (void);
 - (id);
-- (long long)lled;
-- (long long)d;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (void);
 - (void);
 - (id);
-- (id)lToNumber:(void *)arg1;
 - (id);
-- (void)1;
-- (id)Ôanð!LAùÀ1¢!0@ù
-× ;
-- (id)_searchFieldIsBeginningEditing;
+- (id);
+- (id);
+- (id)udeAngle;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long _actualChangeCount;

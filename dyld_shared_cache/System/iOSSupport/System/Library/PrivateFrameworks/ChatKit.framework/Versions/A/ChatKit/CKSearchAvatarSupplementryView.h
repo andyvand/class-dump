@@ -15,26 +15,27 @@
     struct UIEdgeInsets marginInsets;
 }
 
-+ (id){;
++ (id);
 + (double);
 + (double);
 + (id);
-- (void)eason;
-- (void)InSource;
-- (void)ICPaperStyle;
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (struct UIEdgeInsets);
-- (id)apple.notes.NotesImporter;
-- (void)nge.length;
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)aSource;
-- (id);
-- (void)Èø<¤	;
-- (void)¬;
-- (id)w-;
+- (id);
+- (id);
+- (void)
+× ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CKSpotlightQueryResult *associatedResult; // @synthesize associatedResult=_associatedResult;

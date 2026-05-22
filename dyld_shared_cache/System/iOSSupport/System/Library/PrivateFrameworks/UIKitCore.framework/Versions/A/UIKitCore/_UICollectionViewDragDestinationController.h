@@ -20,78 +20,80 @@ __attribute__((visibility("hidden")))
     unsigned long long _dropSuspensionCount;
 }
 
-+ (id)talResourceOptions:(id)arg1;
++ (id)Ä·þ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
+- (id);
 - (void);
 - (id);
-- (id)AllocForRPC:malloc for chan failed /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
-- (void);
 - (id);
-- (void);
-- (unsigned long long)TLFunction>",&,N,Vm_metalKernelFunction;
-- (void);
-- (void);
-- (void)k:(unsigned long long)arg1;
-- (_Bool)Unexpected value for Max Subchunk length in Subchunk Digest, V2;
-- (void);
 - (id);
-- (void)ionPropertiesOfItem:withPath:assetProtectionType:completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)ct:ofView: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void)Øº;
-- (void);
+- (id);
 - (void)0@ù
 × ;
-- (void)Æ1¢!0@ù
+- (id)!Aù[°1Â0@ù
 × ;
+- (_Bool);
+- (id)0@ù
+× ;
+- (void)× ;
+- (_Bool)ð!Dùñbð1Â0@ù
+× ;
+- (_Bool)qc°1Â0@ù
+× ;
+- (void);
+- (id)0@ù
+× ;
+- (void)"b1"delegateShouldUpdateFocusInContext"b1"delegateDidUpdateFocusInContext"b1"delegateHorizontalIndexTitleBarSelectedEntry"b1"delegateCanEditItemAtIndexPath"b1"delegateWasNonNil"b1"delegateContextMenuConfigurationForItemAtIndexPaths"b1"delegateContextMenuHighlightPreviewForItemAtIndexPath"b1"delegateContextMenuDismissalPreviewForItemAtIndexPath"b1"delegateContextMenuConfigurationForItemAtIndexPath_DEPR"b1"delegateContextMenuPreviewForHighlighting_DEPR"b1"delegateContextMenuPreviewForDismissing_DEPR"b1"delegateContextMenuwillPerformPreviewAction"b1"delegateWillDisplayContextMenu"b1"delegateWillEndContextMenuInteraction"b1"delegateStyleForContextMenu"b1"delegateAccessoriesForContextMenu"b1"delegate_dci_contextMenuConfigurationForItemsAtIndexPaths"b1"delegate_dci_contextMenuConfigurationForSelectedItemsAtIndexPaths"b1"delegate_dci_contextMenuPreviewForHighlightingItemAtIndexPath"b1"delegate_dci_contextMenuPreviewForDismissingToItemAtIndexPath"b1"delegateSceneActivationConfigurationAtIndexPath"b1"delegateSceneActivationConfigurationAtIndexPathSPI"b1"delegateOrthogonalScrollViewDidScrollSPI"b1"delegateSelectionFollowsFocusForItemAtIndexPath"b1"delegateCanPerformPrimaryActionForItemAtIndexPath"b1"delegatePerformPrimaryActionForItemAtIndexPath"b1"delegateIndexPathForContentOffsetPreservationSPI"b1"delegateTypeSelectStringForItemAtIndexPath"b1"delegateUpdateTypeSelectResultForCell"b1"dataSourceNumberOfSections"b1"dataSourceViewForSupplementaryElement"b1"dataSourceCanMoveItemAtIndexPathSPI"b1"dataSourceMoveItemAtIndexPathSPI"b1"dataSourceSectionIndexTitlesSPI"b1"dataSourceSectionIndexTitlesTrimmedToCountSPI"b1"dataSourceIndexPathForSectionIndexSPI"b1"dataSourceCanMoveItemAtIndexPath"b1"dataSourceMoveItemAtIndexPath"b1"dataSourceIndexTitles"b1"dataSourceIndexPathForIndex"b1"dataSourceWasNonNil"b1"dataSourceIsDiffableDataSource"b1"dataSourceCanEditItemAtIndexPath"b1"prefetchDataSourcePrefetchItemsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForItemsAtIndexPaths"b1"prefetchDataSourceWasNonNil"b1"reloadSkippedDuringSuspension"b1"scheduledUpdateVisibleCells"b1"scheduledUpdateVisibleCellLayoutAttributes"b1"allowsSelection"b1"allowsMultipleSelection"b1"allowsSelectionDuringEditing"b1"allowsUserInitiatedMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"allowsBandSelectionForMultipleSelection"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"displaysHorizontalIndexTitleBar"b1"fadeCellsForBoundsChange"b1"updatingLayout"b1"needsReload"b1"reloading"b1"skipLayoutDuringSnapshotting"b1"layoutInvalidatedSinceLastCellUpdate"b1"doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"ignoreBatchUpdatesAndFallBackToReloadData"b1"updatingVisibleCells"b1"backgroundColorSet"b1"preRotationBoundsSet"b1"updateFocusAfterItemAnimations"b1"remembersLastFocusedIndexPath"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"creatingViewFromPreferredFocusedView"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"editing"b1"clientSetDerivesVisibleBoundsFromContainingScrollView"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
+- (_Bool)ginLayer;
+- (id)ons: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)4@32@40@48I56;
-- (void)Baseline;
-- (void)ransitionToTraitCollectionForParent:(id)arg1;
-- (_Bool)Process;
-- (id)capeRight;
-- (_Bool)PaddingForSearchFieldAtLeadingEdge: /* Error: Ran out of types for this method. */;
-- (id)N,GisLayoutPreparedForUpdates;
-- (void)tatusBarDataLocationEntry",C,N,V_locationEntry;
-- (void)es;
-- (void)ivers;
-- (void) @@;
-- (void)$PlPÀPôQ;
-- (void)<;
-- (id). This is considered an implementation error in the gesture recognizer.;
-- (id)1:(id)arg1 1 with its owning environment.;
-- (void)ror:(id)arg1 '%@' %@ has view %@ in the wrong VC:(id)arg2 %@. Fell back:%d /* Error: Ran out of types for this method. */;
-- (void)þÿ;
-- (id)hþÿ;
-- (void)toolTip;
-- (id)tlePosition;
-- (id);
-- (void)ibuteValueKeyboardTypeEmailAddress;
-- (id)SupplementaryColWidth=%g;
+- (id)nDuration;
+- (void)Width;
+- (void)pha: /* Error: Ran out of types for this method. */;
+- (void)guration",R,N;
+- (void)onListenerDelegate;
+- (void)server;
+- (void)äXååüæ;
+- (_Bool)\´;
+- (void)ü)´,p/Ä/ì2@3ø4¬5ô6;
+- (void);
+- (id)pè;
+- (void)etting nonzero gradientMaskLengths.;
+- (void)ect because of missing block;
+- (id)(þÿ;
+- (_Bool);
+- (void);
+- (void)sKeyFillHighlight;
+- (void)istantEyesFree;
+- (void)didateBarBlueText;
+- (id)ightStyleRenderConfig;
+- (void)m, but updating focus to nil is not allowed.;
+- (void)erlay;
+- (id)d the enrollment kind set;
+- (id)while already renaming a different navigation item (;
+- (id)aturation;
+- (_Bool);
+- (void)rmattingViewControllerChangeValueC;
 - (void);
 - (void);
-- (void)Ú?Ë?p?222222â?ZZZZZZê?[[[[[[ë?ÒÑÑÑÑÑÑ?uuuuuuå?»ºººººê?{{{{{{ë?ç?XXXXXXè?ttttttä?å?ÙØØØØØØ?Ö?______ï?Ó?¤??q=
-×£pÝ?×£p=
-×ã?Á?;
-- (void)7A`åÐâ?%CÌ?InProcessSharedLight;
-- (id)¨Dð2þÿh;
-- (void);
+- (void);
+- (void);
+- (void)ü¡ªÿå;
+- (long long)Håþ;
+- (void)H<b;
+- (unsigned long long);
 - (void);
-- (void).Ò\;
-- (void)ò\;
-- (id)DK/ÿgÛñ];
-- (_Bool)xé;
-- (id)þÑ';
-- (_Bool)XÿbðÇú^;
-- (long long)_;
-- (id)çÏ÷¼_;
-- (id)OÎðq`;
-- (id)`;
-- (_Bool)oÿ`;
-- (void)d9.ÿÀ Õ´Øc;
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

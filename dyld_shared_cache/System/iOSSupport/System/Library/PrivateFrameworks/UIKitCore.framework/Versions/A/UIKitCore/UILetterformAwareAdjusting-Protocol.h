@@ -5,8 +5,6 @@
 //
 
 @protocol UILetterformAwareAdjusting
-- (long long);
-- (void)create csr, _AMFDRModuleCreateSignedCSR failed.;
 
 // Remaining properties
 @property(nonatomic) long long sizingRule;

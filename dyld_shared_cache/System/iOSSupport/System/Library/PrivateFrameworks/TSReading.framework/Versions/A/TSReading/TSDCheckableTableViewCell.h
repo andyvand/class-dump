@@ -16,15 +16,16 @@
 
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool checked; // @synthesize checked=mChecked;

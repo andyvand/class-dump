@@ -4,7 +4,7 @@
 
 class dyld4::Loader::LoaderRef {
 public: // (access info unavailable from symbols alone)
-    loader(dyld4::RuntimeState const&) const;
-    loader(dyld4::RuntimeState const&) const (.cold.1);
-    loader(dyld4::RuntimeState const&) const (.cold.2);
+    auto loader(dyld4::RuntimeState const&) const;
+    auto loader(dyld4::RuntimeState const&) const (.cold.1);
+    auto loader(dyld4::RuntimeState const&) const (.cold.2);
 };

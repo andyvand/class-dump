@@ -5,5 +5,8 @@
 //
 
 @protocol _UIStatusBarPersistentAnimation
+
+@optional
+- (void)ansition: /* Error: Ran out of types for this method. */;
 @end
 

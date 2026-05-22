@@ -5,6 +5,6 @@
 //
 
 @interface (null) (UIApplicationSceneClientSettings)
-- (_Bool)ord again on next sync. %@;
+- (_Bool);
 @end
 

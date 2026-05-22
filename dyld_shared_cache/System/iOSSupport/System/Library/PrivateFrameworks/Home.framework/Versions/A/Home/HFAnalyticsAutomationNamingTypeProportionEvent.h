@@ -15,9 +15,9 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)diffable;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *percentUsingConfiguredName; // @synthesize percentUsingConfiguredName=_percentUsingConfiguredName;

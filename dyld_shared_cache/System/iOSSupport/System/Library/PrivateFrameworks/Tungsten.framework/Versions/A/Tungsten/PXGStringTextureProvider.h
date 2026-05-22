@@ -19,8 +19,8 @@
 - (void);
 - (struct _NSRange);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

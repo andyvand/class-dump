@@ -5,7 +5,6 @@
 //
 
 @protocol MFPlaybackDefaults
-- (double);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowScreenRecording;

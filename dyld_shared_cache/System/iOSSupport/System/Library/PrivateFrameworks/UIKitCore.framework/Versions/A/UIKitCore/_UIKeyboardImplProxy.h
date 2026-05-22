@@ -14,11 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void):(id)arg1 atLocation:(id)arg2;
 - (void);
-- (id)ognizer;
-- (void)n;
-- (void);
+- (id);
+- (void)dð1Â0@ù
+× ;
+- (void)MY43TÒsþ;
+- (void)cÞÿ^Ó_;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

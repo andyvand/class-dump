@@ -15,15 +15,15 @@
 
 - (struct _xmlXPathObject *);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (void)guage;
+- (id)ts/4~CNrSugDYcx6sjASS2XskMirRBBIt5EXaGbmPAJc/Library/Caches/com.apple.xbs/TemporaryDirectory.MnfwOw/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/x509/x509_skey.c;
+- (void)oo long description;
 
 // Remaining properties
 @property(nonatomic) unsigned long long cursor; // @synthesize cursor=_cursor;

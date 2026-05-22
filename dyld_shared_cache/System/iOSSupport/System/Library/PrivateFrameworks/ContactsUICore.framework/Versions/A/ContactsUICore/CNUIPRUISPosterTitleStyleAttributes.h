@@ -17,10 +17,10 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)actsModel;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) PRUISPosterTitleStyleAttributes *wrappedPosterTitleStyleAttributes; // @synthesize wrappedPosterTitleStyleAttributes=_wrappedPosterTitleStyleAttributes;

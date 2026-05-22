@@ -13,12 +13,12 @@
     UIViewController *_contentViewController;
 }
 
-- (id)Y4]^0;
-- (void)ompletion:(id)arg1;
 - (id);
+- (void);
+- (id);
+- (void);
 - (struct CGSize);
-- (void)isHighKey;
-- (void)Ղ;
+- (void)$;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *contentViewController; // @synthesize contentViewController=_contentViewController;

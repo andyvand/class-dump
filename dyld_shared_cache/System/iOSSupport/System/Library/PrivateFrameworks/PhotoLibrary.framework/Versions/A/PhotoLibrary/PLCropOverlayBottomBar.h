@@ -29,15 +29,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (long long);
-- (_Bool);
+- (void);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 
 // Remaining properties

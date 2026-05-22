@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionTaskDelegate
+
+@optional
+- (void);
+- (void)%@ (duration %@);
 @end
 

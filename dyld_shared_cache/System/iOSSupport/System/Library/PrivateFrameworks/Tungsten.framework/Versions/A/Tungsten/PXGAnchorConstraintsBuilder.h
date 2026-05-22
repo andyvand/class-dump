@@ -16,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)sponder>"8;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *constraints;

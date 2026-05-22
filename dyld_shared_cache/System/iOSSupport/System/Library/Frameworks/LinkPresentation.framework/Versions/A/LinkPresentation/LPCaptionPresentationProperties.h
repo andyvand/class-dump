@@ -17,15 +17,15 @@
 
 - (double);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)U;
+- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

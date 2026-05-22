@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (Class);
+- (id);
+- (long long);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)dule;
+- (_Bool)ct={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48;
 - (void);
-- (id)mitInteractionDurationStatisticMeasurements;
-- (id)ÌB;
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) Class clazz; // @synthesize clazz=_clazz;

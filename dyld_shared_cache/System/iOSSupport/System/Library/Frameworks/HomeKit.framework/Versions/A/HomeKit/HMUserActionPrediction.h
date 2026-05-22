@@ -16,9 +16,9 @@
     unsigned long long _targetGroupType;
 }
 
-+ (id)&,N,V_accessory;
-+ (id)ä©ø«;
-+ (_Bool)tionStatusAuthorized;
++ (id);
++ (_Bool);
++ (id)g is not writable;
 
 @end
 

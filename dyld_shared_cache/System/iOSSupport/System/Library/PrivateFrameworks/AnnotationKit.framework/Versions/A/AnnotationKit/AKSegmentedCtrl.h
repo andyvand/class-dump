@@ -17,32 +17,32 @@
 
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long)|;
-- (void)ion_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id FROM message WHERE ROWID > ?   AND item_type == 0   AND has_dd_results == 1 ORDER BY ROWID DESC LIMIT ?;;
+- (unsigned long long);
+- (void);
 - (long long);
-- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)";
+- (void);
 - (_Bool);
+- (_Bool);
+- (id);
 - (unsigned long long);
-- (id)T	;
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (void)e.bi;
-- (void);
 - (void);
 - (id);
-- (void)lement:withPressure: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;

@@ -25,18 +25,18 @@
 - (id);
 - (id);
 - (double);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id)c;
-- (id);
-- (void)__TEXT;
-- (id);
 - (void);
 - (long long);
-- (void);
+- (void);
+- (void):´g /* Error: Ran out of types for this method. */;
+- (void)`@;
 
 @end
 

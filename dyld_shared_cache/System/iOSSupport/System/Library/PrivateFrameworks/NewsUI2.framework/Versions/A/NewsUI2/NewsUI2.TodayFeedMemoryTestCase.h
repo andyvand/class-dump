@@ -13,11 +13,11 @@
     unsigned long long aggregate;
 }
 
-- (void);
-- (void);
 - (id);
+- (double);
+- (void);
 - (unsigned long long);
-- (double)m shortcuts and clear shortcut list when the only shortcut is tagID=%{public}s and shortcut state is not onboarded;
+- (void);
 - (id);
 
 // Remaining properties

@@ -44,14 +44,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (struct CGSize);
 - (void);
 - (id);
 - (id);
-- (id)
-× ;
-- (void)*;
+- (void)X;
+- (void)m;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

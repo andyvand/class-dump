@@ -18,22 +18,22 @@
     void backgroundIdentifier;
 }
 
-- (id):(id)arg1;
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void)*;
+- (void);
 - (id);
 - (id);
-- (id)`;
-- (void)=;
 - (id);
 - (id);
-- (id)ion.;
-- (id);
+- (id);
+- (id);
+- (id)chosen:%lu, sharing enabled, uploading pending me card sharing result:%@ /* Error: Ran out of types for this method. */;
+- (void)û¬ÿ5ÈjÐÿÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *backgroundIdentifier;

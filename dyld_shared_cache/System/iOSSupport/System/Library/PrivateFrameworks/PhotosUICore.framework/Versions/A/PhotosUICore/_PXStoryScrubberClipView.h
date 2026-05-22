@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)KeyAsset(_:viewportSize:timeout:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *dimOverlayView; // @synthesize dimOverlayView=_dimOverlayView;

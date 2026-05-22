@@ -19,10 +19,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id)fill;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;

@@ -9,17 +9,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize);
-- (struct CGSize)nknown, not turning off messages in iCloud or refreshing values associated with IMCloudKitAppleIDSecurityLevelHSA2.;
-- (struct CGSize)does not need to be noted to storage controller;
-- (void)as saved, bailing;
-- (struct CGRect)eiveMessageReadForMessageID because !_activated;
-- (id)error:(id)arg1 %d, no messages found for guid:%@ /* Error: Ran out of types for this method. */;
-- (id)cess:(id)arg1 %@;
-- (struct CGSize)ckname for handle %@;
-- (struct CGRect)from path:(id)arg1 %@;
-- (struct UIEdgeInsets)data is nil, not writing to disk;
-- (id)s attributed string!;
+- (struct CGSize);
+- (struct CGSize);
+- (struct CGSize);
+- (void);
+- (struct CGRect);
+- (id);
+- (id);
+- (struct CGSize);
+- (struct CGRect);
+- (struct UIEdgeInsets);
+- (id);
 - (double);
 - (unsigned long long);
 - (struct CGRect);

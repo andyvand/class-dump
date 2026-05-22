@@ -14,7 +14,7 @@
     HMAccessory *_accessory;
 }
 
-+ (Class)@;
++ (Class)NAFuture"16@?0@"MTAlarmManager"8;
 - (id);
 - (id);
 - (id);
@@ -25,8 +25,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;

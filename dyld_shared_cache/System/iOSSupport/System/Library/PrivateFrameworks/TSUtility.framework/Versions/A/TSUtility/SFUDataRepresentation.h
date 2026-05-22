@@ -26,13 +26,13 @@
 - (id);
 - (id);
 - (long long);
+- (unsigned long long);
 - (_Bool);
-- (unsigned long long)st_G;
 - (_Bool);
+- (_Bool);
+- (long long);
+- (long long);
 - (id);
-- (long long);
-- (_Bool);
-- (long long);
 
 @end
 

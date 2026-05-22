@@ -5,5 +5,5 @@
 class mach_o::ChainedFixups {
 public: // (access info unavailable from symbols alone)
     ChainedFixups(dyld_chained_fixups_header const*, unsigned long);
-    forEachFixupChainStartLocation(std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>, void (void const*, unsigned int, unsigned int, unsigned int, mach_o::ChainedFixups::PointerFormat const&, bool&) block_pointer) const;
+    auto forEachFixupChainStartLocation(std::__1::span<mach_o::MappedSegment const, 18446744073709551615ul>, void (void const*, unsigned int, unsigned int, unsigned int, mach_o::ChainedFixups::PointerFormat const&, bool&) block_pointer) const;
 };

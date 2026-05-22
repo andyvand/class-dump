@@ -18,15 +18,17 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
 - (long long);
+- (void);
+- (id)1â
+0@ù
+× ;
+- (id)p=÷ÿ$Â õ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

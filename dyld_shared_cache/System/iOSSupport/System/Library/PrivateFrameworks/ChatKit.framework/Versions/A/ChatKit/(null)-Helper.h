@@ -7,8 +7,8 @@
 @interface (null) (Helper)
 - (_Bool);
 - (id);
-- (id)R,9;
-- (id)9;
+- (id);
+- (id);
 - (id);
 - (_Bool);
 @end

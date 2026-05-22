@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UIColor *_backgroundColor;
 }
 
+- (_Bool);
 - (void);
-- (void);
-- (id)ceState: /* Error: Ran out of types for this method. */;
-- (_Bool)itionWithViewControllers:(id)arg1 animated: /* Error: Ran out of types for this method. */;
-- (void)gContext:(id)arg1;
-- (void)ds words;
-- (void)ncy:(id)arg1 expected disappearing view to be deleted after its animation completes. Collection view:%@; Animation:%@ /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (void)AccessoriesForCompactMenu:(id)arg1;
+- (void)ns;
+- (_Bool)ate;
+- (id)son:%{public}s /* Error: Ran out of types for this method. */;
+- (void)ansfer an animation to an animation state that does not belong to a property animator.;
+- (void)nfigurationStateCSg;
 
 // Remaining properties
 @property(retain) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

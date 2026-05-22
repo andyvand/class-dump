@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)@16Q24@32;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;

@@ -59,10 +59,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (struct CGAffineTransform);
-- (id)j(8[;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -117,7 +117,7 @@
 - (id);
 - (id);
 - (void);
-- (id)!;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -127,18 +127,18 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
-- (id);
-- (void);
 - (id);
-- (void);
 - (id);
-- (id)5;
-- (void)_UITextContainerView;
-- (id)bleLanguages;
-- (void)Å\, a;
+- (void)",W,D,N;
+- (void)¾}-;
+- (void)S -Âä;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKAutoRefineViewDelegate> autoRefineViewDelegate; // @synthesize autoRefineViewDelegate=_autoRefineViewDelegate;

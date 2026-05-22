@@ -14,9 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)× ;
+- (id)1Â0@ù
+× ;
+- (void)`\Íj`;
 
 // Remaining properties
 @property(retain, nonatomic) UICubicTimingParameters *springCubicTimingParameters; // @synthesize springCubicTimingParameters=_springCubicTimingParameters;

@@ -12,6 +12,8 @@
     MISSING_TYPE *supportsRouteSharing;
     MISSING_TYPE *routeLineUnavailableForRegion;
     MISSING_TYPE *ownsNavigation;
+    MISSING_TYPE *legIdentifiers;
+    MISSING_TYPE *currentLegIdentifier;
     MISSING_TYPE *lastIdentifier;
 }
 

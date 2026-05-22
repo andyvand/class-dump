@@ -12,21 +12,20 @@ __attribute__((visibility("hidden")))
     _Bool _shouldShowText;
 }
 
-+ (id)t;
-+ (id)t;
-- (void)achmentToNote:fromNote:parentAttachment: /* Error: Ran out of types for this method. */;
-- (void)ew:(id)arg1;
-- (_Bool)xtViewDidClick: /* Error: Ran out of types for this method. */;
-- (void)ionForLocalInspector:(_Bool)arg1;
-- (void)tton;
++ (id);
++ (id);
+- (void);
+- (void);
 - (_Bool);
-- (void)#
-;
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (struct CGSize);
 - (BOOL);
-- (void);
-- (id)honeNumber:(struct CGRect)arg1 simID: /* Error: Ran out of types for this method. */;
-- (struct CGSize)OR_SUBSTRING_HARDSPACE;
+- (id);
+- (void)16@"<UITextDragRequest>"24;
+- (void)Ü;
 
 // Remaining properties
 @property(nonatomic) BOOL orientation; // @synthesize orientation=_orientation;

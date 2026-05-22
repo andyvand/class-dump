@@ -58,13 +58,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void)ÒÐ1b0@ù
-× ;
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appIdentifier;

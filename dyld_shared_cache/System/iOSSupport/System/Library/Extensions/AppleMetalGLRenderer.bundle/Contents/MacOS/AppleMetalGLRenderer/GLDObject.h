@@ -5,9 +5,11 @@
 class GLDObject {
 public: // (access info unavailable from symbols alone)
     GLDObject();
-    dealloc();
-    init();
-    release() const;
-    retain() const;
+    auto dealloc();
+    auto init();
+    auto release() const;
+    auto retain() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~GLDObject();
 };

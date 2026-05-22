@@ -5,9 +5,8 @@
 //
 
 @protocol UIKeyInput
-- (void)ANUpdates;
-- (_Bool)ontainerModel;
-- (void);
+- (void)nerViewOrdering;
+- (_Bool)apple.SafariViewService;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasText;

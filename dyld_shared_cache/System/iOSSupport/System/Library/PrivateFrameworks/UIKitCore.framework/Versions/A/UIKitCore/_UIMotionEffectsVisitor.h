@@ -14,7 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool)ateShapes;
+- (_Bool)0@ù
+× ;
 
 @end
 

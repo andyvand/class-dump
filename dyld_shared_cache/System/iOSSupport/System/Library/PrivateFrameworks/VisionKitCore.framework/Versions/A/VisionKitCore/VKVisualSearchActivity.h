@@ -24,14 +24,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id)selectionWordCount:%lu 
- totalLength:%lu 
- automatedTest:%@ 
- bundleIdentifier:%@  /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;

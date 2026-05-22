@@ -27,7 +27,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)iÆ\;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *chapterBeginningAssetlocalIdentifiers; // @synthesize chapterBeginningAssetlocalIdentifiers=_chapterBeginningAssetlocalIdentifiers;

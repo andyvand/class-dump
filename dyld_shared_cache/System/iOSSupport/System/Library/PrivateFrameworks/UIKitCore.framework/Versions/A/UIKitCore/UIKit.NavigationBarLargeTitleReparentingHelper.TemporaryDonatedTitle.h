@@ -14,13 +14,12 @@
     _Bool contributesToPocketContentRect;
 }
 
-- (void)@;
-- (struct CGRect)gSync;
+- (void);
+- (struct CGRect);
 - (_Bool);
 - (id);
-- (void)!EùÄÐ1¢!0@ù
-× ;
-- (id)o: /* Error: Ran out of types for this method. */;
+- (id)Ðw¬x¬yp~;
+- (void)ÈÑbþ3bÏ³Án;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool contributesToPocketContentRect; // @synthesize contributesToPocketContentRect;

@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol MPCPlaybackEngineEventStreamInitializationParameters
-- (NSString *);
-- (NSString *);
-- (NSString *)@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *engineID;

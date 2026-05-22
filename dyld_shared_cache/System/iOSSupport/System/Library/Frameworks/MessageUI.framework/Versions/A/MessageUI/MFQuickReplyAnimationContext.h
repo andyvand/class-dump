@@ -16,7 +16,7 @@
     struct UIEdgeInsets _insets;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -24,9 +24,9 @@
 - (id);
 - (id);
 - (id);
-- (double);
-- (void);
 - (struct UIEdgeInsets);
+- (void);
+- (double);
 - (void);
 - (CDUnknownBlockType);
 - (void);

@@ -15,15 +15,14 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)qÄð1¢!0@ù
-× ;
 - (id);
-- (id)ervedScrollView;
-- (id)={CGPoint=dd}{CGSize=dd}},N,Vm_paddedFrame;
-- (_Bool)eyResponder;
+- (id);
+- (id);
+- (id)dGapAtIndexPath:(id)arg1;
+- (_Bool)§wþÿ"Êîÿ;
+- (id)Context:(id)arg1 ]_block_invoke;
 - (long long);
-- (id)ª¹y;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

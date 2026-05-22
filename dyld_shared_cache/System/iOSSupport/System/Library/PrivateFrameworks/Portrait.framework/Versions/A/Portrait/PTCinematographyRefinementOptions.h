@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool disableDetectionSmoothing; // @synthesize disableDetectionSmoothing=_disableDetectionSmoothing;

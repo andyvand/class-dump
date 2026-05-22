@@ -41,26 +41,25 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)C;
+- (id);
 - (_Bool);
 - (struct _NSRange);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (id);
 - (id);
 - (void);
-- (id)B24;
+- (_Bool);
+- (struct _NSRange);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id)et by ;
+- (void)Ô;
 - (id);
-- (id);
-- (struct _NSRange)riptor;
-- (void)ô
-¨;
-- (void);
-- (id)Xn#;
 
 // Remaining properties
 @property(retain, nonatomic) id <TSKAnnotation> annotation; // @synthesize annotation;

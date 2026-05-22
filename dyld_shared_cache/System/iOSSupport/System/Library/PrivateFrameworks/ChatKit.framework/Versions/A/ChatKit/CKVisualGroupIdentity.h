@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     NSNumber *_groupParticipantCount;
 }
 
-- (void)Õ;
-- (void)ation:(id)arg1 brightness:alpha: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (id)pdateSystemPaperNotesWithCoalescingAndDelay;
+- (id);
 - (long long);
 - (void);
-- (void);
+- (void)ouldHideProgressBar;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *groupParticipantCount; // @synthesize groupParticipantCount=_groupParticipantCount;

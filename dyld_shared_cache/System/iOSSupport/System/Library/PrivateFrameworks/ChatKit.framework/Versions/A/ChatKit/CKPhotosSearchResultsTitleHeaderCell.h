@@ -17,20 +17,20 @@
 
 + (id);
 + (id);
-- (void)c_PNGData;
-- (void)yObjects;
 - (void);
 - (void);
-- (double)otes with Your Login Password;
-- (double)ccess to your locked notes.;
 - (void);
 - (void);
-- (id);
-- (void)";
-- (void)H;
+- (double);
+- (double);
+- (void);
 - (void);
 - (id);
-- (id)tWithSiri;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UISegmentedControl *control; // @synthesize control=_control;

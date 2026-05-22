@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, UIWindow, _UIAsyncInvocationObserver, _UIRemoteViewController, _UIRemoteViewService;
+@class NSArray, NSSet, _UIAsyncInvocationObserver, _UIRemoteViewController, _UIRemoteViewService;
+@protocol UIContentContainer;
 
 @protocol _UIRemoteViewControllerImpl
-- (void)%d
-;
-- (_Bool)create certificate reference;
+- (void)0@ù
+× ;
+- (_Bool)!hCùQ^1Â0@ù
+× ;
 - (void);
-- (NSSet *);
-- (id)pToRadarWithNotificationIdentifier:notificationTitle:notificationBody:draftTitle:problemDescription:attachments:deviceClasses:classification:reproducibility: /* Error: Ran out of types for this method. */;
-- (void)telliteMessagesPerService;
-- (void)eIsUploadingToCK;
-- (void)checking client blocklist on behalf of pptool;
-- (CDStruct_4c969caf);
-- (int)1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (long long)!yð!¨DùÑÎð1¢!0@ù
-× ;
-- (_Bool)entLayoutSource>"16@"UIImageSymbolConfiguration"24;
-- (void)k:(UIWindow *)arg1;
-- (void)re haptics engine stopped for %@ with error:(_Bool)arg1 %@;
-- (void)ps;
-- (void)te inconsistency. Focused index path %@ is not equal to index path of focused cell %@.;
-- (_UIAsyncInvocationObserver *)storage_$_liftPortal;
-- (unsigned long long)SearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView",N,R,VcancelButtonPlatterView;
-- (void)ift;
-- (void)«ªªªªªJ@UUUUUUG@;
-- (void)­Mÿ3ø±þ;
-- (NSArray *)FloatingBarContainerView;
-- (void)Àÿÿÿ;
+- (void)_updatePromptDelay;
+- (void)h;
+- (_Bool)redContentAlignment;
+- (void)vice:(id <UIContentContainer>)arg1 %p> Remote view controller invalidated:%@. /* Error: Ran out of types for this method. */;
+- (void)a different style;
+- (unsigned long long)session is %@;
+- (void)in available space;
+- (unsigned long long)id);
+- (NSArray *);
+- (_UIAsyncInvocationObserver *)UILightEffectTransitionHandle;
+- (void)d tþ¹®43L!tþ¹®43H!tþ¹®43D!tþ;
+- (void)[;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_keyboardSceneLayers;

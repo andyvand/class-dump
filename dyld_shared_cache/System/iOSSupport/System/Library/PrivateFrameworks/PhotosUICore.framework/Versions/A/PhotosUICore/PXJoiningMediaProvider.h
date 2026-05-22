@@ -37,9 +37,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)û!@;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allMediaProviders; // @synthesize allMediaProviders=_allMediaProviders;

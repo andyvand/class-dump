@@ -4,6 +4,6 @@
 
 class std::__1::__split_buffer<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>&> {
 public: // (access info unavailable from symbols alone)
-    __destruct_at_end[abi:ne200100](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*);
+    auto __destruct_at_end[abi:nqe210106](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*);
     ~__split_buffer();
 };

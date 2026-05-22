@@ -5,6 +5,5 @@
 //
 
 @protocol PKTextInputDebugViewControllerDelegate
-- (void);
 @end
 

@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     _MPCProtoRadioContentReferenceStoreContentReference *_storeContentReference;
 }
 
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id)";
-- (void);
-- (void);
 - (_Bool);
 - (id);
-- (id)P;
+- (id);
+- (void){public}@] _addAutoPlayPlaybackContext:| behavior state changed [first data source loaded] state=Ready /* Error: Ran out of types for this method. */;
 
 @end
 

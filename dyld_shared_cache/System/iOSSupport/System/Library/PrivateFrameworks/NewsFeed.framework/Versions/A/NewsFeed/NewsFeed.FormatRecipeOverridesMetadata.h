@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void)ary";
-- (id)@;
 - (id);
-- (id);
+- (id);
+- (id)èÒ	;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) FCHeadlineThumbnailMetadata *formatThumbnail; // @synthesize formatThumbnail;

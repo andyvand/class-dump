@@ -36,38 +36,39 @@
 - (void);
 - (void);
 - (void);
-- (id)_ְ,;
+- (id);
 - (void);
 - (_Bool);
-- (id)A�;
 - (id);
 - (id);
-- (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)	°!LDù(ð1Â0@ù
+× ;
+- (void)Ð¼;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *backgroundQueue; // @synthesize backgroundQueue=_backgroundQueue;

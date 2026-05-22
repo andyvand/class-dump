@@ -16,14 +16,16 @@ __attribute__((visibility("hidden")))
     NSArray *_replacements;
 }
 
-- (_Bool)ffline signing public key length mismatch;
 - (_Bool);
-- (void)lPlaybackContextBehavior;
-- (id);
-- (void)^;
-- (void)Ô ;
-- (id)sToSceneSafeAreaSettings;
-- (void)leteContinuationOnDestinationWithDeletionCount: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (void)!Aù±_°1Â0@ù
+× ;
+- (id)trollerForPresentation:(struct _NSRange)arg1;
+- (void)ination;
+- (id)T(Ø
+ lXø;
+- (void)P;
 
 @end
 

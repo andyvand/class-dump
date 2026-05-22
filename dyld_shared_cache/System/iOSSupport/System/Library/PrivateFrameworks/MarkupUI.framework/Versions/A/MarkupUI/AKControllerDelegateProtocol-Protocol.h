@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class NSString;
 
 @protocol AKControllerDelegateProtocol
-- (struct CGRect)c;
-
-@optional
-- (_Bool);
-- (CALayer *);
-- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *originalImageDescription;

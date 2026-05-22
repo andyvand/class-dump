@@ -27,6 +27,7 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_trailingBarNoItemsConstraint;
     NSLayoutConstraint *_backButtonLeadingConstraint;
     NSLayoutConstraint *_backButtonTrailingConstraint;
+    NSLayoutConstraint *_leadingBarAfterBackButtonConstraint;
     NSLayoutConstraint *_largeTitleLeadingConstraint;
     NSLayoutConstraint *_largeTitleTrailingConstraint;
     NSLayoutConstraint *_regularTitleConstraint;
@@ -43,121 +44,126 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (struct UIEdgeInsets);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)@;
+- (id);
 - (struct CGSize);
-- (void)rtedPropertyKey:(id)arg1;
-- (void);
-- (void)°1¢!0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGSize);
+- (void)a!ÌFù1\Ð1Â0@ù
 × ;
-- (void)Ä°1¢!0@ù
+- (double)
+× ;
+- (void)±\Ð1Â0@ù
+× ;
+- (id);
+- (id)ÔÐ!à@ùq^°1Â0@ù
+× ;
+- (id);
+- (void);
+- (void)1Â0@ù
+× ;
+- (void);
+- (id)±a°1Â0@ù
+× ;
+- (void)b°1Â0@ù
 × ;
 - (void);
 - (void)0@ù
 × ;
-- (void)!XAùÑÆ1¢!0@ù
+- (double)!Aù±e°1Â0@ù
 × ;
 - (void);
-- (void)¢!0@ù
+- (void)1Â0@ù
 × ;
-- (_Bool)Au°!tDùÉð1¢!0@ù
+- (void)
+ð!´Dùqfð1Â0@ù
 × ;
-- (_Bool)!dBù1Ì1¢!0@ù
+- (_Bool)
 × ;
-- (id)Í°1¢!0@ù
-× ;
+- (void)lor"b1"hasUserBadgeTitleFont"b1"hasUserBadgeTitleColor"b1"hasUserBadgeTitlePosition"b1}];
+- (id)lerState"[16d]"normalizedLeftStickState"[4d]"normalizedRightStickState"[4d]"normalizedShoulderButtonState"[4d]};
+- (void)plicationSceneWorkspace"16@"NSSet"24;
+- (void)eyboardAnimatorAnimationStyle";
+- (void)w";
+- (void)Controller"24@0:8@"UIViewController"16 /* Error: Ran out of types for this method. */;
+- (void)avigationBarGestureHandler"16{CGPoint=dd}24;
+- (void)_UICGFloatTraitTokenProtocol>"16;
+- (void)HomeDirectory;
+- (id)dTaskForTouchState: /* Error: Ran out of types for this method. */;
+- (void)ControllerForDismissal;
+- (unsigned long long)edHeight:(id)arg1;
+- (void)ionsDidChange:(_Bool)arg1;
+- (void)Events:(id)arg1;
+- (id)pTimestamp: /* Error: Ran out of types for this method. */;
+- (void)teWordLastDelete:(id)arg1;
+- (void)deDragWindowToPoint:(id)arg1;
+- (void)enterX;
+- (id)WithArray: /* Error: Ran out of types for this method. */;
+- (void)opAtIndexPath:(id)arg1;
+- (void)ect:(id)arg1 namesAndObjects: /* Error: Ran out of types for this method. */;
+- (void)on;
+- (_Bool)Document;
+- (_Bool)alignCenter: /* Error: Ran out of types for this method. */;
+- (void)bleCellsForRanges:(id)arg1 createIfNecessary:(id)arg2;
+- (void)ngByRemovingFirstMatchFromPrefixes:(id)arg1;
+- (void)ction:(id)arg1;
+- (_Bool)rollInDirection:(id)arg1;
+- (void):(_Bool)arg1 animation:(CDUnknownBlockType)arg2;
+- (void)sesForEvent:(id)arg1 inPhase: /* Error: Ran out of types for this method. */;
+- (double)ewController:contentScrollView:gettingNavBarFrame:topPaletteFrame: /* Error: Ran out of types for this method. */;
+- (void)hing:targetSmoothing:projectionDeceleration:animations:completion: /* Error: Ran out of types for this method. */;
+- (void)ewForAction: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)0@ù
-× ;
-- (long long)!\Fù±ÍÐ1¢!0@ù
-× ;
-- (void)¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (void)oint=dd}16d32d40B48B52;
-- (void)ritingToolsIgnoredRanges"b1"delegateWritingToolsUndoCoalescingWillBegin"b1"delegateWritingToolsUndoCoalescingDidEnd"b1"textStorageOverridesReplaceCharactersInRangeWithAttributedString"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"delegateRespondsToTextViewEditMenuForTextInRangeSuggestedActions"b1"delegateRespondsToTextViewEditMenuForTextInRangesSuggestedActions"b1};
-- (double)aratorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
-- (void)oardEmojiAndStickerCollectionView";
-- (id)Interaction";
-- (id)antsHideSidebarDisplayNameForKeyCommand"b1"allowsDimmedSecondaryAsDeepestUnambiguousResponder"b1"ignoresSheetContext"b1"showsSeparators"b1"allowSecondaryOnlyButton"b1"lockedForDelegateCallback"b1"inCollapsingToProposedTopColumnCallback"b1"inExpandingToProposedDisplayModeCallback"b1"exposeInternalCollapsedValue"b1"columnStyleDidExpand"b1"shouldSetLastSettledDisplayMode"b1"sendDelegateWillShowColumn"b1"sendDelegateWillHideColumn"b1"skipDelegateWillShowHideColumn"b1"useUnderscoredWillShowHideColumn"b1"sendDelegateInteractiveGestureWillBegin"b1"sendDelegateInteractiveGestureWillBeginSPI"b1"sendDelegateInteractiveGestureDidEnd"b1"sendDelegateInteractiveGestureDidEndSPI"b1"sendDelegateAllowGestureForColumnSPI"b1"sendDelegateGesturePermissionForView"b1"supplementaryColumnAdoptsPrimaryBackgroundStyle"b1"columnSeparatorsExtendToTitlebar"b1"shouldPreventArrowButtonFocusMovementToShowSidebar"b1};
-- (double)mpletion:(id)arg1;
-- (double)ithStage:location:radius:timestamp:pathIndex:fingerID:forcedKeyCode: /* Error: Ran out of types for this method. */;
-- (void)t;
-- (void)temGroupedBackgroundColor;
-- (id)nputViewController:inputView:includeAssistantBar: /* Error: Ran out of types for this method. */;
-- (void)ViewController:(_Bool)arg1;
-- (void)etWebVisiblePosition:(id)arg1;
-- (void)mationBeginTime:(id)arg1;
-- (void)eyboardActionButtonItem:(id)arg1;
-- (long long)completion: /* Error: Ran out of types for this method. */;
-- (id)mentaryViewOfKind:withIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ardDismissWithInfo:(id)arg1;
-- (void)pdateSection;
-- (id)ContextFromInputMode:toInputMode: /* Error: Ran out of types for this method. */;
-- (id)p: /* Error: Ran out of types for this method. */;
-- (void)rtRect:(id)arg1 toFrame: /* Error: Ran out of types for this method. */;
-- (id)RecentInput;
-- (void)ptCandidate:forInput:executionContext: /* Error: Ran out of types for this method. */;
-- (_Bool)er:forced: /* Error: Ran out of types for this method. */;
-- (void)w;
-- (void)nfiguration:(id)arg1;
-- (unsigned long long)ntalCandidateIcon:(id)arg1;
-- (void)ionHeaderContentInsets;
-- (_Bool)ionalInsets:(id)arg1 animated: /* Error: Ran out of types for this method. */;
-- (void)Offset:(_Bool)arg1;
-- (id);
-- (void)tLocation:(id)arg1;
-- (void)tingSearchIconLayoutFrame;
-- (void)nsWithInvalidationContext:(_Bool)arg1 tentativelyForReordering:(CDUnknownBlockType)arg2 animator: /* Error: Ran out of types for this method. */;
-- (void)mage;
-- (id)containsCJScriptsOnly;
+- (void)tion;
+- (id)ack;
+- (void)rgetKeyIndexAtOffset:(id)arg1 fromKey: /* Error: Ran out of types for this method. */;
+- (void)tashedDismissalPreview;
+- (void)sAnimationCoordinator;
+- (id)@"UITabGroup",R,W,N,V_parent;
+- (void)stParentStackAlignmentFrame;
+- (id)TKeyboardTouchObserver;
+- (_Bool)lerDelegate;
+- (void)ð;
+- (void)dµp·;
+- (void)°Ý;
+- (void)tE;
+- (void){4ìÑ;
+- (id)<;
 - (void);
-- (void)ion:(id)arg1;
+- (void)entInputDestination inputDestinationDidChange:(id)arg1 withIAVHeight:isIAVRelevant:notifyRemote:forScene:]  nothing changed, returning /* Error: Ran out of types for this method. */;
+- (void)sumeTime is 0;
+- (id)container and view must not be hidden.;
+- (double);
+- (void)Ôéÿ´Äaþà¸þÿ;
+- (void)TþÿÄËîÿ;
+- (_Bool)ofreadingDecorationInfo.m;
+- (double)tes;
+- (_Bool));
+- (void)rideScreenSharing;
+- (void)ingNotification;
+- (id)VisibilityNotification;
+- (long long)ndex *);
+- (void)ed by the system.;
+- (long long)equest"24@?0@"NSArray"8^B16;
+- (id)efore the update;
+- (void)4þÿ~ýýÿ&þÿ;
+- (double)ate_p;
+- (id)TextView;
 - (void);
-- (id)erFamilyName;
-- (void)Td,N,S_setShadowRadius:(id)arg1 ,V__shadowRadius;
-- (void)ideActivityIndicatorForUnRenderedContent;
-- (void)chivedIdentifier:(id)arg1 ,V_archivedIdentifier;
-- (double): /* Error: Ran out of types for this method. */;
-- (void)dDismissWithTouchLocation: /* Error: Ran out of types for this method. */;
-- (void)ureRecognizerDriverDelegate>",W,N,V_delegate;
-- (void)ontinuationInternal;
-- (_Bool)T;
-- (void)<$ÜDLÀ;
-- (void),dôeDf;
-- (id)T£Ì£;
-- (void)@=Ã+ÿ%(|<,xh(;
-- (_Bool);
-- (void)ling out;
-- (void)iline views (%lu) for optional width disambiguation. Making required constraints instead. Layout might be broken. Stack view:(id)arg1 %@;
-- (void)ype;
-- (id)Tools replacements;
-- (double)ce orientation to:%{public}d /* Error: Ran out of types for this method. */;
-- (id)ending because the highlight info was missing. suggestionID = %@;
-- (void)tControllerToStack:(id)arg1 Adding Alert to stack :(id)arg2 %@;
-- (void)ProgressValue;
-- (id);
-- (id)age_$_wrappedConfigurationIdentifier;
-- (id)ñi8G;
-- (void)lCIegg_;
-- (_Bool)trollerInColumn:] /* Error: Ran out of types for this method. */;
-- (id)ong, NSData *__strong, NSObject<UIApplicationDelegate> *__strong, NSURL *__strong, NSString *__strong, __strong UIStateRestorationRestoreStateBeginHandler)_block_invoke;
-- (id)specified;
-- (void)ckgroundTask;
-- (id)th (%@) - the collection view's data source must return an index path for a valid UICollectionViewCell from -collectionView:indexPathForIndexTitle:atIndex: /* Error: Ran out of types for this method. */;
-- (id)tantManager received unknown proofreading action;
-- (struct CGSize)separatedOptions.clippingExtents.outsetMaxX;
-- (id)¡];
-- (void)Ï^;
+- (void)_UILayoutRuleEvaluationContext;
+- (id)<¬\;
+- (void);
+- (void)tY];
+- (id)ëÝü_;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _useLeadingAlignedTitle;
@@ -193,6 +199,7 @@ __attribute__((visibility("hidden")))
 
 @property(retain, nonatomic) NSLayoutConstraint *largeTitleLeadingConstraint; // @synthesize largeTitleLeadingConstraint=_largeTitleLeadingConstraint;
 @property(retain, nonatomic) NSLayoutConstraint *largeTitleTrailingConstraint; // @synthesize largeTitleTrailingConstraint=_largeTitleTrailingConstraint;
+@property(retain, nonatomic) NSLayoutConstraint *leadingBarAfterBackButtonConstraint; // @synthesize leadingBarAfterBackButtonConstraint=_leadingBarAfterBackButtonConstraint;
 @property(retain, nonatomic) NSLayoutConstraint *leadingBarConstraint; // @synthesize leadingBarConstraint=_leadingBarConstraint;
 @property(retain, nonatomic) NSLayoutConstraint *leadingBarNoItemsConstraint; // @synthesize leadingBarNoItemsConstraint=_leadingBarNoItemsConstraint;
 @property(retain, nonatomic) _UINavigationButtonBarWrapperView *leadingBarView; // @synthesize leadingBarView=_leadingBarView;

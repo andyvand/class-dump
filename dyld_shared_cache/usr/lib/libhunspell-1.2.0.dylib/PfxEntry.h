@@ -5,11 +5,11 @@
 class PfxEntry {
 public: // (access info unavailable from symbols alone)
     PfxEntry(AffixMgr*, affentry*);
-    add(char const*, int);
-    check_morph(char const*, int, char, unsigned short);
-    check_twosfx(char const*, int, char, unsigned short);
-    check_twosfx_morph(char const*, int, char, unsigned short);
-    checkword(char const*, int, char, unsigned short);
-    test_condition(char const*);
+    auto add(char const*, int);
+    auto check_morph(char const*, int, char, unsigned short);
+    auto check_twosfx(char const*, int, char, unsigned short);
+    auto check_twosfx_morph(char const*, int, char, unsigned short);
+    auto checkword(char const*, int, char, unsigned short);
+    auto test_condition(char const*);
     ~PfxEntry();
 };

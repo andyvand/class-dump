@@ -7,11 +7,8 @@
 @class NSArray, NSString;
 
 @protocol FCNewsletterManager
-- (void)?;
-- (void)`;
-- (_Bool);
-- (_Bool)espacedComponentTextStyleIdentifierForIdentifier:component: /* Error: Ran out of types for this method. */;
-- (long long)öÿÅ/nä~ðÿÅ/nà~ðÿm/nÜ~ðÿ;
+- (void)cription;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long activeNewsletter;

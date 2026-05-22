@@ -21,7 +21,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (struct UIEdgeInsets);
@@ -37,12 +37,12 @@
 - (id);
 - (double);
 - (id);
-- (id)Z;
-- (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (struct CGSize);
+- (void)oint=dd}{CGSize=dd}}72@0:8@"SXFullscreenCanvasController"16@"<SXFullscreenCanvasShowable>"24Q32{CGRect={CGPoint=dd}{CGSize=dd}}40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;

@@ -23,10 +23,10 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (void)!;
+- (id);
+- (void);
 - (long long);
+- (void)kError:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long itemCount;

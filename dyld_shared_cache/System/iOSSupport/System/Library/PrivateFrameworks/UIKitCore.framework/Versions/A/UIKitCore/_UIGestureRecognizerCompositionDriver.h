@@ -20,16 +20,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)rator__MAPPING_MISSING__;
-- (_Bool);
 - (void);
+- (id);
+- (void)e;
+- (void)tInfoDidInvalidateUntransformedFrame:(id)arg1;
+- (void)hStyle:(id)arg1;
+- (void)acentBarEdges;
+- (_Bool)temStackEntry",R,N;
 - (void);
-- (void)0@ù
-× ;
-- (void)KeyboardProxyLayerForwardingHostingEnvironmentObserver>"16;
-- (void)tDelegateCall:(id)arg1;
-- (id)nalFocusHeading;
-- (void)to compare intersecting regions from a snapshot using a different coordinate space than the map area's coordinate space. This is a UIKit bug.;
+- (void)z×L[;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -11,8 +11,8 @@
     MISSING_TYPE *analyticsLogger;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

@@ -14,28 +14,27 @@
     UISlider *_slider;
 }
 
-+ (Class)øÑT;
++ (Class)"HFItemProviderReloadResults"8;
 - (void);
 - (void);
 - (void);
-- (float);
-- (id);
 - (void);
 - (struct CGSize);
+- (struct CGSize);
+- (id);
+- (float);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void)HUTextViewController.m;
+- (_Bool)orationView;
 - (float);
-- (id)ñ.1b0@ù
-× ;
-- (id)ate>";
-- (void)cessoryTypeGroup;
-- (struct CGSize)ÀÜÿàÿ(`ÿH6¡ÿÐ<¡ÿ4B¡ÿäH¡ÿ8N¡ÿH¢ÿHJ¢ÿl[¢ÿg¢ÿÌ!¤ÿø`¤ÿÀf¤ÿ ¤ÿX¤ÿ¤ÿ4¤ÿ\¡¤ÿ´¢¤ÿp¤ÿ´©¤ÿT%¥ÿz¥ÿX¥ÿÜ¥ÿ²¥ÿðÓ¥ÿ<ã¥ÿxä¥ÿØè¥ÿøÿ¥ÿÐj¦ÿm¦ÿ`¦ÿ¸]§ÿDä§ÿÄ8ªÿL­ÿ4­ÿ¼(®ÿðL®ÿd`®ÿ4´®ÿØ¹®ÿ´É®ÿXÊ®ÿXÍ®ÿüÍ®ÿÄÝ®ÿhÞ®ÿèå®ÿ,è®ÿ,î®ÿ$ô®ÿõ®ÿTÿ¨(¯ÿl°ÿD=²ÿT²ÿh{²ÿð²ÿàÿ$"ÿè'ÿÔ/ÿ7ÿÈ>ÿhEÿxNÿüUÿ\`ÿhÿÀnÿD~ÿÿèÿìÿtÙÿÄÿ`ÿà´ÿ =ÿÐCÿÔZÿÄÿÐÿ ÿÌÃÿ Çÿ -ÿÈAÿ,aÿ¤ÿÿØÿðÿØ¡ÿL°ÿ¤³ÿôµÿ¼¹ÿìµÿ¿ÿÃÿ°ÆÿÌÿ¨Æÿ\fÿìÏÿ¬ÔÿÜÿâÿåÿäéÿ\ÿPÿtÿô!ÿ|$ÿô'ÿ4,ÿü.ÿT9ÿ@;ÿdàÿ0ÌÿÔgÿ|jÿpsÿÐºÿ»ÿÝÿ0ÿÜ$ÿ`ÿ,bÿ|5¡ÿA¡ÿtÿ<N¡ÿ ÆÿhÿøZ¢ÿtf¢ÿìl¢ÿÔ.¤ÿèZ¢ÿ°i¤ÿD¤ÿ$¤ÿÄ£¤ÿ(©¤ÿÐ=¥ÿxH¥ÿØL¥ÿ£¥ÿ4´¥ÿÙ¥ÿ$tÿ ¦ÿl;
-- (_Bool);
-- (id)elOnboarding();
-- (void)i;
+- (void)ðü;
 
 // Remaining properties
 @property(nonatomic) _Bool canBeHighlighted;

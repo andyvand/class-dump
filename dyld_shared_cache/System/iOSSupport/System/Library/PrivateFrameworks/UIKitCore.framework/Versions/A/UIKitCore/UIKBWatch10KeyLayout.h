@@ -22,27 +22,27 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _rightControlKeysInsets;
 }
 
-- (void)lDevices;
-- (void)epMessagesSettingandBroadcastToAllDevices;
-- (void)ttachmentZoneRecords:(struct UIEdgeInsets)arg1 desiredKeys:ognSuffix:removeTombstones:activity:completion: /* Error: Ran out of types for this method. */;
-- (void)ctivity:(long long)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (void)dSMSRelayList;
-- (void)ticeStore;
-- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
 - (long long);
 - (struct UIEdgeInsets);
 - (id);
 - (long long);
 - (long long);
-- (struct CGRect)}};
 - (struct CGRect);
 - (struct CGRect);
-- (double)d. Asset:%@ Record:%@ /* Error: Ran out of types for this method. */;
-- (void)!;
+- (struct CGRect);
+- (double);
 - (long long);
 - (void);
-- (void)DFPageImageCache;
-- (id)cut;
+- (id),C,N,V_displayId;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double controlKeyWidthRatio; // @synthesize controlKeyWidthRatio=_controlKeyWidthRatio;

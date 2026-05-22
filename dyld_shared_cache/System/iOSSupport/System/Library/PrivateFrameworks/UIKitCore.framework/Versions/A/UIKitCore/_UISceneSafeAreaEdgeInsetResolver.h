@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool)ForCommitPhase;
-- (struct UIEdgeInsets)rds ***** sync token is %@;
-- (void)as°!;
-- (id)InputViewSetPlacement",&,N,V_postRotationPlacement;
-- (id)nsions;
++ (_Bool)7¿7y#8¿7GSg;
+- (struct UIEdgeInsets);
+- (id);
+- (id)Q20@0:(id)arg1 8B16;
+- (void)setInvalidationHandlers:(id)arg1 ,V__invalidationHandlers;
 
 @end
 

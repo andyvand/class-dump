@@ -17,13 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long alignment; // @synthesize alignment=_alignment;

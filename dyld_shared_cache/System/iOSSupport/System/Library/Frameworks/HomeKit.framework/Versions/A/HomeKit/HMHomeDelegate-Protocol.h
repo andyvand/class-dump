@@ -7,7 +7,6 @@
 @protocol HMHomeDelegate
 
 @optional
-- (void)MetricsDispatcher;
-- (void)ÿÿÿÿ|;
+- (void)SDictionary",R,C,V_requiredHTTPHeaders;
 @end
 

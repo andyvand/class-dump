@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CLLocationCoordinate2D)counts for CloudKit enabled storage.;
+- (struct CLLocationCoordinate2D);
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;

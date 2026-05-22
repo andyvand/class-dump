@@ -5,13 +5,13 @@
 class icu::TimeZoneNames::MatchInfoCollection {
 public: // (access info unavailable from symbols alone)
     MatchInfoCollection();
-    addMetaZone(UTimeZoneNameType, int, icu::UnicodeString const&, UErrorCode&);
-    addZone(UTimeZoneNameType, int, icu::UnicodeString const&, UErrorCode&);
-    getMatchLengthAt(int) const;
-    getMetaZoneIDAt(int, icu::UnicodeString&) const;
-    getNameTypeAt(int) const;
-    getTimeZoneIDAt(int, icu::UnicodeString&) const;
-    matches(UErrorCode&);
-    size() const;
+    auto addMetaZone(UTimeZoneNameType, int, icu::UnicodeString const&, UErrorCode&);
+    auto addZone(UTimeZoneNameType, int, icu::UnicodeString const&, UErrorCode&);
+    auto getMatchLengthAt(int) const;
+    auto getMetaZoneIDAt(int, icu::UnicodeString&) const;
+    auto getNameTypeAt(int) const;
+    auto getTimeZoneIDAt(int, icu::UnicodeString&) const;
+    auto matches(UErrorCode&);
+    auto size() const;
     ~MatchInfoCollection();
 };

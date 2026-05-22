@@ -7,7 +7,6 @@
 @protocol UIDropSession;
 
 @protocol UISpringLoadedInteractionContext_Private
-- (id <UIDropSession>)uRÿ3ûdþRÿ3ìZÿmRÿ3|ûdþmRÿ3 /|þuRÿ3À±þ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UIDropSession> dropSession;

@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<evp_pkey_st, bssl::internal::Deleter> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](evp_pkey_st*);
+    auto reset[abi:nqe210106](evp_pkey_st*);
 };

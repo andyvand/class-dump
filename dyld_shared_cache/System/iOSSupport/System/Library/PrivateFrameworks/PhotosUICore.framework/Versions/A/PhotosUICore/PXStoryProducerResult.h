@@ -20,20 +20,18 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (_Bool);
+- (unsigned long long)tton;
 - (id);
-- (id);
-- (id)1b0@ù
-× ;
-- (id)w°!(Cù1|ð1b0@ù
-× ;
-- (id)¤÷;
-- (id)p;
+- (id)%@, key asset:(id)arg1 %@>;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;

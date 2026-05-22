@@ -4,11 +4,11 @@
 
 class UVPredistortBlockConfig {
 public: // (access info unavailable from symbols alone)
-    AddBlock(unsigned char, unsigned short, unsigned short, float, float, float);
-    ExtractBlock1stStage(unsigned int, unsigned char**, unsigned short&, ImgFrameFormat&);
-    ExtractBlockReadStage(unsigned int, unsigned char**, int&, int&, int&, int&, ImgFrameFormat&);
-    Initialize();
     UVPredistortBlockConfig(UVChromaColorCoeffs, unsigned short, unsigned short, unsigned short);
-    calcHomography(unsigned char, unsigned short, unsigned short, unsigned short, unsigned short);
+    auto AddBlock(unsigned char, unsigned short, unsigned short, float, float, float);
+    auto ExtractBlock1stStage(unsigned int, unsigned char**, unsigned short&, ImgFrameFormat&);
+    auto ExtractBlockReadStage(unsigned int, unsigned char**, int&, int&, int&, int&, ImgFrameFormat&);
+    auto Initialize();
+    auto calcHomography(unsigned char, unsigned short, unsigned short, unsigned short, unsigned short);
     ~UVPredistortBlockConfig();
 };

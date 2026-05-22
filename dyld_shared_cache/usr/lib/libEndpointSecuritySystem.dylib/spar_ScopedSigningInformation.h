@@ -4,8 +4,8 @@
 
 class spar::ScopedSigningInformation {
 public: // (access info unavailable from symbols alone)
-    cdhash() const;
-    fromStaticCode(spar::ScopedStaticCode const&);
-    signingID() const;
-    teamID() const;
+    auto cdhash() const;
+    auto fromStaticCode(spar::ScopedStaticCode const&);
+    auto signingID() const;
+    auto teamID() const;
 };

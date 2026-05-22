@@ -5,6 +5,5 @@
 //
 
 @protocol CKSendMenuPopoverPresentationDimmingViewDelegate
-- (void)tedString;
 @end
 

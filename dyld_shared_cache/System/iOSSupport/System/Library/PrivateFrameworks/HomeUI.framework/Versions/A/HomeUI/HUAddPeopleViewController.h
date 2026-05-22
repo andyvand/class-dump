@@ -58,7 +58,6 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -77,8 +76,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -101,6 +100,7 @@
 - (id);
 - (double);
 - (double);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -111,33 +111,31 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (long long);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (id)ùÑ/1b0@ù
-× ;
-- (void)!BùQ1°1b0@ù
-× ;
-- (id)undleID: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void)@"HUSoftwareUpdateInfoItem"8@"HUSoftwareUpdateInfoItem"16;
-- (void)dingKey_UserInput;
-- (id);
 - (void);
-- (id);
+- (void);
+- (void)already finished! We should not present any more view controllers.;
+- (void)s;
+- (void)?Ø××××××?[[[[[[Û?ûúúúúúê?ÛÚÚÚÚÚê?;
+- (id)ýx§;
+- (unsigned long long)¤÷Ôÿýü;
 
 // Remaining properties
 @property(nonatomic) _Bool adaptiveTemperatureEnabled; // @synthesize adaptiveTemperatureEnabled=_adaptiveTemperatureEnabled;

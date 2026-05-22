@@ -4,5 +4,5 @@
 
 class objc::StringHashTable {
 public: // (access info unavailable from symbols alone)
-    tryGetIndex(char const*) const;
+    auto tryGetIndex(char const*) const;
 };

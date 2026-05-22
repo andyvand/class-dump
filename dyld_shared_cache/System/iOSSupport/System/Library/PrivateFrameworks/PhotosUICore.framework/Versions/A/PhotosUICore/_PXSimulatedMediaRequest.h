@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ryViewCurationButton;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_RequestOptions> simulatedOptions; // @synthesize simulatedOptions=_simulatedOptions;

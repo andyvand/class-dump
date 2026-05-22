@@ -10,13 +10,13 @@
 {
 }
 
-- (double);
-- (_Bool);
 - (void);
-- (double);
+- (_Bool);
 - (id);
-- (void)Ôd;
-- (void)@6;
+- (double);
+- (void)AddGraphForExpression"b1"delegateSupportsLatestEndOfStrokeTimestamp"b1"delegateSupportsCoordinateSpaceForDrawing"b1"delegateSupportsSetHiddenStrokes"b1"delegateSupportsReplaceStrokesWithStrokes"b1"delegateSupportsUpdatedResult"b1"delegateSupportsCreateScrubberController"b1"delegateSupportsCreateTypesetViewController"b1"delegateSupportsCreateTypesetImage"b1"delegateSupportsCreateTypesetImageFromUUID"b1"delegateSupportsSetShouldSolve"b1"delegateSupportsSetShouldSolveUndoable"b1"delegateSupportsAnySetShouldSolve"b1"delegateSupportsSelectStrokes"b1"delegateSupportsTimestampForLatestUserInteraction"b1"delegateSupportsWillPresentPopoverUI"b1"delegateSupportsDidDismissPopoverUI"b1"delegateSupportsResultForLocale"b1};
+- (double)mPosition:offset: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *borderColor;

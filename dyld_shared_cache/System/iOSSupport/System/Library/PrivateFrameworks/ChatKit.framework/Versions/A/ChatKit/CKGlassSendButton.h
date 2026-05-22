@@ -4,22 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MISSING_TYPE;
+
 @interface CKGlassSendButton
 {
     BOOL ckTintColor;
+    MISSING_TYPE *cachedHitTestPath;
 }
 
-+ (struct CGSize)h¤-;
++ (struct CGSize);
 - (BOOL);
+- (void);
 - (void);
 - (struct CGSize);
 - (id);
+- (struct CGSize);
+- (_Bool);
 - (id);
-- (struct CGSize)$£îÿ ;
+- (_Bool)ration:(struct CGPoint)arg1 completion:(id)arg2;
+- (void)uªÿ-[kÐuªÿ-[kÌuªÿõZkÈuªÿ;
+- (_Bool);
+- (void)³Û;
 
 // Remaining properties
 @property(nonatomic) BOOL ckTintColor; // @synthesize ckTintColor;
+@property(nonatomic) _Bool enabled;
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;
+@property(nonatomic) _Bool userInteractionEnabled;
 
 @end
 

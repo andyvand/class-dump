@@ -30,8 +30,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)|ÌL\¤Hhì;
 
 // Remaining properties
 @property(retain, nonatomic) HFPinCode *currentUserPinCode; // @synthesize currentUserPinCode=_currentUserPinCode;

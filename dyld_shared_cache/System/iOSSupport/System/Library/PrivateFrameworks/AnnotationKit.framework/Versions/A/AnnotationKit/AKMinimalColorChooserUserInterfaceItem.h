@@ -13,8 +13,8 @@
     UIColor *_color;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

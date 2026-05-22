@@ -16,10 +16,10 @@
     MISSING_TYPE *isChecked;
 }
 
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ySo5SGURLCG;
 
 @end
 

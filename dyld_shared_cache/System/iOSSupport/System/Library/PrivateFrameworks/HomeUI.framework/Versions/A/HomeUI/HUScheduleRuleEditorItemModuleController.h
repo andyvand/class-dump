@@ -29,9 +29,9 @@
 - (id);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
-- (id)ckControlPresentationCoordinator"16{CGPoint=dd}24;
-- (void)uestsForAllMultiUserCapableDevices;
+- (void)earnMoreButton;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

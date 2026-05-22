@@ -14,25 +14,24 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_listenerKeys;
 }
 
-- (void)SMutableAttributedStringC;
-- (id)g cloudKitAccountInContext.;
-- (void)ou want to move this shared note?;
-- (long long);
 - (void);
-- (_Bool)y
-;
+- (id);
 - (void);
 - (long long);
-- (void)C;
+- (void);
+- (_Bool);
+- (void);
+- (long long);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id)}¬yÓº<G;
-- (void)ÿrà·ÿ;
-- (void)¿sÿÍG2;
-- (void)´».;
-- (void)$ò¨ÿM±2à»/;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)1;
 
 // Remaining properties
 @property(readonly, nonatomic) long long currentDeviceOrientation;

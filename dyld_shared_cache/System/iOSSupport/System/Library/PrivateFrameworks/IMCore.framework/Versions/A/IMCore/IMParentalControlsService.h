@@ -15,15 +15,15 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void)z;
-- (void);
 - (id);
+- (void);
+- (void)¸/;
 
 // Remaining properties
 @property(retain) NSSet *allowlist; // @synthesize allowlist=_allowlist;

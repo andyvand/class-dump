@@ -11,6 +11,7 @@
     MISSING_TYPE *issueReadingHistory;
     MISSING_TYPE *readingHistory;
     MISSING_TYPE *recipeHistory;
+    MISSING_TYPE *puzzleHistory;
 }
 
 @end

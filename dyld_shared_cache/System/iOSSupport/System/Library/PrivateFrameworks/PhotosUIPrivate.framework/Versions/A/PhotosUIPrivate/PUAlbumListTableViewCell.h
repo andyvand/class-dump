@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (struct CGSize)ayer;
+- (struct CGSize);
+- (void)_animateScrollToStyleKindAnimatorUpdated;
 
 // Remaining properties
 @property(nonatomic) __weak id <PUAlbumListTableViewCellDelegate> stateChangeDelegate; // @synthesize stateChangeDelegate=_stateChangeDelegate;

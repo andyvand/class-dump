@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _handler;
 }
 
-- (void)#;
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id),V_trackingAreaCode;
+- (CDUnknownBlockType);
+- (void)cluster;
+- (void)Initiator,sessionID:(id)arg1 %@,%@,%@,wifiDeviceStatusTimeoutBlock timeout fired;
 - (id);
-- (id)8@"SMLocationEvent"16;
-- (void)erride;
-- (CDUnknownBlockType)agateLocationForward got zero propagated locations,returning nil;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ributes:(double)arg1 columnWidth: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double brightness; // @dynamic brightness;

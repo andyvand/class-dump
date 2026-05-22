@@ -22,16 +22,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)ata"32;
-- (id)String"16C24;
-- (void)t:inviteReceivedForSession:fromID:withOptions: /* Error: Ran out of types for this method. */;
-- (void)ndWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)yPredicate: /* Error: Ran out of types for this method. */;
-- (void)ordZone;
-- (void);
-- (id)oidWindow;
-- (void)dingToSession:(id)arg1 withTouchAtPoint:completion: /* Error: Ran out of types for this method. */;
-- (id)sitioning:,V__draggingAndTransitioning /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)0@ù
+× ;
+- (id)uWithoutAnimation];
+- (void)uã_;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *operationPrecedenceArray; // @synthesize operationPrecedenceArray=_operationPrecedenceArray;

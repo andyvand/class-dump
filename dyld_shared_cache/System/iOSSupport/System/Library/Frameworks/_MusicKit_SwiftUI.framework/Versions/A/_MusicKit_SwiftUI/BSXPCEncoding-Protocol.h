@@ -5,5 +5,7 @@
 //
 
 @protocol BSXPCEncoding
+- (void)n;
+- (void);
 @end
 

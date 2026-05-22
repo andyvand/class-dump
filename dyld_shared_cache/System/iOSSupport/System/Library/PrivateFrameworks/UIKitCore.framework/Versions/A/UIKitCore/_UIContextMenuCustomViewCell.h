@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     UIView *_customContentView;
 }
 
-+ (Class)adingFontSize;
++ (Class)§,Ø¤ð\;
 - (void);
-- (id)0B84;
-- (id)rableMessageRecordZoneID;
-- (void);
-- (id)ÿ|j8G;
+- (id);
+- (id);
+- (id)anCancelContentTouches:(struct CGRect)arg1;
+- (void)Xh];
 
 // Remaining properties
 @property(retain, nonatomic) UIView *customContentView; // @synthesize customContentView=_customContentView;

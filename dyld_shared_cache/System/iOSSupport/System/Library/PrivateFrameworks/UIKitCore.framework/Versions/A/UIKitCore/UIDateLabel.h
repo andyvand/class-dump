@@ -26,50 +26,50 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)1¢!0@ù
++ (id)áÐ!Dù_ð1Â0@ù
 × ;
-+ (id);
++ (id)ÿ;
++ (id)ÞÄÉ`õr;
 - (struct CGSize);
-- (id)ocus:filteredByAssistiveAccess: /* Error: Ran out of types for this method. */;
-- (id)eadMessagesCountFilteredByFocus:filteredByAssistiveAccess: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void)legate;
+- (void);
 - (void);
 - (double);
-- (_Bool)has the wrong number of participants than what was expected!;
-- (_Bool)for biz chat, passing along (%@), push handler (%@);
-- (double)d, no file transfer found locally;
-- (double)@, notice:%@ /* Error: Ran out of types for this method. */;
-- (double)ete-update-zone;
-- (id)"NSString"48@"NSData"56B64;
-- (double)Dictionary"24@"NSDictionary"32@40@"NSString"48@"NSData"56B64;
-- (void);
-- (double)ֲ6;
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)k!;
 - (_Bool);
-- (void)1¢!0@ù
+- (_Bool);
+- (double);
+- (double);
+- (double);
+- (id);
+- (double);
+- (void);
+- (double);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void)
 × ;
-- (id)ápÐ!ä@ùÑÃ°1¢!0@ù
+- (id)_ð1Â0@ù
 × ;
-- (double)ionForItem: /* Error: Ran out of types for this method. */;
-- (id)lass getBEAutoFillTextSuggestionClass(void)_block_invoke;
-- (id)tColors = YES;
-- (void)orSettings",N,&,VscaleSpring;
-- (_Bool)B¹h;
-- (struct CGSize)8Ýªÿ;
-- (void):(struct CGRect)arg1;
-- (void);ãn;
+- (_Bool);
+- (void)rtView",&,N,V_bottomLeft;
+- (id)gate",&,N,V_selectableDelegate;
+- (void);
+- (struct CGSize)erfaceStyle;
+- (id)ebugIdentifierLabelSceneComponentKey;
+- (void)L´h;
+- (double)\¡jþH1Ñî·j;
 
 // Remaining properties
 @property(nonatomic) _Bool boldForAllLocales; // @synthesize boldForAllLocales=_boldForAllLocales;

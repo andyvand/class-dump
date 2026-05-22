@@ -4,10 +4,10 @@
 
 class btree<lv_key>::iterator {
 public: // (access info unavailable from symbols alone)
-    iterate_forward();
-    moveto(lv_key const&);
-    moveto_greater(lv_key const&);
-    operator=(btree<lv_key>::iterator const&);
-    operator==(btree<lv_key>::iterator const&) const;
+    auto iterate_forward();
+    auto moveto(lv_key const&);
+    auto moveto_greater(lv_key const&);
+    auto operator=(btree<lv_key>::iterator const&);
+    auto operator==(btree<lv_key>::iterator const&) const;
     ~iterator();
 };

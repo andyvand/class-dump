@@ -7,9 +7,8 @@
 @class NSArray;
 
 @interface (null) (AVFoundation)
-- (void)ka);
-- (id)!7(@y
-Q_i;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *_sourceSampleDataTrackIDs;

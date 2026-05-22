@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
     _UITabContainerView *_tabContainerView;
 }
 
-- (void)ta class to add to miniaml sealing array;
-- (_Bool)lease use AMFDRSealingMapCopyLocalMultiCombinedDataAddDataClass when adding the entire data;
-- (void)perty '%@' (ignored);
-- (void)property %@;
-- (void)I:verify cert %d was issued by %d (success) /* Error: Ran out of types for this method. */;
-- (void)cert was not issued by issuer (subject != issuer);
-- (void)anifest...;
-- (void)ailed to copy challenge callbacks;
-- (id)eateCopyWithOptionsOverride;
-- (_Bool)to add data from recordValueEncoder to recordEncoder;
-- (_Bool)is not 0;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -48,37 +48,36 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (struct UIEdgeInsets)R;
+- (struct UIEdgeInsets);
 - (struct CGRect);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (void)9i;
+- (void);
 - (void);
 - (id);
 - (void);
-- (_Bool)etHandleParametersOfMessageItem:usingAccount:usingMessageItem:junkChatStyle: /* Error: Ran out of types for this method. */;
-- (long long)onHandler:(long long)arg1;
-- (void)",&,N,V_incomingMessageMultiQueue;
-- (id)icationProxy;
-- (void)reRecordsToWrite: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (long long);
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)ù
-× ;
-- (void)\ø¤ý;
-- (id);
-- (long long);
-- (long long)ñ;
-- (long long);
-- (id)4=;
-- (_Bool)nBarTitleDisplayLayer;
-- (long long)°¥Ó¦\;
 - (void);
+- (void)e;
+- (void);
+- (id)eError;
+- (long long)icImpl _collapseSecondaryViewController:ontoPrimaryViewController:] /* Error: Ran out of types for this method. */;
+- (long long)vidingP;
+- (void);
+- (_Bool)¦;
+- (long long)table;
+- (id);
+- (void)Ì·[;
+- (long long)ÿ×<Ú<·];
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets absoluteSidebarInsets;

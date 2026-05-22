@@ -9,13 +9,14 @@
 @protocol UITextInputTraits
 
 @optional
-- (_Bool)raits<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::NetworkResourceLoader>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (void)[Target = WebKit:(_Bool)arg1:WebURLSchemeHandlerCocoa, Source = WebKit::WebURLSchemeHandler] /* Error: Ran out of types for this method. */;
-- (UITextInputPasswordRules *)`;
-- (void);
-- (void)9;
-- (long long)X;
-- (long long)J;
+- (long long)°1Â0@ù
+× ;
+- (long long)Ð!èFùqëð1Â0@ù
+× ;
+- (unsigned long long)1Â0@ù
+× ;
+- (_Bool)yle:compatibleWithTraitCollection: /* Error: Ran out of types for this method. */;
+- (void)PadPopover;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

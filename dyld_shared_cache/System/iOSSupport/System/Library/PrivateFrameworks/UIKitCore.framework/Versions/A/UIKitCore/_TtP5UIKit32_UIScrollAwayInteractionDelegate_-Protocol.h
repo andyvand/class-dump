@@ -5,6 +5,5 @@
 //
 
 @protocol _TtP5UIKit32_UIScrollAwayInteractionDelegate_
-- (void)extension not found;
 @end
 

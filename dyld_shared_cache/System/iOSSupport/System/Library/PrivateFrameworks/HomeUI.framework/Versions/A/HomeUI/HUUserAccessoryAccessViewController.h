@@ -30,9 +30,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (id)4P;
+- (void)ate for home:%@. homeLocationStatus = %@ /* Error: Ran out of types for this method. */;
+- (id)shedOnboarding;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessoryCategoryType; // @synthesize accessoryCategoryType=_accessoryCategoryType;

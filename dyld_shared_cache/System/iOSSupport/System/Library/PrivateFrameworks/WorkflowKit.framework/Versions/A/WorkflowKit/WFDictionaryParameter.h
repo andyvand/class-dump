@@ -10,26 +10,24 @@
 
 @interface WFDictionaryParameter : WFParameter
 {
-    NSString *_localizedItemTypeName;
-    NSString *_localizedNewItemTypeName;
     NSSet *_allowedValueTypes;
 }
 
 - (id);
 - (id);
 - (id);
-- (id)l«°myl¬Ö0%EÉ;
-- (id)%EÉ;
+- (id);
+- (id);
 - (Class);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)ange, either Media or Ringtone. (WFVolumeSetting);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allowedValueTypes; // @synthesize allowedValueTypes=_allowedValueTypes;
-@property(readonly, nonatomic) NSString *localizedItemTypeName; // @synthesize localizedItemTypeName=_localizedItemTypeName;
-@property(readonly, nonatomic) NSString *localizedNewItemTypeName; // @synthesize localizedNewItemTypeName=_localizedNewItemTypeName;
+@property(readonly, nonatomic) NSString *localizedItemTypeName;
+@property(readonly, nonatomic) NSString *localizedNewItemTypeName;
 
 @end
 

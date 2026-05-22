@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (_Bool)\[ÿÔÕm;
++ (_Bool)Continuation:isSuspended:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (unsigned int);
@@ -27,11 +27,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id)ID:(struct _NSZone *)arg1;
-- (id);
-- (void);
 - (unsigned int);
+- (id)0@ù
+× ;
+- (void)d:(id)arg1;
+- (id)N,V_selectedKeyBeforeDictation;
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned int keyAction; // @synthesize keyAction=_keyAction;

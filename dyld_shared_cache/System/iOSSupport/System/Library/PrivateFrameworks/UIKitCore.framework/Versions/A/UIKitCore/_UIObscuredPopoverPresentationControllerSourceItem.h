@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     id <_UIPopoverPresentationControllerSourceItem_Internal> _sourceItem;
 }
 
-+ (id)ould handle;
++ (id);
 - (struct CGRect);
 - (id);
 - (struct CGRect);
-- (id):identifier:style:account: /* Error: Ran out of types for this method. */;
+- (id);
 - (struct CGRect);
-- (id)LA9;
-- (void);
+- (id);
+- (void)<,Ô;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

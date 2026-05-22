@@ -6,14 +6,14 @@ class icu::QuantityFormatter {
 public: // (access info unavailable from symbols alone)
     QuantityFormatter();
     QuantityFormatter(icu::QuantityFormatter const&);
-    addIfAbsent(char const*, icu::UnicodeString const&, UErrorCode&);
-    format(icu::Formattable const&, icu::NumberFormat const&, icu::PluralRules const&, icu::UnicodeString&, icu::FieldPosition&, UErrorCode&) const;
-    format(icu::SimpleFormatter const&, icu::UnicodeString const&, icu::UnicodeString&, icu::FieldPosition&, UErrorCode&);
-    formatAndSelect(double, icu::NumberFormat const&, icu::PluralRules const&, icu::FormattedStringBuilder&, icu::StandardPlural::Form&, UErrorCode&);
-    getByVariant(char const*) const;
-    isValid() const;
-    operator=(icu::QuantityFormatter const&);
-    reset();
-    selectPlural(icu::Formattable const&, icu::NumberFormat const&, icu::PluralRules const&, icu::UnicodeString&, icu::FieldPosition&, UErrorCode&);
+    auto addIfAbsent(char const*, icu::UnicodeString const&, UErrorCode&);
+    auto format(icu::Formattable const&, icu::NumberFormat const&, icu::PluralRules const&, icu::UnicodeString&, icu::FieldPosition&, UErrorCode&) const;
+    auto format(icu::SimpleFormatter const&, icu::UnicodeString const&, icu::UnicodeString&, icu::FieldPosition&, UErrorCode&);
+    auto formatAndSelect(double, icu::NumberFormat const&, icu::PluralRules const&, icu::FormattedStringBuilder&, icu::StandardPlural::Form&, UErrorCode&);
+    auto getByVariant(char const*) const;
+    auto isValid() const;
+    auto operator=(icu::QuantityFormatter const&);
+    auto reset();
+    auto selectPlural(icu::Formattable const&, icu::NumberFormat const&, icu::PluralRules const&, icu::UnicodeString&, icu::FieldPosition&, UErrorCode&);
     ~QuantityFormatter();
 };

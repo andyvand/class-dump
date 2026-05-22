@@ -8,61 +8,16 @@
 @protocol CKBrowserViewControllerSendDelegate, UIViewControllerTransitioningDelegate;
 
 @protocol CKBrowserViewControllerProtocol
-- (_Bool)XîÕ;
-- (_Bool)Þüì;
-- (void)ved;
-- (void)hCache:(_Bool)arg1 attachment:attachmentType:forceFullSizeImage:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ls:(_Bool)arg1;
-- (void)utesInRange:(IMBalloonPluginDataSource *)arg1;
-- (_Bool)nge;
-- (IMBalloonPluginDataSource *)t;
-- (_Bool)detailsControllerDelegate;
+- (_Bool)?]yº]]yþÈÑ¥]GG;
 
 @optional
-- (_Bool)û¯í;
-- (_Bool);
-- (_Bool);
-- (void)9;
-- (unsigned long long)ô;
-- (void)@,pô;
-- (void)EmÕ;
-- (void)oteStop:(id)arg1;
-- (void)umWidth;
-- (void)lPassword;
-- (void)ges;
-- (void)Context:(NSData *)arg1;
-- (void)haracterRange: /* Error: Ran out of types for this method. */;
-- (void)tWithGlobalFallback:(void (^)(NSDictionary *))arg1;
-- (NSData *)LayoutConstraint;
-- (void)irstAttachmentInTextStorage;
-- (id)foDictionaryForAttachmentPresentation: /* Error: Ran out of types for this method. */;
-- (id <UIViewControllerTransitioningDelegate>)derInRect:forPageWithTitle:URL: /* Error: Ran out of types for this method. */;
-- (long long)eiveConsoleLogForTesting: /* Error: Ran out of types for this method. */;
-- (void)r;
-- (void)agraph;
-- (_Bool)ICDocCamImageQuad",C,N;
-- (void);
-- (NSData *)llaboratorAvatarsViewC;
-- (long long);
-- (void)f;
-- (void)ns:%s /* Error: Ran out of types for this method. */;
-- (void)ment without an identifier:%@ %@ /* Error: Ran out of types for this method. */;
-- (void)on of this account’s locked notes, and you won’t need to remember a separate password for them. Just use the passcode or Mac login password on any device signed in to your Apple Account to lock or unlock a note. 
-
-iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
-- (void)your “%@” locked notes—just use your login password.;
-- (void)r have to remember a password for your locked notes—just use your login password or Optic ID.;
-- (void)ed notes—just use your login password or Face ID.;
-- (void)@"NSError">8;
-- (void)sentation"8@"NSError"16;
-- (void)�;
-- (void)R;
-- (void)ion.framework/Versions/A/CoreLocation;
-- (unsigned long long)vigationController (_hideConversationListForIPadPPTTest) children:%@ /* Error: Ran out of types for this method. */;
-- (NSString *)scenes to activate for delegate class:%@. Requesting activation without a scene session which should create one. /* Error: Ran out of types for this method. */;
-- (NSString *)edToMessages;
-- (NSNumber *)CreationDate;
-- (NSArray *)text;
+- (UIViewController *)Ô ;
+- (NSString *);
+- (NSString *)s;
+- (void)¶;
+- (unsigned long long)í)\yAAy¬&\y¶Ô_ABy½)\y_[â[GGSgQo_ÔGGO%\G;
+- (NSArray *)ary password:[%@] /* Error: Ran out of types for this method. */;
+- (NSNumber *);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *adamID;

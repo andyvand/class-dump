@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     CALayer *_contentLayer;
 }
 
-- (void)lButton;
-- (id)ing();
-- (void)es/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/WebView/NoteHTMLEditorView.m;
-- (long long)NSDictionary"8@"NSDictionary"16@"NSError"24;
+- (void);
+- (id);
+- (void);
+- (long long);
 - (void);
 - (id);
 - (void);
 - (double);
-- (void)RecentOccurrenceForWeekdayOfDate:(id)arg1;
+- (void)À#ÿ1#;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *animationLayer; // @synthesize animationLayer=_animationLayer;

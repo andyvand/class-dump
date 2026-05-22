@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)aryDisabled;
-- (id)entifier: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
 - (void);
-- (id)r"40@?<v@?B>48;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void).7;
+- (id);
+- (void)lic}@ %{public}@ %2i %{public}@  â delegatedAccount:%{public}@; delegatedDeviceName:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelGenericObject *genericObject; // @synthesize genericObject=_genericObject;

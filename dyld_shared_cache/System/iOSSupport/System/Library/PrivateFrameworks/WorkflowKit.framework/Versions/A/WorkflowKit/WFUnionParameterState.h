@@ -4,45 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-@protocol WFPropertyListObject;
+#import <WorkflowKit/WFVariableSubstitutableParameterState.h>
 
-@interface WFUnionParameterState
+@interface WFUnionParameterState : WFVariableSubstitutableParameterState
 {
-    NSString *_which;
-    NSDictionary *_states;
 }
 
 + (id);
++ (id);
++ (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)arItemTitle,WFCalendarDescriptor,WFAlertEnabled(Alert),WFAlertCondition(When I Leave),WFAlertLocation;
-
-// Remaining properties
-@property(readonly, nonatomic) NSArray *containedVariables;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <WFPropertyListObject> legacySerializedRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<WFPropertyListObject>",?,R,N
-
-@property(readonly, nonatomic) id <WFPropertyListObject> serializedRepresentation;
-@property(readonly, copy, nonatomic) NSDictionary *states; // @synthesize states=_states;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *which; // @synthesize which=_which;
 
 @end
 

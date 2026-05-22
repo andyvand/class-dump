@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)raFactoryDataClassInstance failed;
-- (void)ULL;
-- (long long)Str is NULL;
-- (_Bool)ntextSrc is invalid;
-- (_Bool)ta to certificationRequestInfo;
+- (void);
+- (void);
+- (long long);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (unsigned long long);

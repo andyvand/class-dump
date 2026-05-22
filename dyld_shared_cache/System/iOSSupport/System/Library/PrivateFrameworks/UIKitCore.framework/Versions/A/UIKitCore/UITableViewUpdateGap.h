@@ -20,19 +20,22 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (id)itemAtIndexPath:(id)arg1;
-- (_Bool);
-- (_Bool);
 - (id);
-- (void);
-- (void)GPoint=dd}32Q48;
-- (void)GSize=dd}16@0:(id)arg1 8;
-- (_Bool)ontroller: /* Error: Ran out of types for this method. */;
-- (id)rredTop;
-- (id)yForEntry:currentOffset: /* Error: Ran out of types for this method. */;
-- (id)ansitionMaskImage;
-- (id)¨;
-- (void)8çÿ\çÿçÿ¼çÿøçÿôçÿçÿ<çÿ(çÿ4çÿ@çÿLçÿXçÿdçÿpçÿ|çÿçÿçÿ çÿ¬çÿ¸çÿüçÿ0çÿTçÿxçÿçÿØçÿçÿ0çÿlçÿçÿ´çÿØçÿçÿHçÿ¬çÿÐçÿôçÿçÿ<çÿpçÿçÿ0çÿÄçÿÜçÿçÿ<çÿlçÿ0çÿTçÿÄçÿçÿ(çÿLçÿçÿçÿ¨çÿ´çÿÀçÿdçÿhçÿ¤çÿÈçÿìçÿ(çÿTçÿÈçÿ¤çÿ;
+- (id);
+- (id);
+- (void)Ô ;
+- (_Bool)
+× ;
+- (id)0@ù
+× ;
+- (_Bool)!<EùÑdð1Â0@ù
+× ;
+- (id)ar;
+- (_Bool)l_cooldown;
+- (void)ÿÿ¸ÿÿÐÿÿèÿÿ;
+- (void);
+- (id)33b;
+- (void)O ÿÎÇd;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *deleteItems;

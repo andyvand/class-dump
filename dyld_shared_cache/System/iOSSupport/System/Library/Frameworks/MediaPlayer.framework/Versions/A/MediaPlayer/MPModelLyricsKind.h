@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)ath:content:accountIdentifier:accountHandles:accountType:attachment:URL:contentProtection:isNew:isTwoFactorCode:isFromMe:isGroupThread:isJunk:isRead:isPinned:isBusinessChat:tapbackAssociatedMessageID:tapbackType:messageType:messagesService:messageEffect:isKnownSender:conversationUUID: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 
 @end

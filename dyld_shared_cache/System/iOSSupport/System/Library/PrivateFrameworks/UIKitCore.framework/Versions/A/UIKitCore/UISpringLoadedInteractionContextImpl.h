@@ -18,21 +18,22 @@ __attribute__((visibility("hidden")))
     UISpringLoadedGestureRecognizer *_currentRecognizer;
 }
 
-- (void)8;
-- (void)ng"40@"NSData"48;
-- (void):(id)arg1 account: /* Error: Ran out of types for this method. */;
-- (id)ContentsOfURL: /* Error: Ran out of types for this method. */;
-- (id)ataWithContentsOfFile: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)× ;
-- (long long)ransactionCommits: /* Error: Ran out of types for this method. */;
-- (id)×ö ];
-- (struct CGPoint)&gd;
-- (id);
+- (id);
+- (void)0@ù
+× ;
+- (long long)Change"b1"updatingLayout"b1"needsReload"b1"reloading"b1"skipLayoutDuringSnapshotting"b1"layoutInvalidatedSinceLastCellUpdate"b1"doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"ignoreBatchUpdatesAndFallBackToReloadData"b1"updatingVisibleCells"b1"backgroundColorSet"b1"preRotationBoundsSet"b1"updateFocusAfterItemAnimations"b1"remembersLastFocusedIndexPath"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"creatingViewFromPreferredFocusedView"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"editing"b1"clientSetDerivesVisibleBoundsFromContainingScrollView"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
+- (struct CGPoint)alue:(id)arg1;
+- (id)\K³ÿXØÀ|^;
+- (void)`c;
 
 // Remaining properties
 @property(nonatomic) __weak UISpringLoadedGestureRecognizer *currentRecognizer; // @synthesize currentRecognizer=_currentRecognizer;

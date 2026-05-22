@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (long long);
 - (id);
+- (long long)emsCount;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType chapterChangeRequest; // @synthesize chapterChangeRequest=_chapterChangeRequest;

@@ -5,10 +5,11 @@
 //
 
 @protocol UIFeedbackGeneratorUserInteractionDriven
-- (void)w;
-- (void)U¥þÿÿÿÿ;
-- (void)aterial;
-- (void)PlatterLayout;
-- (void);
+- (void)Ô;
+- (void)xForce;
+- (void)IKBRTICustomInfoTypeTypologyLogOperations;
+- (void)ultitapComplete;
+- (void)d;
+- (void)Z;
 @end
 

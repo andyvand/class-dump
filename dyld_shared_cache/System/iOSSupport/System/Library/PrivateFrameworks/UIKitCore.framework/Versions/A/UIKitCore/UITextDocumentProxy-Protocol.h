@@ -7,12 +7,9 @@
 @class NSString, NSUUID, UITextInputMode;
 
 @protocol UITextDocumentProxy
-- (NSUUID *)6,8221;
-- (void)r!BùñÅ1¢!0@ù
-× ;
-- (NSString *)eneDidBeginLiveResizeNotification;
-- (void)nsafe_unretained _Nonnull);
-- (UITextInputMode *)skþE;
+- (UITextInputMode *)1;
+- (void)ationScheduler;
+- (NSString *)xÁ[;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *documentContextAfterInput;

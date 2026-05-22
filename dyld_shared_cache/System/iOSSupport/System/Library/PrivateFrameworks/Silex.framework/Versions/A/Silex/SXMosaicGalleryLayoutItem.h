@@ -12,8 +12,8 @@
 
 - (int);
 - (id);
-- (struct CGSize);
 - (id);
+- (struct CGSize);
 - (double);
 
 // Remaining properties

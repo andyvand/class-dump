@@ -26,33 +26,32 @@
     double *__temp;
 }
 
-+ (id)_UINavigationBarContentGuide.trailing;
-+ (_Bool)2;
-- (id);
-- (void)DSAccount"24@"NSDictionary"32@"NSString"40@"IDSMessageContext"48;
-- (double *)156@164@172@180@188@196@204B212B216B220B224B228q232q240@?248;
-- (unsigned long long)Type:name:identifier:count:error: /* Error: Ran out of types for this method. */;
-- (void)ocalPeers:(CDUnknownBlockType)arg1;
-- (unsigned long long)Block: /* Error: Ran out of types for this method. */;
-- (double *)gistry:vocabulary: /* Error: Ran out of types for this method. */;
-- (double *)rsation: /* Error: Ran out of types for this method. */;
-- (double *)ngedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
-- (int)ies:toDirectory: /* Error: Ran out of types for this method. */;
-- (double *)MSRelay: /* Error: Ran out of types for this method. */;
-- (const double *);
-- (double *)<;
++ (id)setControlState:animated: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
 - (double *);
-- (_Bool);
-- (id);
-- (void);
-- (id);
 - (unsigned long long);
 - (void);
-- (void)!¼DùñÆð1¢!0@ù
-× ;
-- (id)eDescriptionForConstraintsAffectingVerticalAxis;
+- (unsigned long long);
+- (double *);
+- (double *);
+- (double *);
+- (int);
+- (double *);
+- (double *);
+- (const double *);
+- (id);
+- (double *);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool)lAccessoryManager";
+- (void)dientEnd;
+- (id)iveFlattened;
+- (void)to determine transform phase because the hidEvent is nil;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double *_cggetriWorkspace; // @synthesize _cggetriWorkspace=__cggetriWorkspace;

@@ -4,5 +4,5 @@
 
 class swift::TargetMetadata<swift::InProcess> {
 public: // (access info unavailable from symbols alone)
-    getTypeContextDescriptor() const;
+    auto getTypeContextDescriptor() const;
 };

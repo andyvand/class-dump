@@ -26,10 +26,11 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
 - (id);
 - (void);
+- (_Bool);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

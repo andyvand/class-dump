@@ -23,64 +23,64 @@
 }
 
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)aration_Status;
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
+- (unsigned long long);
 - (void);
 - (id);
-- (void)ort, std:(id)arg1:(id)arg2 __hash_value_type<unsigned short, unsigned long>, std:(unsigned long long)arg3:(_Bool)arg4 hash<unsigned short>, std:(CDUnknownBlockType)arg5:equal_to<unsigned short>>, std::__unordered_map_equal<unsigned short, std::__hash_value_type<unsigned short, unsigned long>, std::equal_to<unsigned short>, std::hash<unsigned short>>, std::allocator<std::__hash_value_type<unsigned short, unsigned long>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)ayVisualIdenticalityForCatalog:(unsigned long long)arg1;
 - (void);
-- (void);
-- (id);
-- (_Bool)$;
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void)ë;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (CDStruct_324b76a9);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool)× ;
+- (id);
+- (void)1Â0@ù
+× ;
+- (void)!ÐEùQ]Ð1Â0@ù
+× ;
+- (void)Ô ;
+- (void)!`Bù^1Â0@ù
+× ;
+- (void)A	°!,Cùqe1Â0@ù
+× ;
 - (void)
 × ;
-- (id)Ô ;
-- (void)!GùQÇÐ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (struct CGRect)!èAùQÉ1¢!0@ù
-× ;
+- (id)2Q40;
+- (id)@"UIView"16@?<@"UIPointerShape"@?>24;
+- (void)le;
+- (void)izeGivenSize:(unsigned long long)arg1;
+- (void)opSidebarInset;
+- (unsigned long long)d;
+- (void)nDidEnd;
+- (id)iveToURL: /* Error: Ran out of types for this method. */;
+- (void)int=dd},N,V_screenEntryPoint;
+- (void)andler,S_setDidEndSwipingHandler:(id)arg1 ,V_didEndSwipingHandler;
+- (id)ape: /* Error: Ran out of types for this method. */;
+- (void)ymbolContentTransition",&,N,V_contentTransition;
+- (id):(id)arg1 ,V_delegate;
 - (id);
-- (unsigned long long)1¢!0@ù
-× ;
-- (void)etBadgeStyle:(_Bool)arg1;
-- (id)me;
-- (void)t;
-- (void)tic:(id)arg1;
-- (void)s;
-- (void)d:(unsigned long long)arg1;
-- (void)n;
-- (void)tionReasons:(id)arg1 fromReasons: /* Error: Ran out of types for this method. */;
-- (id)ate:,V_searchFieldContainerLayoutCustomizationDelegate /* Error: Ran out of types for this method. */;
-- (void)feedbacks;
-- (_Bool)SearchTokenAttachmentViewProvider;
-- (void)ÈHÜ0È;
-- (_Bool)ðdñ¼ýlþhÿ ;
-- (void)q\íÇ4qîÇq<îÇølr<ïÇxsrÈïÇÄÌrÜïÇDsôïÇÈs@ðÇl4sXðÇ(DsxðÇh~s°ðÇÃsÐðÇøåsäðÇ´<tdñÇÐ@tÌñÇdEtòÇ^tlòÇ¶tÐòÇîtðòÇàøtóÇàútDóÇtuóÇlQu¬óÇðuÀóÇ ±uÔóÇDÖuDôÇ<ãuöÇôçu,öÇð;vöÇPCv¨öÇ,OvèöÇÔRvüöÇÀfv÷Ç~v0÷Çìvd÷Çªv|÷Ç @w@øÇ$ÀwxøÇ¤;xøÇ4KxÜøÇÄZx;
-- (_Bool)Unexpected settings for display client component:(id)arg1 %@;
-- (CDStruct_324b76a9)not register for battery change notification;
-- (void)mGrayTintColor;
+- (void)ë¸ë;
+- (void)lidChunkType;
+- (struct CGRect)imary;
+- (id)edForSceneAndIdiom(UIScene *__unsafe_unretained, UIUserInterfaceIdiom);
+- (void)l=(ÿØÄ;
+- (void)ÈÌ¸Yc;
+- (void)8þc;
 - (id);
-- (void)inkInvalidated;
-- (void)ä±71;
-- (void)6¸>;
-- (id)ÉÁ_;
-- (id)J<`;
-- (id)Ûÿ*¦;
-- (void)ïh;
+- (void):(CDUnknownBlockType)arg1 ¬Ïg;
+- (void)dÕj;
+- (void)i;
 
 // Remaining properties
 @property(nonatomic) __weak UIScrollView *containerView; // @synthesize containerView=_containerView;

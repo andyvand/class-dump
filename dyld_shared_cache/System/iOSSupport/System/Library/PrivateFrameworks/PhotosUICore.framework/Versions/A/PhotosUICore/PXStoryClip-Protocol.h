@@ -8,8 +8,8 @@
 @protocol PXStoryResource;
 
 @protocol PXStoryClip
-- (CDStruct_c8120fa9)ntext: /* Error: Ran out of types for this method. */;
-- (long long)ypesettingMode;
+- (long long)izzled_oneUpPresentation_viewDidAppear: /* Error: Ran out of types for this method. */;
+- (CDStruct_c8120fa9)t",&,N,V_fullsizeContentPlacementOverride;
 
 // Remaining properties
 @property(readonly, nonatomic) PFStoryRecipeDisplayAssetNormalization *colorNormalization;

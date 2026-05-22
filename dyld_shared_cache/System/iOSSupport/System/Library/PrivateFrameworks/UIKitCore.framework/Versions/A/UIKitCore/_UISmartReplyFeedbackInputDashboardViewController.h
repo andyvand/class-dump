@@ -17,17 +17,19 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)DomainMatch;
 - (_Bool);
 - (void);
-- (_Bool)PStoreItemLibraryImportLookupElement;
+- (id);
+- (double)1Â0@ù
+× ;
+- (void)!ð!ÐEùQaÐ1Â0@ù
+× ;
+- (_Bool)CanCut:(id)arg1;
+- (id)lass found for type %@;
+- (void)@?0;
 - (void);
-- (double);
-- (id)eTapGestureRecognizer;
-- (void)distributionArrangement=%p alignmentArrangement=%p;
-- (id)berAlpha;
-- (void)@¯@õJY8Öí?räòî?+Ùî?|a2U0ê?«>W[±¿ê?+öÝë?ç;dîð?ç;dîð¿)\Âõ(¬?Ãõ(\Âá?;
-- (void);
+- (void)barVisualProvider;
+- (void)hã^;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backdropView; // @synthesize backdropView=_backdropView;

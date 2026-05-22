@@ -25,15 +25,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (id)PushHandler"16@"IMDRelayGroupMutationMessage"24@"NSNumber"32@"NSNumber"40@"NSData"48@"NSString"56B64;
-- (id)for this group chat. We will kick off a background request in case others in the chat had previously set one before this device was added. toIdentifier:(_Bool)arg1 %@, fromIdentifier:%@, chat:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void)Áw°!EùñÌÐ1¢!0@ù
+- (id);
+- (id);
+- (void)!èAùa1Â0@ù
 × ;
-- (void)KeyState;
-- (id)$þÿþÿàþÿ(þÿPþÿhþÿþÿþÿ°þÿØþÿH¢þÿ8£þÿx£þÿ£þÿ¨£þÿÀ£þÿØ£þÿð£þÿ¤þÿ ¤þÿ8¤þÿP¤þÿh¤þÿ¤þÿ ¤þÿ¸¤þÿä¤þÿ¥þÿ0¥þÿ¼¥þÿÔ¥þÿì¥þÿ¦þÿ4¦þÿL¦þÿd¦þÿ|¦þÿ¦þÿ¸¦þÿÜ¦þÿô¦þÿ §þÿ©þÿ<©þÿp©þÿ©þÿ¼©þÿªþÿ4ªþÿ$«þÿl«þÿ«þÿ$¬þÿô¬þÿ­þÿD­þÿl­þÿ­þÿ¼­þÿä­þÿ|¯þÿÜ¯þÿü°þÿ$±þÿL±þÿd±þÿ|±þÿ±þÿ¼±þÿ²þÿ$³þÿp³þÿ ³þÿÈ³þÿh´þÿ´þÿ°´þÿÈ´þÿµþÿµþÿl¶þÿ´¶þÿ·þÿH·þÿ·þÿ8ºþÿXºþÿpºþÿ°ºþÿÈºþÿ0¼þÿH¼þÿt¼þÿ¼þÿ;
-- (long long)al inconsistency:unknown accessory style ( /* Error: Ran out of types for this method. */;
-- (id)_UISearchControllerInlineSearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView;
+- (void)r:(id)arg1 shouldQueryForSnapshotForExpandingParentItem: /* Error: Ran out of types for this method. */;
+- (long long)3Ø½þ­·03h½þ­·03ø½þ;
+- (id)@ÂR0íÛ33;
+- (void)|a];
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIShape *contentShape;

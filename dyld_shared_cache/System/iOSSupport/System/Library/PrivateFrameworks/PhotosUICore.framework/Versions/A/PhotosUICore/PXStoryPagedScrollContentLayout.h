@@ -44,13 +44,13 @@
 - (void);
 - (void);
 - (void);
-- (void)RÒ;
 - (id);
+- (void);
+- (id)"16@"PXTilingControllerCompositionInvalidationContext"24;
+- (id)erlayOpacity;
+- (void)Result(PHFetchResult<PHAsset *> *__strong _Nonnull);
+- (void)m_Æäóÿ=_Æÿ_Æÿ_Æÿ-_Æ(ÿ-_Æ@ÿ-_ÆhÿM_Æÿí^Æÿõ^ÆÿÍ^Æ¨ÿ_Æ´ÿ­^ÆÀÿ­^Æ|óÿõ^ÆÄÿ-_ÆÌÿý^ÆÜÿ;
 - (long long);
-- (id);
-- (id);
-- (void)pTimeRange;
-- (void)[x3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -37,11 +37,11 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)ModalityButton;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *audioTranscriptionsAreEnabled; // @synthesize audioTranscriptionsAreEnabled=_audioTranscriptionsAreEnabled;

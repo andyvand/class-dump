@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView, UIView;
+@class UIScrollView;
 
 @protocol UIScrollViewDelegate
 
 @optional
-- (UIView *)h;
-- (void)a;
-- (void)Nv;
-- (void)StickerSchedulerCancelledStickerSheetTasksForIdentifier:(UIScrollView *)arg1;
-- (void)Needed;
+- (void)r:(UIScrollView *)arg1;
 @end
 

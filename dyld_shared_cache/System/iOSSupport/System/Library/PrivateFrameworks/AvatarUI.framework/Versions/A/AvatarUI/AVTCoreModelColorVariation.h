@@ -14,11 +14,11 @@
 
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) AVTCoreModelColor *color; // @synthesize color=_color;

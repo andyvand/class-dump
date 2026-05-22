@@ -27,13 +27,13 @@
 - (void);
 - (void);
 - (void);
-- (long long)i;
+- (long long);
 - (double);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -45,27 +45,27 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id)$;
-- (void);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (id);
 - (void);
-- (id);
 - (void);
 - (unsigned long long);
-- (id)!(Gù±ð1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (id)á!èEù&1Â0@ù
 × ;
-- (id)EdgeInsets;
-- (void)tsUI23JSPackageLoadingTracker;
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;

@@ -4,7 +4,7 @@
 
 class std::__moneypunct_cache<wchar_t, false> {
 public: // (access info unavailable from symbols alone)
-    _M_cache(std::locale const&);
     __moneypunct_cache(unsigned long);
+    auto _M_cache(std::locale const&);
     ~__moneypunct_cache();
 };

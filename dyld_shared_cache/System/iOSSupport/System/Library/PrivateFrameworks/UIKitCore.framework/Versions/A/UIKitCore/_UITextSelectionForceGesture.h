@@ -25,55 +25,52 @@
     struct CGRect _velocityRange;
 }
 
-- (double);
-- (long long);
-- (struct CGPoint);
-- (struct CGPoint);
 - (void);
-- (struct CGPoint);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (double);
-- (_Bool);
 - (void);
-- (_Bool)mportElements:referralObject:usingCloudLibraryDestination: /* Error: Ran out of types for this method. */;
-- (id),R,N,V_prepareForSetPlaybackQueueCommand;
-- (id);
-- (void)H
+- (struct CGRect);
+- (id)qgð1Â0@ù
+× ;
+- (void)imaryProgress:(id)arg1;
+- (void)etToUpgrade;
+- (void)joint;
+- (void)T;
+- (_Bool)/height. {%f, %f};
+- (double)napshotting a view (%p, %@) that has not been rendered at least once requires afterScreenUpdates:YES. /* Error: Ran out of types for this method. */;
+- (_Bool)for already finished view service connection request '%@' :%{public}@ /* Error: Ran out of types for this method. */;
+- (id)g engines used for %@:%@ -> %@ /* Error: Ran out of types for this method. */;
+- (void)ngInvalidation is nil, should be non-nil;
+- (id);
+- (_Bool);
+- (void)j»ÿÿðïÿöìïÿ;
+- (struct CGPoint)singPlainText:(id)arg1 %d
 ;
-- (void);
-- (struct CGPoint)â|¬;
-- (void)
-× ;
-- (void)ñÄÐ1¢!0@ù
-× ;
+- (struct CGPoint)cDimension.;
+- (_Bool)eyboardPrivateDidChangeFrameNotification;
+- (void)SceneZoomTransitionClientComponent.m;
+- (long long)troller;
+- (void)ActiveBlueGradientStart;
+- (id)ot defined for the UIColor %@; need to first convert colorspace.;
+- (_Bool)UIKit.kbProductivity.threeFingerSingleTap;
+- (struct CGPoint)B32@?0@"_UIFocusGroup"8Q16^B24;
+- (_Bool)hasisStylesComponent;
+- (void)e == NSDirectionalRectEdgeBottom;
+- (void)WithReuseIdentifier:(long long)arg1 forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
+- (void)roller idle];
+- (long long);
+- (struct CGPoint)ers.glassBackground.inputBleedColorMatrixSaturation;
 - (struct CGPoint);
-- (void)0@ù
-× ;
-- (void)!¬Fù1ÏÐ1¢!0@ù
-× ;
-- (void)rray"32@0:(id)arg1 8@"UIWebDocumentView"16@"NSArray"24;
-- (void)24@0:(long long)arg1 8@"<_UISceneLayoutPreferencesControllerObserver>"16;
-- (void)ateUISettingsWithTransitionBlock:(id)arg1;
-- (void)lor:(double)arg1;
-- (void)tMappingPrefix:toURI: /* Error: Ran out of types for this method. */;
-- (_Bool)Number;
-- (_Bool)mentDirection:(struct CGPoint)arg1 itemSize:(struct CGPoint)arg2;
-- (void)tomInputDelegateSelectionController;
-- (void)viousKeyWindowDidChangeVisibility;
-- (struct CGPoint)ngPropagation: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)rRadius;
-- (void)is incompatible with UIScene lifecycle;
-- (struct UIOffset)(ÿÿÿÿÿÿôH{þÿÿÿLÿÿÿ;
+- (void)&Íþÿ;
+- (void)entCG;
+- (struct CGPoint)UÞ13DTqþÞ13TqþÕÞ13\Uqþ¥Þ13Tqþ;
+- (struct CGPoint);
 - (void);
-- (void)applySmoothnessViaGaussianRadius;
-- (void)03barbC0_So6UIViewC4viewtG;
-- (struct CGPoint)stFromLocation = %f:(id)arg1 %f;
-- (id)movement on non-target axis (%f);
-- (id)lt title of a document user activity.;
-- (void)tatusBar;
-- (struct CGRect)U	;
+- (void)UIAnimatableCornerRadii;
+- (struct UIOffset);
+- (void);
+- (void);
+- (double);
+- (void)à\;
+- (struct CGPoint)1ÿW;
 
 // Remaining properties
 @property(readonly, getter=_liftOffSample) UIKBPanGestureVelocitySample *_liftOffSample; // @synthesize _liftOffSample;

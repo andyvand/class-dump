@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (id)irection:(id)arg1;
-- (id)=;
-- (void);
+- (id);
+- (id);
 - (long long);
+- (void)oArtworkCatalogBlock_KEY;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *dpInfoData;

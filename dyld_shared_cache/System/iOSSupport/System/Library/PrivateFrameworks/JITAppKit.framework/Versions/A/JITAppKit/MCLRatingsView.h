@@ -23,15 +23,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (double);
 - (double);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (double)þÿMA,þÿmA<þÿ5ALþÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool actionVariant; // @synthesize actionVariant=_actionVariant;

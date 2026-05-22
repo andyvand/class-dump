@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)~C6;
+- (id)ntroller>",W,N;
 
 @end
 

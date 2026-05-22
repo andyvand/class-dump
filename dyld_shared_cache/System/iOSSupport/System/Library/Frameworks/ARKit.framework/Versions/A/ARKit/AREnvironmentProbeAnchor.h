@@ -45,10 +45,10 @@
 - (id);
 - (MISSING_TYPE *);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) float averageIntensity; // @synthesize averageIntensity=_averageIntensity;

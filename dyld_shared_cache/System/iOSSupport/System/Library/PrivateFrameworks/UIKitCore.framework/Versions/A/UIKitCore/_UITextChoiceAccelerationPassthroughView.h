@@ -18,24 +18,25 @@ __attribute__((visibility("hidden")))
     _UIEditMenuDismissalGestureRecognizer *_dismissalGestureRecognizer;
 }
 
-- (_Bool)array for data class '%@', but incomplete or unsealed data entitlement is present;
-- (id)@;
+- (_Bool);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void)t: /* Error: Ran out of types for this method. */;
-- (_Bool)nference:(struct CGPoint)arg1 account:(id)arg2;
-- (id)centEncodingWithAllowedCharacters:(struct CGRect)arg1;
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
-- (void)1¢!0@ù
+- (id);
+- (id)0@ù
 × ;
-- (void)neSession;
-- (id);
-- (void)AJG_G;
+- (void)!ÜBù1b1Â0@ù
+× ;
+- (void)en:(struct CGRect)arg1 toScreen: /* Error: Ran out of types for this method. */;
+- (void)V_delegate;
+- (void)Snapshotter;
+- (void)namicParameterIDAudioReleaseTimeControl;
+- (void)03z_Xx;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -14,13 +14,13 @@
 }
 
 - (unsigned long long);
+- (float);
+- (float);
 - (_Bool);
 - (id);
+- (id);
 - (void);
-- (float);
-- (float);
-- (id);
-- (id);
+- (id)pletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) float height; // @synthesize height=_height;

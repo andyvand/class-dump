@@ -18,8 +18,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)rentView:contentView: /* Error: Ran out of types for this method. */;
 
 @end
 

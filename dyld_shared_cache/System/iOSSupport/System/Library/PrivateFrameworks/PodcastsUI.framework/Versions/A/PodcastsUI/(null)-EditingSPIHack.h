@@ -5,8 +5,8 @@
 //
 
 @interface (null) (EditingSPIHack)
-- (void) ;
-- (_Bool)!;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isEditing) _Bool editing; // @dynamic editing;

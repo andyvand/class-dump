@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)leSortStrategyProgrammableSwitch;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *controlConstraints; // @synthesize controlConstraints=_controlConstraints;

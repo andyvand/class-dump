@@ -32,17 +32,14 @@
 - (void);
 - (double);
 - (unsigned long long);
-- (id);
 - (struct _NSRange);
 - (id);
 - (id);
-- (void);
-- (id)0@ù
-× ;
-- (id)Animation Started:(unsigned long long)arg1 %lu:%@
-
- /* Error: Ran out of types for this method. */;
-- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long)×c;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange assetIndexRange;

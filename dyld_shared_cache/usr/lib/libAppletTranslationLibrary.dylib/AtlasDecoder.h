@@ -33,7 +33,6 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -45,14 +44,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id)retrieve:%@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -61,19 +60,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)ۺ;
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)ory: /* Error: Ran out of types for this method. */;
 
 @end
 

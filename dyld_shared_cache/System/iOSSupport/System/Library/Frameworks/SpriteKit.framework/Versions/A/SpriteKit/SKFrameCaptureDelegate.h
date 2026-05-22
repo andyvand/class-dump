@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)ntOrientingToPoint:inNode:offset: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

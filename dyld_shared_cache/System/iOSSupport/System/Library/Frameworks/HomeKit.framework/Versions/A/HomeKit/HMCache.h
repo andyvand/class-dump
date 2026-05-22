@@ -15,22 +15,22 @@
     NSString *_cacheName;
 }
 
-+ (id)8'(),;
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
++ (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)8@"NSError"16;
-- (void)MÚÿ ¤¢!ñ;
-- (void)Ôÿ;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)HMSettings",R,V_settings;
+- (void)0x;
+- (id);
+- (void)óÒÿ¨;
 
 // Remaining properties
 @property(readonly, copy) NSString *cacheName; // @synthesize cacheName=_cacheName;

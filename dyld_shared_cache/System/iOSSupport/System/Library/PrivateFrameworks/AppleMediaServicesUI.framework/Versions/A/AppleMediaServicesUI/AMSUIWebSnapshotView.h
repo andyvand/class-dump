@@ -31,9 +31,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)hadowOpacity: /* Error: Ran out of types for this method. */;
+- (void)yAction;
+- (id)tGA2DtGGG_53y3yytAQG_A_yytAEyATy¨1GAIy?1SgGGGtGQo_;
 
 // Remaining properties
 @property(nonatomic) long long originalInterfaceStyle; // @synthesize originalInterfaceStyle=_originalInterfaceStyle;

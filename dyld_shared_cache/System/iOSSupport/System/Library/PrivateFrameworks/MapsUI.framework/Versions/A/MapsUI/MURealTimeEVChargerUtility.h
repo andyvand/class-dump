@@ -10,8 +10,8 @@
 
 + (id);
 + (id);
-- (void);
 - (id);
+- (void)ileCellConfiguration",R,N,V_cellConfiguration;
 
 @end
 

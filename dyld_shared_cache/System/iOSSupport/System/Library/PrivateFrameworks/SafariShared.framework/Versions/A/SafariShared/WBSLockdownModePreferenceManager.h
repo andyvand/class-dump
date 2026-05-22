@@ -21,14 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (id)?k`;
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

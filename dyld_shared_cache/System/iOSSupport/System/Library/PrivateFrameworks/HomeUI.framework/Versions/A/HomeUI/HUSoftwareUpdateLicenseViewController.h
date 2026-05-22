@@ -34,21 +34,21 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
-- (id)leted);
-- (void)àö;
 - (id);
-- (void)Ò÷;
+- (void);
+- (void);
+- (id)lDigitCharacterSet;
+- (void)_block;
+- (id);
+- (void)onChange called, newValue %{bool}d;
+- (id)tics;
+- (void);
+- (id);
+- (void)´C;
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

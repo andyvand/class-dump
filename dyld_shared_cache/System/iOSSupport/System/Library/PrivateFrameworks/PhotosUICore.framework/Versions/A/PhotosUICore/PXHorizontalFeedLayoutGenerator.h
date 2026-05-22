@@ -31,8 +31,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
 - (_Bool);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double referenceHeight; // @synthesize referenceHeight=_referenceHeight;

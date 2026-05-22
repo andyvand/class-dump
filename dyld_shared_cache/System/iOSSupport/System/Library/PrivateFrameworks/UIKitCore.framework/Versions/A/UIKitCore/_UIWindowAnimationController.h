@@ -13,17 +13,17 @@ __attribute__((visibility("hidden")))
     UIWindow *_window;
 }
 
-+ (id)<IMRecoverJunkCommandPipelineParameter %p; GUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; isFromMe = %@; OUTPUT chat = %@;;
-- (id);
-- (void)!TCùñÄð1¢!0@ù
-× ;
-- (void)igationBarAnimateOnEnd;
-- (id)ing;
-- (_Bool);
-- (void);
-- (void)õ;
++ (id);
 - (double);
 - (void);
+- (id);
+- (void);
+- (id);
+- (_Bool)Ð1Â0@ù
+× ;
+- (void)reRecognizer;
+- (void)GlowBlurRadius;
+- (void)utomaticStyle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

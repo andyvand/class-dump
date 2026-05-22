@@ -5,8 +5,7 @@
 //
 
 @protocol PKPaletteViewStateSubject
-- (double)ytes: /* Error: Ran out of types for this method. */;
-- (_Bool)eTransform=dddddd}120;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAutoHideEnabled) _Bool autoHideEnabled;

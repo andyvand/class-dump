@@ -14,13 +14,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
 - (void);
+- (id)qb°1Â0@ù
+× ;
 - (void);
-- (id)mated: /* Error: Ran out of types for this method. */;
-- (void)taInteraction:(id)arg1 globalPosition: /* Error: Ran out of types for this method. */;
-- (id)e;
-- (void)ing target %@;
-- (id)k/AudioToolbox;
+- (void)tatusBarTouchesAtPoint:(id)arg1 withEvent:excludingWindow: /* Error: Ran out of types for this method. */;
+- (void)berBandingReversalAccelerationCoefficient;
+- (id)tsComplete should only be called on a background scene;
 
 @end
 

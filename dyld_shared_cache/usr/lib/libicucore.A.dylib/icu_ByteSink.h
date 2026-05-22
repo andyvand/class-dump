@@ -4,7 +4,7 @@
 
 class icu::ByteSink {
 public: // (access info unavailable from symbols alone)
-    Flush();
-    GetAppendBuffer(int, int, char*, int, int*);
+    auto Flush();
+    auto GetAppendBuffer(int, int, char*, int, int*);
     ~ByteSink();
 };

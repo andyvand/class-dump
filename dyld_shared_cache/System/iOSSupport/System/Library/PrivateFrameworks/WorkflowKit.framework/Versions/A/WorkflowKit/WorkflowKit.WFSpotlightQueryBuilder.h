@@ -13,11 +13,11 @@
 }
 
 - (id);
-- (id)°myl«¸ÏÌ;
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)diagonalline;
 
 @end
 
