@@ -112,7 +112,7 @@
     if (referenceString != nil)
         [self.resultString insertString:referenceString atIndex:self.referenceLocation];
 
-    NSString *filename = [NSString stringWithFormat:@"%@.h", aClass.name];
+    NSString *filename = [NSString stringWithFormat:@"%@.h", [self sanitizeFileName:aClass.name]];
     if (self.outputPath != nil)
         filename = [self.outputPath stringByAppendingPathComponent:filename];
 
@@ -150,7 +150,7 @@
     if (referenceString != nil)
         [self.resultString insertString:referenceString atIndex:self.referenceLocation];
 
-    NSString *filename = [NSString stringWithFormat:@"%@-%@.h", category.className, category.name];
+    NSString *filename = [NSString stringWithFormat:@"%@-%@.h", [self sanitizeFileName:category.displayClassName], [self sanitizeFileName:category.name]];
     if (self.outputPath != nil)
         filename = [self.outputPath stringByAppendingPathComponent:filename];
 
@@ -181,7 +181,7 @@
     if (referenceString != nil)
         [self.resultString insertString:referenceString atIndex:self.referenceLocation];
 
-    NSString *filename = [NSString stringWithFormat:@"%@-Protocol.h", protocol.name];
+    NSString *filename = [NSString stringWithFormat:@"%@-Protocol.h", [self sanitizeFileName:protocol.name]];
     if (self.outputPath != nil)
         filename = [self.outputPath stringByAppendingPathComponent:filename];
 
@@ -201,6 +201,50 @@
 }
 
 #pragma mark -
+
+// Make a class/protocol/category name safe to use as a file name on disk.
+// Two patterns to clean up:
+//   * `(null)` interpolations when a class reference couldn't be resolved.
+//   * Swift discriminated names like `Module.(Foo in _CC76...)` that contain
+//     parentheses, spaces, and a 32-char hex hash. We keep them
+//     distinguishable but turn the punctuation into something filesystem- and
+//     shell-friendly: `Module.Foo__priv_CC76...`.
+- (NSString *)sanitizeFileName:(NSString *)name;
+{
+    if ([name length] == 0)
+        return @"Unknown";
+    if ([name isEqualToString:@"(null)"])
+        return @"Unknown";
+
+    NSRange parenOpen = [name rangeOfString:@".("];
+    NSRange parenClose = [name rangeOfString:@")" options:NSBackwardsSearch];
+    if (parenOpen.location != NSNotFound && parenClose.location != NSNotFound && parenClose.location > parenOpen.location) {
+        NSString *prefix = [name substringToIndex:parenOpen.location];
+        NSRange inner = NSMakeRange(NSMaxRange(parenOpen), parenClose.location - NSMaxRange(parenOpen));
+        NSString *body = [name substringWithRange:inner];
+        NSRange inMarker = [body rangeOfString:@" in _"];
+        NSString *cleaned;
+        if (inMarker.location != NSNotFound) {
+            NSString *baseName = [body substringToIndex:inMarker.location];
+            NSString *discriminator = [body substringFromIndex:NSMaxRange(inMarker)];
+            cleaned = [NSString stringWithFormat:@"%@.%@__priv_%@", prefix, baseName, discriminator];
+        } else {
+            cleaned = [NSString stringWithFormat:@"%@.%@", prefix, body];
+        }
+        name = cleaned;
+    }
+
+    NSMutableString *out = [NSMutableString stringWithCapacity:[name length]];
+    NSCharacterSet *bad = [NSCharacterSet characterSetWithCharactersInString:@"/ ()<>:\"\\|?*"];
+    for (NSUInteger i = 0; i < [name length]; i++) {
+        unichar c = [name characterAtIndex:i];
+        if ([bad characterIsMember:c])
+            [out appendString:@"_"];
+        else
+            [out appendFormat:@"%C", c];
+    }
+    return out;
+}
 
 - (NSString *)frameworkForClassName:(NSString *)name;
 {

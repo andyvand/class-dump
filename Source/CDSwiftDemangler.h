@@ -15,4 +15,14 @@
 // leading underscore (ObjC-export convention) if present before checking.
 + (NSString *)demangle:(NSString *)mangled;
 
+// Rewrite Swift's private-discriminator form `Module.(Name in _HEX)` into
+// `Module.Name__priv_HEX` so the result is a single valid C identifier.
+// Returns `name` unchanged when no discriminator is present.
++ (NSString *)sanitizePrivateDiscriminator:(NSString *)name;
+
+// Convenience: demangle (if applicable) and sanitize discriminators. Use
+// this on any class-like name (class.name, ivar type name, protocol name)
+// that may have come straight out of the runtime metadata.
++ (NSString *)cleanClassName:(NSString *)name;
+
 @end

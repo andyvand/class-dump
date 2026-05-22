@@ -534,11 +534,11 @@ static BOOL debugMerge = NO;
             break;
     }
 
-    // Unknown primitive: fall back to MISSING_TYPE so that callers that
-    // interpolate this via %@ never emit the literal "(null)" into dumped
-    // headers. MISSING_TYPE matches the existing convention used by
-    // CDTypeParser when a type name cannot be resolved.
-    return @"MISSING_TYPE";
+    // Truly unrecognized primitive (well outside the documented set).
+    // Fall back to `void` to mirror the `?`-encoded "unknown" case and
+    // keep dumped headers compilable rather than emitting a stray
+    // "MISSING_TYPE" identifier.
+    return @"void";
 }
 
 - (NSString *)typeString;

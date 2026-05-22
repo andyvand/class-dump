@@ -11,6 +11,7 @@
 
 @property (strong) CDOCClassReference *classRef;
 @property (strong, readonly) NSString *className;
+@property (strong, readonly) NSString *displayClassName;
 
 - (NSString *)methodSearchContext;
 - (void)recursivelyVisit:(CDVisitor *)visitor;

@@ -75,7 +75,7 @@ static BOOL debug = NO;
 
 - (void)willVisitCategory:(CDOCCategory *)category;
 {
-    [self.resultString appendFormat:@"@interface %@ (%@)", category.className, category.name];
+    [self.resultString appendFormat:@"@interface %@ (%@)", category.displayClassName, category.name];
 
     NSArray *protocols = category.protocols;
     if ([protocols count] > 0) {

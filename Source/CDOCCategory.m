@@ -18,7 +18,7 @@
 
 - (NSString *)sortableName;
 {
-    return [NSString stringWithFormat:@"%@ (%@)", self.className, self.name];
+    return [NSString stringWithFormat:@"%@ (%@)", [self displayClassName], self.name];
 }
 
 #pragma mark -
@@ -28,11 +28,23 @@
     return [_classRef className];
 }
 
+// `className` can be nil when the target class lives in another image of a
+// fileset and none of the resolution paths could recover it. Use this when
+// formatting headers or filenames so they read `UnknownClass (Category)`
+// instead of `(null) (Category)`.
+- (NSString *)displayClassName;
+{
+    NSString *name = [_classRef className];
+    if ([name length] == 0)
+        return @"UnknownClass";
+    return name;
+}
+
 - (NSString *)methodSearchContext;
 {
     NSMutableString *resultString = [NSMutableString string];
 
-    [resultString appendFormat:@"@interface %@ (%@)", self.className, self.name];
+    [resultString appendFormat:@"@interface %@ (%@)", [self displayClassName], self.name];
 
     if ([self.protocols count] > 0)
         [resultString appendFormat:@" <%@>", self.protocolsString];

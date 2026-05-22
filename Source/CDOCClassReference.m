@@ -6,6 +6,7 @@
 #import "CDOCClassReference.h"
 #import "CDOCClass.h"
 #import "CDSymbol.h"
+#import "CDSwiftDemangler.h"
 
 @implementation CDOCClassReference
 
@@ -38,14 +39,24 @@
 
 - (NSString *)className;
 {
+    NSString *name = nil;
     if (_className != nil)
-        return _className;
+        name = _className;
     else if (_classObject != nil)
-        return [_classObject name];
-    else if (_classSymbol != nil)
-        return [CDSymbol classNameFromSymbolName:[_classSymbol name]];
-    else
-        return nil;
+        name = [_classObject name];
+    else if (_classSymbol != nil) {
+        // _OBJC_CLASS_$_<Foo> -> Foo when present, otherwise the symbol's
+        // own (possibly Swift-mangled) name.
+        NSString *symbolName = [_classSymbol name];
+        NSString *stripped = [CDSymbol classNameFromSymbolName:symbolName];
+        name = stripped != nil ? stripped : symbolName;
+    }
+
+    // Demangle Swift class symbols (e.g. `_$s11AppStoreKit11ArtworkViewCN`)
+    // and normalize private-discriminator names so the dumped header and
+    // filename use the human-readable form (`AppStoreKit.ArtworkView`,
+    // `Module.Foo__priv_HEX`) instead of the raw runtime form.
+    return [CDSwiftDemangler cleanClassName:name];
 }
 
 - (BOOL)isExternalClass;

@@ -9,6 +9,14 @@
 #import "CDType.h"
 #import "CDTypeName.h"
 #import "CDTypeLexer.h"
+#import "CDSwiftDemangler.h"
+
+// Convenience wrapper so the parser body stays readable. See
+// +[CDSwiftDemangler cleanClassName:] for the full behavior.
+static inline NSString *CDDemangleSwiftClassName(NSString *name)
+{
+    return [CDSwiftDemangler cleanClassName:name];
+}
 
 NSString *CDExceptionName_SyntaxError         = @"CDExceptionName_SyntaxError";
 
@@ -246,24 +254,30 @@ static NSString *CDTokenDescription(int token)
 #endif
         if (_lookahead == TK_QUOTED_STRING && (isInStruct == NO || [self.lexer.lexText isFirstLetterUppercase] || [self isTokenInTypeStartSet:self.lexer.peekChar] == NO)) {
             NSString *str = self.lexer.lexText;
-            
+
             NSUInteger protocolOpenIdx = NSMaxRange([str rangeOfString:@"<"]);
             NSUInteger protocolCloseIdx = [str rangeOfString:@">" options:NSBackwardsSearch].location;
             if (protocolOpenIdx != NSNotFound && protocolCloseIdx != NSNotFound) {
                 NSRange protocolRange = NSMakeRange(protocolOpenIdx, protocolCloseIdx - protocolOpenIdx);
-                NSArray *protocols = [[str substringWithRange:protocolRange] componentsSeparatedByString:@","];
-                
+                NSArray *rawProtocols = [[str substringWithRange:protocolRange] componentsSeparatedByString:@","];
+                NSMutableArray *protocols = [NSMutableArray arrayWithCapacity:[rawProtocols count]];
+                for (NSString *p in rawProtocols) {
+                    NSString *trimmed = [p stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+                    [protocols addObject:CDDemangleSwiftClassName(trimmed)];
+                }
+
                 NSString *typeNameStr = [[str substringToIndex:(protocolOpenIdx - 1)] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+                typeNameStr = CDDemangleSwiftClassName(typeNameStr);
                 CDTypeName *typeName = nil;
                 if ([typeNameStr length] && ![typeNameStr isEqualToString:@"id"]) {
                     typeName = [[CDTypeName alloc] init];
                     typeName.name = typeNameStr;
                 }
-                
+
                 result = [[CDType alloc] initIDType:typeName withProtocols:protocols];
             } else {
                 CDTypeName *typeName = [[CDTypeName alloc] init];
-                typeName.name = str;
+                typeName.name = CDDemangleSwiftClassName(str);
                 result = [[CDType alloc] initIDType:typeName];
             }
 
@@ -315,10 +329,17 @@ static NSString *CDTokenDescription(int token)
         [self match:simpleType];
         result = [[CDType alloc] initSimpleType:simpleType];
     } else {
-        CDTypeName *typeName = [[CDTypeName alloc] init];
-        typeName.name = @"MISSING_TYPE";
-        result = [[CDType alloc] initIDType:typeName];
-//        result = nil;
+        // Unknown token in the type stream. Older versions emitted a fake
+        // class named `MISSING_TYPE`, which made dumped headers look like
+        // `MISSING_TYPE *foo;` (and produced spurious `@class MISSING_TYPE;`
+        // forward declarations). For Swift-emitted ivar encodings that the
+        // parser can't decode, this happens frequently. Degrade gracefully
+        // to a plain `id` so the header reads `id foo;` — still tells the
+        // reader the field is an opaque object, and produces valid ObjC.
+        if (debug)
+            NSLog(@"CDTypeParser: unrecognized token %@ at remaining=%@",
+                  CDTokenDescription(_lookahead), self.lexer.remainingString);
+        result = [[CDType alloc] initIDType:nil];
 //        [NSException raise:CDExceptionName_SyntaxError format:@"expected (many things), got %@", CDTokenDescription(_lookahead)];
     }
 

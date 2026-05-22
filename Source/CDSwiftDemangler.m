@@ -84,4 +84,42 @@ static swift_demangle_fn _swift_demangle_load(void)
     return result ?: mangled;
 }
 
++ (NSString *)sanitizePrivateDiscriminator:(NSString *)name
+{
+    if (name == nil) return nil;
+    NSRange parenOpen = [name rangeOfString:@".("];
+    if (parenOpen.location == NSNotFound) return name;
+    NSRange parenClose = [name rangeOfString:@")" options:NSBackwardsSearch];
+    if (parenClose.location == NSNotFound || parenClose.location <= parenOpen.location) return name;
+
+    NSString *prefix = [name substringToIndex:parenOpen.location];
+    NSRange innerRange = NSMakeRange(NSMaxRange(parenOpen), parenClose.location - NSMaxRange(parenOpen));
+    NSString *body = [name substringWithRange:innerRange];
+    NSString *tail = [name substringFromIndex:NSMaxRange(parenClose)];
+
+    NSRange inMarker = [body rangeOfString:@" in _"];
+    NSString *transformed;
+    if (inMarker.location != NSNotFound) {
+        NSString *baseName = [body substringToIndex:inMarker.location];
+        NSString *discriminator = [body substringFromIndex:NSMaxRange(inMarker)];
+        transformed = [NSString stringWithFormat:@"%@.%@__priv_%@", prefix, baseName, discriminator];
+    } else {
+        transformed = [NSString stringWithFormat:@"%@.%@", prefix, body];
+    }
+    if ([tail length] > 0)
+        transformed = [transformed stringByAppendingString:tail];
+    return transformed;
+}
+
++ (NSString *)cleanClassName:(NSString *)name
+{
+    NSString *resolved = name;
+    if ([self isMangledSwiftName:name]) {
+        NSString *out = [self demangle:name];
+        if ([out length] > 0)
+            resolved = out;
+    }
+    return [self sanitizePrivateDiscriminator:resolved];
+}
+
 @end

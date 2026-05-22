@@ -101,7 +101,7 @@
         //NSLog(@"%016lx %016lx %016lx %016lx", objc2Protocol.classMethods, objc2Protocol.optionalInstanceMethods, objc2Protocol.optionalClassMethods, objc2Protocol.instanceProperties);
         
         NSString *str = [self.machOFile stringAtAddress:objc2Protocol.name];
-        [protocol setName:str];
+        [protocol setName:[CDSwiftDemangler cleanClassName:str]];
         
         if (objc2Protocol.protocols != 0) {
             [cursor setAddress:objc2Protocol.protocols];
@@ -137,6 +137,42 @@
     return protocol;
 }
 
+// Cheaply read just the `name` field out of an objc2_class structure at the
+// given address. Used as a fallback when classWithAddress: misses (e.g. the
+// target class lives in another image inside a fileset / dyld_shared_cache).
+- (NSString *)classNameAtClassObjectAddress:(uint64_t)address;
+{
+    if (address == 0)
+        return nil;
+
+    CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
+    if ([cursor offset] == 0) return nil;
+
+    // Skip isa, superclass, cache, vtable.
+    [cursor readPtr];
+    [cursor readPtr];
+    [cursor readPtr];
+    [cursor readPtr];
+
+    // `data` carries flag bits in the low 3.
+    uint64_t dataPtr = [cursor readPtr] & ~7ULL;
+    if (dataPtr == 0) return nil;
+
+    [cursor setAddress:dataPtr];
+
+    // class_ro_t: flags, instanceStart, instanceSize, [reserved on 64-bit],
+    // ivarLayout (ptr), name (ptr), ...
+    [cursor readInt32];
+    [cursor readInt32];
+    [cursor readInt32];
+    if ([self.machOFile uses64BitABI])
+        [cursor readInt32];
+    [cursor readPtr];                 // ivarLayout
+    uint64_t nameAddr = [cursor readPtr];
+    NSString *name = [self.machOFile stringAtAddress:nameAddr];
+    return [CDSwiftDemangler cleanClassName:name];
+}
+
 - (CDOCCategory *)loadCategoryAtAddress:(uint64_t)address;
 {
     if (address == 0)
@@ -160,7 +196,7 @@
     
     CDOCCategory *category = [[CDOCCategory alloc] init];
     NSString *str = [self.machOFile stringAtAddress:objc2Category.name];
-    [category setName:str];
+    [category setName:[CDSwiftDemangler cleanClassName:str]];
     
     for (CDOCMethod *method in [self loadMethodsAtAddress:objc2Category.instanceMethods])
         [category addInstanceMethod:method];
@@ -186,9 +222,27 @@
             //NSLog(@"category: got external class name (1): %@", [aClass className]);
         } else if (objc2Category.class != 0) {
             CDOCClass *aClass = [self classWithAddress:objc2Category.class];
-            category.classRef = [[CDOCClassReference alloc] initWithClassObject:aClass];
+            if (aClass != nil) {
+                category.classRef = [[CDOCClassReference alloc] initWithClassObject:aClass];
+            } else {
+                // The class isn't in this image's class table (typical for
+                // categories on classes that live in another image of a
+                // fileset / dyld_shared_cache). Try to read the class's name
+                // straight out of its objc2_class structure, and try the
+                // symbol table for a matching _OBJC_CLASS_$_<name> symbol so
+                // the category still references a real, named class instead
+                // of dumping as `(null) (CategoryName)`.
+                NSString *resolvedName = [self classNameAtClassObjectAddress:objc2Category.class];
+                if ([resolvedName length] > 0) {
+                    CDSymbol *classSymbol = [[self.machOFile symbolTable] symbolForClassName:resolvedName];
+                    if (classSymbol != nil)
+                        category.classRef = [[CDOCClassReference alloc] initWithClassSymbol:classSymbol];
+                    else
+                        category.classRef = [[CDOCClassReference alloc] initWithClassName:resolvedName];
+                }
+            }
         }
-        
+
         if (externalClassName != nil) {
             CDSymbol *classSymbol = [[self.machOFile symbolTable] symbolForExternalClassName:externalClassName];
             if (classSymbol != nil)
@@ -256,9 +310,7 @@
     //NSLog(@"%016lx %016lx %016lx %016lx", objc2ClassData.ivarLayout, objc2ClassData.name, objc2ClassData.baseMethods, objc2ClassData.baseProtocols);
     //NSLog(@"%016lx %016lx %016lx %016lx", objc2ClassData.ivars, objc2ClassData.weakIvarLayout, objc2ClassData.baseProperties);
     NSString *str = [self.machOFile stringAtAddress:objc2ClassData.name];
-    if ([CDSwiftDemangler isMangledSwiftName:str]) {
-        str = [CDSwiftDemangler demangle:str];
-    }
+    str = [CDSwiftDemangler cleanClassName:str];
     //NSLog(@"name = %@", str);
 
     CDOCClass *aClass = [[CDOCClass alloc] init];
