@@ -5,10 +5,10 @@
 class AppleRAIDGlobals {
 public: // (access info unavailable from symbols alone)
     AppleRAIDGlobals();
-    getController();
-    islocked();
-    lock();
-    releaseController();
-    unlock();
+    auto getController();
+    auto islocked();
+    auto lock();
+    auto releaseController();
+    auto unlock();
     ~AppleRAIDGlobals();
 };

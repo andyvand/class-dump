@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<blit_rect_t> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(blit_rect_t*, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(blit_rect_t*, unsigned long)::kalloc_type_view_29;
 };

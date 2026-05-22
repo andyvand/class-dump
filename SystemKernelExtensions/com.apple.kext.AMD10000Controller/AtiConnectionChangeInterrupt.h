@@ -5,4 +5,5 @@
 class AtiConnectionChangeInterrupt {
 public: // (access info unavailable from symbols alone)
     AtiConnectionChangeInterrupt();
+    void * operator new(unsigned long);
 };

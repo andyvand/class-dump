@@ -4,5 +4,5 @@
 
 class IOTimerEventSource {
 public: // (access info unavailable from symbols alone)
-    timerEventSource(unsigned int, OSObject*, void (IOTimerEventSource*) block_pointer);
+    auto timerEventSource(unsigned int, OSObject*, void (IOTimerEventSource*) block_pointer);
 };

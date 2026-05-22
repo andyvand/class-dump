@@ -5,7 +5,7 @@
 class AMDFirmwareDirectory {
 public: // (access info unavailable from symbols alone)
     AMDFirmwareDirectory(unsigned int);
-    getFirmware(_AMD_DEVICE_TYPE, char const*);
-    putFirmware(_AMD_DEVICE_TYPE, AMDFirmware*);
+    auto getFirmware(_AMD_DEVICE_TYPE, char const*);
+    auto putFirmware(_AMD_DEVICE_TYPE, AMDFirmware*);
     ~AMDFirmwareDirectory();
 };

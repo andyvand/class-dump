@@ -4,16 +4,18 @@
 
 class com_apple_driver_AppleUSBMassStorageInterfaceNub {
 public: // (access info unavailable from symbols alone)
-    allocateBuffers();
-    checkDriveRevision(IOUSBHostInterface*);
-    checkFirmwareVersion(IOUSBHostInterface*);
-    checkPlatformReq();
+    auto allocateBuffers();
+    auto checkDriveRevision(IOUSBHostInterface*);
+    auto checkFirmwareVersion(IOUSBHostInterface*);
+    auto checkPlatformReq();
+    auto findMaxLUN(IOUSBHostInterface*);
+    auto getBulkOnlyPipes(IOUSBHostInterface*);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto start(IOService*);
     com_apple_driver_AppleUSBMassStorageInterfaceNub();
     com_apple_driver_AppleUSBMassStorageInterfaceNub(OSMetaClass const*);
-    findMaxLUN(IOUSBHostInterface*);
-    getBulkOnlyPipes(IOUSBHostInterface*);
-    getMetaClass() const;
-    probe(IOService*, int*);
-    start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_AppleUSBMassStorageInterfaceNub();
 };

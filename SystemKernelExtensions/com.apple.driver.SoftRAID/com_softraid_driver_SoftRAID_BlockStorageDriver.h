@@ -4,10 +4,12 @@
 
 class com_softraid_driver_SoftRAID_BlockStorageDriver {
 public: // (access info unavailable from symbols alone)
-    AddToBytesTransferred(unsigned long long, unsigned long long, unsigned long long, bool);
+    auto AddToBytesTransferred(unsigned long long, unsigned long long, unsigned long long, bool);
+    auto getMetaClass() const;
+    auto initWithVolumePtr(com_softraid_driver_SoftRAID_Volume*);
     com_softraid_driver_SoftRAID_BlockStorageDriver();
     com_softraid_driver_SoftRAID_BlockStorageDriver(OSMetaClass const*);
-    getMetaClass() const;
-    initWithVolumePtr(com_softraid_driver_SoftRAID_Volume*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_BlockStorageDriver();
 };

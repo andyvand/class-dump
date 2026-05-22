@@ -5,6 +5,8 @@
 class AMDRadeonX5000_IAMDHWGart {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_IAMDHWGart(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_IAMDHWGart();
 };

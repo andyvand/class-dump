@@ -6,15 +6,17 @@ class AppleRTCUserClient {
 public: // (access info unavailable from symbols alone)
     AppleRTCUserClient();
     AppleRTCUserClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    clientReadBytes(void*, void*, void*, void*, void*, void*);
-    clientWriteBytes(void*, void*, void*, void*, void*, void*);
-    clientWriteKeyStash(void*, void*, void*, void*, void*, void*);
-    getMetaClass() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    getTargetAndMethodForIndex(IOService**, unsigned int)::sMethods;
-    start(IOService*);
-    withTask(task*);
+    auto clientClose();
+    auto clientDied();
+    auto clientReadBytes(void*, void*, void*, void*, void*, void*);
+    auto clientWriteBytes(void*, void*, void*, void*, void*, void*);
+    auto clientWriteKeyStash(void*, void*, void*, void*, void*, void*);
+    auto getMetaClass() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto getTargetAndMethodForIndex(IOService**, unsigned int)::sMethods;
+    auto start(IOService*);
+    auto withTask(task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleRTCUserClient();
 };

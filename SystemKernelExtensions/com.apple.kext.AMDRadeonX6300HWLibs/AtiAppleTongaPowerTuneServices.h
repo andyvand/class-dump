@@ -5,7 +5,7 @@
 class AtiAppleTongaPowerTuneServices {
 public: // (access info unavailable from symbols alone)
     AtiAppleTongaPowerTuneServices(PP_Instance*, PowerPlayCallbacks*);
-    getPowerTuneLimit();
-    setPowerTuneLimit(unsigned int);
+    auto getPowerTuneLimit();
+    auto setPowerTuneLimit(unsigned int);
     ~AtiAppleTongaPowerTuneServices();
 };

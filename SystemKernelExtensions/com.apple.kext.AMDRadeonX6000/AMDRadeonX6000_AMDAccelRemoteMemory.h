@@ -6,8 +6,10 @@ class AMDRadeonX6000_AMDAccelRemoteMemory {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDAccelRemoteMemory();
     AMDRadeonX6000_AMDAccelRemoteMemory(OSMetaClass const*);
-    enableXGMI(IOAccelShared2*, IOAccelShared2*);
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, IOAccelShared2*, unsigned long long, unsigned int, unsigned int);
+    auto enableXGMI(IOAccelShared2*, IOAccelShared2*);
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, IOAccelShared2*, unsigned long long, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDAccelRemoteMemory();
 };

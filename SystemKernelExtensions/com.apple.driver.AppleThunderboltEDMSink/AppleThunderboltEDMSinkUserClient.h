@@ -6,15 +6,17 @@ class AppleThunderboltEDMSinkUserClient {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltEDMSinkUserClient();
     AppleThunderboltEDMSinkUserClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    clientMemoryForType(unsigned int, unsigned int*, IOMemoryDescriptor**);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    message(unsigned int, IOService*, void*);
-    registerNotificationPort(ipc_port*, unsigned int, unsigned int);
-    setProperties(OSObject*);
-    start(IOService*);
+    auto clientClose();
+    auto clientDied();
+    auto clientMemoryForType(unsigned int, unsigned int*, IOMemoryDescriptor**);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto message(unsigned int, IOService*, void*);
+    auto registerNotificationPort(ipc_port*, unsigned int, unsigned int);
+    auto setProperties(OSObject*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltEDMSinkUserClient();
 };

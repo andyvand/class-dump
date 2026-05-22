@@ -7,8 +7,6 @@
 IOSCSIPeripheralDeviceType00::gMetaClass;
 com_apple_driver_WriteProtectedMediaDriver::gMetaClass;
 com_apple_driver_WriteProtectedMediaDriver::metaClass;
-com_apple_driver_WriteProtectedMediaDriver::operator delete(void*, unsigned long);
-com_apple_driver_WriteProtectedMediaDriver::operator new(unsigned long);
 com_apple_driver_WriteProtectedMediaDriver::superClass;
 com_apple_driver_WriteProtectedMediaDriver_ktv;
 vtable for com_apple_driver_WriteProtectedMediaDriver;

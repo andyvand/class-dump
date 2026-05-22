@@ -4,7 +4,7 @@
 
 class CCFaultReporter {
 public: // (access info unavailable from symbols alone)
-    registerCallbacks(CCFaultReporter::register_callback_t*, unsigned int, OSObject*, char const*);
-    reportFault(unsigned int, char const*, unsigned int, char const*, OSDictionary*, int, char const*, ...);
-    unregisterCallbacks(OSObject*);
+    auto registerCallbacks(CCFaultReporter::register_callback_t*, unsigned int, OSObject*, char const*);
+    auto reportFault(unsigned int, char const*, unsigned int, char const*, OSDictionary*, int, char const*, ...);
+    auto unregisterCallbacks(OSObject*);
 };

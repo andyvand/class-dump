@@ -5,6 +5,6 @@
 class Vega10Dce12BandwidthManager::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

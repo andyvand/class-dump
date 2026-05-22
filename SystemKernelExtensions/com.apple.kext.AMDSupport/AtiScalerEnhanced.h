@@ -5,14 +5,16 @@
 class AtiScalerEnhanced {
 public: // (access info unavailable from symbols alone)
     AtiScalerEnhanced(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getNextLowerNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
-    getOptimalNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
-    getScalingType(unsigned int, unsigned int);
-    getTapsNumber(ScalingType, unsigned int, ScalingDirection, int&);
-    initWithController(unsigned char, ATIController*);
-    populateDebugDictionary(OSDictionary*);
-    validateRequestedScaleRatio(unsigned int, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getNextLowerNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
+    auto getOptimalNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
+    auto getScalingType(unsigned int, unsigned int);
+    auto getTapsNumber(ScalingType, unsigned int, ScalingDirection, int&);
+    auto initWithController(unsigned char, ATIController*);
+    auto populateDebugDictionary(OSDictionary*);
+    auto validateRequestedScaleRatio(unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiScalerEnhanced();
 };

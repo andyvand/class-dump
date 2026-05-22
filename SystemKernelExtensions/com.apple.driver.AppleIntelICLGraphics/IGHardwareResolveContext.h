@@ -6,7 +6,9 @@ class IGHardwareResolveContext {
 public: // (access info unavailable from symbols alone)
     IGHardwareResolveContext();
     IGHardwareResolveContext(OSMetaClass const*);
-    getMetaClass() const;
-    initialize();
+    auto getMetaClass() const;
+    auto initialize();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHardwareResolveContext();
 };

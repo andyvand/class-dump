@@ -4,12 +4,12 @@
 
 class IOImageLoaderImageDictionary {
 public: // (access info unavailable from symbols alone)
-    getAttribute(OSDictionary*, char const*);
-    getAttributes(IOImageLoaderImageDictionary*, OSString const*);
-    getAttributes(IOImageLoaderImageDictionary*, char const*);
-    getAttributesFromUniqueAttribute(IOImageLoaderImageDictionary*, char const*);
-    getImageFromUniqueImagetype(IOImageLoaderImageDictionary*, char const*);
-    setAttributeWithBoolean(OSDictionary*, char const*, bool);
-    setAttributeWithNumber(OSDictionary*, char const*, unsigned long long);
-    setAttributeWithString(OSDictionary*, char const*, char const*);
+    auto getAttribute(OSDictionary*, char const*);
+    auto getAttributes(IOImageLoaderImageDictionary*, OSString const*);
+    auto getAttributes(IOImageLoaderImageDictionary*, char const*);
+    auto getAttributesFromUniqueAttribute(IOImageLoaderImageDictionary*, char const*);
+    auto getImageFromUniqueImagetype(IOImageLoaderImageDictionary*, char const*);
+    auto setAttributeWithBoolean(OSDictionary*, char const*, bool);
+    auto setAttributeWithNumber(OSDictionary*, char const*, unsigned long long);
+    auto setAttributeWithString(OSDictionary*, char const*, char const*);
 };

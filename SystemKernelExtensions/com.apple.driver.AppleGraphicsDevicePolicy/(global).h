@@ -19,7 +19,7 @@ OSData::metaClass;
 OSDictionary::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
-agdcGTraceToken(IOFramebuffer const*, unsigned short, bool, unsigned short, unsigned char, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long);
+auto agdcGTraceToken(IOFramebuffer const*, unsigned short, bool, unsigned short, unsigned char, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long);
 vtable for AppleGraphicsDeviceControl;
 vtable for IOEventSource;
 vtable for IOService;

@@ -4,24 +4,24 @@
 
 class AppleUSBXHCIEndpoint {
 public: // (access info unavailable from symbols alone)
-    abortAllRequests(int, IOService*);
-    adjustPolicy(IOUSBHostPipe::StandardUSBDescriptors&);
-    clearPipeStall();
-    configureEndpointContext(StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
-    createTransferRing(unsigned int);
-    destroyPending();
-    getEndpointContext();
-    getEndpointIndex() const;
-    getSlotIndex() const;
-    getState() const;
-    initWithParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
-    releaseTemporaryHold();
-    resume();
-    setTemporaryHold();
-    stop(bool);
-    suspend();
-    unhalt(bool);
-    waitForCommands();
-    waitForStateChange();
-    withParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
+    auto abortAllRequests(int, IOService*);
+    auto adjustPolicy(IOUSBHostPipe::StandardUSBDescriptors&);
+    auto clearPipeStall();
+    auto configureEndpointContext(StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
+    auto createTransferRing(unsigned int);
+    auto destroyPending();
+    auto getEndpointContext();
+    auto getEndpointIndex() const;
+    auto getSlotIndex() const;
+    auto getState() const;
+    auto initWithParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
+    auto releaseTemporaryHold();
+    auto resume();
+    auto setTemporaryHold();
+    auto stop(bool);
+    auto suspend();
+    auto unhalt(bool);
+    auto waitForCommands();
+    auto waitForStateChange();
+    auto withParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
 };

@@ -6,14 +6,16 @@ class AppleACPIPlatformUserClient {
 public: // (access info unavailable from symbols alone)
     AppleACPIPlatformUserClient();
     AppleACPIPlatformUserClient(OSMetaClass const*);
-    addressSpaceRead(void*, void*, void*, void*, void*, void*);
-    addressSpaceWrite(void*, void*, void*, void*, void*, void*);
-    clientClose();
-    debuggerCommand(void*, void*, void*, void*, void*, void*);
-    getMetaClass() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    getTargetAndMethodForIndex(IOService**, unsigned int)::sMethods;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    start(IOService*);
+    auto addressSpaceRead(void*, void*, void*, void*, void*, void*);
+    auto addressSpaceWrite(void*, void*, void*, void*, void*, void*);
+    auto clientClose();
+    auto debuggerCommand(void*, void*, void*, void*, void*, void*);
+    auto getMetaClass() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto getTargetAndMethodForIndex(IOService**, unsigned int)::sMethods;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleACPIPlatformUserClient();
 };

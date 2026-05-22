@@ -6,10 +6,12 @@ class AppleUSBNetworkingHostCommandPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBNetworkingHostCommandPool();
     AppleUSBNetworkingHostCommandPool(OSMetaClass const*);
-    allocateCommand();
-    free();
-    getMetaClass() const;
-    initWithParameters(IOUSBHostInterface*, unsigned int, unsigned int);
-    withParameters(IOUSBHostInterface*, unsigned int, unsigned int);
+    auto allocateCommand();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithParameters(IOUSBHostInterface*, unsigned int, unsigned int);
+    auto withParameters(IOUSBHostInterface*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBNetworkingHostCommandPool();
 };

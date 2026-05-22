@@ -4,5 +4,5 @@
 
 class IOTimeSyncSyncUserClient {
 public: // (access info unavailable from symbols alone)
-    clockUpdatedTimeSyncTimePTPSyncInfo(bool, unsigned char, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned short);
+    auto clockUpdatedTimeSyncTimePTPSyncInfo(bool, unsigned char, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned short);
 };

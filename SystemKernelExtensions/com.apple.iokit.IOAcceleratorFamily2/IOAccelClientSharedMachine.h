@@ -4,16 +4,16 @@
 
 class IOAccelClientSharedMachine {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_88;
-    getClientSharedAddressForId(unsigned int, unsigned long long*);
-    init(IOGraphicsAccelerator2*, task*, unsigned long, unsigned long, unsigned long, unsigned int);
-    mapClientSharedForId(unsigned int, void**);
-    mapClientSharedForId(unsigned int, void**) (.cold.1);
-    mapClientSharedForId(unsigned int, void**)::_os_log_fmt;
-    mapClientSharedForId(unsigned int, void**)::kalloc_type_view_109;
-    mapClientSharedForId(unsigned int, void**)::kalloc_type_view_118;
-    orphanClientMappings(OSSet*) const;
-    unmapClientSharedForId(unsigned int);
-    unmapClientSharedForId(unsigned int) (.cold.1);
+    auto free();
+    auto free()::kalloc_type_view_88;
+    auto getClientSharedAddressForId(unsigned int, unsigned long long*);
+    auto init(IOGraphicsAccelerator2*, task*, unsigned long, unsigned long, unsigned long, unsigned int);
+    auto mapClientSharedForId(unsigned int, void**);
+    auto mapClientSharedForId(unsigned int, void**) (.cold.1);
+    auto mapClientSharedForId(unsigned int, void**)::_os_log_fmt;
+    auto mapClientSharedForId(unsigned int, void**)::kalloc_type_view_109;
+    auto mapClientSharedForId(unsigned int, void**)::kalloc_type_view_118;
+    auto orphanClientMappings(OSSet*) const;
+    auto unmapClientSharedForId(unsigned int);
+    auto unmapClientSharedForId(unsigned int) (.cold.1);
 };

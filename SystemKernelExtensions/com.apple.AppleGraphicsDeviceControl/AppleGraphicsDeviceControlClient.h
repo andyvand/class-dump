@@ -6,15 +6,17 @@ class AppleGraphicsDeviceControlClient {
 public: // (access info unavailable from symbols alone)
     AppleGraphicsDeviceControlClient();
     AppleGraphicsDeviceControlClient(OSMetaClass const*);
-    authorizeTask(AppleGraphicsDeviceControl*, task*, unsigned int);
-    clientClose();
-    clientDied();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    free();
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int);
-    message(unsigned int, IOService*, void*);
-    start(IOService*);
-    stop(IOService*);
+    auto authorizeTask(AppleGraphicsDeviceControl*, task*, unsigned int);
+    auto clientClose();
+    auto clientDied();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int);
+    auto message(unsigned int, IOService*, void*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGraphicsDeviceControlClient();
 };

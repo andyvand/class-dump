@@ -4,18 +4,18 @@
 
 class IOSkywalkPacketBufferPool {
 public: // (access info unavailable from symbols alone)
-    allocatePacket(unsigned int, IOSkywalkPacket**, unsigned int);
-    allocatePacketBuffer(IOSkywalkPacketBuffer**, unsigned int);
-    allocatePacketBuffers(unsigned int*, IOSkywalkPacketBuffer**, unsigned int);
-    allocatePackets(unsigned int, unsigned int*, IOSkywalkPacket**, unsigned int);
-    deallocatePacket(IOSkywalkPacket*);
-    deallocatePacketBuffer(IOSkywalkPacketBuffer*);
-    deallocatePacketBuffers(IOSkywalkPacketBuffer**, unsigned int);
-    deallocatePacketChain(unsigned long long);
-    deallocatePacketList(IOSkywalkPacket*);
-    deallocatePackets(IOSkywalkPacket**, unsigned int);
-    initWithName(char const*, OSObject*, unsigned int, IOSkywalkPacketBufferPool::PoolOptions const*);
-    initWithName(char const*, void*, unsigned int, IOSkywalkPacketBufferPool::PoolOptions const*);
-    newPacketBuffer(IOSkywalkPacketBufferDescriptor*, IOSkywalkPacketBuffer**);
-    taggedRelease(void const*) const;
+    auto allocatePacket(unsigned int, IOSkywalkPacket**, unsigned int);
+    auto allocatePacketBuffer(IOSkywalkPacketBuffer**, unsigned int);
+    auto allocatePacketBuffers(unsigned int*, IOSkywalkPacketBuffer**, unsigned int);
+    auto allocatePackets(unsigned int, unsigned int*, IOSkywalkPacket**, unsigned int);
+    auto deallocatePacket(IOSkywalkPacket*);
+    auto deallocatePacketBuffer(IOSkywalkPacketBuffer*);
+    auto deallocatePacketBuffers(IOSkywalkPacketBuffer**, unsigned int);
+    auto deallocatePacketChain(unsigned long long);
+    auto deallocatePacketList(IOSkywalkPacket*);
+    auto deallocatePackets(IOSkywalkPacket**, unsigned int);
+    auto initWithName(char const*, OSObject*, unsigned int, IOSkywalkPacketBufferPool::PoolOptions const*);
+    auto initWithName(char const*, void*, unsigned int, IOSkywalkPacketBufferPool::PoolOptions const*);
+    auto newPacketBuffer(IOSkywalkPacketBufferDescriptor*, IOSkywalkPacketBuffer**);
+    auto taggedRelease(void const*) const;
 };

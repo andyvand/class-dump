@@ -5,14 +5,16 @@
 class AMDRadeonX6000_AMDGFX10SDMAEngine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDGFX10SDMAEngine(OSMetaClass const*);
-    allocateAndInitHWChannels();
-    createHWChannel(unsigned int, int);
-    getMetaClass() const;
-    init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
-    isIdle();
-    reset(_eAMD_HW_RING_TYPE, unsigned int*);
-    start();
-    stop();
-    validateCommandBuffer(unsigned int*, unsigned int, unsigned int*);
+    auto allocateAndInitHWChannels();
+    auto createHWChannel(unsigned int, int);
+    auto getMetaClass() const;
+    auto init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    auto isIdle();
+    auto reset(_eAMD_HW_RING_TYPE, unsigned int*);
+    auto start();
+    auto stop();
+    auto validateCommandBuffer(unsigned int*, unsigned int, unsigned int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDGFX10SDMAEngine();
 };

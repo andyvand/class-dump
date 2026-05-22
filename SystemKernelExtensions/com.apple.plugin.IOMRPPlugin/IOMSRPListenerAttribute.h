@@ -6,12 +6,14 @@ class IOMSRPListenerAttribute {
 public: // (access info unavailable from symbols alone)
     IOMSRPListenerAttribute();
     IOMSRPListenerAttribute(OSMetaClass const*);
-    attributeDictionary();
-    callbackArgumentsCount();
-    getMetaClass() const;
-    init(IOMSRPListener*, unsigned long long);
-    setCallbackArguments(unsigned long long*);
-    setDescriptionString(char*, unsigned long);
-    setMessage(unsigned char*, unsigned char, unsigned char);
+    auto attributeDictionary();
+    auto callbackArgumentsCount();
+    auto getMetaClass() const;
+    auto init(IOMSRPListener*, unsigned long long);
+    auto setCallbackArguments(unsigned long long*);
+    auto setDescriptionString(char*, unsigned long);
+    auto setMessage(unsigned char*, unsigned char, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOMSRPListenerAttribute();
 };

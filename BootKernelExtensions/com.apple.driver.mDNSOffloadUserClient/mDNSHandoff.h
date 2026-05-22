@@ -4,20 +4,22 @@
 
 class mDNSHandoff {
 public: // (access info unavailable from symbols alone)
-    UpdateKeepaliveInfo();
-    cleanupAllocations();
-    cleanupAllocations()::kalloc_type_view_746;
-    free();
-    getInfoFromInterfaces(__ifnet*);
-    getIpV4_AddressInfo(__ifaddr**, bool, __ifnet*, int);
-    getIpV6_AddressInfo(__ifaddr**, bool, __ifnet*, int);
-    getMetaClass() const;
-    init(task*, __ifnet*, mDNSOffloadCmd*, unsigned int, unsigned int);
+    auto UpdateKeepaliveInfo();
+    auto cleanupAllocations();
+    auto cleanupAllocations()::kalloc_type_view_746;
+    auto free();
+    auto getInfoFromInterfaces(__ifnet*);
+    auto getIpV4_AddressInfo(__ifaddr**, bool, __ifnet*, int);
+    auto getIpV6_AddressInfo(__ifaddr**, bool, __ifnet*, int);
+    auto getMetaClass() const;
+    auto init(task*, __ifnet*, mDNSOffloadCmd*, unsigned int, unsigned int);
+    auto processRRRecords(task*, mDNSOffloadCmd&);
+    auto processRRRecords(task*, mDNSOffloadCmd&)::kalloc_type_view_793;
+    auto processRRRecords(task*, mDNSOffloadCmd&)::kalloc_type_view_847;
+    auto withTaskIfNetCommand(task*, __ifnet*, mDNSOffloadCmd*, unsigned int, unsigned int);
     mDNSHandoff();
     mDNSHandoff(OSMetaClass const*);
-    processRRRecords(task*, mDNSOffloadCmd&);
-    processRRRecords(task*, mDNSOffloadCmd&)::kalloc_type_view_793;
-    processRRRecords(task*, mDNSOffloadCmd&)::kalloc_type_view_847;
-    withTaskIfNetCommand(task*, __ifnet*, mDNSOffloadCmd*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~mDNSHandoff();
 };

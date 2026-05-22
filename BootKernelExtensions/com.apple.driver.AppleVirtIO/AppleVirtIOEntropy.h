@@ -4,17 +4,17 @@
 
 class AppleVirtIOEntropy {
 public: // (access info unavailable from symbols alone)
-    didTerminate(IOService*, unsigned int, bool*);
-    executeTransactionGated(AppleVirtIOEntropyTransaction*);
-    executeTransactionGated(AppleVirtIOEntropyTransaction*) (.cold.1);
-    executeTransactionGated(AppleVirtIOEntropyTransaction*) (.cold.2);
-    executeTransactionGated(AppleVirtIOEntropyTransaction*) (.cold.3);
-    getDataGated(unsigned char*, unsigned int);
-    getMetaClass() const;
-    getRandomBytes(unsigned char*, unsigned long);
-    queueEventHandler(AppleVirtIOQueue*, void*);
-    start(IOService*);
-    stop(IOService*);
-    willTerminate(IOService*, unsigned int);
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto executeTransactionGated(AppleVirtIOEntropyTransaction*);
+    auto executeTransactionGated(AppleVirtIOEntropyTransaction*) (.cold.1);
+    auto executeTransactionGated(AppleVirtIOEntropyTransaction*) (.cold.2);
+    auto executeTransactionGated(AppleVirtIOEntropyTransaction*) (.cold.3);
+    auto getDataGated(unsigned char*, unsigned int);
+    auto getMetaClass() const;
+    auto getRandomBytes(unsigned char*, unsigned long);
+    auto queueEventHandler(AppleVirtIOQueue*, void*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto willTerminate(IOService*, unsigned int);
     ~AppleVirtIOEntropy();
 };

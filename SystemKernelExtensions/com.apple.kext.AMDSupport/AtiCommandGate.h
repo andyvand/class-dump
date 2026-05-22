@@ -6,15 +6,17 @@ class AtiCommandGate {
 public: // (access info unavailable from symbols alone)
     AtiCommandGate();
     AtiCommandGate(OSMetaClass const*);
-    closeGate();
-    gate(IOService*);
-    getMetaClass() const;
-    inGate();
-    lockGate();
-    openGate();
-    sleepGate(void*, unsigned int);
-    tryCloseGate();
-    unlockGate();
-    wakeupGate(void*, bool);
+    auto closeGate();
+    auto gate(IOService*);
+    auto getMetaClass() const;
+    auto inGate();
+    auto lockGate();
+    auto openGate();
+    auto sleepGate(void*, unsigned int);
+    auto tryCloseGate();
+    auto unlockGate();
+    auto wakeupGate(void*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiCommandGate();
 };

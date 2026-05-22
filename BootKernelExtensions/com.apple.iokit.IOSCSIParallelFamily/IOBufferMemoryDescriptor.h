@@ -4,6 +4,6 @@
 
 class IOBufferMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    inTaskWithOptions(task*, unsigned int, unsigned long, unsigned long);
-    inTaskWithPhysicalMask(task*, unsigned int, unsigned long long, unsigned long long);
+    auto inTaskWithOptions(task*, unsigned int, unsigned long, unsigned long);
+    auto inTaskWithPhysicalMask(task*, unsigned int, unsigned long long, unsigned long long);
 };

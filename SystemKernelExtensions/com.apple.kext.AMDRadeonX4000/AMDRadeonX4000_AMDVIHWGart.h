@@ -6,8 +6,10 @@ class AMDRadeonX4000_AMDVIHWGart {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVIHWGart();
     AMDRadeonX4000_AMDVIHWGart(OSMetaClass const*);
-    getEntryValue(unsigned long long);
-    getMetaClass() const;
-    parseEntry(unsigned long long, unsigned long long*);
+    auto getEntryValue(unsigned long long);
+    auto getMetaClass() const;
+    auto parseEntry(unsigned long long, unsigned long long*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVIHWGart();
 };

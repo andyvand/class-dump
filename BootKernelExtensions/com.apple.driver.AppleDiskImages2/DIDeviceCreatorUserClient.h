@@ -4,26 +4,28 @@
 
 class DIDeviceCreatorUserClient {
 public: // (access info unavailable from symbols alone)
-    CreateDevice(OSObject*, void*, IOExternalMethodArguments*);
-    CreateDevice(OSObject*, void*, IOExternalMethodArguments*)::_os_log_fmt;
     DIDeviceCreatorUserClient();
     DIDeviceCreatorUserClient(OSMetaClass const*);
-    QuarantineDevice(OSObject*, void*, IOExternalMethodArguments*);
-    QuarantineDevice(OSObject*, void*, IOExternalMethodArguments*)::_os_log_fmt;
-    clientClose();
-    clientClose()::_os_log_fmt;
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)::_os_log_fmt;
-    free();
-    free()::_os_log_fmt;
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int);
-    initWithTask(task*, void*, unsigned int)::_os_log_fmt;
-    message(unsigned int, IOService*, void*);
-    message(unsigned int, IOService*, void*)::_os_log_fmt;
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    stop(IOService*);
-    stop(IOService*)::_os_log_fmt;
+    auto CreateDevice(OSObject*, void*, IOExternalMethodArguments*);
+    auto CreateDevice(OSObject*, void*, IOExternalMethodArguments*)::_os_log_fmt;
+    auto QuarantineDevice(OSObject*, void*, IOExternalMethodArguments*);
+    auto QuarantineDevice(OSObject*, void*, IOExternalMethodArguments*)::_os_log_fmt;
+    auto clientClose();
+    auto clientClose()::_os_log_fmt;
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)::_os_log_fmt;
+    auto free();
+    auto free()::_os_log_fmt;
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int);
+    auto initWithTask(task*, void*, unsigned int)::_os_log_fmt;
+    auto message(unsigned int, IOService*, void*);
+    auto message(unsigned int, IOService*, void*)::_os_log_fmt;
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto stop(IOService*);
+    auto stop(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~DIDeviceCreatorUserClient();
 };

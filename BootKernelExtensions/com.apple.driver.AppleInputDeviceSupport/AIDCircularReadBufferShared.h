@@ -6,9 +6,11 @@ class AIDCircularReadBufferShared {
 public: // (access info unavailable from symbols alone)
     AIDCircularReadBufferShared();
     AIDCircularReadBufferShared(OSMetaClass const*);
-    getMetaClass() const;
-    read(IOBufferMemoryDescriptor*, unsigned long long, unsigned long long, unsigned long long&);
-    reset();
-    withIOSlaveMemoryBuffer(IOSlaveMemoryBuffer*);
+    auto getMetaClass() const;
+    auto read(IOBufferMemoryDescriptor*, unsigned long long, unsigned long long, unsigned long long&);
+    auto reset();
+    auto withIOSlaveMemoryBuffer(IOSlaveMemoryBuffer*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AIDCircularReadBufferShared();
 };

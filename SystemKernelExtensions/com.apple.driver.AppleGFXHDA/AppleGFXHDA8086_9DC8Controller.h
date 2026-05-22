@@ -6,12 +6,14 @@ class AppleGFXHDA8086_9DC8Controller {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDA8086_9DC8Controller();
     AppleGFXHDA8086_9DC8Controller(OSMetaClass const*);
-    framebufferEventGate(void*, IOFramebuffer*, int, void*);
-    getMetaClass() const;
-    probeAndInitDisplayCodec();
-    probeAudioLink();
-    registerFramebufferNotification(IOFramebuffer*, unsigned int);
-    setupAudioController();
-    start(IOService*);
+    auto framebufferEventGate(void*, IOFramebuffer*, int, void*);
+    auto getMetaClass() const;
+    auto probeAndInitDisplayCodec();
+    auto probeAudioLink();
+    auto registerFramebufferNotification(IOFramebuffer*, unsigned int);
+    auto setupAudioController();
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDA8086_9DC8Controller();
 };

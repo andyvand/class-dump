@@ -6,14 +6,16 @@ class IOAccelSharedNamespace2 {
 public: // (access info unavailable from symbols alone)
     IOAccelSharedNamespace2();
     IOAccelSharedNamespace2(OSMetaClass const*);
-    free();
-    getClientSharedAddressesForId(unsigned int, unsigned long long*, unsigned long long*);
-    getClientSharedROForId(unsigned int, unsigned long long*);
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, task*, IOAccelTask*, IOAccelShared2*);
-    mapClientSharedForId(unsigned int, IOAccelClientSharedRO**, IOAccelClientSharedRW**);
-    mapClientSharedROForId(unsigned int, IOAccelClientSharedRO**);
-    orphanClientMappings(OSSet*) const;
-    unmapClientSharedForId(unsigned int);
+    auto free();
+    auto getClientSharedAddressesForId(unsigned int, unsigned long long*, unsigned long long*);
+    auto getClientSharedROForId(unsigned int, unsigned long long*);
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, task*, IOAccelTask*, IOAccelShared2*);
+    auto mapClientSharedForId(unsigned int, IOAccelClientSharedRO**, IOAccelClientSharedRW**);
+    auto mapClientSharedROForId(unsigned int, IOAccelClientSharedRO**);
+    auto orphanClientMappings(OSSet*) const;
+    auto unmapClientSharedForId(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelSharedNamespace2();
 };

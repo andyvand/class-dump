@@ -6,13 +6,15 @@ class IOMachPort {
 public: // (access info unavailable from symbols alone)
     IOMachPort();
     IOMachPort(OSMetaClass const*);
-    bucketForObject(OSObject*);
-    free();
-    getMetaClass() const;
-    makeSendRightForTask(task*, OSObject*, ipc_object_type_t);
-    noMoreSenders(ipc_port*, ipc_object_type_t, unsigned int);
-    portForObjectInBucket(IOMachPortHashList*, OSObject*, ipc_object_type_t);
-    releasePortForObject(OSObject*, ipc_object_type_t);
-    withObject(OSObject*);
+    auto bucketForObject(OSObject*);
+    auto free();
+    auto getMetaClass() const;
+    auto makeSendRightForTask(task*, OSObject*, ipc_object_type_t);
+    auto noMoreSenders(ipc_port*, ipc_object_type_t, unsigned int);
+    auto portForObjectInBucket(IOMachPortHashList*, OSObject*, ipc_object_type_t);
+    auto releasePortForObject(OSObject*, ipc_object_type_t);
+    auto withObject(OSObject*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOMachPort();
 };

@@ -6,8 +6,10 @@ class AppleIntelCNLUSBXHCI {
 public: // (access info unavailable from symbols alone)
     AppleIntelCNLUSBXHCI();
     AppleIntelCNLUSBXHCI(OSMetaClass const*);
-    getMetaClass() const;
-    reset();
-    reset()::_os_log_fmt;
+    auto getMetaClass() const;
+    auto reset();
+    auto reset()::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelCNLUSBXHCI();
 };

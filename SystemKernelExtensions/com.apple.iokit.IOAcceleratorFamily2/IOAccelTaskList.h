@@ -4,9 +4,9 @@
 
 class IOAccelTaskList {
 public: // (access info unavailable from symbols alone)
-    addTask(IOAccelTask*);
-    getCount() const;
-    init();
-    removeTask(IOAccelTask*);
-    removeTask(IOAccelTask*)::_os_log_fmt;
+    auto addTask(IOAccelTask*);
+    auto getCount() const;
+    auto init();
+    auto removeTask(IOAccelTask*);
+    auto removeTask(IOAccelTask*)::_os_log_fmt;
 };

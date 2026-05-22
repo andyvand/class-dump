@@ -4,12 +4,14 @@
 
 class hv_vm_t {
 public: // (access info unavailable from symbols alone)
-    getMetaClass() const;
-    get_callbacks(unsigned int, hv_callbacks_t*);
-    get_id();
-    get_traps(unsigned int, int (* const**)(void*, unsigned long long), unsigned int*);
+    auto getMetaClass() const;
+    auto get_callbacks(unsigned int, hv_callbacks_t*);
+    auto get_id();
+    auto get_traps(unsigned int, int (* const**)(void*, unsigned long long), unsigned int*);
+    auto is_active();
+    auto set_id(unsigned int);
     hv_vm_t(OSMetaClass const*);
-    is_active();
-    set_id(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~hv_vm_t();
 };

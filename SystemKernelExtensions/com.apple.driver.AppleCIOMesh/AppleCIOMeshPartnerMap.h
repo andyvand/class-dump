@@ -4,5 +4,5 @@
 
 class AppleCIOMeshPartnerMap {
 public: // (access info unavailable from symbols alone)
-    populate(AppleCIOMeshHardwareConfig*, unsigned int);
+    auto populate(AppleCIOMeshHardwareConfig*, unsigned int);
 };

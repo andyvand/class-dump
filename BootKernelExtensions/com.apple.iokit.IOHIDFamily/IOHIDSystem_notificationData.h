@@ -6,8 +6,10 @@ class IOHIDSystem_notificationData {
 public: // (access info unavailable from symbols alone)
     IOHIDSystem_notificationData();
     IOHIDSystem_notificationData(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    runAction(IOHIDSystem*);
+    auto free();
+    auto getMetaClass() const;
+    auto runAction(IOHIDSystem*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDSystem_notificationData();
 };

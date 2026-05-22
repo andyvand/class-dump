@@ -4,6 +4,6 @@
 
 class IOSurfaceSharedEventReference {
 public: // (access info unavailable from symbols alone)
-    getSharedEvent() const;
-    retainSharedEvent();
+    auto getSharedEvent() const;
+    auto retainSharedEvent();
 };

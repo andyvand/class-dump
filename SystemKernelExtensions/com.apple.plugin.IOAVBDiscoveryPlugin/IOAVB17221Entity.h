@@ -6,15 +6,17 @@ class IOAVB17221Entity {
 public: // (access info unavailable from symbols alone)
     IOAVB17221Entity();
     IOAVB17221Entity(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    guid();
-    init(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short);
-    init(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short)::_os_log_fmt;
-    publishADPProperties(bool);
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    timeToLiveTimer();
-    updateEntityParameters(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short);
+    auto free();
+    auto getMetaClass() const;
+    auto guid();
+    auto init(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short);
+    auto init(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short)::_os_log_fmt;
+    auto publishADPProperties(bool);
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto timeToLiveTimer();
+    auto updateEntityParameters(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVB17221Entity();
 };

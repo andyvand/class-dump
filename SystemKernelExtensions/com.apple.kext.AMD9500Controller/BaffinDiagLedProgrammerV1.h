@@ -6,12 +6,14 @@ class BaffinDiagLedProgrammerV1 {
 public: // (access info unavailable from symbols alone)
     BaffinDiagLedProgrammerV1();
     BaffinDiagLedProgrammerV1(OSMetaClass const*);
-    getMetaClass() const;
-    init(ATIController*);
-    programBootOk();
-    programPanelDown();
-    programPanelOk();
-    resetLEDs();
-    updateDiagnosticLEDs(AtiDiagLedProgrammer::GPU_DIAG_BOOT_STATE);
+    auto getMetaClass() const;
+    auto init(ATIController*);
+    auto programBootOk();
+    auto programPanelDown();
+    auto programPanelOk();
+    auto resetLEDs();
+    auto updateDiagnosticLEDs(AtiDiagLedProgrammer::GPU_DIAG_BOOT_STATE);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinDiagLedProgrammerV1();
 };

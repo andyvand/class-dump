@@ -5,11 +5,13 @@
 class AtiFbCompressionManager {
 public: // (access info unavailable from symbols alone)
     AtiFbCompressionManager(OSMetaClass const*);
-    getBufferAddress();
-    getBufferSize();
-    getMetaClass() const;
-    init(ATIController*);
-    isFBCEnabledInHw(unsigned char*);
-    isLPTEnabledInHw();
+    auto getBufferAddress();
+    auto getBufferSize();
+    auto getMetaClass() const;
+    auto init(ATIController*);
+    auto isFBCEnabledInHw(unsigned char*);
+    auto isLPTEnabledInHw();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiFbCompressionManager();
 };

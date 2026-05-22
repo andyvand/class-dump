@@ -6,10 +6,12 @@ class ApplePMTGraphicsInformation {
 public: // (access info unavailable from symbols alone)
     ApplePMTGraphicsInformation();
     ApplePMTGraphicsInformation(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    start(IOService*);
-    withTask(task*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto withTask(task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ApplePMTGraphicsInformation();
 };

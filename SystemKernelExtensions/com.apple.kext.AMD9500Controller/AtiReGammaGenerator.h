@@ -5,10 +5,10 @@
 class AtiReGammaGenerator {
 public: // (access info unavailable from symbols alone)
     AtiReGammaGenerator(OSMetaClass const*);
-    convertGammaToPWL(GammaTable*);
-    convertSingleColorToPWL(IOColorEntry, int);
-    convertToCustomFloat(float, FloatingPointFormat const*);
-    getNormalizedColorEntry(GammaTable*, int, PWLFloatData*);
-    power(float, int);
+    auto convertGammaToPWL(GammaTable*);
+    auto convertSingleColorToPWL(IOColorEntry, int);
+    auto convertToCustomFloat(float, FloatingPointFormat const*);
+    auto getNormalizedColorEntry(GammaTable*, int, PWLFloatData*);
+    auto power(float, int);
     ~AtiReGammaGenerator();
 };

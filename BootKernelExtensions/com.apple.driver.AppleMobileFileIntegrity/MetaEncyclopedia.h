@@ -4,10 +4,10 @@
 
 class MetaEncyclopedia {
 public: // (access info unavailable from symbols alone)
-    addEncyclopedia(MetaEncyclopediaItemProtocol*);
-    addEncyclopedia(MetaEncyclopediaItemProtocol*) (.cold.1);
-    getFact(CEBuffer);
-    hasFactFor(CEBuffer);
-    resolveFact(CEBuffer);
+    auto addEncyclopedia(MetaEncyclopediaItemProtocol*);
+    auto addEncyclopedia(MetaEncyclopediaItemProtocol*) (.cold.1);
+    auto getFact(CEBuffer);
+    auto hasFactFor(CEBuffer);
+    auto resolveFact(CEBuffer);
     ~MetaEncyclopedia();
 };

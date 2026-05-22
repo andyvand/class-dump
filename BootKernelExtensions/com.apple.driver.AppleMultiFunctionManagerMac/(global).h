@@ -4,30 +4,20 @@
 
 // Global C++ functions
 
-AppleMultiFunctionManager::ExpansionData::operator delete(void*, unsigned long)::kalloc_type_view_316;
-AppleMultiFunctionManager::ExpansionData::operator new(unsigned long)::kalloc_type_view_316;
 AppleMultiFunctionManager::_sPowerStates;
 AppleMultiFunctionManager::gMetaClass;
 AppleMultiFunctionManager::metaClass;
-AppleMultiFunctionManager::operator delete(void*, unsigned long);
-AppleMultiFunctionManager::operator new(unsigned long);
 AppleMultiFunctionManager::superClass;
 AppleMultiFunctionManagerLogger::gMetaClass;
 AppleMultiFunctionManagerLogger::metaClass;
-AppleMultiFunctionManagerLogger::operator delete(void*, unsigned long);
-AppleMultiFunctionManagerLogger::operator new(unsigned long);
 AppleMultiFunctionManagerLogger::superClass;
 AppleMultiFunctionManagerLogger_ktv;
 AppleMultiFunctionManager_ktv;
 AppleMultiFunctionPlatform::gMetaClass;
 AppleMultiFunctionPlatform::metaClass;
-AppleMultiFunctionPlatform::operator delete(void*, unsigned long);
-AppleMultiFunctionPlatform::operator new(unsigned long);
 AppleMultiFunctionPlatform::superClass;
 AppleMultiFunctionPlatformMac::gMetaClass;
 AppleMultiFunctionPlatformMac::metaClass;
-AppleMultiFunctionPlatformMac::operator delete(void*, unsigned long);
-AppleMultiFunctionPlatformMac::operator new(unsigned long);
 AppleMultiFunctionPlatformMac::superClass;
 AppleMultiFunctionPlatformMac_ktv;
 AppleMultiFunctionPlatform_ktv;
@@ -48,14 +38,12 @@ OSString::metaClass;
 SYSCTLHelper::sAMFM;
 _FlexWorkLoop::gMetaClass;
 _FlexWorkLoop::metaClass;
-_FlexWorkLoop::operator delete(void*, unsigned long);
-_FlexWorkLoop::operator new(unsigned long);
 _FlexWorkLoop::superClass;
 _FlexWorkLoop_ktv;
 __amfmCommandStrings;
 __amfmMessageStrings (.rel);
 __sysctlLoggingCtl;
-sysctl_amfm_log_ctl(sysctl_oid*, void*, int, sysctl_req*);
+auto sysctl_amfm_log_ctl(sysctl_oid*, void*, int, sysctl_req*);
 vtable for AppleMultiFunctionManager;
 vtable for AppleMultiFunctionManager::MetaClass;
 vtable for AppleMultiFunctionManagerLogger;

@@ -6,8 +6,10 @@ class AMDRadeonX4000_AMDCIVCELLQChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDCIVCELLQChannel();
     AMDRadeonX4000_AMDCIVCELLQChannel(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDCIVCELLQChannel();
 };

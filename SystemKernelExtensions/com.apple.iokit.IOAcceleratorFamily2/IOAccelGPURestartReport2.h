@@ -6,7 +6,9 @@ class IOAccelGPURestartReport2 {
 public: // (access info unavailable from symbols alone)
     IOAccelGPURestartReport2();
     IOAccelGPURestartReport2(OSMetaClass const*);
-    getMetaClass() const;
-    newUserClient(task*, void*, unsigned int, IOUserClient**);
+    auto getMetaClass() const;
+    auto newUserClient(task*, void*, unsigned int, IOUserClient**);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelGPURestartReport2();
 };

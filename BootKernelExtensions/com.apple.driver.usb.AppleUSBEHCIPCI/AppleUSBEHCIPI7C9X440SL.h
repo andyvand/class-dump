@@ -6,12 +6,14 @@ class AppleUSBEHCIPI7C9X440SL {
 public: // (access info unavailable from symbols alone)
     AppleUSBEHCIPI7C9X440SL();
     AppleUSBEHCIPI7C9X440SL(OSMetaClass const*);
-    getMetaClass() const;
-    lowerOnePowerStateTo(unsigned long);
-    lowerOnePowerStateTo(unsigned long)::_os_log_fmt;
-    raiseOnePowerStateTo(unsigned long);
-    raiseOnePowerStateTo(unsigned long)::_os_log_fmt;
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto lowerOnePowerStateTo(unsigned long);
+    auto lowerOnePowerStateTo(unsigned long)::_os_log_fmt;
+    auto raiseOnePowerStateTo(unsigned long);
+    auto raiseOnePowerStateTo(unsigned long)::_os_log_fmt;
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEHCIPI7C9X440SL();
 };

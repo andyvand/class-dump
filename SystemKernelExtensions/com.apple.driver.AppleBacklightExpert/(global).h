@@ -6,8 +6,6 @@
 
 AppleBacklightParameterHandler::gMetaClass;
 AppleBacklightParameterHandler::metaClass;
-AppleBacklightParameterHandler::operator delete(void*, unsigned long);
-AppleBacklightParameterHandler::operator new(unsigned long);
 AppleBacklightParameterHandler::superClass;
 AppleBacklightParameterHandler_ktv;
 AppleSMCFamily::metaClass;

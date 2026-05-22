@@ -4,24 +4,26 @@
 
 class OSAction {
 public: // (access info unavailable from symbols alone)
-    Aborted(int (*)(OSMetaClassBase*, IORPC));
-    Aborted_Impl();
-    Aborted_Invoke(IORPC, OSMetaClassBase*, void (*)(OSMetaClassBase*));
-    Create(OSObject*, unsigned long long, unsigned long long, unsigned long, OSAction**);
-    CreateWithTypeName(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
-    CreateWithTypeName_Call(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
-    CreateWithTypeName_Impl(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
-    CreateWithTypeName_Invoke(IORPC, int (*)(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**));
-    Create_Call(OSObject*, unsigned long long, unsigned long long, unsigned long, OSAction**);
-    Create_Impl(OSObject*, unsigned long long, unsigned long long, unsigned long, OSAction**);
-    Create_Invoke(IORPC, int (*)(OSObject*, unsigned long long, unsigned long long, unsigned long, OSAction**));
-    Dispatch(IORPC);
-    GetReference();
     OSAction();
     OSAction(OSMetaClass const*);
-    SetAbortedHandler(void () block_pointer);
-    _Dispatch(OSAction*, IORPC);
-    free();
-    getMetaClass() const;
+    auto Aborted(int (*)(OSMetaClassBase*, IORPC));
+    auto Aborted_Impl();
+    auto Aborted_Invoke(IORPC, OSMetaClassBase*, void (*)(OSMetaClassBase*));
+    auto Create(OSObject*, unsigned long long, unsigned long long, unsigned long, OSAction**);
+    auto CreateWithTypeName(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
+    auto CreateWithTypeName_Call(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
+    auto CreateWithTypeName_Impl(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
+    auto CreateWithTypeName_Invoke(IORPC, int (*)(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**));
+    auto Create_Call(OSObject*, unsigned long long, unsigned long long, unsigned long, OSAction**);
+    auto Create_Impl(OSObject*, unsigned long long, unsigned long long, unsigned long, OSAction**);
+    auto Create_Invoke(IORPC, int (*)(OSObject*, unsigned long long, unsigned long long, unsigned long, OSAction**));
+    auto Dispatch(IORPC);
+    auto GetReference();
+    auto SetAbortedHandler(void () block_pointer);
+    auto _Dispatch(OSAction*, IORPC);
+    auto free();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSAction();
 };

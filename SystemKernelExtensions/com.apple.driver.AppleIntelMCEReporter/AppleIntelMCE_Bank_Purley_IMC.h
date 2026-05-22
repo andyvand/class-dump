@@ -4,6 +4,6 @@
 
 class AppleIntelMCE::Bank_Purley_IMC {
 public: // (access info unavailable from symbols alone)
-    dimmLocationForErrorSource(unsigned char, unsigned long long, bool);
+    auto dimmLocationForErrorSource(unsigned char, unsigned long long, bool);
     ~Bank_Purley_IMC();
 };

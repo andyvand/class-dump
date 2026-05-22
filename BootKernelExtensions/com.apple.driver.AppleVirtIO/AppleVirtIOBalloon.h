@@ -4,16 +4,16 @@
 
 class AppleVirtIOBalloon {
 public: // (access info unavailable from symbols alone)
-    configChangeHandler();
-    deflate(unsigned int, unsigned int);
-    deflateQueueEventHandler(AppleVirtIOQueue*, void*);
-    getMetaClass() const;
-    inflate(unsigned int, unsigned int);
-    inflateQueueEventHandler(AppleVirtIOQueue*, void*);
-    negotiateFeatures();
-    sendStats();
-    start(IOService*);
-    statsQueueEventHandler(AppleVirtIOQueue*, void*);
-    stop(IOService*);
+    auto configChangeHandler();
+    auto deflate(unsigned int, unsigned int);
+    auto deflateQueueEventHandler(AppleVirtIOQueue*, void*);
+    auto getMetaClass() const;
+    auto inflate(unsigned int, unsigned int);
+    auto inflateQueueEventHandler(AppleVirtIOQueue*, void*);
+    auto negotiateFeatures();
+    auto sendStats();
+    auto start(IOService*);
+    auto statsQueueEventHandler(AppleVirtIOQueue*, void*);
+    auto stop(IOService*);
     ~AppleVirtIOBalloon();
 };

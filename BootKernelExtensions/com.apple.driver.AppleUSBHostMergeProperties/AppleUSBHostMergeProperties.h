@@ -6,9 +6,11 @@ class AppleUSBHostMergeProperties {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostMergeProperties();
     AppleUSBHostMergeProperties(OSMetaClass const*);
-    MergeDictionaryIntoDictionary(OSDictionary*, OSDictionary*);
-    MergeDictionaryIntoProvider(IOService*, OSDictionary*);
-    getMetaClass() const;
-    probe(IOService*, int*);
+    auto MergeDictionaryIntoDictionary(OSDictionary*, OSDictionary*);
+    auto MergeDictionaryIntoProvider(IOService*, OSDictionary*);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostMergeProperties();
 };

@@ -4,24 +4,26 @@
 
 class com_softraid_driver_SoftRAID_DisappearingDiskMonitor {
 public: // (access info unavailable from symbols alone)
-    AddDiskToVolumeRecord(DisappearingDiskVolumeRec*, com_softraid_driver_SoftRAID_Disk*);
-    AddRecordForVolume(com_softraid_driver_SoftRAID_Volume*);
-    AddRecordForVolume(com_softraid_driver_SoftRAID_Volume*)::kalloc_type_view_236;
-    AddRecordForVolume(com_softraid_driver_SoftRAID_Volume*)::kalloc_type_view_246;
-    DeleteAllRecords();
-    DeleteAllRecords()::kalloc_type_view_268;
-    DiskDisappeared(com_softraid_driver_SoftRAID_Disk*, com_softraid_driver_SoftRAID_Volume*, bool);
-    FindRecordForVolume(com_softraid_driver_SoftRAID_Volume*);
-    InvalidateAllDisksInRecord(DisappearingDiskVolumeRec*);
-    MaxNumberDisksPerVolume();
-    NumberDisksInVolumeRecord(DisappearingDiskVolumeRec*);
-    RemoveVolumeRec(com_softraid_driver_SoftRAID_Volume*);
-    RemoveVolumeRec(com_softraid_driver_SoftRAID_Volume*)::kalloc_type_view_146;
-    RemoveVolumeRec(com_softraid_driver_SoftRAID_Volume*)::kalloc_type_view_159;
+    auto AddDiskToVolumeRecord(DisappearingDiskVolumeRec*, com_softraid_driver_SoftRAID_Disk*);
+    auto AddRecordForVolume(com_softraid_driver_SoftRAID_Volume*);
+    auto AddRecordForVolume(com_softraid_driver_SoftRAID_Volume*)::kalloc_type_view_236;
+    auto AddRecordForVolume(com_softraid_driver_SoftRAID_Volume*)::kalloc_type_view_246;
+    auto DeleteAllRecords();
+    auto DeleteAllRecords()::kalloc_type_view_268;
+    auto DiskDisappeared(com_softraid_driver_SoftRAID_Disk*, com_softraid_driver_SoftRAID_Volume*, bool);
+    auto FindRecordForVolume(com_softraid_driver_SoftRAID_Volume*);
+    auto InvalidateAllDisksInRecord(DisappearingDiskVolumeRec*);
+    auto MaxNumberDisksPerVolume();
+    auto NumberDisksInVolumeRecord(DisappearingDiskVolumeRec*);
+    auto RemoveVolumeRec(com_softraid_driver_SoftRAID_Volume*);
+    auto RemoveVolumeRec(com_softraid_driver_SoftRAID_Volume*)::kalloc_type_view_146;
+    auto RemoveVolumeRec(com_softraid_driver_SoftRAID_Volume*)::kalloc_type_view_159;
+    auto free();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_DisappearingDiskMonitor();
     com_softraid_driver_SoftRAID_DisappearingDiskMonitor(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_DisappearingDiskMonitor();
 };

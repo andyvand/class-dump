@@ -4,18 +4,18 @@
 
 class IOVideoStreamFormatDictionary {
 public: // (access info unavailable from symbols alone)
-    create(unsigned int, unsigned int, unsigned int, unsigned int);
-    createWithDescription(IOVideoStreamDescription const&);
-    getCodecFlags(OSDictionary const*);
-    getCodecType(OSDictionary const*);
-    getDescription(OSDictionary const*, IOVideoStreamDescription&);
-    getHeight(OSDictionary const*);
-    getWidth(OSDictionary const*);
-    isSameSampleFormat(IOVideoStreamDescription const&, IOVideoStreamDescription const&);
-    printDescription(IOVideoStreamDescription const&);
-    printDictionary(OSDictionary const*);
-    setCodecFlags(OSDictionary*, unsigned int);
-    setCodecType(OSDictionary*, unsigned int);
-    setHeight(OSDictionary*, unsigned int);
-    setWidth(OSDictionary*, unsigned int);
+    auto create(unsigned int, unsigned int, unsigned int, unsigned int);
+    auto createWithDescription(IOVideoStreamDescription const&);
+    auto getCodecFlags(OSDictionary const*);
+    auto getCodecType(OSDictionary const*);
+    auto getDescription(OSDictionary const*, IOVideoStreamDescription&);
+    auto getHeight(OSDictionary const*);
+    auto getWidth(OSDictionary const*);
+    auto isSameSampleFormat(IOVideoStreamDescription const&, IOVideoStreamDescription const&);
+    auto printDescription(IOVideoStreamDescription const&);
+    auto printDictionary(OSDictionary const*);
+    auto setCodecFlags(OSDictionary*, unsigned int);
+    auto setCodecType(OSDictionary*, unsigned int);
+    auto setHeight(OSDictionary*, unsigned int);
+    auto setWidth(OSDictionary*, unsigned int);
 };

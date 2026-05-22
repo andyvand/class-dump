@@ -6,7 +6,9 @@ class BaffinThermalHighToLowInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinThermalHighToLowInterrupt();
     BaffinThermalHighToLowInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    initR6xx(unsigned char, bool, ATIController*);
+    auto getMetaClass() const;
+    auto initR6xx(unsigned char, bool, ATIController*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinThermalHighToLowInterrupt();
 };

@@ -4,10 +4,12 @@
 
 class com_softraid_driver_SoftRAID_VolumeRAID5 {
 public: // (access info unavailable from symbols alone)
-    GetStripeUnitTypeAndOffset(unsigned long long, unsigned int, unsigned long long*);
+    auto GetStripeUnitTypeAndOffset(unsigned long long, unsigned int, unsigned long long*);
+    auto getMetaClass() const;
+    auto initWithStatusRecPtr(VolumePartitionStatusRec*);
     com_softraid_driver_SoftRAID_VolumeRAID5();
     com_softraid_driver_SoftRAID_VolumeRAID5(OSMetaClass const*);
-    getMetaClass() const;
-    initWithStatusRecPtr(VolumePartitionStatusRec*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_VolumeRAID5();
 };

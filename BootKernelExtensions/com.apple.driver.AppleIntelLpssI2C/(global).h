@@ -6,8 +6,6 @@
 
 AppleIntelLpssI2C::gMetaClass;
 AppleIntelLpssI2C::metaClass;
-AppleIntelLpssI2C::operator delete(void*, unsigned long);
-AppleIntelLpssI2C::operator new(unsigned long);
 AppleIntelLpssI2C::superClass;
 AppleIntelLpssI2C_ktv;
 IOACPIPlatformDevice::metaClass;

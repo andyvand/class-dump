@@ -6,8 +6,10 @@ class AtiVramInfoInterface_V2_V2_3 {
 public: // (access info unavailable from symbols alone)
     AtiVramInfoInterface_V2_V2_3();
     AtiVramInfoInterface_V2_V2_3(OSMetaClass const*);
-    debugVramInfo() const;
-    getMetaClass() const;
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto debugVramInfo() const;
+    auto getMetaClass() const;
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiVramInfoInterface_V2_V2_3();
 };

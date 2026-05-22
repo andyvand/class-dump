@@ -6,11 +6,13 @@ class AppleUSBHostBulkHIDDevice {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostBulkHIDDevice();
     AppleUSBHostBulkHIDDevice(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_120;
-    getMetaClass() const;
-    handleStart(IOService*);
-    handleStart(IOService*)::_os_log_fmt;
-    handleStart(IOService*)::kalloc_type_view_53;
+    auto free();
+    auto free()::kalloc_type_view_120;
+    auto getMetaClass() const;
+    auto handleStart(IOService*);
+    auto handleStart(IOService*)::_os_log_fmt;
+    auto handleStart(IOService*)::kalloc_type_view_53;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostBulkHIDDevice();
 };

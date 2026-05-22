@@ -6,10 +6,12 @@ class IOSurfaceMemoryTag {
 public: // (access info unavailable from symbols alone)
     IOSurfaceMemoryTag();
     IOSurfaceMemoryTag(OSMetaClass const*);
-    __OSFinalClass();
-    free();
-    getMetaClass() const;
-    init(IOSurface*);
-    withSurface(IOSurface*);
+    auto __OSFinalClass();
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOSurface*);
+    auto withSurface(IOSurface*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSurfaceMemoryTag();
 };

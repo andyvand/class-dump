@@ -4,5 +4,5 @@
 
 class IOThunderboltDispatchQueue {
 public: // (access info unavailable from symbols alone)
-    withGate(IOThunderboltCommandGate*);
+    auto withGate(IOThunderboltCommandGate*);
 };

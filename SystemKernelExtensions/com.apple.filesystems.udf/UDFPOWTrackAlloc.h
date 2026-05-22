@@ -4,9 +4,9 @@
 
 class UDFPOWTrackAlloc {
 public: // (access info unavailable from symbols alone)
-    AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
-    FreeExtent(unsigned int, unsigned int, int*);
-    GetNumFreeBlks();
     UDFPOWTrackAlloc(UDFMount*, unsigned short, unsigned short);
+    auto AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
+    auto FreeExtent(unsigned int, unsigned int, int*);
+    auto GetNumFreeBlks();
     ~UDFPOWTrackAlloc();
 };

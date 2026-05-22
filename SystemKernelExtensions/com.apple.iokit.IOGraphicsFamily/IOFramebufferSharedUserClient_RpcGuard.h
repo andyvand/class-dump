@@ -4,6 +4,6 @@
 
 class IOFramebufferSharedUserClient::RpcGuard {
 public: // (access info unavailable from symbols alone)
-    rpcEnter();
-    rpcLeave();
+    auto rpcEnter();
+    auto rpcLeave();
 };

@@ -4,24 +4,24 @@
 
 class AppleBCMWLANWnmAdapter {
 public: // (access info unavailable from symbols alone)
-    configureBTMRssiThreshold(unsigned int);
-    configureBeaconReporting(apple80211_wcl_wnm_config_t*);
-    configureEnterpriseFeatures(apple80211_wcl_wnm_config_t*);
-    configureOffloads(apple80211_wcl_wnm_offload_t*);
-    configureProductInfoReporting(apple80211_wcl_wnm_config_t*);
-    configureRoamThrottleForBSSTransMgmt(wnmRuntimeConfig_t*);
-    configureSolicitedBSSTransMgmt(unsigned int);
-    configureWNMKeepAlives(unsigned short, unsigned short);
-    configureWnmFeatures(apple80211_wcl_wnm_config_t*);
-    configureWnmOffloadFeatures(apple80211_wcl_wnm_offload_t*);
-    free();
-    free()::kalloc_type_view_130;
-    freeResources();
-    getMetaClass() const;
-    getWNMState(unsigned int*);
-    initWithDriver(AppleBCMWLANCore*);
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_93;
-    unconfigureOffloads();
-    withDriver(AppleBCMWLANCore*);
+    auto configureBTMRssiThreshold(unsigned int);
+    auto configureBeaconReporting(apple80211_wcl_wnm_config_t*);
+    auto configureEnterpriseFeatures(apple80211_wcl_wnm_config_t*);
+    auto configureOffloads(apple80211_wcl_wnm_offload_t*);
+    auto configureProductInfoReporting(apple80211_wcl_wnm_config_t*);
+    auto configureRoamThrottleForBSSTransMgmt(wnmRuntimeConfig_t*);
+    auto configureSolicitedBSSTransMgmt(unsigned int);
+    auto configureWNMKeepAlives(unsigned short, unsigned short);
+    auto configureWnmFeatures(apple80211_wcl_wnm_config_t*);
+    auto configureWnmOffloadFeatures(apple80211_wcl_wnm_offload_t*);
+    auto free();
+    auto free()::kalloc_type_view_130;
+    auto freeResources();
+    auto getMetaClass() const;
+    auto getWNMState(unsigned int*);
+    auto initWithDriver(AppleBCMWLANCore*);
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_93;
+    auto unconfigureOffloads();
+    auto withDriver(AppleBCMWLANCore*);
     ~AppleBCMWLANWnmAdapter();
 };

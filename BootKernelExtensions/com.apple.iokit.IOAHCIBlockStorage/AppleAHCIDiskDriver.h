@@ -4,25 +4,27 @@
 
 class AppleAHCIDiskDriver {
 public: // (access info unavailable from symbols alone)
-    AllocateResources();
-    AllocateSATARequests(int);
-    AllocateSATARequests(int)::kalloc_type_view_197;
-    AllocateSATARequests(int)::kalloc_type_view_219;
     AppleAHCIDiskDriver();
     AppleAHCIDiskDriver(OSMetaClass const*);
-    AsyncPolledExecute(__SATAIORequest*, IOPolledCompletion);
-    ChangePowerStatePreflight(__SATAIORequest*, unsigned int);
-    CompletePolledIO(int, unsigned long long);
-    DeallocateResources();
-    DeallocateResources()::kalloc_type_view_168;
-    PolledCommandCompletion(IOSerialATARequestFIS*);
-    PolledIO(unsigned char, IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
-    PolledIO(unsigned char, IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion) (.cold.1);
-    PolledPowerOff();
-    PolledResetCommand();
-    PolledSleepCommand();
-    PolledSynchronizeCache();
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    getMetaClass() const;
+    auto AllocateResources();
+    auto AllocateSATARequests(int);
+    auto AllocateSATARequests(int)::kalloc_type_view_197;
+    auto AllocateSATARequests(int)::kalloc_type_view_219;
+    auto AsyncPolledExecute(__SATAIORequest*, IOPolledCompletion);
+    auto ChangePowerStatePreflight(__SATAIORequest*, unsigned int);
+    auto CompletePolledIO(int, unsigned long long);
+    auto DeallocateResources();
+    auto DeallocateResources()::kalloc_type_view_168;
+    auto PolledCommandCompletion(IOSerialATARequestFIS*);
+    auto PolledIO(unsigned char, IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
+    auto PolledIO(unsigned char, IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion) (.cold.1);
+    auto PolledPowerOff();
+    auto PolledResetCommand();
+    auto PolledSleepCommand();
+    auto PolledSynchronizeCache();
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleAHCIDiskDriver();
 };

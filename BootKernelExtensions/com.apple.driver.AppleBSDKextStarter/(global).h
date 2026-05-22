@@ -6,13 +6,11 @@
 
 AppleBSDKextStarter::gMetaClass;
 AppleBSDKextStarter::metaClass;
-AppleBSDKextStarter::operator delete(void*, unsigned long);
-AppleBSDKextStarter::operator new(unsigned long);
 AppleBSDKextStarter::superClass;
 AppleBSDKextStarter_ktv;
 IOService::gMetaClass;
 OSArray::metaClass;
 OSString::metaClass;
-loadRequest(char const*);
+auto loadRequest(char const*);
 vtable for AppleBSDKextStarter;
 vtable for AppleBSDKextStarter::MetaClass;

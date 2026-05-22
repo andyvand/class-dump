@@ -6,9 +6,11 @@ class OSDextCrash {
 public: // (access info unavailable from symbols alone)
     OSDextCrash();
     OSDextCrash(OSMetaClass const*);
-    getMetaClass() const;
-    getTimestamp();
-    initWithTimestamp(unsigned long long);
-    withTimestamp(unsigned long long);
+    auto getMetaClass() const;
+    auto getTimestamp();
+    auto initWithTimestamp(unsigned long long);
+    auto withTimestamp(unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSDextCrash();
 };

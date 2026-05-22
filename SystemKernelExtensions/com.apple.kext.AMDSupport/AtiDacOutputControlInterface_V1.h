@@ -5,8 +5,10 @@
 class AtiDacOutputControlInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiDacOutputControlInterface_V1(OSMetaClass const*);
-    createDac1OutputControl(AtiVBiosHelper*);
-    createDac2OutputControl(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createDac1OutputControl(AtiVBiosHelper*);
+    auto createDac2OutputControl(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDacOutputControlInterface_V1();
 };

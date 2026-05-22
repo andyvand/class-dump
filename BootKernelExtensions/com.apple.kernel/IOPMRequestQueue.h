@@ -6,12 +6,14 @@ class IOPMRequestQueue {
 public: // (access info unavailable from symbols alone)
     IOPMRequestQueue();
     IOPMRequestQueue(OSMetaClass const*);
-    checkForWork();
-    create(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMRequestQueue*));
-    free();
-    getMetaClass() const;
-    init(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMRequestQueue*));
-    queuePMRequest(IOPMRequest*);
-    queuePMRequestChain(IOPMRequest**, unsigned int);
+    auto checkForWork();
+    auto create(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMRequestQueue*));
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMRequestQueue*));
+    auto queuePMRequest(IOPMRequest*);
+    auto queuePMRequestChain(IOPMRequest**, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPMRequestQueue();
 };

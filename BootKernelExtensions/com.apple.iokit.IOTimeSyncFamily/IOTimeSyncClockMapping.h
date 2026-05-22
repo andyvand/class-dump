@@ -6,12 +6,14 @@ class IOTimeSyncClockMapping {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncClockMapping();
     IOTimeSyncClockMapping(OSMetaClass const*);
-    decrementReferenceCount();
-    getClockDomain();
-    getClockID();
-    getMetaClass() const;
-    getReferenceCount();
-    incrementReferenceCount();
-    init(unsigned long long, unsigned int);
+    auto decrementReferenceCount();
+    auto getClockDomain();
+    auto getClockID();
+    auto getMetaClass() const;
+    auto getReferenceCount();
+    auto incrementReferenceCount();
+    auto init(unsigned long long, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncClockMapping();
 };

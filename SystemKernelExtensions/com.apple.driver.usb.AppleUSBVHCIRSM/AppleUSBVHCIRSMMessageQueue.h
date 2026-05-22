@@ -5,11 +5,11 @@
 class AppleUSBVHCIRSMMessageQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIRSMMessageQueue(OSMetaClass const*);
-    completion(AppleUSBVHCIMessageQueue::tMessageRecord*, int);
-    disable();
-    free();
-    initWithParameters(IORSMChannel*, unsigned char, IOInterruptEventSource*);
-    processCompletions();
-    sendMessage(StandardUSBVHCI::VHCIMessage const*, unsigned int);
+    auto completion(AppleUSBVHCIMessageQueue::tMessageRecord*, int);
+    auto disable();
+    auto free();
+    auto initWithParameters(IORSMChannel*, unsigned char, IOInterruptEventSource*);
+    auto processCompletions();
+    auto sendMessage(StandardUSBVHCI::VHCIMessage const*, unsigned int);
     ~AppleUSBVHCIRSMMessageQueue();
 };

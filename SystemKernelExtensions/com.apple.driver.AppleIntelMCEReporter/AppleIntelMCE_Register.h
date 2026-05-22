@@ -4,6 +4,6 @@
 
 class AppleIntelMCE::Register {
 public: // (access info unavailable from symbols alone)
-    operator&=(unsigned long long);
-    operator|=(unsigned long long);
+    auto operator&=(unsigned long long);
+    auto operator|=(unsigned long long);
 };

@@ -4,8 +4,8 @@
 
 class IGTelemetry {
 public: // (access info unavailable from symbols alone)
-    init();
-    readUserConfig();
-    shutdown();
+    auto init();
+    auto readUserConfig();
+    auto shutdown();
     ~IGTelemetry();
 };

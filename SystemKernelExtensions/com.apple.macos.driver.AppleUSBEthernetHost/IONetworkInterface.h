@@ -4,9 +4,9 @@
 
 class IONetworkInterface {
 public: // (access info unavailable from symbols alone)
-    flushOutputQueue(unsigned int);
-    setInterfaceSubType(unsigned int);
-    signalOutputThread(unsigned int);
-    startOutputThread(unsigned int);
-    stopOutputThread(unsigned int);
+    auto flushOutputQueue(unsigned int);
+    auto setInterfaceSubType(unsigned int);
+    auto signalOutputThread(unsigned int);
+    auto startOutputThread(unsigned int);
+    auto stopOutputThread(unsigned int);
 };

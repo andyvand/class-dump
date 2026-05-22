@@ -6,9 +6,11 @@ class AtiPowerPlayInfo_V2_V9 {
 public: // (access info unavailable from symbols alone)
     AtiPowerPlayInfo_V2_V9();
     AtiPowerPlayInfo_V2_V9(OSMetaClass const*);
-    debugTable() const;
-    getMaxClocks(unsigned int&, unsigned int&);
-    getMetaClass() const;
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto debugTable() const;
+    auto getMaxClocks(unsigned int&, unsigned int&);
+    auto getMetaClass() const;
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPowerPlayInfo_V2_V9();
 };

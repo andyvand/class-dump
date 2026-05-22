@@ -5,7 +5,9 @@
 class AtiGetMemoryClockInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiGetMemoryClockInterface_V1(OSMetaClass const*);
-    createGetMemoryClock(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createGetMemoryClock(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiGetMemoryClockInterface_V1();
 };

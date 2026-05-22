@@ -6,15 +6,17 @@ class AMDRadeonX6000_AMDAccelShared {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDAccelShared();
     AMDRadeonX6000_AMDAccelShared(OSMetaClass const*);
-    AndXorByteFlag(unsigned short, unsigned char, unsigned char);
-    AndXorByteFlagNoWrite(unsigned short, unsigned char, unsigned char) const;
-    CreateVcnContext(sVideoContextCreateInfo*, sVideoContextReturnInfo*);
-    RemoveVcnContext(unsigned int);
-    SetVCNClocks();
-    SetVcnPMClientState(unsigned int, unsigned int, unsigned long long, unsigned int, unsigned int);
-    SurfaceCopy(unsigned int*, unsigned long long, IOAccelEvent*);
-    free();
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, task*);
+    auto AndXorByteFlag(unsigned short, unsigned char, unsigned char);
+    auto AndXorByteFlagNoWrite(unsigned short, unsigned char, unsigned char) const;
+    auto CreateVcnContext(sVideoContextCreateInfo*, sVideoContextReturnInfo*);
+    auto RemoveVcnContext(unsigned int);
+    auto SetVCNClocks();
+    auto SetVcnPMClientState(unsigned int, unsigned int, unsigned long long, unsigned int, unsigned int);
+    auto SurfaceCopy(unsigned int*, unsigned long long, IOAccelEvent*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDAccelShared();
 };

@@ -4,16 +4,18 @@
 
 class com_apple_driver_pm_uncore_reporter {
 public: // (access info unavailable from symbols alone)
+    auto destroy();
+    auto getMetaClass() const;
+    auto group();
+    auto init();
+    auto perfSample();
+    auto perfSampleUpdate(IOTimerEventSource*);
+    auto publish();
+    auto setup(com_apple_driver_pmtelemetry*, IOReportLegend*);
+    auto subgroup();
     com_apple_driver_pm_uncore_reporter();
     com_apple_driver_pm_uncore_reporter(OSMetaClass const*);
-    destroy();
-    getMetaClass() const;
-    group();
-    init();
-    perfSample();
-    perfSampleUpdate(IOTimerEventSource*);
-    publish();
-    setup(com_apple_driver_pmtelemetry*, IOReportLegend*);
-    subgroup();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_pm_uncore_reporter();
 };

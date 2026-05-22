@@ -5,21 +5,21 @@
 class FileGlobAccessor {
 public: // (access info unavailable from symbols alone)
     FileGlobAccessor(proc*, fileglob*, unsigned long long);
-    csblob();
-    getFact(CEBuffer);
-    hasFactFor(CEBuffer);
-    isPlatformBinary();
-    isRootInstalled();
+    auto csblob();
+    auto getFact(CEBuffer);
+    auto hasFactFor(CEBuffer);
+    auto isPlatformBinary();
+    auto isRootInstalled();
+    auto resolveFact(CEBuffer);
+    auto resolveFactIfPresent(CEBuffer, bool*);
+    auto supplementalLinkageHash();
+    auto teamIdentifier();
+    auto wrappedVnode();
     non-virtual thunk to getFact(CEBuffer);
     non-virtual thunk to hasFactFor(CEBuffer);
     non-virtual thunk to resolveFact(CEBuffer);
     non-virtual thunk to resolveFactIfPresent(CEBuffer, bool*);
     non-virtual thunk to wrappedVnode();
     non-virtual thunk to ~FileGlobAccessor();
-    resolveFact(CEBuffer);
-    resolveFactIfPresent(CEBuffer, bool*);
-    supplementalLinkageHash();
-    teamIdentifier();
-    wrappedVnode();
     ~FileGlobAccessor();
 };

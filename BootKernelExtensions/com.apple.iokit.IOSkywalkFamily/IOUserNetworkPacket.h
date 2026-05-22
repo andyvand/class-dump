@@ -4,10 +4,12 @@
 
 class IOUserNetworkPacket {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     IOUserNetworkPacket();
     IOUserNetworkPacket(OSMetaClass const*);
-    _Dispatch(IOUserNetworkPacket*, IORPC);
-    getMetaClass() const;
+    auto Dispatch(IORPC);
+    auto _Dispatch(IOUserNetworkPacket*, IORPC);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserNetworkPacket();
 };

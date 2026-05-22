@@ -6,7 +6,9 @@ class MPIFrame {
 public: // (access info unavailable from symbols alone)
     MPIFrame();
     MPIFrame(OSMetaClass const*);
-    WithParameters(unsigned long long, unsigned long long, unsigned int, unsigned int);
-    getMetaClass() const;
+    auto WithParameters(unsigned long long, unsigned long long, unsigned int, unsigned int);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~MPIFrame();
 };

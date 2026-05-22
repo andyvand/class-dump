@@ -4,10 +4,10 @@
 
 class BCMWLANFirmware4387_Hashstore {
 public: // (access info unavailable from symbols alone)
-    getMetaClass() const;
-    init(OSDictionary*);
-    requestImageLoad(OSDictionary*, unsigned int);
-    requestImageVerify(OSDictionary*, unsigned int);
-    start(IOService*);
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto requestImageLoad(OSDictionary*, unsigned int);
+    auto requestImageVerify(OSDictionary*, unsigned int);
+    auto start(IOService*);
     ~BCMWLANFirmware4387_Hashstore();
 };

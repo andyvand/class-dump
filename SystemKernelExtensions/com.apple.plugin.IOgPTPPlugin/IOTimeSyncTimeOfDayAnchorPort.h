@@ -6,9 +6,11 @@ class IOTimeSyncTimeOfDayAnchorPort {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncTimeOfDayAnchorPort();
     IOTimeSyncTimeOfDayAnchorPort(OSMetaClass const*);
-    getMetaClass() const;
-    init(unsigned long long, unsigned short, OSDictionary*);
-    synthesizeSync();
-    updateNtpAndUpTimeOffsetNsec(long long, bool);
+    auto getMetaClass() const;
+    auto init(unsigned long long, unsigned short, OSDictionary*);
+    auto synthesizeSync();
+    auto updateNtpAndUpTimeOffsetNsec(long long, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncTimeOfDayAnchorPort();
 };

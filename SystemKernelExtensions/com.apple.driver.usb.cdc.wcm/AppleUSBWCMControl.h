@@ -6,13 +6,15 @@ class AppleUSBWCMControl {
 public: // (access info unavailable from symbols alone)
     AppleUSBWCMControl();
     AppleUSBWCMControl(OSMetaClass const*);
-    allocateResources();
-    getEncapsulatedResponse(unsigned char*, unsigned int);
-    getEncapsulatedResponseGated(unsigned char*, unsigned int*);
-    getFunctionalDescriptors();
-    getMetaClass() const;
-    sendEncapsulatedCommand(unsigned char*, unsigned int);
-    sendEncapsulatedCommandGated(unsigned char*, unsigned int*);
-    start(IOService*);
+    auto allocateResources();
+    auto getEncapsulatedResponse(unsigned char*, unsigned int);
+    auto getEncapsulatedResponseGated(unsigned char*, unsigned int*);
+    auto getFunctionalDescriptors();
+    auto getMetaClass() const;
+    auto sendEncapsulatedCommand(unsigned char*, unsigned int);
+    auto sendEncapsulatedCommandGated(unsigned char*, unsigned int*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBWCMControl();
 };

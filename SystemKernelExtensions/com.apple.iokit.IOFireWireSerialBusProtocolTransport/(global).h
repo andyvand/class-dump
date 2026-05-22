@@ -4,21 +4,19 @@
 
 // Global C++ functions
 
-FirewireSBPTransportSysctl(sysctl_oid*, void*, int, sysctl_req*);
 IOFireWireDevice::metaClass;
 IOFireWireSBP2LUN::metaClass;
 IOFireWireSBP2Target::metaClass;
 IOFireWireSerialBusProtocolTransport::gMetaClass;
 IOFireWireSerialBusProtocolTransport::metaClass;
-IOFireWireSerialBusProtocolTransport::operator delete(void*, unsigned long);
-IOFireWireSerialBusProtocolTransport::operator new(unsigned long);
 IOFireWireSerialBusProtocolTransport::superClass;
 IOFireWireSerialBusProtocolTransport_ktv;
 IOSCSIProtocolServices::gMetaClass;
 OSDictionary::metaClass;
 OSNumber::metaClass;
+auto FirewireSBPTransportSysctl(sysctl_oid*, void*, int, sysctl_req*);
 gFWGlobals;
-operator delete(void*);
+void operator delete(void*);
 vtable for FWSBP2TransportGlobals;
 vtable for IOFireWireSerialBusProtocolTransport;
 vtable for IOFireWireSerialBusProtocolTransport::MetaClass;

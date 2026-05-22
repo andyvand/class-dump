@@ -6,10 +6,12 @@ class IOGPUSharedEventFence {
 public: // (access info unavailable from symbols alone)
     IOGPUSharedEventFence();
     IOGPUSharedEventFence(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithSharedEvent(IOSurfaceSharedEvent*, unsigned long long, IOGPU*, IOGPUCommandQueue*);
-    notifyClient();
-    withSharedEvent(IOSurfaceSharedEvent*, unsigned long long, IOGPU*, IOGPUCommandQueue*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithSharedEvent(IOSurfaceSharedEvent*, unsigned long long, IOGPU*, IOGPUCommandQueue*);
+    auto notifyClient();
+    auto withSharedEvent(IOSurfaceSharedEvent*, unsigned long long, IOGPU*, IOGPUCommandQueue*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUSharedEventFence();
 };

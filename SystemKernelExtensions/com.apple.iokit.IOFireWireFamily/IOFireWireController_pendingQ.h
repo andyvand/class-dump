@@ -4,6 +4,6 @@
 
 class IOFireWireController::pendingQ {
 public: // (access info unavailable from symbols alone)
-    headChanged(IOFWCommand*);
+    auto headChanged(IOFWCommand*);
     ~pendingQ();
 };

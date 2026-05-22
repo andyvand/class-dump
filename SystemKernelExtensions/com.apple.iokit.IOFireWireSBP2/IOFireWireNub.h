@@ -4,6 +4,6 @@
 
 class IOFireWireNub {
 public: // (access info unavailable from symbols alone)
-    getController() const;
-    getNodeIDGeneration(unsigned int&, unsigned short&, unsigned short&) const;
+    auto getController() const;
+    auto getNodeIDGeneration(unsigned int&, unsigned short&, unsigned short&) const;
 };

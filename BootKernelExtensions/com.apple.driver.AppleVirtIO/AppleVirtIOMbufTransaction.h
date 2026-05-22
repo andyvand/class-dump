@@ -5,14 +5,14 @@
 class AppleVirtIOMbufTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOMbufTransaction(OSMetaClass const*);
-    completeBuffers();
-    free();
-    getBufferLength();
-    getBufferSegment(unsigned long long, unsigned long long*, bool*);
-    getMetaClass() const;
-    getPacket();
-    initWithSize(unsigned int, bool, bool, unsigned long);
-    prepareBuffers();
-    setPacket(__mbuf*);
+    auto completeBuffers();
+    auto free();
+    auto getBufferLength();
+    auto getBufferSegment(unsigned long long, unsigned long long*, bool*);
+    auto getMetaClass() const;
+    auto getPacket();
+    auto initWithSize(unsigned int, bool, bool, unsigned long);
+    auto prepareBuffers();
+    auto setPacket(__mbuf*);
     ~AppleVirtIOMbufTransaction();
 };

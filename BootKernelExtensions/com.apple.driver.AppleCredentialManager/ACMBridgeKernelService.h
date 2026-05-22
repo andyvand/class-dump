@@ -6,14 +6,16 @@ class ACMBridgeKernelService {
 public: // (access info unavailable from symbols alone)
     ACMBridgeKernelService();
     ACMBridgeKernelService(OSMetaClass const*);
-    _detectDFRPresence();
-    _onDoubleClickNotification();
-    free();
-    getMetaClass() const;
-    init(ACMKernelService* (*) [8], IOService*, IOCommandGate*);
-    performKernelControlGated(unsigned int, void const*, unsigned long, void*, unsigned int*, ACMPerformCommandContextV2 const*);
-    processNotificationGated(KernelServiceNotification);
-    start();
-    stop();
+    auto _detectDFRPresence();
+    auto _onDoubleClickNotification();
+    auto free();
+    auto getMetaClass() const;
+    auto init(ACMKernelService* (*) [8], IOService*, IOCommandGate*);
+    auto performKernelControlGated(unsigned int, void const*, unsigned long, void*, unsigned int*, ACMPerformCommandContextV2 const*);
+    auto processNotificationGated(KernelServiceNotification);
+    auto start();
+    auto stop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ACMBridgeKernelService();
 };

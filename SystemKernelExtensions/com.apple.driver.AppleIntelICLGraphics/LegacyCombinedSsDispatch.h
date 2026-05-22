@@ -4,5 +4,5 @@
 
 class LegacyCombinedSsDispatch {
 public: // (access info unavailable from symbols alone)
-    Generate(unsigned int, unsigned int, unsigned int);
+    auto Generate(unsigned int, unsigned int, unsigned int);
 };

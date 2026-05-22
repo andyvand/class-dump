@@ -4,14 +4,16 @@
 
 class IO80211TimerFactory {
 public: // (access info unavailable from symbols alone)
-    CreateTimer(OSObject*, void (*)(OSObject*, IO80211TimerSource*), char const*);
     IO80211TimerFactory();
     IO80211TimerFactory(OSMetaClass const*);
-    allocWithParams(IO80211WorkQueue*);
-    free();
-    free()::kalloc_type_view_80;
-    getMetaClass() const;
-    init(IO80211WorkQueue*);
-    init(IO80211WorkQueue*)::kalloc_type_view_58;
+    auto CreateTimer(OSObject*, void (*)(OSObject*, IO80211TimerSource*), char const*);
+    auto allocWithParams(IO80211WorkQueue*);
+    auto free();
+    auto free()::kalloc_type_view_80;
+    auto getMetaClass() const;
+    auto init(IO80211WorkQueue*);
+    auto init(IO80211WorkQueue*)::kalloc_type_view_58;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211TimerFactory();
 };

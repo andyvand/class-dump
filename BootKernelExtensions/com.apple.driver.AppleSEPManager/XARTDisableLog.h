@@ -5,16 +5,16 @@
 class XARTDisableLog {
 public: // (access info unavailable from symbols alone)
     XARTDisableLog();
-    format_acks(char*, unsigned long);
-    format_acks(char*, unsigned long) (.cold.1);
-    format_acks(char*, unsigned long) (.cold.2);
-    format_acks(char*, unsigned long) (.cold.3);
-    format_acks(char*, unsigned long) (.cold.4);
-    log_disable_acknowledge(unsigned int);
-    log_disable_acknowledge(unsigned int) (.cold.1);
-    log_disable_begin();
-    log_disable_begin() (.cold.1);
-    register_disable(unsigned int);
-    register_disable(unsigned int) (.cold.1);
-    register_disable(unsigned int) (.cold.2);
+    auto format_acks(char*, unsigned long);
+    auto format_acks(char*, unsigned long) (.cold.1);
+    auto format_acks(char*, unsigned long) (.cold.2);
+    auto format_acks(char*, unsigned long) (.cold.3);
+    auto format_acks(char*, unsigned long) (.cold.4);
+    auto log_disable_acknowledge(unsigned int);
+    auto log_disable_acknowledge(unsigned int) (.cold.1);
+    auto log_disable_begin();
+    auto log_disable_begin() (.cold.1);
+    auto register_disable(unsigned int);
+    auto register_disable(unsigned int) (.cold.1);
+    auto register_disable(unsigned int) (.cold.2);
 };

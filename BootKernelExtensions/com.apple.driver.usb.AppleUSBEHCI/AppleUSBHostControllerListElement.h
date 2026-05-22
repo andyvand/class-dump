@@ -5,6 +5,6 @@
 class AppleUSBHostControllerListElement {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostControllerListElement(OSMetaClass const*);
-    print(int);
+    auto print(int);
     ~AppleUSBHostControllerListElement();
 };

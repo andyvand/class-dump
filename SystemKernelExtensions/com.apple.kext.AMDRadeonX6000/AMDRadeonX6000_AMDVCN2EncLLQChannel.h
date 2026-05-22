@@ -6,9 +6,11 @@ class AMDRadeonX6000_AMDVCN2EncLLQChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDVCN2EncLLQChannel();
     AMDRadeonX6000_AMDVCN2EncLLQChannel(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(int, AMDRadeonX6000_IAMDHWInterface*, AMDRadeonX6000_IAMDHWEngine*, AMDRadeonX6000_IAMDHWRing*, char const*);
-    initQueueCommandFrame();
+    auto free();
+    auto getMetaClass() const;
+    auto init(int, AMDRadeonX6000_IAMDHWInterface*, AMDRadeonX6000_IAMDHWEngine*, AMDRadeonX6000_IAMDHWRing*, char const*);
+    auto initQueueCommandFrame();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDVCN2EncLLQChannel();
 };

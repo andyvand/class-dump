@@ -6,13 +6,15 @@ class IOUserSerialUserClient {
 public: // (access info unavailable from symbols alone)
     IOUserSerialUserClient();
     IOUserSerialUserClient(OSMetaClass const*);
-    clientClose();
-    clientMemoryForType(unsigned int, unsigned int*, IOMemoryDescriptor**);
-    complete(bool, bool);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getEvents(unsigned short, unsigned long long&, unsigned long long&) const;
-    getMetaClass() const;
-    ioctl(unsigned long, void*);
-    start(IOService*);
+    auto clientClose();
+    auto clientMemoryForType(unsigned int, unsigned int*, IOMemoryDescriptor**);
+    auto complete(bool, bool);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getEvents(unsigned short, unsigned long long&, unsigned long long&) const;
+    auto getMetaClass() const;
+    auto ioctl(unsigned long, void*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserSerialUserClient();
 };

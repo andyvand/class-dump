@@ -6,13 +6,15 @@ class AppleGFXHDAFunctionGroup_80862805 {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAFunctionGroup_80862805();
     AppleGFXHDAFunctionGroup_80862805(OSMetaClass const*);
-    codecRequiresPolling();
-    constructPathMapByDiscovery(OSArray**);
-    getMetaClass() const;
-    init();
-    initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*, bool);
-    pathMapCanBeConstructedByDiscovery();
-    setAudioInfoFrameChecksum(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char);
-    sinkDeviceAttached(unsigned char);
+    auto codecRequiresPolling();
+    auto constructPathMapByDiscovery(OSArray**);
+    auto getMetaClass() const;
+    auto init();
+    auto initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*, bool);
+    auto pathMapCanBeConstructedByDiscovery();
+    auto setAudioInfoFrameChecksum(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char);
+    auto sinkDeviceAttached(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAFunctionGroup_80862805();
 };

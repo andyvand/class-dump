@@ -6,8 +6,10 @@ class IOHIDTimeSyncClientData {
 public: // (access info unavailable from symbols alone)
     IOHIDTimeSyncClientData();
     IOHIDTimeSyncClientData(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    withClientInfo(IOService*, void (IOHIDTimeSyncService::Event, IOHIDTimeSyncService::Precision) block_pointer)::__desc;
+    auto free();
+    auto getMetaClass() const;
+    auto withClientInfo(IOService*, void (IOHIDTimeSyncService::Event, IOHIDTimeSyncService::Precision) block_pointer)::__desc;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDTimeSyncClientData();
 };

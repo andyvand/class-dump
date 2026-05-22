@@ -4,11 +4,11 @@
 
 class AppleCredentialManager {
 public: // (access info unavailable from symbols alone)
-    ACMSecAclRequiresPasscode(void const*, unsigned long);
-    ACMSecContextAddCredential(__ACMHandle*, __ACMCredential*, unsigned int);
-    ACMSecContextDelete(__ACMHandle*);
-    ACMSecContextProcessAcl(__ACMHandle*, void const*, unsigned long, void const*, unsigned long, unsigned int, ACMParameter const*, unsigned int, unsigned int*, bool*, void**, unsigned long*);
-    ACMSecContextVerifyPolicy(__ACMHandle*, char const*, unsigned int, ACMParameter const*, unsigned int, __ACMRequirement**);
-    ACMSecHandleExists(__ACMHandle*, unsigned char*);
-    ACMSecParseAclAndCopyConstraintCharacteristics(void const*, unsigned long, void**, unsigned long*);
+    auto ACMSecAclRequiresPasscode(void const*, unsigned long);
+    auto ACMSecContextAddCredential(__ACMHandle*, __ACMCredential*, unsigned int);
+    auto ACMSecContextDelete(__ACMHandle*);
+    auto ACMSecContextProcessAcl(__ACMHandle*, void const*, unsigned long, void const*, unsigned long, unsigned int, ACMParameter const*, unsigned int, unsigned int*, bool*, void**, unsigned long*);
+    auto ACMSecContextVerifyPolicy(__ACMHandle*, char const*, unsigned int, ACMParameter const*, unsigned int, __ACMRequirement**);
+    auto ACMSecHandleExists(__ACMHandle*, unsigned char*);
+    auto ACMSecParseAclAndCopyConstraintCharacteristics(void const*, unsigned long, void**, unsigned long*);
 };

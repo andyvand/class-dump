@@ -4,5 +4,5 @@
 
 class IOSyncer {
 public: // (access info unavailable from symbols alone)
-    create(bool);
+    auto create(bool);
 };

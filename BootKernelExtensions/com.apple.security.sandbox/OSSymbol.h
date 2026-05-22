@@ -4,6 +4,6 @@
 
 class OSSymbol {
 public: // (access info unavailable from symbols alone)
-    existingSymbolForCString(char const*);
-    withCString(char const*);
+    auto existingSymbolForCString(char const*);
+    auto withCString(char const*);
 };

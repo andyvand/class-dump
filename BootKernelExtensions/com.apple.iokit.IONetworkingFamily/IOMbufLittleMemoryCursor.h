@@ -6,11 +6,13 @@ class IOMbufLittleMemoryCursor {
 public: // (access info unavailable from symbols alone)
     IOMbufLittleMemoryCursor();
     IOMbufLittleMemoryCursor(OSMetaClass const*);
-    getMetaClass() const;
-    getPhysicalSegments(__mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned int);
-    getPhysicalSegments(mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned long);
-    getPhysicalSegmentsWithCoalesce(__mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned int);
-    getPhysicalSegmentsWithCoalesce(mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned long);
-    withSpecification(unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto getPhysicalSegments(__mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned int);
+    auto getPhysicalSegments(mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned long);
+    auto getPhysicalSegmentsWithCoalesce(__mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned int);
+    auto getPhysicalSegmentsWithCoalesce(mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned long);
+    auto withSpecification(unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOMbufLittleMemoryCursor();
 };

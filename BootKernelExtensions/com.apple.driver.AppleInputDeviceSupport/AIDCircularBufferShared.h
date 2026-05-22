@@ -5,8 +5,10 @@
 class AIDCircularBufferShared {
 public: // (access info unavailable from symbols alone)
     AIDCircularBufferShared(OSMetaClass const*);
-    getMetaClass() const;
-    init(IOSlaveMemoryBuffer*);
-    reset();
+    auto getMetaClass() const;
+    auto init(IOSlaveMemoryBuffer*);
+    auto reset();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AIDCircularBufferShared();
 };

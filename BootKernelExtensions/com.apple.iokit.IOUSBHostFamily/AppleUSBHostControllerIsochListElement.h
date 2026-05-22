@@ -5,8 +5,10 @@
 class AppleUSBHostControllerIsochListElement {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostControllerIsochListElement(OSMetaClass const*);
-    getMetaClass() const;
-    print(int);
-    print(int)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto print(int);
+    auto print(int)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostControllerIsochListElement();
 };

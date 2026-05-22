@@ -6,8 +6,6 @@
 
 AppleSMBusPCI::gMetaClass;
 AppleSMBusPCI::metaClass;
-AppleSMBusPCI::operator delete(void*, unsigned long);
-AppleSMBusPCI::operator new(unsigned long);
 AppleSMBusPCI::superClass;
 AppleSMBusPCI_ktv;
 IOService::gMetaClass;

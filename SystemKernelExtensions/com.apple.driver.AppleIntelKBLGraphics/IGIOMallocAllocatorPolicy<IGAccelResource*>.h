@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IGAccelResource*> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(IGAccelResource**, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(IGAccelResource**, unsigned long)::kalloc_type_view_29;
 };

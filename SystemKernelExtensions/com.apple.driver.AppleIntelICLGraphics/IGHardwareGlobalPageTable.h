@@ -6,15 +6,17 @@ class IGHardwareGlobalPageTable {
 public: // (access info unavailable from symbols alone)
     IGHardwareGlobalPageTable();
     IGHardwareGlobalPageTable(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithOptions(IntelAccelerator*, IGAddressRange const&, void*, unsigned long long, unsigned int);
-    mapRange(IGAddressRange const&, unsigned long long, unsigned long long);
-    mapRangeDummy(IGAddressRange const&, unsigned long long);
-    mapRangeRotated(IGAddressRangeRotatedPageIterator&, IGPhysicalSegmentIterator&, unsigned long long);
-    read(unsigned long long, unsigned long long&, unsigned long long&) const;
-    remapRange(IGAddressRange const&, unsigned long long, unsigned long long);
-    unmapRange(IGAddressRange const&);
-    withOptions(IntelAccelerator*, IGAddressRange const&, void*, unsigned long long, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithOptions(IntelAccelerator*, IGAddressRange const&, void*, unsigned long long, unsigned int);
+    auto mapRange(IGAddressRange const&, unsigned long long, unsigned long long);
+    auto mapRangeDummy(IGAddressRange const&, unsigned long long);
+    auto mapRangeRotated(IGAddressRangeRotatedPageIterator&, IGPhysicalSegmentIterator&, unsigned long long);
+    auto read(unsigned long long, unsigned long long&, unsigned long long&) const;
+    auto remapRange(IGAddressRange const&, unsigned long long, unsigned long long);
+    auto unmapRange(IGAddressRange const&);
+    auto withOptions(IntelAccelerator*, IGAddressRange const&, void*, unsigned long long, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHardwareGlobalPageTable();
 };

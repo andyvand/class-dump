@@ -6,14 +6,16 @@ class AppleUSBHostiOSDevice {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostiOSDevice();
     AppleUSBHostiOSDevice(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getPreferredConfiguration();
-    getPreferredConfiguration()::_os_log_fmt;
-    probe(IOService*, int*);
-    probe(IOService*, int*)::_os_log_fmt;
-    start(IOService*);
-    stop(IOService*);
-    willTerminate(IOService*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getPreferredConfiguration();
+    auto getPreferredConfiguration()::_os_log_fmt;
+    auto probe(IOService*, int*);
+    auto probe(IOService*, int*)::_os_log_fmt;
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto willTerminate(IOService*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostiOSDevice();
 };

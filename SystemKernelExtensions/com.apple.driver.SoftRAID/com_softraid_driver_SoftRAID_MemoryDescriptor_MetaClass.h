@@ -5,6 +5,6 @@
 class com_softraid_driver_SoftRAID_MemoryDescriptor::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

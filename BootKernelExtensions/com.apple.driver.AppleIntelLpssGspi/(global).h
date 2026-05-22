@@ -6,8 +6,6 @@
 
 AppleIntelLpssGspi::gMetaClass;
 AppleIntelLpssGspi::metaClass;
-AppleIntelLpssGspi::operator delete(void*, unsigned long);
-AppleIntelLpssGspi::operator new(unsigned long);
 AppleIntelLpssGspi::superClass;
 AppleIntelLpssGspi_ktv;
 IOACPIPlatformDevice::metaClass;

@@ -6,7 +6,9 @@ class AtiBlankCrtc_V2_V1 {
 public: // (access info unavailable from symbols alone)
     AtiBlankCrtc_V2_V1();
     AtiBlankCrtc_V2_V1(OSMetaClass const*);
-    blankCrtc(unsigned char, bool);
-    getMetaClass() const;
+    auto blankCrtc(unsigned char, bool);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiBlankCrtc_V2_V1();
 };

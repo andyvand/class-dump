@@ -6,10 +6,12 @@ class IGWorkQueueAk {
 public: // (access info unavailable from symbols alone)
     IGWorkQueueAk();
     IGWorkQueueAk(OSMetaClass const*);
-    check() const;
-    free();
-    getMetaClass() const;
-    initWithStorageResource(IGSharedMappedBuffer*, IntelAccelerator*, IGGuC*);
-    withStorageResource(IGSharedMappedBuffer*, IntelAccelerator*, IGGuC*);
+    auto check() const;
+    auto free();
+    auto getMetaClass() const;
+    auto initWithStorageResource(IGSharedMappedBuffer*, IntelAccelerator*, IGGuC*);
+    auto withStorageResource(IGSharedMappedBuffer*, IntelAccelerator*, IGGuC*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGWorkQueueAk();
 };

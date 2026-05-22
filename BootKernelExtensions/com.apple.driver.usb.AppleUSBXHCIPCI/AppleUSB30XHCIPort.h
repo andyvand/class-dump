@@ -5,18 +5,18 @@
 class AppleUSB30XHCIPort {
 public: // (access info unavailable from symbols alone)
     AppleUSB30XHCIPort(OSMetaClass const*);
-    connectChangeInterrupt(unsigned int&);
-    enableComplianceGated();
-    getLPMExitLatencyGated(tUSBLinkState, tUSBLPMExitLatency, unsigned int&);
-    initWithDeviceMemory(IODeviceMemory*, StandardUSBXHCI::StandardUSBXHCIProtocolCapability*, IORegistryEntry*);
-    initWithDeviceMemory(IODeviceMemory*, StandardUSBXHCI::StandardUSBXHCIProtocolCapability*, OSDictionary*);
-    message(unsigned int, IOService*, void*);
-    resume();
-    serializePortLink(void*, OSSerialize*);
-    setMaximumLinkSpeed(tInternalUSBHostConnectionSpeed);
-    setProperties(OSObject*);
-    updateLPMPolicyGated(tUSBLinkState, AppleUSBHostPort::tPortLPMPolicy, unsigned int);
-    warmReset();
-    withDeviceMemory(IODeviceMemory*, StandardUSBXHCI::StandardUSBXHCIProtocolCapability*, OSDictionary*);
+    auto connectChangeInterrupt(unsigned int&);
+    auto enableComplianceGated();
+    auto getLPMExitLatencyGated(tUSBLinkState, tUSBLPMExitLatency, unsigned int&);
+    auto initWithDeviceMemory(IODeviceMemory*, StandardUSBXHCI::StandardUSBXHCIProtocolCapability*, IORegistryEntry*);
+    auto initWithDeviceMemory(IODeviceMemory*, StandardUSBXHCI::StandardUSBXHCIProtocolCapability*, OSDictionary*);
+    auto message(unsigned int, IOService*, void*);
+    auto resume();
+    auto serializePortLink(void*, OSSerialize*);
+    auto setMaximumLinkSpeed(tInternalUSBHostConnectionSpeed);
+    auto setProperties(OSObject*);
+    auto updateLPMPolicyGated(tUSBLinkState, AppleUSBHostPort::tPortLPMPolicy, unsigned int);
+    auto warmReset();
+    auto withDeviceMemory(IODeviceMemory*, StandardUSBXHCI::StandardUSBXHCIProtocolCapability*, OSDictionary*);
     ~AppleUSB30XHCIPort();
 };

@@ -6,9 +6,11 @@ class AppleATADiskQueueManager {
 public: // (access info unavailable from symbols alone)
     AppleATADiskQueueManager();
     AppleATADiskQueueManager(OSMetaClass const*);
-    ChooseNextIORequest();
-    CreateWithWorkLoopAndDepth(IOService*, IOWorkLoop*, unsigned int);
-    InitWithQDepth(IOService*, IOWorkLoop*, unsigned int);
-    getMetaClass() const;
+    auto ChooseNextIORequest();
+    auto CreateWithWorkLoopAndDepth(IOService*, IOWorkLoop*, unsigned int);
+    auto InitWithQDepth(IOService*, IOWorkLoop*, unsigned int);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleATADiskQueueManager();
 };

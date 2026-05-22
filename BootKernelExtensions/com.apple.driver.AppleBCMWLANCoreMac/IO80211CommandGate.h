@@ -4,5 +4,5 @@
 
 class IO80211CommandGate {
 public: // (access info unavailable from symbols alone)
-    allocWithParams(OSObject*, IO80211WorkQueue*);
+    auto allocWithParams(OSObject*, IO80211WorkQueue*);
 };

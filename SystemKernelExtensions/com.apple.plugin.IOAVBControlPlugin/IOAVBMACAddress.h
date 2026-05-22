@@ -6,10 +6,12 @@ class IOAVBMACAddress {
 public: // (access info unavailable from symbols alone)
     IOAVBMACAddress();
     IOAVBMACAddress(OSMetaClass const*);
-    copyMACAddress(unsigned char*);
-    getMetaClass() const;
-    getParentRange();
-    init(unsigned char*, IOAVBMACAddressRange*);
-    representsMAC(unsigned char*);
+    auto copyMACAddress(unsigned char*);
+    auto getMetaClass() const;
+    auto getParentRange();
+    auto init(unsigned char*, IOAVBMACAddressRange*);
+    auto representsMAC(unsigned char*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVBMACAddress();
 };

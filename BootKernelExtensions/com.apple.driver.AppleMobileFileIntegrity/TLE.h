@@ -4,15 +4,21 @@
 
 class TLE {
 public: // (access info unavailable from symbols alone)
-    andArrayOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
-    andDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
-    factOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
-    inDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
-    keyForContext(der_vm_context&);
-    opArrayOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
-    opForContext(CEType_t, der_vm_context&);
-    optionalOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
-    orArrayOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
-    orDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
-    queryOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    TLE::Tuple<TLE::Error, libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>> intOpDeserializer<TLE::BinaryIntOp<long long, TLE::$_0{}>>(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    TLE::Tuple<TLE::Error, libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>> intOpDeserializer<TLE::BinaryIntOp<long long, TLE::$_1{}>>(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    TLE::Tuple<TLE::Error, libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>> intOpDeserializer<TLE::BinaryIntOp<long long, TLE::$_2{}>>(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    TLE::Tuple<TLE::Error, libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>> intOpDeserializer<TLE::BinaryIntOp<long long, TLE::$_3{}>>(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    TLE::Tuple<TLE::Error, libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>> intOpDeserializer<TLE::BinaryIntOp<long long, TLE::$_4{}>>(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    auto andArrayOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    auto andDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    auto factOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    auto inDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    auto keyForContext(der_vm_context&);
+    auto opArrayOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    auto opForContext(CEType_t, der_vm_context&);
+    auto optionalOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    auto orArrayOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    auto orDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    auto queryOpDeserializer(TLE::Executor&, der_vm_context&, TLE::FactDefinition const&);
+    vtable for RefCounted (.41);
 };

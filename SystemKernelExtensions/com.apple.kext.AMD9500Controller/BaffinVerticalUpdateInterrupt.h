@@ -6,9 +6,11 @@ class BaffinVerticalUpdateInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinVerticalUpdateInterrupt();
     BaffinVerticalUpdateInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
-    initialize();
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initialize();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinVerticalUpdateInterrupt();
 };

@@ -6,9 +6,11 @@ class AppleTimedATADiskQueueManager {
 public: // (access info unavailable from symbols alone)
     AppleTimedATADiskQueueManager();
     AppleTimedATADiskQueueManager(OSMetaClass const*);
-    ChooseNextIORequest();
-    Create(IOService*, IOWorkLoop*, unsigned long long, int (*)(OSObject*, __ATAIORequest*), int (*)(OSObject*, __ATAIORequest*, unsigned int));
-    InitWithLatency(IOService*, IOWorkLoop*, unsigned long long, int (*)(OSObject*, __ATAIORequest*), int (*)(OSObject*, __ATAIORequest*, unsigned int));
-    getMetaClass() const;
+    auto ChooseNextIORequest();
+    auto Create(IOService*, IOWorkLoop*, unsigned long long, int (*)(OSObject*, __ATAIORequest*), int (*)(OSObject*, __ATAIORequest*, unsigned int));
+    auto InitWithLatency(IOService*, IOWorkLoop*, unsigned long long, int (*)(OSObject*, __ATAIORequest*), int (*)(OSObject*, __ATAIORequest*, unsigned int));
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleTimedATADiskQueueManager();
 };

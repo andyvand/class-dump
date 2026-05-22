@@ -5,6 +5,8 @@
 class IOATAReg32 {
 public: // (access info unavailable from symbols alone)
     IOATAReg32(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOATAReg32();
 };

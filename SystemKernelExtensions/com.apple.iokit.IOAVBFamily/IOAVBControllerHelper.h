@@ -6,10 +6,12 @@ class IOAVBControllerHelper {
 public: // (access info unavailable from symbols alone)
     IOAVBControllerHelper();
     IOAVBControllerHelper(OSMetaClass const*);
-    getMetaClass() const;
-    message(unsigned int, IOService*, void*);
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    stop(IOService*);
+    auto getMetaClass() const;
+    auto message(unsigned int, IOService*, void*);
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVBControllerHelper();
 };

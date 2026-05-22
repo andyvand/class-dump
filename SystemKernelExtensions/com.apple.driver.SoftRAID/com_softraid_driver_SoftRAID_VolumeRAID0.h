@@ -4,16 +4,18 @@
 
 class com_softraid_driver_SoftRAID_VolumeRAID0 {
 public: // (access info unavailable from symbols alone)
-    AdjustIOSizeValues(IO_SizePropertiesRec*);
-    CompleteRequest(VolumeIO_Rec*, com_softraid_driver_SoftRAID_MemoryDescriptor*, int, unsigned long long);
-    GetStripeUnitTypeAndOffset(unsigned long long, unsigned int, unsigned long long*);
-    SubmitVolumeIO(VolumeIO_Rec*);
-    VolumePartitionAdded(VolumePartitionStatusRec*, ExtendedVolumePartitionStatusRec*, bool);
+    auto AdjustIOSizeValues(IO_SizePropertiesRec*);
+    auto CompleteRequest(VolumeIO_Rec*, com_softraid_driver_SoftRAID_MemoryDescriptor*, int, unsigned long long);
+    auto GetStripeUnitTypeAndOffset(unsigned long long, unsigned int, unsigned long long*);
+    auto SubmitVolumeIO(VolumeIO_Rec*);
+    auto VolumePartitionAdded(VolumePartitionStatusRec*, ExtendedVolumePartitionStatusRec*, bool);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithStatusRecPtr(VolumePartitionStatusRec*);
+    auto unmap(IOService*, IOStorageExtent*, unsigned int, unsigned int);
     com_softraid_driver_SoftRAID_VolumeRAID0();
     com_softraid_driver_SoftRAID_VolumeRAID0(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithStatusRecPtr(VolumePartitionStatusRec*);
-    unmap(IOService*, IOStorageExtent*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_VolumeRAID0();
 };

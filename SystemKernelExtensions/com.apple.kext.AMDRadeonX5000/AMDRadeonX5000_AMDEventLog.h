@@ -6,10 +6,12 @@ class AMDRadeonX5000_AMDEventLog {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDEventLog();
     AMDRadeonX5000_AMDEventLog(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(AMDAccelCtl, char const*, unsigned int, unsigned int);
-    printLogToBuffer(char*&, unsigned int&) const;
-    withEventCountAndDataSize(AMDAccelCtl, char const*, unsigned int, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDAccelCtl, char const*, unsigned int, unsigned int);
+    auto printLogToBuffer(char*&, unsigned int&) const;
+    auto withEventCountAndDataSize(AMDAccelCtl, char const*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDEventLog();
 };

@@ -5,5 +5,5 @@
 class IOAccelCommandBufferPoolList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelCommandBufferPoolList&);
-    getNextCommandPool();
+    auto getNextCommandPool();
 };

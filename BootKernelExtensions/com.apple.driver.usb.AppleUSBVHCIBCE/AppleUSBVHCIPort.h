@@ -4,5 +4,5 @@
 
 class AppleUSBVHCIPort {
 public: // (access info unavailable from symbols alone)
-    withParameters(AppleUSBVHCIHostCommandQueue*, OSDictionary*);
+    auto withParameters(AppleUSBVHCIHostCommandQueue*, OSDictionary*);
 };

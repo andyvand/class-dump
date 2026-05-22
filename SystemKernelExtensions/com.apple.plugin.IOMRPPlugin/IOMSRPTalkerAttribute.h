@@ -6,13 +6,15 @@ class IOMSRPTalkerAttribute {
 public: // (access info unavailable from symbols alone)
     IOMSRPTalkerAttribute();
     IOMSRPTalkerAttribute(OSMetaClass const*);
-    attributeDictionary();
-    callbackArgumentsCount();
-    getMetaClass() const;
-    init(IOMSRPTalker*, unsigned long long, unsigned char*, unsigned short, unsigned short, unsigned short, unsigned char, unsigned char, unsigned int);
-    setCallbackArguments(unsigned long long*);
-    setDescriptionString(char*, unsigned long);
-    setMessage(unsigned char*, unsigned char, unsigned char);
-    updateFailureInfo(unsigned long long, unsigned char);
+    auto attributeDictionary();
+    auto callbackArgumentsCount();
+    auto getMetaClass() const;
+    auto init(IOMSRPTalker*, unsigned long long, unsigned char*, unsigned short, unsigned short, unsigned short, unsigned char, unsigned char, unsigned int);
+    auto setCallbackArguments(unsigned long long*);
+    auto setDescriptionString(char*, unsigned long);
+    auto setMessage(unsigned char*, unsigned char, unsigned char);
+    auto updateFailureInfo(unsigned long long, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOMSRPTalkerAttribute();
 };

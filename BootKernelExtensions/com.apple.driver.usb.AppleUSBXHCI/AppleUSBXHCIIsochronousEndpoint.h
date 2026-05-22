@@ -6,8 +6,10 @@ class AppleUSBXHCIIsochronousEndpoint {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIIsochronousEndpoint();
     AppleUSBXHCIIsochronousEndpoint(OSMetaClass const*);
-    createTransferRing(unsigned int);
-    getMetaClass() const;
-    withParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
+    auto createTransferRing(unsigned int);
+    auto getMetaClass() const;
+    auto withParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCIIsochronousEndpoint();
 };

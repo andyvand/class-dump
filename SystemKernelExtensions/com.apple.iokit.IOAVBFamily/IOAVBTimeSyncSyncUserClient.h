@@ -6,9 +6,11 @@ class IOAVBTimeSyncSyncUserClient {
 public: // (access info unavailable from symbols alone)
     IOAVBTimeSyncSyncUserClient();
     IOAVBTimeSyncSyncUserClient(OSMetaClass const*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    initWithTask(task*, void*, unsigned int, OSDictionary*) (.cold.1);
-    initWithTask(task*, void*, unsigned int, OSDictionary*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*) (.cold.1);
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVBTimeSyncSyncUserClient();
 };

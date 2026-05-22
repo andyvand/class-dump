@@ -6,15 +6,17 @@ class BCM5701UserClient {
 public: // (access info unavailable from symbols alone)
     BCM5701UserClient();
     BCM5701UserClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    connectClient(IOUserClient*);
-    doRequest(void*, void*, unsigned long long, unsigned long long*);
-    getConfiguration(void*, void*, unsigned long long, unsigned long long*);
-    getMetaClass() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    start(IOService*);
-    terminate(unsigned int);
-    withTask(task*);
+    auto clientClose();
+    auto clientDied();
+    auto connectClient(IOUserClient*);
+    auto doRequest(void*, void*, unsigned long long, unsigned long long*);
+    auto getConfiguration(void*, void*, unsigned long long, unsigned long long*);
+    auto getMetaClass() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto start(IOService*);
+    auto terminate(unsigned int);
+    auto withTask(task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BCM5701UserClient();
 };

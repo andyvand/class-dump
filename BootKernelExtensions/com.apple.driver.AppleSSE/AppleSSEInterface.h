@@ -5,6 +5,8 @@
 class AppleSSEInterface {
 public: // (access info unavailable from symbols alone)
     AppleSSEInterface(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSSEInterface();
 };

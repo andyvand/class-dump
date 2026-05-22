@@ -4,6 +4,6 @@
 
 class IOAccelOrphanedVidMemoryPool {
 public: // (access info unavailable from symbols alone)
-    freeWaitToPrepareMap(IOAccelMemoryMap*, bool);
-    freeWaitToPrepareMemory(IOAccelMemory*, bool);
+    auto freeWaitToPrepareMap(IOAccelMemoryMap*, bool);
+    auto freeWaitToPrepareMemory(IOAccelMemory*, bool);
 };

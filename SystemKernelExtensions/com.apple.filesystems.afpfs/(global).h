@@ -4,19 +4,18 @@
 
 // Global C++ functions
 
-AFPSleepWakeHandler(void*, void*, unsigned int, IOService*, void*, unsigned long);
-AppendNonce(unsigned char*, CryptoPP::Integer*);
-CryptoPP::Integer::operator delete(void*, unsigned long)::kalloc_type_view_83;
-CryptoPP::Integer::operator new(unsigned long)::kalloc_type_view_83;
+CryptoPP::Integer::operator<<=(unsigned int);
 CryptoPP::_One;
 CryptoPP::_Zero;
-DHX2SanityCheck(CryptoPP::Integer*, unsigned short, CryptoPP::Integer*, CryptoPP::Integer*);
-DHX2VerifyReply(unsigned char*, CryptoPP::Integer*, CryptoPP::Integer**, unsigned char*);
 afpfs_DHXLogin::kalloc_type_view_125;
 afpfs_DHXLogin::kalloc_type_view_127;
 afpfs_DHXLogin::kalloc_type_view_187;
 afpfs_DHXLogin::kalloc_type_view_471;
 afpfs_DHXLogin::kalloc_type_view_476;
+auto AFPSleepWakeHandler(void*, void*, unsigned int, IOService*, void*, unsigned long);
+auto AppendNonce(unsigned char*, CryptoPP::Integer*);
+auto DHX2SanityCheck(CryptoPP::Integer*, unsigned short, CryptoPP::Integer*, CryptoPP::Integer*);
+auto DHX2VerifyReply(unsigned char*, CryptoPP::Integer*, CryptoPP::Integer**, unsigned char*);
 gGeneratorSrc;
 gPrimeSrc;
 vtable for CryptoPP::Integer;

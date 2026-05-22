@@ -5,9 +5,9 @@
 class ARegisterService {
 public: // (access info unavailable from symbols alone)
     ARegisterService(OSMetaClass const*);
-    readReg32(unsigned int, unsigned int, unsigned char);
-    unsafeToAccessRegisters();
-    validateHWState(unsigned int, unsigned int, unsigned int);
-    writeReg32(unsigned int, unsigned int, unsigned char, unsigned int);
+    auto readReg32(unsigned int, unsigned int, unsigned char);
+    auto unsafeToAccessRegisters();
+    auto validateHWState(unsigned int, unsigned int, unsigned int);
+    auto writeReg32(unsigned int, unsigned int, unsigned char, unsigned int);
     ~ARegisterService();
 };

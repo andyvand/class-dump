@@ -4,7 +4,7 @@
 
 class AppleIntelMCE::Bank_Romley_HomeAgent {
 public: // (access info unavailable from symbols alone)
-    parseMSCErrorValue(unsigned short, OSString*&);
-    parseRawError(unsigned long long, unsigned long long, unsigned long long);
+    auto parseMSCErrorValue(unsigned short, OSString*&);
+    auto parseRawError(unsigned long long, unsigned long long, unsigned long long);
     ~Bank_Romley_HomeAgent();
 };

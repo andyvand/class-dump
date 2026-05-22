@@ -6,10 +6,12 @@ class IOAVBReceiveQueueIdentifier {
 public: // (access info unavailable from symbols alone)
     IOAVBReceiveQueueIdentifier();
     IOAVBReceiveQueueIdentifier(OSMetaClass const*);
-    canDecodePacket(IOEthernetController::IOEthernetAVBPacket const*);
-    free();
-    getMetaClass() const;
-    init();
-    streamIdentifierForPacket(IOEthernetController::IOEthernetAVBPacket const*);
+    auto canDecodePacket(IOEthernetController::IOEthernetAVBPacket const*);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto streamIdentifierForPacket(IOEthernetController::IOEthernetAVBPacket const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVBReceiveQueueIdentifier();
 };

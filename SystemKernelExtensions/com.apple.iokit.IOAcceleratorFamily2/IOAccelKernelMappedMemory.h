@@ -6,14 +6,16 @@ class IOAccelKernelMappedMemory {
 public: // (access info unavailable from symbols alone)
     IOAccelKernelMappedMemory();
     IOAccelKernelMappedMemory(OSMetaClass const*);
-    free();
-    getKernelData();
-    getKernelData()::_os_log_fmt;
-    getLength() const;
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, IOMemoryDescriptor*);
-    map();
-    releaseKernelData();
-    unmap();
+    auto free();
+    auto getKernelData();
+    auto getKernelData()::_os_log_fmt;
+    auto getLength() const;
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, IOMemoryDescriptor*);
+    auto map();
+    auto releaseKernelData();
+    auto unmap();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelKernelMappedMemory();
 };

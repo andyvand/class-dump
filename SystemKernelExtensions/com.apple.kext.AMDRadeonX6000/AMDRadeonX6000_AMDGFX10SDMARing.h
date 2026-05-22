@@ -6,8 +6,10 @@ class AMDRadeonX6000_AMDGFX10SDMARing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDGFX10SDMARing();
     AMDRadeonX6000_AMDGFX10SDMARing(OSMetaClass const*);
-    enable();
-    getMetaClass() const;
-    init(AMDRadeonX6000_IAMDHWInterface*, _HW_RT_RING_INFO const*);
+    auto enable();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX6000_IAMDHWInterface*, _HW_RT_RING_INFO const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDGFX10SDMARing();
 };

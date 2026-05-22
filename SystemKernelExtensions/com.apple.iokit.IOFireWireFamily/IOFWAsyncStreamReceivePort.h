@@ -6,8 +6,10 @@ class IOFWAsyncStreamReceivePort {
 public: // (access info unavailable from symbols alone)
     IOFWAsyncStreamReceivePort();
     IOFWAsyncStreamReceivePort(OSMetaClass const*);
-    getMetaClass() const;
-    getSupported(IOFWSpeed&, unsigned long long&);
-    init(IODCLProgram*, IOFireWireController*, unsigned int);
+    auto getMetaClass() const;
+    auto getSupported(IOFWSpeed&, unsigned long long&);
+    auto init(IODCLProgram*, IOFireWireController*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWAsyncStreamReceivePort();
 };

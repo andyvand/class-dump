@@ -6,6 +6,8 @@ class IOAVB17221RemoteEntity {
 public: // (access info unavailable from symbols alone)
     IOAVB17221RemoteEntity();
     IOAVB17221RemoteEntity(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVB17221RemoteEntity();
 };

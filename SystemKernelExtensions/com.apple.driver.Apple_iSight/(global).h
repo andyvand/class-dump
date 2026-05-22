@@ -11,8 +11,6 @@ AppleIris::kNotLoggedInState;
 AppleIris::kOpenState;
 AppleIris::kPendingState;
 AppleIris::metaClass;
-AppleIris::operator delete(void*, unsigned long);
-AppleIris::operator new(unsigned long);
 AppleIris::superClass;
 AppleIris_ktv;
 IOFireWireUnit::metaClass;

@@ -4,5 +4,5 @@
 
 class IOBufferCopyController::HostConfigBuffer {
 public: // (access info unavailable from symbols alone)
-    synchronize();
+    auto synchronize();
 };

@@ -6,12 +6,14 @@ class IOAccelMTLEvent2 {
 public: // (access info unavailable from symbols alone)
     IOAccelMTLEvent2();
     IOAccelMTLEvent2(OSMetaClass const*);
-    clean_ring();
-    copySubmitted(unsigned long long, IOAccelEvent*, unsigned long long, unsigned long long, unsigned long long);
-    free();
-    getMetaClass() const;
-    initWithAcceleratorNamespace(IOGraphicsAccelerator2*, IOAccelNamespace*, unsigned long long);
-    signalSubmitted(IOAccelEvent const*, unsigned long long);
-    withAcceleratorNamespace(IOGraphicsAccelerator2*, IOAccelNamespace*, unsigned long long);
+    auto clean_ring();
+    auto copySubmitted(unsigned long long, IOAccelEvent*, unsigned long long, unsigned long long, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithAcceleratorNamespace(IOGraphicsAccelerator2*, IOAccelNamespace*, unsigned long long);
+    auto signalSubmitted(IOAccelEvent const*, unsigned long long);
+    auto withAcceleratorNamespace(IOGraphicsAccelerator2*, IOAccelNamespace*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelMTLEvent2();
 };

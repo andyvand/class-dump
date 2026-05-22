@@ -6,13 +6,9 @@
 
 AppleIntelLpssDmac::gMetaClass;
 AppleIntelLpssDmac::metaClass;
-AppleIntelLpssDmac::operator delete(void*, unsigned long);
-AppleIntelLpssDmac::operator new(unsigned long);
 AppleIntelLpssDmac::superClass;
 AppleIntelLpssDmacChannel::gMetaClass;
 AppleIntelLpssDmacChannel::metaClass;
-AppleIntelLpssDmacChannel::operator delete(void*, unsigned long);
-AppleIntelLpssDmacChannel::operator new(unsigned long);
 AppleIntelLpssDmacChannel::superClass;
 AppleIntelLpssDmacChannel_ktv;
 AppleIntelLpssDmac_ktv;

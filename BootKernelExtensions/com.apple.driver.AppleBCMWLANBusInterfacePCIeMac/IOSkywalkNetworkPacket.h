@@ -4,20 +4,20 @@
 
 class IOSkywalkNetworkPacket {
 public: // (access info unavailable from symbols alone)
-    getExpiryTime(unsigned long long*) const;
-    getHeadroom() const;
-    getPacketType() const;
-    getServiceClass() const;
-    getTimestamp(unsigned long long*) const;
-    getTraceID() const;
-    isLinkMulticast() const;
-    isTimestampRequested() const;
-    setCompletionStatus(int);
-    setHeadroom(unsigned char);
-    setIsLinkMulticast(bool);
-    setLinkHeaderOffset(unsigned int);
-    setTimestamp(unsigned long long);
-    setTraceID(unsigned int);
-    setWakeFlag();
-    traceEvent(unsigned int);
+    auto getExpiryTime(unsigned long long*) const;
+    auto getHeadroom() const;
+    auto getPacketType() const;
+    auto getServiceClass() const;
+    auto getTimestamp(unsigned long long*) const;
+    auto getTraceID() const;
+    auto isLinkMulticast() const;
+    auto isTimestampRequested() const;
+    auto setCompletionStatus(int);
+    auto setHeadroom(unsigned char);
+    auto setIsLinkMulticast(bool);
+    auto setLinkHeaderOffset(unsigned int);
+    auto setTimestamp(unsigned long long);
+    auto setTraceID(unsigned int);
+    auto setWakeFlag();
+    auto traceEvent(unsigned int);
 };

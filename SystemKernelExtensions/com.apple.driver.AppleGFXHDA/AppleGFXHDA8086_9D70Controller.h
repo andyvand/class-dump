@@ -6,12 +6,14 @@ class AppleGFXHDA8086_9D70Controller {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDA8086_9D70Controller();
     AppleGFXHDA8086_9D70Controller(OSMetaClass const*);
-    controllerSpecificFeatures();
-    framebufferEventGate(void*, IOFramebuffer*, int, void*);
-    getMetaClass() const;
-    gfxTerminatedHandler(void*, IOService*, IONotifier*);
-    probeAudioLink();
-    resetAudioController(bool, bool);
-    start(IOService*);
+    auto controllerSpecificFeatures();
+    auto framebufferEventGate(void*, IOFramebuffer*, int, void*);
+    auto getMetaClass() const;
+    auto gfxTerminatedHandler(void*, IOService*, IONotifier*);
+    auto probeAudioLink();
+    auto resetAudioController(bool, bool);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDA8086_9D70Controller();
 };

@@ -4,16 +4,16 @@
 
 class AppleVirtIOFSNub {
 public: // (access info unavailable from symbols alone)
-    create();
-    getMetaClass() const;
-    handleClose(IOService*, unsigned int);
-    handleIsOpen(IOService const*) const;
-    handleOpen(IOService*, unsigned int, void*);
-    read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
-    read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, unsigned long long*);
-    start(IOService*);
-    stop(IOService*);
-    write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
-    write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, unsigned long long*);
+    auto create();
+    auto getMetaClass() const;
+    auto handleClose(IOService*, unsigned int);
+    auto handleIsOpen(IOService const*) const;
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    auto read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, unsigned long long*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    auto write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, unsigned long long*);
     ~AppleVirtIOFSNub();
 };

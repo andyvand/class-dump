@@ -6,11 +6,13 @@ class AppleUSBXHCIStream {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIStream();
     AppleUSBXHCIStream(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getTransferRing();
-    getXHCIEndpoint();
-    setXHCIEndpoint(AppleUSBXHCIEndpoint*);
-    withOwnersAndStreamID(AppleUSBXHCI*, IOUSBHostDevice*, AppleUSBXHCIPipe*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getTransferRing();
+    auto getXHCIEndpoint();
+    auto setXHCIEndpoint(AppleUSBXHCIEndpoint*);
+    auto withOwnersAndStreamID(AppleUSBXHCI*, IOUSBHostDevice*, AppleUSBXHCIPipe*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCIStream();
 };

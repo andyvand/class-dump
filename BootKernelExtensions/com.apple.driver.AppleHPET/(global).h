@@ -6,8 +6,6 @@
 
 AppleHPET::gMetaClass;
 AppleHPET::metaClass;
-AppleHPET::operator delete(void*, unsigned long);
-AppleHPET::operator new(unsigned long);
 AppleHPET::superClass;
 AppleHPET_ktv;
 IOACPIPlatformDevice::metaClass;

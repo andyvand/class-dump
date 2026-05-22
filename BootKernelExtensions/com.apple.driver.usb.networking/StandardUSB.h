@@ -4,7 +4,7 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    getEndpointDirection(StandardUSB::EndpointDescriptor const*);
-    getEndpointType(StandardUSB::EndpointDescriptor const*);
-    getNextEndpointDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*, StandardUSB::Descriptor const*);
+    auto getEndpointDirection(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointType(StandardUSB::EndpointDescriptor const*);
+    auto getNextEndpointDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*, StandardUSB::Descriptor const*);
 };

@@ -4,9 +4,9 @@
 
 class ATIPanel {
 public: // (access info unavailable from symbols alone)
-    getDpcd();
-    getIntegerProperty(char const*);
-    getNub();
-    getProperty(char const*, void*, unsigned long);
-    setIntegerProperty(char const*, unsigned int);
+    auto getDpcd();
+    auto getIntegerProperty(char const*);
+    auto getNub();
+    auto getProperty(char const*, void*, unsigned long);
+    auto setIntegerProperty(char const*, unsigned int);
 };

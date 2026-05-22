@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IGPriorityQueue<IGPagePool::PoolElement*, IGPagePool::PoolElementCompare, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy>> {
 public: // (access info unavailable from symbols alone)
-    allocate()::kalloc_type_view_14;
-    deallocate(IGPriorityQueue<IGPagePool::PoolElement*, IGPagePool::PoolElementCompare, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
+    auto allocate()::kalloc_type_view_14;
+    auto deallocate(IGPriorityQueue<IGPagePool::PoolElement*, IGPagePool::PoolElementCompare, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
 };

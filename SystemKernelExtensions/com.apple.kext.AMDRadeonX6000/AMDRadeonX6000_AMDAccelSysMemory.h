@@ -6,8 +6,10 @@ class AMDRadeonX6000_AMDAccelSysMemory {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDAccelSysMemory();
     AMDRadeonX6000_AMDAccelSysMemory(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDAccelSysMemory();
 };

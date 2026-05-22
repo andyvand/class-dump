@@ -4,6 +4,6 @@
 
 class IOSkywalkTxSubmissionQueue {
 public: // (access info unavailable from symbols alone)
-    getEffectiveCapacity(unsigned int);
-    withPool(IOSkywalkPacketBufferPool*, unsigned int, unsigned int, OSObject*, unsigned int (*)(OSObject*, IOSkywalkTxSubmissionQueue*, IOSkywalkPacket* const*, unsigned int, void*), void*, unsigned int);
+    auto getEffectiveCapacity(unsigned int);
+    auto withPool(IOSkywalkPacketBufferPool*, unsigned int, unsigned int, OSObject*, unsigned int (*)(OSObject*, IOSkywalkTxSubmissionQueue*, IOSkywalkPacket* const*, unsigned int, void*), void*, unsigned int);
 };

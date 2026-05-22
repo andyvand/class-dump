@@ -6,9 +6,11 @@ class AppleUSB20CameraKitHub {
 public: // (access info unavailable from symbols alone)
     AppleUSB20CameraKitHub();
     AppleUSB20CameraKitHub(OSMetaClass const*);
-    allocateDownstreamBusCurrentGated(IOService*, unsigned int&, unsigned int&);
-    allocateDownstreamBusCurrentGated(IOService*, unsigned int&, unsigned int&)::_os_log_fmt;
-    getMetaClass() const;
-    start(IOService*);
+    auto allocateDownstreamBusCurrentGated(IOService*, unsigned int&, unsigned int&);
+    auto allocateDownstreamBusCurrentGated(IOService*, unsigned int&, unsigned int&)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSB20CameraKitHub();
 };

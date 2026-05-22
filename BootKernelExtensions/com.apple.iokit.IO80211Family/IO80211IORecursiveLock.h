@@ -6,13 +6,15 @@ class IO80211IORecursiveLock {
 public: // (access info unavailable from symbols alone)
     IO80211IORecursiveLock();
     IO80211IORecursiveLock(OSMetaClass const*);
-    IORecursiveLock();
-    IORecursiveUnlock();
-    allocWithParams(IO80211WorkQueue*);
-    free();
-    free()::kalloc_type_view_94;
-    getMetaClass() const;
-    initWithParams(IO80211WorkQueue*);
-    initWithParams(IO80211WorkQueue*)::kalloc_type_view_107;
+    auto IORecursiveLock();
+    auto IORecursiveUnlock();
+    auto allocWithParams(IO80211WorkQueue*);
+    auto free();
+    auto free()::kalloc_type_view_94;
+    auto getMetaClass() const;
+    auto initWithParams(IO80211WorkQueue*);
+    auto initWithParams(IO80211WorkQueue*)::kalloc_type_view_107;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211IORecursiveLock();
 };

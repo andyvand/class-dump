@@ -6,9 +6,11 @@ class AMDRadeonX6000_AMDGFX10HWGart {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDGFX10HWGart();
     AMDRadeonX6000_AMDGFX10HWGart(OSMetaClass const*);
-    flushAndInvalidateCaches(unsigned long long, unsigned long long);
-    getEntryValue(unsigned long long);
-    getMetaClass() const;
-    parseEntry(unsigned long long, unsigned long long*);
+    auto flushAndInvalidateCaches(unsigned long long, unsigned long long);
+    auto getEntryValue(unsigned long long);
+    auto getMetaClass() const;
+    auto parseEntry(unsigned long long, unsigned long long*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDGFX10HWGart();
 };

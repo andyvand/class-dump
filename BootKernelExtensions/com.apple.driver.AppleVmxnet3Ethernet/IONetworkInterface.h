@@ -4,10 +4,10 @@
 
 class IONetworkInterface {
 public: // (access info unavailable from symbols alone)
-    flushOutputQueue(unsigned int);
-    getParameter(char const*) const;
-    setPacketPollingParameters(IONetworkPacketPollingParameters const*, unsigned int);
-    signalOutputThread(unsigned int);
-    startOutputThread(unsigned int);
-    stopOutputThread(unsigned int);
+    auto flushOutputQueue(unsigned int);
+    auto getParameter(char const*) const;
+    auto setPacketPollingParameters(IONetworkPacketPollingParameters const*, unsigned int);
+    auto signalOutputThread(unsigned int);
+    auto startOutputThread(unsigned int);
+    auto stopOutputThread(unsigned int);
 };

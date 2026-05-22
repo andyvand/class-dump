@@ -5,7 +5,7 @@
 class IOSkywalkNetworkKDPPoller {
 public: // (access info unavailable from symbols alone)
     IOSkywalkNetworkKDPPoller(OSMetaClass const*);
-    free();
-    start(IOSkywalkNetworkInterface*, bool);
+    auto free();
+    auto start(IOSkywalkNetworkInterface*, bool);
     ~IOSkywalkNetworkKDPPoller();
 };

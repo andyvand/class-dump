@@ -4,5 +4,5 @@
 
 class IOSubMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    withSubRange(IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
+    auto withSubRange(IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
 };

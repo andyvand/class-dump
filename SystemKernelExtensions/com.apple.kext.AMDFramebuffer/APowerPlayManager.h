@@ -4,8 +4,8 @@
 
 class APowerPlayManager {
 public: // (access info unavailable from symbols alone)
-    getForcedLevel();
-    getIdleLimit();
-    getNumConnectedDisplays();
-    getPowerLimit();
+    auto getForcedLevel();
+    auto getIdleLimit();
+    auto getNumConnectedDisplays();
+    auto getPowerLimit();
 };

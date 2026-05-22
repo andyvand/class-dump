@@ -4,5 +4,5 @@
 
 class IntelMTLRenderFunctions {
 public: // (access info unavailable from symbols alone)
-    execute(IntelMTLRender::eTokens, IGAccelCommandQueue&, IGAccelSegmentResourceList&, IOAccelKernelCommand const&, IOAccelKernelCommand const&, IGAccelCommandDescriptor&, IGHeapsAccess&, IOGraphicsAccelerator2&, IGHardwareContext&, IOAccelEvent&);
+    auto execute(IntelMTLRender::eTokens, IGAccelCommandQueue&, IGAccelSegmentResourceList&, IOAccelKernelCommand const&, IOAccelKernelCommand const&, IGAccelCommandDescriptor&, IGHeapsAccess&, IOGraphicsAccelerator2&, IGHardwareContext&, IOAccelEvent&);
 };

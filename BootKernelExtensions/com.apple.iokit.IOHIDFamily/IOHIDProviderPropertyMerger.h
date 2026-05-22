@@ -6,9 +6,11 @@ class IOHIDProviderPropertyMerger {
 public: // (access info unavailable from symbols alone)
     IOHIDProviderPropertyMerger();
     IOHIDProviderPropertyMerger(OSMetaClass const*);
-    getMetaClass() const;
-    mergeDictionaries(OSDictionary*, OSDictionary*);
-    mergeProperties(IOService*, OSDictionary*);
-    probe(IOService*, int*);
+    auto getMetaClass() const;
+    auto mergeDictionaries(OSDictionary*, OSDictionary*);
+    auto mergeProperties(IOService*, OSDictionary*);
+    auto probe(IOService*, int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDProviderPropertyMerger();
 };

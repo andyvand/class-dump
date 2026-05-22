@@ -5,15 +5,17 @@
 class IOSkywalkNetworkKDPPoller {
 public: // (access info unavailable from symbols alone)
     IOSkywalkNetworkKDPPoller(OSMetaClass const*);
-    disablePolling(unsigned int);
-    enablePolling(unsigned int);
-    free();
-    getMetaClass() const;
-    handleRequest(IOSkywalkNetworkKDPPoller::RequestType);
-    poller_get_link();
-    poller_receive(void*, unsigned int*, unsigned int);
-    poller_send(void*, unsigned int);
-    poller_set_mode(int);
-    start(IOSkywalkNetworkInterface*, bool);
+    auto disablePolling(unsigned int);
+    auto enablePolling(unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto handleRequest(IOSkywalkNetworkKDPPoller::RequestType);
+    auto poller_get_link();
+    auto poller_receive(void*, unsigned int*, unsigned int);
+    auto poller_send(void*, unsigned int);
+    auto poller_set_mode(int);
+    auto start(IOSkywalkNetworkInterface*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSkywalkNetworkKDPPoller();
 };

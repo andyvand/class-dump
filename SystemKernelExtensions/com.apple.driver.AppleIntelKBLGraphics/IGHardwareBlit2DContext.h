@@ -6,7 +6,9 @@ class IGHardwareBlit2DContext {
 public: // (access info unavailable from symbols alone)
     IGHardwareBlit2DContext();
     IGHardwareBlit2DContext(OSMetaClass const*);
-    getMetaClass() const;
-    initialize();
+    auto getMetaClass() const;
+    auto initialize();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHardwareBlit2DContext();
 };

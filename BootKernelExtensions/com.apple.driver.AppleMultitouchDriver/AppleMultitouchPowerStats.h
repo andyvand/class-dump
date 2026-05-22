@@ -5,19 +5,21 @@
 class AppleMultitouchPowerStats {
 public: // (access info unavailable from symbols alone)
     AppleMultitouchPowerStats(AppleMultitouchDevice*);
-    _createReporters();
-    _createReporters()::_os_log_fmt;
-    _parseDescriptor();
-    _parseDescriptor()::_os_log_fmt;
-    _parseDescriptor()::kalloc_type_view_192;
-    _readDescriptor();
-    _readDescriptor()::_os_log_fmt;
-    configureReport(IOReportChannelList*, unsigned int, void*, void*);
-    fromDevice(AppleMultitouchDevice*);
-    updateReport();
-    updateReport() (.cold.1);
-    updateReport()::_os_log_fmt;
-    updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto _createReporters();
+    auto _createReporters()::_os_log_fmt;
+    auto _parseDescriptor();
+    auto _parseDescriptor()::_os_log_fmt;
+    auto _parseDescriptor()::kalloc_type_view_192;
+    auto _readDescriptor();
+    auto _readDescriptor()::_os_log_fmt;
+    auto configureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto fromDevice(AppleMultitouchDevice*);
+    auto updateReport();
+    auto updateReport() (.cold.1);
+    auto updateReport()::_os_log_fmt;
+    auto updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    void * operator new(unsigned long)::kalloc_type_view_19;
+    void operator delete(void*, unsigned long)::kalloc_type_view_19;
     ~AppleMultitouchPowerStats();
     ~AppleMultitouchPowerStats()::kalloc_type_view_113;
 };

@@ -4,6 +4,6 @@
 
 class IOHDIXCommandQueue {
 public: // (access info unavailable from symbols alone)
-    dequeueCommand();
-    getSize() const;
+    auto dequeueCommand();
+    auto getSize() const;
 };

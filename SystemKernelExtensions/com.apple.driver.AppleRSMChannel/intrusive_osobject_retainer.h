@@ -4,6 +4,6 @@
 
 class intrusive_osobject_retainer {
 public: // (access info unavailable from symbols alone)
-    release(OSMetaClassBase const&);
-    retain(OSMetaClassBase const&);
+    auto release(OSMetaClassBase const&);
+    auto retain(OSMetaClassBase const&);
 };

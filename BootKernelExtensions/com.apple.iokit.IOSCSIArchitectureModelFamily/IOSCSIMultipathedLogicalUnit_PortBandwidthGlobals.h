@@ -4,19 +4,19 @@
 
 class IOSCSIMultipathedLogicalUnit::PortBandwidthGlobals {
 public: // (access info unavailable from symbols alone)
-    AddSCSIPort(unsigned int);
-    AddSCSIPort(unsigned int) (.cold.1);
-    AddSCSIPort(unsigned int) (.cold.2);
-    AddSCSIPort(unsigned int) (.cold.3);
-    AddSCSIPort(unsigned int) (.cold.4);
-    AllocateBandwidth(IOSCSIMultipathedLogicalUnit*, unsigned long long, unsigned int);
-    ChargeBandwidth(SCSILogicalUnitPath*, unsigned long long);
-    DeallocateBandwidth(SCSILogicalUnitPath*, unsigned long long);
-    GetSharedInstance();
-    LeastBytesPath(queue_entry*, unsigned long long);
-    LeastQueueDepthPath(queue_entry*, unsigned long long);
     PortBandwidthGlobals();
     PortBandwidthGlobals() (.cold.1);
     PortBandwidthGlobals() (.cold.2);
+    auto AddSCSIPort(unsigned int);
+    auto AddSCSIPort(unsigned int) (.cold.1);
+    auto AddSCSIPort(unsigned int) (.cold.2);
+    auto AddSCSIPort(unsigned int) (.cold.3);
+    auto AddSCSIPort(unsigned int) (.cold.4);
+    auto AllocateBandwidth(IOSCSIMultipathedLogicalUnit*, unsigned long long, unsigned int);
+    auto ChargeBandwidth(SCSILogicalUnitPath*, unsigned long long);
+    auto DeallocateBandwidth(SCSILogicalUnitPath*, unsigned long long);
+    auto GetSharedInstance();
+    auto LeastBytesPath(queue_entry*, unsigned long long);
+    auto LeastQueueDepthPath(queue_entry*, unsigned long long);
     ~PortBandwidthGlobals();
 };

@@ -4,5 +4,5 @@
 
 class OSSerialize {
 public: // (access info unavailable from symbols alone)
-    binaryWithCapacity(unsigned int, void*, void*);
+    auto binaryWithCapacity(unsigned int, void*, void*);
 };

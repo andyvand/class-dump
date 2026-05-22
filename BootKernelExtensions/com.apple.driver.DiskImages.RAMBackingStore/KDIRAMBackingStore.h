@@ -6,15 +6,17 @@ class KDIRAMBackingStore {
 public: // (access info unavailable from symbols alone)
     KDIRAMBackingStore();
     KDIRAMBackingStore(OSMetaClass const*);
-    _handleStart(IOService*);
-    _handleStart(IOService*) (.cold.1);
-    flush();
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    probe(IOService*, int*);
-    readBytes(long long, unsigned long, unsigned long*, void*, bool);
-    reportEOF(long long*);
-    writeBytes(long long, unsigned long, unsigned long*, void const*, bool);
+    auto _handleStart(IOService*);
+    auto _handleStart(IOService*) (.cold.1);
+    auto flush();
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto probe(IOService*, int*);
+    auto readBytes(long long, unsigned long, unsigned long*, void*, bool);
+    auto reportEOF(long long*);
+    auto writeBytes(long long, unsigned long, unsigned long*, void const*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KDIRAMBackingStore();
 };

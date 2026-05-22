@@ -4,5 +4,5 @@
 
 class AtiNvramParserFactory {
 public: // (access info unavailable from symbols alone)
-    createNvramParser(IORegistryEntry*, unsigned int);
+    auto createNvramParser(IORegistryEntry*, unsigned int);
 };

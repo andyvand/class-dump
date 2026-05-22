@@ -5,6 +5,8 @@
 class AHwI2cProxy {
 public: // (access info unavailable from symbols alone)
     AHwI2cProxy(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AHwI2cProxy();
 };

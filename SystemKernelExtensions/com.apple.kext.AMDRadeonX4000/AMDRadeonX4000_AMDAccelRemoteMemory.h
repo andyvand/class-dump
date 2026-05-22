@@ -6,7 +6,9 @@ class AMDRadeonX4000_AMDAccelRemoteMemory {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDAccelRemoteMemory();
     AMDRadeonX4000_AMDAccelRemoteMemory(OSMetaClass const*);
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, IOAccelShared2*, unsigned long long, unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, IOAccelShared2*, unsigned long long, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDAccelRemoteMemory();
 };

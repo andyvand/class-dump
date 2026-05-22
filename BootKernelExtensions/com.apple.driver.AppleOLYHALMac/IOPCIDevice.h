@@ -4,10 +4,10 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    extendedConfigRead16(unsigned long long);
-    extendedConfigRead32(unsigned long long);
-    extendedConfigWrite16(unsigned long long, unsigned short);
-    extendedConfigWrite32(unsigned long long, unsigned int);
-    registerCrashNotification(IOPCIResetType (*)(void*, IOPCIDevice*), void*);
-    unregisterCrashNotification();
+    auto extendedConfigRead16(unsigned long long);
+    auto extendedConfigRead32(unsigned long long);
+    auto extendedConfigWrite16(unsigned long long, unsigned short);
+    auto extendedConfigWrite32(unsigned long long, unsigned int);
+    auto registerCrashNotification(IOPCIResetType (*)(void*, IOPCIDevice*), void*);
+    auto unregisterCrashNotification();
 };

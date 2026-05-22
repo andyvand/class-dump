@@ -4,19 +4,19 @@
 
 class UDFRsrvManager {
 public: // (access info unavailable from symbols alone)
-    DecReservation(int, unsigned int);
-    DeleteReservation(int);
-    FreeId(int);
-    GetReservedBlks(int);
-    GetUnusedId();
-    GrowTable(int);
-    GrowTable(int) (.cold.1);
-    IHaveLock();
-    IncReservation(int, unsigned int);
-    Lock();
-    NewReservation(unsigned int);
-    TotalReservedBlks();
     UDFRsrvManager();
-    Unlock();
+    auto DecReservation(int, unsigned int);
+    auto DeleteReservation(int);
+    auto FreeId(int);
+    auto GetReservedBlks(int);
+    auto GetUnusedId();
+    auto GrowTable(int);
+    auto GrowTable(int) (.cold.1);
+    auto IHaveLock();
+    auto IncReservation(int, unsigned int);
+    auto Lock();
+    auto NewReservation(unsigned int);
+    auto TotalReservedBlks();
+    auto Unlock();
     ~UDFRsrvManager();
 };

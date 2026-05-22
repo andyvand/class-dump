@@ -6,8 +6,6 @@
 
 IONetworkFamily::gMetaClass;
 IONetworkFamily::metaClass;
-IONetworkFamily::operator delete(void*, unsigned long);
-IONetworkFamily::operator new(unsigned long);
 IONetworkFamily::superClass;
 IONetworkFamily_ktv;
 IOUserNetworkWLAN::gMetaClass;

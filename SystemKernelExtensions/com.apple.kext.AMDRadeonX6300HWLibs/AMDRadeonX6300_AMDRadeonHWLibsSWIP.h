@@ -5,13 +5,15 @@
 class AMDRadeonX6300_AMDRadeonHWLibsSWIP {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6300_AMDRadeonHWLibsSWIP(OSMetaClass const*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    callPlatformFunction(char const*, bool, void*, void*, void*, void*);
-    callPlatformFunction(char const*, bool, void*, void*, void*, void*)::TTL_INTERFACE_KEY;
-    createTtlInterface(IOPCIDevice*);
-    free();
-    getMetaClass() const;
-    start(IOService*);
-    stop(IOService*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto callPlatformFunction(char const*, bool, void*, void*, void*, void*);
+    auto callPlatformFunction(char const*, bool, void*, void*, void*, void*)::TTL_INTERFACE_KEY;
+    auto createTtlInterface(IOPCIDevice*);
+    auto free();
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6300_AMDRadeonHWLibsSWIP();
 };

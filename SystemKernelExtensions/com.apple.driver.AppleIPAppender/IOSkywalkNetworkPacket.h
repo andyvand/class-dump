@@ -4,6 +4,6 @@
 
 class IOSkywalkNetworkPacket {
 public: // (access info unavailable from symbols alone)
-    getNetworkHeaderOffset(unsigned int*) const;
-    getServiceClass() const;
+    auto getNetworkHeaderOffset(unsigned int*) const;
+    auto getServiceClass() const;
 };

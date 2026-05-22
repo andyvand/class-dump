@@ -4,5 +4,5 @@
 
 class IOBluetoothMemoryBlock {
 public: // (access info unavailable from symbols alone)
-    withCapacity(unsigned long long, unsigned int);
+    auto withCapacity(unsigned long long, unsigned int);
 };

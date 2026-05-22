@@ -6,8 +6,10 @@ class AppleUSBRecoveryControlRequestPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBRecoveryControlRequestPool();
     AppleUSBRecoveryControlRequestPool(OSMetaClass const*);
-    allocateCommand();
-    getMetaClass() const;
-    withWorkLoop(IOWorkLoop*);
+    auto allocateCommand();
+    auto getMetaClass() const;
+    auto withWorkLoop(IOWorkLoop*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBRecoveryControlRequestPool();
 };

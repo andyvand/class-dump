@@ -5,6 +5,6 @@
 class AtiDac1EncoderControl_V1_V1::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

@@ -4,7 +4,7 @@
 
 class AppleCIOMeshHardwareConfig {
 public: // (access info unavailable from symbols alone)
-    getLinkLabel(unsigned int, unsigned char);
-    populate(unsigned char);
-    populate(unsigned char) (.cold.1);
+    auto getLinkLabel(unsigned int, unsigned char);
+    auto populate(unsigned char);
+    auto populate(unsigned char) (.cold.1);
 };

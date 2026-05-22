@@ -6,11 +6,13 @@ class IOThunderboltCallbackEventSource {
 public: // (access info unavailable from symbols alone)
     IOThunderboltCallbackEventSource();
     IOThunderboltCallbackEventSource(OSMetaClass const*);
-    checkForWork();
-    create(OSObject*, void (*)(OSObject*));
-    getMetaClass() const;
-    init(OSObject*, void (*)(OSObject*));
-    scheduleCallback();
-    synchronizeWithIO();
+    auto checkForWork();
+    auto create(OSObject*, void (*)(OSObject*));
+    auto getMetaClass() const;
+    auto init(OSObject*, void (*)(OSObject*));
+    auto scheduleCallback();
+    auto synchronizeWithIO();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOThunderboltCallbackEventSource();
 };

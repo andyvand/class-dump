@@ -5,18 +5,20 @@
 class IOAccelTraceStream2 {
 public: // (access info unavailable from symbols alone)
     IOAccelTraceStream2(OSMetaClass const*);
-    _RESERVEDIOAccelTraceStream0();
-    _RESERVEDIOAccelTraceStream1();
-    _RESERVEDIOAccelTraceStream2();
-    _RESERVEDIOAccelTraceStream3();
-    _RESERVEDIOAccelTraceStream4();
-    _RESERVEDIOAccelTraceStream5();
-    _RESERVEDIOAccelTraceStream6();
-    _RESERVEDIOAccelTraceStream7();
-    enter(unsigned int, unsigned long long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
-    free();
-    getMetaClass() const;
-    init();
-    registerCallback();
+    auto _RESERVEDIOAccelTraceStream0();
+    auto _RESERVEDIOAccelTraceStream1();
+    auto _RESERVEDIOAccelTraceStream2();
+    auto _RESERVEDIOAccelTraceStream3();
+    auto _RESERVEDIOAccelTraceStream4();
+    auto _RESERVEDIOAccelTraceStream5();
+    auto _RESERVEDIOAccelTraceStream6();
+    auto _RESERVEDIOAccelTraceStream7();
+    auto enter(unsigned int, unsigned long long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto registerCallback();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelTraceStream2();
 };

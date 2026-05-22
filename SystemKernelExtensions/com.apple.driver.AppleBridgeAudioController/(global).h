@@ -6,26 +6,18 @@
 
 BridgeAudioController::gMetaClass;
 BridgeAudioController::metaClass;
-BridgeAudioController::operator delete(void*, unsigned long);
-BridgeAudioController::operator new(unsigned long);
 BridgeAudioController::superClass;
 BridgeAudioControllerPCI::gMetaClass;
 BridgeAudioControllerPCI::metaClass;
-BridgeAudioControllerPCI::operator delete(void*, unsigned long);
-BridgeAudioControllerPCI::operator new(unsigned long);
 BridgeAudioControllerPCI::superClass;
 BridgeAudioControllerPCI_ktv;
 BridgeAudioControllerUserClient::gMetaClass;
 BridgeAudioControllerUserClient::metaClass;
-BridgeAudioControllerUserClient::operator delete(void*, unsigned long);
-BridgeAudioControllerUserClient::operator new(unsigned long);
 BridgeAudioControllerUserClient::superClass;
 BridgeAudioControllerUserClient_ktv;
 BridgeAudioController_ktv;
 BridgeAudioPCI::gMetaClass;
 BridgeAudioPCI::metaClass;
-BridgeAudioPCI::operator delete(void*, unsigned long);
-BridgeAudioPCI::operator new(unsigned long);
 BridgeAudioPCI::superClass;
 BridgeAudioPCI_ktv;
 IOPCIBridge::metaClass;

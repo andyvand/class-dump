@@ -6,11 +6,13 @@ class IOGPUVnioDesc {
 public: // (access info unavailable from symbols alone)
     IOGPUVnioDesc();
     IOGPUVnioDesc(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getVnioDesc();
-    getfd();
-    initWithFileDescriptor(int);
-    withFileDescriptor(int);
+    auto free();
+    auto getMetaClass() const;
+    auto getVnioDesc();
+    auto getfd();
+    auto initWithFileDescriptor(int);
+    auto withFileDescriptor(int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUVnioDesc();
 };

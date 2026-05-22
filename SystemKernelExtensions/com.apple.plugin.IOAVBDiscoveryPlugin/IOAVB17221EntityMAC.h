@@ -6,10 +6,12 @@ class IOAVB17221EntityMAC {
 public: // (access info unavailable from symbols alone)
     IOAVB17221EntityMAC();
     IOAVB17221EntityMAC(OSMetaClass const*);
-    getMACBytePtr();
-    getMetaClass() const;
-    getTimeToLive();
-    init(unsigned char*, unsigned char);
-    setTimeToLive(unsigned char);
+    auto getMACBytePtr();
+    auto getMetaClass() const;
+    auto getTimeToLive();
+    auto init(unsigned char*, unsigned char);
+    auto setTimeToLive(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVB17221EntityMAC();
 };

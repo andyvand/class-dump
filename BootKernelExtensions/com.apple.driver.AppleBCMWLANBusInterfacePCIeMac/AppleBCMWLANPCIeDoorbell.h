@@ -4,15 +4,15 @@
 
 class AppleBCMWLANPCIeDoorbell {
 public: // (access info unavailable from symbols alone)
-    cancelRing();
-    free();
-    free()::kalloc_type_view_135;
-    getDebugInfo(AppleBCMWLANPCIeDoorbellDebugInfo*);
-    getMetaClass() const;
-    getWorkQueue() const;
-    handleCoalescingTimer(IO80211TimerSource*);
-    initWithCallbacks(AppleBCMWLANBusInterfacePCIe*, int (*)(OSObject*), IO80211WorkQueue*)::kalloc_type_view_88;
-    ring(unsigned int, bool, unsigned long);
-    withCallbacks(AppleBCMWLANBusInterfacePCIe*, int (*)(OSObject*), IO80211WorkQueue*);
+    auto cancelRing();
+    auto free();
+    auto free()::kalloc_type_view_135;
+    auto getDebugInfo(AppleBCMWLANPCIeDoorbellDebugInfo*);
+    auto getMetaClass() const;
+    auto getWorkQueue() const;
+    auto handleCoalescingTimer(IO80211TimerSource*);
+    auto initWithCallbacks(AppleBCMWLANBusInterfacePCIe*, int (*)(OSObject*), IO80211WorkQueue*)::kalloc_type_view_88;
+    auto ring(unsigned int, bool, unsigned long);
+    auto withCallbacks(AppleBCMWLANBusInterfacePCIe*, int (*)(OSObject*), IO80211WorkQueue*);
     ~AppleBCMWLANPCIeDoorbell();
 };

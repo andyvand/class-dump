@@ -4,12 +4,12 @@
 
 class AppleIntelLpssDmacChannel {
 public: // (access info unavailable from symbols alone)
-    flush();
-    getChannelNumber();
-    getMaxBlockSize(unsigned int);
-    interrupt(LpssDmacIntrStatus*);
-    isBusy();
-    retireXfer();
-    setConfig(LpssDmacChannelConfig*);
-    setXfer(LpssDmacXfer*);
+    auto flush();
+    auto getChannelNumber();
+    auto getMaxBlockSize(unsigned int);
+    auto interrupt(LpssDmacIntrStatus*);
+    auto isBusy();
+    auto retireXfer();
+    auto setConfig(LpssDmacChannelConfig*);
+    auto setXfer(LpssDmacXfer*);
 };

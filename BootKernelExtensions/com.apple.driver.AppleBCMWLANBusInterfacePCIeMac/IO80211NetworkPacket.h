@@ -5,6 +5,6 @@
 class IO80211NetworkPacket {
 public: // (access info unavailable from symbols alone)
     IO80211NetworkPacket(OSMetaClass const*);
-    prepareWithQueue(IOSkywalkPacketQueue*, unsigned int, unsigned int);
+    auto prepareWithQueue(IOSkywalkPacketQueue*, unsigned int, unsigned int);
     ~IO80211NetworkPacket();
 };

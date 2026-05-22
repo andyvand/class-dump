@@ -4,6 +4,6 @@
 
 class vector<seg_clean_info> {
 public: // (access info unavailable from symbols alone)
-    push_back(seg_clean_info const&);
-    reserve(unsigned long);
+    auto push_back(seg_clean_info const&);
+    auto reserve(unsigned long);
 };

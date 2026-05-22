@@ -4,11 +4,11 @@
 
 class IONetworkInterface {
 public: // (access info unavailable from symbols alone)
-    configureClientBehavior(unsigned int);
-    flushOutputQueue(unsigned int);
-    getParameter(char const*) const;
-    setInterfaceSubType(unsigned int);
-    signalOutputThread(unsigned int);
-    startOutputThread(unsigned int);
-    stopOutputThread(unsigned int);
+    auto configureClientBehavior(unsigned int);
+    auto flushOutputQueue(unsigned int);
+    auto getParameter(char const*) const;
+    auto setInterfaceSubType(unsigned int);
+    auto signalOutputThread(unsigned int);
+    auto startOutputThread(unsigned int);
+    auto stopOutputThread(unsigned int);
 };

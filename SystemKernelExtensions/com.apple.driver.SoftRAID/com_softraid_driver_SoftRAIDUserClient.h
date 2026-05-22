@@ -4,20 +4,22 @@
 
 class com_softraid_driver_SoftRAIDUserClient {
 public: // (access info unavailable from symbols alone)
-    CloseUserClient();
-    OpenUserClient();
-    UserClientGlue(OSObject*, void*, IOExternalMethodArguments*);
-    clientClose();
-    clientDied();
+    auto CloseUserClient();
+    auto OpenUserClient();
+    auto UserClientGlue(OSObject*, void*, IOExternalMethodArguments*);
+    auto clientClose();
+    auto clientDied();
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto finalize(unsigned int);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto terminate(unsigned int);
     com_softraid_driver_SoftRAIDUserClient();
     com_softraid_driver_SoftRAIDUserClient(OSMetaClass const*);
-    didTerminate(IOService*, unsigned int, bool*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    finalize(unsigned int);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    start(IOService*);
-    stop(IOService*);
-    terminate(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAIDUserClient();
 };

@@ -4,6 +4,6 @@
 
 class IOMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    getPhysicalAddress();
-    withAddressRange(unsigned long long, unsigned long long, unsigned int, task*);
+    auto getPhysicalAddress();
+    auto withAddressRange(unsigned long long, unsigned long long, unsigned int, task*);
 };

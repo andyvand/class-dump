@@ -5,11 +5,13 @@
 class AtiEncoderControlInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiEncoderControlInterface_V1(OSMetaClass const*);
-    createEncoderControl(AtiVBiosHelper*);
-    getMetaClass() const;
-    stringifyBitsPerColor(unsigned short);
-    stringifyDpObfuscationMode(unsigned short);
-    translateEncoderActionToAtom(unsigned char);
-    translateLinkBitsToBitsPerColor(unsigned int);
+    auto createEncoderControl(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    auto stringifyBitsPerColor(unsigned short);
+    auto stringifyDpObfuscationMode(unsigned short);
+    auto translateEncoderActionToAtom(unsigned char);
+    auto translateLinkBitsToBitsPerColor(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiEncoderControlInterface_V1();
 };

@@ -4,9 +4,9 @@
 
 class AppleSEPDeviceService {
 public: // (access info unavailable from symbols alone)
-    allocateVisibleMemory(unsigned int, unsigned long long, unsigned long long);
-    getEndpoint(OSObject*, void (*)(OSObject*, void*, void*), void*);
-    getReceiveOolMaxPages();
-    getSendOolMaxPages();
-    getSepPageSize();
+    auto allocateVisibleMemory(unsigned int, unsigned long long, unsigned long long);
+    auto getEndpoint(OSObject*, void (*)(OSObject*, void*, void*), void*);
+    auto getReceiveOolMaxPages();
+    auto getSendOolMaxPages();
+    auto getSepPageSize();
 };

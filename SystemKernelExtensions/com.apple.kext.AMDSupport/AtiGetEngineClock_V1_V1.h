@@ -6,7 +6,9 @@ class AtiGetEngineClock_V1_V1 {
 public: // (access info unavailable from symbols alone)
     AtiGetEngineClock_V1_V1();
     AtiGetEngineClock_V1_V1(OSMetaClass const*);
-    getEngineClockInKHz();
-    getMetaClass() const;
+    auto getEngineClockInKHz();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiGetEngineClock_V1_V1();
 };

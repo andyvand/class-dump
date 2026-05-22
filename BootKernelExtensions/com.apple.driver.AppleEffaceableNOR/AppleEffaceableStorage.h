@@ -5,14 +5,14 @@
 class AppleEffaceableStorage {
 public: // (access info unavailable from symbols alone)
     AppleEffaceableStorage(OSMetaClass const*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    device();
-    efReturn(int);
-    getWorkLoop() const;
-    logf(void*, char const*, ...);
-    logk(void*, char const*, ...);
-    registerService(unsigned int);
-    storage();
-    system();
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto device();
+    auto efReturn(int);
+    auto getWorkLoop() const;
+    auto logf(void*, char const*, ...);
+    auto logk(void*, char const*, ...);
+    auto registerService(unsigned int);
+    auto storage();
+    auto system();
     ~AppleEffaceableStorage();
 };

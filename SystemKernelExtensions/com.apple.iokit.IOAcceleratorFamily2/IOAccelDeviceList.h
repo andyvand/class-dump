@@ -4,10 +4,10 @@
 
 class IOAccelDeviceList {
 public: // (access info unavailable from symbols alone)
-    addDevice(IOAccelDevice2*);
-    getCount() const;
-    getCountWithPID(int) const;
-    init();
-    removeDevice(IOAccelDevice2*);
-    removeDevice(IOAccelDevice2*)::_os_log_fmt;
+    auto addDevice(IOAccelDevice2*);
+    auto getCount() const;
+    auto getCountWithPID(int) const;
+    auto init();
+    auto removeDevice(IOAccelDevice2*);
+    auto removeDevice(IOAccelDevice2*)::_os_log_fmt;
 };

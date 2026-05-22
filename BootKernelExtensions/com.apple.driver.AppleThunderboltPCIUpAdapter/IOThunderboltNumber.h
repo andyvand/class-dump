@@ -4,5 +4,5 @@
 
 class IOThunderboltNumber {
 public: // (access info unavailable from symbols alone)
-    withNumber(unsigned long long, unsigned int);
+    auto withNumber(unsigned long long, unsigned int);
 };

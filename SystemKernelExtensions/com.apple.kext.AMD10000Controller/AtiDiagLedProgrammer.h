@@ -5,7 +5,7 @@
 class AtiDiagLedProgrammer {
 public: // (access info unavailable from symbols alone)
     AtiDiagLedProgrammer(OSMetaClass const*);
-    convertIntStateToEnum(int);
-    updateGpuBootState(AtiDiagLedProgrammer::GPU_DIAG_BOOT_STATE);
+    auto convertIntStateToEnum(int);
+    auto updateGpuBootState(AtiDiagLedProgrammer::GPU_DIAG_BOOT_STATE);
     ~AtiDiagLedProgrammer();
 };

@@ -4,10 +4,10 @@
 
 class TManagedUsers {
 public: // (access info unavailable from symbols alone)
-    CreateObjForUID(unsigned int);
-    GetManaged(TCString&);
-    IsManaged(unsigned int);
-    SetManaged(unsigned int, bool);
     TManagedUsers();
+    auto CreateObjForUID(unsigned int);
+    auto GetManaged(TCString&);
+    auto IsManaged(unsigned int);
+    auto SetManaged(unsigned int, bool);
     ~TManagedUsers();
 };

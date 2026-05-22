@@ -6,9 +6,11 @@ class AMDRadeonX6000_AMDGFX10ComputeRing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDGFX10ComputeRing();
     AMDRadeonX6000_AMDGFX10ComputeRing(OSMetaClass const*);
-    enable();
-    getMetaClass() const;
-    programReadAndWritePointers(unsigned long long);
-    reset();
+    auto enable();
+    auto getMetaClass() const;
+    auto programReadAndWritePointers(unsigned long long);
+    auto reset();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDGFX10ComputeRing();
 };

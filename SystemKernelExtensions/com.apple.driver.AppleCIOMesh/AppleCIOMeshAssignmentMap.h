@@ -4,14 +4,14 @@
 
 class AppleCIOMeshAssignmentMap {
 public: // (access info unavailable from symbols alone)
-    addAssignmentForNode(unsigned int, unsigned char);
-    addLinkAssignmentForNode(unsigned int, unsigned char, unsigned char);
-    checkAllReady(bool*);
-    checkPrepared();
-    checkReady(unsigned int, bool*);
-    dump();
-    getAssignmentOffset(unsigned int);
-    getIdxForOffset(long long);
-    hold();
-    reset();
+    auto addAssignmentForNode(unsigned int, unsigned char);
+    auto addLinkAssignmentForNode(unsigned int, unsigned char, unsigned char);
+    auto checkAllReady(bool*);
+    auto checkPrepared();
+    auto checkReady(unsigned int, bool*);
+    auto dump();
+    auto getAssignmentOffset(unsigned int);
+    auto getIdxForOffset(long long);
+    auto hold();
+    auto reset();
 };

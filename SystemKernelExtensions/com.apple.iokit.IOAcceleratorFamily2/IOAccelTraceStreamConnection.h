@@ -6,14 +6,16 @@ class IOAccelTraceStreamConnection {
 public: // (access info unavailable from symbols alone)
     IOAccelTraceStreamConnection();
     IOAccelTraceStreamConnection(OSMetaClass const*);
-    flush();
-    free();
-    getMetaClass() const;
-    initWithName(char const*);
-    orphan();
-    registerCallback();
-    withName(char const*);
-    withName(char const*) (.cold.1);
-    withName(char const*) (.cold.2);
+    auto flush();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithName(char const*);
+    auto orphan();
+    auto registerCallback();
+    auto withName(char const*);
+    auto withName(char const*) (.cold.1);
+    auto withName(char const*) (.cold.2);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelTraceStreamConnection();
 };

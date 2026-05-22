@@ -6,15 +6,17 @@ class AppleTDMBlockStorageServices {
 public: // (access info unavailable from symbols alone)
     AppleTDMBlockStorageServices();
     AppleTDMBlockStorageServices(OSMetaClass const*);
-    TDMAsyncReadWriteComplete(void*, int, unsigned long long);
-    TDMAsyncReadWriteComplete(void*, int, unsigned long long)::kalloc_type_view_349;
-    attach(IOService*);
-    doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageAttributes*, IOStorageCompletion*);
-    doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageAttributes*, IOStorageCompletion*)::kalloc_type_view_163;
-    doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageAttributes*, IOStorageCompletion*)::kalloc_type_view_206;
-    doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageCompletion);
-    doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageCompletion)::kalloc_type_view_118;
-    doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageCompletion)::kalloc_type_view_75;
-    getMetaClass() const;
+    auto TDMAsyncReadWriteComplete(void*, int, unsigned long long);
+    auto TDMAsyncReadWriteComplete(void*, int, unsigned long long)::kalloc_type_view_349;
+    auto attach(IOService*);
+    auto doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageAttributes*, IOStorageCompletion*);
+    auto doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageAttributes*, IOStorageCompletion*)::kalloc_type_view_163;
+    auto doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageAttributes*, IOStorageCompletion*)::kalloc_type_view_206;
+    auto doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageCompletion);
+    auto doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageCompletion)::kalloc_type_view_118;
+    auto doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageCompletion)::kalloc_type_view_75;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleTDMBlockStorageServices();
 };

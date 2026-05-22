@@ -6,14 +6,16 @@ class AMDRadeonX4000_AMDAccelVCEContext {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDAccelVCEContext();
     AMDRadeonX4000_AMDAccelVCEContext(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX4000_AMDGraphicsAccelerator*, AMDRadeonX4000_AMDAccelVideoContext*, sVideoContextCreateInfo*);
-    releaseCapability();
-    requestCapability(sVideoContextReturnInfo*);
-    restorePowerState();
-    restoreVCESession(bool);
-    setEncProperties(encode_properties_info*);
-    stop();
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX4000_AMDGraphicsAccelerator*, AMDRadeonX4000_AMDAccelVideoContext*, sVideoContextCreateInfo*);
+    auto releaseCapability();
+    auto requestCapability(sVideoContextReturnInfo*);
+    auto restorePowerState();
+    auto restoreVCESession(bool);
+    auto setEncProperties(encode_properties_info*);
+    auto stop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDAccelVCEContext();
 };

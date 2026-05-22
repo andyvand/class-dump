@@ -8,8 +8,6 @@ AppleUSBCommonDebug::_log;
 AppleUSBVHCI::gMetaClass;
 AppleUSBVHCIBCE::gMetaClass;
 AppleUSBVHCIBCE::metaClass;
-AppleUSBVHCIBCE::operator delete(void*, unsigned long);
-AppleUSBVHCIBCE::operator new(unsigned long);
 AppleUSBVHCIBCE::superClass;
 AppleUSBVHCIBCE_ktv;
 vtable for AppleUSBVHCI;

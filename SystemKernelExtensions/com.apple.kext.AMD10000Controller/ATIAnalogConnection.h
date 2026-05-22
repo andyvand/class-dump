@@ -5,8 +5,8 @@
 class ATIAnalogConnection {
 public: // (access info unavailable from symbols alone)
     ATIAnalogConnection(OSMetaClass const*);
-    getName();
-    isAnalog();
-    isDigital();
+    auto getName();
+    auto isAnalog();
+    auto isDigital();
     ~ATIAnalogConnection();
 };

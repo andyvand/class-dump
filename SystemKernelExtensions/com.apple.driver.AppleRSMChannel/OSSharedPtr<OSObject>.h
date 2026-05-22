@@ -6,7 +6,7 @@ class OSSharedPtr<OSObject> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr();
     OSSharedPtr(OSObject*, libkern::retain_t);
-    OSSharedPtr<IOService, void>(libkern::intrusive_shared_ptr<IOService, intrusive_osobject_retainer>&&);
-    operator=(OSSharedPtr<OSObject>&&);
+    auto OSSharedPtr<IOService, void>(libkern::intrusive_shared_ptr<IOService, intrusive_osobject_retainer>&&);
+    auto operator=(OSSharedPtr<OSObject>&&);
     ~OSSharedPtr();
 };

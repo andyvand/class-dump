@@ -5,12 +5,13 @@
 class AppleVirtIOBalloonTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOBalloonTransaction();
-    free();
-    getBalloonMemory();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    initWithMemory(AppleVirtIOBalloonMemory*);
-    initWithMemory(AppleVirtIOBalloonMemory*) (.cold.1);
+    auto free();
+    auto getBalloonMemory();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto initWithMemory(AppleVirtIOBalloonMemory*);
+    auto initWithMemory(AppleVirtIOBalloonMemory*) (.cold.1);
+    void * operator new(unsigned long);
     ~AppleVirtIOBalloonTransaction();
 };

@@ -6,7 +6,9 @@ class AtiEnableCrtc_V1_V1 {
 public: // (access info unavailable from symbols alone)
     AtiEnableCrtc_V1_V1();
     AtiEnableCrtc_V1_V1(OSMetaClass const*);
-    enableCrtc(unsigned char, bool);
-    getMetaClass() const;
+    auto enableCrtc(unsigned char, bool);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiEnableCrtc_V1_V1();
 };

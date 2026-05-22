@@ -5,11 +5,13 @@
 class AppleIntelPanel {
 public: // (access info unavailable from symbols alone)
     AppleIntelPanel(OSMetaClass const*);
-    doDataSet(OSSymbol const*, OSData*);
-    getMetaClass() const;
-    setDisplay(IODisplay*);
-    setupPanelTable(IODisplay*, char*, int, bool*, OSData**)::kalloc_type_view_102;
-    setupPanelTable(IODisplay*, char*, int, bool*, OSData**)::kalloc_type_view_246;
-    start(IOService*);
+    auto doDataSet(OSSymbol const*, OSData*);
+    auto getMetaClass() const;
+    auto setDisplay(IODisplay*);
+    auto setupPanelTable(IODisplay*, char*, int, bool*, OSData**)::kalloc_type_view_102;
+    auto setupPanelTable(IODisplay*, char*, int, bool*, OSData**)::kalloc_type_view_246;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelPanel();
 };

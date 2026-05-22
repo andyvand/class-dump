@@ -4,5 +4,5 @@
 
 class AtiHdcpFactory {
 public: // (access info unavailable from symbols alone)
-    createHdcpServiceFor(unsigned short, HdcpCallbacks*);
+    auto createHdcpServiceFor(unsigned short, HdcpCallbacks*);
 };

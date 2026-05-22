@@ -5,8 +5,10 @@
 class IOPMGR {
 public: // (access info unavailable from symbols alone)
     IOPMGR(OSMetaClass const*);
-    enableCPUCore(unsigned int);
-    enableCPUCore(unsigned int, unsigned long long);
-    getMetaClass() const;
+    auto enableCPUCore(unsigned int);
+    auto enableCPUCore(unsigned int, unsigned long long);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPMGR();
 };

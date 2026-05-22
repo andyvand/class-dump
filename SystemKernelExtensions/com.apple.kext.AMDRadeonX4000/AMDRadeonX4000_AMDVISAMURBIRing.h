@@ -6,13 +6,15 @@ class AMDRadeonX4000_AMDVISAMURBIRing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVISAMURBIRing();
     AMDRadeonX4000_AMDVISAMURBIRing(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getReadPointer();
-    getWritePointer();
-    init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
-    programReadAndWritePointers(unsigned int);
-    reset();
-    writeTail();
+    auto free();
+    auto getMetaClass() const;
+    auto getReadPointer();
+    auto getWritePointer();
+    auto init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
+    auto programReadAndWritePointers(unsigned int);
+    auto reset();
+    auto writeTail();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVISAMURBIRing();
 };

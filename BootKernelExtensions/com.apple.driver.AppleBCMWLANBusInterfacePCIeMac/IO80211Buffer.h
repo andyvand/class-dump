@@ -4,5 +4,5 @@
 
 class IO80211Buffer {
 public: // (access info unavailable from symbols alone)
-    allocBufferSingle(unsigned int, unsigned long, IO80211BufferPool**, char const*);
+    auto allocBufferSingle(unsigned int, unsigned long, IO80211BufferPool**, char const*);
 };

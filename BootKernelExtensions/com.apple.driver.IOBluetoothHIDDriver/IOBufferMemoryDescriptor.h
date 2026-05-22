@@ -4,6 +4,6 @@
 
 class IOBufferMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    withBytes(void const*, unsigned long, unsigned int, bool);
-    withOptions(unsigned int, unsigned long, unsigned long);
+    auto withBytes(void const*, unsigned long, unsigned int, bool);
+    auto withOptions(unsigned int, unsigned long, unsigned long);
 };

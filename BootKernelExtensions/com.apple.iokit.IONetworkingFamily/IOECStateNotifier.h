@@ -6,9 +6,11 @@ class IOECStateNotifier {
 public: // (access info unavailable from symbols alone)
     IOECStateNotifier();
     IOECStateNotifier(OSMetaClass const*);
-    getMetaClass() const;
-    init(void (*)(void*, IOEthernetControllerAVBState, IOEthernetControllerAVBState), void*);
-    isCallbackAndContext(void (*)(void*, IOEthernetControllerAVBState, IOEthernetControllerAVBState), void*);
-    notify(IOEthernetControllerAVBState, IOEthernetControllerAVBState);
+    auto getMetaClass() const;
+    auto init(void (*)(void*, IOEthernetControllerAVBState, IOEthernetControllerAVBState), void*);
+    auto isCallbackAndContext(void (*)(void*, IOEthernetControllerAVBState, IOEthernetControllerAVBState), void*);
+    auto notify(IOEthernetControllerAVBState, IOEthernetControllerAVBState);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOECStateNotifier();
 };

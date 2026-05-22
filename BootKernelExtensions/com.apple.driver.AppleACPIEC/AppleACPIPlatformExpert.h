@@ -4,6 +4,6 @@
 
 class AppleACPIPlatformExpert {
 public: // (access info unavailable from symbols alone)
-    getSystemStateForSleepType(unsigned int);
-    registerEmbeddedControllerDriver(AppleACPIEC*, IOACPIPlatformDevice*, bool*);
+    auto getSystemStateForSleepType(unsigned int);
+    auto registerEmbeddedControllerDriver(AppleACPIEC*, IOACPIPlatformDevice*, bool*);
 };

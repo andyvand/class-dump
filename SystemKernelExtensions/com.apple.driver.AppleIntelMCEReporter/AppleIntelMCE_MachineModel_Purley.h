@@ -4,12 +4,12 @@
 
 class AppleIntelMCE::MachineModel::Purley {
 public: // (access info unavailable from symbols alone)
-    CleanupAcpiPciNodeAndProvider();
-    CleanupMemoryTranslation();
-    CleanupMemoryTranslation()::kalloc_type_view_473;
-    InitializeMemoryTranslation()::kalloc_type_view_491;
-    InitializeMemoryTranslation()::kalloc_type_view_528;
-    MemTranslateCsrReadCallback(AppleIntelMCE::MachineModel::Purley::BDF);
-    MemTranslateLogCallback(char*, ...);
-    MemTranslateMsrReadCallback(unsigned short);
+    auto CleanupAcpiPciNodeAndProvider();
+    auto CleanupMemoryTranslation();
+    auto CleanupMemoryTranslation()::kalloc_type_view_473;
+    auto InitializeMemoryTranslation()::kalloc_type_view_491;
+    auto InitializeMemoryTranslation()::kalloc_type_view_528;
+    auto MemTranslateCsrReadCallback(AppleIntelMCE::MachineModel::Purley::BDF);
+    auto MemTranslateLogCallback(char*, ...);
+    auto MemTranslateMsrReadCallback(unsigned short);
 };

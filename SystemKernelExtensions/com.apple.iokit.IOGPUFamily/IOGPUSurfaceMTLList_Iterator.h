@@ -5,6 +5,6 @@
 class IOGPUSurfaceMTLList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOGPUSurfaceMTLList&);
-    getNextSurface();
+    auto getNextSurface();
     ~Iterator();
 };

@@ -4,5 +4,5 @@
 
 class OSCollection {
 public: // (access info unavailable from symbols alone)
-    iterateObjects(void*, bool (*)(void*, OSObject*));
+    auto iterateObjects(void*, bool (*)(void*, OSObject*));
 };

@@ -4,7 +4,7 @@
 
 class AppleUSBNCMDecoder {
 public: // (access info unavailable from symbols alone)
-    decode(IOBufferMemoryDescriptor*, unsigned long, unsigned int*);
-    decode(void const*, unsigned long, unsigned int*);
-    submitPacket(void const*, unsigned long);
+    auto decode(IOBufferMemoryDescriptor*, unsigned long, unsigned int*);
+    auto decode(void const*, unsigned long, unsigned int*);
+    auto submitPacket(void const*, unsigned long);
 };

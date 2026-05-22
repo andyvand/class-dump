@@ -5,20 +5,22 @@
 class Vega10SharedDigitalConnection {
 public: // (access info unavailable from symbols alone)
     Vega10SharedDigitalConnection(OSMetaClass const*);
-    getAttribute(unsigned int, unsigned int*);
-    getBacklight();
-    getCoherencyMode(CRTC_PARAMS*, unsigned int);
-    getCoherencyMode(CRTC_PARAMS*, unsigned int)::CONNECT_FLAGS_TMDS_NON_COHERENT;
-    getMetaClass() const;
-    init(ATIController*, ActiveConnectorInfo*, ATIPanel*);
-    populateGoldenSetting();
-    prepareBaobabInfoPacket(InfoPacketRawData*, CRTC_PARAMS*);
-    prepareHDRStaticMetaData(InfoPacketRawData*, CRTC_PARAMS*);
-    setAttribute(unsigned int, unsigned int);
-    setBacklight(unsigned char);
-    setDither(bool);
-    updateBaobabInfoPacket(CRTC_PARAMS*);
-    updateDPInfoPackets(CRTC_PARAMS*);
-    updateHDMIInfoPackets(CRTC_PARAMS*);
+    auto getAttribute(unsigned int, unsigned int*);
+    auto getBacklight();
+    auto getCoherencyMode(CRTC_PARAMS*, unsigned int);
+    auto getCoherencyMode(CRTC_PARAMS*, unsigned int)::CONNECT_FLAGS_TMDS_NON_COHERENT;
+    auto getMetaClass() const;
+    auto init(ATIController*, ActiveConnectorInfo*, ATIPanel*);
+    auto populateGoldenSetting();
+    auto prepareBaobabInfoPacket(InfoPacketRawData*, CRTC_PARAMS*);
+    auto prepareHDRStaticMetaData(InfoPacketRawData*, CRTC_PARAMS*);
+    auto setAttribute(unsigned int, unsigned int);
+    auto setBacklight(unsigned char);
+    auto setDither(bool);
+    auto updateBaobabInfoPacket(CRTC_PARAMS*);
+    auto updateDPInfoPackets(CRTC_PARAMS*);
+    auto updateHDMIInfoPackets(CRTC_PARAMS*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~Vega10SharedDigitalConnection();
 };

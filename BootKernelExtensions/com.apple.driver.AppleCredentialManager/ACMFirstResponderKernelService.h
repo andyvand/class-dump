@@ -6,12 +6,14 @@ class ACMFirstResponderKernelService {
 public: // (access info unavailable from symbols alone)
     ACMFirstResponderKernelService();
     ACMFirstResponderKernelService(OSMetaClass const*);
-    _onGetCapabilitiesLegacyACMLib(ACMControlResponseGetCapabilitiesLegacyACMLib*);
-    free();
-    getMetaClass() const;
-    init(ACMKernelService* (*) [8], IOService*, IOCommandGate*);
-    performKernelControlGated(unsigned int, void const*, unsigned long, void*, unsigned int*, ACMPerformCommandContextV2 const*);
-    start();
-    stop();
+    auto _onGetCapabilitiesLegacyACMLib(ACMControlResponseGetCapabilitiesLegacyACMLib*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(ACMKernelService* (*) [8], IOService*, IOCommandGate*);
+    auto performKernelControlGated(unsigned int, void const*, unsigned long, void*, unsigned int*, ACMPerformCommandContextV2 const*);
+    auto start();
+    auto stop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ACMFirstResponderKernelService();
 };

@@ -6,12 +6,14 @@ class AppleIntelUSBXHCI {
 public: // (access info unavailable from symbols alone)
     AppleIntelUSBXHCI();
     AppleIntelUSBXHCI(OSMetaClass const*);
-    createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
-    filterOccurred(IOFilterInterruptEventSource*);
-    getMetaClass() const;
-    interruptOccurred(IOInterruptEventSource*, int);
-    interruptOccurred(IOInterruptEventSource*, int)::_os_log_fmt;
-    regOr32ResetSafe(unsigned long long, unsigned int, unsigned int);
-    start(IOService*);
+    auto createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    auto filterOccurred(IOFilterInterruptEventSource*);
+    auto getMetaClass() const;
+    auto interruptOccurred(IOInterruptEventSource*, int);
+    auto interruptOccurred(IOInterruptEventSource*, int)::_os_log_fmt;
+    auto regOr32ResetSafe(unsigned long long, unsigned int, unsigned int);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelUSBXHCI();
 };

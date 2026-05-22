@@ -4,6 +4,6 @@
 
 class CCFaultReport {
 public: // (access info unavailable from symbols alone)
-    triggerCoreCapture(CCDataStream*, OSSet*, bool) const;
-    withFaultInfo(int, char const*, unsigned int, char const*, char const*, unsigned int, void*);
+    auto triggerCoreCapture(CCDataStream*, OSSet*, bool) const;
+    auto withFaultInfo(int, char const*, unsigned int, char const*, char const*, unsigned int, void*);
 };

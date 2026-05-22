@@ -4,15 +4,17 @@
 
 class com_softraid_driver_SoftRAID_PowerMonitor {
 public: // (access info unavailable from symbols alone)
-    BlockShutdown();
-    PoweringOn();
-    Sleeping();
-    TimerProc(IOTimerEventSource*);
-    VolumeClosed();
+    auto BlockShutdown();
+    auto PoweringOn();
+    auto Sleeping();
+    auto TimerProc(IOTimerEventSource*);
+    auto VolumeClosed();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_PowerMonitor();
     com_softraid_driver_SoftRAID_PowerMonitor(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_PowerMonitor();
 };

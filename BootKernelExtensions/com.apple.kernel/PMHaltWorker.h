@@ -6,12 +6,14 @@ class PMHaltWorker {
 public: // (access info unavailable from symbols alone)
     PMHaltWorker();
     PMHaltWorker(OSMetaClass const*);
-    __OSFinalClass();
-    checkTimeout(PMHaltWorker*, unsigned long long*);
-    free();
-    getMetaClass() const;
-    main(void*, int);
-    work(PMHaltWorker*);
-    worker();
+    auto __OSFinalClass();
+    auto checkTimeout(PMHaltWorker*, unsigned long long*);
+    auto free();
+    auto getMetaClass() const;
+    auto main(void*, int);
+    auto work(PMHaltWorker*);
+    auto worker();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~PMHaltWorker();
 };

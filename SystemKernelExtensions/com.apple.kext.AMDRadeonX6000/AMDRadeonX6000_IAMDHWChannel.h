@@ -5,8 +5,10 @@
 class AMDRadeonX6000_IAMDHWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_IAMDHWChannel(OSMetaClass const*);
-    getMetaClass() const;
-    mapCmdBuffers(AMD_COMMAND_BUFFER*, unsigned int, AMD_MAPPED_CB*);
-    unmapCmdBuffers(AMD_COMMAND_BUFFER*, unsigned int, AMD_MAPPED_CB*);
+    auto getMetaClass() const;
+    auto mapCmdBuffers(AMD_COMMAND_BUFFER*, unsigned int, AMD_MAPPED_CB*);
+    auto unmapCmdBuffers(AMD_COMMAND_BUFFER*, unsigned int, AMD_MAPPED_CB*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_IAMDHWChannel();
 };

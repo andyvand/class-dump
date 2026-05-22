@@ -4,5 +4,5 @@
 
 class AmdTtlInterface {
 public: // (access info unavailable from symbols alone)
-    createTtlService(IOPCIDevice*);
+    auto createTtlService(IOPCIDevice*);
 };

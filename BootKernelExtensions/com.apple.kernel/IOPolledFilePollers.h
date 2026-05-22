@@ -6,7 +6,9 @@ class IOPolledFilePollers {
 public: // (access info unavailable from symbols alone)
     IOPolledFilePollers();
     IOPolledFilePollers(OSMetaClass const*);
-    copyPollers(IOService*);
-    getMetaClass() const;
+    auto copyPollers(IOService*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPolledFilePollers();
 };

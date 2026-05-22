@@ -4,10 +4,10 @@
 
 class AppleBCMWLANChipManagerPCIe0x4377b {
 public: // (access info unavailable from symbols alone)
-    checkHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
-    getMetaClass() const;
-    initWithChip(unsigned int, unsigned char);
-    prepareHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
-    withChip(unsigned int, unsigned char);
+    auto checkHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
+    auto getMetaClass() const;
+    auto initWithChip(unsigned int, unsigned char);
+    auto prepareHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
+    auto withChip(unsigned int, unsigned char);
     ~AppleBCMWLANChipManagerPCIe0x4377b();
 };

@@ -4,10 +4,10 @@
 
 class DISharedBuffer {
 public: // (access info unavailable from symbols alone)
-    create(IOLWPool<DISharedBuffer>&, unsigned long long, unsigned int);
-    die();
-    init(unsigned long long, unsigned int);
-    init(unsigned long long, unsigned int)::_os_log_fmt;
-    isResident(unsigned long);
+    auto create(IOLWPool<DISharedBuffer>&, unsigned long long, unsigned int);
+    auto die();
+    auto init(unsigned long long, unsigned int);
+    auto init(unsigned long long, unsigned int)::_os_log_fmt;
+    auto isResident(unsigned long);
     ~DISharedBuffer();
 };

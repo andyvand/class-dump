@@ -5,5 +5,5 @@
 class AMDRadeonX6000_AMDGFX10PM4GraphicsChannel::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

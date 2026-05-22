@@ -6,8 +6,10 @@ class IGFlushNotifyInterruptEventSource {
 public: // (access info unavailable from symbols alone)
     IGFlushNotifyInterruptEventSource();
     IGFlushNotifyInterruptEventSource(OSMetaClass const*);
-    getMetaClass() const;
-    initWithOptions(IGScheduler*, void (*)(OSObject*, IOInterruptEventSource*, int), IGHwCsType);
-    withOptions(IGScheduler*, void (*)(OSObject*, IOInterruptEventSource*, int), IGHwCsType);
+    auto getMetaClass() const;
+    auto initWithOptions(IGScheduler*, void (*)(OSObject*, IOInterruptEventSource*, int), IGHwCsType);
+    auto withOptions(IGScheduler*, void (*)(OSObject*, IOInterruptEventSource*, int), IGHwCsType);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGFlushNotifyInterruptEventSource();
 };

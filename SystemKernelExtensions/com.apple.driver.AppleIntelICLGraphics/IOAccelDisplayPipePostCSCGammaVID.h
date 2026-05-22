@@ -4,6 +4,6 @@
 
 class IOAccelDisplayPipePostCSCGammaVID {
 public: // (access info unavailable from symbols alone)
-    getData() const;
-    getSize() const;
+    auto getData() const;
+    auto getSize() const;
 };

@@ -4,5 +4,5 @@
 
 class IO80211InfraInterface {
 public: // (access info unavailable from symbols alone)
-    getCurrentApAddress();
+    auto getCurrentApAddress();
 };

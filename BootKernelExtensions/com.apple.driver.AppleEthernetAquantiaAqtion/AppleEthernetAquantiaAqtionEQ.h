@@ -6,7 +6,9 @@ class AppleEthernetAquantiaAqtionEQ {
 public: // (access info unavailable from symbols alone)
     AppleEthernetAquantiaAqtionEQ();
     AppleEthernetAquantiaAqtionEQ(OSMetaClass const*);
-    getMetaClass() const;
-    interrupt_handler(IOInterruptEventSource*, int);
+    auto getMetaClass() const;
+    auto interrupt_handler(IOInterruptEventSource*, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEthernetAquantiaAqtionEQ();
 };

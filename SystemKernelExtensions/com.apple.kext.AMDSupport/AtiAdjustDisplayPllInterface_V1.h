@@ -5,7 +5,9 @@
 class AtiAdjustDisplayPllInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiAdjustDisplayPllInterface_V1(OSMetaClass const*);
-    createAdjustDisplayPll(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createAdjustDisplayPll(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiAdjustDisplayPllInterface_V1();
 };

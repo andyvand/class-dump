@@ -6,8 +6,10 @@ class AppleBSDKextStarter {
 public: // (access info unavailable from symbols alone)
     AppleBSDKextStarter();
     AppleBSDKextStarter(OSMetaClass const*);
-    __OSFinalClass();
-    getMetaClass() const;
-    start(IOService*);
+    auto __OSFinalClass();
+    auto getMetaClass() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleBSDKextStarter();
 };

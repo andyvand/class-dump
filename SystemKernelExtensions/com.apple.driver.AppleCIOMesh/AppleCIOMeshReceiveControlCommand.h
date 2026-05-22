@@ -6,12 +6,14 @@ class AppleCIOMeshReceiveControlCommand {
 public: // (access info unavailable from symbols alone)
     AppleCIOMeshReceiveControlCommand();
     AppleCIOMeshReceiveControlCommand(OSMetaClass const*);
-    allocate(AppleCIOMeshControlPath*);
-    free();
-    getCommand();
-    getControlMessage();
-    getControlPath();
-    getMetaClass() const;
-    init(AppleCIOMeshControlPath*, IOBufferMemoryDescriptor*);
+    auto allocate(AppleCIOMeshControlPath*);
+    auto free();
+    auto getCommand();
+    auto getControlMessage();
+    auto getControlPath();
+    auto getMetaClass() const;
+    auto init(AppleCIOMeshControlPath*, IOBufferMemoryDescriptor*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleCIOMeshReceiveControlCommand();
 };

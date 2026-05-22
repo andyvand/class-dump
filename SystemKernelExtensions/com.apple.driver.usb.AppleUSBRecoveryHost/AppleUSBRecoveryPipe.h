@@ -6,11 +6,13 @@ class AppleUSBRecoveryPipe {
 public: // (access info unavailable from symbols alone)
     AppleUSBRecoveryPipe();
     AppleUSBRecoveryPipe(OSMetaClass const*);
-    free();
-    getController() const;
-    getMetaClass() const;
-    getRecoveryQueue() const;
-    setRecoveryQueue(AppleUSBRecoveryQueue*);
-    withDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*);
+    auto free();
+    auto getController() const;
+    auto getMetaClass() const;
+    auto getRecoveryQueue() const;
+    auto setRecoveryQueue(AppleUSBRecoveryQueue*);
+    auto withDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBRecoveryPipe();
 };

@@ -4,8 +4,8 @@
 
 class IOSurfaceSharedEvent {
 public: // (access info unavailable from symbols alone)
-    getCompletedValue() const;
-    getTraceID() const;
-    signalCompleted(unsigned long long);
-    waitCompleted(unsigned long long, unsigned long long);
+    auto getCompletedValue() const;
+    auto getTraceID() const;
+    auto signalCompleted(unsigned long long);
+    auto waitCompleted(unsigned long long, unsigned long long);
 };

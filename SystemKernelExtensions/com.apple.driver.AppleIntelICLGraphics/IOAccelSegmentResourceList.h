@@ -5,12 +5,12 @@
 class IOAccelSegmentResourceList {
 public: // (access info unavailable from symbols alone)
     IOAccelSegmentResourceList(OSMetaClass const*);
-    _RESERVEDIOAccelSegmentResourceList0();
-    _RESERVEDIOAccelSegmentResourceList1();
-    _RESERVEDIOAccelSegmentResourceList2();
-    _RESERVEDIOAccelSegmentResourceList3();
-    _RESERVEDIOAccelSegmentResourceList4();
-    _RESERVEDIOAccelSegmentResourceList5();
-    initWithSharedResourceList(IOAccelShared2*, IOAccelSegmentResourceListHeader const*);
+    auto _RESERVEDIOAccelSegmentResourceList0();
+    auto _RESERVEDIOAccelSegmentResourceList1();
+    auto _RESERVEDIOAccelSegmentResourceList2();
+    auto _RESERVEDIOAccelSegmentResourceList3();
+    auto _RESERVEDIOAccelSegmentResourceList4();
+    auto _RESERVEDIOAccelSegmentResourceList5();
+    auto initWithSharedResourceList(IOAccelShared2*, IOAccelSegmentResourceListHeader const*);
     ~IOAccelSegmentResourceList();
 };

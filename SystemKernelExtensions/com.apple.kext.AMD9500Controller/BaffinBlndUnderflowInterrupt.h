@@ -6,10 +6,12 @@ class BaffinBlndUnderflowInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinBlndUnderflowInterrupt();
     BaffinBlndUnderflowInterrupt(OSMetaClass const*);
-    delayedInterruptHandler(OSObject*, IOTimerEventSource*);
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
-    initR6xx(unsigned char, bool, ATIController*)::table_size;
+    auto delayedInterruptHandler(OSObject*, IOTimerEventSource*);
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initR6xx(unsigned char, bool, ATIController*)::table_size;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinBlndUnderflowInterrupt();
 };

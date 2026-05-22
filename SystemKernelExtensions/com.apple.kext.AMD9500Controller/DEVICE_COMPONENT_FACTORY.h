@@ -4,18 +4,18 @@
 
 class DEVICE_COMPONENT_FACTORY {
 public: // (access info unavailable from symbols alone)
-    createAsicInfo(ATIController*);
-    createBandwidthManager(unsigned int, ATIController*);
-    createDisplayEngineClock(unsigned int, ATIController*);
-    createDmcu(unsigned int, ATIController*);
-    createFbCompressionManager(unsigned int, ATIController*);
-    createGammaGenerator(unsigned int, ATIController*, unsigned char);
-    createHardwareCursor(unsigned int, ATIController*, unsigned char);
-    createInterruptManager(unsigned int, ATIController*);
-    createLineBuffer(unsigned int, ATIController*, unsigned char);
-    createPipeControl(unsigned int, ATIController*, unsigned char);
-    createPowerPlayManager(unsigned int, ATIController*);
-    createScalerCoefficient(ATIController*);
-    createScalerGenerator(unsigned int, ATIController*, unsigned char);
-    createTimingGenerator(unsigned int, ATIController*, unsigned char);
+    auto createAsicInfo(ATIController*);
+    auto createBandwidthManager(unsigned int, ATIController*);
+    auto createDisplayEngineClock(unsigned int, ATIController*);
+    auto createDmcu(unsigned int, ATIController*);
+    auto createFbCompressionManager(unsigned int, ATIController*);
+    auto createGammaGenerator(unsigned int, ATIController*, unsigned char);
+    auto createHardwareCursor(unsigned int, ATIController*, unsigned char);
+    auto createInterruptManager(unsigned int, ATIController*);
+    auto createLineBuffer(unsigned int, ATIController*, unsigned char);
+    auto createPipeControl(unsigned int, ATIController*, unsigned char);
+    auto createPowerPlayManager(unsigned int, ATIController*);
+    auto createScalerCoefficient(ATIController*);
+    auto createScalerGenerator(unsigned int, ATIController*, unsigned char);
+    auto createTimingGenerator(unsigned int, ATIController*, unsigned char);
 };

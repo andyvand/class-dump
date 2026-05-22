@@ -6,9 +6,11 @@ class IOHIDTranslationServiceClient {
 public: // (access info unavailable from symbols alone)
     IOHIDTranslationServiceClient();
     IOHIDTranslationServiceClient(OSMetaClass const*);
-    create(IOService*, void (*)(void*, OSDictionary*));
-    getMetaClass() const;
-    getTarget();
-    handleEvent(OSDictionary*);
+    auto create(IOService*, void (*)(void*, OSDictionary*));
+    auto getMetaClass() const;
+    auto getTarget();
+    auto handleEvent(OSDictionary*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDTranslationServiceClient();
 };

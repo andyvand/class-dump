@@ -5,6 +5,6 @@
 class Dont_Steal_Mac_OS_X::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

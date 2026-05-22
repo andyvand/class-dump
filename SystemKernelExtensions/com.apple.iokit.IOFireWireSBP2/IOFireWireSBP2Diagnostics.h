@@ -6,10 +6,12 @@ class IOFireWireSBP2Diagnostics {
 public: // (access info unavailable from symbols alone)
     IOFireWireSBP2Diagnostics();
     IOFireWireSBP2Diagnostics(OSMetaClass const*);
-    createDiagnostics();
-    getMetaClass() const;
-    incrementExecutedORBCount();
-    serialize(OSSerialize*) const;
-    updateNumberEntry(OSDictionary*, unsigned int, char const*);
+    auto createDiagnostics();
+    auto getMetaClass() const;
+    auto incrementExecutedORBCount();
+    auto serialize(OSSerialize*) const;
+    auto updateNumberEntry(OSDictionary*, unsigned int, char const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireSBP2Diagnostics();
 };

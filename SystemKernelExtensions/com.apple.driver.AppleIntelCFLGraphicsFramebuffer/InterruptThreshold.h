@@ -4,17 +4,17 @@
 
 class InterruptThreshold {
 public: // (access info unavailable from symbols alone)
-    createTable(unsigned int, unsigned int, unsigned int, unsigned int);
-    createTable(unsigned int, unsigned int, unsigned int, unsigned int)::kalloc_type_view_78;
-    freeTable();
-    freeTable()::kalloc_type_view_130;
-    initThreshold(AppleIntelFramebufferController*, unsigned int, unsigned int, unsigned int, unsigned int);
-    initThreshold(AppleIntelFramebufferController*, unsigned int, unsigned int, unsigned int, unsigned int)::kalloc_type_view_159;
-    overrideAll(InterruptThreshold::_InterruptValues_ const&);
-    overrideElement(InterruptThreshold::_InterruptValues_ const&, unsigned int);
-    processAttribute(unsigned long);
-    reinit(unsigned int, unsigned int, unsigned int, unsigned int);
-    updateHW(unsigned int);
-    updateIntLim(unsigned int, unsigned int);
-    updateTableEntry(InterruptThreshold::_InterruptValues_&);
+    auto createTable(unsigned int, unsigned int, unsigned int, unsigned int);
+    auto createTable(unsigned int, unsigned int, unsigned int, unsigned int)::kalloc_type_view_78;
+    auto freeTable();
+    auto freeTable()::kalloc_type_view_130;
+    auto initThreshold(AppleIntelFramebufferController*, unsigned int, unsigned int, unsigned int, unsigned int);
+    auto initThreshold(AppleIntelFramebufferController*, unsigned int, unsigned int, unsigned int, unsigned int)::kalloc_type_view_159;
+    auto overrideAll(InterruptThreshold::_InterruptValues_ const&);
+    auto overrideElement(InterruptThreshold::_InterruptValues_ const&, unsigned int);
+    auto processAttribute(unsigned long);
+    auto reinit(unsigned int, unsigned int, unsigned int, unsigned int);
+    auto updateHW(unsigned int);
+    auto updateIntLim(unsigned int, unsigned int);
+    auto updateTableEntry(InterruptThreshold::_InterruptValues_&);
 };

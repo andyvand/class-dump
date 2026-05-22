@@ -5,5 +5,5 @@
 class AMDRadeonX4000_AMDSMLVIInterface::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

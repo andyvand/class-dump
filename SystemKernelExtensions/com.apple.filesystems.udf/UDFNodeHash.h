@@ -4,11 +4,11 @@
 
 class UDFNodeHash {
 public: // (access info unavailable from symbols alone)
-    GetAndInsert(int, unsigned int, UDFNodeIdType, UDFNode*, bool*, bool, bool*);
-    GetAndInsert(int, unsigned int, UDFNodeIdType, UDFNode*, bool*, bool, bool*) (.cold.1);
-    Remove(UDFNode*);
-    Remove(UDFNode*) (.cold.1);
-    Remove(UDFNode*) (.cold.2);
     UDFNodeHash();
+    auto GetAndInsert(int, unsigned int, UDFNodeIdType, UDFNode*, bool*, bool, bool*);
+    auto GetAndInsert(int, unsigned int, UDFNodeIdType, UDFNode*, bool*, bool, bool*) (.cold.1);
+    auto Remove(UDFNode*);
+    auto Remove(UDFNode*) (.cold.1);
+    auto Remove(UDFNode*) (.cold.2);
     ~UDFNodeHash();
 };

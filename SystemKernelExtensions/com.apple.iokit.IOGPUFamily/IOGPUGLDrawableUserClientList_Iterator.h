@@ -5,6 +5,6 @@
 class IOGPUGLDrawableUserClientList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOGPUGLDrawableUserClientList&);
-    getNextGLDrawableUserClient();
+    auto getNextGLDrawableUserClient();
     ~Iterator();
 };

@@ -6,9 +6,11 @@ class IGFence {
 public: // (access info unavailable from symbols alone)
     IGFence();
     IGFence(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithOptions(IGFenceAllocator*, unsigned long, IGAddressRange const&, unsigned long, GFX3DSTATE_TILEMODE);
-    withOptions(IGFenceAllocator*, unsigned long, IGAddressRange const&, unsigned long, GFX3DSTATE_TILEMODE);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithOptions(IGFenceAllocator*, unsigned long, IGAddressRange const&, unsigned long, GFX3DSTATE_TILEMODE);
+    auto withOptions(IGFenceAllocator*, unsigned long, IGAddressRange const&, unsigned long, GFX3DSTATE_TILEMODE);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGFence();
 };

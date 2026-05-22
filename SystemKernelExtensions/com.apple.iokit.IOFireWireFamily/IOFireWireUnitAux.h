@@ -6,15 +6,17 @@ class IOFireWireUnitAux {
 public: // (access info unavailable from symbols alone)
     IOFireWireUnitAux();
     IOFireWireUnitAux(OSMetaClass const*);
-    _RESERVEDIOFireWireUnitAux0();
-    _RESERVEDIOFireWireUnitAux1();
-    _RESERVEDIOFireWireUnitAux2();
-    _RESERVEDIOFireWireUnitAux3();
-    createSimpleContiguousPhysicalAddressSpace(unsigned long, unsigned int);
-    createSimplePhysicalAddressSpace(unsigned long, unsigned int);
-    free();
-    getMetaClass() const;
-    init(IOFireWireUnit*);
-    isPhysicalAccessEnabled();
+    auto _RESERVEDIOFireWireUnitAux0();
+    auto _RESERVEDIOFireWireUnitAux1();
+    auto _RESERVEDIOFireWireUnitAux2();
+    auto _RESERVEDIOFireWireUnitAux3();
+    auto createSimpleContiguousPhysicalAddressSpace(unsigned long, unsigned int);
+    auto createSimplePhysicalAddressSpace(unsigned long, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOFireWireUnit*);
+    auto isPhysicalAccessEnabled();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireUnitAux();
 };

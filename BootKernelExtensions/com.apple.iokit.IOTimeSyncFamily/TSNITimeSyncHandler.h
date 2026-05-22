@@ -6,13 +6,15 @@ class TSNITimeSyncHandler {
 public: // (access info unavailable from symbols alone)
     TSNITimeSyncHandler();
     TSNITimeSyncHandler(OSMetaClass const*);
-    call(TSNPacket*);
-    callbackID();
-    getMetaClass() const;
-    init(void (*)(void*, TSNPacket*), void*, unsigned int);
-    init(void (*)(void*, TSNPacket*), void*, unsigned int) (.cold.1);
-    init(void (*)(void*, TSNPacket*), void*, unsigned int)::_os_log_fmt;
-    isCallbackAndContext(void (*)(void*, TSNPacket*), void*);
-    setCallbackID(unsigned int);
+    auto call(TSNPacket*);
+    auto callbackID();
+    auto getMetaClass() const;
+    auto init(void (*)(void*, TSNPacket*), void*, unsigned int);
+    auto init(void (*)(void*, TSNPacket*), void*, unsigned int) (.cold.1);
+    auto init(void (*)(void*, TSNPacket*), void*, unsigned int)::_os_log_fmt;
+    auto isCallbackAndContext(void (*)(void*, TSNPacket*), void*);
+    auto setCallbackID(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~TSNITimeSyncHandler();
 };

@@ -4,7 +4,7 @@
 
 class IOSkywalkLegacyEthernetGlobals {
 public: // (access info unavailable from symbols alone)
-    isRedirectKey(OSSymbol const*) const;
-    isValid() const;
+    auto isRedirectKey(OSSymbol const*) const;
+    auto isValid() const;
     ~IOSkywalkLegacyEthernetGlobals();
 };

@@ -6,8 +6,10 @@ class BaffinUvdTrapInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinUvdTrapInterrupt();
     BaffinUvdTrapInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinUvdTrapInterrupt();
 };

@@ -4,5 +4,5 @@
 
 class CCLogStream {
 public: // (access info unavailable from symbols alone)
-    logv(CCStreamLogLevel, unsigned long long, char const*, __va_list_tag*);
+    auto logv(CCStreamLogLevel, unsigned long long, char const*, __va_list_tag*);
 };

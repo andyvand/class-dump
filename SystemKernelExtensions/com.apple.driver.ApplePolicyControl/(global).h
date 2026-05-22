@@ -17,7 +17,7 @@ OSDictionary::metaClass;
 OSNumber::metaClass;
 OSObject::gMetaClass;
 OSString::metaClass;
-OSUnserializeXML(char const*, OSString**);
+auto OSUnserializeXML(char const*, OSString**);
 vtable for AppleGraphicsControl;
 vtable for IOEventSource;
 vtable for IOService;

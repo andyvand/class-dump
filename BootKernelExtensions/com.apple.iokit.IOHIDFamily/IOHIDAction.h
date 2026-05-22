@@ -6,9 +6,11 @@ class IOHIDAction {
 public: // (access info unavailable from symbols alone)
     IOHIDAction();
     IOHIDAction(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    hidAction(void () block_pointer);
-    runAction();
+    auto free();
+    auto getMetaClass() const;
+    auto hidAction(void () block_pointer);
+    auto runAction();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDAction();
 };

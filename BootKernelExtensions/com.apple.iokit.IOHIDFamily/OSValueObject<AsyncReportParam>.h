@@ -4,17 +4,17 @@
 
 class OSValueObject<AsyncReportParam> {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_493;
-    getMetaClass() const;
-    getRef() const::__desc;
-    init();
-    init()::kalloc_type_view_478;
-    isEqualTo(AsyncReportParam const&) const;
-    isEqualTo(OSMetaClassBase const*) const;
-    isEqualTo(OSValueObject<AsyncReportParam> const*) const;
-    isEqualTo(OSValueObject<AsyncReportParam> const*) const (.cold.1);
-    serialize(OSSerialize*) const;
-    withValue(AsyncReportParam const&);
+    auto free();
+    auto free()::kalloc_type_view_493;
+    auto getMetaClass() const;
+    auto getRef() const::__desc;
+    auto init();
+    auto init()::kalloc_type_view_478;
+    auto isEqualTo(AsyncReportParam const&) const;
+    auto isEqualTo(OSMetaClassBase const*) const;
+    auto isEqualTo(OSValueObject<AsyncReportParam> const*) const;
+    auto isEqualTo(OSValueObject<AsyncReportParam> const*) const (.cold.1);
+    auto serialize(OSSerialize*) const;
+    auto withValue(AsyncReportParam const&);
     ~OSValueObject();
 };

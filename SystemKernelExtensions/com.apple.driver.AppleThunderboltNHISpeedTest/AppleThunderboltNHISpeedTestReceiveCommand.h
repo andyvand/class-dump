@@ -6,12 +6,14 @@ class AppleThunderboltNHISpeedTestReceiveCommand {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltNHISpeedTestReceiveCommand();
     AppleThunderboltNHISpeedTestReceiveCommand(OSMetaClass const*);
-    ExtractFromPacket(unsigned char**);
-    free();
-    getMetaClass() const;
-    initWithController(IOThunderboltController*);
-    initWithParams(IOThunderboltController*, unsigned long long, unsigned long long, task*);
-    withController(IOThunderboltController*);
-    withParams(IOThunderboltController*, unsigned long long, unsigned long long, task*);
+    auto ExtractFromPacket(unsigned char**);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithController(IOThunderboltController*);
+    auto initWithParams(IOThunderboltController*, unsigned long long, unsigned long long, task*);
+    auto withController(IOThunderboltController*);
+    auto withParams(IOThunderboltController*, unsigned long long, unsigned long long, task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltNHISpeedTestReceiveCommand();
 };

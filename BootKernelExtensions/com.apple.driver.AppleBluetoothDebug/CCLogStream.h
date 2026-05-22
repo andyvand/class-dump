@@ -4,6 +4,6 @@
 
 class CCLogStream {
 public: // (access info unavailable from symbols alone)
-    log(CCStreamLogLevel, char const*, ...);
-    logHeaderAndBuf(unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
+    auto log(CCStreamLogLevel, char const*, ...);
+    auto logHeaderAndBuf(unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
 };

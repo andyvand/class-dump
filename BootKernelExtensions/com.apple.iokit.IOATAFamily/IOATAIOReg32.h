@@ -6,10 +6,13 @@ class IOATAIOReg32 {
 public: // (access info unavailable from symbols alone)
     IOATAIOReg32();
     IOATAIOReg32(OSMetaClass const*);
-    getAddress() const;
-    getMetaClass() const;
-    initWithAddress(unsigned short);
-    operator=(unsigned int);
-    withAddress(unsigned short);
+    auto getAddress() const;
+    auto getMetaClass() const;
+    auto initWithAddress(unsigned short);
+    auto operator=(unsigned int);
+    auto withAddress(unsigned short);
+    operator unsigned int() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOATAIOReg32();
 };

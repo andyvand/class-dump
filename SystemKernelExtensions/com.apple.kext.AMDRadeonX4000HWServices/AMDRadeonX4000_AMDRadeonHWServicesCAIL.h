@@ -5,11 +5,13 @@
 class AMDRadeonX4000_AMDRadeonHWServicesCAIL {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDRadeonHWServicesCAIL(OSMetaClass const*);
-    createCailInterface(IOPCIDevice*);
-    free();
-    getCail();
-    getMetaClass() const;
-    start(IOService*);
-    stop(IOService*);
+    auto createCailInterface(IOPCIDevice*);
+    auto free();
+    auto getCail();
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDRadeonHWServicesCAIL();
 };

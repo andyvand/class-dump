@@ -6,13 +6,15 @@ class IOHIDDeviceElementContainer {
 public: // (access info unavailable from symbols alone)
     IOHIDDeviceElementContainer();
     IOHIDDeviceElementContainer(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_56;
-    getMetaClass() const;
-    init(void*, unsigned long long, IOHIDDevice*);
-    init(void*, unsigned long long, IOHIDDevice*)::kalloc_type_view_25;
-    postElementValues(unsigned int*, unsigned int);
-    updateElementValues(unsigned int*, unsigned int);
-    withDescriptor(void*, unsigned long long, IOHIDDevice*);
+    auto free();
+    auto free()::kalloc_type_view_56;
+    auto getMetaClass() const;
+    auto init(void*, unsigned long long, IOHIDDevice*);
+    auto init(void*, unsigned long long, IOHIDDevice*)::kalloc_type_view_25;
+    auto postElementValues(unsigned int*, unsigned int);
+    auto updateElementValues(unsigned int*, unsigned int);
+    auto withDescriptor(void*, unsigned long long, IOHIDDevice*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDDeviceElementContainer();
 };

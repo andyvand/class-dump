@@ -4,16 +4,18 @@
 
 class IOATABusCommand64 {
 public: // (access info unavailable from symbols alone)
-    GetDMACommand();
     IOATABusCommand64();
     IOATABusCommand64(OSMetaClass const*);
-    allocateCmd32();
-    executeCallback();
-    free();
-    getMetaClass() const;
-    init();
-    setBuffer(IOMemoryDescriptor*);
-    setCommandInUse(bool);
-    zeroCommand();
+    auto GetDMACommand();
+    auto allocateCmd32();
+    auto executeCallback();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto setBuffer(IOMemoryDescriptor*);
+    auto setCommandInUse(bool);
+    auto zeroCommand();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOATABusCommand64();
 };

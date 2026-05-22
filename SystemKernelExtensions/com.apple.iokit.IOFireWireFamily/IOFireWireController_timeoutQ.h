@@ -4,7 +4,7 @@
 
 class IOFireWireController::timeoutQ {
 public: // (access info unavailable from symbols alone)
-    busReset();
-    headChanged(IOFWCommand*);
+    auto busReset();
+    auto headChanged(IOFWCommand*);
     ~timeoutQ();
 };

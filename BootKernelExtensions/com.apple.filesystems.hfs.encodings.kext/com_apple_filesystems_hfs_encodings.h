@@ -4,10 +4,12 @@
 
 class com_apple_filesystems_hfs_encodings {
 public: // (access info unavailable from symbols alone)
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto stop(IOService*);
     com_apple_filesystems_hfs_encodings();
     com_apple_filesystems_hfs_encodings(OSMetaClass const*);
-    getMetaClass() const;
-    start(IOService*);
-    stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_filesystems_hfs_encodings();
 };

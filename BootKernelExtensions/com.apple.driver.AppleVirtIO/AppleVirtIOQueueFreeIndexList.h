@@ -4,7 +4,9 @@
 
 class AppleVirtIOQueueFreeIndexList {
 public: // (access info unavailable from symbols alone)
-    addFreeIndex(unsigned short);
-    getFreeIndex();
+    auto addFreeIndex(unsigned short);
+    auto getFreeIndex();
+    void * operator new(unsigned long)::kalloc_type_view_38;
+    void operator delete(void*, unsigned long)::kalloc_type_view_38;
     ~AppleVirtIOQueueFreeIndexList();
 };

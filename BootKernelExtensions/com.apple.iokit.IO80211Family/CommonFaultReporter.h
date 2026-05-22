@@ -5,7 +5,9 @@
 class CommonFaultReporter {
 public: // (access info unavailable from symbols alone)
     CommonFaultReporter(OSMetaClass const*);
-    getMetaClass() const;
-    reportFault(unsigned int, char const*, unsigned int, char const*, OSDictionary*, int, char const*, ...);
+    auto getMetaClass() const;
+    auto reportFault(unsigned int, char const*, unsigned int, char const*, OSDictionary*, int, char const*, ...);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~CommonFaultReporter();
 };

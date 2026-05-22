@@ -4,5 +4,5 @@
 
 class AtiPllAssignerFactory {
 public: // (access info unavailable from symbols alone)
-    createPllAssigner(ATIController*, ATIConnector**, unsigned char, unsigned char);
+    auto createPllAssigner(ATIController*, ATIConnector**, unsigned char, unsigned char);
 };

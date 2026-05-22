@@ -4,5 +4,5 @@
 
 class AppleUSBVHCIRSMEventQueue {
 public: // (access info unavailable from symbols alone)
-    withParameters(unsigned char);
+    auto withParameters(unsigned char);
 };

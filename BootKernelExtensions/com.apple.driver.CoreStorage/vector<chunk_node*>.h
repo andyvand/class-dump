@@ -4,5 +4,5 @@
 
 class vector<chunk_node*> {
 public: // (access info unavailable from symbols alone)
-    resize(unsigned long, chunk_node* const&);
+    auto resize(unsigned long, chunk_node* const&);
 };

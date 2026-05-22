@@ -6,6 +6,8 @@ class IOUSBInterfaceUserClientV3 {
 public: // (access info unavailable from symbols alone)
     IOUSBInterfaceUserClientV3();
     IOUSBInterfaceUserClientV3(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUSBInterfaceUserClientV3();
 };

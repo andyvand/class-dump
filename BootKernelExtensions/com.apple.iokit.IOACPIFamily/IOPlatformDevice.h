@@ -5,10 +5,10 @@
 class IOPlatformDevice {
 public: // (access info unavailable from symbols alone)
     IOPlatformDevice(OSMetaClass const*);
-    _RESERVEDIOPlatformDevice0();
-    _RESERVEDIOPlatformDevice1();
-    _RESERVEDIOPlatformDevice2();
-    _RESERVEDIOPlatformDevice3();
-    matchLocation(IOService*);
+    auto _RESERVEDIOPlatformDevice0();
+    auto _RESERVEDIOPlatformDevice1();
+    auto _RESERVEDIOPlatformDevice2();
+    auto _RESERVEDIOPlatformDevice3();
+    auto matchLocation(IOService*);
     ~IOPlatformDevice();
 };

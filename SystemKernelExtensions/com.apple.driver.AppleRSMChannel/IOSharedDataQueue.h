@@ -4,5 +4,5 @@
 
 class IOSharedDataQueue {
 public: // (access info unavailable from symbols alone)
-    withEntries(unsigned int, unsigned int);
+    auto withEntries(unsigned int, unsigned int);
 };

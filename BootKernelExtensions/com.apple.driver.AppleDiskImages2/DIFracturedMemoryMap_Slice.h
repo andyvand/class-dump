@@ -4,6 +4,6 @@
 
 class DIFracturedMemoryMap::Slice {
 public: // (access info unavailable from symbols alone)
-    begin() const;
-    end() const;
+    auto begin() const;
+    auto end() const;
 };

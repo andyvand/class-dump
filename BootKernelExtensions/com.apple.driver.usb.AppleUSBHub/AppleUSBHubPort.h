@@ -5,16 +5,18 @@
 class AppleUSBHubPort {
 public: // (access info unavailable from symbols alone)
     AppleUSBHubPort(OSMetaClass const*);
-    cableChangeOccurred(IOTimerEventSource*);
-    cableChangeOccurred(IOTimerEventSource*)::_os_log_fmt;
-    free();
-    getMetaClass() const;
-    powerOff();
-    powerOff()::_os_log_fmt;
-    powerOn();
-    powerOn()::_os_log_fmt;
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    terminate(unsigned int);
+    auto cableChangeOccurred(IOTimerEventSource*);
+    auto cableChangeOccurred(IOTimerEventSource*)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto powerOff();
+    auto powerOff()::_os_log_fmt;
+    auto powerOn();
+    auto powerOn()::_os_log_fmt;
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto terminate(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHubPort();
 };

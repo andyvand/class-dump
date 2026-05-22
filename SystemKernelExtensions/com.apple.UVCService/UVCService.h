@@ -4,15 +4,17 @@
 
 class UVCService {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     UVCService();
     UVCService(OSMetaClass const*);
-    _Dispatch(UVCService*, IORPC);
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    probe(IOService*, int*);
-    start(IOService*);
-    stop(IOService*);
+    auto Dispatch(IORPC);
+    auto _Dispatch(UVCService*, IORPC);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~UVCService();
 };

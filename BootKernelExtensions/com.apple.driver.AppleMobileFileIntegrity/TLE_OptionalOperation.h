@@ -4,7 +4,9 @@
 
 class TLE::OptionalOperation {
 public: // (access info unavailable from symbols alone)
-    Execute(TLE::Encyclopedia&);
-    shouldIgnore();
+    auto Execute(TLE::Encyclopedia&);
+    auto shouldIgnore();
+    void * operator new(unsigned long)::kalloc_type_view_134;
+    void operator delete(void*, unsigned long)::kalloc_type_view_134;
     ~OptionalOperation();
 };

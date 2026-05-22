@@ -6,9 +6,11 @@ class EFIData {
 public: // (access info unavailable from symbols alone)
     EFIData();
     EFIData(OSMetaClass const*);
-    __OSFinalClass();
-    getMetaClass() const;
-    setLength(unsigned int);
-    withCapacity(unsigned int);
+    auto __OSFinalClass();
+    auto getMetaClass() const;
+    auto setLength(unsigned int);
+    auto withCapacity(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~EFIData();
 };

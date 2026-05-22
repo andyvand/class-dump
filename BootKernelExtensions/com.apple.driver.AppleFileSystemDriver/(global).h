@@ -6,8 +6,6 @@
 
 AppleFileSystemDriver::gMetaClass;
 AppleFileSystemDriver::metaClass;
-AppleFileSystemDriver::operator delete(void*, unsigned long);
-AppleFileSystemDriver::operator new(unsigned long);
 AppleFileSystemDriver::superClass;
 AppleFileSystemDriver_ktv;
 IOMedia::metaClass;
@@ -16,7 +14,7 @@ OSData::metaClass;
 OSDictionary::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
-createUUIDStringFromObject(char const*, OSObject*, unsigned char*);
+auto createUUIDStringFromObject(char const*, OSObject*, unsigned char*);
 kFSUUIDNamespaceSHA1;
 vtable for AppleFileSystemDriver;
 vtable for AppleFileSystemDriver::MetaClass;

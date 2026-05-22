@@ -4,5 +4,5 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    getConfigurationMaxPowerMilliAmps(unsigned int, StandardUSB::ConfigurationDescriptor const*);
+    auto getConfigurationMaxPowerMilliAmps(unsigned int, StandardUSB::ConfigurationDescriptor const*);
 };

@@ -4,5 +4,5 @@
 
 class IOSkywalkPacket {
 public: // (access info unavailable from symbols alone)
-    getPacketBufferPool() const;
+    auto getPacketBufferPool() const;
 };

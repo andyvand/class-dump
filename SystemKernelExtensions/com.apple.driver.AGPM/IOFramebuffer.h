@@ -4,7 +4,7 @@
 
 class IOFramebuffer {
 public: // (access info unavailable from symbols alone)
-    addFramebufferNotificationWithOptions(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*, unsigned int, int, unsigned int);
-    getAttributeForConnectionExt(int, unsigned int, unsigned long*);
-    getGraphicsSystemWorkLoop() const;
+    auto addFramebufferNotificationWithOptions(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*, unsigned int, int, unsigned int);
+    auto getAttributeForConnectionExt(int, unsigned int, unsigned long*);
+    auto getGraphicsSystemWorkLoop() const;
 };

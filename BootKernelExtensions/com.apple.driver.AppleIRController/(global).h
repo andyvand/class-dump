@@ -6,24 +6,20 @@
 
 AppleIRController::gMetaClass;
 AppleIRController::metaClass;
-AppleIRController::operator delete(void*, unsigned long);
-AppleIRController::operator new(unsigned long);
 AppleIRController::superClass;
 AppleIRController_ktv;
 AppleIRHIDEventDriver::gMetaClass;
 AppleIRHIDEventDriver::metaClass;
-AppleIRHIDEventDriver::operator delete(void*, unsigned long);
-AppleIRHIDEventDriver::operator new(unsigned long);
 AppleIRHIDEventDriver::superClass;
 AppleIRHIDEventDriver_ktv;
 IOHIDEventDriver::gMetaClass;
 IOUSBHostHIDDevice::gMetaClass;
 IOUSBHostInterface::metaClass;
-MillisecondsSince(unsigned long long);
 OSBoolean::metaClass;
 OSDictionary::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
+auto MillisecondsSince(unsigned long long);
 vtable for AppleIRController;
 vtable for AppleIRController::MetaClass;
 vtable for AppleIRHIDEventDriver;

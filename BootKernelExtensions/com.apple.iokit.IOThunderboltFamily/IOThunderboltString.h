@@ -6,9 +6,11 @@ class IOThunderboltString {
 public: // (access info unavailable from symbols alone)
     IOThunderboltString();
     IOThunderboltString(OSMetaClass const*);
-    getMetaClass() const;
-    withCString(char const*);
-    withCStringNoCopy(char const*);
-    withString(OSString const*);
+    auto getMetaClass() const;
+    auto withCString(char const*);
+    auto withCStringNoCopy(char const*);
+    auto withString(OSString const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOThunderboltString();
 };

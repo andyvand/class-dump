@@ -5,9 +5,9 @@
 class AppleBCMWLANUtil::AutoreleasedTimeTrace {
 public: // (access info unavailable from symbols alone)
     AutoreleasedTimeTrace(unsigned int, unsigned int, bool);
-    dumpToLog(unsigned int, unsigned int);
-    recordTraceFromMarkTimestamp(unsigned long long, unsigned long long, char const*, ...);
-    recordTraceWithTimestamp(unsigned long long, unsigned long long, unsigned long long, char const*, ...);
-    timeTraceCallback(AppleBCMWLANUtil::AppleBCMWLANTimeTraceRecordElement*, void const*, void const*, void const*);
-    timeTraceCallback(AppleBCMWLANUtil::AppleBCMWLANTimeTraceRecordElement*, void const*, void const*, void const*)::_os_log_fmt;
+    auto dumpToLog(unsigned int, unsigned int);
+    auto recordTraceFromMarkTimestamp(unsigned long long, unsigned long long, char const*, ...);
+    auto recordTraceWithTimestamp(unsigned long long, unsigned long long, unsigned long long, char const*, ...);
+    auto timeTraceCallback(AppleBCMWLANUtil::AppleBCMWLANTimeTraceRecordElement*, void const*, void const*, void const*);
+    auto timeTraceCallback(AppleBCMWLANUtil::AppleBCMWLANTimeTraceRecordElement*, void const*, void const*, void const*)::_os_log_fmt;
 };

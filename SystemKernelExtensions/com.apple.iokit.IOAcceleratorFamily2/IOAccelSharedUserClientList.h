@@ -4,10 +4,10 @@
 
 class IOAccelSharedUserClientList {
 public: // (access info unavailable from symbols alone)
-    addSharedUserClient(IOAccelSharedUserClient2*);
-    getCount() const;
-    getCountWithPID(int) const;
-    init();
-    removeSharedUserClient(IOAccelSharedUserClient2*);
-    removeSharedUserClient(IOAccelSharedUserClient2*)::_os_log_fmt;
+    auto addSharedUserClient(IOAccelSharedUserClient2*);
+    auto getCount() const;
+    auto getCountWithPID(int) const;
+    auto init();
+    auto removeSharedUserClient(IOAccelSharedUserClient2*);
+    auto removeSharedUserClient(IOAccelSharedUserClient2*)::_os_log_fmt;
 };

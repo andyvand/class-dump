@@ -4,5 +4,5 @@
 
 class IOThunderboltDictionary {
 public: // (access info unavailable from symbols alone)
-    withCapacity(unsigned int);
+    auto withCapacity(unsigned int);
 };

@@ -4,8 +4,8 @@
 
 class CCDataStream {
 public: // (access info unavailable from symbols alone)
-    closeSession(CCDataSession*);
-    hasProfileLoaded();
-    openSession(char const*);
-    saveData(char const*, OSData*, void (*)(OSObject*, int, void*), OSObject*, CCDataSession*);
+    auto closeSession(CCDataSession*);
+    auto hasProfileLoaded();
+    auto openSession(char const*);
+    auto saveData(char const*, OSData*, void (*)(OSObject*, int, void*), OSObject*, CCDataSession*);
 };

@@ -6,7 +6,9 @@ class IOTimeSyncDaemonServiceProcess {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncDaemonServiceProcess();
     IOTimeSyncDaemonServiceProcess(OSMetaClass const*);
-    free();
-    getMetaClass() const;
+    auto free();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncDaemonServiceProcess();
 };

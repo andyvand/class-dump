@@ -6,10 +6,10 @@ class PromiseSTEX_IQHE {
 public: // (access info unavailable from symbols alone)
     PromiseSTEX_IQHE();
     PromiseSTEX_IQHE(OSMetaClass const*);
-    addItemToQueue(_ys_task*);
-    checkForWork();
-    free();
-    getMetaClass() const;
-    init(PromiseSTEX*, void (*)(PromiseSTEX*, _ys_task));
+    auto addItemToQueue(_ys_task*);
+    auto checkForWork();
+    auto free();
+    auto getMetaClass() const;
+    auto init(PromiseSTEX*, void (*)(PromiseSTEX*, _ys_task));
     ~PromiseSTEX_IQHE();
 };

@@ -6,14 +6,16 @@ class KextAudit {
 public: // (access info unavailable from symbols alone)
     KextAudit();
     KextAudit(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    notifyBridgeWithReplySync(KextAuditLoadNotificationKext*, KextAuditBridgeResponse*);
-    probe(IOService*, int*);
-    start(IOService*);
-    stop(IOService*);
-    terminate(unsigned int);
-    testBridgeConnection(KextAuditBridgeResponse*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto notifyBridgeWithReplySync(KextAuditLoadNotificationKext*, KextAuditBridgeResponse*);
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto terminate(unsigned int);
+    auto testBridgeConnection(KextAuditBridgeResponse*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KextAudit();
 };

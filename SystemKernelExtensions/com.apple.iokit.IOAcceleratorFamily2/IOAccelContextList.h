@@ -4,10 +4,10 @@
 
 class IOAccelContextList {
 public: // (access info unavailable from symbols alone)
-    addContext(IOAccelContext2*);
-    getCount() const;
-    getCountWithPID(int) const;
-    init();
-    removeContext(IOAccelContext2*);
-    removeContext(IOAccelContext2*)::_os_log_fmt;
+    auto addContext(IOAccelContext2*);
+    auto getCount() const;
+    auto getCountWithPID(int) const;
+    auto init();
+    auto removeContext(IOAccelContext2*);
+    auto removeContext(IOAccelContext2*)::_os_log_fmt;
 };

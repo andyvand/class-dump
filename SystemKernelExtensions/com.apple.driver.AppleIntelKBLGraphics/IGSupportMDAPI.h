@@ -4,24 +4,24 @@
 
 class IGSupportMDAPI {
 public: // (access info unavailable from symbols alone)
-    calcOaBufferDataSize(unsigned int, unsigned int);
-    convertReportTypeToCounterSelect(MDAPIOABufferReportType, unsigned int*, unsigned int*);
-    decodeOaBufferSize(unsigned int);
-    decodeOaBufferTimerPeriod(unsigned int);
-    disableOABufferCollection(unsigned int*);
-    enableOaBufferCollection(unsigned int*);
-    encodeOaBufferSize(unsigned int);
-    encodeOaBufferTimerPeriod(unsigned int);
-    estimateTimeUntilHalfFullOaBufferUs(unsigned int);
-    finalizeOaBuffer(bool, unsigned int*);
-    getDeviceInfo(unsigned long long, long long&);
-    getOABufferPointers(unsigned int*, unsigned int*);
-    getOaBufferDataSize();
-    initializeOaBuffer(MDAPIOABufferReportType, unsigned int, unsigned int, unsigned int*, MDAPIOABufferOverrunMode, bool);
-    mapOABufferMemory(IntelDeviceMapStatsMemInOut*, task*);
-    mapOABufferMemoryDirect(unsigned long long*, task*);
-    readOABuffer(MDAPIReadOABufferOpIn*, MDAPIReadOABufferOpOut*);
-    setOABufferPointers(unsigned int, unsigned int, _OABufferPointerChangeFlags);
-    setOaBufferTimer(bool, unsigned int);
-    setOaBufferTimerState(bool, unsigned int, unsigned int);
+    auto calcOaBufferDataSize(unsigned int, unsigned int);
+    auto convertReportTypeToCounterSelect(MDAPIOABufferReportType, unsigned int*, unsigned int*);
+    auto decodeOaBufferSize(unsigned int);
+    auto decodeOaBufferTimerPeriod(unsigned int);
+    auto disableOABufferCollection(unsigned int*);
+    auto enableOaBufferCollection(unsigned int*);
+    auto encodeOaBufferSize(unsigned int);
+    auto encodeOaBufferTimerPeriod(unsigned int);
+    auto estimateTimeUntilHalfFullOaBufferUs(unsigned int);
+    auto finalizeOaBuffer(bool, unsigned int*);
+    auto getDeviceInfo(unsigned long long, long long&);
+    auto getOABufferPointers(unsigned int*, unsigned int*);
+    auto getOaBufferDataSize();
+    auto initializeOaBuffer(MDAPIOABufferReportType, unsigned int, unsigned int, unsigned int*, MDAPIOABufferOverrunMode, bool);
+    auto mapOABufferMemory(IntelDeviceMapStatsMemInOut*, task*);
+    auto mapOABufferMemoryDirect(unsigned long long*, task*);
+    auto readOABuffer(MDAPIReadOABufferOpIn*, MDAPIReadOABufferOpOut*);
+    auto setOABufferPointers(unsigned int, unsigned int, _OABufferPointerChangeFlags);
+    auto setOaBufferTimer(bool, unsigned int);
+    auto setOaBufferTimerState(bool, unsigned int, unsigned int);
 };

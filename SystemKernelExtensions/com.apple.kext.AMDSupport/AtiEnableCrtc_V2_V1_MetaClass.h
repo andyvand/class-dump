@@ -5,6 +5,6 @@
 class AtiEnableCrtc_V2_V1::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

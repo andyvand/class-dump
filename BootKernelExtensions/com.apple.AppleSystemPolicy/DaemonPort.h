@@ -4,5 +4,5 @@
 
 class DaemonPort {
 public: // (access info unavailable from symbols alone)
-    acquire();
+    auto acquire();
 };

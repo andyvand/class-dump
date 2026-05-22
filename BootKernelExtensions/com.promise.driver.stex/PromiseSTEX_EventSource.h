@@ -6,10 +6,10 @@ class PromiseSTEX_EventSource {
 public: // (access info unavailable from symbols alone)
     PromiseSTEX_EventSource();
     PromiseSTEX_EventSource(OSMetaClass const*);
-    addItemToQueue(_ys_task*);
-    checkForWork();
-    free();
-    getMetaClass() const;
-    init(PromiseSTEX*, void (*)(PromiseSTEX*, _ys_task));
+    auto addItemToQueue(_ys_task*);
+    auto checkForWork();
+    auto free();
+    auto getMetaClass() const;
+    auto init(PromiseSTEX*, void (*)(PromiseSTEX*, _ys_task));
     ~PromiseSTEX_EventSource();
 };

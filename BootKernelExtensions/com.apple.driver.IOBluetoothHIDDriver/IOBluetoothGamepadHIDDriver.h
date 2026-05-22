@@ -6,8 +6,10 @@ class IOBluetoothGamepadHIDDriver {
 public: // (access info unavailable from symbols alone)
     IOBluetoothGamepadHIDDriver();
     IOBluetoothGamepadHIDDriver(OSMetaClass const*);
-    deviceReady();
-    getMetaClass() const;
-    newManufacturerString() const;
+    auto deviceReady();
+    auto getMetaClass() const;
+    auto newManufacturerString() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOBluetoothGamepadHIDDriver();
 };

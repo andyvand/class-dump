@@ -4,7 +4,7 @@
 
 class OSSerialize {
 public: // (access info unavailable from symbols alone)
-    binaryWithCapacity(unsigned int, void*, void*);
-    setIndexed(bool);
-    withCapacity(unsigned int);
+    auto binaryWithCapacity(unsigned int, void*, void*);
+    auto setIndexed(bool);
+    auto withCapacity(unsigned int);
 };

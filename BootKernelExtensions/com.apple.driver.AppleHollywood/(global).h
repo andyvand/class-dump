@@ -9,8 +9,6 @@ OSBoolean::metaClass;
 OSNumber::metaClass;
 com_apple_driver_AppleHollywood::gMetaClass;
 com_apple_driver_AppleHollywood::metaClass;
-com_apple_driver_AppleHollywood::operator delete(void*, unsigned long);
-com_apple_driver_AppleHollywood::operator new(unsigned long);
 com_apple_driver_AppleHollywood::superClass;
 com_apple_driver_AppleHollywood_ktv;
 vtable for com_apple_driver_AppleHollywood;

@@ -6,9 +6,11 @@ class AMDRadeonX6000_AmdInterruptManagerNavi2 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdInterruptManagerNavi2();
     AMDRadeonX6000_AmdInterruptManagerNavi2(OSMetaClass const*);
-    createInterruptManager(AMDRadeonX6000_IAmdRadeonController*);
-    createInterrupts();
-    free();
-    getMetaClass() const;
+    auto createInterruptManager(AMDRadeonX6000_IAmdRadeonController*);
+    auto createInterrupts();
+    auto free();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdInterruptManagerNavi2();
 };

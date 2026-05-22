@@ -4,5 +4,5 @@
 
 class UDFExtentSet {
 public: // (access info unavailable from symbols alone)
-    AlreadyExist(unsigned int, unsigned int);
+    auto AlreadyExist(unsigned int, unsigned int);
 };

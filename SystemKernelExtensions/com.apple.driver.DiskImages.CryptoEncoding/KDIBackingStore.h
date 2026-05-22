@@ -4,13 +4,13 @@
 
 class KDIBackingStore {
 public: // (access info unavailable from symbols alone)
-    _handleStart(IOService*);
-    getMetaData(OSString*, OSObject**);
-    init(OSDictionary*);
-    readBytes(long long, unsigned long, unsigned long*, void*, bool);
-    reportEOF(long long*);
-    reportResizable(bool*);
-    reportWriteProtection(bool*);
-    setEOF(long long);
-    writeBytes(long long, unsigned long, unsigned long*, void const*, bool);
+    auto _handleStart(IOService*);
+    auto getMetaData(OSString*, OSObject**);
+    auto init(OSDictionary*);
+    auto readBytes(long long, unsigned long, unsigned long*, void*, bool);
+    auto reportEOF(long long*);
+    auto reportResizable(bool*);
+    auto reportWriteProtection(bool*);
+    auto setEOF(long long);
+    auto writeBytes(long long, unsigned long, unsigned long*, void const*, bool);
 };

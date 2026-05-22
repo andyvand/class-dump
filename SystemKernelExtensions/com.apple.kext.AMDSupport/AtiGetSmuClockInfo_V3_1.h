@@ -6,7 +6,9 @@ class AtiGetSmuClockInfo_V3_1 {
 public: // (access info unavailable from symbols alone)
     AtiGetSmuClockInfo_V3_1();
     AtiGetSmuClockInfo_V3_1(OSMetaClass const*);
-    getMetaClass() const;
-    getSmuClockInfo(unsigned char);
+    auto getMetaClass() const;
+    auto getSmuClockInfo(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiGetSmuClockInfo_V3_1();
 };

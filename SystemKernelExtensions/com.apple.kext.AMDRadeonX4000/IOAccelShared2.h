@@ -5,17 +5,17 @@
 class IOAccelShared2 {
 public: // (access info unavailable from symbols alone)
     IOAccelShared2(OSMetaClass const*);
-    _RESERVEDIOAccelShared0();
-    _RESERVEDIOAccelShared1();
-    _RESERVEDIOAccelShared2();
-    _RESERVEDIOAccelShared3();
-    _RESERVEDIOAccelShared4();
-    _RESERVEDIOAccelShared5();
-    describeDriverAllocations(IOAccelAllocationInfo*);
-    getLockedPeer(unsigned int);
-    lookupDeviceShmem(unsigned int) const;
-    lookupResource(unsigned int, void**);
-    orphanClientMappings(OSSet*);
-    scrubEvents();
+    auto _RESERVEDIOAccelShared0();
+    auto _RESERVEDIOAccelShared1();
+    auto _RESERVEDIOAccelShared2();
+    auto _RESERVEDIOAccelShared3();
+    auto _RESERVEDIOAccelShared4();
+    auto _RESERVEDIOAccelShared5();
+    auto describeDriverAllocations(IOAccelAllocationInfo*);
+    auto getLockedPeer(unsigned int);
+    auto lookupDeviceShmem(unsigned int) const;
+    auto lookupResource(unsigned int, void**);
+    auto orphanClientMappings(OSSet*);
+    auto scrubEvents();
     ~IOAccelShared2();
 };

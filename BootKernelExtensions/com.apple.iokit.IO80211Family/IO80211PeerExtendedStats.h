@@ -6,6 +6,8 @@ class IO80211PeerExtendedStats {
 public: // (access info unavailable from symbols alone)
     IO80211PeerExtendedStats();
     IO80211PeerExtendedStats(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211PeerExtendedStats();
 };

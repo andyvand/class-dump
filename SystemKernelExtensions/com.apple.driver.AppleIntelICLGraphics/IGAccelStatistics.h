@@ -6,12 +6,14 @@ class IGAccelStatistics {
 public: // (access info unavailable from symbols alone)
     IGAccelStatistics();
     IGAccelStatistics(OSMetaClass const*);
-    configureReport(IOReportChannelList*, unsigned int, void*, void*);
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*);
-    setupChannels();
-    setupIOReporters();
-    updateReport(IOReportChannelList*, unsigned int, void*, void*);
-    writePerformanceStats(OSDictionary*, bool);
+    auto configureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*);
+    auto setupChannels();
+    auto setupIOReporters();
+    auto updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto writePerformanceStats(OSDictionary*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGAccelStatistics();
 };

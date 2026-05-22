@@ -4,10 +4,10 @@
 
 class UDFResourceForkEANode {
 public: // (access info unavailable from symbols alone)
-    FlushFileEntry(UDFBlockWriteMode);
     UDFResourceForkEANode(UDFMount*, UDFLogicalAddr const&, unsigned int, UDFStreamDirNode*, char const*, unsigned short);
-    UpdateResourceForkSize();
-    VnopPageOut(upl*, unsigned long, long long, unsigned long, int);
-    VnopWrite(uio*, int, bool, bool);
+    auto FlushFileEntry(UDFBlockWriteMode);
+    auto UpdateResourceForkSize();
+    auto VnopPageOut(upl*, unsigned long, long long, unsigned long, int);
+    auto VnopWrite(uio*, int, bool, bool);
     ~UDFResourceForkEANode();
 };

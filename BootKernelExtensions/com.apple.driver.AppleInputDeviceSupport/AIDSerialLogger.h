@@ -6,9 +6,11 @@ class AIDSerialLogger {
 public: // (access info unavailable from symbols alone)
     AIDSerialLogger();
     AIDSerialLogger(OSMetaClass const*);
-    driverLogTransaction(unsigned char*, unsigned short, unsigned char*, unsigned short, unsigned char, char const*, char const*);
-    getMetaClass() const;
-    serialLogger();
-    vDriverLogString(char const*, __va_list_tag*, AIDLogger::LogLevel);
+    auto driverLogTransaction(unsigned char*, unsigned short, unsigned char*, unsigned short, unsigned char, char const*, char const*);
+    auto getMetaClass() const;
+    auto serialLogger();
+    auto vDriverLogString(char const*, __va_list_tag*, AIDLogger::LogLevel);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AIDSerialLogger();
 };

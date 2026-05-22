@@ -4,24 +4,24 @@
 
 class IOSCSIPeripheralDeviceType00 {
 public: // (access info unavailable from symbols alone)
-    GetProductString();
-    GetRevisionString();
-    GetVendorString();
     IOSCSIPeripheralDeviceType00(OSMetaClass const*);
-    _RESERVEDIOSCSIPeripheralDeviceType001();
-    _RESERVEDIOSCSIPeripheralDeviceType002();
-    _RESERVEDIOSCSIPeripheralDeviceType003();
-    _RESERVEDIOSCSIPeripheralDeviceType004();
-    _RESERVEDIOSCSIPeripheralDeviceType005();
-    _RESERVEDIOSCSIPeripheralDeviceType006();
-    _RESERVEDIOSCSIPeripheralDeviceType007();
-    _RESERVEDIOSCSIPeripheralDeviceType008();
-    free();
-    handleClose(IOService*, unsigned int);
-    handleIsOpen(IOService const*) const;
-    handleOpen(IOService*, unsigned int, void*);
-    init(OSDictionary*);
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    start(IOService*);
+    auto GetProductString();
+    auto GetRevisionString();
+    auto GetVendorString();
+    auto _RESERVEDIOSCSIPeripheralDeviceType001();
+    auto _RESERVEDIOSCSIPeripheralDeviceType002();
+    auto _RESERVEDIOSCSIPeripheralDeviceType003();
+    auto _RESERVEDIOSCSIPeripheralDeviceType004();
+    auto _RESERVEDIOSCSIPeripheralDeviceType005();
+    auto _RESERVEDIOSCSIPeripheralDeviceType006();
+    auto _RESERVEDIOSCSIPeripheralDeviceType007();
+    auto _RESERVEDIOSCSIPeripheralDeviceType008();
+    auto free();
+    auto handleClose(IOService*, unsigned int);
+    auto handleIsOpen(IOService const*) const;
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto init(OSDictionary*);
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto start(IOService*);
     ~IOSCSIPeripheralDeviceType00();
 };

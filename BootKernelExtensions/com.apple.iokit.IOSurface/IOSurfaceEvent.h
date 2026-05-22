@@ -4,5 +4,5 @@
 
 class IOSurfaceEvent {
 public: // (access info unavailable from symbols alone)
-    getTraceID() const;
+    auto getTraceID() const;
 };

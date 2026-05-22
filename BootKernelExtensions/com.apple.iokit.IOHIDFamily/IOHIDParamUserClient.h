@@ -6,15 +6,17 @@ class IOHIDParamUserClient {
 public: // (access info unavailable from symbols alone)
     IOHIDParamUserClient();
     IOHIDParamUserClient(OSMetaClass const*);
-    clientClose();
-    extGetUserHidActivityState(void*, void*, void*, void*, void*, void*);
-    extPostEvent(void*, void*, void*, void*, void*, void*);
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
-    getMetaClass() const;
-    getService();
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    getTargetAndMethodForIndex(IOService**, unsigned int)::methodTemplate;
-    setProperties(OSObject*);
-    start(IOService*);
+    auto clientClose();
+    auto extGetUserHidActivityState(void*, void*, void*, void*, void*, void*);
+    auto extPostEvent(void*, void*, void*, void*, void*, void*);
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
+    auto getMetaClass() const;
+    auto getService();
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto getTargetAndMethodForIndex(IOService**, unsigned int)::methodTemplate;
+    auto setProperties(OSObject*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDParamUserClient();
 };

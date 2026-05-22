@@ -6,9 +6,11 @@ class IOThunderboltWorkLoop {
 public: // (access info unavailable from symbols alone)
     IOThunderboltWorkLoop();
     IOThunderboltWorkLoop(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
-    workLoop();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto workLoop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOThunderboltWorkLoop();
 };

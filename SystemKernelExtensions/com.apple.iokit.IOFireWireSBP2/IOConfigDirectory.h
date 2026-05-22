@@ -4,5 +4,5 @@
 
 class IOConfigDirectory {
 public: // (access info unavailable from symbols alone)
-    getNumEntries() const;
+    auto getNumEntries() const;
 };

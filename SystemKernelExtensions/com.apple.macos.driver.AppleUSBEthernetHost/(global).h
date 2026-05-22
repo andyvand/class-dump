@@ -6,13 +6,9 @@
 
 AppleUSBEthernetHost::gMetaClass;
 AppleUSBEthernetHost::metaClass;
-AppleUSBEthernetHost::operator delete(void*, unsigned long);
-AppleUSBEthernetHost::operator new(unsigned long);
 AppleUSBEthernetHost::superClass;
 AppleUSBEthernetHostAQM::gMetaClass;
 AppleUSBEthernetHostAQM::metaClass;
-AppleUSBEthernetHostAQM::operator delete(void*, unsigned long);
-AppleUSBEthernetHostAQM::operator new(unsigned long);
 AppleUSBEthernetHostAQM::superClass;
 AppleUSBEthernetHostAQM_ktv;
 AppleUSBEthernetHost_ktv;
@@ -22,11 +18,9 @@ IOUSBHostInterface::metaClass;
 OSObject::gMetaClass;
 PacketMemoryDescriptorEx::gMetaClass;
 PacketMemoryDescriptorEx::metaClass;
-PacketMemoryDescriptorEx::operator delete(void*, unsigned long);
-PacketMemoryDescriptorEx::operator new(unsigned long);
 PacketMemoryDescriptorEx::superClass;
 PacketMemoryDescriptorEx_ktv;
-findMatchingEndpoint(unsigned char, unsigned char, StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
+auto findMatchingEndpoint(unsigned char, unsigned char, StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
 powerStates;
 vtable for AppleUSBEthernetHost;
 vtable for AppleUSBEthernetHost::MetaClass;

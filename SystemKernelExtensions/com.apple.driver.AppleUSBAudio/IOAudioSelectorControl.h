@@ -4,7 +4,7 @@
 
 class IOAudioSelectorControl {
 public: // (access info unavailable from symbols alone)
-    create(int, unsigned int, char const*, unsigned int, unsigned int, unsigned int);
-    createInputSelector(int, unsigned int, char const*, unsigned int);
-    createOutputSelector(int, unsigned int, char const*, unsigned int);
+    auto create(int, unsigned int, char const*, unsigned int, unsigned int, unsigned int);
+    auto createInputSelector(int, unsigned int, char const*, unsigned int);
+    auto createOutputSelector(int, unsigned int, char const*, unsigned int);
 };

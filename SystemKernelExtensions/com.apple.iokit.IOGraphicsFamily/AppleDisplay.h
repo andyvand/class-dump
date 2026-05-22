@@ -6,6 +6,8 @@ class AppleDisplay {
 public: // (access info unavailable from symbols alone)
     AppleDisplay();
     AppleDisplay(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleDisplay();
 };

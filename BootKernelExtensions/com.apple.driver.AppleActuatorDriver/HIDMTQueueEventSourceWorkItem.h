@@ -6,11 +6,13 @@ class HIDMTQueueEventSourceWorkItem {
 public: // (access info unavailable from symbols alone)
     HIDMTQueueEventSourceWorkItem();
     HIDMTQueueEventSourceWorkItem(OSMetaClass const*);
-    doWork(OSObject*, OSObject*);
-    free();
-    getMetaClass() const;
-    init(void (*)(OSObject*, void*, void*, void*, void*), OSObject*, void*, void*, void*, void*);
-    queueEventSourceWorkItem(void (*)(OSObject*, void*, void*, void*, void*), OSObject*, void*, void*, void*, void*);
-    runAction();
+    auto doWork(OSObject*, OSObject*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(void (*)(OSObject*, void*, void*, void*, void*), OSObject*, void*, void*, void*, void*);
+    auto queueEventSourceWorkItem(void (*)(OSObject*, void*, void*, void*, void*), OSObject*, void*, void*, void*, void*);
+    auto runAction();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~HIDMTQueueEventSourceWorkItem();
 };

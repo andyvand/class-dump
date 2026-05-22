@@ -4,17 +4,17 @@
 
 class AppleBCMWLANPCIeSkywalkRxCompletionQueue {
 public: // (access info unavailable from symbols alone)
-    collectQueueStats(char*, unsigned long, unsigned long, unsigned long);
-    enqueuePackets(OSObject*, IO80211NetworkPacket**, unsigned int, void*);
-    flushPackets();
-    free();
-    free()::kalloc_type_view_120;
-    freePendingPackets(IO80211NetworkPacket**, unsigned int);
-    getLogger() const;
-    getMetaClass() const;
-    initProviderAndPoolAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, OSObject*, AppleBCMWLANPCIeSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, CCLogStream*, CCFaultReporter*)::kalloc_type_view_82;
-    requestEnqueue(void*, unsigned int);
-    stagePacket(IO80211NetworkPacket*, bool, bool);
-    withProviderAndQueueInfoAndPool(AppleBCMWLANBusInterfacePCIe*, OSObject*, unsigned short, unsigned int, unsigned int, AppleBCMWLANPCIeSkywalkPacketPool*, CCLogStream*, CCFaultReporter*);
+    auto collectQueueStats(char*, unsigned long, unsigned long, unsigned long);
+    auto enqueuePackets(OSObject*, IO80211NetworkPacket**, unsigned int, void*);
+    auto flushPackets();
+    auto free();
+    auto free()::kalloc_type_view_120;
+    auto freePendingPackets(IO80211NetworkPacket**, unsigned int);
+    auto getLogger() const;
+    auto getMetaClass() const;
+    auto initProviderAndPoolAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, OSObject*, AppleBCMWLANPCIeSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, CCLogStream*, CCFaultReporter*)::kalloc_type_view_82;
+    auto requestEnqueue(void*, unsigned int);
+    auto stagePacket(IO80211NetworkPacket*, bool, bool);
+    auto withProviderAndQueueInfoAndPool(AppleBCMWLANBusInterfacePCIe*, OSObject*, unsigned short, unsigned int, unsigned int, AppleBCMWLANPCIeSkywalkPacketPool*, CCLogStream*, CCFaultReporter*);
     ~AppleBCMWLANPCIeSkywalkRxCompletionQueue();
 };

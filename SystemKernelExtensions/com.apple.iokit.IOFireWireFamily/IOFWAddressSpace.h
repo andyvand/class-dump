@@ -5,16 +5,18 @@
 class IOFWAddressSpace {
 public: // (access info unavailable from symbols alone)
     IOFWAddressSpace(OSMetaClass const*);
-    activate();
-    contains(FWAddressStruct);
-    createAuxiliary();
-    deactivate();
-    doLock(unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, unsigned int const*, unsigned int&, unsigned int*, unsigned int, void*);
-    free();
-    free()::kalloc_type_view_351;
-    getMetaClass() const;
-    init(IOFireWireBus*);
-    init(IOFireWireBus*)::kalloc_type_view_280;
-    init(IOFireWireBus*)::kalloc_type_view_306;
+    auto activate();
+    auto contains(FWAddressStruct);
+    auto createAuxiliary();
+    auto deactivate();
+    auto doLock(unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, unsigned int const*, unsigned int&, unsigned int*, unsigned int, void*);
+    auto free();
+    auto free()::kalloc_type_view_351;
+    auto getMetaClass() const;
+    auto init(IOFireWireBus*);
+    auto init(IOFireWireBus*)::kalloc_type_view_280;
+    auto init(IOFireWireBus*)::kalloc_type_view_306;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWAddressSpace();
 };

@@ -5,5 +5,5 @@
 class IOAccelMemoryMapList::ReverseIterator {
 public: // (access info unavailable from symbols alone)
     ReverseIterator(IOAccelMemoryMapList&);
-    getPrevMapping();
+    auto getPrevMapping();
 };

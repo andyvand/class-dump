@@ -4,20 +4,20 @@
 
 class CCLogStream {
 public: // (access info unavailable from symbols alone)
-    logAlert(char const*, ...);
-    logAlertIf(unsigned long long, char const*, ...);
-    logCrit(char const*, ...);
-    logCritIf(unsigned long long, char const*, ...);
-    logEmergency(char const*, ...);
-    logHeaderAndBuf(unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
-    logHeaderAndBufIf(unsigned long long, unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
-    logInfo(char const*, ...);
-    logInfoIf(unsigned long long, char const*, ...);
-    logNotice(char const*, ...);
-    logNoticeIf(unsigned long long, char const*, ...);
-    logWarn(char const*, ...);
-    shouldLog(CCStreamLogLevel);
-    shouldLog(CCStreamLogLevel, unsigned long long);
-    shouldLog(unsigned long long);
-    shouldLogConsole(CCStreamLogLevel);
+    auto logAlert(char const*, ...);
+    auto logAlertIf(unsigned long long, char const*, ...);
+    auto logCrit(char const*, ...);
+    auto logCritIf(unsigned long long, char const*, ...);
+    auto logEmergency(char const*, ...);
+    auto logHeaderAndBuf(unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
+    auto logHeaderAndBufIf(unsigned long long, unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
+    auto logInfo(char const*, ...);
+    auto logInfoIf(unsigned long long, char const*, ...);
+    auto logNotice(char const*, ...);
+    auto logNoticeIf(unsigned long long, char const*, ...);
+    auto logWarn(char const*, ...);
+    auto shouldLog(CCStreamLogLevel);
+    auto shouldLog(CCStreamLogLevel, unsigned long long);
+    auto shouldLog(unsigned long long);
+    auto shouldLogConsole(CCStreamLogLevel);
 };

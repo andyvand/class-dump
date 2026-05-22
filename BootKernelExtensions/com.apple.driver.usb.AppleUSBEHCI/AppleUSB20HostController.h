@@ -5,10 +5,10 @@
 class AppleUSB20HostController {
 public: // (access info unavailable from symbols alone)
     AppleUSB20HostController(OSMetaClass const*);
-    createDevice(tInternalUSBHostConnectionSpeed, unsigned int, unsigned int);
-    createSetAddressPipe(StandardUSB::EndpointDescriptor const*, unsigned char);
-    destroyDevice(IOUSBHostDevice*);
-    getAddressForDevice(IOUSBHostDevice*);
-    getAddressRequestCompleter() const;
+    auto createDevice(tInternalUSBHostConnectionSpeed, unsigned int, unsigned int);
+    auto createSetAddressPipe(StandardUSB::EndpointDescriptor const*, unsigned char);
+    auto destroyDevice(IOUSBHostDevice*);
+    auto getAddressForDevice(IOUSBHostDevice*);
+    auto getAddressRequestCompleter() const;
     ~AppleUSB20HostController();
 };

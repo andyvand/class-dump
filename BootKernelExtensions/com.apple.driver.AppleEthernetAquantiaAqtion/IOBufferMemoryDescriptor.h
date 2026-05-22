@@ -4,5 +4,5 @@
 
 class IOBufferMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    withOptions(unsigned int, unsigned long, unsigned long);
+    auto withOptions(unsigned int, unsigned long, unsigned long);
 };

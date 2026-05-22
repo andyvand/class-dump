@@ -6,13 +6,15 @@ class IOSyncer {
 public: // (access info unavailable from symbols alone)
     IOSyncer();
     IOSyncer(OSMetaClass const*);
-    create(bool);
-    free();
-    getMetaClass() const;
-    init(bool);
-    privateSignal();
-    reinit();
-    signal(int, bool);
-    wait(bool);
+    auto create(bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init(bool);
+    auto privateSignal();
+    auto reinit();
+    auto signal(int, bool);
+    auto wait(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSyncer();
 };

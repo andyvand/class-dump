@@ -4,11 +4,11 @@
 
 class AppleAudioClock::Utility {
 public: // (access info unavailable from symbols alone)
-    getClockDomainOverride(IOService const*);
-    getClockDomainOverride(IOService const*, char const*);
-    getClockDomainOverride(IOService const*, char const*)::_os_log_fmt;
-    getMachTimeAlignment();
-    getMachTimeMaxDrift();
-    getSynchronousClockDomain(unsigned long long, unsigned long long);
-    getUSBAudioAlignment();
+    auto getClockDomainOverride(IOService const*);
+    auto getClockDomainOverride(IOService const*, char const*);
+    auto getClockDomainOverride(IOService const*, char const*)::_os_log_fmt;
+    auto getMachTimeAlignment();
+    auto getMachTimeMaxDrift();
+    auto getSynchronousClockDomain(unsigned long long, unsigned long long);
+    auto getUSBAudioAlignment();
 };

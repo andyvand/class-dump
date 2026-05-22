@@ -5,6 +5,6 @@
 class IO80211P2PSteeringManager::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

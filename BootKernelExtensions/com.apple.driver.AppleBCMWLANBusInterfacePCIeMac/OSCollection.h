@@ -5,15 +5,15 @@
 class OSCollection {
 public: // (access info unavailable from symbols alone)
     OSCollection(OSMetaClass const*);
-    _RESERVEDOSCollection2();
-    _RESERVEDOSCollection3();
-    _RESERVEDOSCollection4();
-    _RESERVEDOSCollection5();
-    _RESERVEDOSCollection6();
-    _RESERVEDOSCollection7();
-    copyCollection(OSDictionary*);
-    haveUpdated();
-    init();
-    setOptions(unsigned int, unsigned int, void*);
+    auto _RESERVEDOSCollection2();
+    auto _RESERVEDOSCollection3();
+    auto _RESERVEDOSCollection4();
+    auto _RESERVEDOSCollection5();
+    auto _RESERVEDOSCollection6();
+    auto _RESERVEDOSCollection7();
+    auto copyCollection(OSDictionary*);
+    auto haveUpdated();
+    auto init();
+    auto setOptions(unsigned int, unsigned int, void*);
     ~OSCollection();
 };

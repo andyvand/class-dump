@@ -5,4 +5,5 @@
 class AtiHDCPStatusChangeInterrupt {
 public: // (access info unavailable from symbols alone)
     AtiHDCPStatusChangeInterrupt();
+    void * operator new(unsigned long);
 };

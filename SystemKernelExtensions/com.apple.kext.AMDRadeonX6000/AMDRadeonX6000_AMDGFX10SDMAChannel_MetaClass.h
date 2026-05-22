@@ -5,5 +5,5 @@
 class AMDRadeonX6000_AMDGFX10SDMAChannel::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

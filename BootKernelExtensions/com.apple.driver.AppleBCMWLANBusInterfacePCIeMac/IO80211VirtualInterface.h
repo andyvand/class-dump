@@ -4,7 +4,7 @@
 
 class IO80211VirtualInterface {
 public: // (access info unavailable from symbols alone)
-    handleMulticastTransmit(IO80211NetworkPacket*, unsigned char*, unsigned int, unsigned char);
-    modifyUnicastPacket(unsigned char*, unsigned int, unsigned char, unsigned int*, unsigned char*);
-    stashMulticastPacketPair(IO80211NetworkPacket*, IO80211NetworkPacket*);
+    auto handleMulticastTransmit(IO80211NetworkPacket*, unsigned char*, unsigned int, unsigned char);
+    auto modifyUnicastPacket(unsigned char*, unsigned int, unsigned char, unsigned int*, unsigned char*);
+    auto stashMulticastPacketPair(IO80211NetworkPacket*, IO80211NetworkPacket*);
 };

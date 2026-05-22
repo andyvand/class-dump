@@ -4,12 +4,12 @@
 
 class IOThunderboltTransmitCommand {
 public: // (access info unavailable from symbols alone)
-    getDescCache(unsigned long long);
-    getDescriptorEndIndex();
-    getEOF();
-    getSOF();
-    setDescCache(IOThunderboltTransmitCommand::TxBufferDescriptor*, unsigned long long);
-    setDescriptorEndIndex(unsigned int);
-    setDescriptorStartIndex(unsigned int);
-    setStatus(int);
+    auto getDescCache(unsigned long long);
+    auto getDescriptorEndIndex();
+    auto getEOF();
+    auto getSOF();
+    auto setDescCache(IOThunderboltTransmitCommand::TxBufferDescriptor*, unsigned long long);
+    auto setDescriptorEndIndex(unsigned int);
+    auto setDescriptorStartIndex(unsigned int);
+    auto setStatus(int);
 };

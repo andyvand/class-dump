@@ -6,12 +6,14 @@ class AppleIntelSlowAdaptiveClockingManager {
 public: // (access info unavailable from symbols alone)
     AppleIntelSlowAdaptiveClockingManager();
     AppleIntelSlowAdaptiveClockingManager(OSMetaClass const*);
-    addVictimsToDomain(unsigned int, unsigned int, IOSACVictimFrequency*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    clearVictims(unsigned int);
-    getMetaClass() const;
-    registerAggressor(void*, unsigned int, int (*)(void*, unsigned int), unsigned int, unsigned long long*, unsigned int*);
-    removeVictimsFromDomain(unsigned int, unsigned int, IOSACVictimFrequency*);
-    start(IOService*);
+    auto addVictimsToDomain(unsigned int, unsigned int, IOSACVictimFrequency*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto clearVictims(unsigned int);
+    auto getMetaClass() const;
+    auto registerAggressor(void*, unsigned int, int (*)(void*, unsigned int), unsigned int, unsigned long long*, unsigned int*);
+    auto removeVictimsFromDomain(unsigned int, unsigned int, IOSACVictimFrequency*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelSlowAdaptiveClockingManager();
 };

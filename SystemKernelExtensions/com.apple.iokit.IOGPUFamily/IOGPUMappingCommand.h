@@ -6,12 +6,14 @@ class IOGPUMappingCommand {
 public: // (access info unavailable from symbols alone)
     IOGPUMappingCommand();
     IOGPUMappingCommand(OSMetaClass const*);
-    command(unsigned int, OSSharedPtr<IOGPUResource>, OSSharedPtr<IOGPUResource>, unsigned int, IOGPUMappingOp*);
-    execute();
-    execute() (.cold.1);
-    execute()::_os_log_fmt;
-    free();
-    getMetaClass() const;
-    init(unsigned int, OSSharedPtr<IOGPUResource>, OSSharedPtr<IOGPUResource>, unsigned int, IOGPUMappingOp*);
+    auto command(unsigned int, OSSharedPtr<IOGPUResource>, OSSharedPtr<IOGPUResource>, unsigned int, IOGPUMappingOp*);
+    auto execute();
+    auto execute() (.cold.1);
+    auto execute()::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto init(unsigned int, OSSharedPtr<IOGPUResource>, OSSharedPtr<IOGPUResource>, unsigned int, IOGPUMappingOp*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUMappingCommand();
 };

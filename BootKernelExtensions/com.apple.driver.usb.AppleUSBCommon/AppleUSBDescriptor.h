@@ -6,10 +6,12 @@ class AppleUSBDescriptor {
 public: // (access info unavailable from symbols alone)
     AppleUSBDescriptor();
     AppleUSBDescriptor(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short);
-    initWithDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short) (.cold.1);
-    withDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short);
+    auto initWithDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short) (.cold.1);
+    auto withDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBDescriptor();
 };

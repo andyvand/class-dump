@@ -6,13 +6,15 @@ class AppleConvergedIPCMemoryCommandPool {
 public: // (access info unavailable from symbols alone)
     AppleConvergedIPCMemoryCommandPool();
     AppleConvergedIPCMemoryCommandPool(OSMetaClass const*);
-    allocateReturnCommand();
-    free();
-    gatedReturnCommand(IOCommand*);
-    getCmdSize() const;
-    getMetaClass() const;
-    getName() const;
-    initWithInfo(IOWorkLoop*, unsigned long long, AppleConvergedIPCMemoryPolicyInfo*);
-    withInfo(IOWorkLoop*, unsigned long long, AppleConvergedIPCMemoryPolicyInfo*);
+    auto allocateReturnCommand();
+    auto free();
+    auto gatedReturnCommand(IOCommand*);
+    auto getCmdSize() const;
+    auto getMetaClass() const;
+    auto getName() const;
+    auto initWithInfo(IOWorkLoop*, unsigned long long, AppleConvergedIPCMemoryPolicyInfo*);
+    auto withInfo(IOWorkLoop*, unsigned long long, AppleConvergedIPCMemoryPolicyInfo*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleConvergedIPCMemoryCommandPool();
 };

@@ -6,12 +6,14 @@ class EXDisplayPipeUserClient {
 public: // (access info unavailable from symbols alone)
     EXDisplayPipeUserClient();
     EXDisplayPipeUserClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    free();
-    getMetaClass() const;
-    init(task*, unsigned int, OSDictionary*);
-    start(IOService*);
-    stop(IOService*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(task*, unsigned int, OSDictionary*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~EXDisplayPipeUserClient();
 };

@@ -4,9 +4,11 @@
 
 class com_apple_driver_WriteProtectedMediaDriver {
 public: // (access info unavailable from symbols alone)
-    DetermineMediumWriteProtectState();
+    auto DetermineMediumWriteProtectState();
+    auto getMetaClass() const;
     com_apple_driver_WriteProtectedMediaDriver();
     com_apple_driver_WriteProtectedMediaDriver(OSMetaClass const*);
-    getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_WriteProtectedMediaDriver();
 };

@@ -4,14 +4,16 @@
 
 class com_softraid_driver_SoftRAID_DriverEventRecPool {
 public: // (access info unavailable from symbols alone)
-    AllocDriverEventRec();
-    FreeDriverEventRec(DriverEventRec*);
+    auto AllocDriverEventRec();
+    auto FreeDriverEventRec(DriverEventRec*);
+    auto free();
+    auto free()::kalloc_type_view_585;
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_558;
     com_softraid_driver_SoftRAID_DriverEventRecPool();
     com_softraid_driver_SoftRAID_DriverEventRecPool(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_585;
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_558;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_DriverEventRecPool();
 };

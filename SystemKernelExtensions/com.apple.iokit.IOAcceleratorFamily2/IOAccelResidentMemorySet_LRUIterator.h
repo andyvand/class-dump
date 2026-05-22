@@ -5,5 +5,5 @@
 class IOAccelResidentMemorySet::LRUIterator {
 public: // (access info unavailable from symbols alone)
     LRUIterator(IOAccelResidentMemorySet&);
-    getNextMemory();
+    auto getNextMemory();
 };

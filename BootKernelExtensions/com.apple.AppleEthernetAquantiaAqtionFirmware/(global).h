@@ -6,14 +6,10 @@
 
 AppleEthernetAquantiaAqtion107Firmware::gMetaClass;
 AppleEthernetAquantiaAqtion107Firmware::metaClass;
-AppleEthernetAquantiaAqtion107Firmware::operator delete(void*, unsigned long);
-AppleEthernetAquantiaAqtion107Firmware::operator new(unsigned long);
 AppleEthernetAquantiaAqtion107Firmware::superClass;
 AppleEthernetAquantiaAqtion107Firmware_ktv;
 AppleEthernetAquantiaAqtion113Firmware::gMetaClass;
 AppleEthernetAquantiaAqtion113Firmware::metaClass;
-AppleEthernetAquantiaAqtion113Firmware::operator delete(void*, unsigned long);
-AppleEthernetAquantiaAqtion113Firmware::operator new(unsigned long);
 AppleEthernetAquantiaAqtion113Firmware::superClass;
 AppleEthernetAquantiaAqtion113Firmware_ktv;
 AppleEthernetAquantiaAqtionFirmwareInterface::metaClass;

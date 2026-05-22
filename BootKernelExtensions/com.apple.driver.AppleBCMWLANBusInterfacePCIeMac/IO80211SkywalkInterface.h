@@ -4,12 +4,12 @@
 
 class IO80211SkywalkInterface {
 public: // (access info unavailable from symbols alone)
-    getBSDName();
-    getIfnet();
-    getInterfaceId();
-    getInterfaceRole();
-    getParentInterface();
-    getWorkQueue();
-    isLowLatencyEnabled();
-    recordInputPacket(int, int);
+    auto getBSDName();
+    auto getIfnet();
+    auto getInterfaceId();
+    auto getInterfaceRole();
+    auto getParentInterface();
+    auto getWorkQueue();
+    auto isLowLatencyEnabled();
+    auto recordInputPacket(int, int);
 };

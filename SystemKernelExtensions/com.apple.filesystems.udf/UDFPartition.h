@@ -4,18 +4,18 @@
 
 class UDFPartition {
 public: // (access info unavailable from symbols alone)
-    AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
-    DebugCheck();
-    DeleteReservation(int);
-    FreeExtent(unsigned int, unsigned int, int*);
-    GetNumBlks();
-    GetNumFreeBlks();
-    InitSpaceAllocator(unsigned int*);
-    LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool);
-    NewReservation(long long, int*);
-    PostInit();
-    ReleaseSysFileVnode();
-    Sync(int);
     UDFPartition(UDFMount*, unsigned short, unsigned short);
+    auto AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
+    auto DebugCheck();
+    auto DeleteReservation(int);
+    auto FreeExtent(unsigned int, unsigned int, int*);
+    auto GetNumBlks();
+    auto GetNumFreeBlks();
+    auto InitSpaceAllocator(unsigned int*);
+    auto LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool);
+    auto NewReservation(long long, int*);
+    auto PostInit();
+    auto ReleaseSysFileVnode();
+    auto Sync(int);
     ~UDFPartition();
 };

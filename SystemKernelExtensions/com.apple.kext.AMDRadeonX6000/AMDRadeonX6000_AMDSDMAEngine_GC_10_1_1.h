@@ -6,12 +6,14 @@ class AMDRadeonX6000_AMDSDMAEngine_GC_10_1_1 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDSDMAEngine_GC_10_1_1();
     AMDRadeonX6000_AMDSDMAEngine_GC_10_1_1(OSMetaClass const*);
-    configureAdditionalRegistersPaging();
-    configureAdditionalRegistersPerfMon();
-    dumpEngineHangState(bool);
-    fillRingInfo(_HW_RT_RING_INFO*, unsigned int, char const**);
-    getExecutingHwChannel();
-    getMetaClass() const;
-    writeDiagnosisReport(char*&, unsigned int&);
+    auto configureAdditionalRegistersPaging();
+    auto configureAdditionalRegistersPerfMon();
+    auto dumpEngineHangState(bool);
+    auto fillRingInfo(_HW_RT_RING_INFO*, unsigned int, char const**);
+    auto getExecutingHwChannel();
+    auto getMetaClass() const;
+    auto writeDiagnosisReport(char*&, unsigned int&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDSDMAEngine_GC_10_1_1();
 };

@@ -4,13 +4,13 @@
 
 class AppleBCMWLANCoreFirmwareLoader {
 public: // (access info unavailable from symbols alone)
-    attach(IOService*);
-    detach(IOService*);
-    free();
-    free()::kalloc_type_view_60582;
-    getMetaClass() const;
-    initWithProvider(IOService*);
-    initWithProvider(IOService*)::kalloc_type_view_60494;
-    withProvider(IOService*);
+    auto attach(IOService*);
+    auto detach(IOService*);
+    auto free();
+    auto free()::kalloc_type_view_60582;
+    auto getMetaClass() const;
+    auto initWithProvider(IOService*);
+    auto initWithProvider(IOService*)::kalloc_type_view_60494;
+    auto withProvider(IOService*);
     ~AppleBCMWLANCoreFirmwareLoader();
 };

@@ -5,13 +5,13 @@
 class AppleUSBXHCIIsochronousRequest {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIIsochronousRequest(OSMetaClass const*);
-    activate();
-    cancel();
-    finish(int);
-    getStartFrame() const;
-    link(AppleUSBXHCITD*);
-    prepare(AppleUSBHostRequest*);
-    setStartFrame(unsigned long long);
-    update(StandardUSBXHCI::StandardUSBXHCITRB*, unsigned long long);
+    auto activate();
+    auto cancel();
+    auto finish(int);
+    auto getStartFrame() const;
+    auto link(AppleUSBXHCITD*);
+    auto prepare(AppleUSBHostRequest*);
+    auto setStartFrame(unsigned long long);
+    auto update(StandardUSBXHCI::StandardUSBXHCITRB*, unsigned long long);
     ~AppleUSBXHCIIsochronousRequest();
 };

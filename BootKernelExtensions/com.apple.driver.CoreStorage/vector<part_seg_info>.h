@@ -4,7 +4,7 @@
 
 class vector<part_seg_info> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
-    resize(unsigned long, part_seg_info const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, part_seg_info const&);
     ~vector();
 };

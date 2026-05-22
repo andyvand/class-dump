@@ -6,10 +6,13 @@ class IOATAIOReg16 {
 public: // (access info unavailable from symbols alone)
     IOATAIOReg16();
     IOATAIOReg16(OSMetaClass const*);
-    getAddress() const;
-    getMetaClass() const;
-    initWithAddress(unsigned short);
-    operator=(unsigned short);
-    withAddress(unsigned short);
+    auto getAddress() const;
+    auto getMetaClass() const;
+    auto initWithAddress(unsigned short);
+    auto operator=(unsigned short);
+    auto withAddress(unsigned short);
+    operator unsigned short() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOATAIOReg16();
 };

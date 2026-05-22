@@ -6,15 +6,17 @@ class AMDRadeonX6000_AMDGFX10Resource {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDGFX10Resource();
     AMDRadeonX6000_AMDGFX10Resource(OSMetaClass const*);
-    fillUBMSurfaceInfoBacking(_UBM_SURFINFO*, IOAccelMemoryMap*, unsigned int, unsigned int, unsigned int, bool*) const;
-    fillUBMSurfaceInfoInternal(_UBM_SURFINFO*, _sMASK_MEMORY_SETTINGS*, IOAccelMemoryMap*, AMDRadeonX6000_AMDAccelResource*, unsigned int, unsigned int, unsigned int);
-    getHWInfoProperty(AMD_HW_INFO_PROPERTY_TYPE);
-    getIOSurfacePlaneInfo(IOSurface const*, unsigned int, _IOSurfacePlaneInfo*);
-    getMetaClass() const;
-    initIOSurface();
-    initIOSurfacePlane(unsigned int, unsigned int, unsigned int, unsigned int, bool);
-    initialize(IOAccelNewResourceArgs*, unsigned long long);
-    setupHwCBRegs(GFX10_HwCBRegsRec*) const;
-    setupHwDBRegs(GFX10_HwDBRegsRec*, bool) const;
+    auto fillUBMSurfaceInfoBacking(_UBM_SURFINFO*, IOAccelMemoryMap*, unsigned int, unsigned int, unsigned int, bool*) const;
+    auto fillUBMSurfaceInfoInternal(_UBM_SURFINFO*, _sMASK_MEMORY_SETTINGS*, IOAccelMemoryMap*, AMDRadeonX6000_AMDAccelResource*, unsigned int, unsigned int, unsigned int);
+    auto getHWInfoProperty(AMD_HW_INFO_PROPERTY_TYPE);
+    auto getIOSurfacePlaneInfo(IOSurface const*, unsigned int, _IOSurfacePlaneInfo*);
+    auto getMetaClass() const;
+    auto initIOSurface();
+    auto initIOSurfacePlane(unsigned int, unsigned int, unsigned int, unsigned int, bool);
+    auto initialize(IOAccelNewResourceArgs*, unsigned long long);
+    auto setupHwCBRegs(GFX10_HwCBRegsRec*) const;
+    auto setupHwDBRegs(GFX10_HwDBRegsRec*, bool) const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDGFX10Resource();
 };

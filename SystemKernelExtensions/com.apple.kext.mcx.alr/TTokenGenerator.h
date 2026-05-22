@@ -4,15 +4,15 @@
 
 class TTokenGenerator {
 public: // (access info unavailable from symbols alone)
-    Add(char const*);
-    AddBinary(void const*, unsigned int);
-    AddInt(int);
-    AddLongLong(long long);
-    Generate(unsigned int&);
-    Generate(unsigned int&) (.cold.1);
-    Generate(unsigned int&) (.cold.2);
-    Generate(unsigned int&) (.cold.3);
-    GetDescription();
     TTokenGenerator();
+    auto Add(char const*);
+    auto AddBinary(void const*, unsigned int);
+    auto AddInt(int);
+    auto AddLongLong(long long);
+    auto Generate(unsigned int&);
+    auto Generate(unsigned int&) (.cold.1);
+    auto Generate(unsigned int&) (.cold.2);
+    auto Generate(unsigned int&) (.cold.3);
+    auto GetDescription();
     ~TTokenGenerator();
 };

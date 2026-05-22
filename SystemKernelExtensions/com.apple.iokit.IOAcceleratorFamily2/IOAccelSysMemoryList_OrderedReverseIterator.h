@@ -5,5 +5,5 @@
 class IOAccelSysMemoryList::OrderedReverseIterator {
 public: // (access info unavailable from symbols alone)
     OrderedReverseIterator(IOAccelSysMemoryList&);
-    getPrevMemory();
+    auto getPrevMemory();
 };

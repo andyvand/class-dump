@@ -4,6 +4,6 @@
 
 class vector<cs_lvf> {
 public: // (access info unavailable from symbols alone)
-    push_back(cs_lvf const&);
-    reserve(unsigned long);
+    auto push_back(cs_lvf const&);
+    auto reserve(unsigned long);
 };

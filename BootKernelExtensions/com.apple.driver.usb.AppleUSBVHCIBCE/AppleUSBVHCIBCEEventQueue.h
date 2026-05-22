@@ -4,5 +4,5 @@
 
 class AppleUSBVHCIBCEEventQueue {
 public: // (access info unavailable from symbols alone)
-    withParameters(char const*, IOBufferCopyEventSource*, void (*)(OSObject*, IOBufferCopySubmissionQueue*));
+    auto withParameters(char const*, IOBufferCopyEventSource*, void (*)(OSObject*, IOBufferCopySubmissionQueue*));
 };

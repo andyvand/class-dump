@@ -5,14 +5,16 @@
 class Vega10SharedInterrupt {
 public: // (access info unavailable from symbols alone)
     Vega10SharedInterrupt(OSMetaClass const*);
-    equals(IVRINGENTRY_R6XX&);
-    equals(IVRINGENTRY_SOC15&);
-    getMetaClass() const;
-    initR6xx(unsigned char, bool, ATIController*);
-    initSOC15(unsigned char, bool, ATIController*, unsigned int, tag_IRQ_SOURCEX);
-    initSOC15Legacy(unsigned char, bool, ATIController*, unsigned int);
-    internalInit(ATIController*);
-    setPulseInterrupt(bool);
-    setupSOC15ExtendedMatchInfo();
+    auto equals(IVRINGENTRY_R6XX&);
+    auto equals(IVRINGENTRY_SOC15&);
+    auto getMetaClass() const;
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initSOC15(unsigned char, bool, ATIController*, unsigned int, tag_IRQ_SOURCEX);
+    auto initSOC15Legacy(unsigned char, bool, ATIController*, unsigned int);
+    auto internalInit(ATIController*);
+    auto setPulseInterrupt(bool);
+    auto setupSOC15ExtendedMatchInfo();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~Vega10SharedInterrupt();
 };

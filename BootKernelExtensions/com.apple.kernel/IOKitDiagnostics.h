@@ -6,9 +6,11 @@ class IOKitDiagnostics {
 public: // (access info unavailable from symbols alone)
     IOKitDiagnostics();
     IOKitDiagnostics(OSMetaClass const*);
-    diagnostics();
-    getMetaClass() const;
-    serialize(OSSerialize*) const;
-    updateOffset(OSDictionary*, unsigned long long, char const*);
+    auto diagnostics();
+    auto getMetaClass() const;
+    auto serialize(OSSerialize*) const;
+    auto updateOffset(OSDictionary*, unsigned long long, char const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOKitDiagnostics();
 };

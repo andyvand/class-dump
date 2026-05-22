@@ -4,14 +4,14 @@
 
 class IOThunderboltReceiveCommand {
 public: // (access info unavailable from symbols alone)
-    getDescCache(unsigned long long);
-    getDescriptorEndIndex();
-    getEOF();
-    setDescCache(IOThunderboltReceiveCommand::RxBufferDescriptor*, unsigned long long);
-    setDescriptorEndIndex(unsigned int);
-    setDescriptorStartIndex(unsigned int);
-    setEOF(unsigned char);
-    setReceivedLength(unsigned long long);
-    setSOF(unsigned char);
-    setStatus(int);
+    auto getDescCache(unsigned long long);
+    auto getDescriptorEndIndex();
+    auto getEOF();
+    auto setDescCache(IOThunderboltReceiveCommand::RxBufferDescriptor*, unsigned long long);
+    auto setDescriptorEndIndex(unsigned int);
+    auto setDescriptorStartIndex(unsigned int);
+    auto setEOF(unsigned char);
+    auto setReceivedLength(unsigned long long);
+    auto setSOF(unsigned char);
+    auto setStatus(int);
 };

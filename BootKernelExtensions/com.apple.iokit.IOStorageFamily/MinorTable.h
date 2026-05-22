@@ -6,16 +6,18 @@ class MinorTable {
 public: // (access info unavailable from symbols alone)
     MinorTable();
     MinorTable()::kalloc_type_view_3555;
-    getMinor(unsigned int);
-    getOpenCountForAnchorID(unsigned int);
-    hasReferencesToAnchorID(unsigned int, bool);
-    insert(IOMedia*, unsigned int, IOMediaBSDClient*, char*);
-    insert(IOMedia*, unsigned int, IOMediaBSDClient*, char*)::kalloc_type_view_3619;
-    isObsolete(unsigned int);
-    locate(IOMedia*);
-    obsolete(unsigned int);
-    remove(unsigned int);
-    update(IOMedia*, unsigned int, IOMediaBSDClient*, char*);
+    auto getMinor(unsigned int);
+    auto getOpenCountForAnchorID(unsigned int);
+    auto hasReferencesToAnchorID(unsigned int, bool);
+    auto insert(IOMedia*, unsigned int, IOMediaBSDClient*, char*);
+    auto insert(IOMedia*, unsigned int, IOMediaBSDClient*, char*)::kalloc_type_view_3619;
+    auto isObsolete(unsigned int);
+    auto locate(IOMedia*);
+    auto obsolete(unsigned int);
+    auto remove(unsigned int);
+    auto update(IOMedia*, unsigned int, IOMediaBSDClient*, char*);
+    void * operator new(unsigned long)::kalloc_type_view_212;
+    void operator delete(void*, unsigned long)::kalloc_type_view_212;
     ~MinorTable();
     ~MinorTable()::kalloc_type_view_3574;
     ~MinorTable()::kalloc_type_view_3576;

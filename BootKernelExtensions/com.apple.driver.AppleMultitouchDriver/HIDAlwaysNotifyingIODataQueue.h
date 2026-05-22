@@ -6,9 +6,11 @@ class HIDAlwaysNotifyingIODataQueue {
 public: // (access info unavailable from symbols alone)
     HIDAlwaysNotifyingIODataQueue();
     HIDAlwaysNotifyingIODataQueue(OSMetaClass const*);
-    enqueue(void*, unsigned int);
-    getMetaClass() const;
-    sendDataAvailableNotification();
-    withCapacity(unsigned int);
+    auto enqueue(void*, unsigned int);
+    auto getMetaClass() const;
+    auto sendDataAvailableNotification();
+    auto withCapacity(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~HIDAlwaysNotifyingIODataQueue();
 };

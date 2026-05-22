@@ -4,5 +4,5 @@
 
 class IOWorkLoop {
 public: // (access info unavailable from symbols alone)
-    runActionBlock(int () block_pointer);
+    auto runActionBlock(int () block_pointer);
 };

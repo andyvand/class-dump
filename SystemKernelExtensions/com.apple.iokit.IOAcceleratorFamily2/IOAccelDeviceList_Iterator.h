@@ -5,5 +5,5 @@
 class IOAccelDeviceList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelDeviceList&);
-    getNextDevice();
+    auto getNextDevice();
 };

@@ -6,14 +6,16 @@ class IOBootNDRV {
 public: // (access info unavailable from symbols alone)
     IOBootNDRV();
     IOBootNDRV(OSMetaClass const*);
-    doControl(unsigned int, void*);
-    doDriverIO(unsigned int, void*, unsigned int, unsigned int);
-    doStatus(unsigned int, void*);
-    driverName();
-    free();
-    fromRegistryEntry(IORegistryEntry*);
-    getMetaClass() const;
-    getSymbol(char const*, unsigned long long*);
-    getUInt32Property(IORegistryEntry*, char const*, unsigned int*);
+    auto doControl(unsigned int, void*);
+    auto doDriverIO(unsigned int, void*, unsigned int, unsigned int);
+    auto doStatus(unsigned int, void*);
+    auto driverName();
+    auto free();
+    auto fromRegistryEntry(IORegistryEntry*);
+    auto getMetaClass() const;
+    auto getSymbol(char const*, unsigned long long*);
+    auto getUInt32Property(IORegistryEntry*, char const*, unsigned int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOBootNDRV();
 };

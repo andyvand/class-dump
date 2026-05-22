@@ -4,7 +4,7 @@
 
 class AppleVirtIOUtils {
 public: // (access info unavailable from symbols alone)
-    hasDeviceFeature(unsigned long long, unsigned int);
-    highestPowerOf2(unsigned int);
-    isBitSet(unsigned int, unsigned char*, unsigned char);
+    auto hasDeviceFeature(unsigned long long, unsigned int);
+    auto highestPowerOf2(unsigned int);
+    auto isBitSet(unsigned int, unsigned char*, unsigned char);
 };

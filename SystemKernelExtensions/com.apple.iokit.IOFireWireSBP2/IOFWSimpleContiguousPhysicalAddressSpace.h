@@ -4,5 +4,5 @@
 
 class IOFWSimpleContiguousPhysicalAddressSpace {
 public: // (access info unavailable from symbols alone)
-    getFWAddress();
+    auto getFWAddress();
 };

@@ -5,8 +5,10 @@
 class IOI2CInterface {
 public: // (access info unavailable from symbols alone)
     IOI2CInterface(OSMetaClass const*);
-    getMetaClass() const;
-    newUserClient(task*, void*, unsigned int, IOUserClient**);
-    registerI2C(unsigned long long);
+    auto getMetaClass() const;
+    auto newUserClient(task*, void*, unsigned int, IOUserClient**);
+    auto registerI2C(unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOI2CInterface();
 };

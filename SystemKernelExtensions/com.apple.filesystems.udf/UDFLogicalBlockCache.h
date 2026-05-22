@@ -4,19 +4,19 @@
 
 class UDFLogicalBlockCache {
 public: // (access info unavailable from symbols alone)
-    DebugCheck();
-    FindExtWithinRange(UDFLogicalAddr const&, long long, unsigned int, UDFExtentList*, UDFBlockType);
-    FindFile(UDFLogicalAddr const&);
-    FindInternal(UDFLogicalAddr const&, bool);
-    FindInternal(UDFLogicalAddr const&, bool) (.cold.1);
-    FindOrCreateFile(UDFLogicalAddr const&);
-    GatherBlocks(unsigned int, DynArray**, unsigned int*);
-    PopulateCost(DynArray*, UDFFileCostType);
-    RemoveExtListFromHash(UDFExtentList*);
-    RemoveExtListFromHash(UDFExtentList*) (.cold.1);
-    RemoveExtListFromHash(UDFExtentList*) (.cold.2);
-    RemoveFile(UDFLogicalAddr const&);
-    RemoveRange(UDFLogicalAddr const&, long long, unsigned int, unsigned int);
     UDFLogicalBlockCache(UDFMount*, UDFAllocZone*);
+    auto DebugCheck();
+    auto FindExtWithinRange(UDFLogicalAddr const&, long long, unsigned int, UDFExtentList*, UDFBlockType);
+    auto FindFile(UDFLogicalAddr const&);
+    auto FindInternal(UDFLogicalAddr const&, bool);
+    auto FindInternal(UDFLogicalAddr const&, bool) (.cold.1);
+    auto FindOrCreateFile(UDFLogicalAddr const&);
+    auto GatherBlocks(unsigned int, DynArray**, unsigned int*);
+    auto PopulateCost(DynArray*, UDFFileCostType);
+    auto RemoveExtListFromHash(UDFExtentList*);
+    auto RemoveExtListFromHash(UDFExtentList*) (.cold.1);
+    auto RemoveExtListFromHash(UDFExtentList*) (.cold.2);
+    auto RemoveFile(UDFLogicalAddr const&);
+    auto RemoveRange(UDFLogicalAddr const&, long long, unsigned int, unsigned int);
     ~UDFLogicalBlockCache();
 };

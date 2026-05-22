@@ -4,4 +4,4 @@
 
 // Global C++ functions
 
-ASP_TCPSleepWakeHandler(void*, void*, unsigned int, IOService*, void*, unsigned long);
+auto ASP_TCPSleepWakeHandler(void*, void*, unsigned int, IOService*, void*, unsigned long);

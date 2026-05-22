@@ -6,8 +6,10 @@ class AtiEnableSpreadSpectrumOnPll_V3 {
 public: // (access info unavailable from symbols alone)
     AtiEnableSpreadSpectrumOnPll_V3();
     AtiEnableSpreadSpectrumOnPll_V3(OSMetaClass const*);
-    enableSpreadSpecturmOnPll(unsigned char, ClockParams const*);
-    getMetaClass() const;
-    getPllSpreadSpectrumParameters(ClockParams const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&);
+    auto enableSpreadSpecturmOnPll(unsigned char, ClockParams const*);
+    auto getMetaClass() const;
+    auto getPllSpreadSpectrumParameters(ClockParams const*, unsigned int&, unsigned int&, unsigned int&, unsigned int&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiEnableSpreadSpectrumOnPll_V3();
 };

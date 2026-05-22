@@ -6,14 +6,16 @@ class AppleThunderboltNHISubMemoryBlock {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltNHISubMemoryBlock();
     AppleThunderboltNHISubMemoryBlock(OSMetaClass const*);
-    create(AppleThunderboltNHIMemoryBlock*, unsigned long, unsigned long);
-    free();
-    getDescriptor();
-    getMetaClass() const;
-    getParentMemoryBlock();
-    getPhysicalAddress();
-    getSize();
-    getVirtualAddress();
-    init(AppleThunderboltNHIMemoryBlock*, unsigned long, unsigned long);
+    auto create(AppleThunderboltNHIMemoryBlock*, unsigned long, unsigned long);
+    auto free();
+    auto getDescriptor();
+    auto getMetaClass() const;
+    auto getParentMemoryBlock();
+    auto getPhysicalAddress();
+    auto getSize();
+    auto getVirtualAddress();
+    auto init(AppleThunderboltNHIMemoryBlock*, unsigned long, unsigned long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltNHISubMemoryBlock();
 };

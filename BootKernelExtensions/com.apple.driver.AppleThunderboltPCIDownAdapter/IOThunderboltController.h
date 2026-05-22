@@ -4,6 +4,6 @@
 
 class IOThunderboltController {
 public: // (access info unavailable from symbols alone)
-    closeGate();
-    openGate();
+    auto closeGate();
+    auto openGate();
 };

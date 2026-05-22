@@ -4,17 +4,19 @@
 
 class com_softraid_driver_SoftRAID_VolumeIO_RecPool {
 public: // (access info unavailable from symbols alone)
-    AllocVolumeIO_Rec();
-    AppendToList(VolumeIO_Rec**, VolumeIO_Rec*);
-    FreeVolumeIO_Rec(VolumeIO_Rec*);
-    PrependToList(VolumeIO_Rec**, VolumeIO_Rec*);
-    RemoveFromList(VolumeIO_Rec*);
+    auto AllocVolumeIO_Rec();
+    auto AppendToList(VolumeIO_Rec**, VolumeIO_Rec*);
+    auto FreeVolumeIO_Rec(VolumeIO_Rec*);
+    auto PrependToList(VolumeIO_Rec**, VolumeIO_Rec*);
+    auto RemoveFromList(VolumeIO_Rec*);
+    auto free();
+    auto free()::kalloc_type_view_324;
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_284;
     com_softraid_driver_SoftRAID_VolumeIO_RecPool();
     com_softraid_driver_SoftRAID_VolumeIO_RecPool(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_324;
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_284;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_VolumeIO_RecPool();
 };

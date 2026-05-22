@@ -4,21 +4,23 @@
 
 class IOWorkGroup {
 public: // (access info unavailable from symbols alone)
-    Create_Call(OSString*, IOUserClient*, IOWorkGroup**);
-    Create_Impl(OSString*, IOUserClient*, IOWorkGroup**);
-    Create_Invoke(IORPC, int (*)(OSString*, IOUserClient*, IOWorkGroup**));
-    Dispatch(IORPC);
     IOWorkGroup();
     IOWorkGroup(OSMetaClass const*);
-    InvalidateKernel(IOUserClient*, int (*)(OSMetaClassBase*, IORPC));
-    InvalidateKernel_Impl(IOUserClient*);
-    InvalidateKernel_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, IOUserClient*));
-    SetWorkGroupPort(ipc_port*, int (*)(OSMetaClassBase*, IORPC));
-    SetWorkGroupPort_Impl(ipc_port*);
-    SetWorkGroupPort_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, ipc_port*));
-    _Dispatch(IOWorkGroup*, IORPC);
-    free();
-    getMetaClass() const;
-    init();
+    auto Create_Call(OSString*, IOUserClient*, IOWorkGroup**);
+    auto Create_Impl(OSString*, IOUserClient*, IOWorkGroup**);
+    auto Create_Invoke(IORPC, int (*)(OSString*, IOUserClient*, IOWorkGroup**));
+    auto Dispatch(IORPC);
+    auto InvalidateKernel(IOUserClient*, int (*)(OSMetaClassBase*, IORPC));
+    auto InvalidateKernel_Impl(IOUserClient*);
+    auto InvalidateKernel_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, IOUserClient*));
+    auto SetWorkGroupPort(ipc_port*, int (*)(OSMetaClassBase*, IORPC));
+    auto SetWorkGroupPort_Impl(ipc_port*);
+    auto SetWorkGroupPort_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, ipc_port*));
+    auto _Dispatch(IOWorkGroup*, IORPC);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOWorkGroup();
 };

@@ -5,8 +5,8 @@
 class HDCPAuxHandler {
 public: // (access info unavailable from symbols alone)
     HDCPAuxHandler(OSMetaClass const*);
-    getBInfo(_BINFO&);
-    getMetaClass() const;
-    setAInfo(_AINFO);
+    auto getBInfo(_BINFO&);
+    auto getMetaClass() const;
+    auto setAInfo(_AINFO);
     ~HDCPAuxHandler();
 };

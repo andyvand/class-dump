@@ -6,13 +6,15 @@ class CCDataPipeBlobOS {
 public: // (access info unavailable from symbols alone)
     CCDataPipeBlobOS();
     CCDataPipeBlobOS(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_337;
-    getBuffer();
-    getBufferLength();
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_316;
-    setData(OSString*);
+    auto free();
+    auto free()::kalloc_type_view_337;
+    auto getBuffer();
+    auto getBufferLength();
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_316;
+    auto setData(OSString*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~CCDataPipeBlobOS();
 };

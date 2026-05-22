@@ -4,6 +4,6 @@
 
 class AVIOUniqueLock<AVIOSimpleLock> {
 public: // (access info unavailable from symbols alone)
-    Unlock();
-    Unlock() (.cold.1);
+    auto Unlock();
+    auto Unlock() (.cold.1);
 };

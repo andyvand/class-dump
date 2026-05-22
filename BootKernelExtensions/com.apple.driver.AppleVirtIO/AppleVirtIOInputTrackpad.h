@@ -4,15 +4,15 @@
 
 class AppleVirtIOInputTrackpad {
 public: // (access info unavailable from symbols alone)
-    eventHandler(virtio_input_event const*);
-    getMetaClass() const;
-    getReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
-    handleStart(IOService*);
-    newProductIDNumber() const;
-    newProductString() const;
-    newReportDescriptor(IOMemoryDescriptor**) const;
-    newSerialNumberString() const;
-    newVendorIDNumber() const;
-    stop(IOService*);
+    auto eventHandler(virtio_input_event const*);
+    auto getMetaClass() const;
+    auto getReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
+    auto handleStart(IOService*);
+    auto newProductIDNumber() const;
+    auto newProductString() const;
+    auto newReportDescriptor(IOMemoryDescriptor**) const;
+    auto newSerialNumberString() const;
+    auto newVendorIDNumber() const;
+    auto stop(IOService*);
     ~AppleVirtIOInputTrackpad();
 };

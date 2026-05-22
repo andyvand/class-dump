@@ -4,7 +4,7 @@
 
 class SEPEpoch {
 public: // (access info unavailable from symbols alone)
-    commitEpochs(SEPEpoch::Epoch*, unsigned long);
-    getFullEpochs(SEPEpoch::EpochSlot*, unsigned long);
-    sepEpoch();
+    auto commitEpochs(SEPEpoch::Epoch*, unsigned long);
+    auto getFullEpochs(SEPEpoch::EpochSlot*, unsigned long);
+    auto sepEpoch();
 };

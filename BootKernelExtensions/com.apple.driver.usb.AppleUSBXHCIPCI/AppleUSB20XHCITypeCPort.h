@@ -4,5 +4,5 @@
 
 class AppleUSB20XHCITypeCPort {
 public: // (access info unavailable from symbols alone)
-    withDeviceMemory(IODeviceMemory*, StandardUSBXHCI::StandardUSBXHCIProtocolCapability*, OSDictionary*);
+    auto withDeviceMemory(IODeviceMemory*, StandardUSBXHCI::StandardUSBXHCIProtocolCapability*, OSDictionary*);
 };

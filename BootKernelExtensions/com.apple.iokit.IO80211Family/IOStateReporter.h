@@ -4,10 +4,10 @@
 
 class IOStateReporter {
 public: // (access info unavailable from symbols alone)
-    getStateResidencyTime(unsigned long long, unsigned long long);
-    overrideChannelState(unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long);
-    setChannelState(unsigned long long, unsigned long long);
-    setState(unsigned long long);
-    setStateID(unsigned long long, int, unsigned long long);
-    with(IOService*, unsigned short, int, unsigned long long);
+    auto getStateResidencyTime(unsigned long long, unsigned long long);
+    auto overrideChannelState(unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long);
+    auto setChannelState(unsigned long long, unsigned long long);
+    auto setState(unsigned long long);
+    auto setStateID(unsigned long long, int, unsigned long long);
+    auto with(IOService*, unsigned short, int, unsigned long long);
 };

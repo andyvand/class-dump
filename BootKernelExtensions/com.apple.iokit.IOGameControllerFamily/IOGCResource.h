@@ -6,9 +6,11 @@ class IOGCResource {
 public: // (access info unavailable from symbols alone)
     IOGCResource();
     IOGCResource(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getWorkLoop() const;
-    start(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto getWorkLoop() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGCResource();
 };

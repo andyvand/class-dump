@@ -5,19 +5,19 @@
 class IO80211CoreDbg {
 public: // (access info unavailable from symbols alone)
     IO80211CoreDbg(OSMetaClass const*);
-    ampduDumpCmdPrint(apple80211_debug_command*, IO80211Controller*, char*);
-    amsduDumpCmdPrint(apple80211_debug_command*, IO80211Controller*, char*);
-    btmThresholdCmdPrint(apple80211_debug_command*, IO80211Controller*, int);
-    handleDebugCmd(apple80211_debug_command*);
-    hotListChannelsPrint(apple80211_debug_command*, IO80211Controller*, apple80211_fw_hot_channels*);
-    initWithOptions(IO80211CoreDbgOptions_t&);
-    parseSInt32FromCMD(apple80211_debug_command*, unsigned long long, int);
-    parseUInt32FromCMD(apple80211_debug_command*, unsigned long long, unsigned int);
-    parseUInt64FromCMD(apple80211_debug_command*, unsigned long long, unsigned long long);
-    pktLifetimePrint(apple80211_debug_command*, IO80211Controller*, apple80211_dbgprint_lifetime&);
-    rxAggrStatusCmdPrint(apple80211_debug_command*, IO80211Controller*, apple80211_rxaggr&);
-    scanStatsPrint(apple80211_debug_command*, IO80211Controller*, apple80211_power_debug_sub_info*, unsigned int, bool);
-    soiCmdPrint(apple80211_debug_command*, IO80211Controller*, char*);
-    tvpmCmdPrint(apple80211_debug_command*, IO80211Controller*, unsigned int, int);
+    auto ampduDumpCmdPrint(apple80211_debug_command*, IO80211Controller*, char*);
+    auto amsduDumpCmdPrint(apple80211_debug_command*, IO80211Controller*, char*);
+    auto btmThresholdCmdPrint(apple80211_debug_command*, IO80211Controller*, int);
+    auto handleDebugCmd(apple80211_debug_command*);
+    auto hotListChannelsPrint(apple80211_debug_command*, IO80211Controller*, apple80211_fw_hot_channels*);
+    auto initWithOptions(IO80211CoreDbgOptions_t&);
+    auto parseSInt32FromCMD(apple80211_debug_command*, unsigned long long, int);
+    auto parseUInt32FromCMD(apple80211_debug_command*, unsigned long long, unsigned int);
+    auto parseUInt64FromCMD(apple80211_debug_command*, unsigned long long, unsigned long long);
+    auto pktLifetimePrint(apple80211_debug_command*, IO80211Controller*, apple80211_dbgprint_lifetime&);
+    auto rxAggrStatusCmdPrint(apple80211_debug_command*, IO80211Controller*, apple80211_rxaggr&);
+    auto scanStatsPrint(apple80211_debug_command*, IO80211Controller*, apple80211_power_debug_sub_info*, unsigned int, bool);
+    auto soiCmdPrint(apple80211_debug_command*, IO80211Controller*, char*);
+    auto tvpmCmdPrint(apple80211_debug_command*, IO80211Controller*, unsigned int, int);
     ~IO80211CoreDbg();
 };

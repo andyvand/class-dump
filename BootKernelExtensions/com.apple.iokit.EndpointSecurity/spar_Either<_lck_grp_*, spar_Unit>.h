@@ -4,8 +4,8 @@
 
 class spar::Either<_lck_grp_*, spar::Unit> {
 public: // (access info unavailable from symbols alone)
-    unsafeCoerceLeft() &&::__desc;
-    unsafeCoerceLeft() &::__desc;
-    unsafeCoerceRight() &&::__desc;
-    unsafeCoerceRight() &::__desc;
+    auto unsafeCoerceLeft() &&::__desc;
+    auto unsafeCoerceLeft() &::__desc;
+    auto unsafeCoerceRight() &&::__desc;
+    auto unsafeCoerceRight() &::__desc;
 };

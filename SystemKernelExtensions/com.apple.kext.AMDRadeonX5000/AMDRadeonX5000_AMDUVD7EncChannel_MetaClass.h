@@ -5,5 +5,5 @@
 class AMDRadeonX5000_AMDUVD7EncChannel::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

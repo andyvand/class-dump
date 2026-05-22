@@ -6,10 +6,12 @@ class BaffinVerticalLinkInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinVerticalLinkInterrupt();
     BaffinVerticalLinkInterrupt(OSMetaClass const*);
-    getAcknowledgeRegValue();
-    getMetaClass() const;
-    initR6xx(unsigned char, bool, ATIController*);
-    initR6xx(unsigned char, bool, ATIController*)::TYPE_BIT;
-    initialize();
+    auto getAcknowledgeRegValue();
+    auto getMetaClass() const;
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initR6xx(unsigned char, bool, ATIController*)::TYPE_BIT;
+    auto initialize();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinVerticalLinkInterrupt();
 };

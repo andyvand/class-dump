@@ -4,15 +4,15 @@
 
 class AppleParavirtCommandAllocator {
 public: // (access info unavailable from symbols alone)
-    addBarrier(unsigned int, unsigned int);
-    addSignal(unsigned int, unsigned int);
-    getCommandBytes(unsigned long);
-    getCommandBytesInt(unsigned long);
-    getPayloadOffset(unsigned long, unsigned long long);
-    getPayloadOffset(unsigned long, unsigned long long) (.cold.1);
-    getPayloadOffset(unsigned long, unsigned long long)::_os_log_fmt;
-    init(AppleParavirtGPUFIFOCommandID, unsigned long);
-    startCommand(AppleParavirtGPUFIFOCommandID);
-    submitOnChannel(AppleParavirtChannel*, IOAccelCommandDescriptor*);
+    auto addBarrier(unsigned int, unsigned int);
+    auto addSignal(unsigned int, unsigned int);
+    auto getCommandBytes(unsigned long);
+    auto getCommandBytesInt(unsigned long);
+    auto getPayloadOffset(unsigned long, unsigned long long);
+    auto getPayloadOffset(unsigned long, unsigned long long) (.cold.1);
+    auto getPayloadOffset(unsigned long, unsigned long long)::_os_log_fmt;
+    auto init(AppleParavirtGPUFIFOCommandID, unsigned long);
+    auto startCommand(AppleParavirtGPUFIFOCommandID);
+    auto submitOnChannel(AppleParavirtChannel*, IOAccelCommandDescriptor*);
     ~AppleParavirtCommandAllocator();
 };

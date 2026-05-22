@@ -4,20 +4,22 @@
 
 class AppleACPIInterruptLink {
 public: // (access info unavailable from symbols alone)
-    ACPIInterruptLink(IOACPIPlatformExpert*, IOService*);
     AppleACPIInterruptLink();
     AppleACPIInterruptLink(OSMetaClass const*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    free();
-    getInterruptNumber(unsigned int*) const;
-    getInterruptResources(unsigned int, acpi_buffer*);
-    getMetaClass() const;
-    isInterruptPossible(OSArray const*, unsigned int);
-    restoreInterruptEnable();
-    setInterruptEnable(bool);
-    setInterruptResource(unsigned int, acpi_buffer*);
-    setInterruptResource(unsigned int, acpi_buffer*)::kalloc_type_view_446;
-    setInterruptResource(unsigned int, acpi_buffer*)::kalloc_type_view_490;
-    start(IOService*);
+    auto ACPIInterruptLink(IOACPIPlatformExpert*, IOService*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto free();
+    auto getInterruptNumber(unsigned int*) const;
+    auto getInterruptResources(unsigned int, acpi_buffer*);
+    auto getMetaClass() const;
+    auto isInterruptPossible(OSArray const*, unsigned int);
+    auto restoreInterruptEnable();
+    auto setInterruptEnable(bool);
+    auto setInterruptResource(unsigned int, acpi_buffer*);
+    auto setInterruptResource(unsigned int, acpi_buffer*)::kalloc_type_view_446;
+    auto setInterruptResource(unsigned int, acpi_buffer*)::kalloc_type_view_490;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleACPIInterruptLink();
 };

@@ -6,14 +6,10 @@
 
 AppleExclaveExampleKext::gMetaClass;
 AppleExclaveExampleKext::metaClass;
-AppleExclaveExampleKext::operator delete(void*, unsigned long);
-AppleExclaveExampleKext::operator new(unsigned long);
 AppleExclaveExampleKext::superClass;
 AppleExclaveExampleKextUserClient::extMethods;
 AppleExclaveExampleKextUserClient::gMetaClass;
 AppleExclaveExampleKextUserClient::metaClass;
-AppleExclaveExampleKextUserClient::operator delete(void*, unsigned long);
-AppleExclaveExampleKextUserClient::operator new(unsigned long);
 AppleExclaveExampleKextUserClient::superClass;
 AppleExclaveExampleKextUserClient_ktv;
 AppleExclaveExampleKext_ktv;

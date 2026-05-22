@@ -5,7 +5,7 @@
 class AppleIntelMCE::Bank_Purley {
 public: // (access info unavailable from symbols alone)
     Bank_Purley(AppleIntelMCE::BankDescriptor const&);
-    dimmLocationForErrorSource(AppleIntelMCE::MachineModel::Purley::IntegratedMemoryController, unsigned char, unsigned long long, bool);
-    dimmLocationForErrorSource(AppleIntelMCE::MachineModel::Purley::IntegratedMemoryController, unsigned char, unsigned long long, bool)::channelAndDimmToSlotMap;
+    auto dimmLocationForErrorSource(AppleIntelMCE::MachineModel::Purley::IntegratedMemoryController, unsigned char, unsigned long long, bool);
+    auto dimmLocationForErrorSource(AppleIntelMCE::MachineModel::Purley::IntegratedMemoryController, unsigned char, unsigned long long, bool)::channelAndDimmToSlotMap;
     ~Bank_Purley();
 };

@@ -4,9 +4,9 @@
 
 class IOThunderboltAbstractPath {
 public: // (access info unavailable from symbols alone)
-    setCreditOptions(unsigned int);
-    setDestinationInitialCredits(unsigned int);
-    setDestinationNonFlowControlledCredits(unsigned int);
-    setSourceInitialCredits(unsigned int);
-    setSourceNonFlowControlledCredits(unsigned int);
+    auto setCreditOptions(unsigned int);
+    auto setDestinationInitialCredits(unsigned int);
+    auto setDestinationNonFlowControlledCredits(unsigned int);
+    auto setSourceInitialCredits(unsigned int);
+    auto setSourceNonFlowControlledCredits(unsigned int);
 };

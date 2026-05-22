@@ -6,9 +6,11 @@ class ApplePVPanicISA {
 public: // (access info unavailable from symbols alone)
     ApplePVPanicISA();
     ApplePVPanicISA(OSMetaClass const*);
-    getMetaClass() const;
-    getSupportedFeatures();
-    start(IOService*);
-    writeEvent(unsigned char);
+    auto getMetaClass() const;
+    auto getSupportedFeatures();
+    auto start(IOService*);
+    auto writeEvent(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ApplePVPanicISA();
 };

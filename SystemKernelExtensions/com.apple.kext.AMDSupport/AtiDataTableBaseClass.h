@@ -5,9 +5,11 @@
 class AtiDataTableBaseClass {
 public: // (access info unavailable from symbols alone)
     AtiDataTableBaseClass(OSMetaClass const*);
-    getMajorRevision() const;
-    getMetaClass() const;
-    getMinorRevision() const;
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto getMajorRevision() const;
+    auto getMetaClass() const;
+    auto getMinorRevision() const;
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDataTableBaseClass();
 };

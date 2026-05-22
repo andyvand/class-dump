@@ -4,17 +4,17 @@
 
 class AppleBCMWLANCommand {
 public: // (access info unavailable from symbols alone)
-    complete(IO80211CagedBuffer*);
-    free();
-    free()::kalloc_type_view_108;
-    getMetaClass() const;
-    getQueuedDuration_ms() const;
-    getQueuedDuration_ms(AppleBCMWLANCommanderQueueID) const;
-    initWithOptions(AppleBCMWLANBusInterface*, unsigned long long, IO80211BufferPool*);
-    initWithOptions(AppleBCMWLANBusInterface*, unsigned long long, IO80211BufferPool*)::kalloc_type_view_83;
-    logCmd(CCLogStream*, char const*, unsigned int, CCStreamLogLevel, unsigned long long);
-    logCmdBuf(void*, char const*, unsigned int);
-    newCmd(AppleBCMWLANBusInterface*, unsigned long long, IO80211BufferPool*);
-    prepare(CommandID const&, unsigned short, CommandTxPayload const&, CommandRxPayload*, CommandRxExpected const&, CommandCompletion const&, CommandBusPreference);
+    auto complete(IO80211CagedBuffer*);
+    auto free();
+    auto free()::kalloc_type_view_108;
+    auto getMetaClass() const;
+    auto getQueuedDuration_ms() const;
+    auto getQueuedDuration_ms(AppleBCMWLANCommanderQueueID) const;
+    auto initWithOptions(AppleBCMWLANBusInterface*, unsigned long long, IO80211BufferPool*);
+    auto initWithOptions(AppleBCMWLANBusInterface*, unsigned long long, IO80211BufferPool*)::kalloc_type_view_83;
+    auto logCmd(CCLogStream*, char const*, unsigned int, CCStreamLogLevel, unsigned long long);
+    auto logCmdBuf(void*, char const*, unsigned int);
+    auto newCmd(AppleBCMWLANBusInterface*, unsigned long long, IO80211BufferPool*);
+    auto prepare(CommandID const&, unsigned short, CommandTxPayload const&, CommandRxPayload*, CommandRxExpected const&, CommandCompletion const&, CommandBusPreference);
     ~AppleBCMWLANCommand();
 };

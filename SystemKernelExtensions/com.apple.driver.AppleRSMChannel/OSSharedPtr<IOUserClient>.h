@@ -5,7 +5,7 @@
 class OSSharedPtr<IOUserClient> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr(std::nullptr_t);
-    OSSharedPtr<AppleRSMChannelServerClient, void>(libkern::intrusive_shared_ptr<AppleRSMChannelServerClient, intrusive_osobject_retainer>&&);
-    operator=(OSSharedPtr<IOUserClient>&&);
+    auto OSSharedPtr<AppleRSMChannelServerClient, void>(libkern::intrusive_shared_ptr<AppleRSMChannelServerClient, intrusive_osobject_retainer>&&);
+    auto operator=(OSSharedPtr<IOUserClient>&&);
     ~OSSharedPtr();
 };

@@ -4,10 +4,10 @@
 
 class DIRequestPoolPendingIterator {
 public: // (access info unavailable from symbols alone)
-    initRequest();
-    initRequest() (.cold.1);
-    initRequest() (.cold.2);
-    initRequest() (.cold.3);
-    initRequest() (.cold.4);
-    initRequest() (.cold.5);
+    auto initRequest();
+    auto initRequest() (.cold.1);
+    auto initRequest() (.cold.2);
+    auto initRequest() (.cold.3);
+    auto initRequest() (.cold.4);
+    auto initRequest() (.cold.5);
 };

@@ -5,10 +5,12 @@
 class IOSlaveCPU {
 public: // (access info unavailable from symbols alone)
     IOSlaveCPU(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getWorkLoop() const;
-    start(IOService*);
-    startCPUWithOptions(IOSlaveFirmware*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getWorkLoop() const;
+    auto start(IOService*);
+    auto startCPUWithOptions(IOSlaveFirmware*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSlaveCPU();
 };

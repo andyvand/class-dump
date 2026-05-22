@@ -6,7 +6,9 @@ class AMDRadeonX4000_AMDBaffinPM4Engine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDBaffinPM4Engine();
     AMDRadeonX4000_AMDBaffinPM4Engine(OSMetaClass const*);
-    allocateHWChannels();
-    getMetaClass() const;
+    auto allocateHWChannels();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDBaffinPM4Engine();
 };

@@ -5,10 +5,12 @@
 class iog::_OSSharedWeakCounter {
 public: // (access info unavailable from symbols alone)
     _OSSharedWeakCounter(OSObject*);
-    count_shared() const;
-    release_shared();
-    release_weak();
-    retain_shared();
-    retain_weak();
+    auto count_shared() const;
+    auto release_shared();
+    auto release_weak();
+    auto retain_shared();
+    auto retain_weak();
+    void * operator new(unsigned long)::kalloc_type_view_204;
+    void operator delete(void*, unsigned long)::kalloc_type_view_211;
     ~_OSSharedWeakCounter();
 };

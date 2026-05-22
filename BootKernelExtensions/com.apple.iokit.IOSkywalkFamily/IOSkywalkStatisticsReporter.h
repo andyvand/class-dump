@@ -6,10 +6,12 @@ class IOSkywalkStatisticsReporter {
 public: // (access info unavailable from symbols alone)
     IOSkywalkStatisticsReporter();
     IOSkywalkStatisticsReporter(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    handleUpdateReport(IOReportChannelList*, unsigned int, void*, void*);
-    setValueLocked(unsigned long long, unsigned long long);
-    withTarget(OSObject*, unsigned long long (*)(OSObject*, unsigned long long), IOService*, unsigned short, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto handleUpdateReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto setValueLocked(unsigned long long, unsigned long long);
+    auto withTarget(OSObject*, unsigned long long (*)(OSObject*, unsigned long long), IOService*, unsigned short, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSkywalkStatisticsReporter();
 };

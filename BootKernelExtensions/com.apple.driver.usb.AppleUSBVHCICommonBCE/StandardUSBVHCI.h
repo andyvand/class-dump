@@ -4,5 +4,5 @@
 
 class StandardUSBVHCI {
 public: // (access info unavailable from symbols alone)
-    convertIOReturnToVHCIMessageStatus(int);
+    auto convertIOReturnToVHCIMessageStatus(int);
 };

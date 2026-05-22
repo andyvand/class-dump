@@ -4,10 +4,12 @@
 
 class ACIPCChip4387 {
 public: // (access info unavailable from symbols alone)
-    disableMMIOCoredumpOnError(acipcErrorType);
-    getName() const;
-    initWithRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
-    isM2MResetOnSSResetDisabled();
-    withRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    auto disableMMIOCoredumpOnError(acipcErrorType);
+    auto getName() const;
+    auto initWithRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    auto isM2MResetOnSSResetDisabled();
+    auto withRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    void * operator new(unsigned long)::kalloc_type_view_24;
+    void operator delete(void*, unsigned long)::kalloc_type_view_24;
     ~ACIPCChip4387();
 };

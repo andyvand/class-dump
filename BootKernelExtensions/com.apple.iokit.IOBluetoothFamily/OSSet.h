@@ -4,5 +4,5 @@
 
 class OSSet {
 public: // (access info unavailable from symbols alone)
-    withObjects(OSObject const**, unsigned int, unsigned int);
+    auto withObjects(OSObject const**, unsigned int, unsigned int);
 };

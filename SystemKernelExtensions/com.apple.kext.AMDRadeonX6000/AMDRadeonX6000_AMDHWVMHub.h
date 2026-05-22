@@ -5,7 +5,9 @@
 class AMDRadeonX6000_AMDHWVMHub {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDHWVMHub(OSMetaClass const*);
-    getMetaClass() const;
-    init(AMDRadeonX6000_IAMDHWInterface*);
+    auto getMetaClass() const;
+    auto init(AMDRadeonX6000_IAMDHWInterface*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDHWVMHub();
 };

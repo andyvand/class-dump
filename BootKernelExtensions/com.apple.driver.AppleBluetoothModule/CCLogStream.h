@@ -4,5 +4,5 @@
 
 class CCLogStream {
 public: // (access info unavailable from symbols alone)
-    log(CCStreamLogLevel, char const*, ...);
+    auto log(CCStreamLogLevel, char const*, ...);
 };

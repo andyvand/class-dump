@@ -4,5 +4,5 @@
 
 class IOMemoryMap {
 public: // (access info unavailable from symbols alone)
-    getPhysicalAddress();
+    auto getPhysicalAddress();
 };

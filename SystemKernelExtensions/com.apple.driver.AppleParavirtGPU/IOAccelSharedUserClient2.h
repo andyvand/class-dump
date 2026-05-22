@@ -5,21 +5,21 @@
 class IOAccelSharedUserClient2 {
 public: // (access info unavailable from symbols alone)
     IOAccelSharedUserClient2(OSMetaClass const*);
-    _RESERVEDIOAccelSharedUserClient0();
-    _RESERVEDIOAccelSharedUserClient1();
-    _RESERVEDIOAccelSharedUserClient2();
-    _RESERVEDIOAccelSharedUserClient3();
-    _RESERVEDIOAccelSharedUserClient4();
-    _RESERVEDIOAccelSharedUserClient5();
-    clientClose();
-    connectClient(IOUserClient*);
-    didTerminate(IOService*, unsigned int, bool*);
-    free();
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    requestTerminate(IOService*, unsigned int);
-    sharedStart();
-    sharedStop();
-    start(IOService*);
-    stop(IOService*);
+    auto _RESERVEDIOAccelSharedUserClient0();
+    auto _RESERVEDIOAccelSharedUserClient1();
+    auto _RESERVEDIOAccelSharedUserClient2();
+    auto _RESERVEDIOAccelSharedUserClient3();
+    auto _RESERVEDIOAccelSharedUserClient4();
+    auto _RESERVEDIOAccelSharedUserClient5();
+    auto clientClose();
+    auto connectClient(IOUserClient*);
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto free();
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto requestTerminate(IOService*, unsigned int);
+    auto sharedStart();
+    auto sharedStop();
+    auto start(IOService*);
+    auto stop(IOService*);
     ~IOAccelSharedUserClient2();
 };

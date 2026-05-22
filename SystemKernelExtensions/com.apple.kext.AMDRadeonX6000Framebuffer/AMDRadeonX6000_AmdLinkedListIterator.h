@@ -6,8 +6,10 @@ class AMDRadeonX6000_AmdLinkedListIterator {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdLinkedListIterator();
     AMDRadeonX6000_AmdLinkedListIterator(OSMetaClass const*);
-    getMetaClass() const;
-    getNext();
-    init();
+    auto getMetaClass() const;
+    auto getNext();
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdLinkedListIterator();
 };

@@ -6,7 +6,9 @@ class AMDRadeonX6000_AMDNavi23GraphicsAccelerator {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDNavi23GraphicsAccelerator();
     AMDRadeonX6000_AMDNavi23GraphicsAccelerator(OSMetaClass const*);
-    getMetaClass() const;
-    newHWInterface();
+    auto getMetaClass() const;
+    auto newHWInterface();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDNavi23GraphicsAccelerator();
 };

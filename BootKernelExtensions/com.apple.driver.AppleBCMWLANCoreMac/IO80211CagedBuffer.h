@@ -4,9 +4,9 @@
 
 class IO80211CagedBuffer {
 public: // (access info unavailable from symbols alone)
-    copyIn(void const*, unsigned long);
-    getBuffer();
-    tryLock();
-    unlock();
-    withLayout(IO80211CagedBufferGuardSize, unsigned long);
+    auto copyIn(void const*, unsigned long);
+    auto getBuffer();
+    auto tryLock();
+    auto unlock();
+    auto withLayout(IO80211CagedBufferGuardSize, unsigned long);
 };

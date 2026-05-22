@@ -6,8 +6,10 @@ class AppleUSBECMDataNC {
 public: // (access info unavailable from symbols alone)
     AppleUSBECMDataNC();
     AppleUSBECMDataNC(OSMetaClass const*);
-    getMetaClass() const;
-    setAlternate(unsigned char);
-    setDataAlternate();
+    auto getMetaClass() const;
+    auto setAlternate(unsigned char);
+    auto setDataAlternate();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBECMDataNC();
 };

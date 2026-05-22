@@ -6,8 +6,10 @@ class BNBTrackpadDevice {
 public: // (access info unavailable from symbols alone)
     BNBTrackpadDevice();
     BNBTrackpadDevice(OSMetaClass const*);
-    getMetaClass() const;
-    newDeviceUsagePairs();
-    processInterruptData(unsigned char*, unsigned short);
+    auto getMetaClass() const;
+    auto newDeviceUsagePairs();
+    auto processInterruptData(unsigned char*, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BNBTrackpadDevice();
 };

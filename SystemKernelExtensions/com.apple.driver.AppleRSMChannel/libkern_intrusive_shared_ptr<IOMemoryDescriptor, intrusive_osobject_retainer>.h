@@ -4,12 +4,13 @@
 
 class libkern::intrusive_shared_ptr<IOMemoryDescriptor, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
-    detach();
-    get() const &;
+    auto detach();
+    auto get() const &;
+    auto intrusive_shared_ptr<IOBufferMemoryDescriptor, void>(libkern::intrusive_shared_ptr<IOBufferMemoryDescriptor, intrusive_osobject_retainer> const&);
+    auto operator=(libkern::intrusive_shared_ptr<IOMemoryDescriptor, intrusive_osobject_retainer>&&);
+    auto reset();
+    auto reset(IOMemoryDescriptor*, libkern::no_retain_t);
+    auto reset(IOMemoryDescriptor*, libkern::retain_t);
     intrusive_shared_ptr(std::nullptr_t);
-    intrusive_shared_ptr<IOBufferMemoryDescriptor, void>(libkern::intrusive_shared_ptr<IOBufferMemoryDescriptor, intrusive_osobject_retainer> const&);
-    operator=(libkern::intrusive_shared_ptr<IOMemoryDescriptor, intrusive_osobject_retainer>&&);
-    reset();
-    reset(IOMemoryDescriptor*, libkern::no_retain_t);
-    reset(IOMemoryDescriptor*, libkern::retain_t);
+    operator bool() const;
 };

@@ -4,11 +4,11 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    checkLink(unsigned int);
-    extendedConfigRead16(unsigned long long);
-    extendedConfigRead32(unsigned long long);
-    extendedConfigRead8(unsigned long long);
-    extendedConfigWrite16(unsigned long long, unsigned short);
-    extendedConfigWrite32(unsigned long long, unsigned int);
-    setBusLeadEnable(bool);
+    auto checkLink(unsigned int);
+    auto extendedConfigRead16(unsigned long long);
+    auto extendedConfigRead32(unsigned long long);
+    auto extendedConfigRead8(unsigned long long);
+    auto extendedConfigWrite16(unsigned long long, unsigned short);
+    auto extendedConfigWrite32(unsigned long long, unsigned int);
+    auto setBusLeadEnable(bool);
 };

@@ -6,10 +6,12 @@ class AppleACPIACAdapter {
 public: // (access info unavailable from symbols alone)
     AppleACPIACAdapter();
     AppleACPIACAdapter(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    handlePMSettingNotification(OSSymbol const*, OSObject*, OSObject*);
-    start(IOService*);
-    stop(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto handlePMSettingNotification(OSSymbol const*, OSObject*, OSObject*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleACPIACAdapter();
 };

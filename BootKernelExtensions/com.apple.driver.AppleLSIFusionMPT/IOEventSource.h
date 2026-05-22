@@ -4,23 +4,23 @@
 
 class IOEventSource {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOEventSource0();
-    _RESERVEDIOEventSource1();
-    _RESERVEDIOEventSource2();
-    _RESERVEDIOEventSource3();
-    _RESERVEDIOEventSource4();
-    _RESERVEDIOEventSource5();
-    _RESERVEDIOEventSource6();
-    _RESERVEDIOEventSource7();
-    closeGate();
-    getAction() const;
-    getNext() const;
-    getWorkLoop() const;
-    init(OSObject*, void (*)(OSObject*, ...));
-    isEnabled() const;
-    onThread() const;
-    openGate();
-    setAction(void (*)(OSObject*, ...));
-    setNext(IOEventSource*);
-    sleepGate(void*, unsigned int);
+    auto _RESERVEDIOEventSource0();
+    auto _RESERVEDIOEventSource1();
+    auto _RESERVEDIOEventSource2();
+    auto _RESERVEDIOEventSource3();
+    auto _RESERVEDIOEventSource4();
+    auto _RESERVEDIOEventSource5();
+    auto _RESERVEDIOEventSource6();
+    auto _RESERVEDIOEventSource7();
+    auto closeGate();
+    auto getAction() const;
+    auto getNext() const;
+    auto getWorkLoop() const;
+    auto init(OSObject*, void (*)(OSObject*, ...));
+    auto isEnabled() const;
+    auto onThread() const;
+    auto openGate();
+    auto setAction(void (*)(OSObject*, ...));
+    auto setNext(IOEventSource*);
+    auto sleepGate(void*, unsigned int);
 };

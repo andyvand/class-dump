@@ -6,6 +6,6 @@ class OSSharedPtr<IORSMReceiveQueueEntry> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr(IORSMReceiveQueueEntry*, libkern::no_retain_t);
     OSSharedPtr(std::nullptr_t);
-    operator=(OSSharedPtr<IORSMReceiveQueueEntry>&&);
+    auto operator=(OSSharedPtr<IORSMReceiveQueueEntry>&&);
     ~OSSharedPtr();
 };

@@ -6,7 +6,9 @@ class AMDRadeonX4000_AMDUVDInterruptEventSource {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDUVDInterruptEventSource();
     AMDRadeonX4000_AMDUVDInterruptEventSource(OSMetaClass const*);
-    getMetaClass() const;
-    init(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), IOService*, int);
+    auto getMetaClass() const;
+    auto init(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), IOService*, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDUVDInterruptEventSource();
 };

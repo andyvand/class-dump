@@ -4,5 +4,5 @@
 
 class IOSkywalkPacket {
 public: // (access info unavailable from symbols alone)
-    withPool(IOSkywalkPacketBufferPool*, IOSkywalkPacketDescriptor*, unsigned int);
+    auto withPool(IOSkywalkPacketBufferPool*, IOSkywalkPacketDescriptor*, unsigned int);
 };

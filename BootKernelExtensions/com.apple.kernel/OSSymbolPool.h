@@ -4,10 +4,10 @@
 
 class OSSymbolPool {
 public: // (access info unavailable from symbols alone)
-    checkForPageUnload(void*, void*);
-    findSymbol(smrh_key_t) const;
-    insertSymbol(OSSharedPtr<OSSymbol>&, smrh_key_t, bool);
-    rehash();
-    rehash(void*, void*);
-    removeSymbol(OSSymbol*);
+    auto checkForPageUnload(void*, void*);
+    auto findSymbol(smrh_key_t) const;
+    auto insertSymbol(OSSharedPtr<OSSymbol>&, smrh_key_t, bool);
+    auto rehash();
+    auto rehash(void*, void*);
+    auto removeSymbol(OSSymbol*);
 };

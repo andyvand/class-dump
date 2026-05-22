@@ -5,11 +5,13 @@
 class IOFWSkipCycleDCL {
 public: // (access info unavailable from symbols alone)
     IOFWSkipCycleDCL(OSMetaClass const*);
-    addRange(IOVirtualRange&);
-    debug();
-    getMetaClass() const;
-    getSpan(IOVirtualRange&);
-    init();
-    setRanges(unsigned int, IOVirtualRange*);
+    auto addRange(IOVirtualRange&);
+    auto debug();
+    auto getMetaClass() const;
+    auto getSpan(IOVirtualRange&);
+    auto init();
+    auto setRanges(unsigned int, IOVirtualRange*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWSkipCycleDCL();
 };

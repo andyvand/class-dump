@@ -4,6 +4,6 @@
 
 class SurfaceStateCommon {
 public: // (access info unavailable from symbols alone)
-    Generate(depth_resolve_params_t const*, SurfaceUsage);
-    SetLevelLayer(SurfaceUsage, unsigned int, unsigned int);
+    auto Generate(depth_resolve_params_t const*, SurfaceUsage);
+    auto SetLevelLayer(SurfaceUsage, unsigned int, unsigned int);
 };

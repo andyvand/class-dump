@@ -5,5 +5,5 @@
 class AMDRadeonX6000_AMDGFX10CLContext::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

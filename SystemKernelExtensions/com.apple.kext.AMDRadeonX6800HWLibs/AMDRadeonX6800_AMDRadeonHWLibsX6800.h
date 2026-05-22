@@ -6,7 +6,9 @@ class AMDRadeonX6800_AMDRadeonHWLibsX6800 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6800_AMDRadeonHWLibsX6800();
     AMDRadeonX6800_AMDRadeonHWLibsX6800(OSMetaClass const*);
-    getMetaClass() const;
-    populateFirmwareDirectory();
+    auto getMetaClass() const;
+    auto populateFirmwareDirectory();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6800_AMDRadeonHWLibsX6800();
 };

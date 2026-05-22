@@ -4,5 +4,5 @@
 
 class IGIOMallocAllocatorPolicy<IGHashTable<unsigned long long, PerThreadInfo*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>> {
 public: // (access info unavailable from symbols alone)
-    deallocate(IGHashTable<unsigned long long, PerThreadInfo*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
+    auto deallocate(IGHashTable<unsigned long long, PerThreadInfo*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
 };

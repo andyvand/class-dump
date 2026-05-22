@@ -6,7 +6,9 @@ class IOAVB17221ACMPServiceUserClient {
 public: // (access info unavailable from symbols alone)
     IOAVB17221ACMPServiceUserClient();
     IOAVB17221ACMPServiceUserClient(OSMetaClass const*);
-    getMetaClass() const;
-    receivedControlFrame(IOAVB1722ControlServiceInfo*, unsigned char*, unsigned long);
+    auto getMetaClass() const;
+    auto receivedControlFrame(IOAVB1722ControlServiceInfo*, unsigned char*, unsigned long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVB17221ACMPServiceUserClient();
 };

@@ -6,15 +6,17 @@ class AMDRadeonX5000_AMDVega10Hardware {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDVega10Hardware();
     AMDRadeonX5000_AMDVega10Hardware(OSMetaClass const*);
-    allocateHWEngines();
-    getATIChipConfigBit();
-    getMMHubMemoryClientString(unsigned int, bool);
-    getMetaClass() const;
-    initializeHWWorkarounds();
-    powerUp();
-    readChipRevFromRegister();
-    readThrottlingGPIO(AMDRadeonX5000_AMDHardware::GPIOStatus*);
-    setupAndInitializeHWCapabilities();
-    writeDiagnosisReport(char*&, unsigned int&);
+    auto allocateHWEngines();
+    auto getATIChipConfigBit();
+    auto getMMHubMemoryClientString(unsigned int, bool);
+    auto getMetaClass() const;
+    auto initializeHWWorkarounds();
+    auto powerUp();
+    auto readChipRevFromRegister();
+    auto readThrottlingGPIO(AMDRadeonX5000_AMDHardware::GPIOStatus*);
+    auto setupAndInitializeHWCapabilities();
+    auto writeDiagnosisReport(char*&, unsigned int&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDVega10Hardware();
 };

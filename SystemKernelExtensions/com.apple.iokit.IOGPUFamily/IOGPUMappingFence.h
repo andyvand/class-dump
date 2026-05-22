@@ -6,10 +6,12 @@ class IOGPUMappingFence {
 public: // (access info unavailable from symbols alone)
     IOGPUMappingFence();
     IOGPUMappingFence(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithMappingDescriptor(IOGPUMappingCommandDescriptor*, IOGPU*, IOGPUCommandQueue*);
-    notifyClient();
-    withMappingDescriptor(IOGPUMappingCommandDescriptor*, IOGPU*, IOGPUCommandQueue*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithMappingDescriptor(IOGPUMappingCommandDescriptor*, IOGPU*, IOGPUCommandQueue*);
+    auto notifyClient();
+    auto withMappingDescriptor(IOGPUMappingCommandDescriptor*, IOGPU*, IOGPUCommandQueue*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUMappingFence();
 };

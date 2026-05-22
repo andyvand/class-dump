@@ -4,7 +4,7 @@
 
 class IOReportLegend {
 public: // (access info unavailable from symbols alone)
-    addReporterLegend(IOReporter*, char const*, char const*);
-    getLegend();
-    with(OSArray*);
+    auto addReporterLegend(IOReporter*, char const*, char const*);
+    auto getLegend();
+    auto with(OSArray*);
 };

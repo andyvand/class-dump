@@ -4,5 +4,5 @@
 
 class IOThunderboltReceiveQueue {
 public: // (access info unavailable from symbols alone)
-    withControllerAndWorkLoop(IOThunderboltController*, IOWorkLoop*);
+    auto withControllerAndWorkLoop(IOThunderboltController*, IOWorkLoop*);
 };

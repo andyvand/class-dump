@@ -6,14 +6,16 @@ class IOUSBMassStorageUFIDriverNub {
 public: // (access info unavailable from symbols alone)
     IOUSBMassStorageUFIDriverNub();
     IOUSBMassStorageUFIDriverNub(OSMetaClass const*);
-    _RESERVEDIOUSBMassStorageUFIDriverNub1();
-    _RESERVEDIOUSBMassStorageUFIDriverNub2();
-    _RESERVEDIOUSBMassStorageUFIDriverNub3();
-    _RESERVEDIOUSBMassStorageUFIDriverNub4();
-    _RESERVEDIOUSBMassStorageUFIDriverNub5();
-    _RESERVEDIOUSBMassStorageUFIDriverNub6();
-    _RESERVEDIOUSBMassStorageUFIDriverNub7();
-    _RESERVEDIOUSBMassStorageUFIDriverNub8();
-    getMetaClass() const;
+    auto _RESERVEDIOUSBMassStorageUFIDriverNub1();
+    auto _RESERVEDIOUSBMassStorageUFIDriverNub2();
+    auto _RESERVEDIOUSBMassStorageUFIDriverNub3();
+    auto _RESERVEDIOUSBMassStorageUFIDriverNub4();
+    auto _RESERVEDIOUSBMassStorageUFIDriverNub5();
+    auto _RESERVEDIOUSBMassStorageUFIDriverNub6();
+    auto _RESERVEDIOUSBMassStorageUFIDriverNub7();
+    auto _RESERVEDIOUSBMassStorageUFIDriverNub8();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUSBMassStorageUFIDriverNub();
 };

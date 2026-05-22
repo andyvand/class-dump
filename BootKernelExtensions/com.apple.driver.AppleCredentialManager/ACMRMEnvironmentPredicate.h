@@ -4,8 +4,8 @@
 
 class ACMRMEnvironmentPredicate {
 public: // (access info unavailable from symbols alone)
-    isBuddyRunning(ACMRMEnvironment const&);
-    isHIDRMSupported(ACMRMEnvironment const&);
-    isInBaseSystemSession(ACMRMEnvironment const&);
-    isInRecoverySession(ACMRMEnvironment const&);
+    auto isBuddyRunning(ACMRMEnvironment const&);
+    auto isHIDRMSupported(ACMRMEnvironment const&);
+    auto isInBaseSystemSession(ACMRMEnvironment const&);
+    auto isInRecoverySession(ACMRMEnvironment const&);
 };

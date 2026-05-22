@@ -4,5 +4,5 @@
 
 class APFSSplitterMoverBase {
 public: // (access info unavailable from symbols alone)
-    InsertPurgeRec(j_dir_rec const&, JObjT<j_inode>&, unsigned long long, APFSSplitterMoverBase::InsertInto)::kalloc_type_view_615;
+    auto InsertPurgeRec(j_dir_rec const&, JObjT<j_inode>&, unsigned long long, APFSSplitterMoverBase::InsertInto)::kalloc_type_view_615;
 };

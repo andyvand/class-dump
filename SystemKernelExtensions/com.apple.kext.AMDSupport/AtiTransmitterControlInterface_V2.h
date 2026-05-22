@@ -5,8 +5,10 @@
 class AtiTransmitterControlInterface_V2 {
 public: // (access info unavailable from symbols alone)
     AtiTransmitterControlInterface_V2(OSMetaClass const*);
-    adjustLaneTrainingSet(ActiveConnectorInfo const*, unsigned char, unsigned char);
-    createTransmitterControl(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto adjustLaneTrainingSet(ActiveConnectorInfo const*, unsigned char, unsigned char);
+    auto createTransmitterControl(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiTransmitterControlInterface_V2();
 };

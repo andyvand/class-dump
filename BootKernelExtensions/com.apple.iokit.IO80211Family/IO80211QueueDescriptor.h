@@ -6,15 +6,17 @@ class IO80211QueueDescriptor {
 public: // (access info unavailable from symbols alone)
     IO80211QueueDescriptor();
     IO80211QueueDescriptor(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_206;
-    getCommandChain();
-    getHash();
-    getMetaClass() const;
-    getObjectFromChain(queue_entry*);
-    init();
-    init()::kalloc_type_view_184;
-    print(userPrintCtx*);
-    setHash(unsigned char);
+    auto free();
+    auto free()::kalloc_type_view_206;
+    auto getCommandChain();
+    auto getHash();
+    auto getMetaClass() const;
+    auto getObjectFromChain(queue_entry*);
+    auto init();
+    auto init()::kalloc_type_view_184;
+    auto print(userPrintCtx*);
+    auto setHash(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211QueueDescriptor();
 };

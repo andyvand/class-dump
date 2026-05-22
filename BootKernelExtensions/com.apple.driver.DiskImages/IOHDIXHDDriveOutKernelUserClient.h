@@ -6,15 +6,17 @@ class IOHDIXHDDriveOutKernelUserClient {
 public: // (access info unavailable from symbols alone)
     IOHDIXHDDriveOutKernelUserClient();
     IOHDIXHDDriveOutKernelUserClient(OSMetaClass const*);
-    activateDrive();
-    clientClose();
-    free();
-    getMetaClass() const;
-    getRequest64(HDIRequestOOL64 const*, HDIRequestOOL64*);
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    initWithTask(task*, void*, unsigned int);
-    processReply64(HDIReplyOOL64 const*);
-    registerClientBuffer64(HDIRequestOOL64 const*);
-    start(IOService*);
+    auto activateDrive();
+    auto clientClose();
+    auto free();
+    auto getMetaClass() const;
+    auto getRequest64(HDIRequestOOL64 const*, HDIRequestOOL64*);
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto initWithTask(task*, void*, unsigned int);
+    auto processReply64(HDIReplyOOL64 const*);
+    auto registerClientBuffer64(HDIRequestOOL64 const*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHDIXHDDriveOutKernelUserClient();
 };

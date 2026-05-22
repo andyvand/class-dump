@@ -4,6 +4,6 @@
 
 class IOCommandGate {
 public: // (access info unavailable from symbols alone)
-    commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
-    runActionBlock(int () block_pointer);
+    auto commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
+    auto runActionBlock(int () block_pointer);
 };

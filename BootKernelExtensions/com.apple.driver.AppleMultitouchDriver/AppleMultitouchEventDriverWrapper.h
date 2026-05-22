@@ -6,13 +6,15 @@ class AppleMultitouchEventDriverWrapper {
 public: // (access info unavailable from symbols alone)
     AppleMultitouchEventDriverWrapper();
     AppleMultitouchEventDriverWrapper(OSMetaClass const*);
-    dispatchKeyboardEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int);
-    dispatchRelativePointerEvent(unsigned long long, int, int, unsigned int, unsigned int);
-    dispatchScrollWheelEvent(unsigned long long, int, int, int, unsigned int);
-    free();
-    getMetaClass() const;
-    init();
-    withEventDriver(AppleMultitouchHIDEventDriver*);
-    wrappedObject();
+    auto dispatchKeyboardEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int);
+    auto dispatchRelativePointerEvent(unsigned long long, int, int, unsigned int, unsigned int);
+    auto dispatchScrollWheelEvent(unsigned long long, int, int, int, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto withEventDriver(AppleMultitouchHIDEventDriver*);
+    auto wrappedObject();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleMultitouchEventDriverWrapper();
 };

@@ -5,10 +5,12 @@
 class IOEthernetAVBController {
 public: // (access info unavailable from symbols alone)
     IOEthernetAVBController(OSMetaClass const*);
-    createInterface();
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    requestAVBClient(bool);
+    auto createInterface();
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto requestAVBClient(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOEthernetAVBController();
 };

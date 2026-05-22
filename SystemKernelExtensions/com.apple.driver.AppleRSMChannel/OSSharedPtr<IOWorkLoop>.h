@@ -5,6 +5,6 @@
 class OSSharedPtr<IOWorkLoop> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr();
-    operator=(OSSharedPtr<IOWorkLoop>&&);
+    auto operator=(OSSharedPtr<IOWorkLoop>&&);
     ~OSSharedPtr();
 };

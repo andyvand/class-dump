@@ -4,6 +4,6 @@
 
 class vector<phy_ext_addr> {
 public: // (access info unavailable from symbols alone)
-    resize(unsigned long, phy_ext_addr const&);
-    resize(unsigned long, phy_ext_addr const&) (.cold.1);
+    auto resize(unsigned long, phy_ext_addr const&);
+    auto resize(unsigned long, phy_ext_addr const&) (.cold.1);
 };

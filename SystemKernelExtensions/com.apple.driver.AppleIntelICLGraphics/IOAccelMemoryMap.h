@@ -5,21 +5,21 @@
 class IOAccelMemoryMap {
 public: // (access info unavailable from symbols alone)
     IOAccelMemoryMap(OSMetaClass const*);
-    _RESERVEDIOAccelMemoryMap1();
-    _RESERVEDIOAccelMemoryMap2();
-    _RESERVEDIOAccelMemoryMap3();
-    _RESERVEDIOAccelMemoryMap4();
-    _RESERVEDIOAccelMemoryMap5();
-    complete();
-    finishEvent();
-    getAssignedGPUVirtualAddressLength() const;
-    getGPUVirtualAddress();
-    getGPUVirtualAddressForUserProcess();
-    getGPUVirtualAddressLengthForUserProcess();
-    prepare();
-    redirect(IOAccelMemory*);
-    release() const;
-    reserveGPUVirtualAddress(unsigned long long, unsigned long long);
-    testEvent();
+    auto _RESERVEDIOAccelMemoryMap1();
+    auto _RESERVEDIOAccelMemoryMap2();
+    auto _RESERVEDIOAccelMemoryMap3();
+    auto _RESERVEDIOAccelMemoryMap4();
+    auto _RESERVEDIOAccelMemoryMap5();
+    auto complete();
+    auto finishEvent();
+    auto getAssignedGPUVirtualAddressLength() const;
+    auto getGPUVirtualAddress();
+    auto getGPUVirtualAddressForUserProcess();
+    auto getGPUVirtualAddressLengthForUserProcess();
+    auto prepare();
+    auto redirect(IOAccelMemory*);
+    auto release() const;
+    auto reserveGPUVirtualAddress(unsigned long long, unsigned long long);
+    auto testEvent();
     ~IOAccelMemoryMap();
 };

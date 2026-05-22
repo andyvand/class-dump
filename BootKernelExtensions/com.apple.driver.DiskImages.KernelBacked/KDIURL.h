@@ -5,8 +5,9 @@
 class KDIURL {
 public: // (access info unavailable from symbols alone)
     KDIURL();
-    getClientContext();
-    isUnmatchable();
-    setClientContext(vfs_context*);
-    setUnmatchable(bool);
+    auto getClientContext();
+    auto isUnmatchable();
+    auto setClientContext(vfs_context*);
+    auto setUnmatchable(bool);
+    void * operator new(unsigned long);
 };

@@ -4,12 +4,12 @@
 
 class AppleKeyStoreHelper {
 public: // (access info unavailable from symbols alone)
-    copyPackedItem(OSData*, unsigned int);
-    dataFromInput(IOExternalMethodArguments*);
-    dataToOutput(OSData*, IOExternalMethodArguments*);
-    getVerifiedItemCount(OSData*);
-    get_dt_entry(char const*, char const*, unsigned int*);
-    get_dt_entry(char const*, char const*, unsigned int*) (.cold.1);
-    get_dt_entry(char const*, char const*, unsigned int*) (.cold.2);
-    secretFromInput(unsigned long long, unsigned long long);
+    auto copyPackedItem(OSData*, unsigned int);
+    auto dataFromInput(IOExternalMethodArguments*);
+    auto dataToOutput(OSData*, IOExternalMethodArguments*);
+    auto getVerifiedItemCount(OSData*);
+    auto get_dt_entry(char const*, char const*, unsigned int*);
+    auto get_dt_entry(char const*, char const*, unsigned int*) (.cold.1);
+    auto get_dt_entry(char const*, char const*, unsigned int*) (.cold.2);
+    auto secretFromInput(unsigned long long, unsigned long long);
 };

@@ -6,11 +6,13 @@ class IOHIDTestTimeSyncService {
 public: // (access info unavailable from symbols alone)
     IOHIDTestTimeSyncService();
     IOHIDTestTimeSyncService(OSMetaClass const*);
-    getMetaClass() const;
-    handlePropertyUpdate();
-    handlePropertyUpdate()::_os_log_fmt;
-    start(IOService*);
-    toSyncedTime(OSData*, unsigned long long*);
-    toTimeData(unsigned long long, OSData**);
+    auto getMetaClass() const;
+    auto handlePropertyUpdate();
+    auto handlePropertyUpdate()::_os_log_fmt;
+    auto start(IOService*);
+    auto toSyncedTime(OSData*, unsigned long long*);
+    auto toTimeData(unsigned long long, OSData**);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDTestTimeSyncService();
 };

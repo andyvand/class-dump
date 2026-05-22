@@ -6,11 +6,13 @@ class AMDRadeonX4000_AMDVIHWMemory {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVIHWMemory();
     AMDRadeonX4000_AMDVIHWMemory(OSMetaClass const*);
-    complete(AMDRadeonX4000_AMDAccelResource*);
-    getHWMemoryApertureSize();
-    getHWMemorySize();
-    getMetaClass() const;
-    prepare(AMDRadeonX4000_AMDAccelResource*, unsigned long long, unsigned long long, unsigned long long*);
-    programOrClearHDPRegisters(unsigned char, unsigned long long, unsigned long long, unsigned long long, bool);
+    auto complete(AMDRadeonX4000_AMDAccelResource*);
+    auto getHWMemoryApertureSize();
+    auto getHWMemorySize();
+    auto getMetaClass() const;
+    auto prepare(AMDRadeonX4000_AMDAccelResource*, unsigned long long, unsigned long long, unsigned long long*);
+    auto programOrClearHDPRegisters(unsigned char, unsigned long long, unsigned long long, unsigned long long, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVIHWMemory();
 };

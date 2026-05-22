@@ -7,8 +7,6 @@
 IOSCSIPeripheralDeviceType07::gMetaClass;
 com_apple_driver_PlasmonUDO::gMetaClass;
 com_apple_driver_PlasmonUDO::metaClass;
-com_apple_driver_PlasmonUDO::operator delete(void*, unsigned long);
-com_apple_driver_PlasmonUDO::operator new(unsigned long);
 com_apple_driver_PlasmonUDO::superClass;
 com_apple_driver_PlasmonUDO_ktv;
 vtable for IOSCSIPeripheralDeviceType07;

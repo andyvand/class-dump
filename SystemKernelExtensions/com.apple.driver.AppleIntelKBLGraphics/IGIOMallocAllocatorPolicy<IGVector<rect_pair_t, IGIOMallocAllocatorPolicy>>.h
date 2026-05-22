@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IGVector<rect_pair_t, IGIOMallocAllocatorPolicy>> {
 public: // (access info unavailable from symbols alone)
-    allocate()::kalloc_type_view_14;
-    deallocate(IGVector<rect_pair_t, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
+    auto allocate()::kalloc_type_view_14;
+    auto deallocate(IGVector<rect_pair_t, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
 };

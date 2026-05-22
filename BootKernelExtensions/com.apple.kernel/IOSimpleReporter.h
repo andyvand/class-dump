@@ -6,12 +6,14 @@ class IOSimpleReporter {
 public: // (access info unavailable from symbols alone)
     IOSimpleReporter();
     IOSimpleReporter(OSMetaClass const*);
-    createLegend(unsigned long long const*, char const**, int, unsigned short, unsigned long long);
-    getMetaClass() const;
-    getValue(unsigned long long);
-    incrementValue(unsigned long long, long long);
-    initWith(IOService*, unsigned short, unsigned long long);
-    setValue(unsigned long long, long long);
-    with(IOService*, unsigned short, unsigned long long);
+    auto createLegend(unsigned long long const*, char const**, int, unsigned short, unsigned long long);
+    auto getMetaClass() const;
+    auto getValue(unsigned long long);
+    auto incrementValue(unsigned long long, long long);
+    auto initWith(IOService*, unsigned short, unsigned long long);
+    auto setValue(unsigned long long, long long);
+    auto with(IOService*, unsigned short, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSimpleReporter();
 };

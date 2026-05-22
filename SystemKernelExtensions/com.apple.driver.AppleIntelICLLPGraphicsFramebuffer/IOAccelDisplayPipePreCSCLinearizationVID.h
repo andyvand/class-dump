@@ -4,7 +4,7 @@
 
 class IOAccelDisplayPipePreCSCLinearizationVID {
 public: // (access info unavailable from symbols alone)
-    getConfigurationID() const;
-    getData() const;
-    getSize() const;
+    auto getConfigurationID() const;
+    auto getData() const;
+    auto getSize() const;
 };

@@ -6,12 +6,14 @@ class AtiDynamicPllAssigner {
 public: // (access info unavailable from symbols alone)
     AtiDynamicPllAssigner();
     AtiDynamicPllAssigner(OSMetaClass const*);
-    assignPllToOnlineConnectors();
-    assignPlls(bool);
-    assignRemainingPlls();
-    getMetaClass() const;
-    getNextAvailablePll();
-    initializeAvailability(bool);
-    shouldFreeConnector(unsigned char);
+    auto assignPllToOnlineConnectors();
+    auto assignPlls(bool);
+    auto assignRemainingPlls();
+    auto getMetaClass() const;
+    auto getNextAvailablePll();
+    auto initializeAvailability(bool);
+    auto shouldFreeConnector(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDynamicPllAssigner();
 };

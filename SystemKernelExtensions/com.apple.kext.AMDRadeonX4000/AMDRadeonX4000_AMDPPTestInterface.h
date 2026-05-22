@@ -5,20 +5,22 @@
 class AMDRadeonX4000_AMDPPTestInterface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDPPTestInterface(OSMetaClass const*);
-    AMDRadeonX4000_dppTestStatus(unsigned int);
-    AMDRadeonX4000_dppTestWriteState(unsigned int);
-    AMDRadeonX4000_processDppTestCreate(AMDRadeonX4000__CPDppEventParam*);
-    AMDRadeonX4000_processDppTestDestroy(AMDRadeonX4000__CPDppEventParam*);
-    AMDRadeonX4000_processDppTestInit();
-    AMDRadeonX4000_processDppTestMsgForTx(AMDRadeonX4000__CPDppEventParam*);
-    AMDRadeonX4000_processDppTestWriteBuffer(AMDRadeonX4000__CPDppTesthEventParam*);
-    allocateAuthData(unsigned int);
-    configureBuffers();
-    free();
-    getAuthData(unsigned int);
-    getMetaClass() const;
-    init(AMDRadeonX4000_AMDGraphicsAccelerator*, AMDRadeonX4000_IAMDHWInterface*, unsigned int, unsigned int);
-    iofbAuthEvent(AMDRadeonX4000__CPDppEventParam*, unsigned int);
-    releaseAuthData(unsigned int);
+    auto AMDRadeonX4000_dppTestStatus(unsigned int);
+    auto AMDRadeonX4000_dppTestWriteState(unsigned int);
+    auto AMDRadeonX4000_processDppTestCreate(AMDRadeonX4000__CPDppEventParam*);
+    auto AMDRadeonX4000_processDppTestDestroy(AMDRadeonX4000__CPDppEventParam*);
+    auto AMDRadeonX4000_processDppTestInit();
+    auto AMDRadeonX4000_processDppTestMsgForTx(AMDRadeonX4000__CPDppEventParam*);
+    auto AMDRadeonX4000_processDppTestWriteBuffer(AMDRadeonX4000__CPDppTesthEventParam*);
+    auto allocateAuthData(unsigned int);
+    auto configureBuffers();
+    auto free();
+    auto getAuthData(unsigned int);
+    auto getMetaClass() const;
+    auto init(AMDRadeonX4000_AMDGraphicsAccelerator*, AMDRadeonX4000_IAMDHWInterface*, unsigned int, unsigned int);
+    auto iofbAuthEvent(AMDRadeonX4000__CPDppEventParam*, unsigned int);
+    auto releaseAuthData(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDPPTestInterface();
 };

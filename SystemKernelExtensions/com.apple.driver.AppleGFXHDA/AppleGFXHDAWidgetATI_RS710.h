@@ -6,9 +6,11 @@ class AppleGFXHDAWidgetATI_RS710 {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAWidgetATI_RS710();
     AppleGFXHDAWidgetATI_RS710(OSMetaClass const*);
-    cachedPinSense(bool*, unsigned int*);
-    getMetaClass() const;
-    initForNodeID(unsigned short, OSObject*, OSObject*);
-    supportsDisableSlots();
+    auto cachedPinSense(bool*, unsigned int*);
+    auto getMetaClass() const;
+    auto initForNodeID(unsigned short, OSObject*, OSObject*);
+    auto supportsDisableSlots();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAWidgetATI_RS710();
 };

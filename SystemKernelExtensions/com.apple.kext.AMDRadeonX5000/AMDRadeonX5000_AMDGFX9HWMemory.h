@@ -6,9 +6,11 @@ class AMDRadeonX5000_AMDGFX9HWMemory {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDGFX9HWMemory();
     AMDRadeonX5000_AMDGFX9HWMemory(OSMetaClass const*);
-    complete(AMDRadeonX5000_AMDAccelResource*);
-    getMetaClass() const;
-    prepare(AMDRadeonX5000_AMDAccelResource*, unsigned long long, unsigned long long, unsigned long long*);
-    programOrClearHDPRegisters(unsigned char, unsigned long long, unsigned long long, unsigned long long, bool);
+    auto complete(AMDRadeonX5000_AMDAccelResource*);
+    auto getMetaClass() const;
+    auto prepare(AMDRadeonX5000_AMDAccelResource*, unsigned long long, unsigned long long, unsigned long long*);
+    auto programOrClearHDPRegisters(unsigned char, unsigned long long, unsigned long long, unsigned long long, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDGFX9HWMemory();
 };

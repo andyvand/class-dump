@@ -6,10 +6,12 @@ class AppleUSBBusPowerClient {
 public: // (access info unavailable from symbols alone)
     AppleUSBBusPowerClient();
     AppleUSBBusPowerClient(OSMetaClass const*);
-    free();
-    getClient() const;
-    getMetaClass() const;
-    initWithClient(IOService*);
-    withClient(IOService*);
+    auto free();
+    auto getClient() const;
+    auto getMetaClass() const;
+    auto initWithClient(IOService*);
+    auto withClient(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBBusPowerClient();
 };

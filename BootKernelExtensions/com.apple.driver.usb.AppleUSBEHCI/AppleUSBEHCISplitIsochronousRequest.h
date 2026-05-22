@@ -6,13 +6,15 @@ class AppleUSBEHCISplitIsochronousRequest {
 public: // (access info unavailable from symbols alone)
     AppleUSBEHCISplitIsochronousRequest();
     AppleUSBEHCISplitIsochronousRequest(OSMetaClass const*);
-    cancel();
-    finish(int);
-    finish(int)::_os_log_fmt;
-    getMetaClass() const;
-    prepare(AppleUSBHostRequest*, AppleUSBEHCIIsochronousEndpoint*);
-    prepare(AppleUSBHostRequest*, AppleUSBEHCIIsochronousEndpoint*)::_os_log_fmt;
-    update(int);
-    withControllerAndPool(AppleUSBEHCI*, AppleUSBRequestPool*);
+    auto cancel();
+    auto finish(int);
+    auto finish(int)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto prepare(AppleUSBHostRequest*, AppleUSBEHCIIsochronousEndpoint*);
+    auto prepare(AppleUSBHostRequest*, AppleUSBEHCIIsochronousEndpoint*)::_os_log_fmt;
+    auto update(int);
+    auto withControllerAndPool(AppleUSBEHCI*, AppleUSBRequestPool*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEHCISplitIsochronousRequest();
 };

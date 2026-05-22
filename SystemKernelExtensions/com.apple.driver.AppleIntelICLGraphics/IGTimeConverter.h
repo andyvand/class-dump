@@ -4,8 +4,8 @@
 
 class IGTimeConverter {
 public: // (access info unavailable from symbols alone)
-    RawGpuToCpuNsec(unsigned long long);
-    Test();
-    gpuGetFullTicsGivenRawTics(unsigned long long, unsigned long long volatile*);
-    gpuUpdateTimeTuple(int);
+    auto RawGpuToCpuNsec(unsigned long long);
+    auto Test();
+    auto gpuGetFullTicsGivenRawTics(unsigned long long, unsigned long long volatile*);
+    auto gpuUpdateTimeTuple(int);
 };

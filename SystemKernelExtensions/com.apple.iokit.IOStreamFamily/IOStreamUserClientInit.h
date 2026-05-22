@@ -6,9 +6,11 @@ class IOStreamUserClientInit {
 public: // (access info unavailable from symbols alone)
     IOStreamUserClientInit();
     IOStreamUserClientInit(OSMetaClass const*);
-    MergeDictionaryIntoDictionary(OSDictionary*, OSDictionary*);
-    MergeDictionaryIntoProvider(IOService*, OSDictionary*);
-    getMetaClass() const;
-    start(IOService*);
+    auto MergeDictionaryIntoDictionary(OSDictionary*, OSDictionary*);
+    auto MergeDictionaryIntoProvider(IOService*, OSDictionary*);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOStreamUserClientInit();
 };

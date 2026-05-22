@@ -6,15 +6,17 @@ class AppleSmartBatteryUserClient {
 public: // (access info unavailable from symbols alone)
     AppleSmartBatteryUserClient();
     AppleSmartBatteryUserClient(OSMetaClass const*);
-    clientClose();
-    clientMemoryForType(unsigned int, unsigned int*, IOMemoryDescriptor**);
-    extSetFreq(OSObject*, void*, IOExternalMethodArguments*);
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int);
-    registerNotificationPort(ipc_port*, unsigned int, unsigned int);
-    setFreq(IOExternalMethodArguments*);
-    start(IOService*);
-    stop(IOService*);
+    auto clientClose();
+    auto clientMemoryForType(unsigned int, unsigned int*, IOMemoryDescriptor**);
+    auto extSetFreq(OSObject*, void*, IOExternalMethodArguments*);
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int);
+    auto registerNotificationPort(ipc_port*, unsigned int, unsigned int);
+    auto setFreq(IOExternalMethodArguments*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSmartBatteryUserClient();
 };

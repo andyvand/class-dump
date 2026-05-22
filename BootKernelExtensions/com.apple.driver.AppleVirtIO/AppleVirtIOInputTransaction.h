@@ -5,12 +5,13 @@
 class AppleVirtIOInputTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOInputTransaction();
-    free();
-    getEvent();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    initEventTransaction();
-    initStatusTransaction(virtio_input_event const*);
+    auto free();
+    auto getEvent();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto initEventTransaction();
+    auto initStatusTransaction(virtio_input_event const*);
+    void * operator new(unsigned long);
     ~AppleVirtIOInputTransaction();
 };

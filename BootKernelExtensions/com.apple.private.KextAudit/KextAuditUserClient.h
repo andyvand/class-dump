@@ -6,15 +6,17 @@ class KextAuditUserClient {
 public: // (access info unavailable from symbols alone)
     KextAuditUserClient();
     KextAuditUserClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    free();
-    getBridgeDeviceType();
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    notifyLoad(KextAuditUserClient*, void*, IOExternalMethodArguments*);
-    start(IOService*);
-    stop(IOService*);
-    test(KextAuditUserClient*, void*, IOExternalMethodArguments*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto free();
+    auto getBridgeDeviceType();
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto notifyLoad(KextAuditUserClient*, void*, IOExternalMethodArguments*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto test(KextAuditUserClient*, void*, IOExternalMethodArguments*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KextAuditUserClient();
 };

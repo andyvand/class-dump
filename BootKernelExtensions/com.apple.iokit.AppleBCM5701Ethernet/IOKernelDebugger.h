@@ -4,6 +4,6 @@
 
 class IOKernelDebugger {
 public: // (access info unavailable from symbols alone)
-    lock(IOService*);
-    unlock(IODebuggerLockState);
+    auto lock(IOService*);
+    auto unlock(IODebuggerLockState);
 };

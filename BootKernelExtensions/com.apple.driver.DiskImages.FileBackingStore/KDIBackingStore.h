@@ -5,12 +5,12 @@
 class KDIBackingStore {
 public: // (access info unavailable from symbols alone)
     KDIBackingStore(OSMetaClass const*);
-    _handleAttach(IOService*);
-    _handleDetach(IOService*);
-    getEncodingLevel();
-    getMetaData(OSString*, OSObject**);
-    getURL();
-    reportWriteProtection(bool*);
-    setUnmatchable(bool);
+    auto _handleAttach(IOService*);
+    auto _handleDetach(IOService*);
+    auto getEncodingLevel();
+    auto getMetaData(OSString*, OSObject**);
+    auto getURL();
+    auto reportWriteProtection(bool*);
+    auto setUnmatchable(bool);
     ~KDIBackingStore();
 };

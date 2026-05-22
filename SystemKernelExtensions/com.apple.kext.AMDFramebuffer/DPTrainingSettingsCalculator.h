@@ -4,5 +4,5 @@
 
 class DPTrainingSettingsCalculator {
 public: // (access info unavailable from symbols alone)
-    printTrainingSettings(DPTrainingSettings&);
+    auto printTrainingSettings(DPTrainingSettings&);
 };

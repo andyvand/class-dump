@@ -6,9 +6,11 @@ class AtiPackingConnectorAssignerLegacy {
 public: // (access info unavailable from symbols alone)
     AtiPackingConnectorAssignerLegacy();
     AtiPackingConnectorAssignerLegacy(OSMetaClass const*);
-    getInternalConnector();
-    getMetaClass() const;
-    getNextActiveConnector(ATIConnector*);
-    getNextAvailableConnector(ATIConnector*);
+    auto getInternalConnector();
+    auto getMetaClass() const;
+    auto getNextActiveConnector(ATIConnector*);
+    auto getNextAvailableConnector(ATIConnector*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPackingConnectorAssignerLegacy();
 };

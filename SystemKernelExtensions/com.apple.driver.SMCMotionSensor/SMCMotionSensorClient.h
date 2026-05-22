@@ -6,15 +6,17 @@ class SMCMotionSensorClient {
 public: // (access info unavailable from symbols alone)
     SMCMotionSensorClient();
     SMCMotionSensorClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    close();
-    getMetaClass() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    getTargetAndMethodForIndex(IOService**, unsigned int)::sMethods;
-    initWithTask(task*, void*, unsigned int);
-    open();
-    start(IOService*);
-    stop(IOService*);
+    auto clientClose();
+    auto clientDied();
+    auto close();
+    auto getMetaClass() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto getTargetAndMethodForIndex(IOService**, unsigned int)::sMethods;
+    auto initWithTask(task*, void*, unsigned int);
+    auto open();
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~SMCMotionSensorClient();
 };

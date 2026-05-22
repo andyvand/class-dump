@@ -6,8 +6,10 @@ class AtiLinkedListIterator {
 public: // (access info unavailable from symbols alone)
     AtiLinkedListIterator();
     AtiLinkedListIterator(OSMetaClass const*);
-    getMetaClass() const;
-    getNext();
-    init();
+    auto getMetaClass() const;
+    auto getNext();
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiLinkedListIterator();
 };

@@ -4,6 +4,6 @@
 
 class AppleBCMWLANRxByteRing {
 public: // (access info unavailable from symbols alone)
-    free()::kalloc_type_view_78;
-    initWithOptions(OSObject*, int (*)(OSObject*, AppleBCMWLANByteRing*, void*, unsigned int, void*, unsigned int))::kalloc_type_view_39;
+    auto free()::kalloc_type_view_78;
+    auto initWithOptions(OSObject*, int (*)(OSObject*, AppleBCMWLANByteRing*, void*, unsigned int, void*, unsigned int))::kalloc_type_view_39;
 };

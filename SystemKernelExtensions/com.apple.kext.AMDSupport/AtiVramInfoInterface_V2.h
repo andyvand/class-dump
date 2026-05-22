@@ -5,8 +5,10 @@
 class AtiVramInfoInterface_V2 {
 public: // (access info unavailable from symbols alone)
     AtiVramInfoInterface_V2(OSMetaClass const*);
-    createVramInfo(AtiVBiosHelper*, unsigned int);
-    getMetaClass() const;
-    stringifyMemoryType(atom_dgpu_vram_type);
+    auto createVramInfo(AtiVBiosHelper*, unsigned int);
+    auto getMetaClass() const;
+    auto stringifyMemoryType(atom_dgpu_vram_type);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiVramInfoInterface_V2();
 };

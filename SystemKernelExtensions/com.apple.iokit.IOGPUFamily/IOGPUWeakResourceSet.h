@@ -6,10 +6,12 @@ class IOGPUWeakResourceSet {
 public: // (access info unavailable from symbols alone)
     IOGPUWeakResourceSet();
     IOGPUWeakResourceSet(OSMetaClass const*);
-    addResource(IOGPUResource*);
-    add_resource(IOGPUResource*);
-    getMetaClass() const;
-    releaseResources();
-    release_resources();
+    auto addResource(IOGPUResource*);
+    auto add_resource(IOGPUResource*);
+    auto getMetaClass() const;
+    auto releaseResources();
+    auto release_resources();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUWeakResourceSet();
 };

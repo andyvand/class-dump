@@ -4,6 +4,6 @@
 
 class IGPerfCounterRestoreOnRC6Exit {
 public: // (access info unavailable from symbols alone)
-    addCmdWABB(void*, unsigned int);
-    clearRc6WABatchBufferPointer();
+    auto addCmdWABB(void*, unsigned int);
+    auto clearRc6WABatchBufferPointer();
 };

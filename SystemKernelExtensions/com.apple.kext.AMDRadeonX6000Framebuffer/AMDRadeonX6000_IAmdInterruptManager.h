@@ -5,6 +5,8 @@
 class AMDRadeonX6000_IAmdInterruptManager {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_IAmdInterruptManager(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_IAmdInterruptManager();
 };

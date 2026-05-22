@@ -5,6 +5,8 @@
 class AMDRadeonX5000_IAMDHWVMM {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_IAMDHWVMM(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_IAMDHWVMM();
 };

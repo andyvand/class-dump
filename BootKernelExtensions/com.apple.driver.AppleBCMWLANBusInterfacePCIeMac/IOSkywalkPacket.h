@@ -4,23 +4,23 @@
 
 class IOSkywalkPacket {
 public: // (access info unavailable from symbols alone)
-    acquireWithPacketHandle(unsigned long long, unsigned int);
-    completeWithQueue(IOSkywalkPacketQueue*, unsigned int, unsigned int);
-    disposePacket();
-    generateTraceTag(IOSkywalkPacketQueue*) const;
-    getDataIOVirtualAddress() const;
-    getDataLength() const;
-    getDataOff() const;
-    getDataOffset() const;
-    getDataVirtualAddress() const;
-    getMemoryDescriptor() const;
-    getPacketBufferCount() const;
-    getPacketBuffers(IOSkywalkPacketBuffer**, unsigned int) const;
-    initWithPool(IOSkywalkPacketBufferPool*, IOSkywalkPacketDescriptor*, unsigned int);
-    prepare(IOSkywalkPacketQueue*, unsigned long long, unsigned int);
-    setDataLength(unsigned int);
-    setDataOff(long long);
-    setDataOffAndLen(long long, unsigned long);
-    setDataOffset(unsigned short);
-    setDataOffsetAndLength(unsigned short, unsigned int);
+    auto acquireWithPacketHandle(unsigned long long, unsigned int);
+    auto completeWithQueue(IOSkywalkPacketQueue*, unsigned int, unsigned int);
+    auto disposePacket();
+    auto generateTraceTag(IOSkywalkPacketQueue*) const;
+    auto getDataIOVirtualAddress() const;
+    auto getDataLength() const;
+    auto getDataOff() const;
+    auto getDataOffset() const;
+    auto getDataVirtualAddress() const;
+    auto getMemoryDescriptor() const;
+    auto getPacketBufferCount() const;
+    auto getPacketBuffers(IOSkywalkPacketBuffer**, unsigned int) const;
+    auto initWithPool(IOSkywalkPacketBufferPool*, IOSkywalkPacketDescriptor*, unsigned int);
+    auto prepare(IOSkywalkPacketQueue*, unsigned long long, unsigned int);
+    auto setDataLength(unsigned int);
+    auto setDataOff(long long);
+    auto setDataOffAndLen(long long, unsigned long);
+    auto setDataOffset(unsigned short);
+    auto setDataOffsetAndLength(unsigned short, unsigned int);
 };

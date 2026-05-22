@@ -4,5 +4,5 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    stringDescriptorToUTF8(StandardUSB::StringDescriptor const*, char*, unsigned long&);
+    auto stringDescriptorToUTF8(StandardUSB::StringDescriptor const*, char*, unsigned long&);
 };

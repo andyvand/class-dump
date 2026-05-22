@@ -5,20 +5,22 @@
 class KDIEncryptedEncoding {
 public: // (access info unavailable from symbols alone)
     KDIEncryptedEncoding(OSMetaClass const*);
-    _computeIV(unsigned int, unsigned char*);
-    _decrypt(unsigned long long, unsigned long long, void*);
-    _encrypt(unsigned long long, unsigned long long, void const*, void*);
-    _handleStart(IOService*);
-    _loadContexts();
-    _rationalizeSizes();
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    probe(IOService*, int*);
-    readBytes(long long, unsigned long, unsigned long*, void*, bool);
-    reportEOF(long long*);
-    reportResizable(bool*);
-    setEOF(long long);
-    writeBytes(long long, unsigned long, unsigned long*, void const*, bool);
+    auto _computeIV(unsigned int, unsigned char*);
+    auto _decrypt(unsigned long long, unsigned long long, void*);
+    auto _encrypt(unsigned long long, unsigned long long, void const*, void*);
+    auto _handleStart(IOService*);
+    auto _loadContexts();
+    auto _rationalizeSizes();
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto probe(IOService*, int*);
+    auto readBytes(long long, unsigned long, unsigned long*, void*, bool);
+    auto reportEOF(long long*);
+    auto reportResizable(bool*);
+    auto setEOF(long long);
+    auto writeBytes(long long, unsigned long, unsigned long*, void const*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KDIEncryptedEncoding();
 };

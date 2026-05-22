@@ -4,6 +4,6 @@
 
 class IOFramebuffer {
 public: // (access info unavailable from symbols alone)
-    addFramebufferNotificationWithOptions(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*, unsigned int, int, unsigned int);
-    getAttributeExt(unsigned int, unsigned long*);
+    auto addFramebufferNotificationWithOptions(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*, unsigned int, int, unsigned int);
+    auto getAttributeExt(unsigned int, unsigned long*);
 };

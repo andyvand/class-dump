@@ -4,5 +4,5 @@
 
 class AMDMemoryElement {
 public: // (access info unavailable from symbols alone)
-    getAddr() const;
+    auto getAddr() const;
 };

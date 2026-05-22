@@ -6,14 +6,16 @@ class BridgeAudioCommunicationTransport {
 public: // (access info unavailable from symbols alone)
     BridgeAudioCommunicationTransport();
     BridgeAudioCommunicationTransport(OSMetaClass const*);
-    beginListening(OSSymbol const*);
-    createQueue(BridgeAudioCommunicationQueue*);
-    destroyQueue(OSSymbol const*);
-    destroyQueues();
-    free();
-    getMetaClass() const;
-    init(BridgeAudioCommunicationService*);
-    receivedData(OSSymbol const*, unsigned long long, unsigned char*);
-    sendData(BridgeAudioCommunicationQueue*, unsigned long long);
+    auto beginListening(OSSymbol const*);
+    auto createQueue(BridgeAudioCommunicationQueue*);
+    auto destroyQueue(OSSymbol const*);
+    auto destroyQueues();
+    auto free();
+    auto getMetaClass() const;
+    auto init(BridgeAudioCommunicationService*);
+    auto receivedData(OSSymbol const*, unsigned long long, unsigned char*);
+    auto sendData(BridgeAudioCommunicationQueue*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BridgeAudioCommunicationTransport();
 };

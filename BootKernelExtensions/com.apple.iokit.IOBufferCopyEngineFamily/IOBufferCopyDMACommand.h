@@ -6,15 +6,17 @@ class IOBufferCopyDMACommand {
 public: // (access info unavailable from symbols alone)
     IOBufferCopyDMACommand();
     IOBufferCopyDMACommand(OSMetaClass const*);
-    generateAddress();
-    generateSegmentList(IOBufferCopyDMACommand*, unsigned long long, void*);
-    getAddress() const;
-    getBufferParameters(unsigned long long*, unsigned long long*, unsigned long long*, unsigned long long*, unsigned long long, unsigned long long) const;
-    getLength() const;
-    getMetaClass() const;
-    getSegmentListDMACommand();
-    initWithMapper(IOMapper*, unsigned char);
-    resetWithMemoryQueue(void*);
-    withMapper(IOMapper*, unsigned char);
+    auto generateAddress();
+    auto generateSegmentList(IOBufferCopyDMACommand*, unsigned long long, void*);
+    auto getAddress() const;
+    auto getBufferParameters(unsigned long long*, unsigned long long*, unsigned long long*, unsigned long long*, unsigned long long, unsigned long long) const;
+    auto getLength() const;
+    auto getMetaClass() const;
+    auto getSegmentListDMACommand();
+    auto initWithMapper(IOMapper*, unsigned char);
+    auto resetWithMemoryQueue(void*);
+    auto withMapper(IOMapper*, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOBufferCopyDMACommand();
 };

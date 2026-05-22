@@ -6,11 +6,13 @@ class BaffinVerticalBlankInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinVerticalBlankInterrupt();
     BaffinVerticalBlankInterrupt(OSMetaClass const*);
-    getAcknowledgeRegValue();
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
-    initR6xx(unsigned char, bool, ATIController*)::TYPE_BIT;
-    initialize();
+    auto getAcknowledgeRegValue();
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initR6xx(unsigned char, bool, ATIController*)::TYPE_BIT;
+    auto initialize();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinVerticalBlankInterrupt();
 };

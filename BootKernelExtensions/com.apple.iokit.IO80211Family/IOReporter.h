@@ -4,24 +4,24 @@
 
 class IOReporter {
 public: // (access info unavailable from symbols alone)
-    addChannel(unsigned long long, char const*);
-    configureAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
-    copyElementValues(int, IOReportElementValues*);
-    createLegend();
-    getChannelIndex(unsigned long long, int*);
-    getChannelIndices(unsigned long long, int*, int*);
-    getElementValues(int);
-    getFirstElementIndex(unsigned long long, int*);
-    handleAddChannelSwap(unsigned long long, OSSymbol const*);
-    handleConfigureReport(IOReportChannelList*, unsigned int, void*, void*);
-    handleCreateLegend();
-    handleSwapCleanup(int);
-    handleSwapPrepare(int);
-    handleUpdateReport(IOReportChannelList*, unsigned int, void*, void*);
-    init(IOService*, IOReportChannelType, unsigned long long);
-    lockReporter();
-    setElementValues(int, IOReportElementValues*, unsigned long long);
-    unlockReporter();
-    updateAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
-    updateChannelValues(int);
+    auto addChannel(unsigned long long, char const*);
+    auto configureAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
+    auto copyElementValues(int, IOReportElementValues*);
+    auto createLegend();
+    auto getChannelIndex(unsigned long long, int*);
+    auto getChannelIndices(unsigned long long, int*, int*);
+    auto getElementValues(int);
+    auto getFirstElementIndex(unsigned long long, int*);
+    auto handleAddChannelSwap(unsigned long long, OSSymbol const*);
+    auto handleConfigureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto handleCreateLegend();
+    auto handleSwapCleanup(int);
+    auto handleSwapPrepare(int);
+    auto handleUpdateReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto init(IOService*, IOReportChannelType, unsigned long long);
+    auto lockReporter();
+    auto setElementValues(int, IOReportElementValues*, unsigned long long);
+    auto unlockReporter();
+    auto updateAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
+    auto updateChannelValues(int);
 };

@@ -5,4 +5,5 @@
 class IOSerialStreamSync {
 public: // (access info unavailable from symbols alone)
     IOSerialStreamSync();
+    void * operator new(unsigned long);
 };

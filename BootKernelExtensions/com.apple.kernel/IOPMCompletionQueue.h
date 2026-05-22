@@ -6,10 +6,12 @@ class IOPMCompletionQueue {
 public: // (access info unavailable from symbols alone)
     IOPMCompletionQueue();
     IOPMCompletionQueue(OSMetaClass const*);
-    checkForWork();
-    create(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMCompletionQueue*));
-    getMetaClass() const;
-    init(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMCompletionQueue*));
-    queuePMRequest(IOPMRequest*);
+    auto checkForWork();
+    auto create(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMCompletionQueue*));
+    auto getMetaClass() const;
+    auto init(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMCompletionQueue*));
+    auto queuePMRequest(IOPMRequest*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPMCompletionQueue();
 };

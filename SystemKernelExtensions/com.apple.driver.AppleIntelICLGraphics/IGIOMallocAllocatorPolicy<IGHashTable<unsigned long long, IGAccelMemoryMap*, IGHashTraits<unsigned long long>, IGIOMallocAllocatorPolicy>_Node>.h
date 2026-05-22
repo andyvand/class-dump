@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IGHashTable<unsigned long long, IGAccelMemoryMap*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>::Node> {
 public: // (access info unavailable from symbols alone)
-    allocate()::kalloc_type_view_14;
-    deallocate(IGHashTable<unsigned long long, IGAccelMemoryMap*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>::Node*)::kalloc_type_view_19;
+    auto allocate()::kalloc_type_view_14;
+    auto deallocate(IGHashTable<unsigned long long, IGAccelMemoryMap*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>::Node*)::kalloc_type_view_19;
 };

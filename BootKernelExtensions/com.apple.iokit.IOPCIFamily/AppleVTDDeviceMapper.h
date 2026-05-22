@@ -6,14 +6,16 @@ class AppleVTDDeviceMapper {
 public: // (access info unavailable from symbols alone)
     AppleVTDDeviceMapper();
     AppleVTDDeviceMapper(OSMetaClass const*);
-    forDevice(IOService*, unsigned int);
-    free();
-    getMetaClass() const;
-    getPageSize() const;
-    initHardware(IOService*);
-    iovmInsert(unsigned int, unsigned long long, unsigned long long, unsigned long long, unsigned long long);
-    iovmMapMemory(IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int, IODMAMapSpecification const*, IODMACommand*, IODMAMapPageList const*, unsigned long long*, unsigned long long*);
-    iovmUnmapMemory(IOMemoryDescriptor*, IODMACommand*, unsigned long long, unsigned long long);
-    mapToPhysicalAddress(unsigned long long);
+    auto forDevice(IOService*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getPageSize() const;
+    auto initHardware(IOService*);
+    auto iovmInsert(unsigned int, unsigned long long, unsigned long long, unsigned long long, unsigned long long);
+    auto iovmMapMemory(IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int, IODMAMapSpecification const*, IODMACommand*, IODMAMapPageList const*, unsigned long long*, unsigned long long*);
+    auto iovmUnmapMemory(IOMemoryDescriptor*, IODMACommand*, unsigned long long, unsigned long long);
+    auto mapToPhysicalAddress(unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleVTDDeviceMapper();
 };

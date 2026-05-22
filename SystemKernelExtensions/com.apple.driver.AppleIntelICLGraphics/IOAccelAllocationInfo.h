@@ -4,6 +4,6 @@
 
 class IOAccelAllocationInfo {
 public: // (access info unavailable from symbols alone)
-    addPID(IOAccelMemory*, int);
-    addString(IOAccelMemory*, char const*);
+    auto addPID(IOAccelMemory*, int);
+    auto addString(IOAccelMemory*, char const*);
 };

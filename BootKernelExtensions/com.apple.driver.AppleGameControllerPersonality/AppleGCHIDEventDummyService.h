@@ -6,11 +6,13 @@ class AppleGCHIDEventDummyService {
 public: // (access info unavailable from symbols alone)
     AppleGCHIDEventDummyService();
     AppleGCHIDEventDummyService(OSMetaClass const*);
-    didTerminate(IOService*, unsigned int, bool*);
-    getMetaClass() const;
-    handleStart(IOService*);
-    probe(IOService*, int*);
-    probe(IOService*, int*)::_os_log_fmt;
-    setProperty(OSSymbol const*, OSObject*);
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto getMetaClass() const;
+    auto handleStart(IOService*);
+    auto probe(IOService*, int*);
+    auto probe(IOService*, int*)::_os_log_fmt;
+    auto setProperty(OSSymbol const*, OSObject*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGCHIDEventDummyService();
 };

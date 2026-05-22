@@ -5,9 +5,9 @@
 class AppleBCMWLANSkywalkTxCompletionQueue {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANSkywalkTxCompletionQueue(OSMetaClass const*);
-    getInterface();
-    getQueueId();
-    initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*);
-    setInterface(IO80211SkywalkInterface*);
+    auto getInterface();
+    auto getQueueId();
+    auto initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*);
+    auto setInterface(IO80211SkywalkInterface*);
     ~AppleBCMWLANSkywalkTxCompletionQueue();
 };

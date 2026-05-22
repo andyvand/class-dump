@@ -4,7 +4,7 @@
 
 class IGVector<IGAccelResource*, IGIOMallocAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
-    add(IGAccelResource* const&);
-    grow(unsigned long);
+    auto add(IGAccelResource* const&);
+    auto grow(unsigned long);
     ~IGVector();
 };

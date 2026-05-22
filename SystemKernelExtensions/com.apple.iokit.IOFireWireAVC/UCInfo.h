@@ -6,6 +6,8 @@ class UCInfo {
 public: // (access info unavailable from symbols alone)
     UCInfo();
     UCInfo(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~UCInfo();
 };

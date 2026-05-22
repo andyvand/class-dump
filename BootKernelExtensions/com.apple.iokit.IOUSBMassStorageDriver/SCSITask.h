@@ -4,5 +4,5 @@
 
 class SCSITask {
 public: // (access info unavailable from symbols alone)
-    GetTimeoutDuration();
+    auto GetTimeoutDuration();
 };

@@ -5,13 +5,15 @@
 class AMDRadeonX5000_AMDGFX9GraphicsAccelerator {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDGFX9GraphicsAccelerator(OSMetaClass const*);
-    getMetaClass() const;
-    newCLContext();
-    newCPContext();
-    newCommandQueue();
-    newGLContext();
-    newResource();
-    newVideoContext();
-    setDriverBundleNames();
+    auto getMetaClass() const;
+    auto newCLContext();
+    auto newCPContext();
+    auto newCommandQueue();
+    auto newGLContext();
+    auto newResource();
+    auto newVideoContext();
+    auto setDriverBundleNames();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDGFX9GraphicsAccelerator();
 };

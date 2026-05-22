@@ -4,11 +4,11 @@
 
 class IOSCSILogicalUnitHashTable {
 public: // (access info unavailable from symbols alone)
-    DestroyHashReference(void*);
-    DestroyHashReference(void*)::kalloc_type_view_297;
-    GetSharedInstance();
-    IsProviderPathToExistingLogicalUnit(IOSCSIMultipathedLogicalUnit*, IOService*, unsigned int);
-    IsProviderPathToExistingLogicalUnit(IOSCSIMultipathedLogicalUnit*, IOService*, unsigned int)::kalloc_type_view_113;
-    IsProviderPathToExistingLogicalUnit(IOSCSIMultipathedLogicalUnit*, IOService*, unsigned int)::kalloc_type_view_268;
+    auto DestroyHashReference(void*);
+    auto DestroyHashReference(void*)::kalloc_type_view_297;
+    auto GetSharedInstance();
+    auto IsProviderPathToExistingLogicalUnit(IOSCSIMultipathedLogicalUnit*, IOService*, unsigned int);
+    auto IsProviderPathToExistingLogicalUnit(IOSCSIMultipathedLogicalUnit*, IOService*, unsigned int)::kalloc_type_view_113;
+    auto IsProviderPathToExistingLogicalUnit(IOSCSIMultipathedLogicalUnit*, IOService*, unsigned int)::kalloc_type_view_268;
     ~IOSCSILogicalUnitHashTable();
 };

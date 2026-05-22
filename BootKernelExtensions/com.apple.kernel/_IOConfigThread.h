@@ -6,8 +6,10 @@ class _IOConfigThread {
 public: // (access info unavailable from symbols alone)
     _IOConfigThread();
     _IOConfigThread(OSMetaClass const*);
-    configThread(char const*);
-    getMetaClass() const;
-    main(void*, int);
+    auto configThread(char const*);
+    auto getMetaClass() const;
+    auto main(void*, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_IOConfigThread();
 };

@@ -6,12 +6,14 @@ class AppleUSBEHCIsiTD {
 public: // (access info unavailable from symbols alone)
     AppleUSBEHCIsiTD();
     AppleUSBEHCIsiTD(OSMetaClass const*);
-    GetPhysicalAddrWithType();
-    GetPhysicalLink();
-    GetSharedLogical();
-    SetPhysicalLink(unsigned long long);
-    getMetaClass() const;
-    initWithSharedMemory(StandardUSBEHCIsiTD*, unsigned long long);
-    withSharedMemory(StandardUSBEHCIsiTD*, unsigned long long);
+    auto GetPhysicalAddrWithType();
+    auto GetPhysicalLink();
+    auto GetSharedLogical();
+    auto SetPhysicalLink(unsigned long long);
+    auto getMetaClass() const;
+    auto initWithSharedMemory(StandardUSBEHCIsiTD*, unsigned long long);
+    auto withSharedMemory(StandardUSBEHCIsiTD*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEHCIsiTD();
 };

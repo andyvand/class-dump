@@ -6,13 +6,15 @@ class AppleMCCSUserClient {
 public: // (access info unavailable from symbols alone)
     AppleMCCSUserClient();
     AppleMCCSUserClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    getService();
-    initWithTask(task*, void*, unsigned long, OSDictionary*);
-    start(IOService*);
-    withTask(task*);
+    auto clientClose();
+    auto clientDied();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto getService();
+    auto initWithTask(task*, void*, unsigned long, OSDictionary*);
+    auto start(IOService*);
+    auto withTask(task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleMCCSUserClient();
 };

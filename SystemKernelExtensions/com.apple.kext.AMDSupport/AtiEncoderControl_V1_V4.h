@@ -6,10 +6,12 @@ class AtiEncoderControl_V1_V4 {
 public: // (access info unavailable from symbols alone)
     AtiEncoderControl_V1_V4();
     AtiEncoderControl_V1_V4(OSMetaClass const*);
-    encoderControl(ActiveConnectorInfo const*, AtiAtomEncoderAction);
-    encoderDpObfuscation(ActiveConnectorInfo const*, AtiAtomDpObfMode);
-    getMetaClass() const;
-    stringifyDpLinkRate(unsigned int);
-    translateLinkClockForEncoderConfig(unsigned int);
+    auto encoderControl(ActiveConnectorInfo const*, AtiAtomEncoderAction);
+    auto encoderDpObfuscation(ActiveConnectorInfo const*, AtiAtomDpObfMode);
+    auto getMetaClass() const;
+    auto stringifyDpLinkRate(unsigned int);
+    auto translateLinkClockForEncoderConfig(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiEncoderControl_V1_V4();
 };

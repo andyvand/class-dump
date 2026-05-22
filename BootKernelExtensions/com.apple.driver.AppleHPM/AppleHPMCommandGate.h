@@ -6,7 +6,9 @@ class AppleHPMCommandGate {
 public: // (access info unavailable from symbols alone)
     AppleHPMCommandGate();
     AppleHPMCommandGate(OSMetaClass const*);
-    commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
-    getMetaClass() const;
+    auto commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleHPMCommandGate();
 };

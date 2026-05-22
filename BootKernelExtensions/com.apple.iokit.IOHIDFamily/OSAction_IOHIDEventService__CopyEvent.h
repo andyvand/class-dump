@@ -4,10 +4,12 @@
 
 class OSAction_IOHIDEventService__CopyEvent {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     OSAction_IOHIDEventService__CopyEvent();
     OSAction_IOHIDEventService__CopyEvent(OSMetaClass const*);
-    _Dispatch(OSAction_IOHIDEventService__CopyEvent*, IORPC);
-    getMetaClass() const;
+    auto Dispatch(IORPC);
+    auto _Dispatch(OSAction_IOHIDEventService__CopyEvent*, IORPC);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSAction_IOHIDEventService__CopyEvent();
 };

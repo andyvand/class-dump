@@ -7,8 +7,6 @@
 AppleTDMEffaceableNORDriver::metaClass;
 AppleTDMNORFlashDevice::gMetaClass;
 AppleTDMNORFlashDevice::metaClass;
-AppleTDMNORFlashDevice::operator delete(void*, unsigned long);
-AppleTDMNORFlashDevice::operator new(unsigned long);
 AppleTDMNORFlashDevice::superClass;
 AppleTDMNORFlashDevice_ktv;
 AppleVirtualNORFlashDevice::gMetaClass;

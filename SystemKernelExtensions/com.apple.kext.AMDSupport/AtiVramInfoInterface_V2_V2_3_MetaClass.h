@@ -5,6 +5,6 @@
 class AtiVramInfoInterface_V2_V2_3::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

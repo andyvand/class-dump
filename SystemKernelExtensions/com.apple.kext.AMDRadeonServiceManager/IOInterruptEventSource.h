@@ -5,4 +5,5 @@
 class IOInterruptEventSource {
 public: // (access info unavailable from symbols alone)
     IOInterruptEventSource();
+    void * operator new(unsigned long);
 };

@@ -4,9 +4,9 @@
 
 class IOPMrootDomain {
 public: // (access info unavailable from symbols alone)
-    claimSystemWakeEvent(IOService*, unsigned int, char const*, OSObject*);
-    createPMAssertion(unsigned long long, unsigned int, IOService*, char const*);
-    getPMAssertionLevel(unsigned long long);
-    releasePMAssertion(unsigned long long);
-    setPMAssertionLevel(unsigned long long, unsigned int);
+    auto claimSystemWakeEvent(IOService*, unsigned int, char const*, OSObject*);
+    auto createPMAssertion(unsigned long long, unsigned int, IOService*, char const*);
+    auto getPMAssertionLevel(unsigned long long);
+    auto releasePMAssertion(unsigned long long);
+    auto setPMAssertionLevel(unsigned long long, unsigned int);
 };

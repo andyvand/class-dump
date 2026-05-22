@@ -4,5 +4,5 @@
 
 class vector<label_info> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
+    auto reserve(unsigned long);
 };

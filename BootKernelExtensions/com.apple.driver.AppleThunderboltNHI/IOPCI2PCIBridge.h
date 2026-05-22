@@ -4,5 +4,5 @@
 
 class IOPCI2PCIBridge {
 public: // (access info unavailable from symbols alone)
-    adjustPowerState(unsigned long);
+    auto adjustPowerState(unsigned long);
 };

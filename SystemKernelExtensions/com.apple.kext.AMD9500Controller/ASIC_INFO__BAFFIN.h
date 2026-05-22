@@ -6,9 +6,11 @@ class ASIC_INFO__BAFFIN {
 public: // (access info unavailable from symbols alone)
     ASIC_INFO__BAFFIN();
     ASIC_INFO__BAFFIN(OSMetaClass const*);
-    getMetaClass() const;
-    populateDeviceInfo();
-    populateFbLocation();
-    populateMemoryConfig();
+    auto getMetaClass() const;
+    auto populateDeviceInfo();
+    auto populateFbLocation();
+    auto populateMemoryConfig();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ASIC_INFO__BAFFIN();
 };

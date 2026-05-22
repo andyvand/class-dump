@@ -4,7 +4,7 @@
 
 class BaffinInterruptFactory {
 public: // (access info unavailable from symbols alone)
-    createHwInterruptHelper(InterruptInfo const&, ATIController*);
-    createInterrupt(InterruptInfo const&, ATIController*);
-    createSwInterruptHelper(InterruptInfo const&, ATIController*);
+    auto createHwInterruptHelper(InterruptInfo const&, ATIController*);
+    auto createInterrupt(InterruptInfo const&, ATIController*);
+    auto createSwInterruptHelper(InterruptInfo const&, ATIController*);
 };

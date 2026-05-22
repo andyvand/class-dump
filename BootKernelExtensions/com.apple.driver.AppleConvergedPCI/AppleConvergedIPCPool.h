@@ -5,15 +5,17 @@
 class AppleConvergedIPCPool {
 public: // (access info unavailable from symbols alone)
     AppleConvergedIPCPool(OSMetaClass const*);
-    free();
-    gatedGetCommand(IOCommand**, bool);
-    gatedReturnCommand(IOCommand*);
-    gatedStop();
-    getCommand(bool);
-    getMetaClass() const;
-    getName() const;
-    initWithWorkLoop(IOWorkLoop*);
-    returnCommand(IOCommand*);
-    stop();
+    auto free();
+    auto gatedGetCommand(IOCommand**, bool);
+    auto gatedReturnCommand(IOCommand*);
+    auto gatedStop();
+    auto getCommand(bool);
+    auto getMetaClass() const;
+    auto getName() const;
+    auto initWithWorkLoop(IOWorkLoop*);
+    auto returnCommand(IOCommand*);
+    auto stop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleConvergedIPCPool();
 };

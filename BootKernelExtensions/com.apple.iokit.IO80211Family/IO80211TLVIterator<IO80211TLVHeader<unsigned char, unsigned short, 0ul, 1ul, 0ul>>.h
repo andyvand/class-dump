@@ -4,5 +4,5 @@
 
 class IO80211TLVIterator<IO80211TLVHeader<unsigned char, unsigned short, 0ul, 1ul, 0ul>> {
 public: // (access info unavailable from symbols alone)
-    operator++();
+    auto operator++();
 };

@@ -4,7 +4,7 @@
 
 class OSNumber {
 public: // (access info unavailable from symbols alone)
-    doubleValue() const;
-    withDouble(double);
-    withNumber(unsigned long long, unsigned int);
+    auto doubleValue() const;
+    auto withDouble(double);
+    auto withNumber(unsigned long long, unsigned int);
 };

@@ -4,5 +4,5 @@
 
 class IOBigMemoryCursor {
 public: // (access info unavailable from symbols alone)
-    outputSegment(IOMemoryCursor::PhysicalSegment, void*, unsigned int);
+    auto outputSegment(IOMemoryCursor::PhysicalSegment, void*, unsigned int);
 };

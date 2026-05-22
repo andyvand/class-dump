@@ -5,8 +5,8 @@
 class AppleUSBNCMPacketQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBNCMPacketQueue();
-    consumeNextPacket(__mbuf*);
-    fill(IONetworkInterface*, unsigned int, unsigned long long);
-    reset();
+    auto consumeNextPacket(__mbuf*);
+    auto fill(IONetworkInterface*, unsigned int, unsigned long long);
+    auto reset();
     ~AppleUSBNCMPacketQueue();
 };

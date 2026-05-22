@@ -4,7 +4,7 @@
 
 class pv_node {
 public: // (access info unavailable from symbols alone)
-    add_space(unsigned int, unsigned long long, unsigned long long, bool, bool);
-    free_chunk(chunk_node*);
-    remove_space(unsigned int, unsigned long long, unsigned long long, bool, bool);
+    auto add_space(unsigned int, unsigned long long, unsigned long long, bool, bool);
+    auto free_chunk(chunk_node*);
+    auto remove_space(unsigned int, unsigned long long, unsigned long long, bool, bool);
 };

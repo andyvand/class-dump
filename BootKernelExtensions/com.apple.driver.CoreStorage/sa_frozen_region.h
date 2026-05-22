@@ -4,5 +4,5 @@
 
 class sa_frozen_region {
 public: // (access info unavailable from symbols alone)
-    biggest(unsigned long long, unsigned long long, unsigned int, unsigned long long*, unsigned long long*) const;
+    auto biggest(unsigned long long, unsigned long long, unsigned int, unsigned long long*, unsigned long long*) const;
 };

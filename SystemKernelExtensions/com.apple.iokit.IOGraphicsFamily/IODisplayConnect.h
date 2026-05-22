@@ -6,14 +6,16 @@ class IODisplayConnect {
 public: // (access info unavailable from symbols alone)
     IODisplayConnect();
     IODisplayConnect(OSMetaClass const*);
-    getAttributeForConnection(unsigned int, unsigned long*);
-    getConnection();
-    getFramebuffer();
-    getMetaClass() const;
-    initWithConnection(unsigned long long, int);
-    joinPMtree(IOService*);
-    recordGTraceToken(unsigned short, unsigned short, unsigned char, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long);
-    recordGTraceToken(unsigned short, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long);
-    setAttributeForConnection(unsigned int, unsigned long);
+    auto getAttributeForConnection(unsigned int, unsigned long*);
+    auto getConnection();
+    auto getFramebuffer();
+    auto getMetaClass() const;
+    auto initWithConnection(unsigned long long, int);
+    auto joinPMtree(IOService*);
+    auto recordGTraceToken(unsigned short, unsigned short, unsigned char, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long);
+    auto recordGTraceToken(unsigned short, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long);
+    auto setAttributeForConnection(unsigned int, unsigned long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODisplayConnect();
 };

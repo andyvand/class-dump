@@ -5,14 +5,14 @@
 class AppleIntelMCE::Error {
 public: // (access info unavailable from symbols alone)
     Error(char const*, ...);
-    description() const;
-    fillWithVargs(char const*, ...) const;
-    report() const;
-    reportToMessageTracer() const;
-    reportToProfiler() const;
-    reportToSyslog() const;
-    reportToSyslog() const::_os_log_fmt;
-    setShouldReport(bool);
-    shouldReport() const;
+    auto description() const;
+    auto fillWithVargs(char const*, ...) const;
+    auto report() const;
+    auto reportToMessageTracer() const;
+    auto reportToProfiler() const;
+    auto reportToSyslog() const;
+    auto reportToSyslog() const::_os_log_fmt;
+    auto setShouldReport(bool);
+    auto shouldReport() const;
     ~Error();
 };

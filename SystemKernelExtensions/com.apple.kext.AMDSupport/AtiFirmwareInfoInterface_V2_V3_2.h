@@ -6,8 +6,10 @@ class AtiFirmwareInfoInterface_V2_V3_2 {
 public: // (access info unavailable from symbols alone)
     AtiFirmwareInfoInterface_V2_V3_2();
     AtiFirmwareInfoInterface_V2_V3_2(OSMetaClass const*);
-    getFirmwareInfo(FirmwareInfo*);
-    getMetaClass() const;
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto getFirmwareInfo(FirmwareInfo*);
+    auto getMetaClass() const;
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiFirmwareInfoInterface_V2_V3_2();
 };

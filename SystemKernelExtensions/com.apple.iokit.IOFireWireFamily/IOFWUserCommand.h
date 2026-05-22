@@ -5,13 +5,15 @@
 class IOFWUserCommand {
 public: // (access info unavailable from symbols alone)
     IOFWUserCommand(OSMetaClass const*);
-    asyncReadQuadletCommandCompletion(void*, int, IOFireWireNub*, IOFWCommand*);
-    asyncReadWriteCommandCompletion(void*, int, IOFireWireNub*, IOFWCommand*);
-    free();
-    getAsyncCommand();
-    getMetaClass() const;
-    initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
-    setAsyncReference64(unsigned long long*);
-    withSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
+    auto asyncReadQuadletCommandCompletion(void*, int, IOFireWireNub*, IOFWCommand*);
+    auto asyncReadWriteCommandCompletion(void*, int, IOFireWireNub*, IOFWCommand*);
+    auto free();
+    auto getAsyncCommand();
+    auto getMetaClass() const;
+    auto initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
+    auto setAsyncReference64(unsigned long long*);
+    auto withSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWUserCommand();
 };

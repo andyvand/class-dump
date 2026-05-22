@@ -5,14 +5,16 @@
 class IOARCRXDevice {
 public: // (access info unavailable from symbols alone)
     IOARCRXDevice(OSMetaClass const*);
-    _RESERVEDIOARCRXDevice0();
-    _RESERVEDIOARCRXDevice1();
-    _RESERVEDIOARCRXDevice2();
-    _RESERVEDIOARCRXDevice3();
-    _RESERVEDIOARCRXDevice4();
-    _RESERVEDIOARCRXDevice5();
-    _RESERVEDIOARCRXDevice6();
-    _RESERVEDIOARCRXDevice7();
-    getMetaClass() const;
+    auto _RESERVEDIOARCRXDevice0();
+    auto _RESERVEDIOARCRXDevice1();
+    auto _RESERVEDIOARCRXDevice2();
+    auto _RESERVEDIOARCRXDevice3();
+    auto _RESERVEDIOARCRXDevice4();
+    auto _RESERVEDIOARCRXDevice5();
+    auto _RESERVEDIOARCRXDevice6();
+    auto _RESERVEDIOARCRXDevice7();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOARCRXDevice();
 };

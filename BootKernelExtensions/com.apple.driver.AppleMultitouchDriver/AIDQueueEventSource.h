@@ -4,6 +4,6 @@
 
 class AIDQueueEventSource {
 public: // (access info unavailable from symbols alone)
-    queueEventSource(OSObject*, void (*)(OSObject*, OSObject*), unsigned int, bool);
-    queueObject(OSObject*);
+    auto queueEventSource(OSObject*, void (*)(OSObject*, OSObject*), unsigned int, bool);
+    auto queueObject(OSObject*);
 };

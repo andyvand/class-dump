@@ -6,7 +6,9 @@ class AppleUSBAudioStreamNode {
 public: // (access info unavailable from symbols alone)
     AppleUSBAudioStreamNode();
     AppleUSBAudioStreamNode(OSMetaClass const*);
-    getMetaClass() const;
-    start(IOService*);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBAudioStreamNode();
 };

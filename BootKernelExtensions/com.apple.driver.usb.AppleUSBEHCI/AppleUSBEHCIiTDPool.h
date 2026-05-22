@@ -6,11 +6,13 @@ class AppleUSBEHCIiTDPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBEHCIiTDPool();
     AppleUSBEHCIiTDPool(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getTD();
-    initWithControllerAndOptions(AppleUSBHostController*, unsigned int, IOMapper*);
-    returnTD(AppleUSBEHCIiTD*);
-    withControllerAndOptions(AppleUSBHostController*, unsigned int, IOMapper*);
+    auto free();
+    auto getMetaClass() const;
+    auto getTD();
+    auto initWithControllerAndOptions(AppleUSBHostController*, unsigned int, IOMapper*);
+    auto returnTD(AppleUSBEHCIiTD*);
+    auto withControllerAndOptions(AppleUSBHostController*, unsigned int, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEHCIiTDPool();
 };

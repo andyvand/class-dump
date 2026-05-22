@@ -6,9 +6,11 @@ class BaffinAuxChannelProxy {
 public: // (access info unavailable from symbols alone)
     BaffinAuxChannelProxy();
     BaffinAuxChannelProxy(OSMetaClass const*);
-    auxReset();
-    createProxy(ConnectorInfo const*, ARegisterService*, AtomBiosProxy*);
-    getAuxBusControl(bool);
-    getMetaClass() const;
+    auto auxReset();
+    auto createProxy(ConnectorInfo const*, ARegisterService*, AtomBiosProxy*);
+    auto getAuxBusControl(bool);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinAuxChannelProxy();
 };

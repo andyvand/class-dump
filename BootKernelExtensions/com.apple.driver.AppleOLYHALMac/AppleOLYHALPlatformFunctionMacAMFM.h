@@ -6,14 +6,16 @@ class AppleOLYHALPlatformFunctionMacAMFM {
 public: // (access info unavailable from symbols alone)
     AppleOLYHALPlatformFunctionMacAMFM();
     AppleOLYHALPlatformFunctionMacAMFM(OSMetaClass const*);
-    copyRWCV(OSData*&);
-    free();
-    getACPIPropVal(OSString*, OSObject*&);
-    getMetaClass() const;
-    init(IOService*, CCLogStream*);
-    isSystemWokenByWiFi(char*, char const*, unsigned long);
-    setLowPowerDetected(bool);
-    setPowerEnable(bool);
-    smcNotifierHandler(void*, IOService*, IONotifier*);
+    auto copyRWCV(OSData*&);
+    auto free();
+    auto getACPIPropVal(OSString*, OSObject*&);
+    auto getMetaClass() const;
+    auto init(IOService*, CCLogStream*);
+    auto isSystemWokenByWiFi(char*, char const*, unsigned long);
+    auto setLowPowerDetected(bool);
+    auto setPowerEnable(bool);
+    auto smcNotifierHandler(void*, IOService*, IONotifier*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleOLYHALPlatformFunctionMacAMFM();
 };

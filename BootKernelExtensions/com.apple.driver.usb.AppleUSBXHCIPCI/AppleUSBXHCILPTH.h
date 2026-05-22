@@ -6,10 +6,12 @@ class AppleUSBXHCILPTH {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCILPTH();
     AppleUSBXHCILPTH(OSMetaClass const*);
-    getCompanionPortGated(AppleUSBHostPort*, unsigned int, AppleUSBHostPort*&);
-    getCompanionPortGated(AppleUSBHostPort*, unsigned int, AppleUSBHostPort*&) (.cold.1);
-    getCompanionPortGated(AppleUSBHostPort*, unsigned int, AppleUSBHostPort*&)::_os_log_fmt;
-    getCompanionPortGated(AppleUSBHostPort*, unsigned int, AppleUSBHostPort*&)::companionMap;
-    getMetaClass() const;
+    auto getCompanionPortGated(AppleUSBHostPort*, unsigned int, AppleUSBHostPort*&);
+    auto getCompanionPortGated(AppleUSBHostPort*, unsigned int, AppleUSBHostPort*&) (.cold.1);
+    auto getCompanionPortGated(AppleUSBHostPort*, unsigned int, AppleUSBHostPort*&)::_os_log_fmt;
+    auto getCompanionPortGated(AppleUSBHostPort*, unsigned int, AppleUSBHostPort*&)::companionMap;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCILPTH();
 };

@@ -4,6 +4,6 @@
 
 class ForwardActionChainGroup {
 public: // (access info unavailable from symbols alone)
-    addChildElement(ForwardActionChainElement*);
-    isGroupFinished();
+    auto addChildElement(ForwardActionChainElement*);
+    auto isGroupFinished();
 };

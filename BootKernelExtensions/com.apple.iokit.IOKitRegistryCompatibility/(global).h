@@ -6,8 +6,6 @@
 
 IOKitRegistryCompatibility::gMetaClass;
 IOKitRegistryCompatibility::metaClass;
-IOKitRegistryCompatibility::operator delete(void*, unsigned long);
-IOKitRegistryCompatibility::operator new(unsigned long);
 IOKitRegistryCompatibility::superClass;
 IOKitRegistryCompatibility_ktv;
 IOService::gMetaClass;

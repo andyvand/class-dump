@@ -6,11 +6,13 @@ class AppleUSBVHCIPipe {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIPipe();
     AppleUSBVHCIPipe(OSMetaClass const*);
-    free();
-    getController() const;
-    getMetaClass() const;
-    getVHCIEndpoint() const;
-    setVHCIEndpoint(AppleUSBVHCIEndpoint*);
-    withDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*);
+    auto free();
+    auto getController() const;
+    auto getMetaClass() const;
+    auto getVHCIEndpoint() const;
+    auto setVHCIEndpoint(AppleUSBVHCIEndpoint*);
+    auto withDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBVHCIPipe();
 };

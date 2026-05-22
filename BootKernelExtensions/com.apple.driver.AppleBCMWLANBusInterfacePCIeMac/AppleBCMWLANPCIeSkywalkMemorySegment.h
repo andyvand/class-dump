@@ -4,14 +4,14 @@
 
 class AppleBCMWLANPCIeSkywalkMemorySegment {
 public: // (access info unavailable from symbols alone)
-    complete(unsigned int);
-    free();
-    free()::kalloc_type_view_365;
-    getMetaClass() const;
-    initWithPool(IOSkywalkPacketBufferPool*, IOSkywalkMemorySegmentDescriptor*, CCLogStream*, CCFaultReporter*, unsigned int);
-    initWithPool(IOSkywalkPacketBufferPool*, IOSkywalkMemorySegmentDescriptor*, CCLogStream*, CCFaultReporter*, unsigned int)::kalloc_type_view_339;
-    prepare(unsigned int);
-    setBufferMemoryDescriptor(IOBufferMemoryDescriptor*);
-    setMapper(IOMapper*);
+    auto complete(unsigned int);
+    auto free();
+    auto free()::kalloc_type_view_365;
+    auto getMetaClass() const;
+    auto initWithPool(IOSkywalkPacketBufferPool*, IOSkywalkMemorySegmentDescriptor*, CCLogStream*, CCFaultReporter*, unsigned int);
+    auto initWithPool(IOSkywalkPacketBufferPool*, IOSkywalkMemorySegmentDescriptor*, CCLogStream*, CCFaultReporter*, unsigned int)::kalloc_type_view_339;
+    auto prepare(unsigned int);
+    auto setBufferMemoryDescriptor(IOBufferMemoryDescriptor*);
+    auto setMapper(IOMapper*);
     ~AppleBCMWLANPCIeSkywalkMemorySegment();
 };

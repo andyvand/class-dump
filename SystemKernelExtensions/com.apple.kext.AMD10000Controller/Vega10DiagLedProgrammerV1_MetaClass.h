@@ -5,6 +5,6 @@
 class Vega10DiagLedProgrammerV1::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

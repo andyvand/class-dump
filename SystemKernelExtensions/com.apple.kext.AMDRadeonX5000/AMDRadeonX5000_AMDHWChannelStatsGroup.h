@@ -6,9 +6,11 @@ class AMDRadeonX5000_AMDHWChannelStatsGroup {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDHWChannelStatsGroup();
     AMDRadeonX5000_AMDHWChannelStatsGroup(OSMetaClass const*);
-    dumpGroupStats(OSDictionary*, bool);
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX5000_AMDHWChannel*, char const*, char const*, unsigned int, char const**, char const**, AMDAccelCtl);
+    auto dumpGroupStats(OSDictionary*, bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX5000_AMDHWChannel*, char const*, char const*, unsigned int, char const**, char const**, AMDAccelCtl);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDHWChannelStatsGroup();
 };

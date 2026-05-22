@@ -4,5 +4,5 @@
 
 class AppleBCMWLANSkywalkInterface {
 public: // (access info unavailable from symbols alone)
-    isDataPathConnected();
+    auto isDataPathConnected();
 };

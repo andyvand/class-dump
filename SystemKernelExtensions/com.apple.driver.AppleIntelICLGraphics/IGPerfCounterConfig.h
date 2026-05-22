@@ -4,25 +4,27 @@
 
 class IGPerfCounterConfig {
 public: // (access info unavailable from symbols alone)
-    CompareAndUseNewConfig(bool, unsigned int, PerfCounterConfig*, unsigned long long, PerfCounterConfig*, TelemetryOperation*);
-    ConfigurePerfRegisters(unsigned long long, PerfCounterConfig&, unsigned int);
-    FindFlexEUsInConfigTable();
-    InitPerfRegisterTable(TelemetryOffsetValue const*, unsigned int, PerfCounterConfig&, TelemetryOperation*);
-    SendAllPrologs(unsigned long long);
-    SendProlog(TelemetryOffsetValue*, unsigned int);
-    SetClockGating(bool);
-    configMSR();
-    configPerfcntForSQFull(IntelAccelerator*);
-    configSpmGpmEuMetrics(IntelAccelerator*);
-    createDefaultConfig();
-    readMSR(unsigned int);
-    resendCurrentConfig(unsigned long long);
-    restoreClockGatingState();
-    restoreMSR();
-    saveClockGatingState();
-    saveMSR();
-    setUncorePerfCounterEnableFlag(int);
-    startChangingConfig();
-    writeMSR(unsigned int, int);
+    auto CompareAndUseNewConfig(bool, unsigned int, PerfCounterConfig*, unsigned long long, PerfCounterConfig*, TelemetryOperation*);
+    auto ConfigurePerfRegisters(unsigned long long, PerfCounterConfig&, unsigned int);
+    auto FindFlexEUsInConfigTable();
+    auto InitPerfRegisterTable(TelemetryOffsetValue const*, unsigned int, PerfCounterConfig&, TelemetryOperation*);
+    auto SendAllPrologs(unsigned long long);
+    auto SendProlog(TelemetryOffsetValue*, unsigned int);
+    auto SetClockGating(bool);
+    auto configMSR();
+    auto configPerfcntForSQFull(IntelAccelerator*);
+    auto configSpmGpmEuMetrics(IntelAccelerator*);
+    auto createDefaultConfig();
+    auto readMSR(unsigned int);
+    auto resendCurrentConfig(unsigned long long);
+    auto restoreClockGatingState();
+    auto restoreMSR();
+    auto saveClockGatingState();
+    auto saveMSR();
+    auto setUncorePerfCounterEnableFlag(int);
+    auto startChangingConfig();
+    auto writeMSR(unsigned int, int);
+    void * operator new(unsigned long)::kalloc_type_view_383;
+    void operator delete(void*, unsigned long)::kalloc_type_view_388;
     ~IGPerfCounterConfig();
 };

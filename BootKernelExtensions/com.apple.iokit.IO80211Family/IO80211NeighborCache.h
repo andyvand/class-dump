@@ -6,15 +6,17 @@ class IO80211NeighborCache {
 public: // (access info unavailable from symbols alone)
     IO80211NeighborCache();
     IO80211NeighborCache(OSMetaClass const*);
-    channelSpecMatches(AppleChannelSpec_t const&, AppleChannelSpec_t const&);
-    clear();
-    constructNewHotChannel(AppleChannelSpec_t&);
-    free();
-    free()::kalloc_type_view_71;
-    getMetaClass() const;
-    getfChanSpecInfo();
-    initWithChanSpec(AppleChannelSpec_t&);
-    initWithChanSpec(AppleChannelSpec_t&)::kalloc_type_view_60;
-    setChanInfoData(AppleChannelSpec_t&);
+    auto channelSpecMatches(AppleChannelSpec_t const&, AppleChannelSpec_t const&);
+    auto clear();
+    auto constructNewHotChannel(AppleChannelSpec_t&);
+    auto free();
+    auto free()::kalloc_type_view_71;
+    auto getMetaClass() const;
+    auto getfChanSpecInfo();
+    auto initWithChanSpec(AppleChannelSpec_t&);
+    auto initWithChanSpec(AppleChannelSpec_t&)::kalloc_type_view_60;
+    auto setChanInfoData(AppleChannelSpec_t&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211NeighborCache();
 };

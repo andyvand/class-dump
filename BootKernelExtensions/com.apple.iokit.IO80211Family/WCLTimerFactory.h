@@ -4,14 +4,16 @@
 
 class WCLTimerFactory {
 public: // (access info unavailable from symbols alone)
-    CreateTimer(OSObject*, void (*)(OSObject*, IO80211TimerSource*), char const*);
     WCLTimerFactory();
     WCLTimerFactory(OSMetaClass const*);
-    allocWithParams(IO80211WorkQueue*, IO80211WorkQueue*, CCLogStream*);
-    free();
-    free()::kalloc_type_view_119;
-    getMetaClass() const;
-    init(IO80211WorkQueue*, IO80211WorkQueue*, CCLogStream*);
-    init(IO80211WorkQueue*, IO80211WorkQueue*, CCLogStream*)::kalloc_type_view_78;
+    auto CreateTimer(OSObject*, void (*)(OSObject*, IO80211TimerSource*), char const*);
+    auto allocWithParams(IO80211WorkQueue*, IO80211WorkQueue*, CCLogStream*);
+    auto free();
+    auto free()::kalloc_type_view_119;
+    auto getMetaClass() const;
+    auto init(IO80211WorkQueue*, IO80211WorkQueue*, CCLogStream*);
+    auto init(IO80211WorkQueue*, IO80211WorkQueue*, CCLogStream*)::kalloc_type_view_78;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~WCLTimerFactory();
 };

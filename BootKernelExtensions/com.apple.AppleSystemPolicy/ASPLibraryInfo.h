@@ -5,16 +5,16 @@
 class ASPLibraryInfo {
 public: // (access info unavailable from symbols alone)
     ASPLibraryInfo(fileglob*, long long);
-    blob();
-    cdhash_buffer();
-    is_linker_signed();
-    is_platform();
-    is_signed();
-    is_supplemental_signature();
-    is_supplemental_signature_platform();
-    platform_identifier();
-    signing_identifier();
-    team_identifier();
-    vp();
+    auto blob();
+    auto cdhash_buffer();
+    auto is_linker_signed();
+    auto is_platform();
+    auto is_signed();
+    auto is_supplemental_signature();
+    auto is_supplemental_signature_platform();
+    auto platform_identifier();
+    auto signing_identifier();
+    auto team_identifier();
+    auto vp();
     ~ASPLibraryInfo();
 };

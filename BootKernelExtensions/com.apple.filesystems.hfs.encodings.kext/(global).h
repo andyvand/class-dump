@@ -7,8 +7,6 @@
 IOService::gMetaClass;
 com_apple_filesystems_hfs_encodings::gMetaClass;
 com_apple_filesystems_hfs_encodings::metaClass;
-com_apple_filesystems_hfs_encodings::operator delete(void*, unsigned long);
-com_apple_filesystems_hfs_encodings::operator new(unsigned long);
 com_apple_filesystems_hfs_encodings::superClass;
 com_apple_filesystems_hfs_encodings_ktv;
 vtable for IOService;

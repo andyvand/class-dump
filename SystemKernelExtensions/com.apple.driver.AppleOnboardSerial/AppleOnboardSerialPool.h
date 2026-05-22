@@ -6,11 +6,13 @@ class AppleOnboardSerialPool {
 public: // (access info unavailable from symbols alone)
     AppleOnboardSerialPool();
     AppleOnboardSerialPool(OSMetaClass const*);
-    __OSFinalClass();
-    gatedGetCommandWait(IOCommand**);
-    gatedGetCommandWait(IOCommand**) (.cold.1);
-    getCommand(bool);
-    getMetaClass() const;
-    withWorkLoop(IOWorkLoop*);
+    auto __OSFinalClass();
+    auto gatedGetCommandWait(IOCommand**);
+    auto gatedGetCommandWait(IOCommand**) (.cold.1);
+    auto getCommand(bool);
+    auto getMetaClass() const;
+    auto withWorkLoop(IOWorkLoop*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleOnboardSerialPool();
 };

@@ -4,20 +4,22 @@
 
 class com_apple_driver_pmtelemetry {
 public: // (access info unavailable from symbols alone)
-    _createReporters();
-    _destroyReporters();
-    _pch_init();
-    close(IOService*, unsigned int);
+    auto _createReporters();
+    auto _destroyReporters();
+    auto _pch_init();
+    auto close(IOService*, unsigned int);
+    auto configureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto free();
+    auto getCpuModel();
+    auto getMetaClass() const;
+    auto getPchModel();
+    auto open(IOService*, unsigned int, void*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto updateReport(IOReportChannelList*, unsigned int, void*, void*);
     com_apple_driver_pmtelemetry();
     com_apple_driver_pmtelemetry(OSMetaClass const*);
-    configureReport(IOReportChannelList*, unsigned int, void*, void*);
-    free();
-    getCpuModel();
-    getMetaClass() const;
-    getPchModel();
-    open(IOService*, unsigned int, void*);
-    start(IOService*);
-    stop(IOService*);
-    updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_pmtelemetry();
 };

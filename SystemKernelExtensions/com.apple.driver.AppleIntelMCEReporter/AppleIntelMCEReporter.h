@@ -4,16 +4,16 @@
 
 class AppleIntelMCEReporter {
 public: // (access info unavailable from symbols alone)
-    filteredSecondaryInterruptHandler(OSObject*, IOInterruptEventSource*, int);
-    free();
-    gatedSynthesizeInterrupt(OSObject*, void*, void*, void*, void*);
-    getMetaClass() const;
-    init(OSDictionary*);
-    primaryInterruptHandler(OSObject*, IOFilterInterruptEventSource*);
-    probe(IOService*, int*);
-    setPowerState(unsigned long, IOService*);
-    start(IOService*);
-    stop(IOService*);
-    stopInterrupts();
+    auto filteredSecondaryInterruptHandler(OSObject*, IOInterruptEventSource*, int);
+    auto free();
+    auto gatedSynthesizeInterrupt(OSObject*, void*, void*, void*, void*);
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto primaryInterruptHandler(OSObject*, IOFilterInterruptEventSource*);
+    auto probe(IOService*, int*);
+    auto setPowerState(unsigned long, IOService*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto stopInterrupts();
     ~AppleIntelMCEReporter();
 };

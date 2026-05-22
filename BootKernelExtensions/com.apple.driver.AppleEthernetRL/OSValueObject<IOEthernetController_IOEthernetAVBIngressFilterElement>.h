@@ -4,14 +4,14 @@
 
 class OSValueObject<IOEthernetController::IOEthernetAVBIngressFilterElement> {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_493;
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_478;
-    isEqualTo(IOEthernetController::IOEthernetAVBIngressFilterElement const&) const;
-    isEqualTo(OSMetaClassBase const*) const;
-    isEqualTo(OSValueObject<IOEthernetController::IOEthernetAVBIngressFilterElement> const*) const;
-    serialize(OSSerialize*) const;
+    auto free();
+    auto free()::kalloc_type_view_493;
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_478;
+    auto isEqualTo(IOEthernetController::IOEthernetAVBIngressFilterElement const&) const;
+    auto isEqualTo(OSMetaClassBase const*) const;
+    auto isEqualTo(OSValueObject<IOEthernetController::IOEthernetAVBIngressFilterElement> const*) const;
+    auto serialize(OSSerialize*) const;
     ~OSValueObject();
 };

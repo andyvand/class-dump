@@ -4,5 +4,5 @@
 
 class IOAccelCommandDescriptor {
 public: // (access info unavailable from symbols alone)
-    init(IOGraphicsAccelerator2*);
+    auto init(IOGraphicsAccelerator2*);
 };

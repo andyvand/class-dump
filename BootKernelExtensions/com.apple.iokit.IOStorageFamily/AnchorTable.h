@@ -5,16 +5,18 @@
 class AnchorTable {
 public: // (access info unavailable from symbols alone)
     AnchorTable();
-    anchorWasNotified(void*, void*, unsigned int, IOService*, void*, unsigned long);
-    insert(IOService*, void*);
-    insert(IOService*, void*)::kalloc_type_view_3332;
-    insert(IOService*, void*)::kalloc_type_view_3343;
-    isObsolete(unsigned int);
-    locate(IOService*);
-    locate(IOService*, void*);
-    obsolete(unsigned int);
-    remove(unsigned int);
-    update(IOService*, void*);
+    auto anchorWasNotified(void*, void*, unsigned int, IOService*, void*, unsigned long);
+    auto insert(IOService*, void*);
+    auto insert(IOService*, void*)::kalloc_type_view_3332;
+    auto insert(IOService*, void*)::kalloc_type_view_3343;
+    auto isObsolete(unsigned int);
+    auto locate(IOService*);
+    auto locate(IOService*, void*);
+    auto obsolete(unsigned int);
+    auto remove(unsigned int);
+    auto update(IOService*, void*);
+    void * operator new(unsigned long)::kalloc_type_view_153;
+    void operator delete(void*, unsigned long)::kalloc_type_view_153;
     ~AnchorTable();
     ~AnchorTable()::kalloc_type_view_3298;
 };

@@ -5,7 +5,9 @@
 class AtiFirmwareInfoInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiFirmwareInfoInterface_V1(OSMetaClass const*);
-    createFirmwareInfo(AtiVBiosHelper*, unsigned int);
-    getMetaClass() const;
+    auto createFirmwareInfo(AtiVBiosHelper*, unsigned int);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiFirmwareInfoInterface_V1();
 };

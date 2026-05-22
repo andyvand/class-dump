@@ -6,13 +6,15 @@ class AppleSSEUserClient {
 public: // (access info unavailable from symbols alone)
     AppleSSEUserClient();
     AppleSSEUserClient(OSMetaClass const*);
-    clientClose();
-    extPerform(AppleSSE*, void*, IOExternalMethodArguments*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    free();
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    start(IOService*);
-    stop(IOService*);
+    auto clientClose();
+    auto extPerform(AppleSSE*, void*, IOExternalMethodArguments*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSSEUserClient();
 };

@@ -5,21 +5,21 @@
 class IOSharedDataQueue {
 public: // (access info unavailable from symbols alone)
     IOSharedDataQueue(OSMetaClass const*);
-    _RESERVEDIOSharedDataQueue0();
-    _RESERVEDIOSharedDataQueue1();
-    _RESERVEDIOSharedDataQueue2();
-    _RESERVEDIOSharedDataQueue3();
-    _RESERVEDIOSharedDataQueue4();
-    _RESERVEDIOSharedDataQueue5();
-    _RESERVEDIOSharedDataQueue6();
-    _RESERVEDIOSharedDataQueue7();
-    dequeue(void*, unsigned int*);
-    enqueue(void*, unsigned int);
-    free();
-    getMemoryDescriptor();
-    getQueueSize();
-    initWithCapacity(unsigned int);
-    peek();
-    setQueueSize(unsigned int);
+    auto _RESERVEDIOSharedDataQueue0();
+    auto _RESERVEDIOSharedDataQueue1();
+    auto _RESERVEDIOSharedDataQueue2();
+    auto _RESERVEDIOSharedDataQueue3();
+    auto _RESERVEDIOSharedDataQueue4();
+    auto _RESERVEDIOSharedDataQueue5();
+    auto _RESERVEDIOSharedDataQueue6();
+    auto _RESERVEDIOSharedDataQueue7();
+    auto dequeue(void*, unsigned int*);
+    auto enqueue(void*, unsigned int);
+    auto free();
+    auto getMemoryDescriptor();
+    auto getQueueSize();
+    auto initWithCapacity(unsigned int);
+    auto peek();
+    auto setQueueSize(unsigned int);
     ~IOSharedDataQueue();
 };

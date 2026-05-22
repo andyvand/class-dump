@@ -6,10 +6,12 @@ class AppleThunderboltNHIMemoryBlock {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltNHIMemoryBlock();
     AppleThunderboltNHIMemoryBlock(OSMetaClass const*);
-    getDescriptor();
-    getMetaClass() const;
-    getPhysicalAddress();
-    getSize();
-    getVirtualAddress();
+    auto getDescriptor();
+    auto getMetaClass() const;
+    auto getPhysicalAddress();
+    auto getSize();
+    auto getVirtualAddress();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltNHIMemoryBlock();
 };

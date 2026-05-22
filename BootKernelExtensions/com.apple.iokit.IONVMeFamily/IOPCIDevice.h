@@ -4,8 +4,8 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    extendedConfigRead16(unsigned long long);
-    extendedConfigRead32(unsigned long long);
-    setASPMState(IOService*, unsigned int);
-    setBusLeadEnable(bool);
+    auto extendedConfigRead16(unsigned long long);
+    auto extendedConfigRead32(unsigned long long);
+    auto setASPMState(IOService*, unsigned int);
+    auto setBusLeadEnable(bool);
 };

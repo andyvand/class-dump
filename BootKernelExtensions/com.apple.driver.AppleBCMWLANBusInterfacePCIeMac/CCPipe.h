@@ -4,5 +4,5 @@
 
 class CCPipe {
 public: // (access info unavailable from symbols alone)
-    withOwnerNameCapacity(IOService*, char const*, char const*, CCPipeOptions const*);
+    auto withOwnerNameCapacity(IOService*, char const*, char const*, CCPipeOptions const*);
 };

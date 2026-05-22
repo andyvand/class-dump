@@ -5,11 +5,11 @@
 class AuxChannelProxy {
 public: // (access info unavailable from symbols alone)
     AuxChannelProxy(OSMetaClass const*);
-    detectLoad(DpcdInfo*);
-    init(ConnectorInfo const*, ARegisterService*, AtomBiosProxy*);
-    readByte(unsigned int, unsigned char*, unsigned char);
-    readBytes(unsigned int, unsigned int, unsigned char*, unsigned char);
-    readEdid(Edid*);
-    writeByte(unsigned int, unsigned char, unsigned char);
+    auto detectLoad(DpcdInfo*);
+    auto init(ConnectorInfo const*, ARegisterService*, AtomBiosProxy*);
+    auto readByte(unsigned int, unsigned char*, unsigned char);
+    auto readBytes(unsigned int, unsigned int, unsigned char*, unsigned char);
+    auto readEdid(Edid*);
+    auto writeByte(unsigned int, unsigned char, unsigned char);
     ~AuxChannelProxy();
 };

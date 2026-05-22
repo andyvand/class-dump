@@ -4,5 +4,5 @@
 
 class AppleUSBCommonDebug {
 public: // (access info unavailable from symbols alone)
-    getDebugLoggingMaskForMetaClass(OSMetaClass const*, OSMetaClass const*, char const*);
+    auto getDebugLoggingMaskForMetaClass(OSMetaClass const*, OSMetaClass const*, char const*);
 };

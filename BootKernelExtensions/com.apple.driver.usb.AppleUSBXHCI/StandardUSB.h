@@ -4,15 +4,15 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    getEndpointAddress(StandardUSB::EndpointDescriptor const*);
-    getEndpointBurstSize32(unsigned int, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
-    getEndpointDirection(StandardUSB::EndpointDescriptor const*);
-    getEndpointIntervalEncodedMicroframes(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointIntervalMicroframes(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointMaxStreams(unsigned int, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*);
-    getEndpointMult(unsigned int, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
-    getEndpointNumber(StandardUSB::EndpointDescriptor const*);
-    getEndpointType(StandardUSB::EndpointDescriptor const*);
-    getNextAssociatedDescriptorWithType(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*, StandardUSB::Descriptor const*, unsigned char);
+    auto getEndpointAddress(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointBurstSize32(unsigned int, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
+    auto getEndpointDirection(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointIntervalEncodedMicroframes(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointIntervalMicroframes(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointMaxStreams(unsigned int, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*);
+    auto getEndpointMult(unsigned int, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
+    auto getEndpointNumber(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointType(StandardUSB::EndpointDescriptor const*);
+    auto getNextAssociatedDescriptorWithType(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*, StandardUSB::Descriptor const*, unsigned char);
 };

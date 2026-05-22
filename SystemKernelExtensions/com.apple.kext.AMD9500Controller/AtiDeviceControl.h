@@ -4,5 +4,5 @@
 
 class AtiDeviceControl {
 public: // (access info unavailable from symbols alone)
-    notifyLinkChange(kAGDCRegisterLinkControlEvent_t, unsigned long, unsigned int);
+    auto notifyLinkChange(kAGDCRegisterLinkControlEvent_t, unsigned long, unsigned int);
 };

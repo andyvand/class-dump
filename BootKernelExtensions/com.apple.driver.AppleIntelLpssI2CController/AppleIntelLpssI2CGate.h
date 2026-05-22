@@ -6,7 +6,9 @@ class AppleIntelLpssI2CGate {
 public: // (access info unavailable from symbols alone)
     AppleIntelLpssI2CGate();
     AppleIntelLpssI2CGate(OSMetaClass const*);
-    commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
-    getMetaClass() const;
+    auto commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelLpssI2CGate();
 };

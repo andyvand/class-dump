@@ -6,13 +6,9 @@
 
 AppleUpstreamUserClient::gMetaClass;
 AppleUpstreamUserClient::metaClass;
-AppleUpstreamUserClient::operator delete(void*, unsigned long);
-AppleUpstreamUserClient::operator new(unsigned long);
 AppleUpstreamUserClient::superClass;
 AppleUpstreamUserClientDriver::gMetaClass;
 AppleUpstreamUserClientDriver::metaClass;
-AppleUpstreamUserClientDriver::operator delete(void*, unsigned long);
-AppleUpstreamUserClientDriver::operator new(unsigned long);
 AppleUpstreamUserClientDriver::superClass;
 AppleUpstreamUserClientDriver_ktv;
 AppleUpstreamUserClient_ktv;

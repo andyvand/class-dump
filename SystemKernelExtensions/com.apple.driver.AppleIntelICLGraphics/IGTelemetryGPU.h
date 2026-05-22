@@ -4,25 +4,25 @@
 
 class IGTelemetryGPU {
 public: // (access info unavailable from symbols alone)
-    copySampleToLast(TelemetrySampleInfo*);
-    cvtGPUPerfSampleToMetaSample(TelemetrySampleGPU*, TelemetrySampleMeta*);
-    emitHeaderInfoGPU(void**);
-    emitSampleGPU(TelemetrySampleInfo*);
-    emitSampleHeaderGPU(void**, unsigned int);
-    getGroupName(unsigned int);
-    getGroupSampleBytes(int);
-    getItemName(unsigned int, unsigned int, char const**);
-    getNameGPU();
-    getNumItemsInGroup(int);
-    init();
-    initTelemetryItems(unsigned int, void*, unsigned int);
-    initTelemetryItemsOnce();
-    isRegisterValid(unsigned int);
-    prepareCollectionStateOnGPU();
-    setDynamicRegStats(unsigned int, MDAPIConfigRegs*);
-    setItemNameDesc(unsigned int, unsigned int, char const*, char const*);
-    setNumItemsInGroup(int, unsigned int);
-    shutdown();
-    writeSampleRequestToGPU(unsigned long long, TelemetrySampleInfo*);
+    auto copySampleToLast(TelemetrySampleInfo*);
+    auto cvtGPUPerfSampleToMetaSample(TelemetrySampleGPU*, TelemetrySampleMeta*);
+    auto emitHeaderInfoGPU(void**);
+    auto emitSampleGPU(TelemetrySampleInfo*);
+    auto emitSampleHeaderGPU(void**, unsigned int);
+    auto getGroupName(unsigned int);
+    auto getGroupSampleBytes(int);
+    auto getItemName(unsigned int, unsigned int, char const**);
+    auto getNameGPU();
+    auto getNumItemsInGroup(int);
+    auto init();
+    auto initTelemetryItems(unsigned int, void*, unsigned int);
+    auto initTelemetryItemsOnce();
+    auto isRegisterValid(unsigned int);
+    auto prepareCollectionStateOnGPU();
+    auto setDynamicRegStats(unsigned int, MDAPIConfigRegs*);
+    auto setItemNameDesc(unsigned int, unsigned int, char const*, char const*);
+    auto setNumItemsInGroup(int, unsigned int);
+    auto shutdown();
+    auto writeSampleRequestToGPU(unsigned long long, TelemetrySampleInfo*);
     ~IGTelemetryGPU();
 };

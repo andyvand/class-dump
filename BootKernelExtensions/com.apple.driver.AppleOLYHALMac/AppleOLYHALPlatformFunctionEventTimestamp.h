@@ -6,13 +6,15 @@ class AppleOLYHALPlatformFunctionEventTimestamp {
 public: // (access info unavailable from symbols alone)
     AppleOLYHALPlatformFunctionEventTimestamp();
     AppleOLYHALPlatformFunctionEventTimestamp(OSMetaClass const*);
-    disable();
-    enable();
-    free();
-    getMetaClass() const;
-    getTimestamp();
-    initWithProvider(IORegistryEntry*, char const*);
-    installInterrupt(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), bool (*)(OSObject*, IOFilterInterruptEventSource*), IOService*);
-    withProvider(IORegistryEntry*, char const*);
+    auto disable();
+    auto enable();
+    auto free();
+    auto getMetaClass() const;
+    auto getTimestamp();
+    auto initWithProvider(IORegistryEntry*, char const*);
+    auto installInterrupt(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), bool (*)(OSObject*, IOFilterInterruptEventSource*), IOService*);
+    auto withProvider(IORegistryEntry*, char const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleOLYHALPlatformFunctionEventTimestamp();
 };

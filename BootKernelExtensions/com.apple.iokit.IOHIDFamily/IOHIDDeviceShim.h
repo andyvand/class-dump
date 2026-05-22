@@ -5,18 +5,20 @@
 class IOHIDDeviceShim {
 public: // (access info unavailable from symbols alone)
     IOHIDDeviceShim(OSMetaClass const*);
-    getMetaClass() const;
-    handleStart(IOService*);
-    initWithLocation(unsigned int);
-    initWithParameters(unsigned int, int);
-    isSeized();
-    newLocationIDNumber() const;
-    newManufacturerString() const;
-    newProductIDNumber() const;
-    newProductString() const;
-    newSerialNumberString() const;
-    newTransportString() const;
-    newVendorIDNumber() const;
-    transport();
+    auto getMetaClass() const;
+    auto handleStart(IOService*);
+    auto initWithLocation(unsigned int);
+    auto initWithParameters(unsigned int, int);
+    auto isSeized();
+    auto newLocationIDNumber() const;
+    auto newManufacturerString() const;
+    auto newProductIDNumber() const;
+    auto newProductString() const;
+    auto newSerialNumberString() const;
+    auto newTransportString() const;
+    auto newVendorIDNumber() const;
+    auto transport();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDDeviceShim();
 };

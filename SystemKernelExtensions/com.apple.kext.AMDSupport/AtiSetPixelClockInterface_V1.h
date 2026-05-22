@@ -5,8 +5,10 @@
 class AtiSetPixelClockInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiSetPixelClockInterface_V1(OSMetaClass const*);
-    createSetPixelClock(AtiVBiosHelper*);
-    getMetaClass() const;
-    modifyPixelClockForHdmiDeepColor(unsigned long long, unsigned int);
+    auto createSetPixelClock(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    auto modifyPixelClockForHdmiDeepColor(unsigned long long, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSetPixelClockInterface_V1();
 };

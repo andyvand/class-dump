@@ -5,7 +5,7 @@
 class IOTimeSyncDaemonClientBase {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncDaemonClientBase(OSMetaClass const*);
-    sendNotification(unsigned int, unsigned long long*, unsigned int);
-    start(int, OSSharedPtr<IOService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
+    auto sendNotification(unsigned int, unsigned long long*, unsigned int);
+    auto start(int, OSSharedPtr<IOService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
     ~IOTimeSyncDaemonClientBase();
 };

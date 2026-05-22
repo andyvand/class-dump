@@ -6,19 +6,13 @@
 
 ApplePVPanic::gMetaClass;
 ApplePVPanic::metaClass;
-ApplePVPanic::operator delete(void*, unsigned long);
-ApplePVPanic::operator new(unsigned long);
 ApplePVPanic::superClass;
 ApplePVPanicISA::gMetaClass;
 ApplePVPanicISA::metaClass;
-ApplePVPanicISA::operator delete(void*, unsigned long);
-ApplePVPanicISA::operator new(unsigned long);
 ApplePVPanicISA::superClass;
 ApplePVPanicISA_ktv;
 ApplePVPanicMMIO::gMetaClass;
 ApplePVPanicMMIO::metaClass;
-ApplePVPanicMMIO::operator delete(void*, unsigned long);
-ApplePVPanicMMIO::operator new(unsigned long);
 ApplePVPanicMMIO::superClass;
 ApplePVPanicMMIO_ktv;
 ApplePVPanic_ktv;

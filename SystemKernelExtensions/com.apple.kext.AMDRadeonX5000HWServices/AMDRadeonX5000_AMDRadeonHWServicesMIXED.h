@@ -5,13 +5,15 @@
 class AMDRadeonX5000_AMDRadeonHWServicesMIXED {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDRadeonHWServicesMIXED(OSMetaClass const*);
-    createCailInterface(IOPCIDevice*);
-    createTtlInterface(IOPCIDevice*);
-    free();
-    getCail();
-    getMetaClass() const;
-    getTtl();
-    start(IOService*);
-    stop(IOService*);
+    auto createCailInterface(IOPCIDevice*);
+    auto createTtlInterface(IOPCIDevice*);
+    auto free();
+    auto getCail();
+    auto getMetaClass() const;
+    auto getTtl();
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDRadeonHWServicesMIXED();
 };

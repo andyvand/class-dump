@@ -4,7 +4,7 @@
 
 class AppleOLYHAL {
 public: // (access info unavailable from symbols alone)
-    createPlatformFunctionInterface();
-    createPortInterfacePCIe(char const*);
-    setPropertyHelper(OSString*, OSObject*);
+    auto createPlatformFunctionInterface();
+    auto createPortInterfacePCIe(char const*);
+    auto setPropertyHelper(OSString*, OSObject*);
 };

@@ -4,25 +4,25 @@
 
 class IOSkywalkRxSubmissionQueue {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOSkywalkRxSubmissionQueue0();
-    _RESERVEDIOSkywalkRxSubmissionQueue1();
-    _RESERVEDIOSkywalkRxSubmissionQueue10();
-    _RESERVEDIOSkywalkRxSubmissionQueue2();
-    _RESERVEDIOSkywalkRxSubmissionQueue3();
-    _RESERVEDIOSkywalkRxSubmissionQueue4();
-    _RESERVEDIOSkywalkRxSubmissionQueue5();
-    _RESERVEDIOSkywalkRxSubmissionQueue6();
-    _RESERVEDIOSkywalkRxSubmissionQueue7();
-    _RESERVEDIOSkywalkRxSubmissionQueue8();
-    _RESERVEDIOSkywalkRxSubmissionQueue9();
-    checkForWork();
-    disable();
-    enable();
-    finalize();
-    getPacketCount() const;
-    initWithPool(IOSkywalkPacketBufferPool*, unsigned int, unsigned int, unsigned int, OSObject*, unsigned int (*)(OSObject*, IOSkywalkRxSubmissionQueue*, IOSkywalkPacket* const*, unsigned int, void*), void*, unsigned int);
-    initialize(void*);
-    packetCompletion(IOSkywalkPacket*, IOSkywalkPacketQueue*, unsigned int);
-    performCommand(unsigned int, void*, unsigned long);
-    taggedRelease(void const*) const;
+    auto _RESERVEDIOSkywalkRxSubmissionQueue0();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue1();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue10();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue2();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue3();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue4();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue5();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue6();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue7();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue8();
+    auto _RESERVEDIOSkywalkRxSubmissionQueue9();
+    auto checkForWork();
+    auto disable();
+    auto enable();
+    auto finalize();
+    auto getPacketCount() const;
+    auto initWithPool(IOSkywalkPacketBufferPool*, unsigned int, unsigned int, unsigned int, OSObject*, unsigned int (*)(OSObject*, IOSkywalkRxSubmissionQueue*, IOSkywalkPacket* const*, unsigned int, void*), void*, unsigned int);
+    auto initialize(void*);
+    auto packetCompletion(IOSkywalkPacket*, IOSkywalkPacketQueue*, unsigned int);
+    auto performCommand(unsigned int, void*, unsigned long);
+    auto taggedRelease(void const*) const;
 };

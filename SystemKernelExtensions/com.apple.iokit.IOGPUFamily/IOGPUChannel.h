@@ -5,18 +5,20 @@
 class IOGPUChannel {
 public: // (access info unavailable from symbols alone)
     IOGPUChannel(OSMetaClass const*);
-    free();
-    getChannelLabel() const;
-    getMetaClass() const;
-    hasStampIndexInEvent(IOGPUEvent const*) const;
-    incrementStamp();
-    init(IOGPU*, int);
-    isIdle() const;
-    mergeEventExcluding(IOGPUEvent*, IOGPUEvent*);
-    setEventStamp(IOGPUEvent*);
-    setStampIndex(int);
-    updateChannelStampIndex(IOGPUDevice*);
-    writeEventBarrierCommand(IOGPUEventQueue*, IOGPUEvent*, vendevtBarrierRec*);
-    writeStampCommand(IOGPUEventQueue*, vendevtCommandRec*);
+    auto free();
+    auto getChannelLabel() const;
+    auto getMetaClass() const;
+    auto hasStampIndexInEvent(IOGPUEvent const*) const;
+    auto incrementStamp();
+    auto init(IOGPU*, int);
+    auto isIdle() const;
+    auto mergeEventExcluding(IOGPUEvent*, IOGPUEvent*);
+    auto setEventStamp(IOGPUEvent*);
+    auto setStampIndex(int);
+    auto updateChannelStampIndex(IOGPUDevice*);
+    auto writeEventBarrierCommand(IOGPUEventQueue*, IOGPUEvent*, vendevtBarrierRec*);
+    auto writeStampCommand(IOGPUEventQueue*, vendevtCommandRec*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUChannel();
 };

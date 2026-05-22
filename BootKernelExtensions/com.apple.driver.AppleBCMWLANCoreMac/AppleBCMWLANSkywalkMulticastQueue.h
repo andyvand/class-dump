@@ -5,15 +5,17 @@
 class AppleBCMWLANSkywalkMulticastQueue {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANSkywalkMulticastQueue(OSMetaClass const*);
-    collectQueueStats(skywalkDataPathStats_t*);
-    enable();
-    free();
-    free()::kalloc_type_view_791;
-    getInterface();
-    getLogger() const;
-    getMetaClass() const;
-    initWithInterface(IO80211SkywalkInterface*);
-    initWithInterface(IO80211SkywalkInterface*)::kalloc_type_view_777;
-    requestDequeue();
+    auto collectQueueStats(skywalkDataPathStats_t*);
+    auto enable();
+    auto free();
+    auto free()::kalloc_type_view_791;
+    auto getInterface();
+    auto getLogger() const;
+    auto getMetaClass() const;
+    auto initWithInterface(IO80211SkywalkInterface*);
+    auto initWithInterface(IO80211SkywalkInterface*)::kalloc_type_view_777;
+    auto requestDequeue();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleBCMWLANSkywalkMulticastQueue();
 };

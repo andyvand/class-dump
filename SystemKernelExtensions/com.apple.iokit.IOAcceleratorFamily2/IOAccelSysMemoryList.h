@@ -4,14 +4,14 @@
 
 class IOAccelSysMemoryList {
 public: // (access info unavailable from symbols alone)
-    addMemory(IOAccelSysMemory*);
-    getCount() const;
-    init();
-    moveMemoryToHead(IOAccelSysMemory*);
-    moveMemoryToTail(IOAccelSysMemory*);
-    removeMemory(IOAccelSysMemory*);
-    removeMemory(IOAccelSysMemory*)::_os_log_fmt;
-    sort();
-    sort()::kalloc_type_view_1122;
-    sort()::kalloc_type_view_1158;
+    auto addMemory(IOAccelSysMemory*);
+    auto getCount() const;
+    auto init();
+    auto moveMemoryToHead(IOAccelSysMemory*);
+    auto moveMemoryToTail(IOAccelSysMemory*);
+    auto removeMemory(IOAccelSysMemory*);
+    auto removeMemory(IOAccelSysMemory*)::_os_log_fmt;
+    auto sort();
+    auto sort()::kalloc_type_view_1122;
+    auto sort()::kalloc_type_view_1158;
 };

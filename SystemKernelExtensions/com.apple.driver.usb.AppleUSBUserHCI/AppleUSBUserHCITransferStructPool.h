@@ -6,15 +6,17 @@ class AppleUSBUserHCITransferStructPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBUserHCITransferStructPool();
     AppleUSBUserHCITransferStructPool(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getTransferStruct();
-    getTransferStruct() (.cold.1);
-    getTransferStruct() (.cold.2);
-    initWithParameters(unsigned int, task*, unsigned int);
-    initWithParameters(unsigned int, task*, unsigned int) (.cold.1);
-    returnTransferStruct(AppleUSBUserHCITransferStruct*);
-    returnTransferStruct(AppleUSBUserHCITransferStruct*) (.cold.1);
-    withParameters(unsigned int, task*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getTransferStruct();
+    auto getTransferStruct() (.cold.1);
+    auto getTransferStruct() (.cold.2);
+    auto initWithParameters(unsigned int, task*, unsigned int);
+    auto initWithParameters(unsigned int, task*, unsigned int) (.cold.1);
+    auto returnTransferStruct(AppleUSBUserHCITransferStruct*);
+    auto returnTransferStruct(AppleUSBUserHCITransferStruct*) (.cold.1);
+    auto withParameters(unsigned int, task*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBUserHCITransferStructPool();
 };

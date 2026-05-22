@@ -5,10 +5,10 @@
 class IOTimeSyncLuckyFilter {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncLuckyFilter();
-    S0_InitCeilingFloor(long long);
-    S1_RunLuckyFilter(long long);
-    adjustCeilingByStep(IOTimeSyncLuckyFilter&);
-    adjustCeilingByWindow(IOTimeSyncLuckyFilter&);
-    filter(long long);
-    timeStamp(long long);
+    auto S0_InitCeilingFloor(long long);
+    auto S1_RunLuckyFilter(long long);
+    auto adjustCeilingByStep(IOTimeSyncLuckyFilter&);
+    auto adjustCeilingByWindow(IOTimeSyncLuckyFilter&);
+    auto filter(long long);
+    auto timeStamp(long long);
 };

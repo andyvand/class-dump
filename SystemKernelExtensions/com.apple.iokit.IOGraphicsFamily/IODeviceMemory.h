@@ -4,5 +4,5 @@
 
 class IODeviceMemory {
 public: // (access info unavailable from symbols alone)
-    withRange(unsigned long long, unsigned long long);
+    auto withRange(unsigned long long, unsigned long long);
 };

@@ -4,5 +4,5 @@
 
 class OSSymbol {
 public: // (access info unavailable from symbols alone)
-    withString(OSString const*);
+    auto withString(OSString const*);
 };

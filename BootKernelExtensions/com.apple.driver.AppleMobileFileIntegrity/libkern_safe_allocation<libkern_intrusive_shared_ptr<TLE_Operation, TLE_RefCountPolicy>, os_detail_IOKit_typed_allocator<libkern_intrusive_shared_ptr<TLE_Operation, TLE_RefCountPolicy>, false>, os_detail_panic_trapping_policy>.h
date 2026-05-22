@@ -4,7 +4,7 @@
 
 class libkern::safe_allocation<libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>, os_detail::IOKit_typed_allocator<libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>, false>, os_detail::panic_trapping_policy> {
 public: // (access info unavailable from symbols alone)
-    end();
+    auto end();
     ~safe_allocation();
     ~safe_allocation() (.40);
 };

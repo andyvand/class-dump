@@ -6,13 +6,15 @@ class AppleUSBiBridge {
 public: // (access info unavailable from symbols alone)
     AppleUSBiBridge();
     AppleUSBiBridge(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initialPowerStateForDomainState(unsigned long);
-    powerStateDidChangeTo(unsigned long, unsigned long, IOService*);
-    powerStateWillChangeTo(unsigned long, unsigned long, IOService*);
-    start(IOService*);
-    stop(IOService*);
-    willTerminate(IOService*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto initialPowerStateForDomainState(unsigned long);
+    auto powerStateDidChangeTo(unsigned long, unsigned long, IOService*);
+    auto powerStateWillChangeTo(unsigned long, unsigned long, IOService*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto willTerminate(IOService*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBiBridge();
 };

@@ -4,5 +4,5 @@
 
 class HizCommon {
 public: // (access info unavailable from symbols alone)
-    Generate(depth_resolve_params_t const*, unsigned int, unsigned int);
+    auto Generate(depth_resolve_params_t const*, unsigned int, unsigned int);
 };

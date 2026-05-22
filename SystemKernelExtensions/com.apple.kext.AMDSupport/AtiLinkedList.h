@@ -6,15 +6,17 @@ class AtiLinkedList {
 public: // (access info unavailable from symbols alone)
     AtiLinkedList();
     AtiLinkedList(OSMetaClass const*);
-    contains(AtiLinkedListItem*);
-    createList();
-    debugCount();
-    getCount();
-    getIterator();
-    getMetaClass() const;
-    indexOf(AtiLinkedListItem*);
-    init();
-    insert(AtiLinkedListItem*);
-    remove(AtiLinkedListItem*);
+    auto contains(AtiLinkedListItem*);
+    auto createList();
+    auto debugCount();
+    auto getCount();
+    auto getIterator();
+    auto getMetaClass() const;
+    auto indexOf(AtiLinkedListItem*);
+    auto init();
+    auto insert(AtiLinkedListItem*);
+    auto remove(AtiLinkedListItem*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiLinkedList();
 };

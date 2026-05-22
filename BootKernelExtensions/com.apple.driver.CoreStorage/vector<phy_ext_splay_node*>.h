@@ -4,6 +4,6 @@
 
 class vector<phy_ext_splay_node*> {
 public: // (access info unavailable from symbols alone)
-    push_back(phy_ext_splay_node* const&);
-    reserve(unsigned long);
+    auto push_back(phy_ext_splay_node* const&);
+    auto reserve(unsigned long);
 };

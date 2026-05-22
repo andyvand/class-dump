@@ -6,14 +6,16 @@ class IODTNVRAMVariables {
 public: // (access info unavailable from symbols alone)
     IODTNVRAMVariables();
     IODTNVRAMVariables(OSMetaClass const*);
-    copyProperty(OSSymbol const*) const;
-    getMetaClass() const;
-    getProperty(OSSymbol const*) const;
-    init(unsigned char const*, bool);
-    removeProperty(OSSymbol const*);
-    serializeProperties(OSSerialize*) const;
-    setProperties(OSObject*);
-    setProperty(OSSymbol const*, OSObject*);
-    start(IOService*);
+    auto copyProperty(OSSymbol const*) const;
+    auto getMetaClass() const;
+    auto getProperty(OSSymbol const*) const;
+    auto init(unsigned char const*, bool);
+    auto removeProperty(OSSymbol const*);
+    auto serializeProperties(OSSerialize*) const;
+    auto setProperties(OSObject*);
+    auto setProperty(OSSymbol const*, OSObject*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODTNVRAMVariables();
 };

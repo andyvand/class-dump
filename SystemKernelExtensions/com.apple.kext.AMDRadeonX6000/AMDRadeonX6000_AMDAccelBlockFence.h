@@ -6,11 +6,13 @@ class AMDRadeonX6000_AMDAccelBlockFence {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDAccelBlockFence();
     AMDRadeonX6000_AMDAccelBlockFence(OSMetaClass const*);
-    addSubmission(AMDRadeonX6000_AMDAccelChannel*, unsigned int*);
-    free();
-    getHostTime(unsigned long long*, unsigned long long*);
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, IOAccelSubmitter2*, IOAccelBlockFencePort2*, unsigned long long, unsigned long long);
-    reportTimes(unsigned int, unsigned long long, unsigned long long);
+    auto addSubmission(AMDRadeonX6000_AMDAccelChannel*, unsigned int*);
+    auto free();
+    auto getHostTime(unsigned long long*, unsigned long long*);
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, IOAccelSubmitter2*, IOAccelBlockFencePort2*, unsigned long long, unsigned long long);
+    auto reportTimes(unsigned int, unsigned long long, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDAccelBlockFence();
 };

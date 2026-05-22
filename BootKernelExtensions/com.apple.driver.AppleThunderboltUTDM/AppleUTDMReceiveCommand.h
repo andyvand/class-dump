@@ -6,14 +6,16 @@ class AppleUTDMReceiveCommand {
 public: // (access info unavailable from symbols alone)
     AppleUTDMReceiveCommand();
     AppleUTDMReceiveCommand(OSMetaClass const*);
-    ExtractFromAppleThunderboltUTDMProtocolCommandFramePacket(unsigned int*, unsigned int*, unsigned long long*, unsigned int*, unsigned int*, unsigned char (*) [16]);
-    ExtractFromAppleThunderboltUTDMProtocolResetCommandAgentFramePacket();
-    ExtractFromRecordThunderboltUTDMTimeStamp(unsigned int*, unsigned int*, unsigned int*, unsigned char*, unsigned short*, OSData**);
-    TypeForFrame();
-    free();
-    getMetaClass() const;
-    initWithController(IOThunderboltController*);
-    initWithController(IOThunderboltController*, IOThunderboltXDomainLink*, EFI_GUID, EFI_GUID);
-    withController(IOThunderboltController*, IOThunderboltXDomainLink*, EFI_GUID, EFI_GUID);
+    auto ExtractFromAppleThunderboltUTDMProtocolCommandFramePacket(unsigned int*, unsigned int*, unsigned long long*, unsigned int*, unsigned int*, unsigned char (*) [16]);
+    auto ExtractFromAppleThunderboltUTDMProtocolResetCommandAgentFramePacket();
+    auto ExtractFromRecordThunderboltUTDMTimeStamp(unsigned int*, unsigned int*, unsigned int*, unsigned char*, unsigned short*, OSData**);
+    auto TypeForFrame();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithController(IOThunderboltController*);
+    auto initWithController(IOThunderboltController*, IOThunderboltXDomainLink*, EFI_GUID, EFI_GUID);
+    auto withController(IOThunderboltController*, IOThunderboltXDomainLink*, EFI_GUID, EFI_GUID);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUTDMReceiveCommand();
 };

@@ -4,9 +4,9 @@
 
 class mDNSOffloadUserClient {
 public: // (access info unavailable from symbols alone)
-    GetKeepaliveData(sockaddr_in6*, sockaddr_in6*, unsigned int*, unsigned int*, unsigned int*);
-    GetKeepaliveData(unsigned int, unsigned short, unsigned int, unsigned short, unsigned int*, unsigned int*, unsigned int*);
-    PublishForDaemon(IORegistryEntry*, bool, bool);
-    SetConfigDictionary(char const*);
-    withTask(task*, __ifnet*, int (*)(OSObject*, mDNSOffloadUserClient*, mDNSHandoff*, void*), int (*)(OSObject*, mDNSOffloadUserClient*, unsigned long long, unsigned long long, void*), void*);
+    auto GetKeepaliveData(sockaddr_in6*, sockaddr_in6*, unsigned int*, unsigned int*, unsigned int*);
+    auto GetKeepaliveData(unsigned int, unsigned short, unsigned int, unsigned short, unsigned int*, unsigned int*, unsigned int*);
+    auto PublishForDaemon(IORegistryEntry*, bool, bool);
+    auto SetConfigDictionary(char const*);
+    auto withTask(task*, __ifnet*, int (*)(OSObject*, mDNSOffloadUserClient*, mDNSHandoff*, void*), int (*)(OSObject*, mDNSOffloadUserClient*, unsigned long long, unsigned long long, void*), void*);
 };

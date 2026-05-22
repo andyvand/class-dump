@@ -4,5 +4,5 @@
 
 class AppleMobileFileIntegrity {
 public: // (access info unavailable from symbols alone)
-    copyEntitlements(ucred*);
+    auto copyEntitlements(ucred*);
 };

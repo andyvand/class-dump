@@ -4,20 +4,20 @@
 
 class AppleBCMWLANChipConfigSpace {
 public: // (access info unavailable from symbols alone)
-    dumpConfigSpaceRegisters(char*, unsigned long);
-    dumpConfigSpaceRegisters(char*, unsigned long)::configSpaceRegs;
-    free();
-    free()::kalloc_type_view_125;
-    getMetaClass() const;
-    initWithPCIDevice(IOPCIDevice*, AppleBCMWLANPCIeMMIOHistory*);
-    initWithPCIDevice(IOPCIDevice*, AppleBCMWLANPCIeMMIOHistory*)::kalloc_type_view_76;
-    modifyReg16(unsigned int, unsigned short, unsigned short, unsigned short*);
-    modifyReg32(unsigned int, unsigned int, unsigned int, unsigned int*);
-    readReg16(unsigned int, unsigned short&);
-    readReg32(unsigned int, unsigned int&);
-    readReg8(unsigned int, unsigned char&);
-    withPCIDevice(IOPCIDevice*, AppleBCMWLANPCIeMMIOHistory*);
-    writeReg16(unsigned int, unsigned short);
-    writeReg32(unsigned int, unsigned int);
+    auto dumpConfigSpaceRegisters(char*, unsigned long);
+    auto dumpConfigSpaceRegisters(char*, unsigned long)::configSpaceRegs;
+    auto free();
+    auto free()::kalloc_type_view_125;
+    auto getMetaClass() const;
+    auto initWithPCIDevice(IOPCIDevice*, AppleBCMWLANPCIeMMIOHistory*);
+    auto initWithPCIDevice(IOPCIDevice*, AppleBCMWLANPCIeMMIOHistory*)::kalloc_type_view_76;
+    auto modifyReg16(unsigned int, unsigned short, unsigned short, unsigned short*);
+    auto modifyReg32(unsigned int, unsigned int, unsigned int, unsigned int*);
+    auto readReg16(unsigned int, unsigned short&);
+    auto readReg32(unsigned int, unsigned int&);
+    auto readReg8(unsigned int, unsigned char&);
+    auto withPCIDevice(IOPCIDevice*, AppleBCMWLANPCIeMMIOHistory*);
+    auto writeReg16(unsigned int, unsigned short);
+    auto writeReg32(unsigned int, unsigned int);
     ~AppleBCMWLANChipConfigSpace();
 };

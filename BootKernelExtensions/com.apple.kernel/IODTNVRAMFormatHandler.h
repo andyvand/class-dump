@@ -4,7 +4,7 @@
 
 class IODTNVRAMFormatHandler {
 public: // (access info unavailable from symbols alone)
-    getNVRAMProperties();
-    handleEphDM();
+    auto getNVRAMProperties();
+    auto handleEphDM();
     ~IODTNVRAMFormatHandler();
 };

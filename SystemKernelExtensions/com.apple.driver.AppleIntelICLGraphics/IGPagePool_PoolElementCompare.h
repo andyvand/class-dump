@@ -4,5 +4,5 @@
 
 class IGPagePool::PoolElementCompare {
 public: // (access info unavailable from symbols alone)
-    operator()(IGPagePool::PoolElement*, IGPagePool::PoolElement*);
+    auto operator()(IGPagePool::PoolElement*, IGPagePool::PoolElement*);
 };

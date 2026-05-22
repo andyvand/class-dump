@@ -5,7 +5,7 @@
 class AppleThunderboltNHISpeedTestGlobals {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltNHISpeedTestGlobals();
-    getConfig();
-    setConfig(AppleThunderboltNHISpeedTestConfig);
+    auto getConfig();
+    auto setConfig(AppleThunderboltNHISpeedTestConfig);
     ~AppleThunderboltNHISpeedTestGlobals();
 };

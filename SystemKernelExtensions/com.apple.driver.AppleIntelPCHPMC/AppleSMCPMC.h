@@ -6,12 +6,14 @@ class AppleSMCPMC {
 public: // (access info unavailable from symbols alone)
     AppleSMCPMC();
     AppleSMCPMC(OSMetaClass const*);
-    getMetaClass() const;
-    init(OSDictionary*);
-    init(OSDictionary*) (.cold.1);
-    setFileServerMode(unsigned int);
-    start(IOService*);
-    start(IOService*) (.cold.1);
-    stop(IOService*);
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto init(OSDictionary*) (.cold.1);
+    auto setFileServerMode(unsigned int);
+    auto start(IOService*);
+    auto start(IOService*) (.cold.1);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSMCPMC();
 };

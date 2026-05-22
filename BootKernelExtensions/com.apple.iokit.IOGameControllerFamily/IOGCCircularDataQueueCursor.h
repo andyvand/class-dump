@@ -6,12 +6,14 @@ class IOGCCircularDataQueueCursor {
 public: // (access info unavailable from symbols alone)
     IOGCCircularDataQueueCursor();
     IOGCCircularDataQueueCursor(OSMetaClass const*);
-    access(int (void*, unsigned int) block_pointer);
-    access(void*, void*, int (*)(void*, void*, void*, unsigned int));
-    getMetaClass() const;
-    initWithQueue(IOGCCircularDataQueue*);
-    read(void*, unsigned int*);
-    reset(unsigned long long);
-    resetToLatestPosition();
+    auto access(int (void*, unsigned int) block_pointer);
+    auto access(void*, void*, int (*)(void*, void*, void*, unsigned int));
+    auto getMetaClass() const;
+    auto initWithQueue(IOGCCircularDataQueue*);
+    auto read(void*, unsigned int*);
+    auto reset(unsigned long long);
+    auto resetToLatestPosition();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGCCircularDataQueueCursor();
 };

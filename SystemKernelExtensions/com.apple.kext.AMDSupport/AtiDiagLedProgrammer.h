@@ -5,12 +5,14 @@
 class AtiDiagLedProgrammer {
 public: // (access info unavailable from symbols alone)
     AtiDiagLedProgrammer(OSMetaClass const*);
-    convertIntStateToEnum(int);
-    getLedStateString(AtiDiagLedProgrammer::GPU_DIAG_BOOT_STATE);
-    getMetaClass() const;
-    getState();
-    init(ATIController*);
-    init(ATIController*)::__desc;
-    updateGpuBootState(AtiDiagLedProgrammer::GPU_DIAG_BOOT_STATE);
+    auto convertIntStateToEnum(int);
+    auto getLedStateString(AtiDiagLedProgrammer::GPU_DIAG_BOOT_STATE);
+    auto getMetaClass() const;
+    auto getState();
+    auto init(ATIController*);
+    auto init(ATIController*)::__desc;
+    auto updateGpuBootState(AtiDiagLedProgrammer::GPU_DIAG_BOOT_STATE);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDiagLedProgrammer();
 };

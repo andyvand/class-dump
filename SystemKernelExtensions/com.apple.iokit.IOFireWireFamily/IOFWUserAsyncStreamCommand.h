@@ -6,11 +6,13 @@ class IOFWUserAsyncStreamCommand {
 public: // (access info unavailable from symbols alone)
     IOFWUserAsyncStreamCommand();
     IOFWUserAsyncStreamCommand(OSMetaClass const*);
-    asyncStreamCommandCompletion(void*, int, IOFireWireBus*, IOFWAsyncStreamCommand*);
-    free();
-    getAsyncStreamCommand();
-    getMetaClass() const;
-    initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
-    submit(IOFireWireLib::CommandSubmitParams*, IOFireWireLib::CommandSubmitResult*);
+    auto asyncStreamCommandCompletion(void*, int, IOFireWireBus*, IOFWAsyncStreamCommand*);
+    auto free();
+    auto getAsyncStreamCommand();
+    auto getMetaClass() const;
+    auto initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
+    auto submit(IOFireWireLib::CommandSubmitParams*, IOFireWireLib::CommandSubmitResult*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWUserAsyncStreamCommand();
 };

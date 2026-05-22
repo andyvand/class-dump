@@ -6,15 +6,17 @@ class IOPMWorkQueue {
 public: // (access info unavailable from symbols alone)
     IOPMWorkQueue();
     IOPMWorkQueue(OSMetaClass const*);
-    attachQuiesceRequest(IOPMRequest*);
-    checkForWork();
-    checkRequestQueue(queue_entry*, bool*);
-    create(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMWorkQueue*), bool (*)(IOService*, IOPMRequest*, IOPMWorkQueue*));
-    finishQuiesceRequest(IOPMRequest*);
-    getMetaClass() const;
-    incrementProducerCount();
-    init(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMWorkQueue*), bool (*)(IOService*, IOPMRequest*, IOPMWorkQueue*));
-    queuePMRequest(IOPMRequest*, IOServicePM*);
-    signalWorkAvailable();
+    auto attachQuiesceRequest(IOPMRequest*);
+    auto checkForWork();
+    auto checkRequestQueue(queue_entry*, bool*);
+    auto create(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMWorkQueue*), bool (*)(IOService*, IOPMRequest*, IOPMWorkQueue*));
+    auto finishQuiesceRequest(IOPMRequest*);
+    auto getMetaClass() const;
+    auto incrementProducerCount();
+    auto init(IOService*, bool (*)(IOService*, IOPMRequest*, IOPMWorkQueue*), bool (*)(IOService*, IOPMRequest*, IOPMWorkQueue*));
+    auto queuePMRequest(IOPMRequest*, IOServicePM*);
+    auto signalWorkAvailable();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPMWorkQueue();
 };

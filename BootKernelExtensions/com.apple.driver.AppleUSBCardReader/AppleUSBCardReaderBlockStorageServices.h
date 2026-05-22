@@ -6,7 +6,9 @@ class AppleUSBCardReaderBlockStorageServices {
 public: // (access info unavailable from symbols alone)
     AppleUSBCardReaderBlockStorageServices();
     AppleUSBCardReaderBlockStorageServices(OSMetaClass const*);
-    doSynchronizeCache();
-    getMetaClass() const;
+    auto doSynchronizeCache();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBCardReaderBlockStorageServices();
 };

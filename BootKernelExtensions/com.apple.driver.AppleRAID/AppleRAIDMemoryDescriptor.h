@@ -5,18 +5,20 @@
 class AppleRAIDMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     AppleRAIDMemoryDescriptor(OSMetaClass const*);
-    complete(unsigned int);
-    configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned int);
-    configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned long long, AppleLVMVolume*);
-    free();
-    getMetaClass() const;
-    getPreparationID();
-    initWithAddress(unsigned long, unsigned long long, unsigned int, task*);
-    initWithAddress(void*, unsigned long long, unsigned int);
-    initWithPhysicalAddress(unsigned long long, unsigned long long, unsigned int);
-    initWithPhysicalRanges(IOPhysicalRange*, unsigned int, unsigned int, bool);
-    initWithRanges(IOVirtualRange*, unsigned int, unsigned int, task*, bool);
-    initWithStorageRequest(AppleRAIDStorageRequest*, unsigned int);
-    prepare(unsigned int);
+    auto complete(unsigned int);
+    auto configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned int);
+    auto configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned long long, AppleLVMVolume*);
+    auto free();
+    auto getMetaClass() const;
+    auto getPreparationID();
+    auto initWithAddress(unsigned long, unsigned long long, unsigned int, task*);
+    auto initWithAddress(void*, unsigned long long, unsigned int);
+    auto initWithPhysicalAddress(unsigned long long, unsigned long long, unsigned int);
+    auto initWithPhysicalRanges(IOPhysicalRange*, unsigned int, unsigned int, bool);
+    auto initWithRanges(IOVirtualRange*, unsigned int, unsigned int, task*, bool);
+    auto initWithStorageRequest(AppleRAIDStorageRequest*, unsigned int);
+    auto prepare(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleRAIDMemoryDescriptor();
 };

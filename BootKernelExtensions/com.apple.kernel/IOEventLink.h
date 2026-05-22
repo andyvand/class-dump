@@ -4,21 +4,23 @@
 
 class IOEventLink {
 public: // (access info unavailable from symbols alone)
-    Create_Call(OSString*, IOUserClient*, IOEventLink**);
-    Create_Impl(OSString*, IOUserClient*, IOEventLink**);
-    Create_Invoke(IORPC, int (*)(OSString*, IOUserClient*, IOEventLink**));
-    Dispatch(IORPC);
     IOEventLink();
     IOEventLink(OSMetaClass const*);
-    InvalidateKernel(IOUserClient*, int (*)(OSMetaClassBase*, IORPC));
-    InvalidateKernel_Impl(IOUserClient*);
-    InvalidateKernel_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, IOUserClient*));
-    SetEventlinkPort(ipc_port*, int (*)(OSMetaClassBase*, IORPC));
-    SetEventlinkPort_Impl(ipc_port*);
-    SetEventlinkPort_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, ipc_port*));
-    _Dispatch(IOEventLink*, IORPC);
-    free();
-    getMetaClass() const;
-    init();
+    auto Create_Call(OSString*, IOUserClient*, IOEventLink**);
+    auto Create_Impl(OSString*, IOUserClient*, IOEventLink**);
+    auto Create_Invoke(IORPC, int (*)(OSString*, IOUserClient*, IOEventLink**));
+    auto Dispatch(IORPC);
+    auto InvalidateKernel(IOUserClient*, int (*)(OSMetaClassBase*, IORPC));
+    auto InvalidateKernel_Impl(IOUserClient*);
+    auto InvalidateKernel_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, IOUserClient*));
+    auto SetEventlinkPort(ipc_port*, int (*)(OSMetaClassBase*, IORPC));
+    auto SetEventlinkPort_Impl(ipc_port*);
+    auto SetEventlinkPort_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, ipc_port*));
+    auto _Dispatch(IOEventLink*, IORPC);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOEventLink();
 };

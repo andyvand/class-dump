@@ -4,6 +4,6 @@
 
 class OSNumber {
 public: // (access info unavailable from symbols alone)
-    withFloat(float);
-    withNumber(unsigned long long, unsigned int);
+    auto withFloat(float);
+    auto withNumber(unsigned long long, unsigned int);
 };

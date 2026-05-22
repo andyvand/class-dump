@@ -8,8 +8,6 @@ KDIBackingStore::metaClass;
 KDIDiskImage::gMetaClass;
 KDIReadWriteDiskImage::gMetaClass;
 KDIReadWriteDiskImage::metaClass;
-KDIReadWriteDiskImage::operator delete(void*, unsigned long);
-KDIReadWriteDiskImage::operator new(unsigned long);
 KDIReadWriteDiskImage::superClass;
 KDIReadWriteDiskImage_ktv;
 vtable for KDIReadWriteDiskImage;

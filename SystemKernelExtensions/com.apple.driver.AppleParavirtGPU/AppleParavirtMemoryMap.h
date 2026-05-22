@@ -6,11 +6,13 @@ class AppleParavirtMemoryMap {
 public: // (access info unavailable from symbols alone)
     AppleParavirtMemoryMap();
     AppleParavirtMemoryMap(OSMetaClass const*);
-    commitIntoGPUPageTable();
-    free();
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, IOAccelTask*, IOAccelMemory*, unsigned int);
-    releaseFromGPUPageTable();
-    updateGPUPageTable();
+    auto commitIntoGPUPageTable();
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, IOAccelTask*, IOAccelMemory*, unsigned int);
+    auto releaseFromGPUPageTable();
+    auto updateGPUPageTable();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtMemoryMap();
 };

@@ -4,7 +4,7 @@
 
 class IOFWUserObjectExporter {
 public: // (access info unavailable from symbols alone)
-    addObject(OSObject*, void (*)(OSObject const*), unsigned int*);
-    lookupObjectForType(unsigned int, OSMetaClass const*) const;
-    removeObject(unsigned int);
+    auto addObject(OSObject*, void (*)(OSObject const*), unsigned int*);
+    auto lookupObjectForType(unsigned int, OSMetaClass const*) const;
+    auto removeObject(unsigned int);
 };

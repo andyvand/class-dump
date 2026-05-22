@@ -6,9 +6,11 @@ class AppleLVMStorageRequest {
 public: // (access info unavailable from symbols alone)
     AppleLVMStorageRequest();
     AppleLVMStorageRequest(OSMetaClass const*);
-    getMetaClass() const;
-    read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
-    withAppleRAIDSet(AppleRAIDSet*);
-    write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    auto getMetaClass() const;
+    auto read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    auto withAppleRAIDSet(AppleRAIDSet*);
+    auto write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleLVMStorageRequest();
 };

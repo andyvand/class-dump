@@ -4,6 +4,6 @@
 
 class IOFWPhysicalAddressSpace {
 public: // (access info unavailable from symbols alone)
-    getMemoryDescriptor();
-    setMemoryDescriptor(IOMemoryDescriptor*);
+    auto getMemoryDescriptor();
+    auto setMemoryDescriptor(IOMemoryDescriptor*);
 };

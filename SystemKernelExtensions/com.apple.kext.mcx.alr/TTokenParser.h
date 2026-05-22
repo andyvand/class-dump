@@ -4,14 +4,14 @@
 
 class TTokenParser {
 public: // (access info unavailable from symbols alone)
-    Dispose();
-    GetBinary(void const*&, unsigned int&);
-    GetDescription();
-    Next(TCString&);
-    NextLong();
-    NextLongLong();
-    SetFromBuffer(void const*, unsigned long);
     TTokenParser();
     TTokenParser(char const*, unsigned long);
+    auto Dispose();
+    auto GetBinary(void const*&, unsigned int&);
+    auto GetDescription();
+    auto Next(TCString&);
+    auto NextLong();
+    auto NextLongLong();
+    auto SetFromBuffer(void const*, unsigned long);
     ~TTokenParser();
 };

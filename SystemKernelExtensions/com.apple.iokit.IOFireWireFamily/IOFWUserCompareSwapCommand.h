@@ -6,9 +6,11 @@ class IOFWUserCompareSwapCommand {
 public: // (access info unavailable from symbols alone)
     IOFWUserCompareSwapCommand();
     IOFWUserCompareSwapCommand(OSMetaClass const*);
-    asyncCompletion(void*, int, IOFireWireNub*, IOFWCommand*);
-    getMetaClass() const;
-    initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
-    submit(IOFireWireLib::CommandSubmitParams*, IOFireWireLib::CommandSubmitResult*);
+    auto asyncCompletion(void*, int, IOFireWireNub*, IOFWCommand*);
+    auto getMetaClass() const;
+    auto initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
+    auto submit(IOFireWireLib::CommandSubmitParams*, IOFireWireLib::CommandSubmitResult*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWUserCompareSwapCommand();
 };

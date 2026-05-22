@@ -4,6 +4,6 @@
 
 class os_detail::IOKit_typed_allocator<libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>, false> {
 public: // (access info unavailable from symbols alone)
-    kt_view()::kt_view;
-    kt_view()::kt_view (.50);
+    auto kt_view()::kt_view;
+    auto kt_view()::kt_view (.50);
 };

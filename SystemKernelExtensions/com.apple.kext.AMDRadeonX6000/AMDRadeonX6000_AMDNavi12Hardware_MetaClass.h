@@ -5,5 +5,5 @@
 class AMDRadeonX6000_AMDNavi12Hardware::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

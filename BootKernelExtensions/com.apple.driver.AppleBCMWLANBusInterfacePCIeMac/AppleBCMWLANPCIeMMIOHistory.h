@@ -4,15 +4,15 @@
 
 class AppleBCMWLANPCIeMMIOHistory {
 public: // (access info unavailable from symbols alone)
-    dumpMMIO1lineToBuffer(MMIORecord*, char*, long);
-    dumpMMIOlogToBuffer(char*, long);
-    free();
-    free()::kalloc_type_view_123;
-    free()::kalloc_type_view_126;
-    getMetaClass() const;
-    initWithLogger(CCLogStream*)::kalloc_type_view_105;
-    initWithLogger(CCLogStream*)::kalloc_type_view_75;
-    recordMMIO(char const*, PCIeMMIOType, unsigned long long, unsigned long long, unsigned char);
-    withLogger(CCLogStream*);
+    auto dumpMMIO1lineToBuffer(MMIORecord*, char*, long);
+    auto dumpMMIOlogToBuffer(char*, long);
+    auto free();
+    auto free()::kalloc_type_view_123;
+    auto free()::kalloc_type_view_126;
+    auto getMetaClass() const;
+    auto initWithLogger(CCLogStream*)::kalloc_type_view_105;
+    auto initWithLogger(CCLogStream*)::kalloc_type_view_75;
+    auto recordMMIO(char const*, PCIeMMIOType, unsigned long long, unsigned long long, unsigned char);
+    auto withLogger(CCLogStream*);
     ~AppleBCMWLANPCIeMMIOHistory();
 };

@@ -6,13 +6,15 @@ class _IOServiceNullNotifier {
 public: // (access info unavailable from symbols alone)
     _IOServiceNullNotifier();
     _IOServiceNullNotifier(OSMetaClass const*);
-    disable();
-    enable(bool);
-    free();
-    getMetaClass() const;
-    remove();
-    taggedRelease(void const*, int) const;
-    taggedRetain(void const*) const;
-    wait();
+    auto disable();
+    auto enable(bool);
+    auto free();
+    auto getMetaClass() const;
+    auto remove();
+    auto taggedRelease(void const*, int) const;
+    auto taggedRetain(void const*) const;
+    auto wait();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_IOServiceNullNotifier();
 };

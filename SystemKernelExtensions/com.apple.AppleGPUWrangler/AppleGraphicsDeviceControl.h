@@ -5,17 +5,17 @@
 class AppleGraphicsDeviceControl {
 public: // (access info unavailable from symbols alone)
     AppleGraphicsDeviceControl(OSMetaClass const*);
-    _RESERVEDAppleGraphicsDeviceControl0();
-    _RESERVEDAppleGraphicsDeviceControl1();
-    _RESERVEDAppleGraphicsDeviceControl2();
-    _RESERVEDAppleGraphicsDeviceControl3();
-    _RESERVEDAppleGraphicsDeviceControl4();
-    _RESERVEDAppleGraphicsDeviceControl5();
-    _RESERVEDAppleGraphicsDeviceControl6();
-    _RESERVEDAppleGraphicsDeviceControl7();
-    getDeviceAttribute(unsigned int, unsigned long*, unsigned long*);
-    message(unsigned int, IOService*, void*);
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    setDeviceAttribute(unsigned int, unsigned long*, unsigned long);
+    auto _RESERVEDAppleGraphicsDeviceControl0();
+    auto _RESERVEDAppleGraphicsDeviceControl1();
+    auto _RESERVEDAppleGraphicsDeviceControl2();
+    auto _RESERVEDAppleGraphicsDeviceControl3();
+    auto _RESERVEDAppleGraphicsDeviceControl4();
+    auto _RESERVEDAppleGraphicsDeviceControl5();
+    auto _RESERVEDAppleGraphicsDeviceControl6();
+    auto _RESERVEDAppleGraphicsDeviceControl7();
+    auto getDeviceAttribute(unsigned int, unsigned long*, unsigned long*);
+    auto message(unsigned int, IOService*, void*);
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto setDeviceAttribute(unsigned int, unsigned long*, unsigned long);
     ~AppleGraphicsDeviceControl();
 };

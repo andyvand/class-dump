@@ -5,5 +5,5 @@
 class AMDRadeonX4000_AMDVCE3v4Ring::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

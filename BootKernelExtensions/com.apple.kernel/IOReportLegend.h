@@ -6,14 +6,16 @@ class IOReportLegend {
 public: // (access info unavailable from symbols alone)
     IOReportLegend();
     IOReportLegend(OSMetaClass const*);
-    addLegendEntry(OSDictionary*, char const*, char const*);
-    addReporterLegend(IOReporter*, char const*, char const*);
-    addReporterLegend(IOService*, IOReporter*, char const*, char const*);
-    free();
-    getLegend();
-    getMetaClass() const;
-    initWith(OSArray*);
-    organizeLegend(OSDictionary*, OSSymbol const*, OSSymbol const*);
-    with(OSArray*);
+    auto addLegendEntry(OSDictionary*, char const*, char const*);
+    auto addReporterLegend(IOReporter*, char const*, char const*);
+    auto addReporterLegend(IOService*, IOReporter*, char const*, char const*);
+    auto free();
+    auto getLegend();
+    auto getMetaClass() const;
+    auto initWith(OSArray*);
+    auto organizeLegend(OSDictionary*, OSSymbol const*, OSSymbol const*);
+    auto with(OSArray*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOReportLegend();
 };

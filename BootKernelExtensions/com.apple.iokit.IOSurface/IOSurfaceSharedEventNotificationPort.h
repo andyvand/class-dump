@@ -6,11 +6,13 @@ class IOSurfaceSharedEventNotificationPort {
 public: // (access info unavailable from symbols alone)
     IOSurfaceSharedEventNotificationPort();
     IOSurfaceSharedEventNotificationPort(OSMetaClass const*);
-    __OSFinalClass();
-    free();
-    getMetaClass() const;
-    initWithAsyncReference64(unsigned long long*);
-    sendNotification(unsigned long long, unsigned long long, unsigned long long);
-    withAsyncReference64(unsigned long long*);
+    auto __OSFinalClass();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithAsyncReference64(unsigned long long*);
+    auto sendNotification(unsigned long long, unsigned long long, unsigned long long);
+    auto withAsyncReference64(unsigned long long*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSurfaceSharedEventNotificationPort();
 };

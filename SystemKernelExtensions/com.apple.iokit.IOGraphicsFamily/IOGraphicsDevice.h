@@ -5,6 +5,8 @@
 class IOGraphicsDevice {
 public: // (access info unavailable from symbols alone)
     IOGraphicsDevice(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGraphicsDevice();
 };

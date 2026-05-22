@@ -6,10 +6,13 @@ class IOATAIOReg8 {
 public: // (access info unavailable from symbols alone)
     IOATAIOReg8();
     IOATAIOReg8(OSMetaClass const*);
-    getAddress() const;
-    getMetaClass() const;
-    initWithAddress(unsigned short);
-    operator=(unsigned char);
-    withAddress(unsigned short);
+    auto getAddress() const;
+    auto getMetaClass() const;
+    auto initWithAddress(unsigned short);
+    auto operator=(unsigned char);
+    auto withAddress(unsigned short);
+    operator unsigned char() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOATAIOReg8();
 };

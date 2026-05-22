@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IGHashTable<IGPagePool::PoolElement*, unsigned long, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy>::Slot> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(IGHashTable<IGPagePool::PoolElement*, unsigned long, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy>::Slot*, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(IGHashTable<IGPagePool::PoolElement*, unsigned long, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy>::Slot*, unsigned long)::kalloc_type_view_29;
 };

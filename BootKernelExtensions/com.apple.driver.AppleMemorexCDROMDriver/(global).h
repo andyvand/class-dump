@@ -7,8 +7,6 @@
 IOSCSIPeripheralDeviceType05::gMetaClass;
 com_apple_driver_AppleMemorexCDROMDriver::gMetaClass;
 com_apple_driver_AppleMemorexCDROMDriver::metaClass;
-com_apple_driver_AppleMemorexCDROMDriver::operator delete(void*, unsigned long);
-com_apple_driver_AppleMemorexCDROMDriver::operator new(unsigned long);
 com_apple_driver_AppleMemorexCDROMDriver::superClass;
 com_apple_driver_AppleMemorexCDROMDriver_ktv;
 vtable for com_apple_driver_AppleMemorexCDROMDriver;

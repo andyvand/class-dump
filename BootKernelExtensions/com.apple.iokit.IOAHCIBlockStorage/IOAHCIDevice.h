@@ -4,5 +4,5 @@
 
 class IOAHCIDevice {
 public: // (access info unavailable from symbols alone)
-    SetRecoveryState(bool);
+    auto SetRecoveryState(bool);
 };

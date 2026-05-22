@@ -4,14 +4,16 @@
 
 class com_softraid_driver_SoftRAID_RAID_IO_RecPool {
 public: // (access info unavailable from symbols alone)
-    AllocRAID_IO_Rec();
-    FreeRAID_IO_Rec(RAID_IO_Rec*);
+    auto AllocRAID_IO_Rec();
+    auto FreeRAID_IO_Rec(RAID_IO_Rec*);
+    auto free();
+    auto free()::kalloc_type_view_502;
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_459;
     com_softraid_driver_SoftRAID_RAID_IO_RecPool();
     com_softraid_driver_SoftRAID_RAID_IO_RecPool(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_502;
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_459;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_RAID_IO_RecPool();
 };

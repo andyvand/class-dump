@@ -6,11 +6,13 @@ class IOSurfaceSendRight {
 public: // (access info unavailable from symbols alone)
     IOSurfaceSendRight();
     IOSurfaceSendRight(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(IOSurfaceRoot*, IOSurface*);
-    init(IOSurfaceRoot*, IOSurface*, unsigned long long);
-    withSurface(IOSurfaceRoot*, IOSurface*);
-    withSurface(IOSurfaceRoot*, IOSurface*, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOSurfaceRoot*, IOSurface*);
+    auto init(IOSurfaceRoot*, IOSurface*, unsigned long long);
+    auto withSurface(IOSurfaceRoot*, IOSurface*);
+    auto withSurface(IOSurfaceRoot*, IOSurface*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSurfaceSendRight();
 };

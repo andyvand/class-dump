@@ -4,13 +4,13 @@
 
 class UConnections {
 public: // (access info unavailable from symbols alone)
-    Add(TMCX_ALR_Connection*);
-    Find(unsigned int, void*);
-    FindAuthProvider(unsigned int);
-    Free();
-    GetStatus(TCString&);
-    Init();
-    Remove(TMCX_ALR_Connection*);
-    Remove(TMCX_ALR_Connection*) (.cold.1);
-    Remove(TMCX_ALR_Connection*) (.cold.2);
+    auto Add(TMCX_ALR_Connection*);
+    auto Find(unsigned int, void*);
+    auto FindAuthProvider(unsigned int);
+    auto Free();
+    auto GetStatus(TCString&);
+    auto Init();
+    auto Remove(TMCX_ALR_Connection*);
+    auto Remove(TMCX_ALR_Connection*) (.cold.1);
+    auto Remove(TMCX_ALR_Connection*) (.cold.2);
 };

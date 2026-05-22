@@ -4,9 +4,9 @@
 
 class AmdMathUtilities {
 public: // (access info unavailable from symbols alone)
-    atoi(char const*);
-    ceil(double);
-    floor(double);
-    power(double, int);
-    trunacte(double);
+    auto atoi(char const*);
+    auto ceil(double);
+    auto floor(double);
+    auto power(double, int);
+    auto trunacte(double);
 };

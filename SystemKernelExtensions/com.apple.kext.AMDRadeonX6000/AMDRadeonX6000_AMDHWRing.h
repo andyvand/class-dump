@@ -5,17 +5,19 @@
 class AMDRadeonX6000_AMDHWRing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDHWRing(OSMetaClass const*);
-    allocateResources();
-    disable();
-    enable();
-    flushWithoutSubmit();
-    free();
-    freeResources();
-    getMetaClass() const;
-    initialize(AMDRadeonX6000_IAMDHWInterface*, _HW_RING_INFO const&, int, _eAMD_HW_ENGINE_TYPE, unsigned int);
-    submit();
-    syncTailWriteback();
-    writeDiagnosisReport(char*&, unsigned int&);
-    writeTail();
+    auto allocateResources();
+    auto disable();
+    auto enable();
+    auto flushWithoutSubmit();
+    auto free();
+    auto freeResources();
+    auto getMetaClass() const;
+    auto initialize(AMDRadeonX6000_IAMDHWInterface*, _HW_RING_INFO const&, int, _eAMD_HW_ENGINE_TYPE, unsigned int);
+    auto submit();
+    auto syncTailWriteback();
+    auto writeDiagnosisReport(char*&, unsigned int&);
+    auto writeTail();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDHWRing();
 };

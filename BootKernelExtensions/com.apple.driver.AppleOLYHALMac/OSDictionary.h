@@ -4,7 +4,7 @@
 
 class OSDictionary {
 public: // (access info unavailable from symbols alone)
-    iterateObjects(bool (OSSymbol const*, OSObject*) block_pointer);
-    setObject(char const*, OSSharedPtr<OSMetaClassBase const> const&);
-    withCapacity(unsigned int);
+    auto iterateObjects(bool (OSSymbol const*, OSObject*) block_pointer);
+    auto setObject(char const*, OSSharedPtr<OSMetaClassBase const> const&);
+    auto withCapacity(unsigned int);
 };

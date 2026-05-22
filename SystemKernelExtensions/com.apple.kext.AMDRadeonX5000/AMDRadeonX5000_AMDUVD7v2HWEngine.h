@@ -6,15 +6,17 @@ class AMDRadeonX5000_AMDUVD7v2HWEngine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDUVD7v2HWEngine();
     AMDRadeonX5000_AMDUVD7v2HWEngine(OSMetaClass const*);
-    allocateHWChannels();
-    allocateHWRings();
-    commitUVDFWMsg(_SML_UVD_MSG*, unsigned long long, unsigned long long, unsigned long long);
-    dumpEngineHangState(bool);
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX5000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
-    initHardware();
-    isIdle();
-    releaseHardware();
+    auto allocateHWChannels();
+    auto allocateHWRings();
+    auto commitUVDFWMsg(_SML_UVD_MSG*, unsigned long long, unsigned long long, unsigned long long);
+    auto dumpEngineHangState(bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX5000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    auto initHardware();
+    auto isIdle();
+    auto releaseHardware();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDUVD7v2HWEngine();
 };

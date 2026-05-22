@@ -5,20 +5,22 @@
 class AppleBCMWLANSkywalkRxCompletionQueue {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANSkywalkRxCompletionQueue(OSMetaClass const*);
-    collectQueueStats(char*, unsigned long, unsigned long, unsigned long);
-    enqueuePackets(OSObject*, IO80211NetworkPacket**, unsigned int, void*);
-    flushPackets();
-    free();
-    free()::kalloc_type_view_658;
-    freePendingPackets(IO80211NetworkPacket**, unsigned int);
-    getInterface();
-    getLogger() const;
-    getMetaClass() const;
-    getQueueCapacity();
-    getQueueId();
-    initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*);
-    initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*)::kalloc_type_view_629;
-    setInterface(IO80211SkywalkInterface*);
-    stagePacket(IO80211NetworkPacket*, bool, bool);
+    auto collectQueueStats(char*, unsigned long, unsigned long, unsigned long);
+    auto enqueuePackets(OSObject*, IO80211NetworkPacket**, unsigned int, void*);
+    auto flushPackets();
+    auto free();
+    auto free()::kalloc_type_view_658;
+    auto freePendingPackets(IO80211NetworkPacket**, unsigned int);
+    auto getInterface();
+    auto getLogger() const;
+    auto getMetaClass() const;
+    auto getQueueCapacity();
+    auto getQueueId();
+    auto initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*);
+    auto initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*)::kalloc_type_view_629;
+    auto setInterface(IO80211SkywalkInterface*);
+    auto stagePacket(IO80211NetworkPacket*, bool, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleBCMWLANSkywalkRxCompletionQueue();
 };

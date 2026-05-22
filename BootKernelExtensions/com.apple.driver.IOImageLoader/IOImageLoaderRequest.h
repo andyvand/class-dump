@@ -4,17 +4,17 @@
 
 class IOImageLoaderRequest {
 public: // (access info unavailable from symbols alone)
-    attach(IOService*);
-    detach(IOService*);
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    initWithProvider(IOService*, OSDictionary*, char const*);
-    start(IOService*);
-    stop(IOService*);
-    taggedRelease(void const*) const;
-    taggedRelease(void const*, int) const;
-    taggedRetain(void const*) const;
-    withProvider(IOService*, OSDictionary*, char const*);
+    auto attach(IOService*);
+    auto detach(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto initWithProvider(IOService*, OSDictionary*, char const*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto taggedRelease(void const*) const;
+    auto taggedRelease(void const*, int) const;
+    auto taggedRetain(void const*) const;
+    auto withProvider(IOService*, OSDictionary*, char const*);
     ~IOImageLoaderRequest();
 };

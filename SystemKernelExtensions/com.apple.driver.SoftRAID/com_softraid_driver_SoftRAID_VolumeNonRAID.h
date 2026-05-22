@@ -4,13 +4,15 @@
 
 class com_softraid_driver_SoftRAID_VolumeNonRAID {
 public: // (access info unavailable from symbols alone)
-    CompleteRequest(VolumeIO_Rec*, com_softraid_driver_SoftRAID_MemoryDescriptor*, int, unsigned long long);
-    SubmitVolumeIO(VolumeIO_Rec*);
-    VolumePartitionAdded(VolumePartitionStatusRec*, ExtendedVolumePartitionStatusRec*, bool);
+    auto CompleteRequest(VolumeIO_Rec*, com_softraid_driver_SoftRAID_MemoryDescriptor*, int, unsigned long long);
+    auto SubmitVolumeIO(VolumeIO_Rec*);
+    auto VolumePartitionAdded(VolumePartitionStatusRec*, ExtendedVolumePartitionStatusRec*, bool);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithStatusRecPtr(VolumePartitionStatusRec*);
     com_softraid_driver_SoftRAID_VolumeNonRAID();
     com_softraid_driver_SoftRAID_VolumeNonRAID(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithStatusRecPtr(VolumePartitionStatusRec*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_VolumeNonRAID();
 };

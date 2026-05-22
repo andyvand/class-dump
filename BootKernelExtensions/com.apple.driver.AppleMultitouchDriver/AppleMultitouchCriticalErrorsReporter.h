@@ -6,12 +6,14 @@ class AppleMultitouchCriticalErrorsReporter {
 public: // (access info unavailable from symbols alone)
     AppleMultitouchCriticalErrorsReporter(IOService*);
     AppleMultitouchCriticalErrorsReporter(IOService*)::kalloc_type_view_36;
-    _createReporter();
-    _createReporter()::_os_log_fmt;
-    configureReport(IOReportChannelList*, unsigned int, void*, void*);
-    fromService(IOService*);
-    report(unsigned int);
-    updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto _createReporter();
+    auto _createReporter()::_os_log_fmt;
+    auto configureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto fromService(IOService*);
+    auto report(unsigned int);
+    auto updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    void * operator new(unsigned long)::kalloc_type_view_16;
+    void operator delete(void*, unsigned long)::kalloc_type_view_16;
     ~AppleMultitouchCriticalErrorsReporter();
     ~AppleMultitouchCriticalErrorsReporter()::kalloc_type_view_41;
 };

@@ -5,6 +5,6 @@
 class AppleGraphicsControl {
 public: // (access info unavailable from symbols alone)
     AppleGraphicsControl(OSMetaClass const*);
-    getCommandGate();
+    auto getCommandGate();
     ~AppleGraphicsControl();
 };

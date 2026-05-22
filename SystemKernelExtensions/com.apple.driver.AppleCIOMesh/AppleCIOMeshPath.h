@@ -5,14 +5,16 @@
 class AppleCIOMeshPath {
 public: // (access info unavailable from symbols alone)
     AppleCIOMeshPath(OSMetaClass const*);
-    assignNode(unsigned int);
-    clearAssignedNode();
-    free();
-    getAssignedNode();
-    getController();
-    getLink();
-    getMetaClass() const;
-    initWithLink(AppleCIOMeshLink*, AppleCIOMeshPath::Configuration&);
-    withLink(AppleCIOMeshLink*, AppleCIOMeshPath::Configuration&);
+    auto assignNode(unsigned int);
+    auto clearAssignedNode();
+    auto free();
+    auto getAssignedNode();
+    auto getController();
+    auto getLink();
+    auto getMetaClass() const;
+    auto initWithLink(AppleCIOMeshLink*, AppleCIOMeshPath::Configuration&);
+    auto withLink(AppleCIOMeshLink*, AppleCIOMeshPath::Configuration&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleCIOMeshPath();
 };

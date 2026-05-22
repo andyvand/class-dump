@@ -5,9 +5,9 @@
 class AppleUSBVHCIMessageQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIMessageQueue(OSMetaClass const*);
-    enable();
-    indexIsPending(unsigned int) const;
-    init();
-    transportPendingCount() const;
+    auto enable();
+    auto indexIsPending(unsigned int) const;
+    auto init();
+    auto transportPendingCount() const;
     ~AppleUSBVHCIMessageQueue();
 };

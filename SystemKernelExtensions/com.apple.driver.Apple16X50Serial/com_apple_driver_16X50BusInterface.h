@@ -4,18 +4,20 @@
 
 class com_apple_driver_16X50BusInterface {
 public: // (access info unavailable from symbols alone)
+    auto free();
+    auto getMetaClass() const;
+    auto getWorkLoop(void*);
+    auto handleInterrupt(IOInterruptEventSource*, int);
+    auto handleInterruptAction(OSObject*, IOInterruptEventSource*, int);
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto probe(IOService*, int*);
+    auto probeUART(void*, com_apple_driver_16X50UARTSync*, OSDictionary*);
+    auto setName(char const*, IORegistryPlane const*);
+    auto start(IOService*);
+    auto startUARTs(bool);
+    auto stop(IOService*);
     com_apple_driver_16X50BusInterface(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getWorkLoop(void*);
-    handleInterrupt(IOInterruptEventSource*, int);
-    handleInterruptAction(OSObject*, IOInterruptEventSource*, int);
-    handleOpen(IOService*, unsigned int, void*);
-    probe(IOService*, int*);
-    probeUART(void*, com_apple_driver_16X50UARTSync*, OSDictionary*);
-    setName(char const*, IORegistryPlane const*);
-    start(IOService*);
-    startUARTs(bool);
-    stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_16X50BusInterface();
 };

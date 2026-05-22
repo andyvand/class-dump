@@ -4,21 +4,21 @@
 
 class move_work_queue {
 public: // (access info unavailable from symbols alone)
-    cancel_all_requests();
-    dequeue_find_tree(cpdk_data_move_info&, splay_tree**, long long**, int*, unsigned long long**);
-    dequeue_move_work(cpdk_data_move_info&, __throttle_info_handle**, bool*, vector<ioreq_ent*>&);
-    empty();
-    enque(ioreq_ent*, bool);
-    enque(ioreq_ent*, bool) (.cold.1);
-    get_next_ioreq(splay_tree*, ioreq_tree_node*, ioreq_tree_node*, int, bool*, ioreq_tree_node**, ioreq_tree_node**, unsigned long long*);
-    insert_request(splay_tree*, long long*, ioreq_ent*, long long*);
-    merge_neighbor(splay_tree*, ioreq_tree_node*, ioreq_ent*);
+    auto cancel_all_requests();
+    auto dequeue_find_tree(cpdk_data_move_info&, splay_tree**, long long**, int*, unsigned long long**);
+    auto dequeue_move_work(cpdk_data_move_info&, __throttle_info_handle**, bool*, vector<ioreq_ent*>&);
+    auto empty();
+    auto enque(ioreq_ent*, bool);
+    auto enque(ioreq_ent*, bool) (.cold.1);
+    auto get_next_ioreq(splay_tree*, ioreq_tree_node*, ioreq_tree_node*, int, bool*, ioreq_tree_node**, ioreq_tree_node**, unsigned long long*);
+    auto insert_request(splay_tree*, long long*, ioreq_ent*, long long*);
+    auto merge_neighbor(splay_tree*, ioreq_tree_node*, ioreq_ent*);
+    auto num_demote_units();
+    auto num_move_extents();
+    auto num_net_promote_units();
+    auto num_net_promote_units_in_flight();
+    auto num_promote_units();
+    auto remove_requests(splay_tree*, long long*, ioreq_ent const*, vector<ioreq_ent*>*, unsigned long long, unsigned int);
     move_work_queue(compositedisk_manager*);
-    num_demote_units();
-    num_move_extents();
-    num_net_promote_units();
-    num_net_promote_units_in_flight();
-    num_promote_units();
-    remove_requests(splay_tree*, long long*, ioreq_ent const*, vector<ioreq_ent*>*, unsigned long long, unsigned int);
     ~move_work_queue();
 };

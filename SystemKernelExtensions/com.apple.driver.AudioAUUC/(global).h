@@ -6,13 +6,9 @@
 
 AudioAUUC::gMetaClass;
 AudioAUUC::metaClass;
-AudioAUUC::operator delete(void*, unsigned long);
-AudioAUUC::operator new(unsigned long);
 AudioAUUC::superClass;
 AudioAUUCDriver::gMetaClass;
 AudioAUUCDriver::metaClass;
-AudioAUUCDriver::operator delete(void*, unsigned long);
-AudioAUUCDriver::operator new(unsigned long);
 AudioAUUCDriver::superClass;
 AudioAUUCDriver_ktv;
 AudioAUUC_ktv;

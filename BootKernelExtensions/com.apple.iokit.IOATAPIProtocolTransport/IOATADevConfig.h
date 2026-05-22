@@ -4,10 +4,10 @@
 
 class IOATADevConfig {
 public: // (access info unavailable from symbols alone)
-    atadevconfig();
-    getDMAMode();
-    getPIOMode();
-    getPacketConfig();
-    getUltraMode();
-    initWithBestSelection(unsigned short const*, IOATABusInfo*);
+    auto atadevconfig();
+    auto getDMAMode();
+    auto getPIOMode();
+    auto getPacketConfig();
+    auto getUltraMode();
+    auto initWithBestSelection(unsigned short const*, IOATABusInfo*);
 };

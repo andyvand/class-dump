@@ -4,5 +4,5 @@
 
 class TLE::RefCountPolicy {
 public: // (access info unavailable from symbols alone)
-    release(TLE::RefCounted&);
+    auto release(TLE::RefCounted&);
 };

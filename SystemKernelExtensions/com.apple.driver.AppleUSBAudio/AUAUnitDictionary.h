@@ -6,7 +6,9 @@ class AUAUnitDictionary {
 public: // (access info unavailable from symbols alone)
     AUAUnitDictionary();
     AUAUnitDictionary(OSMetaClass const*);
-    getMetaClass() const;
-    getNumInPins(unsigned char*);
+    auto getMetaClass() const;
+    auto getNumInPins(unsigned char*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AUAUnitDictionary();
 };

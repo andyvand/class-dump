@@ -4,8 +4,8 @@
 
 class AppleUSBNCMEncoder {
 public: // (access info unavailable from symbols alone)
-    consumeNextPacket(__mbuf*);
-    encode(IOBufferMemoryDescriptor*, unsigned int*, unsigned long*);
-    encode(void*, unsigned long, unsigned int*, unsigned long*);
-    nextPacket() const;
+    auto consumeNextPacket(__mbuf*);
+    auto encode(IOBufferMemoryDescriptor*, unsigned int*, unsigned long*);
+    auto encode(void*, unsigned long, unsigned int*, unsigned long*);
+    auto nextPacket() const;
 };

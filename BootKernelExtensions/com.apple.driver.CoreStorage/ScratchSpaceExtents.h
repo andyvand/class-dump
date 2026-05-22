@@ -4,8 +4,8 @@
 
 class ScratchSpaceExtents {
 public: // (access info unavailable from symbols alone)
-    discard();
-    getextent(tx*, phy_ext_addr*, unsigned long long*);
-    peekextent(unsigned long long*);
-    populate();
+    auto discard();
+    auto getextent(tx*, phy_ext_addr*, unsigned long long*);
+    auto peekextent(unsigned long long*);
+    auto populate();
 };

@@ -4,5 +4,5 @@
 
 class vector<mlv_ext> {
 public: // (access info unavailable from symbols alone)
-    push_back(mlv_ext const&);
+    auto push_back(mlv_ext const&);
 };

@@ -6,12 +6,14 @@ class AMDRadeonX5000_AMDGFX9AlignManager {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDGFX9AlignManager();
     AMDRadeonX5000_AMDGFX9AlignManager(OSMetaClass const*);
-    getAddrFormat(unsigned int);
-    getAddrResourceType(unsigned int);
-    getAddrSwizzleMode(unsigned int);
-    getFormat(_AddrFormat);
-    getMetaClass() const;
-    getResourceType(_AddrResourceType);
-    getSwizzleMode(_AddrSwizzleMode);
+    auto getAddrFormat(unsigned int);
+    auto getAddrResourceType(unsigned int);
+    auto getAddrSwizzleMode(unsigned int);
+    auto getFormat(_AddrFormat);
+    auto getMetaClass() const;
+    auto getResourceType(_AddrResourceType);
+    auto getSwizzleMode(_AddrSwizzleMode);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDGFX9AlignManager();
 };

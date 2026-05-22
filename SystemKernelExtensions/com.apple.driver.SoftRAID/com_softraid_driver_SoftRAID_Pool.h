@@ -4,19 +4,21 @@
 
 class com_softraid_driver_SoftRAID_Pool {
 public: // (access info unavailable from symbols alone)
-    AllocBuffer();
-    AllocBuffer() (.cold.1);
-    CreateEmptyPool();
-    FreeBuffer(void*);
-    NumberFreeBuffers();
-    PointerInArray(void*, unsigned int*);
-    ReleaseAllBlockedThreads();
+    auto AllocBuffer();
+    auto AllocBuffer() (.cold.1);
+    auto CreateEmptyPool();
+    auto FreeBuffer(void*);
+    auto NumberFreeBuffers();
+    auto PointerInArray(void*, unsigned int*);
+    auto ReleaseAllBlockedThreads();
+    auto free();
+    auto free()::kalloc_type_view_90;
+    auto getMetaClass() const;
+    auto init(unsigned int);
+    auto init(unsigned int)::kalloc_type_view_39;
     com_softraid_driver_SoftRAID_Pool();
     com_softraid_driver_SoftRAID_Pool(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_90;
-    getMetaClass() const;
-    init(unsigned int);
-    init(unsigned int)::kalloc_type_view_39;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_Pool();
 };

@@ -5,6 +5,6 @@
 class OSSharedPtr<OSDictionary> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr();
-    operator=(OSSharedPtr<OSDictionary>&&);
+    auto operator=(OSSharedPtr<OSDictionary>&&);
     ~OSSharedPtr();
 };

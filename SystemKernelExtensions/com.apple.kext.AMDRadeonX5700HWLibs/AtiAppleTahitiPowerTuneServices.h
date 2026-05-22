@@ -5,7 +5,7 @@
 class AtiAppleTahitiPowerTuneServices {
 public: // (access info unavailable from symbols alone)
     AtiAppleTahitiPowerTuneServices(PP_Instance*, PowerPlayCallbacks*);
-    getPowerTuneLimit();
-    setPowerTuneLimit(unsigned int);
+    auto getPowerTuneLimit();
+    auto setPowerTuneLimit(unsigned int);
     ~AtiAppleTahitiPowerTuneServices();
 };

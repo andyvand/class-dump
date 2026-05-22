@@ -4,16 +4,16 @@
 
 class TSNInterface {
 public: // (access info unavailable from symbols alone)
-    addTimeSyncReceivePacketHandler(void (*)(void*, TSNPacket*), void*);
-    addTimeSyncTransmitPacketHandler(void (*)(void*, TSNPacket*), void*, unsigned int*);
-    bsdUnitNumber() const;
-    changeInterfaceState(TSNInterfaceStateEvent);
-    getMACAddress(TSNEthernetAddress*) const;
-    interfaceName() const;
-    interfaceType() const;
-    linkActive() const;
-    nextAvailableTimeSyncPacket();
-    removeTimeSyncReceivePacketHandler(void (*)(void*, TSNPacket*), void*);
-    removeTimeSyncTransmitPacketHandler(unsigned int);
-    timestampingSupport() const;
+    auto addTimeSyncReceivePacketHandler(void (*)(void*, TSNPacket*), void*);
+    auto addTimeSyncTransmitPacketHandler(void (*)(void*, TSNPacket*), void*, unsigned int*);
+    auto bsdUnitNumber() const;
+    auto changeInterfaceState(TSNInterfaceStateEvent);
+    auto getMACAddress(TSNEthernetAddress*) const;
+    auto interfaceName() const;
+    auto interfaceType() const;
+    auto linkActive() const;
+    auto nextAvailableTimeSyncPacket();
+    auto removeTimeSyncReceivePacketHandler(void (*)(void*, TSNPacket*), void*);
+    auto removeTimeSyncTransmitPacketHandler(unsigned int);
+    auto timestampingSupport() const;
 };

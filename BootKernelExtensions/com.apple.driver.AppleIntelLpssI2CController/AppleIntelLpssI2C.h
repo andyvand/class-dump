@@ -4,25 +4,25 @@
 
 class AppleIntelLpssI2C {
 public: // (access info unavailable from symbols alone)
-    configDma(bool, bool);
-    getChannelNumber(unsigned int*);
-    getConfig(LpssI2CChannelConfig*);
-    getIntrMask();
-    getIntrSts();
-    getIntrTimeoutDebugRegs(i2cIntrTimeoutDebugRegs*);
-    getRXFLR();
-    getRawIntrSts();
-    getTXFLR();
-    intrError(unsigned int, char const*);
-    reset();
-    setConfig(LpssI2CChannelConfig*);
-    setIntrMask(unsigned int);
-    setPowerStrategy(LpssI2CPowerStrategy);
-    transferDataContRead(AppleIntelI2CCommand*, bool);
-    transferDataContWrite(AppleIntelI2CCommand*, bool);
-    transferDataRead(void*, unsigned long long, unsigned long long*);
-    transferDataStartCombined(AppleIntelI2CCommand*, bool);
-    transferDataStartRead(AppleIntelI2CCommand*, bool);
-    transferDataStartW2WN(AppleIntelI2CCommand*, bool);
-    transferDataStartWrite(AppleIntelI2CCommand*, bool);
+    auto configDma(bool, bool);
+    auto getChannelNumber(unsigned int*);
+    auto getConfig(LpssI2CChannelConfig*);
+    auto getIntrMask();
+    auto getIntrSts();
+    auto getIntrTimeoutDebugRegs(i2cIntrTimeoutDebugRegs*);
+    auto getRXFLR();
+    auto getRawIntrSts();
+    auto getTXFLR();
+    auto intrError(unsigned int, char const*);
+    auto reset();
+    auto setConfig(LpssI2CChannelConfig*);
+    auto setIntrMask(unsigned int);
+    auto setPowerStrategy(LpssI2CPowerStrategy);
+    auto transferDataContRead(AppleIntelI2CCommand*, bool);
+    auto transferDataContWrite(AppleIntelI2CCommand*, bool);
+    auto transferDataRead(void*, unsigned long long, unsigned long long*);
+    auto transferDataStartCombined(AppleIntelI2CCommand*, bool);
+    auto transferDataStartRead(AppleIntelI2CCommand*, bool);
+    auto transferDataStartW2WN(AppleIntelI2CCommand*, bool);
+    auto transferDataStartWrite(AppleIntelI2CCommand*, bool);
 };

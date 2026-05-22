@@ -6,7 +6,9 @@ class IOHIDClientData {
 public: // (access info unavailable from symbols alone)
     IOHIDClientData();
     IOHIDClientData(OSMetaClass const*);
-    getMetaClass() const;
-    withClientInfo(IOService*, void*, void (*)(OSObject*, OSObject*, void*, OSObject*, unsigned int));
+    auto getMetaClass() const;
+    auto withClientInfo(IOService*, void*, void (*)(OSObject*, OSObject*, void*, OSObject*, unsigned int));
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDClientData();
 };

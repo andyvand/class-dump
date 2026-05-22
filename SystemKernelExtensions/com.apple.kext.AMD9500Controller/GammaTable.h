@@ -4,8 +4,8 @@
 
 class GammaTable {
 public: // (access info unavailable from symbols alone)
-    getColorBits();
-    getEntry(unsigned short);
-    getSize();
-    setHWMatchStatus(bool);
+    auto getColorBits();
+    auto getEntry(unsigned short);
+    auto getSize();
+    auto setHWMatchStatus(bool);
 };

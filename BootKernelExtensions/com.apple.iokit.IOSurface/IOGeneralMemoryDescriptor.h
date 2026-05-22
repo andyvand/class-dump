@@ -4,5 +4,5 @@
 
 class IOGeneralMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    setOwnership(task*, int, unsigned int);
+    auto setOwnership(task*, int, unsigned int);
 };

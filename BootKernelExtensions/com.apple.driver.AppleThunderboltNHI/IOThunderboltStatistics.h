@@ -4,5 +4,5 @@
 
 class IOThunderboltStatistics {
 public: // (access info unavailable from symbols alone)
-    create();
+    auto create();
 };

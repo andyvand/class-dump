@@ -6,9 +6,11 @@ class AppleParavirtVidMemory {
 public: // (access info unavailable from symbols alone)
     AppleParavirtVidMemory();
     AppleParavirtVidMemory(OSMetaClass const*);
-    allocPhysical();
-    deallocPhysical();
-    getMetaClass() const;
-    getPhysicalSegment(unsigned long long, unsigned long long*);
+    auto allocPhysical();
+    auto deallocPhysical();
+    auto getMetaClass() const;
+    auto getPhysicalSegment(unsigned long long, unsigned long long*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtVidMemory();
 };

@@ -5,5 +5,5 @@
 class AppleGFXHDAWidget_1002AAA0::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

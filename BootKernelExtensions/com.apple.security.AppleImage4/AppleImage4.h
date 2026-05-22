@@ -6,14 +6,16 @@ class AppleImage4 {
 public: // (access info unavailable from symbols alone)
     AppleImage4();
     AppleImage4(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    meta_init();
-    probe(IOService*, int*);
-    start(IOService*);
-    start(IOService*)::didit;
-    stop(IOService*);
-    terminate(unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto meta_init();
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto start(IOService*)::didit;
+    auto stop(IOService*);
+    auto terminate(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleImage4();
 };

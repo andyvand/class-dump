@@ -4,11 +4,11 @@
 
 class IOLWPoolBase {
 public: // (access info unavailable from symbols alone)
-    getNumEntries() const;
-    init();
-    isInitialized() const;
-    releaseReservedElements(unsigned long);
-    reserveElements(unsigned long);
-    waitForEntriesLocked(unsigned long);
+    auto getNumEntries() const;
+    auto init();
+    auto isInitialized() const;
+    auto releaseReservedElements(unsigned long);
+    auto reserveElements(unsigned long);
+    auto waitForEntriesLocked(unsigned long);
     ~IOLWPoolBase();
 };

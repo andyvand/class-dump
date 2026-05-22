@@ -4,5 +4,5 @@
 
 class IGVector<IOMemoryDescriptor*, IGIOMallocAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
-    grow(unsigned long);
+    auto grow(unsigned long);
 };

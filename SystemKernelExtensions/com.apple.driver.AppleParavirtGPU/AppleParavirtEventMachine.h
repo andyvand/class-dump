@@ -6,15 +6,17 @@ class AppleParavirtEventMachine {
 public: // (access info unavailable from symbols alone)
     AppleParavirtEventMachine();
     AppleParavirtEventMachine(OSMetaClass const*);
-    completeBarrier(vendevtBarrierRec*);
-    disableStampInterrupt(int);
-    enableStampInterrupt(int);
-    eventTimeout(int);
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, unsigned int, int);
-    prepareBarrier(vendevtBarrierRec*);
-    signalStamps(unsigned int);
-    writeBarrierElement(vendevtBarrierRec*, int, unsigned int);
-    writeStamp(int, vendevtCommandRec*, unsigned int);
+    auto completeBarrier(vendevtBarrierRec*);
+    auto disableStampInterrupt(int);
+    auto enableStampInterrupt(int);
+    auto eventTimeout(int);
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, unsigned int, int);
+    auto prepareBarrier(vendevtBarrierRec*);
+    auto signalStamps(unsigned int);
+    auto writeBarrierElement(vendevtBarrierRec*, int, unsigned int);
+    auto writeStamp(int, vendevtCommandRec*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtEventMachine();
 };

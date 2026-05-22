@@ -5,12 +5,14 @@
 class IODMAController {
 public: // (access info unavailable from symbols alone)
     IODMAController(OSMetaClass const*);
-    completeDMACommand(IODMAEventSource*, IODMACommand*);
-    createControllerName(unsigned int);
-    getController(IOService*, unsigned int);
-    getMetaClass() const;
-    notifyDMACommand(IODMAEventSource*, IODMACommand*, int, unsigned long long, unsigned long long);
-    registerDMAController(unsigned int);
-    start(IOService*);
+    auto completeDMACommand(IODMAEventSource*, IODMACommand*);
+    auto createControllerName(unsigned int);
+    auto getController(IOService*, unsigned int);
+    auto getMetaClass() const;
+    auto notifyDMACommand(IODMAEventSource*, IODMACommand*, int, unsigned long long, unsigned long long);
+    auto registerDMAController(unsigned int);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODMAController();
 };

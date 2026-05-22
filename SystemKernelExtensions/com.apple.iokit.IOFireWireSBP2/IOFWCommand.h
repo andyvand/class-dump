@@ -5,15 +5,15 @@
 class IOFWCommand {
 public: // (access info unavailable from symbols alone)
     IOFWCommand(OSMetaClass const*);
-    _RESERVEDIOFWCommand1();
-    cancel(int);
-    checkProgress();
-    initWithController(IOFireWireController*);
-    insertAfter(IOFWCommand&);
-    removeFromQ();
-    setHead(IOFWCmdQ&);
-    startExecution();
-    submit(bool);
-    updateTimer();
+    auto _RESERVEDIOFWCommand1();
+    auto cancel(int);
+    auto checkProgress();
+    auto initWithController(IOFireWireController*);
+    auto insertAfter(IOFWCommand&);
+    auto removeFromQ();
+    auto setHead(IOFWCmdQ&);
+    auto startExecution();
+    auto submit(bool);
+    auto updateTimer();
     ~IOFWCommand();
 };

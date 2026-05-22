@@ -6,11 +6,13 @@ class IOGPUBlockFencePort {
 public: // (access info unavailable from symbols alone)
     IOGPUBlockFencePort();
     IOGPUBlockFencePort(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithAsyncRef64(unsigned long long*);
-    initWithNotificationQueue(IOGPUNotificationQueue*);
-    withAsyncRef64(unsigned long long*);
-    withNotificationQueue(IOGPUNotificationQueue*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithAsyncRef64(unsigned long long*);
+    auto initWithNotificationQueue(IOGPUNotificationQueue*);
+    auto withAsyncRef64(unsigned long long*);
+    auto withNotificationQueue(IOGPUNotificationQueue*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUBlockFencePort();
 };

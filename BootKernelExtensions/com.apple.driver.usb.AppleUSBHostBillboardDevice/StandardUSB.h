@@ -4,6 +4,6 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    getBillboardDescriptor(StandardUSB::BOSDescriptor const*);
-    getNextCapabilityDescriptorWithType(StandardUSB::BOSDescriptor const*, StandardUSB::DeviceCapabilityDescriptor const*, unsigned char);
+    auto getBillboardDescriptor(StandardUSB::BOSDescriptor const*);
+    auto getNextCapabilityDescriptorWithType(StandardUSB::BOSDescriptor const*, StandardUSB::DeviceCapabilityDescriptor const*, unsigned char);
 };

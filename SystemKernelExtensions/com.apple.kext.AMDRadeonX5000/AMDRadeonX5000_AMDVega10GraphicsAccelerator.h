@@ -6,9 +6,11 @@ class AMDRadeonX5000_AMDVega10GraphicsAccelerator {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDVega10GraphicsAccelerator();
     AMDRadeonX5000_AMDVega10GraphicsAccelerator(OSMetaClass const*);
-    getDeviceType(IOPCIDevice*);
-    getMetaClass() const;
-    newHWInterface();
-    setDeviceType(IOPCIDevice*);
+    auto getDeviceType(IOPCIDevice*);
+    auto getMetaClass() const;
+    auto newHWInterface();
+    auto setDeviceType(IOPCIDevice*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDVega10GraphicsAccelerator();
 };

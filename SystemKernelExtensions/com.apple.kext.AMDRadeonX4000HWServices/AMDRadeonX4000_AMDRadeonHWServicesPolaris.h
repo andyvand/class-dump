@@ -6,7 +6,9 @@ class AMDRadeonX4000_AMDRadeonHWServicesPolaris {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDRadeonHWServicesPolaris();
     AMDRadeonX4000_AMDRadeonHWServicesPolaris(OSMetaClass const*);
-    getMatchProperty();
-    getMetaClass() const;
+    auto getMatchProperty();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDRadeonHWServicesPolaris();
 };

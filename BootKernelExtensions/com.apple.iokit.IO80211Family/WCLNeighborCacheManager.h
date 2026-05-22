@@ -6,14 +6,16 @@ class WCLNeighborCacheManager {
 public: // (access info unavailable from symbols alone)
     WCLNeighborCacheManager();
     WCLNeighborCacheManager(OSMetaClass const*);
-    constructNeighborCacheFromFWHotChannels();
-    free();
-    free()::kalloc_type_view_102;
-    freeResources();
-    getMetaClass() const;
-    initwithOptions(WCLNetManager*, WCLBssManager*, WCLScanCacheStore*, WCLDeviceConfiguration*, CCLogStream*);
-    initwithOptions(WCLNetManager*, WCLBssManager*, WCLScanCacheStore*, WCLDeviceConfiguration*, CCLogStream*)::kalloc_type_view_79;
-    isChannelSpecValid(AppleChannelSpec_t&);
-    withOptions(WCLNetManager*, WCLBssManager*, WCLScanCacheStore*, WCLDeviceConfiguration*, CCLogStream*);
+    auto constructNeighborCacheFromFWHotChannels();
+    auto free();
+    auto free()::kalloc_type_view_102;
+    auto freeResources();
+    auto getMetaClass() const;
+    auto initwithOptions(WCLNetManager*, WCLBssManager*, WCLScanCacheStore*, WCLDeviceConfiguration*, CCLogStream*);
+    auto initwithOptions(WCLNetManager*, WCLBssManager*, WCLScanCacheStore*, WCLDeviceConfiguration*, CCLogStream*)::kalloc_type_view_79;
+    auto isChannelSpecValid(AppleChannelSpec_t&);
+    auto withOptions(WCLNetManager*, WCLBssManager*, WCLScanCacheStore*, WCLDeviceConfiguration*, CCLogStream*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~WCLNeighborCacheManager();
 };

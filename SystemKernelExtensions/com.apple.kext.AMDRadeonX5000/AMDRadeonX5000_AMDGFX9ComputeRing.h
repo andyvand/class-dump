@@ -6,9 +6,11 @@ class AMDRadeonX5000_AMDGFX9ComputeRing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDGFX9ComputeRing();
     AMDRadeonX5000_AMDGFX9ComputeRing(OSMetaClass const*);
-    enable();
-    getMetaClass() const;
-    programReadAndWritePointers(unsigned long long);
-    reset();
+    auto enable();
+    auto getMetaClass() const;
+    auto programReadAndWritePointers(unsigned long long);
+    auto reset();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDGFX9ComputeRing();
 };

@@ -6,11 +6,13 @@ class AMDRadeonX5000_AMDUVD7v2DecRing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDUVD7v2DecRing();
     AMDRadeonX5000_AMDUVD7v2DecRing(OSMetaClass const*);
-    configureRegisters(bool);
-    disable();
-    free();
-    getMetaClass() const;
-    getNOPCommand();
-    init(AMDRadeonX5000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
+    auto configureRegisters(bool);
+    auto disable();
+    auto free();
+    auto getMetaClass() const;
+    auto getNOPCommand();
+    auto init(AMDRadeonX5000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDUVD7v2DecRing();
 };

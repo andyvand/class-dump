@@ -4,6 +4,6 @@
 
 class AtiBandwidthManager {
 public: // (access info unavailable from symbols alone)
-    setPerformanceWatermarks(unsigned char);
-    setSafeWatermarks(unsigned char);
+    auto setPerformanceWatermarks(unsigned char);
+    auto setSafeWatermarks(unsigned char);
 };

@@ -4,6 +4,6 @@
 
 class OSSet {
 public: // (access info unavailable from symbols alone)
-    withCapacity(unsigned int);
-    withSet(OSSet const*, unsigned int);
+    auto withCapacity(unsigned int);
+    auto withSet(OSSet const*, unsigned int);
 };

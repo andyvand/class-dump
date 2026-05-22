@@ -6,15 +6,13 @@
 
 AppleGCHIDEventDummyService::gMetaClass;
 AppleGCHIDEventDummyService::metaClass;
-AppleGCHIDEventDummyService::operator delete(void*, unsigned long);
-AppleGCHIDEventDummyService::operator new(unsigned long);
 AppleGCHIDEventDummyService::superClass;
 AppleGCHIDEventDummyService_ktv;
 IOHIDDevice::metaClass;
 IOHIDEventService::gMetaClass;
 IOHIDInterface::metaClass;
-Log()::log;
 OSBoolean::metaClass;
+auto Log()::log;
 vtable for AppleGCHIDEventDummyService;
 vtable for AppleGCHIDEventDummyService::MetaClass;
 vtable for IOHIDEventService;

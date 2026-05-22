@@ -6,7 +6,9 @@ class MCX_ALR_KeepAlive {
 public: // (access info unavailable from symbols alone)
     MCX_ALR_KeepAlive();
     MCX_ALR_KeepAlive(OSMetaClass const*);
-    getMetaClass() const;
-    init();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~MCX_ALR_KeepAlive();
 };

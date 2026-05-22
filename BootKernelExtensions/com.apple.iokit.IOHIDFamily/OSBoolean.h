@@ -4,5 +4,5 @@
 
 class OSBoolean {
 public: // (access info unavailable from symbols alone)
-    withBoolean(bool);
+    auto withBoolean(bool);
 };

@@ -5,6 +5,6 @@
 class AtiSmuInfoInterface_V2_V3_1::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

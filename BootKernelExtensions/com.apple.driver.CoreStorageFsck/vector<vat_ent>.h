@@ -4,5 +4,5 @@
 
 class vector<vat_ent> {
 public: // (access info unavailable from symbols alone)
-    resize(unsigned long, vat_ent const&);
+    auto resize(unsigned long, vat_ent const&);
 };

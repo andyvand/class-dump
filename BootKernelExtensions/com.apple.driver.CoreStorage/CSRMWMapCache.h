@@ -4,10 +4,10 @@
 
 class CSRMWMapCache {
 public: // (access info unavailable from symbols alone)
-    Add(lv_key, unsigned long long, bool, bool);
-    End(CSRMWMapCache::IODestination const&) const;
-    NeedsFilling() const;
-    Preflight(unsigned long long, CSRMWMapCache::IODestination const&, CSRMWMapCache::Instructions*) const;
-    Start(CSRMWMapCache::IODestination const&) const;
-    lookup(lv_key, CSRMWMapCache::mapping*) const;
+    auto Add(lv_key, unsigned long long, bool, bool);
+    auto End(CSRMWMapCache::IODestination const&) const;
+    auto NeedsFilling() const;
+    auto Preflight(unsigned long long, CSRMWMapCache::IODestination const&, CSRMWMapCache::Instructions*) const;
+    auto Start(CSRMWMapCache::IODestination const&) const;
+    auto lookup(lv_key, CSRMWMapCache::mapping*) const;
 };

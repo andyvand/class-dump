@@ -4,11 +4,11 @@
 
 class IOAccelVidMemoryList {
 public: // (access info unavailable from symbols alone)
-    addMemory(IOAccelVidMemory*);
-    getCount() const;
-    init();
-    moveMemoryToHead(IOAccelVidMemory*);
-    moveMemoryToTail(IOAccelVidMemory*);
-    removeMemory(IOAccelVidMemory*);
-    removeMemory(IOAccelVidMemory*)::_os_log_fmt;
+    auto addMemory(IOAccelVidMemory*);
+    auto getCount() const;
+    auto init();
+    auto moveMemoryToHead(IOAccelVidMemory*);
+    auto moveMemoryToTail(IOAccelVidMemory*);
+    auto removeMemory(IOAccelVidMemory*);
+    auto removeMemory(IOAccelVidMemory*)::_os_log_fmt;
 };

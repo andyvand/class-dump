@@ -4,6 +4,6 @@
 
 class OSDictionary {
 public: // (access info unavailable from symbols alone)
-    iterateObjects(bool (OSSymbol const*, OSObject*) block_pointer);
-    withObjects(OSObject const**, OSSymbol const**, unsigned int, unsigned int);
+    auto iterateObjects(bool (OSSymbol const*, OSObject*) block_pointer);
+    auto withObjects(OSObject const**, OSSymbol const**, unsigned int, unsigned int);
 };

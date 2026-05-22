@@ -6,8 +6,10 @@ class IOFWUserReadCommand {
 public: // (access info unavailable from symbols alone)
     IOFWUserReadCommand();
     IOFWUserReadCommand(OSMetaClass const*);
-    getMetaClass() const;
-    initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
-    submit(IOFireWireLib::CommandSubmitParams*, IOFireWireLib::CommandSubmitResult*);
+    auto getMetaClass() const;
+    auto initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
+    auto submit(IOFireWireLib::CommandSubmitParams*, IOFireWireLib::CommandSubmitResult*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWUserReadCommand();
 };

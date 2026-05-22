@@ -4,5 +4,5 @@
 
 class OSData {
 public: // (access info unavailable from symbols alone)
-    withData(OSData const*);
+    auto withData(OSData const*);
 };

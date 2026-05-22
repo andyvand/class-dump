@@ -4,21 +4,23 @@
 
 class AppleTDMAKSServices {
 public: // (access info unavailable from symbols alone)
-    AbortAllOutstandingTransactions();
-    AbortAllOutstandingTransactions() (.cold.1);
-    AllocateCommands();
     AppleTDMAKSServices();
     AppleTDMAKSServices(OSMetaClass const*);
-    DeallocateCommands();
-    acceptResponse(void*, void*, unsigned long long, void*, unsigned long long);
-    acceptResponse(void*, void*, unsigned long long, void*, unsigned long long) (.cold.1);
-    free();
-    getMetaClass() const;
-    registerActionHandler(void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long));
-    sendMessage(void*, unsigned long long, void*, unsigned long long, void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long));
-    sendMessage(void*, unsigned long long, void*, unsigned long long, void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long)) (.cold.1);
-    start(IOService*);
-    unregisterActionHandler();
-    willTerminate(IOService*, unsigned int);
+    auto AbortAllOutstandingTransactions();
+    auto AbortAllOutstandingTransactions() (.cold.1);
+    auto AllocateCommands();
+    auto DeallocateCommands();
+    auto acceptResponse(void*, void*, unsigned long long, void*, unsigned long long);
+    auto acceptResponse(void*, void*, unsigned long long, void*, unsigned long long) (.cold.1);
+    auto free();
+    auto getMetaClass() const;
+    auto registerActionHandler(void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long));
+    auto sendMessage(void*, unsigned long long, void*, unsigned long long, void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long));
+    auto sendMessage(void*, unsigned long long, void*, unsigned long long, void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long)) (.cold.1);
+    auto start(IOService*);
+    auto unregisterActionHandler();
+    auto willTerminate(IOService*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleTDMAKSServices();
 };

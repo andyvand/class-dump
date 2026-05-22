@@ -4,10 +4,10 @@
 
 class IOAccelGLDrawableUserClientList {
 public: // (access info unavailable from symbols alone)
-    addGLDrawableUserClient(IOAccelGLDrawableUserClient*);
-    getCount() const;
-    getCountWithPID(int) const;
-    init();
-    removeGLDrawableUserClient(IOAccelGLDrawableUserClient*);
-    removeGLDrawableUserClient(IOAccelGLDrawableUserClient*)::_os_log_fmt;
+    auto addGLDrawableUserClient(IOAccelGLDrawableUserClient*);
+    auto getCount() const;
+    auto getCountWithPID(int) const;
+    auto init();
+    auto removeGLDrawableUserClient(IOAccelGLDrawableUserClient*);
+    auto removeGLDrawableUserClient(IOAccelGLDrawableUserClient*)::_os_log_fmt;
 };

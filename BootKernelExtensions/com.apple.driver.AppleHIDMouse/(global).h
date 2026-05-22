@@ -6,8 +6,6 @@
 
 AppleHIDMouseMapper::gMetaClass;
 AppleHIDMouseMapper::metaClass;
-AppleHIDMouseMapper::operator delete(void*, unsigned long);
-AppleHIDMouseMapper::operator new(unsigned long);
 AppleHIDMouseMapper::superClass;
 AppleHIDMouseMapper_ktv;
 OSNumber::metaClass;

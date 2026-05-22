@@ -4,5 +4,6 @@
 
 class DIRefT<DISharedBuffer> {
 public: // (access info unavailable from symbols alone)
-    die()::kalloc_type_view_108;
+    auto die()::kalloc_type_view_108;
+    void * operator new(unsigned long)::kalloc_type_view_114;
 };

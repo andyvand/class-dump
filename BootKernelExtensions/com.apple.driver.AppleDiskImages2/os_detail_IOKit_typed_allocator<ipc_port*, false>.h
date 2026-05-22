@@ -4,5 +4,5 @@
 
 class os_detail::IOKit_typed_allocator<ipc_port*, false> {
 public: // (access info unavailable from symbols alone)
-    kt_view()::kt_view;
+    auto kt_view()::kt_view;
 };

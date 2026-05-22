@@ -5,5 +5,5 @@
 class AMDRadeonX5000_AMDAccelRemoteMemory::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

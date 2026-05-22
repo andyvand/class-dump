@@ -6,8 +6,10 @@ class AppleSMBusPCI {
 public: // (access info unavailable from symbols alone)
     AppleSMBusPCI();
     AppleSMBusPCI(OSMetaClass const*);
-    getMetaClass() const;
-    start(IOService*);
-    terminate(unsigned int);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto terminate(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSMBusPCI();
 };

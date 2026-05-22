@@ -4,7 +4,7 @@
 
 class IOThunderboltReceiveCommand {
 public: // (access info unavailable from symbols alone)
-    getEOF();
-    getSOF();
-    withController(IOThunderboltController*);
+    auto getEOF();
+    auto getSOF();
+    auto withController(IOThunderboltController*);
 };

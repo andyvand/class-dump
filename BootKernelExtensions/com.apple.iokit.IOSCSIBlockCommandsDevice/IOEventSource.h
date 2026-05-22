@@ -4,6 +4,6 @@
 
 class IOEventSource {
 public: // (access info unavailable from symbols alone)
-    closeGate();
-    openGate();
+    auto closeGate();
+    auto openGate();
 };

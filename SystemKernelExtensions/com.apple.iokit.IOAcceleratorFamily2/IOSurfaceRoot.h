@@ -4,13 +4,13 @@
 
 class IOSurfaceRoot {
 public: // (access info unavailable from symbols alone)
-    copyPortNameForSurfaceInTask(task*, IOSurface*, unsigned int*);
-    createSurface(task*, OSDictionary*);
-    describeAllocations(void*, void (*)(void*, IOMemoryDescriptor*, unsigned int, int*, int));
-    generateUniqueAcceleratorID(void*);
-    getGraphicsCommPageDescriptor() const;
-    lookupSurface(unsigned int, task*);
-    release_surface_async(IOSurface*);
-    terminateDeviceCachesWithAccelerator(void*);
-    updateLimits(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int);
+    auto copyPortNameForSurfaceInTask(task*, IOSurface*, unsigned int*);
+    auto createSurface(task*, OSDictionary*);
+    auto describeAllocations(void*, void (*)(void*, IOMemoryDescriptor*, unsigned int, int*, int));
+    auto generateUniqueAcceleratorID(void*);
+    auto getGraphicsCommPageDescriptor() const;
+    auto lookupSurface(unsigned int, task*);
+    auto release_surface_async(IOSurface*);
+    auto terminateDeviceCachesWithAccelerator(void*);
+    auto updateLimits(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int);
 };

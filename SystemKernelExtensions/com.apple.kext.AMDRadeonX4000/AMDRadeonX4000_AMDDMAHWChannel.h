@@ -5,10 +5,12 @@
 class AMDRadeonX4000_AMDDMAHWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDDMAHWChannel(OSMetaClass const*);
-    allocateMemoryResources();
-    free();
-    getMetaClass() const;
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
-    submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto allocateMemoryResources();
+    auto free();
+    auto getMetaClass() const;
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDDMAHWChannel();
 };

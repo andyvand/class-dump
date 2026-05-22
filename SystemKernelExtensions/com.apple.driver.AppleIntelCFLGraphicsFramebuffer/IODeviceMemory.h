@@ -4,5 +4,5 @@
 
 class IODeviceMemory {
 public: // (access info unavailable from symbols alone)
-    withSubRange(IODeviceMemory*, unsigned long long, unsigned long long);
+    auto withSubRange(IODeviceMemory*, unsigned long long, unsigned long long);
 };

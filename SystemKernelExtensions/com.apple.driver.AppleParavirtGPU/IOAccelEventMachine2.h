@@ -4,16 +4,16 @@
 
 class IOAccelEventMachine2 {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOAccelEventMachine2();
-    _RESERVEDIOAccelEventMachine3();
-    _RESERVEDIOAccelEventMachine4();
-    _RESERVEDIOAccelEventMachine5();
-    collectAllLiveEventIfNeeded();
-    getNumStamps();
-    getStampOffset(int);
-    setStampBaseAddress(unsigned int volatile*);
-    signalHardwareError(eRestartRequest, int);
-    signalStamp(int, unsigned int);
-    stop();
-    waitForStamp(int, unsigned int, unsigned int*);
+    auto _RESERVEDIOAccelEventMachine2();
+    auto _RESERVEDIOAccelEventMachine3();
+    auto _RESERVEDIOAccelEventMachine4();
+    auto _RESERVEDIOAccelEventMachine5();
+    auto collectAllLiveEventIfNeeded();
+    auto getNumStamps();
+    auto getStampOffset(int);
+    auto setStampBaseAddress(unsigned int volatile*);
+    auto signalHardwareError(eRestartRequest, int);
+    auto signalStamp(int, unsigned int);
+    auto stop();
+    auto waitForStamp(int, unsigned int, unsigned int*);
 };

@@ -6,10 +6,12 @@ class AppleEthernetAquantiaAqtionFirmwareInterface {
 public: // (access info unavailable from symbols alone)
     AppleEthernetAquantiaAqtionFirmwareInterface();
     AppleEthernetAquantiaAqtionFirmwareInterface(OSMetaClass const*);
-    compareFirmwareVersion(fw_ver_s);
-    doFirmwareUpload(unsigned char*, unsigned int);
-    getMetaClass() const;
-    notifyFwUploadCompleted();
-    start(IOService*);
+    auto compareFirmwareVersion(fw_ver_s);
+    auto doFirmwareUpload(unsigned char*, unsigned int);
+    auto getMetaClass() const;
+    auto notifyFwUploadCompleted();
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEthernetAquantiaAqtionFirmwareInterface();
 };

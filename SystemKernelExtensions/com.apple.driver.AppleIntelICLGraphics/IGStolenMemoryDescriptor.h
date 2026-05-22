@@ -6,10 +6,12 @@ class IGStolenMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     IGStolenMemoryDescriptor();
     IGStolenMemoryDescriptor(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initSubRange(IGStolenMemoryPool*, IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
-    setPurgeable(unsigned int, unsigned int*);
-    withSubRange(IGStolenMemoryPool*, IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto initSubRange(IGStolenMemoryPool*, IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
+    auto setPurgeable(unsigned int, unsigned int*);
+    auto withSubRange(IGStolenMemoryPool*, IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGStolenMemoryDescriptor();
 };

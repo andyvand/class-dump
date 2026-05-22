@@ -4,10 +4,10 @@
 
 class UDFSequentialAlloc {
 public: // (access info unavailable from symbols alone)
-    AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
-    AllocWriteOnceSpace(unsigned int);
-    FreeExtent(unsigned int, unsigned int, int*);
-    NewBlocksWereWritten(unsigned int);
     UDFSequentialAlloc(UDFMount*, unsigned short, unsigned int, unsigned short);
+    auto AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
+    auto AllocWriteOnceSpace(unsigned int);
+    auto FreeExtent(unsigned int, unsigned int, int*);
+    auto NewBlocksWereWritten(unsigned int);
     ~UDFSequentialAlloc();
 };

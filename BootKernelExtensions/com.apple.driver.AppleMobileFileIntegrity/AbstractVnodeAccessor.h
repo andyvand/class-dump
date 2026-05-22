@@ -4,17 +4,17 @@
 
 class AbstractVnodeAccessor {
 public: // (access info unavailable from symbols alone)
-    configAllowsUnsealedAuthAPFSVolume();
-    getFact(CEBuffer);
-    hasFactFor(CEBuffer);
-    isQuarantined();
-    isRootInstalled();
-    isSIPProtected();
-    onAuthorizeAuthAPFSVolume();
-    onSystemVolume();
-    path(char const**);
-    resolveFact(CEBuffer);
-    resolveFactIfPresent(CEBuffer, bool*);
+    auto configAllowsUnsealedAuthAPFSVolume();
+    auto getFact(CEBuffer);
+    auto hasFactFor(CEBuffer);
+    auto isQuarantined();
+    auto isRootInstalled();
+    auto isSIPProtected();
+    auto onAuthorizeAuthAPFSVolume();
+    auto onSystemVolume();
+    auto path(char const**);
+    auto resolveFact(CEBuffer);
+    auto resolveFactIfPresent(CEBuffer, bool*);
     virtual thunk to getFact(CEBuffer);
     virtual thunk to hasFactFor(CEBuffer);
     virtual thunk to resolveFact(CEBuffer);

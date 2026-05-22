@@ -6,8 +6,10 @@ class AppleExclaveExampleKext {
 public: // (access info unavailable from symbols alone)
     AppleExclaveExampleKext();
     AppleExclaveExampleKext(OSMetaClass const*);
-    getMetaClass() const;
-    start(IOService*);
-    start(IOService*)::__desc;
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto start(IOService*)::__desc;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleExclaveExampleKext();
 };

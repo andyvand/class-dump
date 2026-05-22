@@ -6,11 +6,13 @@ class _IOOpenServiceIterator {
 public: // (access info unavailable from symbols alone)
     _IOOpenServiceIterator();
     _IOOpenServiceIterator(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getNextObject();
-    isValid();
-    iterator(OSIterator*, IOService const*, IOService const*);
-    reset();
+    auto free();
+    auto getMetaClass() const;
+    auto getNextObject();
+    auto isValid();
+    auto iterator(OSIterator*, IOService const*, IOService const*);
+    auto reset();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_IOOpenServiceIterator();
 };

@@ -4,14 +4,14 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    getConfigurationMaxPowerMilliAmps(unsigned int, StandardUSB::ConfigurationDescriptor const*);
-    getEndpointAddress(StandardUSB::EndpointDescriptor const*);
-    getEndpointDirection(StandardUSB::EndpointDescriptor const*);
-    getEndpointIntervalFrames(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointNumber(StandardUSB::EndpointDescriptor const*);
-    getEndpointType(StandardUSB::EndpointDescriptor const*);
-    getNextEndpointDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*, StandardUSB::Descriptor const*);
-    getSuperSpeedPlusDeviceCapabilityDescriptor(StandardUSB::BOSDescriptor const*);
-    validateDeviceCapabilityDescriptors(StandardUSB::BOSDescriptor const*);
+    auto getConfigurationMaxPowerMilliAmps(unsigned int, StandardUSB::ConfigurationDescriptor const*);
+    auto getEndpointAddress(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointDirection(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointIntervalFrames(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointNumber(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointType(StandardUSB::EndpointDescriptor const*);
+    auto getNextEndpointDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*, StandardUSB::Descriptor const*);
+    auto getSuperSpeedPlusDeviceCapabilityDescriptor(StandardUSB::BOSDescriptor const*);
+    auto validateDeviceCapabilityDescriptors(StandardUSB::BOSDescriptor const*);
 };

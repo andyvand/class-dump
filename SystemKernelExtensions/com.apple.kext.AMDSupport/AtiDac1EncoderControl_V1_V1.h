@@ -6,7 +6,9 @@ class AtiDac1EncoderControl_V1_V1 {
 public: // (access info unavailable from symbols alone)
     AtiDac1EncoderControl_V1_V1();
     AtiDac1EncoderControl_V1_V1(OSMetaClass const*);
-    dacEncoderControl(ActiveConnectorInfo const*, bool);
-    getMetaClass() const;
+    auto dacEncoderControl(ActiveConnectorInfo const*, bool);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDac1EncoderControl_V1_V1();
 };

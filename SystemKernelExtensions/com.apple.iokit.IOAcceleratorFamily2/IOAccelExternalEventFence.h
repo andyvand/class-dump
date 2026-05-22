@@ -6,10 +6,12 @@ class IOAccelExternalEventFence {
 public: // (access info unavailable from symbols alone)
     IOAccelExternalEventFence();
     IOAccelExternalEventFence(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithExternalEvent(IOAccelExternalEvent*, IOGraphicsAccelerator2*);
-    notifyClient();
-    withExternalEvent(IOAccelExternalEvent*, IOGraphicsAccelerator2*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithExternalEvent(IOAccelExternalEvent*, IOGraphicsAccelerator2*);
+    auto notifyClient();
+    auto withExternalEvent(IOAccelExternalEvent*, IOGraphicsAccelerator2*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelExternalEventFence();
 };

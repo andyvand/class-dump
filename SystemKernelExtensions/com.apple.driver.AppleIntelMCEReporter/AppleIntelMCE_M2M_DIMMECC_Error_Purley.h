@@ -4,6 +4,6 @@
 
 class AppleIntelMCE::M2M_DIMMECC_Error_Purley {
 public: // (access info unavailable from symbols alone)
-    parseMCAErrorValue(unsigned short, OSString*&, unsigned char&) const;
+    auto parseMCAErrorValue(unsigned short, OSString*&, unsigned char&) const;
     ~M2M_DIMMECC_Error_Purley();
 };

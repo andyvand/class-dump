@@ -5,6 +5,6 @@
 class OSSharedPtr<IOBufferMemoryDescriptor> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr();
-    operator=(OSSharedPtr<IOBufferMemoryDescriptor>&&);
+    auto operator=(OSSharedPtr<IOBufferMemoryDescriptor>&&);
     ~OSSharedPtr();
 };

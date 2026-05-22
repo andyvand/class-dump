@@ -5,9 +5,9 @@
 class OSIterator {
 public: // (access info unavailable from symbols alone)
     OSIterator(OSMetaClass const*);
-    _RESERVEDOSIterator0();
-    _RESERVEDOSIterator1();
-    _RESERVEDOSIterator2();
-    _RESERVEDOSIterator3();
+    auto _RESERVEDOSIterator0();
+    auto _RESERVEDOSIterator1();
+    auto _RESERVEDOSIterator2();
+    auto _RESERVEDOSIterator3();
     ~OSIterator();
 };

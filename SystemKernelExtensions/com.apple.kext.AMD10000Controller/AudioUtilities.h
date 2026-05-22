@@ -4,7 +4,7 @@
 
 class AudioUtilities {
 public: // (access info unavailable from symbols alone)
-    lookUpAudioClockInfo(unsigned int, unsigned int, unsigned int, AudioClockInfo*);
-    prepareAviInfoFrame(HDMIInfoPacket*, CRTC_PARAMS*);
-    prepareHDRStaticMetaDataPacket(InfoPacket*, InfoPacketRawData*, CRTC_PARAMS*);
+    auto lookUpAudioClockInfo(unsigned int, unsigned int, unsigned int, AudioClockInfo*);
+    auto prepareAviInfoFrame(HDMIInfoPacket*, CRTC_PARAMS*);
+    auto prepareHDRStaticMetaDataPacket(InfoPacket*, InfoPacketRawData*, CRTC_PARAMS*);
 };

@@ -6,14 +6,16 @@ class AppleParavirtTask {
 public: // (access info unavailable from symbols alone)
     AppleParavirtTask();
     AppleParavirtTask(OSMetaClass const*);
-    defineHostTask();
-    defineHostTask()::_os_log_fmt;
-    free();
-    getMetaClass() const;
-    init(AppleParavirtAccelerator*, unsigned long long);
-    init(AppleParavirtAccelerator*, unsigned long long)::_os_log_fmt;
-    resetResourceHeap();
-    setResourceHeap();
-    setResourceHeap()::_os_log_fmt;
+    auto defineHostTask();
+    auto defineHostTask()::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto init(AppleParavirtAccelerator*, unsigned long long);
+    auto init(AppleParavirtAccelerator*, unsigned long long)::_os_log_fmt;
+    auto resetResourceHeap();
+    auto setResourceHeap();
+    auto setResourceHeap()::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtTask();
 };

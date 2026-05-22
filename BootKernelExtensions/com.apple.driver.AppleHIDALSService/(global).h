@@ -6,8 +6,6 @@
 
 AppleUSBALSService::gMetaClass;
 AppleUSBALSService::metaClass;
-AppleUSBALSService::operator delete(void*, unsigned long);
-AppleUSBALSService::operator new(unsigned long);
 AppleUSBALSService::superClass;
 AppleUSBALSService_ktv;
 IOHIDInterface::metaClass;

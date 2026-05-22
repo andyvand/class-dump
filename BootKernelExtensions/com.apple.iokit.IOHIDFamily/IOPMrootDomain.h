@@ -4,5 +4,5 @@
 
 class IOPMrootDomain {
 public: // (access info unavailable from symbols alone)
-    requestUserActive(IOService*, char const*);
+    auto requestUserActive(IOService*, char const*);
 };

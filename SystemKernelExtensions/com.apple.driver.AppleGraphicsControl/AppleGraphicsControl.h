@@ -6,8 +6,10 @@ class AppleGraphicsControl {
 public: // (access info unavailable from symbols alone)
     AppleGraphicsControl();
     AppleGraphicsControl(OSMetaClass const*);
-    getCommandGate();
-    getMetaClass() const;
-    probe(IOService*, int*);
+    auto getCommandGate();
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGraphicsControl();
 };

@@ -5,9 +5,11 @@
 class AtiSpreadSpectrumInfoInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiSpreadSpectrumInfoInterface_V1(OSMetaClass const*);
-    convertSignalToSpreadSpectrumID(AtiAtomSignalType);
-    createSpreadSpectrumInfo(AtiVBiosHelper*, unsigned int);
-    getMetaClass() const;
-    stringifySpreadSpectrumClockSource(SpreadSpectrumClockSource);
+    auto convertSignalToSpreadSpectrumID(AtiAtomSignalType);
+    auto createSpreadSpectrumInfo(AtiVBiosHelper*, unsigned int);
+    auto getMetaClass() const;
+    auto stringifySpreadSpectrumClockSource(SpreadSpectrumClockSource);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSpreadSpectrumInfoInterface_V1();
 };

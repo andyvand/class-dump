@@ -4,7 +4,7 @@
 
 class IGVector<rect_pair_t, IGIOMallocAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
-    add(rect_pair_t const&);
-    grow(unsigned long);
+    auto add(rect_pair_t const&);
+    auto grow(unsigned long);
     ~IGVector();
 };

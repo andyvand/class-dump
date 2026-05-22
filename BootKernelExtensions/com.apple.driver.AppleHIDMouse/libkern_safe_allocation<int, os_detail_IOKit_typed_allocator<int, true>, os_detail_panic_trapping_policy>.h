@@ -4,5 +4,5 @@
 
 class libkern::safe_allocation<int, os_detail::IOKit_typed_allocator<int, true>, os_detail::panic_trapping_policy> {
 public: // (access info unavailable from symbols alone)
-    operator=(libkern::safe_allocation<int, os_detail::IOKit_typed_allocator<int, true>, os_detail::panic_trapping_policy>&&);
+    auto operator=(libkern::safe_allocation<int, os_detail::IOKit_typed_allocator<int, true>, os_detail::panic_trapping_policy>&&);
 };

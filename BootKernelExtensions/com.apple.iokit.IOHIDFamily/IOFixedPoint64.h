@@ -4,5 +4,5 @@
 
 class IOFixedPoint64 {
 public: // (access info unavailable from symbols alone)
-    clipToRect(IOGBounds volatile&);
+    auto clipToRect(IOGBounds volatile&);
 };

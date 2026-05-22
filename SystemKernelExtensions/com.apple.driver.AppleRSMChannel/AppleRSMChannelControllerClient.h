@@ -6,15 +6,17 @@ class AppleRSMChannelControllerClient {
 public: // (access info unavailable from symbols alone)
     AppleRSMChannelControllerClient();
     AppleRSMChannelControllerClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    createChannel(OSObject*, void*, IOExternalMethodArguments*);
-    destroyChannel(OSObject*, void*, IOExternalMethodArguments*);
-    exterminateChannels(OSObject*, void*, IOExternalMethodArguments*);
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*)::methods;
-    getMetaClass() const;
-    start(IOService*);
-    stop(IOService*);
+    auto clientClose();
+    auto clientDied();
+    auto createChannel(OSObject*, void*, IOExternalMethodArguments*);
+    auto destroyChannel(OSObject*, void*, IOExternalMethodArguments*);
+    auto exterminateChannels(OSObject*, void*, IOExternalMethodArguments*);
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*)::methods;
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleRSMChannelControllerClient();
 };

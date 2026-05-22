@@ -7,13 +7,9 @@
 AppleEmbeddedKeyboard::gMetaClass;
 AppleHIDKeyboardEventDriver::gMetaClass;
 AppleHIDKeyboardEventDriver::metaClass;
-AppleHIDKeyboardEventDriver::operator delete(void*, unsigned long);
-AppleHIDKeyboardEventDriver::operator new(unsigned long);
 AppleHIDKeyboardEventDriver::superClass;
 AppleHIDKeyboardEventDriverV2::gMetaClass;
 AppleHIDKeyboardEventDriverV2::metaClass;
-AppleHIDKeyboardEventDriverV2::operator delete(void*, unsigned long);
-AppleHIDKeyboardEventDriverV2::operator new(unsigned long);
 AppleHIDKeyboardEventDriverV2::superClass;
 AppleHIDKeyboardEventDriverV2_ktv;
 AppleHIDKeyboardEventDriver_ktv;

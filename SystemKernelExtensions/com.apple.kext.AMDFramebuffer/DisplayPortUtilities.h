@@ -4,10 +4,10 @@
 
 class DisplayPortUtilities {
 public: // (access info unavailable from symbols alone)
-    createRegistryProperties(IORegistryEntry*);
-    deleteRegistryProperties(IORegistryEntry*);
-    getSetting(unsigned int, unsigned long*);
-    isLinkTrained();
-    setDeviceState(bool, bool);
-    setSetting(unsigned int, unsigned long);
+    auto createRegistryProperties(IORegistryEntry*);
+    auto deleteRegistryProperties(IORegistryEntry*);
+    auto getSetting(unsigned int, unsigned long*);
+    auto isLinkTrained();
+    auto setDeviceState(bool, bool);
+    auto setSetting(unsigned int, unsigned long);
 };

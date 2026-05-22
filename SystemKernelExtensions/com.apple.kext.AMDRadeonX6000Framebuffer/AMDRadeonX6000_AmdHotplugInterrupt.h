@@ -6,13 +6,15 @@ class AMDRadeonX6000_AmdHotplugInterrupt {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdHotplugInterrupt();
     AMDRadeonX6000_AmdHotplugInterrupt(OSMetaClass const*);
-    callbackHandler(OSObject*, void*);
-    deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
-    delayedInterruptHandler(OSObject*, IOTimerEventSource*);
-    getMetaClass() const;
-    handle(void*);
-    initWithController(InterruptInfo*, AMDRadeonX6000_IAmdRadeonController*);
-    initialize();
-    setIgnored(bool);
+    auto callbackHandler(OSObject*, void*);
+    auto deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
+    auto delayedInterruptHandler(OSObject*, IOTimerEventSource*);
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initWithController(InterruptInfo*, AMDRadeonX6000_IAmdRadeonController*);
+    auto initialize();
+    auto setIgnored(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdHotplugInterrupt();
 };

@@ -4,13 +4,15 @@
 
 class com_softraid_driver_SoftRAID_Preferences {
 public: // (access info unavailable from symbols alone)
-    ReturnPreferences();
-    SetPreferences(DriverPrefsRec*);
-    SetPreferencesToDefaultValues();
+    auto ReturnPreferences();
+    auto SetPreferences(DriverPrefsRec*);
+    auto SetPreferencesToDefaultValues();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_Preferences();
     com_softraid_driver_SoftRAID_Preferences(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_Preferences();
 };

@@ -5,11 +5,13 @@
 class AMDRadeonX6000_AMDDMAHWEngine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDDMAHWEngine(OSMetaClass const*);
-    doMemcpy(unsigned long long, unsigned long long, unsigned int, _DRMDMA_AES*);
-    dummyWPTRUpdateDiag(char*&, unsigned int&, int);
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
-    powerOff();
+    auto doMemcpy(unsigned long long, unsigned long long, unsigned int, _DRMDMA_AES*);
+    auto dummyWPTRUpdateDiag(char*&, unsigned int&, int);
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    auto powerOff();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDDMAHWEngine();
 };

@@ -6,15 +6,11 @@
 
 AppleMCP89RootPortPM::gMetaClass;
 AppleMCP89RootPortPM::metaClass;
-AppleMCP89RootPortPM::operator delete(void*, unsigned long);
-AppleMCP89RootPortPM::operator new(unsigned long);
 AppleMCP89RootPortPM::superClass;
 AppleMCP89RootPortPM_ktv;
 AppleMCP89TMS::AppleMCP89TMSInst;
 AppleMCP89TMS::gMetaClass;
 AppleMCP89TMS::metaClass;
-AppleMCP89TMS::operator delete(void*, unsigned long);
-AppleMCP89TMS::operator new(unsigned long);
 AppleMCP89TMS::superClass;
 AppleMCP89TMS_ktv;
 IOPCI2PCIBridge::gMetaClass;

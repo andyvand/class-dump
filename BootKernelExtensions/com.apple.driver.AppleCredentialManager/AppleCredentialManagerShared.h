@@ -4,5 +4,5 @@
 
 class AppleCredentialManagerShared {
 public: // (access info unavailable from symbols alone)
-    _checkRequiredCommandEntitlements(acm_command_t*, unsigned long, AppleCredentialManagerShared::CheckEntitlementsLambda);
+    auto _checkRequiredCommandEntitlements(acm_command_t*, unsigned long, AppleCredentialManagerShared::CheckEntitlementsLambda);
 };

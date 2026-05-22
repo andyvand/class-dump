@@ -4,6 +4,6 @@
 
 class CCPipe {
 public: // (access info unavailable from symbols alone)
-    capturePipesWithOwner(char const*, CCTimestamp, char const*);
-    withOwnerNameCapacity(IOService*, char const*, char const*, CCPipeOptions const*);
+    auto capturePipesWithOwner(char const*, CCTimestamp, char const*);
+    auto withOwnerNameCapacity(IOService*, char const*, char const*, CCPipeOptions const*);
 };

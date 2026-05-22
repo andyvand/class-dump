@@ -6,10 +6,12 @@ class IOThunderboltXDomainServiceClientManagerMergeProperties {
 public: // (access info unavailable from symbols alone)
     IOThunderboltXDomainServiceClientManagerMergeProperties();
     IOThunderboltXDomainServiceClientManagerMergeProperties(OSMetaClass const*);
-    __mergeDictionaries(OSDictionary*, OSDictionary*);
-    __mergePropertiesAction(IOService*, IOService*);
-    getMetaClass() const;
-    overrideProperties();
-    probe(IOService*, int*);
+    auto __mergeDictionaries(OSDictionary*, OSDictionary*);
+    auto __mergePropertiesAction(IOService*, IOService*);
+    auto getMetaClass() const;
+    auto overrideProperties();
+    auto probe(IOService*, int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOThunderboltXDomainServiceClientManagerMergeProperties();
 };

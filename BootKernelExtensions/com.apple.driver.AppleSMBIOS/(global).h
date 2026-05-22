@@ -6,8 +6,6 @@
 
 AppleSMBIOS::gMetaClass;
 AppleSMBIOS::metaClass;
-AppleSMBIOS::operator delete(void*, unsigned long);
-AppleSMBIOS::operator new(unsigned long);
 AppleSMBIOS::superClass;
 AppleSMBIOS_ktv;
 IOService::gMetaClass;

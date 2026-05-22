@@ -5,11 +5,13 @@
 class AtiPipeControl {
 public: // (access info unavailable from symbols alone)
     AtiPipeControl(OSMetaClass const*);
-    free();
-    getBlenderIndex() const;
-    getMetaClass() const;
-    getPropertiesForUserClient();
-    initWithController(unsigned char, ATIController*);
-    setBlenderFeedthrough(bool);
+    auto free();
+    auto getBlenderIndex() const;
+    auto getMetaClass() const;
+    auto getPropertiesForUserClient();
+    auto initWithController(unsigned char, ATIController*);
+    auto setBlenderFeedthrough(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPipeControl();
 };

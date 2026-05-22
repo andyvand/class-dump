@@ -6,8 +6,6 @@
 
 AppleUSBRealtek8153Patcher::gMetaClass;
 AppleUSBRealtek8153Patcher::metaClass;
-AppleUSBRealtek8153Patcher::operator delete(void*, unsigned long);
-AppleUSBRealtek8153Patcher::operator new(unsigned long);
 AppleUSBRealtek8153Patcher::superClass;
 AppleUSBRealtek8153Patcher_ktv;
 IOService::gMetaClass;

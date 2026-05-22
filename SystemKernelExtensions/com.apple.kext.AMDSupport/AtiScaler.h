@@ -5,18 +5,20 @@
 class AtiScaler {
 public: // (access info unavailable from symbols alone)
     AtiScaler(OSMetaClass const*);
-    checkSourceLineSize(ScalerValidationParameters*, ScalingTaps*);
-    checkTapSettingsForScalingRatio(ScalingTaps*, unsigned int, unsigned int);
-    free();
-    getMetaClass() const;
-    getNextLowerNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
-    getNextLowerNumberOfTaps(ScalerValidationParameters*, ScalingTaps*)::__desc;
-    getNumberOfTapsForThisConfiguration(ScalerValidationParameters*, Window*, unsigned int, ScalingTaps*);
-    getOptimalNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
-    initWithController(unsigned char, ATIController*);
-    populateDebugDictionary(OSDictionary*);
-    setScalerBypassCheck(Window*, Window*, PixelType, bool);
-    validateTapsForScalingRatio(ScalerValidationParameters*, ScalingTaps*, unsigned int, unsigned int);
-    validateTapsForScalingRatio(ScalerValidationParameters*, ScalingTaps*, unsigned int, unsigned int)::__desc;
+    auto checkSourceLineSize(ScalerValidationParameters*, ScalingTaps*);
+    auto checkTapSettingsForScalingRatio(ScalingTaps*, unsigned int, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getNextLowerNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
+    auto getNextLowerNumberOfTaps(ScalerValidationParameters*, ScalingTaps*)::__desc;
+    auto getNumberOfTapsForThisConfiguration(ScalerValidationParameters*, Window*, unsigned int, ScalingTaps*);
+    auto getOptimalNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
+    auto initWithController(unsigned char, ATIController*);
+    auto populateDebugDictionary(OSDictionary*);
+    auto setScalerBypassCheck(Window*, Window*, PixelType, bool);
+    auto validateTapsForScalingRatio(ScalerValidationParameters*, ScalingTaps*, unsigned int, unsigned int);
+    auto validateTapsForScalingRatio(ScalerValidationParameters*, ScalingTaps*, unsigned int, unsigned int)::__desc;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiScaler();
 };

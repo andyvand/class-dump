@@ -6,10 +6,12 @@ class AMDRadeonX4000_AMDStatisticsGroup {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDStatisticsGroup();
     AMDRadeonX4000_AMDStatisticsGroup(OSMetaClass const*);
-    dumpGroupStats(OSDictionary*, bool);
-    free();
-    getMetaClass() const;
-    init(OSMetaClass const*, char const*, char const*, unsigned int, char const**, char const**, AMDAccelCtl);
-    resetGroupStats();
+    auto dumpGroupStats(OSDictionary*, bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSMetaClass const*, char const*, char const*, unsigned int, char const**, char const**, AMDAccelCtl);
+    auto resetGroupStats();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDStatisticsGroup();
 };

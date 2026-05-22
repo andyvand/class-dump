@@ -4,15 +4,15 @@
 
 class USBMassStorageDriverGlobals {
 public: // (access info unavailable from symbols alone)
-    AddDevice(unsigned short, unsigned short, unsigned int, unsigned char, OSObject*);
-    FindDevice(unsigned short, unsigned short, unsigned int, unsigned char);
-    GetMassStorageResource();
-    Lock();
-    RemoveDevice(unsigned short, unsigned short, unsigned int, unsigned char, bool);
-    SetMassStorageResource(IOService*);
     USBMassStorageDriverGlobals();
-    Unlock();
-    UpdateDeviceRemoveTime(unsigned short, unsigned short, unsigned int, unsigned char, bool);
-    getLastDeviceRemoveAbsTime(unsigned short, unsigned short, unsigned int, unsigned char, unsigned long long*);
+    auto AddDevice(unsigned short, unsigned short, unsigned int, unsigned char, OSObject*);
+    auto FindDevice(unsigned short, unsigned short, unsigned int, unsigned char);
+    auto GetMassStorageResource();
+    auto Lock();
+    auto RemoveDevice(unsigned short, unsigned short, unsigned int, unsigned char, bool);
+    auto SetMassStorageResource(IOService*);
+    auto Unlock();
+    auto UpdateDeviceRemoveTime(unsigned short, unsigned short, unsigned int, unsigned char, bool);
+    auto getLastDeviceRemoveAbsTime(unsigned short, unsigned short, unsigned int, unsigned char, unsigned long long*);
     ~USBMassStorageDriverGlobals();
 };

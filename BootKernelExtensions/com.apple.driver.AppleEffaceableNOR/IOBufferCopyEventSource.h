@@ -4,5 +4,5 @@
 
 class IOBufferCopyEventSource {
 public: // (access info unavailable from symbols alone)
-    withOwner(OSObject*, unsigned short, int, IOBufferCopyEngine*);
+    auto withOwner(OSObject*, unsigned short, int, IOBufferCopyEngine*);
 };

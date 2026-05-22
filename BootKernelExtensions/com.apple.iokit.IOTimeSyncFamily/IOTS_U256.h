@@ -4,5 +4,5 @@
 
 class IOTS_U256 {
 public: // (access info unavailable from symbols alone)
-    operator+(IOTS_U256 const&) const;
+    auto operator+(IOTS_U256 const&) const;
 };

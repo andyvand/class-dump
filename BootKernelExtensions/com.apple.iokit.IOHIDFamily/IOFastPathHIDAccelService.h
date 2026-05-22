@@ -6,12 +6,14 @@ class IOFastPathHIDAccelService {
 public: // (access info unavailable from symbols alone)
     IOFastPathHIDAccelService();
     IOFastPathHIDAccelService(OSMetaClass const*);
-    createDescriptor();
-    getMetaClass() const;
-    handleAccelerometerEvent(IOHIDEvent*);
-    handleAccelerometerEvent(IOHIDEvent*)::_os_log_fmt;
-    handleEvent(IOHIDEventService*, void*, IOHIDEvent*, unsigned int);
-    isProducer() const;
-    start(IOService*);
+    auto createDescriptor();
+    auto getMetaClass() const;
+    auto handleAccelerometerEvent(IOHIDEvent*);
+    auto handleAccelerometerEvent(IOHIDEvent*)::_os_log_fmt;
+    auto handleEvent(IOHIDEventService*, void*, IOHIDEvent*, unsigned int);
+    auto isProducer() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFastPathHIDAccelService();
 };

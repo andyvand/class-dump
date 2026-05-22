@@ -6,9 +6,11 @@ class IOPlatformPluginThermalProfile {
 public: // (access info unavailable from symbols alone)
     IOPlatformPluginThermalProfile();
     IOPlatformPluginThermalProfile(OSMetaClass const*);
-    adjustThermalProfile();
-    getMetaClass() const;
-    getThermalConfig();
-    start(IOService*);
+    auto adjustThermalProfile();
+    auto getMetaClass() const;
+    auto getThermalConfig();
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPlatformPluginThermalProfile();
 };

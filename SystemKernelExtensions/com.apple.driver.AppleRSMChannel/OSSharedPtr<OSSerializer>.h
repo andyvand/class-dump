@@ -5,6 +5,6 @@
 class OSSharedPtr<OSSerializer> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr();
-    operator=(OSSharedPtr<OSSerializer>&&);
+    auto operator=(OSSharedPtr<OSSerializer>&&);
     ~OSSharedPtr();
 };

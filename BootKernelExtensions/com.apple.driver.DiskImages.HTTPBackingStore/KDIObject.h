@@ -4,13 +4,13 @@
 
 class KDIObject {
 public: // (access info unavailable from symbols alone)
-    _handleClose(IOService*, unsigned int);
-    _handleOpen(IOService*, unsigned int, void*);
-    attach(IOService*);
-    detach(IOService*);
-    handleClose(IOService*, unsigned int);
-    handleOpen(IOService*, unsigned int, void*);
-    message(unsigned int, IOService*, void*);
-    start(IOService*);
-    stop(IOService*);
+    auto _handleClose(IOService*, unsigned int);
+    auto _handleOpen(IOService*, unsigned int, void*);
+    auto attach(IOService*);
+    auto detach(IOService*);
+    auto handleClose(IOService*, unsigned int);
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto message(unsigned int, IOService*, void*);
+    auto start(IOService*);
+    auto stop(IOService*);
 };

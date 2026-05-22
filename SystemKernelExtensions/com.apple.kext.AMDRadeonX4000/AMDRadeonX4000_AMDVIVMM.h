@@ -6,11 +6,13 @@ class AMDRadeonX4000_AMDVIVMM {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVIVMM();
     AMDRadeonX4000_AMDVIVMM(OSMetaClass const*);
-    decodePTE(unsigned long long, unsigned long long*, bool*);
-    getMetaClass() const;
-    getPDEValue(eAMD_VMPT_LEVEL, unsigned long long);
-    getPTEValue(eAMD_VMPT_LEVEL, unsigned long long, AMDRadeonX4000_IAMDHWVMM::VmMapFlags, unsigned int);
-    init(AMDRadeonX4000_IAMDHWInterface*);
-    programAndInvalidateVM(AMD_VM_INVALIDATE_INFO const*);
+    auto decodePTE(unsigned long long, unsigned long long*, bool*);
+    auto getMetaClass() const;
+    auto getPDEValue(eAMD_VMPT_LEVEL, unsigned long long);
+    auto getPTEValue(eAMD_VMPT_LEVEL, unsigned long long, AMDRadeonX4000_IAMDHWVMM::VmMapFlags, unsigned int);
+    auto init(AMDRadeonX4000_IAMDHWInterface*);
+    auto programAndInvalidateVM(AMD_VM_INVALIDATE_INFO const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVIVMM();
 };

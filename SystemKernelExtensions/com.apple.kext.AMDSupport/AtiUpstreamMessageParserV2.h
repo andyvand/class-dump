@@ -6,15 +6,17 @@ class AtiUpstreamMessageParserV2 {
 public: // (access info unavailable from symbols alone)
     AtiUpstreamMessageParserV2();
     AtiUpstreamMessageParserV2(OSMetaClass const*);
-    calculateMessageSize(void*);
-    getMessageBuffer();
-    getMetaClass() const;
-    init(CRTC_PARAMS*, ATIController*, unsigned int);
-    processMessage(ATIConnector*, HdcpStatusMessage*);
-    readMessage(unsigned int, ATIConnector*, void*);
-    requiresNotification();
-    verifyVersion(void*);
-    writeMessage(unsigned int, ATIConnector*, void*);
-    writeMessage(unsigned int, ATIConnector*, void*)::expectedMessageSize;
+    auto calculateMessageSize(void*);
+    auto getMessageBuffer();
+    auto getMetaClass() const;
+    auto init(CRTC_PARAMS*, ATIController*, unsigned int);
+    auto processMessage(ATIConnector*, HdcpStatusMessage*);
+    auto readMessage(unsigned int, ATIConnector*, void*);
+    auto requiresNotification();
+    auto verifyVersion(void*);
+    auto writeMessage(unsigned int, ATIConnector*, void*);
+    auto writeMessage(unsigned int, ATIConnector*, void*)::expectedMessageSize;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiUpstreamMessageParserV2();
 };

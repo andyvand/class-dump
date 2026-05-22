@@ -4,16 +4,18 @@
 
 class AppleUSBEHCIHubInfo {
 public: // (access info unavailable from symbols alone)
-    AddHubInfo(AppleUSBEHCIHubInfo**, unsigned short, unsigned int);
-    AddHubInfo(AppleUSBEHCIHubInfo**, unsigned short, unsigned int)::_os_log_fmt;
     AppleUSBEHCIHubInfo();
     AppleUSBEHCIHubInfo(OSMetaClass const*);
-    DeleteHubInfo(AppleUSBEHCIHubInfo**, unsigned short);
-    DeleteHubInfo(AppleUSBEHCIHubInfo**, unsigned short)::_os_log_fmt;
-    FindHubInfo(AppleUSBEHCIHubInfo*, unsigned short);
-    FindHubInfo(AppleUSBEHCIHubInfo*, unsigned short)::_os_log_fmt;
-    GetTTInfo(int);
-    GetTTInfo(int)::_os_log_fmt;
-    getMetaClass() const;
+    auto AddHubInfo(AppleUSBEHCIHubInfo**, unsigned short, unsigned int);
+    auto AddHubInfo(AppleUSBEHCIHubInfo**, unsigned short, unsigned int)::_os_log_fmt;
+    auto DeleteHubInfo(AppleUSBEHCIHubInfo**, unsigned short);
+    auto DeleteHubInfo(AppleUSBEHCIHubInfo**, unsigned short)::_os_log_fmt;
+    auto FindHubInfo(AppleUSBEHCIHubInfo*, unsigned short);
+    auto FindHubInfo(AppleUSBEHCIHubInfo*, unsigned short)::_os_log_fmt;
+    auto GetTTInfo(int);
+    auto GetTTInfo(int)::_os_log_fmt;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEHCIHubInfo();
 };

@@ -4,5 +4,5 @@
 
 class IGHashTable<unsigned long long, PerThreadInfo*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>::Iterator {
 public: // (access info unavailable from symbols alone)
-    next();
+    auto next();
 };

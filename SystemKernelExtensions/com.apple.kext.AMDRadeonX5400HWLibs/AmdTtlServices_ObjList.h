@@ -4,8 +4,8 @@
 
 class AmdTtlServices::ObjList {
 public: // (access info unavailable from symbols alone)
-    add(void const*, void (*)(void const*));
-    osObjRelease(void const*);
-    releaseAll();
-    remove(void const*);
+    auto add(void const*, void (*)(void const*));
+    auto osObjRelease(void const*);
+    auto releaseAll();
+    auto remove(void const*);
 };

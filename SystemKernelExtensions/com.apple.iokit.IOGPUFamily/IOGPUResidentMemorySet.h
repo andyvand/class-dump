@@ -4,19 +4,19 @@
 
 class IOGPUResidentMemorySet {
 public: // (access info unavailable from symbols alone)
-    addMemory(IOGPUMemory*);
-    free();
-    free()::kalloc_type_view_36;
-    getCount() const;
-    init(IOGPU*);
-    init(IOGPU*)::kalloc_type_view_26;
-    realloc();
-    realloc() (.cold.1);
-    realloc()::kalloc_type_view_95;
-    realloc()::kalloc_type_view_99;
-    removeMemory(IOGPUMemory*);
-    repack();
-    repack() (.cold.1);
-    repack() (.cold.2);
-    sort();
+    auto addMemory(IOGPUMemory*);
+    auto free();
+    auto free()::kalloc_type_view_36;
+    auto getCount() const;
+    auto init(IOGPU*);
+    auto init(IOGPU*)::kalloc_type_view_26;
+    auto realloc();
+    auto realloc() (.cold.1);
+    auto realloc()::kalloc_type_view_95;
+    auto realloc()::kalloc_type_view_99;
+    auto removeMemory(IOGPUMemory*);
+    auto repack();
+    auto repack() (.cold.1);
+    auto repack() (.cold.2);
+    auto sort();
 };

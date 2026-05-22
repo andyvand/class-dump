@@ -7,8 +7,6 @@
 AppleUSBCommonDebug::_log;
 AppleUSBHostBillboardDevice::gMetaClass;
 AppleUSBHostBillboardDevice::metaClass;
-AppleUSBHostBillboardDevice::operator delete(void*, unsigned long);
-AppleUSBHostBillboardDevice::operator new(unsigned long);
 AppleUSBHostBillboardDevice::superClass;
 AppleUSBHostBillboardDevice_ktv;
 IOService::gMetaClass;

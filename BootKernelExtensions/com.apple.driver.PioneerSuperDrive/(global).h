@@ -7,8 +7,6 @@
 IOSCSIPeripheralDeviceType05::gMetaClass;
 com_apple_driver_PioneerSuperDrive::gMetaClass;
 com_apple_driver_PioneerSuperDrive::metaClass;
-com_apple_driver_PioneerSuperDrive::operator delete(void*, unsigned long);
-com_apple_driver_PioneerSuperDrive::operator new(unsigned long);
 com_apple_driver_PioneerSuperDrive::superClass;
 com_apple_driver_PioneerSuperDrive_ktv;
 vtable for IOSCSIPeripheralDeviceType05;

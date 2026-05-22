@@ -5,10 +5,10 @@
 class AppleGraphicsDeviceControlClient {
 public: // (access info unavailable from symbols alone)
     AppleGraphicsDeviceControlClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    message(unsigned int, IOService*, void*);
-    stop(IOService*);
+    auto clientClose();
+    auto clientDied();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto message(unsigned int, IOService*, void*);
+    auto stop(IOService*);
     ~AppleGraphicsDeviceControlClient();
 };

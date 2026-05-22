@@ -4,8 +4,8 @@
 
 class DpcdInfo {
 public: // (access info unavailable from symbols alone)
-    getSinkCount() const;
-    getVersion() const;
-    headerEquals(DpcdInfo const*) const;
-    isBranchPresent() const;
+    auto getSinkCount() const;
+    auto getVersion() const;
+    auto headerEquals(DpcdInfo const*) const;
+    auto isBranchPresent() const;
 };

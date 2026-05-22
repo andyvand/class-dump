@@ -4,19 +4,19 @@
 
 class AppleBCMWLANPCIeSkywalkRxSubmissionQueue {
 public: // (access info unavailable from symbols alone)
-    collectQueueStats(char*, unsigned long, unsigned long, unsigned long);
-    dequeuePackets(OSObject*, IO80211NetworkPacket**, unsigned int, void*);
-    free();
-    free()::kalloc_type_view_129;
-    fwRingError(AppleBCMWLANByteRing*, int, void*);
-    fwRingFill(AppleBCMWLANByteRing*, void*, unsigned int);
-    fwRingPending(unsigned short);
-    getLogger() const;
-    getMetaClass() const;
-    initProviderAndPoolAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, OSObject*, AppleBCMWLANPCIeSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, CCLogStream*, CCFaultReporter*)::kalloc_type_view_89;
-    requestDequeue(void*, unsigned int);
-    setFWRing(AppleBCMWLANPCIeSubmissionRing*);
-    setLogger(CCLogStream*);
-    withProviderAndQueueInfoAndPool(AppleBCMWLANBusInterfacePCIe*, OSObject*, unsigned short, unsigned int, unsigned int, AppleBCMWLANPCIeSkywalkPacketPool*, CCLogStream*, CCFaultReporter*);
+    auto collectQueueStats(char*, unsigned long, unsigned long, unsigned long);
+    auto dequeuePackets(OSObject*, IO80211NetworkPacket**, unsigned int, void*);
+    auto free();
+    auto free()::kalloc_type_view_129;
+    auto fwRingError(AppleBCMWLANByteRing*, int, void*);
+    auto fwRingFill(AppleBCMWLANByteRing*, void*, unsigned int);
+    auto fwRingPending(unsigned short);
+    auto getLogger() const;
+    auto getMetaClass() const;
+    auto initProviderAndPoolAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, OSObject*, AppleBCMWLANPCIeSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, CCLogStream*, CCFaultReporter*)::kalloc_type_view_89;
+    auto requestDequeue(void*, unsigned int);
+    auto setFWRing(AppleBCMWLANPCIeSubmissionRing*);
+    auto setLogger(CCLogStream*);
+    auto withProviderAndQueueInfoAndPool(AppleBCMWLANBusInterfacePCIe*, OSObject*, unsigned short, unsigned int, unsigned int, AppleBCMWLANPCIeSkywalkPacketPool*, CCLogStream*, CCFaultReporter*);
     ~AppleBCMWLANPCIeSkywalkRxSubmissionQueue();
 };

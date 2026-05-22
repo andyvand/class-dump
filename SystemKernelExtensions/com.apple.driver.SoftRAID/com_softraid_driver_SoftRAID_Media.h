@@ -4,23 +4,25 @@
 
 class com_softraid_driver_SoftRAID_Media {
 public: // (access info unavailable from symbols alone)
-    SetVolumePtr(com_softraid_driver_SoftRAID_Volume*);
-    UpdateMediaUUIDProperty(unsigned long long);
-    UpdateProviderArrayProperty();
+    auto SetVolumePtr(com_softraid_driver_SoftRAID_Volume*);
+    auto UpdateMediaUUIDProperty(unsigned long long);
+    auto UpdateProviderArrayProperty();
+    auto detach(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto getWorkLoop() const;
+    auto handleClose(IOService*, unsigned int);
+    auto handleIsOpen(IOService const*) const;
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto initWithVolumePtr(com_softraid_driver_SoftRAID_Volume*, unsigned long long, unsigned long long, bool, bool, bool, char const*, OSDictionary*);
+    auto read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    auto stop(IOService*);
+    auto synchronize(IOService*, unsigned long long, unsigned long long, unsigned int);
+    auto unmap(IOService*, IOStorageExtent*, unsigned int, unsigned int);
+    auto write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
     com_softraid_driver_SoftRAID_Media();
     com_softraid_driver_SoftRAID_Media(OSMetaClass const*);
-    detach(IOService*);
-    free();
-    getMetaClass() const;
-    getWorkLoop() const;
-    handleClose(IOService*, unsigned int);
-    handleIsOpen(IOService const*) const;
-    handleOpen(IOService*, unsigned int, void*);
-    initWithVolumePtr(com_softraid_driver_SoftRAID_Volume*, unsigned long long, unsigned long long, bool, bool, bool, char const*, OSDictionary*);
-    read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
-    stop(IOService*);
-    synchronize(IOService*, unsigned long long, unsigned long long, unsigned int);
-    unmap(IOService*, IOStorageExtent*, unsigned int, unsigned int);
-    write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_Media();
 };

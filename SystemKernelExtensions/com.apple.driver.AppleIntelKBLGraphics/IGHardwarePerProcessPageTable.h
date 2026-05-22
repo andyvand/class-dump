@@ -5,14 +5,16 @@
 class IGHardwarePerProcessPageTable {
 public: // (access info unavailable from symbols alone)
     IGHardwarePerProcessPageTable(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithOptions(IntelAccelerator*, IGAccelTask*, unsigned int);
-    mapDescriptorForRange(IGAddressRange const&, IGPagePool::PageDescriptor*);
-    readDescriptorForRange(IGAddressRange const&, IGPagePool::PageDescriptor**) const;
-    remapDescriptorForRange(IGAddressRange const&, IGPagePool::PageDescriptor*);
-    synchronizeEachEntry(IGHardwarePageTable const*, IGAddressRange const&, bool);
-    synchronizePageDescriptor(IGHardwarePerProcessPageTable const*, IGAddressRange const&, bool);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithOptions(IntelAccelerator*, IGAccelTask*, unsigned int);
+    auto mapDescriptorForRange(IGAddressRange const&, IGPagePool::PageDescriptor*);
+    auto readDescriptorForRange(IGAddressRange const&, IGPagePool::PageDescriptor**) const;
+    auto remapDescriptorForRange(IGAddressRange const&, IGPagePool::PageDescriptor*);
+    auto synchronizeEachEntry(IGHardwarePageTable const*, IGAddressRange const&, bool);
+    auto synchronizePageDescriptor(IGHardwarePerProcessPageTable const*, IGAddressRange const&, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     void synchronizeWith<IGHardwareGlobalPageTable>(IGHardwareGlobalPageTable const*, IGAddressRange const&, bool);
     void synchronizeWith<IGHardwarePerProcessPageTable>(IGHardwarePerProcessPageTable const*, IGAddressRange const&, bool);
     ~IGHardwarePerProcessPageTable();

@@ -4,14 +4,14 @@
 
 class IOHDIXCommand {
 public: // (access info unavailable from symbols alone)
-    abort();
-    add_nblksdone(unsigned long long);
-    complete(int, unsigned long long);
-    copyFromUsingKernelBuffer(IOMemoryDescriptor*, char*, unsigned long long, unsigned long long, unsigned long long);
-    copyFromUsingMemoryMap(IOMemoryMap*, unsigned long long, unsigned long long);
-    copyToUsingKernelBuffer(IOMemoryDescriptor*, char*, unsigned long long, unsigned long long, unsigned long long);
-    copyToUsingMemoryMap(IOMemoryMap*, unsigned long long, unsigned long long);
-    init(unsigned int, unsigned long long, unsigned long long, IOMemoryDescriptor*, IOStorageCompletion, void*, unsigned long long, bool);
-    release();
-    retain();
+    auto abort();
+    auto add_nblksdone(unsigned long long);
+    auto complete(int, unsigned long long);
+    auto copyFromUsingKernelBuffer(IOMemoryDescriptor*, char*, unsigned long long, unsigned long long, unsigned long long);
+    auto copyFromUsingMemoryMap(IOMemoryMap*, unsigned long long, unsigned long long);
+    auto copyToUsingKernelBuffer(IOMemoryDescriptor*, char*, unsigned long long, unsigned long long, unsigned long long);
+    auto copyToUsingMemoryMap(IOMemoryMap*, unsigned long long, unsigned long long);
+    auto init(unsigned int, unsigned long long, unsigned long long, IOMemoryDescriptor*, IOStorageCompletion, void*, unsigned long long, bool);
+    auto release();
+    auto retain();
 };

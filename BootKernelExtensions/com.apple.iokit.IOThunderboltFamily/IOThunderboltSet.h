@@ -6,10 +6,12 @@ class IOThunderboltSet {
 public: // (access info unavailable from symbols alone)
     IOThunderboltSet();
     IOThunderboltSet(OSMetaClass const*);
-    getMetaClass() const;
-    withArray(OSArray const*, unsigned int);
-    withCapacity(unsigned int);
-    withObjects(OSObject const**, unsigned int, unsigned int);
-    withSet(OSSet const*, unsigned int);
+    auto getMetaClass() const;
+    auto withArray(OSArray const*, unsigned int);
+    auto withCapacity(unsigned int);
+    auto withObjects(OSObject const**, unsigned int, unsigned int);
+    auto withSet(OSSet const*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOThunderboltSet();
 };

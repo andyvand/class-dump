@@ -4,11 +4,11 @@
 
 class ACMRMUtil {
 public: // (access info unavailable from symbols alone)
-    hidrmGlobalSwitchFromValue(unsigned char, ACMHIDRMConfig_GlobalSwitch);
-    hidrmGlobalSwitchFromValueSafe(unsigned char);
-    hidrmGlobalSwitchValueToString(unsigned char);
-    resolvePolicyMode(ACMTRMConfig_Profile, ACMHIDRMConfig_GlobalSwitch, ACMTRMConfigProxy_PolicyMode*, bool*);
-    trmProfileFromValue(unsigned char, ACMTRMConfig_Profile);
-    trmProfileFromValueSafe(unsigned char);
-    trmProfileValueToString(unsigned char);
+    auto hidrmGlobalSwitchFromValue(unsigned char, ACMHIDRMConfig_GlobalSwitch);
+    auto hidrmGlobalSwitchFromValueSafe(unsigned char);
+    auto hidrmGlobalSwitchValueToString(unsigned char);
+    auto resolvePolicyMode(ACMTRMConfig_Profile, ACMHIDRMConfig_GlobalSwitch, ACMTRMConfigProxy_PolicyMode*, bool*);
+    auto trmProfileFromValue(unsigned char, ACMTRMConfig_Profile);
+    auto trmProfileFromValueSafe(unsigned char);
+    auto trmProfileValueToString(unsigned char);
 };

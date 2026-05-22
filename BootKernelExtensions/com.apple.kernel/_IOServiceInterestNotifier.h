@@ -6,12 +6,14 @@ class _IOServiceInterestNotifier {
 public: // (access info unavailable from symbols alone)
     _IOServiceInterestNotifier();
     _IOServiceInterestNotifier(OSMetaClass const*);
-    disable();
-    enable(bool);
-    free();
-    getMetaClass() const;
-    init();
-    remove();
-    wait();
+    auto disable();
+    auto enable(bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto remove();
+    auto wait();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_IOServiceInterestNotifier();
 };

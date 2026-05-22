@@ -4,10 +4,12 @@
 
 class OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask();
     OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask(OSMetaClass const*);
-    _Dispatch(OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask*, IORPC);
-    getMetaClass() const;
+    auto Dispatch(IORPC);
+    auto _Dispatch(OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask*, IORPC);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSAction_IOUserSCSIParallelInterfaceController_UserCompleteBundledParallelTask();
 };

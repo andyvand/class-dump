@@ -4,5 +4,5 @@
 
 class AmdCailInterface {
 public: // (access info unavailable from symbols alone)
-    createCailServiceFor(IOPCIDevice*);
+    auto createCailServiceFor(IOPCIDevice*);
 };

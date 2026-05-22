@@ -6,6 +6,8 @@ class IOSMBusRequest {
 public: // (access info unavailable from symbols alone)
     IOSMBusRequest();
     IOSMBusRequest(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSMBusRequest();
 };

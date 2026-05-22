@@ -4,5 +4,5 @@
 
 class IOImageLoaderImageDictionary {
 public: // (access info unavailable from symbols alone)
-    getImageFromUniqueImagetype(IOImageLoaderImageDictionary*, char const*);
+    auto getImageFromUniqueImagetype(IOImageLoaderImageDictionary*, char const*);
 };

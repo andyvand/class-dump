@@ -4,21 +4,22 @@
 
 class AppleBCMWLANUserClient {
 public: // (access info unavailable from symbols alone)
-    clientClose();
-    closeUserClient(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
-    completeMapping(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    externalMethodGated(void*);
-    free();
-    free()::kalloc_type_view_265;
-    freeResources();
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    initWithTask(task*, void*, unsigned int, OSDictionary*)::kalloc_type_view_247;
-    openUserClient(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
-    prepareMapping(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
-    reportMissingFirmwareFiles(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
-    start(IOService*);
-    stop(IOService*);
+    auto clientClose();
+    auto closeUserClient(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
+    auto completeMapping(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto externalMethodGated(void*);
+    auto free();
+    auto free()::kalloc_type_view_265;
+    auto freeResources();
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*)::kalloc_type_view_247;
+    auto openUserClient(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
+    auto prepareMapping(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
+    auto reportMissingFirmwareFiles(AppleBCMWLANUserClient*, void*, IOExternalMethodArguments*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
     ~AppleBCMWLANUserClient();
 };

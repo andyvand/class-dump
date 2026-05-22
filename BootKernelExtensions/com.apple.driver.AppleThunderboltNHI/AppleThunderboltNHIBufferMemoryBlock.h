@@ -6,15 +6,17 @@ class AppleThunderboltNHIBufferMemoryBlock {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltNHIBufferMemoryBlock();
     AppleThunderboltNHIBufferMemoryBlock(OSMetaClass const*);
-    allocateMemory();
-    create(unsigned long, unsigned int, IOMapper*);
-    deallocateMemory();
-    free();
-    getDescriptor();
-    getMetaClass() const;
-    getPhysicalAddress();
-    getSize();
-    getVirtualAddress();
-    init(unsigned long, unsigned int, IOMapper*);
+    auto allocateMemory();
+    auto create(unsigned long, unsigned int, IOMapper*);
+    auto deallocateMemory();
+    auto free();
+    auto getDescriptor();
+    auto getMetaClass() const;
+    auto getPhysicalAddress();
+    auto getSize();
+    auto getVirtualAddress();
+    auto init(unsigned long, unsigned int, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltNHIBufferMemoryBlock();
 };

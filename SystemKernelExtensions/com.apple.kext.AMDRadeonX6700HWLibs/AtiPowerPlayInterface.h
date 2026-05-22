@@ -5,6 +5,6 @@
 class AtiPowerPlayInterface {
 public: // (access info unavailable from symbols alone)
     AtiPowerPlayInterface();
-    createPowerPlayServiceFor(PowerPlayCallbacks*);
+    auto createPowerPlayServiceFor(PowerPlayCallbacks*);
     ~AtiPowerPlayInterface();
 };

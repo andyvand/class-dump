@@ -5,7 +5,7 @@
 class IOAccelEventFence {
 public: // (access info unavailable from symbols alone)
     IOAccelEventFence(OSMetaClass const*);
-    free();
-    init(IOGraphicsAccelerator2*, IOAccelSubmitter2*);
+    auto free();
+    auto init(IOGraphicsAccelerator2*, IOAccelSubmitter2*);
     ~IOAccelEventFence();
 };

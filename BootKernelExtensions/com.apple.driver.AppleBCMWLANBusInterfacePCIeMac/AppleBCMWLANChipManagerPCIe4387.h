@@ -4,16 +4,16 @@
 
 class AppleBCMWLANChipManagerPCIe4387 {
 public: // (access info unavailable from symbols alone)
-    checkHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
-    copySROM();
-    free();
-    free()::kalloc_type_view_176;
-    getMetaClass() const;
-    initWithChip(unsigned int, unsigned char);
-    initWithChip(unsigned int, unsigned char)::kalloc_type_view_86;
-    prepareHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
-    readChipProvisioningData(AppleBCMWLANChipBackplane*, OSData const*);
-    validateChipProvisioningData();
-    withChip(unsigned int, unsigned char);
+    auto checkHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
+    auto copySROM();
+    auto free();
+    auto free()::kalloc_type_view_176;
+    auto getMetaClass() const;
+    auto initWithChip(unsigned int, unsigned char);
+    auto initWithChip(unsigned int, unsigned char)::kalloc_type_view_86;
+    auto prepareHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
+    auto readChipProvisioningData(AppleBCMWLANChipBackplane*, OSData const*);
+    auto validateChipProvisioningData();
+    auto withChip(unsigned int, unsigned char);
     ~AppleBCMWLANChipManagerPCIe4387();
 };

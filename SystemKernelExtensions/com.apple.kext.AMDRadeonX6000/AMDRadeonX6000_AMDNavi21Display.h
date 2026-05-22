@@ -6,7 +6,9 @@ class AMDRadeonX6000_AMDNavi21Display {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDNavi21Display();
     AMDRadeonX6000_AMDNavi21Display(OSMetaClass const*);
-    fillFlipTilingParameters(_AMD_FLIP_PARAM*, unsigned int);
-    getMetaClass() const;
+    auto fillFlipTilingParameters(_AMD_FLIP_PARAM*, unsigned int);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDNavi21Display();
 };

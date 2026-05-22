@@ -5,5 +5,5 @@
 class AMDRadeonX5000_AMDVCE4v1LLQRing::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

@@ -6,15 +6,17 @@ class AppleHPMIECS {
 public: // (access info unavailable from symbols alone)
     AppleHPMIECS();
     AppleHPMIECS(OSMetaClass const*);
-    finalize(unsigned int);
-    free();
-    getMetaClass() const;
-    hpmIECSRead(unsigned long long, unsigned int, IOMemoryDescriptor*, unsigned long long*, unsigned int);
-    hpmIECSWrite(unsigned long long, unsigned int, IOMemoryDescriptor*, unsigned long long, unsigned int);
-    poweredStart();
-    publishHPMDevices();
-    setInUse(bool);
-    setRouteString(unsigned long long);
-    start(IOService*);
+    auto finalize(unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto hpmIECSRead(unsigned long long, unsigned int, IOMemoryDescriptor*, unsigned long long*, unsigned int);
+    auto hpmIECSWrite(unsigned long long, unsigned int, IOMemoryDescriptor*, unsigned long long, unsigned int);
+    auto poweredStart();
+    auto publishHPMDevices();
+    auto setInUse(bool);
+    auto setRouteString(unsigned long long);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleHPMIECS();
 };

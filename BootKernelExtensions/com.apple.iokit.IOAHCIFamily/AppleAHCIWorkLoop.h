@@ -6,14 +6,16 @@ class AppleAHCIWorkLoop {
 public: // (access info unavailable from symbols alone)
     AppleAHCIWorkLoop();
     AppleAHCIWorkLoop(OSMetaClass const*);
-    Create();
-    Lock();
-    SleepGate(void*, int);
-    SleepGate(void*, unsigned long long, int);
-    Unlock();
-    WakeupGate(void*, bool);
-    free();
-    getMetaClass() const;
-    init();
+    auto Create();
+    auto Lock();
+    auto SleepGate(void*, int);
+    auto SleepGate(void*, unsigned long long, int);
+    auto Unlock();
+    auto WakeupGate(void*, bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleAHCIWorkLoop();
 };

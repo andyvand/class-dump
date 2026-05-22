@@ -6,20 +6,16 @@
 
 AppleBochVGAFB::gMetaClass;
 AppleBochVGAFB::metaClass;
-AppleBochVGAFB::operator delete(void*, unsigned long);
-AppleBochVGAFB::operator new(unsigned long);
 AppleBochVGAFB::superClass;
 AppleBochVGAFB_ktv;
 AppleCirrusGD5446FB::gMetaClass;
 AppleCirrusGD5446FB::metaClass;
-AppleCirrusGD5446FB::operator delete(void*, unsigned long);
-AppleCirrusGD5446FB::operator new(unsigned long);
 AppleCirrusGD5446FB::superClass;
 AppleCirrusGD5446FB_ktv;
-AppleVirtualGraphicsHexDump(void const*, unsigned int);
-AppleVirtualGraphicsLog(char const*, ...);
 IOFramebuffer::gMetaClass;
 IOPCIDevice::metaClass;
+auto AppleVirtualGraphicsHexDump(void const*, unsigned int);
+auto AppleVirtualGraphicsLog(char const*, ...);
 mSupportedDisplayModes;
 vtable for AppleBochVGAFB;
 vtable for AppleBochVGAFB::MetaClass;

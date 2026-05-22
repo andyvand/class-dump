@@ -6,11 +6,13 @@ class IOMSRPDomainAttribute {
 public: // (access info unavailable from symbols alone)
     IOMSRPDomainAttribute();
     IOMSRPDomainAttribute(OSMetaClass const*);
-    attributeDictionary();
-    callbackArgumentsCount();
-    getMetaClass() const;
-    init(IOMSRPDomain*, unsigned char, unsigned char, unsigned short);
-    setCallbackArguments(unsigned long long*);
-    setMessage(unsigned char*, unsigned char, unsigned char);
+    auto attributeDictionary();
+    auto callbackArgumentsCount();
+    auto getMetaClass() const;
+    auto init(IOMSRPDomain*, unsigned char, unsigned char, unsigned short);
+    auto setCallbackArguments(unsigned long long*);
+    auto setMessage(unsigned char*, unsigned char, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOMSRPDomainAttribute();
 };

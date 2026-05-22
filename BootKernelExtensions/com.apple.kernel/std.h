@@ -4,5 +4,5 @@
 
 class std {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error(char const*);
+    auto __throw_length_error(char const*);
 };

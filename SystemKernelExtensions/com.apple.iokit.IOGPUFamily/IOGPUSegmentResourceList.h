@@ -5,6 +5,8 @@
 class IOGPUSegmentResourceList {
 public: // (access info unavailable from symbols alone)
     IOGPUSegmentResourceList(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUSegmentResourceList();
 };

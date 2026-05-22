@@ -6,11 +6,13 @@ class IOThunderboltData {
 public: // (access info unavailable from symbols alone)
     IOThunderboltData();
     IOThunderboltData(OSMetaClass const*);
-    getMetaClass() const;
-    withBytes(void const*, unsigned int);
-    withBytesNoCopy(void*, unsigned int);
-    withCapacity(unsigned int);
-    withData(OSData const*);
-    withData(OSData const*, unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto withBytes(void const*, unsigned int);
+    auto withBytesNoCopy(void*, unsigned int);
+    auto withCapacity(unsigned int);
+    auto withData(OSData const*);
+    auto withData(OSData const*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOThunderboltData();
 };

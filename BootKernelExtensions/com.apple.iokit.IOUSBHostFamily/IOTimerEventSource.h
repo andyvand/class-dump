@@ -4,7 +4,7 @@
 
 class IOTimerEventSource {
 public: // (access info unavailable from symbols alone)
-    timerEventSource(OSObject*, void (*)(OSObject*, IOTimerEventSource*));
-    timerEventSource(unsigned int, OSObject*, void (*)(OSObject*, IOTimerEventSource*));
-    timerEventSource(unsigned int, OSObject*, void (IOTimerEventSource*) block_pointer);
+    auto timerEventSource(OSObject*, void (*)(OSObject*, IOTimerEventSource*));
+    auto timerEventSource(unsigned int, OSObject*, void (*)(OSObject*, IOTimerEventSource*));
+    auto timerEventSource(unsigned int, OSObject*, void (IOTimerEventSource*) block_pointer);
 };

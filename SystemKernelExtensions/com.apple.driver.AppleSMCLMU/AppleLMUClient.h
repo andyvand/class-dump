@@ -6,11 +6,13 @@ class AppleLMUClient {
 public: // (access info unavailable from symbols alone)
     AppleLMUClient();
     AppleLMUClient(OSMetaClass const*);
-    clientClose();
-    getMetaClass() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    getTargetAndMethodForIndex(IOService**, unsigned int)::sMethods;
-    initWithTask(task*, void*, unsigned int);
-    start(IOService*);
+    auto clientClose();
+    auto getMetaClass() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto getTargetAndMethodForIndex(IOService**, unsigned int)::sMethods;
+    auto initWithTask(task*, void*, unsigned int);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleLMUClient();
 };

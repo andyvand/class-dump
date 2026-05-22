@@ -4,12 +4,13 @@
 
 class libkern::intrusive_shared_ptr<AppleRSMChannelController, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
-    get() const &;
+    auto get() const &;
+    auto operator->() const;
+    auto operator=(libkern::intrusive_shared_ptr<AppleRSMChannelController, intrusive_osobject_retainer>&&);
+    auto reset();
+    auto reset(AppleRSMChannelController*, libkern::no_retain_t);
     intrusive_shared_ptr();
     intrusive_shared_ptr(AppleRSMChannelController*, libkern::no_retain_t);
     intrusive_shared_ptr(std::nullptr_t);
-    operator->() const;
-    operator=(libkern::intrusive_shared_ptr<AppleRSMChannelController, intrusive_osobject_retainer>&&);
-    reset();
-    reset(AppleRSMChannelController*, libkern::no_retain_t);
+    operator bool() const;
 };

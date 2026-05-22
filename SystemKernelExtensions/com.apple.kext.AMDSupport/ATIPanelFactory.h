@@ -4,7 +4,7 @@
 
 class ATIPanelFactory {
 public: // (access info unavailable from symbols alone)
-    createPanelInfo(PanelType);
-    createPanelInfo(PanelType)::PANEL_STRINGS;
-    createPanelInfoArray(unsigned int, AtiPanelInfo**);
+    auto createPanelInfo(PanelType);
+    auto createPanelInfo(PanelType)::PANEL_STRINGS;
+    auto createPanelInfoArray(unsigned int, AtiPanelInfo**);
 };

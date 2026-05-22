@@ -4,5 +4,5 @@
 
 class IOGuardPageMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    withSize(unsigned long);
+    auto withSize(unsigned long);
 };

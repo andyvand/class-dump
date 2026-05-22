@@ -4,16 +4,16 @@
 
 class AppleGraphicsDeviceControl {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDAppleGraphicsDeviceControl0();
-    _RESERVEDAppleGraphicsDeviceControl1();
-    _RESERVEDAppleGraphicsDeviceControl2();
-    _RESERVEDAppleGraphicsDeviceControl3();
-    _RESERVEDAppleGraphicsDeviceControl4();
-    _RESERVEDAppleGraphicsDeviceControl5();
-    _RESERVEDAppleGraphicsDeviceControl6();
-    _RESERVEDAppleGraphicsDeviceControl7();
-    message(unsigned int, IOService*, void*);
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    terminate(unsigned int);
-    vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, AGDCClientState_t*);
+    auto _RESERVEDAppleGraphicsDeviceControl0();
+    auto _RESERVEDAppleGraphicsDeviceControl1();
+    auto _RESERVEDAppleGraphicsDeviceControl2();
+    auto _RESERVEDAppleGraphicsDeviceControl3();
+    auto _RESERVEDAppleGraphicsDeviceControl4();
+    auto _RESERVEDAppleGraphicsDeviceControl5();
+    auto _RESERVEDAppleGraphicsDeviceControl6();
+    auto _RESERVEDAppleGraphicsDeviceControl7();
+    auto message(unsigned int, IOService*, void*);
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto terminate(unsigned int);
+    auto vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, AGDCClientState_t*);
 };

@@ -6,13 +6,15 @@ class AppleUSBALSService {
 public: // (access info unavailable from symbols alone)
     AppleUSBALSService();
     AppleUSBALSService(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
-    init()::_os_log_fmt;
-    setProperties(OSObject*);
-    setProperties(OSObject*)::_os_log_fmt;
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto init()::_os_log_fmt;
+    auto setProperties(OSObject*);
+    auto setProperties(OSObject*)::_os_log_fmt;
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBALSService();
 };

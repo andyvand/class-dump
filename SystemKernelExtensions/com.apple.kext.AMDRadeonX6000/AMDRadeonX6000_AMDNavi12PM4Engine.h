@@ -6,8 +6,10 @@ class AMDRadeonX6000_AMDNavi12PM4Engine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDNavi12PM4Engine();
     AMDRadeonX6000_AMDNavi12PM4Engine(OSMetaClass const*);
-    getCwsrTrapHandler(unsigned long&) const;
-    getMetaClass() const;
-    init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    auto getCwsrTrapHandler(unsigned long&) const;
+    auto getMetaClass() const;
+    auto init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDNavi12PM4Engine();
 };

@@ -4,6 +4,6 @@
 
 class IOATABusInfo {
 public: // (access info unavailable from symbols alone)
-    atabusinfo();
-    getSocketType();
+    auto atabusinfo();
+    auto getSocketType();
 };

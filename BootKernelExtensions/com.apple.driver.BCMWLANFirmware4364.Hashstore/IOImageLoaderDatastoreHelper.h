@@ -4,8 +4,8 @@
 
 class IOImageLoaderDatastoreHelper {
 public: // (access info unavailable from symbols alone)
-    checkVersion(IOImageLoaderDatastoreIndex_s const*);
-    displayIndex(IOImageLoaderDatastoreIndex_s const*);
-    getIndexType(IOImageLoaderDatastoreIndex_s const*);
-    publishIndex(IOService const*, IOImageLoaderDatastoreIndex_s const*, bool);
+    auto checkVersion(IOImageLoaderDatastoreIndex_s const*);
+    auto displayIndex(IOImageLoaderDatastoreIndex_s const*);
+    auto getIndexType(IOImageLoaderDatastoreIndex_s const*);
+    auto publishIndex(IOService const*, IOImageLoaderDatastoreIndex_s const*, bool);
 };

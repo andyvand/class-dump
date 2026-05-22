@@ -4,6 +4,6 @@
 
 class DpcdInfo {
 public: // (access info unavailable from symbols alone)
-    getHDMI20DongleLimitation();
-    isBranchPresent() const;
+    auto getHDMI20DongleLimitation();
+    auto isBranchPresent() const;
 };

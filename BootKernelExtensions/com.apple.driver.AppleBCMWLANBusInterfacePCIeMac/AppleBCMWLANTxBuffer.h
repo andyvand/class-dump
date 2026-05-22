@@ -4,9 +4,9 @@
 
 class AppleBCMWLANTxBuffer {
 public: // (access info unavailable from symbols alone)
-    getBufferDescriptor();
-    getPayload(unsigned long long);
-    getPayloadLength() const;
-    setStatus(int);
-    withOptions(AppleBCMWLANBusInterface const*, unsigned long long, IO80211BufferPool*);
+    auto getBufferDescriptor();
+    auto getPayload(unsigned long long);
+    auto getPayloadLength() const;
+    auto setStatus(int);
+    auto withOptions(AppleBCMWLANBusInterface const*, unsigned long long, IO80211BufferPool*);
 };

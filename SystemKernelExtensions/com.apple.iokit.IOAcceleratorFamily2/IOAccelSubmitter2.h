@@ -5,20 +5,22 @@
 class IOAccelSubmitter2 {
 public: // (access info unavailable from symbols alone)
     IOAccelSubmitter2(OSMetaClass const*);
-    _RESERVEDIOAccelSubmitter0();
-    _RESERVEDIOAccelSubmitter1();
-    _RESERVEDIOAccelSubmitter2();
-    _RESERVEDIOAccelSubmitter3();
-    _RESERVEDIOAccelSubmitter4();
-    _RESERVEDIOAccelSubmitter5();
-    getMetaClass() const;
-    isOpportunisticWorkload() const;
-    orphanClientMappings(OSSet*);
-    retireCommandBuffer(IOAccelEventFence*);
-    setProtectionOptions(unsigned long long);
-    setSubmissionError(unsigned int);
-    start(IOService*);
-    stop(IOService*);
-    updateLastSubmissionTime();
+    auto _RESERVEDIOAccelSubmitter0();
+    auto _RESERVEDIOAccelSubmitter1();
+    auto _RESERVEDIOAccelSubmitter2();
+    auto _RESERVEDIOAccelSubmitter3();
+    auto _RESERVEDIOAccelSubmitter4();
+    auto _RESERVEDIOAccelSubmitter5();
+    auto getMetaClass() const;
+    auto isOpportunisticWorkload() const;
+    auto orphanClientMappings(OSSet*);
+    auto retireCommandBuffer(IOAccelEventFence*);
+    auto setProtectionOptions(unsigned long long);
+    auto setSubmissionError(unsigned int);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto updateLastSubmissionTime();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelSubmitter2();
 };

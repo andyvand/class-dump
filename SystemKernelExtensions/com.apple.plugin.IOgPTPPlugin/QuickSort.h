@@ -4,8 +4,8 @@
 
 class QuickSort {
 public: // (access info unavailable from symbols alone)
-    partition(long long*, long long, long long);
-    qSort(long long*, long long, long long);
-    sort(long long*, long long, long long);
-    swap(long long*, long long*);
+    auto partition(long long*, long long, long long);
+    auto qSort(long long*, long long, long long);
+    auto sort(long long*, long long, long long);
+    auto swap(long long*, long long*);
 };

@@ -4,6 +4,6 @@
 
 class IODisplay {
 public: // (access info unavailable from symbols alone)
-    addParameter(OSDictionary*, OSSymbol const*, int, int);
-    setParameter(OSDictionary*, OSSymbol const*, int);
+    auto addParameter(OSDictionary*, OSSymbol const*, int, int);
+    auto setParameter(OSDictionary*, OSSymbol const*, int);
 };

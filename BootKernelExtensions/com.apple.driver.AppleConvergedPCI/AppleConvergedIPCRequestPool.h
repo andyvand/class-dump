@@ -6,9 +6,11 @@ class AppleConvergedIPCRequestPool {
 public: // (access info unavailable from symbols alone)
     AppleConvergedIPCRequestPool();
     AppleConvergedIPCRequestPool(OSMetaClass const*);
-    allocateReturnCommand();
-    getMetaClass() const;
-    getName() const;
-    withWorkLoop(IOWorkLoop*);
+    auto allocateReturnCommand();
+    auto getMetaClass() const;
+    auto getName() const;
+    auto withWorkLoop(IOWorkLoop*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleConvergedIPCRequestPool();
 };

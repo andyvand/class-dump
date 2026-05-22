@@ -4,6 +4,6 @@
 
 class IOPMrootDomain {
 public: // (access info unavailable from symbols alone)
-    createPMAssertion(unsigned long long, unsigned int, IOService*, char const*);
-    releasePMAssertion(unsigned long long);
+    auto createPMAssertion(unsigned long long, unsigned int, IOService*, char const*);
+    auto releasePMAssertion(unsigned long long);
 };

@@ -4,5 +4,5 @@
 
 class vector<cs_seginfo> {
 public: // (access info unavailable from symbols alone)
-    resize(unsigned long, cs_seginfo const&);
+    auto resize(unsigned long, cs_seginfo const&);
 };

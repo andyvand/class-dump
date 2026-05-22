@@ -5,12 +5,14 @@
 class IGHardwarePageTable {
 public: // (access info unavailable from symbols alone)
     IGHardwarePageTable(OSMetaClass const*);
-    attributeBits(IGAccelMemoryMap const*);
-    commitRange(IGAddressRange const&, IGAccelMemoryMap const*);
-    free();
-    getMetaClass() const;
-    initWithOptions(IntelAccelerator*, IGHardwarePageTable::Type);
-    releaseRange(IGAddressRange const&);
-    updateRange(IGAddressRange const&, IGAccelMemoryMap const*);
+    auto attributeBits(IGAccelMemoryMap const*);
+    auto commitRange(IGAddressRange const&, IGAccelMemoryMap const*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithOptions(IntelAccelerator*, IGHardwarePageTable::Type);
+    auto releaseRange(IGAddressRange const&);
+    auto updateRange(IGAddressRange const&, IGAccelMemoryMap const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHardwarePageTable();
 };

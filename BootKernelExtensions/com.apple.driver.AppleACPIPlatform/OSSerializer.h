@@ -4,5 +4,5 @@
 
 class OSSerializer {
 public: // (access info unavailable from symbols alone)
-    forTarget(void*, bool (*)(void*, void*, OSSerialize*), void*);
+    auto forTarget(void*, bool (*)(void*, void*, OSSerialize*), void*);
 };

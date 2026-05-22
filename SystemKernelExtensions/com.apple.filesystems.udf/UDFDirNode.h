@@ -4,11 +4,11 @@
 
 class UDFDirNode {
 public: // (access info unavailable from symbols alone)
-    HasAncestor(UDFDirNode*);
     UDFDirNode(UDFMount*, UDFLogicalAddr const&, unsigned int, char const*, unsigned short, long long, unsigned char*);
-    UpdateExistenceFlag(UDFNode*, bool);
-    UpdateParentEntry(UDFLogicalAddr const&);
-    VnopGetAttr(vnode_attr*);
-    VnopReadDir(uio*, int*, int*);
+    auto HasAncestor(UDFDirNode*);
+    auto UpdateExistenceFlag(UDFNode*, bool);
+    auto UpdateParentEntry(UDFLogicalAddr const&);
+    auto VnopGetAttr(vnode_attr*);
+    auto VnopReadDir(uio*, int*, int*);
     ~UDFDirNode();
 };

@@ -4,12 +4,12 @@
 
 class IOGPUSurfaceMTLList {
 public: // (access info unavailable from symbols alone)
-    addSurface(IOGPUSurfaceMTL*);
-    free();
-    getCount() const;
-    init();
-    moveSurfaceToHead(IOGPUSurfaceMTL*);
-    removeSurface(IOGPUSurfaceMTL*);
-    removeSurface(IOGPUSurfaceMTL*) (.cold.1);
-    retainSurfaceForID(unsigned int);
+    auto addSurface(IOGPUSurfaceMTL*);
+    auto free();
+    auto getCount() const;
+    auto init();
+    auto moveSurfaceToHead(IOGPUSurfaceMTL*);
+    auto removeSurface(IOGPUSurfaceMTL*);
+    auto removeSurface(IOGPUSurfaceMTL*) (.cold.1);
+    auto retainSurfaceForID(unsigned int);
 };

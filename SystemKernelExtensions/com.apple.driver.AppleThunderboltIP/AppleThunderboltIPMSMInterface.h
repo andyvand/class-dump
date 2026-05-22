@@ -6,14 +6,16 @@ class AppleThunderboltIPMSMInterface {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltIPMSMInterface();
     AppleThunderboltIPMSMInterface(OSMetaClass const*);
-    attachToDataLinkLayer(unsigned int, void*);
-    attachToDataLinkLayer(unsigned int, void*)::_os_log_fmt;
-    configureIPv6LinkLayerAddress(bool);
-    configureIPv6LinkLayerAddress(bool)::_os_log_fmt;
-    detachFromDataLinkLayer(unsigned int, void*);
-    detachFromDataLinkLayer(unsigned int, void*)::_os_log_fmt;
-    getMetaClass() const;
-    getNamePrefix() const;
-    getNamePrefix() const::_os_log_fmt;
+    auto attachToDataLinkLayer(unsigned int, void*);
+    auto attachToDataLinkLayer(unsigned int, void*)::_os_log_fmt;
+    auto configureIPv6LinkLayerAddress(bool);
+    auto configureIPv6LinkLayerAddress(bool)::_os_log_fmt;
+    auto detachFromDataLinkLayer(unsigned int, void*);
+    auto detachFromDataLinkLayer(unsigned int, void*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto getNamePrefix() const;
+    auto getNamePrefix() const::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltIPMSMInterface();
 };

@@ -4,7 +4,7 @@
 
 class IOSkywalkPacketBuffer {
 public: // (access info unavailable from symbols alone)
-    getDataLength() const;
-    getMemorySegment() const;
-    getMemorySegmentOffset() const;
+    auto getDataLength() const;
+    auto getMemorySegment() const;
+    auto getMemorySegmentOffset() const;
 };

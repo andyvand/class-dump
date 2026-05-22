@@ -6,9 +6,11 @@ class AtiSpreadSpectrumInfoInterface_V2_1 {
 public: // (access info unavailable from symbols alone)
     AtiSpreadSpectrumInfoInterface_V2_1();
     AtiSpreadSpectrumInfoInterface_V2_1(OSMetaClass const*);
-    getMetaClass() const;
-    getNumOfSpreadSpectrumEntriesFor(SpreadSpectrumClockSource);
-    getSpreadSpectrumInfo(SpreadSpectrumClockSource, unsigned int, SpreadSpectrumInfo*);
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto getMetaClass() const;
+    auto getNumOfSpreadSpectrumEntriesFor(SpreadSpectrumClockSource);
+    auto getSpreadSpectrumInfo(SpreadSpectrumClockSource, unsigned int, SpreadSpectrumInfo*);
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSpreadSpectrumInfoInterface_V2_1();
 };

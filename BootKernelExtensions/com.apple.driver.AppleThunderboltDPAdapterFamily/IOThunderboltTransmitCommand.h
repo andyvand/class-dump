@@ -4,8 +4,8 @@
 
 class IOThunderboltTransmitCommand {
 public: // (access info unavailable from symbols alone)
-    getEOF();
-    setEOF(unsigned char);
-    setSOF(unsigned char);
-    withController(IOThunderboltController*);
+    auto getEOF();
+    auto setEOF(unsigned char);
+    auto setSOF(unsigned char);
+    auto withController(IOThunderboltController*);
 };

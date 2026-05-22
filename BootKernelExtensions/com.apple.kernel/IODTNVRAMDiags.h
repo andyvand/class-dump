@@ -6,9 +6,11 @@ class IODTNVRAMDiags {
 public: // (access info unavailable from symbols alone)
     IODTNVRAMDiags();
     IODTNVRAMDiags(OSMetaClass const*);
-    getMetaClass() const;
-    logVariable(NVRAMPartitionType, IONVRAMOperation, char const*, void*, void*);
-    serializeStats(void*, OSSerialize*);
-    start(IOService*);
+    auto getMetaClass() const;
+    auto logVariable(NVRAMPartitionType, IONVRAMOperation, char const*, void*, void*);
+    auto serializeStats(void*, OSSerialize*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODTNVRAMDiags();
 };

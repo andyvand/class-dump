@@ -6,10 +6,12 @@ class AppleIntelUSBXHCICommandRing {
 public: // (access info unavailable from symbols alone)
     AppleIntelUSBXHCICommandRing();
     AppleIntelUSBXHCICommandRing(OSMetaClass const*);
-    addEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*);
-    dropEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*);
-    getMetaClass() const;
-    updateEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*);
-    withParameters(AppleUSBXHCI*, AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    auto addEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*);
+    auto dropEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*);
+    auto getMetaClass() const;
+    auto updateEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*);
+    auto withParameters(AppleUSBXHCI*, AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelUSBXHCICommandRing();
 };

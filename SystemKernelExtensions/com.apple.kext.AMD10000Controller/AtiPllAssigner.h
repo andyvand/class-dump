@@ -4,8 +4,8 @@
 
 class AtiPllAssigner {
 public: // (access info unavailable from symbols alone)
-    acquirePll(unsigned char, unsigned char);
-    isPllFree(unsigned char) const;
-    releasePlls(unsigned char);
-    setExternalClockId(unsigned char);
+    auto acquirePll(unsigned char, unsigned char);
+    auto isPllFree(unsigned char) const;
+    auto releasePlls(unsigned char);
+    auto setExternalClockId(unsigned char);
 };

@@ -5,9 +5,11 @@
 class AMDRadeonX5000_AMDDecAppInterface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDDecAppInterface(OSMetaClass const*);
-    configureBuffers();
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX5000_AMDGraphicsAccelerator*, AMDRadeonX5000_IAMDHWInterface*, unsigned int, unsigned int);
+    auto configureBuffers();
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX5000_AMDGraphicsAccelerator*, AMDRadeonX5000_IAMDHWInterface*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDDecAppInterface();
 };

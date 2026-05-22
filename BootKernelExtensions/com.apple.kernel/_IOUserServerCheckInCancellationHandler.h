@@ -6,8 +6,10 @@ class _IOUserServerCheckInCancellationHandler {
 public: // (access info unavailable from symbols alone)
     _IOUserServerCheckInCancellationHandler();
     _IOUserServerCheckInCancellationHandler(OSMetaClass const*);
-    call(IOUserServerCheckInToken*);
-    getMetaClass() const;
-    withHandler(void (*)(IOUserServerCheckInToken*, void*), void*);
+    auto call(IOUserServerCheckInToken*);
+    auto getMetaClass() const;
+    auto withHandler(void (*)(IOUserServerCheckInToken*, void*), void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_IOUserServerCheckInCancellationHandler();
 };

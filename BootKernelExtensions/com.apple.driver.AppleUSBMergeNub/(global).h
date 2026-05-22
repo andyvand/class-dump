@@ -7,8 +7,6 @@
 AppleUSBHostMergeProperties::gMetaClass;
 AppleUSBMergeNub::gMetaClass;
 AppleUSBMergeNub::metaClass;
-AppleUSBMergeNub::operator delete(void*, unsigned long);
-AppleUSBMergeNub::operator new(unsigned long);
 AppleUSBMergeNub::superClass;
 AppleUSBMergeNub_ktv;
 vtable for AppleUSBMergeNub;

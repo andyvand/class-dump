@@ -5,14 +5,14 @@
 class IOSkywalkLegacyEthernet {
 public: // (access info unavailable from symbols alone)
     IOSkywalkLegacyEthernet(OSMetaClass const*);
-    PMinit();
-    createInterface();
-    free();
-    getFeatures() const;
-    getHardwareAddress(IOEthernetAddress*);
-    getProperty(OSSymbol const*) const;
-    handleClose(IOService*, unsigned int);
-    handleOpen(IOService*, unsigned int, void*);
-    probe(IOService*, int*);
+    auto PMinit();
+    auto createInterface();
+    auto free();
+    auto getFeatures() const;
+    auto getHardwareAddress(IOEthernetAddress*);
+    auto getProperty(OSSymbol const*) const;
+    auto handleClose(IOService*, unsigned int);
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto probe(IOService*, int*);
     ~IOSkywalkLegacyEthernet();
 };

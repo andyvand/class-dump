@@ -4,20 +4,20 @@
 
 class TSNPacket {
 public: // (access info unavailable from symbols alone)
-    complete();
-    copyDataFromPacket(void*, unsigned long, unsigned long);
-    copyDataToPacket(void const*, unsigned long, unsigned long);
-    getVirtualRanges(IOVirtualRange*, int*);
-    launchTimestamp() const;
-    numberOfSegments() const;
-    packetLength() const;
-    packetTimestamp() const;
-    setFrameType(unsigned char);
-    setPacketLength(unsigned long);
-    setPacketTimestamp(unsigned long long);
-    setTimesyncTransmitCallbackRef(unsigned int);
-    setVLANTag(unsigned short);
-    timesyncTransmitCallbackRef() const;
-    vlanTag() const;
-    zeroPacketData();
+    auto complete();
+    auto copyDataFromPacket(void*, unsigned long, unsigned long);
+    auto copyDataToPacket(void const*, unsigned long, unsigned long);
+    auto getVirtualRanges(IOVirtualRange*, int*);
+    auto launchTimestamp() const;
+    auto numberOfSegments() const;
+    auto packetLength() const;
+    auto packetTimestamp() const;
+    auto setFrameType(unsigned char);
+    auto setPacketLength(unsigned long);
+    auto setPacketTimestamp(unsigned long long);
+    auto setTimesyncTransmitCallbackRef(unsigned int);
+    auto setVLANTag(unsigned short);
+    auto timesyncTransmitCallbackRef() const;
+    auto vlanTag() const;
+    auto zeroPacketData();
 };

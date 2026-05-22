@@ -5,9 +5,9 @@
 class APowerPlayManager {
 public: // (access info unavailable from symbols alone)
     APowerPlayManager(OSMetaClass const*);
-    GetMaximumSustainableClocks(MaximumSustainableClocks*);
-    getNumPowerLevels();
-    getPowerLimit();
-    isInThermalMode();
+    auto GetMaximumSustainableClocks(MaximumSustainableClocks*);
+    auto getNumPowerLevels();
+    auto getPowerLimit();
+    auto isInThermalMode();
     ~APowerPlayManager();
 };

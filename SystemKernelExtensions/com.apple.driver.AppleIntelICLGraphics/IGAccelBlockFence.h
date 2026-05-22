@@ -6,8 +6,10 @@ class IGAccelBlockFence {
 public: // (access info unavailable from symbols alone)
     IGAccelBlockFence();
     IGAccelBlockFence(OSMetaClass const*);
-    getHostTime(unsigned long long*, unsigned long long*);
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, IOAccelSubmitter2*, IOAccelBlockFencePort2*, unsigned long long, unsigned long long);
+    auto getHostTime(unsigned long long*, unsigned long long*);
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, IOAccelSubmitter2*, IOAccelBlockFencePort2*, unsigned long long, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGAccelBlockFence();
 };

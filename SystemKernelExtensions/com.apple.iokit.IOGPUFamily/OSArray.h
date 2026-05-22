@@ -4,6 +4,6 @@
 
 class OSArray {
 public: // (access info unavailable from symbols alone)
-    setObject(OSSharedPtr<OSMetaClassBase const> const&);
-    withCapacity(unsigned int);
+    auto setObject(OSSharedPtr<OSMetaClassBase const> const&);
+    auto withCapacity(unsigned int);
 };

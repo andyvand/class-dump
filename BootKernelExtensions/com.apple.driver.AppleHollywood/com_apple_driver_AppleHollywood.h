@@ -4,13 +4,15 @@
 
 class com_apple_driver_AppleHollywood {
 public: // (access info unavailable from symbols alone)
-    CheckPowerConditionsModePage();
-    DetermineDeviceFeatures();
-    DetermineIfMediaIsRemovable();
-    READ_CD(OSObject*, IOMemoryDescriptor*, unsigned char, unsigned char, unsigned int, unsigned int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
-    READ_CD_MSF(OSObject*, IOMemoryDescriptor*, unsigned char, unsigned int, unsigned int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
+    auto CheckPowerConditionsModePage();
+    auto DetermineDeviceFeatures();
+    auto DetermineIfMediaIsRemovable();
+    auto READ_CD(OSObject*, IOMemoryDescriptor*, unsigned char, unsigned char, unsigned int, unsigned int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
+    auto READ_CD_MSF(OSObject*, IOMemoryDescriptor*, unsigned char, unsigned int, unsigned int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
+    auto getMetaClass() const;
     com_apple_driver_AppleHollywood();
     com_apple_driver_AppleHollywood(OSMetaClass const*);
-    getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_AppleHollywood();
 };

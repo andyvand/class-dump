@@ -4,9 +4,11 @@
 
 class com_apple_driver_MKE_SR_8171 {
 public: // (access info unavailable from symbols alone)
-    GetMechanicalCapabilities();
+    auto GetMechanicalCapabilities();
+    auto getMetaClass() const;
     com_apple_driver_MKE_SR_8171();
     com_apple_driver_MKE_SR_8171(OSMetaClass const*);
-    getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_MKE_SR_8171();
 };

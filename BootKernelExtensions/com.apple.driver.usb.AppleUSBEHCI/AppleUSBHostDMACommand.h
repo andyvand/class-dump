@@ -5,11 +5,11 @@
 class AppleUSBHostDMACommand {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostDMACommand(OSMetaClass const*);
-    clearMemoryDescriptor(bool);
-    complete(bool, bool);
-    getMemoryDescriptor() const;
-    initWithSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
-    prepare(unsigned long long, unsigned long long, bool, bool);
-    setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long);
+    auto clearMemoryDescriptor(bool);
+    auto complete(bool, bool);
+    auto getMemoryDescriptor() const;
+    auto initWithSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
+    auto prepare(unsigned long long, unsigned long long, bool, bool);
+    auto setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long);
     ~AppleUSBHostDMACommand();
 };

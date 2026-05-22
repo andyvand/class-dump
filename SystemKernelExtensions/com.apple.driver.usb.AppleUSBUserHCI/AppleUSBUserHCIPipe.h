@@ -6,12 +6,14 @@ class AppleUSBUserHCIPipe {
 public: // (access info unavailable from symbols alone)
     AppleUSBUserHCIPipe();
     AppleUSBUserHCIPipe(OSMetaClass const*);
-    free();
-    getController() const;
-    getMetaClass() const;
-    getTransferQueue() const;
-    initWithDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBUserHCI*, IOUSBHostDevice*, IOUSBHostInterface*);
-    setTransferQueue(AppleUSBUserHCITransferQueue*);
-    withDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBUserHCI*, IOUSBHostDevice*, IOUSBHostInterface*);
+    auto free();
+    auto getController() const;
+    auto getMetaClass() const;
+    auto getTransferQueue() const;
+    auto initWithDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBUserHCI*, IOUSBHostDevice*, IOUSBHostInterface*);
+    auto setTransferQueue(AppleUSBUserHCITransferQueue*);
+    auto withDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBUserHCI*, IOUSBHostDevice*, IOUSBHostInterface*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBUserHCIPipe();
 };

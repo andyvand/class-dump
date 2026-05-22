@@ -5,9 +5,11 @@
 class AtiPowerPlayTableInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiPowerPlayTableInterface_V1(OSMetaClass const*);
-    createPowerPlayInfo(AtiVBiosHelper*, unsigned int);
-    getMaxClocksInKHz(unsigned int&, unsigned int&);
-    getMetaClass() const;
-    stringifyStateClassification(unsigned int);
+    auto createPowerPlayInfo(AtiVBiosHelper*, unsigned int);
+    auto getMaxClocksInKHz(unsigned int&, unsigned int&);
+    auto getMetaClass() const;
+    auto stringifyStateClassification(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPowerPlayTableInterface_V1();
 };

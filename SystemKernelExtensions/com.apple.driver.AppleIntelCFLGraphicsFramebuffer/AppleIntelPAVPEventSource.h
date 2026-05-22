@@ -6,9 +6,11 @@ class AppleIntelPAVPEventSource {
 public: // (access info unavailable from symbols alone)
     AppleIntelPAVPEventSource();
     AppleIntelPAVPEventSource(OSMetaClass const*);
-    checkForWork();
-    getMetaClass() const;
-    init(OSObject*, void (*)(OSObject*, ...));
-    sendSuspend(bool);
+    auto checkForWork();
+    auto getMetaClass() const;
+    auto init(OSObject*, void (*)(OSObject*, ...));
+    auto sendSuspend(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelPAVPEventSource();
 };

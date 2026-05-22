@@ -4,14 +4,14 @@
 
 class OSValueObject<SMCNotification> {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_493;
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_478;
-    isEqualTo(OSMetaClassBase const*) const;
-    isEqualTo(OSValueObject<SMCNotification> const*) const;
-    isEqualTo(SMCNotification const&) const;
-    serialize(OSSerialize*) const;
+    auto free();
+    auto free()::kalloc_type_view_493;
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_478;
+    auto isEqualTo(OSMetaClassBase const*) const;
+    auto isEqualTo(OSValueObject<SMCNotification> const*) const;
+    auto isEqualTo(SMCNotification const&) const;
+    auto serialize(OSSerialize*) const;
     ~OSValueObject();
 };

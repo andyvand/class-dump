@@ -6,8 +6,6 @@
 
 AppleIntelLpssUART::gMetaClass;
 AppleIntelLpssUART::metaClass;
-AppleIntelLpssUART::operator delete(void*, unsigned long);
-AppleIntelLpssUART::operator new(unsigned long);
 AppleIntelLpssUART::superClass;
 AppleIntelLpssUART_ktv;
 AppleMMIOSerial::gMetaClass;
@@ -15,8 +13,8 @@ IOACPIPlatformDevice::metaClass;
 IOPCIDevice::metaClass;
 OSData::metaClass;
 OSString::metaClass;
-setBTLP(IOService*, bool);
-setBTLP(IOService*, bool)::validated;
+auto setBTLP(IOService*, bool);
+auto setBTLP(IOService*, bool)::validated;
 vtable for AppleIntelLpssUART;
 vtable for AppleIntelLpssUART::MetaClass;
 vtable for AppleMMIOSerial;

@@ -6,14 +6,16 @@ class AMDRadeonX6000_AmdGpuStatusMonitor {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdGpuStatusMonitor();
     AMDRadeonX6000_AmdGpuStatusMonitor(OSMetaClass const*);
-    checkHardwareStatus();
-    createGpuStatusMonitor(AMDRadeonX6000_IAmdRadeonController*);
-    doHardwareValidationCheck();
-    free();
-    getMetaClass() const;
-    handleFailure();
-    initWithController(AMDRadeonX6000_IAmdRadeonController*);
-    shouldUseHardwareValidator() const;
-    validationCheck(OSObject*, IOInterruptEventSource*, int);
+    auto checkHardwareStatus();
+    auto createGpuStatusMonitor(AMDRadeonX6000_IAmdRadeonController*);
+    auto doHardwareValidationCheck();
+    auto free();
+    auto getMetaClass() const;
+    auto handleFailure();
+    auto initWithController(AMDRadeonX6000_IAmdRadeonController*);
+    auto shouldUseHardwareValidator() const;
+    auto validationCheck(OSObject*, IOInterruptEventSource*, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdGpuStatusMonitor();
 };

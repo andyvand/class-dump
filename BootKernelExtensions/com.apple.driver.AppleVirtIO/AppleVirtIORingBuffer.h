@@ -4,14 +4,14 @@
 
 class AppleVirtIORingBuffer {
 public: // (access info unavailable from symbols alone)
-    bytesInRing();
-    emptyBytesInRing();
-    free();
-    getMetaClass() const;
-    readBytes(unsigned char*, unsigned int);
-    reset();
-    ringSize();
-    withRingSize(unsigned int);
-    writeBytes(unsigned char const*, unsigned int);
+    auto bytesInRing();
+    auto emptyBytesInRing();
+    auto free();
+    auto getMetaClass() const;
+    auto readBytes(unsigned char*, unsigned int);
+    auto reset();
+    auto ringSize();
+    auto withRingSize(unsigned int);
+    auto writeBytes(unsigned char const*, unsigned int);
     ~AppleVirtIORingBuffer();
 };

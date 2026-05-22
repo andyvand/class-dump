@@ -4,5 +4,5 @@
 
 class IOPMrootDomain {
 public: // (access info unavailable from symbols alone)
-    systemPowerEventOccurred(OSSymbol const*, unsigned int);
+    auto systemPowerEventOccurred(OSSymbol const*, unsigned int);
 };

@@ -6,11 +6,13 @@ class AppleUSBUserHCIRequestPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBUserHCIRequestPool();
     AppleUSBUserHCIRequestPool(OSMetaClass const*);
-    allocateCommand();
-    free();
-    getMetaClass() const;
-    initWithController(AppleUSBUserHCI*);
-    stop();
-    withController(AppleUSBUserHCI*);
+    auto allocateCommand();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithController(AppleUSBUserHCI*);
+    auto stop();
+    auto withController(AppleUSBUserHCI*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBUserHCIRequestPool();
 };

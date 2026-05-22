@@ -4,8 +4,8 @@
 
 class BaffinConnectionFactory {
 public: // (access info unavailable from symbols alone)
-    createConnection(ConnectionNumber, ActiveConnectorInfo*, ATIController*, ATIPanel*);
-    createConnection(ConnectionNumber, ActiveConnectorInfo*, ATIController*, ATIPanel*)::CONNECTION_STRINGS;
-    createConnections(ActiveConnectorInfo*, ATIController*, ATIPanel*, ATIConnection**);
-    createDisplayPortUtility(ActiveConnectorInfo*, ATIController*, ATIPanel*);
+    auto createConnection(ConnectionNumber, ActiveConnectorInfo*, ATIController*, ATIPanel*);
+    auto createConnection(ConnectionNumber, ActiveConnectorInfo*, ATIController*, ATIPanel*)::CONNECTION_STRINGS;
+    auto createConnections(ActiveConnectorInfo*, ATIController*, ATIPanel*, ATIConnection**);
+    auto createDisplayPortUtility(ActiveConnectorInfo*, ATIController*, ATIPanel*);
 };

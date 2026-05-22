@@ -6,10 +6,12 @@ class IOPMPowerStateQueue {
 public: // (access info unavailable from symbols alone)
     IOPMPowerStateQueue();
     IOPMPowerStateQueue(OSMetaClass const*);
-    PMPowerStateQueue(OSObject*, void (*)(OSObject*, ...));
-    checkForWork();
-    getMetaClass() const;
-    init(OSObject*, void (*)(OSObject*, ...));
-    submitPowerEvent(unsigned int, void*, unsigned long long);
+    auto PMPowerStateQueue(OSObject*, void (*)(OSObject*, ...));
+    auto checkForWork();
+    auto getMetaClass() const;
+    auto init(OSObject*, void (*)(OSObject*, ...));
+    auto submitPowerEvent(unsigned int, void*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPMPowerStateQueue();
 };

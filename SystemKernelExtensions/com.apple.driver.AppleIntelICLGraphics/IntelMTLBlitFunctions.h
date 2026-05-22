@@ -4,5 +4,5 @@
 
 class IntelMTLBlitFunctions {
 public: // (access info unavailable from symbols alone)
-    execute(IntelMTLBlit::eTokens, IGAccelCommandQueue&, IGAccelSegmentResourceList&, IOAccelKernelCommand const&, IOAccelKernelCommand const&, IGAccelCommandDescriptor&, IGHeapsAccess&, IOGraphicsAccelerator2&, IGHardwareContext&, IOAccelEvent&);
+    auto execute(IntelMTLBlit::eTokens, IGAccelCommandQueue&, IGAccelSegmentResourceList&, IOAccelKernelCommand const&, IOAccelKernelCommand const&, IGAccelCommandDescriptor&, IGHeapsAccess&, IOGraphicsAccelerator2&, IGHardwareContext&, IOAccelEvent&);
 };

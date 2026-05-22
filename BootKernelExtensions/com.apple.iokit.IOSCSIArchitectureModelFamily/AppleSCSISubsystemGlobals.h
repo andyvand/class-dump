@@ -6,14 +6,16 @@ class AppleSCSISubsystemGlobals {
 public: // (access info unavailable from symbols alone)
     AppleSCSISubsystemGlobals();
     AppleSCSISubsystemGlobals(OSMetaClass const*);
-    PublishEvent(unsigned char, unsigned long long, char const*);
-    SetDictionary(char const*, OSDictionary*);
-    SignalABC(char const*, char const*);
-    getMetaClass() const;
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    setProperties(OSObject*);
-    start(IOService*);
-    statsReported();
-    stop(IOService*);
+    auto PublishEvent(unsigned char, unsigned long long, char const*);
+    auto SetDictionary(char const*, OSDictionary*);
+    auto SignalABC(char const*, char const*);
+    auto getMetaClass() const;
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto setProperties(OSObject*);
+    auto start(IOService*);
+    auto statsReported();
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSCSISubsystemGlobals();
 };

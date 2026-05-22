@@ -6,13 +6,9 @@
 
 ApplePlatformEnabler::gMetaClass;
 ApplePlatformEnabler::metaClass;
-ApplePlatformEnabler::operator delete(void*, unsigned long);
-ApplePlatformEnabler::operator new(unsigned long);
 ApplePlatformEnabler::superClass;
 ApplePlatformEnablerUserClient::gMetaClass;
 ApplePlatformEnablerUserClient::metaClass;
-ApplePlatformEnablerUserClient::operator delete(void*, unsigned long);
-ApplePlatformEnablerUserClient::operator new(unsigned long);
 ApplePlatformEnablerUserClient::superClass;
 ApplePlatformEnablerUserClient_ktv;
 ApplePlatformEnabler_ktv;

@@ -4,5 +4,5 @@
 
 class IOBluetoothL2CAPChannel {
 public: // (access info unavailable from symbols alone)
-    channelIsOpen();
+    auto channelIsOpen();
 };

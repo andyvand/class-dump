@@ -4,8 +4,8 @@
 
 class Edid {
 public: // (access info unavailable from symbols alone)
-    createEdid();
-    equals(Edid const*) const;
-    getNumExtensions() const;
-    setEdidBlock(unsigned char, unsigned char const*, unsigned long);
+    auto createEdid();
+    auto equals(Edid const*) const;
+    auto getNumExtensions() const;
+    auto setEdidBlock(unsigned char, unsigned char const*, unsigned long);
 };

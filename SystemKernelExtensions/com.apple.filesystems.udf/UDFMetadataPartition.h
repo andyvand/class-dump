@@ -4,17 +4,17 @@
 
 class UDFMetadataPartition {
 public: // (access info unavailable from symbols alone)
-    AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
-    AllocNewTrackForMetadataPart(unsigned int*, unsigned int*, unsigned int*);
-    AllocSpaceForMetadataPart(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*);
-    GetNumBlks();
-    GrowMetadataPartition();
-    InitSpaceAllocator(unsigned int*);
-    LogicalToBottomPartLogical(unsigned int, unsigned int, unsigned short*, unsigned int*, unsigned int*, bool);
-    LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool);
-    NewReservation(long long, int*);
-    PostInit();
-    Sync(int);
     UDFMetadataPartition(UDFMount*, UDFMetadataPartitionTail*, unsigned short);
+    auto AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
+    auto AllocNewTrackForMetadataPart(unsigned int*, unsigned int*, unsigned int*);
+    auto AllocSpaceForMetadataPart(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*);
+    auto GetNumBlks();
+    auto GrowMetadataPartition();
+    auto InitSpaceAllocator(unsigned int*);
+    auto LogicalToBottomPartLogical(unsigned int, unsigned int, unsigned short*, unsigned int*, unsigned int*, bool);
+    auto LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool);
+    auto NewReservation(long long, int*);
+    auto PostInit();
+    auto Sync(int);
     ~UDFMetadataPartition();
 };

@@ -5,9 +5,9 @@
 class AppleVirtIOMemoryDescriptorList {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOMemoryDescriptorList();
-    addMemoryDescriptor(IOMemoryDescriptor*);
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount() const;
-    reset();
+    auto addMemoryDescriptor(IOMemoryDescriptor*);
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount() const;
+    auto reset();
     ~AppleVirtIOMemoryDescriptorList();
 };

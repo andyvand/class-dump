@@ -6,12 +6,14 @@ class AppleXsanDriver {
 public: // (access info unavailable from symbols alone)
     AppleXsanDriver();
     AppleXsanDriver(OSMetaClass const*);
-    destroyMedia(OSString*);
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    makeMedia(OSString*, unsigned long long, unsigned int, unsigned int, OSString*);
-    start(IOService*);
-    stop(IOService*);
+    auto destroyMedia(OSString*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto makeMedia(OSString*, unsigned long long, unsigned int, unsigned int, OSString*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleXsanDriver();
 };

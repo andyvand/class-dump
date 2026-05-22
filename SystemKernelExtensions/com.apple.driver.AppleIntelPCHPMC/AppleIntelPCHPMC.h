@@ -6,15 +6,17 @@ class AppleIntelPCHPMC {
 public: // (access info unavailable from symbols alone)
     AppleIntelPCHPMC();
     AppleIntelPCHPMC(OSMetaClass const*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    free();
-    getMetaClass() const;
-    getPowerButtonState();
-    init(OSDictionary*);
-    init(OSDictionary*) (.cold.1);
-    setFileServerMode(unsigned int);
-    setPowerState(unsigned long, IOService*);
-    start(IOService*);
-    stop(IOService*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto free();
+    auto getMetaClass() const;
+    auto getPowerButtonState();
+    auto init(OSDictionary*);
+    auto init(OSDictionary*) (.cold.1);
+    auto setFileServerMode(unsigned int);
+    auto setPowerState(unsigned long, IOService*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelPCHPMC();
 };

@@ -7,13 +7,9 @@
 AppleBacklightParameterHandler::gMetaClass;
 AppleIntelPanel::gMetaClass;
 AppleIntelPanel::metaClass;
-AppleIntelPanel::operator delete(void*, unsigned long);
-AppleIntelPanel::operator new(unsigned long);
 AppleIntelPanel::superClass;
 AppleIntelPanelA::gMetaClass;
 AppleIntelPanelA::metaClass;
-AppleIntelPanelA::operator delete(void*, unsigned long);
-AppleIntelPanelA::operator new(unsigned long);
 AppleIntelPanelA::superClass;
 AppleIntelPanelA_ktv;
 AppleIntelPanel_ktv;

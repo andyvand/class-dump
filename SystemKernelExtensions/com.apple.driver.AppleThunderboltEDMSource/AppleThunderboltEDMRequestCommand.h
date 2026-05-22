@@ -6,8 +6,10 @@ class AppleThunderboltEDMRequestCommand {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltEDMRequestCommand();
     AppleThunderboltEDMRequestCommand(OSMetaClass const*);
-    getMetaClass() const;
-    processResponse(IOThunderboltReceiveCommand*);
-    withController(IOThunderboltController*);
+    auto getMetaClass() const;
+    auto processResponse(IOThunderboltReceiveCommand*);
+    auto withController(IOThunderboltController*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltEDMRequestCommand();
 };

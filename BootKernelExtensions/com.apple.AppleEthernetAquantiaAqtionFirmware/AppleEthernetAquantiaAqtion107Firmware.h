@@ -6,10 +6,12 @@ class AppleEthernetAquantiaAqtion107Firmware {
 public: // (access info unavailable from symbols alone)
     AppleEthernetAquantiaAqtion107Firmware();
     AppleEthernetAquantiaAqtion107Firmware(OSMetaClass const*);
-    generateClx(unsigned char*, unsigned int, unsigned char*&, unsigned int&);
-    getMetaClass() const;
-    probe(IOService*, int*);
-    start(IOService*);
-    start(IOService*) (.cold.1);
+    auto generateClx(unsigned char*, unsigned int, unsigned char*&, unsigned int&);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto start(IOService*) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEthernetAquantiaAqtion107Firmware();
 };

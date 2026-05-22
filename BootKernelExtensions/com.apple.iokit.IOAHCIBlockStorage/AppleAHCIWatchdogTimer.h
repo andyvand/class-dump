@@ -6,14 +6,16 @@ class AppleAHCIWatchdogTimer {
 public: // (access info unavailable from symbols alone)
     AppleAHCIWatchdogTimer();
     AppleAHCIWatchdogTimer(OSMetaClass const*);
-    CreateTimerEventSource(OSObject*, void (*)(OSObject*, IOTimerEventSource*));
-    DisableTimer();
-    EnableTimer();
-    Rearm();
-    Rearm() (.cold.1);
-    Rearm() (.cold.2);
-    StartTimeout();
-    StopTimeout();
-    getMetaClass() const;
+    auto CreateTimerEventSource(OSObject*, void (*)(OSObject*, IOTimerEventSource*));
+    auto DisableTimer();
+    auto EnableTimer();
+    auto Rearm();
+    auto Rearm() (.cold.1);
+    auto Rearm() (.cold.2);
+    auto StartTimeout();
+    auto StopTimeout();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleAHCIWatchdogTimer();
 };

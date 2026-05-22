@@ -6,12 +6,14 @@ class AppleMSIXRemapper {
 public: // (access info unavailable from symbols alone)
     AppleMSIXRemapper();
     AppleMSIXRemapper(OSMetaClass const*);
-    assignCause(unsigned short, unsigned short);
-    complete();
-    free();
-    getMetaClass() const;
-    prepare();
-    showPhysicalTable();
-    withDevice(IOPCIDevice*);
+    auto assignCause(unsigned short, unsigned short);
+    auto complete();
+    auto free();
+    auto getMetaClass() const;
+    auto prepare();
+    auto showPhysicalTable();
+    auto withDevice(IOPCIDevice*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleMSIXRemapper();
 };

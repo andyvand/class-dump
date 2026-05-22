@@ -5,6 +5,6 @@
 class AtiPipeControl {
 public: // (access info unavailable from symbols alone)
     AtiPipeControl(OSMetaClass const*);
-    free();
+    auto free();
     ~AtiPipeControl();
 };

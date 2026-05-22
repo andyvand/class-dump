@@ -5,12 +5,14 @@
 class KDIEncoding {
 public: // (access info unavailable from symbols alone)
     KDIEncoding(OSMetaClass const*);
-    _handleAttach(IOService*);
-    _handleDetach(IOService*);
-    flush();
-    getBackingStore();
-    getMetaClass() const;
-    getURL();
-    setUnmatchable(bool);
+    auto _handleAttach(IOService*);
+    auto _handleDetach(IOService*);
+    auto flush();
+    auto getBackingStore();
+    auto getMetaClass() const;
+    auto getURL();
+    auto setUnmatchable(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KDIEncoding();
 };

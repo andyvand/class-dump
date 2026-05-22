@@ -4,18 +4,18 @@
 
 class IOVideoStreamDictionary {
 public: // (access info unavailable from symbols alone)
-    copyAvailableFormats(OSDictionary const*);
-    copyCurrentFormatDictionary(OSDictionary const*);
-    create(unsigned int, unsigned int, OSDictionary const*, OSArray*);
-    getBufferMappingOptions(OSDictionary const*);
-    getCurrentFormat(OSDictionary const*, IOVideoStreamDescription&);
-    getStartingDeviceChannelNumber(OSDictionary const*);
-    getStreamID(OSDictionary const*);
-    printDictionary(OSDictionary const*);
-    setAvailableFormats(OSDictionary*, OSArray*);
-    setBufferMappingOptions(OSDictionary*, unsigned int);
-    setCurrentFormat(OSDictionary*, IOVideoStreamDescription const&);
-    setCurrentFormatDictionary(OSDictionary*, OSDictionary const*);
-    setStartingDeviceChannelNumber(OSDictionary*, unsigned int);
-    setStreamID(OSDictionary*, unsigned int);
+    auto copyAvailableFormats(OSDictionary const*);
+    auto copyCurrentFormatDictionary(OSDictionary const*);
+    auto create(unsigned int, unsigned int, OSDictionary const*, OSArray*);
+    auto getBufferMappingOptions(OSDictionary const*);
+    auto getCurrentFormat(OSDictionary const*, IOVideoStreamDescription&);
+    auto getStartingDeviceChannelNumber(OSDictionary const*);
+    auto getStreamID(OSDictionary const*);
+    auto printDictionary(OSDictionary const*);
+    auto setAvailableFormats(OSDictionary*, OSArray*);
+    auto setBufferMappingOptions(OSDictionary*, unsigned int);
+    auto setCurrentFormat(OSDictionary*, IOVideoStreamDescription const&);
+    auto setCurrentFormatDictionary(OSDictionary*, OSDictionary const*);
+    auto setStartingDeviceChannelNumber(OSDictionary*, unsigned int);
+    auto setStreamID(OSDictionary*, unsigned int);
 };

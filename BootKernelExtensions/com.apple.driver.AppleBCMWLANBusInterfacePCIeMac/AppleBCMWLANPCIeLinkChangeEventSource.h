@@ -4,14 +4,14 @@
 
 class AppleBCMWLANPCIeLinkChangeEventSource {
 public: // (access info unavailable from symbols alone)
-    checkForWork();
-    detachPending();
-    free();
-    free()::kalloc_type_view_100;
-    getMetaClass() const;
-    initWithCallbacks(OSObject*, int (*)(OSObject*, IOPCIDevice*), int (*)(OSObject*, IOPCIDevice*))::kalloc_type_view_72;
-    signalPCIeAttach(IOPCIDevice*);
-    signalPCIeDetach(IOPCIDevice*);
-    withCallbacks(OSObject*, int (*)(OSObject*, IOPCIDevice*), int (*)(OSObject*, IOPCIDevice*));
+    auto checkForWork();
+    auto detachPending();
+    auto free();
+    auto free()::kalloc_type_view_100;
+    auto getMetaClass() const;
+    auto initWithCallbacks(OSObject*, int (*)(OSObject*, IOPCIDevice*), int (*)(OSObject*, IOPCIDevice*))::kalloc_type_view_72;
+    auto signalPCIeAttach(IOPCIDevice*);
+    auto signalPCIeDetach(IOPCIDevice*);
+    auto withCallbacks(OSObject*, int (*)(OSObject*, IOPCIDevice*), int (*)(OSObject*, IOPCIDevice*));
     ~AppleBCMWLANPCIeLinkChangeEventSource();
 };

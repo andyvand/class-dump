@@ -4,6 +4,6 @@
 
 class IOSimpleReporter {
 public: // (access info unavailable from symbols alone)
-    incrementValue(unsigned long long, long long);
-    with(IOService*, unsigned short, unsigned long long);
+    auto incrementValue(unsigned long long, long long);
+    auto with(IOService*, unsigned short, unsigned long long);
 };

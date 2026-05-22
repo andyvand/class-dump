@@ -4,25 +4,25 @@
 
 class AppleAPFSVolume {
 public: // (access info unavailable from symbols alone)
-    asyncCryptoRead(AppleAPFSContainer*, unsigned long long, unsigned long long, unsigned long long*, signed char, unsigned long long, bool)::kalloc_type_view_9591;
-    asyncCryptoRead(AppleAPFSContainer*, unsigned long long, unsigned long long, unsigned long long*, signed char, unsigned long long, bool)::kalloc_type_view_9708;
-    asyncCryptoReadFinish(unsigned long long, unsigned long long, unsigned long long*);
-    asyncCryptoReadFinishHelper(multikey_crypto_io_entry*, unsigned long long*);
-    asyncCryptoReadFinishHelper(multikey_crypto_io_entry*, unsigned long long*)::kalloc_type_view_9747;
-    clearCrypto();
-    copyPhysicalExtent(IOService*, unsigned long long*, unsigned long long*);
-    createAPFSVolume(AppleAPFSContainer*, nx const*, int, apfs const*);
-    free();
-    getMetaClass() const;
-    getSize() const;
-    handleOpen(IOService*, unsigned int, void*);
-    init(AppleAPFSContainer*, nx const*, char const*, unsigned char*, int, bool);
-    init(AppleAPFSContainer*, nx const*, int, apfs const*);
-    performCryptoIO(AppleAPFSContainer*, IOMemoryDescriptor*, unsigned long long, IOStorageAttributes*, IOStorageCompletion*, signed char, unsigned long long, void (AppleAPFSContainer::*)(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*));
-    performCryptoIO(AppleAPFSContainer*, IOMemoryDescriptor*, unsigned long long, IOStorageAttributes*, unsigned long long*, signed char, unsigned long long, int (AppleAPFSContainer::*)(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, unsigned long long*));
-    read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
-    setCrypto(cpx*, char const*, bool, int);
-    setVolumeProperties(nx const*, apfs const*);
-    write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    auto asyncCryptoRead(AppleAPFSContainer*, unsigned long long, unsigned long long, unsigned long long*, signed char, unsigned long long, bool)::kalloc_type_view_9591;
+    auto asyncCryptoRead(AppleAPFSContainer*, unsigned long long, unsigned long long, unsigned long long*, signed char, unsigned long long, bool)::kalloc_type_view_9708;
+    auto asyncCryptoReadFinish(unsigned long long, unsigned long long, unsigned long long*);
+    auto asyncCryptoReadFinishHelper(multikey_crypto_io_entry*, unsigned long long*);
+    auto asyncCryptoReadFinishHelper(multikey_crypto_io_entry*, unsigned long long*)::kalloc_type_view_9747;
+    auto clearCrypto();
+    auto copyPhysicalExtent(IOService*, unsigned long long*, unsigned long long*);
+    auto createAPFSVolume(AppleAPFSContainer*, nx const*, int, apfs const*);
+    auto free();
+    auto getMetaClass() const;
+    auto getSize() const;
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto init(AppleAPFSContainer*, nx const*, char const*, unsigned char*, int, bool);
+    auto init(AppleAPFSContainer*, nx const*, int, apfs const*);
+    auto performCryptoIO(AppleAPFSContainer*, IOMemoryDescriptor*, unsigned long long, IOStorageAttributes*, IOStorageCompletion*, signed char, unsigned long long, void (AppleAPFSContainer::*)(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*));
+    auto performCryptoIO(AppleAPFSContainer*, IOMemoryDescriptor*, unsigned long long, IOStorageAttributes*, unsigned long long*, signed char, unsigned long long, int (AppleAPFSContainer::*)(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, unsigned long long*));
+    auto read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    auto setCrypto(cpx*, char const*, bool, int);
+    auto setVolumeProperties(nx const*, apfs const*);
+    auto write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
     ~AppleAPFSVolume();
 };

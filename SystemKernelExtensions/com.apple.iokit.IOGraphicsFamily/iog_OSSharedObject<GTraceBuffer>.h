@@ -4,5 +4,5 @@
 
 class iog::OSSharedObject<GTraceBuffer> {
 public: // (access info unavailable from symbols alone)
-    operator=(iog::OSSharedObject<GTraceBuffer> const&);
+    auto operator=(iog::OSSharedObject<GTraceBuffer> const&);
 };

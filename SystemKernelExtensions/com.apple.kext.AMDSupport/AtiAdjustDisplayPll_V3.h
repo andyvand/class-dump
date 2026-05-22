@@ -6,7 +6,9 @@ class AtiAdjustDisplayPll_V3 {
 public: // (access info unavailable from symbols alone)
     AtiAdjustDisplayPll_V3();
     AtiAdjustDisplayPll_V3(OSMetaClass const*);
-    adjustDisplayPll(ClockParams*, ActiveConnectorInfo const*);
-    getMetaClass() const;
+    auto adjustDisplayPll(ClockParams*, ActiveConnectorInfo const*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiAdjustDisplayPll_V3();
 };

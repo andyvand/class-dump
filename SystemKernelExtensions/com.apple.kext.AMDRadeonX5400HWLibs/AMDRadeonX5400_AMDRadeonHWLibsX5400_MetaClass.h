@@ -5,6 +5,6 @@
 class AMDRadeonX5400_AMDRadeonHWLibsX5400::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

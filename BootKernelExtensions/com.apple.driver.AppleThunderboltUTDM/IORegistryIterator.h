@@ -4,5 +4,5 @@
 
 class IORegistryIterator {
 public: // (access info unavailable from symbols alone)
-    iterateOver(IORegistryEntry*, IORegistryPlane const*, unsigned int);
+    auto iterateOver(IORegistryEntry*, IORegistryPlane const*, unsigned int);
 };

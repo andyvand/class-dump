@@ -6,14 +6,16 @@ class IOAccelDisplayPipeGammaTable2 {
 public: // (access info unavailable from symbols alone)
     IOAccelDisplayPipeGammaTable2();
     IOAccelDisplayPipeGammaTable2(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getTableCount() const;
-    getTableEntry(unsigned int, float*, float*, float*) const;
-    getTableMaxValue() const;
-    getTableMinValue() const;
-    init(IOAccelDisplayPipeGammaTableData*);
-    init(IOAccelDisplayPipeGammaTableData*) (.cold.1);
-    withGammaTableData(IOAccelDisplayPipeGammaTableData*);
+    auto free();
+    auto getMetaClass() const;
+    auto getTableCount() const;
+    auto getTableEntry(unsigned int, float*, float*, float*) const;
+    auto getTableMaxValue() const;
+    auto getTableMinValue() const;
+    auto init(IOAccelDisplayPipeGammaTableData*);
+    auto init(IOAccelDisplayPipeGammaTableData*) (.cold.1);
+    auto withGammaTableData(IOAccelDisplayPipeGammaTableData*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelDisplayPipeGammaTable2();
 };

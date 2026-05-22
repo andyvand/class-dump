@@ -4,12 +4,14 @@
 
 class ACIPCChip4388 {
 public: // (access info unavailable from symbols alone)
-    disableMMIOCoredumpOnError(acipcErrorType);
-    getBar1RegisterOffset(acipcPeripheralRegister, unsigned int);
-    getBar1RegisterOffset(acipcPeripheralRegister, unsigned int) (.cold.1);
-    getName() const;
-    getNumDoorbell();
-    initWithRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
-    withRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    auto disableMMIOCoredumpOnError(acipcErrorType);
+    auto getBar1RegisterOffset(acipcPeripheralRegister, unsigned int);
+    auto getBar1RegisterOffset(acipcPeripheralRegister, unsigned int) (.cold.1);
+    auto getName() const;
+    auto getNumDoorbell();
+    auto initWithRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    auto withRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    void * operator new(unsigned long)::kalloc_type_view_22;
+    void operator delete(void*, unsigned long)::kalloc_type_view_22;
     ~ACIPCChip4388();
 };

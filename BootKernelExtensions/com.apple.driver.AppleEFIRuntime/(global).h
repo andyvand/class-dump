@@ -6,8 +6,6 @@
 
 AppleEFIRuntime::gMetaClass;
 AppleEFIRuntime::metaClass;
-AppleEFIRuntime::operator delete(void*, unsigned long);
-AppleEFIRuntime::operator new(unsigned long);
 AppleEFIRuntime::superClass;
 AppleEFIRuntime_ktv;
 CoreAnalyticsHub::metaClass;

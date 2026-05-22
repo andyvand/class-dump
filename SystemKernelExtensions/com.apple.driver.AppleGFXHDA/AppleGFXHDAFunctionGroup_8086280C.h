@@ -6,7 +6,9 @@ class AppleGFXHDAFunctionGroup_8086280C {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAFunctionGroup_8086280C();
     AppleGFXHDAFunctionGroup_8086280C(OSMetaClass const*);
-    applyCodecSpecificHardwareInitialization();
-    getMetaClass() const;
+    auto applyCodecSpecificHardwareInitialization();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAFunctionGroup_8086280C();
 };

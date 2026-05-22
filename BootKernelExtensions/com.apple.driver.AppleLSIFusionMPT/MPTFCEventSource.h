@@ -4,16 +4,18 @@
 
 class MPTFCEventSource {
 public: // (access info unavailable from symbols alone)
-    Create(OSObject*, void (*)(OSObject*, MPTFCEventSource*));
-    HandleLIPStorm();
-    HandlerDone();
-    InitialTargetScan();
     MPTFCEventSource();
     MPTFCEventSource(OSMetaClass const*);
-    QueueNotification(unsigned int);
-    TargetRescan();
-    UpdatePortInformation();
-    WaitForPortEnable(bool*);
-    getMetaClass() const;
+    auto Create(OSObject*, void (*)(OSObject*, MPTFCEventSource*));
+    auto HandleLIPStorm();
+    auto HandlerDone();
+    auto InitialTargetScan();
+    auto QueueNotification(unsigned int);
+    auto TargetRescan();
+    auto UpdatePortInformation();
+    auto WaitForPortEnable(bool*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~MPTFCEventSource();
 };

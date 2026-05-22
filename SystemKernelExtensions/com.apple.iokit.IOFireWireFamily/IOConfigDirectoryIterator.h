@@ -6,11 +6,13 @@ class IOConfigDirectoryIterator {
 public: // (access info unavailable from symbols alone)
     IOConfigDirectoryIterator();
     IOConfigDirectoryIterator(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getNextObject();
-    init(IOConfigDirectory*, unsigned int, unsigned int);
-    isValid();
-    reset();
+    auto free();
+    auto getMetaClass() const;
+    auto getNextObject();
+    auto init(IOConfigDirectory*, unsigned int, unsigned int);
+    auto isValid();
+    auto reset();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOConfigDirectoryIterator();
 };

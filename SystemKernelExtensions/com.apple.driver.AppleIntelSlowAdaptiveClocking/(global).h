@@ -6,8 +6,6 @@
 
 AppleIntelSlowAdaptiveClockingManager::gMetaClass;
 AppleIntelSlowAdaptiveClockingManager::metaClass;
-AppleIntelSlowAdaptiveClockingManager::operator delete(void*, unsigned long);
-AppleIntelSlowAdaptiveClockingManager::operator new(unsigned long);
 AppleIntelSlowAdaptiveClockingManager::superClass;
 AppleIntelSlowAdaptiveClockingManager_ktv;
 IOSlowAdaptiveClockingManager::gMetaClass;

@@ -4,23 +4,25 @@
 
 class IOHIDConsumer {
 public: // (access info unavailable from symbols alone)
-    Consumer(bool);
     IOHIDConsumer();
     IOHIDConsumer(OSMetaClass const*);
-    alphaLock();
-    defaultKeymapOfLength(unsigned int*);
-    defaultKeymapOfLength(unsigned int*)::ConsumerKeyMap;
-    deviceFlags();
-    dispatchConsumerEvent(IOHIDKeyboard*, unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int);
-    doesKeyLock(unsigned int);
-    eventFlags();
-    findKeyboardsAndGetModifiers();
-    getMetaClass() const;
-    init(OSDictionary*);
-    numLock();
-    setDeviceFlags(unsigned int);
-    setNumLock(bool);
-    start(IOService*);
-    stop(IOService*);
+    auto Consumer(bool);
+    auto alphaLock();
+    auto defaultKeymapOfLength(unsigned int*);
+    auto defaultKeymapOfLength(unsigned int*)::ConsumerKeyMap;
+    auto deviceFlags();
+    auto dispatchConsumerEvent(IOHIDKeyboard*, unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int);
+    auto doesKeyLock(unsigned int);
+    auto eventFlags();
+    auto findKeyboardsAndGetModifiers();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto numLock();
+    auto setDeviceFlags(unsigned int);
+    auto setNumLock(bool);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDConsumer();
 };

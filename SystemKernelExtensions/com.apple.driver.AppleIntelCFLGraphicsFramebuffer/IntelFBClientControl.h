@@ -4,14 +4,16 @@
 
 class IntelFBClientControl {
 public: // (access info unavailable from symbols alone)
-    GetAttributeType(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*);
     IntelFBClientControl();
     IntelFBClientControl(OSMetaClass const*);
-    actionWrapper(void*, void*, void*, void*);
-    doAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
-    doAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*)::_id;
-    doAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*)::_os_log_fmt;
-    getMetaClass() const;
-    vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
+    auto GetAttributeType(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*);
+    auto actionWrapper(void*, void*, void*, void*);
+    auto doAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
+    auto doAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*)::_id;
+    auto doAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IntelFBClientControl();
 };

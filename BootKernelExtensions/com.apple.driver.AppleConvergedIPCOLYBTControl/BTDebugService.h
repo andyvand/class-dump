@@ -5,10 +5,10 @@
 class BTDebugService {
 public: // (access info unavailable from symbols alone)
     BTDebugService(OSMetaClass const*);
-    close(IOService*, unsigned int);
-    mapCrashInfoMemory(IOMemoryDescriptor*, BTDebugService::CrashInfoMemoryOptions*, BTDebugService::CrashInfoCompletion*);
-    readCoreDump(IOMemoryDescriptor*, BTDebugService::CoreDumpCompletion*);
-    readLogs(IOMemoryDescriptor*, BTDebugService::LogCompletion*);
-    stateDump();
+    auto close(IOService*, unsigned int);
+    auto mapCrashInfoMemory(IOMemoryDescriptor*, BTDebugService::CrashInfoMemoryOptions*, BTDebugService::CrashInfoCompletion*);
+    auto readCoreDump(IOMemoryDescriptor*, BTDebugService::CoreDumpCompletion*);
+    auto readLogs(IOMemoryDescriptor*, BTDebugService::LogCompletion*);
+    auto stateDump();
     ~BTDebugService();
 };

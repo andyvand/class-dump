@@ -6,15 +6,17 @@ class ApplePlatformEnabler {
 public: // (access info unavailable from symbols alone)
     ApplePlatformEnabler();
     ApplePlatformEnabler(OSMetaClass const*);
-    attach(IOService*);
-    getData(unsigned char*, unsigned int&);
-    getKey(unsigned char*);
-    getMACAddress(unsigned char*);
-    getMetaClass() const;
-    handleEvent(void*, unsigned int&);
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    probe(IOService*, int*);
-    start(IOService*);
-    stop(IOService*);
+    auto attach(IOService*);
+    auto getData(unsigned char*, unsigned int&);
+    auto getKey(unsigned char*);
+    auto getMACAddress(unsigned char*);
+    auto getMetaClass() const;
+    auto handleEvent(void*, unsigned int&);
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ApplePlatformEnabler();
 };

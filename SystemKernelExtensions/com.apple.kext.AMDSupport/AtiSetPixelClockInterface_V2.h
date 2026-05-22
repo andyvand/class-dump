@@ -5,7 +5,9 @@
 class AtiSetPixelClockInterface_V2 {
 public: // (access info unavailable from symbols alone)
     AtiSetPixelClockInterface_V2(OSMetaClass const*);
-    createSetPixelClock(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createSetPixelClock(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSetPixelClockInterface_V2();
 };

@@ -4,5 +4,5 @@
 
 class IOAccelMemoryMapList {
 public: // (access info unavailable from symbols alone)
-    addMapping(IOAccelMemoryMap*);
+    auto addMapping(IOAccelMemoryMap*);
 };

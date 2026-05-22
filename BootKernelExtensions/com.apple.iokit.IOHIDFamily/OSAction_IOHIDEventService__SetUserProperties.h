@@ -4,10 +4,12 @@
 
 class OSAction_IOHIDEventService__SetUserProperties {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     OSAction_IOHIDEventService__SetUserProperties();
     OSAction_IOHIDEventService__SetUserProperties(OSMetaClass const*);
-    _Dispatch(OSAction_IOHIDEventService__SetUserProperties*, IORPC);
-    getMetaClass() const;
+    auto Dispatch(IORPC);
+    auto _Dispatch(OSAction_IOHIDEventService__SetUserProperties*, IORPC);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSAction_IOHIDEventService__SetUserProperties();
 };

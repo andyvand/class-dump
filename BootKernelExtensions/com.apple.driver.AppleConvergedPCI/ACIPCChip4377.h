@@ -4,9 +4,11 @@
 
 class ACIPCChip4377 {
 public: // (access info unavailable from symbols alone)
-    getName() const;
-    initWithRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
-    isSplitArchitecture();
-    withRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    auto getName() const;
+    auto initWithRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    auto isSplitArchitecture();
+    auto withRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    void * operator new(unsigned long)::kalloc_type_view_28;
+    void operator delete(void*, unsigned long)::kalloc_type_view_28;
     ~ACIPCChip4377();
 };

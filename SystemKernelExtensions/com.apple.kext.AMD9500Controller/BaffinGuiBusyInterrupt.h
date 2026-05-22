@@ -6,7 +6,9 @@ class BaffinGuiBusyInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinGuiBusyInterrupt();
     BaffinGuiBusyInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    initR6xx(unsigned char, bool, ATIController*);
+    auto getMetaClass() const;
+    auto initR6xx(unsigned char, bool, ATIController*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinGuiBusyInterrupt();
 };

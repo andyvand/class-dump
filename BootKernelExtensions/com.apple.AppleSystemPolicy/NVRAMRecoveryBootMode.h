@@ -4,11 +4,11 @@
 
 class NVRAMRecoveryBootMode {
 public: // (access info unavailable from symbols alone)
-    free();
-    init();
-    init() (.cold.1);
-    init() (.cold.2);
-    init() (.cold.3);
-    registerContent(bool);
-    registerContent(bool) (.cold.1);
+    auto free();
+    auto init();
+    auto init() (.cold.1);
+    auto init() (.cold.2);
+    auto init() (.cold.3);
+    auto registerContent(bool);
+    auto registerContent(bool) (.cold.1);
 };

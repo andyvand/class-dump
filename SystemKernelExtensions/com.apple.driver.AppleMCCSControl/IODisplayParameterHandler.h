@@ -5,15 +5,15 @@
 class IODisplayParameterHandler {
 public: // (access info unavailable from symbols alone)
     IODisplayParameterHandler(OSMetaClass const*);
-    _RESERVEDIODisplayParameterHandler0();
-    _RESERVEDIODisplayParameterHandler1();
-    _RESERVEDIODisplayParameterHandler2();
-    _RESERVEDIODisplayParameterHandler3();
-    _RESERVEDIODisplayParameterHandler4();
-    _RESERVEDIODisplayParameterHandler5();
-    _RESERVEDIODisplayParameterHandler6();
-    _RESERVEDIODisplayParameterHandler7();
-    _RESERVEDIODisplayParameterHandler8();
-    _RESERVEDIODisplayParameterHandler9();
+    auto _RESERVEDIODisplayParameterHandler0();
+    auto _RESERVEDIODisplayParameterHandler1();
+    auto _RESERVEDIODisplayParameterHandler2();
+    auto _RESERVEDIODisplayParameterHandler3();
+    auto _RESERVEDIODisplayParameterHandler4();
+    auto _RESERVEDIODisplayParameterHandler5();
+    auto _RESERVEDIODisplayParameterHandler6();
+    auto _RESERVEDIODisplayParameterHandler7();
+    auto _RESERVEDIODisplayParameterHandler8();
+    auto _RESERVEDIODisplayParameterHandler9();
     ~IODisplayParameterHandler();
 };

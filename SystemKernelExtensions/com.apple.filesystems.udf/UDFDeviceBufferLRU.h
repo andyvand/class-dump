@@ -4,17 +4,17 @@
 
 class UDFDeviceBufferLRU {
 public: // (access info unavailable from symbols alone)
-    AddPacket(UDFDevPacket*);
-    AddPacket(UDFDevPacket*) (.cold.1);
-    ChoosePacketsToReplace(DynArray*);
-    DebugCheck();
-    MoveToFreeList(UDFDevPacket*);
-    MoveToFreeList(UDFDevPacket*) (.cold.1);
-    MoveToFreeList(UDFDevPacket*) (.cold.2);
-    PacketTouched(UDFDevPacket*, bool, bool);
-    PacketTouched(UDFDevPacket*, bool, bool) (.cold.1);
-    PacketTouched(UDFDevPacket*, bool, bool) (.cold.2);
-    PacketTouched(UDFDevPacket*, bool, bool) (.cold.3);
     UDFDeviceBufferLRU(UDFMount*, unsigned long);
+    auto AddPacket(UDFDevPacket*);
+    auto AddPacket(UDFDevPacket*) (.cold.1);
+    auto ChoosePacketsToReplace(DynArray*);
+    auto DebugCheck();
+    auto MoveToFreeList(UDFDevPacket*);
+    auto MoveToFreeList(UDFDevPacket*) (.cold.1);
+    auto MoveToFreeList(UDFDevPacket*) (.cold.2);
+    auto PacketTouched(UDFDevPacket*, bool, bool);
+    auto PacketTouched(UDFDevPacket*, bool, bool) (.cold.1);
+    auto PacketTouched(UDFDevPacket*, bool, bool) (.cold.2);
+    auto PacketTouched(UDFDevPacket*, bool, bool) (.cold.3);
     ~UDFDeviceBufferLRU();
 };

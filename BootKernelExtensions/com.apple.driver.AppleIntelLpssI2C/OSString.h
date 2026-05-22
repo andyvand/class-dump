@@ -4,5 +4,5 @@
 
 class OSString {
 public: // (access info unavailable from symbols alone)
-    withCStringNoCopy(char const*);
+    auto withCStringNoCopy(char const*);
 };

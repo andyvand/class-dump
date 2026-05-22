@@ -6,15 +6,11 @@
 
 AppleBusPowerController::gMetaClass;
 AppleBusPowerController::metaClass;
-AppleBusPowerController::operator delete(void*, unsigned long);
-AppleBusPowerController::operator new(unsigned long);
 AppleBusPowerController::superClass;
 AppleBusPowerController_ktv;
 AppleSMCFamily::metaClass;
 AppleUSBBusPowerClient::gMetaClass;
 AppleUSBBusPowerClient::metaClass;
-AppleUSBBusPowerClient::operator delete(void*, unsigned long);
-AppleUSBBusPowerClient::operator new(unsigned long);
 AppleUSBBusPowerClient::superClass;
 AppleUSBBusPowerClient_ktv;
 IOACPIPlatformDevice::metaClass;

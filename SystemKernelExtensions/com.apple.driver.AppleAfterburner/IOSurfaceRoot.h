@@ -4,5 +4,5 @@
 
 class IOSurfaceRoot {
 public: // (access info unavailable from symbols alone)
-    lookupSurface(unsigned int, task*);
+    auto lookupSurface(unsigned int, task*);
 };

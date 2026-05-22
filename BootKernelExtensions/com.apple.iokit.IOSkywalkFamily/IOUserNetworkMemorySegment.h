@@ -6,15 +6,17 @@ class IOUserNetworkMemorySegment {
 public: // (access info unavailable from symbols alone)
     IOUserNetworkMemorySegment();
     IOUserNetworkMemorySegment(OSMetaClass const*);
-    complete(unsigned int);
-    getDriverKitVirtualAddress();
-    getIOVirtualAddress();
-    getMetaClass() const;
-    isDextMapped();
-    mapToDext();
-    needsDextMap();
-    prepare(unsigned int);
-    withPool(IOSkywalkPacketBufferPool*, IOUserNetworkMemorySegment::SegmentDescriptor*, unsigned int);
-    withPool(IOSkywalkPacketBufferPool*, IOUserNetworkMemorySegment::SegmentDescriptor*, unsigned int) (.cold.1);
+    auto complete(unsigned int);
+    auto getDriverKitVirtualAddress();
+    auto getIOVirtualAddress();
+    auto getMetaClass() const;
+    auto isDextMapped();
+    auto mapToDext();
+    auto needsDextMap();
+    auto prepare(unsigned int);
+    auto withPool(IOSkywalkPacketBufferPool*, IOUserNetworkMemorySegment::SegmentDescriptor*, unsigned int);
+    auto withPool(IOSkywalkPacketBufferPool*, IOUserNetworkMemorySegment::SegmentDescriptor*, unsigned int) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserNetworkMemorySegment();
 };

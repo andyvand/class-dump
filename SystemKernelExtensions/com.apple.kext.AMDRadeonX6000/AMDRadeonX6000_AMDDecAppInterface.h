@@ -5,9 +5,11 @@
 class AMDRadeonX6000_AMDDecAppInterface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDDecAppInterface(OSMetaClass const*);
-    configureBuffers();
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX6000_AMDGraphicsAccelerator*, AMDRadeonX6000_IAMDHWInterface*, unsigned int, unsigned int);
+    auto configureBuffers();
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX6000_AMDGraphicsAccelerator*, AMDRadeonX6000_IAMDHWInterface*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDDecAppInterface();
 };

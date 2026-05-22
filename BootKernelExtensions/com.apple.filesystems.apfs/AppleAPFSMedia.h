@@ -4,10 +4,10 @@
 
 class AppleAPFSMedia {
 public: // (access info unavailable from symbols alone)
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    getMetaClass() const;
-    getSize() const;
-    init(unsigned long long, unsigned long long, unsigned int, bool, char const*, OSDictionary*);
-    resize(unsigned long long);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto getMetaClass() const;
+    auto getSize() const;
+    auto init(unsigned long long, unsigned long long, unsigned int, bool, char const*, OSDictionary*);
+    auto resize(unsigned long long);
     ~AppleAPFSMedia();
 };

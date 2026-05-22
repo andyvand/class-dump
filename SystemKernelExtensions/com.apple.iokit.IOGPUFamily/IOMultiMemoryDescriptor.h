@@ -5,12 +5,12 @@
 class IOMultiMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     IOMultiMemoryDescriptor(OSMetaClass const*);
-    complete(unsigned int);
-    doMap(_vm_map*, unsigned long long*, unsigned int, unsigned long long, unsigned long long);
-    free();
-    getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
-    getPreparationID();
-    prepare(unsigned int);
-    setPurgeable(unsigned int, unsigned int*);
+    auto complete(unsigned int);
+    auto doMap(_vm_map*, unsigned long long*, unsigned int, unsigned long long, unsigned long long);
+    auto free();
+    auto getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
+    auto getPreparationID();
+    auto prepare(unsigned int);
+    auto setPurgeable(unsigned int, unsigned int*);
     ~IOMultiMemoryDescriptor();
 };

@@ -6,6 +6,8 @@ class AVCCommandHandlerInfo {
 public: // (access info unavailable from symbols alone)
     AVCCommandHandlerInfo();
     AVCCommandHandlerInfo(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AVCCommandHandlerInfo();
 };

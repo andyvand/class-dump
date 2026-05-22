@@ -5,9 +5,11 @@
 class IOUSBDevice {
 public: // (access info unavailable from symbols alone)
     IOUSBDevice(OSMetaClass const*);
-    getMetaClass() const;
-    messageClients(unsigned int, void*, unsigned long);
-    start(IOService*);
-    stop(IOService*);
+    auto getMetaClass() const;
+    auto messageClients(unsigned int, void*, unsigned long);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUSBDevice();
 };

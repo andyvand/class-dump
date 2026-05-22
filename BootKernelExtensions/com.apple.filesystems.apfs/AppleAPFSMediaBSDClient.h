@@ -4,7 +4,7 @@
 
 class AppleAPFSMediaBSDClient {
 public: // (access info unavailable from symbols alone)
-    getMetaClass() const;
-    ioctl(int, unsigned long, char*, int, proc*);
+    auto getMetaClass() const;
+    auto ioctl(int, unsigned long, char*, int, proc*);
     ~AppleAPFSMediaBSDClient();
 };

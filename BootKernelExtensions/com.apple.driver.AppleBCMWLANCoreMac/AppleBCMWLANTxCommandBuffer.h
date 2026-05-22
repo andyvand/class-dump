@@ -4,8 +4,8 @@
 
 class AppleBCMWLANTxCommandBuffer {
 public: // (access info unavailable from symbols alone)
-    free();
-    getMetaClass() const;
-    initWithParams(AppleBCMWLANBusInterface const*, unsigned long long, IO80211BufferPool*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithParams(AppleBCMWLANBusInterface const*, unsigned long long, IO80211BufferPool*);
     ~AppleBCMWLANTxCommandBuffer();
 };

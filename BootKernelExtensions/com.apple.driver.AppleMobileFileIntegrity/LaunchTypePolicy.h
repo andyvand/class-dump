@@ -4,7 +4,7 @@
 
 class LaunchTypePolicy {
 public: // (access info unavailable from symbols alone)
-    appleInternalAllowed(SystemFacts&, ProcessAccessor&);
-    disallowedLaunchType(LaunchConstraintError_t&);
-    isRootInstallAllowed(SystemFacts&, ProcessAccessor&);
+    auto appleInternalAllowed(SystemFacts&, ProcessAccessor&);
+    auto disallowedLaunchType(LaunchConstraintError_t&);
+    auto isRootInstallAllowed(SystemFacts&, ProcessAccessor&);
 };

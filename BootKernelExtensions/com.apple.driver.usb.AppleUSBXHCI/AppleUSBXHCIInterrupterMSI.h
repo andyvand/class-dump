@@ -6,8 +6,10 @@ class AppleUSBXHCIInterrupterMSI {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIInterrupterMSI();
     AppleUSBXHCIInterrupterMSI(OSMetaClass const*);
-    clearInterruptPending();
-    getMetaClass() const;
-    withParameters(AppleUSBXHCI*, unsigned int, IOMapper*);
+    auto clearInterruptPending();
+    auto getMetaClass() const;
+    auto withParameters(AppleUSBXHCI*, unsigned int, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCIInterrupterMSI();
 };

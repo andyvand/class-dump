@@ -4,5 +4,5 @@
 
 class AppleUSBSparseArray {
 public: // (access info unavailable from symbols alone)
-    withCapacity(unsigned int, unsigned int);
+    auto withCapacity(unsigned int, unsigned int);
 };

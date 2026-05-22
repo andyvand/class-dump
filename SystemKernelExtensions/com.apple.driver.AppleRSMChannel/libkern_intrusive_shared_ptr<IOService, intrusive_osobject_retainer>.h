@@ -4,8 +4,8 @@
 
 class libkern::intrusive_shared_ptr<IOService, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
-    detach();
-    get() const &;
+    auto detach();
+    auto get() const &;
+    auto reset();
     intrusive_shared_ptr(IOService*, libkern::retain_t);
-    reset();
 };

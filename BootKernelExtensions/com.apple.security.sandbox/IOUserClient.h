@@ -4,5 +4,5 @@
 
 class IOUserClient {
 public: // (access info unavailable from symbols alone)
-    registerFilterCallbacks(io_filter_callbacks const*, unsigned long);
+    auto registerFilterCallbacks(io_filter_callbacks const*, unsigned long);
 };

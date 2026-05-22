@@ -5,21 +5,21 @@
 class IOInterruptController {
 public: // (access info unavailable from symbols alone)
     IOInterruptController(OSMetaClass const*);
-    _RESERVEDIOInterruptController3();
-    _RESERVEDIOInterruptController4();
-    _RESERVEDIOInterruptController5();
-    cancelDeferredIPI(unsigned int);
-    causeInterrupt(IOService*, int);
-    causeVector(int, IOInterruptVector*);
-    disableInterrupt(IOService*, int);
-    disableVectorHard(int, IOInterruptVector*);
-    enableInterrupt(IOService*, int);
-    enableVector(int, IOInterruptVector*);
-    getVectorType(int, IOInterruptVector*);
-    initVector(int, IOInterruptVector*);
-    registerInterrupt(IOService*, int, void*, void (*)(void*, void*, void*, int), void*);
-    sendIPI(unsigned int, bool);
-    setCPUInterruptProperties(IOService*);
-    unregisterInterrupt(IOService*, int);
+    auto _RESERVEDIOInterruptController3();
+    auto _RESERVEDIOInterruptController4();
+    auto _RESERVEDIOInterruptController5();
+    auto cancelDeferredIPI(unsigned int);
+    auto causeInterrupt(IOService*, int);
+    auto causeVector(int, IOInterruptVector*);
+    auto disableInterrupt(IOService*, int);
+    auto disableVectorHard(int, IOInterruptVector*);
+    auto enableInterrupt(IOService*, int);
+    auto enableVector(int, IOInterruptVector*);
+    auto getVectorType(int, IOInterruptVector*);
+    auto initVector(int, IOInterruptVector*);
+    auto registerInterrupt(IOService*, int, void*, void (*)(void*, void*, void*, int), void*);
+    auto sendIPI(unsigned int, bool);
+    auto setCPUInterruptProperties(IOService*);
+    auto unregisterInterrupt(IOService*, int);
     ~IOInterruptController();
 };

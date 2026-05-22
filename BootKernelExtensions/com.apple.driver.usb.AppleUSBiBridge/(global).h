@@ -7,8 +7,6 @@
 AppleUSBiBridge::_sPowerStates;
 AppleUSBiBridge::gMetaClass;
 AppleUSBiBridge::metaClass;
-AppleUSBiBridge::operator delete(void*, unsigned long);
-AppleUSBiBridge::operator new(unsigned long);
 AppleUSBiBridge::superClass;
 AppleUSBiBridge_ktv;
 IOService::gMetaClass;

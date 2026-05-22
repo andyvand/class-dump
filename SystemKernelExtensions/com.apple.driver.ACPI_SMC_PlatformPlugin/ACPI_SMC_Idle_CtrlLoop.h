@@ -6,12 +6,14 @@ class ACPI_SMC_Idle_CtrlLoop {
 public: // (access info unavailable from symbols alone)
     ACPI_SMC_Idle_CtrlLoop();
     ACPI_SMC_Idle_CtrlLoop(OSMetaClass const*);
-    adjustControls();
-    didWake();
-    free();
-    getMetaClass() const;
-    initPlatformCtrlLoop(OSDictionary const*);
-    sendPowerEventNotification();
-    updateMetaState();
+    auto adjustControls();
+    auto didWake();
+    auto free();
+    auto getMetaClass() const;
+    auto initPlatformCtrlLoop(OSDictionary const*);
+    auto sendPowerEventNotification();
+    auto updateMetaState();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ACPI_SMC_Idle_CtrlLoop();
 };

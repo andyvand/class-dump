@@ -6,8 +6,10 @@ class AppleGFXHDAEGController {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAEGController();
     AppleGFXHDAEGController(OSMetaClass const*);
-    getMetaClass() const;
-    gfxMatchedHandler(void*, IOService*, IONotifier*);
-    locateAssociatedGraphicsController();
+    auto getMetaClass() const;
+    auto gfxMatchedHandler(void*, IOService*, IONotifier*);
+    auto locateAssociatedGraphicsController();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAEGController();
 };

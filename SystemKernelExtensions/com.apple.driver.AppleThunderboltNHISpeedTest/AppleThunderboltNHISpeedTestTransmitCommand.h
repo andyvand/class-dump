@@ -6,12 +6,14 @@ class AppleThunderboltNHISpeedTestTransmitCommand {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltNHISpeedTestTransmitCommand();
     AppleThunderboltNHISpeedTestTransmitCommand(OSMetaClass const*);
-    BuildPacket(unsigned int, unsigned char*, unsigned int);
-    free();
-    getMetaClass() const;
-    initWithController(IOThunderboltController*);
-    initWithParams(IOThunderboltController*, unsigned long long, unsigned long long, task*);
-    withController(IOThunderboltController*);
-    withParams(IOThunderboltController*, unsigned long long, unsigned long long, task*);
+    auto BuildPacket(unsigned int, unsigned char*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithController(IOThunderboltController*);
+    auto initWithParams(IOThunderboltController*, unsigned long long, unsigned long long, task*);
+    auto withController(IOThunderboltController*);
+    auto withParams(IOThunderboltController*, unsigned long long, unsigned long long, task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltNHISpeedTestTransmitCommand();
 };

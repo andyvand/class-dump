@@ -5,6 +5,6 @@
 class IOAccelBlockFence {
 public: // (access info unavailable from symbols alone)
     IOAccelBlockFence(OSMetaClass const*);
-    notifyClient();
+    auto notifyClient();
     ~IOAccelBlockFence();
 };

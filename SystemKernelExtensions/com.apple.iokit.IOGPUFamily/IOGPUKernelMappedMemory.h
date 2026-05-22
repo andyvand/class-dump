@@ -6,15 +6,17 @@ class IOGPUKernelMappedMemory {
 public: // (access info unavailable from symbols alone)
     IOGPUKernelMappedMemory();
     IOGPUKernelMappedMemory(OSMetaClass const*);
-    deleteMap();
-    free();
-    getKernelData();
-    getKernelData()::_os_log_fmt;
-    getLength() const;
-    getMetaClass() const;
-    init(IOGPU*, IOMemoryDescriptor*);
-    map();
-    releaseKernelData();
-    unmap();
+    auto deleteMap();
+    auto free();
+    auto getKernelData();
+    auto getKernelData()::_os_log_fmt;
+    auto getLength() const;
+    auto getMetaClass() const;
+    auto init(IOGPU*, IOMemoryDescriptor*);
+    auto map();
+    auto releaseKernelData();
+    auto unmap();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUKernelMappedMemory();
 };

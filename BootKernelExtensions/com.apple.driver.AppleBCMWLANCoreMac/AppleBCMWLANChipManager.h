@@ -5,15 +5,17 @@
 class AppleBCMWLANChipManager {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANChipManager(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_112;
-    getLogger() const;
-    getMetaClass() const;
-    getNVRAMLimit() const;
-    getSoCRAMSize() const;
-    init();
-    init()::kalloc_type_view_98;
-    init(AppleBCMWLANBusInterface*);
-    init(AppleBCMWLANBusInterface*)::kalloc_type_view_73;
+    auto free();
+    auto free()::kalloc_type_view_112;
+    auto getLogger() const;
+    auto getMetaClass() const;
+    auto getNVRAMLimit() const;
+    auto getSoCRAMSize() const;
+    auto init();
+    auto init()::kalloc_type_view_98;
+    auto init(AppleBCMWLANBusInterface*);
+    auto init(AppleBCMWLANBusInterface*)::kalloc_type_view_73;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleBCMWLANChipManager();
 };

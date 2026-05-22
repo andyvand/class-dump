@@ -6,10 +6,12 @@ class EventElementCollection {
 public: // (access info unavailable from symbols alone)
     EventElementCollection();
     EventElementCollection(OSMetaClass const*);
-    candidate(IOHIDElement*);
-    copyProperties() const;
-    free();
-    getMetaClass() const;
-    serialize(OSSerialize*) const;
+    auto candidate(IOHIDElement*);
+    auto copyProperties() const;
+    auto free();
+    auto getMetaClass() const;
+    auto serialize(OSSerialize*) const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~EventElementCollection();
 };

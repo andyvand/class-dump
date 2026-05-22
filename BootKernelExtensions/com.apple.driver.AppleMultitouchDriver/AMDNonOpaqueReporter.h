@@ -5,18 +5,20 @@
 class AMDNonOpaqueReporter {
 public: // (access info unavailable from symbols alone)
     AMDNonOpaqueReporter(IOService*, unsigned long long);
-    fromService(IOService*, OSDictionary*, unsigned long long);
-    fromService(IOService*, OSDictionary*, unsigned long long)::reporter;
-    getReportLength();
-    parseDescriptor(OSDictionary*);
-    parseDescriptor(OSDictionary*)::_os_log_fmt;
-    parseDescriptor(OSDictionary*)::kalloc_type_view_163;
-    parseDescriptor(OSDictionary*)::kalloc_type_view_177;
-    parseDescriptor(OSDictionary*)::kalloc_type_view_181;
-    parseDescriptor(OSDictionary*)::kalloc_type_view_215;
-    updateReport(AppleMultitouchDevice*);
-    updateReport(AppleMultitouchDevice*) (.cold.1);
-    updateReport(AppleMultitouchDevice*)::_os_log_fmt;
+    auto fromService(IOService*, OSDictionary*, unsigned long long);
+    auto fromService(IOService*, OSDictionary*, unsigned long long)::reporter;
+    auto getReportLength();
+    auto parseDescriptor(OSDictionary*);
+    auto parseDescriptor(OSDictionary*)::_os_log_fmt;
+    auto parseDescriptor(OSDictionary*)::kalloc_type_view_163;
+    auto parseDescriptor(OSDictionary*)::kalloc_type_view_177;
+    auto parseDescriptor(OSDictionary*)::kalloc_type_view_181;
+    auto parseDescriptor(OSDictionary*)::kalloc_type_view_215;
+    auto updateReport(AppleMultitouchDevice*);
+    auto updateReport(AppleMultitouchDevice*) (.cold.1);
+    auto updateReport(AppleMultitouchDevice*)::_os_log_fmt;
+    void * operator new(unsigned long)::kalloc_type_view_17;
+    void operator delete(void*, unsigned long)::kalloc_type_view_17;
     ~AMDNonOpaqueReporter();
     ~AMDNonOpaqueReporter()::kalloc_type_view_53;
 };

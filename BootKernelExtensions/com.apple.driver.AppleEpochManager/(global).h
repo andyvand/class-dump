@@ -6,14 +6,10 @@
 
 AppleEpochManager::gMetaClass;
 AppleEpochManager::metaClass;
-AppleEpochManager::operator delete(void*, unsigned long);
-AppleEpochManager::operator new(unsigned long);
 AppleEpochManager::sandcat_dt_node_path;
 AppleEpochManager::superClass;
 AppleEpochManagerUserClient::gMetaClass;
 AppleEpochManagerUserClient::metaClass;
-AppleEpochManagerUserClient::operator delete(void*, unsigned long);
-AppleEpochManagerUserClient::operator new(unsigned long);
 AppleEpochManagerUserClient::superClass;
 AppleEpochManagerUserClient_ktv;
 AppleEpochManager_ktv;

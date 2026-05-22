@@ -6,6 +6,8 @@ class IOServiceCompatibility {
 public: // (access info unavailable from symbols alone)
     IOServiceCompatibility();
     IOServiceCompatibility(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOServiceCompatibility();
 };

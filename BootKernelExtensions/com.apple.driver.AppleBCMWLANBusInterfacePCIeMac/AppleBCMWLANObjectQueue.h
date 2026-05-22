@@ -4,7 +4,7 @@
 
 class AppleBCMWLANObjectQueue {
 public: // (access info unavailable from symbols alone)
-    dequeue();
-    enqueue(OSObject*);
-    withCapacity(unsigned int);
+    auto dequeue();
+    auto enqueue(OSObject*);
+    auto withCapacity(unsigned int);
 };

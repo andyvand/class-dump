@@ -5,5 +5,5 @@
 class _IOUserServerCheckInCancellationHandler::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

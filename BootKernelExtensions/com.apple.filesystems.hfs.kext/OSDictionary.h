@@ -4,5 +4,5 @@
 
 class OSDictionary {
 public: // (access info unavailable from symbols alone)
-    setObject(char const*, OSSharedPtr<OSMetaClassBase const> const&);
+    auto setObject(char const*, OSSharedPtr<OSMetaClassBase const> const&);
 };

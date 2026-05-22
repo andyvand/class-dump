@@ -4,24 +4,24 @@
 
 class AppleVirtIOFS {
 public: // (access info unavailable from symbols alone)
-    addMount();
-    didTerminate(IOService*, unsigned int, bool*);
-    doRequestGated(AppleVirtIOFSTransaction*, unsigned int);
-    executeTransactionGated(AppleVirtIOFSTransaction*);
-    executeTransactionGated(AppleVirtIOFSTransaction*) (.cold.1);
-    executeTransactionGated(AppleVirtIOFSTransaction*) (.cold.2);
-    executeTransactionGated(AppleVirtIOFSTransaction*) (.cold.3);
-    executeTransactionSync(AppleVirtIOFSTransaction*, bool);
-    getDeviceName(char*, unsigned long);
-    getMetaClass() const;
-    handleClose(IOService*, unsigned int);
-    handleOpen(IOService*, unsigned int, void*);
-    isAutomount();
-    isMounted() const;
-    queueEventHandler(AppleVirtIOQueue*, void*);
-    removeMount();
-    start(IOService*);
-    stop(IOService*);
-    willTerminate(IOService*, unsigned int);
+    auto addMount();
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto doRequestGated(AppleVirtIOFSTransaction*, unsigned int);
+    auto executeTransactionGated(AppleVirtIOFSTransaction*);
+    auto executeTransactionGated(AppleVirtIOFSTransaction*) (.cold.1);
+    auto executeTransactionGated(AppleVirtIOFSTransaction*) (.cold.2);
+    auto executeTransactionGated(AppleVirtIOFSTransaction*) (.cold.3);
+    auto executeTransactionSync(AppleVirtIOFSTransaction*, bool);
+    auto getDeviceName(char*, unsigned long);
+    auto getMetaClass() const;
+    auto handleClose(IOService*, unsigned int);
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto isAutomount();
+    auto isMounted() const;
+    auto queueEventHandler(AppleVirtIOQueue*, void*);
+    auto removeMount();
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto willTerminate(IOService*, unsigned int);
     ~AppleVirtIOFS();
 };

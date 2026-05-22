@@ -4,5 +4,5 @@
 
 class IOSurface {
 public: // (access info unavailable from symbols alone)
-    getMemoryDescriptor() const;
+    auto getMemoryDescriptor() const;
 };

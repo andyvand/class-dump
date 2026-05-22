@@ -6,7 +6,9 @@ class AMDRadeonX5000_AMDGFX9SDMARing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDGFX9SDMARing();
     AMDRadeonX5000_AMDGFX9SDMARing(OSMetaClass const*);
-    getMetaClass() const;
-    init(AMDRadeonX5000_IAMDHWInterface*, _HW_RT_RING_INFO const*);
+    auto getMetaClass() const;
+    auto init(AMDRadeonX5000_IAMDHWInterface*, _HW_RT_RING_INFO const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDGFX9SDMARing();
 };

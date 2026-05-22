@@ -4,10 +4,10 @@
 
 class CCFaultReporter {
 public: // (access info unavailable from symbols alone)
-    addOwner(char const*);
-    isBusy();
-    registerCallbacks(CCFaultReporter::register_callback_t*, unsigned int, OSObject*, char const*);
-    reportFault(unsigned int, char const*, unsigned int, char const*, OSDictionary*, int, char const*, ...);
-    unregisterCallbacks(OSObject*);
-    withStreamWorkloop(CCDataStream*, IOWorkLoop*);
+    auto addOwner(char const*);
+    auto isBusy();
+    auto registerCallbacks(CCFaultReporter::register_callback_t*, unsigned int, OSObject*, char const*);
+    auto reportFault(unsigned int, char const*, unsigned int, char const*, OSDictionary*, int, char const*, ...);
+    auto unregisterCallbacks(OSObject*);
+    auto withStreamWorkloop(CCDataStream*, IOWorkLoop*);
 };

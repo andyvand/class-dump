@@ -6,14 +6,16 @@ class IOPlatformPluginFamilyPriv {
 public: // (access info unavailable from symbols alone)
     IOPlatformPluginFamilyPriv();
     IOPlatformPluginFamilyPriv(OSMetaClass const*);
-    getMetaClass() const;
-    initSymbols();
-    pluginGetDiagProperty(OSSymbol const*, OSSymbol const*);
-    pluginRemoveDiagProperty(OSSymbol const*, OSSymbol const*);
-    pluginSetDiagProperty(OSSymbol const*, OSSymbol const*, OSObject*);
-    releaseSymbols();
-    setProperties(OSObject*);
-    start(IOService*);
-    stop(IOService*);
+    auto getMetaClass() const;
+    auto initSymbols();
+    auto pluginGetDiagProperty(OSSymbol const*, OSSymbol const*);
+    auto pluginRemoveDiagProperty(OSSymbol const*, OSSymbol const*);
+    auto pluginSetDiagProperty(OSSymbol const*, OSSymbol const*, OSObject*);
+    auto releaseSymbols();
+    auto setProperties(OSObject*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPlatformPluginFamilyPriv();
 };

@@ -6,27 +6,19 @@
 
 AppleACPIPMC::gMetaClass;
 AppleACPIPMC::metaClass;
-AppleACPIPMC::operator delete(void*, unsigned long);
-AppleACPIPMC::operator new(unsigned long);
 AppleACPIPMC::superClass;
 AppleACPIPMC_ktv;
 AppleIntelPCHPMC::gMetaClass;
 AppleIntelPCHPMC::metaClass;
-AppleIntelPCHPMC::operator delete(void*, unsigned long);
-AppleIntelPCHPMC::operator new(unsigned long);
 AppleIntelPCHPMC::superClass;
 AppleIntelPCHPMC_ktv;
 ApplePMC::gMetaClass;
 ApplePMC::metaClass;
-ApplePMC::operator delete(void*, unsigned long);
-ApplePMC::operator new(unsigned long);
 ApplePMC::superClass;
 ApplePMC_ktv;
 AppleSMCFamily::metaClass;
 AppleSMCPMC::gMetaClass;
 AppleSMCPMC::metaClass;
-AppleSMCPMC::operator delete(void*, unsigned long);
-AppleSMCPMC::operator new(unsigned long);
 AppleSMCPMC::superClass;
 AppleSMCPMC_ktv;
 IOACPIPlatformDevice::metaClass;

@@ -5,8 +5,10 @@
 class AtiAsicInfoReader {
 public: // (access info unavailable from symbols alone)
     AtiAsicInfoReader(OSMetaClass const*);
-    createAsicInfoReader(AtiAsicInfoReader::InitInfo&);
-    getMetaClass() const;
-    init(AtiAsicInfoReader::InitInfo&);
+    auto createAsicInfoReader(AtiAsicInfoReader::InitInfo&);
+    auto getMetaClass() const;
+    auto init(AtiAsicInfoReader::InitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiAsicInfoReader();
 };

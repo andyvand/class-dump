@@ -4,18 +4,18 @@
 
 class IOSurface {
 public: // (access info unavailable from symbols alone)
-    copyValue(char const*, unsigned int*) const;
-    flushProcessorCaches();
-    getPixelFormat() const;
-    getPlaneBase(unsigned int) const;
-    getPlaneBytesPerElement(unsigned int) const;
-    getPlaneBytesPerRow(unsigned int) const;
-    getPlaneCount() const;
-    getPlaneElementHeight(unsigned int) const;
-    getPlaneElementWidth(unsigned int) const;
-    getPlaneHeight(unsigned int) const;
-    getPlaneOffset(unsigned int) const;
-    getPlaneSize(unsigned int) const;
-    getPlaneWidth(unsigned int) const;
-    getProtectionOptions() const;
+    auto copyValue(char const*, unsigned int*) const;
+    auto flushProcessorCaches();
+    auto getPixelFormat() const;
+    auto getPlaneBase(unsigned int) const;
+    auto getPlaneBytesPerElement(unsigned int) const;
+    auto getPlaneBytesPerRow(unsigned int) const;
+    auto getPlaneCount() const;
+    auto getPlaneElementHeight(unsigned int) const;
+    auto getPlaneElementWidth(unsigned int) const;
+    auto getPlaneHeight(unsigned int) const;
+    auto getPlaneOffset(unsigned int) const;
+    auto getPlaneSize(unsigned int) const;
+    auto getPlaneWidth(unsigned int) const;
+    auto getProtectionOptions() const;
 };

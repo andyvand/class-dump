@@ -4,11 +4,11 @@
 
 class IOUserNetworkWLAN {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     IOUserNetworkWLAN(OSMetaClass const*);
-    classNameOverride();
-    initBSDInterfaceParameters(ifnet_init_eparams*, sockaddr_dl**);
-    interfaceAdvisoryEnable(bool);
-    setRxFlowSteering(unsigned int, ifnet_traffic_descriptor_common*, unsigned int);
+    auto Dispatch(IORPC);
+    auto classNameOverride();
+    auto initBSDInterfaceParameters(ifnet_init_eparams*, sockaddr_dl**);
+    auto interfaceAdvisoryEnable(bool);
+    auto setRxFlowSteering(unsigned int, ifnet_traffic_descriptor_common*, unsigned int);
     ~IOUserNetworkWLAN();
 };

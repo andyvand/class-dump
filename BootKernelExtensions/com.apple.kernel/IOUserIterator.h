@@ -6,13 +6,15 @@ class IOUserIterator {
 public: // (access info unavailable from symbols alone)
     IOUserIterator();
     IOUserIterator(OSMetaClass const*);
-    copyNextObject();
-    free();
-    getMetaClass() const;
-    getNextObject();
-    init();
-    isValid();
-    reset();
-    withIterator(OSIterator*);
+    auto copyNextObject();
+    auto free();
+    auto getMetaClass() const;
+    auto getNextObject();
+    auto init();
+    auto isValid();
+    auto reset();
+    auto withIterator(OSIterator*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserIterator();
 };

@@ -6,15 +6,17 @@ class AppleUSBVHCIControlRequest {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIControlRequest();
     AppleUSBVHCIControlRequest(OSMetaClass const*);
-    activate();
-    cancel();
-    complete();
-    getMetaClass() const;
-    initWithPool(AppleUSBRequestPool*);
-    prepare(AppleUSBHostRequest*, AppleUSBVHCIHostTransferQueue*);
-    update(StandardUSBVHCI::VHCIMessage*);
-    update(StandardUSBVHCI::VHCIMessage*) (.cold.1);
-    update(StandardUSBVHCI::VHCIMessage*)::_os_log_fmt;
-    withPool(AppleUSBRequestPool*);
+    auto activate();
+    auto cancel();
+    auto complete();
+    auto getMetaClass() const;
+    auto initWithPool(AppleUSBRequestPool*);
+    auto prepare(AppleUSBHostRequest*, AppleUSBVHCIHostTransferQueue*);
+    auto update(StandardUSBVHCI::VHCIMessage*);
+    auto update(StandardUSBVHCI::VHCIMessage*) (.cold.1);
+    auto update(StandardUSBVHCI::VHCIMessage*)::_os_log_fmt;
+    auto withPool(AppleUSBRequestPool*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBVHCIControlRequest();
 };

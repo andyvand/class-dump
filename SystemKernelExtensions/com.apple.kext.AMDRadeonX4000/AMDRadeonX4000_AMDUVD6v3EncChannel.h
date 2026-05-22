@@ -6,12 +6,14 @@ class AMDRadeonX4000_AMDUVD6v3EncChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDUVD6v3EncChannel();
     AMDRadeonX4000_AMDUVD6v3EncChannel(OSMetaClass const*);
-    alignIBCommandBuffer(unsigned int*, unsigned int);
-    commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
-    free();
-    getIndirectCommandSize();
-    getMetaClass() const;
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
-    initializeIndirectCommandBufferFrame();
+    auto alignIBCommandBuffer(unsigned int*, unsigned int);
+    auto commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto free();
+    auto getIndirectCommandSize();
+    auto getMetaClass() const;
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto initializeIndirectCommandBufferFrame();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDUVD6v3EncChannel();
 };

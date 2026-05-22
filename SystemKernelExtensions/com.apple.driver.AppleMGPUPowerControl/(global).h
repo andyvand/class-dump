@@ -14,7 +14,6 @@ IOPCIDevice::metaClass;
 IOService::metaClass;
 IOUserClient::gMetaClass;
 OSData::metaClass;
-OSData::operator new(unsigned long);
 OSDictionary::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;

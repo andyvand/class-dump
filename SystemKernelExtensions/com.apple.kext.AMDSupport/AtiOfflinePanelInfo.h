@@ -6,9 +6,11 @@ class AtiOfflinePanelInfo {
 public: // (access info unavailable from symbols alone)
     AtiOfflinePanelInfo();
     AtiOfflinePanelInfo(OSMetaClass const*);
-    createPanelInfo();
-    getMetaClass() const;
-    getSenseInfo(AppleSenseInfo&);
-    init();
+    auto createPanelInfo();
+    auto getMetaClass() const;
+    auto getSenseInfo(AppleSenseInfo&);
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiOfflinePanelInfo();
 };

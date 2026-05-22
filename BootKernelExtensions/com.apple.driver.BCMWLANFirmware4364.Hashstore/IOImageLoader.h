@@ -4,7 +4,7 @@
 
 class IOImageLoader {
 public: // (access info unavailable from symbols alone)
-    isBootBase();
-    isNetbooting();
-    log(char const*, ...);
+    auto isBootBase();
+    auto isNetbooting();
+    auto log(char const*, ...);
 };

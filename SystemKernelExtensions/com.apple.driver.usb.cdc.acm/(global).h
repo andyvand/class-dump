@@ -6,14 +6,10 @@
 
 AppleUSBACMControl::gMetaClass;
 AppleUSBACMControl::metaClass;
-AppleUSBACMControl::operator delete(void*, unsigned long);
-AppleUSBACMControl::operator new(unsigned long);
 AppleUSBACMControl::superClass;
 AppleUSBACMControl_ktv;
 AppleUSBACMData::gMetaClass;
 AppleUSBACMData::metaClass;
-AppleUSBACMData::operator delete(void*, unsigned long);
-AppleUSBACMData::operator new(unsigned long);
 AppleUSBACMData::superClass;
 AppleUSBACMData_ktv;
 AppleUSBCDCControl::gMetaClass;

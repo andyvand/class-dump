@@ -6,13 +6,15 @@ class AppleUSBEHCIqTDPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBEHCIqTDPool();
     AppleUSBEHCIqTDPool(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_72;
-    getMetaClass() const;
-    getTD();
-    getTD()::kalloc_type_view_116;
-    initWithOptions(unsigned int, IOMapper*);
-    returnTD(AppleUSBEHCIqTD*);
-    withOptions(unsigned int, IOMapper*);
+    auto free();
+    auto free()::kalloc_type_view_72;
+    auto getMetaClass() const;
+    auto getTD();
+    auto getTD()::kalloc_type_view_116;
+    auto initWithOptions(unsigned int, IOMapper*);
+    auto returnTD(AppleUSBEHCIqTD*);
+    auto withOptions(unsigned int, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEHCIqTDPool();
 };

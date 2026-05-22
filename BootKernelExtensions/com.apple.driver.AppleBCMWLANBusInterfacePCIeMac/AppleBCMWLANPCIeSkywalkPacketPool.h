@@ -4,21 +4,21 @@
 
 class AppleBCMWLANPCIeSkywalkPacketPool {
 public: // (access info unavailable from symbols alone)
-    allocatePacket(IOSkywalkPacket**, unsigned int);
-    collectPacketPoolStats(char*, unsigned long, unsigned long, unsigned long);
-    deallocatePacket(IO80211NetworkPacket*);
-    duplicatePacket(AppleBCMWLANPCIeSkywalkPacket*, AppleBCMWLANPCIeSkywalkPacket**);
-    flushPacketAction(short, OSObject*, void*);
-    free();
-    free()::kalloc_type_view_134;
-    getMetaClass() const;
-    initWithName(char const*, OSObject*, AppleBCMWLANSkywalkPoolOptions const*, CCLogStream*, CCFaultReporter*);
-    initWithName(char const*, OSObject*, AppleBCMWLANSkywalkPoolOptions const*, CCLogStream*, CCFaultReporter*)::kalloc_type_view_67;
-    newMemorySegment(IOSkywalkMemorySegmentDescriptor*, IOSkywalkMemorySegment**);
-    newPacketWithDescriptor(IOSkywalkPacketDescriptor*);
-    rxTrackerFlush();
-    setMapper(IOMapper*);
-    txTrackerFlush();
-    withName(char const*, OSObject*, CCLogStream*, CCFaultReporter*, AppleBCMWLANSkywalkPoolOptions const*);
+    auto allocatePacket(IOSkywalkPacket**, unsigned int);
+    auto collectPacketPoolStats(char*, unsigned long, unsigned long, unsigned long);
+    auto deallocatePacket(IO80211NetworkPacket*);
+    auto duplicatePacket(AppleBCMWLANPCIeSkywalkPacket*, AppleBCMWLANPCIeSkywalkPacket**);
+    auto flushPacketAction(short, OSObject*, void*);
+    auto free();
+    auto free()::kalloc_type_view_134;
+    auto getMetaClass() const;
+    auto initWithName(char const*, OSObject*, AppleBCMWLANSkywalkPoolOptions const*, CCLogStream*, CCFaultReporter*);
+    auto initWithName(char const*, OSObject*, AppleBCMWLANSkywalkPoolOptions const*, CCLogStream*, CCFaultReporter*)::kalloc_type_view_67;
+    auto newMemorySegment(IOSkywalkMemorySegmentDescriptor*, IOSkywalkMemorySegment**);
+    auto newPacketWithDescriptor(IOSkywalkPacketDescriptor*);
+    auto rxTrackerFlush();
+    auto setMapper(IOMapper*);
+    auto txTrackerFlush();
+    auto withName(char const*, OSObject*, CCLogStream*, CCFaultReporter*, AppleBCMWLANSkywalkPoolOptions const*);
     ~AppleBCMWLANPCIeSkywalkPacketPool();
 };

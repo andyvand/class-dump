@@ -4,8 +4,8 @@
 
 class IOFWCmdQ {
 public: // (access info unavailable from symbols alone)
-    checkProgress();
-    executeQueue(bool);
-    headChanged(IOFWCommand*);
+    auto checkProgress();
+    auto executeQueue(bool);
+    auto headChanged(IOFWCommand*);
     ~IOFWCmdQ();
 };

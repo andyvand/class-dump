@@ -4,8 +4,8 @@
 
 class IOATABusInfo {
 public: // (access info unavailable from symbols alone)
-    atabusinfo();
-    getSocketType();
-    maxBlocksExtended();
-    supportsExtendedLBA();
+    auto atabusinfo();
+    auto getSocketType();
+    auto maxBlocksExtended();
+    auto supportsExtendedLBA();
 };

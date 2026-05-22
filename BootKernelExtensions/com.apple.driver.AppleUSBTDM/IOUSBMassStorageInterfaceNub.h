@@ -4,5 +4,5 @@
 
 class IOUSBMassStorageInterfaceNub {
 public: // (access info unavailable from symbols alone)
-    GetIOUSBHostInterface();
+    auto GetIOUSBHostInterface();
 };

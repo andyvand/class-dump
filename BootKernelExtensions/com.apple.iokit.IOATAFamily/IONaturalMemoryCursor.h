@@ -4,5 +4,5 @@
 
 class IONaturalMemoryCursor {
 public: // (access info unavailable from symbols alone)
-    withSpecification(unsigned long long, unsigned long long, unsigned long long);
+    auto withSpecification(unsigned long long, unsigned long long, unsigned long long);
 };

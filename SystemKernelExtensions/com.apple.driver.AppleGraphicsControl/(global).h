@@ -6,8 +6,6 @@
 
 AppleGraphicsControl::gMetaClass;
 AppleGraphicsControl::metaClass;
-AppleGraphicsControl::operator delete(void*, unsigned long);
-AppleGraphicsControl::operator new(unsigned long);
 AppleGraphicsControl::superClass;
 AppleGraphicsControl_ktv;
 IOService::gMetaClass;

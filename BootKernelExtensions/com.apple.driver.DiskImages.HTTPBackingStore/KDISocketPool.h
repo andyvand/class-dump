@@ -6,10 +6,12 @@ class KDISocketPool {
 public: // (access info unavailable from symbols alone)
     KDISocketPool();
     KDISocketPool(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
-    requestSocketFromPool();
-    returnSocketToPool(KDISocket*);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto requestSocketFromPool();
+    auto returnSocketToPool(KDISocket*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KDISocketPool();
 };

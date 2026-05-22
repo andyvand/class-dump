@@ -6,14 +6,16 @@ class AppleEmbeddedOSSupportHostClient {
 public: // (access info unavailable from symbols alone)
     AppleEmbeddedOSSupportHostClient();
     AppleEmbeddedOSSupportHostClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int);
-    registerNotificationPort(ipc_port*, unsigned int, unsigned int);
-    sendEventNotification(unsigned int) const;
-    start(IOService*);
-    stop(IOService*);
+    auto clientClose();
+    auto clientDied();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int);
+    auto registerNotificationPort(ipc_port*, unsigned int, unsigned int);
+    auto sendEventNotification(unsigned int) const;
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEmbeddedOSSupportHostClient();
 };

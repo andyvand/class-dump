@@ -5,6 +5,6 @@
 class AppleBCMWLANSkywalkPacketPool {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANSkywalkPacketPool(OSMetaClass const*);
-    newPacket(IOSkywalkPacketDescriptor*, IOSkywalkPacket**);
+    auto newPacket(IOSkywalkPacketDescriptor*, IOSkywalkPacket**);
     ~AppleBCMWLANSkywalkPacketPool();
 };

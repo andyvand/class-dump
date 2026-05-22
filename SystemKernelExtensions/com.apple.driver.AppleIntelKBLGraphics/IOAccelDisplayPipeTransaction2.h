@@ -4,14 +4,14 @@
 
 class IOAccelDisplayPipeTransaction2 {
 public: // (access info unavailable from symbols alone)
-    getPipeColorMatrix() const;
-    getPipePostGammaTable() const;
-    getPipePreGammaTable() const;
-    getPlaneDstRect(unsigned int) const;
-    getPlaneIOSurface(unsigned int, unsigned int) const;
-    getPlaneResource(unsigned int, unsigned int) const;
-    getPlaneSrcRect(unsigned int) const;
-    getPlaneTransactionOptions(unsigned int) const;
-    getTransactionDirtyBits() const;
-    getTransactionOptions() const;
+    auto getPipeColorMatrix() const;
+    auto getPipePostGammaTable() const;
+    auto getPipePreGammaTable() const;
+    auto getPlaneDstRect(unsigned int) const;
+    auto getPlaneIOSurface(unsigned int, unsigned int) const;
+    auto getPlaneResource(unsigned int, unsigned int) const;
+    auto getPlaneSrcRect(unsigned int) const;
+    auto getPlaneTransactionOptions(unsigned int) const;
+    auto getTransactionDirtyBits() const;
+    auto getTransactionOptions() const;
 };

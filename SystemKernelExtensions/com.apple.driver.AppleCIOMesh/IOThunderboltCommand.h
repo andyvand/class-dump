@@ -4,21 +4,21 @@
 
 class IOThunderboltCommand {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOThunderboltCommand0();
-    _RESERVEDIOThunderboltCommand1();
-    _RESERVEDIOThunderboltCommand10();
-    _RESERVEDIOThunderboltCommand11();
-    _RESERVEDIOThunderboltCommand12();
-    _RESERVEDIOThunderboltCommand13();
-    _RESERVEDIOThunderboltCommand14();
-    _RESERVEDIOThunderboltCommand15();
-    _RESERVEDIOThunderboltCommand2();
-    _RESERVEDIOThunderboltCommand3();
-    _RESERVEDIOThunderboltCommand4();
-    _RESERVEDIOThunderboltCommand5();
-    _RESERVEDIOThunderboltCommand6();
-    _RESERVEDIOThunderboltCommand7();
-    _RESERVEDIOThunderboltCommand8();
-    _RESERVEDIOThunderboltCommand9();
-    release() const;
+    auto _RESERVEDIOThunderboltCommand0();
+    auto _RESERVEDIOThunderboltCommand1();
+    auto _RESERVEDIOThunderboltCommand10();
+    auto _RESERVEDIOThunderboltCommand11();
+    auto _RESERVEDIOThunderboltCommand12();
+    auto _RESERVEDIOThunderboltCommand13();
+    auto _RESERVEDIOThunderboltCommand14();
+    auto _RESERVEDIOThunderboltCommand15();
+    auto _RESERVEDIOThunderboltCommand2();
+    auto _RESERVEDIOThunderboltCommand3();
+    auto _RESERVEDIOThunderboltCommand4();
+    auto _RESERVEDIOThunderboltCommand5();
+    auto _RESERVEDIOThunderboltCommand6();
+    auto _RESERVEDIOThunderboltCommand7();
+    auto _RESERVEDIOThunderboltCommand8();
+    auto _RESERVEDIOThunderboltCommand9();
+    auto release() const;
 };

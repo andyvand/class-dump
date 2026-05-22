@@ -4,18 +4,18 @@
 
 class UDFStreamDirNode {
 public: // (access info unavailable from symbols alone)
-    AreSameNames(unsigned char const*, unsigned long, UDFStringBuf*, unsigned long, unsigned char const*, unsigned long);
-    CountTotalStreamBlks(unsigned long long*);
-    CreateVnodeFromDirEntry(UDFDirIterator&, UDFNode**);
-    RemoveAllStreamsFromNameSpace();
-    ShouldFreeDiskResource();
     UDFStreamDirNode(UDFMount*, UDFLogicalAddr const&, unsigned int, UDFFileNode*, char const*, unsigned short, unsigned char*, bool);
-    UpdateAccessTime();
-    UpdateChangeTime();
-    UpdateModifyTime();
-    UpdateObjectSize(long long);
-    UpdateTotalBlksAlloc(long long);
-    VnopReadDir(uio*, int*, int*);
-    VnopReclaim();
+    auto AreSameNames(unsigned char const*, unsigned long, UDFStringBuf*, unsigned long, unsigned char const*, unsigned long);
+    auto CountTotalStreamBlks(unsigned long long*);
+    auto CreateVnodeFromDirEntry(UDFDirIterator&, UDFNode**);
+    auto RemoveAllStreamsFromNameSpace();
+    auto ShouldFreeDiskResource();
+    auto UpdateAccessTime();
+    auto UpdateChangeTime();
+    auto UpdateModifyTime();
+    auto UpdateObjectSize(long long);
+    auto UpdateTotalBlksAlloc(long long);
+    auto VnopReadDir(uio*, int*, int*);
+    auto VnopReclaim();
     ~UDFStreamDirNode();
 };

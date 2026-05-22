@@ -4,31 +4,25 @@
 
 // Global C++ functions
 
-AppleSCSISubsystemGlobalsPublishEvent(unsigned char, unsigned long long, char const*);
 IOBlockStorageDevice::gMetaClass;
 IOReducedBlockServices::gMetaClass;
 IOReducedBlockServices::metaClass;
-IOReducedBlockServices::operator delete(void*, unsigned long);
-IOReducedBlockServices::operator new(unsigned long);
 IOReducedBlockServices::superClass;
 IOReducedBlockServices_ktv;
 IOSCSIPeripheralDeviceType0E::gMetaClass;
 IOSCSIPeripheralDeviceType0E::metaClass;
-IOSCSIPeripheralDeviceType0E::operator delete(void*, unsigned long);
-IOSCSIPeripheralDeviceType0E::operator new(unsigned long);
 IOSCSIPeripheralDeviceType0E::superClass;
 IOSCSIPeripheralDeviceType0E_ktv;
 IOSCSIPrimaryCommandsDevice::gMetaClass;
 IOSCSIReducedBlockCommandsDevice::gMetaClass;
 IOSCSIReducedBlockCommandsDevice::metaClass;
-IOSCSIReducedBlockCommandsDevice::operator delete(void*, unsigned long);
-IOSCSIReducedBlockCommandsDevice::operator new(unsigned long);
 IOSCSIReducedBlockCommandsDevice::superClass;
-IOSCSIReducedBlockCommandsDevicePowerDownHandler(void*, void*, unsigned int, IOService*, void*, unsigned long);
 IOSCSIReducedBlockCommandsDevice_ktv;
 OSBoolean::metaClass;
 OSDictionary::metaClass;
 OSString::metaClass;
+auto AppleSCSISubsystemGlobalsPublishEvent(unsigned char, unsigned long long, char const*);
+auto IOSCSIReducedBlockCommandsDevicePowerDownHandler(void*, void*, unsigned int, IOService*, void*, unsigned long);
 sPowerStates;
 vtable for IOBlockStorageDevice;
 vtable for IOReducedBlockServices;

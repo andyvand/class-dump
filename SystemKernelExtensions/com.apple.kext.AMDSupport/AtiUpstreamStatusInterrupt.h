@@ -6,8 +6,10 @@ class AtiUpstreamStatusInterrupt {
 public: // (access info unavailable from symbols alone)
     AtiUpstreamStatusInterrupt();
     AtiUpstreamStatusInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    initR6xx(unsigned char, bool, ATIController*);
-    shouldMutexCallbacks();
+    auto getMetaClass() const;
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto shouldMutexCallbacks();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiUpstreamStatusInterrupt();
 };

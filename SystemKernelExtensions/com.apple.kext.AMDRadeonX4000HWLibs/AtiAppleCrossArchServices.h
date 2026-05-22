@@ -4,5 +4,5 @@
 
 class AtiAppleCrossArchServices {
 public: // (access info unavailable from symbols alone)
-    CrossArchIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*);
+    auto CrossArchIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*);
 };

@@ -5,4 +5,5 @@
 class ATINoConnection {
 public: // (access info unavailable from symbols alone)
     ATINoConnection();
+    void * operator new(unsigned long);
 };

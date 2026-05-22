@@ -4,5 +4,5 @@
 
 class IOGatedOutputQueue {
 public: // (access info unavailable from symbols alone)
-    withTarget(IONetworkController*, IOWorkLoop*, unsigned int);
+    auto withTarget(IONetworkController*, IOWorkLoop*, unsigned int);
 };

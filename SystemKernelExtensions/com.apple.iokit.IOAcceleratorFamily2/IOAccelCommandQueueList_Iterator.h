@@ -5,5 +5,5 @@
 class IOAccelCommandQueueList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelCommandQueueList&);
-    getNextCommandQueue();
+    auto getNextCommandQueue();
 };

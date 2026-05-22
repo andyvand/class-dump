@@ -6,13 +6,9 @@
 
 AppleEmbeddedOSSupportHost::gMetaClass;
 AppleEmbeddedOSSupportHost::metaClass;
-AppleEmbeddedOSSupportHost::operator delete(void*, unsigned long);
-AppleEmbeddedOSSupportHost::operator new(unsigned long);
 AppleEmbeddedOSSupportHost::superClass;
 AppleEmbeddedOSSupportHostClient::gMetaClass;
 AppleEmbeddedOSSupportHostClient::metaClass;
-AppleEmbeddedOSSupportHostClient::operator delete(void*, unsigned long);
-AppleEmbeddedOSSupportHostClient::operator new(unsigned long);
 AppleEmbeddedOSSupportHostClient::superClass;
 AppleEmbeddedOSSupportHostClient_ktv;
 AppleEmbeddedOSSupportHost_ktv;

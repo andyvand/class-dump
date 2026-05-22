@@ -5,6 +5,6 @@
 class IOGPUResidentMemorySet::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOGPUResidentMemorySet&);
-    getNextMemory();
+    auto getNextMemory();
     ~Iterator();
 };

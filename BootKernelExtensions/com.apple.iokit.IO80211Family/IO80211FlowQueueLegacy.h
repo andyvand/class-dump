@@ -6,11 +6,13 @@ class IO80211FlowQueueLegacy {
 public: // (access info unavailable from symbols alone)
     IO80211FlowQueueLegacy();
     IO80211FlowQueueLegacy(OSMetaClass const*);
-    getMetaClass() const;
-    initWithParamaters(ether_addr const&, unsigned char, unsigned char);
-    isPaused();
-    queueSize();
-    queueSpace();
-    withParamaters(ether_addr const&, unsigned char, unsigned char);
+    auto getMetaClass() const;
+    auto initWithParamaters(ether_addr const&, unsigned char, unsigned char);
+    auto isPaused();
+    auto queueSize();
+    auto queueSpace();
+    auto withParamaters(ether_addr const&, unsigned char, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211FlowQueueLegacy();
 };

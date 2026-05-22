@@ -5,7 +5,9 @@
 class AtiDceInfoInterface_V2 {
 public: // (access info unavailable from symbols alone)
     AtiDceInfoInterface_V2(OSMetaClass const*);
-    createDceInfo(AtiVBiosHelper*, unsigned int);
-    getMetaClass() const;
+    auto createDceInfo(AtiVBiosHelper*, unsigned int);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDceInfoInterface_V2();
 };

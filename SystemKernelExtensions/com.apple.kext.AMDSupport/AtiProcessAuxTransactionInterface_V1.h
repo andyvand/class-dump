@@ -5,8 +5,10 @@
 class AtiProcessAuxTransactionInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiProcessAuxTransactionInterface_V1(OSMetaClass const*);
-    createProcessAuxChannelTransaction(AtiVBiosHelper*);
-    getAuxTransactionBufferOffset();
-    getMetaClass() const;
+    auto createProcessAuxChannelTransaction(AtiVBiosHelper*);
+    auto getAuxTransactionBufferOffset();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiProcessAuxTransactionInterface_V1();
 };

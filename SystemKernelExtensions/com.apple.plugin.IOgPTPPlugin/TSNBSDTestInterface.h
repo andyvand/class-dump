@@ -4,8 +4,8 @@
 
 class TSNBSDTestInterface {
 public: // (access info unavailable from symbols alone)
-    dockReplayTimestamps(TSReplayTimestamps*);
-    getNextReplaySync(IOTimeSyncgPTPSyncPayload*);
-    startReplayTimestamps();
-    stopReplayTimestamps();
+    auto dockReplayTimestamps(TSReplayTimestamps*);
+    auto getNextReplaySync(IOTimeSyncgPTPSyncPayload*);
+    auto startReplayTimestamps();
+    auto stopReplayTimestamps();
 };

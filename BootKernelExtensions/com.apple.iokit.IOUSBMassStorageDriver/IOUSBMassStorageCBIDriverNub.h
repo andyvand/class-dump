@@ -4,22 +4,24 @@
 
 class IOUSBMassStorageCBIDriverNub {
 public: // (access info unavailable from symbols alone)
-    FindUSBPipes();
-    GetBulkInPipe();
-    GetBulkOutPipe();
-    GetControlPipe();
-    GetInterruptPipe();
     IOUSBMassStorageCBIDriverNub();
     IOUSBMassStorageCBIDriverNub(OSMetaClass const*);
-    ReleasePipes();
-    _RESERVEDIOUSBMassStorageCBIDriverNub1();
-    _RESERVEDIOUSBMassStorageCBIDriverNub2();
-    _RESERVEDIOUSBMassStorageCBIDriverNub3();
-    _RESERVEDIOUSBMassStorageCBIDriverNub4();
-    _RESERVEDIOUSBMassStorageCBIDriverNub5();
-    _RESERVEDIOUSBMassStorageCBIDriverNub6();
-    _RESERVEDIOUSBMassStorageCBIDriverNub7();
-    _RESERVEDIOUSBMassStorageCBIDriverNub8();
-    getMetaClass() const;
+    auto FindUSBPipes();
+    auto GetBulkInPipe();
+    auto GetBulkOutPipe();
+    auto GetControlPipe();
+    auto GetInterruptPipe();
+    auto ReleasePipes();
+    auto _RESERVEDIOUSBMassStorageCBIDriverNub1();
+    auto _RESERVEDIOUSBMassStorageCBIDriverNub2();
+    auto _RESERVEDIOUSBMassStorageCBIDriverNub3();
+    auto _RESERVEDIOUSBMassStorageCBIDriverNub4();
+    auto _RESERVEDIOUSBMassStorageCBIDriverNub5();
+    auto _RESERVEDIOUSBMassStorageCBIDriverNub6();
+    auto _RESERVEDIOUSBMassStorageCBIDriverNub7();
+    auto _RESERVEDIOUSBMassStorageCBIDriverNub8();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUSBMassStorageCBIDriverNub();
 };

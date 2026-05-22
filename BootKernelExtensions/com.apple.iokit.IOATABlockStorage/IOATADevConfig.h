@@ -4,10 +4,10 @@
 
 class IOATADevConfig {
 public: // (access info unavailable from symbols alone)
-    atadevconfig();
-    getDMAMode();
-    getPIOMode();
-    getUltraMode();
-    initWithBestSelection(unsigned short const*, IOATABusInfo*);
-    sDriveExtendedLBASize(unsigned int*, unsigned int*, unsigned short const*);
+    auto atadevconfig();
+    auto getDMAMode();
+    auto getPIOMode();
+    auto getUltraMode();
+    auto initWithBestSelection(unsigned short const*, IOATABusInfo*);
+    auto sDriveExtendedLBASize(unsigned int*, unsigned int*, unsigned short const*);
 };

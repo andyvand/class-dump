@@ -6,13 +6,15 @@ class AppleEmbeddedBluetoothRadio {
 public: // (access info unavailable from symbols alone)
     AppleEmbeddedBluetoothRadio();
     AppleEmbeddedBluetoothRadio(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    handleInterruptReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int);
-    init(OSDictionary*);
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    stop(IOService*);
-    stop(IOService*)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto handleInterruptReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int);
+    auto init(OSDictionary*);
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto stop(IOService*);
+    auto stop(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEmbeddedBluetoothRadio();
 };

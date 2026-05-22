@@ -4,5 +4,5 @@
 
 class StandardUSB20 {
 public: // (access info unavailable from symbols alone)
-    convertBESLIndexToNs(unsigned int, unsigned int&);
+    auto convertBESLIndexToNs(unsigned int, unsigned int&);
 };

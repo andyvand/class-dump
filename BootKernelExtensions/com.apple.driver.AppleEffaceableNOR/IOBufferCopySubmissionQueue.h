@@ -4,5 +4,5 @@
 
 class IOBufferCopySubmissionQueue {
 public: // (access info unavailable from symbols alone)
-    withCompletion(void (*)(OSObject*, IOBufferCopySubmissionQueue*), OSSymbol const*, unsigned int, unsigned short);
+    auto withCompletion(void (*)(OSObject*, IOBufferCopySubmissionQueue*), OSSymbol const*, unsigned int, unsigned short);
 };

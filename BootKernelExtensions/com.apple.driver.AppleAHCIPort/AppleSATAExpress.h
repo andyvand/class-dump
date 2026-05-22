@@ -4,11 +4,13 @@
 
 class AppleSATAExpress {
 public: // (access info unavailable from symbols alone)
-    AllocNewPort();
     AppleSATAExpress();
     AppleSATAExpress(OSMetaClass const*);
-    getMetaClass() const;
-    start(IOService*);
-    start(IOService*) (.cold.1);
+    auto AllocNewPort();
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto start(IOService*) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSATAExpress();
 };

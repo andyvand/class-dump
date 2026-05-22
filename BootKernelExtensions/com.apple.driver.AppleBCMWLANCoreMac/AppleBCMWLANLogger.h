@@ -4,11 +4,11 @@
 
 class AppleBCMWLANLogger {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_1371;
-    getMetaClass() const;
-    initWithDriverAndOptions(AppleBCMWLANBusInterface*, AppleBCMWLANLoggerOptions*);
-    initWithDriverAndOptions(AppleBCMWLANBusInterface*, AppleBCMWLANLoggerOptions*)::kalloc_type_view_1115;
-    withDriverAndOptions(AppleBCMWLANBusInterface*, AppleBCMWLANLoggerOptions*);
+    auto free();
+    auto free()::kalloc_type_view_1371;
+    auto getMetaClass() const;
+    auto initWithDriverAndOptions(AppleBCMWLANBusInterface*, AppleBCMWLANLoggerOptions*);
+    auto initWithDriverAndOptions(AppleBCMWLANBusInterface*, AppleBCMWLANLoggerOptions*)::kalloc_type_view_1115;
+    auto withDriverAndOptions(AppleBCMWLANBusInterface*, AppleBCMWLANLoggerOptions*);
     ~AppleBCMWLANLogger();
 };

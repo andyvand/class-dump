@@ -6,11 +6,13 @@ class AppleUSBUserHCIIsochronousTransferQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBUserHCIIsochronousTransferQueue();
     AppleUSBUserHCIIsochronousTransferQueue(OSMetaClass const*);
-    enqueueRequest(AppleUSBUserHCIRequest*);
-    enqueueRequest(AppleUSBUserHCIRequest*)::_os_log_fmt;
-    getMetaClass() const;
-    timeout(IOTimerEventSource*);
-    timeout(IOTimerEventSource*)::_os_log_fmt;
-    withParameters(unsigned short, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBUserHCI*, AppleUSBUserHCICommandQueue*);
+    auto enqueueRequest(AppleUSBUserHCIRequest*);
+    auto enqueueRequest(AppleUSBUserHCIRequest*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto timeout(IOTimerEventSource*);
+    auto timeout(IOTimerEventSource*)::_os_log_fmt;
+    auto withParameters(unsigned short, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBUserHCI*, AppleUSBUserHCICommandQueue*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBUserHCIIsochronousTransferQueue();
 };

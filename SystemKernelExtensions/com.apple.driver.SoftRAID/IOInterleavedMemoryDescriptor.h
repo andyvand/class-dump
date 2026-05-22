@@ -5,7 +5,7 @@
 class IOInterleavedMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     IOInterleavedMemoryDescriptor(OSMetaClass const*);
-    clearMemoryDescriptors(unsigned int);
-    setMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned long long);
+    auto clearMemoryDescriptors(unsigned int);
+    auto setMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned long long);
     ~IOInterleavedMemoryDescriptor();
 };

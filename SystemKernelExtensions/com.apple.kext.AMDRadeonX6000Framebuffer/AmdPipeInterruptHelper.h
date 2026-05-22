@@ -6,10 +6,12 @@ class AmdPipeInterruptHelper {
 public: // (access info unavailable from symbols alone)
     AmdPipeInterruptHelper();
     AmdPipeInterruptHelper(OSMetaClass const*);
-    createPipeInterruptHelper(AmdPipeInterruptHelper::InitData&);
-    free();
-    getAssociatedHardwareInterrupt(int, AmdPipeInterruptType);
-    getMetaClass() const;
-    initWithController(AmdPipeInterruptHelper::InitData&);
+    auto createPipeInterruptHelper(AmdPipeInterruptHelper::InitData&);
+    auto free();
+    auto getAssociatedHardwareInterrupt(int, AmdPipeInterruptType);
+    auto getMetaClass() const;
+    auto initWithController(AmdPipeInterruptHelper::InitData&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AmdPipeInterruptHelper();
 };

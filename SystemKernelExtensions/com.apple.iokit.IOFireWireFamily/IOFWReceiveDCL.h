@@ -5,10 +5,12 @@
 class IOFWReceiveDCL {
 public: // (access info unavailable from symbols alone)
     IOFWReceiveDCL(OSMetaClass const*);
-    debug();
-    getMetaClass() const;
-    importUserDCL(unsigned char*, unsigned long long&, IOMemoryMap*, OSArray const*);
-    initWithParams(OSSet*, unsigned char, unsigned int, IOVirtualRange*);
-    setWaitControl(bool);
+    auto debug();
+    auto getMetaClass() const;
+    auto importUserDCL(unsigned char*, unsigned long long&, IOMemoryMap*, OSArray const*);
+    auto initWithParams(OSSet*, unsigned char, unsigned int, IOVirtualRange*);
+    auto setWaitControl(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWReceiveDCL();
 };

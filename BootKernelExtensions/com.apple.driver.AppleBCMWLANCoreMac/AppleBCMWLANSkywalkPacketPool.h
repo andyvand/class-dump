@@ -5,9 +5,11 @@
 class AppleBCMWLANSkywalkPacketPool {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANSkywalkPacketPool(OSMetaClass const*);
-    getMetaClass() const;
-    initWithName(char const*, OSObject*, AppleBCMWLANSkywalkPoolOptions const*, CCLogStream*, CCFaultReporter*);
-    newPacket(IOSkywalkPacketDescriptor*, IOSkywalkPacket**);
-    newPacketWithDescriptor(IOSkywalkPacketDescriptor*);
+    auto getMetaClass() const;
+    auto initWithName(char const*, OSObject*, AppleBCMWLANSkywalkPoolOptions const*, CCLogStream*, CCFaultReporter*);
+    auto newPacket(IOSkywalkPacketDescriptor*, IOSkywalkPacket**);
+    auto newPacketWithDescriptor(IOSkywalkPacketDescriptor*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleBCMWLANSkywalkPacketPool();
 };

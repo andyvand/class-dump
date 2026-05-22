@@ -4,22 +4,24 @@
 
 class hv_vioapic_t {
 public: // (access info unavailable from symbols alone)
-    create(hv_vmx_vma_t*);
-    free();
-    getMetaClass() const;
+    auto create(hv_vmx_vma_t*);
+    auto free();
+    auto getMetaClass() const;
+    auto init_with_options(hv_vmx_vma_t*);
+    auto vioapic_get_state(hv_ioapic_state_ext_t*);
+    auto vioapic_mmio_rw(unsigned long long, unsigned int*, bool);
+    auto vioapic_process_eoi(int);
+    auto vioapic_process_eoi_locked(int);
+    auto vioapic_put_state(hv_ioapic_state_ext_t const*);
+    auto vioapic_read(unsigned int);
+    auto vioapic_send_intr(int);
+    auto vioapic_send_intr(unsigned long long);
+    auto vioapic_set_irqstate(int, hv_vioapic_t::irqstate);
+    auto vioapic_set_pinstate(int, bool);
+    auto vioapic_write(unsigned int, unsigned int);
     hv_vioapic_t();
     hv_vioapic_t(OSMetaClass const*);
-    init_with_options(hv_vmx_vma_t*);
-    vioapic_get_state(hv_ioapic_state_ext_t*);
-    vioapic_mmio_rw(unsigned long long, unsigned int*, bool);
-    vioapic_process_eoi(int);
-    vioapic_process_eoi_locked(int);
-    vioapic_put_state(hv_ioapic_state_ext_t const*);
-    vioapic_read(unsigned int);
-    vioapic_send_intr(int);
-    vioapic_send_intr(unsigned long long);
-    vioapic_set_irqstate(int, hv_vioapic_t::irqstate);
-    vioapic_set_pinstate(int, bool);
-    vioapic_write(unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~hv_vioapic_t();
 };

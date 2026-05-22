@@ -6,10 +6,12 @@ class IOGuardPageMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     IOGuardPageMemoryDescriptor();
     IOGuardPageMemoryDescriptor(OSMetaClass const*);
-    doMap(_vm_map*, unsigned long long*, unsigned int, unsigned long long, unsigned long long);
-    free();
-    getMetaClass() const;
-    initWithSize(unsigned long);
-    withSize(unsigned long);
+    auto doMap(_vm_map*, unsigned long long*, unsigned int, unsigned long long, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithSize(unsigned long);
+    auto withSize(unsigned long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGuardPageMemoryDescriptor();
 };

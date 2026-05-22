@@ -4,6 +4,6 @@
 
 class AppleUSBNetworkingCommand {
 public: // (access info unavailable from symbols alone)
-    getDataPointer();
-    setBufferLength(unsigned long);
+    auto getDataPointer();
+    auto setBufferLength(unsigned long);
 };

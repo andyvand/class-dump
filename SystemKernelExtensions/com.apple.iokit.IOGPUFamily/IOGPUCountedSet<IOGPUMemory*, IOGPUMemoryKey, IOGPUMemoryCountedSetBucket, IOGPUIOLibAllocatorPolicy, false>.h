@@ -4,9 +4,11 @@
 
 class IOGPUCountedSet<IOGPUMemory*, IOGPUMemoryKey, IOGPUMemoryCountedSetBucket, IOGPUIOLibAllocatorPolicy, false> {
 public: // (access info unavailable from symbols alone)
-    init(unsigned int, unsigned int, bool);
-    rehash(unsigned int);
-    releaseAllKeys();
-    releaseAllKeys() (.cold.1);
+    auto init(unsigned int, unsigned int, bool);
+    auto rehash(unsigned int);
+    auto releaseAllKeys();
+    auto releaseAllKeys() (.cold.1);
+    void * operator new(unsigned long)::kalloc_type_view_42;
+    void operator delete(void*, unsigned long)::kalloc_type_view_42;
     ~IOGPUCountedSet();
 };

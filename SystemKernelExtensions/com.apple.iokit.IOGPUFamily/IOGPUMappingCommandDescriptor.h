@@ -6,13 +6,15 @@ class IOGPUMappingCommandDescriptor {
 public: // (access info unavailable from symbols alone)
     IOGPUMappingCommandDescriptor();
     IOGPUMappingCommandDescriptor(OSMetaClass const*);
-    addMappingCommand(unsigned int, OSSharedPtr<IOGPUResource>, OSSharedPtr<IOGPUResource>, unsigned int, IOGPUMappingOp*);
-    free();
-    getMetaClass() const;
-    init(IOGPU*, IOGPUCommandQueue*, IOGPUTask*, IOGPUDevice*);
-    performMappings();
-    performMappings()::_os_log_fmt;
-    setPostMappingEvent(IOSurfaceSharedEvent*, unsigned long long);
-    withAccelerator(IOGPU*, IOGPUCommandQueue*, IOGPUTask*, IOGPUDevice*);
+    auto addMappingCommand(unsigned int, OSSharedPtr<IOGPUResource>, OSSharedPtr<IOGPUResource>, unsigned int, IOGPUMappingOp*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOGPU*, IOGPUCommandQueue*, IOGPUTask*, IOGPUDevice*);
+    auto performMappings();
+    auto performMappings()::_os_log_fmt;
+    auto setPostMappingEvent(IOSurfaceSharedEvent*, unsigned long long);
+    auto withAccelerator(IOGPU*, IOGPUCommandQueue*, IOGPUTask*, IOGPUDevice*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUMappingCommandDescriptor();
 };

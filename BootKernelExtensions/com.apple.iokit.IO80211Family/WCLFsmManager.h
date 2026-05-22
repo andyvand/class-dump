@@ -5,20 +5,22 @@
 class WCLFsmManager {
 public: // (access info unavailable from symbols alone)
     WCLFsmManager(OSMetaClass const*);
-    bulletinBoardCallback(OSObject*, WCLBulletinBoardManagerId, bulletinBoardMessage&, void*);
-    callMsgCallBack(bulletinBoardMessage&);
-    cmdIouc(unsigned int, bool, void*, unsigned long, void*, unsigned long);
-    free();
-    free()::kalloc_type_view_58;
-    getIouc(unsigned int, void*, unsigned long);
-    getLogger() const;
-    getMetaClass() const;
-    initWithOptions(WCLFsmManagerOptions&);
-    initWithOptions(WCLFsmManagerOptions&)::kalloc_type_view_71;
-    internalCmd(unsigned int, void*, unsigned long, void*, unsigned long);
-    logTransition(char const*, char const*, char const*, char const*, unsigned int, unsigned int);
-    sendEvent(unsigned int, void*, unsigned long);
-    sendMessage(bulletinBoardMessage&);
-    setIouc(unsigned int, void*, unsigned long);
+    auto bulletinBoardCallback(OSObject*, WCLBulletinBoardManagerId, bulletinBoardMessage&, void*);
+    auto callMsgCallBack(bulletinBoardMessage&);
+    auto cmdIouc(unsigned int, bool, void*, unsigned long, void*, unsigned long);
+    auto free();
+    auto free()::kalloc_type_view_58;
+    auto getIouc(unsigned int, void*, unsigned long);
+    auto getLogger() const;
+    auto getMetaClass() const;
+    auto initWithOptions(WCLFsmManagerOptions&);
+    auto initWithOptions(WCLFsmManagerOptions&)::kalloc_type_view_71;
+    auto internalCmd(unsigned int, void*, unsigned long, void*, unsigned long);
+    auto logTransition(char const*, char const*, char const*, char const*, unsigned int, unsigned int);
+    auto sendEvent(unsigned int, void*, unsigned long);
+    auto sendMessage(bulletinBoardMessage&);
+    auto setIouc(unsigned int, void*, unsigned long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~WCLFsmManager();
 };

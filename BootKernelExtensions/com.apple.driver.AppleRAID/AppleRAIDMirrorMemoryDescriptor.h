@@ -6,10 +6,12 @@ class AppleRAIDMirrorMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     AppleRAIDMirrorMemoryDescriptor();
     AppleRAIDMirrorMemoryDescriptor(OSMetaClass const*);
-    configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned int);
-    getMetaClass() const;
-    getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
-    initWithStorageRequest(AppleRAIDStorageRequest*, unsigned int);
-    withStorageRequest(AppleRAIDStorageRequest*, unsigned int);
+    auto configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned int);
+    auto getMetaClass() const;
+    auto getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
+    auto initWithStorageRequest(AppleRAIDStorageRequest*, unsigned int);
+    auto withStorageRequest(AppleRAIDStorageRequest*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleRAIDMirrorMemoryDescriptor();
 };

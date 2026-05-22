@@ -6,8 +6,6 @@
 
 AppleHIDMouse::gMetaClass;
 AppleHIDMouse::metaClass;
-AppleHIDMouse::operator delete(void*, unsigned long);
-AppleHIDMouse::operator new(unsigned long);
 AppleHIDMouse::superClass;
 AppleHIDMouse_ktv;
 IOUSBHostHIDDevice::gMetaClass;

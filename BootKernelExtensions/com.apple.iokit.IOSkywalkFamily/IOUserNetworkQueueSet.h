@@ -4,16 +4,18 @@
 
 class IOUserNetworkQueueSet {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     IOUserNetworkQueueSet();
     IOUserNetworkQueueSet(OSMetaClass const*);
-    _Create(IOUserNetworkPacketQueue**, unsigned int, unsigned int, IOUserNetworkQueueSet**);
-    _Create_Impl(IOUserNetworkPacketQueue**, unsigned int, unsigned int, IOUserNetworkQueueSet**);
-    _Create_Invoke(IORPC, int (*)(IOUserNetworkPacketQueue**, unsigned int, unsigned int, IOUserNetworkQueueSet**));
-    _Dispatch(IOUserNetworkQueueSet*, IORPC);
-    _SetEnable(bool, int (*)(OSMetaClassBase*, IORPC));
-    _SetEnable_Impl(bool);
-    _SetEnable_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, bool));
-    getMetaClass() const;
+    auto Dispatch(IORPC);
+    auto _Create(IOUserNetworkPacketQueue**, unsigned int, unsigned int, IOUserNetworkQueueSet**);
+    auto _Create_Impl(IOUserNetworkPacketQueue**, unsigned int, unsigned int, IOUserNetworkQueueSet**);
+    auto _Create_Invoke(IORPC, int (*)(IOUserNetworkPacketQueue**, unsigned int, unsigned int, IOUserNetworkQueueSet**));
+    auto _Dispatch(IOUserNetworkQueueSet*, IORPC);
+    auto _SetEnable(bool, int (*)(OSMetaClassBase*, IORPC));
+    auto _SetEnable_Impl(bool);
+    auto _SetEnable_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, bool));
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserNetworkQueueSet();
 };

@@ -6,13 +6,15 @@ class AMDRadeonX6000_AMDCPEvent {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDCPEvent();
     AMDRadeonX6000_AMDCPEvent(OSMetaClass const*);
-    addInterruptEvent(void (*)(OSObject*, void*), void*);
-    addTimedEvent(void (*)(OSObject*, void*), void*, unsigned int);
-    free();
-    getMetaClass() const;
-    init(IOWorkLoop*, AMDAccelCtl, unsigned int);
-    interruptHandler(OSObject*, IOInterruptEventSource*, int);
-    removeTimedEvent();
-    timerHandler(OSObject*, IOTimerEventSource*);
+    auto addInterruptEvent(void (*)(OSObject*, void*), void*);
+    auto addTimedEvent(void (*)(OSObject*, void*), void*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOWorkLoop*, AMDAccelCtl, unsigned int);
+    auto interruptHandler(OSObject*, IOInterruptEventSource*, int);
+    auto removeTimedEvent();
+    auto timerHandler(OSObject*, IOTimerEventSource*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDCPEvent();
 };

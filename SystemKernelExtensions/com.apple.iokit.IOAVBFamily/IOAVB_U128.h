@@ -4,6 +4,6 @@
 
 class IOAVB_U128 {
 public: // (access info unavailable from symbols alone)
-    operator*(IOAVB_U128 const&) const;
-    operator/(IOAVB_U128 const&) const;
+    auto operator*(IOAVB_U128 const&) const;
+    auto operator/(IOAVB_U128 const&) const;
 };

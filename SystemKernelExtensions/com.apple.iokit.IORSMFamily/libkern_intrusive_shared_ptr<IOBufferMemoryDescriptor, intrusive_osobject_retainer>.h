@@ -4,6 +4,7 @@
 
 class libkern::intrusive_shared_ptr<IOBufferMemoryDescriptor, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
-    operator->() const;
-    reset();
+    auto operator->() const;
+    auto reset();
+    operator bool() const;
 };

@@ -4,20 +4,22 @@
 
 class com_softraid_driver_SoftRAID_WA_CacheBlockPool {
 public: // (access info unavailable from symbols alone)
-    AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int);
-    AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.1);
-    AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.2);
-    AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.3);
-    AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.4);
-    AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.5);
-    AllocCacheBlock(unsigned int);
-    FreeCacheBlock(WA_CacheBlockRec*);
+    auto AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int);
+    auto AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.1);
+    auto AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.2);
+    auto AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.3);
+    auto AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.4);
+    auto AdjustSizeOfCacheBlocks(WA_CacheBlockRec*, unsigned int) (.cold.5);
+    auto AllocCacheBlock(unsigned int);
+    auto FreeCacheBlock(WA_CacheBlockRec*);
+    auto free();
+    auto free()::kalloc_type_view_897;
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_823;
     com_softraid_driver_SoftRAID_WA_CacheBlockPool();
     com_softraid_driver_SoftRAID_WA_CacheBlockPool(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_897;
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_823;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_WA_CacheBlockPool();
 };

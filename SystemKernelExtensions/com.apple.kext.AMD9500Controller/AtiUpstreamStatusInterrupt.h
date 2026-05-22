@@ -5,4 +5,5 @@
 class AtiUpstreamStatusInterrupt {
 public: // (access info unavailable from symbols alone)
     AtiUpstreamStatusInterrupt();
+    void * operator new(unsigned long);
 };

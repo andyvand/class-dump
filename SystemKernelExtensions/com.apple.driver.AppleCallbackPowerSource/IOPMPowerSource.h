@@ -5,12 +5,12 @@
 class IOPMPowerSource {
 public: // (access info unavailable from symbols alone)
     IOPMPowerSource(OSMetaClass const*);
-    currentCapacity();
-    init();
-    maxCapacity();
-    setBatteryInstalled(bool);
-    setMaxCapacity(unsigned int);
-    setPSProperty(OSSymbol const*, OSObject*);
-    updateStatus();
+    auto currentCapacity();
+    auto init();
+    auto maxCapacity();
+    auto setBatteryInstalled(bool);
+    auto setMaxCapacity(unsigned int);
+    auto setPSProperty(OSSymbol const*, OSObject*);
+    auto updateStatus();
     ~IOPMPowerSource();
 };

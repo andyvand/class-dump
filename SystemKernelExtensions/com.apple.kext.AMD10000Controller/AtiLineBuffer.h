@@ -5,14 +5,14 @@
 class AtiLineBuffer {
 public: // (access info unavailable from symbols alone)
     AtiLineBuffer(OSMetaClass const*);
-    ValidateLineBufferForSinglePath(CRTC_PARAMS*, ScalerValidationParameters*);
-    checkLineBuffer(unsigned int, bool, bool);
-    free();
-    getLbSize();
-    getMaxNumberOfSupportedLines(CRTC_PARAMS*, unsigned int*);
-    getPixelDepthString(LBPixelDepth);
-    setDisplayDefaultWatermark(CRTC_PARAMS*);
-    setupLineBuffer(CRTC_PARAMS*);
-    translateDisplayBppToLbDepth(unsigned int, LBPixelDepth*);
+    auto ValidateLineBufferForSinglePath(CRTC_PARAMS*, ScalerValidationParameters*);
+    auto checkLineBuffer(unsigned int, bool, bool);
+    auto free();
+    auto getLbSize();
+    auto getMaxNumberOfSupportedLines(CRTC_PARAMS*, unsigned int*);
+    auto getPixelDepthString(LBPixelDepth);
+    auto setDisplayDefaultWatermark(CRTC_PARAMS*);
+    auto setupLineBuffer(CRTC_PARAMS*);
+    auto translateDisplayBppToLbDepth(unsigned int, LBPixelDepth*);
     ~AtiLineBuffer();
 };

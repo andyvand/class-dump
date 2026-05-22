@@ -4,6 +4,6 @@
 
 class AppleIntelMCE::IMCDIMMECCError {
 public: // (access info unavailable from symbols alone)
-    parseMCAErrorValue(unsigned short, OSString*&, unsigned char&) const;
+    auto parseMCAErrorValue(unsigned short, OSString*&, unsigned char&) const;
     ~IMCDIMMECCError();
 };

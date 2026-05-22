@@ -6,8 +6,6 @@
 
 AppleUSBTopCaseHIDDriver::gMetaClass;
 AppleUSBTopCaseHIDDriver::metaClass;
-AppleUSBTopCaseHIDDriver::operator delete(void*, unsigned long);
-AppleUSBTopCaseHIDDriver::operator new(unsigned long);
 AppleUSBTopCaseHIDDriver::superClass;
 AppleUSBTopCaseHIDDriver_ktv;
 IOUSBHostHIDDevice::gMetaClass;

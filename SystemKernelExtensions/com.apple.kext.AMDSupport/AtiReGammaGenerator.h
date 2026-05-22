@@ -5,12 +5,14 @@
 class AtiReGammaGenerator {
 public: // (access info unavailable from symbols alone)
     AtiReGammaGenerator(OSMetaClass const*);
-    convertGammaToPWL(GammaTable*);
-    convertSingleColorToPWL(IOColorEntry, int);
-    convertToCustomFloat(float, FloatingPointFormat const*);
-    getMetaClass() const;
-    getNormalizedColorEntry(GammaTable*, int, PWLFloatData*);
-    initWithController(unsigned char, ATIController*);
-    power(float, int);
+    auto convertGammaToPWL(GammaTable*);
+    auto convertSingleColorToPWL(IOColorEntry, int);
+    auto convertToCustomFloat(float, FloatingPointFormat const*);
+    auto getMetaClass() const;
+    auto getNormalizedColorEntry(GammaTable*, int, PWLFloatData*);
+    auto initWithController(unsigned char, ATIController*);
+    auto power(float, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiReGammaGenerator();
 };

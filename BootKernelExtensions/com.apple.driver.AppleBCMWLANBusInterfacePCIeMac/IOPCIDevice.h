@@ -4,13 +4,13 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    copyAERErrorDescriptionForBit(bool, unsigned int, char*, unsigned long);
-    createEventSource(OSObject*, void (*)(OSObject*, IOPCIEventSource*, IOPCIEvent const*), unsigned int);
-    extendedConfigRead16(unsigned long long);
-    extendedConfigRead32(unsigned long long);
-    extendedConfigRead8(unsigned long long);
-    extendedConfigWrite16(unsigned long long, unsigned short);
-    extendedConfigWrite32(unsigned long long, unsigned int);
-    setASPMState(IOService*, unsigned int);
-    setBusLeadEnable(bool);
+    auto copyAERErrorDescriptionForBit(bool, unsigned int, char*, unsigned long);
+    auto createEventSource(OSObject*, void (*)(OSObject*, IOPCIEventSource*, IOPCIEvent const*), unsigned int);
+    auto extendedConfigRead16(unsigned long long);
+    auto extendedConfigRead32(unsigned long long);
+    auto extendedConfigRead8(unsigned long long);
+    auto extendedConfigWrite16(unsigned long long, unsigned short);
+    auto extendedConfigWrite32(unsigned long long, unsigned int);
+    auto setASPMState(IOService*, unsigned int);
+    auto setBusLeadEnable(bool);
 };

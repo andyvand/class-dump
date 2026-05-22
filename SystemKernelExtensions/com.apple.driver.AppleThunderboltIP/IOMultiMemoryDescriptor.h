@@ -4,5 +4,5 @@
 
 class IOMultiMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    withDescriptors(IOMemoryDescriptor**, unsigned int, unsigned int, bool);
+    auto withDescriptors(IOMemoryDescriptor**, unsigned int, unsigned int, bool);
 };

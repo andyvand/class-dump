@@ -6,7 +6,7 @@ class LockExclusive {
 public: // (access info unavailable from symbols alone)
     LockExclusive();
     LockExclusive(lck_rw_t*);
-    Set(lck_rw_t*);
-    Unlock();
+    auto Set(lck_rw_t*);
+    auto Unlock();
     ~LockExclusive();
 };

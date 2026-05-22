@@ -4,10 +4,10 @@
 
 class AppleMobileFileIntegrity {
 public: // (access info unavailable from symbols alone)
-    AMFIEntitlementGetBool(proc*, char const*, bool*);
-    AMFIEntitlementGetBool(ucred*, char const*, bool*);
-    AMFIEntitlementPresent(ucred*, char const*, bool*);
-    copyEntitlement(proc*, char const*);
-    copyEntitlement(ucred*, char const*);
-    copySigningIdentifier(ucred*);
+    auto AMFIEntitlementGetBool(proc*, char const*, bool*);
+    auto AMFIEntitlementGetBool(ucred*, char const*, bool*);
+    auto AMFIEntitlementPresent(ucred*, char const*, bool*);
+    auto copyEntitlement(proc*, char const*);
+    auto copyEntitlement(ucred*, char const*);
+    auto copySigningIdentifier(ucred*);
 };

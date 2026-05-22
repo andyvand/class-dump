@@ -6,15 +6,17 @@ class IOUSBMassStorageResourceUserClient {
 public: // (access info unavailable from symbols alone)
     IOUSBMassStorageResourceUserClient();
     IOUSBMassStorageResourceUserClient(OSMetaClass const*);
-    attach(IOService*);
-    clientClose();
-    clientDied();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    free();
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    start(IOService*);
-    stop(IOService*);
-    terminate(unsigned int);
+    auto attach(IOService*);
+    auto clientClose();
+    auto clientDied();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto terminate(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUSBMassStorageResourceUserClient();
 };

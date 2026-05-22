@@ -6,12 +6,14 @@ class IOResources {
 public: // (access info unavailable from symbols alone)
     IOResources();
     IOResources(OSMetaClass const*);
-    getMetaClass() const;
-    getWorkLoop() const;
-    init(OSDictionary*);
-    matchPropertyTable(OSDictionary*);
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    resources();
-    setProperties(OSObject*);
+    auto getMetaClass() const;
+    auto getWorkLoop() const;
+    auto init(OSDictionary*);
+    auto matchPropertyTable(OSDictionary*);
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto resources();
+    auto setProperties(OSObject*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOResources();
 };

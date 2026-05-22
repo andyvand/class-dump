@@ -4,14 +4,14 @@
 
 class IOCommandPool {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOCommandPool0();
-    _RESERVEDIOCommandPool1();
-    _RESERVEDIOCommandPool2();
-    _RESERVEDIOCommandPool3();
-    _RESERVEDIOCommandPool4();
-    _RESERVEDIOCommandPool5();
-    _RESERVEDIOCommandPool6();
-    _RESERVEDIOCommandPool7();
-    gatedGetCommand(IOCommand**, bool);
-    init(IOService*, IOWorkLoop*, unsigned int);
+    auto _RESERVEDIOCommandPool0();
+    auto _RESERVEDIOCommandPool1();
+    auto _RESERVEDIOCommandPool2();
+    auto _RESERVEDIOCommandPool3();
+    auto _RESERVEDIOCommandPool4();
+    auto _RESERVEDIOCommandPool5();
+    auto _RESERVEDIOCommandPool6();
+    auto _RESERVEDIOCommandPool7();
+    auto gatedGetCommand(IOCommand**, bool);
+    auto init(IOService*, IOWorkLoop*, unsigned int);
 };

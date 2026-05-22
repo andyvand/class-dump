@@ -4,5 +4,5 @@
 
 class CalibrationChainTupleWithXBand {
 public: // (access info unavailable from symbols alone)
-    read(unsigned char const*);
+    auto read(unsigned char const*);
 };

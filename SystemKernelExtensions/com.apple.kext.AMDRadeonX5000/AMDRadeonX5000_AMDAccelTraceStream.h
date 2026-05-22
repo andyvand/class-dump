@@ -6,11 +6,13 @@ class AMDRadeonX5000_AMDAccelTraceStream {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDAccelTraceStream();
     AMDRadeonX5000_AMDAccelTraceStream(OSMetaClass const*);
-    createAccelTraceStream(AMDAccelCtl, AMDRadeonX5000_AMDChannelProfiler&, unsigned long long, char const*);
-    flush();
-    free();
-    getMetaClass() const;
-    init(AMDAccelCtl, AMDRadeonX5000_AMDChannelProfiler&, unsigned long long, char const*);
-    reportProfilingEntry(AMDRadeonX5000_AMDChannelProfiler::PE_ENTRY_INFO&);
+    auto createAccelTraceStream(AMDAccelCtl, AMDRadeonX5000_AMDChannelProfiler&, unsigned long long, char const*);
+    auto flush();
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDAccelCtl, AMDRadeonX5000_AMDChannelProfiler&, unsigned long long, char const*);
+    auto reportProfilingEntry(AMDRadeonX5000_AMDChannelProfiler::PE_ENTRY_INFO&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDAccelTraceStream();
 };

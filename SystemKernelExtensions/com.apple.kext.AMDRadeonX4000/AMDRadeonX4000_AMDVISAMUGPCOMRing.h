@@ -6,15 +6,17 @@ class AMDRadeonX4000_AMDVISAMUGPCOMRing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVISAMUGPCOMRing();
     AMDRadeonX4000_AMDVISAMUGPCOMRing(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getReadPointer();
-    getWritePointer();
-    init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
-    programReadAndWritePointers(unsigned int);
-    readIndirectSAMUSABReg(unsigned int);
-    reset();
-    writeIndirectSAMUSABReg(unsigned int, unsigned int);
-    writeTail();
+    auto free();
+    auto getMetaClass() const;
+    auto getReadPointer();
+    auto getWritePointer();
+    auto init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
+    auto programReadAndWritePointers(unsigned int);
+    auto readIndirectSAMUSABReg(unsigned int);
+    auto reset();
+    auto writeIndirectSAMUSABReg(unsigned int, unsigned int);
+    auto writeTail();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVISAMUGPCOMRing();
 };

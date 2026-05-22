@@ -4,19 +4,19 @@
 
 class AppleBCMWLANPCIeSkywalkFlowQueue {
 public: // (access info unavailable from symbols alone)
-    collectQueueStats(skywalkDataPathStats_t*);
-    dequeuePacket();
-    enqueuePacket(AppleBCMWLANPCIeSkywalkPacket*, bool);
-    flushPackets();
-    free();
-    free()::kalloc_type_view_129;
-    fwRingError(AppleBCMWLANByteRing*, int, void*);
-    fwRingFill(AppleBCMWLANByteRing*, void*, unsigned int);
-    fwRingPending(unsigned short);
-    getMetaClass() const;
-    getRingFreeSpace();
-    initWithProviderAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, ether_addr, apple80211_wme_ac, IO80211SkywalkInterface*, CCLogStream*, CCFaultReporter*)::kalloc_type_view_89;
-    setFWRing(AppleBCMWLANPCIeTransmitFlowRing*);
-    withProviderAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, ether_addr, apple80211_wme_ac, IO80211SkywalkInterface*, CCLogStream*, CCFaultReporter*);
+    auto collectQueueStats(skywalkDataPathStats_t*);
+    auto dequeuePacket();
+    auto enqueuePacket(AppleBCMWLANPCIeSkywalkPacket*, bool);
+    auto flushPackets();
+    auto free();
+    auto free()::kalloc_type_view_129;
+    auto fwRingError(AppleBCMWLANByteRing*, int, void*);
+    auto fwRingFill(AppleBCMWLANByteRing*, void*, unsigned int);
+    auto fwRingPending(unsigned short);
+    auto getMetaClass() const;
+    auto getRingFreeSpace();
+    auto initWithProviderAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, ether_addr, apple80211_wme_ac, IO80211SkywalkInterface*, CCLogStream*, CCFaultReporter*)::kalloc_type_view_89;
+    auto setFWRing(AppleBCMWLANPCIeTransmitFlowRing*);
+    auto withProviderAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, ether_addr, apple80211_wme_ac, IO80211SkywalkInterface*, CCLogStream*, CCFaultReporter*);
     ~AppleBCMWLANPCIeSkywalkFlowQueue();
 };

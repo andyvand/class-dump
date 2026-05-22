@@ -6,7 +6,9 @@ class AppleEthernetAquantiaAqtionInterface {
 public: // (access info unavailable from symbols alone)
     AppleEthernetAquantiaAqtionInterface();
     AppleEthernetAquantiaAqtionInterface(OSMetaClass const*);
-    getMetaClass() const;
-    setUnitNumber(unsigned short);
+    auto getMetaClass() const;
+    auto setUnitNumber(unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEthernetAquantiaAqtionInterface();
 };

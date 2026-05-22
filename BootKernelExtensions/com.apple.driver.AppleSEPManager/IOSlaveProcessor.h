@@ -5,10 +5,10 @@
 class IOSlaveProcessor {
 public: // (access info unavailable from symbols alone)
     IOSlaveProcessor(OSMetaClass const*);
-    diagnostic(unsigned int, void*);
-    free();
-    getCommandGate() const;
-    slaveMemoryAlignment();
-    startWithOptions(IOService*, unsigned int);
+    auto diagnostic(unsigned int, void*);
+    auto free();
+    auto getCommandGate() const;
+    auto slaveMemoryAlignment();
+    auto startWithOptions(IOService*, unsigned int);
     ~IOSlaveProcessor();
 };

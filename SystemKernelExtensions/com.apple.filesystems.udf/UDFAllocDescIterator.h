@@ -4,11 +4,11 @@
 
 class UDFAllocDescIterator {
 public: // (access info unavailable from symbols alone)
-    GetADFinishByteOff(unsigned char*, bool);
-    GoToNextEntry(UDFUnifiedAllocDesc*);
-    GoToNextEntryInternal();
-    Init(UDFMount*, UDFNode*, int, unsigned int, UDFLogicalByteAddr const&, UDFIteratorOp, bool, int, bool);
-    ReadCurEntry(UDFUnifiedAllocDesc*, bool*);
     UDFAllocDescIterator();
+    auto GetADFinishByteOff(unsigned char*, bool);
+    auto GoToNextEntry(UDFUnifiedAllocDesc*);
+    auto GoToNextEntryInternal();
+    auto Init(UDFMount*, UDFNode*, int, unsigned int, UDFLogicalByteAddr const&, UDFIteratorOp, bool, int, bool);
+    auto ReadCurEntry(UDFUnifiedAllocDesc*, bool*);
     ~UDFAllocDescIterator();
 };

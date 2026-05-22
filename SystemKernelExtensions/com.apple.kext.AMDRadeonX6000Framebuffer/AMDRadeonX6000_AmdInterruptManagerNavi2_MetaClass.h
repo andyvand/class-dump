@@ -5,5 +5,5 @@
 class AMDRadeonX6000_AmdInterruptManagerNavi2::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

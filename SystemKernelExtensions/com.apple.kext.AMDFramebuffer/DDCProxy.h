@@ -4,10 +4,10 @@
 
 class DDCProxy {
 public: // (access info unavailable from symbols alone)
-    getClock(unsigned short);
-    getData(unsigned short);
-    setClock(unsigned short, unsigned char, unsigned int);
-    setData(unsigned short, unsigned char, unsigned int);
-    transferByDDCci(unsigned short, unsigned char, bool, IOI2CRequest*);
-    transferI2c(unsigned short, unsigned char, bool, IOI2CRequest*);
+    auto getClock(unsigned short);
+    auto getData(unsigned short);
+    auto setClock(unsigned short, unsigned char, unsigned int);
+    auto setData(unsigned short, unsigned char, unsigned int);
+    auto transferByDDCci(unsigned short, unsigned char, bool, IOI2CRequest*);
+    auto transferI2c(unsigned short, unsigned char, bool, IOI2CRequest*);
 };

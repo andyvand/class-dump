@@ -5,5 +5,5 @@
 class IOAccelSharedUserClientList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelSharedUserClientList&);
-    getNextSharedUserClient();
+    auto getNextSharedUserClient();
 };

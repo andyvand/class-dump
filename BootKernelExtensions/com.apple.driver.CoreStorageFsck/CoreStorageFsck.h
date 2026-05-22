@@ -6,14 +6,16 @@ class CoreStorageFsck {
 public: // (access info unavailable from symbols alone)
     CoreStorageFsck();
     CoreStorageFsck(OSMetaClass const*);
-    __OSFinalClass();
-    attach(IOService*);
-    detach(IOService*);
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    probe(IOService*, int*);
-    start(IOService*);
-    stop(IOService*);
+    auto __OSFinalClass();
+    auto attach(IOService*);
+    auto detach(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~CoreStorageFsck();
 };

@@ -4,11 +4,11 @@
 
 class AppleUSBXHCIPort {
 public: // (access info unavailable from symbols alone)
-    getPortSC() const;
-    getPortSCForWriting() const;
-    getPortSpeed();
-    getPortStatusGated(unsigned int&);
-    interruptOccurred(IOInterruptEventSource*, int);
-    setPortSC(unsigned int) const;
-    suspend();
+    auto getPortSC() const;
+    auto getPortSCForWriting() const;
+    auto getPortSpeed();
+    auto getPortStatusGated(unsigned int&);
+    auto interruptOccurred(IOInterruptEventSource*, int);
+    auto setPortSC(unsigned int) const;
+    auto suspend();
 };

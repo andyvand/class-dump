@@ -6,11 +6,13 @@ class IOFWUserPHYCommand {
 public: // (access info unavailable from symbols alone)
     IOFWUserPHYCommand();
     IOFWUserPHYCommand(OSMetaClass const*);
-    asyncPHYCommandCompletion(void*, int, IOFireWireBus*, IOFWAsyncPHYCommand*);
-    free();
-    getAsyncPHYCommand();
-    getMetaClass() const;
-    initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
-    submit(IOFireWireLib::CommandSubmitParams*, IOFireWireLib::CommandSubmitResult*);
+    auto asyncPHYCommandCompletion(void*, int, IOFireWireBus*, IOFWAsyncPHYCommand*);
+    auto free();
+    auto getAsyncPHYCommand();
+    auto getMetaClass() const;
+    auto initWithSubmitParams(IOFireWireLib::CommandSubmitParams const*, IOFireWireUserClient const*);
+    auto submit(IOFireWireLib::CommandSubmitParams*, IOFireWireLib::CommandSubmitResult*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWUserPHYCommand();
 };

@@ -6,12 +6,12 @@ class kernel::IOSerialBSDClientGlobals {
 public: // (access info unavailable from symbols alone)
     IOSerialBSDClientGlobals();
     IOSerialBSDClientGlobals()::kalloc_type_view_462;
-    assign_dev_t();
-    assign_dev_t()::kalloc_type_view_519;
-    assign_dev_t()::kalloc_type_view_525;
-    getUniqueTTYSuffix(OSSymbol const*, OSSymbol const*, int, bool);
-    registerTTY(int, IOSerialBSDClient*);
-    releaseUniqueTTYSuffix(OSSymbol const*, OSSymbol const*);
+    auto assign_dev_t();
+    auto assign_dev_t()::kalloc_type_view_519;
+    auto assign_dev_t()::kalloc_type_view_525;
+    auto getUniqueTTYSuffix(OSSymbol const*, OSSymbol const*, int, bool);
+    auto registerTTY(int, IOSerialBSDClient*);
+    auto releaseUniqueTTYSuffix(OSSymbol const*, OSSymbol const*);
     ~IOSerialBSDClientGlobals();
     ~IOSerialBSDClientGlobals()::kalloc_type_view_492;
 };

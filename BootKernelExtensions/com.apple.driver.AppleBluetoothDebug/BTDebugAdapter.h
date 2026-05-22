@@ -6,13 +6,15 @@ class BTDebugAdapter {
 public: // (access info unavailable from symbols alone)
     BTDebugAdapter();
     BTDebugAdapter(OSMetaClass const*);
-    coreDump(unsigned long long, char const*, BTDebugService::CoreDumpCompletion*);
-    dumpLogs(char const*);
-    free();
-    getLogger();
-    getMetaClass() const;
-    getName() const;
-    init(IOService*);
-    withDebugService(IOService*);
+    auto coreDump(unsigned long long, char const*, BTDebugService::CoreDumpCompletion*);
+    auto dumpLogs(char const*);
+    auto free();
+    auto getLogger();
+    auto getMetaClass() const;
+    auto getName() const;
+    auto init(IOService*);
+    auto withDebugService(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BTDebugAdapter();
 };

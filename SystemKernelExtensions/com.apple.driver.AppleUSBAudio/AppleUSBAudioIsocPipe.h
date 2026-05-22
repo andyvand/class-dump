@@ -4,16 +4,18 @@
 
 class AppleUSBAudioIsocPipe {
 public: // (access info unavailable from symbols alone)
-    Abort();
     AppleUSBAudioIsocPipe();
     AppleUSBAudioIsocPipe(OSMetaClass const*);
-    NewAlternateInterface(unsigned char);
-    Read(IOMemoryDescriptor*, unsigned long long, unsigned int, AppleUSBAudioIsocFrameList*, unsigned int, void*);
-    SetPipePolicy(unsigned short, unsigned char);
-    Write(IOMemoryDescriptor*, unsigned long long, unsigned int, AppleUSBAudioIsocFrameList*, unsigned int, void*);
-    forDeviceOnInterfaceWithProperties(AppleUSBAudioDevice*, IOService*, unsigned char, unsigned short, unsigned char, unsigned char);
-    free();
-    getMetaClass() const;
-    reportTimeout();
+    auto Abort();
+    auto NewAlternateInterface(unsigned char);
+    auto Read(IOMemoryDescriptor*, unsigned long long, unsigned int, AppleUSBAudioIsocFrameList*, unsigned int, void*);
+    auto SetPipePolicy(unsigned short, unsigned char);
+    auto Write(IOMemoryDescriptor*, unsigned long long, unsigned int, AppleUSBAudioIsocFrameList*, unsigned int, void*);
+    auto forDeviceOnInterfaceWithProperties(AppleUSBAudioDevice*, IOService*, unsigned char, unsigned short, unsigned char, unsigned char);
+    auto free();
+    auto getMetaClass() const;
+    auto reportTimeout();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBAudioIsocPipe();
 };

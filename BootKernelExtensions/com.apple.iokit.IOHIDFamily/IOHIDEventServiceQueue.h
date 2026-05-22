@@ -6,15 +6,17 @@ class IOHIDEventServiceQueue {
 public: // (access info unavailable from symbols alone)
     IOHIDEventServiceQueue();
     IOHIDEventServiceQueue(OSMetaClass const*);
-    enqueueEvent(IOHIDEvent*);
-    enqueueEvent(IOHIDEvent*)::_os_log_fmt;
-    free();
-    getMemoryDescriptor();
-    getMetaClass() const;
-    sendDataAvailableNotification();
-    serialize(OSSerialize*) const;
-    setNotificationPort(ipc_port*);
-    withCapacity(OSObject*, unsigned int, unsigned int);
-    withCapacity(unsigned int, unsigned int);
+    auto enqueueEvent(IOHIDEvent*);
+    auto enqueueEvent(IOHIDEvent*)::_os_log_fmt;
+    auto free();
+    auto getMemoryDescriptor();
+    auto getMetaClass() const;
+    auto sendDataAvailableNotification();
+    auto serialize(OSSerialize*) const;
+    auto setNotificationPort(ipc_port*);
+    auto withCapacity(OSObject*, unsigned int, unsigned int);
+    auto withCapacity(unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDEventServiceQueue();
 };

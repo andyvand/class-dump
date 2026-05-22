@@ -4,5 +4,5 @@
 
 class AppleUSBNetworkingHostCommandPool {
 public: // (access info unavailable from symbols alone)
-    withParameters(IOUSBHostInterface*, unsigned int, unsigned int);
+    auto withParameters(IOUSBHostInterface*, unsigned int, unsigned int);
 };

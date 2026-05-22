@@ -4,9 +4,9 @@
 
 class IOTimeSyncgPTPManager {
 public: // (access info unavailable from symbols alone)
-    addControllerAdapterForInterface(OSString*);
-    addInterfaceAdapterForInterface(OSString*);
-    interfaceAdapterForInterface(OSString*);
-    removeControllerAdapterForInterface(OSString*);
-    removeInterfaceAdapterForInterface(OSString*);
+    auto addControllerAdapterForInterface(OSString*);
+    auto addInterfaceAdapterForInterface(OSString*);
+    auto interfaceAdapterForInterface(OSString*);
+    auto removeControllerAdapterForInterface(OSString*);
+    auto removeInterfaceAdapterForInterface(OSString*);
 };

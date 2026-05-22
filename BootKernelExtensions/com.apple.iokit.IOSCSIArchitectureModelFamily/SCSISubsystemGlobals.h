@@ -4,25 +4,25 @@
 
 class SCSISubsystemGlobals {
 public: // (access info unavailable from symbols alone)
-    BootTimeoutOccurred();
-    BroadcastListChange();
-    DictLock();
-    DictUnlock();
-    GetSharedInstance();
-    IOSSGClose(unsigned long long*);
-    IOSSGOpen(unsigned long long*);
-    IOSSGUpdateStat(unsigned long long, char const*, char const*);
-    IOSSGUpdateStat(unsigned long long, char const*, unsigned long long, bool);
-    PublishEvent(unsigned char, unsigned long long, char const*);
     SCSISubsystemGlobals();
-    SetIOKitResource(AppleSCSISubsystemGlobals*);
-    SetNewGlobals(OSObject*);
-    SignalABCClient(char const*, char const*);
-    ThreadEntry(void*, void*);
-    ValidateEntry(OSDictionary*);
-    ValidateList(OSArray*);
-    cleanupDeviceStats();
-    createSSGHandle();
-    statsReported();
+    auto BootTimeoutOccurred();
+    auto BroadcastListChange();
+    auto DictLock();
+    auto DictUnlock();
+    auto GetSharedInstance();
+    auto IOSSGClose(unsigned long long*);
+    auto IOSSGOpen(unsigned long long*);
+    auto IOSSGUpdateStat(unsigned long long, char const*, char const*);
+    auto IOSSGUpdateStat(unsigned long long, char const*, unsigned long long, bool);
+    auto PublishEvent(unsigned char, unsigned long long, char const*);
+    auto SetIOKitResource(AppleSCSISubsystemGlobals*);
+    auto SetNewGlobals(OSObject*);
+    auto SignalABCClient(char const*, char const*);
+    auto ThreadEntry(void*, void*);
+    auto ValidateEntry(OSDictionary*);
+    auto ValidateList(OSArray*);
+    auto cleanupDeviceStats();
+    auto createSSGHandle();
+    auto statsReported();
     ~SCSISubsystemGlobals();
 };

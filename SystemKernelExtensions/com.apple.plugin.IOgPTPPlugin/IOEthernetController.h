@@ -4,19 +4,19 @@
 
 class IOEthernetController {
 public: // (access info unavailable from symbols alone)
-    addTimeSyncReceivePacketHandler(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
-    addTimeSyncTransmitPacketHandler(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*, unsigned int*);
-    allocateAVBPacket(bool);
-    changeAVBControllerState(IOEthernetControllerAVBStateEvent);
-    completeAVBPacket(IOEthernetController::IOEthernetAVBPacket*);
-    deregisterForAVBStateChangeNotifications(void (*)(void*, IOEthernetControllerAVBState, IOEthernetControllerAVBState), void*);
-    getAVBSupport(IOEthernetController::IOEthernetControllerAVBSupport*) const;
-    getControllerAVBState() const;
-    getTransmitQueuePacketLatency(unsigned int) const;
-    getTransmitQueuePrefetchDelay(unsigned int) const;
-    receivedTimeSyncPacket(IOEthernetController::IOEthernetAVBPacket*);
-    registerForAVBStateChangeNotifications(void (*)(void*, IOEthernetControllerAVBState, IOEthernetControllerAVBState), void*);
-    removeTimeSyncReceivePacketHandler(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
-    removeTimeSyncTransmitPacketHandler(unsigned int);
-    transmittedTimeSyncPacket(IOEthernetController::IOEthernetAVBPacket*, bool);
+    auto addTimeSyncReceivePacketHandler(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
+    auto addTimeSyncTransmitPacketHandler(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*, unsigned int*);
+    auto allocateAVBPacket(bool);
+    auto changeAVBControllerState(IOEthernetControllerAVBStateEvent);
+    auto completeAVBPacket(IOEthernetController::IOEthernetAVBPacket*);
+    auto deregisterForAVBStateChangeNotifications(void (*)(void*, IOEthernetControllerAVBState, IOEthernetControllerAVBState), void*);
+    auto getAVBSupport(IOEthernetController::IOEthernetControllerAVBSupport*) const;
+    auto getControllerAVBState() const;
+    auto getTransmitQueuePacketLatency(unsigned int) const;
+    auto getTransmitQueuePrefetchDelay(unsigned int) const;
+    auto receivedTimeSyncPacket(IOEthernetController::IOEthernetAVBPacket*);
+    auto registerForAVBStateChangeNotifications(void (*)(void*, IOEthernetControllerAVBState, IOEthernetControllerAVBState), void*);
+    auto removeTimeSyncReceivePacketHandler(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
+    auto removeTimeSyncTransmitPacketHandler(unsigned int);
+    auto transmittedTimeSyncPacket(IOEthernetController::IOEthernetAVBPacket*, bool);
 };

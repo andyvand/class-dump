@@ -5,21 +5,21 @@
 class IOAccelTask {
 public: // (access info unavailable from symbols alone)
     IOAccelTask(OSMetaClass const*);
-    _RESERVEDIOAccelTask0();
-    _RESERVEDIOAccelTask1();
-    _RESERVEDIOAccelTask2();
-    _RESERVEDIOAccelTask3();
-    _RESERVEDIOAccelTask4();
-    _RESERVEDIOAccelTask5();
-    allocate(IOAccelMemoryMap const*);
-    deallocate(IOAccelMemoryMap const*, unsigned long long);
-    freeAllGPUMappings();
-    freeAllSysMemoryMappings();
-    freeAllVidMemoryMappings();
-    freeToAllocGPUAddress(IOAccelMemoryMap*);
-    freeWaitToAllocGPUAddress(IOAccelMemoryMap*, bool);
-    getProcessIDAndName(char*, int) const;
-    init(IOGraphicsAccelerator2*, unsigned int, IORangeAllocator**);
-    reserve(unsigned int, unsigned long long, unsigned long long);
+    auto _RESERVEDIOAccelTask0();
+    auto _RESERVEDIOAccelTask1();
+    auto _RESERVEDIOAccelTask2();
+    auto _RESERVEDIOAccelTask3();
+    auto _RESERVEDIOAccelTask4();
+    auto _RESERVEDIOAccelTask5();
+    auto allocate(IOAccelMemoryMap const*);
+    auto deallocate(IOAccelMemoryMap const*, unsigned long long);
+    auto freeAllGPUMappings();
+    auto freeAllSysMemoryMappings();
+    auto freeAllVidMemoryMappings();
+    auto freeToAllocGPUAddress(IOAccelMemoryMap*);
+    auto freeWaitToAllocGPUAddress(IOAccelMemoryMap*, bool);
+    auto getProcessIDAndName(char*, int) const;
+    auto init(IOGraphicsAccelerator2*, unsigned int, IORangeAllocator**);
+    auto reserve(unsigned int, unsigned long long, unsigned long long);
     ~IOAccelTask();
 };

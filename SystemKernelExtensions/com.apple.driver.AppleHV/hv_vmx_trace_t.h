@@ -4,8 +4,8 @@
 
 class hv_vmx_trace_t {
 public: // (access info unavailable from symbols alone)
-    trace_enter_error(hv_vmx_vcpu_t const&, unsigned int);
-    trace_interrupt_receive(unsigned int);
-    trace_lsc_invalid(hv_vmx_vcpu_t const&, bool, unsigned long long);
-    trace_nmi_inject(hv_vmx_vcpu_t const&, unsigned int);
+    auto trace_enter_error(hv_vmx_vcpu_t const&, unsigned int);
+    auto trace_interrupt_receive(unsigned int);
+    auto trace_lsc_invalid(hv_vmx_vcpu_t const&, bool, unsigned long long);
+    auto trace_nmi_inject(hv_vmx_vcpu_t const&, unsigned int);
 };

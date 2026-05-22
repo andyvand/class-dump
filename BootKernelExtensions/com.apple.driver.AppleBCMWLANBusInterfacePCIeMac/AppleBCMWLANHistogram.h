@@ -4,7 +4,7 @@
 
 class AppleBCMWLANHistogram {
 public: // (access info unavailable from symbols alone)
-    dump(char const*, char*, long, unsigned int);
-    log2Quantize(unsigned int);
-    withBinCountAndQuantizer(unsigned int (*)(unsigned int), int, int);
+    auto dump(char const*, char*, long, unsigned int);
+    auto log2Quantize(unsigned int);
+    auto withBinCountAndQuantizer(unsigned int (*)(unsigned int), int, int);
 };

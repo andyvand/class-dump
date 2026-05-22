@@ -6,14 +6,16 @@ class TSNCIStreamCapture {
 public: // (access info unavailable from symbols alone)
     TSNCIStreamCapture();
     TSNCIStreamCapture(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(unsigned int, OSDictionary*);
-    init(unsigned int, OSDictionary*)::_os_log_fmt;
-    setUserClient(TSNCIStreamCaptureUserClient*);
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    stop(IOService*);
-    streamReceiveCallback(IOEthernetController::IOEthernetAVBPacket*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(unsigned int, OSDictionary*);
+    auto init(unsigned int, OSDictionary*)::_os_log_fmt;
+    auto setUserClient(TSNCIStreamCaptureUserClient*);
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto stop(IOService*);
+    auto streamReceiveCallback(IOEthernetController::IOEthernetAVBPacket*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~TSNCIStreamCapture();
 };

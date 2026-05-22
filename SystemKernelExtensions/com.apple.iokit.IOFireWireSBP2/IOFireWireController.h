@@ -4,12 +4,12 @@
 
 class IOFireWireController {
 public: // (access info unavailable from symbols alone)
-    beginIOCriticalSection();
-    checkGeneration(unsigned int) const;
-    closeGate();
-    copyMapper();
-    endIOCriticalSection();
-    getGeneration() const;
-    getLink() const;
-    openGate();
+    auto beginIOCriticalSection();
+    auto checkGeneration(unsigned int) const;
+    auto closeGate();
+    auto copyMapper();
+    auto endIOCriticalSection();
+    auto getGeneration() const;
+    auto getLink() const;
+    auto openGate();
 };

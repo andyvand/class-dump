@@ -4,9 +4,11 @@
 
 class ACIPCChip4378 {
 public: // (access info unavailable from symbols alone)
-    disableMMIOCoredumpOnError(acipcErrorType);
-    getName() const;
-    initWithRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
-    withRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    auto disableMMIOCoredumpOnError(acipcErrorType);
+    auto getName() const;
+    auto initWithRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    auto withRevisionID(unsigned char, writeExtendedConfigSpaceCall const&);
+    void * operator new(unsigned long)::kalloc_type_view_32;
+    void operator delete(void*, unsigned long)::kalloc_type_view_32;
     ~ACIPCChip4378();
 };

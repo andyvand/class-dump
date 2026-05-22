@@ -6,7 +6,9 @@ class IOAccelContextEventFence {
 public: // (access info unavailable from symbols alone)
     IOAccelContextEventFence();
     IOAccelContextEventFence(OSMetaClass const*);
-    getMetaClass() const;
-    notifyClient();
+    auto getMetaClass() const;
+    auto notifyClient();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelContextEventFence();
 };

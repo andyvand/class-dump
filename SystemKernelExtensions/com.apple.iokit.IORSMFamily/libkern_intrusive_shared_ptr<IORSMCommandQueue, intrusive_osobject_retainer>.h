@@ -4,7 +4,8 @@
 
 class libkern::intrusive_shared_ptr<IORSMCommandQueue, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
+    auto operator->() const;
+    auto reset();
     intrusive_shared_ptr(IORSMCommandQueue*, libkern::no_retain_t);
-    operator->() const;
-    reset();
+    operator bool() const;
 };

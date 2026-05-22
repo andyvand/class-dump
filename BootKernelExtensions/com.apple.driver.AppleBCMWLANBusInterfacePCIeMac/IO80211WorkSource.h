@@ -5,8 +5,8 @@
 class IO80211WorkSource {
 public: // (access info unavailable from symbols alone)
     IO80211WorkSource(OSMetaClass const*);
-    getWorkQueue() const;
-    setAction(void (*)(OSObject*, ...));
-    setWorkQueue(IO80211WorkQueue*);
+    auto getWorkQueue() const;
+    auto setAction(void (*)(OSObject*, ...));
+    auto setWorkQueue(IO80211WorkQueue*);
     ~IO80211WorkSource();
 };

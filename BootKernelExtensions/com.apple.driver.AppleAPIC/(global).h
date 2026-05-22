@@ -6,13 +6,11 @@
 
 AppleAPICInterruptController::gMetaClass;
 AppleAPICInterruptController::metaClass;
-AppleAPICInterruptController::operator delete(void*, unsigned long);
-AppleAPICInterruptController::operator new(unsigned long);
 AppleAPICInterruptController::superClass;
 AppleAPICInterruptController_ktv;
 IOInterruptController::gMetaClass;
-IOPCISetAPICInterrupt(unsigned long long);
 OSNumber::metaClass;
+auto IOPCISetAPICInterrupt(unsigned long long);
 vtable for AppleAPICInterruptController;
 vtable for AppleAPICInterruptController::MetaClass;
 vtable for IOInterruptController;

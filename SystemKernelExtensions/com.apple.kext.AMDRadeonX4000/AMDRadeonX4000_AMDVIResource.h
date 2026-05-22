@@ -6,9 +6,11 @@ class AMDRadeonX4000_AMDVIResource {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVIResource();
     AMDRadeonX4000_AMDVIResource(OSMetaClass const*);
-    fillUBMSurfaceInfoInternal(_UBM_SURFINFO*, _sMASK_MEMORY_SETTINGS*, IOAccelMemoryMap*, AMDRadeonX4000_AMDAccelResource*, unsigned int, unsigned int, unsigned int);
-    getMetaClass() const;
-    initIOSurface();
-    pageOffMSAADepthBuffer(_UBM_SURFINFO*, _UBM_SURFINFO*, IOAccelMemoryMap*, IOAccelMemoryMap*, _UBM_RECTL*, _UBM_RECTL*, unsigned int, unsigned int);
+    auto fillUBMSurfaceInfoInternal(_UBM_SURFINFO*, _sMASK_MEMORY_SETTINGS*, IOAccelMemoryMap*, AMDRadeonX4000_AMDAccelResource*, unsigned int, unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto initIOSurface();
+    auto pageOffMSAADepthBuffer(_UBM_SURFINFO*, _UBM_SURFINFO*, IOAccelMemoryMap*, IOAccelMemoryMap*, _UBM_RECTL*, _UBM_RECTL*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVIResource();
 };

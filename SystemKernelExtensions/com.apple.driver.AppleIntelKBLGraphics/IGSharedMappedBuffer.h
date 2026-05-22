@@ -6,14 +6,16 @@ class IGSharedMappedBuffer {
 public: // (access info unavailable from symbols alone)
     IGSharedMappedBuffer();
     IGSharedMappedBuffer(OSMetaClass const*);
-    cloneInTask(IGAccelTask*);
-    free();
-    getMemoryOptions() const;
-    getMetaClass() const;
-    getVirtualAddress() const;
-    initWithOptions(IGAccelTask*, unsigned long, unsigned int, unsigned int);
-    lockForCPUAccess();
-    unlockForCPUAccess();
-    withOptions(IGAccelTask*, unsigned long, unsigned int, unsigned int);
+    auto cloneInTask(IGAccelTask*);
+    auto free();
+    auto getMemoryOptions() const;
+    auto getMetaClass() const;
+    auto getVirtualAddress() const;
+    auto initWithOptions(IGAccelTask*, unsigned long, unsigned int, unsigned int);
+    auto lockForCPUAccess();
+    auto unlockForCPUAccess();
+    auto withOptions(IGAccelTask*, unsigned long, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGSharedMappedBuffer();
 };

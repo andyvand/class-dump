@@ -4,19 +4,19 @@
 
 class AppleBCMWLANUtil {
 public: // (access info unavailable from symbols alone)
-    accessAppleOLYHAL()::appleOLYHAL;
-    accessAppleOLYHAL()::appleOLYHALService;
-    appendParsedKeyValuePairsToDictionary(OSDictionary*, OSString const*, unsigned int);
-    copyDTParameterString(IOService*, char const*, char const*, OSString*);
-    doesDictionaryKeyContainString(OSDictionary*, char const*, char const*, unsigned long);
-    doesDictionaryKeyEqualString(OSDictionary*, char const*, char const*, unsigned long);
-    findpattern(char const*, char const*, unsigned long);
-    getCounterValueSafe(int*, long, OSData*, unsigned int);
-    getDTParameter32(IOService*, char const*, char const*, unsigned int);
-    getHwFeatureFlags(IOService*, char const*);
-    get_mach_continuous_nanoseconds(unsigned long long*);
-    isPTPPacket(AppleBCMWLANPCIeSkywalkPacket*, bool, unsigned char*, unsigned char**, unsigned char**, unsigned char*, unsigned short*);
-    releaseOSObjectArray(OSString const**, OSObject const**, unsigned int);
-    removeReporterFromLegend(IOService*, IOReporter*, char const*, char const*);
-    safe_align_up(unsigned long, unsigned long, unsigned long*);
+    auto accessAppleOLYHAL()::appleOLYHAL;
+    auto accessAppleOLYHAL()::appleOLYHALService;
+    auto appendParsedKeyValuePairsToDictionary(OSDictionary*, OSString const*, unsigned int);
+    auto copyDTParameterString(IOService*, char const*, char const*, OSString*);
+    auto doesDictionaryKeyContainString(OSDictionary*, char const*, char const*, unsigned long);
+    auto doesDictionaryKeyEqualString(OSDictionary*, char const*, char const*, unsigned long);
+    auto findpattern(char const*, char const*, unsigned long);
+    auto getCounterValueSafe(int*, long, OSData*, unsigned int);
+    auto getDTParameter32(IOService*, char const*, char const*, unsigned int);
+    auto getHwFeatureFlags(IOService*, char const*);
+    auto get_mach_continuous_nanoseconds(unsigned long long*);
+    auto isPTPPacket(AppleBCMWLANPCIeSkywalkPacket*, bool, unsigned char*, unsigned char**, unsigned char**, unsigned char*, unsigned short*);
+    auto releaseOSObjectArray(OSString const**, OSObject const**, unsigned int);
+    auto removeReporterFromLegend(IOService*, IOReporter*, char const*, char const*);
+    auto safe_align_up(unsigned long, unsigned long, unsigned long*);
 };

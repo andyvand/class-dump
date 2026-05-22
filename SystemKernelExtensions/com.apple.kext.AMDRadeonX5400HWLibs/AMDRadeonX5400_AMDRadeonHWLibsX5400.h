@@ -6,7 +6,9 @@ class AMDRadeonX5400_AMDRadeonHWLibsX5400 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5400_AMDRadeonHWLibsX5400();
     AMDRadeonX5400_AMDRadeonHWLibsX5400(OSMetaClass const*);
-    getMetaClass() const;
-    populateFirmwareDirectory();
+    auto getMetaClass() const;
+    auto populateFirmwareDirectory();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5400_AMDRadeonHWLibsX5400();
 };

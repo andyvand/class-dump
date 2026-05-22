@@ -4,5 +4,5 @@
 
 class IOSkywalkNetworkInterface {
 public: // (access info unavailable from symbols alone)
-    bpfTapInputPacket(unsigned int, IOSkywalkPacket*, void*, unsigned long);
+    auto bpfTapInputPacket(unsigned int, IOSkywalkPacket*, void*, unsigned long);
 };

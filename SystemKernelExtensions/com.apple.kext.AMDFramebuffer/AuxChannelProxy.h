@@ -4,8 +4,8 @@
 
 class AuxChannelProxy {
 public: // (access info unavailable from symbols alone)
-    readBytes(unsigned int, unsigned int, unsigned char*, unsigned char);
-    transferByDDCci(bool, IOI2CRequest*);
-    transferI2c(bool, IOI2CRequest*);
-    writeBytes(unsigned int, unsigned int, unsigned char*, unsigned char);
+    auto readBytes(unsigned int, unsigned int, unsigned char*, unsigned char);
+    auto transferByDDCci(bool, IOI2CRequest*);
+    auto transferI2c(bool, IOI2CRequest*);
+    auto writeBytes(unsigned int, unsigned int, unsigned char*, unsigned char);
 };

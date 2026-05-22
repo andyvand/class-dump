@@ -4,5 +4,5 @@
 
 class AppleMobileFileIntegrity {
 public: // (access info unavailable from symbols alone)
-    AMFIEntitlementGetBool(proc*, char const*, bool*);
+    auto AMFIEntitlementGetBool(proc*, char const*, bool*);
 };

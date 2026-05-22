@@ -5,6 +5,6 @@
 class TMCX_ALR_Connection::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

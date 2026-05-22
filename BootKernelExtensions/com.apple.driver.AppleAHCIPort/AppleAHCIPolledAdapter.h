@@ -6,14 +6,16 @@ class AppleAHCIPolledAdapter {
 public: // (access info unavailable from symbols alone)
     AppleAHCIPolledAdapter();
     AppleAHCIPolledAdapter(OSMetaClass const*);
-    InitWithOwner(AppleAHCI*);
-    WithOwner(AppleAHCI*);
-    WithOwner(AppleAHCI*) (.cold.1);
-    checkForWork();
-    close(unsigned int);
-    getMetaClass() const;
-    open(unsigned int, IOMemoryDescriptor*);
-    probe(IOService*);
-    startIO(unsigned int, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
+    auto InitWithOwner(AppleAHCI*);
+    auto WithOwner(AppleAHCI*);
+    auto WithOwner(AppleAHCI*) (.cold.1);
+    auto checkForWork();
+    auto close(unsigned int);
+    auto getMetaClass() const;
+    auto open(unsigned int, IOMemoryDescriptor*);
+    auto probe(IOService*);
+    auto startIO(unsigned int, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleAHCIPolledAdapter();
 };

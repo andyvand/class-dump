@@ -6,11 +6,13 @@ class AppleUSBXHCIParkingCommandRing {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIParkingCommandRing();
     AppleUSBXHCIParkingCommandRing(OSMetaClass const*);
-    dropEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*);
-    dropEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*)::_os_log_fmt;
-    free();
-    getMetaClass() const;
-    initWithParameters(AppleUSBXHCI*, AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
-    withParameters(AppleUSBXHCI*, AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    auto dropEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*);
+    auto dropEndpoint(unsigned int, unsigned int, StandardUSBXHCI::StandardUSBXHCISlotContext*, StandardUSBXHCI::StandardUSBXHCIEndpointContext*)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto initWithParameters(AppleUSBXHCI*, AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    auto withParameters(AppleUSBXHCI*, AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCIParkingCommandRing();
 };

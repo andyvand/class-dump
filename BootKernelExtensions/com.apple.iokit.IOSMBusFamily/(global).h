@@ -7,14 +7,10 @@
 IOCommand::gMetaClass;
 IOSMBusController::gMetaClass;
 IOSMBusController::metaClass;
-IOSMBusController::operator delete(void*, unsigned long);
-IOSMBusController::operator new(unsigned long);
 IOSMBusController::superClass;
 IOSMBusController_ktv;
 IOSMBusRequest::gMetaClass;
 IOSMBusRequest::metaClass;
-IOSMBusRequest::operator delete(void*, unsigned long);
-IOSMBusRequest::operator new(unsigned long);
 IOSMBusRequest::superClass;
 IOSMBusRequest_ktv;
 IOService::gMetaClass;

@@ -4,9 +4,9 @@
 
 class UDFDevPacket {
 public: // (access info unavailable from symbols alone)
-    DebugCheck(unsigned int);
-    DebugPrint(unsigned long, unsigned int);
-    HasMetadata(unsigned int);
-    SetSectorDirty(int, bool);
-    SetSectorValid(int, bool);
+    auto DebugCheck(unsigned int);
+    auto DebugPrint(unsigned long, unsigned int);
+    auto HasMetadata(unsigned int);
+    auto SetSectorDirty(int, bool);
+    auto SetSectorValid(int, bool);
 };

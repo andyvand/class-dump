@@ -4,5 +4,5 @@
 
 class IOAccelFenceMachine {
 public: // (access info unavailable from symbols alone)
-    addEventFence(IOAccelSubmitter2*, IOAccelEventFence*);
+    auto addEventFence(IOAccelSubmitter2*, IOAccelEventFence*);
 };

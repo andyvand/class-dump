@@ -5,7 +5,9 @@
 class AtiGetEngineClockInterface_V2 {
 public: // (access info unavailable from symbols alone)
     AtiGetEngineClockInterface_V2(OSMetaClass const*);
-    createGetEngineClock(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createGetEngineClock(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiGetEngineClockInterface_V2();
 };

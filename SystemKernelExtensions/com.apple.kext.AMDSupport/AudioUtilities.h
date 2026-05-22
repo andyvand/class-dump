@@ -4,14 +4,14 @@
 
 class AudioUtilities {
 public: // (access info unavailable from symbols alone)
-    calculateAviChecksum(HDMIInfoPacket*);
-    calculateCTS(unsigned long long, unsigned int, unsigned int);
-    lookUpAudioClockInfo(unsigned int, unsigned int, unsigned int, AudioClockInfo*);
-    lookUpAudioClockInfo(unsigned int, unsigned int, unsigned int, AudioClockInfo*)::TABLE_SIZE;
-    lookUpAzaliaClockInfo(unsigned int, unsigned int, AzaliaClockInfo*);
-    lookUpAzaliaClockInfo(unsigned int, unsigned int, AzaliaClockInfo*)::TABLE_SIZE;
-    prepareAviInfoFrame(HDMIInfoPacket*, CRTC_PARAMS*);
-    prepareDefaultGamutPacket(InfoPacket*, CRTC_PARAMS*);
-    prepareHDRStaticMetaDataPacket(InfoPacket*, InfoPacketRawData*, CRTC_PARAMS*);
-    prepareVendorInfoPacket(InfoPacket*, CRTC_PARAMS*);
+    auto calculateAviChecksum(HDMIInfoPacket*);
+    auto calculateCTS(unsigned long long, unsigned int, unsigned int);
+    auto lookUpAudioClockInfo(unsigned int, unsigned int, unsigned int, AudioClockInfo*);
+    auto lookUpAudioClockInfo(unsigned int, unsigned int, unsigned int, AudioClockInfo*)::TABLE_SIZE;
+    auto lookUpAzaliaClockInfo(unsigned int, unsigned int, AzaliaClockInfo*);
+    auto lookUpAzaliaClockInfo(unsigned int, unsigned int, AzaliaClockInfo*)::TABLE_SIZE;
+    auto prepareAviInfoFrame(HDMIInfoPacket*, CRTC_PARAMS*);
+    auto prepareDefaultGamutPacket(InfoPacket*, CRTC_PARAMS*);
+    auto prepareHDRStaticMetaDataPacket(InfoPacket*, InfoPacketRawData*, CRTC_PARAMS*);
+    auto prepareVendorInfoPacket(InfoPacket*, CRTC_PARAMS*);
 };

@@ -6,16 +6,14 @@
 
 AppleVMXNETController::gMetaClass;
 AppleVMXNETController::metaClass;
-AppleVMXNETController::operator delete(void*, unsigned long);
-AppleVMXNETController::operator new(unsigned long);
 AppleVMXNETController::superClass;
 AppleVMXNETController_ktv;
 IOEthernetController::gMetaClass;
 IOPCIDevice::metaClass;
 OSData::metaClass;
 OSNumber::metaClass;
-ip6_lasthdr(__mbuf*, int, int, int*);
-ip6_nexthdr(__mbuf*, int, int, int*);
+auto ip6_lasthdr(__mbuf*, int, int, int*);
+auto ip6_nexthdr(__mbuf*, int, int, int*);
 vtable for AppleVMXNETController;
 vtable for AppleVMXNETController::MetaClass;
 vtable for IOEthernetController;

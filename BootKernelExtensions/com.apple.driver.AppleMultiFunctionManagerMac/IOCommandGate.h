@@ -4,5 +4,5 @@
 
 class IOCommandGate {
 public: // (access info unavailable from symbols alone)
-    commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
+    auto commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
 };

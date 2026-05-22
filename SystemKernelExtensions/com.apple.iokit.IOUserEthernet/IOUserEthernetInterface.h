@@ -6,12 +6,14 @@ class IOUserEthernetInterface {
 public: // (access info unavailable from symbols alone)
     IOUserEthernetInterface();
     IOUserEthernetInterface(OSMetaClass const*);
-    __OSFinalClass();
-    attachToDataLinkLayer(unsigned int, void*);
-    detachFromDataLinkLayer(unsigned int, void*);
-    getMetaClass() const;
-    getNamePrefix() const;
-    init(IONetworkController*);
-    registerService(unsigned int);
+    auto __OSFinalClass();
+    auto attachToDataLinkLayer(unsigned int, void*);
+    auto detachFromDataLinkLayer(unsigned int, void*);
+    auto getMetaClass() const;
+    auto getNamePrefix() const;
+    auto init(IONetworkController*);
+    auto registerService(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserEthernetInterface();
 };

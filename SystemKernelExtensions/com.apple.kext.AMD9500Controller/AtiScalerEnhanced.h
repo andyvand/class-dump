@@ -5,7 +5,7 @@
 class AtiScalerEnhanced {
 public: // (access info unavailable from symbols alone)
     AtiScalerEnhanced(OSMetaClass const*);
-    getNextLowerNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
-    getOptimalNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
+    auto getNextLowerNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
+    auto getOptimalNumberOfTaps(ScalerValidationParameters*, ScalingTaps*);
     ~AtiScalerEnhanced();
 };

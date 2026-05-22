@@ -4,5 +4,5 @@
 
 class IntelMTLComputeFunctions {
 public: // (access info unavailable from symbols alone)
-    execute(IntelMTLCompute::eTokens, IGAccelCommandQueue&, IGAccelSegmentResourceList&, IOAccelKernelCommand const&, IOAccelKernelCommand const&, IGAccelCommandDescriptor&, IOGraphicsAccelerator2&, IGHardwareContext&, IOAccelEvent&);
+    auto execute(IntelMTLCompute::eTokens, IGAccelCommandQueue&, IGAccelSegmentResourceList&, IOAccelKernelCommand const&, IOAccelKernelCommand const&, IGAccelCommandDescriptor&, IOGraphicsAccelerator2&, IGHardwareContext&, IOAccelEvent&);
 };

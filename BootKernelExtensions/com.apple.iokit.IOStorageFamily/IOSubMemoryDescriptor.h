@@ -5,14 +5,14 @@
 class IOSubMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     IOSubMemoryDescriptor(OSMetaClass const*);
-    complete(unsigned int);
-    getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
-    getPreparationID();
-    initSubRange(IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
-    makeMapping(IOMemoryDescriptor*, task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
-    prepare(unsigned int);
-    redirect(task*, bool);
-    setPurgeable(unsigned int, unsigned int*);
-    withSubRange(IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
+    auto complete(unsigned int);
+    auto getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
+    auto getPreparationID();
+    auto initSubRange(IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
+    auto makeMapping(IOMemoryDescriptor*, task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
+    auto prepare(unsigned int);
+    auto redirect(task*, bool);
+    auto setPurgeable(unsigned int, unsigned int*);
+    auto withSubRange(IOMemoryDescriptor*, unsigned long long, unsigned long long, unsigned int);
     ~IOSubMemoryDescriptor();
 };

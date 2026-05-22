@@ -4,12 +4,12 @@
 
 class IOHIDSystemCursorHelper {
 public: // (access info unavailable from symbols alone)
-    applyPostingDelta();
-    init();
-    isPosting();
-    klogPosition(char const*, unsigned long long);
-    logPosition(char const*, unsigned long long);
-    logPosition(char const*, unsigned long long)::_os_log_fmt;
-    startPosting();
-    updateScreenLocation(IOGBounds*, IOGBounds*);
+    auto applyPostingDelta();
+    auto init();
+    auto isPosting();
+    auto klogPosition(char const*, unsigned long long);
+    auto logPosition(char const*, unsigned long long);
+    auto logPosition(char const*, unsigned long long)::_os_log_fmt;
+    auto startPosting();
+    auto updateScreenLocation(IOGBounds*, IOGBounds*);
 };

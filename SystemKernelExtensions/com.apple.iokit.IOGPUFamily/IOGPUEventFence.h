@@ -5,9 +5,11 @@
 class IOGPUEventFence {
 public: // (access info unavailable from symbols alone)
     IOGPUEventFence(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(IOGPU*, IOGPUCommandQueue*);
-    notifyCLPCIOPerfControl(unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOGPU*, IOGPUCommandQueue*);
+    auto notifyCLPCIOPerfControl(unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUEventFence();
 };

@@ -6,11 +6,13 @@ class AMDRadeonX6000_AmdFbDisplayToolCommandParser {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdFbDisplayToolCommandParser();
     AMDRadeonX6000_AmdFbDisplayToolCommandParser(OSMetaClass const*);
-    createDisplayToolCommandParser(AMDRadeonX6000_IAmdRadeonController*);
-    free();
-    getMetaClass() const;
-    initWithController(AMDRadeonX6000_IAmdRadeonController*);
-    processAccessorCommand(AmdDisplayToolParameters*, AmdFbDisplayPath const*) const;
-    processMutatorCommand(AmdDisplayToolParameters const*, AmdFbDisplayPath*);
+    auto createDisplayToolCommandParser(AMDRadeonX6000_IAmdRadeonController*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithController(AMDRadeonX6000_IAmdRadeonController*);
+    auto processAccessorCommand(AmdDisplayToolParameters*, AmdFbDisplayPath const*) const;
+    auto processMutatorCommand(AmdDisplayToolParameters const*, AmdFbDisplayPath*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdFbDisplayToolCommandParser();
 };

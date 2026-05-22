@@ -4,21 +4,21 @@
 
 class IOAccelResidentMemorySet {
 public: // (access info unavailable from symbols alone)
-    addMemory(IOAccelMemory*);
-    collect();
-    free();
-    free()::kalloc_type_view_37;
-    getCount() const;
-    getEarliestExpiredLRUSeed();
-    init(IOGraphicsAccelerator2*);
-    init(IOGraphicsAccelerator2*)::kalloc_type_view_24;
-    realloc();
-    realloc() (.cold.1);
-    realloc()::kalloc_type_view_107;
-    realloc()::kalloc_type_view_111;
-    removeMemory(IOAccelMemory*);
-    setCollectionEras(IOAccelCollectionEra*);
-    setCollectionEras(IOAccelCollectionEra*) (.cold.1);
-    sort();
-    updateCollectionLRUs(unsigned int);
+    auto addMemory(IOAccelMemory*);
+    auto collect();
+    auto free();
+    auto free()::kalloc_type_view_37;
+    auto getCount() const;
+    auto getEarliestExpiredLRUSeed();
+    auto init(IOGraphicsAccelerator2*);
+    auto init(IOGraphicsAccelerator2*)::kalloc_type_view_24;
+    auto realloc();
+    auto realloc() (.cold.1);
+    auto realloc()::kalloc_type_view_107;
+    auto realloc()::kalloc_type_view_111;
+    auto removeMemory(IOAccelMemory*);
+    auto setCollectionEras(IOAccelCollectionEra*);
+    auto setCollectionEras(IOAccelCollectionEra*) (.cold.1);
+    auto sort();
+    auto updateCollectionLRUs(unsigned int);
 };

@@ -4,5 +4,5 @@
 
 class btree<unsigned long long> {
 public: // (access info unavailable from symbols alone)
-    begin(lvg*);
+    auto begin(lvg*);
 };

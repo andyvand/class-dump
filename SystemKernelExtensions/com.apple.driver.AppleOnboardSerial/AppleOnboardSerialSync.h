@@ -5,8 +5,10 @@
 class AppleOnboardSerialSync {
 public: // (access info unavailable from symbols alone)
     AppleOnboardSerialSync(OSMetaClass const*);
-    getMetaClass() const;
-    getSerialParentSymbol(OSData const*);
-    withPHandle(OSData const*, mach_timespec*);
+    auto getMetaClass() const;
+    auto getSerialParentSymbol(OSData const*);
+    auto withPHandle(OSData const*, mach_timespec*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleOnboardSerialSync();
 };

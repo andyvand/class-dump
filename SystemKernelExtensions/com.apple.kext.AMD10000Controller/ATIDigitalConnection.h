@@ -5,12 +5,12 @@
 class ATIDigitalConnection {
 public: // (access info unavailable from symbols alone)
     ATIDigitalConnection(OSMetaClass const*);
-    getName();
-    isAnalog();
-    isCRT();
-    isDigital();
-    isDualLinkTiming(AtiDetailedTimingInformation const*);
-    isTV();
-    populateHdcpInfo();
+    auto getName();
+    auto isAnalog();
+    auto isCRT();
+    auto isDigital();
+    auto isDualLinkTiming(AtiDetailedTimingInformation const*);
+    auto isTV();
+    auto populateHdcpInfo();
     ~ATIDigitalConnection();
 };

@@ -5,12 +5,13 @@
 class AppleVirtIOBalloonMemory {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOBalloonMemory();
-    free();
-    getDescriptors() const;
-    getMetaClass() const;
-    getNumPages() const;
-    initWithPageCount(unsigned int);
-    merge(AppleVirtIOBalloonMemory*);
-    split(AppleVirtIOBalloonMemory*&, unsigned int);
+    auto free();
+    auto getDescriptors() const;
+    auto getMetaClass() const;
+    auto getNumPages() const;
+    auto initWithPageCount(unsigned int);
+    auto merge(AppleVirtIOBalloonMemory*);
+    auto split(AppleVirtIOBalloonMemory*&, unsigned int);
+    void * operator new(unsigned long);
     ~AppleVirtIOBalloonMemory();
 };

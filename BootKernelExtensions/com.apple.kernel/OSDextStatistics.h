@@ -6,11 +6,13 @@ class OSDextStatistics {
 public: // (access info unavailable from symbols alone)
     OSDextStatistics();
     OSDextStatistics(OSMetaClass const*);
-    create();
-    free();
-    getCrashCount();
-    getMetaClass() const;
-    init();
-    recordCrash();
+    auto create();
+    auto free();
+    auto getCrashCount();
+    auto getMetaClass() const;
+    auto init();
+    auto recordCrash();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSDextStatistics();
 };

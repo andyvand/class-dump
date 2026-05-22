@@ -6,8 +6,10 @@ class AppleUSBAudioControlNub {
 public: // (access info unavailable from symbols alone)
     AppleUSBAudioControlNub();
     AppleUSBAudioControlNub(OSMetaClass const*);
-    getMetaClass() const;
-    probe(IOService*, int*);
-    start(IOService*);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBAudioControlNub();
 };

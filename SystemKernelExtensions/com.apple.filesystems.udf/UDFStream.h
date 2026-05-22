@@ -4,21 +4,21 @@
 
 class UDFStream {
 public: // (access info unavailable from symbols alone)
-    AllocRange(long long, long long, unsigned int*, bool, int*, long long*, long long*, bool);
-    AppendFileHole(long long);
-    ByteMap(long long, long long, unsigned short*, unsigned int*, unsigned int*, long long*);
-    CopySubStream(long long, long long);
-    FlushFileEntry(UDFLogicalAddr&, UDFBlockWriteMode);
-    GetLengthInBytes();
-    GetSparseInfo(long long*, long long*, unsigned int*, long long*);
-    IsBlockAligned();
-    MakeSubStream(long long, long long);
-    MarkAsEmpty();
-    Read(long long, long long, unsigned char*, UDFBlockReleaseHint);
-    Truncate(long long, long long*, int);
     UDFStream();
     UDFStream(UDFMount*, UDFNode*, UDFLogicalAddr const&, unsigned short, unsigned char*, bool);
     UDFStream(UDFMount*, UDFNode*, UDFLogicalExt const&);
-    Write(long long, long long, unsigned char const*, int, bool, UDFBlockReleaseHint);
+    auto AllocRange(long long, long long, unsigned int*, bool, int*, long long*, long long*, bool);
+    auto AppendFileHole(long long);
+    auto ByteMap(long long, long long, unsigned short*, unsigned int*, unsigned int*, long long*);
+    auto CopySubStream(long long, long long);
+    auto FlushFileEntry(UDFLogicalAddr&, UDFBlockWriteMode);
+    auto GetLengthInBytes();
+    auto GetSparseInfo(long long*, long long*, unsigned int*, long long*);
+    auto IsBlockAligned();
+    auto MakeSubStream(long long, long long);
+    auto MarkAsEmpty();
+    auto Read(long long, long long, unsigned char*, UDFBlockReleaseHint);
+    auto Truncate(long long, long long*, int);
+    auto Write(long long, long long, unsigned char const*, int, bool, UDFBlockReleaseHint);
     ~UDFStream();
 };

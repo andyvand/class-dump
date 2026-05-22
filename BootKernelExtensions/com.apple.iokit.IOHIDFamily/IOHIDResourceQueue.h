@@ -6,14 +6,16 @@ class IOHIDResourceQueue {
 public: // (access info unavailable from symbols alone)
     IOHIDResourceQueue();
     IOHIDResourceQueue(OSMetaClass const*);
-    enqueueReport(IOHIDResourceDataQueueHeader*, IOMemoryDescriptor*);
-    free();
-    getMemoryDescriptor();
-    getMetaClass() const;
-    initWithCapacity(unsigned int);
-    serialize(OSSerialize*) const;
-    setNotificationPort(ipc_port*);
-    withCapacity(IOService*, unsigned int);
-    withCapacity(unsigned int);
+    auto enqueueReport(IOHIDResourceDataQueueHeader*, IOMemoryDescriptor*);
+    auto free();
+    auto getMemoryDescriptor();
+    auto getMetaClass() const;
+    auto initWithCapacity(unsigned int);
+    auto serialize(OSSerialize*) const;
+    auto setNotificationPort(ipc_port*);
+    auto withCapacity(IOService*, unsigned int);
+    auto withCapacity(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDResourceQueue();
 };

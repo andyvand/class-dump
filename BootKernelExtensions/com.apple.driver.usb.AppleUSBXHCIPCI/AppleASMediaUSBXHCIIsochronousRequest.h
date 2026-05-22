@@ -6,8 +6,10 @@ class AppleASMediaUSBXHCIIsochronousRequest {
 public: // (access info unavailable from symbols alone)
     AppleASMediaUSBXHCIIsochronousRequest();
     AppleASMediaUSBXHCIIsochronousRequest(OSMetaClass const*);
-    getMaxBytesPerTRB() const;
-    getMetaClass() const;
-    withControllerAndPool(AppleUSBXHCI*, AppleUSBRequestPool*);
+    auto getMaxBytesPerTRB() const;
+    auto getMetaClass() const;
+    auto withControllerAndPool(AppleUSBXHCI*, AppleUSBRequestPool*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleASMediaUSBXHCIIsochronousRequest();
 };

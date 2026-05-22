@@ -6,11 +6,13 @@ class AppleAHCIEventSource {
 public: // (access info unavailable from symbols alone)
     AppleAHCIEventSource();
     AppleAHCIEventSource(OSMetaClass const*);
-    SignalEvent();
-    WithOwner(AppleAHCIPort*, void (*)(OSObject*, ...));
-    WithOwner(AppleAHCIPort*, void (*)(OSObject*, ...)) (.cold.1);
-    WithOwner(AppleAHCIPort*, void (*)(OSObject*, ...)) (.cold.2);
-    checkForWork();
-    getMetaClass() const;
+    auto SignalEvent();
+    auto WithOwner(AppleAHCIPort*, void (*)(OSObject*, ...));
+    auto WithOwner(AppleAHCIPort*, void (*)(OSObject*, ...)) (.cold.1);
+    auto WithOwner(AppleAHCIPort*, void (*)(OSObject*, ...)) (.cold.2);
+    auto checkForWork();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleAHCIEventSource();
 };

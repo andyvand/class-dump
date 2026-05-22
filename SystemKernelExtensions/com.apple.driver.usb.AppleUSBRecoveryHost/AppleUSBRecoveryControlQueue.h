@@ -6,14 +6,16 @@ class AppleUSBRecoveryControlQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBRecoveryControlQueue();
     AppleUSBRecoveryControlQueue(OSMetaClass const*);
-    getMetaClass() const;
-    processBufferQueue();
-    processBufferQueue() (.cold.1);
-    processBufferQueue() (.cold.2);
-    processBufferQueue()::_os_log_fmt;
-    processBufferQueue()::kalloc_type_view_549;
-    stop();
-    stop()::_os_log_fmt;
-    withParameters(AppleUSBRecoveryHost*, unsigned char, unsigned short);
+    auto getMetaClass() const;
+    auto processBufferQueue();
+    auto processBufferQueue() (.cold.1);
+    auto processBufferQueue() (.cold.2);
+    auto processBufferQueue()::_os_log_fmt;
+    auto processBufferQueue()::kalloc_type_view_549;
+    auto stop();
+    auto stop()::_os_log_fmt;
+    auto withParameters(AppleUSBRecoveryHost*, unsigned char, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBRecoveryControlQueue();
 };

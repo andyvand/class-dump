@@ -5,6 +5,6 @@
 class AMDRadeonX4700_AMDRadeonHWLibsCAIL::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

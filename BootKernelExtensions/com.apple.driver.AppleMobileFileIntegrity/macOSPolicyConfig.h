@@ -4,17 +4,17 @@
 
 class macOSPolicyConfig {
 public: // (access info unavailable from symbols alone)
-    allowOnlyPlatformCode();
-    allowQARootCertificates();
-    blockUnsignedCode();
-    bniAllowAsPlatform();
-    executionRequiresTrustCache();
-    forceCSKill();
-    hardeningEnabled();
-    hardeningLogging();
-    platformIdentifierEnforcedForHardenedProcesses();
-    preventOldEntitledPlatformBinaries();
-    queryOverridableExecutionPolicyState();
-    verboseDyldPolicyLogging();
-    verboseTaskportLogging();
+    auto allowOnlyPlatformCode();
+    auto allowQARootCertificates();
+    auto blockUnsignedCode();
+    auto bniAllowAsPlatform();
+    auto executionRequiresTrustCache();
+    auto forceCSKill();
+    auto hardeningEnabled();
+    auto hardeningLogging();
+    auto platformIdentifierEnforcedForHardenedProcesses();
+    auto preventOldEntitledPlatformBinaries();
+    auto queryOverridableExecutionPolicyState();
+    auto verboseDyldPolicyLogging();
+    auto verboseTaskportLogging();
 };

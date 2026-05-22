@@ -5,8 +5,8 @@
 class AtiHdcpService {
 public: // (access info unavailable from symbols alone)
     AtiHdcpService(OSMetaClass const*);
-    getCallbacks();
-    getMetaClass() const;
-    init(HdcpCallbacks*);
+    auto getCallbacks();
+    auto getMetaClass() const;
+    auto init(HdcpCallbacks*);
     ~AtiHdcpService();
 };

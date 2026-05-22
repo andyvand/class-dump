@@ -7,8 +7,6 @@
 IOSCSIPeripheralDeviceType05::gMetaClass;
 com_apple_driver_MKE_SR_8171::gMetaClass;
 com_apple_driver_MKE_SR_8171::metaClass;
-com_apple_driver_MKE_SR_8171::operator delete(void*, unsigned long);
-com_apple_driver_MKE_SR_8171::operator new(unsigned long);
 com_apple_driver_MKE_SR_8171::superClass;
 com_apple_driver_MKE_SR_8171_ktv;
 vtable for IOSCSIPeripheralDeviceType05;

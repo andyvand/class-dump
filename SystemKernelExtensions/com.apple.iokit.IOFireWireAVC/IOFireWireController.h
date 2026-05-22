@@ -4,8 +4,8 @@
 
 class IOFireWireController {
 public: // (access info unavailable from symbols alone)
-    closeGate();
-    getGeneration() const;
-    getLocalNode(IOFireWireController*);
-    openGate();
+    auto closeGate();
+    auto getGeneration() const;
+    auto getLocalNode(IOFireWireController*);
+    auto openGate();
 };

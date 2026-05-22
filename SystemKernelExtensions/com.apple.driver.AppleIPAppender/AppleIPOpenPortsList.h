@@ -5,7 +5,7 @@
 class AppleIPOpenPortsList {
 public: // (access info unavailable from symbols alone)
     AppleIPOpenPortsList();
-    copyBitFieldBuffer(unsigned char*, unsigned int);
-    getPortListsRaw(__ifnet*, unsigned int, unsigned char*, unsigned int);
+    auto copyBitFieldBuffer(unsigned char*, unsigned int);
+    auto getPortListsRaw(__ifnet*, unsigned int, unsigned char*, unsigned int);
     ~AppleIPOpenPortsList();
 };

@@ -4,5 +4,5 @@
 
 class AppleConvergedIPCLogger {
 public: // (access info unavailable from symbols alone)
-    debugAllowed();
+    auto debugAllowed();
 };

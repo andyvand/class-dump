@@ -4,5 +4,5 @@
 
 class IOThunderboltTimerCommand {
 public: // (access info unavailable from symbols alone)
-    withController(IOThunderboltController*);
+    auto withController(IOThunderboltController*);
 };

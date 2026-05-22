@@ -5,8 +5,10 @@
 class KDIPrimaryEncoding {
 public: // (access info unavailable from symbols alone)
     KDIPrimaryEncoding(OSMetaClass const*);
-    _handleAttach(IOService*);
-    getEncodingLevel();
-    getMetaClass() const;
+    auto _handleAttach(IOService*);
+    auto getEncodingLevel();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KDIPrimaryEncoding();
 };

@@ -4,26 +4,28 @@
 
 class IOUSBMassStorageResource {
 public: // (access info unavailable from symbols alone)
-    IOMSRClose(IOService*, unsigned long long);
-    IOMSROpen(IOService*, unsigned int, unsigned short, unsigned long long*);
-    IOMSRUpdateDerivedStats(unsigned long long);
-    IOMSRUpdateStat(unsigned long long, char const*, char const*);
-    IOMSRUpdateStat(unsigned long long, char const*, unsigned long long, bool);
     IOUSBMassStorageResource();
     IOUSBMassStorageResource(OSMetaClass const*);
-    PublishEvent(unsigned char, unsigned long long, char const*);
-    PublishEvent(unsigned char, unsigned long long, char const*)::DeviceDropReEnumEvents;
-    PublishEvent(unsigned char, unsigned long long, char const*)::FirstDeviceDropReEnumEventAbsTime;
-    cleanupDeviceStats();
-    createMSRHandle(unsigned int, unsigned short);
-    getMetaClass() const;
-    handleClose(IOService*, unsigned int);
-    handleIsOpen(IOService const*) const;
-    handleOpen(IOService*, unsigned int, void*);
-    init(OSDictionary*);
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    start(IOService*);
-    statsReported();
-    stop(IOService*);
+    auto IOMSRClose(IOService*, unsigned long long);
+    auto IOMSROpen(IOService*, unsigned int, unsigned short, unsigned long long*);
+    auto IOMSRUpdateDerivedStats(unsigned long long);
+    auto IOMSRUpdateStat(unsigned long long, char const*, char const*);
+    auto IOMSRUpdateStat(unsigned long long, char const*, unsigned long long, bool);
+    auto PublishEvent(unsigned char, unsigned long long, char const*);
+    auto PublishEvent(unsigned char, unsigned long long, char const*)::DeviceDropReEnumEvents;
+    auto PublishEvent(unsigned char, unsigned long long, char const*)::FirstDeviceDropReEnumEventAbsTime;
+    auto cleanupDeviceStats();
+    auto createMSRHandle(unsigned int, unsigned short);
+    auto getMetaClass() const;
+    auto handleClose(IOService*, unsigned int);
+    auto handleIsOpen(IOService const*) const;
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto init(OSDictionary*);
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto start(IOService*);
+    auto statsReported();
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUSBMassStorageResource();
 };

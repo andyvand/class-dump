@@ -5,11 +5,13 @@
 class AtiPanelInfo {
 public: // (access info unavailable from symbols alone)
     AtiPanelInfo(OSMetaClass const*);
-    free();
-    getDefaultDisplayMode();
-    getDetailedTimings();
-    getMetaClass() const;
-    init();
-    initializeDefaultTimings(int const*, unsigned long);
+    auto free();
+    auto getDefaultDisplayMode();
+    auto getDetailedTimings();
+    auto getMetaClass() const;
+    auto init();
+    auto initializeDefaultTimings(int const*, unsigned long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPanelInfo();
 };

@@ -6,13 +6,15 @@ class IntelICLMemoryManager {
 public: // (access info unavailable from symbols alone)
     IntelICLMemoryManager();
     IntelICLMemoryManager(OSMetaClass const*);
-    detectEDRAM();
-    detectEDRAM() (.cold.1);
-    detectEDRAM() (.cold.2);
-    getMetaClass() const;
-    getPageAttributeTableIndex(unsigned int);
-    initGTL3Layout();
-    synchronizeAllTasks();
-    updatePageAttributeTable();
+    auto detectEDRAM();
+    auto detectEDRAM() (.cold.1);
+    auto detectEDRAM() (.cold.2);
+    auto getMetaClass() const;
+    auto getPageAttributeTableIndex(unsigned int);
+    auto initGTL3Layout();
+    auto synchronizeAllTasks();
+    auto updatePageAttributeTable();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IntelICLMemoryManager();
 };

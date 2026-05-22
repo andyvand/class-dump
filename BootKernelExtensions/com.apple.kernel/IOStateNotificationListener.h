@@ -6,8 +6,10 @@ class IOStateNotificationListener {
 public: // (access info unavailable from symbols alone)
     IOStateNotificationListener();
     IOStateNotificationListener(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOStateNotificationListener();
 };

@@ -5,10 +5,12 @@
 class AppleVirtualNORFlashDevice {
 public: // (access info unavailable from symbols alone)
     AppleVirtualNORFlashDevice(OSMetaClass const*);
-    CreateAppleEffaceableNORObject();
-    getMetaClass() const;
-    logf(void*, char const*, ...);
-    logk(void*, char const*, ...);
-    terminate(unsigned int);
+    auto CreateAppleEffaceableNORObject();
+    auto getMetaClass() const;
+    auto logf(void*, char const*, ...);
+    auto logk(void*, char const*, ...);
+    auto terminate(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleVirtualNORFlashDevice();
 };

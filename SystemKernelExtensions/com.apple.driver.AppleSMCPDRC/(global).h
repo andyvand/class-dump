@@ -6,8 +6,6 @@
 
 AppleSMCPDRC::gMetaClass;
 AppleSMCPDRC::metaClass;
-AppleSMCPDRC::operator delete(void*, unsigned long);
-AppleSMCPDRC::operator new(unsigned long);
 AppleSMCPDRC::superClass;
 AppleSMCPDRC_ktv;
 IOPCIDevice::metaClass;

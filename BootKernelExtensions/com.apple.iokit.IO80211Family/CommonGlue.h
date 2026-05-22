@@ -5,12 +5,14 @@
 class CommonGlue {
 public: // (access info unavailable from symbols alone)
     CommonGlue(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_40;
-    getMetaClass() const;
-    initWithOptions(CommonGlueOptions&);
-    initWithOptions(CommonGlueOptions&)::kalloc_type_view_52;
-    receiveMessage(CommonGlueMessage&);
-    sendMessage(CommonGlueMessage&);
+    auto free();
+    auto free()::kalloc_type_view_40;
+    auto getMetaClass() const;
+    auto initWithOptions(CommonGlueOptions&);
+    auto initWithOptions(CommonGlueOptions&)::kalloc_type_view_52;
+    auto receiveMessage(CommonGlueMessage&);
+    auto sendMessage(CommonGlueMessage&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~CommonGlue();
 };

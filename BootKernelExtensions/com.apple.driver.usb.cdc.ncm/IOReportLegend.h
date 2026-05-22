@@ -4,5 +4,5 @@
 
 class IOReportLegend {
 public: // (access info unavailable from symbols alone)
-    addReporterLegend(IOService*, IOReporter*, char const*, char const*);
+    auto addReporterLegend(IOService*, IOReporter*, char const*, char const*);
 };

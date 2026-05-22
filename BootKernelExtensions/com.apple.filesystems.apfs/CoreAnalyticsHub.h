@@ -4,5 +4,5 @@
 
 class CoreAnalyticsHub {
 public: // (access info unavailable from symbols alone)
-    analyticsSendEventLazy(OSString*, OSObject*);
+    auto analyticsSendEventLazy(OSString*, OSObject*);
 };

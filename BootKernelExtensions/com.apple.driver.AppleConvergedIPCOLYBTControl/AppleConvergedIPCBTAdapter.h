@@ -6,14 +6,16 @@ class AppleConvergedIPCBTAdapter {
 public: // (access info unavailable from symbols alone)
     AppleConvergedIPCBTAdapter();
     AppleConvergedIPCBTAdapter(OSMetaClass const*);
-    closeInterface(IOService*, unsigned int);
-    free();
-    getMetaClass() const;
-    getName() const;
-    init(IOService*);
-    openInterface(IOService*, unsigned int, void*);
-    read(IOMemoryDescriptor*, unsigned long long*, IOACIPCCompletion*);
-    withInterface(IOService*);
-    write(IOMemoryDescriptor*, IOACIPCCompletion*);
+    auto closeInterface(IOService*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getName() const;
+    auto init(IOService*);
+    auto openInterface(IOService*, unsigned int, void*);
+    auto read(IOMemoryDescriptor*, unsigned long long*, IOACIPCCompletion*);
+    auto withInterface(IOService*);
+    auto write(IOMemoryDescriptor*, IOACIPCCompletion*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleConvergedIPCBTAdapter();
 };

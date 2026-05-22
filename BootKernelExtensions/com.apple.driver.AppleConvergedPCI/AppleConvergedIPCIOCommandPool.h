@@ -6,9 +6,11 @@ class AppleConvergedIPCIOCommandPool {
 public: // (access info unavailable from symbols alone)
     AppleConvergedIPCIOCommandPool();
     AppleConvergedIPCIOCommandPool(OSMetaClass const*);
-    allocateReturnCommand();
-    getMetaClass() const;
-    getName() const;
-    withWorkLoop(IOWorkLoop*);
+    auto allocateReturnCommand();
+    auto getMetaClass() const;
+    auto getName() const;
+    auto withWorkLoop(IOWorkLoop*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleConvergedIPCIOCommandPool();
 };

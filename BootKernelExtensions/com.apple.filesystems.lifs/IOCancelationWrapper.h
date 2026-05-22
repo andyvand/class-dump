@@ -5,10 +5,10 @@
 class IOCancelationWrapper {
 public: // (access info unavailable from symbols alone)
     IOCancelationWrapper(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(OSObject*);
-    startUsingObjectAndGetReference(OSObject**);
-    stopUsingObjectAndRelease(OSObject*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSObject*);
+    auto startUsingObjectAndGetReference(OSObject**);
+    auto stopUsingObjectAndRelease(OSObject*);
     ~IOCancelationWrapper();
 };

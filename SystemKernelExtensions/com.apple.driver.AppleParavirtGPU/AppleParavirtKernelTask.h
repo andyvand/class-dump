@@ -6,10 +6,12 @@ class AppleParavirtKernelTask {
 public: // (access info unavailable from symbols alone)
     AppleParavirtKernelTask();
     AppleParavirtKernelTask(OSMetaClass const*);
-    defineHostTask();
-    defineHostTask()::_os_log_fmt;
-    getMetaClass() const;
-    setResourceHeap();
-    setResourceHeap()::_os_log_fmt;
+    auto defineHostTask();
+    auto defineHostTask()::_os_log_fmt;
+    auto getMetaClass() const;
+    auto setResourceHeap();
+    auto setResourceHeap()::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtKernelTask();
 };

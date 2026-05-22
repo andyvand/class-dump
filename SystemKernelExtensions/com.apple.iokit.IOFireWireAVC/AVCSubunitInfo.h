@@ -6,9 +6,11 @@ class AVCSubunitInfo {
 public: // (access info unavailable from symbols alone)
     AVCSubunitInfo();
     AVCSubunitInfo(OSMetaClass const*);
-    create();
-    free();
-    getMetaClass() const;
-    init();
+    auto create();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AVCSubunitInfo();
 };

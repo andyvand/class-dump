@@ -4,20 +4,22 @@
 
 class AppleATADiskDriver {
 public: // (access info unavailable from symbols alone)
-    AllocateATARequests(int);
-    AllocateATARequests(int)::kalloc_type_view_166;
-    AllocateATARequests(int)::kalloc_type_view_187;
-    AllocateResources();
     AppleATADiskDriver();
     AppleATADiskDriver(OSMetaClass const*);
-    AsyncPolledExecute(__ATAIORequest*, IOPolledCompletion);
-    ChangePowerStatePreflight(__ATAIORequest*, unsigned int);
-    CompletePolledIO(int, unsigned long long);
-    DeallocateResources();
-    PolledCommandCompletion(IOATACommand*);
-    PolledIO(unsigned char, IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
-    PolledSleepCommand();
-    PolledSynchronizeCache();
-    getMetaClass() const;
+    auto AllocateATARequests(int);
+    auto AllocateATARequests(int)::kalloc_type_view_166;
+    auto AllocateATARequests(int)::kalloc_type_view_187;
+    auto AllocateResources();
+    auto AsyncPolledExecute(__ATAIORequest*, IOPolledCompletion);
+    auto ChangePowerStatePreflight(__ATAIORequest*, unsigned int);
+    auto CompletePolledIO(int, unsigned long long);
+    auto DeallocateResources();
+    auto PolledCommandCompletion(IOATACommand*);
+    auto PolledIO(unsigned char, IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
+    auto PolledSleepCommand();
+    auto PolledSynchronizeCache();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleATADiskDriver();
 };

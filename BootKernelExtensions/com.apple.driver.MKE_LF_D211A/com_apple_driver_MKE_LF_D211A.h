@@ -4,10 +4,12 @@
 
 class com_apple_driver_MKE_LF_D211A {
 public: // (access info unavailable from symbols alone)
-    GetMechanicalCapabilities();
-    ReadTOC(IOMemoryDescriptor*);
+    auto GetMechanicalCapabilities();
+    auto ReadTOC(IOMemoryDescriptor*);
+    auto getMetaClass() const;
     com_apple_driver_MKE_LF_D211A();
     com_apple_driver_MKE_LF_D211A(OSMetaClass const*);
-    getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_MKE_LF_D211A();
 };

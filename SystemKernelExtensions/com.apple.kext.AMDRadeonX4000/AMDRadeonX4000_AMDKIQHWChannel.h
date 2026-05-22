@@ -5,9 +5,11 @@
 class AMDRadeonX4000_AMDKIQHWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDKIQHWChannel(OSMetaClass const*);
-    getKIQFrame();
-    getMetaClass() const;
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
-    submitKIQFrame();
+    auto getKIQFrame();
+    auto getMetaClass() const;
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto submitKIQFrame();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDKIQHWChannel();
 };

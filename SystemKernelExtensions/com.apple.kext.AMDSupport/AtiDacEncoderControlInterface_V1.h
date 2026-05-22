@@ -5,8 +5,10 @@
 class AtiDacEncoderControlInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiDacEncoderControlInterface_V1(OSMetaClass const*);
-    createDac1EncoderControl(AtiVBiosHelper*);
-    createDac2EncoderControl(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createDac1EncoderControl(AtiVBiosHelper*);
+    auto createDac2EncoderControl(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDacEncoderControlInterface_V1();
 };

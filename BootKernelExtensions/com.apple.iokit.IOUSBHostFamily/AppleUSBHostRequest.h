@@ -5,13 +5,15 @@
 class AppleUSBHostRequest {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostRequest(OSMetaClass const*);
-    cancel();
-    complete();
-    free();
-    getDevice() const;
-    getIOSource() const;
-    getMetaClass() const;
-    getPipe() const;
-    setNextRequest(AppleUSBRequest*);
+    auto cancel();
+    auto complete();
+    auto free();
+    auto getDevice() const;
+    auto getIOSource() const;
+    auto getMetaClass() const;
+    auto getPipe() const;
+    auto setNextRequest(AppleUSBRequest*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostRequest();
 };

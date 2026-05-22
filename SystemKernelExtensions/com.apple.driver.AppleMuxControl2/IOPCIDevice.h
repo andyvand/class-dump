@@ -4,6 +4,6 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    extendedConfigRead32(unsigned long long);
-    setConfigHandler(int (*)(void*, unsigned int, IOPCIDevice*, unsigned int), void*, int (**)(void*, unsigned int, IOPCIDevice*, unsigned int), void**);
+    auto extendedConfigRead32(unsigned long long);
+    auto setConfigHandler(int (*)(void*, unsigned int, IOPCIDevice*, unsigned int), void*, int (**)(void*, unsigned int, IOPCIDevice*, unsigned int), void**);
 };

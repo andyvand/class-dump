@@ -4,22 +4,22 @@
 
 class OSMetaClassBase {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
-    Invoke(IORPC);
     OSMetaClassBase();
-    _RESERVEDOSMetaClassBase3();
-    _RESERVEDOSMetaClassBase4();
-    _RESERVEDOSMetaClassBase5();
-    _RESERVEDOSMetaClassBase6();
-    _RESERVEDOSMetaClassBase7();
-    checkTypeInst(OSMetaClassBase const*, OSMetaClassBase const*);
-    initialize();
-    isEqualTo(OSMetaClassBase const*) const;
-    metaCast(OSMetaClass const*) const;
-    metaCast(OSString const*) const;
-    metaCast(OSSymbol const*) const;
-    metaCast(char const*) const;
-    requiredMetaCast(OSMetaClassBase const*, OSMetaClass const*);
-    safeMetaCast(OSMetaClassBase const*, OSMetaClass const*);
+    auto Dispatch(IORPC);
+    auto Invoke(IORPC);
+    auto _RESERVEDOSMetaClassBase3();
+    auto _RESERVEDOSMetaClassBase4();
+    auto _RESERVEDOSMetaClassBase5();
+    auto _RESERVEDOSMetaClassBase6();
+    auto _RESERVEDOSMetaClassBase7();
+    auto checkTypeInst(OSMetaClassBase const*, OSMetaClassBase const*);
+    auto initialize();
+    auto isEqualTo(OSMetaClassBase const*) const;
+    auto metaCast(OSMetaClass const*) const;
+    auto metaCast(OSString const*) const;
+    auto metaCast(OSSymbol const*) const;
+    auto metaCast(char const*) const;
+    auto requiredMetaCast(OSMetaClassBase const*, OSMetaClass const*);
+    auto safeMetaCast(OSMetaClassBase const*, OSMetaClass const*);
     ~OSMetaClassBase();
 };

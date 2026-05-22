@@ -5,5 +5,5 @@
 class AMDRadeonX6000_AMDSDMAEngine_GC_10_1_0::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

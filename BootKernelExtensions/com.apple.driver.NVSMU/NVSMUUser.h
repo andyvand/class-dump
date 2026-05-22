@@ -4,21 +4,23 @@
 
 class NVSMUUser {
 public: // (access info unavailable from symbols alone)
-    CloseUserClient();
-    NVSMUCtlWrite(_NVSMU_OPERATION_BUFFER*, _NVSMU_OPERATION_BUFFER*);
     NVSMUUser();
     NVSMUUser(OSMetaClass const*);
-    OpenUserClient();
-    clientClose();
-    clientDied();
-    didTerminate(IOService*, unsigned int, bool*);
-    free();
-    getMetaClass() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    start(IOService*);
-    stop(IOService*);
-    terminate(unsigned int);
-    willTerminate(IOService*, unsigned int);
+    auto CloseUserClient();
+    auto NVSMUCtlWrite(_NVSMU_OPERATION_BUFFER*, _NVSMU_OPERATION_BUFFER*);
+    auto OpenUserClient();
+    auto clientClose();
+    auto clientDied();
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto free();
+    auto getMetaClass() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto terminate(unsigned int);
+    auto willTerminate(IOService*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~NVSMUUser();
 };

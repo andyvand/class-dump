@@ -6,13 +6,15 @@ class IOEthernetAVBInterface {
 public: // (access info unavailable from symbols alone)
     IOEthernetAVBInterface();
     IOEthernetAVBInterface(OSMetaClass const*);
-    attachToDataLinkLayer(unsigned int, void*);
-    free();
-    getMetaClass() const;
-    getTimingsFromPlist(unsigned long long*, unsigned long long*);
-    init(IOEthernetAVBController*);
-    modelSpecificDictionary();
-    performCommand(IONetworkController*, unsigned long, void*, void*);
-    syncSIOCSIFCAP(IOEthernetAVBController*, void*, void*);
+    auto attachToDataLinkLayer(unsigned int, void*);
+    auto free();
+    auto getMetaClass() const;
+    auto getTimingsFromPlist(unsigned long long*, unsigned long long*);
+    auto init(IOEthernetAVBController*);
+    auto modelSpecificDictionary();
+    auto performCommand(IONetworkController*, unsigned long, void*, void*);
+    auto syncSIOCSIFCAP(IOEthernetAVBController*, void*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOEthernetAVBInterface();
 };

@@ -4,7 +4,7 @@
 
 class IOMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    createMappingInTask(task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
-    getPageCounts(unsigned long long*, unsigned long long*);
-    withAddressRange(unsigned long long, unsigned long long, unsigned int, task*);
+    auto createMappingInTask(task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
+    auto getPageCounts(unsigned long long*, unsigned long long*);
+    auto withAddressRange(unsigned long long, unsigned long long, unsigned int, task*);
 };

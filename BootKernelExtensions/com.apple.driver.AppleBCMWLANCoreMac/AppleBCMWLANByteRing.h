@@ -5,12 +5,14 @@
 class AppleBCMWLANByteRing {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANByteRing(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_65;
-    getLogger() const;
-    getMetaClass() const;
-    initWithOwnerAndAction(OSObject*, void (*)(OSObject*, ...));
-    initWithOwnerAndAction(OSObject*, void (*)(OSObject*, ...))::kalloc_type_view_38;
-    setLogger(CCLogStream*);
+    auto free();
+    auto free()::kalloc_type_view_65;
+    auto getLogger() const;
+    auto getMetaClass() const;
+    auto initWithOwnerAndAction(OSObject*, void (*)(OSObject*, ...));
+    auto initWithOwnerAndAction(OSObject*, void (*)(OSObject*, ...))::kalloc_type_view_38;
+    auto setLogger(CCLogStream*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleBCMWLANByteRing();
 };

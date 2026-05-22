@@ -4,7 +4,7 @@
 
 class OSData {
 public: // (access info unavailable from symbols alone)
-    withBytesNoCopy(void*, unsigned int);
-    withCapacity(unsigned int);
-    withData(OSData const*);
+    auto withBytesNoCopy(void*, unsigned int);
+    auto withCapacity(unsigned int);
+    auto withData(OSData const*);
 };

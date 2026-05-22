@@ -6,14 +6,16 @@ class IOFireWireAVCCommandInGen {
 public: // (access info unavailable from symbols alone)
     IOFireWireAVCCommandInGen();
     IOFireWireAVCCommandInGen(OSMetaClass const*);
-    _RESERVEDIOFireWireAVCCommandInGen0();
-    _RESERVEDIOFireWireAVCCommandInGen1();
-    _RESERVEDIOFireWireAVCCommandInGen2();
-    _RESERVEDIOFireWireAVCCommandInGen3();
-    complete(int);
-    getMetaClass() const;
-    init(IOFireWireNub*, unsigned int, unsigned char const*, unsigned int, unsigned char*, unsigned int*);
-    init(IOFireWireNub*, unsigned int, unsigned char const*, unsigned int, unsigned char*, unsigned int*)::kalloc_type_view_502;
-    reinit(IOFireWireNub*, unsigned int, unsigned char const*, unsigned int, unsigned char*, unsigned int*);
+    auto _RESERVEDIOFireWireAVCCommandInGen0();
+    auto _RESERVEDIOFireWireAVCCommandInGen1();
+    auto _RESERVEDIOFireWireAVCCommandInGen2();
+    auto _RESERVEDIOFireWireAVCCommandInGen3();
+    auto complete(int);
+    auto getMetaClass() const;
+    auto init(IOFireWireNub*, unsigned int, unsigned char const*, unsigned int, unsigned char*, unsigned int*);
+    auto init(IOFireWireNub*, unsigned int, unsigned char const*, unsigned int, unsigned char*, unsigned int*)::kalloc_type_view_502;
+    auto reinit(IOFireWireNub*, unsigned int, unsigned char const*, unsigned int, unsigned char*, unsigned int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireAVCCommandInGen();
 };

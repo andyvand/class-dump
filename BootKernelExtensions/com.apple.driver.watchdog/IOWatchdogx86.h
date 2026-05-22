@@ -5,10 +5,12 @@
 class IOWatchdogx86 {
 public: // (access info unavailable from symbols alone)
     IOWatchdogx86(OSMetaClass const*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    check_coprocessor_system(bool*);
-    check_coprocessor_system(bool*) (.cold.1);
-    getMetaClass() const;
-    start(IOService*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto check_coprocessor_system(bool*);
+    auto check_coprocessor_system(bool*) (.cold.1);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOWatchdogx86();
 };

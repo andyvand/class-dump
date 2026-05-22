@@ -4,22 +4,22 @@
 
 class __OSHashTable {
 public: // (access info unavailable from symbols alone)
-    FindFirstBucketWithEntries() const;
-    FindNextBucketWithEntries(__OSHashEntryBucket**, unsigned int) const;
-    Hash(OSData*) const;
-    Hash(OSString*) const;
-    InsertHashEntry(__OSHashEntry*);
-    Rehash();
-    Rehash()::kalloc_type_view_362;
-    Rehash()::kalloc_type_view_375;
-    Rehash()::kalloc_type_view_391;
-    RehashList(__OSHashEntry*);
-    RemoveHashEntry(__OSHashEntry*);
-    SingleList() const;
     __OSHashTable();
     __OSHashTable()::kalloc_type_view_175;
     __OSHashTable(unsigned int);
     __OSHashTable(unsigned int)::kalloc_type_view_198;
+    auto FindFirstBucketWithEntries() const;
+    auto FindNextBucketWithEntries(__OSHashEntryBucket**, unsigned int) const;
+    auto Hash(OSData*) const;
+    auto Hash(OSString*) const;
+    auto InsertHashEntry(__OSHashEntry*);
+    auto Rehash();
+    auto Rehash()::kalloc_type_view_362;
+    auto Rehash()::kalloc_type_view_375;
+    auto Rehash()::kalloc_type_view_391;
+    auto RehashList(__OSHashEntry*);
+    auto RemoveHashEntry(__OSHashEntry*);
+    auto SingleList() const;
     ~__OSHashTable();
     ~__OSHashTable()::kalloc_type_view_226;
 };

@@ -5,18 +5,20 @@
 class AtiPllAssigner {
 public: // (access info unavailable from symbols alone)
     AtiPllAssigner(OSMetaClass const*);
-    acquirePll(unsigned char, unsigned char);
-    getMetaClass() const;
-    getPllResourceProperties(unsigned char);
-    getPropertiesForUserClient();
-    hasExternalPll() const;
-    init(ATIController*, ATIConnector**, unsigned char, unsigned char);
-    isPllFree(unsigned char) const;
-    isPllShared(unsigned char) const;
-    printConnectorInfo(char const*);
-    printPllInfo(char const*);
-    releasePll(unsigned char, unsigned char);
-    releasePlls(unsigned char);
-    setExternalClockId(unsigned char);
+    auto acquirePll(unsigned char, unsigned char);
+    auto getMetaClass() const;
+    auto getPllResourceProperties(unsigned char);
+    auto getPropertiesForUserClient();
+    auto hasExternalPll() const;
+    auto init(ATIController*, ATIConnector**, unsigned char, unsigned char);
+    auto isPllFree(unsigned char) const;
+    auto isPllShared(unsigned char) const;
+    auto printConnectorInfo(char const*);
+    auto printPllInfo(char const*);
+    auto releasePll(unsigned char, unsigned char);
+    auto releasePlls(unsigned char);
+    auto setExternalClockId(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPllAssigner();
 };

@@ -6,9 +6,11 @@ class AMDRadeonX4000_AMDSMLCPMsg {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDSMLCPMsg();
     AMDRadeonX4000_AMDSMLCPMsg(OSMetaClass const*);
-    free();
-    getEvent();
-    getMetaClass() const;
-    init(void*);
+    auto free();
+    auto getEvent();
+    auto getMetaClass() const;
+    auto init(void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDSMLCPMsg();
 };

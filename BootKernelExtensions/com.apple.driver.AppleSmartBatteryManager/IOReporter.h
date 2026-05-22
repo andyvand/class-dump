@@ -4,7 +4,7 @@
 
 class IOReporter {
 public: // (access info unavailable from symbols alone)
-    addChannel(unsigned long long, char const*);
-    configureAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
-    updateAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
+    auto addChannel(unsigned long long, char const*);
+    auto configureAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
+    auto updateAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
 };

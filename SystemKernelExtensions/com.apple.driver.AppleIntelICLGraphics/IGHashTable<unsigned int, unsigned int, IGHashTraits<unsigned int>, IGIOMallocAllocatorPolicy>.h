@@ -5,14 +5,14 @@
 class IGHashTable<unsigned int, unsigned int, IGHashTraits<unsigned int>, IGIOMallocAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
     IGHashTable();
-    add(unsigned int const&, unsigned int const&);
-    contains(unsigned int const&) const;
-    operator[](unsigned int const&);
-    resizeAndRehash(unsigned long);
-    resizeAndRehash(unsigned long) (.cold.1);
-    resizeAndRehash(unsigned long) (.cold.2);
-    shrinkIfNeeded();
-    slotIndex(unsigned int const&) const;
+    auto add(unsigned int const&, unsigned int const&);
+    auto contains(unsigned int const&) const;
+    auto operator[](unsigned int const&);
+    auto resizeAndRehash(unsigned long);
+    auto resizeAndRehash(unsigned long) (.cold.1);
+    auto resizeAndRehash(unsigned long) (.cold.2);
+    auto shrinkIfNeeded();
+    auto slotIndex(unsigned int const&) const;
     ~IGHashTable();
     ~IGHashTable() (.cold.1);
 };

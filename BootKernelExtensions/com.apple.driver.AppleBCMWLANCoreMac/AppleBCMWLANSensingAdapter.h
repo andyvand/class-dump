@@ -4,17 +4,17 @@
 
 class AppleBCMWLANSensingAdapter {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_95;
-    freeResources();
-    getMetaClass() const;
-    getSENSING_DATA(apple80211_sensing_data_t*);
-    handleSensingEvent(wl_event_msg_t*);
-    handleSensingVersion(CommandID&, int, CommandRxPayload&, void*);
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_540;
-    setSENSING_DISABLE(apple80211_sensing_disable_t*);
-    setSENSING_ENABLE(apple80211_sensing_enable_t*);
-    updateSensingVersion();
-    withDriver(AppleBCMWLANCore*);
+    auto free();
+    auto free()::kalloc_type_view_95;
+    auto freeResources();
+    auto getMetaClass() const;
+    auto getSENSING_DATA(apple80211_sensing_data_t*);
+    auto handleSensingEvent(wl_event_msg_t*);
+    auto handleSensingVersion(CommandID&, int, CommandRxPayload&, void*);
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_540;
+    auto setSENSING_DISABLE(apple80211_sensing_disable_t*);
+    auto setSENSING_ENABLE(apple80211_sensing_enable_t*);
+    auto updateSensingVersion();
+    auto withDriver(AppleBCMWLANCore*);
     ~AppleBCMWLANSensingAdapter();
 };

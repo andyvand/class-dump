@@ -4,24 +4,24 @@
 
 class AppleBCMWLAN11beAdapter {
 public: // (access info unavailable from symbols alone)
-    configureMlo(unsigned short, mloAddrArray&);
-    configureMlo(unsigned short, mloAddrArray&)::_os_log_fmt;
-    configureMloFeatures(bool);
-    configureMloFeaturesInit();
-    configureMloPref();
-    dumpMloStatus(char*, unsigned int, unsigned int);
-    dumpMloStatus(char*, unsigned int, unsigned int)::_os_log_fmt;
-    free();
-    free()::kalloc_type_view_125;
-    getMetaClass() const;
-    getMloContext(apple_mlo_context&, ether_addr&);
-    getMloContext(apple_mlo_context&, ether_addr&)::_os_log_fmt;
-    getMloStatus();
-    getMloStatus()::_os_log_fmt;
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_98;
-    setMultilinkActiveMode(unsigned int);
-    setupInitConfig();
-    setupJoinConfig(unsigned char, mloAddrArray&);
-    withDriver(AppleBCMWLANCore*);
+    auto configureMlo(unsigned short, mloAddrArray&);
+    auto configureMlo(unsigned short, mloAddrArray&)::_os_log_fmt;
+    auto configureMloFeatures(bool);
+    auto configureMloFeaturesInit();
+    auto configureMloPref();
+    auto dumpMloStatus(char*, unsigned int, unsigned int);
+    auto dumpMloStatus(char*, unsigned int, unsigned int)::_os_log_fmt;
+    auto free();
+    auto free()::kalloc_type_view_125;
+    auto getMetaClass() const;
+    auto getMloContext(apple_mlo_context&, ether_addr&);
+    auto getMloContext(apple_mlo_context&, ether_addr&)::_os_log_fmt;
+    auto getMloStatus();
+    auto getMloStatus()::_os_log_fmt;
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_98;
+    auto setMultilinkActiveMode(unsigned int);
+    auto setupInitConfig();
+    auto setupJoinConfig(unsigned char, mloAddrArray&);
+    auto withDriver(AppleBCMWLANCore*);
     ~AppleBCMWLAN11beAdapter();
 };

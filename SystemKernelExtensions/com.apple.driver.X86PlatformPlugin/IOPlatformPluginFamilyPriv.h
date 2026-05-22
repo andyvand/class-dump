@@ -5,7 +5,7 @@
 class IOPlatformPluginFamilyPriv {
 public: // (access info unavailable from symbols alone)
     IOPlatformPluginFamilyPriv(OSMetaClass const*);
-    pluginRemoveDiagProperty(OSSymbol const*, OSSymbol const*);
-    pluginSetDiagProperty(OSSymbol const*, OSSymbol const*, OSObject*);
+    auto pluginRemoveDiagProperty(OSSymbol const*, OSSymbol const*);
+    auto pluginSetDiagProperty(OSSymbol const*, OSSymbol const*, OSObject*);
     ~IOPlatformPluginFamilyPriv();
 };

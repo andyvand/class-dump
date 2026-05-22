@@ -4,5 +4,5 @@
 
 class IOMemoryMap {
 public: // (access info unavailable from symbols alone)
-    wireRange(unsigned int, unsigned long long, unsigned long long);
+    auto wireRange(unsigned int, unsigned long long, unsigned long long);
 };

@@ -4,13 +4,13 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    extendedConfigRead16(unsigned long long);
-    extendedConfigRead32(unsigned long long);
-    extendedConfigRead8(unsigned long long);
-    extendedConfigWrite16(unsigned long long, unsigned short);
-    extendedConfigWrite32(unsigned long long, unsigned int);
-    extendedConfigWrite8(unsigned long long, unsigned char);
-    protectDevice(unsigned int, unsigned int);
-    setConfigHandler(int (*)(void*, unsigned int, IOPCIDevice*, unsigned int), void*, int (**)(void*, unsigned int, IOPCIDevice*, unsigned int), void**);
-    setTunnelL1Enable(IOService*, bool);
+    auto extendedConfigRead16(unsigned long long);
+    auto extendedConfigRead32(unsigned long long);
+    auto extendedConfigRead8(unsigned long long);
+    auto extendedConfigWrite16(unsigned long long, unsigned short);
+    auto extendedConfigWrite32(unsigned long long, unsigned int);
+    auto extendedConfigWrite8(unsigned long long, unsigned char);
+    auto protectDevice(unsigned int, unsigned int);
+    auto setConfigHandler(int (*)(void*, unsigned int, IOPCIDevice*, unsigned int), void*, int (**)(void*, unsigned int, IOPCIDevice*, unsigned int), void**);
+    auto setTunnelL1Enable(IOService*, bool);
 };

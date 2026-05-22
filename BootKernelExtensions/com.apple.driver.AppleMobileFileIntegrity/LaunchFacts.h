@@ -4,10 +4,10 @@
 
 class LaunchFacts {
 public: // (access info unavailable from symbols alone)
-    getFact(CEBuffer);
-    hasFactFor(CEBuffer);
-    launchType();
-    resolveFact(CEBuffer);
-    resolveFactIfPresent(CEBuffer, bool*);
+    auto getFact(CEBuffer);
+    auto hasFactFor(CEBuffer);
+    auto launchType();
+    auto resolveFact(CEBuffer);
+    auto resolveFactIfPresent(CEBuffer, bool*);
     ~LaunchFacts();
 };

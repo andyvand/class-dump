@@ -6,13 +6,15 @@ class AppleThunderboltDPInAdapterCM {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltDPInAdapterCM();
     AppleThunderboltDPInAdapterCM(OSMetaClass const*);
-    controlPathListenerCallback(void*, IOThunderboltReceiveCommand*);
-    createResourcesCreateDPConnectionManagerHook();
-    getMetaClass() const;
-    probe(IOService*, int*);
-    removeNotifiersInternal();
-    reserveDPPortInternalUnreservedHook();
-    setupNotifiers();
-    start(IOService*);
+    auto controlPathListenerCallback(void*, IOThunderboltReceiveCommand*);
+    auto createResourcesCreateDPConnectionManagerHook();
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto removeNotifiersInternal();
+    auto reserveDPPortInternalUnreservedHook();
+    auto setupNotifiers();
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltDPInAdapterCM();
 };

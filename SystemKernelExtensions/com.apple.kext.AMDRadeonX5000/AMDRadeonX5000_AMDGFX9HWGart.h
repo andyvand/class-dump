@@ -6,9 +6,11 @@ class AMDRadeonX5000_AMDGFX9HWGart {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDGFX9HWGart();
     AMDRadeonX5000_AMDGFX9HWGart(OSMetaClass const*);
-    flushAndInvalidateCaches(unsigned long long, unsigned long long);
-    getEntryValue(unsigned long long);
-    getMetaClass() const;
-    parseEntry(unsigned long long, unsigned long long*);
+    auto flushAndInvalidateCaches(unsigned long long, unsigned long long);
+    auto getEntryValue(unsigned long long);
+    auto getMetaClass() const;
+    auto parseEntry(unsigned long long, unsigned long long*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDGFX9HWGart();
 };

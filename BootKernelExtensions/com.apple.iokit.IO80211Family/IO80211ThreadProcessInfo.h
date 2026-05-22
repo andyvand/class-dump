@@ -4,14 +4,14 @@
 
 class IO80211ThreadProcessInfo {
 public: // (access info unavailable from symbols alone)
-    createProcessInformationKey();
-    getProcessName(char*, unsigned long);
-    getProcessPid(int*);
-    initThreadProcessStorage();
-    isClientSuperUser();
-    releaseProcessKey();
-    storeProcessInformation(apple80211IOUCInfo*);
-    storeProcessNameInformation(unsigned long long, char*);
-    storeProcessPidInformation(unsigned long long, int*);
-    storeProcessSuperUserInformation(unsigned long long, unsigned char*);
+    auto createProcessInformationKey();
+    auto getProcessName(char*, unsigned long);
+    auto getProcessPid(int*);
+    auto initThreadProcessStorage();
+    auto isClientSuperUser();
+    auto releaseProcessKey();
+    auto storeProcessInformation(apple80211IOUCInfo*);
+    auto storeProcessNameInformation(unsigned long long, char*);
+    auto storeProcessPidInformation(unsigned long long, int*);
+    auto storeProcessSuperUserInformation(unsigned long long, unsigned char*);
 };

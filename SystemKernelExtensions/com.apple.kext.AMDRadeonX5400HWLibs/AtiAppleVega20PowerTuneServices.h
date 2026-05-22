@@ -5,7 +5,7 @@
 class AtiAppleVega20PowerTuneServices {
 public: // (access info unavailable from symbols alone)
     AtiAppleVega20PowerTuneServices(PP_Instance*, PowerPlayCallbacks*);
-    getPowerTuneLimit();
-    setPowerTuneLimit(unsigned int);
+    auto getPowerTuneLimit();
+    auto setPowerTuneLimit(unsigned int);
     ~AtiAppleVega20PowerTuneServices();
 };

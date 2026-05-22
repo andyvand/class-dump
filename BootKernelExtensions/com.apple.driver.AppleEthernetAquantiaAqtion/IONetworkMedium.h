@@ -4,9 +4,9 @@
 
 class IONetworkMedium {
 public: // (access info unavailable from symbols alone)
-    addMedium(OSDictionary*, IONetworkMedium const*);
-    getMediumWithIndex(OSDictionary const*, unsigned int, unsigned int);
-    getMediumWithType(OSDictionary const*, unsigned int, unsigned int);
-    medium(unsigned int, unsigned long long, unsigned int, unsigned int, char const*);
-    removeMedium(OSDictionary*, IONetworkMedium const*);
+    auto addMedium(OSDictionary*, IONetworkMedium const*);
+    auto getMediumWithIndex(OSDictionary const*, unsigned int, unsigned int);
+    auto getMediumWithType(OSDictionary const*, unsigned int, unsigned int);
+    auto medium(unsigned int, unsigned long long, unsigned int, unsigned int, char const*);
+    auto removeMedium(OSDictionary*, IONetworkMedium const*);
 };

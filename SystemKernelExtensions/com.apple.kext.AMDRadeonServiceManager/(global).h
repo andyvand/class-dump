@@ -6,23 +6,16 @@
 
 AMDRadeonPowerDomainController::gMetaClass;
 AMDRadeonPowerDomainController::metaClass;
-AMDRadeonPowerDomainController::operator delete(void*, unsigned long);
-AMDRadeonPowerDomainController::operator new(unsigned long);
 AMDRadeonPowerDomainController::superClass;
 AMDRadeonPowerDomainController_ktv;
 AMDRadeonPowerService::gMetaClass;
 AMDRadeonPowerService::metaClass;
-AMDRadeonPowerService::operator delete(void*, unsigned long);
-AMDRadeonPowerService::operator new(unsigned long);
 AMDRadeonPowerService::superClass;
 AMDRadeonPowerService_ktv;
 AMDRadeonServiceManager::gMetaClass;
 AMDRadeonServiceManager::metaClass;
-AMDRadeonServiceManager::operator delete(void*, unsigned long);
-AMDRadeonServiceManager::operator new(unsigned long);
 AMDRadeonServiceManager::superClass;
 AMDRadeonServiceManager_ktv;
-IOInterruptEventSource::operator new(unsigned long);
 IOPCIDevice::metaClass;
 IOService::gMetaClass;
 OSArray::metaClass;

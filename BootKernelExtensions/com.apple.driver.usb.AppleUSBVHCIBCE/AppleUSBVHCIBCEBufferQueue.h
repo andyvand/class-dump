@@ -4,5 +4,5 @@
 
 class AppleUSBVHCIBCEBufferQueue {
 public: // (access info unavailable from symbols alone)
-    withParameters(AppleUSBVHCIBufferQueue::tBufferQueueRole, StandardUSBVHCI::VHCIMessage const*, IOWorkLoop*);
+    auto withParameters(AppleUSBVHCIBufferQueue::tBufferQueueRole, StandardUSBVHCI::VHCIMessage const*, IOWorkLoop*);
 };

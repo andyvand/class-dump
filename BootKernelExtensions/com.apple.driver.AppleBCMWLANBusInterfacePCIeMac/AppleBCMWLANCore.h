@@ -4,21 +4,21 @@
 
 class AppleBCMWLANCore {
 public: // (access info unavailable from symbols alone)
-    addCumulativePkts(unsigned char, unsigned int);
-    checkForHP2PSupport() const;
-    getGCRMACAddress();
-    getPTMMode();
-    getProximityInterfaceId();
-    getReliableL3CtrlTxProfileActive();
-    handleDataPathActivity(unsigned char);
-    isFWTimeSyncCapable();
-    isLlwRequeueEnabled();
-    isLowLatencyWiFiEnabled();
-    isP2pAirplayActive();
-    isSplitTxStatusEnabled();
-    isWatchdogRunning() const;
-    mapLowLatencyLowPriority();
-    reportSystemPowerState(unsigned int, bool, bool);
-    setWiFiWakeType(unsigned int);
-    updateDataPathActivityTimestamp(unsigned long long);
+    auto addCumulativePkts(unsigned char, unsigned int);
+    auto checkForHP2PSupport() const;
+    auto getGCRMACAddress();
+    auto getPTMMode();
+    auto getProximityInterfaceId();
+    auto getReliableL3CtrlTxProfileActive();
+    auto handleDataPathActivity(unsigned char);
+    auto isFWTimeSyncCapable();
+    auto isLlwRequeueEnabled();
+    auto isLowLatencyWiFiEnabled();
+    auto isP2pAirplayActive();
+    auto isSplitTxStatusEnabled();
+    auto isWatchdogRunning() const;
+    auto mapLowLatencyLowPriority();
+    auto reportSystemPowerState(unsigned int, bool, bool);
+    auto setWiFiWakeType(unsigned int);
+    auto updateDataPathActivityTimestamp(unsigned long long);
 };

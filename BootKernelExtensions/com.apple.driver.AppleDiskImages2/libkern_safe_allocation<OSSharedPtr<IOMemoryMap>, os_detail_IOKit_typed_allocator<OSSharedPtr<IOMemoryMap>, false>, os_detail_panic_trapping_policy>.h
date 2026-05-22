@@ -4,5 +4,5 @@
 
 class libkern::safe_allocation<OSSharedPtr<IOMemoryMap>, os_detail::IOKit_typed_allocator<OSSharedPtr<IOMemoryMap>, false>, os_detail::panic_trapping_policy> {
 public: // (access info unavailable from symbols alone)
-    destroy_dealloc_(OSSharedPtr<IOMemoryMap>*, unsigned long);
+    auto destroy_dealloc_(OSSharedPtr<IOMemoryMap>*, unsigned long);
 };

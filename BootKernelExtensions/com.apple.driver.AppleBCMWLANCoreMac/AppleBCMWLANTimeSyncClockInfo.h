@@ -4,19 +4,19 @@
 
 class AppleBCMWLANTimeSyncClockInfo {
 public: // (access info unavailable from symbols alone)
-    changeFilterState(unsigned short);
-    changeFilterState(unsigned short)::_os_log_fmt;
-    createTimestampSampleLogger();
-    createTimestampSampleLogger()::kalloc_type_view_734;
-    createTimestampSampleLogger()::kalloc_type_view_761;
-    createTimestampSampleLogger()::kalloc_type_view_770;
-    createTimestampSampleLogger()::kalloc_type_view_798;
-    free();
-    free()::kalloc_type_view_323;
-    getMetaClass() const;
-    initWithProviderClockInfoParams(AppleBCMWLANTimeSyncEngine*, ClockInfoParams const&);
-    initWithProviderClockInfoParams(AppleBCMWLANTimeSyncEngine*, ClockInfoParams const&)::kalloc_type_view_217;
-    reset();
-    setClockInfoProperties(BCOMIPCTLVFirmwareClockInfo const*);
+    auto changeFilterState(unsigned short);
+    auto changeFilterState(unsigned short)::_os_log_fmt;
+    auto createTimestampSampleLogger();
+    auto createTimestampSampleLogger()::kalloc_type_view_734;
+    auto createTimestampSampleLogger()::kalloc_type_view_761;
+    auto createTimestampSampleLogger()::kalloc_type_view_770;
+    auto createTimestampSampleLogger()::kalloc_type_view_798;
+    auto free();
+    auto free()::kalloc_type_view_323;
+    auto getMetaClass() const;
+    auto initWithProviderClockInfoParams(AppleBCMWLANTimeSyncEngine*, ClockInfoParams const&);
+    auto initWithProviderClockInfoParams(AppleBCMWLANTimeSyncEngine*, ClockInfoParams const&)::kalloc_type_view_217;
+    auto reset();
+    auto setClockInfoProperties(BCOMIPCTLVFirmwareClockInfo const*);
     ~AppleBCMWLANTimeSyncClockInfo();
 };

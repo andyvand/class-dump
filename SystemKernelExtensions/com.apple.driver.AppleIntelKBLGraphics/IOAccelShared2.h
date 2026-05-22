@@ -4,5 +4,5 @@
 
 class IOAccelShared2 {
 public: // (access info unavailable from symbols alone)
-    lookupResource(unsigned int, void**);
+    auto lookupResource(unsigned int, void**);
 };

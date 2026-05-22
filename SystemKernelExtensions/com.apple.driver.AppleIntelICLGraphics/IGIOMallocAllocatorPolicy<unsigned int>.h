@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<unsigned int> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(unsigned int*, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(unsigned int*, unsigned long)::kalloc_type_view_29;
 };

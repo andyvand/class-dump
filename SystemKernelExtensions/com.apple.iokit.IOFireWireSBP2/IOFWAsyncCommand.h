@@ -4,8 +4,8 @@
 
 class IOFWAsyncCommand {
 public: // (access info unavailable from symbols alone)
-    getAckCode();
-    getResponseCode() const;
-    setRetries(int);
-    updateNodeID(unsigned int, unsigned short);
+    auto getAckCode();
+    auto getResponseCode() const;
+    auto setRetries(int);
+    auto updateNodeID(unsigned int, unsigned short);
 };

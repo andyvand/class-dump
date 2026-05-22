@@ -4,5 +4,5 @@
 
 class IOUserClient {
 public: // (access info unavailable from symbols alone)
-    copyClientEntitlement(task*, char const*);
+    auto copyClientEntitlement(task*, char const*);
 };

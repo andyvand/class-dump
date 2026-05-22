@@ -6,15 +6,17 @@ class AMDRadeonX6000_AmdValidatedTimingList {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdValidatedTimingList();
     AMDRadeonX6000_AmdValidatedTimingList(OSMetaClass const*);
-    addTimingInfo(AmdDetailedTimingInformation const*, IODisplayModeInformation const*);
-    getDisplayInfoForNativeTiming(AmdDetailedTimingInformation const*, IODisplayModeInformation*) const;
-    getDisplayInfoForSameBandwidthTiming(AmdDetailedTimingInformation const*, IODisplayModeInformation*) const;
-    getDisplayInfoForTiming(AmdDetailedTimingInformation const*, IODisplayModeInformation*) const;
-    getMetaClass() const;
-    getNativeTimingInfoIndex(AmdDetailedTimingInformation const*) const;
-    getSameBandwidthTimingInfoIndex(AmdDetailedTimingInformation const*) const;
-    getTimingInfoAt(unsigned int) const;
-    getTimingInfoIndex(AmdDetailedTimingInformation const*) const;
-    withCapacity(unsigned int);
+    auto addTimingInfo(AmdDetailedTimingInformation const*, IODisplayModeInformation const*);
+    auto getDisplayInfoForNativeTiming(AmdDetailedTimingInformation const*, IODisplayModeInformation*) const;
+    auto getDisplayInfoForSameBandwidthTiming(AmdDetailedTimingInformation const*, IODisplayModeInformation*) const;
+    auto getDisplayInfoForTiming(AmdDetailedTimingInformation const*, IODisplayModeInformation*) const;
+    auto getMetaClass() const;
+    auto getNativeTimingInfoIndex(AmdDetailedTimingInformation const*) const;
+    auto getSameBandwidthTimingInfoIndex(AmdDetailedTimingInformation const*) const;
+    auto getTimingInfoAt(unsigned int) const;
+    auto getTimingInfoIndex(AmdDetailedTimingInformation const*) const;
+    auto withCapacity(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdValidatedTimingList();
 };

@@ -6,12 +6,14 @@ class IGHwCsStatsTracker {
 public: // (access info unavailable from symbols alone)
     IGHwCsStatsTracker();
     IGHwCsStatsTracker(OSMetaClass const*);
-    free();
-    getLastContextRunTimeNS(unsigned char) const;
-    getMetaClass() const;
-    initWithAccelerator(IOGraphicsAccelerator2*);
-    resetLastContextRunTimeNS(unsigned char);
-    updateWithContextUtilizationData(IGHardwareContext*);
-    withAccelerator(IOGraphicsAccelerator2*);
+    auto free();
+    auto getLastContextRunTimeNS(unsigned char) const;
+    auto getMetaClass() const;
+    auto initWithAccelerator(IOGraphicsAccelerator2*);
+    auto resetLastContextRunTimeNS(unsigned char);
+    auto updateWithContextUtilizationData(IGHardwareContext*);
+    auto withAccelerator(IOGraphicsAccelerator2*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHwCsStatsTracker();
 };

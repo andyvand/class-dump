@@ -6,9 +6,11 @@ class IOHIDWorkLoop {
 public: // (access info unavailable from symbols alone)
     IOHIDWorkLoop();
     IOHIDWorkLoop(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
-    workLoop();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto workLoop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDWorkLoop();
 };

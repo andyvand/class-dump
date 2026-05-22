@@ -5,7 +5,7 @@
 class IOWatchdogx86 {
 public: // (access info unavailable from symbols alone)
     IOWatchdogx86(OSMetaClass const*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    check_coprocessor_system(bool*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto check_coprocessor_system(bool*);
     ~IOWatchdogx86();
 };

@@ -4,7 +4,7 @@
 
 class AppleHIDMouseMapper {
 public: // (access info unavailable from symbols alone)
-    mapReport(unsigned char*, unsigned int, unsigned long long, bool*);
-    newAppleHIDMouseMapper(IOService*);
-    setKeyValuePair(OSString*, OSObject*);
+    auto mapReport(unsigned char*, unsigned int, unsigned long long, bool*);
+    auto newAppleHIDMouseMapper(IOService*);
+    auto setKeyValuePair(OSString*, OSObject*);
 };

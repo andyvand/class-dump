@@ -6,10 +6,12 @@ class IOECTimeSyncHandler {
 public: // (access info unavailable from symbols alone)
     IOECTimeSyncHandler();
     IOECTimeSyncHandler(OSMetaClass const*);
-    call(IOEthernetController::IOEthernetAVBPacket*);
-    callbackID();
-    getMetaClass() const;
-    init(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*, unsigned int);
-    isCallbackAndContext(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
+    auto call(IOEthernetController::IOEthernetAVBPacket*);
+    auto callbackID();
+    auto getMetaClass() const;
+    auto init(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*, unsigned int);
+    auto isCallbackAndContext(void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOECTimeSyncHandler();
 };

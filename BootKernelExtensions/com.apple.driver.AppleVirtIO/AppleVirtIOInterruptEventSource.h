@@ -4,7 +4,7 @@
 
 class AppleVirtIOInterruptEventSource {
 public: // (access info unavailable from symbols alone)
-    getMetaClass() const;
-    setOwner(OSObject*);
+    auto getMetaClass() const;
+    auto setOwner(OSObject*);
     ~AppleVirtIOInterruptEventSource();
 };

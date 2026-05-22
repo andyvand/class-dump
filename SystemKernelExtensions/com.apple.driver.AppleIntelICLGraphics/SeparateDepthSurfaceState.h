@@ -4,5 +4,5 @@
 
 class SeparateDepthSurfaceState {
 public: // (access info unavailable from symbols alone)
-    Generate(depth_resolve_params_t const*, SurfaceUsage);
+    auto Generate(depth_resolve_params_t const*, SurfaceUsage);
 };

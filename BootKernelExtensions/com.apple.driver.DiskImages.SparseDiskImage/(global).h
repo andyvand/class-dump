@@ -8,8 +8,6 @@ KDIBackingStore::metaClass;
 KDIDiskImage::gMetaClass;
 KDISparseDiskImage::gMetaClass;
 KDISparseDiskImage::metaClass;
-KDISparseDiskImage::operator delete(void*, unsigned long);
-KDISparseDiskImage::operator new(unsigned long);
 KDISparseDiskImage::superClass;
 KDISparseDiskImage_ktv;
 vtable for KDIDiskImage;

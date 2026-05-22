@@ -4,5 +4,5 @@
 
 class IGPriorityQueue<IGPagePool::PoolElement*, IGPagePool::PoolElementCompare, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
-    eval(IGPagePool::PoolElement* const&);
+    auto eval(IGPagePool::PoolElement* const&);
 };

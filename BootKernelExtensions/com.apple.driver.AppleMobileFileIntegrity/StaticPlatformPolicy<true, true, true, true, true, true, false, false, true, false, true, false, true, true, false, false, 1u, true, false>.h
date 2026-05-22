@@ -4,10 +4,10 @@
 
 class StaticPlatformPolicy<true, true, true, true, true, true, false, false, true, false, true, false, true, true, false, false, 1u, true, false> {
 public: // (access info unavailable from symbols alone)
-    check_signature(VnodeLazyPath*, int, cs_blob*, unsigned int*, unsigned int*, int, bool, bool, bool, unsigned int, char**, unsigned long*)::__desc;
-    check_signature(VnodeLazyPath*, int, cs_blob*, unsigned int*, unsigned int*, int, bool, bool, bool, unsigned int, char**, unsigned long*)::kalloc_type_view_3004;
-    check_signature(VnodeLazyPath*, int, cs_blob*, unsigned int*, unsigned int*, int, bool, bool, bool, unsigned int, char**, unsigned long*)::kalloc_type_view_3244;
-    loadEntitlementsFromSignature(OSEntitlements**, cs_blob*, LazyPath*, char const**);
-    loadEntitlementsFromVnode(OSEntitlements**, vnode*, long long, proc*, char const**)::__desc;
-    validateCodeDirectoryHash(LazyPath*, cs_blob*, unsigned int*, unsigned int*, OSEntitlements*, int, unsigned char, bool, bool, char*, bool, bool, bool*, AMFIHashValidationResult_*)::__desc;
+    auto check_signature(VnodeLazyPath*, int, cs_blob*, unsigned int*, unsigned int*, int, bool, bool, bool, unsigned int, char**, unsigned long*)::__desc;
+    auto check_signature(VnodeLazyPath*, int, cs_blob*, unsigned int*, unsigned int*, int, bool, bool, bool, unsigned int, char**, unsigned long*)::kalloc_type_view_3004;
+    auto check_signature(VnodeLazyPath*, int, cs_blob*, unsigned int*, unsigned int*, int, bool, bool, bool, unsigned int, char**, unsigned long*)::kalloc_type_view_3244;
+    auto loadEntitlementsFromSignature(OSEntitlements**, cs_blob*, LazyPath*, char const**);
+    auto loadEntitlementsFromVnode(OSEntitlements**, vnode*, long long, proc*, char const**)::__desc;
+    auto validateCodeDirectoryHash(LazyPath*, cs_blob*, unsigned int*, unsigned int*, OSEntitlements*, int, unsigned char, bool, bool, char*, bool, bool, bool*, AMFIHashValidationResult_*)::__desc;
 };

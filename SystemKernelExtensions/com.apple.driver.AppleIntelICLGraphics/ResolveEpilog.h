@@ -4,5 +4,5 @@
 
 class ResolveEpilog {
 public: // (access info unavailable from symbols alone)
-    Generate(unsigned long long);
+    auto Generate(unsigned long long);
 };

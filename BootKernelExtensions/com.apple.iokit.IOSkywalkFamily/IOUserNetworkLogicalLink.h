@@ -4,16 +4,18 @@
 
 class IOUserNetworkLogicalLink {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     IOUserNetworkLogicalLink();
     IOUserNetworkLogicalLink(OSMetaClass const*);
-    _Create(IOUserNetworkQueueSet**, unsigned int, IOUserNetworkLogicalLink**);
-    _Create_Impl(IOUserNetworkQueueSet**, unsigned int, IOUserNetworkLogicalLink**);
-    _Create_Invoke(IORPC, int (*)(IOUserNetworkQueueSet**, unsigned int, IOUserNetworkLogicalLink**));
-    _Dispatch(IOUserNetworkLogicalLink*, IORPC);
-    _SetEnable(bool, int (*)(OSMetaClassBase*, IORPC));
-    _SetEnable_Impl(bool);
-    _SetEnable_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, bool));
-    getMetaClass() const;
+    auto Dispatch(IORPC);
+    auto _Create(IOUserNetworkQueueSet**, unsigned int, IOUserNetworkLogicalLink**);
+    auto _Create_Impl(IOUserNetworkQueueSet**, unsigned int, IOUserNetworkLogicalLink**);
+    auto _Create_Invoke(IORPC, int (*)(IOUserNetworkQueueSet**, unsigned int, IOUserNetworkLogicalLink**));
+    auto _Dispatch(IOUserNetworkLogicalLink*, IORPC);
+    auto _SetEnable(bool, int (*)(OSMetaClassBase*, IORPC));
+    auto _SetEnable_Impl(bool);
+    auto _SetEnable_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, bool));
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserNetworkLogicalLink();
 };

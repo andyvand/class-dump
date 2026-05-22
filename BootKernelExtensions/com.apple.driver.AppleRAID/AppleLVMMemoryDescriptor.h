@@ -6,11 +6,13 @@ class AppleLVMMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     AppleLVMMemoryDescriptor();
     AppleLVMMemoryDescriptor(OSMetaClass const*);
-    configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned long long, AppleLVMVolume*);
-    getMetaClass() const;
-    getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
-    initWithStorageRequest(AppleRAIDStorageRequest*, unsigned int);
-    withStorageRequest(AppleRAIDStorageRequest*, unsigned int);
-    withStorageRequest(AppleRAIDStorageRequest*, unsigned int) (.cold.1);
+    auto configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned long long, AppleLVMVolume*);
+    auto getMetaClass() const;
+    auto getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
+    auto initWithStorageRequest(AppleRAIDStorageRequest*, unsigned int);
+    auto withStorageRequest(AppleRAIDStorageRequest*, unsigned int);
+    auto withStorageRequest(AppleRAIDStorageRequest*, unsigned int) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleLVMMemoryDescriptor();
 };

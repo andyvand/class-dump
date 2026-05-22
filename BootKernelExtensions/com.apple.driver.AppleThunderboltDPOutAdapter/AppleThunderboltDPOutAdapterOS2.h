@@ -6,15 +6,17 @@ class AppleThunderboltDPOutAdapterOS2 {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltDPOutAdapterOS2();
     AppleThunderboltDPOutAdapterOS2(OSMetaClass const*);
-    clearCachedValues();
-    doOpenSpecALPM();
-    getALPMSupport();
-    getALPMSupportIsSimulated();
-    getMetaClass() const;
-    getPMPacketSupport();
-    probe(IOService*, int*);
-    processDPConnectChangeNotification(unsigned long long, unsigned int, unsigned int, unsigned int);
-    setALPMSupport(bool);
-    setALPMSupportIsSimulated(bool);
+    auto clearCachedValues();
+    auto doOpenSpecALPM();
+    auto getALPMSupport();
+    auto getALPMSupportIsSimulated();
+    auto getMetaClass() const;
+    auto getPMPacketSupport();
+    auto probe(IOService*, int*);
+    auto processDPConnectChangeNotification(unsigned long long, unsigned int, unsigned int, unsigned int);
+    auto setALPMSupport(bool);
+    auto setALPMSupportIsSimulated(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltDPOutAdapterOS2();
 };

@@ -4,14 +4,16 @@
 
 class com_apple_driver_iPodSBCNub {
 public: // (access info unavailable from symbols alone)
-    GetProvider();
+    auto GetProvider();
+    auto getMetaClass() const;
+    auto handleClose(IOService*, unsigned int);
+    auto handleIsOpen(IOService const*) const;
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto open(IOService*, unsigned int, unsigned int);
+    auto start(IOService*);
     com_apple_driver_iPodSBCNub();
     com_apple_driver_iPodSBCNub(OSMetaClass const*);
-    getMetaClass() const;
-    handleClose(IOService*, unsigned int);
-    handleIsOpen(IOService const*) const;
-    handleOpen(IOService*, unsigned int, void*);
-    open(IOService*, unsigned int, unsigned int);
-    start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_iPodSBCNub();
 };

@@ -6,14 +6,16 @@ class AUAADC3ClassSpecificDescriptorFetcher {
 public: // (access info unavailable from symbols alone)
     AUAADC3ClassSpecificDescriptorFetcher();
     AUAADC3ClassSpecificDescriptorFetcher(OSMetaClass const*);
-    BADD_Cluster(unsigned short);
-    BADD_Connectors(unsigned short);
-    configureToFetchImpliedBADDDescriptors();
-    free();
-    getADC3ClassSpecificDescriptor(ADC3ClassSpecificRequestCode, ADC3HighCapabilityDescriptor*, unsigned char, unsigned char);
-    getMetaClass() const;
-    initWithDevice(AppleUSBAudioDevice*);
-    withDevice(AppleUSBAudioDevice*);
-    withDevice(AppleUSBAudioDevice*) (.cold.1);
+    auto BADD_Cluster(unsigned short);
+    auto BADD_Connectors(unsigned short);
+    auto configureToFetchImpliedBADDDescriptors();
+    auto free();
+    auto getADC3ClassSpecificDescriptor(ADC3ClassSpecificRequestCode, ADC3HighCapabilityDescriptor*, unsigned char, unsigned char);
+    auto getMetaClass() const;
+    auto initWithDevice(AppleUSBAudioDevice*);
+    auto withDevice(AppleUSBAudioDevice*);
+    auto withDevice(AppleUSBAudioDevice*) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AUAADC3ClassSpecificDescriptorFetcher();
 };

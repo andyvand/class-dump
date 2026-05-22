@@ -5,10 +5,10 @@
 class IOTimeSyncDaemonServiceBase {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncDaemonServiceBase(OSMetaClass const*);
-    addDaemonClient(IOTimeSyncDaemonClientBase*);
-    getAnyDaemonClient();
-    getDaemonClient(unsigned int);
-    getFirstDaemonClientForProcess(int);
-    removeDaemonClient(IOTimeSyncDaemonClientBase*);
+    auto addDaemonClient(IOTimeSyncDaemonClientBase*);
+    auto getAnyDaemonClient();
+    auto getDaemonClient(unsigned int);
+    auto getFirstDaemonClientForProcess(int);
+    auto removeDaemonClient(IOTimeSyncDaemonClientBase*);
     ~IOTimeSyncDaemonServiceBase();
 };

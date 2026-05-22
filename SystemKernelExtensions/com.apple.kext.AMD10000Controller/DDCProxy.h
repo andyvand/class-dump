@@ -4,5 +4,5 @@
 
 class DDCProxy {
 public: // (access info unavailable from symbols alone)
-    initWithController(ATIController*);
+    auto initWithController(ATIController*);
 };

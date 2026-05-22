@@ -4,5 +4,5 @@
 
 class IO80211BufferPool {
 public: // (access info unavailable from symbols alone)
-    withOptions(IO80211BufferPoolOptions*, bool);
+    auto withOptions(IO80211BufferPoolOptions*, bool);
 };

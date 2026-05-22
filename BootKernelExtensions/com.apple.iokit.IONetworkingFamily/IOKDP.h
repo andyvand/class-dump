@@ -6,10 +6,12 @@ class IOKDP {
 public: // (access info unavailable from symbols alone)
     IOKDP();
     IOKDP(OSMetaClass const*);
-    getMetaClass() const;
-    message(unsigned int, IOService*, void*);
-    probe(IOService*, int*);
-    start(IOService*);
-    stop(IOService*);
+    auto getMetaClass() const;
+    auto message(unsigned int, IOService*, void*);
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOKDP();
 };

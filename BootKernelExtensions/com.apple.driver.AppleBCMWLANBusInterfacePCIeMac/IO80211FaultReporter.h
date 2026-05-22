@@ -4,5 +4,5 @@
 
 class IO80211FaultReporter {
 public: // (access info unavailable from symbols alone)
-    allocWithParams(CCFaultReporter*);
+    auto allocWithParams(CCFaultReporter*);
 };

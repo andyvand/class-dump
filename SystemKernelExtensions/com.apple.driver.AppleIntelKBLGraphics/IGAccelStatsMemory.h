@@ -4,7 +4,7 @@
 
 class IGAccelStatsMemory {
 public: // (access info unavailable from symbols alone)
-    allocStatsMem();
-    init(IntelAccelerator*);
-    mapStatsMemForUser(task*, IOMemoryMap*&);
+    auto allocStatsMem();
+    auto init(IntelAccelerator*);
+    auto mapStatsMemForUser(task*, IOMemoryMap*&);
 };

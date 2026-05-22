@@ -4,8 +4,8 @@
 
 class AppleBCMWLANIOReporting {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_194;
-    init(AppleBCMWLANIOReporting_Params);
-    init(AppleBCMWLANIOReporting_Params)::kalloc_type_view_76;
+    auto free();
+    auto free()::kalloc_type_view_194;
+    auto init(AppleBCMWLANIOReporting_Params);
+    auto init(AppleBCMWLANIOReporting_Params)::kalloc_type_view_76;
 };

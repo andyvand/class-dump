@@ -6,7 +6,9 @@ class MPIFramePool {
 public: // (access info unavailable from symbols alone)
     MPIFramePool();
     MPIFramePool(OSMetaClass const*);
-    WithWorkLoop(IOWorkLoop*);
-    getMetaClass() const;
+    auto WithWorkLoop(IOWorkLoop*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~MPIFramePool();
 };

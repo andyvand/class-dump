@@ -6,14 +6,16 @@ class AppleUTDMTransmitCommand {
 public: // (access info unavailable from symbols alone)
     AppleUTDMTransmitCommand();
     AppleUTDMTransmitCommand(OSMetaClass const*);
-    BuildAppleThunderboltUTDMProtocolCommandFramePacket(unsigned int, unsigned int, unsigned long long, unsigned int, unsigned int, unsigned char*);
-    BuildAppleThunderboltUTDMProtocolResetCommandAgentFramePacket();
-    BuildRecordThunderboltUTDMStatusFramePacket(unsigned int, unsigned int, unsigned int, unsigned char, unsigned short, void*);
-    TypeForFrame();
-    free();
-    getMetaClass() const;
-    initWithController(IOThunderboltController*);
-    initWithController(IOThunderboltController*, IOThunderboltXDomainLink*);
-    withController(IOThunderboltController*, IOThunderboltXDomainLink*, EFI_GUID, EFI_GUID);
+    auto BuildAppleThunderboltUTDMProtocolCommandFramePacket(unsigned int, unsigned int, unsigned long long, unsigned int, unsigned int, unsigned char*);
+    auto BuildAppleThunderboltUTDMProtocolResetCommandAgentFramePacket();
+    auto BuildRecordThunderboltUTDMStatusFramePacket(unsigned int, unsigned int, unsigned int, unsigned char, unsigned short, void*);
+    auto TypeForFrame();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithController(IOThunderboltController*);
+    auto initWithController(IOThunderboltController*, IOThunderboltXDomainLink*);
+    auto withController(IOThunderboltController*, IOThunderboltXDomainLink*, EFI_GUID, EFI_GUID);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUTDMTransmitCommand();
 };

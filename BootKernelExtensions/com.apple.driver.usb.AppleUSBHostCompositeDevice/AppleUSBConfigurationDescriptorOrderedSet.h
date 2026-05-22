@@ -6,8 +6,10 @@ class AppleUSBConfigurationDescriptorOrderedSet {
 public: // (access info unavailable from symbols alone)
     AppleUSBConfigurationDescriptorOrderedSet();
     AppleUSBConfigurationDescriptorOrderedSet(OSMetaClass const*);
-    getMetaClass() const;
-    orderFunction(OSMetaClassBase const*, OSMetaClassBase const*, void*);
-    withCapacity(unsigned int);
+    auto getMetaClass() const;
+    auto orderFunction(OSMetaClassBase const*, OSMetaClassBase const*, void*);
+    auto withCapacity(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBConfigurationDescriptorOrderedSet();
 };

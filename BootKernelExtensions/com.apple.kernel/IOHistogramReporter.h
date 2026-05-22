@@ -6,13 +6,15 @@ class IOHistogramReporter {
 public: // (access info unavailable from symbols alone)
     IOHistogramReporter();
     IOHistogramReporter(OSMetaClass const*);
-    createLegend(unsigned long long, char const*, int, IOHistogramSegmentConfig*, unsigned short, unsigned long long);
-    free();
-    getMetaClass() const;
-    handleCreateLegend();
-    initWith(IOService*, unsigned short, unsigned long long, OSSymbol const*, unsigned long long, int, IOHistogramSegmentConfig*);
-    overrideBucketValues(unsigned int, unsigned long long, long long, long long, long long);
-    tallyValue(long long);
-    with(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
+    auto createLegend(unsigned long long, char const*, int, IOHistogramSegmentConfig*, unsigned short, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto handleCreateLegend();
+    auto initWith(IOService*, unsigned short, unsigned long long, OSSymbol const*, unsigned long long, int, IOHistogramSegmentConfig*);
+    auto overrideBucketValues(unsigned int, unsigned long long, long long, long long, long long);
+    auto tallyValue(long long);
+    auto with(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHistogramReporter();
 };

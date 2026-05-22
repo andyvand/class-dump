@@ -6,13 +6,15 @@ class WCLDebugManager {
 public: // (access info unavailable from symbols alone)
     WCLDebugManager();
     WCLDebugManager(OSMetaClass const*);
-    debugCmd(bulletinBoardMessage&);
-    free();
-    free()::kalloc_type_view_55;
-    freeResources();
-    getMetaClass() const;
-    initWithOptions(WCLController*, WCLBulletinBoard*);
-    initWithOptions(WCLController*, WCLBulletinBoard*)::kalloc_type_view_79;
-    withOptions(WCLController*, WCLBulletinBoard*);
+    auto debugCmd(bulletinBoardMessage&);
+    auto free();
+    auto free()::kalloc_type_view_55;
+    auto freeResources();
+    auto getMetaClass() const;
+    auto initWithOptions(WCLController*, WCLBulletinBoard*);
+    auto initWithOptions(WCLController*, WCLBulletinBoard*)::kalloc_type_view_79;
+    auto withOptions(WCLController*, WCLBulletinBoard*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~WCLDebugManager();
 };

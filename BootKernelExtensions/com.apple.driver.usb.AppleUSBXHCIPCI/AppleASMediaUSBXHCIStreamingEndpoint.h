@@ -6,8 +6,10 @@ class AppleASMediaUSBXHCIStreamingEndpoint {
 public: // (access info unavailable from symbols alone)
     AppleASMediaUSBXHCIStreamingEndpoint();
     AppleASMediaUSBXHCIStreamingEndpoint(OSMetaClass const*);
-    disableStreams();
-    getMetaClass() const;
-    withParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, unsigned int, IOMapper*);
+    auto disableStreams();
+    auto getMetaClass() const;
+    auto withParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, unsigned int, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleASMediaUSBXHCIStreamingEndpoint();
 };

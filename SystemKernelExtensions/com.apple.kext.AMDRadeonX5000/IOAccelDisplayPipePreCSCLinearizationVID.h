@@ -4,11 +4,11 @@
 
 class IOAccelDisplayPipePreCSCLinearizationVID {
 public: // (access info unavailable from symbols alone)
-    getConfigurationID() const;
-    getFormat() const;
-    getMaximumValue() const;
-    getMinimumValue() const;
-    getPlane() const;
-    getSize() const;
-    getType() const;
+    auto getConfigurationID() const;
+    auto getFormat() const;
+    auto getMaximumValue() const;
+    auto getMinimumValue() const;
+    auto getPlane() const;
+    auto getSize() const;
+    auto getType() const;
 };

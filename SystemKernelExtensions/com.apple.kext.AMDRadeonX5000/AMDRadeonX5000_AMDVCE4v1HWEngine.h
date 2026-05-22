@@ -6,12 +6,14 @@ class AMDRadeonX5000_AMDVCE4v1HWEngine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDVCE4v1HWEngine();
     AMDRadeonX5000_AMDVCE4v1HWEngine(OSMetaClass const*);
-    allocateHWChannels();
-    allocateHWRings();
-    dumpEngineHangState(bool);
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX5000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
-    isIdle();
+    auto allocateHWChannels();
+    auto allocateHWRings();
+    auto dumpEngineHangState(bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX5000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    auto isIdle();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDVCE4v1HWEngine();
 };

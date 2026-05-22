@@ -5,6 +5,6 @@
 class IOGPUResidentMemorySet::Snapshot {
 public: // (access info unavailable from symbols alone)
     Snapshot(IOGPUResidentMemorySet&);
-    getNextMemory();
+    auto getNextMemory();
     ~Snapshot();
 };

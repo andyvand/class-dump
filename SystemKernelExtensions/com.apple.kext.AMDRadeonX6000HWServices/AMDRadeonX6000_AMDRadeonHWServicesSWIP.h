@@ -5,11 +5,13 @@
 class AMDRadeonX6000_AMDRadeonHWServicesSWIP {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDRadeonHWServicesSWIP(OSMetaClass const*);
-    createTtlInterface(IOPCIDevice*);
-    free();
-    getMetaClass() const;
-    getTtl();
-    start(IOService*);
-    stop(IOService*);
+    auto createTtlInterface(IOPCIDevice*);
+    auto free();
+    auto getMetaClass() const;
+    auto getTtl();
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDRadeonHWServicesSWIP();
 };

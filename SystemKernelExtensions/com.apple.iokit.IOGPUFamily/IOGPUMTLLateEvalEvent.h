@@ -6,10 +6,12 @@ class IOGPUMTLLateEvalEvent {
 public: // (access info unavailable from symbols alone)
     IOGPUMTLLateEvalEvent();
     IOGPUMTLLateEvalEvent(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getSubmittedValue();
-    initWithAccelerator(IOGPU*);
-    signalSubmitted(unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto getSubmittedValue();
+    auto initWithAccelerator(IOGPU*);
+    auto signalSubmitted(unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUMTLLateEvalEvent();
 };

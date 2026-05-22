@@ -4,7 +4,7 @@
 
 class btree<unsigned long long>::iterator {
 public: // (access info unavailable from symbols alone)
-    moveto_greater(unsigned long long const&);
-    operator++();
-    operator=(btree<unsigned long long>::iterator const&);
+    auto moveto_greater(unsigned long long const&);
+    auto operator++();
+    auto operator=(btree<unsigned long long>::iterator const&);
 };

@@ -5,7 +5,7 @@
 class AtiAppleNavi10PowerTuneServices {
 public: // (access info unavailable from symbols alone)
     AtiAppleNavi10PowerTuneServices(PP_Instance*, PowerPlayCallbacks*);
-    getPowerTuneLimit();
-    setPowerTuneLimit(unsigned int);
+    auto getPowerTuneLimit();
+    auto setPowerTuneLimit(unsigned int);
     ~AtiAppleNavi10PowerTuneServices();
 };

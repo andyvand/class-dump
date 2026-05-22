@@ -4,9 +4,9 @@
 
 class AppleMMIOSerial {
 public: // (access info unavailable from symbols alone)
-    free();
-    initForPM(IOService*);
-    isConsoleDevice(IOService*);
-    probe(IOService*, int*);
-    setPowerState(unsigned long, IOService*);
+    auto free();
+    auto initForPM(IOService*);
+    auto isConsoleDevice(IOService*);
+    auto probe(IOService*, int*);
+    auto setPowerState(unsigned long, IOService*);
 };

@@ -6,6 +6,8 @@ class _IOServiceStateNotification {
 public: // (access info unavailable from symbols alone)
     _IOServiceStateNotification();
     _IOServiceStateNotification(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_IOServiceStateNotification();
 };

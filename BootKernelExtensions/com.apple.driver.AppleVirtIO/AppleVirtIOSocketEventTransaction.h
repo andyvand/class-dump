@@ -4,12 +4,12 @@
 
 class AppleVirtIOSocketEventTransaction {
 public: // (access info unavailable from symbols alone)
-    free();
-    getEventType();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    initWithDirectDescriptors();
-    withEventTransaction();
+    auto free();
+    auto getEventType();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto initWithDirectDescriptors();
+    auto withEventTransaction();
     ~AppleVirtIOSocketEventTransaction();
 };

@@ -5,19 +5,21 @@
 class AMDRadeonX5000_AMDPM4HWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDPM4HWChannel(OSMetaClass const*);
-    allocateMemoryResources();
-    attachUserQueue(AMDRadeonX5000_AMDUserQueue*);
-    detachUserQueue(AMDRadeonX5000_AMDUserQueue*);
-    free();
-    getChannelProgressStatus(bool&);
-    getMetaClass() const;
-    getOneDwordNOPCommand();
-    getRing() const;
-    gfxResetWithEOP(CailHwEngineQueue*);
-    infiniteWaitOnPowerUp();
-    init(int, AMDRadeonX5000_IAMDHWInterface*, AMDRadeonX5000_IAMDHWEngine*, AMDRadeonX5000_IAMDHWRing*, char const*);
-    performClearState();
-    prepareAndFlushResetEOPFence();
-    submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto allocateMemoryResources();
+    auto attachUserQueue(AMDRadeonX5000_AMDUserQueue*);
+    auto detachUserQueue(AMDRadeonX5000_AMDUserQueue*);
+    auto free();
+    auto getChannelProgressStatus(bool&);
+    auto getMetaClass() const;
+    auto getOneDwordNOPCommand();
+    auto getRing() const;
+    auto gfxResetWithEOP(CailHwEngineQueue*);
+    auto infiniteWaitOnPowerUp();
+    auto init(int, AMDRadeonX5000_IAMDHWInterface*, AMDRadeonX5000_IAMDHWEngine*, AMDRadeonX5000_IAMDHWRing*, char const*);
+    auto performClearState();
+    auto prepareAndFlushResetEOPFence();
+    auto submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDPM4HWChannel();
 };

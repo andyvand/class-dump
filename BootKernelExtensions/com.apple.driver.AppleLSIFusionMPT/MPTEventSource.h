@@ -5,8 +5,10 @@
 class MPTEventSource {
 public: // (access info unavailable from symbols alone)
     MPTEventSource(OSMetaClass const*);
-    Timeout(void*);
-    getMetaClass() const;
-    setTimeoutFunc();
+    auto Timeout(void*);
+    auto getMetaClass() const;
+    auto setTimeoutFunc();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~MPTEventSource();
 };

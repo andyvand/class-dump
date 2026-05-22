@@ -5,13 +5,15 @@
 class BaffinSharedAnalogConnection {
 public: // (access info unavailable from symbols alone)
     BaffinSharedAnalogConnection(OSMetaClass const*);
-    getMetaClass() const;
-    getSync();
-    init(ATIController*, ActiveConnectorInfo*, ATIPanel*);
-    initialize();
-    isCRT();
-    isTV();
-    setBlankInternal(bool, unsigned int, unsigned int);
-    setSyncInternal(unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto getSync();
+    auto init(ATIController*, ActiveConnectorInfo*, ATIPanel*);
+    auto initialize();
+    auto isCRT();
+    auto isTV();
+    auto setBlankInternal(bool, unsigned int, unsigned int);
+    auto setSyncInternal(unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinSharedAnalogConnection();
 };

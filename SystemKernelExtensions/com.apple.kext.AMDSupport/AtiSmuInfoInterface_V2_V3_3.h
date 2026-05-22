@@ -6,9 +6,11 @@ class AtiSmuInfoInterface_V2_V3_3 {
 public: // (access info unavailable from symbols alone)
     AtiSmuInfoInterface_V2_V3_3();
     AtiSmuInfoInterface_V2_V3_3(OSMetaClass const*);
-    getMetaClass() const;
-    getSmuClockInfo(_SmuClockInfo*);
-    getSpreadSpectrumInfo(AtiAtomSignalType, SpreadSpectrumInfo*);
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto getMetaClass() const;
+    auto getSmuClockInfo(_SmuClockInfo*);
+    auto getSpreadSpectrumInfo(AtiAtomSignalType, SpreadSpectrumInfo*);
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSmuInfoInterface_V2_V3_3();
 };

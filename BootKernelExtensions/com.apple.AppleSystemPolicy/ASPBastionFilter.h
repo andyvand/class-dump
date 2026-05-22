@@ -5,6 +5,6 @@
 class ASPBastionFilter {
 public: // (access info unavailable from symbols alone)
     ASPBastionFilter();
-    getMatchesForRule(unsigned long long, syspolicyd_meta_rules_info*, unsigned long long);
+    auto getMatchesForRule(unsigned long long, syspolicyd_meta_rules_info*, unsigned long long);
     ~ASPBastionFilter();
 };

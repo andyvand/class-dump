@@ -4,6 +4,6 @@
 
 class IOPerfControlClient {
 public: // (access info unavailable from symbols alone)
-    copyClientForDeviceType(IOService*, unsigned long long, IOPerfControlClient::IOPCDeviceType);
-    querySubmitterRole(IOService*, task*, unsigned int*);
+    auto copyClientForDeviceType(IOService*, unsigned long long, IOPerfControlClient::IOPCDeviceType);
+    auto querySubmitterRole(IOService*, task*, unsigned int*);
 };

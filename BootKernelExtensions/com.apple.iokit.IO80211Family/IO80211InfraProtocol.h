@@ -5,6 +5,8 @@
 class IO80211InfraProtocol {
 public: // (access info unavailable from symbols alone)
     IO80211InfraProtocol(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211InfraProtocol();
 };

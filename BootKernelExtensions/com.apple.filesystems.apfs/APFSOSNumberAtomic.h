@@ -4,9 +4,9 @@
 
 class APFSOSNumberAtomic {
 public: // (access info unavailable from symbols alone)
-    addValue(long long);
-    getMetaClass() const;
-    withNumber(long long);
-    withNumber(long long) (.1424);
+    auto addValue(long long);
+    auto getMetaClass() const;
+    auto withNumber(long long);
+    auto withNumber(long long) (.1424);
     ~APFSOSNumberAtomic();
 };

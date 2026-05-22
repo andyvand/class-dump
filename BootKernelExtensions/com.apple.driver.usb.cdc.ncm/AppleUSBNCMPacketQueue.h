@@ -5,6 +5,6 @@
 class AppleUSBNCMPacketQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBNCMPacketQueue();
-    reset();
+    auto reset();
     ~AppleUSBNCMPacketQueue();
 };

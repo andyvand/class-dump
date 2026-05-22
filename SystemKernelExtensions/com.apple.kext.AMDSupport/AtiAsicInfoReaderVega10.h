@@ -6,7 +6,9 @@ class AtiAsicInfoReaderVega10 {
 public: // (access info unavailable from symbols alone)
     AtiAsicInfoReaderVega10();
     AtiAsicInfoReaderVega10(OSMetaClass const*);
-    getMetaClass() const;
-    readAsicInfo(FirmwareInfo*);
+    auto getMetaClass() const;
+    auto readAsicInfo(FirmwareInfo*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiAsicInfoReaderVega10();
 };

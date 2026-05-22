@@ -4,5 +4,5 @@
 
 class IOMbufLittleMemoryCursor {
 public: // (access info unavailable from symbols alone)
-    withSpecification(unsigned int, unsigned int);
+    auto withSpecification(unsigned int, unsigned int);
 };

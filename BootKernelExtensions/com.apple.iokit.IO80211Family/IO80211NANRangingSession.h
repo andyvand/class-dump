@@ -6,15 +6,17 @@ class IO80211NANRangingSession {
 public: // (access info unavailable from symbols alone)
     IO80211NANRangingSession();
     IO80211NANRangingSession(OSMetaClass const*);
-    cancelRanging();
-    free();
-    free()::kalloc_type_view_69;
-    getMetaClass() const;
-    getSessionId();
-    handleRangeReport(apple80211_nan_ranging_report_event_data*);
-    handleRangeResponse(apple80211_nan_ranging_response_indication_event_data*);
-    init(IO80211NANPeerManager*, apple80211_nan_ranging_role, void*);
-    init(IO80211NANPeerManager*, apple80211_nan_ranging_role, void*)::kalloc_type_view_36;
-    printRangingSessionInfo(userPrintCtx*);
+    auto cancelRanging();
+    auto free();
+    auto free()::kalloc_type_view_69;
+    auto getMetaClass() const;
+    auto getSessionId();
+    auto handleRangeReport(apple80211_nan_ranging_report_event_data*);
+    auto handleRangeResponse(apple80211_nan_ranging_response_indication_event_data*);
+    auto init(IO80211NANPeerManager*, apple80211_nan_ranging_role, void*);
+    auto init(IO80211NANPeerManager*, apple80211_nan_ranging_role, void*)::kalloc_type_view_36;
+    auto printRangingSessionInfo(userPrintCtx*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211NANRangingSession();
 };

@@ -5,6 +5,8 @@
 class AMDRadeonX4000_IAMDHWAlignManager {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_IAMDHWAlignManager(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_IAMDHWAlignManager();
 };

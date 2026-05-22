@@ -5,20 +5,22 @@
 class IO80211NetworkPacket {
 public: // (access info unavailable from symbols alone)
     IO80211NetworkPacket(OSMetaClass const*);
-    firmwareToHostTxStatus(IO80211NetworkTXStatus);
-    getBufferSize();
-    getFirmwareTxStatus();
-    getIngressEgressTimestamp() const;
-    getMetaClass() const;
-    getPacketType();
-    getPktEnqueueTime() const;
-    getVirtualAddress();
-    isPTMMode() const;
-    prepareWithQueue(IOSkywalkPacketQueue*, unsigned int);
-    prepareWithQueue(IOSkywalkPacketQueue*, unsigned int, unsigned int);
-    setFirmwareTxStatus(IO80211NetworkTXStatus);
-    setIngressEgressTimestamp(unsigned long long);
-    setPTMMode(bool);
-    setPktEnqueueTime(unsigned long long);
+    auto firmwareToHostTxStatus(IO80211NetworkTXStatus);
+    auto getBufferSize();
+    auto getFirmwareTxStatus();
+    auto getIngressEgressTimestamp() const;
+    auto getMetaClass() const;
+    auto getPacketType();
+    auto getPktEnqueueTime() const;
+    auto getVirtualAddress();
+    auto isPTMMode() const;
+    auto prepareWithQueue(IOSkywalkPacketQueue*, unsigned int);
+    auto prepareWithQueue(IOSkywalkPacketQueue*, unsigned int, unsigned int);
+    auto setFirmwareTxStatus(IO80211NetworkTXStatus);
+    auto setIngressEgressTimestamp(unsigned long long);
+    auto setPTMMode(bool);
+    auto setPktEnqueueTime(unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211NetworkPacket();
 };

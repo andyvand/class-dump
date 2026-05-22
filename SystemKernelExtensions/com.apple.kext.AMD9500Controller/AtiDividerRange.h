@@ -4,7 +4,7 @@
 
 class AtiDividerRange {
 public: // (access info unavailable from symbols alone)
-    CalcDid(unsigned int);
-    CalcDivider(unsigned int);
-    createDividerRange(unsigned int, unsigned int, unsigned int, unsigned int);
+    auto CalcDid(unsigned int);
+    auto CalcDivider(unsigned int);
+    auto createDividerRange(unsigned int, unsigned int, unsigned int, unsigned int);
 };

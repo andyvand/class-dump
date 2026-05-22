@@ -6,6 +6,6 @@ class R700_CHDCP {
 public: // (access info unavailable from symbols alone)
     R700_CHDCP();
     R700_CHDCP(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
     ~R700_CHDCP();
 };

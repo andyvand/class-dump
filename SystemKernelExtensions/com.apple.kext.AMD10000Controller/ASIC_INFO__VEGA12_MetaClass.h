@@ -5,6 +5,6 @@
 class ASIC_INFO__VEGA12::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

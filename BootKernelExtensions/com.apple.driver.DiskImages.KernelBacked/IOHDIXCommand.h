@@ -4,6 +4,6 @@
 
 class IOHDIXCommand {
 public: // (access info unavailable from symbols alone)
-    complete(int, unsigned long long);
-    release();
+    auto complete(int, unsigned long long);
+    auto release();
 };

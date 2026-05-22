@@ -4,19 +4,21 @@
 
 class com_softraid_driver_SoftRAID_Queue {
 public: // (access info unavailable from symbols alone)
-    AddPtrToQueue(void*);
-    Lock();
-    NumberObjectsInQueue();
-    ObjectAtIndex(unsigned int);
-    RemoveNextPtrFromQueue();
-    RemovePtrFromQueue(void*);
-    Unlock();
+    auto AddPtrToQueue(void*);
+    auto Lock();
+    auto NumberObjectsInQueue();
+    auto ObjectAtIndex(unsigned int);
+    auto RemoveNextPtrFromQueue();
+    auto RemovePtrFromQueue(void*);
+    auto Unlock();
+    auto free();
+    auto free()::kalloc_type_view_62;
+    auto getMetaClass() const;
+    auto init(unsigned int);
+    auto init(unsigned int)::kalloc_type_view_32;
     com_softraid_driver_SoftRAID_Queue();
     com_softraid_driver_SoftRAID_Queue(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_62;
-    getMetaClass() const;
-    init(unsigned int);
-    init(unsigned int)::kalloc_type_view_32;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_Queue();
 };

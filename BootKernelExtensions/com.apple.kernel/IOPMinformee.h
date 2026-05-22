@@ -6,9 +6,11 @@ class IOPMinformee {
 public: // (access info unavailable from symbols alone)
     IOPMinformee();
     IOPMinformee(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initialize(IOService*);
-    withObject(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto initialize(IOService*);
+    auto withObject(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPMinformee();
 };

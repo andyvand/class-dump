@@ -6,15 +6,17 @@ class AMDRadeonX4000_AMDUVD6v3DecChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDUVD6v3DecChannel();
     AMDRadeonX4000_AMDUVD6v3DecChannel(OSMetaClass const*);
-    commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
-    free();
-    getMetaClass() const;
-    getOneDwordNOPCommand();
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
-    initializeFenceCmd();
-    initializeIndirectBufferCmd();
-    initializeIndirectCommandBufferFrame();
-    initializeTrapCmd();
-    writeGPUClockCountReportCommand(unsigned int*, unsigned long long);
+    auto commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto free();
+    auto getMetaClass() const;
+    auto getOneDwordNOPCommand();
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto initializeFenceCmd();
+    auto initializeIndirectBufferCmd();
+    auto initializeIndirectCommandBufferFrame();
+    auto initializeTrapCmd();
+    auto writeGPUClockCountReportCommand(unsigned int*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDUVD6v3DecChannel();
 };

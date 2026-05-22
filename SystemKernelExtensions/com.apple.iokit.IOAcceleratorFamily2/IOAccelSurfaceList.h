@@ -4,11 +4,11 @@
 
 class IOAccelSurfaceList {
 public: // (access info unavailable from symbols alone)
-    addSurface(IOAccelSurface*);
-    findSurfaceForID(unsigned int);
-    getCount() const;
-    init();
-    moveSurfaceToHead(IOAccelSurface*);
-    removeSurface(IOAccelSurface*);
-    removeSurface(IOAccelSurface*)::_os_log_fmt;
+    auto addSurface(IOAccelSurface*);
+    auto findSurfaceForID(unsigned int);
+    auto getCount() const;
+    auto init();
+    auto moveSurfaceToHead(IOAccelSurface*);
+    auto removeSurface(IOAccelSurface*);
+    auto removeSurface(IOAccelSurface*)::_os_log_fmt;
 };

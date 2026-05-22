@@ -5,9 +5,11 @@
 class AtiPowerPlayInfoInterface_V2 {
 public: // (access info unavailable from symbols alone)
     AtiPowerPlayInfoInterface_V2(OSMetaClass const*);
-    createPowerPlayInfo(AtiVBiosHelper*, unsigned int);
-    getInterGpuInfo(InterGpuInfo&);
-    getMaxClocksInKHz(unsigned int&, unsigned int&);
-    getMetaClass() const;
+    auto createPowerPlayInfo(AtiVBiosHelper*, unsigned int);
+    auto getInterGpuInfo(InterGpuInfo&);
+    auto getMaxClocksInKHz(unsigned int&, unsigned int&);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPowerPlayInfoInterface_V2();
 };

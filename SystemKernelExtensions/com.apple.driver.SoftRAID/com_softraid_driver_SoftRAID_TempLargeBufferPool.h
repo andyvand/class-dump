@@ -4,9 +4,11 @@
 
 class com_softraid_driver_SoftRAID_TempLargeBufferPool {
 public: // (access info unavailable from symbols alone)
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_TempLargeBufferPool();
     com_softraid_driver_SoftRAID_TempLargeBufferPool(OSMetaClass const*);
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_TempLargeBufferPool();
 };

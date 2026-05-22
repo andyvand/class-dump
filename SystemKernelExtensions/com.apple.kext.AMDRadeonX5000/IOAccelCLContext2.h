@@ -5,12 +5,12 @@
 class IOAccelCLContext2 {
 public: // (access info unavailable from symbols alone)
     IOAccelCLContext2(OSMetaClass const*);
-    _RESERVEDIOAccelCLContext0();
-    _RESERVEDIOAccelCLContext1();
-    _RESERVEDIOAccelCLContext2();
-    _RESERVEDIOAccelCLContext3();
-    _RESERVEDIOAccelCLContext4();
-    _RESERVEDIOAccelCLContext5();
-    processDataBuffers(unsigned int);
+    auto _RESERVEDIOAccelCLContext0();
+    auto _RESERVEDIOAccelCLContext1();
+    auto _RESERVEDIOAccelCLContext2();
+    auto _RESERVEDIOAccelCLContext3();
+    auto _RESERVEDIOAccelCLContext4();
+    auto _RESERVEDIOAccelCLContext5();
+    auto processDataBuffers(unsigned int);
     ~IOAccelCLContext2();
 };

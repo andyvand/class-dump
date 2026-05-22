@@ -6,9 +6,11 @@ class AppleUSBXHCISparseRequest {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCISparseRequest();
     AppleUSBXHCISparseRequest(OSMetaClass const*);
-    getMetaClass() const;
-    prepare(AppleUSBHostRequest*);
-    update(StandardUSBXHCI::StandardUSBXHCITRB*);
-    withControllerAndPool(AppleUSBXHCI*, AppleUSBRequestPool*);
+    auto getMetaClass() const;
+    auto prepare(AppleUSBHostRequest*);
+    auto update(StandardUSBXHCI::StandardUSBXHCITRB*);
+    auto withControllerAndPool(AppleUSBXHCI*, AppleUSBRequestPool*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCISparseRequest();
 };

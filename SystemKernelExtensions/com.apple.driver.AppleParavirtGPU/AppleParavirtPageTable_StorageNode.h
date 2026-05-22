@@ -4,18 +4,20 @@
 
 class AppleParavirtPageTable::StorageNode {
 public: // (access info unavailable from symbols alone)
-    clearEntry(unsigned int);
-    clearEntry(unsigned int) (.cold.1);
-    clearEntry(unsigned int)::_os_log_fmt;
-    getChild(AppleParavirtPageTable*, unsigned int, unsigned int);
-    getChild(AppleParavirtPageTable*, unsigned int, unsigned int)::_os_log_fmt;
-    getExistingChild(unsigned int);
-    getExistingChild(unsigned int)::_os_log_fmt;
-    init();
-    init()::_os_log_fmt;
-    setEntry(unsigned int, unsigned int, bool);
-    setEntry(unsigned int, unsigned int, bool) (.cold.1);
-    setEntry(unsigned int, unsigned int, bool) (.cold.2);
-    setEntry(unsigned int, unsigned int, bool)::_os_log_fmt;
+    auto clearEntry(unsigned int);
+    auto clearEntry(unsigned int) (.cold.1);
+    auto clearEntry(unsigned int)::_os_log_fmt;
+    auto getChild(AppleParavirtPageTable*, unsigned int, unsigned int);
+    auto getChild(AppleParavirtPageTable*, unsigned int, unsigned int)::_os_log_fmt;
+    auto getExistingChild(unsigned int);
+    auto getExistingChild(unsigned int)::_os_log_fmt;
+    auto init();
+    auto init()::_os_log_fmt;
+    auto setEntry(unsigned int, unsigned int, bool);
+    auto setEntry(unsigned int, unsigned int, bool) (.cold.1);
+    auto setEntry(unsigned int, unsigned int, bool) (.cold.2);
+    auto setEntry(unsigned int, unsigned int, bool)::_os_log_fmt;
+    void * operator new(unsigned long)::kalloc_type_view_165;
+    void operator delete(void*, unsigned long)::kalloc_type_view_165;
     ~StorageNode();
 };

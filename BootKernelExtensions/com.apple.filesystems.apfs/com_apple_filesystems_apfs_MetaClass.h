@@ -4,6 +4,6 @@
 
 class com_apple_filesystems_apfs::MetaClass {
 public: // (access info unavailable from symbols alone)
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

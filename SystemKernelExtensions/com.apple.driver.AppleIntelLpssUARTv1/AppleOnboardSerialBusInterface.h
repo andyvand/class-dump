@@ -4,12 +4,12 @@
 
 class AppleOnboardSerialBusInterface {
 public: // (access info unavailable from symbols alone)
-    getWorkLoop() const;
-    hwEnqueueDMA(AppleSimpleUARTCommand*);
-    hwGetDMAStatus(unsigned int, AppleSimpleUARTCommand**, unsigned long long*);
-    hwGetDMASupport();
-    hwSetDMAMode(unsigned int);
-    hwStartAutoBaud();
-    hwStopDMA(unsigned int, bool);
-    startUART();
+    auto getWorkLoop() const;
+    auto hwEnqueueDMA(AppleSimpleUARTCommand*);
+    auto hwGetDMAStatus(unsigned int, AppleSimpleUARTCommand**, unsigned long long*);
+    auto hwGetDMASupport();
+    auto hwSetDMAMode(unsigned int);
+    auto hwStartAutoBaud();
+    auto hwStopDMA(unsigned int, bool);
+    auto startUART();
 };

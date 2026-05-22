@@ -5,6 +5,6 @@
 class AppleBCMWLANBusSkywalk {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANBusSkywalk(OSMetaClass const*);
-    init();
+    auto init();
     ~AppleBCMWLANBusSkywalk();
 };

@@ -6,14 +6,16 @@ class AppleUSBXHCIFL1100 {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIFL1100();
     AppleUSBXHCIFL1100(OSMetaClass const*);
-    createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
-    getMetaClass() const;
-    lowerOnePowerStateTo(unsigned long);
-    lowerOnePowerStateTo(unsigned long)::_os_log_fmt;
-    raiseOnePowerStateTo(unsigned long);
-    raiseOnePowerStateTo(unsigned long)::_os_log_fmt;
-    regRead64(unsigned long long, unsigned int);
-    regWrite64(unsigned long long, unsigned int, unsigned long long);
-    start(IOService*);
+    auto createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    auto getMetaClass() const;
+    auto lowerOnePowerStateTo(unsigned long);
+    auto lowerOnePowerStateTo(unsigned long)::_os_log_fmt;
+    auto raiseOnePowerStateTo(unsigned long);
+    auto raiseOnePowerStateTo(unsigned long)::_os_log_fmt;
+    auto regRead64(unsigned long long, unsigned int);
+    auto regWrite64(unsigned long long, unsigned int, unsigned long long);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCIFL1100();
 };

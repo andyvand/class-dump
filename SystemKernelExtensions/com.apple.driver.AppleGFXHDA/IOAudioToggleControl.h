@@ -4,6 +4,6 @@
 
 class IOAudioToggleControl {
 public: // (access info unavailable from symbols alone)
-    create(bool, unsigned int, char const*, unsigned int, unsigned int, unsigned int);
-    createMuteControl(bool, unsigned int, char const*, unsigned int, unsigned int);
+    auto create(bool, unsigned int, char const*, unsigned int, unsigned int, unsigned int);
+    auto createMuteControl(bool, unsigned int, char const*, unsigned int, unsigned int);
 };

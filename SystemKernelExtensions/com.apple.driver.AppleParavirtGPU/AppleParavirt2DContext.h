@@ -6,13 +6,15 @@ class AppleParavirt2DContext {
 public: // (access info unavailable from symbols alone)
     AppleParavirt2DContext();
     AppleParavirt2DContext(OSMetaClass const*);
-    allowsExclusiveMode() const;
-    blitCopy(IOAccelEvent*, IOAccelResource2*, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
-    blitFill(IOAccelEvent*, unsigned int, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
-    contextStart();
-    contextStop();
-    getMetaClass() const;
-    getSurfaceReqBits() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto allowsExclusiveMode() const;
+    auto blitCopy(IOAccelEvent*, IOAccelResource2*, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
+    auto blitFill(IOAccelEvent*, unsigned int, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
+    auto contextStart();
+    auto contextStop();
+    auto getMetaClass() const;
+    auto getSurfaceReqBits() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirt2DContext();
 };

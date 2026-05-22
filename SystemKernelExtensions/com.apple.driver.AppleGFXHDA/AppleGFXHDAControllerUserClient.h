@@ -6,14 +6,16 @@ class AppleGFXHDAControllerUserClient {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAControllerUserClient();
     AppleGFXHDAControllerUserClient(OSMetaClass const*);
-    Create(AppleGFXHDAController*, task*);
-    clientClose();
-    getMetaClass() const;
-    getState(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*);
-    getStateAction(UserClientData*);
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    initWithDriver(AppleGFXHDAController*, task*);
-    setState(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*);
-    setStateAction(UserClientData*);
+    auto Create(AppleGFXHDAController*, task*);
+    auto clientClose();
+    auto getMetaClass() const;
+    auto getState(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*);
+    auto getStateAction(UserClientData*);
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto initWithDriver(AppleGFXHDAController*, task*);
+    auto setState(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*);
+    auto setStateAction(UserClientData*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAControllerUserClient();
 };

@@ -6,7 +6,9 @@ class AtiSelectCrtcSource_V2_3 {
 public: // (access info unavailable from symbols alone)
     AtiSelectCrtcSource_V2_3();
     AtiSelectCrtcSource_V2_3(OSMetaClass const*);
-    getMetaClass() const;
-    selectCrtcSource(ActiveConnectorInfo const*);
+    auto getMetaClass() const;
+    auto selectCrtcSource(ActiveConnectorInfo const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSelectCrtcSource_V2_3();
 };

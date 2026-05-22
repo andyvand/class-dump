@@ -5,10 +5,10 @@
 class AppleVirtIOManagedTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOManagedTransaction(OSMetaClass const*);
-    completeBuffers();
-    getBufferLength();
-    getBufferSegment(unsigned long long, unsigned long long*, bool*);
-    getMetaClass() const;
-    prepareBuffers();
+    auto completeBuffers();
+    auto getBufferLength();
+    auto getBufferSegment(unsigned long long, unsigned long long*, bool*);
+    auto getMetaClass() const;
+    auto prepareBuffers();
     ~AppleVirtIOManagedTransaction();
 };

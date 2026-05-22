@@ -4,5 +4,5 @@
 
 class IOUSBHostInterface {
 public: // (access info unavailable from symbols alone)
-    abortDeviceRequests(unsigned int, int);
+    auto abortDeviceRequests(unsigned int, int);
 };

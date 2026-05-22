@@ -4,6 +4,8 @@
 
 class TLE::BinaryStrOp<CEBuffer, TLE::$_7{}> {
 public: // (access info unavailable from symbols alone)
-    Execute(TLE::Encyclopedia&);
+    auto Execute(TLE::Encyclopedia&);
+    void * operator new(unsigned long)::kalloc_type_view_174;
+    void operator delete(void*, unsigned long)::kalloc_type_view_174;
     ~BinaryStrOp();
 };

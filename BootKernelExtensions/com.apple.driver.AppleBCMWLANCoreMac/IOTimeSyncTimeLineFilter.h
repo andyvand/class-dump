@@ -4,7 +4,7 @@
 
 class IOTimeSyncTimeLineFilter {
 public: // (access info unavailable from symbols alone)
-    addTimestamps(unsigned long long, unsigned long long);
-    canConvertTime();
-    domainATimeFromDomainBTime(unsigned long long);
+    auto addTimestamps(unsigned long long, unsigned long long);
+    auto canConvertTime();
+    auto domainATimeFromDomainBTime(unsigned long long);
 };

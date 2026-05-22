@@ -5,6 +5,6 @@
 class AppleIntelMCE::ThrottleExceededError {
 public: // (access info unavailable from symbols alone)
     ThrottleExceededError(unsigned int);
-    reportToMessageTracer() const;
+    auto reportToMessageTracer() const;
     ~ThrottleExceededError();
 };

@@ -4,6 +4,6 @@
 
 class IOThunderboltCallbackEventSource {
 public: // (access info unavailable from symbols alone)
-    create(OSObject*, void (*)(OSObject*));
-    scheduleCallback();
+    auto create(OSObject*, void (*)(OSObject*));
+    auto scheduleCallback();
 };

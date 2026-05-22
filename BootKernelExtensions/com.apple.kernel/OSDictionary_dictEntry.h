@@ -4,5 +4,5 @@
 
 class OSDictionary::dictEntry {
 public: // (access info unavailable from symbols alone)
-    compare(void const*, void const*);
+    auto compare(void const*, void const*);
 };

@@ -5,9 +5,9 @@
 class AppleUSBHostDARTDMACommand {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostDARTDMACommand(OSMetaClass const*);
-    clearMemoryDescriptor(bool);
-    createCopyBuffer(unsigned int, unsigned long long);
-    initWithSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned int, unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
-    setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long);
+    auto clearMemoryDescriptor(bool);
+    auto createCopyBuffer(unsigned int, unsigned long long);
+    auto initWithSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned int, unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
+    auto setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long);
     ~AppleUSBHostDARTDMACommand();
 };

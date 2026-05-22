@@ -6,14 +6,16 @@ class IOAVB17221LocalEntity {
 public: // (access info unavailable from symbols alone)
     IOAVB17221LocalEntity();
     IOAVB17221LocalEntity(OSMetaClass const*);
-    changeGPTPGrandmasterID(unsigned long long);
-    getMetaClass() const;
-    incrementAvailableIndex();
-    init(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short);
-    resetAvailableIndex();
-    resetTimeToLive();
-    setFramePayload(IOAVB17221ADPFrame*);
-    timeToLiveTimer();
-    updateEntityParameters(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short);
+    auto changeGPTPGrandmasterID(unsigned long long);
+    auto getMetaClass() const;
+    auto incrementAvailableIndex();
+    auto init(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short);
+    auto resetAvailableIndex();
+    auto resetTimeToLive();
+    auto setFramePayload(IOAVB17221ADPFrame*);
+    auto timeToLiveTimer();
+    auto updateEntityParameters(unsigned char, unsigned long long, unsigned long long, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int, unsigned int, unsigned long long, unsigned char, unsigned char*, unsigned long long, unsigned short, unsigned short, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVB17221LocalEntity();
 };

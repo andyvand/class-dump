@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IOAccelEvent*> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(IOAccelEvent**, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(IOAccelEvent**, unsigned long)::kalloc_type_view_29;
 };

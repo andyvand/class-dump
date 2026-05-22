@@ -5,7 +5,9 @@
 class AppleIntelHDCP {
 public: // (access info unavailable from symbols alone)
     AppleIntelHDCP(OSMetaClass const*);
-    getMetaClass() const;
-    getRxHDCPVersion(AppleIntelDisplayPath*);
+    auto getMetaClass() const;
+    auto getRxHDCPVersion(AppleIntelDisplayPath*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelHDCP();
 };

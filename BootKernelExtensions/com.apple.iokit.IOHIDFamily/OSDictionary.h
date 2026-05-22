@@ -4,9 +4,9 @@
 
 class OSDictionary {
 public: // (access info unavailable from symbols alone)
-    iterateObjects(bool (OSSymbol const*, OSObject*) block_pointer);
-    setObject(char const*, OSSharedPtr<OSMetaClassBase const> const&);
-    withCapacity(unsigned int);
-    withDictionary(OSDictionary const*, unsigned int);
-    withObjects(OSObject const**, OSSymbol const**, unsigned int, unsigned int);
+    auto iterateObjects(bool (OSSymbol const*, OSObject*) block_pointer);
+    auto setObject(char const*, OSSharedPtr<OSMetaClassBase const> const&);
+    auto withCapacity(unsigned int);
+    auto withDictionary(OSDictionary const*, unsigned int);
+    auto withObjects(OSObject const**, OSSymbol const**, unsigned int, unsigned int);
 };

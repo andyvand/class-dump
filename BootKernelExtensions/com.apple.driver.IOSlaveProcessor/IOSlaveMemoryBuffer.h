@@ -6,13 +6,15 @@ class IOSlaveMemoryBuffer {
 public: // (access info unavailable from symbols alone)
     IOSlaveMemoryBuffer();
     IOSlaveMemoryBuffer(OSMetaClass const*);
-    clean(unsigned long long, unsigned long long);
-    cleanflush(unsigned long long, unsigned long long);
-    free();
-    getBuffer();
-    getMetaClass() const;
-    getSlaveAddress();
-    initWithOptions(unsigned int, unsigned long long, unsigned long long, IOMapper*, unsigned char);
-    withOptions(unsigned int, unsigned long long, unsigned long long, IOMapper*, unsigned char);
+    auto clean(unsigned long long, unsigned long long);
+    auto cleanflush(unsigned long long, unsigned long long);
+    auto free();
+    auto getBuffer();
+    auto getMetaClass() const;
+    auto getSlaveAddress();
+    auto initWithOptions(unsigned int, unsigned long long, unsigned long long, IOMapper*, unsigned char);
+    auto withOptions(unsigned int, unsigned long long, unsigned long long, IOMapper*, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSlaveMemoryBuffer();
 };

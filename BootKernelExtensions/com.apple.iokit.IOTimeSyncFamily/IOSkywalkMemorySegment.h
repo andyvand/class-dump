@@ -4,5 +4,5 @@
 
 class IOSkywalkMemorySegment {
 public: // (access info unavailable from symbols alone)
-    getVirtualAddress() const;
+    auto getVirtualAddress() const;
 };

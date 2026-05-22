@@ -6,12 +6,14 @@ class IOUSBHostInterfaceIterator {
 public: // (access info unavailable from symbols alone)
     IOUSBHostInterfaceIterator();
     IOUSBHostInterfaceIterator(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getNextObject();
-    initWithDevice(IOUSBHostDevice*, IOUSBFindInterfaceRequest*);
-    isValid();
-    reset();
-    withDevice(IOUSBHostDevice*, IOUSBFindInterfaceRequest*);
+    auto free();
+    auto getMetaClass() const;
+    auto getNextObject();
+    auto initWithDevice(IOUSBHostDevice*, IOUSBFindInterfaceRequest*);
+    auto isValid();
+    auto reset();
+    auto withDevice(IOUSBHostDevice*, IOUSBFindInterfaceRequest*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUSBHostInterfaceIterator();
 };

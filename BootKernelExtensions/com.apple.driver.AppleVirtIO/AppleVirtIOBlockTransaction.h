@@ -5,16 +5,17 @@
 class AppleVirtIOBlockTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOBlockTransaction();
-    free();
-    getBlockTransactionStatus();
-    getCommandSector();
-    getCommandType();
-    getDataBuffer();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    initWithIndirectDescriptors(bool, unsigned int);
-    setBlockCompletion(IOStorageCompletion*);
-    updateTransaction(unsigned int, unsigned int, unsigned long long, IOMemoryDescriptor*);
+    auto free();
+    auto getBlockTransactionStatus();
+    auto getCommandSector();
+    auto getCommandType();
+    auto getDataBuffer();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto initWithIndirectDescriptors(bool, unsigned int);
+    auto setBlockCompletion(IOStorageCompletion*);
+    auto updateTransaction(unsigned int, unsigned int, unsigned long long, IOMemoryDescriptor*);
+    void * operator new(unsigned long);
     ~AppleVirtIOBlockTransaction();
 };

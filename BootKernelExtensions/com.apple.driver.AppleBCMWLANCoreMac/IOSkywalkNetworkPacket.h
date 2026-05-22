@@ -4,6 +4,6 @@
 
 class IOSkywalkNetworkPacket {
 public: // (access info unavailable from symbols alone)
-    getHeadroom() const;
-    getServiceClass() const;
+    auto getHeadroom() const;
+    auto getServiceClass() const;
 };

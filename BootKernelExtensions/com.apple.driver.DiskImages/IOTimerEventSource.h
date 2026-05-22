@@ -4,5 +4,5 @@
 
 class IOTimerEventSource {
 public: // (access info unavailable from symbols alone)
-    timerEventSource(OSObject*, void (*)(OSObject*, IOTimerEventSource*));
+    auto timerEventSource(OSObject*, void (*)(OSObject*, IOTimerEventSource*));
 };

@@ -4,6 +4,6 @@
 
 class IOTimeSyncClockManager {
 public: // (access info unavailable from symbols alone)
-    sharedClockManager();
-    translationService();
+    auto sharedClockManager();
+    auto translationService();
 };

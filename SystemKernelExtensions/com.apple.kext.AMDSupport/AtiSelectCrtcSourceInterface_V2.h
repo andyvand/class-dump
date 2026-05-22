@@ -5,7 +5,9 @@
 class AtiSelectCrtcSourceInterface_V2 {
 public: // (access info unavailable from symbols alone)
     AtiSelectCrtcSourceInterface_V2(OSMetaClass const*);
-    createSelectCrtcSource(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createSelectCrtcSource(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSelectCrtcSourceInterface_V2();
 };

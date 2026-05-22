@@ -4,26 +4,28 @@
 
 class IOServiceStateNotificationDispatchSource {
 public: // (access info unavailable from symbols alone)
-    Cancel_Impl(void () block_pointer);
-    Create_Call(IOService*, OSArray*, IODispatchQueue*, IOServiceStateNotificationDispatchSource**);
-    Create_Impl(IOService*, OSArray*, IODispatchQueue*, IOServiceStateNotificationDispatchSource**);
-    Create_Invoke(IORPC, int (*)(IOService*, OSArray*, IODispatchQueue*, IOServiceStateNotificationDispatchSource**));
-    Dispatch(IORPC);
     IOServiceStateNotificationDispatchSource();
     IOServiceStateNotificationDispatchSource(OSMetaClass const*);
-    SetEnableWithCompletion_Impl(bool, void () block_pointer);
-    SetHandler(OSAction*, int (*)(OSMetaClassBase*, IORPC));
-    SetHandler_Impl(OSAction*);
-    SetHandler_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, OSAction*));
-    StateNotificationBegin(int (*)(OSMetaClassBase*, IORPC));
-    StateNotificationBegin_Impl();
-    StateNotificationBegin_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*));
-    StateNotificationReady(OSAction*, int (*)(OSMetaClassBase*, IORPC));
-    StateNotificationReady_Invoke(IORPC, OSMetaClassBase*, void (*)(OSMetaClassBase*, OSAction*));
-    StateNotificationReady_Invoke(IORPC, OSMetaClassBase*, void (*)(OSMetaClassBase*, OSAction*), OSMetaClass const*);
-    _Dispatch(IOServiceStateNotificationDispatchSource*, IORPC);
-    free();
-    getMetaClass() const;
-    init();
+    auto Cancel_Impl(void () block_pointer);
+    auto Create_Call(IOService*, OSArray*, IODispatchQueue*, IOServiceStateNotificationDispatchSource**);
+    auto Create_Impl(IOService*, OSArray*, IODispatchQueue*, IOServiceStateNotificationDispatchSource**);
+    auto Create_Invoke(IORPC, int (*)(IOService*, OSArray*, IODispatchQueue*, IOServiceStateNotificationDispatchSource**));
+    auto Dispatch(IORPC);
+    auto SetEnableWithCompletion_Impl(bool, void () block_pointer);
+    auto SetHandler(OSAction*, int (*)(OSMetaClassBase*, IORPC));
+    auto SetHandler_Impl(OSAction*);
+    auto SetHandler_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, OSAction*));
+    auto StateNotificationBegin(int (*)(OSMetaClassBase*, IORPC));
+    auto StateNotificationBegin_Impl();
+    auto StateNotificationBegin_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*));
+    auto StateNotificationReady(OSAction*, int (*)(OSMetaClassBase*, IORPC));
+    auto StateNotificationReady_Invoke(IORPC, OSMetaClassBase*, void (*)(OSMetaClassBase*, OSAction*));
+    auto StateNotificationReady_Invoke(IORPC, OSMetaClassBase*, void (*)(OSMetaClassBase*, OSAction*), OSMetaClass const*);
+    auto _Dispatch(IOServiceStateNotificationDispatchSource*, IORPC);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOServiceStateNotificationDispatchSource();
 };

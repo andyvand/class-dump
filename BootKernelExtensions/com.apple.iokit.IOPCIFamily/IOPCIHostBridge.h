@@ -5,15 +5,17 @@
 class IOPCIHostBridge {
 public: // (access info unavailable from symbols alone)
     IOPCIHostBridge(OSMetaClass const*);
-    allChildrenPoweredOn();
-    childPublished(void*, IOService*, IONotifier*);
-    childPublished(void*, IOService*, IONotifier*)::_os_log_fmt;
-    configure(IOService*);
-    free();
-    getLinkSpeed(tIOPCILinkSpeed*);
-    getMetaClass() const;
-    probe(IOService*, int*);
-    setLinkSpeed(tIOPCILinkSpeed, bool);
-    start(IOService*);
+    auto allChildrenPoweredOn();
+    auto childPublished(void*, IOService*, IONotifier*);
+    auto childPublished(void*, IOService*, IONotifier*)::_os_log_fmt;
+    auto configure(IOService*);
+    auto free();
+    auto getLinkSpeed(tIOPCILinkSpeed*);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto setLinkSpeed(tIOPCILinkSpeed, bool);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPCIHostBridge();
 };

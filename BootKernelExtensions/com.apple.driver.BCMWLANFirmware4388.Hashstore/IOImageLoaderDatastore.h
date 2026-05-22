@@ -4,5 +4,5 @@
 
 class IOImageLoaderDatastore {
 public: // (access info unavailable from symbols alone)
-    free();
+    auto free();
 };

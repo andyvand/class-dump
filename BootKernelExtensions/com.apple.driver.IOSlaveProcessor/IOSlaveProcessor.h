@@ -5,16 +5,18 @@
 class IOSlaveProcessor {
 public: // (access info unavailable from symbols alone)
     IOSlaveProcessor(OSMetaClass const*);
-    _endpointEnable(void*);
-    allocateVisibleMemory(unsigned int, unsigned long long, unsigned long long);
-    diagnostic(unsigned int, void*);
-    endpointsEnabled(bool);
-    free();
-    getCommandGate() const;
-    getMetaClass() const;
-    notifyEndpointEnabled(unsigned int, bool);
-    slaveMemoryAlignment();
-    start(IOService*);
-    startWithOptions(IOService*, unsigned int);
+    auto _endpointEnable(void*);
+    auto allocateVisibleMemory(unsigned int, unsigned long long, unsigned long long);
+    auto diagnostic(unsigned int, void*);
+    auto endpointsEnabled(bool);
+    auto free();
+    auto getCommandGate() const;
+    auto getMetaClass() const;
+    auto notifyEndpointEnabled(unsigned int, bool);
+    auto slaveMemoryAlignment();
+    auto start(IOService*);
+    auto startWithOptions(IOService*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSlaveProcessor();
 };

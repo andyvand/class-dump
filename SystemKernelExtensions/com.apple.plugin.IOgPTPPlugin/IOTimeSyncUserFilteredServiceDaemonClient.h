@@ -6,13 +6,15 @@ class IOTimeSyncUserFilteredServiceDaemonClient {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncUserFilteredServiceDaemonClient();
     IOTimeSyncUserFilteredServiceDaemonClient(OSMetaClass const*);
-    create(int, OSSharedPtr<IOTimeSyncUserFilteredService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
-    free();
-    getMetaClass() const;
-    handleExternalMethod(unsigned int, unsigned long long const*, unsigned int, void const*, unsigned int, unsigned long long*, unsigned int&);
-    init();
-    start(int, OSSharedPtr<IOTimeSyncUserFilteredService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
-    start(int, OSSharedPtr<IOTimeSyncUserFilteredService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>)::_os_log_fmt;
-    stop(IOService*);
+    auto create(int, OSSharedPtr<IOTimeSyncUserFilteredService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
+    auto free();
+    auto getMetaClass() const;
+    auto handleExternalMethod(unsigned int, unsigned long long const*, unsigned int, void const*, unsigned int, unsigned long long*, unsigned int&);
+    auto init();
+    auto start(int, OSSharedPtr<IOTimeSyncUserFilteredService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
+    auto start(int, OSSharedPtr<IOTimeSyncUserFilteredService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>)::_os_log_fmt;
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncUserFilteredServiceDaemonClient();
 };

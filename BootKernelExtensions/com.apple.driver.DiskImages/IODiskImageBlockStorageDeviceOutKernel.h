@@ -6,8 +6,10 @@ class IODiskImageBlockStorageDeviceOutKernel {
 public: // (access info unavailable from symbols alone)
     IODiskImageBlockStorageDeviceOutKernel();
     IODiskImageBlockStorageDeviceOutKernel(OSMetaClass const*);
-    attach(IOService*);
-    getMetaClass() const;
-    willTerminate(IOService*, unsigned int);
+    auto attach(IOService*);
+    auto getMetaClass() const;
+    auto willTerminate(IOService*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODiskImageBlockStorageDeviceOutKernel();
 };

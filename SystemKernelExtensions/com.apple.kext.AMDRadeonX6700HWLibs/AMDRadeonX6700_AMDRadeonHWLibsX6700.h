@@ -6,7 +6,9 @@ class AMDRadeonX6700_AMDRadeonHWLibsX6700 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6700_AMDRadeonHWLibsX6700();
     AMDRadeonX6700_AMDRadeonHWLibsX6700(OSMetaClass const*);
-    getMetaClass() const;
-    populateFirmwareDirectory();
+    auto getMetaClass() const;
+    auto populateFirmwareDirectory();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6700_AMDRadeonHWLibsX6700();
 };

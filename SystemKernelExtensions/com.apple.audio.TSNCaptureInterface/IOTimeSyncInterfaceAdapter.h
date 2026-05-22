@@ -4,10 +4,10 @@
 
 class IOTimeSyncInterfaceAdapter {
 public: // (access info unavailable from symbols alone)
-    macAddressForIPv4Address(unsigned int, unsigned int, unsigned int, unsigned char*);
-    macAddressForIPv6Address(unsigned char const*, unsigned char*);
-    myIPv4Address(unsigned int*, unsigned int*);
-    myIPv4AddressForAddress(unsigned int, unsigned int*, unsigned int*);
-    myIPv6Address(unsigned char*);
-    myIPv6AddressForAddress(unsigned char const*, unsigned char*);
+    auto macAddressForIPv4Address(unsigned int, unsigned int, unsigned int, unsigned char*);
+    auto macAddressForIPv6Address(unsigned char const*, unsigned char*);
+    auto myIPv4Address(unsigned int*, unsigned int*);
+    auto myIPv4AddressForAddress(unsigned int, unsigned int*, unsigned int*);
+    auto myIPv6Address(unsigned char*);
+    auto myIPv6AddressForAddress(unsigned char const*, unsigned char*);
 };

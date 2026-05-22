@@ -6,9 +6,11 @@ class AtiTableConnectorAssigner {
 public: // (access info unavailable from symbols alone)
     AtiTableConnectorAssigner();
     AtiTableConnectorAssigner(OSMetaClass const*);
-    doConnectorAssignment();
-    getMetaClass() const;
-    getNextAvailableDriver(int);
-    getPairedDriverFor(ATIConnector*, int, int);
+    auto doConnectorAssignment();
+    auto getMetaClass() const;
+    auto getNextAvailableDriver(int);
+    auto getPairedDriverFor(ATIConnector*, int, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiTableConnectorAssigner();
 };

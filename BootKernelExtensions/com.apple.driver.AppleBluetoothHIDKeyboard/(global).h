@@ -6,8 +6,6 @@
 
 AppleBluetoothHIDKeyboard::gMetaClass;
 AppleBluetoothHIDKeyboard::metaClass;
-AppleBluetoothHIDKeyboard::operator delete(void*, unsigned long);
-AppleBluetoothHIDKeyboard::operator new(unsigned long);
 AppleBluetoothHIDKeyboard::superClass;
 AppleBluetoothHIDKeyboard_ktv;
 IOAppleBluetoothHIDDriver::gMetaClass;

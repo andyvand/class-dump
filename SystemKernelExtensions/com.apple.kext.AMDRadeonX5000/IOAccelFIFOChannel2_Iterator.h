@@ -5,5 +5,5 @@
 class IOAccelFIFOChannel2::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelFIFOChannel2&);
-    getNextRingEntry();
+    auto getNextRingEntry();
 };

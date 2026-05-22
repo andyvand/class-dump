@@ -5,11 +5,11 @@
 class ASPEvaluationInfo {
 public: // (access info unavailable from symbols alone)
     ASPEvaluationInfo();
-    cdhash_type();
-    current_change_time(timespec*);
-    is_authapfs_protected(bool);
-    is_root_installed();
-    is_sip_protected();
-    path();
+    auto cdhash_type();
+    auto current_change_time(timespec*);
+    auto is_authapfs_protected(bool);
+    auto is_root_installed();
+    auto is_sip_protected();
+    auto path();
     ~ASPEvaluationInfo();
 };

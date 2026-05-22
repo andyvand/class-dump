@@ -6,11 +6,13 @@ class AUAFeatureUnitDictionary {
 public: // (access info unavailable from symbols alone)
     AUAFeatureUnitDictionary();
     AUAFeatureUnitDictionary(OSMetaClass const*);
-    channelHasMuteControl(unsigned char, bool&);
-    channelHasVolumeControl(unsigned char, bool&);
-    clusterHasMuteControl(bool&);
-    getMetaClass() const;
-    initControlsArray(unsigned char const*, unsigned char);
-    initControlsArray(unsigned char const*, unsigned char) (.cold.1);
+    auto channelHasMuteControl(unsigned char, bool&);
+    auto channelHasVolumeControl(unsigned char, bool&);
+    auto clusterHasMuteControl(bool&);
+    auto getMetaClass() const;
+    auto initControlsArray(unsigned char const*, unsigned char);
+    auto initControlsArray(unsigned char const*, unsigned char) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AUAFeatureUnitDictionary();
 };

@@ -4,9 +4,9 @@
 
 class UDFForgedStreamDirNode {
 public: // (access info unavailable from symbols alone)
-    FlushFileEntry(UDFBlockWriteMode);
-    NoCacheLookup(componentname*, vnode**);
     UDFForgedStreamDirNode(UDFMount*, UDFLogicalAddr const&, unsigned int, UDFFileNode*, char const*, unsigned short, unsigned char*);
-    VnopReadDir(uio*, int*, int*);
+    auto FlushFileEntry(UDFBlockWriteMode);
+    auto NoCacheLookup(componentname*, vnode**);
+    auto VnopReadDir(uio*, int*, int*);
     ~UDFForgedStreamDirNode();
 };

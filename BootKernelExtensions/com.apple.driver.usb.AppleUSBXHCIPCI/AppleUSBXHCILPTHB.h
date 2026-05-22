@@ -6,10 +6,12 @@ class AppleUSBXHCILPTHB {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCILPTHB();
     AppleUSBXHCILPTHB(OSMetaClass const*);
-    getMetaClass() const;
-    raiseOnePowerStateTo(unsigned long);
-    raiseOnePowerStateTo(unsigned long)::_os_log_fmt;
-    reset();
-    reset()::_os_log_fmt;
+    auto getMetaClass() const;
+    auto raiseOnePowerStateTo(unsigned long);
+    auto raiseOnePowerStateTo(unsigned long)::_os_log_fmt;
+    auto reset();
+    auto reset()::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCILPTHB();
 };

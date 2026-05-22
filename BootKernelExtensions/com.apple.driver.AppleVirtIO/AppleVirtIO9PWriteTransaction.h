@@ -5,13 +5,13 @@
 class AppleVirtIO9PWriteTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIO9PWriteTransaction();
-    free();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    getRequest();
-    getResponse();
-    initWithRequest(buf*, bool);
-    withRequest(buf*, bool);
+    auto free();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto getRequest();
+    auto getResponse();
+    auto initWithRequest(buf*, bool);
+    auto withRequest(buf*, bool);
     ~AppleVirtIO9PWriteTransaction();
 };

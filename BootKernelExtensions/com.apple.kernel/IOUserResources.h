@@ -6,12 +6,14 @@ class IOUserResources {
 public: // (access info unavailable from symbols alone)
     IOUserResources();
     IOUserResources(OSMetaClass const*);
-    getMetaClass() const;
-    getWorkLoop() const;
-    init(OSDictionary*);
-    matchPropertyTable(OSDictionary*);
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    powerStateWillChangeTo(unsigned long, unsigned long, IOService*);
-    resources();
+    auto getMetaClass() const;
+    auto getWorkLoop() const;
+    auto init(OSDictionary*);
+    auto matchPropertyTable(OSDictionary*);
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto powerStateWillChangeTo(unsigned long, unsigned long, IOService*);
+    auto resources();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserResources();
 };

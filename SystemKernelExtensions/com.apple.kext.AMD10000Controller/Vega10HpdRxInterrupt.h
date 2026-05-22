@@ -6,13 +6,15 @@ class Vega10HpdRxInterrupt {
 public: // (access info unavailable from symbols alone)
     Vega10HpdRxInterrupt();
     Vega10HpdRxInterrupt(OSMetaClass const*);
-    deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
-    delayedInterruptHandler(OSObject*, IOTimerEventSource*);
-    detectDisconnect(ATIConnector*, AuxChannelProxy*);
-    getMetaClass() const;
-    handle(void*);
-    initSOC15(unsigned char, bool, ATIController*, unsigned int, tag_IRQ_SOURCEX);
-    initialize();
-    isDefaultOn();
+    auto deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
+    auto delayedInterruptHandler(OSObject*, IOTimerEventSource*);
+    auto detectDisconnect(ATIConnector*, AuxChannelProxy*);
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initSOC15(unsigned char, bool, ATIController*, unsigned int, tag_IRQ_SOURCEX);
+    auto initialize();
+    auto isDefaultOn();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~Vega10HpdRxInterrupt();
 };

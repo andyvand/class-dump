@@ -4,14 +4,14 @@
 
 class AppleBCMWLANNearbyDeviceDiscoveryAdapter {
 public: // (access info unavailable from symbols alone)
-    configureNDDStop(apple80211_ndd_data*);
-    free();
-    free()::kalloc_type_view_85;
-    freeResources();
-    getMetaClass() const;
-    handleNDDFWEvents(wl_event_msg_t*);
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_522;
-    setNDD_REQ(apple80211_ndd_data*);
-    withDriver(AppleBCMWLANCore*);
+    auto configureNDDStop(apple80211_ndd_data*);
+    auto free();
+    auto free()::kalloc_type_view_85;
+    auto freeResources();
+    auto getMetaClass() const;
+    auto handleNDDFWEvents(wl_event_msg_t*);
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_522;
+    auto setNDD_REQ(apple80211_ndd_data*);
+    auto withDriver(AppleBCMWLANCore*);
     ~AppleBCMWLANNearbyDeviceDiscoveryAdapter();
 };

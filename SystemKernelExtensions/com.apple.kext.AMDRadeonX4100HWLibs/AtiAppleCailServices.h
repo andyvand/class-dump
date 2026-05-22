@@ -4,7 +4,7 @@
 
 class AtiAppleCailServices {
 public: // (access info unavailable from symbols alone)
-    cailIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*);
-    cailIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*)::BLOCK_TYPE_STR;
-    isAsicCapEnabled(void*, unsigned long);
+    auto cailIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*);
+    auto cailIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*)::BLOCK_TYPE_STR;
+    auto isAsicCapEnabled(void*, unsigned long);
 };

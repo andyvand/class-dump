@@ -5,11 +5,11 @@
 class AtiTimingGenerator {
 public: // (access info unavailable from symbols alone)
     AtiTimingGenerator(OSMetaClass const*);
-    free();
-    printCrtcTiming(AmdHwCrtcTiming*);
-    setupTiming(AtiDetailedTimingInformation*);
-    waitForActive();
-    waitForGraphicsUpdate();
-    waitForVerticalBlank(bool);
+    auto free();
+    auto printCrtcTiming(AmdHwCrtcTiming*);
+    auto setupTiming(AtiDetailedTimingInformation*);
+    auto waitForActive();
+    auto waitForGraphicsUpdate();
+    auto waitForVerticalBlank(bool);
     ~AtiTimingGenerator();
 };

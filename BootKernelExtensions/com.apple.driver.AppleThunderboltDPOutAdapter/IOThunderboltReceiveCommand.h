@@ -4,5 +4,5 @@
 
 class IOThunderboltReceiveCommand {
 public: // (access info unavailable from symbols alone)
-    getEOF();
+    auto getEOF();
 };

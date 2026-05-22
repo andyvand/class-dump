@@ -4,6 +4,6 @@
 
 class IOPMrootDomain {
 public: // (access info unavailable from symbols alone)
-    publishFeature(char const*);
-    systemPowerEventOccurred(OSSymbol const*, OSObject*);
+    auto publishFeature(char const*);
+    auto systemPowerEventOccurred(OSSymbol const*, OSObject*);
 };

@@ -4,5 +4,5 @@
 
 class IOHIDEvent {
 public: // (access info unavailable from symbols alone)
-    vendorDefinedEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned char*, unsigned int, unsigned int);
+    auto vendorDefinedEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned char*, unsigned int, unsigned int);
 };

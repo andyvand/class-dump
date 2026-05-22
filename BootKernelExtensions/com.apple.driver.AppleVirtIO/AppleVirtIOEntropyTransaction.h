@@ -5,13 +5,14 @@
 class AppleVirtIOEntropyTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOEntropyTransaction();
-    free();
-    getActualLength();
-    getBuffer();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    initWithLength(unsigned int);
-    setActualLength(unsigned int);
+    auto free();
+    auto getActualLength();
+    auto getBuffer();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto initWithLength(unsigned int);
+    auto setActualLength(unsigned int);
+    void * operator new(unsigned long);
     ~AppleVirtIOEntropyTransaction();
 };

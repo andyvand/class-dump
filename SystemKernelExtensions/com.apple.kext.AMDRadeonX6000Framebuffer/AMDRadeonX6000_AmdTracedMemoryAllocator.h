@@ -6,14 +6,16 @@ class AMDRadeonX6000_AmdTracedMemoryAllocator {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdTracedMemoryAllocator();
     AMDRadeonX6000_AmdTracedMemoryAllocator(OSMetaClass const*);
-    allocateMemory(unsigned long);
-    createTracedAllocator(unsigned char, IOPCIDevice*);
-    deallocateAll();
-    deallocateMemory(void*);
-    debugPrintList() const;
-    free();
-    getMetaClass() const;
-    init(unsigned char, IOPCIDevice*);
-    stringifyTracedObjectId(unsigned int);
+    auto allocateMemory(unsigned long);
+    auto createTracedAllocator(unsigned char, IOPCIDevice*);
+    auto deallocateAll();
+    auto deallocateMemory(void*);
+    auto debugPrintList() const;
+    auto free();
+    auto getMetaClass() const;
+    auto init(unsigned char, IOPCIDevice*);
+    auto stringifyTracedObjectId(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdTracedMemoryAllocator();
 };

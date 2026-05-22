@@ -5,4 +5,5 @@
 class AtiDisplayPortEventInterrupt {
 public: // (access info unavailable from symbols alone)
     AtiDisplayPortEventInterrupt();
+    void * operator new(unsigned long);
 };

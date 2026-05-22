@@ -6,7 +6,9 @@ class IOStateNotificationItem {
 public: // (access info unavailable from symbols alone)
     IOStateNotificationItem();
     IOStateNotificationItem(OSMetaClass const*);
-    getMetaClass() const;
-    init();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOStateNotificationItem();
 };

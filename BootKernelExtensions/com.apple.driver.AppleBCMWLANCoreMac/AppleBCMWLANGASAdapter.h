@@ -4,22 +4,22 @@
 
 class AppleBCMWLANGASAdapter {
 public: // (access info unavailable from symbols alone)
-    bcmEventStatusToAppleGasEventStatus(unsigned int, unsigned int&);
-    free();
-    free()::kalloc_type_view_112;
-    getMetaClass() const;
-    handleGAS_COMPLETE(wl_event_msg_t*);
-    handleGAS_FRAGMENT_RX(wl_event_msg_t*);
-    initWithDriver(AppleBCMWLANCore*, AppleBCMWLANGASFsm**)::kalloc_type_view_73;
-    isGASEventAllowed();
-    issueGASAbort();
-    sendGasCompleteEvent(unsigned int);
-    setGASQueryParams(apple80211_gas_query_t*);
-    setGAS_ABORT();
-    setGAS_REQ(apple80211_gas_query_t*);
-    setHotspot20CapsIndicationIE();
-    setHotspot20InterworkingIE();
-    startGASQuery(apple80211_gas_query_t*);
-    withDriver(AppleBCMWLANCore*, AppleBCMWLANGASFsm**);
+    auto bcmEventStatusToAppleGasEventStatus(unsigned int, unsigned int&);
+    auto free();
+    auto free()::kalloc_type_view_112;
+    auto getMetaClass() const;
+    auto handleGAS_COMPLETE(wl_event_msg_t*);
+    auto handleGAS_FRAGMENT_RX(wl_event_msg_t*);
+    auto initWithDriver(AppleBCMWLANCore*, AppleBCMWLANGASFsm**)::kalloc_type_view_73;
+    auto isGASEventAllowed();
+    auto issueGASAbort();
+    auto sendGasCompleteEvent(unsigned int);
+    auto setGASQueryParams(apple80211_gas_query_t*);
+    auto setGAS_ABORT();
+    auto setGAS_REQ(apple80211_gas_query_t*);
+    auto setHotspot20CapsIndicationIE();
+    auto setHotspot20InterworkingIE();
+    auto startGASQuery(apple80211_gas_query_t*);
+    auto withDriver(AppleBCMWLANCore*, AppleBCMWLANGASFsm**);
     ~AppleBCMWLANGASAdapter();
 };

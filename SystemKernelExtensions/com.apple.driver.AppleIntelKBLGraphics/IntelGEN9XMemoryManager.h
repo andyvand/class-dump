@@ -6,12 +6,14 @@ class IntelGEN9XMemoryManager {
 public: // (access info unavailable from symbols alone)
     IntelGEN9XMemoryManager();
     IntelGEN9XMemoryManager(OSMetaClass const*);
-    detectEDRAM();
-    detectEDRAM() (.cold.1);
-    detectEDRAM() (.cold.2);
-    getMetaClass() const;
-    getPageAttributeTableIndex(unsigned int);
-    initGTL3Layout();
-    updatePageAttributeTable();
+    auto detectEDRAM();
+    auto detectEDRAM() (.cold.1);
+    auto detectEDRAM() (.cold.2);
+    auto getMetaClass() const;
+    auto getPageAttributeTableIndex(unsigned int);
+    auto initGTL3Layout();
+    auto updatePageAttributeTable();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IntelGEN9XMemoryManager();
 };

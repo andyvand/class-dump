@@ -4,6 +4,6 @@
 
 class IOTimeSyncClockManager {
 public: // (access info unavailable from symbols alone)
-    addgPTPServices();
-    removegPTPServices();
+    auto addgPTPServices();
+    auto removegPTPServices();
 };

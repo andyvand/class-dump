@@ -6,15 +6,17 @@ class IOPCIEventSource {
 public: // (access info unavailable from symbols alone)
     IOPCIEventSource();
     IOPCIEventSource(OSMetaClass const*);
-    checkForWork();
-    disable();
-    disable() (.cold.1);
-    enable();
-    enable() (.cold.1);
-    free();
-    free()::kalloc_type_view_6436;
-    getHostBridgeData();
-    getHostBridgeData() (.cold.1);
-    getMetaClass() const;
+    auto checkForWork();
+    auto disable();
+    auto disable() (.cold.1);
+    auto enable();
+    auto enable() (.cold.1);
+    auto free();
+    auto free()::kalloc_type_view_6436;
+    auto getHostBridgeData();
+    auto getHostBridgeData() (.cold.1);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPCIEventSource();
 };

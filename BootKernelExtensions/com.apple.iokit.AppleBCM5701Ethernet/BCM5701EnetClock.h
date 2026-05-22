@@ -4,11 +4,11 @@
 
 class BCM5701EnetClock {
 public: // (access info unavailable from symbols alone)
-    alloc_clock(IOService*, OSString*);
-    getMetaClass() const;
-    init(OSString*, OSDictionary*);
-    init(OSString*, OSDictionary*)::_os_log_fmt;
-    start(IOService*);
-    takeCrossTimestamp(unsigned long long&, unsigned long long&, unsigned long long&);
+    auto alloc_clock(IOService*, OSString*);
+    auto getMetaClass() const;
+    auto init(OSString*, OSDictionary*);
+    auto init(OSString*, OSDictionary*)::_os_log_fmt;
+    auto start(IOService*);
+    auto takeCrossTimestamp(unsigned long long&, unsigned long long&, unsigned long long&);
     ~BCM5701EnetClock();
 };

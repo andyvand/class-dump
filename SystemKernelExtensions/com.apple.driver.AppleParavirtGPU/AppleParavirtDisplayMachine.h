@@ -6,15 +6,17 @@ class AppleParavirtDisplayMachine {
 public: // (access info unavailable from symbols alone)
     AppleParavirtDisplayMachine();
     AppleParavirtDisplayMachine(OSMetaClass const*);
-    displayModeDidChange();
-    displayModeWillChange();
-    free();
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*);
-    signalDisplays(unsigned int);
-    signalDisplays(unsigned int) (.cold.1);
-    signalDisplays(unsigned int)::_os_log_fmt;
-    start(IOPCIDevice*);
-    stop();
+    auto displayModeDidChange();
+    auto displayModeWillChange();
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*);
+    auto signalDisplays(unsigned int);
+    auto signalDisplays(unsigned int) (.cold.1);
+    auto signalDisplays(unsigned int)::_os_log_fmt;
+    auto start(IOPCIDevice*);
+    auto stop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtDisplayMachine();
 };

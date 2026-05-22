@@ -6,12 +6,14 @@ class AppleGFXHDAAudioSelectorControlDP {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAAudioSelectorControlDP();
     AppleGFXHDAAudioSelectorControlDP(OSMetaClass const*);
-    create(int, unsigned int, char const*, unsigned int, unsigned int, unsigned int);
-    createOutputSelector(int, unsigned int, char const*, unsigned int);
-    getDisplayPortFramebuffer();
-    getDisplayPortFramebufferAction(AppleGFXHDAEngineOutputDP*, IOFramebuffer**);
-    getMetaClass() const;
-    setProperties(OSObject*);
-    setPropertiesAction(OSObject*);
+    auto create(int, unsigned int, char const*, unsigned int, unsigned int, unsigned int);
+    auto createOutputSelector(int, unsigned int, char const*, unsigned int);
+    auto getDisplayPortFramebuffer();
+    auto getDisplayPortFramebufferAction(AppleGFXHDAEngineOutputDP*, IOFramebuffer**);
+    auto getMetaClass() const;
+    auto setProperties(OSObject*);
+    auto setPropertiesAction(OSObject*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAAudioSelectorControlDP();
 };

@@ -4,7 +4,7 @@
 
 class IOSimpleReporter {
 public: // (access info unavailable from symbols alone)
-    getValue(unsigned long long);
-    setValue(unsigned long long, long long);
-    with(IOService*, unsigned short, unsigned long long);
+    auto getValue(unsigned long long);
+    auto setValue(unsigned long long, long long);
+    auto with(IOService*, unsigned short, unsigned long long);
 };

@@ -4,21 +4,23 @@
 
 class AppleFIVRDriver {
 public: // (access info unavailable from symbols alone)
-    AirportPublishHandler(void*, IOService*, IONotifier*);
     AppleFIVRDriver();
     AppleFIVRDriver(OSMetaClass const*);
-    SacPublishHandler(void*, IOService*, IONotifier*);
-    free();
-    getMetaClass() const;
-    probe(IOService*, int*);
-    sacCallback(unsigned int);
-    sacPublishHandlerGated(IOService*);
-    setProperties(OSObject*);
-    setPropertyAvoidFreqBandGated(OSArray*);
-    setPropertyMsrGated(unsigned short);
-    setRfiWithIndexGated(unsigned int);
-    start(IOService*);
-    updateAirportFrequencyBandwidthGated(IOService*);
-    updateRfiTuningProperty();
+    auto AirportPublishHandler(void*, IOService*, IONotifier*);
+    auto SacPublishHandler(void*, IOService*, IONotifier*);
+    auto free();
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto sacCallback(unsigned int);
+    auto sacPublishHandlerGated(IOService*);
+    auto setProperties(OSObject*);
+    auto setPropertyAvoidFreqBandGated(OSArray*);
+    auto setPropertyMsrGated(unsigned short);
+    auto setRfiWithIndexGated(unsigned int);
+    auto start(IOService*);
+    auto updateAirportFrequencyBandwidthGated(IOService*);
+    auto updateRfiTuningProperty();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleFIVRDriver();
 };

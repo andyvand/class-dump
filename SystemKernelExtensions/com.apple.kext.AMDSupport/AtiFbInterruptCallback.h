@@ -6,9 +6,11 @@ class AtiFbInterruptCallback {
 public: // (access info unavailable from symbols alone)
     AtiFbInterruptCallback();
     AtiFbInterruptCallback(OSMetaClass const*);
-    createCallback(void (*)(void*, void*), void*, void*);
-    getMetaClass() const;
-    initWithCallback(void (*)(void*, void*), void*, void*);
-    notify(void*);
+    auto createCallback(void (*)(void*, void*), void*, void*);
+    auto getMetaClass() const;
+    auto initWithCallback(void (*)(void*, void*), void*, void*);
+    auto notify(void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiFbInterruptCallback();
 };

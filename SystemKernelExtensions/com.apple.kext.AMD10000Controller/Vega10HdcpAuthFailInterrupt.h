@@ -6,9 +6,11 @@ class Vega10HdcpAuthFailInterrupt {
 public: // (access info unavailable from symbols alone)
     Vega10HdcpAuthFailInterrupt();
     Vega10HdcpAuthFailInterrupt(OSMetaClass const*);
-    deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
+    auto deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~Vega10HdcpAuthFailInterrupt();
 };

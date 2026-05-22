@@ -5,14 +5,14 @@
 class IOAccel2DContext2 {
 public: // (access info unavailable from symbols alone)
     IOAccel2DContext2(OSMetaClass const*);
-    _RESERVEDIOAccel2DContext0();
-    _RESERVEDIOAccel2DContext1();
-    _RESERVEDIOAccel2DContext2();
-    _RESERVEDIOAccel2DContext3();
-    _RESERVEDIOAccel2DContext4();
-    _RESERVEDIOAccel2DContext5();
-    allowsExclusiveMode() const;
-    getSurfaceReqBits() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto _RESERVEDIOAccel2DContext0();
+    auto _RESERVEDIOAccel2DContext1();
+    auto _RESERVEDIOAccel2DContext2();
+    auto _RESERVEDIOAccel2DContext3();
+    auto _RESERVEDIOAccel2DContext4();
+    auto _RESERVEDIOAccel2DContext5();
+    auto allowsExclusiveMode() const;
+    auto getSurfaceReqBits() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
     ~IOAccel2DContext2();
 };

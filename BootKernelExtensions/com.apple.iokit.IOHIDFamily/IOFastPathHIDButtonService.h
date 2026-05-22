@@ -6,13 +6,15 @@ class IOFastPathHIDButtonService {
 public: // (access info unavailable from symbols alone)
     IOFastPathHIDButtonService();
     IOFastPathHIDButtonService(OSMetaClass const*);
-    createDescriptor();
-    getButtonForce(IOHIDEvent*) const;
-    getMetaClass() const;
-    handleButtonEvent(IOHIDEvent*);
-    handleButtonEvent(IOHIDEvent*)::_os_log_fmt;
-    handleEvent(IOHIDEventService*, void*, IOHIDEvent*, unsigned int);
-    isProducer() const;
-    start(IOService*);
+    auto createDescriptor();
+    auto getButtonForce(IOHIDEvent*) const;
+    auto getMetaClass() const;
+    auto handleButtonEvent(IOHIDEvent*);
+    auto handleButtonEvent(IOHIDEvent*)::_os_log_fmt;
+    auto handleEvent(IOHIDEventService*, void*, IOHIDEvent*, unsigned int);
+    auto isProducer() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFastPathHIDButtonService();
 };

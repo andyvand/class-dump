@@ -6,10 +6,12 @@ class IOServicePM {
 public: // (access info unavailable from symbols alone)
     IOServicePM();
     IOServicePM(OSMetaClass const*);
-    gatedSerialize(OSSerialize*) const;
-    getMetaClass() const;
-    pmPrint(unsigned int, unsigned long, unsigned long) const;
-    pmTrace(unsigned int, unsigned int, unsigned long, unsigned long) const;
-    serialize(OSSerialize*) const;
+    auto gatedSerialize(OSSerialize*) const;
+    auto getMetaClass() const;
+    auto pmPrint(unsigned int, unsigned long, unsigned long) const;
+    auto pmTrace(unsigned int, unsigned int, unsigned long, unsigned long) const;
+    auto serialize(OSSerialize*) const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOServicePM();
 };

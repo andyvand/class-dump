@@ -4,9 +4,9 @@
 
 class IntervalMapLRU::Node {
 public: // (access info unavailable from symbols alone)
-    get();
-    getContainingObject() const;
-    getContainingObject() const (.cold.1);
-    isResident() const;
-    put();
+    auto get();
+    auto getContainingObject() const;
+    auto getContainingObject() const (.cold.1);
+    auto isResident() const;
+    auto put();
 };

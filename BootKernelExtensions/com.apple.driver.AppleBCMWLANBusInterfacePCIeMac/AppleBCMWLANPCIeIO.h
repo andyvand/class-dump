@@ -4,14 +4,14 @@
 
 class AppleBCMWLANPCIeIO {
 public: // (access info unavailable from symbols alone)
-    complete(IO80211Buffer**);
-    free();
-    free()::kalloc_type_view_154;
-    getMetaClass() const;
-    initWithSlab(AppleBCMWLANDMASlab*, unsigned int);
-    initWithSlab(AppleBCMWLANDMASlab*, unsigned int)::kalloc_type_view_126;
-    initWithSlab(AppleBCMWLANDMASlab*, unsigned int)::kalloc_type_view_96;
-    prepare(IO80211Buffer*, unsigned int, unsigned int);
-    withSlab(AppleBCMWLANDMASlab*, unsigned int);
+    auto complete(IO80211Buffer**);
+    auto free();
+    auto free()::kalloc_type_view_154;
+    auto getMetaClass() const;
+    auto initWithSlab(AppleBCMWLANDMASlab*, unsigned int);
+    auto initWithSlab(AppleBCMWLANDMASlab*, unsigned int)::kalloc_type_view_126;
+    auto initWithSlab(AppleBCMWLANDMASlab*, unsigned int)::kalloc_type_view_96;
+    auto prepare(IO80211Buffer*, unsigned int, unsigned int);
+    auto withSlab(AppleBCMWLANDMASlab*, unsigned int);
     ~AppleBCMWLANPCIeIO();
 };

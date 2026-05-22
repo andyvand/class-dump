@@ -4,10 +4,10 @@
 
 class IO80211FlowQueueDatabase {
 public: // (access info unavailable from symbols alone)
-    find(bool (*)(IO80211FlowQueue*, void*), void*);
-    find(unsigned long long);
-    initialize();
-    insert(IO80211FlowQueue*);
-    print(void*);
-    remove(unsigned long long);
+    auto find(bool (*)(IO80211FlowQueue*, void*), void*);
+    auto find(unsigned long long);
+    auto initialize();
+    auto insert(IO80211FlowQueue*);
+    auto print(void*);
+    auto remove(unsigned long long);
 };

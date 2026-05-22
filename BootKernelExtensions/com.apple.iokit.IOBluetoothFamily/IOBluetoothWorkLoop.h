@@ -6,9 +6,11 @@ class IOBluetoothWorkLoop {
 public: // (access info unavailable from symbols alone)
     IOBluetoothWorkLoop();
     IOBluetoothWorkLoop(OSMetaClass const*);
-    getMetaClass() const;
-    handoffFrom(IOWorkLoop*);
-    returnTo(IOWorkLoop*);
-    workLoop();
+    auto getMetaClass() const;
+    auto handoffFrom(IOWorkLoop*);
+    auto returnTo(IOWorkLoop*);
+    auto workLoop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOBluetoothWorkLoop();
 };

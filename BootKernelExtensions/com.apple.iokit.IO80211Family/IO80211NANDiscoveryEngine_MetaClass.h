@@ -5,6 +5,6 @@
 class IO80211NANDiscoveryEngine::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

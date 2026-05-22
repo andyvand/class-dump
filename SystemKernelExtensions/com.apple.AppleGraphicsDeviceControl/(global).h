@@ -6,20 +6,14 @@
 
 AGDCPlugin::gMetaClass;
 AGDCPlugin::metaClass;
-AGDCPlugin::operator delete(void*, unsigned long);
-AGDCPlugin::operator new(unsigned long);
 AGDCPlugin::superClass;
 AppleGraphicsDeviceControl::backlightHandleCount;
 AppleGraphicsDeviceControl::gMetaClass;
 AppleGraphicsDeviceControl::metaClass;
-AppleGraphicsDeviceControl::operator delete(void*, unsigned long);
-AppleGraphicsDeviceControl::operator new(unsigned long);
 AppleGraphicsDeviceControl::sWindowServerReady;
 AppleGraphicsDeviceControl::superClass;
 AppleGraphicsDeviceControlClient::gMetaClass;
 AppleGraphicsDeviceControlClient::metaClass;
-AppleGraphicsDeviceControlClient::operator delete(void*, unsigned long);
-AppleGraphicsDeviceControlClient::operator new(unsigned long);
 AppleGraphicsDeviceControlClient::superClass;
 IOPCIDevice::metaClass;
 IOService::gMetaClass;

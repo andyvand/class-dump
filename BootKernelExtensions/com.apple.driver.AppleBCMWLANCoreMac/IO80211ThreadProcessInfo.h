@@ -4,6 +4,6 @@
 
 class IO80211ThreadProcessInfo {
 public: // (access info unavailable from symbols alone)
-    getProcessName(char*, unsigned long);
-    getProcessPid(int*);
+    auto getProcessName(char*, unsigned long);
+    auto getProcessPid(int*);
 };

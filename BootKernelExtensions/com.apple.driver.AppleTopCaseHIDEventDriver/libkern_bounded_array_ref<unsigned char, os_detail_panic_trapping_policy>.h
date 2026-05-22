@@ -4,7 +4,7 @@
 
 class libkern::bounded_array_ref<unsigned char, os_detail::panic_trapping_policy> {
 public: // (access info unavailable from symbols alone)
-    slice(unsigned long, unsigned long) const;
-    slice(unsigned long, unsigned long) const (.cold.1);
-    slice(unsigned long, unsigned long) const (.cold.2);
+    auto slice(unsigned long, unsigned long) const;
+    auto slice(unsigned long, unsigned long) const (.cold.1);
+    auto slice(unsigned long, unsigned long) const (.cold.2);
 };

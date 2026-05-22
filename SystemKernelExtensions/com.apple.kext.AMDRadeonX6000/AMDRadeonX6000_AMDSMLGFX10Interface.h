@@ -6,9 +6,11 @@ class AMDRadeonX6000_AMDSMLGFX10Interface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDSMLGFX10Interface();
     AMDRadeonX6000_AMDSMLGFX10Interface(OSMetaClass const*);
-    createVCN();
-    free();
-    getMetaClass() const;
-    init(unsigned int);
+    auto createVCN();
+    auto free();
+    auto getMetaClass() const;
+    auto init(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDSMLGFX10Interface();
 };

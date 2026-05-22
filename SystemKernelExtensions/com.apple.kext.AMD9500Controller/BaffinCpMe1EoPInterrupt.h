@@ -6,10 +6,12 @@ class BaffinCpMe1EoPInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinCpMe1EoPInterrupt();
     BaffinCpMe1EoPInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
-    initR6xx(unsigned char, bool, ATIController*)::STR_NAME;
-    initR6xx(unsigned char, bool, ATIController*)::table_size;
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initR6xx(unsigned char, bool, ATIController*)::STR_NAME;
+    auto initR6xx(unsigned char, bool, ATIController*)::table_size;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinCpMe1EoPInterrupt();
 };

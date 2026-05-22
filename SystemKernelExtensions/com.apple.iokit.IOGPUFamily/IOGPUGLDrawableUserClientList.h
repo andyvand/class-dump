@@ -4,11 +4,11 @@
 
 class IOGPUGLDrawableUserClientList {
 public: // (access info unavailable from symbols alone)
-    addGLDrawableUserClient(IOGPUGLDrawableUserClient*);
-    free();
-    getCount() const;
-    getCountWithPID(int) const;
-    init();
-    removeGLDrawableUserClient(IOGPUGLDrawableUserClient*);
-    removeGLDrawableUserClient(IOGPUGLDrawableUserClient*) (.cold.1);
+    auto addGLDrawableUserClient(IOGPUGLDrawableUserClient*);
+    auto free();
+    auto getCount() const;
+    auto getCountWithPID(int) const;
+    auto init();
+    auto removeGLDrawableUserClient(IOGPUGLDrawableUserClient*);
+    auto removeGLDrawableUserClient(IOGPUGLDrawableUserClient*) (.cold.1);
 };

@@ -6,15 +6,17 @@ class AIDCircularBuffer {
 public: // (access info unavailable from symbols alone)
     AIDCircularBuffer();
     AIDCircularBuffer(OSMetaClass const*);
-    capacity();
-    clear();
-    free();
-    getMetaClass() const;
-    init(unsigned int);
-    read(unsigned char*, unsigned int);
-    readableBytes();
-    withCapacity(unsigned int);
-    writableBytes();
-    write(unsigned char*, unsigned int);
+    auto capacity();
+    auto clear();
+    auto free();
+    auto getMetaClass() const;
+    auto init(unsigned int);
+    auto read(unsigned char*, unsigned int);
+    auto readableBytes();
+    auto withCapacity(unsigned int);
+    auto writableBytes();
+    auto write(unsigned char*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AIDCircularBuffer();
 };

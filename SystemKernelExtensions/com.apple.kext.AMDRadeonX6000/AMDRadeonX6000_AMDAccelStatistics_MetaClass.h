@@ -5,5 +5,5 @@
 class AMDRadeonX6000_AMDAccelStatistics::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

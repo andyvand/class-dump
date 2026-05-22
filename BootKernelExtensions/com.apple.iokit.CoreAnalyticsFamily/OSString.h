@@ -4,6 +4,6 @@
 
 class OSString {
 public: // (access info unavailable from symbols alone)
-    withCString(char const*);
-    withString(OSString const*);
+    auto withCString(char const*);
+    auto withString(OSString const*);
 };

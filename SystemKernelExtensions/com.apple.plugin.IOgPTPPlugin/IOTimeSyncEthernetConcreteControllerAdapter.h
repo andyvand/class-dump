@@ -6,8 +6,10 @@ class IOTimeSyncEthernetConcreteControllerAdapter {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncEthernetConcreteControllerAdapter();
     IOTimeSyncEthernetConcreteControllerAdapter(OSMetaClass const*);
-    getMetaClass() const;
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncEthernetConcreteControllerAdapter();
 };

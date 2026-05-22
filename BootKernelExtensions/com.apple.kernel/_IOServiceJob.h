@@ -6,8 +6,10 @@ class _IOServiceJob {
 public: // (access info unavailable from symbols alone)
     _IOServiceJob();
     _IOServiceJob(OSMetaClass const*);
-    getMetaClass() const;
-    pingConfig(_IOServiceJob*);
-    startJob(IOService*, int, unsigned int);
+    auto getMetaClass() const;
+    auto pingConfig(_IOServiceJob*);
+    auto startJob(IOService*, int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_IOServiceJob();
 };

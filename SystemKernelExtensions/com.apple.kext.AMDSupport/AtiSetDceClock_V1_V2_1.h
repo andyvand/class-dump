@@ -6,7 +6,9 @@ class AtiSetDceClock_V1_V2_1 {
 public: // (access info unavailable from symbols alone)
     AtiSetDceClock_V1_V2_1();
     AtiSetDceClock_V1_V2_1(OSMetaClass const*);
-    getMetaClass() const;
-    setDceClock(DCEClockParams const*);
+    auto getMetaClass() const;
+    auto setDceClock(DCEClockParams const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSetDceClock_V1_V2_1();
 };

@@ -6,9 +6,11 @@ class IOHIDEventDummyService {
 public: // (access info unavailable from symbols alone)
     IOHIDEventDummyService();
     IOHIDEventDummyService(OSMetaClass const*);
-    didTerminate(IOService*, unsigned int, bool*);
-    getMetaClass() const;
-    handleStart(IOService*);
-    handleStart(IOService*)::_os_log_fmt;
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto getMetaClass() const;
+    auto handleStart(IOService*);
+    auto handleStart(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDEventDummyService();
 };

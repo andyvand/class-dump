@@ -6,10 +6,12 @@ class AppleUSBEHCIDMACommand {
 public: // (access info unavailable from symbols alone)
     AppleUSBEHCIDMACommand();
     AppleUSBEHCIDMACommand(OSMetaClass const*);
-    getMetaClass() const;
-    setMemoryDescriptor(IOMemoryDescriptor const*, bool);
-    setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long, AppleUSBHostRequest*);
-    setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long, AppleUSBHostRequest*)::_os_log_fmt;
-    withSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
+    auto getMetaClass() const;
+    auto setMemoryDescriptor(IOMemoryDescriptor const*, bool);
+    auto setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long, AppleUSBHostRequest*);
+    auto setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long, AppleUSBHostRequest*)::_os_log_fmt;
+    auto withSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEHCIDMACommand();
 };

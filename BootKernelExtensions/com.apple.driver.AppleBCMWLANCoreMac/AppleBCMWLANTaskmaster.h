@@ -4,14 +4,14 @@
 
 class AppleBCMWLANTaskmaster {
 public: // (access info unavailable from symbols alone)
-    dispatch(AppleBCMWLANTaskmaster_Task const&, AppleBCMWLANTaskmaster_TaskCompletion const*, void*);
-    free();
-    free()::kalloc_type_view_184;
-    getMetaClass() const;
-    initWithWorkQueue(IO80211WorkQueue*, unsigned int);
-    initWithWorkQueue(IO80211WorkQueue*, unsigned int)::kalloc_type_view_93;
-    issue(AppleBCMWLANWorkOrder*, AppleBCMWLANTaskmaster_Task const&, AppleBCMWLANTaskmaster_TaskCompletion const*, void*, AppleBCMWLANTaskmaster_IssueMethod);
-    withWorkQueue(IO80211WorkQueue*, unsigned int);
-    work(IO80211TimerSource*);
+    auto dispatch(AppleBCMWLANTaskmaster_Task const&, AppleBCMWLANTaskmaster_TaskCompletion const*, void*);
+    auto free();
+    auto free()::kalloc_type_view_184;
+    auto getMetaClass() const;
+    auto initWithWorkQueue(IO80211WorkQueue*, unsigned int);
+    auto initWithWorkQueue(IO80211WorkQueue*, unsigned int)::kalloc_type_view_93;
+    auto issue(AppleBCMWLANWorkOrder*, AppleBCMWLANTaskmaster_Task const&, AppleBCMWLANTaskmaster_TaskCompletion const*, void*, AppleBCMWLANTaskmaster_IssueMethod);
+    auto withWorkQueue(IO80211WorkQueue*, unsigned int);
+    auto work(IO80211TimerSource*);
     ~AppleBCMWLANTaskmaster();
 };

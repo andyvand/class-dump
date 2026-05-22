@@ -6,8 +6,10 @@ class AMDRadeonX5000_AMDRadeonHWServicesVega {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDRadeonHWServicesVega();
     AMDRadeonX5000_AMDRadeonHWServicesVega(OSMetaClass const*);
-    getMatchProperty();
-    getMatchProperty()::PROJECT_NAME_COUNT;
-    getMetaClass() const;
+    auto getMatchProperty();
+    auto getMatchProperty()::PROJECT_NAME_COUNT;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDRadeonHWServicesVega();
 };

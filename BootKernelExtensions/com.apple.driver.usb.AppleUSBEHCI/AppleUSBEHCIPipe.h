@@ -6,13 +6,15 @@ class AppleUSBEHCIPipe {
 public: // (access info unavailable from symbols alone)
     AppleUSBEHCIPipe();
     AppleUSBEHCIPipe(OSMetaClass const*);
-    free();
-    getController() const;
-    getIsochronousEndpoint() const;
-    getMetaClass() const;
-    getQueueHead() const;
-    setIsochronousEndpoint(AppleUSBEHCIIsochronousEndpoint*);
-    setQueueHead(AppleUSBEHCIQueueHead*);
-    withDescriptorAndOwners(StandardUSB::EndpointDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*, unsigned char, unsigned short);
+    auto free();
+    auto getController() const;
+    auto getIsochronousEndpoint() const;
+    auto getMetaClass() const;
+    auto getQueueHead() const;
+    auto setIsochronousEndpoint(AppleUSBEHCIIsochronousEndpoint*);
+    auto setQueueHead(AppleUSBEHCIQueueHead*);
+    auto withDescriptorAndOwners(StandardUSB::EndpointDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*, unsigned char, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEHCIPipe();
 };

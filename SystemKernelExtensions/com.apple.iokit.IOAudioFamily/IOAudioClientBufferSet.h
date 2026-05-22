@@ -6,15 +6,17 @@ class IOAudioClientBufferSet {
 public: // (access info unavailable from symbols alone)
     IOAudioClientBufferSet();
     IOAudioClientBufferSet(OSMetaClass const*);
-    allocateWatchdogTimer();
-    cancelWatchdogTimer();
-    free();
-    freeWatchdogTimer();
-    getMetaClass() const;
-    init(unsigned int, IOAudioEngineUserClient*);
-    resetNextOutputPosition();
-    setWatchdogTimeout(unsigned long long*);
-    setWatchdogTimeout(unsigned long long*)::_os_log_fmt;
-    watchdogTimerFired(IOAudioClientBufferSet*, unsigned int);
+    auto allocateWatchdogTimer();
+    auto cancelWatchdogTimer();
+    auto free();
+    auto freeWatchdogTimer();
+    auto getMetaClass() const;
+    auto init(unsigned int, IOAudioEngineUserClient*);
+    auto resetNextOutputPosition();
+    auto setWatchdogTimeout(unsigned long long*);
+    auto setWatchdogTimeout(unsigned long long*)::_os_log_fmt;
+    auto watchdogTimerFired(IOAudioClientBufferSet*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAudioClientBufferSet();
 };

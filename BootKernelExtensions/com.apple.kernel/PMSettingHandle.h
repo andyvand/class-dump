@@ -6,7 +6,9 @@ class PMSettingHandle {
 public: // (access info unavailable from symbols alone)
     PMSettingHandle();
     PMSettingHandle(OSMetaClass const*);
-    free();
-    getMetaClass() const;
+    auto free();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~PMSettingHandle();
 };

@@ -4,5 +4,5 @@
 
 class KDIURL {
 public: // (access info unavailable from symbols alone)
-    getSecret(char const*);
+    auto getSecret(char const*);
 };

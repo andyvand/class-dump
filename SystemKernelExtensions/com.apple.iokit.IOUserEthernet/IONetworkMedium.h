@@ -4,6 +4,6 @@
 
 class IONetworkMedium {
 public: // (access info unavailable from symbols alone)
-    addMedium(OSDictionary*, IONetworkMedium const*);
-    medium(unsigned int, unsigned long long, unsigned int, unsigned int, char const*);
+    auto addMedium(OSDictionary*, IONetworkMedium const*);
+    auto medium(unsigned int, unsigned long long, unsigned int, unsigned int, char const*);
 };

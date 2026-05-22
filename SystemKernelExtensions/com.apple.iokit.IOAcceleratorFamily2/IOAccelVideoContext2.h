@@ -5,18 +5,20 @@
 class IOAccelVideoContext2 {
 public: // (access info unavailable from symbols alone)
     IOAccelVideoContext2(OSMetaClass const*);
-    _RESERVEDIOAccelVideoContext0();
-    _RESERVEDIOAccelVideoContext1();
-    _RESERVEDIOAccelVideoContext2();
-    _RESERVEDIOAccelVideoContext3();
-    _RESERVEDIOAccelVideoContext4();
-    _RESERVEDIOAccelVideoContext5();
-    contextStart();
-    contextStop();
-    discardSidebandToken(IOAccelCommandStreamInfo&);
-    getMetaClass() const;
-    processDataBuffers(unsigned int);
-    processDataBuffers(unsigned int)::_os_log_fmt;
-    processSidebandToken(IOAccelCommandStreamInfo&);
+    auto _RESERVEDIOAccelVideoContext0();
+    auto _RESERVEDIOAccelVideoContext1();
+    auto _RESERVEDIOAccelVideoContext2();
+    auto _RESERVEDIOAccelVideoContext3();
+    auto _RESERVEDIOAccelVideoContext4();
+    auto _RESERVEDIOAccelVideoContext5();
+    auto contextStart();
+    auto contextStop();
+    auto discardSidebandToken(IOAccelCommandStreamInfo&);
+    auto getMetaClass() const;
+    auto processDataBuffers(unsigned int);
+    auto processDataBuffers(unsigned int)::_os_log_fmt;
+    auto processSidebandToken(IOAccelCommandStreamInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelVideoContext2();
 };

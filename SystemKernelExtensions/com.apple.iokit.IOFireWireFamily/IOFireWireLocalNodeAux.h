@@ -6,12 +6,14 @@ class IOFireWireLocalNodeAux {
 public: // (access info unavailable from symbols alone)
     IOFireWireLocalNodeAux();
     IOFireWireLocalNodeAux(OSMetaClass const*);
-    _RESERVEDIOFireWireLocalNodeAux0();
-    _RESERVEDIOFireWireLocalNodeAux1();
-    _RESERVEDIOFireWireLocalNodeAux2();
-    _RESERVEDIOFireWireLocalNodeAux3();
-    free();
-    getMetaClass() const;
-    init(IOFireWireLocalNode*);
+    auto _RESERVEDIOFireWireLocalNodeAux0();
+    auto _RESERVEDIOFireWireLocalNodeAux1();
+    auto _RESERVEDIOFireWireLocalNodeAux2();
+    auto _RESERVEDIOFireWireLocalNodeAux3();
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOFireWireLocalNode*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireLocalNodeAux();
 };

@@ -4,8 +4,8 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    configRead16(unsigned long long);
-    configRead8(unsigned long long);
-    extendedConfigRead16(unsigned long long);
-    extendedConfigRead8(unsigned long long);
+    auto configRead16(unsigned long long);
+    auto configRead8(unsigned long long);
+    auto extendedConfigRead16(unsigned long long);
+    auto extendedConfigRead8(unsigned long long);
 };

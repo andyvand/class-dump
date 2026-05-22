@@ -6,8 +6,10 @@ class IGAccelShared {
 public: // (access info unavailable from symbols alone)
     IGAccelShared();
     IGAccelShared(OSMetaClass const*);
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, task*);
-    setDeviceSettingsUserPreferences(IntelSkuFeatureTableExRec*);
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, task*);
+    auto setDeviceSettingsUserPreferences(IntelSkuFeatureTableExRec*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGAccelShared();
 };

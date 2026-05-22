@@ -6,8 +6,10 @@ class IOAVB17221ACMPService {
 public: // (access info unavailable from symbols alone)
     IOAVB17221ACMPService();
     IOAVB17221ACMPService(OSMetaClass const*);
-    getMetaClass() const;
-    init(OSDictionary*);
-    matchingPropertyName();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto matchingPropertyName();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVB17221ACMPService();
 };

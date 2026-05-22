@@ -4,17 +4,17 @@
 
 class IOWorkLoopCounter {
 public: // (access info unavailable from symbols alone)
-    DependencyTree_RB_FIND(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
-    DependencyTree_RB_GETCOLOR(IOWorkLoopDependency*);
-    DependencyTree_RB_GETPARENT(IOWorkLoopDependency*);
-    DependencyTree_RB_INSERT(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
-    DependencyTree_RB_INSERT_COLOR(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
-    DependencyTree_RB_MINMAX(IOWorkLoopCounter::DependencyTree*, int);
-    DependencyTree_RB_NEXT(IOWorkLoopDependency*);
-    DependencyTree_RB_NFIND(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
-    DependencyTree_RB_REMOVE(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
-    DependencyTree_RB_REMOVE_COLOR(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*, IOWorkLoopDependency*);
-    DependencyTree_RB_SETCOLOR(IOWorkLoopDependency*, int);
-    DependencyTree_RB_SETPARENT(IOWorkLoopDependency*, IOWorkLoopDependency*);
-    loadTagCompare(IOWorkLoopDependency*, IOWorkLoopDependency*);
+    auto DependencyTree_RB_FIND(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
+    auto DependencyTree_RB_GETCOLOR(IOWorkLoopDependency*);
+    auto DependencyTree_RB_GETPARENT(IOWorkLoopDependency*);
+    auto DependencyTree_RB_INSERT(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
+    auto DependencyTree_RB_INSERT_COLOR(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
+    auto DependencyTree_RB_MINMAX(IOWorkLoopCounter::DependencyTree*, int);
+    auto DependencyTree_RB_NEXT(IOWorkLoopDependency*);
+    auto DependencyTree_RB_NFIND(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
+    auto DependencyTree_RB_REMOVE(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*);
+    auto DependencyTree_RB_REMOVE_COLOR(IOWorkLoopCounter::DependencyTree*, IOWorkLoopDependency*, IOWorkLoopDependency*);
+    auto DependencyTree_RB_SETCOLOR(IOWorkLoopDependency*, int);
+    auto DependencyTree_RB_SETPARENT(IOWorkLoopDependency*, IOWorkLoopDependency*);
+    auto loadTagCompare(IOWorkLoopDependency*, IOWorkLoopDependency*);
 };

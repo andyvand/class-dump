@@ -6,13 +6,15 @@ class IOPlatformDevice {
 public: // (access info unavailable from symbols alone)
     IOPlatformDevice();
     IOPlatformDevice(OSMetaClass const*);
-    _RESERVEDIOPlatformDevice0();
-    _RESERVEDIOPlatformDevice1();
-    _RESERVEDIOPlatformDevice2();
-    _RESERVEDIOPlatformDevice3();
-    compareName(OSString*, OSString**) const;
-    getMetaClass() const;
-    getResources();
-    matchLocation(IOService*);
+    auto _RESERVEDIOPlatformDevice0();
+    auto _RESERVEDIOPlatformDevice1();
+    auto _RESERVEDIOPlatformDevice2();
+    auto _RESERVEDIOPlatformDevice3();
+    auto compareName(OSString*, OSString**) const;
+    auto getMetaClass() const;
+    auto getResources();
+    auto matchLocation(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPlatformDevice();
 };

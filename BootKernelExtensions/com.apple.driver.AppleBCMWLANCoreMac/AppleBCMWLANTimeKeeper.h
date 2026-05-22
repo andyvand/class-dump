@@ -4,13 +4,13 @@
 
 class AppleBCMWLANTimeKeeper {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_174;
-    getMetaClass() const;
-    handleRteTimesyncIoVarAsyncCallBack(CommandID&, int, CommandRxPayload&, void*);
-    initWithDriver(AppleBCMWLANCore*);
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_70;
-    synchronizeTime();
-    withDriver(AppleBCMWLANCore*);
+    auto free();
+    auto free()::kalloc_type_view_174;
+    auto getMetaClass() const;
+    auto handleRteTimesyncIoVarAsyncCallBack(CommandID&, int, CommandRxPayload&, void*);
+    auto initWithDriver(AppleBCMWLANCore*);
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_70;
+    auto synchronizeTime();
+    auto withDriver(AppleBCMWLANCore*);
     ~AppleBCMWLANTimeKeeper();
 };

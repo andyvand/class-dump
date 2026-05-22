@@ -4,6 +4,6 @@
 
 class IOService {
 public: // (access info unavailable from symbols alone)
-    serviceMatching(char const*, OSDictionary*);
-    waitForService(OSDictionary*, mach_timespec*);
+    auto serviceMatching(char const*, OSDictionary*);
+    auto waitForService(OSDictionary*, mach_timespec*);
 };

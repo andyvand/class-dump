@@ -4,13 +4,13 @@
 
 class AppleParavirtPageTable::IOMemoryDescriptorIterator {
 public: // (access info unavailable from symbols alone)
-    advanceRange();
-    advanceRange() (.cold.1);
-    advanceRange() (.cold.2);
-    advanceRange()::_os_log_fmt;
-    initWithDescriptor(IOMemoryDescriptor*);
-    nextPA();
-    nextPA() (.cold.1);
-    nextPA() (.cold.2);
-    nextPA()::_os_log_fmt;
+    auto advanceRange();
+    auto advanceRange() (.cold.1);
+    auto advanceRange() (.cold.2);
+    auto advanceRange()::_os_log_fmt;
+    auto initWithDescriptor(IOMemoryDescriptor*);
+    auto nextPA();
+    auto nextPA() (.cold.1);
+    auto nextPA() (.cold.2);
+    auto nextPA()::_os_log_fmt;
 };

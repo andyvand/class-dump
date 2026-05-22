@@ -4,9 +4,9 @@
 
 class AppleVirtIOSocketTransaction {
 public: // (access info unavailable from symbols alone)
-    getHeader();
-    getMetaClass() const;
-    withRXTransaction(unsigned int, bool);
-    withTXTransaction(unsigned int, bool);
+    auto getHeader();
+    auto getMetaClass() const;
+    auto withRXTransaction(unsigned int, bool);
+    auto withTXTransaction(unsigned int, bool);
     ~AppleVirtIOSocketTransaction();
 };

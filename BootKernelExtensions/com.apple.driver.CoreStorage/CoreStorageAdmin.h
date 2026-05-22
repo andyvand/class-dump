@@ -6,11 +6,13 @@ class CoreStorageAdmin {
 public: // (access info unavailable from symbols alone)
     CoreStorageAdmin();
     CoreStorageAdmin(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    initWithPhysicalVolumes(OSArray*);
-    start(IOService*);
-    stop(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto initWithPhysicalVolumes(OSArray*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~CoreStorageAdmin();
 };

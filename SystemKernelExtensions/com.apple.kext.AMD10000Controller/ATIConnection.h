@@ -4,22 +4,22 @@
 
 class ATIConnection {
 public: // (access info unavailable from symbols alone)
-    getAttribute(unsigned int, unsigned int*);
-    getIndex();
-    getPixelClockLimit(IODisplayTimingRangeV2*);
-    getServices();
-    getSync();
-    getType();
-    isDisplayPort();
-    isDualLinkTiming(AtiDetailedTimingInformation const*);
-    isHdmi();
-    populateGoldenSetting();
-    readReg32(unsigned int);
-    readReg8(unsigned int);
-    setAttribute(unsigned int, unsigned int);
-    setServices(OSObject*);
-    setSync(unsigned char);
-    updateBaobabInfoPacket(CRTC_PARAMS*);
-    writeReg32(unsigned int, unsigned int);
-    writeReg8(unsigned int, unsigned char);
+    auto getAttribute(unsigned int, unsigned int*);
+    auto getIndex();
+    auto getPixelClockLimit(IODisplayTimingRangeV2*);
+    auto getServices();
+    auto getSync();
+    auto getType();
+    auto isDisplayPort();
+    auto isDualLinkTiming(AtiDetailedTimingInformation const*);
+    auto isHdmi();
+    auto populateGoldenSetting();
+    auto readReg32(unsigned int);
+    auto readReg8(unsigned int);
+    auto setAttribute(unsigned int, unsigned int);
+    auto setServices(OSObject*);
+    auto setSync(unsigned char);
+    auto updateBaobabInfoPacket(CRTC_PARAMS*);
+    auto writeReg32(unsigned int, unsigned int);
+    auto writeReg8(unsigned int, unsigned char);
 };

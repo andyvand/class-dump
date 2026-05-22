@@ -5,7 +5,8 @@
 class MemoryAllocator {
 public: // (access info unavailable from symbols alone)
     MemoryAllocator();
-    allocateMemory(unsigned long);
-    deallocateMemory(void*);
-    init(unsigned char);
+    auto allocateMemory(unsigned long);
+    auto deallocateMemory(void*);
+    auto init(unsigned char);
+    void * operator new(unsigned long);
 };

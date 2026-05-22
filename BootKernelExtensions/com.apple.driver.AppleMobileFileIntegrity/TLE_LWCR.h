@@ -5,7 +5,7 @@
 class TLE::LWCR {
 public: // (access info unavailable from symbols alone)
     LWCR();
-    constraintCategory() const;
-    loadFromCE(CEQueryContext*);
-    requirements();
+    auto constraintCategory() const;
+    auto loadFromCE(CEQueryContext*);
+    auto requirements();
 };

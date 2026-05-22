@@ -6,10 +6,12 @@ class IOAccelSharedEventFence {
 public: // (access info unavailable from symbols alone)
     IOAccelSharedEventFence();
     IOAccelSharedEventFence(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithSharedEvent(IOSurfaceSharedEvent*, unsigned long long, IOGraphicsAccelerator2*, IOAccelSubmitter2*);
-    notifyClient();
-    withSharedEvent(IOSurfaceSharedEvent*, unsigned long long, IOGraphicsAccelerator2*, IOAccelSubmitter2*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithSharedEvent(IOSurfaceSharedEvent*, unsigned long long, IOGraphicsAccelerator2*, IOAccelSubmitter2*);
+    auto notifyClient();
+    auto withSharedEvent(IOSurfaceSharedEvent*, unsigned long long, IOGraphicsAccelerator2*, IOAccelSubmitter2*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelSharedEventFence();
 };

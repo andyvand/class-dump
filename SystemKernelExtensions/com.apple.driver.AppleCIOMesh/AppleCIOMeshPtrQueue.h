@@ -6,15 +6,17 @@ class AppleCIOMeshPtrQueue {
 public: // (access info unavailable from symbols alone)
     AppleCIOMeshPtrQueue();
     AppleCIOMeshPtrQueue(OSMetaClass const*);
-    add(unsigned long);
-    allocate(unsigned int);
-    free();
-    free()::kalloc_type_view_40;
-    getCapacity();
-    getCount();
-    getMetaClass() const;
-    initialize(unsigned int);
-    initialize(unsigned int)::kalloc_type_view_29;
-    remove();
+    auto add(unsigned long);
+    auto allocate(unsigned int);
+    auto free();
+    auto free()::kalloc_type_view_40;
+    auto getCapacity();
+    auto getCount();
+    auto getMetaClass() const;
+    auto initialize(unsigned int);
+    auto initialize(unsigned int)::kalloc_type_view_29;
+    auto remove();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleCIOMeshPtrQueue();
 };

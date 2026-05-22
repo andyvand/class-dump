@@ -4,12 +4,12 @@
 
 class Utilities {
 public: // (access info unavailable from symbols alone)
-    findPciDevice(unsigned char, unsigned char, unsigned char);
-    findPlistProperty(OSObject*, char const*);
-    getOSObjectData(OSObject*, void*, unsigned long);
-    getOSObjectSize(OSObject*);
-    getPlistProperty(IORegistryEntry*, char const*, char const*, void*, unsigned int);
-    getRegistryProperty(IORegistryEntry*, char const*, void*, unsigned int);
-    getRegistryPropertySize(IORegistryEntry*, char const*);
-    printChildrenNodes(IORegistryEntry*);
+    auto findPciDevice(unsigned char, unsigned char, unsigned char);
+    auto findPlistProperty(OSObject*, char const*);
+    auto getOSObjectData(OSObject*, void*, unsigned long);
+    auto getOSObjectSize(OSObject*);
+    auto getPlistProperty(IORegistryEntry*, char const*, char const*, void*, unsigned int);
+    auto getRegistryProperty(IORegistryEntry*, char const*, void*, unsigned int);
+    auto getRegistryPropertySize(IORegistryEntry*, char const*);
+    auto printChildrenNodes(IORegistryEntry*);
 };

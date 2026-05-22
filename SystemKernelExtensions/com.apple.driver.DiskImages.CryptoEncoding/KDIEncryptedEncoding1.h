@@ -6,11 +6,13 @@ class KDIEncryptedEncoding1 {
 public: // (access info unavailable from symbols alone)
     KDIEncryptedEncoding1();
     KDIEncryptedEncoding1(OSMetaClass const*);
-    V1Header_BigToHost(KDIEncryptedEncoding1::V1Header*);
-    V1Header_HostToBig(KDIEncryptedEncoding1::V1Header*);
-    _backingStoreLengthForLogicalEOF(long long);
-    _loadHeader(KDIBackingStore*);
-    _writeHeader();
-    getMetaClass() const;
+    auto V1Header_BigToHost(KDIEncryptedEncoding1::V1Header*);
+    auto V1Header_HostToBig(KDIEncryptedEncoding1::V1Header*);
+    auto _backingStoreLengthForLogicalEOF(long long);
+    auto _loadHeader(KDIBackingStore*);
+    auto _writeHeader();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KDIEncryptedEncoding1();
 };

@@ -6,11 +6,13 @@ class AppleUSBHostDMABufferMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostDMABufferMemoryDescriptor();
     AppleUSBHostDMABufferMemoryDescriptor(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
-    inTaskWithOptions(task*, unsigned int, unsigned long, unsigned long, unsigned int, IOMapper*);
-    initInTaskWithOptions(task*, unsigned int, unsigned long, unsigned long, unsigned int, IOMapper*);
-    taggedRelease(void const*) const;
+    auto free();
+    auto getMetaClass() const;
+    auto getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
+    auto inTaskWithOptions(task*, unsigned int, unsigned long, unsigned long, unsigned int, IOMapper*);
+    auto initInTaskWithOptions(task*, unsigned int, unsigned long, unsigned long, unsigned int, IOMapper*);
+    auto taggedRelease(void const*) const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostDMABufferMemoryDescriptor();
 };

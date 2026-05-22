@@ -4,12 +4,12 @@
 
 class IOMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    createMappingInTask(task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
-    getDMAMapLength(unsigned long long*);
-    getDescriptorID();
-    getPageCounts(unsigned long long*, unsigned long long*, unsigned long long*);
-    ktraceEmitPhysicalSegments();
-    setContext(OSObject*);
-    setOwnership(task*, int, unsigned int);
-    withAddressRange(unsigned long long, unsigned long long, unsigned int, task*);
+    auto createMappingInTask(task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
+    auto getDMAMapLength(unsigned long long*);
+    auto getDescriptorID();
+    auto getPageCounts(unsigned long long*, unsigned long long*, unsigned long long*);
+    auto ktraceEmitPhysicalSegments();
+    auto setContext(OSObject*);
+    auto setOwnership(task*, int, unsigned int);
+    auto withAddressRange(unsigned long long, unsigned long long, unsigned int, task*);
 };

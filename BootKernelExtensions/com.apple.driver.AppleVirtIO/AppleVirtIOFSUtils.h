@@ -4,7 +4,7 @@
 
 class AppleVirtIOFSUtils {
 public: // (access info unavailable from symbols alone)
-    ConvertModeToVtype(unsigned int);
-    Strndup(char const*, unsigned long);
-    Strndup(char const*, unsigned long) (.cold.1);
+    auto ConvertModeToVtype(unsigned int);
+    auto Strndup(char const*, unsigned long);
+    auto Strndup(char const*, unsigned long) (.cold.1);
 };

@@ -5,11 +5,11 @@
 class AppleIntelMCE::Bank {
 public: // (access info unavailable from symbols alone)
     Bank(AppleIntelMCE::BankDescriptor const&);
-    disableWithCPUNumber(short);
-    enableWithCPUNumber(short);
-    parseMSCErrorValue(unsigned short, OSString*&);
-    parseMSCErrorValue(unsigned short, OSString*&) (.155);
-    parseMSCErrorValue(unsigned short, OSString*&) (.254);
-    parseRawError(unsigned long long, unsigned long long, unsigned long long);
+    auto disableWithCPUNumber(short);
+    auto enableWithCPUNumber(short);
+    auto parseMSCErrorValue(unsigned short, OSString*&);
+    auto parseMSCErrorValue(unsigned short, OSString*&) (.155);
+    auto parseMSCErrorValue(unsigned short, OSString*&) (.254);
+    auto parseRawError(unsigned long long, unsigned long long, unsigned long long);
     ~Bank();
 };

@@ -5,5 +5,5 @@
 class IOAccelSurfaceMTLList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelSurfaceMTLList&);
-    getNextSurface();
+    auto getNextSurface();
 };

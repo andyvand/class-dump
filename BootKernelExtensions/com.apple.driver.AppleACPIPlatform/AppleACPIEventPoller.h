@@ -6,12 +6,14 @@ class AppleACPIEventPoller {
 public: // (access info unavailable from symbols alone)
     AppleACPIEventPoller();
     AppleACPIEventPoller(OSMetaClass const*);
-    checkForWork();
-    close(unsigned int);
-    getMetaClass() const;
-    open(unsigned int, IOMemoryDescriptor*);
-    open(unsigned int, IOMemoryDescriptor*) (.cold.1);
-    probe(IOService*);
-    startIO(unsigned int, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
+    auto checkForWork();
+    auto close(unsigned int);
+    auto getMetaClass() const;
+    auto open(unsigned int, IOMemoryDescriptor*);
+    auto open(unsigned int, IOMemoryDescriptor*) (.cold.1);
+    auto probe(IOService*);
+    auto startIO(unsigned int, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleACPIEventPoller();
 };

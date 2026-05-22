@@ -5,18 +5,18 @@
 class AppleConvergedIPCControlReporter {
 public: // (access info unavailable from symbols alone)
     AppleConvergedIPCControlReporter(OSMetaClass const*);
-    addReporters(IOService*, OSSet*, IOReportLegend*);
-    free();
-    init();
-    reportAER(acipcAERErrorType);
-    reportInterfaceEvent(unsigned int, AppleConvergedIPCControlReporter::InterfaceEventCode);
-    reportInterrupt();
-    reportLog(unsigned long);
-    reportLogBufCompleted();
-    reportLogBufQueued();
-    reportLogDrop(unsigned long);
-    reportQuiesceUnQuiesceActivity(AppleConvergedIPCControlReporter::QuiesceActivityCode);
-    reportStateChange(AppleConvergedIPCControlReporter::StateIndex);
-    updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto addReporters(IOService*, OSSet*, IOReportLegend*);
+    auto free();
+    auto init();
+    auto reportAER(acipcAERErrorType);
+    auto reportInterfaceEvent(unsigned int, AppleConvergedIPCControlReporter::InterfaceEventCode);
+    auto reportInterrupt();
+    auto reportLog(unsigned long);
+    auto reportLogBufCompleted();
+    auto reportLogBufQueued();
+    auto reportLogDrop(unsigned long);
+    auto reportQuiesceUnQuiesceActivity(AppleConvergedIPCControlReporter::QuiesceActivityCode);
+    auto reportStateChange(AppleConvergedIPCControlReporter::StateIndex);
+    auto updateReport(IOReportChannelList*, unsigned int, void*, void*);
     ~AppleConvergedIPCControlReporter();
 };

@@ -6,14 +6,14 @@ class ASPScriptInfo {
 public: // (access info unavailable from symbols alone)
     ASPScriptInfo();
     ASPScriptInfo(vnode*, int);
-    blob();
-    cdhash_buffer();
-    is_linker_signed();
-    is_platform();
-    is_signed();
-    platform_identifier();
-    signing_identifier();
-    team_identifier();
-    vp();
+    auto blob();
+    auto cdhash_buffer();
+    auto is_linker_signed();
+    auto is_platform();
+    auto is_signed();
+    auto platform_identifier();
+    auto signing_identifier();
+    auto team_identifier();
+    auto vp();
     ~ASPScriptInfo();
 };

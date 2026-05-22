@@ -4,9 +4,11 @@
 
 class com_apple_driver_PlasmonUDO {
 public: // (access info unavailable from symbols alone)
+    auto getMetaClass() const;
+    auto start(IOService*);
     com_apple_driver_PlasmonUDO();
     com_apple_driver_PlasmonUDO(OSMetaClass const*);
-    getMetaClass() const;
-    start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_PlasmonUDO();
 };

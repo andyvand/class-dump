@@ -6,7 +6,9 @@ class AMDRadeonX5200_AMDRadeonHWLibsX5200 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5200_AMDRadeonHWLibsX5200();
     AMDRadeonX5200_AMDRadeonHWLibsX5200(OSMetaClass const*);
-    getMetaClass() const;
-    populateFirmwareDirectory();
+    auto getMetaClass() const;
+    auto populateFirmwareDirectory();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5200_AMDRadeonHWLibsX5200();
 };

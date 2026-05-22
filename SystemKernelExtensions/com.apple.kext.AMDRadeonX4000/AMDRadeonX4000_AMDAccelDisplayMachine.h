@@ -6,15 +6,17 @@ class AMDRadeonX4000_AMDAccelDisplayMachine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDAccelDisplayMachine();
     AMDRadeonX4000_AMDAccelDisplayMachine(OSMetaClass const*);
-    describeDriverAllocations(IOAccelAllocationInfo*);
-    displayModeDidChange();
-    displayModeWillChange();
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*);
-    isWindowServerActiveAttribSupported();
-    resetTempBuffersAndVblankFlips();
-    setWindowServerActiveState(_eAMDWindowServerActiveAttributeState);
-    set_display_mode_and_vram();
-    stop();
+    auto describeDriverAllocations(IOAccelAllocationInfo*);
+    auto displayModeDidChange();
+    auto displayModeWillChange();
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*);
+    auto isWindowServerActiveAttribSupported();
+    auto resetTempBuffersAndVblankFlips();
+    auto setWindowServerActiveState(_eAMDWindowServerActiveAttributeState);
+    auto set_display_mode_and_vram();
+    auto stop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDAccelDisplayMachine();
 };

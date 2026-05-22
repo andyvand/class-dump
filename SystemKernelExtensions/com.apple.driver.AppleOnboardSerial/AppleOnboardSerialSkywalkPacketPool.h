@@ -6,9 +6,11 @@ class AppleOnboardSerialSkywalkPacketPool {
 public: // (access info unavailable from symbols alone)
     AppleOnboardSerialSkywalkPacketPool();
     AppleOnboardSerialSkywalkPacketPool(OSMetaClass const*);
-    __OSFinalClass();
-    getMetaClass() const;
-    newPacket(IOSkywalkPacketDescriptor*, IOSkywalkPacket**);
-    withName(char const*, OSObject*, unsigned int, IOSkywalkPacketBufferPool::PoolOptions const*);
+    auto __OSFinalClass();
+    auto getMetaClass() const;
+    auto newPacket(IOSkywalkPacketDescriptor*, IOSkywalkPacket**);
+    auto withName(char const*, OSObject*, unsigned int, IOSkywalkPacketBufferPool::PoolOptions const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleOnboardSerialSkywalkPacketPool();
 };

@@ -6,10 +6,12 @@ class AtiFirmwareInfoInterface_V1_4 {
 public: // (access info unavailable from symbols alone)
     AtiFirmwareInfoInterface_V1_4();
     AtiFirmwareInfoInterface_V1_4(OSMetaClass const*);
-    getFirmwareInfo(FirmwareInfo*);
-    getMetaClass() const;
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
-    useHardcodedEngineClockSS();
-    useHardcodedMemoryClockSS();
+    auto getFirmwareInfo(FirmwareInfo*);
+    auto getMetaClass() const;
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto useHardcodedEngineClockSS();
+    auto useHardcodedMemoryClockSS();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiFirmwareInfoInterface_V1_4();
 };

@@ -8,8 +8,6 @@ AppleUSBCommonDebug::_log;
 AppleUSBHostCompositeDevice::gMetaClass;
 AppleUSBHostiOSDevice::gMetaClass;
 AppleUSBHostiOSDevice::metaClass;
-AppleUSBHostiOSDevice::operator delete(void*, unsigned long);
-AppleUSBHostiOSDevice::operator new(unsigned long);
 AppleUSBHostiOSDevice::superClass;
 AppleUSBHostiOSDevice_ktv;
 IOUSBHostDevice::metaClass;

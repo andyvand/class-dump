@@ -4,24 +4,26 @@
 
 class hv_vmx_space_t {
 public: // (access info unavailable from symbols alone)
-    _protect(unsigned long long, unsigned long, unsigned long long);
-    create(hv_vmx_vm_t*);
-    decrement_refcount();
-    ept_check_range(unsigned long long, unsigned long long, unsigned long);
-    ept_fault(unsigned long long, unsigned long long, bool);
-    free();
-    getMetaClass() const;
-    get_eptp();
-    get_refcount();
+    auto _protect(unsigned long long, unsigned long, unsigned long long);
+    auto create(hv_vmx_vm_t*);
+    auto decrement_refcount();
+    auto ept_check_range(unsigned long long, unsigned long long, unsigned long);
+    auto ept_fault(unsigned long long, unsigned long long, bool);
+    auto free();
+    auto getMetaClass() const;
+    auto get_eptp();
+    auto get_refcount();
+    auto increment_refcount();
+    auto init();
+    auto init_space(hv_vmx_vm_t*);
+    auto invalidate();
+    auto map(unsigned long long, unsigned long long, unsigned long, unsigned long long);
+    auto map_kernel(unsigned long long, unsigned long long, unsigned long, int);
+    auto protect(unsigned long long, unsigned long, unsigned long long);
+    auto unmap(unsigned long long, unsigned long);
     hv_vmx_space_t();
     hv_vmx_space_t(OSMetaClass const*);
-    increment_refcount();
-    init();
-    init_space(hv_vmx_vm_t*);
-    invalidate();
-    map(unsigned long long, unsigned long long, unsigned long, unsigned long long);
-    map_kernel(unsigned long long, unsigned long long, unsigned long, int);
-    protect(unsigned long long, unsigned long, unsigned long long);
-    unmap(unsigned long long, unsigned long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~hv_vmx_space_t();
 };

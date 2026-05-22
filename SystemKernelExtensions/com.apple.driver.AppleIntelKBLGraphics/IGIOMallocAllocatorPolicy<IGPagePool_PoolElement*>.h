@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IGPagePool::PoolElement*> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(IGPagePool::PoolElement**, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(IGPagePool::PoolElement**, unsigned long)::kalloc_type_view_29;
 };

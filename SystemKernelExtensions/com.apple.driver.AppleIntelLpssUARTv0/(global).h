@@ -7,8 +7,6 @@
 AppleIntelLpssUART::gMetaClass;
 AppleIntelLpssUARTv0::gMetaClass;
 AppleIntelLpssUARTv0::metaClass;
-AppleIntelLpssUARTv0::operator delete(void*, unsigned long);
-AppleIntelLpssUARTv0::operator new(unsigned long);
 AppleIntelLpssUARTv0::superClass;
 AppleIntelLpssUARTv0_ktv;
 LpssUartClkParmTab;

@@ -4,5 +4,5 @@
 
 class IOGDiagnosticUserClients {
 public: // (access info unavailable from symbols alone)
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**, IODisplayWrangler*);
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**, IODisplayWrangler*);
 };

@@ -5,10 +5,10 @@
 class IOSimpleReporter {
 public: // (access info unavailable from symbols alone)
     IOSimpleReporter(OSMetaClass const*);
-    getValue(unsigned long long);
-    incrementValue(unsigned long long, long long);
-    initWith(IOService*, unsigned short, unsigned long long);
-    setValue(unsigned long long, long long);
-    with(IOService*, unsigned short, unsigned long long);
+    auto getValue(unsigned long long);
+    auto incrementValue(unsigned long long, long long);
+    auto initWith(IOService*, unsigned short, unsigned long long);
+    auto setValue(unsigned long long, long long);
+    auto with(IOService*, unsigned short, unsigned long long);
     ~IOSimpleReporter();
 };

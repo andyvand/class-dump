@@ -6,8 +6,10 @@ class AMDRadeonX6000_AMDRadeonHWServicesNavi {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDRadeonHWServicesNavi();
     AMDRadeonX6000_AMDRadeonHWServicesNavi(OSMetaClass const*);
-    getMatchProperty();
-    getMatchProperty()::PROJECT_NAME_COUNT;
-    getMetaClass() const;
+    auto getMatchProperty();
+    auto getMatchProperty()::PROJECT_NAME_COUNT;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDRadeonHWServicesNavi();
 };

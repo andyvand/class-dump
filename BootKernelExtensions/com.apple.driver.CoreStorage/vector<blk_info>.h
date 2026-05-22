@@ -4,5 +4,5 @@
 
 class vector<blk_info> {
 public: // (access info unavailable from symbols alone)
-    push_back(blk_info const&);
+    auto push_back(blk_info const&);
 };

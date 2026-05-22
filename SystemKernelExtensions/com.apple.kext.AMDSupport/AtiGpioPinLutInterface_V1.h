@@ -6,10 +6,12 @@ class AtiGpioPinLutInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiGpioPinLutInterface_V1();
     AtiGpioPinLutInterface_V1(OSMetaClass const*);
-    createGpioPinLutTable(AtiVBiosHelper*, unsigned int);
-    getGpioPinInfo(unsigned int, AtiGpioPinLutInterface_V1::GpioPinInfo&);
-    getHpdLine(unsigned int);
-    getMetaClass() const;
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto createGpioPinLutTable(AtiVBiosHelper*, unsigned int);
+    auto getGpioPinInfo(unsigned int, AtiGpioPinLutInterface_V1::GpioPinInfo&);
+    auto getHpdLine(unsigned int);
+    auto getMetaClass() const;
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiGpioPinLutInterface_V1();
 };

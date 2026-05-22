@@ -6,10 +6,12 @@ class TMCX_ALR_Connection {
 public: // (access info unavailable from symbols alone)
     TMCX_ALR_Connection();
     TMCX_ALR_Connection(OSMetaClass const*);
-    free();
-    free() (.cold.1);
-    free() (.cold.2);
-    getMetaClass() const;
-    init();
+    auto free();
+    auto free() (.cold.1);
+    auto free() (.cold.2);
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~TMCX_ALR_Connection();
 };

@@ -4,6 +4,6 @@
 
 class OSMetaClassBase {
 public: // (access info unavailable from symbols alone)
-    metaCast(char const*) const;
-    safeMetaCast(OSMetaClassBase const*, OSMetaClass const*);
+    auto metaCast(char const*) const;
+    auto safeMetaCast(OSMetaClassBase const*, OSMetaClass const*);
 };

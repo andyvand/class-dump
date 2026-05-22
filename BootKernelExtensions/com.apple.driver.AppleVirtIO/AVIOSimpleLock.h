@@ -5,6 +5,7 @@
 class AVIOSimpleLock {
 public: // (access info unavailable from symbols alone)
     AVIOSimpleLock(_IOSimpleLock*);
-    Lock();
+    auto Lock();
+    operator bool() const;
     ~AVIOSimpleLock();
 };

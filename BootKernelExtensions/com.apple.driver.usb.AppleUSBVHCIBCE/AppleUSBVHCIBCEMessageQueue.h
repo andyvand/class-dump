@@ -4,5 +4,5 @@
 
 class AppleUSBVHCIBCEMessageQueue {
 public: // (access info unavailable from symbols alone)
-    withParameters(char const*, IOWorkLoop*);
+    auto withParameters(char const*, IOWorkLoop*);
 };

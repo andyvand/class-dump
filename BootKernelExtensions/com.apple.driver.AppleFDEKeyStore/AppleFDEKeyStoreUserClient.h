@@ -6,12 +6,14 @@ class AppleFDEKeyStoreUserClient {
 public: // (access info unavailable from symbols alone)
     AppleFDEKeyStoreUserClient();
     AppleFDEKeyStoreUserClient(OSMetaClass const*);
-    clientClose();
-    currentProcHasEntitlement(char const*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int);
-    start(IOService*);
-    userClientClose();
+    auto clientClose();
+    auto currentProcHasEntitlement(char const*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int);
+    auto start(IOService*);
+    auto userClientClose();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleFDEKeyStoreUserClient();
 };

@@ -4,16 +4,18 @@
 
 class com_apple_driver_pm_cpu_mbox {
 public: // (access info unavailable from symbols alone)
-    cached_value();
+    auto cached_value();
+    auto free();
+    auto getMetaClass() const;
+    auto mailbox(unsigned int);
+    auto mbox_read();
+    auto mbox_set_cmd(unsigned int);
+    auto mbox_set_data(unsigned int);
+    auto mbox_uncached_read();
+    auto mbox_write();
     com_apple_driver_pm_cpu_mbox();
     com_apple_driver_pm_cpu_mbox(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    mailbox(unsigned int);
-    mbox_read();
-    mbox_set_cmd(unsigned int);
-    mbox_set_data(unsigned int);
-    mbox_uncached_read();
-    mbox_write();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_pm_cpu_mbox();
 };

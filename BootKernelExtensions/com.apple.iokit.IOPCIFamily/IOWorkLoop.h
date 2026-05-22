@@ -4,7 +4,7 @@
 
 class IOWorkLoop {
 public: // (access info unavailable from symbols alone)
-    runActionBlock(int () block_pointer);
-    setMaximumLockTime(unsigned long long, unsigned int);
-    workLoop();
+    auto runActionBlock(int () block_pointer);
+    auto setMaximumLockTime(unsigned long long, unsigned int);
+    auto workLoop();
 };

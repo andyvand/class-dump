@@ -4,9 +4,10 @@
 
 class libkern::intrusive_shared_ptr<OSSerializer, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
-    get() const &;
+    auto get() const &;
+    auto operator=(libkern::intrusive_shared_ptr<OSSerializer, intrusive_osobject_retainer>&&);
+    auto reset();
+    auto reset(OSSerializer*, libkern::no_retain_t);
     intrusive_shared_ptr();
-    operator=(libkern::intrusive_shared_ptr<OSSerializer, intrusive_osobject_retainer>&&);
-    reset();
-    reset(OSSerializer*, libkern::no_retain_t);
+    operator bool() const;
 };

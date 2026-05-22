@@ -4,8 +4,8 @@
 
 class DIDeviceRequest {
 public: // (access info unavailable from symbols alone)
-    create(IOLWPool<DIDeviceRequest>&, unsigned int);
-    die();
-    init(unsigned int);
+    auto create(IOLWPool<DIDeviceRequest>&, unsigned int);
+    auto die();
+    auto init(unsigned int);
     ~DIDeviceRequest();
 };

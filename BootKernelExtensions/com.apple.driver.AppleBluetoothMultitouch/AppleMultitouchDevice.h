@@ -5,4 +5,5 @@
 class AppleMultitouchDevice {
 public: // (access info unavailable from symbols alone)
     AppleMultitouchDevice();
+    void * operator new(unsigned long);
 };

@@ -4,5 +4,5 @@
 
 class DIRef {
 public: // (access info unavailable from symbols alone)
-    put();
+    auto put();
 };

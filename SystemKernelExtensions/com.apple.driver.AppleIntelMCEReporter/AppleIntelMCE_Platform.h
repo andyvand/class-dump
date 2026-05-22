@@ -4,7 +4,7 @@
 
 class AppleIntelMCE::Platform {
 public: // (access info unavailable from symbols alone)
-    getDimmInfo(unsigned char, unsigned int&, char*&)::kalloc_type_view_243;
-    numberOfCores();
-    platformCleanupForUnload()::kalloc_type_view_290;
+    auto getDimmInfo(unsigned char, unsigned int&, char*&)::kalloc_type_view_243;
+    auto numberOfCores();
+    auto platformCleanupForUnload()::kalloc_type_view_290;
 };

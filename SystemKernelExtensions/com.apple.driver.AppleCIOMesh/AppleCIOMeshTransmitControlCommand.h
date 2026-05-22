@@ -6,10 +6,12 @@ class AppleCIOMeshTransmitControlCommand {
 public: // (access info unavailable from symbols alone)
     AppleCIOMeshTransmitControlCommand();
     AppleCIOMeshTransmitControlCommand(OSMetaClass const*);
-    allocate(AppleCIOMeshControlPath*);
-    free();
-    getCommand();
-    getMetaClass() const;
-    init(AppleCIOMeshControlPath*, IOBufferMemoryDescriptor*);
+    auto allocate(AppleCIOMeshControlPath*);
+    auto free();
+    auto getCommand();
+    auto getMetaClass() const;
+    auto init(AppleCIOMeshControlPath*, IOBufferMemoryDescriptor*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleCIOMeshTransmitControlCommand();
 };

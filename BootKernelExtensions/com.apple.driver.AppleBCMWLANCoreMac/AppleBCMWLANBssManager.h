@@ -4,12 +4,12 @@
 
 class AppleBCMWLANBssManager {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_75;
-    getMetaClass() const;
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_84;
-    setCurrentBSS(AppleBCMWLANBSSBeacon*);
-    setCurrentBSS(AppleBCMWLANBSSBeacon*)::logCC;
-    withOptions(AppleBCMWLANCore*);
+    auto free();
+    auto free()::kalloc_type_view_75;
+    auto getMetaClass() const;
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_84;
+    auto setCurrentBSS(AppleBCMWLANBSSBeacon*);
+    auto setCurrentBSS(AppleBCMWLANBSSBeacon*)::logCC;
+    auto withOptions(AppleBCMWLANCore*);
     ~AppleBCMWLANBssManager();
 };

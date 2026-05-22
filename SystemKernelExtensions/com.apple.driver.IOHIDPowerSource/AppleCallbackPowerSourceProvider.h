@@ -5,6 +5,6 @@
 class AppleCallbackPowerSourceProvider {
 public: // (access info unavailable from symbols alone)
     AppleCallbackPowerSourceProvider(OSMetaClass const*);
-    open(IOService*, unsigned int, void*);
+    auto open(IOService*, unsigned int, void*);
     ~AppleCallbackPowerSourceProvider();
 };

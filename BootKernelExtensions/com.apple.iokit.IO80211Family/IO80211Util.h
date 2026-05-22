@@ -4,11 +4,11 @@
 
 class IO80211Util {
 public: // (access info unavailable from symbols alone)
-    getDTParameter32(IOService*, char const*, char const*, unsigned int);
-    getHwFeatureFlags(IOService*, char const*);
-    hashChannelID(unsigned long long, char const*);
-    isICMPPacket(unsigned char*, unsigned long, bool, unsigned char*, unsigned char**, unsigned char**, unsigned char*, unsigned short*);
-    isPTPPacket(unsigned char*, unsigned long, bool, unsigned char*, unsigned char**, unsigned char**, unsigned char*, unsigned short*);
-    mapICMPMessageTypeToString(unsigned char);
-    mapPTPMessageTypeToString(unsigned char);
+    auto getDTParameter32(IOService*, char const*, char const*, unsigned int);
+    auto getHwFeatureFlags(IOService*, char const*);
+    auto hashChannelID(unsigned long long, char const*);
+    auto isICMPPacket(unsigned char*, unsigned long, bool, unsigned char*, unsigned char**, unsigned char**, unsigned char*, unsigned short*);
+    auto isPTPPacket(unsigned char*, unsigned long, bool, unsigned char*, unsigned char**, unsigned char**, unsigned char*, unsigned short*);
+    auto mapICMPMessageTypeToString(unsigned char);
+    auto mapPTPMessageTypeToString(unsigned char);
 };

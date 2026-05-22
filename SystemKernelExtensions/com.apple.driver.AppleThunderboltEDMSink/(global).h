@@ -6,13 +6,9 @@
 
 AppleThunderboltEDMSink::gMetaClass;
 AppleThunderboltEDMSink::metaClass;
-AppleThunderboltEDMSink::operator delete(void*, unsigned long);
-AppleThunderboltEDMSink::operator new(unsigned long);
 AppleThunderboltEDMSink::superClass;
 AppleThunderboltEDMSinkUserClient::gMetaClass;
 AppleThunderboltEDMSinkUserClient::metaClass;
-AppleThunderboltEDMSinkUserClient::operator delete(void*, unsigned long);
-AppleThunderboltEDMSinkUserClient::operator new(unsigned long);
 AppleThunderboltEDMSinkUserClient::superClass;
 AppleThunderboltEDMSinkUserClient_ktv;
 AppleThunderboltEDMSink_ktv;

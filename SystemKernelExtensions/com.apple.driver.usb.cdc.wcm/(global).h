@@ -7,8 +7,6 @@
 AppleUSBCDCControl::gMetaClass;
 AppleUSBWCMControl::gMetaClass;
 AppleUSBWCMControl::metaClass;
-AppleUSBWCMControl::operator delete(void*, unsigned long);
-AppleUSBWCMControl::operator new(unsigned long);
 AppleUSBWCMControl::superClass;
 AppleUSBWCMControl_ktv;
 vtable for AppleUSBCDCControl;

@@ -5,10 +5,12 @@
 class IOUserNotification {
 public: // (access info unavailable from symbols alone)
     IOUserNotification(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    isValid();
-    reset();
-    setNotification(IONotifier*);
+    auto free();
+    auto getMetaClass() const;
+    auto isValid();
+    auto reset();
+    auto setNotification(IONotifier*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserNotification();
 };

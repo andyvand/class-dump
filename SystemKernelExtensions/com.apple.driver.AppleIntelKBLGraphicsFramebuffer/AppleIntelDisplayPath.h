@@ -6,12 +6,14 @@ class AppleIntelDisplayPath {
 public: // (access info unavailable from symbols alone)
     AppleIntelDisplayPath();
     AppleIntelDisplayPath(OSMetaClass const*);
-    ConvertToPathCursorCoordinates(AppleIntelFramebuffer*, int&, int&, int&, bool&);
-    InitHDCP();
-    ReleaseHDCP();
-    disableHDCP();
-    enableHDCP();
-    getMetaClass() const;
-    setGPUTestPattern(GPUTestPattern);
+    auto ConvertToPathCursorCoordinates(AppleIntelFramebuffer*, int&, int&, int&, bool&);
+    auto InitHDCP();
+    auto ReleaseHDCP();
+    auto disableHDCP();
+    auto enableHDCP();
+    auto getMetaClass() const;
+    auto setGPUTestPattern(GPUTestPattern);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelDisplayPath();
 };

@@ -5,6 +5,6 @@
 class IOCommand {
 public: // (access info unavailable from symbols alone)
     IOCommand(OSMetaClass const*);
-    init();
+    auto init();
     ~IOCommand();
 };

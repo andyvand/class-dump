@@ -4,5 +4,5 @@
 
 class AppleEffaceableStorage {
 public: // (access info unavailable from symbols alone)
-    setLocker(unsigned int, void const*, unsigned long long, bool);
+    auto setLocker(unsigned int, void const*, unsigned long long, bool);
 };

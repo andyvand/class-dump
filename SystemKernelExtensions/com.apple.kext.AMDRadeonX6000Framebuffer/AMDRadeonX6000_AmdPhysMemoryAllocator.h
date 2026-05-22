@@ -6,15 +6,17 @@ class AMDRadeonX6000_AmdPhysMemoryAllocator {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdPhysMemoryAllocator();
     AMDRadeonX6000_AmdPhysMemoryAllocator(OSMetaClass const*);
-    allocateMemory(unsigned long);
-    createPhysAllocator(unsigned char, IOPCIDevice*);
-    deallocateAll();
-    deallocateMemory(void*);
-    debugPrintList() const;
-    free();
-    getMetaClass() const;
-    getPhysMemDescriptorInfo(void*);
-    init(unsigned char, IOPCIDevice*);
-    stringifyTracedObjectId(unsigned int);
+    auto allocateMemory(unsigned long);
+    auto createPhysAllocator(unsigned char, IOPCIDevice*);
+    auto deallocateAll();
+    auto deallocateMemory(void*);
+    auto debugPrintList() const;
+    auto free();
+    auto getMetaClass() const;
+    auto getPhysMemDescriptorInfo(void*);
+    auto init(unsigned char, IOPCIDevice*);
+    auto stringifyTracedObjectId(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdPhysMemoryAllocator();
 };

@@ -4,6 +4,6 @@
 
 class ACMRMEnvironmentType {
 public: // (access info unavailable from symbols alone)
-    getBootMode(ACMRMEnvironment const&);
-    setBootMode(ACMRMEnvironment&, ACMRMEnvironmentType::BootMode);
+    auto getBootMode(ACMRMEnvironment const&);
+    auto setBootMode(ACMRMEnvironment&, ACMRMEnvironmentType::BootMode);
 };

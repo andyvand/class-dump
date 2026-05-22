@@ -4,7 +4,7 @@
 
 class Config {
 public: // (access info unavailable from symbols alone)
-    initialize();
-    initializeSysctlInterface();
-    isLoggingEnabled(asp_logging_flags);
+    auto initialize();
+    auto initializeSysctlInterface();
+    auto isLoggingEnabled(asp_logging_flags);
 };

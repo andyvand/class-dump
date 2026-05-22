@@ -4,12 +4,12 @@
 
 class IOSurfaceDescriptor {
 public: // (access info unavailable from symbols alone)
-    newSurfaceDescriptor();
-    setAllocSize(unsigned int);
-    setBufferOffset(unsigned int);
-    setBytesPerElement(unsigned int);
-    setBytesPerRow(unsigned int);
-    setDisableMapping(bool);
-    setHeight(unsigned int);
-    setWidth(unsigned int);
+    auto newSurfaceDescriptor();
+    auto setAllocSize(unsigned int);
+    auto setBufferOffset(unsigned int);
+    auto setBytesPerElement(unsigned int);
+    auto setBytesPerRow(unsigned int);
+    auto setDisableMapping(bool);
+    auto setHeight(unsigned int);
+    auto setWidth(unsigned int);
 };

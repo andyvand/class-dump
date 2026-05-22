@@ -5,6 +5,6 @@
 class IO80211ApFeatureConfig {
 public: // (access info unavailable from symbols alone)
     IO80211ApFeatureConfig(OSMetaClass const*);
-    getLimitedAggregationEnable();
+    auto getLimitedAggregationEnable();
     ~IO80211ApFeatureConfig();
 };

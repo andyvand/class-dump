@@ -6,15 +6,17 @@ class LogManagerDevice {
 public: // (access info unavailable from symbols alone)
     LogManagerDevice();
     LogManagerDevice(OSMetaClass const*);
-    dataReadyCallback(void*, bool);
-    deviceRequestCallback(unsigned int, void*, void*);
-    free();
-    getDataSourceLock();
-    getMetaClass() const;
-    initWithDeviceNameAndGate(char const*, IO80211CommandGate*, unsigned int, int);
-    initWithDeviceNameAndLock(char const*, _IOLock*, unsigned int, int);
-    willRelease();
-    withDeviceNameAndGate(char const*, IO80211CommandGate*, unsigned int, int);
-    withDeviceNameAndLock(char const*, _IOLock*, unsigned int, int);
+    auto dataReadyCallback(void*, bool);
+    auto deviceRequestCallback(unsigned int, void*, void*);
+    auto free();
+    auto getDataSourceLock();
+    auto getMetaClass() const;
+    auto initWithDeviceNameAndGate(char const*, IO80211CommandGate*, unsigned int, int);
+    auto initWithDeviceNameAndLock(char const*, _IOLock*, unsigned int, int);
+    auto willRelease();
+    auto withDeviceNameAndGate(char const*, IO80211CommandGate*, unsigned int, int);
+    auto withDeviceNameAndLock(char const*, _IOLock*, unsigned int, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~LogManagerDevice();
 };

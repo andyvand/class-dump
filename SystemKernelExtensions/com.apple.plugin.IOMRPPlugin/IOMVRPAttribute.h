@@ -6,11 +6,13 @@ class IOMVRPAttribute {
 public: // (access info unavailable from symbols alone)
     IOMVRPAttribute();
     IOMVRPAttribute(OSMetaClass const*);
-    attributeDictionary();
-    callbackArgumentsCount();
-    getMetaClass() const;
-    init(IOMVRP*, unsigned short);
-    setCallbackArguments(unsigned long long*);
-    setMessage(unsigned char*, unsigned char, unsigned char);
+    auto attributeDictionary();
+    auto callbackArgumentsCount();
+    auto getMetaClass() const;
+    auto init(IOMVRP*, unsigned short);
+    auto setCallbackArguments(unsigned long long*);
+    auto setMessage(unsigned char*, unsigned char, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOMVRPAttribute();
 };

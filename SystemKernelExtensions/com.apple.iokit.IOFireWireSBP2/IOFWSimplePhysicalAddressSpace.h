@@ -4,5 +4,5 @@
 
 class IOFWSimplePhysicalAddressSpace {
 public: // (access info unavailable from symbols alone)
-    getVirtualAddress();
+    auto getVirtualAddress();
 };

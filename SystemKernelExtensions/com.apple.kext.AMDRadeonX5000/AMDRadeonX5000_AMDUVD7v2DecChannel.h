@@ -6,15 +6,17 @@ class AMDRadeonX5000_AMDUVD7v2DecChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDUVD7v2DecChannel();
     AMDRadeonX5000_AMDUVD7v2DecChannel(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getOneDwordNOPCommand();
-    init(int, AMDRadeonX5000_IAMDHWInterface*, AMDRadeonX5000_IAMDHWEngine*, AMDRadeonX5000_IAMDHWRing*, char const*);
-    initializeFenceCmd();
-    initializeIndirectBufferCmd();
-    initializeIndirectCommandBufferFrame();
-    initializeSequenceCmd();
-    initializeTrapCmd();
-    writeGPUClockCountReportCommand(unsigned int*, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto getOneDwordNOPCommand();
+    auto init(int, AMDRadeonX5000_IAMDHWInterface*, AMDRadeonX5000_IAMDHWEngine*, AMDRadeonX5000_IAMDHWRing*, char const*);
+    auto initializeFenceCmd();
+    auto initializeIndirectBufferCmd();
+    auto initializeIndirectCommandBufferFrame();
+    auto initializeSequenceCmd();
+    auto initializeTrapCmd();
+    auto writeGPUClockCountReportCommand(unsigned int*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDUVD7v2DecChannel();
 };

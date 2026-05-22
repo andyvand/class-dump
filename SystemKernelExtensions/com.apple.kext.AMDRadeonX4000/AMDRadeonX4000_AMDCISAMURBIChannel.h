@@ -6,11 +6,13 @@ class AMDRadeonX4000_AMDCISAMURBIChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDCISAMURBIChannel();
     AMDRadeonX4000_AMDCISAMURBIChannel(OSMetaClass const*);
-    allocateMemoryResources();
-    commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
-    free();
-    getMetaClass() const;
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
-    timeStampInterruptCallbackRBI(OSObject*, void*);
+    auto allocateMemoryResources();
+    auto commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto timeStampInterruptCallbackRBI(OSObject*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDCISAMURBIChannel();
 };

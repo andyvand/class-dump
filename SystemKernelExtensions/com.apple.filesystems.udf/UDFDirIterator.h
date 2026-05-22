@@ -4,14 +4,14 @@
 
 class UDFDirIterator {
 public: // (access info unavailable from symbols alone)
-    CurEntryHeaderIsValid();
-    CurEntryIsValid();
-    CurEntryLen();
-    GetFileName();
-    GetFileNameLength();
-    Init(UDFNode*, long long);
-    Init(UDFStream*, long long);
-    ReadBytes(long long, unsigned long, unsigned char*);
     UDFDirIterator(UDFMount*, bool);
+    auto CurEntryHeaderIsValid();
+    auto CurEntryIsValid();
+    auto CurEntryLen();
+    auto GetFileName();
+    auto GetFileNameLength();
+    auto Init(UDFNode*, long long);
+    auto Init(UDFStream*, long long);
+    auto ReadBytes(long long, unsigned long, unsigned char*);
     ~UDFDirIterator();
 };

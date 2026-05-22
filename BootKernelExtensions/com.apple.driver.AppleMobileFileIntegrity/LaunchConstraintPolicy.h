@@ -5,12 +5,12 @@
 class LaunchConstraintPolicy {
 public: // (access info unavailable from symbols alone)
     LaunchConstraintPolicy(ProcessAccessor&, ProcessAccessor&, ProcessAccessor&, SystemFacts&, LaunchFacts&);
-    apply(void*, unsigned long, char**, unsigned long*);
-    applyConstraintCategory(ConstraintCategory_t, LCConstraintIdentifier_t, LaunchConstraintError_t&);
-    baseSystemExceptions(ConstraintCategory_t);
-    handleViolation(LaunchConstraintError_t&, char**, unsigned long*);
-    handleViolation(LaunchConstraintError_t&, char**, unsigned long*) (.cold.1);
-    launchConstraintAllowed(TLE::LWCR&, ProcessAccessor&, CEBuffer&, LaunchConstraintError_t&);
-    spawnAttrAllowed(ProcessAccessor&, ProcessAccessor&, LaunchConstraintError_t&);
+    auto apply(void*, unsigned long, char**, unsigned long*);
+    auto applyConstraintCategory(ConstraintCategory_t, LCConstraintIdentifier_t, LaunchConstraintError_t&);
+    auto baseSystemExceptions(ConstraintCategory_t);
+    auto handleViolation(LaunchConstraintError_t&, char**, unsigned long*);
+    auto handleViolation(LaunchConstraintError_t&, char**, unsigned long*) (.cold.1);
+    auto launchConstraintAllowed(TLE::LWCR&, ProcessAccessor&, CEBuffer&, LaunchConstraintError_t&);
+    auto spawnAttrAllowed(ProcessAccessor&, ProcessAccessor&, LaunchConstraintError_t&);
     ~LaunchConstraintPolicy();
 };

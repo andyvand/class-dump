@@ -4,16 +4,16 @@
 
 class UDFSparablePartition {
 public: // (access info unavailable from symbols alone)
-    FindPhysicalBlkNum(unsigned int);
-    GetLogicalBlkNum(unsigned int, UDFDefectMap**);
-    LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool);
-    LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool) (.cold.1);
-    MakeSpareTable(UDFSparingTable*);
-    PostInit();
-    ReadSparingTable(unsigned int);
     UDFSparablePartition(UDFMount*, UDFSparablePartitionTail*, unsigned short);
-    WriteSpareTables();
-    WriteSpareTables() (.cold.1);
-    WriteToSparePacket(unsigned int*, unsigned char*);
+    auto FindPhysicalBlkNum(unsigned int);
+    auto GetLogicalBlkNum(unsigned int, UDFDefectMap**);
+    auto LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool);
+    auto LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool) (.cold.1);
+    auto MakeSpareTable(UDFSparingTable*);
+    auto PostInit();
+    auto ReadSparingTable(unsigned int);
+    auto WriteSpareTables();
+    auto WriteSpareTables() (.cold.1);
+    auto WriteToSparePacket(unsigned int*, unsigned char*);
     ~UDFSparablePartition();
 };

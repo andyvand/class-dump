@@ -4,5 +4,5 @@
 
 class ACIPCChip {
 public: // (access info unavailable from symbols alone)
-    getBar0RegisterOffset(unsigned int);
+    auto getBar0RegisterOffset(unsigned int);
 };

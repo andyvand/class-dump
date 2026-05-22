@@ -4,13 +4,13 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    extendedConfigRead16(unsigned long long);
-    extendedConfigRead32(unsigned long long);
-    extendedConfigRead8(unsigned long long);
-    extendedConfigWrite16(unsigned long long, unsigned short);
-    extendedConfigWrite32(unsigned long long, unsigned int);
-    extendedConfigWrite8(unsigned long long, unsigned char);
-    setASPMState(IOService*, unsigned int);
-    setBusLeadEnable(bool);
-    setTunnelL1Enable(IOService*, bool);
+    auto extendedConfigRead16(unsigned long long);
+    auto extendedConfigRead32(unsigned long long);
+    auto extendedConfigRead8(unsigned long long);
+    auto extendedConfigWrite16(unsigned long long, unsigned short);
+    auto extendedConfigWrite32(unsigned long long, unsigned int);
+    auto extendedConfigWrite8(unsigned long long, unsigned char);
+    auto setASPMState(IOService*, unsigned int);
+    auto setBusLeadEnable(bool);
+    auto setTunnelL1Enable(IOService*, bool);
 };

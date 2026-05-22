@@ -11,8 +11,6 @@ OSNumber::metaClass;
 OSString::metaClass;
 com_apple_driver_AppleUSBMassStorageInterfaceNub::gMetaClass;
 com_apple_driver_AppleUSBMassStorageInterfaceNub::metaClass;
-com_apple_driver_AppleUSBMassStorageInterfaceNub::operator delete(void*, unsigned long);
-com_apple_driver_AppleUSBMassStorageInterfaceNub::operator new(unsigned long);
 com_apple_driver_AppleUSBMassStorageInterfaceNub::superClass;
 com_apple_driver_AppleUSBMassStorageInterfaceNub_ktv;
 vtable for IOService;

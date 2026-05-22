@@ -5,14 +5,14 @@
 class AppleIntelMCE::DIMMECCError {
 public: // (access info unavailable from symbols alone)
     DIMMECCError(unsigned long long, unsigned long long, unsigned long long, unsigned char, OSString*, unsigned char, unsigned char);
-    cleanupReportableEccCounts();
-    cleanupReportableEccCounts()::kalloc_type_view_346;
-    description() const;
-    getPlatformReportableEccCounts(unsigned int**);
-    getPlatformReportableEccCounts(unsigned int**)::kalloc_type_view_354;
-    incrementPlatformReportableEccCount() const;
-    initialize() const;
-    reportToMessageTracer() const;
-    reportToProfiler() const;
+    auto cleanupReportableEccCounts();
+    auto cleanupReportableEccCounts()::kalloc_type_view_346;
+    auto description() const;
+    auto getPlatformReportableEccCounts(unsigned int**);
+    auto getPlatformReportableEccCounts(unsigned int**)::kalloc_type_view_354;
+    auto incrementPlatformReportableEccCount() const;
+    auto initialize() const;
+    auto reportToMessageTracer() const;
+    auto reportToProfiler() const;
     ~DIMMECCError();
 };

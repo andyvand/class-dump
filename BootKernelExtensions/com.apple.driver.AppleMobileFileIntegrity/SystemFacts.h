@@ -4,11 +4,11 @@
 
 class SystemFacts {
 public: // (access info unavailable from symbols alone)
-    getFact(CEBuffer);
-    hasFactFor(CEBuffer);
-    isAppleInternal();
-    resolveFact(CEBuffer);
-    resolveFactIfPresent(CEBuffer, bool*);
-    sipIsEnabled();
+    auto getFact(CEBuffer);
+    auto hasFactFor(CEBuffer);
+    auto isAppleInternal();
+    auto resolveFact(CEBuffer);
+    auto resolveFactIfPresent(CEBuffer, bool*);
+    auto sipIsEnabled();
     ~SystemFacts();
 };

@@ -4,7 +4,7 @@
 
 class IODataQueue {
 public: // (access info unavailable from symbols alone)
-    initWithEntries(unsigned int, unsigned int);
-    sendDataAvailableNotification();
-    setNotificationPort(ipc_port*);
+    auto initWithEntries(unsigned int, unsigned int);
+    auto sendDataAvailableNotification();
+    auto setNotificationPort(ipc_port*);
 };

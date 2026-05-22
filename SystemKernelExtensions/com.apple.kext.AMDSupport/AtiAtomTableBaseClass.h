@@ -5,7 +5,9 @@
 class AtiAtomTableBaseClass {
 public: // (access info unavailable from symbols alone)
     AtiAtomTableBaseClass(OSMetaClass const*);
-    getMetaClass() const;
-    init(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    auto init(AtiVBiosHelper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiAtomTableBaseClass();
 };

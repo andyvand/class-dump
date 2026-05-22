@@ -4,6 +4,6 @@
 
 class AppleKeyStoreCommand {
 public: // (access info unavailable from symbols alone)
-    getMetaClass() const;
+    auto getMetaClass() const;
     ~AppleKeyStoreCommand();
 };

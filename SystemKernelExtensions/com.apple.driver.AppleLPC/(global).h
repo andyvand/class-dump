@@ -6,8 +6,6 @@
 
 AppleLPC::gMetaClass;
 AppleLPC::metaClass;
-AppleLPC::operator delete(void*, unsigned long);
-AppleLPC::operator new(unsigned long);
 AppleLPC::superClass;
 AppleLPC_ktv;
 IOPCIDevice::metaClass;

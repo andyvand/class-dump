@@ -6,9 +6,11 @@ class IGRangeAllocator {
 public: // (access info unavailable from symbols alone)
     IGRangeAllocator();
     IGRangeAllocator(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithRange(IGAddressRange, unsigned long long);
-    withRange(IGAddressRange, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithRange(IGAddressRange, unsigned long long);
+    auto withRange(IGAddressRange, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGRangeAllocator();
 };

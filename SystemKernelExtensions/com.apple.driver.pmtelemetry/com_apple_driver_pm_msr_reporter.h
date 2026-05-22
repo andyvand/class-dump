@@ -4,15 +4,17 @@
 
 class com_apple_driver_pm_msr_reporter {
 public: // (access info unavailable from symbols alone)
+    auto destroy();
+    auto getMetaClass() const;
+    auto group();
+    auto init();
+    auto publish();
+    auto read_core_and_cpu_msrs(void*);
+    auto setup(com_apple_driver_pmtelemetry*, IOReportLegend*);
+    auto subgroup();
     com_apple_driver_pm_msr_reporter();
     com_apple_driver_pm_msr_reporter(OSMetaClass const*);
-    destroy();
-    getMetaClass() const;
-    group();
-    init();
-    publish();
-    read_core_and_cpu_msrs(void*);
-    setup(com_apple_driver_pmtelemetry*, IOReportLegend*);
-    subgroup();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_pm_msr_reporter();
 };

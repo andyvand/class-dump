@@ -5,5 +5,5 @@
 class IOAccelResourceList::ReverseIterator {
 public: // (access info unavailable from symbols alone)
     ReverseIterator(IOAccelResourceList&);
-    getPrevResource();
+    auto getPrevResource();
 };

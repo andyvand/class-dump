@@ -6,10 +6,12 @@ class BaffinCriticalTemperatureInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinCriticalTemperatureInterrupt();
     BaffinCriticalTemperatureInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
-    initialize();
-    setPolarity(bool);
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initialize();
+    auto setPolarity(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinCriticalTemperatureInterrupt();
 };

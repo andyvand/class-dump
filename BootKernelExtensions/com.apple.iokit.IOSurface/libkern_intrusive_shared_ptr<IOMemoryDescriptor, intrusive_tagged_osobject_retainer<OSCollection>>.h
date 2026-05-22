@@ -4,5 +4,5 @@
 
 class libkern::intrusive_shared_ptr<IOMemoryDescriptor, intrusive_tagged_osobject_retainer<OSCollection>> {
 public: // (access info unavailable from symbols alone)
-    reset(IOMemoryDescriptor*, libkern::retain_t);
+    auto reset(IOMemoryDescriptor*, libkern::retain_t);
 };

@@ -4,7 +4,7 @@
 
 class StandardUSBVHCI {
 public: // (access info unavailable from symbols alone)
-    buildCreateEndpointCommand(unsigned char, unsigned short, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
-    convertIOReturnToVHCIMessageStatus(int);
-    convertVHCIMessageStatusToIOReturn(StandardUSBVHCI::VHCIMessage const*);
+    auto buildCreateEndpointCommand(unsigned char, unsigned short, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
+    auto convertIOReturnToVHCIMessageStatus(int);
+    auto convertVHCIMessageStatusToIOReturn(StandardUSBVHCI::VHCIMessage const*);
 };

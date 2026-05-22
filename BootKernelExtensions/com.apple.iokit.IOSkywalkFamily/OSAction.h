@@ -4,10 +4,10 @@
 
 class OSAction {
 public: // (access info unavailable from symbols alone)
-    CreateWithTypeName(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
-    GetReference();
     OSAction(OSMetaClass const*);
-    _Dispatch(OSAction*, IORPC);
-    free();
+    auto CreateWithTypeName(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
+    auto GetReference();
+    auto _Dispatch(OSAction*, IORPC);
+    auto free();
     ~OSAction();
 };

@@ -4,8 +4,8 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    getEndpointAddress(StandardUSB::EndpointDescriptor const*);
-    getEndpointDirection(StandardUSB::EndpointDescriptor const*);
-    getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointType(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointAddress(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointDirection(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointType(StandardUSB::EndpointDescriptor const*);
 };

@@ -4,21 +4,21 @@
 
 class CryptoBufferDescriptor {
 public: // (access info unavailable from symbols alone)
-    Decrypt();
-    Decrypt()::__desc;
-    Encrypt();
-    Encrypt()::__desc;
-    Release(int, unsigned long long);
-    Release(int, unsigned long long)::__desc;
-    free();
-    free()::kalloc_type_view_271;
-    getBytesNoCopy();
-    getCapacity() const;
-    getMetaClass() const;
-    setDirection(unsigned int);
-    setLength(unsigned long);
-    setLength(unsigned long)::__desc;
-    withCapacity(unsigned long);
-    withCapacity(unsigned long)::kalloc_type_view_238;
+    auto Decrypt();
+    auto Decrypt()::__desc;
+    auto Encrypt();
+    auto Encrypt()::__desc;
+    auto Release(int, unsigned long long);
+    auto Release(int, unsigned long long)::__desc;
+    auto free();
+    auto free()::kalloc_type_view_271;
+    auto getBytesNoCopy();
+    auto getCapacity() const;
+    auto getMetaClass() const;
+    auto setDirection(unsigned int);
+    auto setLength(unsigned long);
+    auto setLength(unsigned long)::__desc;
+    auto withCapacity(unsigned long);
+    auto withCapacity(unsigned long)::kalloc_type_view_238;
     ~CryptoBufferDescriptor();
 };

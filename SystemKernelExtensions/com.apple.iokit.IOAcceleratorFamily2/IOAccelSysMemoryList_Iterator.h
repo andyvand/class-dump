@@ -5,5 +5,5 @@
 class IOAccelSysMemoryList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelSysMemoryList&);
-    getNextMemory();
+    auto getNextMemory();
 };

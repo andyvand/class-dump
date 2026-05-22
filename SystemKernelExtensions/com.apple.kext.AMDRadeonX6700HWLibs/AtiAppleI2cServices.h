@@ -4,5 +4,5 @@
 
 class AtiAppleI2cServices {
 public: // (access info unavailable from symbols alone)
-    i2cIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*);
+    auto i2cIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*);
 };

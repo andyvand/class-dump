@@ -4,8 +4,8 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    getNextAssociatedDescriptorWithType(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*, StandardUSB::Descriptor const*, unsigned char);
-    getNextInterfaceAssociationDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*);
-    getNextInterfaceDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*);
-    stringDescriptorToUTF8(StandardUSB::StringDescriptor const*, char*, unsigned long&);
+    auto getNextAssociatedDescriptorWithType(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*, StandardUSB::Descriptor const*, unsigned char);
+    auto getNextInterfaceAssociationDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*);
+    auto getNextInterfaceDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*);
+    auto stringDescriptorToUTF8(StandardUSB::StringDescriptor const*, char*, unsigned long&);
 };

@@ -6,9 +6,11 @@ class IOSurfaceWiredSendRight {
 public: // (access info unavailable from symbols alone)
     IOSurfaceWiredSendRight();
     IOSurfaceWiredSendRight(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(IOSurfaceRoot*, IOSurface*, unsigned long long);
-    withSurface(IOSurfaceRoot*, IOSurface*, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOSurfaceRoot*, IOSurface*, unsigned long long);
+    auto withSurface(IOSurfaceRoot*, IOSurface*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSurfaceWiredSendRight();
 };

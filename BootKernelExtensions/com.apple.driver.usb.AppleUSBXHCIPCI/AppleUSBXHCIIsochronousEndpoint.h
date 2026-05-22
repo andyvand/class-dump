@@ -4,5 +4,5 @@
 
 class AppleUSBXHCIIsochronousEndpoint {
 public: // (access info unavailable from symbols alone)
-    withParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
+    auto withParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
 };

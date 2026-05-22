@@ -6,15 +6,17 @@ class AppleRSMChannelTestClient {
 public: // (access info unavailable from symbols alone)
     AppleRSMChannelTestClient();
     AppleRSMChannelTestClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*)::methods;
-    getMetaClass() const;
-    message(unsigned int, IOService*, void*);
-    receiveDataCallback(AppleRSMChannel*, void const*, unsigned long long, unsigned char);
-    sendData(OSObject*, void*, IOExternalMethodArguments*);
-    start(IOService*);
-    stop(IOService*);
-    willTerminate(IOService*, unsigned int);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*)::methods;
+    auto getMetaClass() const;
+    auto message(unsigned int, IOService*, void*);
+    auto receiveDataCallback(AppleRSMChannel*, void const*, unsigned long long, unsigned char);
+    auto sendData(OSObject*, void*, IOExternalMethodArguments*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto willTerminate(IOService*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleRSMChannelTestClient();
 };

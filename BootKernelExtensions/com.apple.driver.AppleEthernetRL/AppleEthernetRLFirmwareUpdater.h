@@ -6,12 +6,14 @@ class AppleEthernetRLFirmwareUpdater {
 public: // (access info unavailable from symbols alone)
     AppleEthernetRLFirmwareUpdater();
     AppleEthernetRLFirmwareUpdater(OSMetaClass const*);
-    complete();
-    getMetaClass() const;
-    prepare();
-    prepareSlotBufferKr0();
-    prepareSlotBufferKr4();
-    withTarget(AppleEthernetRL*, unsigned int);
-    write();
+    auto complete();
+    auto getMetaClass() const;
+    auto prepare();
+    auto prepareSlotBufferKr0();
+    auto prepareSlotBufferKr4();
+    auto withTarget(AppleEthernetRL*, unsigned int);
+    auto write();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEthernetRLFirmwareUpdater();
 };

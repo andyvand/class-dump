@@ -6,11 +6,13 @@ class AppleGFXHDAWidget_8086280F {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAWidget_8086280F();
     AppleGFXHDAWidget_8086280F(OSMetaClass const*);
-    getMetaClass() const;
-    initForNodeID(unsigned short, OSObject*, OSObject*);
-    isRetaskable(void*);
-    performPowerRailRestore();
-    performWidgetInitialization(unsigned char);
-    pinSetControl(unsigned char);
+    auto getMetaClass() const;
+    auto initForNodeID(unsigned short, OSObject*, OSObject*);
+    auto isRetaskable(void*);
+    auto performPowerRailRestore();
+    auto performWidgetInitialization(unsigned char);
+    auto pinSetControl(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAWidget_8086280F();
 };

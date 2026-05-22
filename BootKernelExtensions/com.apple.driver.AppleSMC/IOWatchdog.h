@@ -4,9 +4,9 @@
 
 class IOWatchdog {
 public: // (access info unavailable from symbols alone)
-    checkWatchdog();
-    getPanicSocWatchdogEnabled() const;
-    getSocWatchdogEnabled() const;
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    publishProperties();
+    auto checkWatchdog();
+    auto getPanicSocWatchdogEnabled() const;
+    auto getSocWatchdogEnabled() const;
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto publishProperties();
 };

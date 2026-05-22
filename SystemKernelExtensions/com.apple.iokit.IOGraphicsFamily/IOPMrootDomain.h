@@ -4,8 +4,8 @@
 
 class IOPMrootDomain {
 public: // (access info unavailable from symbols alone)
-    copyPMSetting(OSSymbol*);
-    publishFeature(char const*);
-    registerPMSettingController(OSSymbol const**, int (*)(OSObject*, OSSymbol const*, OSObject*, unsigned long), OSObject*, unsigned long, OSObject**);
-    wakeFromDoze();
+    auto copyPMSetting(OSSymbol*);
+    auto publishFeature(char const*);
+    auto registerPMSettingController(OSSymbol const**, int (*)(OSObject*, OSSymbol const*, OSObject*, unsigned long), OSObject*, unsigned long, OSObject**);
+    auto wakeFromDoze();
 };

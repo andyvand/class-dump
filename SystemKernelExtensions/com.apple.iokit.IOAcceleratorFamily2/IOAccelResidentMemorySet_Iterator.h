@@ -5,5 +5,5 @@
 class IOAccelResidentMemorySet::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelResidentMemorySet&);
-    getNextMemory();
+    auto getNextMemory();
 };

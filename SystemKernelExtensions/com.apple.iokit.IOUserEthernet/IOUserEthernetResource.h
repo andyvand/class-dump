@@ -6,11 +6,13 @@ class IOUserEthernetResource {
 public: // (access info unavailable from symbols alone)
     IOUserEthernetResource();
     IOUserEthernetResource(OSMetaClass const*);
-    __OSFinalClass();
-    free();
-    getMetaClass() const;
-    getWorkLoop() const;
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    start(IOService*);
+    auto __OSFinalClass();
+    auto free();
+    auto getMetaClass() const;
+    auto getWorkLoop() const;
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserEthernetResource();
 };

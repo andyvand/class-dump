@@ -4,7 +4,7 @@
 
 class VnodePut {
 public: // (access info unavailable from symbols alone)
-    Set(vnode*);
     VnodePut();
+    auto Set(vnode*);
     ~VnodePut();
 };

@@ -4,6 +4,6 @@
 
 class AppleBCMWLANIO80211APSTAInterface::MetaClass {
 public: // (access info unavailable from symbols alone)
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

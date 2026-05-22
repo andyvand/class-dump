@@ -4,26 +4,28 @@
 
 class IOUserNetworkTxCompletionQueueCompat {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     IOUserNetworkTxCompletionQueueCompat();
     IOUserNetworkTxCompletionQueueCompat(OSMetaClass const*);
-    _Create(IOUserNetworkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODispatchQueue*, IODataQueueDispatchSource*, IOUserNetworkTxCompletionQueueCompat**);
-    _Create_Impl(IOUserNetworkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODispatchQueue*, IODataQueueDispatchSource*, IOUserNetworkTxCompletionQueueCompat**);
-    _Create_Invoke(IORPC, int (*)(IOUserNetworkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODispatchQueue*, IODataQueueDispatchSource*, IOUserNetworkTxCompletionQueueCompat**));
-    _Dispatch(IOUserNetworkTxCompletionQueueCompat*, IORPC);
-    addReporters(IOService*, OSSet*);
-    checkForWork();
-    disable();
-    enable();
-    finalize();
-    free();
-    getMetaClass() const;
-    getPacketCount() const;
-    getReportChannelValue(unsigned long long);
-    handleDataAvailable();
-    initWithPool(IOSkywalkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODataQueueDispatchSource*);
-    initialize(void*);
-    performCommand(unsigned int, void*, unsigned long);
-    withPool(IOSkywalkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODataQueueDispatchSource*);
+    auto Dispatch(IORPC);
+    auto _Create(IOUserNetworkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODispatchQueue*, IODataQueueDispatchSource*, IOUserNetworkTxCompletionQueueCompat**);
+    auto _Create_Impl(IOUserNetworkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODispatchQueue*, IODataQueueDispatchSource*, IOUserNetworkTxCompletionQueueCompat**);
+    auto _Create_Invoke(IORPC, int (*)(IOUserNetworkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODispatchQueue*, IODataQueueDispatchSource*, IOUserNetworkTxCompletionQueueCompat**));
+    auto _Dispatch(IOUserNetworkTxCompletionQueueCompat*, IORPC);
+    auto addReporters(IOService*, OSSet*);
+    auto checkForWork();
+    auto disable();
+    auto enable();
+    auto finalize();
+    auto free();
+    auto getMetaClass() const;
+    auto getPacketCount() const;
+    auto getReportChannelValue(unsigned long long);
+    auto handleDataAvailable();
+    auto initWithPool(IOSkywalkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODataQueueDispatchSource*);
+    auto initialize(void*);
+    auto performCommand(unsigned int, void*, unsigned long);
+    auto withPool(IOSkywalkPacketBufferPool*, OSObject*, unsigned int, unsigned int, IODataQueueDispatchSource*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOUserNetworkTxCompletionQueueCompat();
 };

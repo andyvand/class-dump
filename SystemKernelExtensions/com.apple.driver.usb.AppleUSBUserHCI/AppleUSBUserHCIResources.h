@@ -6,9 +6,11 @@ class AppleUSBUserHCIResources {
 public: // (access info unavailable from symbols alone)
     AppleUSBUserHCIResources();
     AppleUSBUserHCIResources(OSMetaClass const*);
-    getMetaClass() const;
-    newUserClient(task*, void*, unsigned int, IOUserClient**);
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
-    start(IOService*);
+    auto getMetaClass() const;
+    auto newUserClient(task*, void*, unsigned int, IOUserClient**);
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBUserHCIResources();
 };

@@ -4,5 +4,5 @@
 
 class IOService {
 public: // (access info unavailable from symbols alone)
-    getMatchingServices(OSDictionary*);
+    auto getMatchingServices(OSDictionary*);
 };

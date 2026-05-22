@@ -5,12 +5,12 @@
 class AppleXsanGlobals {
 public: // (access info unavailable from symbols alone)
     AppleXsanGlobals();
-    createVolumePuppet(OSString*, unsigned long long, unsigned int, unsigned int, OSString*);
-    destroyVolumePuppet(OSString*);
-    doRealInit();
-    ensureInit();
-    islocked();
-    lock();
-    unlock();
+    auto createVolumePuppet(OSString*, unsigned long long, unsigned int, unsigned int, OSString*);
+    auto destroyVolumePuppet(OSString*);
+    auto doRealInit();
+    auto ensureInit();
+    auto islocked();
+    auto lock();
+    auto unlock();
     ~AppleXsanGlobals();
 };

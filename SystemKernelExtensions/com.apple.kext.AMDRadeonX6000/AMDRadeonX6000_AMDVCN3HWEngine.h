@@ -6,14 +6,16 @@ class AMDRadeonX6000_AMDVCN3HWEngine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDVCN3HWEngine();
     AMDRadeonX6000_AMDVCN3HWEngine(OSMetaClass const*);
-    allocateHWChannels();
-    allocateHWRings();
-    dumpEngineHangState(bool);
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
-    initHardware(eAMDAccelVideoChannel);
-    isIdle();
-    releaseHardware(eAMDAccelVideoChannel);
+    auto allocateHWChannels();
+    auto allocateHWRings();
+    auto dumpEngineHangState(bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    auto initHardware(eAMDAccelVideoChannel);
+    auto isIdle();
+    auto releaseHardware(eAMDAccelVideoChannel);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDVCN3HWEngine();
 };

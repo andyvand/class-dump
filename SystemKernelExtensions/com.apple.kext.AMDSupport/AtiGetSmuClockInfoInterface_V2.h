@@ -5,8 +5,10 @@
 class AtiGetSmuClockInfoInterface_V2 {
 public: // (access info unavailable from symbols alone)
     AtiGetSmuClockInfoInterface_V2(OSMetaClass const*);
-    createGetSmuClockInfo(AtiVBiosHelper*);
-    getMetaClass() const;
-    getSmuClockInfoInKHz(unsigned char);
+    auto createGetSmuClockInfo(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    auto getSmuClockInfoInKHz(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiGetSmuClockInfoInterface_V2();
 };

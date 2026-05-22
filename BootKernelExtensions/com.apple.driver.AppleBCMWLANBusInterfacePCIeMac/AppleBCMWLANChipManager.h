@@ -5,9 +5,9 @@
 class AppleBCMWLANChipManager {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANChipManager(OSMetaClass const*);
-    getLogger() const;
-    getNVRAMLimit() const;
-    getSoCRAMSize() const;
-    init(AppleBCMWLANBusInterface*);
+    auto getLogger() const;
+    auto getNVRAMLimit() const;
+    auto getSoCRAMSize() const;
+    auto init(AppleBCMWLANBusInterface*);
     ~AppleBCMWLANChipManager();
 };

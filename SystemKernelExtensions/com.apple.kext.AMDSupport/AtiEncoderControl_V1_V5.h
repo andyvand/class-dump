@@ -6,11 +6,13 @@ class AtiEncoderControl_V1_V5 {
 public: // (access info unavailable from symbols alone)
     AtiEncoderControl_V1_V5();
     AtiEncoderControl_V1_V5(OSMetaClass const*);
-    encoderControl(ActiveConnectorInfo const*, AtiAtomEncoderAction);
-    encoderDpObfuscation(ActiveConnectorInfo const*, AtiAtomDpObfMode);
-    getMetaClass() const;
-    populateDpObfuscationParameters(ActiveConnectorInfo const*, _DP_OBFUSCATION_SETUP_PARAMETERS_V5*, AtiAtomDpObfMode);
-    populateGeneralParameters(ActiveConnectorInfo const*, _ENCODER_GENERIC_CMD_PARAMETERS_V5*, AtiAtomEncoderAction);
-    populateStreamSetupParameters(ActiveConnectorInfo const*, _ENCODER_STREAM_SETUP_PARAMETERS_V5*);
+    auto encoderControl(ActiveConnectorInfo const*, AtiAtomEncoderAction);
+    auto encoderDpObfuscation(ActiveConnectorInfo const*, AtiAtomDpObfMode);
+    auto getMetaClass() const;
+    auto populateDpObfuscationParameters(ActiveConnectorInfo const*, _DP_OBFUSCATION_SETUP_PARAMETERS_V5*, AtiAtomDpObfMode);
+    auto populateGeneralParameters(ActiveConnectorInfo const*, _ENCODER_GENERIC_CMD_PARAMETERS_V5*, AtiAtomEncoderAction);
+    auto populateStreamSetupParameters(ActiveConnectorInfo const*, _ENCODER_STREAM_SETUP_PARAMETERS_V5*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiEncoderControl_V1_V5();
 };

@@ -5,7 +5,7 @@
 class AtiFbCompressionManager {
 public: // (access info unavailable from symbols alone)
     AtiFbCompressionManager(OSMetaClass const*);
-    getBufferAddress();
-    getBufferSize();
+    auto getBufferAddress();
+    auto getBufferSize();
     ~AtiFbCompressionManager();
 };

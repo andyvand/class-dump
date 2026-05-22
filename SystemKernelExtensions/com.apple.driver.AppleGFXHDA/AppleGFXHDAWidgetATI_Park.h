@@ -6,9 +6,11 @@ class AppleGFXHDAWidgetATI_Park {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAWidgetATI_Park();
     AppleGFXHDAWidgetATI_Park(OSMetaClass const*);
-    cachedPinSense(bool*, unsigned int*);
-    getMetaClass() const;
-    initForNodeID(unsigned short, OSObject*, OSObject*);
-    supportsDisableSlots();
+    auto cachedPinSense(bool*, unsigned int*);
+    auto getMetaClass() const;
+    auto initForNodeID(unsigned short, OSObject*, OSObject*);
+    auto supportsDisableSlots();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAWidgetATI_Park();
 };

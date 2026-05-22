@@ -5,5 +5,5 @@
 class IOAccelResidentMemorySet::ReverseIterator {
 public: // (access info unavailable from symbols alone)
     ReverseIterator(IOAccelResidentMemorySet&);
-    getPrevMemory();
+    auto getPrevMemory();
 };

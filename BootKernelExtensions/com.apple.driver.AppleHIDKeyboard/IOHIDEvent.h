@@ -4,6 +4,6 @@
 
 class IOHIDEvent {
 public: // (access info unavailable from symbols alone)
-    brightnessEvent(unsigned long long, int, int, unsigned long long, unsigned int);
-    vendorDefinedEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned char*, unsigned int, unsigned int);
+    auto brightnessEvent(unsigned long long, int, int, unsigned long long, unsigned int);
+    auto vendorDefinedEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned char*, unsigned int, unsigned int);
 };

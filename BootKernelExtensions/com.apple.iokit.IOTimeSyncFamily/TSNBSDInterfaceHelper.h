@@ -5,15 +5,15 @@
 class TSNBSDInterfaceHelper {
 public: // (access info unavailable from symbols alone)
     TSNBSDInterfaceHelper();
-    addMbufCallback();
-    addMbufCallback() (.cold.1);
-    addMbufCallback()::_os_log_fmt;
-    mbufCallbackFunction();
-    mbufTXCallback(unsigned long, __ifnet*, unsigned long long, unsigned long, unsigned long, int);
-    mbufTXCallback(unsigned long, __ifnet*, unsigned long long, unsigned long, unsigned long, int) (.cold.1);
-    mbufTXCallback(unsigned long, __ifnet*, unsigned long long, unsigned long, unsigned long, int) (.cold.2);
-    mbufTXCallback(unsigned long, __ifnet*, unsigned long long, unsigned long, unsigned long, int)::_os_log_fmt;
-    removeMbufCallback();
-    removeMbufCallback()::_os_log_fmt;
+    auto addMbufCallback();
+    auto addMbufCallback() (.cold.1);
+    auto addMbufCallback()::_os_log_fmt;
+    auto mbufCallbackFunction();
+    auto mbufTXCallback(unsigned long, __ifnet*, unsigned long long, unsigned long, unsigned long, int);
+    auto mbufTXCallback(unsigned long, __ifnet*, unsigned long long, unsigned long, unsigned long, int) (.cold.1);
+    auto mbufTXCallback(unsigned long, __ifnet*, unsigned long long, unsigned long, unsigned long, int) (.cold.2);
+    auto mbufTXCallback(unsigned long, __ifnet*, unsigned long long, unsigned long, unsigned long, int)::_os_log_fmt;
+    auto removeMbufCallback();
+    auto removeMbufCallback()::_os_log_fmt;
     ~TSNBSDInterfaceHelper();
 };

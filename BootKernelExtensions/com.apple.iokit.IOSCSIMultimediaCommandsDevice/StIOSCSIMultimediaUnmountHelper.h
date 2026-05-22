@@ -6,8 +6,8 @@ class StIOSCSIMultimediaUnmountHelper {
 public: // (access info unavailable from symbols alone)
     StIOSCSIMultimediaUnmountHelper(IOService*, IOService*, IOCommandGate*, unsigned int*, int*);
     StIOSCSIMultimediaUnmountHelper(IOService*, IOService*, IOCommandGate*, unsigned int*, int*)::kalloc_type_view_544;
-    UnmountMedia(void*);
-    Wakeup(void*, void*);
+    auto UnmountMedia(void*);
+    auto Wakeup(void*, void*);
     ~StIOSCSIMultimediaUnmountHelper();
     ~StIOSCSIMultimediaUnmountHelper()::kalloc_type_view_608;
 };

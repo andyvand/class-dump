@@ -5,20 +5,20 @@
 class IOPolledInterface {
 public: // (access info unavailable from symbols alone)
     IOPolledInterface(OSMetaClass const*);
-    _RESERVEDIOPolledInterface1();
-    _RESERVEDIOPolledInterface10();
-    _RESERVEDIOPolledInterface11();
-    _RESERVEDIOPolledInterface12();
-    _RESERVEDIOPolledInterface13();
-    _RESERVEDIOPolledInterface14();
-    _RESERVEDIOPolledInterface15();
-    _RESERVEDIOPolledInterface2();
-    _RESERVEDIOPolledInterface3();
-    _RESERVEDIOPolledInterface4();
-    _RESERVEDIOPolledInterface5();
-    _RESERVEDIOPolledInterface6();
-    _RESERVEDIOPolledInterface7();
-    _RESERVEDIOPolledInterface8();
-    _RESERVEDIOPolledInterface9();
+    auto _RESERVEDIOPolledInterface1();
+    auto _RESERVEDIOPolledInterface10();
+    auto _RESERVEDIOPolledInterface11();
+    auto _RESERVEDIOPolledInterface12();
+    auto _RESERVEDIOPolledInterface13();
+    auto _RESERVEDIOPolledInterface14();
+    auto _RESERVEDIOPolledInterface15();
+    auto _RESERVEDIOPolledInterface2();
+    auto _RESERVEDIOPolledInterface3();
+    auto _RESERVEDIOPolledInterface4();
+    auto _RESERVEDIOPolledInterface5();
+    auto _RESERVEDIOPolledInterface6();
+    auto _RESERVEDIOPolledInterface7();
+    auto _RESERVEDIOPolledInterface8();
+    auto _RESERVEDIOPolledInterface9();
     ~IOPolledInterface();
 };

@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IGHardwareGuCCTBuffer::CommandTransportRequest*> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(IGHardwareGuCCTBuffer::CommandTransportRequest**, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(IGHardwareGuCCTBuffer::CommandTransportRequest**, unsigned long)::kalloc_type_view_29;
 };

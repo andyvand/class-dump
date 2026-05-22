@@ -6,7 +6,9 @@ class AppleSEPIntelIOPNub {
 public: // (access info unavailable from symbols alone)
     AppleSEPIntelIOPNub();
     AppleSEPIntelIOPNub(OSMetaClass const*);
-    getMetaClass() const;
-    withName(char const*);
+    auto getMetaClass() const;
+    auto withName(char const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSEPIntelIOPNub();
 };

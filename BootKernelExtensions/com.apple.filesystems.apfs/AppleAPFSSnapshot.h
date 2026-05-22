@@ -4,11 +4,11 @@
 
 class AppleAPFSSnapshot {
 public: // (access info unavailable from symbols alone)
-    copyPhysicalExtent(IOService*, unsigned long long*, unsigned long long*);
-    getMetaClass() const;
-    getSize() const;
-    init(AppleAPFSContainer*, nx const*, apfs const*, j_snap_metadata*, snap_meta_ext*);
-    read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
-    write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    auto copyPhysicalExtent(IOService*, unsigned long long*, unsigned long long*);
+    auto getMetaClass() const;
+    auto getSize() const;
+    auto init(AppleAPFSContainer*, nx const*, apfs const*, j_snap_metadata*, snap_meta_ext*);
+    auto read(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
+    auto write(IOService*, unsigned long long, IOMemoryDescriptor*, IOStorageAttributes*, IOStorageCompletion*);
     ~AppleAPFSSnapshot();
 };

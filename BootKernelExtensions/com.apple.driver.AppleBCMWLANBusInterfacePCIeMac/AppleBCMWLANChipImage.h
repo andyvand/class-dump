@@ -4,9 +4,9 @@
 
 class AppleBCMWLANChipImage {
 public: // (access info unavailable from symbols alone)
-    getFirmwareImageLayoutFromImageDictionary(IOImageLoaderImageDictionary*, Ranges&, unsigned long);
-    getNVRAMImageLayoutFromImageDictionary(IOImageLoaderImageDictionary*, Ranges&, unsigned long);
-    getRegulatoryImageLayoutFromImageDictionary(IOImageLoaderImageDictionary*, Ranges&, unsigned long);
-    getTxCapImageLayoutFromImageDictionary(IOImageLoaderImageDictionary*, Ranges&, unsigned long);
-    withRange(unsigned long long, Ranges const&, CCLogStream*, unsigned long);
+    auto getFirmwareImageLayoutFromImageDictionary(IOImageLoaderImageDictionary*, Ranges&, unsigned long);
+    auto getNVRAMImageLayoutFromImageDictionary(IOImageLoaderImageDictionary*, Ranges&, unsigned long);
+    auto getRegulatoryImageLayoutFromImageDictionary(IOImageLoaderImageDictionary*, Ranges&, unsigned long);
+    auto getTxCapImageLayoutFromImageDictionary(IOImageLoaderImageDictionary*, Ranges&, unsigned long);
+    auto withRange(unsigned long long, Ranges const&, CCLogStream*, unsigned long);
 };

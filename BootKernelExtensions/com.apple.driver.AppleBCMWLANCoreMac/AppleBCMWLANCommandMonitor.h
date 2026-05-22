@@ -4,15 +4,15 @@
 
 class AppleBCMWLANCommandMonitor {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_300;
-    getMetaClass() const;
-    initWithMonitorLengthProviderAndLogger(OSObject*, unsigned int, IOService*, CCLogStream*, IO80211CommandGate*, CCFaultReporter*, int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*), int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*));
-    initWithMonitorLengthProviderAndLogger(OSObject*, unsigned int, IOService*, CCLogStream*, IO80211CommandGate*, CCFaultReporter*, int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*), int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*))::kalloc_type_view_119;
-    makeHistogramReporter(OSString*);
-    monitorCmdCompleted(AppleBCMWLANCommand*);
-    monitorCmdPrepared(AppleBCMWLANCommand*);
-    setRateThreshold(unsigned int, unsigned int);
-    withMonitorLengthProviderAndLogger(OSObject*, unsigned int, IOService*, CCLogStream*, IO80211CommandGate*, CCFaultReporter*, int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*), int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*));
+    auto free();
+    auto free()::kalloc_type_view_300;
+    auto getMetaClass() const;
+    auto initWithMonitorLengthProviderAndLogger(OSObject*, unsigned int, IOService*, CCLogStream*, IO80211CommandGate*, CCFaultReporter*, int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*), int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*));
+    auto initWithMonitorLengthProviderAndLogger(OSObject*, unsigned int, IOService*, CCLogStream*, IO80211CommandGate*, CCFaultReporter*, int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*), int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*))::kalloc_type_view_119;
+    auto makeHistogramReporter(OSString*);
+    auto monitorCmdCompleted(AppleBCMWLANCommand*);
+    auto monitorCmdPrepared(AppleBCMWLANCommand*);
+    auto setRateThreshold(unsigned int, unsigned int);
+    auto withMonitorLengthProviderAndLogger(OSObject*, unsigned int, IOService*, CCLogStream*, IO80211CommandGate*, CCFaultReporter*, int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*), int (*)(OSObject*, IOService*, IOReporter*, char const*, char const*));
     ~AppleBCMWLANCommandMonitor();
 };

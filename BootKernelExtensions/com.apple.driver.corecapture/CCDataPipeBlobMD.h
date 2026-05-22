@@ -6,13 +6,15 @@ class CCDataPipeBlobMD {
 public: // (access info unavailable from symbols alone)
     CCDataPipeBlobMD();
     CCDataPipeBlobMD(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_494;
-    getBuffer();
-    getBufferLength();
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_472;
-    setData(IOBufferMemoryDescriptor*);
+    auto free();
+    auto free()::kalloc_type_view_494;
+    auto getBuffer();
+    auto getBufferLength();
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_472;
+    auto setData(IOBufferMemoryDescriptor*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~CCDataPipeBlobMD();
 };

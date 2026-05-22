@@ -6,8 +6,10 @@ class IOHIDEventRepairDriver {
 public: // (access info unavailable from symbols alone)
     IOHIDEventRepairDriver();
     IOHIDEventRepairDriver(OSMetaClass const*);
-    dispatchKeyboardEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int);
-    dispatchScrollWheelEvent(unsigned long long, int, int, int, unsigned int);
-    getMetaClass() const;
+    auto dispatchKeyboardEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int);
+    auto dispatchScrollWheelEvent(unsigned long long, int, int, int, unsigned int);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDEventRepairDriver();
 };

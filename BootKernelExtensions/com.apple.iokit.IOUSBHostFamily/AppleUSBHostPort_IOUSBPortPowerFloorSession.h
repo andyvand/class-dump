@@ -5,8 +5,8 @@
 class AppleUSBHostPort::IOUSBPortPowerFloorSession {
 public: // (access info unavailable from symbols alone)
     IOUSBPortPowerFloorSession(AppleUSBHostPort*);
-    removeSession();
-    startSession(unsigned long);
-    stopSession();
+    auto removeSession();
+    auto startSession(unsigned long);
+    auto stopSession();
     ~IOUSBPortPowerFloorSession();
 };

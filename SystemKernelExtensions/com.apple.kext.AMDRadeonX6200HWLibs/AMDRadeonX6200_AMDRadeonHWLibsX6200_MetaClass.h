@@ -5,6 +5,6 @@
 class AMDRadeonX6200_AMDRadeonHWLibsX6200::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

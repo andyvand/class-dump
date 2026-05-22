@@ -6,9 +6,11 @@ class IOGPUDeviceAssertion {
 public: // (access info unavailable from symbols alone)
     IOGPUDeviceAssertion();
     IOGPUDeviceAssertion(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithAccelerator(IOGPU*, unsigned long long, unsigned long long);
-    withAccelerator(IOGPU*, unsigned long long, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithAccelerator(IOGPU*, unsigned long long, unsigned long long);
+    auto withAccelerator(IOGPU*, unsigned long long, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUDeviceAssertion();
 };

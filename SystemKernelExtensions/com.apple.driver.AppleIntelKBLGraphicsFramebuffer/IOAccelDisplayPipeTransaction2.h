@@ -4,11 +4,11 @@
 
 class IOAccelDisplayPipeTransaction2 {
 public: // (access info unavailable from symbols alone)
-    getPlaneDstRect(unsigned int) const;
-    getPlaneGammaTable(unsigned int) const;
-    getPlaneIOSurface(unsigned int, unsigned int) const;
-    getPlaneSrcRect(unsigned int) const;
-    getPlaneTransactionOptions(unsigned int) const;
-    getTransactionDirtyBits() const;
-    getTransactionOptions() const;
+    auto getPlaneDstRect(unsigned int) const;
+    auto getPlaneGammaTable(unsigned int) const;
+    auto getPlaneIOSurface(unsigned int, unsigned int) const;
+    auto getPlaneSrcRect(unsigned int) const;
+    auto getPlaneTransactionOptions(unsigned int) const;
+    auto getTransactionDirtyBits() const;
+    auto getTransactionOptions() const;
 };

@@ -4,9 +4,9 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    getEndpointAddress(StandardUSB::EndpointDescriptor const*);
-    getEndpointBurstSize32(unsigned int, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
-    getEndpointIntervalEncodedMicroframes(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointType(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointAddress(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointBurstSize32(unsigned int, StandardUSB::EndpointDescriptor const*, StandardUSB::SuperSpeedEndpointCompanionDescriptor const*, StandardUSB::SuperSpeedPlusIsochronousEndpointCompanionDescriptor const*);
+    auto getEndpointIntervalEncodedMicroframes(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointType(StandardUSB::EndpointDescriptor const*);
 };

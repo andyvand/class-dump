@@ -4,5 +4,5 @@
 
 class spar::UnsafeMem<spar::CacheableValue<unsigned long long>> {
 public: // (access info unavailable from symbols alone)
-    unsafeCoerce() &::__desc;
+    auto unsafeCoerce() &::__desc;
 };

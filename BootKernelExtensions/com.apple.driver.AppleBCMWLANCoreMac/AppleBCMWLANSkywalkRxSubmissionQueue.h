@@ -5,17 +5,19 @@
 class AppleBCMWLANSkywalkRxSubmissionQueue {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANSkywalkRxSubmissionQueue(OSMetaClass const*);
-    collectQueueStats(char*, unsigned long, unsigned long, unsigned long);
-    dequeuePackets(OSObject*, IO80211NetworkPacket**, unsigned int, void*);
-    free();
-    free()::kalloc_type_view_498;
-    getInterface();
-    getLogger() const;
-    getMetaClass() const;
-    getQueueId();
-    initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*);
-    initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*)::kalloc_type_view_468;
-    setInterface(IO80211SkywalkInterface*);
-    setLogger(CCLogStream*);
+    auto collectQueueStats(char*, unsigned long, unsigned long, unsigned long);
+    auto dequeuePackets(OSObject*, IO80211NetworkPacket**, unsigned int, void*);
+    auto free();
+    auto free()::kalloc_type_view_498;
+    auto getInterface();
+    auto getLogger() const;
+    auto getMetaClass() const;
+    auto getQueueId();
+    auto initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*);
+    auto initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, unsigned int, IO80211WorkQueue*)::kalloc_type_view_468;
+    auto setInterface(IO80211SkywalkInterface*);
+    auto setLogger(CCLogStream*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleBCMWLANSkywalkRxSubmissionQueue();
 };

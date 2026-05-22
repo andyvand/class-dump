@@ -6,12 +6,14 @@ class IOHITabletPointer {
 public: // (access info unavailable from symbols alone)
     IOHITabletPointer();
     IOHITabletPointer(OSMetaClass const*);
-    attach(IOService*);
-    dispatchProximityEvent(NXEventData*, unsigned long long);
-    dispatchTabletEvent(NXEventData*, unsigned long long);
-    generateDeviceID();
-    generateDeviceID()::_nextDeviceID;
-    getMetaClass() const;
-    init(OSDictionary*);
+    auto attach(IOService*);
+    auto dispatchProximityEvent(NXEventData*, unsigned long long);
+    auto dispatchTabletEvent(NXEventData*, unsigned long long);
+    auto generateDeviceID();
+    auto generateDeviceID()::_nextDeviceID;
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHITabletPointer();
 };

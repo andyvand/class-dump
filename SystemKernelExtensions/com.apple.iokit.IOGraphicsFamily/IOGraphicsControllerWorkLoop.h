@@ -6,9 +6,11 @@ class IOGraphicsControllerWorkLoop {
 public: // (access info unavailable from symbols alone)
     IOGraphicsControllerWorkLoop();
     IOGraphicsControllerWorkLoop(OSMetaClass const*);
-    closeGate();
-    getMetaClass() const;
-    sleepGate(void*, unsigned int);
-    sleepGate(void*, unsigned long long, unsigned int);
+    auto closeGate();
+    auto getMetaClass() const;
+    auto sleepGate(void*, unsigned int);
+    auto sleepGate(void*, unsigned long long, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGraphicsControllerWorkLoop();
 };

@@ -5,8 +5,10 @@
 class KDISecondaryEncoding {
 public: // (access info unavailable from symbols alone)
     KDISecondaryEncoding(OSMetaClass const*);
-    _handleAttach(IOService*);
-    getEncodingLevel();
-    getMetaClass() const;
+    auto _handleAttach(IOService*);
+    auto getEncodingLevel();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KDISecondaryEncoding();
 };

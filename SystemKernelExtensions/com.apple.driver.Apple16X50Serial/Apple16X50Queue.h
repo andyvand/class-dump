@@ -5,14 +5,14 @@
 class Apple16X50Queue {
 public: // (access info unavailable from symbols alone)
     Apple16X50Queue(tDirection);
-    dequeueEvent(unsigned int*);
-    enqueueEvent(unsigned char, unsigned int);
-    enqueueEventTry(unsigned char, unsigned int);
-    flush();
-    getState();
-    peekEvent(unsigned int);
-    setHighWater(unsigned int);
-    setLowWater(unsigned int);
-    setSize(unsigned int);
+    auto dequeueEvent(unsigned int*);
+    auto enqueueEvent(unsigned char, unsigned int);
+    auto enqueueEventTry(unsigned char, unsigned int);
+    auto flush();
+    auto getState();
+    auto peekEvent(unsigned int);
+    auto setHighWater(unsigned int);
+    auto setLowWater(unsigned int);
+    auto setSize(unsigned int);
     ~Apple16X50Queue();
 };

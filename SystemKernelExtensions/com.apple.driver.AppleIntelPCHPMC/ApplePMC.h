@@ -6,15 +6,17 @@ class ApplePMC {
 public: // (access info unavailable from symbols alone)
     ApplePMC();
     ApplePMC(OSMetaClass const*);
-    doneStartingSubclass();
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    pmSettingCallback(OSSymbol const*, OSObject*, unsigned long);
-    publishedIOPPF(void*, void*, IOService*, IONotifier*);
-    registerPMCallback();
-    setFileServerMode(unsigned int);
-    start(IOService*);
-    stop(IOService*);
+    auto doneStartingSubclass();
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto pmSettingCallback(OSSymbol const*, OSObject*, unsigned long);
+    auto publishedIOPPF(void*, void*, IOService*, IONotifier*);
+    auto registerPMCallback();
+    auto setFileServerMode(unsigned int);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ApplePMC();
 };

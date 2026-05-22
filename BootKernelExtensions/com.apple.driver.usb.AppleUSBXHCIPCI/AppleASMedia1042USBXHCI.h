@@ -6,7 +6,9 @@ class AppleASMedia1042USBXHCI {
 public: // (access info unavailable from symbols alone)
     AppleASMedia1042USBXHCI();
     AppleASMedia1042USBXHCI(OSMetaClass const*);
-    createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
-    getMetaClass() const;
+    auto createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleASMedia1042USBXHCI();
 };

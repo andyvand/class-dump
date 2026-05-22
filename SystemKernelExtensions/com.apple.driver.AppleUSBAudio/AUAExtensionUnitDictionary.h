@@ -6,11 +6,13 @@ class AUAExtensionUnitDictionary {
 public: // (access info unavailable from symbols alone)
     AUAExtensionUnitDictionary();
     AUAExtensionUnitDictionary(OSMetaClass const*);
-    getMetaClass() const;
-    getNumInPins(unsigned char*);
-    initControlsArray(unsigned char const*, unsigned char);
-    initControlsArray(unsigned char const*, unsigned char) (.cold.1);
-    initSourceIDs(unsigned char const*, unsigned char);
-    initSourceIDs(unsigned char const*, unsigned char) (.cold.1);
+    auto getMetaClass() const;
+    auto getNumInPins(unsigned char*);
+    auto initControlsArray(unsigned char const*, unsigned char);
+    auto initControlsArray(unsigned char const*, unsigned char) (.cold.1);
+    auto initSourceIDs(unsigned char const*, unsigned char);
+    auto initSourceIDs(unsigned char const*, unsigned char) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AUAExtensionUnitDictionary();
 };

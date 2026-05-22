@@ -4,17 +4,17 @@
 
 class GammaTable {
 public: // (access info unavailable from symbols alone)
-    convertColorBits(IOColorEntry&, unsigned char, unsigned char);
-    doGammaCorrection(IOColorEntry*, unsigned short, unsigned short);
-    fillWithColor(unsigned int);
-    getChannelCount();
-    getColorBits();
-    getEntry(unsigned short);
-    getSize();
-    initTable(unsigned short, unsigned short, unsigned short);
-    refresh(_AMD_PIPE_GAMMA_TABLE*);
-    refresh(unsigned short, unsigned short, unsigned short, void*);
-    setEntry(unsigned short, IOColorEntry const&);
-    setHWMatchStatus(bool);
-    setLinearRamp();
+    auto convertColorBits(IOColorEntry&, unsigned char, unsigned char);
+    auto doGammaCorrection(IOColorEntry*, unsigned short, unsigned short);
+    auto fillWithColor(unsigned int);
+    auto getChannelCount();
+    auto getColorBits();
+    auto getEntry(unsigned short);
+    auto getSize();
+    auto initTable(unsigned short, unsigned short, unsigned short);
+    auto refresh(_AMD_PIPE_GAMMA_TABLE*);
+    auto refresh(unsigned short, unsigned short, unsigned short, void*);
+    auto setEntry(unsigned short, IOColorEntry const&);
+    auto setHWMatchStatus(bool);
+    auto setLinearRamp();
 };

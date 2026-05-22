@@ -5,15 +5,15 @@
 class AGDCPlugin {
 public: // (access info unavailable from symbols alone)
     AGDCPlugin(OSMetaClass const*);
-    _RESERVEDAGDCPlugin0();
-    _RESERVEDAGDCPlugin1();
-    _RESERVEDAGDCPlugin2();
-    _RESERVEDAGDCPlugin3();
-    _RESERVEDAGDCPlugin4();
-    _RESERVEDAGDCPlugin5();
-    _RESERVEDAGDCPlugin6();
-    _RESERVEDAGDCPlugin7();
-    probe(IOService*, int*);
-    start(IOService*, unsigned long long, unsigned int, unsigned int);
+    auto _RESERVEDAGDCPlugin0();
+    auto _RESERVEDAGDCPlugin1();
+    auto _RESERVEDAGDCPlugin2();
+    auto _RESERVEDAGDCPlugin3();
+    auto _RESERVEDAGDCPlugin4();
+    auto _RESERVEDAGDCPlugin5();
+    auto _RESERVEDAGDCPlugin6();
+    auto _RESERVEDAGDCPlugin7();
+    auto probe(IOService*, int*);
+    auto start(IOService*, unsigned long long, unsigned int, unsigned int);
     ~AGDCPlugin();
 };

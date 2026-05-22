@@ -4,25 +4,25 @@
 
 class IOAccelOrphanedMemoryPool {
 public: // (access info unavailable from symbols alone)
-    addMemory(IOAccelMemory*);
-    addMemory(IOAccelMemory*)::kalloc_type_view_202;
-    free();
-    free()::kalloc_type_view_101;
-    free()::kalloc_type_view_97;
-    freeWaitToPrepareMap(IOAccelMemoryMap*, bool);
-    freeWaitToPrepareMemory(IOAccelMemory*, bool);
-    getMemory(IOAccelShared2*, IOAccelResource2*, unsigned long long, void*);
-    init(IOGraphicsAccelerator2*, unsigned long long, unsigned int);
-    init(IOGraphicsAccelerator2*, unsigned long long, unsigned int)::_os_log_fmt;
-    init(IOGraphicsAccelerator2*, unsigned long long, unsigned int)::kalloc_type_view_56;
-    pruneNonReusableOrphanedMemory();
-    pruneReusableOrphanedMemory();
-    releaseOrphanedMemory();
-    removeMemory(IOAccelMemory*);
-    removeMemory(IOAccelMemory*) (.cold.1);
-    removeMemory(IOAccelMemory*) (.cold.2);
-    removeMemory(IOAccelMemory*) (.cold.3);
-    removeMemory(IOAccelMemory*) (.cold.4);
-    removeMemory(IOAccelMemory*)::kalloc_type_view_290;
-    sharedRelease(IOAccelShared2*);
+    auto addMemory(IOAccelMemory*);
+    auto addMemory(IOAccelMemory*)::kalloc_type_view_202;
+    auto free();
+    auto free()::kalloc_type_view_101;
+    auto free()::kalloc_type_view_97;
+    auto freeWaitToPrepareMap(IOAccelMemoryMap*, bool);
+    auto freeWaitToPrepareMemory(IOAccelMemory*, bool);
+    auto getMemory(IOAccelShared2*, IOAccelResource2*, unsigned long long, void*);
+    auto init(IOGraphicsAccelerator2*, unsigned long long, unsigned int);
+    auto init(IOGraphicsAccelerator2*, unsigned long long, unsigned int)::_os_log_fmt;
+    auto init(IOGraphicsAccelerator2*, unsigned long long, unsigned int)::kalloc_type_view_56;
+    auto pruneNonReusableOrphanedMemory();
+    auto pruneReusableOrphanedMemory();
+    auto releaseOrphanedMemory();
+    auto removeMemory(IOAccelMemory*);
+    auto removeMemory(IOAccelMemory*) (.cold.1);
+    auto removeMemory(IOAccelMemory*) (.cold.2);
+    auto removeMemory(IOAccelMemory*) (.cold.3);
+    auto removeMemory(IOAccelMemory*) (.cold.4);
+    auto removeMemory(IOAccelMemory*)::kalloc_type_view_290;
+    auto sharedRelease(IOAccelShared2*);
 };

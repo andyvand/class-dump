@@ -4,9 +4,9 @@
 
 class AtiPowerPlayCallbackContext {
 public: // (access info unavailable from symbols alone)
-    createCallback(unsigned int, OSObject*, OSObject*, void*, void*);
-    getCallbackRef();
-    getContext();
-    getIrqSrcId();
-    setCallbackRef(void*);
+    auto createCallback(unsigned int, OSObject*, OSObject*, void*, void*);
+    auto getCallbackRef();
+    auto getContext();
+    auto getIrqSrcId();
+    auto setCallbackRef(void*);
 };

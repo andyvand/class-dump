@@ -4,16 +4,16 @@
 
 class IOAccelMemory {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOAccelMemory0();
-    _RESERVEDIOAccelMemory1();
-    _RESERVEDIOAccelMemory2();
-    _RESERVEDIOAccelMemory3();
-    _RESERVEDIOAccelMemory4();
-    _RESERVEDIOAccelMemory5();
-    createMappingInTask(IOAccelTask*, unsigned int);
-    createMappingInTaskAtAddressLength(IOAccelTask*, unsigned int, unsigned long long, unsigned long long);
-    getLength() const;
-    prepare();
-    release() const;
-    setFlags(unsigned int);
+    auto _RESERVEDIOAccelMemory0();
+    auto _RESERVEDIOAccelMemory1();
+    auto _RESERVEDIOAccelMemory2();
+    auto _RESERVEDIOAccelMemory3();
+    auto _RESERVEDIOAccelMemory4();
+    auto _RESERVEDIOAccelMemory5();
+    auto createMappingInTask(IOAccelTask*, unsigned int);
+    auto createMappingInTaskAtAddressLength(IOAccelTask*, unsigned int, unsigned long long, unsigned long long);
+    auto getLength() const;
+    auto prepare();
+    auto release() const;
+    auto setFlags(unsigned int);
 };

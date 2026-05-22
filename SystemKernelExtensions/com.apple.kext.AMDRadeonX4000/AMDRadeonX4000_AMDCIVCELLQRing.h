@@ -6,9 +6,11 @@ class AMDRadeonX4000_AMDCIVCELLQRing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDCIVCELLQRing();
     AMDRadeonX4000_AMDCIVCELLQRing(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
-    registerLocation();
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
+    auto registerLocation();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDCIVCELLQRing();
 };

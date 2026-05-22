@@ -4,11 +4,11 @@
 
 class IOTimeSyncTimeLineFilter128 {
 public: // (access info unavailable from symbols alone)
-    addTimestamps(IOTS_U128, IOTS_U128);
-    canConvertTime();
-    domainAIntervalFromDomainBInterval(unsigned long long);
-    domainBIntervalFromDomainAInterval(unsigned long long);
-    domainBTimeFromDomainATime(IOTS_U128);
-    setDebugIdentifier(OSString*);
-    setLogTimestamps(bool);
+    auto addTimestamps(IOTS_U128, IOTS_U128);
+    auto canConvertTime();
+    auto domainAIntervalFromDomainBInterval(unsigned long long);
+    auto domainBIntervalFromDomainAInterval(unsigned long long);
+    auto domainBTimeFromDomainATime(IOTS_U128);
+    auto setDebugIdentifier(OSString*);
+    auto setLogTimestamps(bool);
 };

@@ -6,9 +6,11 @@ class AppleUSBVHCIRSMHostMessageQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIRSMHostMessageQueue();
     AppleUSBVHCIRSMHostMessageQueue(OSMetaClass const*);
-    getMetaClass() const;
-    initWithParameters(IORSMChannel*, unsigned char, IOInterruptEventSource*, AppleUSBVHCIRSM*);
-    triggerHardwareException();
-    withParameters(IORSMChannel*, unsigned char, IOInterruptEventSource*, AppleUSBVHCIRSM*);
+    auto getMetaClass() const;
+    auto initWithParameters(IORSMChannel*, unsigned char, IOInterruptEventSource*, AppleUSBVHCIRSM*);
+    auto triggerHardwareException();
+    auto withParameters(IORSMChannel*, unsigned char, IOInterruptEventSource*, AppleUSBVHCIRSM*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBVHCIRSMHostMessageQueue();
 };

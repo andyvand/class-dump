@@ -6,14 +6,16 @@ class AGPMHeuristic1 {
 public: // (access info unavailable from symbols alone)
     AGPMHeuristic1();
     AGPMHeuristic1(OSMetaClass const*);
-    getFilteredGPUBusyness(unsigned int*, unsigned int*);
-    getMetaClass() const;
-    getStateMax();
-    getVirtualState(unsigned int);
-    gpuBusyGetNewState(unsigned int, unsigned int);
-    initGPUStateBusyness();
-    parseHeuristic(OSDictionary*);
-    setInitialGPUState();
-    updateGPUMetaState();
+    auto getFilteredGPUBusyness(unsigned int*, unsigned int*);
+    auto getMetaClass() const;
+    auto getStateMax();
+    auto getVirtualState(unsigned int);
+    auto gpuBusyGetNewState(unsigned int, unsigned int);
+    auto initGPUStateBusyness();
+    auto parseHeuristic(OSDictionary*);
+    auto setInitialGPUState();
+    auto updateGPUMetaState();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AGPMHeuristic1();
 };

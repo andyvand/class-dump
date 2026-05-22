@@ -4,5 +4,5 @@
 
 class AppleIntelLpssDmac {
 public: // (access info unavailable from symbols alone)
-    channelFree(AppleIntelLpssDmacChannel*);
+    auto channelFree(AppleIntelLpssDmacChannel*);
 };

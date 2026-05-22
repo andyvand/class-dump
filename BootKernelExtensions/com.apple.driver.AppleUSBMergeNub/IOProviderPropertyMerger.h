@@ -4,7 +4,7 @@
 
 class IOProviderPropertyMerger {
 public: // (access info unavailable from symbols alone)
-    init(OSDictionary*);
-    setProperty(OSSymbol const*, OSObject*);
-    setPropertyTable(OSDictionary*);
+    auto init(OSDictionary*);
+    auto setProperty(OSSymbol const*, OSObject*);
+    auto setPropertyTable(OSDictionary*);
 };

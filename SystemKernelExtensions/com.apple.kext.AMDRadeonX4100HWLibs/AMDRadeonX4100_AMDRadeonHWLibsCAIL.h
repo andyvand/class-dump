@@ -6,13 +6,15 @@ class AMDRadeonX4100_AMDRadeonHWLibsCAIL {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4100_AMDRadeonHWLibsCAIL();
     AMDRadeonX4100_AMDRadeonHWLibsCAIL(OSMetaClass const*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    callPlatformFunction(char const*, bool, void*, void*, void*, void*);
-    callPlatformFunction(char const*, bool, void*, void*, void*, void*)::CAIL_INTERFACE_KEY;
-    createCailInterface(IOPCIDevice*);
-    free();
-    getMetaClass() const;
-    start(IOService*);
-    stop(IOService*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto callPlatformFunction(char const*, bool, void*, void*, void*, void*);
+    auto callPlatformFunction(char const*, bool, void*, void*, void*, void*)::CAIL_INTERFACE_KEY;
+    auto createCailInterface(IOPCIDevice*);
+    auto free();
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4100_AMDRadeonHWLibsCAIL();
 };

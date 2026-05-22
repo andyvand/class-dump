@@ -5,18 +5,20 @@
 class AtiAtomFirmwareInterface {
 public: // (access info unavailable from symbols alone)
     AtiAtomFirmwareInterface(OSMetaClass const*);
-    createAtomParser(BiosParserServices*, unsigned char*, DCE_Version);
-    executeBiosCommandTable(unsigned int, void*, unsigned int);
-    free();
-    getBiosCommandTableInformation(CmdTableInfo*);
-    getCrystalFreqInKHz();
-    getDefaultDisplayEngineClockInKHz();
-    getDefaultEngineClockInKHz();
-    getDefaultMemoryClockInKHz();
-    getDentistVcoFreqInKHz();
-    getExternalClockForDpInKHz();
-    getImage(unsigned int, unsigned int);
-    getMetaClass() const;
-    init(BiosParserServices*, unsigned char*, DCE_Version);
+    auto createAtomParser(BiosParserServices*, unsigned char*, DCE_Version);
+    auto executeBiosCommandTable(unsigned int, void*, unsigned int);
+    auto free();
+    auto getBiosCommandTableInformation(CmdTableInfo*);
+    auto getCrystalFreqInKHz();
+    auto getDefaultDisplayEngineClockInKHz();
+    auto getDefaultEngineClockInKHz();
+    auto getDefaultMemoryClockInKHz();
+    auto getDentistVcoFreqInKHz();
+    auto getExternalClockForDpInKHz();
+    auto getImage(unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto init(BiosParserServices*, unsigned char*, DCE_Version);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiAtomFirmwareInterface();
 };

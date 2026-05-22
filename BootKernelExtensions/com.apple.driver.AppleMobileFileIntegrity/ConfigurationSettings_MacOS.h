@@ -4,10 +4,10 @@
 
 class ConfigurationSettings::MacOS {
 public: // (access info unavailable from symbols alone)
-    forceDefaultCoreDumpPolicy();
-    forceDefaultDyldEnvVarsPolicy();
-    forceDefaultHardenedRuntimeChrootPolicy();
-    forceDefaultTaskportPolicy();
-    forceHardenAllPlatformBinaries();
-    forceHardening();
+    auto forceDefaultCoreDumpPolicy();
+    auto forceDefaultDyldEnvVarsPolicy();
+    auto forceDefaultHardenedRuntimeChrootPolicy();
+    auto forceDefaultTaskportPolicy();
+    auto forceHardenAllPlatformBinaries();
+    auto forceHardening();
 };

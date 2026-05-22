@@ -4,22 +4,22 @@
 
 class AppleBCMWLANChipManagerPCIe4388 {
 public: // (access info unavailable from symbols alone)
-    checkHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
-    getARMCoreRegionTable();
-    getARMCoreRegionTableSize();
-    getDARSecurityStatusReg(AppleBCMWLANChipBackplane*);
-    getFWDebugARMCoreRegionTable();
-    getFWDebugARMCoreRegionTableSize();
-    getFWDebugCommonCoreRegionTable();
-    getFWDebugCommonCoreRegionTableSize();
-    getFWDebugPCIEFunc0CoreRegionTable();
-    getFWDebugPCIEFunc0CoreRegionTableSize();
-    getFWDebugPMUCoreRegionTable();
-    getFWDebugPMUCoreRegionTableSize();
-    getMetaClass() const;
-    initWithChip(unsigned int, unsigned char);
-    isSecureBootSupported();
-    prepareHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
-    withChip(unsigned int, unsigned char);
+    auto checkHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
+    auto getARMCoreRegionTable();
+    auto getARMCoreRegionTableSize();
+    auto getDARSecurityStatusReg(AppleBCMWLANChipBackplane*);
+    auto getFWDebugARMCoreRegionTable();
+    auto getFWDebugARMCoreRegionTableSize();
+    auto getFWDebugCommonCoreRegionTable();
+    auto getFWDebugCommonCoreRegionTableSize();
+    auto getFWDebugPCIEFunc0CoreRegionTable();
+    auto getFWDebugPCIEFunc0CoreRegionTableSize();
+    auto getFWDebugPMUCoreRegionTable();
+    auto getFWDebugPMUCoreRegionTableSize();
+    auto getMetaClass() const;
+    auto initWithChip(unsigned int, unsigned char);
+    auto isSecureBootSupported();
+    auto prepareHardware(AppleBCMWLANChipConfigSpace*, AppleBCMWLANChipBackplane*);
+    auto withChip(unsigned int, unsigned char);
     ~AppleBCMWLANChipManagerPCIe4388();
 };

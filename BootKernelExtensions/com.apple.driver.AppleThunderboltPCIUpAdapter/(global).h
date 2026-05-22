@@ -7,8 +7,6 @@
 AppleThunderboltPCIDownAdapter::metaClass;
 AppleThunderboltPCIUpAdapter::gMetaClass;
 AppleThunderboltPCIUpAdapter::metaClass;
-AppleThunderboltPCIUpAdapter::operator delete(void*, unsigned long);
-AppleThunderboltPCIUpAdapter::operator new(unsigned long);
 AppleThunderboltPCIUpAdapter::superClass;
 AppleThunderboltPCIUpAdapter_ktv;
 IOPCIDevice::metaClass;

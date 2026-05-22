@@ -5,16 +5,18 @@
 class AppleConvergedIPCDevice {
 public: // (access info unavailable from symbols alone)
     AppleConvergedIPCDevice(OSMetaClass const*);
-    collectSnapshotOrCoredump(IOMemoryDescriptor*, unsigned int, IOACIPCCompletion*, bool);
-    excludePatchFromMMIOCoredump();
-    forceDoorbellFlush();
-    getMetaClass() const;
-    getRTIDeviceDict() const;
-    isMMIOCoreDumpAllowed();
-    isSkywalkEnabled() const;
-    prepareForMMIOCoredump();
-    resetAllowed();
-    stateDump();
-    triggerTrap(IOACIPCCompletion*);
+    auto collectSnapshotOrCoredump(IOMemoryDescriptor*, unsigned int, IOACIPCCompletion*, bool);
+    auto excludePatchFromMMIOCoredump();
+    auto forceDoorbellFlush();
+    auto getMetaClass() const;
+    auto getRTIDeviceDict() const;
+    auto isMMIOCoreDumpAllowed();
+    auto isSkywalkEnabled() const;
+    auto prepareForMMIOCoredump();
+    auto resetAllowed();
+    auto stateDump();
+    auto triggerTrap(IOACIPCCompletion*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleConvergedIPCDevice();
 };

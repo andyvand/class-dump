@@ -6,7 +6,9 @@ class AtiTransmitterControl_V1_V6 {
 public: // (access info unavailable from symbols alone)
     AtiTransmitterControl_V1_V6();
     AtiTransmitterControl_V1_V6(OSMetaClass const*);
-    getMetaClass() const;
-    transmitterControl(ActiveConnectorInfo const*, AtiAtomTransmitterAction, unsigned char, unsigned char);
+    auto getMetaClass() const;
+    auto transmitterControl(ActiveConnectorInfo const*, AtiAtomTransmitterAction, unsigned char, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiTransmitterControl_V1_V6();
 };

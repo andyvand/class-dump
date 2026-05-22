@@ -4,6 +4,6 @@
 
 class AppleOLYHALPortInterfacePCIe {
 public: // (access info unavailable from symbols alone)
-    deviceWakeGPIOAvailable(IOService*);
-    enableDumpLogBTReset(bool);
+    auto deviceWakeGPIOAvailable(IOService*);
+    auto enableDumpLogBTReset(bool);
 };

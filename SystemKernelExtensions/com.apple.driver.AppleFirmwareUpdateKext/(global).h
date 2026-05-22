@@ -4,23 +4,19 @@
 
 // Global C++ functions
 
-AppleFirmwareDecodeImage4(OSData*, unsigned int, AppleFirmwareUpdateKext*);
 AppleFirmwareUpdateKext::gMetaClass;
 AppleFirmwareUpdateKext::metaClass;
-AppleFirmwareUpdateKext::operator delete(void*, unsigned long);
-AppleFirmwareUpdateKext::operator new(unsigned long);
 AppleFirmwareUpdateKext::superClass;
 AppleFirmwareUpdateKext_ktv;
 AppleFirmwareUpdateUserClient::gMetaClass;
 AppleFirmwareUpdateUserClient::metaClass;
-AppleFirmwareUpdateUserClient::operator delete(void*, unsigned long);
-AppleFirmwareUpdateUserClient::operator new(unsigned long);
 AppleFirmwareUpdateUserClient::superClass;
 AppleFirmwareUpdateUserClient_ktv;
 IOService::gMetaClass;
 IOUserClient::gMetaClass;
-firmwareExecutionCallback(_img4_firmware*, _img4_image*, int, void*);
-firmwareExecutionCallback(_img4_firmware*, _img4_image*, int, void*) (.cold.1);
+auto AppleFirmwareDecodeImage4(OSData*, unsigned int, AppleFirmwareUpdateKext*);
+auto firmwareExecutionCallback(_img4_firmware*, _img4_image*, int, void*);
+auto firmwareExecutionCallback(_img4_firmware*, _img4_image*, int, void*) (.cold.1);
 vtable for AppleFirmwareUpdateKext;
 vtable for AppleFirmwareUpdateKext::MetaClass;
 vtable for AppleFirmwareUpdateUserClient;

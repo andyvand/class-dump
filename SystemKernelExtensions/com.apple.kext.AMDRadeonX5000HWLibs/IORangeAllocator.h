@@ -4,5 +4,5 @@
 
 class IORangeAllocator {
 public: // (access info unavailable from symbols alone)
-    withRange(unsigned long long, unsigned long long, unsigned int, unsigned int);
+    auto withRange(unsigned long long, unsigned long long, unsigned int, unsigned int);
 };

@@ -5,19 +5,21 @@
 class AMDRadeonX4000_AMDUVDHWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDUVDHWChannel(OSMetaClass const*);
-    disableTimestampInterrupt();
-    disableUVDThread();
-    enableUVDThread();
-    free();
-    getMetaClass() const;
-    getPollingParams(unsigned int&, unsigned int&);
-    handleUVDThreadPMInterrupt(OSObject*, IOInterruptEventSource*, int);
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
-    initUVDThread();
-    releaseUVDThread();
-    setPowerState(unsigned int);
-    setTimestampInterruptState(bool);
-    submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
-    uvdtimeStampInterruptCallback(OSObject*, void*);
+    auto disableTimestampInterrupt();
+    auto disableUVDThread();
+    auto enableUVDThread();
+    auto free();
+    auto getMetaClass() const;
+    auto getPollingParams(unsigned int&, unsigned int&);
+    auto handleUVDThreadPMInterrupt(OSObject*, IOInterruptEventSource*, int);
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto initUVDThread();
+    auto releaseUVDThread();
+    auto setPowerState(unsigned int);
+    auto setTimestampInterruptState(bool);
+    auto submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto uvdtimeStampInterruptCallback(OSObject*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDUVDHWChannel();
 };

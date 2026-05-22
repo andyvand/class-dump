@@ -6,14 +6,16 @@ class IOFWReadCommand {
 public: // (access info unavailable from symbols alone)
     IOFWReadCommand();
     IOFWReadCommand(OSMetaClass const*);
-    _RESERVEDIOFWReadCommand0();
-    _RESERVEDIOFWReadCommand1();
-    execute();
-    getMetaClass() const;
-    gotPacket(int, void const*, int);
-    initAll(IOFireWireController*, unsigned int, FWAddressStruct, IOMemoryDescriptor*, void (*)(void*, int, IOFireWireNub*, IOFWCommand*), void*);
-    initAll(IOFireWireNub*, FWAddressStruct, IOMemoryDescriptor*, void (*)(void*, int, IOFireWireNub*, IOFWCommand*), void*, bool);
-    reinit(FWAddressStruct, IOMemoryDescriptor*, void (*)(void*, int, IOFireWireNub*, IOFWCommand*), void*, bool);
-    reinit(unsigned int, FWAddressStruct, IOMemoryDescriptor*, void (*)(void*, int, IOFireWireNub*, IOFWCommand*), void*);
+    auto _RESERVEDIOFWReadCommand0();
+    auto _RESERVEDIOFWReadCommand1();
+    auto execute();
+    auto getMetaClass() const;
+    auto gotPacket(int, void const*, int);
+    auto initAll(IOFireWireController*, unsigned int, FWAddressStruct, IOMemoryDescriptor*, void (*)(void*, int, IOFireWireNub*, IOFWCommand*), void*);
+    auto initAll(IOFireWireNub*, FWAddressStruct, IOMemoryDescriptor*, void (*)(void*, int, IOFireWireNub*, IOFWCommand*), void*, bool);
+    auto reinit(FWAddressStruct, IOMemoryDescriptor*, void (*)(void*, int, IOFireWireNub*, IOFWCommand*), void*, bool);
+    auto reinit(unsigned int, FWAddressStruct, IOMemoryDescriptor*, void (*)(void*, int, IOFireWireNub*, IOFWCommand*), void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWReadCommand();
 };

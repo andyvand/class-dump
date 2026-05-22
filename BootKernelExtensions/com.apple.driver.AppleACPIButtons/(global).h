@@ -6,20 +6,14 @@
 
 AppleACPIACAdapter::gMetaClass;
 AppleACPIACAdapter::metaClass;
-AppleACPIACAdapter::operator delete(void*, unsigned long);
-AppleACPIACAdapter::operator new(unsigned long);
 AppleACPIACAdapter::superClass;
 AppleACPIACAdapter_ktv;
 AppleACPIButton::gMetaClass;
 AppleACPIButton::metaClass;
-AppleACPIButton::operator delete(void*, unsigned long);
-AppleACPIButton::operator new(unsigned long);
 AppleACPIButton::superClass;
 AppleACPIButton_ktv;
 AppleACPILid::gMetaClass;
 AppleACPILid::metaClass;
-AppleACPILid::operator delete(void*, unsigned long);
-AppleACPILid::operator new(unsigned long);
 AppleACPILid::superClass;
 AppleACPILid_ktv;
 IOACPIPlatformDevice::metaClass;

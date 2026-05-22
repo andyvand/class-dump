@@ -4,5 +4,5 @@
 
 class ACMRMEnvironmentConfig {
 public: // (access info unavailable from symbols alone)
-    configureEnvironment(ACMRMEnvironment&);
+    auto configureEnvironment(ACMRMEnvironment&);
 };

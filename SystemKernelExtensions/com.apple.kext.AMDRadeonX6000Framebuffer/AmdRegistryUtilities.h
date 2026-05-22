@@ -4,13 +4,13 @@
 
 class AmdRegistryUtilities {
 public: // (access info unavailable from symbols alone)
-    findIOService(IOService const*, char const*);
-    findPciDevice(unsigned char, unsigned char, unsigned char);
-    getOSObjectSize(OSObject const*);
-    getRegistryProperty(IORegistryEntry const*, char const*, void*, unsigned long);
-    parseOSObjectValue(OSObject const*, void*, unsigned long);
-    printChildrenNodes(IORegistryEntry*);
-    printNodeProperties(IORegistryEntry*);
-    printOSObjectProperty(char const*, OSObject*);
-    printPropertyDictionary(OSDictionary*);
+    auto findIOService(IOService const*, char const*);
+    auto findPciDevice(unsigned char, unsigned char, unsigned char);
+    auto getOSObjectSize(OSObject const*);
+    auto getRegistryProperty(IORegistryEntry const*, char const*, void*, unsigned long);
+    auto parseOSObjectValue(OSObject const*, void*, unsigned long);
+    auto printChildrenNodes(IORegistryEntry*);
+    auto printNodeProperties(IORegistryEntry*);
+    auto printOSObjectProperty(char const*, OSObject*);
+    auto printPropertyDictionary(OSDictionary*);
 };

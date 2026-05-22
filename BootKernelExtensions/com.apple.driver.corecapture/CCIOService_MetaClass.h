@@ -4,7 +4,7 @@
 
 class CCIOService::MetaClass {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
-    alloc() const;
+    auto Dispatch(IORPC);
+    auto alloc() const;
     ~MetaClass();
 };

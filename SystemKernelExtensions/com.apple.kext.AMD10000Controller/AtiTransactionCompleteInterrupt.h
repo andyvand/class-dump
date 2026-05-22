@@ -5,4 +5,5 @@
 class AtiTransactionCompleteInterrupt {
 public: // (access info unavailable from symbols alone)
     AtiTransactionCompleteInterrupt();
+    void * operator new(unsigned long);
 };

@@ -4,6 +4,6 @@
 
 class IOSurface {
 public: // (access info unavailable from symbols alone)
-    getPixelFormat() const;
-    getSurfaceID() const;
+    auto getPixelFormat() const;
+    auto getSurfaceID() const;
 };

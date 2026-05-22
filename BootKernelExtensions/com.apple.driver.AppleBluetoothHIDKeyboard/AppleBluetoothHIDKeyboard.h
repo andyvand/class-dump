@@ -6,10 +6,12 @@ class AppleBluetoothHIDKeyboard {
 public: // (access info unavailable from symbols alone)
     AppleBluetoothHIDKeyboard();
     AppleBluetoothHIDKeyboard(OSMetaClass const*);
-    getMetaClass() const;
-    handleReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
-    handleReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int)::_os_log_fmt;
-    init(OSDictionary*);
-    processInterruptData(unsigned char*, unsigned short);
+    auto getMetaClass() const;
+    auto handleReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
+    auto handleReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int)::_os_log_fmt;
+    auto init(OSDictionary*);
+    auto processInterruptData(unsigned char*, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleBluetoothHIDKeyboard();
 };

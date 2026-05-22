@@ -4,6 +4,6 @@
 
 class AppleTDMAKSServices {
 public: // (access info unavailable from symbols alone)
-    registerActionHandler(void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long));
-    sendMessage(void*, unsigned long long, void*, unsigned long long, void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long));
+    auto registerActionHandler(void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long));
+    auto sendMessage(void*, unsigned long long, void*, unsigned long long, void (*)(OSObject*, void*, void*, unsigned long long, void*, unsigned long long));
 };

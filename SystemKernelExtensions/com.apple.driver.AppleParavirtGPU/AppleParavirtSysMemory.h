@@ -6,6 +6,8 @@ class AppleParavirtSysMemory {
 public: // (access info unavailable from symbols alone)
     AppleParavirtSysMemory();
     AppleParavirtSysMemory(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtSysMemory();
 };

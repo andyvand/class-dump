@@ -4,7 +4,7 @@
 
 class AppleSimpleUARTSync {
 public: // (access info unavailable from symbols alone)
-    rxDataInterrupt(bool);
-    rxErrorInterrupt(bool, bool, bool, bool);
-    txDataInterrupt();
+    auto rxDataInterrupt(bool);
+    auto rxErrorInterrupt(bool, bool, bool, bool);
+    auto txDataInterrupt();
 };

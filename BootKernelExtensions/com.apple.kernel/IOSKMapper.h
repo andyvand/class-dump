@@ -6,11 +6,13 @@ class IOSKMapper {
 public: // (access info unavailable from symbols alone)
     IOSKMapper();
     IOSKMapper(OSMetaClass const*);
-    __OSFinalClass();
-    free();
-    getMetaClass() const;
-    initWithTask(task*, IOSKArena*);
-    map(unsigned int, unsigned int, IOSKMemoryBuffer*);
-    unmap(unsigned int, unsigned int, int);
+    auto __OSFinalClass();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithTask(task*, IOSKArena*);
+    auto map(unsigned int, unsigned int, IOSKMemoryBuffer*);
+    auto unmap(unsigned int, unsigned int, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSKMapper();
 };

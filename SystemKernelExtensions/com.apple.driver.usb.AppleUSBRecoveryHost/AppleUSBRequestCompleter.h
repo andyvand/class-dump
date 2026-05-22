@@ -4,5 +4,5 @@
 
 class AppleUSBRequestCompleter {
 public: // (access info unavailable from symbols alone)
-    completeRequestChain(AppleUSBRequest*);
+    auto completeRequestChain(AppleUSBRequest*);
 };

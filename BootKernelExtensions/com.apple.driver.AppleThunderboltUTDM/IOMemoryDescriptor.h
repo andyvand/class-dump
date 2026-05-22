@@ -4,6 +4,6 @@
 
 class IOMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    getMapperOptions();
-    setMapperOptions(unsigned short);
+    auto getMapperOptions();
+    auto setMapperOptions(unsigned short);
 };

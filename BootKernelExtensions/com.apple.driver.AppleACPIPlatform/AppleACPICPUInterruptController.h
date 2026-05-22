@@ -6,13 +6,15 @@ class AppleACPICPUInterruptController {
 public: // (access info unavailable from symbols alone)
     AppleACPICPUInterruptController();
     AppleACPICPUInterruptController(OSMetaClass const*);
-    getInterruptType(IOService*, int, int*);
-    getMetaClass() const;
-    handleInterrupt(void*, IOService*, int);
-    initCPUInterruptController(int);
-    initCPUInterruptController(int)::kalloc_type_view_555;
-    registerInterrupt(IOService*, int, void*, void (*)(void*, void*, void*, int), void*);
-    setCPUInterruptProperties(IOService*);
-    unregisterInterrupt(IOService*, int);
+    auto getInterruptType(IOService*, int, int*);
+    auto getMetaClass() const;
+    auto handleInterrupt(void*, IOService*, int);
+    auto initCPUInterruptController(int);
+    auto initCPUInterruptController(int)::kalloc_type_view_555;
+    auto registerInterrupt(IOService*, int, void*, void (*)(void*, void*, void*, int), void*);
+    auto setCPUInterruptProperties(IOService*);
+    auto unregisterInterrupt(IOService*, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleACPICPUInterruptController();
 };

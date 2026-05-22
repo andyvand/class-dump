@@ -5,20 +5,22 @@
 class IOFastPathHIDService {
 public: // (access info unavailable from symbols alone)
     IOFastPathHIDService(OSMetaClass const*);
-    cleanupHelper();
-    copySample() const;
-    copyService() const;
-    doTimeSyncForLocalTimeGated(unsigned long long, OSData**);
-    doTimeSyncForLocalTimeGated(unsigned long long, OSData**) (.cold.1);
-    doTimeSyncForLocalTimeGated(unsigned long long, OSData**)::__desc;
-    getMetaClass() const;
-    getSyncedTimestampForHIDEvent(IOHIDEvent*);
-    start(IOService*);
-    start(IOService*) (.cold.1);
-    start(IOService*) (.cold.2);
-    start(IOService*) (.cold.3);
-    start(IOService*)::__desc;
-    start(IOService*)::_os_log_fmt;
-    willTerminate(IOService*, unsigned int);
+    auto cleanupHelper();
+    auto copySample() const;
+    auto copyService() const;
+    auto doTimeSyncForLocalTimeGated(unsigned long long, OSData**);
+    auto doTimeSyncForLocalTimeGated(unsigned long long, OSData**) (.cold.1);
+    auto doTimeSyncForLocalTimeGated(unsigned long long, OSData**)::__desc;
+    auto getMetaClass() const;
+    auto getSyncedTimestampForHIDEvent(IOHIDEvent*);
+    auto start(IOService*);
+    auto start(IOService*) (.cold.1);
+    auto start(IOService*) (.cold.2);
+    auto start(IOService*) (.cold.3);
+    auto start(IOService*)::__desc;
+    auto start(IOService*)::_os_log_fmt;
+    auto willTerminate(IOService*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFastPathHIDService();
 };

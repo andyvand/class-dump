@@ -4,22 +4,22 @@
 
 class IOSkywalkInterface {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOSkywalkInterface0();
-    _RESERVEDIOSkywalkInterface1();
-    _RESERVEDIOSkywalkInterface10();
-    _RESERVEDIOSkywalkInterface2();
-    _RESERVEDIOSkywalkInterface3();
-    _RESERVEDIOSkywalkInterface4();
-    _RESERVEDIOSkywalkInterface5();
-    _RESERVEDIOSkywalkInterface6();
-    _RESERVEDIOSkywalkInterface7();
-    _RESERVEDIOSkywalkInterface8();
-    _RESERVEDIOSkywalkInterface9();
-    clientConnectWithTask(task*, IOService*, unsigned int);
-    clientDisconnect(IOService*, unsigned int);
-    didTerminate(IOService*, unsigned int, bool*);
-    handleClose(IOService*, unsigned int);
-    handleIsOpen(IOService const*) const;
-    handleOpen(IOService*, unsigned int, void*);
-    isTerminating();
+    auto _RESERVEDIOSkywalkInterface0();
+    auto _RESERVEDIOSkywalkInterface1();
+    auto _RESERVEDIOSkywalkInterface10();
+    auto _RESERVEDIOSkywalkInterface2();
+    auto _RESERVEDIOSkywalkInterface3();
+    auto _RESERVEDIOSkywalkInterface4();
+    auto _RESERVEDIOSkywalkInterface5();
+    auto _RESERVEDIOSkywalkInterface6();
+    auto _RESERVEDIOSkywalkInterface7();
+    auto _RESERVEDIOSkywalkInterface8();
+    auto _RESERVEDIOSkywalkInterface9();
+    auto clientConnectWithTask(task*, IOService*, unsigned int);
+    auto clientDisconnect(IOService*, unsigned int);
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto handleClose(IOService*, unsigned int);
+    auto handleIsOpen(IOService const*) const;
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto isTerminating();
 };

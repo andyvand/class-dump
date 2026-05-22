@@ -5,20 +5,22 @@
 class AMDRadeonX6000_AMDPPTestInterface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDPPTestInterface(OSMetaClass const*);
-    AMDRadeonX6000_dppTestStatus(unsigned int);
-    AMDRadeonX6000_dppTestWriteState(unsigned int);
-    AMDRadeonX6000_processDppTestCreate(AMDRadeonX6000__CPDppEventParam*);
-    AMDRadeonX6000_processDppTestDestroy(AMDRadeonX6000__CPDppEventParam*);
-    AMDRadeonX6000_processDppTestInit();
-    AMDRadeonX6000_processDppTestMsgForTx(AMDRadeonX6000__CPDppEventParam*);
-    AMDRadeonX6000_processDppTestWriteBuffer(AMDRadeonX6000__CPDppTesthEventParam*);
-    allocateAuthData(unsigned int);
-    configureBuffers();
-    free();
-    getAuthData(unsigned int);
-    getMetaClass() const;
-    init(AMDRadeonX6000_AMDGraphicsAccelerator*, AMDRadeonX6000_IAMDHWInterface*, unsigned int, unsigned int);
-    iofbAuthEvent(AMDRadeonX6000__CPDppEventParam*, unsigned int);
-    releaseAuthData(unsigned int);
+    auto AMDRadeonX6000_dppTestStatus(unsigned int);
+    auto AMDRadeonX6000_dppTestWriteState(unsigned int);
+    auto AMDRadeonX6000_processDppTestCreate(AMDRadeonX6000__CPDppEventParam*);
+    auto AMDRadeonX6000_processDppTestDestroy(AMDRadeonX6000__CPDppEventParam*);
+    auto AMDRadeonX6000_processDppTestInit();
+    auto AMDRadeonX6000_processDppTestMsgForTx(AMDRadeonX6000__CPDppEventParam*);
+    auto AMDRadeonX6000_processDppTestWriteBuffer(AMDRadeonX6000__CPDppTesthEventParam*);
+    auto allocateAuthData(unsigned int);
+    auto configureBuffers();
+    auto free();
+    auto getAuthData(unsigned int);
+    auto getMetaClass() const;
+    auto init(AMDRadeonX6000_AMDGraphicsAccelerator*, AMDRadeonX6000_IAMDHWInterface*, unsigned int, unsigned int);
+    auto iofbAuthEvent(AMDRadeonX6000__CPDppEventParam*, unsigned int);
+    auto releaseAuthData(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDPPTestInterface();
 };

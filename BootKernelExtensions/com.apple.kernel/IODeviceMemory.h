@@ -4,7 +4,7 @@
 
 class IODeviceMemory {
 public: // (access info unavailable from symbols alone)
-    arrayFromList(IODeviceMemory::InitElement*, unsigned int);
-    withRange(unsigned long long, unsigned long long);
-    withSubRange(IODeviceMemory*, unsigned long long, unsigned long long);
+    auto arrayFromList(IODeviceMemory::InitElement*, unsigned int);
+    auto withRange(unsigned long long, unsigned long long);
+    auto withSubRange(IODeviceMemory*, unsigned long long, unsigned long long);
 };

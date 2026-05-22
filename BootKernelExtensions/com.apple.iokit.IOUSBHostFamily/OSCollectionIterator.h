@@ -4,5 +4,5 @@
 
 class OSCollectionIterator {
 public: // (access info unavailable from symbols alone)
-    withCollection(OSCollection const*);
+    auto withCollection(OSCollection const*);
 };

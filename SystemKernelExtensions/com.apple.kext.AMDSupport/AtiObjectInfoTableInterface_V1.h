@@ -6,11 +6,13 @@ class AtiObjectInfoTableInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiObjectInfoTableInterface_V1();
     AtiObjectInfoTableInterface_V1(OSMetaClass const*);
-    createObjectInfoTable(AtiVBiosHelper*, unsigned int);
-    getAtomConnectorInfo(unsigned int, AtiObjectInfoTableInterface_V1::AtomConnectorInfo&);
-    getMetaClass() const;
-    getNumberOfConnectors();
-    getNumberOfEncoders();
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto createObjectInfoTable(AtiVBiosHelper*, unsigned int);
+    auto getAtomConnectorInfo(unsigned int, AtiObjectInfoTableInterface_V1::AtomConnectorInfo&);
+    auto getMetaClass() const;
+    auto getNumberOfConnectors();
+    auto getNumberOfEncoders();
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiObjectInfoTableInterface_V1();
 };

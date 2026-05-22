@@ -4,19 +4,19 @@
 
 class ACMKernelUtils {
 public: // (access info unavailable from symbols alone)
-    getEOSDeviceType();
-    getEOSDeviceType()::eosDeviceType;
-    getEOSDeviceType()::inited;
-    initU32FromBootArg(char const*, unsigned int);
-    initU32FromEDTProp(char const*, char const*, unsigned int);
-    isEntitled(task*, char const*);
-    isFastSimEnabled();
-    isFastSimTarget();
-    isFastSimTarget()::inited;
-    isFastSimTarget()::isFastSim;
-    isSEPAvailable();
-    isSEPAvailable()::inited;
-    isSEPAvailable()::isSEPAvailable;
-    useSEPDevice();
-    waitForSEPEndpoint();
+    auto getEOSDeviceType();
+    auto getEOSDeviceType()::eosDeviceType;
+    auto getEOSDeviceType()::inited;
+    auto initU32FromBootArg(char const*, unsigned int);
+    auto initU32FromEDTProp(char const*, char const*, unsigned int);
+    auto isEntitled(task*, char const*);
+    auto isFastSimEnabled();
+    auto isFastSimTarget();
+    auto isFastSimTarget()::inited;
+    auto isFastSimTarget()::isFastSim;
+    auto isSEPAvailable();
+    auto isSEPAvailable()::inited;
+    auto isSEPAvailable()::isSEPAvailable;
+    auto useSEPDevice();
+    auto waitForSEPEndpoint();
 };

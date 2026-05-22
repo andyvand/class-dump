@@ -6,7 +6,9 @@ class IOHIDTranslationEventReq {
 public: // (access info unavailable from symbols alone)
     IOHIDTranslationEventReq();
     IOHIDTranslationEventReq(OSMetaClass const*);
-    free();
-    getMetaClass() const;
+    auto free();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDTranslationEventReq();
 };

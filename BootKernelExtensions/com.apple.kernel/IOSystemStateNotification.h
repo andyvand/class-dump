@@ -6,9 +6,11 @@ class IOSystemStateNotification {
 public: // (access info unavailable from symbols alone)
     IOSystemStateNotification();
     IOSystemStateNotification(OSMetaClass const*);
-    getMetaClass() const;
-    initialize();
-    serializeProperties(OSSerialize*) const;
-    setProperties(OSObject*);
+    auto getMetaClass() const;
+    auto initialize();
+    auto serializeProperties(OSSerialize*) const;
+    auto setProperties(OSObject*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSystemStateNotification();
 };

@@ -4,13 +4,13 @@
 
 class UDFAllocZone {
 public: // (access info unavailable from symbols alone)
-    AddChunkToFreeList(UDFChunkInfo const&);
-    Alloc();
-    DebugCheck();
-    DebugCheckPointerRange(void*);
-    Free(void*);
-    GrowZone(unsigned long);
-    GuaranteeSpace(unsigned long);
     UDFAllocZone(unsigned long, bool, int, int, int);
+    auto AddChunkToFreeList(UDFChunkInfo const&);
+    auto Alloc();
+    auto DebugCheck();
+    auto DebugCheckPointerRange(void*);
+    auto Free(void*);
+    auto GrowZone(unsigned long);
+    auto GuaranteeSpace(unsigned long);
     ~UDFAllocZone();
 };

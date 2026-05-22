@@ -4,7 +4,7 @@
 
 class AppleOLYHAL {
 public: // (access info unavailable from symbols alone)
-    createPlatFuncEventTimestampInterface(char const*);
-    getPowerSourceInformation(AppleOLYHAL_powersource_info_s*);
-    setPropertyHelper(OSString*, OSObject*);
+    auto createPlatFuncEventTimestampInterface(char const*);
+    auto getPowerSourceInformation(AppleOLYHAL_powersource_info_s*);
+    auto setPropertyHelper(OSString*, OSObject*);
 };

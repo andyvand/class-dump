@@ -6,11 +6,13 @@ class IOTimeSyncUserFilteredServiceUserClient {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncUserFilteredServiceUserClient();
     IOTimeSyncUserFilteredServiceUserClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    stop(IOService*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncUserFilteredServiceUserClient();
 };

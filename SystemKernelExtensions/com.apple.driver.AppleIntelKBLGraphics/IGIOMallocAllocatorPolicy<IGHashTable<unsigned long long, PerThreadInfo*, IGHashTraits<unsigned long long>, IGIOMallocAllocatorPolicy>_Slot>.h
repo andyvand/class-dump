@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IGHashTable<unsigned long long, PerThreadInfo*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>::Slot> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(IGHashTable<unsigned long long, PerThreadInfo*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>::Slot*, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(IGHashTable<unsigned long long, PerThreadInfo*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy>::Slot*, unsigned long)::kalloc_type_view_29;
 };

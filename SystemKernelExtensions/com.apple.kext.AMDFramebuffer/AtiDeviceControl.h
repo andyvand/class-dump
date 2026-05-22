@@ -4,7 +4,7 @@
 
 class AtiDeviceControl {
 public: // (access info unavailable from symbols alone)
-    hasHandler();
-    notifyLinkChange(kAGDCRegisterLinkControlEvent_t, unsigned long, unsigned int);
-    switchConfig(AGDCResourceConfigurationEntry_t*, AGDCResourceConfigurationEntry_t*);
+    auto hasHandler();
+    auto notifyLinkChange(kAGDCRegisterLinkControlEvent_t, unsigned long, unsigned int);
+    auto switchConfig(AGDCResourceConfigurationEntry_t*, AGDCResourceConfigurationEntry_t*);
 };

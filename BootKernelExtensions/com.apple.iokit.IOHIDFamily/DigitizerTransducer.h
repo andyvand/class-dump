@@ -6,8 +6,10 @@ class DigitizerTransducer {
 public: // (access info unavailable from symbols alone)
     DigitizerTransducer();
     DigitizerTransducer(OSMetaClass const*);
-    copyProperties() const;
-    getMetaClass() const;
-    transducer(unsigned int, IOHIDElement*);
+    auto copyProperties() const;
+    auto getMetaClass() const;
+    auto transducer(unsigned int, IOHIDElement*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~DigitizerTransducer();
 };

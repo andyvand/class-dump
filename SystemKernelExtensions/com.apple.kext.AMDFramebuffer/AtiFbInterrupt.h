@@ -4,11 +4,11 @@
 
 class AtiFbInterrupt {
 public: // (access info unavailable from symbols alone)
-    disable(void*);
-    enable(void*);
-    getHandlerCount();
-    hasHandler();
-    notifyCallback(void*);
-    registerHandler(void (*)(void*, void*), void*, void*);
-    unregisterHandler(void*);
+    auto disable(void*);
+    auto enable(void*);
+    auto getHandlerCount();
+    auto hasHandler();
+    auto notifyCallback(void*);
+    auto registerHandler(void (*)(void*, void*), void*, void*);
+    auto unregisterHandler(void*);
 };

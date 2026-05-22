@@ -5,7 +5,7 @@
 class AppleUSBXHCIRequestPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIRequestPool(OSMetaClass const*);
-    free();
-    initWithWorkLoopAndController(IOWorkLoop*, AppleUSBXHCI*);
+    auto free();
+    auto initWithWorkLoopAndController(IOWorkLoop*, AppleUSBXHCI*);
     ~AppleUSBXHCIRequestPool();
 };

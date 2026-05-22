@@ -4,16 +4,16 @@
 
 class UDFDirCache {
 public: // (access info unavailable from symbols alone)
-    DebugCheck();
-    Expand();
-    FindAndRemoveSpareEntry(unsigned int, unsigned int, unsigned int, long long*, unsigned int*);
-    Get(unsigned char const*, int, DynArray*);
-    HashFunc(unsigned char const*, int);
-    Insert(UDFDirHashEntry*);
-    Insert(unsigned char const*, int, unsigned int, unsigned int);
-    Remove(unsigned char const*, int, unsigned int);
-    RemoveAndFreeNode(unsigned char const*, int, unsigned int);
     UDFDirCache(unsigned long, UDFAllocZone*);
     UDFDirCache(unsigned long, UDFAllocZone*) (.cold.1);
+    auto DebugCheck();
+    auto Expand();
+    auto FindAndRemoveSpareEntry(unsigned int, unsigned int, unsigned int, long long*, unsigned int*);
+    auto Get(unsigned char const*, int, DynArray*);
+    auto HashFunc(unsigned char const*, int);
+    auto Insert(UDFDirHashEntry*);
+    auto Insert(unsigned char const*, int, unsigned int, unsigned int);
+    auto Remove(unsigned char const*, int, unsigned int);
+    auto RemoveAndFreeNode(unsigned char const*, int, unsigned int);
     ~UDFDirCache();
 };

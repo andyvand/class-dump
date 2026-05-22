@@ -6,12 +6,14 @@ class IODisplayAssertionUserClient {
 public: // (access info unavailable from symbols alone)
     IODisplayAssertionUserClient();
     IODisplayAssertionUserClient(OSMetaClass const*);
-    __OSFinalClass();
-    clientClose();
-    getMetaClass() const;
-    getUserClientCount();
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    start(IOService*);
-    stop(IOService*);
+    auto __OSFinalClass();
+    auto clientClose();
+    auto getMetaClass() const;
+    auto getUserClientCount();
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODisplayAssertionUserClient();
 };

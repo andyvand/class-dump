@@ -5,11 +5,11 @@
 class KDIDiskImage {
 public: // (access info unavailable from symbols alone)
     KDIDiskImage(OSMetaClass const*);
-    _handleDetach(IOService*);
-    flush();
-    getBackingStore();
-    reportRemovable(bool*);
-    reportSectorCount(long long*);
-    reportWriteProtection(bool*);
+    auto _handleDetach(IOService*);
+    auto flush();
+    auto getBackingStore();
+    auto reportRemovable(bool*);
+    auto reportSectorCount(long long*);
+    auto reportWriteProtection(bool*);
     ~KDIDiskImage();
 };

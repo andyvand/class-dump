@@ -6,17 +6,12 @@
 
 AppleUSBSerial::gMetaClass;
 AppleUSBSerial::metaClass;
-AppleUSBSerial::operator delete(void*, unsigned long);
-AppleUSBSerial::operator new(unsigned long);
 AppleUSBSerial::superClass;
 AppleUSBSerialUserClient::gMetaClass;
 AppleUSBSerialUserClient::metaClass;
-AppleUSBSerialUserClient::operator delete(void*, unsigned long);
-AppleUSBSerialUserClient::operator new(unsigned long);
 AppleUSBSerialUserClient::superClass;
 AppleUSBSerialUserClient_ktv;
 AppleUSBSerial_ktv;
-IODTCompareNubName(IORegistryEntry const*, OSString*, OSString**);
 IOSerialStreamSync::gMetaClass;
 IOUSBHostInterface::metaClass;
 IOUserClient::gMetaClass;
@@ -24,6 +19,7 @@ OSBoolean::metaClass;
 OSDictionary::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
+auto IODTCompareNubName(IORegistryEntry const*, OSString*, OSString**);
 vtable for AppleUSBSerial;
 vtable for AppleUSBSerial::MetaClass;
 vtable for AppleUSBSerialUserClient;

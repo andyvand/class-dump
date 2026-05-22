@@ -4,8 +4,8 @@
 
 class IO80211WorkQueue {
 public: // (access info unavailable from symbols alone)
-    addWorkSource(IO80211WorkSource*);
-    removeWorkSource(IO80211WorkSource*);
-    runActionBlock(int () block_pointer);
-    workQueue();
+    auto addWorkSource(IO80211WorkSource*);
+    auto removeWorkSource(IO80211WorkSource*);
+    auto runActionBlock(int () block_pointer);
+    auto workQueue();
 };

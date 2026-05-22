@@ -4,6 +4,6 @@
 
 class IOTimeSyncSyncDaemonClient {
 public: // (access info unavailable from symbols alone)
-    clockUpdatedTimeSyncTimePTPSyncInfo(bool, unsigned char, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned short);
-    create(int, OSSharedPtr<IOTimeSyncService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
+    auto clockUpdatedTimeSyncTimePTPSyncInfo(bool, unsigned char, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned short);
+    auto create(int, OSSharedPtr<IOTimeSyncService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
 };

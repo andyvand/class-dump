@@ -4,5 +4,5 @@
 
 class AppleUSBHostDMABufferMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    inTaskWithOptions(task*, unsigned int, unsigned long, unsigned long, unsigned int, IOMapper*);
+    auto inTaskWithOptions(task*, unsigned int, unsigned long, unsigned long, unsigned int, IOMapper*);
 };

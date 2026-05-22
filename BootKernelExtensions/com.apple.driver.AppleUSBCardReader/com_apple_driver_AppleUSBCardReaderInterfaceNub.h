@@ -4,21 +4,23 @@
 
 class com_apple_driver_AppleUSBCardReaderInterfaceNub {
 public: // (access info unavailable from symbols alone)
-    CheckForPlatformSettings();
-    CheckForPowerOffSupport();
-    ClampPowerState(unsigned long);
-    CopyACPIControllerDevice();
-    CopyACPIPortDevice();
-    FindACPIPlatformDevice(bool);
-    InitializePowerManagement(IOService*);
+    auto CheckForPlatformSettings();
+    auto CheckForPowerOffSupport();
+    auto ClampPowerState(unsigned long);
+    auto CopyACPIControllerDevice();
+    auto CopyACPIPortDevice();
+    auto FindACPIPlatformDevice(bool);
+    auto InitializePowerManagement(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto handleClose(IOService*, unsigned int);
+    auto setPowerState(unsigned long, IOService*);
+    auto start(IOService*);
+    auto start(IOService*) (.cold.1);
+    auto willTerminate(IOService*, unsigned int);
     com_apple_driver_AppleUSBCardReaderInterfaceNub();
     com_apple_driver_AppleUSBCardReaderInterfaceNub(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    handleClose(IOService*, unsigned int);
-    setPowerState(unsigned long, IOService*);
-    start(IOService*);
-    start(IOService*) (.cold.1);
-    willTerminate(IOService*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_AppleUSBCardReaderInterfaceNub();
 };

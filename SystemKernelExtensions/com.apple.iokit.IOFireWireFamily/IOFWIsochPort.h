@@ -5,8 +5,10 @@
 class IOFWIsochPort {
 public: // (access info unavailable from symbols alone)
     IOFWIsochPort(OSMetaClass const*);
-    _RESERVEDIOFWIsochPort0();
-    _RESERVEDIOFWIsochPort1();
-    getMetaClass() const;
+    auto _RESERVEDIOFWIsochPort0();
+    auto _RESERVEDIOFWIsochPort1();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWIsochPort();
 };

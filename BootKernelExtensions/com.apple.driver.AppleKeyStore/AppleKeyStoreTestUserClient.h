@@ -4,7 +4,7 @@
 
 class AppleKeyStoreTestUserClient {
 public: // (access info unavailable from symbols alone)
-    clientClose();
-    getMetaClass() const;
+    auto clientClose();
+    auto getMetaClass() const;
     ~AppleKeyStoreTestUserClient();
 };

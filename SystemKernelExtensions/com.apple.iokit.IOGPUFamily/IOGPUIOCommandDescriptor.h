@@ -6,10 +6,12 @@ class IOGPUIOCommandDescriptor {
 public: // (access info unavailable from symbols alone)
     IOGPUIOCommandDescriptor();
     IOGPUIOCommandDescriptor(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(IOGPUIOCommandBuffer*, eIOGPUIOCommandDescriptorType);
-    reset();
-    withIOCommandBuffer(IOGPUIOCommandBuffer*, eIOGPUIOCommandDescriptorType);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOGPUIOCommandBuffer*, eIOGPUIOCommandDescriptorType);
+    auto reset();
+    auto withIOCommandBuffer(IOGPUIOCommandBuffer*, eIOGPUIOCommandDescriptorType);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUIOCommandDescriptor();
 };

@@ -4,11 +4,13 @@
 
 class com_softraid_driver_SoftRAID_VolumeIO_RecQueue {
 public: // (access info unavailable from symbols alone)
-    AddVolumeIO_RecToQueue(VolumeIO_Rec*);
-    RemoveNextVolumeIO_RecFromQueue();
+    auto AddVolumeIO_RecToQueue(VolumeIO_Rec*);
+    auto RemoveNextVolumeIO_RecFromQueue();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_VolumeIO_RecQueue();
     com_softraid_driver_SoftRAID_VolumeIO_RecQueue(OSMetaClass const*);
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_VolumeIO_RecQueue();
 };

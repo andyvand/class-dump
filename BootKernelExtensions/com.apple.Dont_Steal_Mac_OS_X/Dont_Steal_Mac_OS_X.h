@@ -6,12 +6,14 @@ class Dont_Steal_Mac_OS_X {
 public: // (access info unavailable from symbols alone)
     Dont_Steal_Mac_OS_X();
     Dont_Steal_Mac_OS_X(OSMetaClass const*);
-    _matcher(void*, void*, IOService*);
-    getMetaClass() const;
-    matcher(IOService*);
-    matcher(IOService*) (.cold.1);
-    matcher(IOService*) (.cold.2);
-    matcher(IOService*)::expectedKeyHash;
-    start(IOService*);
+    auto _matcher(void*, void*, IOService*);
+    auto getMetaClass() const;
+    auto matcher(IOService*);
+    auto matcher(IOService*) (.cold.1);
+    auto matcher(IOService*) (.cold.2);
+    auto matcher(IOService*)::expectedKeyHash;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~Dont_Steal_Mac_OS_X();
 };

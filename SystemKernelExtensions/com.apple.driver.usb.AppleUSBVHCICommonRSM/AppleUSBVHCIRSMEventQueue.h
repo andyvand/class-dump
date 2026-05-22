@@ -6,14 +6,16 @@ class AppleUSBVHCIRSMEventQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIRSMEventQueue();
     AppleUSBVHCIRSMEventQueue(OSMetaClass const*);
-    disable();
-    disable()::_os_log_fmt;
-    getMetaClass() const;
-    getNextEvent();
-    getNextEvent()::_os_log_fmt;
-    initWithParameters(unsigned char);
-    receiveEvent(StandardUSBVHCI::VHCIMessage const*);
-    receiveEvent(StandardUSBVHCI::VHCIMessage const*)::_os_log_fmt;
-    withParameters(unsigned char);
+    auto disable();
+    auto disable()::_os_log_fmt;
+    auto getMetaClass() const;
+    auto getNextEvent();
+    auto getNextEvent()::_os_log_fmt;
+    auto initWithParameters(unsigned char);
+    auto receiveEvent(StandardUSBVHCI::VHCIMessage const*);
+    auto receiveEvent(StandardUSBVHCI::VHCIMessage const*)::_os_log_fmt;
+    auto withParameters(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBVHCIRSMEventQueue();
 };

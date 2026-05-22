@@ -5,10 +5,12 @@
 class IOFWBusCommand {
 public: // (access info unavailable from symbols alone)
     IOFWBusCommand(OSMetaClass const*);
-    _RESERVEDIOFWBusCommand0();
-    complete(int);
-    getMetaClass() const;
-    initWithController(IOFireWireController*, void (*)(void*, int, IOFireWireBus*, IOFWBusCommand*), void*);
-    reinit(void (*)(void*, int, IOFireWireBus*, IOFWBusCommand*), void*);
+    auto _RESERVEDIOFWBusCommand0();
+    auto complete(int);
+    auto getMetaClass() const;
+    auto initWithController(IOFireWireController*, void (*)(void*, int, IOFireWireBus*, IOFWBusCommand*), void*);
+    auto reinit(void (*)(void*, int, IOFireWireBus*, IOFWBusCommand*), void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWBusCommand();
 };

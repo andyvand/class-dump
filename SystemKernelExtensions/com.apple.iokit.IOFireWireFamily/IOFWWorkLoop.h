@@ -6,14 +6,16 @@ class IOFWWorkLoop {
 public: // (access info unavailable from symbols alone)
     IOFWWorkLoop();
     IOFWWorkLoop(OSMetaClass const*);
-    closeGate();
-    free();
-    getMetaClass() const;
-    init();
-    removeEventSource(IOEventSource*);
-    sleep(void*);
-    tryCloseGate();
-    wake(void*);
-    workLoop();
+    auto closeGate();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto removeEventSource(IOEventSource*);
+    auto sleep(void*);
+    auto tryCloseGate();
+    auto wake(void*);
+    auto workLoop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWWorkLoop();
 };

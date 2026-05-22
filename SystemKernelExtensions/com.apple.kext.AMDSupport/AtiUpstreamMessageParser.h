@@ -5,10 +5,12 @@
 class AtiUpstreamMessageParser {
 public: // (access info unavailable from symbols alone)
     AtiUpstreamMessageParser(OSMetaClass const*);
-    getMessageSize();
-    getMessageStatus();
-    getMessageSubversion();
-    getMetaClass() const;
-    init(CRTC_PARAMS*, ATIController*, unsigned int);
+    auto getMessageSize();
+    auto getMessageStatus();
+    auto getMessageSubversion();
+    auto getMetaClass() const;
+    auto init(CRTC_PARAMS*, ATIController*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiUpstreamMessageParser();
 };

@@ -4,10 +4,12 @@
 
 class IOAHCIPollerInterface {
 public: // (access info unavailable from symbols alone)
-    CompletePolledIORequest();
     IOAHCIPollerInterface(OSMetaClass const*);
-    SetRequest(OSObject*);
-    SetupPolledIORequest(void*, unsigned int);
-    getMetaClass() const;
+    auto CompletePolledIORequest();
+    auto SetRequest(OSObject*);
+    auto SetupPolledIORequest(void*, unsigned int);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAHCIPollerInterface();
 };

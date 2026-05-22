@@ -10,8 +10,6 @@ OSDictionary::metaClass;
 OSString::metaClass;
 UVCService::gMetaClass;
 UVCService::metaClass;
-UVCService::operator delete(void*, unsigned long);
-UVCService::operator new(unsigned long);
 UVCService::superClass;
 UVCService_ktv;
 vtable for IOService;

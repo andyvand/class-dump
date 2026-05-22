@@ -4,19 +4,21 @@
 
 class com_softraid_driver_SoftRAID_MemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    AllocatedFromPool();
-    DiskIndex();
-    SetAllocatedFromPool(bool);
-    SetDiskIndex(unsigned int);
-    SetVolumeIO_RecPtr(VolumeIO_Rec*);
+    auto AllocatedFromPool();
+    auto DiskIndex();
+    auto SetAllocatedFromPool(bool);
+    auto SetDiskIndex(unsigned int);
+    auto SetVolumeIO_RecPtr(VolumeIO_Rec*);
+    auto complete(unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
+    auto initWithCapacity(unsigned long long, unsigned int);
+    auto prepare(unsigned int);
+    auto setDirection(unsigned int);
     com_softraid_driver_SoftRAID_MemoryDescriptor();
     com_softraid_driver_SoftRAID_MemoryDescriptor(OSMetaClass const*);
-    complete(unsigned int);
-    free();
-    getMetaClass() const;
-    getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
-    initWithCapacity(unsigned long long, unsigned int);
-    prepare(unsigned int);
-    setDirection(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_MemoryDescriptor();
 };

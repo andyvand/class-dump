@@ -6,7 +6,9 @@ class AtiStaticPllAssigner {
 public: // (access info unavailable from symbols alone)
     AtiStaticPllAssigner();
     AtiStaticPllAssigner(OSMetaClass const*);
-    assignPlls(bool);
-    getMetaClass() const;
+    auto assignPlls(bool);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiStaticPllAssigner();
 };

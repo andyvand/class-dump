@@ -4,15 +4,17 @@
 
 class com_apple_driver_16X50ACPI {
 public: // (access info unavailable from symbols alone)
+    auto free();
+    auto getMetaClass() const;
+    auto getReg(unsigned int, void*);
+    auto probe(IOService*, int*);
+    auto probeUART(void*, com_apple_driver_16X50UARTSync*, OSDictionary*);
+    auto setReg(unsigned int, unsigned char, void*);
+    auto start(IOService*);
+    auto stop(IOService*);
     com_apple_driver_16X50ACPI();
     com_apple_driver_16X50ACPI(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getReg(unsigned int, void*);
-    probe(IOService*, int*);
-    probeUART(void*, com_apple_driver_16X50UARTSync*, OSDictionary*);
-    setReg(unsigned int, unsigned char, void*);
-    start(IOService*);
-    stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_16X50ACPI();
 };

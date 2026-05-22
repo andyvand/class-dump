@@ -5,19 +5,19 @@
 class IOSlowAdaptiveClockingManager {
 public: // (access info unavailable from symbols alone)
     IOSlowAdaptiveClockingManager(OSMetaClass const*);
-    _addDomain(unsigned int, IOSlowAdaptiveClockingDomain*);
-    _addDomainGated(unsigned int, IOSlowAdaptiveClockingDomain*);
-    _findDomain(unsigned int, bool);
-    _findDomainGated(unsigned int, bool, IOSlowAdaptiveClockingDomain**);
-    _getDomainSymbol(unsigned int);
-    _removeDomainGated(unsigned int);
-    addVictims(unsigned int, unsigned int*, unsigned int, IOSACVictimFrequency*);
-    clearVictims(unsigned int, unsigned int*);
-    free();
-    getLeastAggressors(unsigned int, unsigned int*, unsigned int*);
-    getWorkLoop() const;
-    initAggressor(unsigned int, void*, IOSACActionCallback_t const&, unsigned int, unsigned long long*, unsigned int*);
-    removeAggressor(unsigned int);
-    removeVictims(unsigned int, unsigned int*, unsigned int, IOSACVictimFrequency*);
+    auto _addDomain(unsigned int, IOSlowAdaptiveClockingDomain*);
+    auto _addDomainGated(unsigned int, IOSlowAdaptiveClockingDomain*);
+    auto _findDomain(unsigned int, bool);
+    auto _findDomainGated(unsigned int, bool, IOSlowAdaptiveClockingDomain**);
+    auto _getDomainSymbol(unsigned int);
+    auto _removeDomainGated(unsigned int);
+    auto addVictims(unsigned int, unsigned int*, unsigned int, IOSACVictimFrequency*);
+    auto clearVictims(unsigned int, unsigned int*);
+    auto free();
+    auto getLeastAggressors(unsigned int, unsigned int*, unsigned int*);
+    auto getWorkLoop() const;
+    auto initAggressor(unsigned int, void*, IOSACActionCallback_t const&, unsigned int, unsigned long long*, unsigned int*);
+    auto removeAggressor(unsigned int);
+    auto removeVictims(unsigned int, unsigned int*, unsigned int, IOSACVictimFrequency*);
     ~IOSlowAdaptiveClockingManager();
 };

@@ -4,5 +4,5 @@
 
 class IODataQueue {
 public: // (access info unavailable from symbols alone)
-    initWithEntries(unsigned int, unsigned int);
+    auto initWithEntries(unsigned int, unsigned int);
 };

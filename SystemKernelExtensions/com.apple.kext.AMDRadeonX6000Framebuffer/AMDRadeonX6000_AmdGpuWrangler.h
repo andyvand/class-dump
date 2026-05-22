@@ -6,15 +6,17 @@ class AMDRadeonX6000_AmdGpuWrangler {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdGpuWrangler();
     AMDRadeonX6000_AmdGpuWrangler(OSMetaClass const*);
-    attach(IOService*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    detach(IOService*);
-    free();
-    getMetaClass() const;
-    getVendorInfo(AGDCVendorInfo_t*, unsigned long);
-    probe(IOService*, int*);
-    start(IOService*);
-    stop(IOService*);
-    vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
+    auto attach(IOService*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto detach(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto getVendorInfo(AGDCVendorInfo_t*, unsigned long);
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdGpuWrangler();
 };

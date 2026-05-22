@@ -6,8 +6,10 @@ class AMDRadeonX6000_AMDNavi14GraphicsAccelerator {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDNavi14GraphicsAccelerator();
     AMDRadeonX6000_AMDNavi14GraphicsAccelerator(OSMetaClass const*);
-    getMetaClass() const;
-    newHWInterface();
-    setDeviceType(IOPCIDevice*);
+    auto getMetaClass() const;
+    auto newHWInterface();
+    auto setDeviceType(IOPCIDevice*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDNavi14GraphicsAccelerator();
 };

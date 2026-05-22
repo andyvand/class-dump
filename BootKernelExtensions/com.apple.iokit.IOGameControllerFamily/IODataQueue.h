@@ -5,8 +5,8 @@
 class IODataQueue {
 public: // (access info unavailable from symbols alone)
     IODataQueue(OSMetaClass const*);
-    enqueue(void*, unsigned int);
-    sendDataAvailableNotification();
-    setNotificationPort(ipc_port*);
+    auto enqueue(void*, unsigned int);
+    auto sendDataAvailableNotification();
+    auto setNotificationPort(ipc_port*);
     ~IODataQueue();
 };

@@ -4,5 +4,5 @@
 
 class IO80211TrafficMonitor {
 public: // (access info unavailable from symbols alone)
-    createTrafficNotification(IO80211TrafficNotificationConfig const&, void (*)(OSObject*, void*, unsigned int, unsigned int, unsigned int));
+    auto createTrafficNotification(IO80211TrafficNotificationConfig const&, void (*)(OSObject*, void*, unsigned int, unsigned int, unsigned int));
 };

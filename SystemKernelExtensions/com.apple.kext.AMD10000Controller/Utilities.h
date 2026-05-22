@@ -4,21 +4,21 @@
 
 class Utilities {
 public: // (access info unavailable from symbols alone)
-    abs(int);
-    ceil(double);
-    cosf(float);
-    fabs(double);
-    findPciDevice(unsigned char, unsigned char, unsigned char);
-    floor(double);
-    getCEAPixelRepetition(AtiDetailedTimingInformation const*);
-    getRegistryProperty(IORegistryEntry*, char const*, void*, unsigned int);
-    getViewport(AtiDetailedTimingInformation const*);
-    isActiveTimingEqual(AtiDetailedTimingInformation const*, AtiDetailedTimingInformation const*);
-    isCEAYCbCr709Timing(AtiDetailedTimingInformation const*);
-    isComponentTiming(AtiDetailedTimingInformation const*);
-    isTimingInterlaced(AtiDetailedTimingInformation const*);
-    isTvTiming(AtiDetailedTimingInformation const*);
-    sinf(float);
-    swap(unsigned int*, unsigned int*);
-    takeNextIndex(unsigned char&, bool);
+    auto abs(int);
+    auto ceil(double);
+    auto cosf(float);
+    auto fabs(double);
+    auto findPciDevice(unsigned char, unsigned char, unsigned char);
+    auto floor(double);
+    auto getCEAPixelRepetition(AtiDetailedTimingInformation const*);
+    auto getRegistryProperty(IORegistryEntry*, char const*, void*, unsigned int);
+    auto getViewport(AtiDetailedTimingInformation const*);
+    auto isActiveTimingEqual(AtiDetailedTimingInformation const*, AtiDetailedTimingInformation const*);
+    auto isCEAYCbCr709Timing(AtiDetailedTimingInformation const*);
+    auto isComponentTiming(AtiDetailedTimingInformation const*);
+    auto isTimingInterlaced(AtiDetailedTimingInformation const*);
+    auto isTvTiming(AtiDetailedTimingInformation const*);
+    auto sinf(float);
+    auto swap(unsigned int*, unsigned int*);
+    auto takeNextIndex(unsigned char&, bool);
 };

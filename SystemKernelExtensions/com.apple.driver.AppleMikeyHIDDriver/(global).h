@@ -6,8 +6,6 @@
 
 AppleMikeyHIDDriver::gMetaClass;
 AppleMikeyHIDDriver::metaClass;
-AppleMikeyHIDDriver::operator delete(void*, unsigned long);
-AppleMikeyHIDDriver::operator new(unsigned long);
 AppleMikeyHIDDriver::superClass;
 AppleMikeyHIDDriver_ktv;
 IOHIDDevice::gMetaClass;

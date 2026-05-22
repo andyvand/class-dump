@@ -6,13 +6,15 @@ class AppleIntelLpssI2CUserClient {
 public: // (access info unavailable from symbols alone)
     AppleIntelLpssI2CUserClient();
     AppleIntelLpssI2CUserClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    openUserClient();
-    start(IOService*);
-    stop(IOService*);
-    transferData(unsigned int, unsigned long long, unsigned char*, unsigned long long, unsigned char*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto openUserClient();
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto transferData(unsigned int, unsigned long long, unsigned char*, unsigned long long, unsigned char*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelLpssI2CUserClient();
 };

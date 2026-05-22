@@ -4,17 +4,12 @@
 
 // Global C++ functions
 
-AcpiDeviceToHandle(IOACPIPlatformDevice*);
 AppleACPIEC::gMetaClass;
 AppleACPIEC::metaClass;
-AppleACPIEC::operator delete(void*, unsigned long);
-AppleACPIEC::operator new(unsigned long);
 AppleACPIEC::superClass;
 AppleACPIEC_ktv;
 AppleECSMBusController::gMetaClass;
 AppleECSMBusController::metaClass;
-AppleECSMBusController::operator delete(void*, unsigned long);
-AppleECSMBusController::operator new(unsigned long);
 AppleECSMBusController::superClass;
 AppleECSMBusController_ktv;
 IOACPIPlatformDevice::metaClass;
@@ -22,7 +17,8 @@ IOSMBusController::gMetaClass;
 IOService::gMetaClass;
 OSData::metaClass;
 OSString::metaClass;
-dictSetNumber(OSDictionary*, char const*, unsigned long long);
+auto AcpiDeviceToHandle(IOACPIPlatformDevice*);
+auto dictSetNumber(OSDictionary*, char const*, unsigned long long);
 gACPIECWakeEvents;
 gBootECHandle;
 vtable for AppleACPIEC;

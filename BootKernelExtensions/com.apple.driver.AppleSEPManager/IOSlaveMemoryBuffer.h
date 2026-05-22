@@ -4,5 +4,5 @@
 
 class IOSlaveMemoryBuffer {
 public: // (access info unavailable from symbols alone)
-    withOptions(unsigned int, unsigned long long, unsigned long long, IOMapper*, unsigned char);
+    auto withOptions(unsigned int, unsigned long long, unsigned long long, IOMapper*, unsigned char);
 };

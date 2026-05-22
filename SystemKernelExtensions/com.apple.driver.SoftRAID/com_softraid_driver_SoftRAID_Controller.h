@@ -4,10 +4,12 @@
 
 class com_softraid_driver_SoftRAID_Controller {
 public: // (access info unavailable from symbols alone)
-    DetachFromIORegistry();
+    auto DetachFromIORegistry();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_Controller();
     com_softraid_driver_SoftRAID_Controller(OSMetaClass const*);
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_Controller();
 };

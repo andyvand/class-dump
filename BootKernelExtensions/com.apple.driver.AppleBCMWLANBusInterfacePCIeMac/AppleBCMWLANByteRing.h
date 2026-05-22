@@ -4,6 +4,6 @@
 
 class AppleBCMWLANByteRing {
 public: // (access info unavailable from symbols alone)
-    getLogger() const;
-    setLogger(CCLogStream*);
+    auto getLogger() const;
+    auto setLogger(CCLogStream*);
 };

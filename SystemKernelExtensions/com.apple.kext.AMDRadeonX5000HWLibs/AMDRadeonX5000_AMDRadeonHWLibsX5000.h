@@ -6,7 +6,9 @@ class AMDRadeonX5000_AMDRadeonHWLibsX5000 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDRadeonHWLibsX5000();
     AMDRadeonX5000_AMDRadeonHWLibsX5000(OSMetaClass const*);
-    getMetaClass() const;
-    populateFirmwareDirectory();
+    auto getMetaClass() const;
+    auto populateFirmwareDirectory();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDRadeonHWLibsX5000();
 };

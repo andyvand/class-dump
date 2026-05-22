@@ -4,12 +4,12 @@
 
 class AppleVirtIOEntropyUserClient {
 public: // (access info unavailable from symbols alone)
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
-    getMetaClass() const;
-    getRandomBytes(IOExternalMethodArguments*);
-    getRandomBytesWrapper(OSObject*, void*, IOExternalMethodArguments*);
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    start(IOService*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
+    auto getMetaClass() const;
+    auto getRandomBytes(IOExternalMethodArguments*);
+    auto getRandomBytesWrapper(OSObject*, void*, IOExternalMethodArguments*);
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto start(IOService*);
     ~AppleVirtIOEntropyUserClient();
 };

@@ -6,8 +6,10 @@ class IOFireWireMagicMatchingNub {
 public: // (access info unavailable from symbols alone)
     IOFireWireMagicMatchingNub();
     IOFireWireMagicMatchingNub(OSMetaClass const*);
-    getMetaClass() const;
-    matchPropertyTable(OSDictionary*);
-    message(unsigned int, IOService*, void*);
+    auto getMetaClass() const;
+    auto matchPropertyTable(OSDictionary*);
+    auto message(unsigned int, IOService*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireMagicMatchingNub();
 };

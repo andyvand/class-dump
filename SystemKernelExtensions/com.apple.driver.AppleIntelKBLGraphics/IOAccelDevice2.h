@@ -5,19 +5,19 @@
 class IOAccelDevice2 {
 public: // (access info unavailable from symbols alone)
     IOAccelDevice2(OSMetaClass const*);
-    _RESERVEDIOAccelDevice0();
-    _RESERVEDIOAccelDevice1();
-    _RESERVEDIOAccelDevice2();
-    _RESERVEDIOAccelDevice3();
-    _RESERVEDIOAccelDevice4();
-    _RESERVEDIOAccelDevice5();
-    clientClose();
-    didTerminate(IOService*, unsigned int, bool*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    free();
-    orphanClientMappings(OSSet*);
-    requestTerminate(IOService*, unsigned int);
-    start(IOService*);
-    stop(IOService*);
+    auto _RESERVEDIOAccelDevice0();
+    auto _RESERVEDIOAccelDevice1();
+    auto _RESERVEDIOAccelDevice2();
+    auto _RESERVEDIOAccelDevice3();
+    auto _RESERVEDIOAccelDevice4();
+    auto _RESERVEDIOAccelDevice5();
+    auto clientClose();
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto free();
+    auto orphanClientMappings(OSSet*);
+    auto requestTerminate(IOService*, unsigned int);
+    auto start(IOService*);
+    auto stop(IOService*);
     ~IOAccelDevice2();
 };

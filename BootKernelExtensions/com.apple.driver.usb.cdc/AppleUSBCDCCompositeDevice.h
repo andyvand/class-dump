@@ -6,10 +6,12 @@ class AppleUSBCDCCompositeDevice {
 public: // (access info unavailable from symbols alone)
     AppleUSBCDCCompositeDevice();
     AppleUSBCDCCompositeDevice(OSMetaClass const*);
-    earlyStart(IOService*);
-    getMetaClass() const;
-    setPreferredConfigProperty();
-    setProperties(OSObject*);
-    start(IOService*);
+    auto earlyStart(IOService*);
+    auto getMetaClass() const;
+    auto setPreferredConfigProperty();
+    auto setProperties(OSObject*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBCDCCompositeDevice();
 };

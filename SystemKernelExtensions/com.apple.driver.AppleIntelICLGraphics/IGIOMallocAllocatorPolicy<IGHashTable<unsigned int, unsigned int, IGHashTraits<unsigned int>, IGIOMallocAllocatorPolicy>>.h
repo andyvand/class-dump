@@ -4,5 +4,5 @@
 
 class IGIOMallocAllocatorPolicy<IGHashTable<unsigned int, unsigned int, IGHashTraits<unsigned int>, IGIOMallocAllocatorPolicy>> {
 public: // (access info unavailable from symbols alone)
-    deallocate(IGHashTable<unsigned int, unsigned int, IGHashTraits<unsigned int>, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
+    auto deallocate(IGHashTable<unsigned int, unsigned int, IGHashTraits<unsigned int>, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
 };

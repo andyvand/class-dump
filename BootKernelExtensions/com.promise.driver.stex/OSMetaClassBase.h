@@ -4,12 +4,12 @@
 
 class OSMetaClassBase {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDOSMetaClassBase3();
-    _RESERVEDOSMetaClassBase4();
-    _RESERVEDOSMetaClassBase5();
-    _RESERVEDOSMetaClassBase6();
-    _RESERVEDOSMetaClassBase7();
-    isEqualTo(OSMetaClassBase const*) const;
-    metaCast(OSString const*) const;
-    safeMetaCast(OSMetaClassBase const*, OSMetaClass const*);
+    auto _RESERVEDOSMetaClassBase3();
+    auto _RESERVEDOSMetaClassBase4();
+    auto _RESERVEDOSMetaClassBase5();
+    auto _RESERVEDOSMetaClassBase6();
+    auto _RESERVEDOSMetaClassBase7();
+    auto isEqualTo(OSMetaClassBase const*) const;
+    auto metaCast(OSString const*) const;
+    auto safeMetaCast(OSMetaClassBase const*, OSMetaClass const*);
 };

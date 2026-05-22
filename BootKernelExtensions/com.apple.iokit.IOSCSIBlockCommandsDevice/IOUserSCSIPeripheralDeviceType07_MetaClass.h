@@ -4,8 +4,8 @@
 
 class IOUserSCSIPeripheralDeviceType07::MetaClass {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     MetaClass();
-    alloc() const;
+    auto Dispatch(IORPC);
+    auto alloc() const;
     ~MetaClass();
 };

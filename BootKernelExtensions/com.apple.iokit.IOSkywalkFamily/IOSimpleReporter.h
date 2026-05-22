@@ -5,6 +5,6 @@
 class IOSimpleReporter {
 public: // (access info unavailable from symbols alone)
     IOSimpleReporter(OSMetaClass const*);
-    initWith(IOService*, unsigned short, unsigned long long);
+    auto initWith(IOService*, unsigned short, unsigned long long);
     ~IOSimpleReporter();
 };

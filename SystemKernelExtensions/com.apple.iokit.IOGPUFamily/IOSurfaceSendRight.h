@@ -4,5 +4,5 @@
 
 class IOSurfaceSendRight {
 public: // (access info unavailable from symbols alone)
-    withSurface(IOSurfaceRoot*, IOSurface*);
+    auto withSurface(IOSurfaceRoot*, IOSurface*);
 };

@@ -6,15 +6,17 @@ class IO80211EventSource {
 public: // (access info unavailable from symbols alone)
     IO80211EventSource();
     IO80211EventSource(OSMetaClass const*);
-    cancelCallbackNeeded();
-    checkForWork();
-    doCallback();
-    free();
-    free()::kalloc_type_view_61;
-    getMetaClass() const;
-    initWithCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*));
-    initWithCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*))::kalloc_type_view_45;
-    signalCallbackNeeded();
-    withCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*));
+    auto cancelCallbackNeeded();
+    auto checkForWork();
+    auto doCallback();
+    auto free();
+    auto free()::kalloc_type_view_61;
+    auto getMetaClass() const;
+    auto initWithCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*));
+    auto initWithCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*))::kalloc_type_view_45;
+    auto signalCallbackNeeded();
+    auto withCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*));
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211EventSource();
 };

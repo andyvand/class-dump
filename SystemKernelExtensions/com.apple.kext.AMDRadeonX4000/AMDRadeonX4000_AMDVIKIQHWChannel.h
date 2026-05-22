@@ -6,11 +6,13 @@ class AMDRadeonX4000_AMDVIKIQHWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVIKIQHWChannel();
     AMDRadeonX4000_AMDVIKIQHWChannel(OSMetaClass const*);
-    getMetaClass() const;
-    submitMapQueuesPacket(_eAMD_HW_RING_TYPE, unsigned long long, AMD_PM4_QUEUE_SPEC const*);
-    submitQueryStatusPacket(_eAMD_HW_RING_TYPE);
-    submitSetResourcesPacket(AMD_PM4_QUEUE_SPEC const*);
-    submitUnmapQueuesPacket(_eAMD_HW_RING_TYPE);
-    writeDataCmdPacket(unsigned int*);
+    auto getMetaClass() const;
+    auto submitMapQueuesPacket(_eAMD_HW_RING_TYPE, unsigned long long, AMD_PM4_QUEUE_SPEC const*);
+    auto submitQueryStatusPacket(_eAMD_HW_RING_TYPE);
+    auto submitSetResourcesPacket(AMD_PM4_QUEUE_SPEC const*);
+    auto submitUnmapQueuesPacket(_eAMD_HW_RING_TYPE);
+    auto writeDataCmdPacket(unsigned int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVIKIQHWChannel();
 };

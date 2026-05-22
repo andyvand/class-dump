@@ -4,5 +4,5 @@
 
 class AppleSMBusDevice {
 public: // (access info unavailable from symbols alone)
-    startIO(AppleSMBusI2CRequest*);
+    auto startIO(AppleSMBusI2CRequest*);
 };

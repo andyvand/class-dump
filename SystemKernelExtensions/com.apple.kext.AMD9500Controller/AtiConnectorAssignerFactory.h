@@ -4,5 +4,5 @@
 
 class AtiConnectorAssignerFactory {
 public: // (access info unavailable from symbols alone)
-    createAssigner(ATIController*, ATIConnector**, unsigned char, CRTC_PARAMS**, unsigned char);
+    auto createAssigner(ATIController*, ATIConnector**, unsigned char, CRTC_PARAMS**, unsigned char);
 };

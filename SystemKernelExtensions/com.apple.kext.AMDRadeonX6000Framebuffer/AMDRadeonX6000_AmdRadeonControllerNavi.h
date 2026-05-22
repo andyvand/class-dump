@@ -5,21 +5,23 @@
 class AMDRadeonX6000_AmdRadeonControllerNavi {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdRadeonControllerNavi(OSMetaClass const*);
-    free();
-    getDrrStatus(int, _DrrStatus*);
-    getMetaClass() const;
-    getTriageData(_AMD_TRIAGE_*);
-    getVUpdateVBlankInterval(int, _VUpdateVBlankInterval*);
-    isPoweredUp();
-    isSMURunning();
-    longTrainingGDDR6();
+    auto free();
+    auto getDrrStatus(int, _DrrStatus*);
+    auto getMetaClass() const;
+    auto getTriageData(_AMD_TRIAGE_*);
+    auto getVUpdateVBlankInterval(int, _VUpdateVBlankInterval*);
+    auto isPoweredUp();
+    auto isSMURunning();
+    auto longTrainingGDDR6();
+    auto readPublicSerialNumber(unsigned int*);
+    auto restoreBistTrainingParameters();
+    auto saveBistTrainingParameters();
+    auto setupBootWatermarks();
+    auto smuR32(unsigned int);
+    auto start(IOService*);
+    auto stop(IOService*);
     non-virtual thunk to getTriageData(_AMD_TRIAGE_*);
-    readPublicSerialNumber(unsigned int*);
-    restoreBistTrainingParameters();
-    saveBistTrainingParameters();
-    setupBootWatermarks();
-    smuR32(unsigned int);
-    start(IOService*);
-    stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdRadeonControllerNavi();
 };

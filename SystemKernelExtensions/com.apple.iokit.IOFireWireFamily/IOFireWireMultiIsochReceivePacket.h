@@ -6,14 +6,16 @@ class IOFireWireMultiIsochReceivePacket {
 public: // (access info unavailable from symbols alone)
     IOFireWireMultiIsochReceivePacket();
     IOFireWireMultiIsochReceivePacket(OSMetaClass const*);
-    clientDone();
-    create(IOFireWireController*);
-    createMemoryDescriptorForRanges();
-    free();
-    getMetaClass() const;
-    init(IOFireWireController*);
-    isochChannel();
-    isochPayloadSize();
-    packetReceiveTime();
+    auto clientDone();
+    auto create(IOFireWireController*);
+    auto createMemoryDescriptorForRanges();
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOFireWireController*);
+    auto isochChannel();
+    auto isochPayloadSize();
+    auto packetReceiveTime();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireMultiIsochReceivePacket();
 };

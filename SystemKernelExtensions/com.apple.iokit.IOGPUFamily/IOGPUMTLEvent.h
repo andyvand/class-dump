@@ -6,14 +6,16 @@ class IOGPUMTLEvent {
 public: // (access info unavailable from symbols alone)
     IOGPUMTLEvent();
     IOGPUMTLEvent(OSMetaClass const*);
-    clean_ring();
-    clean_ring() (.cold.1);
-    copySubmitted(unsigned long long, IOGPUEvent*, unsigned long long, unsigned long long, unsigned long long);
-    free();
-    getMetaClass() const;
-    initWithAccelerator(IOGPU*, unsigned long long);
-    scrubEvents();
-    signalSubmitted(IOGPUEvent const*, unsigned long long);
-    withAccelerator(IOGPU*, unsigned long long);
+    auto clean_ring();
+    auto clean_ring() (.cold.1);
+    auto copySubmitted(unsigned long long, IOGPUEvent*, unsigned long long, unsigned long long, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithAccelerator(IOGPU*, unsigned long long);
+    auto scrubEvents();
+    auto signalSubmitted(IOGPUEvent const*, unsigned long long);
+    auto withAccelerator(IOGPU*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUMTLEvent();
 };

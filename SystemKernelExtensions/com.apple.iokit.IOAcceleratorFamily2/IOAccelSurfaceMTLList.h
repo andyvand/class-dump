@@ -4,11 +4,11 @@
 
 class IOAccelSurfaceMTLList {
 public: // (access info unavailable from symbols alone)
-    addSurface(IOAccelSurfaceMTL*);
-    findSurfaceForID(unsigned int);
-    getCount() const;
-    init();
-    moveSurfaceToHead(IOAccelSurfaceMTL*);
-    removeSurface(IOAccelSurfaceMTL*);
-    removeSurface(IOAccelSurfaceMTL*)::_os_log_fmt;
+    auto addSurface(IOAccelSurfaceMTL*);
+    auto findSurfaceForID(unsigned int);
+    auto getCount() const;
+    auto init();
+    auto moveSurfaceToHead(IOAccelSurfaceMTL*);
+    auto removeSurface(IOAccelSurfaceMTL*);
+    auto removeSurface(IOAccelSurfaceMTL*)::_os_log_fmt;
 };

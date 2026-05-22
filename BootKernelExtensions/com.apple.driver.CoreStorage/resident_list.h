@@ -4,5 +4,5 @@
 
 class resident_list {
 public: // (access info unavailable from symbols alone)
-    empty();
+    auto empty();
 };

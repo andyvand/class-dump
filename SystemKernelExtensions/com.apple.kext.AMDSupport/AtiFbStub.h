@@ -6,10 +6,12 @@ class AtiFbStub {
 public: // (access info unavailable from symbols alone)
     AtiFbStub();
     AtiFbStub(OSMetaClass const*);
-    compareName(OSString*, OSString**) const;
-    getMetaClass() const;
-    getResources();
-    joinPMtree(IOService*);
-    matchLocation(IOService*);
+    auto compareName(OSString*, OSString**) const;
+    auto getMetaClass() const;
+    auto getResources();
+    auto joinPMtree(IOService*);
+    auto matchLocation(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiFbStub();
 };

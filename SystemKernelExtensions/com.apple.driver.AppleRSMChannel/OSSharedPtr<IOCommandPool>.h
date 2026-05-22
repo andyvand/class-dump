@@ -5,6 +5,6 @@
 class OSSharedPtr<IOCommandPool> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr();
-    operator=(OSSharedPtr<IOCommandPool>&&);
+    auto operator=(OSSharedPtr<IOCommandPool>&&);
     ~OSSharedPtr();
 };

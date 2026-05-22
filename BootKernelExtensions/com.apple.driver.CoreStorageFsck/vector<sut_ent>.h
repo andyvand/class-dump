@@ -4,5 +4,5 @@
 
 class vector<sut_ent> {
 public: // (access info unavailable from symbols alone)
-    resize(unsigned long, sut_ent const&);
+    auto resize(unsigned long, sut_ent const&);
 };

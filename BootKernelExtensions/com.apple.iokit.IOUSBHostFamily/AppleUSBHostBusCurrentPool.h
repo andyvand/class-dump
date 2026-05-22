@@ -6,12 +6,14 @@ class AppleUSBHostBusCurrentPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostBusCurrentPool();
     AppleUSBHostBusCurrentPool(OSMetaClass const*);
-    allocateBusCurrent(IOService*, unsigned int&, unsigned int&);
-    allocateBusCurrent(IOService*, unsigned int&, unsigned int&)::_os_log_fmt;
-    free();
-    getMetaClass() const;
-    initWithSizes(unsigned int, unsigned int);
-    initWithSizes(unsigned int, unsigned int)::_os_log_fmt;
-    withSizes(unsigned int, unsigned int);
+    auto allocateBusCurrent(IOService*, unsigned int&, unsigned int&);
+    auto allocateBusCurrent(IOService*, unsigned int&, unsigned int&)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto initWithSizes(unsigned int, unsigned int);
+    auto initWithSizes(unsigned int, unsigned int)::_os_log_fmt;
+    auto withSizes(unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostBusCurrentPool();
 };

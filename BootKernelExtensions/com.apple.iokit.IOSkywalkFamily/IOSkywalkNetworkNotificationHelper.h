@@ -6,11 +6,13 @@ class IOSkywalkNetworkNotificationHelper {
 public: // (access info unavailable from symbols alone)
     IOSkywalkNetworkNotificationHelper();
     IOSkywalkNetworkNotificationHelper(OSMetaClass const*);
-    createNotificationToken(IOSkywalkNetworkPacket const*, IOSkywalkNetworkInterface const*, unsigned int*);
-    free();
-    getMetaClass() const;
-    initWithParams(IOSkywalkNetworkNotificationHelper::_IOSkywalkNetworkNotificationHelperParams const&);
-    notifyWithToken(unsigned int, IOSkywalkNetworkNotificationStatus);
-    withParams(IOSkywalkNetworkNotificationHelper::_IOSkywalkNetworkNotificationHelperParams const&);
+    auto createNotificationToken(IOSkywalkNetworkPacket const*, IOSkywalkNetworkInterface const*, unsigned int*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithParams(IOSkywalkNetworkNotificationHelper::_IOSkywalkNetworkNotificationHelperParams const&);
+    auto notifyWithToken(unsigned int, IOSkywalkNetworkNotificationStatus);
+    auto withParams(IOSkywalkNetworkNotificationHelper::_IOSkywalkNetworkNotificationHelperParams const&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSkywalkNetworkNotificationHelper();
 };

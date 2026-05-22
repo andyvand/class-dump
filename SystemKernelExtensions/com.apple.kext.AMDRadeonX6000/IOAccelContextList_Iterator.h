@@ -5,5 +5,5 @@
 class IOAccelContextList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelContextList&);
-    getNextContext();
+    auto getNextContext();
 };

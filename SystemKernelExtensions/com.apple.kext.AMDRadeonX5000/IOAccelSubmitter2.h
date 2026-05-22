@@ -4,12 +4,12 @@
 
 class IOAccelSubmitter2 {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOAccelSubmitter0();
-    _RESERVEDIOAccelSubmitter1();
-    _RESERVEDIOAccelSubmitter2();
-    _RESERVEDIOAccelSubmitter3();
-    _RESERVEDIOAccelSubmitter4();
-    _RESERVEDIOAccelSubmitter5();
-    orphanClientMappings(OSSet*);
-    setProtectionOptions(unsigned long long);
+    auto _RESERVEDIOAccelSubmitter0();
+    auto _RESERVEDIOAccelSubmitter1();
+    auto _RESERVEDIOAccelSubmitter2();
+    auto _RESERVEDIOAccelSubmitter3();
+    auto _RESERVEDIOAccelSubmitter4();
+    auto _RESERVEDIOAccelSubmitter5();
+    auto orphanClientMappings(OSSet*);
+    auto setProtectionOptions(unsigned long long);
 };

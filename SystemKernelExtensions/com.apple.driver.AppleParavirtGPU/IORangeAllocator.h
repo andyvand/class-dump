@@ -5,4 +5,5 @@
 class IORangeAllocator {
 public: // (access info unavailable from symbols alone)
     IORangeAllocator();
+    void * operator new(unsigned long);
 };

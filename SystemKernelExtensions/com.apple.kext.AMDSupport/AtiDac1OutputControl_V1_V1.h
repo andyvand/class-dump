@@ -6,7 +6,9 @@ class AtiDac1OutputControl_V1_V1 {
 public: // (access info unavailable from symbols alone)
     AtiDac1OutputControl_V1_V1();
     AtiDac1OutputControl_V1_V1(OSMetaClass const*);
-    dacOutputControl(ActiveConnectorInfo const*, bool);
-    getMetaClass() const;
+    auto dacOutputControl(ActiveConnectorInfo const*, bool);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDac1OutputControl_V1_V1();
 };

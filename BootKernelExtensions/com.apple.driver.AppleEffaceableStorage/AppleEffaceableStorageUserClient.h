@@ -6,9 +6,11 @@ class AppleEffaceableStorageUserClient {
 public: // (access info unavailable from symbols alone)
     AppleEffaceableStorageUserClient();
     AppleEffaceableStorageUserClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    start(IOService*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEffaceableStorageUserClient();
 };

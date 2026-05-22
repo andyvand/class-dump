@@ -7,8 +7,6 @@
 KDIBackingStore::gMetaClass;
 KDIFileBackingStore::gMetaClass;
 KDIFileBackingStore::metaClass;
-KDIFileBackingStore::operator delete(void*, unsigned long);
-KDIFileBackingStore::operator new(unsigned long);
 KDIFileBackingStore::superClass;
 KDIFileBackingStore_ktv;
 KDIURL::metaClass;

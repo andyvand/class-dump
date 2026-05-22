@@ -4,7 +4,7 @@
 
 class libkern::intrusive_shared_ptr<OSMetaClassBase const, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
-    intrusive_shared_ptr<AppleRSMChannel, void>(libkern::intrusive_shared_ptr<AppleRSMChannel, intrusive_osobject_retainer> const&);
-    intrusive_shared_ptr<OSNumber, void>(libkern::intrusive_shared_ptr<OSNumber, intrusive_osobject_retainer> const&);
-    reset();
+    auto intrusive_shared_ptr<AppleRSMChannel, void>(libkern::intrusive_shared_ptr<AppleRSMChannel, intrusive_osobject_retainer> const&);
+    auto intrusive_shared_ptr<OSNumber, void>(libkern::intrusive_shared_ptr<OSNumber, intrusive_osobject_retainer> const&);
+    auto reset();
 };

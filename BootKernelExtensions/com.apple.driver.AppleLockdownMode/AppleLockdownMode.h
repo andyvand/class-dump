@@ -6,8 +6,10 @@ class AppleLockdownMode {
 public: // (access info unavailable from symbols alone)
     AppleLockdownMode();
     AppleLockdownMode(OSMetaClass const*);
-    getMetaClass() const;
-    start(IOService*);
-    stop(IOService*);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleLockdownMode();
 };

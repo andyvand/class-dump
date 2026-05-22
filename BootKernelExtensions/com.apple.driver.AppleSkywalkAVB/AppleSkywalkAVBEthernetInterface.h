@@ -5,18 +5,20 @@
 class AppleSkywalkAVBEthernetInterface {
 public: // (access info unavailable from symbols alone)
     AppleSkywalkAVBEthernetInterface(OSMetaClass const*);
-    allocateAVBPacket();
-    completeAVBPacket(IOEthernetController::IOEthernetAVBPacket*);
-    deliverRxAVBPacket(IOEthernetController::IOEthernetAVBPacket*, void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
-    deliverRxPTPPacket(IOEthernetController::IOEthernetAVBPacket*);
-    getMetaClass() const;
-    informActiveMedia(unsigned int);
-    informSelectedMedia(unsigned int);
-    prepareBSDInterface(__ifnet*, unsigned int);
-    registerAVBController(AppleSkywalkAVBLegacyEthernet*);
-    reportPTPOffsets(long long, long long);
-    setGPTPPresent(bool);
-    signalTimeSyncPacketTransmitted(IOEthernetController::IOEthernetAVBPacket*, bool);
-    unregisterAVBController(AppleSkywalkAVBLegacyEthernet*);
+    auto allocateAVBPacket();
+    auto completeAVBPacket(IOEthernetController::IOEthernetAVBPacket*);
+    auto deliverRxAVBPacket(IOEthernetController::IOEthernetAVBPacket*, void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
+    auto deliverRxPTPPacket(IOEthernetController::IOEthernetAVBPacket*);
+    auto getMetaClass() const;
+    auto informActiveMedia(unsigned int);
+    auto informSelectedMedia(unsigned int);
+    auto prepareBSDInterface(__ifnet*, unsigned int);
+    auto registerAVBController(AppleSkywalkAVBLegacyEthernet*);
+    auto reportPTPOffsets(long long, long long);
+    auto setGPTPPresent(bool);
+    auto signalTimeSyncPacketTransmitted(IOEthernetController::IOEthernetAVBPacket*, bool);
+    auto unregisterAVBController(AppleSkywalkAVBLegacyEthernet*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSkywalkAVBEthernetInterface();
 };

@@ -5,19 +5,19 @@
 class IOAccelFIFOChannel2 {
 public: // (access info unavailable from symbols alone)
     IOAccelFIFOChannel2(OSMetaClass const*);
-    _RESERVEDIOAccelFIFOChannel0();
-    _RESERVEDIOAccelFIFOChannel1();
-    _RESERVEDIOAccelFIFOChannel2();
-    _RESERVEDIOAccelFIFOChannel3();
-    _RESERVEDIOAccelFIFOChannel4();
-    _RESERVEDIOAccelFIFOChannel5();
-    finishChannel();
-    getFirstPendingEvent();
-    init(IOGraphicsAccelerator2*, int, int, int, int);
-    logRingBuffer();
-    pruneRingBuffer();
-    restart();
-    submitterDestroyed(IOAccelSubmitter2*);
-    writeStampCommand(IOAccelEventQueue*, vendevtCommandRec*);
+    auto _RESERVEDIOAccelFIFOChannel0();
+    auto _RESERVEDIOAccelFIFOChannel1();
+    auto _RESERVEDIOAccelFIFOChannel2();
+    auto _RESERVEDIOAccelFIFOChannel3();
+    auto _RESERVEDIOAccelFIFOChannel4();
+    auto _RESERVEDIOAccelFIFOChannel5();
+    auto finishChannel();
+    auto getFirstPendingEvent();
+    auto init(IOGraphicsAccelerator2*, int, int, int, int);
+    auto logRingBuffer();
+    auto pruneRingBuffer();
+    auto restart();
+    auto submitterDestroyed(IOAccelSubmitter2*);
+    auto writeStampCommand(IOAccelEventQueue*, vendevtCommandRec*);
     ~IOAccelFIFOChannel2();
 };

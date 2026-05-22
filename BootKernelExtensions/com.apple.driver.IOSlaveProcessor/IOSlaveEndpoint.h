@@ -5,13 +5,15 @@
 class IOSlaveEndpoint {
 public: // (access info unavailable from symbols alone)
     IOSlaveEndpoint(OSMetaClass const*);
-    checkForWork();
-    disable();
-    enable();
-    free();
-    getMetaClass() const;
-    initWithOptions(IOSlaveProcessor*, OSObject*, void (*)(OSObject*, void*, void*), void*, unsigned int);
-    setAction(void (*)(OSObject*, void*, void*));
-    signalDoorbell();
+    auto checkForWork();
+    auto disable();
+    auto enable();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithOptions(IOSlaveProcessor*, OSObject*, void (*)(OSObject*, void*, void*), void*, unsigned int);
+    auto setAction(void (*)(OSObject*, void*, void*));
+    auto signalDoorbell();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSlaveEndpoint();
 };

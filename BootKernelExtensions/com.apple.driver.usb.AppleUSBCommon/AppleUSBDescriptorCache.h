@@ -6,12 +6,14 @@ class AppleUSBDescriptorCache {
 public: // (access info unavailable from symbols alone)
     AppleUSBDescriptorCache();
     AppleUSBDescriptorCache(OSMetaClass const*);
-    descriptorCache();
-    free();
-    getDescriptor(unsigned char, unsigned short&, unsigned char, unsigned short);
-    getMetaClass() const;
-    init();
-    removeDescriptor(unsigned char, unsigned char, unsigned short);
-    setDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short);
+    auto descriptorCache();
+    auto free();
+    auto getDescriptor(unsigned char, unsigned short&, unsigned char, unsigned short);
+    auto getMetaClass() const;
+    auto init();
+    auto removeDescriptor(unsigned char, unsigned char, unsigned short);
+    auto setDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBDescriptorCache();
 };

@@ -6,13 +6,15 @@ class IOPMRequest {
 public: // (access info unavailable from symbols alone)
     IOPMRequest();
     IOPMRequest(OSMetaClass const*);
-    attachNextRequest(IOPMRequest*);
-    attachRootRequest(IOPMRequest*);
-    create();
-    detachNextRequest();
-    detachRootRequest();
-    getMetaClass() const;
-    init(IOService*, unsigned int);
-    reset();
+    auto attachNextRequest(IOPMRequest*);
+    auto attachRootRequest(IOPMRequest*);
+    auto create();
+    auto detachNextRequest();
+    auto detachRootRequest();
+    auto getMetaClass() const;
+    auto init(IOService*, unsigned int);
+    auto reset();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPMRequest();
 };

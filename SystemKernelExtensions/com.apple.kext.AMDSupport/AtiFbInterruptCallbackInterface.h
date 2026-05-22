@@ -5,11 +5,13 @@
 class AtiFbInterruptCallbackInterface {
 public: // (access info unavailable from symbols alone)
     AtiFbInterruptCallbackInterface(OSMetaClass const*);
-    equals(OSObject*);
-    getInterruptReference();
-    getMetaClass() const;
-    initWithCallback(void (*)(void*, void*), void*);
-    setDebugInfo(AtiFbInterruptCallbackInterface::DebugInfo&);
-    setState(bool);
+    auto equals(OSObject*);
+    auto getInterruptReference();
+    auto getMetaClass() const;
+    auto initWithCallback(void (*)(void*, void*), void*);
+    auto setDebugInfo(AtiFbInterruptCallbackInterface::DebugInfo&);
+    auto setState(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiFbInterruptCallbackInterface();
 };

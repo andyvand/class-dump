@@ -4,8 +4,8 @@
 
 class IOFWAddressSpace {
 public: // (access info unavailable from symbols alone)
-    activate();
-    deactivate();
-    doLock(unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, unsigned int const*, unsigned int&, unsigned int*, unsigned int, void*);
-    init(IOFireWireBus*);
+    auto activate();
+    auto deactivate();
+    auto doLock(unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, unsigned int const*, unsigned int&, unsigned int*, unsigned int, void*);
+    auto init(IOFireWireBus*);
 };

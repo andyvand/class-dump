@@ -4,6 +4,6 @@
 
 class IOAccelDisplayPipe {
 public: // (access info unavailable from symbols alone)
-    reportVRRStampInfo(IOAccelDisplayPipeVRRTimeStampInfo*);
-    signalTransactionInterrupt(void*);
+    auto reportVRRStampInfo(IOAccelDisplayPipeVRRTimeStampInfo*);
+    auto signalTransactionInterrupt(void*);
 };

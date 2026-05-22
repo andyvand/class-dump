@@ -4,15 +4,15 @@
 
 class UDFUnifiedAllocDesc {
 public: // (access info unavailable from symbols alone)
-    AllocDescSize();
-    CopyToAllocDescEntry(UDFAllocDescEntry*);
-    GetADType();
-    GetFlag();
-    GetLogicalBlkNum();
-    GetNumBytes();
-    GetPartRef();
-    GetRealFlag();
-    Init(UDFMount*, int, unsigned short, unsigned char*);
-    SetAllocDesc(unsigned short, unsigned int, long long, unsigned int);
-    SetNumBytes(long long);
+    auto AllocDescSize();
+    auto CopyToAllocDescEntry(UDFAllocDescEntry*);
+    auto GetADType();
+    auto GetFlag();
+    auto GetLogicalBlkNum();
+    auto GetNumBytes();
+    auto GetPartRef();
+    auto GetRealFlag();
+    auto Init(UDFMount*, int, unsigned short, unsigned char*);
+    auto SetAllocDesc(unsigned short, unsigned int, long long, unsigned int);
+    auto SetNumBytes(long long);
 };

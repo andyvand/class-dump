@@ -4,5 +4,5 @@
 
 class IONetworkInterface {
 public: // (access info unavailable from symbols alone)
-    signalOutputThread(unsigned int);
+    auto signalOutputThread(unsigned int);
 };

@@ -4,14 +4,14 @@
 
 class UDFExtent {
 public: // (access info unavailable from symbols alone)
-    FreeData(UDFAllocZone*);
-    GetPartialExt(long long, unsigned int, unsigned int, UDFAllocZone*, bool);
-    IsBefore(UDFExtent*);
-    IsOverlapWith(UDFExtent*);
-    IsRightBefore(UDFExtent*);
-    MakeEmptyExt(unsigned int, unsigned int, UDFAllocZone*, UDFBlockType);
-    RemoveLeadingBlks(unsigned int, UDFAllocZone*, bool);
     UDFExtent();
     UDFExtent(long long, unsigned int, UDFBlockType, unsigned char*, unsigned int, UDFAllocZone*);
+    auto FreeData(UDFAllocZone*);
+    auto GetPartialExt(long long, unsigned int, unsigned int, UDFAllocZone*, bool);
+    auto IsBefore(UDFExtent*);
+    auto IsOverlapWith(UDFExtent*);
+    auto IsRightBefore(UDFExtent*);
+    auto MakeEmptyExt(unsigned int, unsigned int, UDFAllocZone*, UDFBlockType);
+    auto RemoveLeadingBlks(unsigned int, UDFAllocZone*, bool);
     ~UDFExtent();
 };

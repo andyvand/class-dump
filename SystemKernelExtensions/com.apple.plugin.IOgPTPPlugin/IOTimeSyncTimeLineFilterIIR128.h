@@ -4,5 +4,5 @@
 
 class IOTimeSyncTimeLineFilterIIR128 {
 public: // (access info unavailable from symbols alone)
-    changeFilterToNewCoefficient(unsigned short);
+    auto changeFilterToNewCoefficient(unsigned short);
 };

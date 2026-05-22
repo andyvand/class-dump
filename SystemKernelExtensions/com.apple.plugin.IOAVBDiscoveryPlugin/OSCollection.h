@@ -4,5 +4,5 @@
 
 class OSCollection {
 public: // (access info unavailable from symbols alone)
-    iterateObjects(bool (OSObject*) block_pointer);
+    auto iterateObjects(bool (OSObject*) block_pointer);
 };

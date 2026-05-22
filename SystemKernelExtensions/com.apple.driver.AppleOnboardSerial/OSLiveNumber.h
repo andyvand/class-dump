@@ -6,9 +6,11 @@ class OSLiveNumber {
 public: // (access info unavailable from symbols alone)
     OSLiveNumber();
     OSLiveNumber(OSMetaClass const*);
-    getMetaClass() const;
-    init(unsigned int volatile*);
-    serialize(OSSerialize*) const;
-    withNumberNoCopy(unsigned int volatile*);
+    auto getMetaClass() const;
+    auto init(unsigned int volatile*);
+    auto serialize(OSSerialize*) const;
+    auto withNumberNoCopy(unsigned int volatile*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSLiveNumber();
 };

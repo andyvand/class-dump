@@ -5,5 +5,5 @@
 class OSMetaClassMeta {
 public: // (access info unavailable from symbols alone)
     OSMetaClassMeta();
-    alloc() const;
+    auto alloc() const;
 };

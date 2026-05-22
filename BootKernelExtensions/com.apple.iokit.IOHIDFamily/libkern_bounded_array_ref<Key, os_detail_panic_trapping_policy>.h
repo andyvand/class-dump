@@ -4,7 +4,7 @@
 
 class libkern::bounded_array_ref<Key, os_detail::panic_trapping_policy> {
 public: // (access info unavailable from symbols alone)
-    end() const;
-    end() const (.cold.1);
-    end() const (.cold.2);
+    auto end() const;
+    auto end() const (.cold.1);
+    auto end() const (.cold.2);
 };

@@ -5,8 +5,8 @@
 class AppleBCMWLANSkywalkTxSubmissionQueue {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANSkywalkTxSubmissionQueue(OSMetaClass const*);
-    getInterface();
-    initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, apple80211_wme_ac, unsigned int, CCLogStream*, CCFaultReporter*, IO80211WorkQueue*);
-    setInterface(IO80211SkywalkInterface*);
+    auto getInterface();
+    auto initWithPoolAndQueueInfo(OSObject*, AppleBCMWLANSkywalkPacketPool*, unsigned short, unsigned int, apple80211_wme_ac, unsigned int, CCLogStream*, CCFaultReporter*, IO80211WorkQueue*);
+    auto setInterface(IO80211SkywalkInterface*);
     ~AppleBCMWLANSkywalkTxSubmissionQueue();
 };

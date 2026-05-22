@@ -4,12 +4,12 @@
 
 class AppleBCMWLANCallbackEventSource {
 public: // (access info unavailable from symbols alone)
-    checkForWork();
-    free();
-    free()::kalloc_type_view_85;
-    getMetaClass() const;
-    initWithCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*))::kalloc_type_view_67;
-    signalCallbackNeeded();
-    withCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*));
+    auto checkForWork();
+    auto free();
+    auto free()::kalloc_type_view_85;
+    auto getMetaClass() const;
+    auto initWithCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*))::kalloc_type_view_67;
+    auto signalCallbackNeeded();
+    auto withCallbacks(OSObject*, bool (*)(OSObject*, IO80211WorkSource*));
     ~AppleBCMWLANCallbackEventSource();
 };

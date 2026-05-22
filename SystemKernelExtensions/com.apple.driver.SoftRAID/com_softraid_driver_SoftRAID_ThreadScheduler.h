@@ -4,16 +4,18 @@
 
 class com_softraid_driver_SoftRAID_ThreadScheduler {
 public: // (access info unavailable from symbols alone)
-    NumberThreadsRunning();
-    RunInstructionOnThread(int);
-    RunOnThread(RAID_InstructionRec*);
-    StopThreads();
+    auto NumberThreadsRunning();
+    auto RunInstructionOnThread(int);
+    auto RunOnThread(RAID_InstructionRec*);
+    auto StopThreads();
+    auto free();
+    auto free()::kalloc_type_view_87;
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_50;
     com_softraid_driver_SoftRAID_ThreadScheduler();
     com_softraid_driver_SoftRAID_ThreadScheduler(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_87;
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_50;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_ThreadScheduler();
 };

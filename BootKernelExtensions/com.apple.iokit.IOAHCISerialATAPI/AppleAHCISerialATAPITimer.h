@@ -6,9 +6,11 @@ class AppleAHCISerialATAPITimer {
 public: // (access info unavailable from symbols alone)
     AppleAHCISerialATAPITimer();
     AppleAHCISerialATAPITimer(OSMetaClass const*);
-    CreateTimerEventSource(OSObject*, void (*)(OSObject*, IOTimerEventSource*));
-    StartTimeout(unsigned int);
-    StopTimeout();
-    getMetaClass() const;
+    auto CreateTimerEventSource(OSObject*, void (*)(OSObject*, IOTimerEventSource*));
+    auto StartTimeout(unsigned int);
+    auto StopTimeout();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleAHCISerialATAPITimer();
 };

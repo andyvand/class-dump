@@ -6,8 +6,10 @@ class IGHardwareRingBufferBlit {
 public: // (access info unavailable from symbols alone)
     IGHardwareRingBufferBlit();
     IGHardwareRingBufferBlit(OSMetaClass const*);
-    getMetaClass() const;
-    init(IGHardwareContext*);
-    waitForSemaphore(unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto init(IGHardwareContext*);
+    auto waitForSemaphore(unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHardwareRingBufferBlit();
 };

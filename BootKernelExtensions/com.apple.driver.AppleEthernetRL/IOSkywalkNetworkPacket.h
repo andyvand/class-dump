@@ -4,7 +4,7 @@
 
 class IOSkywalkNetworkPacket {
 public: // (access info unavailable from symbols alone)
-    getVlanTag(unsigned short*) const;
-    setLinkHeaderLength(unsigned char);
-    setVlanTag(unsigned short);
+    auto getVlanTag(unsigned short*) const;
+    auto setLinkHeaderLength(unsigned char);
+    auto setVlanTag(unsigned short);
 };

@@ -6,14 +6,10 @@
 
 AppleLMUClient::gMetaClass;
 AppleLMUClient::metaClass;
-AppleLMUClient::operator delete(void*, unsigned long);
-AppleLMUClient::operator new(unsigned long);
 AppleLMUClient::superClass;
 AppleLMUClient_ktv;
 AppleLMUController::gMetaClass;
 AppleLMUController::metaClass;
-AppleLMUController::operator delete(void*, unsigned long);
-AppleLMUController::operator new(unsigned long);
 AppleLMUController::superClass;
 AppleLMUController_ktv;
 AppleSMCFamily::metaClass;

@@ -5,19 +5,21 @@
 class IOGPUObject {
 public: // (access info unavailable from symbols alone)
     IOGPUObject(OSMetaClass const*);
-    _retainOverflow() const;
-    finalize();
-    getMetaClass() const;
-    getRetainCount() const;
-    init();
-    release() const;
-    release(int) const;
-    release(int) const (.cold.1);
-    retain() const;
-    taggedRelease(void const*) const;
-    taggedRelease(void const*, int) const;
-    taggedRelease(void const*, int) const (.cold.1);
-    taggedRetain(void const*) const;
-    tryRetain() const;
+    auto _retainOverflow() const;
+    auto finalize();
+    auto getMetaClass() const;
+    auto getRetainCount() const;
+    auto init();
+    auto release() const;
+    auto release(int) const;
+    auto release(int) const (.cold.1);
+    auto retain() const;
+    auto taggedRelease(void const*) const;
+    auto taggedRelease(void const*, int) const;
+    auto taggedRelease(void const*, int) const (.cold.1);
+    auto taggedRetain(void const*) const;
+    auto tryRetain() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUObject();
 };

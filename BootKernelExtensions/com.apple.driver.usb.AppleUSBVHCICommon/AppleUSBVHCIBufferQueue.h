@@ -5,10 +5,12 @@
 class AppleUSBVHCIBufferQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIBufferQueue(OSMetaClass const*);
-    close();
-    free();
-    getMetaClass() const;
-    init();
-    registerCompletionAction(void (*)(OSObject*, void*), OSObject*, void*);
+    auto close();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto registerCompletionAction(void (*)(OSObject*, void*), OSObject*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBVHCIBufferQueue();
 };

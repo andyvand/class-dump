@@ -5,16 +5,16 @@
 class IORangeAllocator {
 public: // (access info unavailable from symbols alone)
     IORangeAllocator(OSMetaClass const*);
-    allocElement(unsigned int);
-    allocate(unsigned long long, unsigned long long*, unsigned long long);
-    allocateRange(unsigned long long, unsigned long long);
-    deallocElement(unsigned int);
-    deallocate(unsigned long long, unsigned long long);
-    getFragmentCapacity();
-    getFragmentCount();
-    getFreeCount();
-    init(unsigned long long, unsigned long long, unsigned int, unsigned int);
-    serialize(OSSerialize*) const;
-    setFragmentCapacityIncrement(unsigned int);
+    auto allocElement(unsigned int);
+    auto allocate(unsigned long long, unsigned long long*, unsigned long long);
+    auto allocateRange(unsigned long long, unsigned long long);
+    auto deallocElement(unsigned int);
+    auto deallocate(unsigned long long, unsigned long long);
+    auto getFragmentCapacity();
+    auto getFragmentCount();
+    auto getFreeCount();
+    auto init(unsigned long long, unsigned long long, unsigned int, unsigned int);
+    auto serialize(OSSerialize*) const;
+    auto setFragmentCapacityIncrement(unsigned int);
     ~IORangeAllocator();
 };

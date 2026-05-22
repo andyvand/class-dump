@@ -6,14 +6,16 @@ class IGCanonicalRangeAllocator {
 public: // (access info unavailable from symbols alone)
     IGCanonicalRangeAllocator();
     IGCanonicalRangeAllocator(OSMetaClass const*);
-    allocate(unsigned long long, unsigned long long*, unsigned long long);
-    allocateRange(IGAddressRange);
-    allocateRange(unsigned long long, unsigned long long);
-    deallocate(unsigned long long, unsigned long long);
-    free();
-    getMetaClass() const;
-    initWithRange(IGAddressRange, unsigned long long, unsigned char);
-    isCanonical(unsigned long long);
-    withRange(IGAddressRange, unsigned long long, unsigned char);
+    auto allocate(unsigned long long, unsigned long long*, unsigned long long);
+    auto allocateRange(IGAddressRange);
+    auto allocateRange(unsigned long long, unsigned long long);
+    auto deallocate(unsigned long long, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithRange(IGAddressRange, unsigned long long, unsigned char);
+    auto isCanonical(unsigned long long);
+    auto withRange(IGAddressRange, unsigned long long, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGCanonicalRangeAllocator();
 };

@@ -4,25 +4,27 @@
 
 class com_softraid_driver_SoftRAID_DaemonEventHandler {
 public: // (access info unavailable from symbols alone)
-    CheckForBetaTimeout();
-    CheckForIdenticalEvent(DriverEventCode, com_softraid_driver_SoftRAID_Disk*, com_softraid_driver_SoftRAID_Volume*);
-    ClearErrorHistoryForDisk(com_softraid_driver_SoftRAID_Disk*);
-    DelayedAgentEventAvailable();
-    FindDiskErrorReportingRec(com_softraid_driver_SoftRAID_Disk*, unsigned int*);
-    QueueEvent(DriverEventCode, com_softraid_driver_SoftRAID_Disk*, com_softraid_driver_SoftRAID_Volume*, unsigned int, unsigned long long, unsigned long long, unsigned long long, StatusDisplayState);
-    RemoveAllDispayStatusStateEvents();
-    RemoveIgnoredEvents();
-    RemoveNextEventRecFromQueue(bool, DriverEventRec*);
-    ReportThisDiskError(DriverEventCode*, com_softraid_driver_SoftRAID_Disk*);
-    ReportThisDiskError(DriverEventCode*, com_softraid_driver_SoftRAID_Disk*)::kalloc_type_view_725;
-    ReportThisDiskError(DriverEventCode*, com_softraid_driver_SoftRAID_Disk*)::kalloc_type_view_738;
-    SetGMTDeltaSeconds(int);
-    SuppressErrorsForDisk(com_softraid_driver_SoftRAID_Disk*);
-    WriteStringToDebugLog(char*, ...);
+    auto CheckForBetaTimeout();
+    auto CheckForIdenticalEvent(DriverEventCode, com_softraid_driver_SoftRAID_Disk*, com_softraid_driver_SoftRAID_Volume*);
+    auto ClearErrorHistoryForDisk(com_softraid_driver_SoftRAID_Disk*);
+    auto DelayedAgentEventAvailable();
+    auto FindDiskErrorReportingRec(com_softraid_driver_SoftRAID_Disk*, unsigned int*);
+    auto QueueEvent(DriverEventCode, com_softraid_driver_SoftRAID_Disk*, com_softraid_driver_SoftRAID_Volume*, unsigned int, unsigned long long, unsigned long long, unsigned long long, StatusDisplayState);
+    auto RemoveAllDispayStatusStateEvents();
+    auto RemoveIgnoredEvents();
+    auto RemoveNextEventRecFromQueue(bool, DriverEventRec*);
+    auto ReportThisDiskError(DriverEventCode*, com_softraid_driver_SoftRAID_Disk*);
+    auto ReportThisDiskError(DriverEventCode*, com_softraid_driver_SoftRAID_Disk*)::kalloc_type_view_725;
+    auto ReportThisDiskError(DriverEventCode*, com_softraid_driver_SoftRAID_Disk*)::kalloc_type_view_738;
+    auto SetGMTDeltaSeconds(int);
+    auto SuppressErrorsForDisk(com_softraid_driver_SoftRAID_Disk*);
+    auto WriteStringToDebugLog(char*, ...);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_DaemonEventHandler();
     com_softraid_driver_SoftRAID_DaemonEventHandler(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_DaemonEventHandler();
 };

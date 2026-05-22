@@ -5,16 +5,18 @@
 class BaffinMcilInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinMcilInterrupt(OSMetaClass const*);
-    deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
-    delayedInterruptHandler(OSObject*, IOTimerEventSource*);
-    getMCILContext();
-    getMCILHandler();
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
-    initializeGpio(unsigned char);
-    registerMCILHandler(void (*)(void*, void*), void*);
-    setGpioPolarity(unsigned char);
-    unregisterMCILHandler();
+    auto deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
+    auto delayedInterruptHandler(OSObject*, IOTimerEventSource*);
+    auto getMCILContext();
+    auto getMCILHandler();
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initializeGpio(unsigned char);
+    auto registerMCILHandler(void (*)(void*, void*), void*);
+    auto setGpioPolarity(unsigned char);
+    auto unregisterMCILHandler();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinMcilInterrupt();
 };

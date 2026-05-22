@@ -6,10 +6,12 @@ class IOBufferCopyEngineUserClientBuffer {
 public: // (access info unavailable from symbols alone)
     IOBufferCopyEngineUserClientBuffer();
     IOBufferCopyEngineUserClientBuffer(OSMetaClass const*);
-    enqueueBuffer(IOBufferCopySubmissionQueue*);
-    free();
-    getMetaClass() const;
-    initWithOptions(unsigned long long, unsigned long long, unsigned long long, task*);
-    withOptions(unsigned long long, unsigned long long, unsigned long long, task*);
+    auto enqueueBuffer(IOBufferCopySubmissionQueue*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithOptions(unsigned long long, unsigned long long, unsigned long long, task*);
+    auto withOptions(unsigned long long, unsigned long long, unsigned long long, task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOBufferCopyEngineUserClientBuffer();
 };

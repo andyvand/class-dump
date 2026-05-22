@@ -4,7 +4,7 @@
 
 class AppleIntelMCE::Bank_Romley_IMC {
 public: // (access info unavailable from symbols alone)
-    dimmLocationForErrorSource(unsigned char, unsigned long long, bool);
-    parseMSCErrorValue(unsigned short, OSString*&);
+    auto dimmLocationForErrorSource(unsigned char, unsigned long long, bool);
+    auto parseMSCErrorValue(unsigned short, OSString*&);
     ~Bank_Romley_IMC();
 };

@@ -5,5 +5,5 @@
 class IOAccelTaskList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelTaskList&);
-    getNextTask();
+    auto getNextTask();
 };

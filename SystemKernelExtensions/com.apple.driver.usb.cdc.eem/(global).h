@@ -6,15 +6,13 @@
 
 AppleUSBEEMData::gMetaClass;
 AppleUSBEEMData::metaClass;
-AppleUSBEEMData::operator delete(void*, unsigned long);
-AppleUSBEEMData::operator new(unsigned long);
 AppleUSBEEMData::superClass;
 AppleUSBEEMData_ktv;
 IOEthernetController::gMetaClass;
 IOUSBHostInterface::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
-findMatchingEndpoint(unsigned char, unsigned char, StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
+auto findMatchingEndpoint(unsigned char, unsigned char, StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
 mediumTable;
 vtable for AppleUSBEEMData;
 vtable for AppleUSBEEMData::MetaClass;

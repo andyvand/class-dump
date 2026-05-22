@@ -6,8 +6,10 @@ class WCLBSSBeacon {
 public: // (access info unavailable from symbols alone)
     WCLBSSBeacon();
     WCLBSSBeacon(OSMetaClass const*);
-    fromBeaconData(BeaconMetaData&, unsigned char*, CCLogStream*, CommonFaultReporter*, apple80211_capability_data&);
-    getMetaClass() const;
-    initWithChanSpec(CCLogStream*, CommonFaultReporter*, apple80211_capability_data&);
+    auto fromBeaconData(BeaconMetaData&, unsigned char*, CCLogStream*, CommonFaultReporter*, apple80211_capability_data&);
+    auto getMetaClass() const;
+    auto initWithChanSpec(CCLogStream*, CommonFaultReporter*, apple80211_capability_data&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~WCLBSSBeacon();
 };

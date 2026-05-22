@@ -5,13 +5,13 @@
 class AtiAsicInfo {
 public: // (access info unavailable from symbols alone)
     AtiAsicInfo(OSMetaClass const*);
-    free();
-    getAtiRevisionNum() const;
-    getDeviceId() const;
-    getEmulatedRevisionNum() const;
-    getFbLocationBase() const;
-    getFramebufferMemorySizeInBytes() const;
-    getPropertiesForUserClient() const;
-    initWithController(ATIController*);
+    auto free();
+    auto getAtiRevisionNum() const;
+    auto getDeviceId() const;
+    auto getEmulatedRevisionNum() const;
+    auto getFbLocationBase() const;
+    auto getFramebufferMemorySizeInBytes() const;
+    auto getPropertiesForUserClient() const;
+    auto initWithController(ATIController*);
     ~AtiAsicInfo();
 };

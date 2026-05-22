@@ -4,26 +4,26 @@
 
 class AppleBCMWLANPowerStateAdapter {
 public: // (access info unavailable from symbols alone)
-    configureBeaconFRTS(unsigned int);
-    configureBeaconSOI(sleepOnInactivityConfig&);
-    configureDFRTSLogicAnd(sleepOnDataInactivityConfig&);
-    configureDataSOI(sleepOnDataInactivityConfig&);
-    configureDefaultListenInterval();
-    configureExcessPMAlert(powerMgmtMonitoringConfig&);
-    configureExtendedListenInterval(unsigned int, unsigned int, unsigned int);
-    configureMulticastBroadcastWaitPeriod(unsigned int, unsigned int);
-    configureRoamScanForAssociatedSleep(roamScanQuotaConfig&, bool);
-    configureRoamScanQuota(unsigned int);
-    disableDFRTS();
-    disableDFRTSAndSetFRTS(unsigned int);
-    free();
-    free()::kalloc_type_view_104;
-    getMetaClass() const;
-    handleDFRTSConfigAsyncCallBack(CommandID&, int, CommandRxPayload&, void*);
-    handleMulticastBroadcastWaitPeriodConfigAsyncCallBack(CommandID&, int, CommandRxPayload&, void*);
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_77;
-    setExcessPMAlertParams(unsigned int, unsigned int);
-    unconfigureRoamScanQuota();
-    withDriver(AppleBCMWLANCore*);
+    auto configureBeaconFRTS(unsigned int);
+    auto configureBeaconSOI(sleepOnInactivityConfig&);
+    auto configureDFRTSLogicAnd(sleepOnDataInactivityConfig&);
+    auto configureDataSOI(sleepOnDataInactivityConfig&);
+    auto configureDefaultListenInterval();
+    auto configureExcessPMAlert(powerMgmtMonitoringConfig&);
+    auto configureExtendedListenInterval(unsigned int, unsigned int, unsigned int);
+    auto configureMulticastBroadcastWaitPeriod(unsigned int, unsigned int);
+    auto configureRoamScanForAssociatedSleep(roamScanQuotaConfig&, bool);
+    auto configureRoamScanQuota(unsigned int);
+    auto disableDFRTS();
+    auto disableDFRTSAndSetFRTS(unsigned int);
+    auto free();
+    auto free()::kalloc_type_view_104;
+    auto getMetaClass() const;
+    auto handleDFRTSConfigAsyncCallBack(CommandID&, int, CommandRxPayload&, void*);
+    auto handleMulticastBroadcastWaitPeriodConfigAsyncCallBack(CommandID&, int, CommandRxPayload&, void*);
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_77;
+    auto setExcessPMAlertParams(unsigned int, unsigned int);
+    auto unconfigureRoamScanQuota();
+    auto withDriver(AppleBCMWLANCore*);
     ~AppleBCMWLANPowerStateAdapter();
 };

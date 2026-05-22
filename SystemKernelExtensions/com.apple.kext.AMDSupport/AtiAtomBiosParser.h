@@ -4,5 +4,5 @@
 
 class AtiAtomBiosParser {
 public: // (access info unavailable from symbols alone)
-    createAtomBiosParser(BiosParserServices*, unsigned char*);
+    auto createAtomBiosParser(BiosParserServices*, unsigned char*);
 };

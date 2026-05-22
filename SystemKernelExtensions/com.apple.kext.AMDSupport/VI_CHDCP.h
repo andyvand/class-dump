@@ -6,6 +6,6 @@ class VI_CHDCP {
 public: // (access info unavailable from symbols alone)
     VI_CHDCP();
     VI_CHDCP(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
     ~VI_CHDCP();
 };

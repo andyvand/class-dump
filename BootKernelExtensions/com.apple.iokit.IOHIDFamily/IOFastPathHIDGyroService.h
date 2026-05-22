@@ -6,12 +6,14 @@ class IOFastPathHIDGyroService {
 public: // (access info unavailable from symbols alone)
     IOFastPathHIDGyroService();
     IOFastPathHIDGyroService(OSMetaClass const*);
-    createDescriptor();
-    getMetaClass() const;
-    handleEvent(IOHIDEventService*, void*, IOHIDEvent*, unsigned int);
-    handleGyroEvent(IOHIDEvent*);
-    handleGyroEvent(IOHIDEvent*)::_os_log_fmt;
-    isProducer() const;
-    start(IOService*);
+    auto createDescriptor();
+    auto getMetaClass() const;
+    auto handleEvent(IOHIDEventService*, void*, IOHIDEvent*, unsigned int);
+    auto handleGyroEvent(IOHIDEvent*);
+    auto handleGyroEvent(IOHIDEvent*)::_os_log_fmt;
+    auto isProducer() const;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFastPathHIDGyroService();
 };

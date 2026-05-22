@@ -6,13 +6,15 @@ class IOPMPowerSourceList {
 public: // (access info unavailable from symbols alone)
     IOPMPowerSourceList();
     IOPMPowerSourceList(OSMetaClass const*);
-    addToList(IOPMPowerSource*);
-    firstInList();
-    free();
-    getMetaClass() const;
-    initialize();
-    nextInList(IOPMPowerSource*);
-    numberOfItems();
-    removeFromList(IOPMPowerSource*);
+    auto addToList(IOPMPowerSource*);
+    auto firstInList();
+    auto free();
+    auto getMetaClass() const;
+    auto initialize();
+    auto nextInList(IOPMPowerSource*);
+    auto numberOfItems();
+    auto removeFromList(IOPMPowerSource*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPMPowerSourceList();
 };

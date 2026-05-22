@@ -4,5 +4,5 @@
 
 class IONetworkInterface {
 public: // (access info unavailable from symbols alone)
-    dequeueOutputPacketsWithMaxSize(unsigned int, __mbuf**, __mbuf**, unsigned int*, unsigned long long*);
+    auto dequeueOutputPacketsWithMaxSize(unsigned int, __mbuf**, __mbuf**, unsigned int*, unsigned long long*);
 };

@@ -6,15 +6,17 @@ class IODataQueue {
 public: // (access info unavailable from symbols alone)
     IODataQueue();
     IODataQueue(OSMetaClass const*);
-    enqueue(void*, unsigned int);
-    free();
-    getMemoryDescriptor();
-    getMetaClass() const;
-    initWithCapacity(unsigned int);
-    initWithEntries(unsigned int, unsigned int);
-    sendDataAvailableNotification();
-    setNotificationPort(ipc_port*);
-    withCapacity(unsigned int);
-    withEntries(unsigned int, unsigned int);
+    auto enqueue(void*, unsigned int);
+    auto free();
+    auto getMemoryDescriptor();
+    auto getMetaClass() const;
+    auto initWithCapacity(unsigned int);
+    auto initWithEntries(unsigned int, unsigned int);
+    auto sendDataAvailableNotification();
+    auto setNotificationPort(ipc_port*);
+    auto withCapacity(unsigned int);
+    auto withEntries(unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODataQueue();
 };

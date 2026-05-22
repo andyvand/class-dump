@@ -5,11 +5,11 @@
 class AppleUSBRequestPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBRequestPool(OSMetaClass const*);
-    gatedReturnCommand(IOCommand*);
-    gatedStop();
-    getCommand(bool);
-    initWithWorkLoop(IOWorkLoop*);
-    returnCommand(IOCommand*);
-    stop();
+    auto gatedReturnCommand(IOCommand*);
+    auto gatedStop();
+    auto getCommand(bool);
+    auto initWithWorkLoop(IOWorkLoop*);
+    auto returnCommand(IOCommand*);
+    auto stop();
     ~AppleUSBRequestPool();
 };

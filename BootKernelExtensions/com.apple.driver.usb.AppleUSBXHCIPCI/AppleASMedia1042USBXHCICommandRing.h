@@ -6,8 +6,10 @@ class AppleASMedia1042USBXHCICommandRing {
 public: // (access info unavailable from symbols alone)
     AppleASMedia1042USBXHCICommandRing();
     AppleASMedia1042USBXHCICommandRing(OSMetaClass const*);
-    getMetaClass() const;
-    resetEndpoint(unsigned int, unsigned int, bool);
-    withParameters(AppleUSBXHCI*, AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    auto getMetaClass() const;
+    auto resetEndpoint(unsigned int, unsigned int, bool);
+    auto withParameters(AppleUSBXHCI*, AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleASMedia1042USBXHCICommandRing();
 };

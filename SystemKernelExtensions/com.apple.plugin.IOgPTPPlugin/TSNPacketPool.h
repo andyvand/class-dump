@@ -4,6 +4,6 @@
 
 class TSNPacketPool {
 public: // (access info unavailable from symbols alone)
-    logStatistics(char const*, char const*);
-    nextAvailablePacket();
+    auto logStatistics(char const*, char const*);
+    auto nextAvailablePacket();
 };

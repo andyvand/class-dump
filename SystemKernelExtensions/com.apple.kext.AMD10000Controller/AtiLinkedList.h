@@ -4,6 +4,6 @@
 
 class AtiLinkedList {
 public: // (access info unavailable from symbols alone)
-    createList();
-    getIterator();
+    auto createList();
+    auto getIterator();
 };

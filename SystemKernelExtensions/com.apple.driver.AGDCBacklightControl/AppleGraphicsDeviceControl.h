@@ -4,6 +4,6 @@
 
 class AppleGraphicsDeviceControl {
 public: // (access info unavailable from symbols alone)
-    doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*);
-    setDeviceAttribute(unsigned int, unsigned long*, unsigned long);
+    auto doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*);
+    auto setDeviceAttribute(unsigned int, unsigned long*, unsigned long);
 };

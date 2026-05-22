@@ -9,4 +9,4 @@ OSArray::metaClass;
 OSData::metaClass;
 OSDictionary::metaClass;
 OSString::metaClass;
-iokit_entry_for_bsddev_slow(int, char const*);
+auto iokit_entry_for_bsddev_slow(int, char const*);

@@ -6,19 +6,15 @@
 
 EXDisplayPipe::gMetaClass;
 EXDisplayPipe::metaClass;
-EXDisplayPipe::operator delete(void*, unsigned long);
-EXDisplayPipe::operator new(unsigned long);
 EXDisplayPipe::superClass;
 EXDisplayPipeUserClient::gMetaClass;
 EXDisplayPipeUserClient::metaClass;
-EXDisplayPipeUserClient::operator delete(void*, unsigned long);
-EXDisplayPipeUserClient::operator new(unsigned long);
 EXDisplayPipeUserClient::superClass;
 EXDisplayPipeUserClient_ktv;
 EXDisplayPipe_ktv;
 IOService::gMetaClass;
 IOUserClient::gMetaClass;
-addTelemetryCounter(OSDictionary*, char const*, unsigned long long, bool*);
+auto addTelemetryCounter(OSDictionary*, char const*, unsigned long long, bool*);
 gIODARTFunctionSetActive;
 interrupt_index_array;
 m_exclave_eventsource;

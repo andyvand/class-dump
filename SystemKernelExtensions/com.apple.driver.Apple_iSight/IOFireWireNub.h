@@ -4,6 +4,6 @@
 
 class IOFireWireNub {
 public: // (access info unavailable from symbols alone)
-    getBus() const;
-    getNodeIDGeneration(unsigned int&, unsigned short&, unsigned short&) const;
+    auto getBus() const;
+    auto getNodeIDGeneration(unsigned int&, unsigned short&, unsigned short&) const;
 };

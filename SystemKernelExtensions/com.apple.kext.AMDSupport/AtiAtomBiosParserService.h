@@ -5,11 +5,11 @@
 class AtiAtomBiosParserService {
 public: // (access info unavailable from symbols alone)
     AtiAtomBiosParserService(BiosParserServices*, unsigned char*);
-    executeBiosCommandTable(unsigned int, void*, unsigned int);
-    getBiosCommandTableInformation(CmdTableInfo*);
-    getBiosCommandTableRevision(unsigned int, CmdTableRevision*);
-    getBiosImage() const;
-    stringifyBiosCommandTableIndex(unsigned short) const;
-    translateCdStatusToIOReturn(unsigned int) const;
+    auto executeBiosCommandTable(unsigned int, void*, unsigned int);
+    auto getBiosCommandTableInformation(CmdTableInfo*);
+    auto getBiosCommandTableRevision(unsigned int, CmdTableRevision*);
+    auto getBiosImage() const;
+    auto stringifyBiosCommandTableIndex(unsigned short) const;
+    auto translateCdStatusToIOReturn(unsigned int) const;
     ~AtiAtomBiosParserService();
 };

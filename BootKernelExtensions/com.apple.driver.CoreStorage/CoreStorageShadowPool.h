@@ -6,14 +6,16 @@ class CoreStorageShadowPool {
 public: // (access info unavailable from symbols alone)
     CoreStorageShadowPool();
     CoreStorageShadowPool(OSMetaClass const*);
-    createPool();
-    free();
-    getBuffer(CoreStorageGroup*, unsigned int, bool);
-    getMetaClass() const;
-    increaseBuffers(CoreStorageGroup*);
-    lock();
-    releaseBuffers(CoreStorageGroup*);
-    returnBuffer(CoreStorageGroup*, CoreStorageShadowDescriptor*);
-    unlock();
+    auto createPool();
+    auto free();
+    auto getBuffer(CoreStorageGroup*, unsigned int, bool);
+    auto getMetaClass() const;
+    auto increaseBuffers(CoreStorageGroup*);
+    auto lock();
+    auto releaseBuffers(CoreStorageGroup*);
+    auto returnBuffer(CoreStorageGroup*, CoreStorageShadowDescriptor*);
+    auto unlock();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~CoreStorageShadowPool();
 };

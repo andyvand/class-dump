@@ -5,6 +5,6 @@
 class IOGPUResidentMemorySet::LRUIterator {
 public: // (access info unavailable from symbols alone)
     LRUIterator(IOGPUResidentMemorySet&);
-    getNextMemory();
+    auto getNextMemory();
     ~LRUIterator();
 };

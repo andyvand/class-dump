@@ -5,15 +5,15 @@
 class CoreStorageGlobals {
 public: // (access info unavailable from symbols alone)
     CoreStorageGlobals();
-    getController();
-    getCryptoDaemon();
-    getKeyStore();
-    getShadowPool();
-    getSystemPowerState();
-    lock();
-    performCoreStorageInit();
-    releaseController();
-    releaseGlobalObjects();
-    setSystemPowerState(unsigned int);
-    unlock();
+    auto getController();
+    auto getCryptoDaemon();
+    auto getKeyStore();
+    auto getShadowPool();
+    auto getSystemPowerState();
+    auto lock();
+    auto performCoreStorageInit();
+    auto releaseController();
+    auto releaseGlobalObjects();
+    auto setSystemPowerState(unsigned int);
+    auto unlock();
 };

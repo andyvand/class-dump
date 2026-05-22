@@ -4,12 +4,12 @@
 
 class AtiHdcpProxy {
 public: // (access info unavailable from symbols alone)
-    getHDCPStatusFlags();
-    getInfo();
-    getKSV(unsigned int*);
-    hdcpRestore();
-    isHdcpFailed();
-    isRestoreAllowed();
-    notify(unsigned int, void*);
-    setRestore(bool);
+    auto getHDCPStatusFlags();
+    auto getInfo();
+    auto getKSV(unsigned int*);
+    auto hdcpRestore();
+    auto isHdcpFailed();
+    auto isRestoreAllowed();
+    auto notify(unsigned int, void*);
+    auto setRestore(bool);
 };

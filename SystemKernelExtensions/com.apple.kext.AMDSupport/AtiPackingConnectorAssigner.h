@@ -6,12 +6,14 @@ class AtiPackingConnectorAssigner {
 public: // (access info unavailable from symbols alone)
     AtiPackingConnectorAssigner();
     AtiPackingConnectorAssigner(OSMetaClass const*);
-    doConnectorAssignment();
-    getInternalConnector();
-    getMetaClass() const;
-    getNextActiveConnector(ATIConnector*);
-    getNextAvailableConnector(ATIConnector*);
-    isConnectorActive(ATIConnector*);
-    isConnectorAvailable(ATIConnector*);
+    auto doConnectorAssignment();
+    auto getInternalConnector();
+    auto getMetaClass() const;
+    auto getNextActiveConnector(ATIConnector*);
+    auto getNextAvailableConnector(ATIConnector*);
+    auto isConnectorActive(ATIConnector*);
+    auto isConnectorAvailable(ATIConnector*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPackingConnectorAssigner();
 };

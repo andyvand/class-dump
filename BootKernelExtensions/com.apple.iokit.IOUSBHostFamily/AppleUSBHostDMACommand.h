@@ -6,15 +6,17 @@ class AppleUSBHostDMACommand {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostDMACommand();
     AppleUSBHostDMACommand(OSMetaClass const*);
-    clearMemoryDescriptor(bool);
-    complete(bool, bool);
-    getMemoryDescriptor() const;
-    getMetaClass() const;
-    initWithSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
-    prepare(unsigned long long, unsigned long long, bool, bool);
-    setMemoryDescriptor(IOMemoryDescriptor const*, bool);
-    setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long);
-    setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long, AppleUSBHostRequest*);
-    withSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
+    auto clearMemoryDescriptor(bool);
+    auto complete(bool, bool);
+    auto getMemoryDescriptor() const;
+    auto getMetaClass() const;
+    auto initWithSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
+    auto prepare(unsigned long long, unsigned long long, bool, bool);
+    auto setMemoryDescriptor(IOMemoryDescriptor const*, bool);
+    auto setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long);
+    auto setMemoryDescriptor(IOMemoryDescriptor const*, bool, unsigned int, unsigned long long, AppleUSBHostRequest*);
+    auto withSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostDMACommand();
 };

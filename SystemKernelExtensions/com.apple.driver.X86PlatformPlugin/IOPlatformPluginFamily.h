@@ -4,17 +4,17 @@
 
 class IOPlatformPluginFamily {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOPlatformPluginFamily0();
-    _RESERVEDIOPlatformPluginFamily1();
-    _RESERVEDIOPlatformPluginFamily10();
-    _RESERVEDIOPlatformPluginFamily11();
-    _RESERVEDIOPlatformPluginFamily12();
-    _RESERVEDIOPlatformPluginFamily2();
-    _RESERVEDIOPlatformPluginFamily3();
-    _RESERVEDIOPlatformPluginFamily4();
-    _RESERVEDIOPlatformPluginFamily5();
-    _RESERVEDIOPlatformPluginFamily6();
-    _RESERVEDIOPlatformPluginFamily7();
-    _RESERVEDIOPlatformPluginFamily8();
-    _RESERVEDIOPlatformPluginFamily9();
+    auto _RESERVEDIOPlatformPluginFamily0();
+    auto _RESERVEDIOPlatformPluginFamily1();
+    auto _RESERVEDIOPlatformPluginFamily10();
+    auto _RESERVEDIOPlatformPluginFamily11();
+    auto _RESERVEDIOPlatformPluginFamily12();
+    auto _RESERVEDIOPlatformPluginFamily2();
+    auto _RESERVEDIOPlatformPluginFamily3();
+    auto _RESERVEDIOPlatformPluginFamily4();
+    auto _RESERVEDIOPlatformPluginFamily5();
+    auto _RESERVEDIOPlatformPluginFamily6();
+    auto _RESERVEDIOPlatformPluginFamily7();
+    auto _RESERVEDIOPlatformPluginFamily8();
+    auto _RESERVEDIOPlatformPluginFamily9();
 };

@@ -4,6 +4,6 @@
 
 class AppleAudioClock::Utility {
 public: // (access info unavailable from symbols alone)
-    getSynchronousClockDomain(unsigned long long, unsigned long long);
-    getUSBAudioAlignment();
+    auto getSynchronousClockDomain(unsigned long long, unsigned long long);
+    auto getUSBAudioAlignment();
 };

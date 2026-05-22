@@ -6,15 +6,17 @@ class IOHIDAsyncReportQueue {
 public: // (access info unavailable from symbols alone)
     IOHIDAsyncReportQueue();
     IOHIDAsyncReportQueue(OSMetaClass const*);
-    checkForWork();
-    checkForWork() (.cold.1);
-    checkForWork()::kalloc_type_view_188;
-    getMetaClass() const;
-    init(IOHIDDevice*);
-    postReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int, unsigned int, IOHIDCompletion*);
-    postReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int, unsigned int, IOHIDCompletion*) (.cold.1);
-    postReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int, unsigned int, IOHIDCompletion*)::kalloc_type_view_211;
-    postReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int, unsigned int, IOHIDCompletion*)::kalloc_type_view_236;
-    withOwner(IOHIDDevice*);
+    auto checkForWork();
+    auto checkForWork() (.cold.1);
+    auto checkForWork()::kalloc_type_view_188;
+    auto getMetaClass() const;
+    auto init(IOHIDDevice*);
+    auto postReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int, unsigned int, IOHIDCompletion*);
+    auto postReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int, unsigned int, IOHIDCompletion*) (.cold.1);
+    auto postReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int, unsigned int, IOHIDCompletion*)::kalloc_type_view_211;
+    auto postReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int, unsigned int, IOHIDCompletion*)::kalloc_type_view_236;
+    auto withOwner(IOHIDDevice*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDAsyncReportQueue();
 };

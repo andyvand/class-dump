@@ -6,11 +6,13 @@ class IOSurfaceDescriptorComponent {
 public: // (access info unavailable from symbols alone)
     IOSurfaceDescriptorComponent();
     IOSurfaceDescriptorComponent(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(unsigned int, unsigned long long);
-    setOptions(unsigned int);
-    write_debug_info(OSDictionary*);
-    zeroFill();
+    auto free();
+    auto getMetaClass() const;
+    auto init(unsigned int, unsigned long long);
+    auto setOptions(unsigned int);
+    auto write_debug_info(OSDictionary*);
+    auto zeroFill();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSurfaceDescriptorComponent();
 };

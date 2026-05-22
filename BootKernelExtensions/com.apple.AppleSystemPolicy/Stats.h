@@ -4,6 +4,6 @@
 
 class Stats {
 public: // (access info unavailable from symbols alone)
-    initialize();
-    initializeSysctlInterface();
+    auto initialize();
+    auto initializeSysctlInterface();
 };

@@ -6,10 +6,12 @@ class AppleIntelPchSeriesAHCIPort {
 public: // (access info unavailable from symbols alone)
     AppleIntelPchSeriesAHCIPort();
     AppleIntelPchSeriesAHCIPort(OSMetaClass const*);
-    InitializePort();
-    InitializePort() (.cold.1);
-    TurnDrivePowerOff();
-    TurnDrivePowerOn();
-    getMetaClass() const;
+    auto InitializePort();
+    auto InitializePort() (.cold.1);
+    auto TurnDrivePowerOff();
+    auto TurnDrivePowerOn();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelPchSeriesAHCIPort();
 };

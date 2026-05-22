@@ -6,19 +6,17 @@
 
 AppleFIVRDriver::gMetaClass;
 AppleFIVRDriver::metaClass;
-AppleFIVRDriver::operator delete(void*, unsigned long);
-AppleFIVRDriver::operator new(unsigned long);
 AppleFIVRDriver::superClass;
 AppleFIVRDriver_ktv;
 IOService::gMetaClass;
 OSArray::metaClass;
 OSDictionary::metaClass;
 OSNumber::metaClass;
-getCpuid();
-getRfiTuningMsr(unsigned short*);
-msrToOffsetRatio(unsigned short);
-offsetRatioToMsr(float);
-setRfiTuningMsr(unsigned short, unsigned short, unsigned short);
+auto getCpuid();
+auto getRfiTuningMsr(unsigned short*);
+auto msrToOffsetRatio(unsigned short);
+auto offsetRatioToMsr(float);
+auto setRfiTuningMsr(unsigned short, unsigned short, unsigned short);
 vtable for AppleFIVRDriver;
 vtable for AppleFIVRDriver::MetaClass;
 vtable for IOService;

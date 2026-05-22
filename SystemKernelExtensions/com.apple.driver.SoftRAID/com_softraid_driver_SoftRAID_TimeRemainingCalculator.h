@@ -4,17 +4,19 @@
 
 class com_softraid_driver_SoftRAID_TimeRemainingCalculator {
 public: // (access info unavailable from symbols alone)
-    BytesTransfered(unsigned long long);
-    IncrementBucketIndex();
-    SecondsRemaining();
-    SecondsRemainingByBuckets();
-    SecondsRemainingByTrending();
-    Start(unsigned long long);
-    UpdateTrendingSamples();
+    auto BytesTransfered(unsigned long long);
+    auto IncrementBucketIndex();
+    auto SecondsRemaining();
+    auto SecondsRemainingByBuckets();
+    auto SecondsRemainingByTrending();
+    auto Start(unsigned long long);
+    auto UpdateTrendingSamples();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_TimeRemainingCalculator();
     com_softraid_driver_SoftRAID_TimeRemainingCalculator(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_TimeRemainingCalculator();
 };

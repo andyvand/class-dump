@@ -4,21 +4,21 @@
 
 class CCFaultReporter {
 public: // (access info unavailable from symbols alone)
-    clearAction();
-    dumpClientListAndHistory();
-    enableCollectDeferredFaultData(bool);
-    enableCollectImmediateFaultData(bool);
-    enableCoreCapture(bool);
-    getLastFaultErrorCode();
-    induceErrorCode(int, char const*);
-    isBusy();
-    panicForReason(int);
-    registerCallbacks(CCFaultReporter::register_callback_t*, unsigned int, OSObject*, char const*);
-    registerErrorDecoder(char const* (*)(OSObject*, int), OSObject*);
-    registerPanic(int (*)(OSObject*, CCFaultReport const*), OSObject*);
-    registerWatchdog(int (*)(OSObject*, CCFaultReport const*), OSObject*);
-    reportFault(unsigned int, char const*, unsigned int, char const*, OSDictionary*, int, char const*, ...);
-    setAction(unsigned int);
-    setEnable(bool);
-    unregisterCallbacks(OSObject*);
+    auto clearAction();
+    auto dumpClientListAndHistory();
+    auto enableCollectDeferredFaultData(bool);
+    auto enableCollectImmediateFaultData(bool);
+    auto enableCoreCapture(bool);
+    auto getLastFaultErrorCode();
+    auto induceErrorCode(int, char const*);
+    auto isBusy();
+    auto panicForReason(int);
+    auto registerCallbacks(CCFaultReporter::register_callback_t*, unsigned int, OSObject*, char const*);
+    auto registerErrorDecoder(char const* (*)(OSObject*, int), OSObject*);
+    auto registerPanic(int (*)(OSObject*, CCFaultReport const*), OSObject*);
+    auto registerWatchdog(int (*)(OSObject*, CCFaultReport const*), OSObject*);
+    auto reportFault(unsigned int, char const*, unsigned int, char const*, OSDictionary*, int, char const*, ...);
+    auto setAction(unsigned int);
+    auto setEnable(bool);
+    auto unregisterCallbacks(OSObject*);
 };

@@ -4,10 +4,10 @@
 
 class AtiScalerInterface {
 public: // (access info unavailable from symbols alone)
-    calculateDstWindow(Window const&, Window const&, unsigned int, unsigned int);
-    getTaps(ScalingTaps&);
-    isScalingRequired(ScalerData*, bool&, bool&);
-    programScalerFilterCoefficient(bool);
-    setupScaler(CRTC_PARAMS*);
-    validateScaler(CRTC_PARAMS*, AtiDetailedTimingInformation const*, Window const*, Window const*, ScalerParameters&, bool);
+    auto calculateDstWindow(Window const&, Window const&, unsigned int, unsigned int);
+    auto getTaps(ScalingTaps&);
+    auto isScalingRequired(ScalerData*, bool&, bool&);
+    auto programScalerFilterCoefficient(bool);
+    auto setupScaler(CRTC_PARAMS*);
+    auto validateScaler(CRTC_PARAMS*, AtiDetailedTimingInformation const*, Window const*, Window const*, ScalerParameters&, bool);
 };

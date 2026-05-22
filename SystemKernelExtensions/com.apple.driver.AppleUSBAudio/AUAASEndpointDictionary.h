@@ -6,8 +6,10 @@ class AUAASEndpointDictionary {
 public: // (access info unavailable from symbols alone)
     AUAASEndpointDictionary();
     AUAASEndpointDictionary(OSMetaClass const*);
-    getMetaClass() const;
-    initWithValues(bool, bool, bool, unsigned char, unsigned short);
-    withValues(bool, bool, bool, unsigned char, unsigned short);
+    auto getMetaClass() const;
+    auto initWithValues(bool, bool, bool, unsigned char, unsigned short);
+    auto withValues(bool, bool, bool, unsigned char, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AUAASEndpointDictionary();
 };

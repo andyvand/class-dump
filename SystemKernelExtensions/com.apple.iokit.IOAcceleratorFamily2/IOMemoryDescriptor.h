@@ -4,10 +4,10 @@
 
 class IOMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    createMappingInTask(task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
-    getPageCounts(unsigned long long*, unsigned long long*);
-    setOwnership(task*, int, unsigned int);
-    setVMTags(unsigned int, unsigned int);
-    withAddressRange(unsigned long long, unsigned long long, unsigned int, task*);
-    withPersistentMemoryDescriptor(IOMemoryDescriptor*);
+    auto createMappingInTask(task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
+    auto getPageCounts(unsigned long long*, unsigned long long*);
+    auto setOwnership(task*, int, unsigned int);
+    auto setVMTags(unsigned int, unsigned int);
+    auto withAddressRange(unsigned long long, unsigned long long, unsigned int, task*);
+    auto withPersistentMemoryDescriptor(IOMemoryDescriptor*);
 };

@@ -6,14 +6,16 @@ class AppleThunderboltDPInAdapterOS2 {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltDPInAdapterOS2();
     AppleThunderboltDPInAdapterOS2(OSMetaClass const*);
-    getALPMSupport();
-    getALPMSupportIsSimulated();
-    getMetaClass() const;
-    getPMPacketSupport();
-    probe(IOService*, int*);
-    processDPConnectChangeNotification(unsigned long long, unsigned int, unsigned int, unsigned int);
-    processDPTXDiscoveryNotification();
-    setALPMSupport(bool);
-    setALPMSupportIsSimulated(bool);
+    auto getALPMSupport();
+    auto getALPMSupportIsSimulated();
+    auto getMetaClass() const;
+    auto getPMPacketSupport();
+    auto probe(IOService*, int*);
+    auto processDPConnectChangeNotification(unsigned long long, unsigned int, unsigned int, unsigned int);
+    auto processDPTXDiscoveryNotification();
+    auto setALPMSupport(bool);
+    auto setALPMSupportIsSimulated(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltDPInAdapterOS2();
 };

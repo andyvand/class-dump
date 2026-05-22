@@ -4,7 +4,9 @@
 
 class com_softraid_driver_SoftRAID_PowerStateObject {
 public: // (access info unavailable from symbols alone)
+    auto getMetaClass() const;
     com_softraid_driver_SoftRAID_PowerStateObject(OSMetaClass const*);
-    getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_PowerStateObject();
 };

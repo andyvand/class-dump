@@ -5,6 +5,8 @@
 class AtiNvramParserInterface {
 public: // (access info unavailable from symbols alone)
     AtiNvramParserInterface(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiNvramParserInterface();
 };

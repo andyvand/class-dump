@@ -4,5 +4,5 @@
 
 class IOPlatformPluginFamilyPriv {
 public: // (access info unavailable from symbols alone)
-    pluginSetDiagProperty(OSSymbol const*, OSSymbol const*, OSObject*);
+    auto pluginSetDiagProperty(OSSymbol const*, OSSymbol const*, OSObject*);
 };

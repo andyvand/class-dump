@@ -4,5 +4,5 @@
 
 class IOFence {
 public: // (access info unavailable from symbols alone)
-    complete(int);
+    auto complete(int);
 };

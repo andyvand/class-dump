@@ -4,5 +4,5 @@
 
 class IOAudioLevelControl {
 public: // (access info unavailable from symbols alone)
-    createVolumeControl(int, int, int, int, int, unsigned int, char const*, unsigned int, unsigned int);
+    auto createVolumeControl(int, int, int, int, int, unsigned int, char const*, unsigned int, unsigned int);
 };

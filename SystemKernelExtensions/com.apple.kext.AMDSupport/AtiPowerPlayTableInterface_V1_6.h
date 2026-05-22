@@ -6,8 +6,10 @@ class AtiPowerPlayTableInterface_V1_6 {
 public: // (access info unavailable from symbols alone)
     AtiPowerPlayTableInterface_V1_6();
     AtiPowerPlayTableInterface_V1_6(OSMetaClass const*);
-    getMaxClocks(unsigned int&, unsigned int&);
-    getMetaClass() const;
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto getMaxClocks(unsigned int&, unsigned int&);
+    auto getMetaClass() const;
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPowerPlayTableInterface_V1_6();
 };

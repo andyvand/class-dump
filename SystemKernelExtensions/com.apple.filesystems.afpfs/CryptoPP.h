@@ -4,10 +4,10 @@
 
 class CryptoPP {
 public: // (access info unavailable from symbols alone)
-    a_exp_b_mod_c(CryptoPP::Integer const&, CryptoPP::Integer const&, CryptoPP::Integer const&);
-    operator%(CryptoPP::Integer const&, CryptoPP::Integer const&);
-    operator*(CryptoPP::Integer const&, CryptoPP::Integer const&);
-    operator+(CryptoPP::Integer const&, CryptoPP::Integer const&);
-    operator-(CryptoPP::Integer const&, CryptoPP::Integer const&);
-    operator/(CryptoPP::Integer const&, CryptoPP::Integer const&);
+    auto a_exp_b_mod_c(CryptoPP::Integer const&, CryptoPP::Integer const&, CryptoPP::Integer const&);
+    auto operator%(CryptoPP::Integer const&, CryptoPP::Integer const&);
+    auto operator*(CryptoPP::Integer const&, CryptoPP::Integer const&);
+    auto operator+(CryptoPP::Integer const&, CryptoPP::Integer const&);
+    auto operator-(CryptoPP::Integer const&, CryptoPP::Integer const&);
+    auto operator/(CryptoPP::Integer const&, CryptoPP::Integer const&);
 };

@@ -6,11 +6,13 @@ class IOReportHub {
 public: // (access info unavailable from symbols alone)
     IOReportHub();
     IOReportHub(OSMetaClass const*);
-    callConfigureReport(OSDictionary*, unsigned int, int*);
-    callConfigureReport(OSDictionary*, unsigned int, int*)::_os_log_fmt;
-    getMetaClass() const;
-    getValues(OSDictionary*, IOBufferMemoryDescriptor*);
-    getValues(OSDictionary*, IOBufferMemoryDescriptor*)::_os_log_fmt;
-    start(IOService*);
+    auto callConfigureReport(OSDictionary*, unsigned int, int*);
+    auto callConfigureReport(OSDictionary*, unsigned int, int*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto getValues(OSDictionary*, IOBufferMemoryDescriptor*);
+    auto getValues(OSDictionary*, IOBufferMemoryDescriptor*)::_os_log_fmt;
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOReportHub();
 };

@@ -4,6 +4,6 @@
 
 class IOReporter {
 public: // (access info unavailable from symbols alone)
-    configureAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
-    updateAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
+    auto configureAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
+    auto updateAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
 };

@@ -4,6 +4,6 @@
 
 class OSArray {
 public: // (access info unavailable from symbols alone)
-    withCapacity(unsigned int);
-    withObjects(OSObject const**, unsigned int, unsigned int);
+    auto withCapacity(unsigned int);
+    auto withObjects(OSObject const**, unsigned int, unsigned int);
 };

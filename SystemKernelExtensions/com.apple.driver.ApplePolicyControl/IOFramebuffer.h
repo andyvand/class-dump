@@ -4,6 +4,6 @@
 
 class IOFramebuffer {
 public: // (access info unavailable from symbols alone)
-    addFramebufferNotification(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*);
-    getGraphicsSystemWorkLoop() const;
+    auto addFramebufferNotification(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*);
+    auto getGraphicsSystemWorkLoop() const;
 };

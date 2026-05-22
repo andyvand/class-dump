@@ -4,11 +4,11 @@
 
 class AppleBCMWLANStopwatch {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_65;
-    getMetaClass() const;
-    init();
-    init()::kalloc_type_view_51;
-    start();
+    auto free();
+    auto free()::kalloc_type_view_65;
+    auto getMetaClass() const;
+    auto init();
+    auto init()::kalloc_type_view_51;
+    auto start();
     ~AppleBCMWLANStopwatch();
 };

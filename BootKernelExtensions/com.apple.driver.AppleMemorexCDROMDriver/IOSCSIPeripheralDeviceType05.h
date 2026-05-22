@@ -5,16 +5,16 @@
 class IOSCSIPeripheralDeviceType05 {
 public: // (access info unavailable from symbols alone)
     IOSCSIPeripheralDeviceType05(OSMetaClass const*);
-    _RESERVEDIOSCSIPeripheralDeviceType051();
-    _RESERVEDIOSCSIPeripheralDeviceType052();
-    _RESERVEDIOSCSIPeripheralDeviceType053();
-    _RESERVEDIOSCSIPeripheralDeviceType054();
-    _RESERVEDIOSCSIPeripheralDeviceType055();
-    _RESERVEDIOSCSIPeripheralDeviceType056();
-    _RESERVEDIOSCSIPeripheralDeviceType057();
-    _RESERVEDIOSCSIPeripheralDeviceType058();
-    init(OSDictionary*);
-    start(IOService*);
-    stop(IOService*);
+    auto _RESERVEDIOSCSIPeripheralDeviceType051();
+    auto _RESERVEDIOSCSIPeripheralDeviceType052();
+    auto _RESERVEDIOSCSIPeripheralDeviceType053();
+    auto _RESERVEDIOSCSIPeripheralDeviceType054();
+    auto _RESERVEDIOSCSIPeripheralDeviceType055();
+    auto _RESERVEDIOSCSIPeripheralDeviceType056();
+    auto _RESERVEDIOSCSIPeripheralDeviceType057();
+    auto _RESERVEDIOSCSIPeripheralDeviceType058();
+    auto init(OSDictionary*);
+    auto start(IOService*);
+    auto stop(IOService*);
     ~IOSCSIPeripheralDeviceType05();
 };

@@ -4,6 +4,6 @@
 
 class DIPoolElement<DISharedBuffer> {
 public: // (access info unavailable from symbols alone)
-    disable();
-    disable() (.cold.1);
+    auto disable();
+    auto disable() (.cold.1);
 };

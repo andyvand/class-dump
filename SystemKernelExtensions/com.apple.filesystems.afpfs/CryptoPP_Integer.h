@@ -4,24 +4,25 @@
 
 class CryptoPP::Integer {
 public: // (access info unavailable from symbols alone)
-    Compare(CryptoPP::Integer const&) const;
-    Encode(unsigned char*, unsigned int, CryptoPP::Integer::Signedness) const;
     Integer();
     Integer(CryptoPP::Integer const&);
     Integer(CryptoPP::RandomNumberGenerator&, unsigned int);
     Integer(unsigned char const*, unsigned int);
     Integer(unsigned int);
-    One();
-    Zero();
-    operator++();
-    operator+=(CryptoPP::Integer const&);
-    operator+=(int);
-    operator--();
-    operator-=(CryptoPP::Integer const&);
-    operator-=(int);
-    operator<<=(unsigned int);
-    operator=(CryptoPP::Integer const&);
-    operator=(int);
-    operator>>=(unsigned int);
+    auto Compare(CryptoPP::Integer const&) const;
+    auto Encode(unsigned char*, unsigned int, CryptoPP::Integer::Signedness) const;
+    auto One();
+    auto Zero();
+    auto operator++();
+    auto operator+=(CryptoPP::Integer const&);
+    auto operator+=(int);
+    auto operator--();
+    auto operator-=(CryptoPP::Integer const&);
+    auto operator-=(int);
+    auto operator=(CryptoPP::Integer const&);
+    auto operator=(int);
+    auto operator>>=(unsigned int);
+    void * operator new(unsigned long)::kalloc_type_view_83;
+    void operator delete(void*, unsigned long)::kalloc_type_view_83;
     ~Integer();
 };

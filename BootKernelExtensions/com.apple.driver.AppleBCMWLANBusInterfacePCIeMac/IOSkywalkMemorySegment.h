@@ -5,10 +5,10 @@
 class IOSkywalkMemorySegment {
 public: // (access info unavailable from symbols alone)
     IOSkywalkMemorySegment(OSMetaClass const*);
-    getDMACommand() const;
-    getIOVirtualAddress();
-    initWithPool(IOSkywalkPacketBufferPool*, IOSkywalkMemorySegmentDescriptor*, unsigned int);
-    setDMACommand(IODMACommand*, unsigned int);
-    setMemoryDescriptor(IOMemoryDescriptor*, unsigned long long);
+    auto getDMACommand() const;
+    auto getIOVirtualAddress();
+    auto initWithPool(IOSkywalkPacketBufferPool*, IOSkywalkMemorySegmentDescriptor*, unsigned int);
+    auto setDMACommand(IODMACommand*, unsigned int);
+    auto setMemoryDescriptor(IOMemoryDescriptor*, unsigned long long);
     ~IOSkywalkMemorySegment();
 };

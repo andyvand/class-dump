@@ -6,11 +6,13 @@ class IOSkywalkNetworkSlidingLookupTable {
 public: // (access info unavailable from symbols alone)
     IOSkywalkNetworkSlidingLookupTable(IOSkywalkNetworkNotificationHelper::_IOSkywalkNetworkNotificationHelperParams const&);
     IOSkywalkNetworkSlidingLookupTable(IOSkywalkNetworkNotificationHelper::_IOSkywalkNetworkNotificationHelperParams const&)::kalloc_type_view_145;
-    addEntry(IOSkywalkNetworkSlidingLookupTable::Entry const*, unsigned int*);
-    computeTokenMask();
-    computeTokenMask()::__nru_token_masks;
-    getEntry(unsigned int, IOSkywalkNetworkSlidingLookupTable::Entry*);
-    getTokenMask();
+    auto addEntry(IOSkywalkNetworkSlidingLookupTable::Entry const*, unsigned int*);
+    auto computeTokenMask();
+    auto computeTokenMask()::__nru_token_masks;
+    auto getEntry(unsigned int, IOSkywalkNetworkSlidingLookupTable::Entry*);
+    auto getTokenMask();
+    void * operator new(unsigned long)::kalloc_type_view_76;
+    void operator delete(void*, unsigned long)::kalloc_type_view_76;
     ~IOSkywalkNetworkSlidingLookupTable();
     ~IOSkywalkNetworkSlidingLookupTable()::kalloc_type_view_152;
 };

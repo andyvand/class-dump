@@ -4,6 +4,8 @@
 
 class TLE::BinaryIntOp<long long, TLE::$_2{}> {
 public: // (access info unavailable from symbols alone)
-    Execute(TLE::Encyclopedia&);
+    auto Execute(TLE::Encyclopedia&);
+    void * operator new(unsigned long)::kalloc_type_view_151;
+    void operator delete(void*, unsigned long)::kalloc_type_view_151;
     ~BinaryIntOp();
 };

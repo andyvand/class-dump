@@ -4,9 +4,9 @@
 
 class IOAccelCommandBufferPoolList {
 public: // (access info unavailable from symbols alone)
-    addCommandPool(IOAccelCommandBufferPool2*);
-    getCount() const;
-    init();
-    removeCommandPool(IOAccelCommandBufferPool2*);
-    removeCommandPool(IOAccelCommandBufferPool2*)::_os_log_fmt;
+    auto addCommandPool(IOAccelCommandBufferPool2*);
+    auto getCount() const;
+    auto init();
+    auto removeCommandPool(IOAccelCommandBufferPool2*);
+    auto removeCommandPool(IOAccelCommandBufferPool2*)::_os_log_fmt;
 };

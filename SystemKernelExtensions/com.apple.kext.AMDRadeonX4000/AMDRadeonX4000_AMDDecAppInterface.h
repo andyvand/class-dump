@@ -5,9 +5,11 @@
 class AMDRadeonX4000_AMDDecAppInterface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDDecAppInterface(OSMetaClass const*);
-    configureBuffers();
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX4000_AMDGraphicsAccelerator*, AMDRadeonX4000_IAMDHWInterface*, unsigned int, unsigned int);
+    auto configureBuffers();
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX4000_AMDGraphicsAccelerator*, AMDRadeonX4000_IAMDHWInterface*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDDecAppInterface();
 };

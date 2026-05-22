@@ -6,7 +6,9 @@ class AppleUSBXHCISPTLP {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCISPTLP();
     AppleUSBXHCISPTLP(OSMetaClass const*);
-    getMetaClass() const;
-    getProtocolCapabilityOverride();
+    auto getMetaClass() const;
+    auto getProtocolCapabilityOverride();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCISPTLP();
 };

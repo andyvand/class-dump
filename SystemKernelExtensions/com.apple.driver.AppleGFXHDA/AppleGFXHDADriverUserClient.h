@@ -6,15 +6,17 @@ class AppleGFXHDADriverUserClient {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDADriverUserClient();
     AppleGFXHDADriverUserClient(OSMetaClass const*);
-    Create(AppleGFXHDADriver*, task*);
-    clientClose();
-    clientDied();
-    getMetaClass() const;
-    getState(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*);
-    getStateAction(UserClientData*);
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    initWithDriver(AppleGFXHDADriver*, task*);
-    setState(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*);
-    setStateAction(UserClientData*);
+    auto Create(AppleGFXHDADriver*, task*);
+    auto clientClose();
+    auto clientDied();
+    auto getMetaClass() const;
+    auto getState(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*);
+    auto getStateAction(UserClientData*);
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto initWithDriver(AppleGFXHDADriver*, task*);
+    auto setState(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*);
+    auto setStateAction(UserClientData*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDADriverUserClient();
 };

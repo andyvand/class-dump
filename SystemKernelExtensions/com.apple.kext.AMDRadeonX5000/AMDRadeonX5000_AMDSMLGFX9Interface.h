@@ -6,11 +6,13 @@ class AMDRadeonX5000_AMDSMLGFX9Interface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDSMLGFX9Interface();
     AMDRadeonX5000_AMDSMLGFX9Interface(OSMetaClass const*);
-    createDRM();
-    createUVD();
-    createVCE();
-    free();
-    getMetaClass() const;
-    init(unsigned int);
+    auto createDRM();
+    auto createUVD();
+    auto createVCE();
+    auto free();
+    auto getMetaClass() const;
+    auto init(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDSMLGFX9Interface();
 };

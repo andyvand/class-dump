@@ -4,7 +4,7 @@
 
 class AppleIntelLpssDmac {
 public: // (access info unavailable from symbols alone)
-    channelFree(AppleIntelLpssDmacChannel*);
-    poll(unsigned int, LpssDmacIntrStatus*);
-    startDuplex(AppleIntelLpssDmacChannel*, AppleIntelLpssDmacChannel*, unsigned int, unsigned long long*);
+    auto channelFree(AppleIntelLpssDmacChannel*);
+    auto poll(unsigned int, LpssDmacIntrStatus*);
+    auto startDuplex(AppleIntelLpssDmacChannel*, AppleIntelLpssDmacChannel*, unsigned int, unsigned long long*);
 };

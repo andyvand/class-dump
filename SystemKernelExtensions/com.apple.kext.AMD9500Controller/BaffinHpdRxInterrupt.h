@@ -6,15 +6,17 @@ class BaffinHpdRxInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinHpdRxInterrupt();
     BaffinHpdRxInterrupt(OSMetaClass const*);
-    deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
-    delayedInterruptHandler(OSObject*, IOTimerEventSource*);
-    detectDisconnect(ATIConnector*, AuxChannelProxy*);
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
-    initR6xx(unsigned char, bool, ATIController*)::SOURCE_DATA;
-    initR6xx(unsigned char, bool, ATIController*)::SOURCE_IDS;
-    initialize();
-    isDefaultOn();
+    auto deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
+    auto delayedInterruptHandler(OSObject*, IOTimerEventSource*);
+    auto detectDisconnect(ATIConnector*, AuxChannelProxy*);
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initR6xx(unsigned char, bool, ATIController*)::SOURCE_DATA;
+    auto initR6xx(unsigned char, bool, ATIController*)::SOURCE_IDS;
+    auto initialize();
+    auto isDefaultOn();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinHpdRxInterrupt();
 };

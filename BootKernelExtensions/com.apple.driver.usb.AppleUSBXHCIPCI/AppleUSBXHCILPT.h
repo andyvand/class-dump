@@ -6,12 +6,14 @@ class AppleUSBXHCILPT {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCILPT();
     AppleUSBXHCILPT(OSMetaClass const*);
-    createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
-    createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*)::_os_log_fmt;
-    getMetaClass() const;
-    lowerOnePowerStateTo(unsigned long);
-    lowerOnePowerStateTo(unsigned long)::_os_log_fmt;
-    raiseOnePowerStateTo(unsigned long);
-    raiseOnePowerStateTo(unsigned long)::_os_log_fmt;
+    auto createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*);
+    auto createCommandRing(AppleUSBXHCIInterrupter*, unsigned int, IOMapper*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto lowerOnePowerStateTo(unsigned long);
+    auto lowerOnePowerStateTo(unsigned long)::_os_log_fmt;
+    auto raiseOnePowerStateTo(unsigned long);
+    auto raiseOnePowerStateTo(unsigned long)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCILPT();
 };

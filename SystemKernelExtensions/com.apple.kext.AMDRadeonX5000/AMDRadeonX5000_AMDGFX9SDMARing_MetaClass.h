@@ -5,5 +5,5 @@
 class AMDRadeonX5000_AMDGFX9SDMARing::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

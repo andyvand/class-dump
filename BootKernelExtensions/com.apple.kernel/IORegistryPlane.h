@@ -6,7 +6,9 @@ class IORegistryPlane {
 public: // (access info unavailable from symbols alone)
     IORegistryPlane();
     IORegistryPlane(OSMetaClass const*);
-    getMetaClass() const;
-    serialize(OSSerialize*) const;
+    auto getMetaClass() const;
+    auto serialize(OSSerialize*) const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IORegistryPlane();
 };

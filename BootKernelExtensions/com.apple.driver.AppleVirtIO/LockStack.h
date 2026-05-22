@@ -4,8 +4,8 @@
 
 class LockStack {
 public: // (access info unavailable from symbols alone)
-    Init(lck_rw_t**, unsigned long, bool);
     LockStack();
-    Set(lck_rw_t**, unsigned long, bool);
+    auto Init(lck_rw_t**, unsigned long, bool);
+    auto Set(lck_rw_t**, unsigned long, bool);
     ~LockStack();
 };

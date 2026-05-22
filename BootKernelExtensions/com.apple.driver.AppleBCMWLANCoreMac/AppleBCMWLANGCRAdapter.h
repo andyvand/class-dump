@@ -4,14 +4,14 @@
 
 class AppleBCMWLANGCRAdapter {
 public: // (access info unavailable from symbols alone)
-    configureGCRRate(unsigned int, apple80211_nan_gcr_rate*);
-    createGCRSession(unsigned int, apple80211_nan_create_gcr_session*);
-    free();
-    free()::kalloc_type_view_96;
-    getGCRLinkCondition(unsigned int, apple80211_nan_gcr_link_condition*);
-    getMetaClass() const;
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_64;
-    joinGCRSession(unsigned int, apple80211_nan_join_gcr_session*);
-    withDriver(AppleBCMWLANCore*);
+    auto configureGCRRate(unsigned int, apple80211_nan_gcr_rate*);
+    auto createGCRSession(unsigned int, apple80211_nan_create_gcr_session*);
+    auto free();
+    auto free()::kalloc_type_view_96;
+    auto getGCRLinkCondition(unsigned int, apple80211_nan_gcr_link_condition*);
+    auto getMetaClass() const;
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_64;
+    auto joinGCRSession(unsigned int, apple80211_nan_join_gcr_session*);
+    auto withDriver(AppleBCMWLANCore*);
     ~AppleBCMWLANGCRAdapter();
 };

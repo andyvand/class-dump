@@ -6,15 +6,17 @@ class IOFWUserIsochChannel {
 public: // (access info unavailable from symbols alone)
     IOFWUserIsochChannel();
     IOFWUserIsochChannel(OSMetaClass const*);
-    allocateChannel();
-    allocateListenerPorts();
-    allocateTalkerPort();
-    getMetaClass() const;
-    init(IOFireWireController*, bool, unsigned int, IOFWSpeed);
-    isochChannel_ForceStopHandler(void*, IOFWIsochChannel*, unsigned int);
-    releaseChannel();
-    s_exporterCleanup(IOFWUserIsochChannel*);
-    start();
-    stop();
+    auto allocateChannel();
+    auto allocateListenerPorts();
+    auto allocateTalkerPort();
+    auto getMetaClass() const;
+    auto init(IOFireWireController*, bool, unsigned int, IOFWSpeed);
+    auto isochChannel_ForceStopHandler(void*, IOFWIsochChannel*, unsigned int);
+    auto releaseChannel();
+    auto s_exporterCleanup(IOFWUserIsochChannel*);
+    auto start();
+    auto stop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWUserIsochChannel();
 };

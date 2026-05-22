@@ -5,6 +5,6 @@
 class AppleUSBXHCIFL1100CommandRing::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

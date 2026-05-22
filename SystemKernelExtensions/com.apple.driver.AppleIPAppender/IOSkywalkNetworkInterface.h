@@ -4,5 +4,5 @@
 
 class IOSkywalkNetworkInterface {
 public: // (access info unavailable from symbols alone)
-    reportDataBandwidths(unsigned long long, unsigned long long, unsigned long long, unsigned long long);
+    auto reportDataBandwidths(unsigned long long, unsigned long long, unsigned long long, unsigned long long);
 };

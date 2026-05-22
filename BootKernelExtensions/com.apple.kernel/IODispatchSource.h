@@ -4,21 +4,23 @@
 
 class IODispatchSource {
 public: // (access info unavailable from symbols alone)
-    Cancel(void () block_pointer, int (*)(OSMetaClassBase*, IORPC));
-    Cancel_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, void () block_pointer));
-    CheckForWork(bool, int (*)(OSMetaClassBase*, IORPC));
-    CheckForWork_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, IORPC, bool));
-    Dispatch(IORPC);
     IODispatchSource();
     IODispatchSource(OSMetaClass const*);
-    SetEnable(bool, int (*)(OSMetaClassBase*, IORPC));
-    SetEnableWithCompletion(bool, void () block_pointer, int (*)(OSMetaClassBase*, IORPC));
-    SetEnableWithCompletion_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, bool, void () block_pointer));
-    SetEnable_Impl(bool);
-    SetEnable_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, bool));
-    _Dispatch(IODispatchSource*, IORPC);
-    free();
-    getMetaClass() const;
-    init();
+    auto Cancel(void () block_pointer, int (*)(OSMetaClassBase*, IORPC));
+    auto Cancel_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, void () block_pointer));
+    auto CheckForWork(bool, int (*)(OSMetaClassBase*, IORPC));
+    auto CheckForWork_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, IORPC, bool));
+    auto Dispatch(IORPC);
+    auto SetEnable(bool, int (*)(OSMetaClassBase*, IORPC));
+    auto SetEnableWithCompletion(bool, void () block_pointer, int (*)(OSMetaClassBase*, IORPC));
+    auto SetEnableWithCompletion_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, bool, void () block_pointer));
+    auto SetEnable_Impl(bool);
+    auto SetEnable_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, bool));
+    auto _Dispatch(IODispatchSource*, IORPC);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODispatchSource();
 };

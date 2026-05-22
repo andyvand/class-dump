@@ -5,13 +5,15 @@
 class AMDRadeonX6000_AMDPM4HWEngine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDPM4HWEngine(OSMetaClass const*);
-    dummyWPTRUpdateDiag(char*&, unsigned int&, int);
-    free();
-    getMetaClass() const;
-    infiniteWaitOnPowerUp();
-    init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
-    initializeSubmitCommandBufferInfo(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
-    powerOff();
-    writeDiagnosisReport(char*&, unsigned int&);
+    auto dummyWPTRUpdateDiag(char*&, unsigned int&, int);
+    auto free();
+    auto getMetaClass() const;
+    auto infiniteWaitOnPowerUp();
+    auto init(AMDRadeonX6000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    auto initializeSubmitCommandBufferInfo(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto powerOff();
+    auto writeDiagnosisReport(char*&, unsigned int&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDPM4HWEngine();
 };

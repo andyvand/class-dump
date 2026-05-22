@@ -4,6 +4,6 @@
 
 class IOPMPowerSource {
 public: // (access info unavailable from symbols alone)
-    batteryInstalled();
-    externalConnected();
+    auto batteryInstalled();
+    auto externalConnected();
 };

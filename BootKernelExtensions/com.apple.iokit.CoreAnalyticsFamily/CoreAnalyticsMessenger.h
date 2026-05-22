@@ -4,16 +4,16 @@
 
 class CoreAnalyticsMessenger {
 public: // (access info unavailable from symbols alone)
-    attach(IOService*);
-    attach(IOService*) (.cold.1);
-    attach(IOService*)::_os_log_fmt;
-    detach(IOService*);
-    detach(IOService*)::_os_log_fmt;
-    free();
-    getMetaClass() const;
-    initWithProvider(IOService*);
-    startMessages();
-    startMessages()::_os_log_fmt;
-    withProvider(IOService*);
+    auto attach(IOService*);
+    auto attach(IOService*) (.cold.1);
+    auto attach(IOService*)::_os_log_fmt;
+    auto detach(IOService*);
+    auto detach(IOService*)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto initWithProvider(IOService*);
+    auto startMessages();
+    auto startMessages()::_os_log_fmt;
+    auto withProvider(IOService*);
     ~CoreAnalyticsMessenger();
 };

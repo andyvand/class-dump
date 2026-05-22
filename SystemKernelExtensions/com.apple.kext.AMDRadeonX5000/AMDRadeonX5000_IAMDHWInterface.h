@@ -5,7 +5,9 @@
 class AMDRadeonX5000_IAMDHWInterface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_IAMDHWInterface(OSMetaClass const*);
-    getMetaClass() const;
-    pollWait(AMDRadeonX5000_IAMDHWInterface::PollWaitCtx&);
+    auto getMetaClass() const;
+    auto pollWait(AMDRadeonX5000_IAMDHWInterface::PollWaitCtx&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_IAMDHWInterface();
 };

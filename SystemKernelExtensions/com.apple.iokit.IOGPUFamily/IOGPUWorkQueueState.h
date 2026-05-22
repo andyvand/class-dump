@@ -6,10 +6,12 @@ class IOGPUWorkQueueState {
 public: // (access info unavailable from symbols alone)
     IOGPUWorkQueueState();
     IOGPUWorkQueueState(OSMetaClass const*);
-    encode_event(OSArray*, IOGPUEvent const*);
-    free();
-    getMetaClass() const;
-    init(IOGPUWorkQueue const*);
-    serialize(OSDictionary*);
+    auto encode_event(OSArray*, IOGPUEvent const*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOGPUWorkQueue const*);
+    auto serialize(OSDictionary*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUWorkQueueState();
 };

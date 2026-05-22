@@ -6,10 +6,12 @@ class AppleRAIDConcatMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     AppleRAIDConcatMemoryDescriptor();
     AppleRAIDConcatMemoryDescriptor(OSMetaClass const*);
-    configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned int);
-    getMetaClass() const;
-    getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
-    initWithStorageRequest(AppleRAIDStorageRequest*, unsigned int);
-    withStorageRequest(AppleRAIDStorageRequest*, unsigned int);
+    auto configureForMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned int);
+    auto getMetaClass() const;
+    auto getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
+    auto initWithStorageRequest(AppleRAIDStorageRequest*, unsigned int);
+    auto withStorageRequest(AppleRAIDStorageRequest*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleRAIDConcatMemoryDescriptor();
 };

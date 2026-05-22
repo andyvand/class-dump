@@ -6,12 +6,14 @@ class AMDRadeonX6000_AmdHdcpAuthFailInterrupt {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdHdcpAuthFailInterrupt();
     AMDRadeonX6000_AmdHdcpAuthFailInterrupt(OSMetaClass const*);
-    callbackHandler(OSObject*, void*);
-    deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
-    getMetaClass() const;
-    handle(void*);
-    initWithController(InterruptInfo*, AMDRadeonX6000_IAmdRadeonController*);
-    initialize();
-    isDefaultOn();
+    auto callbackHandler(OSObject*, void*);
+    auto deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initWithController(InterruptInfo*, AMDRadeonX6000_IAmdRadeonController*);
+    auto initialize();
+    auto isDefaultOn();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdHdcpAuthFailInterrupt();
 };

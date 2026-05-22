@@ -5,6 +5,6 @@
 class AppleIntelMCE::Bank_Romley {
 public: // (access info unavailable from symbols alone)
     Bank_Romley(AppleIntelMCE::BankDescriptor const&);
-    dimmLocationForErrorSource(unsigned char, AppleIntelMCE::MachineModel::Romley::HomeAgent);
+    auto dimmLocationForErrorSource(unsigned char, AppleIntelMCE::MachineModel::Romley::HomeAgent);
     ~Bank_Romley();
 };

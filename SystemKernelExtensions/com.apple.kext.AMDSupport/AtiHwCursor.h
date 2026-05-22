@@ -5,12 +5,14 @@
 class AtiHwCursor {
 public: // (access info unavailable from symbols alone)
     AtiHwCursor(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_64;
-    getCursorIndex();
-    getMetaClass() const;
-    getPropertiesForUserClient();
-    initWithController(unsigned char, ATIController*);
-    initWithController(unsigned char, ATIController*)::kalloc_type_view_51;
+    auto free();
+    auto free()::kalloc_type_view_64;
+    auto getCursorIndex();
+    auto getMetaClass() const;
+    auto getPropertiesForUserClient();
+    auto initWithController(unsigned char, ATIController*);
+    auto initWithController(unsigned char, ATIController*)::kalloc_type_view_51;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiHwCursor();
 };

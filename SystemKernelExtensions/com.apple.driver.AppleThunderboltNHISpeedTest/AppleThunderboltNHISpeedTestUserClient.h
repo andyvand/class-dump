@@ -6,13 +6,15 @@ class AppleThunderboltNHISpeedTestUserClient {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltNHISpeedTestUserClient();
     AppleThunderboltNHISpeedTestUserClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*)::methods;
-    getMetaClass() const;
-    getSpeedTestPort();
-    initWithTask(task*, void*, unsigned int);
-    start(IOService*);
+    auto clientClose();
+    auto clientDied();
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*)::methods;
+    auto getMetaClass() const;
+    auto getSpeedTestPort();
+    auto initWithTask(task*, void*, unsigned int);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltNHISpeedTestUserClient();
 };

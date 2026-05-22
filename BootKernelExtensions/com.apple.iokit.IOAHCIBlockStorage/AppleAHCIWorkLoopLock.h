@@ -6,12 +6,14 @@ class AppleAHCIWorkLoopLock {
 public: // (access info unavailable from symbols alone)
     AppleAHCIWorkLoopLock();
     AppleAHCIWorkLoopLock(OSMetaClass const*);
-    CreateWithWorkLoop(OSObject*, IOWorkLoop*);
-    Lock();
-    SleepGate(void*, int);
-    SleepGate(void*, unsigned long long, int);
-    Unlock();
-    WakeupGate(void*, bool);
-    getMetaClass() const;
+    auto CreateWithWorkLoop(OSObject*, IOWorkLoop*);
+    auto Lock();
+    auto SleepGate(void*, int);
+    auto SleepGate(void*, unsigned long long, int);
+    auto Unlock();
+    auto WakeupGate(void*, bool);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleAHCIWorkLoopLock();
 };

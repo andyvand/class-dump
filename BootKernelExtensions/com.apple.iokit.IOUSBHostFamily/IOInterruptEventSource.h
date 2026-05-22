@@ -5,21 +5,21 @@
 class IOInterruptEventSource {
 public: // (access info unavailable from symbols alone)
     IOInterruptEventSource(OSMetaClass const*);
-    _RESERVEDIOInterruptEventSource0();
-    _RESERVEDIOInterruptEventSource1();
-    _RESERVEDIOInterruptEventSource2();
-    _RESERVEDIOInterruptEventSource3();
-    _RESERVEDIOInterruptEventSource4();
-    _RESERVEDIOInterruptEventSource5();
-    _RESERVEDIOInterruptEventSource6();
-    _RESERVEDIOInterruptEventSource7();
-    disableInterruptOccurred(void*, IOService*, int);
-    getAutoDisable() const;
-    getIntIndex() const;
-    getProvider() const;
-    init(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), IOService*, int);
-    interruptEventSource(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), IOService*, int);
-    interruptOccurred(void*, IOService*, int);
-    normalInterruptOccurred(void*, IOService*, int);
+    auto _RESERVEDIOInterruptEventSource0();
+    auto _RESERVEDIOInterruptEventSource1();
+    auto _RESERVEDIOInterruptEventSource2();
+    auto _RESERVEDIOInterruptEventSource3();
+    auto _RESERVEDIOInterruptEventSource4();
+    auto _RESERVEDIOInterruptEventSource5();
+    auto _RESERVEDIOInterruptEventSource6();
+    auto _RESERVEDIOInterruptEventSource7();
+    auto disableInterruptOccurred(void*, IOService*, int);
+    auto getAutoDisable() const;
+    auto getIntIndex() const;
+    auto getProvider() const;
+    auto init(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), IOService*, int);
+    auto interruptEventSource(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), IOService*, int);
+    auto interruptOccurred(void*, IOService*, int);
+    auto normalInterruptOccurred(void*, IOService*, int);
     ~IOInterruptEventSource();
 };

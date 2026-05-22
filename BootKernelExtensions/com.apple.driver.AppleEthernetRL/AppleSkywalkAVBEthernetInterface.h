@@ -5,14 +5,14 @@
 class AppleSkywalkAVBEthernetInterface {
 public: // (access info unavailable from symbols alone)
     AppleSkywalkAVBEthernetInterface(OSMetaClass const*);
-    allocateAVBPacket();
-    completeAVBPacket(IOEthernetController::IOEthernetAVBPacket*);
-    deliverRxAVBPacket(IOEthernetController::IOEthernetAVBPacket*, void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
-    deliverRxPTPPacket(IOEthernetController::IOEthernetAVBPacket*);
-    informActiveMedia(unsigned int);
-    informSelectedMedia(unsigned int);
-    reportPTPOffsets(long long, long long);
-    setGPTPPresent(bool);
-    signalTimeSyncPacketTransmitted(IOEthernetController::IOEthernetAVBPacket*, bool);
+    auto allocateAVBPacket();
+    auto completeAVBPacket(IOEthernetController::IOEthernetAVBPacket*);
+    auto deliverRxAVBPacket(IOEthernetController::IOEthernetAVBPacket*, void (*)(void*, IOEthernetController::IOEthernetAVBPacket*), void*);
+    auto deliverRxPTPPacket(IOEthernetController::IOEthernetAVBPacket*);
+    auto informActiveMedia(unsigned int);
+    auto informSelectedMedia(unsigned int);
+    auto reportPTPOffsets(long long, long long);
+    auto setGPTPPresent(bool);
+    auto signalTimeSyncPacketTransmitted(IOEthernetController::IOEthernetAVBPacket*, bool);
     ~AppleSkywalkAVBEthernetInterface();
 };

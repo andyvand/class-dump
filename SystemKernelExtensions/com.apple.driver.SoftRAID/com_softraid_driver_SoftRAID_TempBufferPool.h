@@ -4,12 +4,14 @@
 
 class com_softraid_driver_SoftRAID_TempBufferPool {
 public: // (access info unavailable from symbols alone)
-    AllocTempBuffer(bool);
-    FreeTempBuffer(TempBufferRec*);
+    auto AllocTempBuffer(bool);
+    auto FreeTempBuffer(TempBufferRec*);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_TempBufferPool();
     com_softraid_driver_SoftRAID_TempBufferPool(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_TempBufferPool();
 };

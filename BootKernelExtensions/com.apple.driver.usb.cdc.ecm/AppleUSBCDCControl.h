@@ -5,15 +5,15 @@
 class AppleUSBCDCControl {
 public: // (access info unavailable from symbols alone)
     AppleUSBCDCControl(OSMetaClass const*);
-    allocateResources();
-    close(IOService*, unsigned int);
-    free();
-    init(OSDictionary*);
-    interruptReadComplete(void*, int, unsigned int);
-    open(IOService*, unsigned int, void*, void (*)(OSObject*, AppleUSBCDCControl*, void*, USBCDCNotification*));
-    readInterruptPipe();
-    sendMER(StandardUSB::DeviceRequest&, void*, IOUSBHostCompletion*);
-    stop(IOService*);
-    willTerminate(IOService*, unsigned int);
+    auto allocateResources();
+    auto close(IOService*, unsigned int);
+    auto free();
+    auto init(OSDictionary*);
+    auto interruptReadComplete(void*, int, unsigned int);
+    auto open(IOService*, unsigned int, void*, void (*)(OSObject*, AppleUSBCDCControl*, void*, USBCDCNotification*));
+    auto readInterruptPipe();
+    auto sendMER(StandardUSB::DeviceRequest&, void*, IOUSBHostCompletion*);
+    auto stop(IOService*);
+    auto willTerminate(IOService*, unsigned int);
     ~AppleUSBCDCControl();
 };

@@ -5,7 +5,9 @@
 class AtiEnableSpreadSpectrumInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiEnableSpreadSpectrumInterface_V1(OSMetaClass const*);
-    createEnableSpreadSpecturmOnPll(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createEnableSpreadSpecturmOnPll(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiEnableSpreadSpectrumInterface_V1();
 };

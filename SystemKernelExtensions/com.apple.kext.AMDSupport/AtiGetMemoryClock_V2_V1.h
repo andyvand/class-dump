@@ -6,7 +6,9 @@ class AtiGetMemoryClock_V2_V1 {
 public: // (access info unavailable from symbols alone)
     AtiGetMemoryClock_V2_V1();
     AtiGetMemoryClock_V2_V1(OSMetaClass const*);
-    getMemoryClockInKHz();
-    getMetaClass() const;
+    auto getMemoryClockInKHz();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiGetMemoryClock_V2_V1();
 };

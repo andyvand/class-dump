@@ -5,10 +5,12 @@
 class ATIAnalogConnection {
 public: // (access info unavailable from symbols alone)
     ATIAnalogConnection(OSMetaClass const*);
-    getMetaClass() const;
-    getName();
-    init(ATIController*, ActiveConnectorInfo*, ATIPanel*);
-    isAnalog();
-    isDigital();
+    auto getMetaClass() const;
+    auto getName();
+    auto init(ATIController*, ActiveConnectorInfo*, ATIPanel*);
+    auto isAnalog();
+    auto isDigital();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ATIAnalogConnection();
 };

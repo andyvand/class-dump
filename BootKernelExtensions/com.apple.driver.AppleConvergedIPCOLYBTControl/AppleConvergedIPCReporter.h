@@ -4,7 +4,7 @@
 
 class AppleConvergedIPCReporter {
 public: // (access info unavailable from symbols alone)
-    configureReport(IOReportChannelList*, unsigned int, void*, void*);
-    startReporting(IOService*, char const*);
-    stopReporting();
+    auto configureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto startReporting(IOService*, char const*);
+    auto stopReporting();
 };

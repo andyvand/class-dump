@@ -4,5 +4,5 @@
 
 class Vega10DiagLedProgrammerFactory {
 public: // (access info unavailable from symbols alone)
-    createDiagLedProgrammer(unsigned int, ATIController*);
+    auto createDiagLedProgrammer(unsigned int, ATIController*);
 };

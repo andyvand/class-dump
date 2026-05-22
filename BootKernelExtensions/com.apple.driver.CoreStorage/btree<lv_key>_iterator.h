@@ -4,6 +4,6 @@
 
 class btree<lv_key>::iterator {
 public: // (access info unavailable from symbols alone)
-    operator++();
-    operator=(btree<lv_key>::iterator const&);
+    auto operator++();
+    auto operator=(btree<lv_key>::iterator const&);
 };

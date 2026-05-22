@@ -6,7 +6,9 @@ class AppleHPMEmbedded {
 public: // (access info unavailable from symbols alone)
     AppleHPMEmbedded();
     AppleHPMEmbedded(OSMetaClass const*);
-    getMetaClass() const;
-    isRTPCAvailable();
+    auto getMetaClass() const;
+    auto isRTPCAvailable();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleHPMEmbedded();
 };

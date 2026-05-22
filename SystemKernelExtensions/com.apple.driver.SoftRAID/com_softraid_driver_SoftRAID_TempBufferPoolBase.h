@@ -4,14 +4,16 @@
 
 class com_softraid_driver_SoftRAID_TempBufferPoolBase {
 public: // (access info unavailable from symbols alone)
-    AllocTempBuffer();
-    FreeTempBuffer(TempBufferRec*);
+    auto AllocTempBuffer();
+    auto FreeTempBuffer(TempBufferRec*);
+    auto free();
+    auto free()::kalloc_type_view_1149;
+    auto getMetaClass() const;
+    auto init(unsigned int, unsigned int);
+    auto init(unsigned int, unsigned int)::kalloc_type_view_1083;
     com_softraid_driver_SoftRAID_TempBufferPoolBase();
     com_softraid_driver_SoftRAID_TempBufferPoolBase(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_1149;
-    getMetaClass() const;
-    init(unsigned int, unsigned int);
-    init(unsigned int, unsigned int)::kalloc_type_view_1083;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_TempBufferPoolBase();
 };

@@ -4,8 +4,8 @@
 
 class com_apple_filesystems_nfs {
 public: // (access info unavailable from symbols alone)
-    getMetaClass() const;
-    start(IOService*);
-    stop(IOService*);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto stop(IOService*);
     ~com_apple_filesystems_nfs();
 };

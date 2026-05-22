@@ -6,8 +6,10 @@ class BaffinHdcpAuthSuccessInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinHdcpAuthSuccessInterrupt();
     BaffinHdcpAuthSuccessInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinHdcpAuthSuccessInterrupt();
 };

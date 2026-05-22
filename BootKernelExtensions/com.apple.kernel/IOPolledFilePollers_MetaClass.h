@@ -5,5 +5,5 @@
 class IOPolledFilePollers::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

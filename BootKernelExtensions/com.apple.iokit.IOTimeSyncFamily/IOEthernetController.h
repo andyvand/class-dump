@@ -4,5 +4,5 @@
 
 class IOEthernetController {
 public: // (access info unavailable from symbols alone)
-    changeAVBControllerState(IOEthernetControllerAVBStateEvent);
+    auto changeAVBControllerState(IOEthernetControllerAVBStateEvent);
 };

@@ -4,8 +4,8 @@
 
 class AppleAudioDeviceTreeHelper {
 public: // (access info unavailable from symbols alone)
-    getProperty(char const*, char const*, IORegistryPlane const*);
-    getProperty(char const*, char const*, IORegistryPlane const*)::_os_log_fmt;
-    getPropertyUint32t(unsigned int*, char const*, char const*, IORegistryPlane const*);
-    getPropertyUint32t(unsigned int*, char const*, char const*, IORegistryPlane const*)::_os_log_fmt;
+    auto getProperty(char const*, char const*, IORegistryPlane const*);
+    auto getProperty(char const*, char const*, IORegistryPlane const*)::_os_log_fmt;
+    auto getPropertyUint32t(unsigned int*, char const*, char const*, IORegistryPlane const*);
+    auto getPropertyUint32t(unsigned int*, char const*, char const*, IORegistryPlane const*)::_os_log_fmt;
 };

@@ -5,6 +5,6 @@
 class com_apple_driver_MKE_SR_8171::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

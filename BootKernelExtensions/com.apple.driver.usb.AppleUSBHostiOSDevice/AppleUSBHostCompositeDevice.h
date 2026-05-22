@@ -5,7 +5,7 @@
 class AppleUSBHostCompositeDevice {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostCompositeDevice(OSMetaClass const*);
-    message(unsigned int, IOService*, void*);
-    setConfiguration(unsigned char, bool);
+    auto message(unsigned int, IOService*, void*);
+    auto setConfiguration(unsigned char, bool);
     ~AppleUSBHostCompositeDevice();
 };

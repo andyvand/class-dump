@@ -4,6 +4,6 @@
 
 class vector<buf*> {
 public: // (access info unavailable from symbols alone)
-    push_back(buf* const&);
-    reserve(unsigned long);
+    auto push_back(buf* const&);
+    auto reserve(unsigned long);
 };

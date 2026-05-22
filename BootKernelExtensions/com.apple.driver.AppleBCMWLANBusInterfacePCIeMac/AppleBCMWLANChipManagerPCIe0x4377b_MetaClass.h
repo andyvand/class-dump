@@ -4,6 +4,6 @@
 
 class AppleBCMWLANChipManagerPCIe0x4377b::MetaClass {
 public: // (access info unavailable from symbols alone)
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

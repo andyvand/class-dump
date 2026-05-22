@@ -4,7 +4,7 @@
 
 class IOFramebuffer {
 public: // (access info unavailable from symbols alone)
-    addFramebufferNotification(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*);
-    getAttributeForConnectionExt(int, unsigned int, unsigned long*);
-    setAttributeForConnectionExt(int, unsigned int, unsigned long);
+    auto addFramebufferNotification(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*);
+    auto getAttributeForConnectionExt(int, unsigned int, unsigned long*);
+    auto setAttributeForConnectionExt(int, unsigned int, unsigned long);
 };

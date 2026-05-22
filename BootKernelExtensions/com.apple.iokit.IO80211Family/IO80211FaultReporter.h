@@ -6,14 +6,16 @@ class IO80211FaultReporter {
 public: // (access info unavailable from symbols alone)
     IO80211FaultReporter();
     IO80211FaultReporter(OSMetaClass const*);
-    allocWithParams(CCFaultReporter*);
-    free();
-    free()::kalloc_type_view_84;
-    getMetaClass() const;
-    init(CCFaultReporter*);
-    init(CCFaultReporter*)::kalloc_type_view_58;
-    registerCallbacks(CCFaultReporter::register_callback_t*, unsigned int, OSObject*, char const*);
-    triggerFault(unsigned int, char const*, unsigned int, char const*, int, char const*);
-    unregisterCallbacks(OSObject*);
+    auto allocWithParams(CCFaultReporter*);
+    auto free();
+    auto free()::kalloc_type_view_84;
+    auto getMetaClass() const;
+    auto init(CCFaultReporter*);
+    auto init(CCFaultReporter*)::kalloc_type_view_58;
+    auto registerCallbacks(CCFaultReporter::register_callback_t*, unsigned int, OSObject*, char const*);
+    auto triggerFault(unsigned int, char const*, unsigned int, char const*, int, char const*);
+    auto unregisterCallbacks(OSObject*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211FaultReporter();
 };

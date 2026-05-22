@@ -6,8 +6,10 @@ class AppleGFXHDAFunctionGroupATI_Tahiti {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAFunctionGroupATI_Tahiti();
     AppleGFXHDAFunctionGroupATI_Tahiti(OSMetaClass const*);
-    constructPathMapByDiscovery(OSArray**);
-    getMetaClass() const;
-    initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*);
+    auto constructPathMapByDiscovery(OSArray**);
+    auto getMetaClass() const;
+    auto initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAFunctionGroupATI_Tahiti();
 };

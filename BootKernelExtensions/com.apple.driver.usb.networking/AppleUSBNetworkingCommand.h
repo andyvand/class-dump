@@ -6,12 +6,14 @@ class AppleUSBNetworkingCommand {
 public: // (access info unavailable from symbols alone)
     AppleUSBNetworkingCommand();
     AppleUSBNetworkingCommand(OSMetaClass const*);
-    free();
-    getDataPointer();
-    getMetaClass() const;
-    initWithParameters(AppleUSBNetworkingCommandPool*, IOBufferMemoryDescriptor*);
-    setBufferLength(unsigned long);
-    setContext(OSObject*);
-    withParameters(AppleUSBNetworkingCommandPool*, IOBufferMemoryDescriptor*);
+    auto free();
+    auto getDataPointer();
+    auto getMetaClass() const;
+    auto initWithParameters(AppleUSBNetworkingCommandPool*, IOBufferMemoryDescriptor*);
+    auto setBufferLength(unsigned long);
+    auto setContext(OSObject*);
+    auto withParameters(AppleUSBNetworkingCommandPool*, IOBufferMemoryDescriptor*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBNetworkingCommand();
 };

@@ -5,18 +5,18 @@
 class AppleUSBRequestCompleter {
 public: // (access info unavailable from symbols alone)
     AppleUSBRequestCompleter(OSMetaClass const*);
-    bundlingTimeoutHandler(IOTimerEventSource*);
-    checkForWork();
-    completeRequestQueue(queue_entry*);
-    completeRequestThreadCall(AppleUSBRequestCompleter::tRequestCompleteData*);
-    completeRequestThreadCallGated(AppleUSBRequest*);
-    completeSynchronousRequestQueueThreadCall(thread_call*);
-    completeSynchronousRequestQueueThreadCallGated();
-    free();
-    init(OSObject*, IOWorkLoop*, void (*)(OSObject*, ...));
-    onThread();
-    onThreadGated(bool&);
-    signalWorkAvailable();
-    stop();
+    auto bundlingTimeoutHandler(IOTimerEventSource*);
+    auto checkForWork();
+    auto completeRequestQueue(queue_entry*);
+    auto completeRequestThreadCall(AppleUSBRequestCompleter::tRequestCompleteData*);
+    auto completeRequestThreadCallGated(AppleUSBRequest*);
+    auto completeSynchronousRequestQueueThreadCall(thread_call*);
+    auto completeSynchronousRequestQueueThreadCallGated();
+    auto free();
+    auto init(OSObject*, IOWorkLoop*, void (*)(OSObject*, ...));
+    auto onThread();
+    auto onThreadGated(bool&);
+    auto signalWorkAvailable();
+    auto stop();
     ~AppleUSBRequestCompleter();
 };

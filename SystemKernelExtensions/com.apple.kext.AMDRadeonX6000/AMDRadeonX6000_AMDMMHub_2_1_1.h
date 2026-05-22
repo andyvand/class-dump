@@ -6,9 +6,11 @@ class AMDRadeonX6000_AMDMMHub_2_1_1 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDMMHub_2_1_1();
     AMDRadeonX6000_AMDMMHub_2_1_1(OSMetaClass const*);
-    fillVMRegisters(AMD_GFX10_VM_REGS_PER_HUB*);
-    getHangLogRegList(unsigned int*);
-    getMetaClass() const;
-    getValue_VM_INVALIDATE_ENG_REQ(unsigned int, unsigned int, unsigned int);
+    auto fillVMRegisters(AMD_GFX10_VM_REGS_PER_HUB*);
+    auto getHangLogRegList(unsigned int*);
+    auto getMetaClass() const;
+    auto getValue_VM_INVALIDATE_ENG_REQ(unsigned int, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDMMHub_2_1_1();
 };

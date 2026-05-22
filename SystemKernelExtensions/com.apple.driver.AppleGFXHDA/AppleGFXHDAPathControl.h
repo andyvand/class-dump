@@ -6,13 +6,15 @@ class AppleGFXHDAPathControl {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAPathControl();
     AppleGFXHDAPathControl(OSMetaClass const*);
-    bindsToSpatialChannel(unsigned int);
-    getMetaClass() const;
-    requiresSoftwareVolume();
-    respondsToSpatialChannel(unsigned int);
-    shouldPublishMuteForSpatialChannel(unsigned int);
-    shouldPublishVolumeForSpatialChannel(unsigned int);
-    spatialBindingID();
-    spatialChannelID();
+    auto bindsToSpatialChannel(unsigned int);
+    auto getMetaClass() const;
+    auto requiresSoftwareVolume();
+    auto respondsToSpatialChannel(unsigned int);
+    auto shouldPublishMuteForSpatialChannel(unsigned int);
+    auto shouldPublishVolumeForSpatialChannel(unsigned int);
+    auto spatialBindingID();
+    auto spatialChannelID();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAPathControl();
 };

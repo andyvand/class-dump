@@ -6,12 +6,14 @@ class AtiFbInterruptDeferredCallback {
 public: // (access info unavailable from symbols alone)
     AtiFbInterruptDeferredCallback();
     AtiFbInterruptDeferredCallback(OSMetaClass const*);
-    createDeferredCallback(void (*)(void*, void*), void*, IOWorkLoop*);
-    deferredCallback(OSObject*, IOInterruptEventSource*, int);
-    free();
-    getMetaClass() const;
-    initWithCallback(void (*)(void*, void*), void*, IOWorkLoop*);
-    notify(void*);
-    registerWithWorkloop(IOWorkLoop*);
+    auto createDeferredCallback(void (*)(void*, void*), void*, IOWorkLoop*);
+    auto deferredCallback(OSObject*, IOInterruptEventSource*, int);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithCallback(void (*)(void*, void*), void*, IOWorkLoop*);
+    auto notify(void*);
+    auto registerWithWorkloop(IOWorkLoop*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiFbInterruptDeferredCallback();
 };

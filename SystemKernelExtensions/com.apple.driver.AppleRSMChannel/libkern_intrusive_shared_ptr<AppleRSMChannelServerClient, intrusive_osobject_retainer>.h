@@ -4,6 +4,6 @@
 
 class libkern::intrusive_shared_ptr<AppleRSMChannelServerClient, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
+    auto reset();
     intrusive_shared_ptr(AppleRSMChannelServerClient*, libkern::no_retain_t);
-    reset();
 };

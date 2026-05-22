@@ -4,9 +4,11 @@
 
 class com_apple_driver_PioneerSuperDrive {
 public: // (access info unavailable from symbols alone)
-    InitializeDeviceSupport();
+    auto InitializeDeviceSupport();
+    auto getMetaClass() const;
     com_apple_driver_PioneerSuperDrive();
     com_apple_driver_PioneerSuperDrive(OSMetaClass const*);
-    getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_PioneerSuperDrive();
 };

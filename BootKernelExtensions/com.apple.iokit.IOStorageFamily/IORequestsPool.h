@@ -4,15 +4,15 @@
 
 class IORequestsPool {
 public: // (access info unavailable from symbols alone)
-    deinit();
-    deinit() (.cold.1);
-    deinit()::kalloc_type_view_76;
-    getReguest();
-    getReguest() (.cold.1);
-    init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*);
-    init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*) (.cold.1);
-    init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*)::kalloc_type_view_43;
-    init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*)::kalloc_type_view_62;
-    putRequest(IORequest*);
-    putRequest(IORequest*) (.cold.1);
+    auto deinit();
+    auto deinit() (.cold.1);
+    auto deinit()::kalloc_type_view_76;
+    auto getReguest();
+    auto getReguest() (.cold.1);
+    auto init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*);
+    auto init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*) (.cold.1);
+    auto init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*)::kalloc_type_view_43;
+    auto init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*)::kalloc_type_view_62;
+    auto putRequest(IORequest*);
+    auto putRequest(IORequest*) (.cold.1);
 };

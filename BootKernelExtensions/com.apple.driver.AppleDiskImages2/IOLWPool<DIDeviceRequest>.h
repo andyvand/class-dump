@@ -4,7 +4,7 @@
 
 class IOLWPool<DIDeviceRequest> {
 public: // (access info unavailable from symbols alone)
-    dequeueElement(bool, bool*, bool);
-    dequeueElement(bool, bool*, bool) (.cold.1);
+    auto dequeueElement(bool, bool*, bool);
+    auto dequeueElement(bool, bool*, bool) (.cold.1);
     ~IOLWPool();
 };

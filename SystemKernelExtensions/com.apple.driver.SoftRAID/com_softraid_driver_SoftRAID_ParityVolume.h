@@ -4,25 +4,27 @@
 
 class com_softraid_driver_SoftRAID_ParityVolume {
 public: // (access info unavailable from symbols alone)
-    AdjustIOSizeValues(IO_SizePropertiesRec*);
-    CanAcceptIO();
-    CanRebuild();
-    CompleteRequest(VolumeIO_Rec*, com_softraid_driver_SoftRAID_MemoryDescriptor*, int, unsigned long long);
-    HandleDriverObjectCommand(DriverObjectCommand*);
-    IsDegradedForTransfer(unsigned long long, unsigned long long, DegradedDiskRec*);
-    RegisterVolumeTimerHasTimedOut();
-    RemoveMissingStripeDisks();
-    SubmitVolumeIO(VolumeIO_Rec*);
-    SynchronizeComplete(int);
-    UpdateVolumeFailedState();
-    VolumePartitionAdded(VolumePartitionStatusRec*, ExtendedVolumePartitionStatusRec*, bool);
+    auto AdjustIOSizeValues(IO_SizePropertiesRec*);
+    auto CanAcceptIO();
+    auto CanRebuild();
+    auto CompleteRequest(VolumeIO_Rec*, com_softraid_driver_SoftRAID_MemoryDescriptor*, int, unsigned long long);
+    auto HandleDriverObjectCommand(DriverObjectCommand*);
+    auto IsDegradedForTransfer(unsigned long long, unsigned long long, DegradedDiskRec*);
+    auto RegisterVolumeTimerHasTimedOut();
+    auto RemoveMissingStripeDisks();
+    auto SubmitVolumeIO(VolumeIO_Rec*);
+    auto SynchronizeComplete(int);
+    auto UpdateVolumeFailedState();
+    auto VolumePartitionAdded(VolumePartitionStatusRec*, ExtendedVolumePartitionStatusRec*, bool);
+    auto free();
+    auto getMetaClass() const;
+    auto handleClose(IOService*, unsigned int);
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto initWithStatusRecPtr(VolumePartitionStatusRec*);
+    auto synchronize(IOService*, unsigned long long, unsigned long long, unsigned int);
+    auto unmap(IOService*, IOStorageExtent*, unsigned int, unsigned int);
     com_softraid_driver_SoftRAID_ParityVolume(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    handleClose(IOService*, unsigned int);
-    handleOpen(IOService*, unsigned int, void*);
-    initWithStatusRecPtr(VolumePartitionStatusRec*);
-    synchronize(IOService*, unsigned long long, unsigned long long, unsigned int);
-    unmap(IOService*, IOStorageExtent*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_ParityVolume();
 };

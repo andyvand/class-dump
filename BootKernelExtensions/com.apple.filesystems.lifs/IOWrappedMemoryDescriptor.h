@@ -4,9 +4,9 @@
 
 class IOWrappedMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    createMappingInTask(task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
-    free();
-    getMetaClass() const;
-    init(IOMemoryDescriptor*);
+    auto createMappingInTask(task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOMemoryDescriptor*);
     ~IOWrappedMemoryDescriptor();
 };

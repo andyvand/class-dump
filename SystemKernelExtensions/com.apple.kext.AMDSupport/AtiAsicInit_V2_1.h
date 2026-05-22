@@ -6,7 +6,9 @@ class AtiAsicInit_V2_1 {
 public: // (access info unavailable from symbols alone)
     AtiAsicInit_V2_1();
     AtiAsicInit_V2_1(OSMetaClass const*);
-    asicInit(unsigned int, unsigned int);
-    getMetaClass() const;
+    auto asicInit(unsigned int, unsigned int);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiAsicInit_V2_1();
 };

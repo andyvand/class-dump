@@ -6,7 +6,9 @@ class IOHIDOOBReportDescriptor {
 public: // (access info unavailable from symbols alone)
     IOHIDOOBReportDescriptor();
     IOHIDOOBReportDescriptor(OSMetaClass const*);
-    getMetaClass() const;
-    inTaskWithBytes(task*, void const*, unsigned long, unsigned int, bool);
+    auto getMetaClass() const;
+    auto inTaskWithBytes(task*, void const*, unsigned long, unsigned int, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDOOBReportDescriptor();
 };

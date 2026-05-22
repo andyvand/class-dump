@@ -6,6 +6,6 @@ class OSSharedPtr<IOCommandPool> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr();
     OSSharedPtr(IOCommandPool*, libkern::retain_t);
-    operator=(OSSharedPtr<IOCommandPool>&&);
+    auto operator=(OSSharedPtr<IOCommandPool>&&);
     ~OSSharedPtr();
 };

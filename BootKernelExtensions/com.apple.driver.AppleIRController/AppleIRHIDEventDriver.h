@@ -6,8 +6,10 @@ class AppleIRHIDEventDriver {
 public: // (access info unavailable from symbols alone)
     AppleIRHIDEventDriver();
     AppleIRHIDEventDriver(OSMetaClass const*);
-    getMetaClass() const;
-    handleInterruptReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int);
-    start(IOService*);
+    auto getMetaClass() const;
+    auto handleInterruptReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIRHIDEventDriver();
 };

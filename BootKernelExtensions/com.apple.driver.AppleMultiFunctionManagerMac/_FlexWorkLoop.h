@@ -6,9 +6,11 @@ class _FlexWorkLoop {
 public: // (access info unavailable from symbols alone)
     _FlexWorkLoop();
     _FlexWorkLoop(OSMetaClass const*);
-    closeGate();
-    getMetaClass() const;
-    openGate();
-    workLoop();
+    auto closeGate();
+    auto getMetaClass() const;
+    auto openGate();
+    auto workLoop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_FlexWorkLoop();
 };

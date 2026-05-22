@@ -4,12 +4,12 @@
 
 class AppleBCMWLANDynamicRingOperationContext {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_81;
-    free()::kalloc_type_view_85;
-    getMetaClass() const;
-    initWithCompletion(DynamicRingOperationCompletion*)::kalloc_type_view_59;
-    initWithCompletion(DynamicRingOperationCompletion*)::kalloc_type_view_64;
-    withCompletion(DynamicRingOperationCompletion*);
+    auto free();
+    auto free()::kalloc_type_view_81;
+    auto free()::kalloc_type_view_85;
+    auto getMetaClass() const;
+    auto initWithCompletion(DynamicRingOperationCompletion*)::kalloc_type_view_59;
+    auto initWithCompletion(DynamicRingOperationCompletion*)::kalloc_type_view_64;
+    auto withCompletion(DynamicRingOperationCompletion*);
     ~AppleBCMWLANDynamicRingOperationContext();
 };

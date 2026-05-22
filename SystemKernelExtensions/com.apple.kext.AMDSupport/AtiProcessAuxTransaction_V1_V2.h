@@ -6,7 +6,9 @@ class AtiProcessAuxTransaction_V1_V2 {
 public: // (access info unavailable from symbols alone)
     AtiProcessAuxTransaction_V1_V2();
     AtiProcessAuxTransaction_V1_V2(OSMetaClass const*);
-    getMetaClass() const;
-    processAuxChannelTransaction(ConnectorInfo const*, unsigned char);
+    auto getMetaClass() const;
+    auto processAuxChannelTransaction(ConnectorInfo const*, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiProcessAuxTransaction_V1_V2();
 };

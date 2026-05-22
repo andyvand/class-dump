@@ -6,14 +6,16 @@ class AppleUSBXHCISPT {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCISPT();
     AppleUSBXHCISPT(OSMetaClass const*);
-    getMetaClass() const;
-    getNextCapability(void*);
-    getNextLegacyCapability(void*);
-    getNextProtocolCapability(void*);
-    getProtocolCapabilityOverride();
-    lowerOnePowerStateTo(unsigned long);
-    lowerOnePowerStateTo(unsigned long)::_os_log_fmt;
-    reset();
-    reset()::_os_log_fmt;
+    auto getMetaClass() const;
+    auto getNextCapability(void*);
+    auto getNextLegacyCapability(void*);
+    auto getNextProtocolCapability(void*);
+    auto getProtocolCapabilityOverride();
+    auto lowerOnePowerStateTo(unsigned long);
+    auto lowerOnePowerStateTo(unsigned long)::_os_log_fmt;
+    auto reset();
+    auto reset()::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCISPT();
 };

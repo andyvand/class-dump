@@ -6,15 +6,17 @@ class AppleConvergedIPCOLYBTControlReporter {
 public: // (access info unavailable from symbols alone)
     AppleConvergedIPCOLYBTControlReporter();
     AppleConvergedIPCOLYBTControlReporter(OSMetaClass const*);
-    getCurrentStateIndex();
-    getCurrentStateIndex() (.cold.1);
-    getCurrentStateIndex() (.cold.2);
-    getCurrentStateIndex()::sleepStates;
-    getCurrentStateIndex()::states;
-    getMetaClass() const;
-    getReporterInterfaceNames(IOService*, OSArray*);
-    getReporterInterfaceNames(IOService*, OSArray*) (.cold.1);
-    reportRTISleepStateChange(acipcRTISleepState);
-    reportRTIStateChange(acipcRTIState);
+    auto getCurrentStateIndex();
+    auto getCurrentStateIndex() (.cold.1);
+    auto getCurrentStateIndex() (.cold.2);
+    auto getCurrentStateIndex()::sleepStates;
+    auto getCurrentStateIndex()::states;
+    auto getMetaClass() const;
+    auto getReporterInterfaceNames(IOService*, OSArray*);
+    auto getReporterInterfaceNames(IOService*, OSArray*) (.cold.1);
+    auto reportRTISleepStateChange(acipcRTISleepState);
+    auto reportRTIStateChange(acipcRTIState);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleConvergedIPCOLYBTControlReporter();
 };

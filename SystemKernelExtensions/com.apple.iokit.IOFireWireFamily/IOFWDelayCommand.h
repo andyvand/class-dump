@@ -6,10 +6,12 @@ class IOFWDelayCommand {
 public: // (access info unavailable from symbols alone)
     IOFWDelayCommand();
     IOFWDelayCommand(OSMetaClass const*);
-    _RESERVEDIOFWDelayCommand0();
-    execute();
-    getMetaClass() const;
-    initWithDelay(IOFireWireController*, unsigned int, void (*)(void*, int, IOFireWireBus*, IOFWBusCommand*), void*);
-    reinit(unsigned int, void (*)(void*, int, IOFireWireBus*, IOFWBusCommand*), void*);
+    auto _RESERVEDIOFWDelayCommand0();
+    auto execute();
+    auto getMetaClass() const;
+    auto initWithDelay(IOFireWireController*, unsigned int, void (*)(void*, int, IOFireWireBus*, IOFWBusCommand*), void*);
+    auto reinit(unsigned int, void (*)(void*, int, IOFireWireBus*, IOFWBusCommand*), void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWDelayCommand();
 };

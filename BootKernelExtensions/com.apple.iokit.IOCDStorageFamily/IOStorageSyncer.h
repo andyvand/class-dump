@@ -4,5 +4,5 @@
 
 class IOStorageSyncer {
 public: // (access info unavailable from symbols alone)
-    wait();
+    auto wait();
 };

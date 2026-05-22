@@ -4,14 +4,14 @@
 
 class IOAccelEventMachine2 {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOAccelEventMachine2();
-    _RESERVEDIOAccelEventMachine3();
-    _RESERVEDIOAccelEventMachine4();
-    _RESERVEDIOAccelEventMachine5();
-    disableStampInterrupt(int);
-    enableStampInterrupt(int);
-    getNumStamps();
-    setStampBaseAddress(unsigned int volatile*);
-    signalStamp(int, unsigned int);
-    stop();
+    auto _RESERVEDIOAccelEventMachine2();
+    auto _RESERVEDIOAccelEventMachine3();
+    auto _RESERVEDIOAccelEventMachine4();
+    auto _RESERVEDIOAccelEventMachine5();
+    auto disableStampInterrupt(int);
+    auto enableStampInterrupt(int);
+    auto getNumStamps();
+    auto setStampBaseAddress(unsigned int volatile*);
+    auto signalStamp(int, unsigned int);
+    auto stop();
 };

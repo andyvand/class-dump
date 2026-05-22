@@ -4,5 +4,5 @@
 
 class IONetworkMedium {
 public: // (access info unavailable from symbols alone)
-    getMediumWithType(OSDictionary const*, unsigned int, unsigned int);
+    auto getMediumWithType(OSDictionary const*, unsigned int, unsigned int);
 };

@@ -5,10 +5,10 @@
 class BlockData {
 public: // (access info unavailable from symbols alone)
     BlockData();
-    isBlocked(unsigned char const*, unsigned char, char const*);
-    setBlockedHashes(unsigned long long, syspolicyd_blocked_hash_entry const*);
-    setBlockedHashes(unsigned long long, syspolicyd_blocked_hash_entry const*)::_os_log_fmt;
-    setBlockedTeams(unsigned long long, syspolicyd_blocked_team_entry const*);
-    setBlockedTeams(unsigned long long, syspolicyd_blocked_team_entry const*)::_os_log_fmt;
+    auto isBlocked(unsigned char const*, unsigned char, char const*);
+    auto setBlockedHashes(unsigned long long, syspolicyd_blocked_hash_entry const*);
+    auto setBlockedHashes(unsigned long long, syspolicyd_blocked_hash_entry const*)::_os_log_fmt;
+    auto setBlockedTeams(unsigned long long, syspolicyd_blocked_team_entry const*);
+    auto setBlockedTeams(unsigned long long, syspolicyd_blocked_team_entry const*)::_os_log_fmt;
     ~BlockData();
 };

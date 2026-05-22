@@ -5,9 +5,9 @@
 class AppleUSBVHCICommandQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCICommandQueue(OSMetaClass const*);
-    abortCommand(StandardUSBVHCI::VHCIMessage*);
-    initWithMessageQueue(AppleUSBVHCIMessageQueue*);
-    notifyCommandComplete(StandardUSBVHCI::VHCIMessage const*);
-    notifyServiceState(AppleUSBVHCICommandQueue::tServiceState);
+    auto abortCommand(StandardUSBVHCI::VHCIMessage*);
+    auto initWithMessageQueue(AppleUSBVHCIMessageQueue*);
+    auto notifyCommandComplete(StandardUSBVHCI::VHCIMessage const*);
+    auto notifyServiceState(AppleUSBVHCICommandQueue::tServiceState);
     ~AppleUSBVHCICommandQueue();
 };

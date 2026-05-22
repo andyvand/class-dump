@@ -4,7 +4,7 @@
 
 class AMDFirmware {
 public: // (access info unavailable from symbols alone)
-    createFirmware(unsigned char*, unsigned int, unsigned int, char const*);
-    createFirmware(unsigned char*, unsigned int, unsigned int, char const*, char const*);
-    initFirmware(unsigned char*, unsigned int, unsigned int, char const*, char const*);
+    auto createFirmware(unsigned char*, unsigned int, unsigned int, char const*);
+    auto createFirmware(unsigned char*, unsigned int, unsigned int, char const*, char const*);
+    auto initFirmware(unsigned char*, unsigned int, unsigned int, char const*, char const*);
 };

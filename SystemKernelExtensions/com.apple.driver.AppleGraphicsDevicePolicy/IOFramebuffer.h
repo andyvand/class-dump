@@ -4,5 +4,5 @@
 
 class IOFramebuffer {
 public: // (access info unavailable from symbols alone)
-    addFramebufferNotification(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*);
+    auto addFramebufferNotification(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*);
 };

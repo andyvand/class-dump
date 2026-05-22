@@ -4,7 +4,7 @@
 
 class AppleEthernetAquantiaAqtionFirmwareInterface {
 public: // (access info unavailable from symbols alone)
-    compareFirmwareVersion(fw_ver_s);
-    doFirmwareUpload(unsigned char*, unsigned int);
-    notifyFwUploadCompleted();
+    auto compareFirmwareVersion(fw_ver_s);
+    auto doFirmwareUpload(unsigned char*, unsigned int);
+    auto notifyFwUploadCompleted();
 };

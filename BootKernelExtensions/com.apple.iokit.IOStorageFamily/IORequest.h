@@ -4,13 +4,13 @@
 
 class IORequest {
 public: // (access info unavailable from symbols alone)
-    complete(int, unsigned long long);
-    deinit();
-    getDirection();
-    init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*);
-    prepare(IOStorageCompletion*, IOMemoryDescriptor*, unsigned long long*, unsigned long long*);
-    prepareToWait();
-    reset();
-    signalCompleted(int);
-    waitForCompletion();
+    auto complete(int, unsigned long long);
+    auto deinit();
+    auto getDirection();
+    auto init(unsigned int, unsigned int, unsigned char, unsigned int, IOMapper*);
+    auto prepare(IOStorageCompletion*, IOMemoryDescriptor*, unsigned long long*, unsigned long long*);
+    auto prepareToWait();
+    auto reset();
+    auto signalCompleted(int);
+    auto waitForCompletion();
 };

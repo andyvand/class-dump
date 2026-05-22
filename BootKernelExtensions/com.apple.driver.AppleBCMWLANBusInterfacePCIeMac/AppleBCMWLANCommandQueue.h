@@ -4,9 +4,9 @@
 
 class AppleBCMWLANCommandQueue {
 public: // (access info unavailable from symbols alone)
-    dequeue();
-    enqueue(IOCommand*);
-    getSize() const;
-    remove(IOCommand*);
-    withCapacity(unsigned int);
+    auto dequeue();
+    auto enqueue(IOCommand*);
+    auto getSize() const;
+    auto remove(IOCommand*);
+    auto withCapacity(unsigned int);
 };

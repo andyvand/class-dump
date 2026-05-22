@@ -4,8 +4,8 @@
 
 class IOLWPool<DISharedBuffer> {
 public: // (access info unavailable from symbols alone)
-    dequeueElement(bool, bool*, bool);
-    dequeueElement(bool, bool*, bool) (.cold.1);
-    dequeueElements(bool, unsigned long, queue_entry*, bool*, unsigned long)::_os_log_fmt;
+    auto dequeueElement(bool, bool*, bool);
+    auto dequeueElement(bool, bool*, bool) (.cold.1);
+    auto dequeueElements(bool, unsigned long, queue_entry*, bool*, unsigned long)::_os_log_fmt;
     ~IOLWPool();
 };

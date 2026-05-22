@@ -4,20 +4,20 @@
 
 class IOServicePH {
 public: // (access info unavailable from symbols alone)
-    checkPMReady();
-    init(IOPMrootDomain*);
-    lock();
-    matchingEnd(IOService*);
-    matchingStart(IOService*);
-    rootWillChangeTo(unsigned long, unsigned long);
-    serverAck(IOUserServer*);
-    serverAdd(IOUserServer*);
-    serverRemove(IOUserServer*);
-    serverSlept();
-    servicesWithPowerState(bool);
-    systemHalt(int);
-    systemPowerChange(unsigned char, IOService*, unsigned int, unsigned int*);
-    systemPowerChange(void*, void*, unsigned int, IOService*, void*, unsigned long);
-    unlock();
-    userServerAckTimerExpired(void*, void*);
+    auto checkPMReady();
+    auto init(IOPMrootDomain*);
+    auto lock();
+    auto matchingEnd(IOService*);
+    auto matchingStart(IOService*);
+    auto rootWillChangeTo(unsigned long, unsigned long);
+    auto serverAck(IOUserServer*);
+    auto serverAdd(IOUserServer*);
+    auto serverRemove(IOUserServer*);
+    auto serverSlept();
+    auto servicesWithPowerState(bool);
+    auto systemHalt(int);
+    auto systemPowerChange(unsigned char, IOService*, unsigned int, unsigned int*);
+    auto systemPowerChange(void*, void*, unsigned int, IOService*, void*, unsigned long);
+    auto unlock();
+    auto userServerAckTimerExpired(void*, void*);
 };

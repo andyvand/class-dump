@@ -6,7 +6,9 @@ class AMDRadeonX6810_AMDRadeonHWLibsX6810 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6810_AMDRadeonHWLibsX6810();
     AMDRadeonX6810_AMDRadeonHWLibsX6810(OSMetaClass const*);
-    getMetaClass() const;
-    populateFirmwareDirectory();
+    auto getMetaClass() const;
+    auto populateFirmwareDirectory();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6810_AMDRadeonHWLibsX6810();
 };

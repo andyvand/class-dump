@@ -6,14 +6,16 @@ class AppleUSBVHCIBringupDriver {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIBringupDriver();
     AppleUSBVHCIBringupDriver(OSMetaClass const*);
-    bulkCompletion(void*, int, unsigned int);
-    getMetaClass() const;
-    start(IOService*);
-    stop(IOService*);
-    terminate(unsigned int);
-    test(IOTimerEventSource*);
-    testBulkIn(unsigned int, unsigned int, unsigned short);
-    testBulkInChunks(unsigned int, unsigned int, unsigned short);
-    testBulkOut(unsigned int, unsigned int, unsigned short);
+    auto bulkCompletion(void*, int, unsigned int);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto terminate(unsigned int);
+    auto test(IOTimerEventSource*);
+    auto testBulkIn(unsigned int, unsigned int, unsigned short);
+    auto testBulkInChunks(unsigned int, unsigned int, unsigned short);
+    auto testBulkOut(unsigned int, unsigned int, unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBVHCIBringupDriver();
 };

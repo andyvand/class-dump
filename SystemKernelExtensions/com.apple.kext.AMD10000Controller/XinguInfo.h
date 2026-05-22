@@ -4,5 +4,5 @@
 
 class XinguInfo {
 public: // (access info unavailable from symbols alone)
-    createInfo(unsigned char, PlatformParameters&);
+    auto createInfo(unsigned char, PlatformParameters&);
 };

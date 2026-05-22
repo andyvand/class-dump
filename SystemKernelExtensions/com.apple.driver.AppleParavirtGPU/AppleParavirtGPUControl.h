@@ -6,12 +6,14 @@ class AppleParavirtGPUControl {
 public: // (access info unavailable from symbols alone)
     AppleParavirtGPUControl();
     AppleParavirtGPUControl(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    setupMMIO();
-    setupMMIO()::_os_log_fmt;
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
+    auto free();
+    auto getMetaClass() const;
+    auto setupMMIO();
+    auto setupMMIO()::_os_log_fmt;
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtGPUControl();
 };

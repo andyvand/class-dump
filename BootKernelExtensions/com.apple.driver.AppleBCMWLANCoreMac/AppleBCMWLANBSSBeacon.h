@@ -4,10 +4,10 @@
 
 class AppleBCMWLANBSSBeacon {
 public: // (access info unavailable from symbols alone)
-    fromWLBSSInfo(wl_bss_info*, AppleChannelSpec_t, unsigned long long, CCLogStream*, CommonFaultReporter*);
-    getBeaconMsgFromWLBSSInfo(BeaconMetaData&, unsigned char*, wl_bss_info*, AppleChannelSpec_t, unsigned long long);
-    getBeaconMsgFromWLBSSInfo(BeaconMetaData&, unsigned char*, wl_bss_info*, AppleChannelSpec_t, unsigned long long)::_os_log_fmt;
-    getMetaClass() const;
-    setBeaconData(wl_bss_info*, AppleChannelSpec_t, unsigned long long)::_os_log_fmt;
+    auto fromWLBSSInfo(wl_bss_info*, AppleChannelSpec_t, unsigned long long, CCLogStream*, CommonFaultReporter*);
+    auto getBeaconMsgFromWLBSSInfo(BeaconMetaData&, unsigned char*, wl_bss_info*, AppleChannelSpec_t, unsigned long long);
+    auto getBeaconMsgFromWLBSSInfo(BeaconMetaData&, unsigned char*, wl_bss_info*, AppleChannelSpec_t, unsigned long long)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto setBeaconData(wl_bss_info*, AppleChannelSpec_t, unsigned long long)::_os_log_fmt;
     ~AppleBCMWLANBSSBeacon();
 };

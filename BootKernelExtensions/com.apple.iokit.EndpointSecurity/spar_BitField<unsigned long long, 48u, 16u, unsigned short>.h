@@ -4,5 +4,5 @@
 
 class spar::BitField<unsigned long long, 48u, 16u, unsigned short> {
 public: // (access info unavailable from symbols alone)
-    set(unsigned short)::__desc;
+    auto set(unsigned short)::__desc;
 };

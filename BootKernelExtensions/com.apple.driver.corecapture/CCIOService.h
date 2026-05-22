@@ -4,21 +4,21 @@
 
 class CCIOService {
 public: // (access info unavailable from symbols alone)
-    AttachToDKPlane_Impl(IOService*, OSString*);
-    AttachToPipeInDKPlane_Impl(IOService*, OSString*);
-    CCIOServiceInit_Impl(IOService*, OSString*);
-    CCRegistryCopyStreams_Impl(OSString*, OSString*, unsigned int*, CCIOService**)::_os_log_fmt;
-    CCSetProperties_Impl(OSDictionary*);
-    ConvertDictionaryToXMLString_Impl(OSDictionary*, OSString**);
-    CopyCCIOServicesWithOwner_Impl(OSString*, OSString*, unsigned int*, CCIOService**)::_os_log_fmt;
-    Dispatch(IORPC);
-    DumpKernelCCPipesWithOwner_Impl(OSString*, unsigned long long, unsigned long long, OSString*);
-    NewUserClient_Impl(unsigned int, IOUserClient**);
-    PublishAndRegisterService_Impl(OSString*, OSString*);
-    Start_Impl(IOService*);
-    Stop_Impl(IOService*);
-    ccForcePanic_Impl(bool, OSString*);
-    getMetaClass() const;
-    newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
+    auto AttachToDKPlane_Impl(IOService*, OSString*);
+    auto AttachToPipeInDKPlane_Impl(IOService*, OSString*);
+    auto CCIOServiceInit_Impl(IOService*, OSString*);
+    auto CCRegistryCopyStreams_Impl(OSString*, OSString*, unsigned int*, CCIOService**)::_os_log_fmt;
+    auto CCSetProperties_Impl(OSDictionary*);
+    auto ConvertDictionaryToXMLString_Impl(OSDictionary*, OSString**);
+    auto CopyCCIOServicesWithOwner_Impl(OSString*, OSString*, unsigned int*, CCIOService**)::_os_log_fmt;
+    auto Dispatch(IORPC);
+    auto DumpKernelCCPipesWithOwner_Impl(OSString*, unsigned long long, unsigned long long, OSString*);
+    auto NewUserClient_Impl(unsigned int, IOUserClient**);
+    auto PublishAndRegisterService_Impl(OSString*, OSString*);
+    auto Start_Impl(IOService*);
+    auto Stop_Impl(IOService*);
+    auto ccForcePanic_Impl(bool, OSString*);
+    auto getMetaClass() const;
+    auto newUserClient(task*, void*, unsigned int, OSDictionary*, IOUserClient**);
     ~CCIOService();
 };

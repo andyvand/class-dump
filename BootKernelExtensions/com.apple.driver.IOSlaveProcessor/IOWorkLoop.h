@@ -4,5 +4,5 @@
 
 class IOWorkLoop {
 public: // (access info unavailable from symbols alone)
-    workLoopWithOptions(unsigned int);
+    auto workLoopWithOptions(unsigned int);
 };

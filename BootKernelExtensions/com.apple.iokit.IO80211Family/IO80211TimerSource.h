@@ -6,10 +6,12 @@ class IO80211TimerSource {
 public: // (access info unavailable from symbols alone)
     IO80211TimerSource();
     IO80211TimerSource(OSMetaClass const*);
-    allocWithParams(IO80211TimerSourcePriority, OSObject*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
-    allocWithParams(OSObject*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
-    free();
-    getMetaClass() const;
-    init(IO80211TimerSourcePriority, OSObject*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
+    auto allocWithParams(IO80211TimerSourcePriority, OSObject*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
+    auto allocWithParams(OSObject*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
+    auto free();
+    auto getMetaClass() const;
+    auto init(IO80211TimerSourcePriority, OSObject*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211TimerSource();
 };

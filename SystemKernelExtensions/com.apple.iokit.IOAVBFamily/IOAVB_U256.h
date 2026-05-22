@@ -4,5 +4,5 @@
 
 class IOAVB_U256 {
 public: // (access info unavailable from symbols alone)
-    operator+(IOAVB_U256 const&) const;
+    auto operator+(IOAVB_U256 const&) const;
 };

@@ -4,6 +4,6 @@
 
 class IOAccelDisplayPipeGammaTable2 {
 public: // (access info unavailable from symbols alone)
-    getTableCount() const;
-    getTableEntry(unsigned int, float*, float*, float*) const;
+    auto getTableCount() const;
+    auto getTableEntry(unsigned int, float*, float*, float*) const;
 };

@@ -6,13 +6,15 @@ class AMDRadeonX4000_AMDFijiPM4ComputeChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDFijiPM4ComputeChannel();
     AMDRadeonX4000_AMDFijiPM4ComputeChannel(OSMetaClass const*);
-    commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
-    free();
-    getMetaClass() const;
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
-    initializeIndirectCommandBufferFrame();
-    initializeSubmitFrames();
-    initializeTimestampFrame();
-    releaseSubmitFrames();
+    auto commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto initializeIndirectCommandBufferFrame();
+    auto initializeSubmitFrames();
+    auto initializeTimestampFrame();
+    auto releaseSubmitFrames();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDFijiPM4ComputeChannel();
 };

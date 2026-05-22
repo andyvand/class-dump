@@ -4,12 +4,14 @@
 
 class IGBlockFenceManager {
 public: // (access info unavailable from symbols alone)
-    getBlockFenceEndTimeWriteAddress(IGAccelBlockFence*);
-    getTailEndTimeWriteAddress();
-    getTailStartTimeWriteAddress();
-    getTime(IGAccelBlockFence*);
-    getTimestamp(HiLoHi*);
-    incrementTailWithFence(IGAccelBlockFence*);
-    initWithAccelerator(IntelAccelerator*);
+    auto getBlockFenceEndTimeWriteAddress(IGAccelBlockFence*);
+    auto getTailEndTimeWriteAddress();
+    auto getTailStartTimeWriteAddress();
+    auto getTime(IGAccelBlockFence*);
+    auto getTimestamp(HiLoHi*);
+    auto incrementTailWithFence(IGAccelBlockFence*);
+    auto initWithAccelerator(IntelAccelerator*);
+    void * operator new(unsigned long)::kalloc_type_view_141;
+    void operator delete(void*, unsigned long)::kalloc_type_view_146;
     ~IGBlockFenceManager();
 };

@@ -6,11 +6,13 @@ class ACMLockdownModeKernelService {
 public: // (access info unavailable from symbols alone)
     ACMLockdownModeKernelService();
     ACMLockdownModeKernelService(OSMetaClass const*);
-    commandProcessedGated(acm_command_t const*, unsigned long, unsigned char const*, unsigned int);
-    free();
-    getMetaClass() const;
-    init(ACMKernelService* (*) [8], IOService*, IOCommandGate*);
-    start();
-    stop();
+    auto commandProcessedGated(acm_command_t const*, unsigned long, unsigned char const*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto init(ACMKernelService* (*) [8], IOService*, IOCommandGate*);
+    auto start();
+    auto stop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ACMLockdownModeKernelService();
 };

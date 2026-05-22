@@ -5,21 +5,21 @@
 class IOMediaBSDClientGlobals {
 public: // (access info unavailable from symbols alone)
     IOMediaBSDClientGlobals();
-    getAnchors();
-    getAssertionCall();
-    getAssertionID();
-    getAssertionTime();
-    getMajorID();
-    getMinor(unsigned int);
-    getMinors();
-    isValid();
-    lockAssertion();
-    lockOpen();
-    lockState();
-    setAssertionID(unsigned long long);
-    setAssertionTime(unsigned long long);
-    unlockAssertion();
-    unlockOpen();
-    unlockState();
+    auto getAnchors();
+    auto getAssertionCall();
+    auto getAssertionID();
+    auto getAssertionTime();
+    auto getMajorID();
+    auto getMinor(unsigned int);
+    auto getMinors();
+    auto isValid();
+    auto lockAssertion();
+    auto lockOpen();
+    auto lockState();
+    auto setAssertionID(unsigned long long);
+    auto setAssertionTime(unsigned long long);
+    auto unlockAssertion();
+    auto unlockOpen();
+    auto unlockState();
     ~IOMediaBSDClientGlobals();
 };

@@ -6,11 +6,13 @@ class IOTimeSyncTimeSyncTimePort {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncTimeSyncTimePort();
     IOTimeSyncTimeSyncTimePort(OSMetaClass const*);
-    calculatePriorities();
-    calculatePriorities()::_os_log_fmt;
-    getMetaClass() const;
-    receivedSync(IOTimeSyncDomainSync*);
-    receivedSync(IOTimeSyncDomainSync*)::_os_log_fmt;
-    synthesizeSync();
+    auto calculatePriorities();
+    auto calculatePriorities()::_os_log_fmt;
+    auto getMetaClass() const;
+    auto receivedSync(IOTimeSyncDomainSync*);
+    auto receivedSync(IOTimeSyncDomainSync*)::_os_log_fmt;
+    auto synthesizeSync();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncTimeSyncTimePort();
 };

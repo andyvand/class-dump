@@ -4,5 +4,5 @@
 
 class IOFilterInterruptEventSource {
 public: // (access info unavailable from symbols alone)
-    filterInterruptEventSource(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), bool (*)(OSObject*, IOFilterInterruptEventSource*), IOService*, int);
+    auto filterInterruptEventSource(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), bool (*)(OSObject*, IOFilterInterruptEventSource*), IOService*, int);
 };

@@ -6,13 +6,15 @@ class IOWatchdogUserClient {
 public: // (access info unavailable from symbols alone)
     IOWatchdogUserClient();
     IOWatchdogUserClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    start(IOService*);
-    terminate(unsigned int);
-    userpaceTestCPUHang(OSObject*, void*, IOExternalMethodArguments*);
-    userspaceTestIOKitBusy(OSObject*, void*, IOExternalMethodArguments*);
-    userspaceTestSocWatchdog(OSObject*, void*, IOExternalMethodArguments*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto terminate(unsigned int);
+    auto userpaceTestCPUHang(OSObject*, void*, IOExternalMethodArguments*);
+    auto userspaceTestIOKitBusy(OSObject*, void*, IOExternalMethodArguments*);
+    auto userspaceTestSocWatchdog(OSObject*, void*, IOExternalMethodArguments*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOWatchdogUserClient();
 };

@@ -4,20 +4,22 @@
 
 class AppleParavirtPageTable::InteriorNode {
 public: // (access info unavailable from symbols alone)
-    attachChild(unsigned int, AppleParavirtPageTable::StorageNode*);
-    attachChild(unsigned int, AppleParavirtPageTable::StorageNode*) (.cold.1);
-    attachChild(unsigned int, AppleParavirtPageTable::StorageNode*)::_os_log_fmt;
-    detachChild(unsigned int);
-    detachChild(unsigned int) (.cold.1);
-    detachChild(unsigned int)::_os_log_fmt;
-    getChild(AppleParavirtPageTable*, unsigned int, unsigned int);
-    getChild(AppleParavirtPageTable*, unsigned int, unsigned int) (.cold.1);
-    getChild(AppleParavirtPageTable*, unsigned int, unsigned int)::_os_log_fmt;
-    getExistingChild(unsigned int);
-    getExistingChild(unsigned int) (.cold.1);
-    getExistingChild(unsigned int) (.cold.2);
-    getExistingChild(unsigned int)::_os_log_fmt;
-    init();
+    auto attachChild(unsigned int, AppleParavirtPageTable::StorageNode*);
+    auto attachChild(unsigned int, AppleParavirtPageTable::StorageNode*) (.cold.1);
+    auto attachChild(unsigned int, AppleParavirtPageTable::StorageNode*)::_os_log_fmt;
+    auto detachChild(unsigned int);
+    auto detachChild(unsigned int) (.cold.1);
+    auto detachChild(unsigned int)::_os_log_fmt;
+    auto getChild(AppleParavirtPageTable*, unsigned int, unsigned int);
+    auto getChild(AppleParavirtPageTable*, unsigned int, unsigned int) (.cold.1);
+    auto getChild(AppleParavirtPageTable*, unsigned int, unsigned int)::_os_log_fmt;
+    auto getExistingChild(unsigned int);
+    auto getExistingChild(unsigned int) (.cold.1);
+    auto getExistingChild(unsigned int) (.cold.2);
+    auto getExistingChild(unsigned int)::_os_log_fmt;
+    auto init();
+    void * operator new(unsigned long)::kalloc_type_view_195;
+    void operator delete(void*, unsigned long)::kalloc_type_view_195;
     ~InteriorNode();
     ~InteriorNode() (.cold.1);
     ~InteriorNode()::_os_log_fmt;

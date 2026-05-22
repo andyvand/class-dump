@@ -6,9 +6,11 @@ class AtiComponentPanelInfo {
 public: // (access info unavailable from symbols alone)
     AtiComponentPanelInfo();
     AtiComponentPanelInfo(OSMetaClass const*);
-    createPanelInfo();
-    getMetaClass() const;
-    getSenseInfo(AppleSenseInfo&);
-    init();
+    auto createPanelInfo();
+    auto getMetaClass() const;
+    auto getSenseInfo(AppleSenseInfo&);
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiComponentPanelInfo();
 };

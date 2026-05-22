@@ -4,10 +4,10 @@
 
 class IOAccelCommandQueueList {
 public: // (access info unavailable from symbols alone)
-    addCommandQueue(IOAccelCommandQueue*);
-    getCount() const;
-    getCountWithPID(int) const;
-    init();
-    removeCommandQueue(IOAccelCommandQueue*);
-    removeCommandQueue(IOAccelCommandQueue*)::_os_log_fmt;
+    auto addCommandQueue(IOAccelCommandQueue*);
+    auto getCount() const;
+    auto getCountWithPID(int) const;
+    auto init();
+    auto removeCommandQueue(IOAccelCommandQueue*);
+    auto removeCommandQueue(IOAccelCommandQueue*)::_os_log_fmt;
 };

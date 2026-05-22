@@ -6,15 +6,17 @@ class IGHardwareGuCCTBuffer {
 public: // (access info unavailable from symbols alone)
     IGHardwareGuCCTBuffer();
     IGHardwareGuCCTBuffer(OSMetaClass const*);
-    ctChannelInit();
-    free();
-    getMetaClass() const;
-    gucToHostAction(unsigned int*);
-    handleSoftwareGuCToHostInterrupt();
-    hostToGuCAction(unsigned int const*, unsigned int, int, unsigned int*, bool);
-    initWithAccelerator(IOGraphicsAccelerator2*);
-    lockQueue(UK_GEN11_CMD_TRANSPORT_BUFFER_TYPE);
-    unlockQueue(UK_GEN11_CMD_TRANSPORT_BUFFER_TYPE);
-    withOptions(IOGraphicsAccelerator2*);
+    auto ctChannelInit();
+    auto free();
+    auto getMetaClass() const;
+    auto gucToHostAction(unsigned int*);
+    auto handleSoftwareGuCToHostInterrupt();
+    auto hostToGuCAction(unsigned int const*, unsigned int, int, unsigned int*, bool);
+    auto initWithAccelerator(IOGraphicsAccelerator2*);
+    auto lockQueue(UK_GEN11_CMD_TRANSPORT_BUFFER_TYPE);
+    auto unlockQueue(UK_GEN11_CMD_TRANSPORT_BUFFER_TYPE);
+    auto withOptions(IOGraphicsAccelerator2*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHardwareGuCCTBuffer();
 };

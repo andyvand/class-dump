@@ -6,8 +6,10 @@ class IOAVBAVTPL2ReceiveQueueIdentifier {
 public: // (access info unavailable from symbols alone)
     IOAVBAVTPL2ReceiveQueueIdentifier();
     IOAVBAVTPL2ReceiveQueueIdentifier(OSMetaClass const*);
-    canDecodePacket(IOEthernetController::IOEthernetAVBPacket const*);
-    getMetaClass() const;
-    streamIdentifierForPacket(IOEthernetController::IOEthernetAVBPacket const*);
+    auto canDecodePacket(IOEthernetController::IOEthernetAVBPacket const*);
+    auto getMetaClass() const;
+    auto streamIdentifierForPacket(IOEthernetController::IOEthernetAVBPacket const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVBAVTPL2ReceiveQueueIdentifier();
 };

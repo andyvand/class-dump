@@ -6,8 +6,10 @@ class IOAccelBlockFencePort2 {
 public: // (access info unavailable from symbols alone)
     IOAccelBlockFencePort2();
     IOAccelBlockFencePort2(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithAsyncRef64(unsigned long long*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithAsyncRef64(unsigned long long*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelBlockFencePort2();
 };

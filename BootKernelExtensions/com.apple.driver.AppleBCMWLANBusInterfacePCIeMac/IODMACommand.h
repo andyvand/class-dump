@@ -4,6 +4,6 @@
 
 class IODMACommand {
 public: // (access info unavailable from symbols alone)
-    OutputLittle64(IODMACommand*, IODMACommand::Segment64, void*, unsigned int);
-    withSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
+    auto OutputLittle64(IODMACommand*, IODMACommand::Segment64, void*, unsigned int);
+    auto withSpecification(bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, IOMapper*, void*);
 };

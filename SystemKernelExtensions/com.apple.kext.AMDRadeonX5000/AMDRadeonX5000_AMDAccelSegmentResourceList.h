@@ -6,9 +6,11 @@ class AMDRadeonX5000_AMDAccelSegmentResourceList {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDAccelSegmentResourceList();
     AMDRadeonX5000_AMDAccelSegmentResourceList(OSMetaClass const*);
-    getMetaClass() const;
-    initWithSharedResourceList(IOAccelShared2*, IOAccelSegmentResourceListHeader const*, IOAccelDeviceShmem*);
-    newSegmentResourceList(IOAccelShared2*, IOAccelSegmentResourceListHeader const*, IOAccelDeviceShmem*);
-    prepare();
+    auto getMetaClass() const;
+    auto initWithSharedResourceList(IOAccelShared2*, IOAccelSegmentResourceListHeader const*, IOAccelDeviceShmem*);
+    auto newSegmentResourceList(IOAccelShared2*, IOAccelSegmentResourceListHeader const*, IOAccelDeviceShmem*);
+    auto prepare();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDAccelSegmentResourceList();
 };

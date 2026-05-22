@@ -4,18 +4,18 @@
 
 class UDFBlock {
 public: // (access info unavailable from symbols alone)
-    IsPhysBlockNumSet();
-    MarkValidBytes(long);
-    ReadBlock(UDFMount*, vnode*, long long, unsigned int, bool, UDFBlockReleaseHint);
-    ReadFileFromAllocDesc(UDFAllocDesc*, long long, UDFBlockReleaseHint, bool);
-    ReadFileFromVnode(vnode*, long long, UDFBlockReleaseHint, bool);
-    ReadFromMetaDataVnode(UDFMount*, unsigned short, unsigned int, UDFBlockReleaseHint, bool);
-    ReadLogical(UDFMount*, unsigned short, unsigned int, UDFBlockReleaseHint, bool, bool, unsigned short, unsigned int);
-    ReadPhysical(UDFMount*, unsigned int, UDFBlockReleaseHint, bool);
-    ReleaseBlock();
-    SetPhysBlockNum(long long);
-    SetPhysBlockNumFromAllocDesc(UDFMount*, UDFAllocDesc*, long long);
-    SetPhysBlockNumFromLogical(UDFMount*, UDFLogicalAddr const&);
     UDFBlock(UDFBlockWriteMode, bool, bool);
+    auto IsPhysBlockNumSet();
+    auto MarkValidBytes(long);
+    auto ReadBlock(UDFMount*, vnode*, long long, unsigned int, bool, UDFBlockReleaseHint);
+    auto ReadFileFromAllocDesc(UDFAllocDesc*, long long, UDFBlockReleaseHint, bool);
+    auto ReadFileFromVnode(vnode*, long long, UDFBlockReleaseHint, bool);
+    auto ReadFromMetaDataVnode(UDFMount*, unsigned short, unsigned int, UDFBlockReleaseHint, bool);
+    auto ReadLogical(UDFMount*, unsigned short, unsigned int, UDFBlockReleaseHint, bool, bool, unsigned short, unsigned int);
+    auto ReadPhysical(UDFMount*, unsigned int, UDFBlockReleaseHint, bool);
+    auto ReleaseBlock();
+    auto SetPhysBlockNum(long long);
+    auto SetPhysBlockNumFromAllocDesc(UDFMount*, UDFAllocDesc*, long long);
+    auto SetPhysBlockNumFromLogical(UDFMount*, UDFLogicalAddr const&);
     ~UDFBlock();
 };

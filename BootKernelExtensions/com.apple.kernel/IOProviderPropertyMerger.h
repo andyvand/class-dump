@@ -6,9 +6,11 @@ class IOProviderPropertyMerger {
 public: // (access info unavailable from symbols alone)
     IOProviderPropertyMerger();
     IOProviderPropertyMerger(OSMetaClass const*);
-    getMetaClass() const;
-    init(OSDictionary*);
-    setProperty(OSSymbol const*, OSObject*);
-    setPropertyTable(OSDictionary*);
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto setProperty(OSSymbol const*, OSObject*);
+    auto setPropertyTable(OSDictionary*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOProviderPropertyMerger();
 };

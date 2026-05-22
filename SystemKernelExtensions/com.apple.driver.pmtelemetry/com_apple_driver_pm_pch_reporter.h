@@ -4,17 +4,19 @@
 
 class com_apple_driver_pm_pch_reporter {
 public: // (access info unavailable from symbols alone)
+    auto destroy();
+    auto getMetaClass() const;
+    auto group();
+    auto init();
+    auto publish();
+    auto read_pch_xram(unsigned int, unsigned int*, bool);
+    auto setup(com_apple_driver_pmtelemetry*, IOReportLegend*);
+    auto setup(com_apple_driver_pmtelemetry*, IOReportLegend*) (.cold.1);
+    auto setup(com_apple_driver_pmtelemetry*, IOReportLegend*) (.cold.2);
+    auto subgroup();
     com_apple_driver_pm_pch_reporter();
     com_apple_driver_pm_pch_reporter(OSMetaClass const*);
-    destroy();
-    getMetaClass() const;
-    group();
-    init();
-    publish();
-    read_pch_xram(unsigned int, unsigned int*, bool);
-    setup(com_apple_driver_pmtelemetry*, IOReportLegend*);
-    setup(com_apple_driver_pmtelemetry*, IOReportLegend*) (.cold.1);
-    setup(com_apple_driver_pmtelemetry*, IOReportLegend*) (.cold.2);
-    subgroup();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_pm_pch_reporter();
 };

@@ -6,9 +6,11 @@ class BaffinVceTrapLowLatencyInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinVceTrapLowLatencyInterrupt();
     BaffinVceTrapLowLatencyInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    handle(void*);
-    initR6xx(unsigned char, bool, ATIController*);
-    initR6xx(unsigned char, bool, ATIController*)::table_size;
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initR6xx(unsigned char, bool, ATIController*)::table_size;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinVceTrapLowLatencyInterrupt();
 };

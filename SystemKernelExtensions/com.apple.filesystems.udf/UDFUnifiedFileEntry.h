@@ -4,6 +4,6 @@
 
 class UDFUnifiedFileEntry {
 public: // (access info unavailable from symbols alone)
-    CheckAD(UDFMount*);
-    Init(UDFMount*, unsigned char*);
+    auto CheckAD(UDFMount*);
+    auto Init(UDFMount*, unsigned char*);
 };

@@ -6,7 +6,9 @@ class AppleUSBXHCIEndpointSoftRetry {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIEndpointSoftRetry();
     AppleUSBXHCIEndpointSoftRetry(OSMetaClass const*);
-    getMetaClass() const;
-    isSoftRetryActive();
+    auto getMetaClass() const;
+    auto isSoftRetryActive();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCIEndpointSoftRetry();
 };

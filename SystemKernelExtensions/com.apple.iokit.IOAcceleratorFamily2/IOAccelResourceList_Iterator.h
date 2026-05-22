@@ -5,5 +5,5 @@
 class IOAccelResourceList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelResourceList&);
-    getNextResource();
+    auto getNextResource();
 };

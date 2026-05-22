@@ -6,8 +6,10 @@ class IOSKMemoryArray {
 public: // (access info unavailable from symbols alone)
     IOSKMemoryArray();
     IOSKMemoryArray(OSMetaClass const*);
-    __OSFinalClass();
-    getMetaClass() const;
-    overwriteMappingInTask(task*, unsigned long long*, unsigned int);
+    auto __OSFinalClass();
+    auto getMetaClass() const;
+    auto overwriteMappingInTask(task*, unsigned long long*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSKMemoryArray();
 };

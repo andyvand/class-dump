@@ -6,9 +6,11 @@ class AppleUSBXHCIPPT {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIPPT();
     AppleUSBXHCIPPT(OSMetaClass const*);
-    closePipeGated(IOUSBHostPipe*);
-    createDevice(tInternalUSBHostConnectionSpeed, unsigned int, unsigned int);
-    createPipeGated(AppleUSBHostController::CreatePipeArgs*, IOUSBHostPipe*&);
-    getMetaClass() const;
+    auto closePipeGated(IOUSBHostPipe*);
+    auto createDevice(tInternalUSBHostConnectionSpeed, unsigned int, unsigned int);
+    auto createPipeGated(AppleUSBHostController::CreatePipeArgs*, IOUSBHostPipe*&);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCIPPT();
 };

@@ -5,18 +5,18 @@
 class AppleUSBXHCIStreamingEndpoint {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIStreamingEndpoint(OSMetaClass const*);
-    abortAllRequests(int);
-    closeStream(AppleUSBXHCITransferRing*);
-    closeStream(unsigned int);
-    createStream(IOUSBHostDevice*, AppleUSBXHCIPipe*, unsigned int);
-    destroy();
-    enableStreams();
-    executePendingCommands();
-    free();
-    getDequeuePointer();
-    getTransferRing(unsigned int);
-    initWithParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, unsigned int, IOMapper*);
-    start(unsigned int);
-    transferEvent(StandardUSBXHCI::StandardUSBXHCITRB*, unsigned long long);
+    auto abortAllRequests(int);
+    auto closeStream(AppleUSBXHCITransferRing*);
+    auto closeStream(unsigned int);
+    auto createStream(IOUSBHostDevice*, AppleUSBXHCIPipe*, unsigned int);
+    auto destroy();
+    auto enableStreams();
+    auto executePendingCommands();
+    auto free();
+    auto getDequeuePointer();
+    auto getTransferRing(unsigned int);
+    auto initWithParameters(AppleUSBXHCI*, AppleUSBXHCIDevice*, AppleUSBXHCICommandRing*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, unsigned int, IOMapper*);
+    auto start(unsigned int);
+    auto transferEvent(StandardUSBXHCI::StandardUSBXHCITRB*, unsigned long long);
     ~AppleUSBXHCIStreamingEndpoint();
 };

@@ -6,8 +6,10 @@ class AppleUSBSortableConfigurationDescriptor {
 public: // (access info unavailable from symbols alone)
     AppleUSBSortableConfigurationDescriptor();
     AppleUSBSortableConfigurationDescriptor(OSMetaClass const*);
-    getMetaClass() const;
-    initWithValues(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
-    withDescriptors(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
+    auto getMetaClass() const;
+    auto initWithValues(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
+    auto withDescriptors(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBSortableConfigurationDescriptor();
 };

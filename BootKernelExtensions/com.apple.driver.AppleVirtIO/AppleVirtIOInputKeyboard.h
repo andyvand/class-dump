@@ -4,17 +4,17 @@
 
 class AppleVirtIOInputKeyboard {
 public: // (access info unavailable from symbols alone)
-    eventHandler(virtio_input_event const*);
-    getMetaClass() const;
-    getReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
-    handleKeyEvent(unsigned short, bool);
-    handleStart(IOService*);
-    newProductIDNumber() const;
-    newProductString() const;
-    newReportDescriptor(IOMemoryDescriptor**) const;
-    newSerialNumberString() const;
-    newVendorIDNumber() const;
-    setReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
-    stop(IOService*);
+    auto eventHandler(virtio_input_event const*);
+    auto getMetaClass() const;
+    auto getReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
+    auto handleKeyEvent(unsigned short, bool);
+    auto handleStart(IOService*);
+    auto newProductIDNumber() const;
+    auto newProductString() const;
+    auto newReportDescriptor(IOMemoryDescriptor**) const;
+    auto newSerialNumberString() const;
+    auto newVendorIDNumber() const;
+    auto setReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
+    auto stop(IOService*);
     ~AppleVirtIOInputKeyboard();
 };

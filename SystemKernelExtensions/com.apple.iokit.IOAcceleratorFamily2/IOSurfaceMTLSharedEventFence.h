@@ -6,10 +6,12 @@ class IOSurfaceMTLSharedEventFence {
 public: // (access info unavailable from symbols alone)
     IOSurfaceMTLSharedEventFence();
     IOSurfaceMTLSharedEventFence(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithSharedEvent(IOSurfaceSharedEvent*, unsigned long long);
-    notifyClient();
-    withSharedEvent(IOSurfaceSharedEvent*, unsigned long long);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithSharedEvent(IOSurfaceSharedEvent*, unsigned long long);
+    auto notifyClient();
+    auto withSharedEvent(IOSurfaceSharedEvent*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSurfaceMTLSharedEventFence();
 };

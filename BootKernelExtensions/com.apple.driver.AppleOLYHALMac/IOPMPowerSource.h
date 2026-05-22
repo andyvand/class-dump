@@ -4,11 +4,11 @@
 
 class IOPMPowerSource {
 public: // (access info unavailable from symbols alone)
-    batteryInstalled();
-    capacityPercentRemaining();
-    currentCapacity();
-    externalChargeCapable();
-    externalConnected();
-    isCharging();
-    maxCapacity();
+    auto batteryInstalled();
+    auto capacityPercentRemaining();
+    auto currentCapacity();
+    auto externalChargeCapable();
+    auto externalConnected();
+    auto isCharging();
+    auto maxCapacity();
 };

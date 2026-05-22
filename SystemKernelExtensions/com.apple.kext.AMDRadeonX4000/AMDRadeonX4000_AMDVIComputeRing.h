@@ -6,15 +6,17 @@ class AMDRadeonX4000_AMDVIComputeRing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVIComputeRing();
     AMDRadeonX4000_AMDVIComputeRing(OSMetaClass const*);
-    align();
-    allocateResources();
-    disableReadPointerWriteBack();
-    enableReadPointerWriteBack();
-    getMetaClass() const;
-    init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
-    programReadAndWritePointers(unsigned int);
-    registerLocation();
-    reset();
-    writeTail();
+    auto align();
+    auto allocateResources();
+    auto disableReadPointerWriteBack();
+    auto enableReadPointerWriteBack();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
+    auto programReadAndWritePointers(unsigned int);
+    auto registerLocation();
+    auto reset();
+    auto writeTail();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVIComputeRing();
 };

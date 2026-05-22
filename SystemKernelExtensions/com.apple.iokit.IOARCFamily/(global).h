@@ -6,8 +6,6 @@
 
 IOARCRXDevice::gMetaClass;
 IOARCRXDevice::metaClass;
-IOARCRXDevice::operator delete(void*, unsigned long);
-IOARCRXDevice::operator new(unsigned long);
 IOARCRXDevice::superClass;
 IOARCRXDevice_ktv;
 IOService::gMetaClass;

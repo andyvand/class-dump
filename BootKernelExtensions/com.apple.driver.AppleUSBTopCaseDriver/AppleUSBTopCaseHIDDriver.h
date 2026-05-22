@@ -6,8 +6,10 @@ class AppleUSBTopCaseHIDDriver {
 public: // (access info unavailable from symbols alone)
     AppleUSBTopCaseHIDDriver();
     AppleUSBTopCaseHIDDriver(OSMetaClass const*);
-    getMetaClass() const;
-    handleStart(IOService*);
-    handleStart(IOService*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto handleStart(IOService*);
+    auto handleStart(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBTopCaseHIDDriver();
 };

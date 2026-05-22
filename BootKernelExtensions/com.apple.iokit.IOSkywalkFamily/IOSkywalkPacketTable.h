@@ -6,11 +6,13 @@ class IOSkywalkPacketTable {
 public: // (access info unavailable from symbols alone)
     IOSkywalkPacketTable(unsigned int);
     IOSkywalkPacketTable(unsigned int)::kalloc_type_view_61;
-    consumePacket();
-    createPacketTable(unsigned int);
-    flushAllPackets(IOSkywalkPacketBufferPool*);
-    isValid() const;
-    producePacket(IOSkywalkPacket*);
+    auto consumePacket();
+    auto createPacketTable(unsigned int);
+    auto flushAllPackets(IOSkywalkPacketBufferPool*);
+    auto isValid() const;
+    auto producePacket(IOSkywalkPacket*);
+    void * operator new(unsigned long)::kalloc_type_view_106;
+    void operator delete(void*, unsigned long)::kalloc_type_view_106;
     ~IOSkywalkPacketTable();
     ~IOSkywalkPacketTable()::kalloc_type_view_67;
 };

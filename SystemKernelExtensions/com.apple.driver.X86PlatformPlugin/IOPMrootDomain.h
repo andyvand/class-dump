@@ -4,6 +4,6 @@
 
 class IOPMrootDomain {
 public: // (access info unavailable from symbols alone)
-    publishFeature(char const*);
-    publishFeature(char const*, unsigned int, unsigned int*);
+    auto publishFeature(char const*);
+    auto publishFeature(char const*, unsigned int, unsigned int*);
 };

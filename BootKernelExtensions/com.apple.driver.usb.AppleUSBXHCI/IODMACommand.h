@@ -4,5 +4,5 @@
 
 class IODMACommand {
 public: // (access info unavailable from symbols alone)
-    OutputHost64(IODMACommand*, IODMACommand::Segment64, void*, unsigned int);
+    auto OutputHost64(IODMACommand*, IODMACommand::Segment64, void*, unsigned int);
 };

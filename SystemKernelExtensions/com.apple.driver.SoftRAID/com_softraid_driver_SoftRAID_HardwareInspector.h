@@ -4,14 +4,16 @@
 
 class com_softraid_driver_SoftRAID_HardwareInspector {
 public: // (access info unavailable from symbols alone)
-    CacheLineMask();
-    CacheLineSize();
-    NumberCPUs();
-    RAM_Size();
-    SIMD_InstructionSetSupported();
+    auto CacheLineMask();
+    auto CacheLineSize();
+    auto NumberCPUs();
+    auto RAM_Size();
+    auto SIMD_InstructionSetSupported();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_HardwareInspector();
     com_softraid_driver_SoftRAID_HardwareInspector(OSMetaClass const*);
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_HardwareInspector();
 };

@@ -6,13 +6,9 @@
 
 IOBufferCopyController::gMetaClass;
 IOBufferCopyController::metaClass;
-IOBufferCopyController::operator delete(void*, unsigned long);
-IOBufferCopyController::operator new(unsigned long);
 IOBufferCopyController::superClass;
 IOBufferCopyControllerBase::gMetaClass;
 IOBufferCopyControllerBase::metaClass;
-IOBufferCopyControllerBase::operator delete(void*, unsigned long);
-IOBufferCopyControllerBase::operator new(unsigned long);
 IOBufferCopyControllerBase::superClass;
 IOBufferCopyControllerBase_ktv;
 IOBufferCopyController_ktv;

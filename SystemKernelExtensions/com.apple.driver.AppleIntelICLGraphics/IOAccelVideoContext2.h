@@ -5,12 +5,12 @@
 class IOAccelVideoContext2 {
 public: // (access info unavailable from symbols alone)
     IOAccelVideoContext2(OSMetaClass const*);
-    _RESERVEDIOAccelVideoContext0();
-    _RESERVEDIOAccelVideoContext1();
-    _RESERVEDIOAccelVideoContext2();
-    _RESERVEDIOAccelVideoContext3();
-    _RESERVEDIOAccelVideoContext4();
-    _RESERVEDIOAccelVideoContext5();
-    processDataBuffers(unsigned int);
+    auto _RESERVEDIOAccelVideoContext0();
+    auto _RESERVEDIOAccelVideoContext1();
+    auto _RESERVEDIOAccelVideoContext2();
+    auto _RESERVEDIOAccelVideoContext3();
+    auto _RESERVEDIOAccelVideoContext4();
+    auto _RESERVEDIOAccelVideoContext5();
+    auto processDataBuffers(unsigned int);
     ~IOAccelVideoContext2();
 };

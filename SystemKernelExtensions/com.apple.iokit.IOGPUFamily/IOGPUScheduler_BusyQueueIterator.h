@@ -5,6 +5,6 @@
 class IOGPUScheduler::BusyQueueIterator {
 public: // (access info unavailable from symbols alone)
     BusyQueueIterator(IOGPUScheduler const*);
-    getNextWorkQueue();
+    auto getNextWorkQueue();
     ~BusyQueueIterator();
 };

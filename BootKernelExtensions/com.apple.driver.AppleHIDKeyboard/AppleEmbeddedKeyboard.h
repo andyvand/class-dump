@@ -5,10 +5,10 @@
 class AppleEmbeddedKeyboard {
 public: // (access info unavailable from symbols alone)
     AppleEmbeddedKeyboard(OSMetaClass const*);
-    dispatchKeyboardEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int);
-    free();
-    init(OSDictionary*);
-    setElementValue(unsigned int, unsigned int, unsigned int);
-    setSystemProperties(OSDictionary*);
+    auto dispatchKeyboardEvent(unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int);
+    auto free();
+    auto init(OSDictionary*);
+    auto setElementValue(unsigned int, unsigned int, unsigned int);
+    auto setSystemProperties(OSDictionary*);
     ~AppleEmbeddedKeyboard();
 };

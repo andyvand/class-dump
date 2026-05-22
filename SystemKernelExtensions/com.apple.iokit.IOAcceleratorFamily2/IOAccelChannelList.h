@@ -4,9 +4,9 @@
 
 class IOAccelChannelList {
 public: // (access info unavailable from symbols alone)
-    addChannel(IOAccelChannel2*);
-    getCount() const;
-    init();
-    removeChannel(IOAccelChannel2*);
-    removeChannel(IOAccelChannel2*)::_os_log_fmt;
+    auto addChannel(IOAccelChannel2*);
+    auto getCount() const;
+    auto init();
+    auto removeChannel(IOAccelChannel2*);
+    auto removeChannel(IOAccelChannel2*)::_os_log_fmt;
 };

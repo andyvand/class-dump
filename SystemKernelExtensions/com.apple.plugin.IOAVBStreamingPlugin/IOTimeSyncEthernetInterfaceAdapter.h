@@ -4,7 +4,7 @@
 
 class IOTimeSyncEthernetInterfaceAdapter {
 public: // (access info unavailable from symbols alone)
-    completeAVBPacket(IOEthernetController::IOEthernetAVBPacket*);
-    controllerAdapter();
-    realtimeMulticastIsAllowed();
+    auto completeAVBPacket(IOEthernetController::IOEthernetAVBPacket*);
+    auto controllerAdapter();
+    auto realtimeMulticastIsAllowed();
 };

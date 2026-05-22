@@ -4,9 +4,9 @@
 
 class IOAccelDisplayPipeTransaction2 {
 public: // (access info unavailable from symbols alone)
-    getPipePostGammaTable() const;
-    getPipePreGammaTable() const;
-    getPlaneIOSurface(unsigned int, unsigned int) const;
-    getPlaneResource(unsigned int, unsigned int) const;
-    getTransactionDirtyBits() const;
+    auto getPipePostGammaTable() const;
+    auto getPipePreGammaTable() const;
+    auto getPlaneIOSurface(unsigned int, unsigned int) const;
+    auto getPlaneResource(unsigned int, unsigned int) const;
+    auto getTransactionDirtyBits() const;
 };

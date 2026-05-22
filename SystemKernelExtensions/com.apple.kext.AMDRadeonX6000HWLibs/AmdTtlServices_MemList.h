@@ -4,7 +4,7 @@
 
 class AmdTtlServices::MemList {
 public: // (access info unavailable from symbols alone)
-    add(void const*, unsigned long);
-    freeAll();
-    remove(void const*, unsigned long);
+    auto add(void const*, unsigned long);
+    auto freeAll();
+    auto remove(void const*, unsigned long);
 };

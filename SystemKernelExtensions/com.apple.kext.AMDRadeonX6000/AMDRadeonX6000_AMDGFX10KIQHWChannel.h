@@ -6,12 +6,14 @@ class AMDRadeonX6000_AMDGFX10KIQHWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDGFX10KIQHWChannel();
     AMDRadeonX6000_AMDGFX10KIQHWChannel(OSMetaClass const*);
-    getMetaClass() const;
-    startKIQ(unsigned long long, unsigned long long, AMD_PM4_QUEUE_SPEC const*, unsigned int*);
-    submitMapQueuesPacket(_eAMD_HW_RING_TYPE, unsigned int, unsigned long long, AMD_PM4_QUEUE_SPEC const*, unsigned long long);
-    submitQueryStatusPacket(_eAMD_HW_RING_TYPE, unsigned int);
-    submitSetResourcesPacket(AMD_PM4_QUEUE_SPEC const*);
-    submitUnmapQueuesPacket(_eAMD_HW_RING_TYPE, unsigned int);
-    writeDataCmdPacket(unsigned int*);
+    auto getMetaClass() const;
+    auto startKIQ(unsigned long long, unsigned long long, AMD_PM4_QUEUE_SPEC const*, unsigned int*);
+    auto submitMapQueuesPacket(_eAMD_HW_RING_TYPE, unsigned int, unsigned long long, AMD_PM4_QUEUE_SPEC const*, unsigned long long);
+    auto submitQueryStatusPacket(_eAMD_HW_RING_TYPE, unsigned int);
+    auto submitSetResourcesPacket(AMD_PM4_QUEUE_SPEC const*);
+    auto submitUnmapQueuesPacket(_eAMD_HW_RING_TYPE, unsigned int);
+    auto writeDataCmdPacket(unsigned int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDGFX10KIQHWChannel();
 };

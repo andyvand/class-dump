@@ -5,6 +5,6 @@
 class AppleUSBHostController::IOUSBControllerPowerFloorSession {
 public: // (access info unavailable from symbols alone)
     IOUSBControllerPowerFloorSession(AppleUSBHostController*);
-    startSession(unsigned long);
+    auto startSession(unsigned long);
     ~IOUSBControllerPowerFloorSession();
 };

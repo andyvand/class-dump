@@ -4,6 +4,6 @@
 
 class AppleBCMWLANCoreFirmwareLoader::MetaClass {
 public: // (access info unavailable from symbols alone)
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

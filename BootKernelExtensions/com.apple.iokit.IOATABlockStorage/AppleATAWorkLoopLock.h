@@ -6,11 +6,13 @@ class AppleATAWorkLoopLock {
 public: // (access info unavailable from symbols alone)
     AppleATAWorkLoopLock();
     AppleATAWorkLoopLock(OSMetaClass const*);
-    CreateWithWorkLoop(OSObject*, IOWorkLoop*);
-    Lock();
-    SleepGate(void*, int);
-    Unlock();
-    WakeupGate(void*, bool);
-    getMetaClass() const;
+    auto CreateWithWorkLoop(OSObject*, IOWorkLoop*);
+    auto Lock();
+    auto SleepGate(void*, int);
+    auto Unlock();
+    auto WakeupGate(void*, bool);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleATAWorkLoopLock();
 };

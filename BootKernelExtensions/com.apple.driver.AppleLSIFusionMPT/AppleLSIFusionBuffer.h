@@ -6,15 +6,17 @@ class AppleLSIFusionBuffer {
 public: // (access info unavailable from symbols alone)
     AppleLSIFusionBuffer();
     AppleLSIFusionBuffer(OSMetaClass const*);
-    Create(unsigned long long, unsigned int, IOMapper*);
-    GetAlignment();
-    GetMemoryDescriptor();
-    GetPhysicalAddress() const;
-    GetSize();
-    GetVirtualAddress() const;
-    Init(unsigned long long, unsigned int, IOMapper*);
-    ReadBytes(IOMemoryDescriptor*, unsigned int, unsigned int, unsigned int*);
-    free();
-    getMetaClass() const;
+    auto Create(unsigned long long, unsigned int, IOMapper*);
+    auto GetAlignment();
+    auto GetMemoryDescriptor();
+    auto GetPhysicalAddress() const;
+    auto GetSize();
+    auto GetVirtualAddress() const;
+    auto Init(unsigned long long, unsigned int, IOMapper*);
+    auto ReadBytes(IOMemoryDescriptor*, unsigned int, unsigned int, unsigned int*);
+    auto free();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleLSIFusionBuffer();
 };

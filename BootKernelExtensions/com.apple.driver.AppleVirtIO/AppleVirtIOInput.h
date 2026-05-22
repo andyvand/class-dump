@@ -4,23 +4,23 @@
 
 class AppleVirtIOInput {
 public: // (access info unavailable from symbols alone)
-    determineDeviceType();
-    didTerminate(IOService*, unsigned int, bool*);
-    eventQueueEventHandler(AppleVirtIOQueue*, void*);
-    executeStatusTransactionGated(AppleVirtIOInputTransaction*);
-    executeStatusTransactionGated(AppleVirtIOInputTransaction*) (.cold.1);
-    executeStatusTransactionGated(AppleVirtIOInputTransaction*) (.cold.2);
-    executeStatusTransactionGated(AppleVirtIOInputTransaction*) (.cold.3);
-    getInputConfigData(unsigned char, unsigned char, void*, unsigned char) const;
-    getMetaClass() const;
-    registerEventHandler(OSObject*, void (*)(OSObject*, virtio_input_event const*));
-    sendStatusEvent(virtio_input_event const*);
-    sendStatusEventGated(AppleVirtIOInputTransaction*);
-    setHIDProperties();
-    start(IOService*);
-    statusQueueEventHandler(AppleVirtIOQueue*, void*);
-    stop(IOService*);
-    unregisterEventHandler(OSObject*, void (*)(OSObject*, virtio_input_event const*));
-    willTerminate(IOService*, unsigned int);
+    auto determineDeviceType();
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto eventQueueEventHandler(AppleVirtIOQueue*, void*);
+    auto executeStatusTransactionGated(AppleVirtIOInputTransaction*);
+    auto executeStatusTransactionGated(AppleVirtIOInputTransaction*) (.cold.1);
+    auto executeStatusTransactionGated(AppleVirtIOInputTransaction*) (.cold.2);
+    auto executeStatusTransactionGated(AppleVirtIOInputTransaction*) (.cold.3);
+    auto getInputConfigData(unsigned char, unsigned char, void*, unsigned char) const;
+    auto getMetaClass() const;
+    auto registerEventHandler(OSObject*, void (*)(OSObject*, virtio_input_event const*));
+    auto sendStatusEvent(virtio_input_event const*);
+    auto sendStatusEventGated(AppleVirtIOInputTransaction*);
+    auto setHIDProperties();
+    auto start(IOService*);
+    auto statusQueueEventHandler(AppleVirtIOQueue*, void*);
+    auto stop(IOService*);
+    auto unregisterEventHandler(OSObject*, void (*)(OSObject*, virtio_input_event const*));
+    auto willTerminate(IOService*, unsigned int);
     ~AppleVirtIOInput();
 };

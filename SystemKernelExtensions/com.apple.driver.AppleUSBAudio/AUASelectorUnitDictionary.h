@@ -6,9 +6,11 @@ class AUASelectorUnitDictionary {
 public: // (access info unavailable from symbols alone)
     AUASelectorUnitDictionary();
     AUASelectorUnitDictionary(OSMetaClass const*);
-    getMetaClass() const;
-    getNumInPins(unsigned char*);
-    initSourceIDs(unsigned char const*, unsigned char);
-    initSourceIDs(unsigned char const*, unsigned char) (.cold.1);
+    auto getMetaClass() const;
+    auto getNumInPins(unsigned char*);
+    auto initSourceIDs(unsigned char const*, unsigned char);
+    auto initSourceIDs(unsigned char const*, unsigned char) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AUASelectorUnitDictionary();
 };

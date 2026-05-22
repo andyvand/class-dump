@@ -5,14 +5,14 @@
 class IOGeneralMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     IOGeneralMemoryDescriptor(OSMetaClass const*);
-    dmaCommandOperation(unsigned int, void*, unsigned int) const;
-    doMap(_vm_map*, unsigned long long*, unsigned int, unsigned long long, unsigned long long);
-    doUnmap(_vm_map*, unsigned long long, unsigned long long);
-    getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
-    getPreparationID();
-    initWithOptions(void*, unsigned int, unsigned int, task*, unsigned int, IOMapper*);
-    makeMapping(IOMemoryDescriptor*, task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
-    serialize(OSSerialize*) const;
-    setPurgeable(unsigned int, unsigned int*);
+    auto dmaCommandOperation(unsigned int, void*, unsigned int) const;
+    auto doMap(_vm_map*, unsigned long long*, unsigned int, unsigned long long, unsigned long long);
+    auto doUnmap(_vm_map*, unsigned long long, unsigned long long);
+    auto getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
+    auto getPreparationID();
+    auto initWithOptions(void*, unsigned int, unsigned int, task*, unsigned int, IOMapper*);
+    auto makeMapping(IOMemoryDescriptor*, task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
+    auto serialize(OSSerialize*) const;
+    auto setPurgeable(unsigned int, unsigned int*);
     ~IOGeneralMemoryDescriptor();
 };

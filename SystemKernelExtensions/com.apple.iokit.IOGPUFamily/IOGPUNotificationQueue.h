@@ -6,15 +6,17 @@ class IOGPUNotificationQueue {
 public: // (access info unavailable from symbols alone)
     IOGPUNotificationQueue();
     IOGPUNotificationQueue(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getSharedDataQueue() const;
-    get_notification_queue_address() const;
-    initWithEntries(task*, unsigned int, unsigned int);
-    lockQueue();
-    setNotificationPort(ipc_port*);
-    setNotificationPort(ipc_port*)::_os_log_fmt;
-    unlockQueue();
-    withEntries(task*, unsigned int, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getSharedDataQueue() const;
+    auto get_notification_queue_address() const;
+    auto initWithEntries(task*, unsigned int, unsigned int);
+    auto lockQueue();
+    auto setNotificationPort(ipc_port*);
+    auto setNotificationPort(ipc_port*)::_os_log_fmt;
+    auto unlockQueue();
+    auto withEntries(task*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUNotificationQueue();
 };

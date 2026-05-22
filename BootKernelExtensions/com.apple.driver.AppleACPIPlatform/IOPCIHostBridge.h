@@ -5,8 +5,8 @@
 class IOPCIHostBridge {
 public: // (access info unavailable from symbols alone)
     IOPCIHostBridge(OSMetaClass const*);
-    getLinkSpeed(tIOPCILinkSpeed*);
-    probe(IOService*, int*);
-    setLinkSpeed(tIOPCILinkSpeed, bool);
+    auto getLinkSpeed(tIOPCILinkSpeed*);
+    auto probe(IOService*, int*);
+    auto setLinkSpeed(tIOPCILinkSpeed, bool);
     ~IOPCIHostBridge();
 };

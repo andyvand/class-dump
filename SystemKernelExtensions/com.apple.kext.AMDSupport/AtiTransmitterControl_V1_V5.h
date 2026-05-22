@@ -6,9 +6,11 @@ class AtiTransmitterControl_V1_V5 {
 public: // (access info unavailable from symbols alone)
     AtiTransmitterControl_V1_V5();
     AtiTransmitterControl_V1_V5(OSMetaClass const*);
-    getMetaClass() const;
-    stringifyClockSourceId(unsigned char);
-    translatePllIndexToClockSourceId(unsigned char);
-    transmitterControl(ActiveConnectorInfo const*, AtiAtomTransmitterAction, unsigned char, unsigned char);
+    auto getMetaClass() const;
+    auto stringifyClockSourceId(unsigned char);
+    auto translatePllIndexToClockSourceId(unsigned char);
+    auto transmitterControl(ActiveConnectorInfo const*, AtiAtomTransmitterAction, unsigned char, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiTransmitterControl_V1_V5();
 };

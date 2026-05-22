@@ -4,5 +4,5 @@
 
 class IOStorage {
 public: // (access info unavailable from symbols alone)
-    complete(IOStorageCompletion*, int, unsigned long long);
+    auto complete(IOStorageCompletion*, int, unsigned long long);
 };

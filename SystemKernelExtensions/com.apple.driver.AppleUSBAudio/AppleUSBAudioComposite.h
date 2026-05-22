@@ -6,7 +6,9 @@ class AppleUSBAudioComposite {
 public: // (access info unavailable from symbols alone)
     AppleUSBAudioComposite();
     AppleUSBAudioComposite(OSMetaClass const*);
-    getMetaClass() const;
-    probe(IOService*, int*);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBAudioComposite();
 };

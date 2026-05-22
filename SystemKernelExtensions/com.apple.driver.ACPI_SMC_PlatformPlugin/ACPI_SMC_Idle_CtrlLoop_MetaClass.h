@@ -5,6 +5,6 @@
 class ACPI_SMC_Idle_CtrlLoop::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

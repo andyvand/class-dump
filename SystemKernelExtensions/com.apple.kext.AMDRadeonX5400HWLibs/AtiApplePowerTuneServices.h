@@ -5,6 +5,6 @@
 class AtiApplePowerTuneServices {
 public: // (access info unavailable from symbols alone)
     AtiApplePowerTuneServices(PP_Instance*, PowerPlayCallbacks*);
-    createPowerTuneServices(PP_Instance*, PowerPlayCallbacks*);
+    auto createPowerTuneServices(PP_Instance*, PowerPlayCallbacks*);
     ~AtiApplePowerTuneServices();
 };

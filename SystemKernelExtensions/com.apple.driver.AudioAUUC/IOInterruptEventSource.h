@@ -4,5 +4,5 @@
 
 class IOInterruptEventSource {
 public: // (access info unavailable from symbols alone)
-    interruptEventSource(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), IOService*, int);
+    auto interruptEventSource(OSObject*, void (*)(OSObject*, IOInterruptEventSource*, int), IOService*, int);
 };

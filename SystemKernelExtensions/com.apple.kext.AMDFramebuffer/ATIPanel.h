@@ -4,8 +4,8 @@
 
 class ATIPanel {
 public: // (access info unavailable from symbols alone)
-    getIntegerProperty(char const*);
-    getMode();
-    setIntegerProperty(char const*, unsigned int);
-    updatePanelInfo(IORegistryEntry*);
+    auto getIntegerProperty(char const*);
+    auto getMode();
+    auto setIntegerProperty(char const*, unsigned int);
+    auto updatePanelInfo(IORegistryEntry*);
 };

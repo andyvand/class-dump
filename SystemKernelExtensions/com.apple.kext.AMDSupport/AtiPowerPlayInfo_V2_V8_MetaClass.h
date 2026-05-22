@@ -5,6 +5,6 @@
 class AtiPowerPlayInfo_V2_V8::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

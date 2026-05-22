@@ -4,5 +4,5 @@
 
 class CCStream {
 public: // (access info unavailable from symbols alone)
-    withPipeAndName(CCPipe*, char const*, CCStreamOptions const*);
+    auto withPipeAndName(CCPipe*, char const*, CCStreamOptions const*);
 };

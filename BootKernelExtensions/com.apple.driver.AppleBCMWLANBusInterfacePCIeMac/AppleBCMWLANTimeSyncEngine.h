@@ -4,19 +4,19 @@
 
 class AppleBCMWLANTimeSyncEngine {
 public: // (access info unavailable from symbols alone)
-    completeHostTimeSyncMessage(IO80211Buffer*);
-    convertFWToHostTimestamp(BCOMIPCTimestamp const&, unsigned long long*, bool*);
-    disablePacketTimestamping();
-    disableTimeSyncEngine(bool);
-    dumpTimeSyncInfo(char*, int, int);
-    enablePacketTimestamping();
-    enableTimeSyncEngine();
-    extractTickCountAndClockID(BCOMIPCTimestamp const&, unsigned long long*, unsigned char*);
-    getTimeSyncInfo(apple80211_timesync_info*);
-    isManualTSZero();
-    isTimeSyncEngineEnabled();
-    receiveFirmwareTimeSyncMessage(unsigned short, unsigned char const*, unsigned short);
-    resetTimeSyncEngine();
-    testTimeSyncEngine(unsigned int);
-    withProviderAndBus(IOService*, AppleBCMWLANBusInterface*);
+    auto completeHostTimeSyncMessage(IO80211Buffer*);
+    auto convertFWToHostTimestamp(BCOMIPCTimestamp const&, unsigned long long*, bool*);
+    auto disablePacketTimestamping();
+    auto disableTimeSyncEngine(bool);
+    auto dumpTimeSyncInfo(char*, int, int);
+    auto enablePacketTimestamping();
+    auto enableTimeSyncEngine();
+    auto extractTickCountAndClockID(BCOMIPCTimestamp const&, unsigned long long*, unsigned char*);
+    auto getTimeSyncInfo(apple80211_timesync_info*);
+    auto isManualTSZero();
+    auto isTimeSyncEngineEnabled();
+    auto receiveFirmwareTimeSyncMessage(unsigned short, unsigned char const*, unsigned short);
+    auto resetTimeSyncEngine();
+    auto testTimeSyncEngine(unsigned int);
+    auto withProviderAndBus(IOService*, AppleBCMWLANBusInterface*);
 };

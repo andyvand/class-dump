@@ -6,6 +6,8 @@ class IOAVBAudioLoader {
 public: // (access info unavailable from symbols alone)
     IOAVBAudioLoader();
     IOAVBAudioLoader(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVBAudioLoader();
 };

@@ -6,7 +6,9 @@ class IGHardwareRingBufferVEBox {
 public: // (access info unavailable from symbols alone)
     IGHardwareRingBufferVEBox();
     IGHardwareRingBufferVEBox(OSMetaClass const*);
-    getMetaClass() const;
-    init(IGHardwareContext*);
+    auto getMetaClass() const;
+    auto init(IGHardwareContext*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHardwareRingBufferVEBox();
 };

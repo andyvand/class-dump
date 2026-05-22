@@ -5,20 +5,22 @@
 class AMDRadeonX6000_AMDAccelResourceAddr1 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDAccelResourceAddr1(OSMetaClass const*);
-    determineMaskMemoryAllocBytes(unsigned int, unsigned int&, _AMD_MASK_SURFACE_BUFFER_PARAMS const*);
-    determineMaskMemoryAllocBytesForColorBufferAddr1(unsigned int, unsigned int&, bool, _AMD_MASK_SURFACE_BUFFER_PARAMS const*);
-    determineMaskMemoryAllocBytesForDccAddr1(unsigned int, unsigned int&, _AMD_MASK_SURFACE_BUFFER_PARAMS const*);
-    determineMaskMemoryAllocBytesForDepthStencilBufferAddr1(unsigned int, unsigned int&, _AMD_MASK_SURFACE_BUFFER_PARAMS const*);
-    fillUBMSurfaceInfoBacking(_UBM_SURFINFO*, IOAccelMemoryMap*, unsigned int, unsigned int, unsigned int, bool*) const;
-    getAlignmentRequirements(unsigned int*, unsigned long long*) const;
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, IOAccelShared2*, unsigned int);
-    initIOSurfacePlane(unsigned int, unsigned int, unsigned int, unsigned int, bool);
-    initialize(IOAccelNewResourceArgs*, unsigned long long);
-    isLinearAligned(_UBM_SURFINFO*) const;
-    isLinearGeneral(_UBM_SURFINFO*) const;
-    isTilingLinear(AMD_TILING_INFO*) const;
-    shapeSurfaceBuffer(IOAccelSurface*, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char, bool, bool, bool);
-    stencilBufferOffset(IOAccelMemoryMap*, unsigned int, unsigned int, unsigned int) const;
+    auto determineMaskMemoryAllocBytes(unsigned int, unsigned int&, _AMD_MASK_SURFACE_BUFFER_PARAMS const*);
+    auto determineMaskMemoryAllocBytesForColorBufferAddr1(unsigned int, unsigned int&, bool, _AMD_MASK_SURFACE_BUFFER_PARAMS const*);
+    auto determineMaskMemoryAllocBytesForDccAddr1(unsigned int, unsigned int&, _AMD_MASK_SURFACE_BUFFER_PARAMS const*);
+    auto determineMaskMemoryAllocBytesForDepthStencilBufferAddr1(unsigned int, unsigned int&, _AMD_MASK_SURFACE_BUFFER_PARAMS const*);
+    auto fillUBMSurfaceInfoBacking(_UBM_SURFINFO*, IOAccelMemoryMap*, unsigned int, unsigned int, unsigned int, bool*) const;
+    auto getAlignmentRequirements(unsigned int*, unsigned long long*) const;
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, IOAccelShared2*, unsigned int);
+    auto initIOSurfacePlane(unsigned int, unsigned int, unsigned int, unsigned int, bool);
+    auto initialize(IOAccelNewResourceArgs*, unsigned long long);
+    auto isLinearAligned(_UBM_SURFINFO*) const;
+    auto isLinearGeneral(_UBM_SURFINFO*) const;
+    auto isTilingLinear(AMD_TILING_INFO*) const;
+    auto shapeSurfaceBuffer(IOAccelSurface*, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char, bool, bool, bool);
+    auto stencilBufferOffset(IOAccelMemoryMap*, unsigned int, unsigned int, unsigned int) const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDAccelResourceAddr1();
 };

@@ -4,5 +4,5 @@
 
 class IOThunderboltData {
 public: // (access info unavailable from symbols alone)
-    withBytes(void const*, unsigned int);
+    auto withBytes(void const*, unsigned int);
 };

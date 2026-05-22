@@ -5,13 +5,15 @@
 class AMDReporterManager {
 public: // (access info unavailable from symbols alone)
     AMDReporterManager(AppleMultitouchDevice*);
-    configureReport(IOReportChannelList*, unsigned int, void*, void*);
-    createReporters();
-    createReporters()::_os_log_fmt;
-    createReporters()::kalloc_type_view_132;
-    fromDevice(AppleMultitouchDevice*);
-    updateReport();
-    updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto configureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto createReporters();
+    auto createReporters()::_os_log_fmt;
+    auto createReporters()::kalloc_type_view_132;
+    auto fromDevice(AppleMultitouchDevice*);
+    auto updateReport();
+    auto updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    void * operator new(unsigned long)::kalloc_type_view_21;
+    void operator delete(void*, unsigned long)::kalloc_type_view_21;
     ~AMDReporterManager();
     ~AMDReporterManager()::kalloc_type_view_53;
 };

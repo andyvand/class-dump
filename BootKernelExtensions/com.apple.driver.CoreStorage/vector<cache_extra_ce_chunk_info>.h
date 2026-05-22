@@ -4,5 +4,5 @@
 
 class vector<cache_extra::ce_chunk_info> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
+    auto reserve(unsigned long);
 };

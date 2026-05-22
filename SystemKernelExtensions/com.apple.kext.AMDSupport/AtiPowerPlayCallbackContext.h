@@ -6,15 +6,17 @@ class AtiPowerPlayCallbackContext {
 public: // (access info unavailable from symbols alone)
     AtiPowerPlayCallbackContext();
     AtiPowerPlayCallbackContext(OSMetaClass const*);
-    createCallback(unsigned int, OSObject*, OSObject*, void*, void*);
-    createCallbackContext(AtiPowerPlayCallbackContext::ContextInfo&);
-    equals(OSObject*);
-    getCallbackRef();
-    getContext();
-    getIrqSrcId();
-    getMetaClass() const;
-    initWithCallback(unsigned int, OSObject*, OSObject*, void*, void*);
-    initWithContext(AtiPowerPlayCallbackContext::ContextInfo&);
-    setCallbackRef(void*);
+    auto createCallback(unsigned int, OSObject*, OSObject*, void*, void*);
+    auto createCallbackContext(AtiPowerPlayCallbackContext::ContextInfo&);
+    auto equals(OSObject*);
+    auto getCallbackRef();
+    auto getContext();
+    auto getIrqSrcId();
+    auto getMetaClass() const;
+    auto initWithCallback(unsigned int, OSObject*, OSObject*, void*, void*);
+    auto initWithContext(AtiPowerPlayCallbackContext::ContextInfo&);
+    auto setCallbackRef(void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPowerPlayCallbackContext();
 };

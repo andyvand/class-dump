@@ -4,12 +4,12 @@
 
 class com_apple_filesystems_lifs {
 public: // (access info unavailable from symbols alone)
-    free();
-    getMetaClass() const;
-    init(OSDictionary*);
-    probe(IOService*, int*);
-    start(IOService*);
-    stop(IOService*);
-    stop(IOService*) (.cold.1);
+    auto free();
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto stop(IOService*) (.cold.1);
     ~com_apple_filesystems_lifs();
 };

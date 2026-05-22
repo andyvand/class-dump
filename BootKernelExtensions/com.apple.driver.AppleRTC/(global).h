@@ -6,13 +6,9 @@
 
 AppleRTC::gMetaClass;
 AppleRTC::metaClass;
-AppleRTC::operator delete(void*, unsigned long);
-AppleRTC::operator new(unsigned long);
 AppleRTC::superClass;
 AppleRTCUserClient::gMetaClass;
 AppleRTCUserClient::metaClass;
-AppleRTCUserClient::operator delete(void*, unsigned long);
-AppleRTCUserClient::operator new(unsigned long);
 AppleRTCUserClient::superClass;
 AppleRTCUserClient_ktv;
 AppleRTC_ktv;
@@ -22,9 +18,9 @@ IOUserClient::gMetaClass;
 OSData::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
-convertDateTimeToSeconds(RTCDateTime const*);
-convertPMCalendarToDateTime(IOPMCalendarStruct const*, RTCDateTime*, OSSymbol const*);
-convertSecondsToDateTime(long, RTCDateTime*);
+auto convertDateTimeToSeconds(RTCDateTime const*);
+auto convertPMCalendarToDateTime(IOPMCalendarStruct const*, RTCDateTime*, OSSymbol const*);
+auto convertSecondsToDateTime(long, RTCDateTime*);
 daysbymonth;
 gAppleRTCFlags;
 lydaysbymonth;

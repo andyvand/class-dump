@@ -4,12 +4,12 @@
 
 class IODataQueueDispatchSource {
 public: // (access info unavailable from symbols alone)
-    CanEnqueueData(unsigned int);
-    CanEnqueueData(unsigned int, unsigned int);
-    DataAvailable_Invoke(IORPC, OSMetaClassBase*, void (*)(OSMetaClassBase*, OSAction*), OSMetaClass const*);
-    DequeueWithCoalesce(bool*, void (void const*, unsigned long) block_pointer);
-    EnqueueWithCoalesce(unsigned int, bool*, void (void*, unsigned long) block_pointer);
-    IsDataAvailable();
-    SendDataAvailable();
-    SetDataAvailableHandler(OSAction*, int (*)(OSMetaClassBase*, IORPC));
+    auto CanEnqueueData(unsigned int);
+    auto CanEnqueueData(unsigned int, unsigned int);
+    auto DataAvailable_Invoke(IORPC, OSMetaClassBase*, void (*)(OSMetaClassBase*, OSAction*), OSMetaClass const*);
+    auto DequeueWithCoalesce(bool*, void (void const*, unsigned long) block_pointer);
+    auto EnqueueWithCoalesce(unsigned int, bool*, void (void*, unsigned long) block_pointer);
+    auto IsDataAvailable();
+    auto SendDataAvailable();
+    auto SetDataAvailableHandler(OSAction*, int (*)(OSMetaClassBase*, IORPC));
 };

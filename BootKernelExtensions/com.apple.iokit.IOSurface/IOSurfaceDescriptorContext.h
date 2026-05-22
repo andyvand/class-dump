@@ -6,9 +6,11 @@ class IOSurfaceDescriptorContext {
 public: // (access info unavailable from symbols alone)
     IOSurfaceDescriptorContext();
     IOSurfaceDescriptorContext(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init(IOMultiMemoryDescriptor*, OSSharedPtr<OSArray>, unsigned long long, OSSharedPtr<IOSurfaceMemoryPoolBunch>);
-    write_debug_info(OSSharedPtr<OSDictionary>);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOMultiMemoryDescriptor*, OSSharedPtr<OSArray>, unsigned long long, OSSharedPtr<IOSurfaceMemoryPoolBunch>);
+    auto write_debug_info(OSSharedPtr<OSDictionary>);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSurfaceDescriptorContext();
 };

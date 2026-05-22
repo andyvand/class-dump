@@ -5,9 +5,9 @@
 class IOSlaveEndpoint {
 public: // (access info unavailable from symbols alone)
     IOSlaveEndpoint(OSMetaClass const*);
-    disable();
-    free();
-    setAction(void (*)(OSObject*, void*, void*));
-    signalDoorbell();
+    auto disable();
+    auto free();
+    auto setAction(void (*)(OSObject*, void*, void*));
+    auto signalDoorbell();
     ~IOSlaveEndpoint();
 };

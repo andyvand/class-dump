@@ -4,4 +4,4 @@
 
 // Global C++ functions
 
-smb_sleepwakehandler(void*, void*, unsigned int, IOService*, void*, unsigned long);
+auto smb_sleepwakehandler(void*, void*, unsigned int, IOService*, void*, unsigned long);

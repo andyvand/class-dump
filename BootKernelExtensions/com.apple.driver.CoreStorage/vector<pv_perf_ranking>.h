@@ -4,5 +4,5 @@
 
 class vector<pv_perf_ranking> {
 public: // (access info unavailable from symbols alone)
-    resize(unsigned long, pv_perf_ranking const&);
+    auto resize(unsigned long, pv_perf_ranking const&);
 };

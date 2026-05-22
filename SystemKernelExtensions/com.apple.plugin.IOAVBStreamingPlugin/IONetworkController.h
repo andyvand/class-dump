@@ -4,5 +4,5 @@
 
 class IONetworkController {
 public: // (access info unavailable from symbols alone)
-    getCurrentMedium() const;
+    auto getCurrentMedium() const;
 };

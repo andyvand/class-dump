@@ -4,7 +4,7 @@
 
 class spar::RefCountedFinalSubclass<spar::VMMap> {
 public: // (access info unavailable from symbols alone)
-    unsafeDelete_doNotOverrideExceptFromRefCountedFinalSubclass();
-    unsafeDelete_doNotOverrideExceptFromRefCountedFinalSubclass() (.cold.1);
-    unsafeDelete_doNotOverrideExceptFromRefCountedFinalSubclass()::kalloc_type_view_265;
+    auto unsafeDelete_doNotOverrideExceptFromRefCountedFinalSubclass();
+    auto unsafeDelete_doNotOverrideExceptFromRefCountedFinalSubclass() (.cold.1);
+    auto unsafeDelete_doNotOverrideExceptFromRefCountedFinalSubclass()::kalloc_type_view_265;
 };

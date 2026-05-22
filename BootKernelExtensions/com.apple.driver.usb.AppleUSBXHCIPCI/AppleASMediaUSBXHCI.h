@@ -6,11 +6,13 @@ class AppleASMediaUSBXHCI {
 public: // (access info unavailable from symbols alone)
     AppleASMediaUSBXHCI();
     AppleASMediaUSBXHCI(OSMetaClass const*);
-    createInternalDevice(unsigned int);
-    createInternalEndpoint(AppleUSBXHCIDevice*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
-    createIsochronousRequestPool();
-    getMetaClass() const;
-    regRead64(unsigned long long, unsigned int);
-    regWrite64(unsigned long long, unsigned int, unsigned long long);
+    auto createInternalDevice(unsigned int);
+    auto createInternalEndpoint(AppleUSBXHCIDevice*, StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*);
+    auto createIsochronousRequestPool();
+    auto getMetaClass() const;
+    auto regRead64(unsigned long long, unsigned int);
+    auto regWrite64(unsigned long long, unsigned int, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleASMediaUSBXHCI();
 };

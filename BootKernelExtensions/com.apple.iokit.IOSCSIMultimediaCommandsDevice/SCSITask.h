@@ -4,5 +4,5 @@
 
 class SCSITask {
 public: // (access info unavailable from symbols alone)
-    GetCommandDescriptorBlock(unsigned char (*) [16]);
+    auto GetCommandDescriptorBlock(unsigned char (*) [16]);
 };

@@ -6,7 +6,9 @@ class AppleRSMCommand {
 public: // (access info unavailable from symbols alone)
     AppleRSMCommand();
     AppleRSMCommand(OSMetaClass const*);
-    getMetaClass() const;
-    reset();
+    auto getMetaClass() const;
+    auto reset();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleRSMCommand();
 };

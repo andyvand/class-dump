@@ -6,10 +6,12 @@ class AtiPowerPlayInfo_V2_V11 {
 public: // (access info unavailable from symbols alone)
     AtiPowerPlayInfo_V2_V11();
     AtiPowerPlayInfo_V2_V11(OSMetaClass const*);
-    debugTable() const;
-    getInterGpuInfo(InterGpuInfo&);
-    getMaxClocks(unsigned int&, unsigned int&);
-    getMetaClass() const;
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto debugTable() const;
+    auto getInterGpuInfo(InterGpuInfo&);
+    auto getMaxClocks(unsigned int&, unsigned int&);
+    auto getMetaClass() const;
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiPowerPlayInfo_V2_V11();
 };

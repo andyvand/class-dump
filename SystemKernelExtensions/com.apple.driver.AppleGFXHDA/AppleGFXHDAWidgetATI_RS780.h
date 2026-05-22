@@ -6,12 +6,14 @@ class AppleGFXHDAWidgetATI_RS780 {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAWidgetATI_RS780();
     AppleGFXHDAWidgetATI_RS780(OSMetaClass const*);
-    cachedPinSense(bool*, unsigned int*);
-    getMetaClass() const;
-    getSampleLatency();
-    initForNodeID(unsigned short, OSObject*, OSObject*);
-    isRetaskable(void*);
-    setConverterChannelCount(unsigned int);
-    supportsDisableSlots();
+    auto cachedPinSense(bool*, unsigned int*);
+    auto getMetaClass() const;
+    auto getSampleLatency();
+    auto initForNodeID(unsigned short, OSObject*, OSObject*);
+    auto isRetaskable(void*);
+    auto setConverterChannelCount(unsigned int);
+    auto supportsDisableSlots();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAWidgetATI_RS780();
 };

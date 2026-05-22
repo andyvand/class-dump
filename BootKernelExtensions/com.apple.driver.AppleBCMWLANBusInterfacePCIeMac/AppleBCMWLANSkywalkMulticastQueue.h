@@ -5,7 +5,7 @@
 class AppleBCMWLANSkywalkMulticastQueue {
 public: // (access info unavailable from symbols alone)
     AppleBCMWLANSkywalkMulticastQueue(OSMetaClass const*);
-    enable();
-    initWithInterface(IO80211SkywalkInterface*);
+    auto enable();
+    auto initWithInterface(IO80211SkywalkInterface*);
     ~AppleBCMWLANSkywalkMulticastQueue();
 };

@@ -18,8 +18,6 @@ VIDtoVoltage;
 X86PlatformPlugin::metaClass;
 X86PlatformShim::gMetaClass;
 X86PlatformShim::metaClass;
-X86PlatformShim::operator delete(void*, unsigned long);
-X86PlatformShim::operator new(unsigned long);
 X86PlatformShim::superClass;
 X86PlatformShim_ktv;
 vtable for IOService;

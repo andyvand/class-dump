@@ -4,18 +4,18 @@
 
 class IOSurfaceRoot {
 public: // (access info unavailable from symbols alone)
-    add_display_footprint_changed_callback(void (*)(void*), void*);
-    copyPortNameForSurfaceInTask(task*, IOSurface*, unsigned int*);
-    createSurface(task*, OSDictionary*);
-    createSurfacePtr(task*, OSSharedPtr<OSDictionary>, IOSurface*);
-    describeAllocationsWithNames(void*, void (*)(void*, IOMemoryDescriptor*, OSString*, unsigned int, int*, int));
-    generateUniqueAcceleratorID(void*);
-    getGraphicsCommPageDescriptor() const;
-    get_current_display_surface_footprint() const;
-    lookupSurface(unsigned int, task*);
-    newWiredMemoryDescriptorFromMemoryPool(unsigned long, unsigned int, unsigned long long, task*, bool, int*);
-    release_surface_async(IOSurface*);
-    remove_display_footprint_changed_callback(void (*)(void*), void*);
-    sanitizeContentProtectionOptions(unsigned long long);
-    updateLimits(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int);
+    auto add_display_footprint_changed_callback(void (*)(void*), void*);
+    auto copyPortNameForSurfaceInTask(task*, IOSurface*, unsigned int*);
+    auto createSurface(task*, OSDictionary*);
+    auto createSurfacePtr(task*, OSSharedPtr<OSDictionary>, IOSurface*);
+    auto describeAllocationsWithNames(void*, void (*)(void*, IOMemoryDescriptor*, OSString*, unsigned int, int*, int));
+    auto generateUniqueAcceleratorID(void*);
+    auto getGraphicsCommPageDescriptor() const;
+    auto get_current_display_surface_footprint() const;
+    auto lookupSurface(unsigned int, task*);
+    auto newWiredMemoryDescriptorFromMemoryPool(unsigned long, unsigned int, unsigned long long, task*, bool, int*);
+    auto release_surface_async(IOSurface*);
+    auto remove_display_footprint_changed_callback(void (*)(void*), void*);
+    auto sanitizeContentProtectionOptions(unsigned long long);
+    auto updateLimits(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int);
 };

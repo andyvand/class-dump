@@ -5,13 +5,15 @@
 class AMDRadeonX5000_AMDVCEHWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDVCEHWChannel(OSMetaClass const*);
-    alignIBCommandBuffer(unsigned int*, unsigned int);
-    disableTimestampInterrupt();
-    free();
-    getMetaClass() const;
-    getPollingParams(unsigned int&, unsigned int&);
-    init(int, AMDRadeonX5000_IAMDHWInterface*, AMDRadeonX5000_IAMDHWEngine*, AMDRadeonX5000_IAMDHWRing*, char const*);
-    setTimestampInterruptState(bool);
-    submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto alignIBCommandBuffer(unsigned int*, unsigned int);
+    auto disableTimestampInterrupt();
+    auto free();
+    auto getMetaClass() const;
+    auto getPollingParams(unsigned int&, unsigned int&);
+    auto init(int, AMDRadeonX5000_IAMDHWInterface*, AMDRadeonX5000_IAMDHWEngine*, AMDRadeonX5000_IAMDHWRing*, char const*);
+    auto setTimestampInterruptState(bool);
+    auto submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDVCEHWChannel();
 };

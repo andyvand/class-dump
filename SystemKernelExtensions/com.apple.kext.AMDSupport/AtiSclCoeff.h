@@ -5,11 +5,13 @@
 class AtiSclCoeff {
 public: // (access info unavailable from symbols alone)
     AtiSclCoeff(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initScalerCoefficient(ATIController*);
-    isDoubleBuffered();
-    lanczos(double, double);
-    sinc(double);
+    auto free();
+    auto getMetaClass() const;
+    auto initScalerCoefficient(ATIController*);
+    auto isDoubleBuffered();
+    auto lanczos(double, double);
+    auto sinc(double);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSclCoeff();
 };

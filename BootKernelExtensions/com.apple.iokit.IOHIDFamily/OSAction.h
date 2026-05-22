@@ -4,11 +4,11 @@
 
 class OSAction {
 public: // (access info unavailable from symbols alone)
-    CreateWithTypeName(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
-    GetReference();
     OSAction(OSMetaClass const*);
-    SetAbortedHandler(void () block_pointer);
-    _Dispatch(OSAction*, IORPC);
-    free();
+    auto CreateWithTypeName(OSObject*, unsigned long long, unsigned long long, unsigned long, OSString*, OSAction**);
+    auto GetReference();
+    auto SetAbortedHandler(void () block_pointer);
+    auto _Dispatch(OSAction*, IORPC);
+    auto free();
     ~OSAction();
 };

@@ -6,10 +6,12 @@ class AppleEthernetRLClock {
 public: // (access info unavailable from symbols alone)
     AppleEthernetRLClock();
     AppleEthernetRLClock(OSMetaClass const*);
-    alloc_clock(IOService*, char const*);
-    getMetaClass() const;
-    init(OSString*, OSDictionary*);
-    start(IOService*);
-    takeCrossTimestamp(unsigned long long&, unsigned long long&, unsigned long long&);
+    auto alloc_clock(IOService*, char const*);
+    auto getMetaClass() const;
+    auto init(OSString*, OSDictionary*);
+    auto start(IOService*);
+    auto takeCrossTimestamp(unsigned long long&, unsigned long long&, unsigned long long&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEthernetRLClock();
 };

@@ -4,14 +4,14 @@
 
 class AppleBCMWLAN11axAdapter {
 public: // (access info unavailable from symbols alone)
-    configureBandWidth(int);
-    configureUpLinkOFDMA(unsigned int);
-    free();
-    free()::kalloc_type_view_100;
-    getBandWidthIndex(int);
-    getMetaClass() const;
-    handleUlOfdmaConfigurationAsyncCallback(CommandID&, int, CommandRxPayload&, void*);
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_72;
-    withDriver(AppleBCMWLANCore*);
+    auto configureBandWidth(int);
+    auto configureUpLinkOFDMA(unsigned int);
+    auto free();
+    auto free()::kalloc_type_view_100;
+    auto getBandWidthIndex(int);
+    auto getMetaClass() const;
+    auto handleUlOfdmaConfigurationAsyncCallback(CommandID&, int, CommandRxPayload&, void*);
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_72;
+    auto withDriver(AppleBCMWLANCore*);
     ~AppleBCMWLAN11axAdapter();
 };

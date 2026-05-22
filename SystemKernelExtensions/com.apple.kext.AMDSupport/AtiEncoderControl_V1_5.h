@@ -6,14 +6,16 @@ class AtiEncoderControl_V1_5 {
 public: // (access info unavailable from symbols alone)
     AtiEncoderControl_V1_5();
     AtiEncoderControl_V1_5(OSMetaClass const*);
-    encoderControl(ActiveConnectorInfo const*, AtiAtomEncoderAction);
-    encoderDpObfuscation(ActiveConnectorInfo const*, AtiAtomDpObfMode);
-    getMetaClass() const;
-    populateDpObfuscationParameters(ActiveConnectorInfo const*, dp_obfuscation_set_parameters_v1_5*, AtiAtomDpObfMode);
-    populateGeneralParameters(ActiveConnectorInfo const*, dig_encoder_generic_cmd_parameters_v1_5*, AtiAtomEncoderAction);
-    populateStreamSetupParameters(ActiveConnectorInfo const*, dig_encoder_stream_setup_parameters_v1_5*);
-    stringifyBitsPerColor(unsigned short);
-    stringifyDpObfuscationMode(unsigned short);
-    translateLinkBitsToBitsPerColor(unsigned int);
+    auto encoderControl(ActiveConnectorInfo const*, AtiAtomEncoderAction);
+    auto encoderDpObfuscation(ActiveConnectorInfo const*, AtiAtomDpObfMode);
+    auto getMetaClass() const;
+    auto populateDpObfuscationParameters(ActiveConnectorInfo const*, dp_obfuscation_set_parameters_v1_5*, AtiAtomDpObfMode);
+    auto populateGeneralParameters(ActiveConnectorInfo const*, dig_encoder_generic_cmd_parameters_v1_5*, AtiAtomEncoderAction);
+    auto populateStreamSetupParameters(ActiveConnectorInfo const*, dig_encoder_stream_setup_parameters_v1_5*);
+    auto stringifyBitsPerColor(unsigned short);
+    auto stringifyDpObfuscationMode(unsigned short);
+    auto translateLinkBitsToBitsPerColor(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiEncoderControl_V1_5();
 };

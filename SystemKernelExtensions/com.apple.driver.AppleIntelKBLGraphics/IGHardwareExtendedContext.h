@@ -6,9 +6,11 @@ class IGHardwareExtendedContext {
 public: // (access info unavailable from symbols alone)
     IGHardwareExtendedContext();
     IGHardwareExtendedContext(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithOptions(IGAccelTask*, IGHardwareExtendedContextParams const&);
-    initialize();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithOptions(IGAccelTask*, IGHardwareExtendedContextParams const&);
+    auto initialize();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHardwareExtendedContext();
 };

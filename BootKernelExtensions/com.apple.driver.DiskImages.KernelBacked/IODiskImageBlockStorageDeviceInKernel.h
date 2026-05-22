@@ -6,7 +6,9 @@ class IODiskImageBlockStorageDeviceInKernel {
 public: // (access info unavailable from symbols alone)
     IODiskImageBlockStorageDeviceInKernel();
     IODiskImageBlockStorageDeviceInKernel(OSMetaClass const*);
-    attach(IOService*);
-    getMetaClass() const;
+    auto attach(IOService*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODiskImageBlockStorageDeviceInKernel();
 };

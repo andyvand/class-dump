@@ -4,11 +4,13 @@
 
 class hv_vcpu_t {
 public: // (access info unavailable from symbols alone)
-    getMetaClass() const;
-    get_callbacks(unsigned int, hv_callbacks_t*);
-    get_traps(unsigned int, int (* const**)(void*, unsigned long long), unsigned int*);
+    auto getMetaClass() const;
+    auto get_callbacks(unsigned int, hv_callbacks_t*);
+    auto get_traps(unsigned int, int (* const**)(void*, unsigned long long), unsigned int*);
+    auto is_active();
     hv_vcpu_t();
     hv_vcpu_t(OSMetaClass const*);
-    is_active();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~hv_vcpu_t();
 };

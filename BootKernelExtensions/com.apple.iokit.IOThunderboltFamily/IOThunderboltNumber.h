@@ -6,8 +6,10 @@ class IOThunderboltNumber {
 public: // (access info unavailable from symbols alone)
     IOThunderboltNumber();
     IOThunderboltNumber(OSMetaClass const*);
-    getMetaClass() const;
-    withNumber(char const*, unsigned int);
-    withNumber(unsigned long long, unsigned int);
+    auto getMetaClass() const;
+    auto withNumber(char const*, unsigned int);
+    auto withNumber(unsigned long long, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOThunderboltNumber();
 };

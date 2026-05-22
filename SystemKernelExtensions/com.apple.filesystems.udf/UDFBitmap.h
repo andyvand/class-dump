@@ -4,20 +4,20 @@
 
 class UDFBitmap {
 public: // (access info unavailable from symbols alone)
-    AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
-    DiskBlkNumToBitmapFileOffsets(unsigned int, unsigned int*, unsigned int*, unsigned int*);
-    FindFirstBit(unsigned int, unsigned int, bool);
-    FreeExtent(unsigned int, unsigned int, int*);
-    GetBitmapGrowInfo(unsigned int, unsigned int*, unsigned int*);
-    GetNumBlks();
-    Grow(unsigned short, unsigned int, unsigned int);
-    MarkBitmap(unsigned int, unsigned int, bool);
-    MarkBitmapWord(unsigned int, bool, unsigned int, unsigned int*, UDFBlock*);
-    ReleaseSysFileVnode();
-    SearchBitmapRange(unsigned int, unsigned int, unsigned int, bool*, unsigned int*, unsigned int*, unsigned int*, unsigned int);
-    Sync(int);
     UDFBitmap(UDFMount*, unsigned short, unsigned int, unsigned int, unsigned short);
-    VerifyBitRange(unsigned int*, unsigned int*, unsigned int, bool, bool*, unsigned int*, UDFBlock*, unsigned int);
-    VerifyBitmapWord(unsigned int, bool, unsigned int, unsigned int, unsigned int, bool*, unsigned int*, unsigned int*, UDFBlock*);
+    auto AllocExtent(long long, unsigned int, unsigned int*, unsigned int*, int*, bool, unsigned int);
+    auto DiskBlkNumToBitmapFileOffsets(unsigned int, unsigned int*, unsigned int*, unsigned int*);
+    auto FindFirstBit(unsigned int, unsigned int, bool);
+    auto FreeExtent(unsigned int, unsigned int, int*);
+    auto GetBitmapGrowInfo(unsigned int, unsigned int*, unsigned int*);
+    auto GetNumBlks();
+    auto Grow(unsigned short, unsigned int, unsigned int);
+    auto MarkBitmap(unsigned int, unsigned int, bool);
+    auto MarkBitmapWord(unsigned int, bool, unsigned int, unsigned int*, UDFBlock*);
+    auto ReleaseSysFileVnode();
+    auto SearchBitmapRange(unsigned int, unsigned int, unsigned int, bool*, unsigned int*, unsigned int*, unsigned int*, unsigned int);
+    auto Sync(int);
+    auto VerifyBitRange(unsigned int*, unsigned int*, unsigned int, bool, bool*, unsigned int*, UDFBlock*, unsigned int);
+    auto VerifyBitmapWord(unsigned int, bool, unsigned int, unsigned int, unsigned int, bool*, unsigned int*, unsigned int*, UDFBlock*);
     ~UDFBitmap();
 };

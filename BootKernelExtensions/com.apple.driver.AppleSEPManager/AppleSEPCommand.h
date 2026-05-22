@@ -6,8 +6,10 @@ class AppleSEPCommand {
 public: // (access info unavailable from symbols alone)
     AppleSEPCommand();
     AppleSEPCommand(OSMetaClass const*);
-    getMetaClass() const;
-    initWithOptions(AppleSEPCommandPool*);
-    withOptions(AppleSEPCommandPool*);
+    auto getMetaClass() const;
+    auto initWithOptions(AppleSEPCommandPool*);
+    auto withOptions(AppleSEPCommandPool*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSEPCommand();
 };

@@ -4,13 +4,15 @@
 
 class com_softraid_driver_SoftRAID_ThreadCommandQueue {
 public: // (access info unavailable from symbols alone)
-    AddCommandToQueue(RAID_InstructionRec*);
-    CreateEmptyPool();
-    GetNextCommand();
+    auto AddCommandToQueue(RAID_InstructionRec*);
+    auto CreateEmptyPool();
+    auto GetNextCommand();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_ThreadCommandQueue();
     com_softraid_driver_SoftRAID_ThreadCommandQueue(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_ThreadCommandQueue();
 };

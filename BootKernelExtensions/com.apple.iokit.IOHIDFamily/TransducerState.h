@@ -6,7 +6,9 @@ class TransducerState {
 public: // (access info unavailable from symbols alone)
     TransducerState();
     TransducerState(OSMetaClass const*);
-    getMetaClass() const;
-    newState(int, unsigned int);
+    auto getMetaClass() const;
+    auto newState(int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~TransducerState();
 };

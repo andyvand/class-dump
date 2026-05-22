@@ -6,11 +6,13 @@ class AUAEndpointDictionary {
 public: // (access info unavailable from symbols alone)
     AUAEndpointDictionary();
     AUAEndpointDictionary(OSMetaClass const*);
-    getDirection(unsigned char*);
-    getMetaClass() const;
-    getSyncType(unsigned char*);
-    getUsageType(unsigned char*);
-    isIsocFeedback();
-    isIsocStreaming();
+    auto getDirection(unsigned char*);
+    auto getMetaClass() const;
+    auto getSyncType(unsigned char*);
+    auto getUsageType(unsigned char*);
+    auto isIsocFeedback();
+    auto isIsocStreaming();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AUAEndpointDictionary();
 };

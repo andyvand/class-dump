@@ -6,18 +6,15 @@
 
 AppleUSBDMMData::gMetaClass;
 AppleUSBDMMData::metaClass;
-AppleUSBDMMData::operator delete(void*, unsigned long);
-AppleUSBDMMData::operator new(unsigned long);
 AppleUSBDMMData::superClass;
 AppleUSBDMMData_ktv;
 IOSerialDriverSync::gMetaClass;
-IOSerialStreamSync::operator new(unsigned long);
 IOService::metaClass;
 IOUSBHostInterface::metaClass;
 OSBoolean::metaClass;
 OSDictionary::metaClass;
 OSString::metaClass;
-findMatchingEndpoint(unsigned char, unsigned char, StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
+auto findMatchingEndpoint(unsigned char, unsigned char, StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
 vtable for AppleUSBDMMData;
 vtable for AppleUSBDMMData::MetaClass;
 vtable for IOSerialDriverSync;

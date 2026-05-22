@@ -4,6 +4,6 @@
 
 class SYSCTLHelper {
 public: // (access info unavailable from symbols alone)
-    setLoggingLevel(unsigned int);
-    triggerFaultReport();
+    auto setLoggingLevel(unsigned int);
+    auto triggerFaultReport();
 };

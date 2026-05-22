@@ -4,5 +4,5 @@
 
 class AtiAppleDalServices {
 public: // (access info unavailable from symbols alone)
-    dalIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*);
+    auto dalIriFunction(void*, _IRI_CALL_INPUT*, _IRI_CALL_OUTPUT*);
 };

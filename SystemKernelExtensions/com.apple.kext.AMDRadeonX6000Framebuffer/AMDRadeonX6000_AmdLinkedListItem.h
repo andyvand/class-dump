@@ -6,9 +6,11 @@ class AMDRadeonX6000_AmdLinkedListItem {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdLinkedListItem();
     AMDRadeonX6000_AmdLinkedListItem(OSMetaClass const*);
-    getMetaClass() const;
-    getNext();
-    init();
-    setNext(AMDRadeonX6000_AmdLinkedListItem*);
+    auto getMetaClass() const;
+    auto getNext();
+    auto init();
+    auto setNext(AMDRadeonX6000_AmdLinkedListItem*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdLinkedListItem();
 };

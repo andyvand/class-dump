@@ -6,9 +6,11 @@ class IOMemoryCursor {
 public: // (access info unavailable from symbols alone)
     IOMemoryCursor();
     IOMemoryCursor(OSMetaClass const*);
-    genPhysicalSegments(IOMemoryDescriptor*, unsigned long long, void*, unsigned int, unsigned int, unsigned long long*);
-    getMetaClass() const;
-    initWithSpecification(void (*)(IOMemoryCursor::PhysicalSegment, void*, unsigned int), unsigned long long, unsigned long long, unsigned long long);
-    withSpecification(void (*)(IOMemoryCursor::PhysicalSegment, void*, unsigned int), unsigned long long, unsigned long long, unsigned long long);
+    auto genPhysicalSegments(IOMemoryDescriptor*, unsigned long long, void*, unsigned int, unsigned int, unsigned long long*);
+    auto getMetaClass() const;
+    auto initWithSpecification(void (*)(IOMemoryCursor::PhysicalSegment, void*, unsigned int), unsigned long long, unsigned long long, unsigned long long);
+    auto withSpecification(void (*)(IOMemoryCursor::PhysicalSegment, void*, unsigned int), unsigned long long, unsigned long long, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOMemoryCursor();
 };

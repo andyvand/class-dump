@@ -6,9 +6,11 @@ class IOPerfControlWorkContext {
 public: // (access info unavailable from symbols alone)
     IOPerfControlWorkContext();
     IOPerfControlWorkContext(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
-    reset();
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto reset();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPerfControlWorkContext();
 };

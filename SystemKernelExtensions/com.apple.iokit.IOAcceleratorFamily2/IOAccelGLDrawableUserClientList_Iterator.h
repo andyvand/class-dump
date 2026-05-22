@@ -5,5 +5,5 @@
 class IOAccelGLDrawableUserClientList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelGLDrawableUserClientList&);
-    getNextGLDrawableUserClient();
+    auto getNextGLDrawableUserClient();
 };

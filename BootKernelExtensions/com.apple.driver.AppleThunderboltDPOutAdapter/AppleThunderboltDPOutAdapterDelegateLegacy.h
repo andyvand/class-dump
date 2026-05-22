@@ -6,9 +6,11 @@ class AppleThunderboltDPOutAdapterDelegateLegacy {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltDPOutAdapterDelegateLegacy();
     AppleThunderboltDPOutAdapterDelegateLegacy(OSMetaClass const*);
-    getMetaClass() const;
-    needHPDTrackingInternal();
-    withDPOutAdapter(AppleThunderboltDPOutAdapterBase*);
-    withDPOutAdapter(AppleThunderboltDPOutAdapterBase*) (.cold.1);
+    auto getMetaClass() const;
+    auto needHPDTrackingInternal();
+    auto withDPOutAdapter(AppleThunderboltDPOutAdapterBase*);
+    auto withDPOutAdapter(AppleThunderboltDPOutAdapterBase*) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltDPOutAdapterDelegateLegacy();
 };

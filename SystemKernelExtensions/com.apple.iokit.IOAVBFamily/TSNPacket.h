@@ -4,11 +4,11 @@
 
 class TSNPacket {
 public: // (access info unavailable from symbols alone)
-    complete();
-    getVirtualRanges(IOVirtualRange*, int*);
-    numberOfSegments() const;
-    packetLength() const;
-    packetTimestamp() const;
-    setPacketLength(unsigned long);
-    setTimesyncTransmitCallbackRef(unsigned int);
+    auto complete();
+    auto getVirtualRanges(IOVirtualRange*, int*);
+    auto numberOfSegments() const;
+    auto packetLength() const;
+    auto packetTimestamp() const;
+    auto setPacketLength(unsigned long);
+    auto setTimesyncTransmitCallbackRef(unsigned int);
 };

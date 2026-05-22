@@ -4,5 +4,5 @@
 
 class AppleConvergedIPCMemoryCommandPool {
 public: // (access info unavailable from symbols alone)
-    withInfo(IOWorkLoop*, unsigned long long, AppleConvergedIPCMemoryPolicyInfo*);
+    auto withInfo(IOWorkLoop*, unsigned long long, AppleConvergedIPCMemoryPolicyInfo*);
 };

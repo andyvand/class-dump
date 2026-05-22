@@ -4,6 +4,6 @@
 
 class Edid {
 public: // (access info unavailable from symbols alone)
-    getEdidBlock(unsigned char, unsigned char*, unsigned long) const;
-    getPreferredTiming(AtiDetailedTimingInformation&) const;
+    auto getEdidBlock(unsigned char, unsigned char*, unsigned long) const;
+    auto getPreferredTiming(AtiDetailedTimingInformation&) const;
 };

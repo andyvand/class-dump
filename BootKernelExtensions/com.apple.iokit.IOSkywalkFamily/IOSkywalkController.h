@@ -6,13 +6,15 @@ class IOSkywalkController {
 public: // (access info unavailable from symbols alone)
     IOSkywalkController();
     IOSkywalkController(OSMetaClass const*);
-    attachInterface(IOSkywalkInterface*, unsigned int);
-    detachInterface(IOSkywalkInterface*, unsigned int);
-    free();
-    getMetaClass() const;
-    handleClose(IOService*, unsigned int);
-    handleIsOpen(IOService const*) const;
-    handleOpen(IOService*, unsigned int, void*);
-    init(OSDictionary*);
+    auto attachInterface(IOSkywalkInterface*, unsigned int);
+    auto detachInterface(IOSkywalkInterface*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto handleClose(IOService*, unsigned int);
+    auto handleIsOpen(IOService const*) const;
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto init(OSDictionary*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSkywalkController();
 };

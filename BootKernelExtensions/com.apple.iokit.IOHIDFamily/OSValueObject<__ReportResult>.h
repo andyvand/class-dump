@@ -4,17 +4,17 @@
 
 class OSValueObject<__ReportResult> {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_493;
-    getMetaClass() const;
-    getRef() const::__desc;
-    init();
-    init()::kalloc_type_view_478;
-    isEqualTo(OSMetaClassBase const*) const;
-    isEqualTo(OSValueObject<__ReportResult> const*) const;
-    isEqualTo(OSValueObject<__ReportResult> const*) const (.cold.1);
-    isEqualTo(__ReportResult const&) const;
-    serialize(OSSerialize*) const;
-    withValue(__ReportResult const&);
+    auto free();
+    auto free()::kalloc_type_view_493;
+    auto getMetaClass() const;
+    auto getRef() const::__desc;
+    auto init();
+    auto init()::kalloc_type_view_478;
+    auto isEqualTo(OSMetaClassBase const*) const;
+    auto isEqualTo(OSValueObject<__ReportResult> const*) const;
+    auto isEqualTo(OSValueObject<__ReportResult> const*) const (.cold.1);
+    auto isEqualTo(__ReportResult const&) const;
+    auto serialize(OSSerialize*) const;
+    auto withValue(__ReportResult const&);
     ~OSValueObject();
 };

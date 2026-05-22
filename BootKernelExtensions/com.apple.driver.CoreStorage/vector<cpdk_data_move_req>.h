@@ -4,5 +4,5 @@
 
 class vector<cpdk_data_move_req> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
+    auto reserve(unsigned long);
 };

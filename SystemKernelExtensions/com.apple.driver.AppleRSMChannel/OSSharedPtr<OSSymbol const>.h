@@ -5,6 +5,6 @@
 class OSSharedPtr<OSSymbol const> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr(std::nullptr_t);
-    operator=(OSSharedPtr<OSSymbol const>&&);
+    auto operator=(OSSharedPtr<OSSymbol const>&&);
     ~OSSharedPtr();
 };

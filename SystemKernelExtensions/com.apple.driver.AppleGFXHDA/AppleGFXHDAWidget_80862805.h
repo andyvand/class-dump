@@ -6,8 +6,10 @@ class AppleGFXHDAWidget_80862805 {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAWidget_80862805();
     AppleGFXHDAWidget_80862805(OSMetaClass const*);
-    getMetaClass() const;
-    initForNodeID(unsigned short, OSObject*, OSObject*);
-    pinSetControl(unsigned char);
+    auto getMetaClass() const;
+    auto initForNodeID(unsigned short, OSObject*, OSObject*);
+    auto pinSetControl(unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAWidget_80862805();
 };

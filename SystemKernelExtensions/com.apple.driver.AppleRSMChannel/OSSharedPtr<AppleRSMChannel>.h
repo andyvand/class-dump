@@ -7,6 +7,6 @@ public: // (access info unavailable from symbols alone)
     OSSharedPtr();
     OSSharedPtr(AppleRSMChannel*, libkern::no_retain_t);
     OSSharedPtr(std::nullptr_t);
-    operator=(OSSharedPtr<AppleRSMChannel>&&);
+    auto operator=(OSSharedPtr<AppleRSMChannel>&&);
     ~OSSharedPtr();
 };

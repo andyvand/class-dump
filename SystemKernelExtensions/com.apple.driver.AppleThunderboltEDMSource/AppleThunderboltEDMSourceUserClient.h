@@ -6,11 +6,13 @@ class AppleThunderboltEDMSourceUserClient {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltEDMSourceUserClient();
     AppleThunderboltEDMSourceUserClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    start(IOService*);
+    auto clientClose();
+    auto clientDied();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltEDMSourceUserClient();
 };

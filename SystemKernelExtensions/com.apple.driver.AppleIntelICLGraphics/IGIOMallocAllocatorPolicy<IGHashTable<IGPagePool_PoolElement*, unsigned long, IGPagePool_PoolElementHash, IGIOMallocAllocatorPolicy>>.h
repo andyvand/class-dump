@@ -4,5 +4,5 @@
 
 class IGIOMallocAllocatorPolicy<IGHashTable<IGPagePool::PoolElement*, unsigned long, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy>> {
 public: // (access info unavailable from symbols alone)
-    deallocate(IGHashTable<IGPagePool::PoolElement*, unsigned long, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
+    auto deallocate(IGHashTable<IGPagePool::PoolElement*, unsigned long, IGPagePool::PoolElementHash, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
 };

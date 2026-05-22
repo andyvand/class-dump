@@ -4,22 +4,24 @@
 
 class IOTimeSyncDaemonUserClient {
 public: // (access info unavailable from symbols alone)
-    HandleDaemonServiceCommand(IOExternalMethodArguments*);
-    HandleDaemonServiceCommand(IOExternalMethodArguments*)::_os_log_fmt;
     IOTimeSyncDaemonUserClient();
     IOTimeSyncDaemonUserClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*)::_os_log_fmt;
-    free();
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    initWithTask(task*, void*, unsigned int, OSDictionary*)::_os_log_fmt;
-    releaseAsyncCallback();
-    sendAsync64(unsigned long long*, unsigned int);
-    sendAsync64(unsigned long long*, unsigned int)::_os_log_fmt;
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    stop(IOService*);
+    auto HandleDaemonServiceCommand(IOExternalMethodArguments*);
+    auto HandleDaemonServiceCommand(IOExternalMethodArguments*)::_os_log_fmt;
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*)::_os_log_fmt;
+    auto releaseAsyncCallback();
+    auto sendAsync64(unsigned long long*, unsigned int);
+    auto sendAsync64(unsigned long long*, unsigned int)::_os_log_fmt;
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncDaemonUserClient();
 };

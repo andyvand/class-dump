@@ -4,16 +4,16 @@
 
 class OSValueObject<KeyboardReserved> {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_493;
-    getMetaClass() const;
-    getRef() const::__desc;
-    init();
-    init()::kalloc_type_view_478;
-    isEqualTo(KeyboardReserved const&) const;
-    isEqualTo(OSMetaClassBase const*) const;
-    isEqualTo(OSValueObject<KeyboardReserved> const*) const;
-    isEqualTo(OSValueObject<KeyboardReserved> const*) const (.cold.1);
-    serialize(OSSerialize*) const;
+    auto free();
+    auto free()::kalloc_type_view_493;
+    auto getMetaClass() const;
+    auto getRef() const::__desc;
+    auto init();
+    auto init()::kalloc_type_view_478;
+    auto isEqualTo(KeyboardReserved const&) const;
+    auto isEqualTo(OSMetaClassBase const*) const;
+    auto isEqualTo(OSValueObject<KeyboardReserved> const*) const;
+    auto isEqualTo(OSValueObject<KeyboardReserved> const*) const (.cold.1);
+    auto serialize(OSSerialize*) const;
     ~OSValueObject();
 };

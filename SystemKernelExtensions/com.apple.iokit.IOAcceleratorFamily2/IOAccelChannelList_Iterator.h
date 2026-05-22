@@ -5,5 +5,5 @@
 class IOAccelChannelList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelChannelList&);
-    getNextChannel();
+    auto getNextChannel();
 };

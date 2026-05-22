@@ -4,5 +4,5 @@
 
 class AppleUSBEHCIPort {
 public: // (access info unavailable from symbols alone)
-    withPortSC(IODeviceMemory*, OSDictionary*);
+    auto withPortSC(IODeviceMemory*, OSDictionary*);
 };

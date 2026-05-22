@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<IGVector<IGHashTable<unsigned int, unsigned int, IGHashTraits<unsigned int>, IGIOMallocAllocatorPolicy>::Slot, IGIOMallocAllocatorPolicy>> {
 public: // (access info unavailable from symbols alone)
-    allocate()::kalloc_type_view_14;
-    deallocate(IGVector<IGHashTable<unsigned int, unsigned int, IGHashTraits<unsigned int>, IGIOMallocAllocatorPolicy>::Slot, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
+    auto allocate()::kalloc_type_view_14;
+    auto deallocate(IGVector<IGHashTable<unsigned int, unsigned int, IGHashTraits<unsigned int>, IGIOMallocAllocatorPolicy>::Slot, IGIOMallocAllocatorPolicy>*)::kalloc_type_view_19;
 };

@@ -4,15 +4,17 @@
 
 class MPTSASEventSource {
 public: // (access info unavailable from symbols alone)
-    Create(OSObject*, void (*)(OSObject*, MPTSASEventSource*));
-    DequeueContext();
-    DequeueContext() (.cold.1);
     MPTSASEventSource();
     MPTSASEventSource(OSMetaClass const*);
-    ManageTarget(unsigned char, unsigned char, unsigned long long, unsigned int, unsigned long long);
-    ManageTarget(unsigned char, unsigned char, unsigned long long, unsigned int, unsigned long long) (.cold.1);
-    ManageTarget(unsigned char, unsigned char, unsigned long long, unsigned int, unsigned long long)::kalloc_type_view_457;
-    getMetaClass() const;
-    init(OSObject*, void (*)(OSObject*, MPTSASEventSource*));
+    auto Create(OSObject*, void (*)(OSObject*, MPTSASEventSource*));
+    auto DequeueContext();
+    auto DequeueContext() (.cold.1);
+    auto ManageTarget(unsigned char, unsigned char, unsigned long long, unsigned int, unsigned long long);
+    auto ManageTarget(unsigned char, unsigned char, unsigned long long, unsigned int, unsigned long long) (.cold.1);
+    auto ManageTarget(unsigned char, unsigned char, unsigned long long, unsigned int, unsigned long long)::kalloc_type_view_457;
+    auto getMetaClass() const;
+    auto init(OSObject*, void (*)(OSObject*, MPTSASEventSource*));
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~MPTSASEventSource();
 };

@@ -5,7 +5,7 @@
 class IOTimeSyncServiceDaemonClient {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncServiceDaemonClient(OSMetaClass const*);
-    create(int, OSSharedPtr<IOTimeSyncService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
-    start(int, OSSharedPtr<IOTimeSyncService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
+    auto create(int, OSSharedPtr<IOTimeSyncService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
+    auto start(int, OSSharedPtr<IOTimeSyncService>, OSSharedPtr<IOTimeSyncDaemonServiceBase>);
     ~IOTimeSyncServiceDaemonClient();
 };

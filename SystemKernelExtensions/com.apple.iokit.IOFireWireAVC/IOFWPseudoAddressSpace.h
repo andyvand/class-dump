@@ -5,14 +5,14 @@
 class IOFWPseudoAddressSpace {
 public: // (access info unavailable from symbols alone)
     IOFWPseudoAddressSpace(OSMetaClass const*);
-    _RESERVEDIOFWPseudoAddressSpace0();
-    _RESERVEDIOFWPseudoAddressSpace1();
-    contains(FWAddressStruct);
-    createAuxiliary();
-    doRead(unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, IOMemoryDescriptor**, unsigned long long*, void*);
-    free();
-    initAll(IOFireWireBus*, FWAddressStruct*, unsigned int, unsigned int (*)(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, IOMemoryDescriptor**, unsigned long long*, void*), unsigned int (*)(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, void const*, void*), void*);
-    initFixed(IOFireWireBus*, FWAddressStruct, unsigned int, unsigned int (*)(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, IOMemoryDescriptor**, unsigned long long*, void*), unsigned int (*)(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, void const*, void*), void*);
-    simpleReader(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, IOMemoryDescriptor**, unsigned long long*, void*);
+    auto _RESERVEDIOFWPseudoAddressSpace0();
+    auto _RESERVEDIOFWPseudoAddressSpace1();
+    auto contains(FWAddressStruct);
+    auto createAuxiliary();
+    auto doRead(unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, IOMemoryDescriptor**, unsigned long long*, void*);
+    auto free();
+    auto initAll(IOFireWireBus*, FWAddressStruct*, unsigned int, unsigned int (*)(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, IOMemoryDescriptor**, unsigned long long*, void*), unsigned int (*)(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, void const*, void*), void*);
+    auto initFixed(IOFireWireBus*, FWAddressStruct, unsigned int, unsigned int (*)(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, IOMemoryDescriptor**, unsigned long long*, void*), unsigned int (*)(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, void const*, void*), void*);
+    auto simpleReader(void*, unsigned short, IOFWSpeed&, FWAddressStruct, unsigned int, IOMemoryDescriptor**, unsigned long long*, void*);
     ~IOFWPseudoAddressSpace();
 };

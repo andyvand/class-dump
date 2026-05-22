@@ -5,18 +5,18 @@
 class AppleVirtIOSoundStreamTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOSoundStreamTransaction();
-    clearCompletion();
-    free();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    getVirtioStatus();
-    initWithRequest(bool);
-    invokeCompletion(int);
-    reset();
-    update(unsigned int, IOMemoryDescriptor*, AppleVirtIOTransactionCompletion*);
-    updateForReceive(unsigned int, IOMemoryDescriptor*, AppleVirtIOTransactionCompletion*);
-    updateForTransmit(unsigned int, IOMemoryDescriptor*, AppleVirtIOTransactionCompletion*);
-    withRequest(bool);
+    auto clearCompletion();
+    auto free();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto getVirtioStatus();
+    auto initWithRequest(bool);
+    auto invokeCompletion(int);
+    auto reset();
+    auto update(unsigned int, IOMemoryDescriptor*, AppleVirtIOTransactionCompletion*);
+    auto updateForReceive(unsigned int, IOMemoryDescriptor*, AppleVirtIOTransactionCompletion*);
+    auto updateForTransmit(unsigned int, IOMemoryDescriptor*, AppleVirtIOTransactionCompletion*);
+    auto withRequest(bool);
     ~AppleVirtIOSoundStreamTransaction();
 };

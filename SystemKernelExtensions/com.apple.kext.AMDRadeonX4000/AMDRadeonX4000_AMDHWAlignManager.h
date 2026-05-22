@@ -5,9 +5,11 @@
 class AMDRadeonX4000_AMDHWAlignManager {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDHWAlignManager(OSMetaClass const*);
-    AddrLibAllocSysMem(_ADDR_ALLOCSYSMEM_INPUT const*);
-    AddrLibDebugPrint(_ADDR_DEBUGPRINT_INPUT const*);
-    AddrLibFreeSysMem(_ADDR_FREESYSMEM_INPUT const*);
-    getMetaClass() const;
+    auto AddrLibAllocSysMem(_ADDR_ALLOCSYSMEM_INPUT const*);
+    auto AddrLibDebugPrint(_ADDR_DEBUGPRINT_INPUT const*);
+    auto AddrLibFreeSysMem(_ADDR_FREESYSMEM_INPUT const*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDHWAlignManager();
 };

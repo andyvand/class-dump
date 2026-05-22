@@ -6,8 +6,10 @@ class BaffinThermalAlertInterrupt {
 public: // (access info unavailable from symbols alone)
     BaffinThermalAlertInterrupt();
     BaffinThermalAlertInterrupt(OSMetaClass const*);
-    getMetaClass() const;
-    initR6xx(unsigned char, bool, ATIController*);
-    initialize();
+    auto getMetaClass() const;
+    auto initR6xx(unsigned char, bool, ATIController*);
+    auto initialize();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~BaffinThermalAlertInterrupt();
 };

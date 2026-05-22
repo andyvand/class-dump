@@ -4,26 +4,26 @@
 
 class IOTimeSyncClockManager {
 public: // (access info unavailable from symbols alone)
-    addMappingForClockID(unsigned long long, unsigned int*);
-    addPersistentUserFilteredClock(unsigned long long, unsigned long long, unsigned char, bool, OSString const*, unsigned long long*);
-    addPersistentUserFilteredClockRef(OSString const*);
-    addTSNCaptureServices();
-    addUserFilteredClock(unsigned long long, unsigned long long, unsigned char, bool, unsigned long long*);
-    addgPTPServices();
-    airPlayDomainClockID(unsigned long long*);
-    avbDomainClockID(unsigned short, unsigned long long*);
-    copresenceDomainClockID(unsigned long long*);
-    getCrystalTimestamps(unsigned long long, unsigned long long&, unsigned long long&, unsigned long long&, unsigned long long&);
-    getPersistentUserFilteredClock(OSString const*, unsigned long long*) const;
-    nextAvailableDynamicClockID(unsigned long long*);
-    releaseDynamicClockID(unsigned long long);
-    removeMappingForClockID(unsigned long long);
-    removePersistentUserFilteredClock(OSString const*);
-    removeTSNCaptureServices();
-    removeUserFilteredClock(unsigned long long);
-    removegPTPServices();
-    sharedClockManager();
-    systemDomainClockID(unsigned long long*);
-    timeSyncTimeClockID(unsigned long long*);
-    translationService();
+    auto addMappingForClockID(unsigned long long, unsigned int*);
+    auto addPersistentUserFilteredClock(unsigned long long, unsigned long long, unsigned char, bool, OSString const*, unsigned long long*);
+    auto addPersistentUserFilteredClockRef(OSString const*);
+    auto addTSNCaptureServices();
+    auto addUserFilteredClock(unsigned long long, unsigned long long, unsigned char, bool, unsigned long long*);
+    auto addgPTPServices();
+    auto airPlayDomainClockID(unsigned long long*);
+    auto avbDomainClockID(unsigned short, unsigned long long*);
+    auto copresenceDomainClockID(unsigned long long*);
+    auto getCrystalTimestamps(unsigned long long, unsigned long long&, unsigned long long&, unsigned long long&, unsigned long long&);
+    auto getPersistentUserFilteredClock(OSString const*, unsigned long long*) const;
+    auto nextAvailableDynamicClockID(unsigned long long*);
+    auto releaseDynamicClockID(unsigned long long);
+    auto removeMappingForClockID(unsigned long long);
+    auto removePersistentUserFilteredClock(OSString const*);
+    auto removeTSNCaptureServices();
+    auto removeUserFilteredClock(unsigned long long);
+    auto removegPTPServices();
+    auto sharedClockManager();
+    auto systemDomainClockID(unsigned long long*);
+    auto timeSyncTimeClockID(unsigned long long*);
+    auto translationService();
 };

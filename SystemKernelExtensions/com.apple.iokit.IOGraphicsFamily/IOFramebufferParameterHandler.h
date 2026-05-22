@@ -6,15 +6,17 @@ class IOFramebufferParameterHandler {
 public: // (access info unavailable from symbols alone)
     IOFramebufferParameterHandler();
     IOFramebufferParameterHandler(OSMetaClass const*);
-    displayModeChange();
-    displayModeChange()::kalloc_type_view_15959;
-    displayModeChange()::kalloc_type_view_16018;
-    doDataSet(OSSymbol const*, OSData*);
-    doIntegerSet(OSDictionary*, OSSymbol const*, unsigned int);
-    doUpdate();
-    free();
-    getMetaClass() const;
-    setDisplay(IODisplay*);
-    withFramebuffer(IOFramebuffer*);
+    auto displayModeChange();
+    auto displayModeChange()::kalloc_type_view_15959;
+    auto displayModeChange()::kalloc_type_view_16018;
+    auto doDataSet(OSSymbol const*, OSData*);
+    auto doIntegerSet(OSDictionary*, OSSymbol const*, unsigned int);
+    auto doUpdate();
+    auto free();
+    auto getMetaClass() const;
+    auto setDisplay(IODisplay*);
+    auto withFramebuffer(IOFramebuffer*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFramebufferParameterHandler();
 };

@@ -6,9 +6,11 @@ class IOBigMemoryCursor {
 public: // (access info unavailable from symbols alone)
     IOBigMemoryCursor();
     IOBigMemoryCursor(OSMetaClass const*);
-    getMetaClass() const;
-    initWithSpecification(unsigned long long, unsigned long long, unsigned long long);
-    outputSegment(IOMemoryCursor::PhysicalSegment, void*, unsigned int);
-    withSpecification(unsigned long long, unsigned long long, unsigned long long);
+    auto getMetaClass() const;
+    auto initWithSpecification(unsigned long long, unsigned long long, unsigned long long);
+    auto outputSegment(IOMemoryCursor::PhysicalSegment, void*, unsigned int);
+    auto withSpecification(unsigned long long, unsigned long long, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOBigMemoryCursor();
 };

@@ -5,20 +5,20 @@
 class IOAccelTask {
 public: // (access info unavailable from symbols alone)
     IOAccelTask(OSMetaClass const*);
-    _RESERVEDIOAccelTask0();
-    _RESERVEDIOAccelTask1();
-    _RESERVEDIOAccelTask2();
-    _RESERVEDIOAccelTask3();
-    _RESERVEDIOAccelTask4();
-    _RESERVEDIOAccelTask5();
-    freeAllSysMemoryMappings();
-    freeAllVidMemoryMappings();
-    freeToAllocGPUAddress(IOAccelMemoryMap*);
-    freeWaitToAllocGPUAddress(IOAccelMemoryMap*, bool);
-    getProcessIDAndName(char*, int) const;
-    init(IOGraphicsAccelerator2*, unsigned int, IORangeAllocator**);
-    prune_orphaned_mappings();
-    release() const;
-    searchMapForGPUVirtualAddress(unsigned long long, IOAccelMemoryMap**);
+    auto _RESERVEDIOAccelTask0();
+    auto _RESERVEDIOAccelTask1();
+    auto _RESERVEDIOAccelTask2();
+    auto _RESERVEDIOAccelTask3();
+    auto _RESERVEDIOAccelTask4();
+    auto _RESERVEDIOAccelTask5();
+    auto freeAllSysMemoryMappings();
+    auto freeAllVidMemoryMappings();
+    auto freeToAllocGPUAddress(IOAccelMemoryMap*);
+    auto freeWaitToAllocGPUAddress(IOAccelMemoryMap*, bool);
+    auto getProcessIDAndName(char*, int) const;
+    auto init(IOGraphicsAccelerator2*, unsigned int, IORangeAllocator**);
+    auto prune_orphaned_mappings();
+    auto release() const;
+    auto searchMapForGPUVirtualAddress(unsigned long long, IOAccelMemoryMap**);
     ~IOAccelTask();
 };

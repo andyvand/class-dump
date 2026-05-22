@@ -6,14 +6,16 @@ class IOFireWireDuplicateGUIDList {
 public: // (access info unavailable from symbols alone)
     IOFireWireDuplicateGUIDList();
     IOFireWireDuplicateGUIDList(OSMetaClass const*);
-    addDuplicateGUID(unsigned long long, unsigned int);
-    addDuplicateGUID(unsigned long long, unsigned int)::kalloc_type_view_271;
-    create();
-    findDuplicateGUID(unsigned long long, unsigned int);
-    free();
-    free()::kalloc_type_view_258;
-    getMetaClass() const;
-    removeDuplicateGUID(unsigned long long);
-    removeDuplicateGUID(unsigned long long)::kalloc_type_view_302;
+    auto addDuplicateGUID(unsigned long long, unsigned int);
+    auto addDuplicateGUID(unsigned long long, unsigned int)::kalloc_type_view_271;
+    auto create();
+    auto findDuplicateGUID(unsigned long long, unsigned int);
+    auto free();
+    auto free()::kalloc_type_view_258;
+    auto getMetaClass() const;
+    auto removeDuplicateGUID(unsigned long long);
+    auto removeDuplicateGUID(unsigned long long)::kalloc_type_view_302;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireDuplicateGUIDList();
 };

@@ -6,11 +6,13 @@ class IOFWUserPhysicalAddressSpace {
 public: // (access info unavailable from symbols alone)
     IOFWUserPhysicalAddressSpace();
     IOFWUserPhysicalAddressSpace(OSMetaClass const*);
-    exporterCleanup(OSObject const*);
-    free();
-    getMetaClass() const;
-    getSegmentCount(unsigned int*);
-    getSegments(unsigned int*, IOFireWireLib::FWPhysicalSegment32*);
-    initWithDesc(IOFireWireBus*, IOMemoryDescriptor*);
+    auto exporterCleanup(OSObject const*);
+    auto free();
+    auto getMetaClass() const;
+    auto getSegmentCount(unsigned int*);
+    auto getSegments(unsigned int*, IOFireWireLib::FWPhysicalSegment32*);
+    auto initWithDesc(IOFireWireBus*, IOMemoryDescriptor*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWUserPhysicalAddressSpace();
 };

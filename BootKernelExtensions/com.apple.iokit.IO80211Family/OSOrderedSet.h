@@ -4,6 +4,6 @@
 
 class OSOrderedSet {
 public: // (access info unavailable from symbols alone)
-    withCapacity(unsigned int, int (*)(OSMetaClassBase const*, OSMetaClassBase const*, void*), void*);
-    withCapacity(unsigned int, int (OSMetaClassBase const*, OSMetaClassBase const*) block_pointer);
+    auto withCapacity(unsigned int, int (*)(OSMetaClassBase const*, OSMetaClassBase const*, void*), void*);
+    auto withCapacity(unsigned int, int (OSMetaClassBase const*, OSMetaClassBase const*) block_pointer);
 };

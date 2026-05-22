@@ -4,6 +4,6 @@
 
 class vector<void*> {
 public: // (access info unavailable from symbols alone)
-    push_back(void* const&);
-    reserve(unsigned long);
+    auto push_back(void* const&);
+    auto reserve(unsigned long);
 };

@@ -6,12 +6,14 @@ class IGGCObject {
 public: // (access info unavailable from symbols alone)
     IGGCObject();
     IGGCObject(OSMetaClass const*);
-    check() const;
-    free();
-    getMetaClass() const;
-    init(IGGarbageCollector*);
-    release() const;
-    releaseNoCheck() const;
-    retain() const;
+    auto check() const;
+    auto free();
+    auto getMetaClass() const;
+    auto init(IGGarbageCollector*);
+    auto release() const;
+    auto releaseNoCheck() const;
+    auto retain() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGGCObject();
 };

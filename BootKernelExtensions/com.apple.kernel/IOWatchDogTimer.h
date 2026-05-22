@@ -5,13 +5,15 @@
 class IOWatchDogTimer {
 public: // (access info unavailable from symbols alone)
     IOWatchDogTimer(OSMetaClass const*);
-    _RESERVEDIOWatchDogTimer0();
-    _RESERVEDIOWatchDogTimer1();
-    _RESERVEDIOWatchDogTimer2();
-    _RESERVEDIOWatchDogTimer3();
-    getMetaClass() const;
-    setProperties(OSObject*);
-    start(IOService*);
-    stop(IOService*);
+    auto _RESERVEDIOWatchDogTimer0();
+    auto _RESERVEDIOWatchDogTimer1();
+    auto _RESERVEDIOWatchDogTimer2();
+    auto _RESERVEDIOWatchDogTimer3();
+    auto getMetaClass() const;
+    auto setProperties(OSObject*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOWatchDogTimer();
 };

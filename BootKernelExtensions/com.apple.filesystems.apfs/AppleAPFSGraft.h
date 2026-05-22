@@ -4,8 +4,8 @@
 
 class AppleAPFSGraft {
 public: // (access info unavailable from symbols alone)
-    free();
-    getMetaClass() const;
-    init(apfs_graft_state const*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(apfs_graft_state const*);
     ~AppleAPFSGraft();
 };

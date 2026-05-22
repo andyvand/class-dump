@@ -6,8 +6,10 @@ class AMDRadeonX5000_AMDGFX9CommandRing {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDGFX9CommandRing();
     AMDRadeonX5000_AMDGFX9CommandRing(OSMetaClass const*);
-    enable();
-    getMetaClass() const;
-    programReadAndWritePointers(unsigned long long);
+    auto enable();
+    auto getMetaClass() const;
+    auto programReadAndWritePointers(unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDGFX9CommandRing();
 };

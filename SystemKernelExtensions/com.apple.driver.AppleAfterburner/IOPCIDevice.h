@@ -4,6 +4,6 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    extendedConfigRead32(unsigned long long);
-    extendedConfigWrite32(unsigned long long, unsigned int);
+    auto extendedConfigRead32(unsigned long long);
+    auto extendedConfigWrite32(unsigned long long, unsigned int);
 };

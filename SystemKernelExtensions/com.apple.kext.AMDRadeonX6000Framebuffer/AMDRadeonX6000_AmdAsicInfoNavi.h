@@ -5,12 +5,14 @@
 class AMDRadeonX6000_AmdAsicInfoNavi {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdAsicInfoNavi(OSMetaClass const*);
-    getCapability(AsicCapabilitySelector) const;
-    getDscCapability(AGDCGPUDSCCapability_t*) const;
-    getMetaClass() const;
-    getTimingRange(IODisplayTimingRangeV2&) const;
-    populateDeviceInfo();
-    populateFbLocation();
-    populateMemorySize();
+    auto getCapability(AsicCapabilitySelector) const;
+    auto getDscCapability(AGDCGPUDSCCapability_t*) const;
+    auto getMetaClass() const;
+    auto getTimingRange(IODisplayTimingRangeV2&) const;
+    auto populateDeviceInfo();
+    auto populateFbLocation();
+    auto populateMemorySize();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdAsicInfoNavi();
 };

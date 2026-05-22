@@ -5,12 +5,14 @@
 class AMDRadeonX6000_AMDDCNDisplay {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDDCNDisplay(OSMetaClass const*);
-    getDisplayModeViewportSpecificInfo(unsigned int, unsigned int*, unsigned int*);
-    getMetaClass() const;
-    init(AMDRadeonX6000_IAMDHWInterface*, _FB_PARAMETERS*);
-    initializeRegisters();
-    isDisplayControlEnabled(unsigned int);
-    isDisplayInterlaceEnabled(unsigned int);
-    writeWaitForVLine(unsigned int*, unsigned int, int&, int&, bool, bool);
+    auto getDisplayModeViewportSpecificInfo(unsigned int, unsigned int*, unsigned int*);
+    auto getMetaClass() const;
+    auto init(AMDRadeonX6000_IAMDHWInterface*, _FB_PARAMETERS*);
+    auto initializeRegisters();
+    auto isDisplayControlEnabled(unsigned int);
+    auto isDisplayInterlaceEnabled(unsigned int);
+    auto writeWaitForVLine(unsigned int*, unsigned int, int&, int&, bool, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDDCNDisplay();
 };

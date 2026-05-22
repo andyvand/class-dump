@@ -6,10 +6,12 @@ class IGAccel2DContext {
 public: // (access info unavailable from symbols alone)
     IGAccel2DContext();
     IGAccel2DContext(OSMetaClass const*);
-    blitCopy(IOAccelEvent*, IOAccelResource2*, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
-    blitFill(IOAccelEvent*, unsigned int, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
-    contextStart();
-    contextStop();
-    getMetaClass() const;
+    auto blitCopy(IOAccelEvent*, IOAccelResource2*, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
+    auto blitFill(IOAccelEvent*, unsigned int, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
+    auto contextStart();
+    auto contextStop();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGAccel2DContext();
 };

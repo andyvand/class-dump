@@ -4,10 +4,10 @@
 
 class DIFracturedMemoryMap::Iterator {
 public: // (access info unavailable from symbols alone)
-    operator!=(DIFracturedMemoryMap::Iterator&) const;
-    operator*();
-    operator*() (.cold.1);
-    operator++();
-    operator++(int) const;
-    operator==(DIFracturedMemoryMap::Iterator&) const;
+    auto operator!=(DIFracturedMemoryMap::Iterator&) const;
+    auto operator*();
+    auto operator*() (.cold.1);
+    auto operator++();
+    auto operator++(int) const;
+    auto operator==(DIFracturedMemoryMap::Iterator&) const;
 };

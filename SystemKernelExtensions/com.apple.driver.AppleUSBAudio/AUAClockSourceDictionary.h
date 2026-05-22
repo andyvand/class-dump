@@ -6,14 +6,16 @@ class AUAClockSourceDictionary {
 public: // (access info unavailable from symbols alone)
     AUAClockSourceDictionary();
     AUAClockSourceDictionary(OSMetaClass const*);
-    getClockType(unsigned char*);
-    getControlBitmap(unsigned char*);
-    getIndexedClockSourceSamplingFrequencySubRange(Layout3SubRange*, unsigned short);
-    getMetaClass() const;
-    hasFrequencyControl(bool);
-    initControlsArray(unsigned char const*, unsigned char);
-    initControlsArray(unsigned char const*, unsigned char) (.cold.1);
-    initControlsArray(unsigned int const*, unsigned char);
-    initControlsArray(unsigned int const*, unsigned char) (.cold.1);
+    auto getClockType(unsigned char*);
+    auto getControlBitmap(unsigned char*);
+    auto getIndexedClockSourceSamplingFrequencySubRange(Layout3SubRange*, unsigned short);
+    auto getMetaClass() const;
+    auto hasFrequencyControl(bool);
+    auto initControlsArray(unsigned char const*, unsigned char);
+    auto initControlsArray(unsigned char const*, unsigned char) (.cold.1);
+    auto initControlsArray(unsigned int const*, unsigned char);
+    auto initControlsArray(unsigned int const*, unsigned char) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AUAClockSourceDictionary();
 };

@@ -7,8 +7,6 @@
 AppleUSBCommonDebug::_log;
 AppleUSBHostBulkHIDDevice::gMetaClass;
 AppleUSBHostBulkHIDDevice::metaClass;
-AppleUSBHostBulkHIDDevice::operator delete(void*, unsigned long);
-AppleUSBHostBulkHIDDevice::operator new(unsigned long);
 AppleUSBHostBulkHIDDevice::superClass;
 AppleUSBHostBulkHIDDevice_ktv;
 IOBufferMemoryDescriptor::metaClass;
@@ -17,8 +15,6 @@ IOHIDDevice::metaClass;
 IOUSBHostDevice::metaClass;
 IOUSBHostHIDDevice::gMetaClass;
 IOUSBHostHIDDevice::metaClass;
-IOUSBHostHIDDevice::operator delete(void*, unsigned long);
-IOUSBHostHIDDevice::operator new(unsigned long);
 IOUSBHostHIDDevice::superClass;
 IOUSBHostHIDDevice_ktv;
 IOUSBHostInterface::metaClass;

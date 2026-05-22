@@ -6,12 +6,14 @@ class AppleUSBEthernetHostAQM {
 public: // (access info unavailable from symbols alone)
     AppleUSBEthernetHostAQM();
     AppleUSBEthernetHostAQM(OSMetaClass const*);
-    configureInterface(IONetworkInterface*);
-    createOutputQueue();
-    getMetaClass() const;
-    outputStart(IONetworkInterface*, unsigned int);
-    signalTransmitQueue();
-    startTransmitQueue();
-    stopTransmitQueue();
+    auto configureInterface(IONetworkInterface*);
+    auto createOutputQueue();
+    auto getMetaClass() const;
+    auto outputStart(IONetworkInterface*, unsigned int);
+    auto signalTransmitQueue();
+    auto startTransmitQueue();
+    auto stopTransmitQueue();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEthernetHostAQM();
 };

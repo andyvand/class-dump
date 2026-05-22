@@ -6,8 +6,6 @@
 
 AppleUSBHostMergeProperties::gMetaClass;
 AppleUSBHostMergeProperties::metaClass;
-AppleUSBHostMergeProperties::operator delete(void*, unsigned long);
-AppleUSBHostMergeProperties::operator new(unsigned long);
 AppleUSBHostMergeProperties::superClass;
 AppleUSBHostMergeProperties_ktv;
 IOProviderPropertyMerger::gMetaClass;

@@ -4,7 +4,7 @@
 
 class libkern::intrusive_shared_ptr<IOMemoryDescriptor, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
+    auto intrusive_shared_ptr<IOBufferMemoryDescriptor, void>(libkern::intrusive_shared_ptr<IOBufferMemoryDescriptor, intrusive_osobject_retainer>&&);
+    auto reset();
     intrusive_shared_ptr();
-    intrusive_shared_ptr<IOBufferMemoryDescriptor, void>(libkern::intrusive_shared_ptr<IOBufferMemoryDescriptor, intrusive_osobject_retainer>&&);
-    reset();
 };

@@ -5,5 +5,5 @@
 class AppleGFXHDAFunctionGroup_80862805::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

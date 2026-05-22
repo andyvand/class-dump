@@ -6,14 +6,16 @@ class IOTimeSyncUserFilteredService {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncUserFilteredService();
     IOTimeSyncUserFilteredService(OSMetaClass const*);
-    fromDomainTimeToMachAbsoluteTime(unsigned long long);
-    fromDomainTimeToMachAbsoluteTimeInterval(unsigned long long);
-    fromMachAbsoluteTimeToDomainTime(unsigned long long);
-    fromMachAbsoluteTimeToDomainTimeInterval(unsigned long long);
-    getMachAbsoluteRateRatioAndAnchors(unsigned long long*, unsigned long long*, unsigned long long*, unsigned long long*);
-    getMetaClass() const;
-    init(unsigned long long, unsigned long long, unsigned char, bool, OSDictionary*);
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
+    auto fromDomainTimeToMachAbsoluteTime(unsigned long long);
+    auto fromDomainTimeToMachAbsoluteTimeInterval(unsigned long long);
+    auto fromMachAbsoluteTimeToDomainTime(unsigned long long);
+    auto fromMachAbsoluteTimeToDomainTimeInterval(unsigned long long);
+    auto getMachAbsoluteRateRatioAndAnchors(unsigned long long*, unsigned long long*, unsigned long long*, unsigned long long*);
+    auto getMetaClass() const;
+    auto init(unsigned long long, unsigned long long, unsigned char, bool, OSDictionary*);
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncUserFilteredService();
 };

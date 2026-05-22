@@ -6,7 +6,9 @@ class IOThunderboltCommandGate {
 public: // (access info unavailable from symbols alone)
     IOThunderboltCommandGate();
     IOThunderboltCommandGate(OSMetaClass const*);
-    commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
-    getMetaClass() const;
+    auto commandGate(OSObject*, int (*)(OSObject*, void*, void*, void*, void*));
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOThunderboltCommandGate();
 };

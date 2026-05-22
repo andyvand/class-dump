@@ -5,9 +5,11 @@
 class AppleParavirtChannel {
 public: // (access info unavailable from symbols alone)
     AppleParavirtChannel(OSMetaClass const*);
-    free();
-    getChannelLabel() const;
-    getMetaClass() const;
-    init(AppleParavirtAccelerator*, int, int, int, int, char const*);
+    auto free();
+    auto getChannelLabel() const;
+    auto getMetaClass() const;
+    auto init(AppleParavirtAccelerator*, int, int, int, int, char const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtChannel();
 };

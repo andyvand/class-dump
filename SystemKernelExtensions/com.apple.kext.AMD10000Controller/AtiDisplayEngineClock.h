@@ -5,10 +5,10 @@
 class AtiDisplayEngineClock {
 public: // (access info unavailable from symbols alone)
     AtiDisplayEngineClock(OSMetaClass const*);
-    GetDefaultDisplayEngineClock();
-    PreDpmSetup();
-    convertToMinimumClockParametersSingleDisplay(CRTC_PARAMS*, MinimumClocksParameters*);
-    convertToMinimumClockParametersSingleDisplay(CRTC_PARAMS*, ScalerValidationParameters*, MinimumClocksParameters*);
-    validateClockForSinglePath(MinimumClocksParameters*, CRTC_PARAMS*);
+    auto GetDefaultDisplayEngineClock();
+    auto PreDpmSetup();
+    auto convertToMinimumClockParametersSingleDisplay(CRTC_PARAMS*, MinimumClocksParameters*);
+    auto convertToMinimumClockParametersSingleDisplay(CRTC_PARAMS*, ScalerValidationParameters*, MinimumClocksParameters*);
+    auto validateClockForSinglePath(MinimumClocksParameters*, CRTC_PARAMS*);
     ~AtiDisplayEngineClock();
 };

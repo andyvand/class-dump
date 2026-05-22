@@ -6,10 +6,12 @@ class AtiAppServices {
 public: // (access info unavailable from symbols alone)
     AtiAppServices();
     AtiAppServices(OSMetaClass const*);
-    getMetaClass() const;
-    lockGate();
-    newUserClient(task*, void*, unsigned int, IOUserClient**);
-    start(IOService*);
-    unlockGate();
+    auto getMetaClass() const;
+    auto lockGate();
+    auto newUserClient(task*, void*, unsigned int, IOUserClient**);
+    auto start(IOService*);
+    auto unlockGate();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiAppServices();
 };

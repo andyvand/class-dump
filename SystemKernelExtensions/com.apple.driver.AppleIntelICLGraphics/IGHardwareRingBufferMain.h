@@ -6,15 +6,17 @@ class IGHardwareRingBufferMain {
 public: // (access info unavailable from symbols alone)
     IGHardwareRingBufferMain();
     IGHardwareRingBufferMain(OSMetaClass const*);
-    commitStampCommand(unsigned int, bool);
-    getFlushSpace();
-    getFlushTLBSpace();
-    getMetaClass() const;
-    getStampSpace();
-    init(IGHardwareContext*);
-    waitForSemaphore(unsigned int, unsigned int);
-    writeFlush();
-    writeFlushTLB();
-    writeStamp(unsigned int, bool);
+    auto commitStampCommand(unsigned int, bool);
+    auto getFlushSpace();
+    auto getFlushTLBSpace();
+    auto getMetaClass() const;
+    auto getStampSpace();
+    auto init(IGHardwareContext*);
+    auto waitForSemaphore(unsigned int, unsigned int);
+    auto writeFlush();
+    auto writeFlushTLB();
+    auto writeStamp(unsigned int, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGHardwareRingBufferMain();
 };

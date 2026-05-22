@@ -4,14 +4,14 @@
 
 class UDFSpaceAlloc {
 public: // (access info unavailable from symbols alone)
-    AllocWriteOnceSpace(unsigned int);
-    DeleteReservation(int);
-    GetNumBlks();
-    GetNumFreeBlks();
-    NewBlocksWereWritten(unsigned int);
-    NewReservation(long long, int*);
-    ReleaseSysFileVnode();
-    Sync(int);
     UDFSpaceAlloc(UDFMount*, unsigned short, unsigned int, unsigned int);
+    auto AllocWriteOnceSpace(unsigned int);
+    auto DeleteReservation(int);
+    auto GetNumBlks();
+    auto GetNumFreeBlks();
+    auto NewBlocksWereWritten(unsigned int);
+    auto NewReservation(long long, int*);
+    auto ReleaseSysFileVnode();
+    auto Sync(int);
     ~UDFSpaceAlloc();
 };

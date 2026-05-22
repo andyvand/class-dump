@@ -4,7 +4,9 @@
 
 class IGSpinLock {
 public: // (access info unavailable from symbols alone)
-    cleanup();
-    initialize();
-    withOptions(unsigned int, unsigned int);
+    auto cleanup();
+    auto initialize();
+    auto withOptions(unsigned int, unsigned int);
+    void * operator new(unsigned long)::kalloc_type_view_30;
+    void operator delete(void*, unsigned long)::kalloc_type_view_34;
 };

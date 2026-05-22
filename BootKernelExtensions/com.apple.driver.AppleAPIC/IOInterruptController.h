@@ -5,17 +5,17 @@
 class IOInterruptController {
 public: // (access info unavailable from symbols alone)
     IOInterruptController(OSMetaClass const*);
-    _RESERVEDIOInterruptController3();
-    _RESERVEDIOInterruptController4();
-    _RESERVEDIOInterruptController5();
-    cancelDeferredIPI(unsigned int);
-    causeInterrupt(IOService*, int);
-    causeVector(int, IOInterruptVector*);
-    disableInterrupt(IOService*, int);
-    enableInterrupt(IOService*, int);
-    getVectorType(int, IOInterruptVector*);
-    sendIPI(unsigned int, bool);
-    setCPUInterruptProperties(IOService*);
-    unregisterInterrupt(IOService*, int);
+    auto _RESERVEDIOInterruptController3();
+    auto _RESERVEDIOInterruptController4();
+    auto _RESERVEDIOInterruptController5();
+    auto cancelDeferredIPI(unsigned int);
+    auto causeInterrupt(IOService*, int);
+    auto causeVector(int, IOInterruptVector*);
+    auto disableInterrupt(IOService*, int);
+    auto enableInterrupt(IOService*, int);
+    auto getVectorType(int, IOInterruptVector*);
+    auto sendIPI(unsigned int, bool);
+    auto setCPUInterruptProperties(IOService*);
+    auto unregisterInterrupt(IOService*, int);
     ~IOInterruptController();
 };

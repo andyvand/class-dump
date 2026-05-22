@@ -8,8 +8,6 @@ IOACPIPlatformDevice::metaClass;
 OSString::metaClass;
 com_apple_driver_16X50ACPI::gMetaClass;
 com_apple_driver_16X50ACPI::metaClass;
-com_apple_driver_16X50ACPI::operator delete(void*, unsigned long);
-com_apple_driver_16X50ACPI::operator new(unsigned long);
 com_apple_driver_16X50ACPI::superClass;
 com_apple_driver_16X50ACPI_ktv;
 com_apple_driver_16X50BusInterface::gMetaClass;

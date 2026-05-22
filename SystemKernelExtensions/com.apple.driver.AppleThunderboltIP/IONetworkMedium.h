@@ -4,5 +4,5 @@
 
 class IONetworkMedium {
 public: // (access info unavailable from symbols alone)
-    medium(unsigned int, unsigned long long, unsigned int, unsigned int, char const*);
+    auto medium(unsigned int, unsigned long long, unsigned int, unsigned int, char const*);
 };

@@ -5,6 +5,6 @@
 class IOGPUVirtualMemory::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOGPUVirtualMemory*);
-    getNextMemory(unsigned int*);
+    auto getNextMemory(unsigned int*);
     ~Iterator();
 };

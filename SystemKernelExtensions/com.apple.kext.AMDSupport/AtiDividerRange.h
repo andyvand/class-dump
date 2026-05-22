@@ -6,10 +6,12 @@ class AtiDividerRange {
 public: // (access info unavailable from symbols alone)
     AtiDividerRange();
     AtiDividerRange(OSMetaClass const*);
-    CalcDid(unsigned int);
-    CalcDivider(unsigned int);
-    createDividerRange(unsigned int, unsigned int, unsigned int, unsigned int);
-    getMetaClass() const;
-    init(unsigned int, unsigned int, unsigned int, unsigned int);
+    auto CalcDid(unsigned int);
+    auto CalcDivider(unsigned int);
+    auto createDividerRange(unsigned int, unsigned int, unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto init(unsigned int, unsigned int, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDividerRange();
 };

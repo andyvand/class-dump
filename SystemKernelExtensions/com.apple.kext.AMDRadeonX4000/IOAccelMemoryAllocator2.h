@@ -5,12 +5,13 @@
 class IOAccelMemoryAllocator2 {
 public: // (access info unavailable from symbols alone)
     IOAccelMemoryAllocator2();
-    allocPages(GLKMemoryElement*, unsigned long long, unsigned long long, bool, unsigned int);
-    allocPages(GLKMemoryElement*, unsigned long long, unsigned long long, unsigned long long, unsigned long long, bool, unsigned int);
-    dealloc(GLKMemoryElement*);
-    init_pool(unsigned long long);
-    init_pool(unsigned long long, unsigned long long);
-    init_pool(unsigned long long, unsigned long long, unsigned long long);
-    reserve(GLKMemoryElement*, unsigned long long, unsigned long long);
-    total_free();
+    auto allocPages(GLKMemoryElement*, unsigned long long, unsigned long long, bool, unsigned int);
+    auto allocPages(GLKMemoryElement*, unsigned long long, unsigned long long, unsigned long long, unsigned long long, bool, unsigned int);
+    auto dealloc(GLKMemoryElement*);
+    auto init_pool(unsigned long long);
+    auto init_pool(unsigned long long, unsigned long long);
+    auto init_pool(unsigned long long, unsigned long long, unsigned long long);
+    auto reserve(GLKMemoryElement*, unsigned long long, unsigned long long);
+    auto total_free();
+    void * operator new(unsigned long);
 };

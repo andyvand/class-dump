@@ -6,20 +6,18 @@
 
 AppleUSBDisplays::gMetaClass;
 AppleUSBDisplays::metaClass;
-AppleUSBDisplays::operator delete(void*, unsigned long);
-AppleUSBDisplays::operator new(unsigned long);
 AppleUSBDisplays::superClass;
 AppleUSBDisplays_ktv;
-DeviceIDString(unsigned short, unsigned short, unsigned int);
-HexStringToNum(char const*);
 IOUSBHostHIDDevice::gMetaClass;
 IOUSBHostInterface::metaClass;
-NumToHexString(unsigned int, short, char*);
 OSArray::metaClass;
 OSBoolean::metaClass;
 OSDictionary::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
+auto DeviceIDString(unsigned short, unsigned short, unsigned int);
+auto HexStringToNum(char const*);
+auto NumToHexString(unsigned int, short, char*);
 vtable for AppleUSBDisplays;
 vtable for AppleUSBDisplays::MetaClass;
 vtable for IOUSBHostHIDDevice;

@@ -6,9 +6,11 @@ class AppleASMediaUSBXHCIDevice {
 public: // (access info unavailable from symbols alone)
     AppleASMediaUSBXHCIDevice();
     AppleASMediaUSBXHCIDevice(OSMetaClass const*);
-    getMetaClass() const;
-    getSpeed() const;
-    setAddress(unsigned long, StandardUSBXHCI::StandardUSBXHCISlotContext*, unsigned short&);
-    withParameters(AppleUSBXHCI*, StandardUSBXHCI::StandardUSBXHCICapabilityRegisters const*, unsigned int, unsigned char*, unsigned int, AppleUSBXHCICommandRing*, IOMapper*);
+    auto getMetaClass() const;
+    auto getSpeed() const;
+    auto setAddress(unsigned long, StandardUSBXHCI::StandardUSBXHCISlotContext*, unsigned short&);
+    auto withParameters(AppleUSBXHCI*, StandardUSBXHCI::StandardUSBXHCICapabilityRegisters const*, unsigned int, unsigned char*, unsigned int, AppleUSBXHCICommandRing*, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleASMediaUSBXHCIDevice();
 };

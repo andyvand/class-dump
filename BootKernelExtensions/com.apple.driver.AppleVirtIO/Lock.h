@@ -4,12 +4,12 @@
 
 class Lock {
 public: // (access info unavailable from symbols alone)
-    Clean();
-    DemoteShared();
-    DemoteShared() (.cold.1);
-    PromoteExclusive();
-    PromoteExclusive() (.cold.1);
-    Shared(lck_rw_t*);
-    Unlock();
+    auto Clean();
+    auto DemoteShared();
+    auto DemoteShared() (.cold.1);
+    auto PromoteExclusive();
+    auto PromoteExclusive() (.cold.1);
+    auto Shared(lck_rw_t*);
+    auto Unlock();
     ~Lock();
 };

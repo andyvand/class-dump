@@ -6,10 +6,12 @@ class AMDRadeonX4000_AMDCISAMUGPCOMChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDCISAMUGPCOMChannel();
     AMDRadeonX4000_AMDCISAMUGPCOMChannel(OSMetaClass const*);
-    commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
-    free();
-    getMetaClass() const;
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
-    timeStampInterruptCallbackGPCOM(OSObject*, void*);
+    auto commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto timeStampInterruptCallbackGPCOM(OSObject*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDCISAMUGPCOMChannel();
 };

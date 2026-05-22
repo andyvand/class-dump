@@ -4,7 +4,7 @@
 
 class IGVector<IOAccelEvent*, IGIOMallocAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
-    add(IOAccelEvent* const&);
-    grow(unsigned long);
+    auto add(IOAccelEvent* const&);
+    auto grow(unsigned long);
     ~IGVector();
 };

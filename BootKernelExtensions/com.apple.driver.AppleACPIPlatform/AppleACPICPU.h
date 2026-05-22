@@ -6,13 +6,15 @@ class AppleACPICPU {
 public: // (access info unavailable from symbols alone)
     AppleACPICPU();
     AppleACPICPU(OSMetaClass const*);
-    getCPUName();
-    getMetaClass() const;
-    haltCPU();
-    initCPU(bool);
-    quiesceCPU();
-    start(IOService*);
-    startCPU(unsigned long, unsigned long);
-    startSerialized(IOService*, unsigned int, unsigned int);
+    auto getCPUName();
+    auto getMetaClass() const;
+    auto haltCPU();
+    auto initCPU(bool);
+    auto quiesceCPU();
+    auto start(IOService*);
+    auto startCPU(unsigned long, unsigned long);
+    auto startSerialized(IOService*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleACPICPU();
 };

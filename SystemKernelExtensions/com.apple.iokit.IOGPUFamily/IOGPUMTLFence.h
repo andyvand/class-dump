@@ -6,10 +6,12 @@ class IOGPUMTLFence {
 public: // (access info unavailable from symbols alone)
     IOGPUMTLFence();
     IOGPUMTLFence(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    initWithAccelerator(IOGPU*);
-    scrubEvents();
-    withAccelerator(IOGPU*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithAccelerator(IOGPU*);
+    auto scrubEvents();
+    auto withAccelerator(IOGPU*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGPUMTLFence();
 };

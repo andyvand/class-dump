@@ -8,8 +8,6 @@ IOPMrootDomain::metaClass;
 IOPlatformPluginFamilyPriv::gMetaClass;
 VMPlatformPlugin::gMetaClass;
 VMPlatformPlugin::metaClass;
-VMPlatformPlugin::operator delete(void*, unsigned long);
-VMPlatformPlugin::operator new(unsigned long);
 VMPlatformPlugin::superClass;
 VMPlatformPlugin_ktv;
 ourPowerStates;

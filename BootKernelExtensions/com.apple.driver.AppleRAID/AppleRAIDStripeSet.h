@@ -6,13 +6,15 @@ class AppleRAIDStripeSet {
 public: // (access info unavailable from symbols alone)
     AppleRAIDStripeSet();
     AppleRAIDStripeSet(OSMetaClass const*);
-    addMember(AppleRAIDMember*);
-    addSpare(AppleRAIDMember*);
-    allocateMemoryDescriptor(AppleRAIDStorageRequest*, unsigned int);
-    createRAIDSet(AppleRAIDMember*);
-    free();
-    getMetaClass() const;
-    init();
-    startSet();
+    auto addMember(AppleRAIDMember*);
+    auto addSpare(AppleRAIDMember*);
+    auto allocateMemoryDescriptor(AppleRAIDStorageRequest*, unsigned int);
+    auto createRAIDSet(AppleRAIDMember*);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto startSet();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleRAIDStripeSet();
 };

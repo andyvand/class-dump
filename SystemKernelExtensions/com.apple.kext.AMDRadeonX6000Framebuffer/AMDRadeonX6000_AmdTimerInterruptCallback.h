@@ -6,11 +6,13 @@ class AMDRadeonX6000_AmdTimerInterruptCallback {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdTimerInterruptCallback();
     AMDRadeonX6000_AmdTimerInterruptCallback(OSMetaClass const*);
-    createCallback(void (*)(void*, void*), void*, AMDRadeonX6000_IAmdInterruptEvent*, unsigned int, unsigned int, bool, IOWorkLoop*, AMDRadeonX6000_IAmdLogger*);
-    free();
-    getMetaClass() const;
-    initWithCallback(void (*)(void*, void*), void*, AMDRadeonX6000_IAmdInterruptEvent*, unsigned int, unsigned int, bool, IOWorkLoop*, AMDRadeonX6000_IAmdLogger*);
-    notify(void*);
-    timerInterruptCallbackHandler(OSObject*, IOTimerEventSource*);
+    auto createCallback(void (*)(void*, void*), void*, AMDRadeonX6000_IAmdInterruptEvent*, unsigned int, unsigned int, bool, IOWorkLoop*, AMDRadeonX6000_IAmdLogger*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithCallback(void (*)(void*, void*), void*, AMDRadeonX6000_IAmdInterruptEvent*, unsigned int, unsigned int, bool, IOWorkLoop*, AMDRadeonX6000_IAmdLogger*);
+    auto notify(void*);
+    auto timerInterruptCallbackHandler(OSObject*, IOTimerEventSource*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdTimerInterruptCallback();
 };

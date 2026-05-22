@@ -6,15 +6,17 @@ class IOAccelerationUserClient {
 public: // (access info unavailable from symbols alone)
     IOAccelerationUserClient();
     IOAccelerationUserClient(OSMetaClass const*);
-    clientClose();
-    extCreate(unsigned int, int, int*);
-    extDestroy(unsigned int, int);
-    free();
-    getMetaClass() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
-    getTargetAndMethodForIndex(IOService**, unsigned int)::methodTemplate;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    start(IOService*);
-    stop(IOService*);
+    auto clientClose();
+    auto extCreate(unsigned int, int, int*);
+    auto extDestroy(unsigned int, int);
+    auto free();
+    auto getMetaClass() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto getTargetAndMethodForIndex(IOService**, unsigned int)::methodTemplate;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelerationUserClient();
 };

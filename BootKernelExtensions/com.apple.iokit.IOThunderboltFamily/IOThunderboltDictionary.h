@@ -6,14 +6,16 @@ class IOThunderboltDictionary {
 public: // (access info unavailable from symbols alone)
     IOThunderboltDictionary();
     IOThunderboltDictionary(OSMetaClass const*);
-    doesKeyExist(OSString const*);
-    getKeyForObject(OSObject*);
-    getMetaClass() const;
-    safeSetObject(OSString const*, OSMetaClassBase const*);
-    safeSetObject(OSString const*, OSMetaClassBase const*, bool);
-    withCapacity(unsigned int);
-    withDictionary(OSDictionary const*, unsigned int);
-    withObjects(OSObject const**, OSString const**, unsigned int, unsigned int);
-    withObjects(OSObject const**, OSSymbol const**, unsigned int, unsigned int);
+    auto doesKeyExist(OSString const*);
+    auto getKeyForObject(OSObject*);
+    auto getMetaClass() const;
+    auto safeSetObject(OSString const*, OSMetaClassBase const*);
+    auto safeSetObject(OSString const*, OSMetaClassBase const*, bool);
+    auto withCapacity(unsigned int);
+    auto withDictionary(OSDictionary const*, unsigned int);
+    auto withObjects(OSObject const**, OSString const**, unsigned int, unsigned int);
+    auto withObjects(OSObject const**, OSSymbol const**, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOThunderboltDictionary();
 };

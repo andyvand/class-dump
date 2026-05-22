@@ -5,5 +5,5 @@
 class AMDRadeonX5000_AMDVega12GraphicsAccelerator::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

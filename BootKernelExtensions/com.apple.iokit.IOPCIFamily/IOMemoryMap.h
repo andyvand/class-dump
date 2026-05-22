@@ -4,6 +4,6 @@
 
 class IOMemoryMap {
 public: // (access info unavailable from symbols alone)
-    getPhysicalAddress();
-    wireRange(unsigned int, unsigned long long, unsigned long long);
+    auto getPhysicalAddress();
+    auto wireRange(unsigned int, unsigned long long, unsigned long long);
 };

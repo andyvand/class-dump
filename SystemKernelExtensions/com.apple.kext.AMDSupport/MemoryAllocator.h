@@ -6,12 +6,14 @@ class MemoryAllocator {
 public: // (access info unavailable from symbols alone)
     MemoryAllocator();
     MemoryAllocator(OSMetaClass const*);
-    allocateMemory(unsigned long);
-    deallocateMemory(void*);
-    free();
-    freeList();
-    getMetaClass() const;
-    init(unsigned char);
-    printList();
+    auto allocateMemory(unsigned long);
+    auto deallocateMemory(void*);
+    auto free();
+    auto freeList();
+    auto getMetaClass() const;
+    auto init(unsigned char);
+    auto printList();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~MemoryAllocator();
 };

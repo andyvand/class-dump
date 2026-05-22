@@ -4,5 +4,5 @@
 
 class IOFireWireUnit {
 public: // (access info unavailable from symbols alone)
-    setMaxSpeed(IOFWSpeed);
+    auto setMaxSpeed(IOFWSpeed);
 };

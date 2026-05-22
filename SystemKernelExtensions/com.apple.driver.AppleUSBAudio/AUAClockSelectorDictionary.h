@@ -6,11 +6,13 @@ class AUAClockSelectorDictionary {
 public: // (access info unavailable from symbols alone)
     AUAClockSelectorDictionary();
     AUAClockSelectorDictionary(OSMetaClass const*);
-    getMetaClass() const;
-    getNumInPins(unsigned char*);
-    initClockSourceIDs(unsigned char const*, unsigned char);
-    initClockSourceIDs(unsigned char const*, unsigned char) (.cold.1);
-    initControlsArray(unsigned char const*, unsigned char);
-    initControlsArray(unsigned char const*, unsigned char) (.cold.1);
+    auto getMetaClass() const;
+    auto getNumInPins(unsigned char*);
+    auto initClockSourceIDs(unsigned char const*, unsigned char);
+    auto initClockSourceIDs(unsigned char const*, unsigned char) (.cold.1);
+    auto initControlsArray(unsigned char const*, unsigned char);
+    auto initControlsArray(unsigned char const*, unsigned char) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AUAClockSelectorDictionary();
 };

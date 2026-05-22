@@ -5,15 +5,15 @@
 class IGHashTable<unsigned long long, IGAccelMemoryMap*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
     IGHashTable();
-    add(unsigned long long const&, IGAccelMemoryMap* const&);
-    clear();
-    clear() (.cold.1);
-    contains(unsigned long long const&) const;
-    operator[](unsigned long long const&);
-    resizeAndRehash(unsigned long);
-    resizeAndRehash(unsigned long) (.cold.1);
-    resizeAndRehash(unsigned long) (.cold.2);
-    shrinkIfNeeded();
-    slotIndex(unsigned long long const&) const;
+    auto add(unsigned long long const&, IGAccelMemoryMap* const&);
+    auto clear();
+    auto clear() (.cold.1);
+    auto contains(unsigned long long const&) const;
+    auto operator[](unsigned long long const&);
+    auto resizeAndRehash(unsigned long);
+    auto resizeAndRehash(unsigned long) (.cold.1);
+    auto resizeAndRehash(unsigned long) (.cold.2);
+    auto shrinkIfNeeded();
+    auto slotIndex(unsigned long long const&) const;
     ~IGHashTable();
 };

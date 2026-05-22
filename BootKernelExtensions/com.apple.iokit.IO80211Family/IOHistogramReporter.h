@@ -5,10 +5,10 @@
 class IOHistogramReporter {
 public: // (access info unavailable from symbols alone)
     IOHistogramReporter(OSMetaClass const*);
-    handleCreateLegend();
-    initWith(IOService*, unsigned short, unsigned long long, OSSymbol const*, unsigned long long, int, IOHistogramSegmentConfig*);
-    overrideBucketValues(unsigned int, unsigned long long, long long, long long, long long);
-    tallyValue(long long);
-    with(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
+    auto handleCreateLegend();
+    auto initWith(IOService*, unsigned short, unsigned long long, OSSymbol const*, unsigned long long, int, IOHistogramSegmentConfig*);
+    auto overrideBucketValues(unsigned int, unsigned long long, long long, long long, long long);
+    auto tallyValue(long long);
+    auto with(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
     ~IOHistogramReporter();
 };

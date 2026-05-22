@@ -4,8 +4,8 @@
 
 class IOPerfControlClient {
 public: // (access info unavailable from symbols alone)
-    copyClient(IOService*, unsigned long long);
-    copyWorkContext();
-    workEndWithContext(IOService*, OSObject*, IOPerfControlClient::WorkEndArgs*, bool);
-    workSubmitAndBeginWithContext(IOService*, OSObject*, IOPerfControlClient::WorkSubmitArgs*, IOPerfControlClient::WorkBeginArgs*);
+    auto copyClient(IOService*, unsigned long long);
+    auto copyWorkContext();
+    auto workEndWithContext(IOService*, OSObject*, IOPerfControlClient::WorkEndArgs*, bool);
+    auto workSubmitAndBeginWithContext(IOService*, OSObject*, IOPerfControlClient::WorkSubmitArgs*, IOPerfControlClient::WorkBeginArgs*);
 };

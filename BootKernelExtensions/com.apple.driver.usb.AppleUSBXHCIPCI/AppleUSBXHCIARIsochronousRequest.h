@@ -6,10 +6,12 @@ class AppleUSBXHCIARIsochronousRequest {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIARIsochronousRequest();
     AppleUSBXHCIARIsochronousRequest(OSMetaClass const*);
-    addTD(AppleUSBXHCITD*, unsigned int, unsigned int, unsigned int);
-    getMetaClass() const;
-    link(AppleUSBXHCITD*);
-    link(AppleUSBXHCITD*)::_os_log_fmt;
-    withControllerAndPool(AppleUSBXHCI*, AppleUSBRequestPool*);
+    auto addTD(AppleUSBXHCITD*, unsigned int, unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto link(AppleUSBXHCITD*);
+    auto link(AppleUSBXHCITD*)::_os_log_fmt;
+    auto withControllerAndPool(AppleUSBXHCI*, AppleUSBRequestPool*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCIARIsochronousRequest();
 };

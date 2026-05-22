@@ -4,5 +4,5 @@
 
 class IOUserClient {
 public: // (access info unavailable from symbols alone)
-    clientHasPrivilege(void*, char const*);
+    auto clientHasPrivilege(void*, char const*);
 };

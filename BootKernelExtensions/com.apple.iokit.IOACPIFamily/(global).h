@@ -6,14 +6,10 @@
 
 IOACPIPlatformDevice::gMetaClass;
 IOACPIPlatformDevice::metaClass;
-IOACPIPlatformDevice::operator delete(void*, unsigned long);
-IOACPIPlatformDevice::operator new(unsigned long);
 IOACPIPlatformDevice::superClass;
 IOACPIPlatformDevice_ktv;
 IOACPIPlatformExpert::gMetaClass;
 IOACPIPlatformExpert::metaClass;
-IOACPIPlatformExpert::operator delete(void*, unsigned long);
-IOACPIPlatformExpert::operator new(unsigned long);
 IOACPIPlatformExpert::superClass;
 IOACPIPlatformExpert_ktv;
 IODTPlatformExpert::gMetaClass;

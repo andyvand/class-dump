@@ -5,6 +5,6 @@
 class IOAccelVidMemoryList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelVidMemoryList&);
-    getNextMemory();
+    auto getNextMemory();
     ~Iterator();
 };

@@ -6,12 +6,14 @@ class IONetworkStackUserClient {
 public: // (access info unavailable from symbols alone)
     IONetworkStackUserClient();
     IONetworkStackUserClient(OSMetaClass const*);
-    __OSFinalClass();
-    clientClose();
-    clientDied();
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    setProperties(OSObject*);
-    start(IOService*);
+    auto __OSFinalClass();
+    auto clientClose();
+    auto clientDied();
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto setProperties(OSObject*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IONetworkStackUserClient();
 };

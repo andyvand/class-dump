@@ -5,15 +5,15 @@
 class AppleVirtIOFSTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOFSTransaction();
-    free();
-    getInHeader();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    getOutHeader();
-    getResponseActualLength();
-    initWithRequest(IOMemoryDescriptor*, IOMemoryDescriptor*, bool);
-    setResponseActualLength(unsigned int);
-    withRequest(IOMemoryDescriptor*, IOMemoryDescriptor*, bool);
+    auto free();
+    auto getInHeader();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto getOutHeader();
+    auto getResponseActualLength();
+    auto initWithRequest(IOMemoryDescriptor*, IOMemoryDescriptor*, bool);
+    auto setResponseActualLength(unsigned int);
+    auto withRequest(IOMemoryDescriptor*, IOMemoryDescriptor*, bool);
     ~AppleVirtIOFSTransaction();
 };

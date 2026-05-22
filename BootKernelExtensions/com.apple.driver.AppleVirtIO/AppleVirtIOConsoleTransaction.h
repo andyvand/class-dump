@@ -5,14 +5,15 @@
 class AppleVirtIOConsoleTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOConsoleTransaction();
-    free();
-    getBuffer();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    initWithControlMessage(unsigned short, unsigned short, unsigned int);
-    initWithReceiveBuffer(unsigned int);
-    initWithSendBuffer(unsigned int);
-    setTransactionLength(unsigned long long);
+    auto free();
+    auto getBuffer();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto initWithControlMessage(unsigned short, unsigned short, unsigned int);
+    auto initWithReceiveBuffer(unsigned int);
+    auto initWithSendBuffer(unsigned int);
+    auto setTransactionLength(unsigned long long);
+    void * operator new(unsigned long);
     ~AppleVirtIOConsoleTransaction();
 };

@@ -4,7 +4,7 @@
 
 class OSDictionary {
 public: // (access info unavailable from symbols alone)
-    withCapacity(unsigned int);
-    withDictionary(OSDictionary const*, unsigned int);
-    withObjects(OSObject const**, OSString const**, unsigned int, unsigned int);
+    auto withCapacity(unsigned int);
+    auto withDictionary(OSDictionary const*, unsigned int);
+    auto withObjects(OSObject const**, OSString const**, unsigned int, unsigned int);
 };

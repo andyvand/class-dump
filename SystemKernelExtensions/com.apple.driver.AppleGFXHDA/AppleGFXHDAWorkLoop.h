@@ -6,9 +6,11 @@ class AppleGFXHDAWorkLoop {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAWorkLoop();
     AppleGFXHDAWorkLoop(OSMetaClass const*);
-    Create(char const*);
-    InitWithLockGroupName(char const*);
-    free();
-    getMetaClass() const;
+    auto Create(char const*);
+    auto InitWithLockGroupName(char const*);
+    auto free();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAWorkLoop();
 };

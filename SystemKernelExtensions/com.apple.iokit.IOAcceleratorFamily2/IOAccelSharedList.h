@@ -4,9 +4,9 @@
 
 class IOAccelSharedList {
 public: // (access info unavailable from symbols alone)
-    addShared(IOAccelShared2*);
-    getCount() const;
-    init();
-    removeShared(IOAccelShared2*);
-    removeShared(IOAccelShared2*)::_os_log_fmt;
+    auto addShared(IOAccelShared2*);
+    auto getCount() const;
+    auto init();
+    auto removeShared(IOAccelShared2*);
+    auto removeShared(IOAccelShared2*)::_os_log_fmt;
 };

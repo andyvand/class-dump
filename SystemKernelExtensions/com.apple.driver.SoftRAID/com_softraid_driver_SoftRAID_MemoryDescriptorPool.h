@@ -4,13 +4,15 @@
 
 class com_softraid_driver_SoftRAID_MemoryDescriptorPool {
 public: // (access info unavailable from symbols alone)
-    AllocMemoryDescriptor(unsigned int);
-    AllocMemoryDescriptor(unsigned int) (.cold.1);
-    FreeMemoryDescriptor(com_softraid_driver_SoftRAID_MemoryDescriptor*);
+    auto AllocMemoryDescriptor(unsigned int);
+    auto AllocMemoryDescriptor(unsigned int) (.cold.1);
+    auto FreeMemoryDescriptor(com_softraid_driver_SoftRAID_MemoryDescriptor*);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_MemoryDescriptorPool();
     com_softraid_driver_SoftRAID_MemoryDescriptorPool(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_MemoryDescriptorPool();
 };

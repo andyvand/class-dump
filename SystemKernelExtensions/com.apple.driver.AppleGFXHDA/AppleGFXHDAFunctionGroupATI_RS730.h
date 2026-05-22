@@ -6,7 +6,9 @@ class AppleGFXHDAFunctionGroupATI_RS730 {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAFunctionGroupATI_RS730();
     AppleGFXHDAFunctionGroupATI_RS730(OSMetaClass const*);
-    getMetaClass() const;
-    initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*, bool);
+    auto getMetaClass() const;
+    auto initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAFunctionGroupATI_RS730();
 };

@@ -6,13 +6,15 @@ class AppleUSBRealtek8153Patcher {
 public: // (access info unavailable from symbols alone)
     AppleUSBRealtek8153Patcher();
     AppleUSBRealtek8153Patcher(OSMetaClass const*);
-    buildRTKVendorCmd(tDeviceRequestDirection, unsigned short, unsigned short, void*, unsigned int, unsigned int);
-    getMetaClass() const;
-    probe(IOService*, int*);
-    readRegister(unsigned short, unsigned short, unsigned char, unsigned char, void*, unsigned int);
-    submitRTKRamCode();
-    writeRegister(unsigned short, unsigned short, unsigned char, unsigned char, void const*, unsigned int);
-    writeRegister64(unsigned short, unsigned short, unsigned char, unsigned char, void const*, unsigned int);
-    writeRegister64(unsigned short, unsigned short, unsigned char, unsigned char, void const*, unsigned int) (.cold.1);
+    auto buildRTKVendorCmd(tDeviceRequestDirection, unsigned short, unsigned short, void*, unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto readRegister(unsigned short, unsigned short, unsigned char, unsigned char, void*, unsigned int);
+    auto submitRTKRamCode();
+    auto writeRegister(unsigned short, unsigned short, unsigned char, unsigned char, void const*, unsigned int);
+    auto writeRegister64(unsigned short, unsigned short, unsigned char, unsigned char, void const*, unsigned int);
+    auto writeRegister64(unsigned short, unsigned short, unsigned char, unsigned char, void const*, unsigned int) (.cold.1);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBRealtek8153Patcher();
 };

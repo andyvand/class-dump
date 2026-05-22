@@ -6,11 +6,13 @@ class PMSettingObject {
 public: // (access info unavailable from symbols alone)
     PMSettingObject();
     PMSettingObject(OSMetaClass const*);
-    __OSFinalClass();
-    clientHandleFreed();
-    dispatchPMSetting(OSSymbol const*, OSObject*);
-    free();
-    getMetaClass() const;
-    pmSettingObject(IOPMrootDomain*, int (*)(OSObject*, OSSymbol const*, OSObject*, unsigned long), OSObject*, unsigned long, unsigned int, OSSymbol const**, OSObject**);
+    auto __OSFinalClass();
+    auto clientHandleFreed();
+    auto dispatchPMSetting(OSSymbol const*, OSObject*);
+    auto free();
+    auto getMetaClass() const;
+    auto pmSettingObject(IOPMrootDomain*, int (*)(OSObject*, OSSymbol const*, OSObject*, unsigned long), OSObject*, unsigned long, unsigned int, OSSymbol const**, OSObject**);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~PMSettingObject();
 };

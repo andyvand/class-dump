@@ -4,16 +4,18 @@
 
 class com_apple_driver_pm_flex_reporter {
 public: // (access info unavailable from symbols alone)
+    auto destroy();
+    auto flex_counters_configure(flex_counter*);
+    auto flex_counters_sample(flex_counter*);
+    auto getMetaClass() const;
+    auto group();
+    auto init();
+    auto publish();
+    auto setup(com_apple_driver_pmtelemetry*, IOReportLegend*);
+    auto subgroup();
     com_apple_driver_pm_flex_reporter();
     com_apple_driver_pm_flex_reporter(OSMetaClass const*);
-    destroy();
-    flex_counters_configure(flex_counter*);
-    flex_counters_sample(flex_counter*);
-    getMetaClass() const;
-    group();
-    init();
-    publish();
-    setup(com_apple_driver_pmtelemetry*, IOReportLegend*);
-    subgroup();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_pm_flex_reporter();
 };

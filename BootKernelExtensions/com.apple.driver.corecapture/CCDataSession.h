@@ -6,15 +6,17 @@ class CCDataSession {
 public: // (access info unavailable from symbols alone)
     CCDataSession();
     CCDataSession(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_102;
-    getMetaClass() const;
-    getName();
-    getTimestamp();
-    initWithNameAndTimestamp(char const*, CCTimestamp);
-    initWithNameAndTimestamp(char const*, CCTimestamp)::kalloc_type_view_84;
-    setName(OSString*);
-    setTimestamp(CCTimestamp);
-    withNameAndTimestamp(char const*, CCTimestamp);
+    auto free();
+    auto free()::kalloc_type_view_102;
+    auto getMetaClass() const;
+    auto getName();
+    auto getTimestamp();
+    auto initWithNameAndTimestamp(char const*, CCTimestamp);
+    auto initWithNameAndTimestamp(char const*, CCTimestamp)::kalloc_type_view_84;
+    auto setName(OSString*);
+    auto setTimestamp(CCTimestamp);
+    auto withNameAndTimestamp(char const*, CCTimestamp);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~CCDataSession();
 };

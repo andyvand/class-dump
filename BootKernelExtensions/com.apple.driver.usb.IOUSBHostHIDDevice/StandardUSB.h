@@ -4,12 +4,12 @@
 
 class StandardUSB {
 public: // (access info unavailable from symbols alone)
-    getEndpointAddress(StandardUSB::EndpointDescriptor const*);
-    getEndpointDirection(StandardUSB::EndpointDescriptor const*);
-    getEndpointIntervalFrames(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
-    getEndpointType(StandardUSB::EndpointDescriptor const*);
-    getNextAssociatedDescriptorWithType(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*, StandardUSB::Descriptor const*, unsigned char);
-    getNextEndpointDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*, StandardUSB::Descriptor const*);
-    stringDescriptorToUTF8(StandardUSB::StringDescriptor const*, char*, unsigned long&);
+    auto getEndpointAddress(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointDirection(StandardUSB::EndpointDescriptor const*);
+    auto getEndpointIntervalFrames(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointMaxPacketSize(unsigned int, StandardUSB::EndpointDescriptor const*);
+    auto getEndpointType(StandardUSB::EndpointDescriptor const*);
+    auto getNextAssociatedDescriptorWithType(StandardUSB::ConfigurationDescriptor const*, StandardUSB::Descriptor const*, StandardUSB::Descriptor const*, unsigned char);
+    auto getNextEndpointDescriptor(StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*, StandardUSB::Descriptor const*);
+    auto stringDescriptorToUTF8(StandardUSB::StringDescriptor const*, char*, unsigned long&);
 };

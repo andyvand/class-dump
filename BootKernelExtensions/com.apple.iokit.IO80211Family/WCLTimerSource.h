@@ -6,12 +6,14 @@ class WCLTimerSource {
 public: // (access info unavailable from symbols alone)
     WCLTimerSource();
     WCLTimerSource(OSMetaClass const*);
-    allocWithParams(OSObject*, IO80211WorkQueue*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
-    free();
-    free()::kalloc_type_view_82;
-    getMetaClass() const;
-    init(OSObject*, IO80211WorkQueue*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
-    init(OSObject*, IO80211WorkQueue*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*))::kalloc_type_view_55;
-    serialAction(IO80211TimerSource*);
+    auto allocWithParams(OSObject*, IO80211WorkQueue*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
+    auto free();
+    auto free()::kalloc_type_view_82;
+    auto getMetaClass() const;
+    auto init(OSObject*, IO80211WorkQueue*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
+    auto init(OSObject*, IO80211WorkQueue*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*))::kalloc_type_view_55;
+    auto serialAction(IO80211TimerSource*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~WCLTimerSource();
 };

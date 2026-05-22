@@ -6,12 +6,14 @@ class AppleGFXHDA38C8Driver {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDA38C8Driver();
     AppleGFXHDA38C8Driver(OSMetaClass const*);
-    completeStart();
-    getMetaClass() const;
-    handleInvalidEDID(HDAGFXHeadAssociationStruct*);
-    handleValidEDIDAction(HDAGFXHeadAssociationStruct*);
-    message(unsigned int, IOService*, void*);
-    protectedSetPowerState(unsigned long, IOService*);
-    systemWillShutdown(unsigned int);
+    auto completeStart();
+    auto getMetaClass() const;
+    auto handleInvalidEDID(HDAGFXHeadAssociationStruct*);
+    auto handleValidEDIDAction(HDAGFXHeadAssociationStruct*);
+    auto message(unsigned int, IOService*, void*);
+    auto protectedSetPowerState(unsigned long, IOService*);
+    auto systemWillShutdown(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDA38C8Driver();
 };

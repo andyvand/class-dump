@@ -4,6 +4,6 @@
 
 class IOTimeSyncFilteredService {
 public: // (access info unavailable from symbols alone)
-    addTimestamps(unsigned long long, unsigned long long);
-    resetFilter(bool);
+    auto addTimestamps(unsigned long long, unsigned long long);
+    auto resetFilter(bool);
 };

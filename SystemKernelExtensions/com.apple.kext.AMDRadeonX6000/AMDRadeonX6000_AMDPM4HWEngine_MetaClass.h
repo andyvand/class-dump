@@ -5,5 +5,5 @@
 class AMDRadeonX6000_AMDPM4HWEngine::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

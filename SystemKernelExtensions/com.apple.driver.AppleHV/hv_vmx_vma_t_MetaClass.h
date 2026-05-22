@@ -5,6 +5,6 @@
 class hv_vmx_vma_t::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

@@ -6,10 +6,12 @@ class AtiSetPixelClock_V1_7 {
 public: // (access info unavailable from symbols alone)
     AtiSetPixelClock_V1_7();
     AtiSetPixelClock_V1_7(OSMetaClass const*);
-    getMetaClass() const;
-    modifyPixelClockForHdmiDeepColor(unsigned long long, unsigned int);
-    setPixelClock(ClockParams const*, ActiveConnectorInfo const*);
-    stringifyDeepColorRatio(unsigned short);
-    translateColorDepthToAtom(unsigned short);
+    auto getMetaClass() const;
+    auto modifyPixelClockForHdmiDeepColor(unsigned long long, unsigned int);
+    auto setPixelClock(ClockParams const*, ActiveConnectorInfo const*);
+    auto stringifyDeepColorRatio(unsigned short);
+    auto translateColorDepthToAtom(unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSetPixelClock_V1_7();
 };

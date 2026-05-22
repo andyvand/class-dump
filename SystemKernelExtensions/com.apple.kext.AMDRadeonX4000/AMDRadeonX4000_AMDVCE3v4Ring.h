@@ -6,14 +6,16 @@ class AMDRadeonX4000_AMDVCE3v4Ring {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVCE3v4Ring();
     AMDRadeonX4000_AMDVCE3v4Ring(OSMetaClass const*);
-    align();
-    free();
-    getHead();
-    getMetaClass() const;
-    init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
-    programReadAndWritePointers(unsigned int);
-    registerLocation();
-    reset();
-    writeTail();
+    auto align();
+    auto free();
+    auto getHead();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX4000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
+    auto programReadAndWritePointers(unsigned int);
+    auto registerLocation();
+    auto reset();
+    auto writeTail();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVCE3v4Ring();
 };

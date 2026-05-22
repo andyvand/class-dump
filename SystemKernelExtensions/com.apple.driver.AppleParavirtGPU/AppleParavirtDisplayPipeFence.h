@@ -6,8 +6,10 @@ class AppleParavirtDisplayPipeFence {
 public: // (access info unavailable from symbols alone)
     AppleParavirtDisplayPipeFence();
     AppleParavirtDisplayPipeFence(OSMetaClass const*);
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, AppleParavirtDisplayPipe*);
-    notifyClient();
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, AppleParavirtDisplayPipe*);
+    auto notifyClient();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtDisplayPipeFence();
 };

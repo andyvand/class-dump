@@ -4,8 +4,8 @@
 
 class IOAccelCommandBufferPool2 {
 public: // (access info unavailable from symbols alone)
-    getBufferPtrNoInc(unsigned int);
-    getGPUVirtualAddress(unsigned int*) const;
-    setBufferPtr(unsigned int*);
-    submitBuffer();
+    auto getBufferPtrNoInc(unsigned int);
+    auto getGPUVirtualAddress(unsigned int*) const;
+    auto setBufferPtr(unsigned int*);
+    auto submitBuffer();
 };

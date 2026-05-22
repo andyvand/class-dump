@@ -4,12 +4,12 @@
 
 class AppleBCMWLANCommandWithXTLV {
 public: // (access info unavailable from symbols alone)
-    addXTLV(unsigned short, unsigned short, void const*);
-    free();
-    free()::kalloc_type_view_154;
-    getMetaClass() const;
-    initWithLengthAndHeader(unsigned int, void*, unsigned short, CCLogStream*);
-    initWithLengthAndHeader(unsigned int, void*, unsigned short, CCLogStream*)::kalloc_type_view_58;
-    withLengthAndHeader(unsigned int, void*, unsigned short, CCLogStream*);
+    auto addXTLV(unsigned short, unsigned short, void const*);
+    auto free();
+    auto free()::kalloc_type_view_154;
+    auto getMetaClass() const;
+    auto initWithLengthAndHeader(unsigned int, void*, unsigned short, CCLogStream*);
+    auto initWithLengthAndHeader(unsigned int, void*, unsigned short, CCLogStream*)::kalloc_type_view_58;
+    auto withLengthAndHeader(unsigned int, void*, unsigned short, CCLogStream*);
     ~AppleBCMWLANCommandWithXTLV();
 };

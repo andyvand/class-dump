@@ -6,6 +6,8 @@ class IOModemSerialStreamSync {
 public: // (access info unavailable from symbols alone)
     IOModemSerialStreamSync();
     IOModemSerialStreamSync(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOModemSerialStreamSync();
 };

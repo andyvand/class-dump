@@ -6,15 +6,17 @@ class AMDRadeonX4000_AMDAccelVidMemory {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDAccelVidMemory();
     AMDRadeonX4000_AMDAccelVidMemory(OSMetaClass const*);
-    allocPhysical();
-    createMappingInTask(IOAccelTask*, unsigned int);
-    deallocPhysical();
-    free();
-    getMetaClass() const;
-    getPhysicalSegment(unsigned long long, unsigned long long*);
-    init(IOGraphicsAccelerator2*, IOAccelShared2*, IOAccelResource2*, unsigned long long, void*);
-    matchForReuse(void*, unsigned long long);
-    setAllocMappingOption(unsigned int);
-    withPhysicalAddress(IOGraphicsAccelerator2*, unsigned long long, unsigned long long, _AMD_VID_MEM_ALLOC_PARAMS*, bool);
+    auto allocPhysical();
+    auto createMappingInTask(IOAccelTask*, unsigned int);
+    auto deallocPhysical();
+    auto free();
+    auto getMetaClass() const;
+    auto getPhysicalSegment(unsigned long long, unsigned long long*);
+    auto init(IOGraphicsAccelerator2*, IOAccelShared2*, IOAccelResource2*, unsigned long long, void*);
+    auto matchForReuse(void*, unsigned long long);
+    auto setAllocMappingOption(unsigned int);
+    auto withPhysicalAddress(IOGraphicsAccelerator2*, unsigned long long, unsigned long long, _AMD_VID_MEM_ALLOC_PARAMS*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDAccelVidMemory();
 };

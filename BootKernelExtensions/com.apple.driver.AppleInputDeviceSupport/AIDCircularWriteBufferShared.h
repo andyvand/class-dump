@@ -6,9 +6,11 @@ class AIDCircularWriteBufferShared {
 public: // (access info unavailable from symbols alone)
     AIDCircularWriteBufferShared();
     AIDCircularWriteBufferShared(OSMetaClass const*);
-    getMetaClass() const;
-    reset();
-    withIOSlaveMemoryBuffer(IOSlaveMemoryBuffer*);
-    write(IOMemoryDescriptor*, unsigned long long);
+    auto getMetaClass() const;
+    auto reset();
+    auto withIOSlaveMemoryBuffer(IOSlaveMemoryBuffer*);
+    auto write(IOMemoryDescriptor*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AIDCircularWriteBufferShared();
 };

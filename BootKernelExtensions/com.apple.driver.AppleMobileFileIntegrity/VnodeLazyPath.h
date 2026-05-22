@@ -4,6 +4,8 @@
 
 class VnodeLazyPath {
 public: // (access info unavailable from symbols alone)
-    realize();
+    auto realize();
+    void * operator new(unsigned long)::kalloc_type_view_63;
+    void operator delete(void*, unsigned long)::kalloc_type_view_63;
     ~VnodeLazyPath();
 };

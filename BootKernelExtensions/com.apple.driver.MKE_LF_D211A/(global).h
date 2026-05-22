@@ -7,8 +7,6 @@
 IOSCSIPeripheralDeviceType05::gMetaClass;
 com_apple_driver_MKE_LF_D211A::gMetaClass;
 com_apple_driver_MKE_LF_D211A::metaClass;
-com_apple_driver_MKE_LF_D211A::operator delete(void*, unsigned long);
-com_apple_driver_MKE_LF_D211A::operator new(unsigned long);
 com_apple_driver_MKE_LF_D211A::superClass;
 com_apple_driver_MKE_LF_D211A_ktv;
 vtable for IOSCSIPeripheralDeviceType05;

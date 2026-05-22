@@ -4,26 +4,26 @@
 
 class AppleIntelMCE::Controller {
 public: // (access info unavailable from symbols alone)
-    Init()::kalloc_type_view_188;
-    Init()::kalloc_type_view_195;
-    Init()::kalloc_type_view_258;
-    Init()::kalloc_type_view_263;
-    addCollectedRegisters(AppleIntelMCE::CollectedRegisterValues*);
-    checkBanksForCMCIPerCPU(void*);
-    collectErrorsPerCPU(void*);
-    collectNewErrorsWorkloop();
-    controller();
-    disableBanks();
-    disableBanksPerCPU(void*);
-    enableBanks();
-    enableBanksPerCPU(void*);
-    getNextCollectedRegisters(AppleIntelMCE::CollectedRegisterValues*);
-    handlePrimaryInterrupt();
-    handleRawError(AppleIntelMCE::CollectedRegisterValues);
-    maxRearmsExceeded();
-    scheduleThrottleHoldoff();
-    sysctlCallbackInjectCount(sysctl_oid*, void*, int, sysctl_req*);
-    throttleHoldoffCallback(void*, void*);
+    auto Init()::kalloc_type_view_188;
+    auto Init()::kalloc_type_view_195;
+    auto Init()::kalloc_type_view_258;
+    auto Init()::kalloc_type_view_263;
+    auto addCollectedRegisters(AppleIntelMCE::CollectedRegisterValues*);
+    auto checkBanksForCMCIPerCPU(void*);
+    auto collectErrorsPerCPU(void*);
+    auto collectNewErrorsWorkloop();
+    auto controller();
+    auto disableBanks();
+    auto disableBanksPerCPU(void*);
+    auto enableBanks();
+    auto enableBanksPerCPU(void*);
+    auto getNextCollectedRegisters(AppleIntelMCE::CollectedRegisterValues*);
+    auto handlePrimaryInterrupt();
+    auto handleRawError(AppleIntelMCE::CollectedRegisterValues);
+    auto maxRearmsExceeded();
+    auto scheduleThrottleHoldoff();
+    auto sysctlCallbackInjectCount(sysctl_oid*, void*, int, sysctl_req*);
+    auto throttleHoldoffCallback(void*, void*);
     ~Controller();
     ~Controller()::kalloc_type_view_304;
     ~Controller()::kalloc_type_view_309;

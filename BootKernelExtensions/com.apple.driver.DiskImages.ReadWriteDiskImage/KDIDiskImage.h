@@ -5,17 +5,17 @@
 class KDIDiskImage {
 public: // (access info unavailable from symbols alone)
     KDIDiskImage(OSMetaClass const*);
-    _handleAttach(IOService*);
-    _handleDetach(IOService*);
-    _handleStart(IOService*);
-    enableCache(bool);
-    flush();
-    getBackingStore();
-    init(OSDictionary*);
-    readSectorChunk(long long, long long*, long long*, void**, bool);
-    reportRemovable(bool*);
-    reportSectorCount(long long*);
-    reportStoredChecksum(HDIChecksumStruct*);
-    reportWriteProtection(bool*);
+    auto _handleAttach(IOService*);
+    auto _handleDetach(IOService*);
+    auto _handleStart(IOService*);
+    auto enableCache(bool);
+    auto flush();
+    auto getBackingStore();
+    auto init(OSDictionary*);
+    auto readSectorChunk(long long, long long*, long long*, void**, bool);
+    auto reportRemovable(bool*);
+    auto reportSectorCount(long long*);
+    auto reportStoredChecksum(HDIChecksumStruct*);
+    auto reportWriteProtection(bool*);
     ~KDIDiskImage();
 };

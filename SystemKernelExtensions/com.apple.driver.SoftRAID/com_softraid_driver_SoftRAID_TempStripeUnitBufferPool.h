@@ -4,9 +4,11 @@
 
 class com_softraid_driver_SoftRAID_TempStripeUnitBufferPool {
 public: // (access info unavailable from symbols alone)
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_TempStripeUnitBufferPool();
     com_softraid_driver_SoftRAID_TempStripeUnitBufferPool(OSMetaClass const*);
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_TempStripeUnitBufferPool();
 };

@@ -5,18 +5,18 @@
 class IORTC {
 public: // (access info unavailable from symbols alone)
     IORTC(OSMetaClass const*);
-    _RESERVEDIORTC0();
-    _RESERVEDIORTC1();
-    _RESERVEDIORTC2();
-    _RESERVEDIORTC3();
-    _RESERVEDIORTC4();
-    _RESERVEDIORTC5();
-    _RESERVEDIORTC6();
-    _RESERVEDIORTC7();
-    getMonotonicClockAndTimestamp(unsigned long long*, unsigned long long*);
-    getMonotonicClockOffset(long long*);
-    getUTCTimeOfDay(unsigned long*, unsigned int*);
-    setMonotonicClockOffset(long long);
-    setUTCTimeOfDay(unsigned long, unsigned int);
+    auto _RESERVEDIORTC0();
+    auto _RESERVEDIORTC1();
+    auto _RESERVEDIORTC2();
+    auto _RESERVEDIORTC3();
+    auto _RESERVEDIORTC4();
+    auto _RESERVEDIORTC5();
+    auto _RESERVEDIORTC6();
+    auto _RESERVEDIORTC7();
+    auto getMonotonicClockAndTimestamp(unsigned long long*, unsigned long long*);
+    auto getMonotonicClockOffset(long long*);
+    auto getUTCTimeOfDay(unsigned long*, unsigned int*);
+    auto setMonotonicClockOffset(long long);
+    auto setUTCTimeOfDay(unsigned long, unsigned int);
     ~IORTC();
 };

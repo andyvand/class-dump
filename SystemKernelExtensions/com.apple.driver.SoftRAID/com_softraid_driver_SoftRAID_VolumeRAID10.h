@@ -4,24 +4,26 @@
 
 class com_softraid_driver_SoftRAID_VolumeRAID10 {
 public: // (access info unavailable from symbols alone)
-    AdjustIOSizeValues(IO_SizePropertiesRec*);
-    AlternateDiskIndex(unsigned int);
-    CanAcceptIO();
-    CanRebuild();
-    CompleteRequest(VolumeIO_Rec*, com_softraid_driver_SoftRAID_MemoryDescriptor*, int, unsigned long long);
-    GetStripeUnitTypeAndOffset(unsigned long long, unsigned int, unsigned long long*);
-    IsDegradedForTransfer(unsigned long long, unsigned long long, DegradedDiskRec*);
-    RebuildStopped(bool, bool);
-    RegisterVolumeTimerHasTimedOut();
-    SetNewMirrorPrimaryDisk(DriverSetMirrorPrimaryDiskRecord*);
-    SubmitVolumeIO(VolumeIO_Rec*);
-    UpdatePrimaryDisks();
-    UpdateVolumeFailedState();
-    VolumePartitionAdded(VolumePartitionStatusRec*, ExtendedVolumePartitionStatusRec*, bool);
+    auto AdjustIOSizeValues(IO_SizePropertiesRec*);
+    auto AlternateDiskIndex(unsigned int);
+    auto CanAcceptIO();
+    auto CanRebuild();
+    auto CompleteRequest(VolumeIO_Rec*, com_softraid_driver_SoftRAID_MemoryDescriptor*, int, unsigned long long);
+    auto GetStripeUnitTypeAndOffset(unsigned long long, unsigned int, unsigned long long*);
+    auto IsDegradedForTransfer(unsigned long long, unsigned long long, DegradedDiskRec*);
+    auto RebuildStopped(bool, bool);
+    auto RegisterVolumeTimerHasTimedOut();
+    auto SetNewMirrorPrimaryDisk(DriverSetMirrorPrimaryDiskRecord*);
+    auto SubmitVolumeIO(VolumeIO_Rec*);
+    auto UpdatePrimaryDisks();
+    auto UpdateVolumeFailedState();
+    auto VolumePartitionAdded(VolumePartitionStatusRec*, ExtendedVolumePartitionStatusRec*, bool);
+    auto getMetaClass() const;
+    auto initWithStatusRecPtr(VolumePartitionStatusRec*);
+    auto unmap(IOService*, IOStorageExtent*, unsigned int, unsigned int);
     com_softraid_driver_SoftRAID_VolumeRAID10();
     com_softraid_driver_SoftRAID_VolumeRAID10(OSMetaClass const*);
-    getMetaClass() const;
-    initWithStatusRecPtr(VolumePartitionStatusRec*);
-    unmap(IOService*, IOStorageExtent*, unsigned int, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_VolumeRAID10();
 };

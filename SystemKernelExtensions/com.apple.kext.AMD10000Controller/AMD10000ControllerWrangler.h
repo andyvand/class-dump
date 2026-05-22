@@ -6,6 +6,8 @@ class AMD10000ControllerWrangler {
 public: // (access info unavailable from symbols alone)
     AMD10000ControllerWrangler();
     AMD10000ControllerWrangler(OSMetaClass const*);
-    getMetaClass() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMD10000ControllerWrangler();
 };

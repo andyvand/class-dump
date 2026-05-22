@@ -4,25 +4,25 @@
 
 class AppleVirtIOFSDevice {
 public: // (access info unavailable from symbols alone)
-    attachNub();
-    create();
-    detachNub();
-    doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageAttributes*, IOStorageCompletion*);
-    doEjectMedia();
-    doFormatMedia(unsigned long long);
-    doGetFormatCapacities(unsigned long long*, unsigned int) const;
-    getAdditionalDeviceInfoString();
-    getBSDName();
-    getMetaClass() const;
-    getProductString();
-    getRevisionString();
-    getVendorString();
-    reportBlockSize(unsigned long long*);
-    reportEjectability(bool*);
-    reportMaxValidBlock(unsigned long long*);
-    reportMediaState(bool*, bool*);
-    reportRemovability(bool*);
-    reportWriteProtection(bool*);
-    start(IOService*);
+    auto attachNub();
+    auto create();
+    auto detachNub();
+    auto doAsyncReadWrite(IOMemoryDescriptor*, unsigned long long, unsigned long long, IOStorageAttributes*, IOStorageCompletion*);
+    auto doEjectMedia();
+    auto doFormatMedia(unsigned long long);
+    auto doGetFormatCapacities(unsigned long long*, unsigned int) const;
+    auto getAdditionalDeviceInfoString();
+    auto getBSDName();
+    auto getMetaClass() const;
+    auto getProductString();
+    auto getRevisionString();
+    auto getVendorString();
+    auto reportBlockSize(unsigned long long*);
+    auto reportEjectability(bool*);
+    auto reportMaxValidBlock(unsigned long long*);
+    auto reportMediaState(bool*, bool*);
+    auto reportRemovability(bool*);
+    auto reportWriteProtection(bool*);
+    auto start(IOService*);
     ~AppleVirtIOFSDevice();
 };

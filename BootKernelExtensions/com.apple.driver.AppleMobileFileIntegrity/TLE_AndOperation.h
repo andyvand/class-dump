@@ -4,6 +4,8 @@
 
 class TLE::AndOperation {
 public: // (access info unavailable from symbols alone)
-    Execute(TLE::Encyclopedia&);
+    auto Execute(TLE::Encyclopedia&);
+    void * operator new(unsigned long)::kalloc_type_view_80;
+    void operator delete(void*, unsigned long)::kalloc_type_view_80;
     ~AndOperation();
 };

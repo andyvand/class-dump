@@ -4,12 +4,9 @@
 
 // Global C++ functions
 
-ATAPITransportSysctl(sysctl_oid*, void*, int, sysctl_req*);
 IOATADevice::metaClass;
 IOATAPIProtocolTransport::gMetaClass;
 IOATAPIProtocolTransport::metaClass;
-IOATAPIProtocolTransport::operator delete(void*, unsigned long);
-IOATAPIProtocolTransport::operator new(unsigned long);
 IOATAPIProtocolTransport::superClass;
 IOATAPIProtocolTransport_ktv;
 IOSCSIProtocolServices::gMetaClass;
@@ -17,8 +14,9 @@ OSDictionary::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
 SCSITask::metaClass;
+auto ATAPITransportSysctl(sysctl_oid*, void*, int, sysctl_req*);
 gATAPIGlobals;
-operator delete(void*);
+void operator delete(void*);
 vtable for ATAPITransportGlobals;
 vtable for IOATAPIProtocolTransport;
 vtable for IOATAPIProtocolTransport::MetaClass;

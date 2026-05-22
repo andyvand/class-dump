@@ -4,15 +4,15 @@
 
 class IOAccelResourceList {
 public: // (access info unavailable from symbols alone)
-    addResource(IOAccelResource2*);
-    assertListConsistency();
-    getCount() const;
-    init();
-    moveResourceToHead(IOAccelResource2*);
-    objectInList(IOAccelResource2*);
-    removeResource(IOAccelResource2*);
-    removeResource(IOAccelResource2*) (.cold.1);
-    removeResource(IOAccelResource2*) (.cold.2);
-    removeResource(IOAccelResource2*) (.cold.3);
-    removeResource(IOAccelResource2*)::_os_log_fmt;
+    auto addResource(IOAccelResource2*);
+    auto assertListConsistency();
+    auto getCount() const;
+    auto init();
+    auto moveResourceToHead(IOAccelResource2*);
+    auto objectInList(IOAccelResource2*);
+    auto removeResource(IOAccelResource2*);
+    auto removeResource(IOAccelResource2*) (.cold.1);
+    auto removeResource(IOAccelResource2*) (.cold.2);
+    auto removeResource(IOAccelResource2*) (.cold.3);
+    auto removeResource(IOAccelResource2*)::_os_log_fmt;
 };

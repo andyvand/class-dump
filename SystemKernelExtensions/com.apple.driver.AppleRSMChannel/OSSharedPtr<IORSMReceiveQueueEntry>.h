@@ -8,6 +8,6 @@ public: // (access info unavailable from symbols alone)
     OSSharedPtr(OSSharedPtr<IORSMReceiveQueueEntry> const&);
     OSSharedPtr(OSSharedPtr<IORSMReceiveQueueEntry>&&);
     OSSharedPtr(std::nullptr_t);
-    operator=(OSSharedPtr<IORSMReceiveQueueEntry>&&);
+    auto operator=(OSSharedPtr<IORSMReceiveQueueEntry>&&);
     ~OSSharedPtr();
 };

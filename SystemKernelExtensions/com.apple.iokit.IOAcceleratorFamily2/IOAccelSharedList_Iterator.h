@@ -5,5 +5,5 @@
 class IOAccelSharedList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelSharedList&);
-    getNextShared();
+    auto getNextShared();
 };

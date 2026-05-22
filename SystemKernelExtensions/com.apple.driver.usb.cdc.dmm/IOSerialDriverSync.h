@@ -5,21 +5,21 @@
 class IOSerialDriverSync {
 public: // (access info unavailable from symbols alone)
     IOSerialDriverSync(OSMetaClass const*);
-    _RESERVEDIOSerialDriverSync0();
-    _RESERVEDIOSerialDriverSync1();
-    _RESERVEDIOSerialDriverSync10();
-    _RESERVEDIOSerialDriverSync11();
-    _RESERVEDIOSerialDriverSync12();
-    _RESERVEDIOSerialDriverSync13();
-    _RESERVEDIOSerialDriverSync14();
-    _RESERVEDIOSerialDriverSync15();
-    _RESERVEDIOSerialDriverSync2();
-    _RESERVEDIOSerialDriverSync3();
-    _RESERVEDIOSerialDriverSync4();
-    _RESERVEDIOSerialDriverSync5();
-    _RESERVEDIOSerialDriverSync6();
-    _RESERVEDIOSerialDriverSync7();
-    _RESERVEDIOSerialDriverSync8();
-    _RESERVEDIOSerialDriverSync9();
+    auto _RESERVEDIOSerialDriverSync0();
+    auto _RESERVEDIOSerialDriverSync1();
+    auto _RESERVEDIOSerialDriverSync10();
+    auto _RESERVEDIOSerialDriverSync11();
+    auto _RESERVEDIOSerialDriverSync12();
+    auto _RESERVEDIOSerialDriverSync13();
+    auto _RESERVEDIOSerialDriverSync14();
+    auto _RESERVEDIOSerialDriverSync15();
+    auto _RESERVEDIOSerialDriverSync2();
+    auto _RESERVEDIOSerialDriverSync3();
+    auto _RESERVEDIOSerialDriverSync4();
+    auto _RESERVEDIOSerialDriverSync5();
+    auto _RESERVEDIOSerialDriverSync6();
+    auto _RESERVEDIOSerialDriverSync7();
+    auto _RESERVEDIOSerialDriverSync8();
+    auto _RESERVEDIOSerialDriverSync9();
     ~IOSerialDriverSync();
 };

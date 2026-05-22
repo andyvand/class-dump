@@ -5,6 +5,7 @@
 class AppleIntelMCE::Bank_IMC {
 public: // (access info unavailable from symbols alone)
     Bank_IMC(AppleIntelMCE::BankDescriptor const&);
-    parseRawError(unsigned long long, unsigned long long, unsigned long long);
+    auto FIRST_ERROR_DEVICE_STRINGS (.rel);
+    auto parseRawError(unsigned long long, unsigned long long, unsigned long long);
     ~Bank_IMC();
 };

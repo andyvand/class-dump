@@ -6,9 +6,11 @@ class IOHIDPowerSourceClient {
 public: // (access info unavailable from symbols alone)
     IOHIDPowerSourceClient();
     IOHIDPowerSourceClient(OSMetaClass const*);
-    create(IOService*, void (*)(void*, OSSymbol const*, OSDictionary*));
-    getMetaClass() const;
-    getTarget();
-    handlePowerSourceEvent(OSSymbol const*, OSDictionary*);
+    auto create(IOService*, void (*)(void*, OSSymbol const*, OSDictionary*));
+    auto getMetaClass() const;
+    auto getTarget();
+    auto handlePowerSourceEvent(OSSymbol const*, OSDictionary*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDPowerSourceClient();
 };

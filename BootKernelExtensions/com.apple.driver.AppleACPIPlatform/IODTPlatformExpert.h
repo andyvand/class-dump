@@ -4,20 +4,20 @@
 
 class IODTPlatformExpert {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIODTPlatformExpert0();
-    _RESERVEDIODTPlatformExpert1();
-    _RESERVEDIODTPlatformExpert2();
-    _RESERVEDIODTPlatformExpert3();
-    _RESERVEDIODTPlatformExpert4();
-    _RESERVEDIODTPlatformExpert5();
-    _RESERVEDIODTPlatformExpert6();
-    _RESERVEDIODTPlatformExpert7();
-    createNub(IORegistryEntry*);
-    createNubs(IOService*, OSIterator*);
-    createSystemSerialNumberString(OSData*);
-    getNubResources(IOService*);
-    getProductName(char*, int);
-    getTargetName(char*, int);
-    processTopLevel(IORegistryEntry*);
-    registerNVRAMController(IONVRAMController*);
+    auto _RESERVEDIODTPlatformExpert0();
+    auto _RESERVEDIODTPlatformExpert1();
+    auto _RESERVEDIODTPlatformExpert2();
+    auto _RESERVEDIODTPlatformExpert3();
+    auto _RESERVEDIODTPlatformExpert4();
+    auto _RESERVEDIODTPlatformExpert5();
+    auto _RESERVEDIODTPlatformExpert6();
+    auto _RESERVEDIODTPlatformExpert7();
+    auto createNub(IORegistryEntry*);
+    auto createNubs(IOService*, OSIterator*);
+    auto createSystemSerialNumberString(OSData*);
+    auto getNubResources(IOService*);
+    auto getProductName(char*, int);
+    auto getTargetName(char*, int);
+    auto processTopLevel(IORegistryEntry*);
+    auto registerNVRAMController(IONVRAMController*);
 };

@@ -4,5 +4,5 @@
 
 class AtiUpstreamMessageParserFactory {
 public: // (access info unavailable from symbols alone)
-    createUpstreamMessageParser(CRTC_PARAMS*, ATIController*);
+    auto createUpstreamMessageParser(CRTC_PARAMS*, ATIController*);
 };

@@ -6,12 +6,14 @@ class IOSurfaceSharedEventReference {
 public: // (access info unavailable from symbols alone)
     IOSurfaceSharedEventReference();
     IOSurfaceSharedEventReference(OSMetaClass const*);
-    __OSFinalClass();
-    free();
-    getMetaClass() const;
-    getSharedEvent() const;
-    initWithEvent(IOSurfaceSharedEvent*);
-    retainSharedEvent();
-    withSharedEvent(IOSurfaceSharedEvent*);
+    auto __OSFinalClass();
+    auto free();
+    auto getMetaClass() const;
+    auto getSharedEvent() const;
+    auto initWithEvent(IOSurfaceSharedEvent*);
+    auto retainSharedEvent();
+    auto withSharedEvent(IOSurfaceSharedEvent*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSurfaceSharedEventReference();
 };

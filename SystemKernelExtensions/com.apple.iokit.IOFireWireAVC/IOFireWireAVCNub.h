@@ -5,9 +5,11 @@
 class IOFireWireAVCNub {
 public: // (access info unavailable from symbols alone)
     IOFireWireAVCNub(OSMetaClass const*);
-    _RESERVEDIOFireWireAVCNub1();
-    _RESERVEDIOFireWireAVCNub2();
-    _RESERVEDIOFireWireAVCNub3();
-    getMetaClass() const;
+    auto _RESERVEDIOFireWireAVCNub1();
+    auto _RESERVEDIOFireWireAVCNub2();
+    auto _RESERVEDIOFireWireAVCNub3();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireAVCNub();
 };

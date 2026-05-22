@@ -5,4 +5,5 @@
 class IOFWWriteCommand {
 public: // (access info unavailable from symbols alone)
     IOFWWriteCommand();
+    void * operator new(unsigned long);
 };

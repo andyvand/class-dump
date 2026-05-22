@@ -6,9 +6,11 @@ class AppleUSBHostDeviceSupport {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostDeviceSupport();
     AppleUSBHostDeviceSupport(OSMetaClass const*);
-    getMetaClass() const;
-    init(OSDictionary*);
-    probe(IOService*, int*);
-    probe(IOService*, int*)::_os_log_fmt;
+    auto getMetaClass() const;
+    auto init(OSDictionary*);
+    auto probe(IOService*, int*);
+    auto probe(IOService*, int*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostDeviceSupport();
 };

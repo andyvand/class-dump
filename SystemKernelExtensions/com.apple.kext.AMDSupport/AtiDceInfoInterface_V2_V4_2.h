@@ -6,9 +6,11 @@ class AtiDceInfoInterface_V2_V4_2 {
 public: // (access info unavailable from symbols alone)
     AtiDceInfoInterface_V2_V4_2();
     AtiDceInfoInterface_V2_V4_2(OSMetaClass const*);
-    getDceInfo(FirmwareInfo*);
-    getMetaClass() const;
-    getSpreadSpectrumInfo(AtiAtomSignalType, SpreadSpectrumInfo*);
-    init(AtiDataTableBaseClass::DataTableInitInfo&);
+    auto getDceInfo(FirmwareInfo*);
+    auto getMetaClass() const;
+    auto getSpreadSpectrumInfo(AtiAtomSignalType, SpreadSpectrumInfo*);
+    auto init(AtiDataTableBaseClass::DataTableInitInfo&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiDceInfoInterface_V2_V4_2();
 };

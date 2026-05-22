@@ -6,11 +6,13 @@ class AMDRadeonX5000_AMDAccelDevice {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDAccelDevice();
     AMDRadeonX5000_AMDAccelDevice(OSMetaClass const*);
-    deviceStart();
-    deviceStop();
-    getCpuGpuTimes(sAMD_CPU_GPU_TIMES*);
-    getHardwareInfo(_sAMD_GET_HW_INFO_VALUES*);
-    getMetaClass() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto deviceStart();
+    auto deviceStop();
+    auto getCpuGpuTimes(sAMD_CPU_GPU_TIMES*);
+    auto getHardwareInfo(_sAMD_GET_HW_INFO_VALUES*);
+    auto getMetaClass() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDAccelDevice();
 };

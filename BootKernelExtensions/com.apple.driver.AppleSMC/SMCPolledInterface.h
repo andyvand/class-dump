@@ -6,13 +6,15 @@ class SMCPolledInterface {
 public: // (access info unavailable from symbols alone)
     SMCPolledInterface();
     SMCPolledInterface(OSMetaClass const*);
-    checkForWork();
-    close(unsigned int);
-    createWithDriver(AppleSMC*);
-    getMetaClass() const;
-    initWithDriver(AppleSMC*);
-    open(unsigned int, IOMemoryDescriptor*);
-    probe(IOService*);
-    startIO(unsigned int, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
+    auto checkForWork();
+    auto close(unsigned int);
+    auto createWithDriver(AppleSMC*);
+    auto getMetaClass() const;
+    auto initWithDriver(AppleSMC*);
+    auto open(unsigned int, IOMemoryDescriptor*);
+    auto probe(IOService*);
+    auto startIO(unsigned int, unsigned int, unsigned long long, unsigned long long, IOPolledCompletion);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~SMCPolledInterface();
 };

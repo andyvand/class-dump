@@ -4,11 +4,11 @@
 
 class UDFTypeOnePartition {
 public: // (access info unavailable from symbols alone)
-    GetNumBlks();
-    InitSpaceAllocator(unsigned int*);
-    LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool);
-    PhysicalToLogical(unsigned int);
-    Sync(int);
     UDFTypeOnePartition(UDFMount*, unsigned short, unsigned short);
+    auto GetNumBlks();
+    auto InitSpaceAllocator(unsigned int*);
+    auto LogicalToPhysical(unsigned int, unsigned int, unsigned int*, unsigned int*, bool);
+    auto PhysicalToLogical(unsigned int);
+    auto Sync(int);
     ~UDFTypeOnePartition();
 };

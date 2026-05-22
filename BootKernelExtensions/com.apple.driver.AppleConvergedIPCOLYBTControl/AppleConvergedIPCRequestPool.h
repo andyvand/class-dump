@@ -4,5 +4,5 @@
 
 class AppleConvergedIPCRequestPool {
 public: // (access info unavailable from symbols alone)
-    withWorkLoop(IOWorkLoop*);
+    auto withWorkLoop(IOWorkLoop*);
 };

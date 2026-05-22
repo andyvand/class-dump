@@ -5,17 +5,17 @@
 class IOAccelSharedUserClient2 {
 public: // (access info unavailable from symbols alone)
     IOAccelSharedUserClient2(OSMetaClass const*);
-    _RESERVEDIOAccelSharedUserClient0();
-    _RESERVEDIOAccelSharedUserClient1();
-    _RESERVEDIOAccelSharedUserClient2();
-    _RESERVEDIOAccelSharedUserClient3();
-    _RESERVEDIOAccelSharedUserClient4();
-    _RESERVEDIOAccelSharedUserClient5();
-    clientClose();
-    connectClient(IOUserClient*);
-    didTerminate(IOService*, unsigned int, bool*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    free();
-    requestTerminate(IOService*, unsigned int);
+    auto _RESERVEDIOAccelSharedUserClient0();
+    auto _RESERVEDIOAccelSharedUserClient1();
+    auto _RESERVEDIOAccelSharedUserClient2();
+    auto _RESERVEDIOAccelSharedUserClient3();
+    auto _RESERVEDIOAccelSharedUserClient4();
+    auto _RESERVEDIOAccelSharedUserClient5();
+    auto clientClose();
+    auto connectClient(IOUserClient*);
+    auto didTerminate(IOService*, unsigned int, bool*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto free();
+    auto requestTerminate(IOService*, unsigned int);
     ~IOAccelSharedUserClient2();
 };

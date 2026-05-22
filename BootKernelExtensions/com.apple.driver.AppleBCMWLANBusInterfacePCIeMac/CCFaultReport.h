@@ -4,7 +4,7 @@
 
 class CCFaultReport {
 public: // (access info unavailable from symbols alone)
-    getWatchdogResult() const;
-    setLinkRegiser(unsigned long long);
-    setProgamCounter(unsigned long long);
+    auto getWatchdogResult() const;
+    auto setLinkRegiser(unsigned long long);
+    auto setProgamCounter(unsigned long long);
 };

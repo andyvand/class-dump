@@ -6,9 +6,11 @@ class AppleAMDUSBXHCIPCI {
 public: // (access info unavailable from symbols alone)
     AppleAMDUSBXHCIPCI();
     AppleAMDUSBXHCIPCI(OSMetaClass const*);
-    getMetaClass() const;
-    probe(IOService*, int*);
-    start(IOService*);
-    stop(IOService*);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleAMDUSBXHCIPCI();
 };

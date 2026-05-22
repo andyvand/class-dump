@@ -4,7 +4,7 @@
 
 class AtiCommandGate {
 public: // (access info unavailable from symbols alone)
-    closeGate();
-    gate(IOService*);
-    openGate();
+    auto closeGate();
+    auto gate(IOService*);
+    auto openGate();
 };

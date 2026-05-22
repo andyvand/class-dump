@@ -6,9 +6,11 @@ class AppleUSBVHCIHostTxRxQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIHostTxRxQueue();
     AppleUSBVHCIHostTxRxQueue(OSMetaClass const*);
-    enqueueRequest(AppleUSBRequest*);
-    getMetaClass() const;
-    initWithParameters(StandardUSBVHCI::VHCIMessage const*, AppleUSBVHCIBufferQueue*, AppleUSBVHCIMessageQueue*, AppleUSBVHCIHostCommandQueue*, AppleUSBVHCI*);
-    withParameters(StandardUSBVHCI::VHCIMessage const*, AppleUSBVHCIBufferQueue*, AppleUSBVHCIMessageQueue*, AppleUSBVHCIHostCommandQueue*, AppleUSBVHCI*);
+    auto enqueueRequest(AppleUSBRequest*);
+    auto getMetaClass() const;
+    auto initWithParameters(StandardUSBVHCI::VHCIMessage const*, AppleUSBVHCIBufferQueue*, AppleUSBVHCIMessageQueue*, AppleUSBVHCIHostCommandQueue*, AppleUSBVHCI*);
+    auto withParameters(StandardUSBVHCI::VHCIMessage const*, AppleUSBVHCIBufferQueue*, AppleUSBVHCIMessageQueue*, AppleUSBVHCIHostCommandQueue*, AppleUSBVHCI*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBVHCIHostTxRxQueue();
 };

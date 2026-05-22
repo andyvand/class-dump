@@ -4,19 +4,19 @@
 
 class AppleBCMWLANChipMemory {
 public: // (access info unavailable from symbols alone)
-    clear(ChipMemoryID, unsigned int, unsigned int);
-    clone(AppleBCMWLANChipManagerPCIe*, unsigned int);
-    free();
-    free()::kalloc_type_view_193;
-    getMetaClass() const;
-    initWithMap(IOMemoryMap*, AppleBCMWLANChipManagerPCIe*, AppleBCMWLANPCIeMMIOHistory*);
-    initWithMap(IOMemoryMap*, AppleBCMWLANChipManagerPCIe*, AppleBCMWLANPCIeMMIOHistory*)::kalloc_type_view_117;
-    read(ChipMemoryID, unsigned int, unsigned int, IO80211Buffer*, unsigned int) const;
-    read32(ChipMemoryID, unsigned int, unsigned int&) const;
-    read8(ChipMemoryID, unsigned int, unsigned char&) const;
-    withMap(IOMemoryMap*, AppleBCMWLANChipManagerPCIe*, AppleBCMWLANPCIeMMIOHistory*);
-    write(ChipMemoryID, unsigned int, unsigned int, IO80211Buffer const*, unsigned int);
-    write32(ChipMemoryID, unsigned int, unsigned int);
-    write8(ChipMemoryID, unsigned int, unsigned char);
+    auto clear(ChipMemoryID, unsigned int, unsigned int);
+    auto clone(AppleBCMWLANChipManagerPCIe*, unsigned int);
+    auto free();
+    auto free()::kalloc_type_view_193;
+    auto getMetaClass() const;
+    auto initWithMap(IOMemoryMap*, AppleBCMWLANChipManagerPCIe*, AppleBCMWLANPCIeMMIOHistory*);
+    auto initWithMap(IOMemoryMap*, AppleBCMWLANChipManagerPCIe*, AppleBCMWLANPCIeMMIOHistory*)::kalloc_type_view_117;
+    auto read(ChipMemoryID, unsigned int, unsigned int, IO80211Buffer*, unsigned int) const;
+    auto read32(ChipMemoryID, unsigned int, unsigned int&) const;
+    auto read8(ChipMemoryID, unsigned int, unsigned char&) const;
+    auto withMap(IOMemoryMap*, AppleBCMWLANChipManagerPCIe*, AppleBCMWLANPCIeMMIOHistory*);
+    auto write(ChipMemoryID, unsigned int, unsigned int, IO80211Buffer const*, unsigned int);
+    auto write32(ChipMemoryID, unsigned int, unsigned int);
+    auto write8(ChipMemoryID, unsigned int, unsigned char);
     ~AppleBCMWLANChipMemory();
 };

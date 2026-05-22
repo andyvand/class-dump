@@ -4,5 +4,5 @@
 
 class IOWorkQueue {
 public: // (access info unavailable from symbols alone)
-    withCapacity(OSObject*, unsigned int, IOWorkQueueOperationMode, bool, char*);
+    auto withCapacity(OSObject*, unsigned int, IOWorkQueueOperationMode, bool, char*);
 };

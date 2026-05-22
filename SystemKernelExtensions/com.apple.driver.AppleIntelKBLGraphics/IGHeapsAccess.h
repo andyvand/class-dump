@@ -5,5 +5,5 @@
 class IGHeapsAccess {
 public: // (access info unavailable from symbols alone)
     IGHeapsAccess();
-    lock(kHeapType, IGAccelResource*);
+    auto lock(kHeapType, IGAccelResource*);
 };

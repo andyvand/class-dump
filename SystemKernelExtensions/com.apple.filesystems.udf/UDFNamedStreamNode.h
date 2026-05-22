@@ -5,14 +5,14 @@
 class UDFNamedStreamNode {
 public: // (access info unavailable from symbols alone)
     UDFNamedStreamNode(UDFMount*, UDFLogicalAddr const&, unsigned int, UDFStreamDirNode*, char const*, unsigned short, long long, unsigned char*, bool);
-    UpdateAccessTime();
-    UpdateChangeTime();
-    UpdateModifyTime();
-    UpdateObjectSize(long long);
-    UpdateResourceForkSize();
-    UpdateTotalBlksAlloc(long long);
-    VnopGetAttr(vnode_attr*);
-    VnopReclaim();
-    VnopSetAttr(vnode_attr*);
+    auto UpdateAccessTime();
+    auto UpdateChangeTime();
+    auto UpdateModifyTime();
+    auto UpdateObjectSize(long long);
+    auto UpdateResourceForkSize();
+    auto UpdateTotalBlksAlloc(long long);
+    auto VnopGetAttr(vnode_attr*);
+    auto VnopReclaim();
+    auto VnopSetAttr(vnode_attr*);
     ~UDFNamedStreamNode();
 };

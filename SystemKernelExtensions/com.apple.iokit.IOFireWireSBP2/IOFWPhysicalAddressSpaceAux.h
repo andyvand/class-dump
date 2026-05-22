@@ -4,6 +4,6 @@
 
 class IOFWPhysicalAddressSpaceAux {
 public: // (access info unavailable from symbols alone)
-    setDMACommand(IODMACommand*);
-    synchronize(unsigned int);
+    auto setDMACommand(IODMACommand*);
+    auto synchronize(unsigned int);
 };

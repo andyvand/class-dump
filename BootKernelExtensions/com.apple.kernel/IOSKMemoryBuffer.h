@@ -6,12 +6,14 @@ class IOSKMemoryBuffer {
 public: // (access info unavailable from symbols alone)
     IOSKMemoryBuffer();
     IOSKMemoryBuffer(OSMetaClass const*);
-    __OSFinalClass();
-    free();
-    getBytesNoCopy();
-    getBytesNoCopy(unsigned long, unsigned long);
-    getMetaClass() const;
-    initWithSpec(task*, unsigned long long, unsigned long long, IOSKMemoryBufferSpec const*);
-    taggedRelease(void const*) const;
+    auto __OSFinalClass();
+    auto free();
+    auto getBytesNoCopy();
+    auto getBytesNoCopy(unsigned long, unsigned long);
+    auto getMetaClass() const;
+    auto initWithSpec(task*, unsigned long long, unsigned long long, IOSKMemoryBufferSpec const*);
+    auto taggedRelease(void const*) const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSKMemoryBuffer();
 };

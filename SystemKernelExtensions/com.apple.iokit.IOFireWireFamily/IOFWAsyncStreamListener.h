@@ -6,15 +6,17 @@ class IOFWAsyncStreamListener {
 public: // (access info unavailable from symbols alone)
     IOFWAsyncStreamListener();
     IOFWAsyncStreamListener(OSMetaClass const*);
-    _RESERVEDIOFWAsyncStreamListener0();
-    _RESERVEDIOFWAsyncStreamListener1();
-    free();
-    getFlags();
-    getMetaClass() const;
-    getOverrunCounter();
-    initAll(IOFireWireController*, unsigned int, void (*)(void*, void const*), void*);
-    invokeClients(unsigned char*);
-    setFlags(unsigned int);
-    setListenerHandler(void (*)(void*, void const*));
+    auto _RESERVEDIOFWAsyncStreamListener0();
+    auto _RESERVEDIOFWAsyncStreamListener1();
+    auto free();
+    auto getFlags();
+    auto getMetaClass() const;
+    auto getOverrunCounter();
+    auto initAll(IOFireWireController*, unsigned int, void (*)(void*, void const*), void*);
+    auto invokeClients(unsigned char*);
+    auto setFlags(unsigned int);
+    auto setListenerHandler(void (*)(void*, void const*));
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWAsyncStreamListener();
 };

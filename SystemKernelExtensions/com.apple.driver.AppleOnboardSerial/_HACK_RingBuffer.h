@@ -6,11 +6,13 @@ class _HACK_RingBuffer {
 public: // (access info unavailable from symbols alone)
     _HACK_RingBuffer();
     _HACK_RingBuffer(OSMetaClass const*);
-    append(unsigned char*, unsigned int);
-    free();
-    getMetaClass() const;
-    initWith(unsigned int);
-    read(uio*);
-    withCapacity(unsigned int);
+    auto append(unsigned char*, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto initWith(unsigned int);
+    auto read(uio*);
+    auto withCapacity(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_HACK_RingBuffer();
 };

@@ -6,14 +6,16 @@ class Vega10HotPlugInterrupt {
 public: // (access info unavailable from symbols alone)
     Vega10HotPlugInterrupt();
     Vega10HotPlugInterrupt(OSMetaClass const*);
-    deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
-    delayedInterruptHandler(OSObject*, IOTimerEventSource*);
-    enableCircuit();
-    getMetaClass() const;
-    handle(void*);
-    initSOC15(unsigned char, bool, ATIController*, unsigned int, tag_IRQ_SOURCEX);
-    initialize();
-    isDefaultOn();
-    setPolarity(bool);
+    auto deferredInterruptHandler(OSObject*, IOInterruptEventSource*, int);
+    auto delayedInterruptHandler(OSObject*, IOTimerEventSource*);
+    auto enableCircuit();
+    auto getMetaClass() const;
+    auto handle(void*);
+    auto initSOC15(unsigned char, bool, ATIController*, unsigned int, tag_IRQ_SOURCEX);
+    auto initialize();
+    auto isDefaultOn();
+    auto setPolarity(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~Vega10HotPlugInterrupt();
 };

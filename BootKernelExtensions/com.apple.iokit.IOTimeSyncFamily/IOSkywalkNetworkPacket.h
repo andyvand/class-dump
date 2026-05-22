@@ -4,5 +4,5 @@
 
 class IOSkywalkNetworkPacket {
 public: // (access info unavailable from symbols alone)
-    getTimestamp(unsigned long long*) const;
+    auto getTimestamp(unsigned long long*) const;
 };

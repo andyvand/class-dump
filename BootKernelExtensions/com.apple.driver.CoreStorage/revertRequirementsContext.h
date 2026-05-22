@@ -4,5 +4,5 @@
 
 class revertRequirementsContext {
 public: // (access info unavailable from symbols alone)
-    contiguous_from_zero();
+    auto contiguous_from_zero();
 };

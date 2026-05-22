@@ -6,8 +6,10 @@ class TSNBSDStackInterface {
 public: // (access info unavailable from symbols alone)
     TSNBSDStackInterface();
     TSNBSDStackInterface(OSMetaClass const*);
-    filterReceivedEvent(kev_msg const*);
-    filterReceivedEvent(kev_msg const*)::_os_log_fmt;
-    getMetaClass() const;
+    auto filterReceivedEvent(kev_msg const*);
+    auto filterReceivedEvent(kev_msg const*)::_os_log_fmt;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~TSNBSDStackInterface();
 };

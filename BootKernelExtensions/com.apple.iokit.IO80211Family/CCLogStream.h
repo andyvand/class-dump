@@ -4,25 +4,25 @@
 
 class CCLogStream {
 public: // (access info unavailable from symbols alone)
-    getConsoleLevel();
-    log(CCStreamLogLevel, char const*, ...);
-    logAlert(char const*, ...);
-    logAlertIf(unsigned long long, char const*, ...);
-    logCrit(char const*, ...);
-    logEmergency(char const*, ...);
-    logEmergencyIf(unsigned long long, char const*, ...);
-    logHeaderAndBuf(unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
-    logHeaderAndBufIf(unsigned long long, unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
-    logHeaderAndMbuf(__mbuf*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
-    logIf(CCStreamLogLevel, unsigned long long, char const*, ...);
-    logInfo(char const*, ...);
-    logInfoIf(unsigned long long, char const*, ...);
-    logNotice(char const*, ...);
-    logNoticeIf(unsigned long long, char const*, ...);
-    logWarn(char const*, ...);
-    logv(CCStreamLogLevel, unsigned long long, char const*, __va_list_tag*);
-    shouldLog(CCStreamLogLevel);
-    shouldLog(CCStreamLogLevel, unsigned long long);
-    shouldLog(unsigned long long);
-    shouldLogConsole(CCStreamLogLevel);
+    auto getConsoleLevel();
+    auto log(CCStreamLogLevel, char const*, ...);
+    auto logAlert(char const*, ...);
+    auto logAlertIf(unsigned long long, char const*, ...);
+    auto logCrit(char const*, ...);
+    auto logEmergency(char const*, ...);
+    auto logEmergencyIf(unsigned long long, char const*, ...);
+    auto logHeaderAndBuf(unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
+    auto logHeaderAndBufIf(unsigned long long, unsigned char*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
+    auto logHeaderAndMbuf(__mbuf*, unsigned long, unsigned long, unsigned long, void*, unsigned long);
+    auto logIf(CCStreamLogLevel, unsigned long long, char const*, ...);
+    auto logInfo(char const*, ...);
+    auto logInfoIf(unsigned long long, char const*, ...);
+    auto logNotice(char const*, ...);
+    auto logNoticeIf(unsigned long long, char const*, ...);
+    auto logWarn(char const*, ...);
+    auto logv(CCStreamLogLevel, unsigned long long, char const*, __va_list_tag*);
+    auto shouldLog(CCStreamLogLevel);
+    auto shouldLog(CCStreamLogLevel, unsigned long long);
+    auto shouldLog(unsigned long long);
+    auto shouldLogConsole(CCStreamLogLevel);
 };

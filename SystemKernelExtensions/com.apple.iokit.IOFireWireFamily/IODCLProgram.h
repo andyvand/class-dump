@@ -5,18 +5,20 @@
 class IODCLProgram {
 public: // (access info unavailable from symbols alone)
     IODCLProgram(OSMetaClass const*);
-    _RESERVEDIODCLProgram3();
-    _RESERVEDIODCLProgram4();
-    free();
-    generateBufferMap(DCLCommandStruct*);
-    getBufferMap() const;
-    getIsochResourceFlags() const;
-    getMetaClass() const;
-    init(IOFireWireBus::DCLTaskInfo*);
-    pause();
-    resume();
-    setForceStopProc(int (*)(void*, IOFWIsochChannel*, unsigned int), void*, IOFWIsochChannel*);
-    setIsochResourceFlags(IOFWIsochResourceFlags);
-    virtualToPhysical(IOVirtualRange*, unsigned int, IOMemoryCursor::PhysicalSegment*, unsigned int&, unsigned int);
+    auto _RESERVEDIODCLProgram3();
+    auto _RESERVEDIODCLProgram4();
+    auto free();
+    auto generateBufferMap(DCLCommandStruct*);
+    auto getBufferMap() const;
+    auto getIsochResourceFlags() const;
+    auto getMetaClass() const;
+    auto init(IOFireWireBus::DCLTaskInfo*);
+    auto pause();
+    auto resume();
+    auto setForceStopProc(int (*)(void*, IOFWIsochChannel*, unsigned int), void*, IOFWIsochChannel*);
+    auto setIsochResourceFlags(IOFWIsochResourceFlags);
+    auto virtualToPhysical(IOVirtualRange*, unsigned int, IOMemoryCursor::PhysicalSegment*, unsigned int&, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODCLProgram();
 };

@@ -5,13 +5,15 @@
 class AMDOpaqueReporter {
 public: // (access info unavailable from symbols alone)
     AMDOpaqueReporter(IOService*, unsigned long long);
-    fromService(IOService*, OSDictionary*, unsigned long long);
-    fromService(IOService*, OSDictionary*, unsigned long long)::reporter;
-    parseDescriptor(OSDictionary*);
-    parseDescriptor(OSDictionary*)::_os_log_fmt;
-    updateReport(AppleMultitouchDevice*);
-    updateReport(AppleMultitouchDevice*) (.cold.1);
-    updateReport(AppleMultitouchDevice*) (.cold.2);
-    updateReport(AppleMultitouchDevice*)::_os_log_fmt;
+    auto fromService(IOService*, OSDictionary*, unsigned long long);
+    auto fromService(IOService*, OSDictionary*, unsigned long long)::reporter;
+    auto parseDescriptor(OSDictionary*);
+    auto parseDescriptor(OSDictionary*)::_os_log_fmt;
+    auto updateReport(AppleMultitouchDevice*);
+    auto updateReport(AppleMultitouchDevice*) (.cold.1);
+    auto updateReport(AppleMultitouchDevice*) (.cold.2);
+    auto updateReport(AppleMultitouchDevice*)::_os_log_fmt;
+    void * operator new(unsigned long)::kalloc_type_view_17;
+    void operator delete(void*, unsigned long)::kalloc_type_view_17;
     ~AMDOpaqueReporter();
 };

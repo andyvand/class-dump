@@ -4,21 +4,21 @@
 
 class AtiHdcpProxy {
 public: // (access info unavailable from symbols alone)
-    getDownstreamStatus();
-    getHDCPLevel();
-    getHdcpMessageInfo();
-    getHdcpVer();
-    getInfo();
-    getLinkStatus();
-    hdcpRestore();
-    isDownStreamEstablished();
-    isEnabled();
-    isOverridden();
-    isRepeaterPresent();
-    protectionLevelCheck(unsigned long long);
-    scheduleProcessMsg(unsigned int);
-    setEncryption(bool);
-    setHDCPVersionOverride(unsigned long);
-    setOverride(bool);
-    supportCP();
+    auto getDownstreamStatus();
+    auto getHDCPLevel();
+    auto getHdcpMessageInfo();
+    auto getHdcpVer();
+    auto getInfo();
+    auto getLinkStatus();
+    auto hdcpRestore();
+    auto isDownStreamEstablished();
+    auto isEnabled();
+    auto isOverridden();
+    auto isRepeaterPresent();
+    auto protectionLevelCheck(unsigned long long);
+    auto scheduleProcessMsg(unsigned int);
+    auto setEncryption(bool);
+    auto setHDCPVersionOverride(unsigned long);
+    auto setOverride(bool);
+    auto supportCP();
 };

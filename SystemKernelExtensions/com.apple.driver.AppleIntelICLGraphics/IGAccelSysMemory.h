@@ -6,10 +6,12 @@ class IGAccelSysMemory {
 public: // (access info unavailable from symbols alone)
     IGAccelSysMemory();
     IGAccelSysMemory(OSMetaClass const*);
-    getMetaClass() const;
-    getPhysicalSegment(unsigned long long, unsigned long long*);
-    init(IOGraphicsAccelerator2*);
-    unwire();
-    wire();
+    auto getMetaClass() const;
+    auto getPhysicalSegment(unsigned long long, unsigned long long*);
+    auto init(IOGraphicsAccelerator2*);
+    auto unwire();
+    auto wire();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGAccelSysMemory();
 };

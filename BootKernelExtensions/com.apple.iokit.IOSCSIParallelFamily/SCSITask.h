@@ -4,18 +4,18 @@
 
 class SCSITask {
 public: // (access info unavailable from symbols alone)
-    GetAutoSenseData(SCSI_Sense_Data*, unsigned char);
-    GetAutoSenseDataSize();
-    GetCommandDescriptorBlock(unsigned char (*) [16]);
-    GetCommandDescriptorBlockSize();
-    GetDataBuffer();
-    GetDataBufferOffset();
-    GetDataTransferDirection();
-    GetLogicalUnitBytes(unsigned char (*) [8]);
-    GetLogicalUnitNumber();
-    GetRequestedDataTransferCount();
-    GetTaggedTaskIdentifier();
-    GetTaskAttribute();
-    GetTimeoutDuration();
-    SetAutoSenseData(SCSI_Sense_Data*, unsigned char);
+    auto GetAutoSenseData(SCSI_Sense_Data*, unsigned char);
+    auto GetAutoSenseDataSize();
+    auto GetCommandDescriptorBlock(unsigned char (*) [16]);
+    auto GetCommandDescriptorBlockSize();
+    auto GetDataBuffer();
+    auto GetDataBufferOffset();
+    auto GetDataTransferDirection();
+    auto GetLogicalUnitBytes(unsigned char (*) [8]);
+    auto GetLogicalUnitNumber();
+    auto GetRequestedDataTransferCount();
+    auto GetTaggedTaskIdentifier();
+    auto GetTaskAttribute();
+    auto GetTimeoutDuration();
+    auto SetAutoSenseData(SCSI_Sense_Data*, unsigned char);
 };

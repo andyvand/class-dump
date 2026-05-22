@@ -5,12 +5,12 @@
 class KLDBootstrap {
 public: // (access info unavailable from symbols alone)
     KLDBootstrap();
-    loadKernelComponentKexts();
-    loadKernelExternalComponents();
-    loadSecurityExtensions();
-    readBooterExtensions();
-    readBuiltinPersonalities();
-    readPrelinkedExtensions(mach_header_64*, kc_kind);
-    readStartupExtensions();
+    auto loadKernelComponentKexts();
+    auto loadKernelExternalComponents();
+    auto loadSecurityExtensions();
+    auto readBooterExtensions();
+    auto readBuiltinPersonalities();
+    auto readPrelinkedExtensions(mach_header_64*, kc_kind);
+    auto readStartupExtensions();
     ~KLDBootstrap();
 };

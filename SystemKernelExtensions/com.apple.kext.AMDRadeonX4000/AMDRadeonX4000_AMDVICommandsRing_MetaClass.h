@@ -5,5 +5,5 @@
 class AMDRadeonX4000_AMDVICommandsRing::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

@@ -6,14 +6,16 @@ class IOGDiagnosticGTraceClient {
 public: // (access info unavailable from symbols alone)
     IOGDiagnosticGTraceClient();
     IOGDiagnosticGTraceClient(OSMetaClass const*);
-    __OSFinalClass();
-    clientClose();
-    destroyUser(void*, IOExternalMethodArguments*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    fetch(void*, IOExternalMethodArguments*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    makeUser(void*, IOExternalMethodArguments*);
-    start(IOService*);
+    auto __OSFinalClass();
+    auto clientClose();
+    auto destroyUser(void*, IOExternalMethodArguments*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto fetch(void*, IOExternalMethodArguments*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto makeUser(void*, IOExternalMethodArguments*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOGDiagnosticGTraceClient();
 };

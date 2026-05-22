@@ -4,6 +4,6 @@
 
 class IOThunderboltTransmitQueue {
 public: // (access info unavailable from symbols alone)
-    withController(IOThunderboltController*);
-    withControllerAndWorkLoop(IOThunderboltController*, IOWorkLoop*);
+    auto withController(IOThunderboltController*);
+    auto withControllerAndWorkLoop(IOThunderboltController*, IOWorkLoop*);
 };

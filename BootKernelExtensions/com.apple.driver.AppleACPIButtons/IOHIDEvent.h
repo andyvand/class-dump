@@ -4,5 +4,5 @@
 
 class IOHIDEvent {
 public: // (access info unavailable from symbols alone)
-    keyboardEvent(unsigned long long, unsigned int, unsigned int, bool, unsigned int);
+    auto keyboardEvent(unsigned long long, unsigned int, unsigned int, bool, unsigned int);
 };

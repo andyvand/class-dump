@@ -4,14 +4,16 @@
 
 class IOFireWireMultiIsochReceiveListener {
 public: // (access info unavailable from symbols alone)
-    Activate();
-    Deactivate();
     IOFireWireMultiIsochReceiveListener();
     IOFireWireMultiIsochReceiveListener(OSMetaClass const*);
-    SetCallback(int (*)(void*, IOFireWireMultiIsochReceivePacket*), void*);
-    create(IOFireWireController*, unsigned int, int (*)(void*, IOFireWireMultiIsochReceivePacket*), void*, FWMultiIsochReceiveListenerParamsStruct*);
-    free();
-    getMetaClass() const;
-    init(IOFireWireController*, unsigned int, int (*)(void*, IOFireWireMultiIsochReceivePacket*), void*, FWMultiIsochReceiveListenerParamsStruct*);
+    auto Activate();
+    auto Deactivate();
+    auto SetCallback(int (*)(void*, IOFireWireMultiIsochReceivePacket*), void*);
+    auto create(IOFireWireController*, unsigned int, int (*)(void*, IOFireWireMultiIsochReceivePacket*), void*, FWMultiIsochReceiveListenerParamsStruct*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOFireWireController*, unsigned int, int (*)(void*, IOFireWireMultiIsochReceivePacket*), void*, FWMultiIsochReceiveListenerParamsStruct*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireMultiIsochReceiveListener();
 };

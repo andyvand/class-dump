@@ -4,6 +4,6 @@
 
 class OSOrderedSet {
 public: // (access info unavailable from symbols alone)
-    setObject(OSSharedPtr<OSMetaClassBase const> const&);
-    withCapacity(unsigned int, int (*)(OSMetaClassBase const*, OSMetaClassBase const*, void*), void*);
+    auto setObject(OSSharedPtr<OSMetaClassBase const> const&);
+    auto withCapacity(unsigned int, int (*)(OSMetaClassBase const*, OSMetaClassBase const*, void*), void*);
 };

@@ -4,5 +4,5 @@
 
 class AppleUSBNCMEncoder {
 public: // (access info unavailable from symbols alone)
-    encode(IOBufferMemoryDescriptor*, unsigned int*, unsigned long*);
+    auto encode(IOBufferMemoryDescriptor*, unsigned int*, unsigned long*);
 };

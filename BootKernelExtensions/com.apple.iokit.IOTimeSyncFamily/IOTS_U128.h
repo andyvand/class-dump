@@ -4,6 +4,6 @@
 
 class IOTS_U128 {
 public: // (access info unavailable from symbols alone)
-    operator*(IOTS_U128 const&) const;
-    operator/(IOTS_U128 const&) const;
+    auto operator*(IOTS_U128 const&) const;
+    auto operator/(IOTS_U128 const&) const;
 };

@@ -4,5 +4,5 @@
 
 class OSMetaClass {
 public: // (access info unavailable from symbols alone)
-    getClassName() const;
+    auto getClassName() const;
 };

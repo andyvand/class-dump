@@ -6,9 +6,11 @@ class AMDRadeonX5000_AMDVCE4v1Ring {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDVCE4v1Ring();
     AMDRadeonX5000_AMDVCE4v1Ring(OSMetaClass const*);
-    configureRegisters(bool);
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX5000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
+    auto configureRegisters(bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX5000_IAMDHWInterface*, int, _eAMD_HW_ENGINE_TYPE, unsigned int, void const*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDVCE4v1Ring();
 };

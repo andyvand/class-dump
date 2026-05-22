@@ -4,14 +4,14 @@
 
 class IGHashTable<unsigned long long, PerThreadInfo*, IGHashTraits<unsigned long long>, IGIOMallocAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
-    add(unsigned long long const&, PerThreadInfo* const&);
-    clear();
-    clear() (.cold.1);
-    resizeAndRehash(unsigned long);
-    resizeAndRehash(unsigned long) (.cold.1);
-    resizeAndRehash(unsigned long) (.cold.2);
-    shrinkIfNeeded();
-    slotIndex(unsigned long long const&) const;
+    auto add(unsigned long long const&, PerThreadInfo* const&);
+    auto clear();
+    auto clear() (.cold.1);
+    auto resizeAndRehash(unsigned long);
+    auto resizeAndRehash(unsigned long) (.cold.1);
+    auto resizeAndRehash(unsigned long) (.cold.2);
+    auto shrinkIfNeeded();
+    auto slotIndex(unsigned long long const&) const;
     ~IGHashTable();
     ~IGHashTable() (.cold.1);
 };

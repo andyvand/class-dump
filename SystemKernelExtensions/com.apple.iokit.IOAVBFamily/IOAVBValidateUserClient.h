@@ -6,15 +6,17 @@ class IOAVBValidateUserClient {
 public: // (access info unavailable from symbols alone)
     IOAVBValidateUserClient();
     IOAVBValidateUserClient(OSMetaClass const*);
-    authorizedForExternalMethod(unsigned int);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    initWithTask(task*, void*, unsigned int, OSDictionary*) (.cold.1);
-    initWithTask(task*, void*, unsigned int, OSDictionary*)::_os_log_fmt;
-    start(IOService*);
-    start(IOService*) (.cold.1);
-    start(IOService*)::_os_log_fmt;
+    auto authorizedForExternalMethod(unsigned int);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*) (.cold.1);
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*)::_os_log_fmt;
+    auto start(IOService*);
+    auto start(IOService*) (.cold.1);
+    auto start(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVBValidateUserClient();
 };

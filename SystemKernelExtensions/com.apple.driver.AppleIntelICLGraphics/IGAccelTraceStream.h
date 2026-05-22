@@ -6,14 +6,16 @@ class IGAccelTraceStream {
 public: // (access info unavailable from symbols alone)
     IGAccelTraceStream();
     IGAccelTraceStream(OSMetaClass const*);
-    addEvent(unsigned int, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long);
-    flush();
-    free();
-    getMetaClass() const;
-    getTraceStreamName();
-    init(unsigned int, IntelAccelerator*);
-    shutdown();
-    turnOff();
-    turnOn();
+    auto addEvent(unsigned int, unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long);
+    auto flush();
+    auto free();
+    auto getMetaClass() const;
+    auto getTraceStreamName();
+    auto init(unsigned int, IntelAccelerator*);
+    auto shutdown();
+    auto turnOff();
+    auto turnOn();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGAccelTraceStream();
 };

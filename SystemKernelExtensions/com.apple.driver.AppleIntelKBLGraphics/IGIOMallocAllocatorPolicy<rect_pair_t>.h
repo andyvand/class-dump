@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<rect_pair_t> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(rect_pair_t*, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(rect_pair_t*, unsigned long)::kalloc_type_view_29;
 };

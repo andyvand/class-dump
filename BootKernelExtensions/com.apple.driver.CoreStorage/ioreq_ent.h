@@ -4,8 +4,8 @@
 
 class ioreq_ent {
 public: // (access info unavailable from symbols alone)
-    clip(ioreq_ent const*, ioreq_ent**, ioreq_ent**, ioreq_ent**, ioreq_ent**, ioreq_ent*);
-    merge(ioreq_ent const*);
-    mergeable(ioreq_ent const*, bool*) const;
-    print(char const*) const;
+    auto clip(ioreq_ent const*, ioreq_ent**, ioreq_ent**, ioreq_ent**, ioreq_ent**, ioreq_ent*);
+    auto merge(ioreq_ent const*);
+    auto mergeable(ioreq_ent const*, bool*) const;
+    auto print(char const*) const;
 };

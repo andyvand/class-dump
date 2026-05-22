@@ -4,8 +4,8 @@
 
 class AppleBCMWLANChipManagerPCIe4364 {
 public: // (access info unavailable from symbols alone)
-    getMetaClass() const;
-    initWithChip(unsigned int, unsigned char);
-    withChip(unsigned int, unsigned char);
+    auto getMetaClass() const;
+    auto initWithChip(unsigned int, unsigned char);
+    auto withChip(unsigned int, unsigned char);
     ~AppleBCMWLANChipManagerPCIe4364();
 };

@@ -4,5 +4,5 @@
 
 class vector<unsigned int> {
 public: // (access info unavailable from symbols alone)
-    resize(unsigned long, unsigned int const&);
+    auto resize(unsigned long, unsigned int const&);
 };

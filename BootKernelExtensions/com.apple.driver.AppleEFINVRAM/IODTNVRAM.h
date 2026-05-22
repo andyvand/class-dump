@@ -5,7 +5,7 @@
 class IODTNVRAM {
 public: // (access info unavailable from symbols alone)
     IODTNVRAM(OSMetaClass const*);
-    getVarDict(OSSharedPtr<OSDictionary>&);
-    reload();
+    auto getVarDict(OSSharedPtr<OSDictionary>&);
+    auto reload();
     ~IODTNVRAM();
 };

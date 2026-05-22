@@ -4,42 +4,33 @@
 
 // Global C++ functions
 
-AppleMultitouchDevice::operator new(unsigned long);
 BNBDevice::gMetaClass;
 BNBDevice::metaClass;
-BNBDevice::operator delete(void*, unsigned long);
-BNBDevice::operator new(unsigned long);
 BNBDevice::superClass;
 BNBDevice_ktv;
 BNBMouseDevice::gMetaClass;
 BNBMouseDevice::metaClass;
-BNBMouseDevice::operator delete(void*, unsigned long);
-BNBMouseDevice::operator new(unsigned long);
 BNBMouseDevice::superClass;
 BNBMouseDevice_ktv;
 BNBTrackpadDevice::gMetaClass;
 BNBTrackpadDevice::metaClass;
-BNBTrackpadDevice::operator delete(void*, unsigned long);
-BNBTrackpadDevice::operator new(unsigned long);
 BNBTrackpadDevice::superClass;
 BNBTrackpadDevice_ktv;
 BluetoothMultitouchTransport::gMetaClass;
 BluetoothMultitouchTransport::metaClass;
-BluetoothMultitouchTransport::operator delete(void*, unsigned long);
-BluetoothMultitouchTransport::operator new(unsigned long);
 BluetoothMultitouchTransport::superClass;
 BluetoothMultitouchTransport_ktv;
 IOAppleBluetoothHIDDriver::gMetaClass;
-MillisecondsSince(unsigned long long);
 OSBoolean::metaClass;
 OSDictionary::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
-staticEnableMultitouchHandler(bool, void*);
-staticGetReportHandler(AMDDeviceReportStruct*, unsigned char, void*);
-staticReportInfoHandler(unsigned char, AMDReportInfoStruct*, unsigned char, void*);
-staticResetDeviceHandler(void*);
-staticSetReportHandler(AMDDeviceReportStruct*, unsigned char, void*);
+auto MillisecondsSince(unsigned long long);
+auto staticEnableMultitouchHandler(bool, void*);
+auto staticGetReportHandler(AMDDeviceReportStruct*, unsigned char, void*);
+auto staticReportInfoHandler(unsigned char, AMDReportInfoStruct*, unsigned char, void*);
+auto staticResetDeviceHandler(void*);
+auto staticSetReportHandler(AMDDeviceReportStruct*, unsigned char, void*);
 vtable for BNBDevice;
 vtable for BNBDevice::MetaClass;
 vtable for BNBMouseDevice;

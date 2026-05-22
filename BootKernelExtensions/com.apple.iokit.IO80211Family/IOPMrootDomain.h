@@ -4,5 +4,5 @@
 
 class IOPMrootDomain {
 public: // (access info unavailable from symbols alone)
-    claimSystemWakeEvent(IOService*, unsigned int, char const*, OSObject*);
+    auto claimSystemWakeEvent(IOService*, unsigned int, char const*, OSObject*);
 };

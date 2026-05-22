@@ -6,12 +6,14 @@ class ASIC_INFO__VEGA20 {
 public: // (access info unavailable from symbols alone)
     ASIC_INFO__VEGA20();
     ASIC_INFO__VEGA20(OSMetaClass const*);
-    getMetaClass() const;
-    populateConnectedGPUConfig();
-    populateDeviceInfo();
-    populateFbLocation();
-    populateFbLocationConnectedGPU();
-    populateFbLocationStandard();
-    populateMemoryConfig();
+    auto getMetaClass() const;
+    auto populateConnectedGPUConfig();
+    auto populateDeviceInfo();
+    auto populateFbLocation();
+    auto populateFbLocationConnectedGPU();
+    auto populateFbLocationStandard();
+    auto populateMemoryConfig();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ASIC_INFO__VEGA20();
 };

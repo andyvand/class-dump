@@ -4,5 +4,5 @@
 
 class vector<phy_ext_simple> {
 public: // (access info unavailable from symbols alone)
-    push_back(phy_ext_simple const&);
+    auto push_back(phy_ext_simple const&);
 };

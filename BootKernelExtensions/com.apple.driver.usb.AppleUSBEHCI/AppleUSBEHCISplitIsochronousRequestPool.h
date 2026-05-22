@@ -6,8 +6,10 @@ class AppleUSBEHCISplitIsochronousRequestPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBEHCISplitIsochronousRequestPool();
     AppleUSBEHCISplitIsochronousRequestPool(OSMetaClass const*);
-    allocateCommand();
-    getMetaClass() const;
-    withWorkLoopAndController(IOWorkLoop*, AppleUSBEHCI*);
+    auto allocateCommand();
+    auto getMetaClass() const;
+    auto withWorkLoopAndController(IOWorkLoop*, AppleUSBEHCI*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBEHCISplitIsochronousRequestPool();
 };

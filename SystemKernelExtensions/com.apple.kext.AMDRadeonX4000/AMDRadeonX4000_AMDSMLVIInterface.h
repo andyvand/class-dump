@@ -6,12 +6,14 @@ class AMDRadeonX4000_AMDSMLVIInterface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDSMLVIInterface();
     AMDRadeonX4000_AMDSMLVIInterface(OSMetaClass const*);
-    createDRM();
-    createSAMU();
-    createUVD();
-    createVCE();
-    free();
-    getMetaClass() const;
-    init(unsigned int);
+    auto createDRM();
+    auto createSAMU();
+    auto createUVD();
+    auto createVCE();
+    auto free();
+    auto getMetaClass() const;
+    auto init(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDSMLVIInterface();
 };

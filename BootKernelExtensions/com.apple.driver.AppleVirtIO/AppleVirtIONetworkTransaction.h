@@ -4,9 +4,9 @@
 
 class AppleVirtIONetworkTransaction {
 public: // (access info unavailable from symbols alone)
-    getHeader();
-    getMetaClass() const;
-    withRXTransaction(unsigned int, bool, unsigned int);
-    withTXTransaction(unsigned int, bool, unsigned int);
+    auto getHeader();
+    auto getMetaClass() const;
+    auto withRXTransaction(unsigned int, bool, unsigned int);
+    auto withTXTransaction(unsigned int, bool, unsigned int);
     ~AppleVirtIONetworkTransaction();
 };

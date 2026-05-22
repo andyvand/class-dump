@@ -6,11 +6,13 @@ class IGFenceAllocator {
 public: // (access info unavailable from symbols alone)
     IGFenceAllocator();
     IGFenceAllocator(OSMetaClass const*);
-    allocate(IGAddressRange const&, unsigned long, GFX3DSTATE_TILEMODE);
-    deallocate(unsigned long);
-    free();
-    getMetaClass() const;
-    initWithOptions(IntelAccelerator*);
-    withOptions(IntelAccelerator*);
+    auto allocate(IGAddressRange const&, unsigned long, GFX3DSTATE_TILEMODE);
+    auto deallocate(unsigned long);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithOptions(IntelAccelerator*);
+    auto withOptions(IntelAccelerator*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IGFenceAllocator();
 };

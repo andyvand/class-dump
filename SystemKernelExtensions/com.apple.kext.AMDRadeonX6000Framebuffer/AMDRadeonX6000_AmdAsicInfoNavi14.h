@@ -6,9 +6,11 @@ class AMDRadeonX6000_AmdAsicInfoNavi14 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdAsicInfoNavi14();
     AMDRadeonX6000_AmdAsicInfoNavi14(OSMetaClass const*);
-    createAsicInfo(AMDRadeonX6000_IAmdRadeonController*);
-    getEnumeratedRevisionNumber() const;
-    getGpuBrandingNameList() const;
-    getMetaClass() const;
+    auto createAsicInfo(AMDRadeonX6000_IAmdRadeonController*);
+    auto getEnumeratedRevisionNumber() const;
+    auto getGpuBrandingNameList() const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdAsicInfoNavi14();
 };

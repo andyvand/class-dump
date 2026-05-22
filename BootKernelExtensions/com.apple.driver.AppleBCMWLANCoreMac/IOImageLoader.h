@@ -4,7 +4,7 @@
 
 class IOImageLoader {
 public: // (access info unavailable from symbols alone)
-    copyImageFromDatastoreToImageDictionaryBuffer(OSDictionary*);
-    displayObject(char const*, int, OSObject const*);
-    withProvider(IOService*, IOImageDescriptorCallbacks_s&, char const*);
+    auto copyImageFromDatastoreToImageDictionaryBuffer(OSDictionary*);
+    auto displayObject(char const*, int, OSObject const*);
+    auto withProvider(IOService*, IOImageDescriptorCallbacks_s&, char const*);
 };

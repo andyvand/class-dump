@@ -4,10 +4,10 @@
 
 class IOAccelMemoryMapList {
 public: // (access info unavailable from symbols alone)
-    addMapping(IOAccelMemoryMap*);
-    getCount() const;
-    init();
-    moveMappingToHead(IOAccelMemoryMap*);
-    removeMapping(IOAccelMemoryMap*);
-    removeMapping(IOAccelMemoryMap*)::_os_log_fmt;
+    auto addMapping(IOAccelMemoryMap*);
+    auto getCount() const;
+    auto init();
+    auto moveMappingToHead(IOAccelMemoryMap*);
+    auto removeMapping(IOAccelMemoryMap*);
+    auto removeMapping(IOAccelMemoryMap*)::_os_log_fmt;
 };

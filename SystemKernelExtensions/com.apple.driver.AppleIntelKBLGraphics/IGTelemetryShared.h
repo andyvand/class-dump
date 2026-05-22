@@ -4,15 +4,15 @@
 
 class IGTelemetryShared {
 public: // (access info unavailable from symbols alone)
-    emitSample(TelemetrySampleInfo*);
-    emitSampleItem(unsigned int, int, char const*, unsigned long long);
-    evalOperationReturnValue(TelemetryOperation*, int, int);
-    fflush_tlm();
-    init();
-    initPerProcessData();
-    initPerfEvent(unsigned int, TelemetryItem*);
-    isSampleEnabledForOutput(TelemetrySampleInfo*);
-    operationGet(unsigned int, long long, unsigned long long*, unsigned long long*, int*);
-    operationSet(unsigned int, long long, unsigned long long, unsigned long long, int*);
-    shutdown();
+    auto emitSample(TelemetrySampleInfo*);
+    auto emitSampleItem(unsigned int, int, char const*, unsigned long long);
+    auto evalOperationReturnValue(TelemetryOperation*, int, int);
+    auto fflush_tlm();
+    auto init();
+    auto initPerProcessData();
+    auto initPerfEvent(unsigned int, TelemetryItem*);
+    auto isSampleEnabledForOutput(TelemetrySampleInfo*);
+    auto operationGet(unsigned int, long long, unsigned long long*, unsigned long long*, int*);
+    auto operationSet(unsigned int, long long, unsigned long long, unsigned long long, int*);
+    auto shutdown();
 };

@@ -4,6 +4,6 @@
 
 class sIOGPUIOFence {
 public: // (access info unavailable from symbols alone)
+    auto setEventStamp(IOGPUEventMachine*, int);
     sIOGPUIOFence();
-    setEventStamp(IOGPUEventMachine*, int);
 };

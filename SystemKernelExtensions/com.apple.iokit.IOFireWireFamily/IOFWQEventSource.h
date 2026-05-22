@@ -6,8 +6,10 @@ class IOFWQEventSource {
 public: // (access info unavailable from symbols alone)
     IOFWQEventSource();
     IOFWQEventSource(OSMetaClass const*);
-    checkForWork();
-    getMetaClass() const;
-    init(IOFireWireController*);
+    auto checkForWork();
+    auto getMetaClass() const;
+    auto init(IOFireWireController*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWQEventSource();
 };

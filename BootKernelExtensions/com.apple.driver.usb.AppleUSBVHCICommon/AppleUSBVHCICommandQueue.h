@@ -5,16 +5,18 @@
 class AppleUSBVHCICommandQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCICommandQueue(OSMetaClass const*);
-    abortCommand(StandardUSBVHCI::VHCIMessage*);
-    abortCommand(StandardUSBVHCI::VHCIMessage*)::_os_log_fmt;
-    executeCommand(StandardUSBVHCI::VHCIMessage*, unsigned int);
-    executeCommand(StandardUSBVHCI::VHCIMessage*, unsigned int)::_os_log_fmt;
-    free();
-    getMetaClass() const;
-    initWithMessageQueue(AppleUSBVHCIMessageQueue*);
-    notifyCommandComplete(StandardUSBVHCI::VHCIMessage const*);
-    notifyCommandComplete(StandardUSBVHCI::VHCIMessage const*)::_os_log_fmt;
-    notifyServiceState(AppleUSBVHCICommandQueue::tServiceState);
-    stop();
+    auto abortCommand(StandardUSBVHCI::VHCIMessage*);
+    auto abortCommand(StandardUSBVHCI::VHCIMessage*)::_os_log_fmt;
+    auto executeCommand(StandardUSBVHCI::VHCIMessage*, unsigned int);
+    auto executeCommand(StandardUSBVHCI::VHCIMessage*, unsigned int)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto initWithMessageQueue(AppleUSBVHCIMessageQueue*);
+    auto notifyCommandComplete(StandardUSBVHCI::VHCIMessage const*);
+    auto notifyCommandComplete(StandardUSBVHCI::VHCIMessage const*)::_os_log_fmt;
+    auto notifyServiceState(AppleUSBVHCICommandQueue::tServiceState);
+    auto stop();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBVHCICommandQueue();
 };

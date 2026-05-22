@@ -5,6 +5,6 @@
 class IOSkywalkNetworkNexusDomainProvider {
 public: // (access info unavailable from symbols alone)
     IOSkywalkNetworkNexusDomainProvider();
-    registerNexusDomainProvider();
+    auto registerNexusDomainProvider();
     ~IOSkywalkNetworkNexusDomainProvider();
 };

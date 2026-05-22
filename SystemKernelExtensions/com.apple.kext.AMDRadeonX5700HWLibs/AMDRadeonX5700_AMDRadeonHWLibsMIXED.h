@@ -5,15 +5,17 @@
 class AMDRadeonX5700_AMDRadeonHWLibsMIXED {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5700_AMDRadeonHWLibsMIXED(OSMetaClass const*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    callPlatformFunction(char const*, bool, void*, void*, void*, void*);
-    callPlatformFunction(char const*, bool, void*, void*, void*, void*)::CAIL_INTERFACE_KEY;
-    callPlatformFunction(char const*, bool, void*, void*, void*, void*)::TTL_INTERFACE_KEY;
-    createCailInterface(IOPCIDevice*);
-    createTtlInterface(IOPCIDevice*);
-    free();
-    getMetaClass() const;
-    start(IOService*);
-    stop(IOService*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto callPlatformFunction(char const*, bool, void*, void*, void*, void*);
+    auto callPlatformFunction(char const*, bool, void*, void*, void*, void*)::CAIL_INTERFACE_KEY;
+    auto callPlatformFunction(char const*, bool, void*, void*, void*, void*)::TTL_INTERFACE_KEY;
+    auto createCailInterface(IOPCIDevice*);
+    auto createTtlInterface(IOPCIDevice*);
+    auto free();
+    auto getMetaClass() const;
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5700_AMDRadeonHWLibsMIXED();
 };

@@ -4,5 +4,5 @@
 
 class LegacyVertexBuffers {
 public: // (access info unavailable from symbols alone)
-    Generate(depth_resolve_params_t const*, unsigned int*, unsigned long long, ResolveRange, bool);
+    auto Generate(depth_resolve_params_t const*, unsigned int*, unsigned long long, ResolveRange, bool);
 };

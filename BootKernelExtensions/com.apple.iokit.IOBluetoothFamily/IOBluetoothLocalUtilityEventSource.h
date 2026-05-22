@@ -6,10 +6,12 @@ class IOBluetoothLocalUtilityEventSource {
 public: // (access info unavailable from symbols alone)
     IOBluetoothLocalUtilityEventSource();
     IOBluetoothLocalUtilityEventSource(OSMetaClass const*);
-    checkForWork();
-    closeGateOn(IOWorkLoop*);
-    getMetaClass() const;
-    ioBluetoothLocalUtilityEventSource();
-    openGateOn(IOWorkLoop*);
+    auto checkForWork();
+    auto closeGateOn(IOWorkLoop*);
+    auto getMetaClass() const;
+    auto ioBluetoothLocalUtilityEventSource();
+    auto openGateOn(IOWorkLoop*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOBluetoothLocalUtilityEventSource();
 };

@@ -6,14 +6,16 @@ class AMDRadeonX5000_AMDGFX9Resource {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDGFX9Resource();
     AMDRadeonX5000_AMDGFX9Resource(OSMetaClass const*);
-    fillUBMSurfaceInfoBacking(_UBM_SURFINFO*, IOAccelMemoryMap*, unsigned int, unsigned int, unsigned int, bool*) const;
-    fillUBMSurfaceInfoInternal(_UBM_SURFINFO*, _sMASK_MEMORY_SETTINGS*, IOAccelMemoryMap*, AMDRadeonX5000_AMDAccelResource*, unsigned int, unsigned int, unsigned int);
-    getHWInfoProperty(AMD_HW_INFO_PROPERTY_TYPE);
-    getMetaClass() const;
-    initIOSurface();
-    initIOSurfacePlane(unsigned int, unsigned int, unsigned int, unsigned int, bool);
-    initialize(IOAccelNewResourceArgs*, unsigned long long);
-    setupHwCBRegs(GFX9_HwCBRegsRec*) const;
-    setupHwDBRegs(GFX9_HwDBRegsRec*) const;
+    auto fillUBMSurfaceInfoBacking(_UBM_SURFINFO*, IOAccelMemoryMap*, unsigned int, unsigned int, unsigned int, bool*) const;
+    auto fillUBMSurfaceInfoInternal(_UBM_SURFINFO*, _sMASK_MEMORY_SETTINGS*, IOAccelMemoryMap*, AMDRadeonX5000_AMDAccelResource*, unsigned int, unsigned int, unsigned int);
+    auto getHWInfoProperty(AMD_HW_INFO_PROPERTY_TYPE);
+    auto getMetaClass() const;
+    auto initIOSurface();
+    auto initIOSurfacePlane(unsigned int, unsigned int, unsigned int, unsigned int, bool);
+    auto initialize(IOAccelNewResourceArgs*, unsigned long long);
+    auto setupHwCBRegs(GFX9_HwCBRegsRec*) const;
+    auto setupHwDBRegs(GFX9_HwDBRegsRec*) const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDGFX9Resource();
 };

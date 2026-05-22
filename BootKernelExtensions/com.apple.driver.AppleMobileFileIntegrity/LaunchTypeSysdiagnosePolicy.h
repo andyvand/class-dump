@@ -4,9 +4,11 @@
 
 class LaunchTypeSysdiagnosePolicy {
 public: // (access info unavailable from symbols alone)
-    constraintCategorySatisfiesPolicy(ConstraintCategory_t);
-    launchSatisfiesPolicy(SystemFacts&, ProcessAccessor&, ProcessAccessor&, MetaEncyclopedia&, MetaEncyclopedia&, MetaEncyclopedia&, LaunchConstraintError_t&);
-    launchTypeIsAllowed(SystemFacts&, ProcessAccessor&, ProcessAccessor&, LaunchConstraintError_t&);
-    markConstraintCategoryApplied(ConstraintCategory_t);
+    auto constraintCategorySatisfiesPolicy(ConstraintCategory_t);
+    auto launchSatisfiesPolicy(SystemFacts&, ProcessAccessor&, ProcessAccessor&, MetaEncyclopedia&, MetaEncyclopedia&, MetaEncyclopedia&, LaunchConstraintError_t&);
+    auto launchTypeIsAllowed(SystemFacts&, ProcessAccessor&, ProcessAccessor&, LaunchConstraintError_t&);
+    auto markConstraintCategoryApplied(ConstraintCategory_t);
+    void * operator new(unsigned long)::kalloc_type_view_15;
+    void operator delete(void*, unsigned long)::kalloc_type_view_15;
     ~LaunchTypeSysdiagnosePolicy();
 };

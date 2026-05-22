@@ -5,5 +5,5 @@
 class AMDRadeonX5000_AMDSMLCPMsg::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

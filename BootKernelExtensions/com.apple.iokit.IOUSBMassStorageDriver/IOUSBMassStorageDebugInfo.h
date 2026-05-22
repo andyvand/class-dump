@@ -4,23 +4,23 @@
 
 class IOUSBMassStorageDebugInfo {
 public: // (access info unavailable from symbols alone)
-    Free();
-    Init(unsigned char);
-    Init(unsigned char) (.cold.1);
-    Start(unsigned long long);
-    Stop();
-    isRead(unsigned char);
-    isWrite(unsigned char);
-    recordCmd(unsigned char, SCSITaskStatus, unsigned long long, unsigned char, unsigned char, unsigned char, bool);
-    recordCmds(unsigned char, unsigned int, unsigned long long);
-    recordCtrlCmds(unsigned char, SCSITaskStatus, unsigned long long, unsigned char, unsigned char, unsigned char, unsigned long long);
-    recordHighLatencyCmds(unsigned int, SCSITaskStatus, unsigned long long, unsigned long long);
-    recordMiscCounters(unsigned char, SCSITaskStatus, unsigned int, unsigned long long);
-    recordShutdown();
-    recordSleepWake(unsigned int);
-    recordUsbReset();
-    systemLog();
-    systemLogCmdInfo(IOUSBMassStorageDebugInfo::CmdInfo*, unsigned char, signed char, char*, int, char const*);
-    systemLogHighLatencyCmds(char*, int);
-    systemLogMiscCounters(char*, int);
+    auto Free();
+    auto Init(unsigned char);
+    auto Init(unsigned char) (.cold.1);
+    auto Start(unsigned long long);
+    auto Stop();
+    auto isRead(unsigned char);
+    auto isWrite(unsigned char);
+    auto recordCmd(unsigned char, SCSITaskStatus, unsigned long long, unsigned char, unsigned char, unsigned char, bool);
+    auto recordCmds(unsigned char, unsigned int, unsigned long long);
+    auto recordCtrlCmds(unsigned char, SCSITaskStatus, unsigned long long, unsigned char, unsigned char, unsigned char, unsigned long long);
+    auto recordHighLatencyCmds(unsigned int, SCSITaskStatus, unsigned long long, unsigned long long);
+    auto recordMiscCounters(unsigned char, SCSITaskStatus, unsigned int, unsigned long long);
+    auto recordShutdown();
+    auto recordSleepWake(unsigned int);
+    auto recordUsbReset();
+    auto systemLog();
+    auto systemLogCmdInfo(IOUSBMassStorageDebugInfo::CmdInfo*, unsigned char, signed char, char*, int, char const*);
+    auto systemLogHighLatencyCmds(char*, int);
+    auto systemLogMiscCounters(char*, int);
 };

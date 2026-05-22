@@ -5,10 +5,10 @@
 class IOUserClient2022 {
 public: // (access info unavailable from symbols alone)
     IOUserClient2022(OSMetaClass const*);
-    _RESERVEDIOUserClient20220();
-    _RESERVEDIOUserClient20221();
-    _RESERVEDIOUserClient20222();
-    _RESERVEDIOUserClient20223();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto _RESERVEDIOUserClient20220();
+    auto _RESERVEDIOUserClient20221();
+    auto _RESERVEDIOUserClient20222();
+    auto _RESERVEDIOUserClient20223();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
     ~IOUserClient2022();
 };

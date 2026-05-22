@@ -5,6 +5,6 @@
 class IOPlatformPluginFamilyPriv {
 public: // (access info unavailable from symbols alone)
     IOPlatformPluginFamilyPriv(OSMetaClass const*);
-    setProperties(OSObject*);
+    auto setProperties(OSObject*);
     ~IOPlatformPluginFamilyPriv();
 };

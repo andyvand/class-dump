@@ -4,5 +4,5 @@
 
 class vector<cs_buf*> {
 public: // (access info unavailable from symbols alone)
-    resize(unsigned long, cs_buf* const&);
+    auto resize(unsigned long, cs_buf* const&);
 };

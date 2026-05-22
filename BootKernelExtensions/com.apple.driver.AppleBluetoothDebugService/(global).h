@@ -6,8 +6,6 @@
 
 BTDebugService::gMetaClass;
 BTDebugService::metaClass;
-BTDebugService::operator delete(void*, unsigned long);
-BTDebugService::operator new(unsigned long);
 BTDebugService::superClass;
 BTDebugService_ktv;
 IOService::gMetaClass;

@@ -6,10 +6,12 @@ class ApplePIODMARequestPool {
 public: // (access info unavailable from symbols alone)
     ApplePIODMARequestPool();
     ApplePIODMARequestPool(OSMetaClass const*);
-    allocateCommand();
-    free();
-    getMetaClass() const;
-    initWithWorkLoop(IOWorkLoop*, IOMapper*, unsigned int, unsigned int, unsigned char, unsigned long long, unsigned long long);
-    withWorkLoop(IOWorkLoop*, IOMapper*, unsigned int, unsigned int, unsigned char, unsigned long long, unsigned long long);
+    auto allocateCommand();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithWorkLoop(IOWorkLoop*, IOMapper*, unsigned int, unsigned int, unsigned char, unsigned long long, unsigned long long);
+    auto withWorkLoop(IOWorkLoop*, IOMapper*, unsigned int, unsigned int, unsigned char, unsigned long long, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~ApplePIODMARequestPool();
 };

@@ -6,9 +6,11 @@ class AtiSetPixelClock_V1_V6 {
 public: // (access info unavailable from symbols alone)
     AtiSetPixelClock_V1_V6();
     AtiSetPixelClock_V1_V6(OSMetaClass const*);
-    getMetaClass() const;
-    setDisplayClock(unsigned char, unsigned int);
-    setPixelClock(ClockParams const*, ActiveConnectorInfo const*);
-    translateColorDepthToAtom(unsigned short);
+    auto getMetaClass() const;
+    auto setDisplayClock(unsigned char, unsigned int);
+    auto setPixelClock(ClockParams const*, ActiveConnectorInfo const*);
+    auto translateColorDepthToAtom(unsigned short);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiSetPixelClock_V1_V6();
 };

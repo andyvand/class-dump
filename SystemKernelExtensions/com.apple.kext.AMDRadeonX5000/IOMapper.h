@@ -4,5 +4,5 @@
 
 class IOMapper {
 public: // (access info unavailable from symbols alone)
-    copyMapperForDevice(IOService*);
+    auto copyMapperForDevice(IOService*);
 };

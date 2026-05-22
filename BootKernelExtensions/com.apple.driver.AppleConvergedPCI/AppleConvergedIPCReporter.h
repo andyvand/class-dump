@@ -5,12 +5,14 @@
 class AppleConvergedIPCReporter {
 public: // (access info unavailable from symbols alone)
     AppleConvergedIPCReporter(OSMetaClass const*);
-    configureReport(IOReportChannelList*, unsigned int, void*, void*);
-    free();
-    getMetaClass() const;
-    init();
-    startReporting(IOService*, char const*);
-    stopReporting();
-    updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto configureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    auto startReporting(IOService*, char const*);
+    auto stopReporting();
+    auto updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleConvergedIPCReporter();
 };

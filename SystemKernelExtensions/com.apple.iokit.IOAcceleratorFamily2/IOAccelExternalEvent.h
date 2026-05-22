@@ -6,13 +6,15 @@ class IOAccelExternalEvent {
 public: // (access info unavailable from symbols alone)
     IOAccelExternalEvent();
     IOAccelExternalEvent(OSMetaClass const*);
-    decrement();
-    externalEvent();
-    finish();
-    free();
-    getMetaClass() const;
-    increment();
-    init();
-    test() const;
+    auto decrement();
+    auto externalEvent();
+    auto finish();
+    auto free();
+    auto getMetaClass() const;
+    auto increment();
+    auto init();
+    auto test() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelExternalEvent();
 };

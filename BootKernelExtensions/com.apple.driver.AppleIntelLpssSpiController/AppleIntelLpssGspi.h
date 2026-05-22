@@ -4,24 +4,24 @@
 
 class AppleIntelLpssGspi {
 public: // (access info unavailable from symbols alone)
-    calcSpiClockParams(LpssGspiChannelConfig*, unsigned int);
-    calcSpiClockPeriod(LpssGspiChannelConfig*, unsigned int*);
-    calcSpiMultiByteUsecDelay(unsigned int, unsigned int*);
-    configDma();
-    configMmio();
-    fifoFlushRx();
-    fifoSetLTR(unsigned int);
-    fifoSetWatermarks(unsigned int, unsigned int);
-    getCSState();
-    getCSStatus(bool*);
-    getChannelNumber(unsigned int*);
-    getConfig(LpssGspiChannelConfig*);
-    reset();
-    setCSControlExternal(bool);
-    setCSControlInternal(bool);
-    setConfig(LpssGspiChannelConfig*);
-    transferMmioDuplexMulti(void*, void*, unsigned long long, unsigned int);
-    transferMmioDuplex_1(unsigned char*, unsigned char);
-    transferMmioDuplex_2(unsigned short*, unsigned short);
-    transferMmioDuplex_4(unsigned int*, unsigned int);
+    auto calcSpiClockParams(LpssGspiChannelConfig*, unsigned int);
+    auto calcSpiClockPeriod(LpssGspiChannelConfig*, unsigned int*);
+    auto calcSpiMultiByteUsecDelay(unsigned int, unsigned int*);
+    auto configDma();
+    auto configMmio();
+    auto fifoFlushRx();
+    auto fifoSetLTR(unsigned int);
+    auto fifoSetWatermarks(unsigned int, unsigned int);
+    auto getCSState();
+    auto getCSStatus(bool*);
+    auto getChannelNumber(unsigned int*);
+    auto getConfig(LpssGspiChannelConfig*);
+    auto reset();
+    auto setCSControlExternal(bool);
+    auto setCSControlInternal(bool);
+    auto setConfig(LpssGspiChannelConfig*);
+    auto transferMmioDuplexMulti(void*, void*, unsigned long long, unsigned int);
+    auto transferMmioDuplex_1(unsigned char*, unsigned char);
+    auto transferMmioDuplex_2(unsigned short*, unsigned short);
+    auto transferMmioDuplex_4(unsigned int*, unsigned int);
 };

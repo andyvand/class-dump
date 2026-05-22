@@ -6,12 +6,14 @@ class AppleGFXHDAFunctionGroupATI_RS780 {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAFunctionGroupATI_RS780();
     AppleGFXHDAFunctionGroupATI_RS780(OSMetaClass const*);
-    analogReferenceCollapsesInPowerState(unsigned int);
-    audioFunctionGroupStartupDelay();
-    codecRequiresPolling();
-    getMetaClass() const;
-    init();
-    initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*, bool);
-    pathMapCanBeConstructedByDiscovery();
+    auto analogReferenceCollapsesInPowerState(unsigned int);
+    auto audioFunctionGroupStartupDelay();
+    auto codecRequiresPolling();
+    auto getMetaClass() const;
+    auto init();
+    auto initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*, bool);
+    auto pathMapCanBeConstructedByDiscovery();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAFunctionGroupATI_RS780();
 };

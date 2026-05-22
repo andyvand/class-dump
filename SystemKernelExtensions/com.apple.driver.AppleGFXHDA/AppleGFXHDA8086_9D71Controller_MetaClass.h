@@ -5,5 +5,5 @@
 class AppleGFXHDA8086_9D71Controller::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

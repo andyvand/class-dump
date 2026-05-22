@@ -4,13 +4,13 @@
 
 class AppleBCMWLANWorkOrder {
 public: // (access info unavailable from symbols alone)
-    complete(IO80211CommandGate*);
-    free();
-    free()::kalloc_type_view_103;
-    getMetaClass() const;
-    initWithID(int);
-    initWithID(int)::kalloc_type_view_88;
-    prepare(int, AppleBCMWLANTaskmaster_Task const&, AppleBCMWLANTaskmaster_TaskCompletion const*, void*, AppleBCMWLANTaskmaster_IssueMethod);
-    withID(int);
+    auto complete(IO80211CommandGate*);
+    auto free();
+    auto free()::kalloc_type_view_103;
+    auto getMetaClass() const;
+    auto initWithID(int);
+    auto initWithID(int)::kalloc_type_view_88;
+    auto prepare(int, AppleBCMWLANTaskmaster_Task const&, AppleBCMWLANTaskmaster_TaskCompletion const*, void*, AppleBCMWLANTaskmaster_IssueMethod);
+    auto withID(int);
     ~AppleBCMWLANWorkOrder();
 };

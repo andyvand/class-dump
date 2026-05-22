@@ -6,6 +6,6 @@ class OSSharedPtr<IONotifier> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr();
     OSSharedPtr(std::nullptr_t);
-    operator=(OSSharedPtr<IONotifier>&&);
+    auto operator=(OSSharedPtr<IONotifier>&&);
     ~OSSharedPtr();
 };

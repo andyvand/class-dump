@@ -6,15 +6,17 @@ class AppleUSBXHCIPipe {
 public: // (access info unavailable from symbols alone)
     AppleUSBXHCIPipe();
     AppleUSBXHCIPipe(OSMetaClass const*);
-    free();
-    getController();
-    getMetaClass() const;
-    getRequest();
-    getTransferRing();
-    getXHCIEndpoint();
-    initWithDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*, unsigned char, unsigned short, AppleUSBXHCIRequest*);
-    setRequest(AppleUSBXHCIRequest*);
-    setXHCIEndpoint(AppleUSBXHCIEndpoint*);
-    withDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*, unsigned char, unsigned short, AppleUSBXHCIRequest*);
+    auto free();
+    auto getController();
+    auto getMetaClass() const;
+    auto getRequest();
+    auto getTransferRing();
+    auto getXHCIEndpoint();
+    auto initWithDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*, unsigned char, unsigned short, AppleUSBXHCIRequest*);
+    auto setRequest(AppleUSBXHCIRequest*);
+    auto setXHCIEndpoint(AppleUSBXHCIEndpoint*);
+    auto withDescriptorsAndOwners(StandardUSB::EndpointDescriptor const*, StandardUSB::ConfigurationDescriptor const*, AppleUSBHostController*, IOUSBHostDevice*, IOUSBHostInterface*, unsigned char, unsigned short, AppleUSBXHCIRequest*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBXHCIPipe();
 };

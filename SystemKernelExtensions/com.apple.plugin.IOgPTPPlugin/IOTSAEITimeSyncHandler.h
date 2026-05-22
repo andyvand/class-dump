@@ -6,14 +6,16 @@ class IOTSAEITimeSyncHandler {
 public: // (access info unavailable from symbols alone)
     IOTSAEITimeSyncHandler();
     IOTSAEITimeSyncHandler(OSMetaClass const*);
-    adapter();
-    call(TSNPacket*);
-    callbackID();
-    getMetaClass() const;
-    init(void (*)(void*, TSNPacket*), void*, unsigned int, IOTimeSyncEthernetInterfaceAdapter*);
-    init(void (*)(void*, TSNPacket*), void*, unsigned int, IOTimeSyncEthernetInterfaceAdapter*) (.cold.1);
-    init(void (*)(void*, TSNPacket*), void*, unsigned int, IOTimeSyncEthernetInterfaceAdapter*)::_os_log_fmt;
-    isCallbackAndContext(void (*)(void*, TSNPacket*), void*);
-    setCallbackID(unsigned int);
+    auto adapter();
+    auto call(TSNPacket*);
+    auto callbackID();
+    auto getMetaClass() const;
+    auto init(void (*)(void*, TSNPacket*), void*, unsigned int, IOTimeSyncEthernetInterfaceAdapter*);
+    auto init(void (*)(void*, TSNPacket*), void*, unsigned int, IOTimeSyncEthernetInterfaceAdapter*) (.cold.1);
+    auto init(void (*)(void*, TSNPacket*), void*, unsigned int, IOTimeSyncEthernetInterfaceAdapter*)::_os_log_fmt;
+    auto isCallbackAndContext(void (*)(void*, TSNPacket*), void*);
+    auto setCallbackID(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTSAEITimeSyncHandler();
 };

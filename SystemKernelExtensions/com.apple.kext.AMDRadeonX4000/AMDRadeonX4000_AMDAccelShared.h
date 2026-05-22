@@ -6,15 +6,17 @@ class AMDRadeonX4000_AMDAccelShared {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDAccelShared();
     AMDRadeonX4000_AMDAccelShared(OSMetaClass const*);
-    AndXorByteFlag(unsigned short, unsigned char, unsigned char);
-    AndXorByteFlagNoWrite(unsigned short, unsigned char, unsigned char) const;
-    EnableVcePowerManagement(bool);
-    GetVceSessionId(sVideoContextCreateInfo*, sVideoContextReturnInfo*);
-    RemoveVceContext(unsigned int);
-    SetPPLibPowerState();
-    SurfaceCopy(unsigned int*, unsigned long long, IOAccelEvent*);
-    free();
-    getMetaClass() const;
-    init(IOGraphicsAccelerator2*, task*);
+    auto AndXorByteFlag(unsigned short, unsigned char, unsigned char);
+    auto AndXorByteFlagNoWrite(unsigned short, unsigned char, unsigned char) const;
+    auto EnableVcePowerManagement(bool);
+    auto GetVceSessionId(sVideoContextCreateInfo*, sVideoContextReturnInfo*);
+    auto RemoveVceContext(unsigned int);
+    auto SetPPLibPowerState();
+    auto SurfaceCopy(unsigned int*, unsigned long long, IOAccelEvent*);
+    auto free();
+    auto getMetaClass() const;
+    auto init(IOGraphicsAccelerator2*, task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDAccelShared();
 };

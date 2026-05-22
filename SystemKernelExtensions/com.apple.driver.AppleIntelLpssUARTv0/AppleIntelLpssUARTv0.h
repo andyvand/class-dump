@@ -6,9 +6,11 @@ class AppleIntelLpssUARTv0 {
 public: // (access info unavailable from symbols alone)
     AppleIntelLpssUARTv0();
     AppleIntelLpssUARTv0(OSMetaClass const*);
-    getMetaClass() const;
-    hwGetMaxBaud();
-    hwResetUART();
-    setMasterClockForBaudRate(unsigned int);
+    auto getMetaClass() const;
+    auto hwGetMaxBaud();
+    auto hwResetUART();
+    auto setMasterClockForBaudRate(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleIntelLpssUARTv0();
 };

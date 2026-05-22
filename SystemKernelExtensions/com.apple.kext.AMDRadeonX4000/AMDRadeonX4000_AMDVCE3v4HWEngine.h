@@ -6,12 +6,14 @@ class AMDRadeonX4000_AMDVCE3v4HWEngine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDVCE3v4HWEngine();
     AMDRadeonX4000_AMDVCE3v4HWEngine(OSMetaClass const*);
-    allocateHWChannels();
-    allocateHWRings();
-    dumpEngineHangState(bool);
-    free();
-    getMetaClass() const;
-    init(AMDRadeonX4000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
-    isIdle();
+    auto allocateHWChannels();
+    auto allocateHWRings();
+    auto dumpEngineHangState(bool);
+    auto free();
+    auto getMetaClass() const;
+    auto init(AMDRadeonX4000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    auto isIdle();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDVCE3v4HWEngine();
 };

@@ -4,9 +4,9 @@
 
 class AppleTDMEffaceableNORDriver {
 public: // (access info unavailable from symbols alone)
-    DoEffaceableErase(unsigned int, unsigned long long, unsigned long long);
-    DoEffaceableRead(IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long);
-    DoEffaceableWrite(IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long);
-    ReportEffaceableCount();
-    ReportEffaceableSize(unsigned int);
+    auto DoEffaceableErase(unsigned int, unsigned long long, unsigned long long);
+    auto DoEffaceableRead(IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long);
+    auto DoEffaceableWrite(IOMemoryDescriptor*, unsigned int, unsigned long long, unsigned long long);
+    auto ReportEffaceableCount();
+    auto ReportEffaceableSize(unsigned int);
 };

@@ -4,5 +4,5 @@
 
 class ResolveProlog {
 public: // (access info unavailable from symbols alone)
-    Generate(depth_resolve_params_t const*);
+    auto Generate(depth_resolve_params_t const*);
 };

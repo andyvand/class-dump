@@ -5,19 +5,19 @@
 class IOAccelDisplayPipe {
 public: // (access info unavailable from symbols alone)
     IOAccelDisplayPipe(OSMetaClass const*);
-    _RESERVEDIOAccelDisplayPipe1();
-    _RESERVEDIOAccelDisplayPipe2();
-    _RESERVEDIOAccelDisplayPipe3();
-    _RESERVEDIOAccelDisplayPipe4();
-    _RESERVEDIOAccelDisplayPipe5();
-    _RESERVEDIOAccelDisplayPipe6();
-    _RESERVEDIOAccelDisplayPipe7();
-    disableTransactionInterrupt();
-    enableTransactionInterrupt();
-    getEventMachine() const;
-    performTransaction(IOAccelDisplayPipeTransaction2*);
-    signalTransactionInterrupt(void*);
-    signalVBLInterrupt(void*);
-    triage(char**, unsigned long long*);
+    auto _RESERVEDIOAccelDisplayPipe1();
+    auto _RESERVEDIOAccelDisplayPipe2();
+    auto _RESERVEDIOAccelDisplayPipe3();
+    auto _RESERVEDIOAccelDisplayPipe4();
+    auto _RESERVEDIOAccelDisplayPipe5();
+    auto _RESERVEDIOAccelDisplayPipe6();
+    auto _RESERVEDIOAccelDisplayPipe7();
+    auto disableTransactionInterrupt();
+    auto enableTransactionInterrupt();
+    auto getEventMachine() const;
+    auto performTransaction(IOAccelDisplayPipeTransaction2*);
+    auto signalTransactionInterrupt(void*);
+    auto signalVBLInterrupt(void*);
+    auto triage(char**, unsigned long long*);
     ~IOAccelDisplayPipe();
 };

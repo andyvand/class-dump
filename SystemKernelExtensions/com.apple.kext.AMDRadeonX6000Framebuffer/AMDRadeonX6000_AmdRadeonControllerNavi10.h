@@ -6,10 +6,12 @@ class AMDRadeonX6000_AmdRadeonControllerNavi10 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdRadeonControllerNavi10();
     AMDRadeonX6000_AmdRadeonControllerNavi10(OSMetaClass const*);
-    createControllerCoreServices();
-    createControllerServices();
-    free();
-    getMetaClass() const;
-    probe(IOService*, int*);
+    auto createControllerCoreServices();
+    auto createControllerServices();
+    auto free();
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdRadeonControllerNavi10();
 };

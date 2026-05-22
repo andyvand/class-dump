@@ -5,6 +5,6 @@
 class OSSharedPtr<IOSharedDataQueue> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr();
-    operator=(OSSharedPtr<IOSharedDataQueue>&&);
+    auto operator=(OSSharedPtr<IOSharedDataQueue>&&);
     ~OSSharedPtr();
 };

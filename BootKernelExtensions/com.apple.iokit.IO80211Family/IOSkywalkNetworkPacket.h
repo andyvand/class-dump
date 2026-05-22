@@ -5,21 +5,21 @@
 class IOSkywalkNetworkPacket {
 public: // (access info unavailable from symbols alone)
     IOSkywalkNetworkPacket(OSMetaClass const*);
-    getHeadroom() const;
-    getNetworkHeaderOffset(unsigned int*) const;
-    getPacketType() const;
-    getServiceClass() const;
-    getTimestamp(unsigned long long*) const;
-    getTraceID() const;
-    isLinkBroadcast() const;
-    isLinkMulticast() const;
-    isTimestampRequested() const;
-    isTransportTrafficBackground() const;
-    isTransportTrafficRealtime() const;
-    setHeadroom(unsigned char);
-    setLinkHeaderOffset(unsigned int);
-    setTraceID(unsigned int);
-    setWakeFlag();
-    traceEvent(unsigned int);
+    auto getHeadroom() const;
+    auto getNetworkHeaderOffset(unsigned int*) const;
+    auto getPacketType() const;
+    auto getServiceClass() const;
+    auto getTimestamp(unsigned long long*) const;
+    auto getTraceID() const;
+    auto isLinkBroadcast() const;
+    auto isLinkMulticast() const;
+    auto isTimestampRequested() const;
+    auto isTransportTrafficBackground() const;
+    auto isTransportTrafficRealtime() const;
+    auto setHeadroom(unsigned char);
+    auto setLinkHeaderOffset(unsigned int);
+    auto setTraceID(unsigned int);
+    auto setWakeFlag();
+    auto traceEvent(unsigned int);
     ~IOSkywalkNetworkPacket();
 };

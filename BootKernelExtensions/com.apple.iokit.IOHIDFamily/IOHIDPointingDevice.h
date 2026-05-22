@@ -6,14 +6,16 @@ class IOHIDPointingDevice {
 public: // (access info unavailable from symbols alone)
     IOHIDPointingDevice();
     IOHIDPointingDevice(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
-    handleStart(IOService*);
-    initWithLocation(unsigned int);
-    newPointingDeviceAndStart(IOService*, unsigned char, unsigned int, bool, unsigned int);
-    newProductString() const;
-    newReportDescriptor(IOMemoryDescriptor**) const;
-    postMouseEvent(unsigned char, unsigned short, unsigned short, unsigned char);
+    auto free();
+    auto getMetaClass() const;
+    auto getReport(IOMemoryDescriptor*, IOHIDReportType, unsigned int);
+    auto handleStart(IOService*);
+    auto initWithLocation(unsigned int);
+    auto newPointingDeviceAndStart(IOService*, unsigned char, unsigned int, bool, unsigned int);
+    auto newProductString() const;
+    auto newReportDescriptor(IOMemoryDescriptor**) const;
+    auto postMouseEvent(unsigned char, unsigned short, unsigned short, unsigned char);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDPointingDevice();
 };

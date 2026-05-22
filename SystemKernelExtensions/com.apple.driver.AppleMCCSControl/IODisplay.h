@@ -4,8 +4,8 @@
 
 class IODisplay {
 public: // (access info unavailable from symbols alone)
-    addParameter(OSDictionary*, OSSymbol const*, int, int);
-    getIntegerRange(OSDictionary*, OSSymbol const*, int*, int*, int*);
-    recordGTraceToken(unsigned short, unsigned short, unsigned char, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long);
-    setParameter(OSDictionary*, OSSymbol const*, int);
+    auto addParameter(OSDictionary*, OSSymbol const*, int, int);
+    auto getIntegerRange(OSDictionary*, OSSymbol const*, int*, int*, int*);
+    auto recordGTraceToken(unsigned short, unsigned short, unsigned char, unsigned short, unsigned long long, unsigned short, unsigned long long, unsigned short, unsigned long long);
+    auto setParameter(OSDictionary*, OSSymbol const*, int);
 };

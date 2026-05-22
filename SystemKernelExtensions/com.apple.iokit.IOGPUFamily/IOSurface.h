@@ -4,25 +4,25 @@
 
 class IOSurface {
 public: // (access info unavailable from symbols alone)
-    clientRetain();
-    copyValue(char const*, unsigned int*) const;
-    createFence(unsigned int, unsigned int);
-    deviceCacheForAccelerator(void*, unsigned int, unsigned int);
-    getAllocSize() const;
-    getClientAlignedOffset() const;
-    getHeight() const;
-    getLockSeed() const;
-    getMemoryDescriptor() const;
-    getPixelFormat() const;
-    getPlaneCount() const;
-    getPlaneOffset(unsigned int) const;
-    getProtectionOptions() const;
-    getSurfaceID() const;
-    getUnlockSeed() const;
-    getWidth() const;
-    isGPUGlobalRO() const;
-    setIsAllocated(bool);
-    setLayoutFromDescriptor(IOSurfaceDescriptor const*);
-    setMemoryDescriptor(IOMemoryDescriptor*);
-    setValue(char const*, OSMetaClassBase const*, unsigned int*);
+    auto clientRetain();
+    auto copyValue(char const*, unsigned int*) const;
+    auto createFence(unsigned int, unsigned int);
+    auto deviceCacheForAccelerator(void*, unsigned int, unsigned int);
+    auto getAllocSize() const;
+    auto getClientAlignedOffset() const;
+    auto getHeight() const;
+    auto getLockSeed() const;
+    auto getMemoryDescriptor() const;
+    auto getPixelFormat() const;
+    auto getPlaneCount() const;
+    auto getPlaneOffset(unsigned int) const;
+    auto getProtectionOptions() const;
+    auto getSurfaceID() const;
+    auto getUnlockSeed() const;
+    auto getWidth() const;
+    auto isGPUGlobalRO() const;
+    auto setIsAllocated(bool);
+    auto setLayoutFromDescriptor(IOSurfaceDescriptor const*);
+    auto setMemoryDescriptor(IOMemoryDescriptor*);
+    auto setValue(char const*, OSMetaClassBase const*, unsigned int*);
 };

@@ -6,14 +6,10 @@
 
 AppleSkywalkAVBEthernetInterface::gMetaClass;
 AppleSkywalkAVBEthernetInterface::metaClass;
-AppleSkywalkAVBEthernetInterface::operator delete(void*, unsigned long);
-AppleSkywalkAVBEthernetInterface::operator new(unsigned long);
 AppleSkywalkAVBEthernetInterface::superClass;
 AppleSkywalkAVBEthernetInterface_ktv;
 AppleSkywalkAVBLegacyEthernet::gMetaClass;
 AppleSkywalkAVBLegacyEthernet::metaClass;
-AppleSkywalkAVBLegacyEthernet::operator delete(void*, unsigned long);
-AppleSkywalkAVBLegacyEthernet::operator new(unsigned long);
 AppleSkywalkAVBLegacyEthernet::superClass;
 AppleSkywalkAVBLegacyEthernet_ktv;
 IOSkywalkEthernetInterface::gMetaClass;

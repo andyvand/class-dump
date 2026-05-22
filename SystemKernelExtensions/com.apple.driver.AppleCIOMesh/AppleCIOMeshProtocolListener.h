@@ -6,10 +6,12 @@ class AppleCIOMeshProtocolListener {
 public: // (access info unavailable from symbols alone)
     AppleCIOMeshProtocolListener();
     AppleCIOMeshProtocolListener(OSMetaClass const*);
-    getMetaClass() const;
-    initLocalNode(IOThunderboltLocalNode*);
-    publish();
-    unpublish();
-    withLocalNode(IOThunderboltLocalNode*);
+    auto getMetaClass() const;
+    auto initLocalNode(IOThunderboltLocalNode*);
+    auto publish();
+    auto unpublish();
+    auto withLocalNode(IOThunderboltLocalNode*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleCIOMeshProtocolListener();
 };

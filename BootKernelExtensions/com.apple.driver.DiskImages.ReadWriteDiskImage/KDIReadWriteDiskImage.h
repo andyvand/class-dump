@@ -6,10 +6,12 @@ class KDIReadWriteDiskImage {
 public: // (access info unavailable from symbols alone)
     KDIReadWriteDiskImage();
     KDIReadWriteDiskImage(OSMetaClass const*);
-    _analyzeBackingStore();
-    getMetaClass() const;
-    probe(IOService*, int*);
-    readSectors(long long, long long, long long*, void*, bool);
-    writeSectors(long long, long long, long long*, void const*, bool);
+    auto _analyzeBackingStore();
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto readSectors(long long, long long, long long*, void*, bool);
+    auto writeSectors(long long, long long, long long*, void const*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~KDIReadWriteDiskImage();
 };

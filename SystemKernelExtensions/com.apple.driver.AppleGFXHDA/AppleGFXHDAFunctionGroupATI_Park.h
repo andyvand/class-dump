@@ -6,7 +6,9 @@ class AppleGFXHDAFunctionGroupATI_Park {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAFunctionGroupATI_Park();
     AppleGFXHDAFunctionGroupATI_Park(OSMetaClass const*);
-    getMetaClass() const;
-    initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*, bool);
+    auto getMetaClass() const;
+    auto initForNodeID(unsigned short, OSObject*, OSObject*, DevIdStruct*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAFunctionGroupATI_Park();
 };

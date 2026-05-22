@@ -6,12 +6,14 @@ class AppleEmbeddedBluetoothButtons {
 public: // (access info unavailable from symbols alone)
     AppleEmbeddedBluetoothButtons();
     AppleEmbeddedBluetoothButtons(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    handleInterruptReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int);
-    init(OSDictionary*);
-    start(IOService*);
-    start(IOService*)::_os_log_fmt;
-    stop(IOService*);
+    auto free();
+    auto getMetaClass() const;
+    auto handleInterruptReport(unsigned long long, IOMemoryDescriptor*, IOHIDReportType, unsigned int);
+    auto init(OSDictionary*);
+    auto start(IOService*);
+    auto start(IOService*)::_os_log_fmt;
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEmbeddedBluetoothButtons();
 };

@@ -4,11 +4,11 @@
 
 class AtiTimingsList {
 public: // (access info unavailable from symbols alone)
-    addMode(AtiDetailedTimingInformation const*);
-    getMode(int, AtiDetailedTimingInformation&) const;
-    getModeList(int*) const;
-    getTimingAt(unsigned int) const;
-    numDriverModes() const;
-    subtract(OSArray const*);
-    withCapacity(unsigned int);
+    auto addMode(AtiDetailedTimingInformation const*);
+    auto getMode(int, AtiDetailedTimingInformation&) const;
+    auto getModeList(int*) const;
+    auto getTimingAt(unsigned int) const;
+    auto numDriverModes() const;
+    auto subtract(OSArray const*);
+    auto withCapacity(unsigned int);
 };

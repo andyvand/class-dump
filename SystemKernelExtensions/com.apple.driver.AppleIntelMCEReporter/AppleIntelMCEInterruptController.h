@@ -4,17 +4,17 @@
 
 class AppleIntelMCEInterruptController {
 public: // (access info unavailable from symbols alone)
-    getInterruptHandlerAddress();
-    getInterruptType(IOService*, int, int*);
-    getInterruptType(int, int*);
-    getMetaClass() const;
-    handleInterrupt(void*, IOService*, int);
-    init(OSDictionary*);
-    start(IOService*);
-    start(IOService*)::kalloc_type_view_65;
-    start(IOService*)::kalloc_type_view_96;
-    stop(IOService*);
-    stop(IOService*)::kalloc_type_view_125;
-    vectorCanBeShared(int, IOInterruptVector*);
+    auto getInterruptHandlerAddress();
+    auto getInterruptType(IOService*, int, int*);
+    auto getInterruptType(int, int*);
+    auto getMetaClass() const;
+    auto handleInterrupt(void*, IOService*, int);
+    auto init(OSDictionary*);
+    auto start(IOService*);
+    auto start(IOService*)::kalloc_type_view_65;
+    auto start(IOService*)::kalloc_type_view_96;
+    auto stop(IOService*);
+    auto stop(IOService*)::kalloc_type_view_125;
+    auto vectorCanBeShared(int, IOInterruptVector*);
     ~AppleIntelMCEInterruptController();
 };

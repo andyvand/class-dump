@@ -4,6 +4,6 @@
 
 class OnlineDistribution {
 public: // (access info unavailable from symbols alone)
-    add_sample(long long);
-    print(char const*) const;
+    auto add_sample(long long);
+    auto print(char const*) const;
 };

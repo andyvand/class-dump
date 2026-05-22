@@ -5,20 +5,22 @@
 class IOFWCommand {
 public: // (access info unavailable from symbols alone)
     IOFWCommand(OSMetaClass const*);
-    _RESERVEDIOFWCommand1();
-    cancel(int);
-    checkProgress();
-    complete(int);
-    free();
-    free()::kalloc_type_view_93;
-    getMetaClass() const;
-    initWithController(IOFireWireController*);
-    initWithController(IOFireWireController*)::kalloc_type_view_68;
-    insertAfter(IOFWCommand&);
-    removeFromQ();
-    setHead(IOFWCmdQ&);
-    startExecution();
-    submit(bool);
-    updateTimer();
+    auto _RESERVEDIOFWCommand1();
+    auto cancel(int);
+    auto checkProgress();
+    auto complete(int);
+    auto free();
+    auto free()::kalloc_type_view_93;
+    auto getMetaClass() const;
+    auto initWithController(IOFireWireController*);
+    auto initWithController(IOFireWireController*)::kalloc_type_view_68;
+    auto insertAfter(IOFWCommand&);
+    auto removeFromQ();
+    auto setHead(IOFWCmdQ&);
+    auto startExecution();
+    auto submit(bool);
+    auto updateTimer();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWCommand();
 };

@@ -5,7 +5,9 @@
 class AtiBlankCrtcInterface_V2 {
 public: // (access info unavailable from symbols alone)
     AtiBlankCrtcInterface_V2(OSMetaClass const*);
-    createBlankCrtc(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createBlankCrtc(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiBlankCrtcInterface_V2();
 };

@@ -4,6 +4,6 @@
 
 class AppleThunderboltDPPathManagerOS {
 public: // (access info unavailable from symbols alone)
-    setDPPort(IOThunderboltPort*, AppleThunderboltDPPathManagerOS::DPPortStruct*);
-    withController(IOThunderboltController*);
+    auto setDPPort(IOThunderboltPort*, AppleThunderboltDPPathManagerOS::DPPortStruct*);
+    auto withController(IOThunderboltController*);
 };

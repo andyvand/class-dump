@@ -4,7 +4,7 @@
 
 class vector<pv_full_info> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
-    resize(unsigned long, pv_full_info const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, pv_full_info const&);
     ~vector();
 };

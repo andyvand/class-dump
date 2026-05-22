@@ -6,14 +6,16 @@ class CommonFsmManager {
 public: // (access info unavailable from symbols alone)
     CommonFsmManager();
     CommonFsmManager(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_37;
-    getMetaClass() const;
-    getState();
-    initWithOptions(CommonFsmManagerOptions&);
-    initWithOptions(CommonFsmManagerOptions&)::kalloc_type_view_49;
-    logTransition(char const*, char const*, char const*, char const*, unsigned int, unsigned int);
-    processEvent(unsigned char, void*);
-    validateFsmConfig();
+    auto free();
+    auto free()::kalloc_type_view_37;
+    auto getMetaClass() const;
+    auto getState();
+    auto initWithOptions(CommonFsmManagerOptions&);
+    auto initWithOptions(CommonFsmManagerOptions&)::kalloc_type_view_49;
+    auto logTransition(char const*, char const*, char const*, char const*, unsigned int, unsigned int);
+    auto processEvent(unsigned char, void*);
+    auto validateFsmConfig();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~CommonFsmManager();
 };

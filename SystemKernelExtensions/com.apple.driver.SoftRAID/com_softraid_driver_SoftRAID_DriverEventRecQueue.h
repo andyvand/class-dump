@@ -4,14 +4,16 @@
 
 class com_softraid_driver_SoftRAID_DriverEventRecQueue {
 public: // (access info unavailable from symbols alone)
-    AddEventRecToQueue(DriverEventRec*);
-    NumberEventRecsInQueue();
-    RemoveEventRecFromQueue(DriverEventRec*);
-    RemoveNextEventRecFromQueue();
-    ReturnEventRecAtIndex(unsigned int);
+    auto AddEventRecToQueue(DriverEventRec*);
+    auto NumberEventRecsInQueue();
+    auto RemoveEventRecFromQueue(DriverEventRec*);
+    auto RemoveNextEventRecFromQueue();
+    auto ReturnEventRecAtIndex(unsigned int);
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_DriverEventRecQueue();
     com_softraid_driver_SoftRAID_DriverEventRecQueue(OSMetaClass const*);
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_DriverEventRecQueue();
 };

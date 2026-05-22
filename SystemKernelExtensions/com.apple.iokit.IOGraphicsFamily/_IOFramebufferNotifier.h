@@ -6,10 +6,12 @@ class _IOFramebufferNotifier {
 public: // (access info unavailable from symbols alone)
     _IOFramebufferNotifier();
     _IOFramebufferNotifier(OSMetaClass const*);
-    disable();
-    enable(bool);
-    getMetaClass() const;
-    init(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*, int, unsigned int, int);
-    remove();
+    auto disable();
+    auto enable(bool);
+    auto getMetaClass() const;
+    auto init(int (*)(OSObject*, void*, IOFramebuffer*, int, void*), OSObject*, void*, int, unsigned int, int);
+    auto remove();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~_IOFramebufferNotifier();
 };

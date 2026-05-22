@@ -4,5 +4,5 @@
 
 class IO80211TimerSource {
 public: // (access info unavailable from symbols alone)
-    allocWithParams(OSObject*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
+    auto allocWithParams(OSObject*, IO80211WorkQueue*, void (*)(OSObject*, IO80211TimerSource*));
 };

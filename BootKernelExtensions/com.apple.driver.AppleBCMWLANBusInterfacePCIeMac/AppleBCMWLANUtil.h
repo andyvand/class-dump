@@ -4,14 +4,14 @@
 
 class AppleBCMWLANUtil {
 public: // (access info unavailable from symbols alone)
-    accessAppleOLYHAL()::appleOLYHAL;
-    accessAppleOLYHAL()::appleOLYHALService;
-    appendParsedKeyValuePairsToDictionary(OSDictionary*, OSString const*, unsigned int);
-    copyDTParameterString(IOService*, char const*, char const*, OSString*);
-    doesDictionaryKeyContainString(OSDictionary*, char const*, char const*, unsigned long);
-    doesDictionaryKeyEqualString(OSDictionary*, char const*, char const*, unsigned long);
-    getHwFeatureFlags(IOService*, char const*);
-    isPTPPacket(AppleBCMWLANPCIeSkywalkPacket*, bool, unsigned char*, unsigned char**, unsigned char**, unsigned char*, unsigned short*);
-    releaseOSObjectArray(OSString const**, OSObject const**, unsigned int);
-    removeReporterFromLegend(IOService*, IOReporter*, char const*, char const*);
+    auto accessAppleOLYHAL()::appleOLYHAL;
+    auto accessAppleOLYHAL()::appleOLYHALService;
+    auto appendParsedKeyValuePairsToDictionary(OSDictionary*, OSString const*, unsigned int);
+    auto copyDTParameterString(IOService*, char const*, char const*, OSString*);
+    auto doesDictionaryKeyContainString(OSDictionary*, char const*, char const*, unsigned long);
+    auto doesDictionaryKeyEqualString(OSDictionary*, char const*, char const*, unsigned long);
+    auto getHwFeatureFlags(IOService*, char const*);
+    auto isPTPPacket(AppleBCMWLANPCIeSkywalkPacket*, bool, unsigned char*, unsigned char**, unsigned char**, unsigned char*, unsigned short*);
+    auto releaseOSObjectArray(OSString const**, OSObject const**, unsigned int);
+    auto removeReporterFromLegend(IOService*, IOReporter*, char const*, char const*);
 };

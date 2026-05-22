@@ -4,5 +4,5 @@
 
 class AppleIntelI2CCommand {
 public: // (access info unavailable from symbols alone)
-    withDevice(AppleIntelI2CDevice*);
+    auto withDevice(AppleIntelI2CDevice*);
 };

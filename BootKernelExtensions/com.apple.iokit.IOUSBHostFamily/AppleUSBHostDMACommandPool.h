@@ -6,11 +6,13 @@ class AppleUSBHostDMACommandPool {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostDMACommandPool();
     AppleUSBHostDMACommandPool(OSMetaClass const*);
-    free();
-    getCommand(unsigned int, unsigned int);
-    getMetaClass() const;
-    initWithSpecification(IOWorkLoop*, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned int, unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, unsigned int, IOMapper*);
-    returnCommand(IODMACommand*);
-    withSpecification(IOWorkLoop*, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned int, unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, unsigned int, IOMapper*);
+    auto free();
+    auto getCommand(unsigned int, unsigned int);
+    auto getMetaClass() const;
+    auto initWithSpecification(IOWorkLoop*, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned int, unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, unsigned int, IOMapper*);
+    auto returnCommand(IODMACommand*);
+    auto withSpecification(IOWorkLoop*, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned int, unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, unsigned int, IOMapper*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostDMACommandPool();
 };

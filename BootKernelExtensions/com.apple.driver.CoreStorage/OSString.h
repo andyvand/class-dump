@@ -5,6 +5,7 @@
 class OSString {
 public: // (access info unavailable from symbols alone)
     OSString();
-    withCString(char const*);
-    withCStringNoCopy(char const*);
+    auto withCString(char const*);
+    auto withCStringNoCopy(char const*);
+    void * operator new(unsigned long);
 };

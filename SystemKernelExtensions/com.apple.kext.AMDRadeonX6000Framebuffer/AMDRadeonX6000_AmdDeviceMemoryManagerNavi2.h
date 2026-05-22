@@ -6,8 +6,10 @@ class AMDRadeonX6000_AmdDeviceMemoryManagerNavi2 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdDeviceMemoryManagerNavi2();
     AMDRadeonX6000_AmdDeviceMemoryManagerNavi2(OSMetaClass const*);
-    createDeviceMemoryManager(PciBARMapping const*, AMDRadeonX6000_IAmdRadeonController*);
-    getMetaClass() const;
-    intializeReservedVram();
+    auto createDeviceMemoryManager(PciBARMapping const*, AMDRadeonX6000_IAmdRadeonController*);
+    auto getMetaClass() const;
+    auto intializeReservedVram();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdDeviceMemoryManagerNavi2();
 };

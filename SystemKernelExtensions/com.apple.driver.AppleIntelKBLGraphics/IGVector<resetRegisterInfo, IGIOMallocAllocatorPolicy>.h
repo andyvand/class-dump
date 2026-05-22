@@ -4,6 +4,6 @@
 
 class IGVector<resetRegisterInfo, IGIOMallocAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
-    grow(unsigned long);
+    auto grow(unsigned long);
     ~IGVector();
 };

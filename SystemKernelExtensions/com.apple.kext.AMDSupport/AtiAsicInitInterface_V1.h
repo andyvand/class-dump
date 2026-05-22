@@ -5,7 +5,9 @@
 class AtiAsicInitInterface_V1 {
 public: // (access info unavailable from symbols alone)
     AtiAsicInitInterface_V1(OSMetaClass const*);
-    createAsicInit(AtiVBiosHelper*);
-    getMetaClass() const;
+    auto createAsicInit(AtiVBiosHelper*);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiAsicInitInterface_V1();
 };

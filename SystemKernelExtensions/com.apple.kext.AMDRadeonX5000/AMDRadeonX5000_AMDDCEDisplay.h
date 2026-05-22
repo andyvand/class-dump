@@ -5,11 +5,13 @@
 class AMDRadeonX5000_AMDDCEDisplay {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDDCEDisplay(OSMetaClass const*);
-    getMetaClass() const;
-    init(AMDRadeonX5000_IAMDHWInterface*, _FB_PARAMETERS*);
-    initializeRegisters();
-    isDisplayControlEnabled(unsigned int);
-    isDisplayInterlaceEnabled(unsigned int);
-    restoreRegisters(unsigned int, unsigned long long);
+    auto getMetaClass() const;
+    auto init(AMDRadeonX5000_IAMDHWInterface*, _FB_PARAMETERS*);
+    auto initializeRegisters();
+    auto isDisplayControlEnabled(unsigned int);
+    auto isDisplayInterlaceEnabled(unsigned int);
+    auto restoreRegisters(unsigned int, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDDCEDisplay();
 };

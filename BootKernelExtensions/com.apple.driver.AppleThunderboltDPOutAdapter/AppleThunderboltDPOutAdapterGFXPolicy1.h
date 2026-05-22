@@ -6,15 +6,17 @@ class AppleThunderboltDPOutAdapterGFXPolicy1 {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltDPOutAdapterGFXPolicy1();
     AppleThunderboltDPOutAdapterGFXPolicy1(OSMetaClass const*);
-    cleanup();
-    findACPIDevice(IOService*);
-    gatherMuxInfo();
-    getDPOutMuxValue(bool*);
-    getMetaClass() const;
-    hasDPOutMux(IOService*);
-    pollForHPDPropagationInternal();
-    probe(IOService*, int*);
-    setDPOutMuxValue(bool);
-    setup(IOService*);
+    auto cleanup();
+    auto findACPIDevice(IOService*);
+    auto gatherMuxInfo();
+    auto getDPOutMuxValue(bool*);
+    auto getMetaClass() const;
+    auto hasDPOutMux(IOService*);
+    auto pollForHPDPropagationInternal();
+    auto probe(IOService*, int*);
+    auto setDPOutMuxValue(bool);
+    auto setup(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltDPOutAdapterGFXPolicy1();
 };

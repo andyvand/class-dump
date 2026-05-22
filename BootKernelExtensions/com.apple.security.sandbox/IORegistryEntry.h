@@ -4,5 +4,5 @@
 
 class IORegistryEntry {
 public: // (access info unavailable from symbols alone)
-    fromPath(char const*, IORegistryPlane const*, char*, int*, IORegistryEntry*);
+    auto fromPath(char const*, IORegistryPlane const*, char*, int*, IORegistryEntry*);
 };

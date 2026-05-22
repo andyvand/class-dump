@@ -5,9 +5,9 @@
 class AtiFbInterruptManager {
 public: // (access info unavailable from symbols alone)
     AtiFbInterruptManager(OSMetaClass const*);
-    acknowledgeOutstandingInterrupts();
-    initHwInterruptInfo();
-    initializePulseBasedInterrupts(bool);
-    setEnabled(bool);
+    auto acknowledgeOutstandingInterrupts();
+    auto initHwInterruptInfo();
+    auto initializePulseBasedInterrupts(bool);
+    auto setEnabled(bool);
     ~AtiFbInterruptManager();
 };

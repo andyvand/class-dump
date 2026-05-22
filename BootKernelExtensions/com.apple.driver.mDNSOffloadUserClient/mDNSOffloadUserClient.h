@@ -4,25 +4,27 @@
 
 class mDNSOffloadUserClient {
 public: // (access info unavailable from symbols alone)
-    GetKeepaliveData(sockaddr_in6*, sockaddr_in6*, unsigned int*, unsigned int*, unsigned int*);
-    GetKeepaliveData(unsigned int, unsigned short, unsigned int, unsigned short, unsigned int*, unsigned int*, unsigned int*);
-    PublishFilter(IORegistryEntry*, char const*, bool);
-    PublishForDaemon(IORegistryEntry*, bool, bool);
-    SetConfigDictionary(OSDictionary*);
-    SetConfigDictionary(char const*);
-    clientClose();
-    clientDied();
-    connectClient(IOUserClient*);
-    doRequest(void*, void*, unsigned long long, unsigned long long*);
-    doRequestGated(void*, void*, unsigned long long*, unsigned long long*);
-    free();
-    getMetaClass() const;
-    getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto GetKeepaliveData(sockaddr_in6*, sockaddr_in6*, unsigned int*, unsigned int*, unsigned int*);
+    auto GetKeepaliveData(unsigned int, unsigned short, unsigned int, unsigned short, unsigned int*, unsigned int*, unsigned int*);
+    auto PublishFilter(IORegistryEntry*, char const*, bool);
+    auto PublishForDaemon(IORegistryEntry*, bool, bool);
+    auto SetConfigDictionary(OSDictionary*);
+    auto SetConfigDictionary(char const*);
+    auto clientClose();
+    auto clientDied();
+    auto connectClient(IOUserClient*);
+    auto doRequest(void*, void*, unsigned long long, unsigned long long*);
+    auto doRequestGated(void*, void*, unsigned long long*, unsigned long long*);
+    auto free();
+    auto getMetaClass() const;
+    auto getTargetAndMethodForIndex(IOService**, unsigned int);
+    auto sleepWakeInterestHandler(void*, unsigned int, IOService*, void*, unsigned long);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto withTask(task*, __ifnet*, int (*)(OSObject*, mDNSOffloadUserClient*, mDNSHandoff*, void*), int (*)(OSObject*, mDNSOffloadUserClient*, unsigned long long, unsigned long long, void*), void*);
     mDNSOffloadUserClient();
     mDNSOffloadUserClient(OSMetaClass const*);
-    sleepWakeInterestHandler(void*, unsigned int, IOService*, void*, unsigned long);
-    start(IOService*);
-    stop(IOService*);
-    withTask(task*, __ifnet*, int (*)(OSObject*, mDNSOffloadUserClient*, mDNSHandoff*, void*), int (*)(OSObject*, mDNSOffloadUserClient*, unsigned long long, unsigned long long, void*), void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~mDNSOffloadUserClient();
 };

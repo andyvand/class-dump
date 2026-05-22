@@ -6,14 +6,16 @@ class AppleGFXHDAStream {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAStream();
     AppleGFXHDAStream(OSMetaClass const*);
-    clipOutputSamples(unsigned int, unsigned int);
-    free();
-    getMetaClass() const;
-    initWithAudioEngine(IOAudioEngine*, _IOAudioStreamDirection, unsigned int, char const*, OSDictionary*);
-    processOutputSamples(IOAudioClientBuffer*, unsigned int, unsigned int, bool);
-    setFormat(_IOAudioStreamFormat const*, _IOAudioStreamFormatExtension const*, OSDictionary*, bool);
-    setFormat(_IOAudioStreamFormat const*, bool);
-    stop(IOService*);
-    tagThisStreamForTapping(unsigned int);
+    auto clipOutputSamples(unsigned int, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithAudioEngine(IOAudioEngine*, _IOAudioStreamDirection, unsigned int, char const*, OSDictionary*);
+    auto processOutputSamples(IOAudioClientBuffer*, unsigned int, unsigned int, bool);
+    auto setFormat(_IOAudioStreamFormat const*, _IOAudioStreamFormatExtension const*, OSDictionary*, bool);
+    auto setFormat(_IOAudioStreamFormat const*, bool);
+    auto stop(IOService*);
+    auto tagThisStreamForTapping(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAStream();
 };

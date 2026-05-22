@@ -5,15 +5,17 @@
 class AMDRadeonX4000_AMDPM4HWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDPM4HWChannel(OSMetaClass const*);
-    allocateMemoryResources();
-    free();
-    getMetaClass() const;
-    getOneDwordNOPCommand();
-    gfxResetWithEOP(CailHwEngineQueue*);
-    infiniteWaitOnPowerUp();
-    init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
-    performClearState();
-    prepareAndFlushResetEOPFence();
-    submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto allocateMemoryResources();
+    auto free();
+    auto getMetaClass() const;
+    auto getOneDwordNOPCommand();
+    auto gfxResetWithEOP(CailHwEngineQueue*);
+    auto infiniteWaitOnPowerUp();
+    auto init(int, AMDRadeonX4000_IAMDHWInterface*, AMDRadeonX4000_IAMDHWEngine*, AMDRadeonX4000_IAMDHWRing*, char const*);
+    auto performClearState();
+    auto prepareAndFlushResetEOPFence();
+    auto submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDPM4HWChannel();
 };

@@ -6,15 +6,17 @@ class AppleEthernetRLKDPPoller {
 public: // (access info unavailable from symbols alone)
     AppleEthernetRLKDPPoller();
     AppleEthernetRLKDPPoller(OSMetaClass const*);
-    acquireInterface(AppleEthernetRL*);
-    close(unsigned int);
-    disablePolling(unsigned int);
-    enablePolling(unsigned int);
-    getLinkStatus(unsigned int*);
-    getMetaClass() const;
-    open(unsigned int);
-    receivePacket(void*, unsigned int, unsigned int*);
-    releaseInterface(AppleEthernetRL*);
-    sendPacket(void const*, unsigned int);
+    auto acquireInterface(AppleEthernetRL*);
+    auto close(unsigned int);
+    auto disablePolling(unsigned int);
+    auto enablePolling(unsigned int);
+    auto getLinkStatus(unsigned int*);
+    auto getMetaClass() const;
+    auto open(unsigned int);
+    auto receivePacket(void*, unsigned int, unsigned int*);
+    auto releaseInterface(AppleEthernetRL*);
+    auto sendPacket(void const*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEthernetRLKDPPoller();
 };

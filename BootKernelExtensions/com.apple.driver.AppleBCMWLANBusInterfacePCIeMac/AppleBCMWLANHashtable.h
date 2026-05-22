@@ -4,25 +4,25 @@
 
 class AppleBCMWLANHashtable {
 public: // (access info unavailable from symbols alone)
-    add(OSObject*, short&);
-    ensureCapacity(unsigned int);
-    flush(OSObject*, void (*)(OSObject*, short, OSObject*, void*), void*);
-    flushCollection();
-    free();
-    free()::kalloc_type_view_142;
-    free()::kalloc_type_view_146;
-    getCapacity() const;
-    getCapacityIncrement() const;
-    getCount() const;
-    getMetaClass() const;
-    getNextObjectForIterator(void*, OSObject**) const;
-    initIterator(void*) const;
-    initWithCapacity(unsigned int);
-    initWithCapacity(unsigned int)::kalloc_type_view_114;
-    initWithCapacity(unsigned int)::kalloc_type_view_85;
-    iteratorSize() const;
-    remove(short);
-    setCapacityIncrement(unsigned int);
-    withCapacity(unsigned int);
+    auto add(OSObject*, short&);
+    auto ensureCapacity(unsigned int);
+    auto flush(OSObject*, void (*)(OSObject*, short, OSObject*, void*), void*);
+    auto flushCollection();
+    auto free();
+    auto free()::kalloc_type_view_142;
+    auto free()::kalloc_type_view_146;
+    auto getCapacity() const;
+    auto getCapacityIncrement() const;
+    auto getCount() const;
+    auto getMetaClass() const;
+    auto getNextObjectForIterator(void*, OSObject**) const;
+    auto initIterator(void*) const;
+    auto initWithCapacity(unsigned int);
+    auto initWithCapacity(unsigned int)::kalloc_type_view_114;
+    auto initWithCapacity(unsigned int)::kalloc_type_view_85;
+    auto iteratorSize() const;
+    auto remove(short);
+    auto setCapacityIncrement(unsigned int);
+    auto withCapacity(unsigned int);
     ~AppleBCMWLANHashtable();
 };

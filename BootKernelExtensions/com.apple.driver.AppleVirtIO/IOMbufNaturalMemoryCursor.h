@@ -4,6 +4,6 @@
 
 class IOMbufNaturalMemoryCursor {
 public: // (access info unavailable from symbols alone)
-    getPhysicalSegmentsWithCoalesce(__mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned int);
-    withSpecification(unsigned int, unsigned int);
+    auto getPhysicalSegmentsWithCoalesce(__mbuf*, IOMemoryCursor::PhysicalSegment*, unsigned int);
+    auto withSpecification(unsigned int, unsigned int);
 };

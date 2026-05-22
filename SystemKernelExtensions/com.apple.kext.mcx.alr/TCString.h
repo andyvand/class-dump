@@ -4,25 +4,25 @@
 
 class TCString {
 public: // (access info unavailable from symbols alone)
-    Append(char const*);
-    Append(char const*) (.cold.1);
-    Append(char const*) (.cold.2);
-    Append(char);
-    Assign(TCString const*);
-    Assign(char const*);
-    AssignFromPtr(void const*, unsigned int);
-    AssignFromPtr(void const*, unsigned int) (.cold.1);
-    Clear();
-    Insert(char const*, unsigned int);
-    Insert(char const*, unsigned int) (.cold.1);
-    Insert(char const*, unsigned int) (.cold.2);
-    SetChar(unsigned int, char);
     TCString();
     TCString(TCString const&);
     TCString(char const*);
-    Trim();
-    _vAssign(char const*, __va_list_tag (*) [1]);
-    vAppend(char const*, ...);
-    vAssign(char const*, ...);
+    auto Append(char const*);
+    auto Append(char const*) (.cold.1);
+    auto Append(char const*) (.cold.2);
+    auto Append(char);
+    auto Assign(TCString const*);
+    auto Assign(char const*);
+    auto AssignFromPtr(void const*, unsigned int);
+    auto AssignFromPtr(void const*, unsigned int) (.cold.1);
+    auto Clear();
+    auto Insert(char const*, unsigned int);
+    auto Insert(char const*, unsigned int) (.cold.1);
+    auto Insert(char const*, unsigned int) (.cold.2);
+    auto SetChar(unsigned int, char);
+    auto Trim();
+    auto _vAssign(char const*, __va_list_tag (*) [1]);
+    auto vAppend(char const*, ...);
+    auto vAssign(char const*, ...);
     ~TCString();
 };

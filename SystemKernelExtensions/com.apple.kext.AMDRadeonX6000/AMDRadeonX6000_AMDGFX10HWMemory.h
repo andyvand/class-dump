@@ -6,9 +6,11 @@ class AMDRadeonX6000_AMDGFX10HWMemory {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDGFX10HWMemory();
     AMDRadeonX6000_AMDGFX10HWMemory(OSMetaClass const*);
-    complete(AMDRadeonX6000_AMDAccelResource*);
-    getMetaClass() const;
-    prepare(AMDRadeonX6000_AMDAccelResource*, unsigned long long, unsigned long long, unsigned long long*);
-    programOrClearHDPRegisters(unsigned char, unsigned long long, unsigned long long, unsigned long long, bool);
+    auto complete(AMDRadeonX6000_AMDAccelResource*);
+    auto getMetaClass() const;
+    auto prepare(AMDRadeonX6000_AMDAccelResource*, unsigned long long, unsigned long long, unsigned long long*);
+    auto programOrClearHDPRegisters(unsigned char, unsigned long long, unsigned long long, unsigned long long, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDGFX10HWMemory();
 };

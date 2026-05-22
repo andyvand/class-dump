@@ -4,5 +4,5 @@
 
 class IONetworkInterface {
 public: // (access info unavailable from symbols alone)
-    configureClientBehavior(unsigned int);
+    auto configureClientBehavior(unsigned int);
 };

@@ -4,16 +4,16 @@
 
 class IOPCIDevice {
 public: // (access info unavailable from symbols alone)
-    configRead16(unsigned long long);
-    configRead32(unsigned long long);
-    configRead8(unsigned long long);
-    configWrite16(unsigned long long, unsigned short);
-    configWrite32(unsigned long long, unsigned int);
-    configWrite8(unsigned long long, unsigned char);
-    extendedConfigRead16(unsigned long long);
-    extendedConfigRead32(unsigned long long);
-    extendedConfigRead8(unsigned long long);
-    extendedConfigWrite16(unsigned long long, unsigned short);
-    extendedConfigWrite32(unsigned long long, unsigned int);
-    extendedConfigWrite8(unsigned long long, unsigned char);
+    auto configRead16(unsigned long long);
+    auto configRead32(unsigned long long);
+    auto configRead8(unsigned long long);
+    auto configWrite16(unsigned long long, unsigned short);
+    auto configWrite32(unsigned long long, unsigned int);
+    auto configWrite8(unsigned long long, unsigned char);
+    auto extendedConfigRead16(unsigned long long);
+    auto extendedConfigRead32(unsigned long long);
+    auto extendedConfigRead8(unsigned long long);
+    auto extendedConfigWrite16(unsigned long long, unsigned short);
+    auto extendedConfigWrite32(unsigned long long, unsigned int);
+    auto extendedConfigWrite8(unsigned long long, unsigned char);
 };

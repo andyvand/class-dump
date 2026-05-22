@@ -6,11 +6,13 @@ class AppleEthernetAquantiaAqtionNICTester {
 public: // (access info unavailable from symbols alone)
     AppleEthernetAquantiaAqtionNICTester();
     AppleEthernetAquantiaAqtionNICTester(OSMetaClass const*);
-    getMetaClass() const;
-    lockPCIeCounterAccess();
-    pcieCounter();
-    start(IOService*);
-    stop(IOService*);
-    unlockPCIeCounterAccess();
+    auto getMetaClass() const;
+    auto lockPCIeCounterAccess();
+    auto pcieCounter();
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto unlockPCIeCounterAccess();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleEthernetAquantiaAqtionNICTester();
 };

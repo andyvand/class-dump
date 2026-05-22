@@ -4,20 +4,22 @@
 
 class IOHIDevice {
 public: // (access info unavailable from symbols alone)
-    GenerateKey(OSObject*);
     IOHIDevice();
     IOHIDevice(OSMetaClass const*);
-    deviceType();
-    free();
-    getGUID();
-    getMetaClass() const;
-    hidKind();
-    init(OSDictionary*);
-    interfaceID();
-    open(IOService*, unsigned int, void*);
-    setParamProperties(OSDictionary*);
-    setProperties(OSObject*);
-    start(IOService*);
-    updateProperties();
+    auto GenerateKey(OSObject*);
+    auto deviceType();
+    auto free();
+    auto getGUID();
+    auto getMetaClass() const;
+    auto hidKind();
+    auto init(OSDictionary*);
+    auto interfaceID();
+    auto open(IOService*, unsigned int, void*);
+    auto setParamProperties(OSDictionary*);
+    auto setProperties(OSObject*);
+    auto start(IOService*);
+    auto updateProperties();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDevice();
 };

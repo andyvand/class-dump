@@ -5,4 +5,5 @@
 class AtiMccsInterrupt {
 public: // (access info unavailable from symbols alone)
     AtiMccsInterrupt();
+    void * operator new(unsigned long);
 };

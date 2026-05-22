@@ -6,7 +6,9 @@ class IOPlatformPluginDevice {
 public: // (access info unavailable from symbols alone)
     IOPlatformPluginDevice();
     IOPlatformPluginDevice(OSMetaClass const*);
-    compareName(OSString*, OSString**) const;
-    getMetaClass() const;
+    auto compareName(OSString*, OSString**) const;
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPlatformPluginDevice();
 };

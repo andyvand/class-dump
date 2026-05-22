@@ -6,15 +6,17 @@ class IOBufferCopyEngineUserClientState {
 public: // (access info unavailable from symbols alone)
     IOBufferCopyEngineUserClientState();
     IOBufferCopyEngineUserClientState(OSMetaClass const*);
-    asyncCleanupThunk(void*, void*);
-    cleanup();
-    cleanup() (.cold.1);
-    doAsyncCleanup();
-    free();
-    getMetaClass() const;
-    initWithWorkloop(IOWorkLoop*);
-    queueForName(OSSymbol const*) const;
-    submissionCompleted(IOBufferCopySubmissionQueue*);
-    withWorkLoop(IOWorkLoop*);
+    auto asyncCleanupThunk(void*, void*);
+    auto cleanup();
+    auto cleanup() (.cold.1);
+    auto doAsyncCleanup();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithWorkloop(IOWorkLoop*);
+    auto queueForName(OSSymbol const*) const;
+    auto submissionCompleted(IOBufferCopySubmissionQueue*);
+    auto withWorkLoop(IOWorkLoop*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOBufferCopyEngineUserClientState();
 };

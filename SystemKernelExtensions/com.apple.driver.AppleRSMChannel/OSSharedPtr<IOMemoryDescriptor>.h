@@ -5,7 +5,7 @@
 class OSSharedPtr<IOMemoryDescriptor> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr(std::nullptr_t);
-    OSSharedPtr<IOBufferMemoryDescriptor, void>(libkern::intrusive_shared_ptr<IOBufferMemoryDescriptor, intrusive_osobject_retainer> const&);
-    operator=(OSSharedPtr<IOMemoryDescriptor>&&);
+    auto OSSharedPtr<IOBufferMemoryDescriptor, void>(libkern::intrusive_shared_ptr<IOBufferMemoryDescriptor, intrusive_osobject_retainer> const&);
+    auto operator=(OSSharedPtr<IOMemoryDescriptor>&&);
     ~OSSharedPtr();
 };

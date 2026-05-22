@@ -6,11 +6,11 @@ class ReadFileWrapper {
 public: // (access info unavailable from symbols alone)
     ReadFileWrapper();
     ReadFileWrapper(char const*);
-    fileSize(bool);
-    fileSize(bool)::kalloc_type_view_113;
-    fileSize(bool)::kalloc_type_view_92;
-    open(char const*);
-    readBytes(long long, int, void*, unsigned long, unsigned long*);
-    readFile(void*, unsigned long, unsigned long*);
+    auto fileSize(bool);
+    auto fileSize(bool)::kalloc_type_view_113;
+    auto fileSize(bool)::kalloc_type_view_92;
+    auto open(char const*);
+    auto readBytes(long long, int, void*, unsigned long, unsigned long*);
+    auto readFile(void*, unsigned long, unsigned long*);
     ~ReadFileWrapper();
 };

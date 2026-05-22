@@ -6,8 +6,6 @@
 
 AppleBluetoothHIDMouse::gMetaClass;
 AppleBluetoothHIDMouse::metaClass;
-AppleBluetoothHIDMouse::operator delete(void*, unsigned long);
-AppleBluetoothHIDMouse::operator new(unsigned long);
 AppleBluetoothHIDMouse::superClass;
 AppleBluetoothHIDMouse_ktv;
 IOAppleBluetoothHIDDriver::gMetaClass;

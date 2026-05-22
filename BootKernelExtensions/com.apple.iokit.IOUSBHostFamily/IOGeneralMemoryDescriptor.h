@@ -4,14 +4,14 @@
 
 class IOGeneralMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    complete(unsigned int);
-    dmaCommandOperation(unsigned int, void*, unsigned int) const;
-    doMap(_vm_map*, unsigned long long*, unsigned int, unsigned long long, unsigned long long);
-    doUnmap(_vm_map*, unsigned long long, unsigned long long);
-    getPreparationID();
-    initWithOptions(void*, unsigned int, unsigned int, task*, unsigned int, IOMapper*);
-    makeMapping(IOMemoryDescriptor*, task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
-    prepare(unsigned int);
-    serialize(OSSerialize*) const;
-    setPurgeable(unsigned int, unsigned int*);
+    auto complete(unsigned int);
+    auto dmaCommandOperation(unsigned int, void*, unsigned int) const;
+    auto doMap(_vm_map*, unsigned long long*, unsigned int, unsigned long long, unsigned long long);
+    auto doUnmap(_vm_map*, unsigned long long, unsigned long long);
+    auto getPreparationID();
+    auto initWithOptions(void*, unsigned int, unsigned int, task*, unsigned int, IOMapper*);
+    auto makeMapping(IOMemoryDescriptor*, task*, unsigned long long, unsigned int, unsigned long long, unsigned long long);
+    auto prepare(unsigned int);
+    auto serialize(OSSerialize*) const;
+    auto setPurgeable(unsigned int, unsigned int*);
 };

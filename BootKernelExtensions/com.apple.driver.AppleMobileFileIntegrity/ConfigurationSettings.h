@@ -4,21 +4,21 @@
 
 class ConfigurationSettings {
 public: // (access info unavailable from symbols alone)
-    allow3rdPartyLaunchConstraints();
-    allowAppleInternal();
-    allowUnrestrictedFileSystem();
-    allowUntrustedKexts();
-    bootedWithCSM();
-    bootedWithPPL();
-    bootedWithTXM();
-    enforceConstraintCategoryType(ConstraintCategoryTypeMask_t);
-    enforceICloudEntitlementHardening();
-    enforceLaunchConstraints();
-    enforceTCCEntitlementHardening();
-    forceCustomerTLEPolicy();
-    forceDisallowLibsystemOverride();
-    jitDisabled();
-    launchEnvDebugLoggingEnabled();
-    osEnvironmentName();
-    validationCategoryLoggingEnabled();
+    auto allow3rdPartyLaunchConstraints();
+    auto allowAppleInternal();
+    auto allowUnrestrictedFileSystem();
+    auto allowUntrustedKexts();
+    auto bootedWithCSM();
+    auto bootedWithPPL();
+    auto bootedWithTXM();
+    auto enforceConstraintCategoryType(ConstraintCategoryTypeMask_t);
+    auto enforceICloudEntitlementHardening();
+    auto enforceLaunchConstraints();
+    auto enforceTCCEntitlementHardening();
+    auto forceCustomerTLEPolicy();
+    auto forceDisallowLibsystemOverride();
+    auto jitDisabled();
+    auto launchEnvDebugLoggingEnabled();
+    auto osEnvironmentName();
+    auto validationCategoryLoggingEnabled();
 };

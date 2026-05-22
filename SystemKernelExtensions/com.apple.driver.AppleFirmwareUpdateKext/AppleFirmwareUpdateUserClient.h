@@ -6,14 +6,16 @@ class AppleFirmwareUpdateUserClient {
 public: // (access info unavailable from symbols alone)
     AppleFirmwareUpdateUserClient();
     AppleFirmwareUpdateUserClient(OSMetaClass const*);
-    clientClose();
-    clientDied();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int);
-    loadFDRData(unsigned long long, unsigned long long, unsigned long long, FWSignatureType, unsigned int);
-    loadFDRDataComplete();
-    loadFW(unsigned long long, unsigned long long, FWSignatureType, unsigned int);
-    start(IOService*);
+    auto clientClose();
+    auto clientDied();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int);
+    auto loadFDRData(unsigned long long, unsigned long long, unsigned long long, FWSignatureType, unsigned int);
+    auto loadFDRDataComplete();
+    auto loadFW(unsigned long long, unsigned long long, FWSignatureType, unsigned int);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleFirmwareUpdateUserClient();
 };

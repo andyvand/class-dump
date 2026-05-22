@@ -4,18 +4,18 @@
 
 class IOStorage {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOStorage10();
-    _RESERVEDIOStorage11();
-    _RESERVEDIOStorage12();
-    _RESERVEDIOStorage13();
-    _RESERVEDIOStorage14();
-    _RESERVEDIOStorage15();
-    _RESERVEDIOStorage7();
-    _RESERVEDIOStorage8();
-    _RESERVEDIOStorage9();
-    attach(IOService*);
-    complete(IOStorageCompletion*, int, unsigned long long);
-    discard(IOService*, unsigned long long, unsigned long long);
-    open(IOService*, unsigned int, unsigned int);
-    synchronizeCache(IOService*);
+    auto _RESERVEDIOStorage10();
+    auto _RESERVEDIOStorage11();
+    auto _RESERVEDIOStorage12();
+    auto _RESERVEDIOStorage13();
+    auto _RESERVEDIOStorage14();
+    auto _RESERVEDIOStorage15();
+    auto _RESERVEDIOStorage7();
+    auto _RESERVEDIOStorage8();
+    auto _RESERVEDIOStorage9();
+    auto attach(IOService*);
+    auto complete(IOStorageCompletion*, int, unsigned long long);
+    auto discard(IOService*, unsigned long long, unsigned long long);
+    auto open(IOService*, unsigned int, unsigned int);
+    auto synchronizeCache(IOService*);
 };

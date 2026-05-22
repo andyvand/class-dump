@@ -6,14 +6,16 @@ class IOAVBValidate {
 public: // (access info unavailable from symbols alone)
     IOAVBValidate();
     IOAVBValidate(OSMetaClass const*);
-    getCrystalTimestamps(unsigned long long, unsigned long long&, unsigned long long&, unsigned long long&, unsigned long long&);
-    getMetaClass() const;
-    probe(IOService*, int*);
-    probe(IOService*, int*) (.cold.1);
-    probe(IOService*, int*) (.cold.2);
-    probe(IOService*, int*)::_os_log_fmt;
-    start(IOService*);
-    start(IOService*) (.cold.1);
-    start(IOService*)::_os_log_fmt;
+    auto getCrystalTimestamps(unsigned long long, unsigned long long&, unsigned long long&, unsigned long long&, unsigned long long&);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto probe(IOService*, int*) (.cold.1);
+    auto probe(IOService*, int*) (.cold.2);
+    auto probe(IOService*, int*)::_os_log_fmt;
+    auto start(IOService*);
+    auto start(IOService*) (.cold.1);
+    auto start(IOService*)::_os_log_fmt;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAVBValidate();
 };

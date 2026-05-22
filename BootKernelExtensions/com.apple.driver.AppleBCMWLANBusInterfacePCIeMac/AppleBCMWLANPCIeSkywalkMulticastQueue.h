@@ -4,14 +4,14 @@
 
 class AppleBCMWLANPCIeSkywalkMulticastQueue {
 public: // (access info unavailable from symbols alone)
-    checkForWork();
-    collectQueueStats(skywalkDataPathStats_t*);
-    free();
-    free()::kalloc_type_view_89;
-    getLogger() const;
-    getMetaClass() const;
-    initWithProviderAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, IO80211SkywalkInterface*, CCLogStream*, CCFaultReporter*)::kalloc_type_view_63;
-    requestDequeue();
-    withProviderAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, IO80211SkywalkInterface*, CCLogStream*, CCFaultReporter*);
+    auto checkForWork();
+    auto collectQueueStats(skywalkDataPathStats_t*);
+    auto free();
+    auto free()::kalloc_type_view_89;
+    auto getLogger() const;
+    auto getMetaClass() const;
+    auto initWithProviderAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, IO80211SkywalkInterface*, CCLogStream*, CCFaultReporter*)::kalloc_type_view_63;
+    auto requestDequeue();
+    auto withProviderAndQueueInfo(AppleBCMWLANBusInterfacePCIe*, IO80211SkywalkInterface*, CCLogStream*, CCFaultReporter*);
     ~AppleBCMWLANPCIeSkywalkMulticastQueue();
 };

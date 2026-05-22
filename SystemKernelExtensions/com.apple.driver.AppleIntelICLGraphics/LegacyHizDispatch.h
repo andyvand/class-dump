@@ -4,5 +4,5 @@
 
 class LegacyHizDispatch {
 public: // (access info unavailable from symbols alone)
-    Generate(unsigned int);
+    auto Generate(unsigned int);
 };

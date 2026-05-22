@@ -5,5 +5,5 @@
 class AMDRadeonX6000_AMDMMHub_2_0_2::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
 };

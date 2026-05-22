@@ -6,8 +6,6 @@
 
 AppleUSBOpticalMouse::gMetaClass;
 AppleUSBOpticalMouse::metaClass;
-AppleUSBOpticalMouse::operator delete(void*, unsigned long);
-AppleUSBOpticalMouse::operator new(unsigned long);
 AppleUSBOpticalMouse::superClass;
 AppleUSBOpticalMouse_ktv;
 IOUSBHostHIDDevice::gMetaClass;

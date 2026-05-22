@@ -5,7 +5,7 @@
 class IOSlaveCPU {
 public: // (access info unavailable from symbols alone)
     IOSlaveCPU(OSMetaClass const*);
-    free();
-    startCPUWithOptions(IOSlaveFirmware*, unsigned int);
+    auto free();
+    auto startCPUWithOptions(IOSlaveFirmware*, unsigned int);
     ~IOSlaveCPU();
 };

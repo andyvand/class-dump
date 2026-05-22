@@ -4,20 +4,20 @@
 
 class IOReporter {
 public: // (access info unavailable from symbols alone)
-    addChannel(unsigned long long, char const*);
-    configureAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
-    copyElementValues(int, IOReportElementValues*);
-    getChannelIndex(unsigned long long, int*);
-    getChannelIndices(unsigned long long, int*, int*);
-    getElementValues(int);
-    getFirstElementIndex(unsigned long long, int*);
-    handleAddChannelSwap(unsigned long long, OSSymbol const*);
-    handleConfigureReport(IOReportChannelList*, unsigned int, void*, void*);
-    handleCreateLegend();
-    handleSwapCleanup(int);
-    handleSwapPrepare(int);
-    init(IOService*, IOReportChannelType, unsigned long long);
-    setElementValues(int, IOReportElementValues*, unsigned long long);
-    updateAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
-    updateChannelValues(int);
+    auto addChannel(unsigned long long, char const*);
+    auto configureAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
+    auto copyElementValues(int, IOReportElementValues*);
+    auto getChannelIndex(unsigned long long, int*);
+    auto getChannelIndices(unsigned long long, int*, int*);
+    auto getElementValues(int);
+    auto getFirstElementIndex(unsigned long long, int*);
+    auto handleAddChannelSwap(unsigned long long, OSSymbol const*);
+    auto handleConfigureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto handleCreateLegend();
+    auto handleSwapCleanup(int);
+    auto handleSwapPrepare(int);
+    auto init(IOService*, IOReportChannelType, unsigned long long);
+    auto setElementValues(int, IOReportElementValues*, unsigned long long);
+    auto updateAllReports(OSSet*, IOReportChannelList*, unsigned int, void*, void*);
+    auto updateChannelValues(int);
 };

@@ -4,23 +4,23 @@
 
 class AppleMobileFileIntegrityUserClient {
 public: // (access info unavailable from symbols alone)
-    armSecurityBootMode(OSObject*, void*, IOExternalMethodArguments*);
-    clientClose();
-    completeSecurityBootMode(OSObject*, void*, IOExternalMethodArguments*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)::methods;
-    flushAllValidations(OSObject*, void*, IOExternalMethodArguments*);
-    garbageCollectXNUProfiles(OSObject*, void*, IOExternalMethodArguments*);
-    getMetaClass() const;
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    isDeveloperModeWritable(OSObject*, void*, IOExternalMethodArguments*);
-    loadCompilationServiceCodeDirectoryHash(OSObject*, void*, IOExternalMethodArguments*);
-    loadJitCodeDirectoryHash(OSObject*, void*, IOExternalMethodArguments*);
-    setDenylist(OSObject*, void*, IOExternalMethodArguments*);
-    setPermissiveTCMode(OSObject*, void*, IOExternalMethodArguments*);
-    start(IOService*);
-    turnOffDeveloperMode(OSObject*, void*, IOExternalMethodArguments*);
-    turnOnDeveloperMode(OSObject*, void*, IOExternalMethodArguments*);
-    updateDeviceState(OSObject*, void*, IOExternalMethodArguments*);
+    auto armSecurityBootMode(OSObject*, void*, IOExternalMethodArguments*);
+    auto clientClose();
+    auto completeSecurityBootMode(OSObject*, void*, IOExternalMethodArguments*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*)::methods;
+    auto flushAllValidations(OSObject*, void*, IOExternalMethodArguments*);
+    auto garbageCollectXNUProfiles(OSObject*, void*, IOExternalMethodArguments*);
+    auto getMetaClass() const;
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto isDeveloperModeWritable(OSObject*, void*, IOExternalMethodArguments*);
+    auto loadCompilationServiceCodeDirectoryHash(OSObject*, void*, IOExternalMethodArguments*);
+    auto loadJitCodeDirectoryHash(OSObject*, void*, IOExternalMethodArguments*);
+    auto setDenylist(OSObject*, void*, IOExternalMethodArguments*);
+    auto setPermissiveTCMode(OSObject*, void*, IOExternalMethodArguments*);
+    auto start(IOService*);
+    auto turnOffDeveloperMode(OSObject*, void*, IOExternalMethodArguments*);
+    auto turnOnDeveloperMode(OSObject*, void*, IOExternalMethodArguments*);
+    auto updateDeviceState(OSObject*, void*, IOExternalMethodArguments*);
     ~AppleMobileFileIntegrityUserClient();
 };

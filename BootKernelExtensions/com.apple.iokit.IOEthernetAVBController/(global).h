@@ -6,14 +6,10 @@
 
 IOEthernetAVBController::gMetaClass;
 IOEthernetAVBController::metaClass;
-IOEthernetAVBController::operator delete(void*, unsigned long);
-IOEthernetAVBController::operator new(unsigned long);
 IOEthernetAVBController::superClass;
 IOEthernetAVBController_ktv;
 IOEthernetAVBInterface::gMetaClass;
 IOEthernetAVBInterface::metaClass;
-IOEthernetAVBInterface::operator delete(void*, unsigned long);
-IOEthernetAVBInterface::operator new(unsigned long);
 IOEthernetAVBInterface::superClass;
 IOEthernetAVBInterface_ktv;
 IOEthernetController::gMetaClass;

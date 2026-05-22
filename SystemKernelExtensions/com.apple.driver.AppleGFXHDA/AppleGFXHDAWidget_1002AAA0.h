@@ -6,9 +6,11 @@ class AppleGFXHDAWidget_1002AAA0 {
 public: // (access info unavailable from symbols alone)
     AppleGFXHDAWidget_1002AAA0();
     AppleGFXHDAWidget_1002AAA0(OSMetaClass const*);
-    getMetaClass() const;
-    getSampleLatency();
-    initForNodeID(unsigned short, OSObject*, OSObject*);
-    setConverterChannelCount(unsigned int);
+    auto getMetaClass() const;
+    auto getSampleLatency();
+    auto initForNodeID(unsigned short, OSObject*, OSObject*);
+    auto setConverterChannelCount(unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleGFXHDAWidget_1002AAA0();
 };

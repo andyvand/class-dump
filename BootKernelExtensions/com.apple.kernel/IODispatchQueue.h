@@ -4,19 +4,21 @@
 
 class IODispatchQueue {
 public: // (access info unavailable from symbols alone)
-    Create_Call(char const*, unsigned long long, unsigned long long, IODispatchQueue**);
-    Create_Impl(char const*, unsigned long long, unsigned long long, IODispatchQueue**);
-    Create_Invoke(IORPC, int (*)(char const*, unsigned long long, unsigned long long, IODispatchQueue**));
-    Dispatch(IORPC);
     IODispatchQueue();
     IODispatchQueue(OSMetaClass const*);
-    OnQueue();
-    SetPort(ipc_port*, int (*)(OSMetaClassBase*, IORPC));
-    SetPort_Impl(ipc_port*);
-    SetPort_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, ipc_port*));
-    _Dispatch(IODispatchQueue*, IORPC);
-    free();
-    getMetaClass() const;
-    init();
+    auto Create_Call(char const*, unsigned long long, unsigned long long, IODispatchQueue**);
+    auto Create_Impl(char const*, unsigned long long, unsigned long long, IODispatchQueue**);
+    auto Create_Invoke(IORPC, int (*)(char const*, unsigned long long, unsigned long long, IODispatchQueue**));
+    auto Dispatch(IORPC);
+    auto OnQueue();
+    auto SetPort(ipc_port*, int (*)(OSMetaClassBase*, IORPC));
+    auto SetPort_Impl(ipc_port*);
+    auto SetPort_Invoke(IORPC, OSMetaClassBase*, int (*)(OSMetaClassBase*, ipc_port*));
+    auto _Dispatch(IODispatchQueue*, IORPC);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IODispatchQueue();
 };

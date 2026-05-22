@@ -6,15 +6,17 @@ class IOSurfaceShared {
 public: // (access info unavailable from symbols alone)
     IOSurfaceShared();
     IOSurfaceShared(OSMetaClass const*);
-    free();
-    free()::kalloc_type_view_55;
-    free()::kalloc_type_view_64;
-    free()::kalloc_type_view_73;
-    getMetaClass() const;
-    getOwningTask() const;
-    init(task*, IOSurfaceRoot*, bool);
-    map_event_client_shared(unsigned int, unsigned long long*);
-    map_surface_client_shared(unsigned int, unsigned long long*, unsigned long long*);
-    withTask(task*, IOSurfaceRoot*, bool);
+    auto free();
+    auto free()::kalloc_type_view_55;
+    auto free()::kalloc_type_view_64;
+    auto free()::kalloc_type_view_73;
+    auto getMetaClass() const;
+    auto getOwningTask() const;
+    auto init(task*, IOSurfaceRoot*, bool);
+    auto map_event_client_shared(unsigned int, unsigned long long*);
+    auto map_surface_client_shared(unsigned int, unsigned long long*, unsigned long long*);
+    auto withTask(task*, IOSurfaceRoot*, bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSurfaceShared();
 };

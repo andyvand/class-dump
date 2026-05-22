@@ -5,11 +5,11 @@
 class AMDReporter {
 public: // (access info unavailable from symbols alone)
     AMDReporter(IOService*, unsigned long long);
-    configureReport(IOReportChannelList*, unsigned int, void*, void*);
-    configureReport(IOReportChannelList*, unsigned int, void*, void*)::_os_log_fmt;
-    parseDescriptorCommon(OSDictionary*, CommonDescriptor&);
-    parseDescriptorCommon(OSDictionary*, CommonDescriptor&)::_os_log_fmt;
-    updateReport(IOReportChannelList*, unsigned int, void*, void*);
-    updateReport(IOReportChannelList*, unsigned int, void*, void*)::_os_log_fmt;
+    auto configureReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto configureReport(IOReportChannelList*, unsigned int, void*, void*)::_os_log_fmt;
+    auto parseDescriptorCommon(OSDictionary*, CommonDescriptor&);
+    auto parseDescriptorCommon(OSDictionary*, CommonDescriptor&)::_os_log_fmt;
+    auto updateReport(IOReportChannelList*, unsigned int, void*, void*);
+    auto updateReport(IOReportChannelList*, unsigned int, void*, void*)::_os_log_fmt;
     ~AMDReporter();
 };

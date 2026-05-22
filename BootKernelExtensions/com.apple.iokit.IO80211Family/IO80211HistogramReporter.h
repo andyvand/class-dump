@@ -6,12 +6,14 @@ class IO80211HistogramReporter {
 public: // (access info unavailable from symbols alone)
     IO80211HistogramReporter();
     IO80211HistogramReporter(OSMetaClass const*);
-    copyHistValues(histogramBin_s*, unsigned int);
-    free();
-    free()::kalloc_type_view_121;
-    getMetaClass() const;
-    initWith(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
-    initWith(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*)::kalloc_type_view_87;
-    with(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
+    auto copyHistValues(histogramBin_s*, unsigned int);
+    auto free();
+    auto free()::kalloc_type_view_121;
+    auto getMetaClass() const;
+    auto initWith(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
+    auto initWith(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*)::kalloc_type_view_87;
+    auto with(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IO80211HistogramReporter();
 };

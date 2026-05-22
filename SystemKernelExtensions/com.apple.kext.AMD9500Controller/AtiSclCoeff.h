@@ -5,6 +5,6 @@
 class AtiSclCoeff {
 public: // (access info unavailable from symbols alone)
     AtiSclCoeff(OSMetaClass const*);
-    lanczos(double, double);
+    auto lanczos(double, double);
     ~AtiSclCoeff();
 };

@@ -6,9 +6,11 @@ class IOAccelerator {
 public: // (access info unavailable from symbols alone)
     IOAccelerator();
     IOAccelerator(OSMetaClass const*);
-    createAccelID(unsigned int, int*);
-    getMetaClass() const;
-    releaseAccelID(unsigned int, int);
-    retainAccelID(unsigned int, int);
+    auto createAccelID(unsigned int, int*);
+    auto getMetaClass() const;
+    auto releaseAccelID(unsigned int, int);
+    auto retainAccelID(unsigned int, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOAccelerator();
 };

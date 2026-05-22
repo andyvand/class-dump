@@ -4,11 +4,11 @@
 
 class IOService {
 public: // (access info unavailable from symbols alone)
-    addMatchingNotification(OSSymbol const*, OSDictionary*, bool (*)(void*, void*, IOService*, IONotifier*), void*, void*, int);
-    copyMatchingService(OSDictionary*);
-    getMatchingServices(OSDictionary*);
-    nameMatching(char const*, OSDictionary*);
-    resourceMatching(char const*, OSDictionary*);
-    serviceMatching(char const*, OSDictionary*);
-    waitForMatchingService(OSDictionary*, unsigned long long);
+    auto addMatchingNotification(OSSymbol const*, OSDictionary*, bool (*)(void*, void*, IOService*, IONotifier*), void*, void*, int);
+    auto copyMatchingService(OSDictionary*);
+    auto getMatchingServices(OSDictionary*);
+    auto nameMatching(char const*, OSDictionary*);
+    auto resourceMatching(char const*, OSDictionary*);
+    auto serviceMatching(char const*, OSDictionary*);
+    auto waitForMatchingService(OSDictionary*, unsigned long long);
 };

@@ -6,11 +6,13 @@ class OSSerializer {
 public: // (access info unavailable from symbols alone)
     OSSerializer();
     OSSerializer(OSMetaClass const*);
-    callbackToBlock(void*, void*, OSSerialize*);
-    forTarget(void*, bool (*)(void*, void*, OSSerialize*), void*);
-    free();
-    getMetaClass() const;
-    serialize(OSSerialize*) const;
-    withBlock(bool (OSSerialize*) block_pointer);
+    auto callbackToBlock(void*, void*, OSSerialize*);
+    auto forTarget(void*, bool (*)(void*, void*, OSSerialize*), void*);
+    auto free();
+    auto getMetaClass() const;
+    auto serialize(OSSerialize*) const;
+    auto withBlock(bool (OSSerialize*) block_pointer);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSSerializer();
 };

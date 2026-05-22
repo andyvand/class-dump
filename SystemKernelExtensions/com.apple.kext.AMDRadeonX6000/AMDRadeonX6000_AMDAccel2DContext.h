@@ -6,11 +6,13 @@ class AMDRadeonX6000_AMDAccel2DContext {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDAccel2DContext();
     AMDRadeonX6000_AMDAccel2DContext(OSMetaClass const*);
-    blitCopy(IOAccelEvent*, IOAccelResource2*, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
-    blitFill(IOAccelEvent*, unsigned int, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
-    contextStart();
-    contextStop();
-    getMetaClass() const;
-    isCopyOfSourceNecessary(_UBM_STRETCHINFO*, IOAccel2DBlitRectStruc*, unsigned int);
+    auto blitCopy(IOAccelEvent*, IOAccelResource2*, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
+    auto blitFill(IOAccelEvent*, unsigned int, IOAccelResource2*, IOAccel2DBlitRectStruc*, unsigned int);
+    auto contextStart();
+    auto contextStop();
+    auto getMetaClass() const;
+    auto isCopyOfSourceNecessary(_UBM_STRETCHINFO*, IOAccel2DBlitRectStruc*, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDAccel2DContext();
 };

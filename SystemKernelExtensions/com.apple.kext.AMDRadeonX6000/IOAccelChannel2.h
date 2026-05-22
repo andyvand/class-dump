@@ -4,14 +4,14 @@
 
 class IOAccelChannel2 {
 public: // (access info unavailable from symbols alone)
-    _RESERVEDIOAccelChannel2();
-    _RESERVEDIOAccelChannel3();
-    _RESERVEDIOAccelChannel4();
-    _RESERVEDIOAccelChannel5();
-    incrementStamp();
-    init(IOGraphicsAccelerator2*, int);
-    mergeEventExcluding(IOAccelEvent*, IOAccelEvent*);
-    setEventStamp(IOAccelEvent*);
-    setStampIndex(int);
-    writeEventBarrierCommand(IOAccelEventQueue*, IOAccelEvent*, vendevtBarrierRec*);
+    auto _RESERVEDIOAccelChannel2();
+    auto _RESERVEDIOAccelChannel3();
+    auto _RESERVEDIOAccelChannel4();
+    auto _RESERVEDIOAccelChannel5();
+    auto incrementStamp();
+    auto init(IOGraphicsAccelerator2*, int);
+    auto mergeEventExcluding(IOAccelEvent*, IOAccelEvent*);
+    auto setEventStamp(IOAccelEvent*);
+    auto setStampIndex(int);
+    auto writeEventBarrierCommand(IOAccelEventQueue*, IOAccelEvent*, vendevtBarrierRec*);
 };

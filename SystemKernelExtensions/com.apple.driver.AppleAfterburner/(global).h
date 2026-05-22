@@ -6,13 +6,9 @@
 
 AppleAfterburner::gMetaClass;
 AppleAfterburner::metaClass;
-AppleAfterburner::operator delete(void*, unsigned long);
-AppleAfterburner::operator new(unsigned long);
 AppleAfterburner::superClass;
 AppleAfterburnerUserClient::gMetaClass;
 AppleAfterburnerUserClient::metaClass;
-AppleAfterburnerUserClient::operator delete(void*, unsigned long);
-AppleAfterburnerUserClient::operator new(unsigned long);
 AppleAfterburnerUserClient::sMethods;
 AppleAfterburnerUserClient::superClass;
 AppleAfterburnerUserClient_ktv;

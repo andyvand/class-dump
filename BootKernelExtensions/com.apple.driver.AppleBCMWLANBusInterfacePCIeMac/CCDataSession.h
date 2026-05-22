@@ -4,5 +4,5 @@
 
 class CCDataSession {
 public: // (access info unavailable from symbols alone)
-    setTimestamp(CCTimestamp);
+    auto setTimestamp(CCTimestamp);
 };

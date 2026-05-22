@@ -5,6 +5,6 @@
 class IOHIDKeyboardDevice::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

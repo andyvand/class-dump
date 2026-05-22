@@ -5,13 +5,15 @@
 class AMDRadeonX6000_AMDVCNHWChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDVCNHWChannel(OSMetaClass const*);
-    alignIBCommandBuffer(unsigned int*, unsigned int);
-    allocateMemoryResources();
-    disableTimestampInterrupt();
-    free();
-    getMetaClass() const;
-    init(int, AMDRadeonX6000_IAMDHWInterface*, AMDRadeonX6000_IAMDHWEngine*, AMDRadeonX6000_IAMDHWRing*, char const*);
-    setTimestampInterruptState(bool);
-    submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto alignIBCommandBuffer(unsigned int*, unsigned int);
+    auto allocateMemoryResources();
+    auto disableTimestampInterrupt();
+    auto free();
+    auto getMetaClass() const;
+    auto init(int, AMDRadeonX6000_IAMDHWInterface*, AMDRadeonX6000_IAMDHWEngine*, AMDRadeonX6000_IAMDHWRing*, char const*);
+    auto setTimestampInterruptState(bool);
+    auto submitCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDVCNHWChannel();
 };

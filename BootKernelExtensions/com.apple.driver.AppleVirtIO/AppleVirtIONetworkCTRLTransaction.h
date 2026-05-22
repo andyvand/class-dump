@@ -5,17 +5,17 @@
 class AppleVirtIONetworkCTRLTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIONetworkCTRLTransaction();
-    free();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    initAnnounceAckTransaction();
-    initMacAddressTableTransaction(IOEthernetAddress const*, unsigned int);
-    initMacAddressTransaction(IOEthernetAddress const*);
-    initMulticastTransaction(bool);
-    initPromiscuousTransaction(bool);
-    initWithSize(unsigned int, bool, unsigned int);
-    isSuccess();
-    setData(void*, unsigned long);
+    auto free();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto initAnnounceAckTransaction();
+    auto initMacAddressTableTransaction(IOEthernetAddress const*, unsigned int);
+    auto initMacAddressTransaction(IOEthernetAddress const*);
+    auto initMulticastTransaction(bool);
+    auto initPromiscuousTransaction(bool);
+    auto initWithSize(unsigned int, bool, unsigned int);
+    auto isSuccess();
+    auto setData(void*, unsigned long);
     ~AppleVirtIONetworkCTRLTransaction();
 };

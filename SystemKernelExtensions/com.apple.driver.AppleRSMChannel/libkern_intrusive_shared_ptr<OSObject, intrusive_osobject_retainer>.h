@@ -4,12 +4,13 @@
 
 class libkern::intrusive_shared_ptr<OSObject, intrusive_osobject_retainer> {
 public: // (access info unavailable from symbols alone)
-    detach();
-    get() const &;
+    auto detach();
+    auto get() const &;
+    auto intrusive_shared_ptr<IOService, void>(libkern::intrusive_shared_ptr<IOService, intrusive_osobject_retainer>&&);
+    auto operator=(libkern::intrusive_shared_ptr<OSObject, intrusive_osobject_retainer>&&);
+    auto reset();
+    auto reset(OSObject*, libkern::no_retain_t);
     intrusive_shared_ptr();
     intrusive_shared_ptr(OSObject*, libkern::retain_t);
-    intrusive_shared_ptr<IOService, void>(libkern::intrusive_shared_ptr<IOService, intrusive_osobject_retainer>&&);
-    operator=(libkern::intrusive_shared_ptr<OSObject, intrusive_osobject_retainer>&&);
-    reset();
-    reset(OSObject*, libkern::no_retain_t);
+    operator bool() const;
 };

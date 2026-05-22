@@ -4,6 +4,6 @@
 
 class AppleSEPEndpoint {
 public: // (access info unavailable from symbols alone)
-    getAdjustedTimeout(unsigned int);
-    requestPanic(char const*, char const*);
+    auto getAdjustedTimeout(unsigned int);
+    auto requestPanic(char const*, char const*);
 };

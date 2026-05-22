@@ -4,23 +4,23 @@
 
 class SCSITask {
 public: // (access info unavailable from symbols alone)
-    GetApplicationLayerReference();
-    GetCommandDescriptorBlock(unsigned char (*) [16]);
-    GetRealizedDataTransferCount();
-    GetRequestedDataTransferCount();
-    GetServiceResponse();
-    GetTaskState();
-    GetTaskStatus();
-    SetApplicationLayerReference(void*);
-    SetAutoSenseDataBuffer(unsigned long long, unsigned char, task*);
-    SetAutosenseCommand(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
-    SetCommandDescriptorBlock(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
-    SetCommandDescriptorBlock(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
-    SetCommandDescriptorBlock(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
-    SetDataBuffer(IOMemoryDescriptor*);
-    SetDataTransferDirection(unsigned char);
-    SetRequestedDataTransferCount(unsigned long long);
-    SetTaskCompletionCallback(void (*)(OSObject*));
-    SetTimeoutDuration(unsigned int);
-    WithOwner(OSObject*);
+    auto GetApplicationLayerReference();
+    auto GetCommandDescriptorBlock(unsigned char (*) [16]);
+    auto GetRealizedDataTransferCount();
+    auto GetRequestedDataTransferCount();
+    auto GetServiceResponse();
+    auto GetTaskState();
+    auto GetTaskStatus();
+    auto SetApplicationLayerReference(void*);
+    auto SetAutoSenseDataBuffer(unsigned long long, unsigned char, task*);
+    auto SetAutosenseCommand(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
+    auto SetCommandDescriptorBlock(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
+    auto SetCommandDescriptorBlock(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
+    auto SetCommandDescriptorBlock(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char);
+    auto SetDataBuffer(IOMemoryDescriptor*);
+    auto SetDataTransferDirection(unsigned char);
+    auto SetRequestedDataTransferCount(unsigned long long);
+    auto SetTaskCompletionCallback(void (*)(OSObject*));
+    auto SetTimeoutDuration(unsigned int);
+    auto WithOwner(OSObject*);
 };

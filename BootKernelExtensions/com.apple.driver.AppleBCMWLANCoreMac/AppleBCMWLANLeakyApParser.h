@@ -4,15 +4,15 @@
 
 class AppleBCMWLANLeakyApParser {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_121;
-    getMetaClass() const;
-    init(CCLogStream*);
-    init(CCLogStream*)::kalloc_type_view_75;
-    parseEventLogRecordLeakyAP(OSData*);
-    parseLeakyApPacket(wlc_leaked_infra_packet_stat*)::kalloc_type_view_262;
-    releaseLeakyApParserResources();
-    releaseLeakyApParserResources()::kalloc_type_view_106;
-    withLogger(CCLogStream*);
+    auto free();
+    auto free()::kalloc_type_view_121;
+    auto getMetaClass() const;
+    auto init(CCLogStream*);
+    auto init(CCLogStream*)::kalloc_type_view_75;
+    auto parseEventLogRecordLeakyAP(OSData*);
+    auto parseLeakyApPacket(wlc_leaked_infra_packet_stat*)::kalloc_type_view_262;
+    auto releaseLeakyApParserResources();
+    auto releaseLeakyApParserResources()::kalloc_type_view_106;
+    auto withLogger(CCLogStream*);
     ~AppleBCMWLANLeakyApParser();
 };

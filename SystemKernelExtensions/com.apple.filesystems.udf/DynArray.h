@@ -4,19 +4,19 @@
 
 class DynArray {
 public: // (access info unavailable from symbols alone)
-    Append(void*);
     DynArray(unsigned long, unsigned long, unsigned long);
-    Extend();
-    GetVal(unsigned long);
-    Insert(unsigned long, void*);
-    InsertionSort(void*, int (*)(void const*, void const*), bool*);
-    Pack();
-    Pack() (.cold.1);
-    Remove(unsigned long, bool);
-    Reserve(unsigned long);
-    Reserve(unsigned long) (.cold.1);
-    Resize(unsigned long);
-    SetVal(unsigned long, void*);
-    Sort(int (*)(void const*, void const*), unsigned long, unsigned long);
+    auto Append(void*);
+    auto Extend();
+    auto GetVal(unsigned long);
+    auto Insert(unsigned long, void*);
+    auto InsertionSort(void*, int (*)(void const*, void const*), bool*);
+    auto Pack();
+    auto Pack() (.cold.1);
+    auto Remove(unsigned long, bool);
+    auto Reserve(unsigned long);
+    auto Reserve(unsigned long) (.cold.1);
+    auto Resize(unsigned long);
+    auto SetVal(unsigned long, void*);
+    auto Sort(int (*)(void const*, void const*), unsigned long, unsigned long);
     ~DynArray();
 };

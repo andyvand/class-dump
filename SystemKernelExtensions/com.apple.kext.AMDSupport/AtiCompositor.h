@@ -5,7 +5,9 @@
 class AtiCompositor {
 public: // (access info unavailable from symbols alone)
     AtiCompositor(OSMetaClass const*);
-    getMetaClass() const;
-    init(ATIController*);
+    auto getMetaClass() const;
+    auto init(ATIController*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AtiCompositor();
 };

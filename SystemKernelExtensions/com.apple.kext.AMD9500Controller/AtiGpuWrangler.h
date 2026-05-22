@@ -5,12 +5,12 @@
 class AtiGpuWrangler {
 public: // (access info unavailable from symbols alone)
     AtiGpuWrangler(OSMetaClass const*);
-    attach(IOService*);
-    callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
-    detach(IOService*);
-    probe(IOService*, int*);
-    start(IOService*);
-    stop(IOService*);
-    vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
+    auto attach(IOService*);
+    auto callPlatformFunction(OSSymbol const*, bool, void*, void*, void*, void*);
+    auto detach(IOService*);
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    auto vendor_doDeviceAttribute(unsigned int, unsigned long*, unsigned long, unsigned long*, unsigned long*, IOExternalMethodArguments*);
     ~AtiGpuWrangler();
 };

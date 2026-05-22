@@ -6,14 +6,16 @@ class IOTimeSyncPersistentUserClockMapping {
 public: // (access info unavailable from symbols alone)
     IOTimeSyncPersistentUserClockMapping();
     IOTimeSyncPersistentUserClockMapping(OSMetaClass const*);
-    decrementReferenceCount();
-    decrementReferenceCount()::_os_log_fmt;
-    free();
-    getClockID();
-    getMetaClass() const;
-    getReferenceCount();
-    getUserID();
-    incrementReferenceCount();
-    init(OSString const*, unsigned long long);
+    auto decrementReferenceCount();
+    auto decrementReferenceCount()::_os_log_fmt;
+    auto free();
+    auto getClockID();
+    auto getMetaClass() const;
+    auto getReferenceCount();
+    auto getUserID();
+    auto incrementReferenceCount();
+    auto init(OSString const*, unsigned long long);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOTimeSyncPersistentUserClockMapping();
 };

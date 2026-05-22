@@ -6,11 +6,13 @@ class IOConfigEntry {
 public: // (access info unavailable from symbols alone)
     IOConfigEntry();
     IOConfigEntry(OSMetaClass const*);
-    create(unsigned int, FWAddressStruct);
-    create(unsigned int, IOConfigKeyType, OSObject*);
-    create(unsigned int, unsigned int);
-    free();
-    getMetaClass() const;
-    totalSize();
+    auto create(unsigned int, FWAddressStruct);
+    auto create(unsigned int, IOConfigKeyType, OSObject*);
+    auto create(unsigned int, unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto totalSize();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOConfigEntry();
 };

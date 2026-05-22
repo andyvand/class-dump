@@ -4,20 +4,22 @@
 
 class IOFireWireAVCSubUnit {
 public: // (access info unavailable from symbols alone)
-    AVCCommand(unsigned char const*, unsigned int, unsigned char*, unsigned int*);
-    AVCCommandInGeneration(unsigned int, unsigned char const*, unsigned int, unsigned char*, unsigned int*);
     IOFireWireAVCSubUnit();
     IOFireWireAVCSubUnit(OSMetaClass const*);
-    _RESERVEDIOFireWireAVCSubUnit0();
-    _RESERVEDIOFireWireAVCSubUnit1();
-    _RESERVEDIOFireWireAVCSubUnit2();
-    _RESERVEDIOFireWireAVCSubUnit3();
-    getMetaClass() const;
-    handleClose(IOService*, unsigned int);
-    handleOpen(IOService*, unsigned int, void*);
-    init(OSDictionary*, IOFireWireAVCUnit*);
-    matchPropertyTable(OSDictionary*);
-    message(unsigned int, IOService*, void*);
-    updateAVCCommandTimeout();
+    auto AVCCommand(unsigned char const*, unsigned int, unsigned char*, unsigned int*);
+    auto AVCCommandInGeneration(unsigned int, unsigned char const*, unsigned int, unsigned char*, unsigned int*);
+    auto _RESERVEDIOFireWireAVCSubUnit0();
+    auto _RESERVEDIOFireWireAVCSubUnit1();
+    auto _RESERVEDIOFireWireAVCSubUnit2();
+    auto _RESERVEDIOFireWireAVCSubUnit3();
+    auto getMetaClass() const;
+    auto handleClose(IOService*, unsigned int);
+    auto handleOpen(IOService*, unsigned int, void*);
+    auto init(OSDictionary*, IOFireWireAVCUnit*);
+    auto matchPropertyTable(OSDictionary*);
+    auto message(unsigned int, IOService*, void*);
+    auto updateAVCCommandTimeout();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFireWireAVCSubUnit();
 };

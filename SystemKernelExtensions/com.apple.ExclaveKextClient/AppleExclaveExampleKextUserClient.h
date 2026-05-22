@@ -6,10 +6,12 @@ class AppleExclaveExampleKextUserClient {
 public: // (access info unavailable from symbols alone)
     AppleExclaveExampleKextUserClient();
     AppleExclaveExampleKextUserClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
-    getMetaClass() const;
-    keventAsyncSignalMethod(OSObject*, void*, IOExternalMethodArguments*);
-    start(IOService*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
+    auto getMetaClass() const;
+    auto keventAsyncSignalMethod(OSObject*, void*, IOExternalMethodArguments*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleExclaveExampleKextUserClient();
 };

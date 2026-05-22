@@ -4,35 +4,27 @@
 
 // Global C++ functions
 
-DKIOC_PREPARE_BUFFER(unsigned long long, unsigned int, unsigned int, proc*);
 IOCDBlockStorageDevice::gMetaClass;
 IOCDBlockStorageDriver::gMetaClass;
 IODVDBlockStorageDevice::gMetaClass;
 IODVDBlockStorageDevice::metaClass;
-IODVDBlockStorageDevice::operator delete(void*, unsigned long);
-IODVDBlockStorageDevice::operator new(unsigned long);
 IODVDBlockStorageDevice::superClass;
 IODVDBlockStorageDevice_ktv;
 IODVDBlockStorageDriver::gMetaClass;
 IODVDBlockStorageDriver::metaClass;
-IODVDBlockStorageDriver::operator delete(void*, unsigned long);
-IODVDBlockStorageDriver::operator new(unsigned long);
 IODVDBlockStorageDriver::superClass;
 IODVDBlockStorageDriver_ktv;
 IODVDMedia::gMetaClass;
 IODVDMedia::metaClass;
-IODVDMedia::operator delete(void*, unsigned long);
-IODVDMedia::operator new(unsigned long);
 IODVDMedia::superClass;
 IODVDMediaBSDClient::gMetaClass;
 IODVDMediaBSDClient::metaClass;
-IODVDMediaBSDClient::operator delete(void*, unsigned long);
-IODVDMediaBSDClient::operator new(unsigned long);
 IODVDMediaBSDClient::superClass;
 IODVDMediaBSDClient_ktv;
 IODVDMedia_ktv;
 IOMedia::gMetaClass;
 IOMediaBSDClient::gMetaClass;
+auto DKIOC_PREPARE_BUFFER(unsigned long long, unsigned int, unsigned int, proc*);
 vtable for IOBlockStorageDriver;
 vtable for IOCDBlockStorageDevice;
 vtable for IOCDBlockStorageDriver;

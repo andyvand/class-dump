@@ -5,16 +5,16 @@
 class IOAccelStatistics2 {
 public: // (access info unavailable from symbols alone)
     IOAccelStatistics2(OSMetaClass const*);
-    _RESERVEDIOAccelStatistics0();
-    _RESERVEDIOAccelStatistics1();
-    _RESERVEDIOAccelStatistics2();
-    _RESERVEDIOAccelStatistics3();
-    _RESERVEDIOAccelStatistics4();
-    _RESERVEDIOAccelStatistics5();
-    addChannel(char const*, unsigned long long);
-    addNumber(OSDictionary*, unsigned int, char const*);
-    free();
-    setChannelValue(unsigned long long, unsigned long long);
-    writeInternalStats(OSDictionary*, bool);
+    auto _RESERVEDIOAccelStatistics0();
+    auto _RESERVEDIOAccelStatistics1();
+    auto _RESERVEDIOAccelStatistics2();
+    auto _RESERVEDIOAccelStatistics3();
+    auto _RESERVEDIOAccelStatistics4();
+    auto _RESERVEDIOAccelStatistics5();
+    auto addChannel(char const*, unsigned long long);
+    auto addNumber(OSDictionary*, unsigned int, char const*);
+    auto free();
+    auto setChannelValue(unsigned long long, unsigned long long);
+    auto writeInternalStats(OSDictionary*, bool);
     ~IOAccelStatistics2();
 };

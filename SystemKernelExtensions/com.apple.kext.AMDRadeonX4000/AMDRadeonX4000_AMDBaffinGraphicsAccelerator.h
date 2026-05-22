@@ -6,9 +6,11 @@ class AMDRadeonX4000_AMDBaffinGraphicsAccelerator {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDBaffinGraphicsAccelerator();
     AMDRadeonX4000_AMDBaffinGraphicsAccelerator(OSMetaClass const*);
-    getDeviceType(IOPCIDevice*);
-    getMetaClass() const;
-    newHWInterface();
-    setDeviceType(IOPCIDevice*);
+    auto getDeviceType(IOPCIDevice*);
+    auto getMetaClass() const;
+    auto newHWInterface();
+    auto setDeviceType(IOPCIDevice*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDBaffinGraphicsAccelerator();
 };

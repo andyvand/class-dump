@@ -4,14 +4,16 @@
 
 class AppleUSBAudioInterruptPipe {
 public: // (access info unavailable from symbols alone)
-    Abort();
     AppleUSBAudioInterruptPipe();
     AppleUSBAudioInterruptPipe(OSMetaClass const*);
-    ClearPipeStall(bool);
-    Read(IOBufferMemoryDescriptor*, IOUSBHostCompletion*);
-    SetIdlePolicy(unsigned int);
-    forDeviceOnInterfaceWithProperties(AppleUSBAudioDevice*, IOService*, unsigned short, unsigned char);
-    free();
-    getMetaClass() const;
+    auto Abort();
+    auto ClearPipeStall(bool);
+    auto Read(IOBufferMemoryDescriptor*, IOUSBHostCompletion*);
+    auto SetIdlePolicy(unsigned int);
+    auto forDeviceOnInterfaceWithProperties(AppleUSBAudioDevice*, IOService*, unsigned short, unsigned char);
+    auto free();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBAudioInterruptPipe();
 };

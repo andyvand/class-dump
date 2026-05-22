@@ -4,15 +4,17 @@
 
 class com_apple_driver_AppleUSBODDType05 {
 public: // (access info unavailable from symbols alone)
-    CheckMediaPresence();
-    GetEnabledINQUIRY();
-    GetPowerParameters();
-    InitializeDeviceSupport();
-    ManageODDPower(bool, bool, bool);
-    SendPowerManagement(bool, bool, bool);
+    auto CheckMediaPresence();
+    auto GetEnabledINQUIRY();
+    auto GetPowerParameters();
+    auto InitializeDeviceSupport();
+    auto ManageODDPower(bool, bool, bool);
+    auto SendPowerManagement(bool, bool, bool);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
     com_apple_driver_AppleUSBODDType05();
     com_apple_driver_AppleUSBODDType05(OSMetaClass const*);
-    getMetaClass() const;
-    probe(IOService*, int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_apple_driver_AppleUSBODDType05();
 };

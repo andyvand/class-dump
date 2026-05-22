@@ -5,15 +5,17 @@
 class AMDRadeonX6000_AMDHWAlignManager2 {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AMDHWAlignManager2(OSMetaClass const*);
-    free();
-    getCMaskInfo2(_ADDR2_COMPUTE_CMASKINFO_INPUT*, _ADDR2_COMPUTE_CMASK_INFO_OUTPUT*);
-    getDccInfo2(_ADDR2_COMPUTE_DCCINFO_INPUT*, _ADDR2_COMPUTE_DCCINFO_OUTPUT*);
-    getFMaskInfo2(_ADDR2_COMPUTE_FMASK_INFO_INPUT*, _ADDR2_COMPUTE_FMASK_INFO_OUTPUT*);
-    getHTileInfo2(_ADDR2_COMPUTE_HTILE_INFO_INPUT*, _ADDR2_COMPUTE_HTILE_INFO_OUTPUT*);
-    getMetaClass() const;
-    getPreferredSwizzleMode2(_ADDR2_COMPUTE_SURFACE_INFO_INPUT*);
-    getSurfaceInfo(_AMD_SURFACE_INFO_STRUCT*);
-    getSurfaceInfo2(_ADDR2_COMPUTE_SURFACE_INFO_INPUT*, _ADDR2_COMPUTE_SURFACE_INFO_OUTPUT*);
-    init(AMDRadeonX6000_IAMDHWInterface*);
+    auto free();
+    auto getCMaskInfo2(_ADDR2_COMPUTE_CMASKINFO_INPUT*, _ADDR2_COMPUTE_CMASK_INFO_OUTPUT*);
+    auto getDccInfo2(_ADDR2_COMPUTE_DCCINFO_INPUT*, _ADDR2_COMPUTE_DCCINFO_OUTPUT*);
+    auto getFMaskInfo2(_ADDR2_COMPUTE_FMASK_INFO_INPUT*, _ADDR2_COMPUTE_FMASK_INFO_OUTPUT*);
+    auto getHTileInfo2(_ADDR2_COMPUTE_HTILE_INFO_INPUT*, _ADDR2_COMPUTE_HTILE_INFO_OUTPUT*);
+    auto getMetaClass() const;
+    auto getPreferredSwizzleMode2(_ADDR2_COMPUTE_SURFACE_INFO_INPUT*);
+    auto getSurfaceInfo(_AMD_SURFACE_INFO_STRUCT*);
+    auto getSurfaceInfo2(_ADDR2_COMPUTE_SURFACE_INFO_INPUT*, _ADDR2_COMPUTE_SURFACE_INFO_OUTPUT*);
+    auto init(AMDRadeonX6000_IAMDHWInterface*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AMDHWAlignManager2();
 };

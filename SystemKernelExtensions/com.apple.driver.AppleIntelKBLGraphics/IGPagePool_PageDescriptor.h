@@ -4,6 +4,6 @@
 
 class IGPagePool::PageDescriptor {
 public: // (access info unavailable from symbols alone)
-    release();
-    retain();
+    auto release();
+    auto retain();
 };

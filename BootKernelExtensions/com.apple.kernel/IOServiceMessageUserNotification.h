@@ -6,13 +6,15 @@ class IOServiceMessageUserNotification {
 public: // (access info unavailable from symbols alone)
     IOServiceMessageUserNotification();
     IOServiceMessageUserNotification(OSMetaClass const*);
-    _handler(void*, void*, unsigned int, IOService*, void*, unsigned long);
-    copyNextObject();
-    free();
-    getMetaClass() const;
-    getNextObject();
-    handler(void*, unsigned int, IOService*, void*, unsigned long);
-    init(ipc_port*, unsigned int, void*, unsigned long, bool);
-    invalidatePort();
+    auto _handler(void*, void*, unsigned int, IOService*, void*, unsigned long);
+    auto copyNextObject();
+    auto free();
+    auto getMetaClass() const;
+    auto getNextObject();
+    auto handler(void*, unsigned int, IOService*, void*, unsigned long);
+    auto init(ipc_port*, unsigned int, void*, unsigned long, bool);
+    auto invalidatePort();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOServiceMessageUserNotification();
 };

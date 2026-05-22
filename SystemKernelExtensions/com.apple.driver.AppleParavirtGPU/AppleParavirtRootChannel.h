@@ -6,11 +6,13 @@ class AppleParavirtRootChannel {
 public: // (access info unavailable from symbols alone)
     AppleParavirtRootChannel();
     AppleParavirtRootChannel(OSMetaClass const*);
-    getHardwareDiagnosisReport(unsigned int*);
-    getMetaClass() const;
-    hasFault() const;
-    init(AppleParavirtAccelerator*, int, int, int, int, char const*, void*);
-    resetHardwareAndReplay();
-    submitBuffer(IOAccelCommandDescriptor*);
+    auto getHardwareDiagnosisReport(unsigned int*);
+    auto getMetaClass() const;
+    auto hasFault() const;
+    auto init(AppleParavirtAccelerator*, int, int, int, int, char const*, void*);
+    auto resetHardwareAndReplay();
+    auto submitBuffer(IOAccelCommandDescriptor*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleParavirtRootChannel();
 };

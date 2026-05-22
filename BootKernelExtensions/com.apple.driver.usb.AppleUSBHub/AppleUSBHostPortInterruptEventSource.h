@@ -4,5 +4,5 @@
 
 class AppleUSBHostPortInterruptEventSource {
 public: // (access info unavailable from symbols alone)
-    setModerationTime(unsigned int);
+    auto setModerationTime(unsigned int);
 };

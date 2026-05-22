@@ -4,5 +4,5 @@
 
 class IOAccelDisplayPipePostCSCGammaVID {
 public: // (access info unavailable from symbols alone)
-    getConfigurationID() const;
+    auto getConfigurationID() const;
 };

@@ -4,5 +4,5 @@
 
 class IOFWAsyncCommand {
 public: // (access info unavailable from symbols alone)
-    updateNodeID(unsigned int, unsigned short);
+    auto updateNodeID(unsigned int, unsigned short);
 };

@@ -4,13 +4,15 @@
 
 class com_softraid_driver_SoftRAID_WA_CacheBlockQueue {
 public: // (access info unavailable from symbols alone)
-    AddCacheBlockToQueue(WA_CacheBlockRec*);
-    CacheBlockAtIndex(unsigned int);
-    NumberCacheBlocksInQueue();
-    RemoveCacheBlockFromQueue(WA_CacheBlockRec*);
+    auto AddCacheBlockToQueue(WA_CacheBlockRec*);
+    auto CacheBlockAtIndex(unsigned int);
+    auto NumberCacheBlocksInQueue();
+    auto RemoveCacheBlockFromQueue(WA_CacheBlockRec*);
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_WA_CacheBlockQueue();
     com_softraid_driver_SoftRAID_WA_CacheBlockQueue(OSMetaClass const*);
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_WA_CacheBlockQueue();
 };

@@ -4,5 +4,5 @@
 
 class IOGatedOutputQueue {
 public: // (access info unavailable from symbols alone)
-    withTarget(OSObject*, unsigned int (OSObject::*)(__mbuf*, void*), IOWorkLoop*, unsigned int);
+    auto withTarget(OSObject*, unsigned int (OSObject::*)(__mbuf*, void*), IOWorkLoop*, unsigned int);
 };

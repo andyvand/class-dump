@@ -4,5 +4,5 @@
 
 class IOSkywalkPacketBufferPool {
 public: // (access info unavailable from symbols alone)
-    withName(char const*, OSObject*, unsigned int, IOSkywalkPacketBufferPool::PoolOptions const*);
+    auto withName(char const*, OSObject*, unsigned int, IOSkywalkPacketBufferPool::PoolOptions const*);
 };

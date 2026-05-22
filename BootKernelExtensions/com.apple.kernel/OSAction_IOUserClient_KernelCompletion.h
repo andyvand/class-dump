@@ -4,10 +4,12 @@
 
 class OSAction_IOUserClient_KernelCompletion {
 public: // (access info unavailable from symbols alone)
-    Dispatch(IORPC);
     OSAction_IOUserClient_KernelCompletion();
     OSAction_IOUserClient_KernelCompletion(OSMetaClass const*);
-    _Dispatch(OSAction_IOUserClient_KernelCompletion*, IORPC);
-    getMetaClass() const;
+    auto Dispatch(IORPC);
+    auto _Dispatch(OSAction_IOUserClient_KernelCompletion*, IORPC);
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSAction_IOUserClient_KernelCompletion();
 };

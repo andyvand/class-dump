@@ -5,11 +5,12 @@
 class AppleVirtIOBalloonStatsTransaction {
 public: // (access info unavailable from symbols alone)
     AppleVirtIOBalloonStatsTransaction();
-    free();
-    getBuffer();
-    getMemoryDescriptorAtIndex(unsigned int);
-    getMemoryDescriptorCount();
-    getMetaClass() const;
-    init();
+    auto free();
+    auto getBuffer();
+    auto getMemoryDescriptorAtIndex(unsigned int);
+    auto getMemoryDescriptorCount();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
     ~AppleVirtIOBalloonStatsTransaction();
 };

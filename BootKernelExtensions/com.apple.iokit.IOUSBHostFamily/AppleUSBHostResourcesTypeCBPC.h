@@ -6,10 +6,12 @@ class AppleUSBHostResourcesTypeCBPC {
 public: // (access info unavailable from symbols alone)
     AppleUSBHostResourcesTypeCBPC();
     AppleUSBHostResourcesTypeCBPC(OSMetaClass const*);
-    allocateDownstreamBusCurrentGated(IOService*, unsigned int&, unsigned int&);
-    allocateDownstreamBusCurrentGated(IOService*, unsigned int&, unsigned int&)::_os_log_fmt;
-    free();
-    getMetaClass() const;
-    probe(IOService*, int*);
+    auto allocateDownstreamBusCurrentGated(IOService*, unsigned int&, unsigned int&);
+    auto allocateDownstreamBusCurrentGated(IOService*, unsigned int&, unsigned int&)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBHostResourcesTypeCBPC();
 };

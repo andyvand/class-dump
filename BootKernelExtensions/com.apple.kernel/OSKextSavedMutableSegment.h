@@ -6,12 +6,14 @@ class OSKextSavedMutableSegment {
 public: // (access info unavailable from symbols alone)
     OSKextSavedMutableSegment();
     OSKextSavedMutableSegment(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    getVMAddr() const;
-    getVMSize() const;
-    initWithSegment(segment_command_64*);
-    restoreContents(segment_command_64*);
-    withSegment(segment_command_64*);
+    auto free();
+    auto getMetaClass() const;
+    auto getVMAddr() const;
+    auto getVMSize() const;
+    auto initWithSegment(segment_command_64*);
+    auto restoreContents(segment_command_64*);
+    auto withSegment(segment_command_64*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~OSKextSavedMutableSegment();
 };

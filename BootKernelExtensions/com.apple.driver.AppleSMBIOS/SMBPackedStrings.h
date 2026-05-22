@@ -6,7 +6,7 @@ class SMBPackedStrings {
 public: // (access info unavailable from symbols alone)
     SMBPackedStrings(SMBStructHeader const*);
     SMBPackedStrings(SMBStructHeader const*, void const*);
-    setDataProperty(IORegistryEntry*, char const*, unsigned int) const;
-    setStringProperty(IORegistryEntry*, char const*, unsigned int) const;
-    stringAtIndex(unsigned int, unsigned int*, bool) const;
+    auto setDataProperty(IORegistryEntry*, char const*, unsigned int) const;
+    auto setStringProperty(IORegistryEntry*, char const*, unsigned int) const;
+    auto stringAtIndex(unsigned int, unsigned int*, bool) const;
 };

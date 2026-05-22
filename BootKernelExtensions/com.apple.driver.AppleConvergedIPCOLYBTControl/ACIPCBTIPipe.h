@@ -5,16 +5,18 @@
 class ACIPCBTIPipe {
 public: // (access info unavailable from symbols alone)
     ACIPCBTIPipe();
-    cancelImage();
-    getName() const;
-    initialize(acipcBTIPipeParams*);
-    notifyError(acipcErrorType, void*, void*);
-    readRegister(acipcBTIRegisters, unsigned char*, unsigned int*);
-    sendImage(acipcImage*);
-    sendImageCompletion(int, unsigned int);
-    sendImageCompletion(int, unsigned int) (.cold.1);
-    setupPipe();
-    teardownPipe();
-    terminate();
+    auto cancelImage();
+    auto getName() const;
+    auto initialize(acipcBTIPipeParams*);
+    auto notifyError(acipcErrorType, void*, void*);
+    auto readRegister(acipcBTIRegisters, unsigned char*, unsigned int*);
+    auto sendImage(acipcImage*);
+    auto sendImageCompletion(int, unsigned int);
+    auto sendImageCompletion(int, unsigned int) (.cold.1);
+    auto setupPipe();
+    auto teardownPipe();
+    auto terminate();
+    void * operator new(unsigned long)::kalloc_type_view_37;
+    void operator delete(void*, unsigned long)::kalloc_type_view_37;
     ~ACIPCBTIPipe();
 };

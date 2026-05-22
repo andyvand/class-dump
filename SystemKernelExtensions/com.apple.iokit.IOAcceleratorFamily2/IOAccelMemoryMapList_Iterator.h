@@ -5,5 +5,5 @@
 class IOAccelMemoryMapList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelMemoryMapList&);
-    getNextMapping();
+    auto getNextMapping();
 };

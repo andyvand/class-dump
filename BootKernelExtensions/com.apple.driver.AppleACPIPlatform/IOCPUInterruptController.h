@@ -5,16 +5,16 @@
 class IOCPUInterruptController {
 public: // (access info unavailable from symbols alone)
     IOCPUInterruptController(OSMetaClass const*);
-    _RESERVEDIOCPUInterruptController1();
-    _RESERVEDIOCPUInterruptController2();
-    _RESERVEDIOCPUInterruptController3();
-    _RESERVEDIOCPUInterruptController4();
-    _RESERVEDIOCPUInterruptController5();
-    causeInterrupt(IOService*, int);
-    disableInterrupt(IOService*, int);
-    enableCPUInterrupt(IOCPU*);
-    enableInterrupt(IOService*, int);
-    initCPUInterruptController(int, int);
-    registerCPUInterruptController();
+    auto _RESERVEDIOCPUInterruptController1();
+    auto _RESERVEDIOCPUInterruptController2();
+    auto _RESERVEDIOCPUInterruptController3();
+    auto _RESERVEDIOCPUInterruptController4();
+    auto _RESERVEDIOCPUInterruptController5();
+    auto causeInterrupt(IOService*, int);
+    auto disableInterrupt(IOService*, int);
+    auto enableCPUInterrupt(IOCPU*);
+    auto enableInterrupt(IOService*, int);
+    auto initCPUInterruptController(int, int);
+    auto registerCPUInterruptController();
     ~IOCPUInterruptController();
 };

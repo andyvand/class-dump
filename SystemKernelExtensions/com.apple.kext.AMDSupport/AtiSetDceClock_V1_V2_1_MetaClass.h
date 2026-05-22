@@ -5,6 +5,6 @@
 class AtiSetDceClock_V1_V2_1::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

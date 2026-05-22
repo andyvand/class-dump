@@ -4,24 +4,24 @@
 
 class IntervalMapLRU {
 public: // (access info unavailable from symbols alone)
-    changeCacheSize(int);
-    clearAllNodes();
-    clearAllNodes() (.cold.1);
-    clearAllNodes() (.cold.2);
-    insertNode(IntervalMapLRU::Node*, bool, bool (*)(void*, unsigned long long, unsigned long), void*);
-    insertNode(IntervalMapLRU::Node*, bool, bool (*)(void*, unsigned long long, unsigned long), void*) (.cold.1);
-    insertNode(IntervalMapLRU::Node*, bool, bool (*)(void*, unsigned long long, unsigned long), void*) (.cold.2);
-    insertNode(IntervalMapLRU::Node*, bool, bool (*)(void*, unsigned long long, unsigned long), void*) (.cold.3);
-    insertNodeLocked(IntervalMapLRU::Node*, IntervalMapLRU::Node*, bool);
-    insertNodeLocked(IntervalMapLRU::Node*, IntervalMapLRU::Node*, bool) (.cold.1);
-    insertNodeLocked(IntervalMapLRU::Node*, IntervalMapLRU::Node*, bool) (.cold.2);
-    insertNodeLocked(IntervalMapLRU::Node*, IntervalMapLRU::Node*, bool) (.cold.3);
-    invalidateByLRULocked(unsigned long, IntervalMapLRU::_nodes*);
-    invalidateByLRULocked(unsigned long, IntervalMapLRU::_nodes*) (.cold.1);
-    invalidateRange(unsigned long long, unsigned long long);
-    printCache() const;
-    removeNodeLocked(IntervalMapLRU::Node*);
-    removeNodeLocked(IntervalMapLRU::Node*) (.cold.1);
-    removeNodeLocked(IntervalMapLRU::Node*) (.cold.2);
-    searchForRange(unsigned long long, unsigned long long, IntervalMapLRU::NodeCompareRes*, IntervalMapLRU::NodeIterator*);
+    auto changeCacheSize(int);
+    auto clearAllNodes();
+    auto clearAllNodes() (.cold.1);
+    auto clearAllNodes() (.cold.2);
+    auto insertNode(IntervalMapLRU::Node*, bool, bool (*)(void*, unsigned long long, unsigned long), void*);
+    auto insertNode(IntervalMapLRU::Node*, bool, bool (*)(void*, unsigned long long, unsigned long), void*) (.cold.1);
+    auto insertNode(IntervalMapLRU::Node*, bool, bool (*)(void*, unsigned long long, unsigned long), void*) (.cold.2);
+    auto insertNode(IntervalMapLRU::Node*, bool, bool (*)(void*, unsigned long long, unsigned long), void*) (.cold.3);
+    auto insertNodeLocked(IntervalMapLRU::Node*, IntervalMapLRU::Node*, bool);
+    auto insertNodeLocked(IntervalMapLRU::Node*, IntervalMapLRU::Node*, bool) (.cold.1);
+    auto insertNodeLocked(IntervalMapLRU::Node*, IntervalMapLRU::Node*, bool) (.cold.2);
+    auto insertNodeLocked(IntervalMapLRU::Node*, IntervalMapLRU::Node*, bool) (.cold.3);
+    auto invalidateByLRULocked(unsigned long, IntervalMapLRU::_nodes*);
+    auto invalidateByLRULocked(unsigned long, IntervalMapLRU::_nodes*) (.cold.1);
+    auto invalidateRange(unsigned long long, unsigned long long);
+    auto printCache() const;
+    auto removeNodeLocked(IntervalMapLRU::Node*);
+    auto removeNodeLocked(IntervalMapLRU::Node*) (.cold.1);
+    auto removeNodeLocked(IntervalMapLRU::Node*) (.cold.2);
+    auto searchForRange(unsigned long long, unsigned long long, IntervalMapLRU::NodeCompareRes*, IntervalMapLRU::NodeIterator*);
 };

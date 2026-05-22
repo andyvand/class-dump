@@ -6,15 +6,17 @@ class AvpFairPlayTransaction {
 public: // (access info unavailable from symbols alone)
     AvpFairPlayTransaction();
     AvpFairPlayTransaction(OSMetaClass const*);
-    __OSFinalClass();
-    completeBuffers();
-    free();
-    getBufferLength();
-    getBufferSegment(unsigned long long, unsigned long long*, bool*);
-    getMetaClass() const;
-    getRequestBuffer();
-    getResponseBuffer();
-    initWithBufferBytes(void const*, unsigned long, unsigned long);
-    prepareBuffers();
+    auto __OSFinalClass();
+    auto completeBuffers();
+    auto free();
+    auto getBufferLength();
+    auto getBufferSegment(unsigned long long, unsigned long long*, bool*);
+    auto getMetaClass() const;
+    auto getRequestBuffer();
+    auto getResponseBuffer();
+    auto initWithBufferBytes(void const*, unsigned long, unsigned long);
+    auto prepareBuffers();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AvpFairPlayTransaction();
 };

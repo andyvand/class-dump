@@ -6,14 +6,10 @@
 
 AppleUSBCDCCompositeDevice::gMetaClass;
 AppleUSBCDCCompositeDevice::metaClass;
-AppleUSBCDCCompositeDevice::operator delete(void*, unsigned long);
-AppleUSBCDCCompositeDevice::operator new(unsigned long);
 AppleUSBCDCCompositeDevice::superClass;
 AppleUSBCDCCompositeDevice_ktv;
 AppleUSBCDCControl::gMetaClass;
 AppleUSBCDCControl::metaClass;
-AppleUSBCDCControl::operator delete(void*, unsigned long);
-AppleUSBCDCControl::operator new(unsigned long);
 AppleUSBCDCControl::superClass;
 AppleUSBCDCControl_ktv;
 AppleUSBHostCompositeDevice::gMetaClass;
@@ -25,7 +21,7 @@ OSDictionary::metaClass;
 OSNumber::metaClass;
 OSString::metaClass;
 OSSymbol::metaClass;
-findMatchingEndpoint(unsigned char, unsigned char, StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
+auto findMatchingEndpoint(unsigned char, unsigned char, StandardUSB::ConfigurationDescriptor const*, StandardUSB::InterfaceDescriptor const*);
 vtable for AppleUSBCDCCompositeDevice;
 vtable for AppleUSBCDCCompositeDevice::MetaClass;
 vtable for AppleUSBCDCControl;

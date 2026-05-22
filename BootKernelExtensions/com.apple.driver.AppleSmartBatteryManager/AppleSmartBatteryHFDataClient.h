@@ -6,8 +6,10 @@ class AppleSmartBatteryHFDataClient {
 public: // (access info unavailable from symbols alone)
     AppleSmartBatteryHFDataClient();
     AppleSmartBatteryHFDataClient(OSMetaClass const*);
-    closeClient();
-    getMetaClass() const;
-    openClient(OSObject*, void (*)(OSDictionary*, void*), void*);
+    auto closeClient();
+    auto getMetaClass() const;
+    auto openClient(OSObject*, void (*)(OSDictionary*, void*), void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSmartBatteryHFDataClient();
 };

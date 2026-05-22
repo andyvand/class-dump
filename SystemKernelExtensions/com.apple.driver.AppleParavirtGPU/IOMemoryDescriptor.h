@@ -4,6 +4,6 @@
 
 class IOMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
-    getPhysicalAddress();
-    setVMTags(unsigned int, unsigned int);
+    auto getPhysicalAddress();
+    auto setVMTags(unsigned int, unsigned int);
 };

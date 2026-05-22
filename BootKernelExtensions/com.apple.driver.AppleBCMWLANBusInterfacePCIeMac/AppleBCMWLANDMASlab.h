@@ -4,17 +4,17 @@
 
 class AppleBCMWLANDMASlab {
 public: // (access info unavailable from symbols alone)
-    copyBounceToBufferDescriptor(unsigned int, IO80211Buffer*, unsigned int, unsigned int);
-    copyBufferDescriptorToBounce(unsigned int, IO80211Buffer*, unsigned int, unsigned int);
-    free();
-    free()::kalloc_type_view_380;
-    free()::kalloc_type_view_405;
-    genIOVMSegments(unsigned int, unsigned long long*, void*, unsigned int*);
-    getMetaClass() const;
-    initWithOptions(unsigned int, unsigned long, unsigned long, unsigned int, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, IOMapper*, void*);
-    initWithOptions(unsigned int, unsigned long, unsigned long, unsigned int, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, IOMapper*, void*)::kalloc_type_view_165;
-    initWithOptions(unsigned int, unsigned long, unsigned long, unsigned int, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, IOMapper*, void*)::kalloc_type_view_276;
-    withOptions(unsigned int, unsigned long, unsigned long, unsigned int, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, IOMapper*, void*);
-    zero(unsigned int);
+    auto copyBounceToBufferDescriptor(unsigned int, IO80211Buffer*, unsigned int, unsigned int);
+    auto copyBufferDescriptorToBounce(unsigned int, IO80211Buffer*, unsigned int, unsigned int);
+    auto free();
+    auto free()::kalloc_type_view_380;
+    auto free()::kalloc_type_view_405;
+    auto genIOVMSegments(unsigned int, unsigned long long*, void*, unsigned int*);
+    auto getMetaClass() const;
+    auto initWithOptions(unsigned int, unsigned long, unsigned long, unsigned int, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, IOMapper*, void*);
+    auto initWithOptions(unsigned int, unsigned long, unsigned long, unsigned int, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, IOMapper*, void*)::kalloc_type_view_165;
+    auto initWithOptions(unsigned int, unsigned long, unsigned long, unsigned int, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, IOMapper*, void*)::kalloc_type_view_276;
+    auto withOptions(unsigned int, unsigned long, unsigned long, unsigned int, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, IOMapper*, void*);
+    auto zero(unsigned int);
     ~AppleBCMWLANDMASlab();
 };

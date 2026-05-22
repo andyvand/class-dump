@@ -4,13 +4,13 @@
 
 class UDFVarSizeDataIterator {
 public: // (access info unavailable from symbols alone)
-    CurEntryHeaderIsValid();
-    CurEntryIsValid();
-    GetCurLogicalBlkNum();
-    GoToNextEntry();
-    Init(UDFStream*, long long);
-    ReadCurEntry();
-    ReadCurEntry() (.cold.1);
     UDFVarSizeDataIterator(unsigned long, bool);
+    auto CurEntryHeaderIsValid();
+    auto CurEntryIsValid();
+    auto GetCurLogicalBlkNum();
+    auto GoToNextEntry();
+    auto Init(UDFStream*, long long);
+    auto ReadCurEntry();
+    auto ReadCurEntry() (.cold.1);
     ~UDFVarSizeDataIterator();
 };

@@ -6,10 +6,12 @@ class AMDSupport {
 public: // (access info unavailable from symbols alone)
     AMDSupport();
     AMDSupport(OSMetaClass const*);
-    attach(IOService*);
-    detach(IOService*);
-    getMetaClass() const;
-    probe(IOService*, int*);
-    start(IOService*);
+    auto attach(IOService*);
+    auto detach(IOService*);
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto start(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDSupport();
 };

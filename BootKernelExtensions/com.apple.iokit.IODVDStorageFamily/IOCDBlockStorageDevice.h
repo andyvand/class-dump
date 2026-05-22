@@ -5,21 +5,21 @@
 class IOCDBlockStorageDevice {
 public: // (access info unavailable from symbols alone)
     IOCDBlockStorageDevice(OSMetaClass const*);
-    _RESERVEDIOCDBlockStorageDevice0();
-    _RESERVEDIOCDBlockStorageDevice1();
-    _RESERVEDIOCDBlockStorageDevice10();
-    _RESERVEDIOCDBlockStorageDevice11();
-    _RESERVEDIOCDBlockStorageDevice12();
-    _RESERVEDIOCDBlockStorageDevice13();
-    _RESERVEDIOCDBlockStorageDevice14();
-    _RESERVEDIOCDBlockStorageDevice15();
-    _RESERVEDIOCDBlockStorageDevice2();
-    _RESERVEDIOCDBlockStorageDevice3();
-    _RESERVEDIOCDBlockStorageDevice4();
-    _RESERVEDIOCDBlockStorageDevice5();
-    _RESERVEDIOCDBlockStorageDevice6();
-    _RESERVEDIOCDBlockStorageDevice7();
-    _RESERVEDIOCDBlockStorageDevice8();
-    _RESERVEDIOCDBlockStorageDevice9();
+    auto _RESERVEDIOCDBlockStorageDevice0();
+    auto _RESERVEDIOCDBlockStorageDevice1();
+    auto _RESERVEDIOCDBlockStorageDevice10();
+    auto _RESERVEDIOCDBlockStorageDevice11();
+    auto _RESERVEDIOCDBlockStorageDevice12();
+    auto _RESERVEDIOCDBlockStorageDevice13();
+    auto _RESERVEDIOCDBlockStorageDevice14();
+    auto _RESERVEDIOCDBlockStorageDevice15();
+    auto _RESERVEDIOCDBlockStorageDevice2();
+    auto _RESERVEDIOCDBlockStorageDevice3();
+    auto _RESERVEDIOCDBlockStorageDevice4();
+    auto _RESERVEDIOCDBlockStorageDevice5();
+    auto _RESERVEDIOCDBlockStorageDevice6();
+    auto _RESERVEDIOCDBlockStorageDevice7();
+    auto _RESERVEDIOCDBlockStorageDevice8();
+    auto _RESERVEDIOCDBlockStorageDevice9();
     ~IOCDBlockStorageDevice();
 };

@@ -4,6 +4,6 @@
 
 class IGIOMallocAllocatorPolicy<resetRegisterInfo> {
 public: // (access info unavailable from symbols alone)
-    allocate(unsigned long)::kalloc_type_view_24;
-    deallocate(resetRegisterInfo*, unsigned long)::kalloc_type_view_29;
+    auto allocate(unsigned long)::kalloc_type_view_24;
+    auto deallocate(resetRegisterInfo*, unsigned long)::kalloc_type_view_29;
 };

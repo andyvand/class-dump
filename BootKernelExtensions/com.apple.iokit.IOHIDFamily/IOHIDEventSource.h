@@ -4,13 +4,15 @@
 
 class IOHIDEventSource {
 public: // (access info unavailable from symbols alone)
-    HIDEventSource(OSObject*, void (*)(OSObject*, ...));
     IOHIDEventSource();
     IOHIDEventSource(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    lock();
-    setWorkLoop(IOWorkLoop*);
-    unlock();
+    auto HIDEventSource(OSObject*, void (*)(OSObject*, ...));
+    auto free();
+    auto getMetaClass() const;
+    auto lock();
+    auto setWorkLoop(IOWorkLoop*);
+    auto unlock();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOHIDEventSource();
 };

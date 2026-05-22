@@ -4,6 +4,8 @@
 
 class TLE::RefCounted {
 public: // (access info unavailable from symbols alone)
+    void operator delete(void*, unsigned long)::kalloc_type_view_101;
+    void operator delete(void*, unsigned long)::kalloc_type_view_101 (.47);
     ~RefCounted();
     ~RefCounted() (.45);
     ~RefCounted() (.46);

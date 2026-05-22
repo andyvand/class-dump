@@ -4,5 +4,5 @@
 
 class IOThunderboltWorkLoop {
 public: // (access info unavailable from symbols alone)
-    workLoop();
+    auto workLoop();
 };

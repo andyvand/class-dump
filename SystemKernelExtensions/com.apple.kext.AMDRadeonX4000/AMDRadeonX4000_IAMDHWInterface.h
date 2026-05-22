@@ -5,7 +5,9 @@
 class AMDRadeonX4000_IAMDHWInterface {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_IAMDHWInterface(OSMetaClass const*);
-    getMetaClass() const;
-    pollWait(AMDRadeonX4000_IAMDHWInterface::PollWaitCtx&);
+    auto getMetaClass() const;
+    auto pollWait(AMDRadeonX4000_IAMDHWInterface::PollWaitCtx&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_IAMDHWInterface();
 };

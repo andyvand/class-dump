@@ -6,9 +6,11 @@ class AMDRadeonX6000_AmdInterruptReferenceCallback {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX6000_AmdInterruptReferenceCallback();
     AMDRadeonX6000_AmdInterruptReferenceCallback(OSMetaClass const*);
-    createCallback(void (*)(void*, void*), void*, AMDRadeonX6000_IAmdLogger*);
-    getMetaClass() const;
-    initWithCallback(void (*)(void*, void*), void*, AMDRadeonX6000_IAmdLogger*);
-    notify(void*);
+    auto createCallback(void (*)(void*, void*), void*, AMDRadeonX6000_IAmdLogger*);
+    auto getMetaClass() const;
+    auto initWithCallback(void (*)(void*, void*), void*, AMDRadeonX6000_IAmdLogger*);
+    auto notify(void*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX6000_AmdInterruptReferenceCallback();
 };

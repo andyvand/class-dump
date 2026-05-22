@@ -4,10 +4,10 @@
 
 class UDFExtAttrIterator {
 public: // (access info unavailable from symbols alone)
-    CurEntryIsValid();
-    CurEntryLen();
-    Init(UDFStream*, long long);
-    ReadBytes(long long, unsigned long, unsigned char*);
     UDFExtAttrIterator();
+    auto CurEntryIsValid();
+    auto CurEntryLen();
+    auto Init(UDFStream*, long long);
+    auto ReadBytes(long long, unsigned long, unsigned char*);
     ~UDFExtAttrIterator();
 };

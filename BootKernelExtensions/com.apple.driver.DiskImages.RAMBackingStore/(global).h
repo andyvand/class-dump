@@ -8,8 +8,6 @@ IOMemoryDescriptor::metaClass;
 KDIBackingStore::gMetaClass;
 KDIRAMBackingStore::gMetaClass;
 KDIRAMBackingStore::metaClass;
-KDIRAMBackingStore::operator delete(void*, unsigned long);
-KDIRAMBackingStore::operator new(unsigned long);
 KDIRAMBackingStore::superClass;
 KDIRAMBackingStore_ktv;
 KDIURL::metaClass;

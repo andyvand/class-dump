@@ -5,13 +5,13 @@
 class IO80211FlowQueue {
 public: // (access info unavailable from symbols alone)
     IO80211FlowQueue(OSMetaClass const*);
-    enqueuePacket(IOSkywalkNetworkPacket*);
-    enqueuePacket(__mbuf*);
-    getHash() const;
-    initWithParamaters(ether_addr const&, unsigned char, unsigned char);
-    isPaused();
-    pause();
-    print(void*);
-    unPause();
+    auto enqueuePacket(IOSkywalkNetworkPacket*);
+    auto enqueuePacket(__mbuf*);
+    auto getHash() const;
+    auto initWithParamaters(ether_addr const&, unsigned char, unsigned char);
+    auto isPaused();
+    auto pause();
+    auto print(void*);
+    auto unPause();
     ~IO80211FlowQueue();
 };

@@ -6,11 +6,13 @@ class IOPCIDiagnosticsClient {
 public: // (access info unavailable from symbols alone)
     IOPCIDiagnosticsClient();
     IOPCIDiagnosticsClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
-    getMetaClass() const;
-    getService();
-    initWithTask(task*, void*, unsigned int, OSDictionary*);
-    setProperties(OSObject*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArguments*, IOExternalMethodDispatch*, OSObject*, void*);
+    auto getMetaClass() const;
+    auto getService();
+    auto initWithTask(task*, void*, unsigned int, OSDictionary*);
+    auto setProperties(OSObject*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOPCIDiagnosticsClient();
 };

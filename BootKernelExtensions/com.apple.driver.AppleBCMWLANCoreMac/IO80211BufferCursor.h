@@ -4,6 +4,6 @@
 
 class IO80211BufferCursor {
 public: // (access info unavailable from symbols alone)
-    _crop(unsigned long, unsigned long) const;
-    copyFrom(IO80211BufferCursor const&, unsigned long);
+    auto _crop(unsigned long, unsigned long) const;
+    auto copyFrom(IO80211BufferCursor const&, unsigned long);
 };

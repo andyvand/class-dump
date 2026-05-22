@@ -4,7 +4,7 @@
 
 // Global C++ functions
 
-GetIOMediaObjectFromBSDName(char const*);
-GetIOMediaObjectFromFSName(char const*);
 IOMedia::metaClass;
 OSString::metaClass;
+auto GetIOMediaObjectFromBSDName(char const*);
+auto GetIOMediaObjectFromFSName(char const*);

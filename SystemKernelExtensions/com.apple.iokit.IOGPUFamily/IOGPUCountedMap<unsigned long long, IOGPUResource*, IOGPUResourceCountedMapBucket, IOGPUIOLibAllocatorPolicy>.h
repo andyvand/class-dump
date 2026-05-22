@@ -4,7 +4,9 @@
 
 class IOGPUCountedMap<unsigned long long, IOGPUResource*, IOGPUResourceCountedMapBucket, IOGPUIOLibAllocatorPolicy> {
 public: // (access info unavailable from symbols alone)
-    init(unsigned int, unsigned int);
-    rehash(unsigned int);
+    auto init(unsigned int, unsigned int);
+    auto rehash(unsigned int);
+    void * operator new(unsigned long)::kalloc_type_view_33;
+    void operator delete(void*, unsigned long)::kalloc_type_view_33;
     ~IOGPUCountedMap();
 };

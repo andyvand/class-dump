@@ -4,5 +4,5 @@
 
 class AIDTraceBuffer<128u> {
 public: // (access info unavailable from symbols alone)
-    trace(unsigned int, unsigned int, unsigned int, unsigned int);
+    auto trace(unsigned int, unsigned int, unsigned int, unsigned int);
 };

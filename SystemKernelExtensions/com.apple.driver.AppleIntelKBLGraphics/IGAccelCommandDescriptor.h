@@ -4,6 +4,8 @@
 
 class IGAccelCommandDescriptor {
 public: // (access info unavailable from symbols alone)
-    init(IOGraphicsAccelerator2*);
+    auto init(IOGraphicsAccelerator2*);
+    void * operator new(unsigned long)::kalloc_type_view_28;
+    void operator delete(void*, unsigned long)::kalloc_type_view_33;
     ~IGAccelCommandDescriptor();
 };

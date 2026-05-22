@@ -5,5 +5,5 @@
 class IOAccelSurfaceList::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(IOAccelSurfaceList&);
-    getNextSurface();
+    auto getNextSurface();
 };

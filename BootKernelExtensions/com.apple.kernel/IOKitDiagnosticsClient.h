@@ -6,10 +6,12 @@ class IOKitDiagnosticsClient {
 public: // (access info unavailable from symbols alone)
     IOKitDiagnosticsClient();
     IOKitDiagnosticsClient(OSMetaClass const*);
-    clientClose();
-    externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
-    getMetaClass() const;
-    setProperties(OSObject*);
-    withTask(task*);
+    auto clientClose();
+    auto externalMethod(unsigned int, IOExternalMethodArgumentsOpaque*);
+    auto getMetaClass() const;
+    auto setProperties(OSObject*);
+    auto withTask(task*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOKitDiagnosticsClient();
 };

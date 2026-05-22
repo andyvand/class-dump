@@ -4,6 +4,6 @@
 
 class DPTrainingSettingsCalculator {
 public: // (access info unavailable from symbols alone)
-    maxLinkLanes() const;
-    maxLinkRate() const;
+    auto maxLinkLanes() const;
+    auto maxLinkRate() const;
 };

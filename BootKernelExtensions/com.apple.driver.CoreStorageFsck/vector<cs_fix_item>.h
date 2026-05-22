@@ -4,6 +4,6 @@
 
 class vector<cs_fix_item> {
 public: // (access info unavailable from symbols alone)
-    push_back(cs_fix_item const&);
-    reserve(unsigned long);
+    auto push_back(cs_fix_item const&);
+    auto reserve(unsigned long);
 };

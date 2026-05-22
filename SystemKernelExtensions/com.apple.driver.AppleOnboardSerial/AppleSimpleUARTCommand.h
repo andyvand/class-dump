@@ -6,9 +6,11 @@ class AppleSimpleUARTCommand {
 public: // (access info unavailable from symbols alone)
     AppleSimpleUARTCommand();
     AppleSimpleUARTCommand(OSMetaClass const*);
-    getMetaClass() const;
-    resetMbuf(__mbuf*);
-    setUARTCommand(unsigned long long, unsigned long long, unsigned long long);
-    setUARTCommand(unsigned long long, unsigned long long, unsigned long long)::currentCount;
+    auto getMetaClass() const;
+    auto resetMbuf(__mbuf*);
+    auto setUARTCommand(unsigned long long, unsigned long long, unsigned long long);
+    auto setUARTCommand(unsigned long long, unsigned long long, unsigned long long)::currentCount;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSimpleUARTCommand();
 };

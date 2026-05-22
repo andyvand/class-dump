@@ -6,14 +6,16 @@ class IOInterleavedMemoryDescriptor {
 public: // (access info unavailable from symbols alone)
     IOInterleavedMemoryDescriptor();
     IOInterleavedMemoryDescriptor(OSMetaClass const*);
-    clearMemoryDescriptors(unsigned int);
-    complete(unsigned int);
-    free();
-    getMetaClass() const;
-    getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
-    initWithCapacity(unsigned long long, unsigned int);
-    prepare(unsigned int);
-    setMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned long long);
-    withCapacity(unsigned long long, unsigned int);
+    auto clearMemoryDescriptors(unsigned int);
+    auto complete(unsigned int);
+    auto free();
+    auto getMetaClass() const;
+    auto getPhysicalSegment(unsigned long long, unsigned long long*, unsigned int);
+    auto initWithCapacity(unsigned long long, unsigned int);
+    auto prepare(unsigned int);
+    auto setMemoryDescriptor(IOMemoryDescriptor*, unsigned long long, unsigned long long);
+    auto withCapacity(unsigned long long, unsigned int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOInterleavedMemoryDescriptor();
 };

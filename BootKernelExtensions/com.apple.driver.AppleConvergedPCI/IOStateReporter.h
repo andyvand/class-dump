@@ -4,7 +4,7 @@
 
 class IOStateReporter {
 public: // (access info unavailable from symbols alone)
-    incrementChannelState(unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long);
-    setStateID(unsigned long long, int, unsigned long long);
-    with(IOService*, unsigned short, int, unsigned long long);
+    auto incrementChannelState(unsigned long long, unsigned long long, unsigned long long, unsigned long long, unsigned long long);
+    auto setStateID(unsigned long long, int, unsigned long long);
+    auto with(IOService*, unsigned short, int, unsigned long long);
 };

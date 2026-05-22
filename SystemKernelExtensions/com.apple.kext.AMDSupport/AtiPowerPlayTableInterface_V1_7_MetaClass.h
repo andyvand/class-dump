@@ -5,6 +5,6 @@
 class AtiPowerPlayTableInterface_V1_7::MetaClass {
 public: // (access info unavailable from symbols alone)
     MetaClass();
-    alloc() const;
+    auto alloc() const;
     ~MetaClass();
 };

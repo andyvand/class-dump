@@ -4,25 +4,25 @@
 
 class IOSCSIProtocolInterface {
 public: // (access info unavailable from symbols alone)
-    CheckPowerState();
-    GetUserClientExclusivityState();
-    HandleGetUserClientExclusivityState();
-    HandleSetPowerState(unsigned int);
-    HandleSetUserClientExclusivityState(IOService*, bool);
-    IsPowerManagementIntialized();
-    SetUserClientExclusivityState(IOService*, bool);
-    _RESERVEDIOSCSIProtocolInterface10();
-    _RESERVEDIOSCSIProtocolInterface11();
-    _RESERVEDIOSCSIProtocolInterface12();
-    _RESERVEDIOSCSIProtocolInterface13();
-    _RESERVEDIOSCSIProtocolInterface14();
-    _RESERVEDIOSCSIProtocolInterface15();
-    _RESERVEDIOSCSIProtocolInterface16();
-    _RESERVEDIOSCSIProtocolInterface7();
-    _RESERVEDIOSCSIProtocolInterface8();
-    _RESERVEDIOSCSIProtocolInterface9();
-    finalize(unsigned int);
-    initialPowerStateForDomainState(unsigned long);
-    setPowerState(unsigned long, IOService*);
-    willTerminate(IOService*, unsigned int);
+    auto CheckPowerState();
+    auto GetUserClientExclusivityState();
+    auto HandleGetUserClientExclusivityState();
+    auto HandleSetPowerState(unsigned int);
+    auto HandleSetUserClientExclusivityState(IOService*, bool);
+    auto IsPowerManagementIntialized();
+    auto SetUserClientExclusivityState(IOService*, bool);
+    auto _RESERVEDIOSCSIProtocolInterface10();
+    auto _RESERVEDIOSCSIProtocolInterface11();
+    auto _RESERVEDIOSCSIProtocolInterface12();
+    auto _RESERVEDIOSCSIProtocolInterface13();
+    auto _RESERVEDIOSCSIProtocolInterface14();
+    auto _RESERVEDIOSCSIProtocolInterface15();
+    auto _RESERVEDIOSCSIProtocolInterface16();
+    auto _RESERVEDIOSCSIProtocolInterface7();
+    auto _RESERVEDIOSCSIProtocolInterface8();
+    auto _RESERVEDIOSCSIProtocolInterface9();
+    auto finalize(unsigned int);
+    auto initialPowerStateForDomainState(unsigned long);
+    auto setPowerState(unsigned long, IOService*);
+    auto willTerminate(IOService*, unsigned int);
 };

@@ -6,14 +6,16 @@ class AMDRadeonX5000_AMDUVD7EncChannel {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDUVD7EncChannel();
     AMDRadeonX5000_AMDUVD7EncChannel(OSMetaClass const*);
-    alignIBCommandBuffer(unsigned int*, unsigned int);
-    commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
-    free();
-    getIBAlignmentFactor();
-    getIndirectCommandSize();
-    getMetaClass() const;
-    getOneDwordNOPCommand();
-    init(int, AMDRadeonX5000_IAMDHWInterface*, AMDRadeonX5000_IAMDHWEngine*, AMDRadeonX5000_IAMDHWRing*, char const*);
-    initializeIndirectCommandBufferFrame();
+    auto alignIBCommandBuffer(unsigned int*, unsigned int);
+    auto commitIndirectCommandBuffer(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto free();
+    auto getIBAlignmentFactor();
+    auto getIndirectCommandSize();
+    auto getMetaClass() const;
+    auto getOneDwordNOPCommand();
+    auto init(int, AMDRadeonX5000_IAMDHWInterface*, AMDRadeonX5000_IAMDHWEngine*, AMDRadeonX5000_IAMDHWRing*, char const*);
+    auto initializeIndirectCommandBufferFrame();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDUVD7EncChannel();
 };

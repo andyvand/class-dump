@@ -4,6 +4,6 @@
 
 class IOHistogramReporter {
 public: // (access info unavailable from symbols alone)
-    tallyValue(long long);
-    with(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
+    auto tallyValue(long long);
+    auto with(IOService*, unsigned short, unsigned long long, char const*, unsigned long long, int, IOHistogramSegmentConfig*);
 };

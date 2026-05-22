@@ -6,14 +6,16 @@ class AppleThunderboltDPInAdapterOS {
 public: // (access info unavailable from symbols alone)
     AppleThunderboltDPInAdapterOS();
     AppleThunderboltDPInAdapterOS(OSMetaClass const*);
-    assignGroupID(unsigned char);
-    getBWAMSupport();
-    getBWAMSupportIsSimulated();
-    getGroupID();
-    getMetaClass() const;
-    probe(IOService*, int*);
-    processDPBandwidthNotification();
-    setBWAMSupport(bool);
-    setBWAMSupportIsSimulated(bool);
+    auto assignGroupID(unsigned char);
+    auto getBWAMSupport();
+    auto getBWAMSupportIsSimulated();
+    auto getGroupID();
+    auto getMetaClass() const;
+    auto probe(IOService*, int*);
+    auto processDPBandwidthNotification();
+    auto setBWAMSupport(bool);
+    auto setBWAMSupportIsSimulated(bool);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleThunderboltDPInAdapterOS();
 };

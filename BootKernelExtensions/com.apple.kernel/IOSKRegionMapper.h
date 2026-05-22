@@ -6,12 +6,14 @@ class IOSKRegionMapper {
 public: // (access info unavailable from symbols alone)
     IOSKRegionMapper();
     IOSKRegionMapper(OSMetaClass const*);
-    __OSFinalClass();
-    free();
-    getMetaClass() const;
-    initWithMapper(IOSKMapper*, IOSKRegion*, unsigned int);
-    map(unsigned int, IOSKMemoryBuffer*);
-    mapOverwrite(unsigned long long, unsigned long long, int);
-    unmap(unsigned int, int);
+    auto __OSFinalClass();
+    auto free();
+    auto getMetaClass() const;
+    auto initWithMapper(IOSKMapper*, IOSKRegion*, unsigned int);
+    auto map(unsigned int, IOSKMemoryBuffer*);
+    auto mapOverwrite(unsigned long long, unsigned long long, int);
+    auto unmap(unsigned int, int);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOSKRegionMapper();
 };

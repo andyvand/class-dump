@@ -4,15 +4,17 @@
 
 class com_softraid_driver_SoftRAID_StatusRecFlusher {
 public: // (access info unavailable from symbols alone)
-    BlockShutdown();
-    HandleTimeout(IOTimerEventSource*);
-    InstallTimer(unsigned int);
-    RemoveTimer();
-    SetPreferences(DriverPrefsRec*);
+    auto BlockShutdown();
+    auto HandleTimeout(IOTimerEventSource*);
+    auto InstallTimer(unsigned int);
+    auto RemoveTimer();
+    auto SetPreferences(DriverPrefsRec*);
+    auto free();
+    auto getMetaClass() const;
+    auto init();
     com_softraid_driver_SoftRAID_StatusRecFlusher();
     com_softraid_driver_SoftRAID_StatusRecFlusher(OSMetaClass const*);
-    free();
-    getMetaClass() const;
-    init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~com_softraid_driver_SoftRAID_StatusRecFlusher();
 };

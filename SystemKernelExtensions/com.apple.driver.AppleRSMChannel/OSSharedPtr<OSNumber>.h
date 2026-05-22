@@ -6,6 +6,6 @@ class OSSharedPtr<OSNumber> {
 public: // (access info unavailable from symbols alone)
     OSSharedPtr(OSNumber*, libkern::no_retain_t);
     OSSharedPtr(std::nullptr_t);
-    operator=(OSSharedPtr<OSNumber>&&);
+    auto operator=(OSSharedPtr<OSNumber>&&);
     ~OSSharedPtr();
 };

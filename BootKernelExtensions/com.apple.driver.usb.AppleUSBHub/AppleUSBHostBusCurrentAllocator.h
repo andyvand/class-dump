@@ -4,5 +4,5 @@
 
 class AppleUSBHostBusCurrentAllocator {
 public: // (access info unavailable from symbols alone)
-    withOwnerAndProvider(IOService*, AppleUSBHub*);
+    auto withOwnerAndProvider(IOService*, AppleUSBHub*);
 };

@@ -5,19 +5,21 @@
 class AMDRadeonX4000_AMDHWEngine {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX4000_AMDHWEngine(OSMetaClass const*);
-    allocateAndInitHWChannels();
-    allocateAndInitHWRings();
-    allocateMemoryResources();
-    free();
-    freeMemoryResources();
-    getHWChannel(_eAMD_HW_RING_TYPE);
-    getMetaClass() const;
-    init(AMDRadeonX4000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
-    initializeSubmitCommandBufferInfo(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
-    releaseHWChannels();
-    releaseHWRings();
-    reset(_eAMD_HW_RING_TYPE, unsigned int*);
-    waitForIdle(unsigned int);
-    writeDiagnosisReport(char*&, unsigned int&);
+    auto allocateAndInitHWChannels();
+    auto allocateAndInitHWRings();
+    auto allocateMemoryResources();
+    auto free();
+    auto freeMemoryResources();
+    auto getHWChannel(_eAMD_HW_RING_TYPE);
+    auto getMetaClass() const;
+    auto init(AMDRadeonX4000_IAMDHWInterface*, _eAMD_HW_ENGINE_TYPE);
+    auto initializeSubmitCommandBufferInfo(AMD_SUBMIT_COMMAND_BUFFER_INFO*);
+    auto releaseHWChannels();
+    auto releaseHWRings();
+    auto reset(_eAMD_HW_RING_TYPE, unsigned int*);
+    auto waitForIdle(unsigned int);
+    auto writeDiagnosisReport(char*&, unsigned int&);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX4000_AMDHWEngine();
 };

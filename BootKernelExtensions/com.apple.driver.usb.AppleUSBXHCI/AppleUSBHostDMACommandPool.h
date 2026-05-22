@@ -4,5 +4,5 @@
 
 class AppleUSBHostDMACommandPool {
 public: // (access info unavailable from symbols alone)
-    withSpecification(IOWorkLoop*, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned int, unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, unsigned int, IOMapper*);
+    auto withSpecification(IOWorkLoop*, bool (*)(IODMACommand*, IODMACommand::Segment64, void*, unsigned int), unsigned int, unsigned char, unsigned long long, IODMACommand::MappingOptions, unsigned long long, unsigned int, unsigned int, IOMapper*);
 };

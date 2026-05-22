@@ -4,5 +4,5 @@
 
 class IOSMBusTransactionEx {
 public: // (access info unavailable from symbols alone)
-    dump() const;
+    auto dump() const;
 };

@@ -5,9 +5,11 @@
 class AppleUSBVHCIEventQueue {
 public: // (access info unavailable from symbols alone)
     AppleUSBVHCIEventQueue(OSMetaClass const*);
-    disable();
-    enable();
-    getMetaClass() const;
-    init();
+    auto disable();
+    auto enable();
+    auto getMetaClass() const;
+    auto init();
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleUSBVHCIEventQueue();
 };

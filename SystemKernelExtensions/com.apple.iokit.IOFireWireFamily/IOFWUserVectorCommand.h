@@ -6,14 +6,16 @@ class IOFWUserVectorCommand {
 public: // (access info unavailable from symbols alone)
     IOFWUserVectorCommand();
     IOFWUserVectorCommand(OSMetaClass const*);
-    asyncCompletion(void*, int, IOFireWireNub*, IOFWCommand*);
-    asyncPHYCompletion(void*, int, IOFireWireBus*, IOFWAsyncPHYCommand*);
-    free();
-    getMetaClass() const;
-    initWithUserClient(IOFireWireUserClient*);
-    setBuffers(unsigned long long, unsigned long long, unsigned long long, unsigned long long);
-    submit(unsigned long long*, unsigned long long, unsigned long long);
-    submitOneCommand(IOFireWireLib::CommandSubmitParams*);
-    withUserClient(IOFireWireUserClient*);
+    auto asyncCompletion(void*, int, IOFireWireNub*, IOFWCommand*);
+    auto asyncPHYCompletion(void*, int, IOFireWireBus*, IOFWAsyncPHYCommand*);
+    auto free();
+    auto getMetaClass() const;
+    auto initWithUserClient(IOFireWireUserClient*);
+    auto setBuffers(unsigned long long, unsigned long long, unsigned long long, unsigned long long);
+    auto submit(unsigned long long*, unsigned long long, unsigned long long);
+    auto submitOneCommand(IOFireWireLib::CommandSubmitParams*);
+    auto withUserClient(IOFireWireUserClient*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~IOFWUserVectorCommand();
 };

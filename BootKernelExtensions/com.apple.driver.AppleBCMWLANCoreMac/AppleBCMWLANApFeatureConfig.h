@@ -4,11 +4,11 @@
 
 class AppleBCMWLANApFeatureConfig {
 public: // (access info unavailable from symbols alone)
-    free();
-    free()::kalloc_type_view_72;
-    getMetaClass() const;
-    handleLimitedAggregation();
-    initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_83;
-    sendBeaconMitigationParams(apple80211_bcn_mute_config&);
+    auto free();
+    auto free()::kalloc_type_view_72;
+    auto getMetaClass() const;
+    auto handleLimitedAggregation();
+    auto initWithDriver(AppleBCMWLANCore*)::kalloc_type_view_83;
+    auto sendBeaconMitigationParams(apple80211_bcn_mute_config&);
     ~AppleBCMWLANApFeatureConfig();
 };

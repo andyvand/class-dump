@@ -6,12 +6,14 @@ class AppleSDXCCommand {
 public: // (access info unavailable from symbols alone)
     AppleSDXCCommand();
     AppleSDXCCommand(OSMetaClass const*);
-    Create(IOService*, unsigned short, IOMapper*, unsigned char, bool, unsigned int);
-    GenerateDMASegments();
-    Initialize(bool, unsigned int, unsigned int, unsigned int, IOMapper*, unsigned char);
-    OutputSegment(IODMACommand*, IODMACommand::Segment64, void*, unsigned int);
-    OutputSegment(IODMACommand*, IODMACommand::Segment64, void*, unsigned int)::_os_log_fmt;
-    free();
-    getMetaClass() const;
+    auto Create(IOService*, unsigned short, IOMapper*, unsigned char, bool, unsigned int);
+    auto GenerateDMASegments();
+    auto Initialize(bool, unsigned int, unsigned int, unsigned int, IOMapper*, unsigned char);
+    auto OutputSegment(IODMACommand*, IODMACommand::Segment64, void*, unsigned int);
+    auto OutputSegment(IODMACommand*, IODMACommand::Segment64, void*, unsigned int)::_os_log_fmt;
+    auto free();
+    auto getMetaClass() const;
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AppleSDXCCommand();
 };

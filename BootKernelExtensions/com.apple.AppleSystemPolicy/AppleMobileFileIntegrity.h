@@ -4,6 +4,6 @@
 
 class AppleMobileFileIntegrity {
 public: // (access info unavailable from symbols alone)
-    copyEntitlement(proc*, char const*);
-    isHardeningEnabled();
+    auto copyEntitlement(proc*, char const*);
+    auto isHardeningEnabled();
 };

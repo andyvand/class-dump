@@ -4,5 +4,5 @@
 
 class AppleUSBHostPort {
 public: // (access info unavailable from symbols alone)
-    portDictionary(unsigned int, tUSBHostPortType, unsigned int);
+    auto portDictionary(unsigned int, tUSBHostPortType, unsigned int);
 };

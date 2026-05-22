@@ -6,9 +6,11 @@ class VMPlatformPlugin {
 public: // (access info unavailable from symbols alone)
     VMPlatformPlugin();
     VMPlatformPlugin(OSMetaClass const*);
-    getMetaClass() const;
-    initPowerNotifications(IOService*);
-    start(IOService*);
-    stop(IOService*);
+    auto getMetaClass() const;
+    auto initPowerNotifications(IOService*);
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~VMPlatformPlugin();
 };

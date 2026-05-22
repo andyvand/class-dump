@@ -5,19 +5,21 @@
 class AMDRadeonX5000_AMDRadeonHWServicesAbstract {
 public: // (access info unavailable from symbols alone)
     AMDRadeonX5000_AMDRadeonHWServicesAbstract(OSMetaClass const*);
-    attach(IOService*);
-    createPowerPlayInterface(PowerPlayCallbacks*);
-    detach(IOService*);
-    findPlugIn();
-    free();
-    getCail();
-    getMetaClass() const;
-    getTtl();
-    populateDeviceInfo(AMDRadeonX5000_AMDRadeonHWServicesAbstract::DeviceInfo*);
-    probe(IOService*, int*);
-    readProjectName();
-    readProjectName()::EFI_PROJECT_NAME_PROPERTY;
-    start(IOService*);
-    stop(IOService*);
+    auto attach(IOService*);
+    auto createPowerPlayInterface(PowerPlayCallbacks*);
+    auto detach(IOService*);
+    auto findPlugIn();
+    auto free();
+    auto getCail();
+    auto getMetaClass() const;
+    auto getTtl();
+    auto populateDeviceInfo(AMDRadeonX5000_AMDRadeonHWServicesAbstract::DeviceInfo*);
+    auto probe(IOService*, int*);
+    auto readProjectName();
+    auto readProjectName()::EFI_PROJECT_NAME_PROPERTY;
+    auto start(IOService*);
+    auto stop(IOService*);
+    void * operator new(unsigned long);
+    void operator delete(void*, unsigned long);
     ~AMDRadeonX5000_AMDRadeonHWServicesAbstract();
 };

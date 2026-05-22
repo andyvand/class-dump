@@ -4,8 +4,8 @@
 
 class AppleUSBDescriptorCache {
 public: // (access info unavailable from symbols alone)
-    descriptorCache();
-    getDescriptor(unsigned char, unsigned short&, unsigned char, unsigned short);
-    removeDescriptor(unsigned char, unsigned char, unsigned short);
-    setDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short);
+    auto descriptorCache();
+    auto getDescriptor(unsigned char, unsigned short&, unsigned char, unsigned short);
+    auto removeDescriptor(unsigned char, unsigned char, unsigned short);
+    auto setDescriptor(StandardUSB::Descriptor const*, unsigned short, unsigned char, unsigned short);
 };
